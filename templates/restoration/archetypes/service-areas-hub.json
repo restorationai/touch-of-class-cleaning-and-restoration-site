@@ -1,0 +1,20 @@
+{
+  "name": "ServiceAreasHub",
+  "fixed_ref": "service-areas-hub",
+  "path_pattern": "/service-areas/",
+  "title_template": "Service Areas | {brand.display_name} Restoration",
+  "h1_template": "Areas We Serve",
+  "meta_description_template": "{brand.display_name} provides 24/7 restoration services across {brand.primary_city} and the surrounding region. Find your city.",
+  "primary_keyword_template": "{brand.display_name|lower} service areas",
+  "secondary_keywords": [
+    "restoration service area",
+    "cities we serve",
+    "local restoration coverage"
+  ],
+  "search_intent_default": "navigational_local",
+  "target_word_count": 500,
+  "image_roles": ["hero", "og"],
+  "schema_stubs": ["organization", "website", "local-business", "breadcrumb-list"],
+  "linking_rules_ref": "service-areas-hub",
+  "required_brand_fields": ["display_name", "primary_city"]
+}

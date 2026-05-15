@@ -1,0 +1,65 @@
+---
+import { brand } from "~/lib/brand";
+
+type Props = {
+  city: string;
+  state: string;
+  service?: string;        // optional, for the heading on city × service combo pages
+  heading?: string;        // override the auto-generated heading
+  height?: number;         // map height in px; default 400
+};
+
+const {
+  city,
+  state,
+  service,
+  heading = service
+    ? `${service} in ${city}: Service Coverage Map`
+    : `Serving ${city} and Surrounding Neighborhoods`,
+  height = 400,
+} = Astro.props;
+
+// Build the query string for the Google Maps Embed API.
+// If no API key is configured, fall back to a plain Google Maps link (no embed).
+const query = encodeURIComponent(`${city}, ${state}`);
+const hasKey = Boolean(brand.googleMapsApiKey && brand.googleMapsApiKey.length > 0);
+const embedSrc = hasKey
+  ? `https://www.google.com/maps/embed/v1/place?key=${brand.googleMapsApiKey}&q=${query}&zoom=11`
+  : null;
+const fallbackHref = `https://www.google.com/maps/search/?api=1&query=${query}`;
+---
+
+<section class="section bg-navy">
+  <div class="container-wide">
+    <div class="mb-8">
+      <div class="eyebrow">Coverage</div>
+      <h2>{heading}</h2>
+    </div>
+    {embedSrc ? (
+      <div class="rounded-xl overflow-hidden border border-white/10 shadow-2xl">
+        <iframe
+          src={embedSrc}
+          width="100%"
+          height={height}
+          style="border:0; display:block;"
+          allowfullscreen
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title={`Map of ${city}, ${state}`}
+        ></iframe>
+      </div>
+    ) : (
+      <div class="rounded-xl border border-white/10 p-12 text-center bg-white/5">
+        <p class="text-white/70 mb-6">
+          Service coverage centered on <strong>{city}, {state}</strong>.
+        </p>
+        <a href={fallbackHref} target="_blank" rel="noopener" class="btn-outline">
+          View {city} on Google Maps
+        </a>
+        <p class="text-xs text-white/40 mt-6 mb-0">
+          (Configure <code>BRAND_GOOGLE_MAPS_API_KEY</code> in plan-input.json to enable inline map embed.)
+        </p>
+      </div>
+    )}
+  </div>
+</section>

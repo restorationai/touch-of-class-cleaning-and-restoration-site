@@ -1,0 +1,41 @@
+---
+import { brand } from "~/lib/brand";
+
+interface Props {
+  imageSrc?: string;
+  imageAlt?: string;
+}
+
+const { imageSrc = brand.logoUrl, imageAlt = `${brand.displayName} Logo` } = Astro.props;
+
+// Determine if it's the logo or a photo based on URL or path. Assuming if it's not the logo it's a photo.
+const isLogo = imageSrc === brand.logoUrl;
+---
+
+<section class="bg-dark py-24 text-white overflow-hidden relative">
+  <div class="container-wide px-6 sm:px-10 lg:px-12">
+    <div class="grid lg:grid-cols-2 gap-20 items-center">
+      <div>
+        <div class="flex items-center gap-6 mb-8">
+          <h2 class="text-5xl md:text-6xl font-black uppercase tracking-tighter">About Us</h2>
+          <div class="flex-grow h-px bg-white/30"></div>
+        </div>
+        
+        <div class="prose-body text-xl opacity-90 leading-relaxed mb-10 font-medium">
+          <slot />
+        </div>
+      </div>
+
+      <div class="relative flex justify-center items-center">
+         <img 
+           src={imageSrc} 
+           alt={imageAlt} 
+           class={isLogo 
+             ? "w-full max-w-[280px] md:max-w-[400px] h-auto object-contain drop-shadow-[0_20px_20px_rgba(0,0,0,0.4)] opacity-100"
+             : "w-full h-auto rounded-xl shadow-2xl object-cover aspect-video lg:aspect-square"
+           }
+         />
+      </div>
+    </div>
+  </div>
+</section>

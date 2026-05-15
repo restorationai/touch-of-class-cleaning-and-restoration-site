@@ -1,0 +1,80 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "~/layouts/BaseLayout.astro";
+import CtaBanner from "~/components/CtaBanner.astro";
+import FAQSection from "~/components/FAQSection.astro";
+import InternalLinks from "~/components/InternalLinks.astro";
+import GoogleMap from "~/components/GoogleMap.astro";
+import Hero from "~/components/ui/Hero.astro";
+import { brand } from "~/lib/brand";
+
+export async function getStaticPaths() {
+  const areas = await getCollection("serviceAreas");
+  return areas.map((a) => ({ params: { area: a.data.area_slug }, props: { entry: a } }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+const data = entry.data;
+const heroImage = data.hero || `${brand.imagesBase}/brand/hero.png`;
+
+// Sister cross-product pages for this area, sorted by priority
+const locations = (await getCollection("locations"))
+  .filter((l) => l.data.area_slug === data.area_slug)
+  .sort((a, b) => (b.data.priority || 0) - (a.data.priority || 0));
+---
+
+<BaseLayout
+  title={data.title}
+  meta_description={data.meta_description}
+  hero_image_url={heroImage}
+  schema_stubs={["local-business", "service", "breadcrumb-list"]}
+  schema_ctx={{
+    archetype: "service-area",
+    city: data.city,
+    state: data.state,
+  }}
+  breadcrumb={data.breadcrumb}
+>
+  <Hero title={data.h1} subtitle={data.meta_description} ctaText={`📞 Call ${brand.phone}`} ctaLink={`tel:${brand.phoneRaw}`} />
+
+  <!-- BODY -->
+  <section class="section-first bg-dark">
+    <div class="container-wide">
+      <div class="prose-body">
+        <Content />
+      </div>
+    </div>
+  </section>
+
+  <!-- Services in this area -->
+  {locations.length > 0 && (
+    <section class="section bg-dark">
+      <div class="container-wide">
+        <div class="text-center mb-12">
+          <div class="eyebrow">{data.city}, {data.state}</div>
+          <h2>Services We Provide in {data.city}</h2>
+        </div>
+        <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {locations.map((l) => (
+            <a href={`/service-areas/${l.data.area_slug}/${l.data.service_slug}/`} class="group block p-6 rounded-lg border border-white/10 bg-white/5 hover:bg-white/10 hover:border-primary-500 transition-all no-underline shadow-lg hover:shadow-primary-900/20 hover:-translate-y-1">
+              <div class="text-lg font-bold text-white mb-2">{l.data.service_display}</div>
+              <p class="text-sm text-white/65 mb-4">{l.data.meta_description.slice(0, 100)}…</p>
+              <span class="text-xs font-black uppercase tracking-widest text-primary-400 group-hover:text-primary-300 transition-colors">
+                {l.data.service_display} in {l.data.city} →
+              </span>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <FAQSection faq={data.faq} eyebrow={`${data.city}, ${data.state}`} />
+
+  <GoogleMap city={data.city} state={data.state} />
+
+  <CtaBanner heading={`Restoration emergency in ${data.city}?`} subheading={`Our team is based nearby. Call now for fast response.`} />
+
+  <InternalLinks paths={data.internal_links} heading="More Service Areas" eyebrow="Nearby Coverage" />
+</BaseLayout>

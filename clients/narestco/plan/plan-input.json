@@ -1,0 +1,118 @@
+{
+  "_source": "Compiled 2026-05-12 from narestco.com homepage + Google Business Profile via DataForSEO business_data_business_listings_search.",
+  "_resolved_questions": [
+    "NAP: GBP version '1530 S Dash Point Rd' is canonical (user confirmed 2026-05-12). Update narestco.com to match before site goes live.",
+    "WA L&I license: NATIORC792M6 (WA State General Contractor Certificate of Registration)."
+  ],
+  "template": "restoration",
+  "services": [
+    "water-damage-restoration",
+    "flood-damage-restoration",
+    "burst-pipe-repair",
+    "basement-flooding-cleanup",
+    "appliance-leak-cleanup",
+    "frozen-pipe-restoration",
+    "roof-leak-repair",
+    "sewage-cleanup",
+    "fire-damage-restoration",
+    "smoke-damage-restoration",
+    "soot-removal",
+    "odor-removal",
+    "mold-remediation",
+    "mold-inspection-testing",
+    "storm-damage-restoration",
+    "biohazard-cleanup",
+    "reconstruction",
+    "general-contracting"
+  ],
+  "service_areas": [
+    {
+      "city": "Federal Way",
+      "state": "WA",
+      "slug": "federal-way-wa",
+      "primary": true
+    },
+    {
+      "city": "Seattle",
+      "state": "WA",
+      "slug": "seattle-wa"
+    },
+    {
+      "city": "Bellevue",
+      "state": "WA",
+      "slug": "bellevue-wa"
+    },
+    {
+      "city": "Tacoma",
+      "state": "WA",
+      "slug": "tacoma-wa"
+    },
+    {
+      "city": "Everett",
+      "state": "WA",
+      "slug": "everett-wa"
+    },
+    {
+      "city": "Kent",
+      "state": "WA",
+      "slug": "kent-wa"
+    },
+    {
+      "city": "Renton",
+      "state": "WA",
+      "slug": "renton-wa"
+    },
+    {
+      "city": "Auburn",
+      "state": "WA",
+      "slug": "auburn-wa"
+    },
+    {
+      "city": "Kirkland",
+      "state": "WA",
+      "slug": "kirkland-wa"
+    },
+    {
+      "city": "Redmond",
+      "state": "WA",
+      "slug": "redmond-wa"
+    }
+  ],
+  "brand": {
+    "display_name": "National Restoration Construction",
+    "short_name": "NARESTCO",
+    "legal_name": "National Restoration Construction LLC",
+    "phone": "(206) 883-0333",
+    "email": "info@narestco.com",
+    "hours": "24/7",
+    "founded_year": "2004",
+    "street_address": "1530 S Dash Point Rd",
+    "postal_code": "98003",
+    "lat": "47.337",
+    "lng": "-122.314",
+    "place_id": "ChIJ8URpSkf_UaURDg_hVb9wMrQ",
+    "google_cid": "12984564642744438542",
+    "license_numbers": [
+      "NATIORC792M6"
+    ],
+    "license_authority": "WA State Department of Labor & Industries",
+    "license_type": "General Contractor Certificate of Registration",
+    "certifications": [
+      "IICRC Certified",
+      "BBB Accredited",
+      "Lead-Safe Certified Firm",
+      "EPA Certified",
+      "ANSI Certified"
+    ],
+    "same_as_urls": [
+      "https://www.google.com/maps?cid=12984564642744438542",
+      "https://www.facebook.com/narestco",
+      "https://www.instagram.com/narestco",
+      "https://www.tiktok.com/@narestco",
+      "https://twitter.com/narestco"
+    ]
+  },
+  "cross_product": true,
+  "keyword_strategy": "conservative",
+  "blog_seed_count": 12
+}

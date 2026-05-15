@@ -1,0 +1,50 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "~/layouts/BaseLayout.astro";
+import CtaBanner from "~/components/CtaBanner.astro";
+import FAQSection from "~/components/FAQSection.astro";
+import InternalLinks from "~/components/InternalLinks.astro";
+import Hero from "~/components/ui/Hero.astro";
+import { brand } from "~/lib/brand";
+
+export async function getStaticPaths() {
+  const services = await getCollection("services");
+  return services.map((s) => ({ params: { slug: s.data.service_slug }, props: { entry: s } }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+const data = entry.data;
+const heroImage = data.hero || `${brand.imagesBase}/brand/hero.png`;
+const isSensitive = data.content_guardrails === "sensitive";
+---
+
+<BaseLayout
+  title={data.title}
+  meta_description={data.meta_description}
+  hero_image_url={heroImage}
+  schema_stubs={["service", "local-business", "faq", "breadcrumb-list"]}
+  schema_ctx={{
+    archetype: "service-landing",
+    service_display: data.service_display,
+  }}
+  breadcrumb={data.breadcrumb}
+  faq={data.faq}
+>
+  <Hero title={data.h1} subtitle={data.meta_description} ctaText={`📞 Call ${brand.phone}`} ctaLink={`tel:${brand.phoneRaw}`} isSensitive={isSensitive} />
+
+  <!-- BODY -->
+  <section class="section-first bg-dark">
+    <div class="container-wide">
+      <div class="prose-body">
+        <Content />
+      </div>
+    </div>
+  </section>
+
+  <FAQSection faq={data.faq} eyebrow={data.service_display} />
+
+  <CtaBanner heading={`Need ${data.service_display} now?`} subheading={`We respond 24/7 across ${brand.primaryCity} and surrounding ${brand.primaryState} cities.`} isSensitive={isSensitive} />
+
+  <InternalLinks paths={data.internal_links} heading="Related Coverage" eyebrow="Areas & Related Services" />
+</BaseLayout>

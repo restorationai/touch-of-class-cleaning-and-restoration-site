@@ -1,0 +1,20 @@
+{
+  "name": "ServicesHub",
+  "fixed_ref": "services-hub",
+  "path_pattern": "/services/",
+  "title_template": "Restoration Services in {brand.primary_city} | {brand.display_name}",
+  "h1_template": "Our Restoration Services",
+  "meta_description_template": "Full-service restoration in {brand.primary_city}: water, fire, mold, storm, biohazard, and commercial restoration. 24/7 response. Call {brand.phone}.",
+  "primary_keyword_template": "restoration services {brand.primary_city|lower}",
+  "secondary_keywords": [
+    "damage restoration services",
+    "property restoration services",
+    "disaster restoration"
+  ],
+  "search_intent_default": "local_commercial",
+  "target_word_count": 800,
+  "image_roles": ["hero", "og", "inline-1"],
+  "schema_stubs": ["organization", "website", "local-business", "breadcrumb-list"],
+  "linking_rules_ref": "services-hub",
+  "required_brand_fields": ["display_name", "phone", "primary_city"]
+}

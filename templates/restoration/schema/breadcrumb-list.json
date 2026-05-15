@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": "{page.breadcrumb_items}",
+  "_item_shape": {
+    "@type": "ListItem",
+    "position": "{n}",
+    "name": "{crumb.name}",
+    "item": "{crumb.url}"
+  },
+  "_notes": [
+    "Skill 3 derives page.breadcrumb_items from the URL path:",
+    "  /services/water-damage-restoration/      → [Home → Services → Water Damage Restoration]",
+    "  /service-areas/seattle-wa/water-damage-restoration/  → [Home → Service Areas → Seattle, WA → Water Damage Restoration]",
+    "  /blog/{slug}/                            → [Home → Blog → {Post Title}]",
+    "Emit on every non-home page. Skip on the home page (a single-element breadcrumb adds no value).",
+    "Final crumb (current page) MUST NOT have an `item` URL per Google's spec — only `name` and `position`."
+  ]
+}

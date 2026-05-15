@@ -1,0 +1,16 @@
+{
+  "name": "ServiceLandingPage",
+  "path_pattern": "/services/{service.slug}/",
+  "driver": "services[]",
+  "title_template": "{service.display_name} in {brand.primary_city} | {brand.display_name}",
+  "h1_template": "{service.display_name} in {brand.primary_city}",
+  "meta_description_template": "24/7 {service.display_name|lower} in {brand.primary_city} and surrounding areas. IICRC-certified, insurance billing accepted. Call {brand.phone}.",
+  "primary_keyword_template": "{service.display_name|lower} {brand.primary_city|lower}",
+  "secondary_keywords_ref": "services[].secondary_keywords",
+  "search_intent_default_ref": "services[].primary_intent",
+  "target_word_count": 1100,
+  "image_roles": ["hero", "og", "inline-1", "inline-2"],
+  "schema_stubs": ["service", "local-business", "faq", "breadcrumb-list"],
+  "linking_rules_ref": "service-landing",
+  "required_brand_fields": ["display_name", "phone", "primary_city", "certifications"]
+}

@@ -1,0 +1,38 @@
+---
+import { MapPin } from '@lucide/astro';
+import { brand } from '~/lib/brand';
+
+const areas = [
+  "Federal Way",
+  "Auburn",
+  "Kent",
+  "Tacoma",
+  "Des Moines",
+  "Renton",
+  "Burien",
+  "Puyallup",
+  "Seattle"
+];
+---
+
+<section class="bg-dark py-32 text-white border-t border-white/10">
+  <div class="container-wide px-6 sm:px-10 lg:px-12 flex flex-col md:flex-row justify-between items-start gap-16">
+     <div class="md:w-1/2">
+        <h2 class="text-6xl md:text-7xl font-black uppercase leading-[0.85] tracking-tighter mb-10">
+          Proudly Serving
+        </h2>
+        <p class="text-xl opacity-70 font-medium max-w-md">
+          {brand.displayName} provides reliable restoration and cleanup solutions throughout {brand.primaryCity}, {brand.primaryState} and surrounding areas.
+        </p>
+     </div>
+     
+     <div class="md:w-1/2 grid grid-cols-2 sm:grid-cols-3 gap-y-8 gap-x-6">
+        {areas.map((area) => (
+          <div class="flex items-center gap-3 text-lg font-black uppercase tracking-[0.05em] group cursor-pointer">
+            <MapPin size={24} class="text-primary-500 group-hover:scale-125 transition-transform duration-300 shrink-0" />
+            <span class="group-hover:text-primary-500 transition-colors leading-tight">{area}</span>
+          </div>
+        ))}
+     </div>
+  </div>
+</section>

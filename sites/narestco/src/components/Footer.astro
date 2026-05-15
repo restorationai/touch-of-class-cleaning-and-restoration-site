@@ -1,0 +1,84 @@
+---
+import { brand } from "~/lib/brand";
+import { getCollection } from "astro:content";
+
+const services = (await getCollection("services")).sort((a, b) => (b.data.priority || 0) - (a.data.priority || 0));
+const areas = (await getCollection("serviceAreas")).sort((a, b) => Number(b.data.primary) - Number(a.data.primary));
+const year = new Date().getFullYear();
+---
+
+<footer class="bg-dark-950 text-white pt-24 pb-12 mt-0 border-t border-white/5">
+  <div class="container-wide grid gap-12 lg:grid-cols-12">
+    <div class="lg:col-span-4">
+      {brand.logoUrl && (
+        <img src={brand.logoUrl} alt={`${brand.displayName} logo`} class="h-12 w-auto mb-6" width="48" height="48" loading="lazy" />
+      )}
+      <div class="font-display text-2xl font-black tracking-tight text-white">{brand.displayName}</div>
+      <p class="mt-4 text-white/70 text-sm leading-relaxed mb-0">{brand.tagline}</p>
+      <address class="not-italic mt-6 text-sm text-white/80 leading-relaxed">
+        <div>{brand.streetAddress}</div>
+        <div>{brand.primaryCity}, {brand.primaryState} {brand.postalCode}</div>
+        <div class="mt-3"><a href={`tel:${brand.phoneRaw}`} class="text-primary-400 font-bold no-underline hover:text-primary-300 hover:underline transition-colors">{brand.phone}</a></div>
+        <div><a href={`mailto:${brand.email}`} class="text-primary-400 no-underline hover:text-primary-300 hover:underline transition-colors">{brand.email}</a></div>
+      </address>
+    </div>
+
+    <div class="lg:col-span-3">
+      <div class="text-xs font-black uppercase tracking-widest text-white/90 mb-4">Services</div>
+      <ul class="space-y-2 text-sm list-none pl-0">
+        {services.slice(0, 8).map((s) => (
+          <li>
+            <a href={`/services/${s.data.service_slug}/`} class="text-white/60 hover:text-primary-400 no-underline transition-colors">
+              {s.data.service_display}
+            </a>
+          </li>
+        ))}
+        {services.length > 8 && (
+          <li>
+            <a href="/services/" class="text-primary-400 font-semibold no-underline hover:underline hover:text-primary-300 transition-colors">See all services →</a>
+          </li>
+        )}
+      </ul>
+    </div>
+
+    <div class="lg:col-span-3">
+      <div class="text-xs font-black uppercase tracking-widest text-white/90 mb-4">Service Areas</div>
+      <ul class="space-y-2 text-sm list-none pl-0">
+        {areas.slice(0, 10).map((a) => (
+          <li>
+            <a href={`/service-areas/${a.data.area_slug}/`} class="text-white/60 hover:text-primary-400 no-underline transition-colors">
+              {a.data.city}, {a.data.state}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+
+    <div class="lg:col-span-2">
+      <div class="text-xs font-black uppercase tracking-widest text-white/90 mb-4">Company</div>
+      <ul class="space-y-2 text-sm list-none pl-0">
+        <li><a href="/about/" class="text-white/60 hover:text-primary-400 no-underline transition-colors">About</a></li>
+        <li><a href="/contact/" class="text-white/60 hover:text-primary-400 no-underline transition-colors">Contact</a></li>
+        <li><a href="/blog/" class="text-white/60 hover:text-primary-400 no-underline transition-colors">Blog</a></li>
+        <li><a href="/privacy/" class="text-white/60 hover:text-primary-400 no-underline transition-colors">Privacy</a></li>
+        <li><a href="/terms/" class="text-white/60 hover:text-primary-400 no-underline transition-colors">Terms</a></li>
+        <li><a href="/accessibility/" class="text-white/60 hover:text-primary-400 no-underline transition-colors">Accessibility</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container-wide mt-16 pt-8 border-t border-white/10 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 text-xs text-white/50">
+    <div>© {year} {brand.legalName}. All rights reserved.</div>
+    <div class="flex flex-wrap items-center gap-x-3 gap-y-1">
+      <span>{brand.licenseType}</span>
+      <span class="text-white/30">·</span>
+      <span>{brand.licenseAuthority}</span>
+      {brand.licenseNumbers && Array.isArray(brand.licenseNumbers) && brand.licenseNumbers.length > 0 && (
+        <>
+          <span class="text-white/30">·</span>
+          <span>#{brand.licenseNumbers.join(", #")}</span>
+        </>
+      )}
+    </div>
+  </div>
+</footer>

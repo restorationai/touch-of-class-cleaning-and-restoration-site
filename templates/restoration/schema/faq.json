@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": "{page.faq_items}",
+  "_item_shape": {
+    "@type": "Question",
+    "name": "{faq.question}",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "{faq.answer}"
+    }
+  },
+  "_notes": [
+    "page.faq_items is a list of {question, answer} resolved by Skill 3 from per-page FAQ content.",
+    "_item_shape documents the per-element schema each mainEntity entry must match; not emitted to JSON-LD output."
+  ]
+}
