@@ -77,13 +77,14 @@ Estimated wall time per client: ~2 minutes via API, faster than via dashboard.
 
 ## Blog routine — image flow
 
-1. Nano Banana generates image bytes (PNG).
-2. Routine derives object key: `blog/{YYYY}/{MM}/{post-slug}/hero.png` (or `inline-1.png`, `og.png`, etc.).
-3. Routine uploads to `rankai-{client-slug}` R2 bucket via Cloudflare MCP `r2_put_object`.
-4. Routine writes the public URL into the Astro markdown frontmatter (`image:` / `heroImage:`).
-5. Astro build references the URL — no asset is ever copied into the client's repo.
+1. Nano Banana generates image bytes (PNG — what Gemini natively returns).
+2. **Pipeline immediately converts PNG → WebP via Pillow** at the appropriate quality (90 for hero/og, 82 for inline). Helper: `scripts/image_utils.py`.
+3. Routine derives object key: `blog/{YYYY}/{MM}/{post-slug}/hero.webp` (or `inline-1.webp`, `og.webp`, etc.). **Always `.webp` in R2** — never PNG.
+4. Routine uploads via `wrangler r2 object put` (the helper wraps this).
+5. Routine writes the public URL into the Astro markdown frontmatter (`hero: https://images.{domain}/blog/...hero.webp`).
+6. Astro build references the URL — no asset is ever copied into the client's repo.
 
-Result: client repo stays small, deploys stay fast, all image traffic flows through Cloudflare's CDN, image transformations available for free responsive variants.
+Result: client repo stays small, deploys stay fast, all image traffic flows through Cloudflare's CDN. **WebP at quality 90 averages 26-30% the size of the source PNG** with no visible quality difference — the win is real for CWV and matters more when a page has 4-5 images.
 
 ## Model selection — Flash vs Pro
 
@@ -184,7 +185,7 @@ blog/{YYYY}/{MM}/{post-slug}/{filename}.{ext}
 - `{YYYY}/{MM}` = post publish date, gives natural sharding for cleanup/audits
 - `{post-slug}` = matches the Astro post slug exactly, for traceability
 - `{filename}` = `hero`, `og`, `inline-1`, `inline-2`, etc.
-- `{ext}` = `png` from Nano Banana; convert to `webp`/`avif` at delivery time via Cloudflare Image Transformations rather than at upload (preserves lossless source)
+- `{ext}` = **always `webp`** (converted at upload time, see "Blog routine — image flow" above). The source PNG from Gemini is discarded after conversion. WebP at quality 90 is visually indistinguishable from PNG for restoration-industry imagery but ~70% smaller — the real CWV win is at multi-image pages (hero + 4 inline = ~3MB PNG → ~800KB WebP).
 
 ## Image transformations
 
@@ -194,7 +195,7 @@ Cloudflare's built-in Image Transformations (or Image Resizing in Workers) handl
 https://images.clientdomain.com/cdn-cgi/image/width=800,format=auto/blog/2026/05/post-slug/hero.png
 ```
 
-This means we upload one canonical PNG and serve any size/format. No build-time variant generation, no `srcset` pre-baking.
+For responsive variants, we can layer Cloudflare Image Transformations on top of the WebP source for size variants (the path is `cdn-cgi/image/width=800,format=auto/blog/2026/05/post-slug/hero.webp`). Browsers that don't support WebP get auto-fallback to JPEG via the `format=auto` directive. No build-time variant generation, no `srcset` pre-baking.
 
 ## What this removes from the blog skill
 

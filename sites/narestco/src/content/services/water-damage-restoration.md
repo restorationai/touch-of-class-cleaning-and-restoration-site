@@ -16,7 +16,7 @@ faq: [{"question": "How quickly can you respond to a water damage call in Federa
 service_slug: "water-damage-restoration"
 service_display: "Water Damage Restoration"
 rendered: true
-hero: '/images/services/water-damage-restoration.png'
+hero: '/images/services/water-damage-restoration.webp'
 ---
 Standing water doesn't wait. Within hours of a burst pipe, an overflowing appliance, or a roof breach, moisture is already wicking into drywall, saturating subfloor panels, and creating the warm, damp conditions mold needs to take hold. National Restoration Construction responds fast — typically on-site within 60–90 minutes — to stop the spread, extract the water, and dry your structure down to safe moisture levels before secondary damage compounds the cost.
 

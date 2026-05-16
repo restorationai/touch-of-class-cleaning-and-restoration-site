@@ -32,7 +32,7 @@ const {
 } = Astro.props;
 
 const fullCanonical = canonical_url ?? `${brand.canonicalUrl}${Astro.url.pathname}`;
-const ogImage = hero_image_url ?? `${brand.imagesBase}/brand/hero.png`;
+const ogImage = hero_image_url ?? `${brand.imagesBase}/brand/hero.webp`;
 
 const ctx: PageSchemaContext = {
   archetype: schema_ctx.archetype ?? "unknown",

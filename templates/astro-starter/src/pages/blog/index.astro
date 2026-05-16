@@ -11,7 +11,7 @@ const posts = (await getCollection("blog"))
 const title = index?.data.title ?? "Blog";
 const meta = index?.data.meta_description ?? "";
 const breadcrumb = index?.data.breadcrumb;
-const heroImage = index?.data.hero || `${brand.imagesBase}/brand/hero.png`;
+const heroImage = index?.data.hero || `${brand.imagesBase}/brand/hero.webp`;
 ---
 
 <BaseLayout

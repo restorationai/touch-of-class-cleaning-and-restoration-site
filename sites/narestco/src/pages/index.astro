@@ -18,7 +18,7 @@ if (!entry) throw new Error("Missing content: pages/home.md — has Skill 3 rend
 const { Content } = await entry.render();
 const data = entry.data;
 
-const heroImage = data.hero || `${brand.imagesBase}/brand/hero.png`;
+const heroImage = data.hero || `${brand.imagesBase}/brand/hero.webp`;
 
 // Pull the top 6 services as requested by the client for the home page strip
 const targetSlugs = [

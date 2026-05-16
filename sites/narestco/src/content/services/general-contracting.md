@@ -16,7 +16,7 @@ faq: [{"question": "How quickly can you start a renovation or rebuild project af
 service_slug: "general-contracting"
 service_display: "Renovations, Remodels and General Contracting"
 rendered: true
-hero: '/images/services/general-contracting.png'
+hero: '/images/services/general-contracting.webp'
 ---
 Whether you're rebuilding a kitchen after a pipe burst, finally converting that unfinished basement, or tackling a full bathroom overhaul, the gap between a rough idea and a finished space is filled with decisions, subcontractors, permits, and timelines that can spiral fast. National Restoration Construction handles all of it — design-to-completion general contracting and remodeling work rooted in Federal Way and built around the Pacific Northwest's specific building codes, wet-climate framing standards, and permit requirements.
 

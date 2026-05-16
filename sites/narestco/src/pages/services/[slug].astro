@@ -15,7 +15,7 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { Content } = await entry.render();
 const data = entry.data;
-const heroImage = data.hero || `${brand.imagesBase}/brand/hero.png`;
+const heroImage = data.hero || `${brand.imagesBase}/brand/hero.webp`;
 const isSensitive = data.content_guardrails === "sensitive";
 ---
 
