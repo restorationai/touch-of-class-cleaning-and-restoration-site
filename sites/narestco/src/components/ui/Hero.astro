@@ -1,5 +1,8 @@
 ---
 // src/components/ui/Hero.astro
+import { brand } from "~/lib/brand";
+import { Phone } from "@lucide/astro";
+
 interface Props {
   title: string;
   subtitle?: string;
@@ -17,20 +20,28 @@ const { title, subtitle, ctaText = "Get Help Now", ctaLink = "tel:18001234567", 
   {backgroundImage ? (
     <div class="absolute inset-0 z-0">
       <img src={backgroundImage} alt="Background" class="w-full h-full object-cover" />
-      <div class="absolute inset-0 bg-dark-900/80"></div>
+      <div class="absolute inset-0 bg-dark-900/40"></div>
     </div>
   ) : (
     <div class="absolute inset-0 bg-dark z-0"></div>
   )}
   
-  <div class="absolute inset-0 bg-gradient-to-br from-dark-900/90 to-dark-800/80 z-0"></div>
+  <div class="absolute inset-0 bg-gradient-to-br from-dark-900/60 to-dark-800/40 z-0"></div>
   <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-white/5 to-transparent z-0"></div>
 
-  <div class="container-narrow relative z-10 text-center py-20">
-    <h1 class="mb-6 drop-shadow-lg">{title}</h1>
-    {subtitle && <p class="text-xl md:text-2xl text-white/90 mb-10 drop-shadow-md">{subtitle}</p>}
-    <a href={ctaLink} class={isSensitive ? "btn-muted text-lg px-8 py-4 shadow-xl" : "btn-primary text-lg px-8 py-4 shadow-xl"}>
-      {ctaText}
-    </a>
+  <div class="container-wide relative z-10 pt-12 pb-32 md:pt-16 md:pb-48 text-left">
+    <div class="max-w-2xl">
+      <h1 class="mb-6 drop-shadow-lg text-4xl md:text-5xl lg:text-6xl">{title}</h1>
+      {subtitle && <p class="text-xl md:text-2xl text-white/90 mb-10 drop-shadow-md">{subtitle}</p>}
+      <a href={ctaLink} class="group inline-flex flex-col items-center justify-center bg-primary-600 hover:bg-primary-700 text-white rounded-xl shadow-[0_0_40px_rgba(220,38,38,0.4)] px-8 py-3 transition-transform hover:-translate-y-1 border-2 border-white">
+        <span class="text-xs md:text-sm font-bold uppercase tracking-widest text-white/90 mb-1">24/7 Disaster Hotline</span>
+        <span class="text-3xl md:text-4xl font-black tracking-tight flex items-center gap-3">
+          <div class="bg-white text-primary-600 rounded-full p-2 shadow-inner">
+            <Phone size={24} strokeWidth={3} />
+          </div>
+          {brand.phone}
+        </span>
+      </a>
+    </div>
   </div>
 </header>

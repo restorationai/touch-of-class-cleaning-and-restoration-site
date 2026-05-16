@@ -1,9 +1,8 @@
 ---
-import { getEntry, getCollection } from "astro:content";
+import { getEntry, getCollection, type CollectionEntry } from "astro:content";
 import BaseLayout from "~/layouts/BaseLayout.astro";
 import CtaBanner from "~/components/CtaBanner.astro";
 import FAQSection from "~/components/FAQSection.astro";
-import InternalLinks from "~/components/InternalLinks.astro";
 import Hero from "~/components/ui/Hero.astro";
 import TrustStrip from "~/components/ui/TrustStrip.astro";
 import AboutSection from "~/components/ui/AboutSection.astro";
@@ -11,6 +10,7 @@ import ServicesStrip from "~/components/ui/ServicesStrip.astro";
 import ProcessSection from "~/components/ui/ProcessSection.astro";
 import GallerySection from "~/components/ui/GallerySection.astro";
 import ServiceAreasSection from "~/components/ui/ServiceAreasSection.astro";
+import ReviewsWidget from "~/components/ui/ReviewsWidget.astro";
 import { brand } from "~/lib/brand";
 
 const entry = await getEntry("pages", "home");
@@ -43,7 +43,7 @@ const services = targetSlugs
   schema_ctx={{ archetype: "home" }}
   faq={data.faq}
 >
-  <Hero title={data.h1} subtitle={data.meta_description} ctaText={`🚨 24/7 EMERGENCY RESPONSE — CALL ${brand.phone}`} ctaLink={`tel:${brand.phoneRaw}`} backgroundImage="/images/hero-bg.jpg" />
+  <Hero title={data.h1} subtitle={data.meta_description} ctaText="Call Now for Immediate Help" ctaLink={`tel:${brand.phoneRaw}`} backgroundImage="/images/hero-bg.jpg" />
 
   <TrustStrip />
 
@@ -59,17 +59,17 @@ const services = targetSlugs
 
   <GallerySection />
 
-  <section class="bg-dark py-20 border-t border-white/10">
-    <div class="container-wide max-w-6xl mx-auto prose prose-xl prose-invert prose-headings:font-black prose-headings:uppercase prose-headings:tracking-tighter prose-a:text-primary-500 text-white/70">
-      <Content />
-    </div>
-  </section>
+  <ReviewsWidget />
+
+  <CtaBanner heading="24/7 Emergency Response" subheading="We answer the phone day and night. Insurance billing accepted." />
 
   <FAQSection faq={data.faq} />
 
   <ServiceAreasSection />
 
-  <CtaBanner heading="Ready to take the next step?" subheading="Get your free assessment today!" />
-
-  <InternalLinks paths={data.internal_links} heading="Where to Next" />
+  <section class="bg-dark py-20">
+    <div class="container-wide max-w-6xl mx-auto prose prose-xl prose-invert prose-headings:font-black prose-headings:uppercase prose-headings:tracking-tighter prose-a:text-primary-500 text-white/70">
+      <Content />
+    </div>
+  </section>
 </BaseLayout>

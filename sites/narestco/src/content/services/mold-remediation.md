@@ -16,6 +16,7 @@ faq: [{"question": "How quickly can you get a technician to my property?", "answ
 service_slug: "mold-remediation"
 service_display: "Mold Remediation"
 rendered: true
+hero: '/images/services/mold-remediation.png'
 ---
 Mold doesn't wait. Within 24 to 48 hours of a moisture event — a slow pipe leak, a flooded crawl space, a roof that let in one too many Pacific Northwest rainstorms — mold spores can begin colonizing drywall, insulation, and wood framing. By the time you smell that earthy, musty odor or spot the dark staining behind a baseboard, the colony is already established. National Restoration Construction's mold remediation team responds to Federal Way and the surrounding region with the equipment, training, and containment protocols to stop the spread and restore the space to a safe, livable condition.
 

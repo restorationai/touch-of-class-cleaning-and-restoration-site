@@ -17,6 +17,7 @@ service_slug: "biohazard-cleanup"
 service_display: "Biohazard and Trauma Cleanup"
 isSensitive: true
 rendered: true
+hero: '/images/services/biohazard-cleanup.png'
 ---
 Discovering a scene that requires biohazard or trauma cleanup is one of the most disorienting moments a homeowner or property manager can face. The logistics that follow — who to call, what to touch, how quickly it needs to happen — shouldn't fall on you to figure out alone. National Restoration Construction responds to these situations throughout Federal Way and the surrounding region with trained technicians, proper containment equipment, and a process designed to protect everyone on the property while you focus on what matters most.
 

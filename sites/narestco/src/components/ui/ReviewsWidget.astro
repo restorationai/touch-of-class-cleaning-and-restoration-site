@@ -1,0 +1,62 @@
+---
+// src/components/ui/ReviewsWidget.astro
+---
+
+<section class="bg-dark py-10">
+  <div class="container-wide max-w-6xl mx-auto px-6">
+    <div class="text-center mb-10">
+      <h2 class="text-6xl md:text-7xl font-black uppercase leading-[0.85] tracking-tighter mb-10 text-white">See What Our Customers Say</h2>
+    </div>
+    
+    <div id="reviewsWidgetContainer" class="w-full">
+      <iframe
+        id="reviewsWidget"
+        style="width: 100%; border: none; min-height: 300px;"
+        title="Reviews Widget">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<script is:inline>
+  (function() {
+    function getPageSizeForWidth(width) {
+      if (width < 450) return 1;
+      if (width < 675) return 2;
+      if (width < 918) return 3;
+      if (width < 1144) return 4;
+      return 5;
+    }
+
+    function setIframeSrc() {
+      const iframe = document.getElementById("reviewsWidget");
+      const container = document.getElementById("reviewsWidgetContainer");
+      if (!iframe || !container) {
+        setTimeout(setIframeSrc, 50);
+        return;
+      }
+      const width = container.offsetWidth;
+      if (width === 0) {
+        setTimeout(setIframeSrc, 50);
+        return;
+      }
+      const pageSize = getPageSizeForWidth(width);
+      const expectedSrc = "https://www.localmarketingmanager.com/api/reviews/national-restoration-construction-llc-review-widget?pageSize=" + pageSize;
+      if (iframe.src !== expectedSrc) {
+        iframe.src = expectedSrc;
+      }
+    }
+    
+    function init() {
+      setIframeSrc();
+      setTimeout(setIframeSrc, 50);
+      window.addEventListener("resize", setIframeSrc);
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', init);
+    } else {
+      init();
+    }
+  })();
+</script>

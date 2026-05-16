@@ -6,7 +6,7 @@ import { brand } from "~/lib/brand";
   <div class="container-wide flex items-center justify-between gap-6 h-20">
     <a href="/" class="flex items-center gap-3 no-underline text-white group">
       {brand.logoUrl && (
-        <img src={brand.logoUrl} alt={`${brand.displayName} logo`} class="h-10 w-auto group-hover:scale-105 transition-transform" width="40" height="40" loading="eager" />
+        <img src={brand.logoUrl} alt={`${brand.displayName} logo`} class="h-10 w-auto group-hover:scale-105 transition-transform drop-shadow-[0_0_8px_rgba(255,255,255,0.8)]" width="40" height="40" loading="eager" />
       )}
       <span class="font-display font-black text-lg md:text-xl uppercase tracking-widest leading-none group-hover:text-primary-400 transition-colors">{brand.shortName || brand.displayName}</span>
     </a>
@@ -20,7 +20,6 @@ import { brand } from "~/lib/brand";
     </nav>
 
     <a href={`tel:${brand.phoneRaw}`} class="btn-primary text-xs px-5 py-2.5 whitespace-nowrap shadow-primary-900/40 tracking-wider">
-      <span aria-hidden="true">🚨</span>
       <span class="hidden sm:inline">24/7 EMERGENCY: {brand.phone}</span>
       <span class="sm:hidden">24/7 Emergency</span>
     </a>

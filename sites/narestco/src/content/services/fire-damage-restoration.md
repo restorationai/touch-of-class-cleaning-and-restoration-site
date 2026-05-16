@@ -16,6 +16,7 @@ faq: [{"question": "How quickly can you be on-site after a fire?", "answer": "Fo
 service_slug: "fire-damage-restoration"
 service_display: "Fire Damage Restoration"
 rendered: true
+hero: '/images/services/fire-damage-restoration.png'
 ---
 A house fire leaves more than charred walls. Within hours, soot begins etching surfaces, smoke odor penetrates insulation and framing, and acidic residue starts corroding metal fixtures, appliances, and HVAC components. The damage compounds every day you wait. Our IICRC-certified technicians respond fast, stop the secondary damage, and carry the work all the way through to finished reconstruction — so you're dealing with one company, not a patchwork of contractors.
 

@@ -25,9 +25,10 @@ const { services } = Astro.props;
 
     {/* Services Grid with spacing and individual borders */}
     <div class="flex flex-wrap justify-center gap-10">
-      {services.map((s) => {
-        // Fallback to brand hero image if no service hero is defined
-        const imageUrl = s.data.hero || `${brand.imagesBase}/brand/hero.png`;
+      {services.map((s, index) => {
+        const imageIndex = (index % 6) + 1;
+        // Fallback to gallery images if no service hero is defined
+        const imageUrl = s.data.hero || `/images/gallery/img${imageIndex}.png`;
         
         return (
           <a 

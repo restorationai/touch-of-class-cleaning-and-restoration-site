@@ -11,9 +11,9 @@ const seoFields = z.object({
 });
 
 const imageFields = z.object({
-  hero: z.string().url().optional(),
-  og: z.string().url().optional(),
-  inline: z.array(z.string().url()).default([]),
+  hero: z.string().optional(),
+  og: z.string().optional(),
+  inline: z.array(z.string()).default([]),
 });
 
 const planFields = z.object({

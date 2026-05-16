@@ -16,6 +16,7 @@ faq: [{"question": "How quickly can you get to my property after a storm?", "ans
 service_slug: "storm-damage-restoration"
 service_display: "Storm Damage Restoration"
 rendered: true
+hero: '/images/services/storm-damage-restoration.png'
 ---
 A storm can unravel months of work in a single night. Whether a windstorm peeled back your roof, a fallen Douglas fir punched through your garage, or flash flooding pushed water under your foundation, the damage compounds quickly — soaked insulation, compromised framing, mold spores activating within 24 to 48 hours. National Restoration Construction responds fast, stabilizes the structure, and carries the repair from emergency tarping all the way through finished reconstruction. One crew, one point of contact, no handoffs.
 

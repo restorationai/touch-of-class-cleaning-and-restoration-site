@@ -13,35 +13,32 @@ const {
   background_image,
   isSensitive = false,
 } = Astro.props;
-
-// Use the provided background image or fall back to the brand hero image
-const bgImg = background_image || `${brand.imagesBase}/brand/hero.png`;
 ---
 
-<section class="relative py-40 bg-dark overflow-hidden">
-  {/* Background Image Container */}
-  <div class="absolute inset-0 z-0">
-    <img 
-      src={bgImg} 
-      alt="Professional restoration and construction site" 
-      class="w-full h-full object-cover" 
-    />
-    {/* Dark overlay to ensure text readability */}
-    <div class="absolute inset-0 bg-black/60"></div>
-  </div>
-
-  <div class="container-wide px-6 relative z-10 text-center">
-    <h2 class="text-5xl md:text-7xl font-black uppercase text-white mb-6 drop-shadow-[0_4px_4px_rgba(0,0,0,0.8)] tracking-tighter">
-      {heading}
-    </h2>
-    <h3 class="text-5xl md:text-7xl font-black uppercase text-white mb-16 drop-shadow-[0_4px_4px_rgba(0,0,0,0.8)] tracking-tighter italic opacity-90">
-      {subheading}
-    </h3>
-    <a 
-      href={`tel:${brand.phoneRaw}`}
-      class={`inline-block font-black uppercase px-16 py-6 rounded-md transition-all text-2xl tracking-[0.3em] shadow-[0_20px_50px_rgba(0,0,0,0.5)] border-2 border-white/20 hover:scale-105 ${isSensitive ? 'bg-dark text-white hover:bg-dark-800' : 'bg-primary-600 text-white hover:bg-opacity-90'}`}
-    >
-      Call {brand.phone}
-    </a>
+<section class="relative py-12 bg-dark-800 overflow-hidden">
+  <div class="container-wide px-6 relative z-10 flex flex-col md:flex-row items-center justify-between gap-8">
+    <div class="text-left max-w-2xl">
+      <h2 class="text-3xl md:text-4xl font-bold text-white mb-2 tracking-tight">
+        {heading}
+      </h2>
+      <p class="text-lg text-white/80">
+        {subheading}
+      </p>
+    </div>
+    
+    <div class="flex flex-col sm:flex-row gap-4 shrink-0">
+      <a 
+        href={`tel:${brand.phoneRaw}`}
+        class={`inline-flex items-center justify-center font-bold px-8 py-3 rounded-md transition-all text-lg shadow-lg ${isSensitive ? 'bg-dark text-white hover:bg-dark-800' : 'bg-primary-600 text-white hover:bg-primary-700'}`}
+      >
+        Call {brand.phone}
+      </a>
+      <a 
+        href="/contact"
+        class="inline-flex items-center justify-center font-bold px-8 py-3 rounded-md transition-all text-lg border-2 border-white text-white hover:bg-white/10"
+      >
+        Get a Free Estimate
+      </a>
+    </div>
   </div>
 </section>
