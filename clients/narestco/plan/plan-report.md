@@ -1,7 +1,7 @@
 # Site Plan Report — National Restoration Construction
 
 - Template: `restoration` v0.1.0
-- Generated: 2026-05-13T22:32:47.739554+00:00
+- Generated: 2026-05-16T23:53:11.777416+00:00
 - Domain: `narestco.com`
 - Services selected: 18 of 33 catalog entries
 - Service areas: 10

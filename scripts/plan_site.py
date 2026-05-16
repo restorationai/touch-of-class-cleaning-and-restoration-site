@@ -805,6 +805,95 @@ def write_schema_stubs(path: Path, stubs: dict) -> None:
     path.write_text(json.dumps(stubs, indent=2) + "\n")
 
 
+# ----------------------------------------------------------------------------
+# Image style guide (per-client, from the restoration template)
+# ----------------------------------------------------------------------------
+
+
+def _format_regional_housing_notes(inputs: dict) -> str:
+    """Compile a human-readable line about regional housing stock + neighborhoods
+    for image context. Pulls from each service-area's neighborhoods, landmarks,
+    and local_notes."""
+    notes = []
+    # Primary area gets fullest detail
+    areas = inputs.get("service_areas", [])
+    primary = next((a for a in areas if a.get("primary")), areas[0] if areas else {})
+    if primary:
+        bits = []
+        nb = primary.get("neighborhoods") or []
+        if nb:
+            bits.append(f"named neighborhoods: {', '.join(nb[:5])}")
+        lm = primary.get("landmarks") or []
+        if lm:
+            bits.append(f"landmarks: {', '.join(lm[:3])}")
+        ln = primary.get("local_notes")
+        if ln:
+            bits.append(ln)
+        if bits:
+            notes.append(f"{primary['city']}, {primary.get('state','')} — " + " · ".join(bits))
+    # Other areas — just names for variety
+    others = [a for a in areas if not a.get("primary")][:5]
+    if others:
+        names = ", ".join(f"{a['city']}" for a in others)
+        notes.append(f"Other cities served: {names}.")
+    if not notes:
+        return "Mixed regional residential and commercial properties."
+    return " ".join(notes)
+
+
+def _format_regional_climate_notes(inputs: dict) -> str:
+    """Compile a regional climate line. Pulls hints from local_notes; otherwise
+    leaves a placeholder the operator can edit."""
+    # Best signal we have right now is the local_notes of the primary area
+    primary = next((a for a in inputs.get("service_areas", []) if a.get("primary")), None)
+    if not primary:
+        return "(set per-client per regional climate)"
+    ln = primary.get("local_notes", "")
+    # Heuristic: pull the first sentence that mentions weather/climate words
+    for sentence in ln.split("."):
+        s = sentence.strip()
+        if any(k in s.lower() for k in ["rain", "snow", "storm", "humid", "dry", "wet", "puget", "climate", "season"]):
+            return s.strip() + "."
+    return "Regional climate cues per primary city; adapt exterior shots to match."
+
+
+def write_image_style_guide(out_path: Path, inputs: dict, template: Template) -> None:
+    """Resolve the restoration image-style-guide template with per-client values.
+    Brand colors come from plan-input.json (client's real brand identity), with
+    defaults from the canonical starter palette only as fallback."""
+    tmpl_path = TEMPLATES_DIR / "restoration" / "image-style-guide.template.md"
+    if not tmpl_path.exists():
+        return  # template not present yet — skip silently
+    brand = dict(inputs.get("brand", {}))
+    primary = next((a for a in inputs.get("service_areas", []) if a.get("primary")),
+                   inputs.get("service_areas", [{}])[0])
+    selected_services = [s.get("display_name") for s in inputs.get("services", []) if isinstance(s, dict)]
+
+    # Fallback color defaults — only used if the client hasn't specified
+    color_defaults = {
+        "primary_color": "#0d1b3e",
+        "accent_color": "#f97316",
+    }
+    primary_color = brand.get("primary_color") or color_defaults["primary_color"]
+    accent_color = brand.get("accent_color") or color_defaults["accent_color"]
+
+    ctx = {
+        "brand": {
+            "display_name": brand.get("display_name", ""),
+            "short_name": brand.get("short_name") or brand.get("display_name", ""),
+            "primary_city": brand.get("primary_city") or primary.get("city", ""),
+            "primary_state": brand.get("primary_state") or primary.get("state", ""),
+            "primary_color": primary_color,
+            "accent_color": accent_color,
+            "services_selected": ", ".join(selected_services) if selected_services else "(see plan)",
+        },
+        "regional_housing_notes": _format_regional_housing_notes(inputs),
+        "regional_climate_notes": _format_regional_climate_notes(inputs),
+    }
+    rendered = render(tmpl_path.read_text(), ctx)
+    out_path.write_text(rendered)
+
+
 def write_report(path: Path, pages: list[Page], graph: dict, template: Template,
                  inputs: dict, issues: list[str]) -> None:
     by_arc: dict[str, int] = defaultdict(int)
@@ -968,6 +1057,13 @@ def cmd_generate(args) -> int:
     write_internal_links(out_dir / "internal-links.json", graph)
     write_schema_stubs(out_dir / "schema-stubs.json", schema_stubs)
 
+    # Image style guide — written ONE level up at clients/{slug}/image-style-guide.md
+    # so it's adjacent to plan-input.json (the source of truth for brand identity).
+    # Skill 4 (blog routine) and Skill 3 (image regen) consult this file before
+    # every Nano Banana call.
+    style_guide_path = CLIENTS_DIR / slug / "image-style-guide.md"
+    write_image_style_guide(style_guide_path, inputs, template)
+
     # Validate before report so the report includes issues
     issues = validate_plan(pages, graph, schema_stubs, template)
     write_report(out_dir / "plan-report.md", pages, graph, template, inputs, issues)
@@ -982,6 +1078,8 @@ def cmd_generate(args) -> int:
     print(f"    {out_dir}/internal-links.json")
     print(f"    {out_dir}/schema-stubs.json")
     print(f"    {out_dir}/plan-report.md")
+    if style_guide_path.exists():
+        print(f"    {CLIENTS_DIR.name}/{slug}/image-style-guide.md  ← consulted by image gen calls")
     if issues:
         print()
         print(f"    {len(issues)} validation issue(s) — see plan-report.md.")

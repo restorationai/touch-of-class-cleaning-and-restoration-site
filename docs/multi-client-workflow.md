@@ -85,7 +85,7 @@ User effort: 5 minutes plus a wait for NS propagation (15-60 min depending on re
 What it does:
 - Walks you through selecting services from the 33-entry catalog
 - Collects service-area cities (and supports rich local context: neighborhoods, landmarks, ZIP codes, local-notes per the content-differentiation doc)
-- Collects brand details (NAP, founded year, license #, certifications)
+- Collects brand details (NAP, founded year, license #, certifications, **brand colors derived from the client's logo / existing site**)
 - Optionally fetches the client's existing website + Google Business Profile to pre-fill candidate values
 - Writes `rank-ai/clients/clientX/plan-input.json` with the resolved inputs
 - Runs `plan_site.py generate` to produce:
@@ -94,6 +94,7 @@ What it does:
   - `internal-links.json` — internal-link graph
   - `schema-stubs.json` — JSON-LD bindings per page
   - `plan-report.md` — human-readable summary
+  - `clients/{slug}/image-style-guide.md` — per-client image style guide (camera, lens, lighting, brand colors, worker-in-uniform conventions, regional environment context, per-service PPE/equipment requirements). **Every Nano Banana image generation call must consult this file** so all client images look like one cohesive photo shoot. Resolved from `templates/restoration/image-style-guide.template.md` with per-client brand colors + neighborhood/landmark/climate substitutions.
 
 End state:
 - Client record updated: `plan_status: planned`
