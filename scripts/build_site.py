@@ -1308,6 +1308,173 @@ def cmd_status(args) -> int:
 
 
 # ----------------------------------------------------------------------------
+# Subcommand: sync-deploy  (push monorepo subtree → per-client GitHub repo)
+# ----------------------------------------------------------------------------
+#
+# The Rank AI pipeline lives in a single monorepo (rank-ai/) for orchestration
+# and AI-agent context. Each client's deployable site lives at sites/{slug}/.
+# Cloudflare Pages can only watch ONE git repo per project, so we push each
+# client's subtree to a dedicated per-client GitHub repo at
+# github.com/{GH_OWNER}/{slug}-site. Cloudflare watches that repo and rebuilds
+# on every push.
+#
+# Implementation: `git subtree split --prefix=sites/{slug}` builds a synthetic
+# branch containing only the subtree's commits, which we then force-push to
+# the per-client repo. Force-push because the per-client repo's history (from
+# the original scaffold) is incompatible with the subtree's synthetic history.
+# The per-client repo is a derived deploy artifact — git history there is not
+# meant to be authoritative or human-meaningful. The monorepo is the source of
+# truth.
+
+
+def repo_root() -> Path:
+    """Return the monorepo root (where rank-ai/.git lives)."""
+    return REPO_ROOT
+
+
+def _ensure_remote(name: str, url: str, cwd: Path) -> None:
+    try:
+        existing = git(["remote", "get-url", name], cwd)
+        if existing.strip() != url:
+            git(["remote", "set-url", name, url], cwd)
+    except RuntimeError:
+        git(["remote", "add", name, url], cwd)
+
+
+def cmd_sync_deploy(args) -> int:
+    slug = args.slug
+    branch = args.branch
+    site_dir = SITES_DIR / slug
+    if not site_dir.exists():
+        die(f"No subtree at {site_dir}. Run scaffold first.")
+
+    mono = repo_root()
+    if not (mono / ".git").exists():
+        die(
+            f"Expected monorepo at {mono} with a .git directory. The new topology "
+            f"keeps everything in one repo and uses subtree push to ship per-client. "
+            f"Run `git init` at {mono} or fix the topology before sync-deploy."
+        )
+
+    client_repo = f"{slug}-site"
+    remote_name = f"deploy-{slug}"
+    remote_url = f"https://x-access-token:{gh_token()}@github.com/{GH_OWNER}/{client_repo}.git"
+
+    print(f"==> Syncing sites/{slug}/ → github.com/{GH_OWNER}/{client_repo}")
+    print(f"    Target branch: {branch}")
+    print(f"    Monorepo: {mono}")
+    print()
+
+    # Step 1: Working tree must be clean for subtree split to work cleanly
+    status = git(["status", "--porcelain"], mono)
+    if status.strip() and not args.allow_dirty:
+        die(
+            "Working tree has uncommitted changes. Subtree push from a dirty tree "
+            "is risky. Either commit/stash changes, or re-run with --allow-dirty."
+        )
+
+    # Step 2: Ensure the per-client GitHub repo exists
+    print(f"[1/4] Checking that github.com/{GH_OWNER}/{client_repo} exists...")
+    if not gh_repo_exists(client_repo):
+        print(f"      Repo missing. Creating it now...")
+        client = load_json(CLIENTS_DIR / f"{slug}.json") if (CLIENTS_DIR / f"{slug}.json").exists() else {}
+        description = f"Rank AI restoration site for {client.get('display_name', slug)}."
+        gh_create_repo(client_repo, description, private=args.private)
+        print(f"      Created.")
+    else:
+        print(f"      Repo exists, reusing.")
+
+    # Step 3: Configure remote on the monorepo
+    print(f"[2/4] Configuring remote {remote_name!r} on monorepo...")
+    _ensure_remote(remote_name, remote_url, mono)
+    print(f"      Remote set.")
+
+    # Step 4: Subtree split — create a synthetic branch containing only sites/{slug}/'s history
+    temp_branch = f"_sync-deploy-{slug}-{branch}"
+    print(f"[3/4] Splitting subtree sites/{slug}/ into temp branch {temp_branch!r}...")
+    # Clean up any leftover temp branch from a previous run
+    try:
+        git(["branch", "-D", temp_branch], mono)
+    except RuntimeError:
+        pass
+    git(["subtree", "split", "--prefix", f"sites/{slug}", "-b", temp_branch], mono)
+    print(f"      Split complete.")
+
+    # Step 5: Force-push to per-client repo's target branch
+    print(f"[4/4] Force-pushing {temp_branch} → {remote_name}/{branch}...")
+    git(["push", "--force", remote_name, f"{temp_branch}:{branch}"], mono)
+    print(f"      Pushed.")
+
+    # Cleanup
+    try:
+        git(["branch", "-D", temp_branch], mono)
+    except RuntimeError:
+        pass
+
+    # Step 6: Update client record
+    rec_path = CLIENTS_DIR / f"{slug}.json"
+    if rec_path.exists():
+        client = load_json(rec_path)
+        client.setdefault("build", {})
+        client["build"]["github_repo"] = f"{GH_OWNER}/{client_repo}"
+        if branch == "main":
+            client["build"]["last_pushed_main_at"] = now_iso()
+            client["build_status"] = "pushed_main"
+        else:
+            client["build"]["last_pushed_staging_at"] = now_iso()
+            client["build_status"] = "pushed_staging"
+        client["updated_at"] = now_iso()
+        save_json(rec_path, client)
+
+    print()
+    print("==> Sync complete.")
+    print(f"    GitHub repo:    https://github.com/{GH_OWNER}/{client_repo}")
+    print(f"    Cloudflare Pages will auto-build the {branch} branch.")
+    if branch == "main":
+        print(f"    Production URL: https://rankai-{slug}.pages.dev/")
+    else:
+        print(f"    Preview URL:    https://staging.rankai-{slug}.pages.dev/")
+    return 0
+
+
+def cmd_sync_deploy_all(args) -> int:
+    """Bulk sync — push every client subtree to its per-client repo on the given branch."""
+    slugs = []
+    for site_dir in sorted(SITES_DIR.iterdir()):
+        if site_dir.is_dir() and not site_dir.name.startswith("_"):
+            slugs.append(site_dir.name)
+    if not slugs:
+        die("No client subtrees found under sites/.")
+
+    print(f"==> Bulk sync-deploy for {len(slugs)} client(s), branch={args.branch}")
+    print(f"    Slugs: {', '.join(slugs)}")
+    print()
+
+    failures = []
+    for slug in slugs:
+        print(f"────────────── {slug} ──────────────")
+        sub_args = argparse.Namespace(
+            slug=slug, branch=args.branch,
+            private=args.private, allow_dirty=args.allow_dirty,
+        )
+        try:
+            cmd_sync_deploy(sub_args)
+        except SystemExit as e:
+            failures.append((slug, str(e)))
+        except Exception as e:
+            failures.append((slug, str(e)[:200]))
+        print()
+
+    print(f"==> Bulk sync done. Succeeded: {len(slugs) - len(failures)}/{len(slugs)}")
+    if failures:
+        print("    Failures:")
+        for s, e in failures:
+            print(f"      {s}: {e[:120]}")
+        return 2
+    return 0
+
+
+# ----------------------------------------------------------------------------
 # CLI
 # ----------------------------------------------------------------------------
 
@@ -1343,6 +1510,30 @@ def build_parser() -> argparse.ArgumentParser:
     pr.add_argument("--push", action="store_true",
                     help="Commit and push to staging after rendering")
     pr.set_defaults(func=cmd_render)
+
+    # sync-deploy: monorepo subtree → per-client GitHub repo
+    psd = sub.add_parser(
+        "sync-deploy",
+        help="Push sites/{slug}/ subtree to per-client GitHub repo (Cloudflare auto-builds)",
+    )
+    psd.add_argument("--slug", required=True)
+    psd.add_argument("--branch", required=True, choices=["main", "staging"],
+                     help="Target branch on the per-client repo. main = production, staging = preview.")
+    psd.add_argument("--private", action="store_true",
+                     help="If the per-client repo needs to be created, make it private (default: public).")
+    psd.add_argument("--allow-dirty", action="store_true",
+                     help="Allow sync even if monorepo working tree has uncommitted changes.")
+    psd.set_defaults(func=cmd_sync_deploy)
+
+    # sync-deploy-all: bulk version
+    psda = sub.add_parser(
+        "sync-deploy-all",
+        help="Run sync-deploy for every client under sites/",
+    )
+    psda.add_argument("--branch", required=True, choices=["main", "staging"])
+    psda.add_argument("--private", action="store_true")
+    psda.add_argument("--allow-dirty", action="store_true")
+    psda.set_defaults(func=cmd_sync_deploy_all)
 
     return p
 
