@@ -51,13 +51,15 @@ Concatenate `live_origin + url_path` to produce absolute URLs and log them befor
 
 ## Step 2: Lighthouse scan
 
-For each URL, call `mcp__dataforseo__on_page_lighthouse` with strategy `mobile` (Google ranking signals come from mobile-first indexing — desktop is a distraction).
+For each URL, call `mcp__dataforseo__on_page_lighthouse`.
+
+**Form-factor reality:** the MCP wrapper does NOT expose a `form_factor` / `strategy` parameter and runs DESKTOP only (`cpuSlowdownMultiplier=1`, `throughputKbps=10240`, `formFactor=desktop`). Mobile scores would typically run 10-20 performance points lower. Record `audit_form_factor: "desktop"` in the state file and call this out in the report — do NOT claim mobile-first scoring. If a future MCP version exposes mobile, switch at that point.
 
 Per-URL, capture:
 
 - **Headline scores (0-100):** `performance`, `accessibility`, `best_practices`, `seo`
 - **Core Web Vitals:** `LCP_ms` (largest contentful paint), `CLS` (cumulative layout shift, unitless), `TBT_ms` (total blocking time), `INP_ms` (interaction to next paint) when present
-- **Top 5 failing audits** by estimated savings (Lighthouse returns these as `opportunities` and `diagnostics`). Capture: `id`, `title`, `severity` (high|medium|low), `estimated_savings_ms` (or `null`), `category` (performance|accessibility|best-practices|seo)
+- **Top failing audits.** The default headline response omits the `opportunities` and `diagnostics` arrays. To get them, call again with `full_data: true` — but this returns 5-15MB JSON per URL and will explode your context if read directly. Pipe the response to disk via a Bash script (e.g. write to `/tmp/rank-ai-audit/raw/{slug}-{archetype}.json`), then use `python3` + `jq` to extract just the failing-audit IDs, titles, severities, and savings. Capture top 5 per URL. If full_data calls would push the run over budget, skip them and document "lighthouse_detail: deferred — call full_data on-demand" in the state file.
 
 If a URL fails to audit (timeout, 4xx, 5xx, network error), record it with `verdict: "error"` and the failure reason. Do not skip silently.
 
@@ -90,11 +92,24 @@ Severity rubric for on-page issues:
 
 ## Step 4: Aggregate and verdict
 
-Compute per-URL verdict:
+### Pre-step: staging environment correction
 
-- **green** — all 4 Lighthouse categories ≥ 90 AND no high-severity on-page issues
-- **amber** — any category in 70-89 OR any medium-severity on-page issue
-- **red** — any category < 70 OR any high-severity on-page issue OR an `error` audit result
+Before computing verdicts, check whether you are auditing the staging Pages preview (`live_origin_source == "staging"`). If yes:
+
+1. **Verify the staging noindex header.** `curl -sI {live_origin}/` and check for `x-robots-tag: noindex`. Cloudflare Pages preview deployments inject this automatically on `*.pages.dev` subdomains. It is NOT a real site issue — production apex will not have it.
+2. **If the header is present, exclude SEO from the verdict** for this run. The Lighthouse SEO category will be artificially deflated (typically 60-65) because the `is-crawlable` audit fails. Record the SEO score in the state file as-is, but compute the verdict from `performance`, `accessibility`, and `best_practices` ONLY.
+3. **Add the caveat to the state file** under `environment_caveats[]` and to the top of the markdown report as a prominent block. The SEO score is `inconclusive — staging noindex artifact, re-audit after apex cutover`.
+4. **Recommended actions must not include "fix SEO"** when this caveat applies. Instead, the top recommendation should be "cut over apex domain and re-audit" so the user understands SEO findings are deferred, not resolved.
+
+If you are auditing the apex (`live_origin_source == "apex"`), proceed normally — SEO counts toward the verdict.
+
+### Per-URL verdict
+
+Apply against the categories that count (all 4 normally; 3 when staging-noindex caveat applies):
+
+- **green** — all counted categories ≥ 90 AND no high-severity on-page issues
+- **amber** — any counted category in 70-89 OR any medium-severity on-page issue
+- **red** — any counted category < 70 OR any high-severity on-page issue OR an `error` audit result
 
 Compute site rollup:
 
@@ -307,5 +322,6 @@ After the audit completes successfully, update `clients/{slug}.json`:
 - The state file is the canonical artifact for the master scheduler (System 4 + future dashboard). The markdown report is for humans. Both must be written every run.
 - Atomic state-file writes only. A failed run should not corrupt the prior audit.
 - Never use em dashes or emojis in the report.
-- Mobile strategy only for Lighthouse (mobile-first indexing is Google's primary ranking signal).
+- Lighthouse runs DESKTOP via the DataForSEO MCP wrapper (the wrapper does not currently expose `form_factor`). Record `audit_form_factor` in state and disclose in the report. Mobile-only auditing is aspirational pending an MCP update.
+- When auditing staging (`*.pages.dev`), apply the SEO-exclusion correction from Step 4 — never let the staging noindex header trigger a false-red verdict.
 - This skill does NOT push changes to the per-client deploy repo. State files live in the monorepo only.
