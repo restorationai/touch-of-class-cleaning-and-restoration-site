@@ -95,36 +95,81 @@ def fetch_text(url: str, timeout: int = 25) -> str:
 
 
 def discover_sitemaps(origin: str) -> list[str]:
-    """Find sitemap URL(s) via /robots.txt; fall back to common paths."""
+    """Find sitemap URL(s) by trying robots.txt + common paths.
+
+    Returns only sitemap URLs that actually fetch successfully. The robots.txt
+    Sitemap: directive often points to the canonical/production URL even when
+    you're auditing a staging origin — so we validate every candidate and fall
+    through to origin-relative paths if the canonical one 404s.
+    """
     origin = origin.rstrip("/")
-    found: list[str] = []
+    candidates: list[str] = []
     try:
         robots = fetch_text(f"{origin}/robots.txt")
         for line in robots.splitlines():
             if line.lower().startswith("sitemap:"):
-                found.append(line.split(":", 1)[1].strip())
+                candidates.append(line.split(":", 1)[1].strip())
     except Exception:
         pass
-    if found:
-        return found
+    # Always also try origin-relative fallbacks (de-dupe at the end)
     for path in ["/sitemap-index.xml", "/sitemap.xml", "/sitemap-0.xml"]:
+        candidates.append(f"{origin}{path}")
+    # Validate: keep only URLs that respond 200
+    found: list[str] = []
+    seen = set()
+    for c in candidates:
+        if c in seen:
+            continue
+        seen.add(c)
         try:
-            fetch_text(f"{origin}{path}")
-            return [f"{origin}{path}"]
+            fetch_text(c, timeout=10)
+            found.append(c)
+            # Once we find one working sitemap on this origin, stop trying alternates
+            if c.startswith(origin):
+                break
         except Exception:
             continue
-    return []
+    return found
 
 
-def expand_sitemap(url: str, depth: int = 0) -> list[dict]:
-    """Return list of {loc, lastmod} dicts. Follows sitemap index files (depth ≤ 3)."""
+def rewrite_to_origin(url: str, origin: str) -> str:
+    """Replace the scheme+host of `url` with `origin`. Used when a staging
+    sitemap embeds production URLs that don't resolve on the staging origin.
+    """
+    m = re.match(r"^https?://[^/]+(/.*)$", url)
+    if not m:
+        return url
+    return origin.rstrip("/") + m.group(1)
+
+
+def expand_sitemap(url: str, origin: str | None = None, depth: int = 0) -> list[dict]:
+    """Return list of {loc, lastmod} dicts. Follows sitemap index files (depth ≤ 3).
+
+    If `origin` is given, child sitemap URLs that point to a different host are
+    rewritten to use `origin` (so a staging mirror works even when the sitemap
+    has the production hostname baked in by Astro / Next / etc).
+    """
     if depth > 3:
         return []
     try:
         body = fetch_text(url)
     except Exception as e:
-        sys.stderr.write(f"WARN: failed to fetch {url}: {e}\n")
-        return []
+        # Try rewriting to origin if first attempt failed
+        if origin and depth > 0:
+            alt = rewrite_to_origin(url, origin)
+            if alt != url:
+                try:
+                    body = fetch_text(alt)
+                    sys.stderr.write(f"INFO: rewrote {url} -> {alt}\n")
+                except Exception as e2:
+                    sys.stderr.write(f"WARN: failed to fetch {url} (also {alt}): {e2}\n")
+                    return []
+            else:
+                sys.stderr.write(f"WARN: failed to fetch {url}: {e}\n")
+                return []
+        else:
+            sys.stderr.write(f"WARN: failed to fetch {url}: {e}\n")
+            return []
     body = re.sub(r"<\?xml[^>]+\?>", "", body)
     try:
         root = ET.fromstring(body)
@@ -137,12 +182,15 @@ def expand_sitemap(url: str, depth: int = 0) -> list[dict]:
         for sm in root.findall("sm:sitemap", SITEMAP_NS):
             loc = sm.findtext("sm:loc", default="", namespaces=SITEMAP_NS).strip()
             if loc:
-                out.extend(expand_sitemap(loc, depth + 1))
+                out.extend(expand_sitemap(loc, origin=origin, depth=depth + 1))
     elif tag == "urlset":
         for u in root.findall("sm:url", SITEMAP_NS):
             loc = u.findtext("sm:loc", default="", namespaces=SITEMAP_NS).strip()
             if not loc:
                 continue
+            # If we're auditing a staging mirror, rewrite each URL to the staging origin
+            if origin and not loc.startswith(origin):
+                loc = rewrite_to_origin(loc, origin)
             lastmod = u.findtext("sm:lastmod", default="", namespaces=SITEMAP_NS).strip() or None
             out.append({"loc": loc, "lastmod": lastmod})
     return out
@@ -264,7 +312,7 @@ def score(c: dict, *, origin: str, origin_source: str, max_urls: int,
 
     all_urls: list[dict] = []
     for sm in sitemaps:
-        all_urls.extend(expand_sitemap(sm))
+        all_urls.extend(expand_sitemap(sm, origin=origin))
     # dedupe by loc
     seen = {}
     for u in all_urls:
