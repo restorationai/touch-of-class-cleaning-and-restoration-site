@@ -2,10 +2,10 @@
   "items": [
     {
       "id": "2026-05-17-does-homeowners-insurance-cover-water-damage",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-05-17T14:59:05Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-05-17T15:22:53Z",
+      "post_url": "https://narestco.com/blog/does-homeowners-insurance-cover-water-damage/",
       "primary_keyword": "does homeowners insurance cover water damage",
       "intent": "informational",
       "volume": 1900,
