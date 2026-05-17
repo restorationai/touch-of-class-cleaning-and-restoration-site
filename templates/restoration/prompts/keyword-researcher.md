@@ -171,15 +171,31 @@ Drop entirely (do not even add to bank):
 - Out-of-scope (landscaping, etc.)
 - Geographic mismatch (city we don't serve)
 
-### Step 5: Coverage check
+### Step 5: Coverage check (intent-aware)
 
 For each kept keyword, check whether this client's site already targets it.
+**The check is intent-aware — informational queries do NOT match against
+service / location pages, only against blog posts.** Earlier versions of
+this prompt flagged informational keywords like "does homeowners insurance
+cover water damage" as "covered" by the water-damage-restoration service
+landing page, which is wrong: the service page targets transactional intent,
+not informational. Blog posts are the right home for informational queries.
 
 Method:
-1. Read `rank-ai/clients/{slug}/plan/url-plan.json` (always exists for active clients). For each URL, check whether the keyword's slug obviously matches the URL's primary_keyword or url_path.
-2. If still ambiguous and the site is live (`client.build_status == "cut_over"` or "pushed_main"): WebFetch `https://{domain}/sitemap-0.xml` (cache for the run). Check URL slugs.
 
-If a keyword has obvious coverage, set `covered_by` to the URL and drop priority to 3. We track it (so we know we covered it) but don't queue a new post.
+1. Read `rank-ai/clients/{slug}/plan/url-plan.json` (always exists for active clients).
+2. Partition url-plan pages by archetype:
+   - **Commercial URLs** (target transactional / commercial keywords): `service-landing`, `service-area`, `service-area-service`, `services-hub`, `service-areas-hub`, `home`, `contact`
+   - **Editorial URLs** (target informational keywords): `blog-post`, `blog-index`
+3. Apply the coverage check based on the keyword's intent:
+   - **Transactional or commercial intent** → only check against the Commercial URLs partition. Match the keyword slug against each URL's `primary_keyword` or `url_path`.
+   - **Informational intent** → only check against the Editorial URLs partition. Match against `primary_keyword` or `url_path` of blog posts.
+   - **Navigational intent** → no coverage check (brand queries don't compete with our pages); drop priority to 3 since they're not content opportunities.
+4. If still ambiguous and the site is live (`client.build_status` in `pushed_main` or `live`): WebFetch `https://{domain}/sitemap-0.xml` (cache for the run). Apply the same intent-partition rule against discovered URLs (blog paths under `/blog/...`, service paths under `/services/...`).
+
+If a keyword has obvious coverage within its correct partition, set `covered_by` to the URL and drop priority to 3. We track it (so we know we covered it) but don't queue a new post.
+
+**Hard rule:** never mark an informational keyword as covered by a non-blog URL, or a transactional / commercial keyword as covered by a blog URL. Mismatched coverage hides real content opportunities and is the primary failure mode of this check.
 
 ### Step 6: Update `clients/{slug}/keyword-bank.json`
 
