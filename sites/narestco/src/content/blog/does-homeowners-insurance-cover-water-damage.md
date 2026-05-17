@@ -9,7 +9,6 @@ search_intent: "informational"
 priority: 7
 hero: "https://images.narestco.com/brand/hero.webp"
 og: "https://images.narestco.com/brand/hero.webp"
-plan_hash: null
 generated_at: "2026-05-17T15:22:53Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/mold-remediation/", "/services/sewage-cleanup/", "/services/burst-pipe-repair/", "/contact/"]

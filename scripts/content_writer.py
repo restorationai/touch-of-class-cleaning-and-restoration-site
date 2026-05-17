@@ -380,7 +380,6 @@ def write_markdown(slug: str, item: dict, content: dict, hero_url: str) -> Path:
         "priority": 7,
         "hero": hero_url,
         "og": hero_url,
-        "plan_hash": None,
         "generated_at": now_iso(),
         "manual_override": False,
         "internal_links": content.get("internal_link_suggestions", []),

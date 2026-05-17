@@ -9,7 +9,6 @@ search_intent: "informational"
 priority: 7
 hero: "https://images.narestco.com/blog/2026/05/what-does-homeowners-insurance-cover-and-not-cover/hero.webp"
 og: "https://images.narestco.com/blog/2026/05/what-does-homeowners-insurance-cover-and-not-cover/hero.webp"
-plan_hash: null
 generated_at: "2026-05-17T15:38:04Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/mold-remediation/", "/services/sewage-cleanup/", "/services/storm-damage-restoration/", "/contact/"]
