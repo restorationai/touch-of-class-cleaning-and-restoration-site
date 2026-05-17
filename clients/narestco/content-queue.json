@@ -1,3 +1,169 @@
 {
-  "items": []
+  "items": [
+    {
+      "id": "2026-05-17-does-homeowners-insurance-cover-water-damage",
+      "status": "queued",
+      "queued_at": "2026-05-17T14:59:05Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does homeowners insurance cover water damage",
+      "intent": "informational",
+      "volume": 1900,
+      "kd": 28,
+      "fan_out_cluster": [
+        "water damage insurance claim tips",
+        "what does homeowners insurance cover and not cover",
+        "average insurance payout for water damage",
+        "should i file a home insurance claim for water damage",
+        "does state farm homeowners insurance cover foundation repair",
+        "does homeowners insurance cover water damage from rain"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-water-damage",
+      "suggested_title": "Does Homeowners Insurance Cover Water Damage",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [],
+      "notes": "Informational insurance-claim topic. Pairs naturally with the water damage service page. Lead with the practical answer in the first 80 words."
+    },
+    {
+      "id": "2026-05-17-what-does-homeowners-insurance-cover-and-not-cover",
+      "status": "queued",
+      "queued_at": "2026-05-17T14:59:05Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what does homeowners insurance cover and not cover",
+      "intent": "informational",
+      "volume": 390,
+      "kd": 9,
+      "fan_out_cluster": [
+        "does homeowners insurance cover water damage",
+        "water damage insurance claim tips",
+        "average insurance payout for water damage",
+        "should i file a home insurance claim for water damage",
+        "does state farm homeowners insurance cover foundation repair",
+        "does homeowners insurance cover water damage from rain"
+      ],
+      "suggested_slug": "what-does-homeowners-insurance-cover-and-not-cover",
+      "suggested_title": "What Does Homeowners Insurance Cover and Not Cover",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [],
+      "notes": "Informational insurance-claim topic. Pairs naturally with the water damage service page. Lead with the practical answer in the first 80 words."
+    },
+    {
+      "id": "2026-05-17-average-insurance-payout-for-water-damage",
+      "status": "queued",
+      "queued_at": "2026-05-17T14:59:05Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "average insurance payout for water damage",
+      "intent": "commercial",
+      "volume": 320,
+      "kd": 17,
+      "fan_out_cluster": [
+        "does homeowners insurance cover water damage",
+        "water damage insurance claim tips",
+        "what does homeowners insurance cover and not cover",
+        "should i file a home insurance claim for water damage",
+        "does state farm homeowners insurance cover foundation repair",
+        "does homeowners insurance cover water damage from rain"
+      ],
+      "suggested_slug": "average-insurance-payout-for-water-damage",
+      "suggested_title": "Average Insurance Payout for Water Damage",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [],
+      "notes": "Informational insurance-claim topic. Pairs naturally with the water damage service page. Lead with the practical answer in the first 80 words."
+    },
+    {
+      "id": "2026-05-17-does-homeowners-insurance-cover-broken-pipes-under-foundation",
+      "status": "queued",
+      "queued_at": "2026-05-17T14:59:05Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does homeowners insurance cover broken pipes under foundation",
+      "intent": "informational",
+      "volume": 260,
+      "kd": 6,
+      "fan_out_cluster": [
+        "does homeowners insurance cover water damage",
+        "water damage insurance claim tips",
+        "what does homeowners insurance cover and not cover",
+        "average insurance payout for water damage",
+        "should i file a home insurance claim for water damage",
+        "does state farm homeowners insurance cover foundation repair"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-broken-pipes-under-foundation",
+      "suggested_title": "Does Homeowners Insurance Cover Broken Pipes Under Foundation",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [],
+      "notes": "Informational insurance-claim topic. Pairs naturally with the water damage service page. Lead with the practical answer in the first 80 words."
+    },
+    {
+      "id": "2026-05-17-does-homeowners-insurance-cover-water-damage-from-rain",
+      "status": "queued",
+      "queued_at": "2026-05-17T14:59:05Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does homeowners insurance cover water damage from rain",
+      "intent": "informational",
+      "volume": 260,
+      "kd": 9,
+      "fan_out_cluster": [
+        "does homeowners insurance cover water damage",
+        "water damage insurance claim tips",
+        "what does homeowners insurance cover and not cover",
+        "average insurance payout for water damage",
+        "should i file a home insurance claim for water damage",
+        "does state farm homeowners insurance cover foundation repair"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-water-damage-from-rain",
+      "suggested_title": "Does Homeowners Insurance Cover Water Damage from Rain",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [],
+      "notes": "Informational insurance-claim topic. Pairs naturally with the water damage service page. Lead with the practical answer in the first 80 words."
+    }
+  ]
 }
