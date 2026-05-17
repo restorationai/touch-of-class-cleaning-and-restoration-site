@@ -87,9 +87,14 @@ def upload_to_r2(
     content_type: str = "image/webp",
 ) -> bool:
     """Upload a local file to an R2 bucket via wrangler. Returns True on success.
-    Requires CLOUDFLARE_API_TOKEN env (set to a token with R2:Edit scope)."""
+
+    Wrangler uses CLOUDFLARE_API_TOKEN. In the Rank AI setup we store TWO tokens:
+    CLOUDFLARE_API_TOKEN (zone-scoped, no R2) and CLOUDFLARE_R2_API_TOKEN
+    (R2:Edit). We must ALWAYS use the R2-scoped token for R2 ops — overwrite
+    the zone token in the subprocess env so wrangler picks up the right one.
+    """
     env = os.environ.copy()
-    if "CLOUDFLARE_R2_API_TOKEN" in env and "CLOUDFLARE_API_TOKEN" not in env:
+    if "CLOUDFLARE_R2_API_TOKEN" in env:
         env["CLOUDFLARE_API_TOKEN"] = env["CLOUDFLARE_R2_API_TOKEN"]
     result = subprocess.run(
         [

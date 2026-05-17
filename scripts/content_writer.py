@@ -89,7 +89,16 @@ def save_json(path: Path, data: dict) -> None:
 
 def anthropic_call(system: str, user: str, *, model: str = ANTHROPIC_MODEL,
                    max_tokens: int = 6000, temperature: float = 0.6,
-                   max_retries: int = 3) -> tuple[str, dict]:
+                   max_retries: int = 4) -> tuple[str, dict]:
+    """Anthropic messages call via the streaming API (SSE).
+
+    Streaming is required because non-streaming holds an idle TCP connection for
+    60-90s while Sonnet generates 6000+ tokens — intermediate proxies (especially
+    on residential / mobile networks) close idle connections, producing the
+    'Remote end closed connection without response' error. Streaming sends
+    intermediate `event: content_block_delta` messages every few hundred ms,
+    keeping the connection demonstrably active.
+    """
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     if not api_key:
         die("Missing ANTHROPIC_API_KEY (see rank-ai/.env).")
@@ -99,6 +108,7 @@ def anthropic_call(system: str, user: str, *, model: str = ANTHROPIC_MODEL,
         "temperature": temperature,
         "system": system,
         "messages": [{"role": "user", "content": user}],
+        "stream": True,
     }
     data = json.dumps(body).encode()
 
@@ -109,13 +119,57 @@ def anthropic_call(system: str, user: str, *, model: str = ANTHROPIC_MODEL,
                                          "x-api-key": api_key,
                                          "anthropic-version": "2023-06-01",
                                          "content-type": "application/json",
+                                         "accept": "text/event-stream",
                                      })
+        chunks: list[str] = []
+        usage = {"input_tokens": 0, "output_tokens": 0}
         try:
             with urllib.request.urlopen(req, timeout=300) as resp:
-                payload = json.loads(resp.read().decode())
-            content = payload["content"][0]["text"]
-            usage = payload.get("usage", {})
-            return content, usage
+                # Read SSE line-by-line
+                buf = ""
+                last_event = None
+                for raw_line in resp:
+                    line = raw_line.decode("utf-8", errors="replace").rstrip("\r\n")
+                    if not line:
+                        continue
+                    if line.startswith("event:"):
+                        last_event = line[6:].strip()
+                        continue
+                    if line.startswith("data:"):
+                        payload_str = line[5:].strip()
+                        if not payload_str:
+                            continue
+                        try:
+                            evt = json.loads(payload_str)
+                        except json.JSONDecodeError:
+                            continue
+                        etype = evt.get("type")
+                        if etype == "content_block_delta":
+                            delta = evt.get("delta", {})
+                            if delta.get("type") == "text_delta":
+                                chunks.append(delta.get("text", ""))
+                        elif etype == "message_delta":
+                            u = evt.get("usage") or {}
+                            for k in ("input_tokens", "output_tokens", "cache_creation_input_tokens", "cache_read_input_tokens"):
+                                if k in u:
+                                    usage[k] = u[k]
+                        elif etype == "message_start":
+                            m = evt.get("message", {})
+                            u = m.get("usage") or {}
+                            for k, v in u.items():
+                                usage[k] = v
+                        elif etype == "error":
+                            err_obj = evt.get("error", {})
+                            err_type = err_obj.get("type", "unknown")
+                            err_msg = err_obj.get("message", "")
+                            if err_type in ("overloaded_error", "api_error") or "5" in str(err_obj.get("status", "")):
+                                last = f"stream error: {err_type}: {err_msg}"
+                                raise urllib.error.URLError(last)
+                            raise RuntimeError(f"Anthropic stream error: {err_type}: {err_msg}")
+                content = "".join(chunks)
+                if not content:
+                    raise urllib.error.URLError("empty stream output")
+                return content, usage
         except urllib.error.HTTPError as e:
             err = e.read().decode(errors="replace")
             if e.code == 429 or 500 <= e.code < 600:
@@ -131,7 +185,7 @@ def anthropic_call(system: str, user: str, *, model: str = ANTHROPIC_MODEL,
             print(f"      retry {attempt}/{max_retries} in {wait}s (net: {last[:80]})")
             time.sleep(wait)
             continue
-    raise RuntimeError(f"Anthropic POST failed after {max_retries} retries. Last: {last}")
+    raise RuntimeError(f"Anthropic streaming POST failed after {max_retries} retries. Last: {last}")
 
 
 def parse_llm_json(text: str) -> dict:
