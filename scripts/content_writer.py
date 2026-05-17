@@ -1,0 +1,611 @@
+#!/usr/bin/env python3
+"""
+Rank AI — Content Writer (System 2).
+
+Pops one priority-1 item from clients/{slug}/content-queue.json, generates body
+content + FAQ via Anthropic, generates hero image via Gemini (Nano Banana Pro),
+converts to WebP, uploads to R2, writes markdown to the client's Astro blog
+collection, marks the queue item as written, commits the monorepo, sync-deploys.
+
+One post per run. Designed for headless cron via the master scheduler.
+
+Spec: rank-ai/docs/seo-operations-spec.md
+Prompt: rank-ai/templates/restoration/prompts/content-writer.md
+
+Subcommands:
+  next-post    Pop next priority-1 queue item, write + publish.
+  queue        Show the current queue for a client (no writes).
+  status       Show how many posts are queued / written / live for a client.
+
+Env (from rank-ai/.env):
+  ANTHROPIC_API_KEY         Content generation
+  GOOGLE_AI_API_KEY         Nano Banana image generation
+  CLOUDFLARE_R2_API_TOKEN   R2 image upload (via wrangler in image_utils.py)
+  GITHUB_PERSONAL_ACCESS_TOKEN  sync-deploy
+"""
+from __future__ import annotations
+
+import argparse
+import base64
+import io
+import json
+import os
+import re
+import socket
+import sys
+import time
+import urllib.error
+import urllib.request
+from datetime import datetime, timezone
+from pathlib import Path
+
+# Reuse helpers we already built
+SCRIPT_DIR = Path(__file__).resolve().parent
+sys.path.insert(0, str(SCRIPT_DIR))
+import image_utils  # noqa: E402 — local helper, lives in scripts/
+
+REPO_ROOT = SCRIPT_DIR.parent
+CLIENTS_DIR = REPO_ROOT / "clients"
+SITES_DIR = REPO_ROOT / "sites"
+TEMPLATES_DIR = REPO_ROOT / "templates"
+PROMPT_PATH = TEMPLATES_DIR / "restoration" / "prompts" / "content-writer.md"
+
+ANTHROPIC_API = "https://api.anthropic.com/v1/messages"
+ANTHROPIC_MODEL = "claude-sonnet-4-6"
+
+GEMINI_API_BASE = "https://generativelanguage.googleapis.com/v1beta/models"
+GEMINI_PRO_MODEL = "gemini-3-pro-image-preview"      # Nano Banana Pro
+GEMINI_FLASH_MODEL = "gemini-3.1-flash-image-preview"  # Nano Banana 2 (Flash)
+
+
+# ----------------------------------------------------------------------------
+# Helpers
+# ----------------------------------------------------------------------------
+
+
+def die(msg: str, code: int = 1) -> None:
+    print(f"ERROR: {msg}", file=sys.stderr)
+    sys.exit(code)
+
+
+def now_iso() -> str:
+    return datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
+
+
+def load_json(path: Path) -> dict:
+    if not path.exists():
+        die(f"Missing required file: {path}")
+    return json.loads(path.read_text())
+
+
+def save_json(path: Path, data: dict) -> None:
+    path.write_text(json.dumps(data, indent=2) + "\n")
+
+
+# ----------------------------------------------------------------------------
+# Anthropic — body content + FAQ
+# ----------------------------------------------------------------------------
+
+
+def anthropic_call(system: str, user: str, *, model: str = ANTHROPIC_MODEL,
+                   max_tokens: int = 6000, temperature: float = 0.6,
+                   max_retries: int = 3) -> tuple[str, dict]:
+    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    if not api_key:
+        die("Missing ANTHROPIC_API_KEY (see rank-ai/.env).")
+    body = {
+        "model": model,
+        "max_tokens": max_tokens,
+        "temperature": temperature,
+        "system": system,
+        "messages": [{"role": "user", "content": user}],
+    }
+    data = json.dumps(body).encode()
+
+    last = ""
+    for attempt in range(1, max_retries + 1):
+        req = urllib.request.Request(ANTHROPIC_API, data=data, method="POST",
+                                     headers={
+                                         "x-api-key": api_key,
+                                         "anthropic-version": "2023-06-01",
+                                         "content-type": "application/json",
+                                     })
+        try:
+            with urllib.request.urlopen(req, timeout=300) as resp:
+                payload = json.loads(resp.read().decode())
+            content = payload["content"][0]["text"]
+            usage = payload.get("usage", {})
+            return content, usage
+        except urllib.error.HTTPError as e:
+            err = e.read().decode(errors="replace")
+            if e.code == 429 or 500 <= e.code < 600:
+                wait = 2 ** attempt
+                last = f"HTTP {e.code}: {err[:200]}"
+                print(f"      retry {attempt}/{max_retries} in {wait}s ({last[:80]})")
+                time.sleep(wait)
+                continue
+            raise RuntimeError(f"Anthropic POST -> HTTP {e.code}: {err}")
+        except (urllib.error.URLError, socket.timeout, ConnectionResetError) as e:
+            last = str(e)
+            wait = 2 ** attempt
+            print(f"      retry {attempt}/{max_retries} in {wait}s (net: {last[:80]})")
+            time.sleep(wait)
+            continue
+    raise RuntimeError(f"Anthropic POST failed after {max_retries} retries. Last: {last}")
+
+
+def parse_llm_json(text: str) -> dict:
+    """Robust JSON parse — strip code fences if present."""
+    text = text.strip()
+    if text.startswith("```"):
+        text = re.sub(r"^```[a-z]*\n", "", text)
+        text = re.sub(r"\n```\s*$", "", text)
+    return json.loads(text)
+
+
+# ----------------------------------------------------------------------------
+# Gemini — hero image generation
+# ----------------------------------------------------------------------------
+
+
+def gemini_generate_image(prompt: str, *, model: str = GEMINI_PRO_MODEL,
+                          aspect_ratio: str = "16:9",
+                          max_retries: int = 3) -> bytes:
+    """Generate an image via the Gemini REST API. Returns PNG bytes."""
+    api_key = os.environ.get("GOOGLE_AI_API_KEY")
+    if not api_key:
+        die("Missing GOOGLE_AI_API_KEY (see rank-ai/.env).")
+
+    url = f"{GEMINI_API_BASE}/{model}:generateContent?key={api_key}"
+    body = {
+        "contents": [{"parts": [{"text": prompt}]}],
+        "generationConfig": {
+            "responseModalities": ["IMAGE"],
+            "imageConfig": {"aspectRatio": aspect_ratio},
+        },
+    }
+    data = json.dumps(body).encode()
+
+    last = ""
+    for attempt in range(1, max_retries + 1):
+        req = urllib.request.Request(url, data=data, method="POST",
+                                     headers={"content-type": "application/json"})
+        try:
+            with urllib.request.urlopen(req, timeout=300) as resp:
+                payload = json.loads(resp.read().decode())
+            # Walk for inline_data with base64
+            for cand in payload.get("candidates", []):
+                for part in cand.get("content", {}).get("parts", []):
+                    inline = part.get("inlineData") or part.get("inline_data")
+                    if inline and inline.get("data"):
+                        return base64.b64decode(inline["data"])
+            raise RuntimeError(f"Gemini response had no image data:\n{json.dumps(payload, indent=2)[:500]}")
+        except urllib.error.HTTPError as e:
+            err = e.read().decode(errors="replace")
+            if e.code == 429 or 500 <= e.code < 600:
+                wait = 2 ** attempt
+                last = f"HTTP {e.code}: {err[:200]}"
+                print(f"      retry {attempt}/{max_retries} in {wait}s ({last[:80]})")
+                time.sleep(wait)
+                continue
+            raise RuntimeError(f"Gemini POST -> HTTP {e.code}: {err}")
+        except (urllib.error.URLError, socket.timeout, ConnectionResetError) as e:
+            last = str(e)
+            wait = 2 ** attempt
+            print(f"      retry {attempt}/{max_retries} in {wait}s (net: {last[:80]})")
+            time.sleep(wait)
+            continue
+    raise RuntimeError(f"Gemini image gen failed after {max_retries} retries. Last: {last}")
+
+
+# ----------------------------------------------------------------------------
+# Queue management
+# ----------------------------------------------------------------------------
+
+
+def queue_path(slug: str) -> Path:
+    return CLIENTS_DIR / slug / "content-queue.json"
+
+
+def load_queue(slug: str) -> dict:
+    p = queue_path(slug)
+    if not p.exists():
+        return {"items": []}
+    return load_json(p)
+
+
+def pop_next_queued(queue: dict) -> dict | None:
+    """Find the oldest priority-1 queued item. Does NOT modify the queue (the
+    orchestrator updates status after a successful write)."""
+    items = [i for i in queue.get("items", []) if i.get("status") == "queued"]
+    if not items:
+        return None
+    # Sort by queued_at ascending — oldest first
+    items.sort(key=lambda i: i.get("queued_at", ""))
+    return items[0]
+
+
+def mark_written(slug: str, item_id: str, post_url: str) -> None:
+    queue = load_queue(slug)
+    for item in queue.get("items", []):
+        if item.get("id") == item_id:
+            item["status"] = "written"
+            item["written_at"] = now_iso()
+            item["post_url"] = post_url
+            break
+    save_json(queue_path(slug), queue)
+
+
+# ----------------------------------------------------------------------------
+# Build the prompt input (system + user messages)
+# ----------------------------------------------------------------------------
+
+
+def build_prompt_inputs(slug: str, item: dict) -> tuple[str, str]:
+    """Return (system, user) prompt strings for the Anthropic call."""
+    # Load full client context
+    client = load_json(CLIENTS_DIR / f"{slug}.json")
+    plan_input = load_json(CLIENTS_DIR / slug / "plan-input.json")
+    style_guide_path = CLIENTS_DIR / slug / "image-style-guide.md"
+    style_guide = style_guide_path.read_text() if style_guide_path.exists() else ""
+
+    # Read the prompt template (source of truth)
+    system = PROMPT_PATH.read_text()
+
+    # Resolve the client context block for the user message
+    brand = plan_input.get("brand", {})
+    primary = next((a for a in plan_input.get("service_areas", []) if a.get("primary")),
+                   plan_input.get("service_areas", [{}])[0])
+    services = plan_input.get("services", [])
+
+    # If the queue item has city_anchor, hydrate that city's full record
+    city_anchor_record = None
+    if item.get("city_anchor"):
+        city_anchor_record = next(
+            (a for a in plan_input.get("service_areas", [])
+             if a.get("slug") == item["city_anchor"]),
+            None
+        )
+
+    context = {
+        "slug": slug,
+        "client": {
+            "display_name": client.get("display_name"),
+            "domain": client.get("domain"),
+            "build_status": client.get("build_status"),
+        },
+        "brand": brand,
+        "primary_area": primary,
+        "service_areas": plan_input.get("service_areas", []),
+        "services_selected": services,
+        "queue_item": item,
+        "city_anchor_record": city_anchor_record,
+    }
+
+    user = (
+        "# Queue item to write\n\n"
+        f"```json\n{json.dumps(item, indent=2)}\n```\n\n"
+        "# Client context\n\n"
+        f"```json\n{json.dumps(context, indent=2)}\n```\n\n"
+        "# Image style guide (consult for image_prompt construction)\n\n"
+        f"{style_guide}\n\n"
+        "# Your task\n\n"
+        "Generate the JSON object per the prompt's contract. Return only the JSON, "
+        "no surrounding prose, no code fences. Target ~"
+        f"{item.get('target_word_count', 1400)} words in body_markdown."
+    )
+
+    return system, user
+
+
+# ----------------------------------------------------------------------------
+# Markdown frontmatter writer
+# ----------------------------------------------------------------------------
+
+
+def write_markdown(slug: str, item: dict, content: dict, hero_url: str) -> Path:
+    """Write the post markdown to sites/{slug}/src/content/blog/{post-slug}.md.
+    Returns the file path."""
+    site_dir = SITES_DIR / slug
+    blog_dir = site_dir / "src" / "content" / "blog"
+    if not blog_dir.exists():
+        die(f"Blog content dir doesn't exist: {blog_dir}. Has the site been scaffolded?")
+
+    post_slug = item.get("suggested_slug") or re.sub(r"[^a-z0-9]+", "-", item["primary_keyword"].lower()).strip("-")
+    out_path = blog_dir / f"{post_slug}.md"
+
+    # Frontmatter — matches the blog content collection schema in content/config.ts
+    fm = {
+        "archetype": "blog-post",
+        "title": content["title"],
+        "h1": content["title"],
+        "meta_description": content["meta_description"],
+        "primary_keyword": item["primary_keyword"],
+        "secondary_keywords": item.get("fan_out_cluster", []),
+        "search_intent": item.get("intent", "informational"),
+        "priority": 7,
+        "hero": hero_url,
+        "og": hero_url,
+        "plan_hash": None,
+        "generated_at": now_iso(),
+        "manual_override": False,
+        "internal_links": content.get("internal_link_suggestions", []),
+        "breadcrumb": [
+            {"name": "Home", "url": "/"},
+            {"name": "Blog", "url": "/blog/"},
+            {"name": content["title"]},
+        ],
+        "faq": content.get("faq", []),
+        "published_at": now_iso()[:10],
+        "services": item.get("service_tags", []),
+        "rendered": True,
+    }
+
+    # YAML-shaped frontmatter using JSON for arrays/objects/bools
+    lines = ["---"]
+    for k, v in fm.items():
+        if isinstance(v, (list, dict, bool)):
+            lines.append(f"{k}: {json.dumps(v)}")
+        elif isinstance(v, (int, float)):
+            lines.append(f"{k}: {v}")
+        elif v is None:
+            lines.append(f"{k}: null")
+        else:
+            escaped = str(v).replace('"', '\\"')
+            lines.append(f'{k}: "{escaped}"')
+    lines.append("---")
+    lines.append(content["body_markdown"].strip())
+
+    out_path.write_text("\n".join(lines) + "\n")
+    return out_path
+
+
+# ----------------------------------------------------------------------------
+# Image gen + upload
+# ----------------------------------------------------------------------------
+
+
+def generate_and_upload_hero(slug: str, item: dict, image_prompt: str, *, use_pro: bool = True) -> str:
+    """Generate hero image via Gemini, convert PNG → WebP, upload to R2, return
+    the public URL."""
+    client = load_json(CLIENTS_DIR / f"{slug}.json")
+    domain = client["domain"]
+    bucket = f"rankai-{slug}"
+    post_slug = item.get("suggested_slug") or re.sub(r"[^a-z0-9]+", "-", item["primary_keyword"].lower()).strip("-")
+    today = datetime.now(timezone.utc).strftime("%Y/%m")
+    r2_key = f"blog/{today}/{post_slug}/hero.webp"
+
+    model = GEMINI_PRO_MODEL if use_pro else GEMINI_FLASH_MODEL
+    print(f"      Generating hero image with {model}...")
+    png_bytes = gemini_generate_image(image_prompt, model=model, aspect_ratio="16:9")
+    print(f"      PNG size: {len(png_bytes) / 1024:.1f} KB")
+
+    webp_bytes = image_utils.png_to_webp_bytes(png_bytes, quality=90)
+    print(f"      WebP size: {len(webp_bytes) / 1024:.1f} KB ({len(webp_bytes)/len(png_bytes)*100:.1f}% of PNG)")
+
+    print(f"      Uploading to r2://{bucket}/{r2_key}...")
+    if not image_utils.upload_bytes_to_r2(bucket, r2_key, webp_bytes, content_type="image/webp"):
+        raise RuntimeError(f"R2 upload failed for {r2_key}")
+
+    public_url = f"https://images.{domain}/{r2_key}"
+    print(f"      Public URL: {public_url}")
+    return public_url
+
+
+# ----------------------------------------------------------------------------
+# Sync-deploy hook (reuses build_site.py's git subtree logic)
+# ----------------------------------------------------------------------------
+
+
+def commit_and_sync(slug: str, item: dict, post_path: Path, branch: str) -> None:
+    """Stage the new post + queue update, commit, sync-deploy to per-client repo."""
+    import subprocess
+
+    def run(cmd, cwd):
+        out = subprocess.run(cmd, cwd=str(cwd), capture_output=True, text=True)
+        if out.returncode != 0:
+            raise RuntimeError(f"{' '.join(cmd)} failed:\n{out.stderr}")
+        return out.stdout.strip()
+
+    print(f"      Committing to monorepo...")
+    run(["git", "add",
+         f"sites/{slug}/src/content/blog/{post_path.name}",
+         f"clients/{slug}/content-queue.json"], REPO_ROOT)
+    try:
+        run(["git", "commit", "-m",
+             f"Content writer: publish {item['primary_keyword']} for {slug}"],
+            REPO_ROOT)
+        print(f"      Committed.")
+    except RuntimeError as e:
+        if "nothing to commit" in str(e).lower():
+            print(f"      (nothing to commit)")
+        else:
+            raise
+
+    print(f"      Pushing monorepo to origin...")
+    run(["git", "push", "origin", "main"], REPO_ROOT)
+
+    print(f"      Sync-deploying sites/{slug}/ to per-client repo (branch={branch})...")
+    sync = subprocess.run(
+        ["python3", str(SCRIPT_DIR / "build_site.py"),
+         "sync-deploy", "--slug", slug, "--branch", branch],
+        cwd=str(REPO_ROOT), capture_output=True, text=True,
+    )
+    if sync.returncode != 0:
+        print(f"      sync-deploy stderr: {sync.stderr}")
+        raise RuntimeError(f"sync-deploy failed (exit {sync.returncode})")
+    print(f"      Sync complete. Cloudflare will auto-build the {branch} branch.")
+
+
+# ----------------------------------------------------------------------------
+# Subcommands
+# ----------------------------------------------------------------------------
+
+
+def cmd_next_post(args) -> int:
+    slug = args.slug
+    queue = load_queue(slug)
+    item = pop_next_queued(queue)
+    if not item:
+        print(f"==> No queued items for {slug}. Run rank-ai-keyword-researcher to refill.")
+        return 0
+
+    print(f"==> Writing next post for {slug}")
+    print(f"    Topic:        {item['primary_keyword']}")
+    print(f"    Suggested title: {item.get('suggested_title','?')}")
+    print(f"    Intent: {item.get('intent','?')}  vol={item.get('volume','?')}  kd={item.get('kd','?')}")
+    print(f"    Target branch: {args.branch}")
+    if args.dry_run:
+        print(f"    (DRY RUN — no writes, no API calls)")
+        return 0
+    print()
+
+    # Step 1: generate body + FAQ + image prompt
+    print("[1/5] Generating body content via Anthropic...")
+    system, user = build_prompt_inputs(slug, item)
+    raw, usage = anthropic_call(system, user, max_tokens=8000,
+                                model=args.model or ANTHROPIC_MODEL)
+    try:
+        content = parse_llm_json(raw)
+    except json.JSONDecodeError as e:
+        print(f"      LLM returned non-JSON (first 300 chars):\n{raw[:300]}")
+        raise RuntimeError(f"Content writer LLM output failed JSON parse: {e}")
+    body_len = len(content.get("body_markdown", ""))
+    faq_count = len(content.get("faq", []))
+    print(f"      Body: {body_len} chars, FAQ: {faq_count} items, "
+          f"tok: {usage.get('input_tokens',0)}+{usage.get('output_tokens',0)}")
+
+    # Step 2: generate hero image
+    print("[2/5] Generating hero image via Gemini Pro...")
+    image_prompt = content.get("image_prompt") or (
+        f"Editorial restoration photograph illustrating: {item['primary_keyword']}. "
+        f"Worker in branded polo, IICRC patch, faces obscured. "
+        f"Mirrorless full-frame look, neutral interior lighting, no text or logos."
+    )
+    if args.skip_image:
+        hero_url = ""
+        print(f"      (--skip-image: leaving hero empty)")
+    else:
+        try:
+            hero_url = generate_and_upload_hero(slug, item, image_prompt, use_pro=not args.flash)
+        except RuntimeError as e:
+            print(f"      Image gen failed: {e}")
+            if args.no_image_fallback:
+                raise
+            print(f"      Falling back to brand hero placeholder.")
+            client = load_json(CLIENTS_DIR / f"{slug}.json")
+            hero_url = f"https://images.{client['domain']}/brand/hero.webp"
+
+    # Step 3: write markdown
+    print("[3/5] Writing post markdown...")
+    post_path = write_markdown(slug, item, content, hero_url)
+    print(f"      {post_path}")
+
+    # Step 4: mark queue item written
+    print("[4/5] Marking queue item as written...")
+    post_url = f"https://{load_json(CLIENTS_DIR / f'{slug}.json')['domain']}/blog/{post_path.stem}/"
+    mark_written(slug, item["id"], post_url)
+    print(f"      Queue item {item['id']} → status: written, post_url: {post_url}")
+
+    # Step 5: commit + sync-deploy
+    if args.no_deploy:
+        print("[5/5] (--no-deploy: skipping commit + sync-deploy)")
+    else:
+        print(f"[5/5] Committing and sync-deploying to {args.branch} branch...")
+        commit_and_sync(slug, item, post_path, args.branch)
+
+    print()
+    print(f"==> Post complete.")
+    print(f"    Post:    {post_path}")
+    print(f"    Hero:    {hero_url}")
+    print(f"    Live (after CF build): {post_url}")
+    return 0
+
+
+def cmd_queue(args) -> int:
+    slug = args.slug
+    queue = load_queue(slug)
+    items = queue.get("items", [])
+    queued = [i for i in items if i.get("status") == "queued"]
+    written = [i for i in items if i.get("status") == "written"]
+
+    print(f"==> Content queue for {slug}")
+    print(f"    Queued (waiting):  {len(queued)}")
+    print(f"    Written (live):    {len(written)}")
+    print()
+    if queued:
+        print("Next up:")
+        queued.sort(key=lambda i: i.get("queued_at", ""))
+        for i, item in enumerate(queued[:10], 1):
+            print(f"  {i}. {item['primary_keyword']}")
+            print(f"     vol={item.get('volume','?')}  kd={item.get('kd','?')}  intent={item.get('intent','?')}  queued_at={item.get('queued_at','?')}")
+    if written:
+        print()
+        print(f"Most recently written:")
+        written.sort(key=lambda i: i.get("written_at", ""), reverse=True)
+        for item in written[:5]:
+            print(f"  - {item['primary_keyword']}")
+            print(f"      {item.get('post_url','(no url)')}  written_at={item.get('written_at','?')}")
+    return 0
+
+
+def cmd_status(args) -> int:
+    slug = args.slug
+    queue = load_queue(slug)
+    items = queue.get("items", [])
+    print(json.dumps({
+        "slug": slug,
+        "queued": sum(1 for i in items if i.get("status") == "queued"),
+        "written": sum(1 for i in items if i.get("status") == "written"),
+        "total": len(items),
+    }, indent=2))
+    return 0
+
+
+# ----------------------------------------------------------------------------
+# CLI
+# ----------------------------------------------------------------------------
+
+
+def build_parser() -> argparse.ArgumentParser:
+    p = argparse.ArgumentParser(
+        prog="content_writer",
+        description="Rank AI — content writer (System 2). Pops next queued item, writes + deploys one post.",
+    )
+    sub = p.add_subparsers(dest="cmd", required=True)
+
+    pn = sub.add_parser("next-post", help="Pop next priority-1 queue item, write + deploy")
+    pn.add_argument("--slug", required=True)
+    pn.add_argument("--branch", choices=["main", "staging"], default="staging",
+                    help="Target branch for sync-deploy (default: staging — safer)")
+    pn.add_argument("--model", help=f"Override Anthropic model (default: {ANTHROPIC_MODEL})")
+    pn.add_argument("--flash", action="store_true",
+                    help="Use Nano Banana Flash for hero image (cheaper, lower quality)")
+    pn.add_argument("--skip-image", action="store_true",
+                    help="Skip image generation entirely (leaves hero empty)")
+    pn.add_argument("--no-image-fallback", action="store_true",
+                    help="If image gen fails, abort instead of using brand hero placeholder")
+    pn.add_argument("--no-deploy", action="store_true",
+                    help="Write the post locally but don't commit or sync-deploy")
+    pn.add_argument("--dry-run", action="store_true",
+                    help="Show the next queue item without writing")
+    pn.set_defaults(func=cmd_next_post)
+
+    pq = sub.add_parser("queue", help="Show the current queue for a client")
+    pq.add_argument("--slug", required=True)
+    pq.set_defaults(func=cmd_queue)
+
+    pst = sub.add_parser("status", help="Counts of queued / written / total")
+    pst.add_argument("--slug", required=True)
+    pst.set_defaults(func=cmd_status)
+
+    return p
+
+
+def main() -> int:
+    args = build_parser().parse_args()
+    return args.func(args)
+
+
+if __name__ == "__main__":
+    sys.exit(main())
