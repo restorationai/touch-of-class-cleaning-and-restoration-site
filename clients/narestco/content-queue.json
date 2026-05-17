@@ -35,10 +35,10 @@
     },
     {
       "id": "2026-05-17-what-does-homeowners-insurance-cover-and-not-cover",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-05-17T14:59:05Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-05-17T15:38:04Z",
+      "post_url": "https://narestco.com/blog/what-does-homeowners-insurance-cover-and-not-cover/",
       "primary_keyword": "what does homeowners insurance cover and not cover",
       "intent": "informational",
       "volume": 390,
