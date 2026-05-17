@@ -2,29 +2,29 @@
   "schema_version": 1,
   "slug": "narestco",
   "site": "narestco.com",
-  "live_origin": "https://narestco.com",
-  "live_origin_source": "apex",
-  "audit_form_factor": "desktop",
-  "generated_at": "2026-05-17T23:24:13Z",
+  "live_origin": "https://staging.rankai-narestco.pages.dev",
+  "live_origin_source": "staging",
+  "generated_at": "2026-05-17T16:13:53Z",
   "environment_caveats": [
-    "audit_form_factor=desktop: DataForSEO Lighthouse MCP does not expose form_factor parameter. Mobile scores would typically be 10-20 perf points lower.",
-    "Lighthouse top-5-failing-audits requires full_data=true call which returns 5-15MB per URL \u2014 skipped to avoid context blow-up. Findings inferred from instant_pages + headline numerics."
+    "Cloudflare Pages preview deployments inject 'X-Robots-Tag: noindex' on *.pages.dev subdomains. This is sinking Lighthouse SEO scores to 61 across all pages. The site itself is correctly configured (robots.txt allows all, canonicals point to apex). Re-audit after narestco.com apex cutover for true SEO scores.",
+    "DataForSEO Lighthouse MCP runs DESKTOP form factor only (cpuSlowdownMultiplier=1, throughputKbps=10240). The 'mobile strategy only' rule in the prompt is aspirational; the MCP wrapper does not expose form_factor. Mobile scores typically run 10-20 points lower for performance. Treat performance scores as ceiling, not realistic mobile.",
+    "Lighthouse calls returned headline scores + select numerics but not the full 'opportunities' / 'diagnostics' arrays needed for per-URL top-5-issues. To get those, call mcp__dataforseo__on_page_lighthouse with full_data=true on each URL \u2014 produces 5-15MB JSON per call. Skipped for this validation run to avoid context blow-up."
   ],
   "audited_urls": [
     {
-      "url": "https://narestco.com/",
+      "url": "https://staging.rankai-narestco.pages.dev/",
       "archetype": "home",
-      "verdict": "amber",
+      "verdict": "red",
       "error_reason": null,
       "scores": {
         "performance": 90,
         "accessibility": 77,
         "best_practices": 77,
-        "seo": 92
+        "seo": 61
       },
       "core_web_vitals": {
-        "LCP_ms": 1953,
-        "CLS": 0.003,
+        "LCP_ms": 1999,
+        "CLS": 0.006,
         "TBT_ms": null,
         "INP_ms": null
       },
@@ -44,31 +44,25 @@
         },
         {
           "id": "render_blocking_resources",
-          "title": "1 render-blocking script + 1 render-blocking stylesheet in the layout",
+          "title": "2 render-blocking resource(s) (likely the layout font CSS + analytics script)",
           "severity": "medium",
           "source": "lighthouse_inferred"
-        },
-        {
-          "id": "largest_contentful_paint_borderline",
-          "title": "LCP is 1953ms (target \u2264 2500ms for Good; borderline)",
-          "severity": "medium",
-          "source": "lighthouse"
         }
       ]
     },
     {
-      "url": "https://narestco.com/services/",
+      "url": "https://staging.rankai-narestco.pages.dev/services/",
       "archetype": "services-hub",
-      "verdict": "amber",
+      "verdict": "red",
       "error_reason": null,
       "scores": {
-        "performance": 100,
+        "performance": 99,
         "accessibility": 87,
-        "best_practices": 77,
-        "seo": 92
+        "best_practices": 100,
+        "seo": 61
       },
       "core_web_vitals": {
-        "LCP_ms": 715,
+        "LCP_ms": 915,
         "CLS": 0.006,
         "TBT_ms": null,
         "INP_ms": null
@@ -83,25 +77,25 @@
         },
         {
           "id": "render_blocking_resources",
-          "title": "1 render-blocking script + 1 render-blocking stylesheet in the layout",
+          "title": "2 render-blocking resource(s) (likely the layout font CSS + analytics script)",
           "severity": "medium",
           "source": "lighthouse_inferred"
         }
       ]
     },
     {
-      "url": "https://narestco.com/services/water-damage-restoration/",
+      "url": "https://staging.rankai-narestco.pages.dev/services/water-damage-restoration/",
       "archetype": "service-landing",
-      "verdict": "amber",
+      "verdict": "red",
       "error_reason": null,
       "scores": {
-        "performance": 98,
+        "performance": 99,
         "accessibility": 82,
         "best_practices": 77,
-        "seo": 92
+        "seo": 61
       },
       "core_web_vitals": {
-        "LCP_ms": 871,
+        "LCP_ms": 833,
         "CLS": 0.003,
         "TBT_ms": null,
         "INP_ms": null
@@ -116,31 +110,31 @@
         },
         {
           "id": "render_blocking_resources",
-          "title": "1 render-blocking script + 1 render-blocking stylesheet in the layout",
+          "title": "2 render-blocking resource(s) (likely the layout font CSS + analytics script)",
           "severity": "medium",
           "source": "lighthouse_inferred"
         },
         {
           "id": "og_image_relative_url",
-          "title": "relative URL \u2014 some social platforms reject; make absolute",
+          "title": "relative URL \u2014 some social platforms reject. Should be absolute (https://...)",
           "severity": "medium",
           "source": "instant_pages"
         }
       ]
     },
     {
-      "url": "https://narestco.com/services/flood-damage-restoration/",
+      "url": "https://staging.rankai-narestco.pages.dev/services/flood-damage-restoration/",
       "archetype": "service-landing",
-      "verdict": "amber",
+      "verdict": "red",
       "error_reason": null,
       "scores": {
-        "performance": 99,
+        "performance": 98,
         "accessibility": 82,
         "best_practices": 77,
-        "seo": 92
+        "seo": 61
       },
       "core_web_vitals": {
-        "LCP_ms": 808,
+        "LCP_ms": 872,
         "CLS": 0.003,
         "TBT_ms": null,
         "INP_ms": null
@@ -155,26 +149,26 @@
         },
         {
           "id": "render_blocking_resources",
-          "title": "1 render-blocking script + 1 render-blocking stylesheet in the layout",
+          "title": "2 render-blocking resource(s) (likely the layout font CSS + analytics script)",
           "severity": "medium",
           "source": "lighthouse_inferred"
         }
       ]
     },
     {
-      "url": "https://narestco.com/service-areas/federal-way-wa/",
+      "url": "https://staging.rankai-narestco.pages.dev/service-areas/federal-way-wa/",
       "archetype": "service-area",
-      "verdict": "amber",
+      "verdict": "red",
       "error_reason": null,
       "scores": {
-        "performance": 98,
+        "performance": 99,
         "accessibility": 82,
         "best_practices": 77,
-        "seo": 92
+        "seo": 61
       },
       "core_web_vitals": {
-        "LCP_ms": 843,
-        "CLS": 0.007,
+        "LCP_ms": 807,
+        "CLS": 0.003,
         "TBT_ms": null,
         "INP_ms": null
       },
@@ -188,26 +182,26 @@
         },
         {
           "id": "render_blocking_resources",
-          "title": "1 render-blocking script + 1 render-blocking stylesheet in the layout",
+          "title": "2 render-blocking resource(s) (likely the layout font CSS + analytics script)",
           "severity": "medium",
           "source": "lighthouse_inferred"
         }
       ]
     },
     {
-      "url": "https://narestco.com/contact/",
+      "url": "https://staging.rankai-narestco.pages.dev/contact/",
       "archetype": "contact",
-      "verdict": "amber",
+      "verdict": "red",
       "error_reason": null,
       "scores": {
         "performance": 99,
         "accessibility": 88,
         "best_practices": 77,
-        "seo": 92
+        "seo": 61
       },
       "core_web_vitals": {
-        "LCP_ms": 889,
-        "CLS": 0.032,
+        "LCP_ms": 800,
+        "CLS": 0.028,
         "TBT_ms": null,
         "INP_ms": null
       },
@@ -221,15 +215,9 @@
         },
         {
           "id": "render_blocking_resources",
-          "title": "1 render-blocking script + 1 render-blocking stylesheet in the layout",
+          "title": "2 render-blocking resource(s) (likely the layout font CSS + analytics script)",
           "severity": "medium",
           "source": "lighthouse_inferred"
-        },
-        {
-          "id": "cumulative_layout_shift_borderline",
-          "title": "CLS is 0.032 (target \u2264 0.025 for solidly Good)",
-          "severity": "medium",
-          "source": "lighthouse"
         }
       ]
     }
@@ -238,15 +226,15 @@
     "avg_scores": {
       "performance": 97.3,
       "accessibility": 83,
-      "best_practices": 77,
-      "seo": 92
+      "best_practices": 80.8,
+      "seo": 61
     },
-    "verdict": "amber",
+    "verdict": "red",
     "url_count": 6,
     "urls_by_verdict": {
       "green": 0,
-      "amber": 6,
-      "red": 0,
+      "amber": 0,
+      "red": 6,
       "error": 0
     },
     "template_issues": [
@@ -258,46 +246,46 @@
       },
       {
         "id": "render_blocking_resources",
-        "title": "1 render-blocking script + 1 render-blocking stylesheet in the layout",
+        "title": "2 render-blocking resource(s) (likely the layout font CSS + analytics script)",
         "severity": "medium",
         "affected_urls": 6
       }
     ],
     "money_page_alerts": [
       {
-        "url": "https://narestco.com/",
+        "url": "https://staging.rankai-narestco.pages.dev/",
         "archetype": "home",
-        "verdict": "amber",
-        "main_issue": "accessibility score 77, LCP 1953ms"
+        "verdict": "red",
+        "main_issue": "seo score 61, LCP 1999ms"
       },
       {
-        "url": "https://narestco.com/services/",
+        "url": "https://staging.rankai-narestco.pages.dev/services/",
         "archetype": "services-hub",
-        "verdict": "amber",
-        "main_issue": "best_practices score 77, LCP 715ms"
+        "verdict": "red",
+        "main_issue": "seo score 61, LCP 915ms"
       },
       {
-        "url": "https://narestco.com/services/water-damage-restoration/",
+        "url": "https://staging.rankai-narestco.pages.dev/services/water-damage-restoration/",
         "archetype": "service-landing",
-        "verdict": "amber",
-        "main_issue": "best_practices score 77, LCP 871ms"
+        "verdict": "red",
+        "main_issue": "seo score 61, LCP 833ms"
       },
       {
-        "url": "https://narestco.com/services/flood-damage-restoration/",
+        "url": "https://staging.rankai-narestco.pages.dev/services/flood-damage-restoration/",
         "archetype": "service-landing",
-        "verdict": "amber",
-        "main_issue": "best_practices score 77, LCP 808ms"
+        "verdict": "red",
+        "main_issue": "seo score 61, LCP 872ms"
       },
       {
-        "url": "https://narestco.com/contact/",
+        "url": "https://staging.rankai-narestco.pages.dev/contact/",
         "archetype": "contact",
-        "verdict": "amber",
-        "main_issue": "best_practices score 77, LCP 889ms"
+        "verdict": "red",
+        "main_issue": "seo score 61, LCP 800ms"
       }
     ]
   },
   "regression": {
     "prior_run_at": null,
-    "note": "First baseline audit on apex. Prior run was on staging (archived to audit-runs/2026-05-17-onsite-audit-staging.json) \u2014 environment differed, not directly comparable. Next audit will compute deltas against this baseline."
+    "note": "First audit for this client \u2014 no comparison data"
   }
 }

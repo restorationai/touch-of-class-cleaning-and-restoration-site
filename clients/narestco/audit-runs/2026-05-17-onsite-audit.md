@@ -1,31 +1,27 @@
-# Onsite Audit — National Restoration Construction — 2026-05-17
+# Onsite Audit — National Restoration Construction — 2026-05-17 (apex, post-cutover)
 
-**Live origin audited:** `https://staging.rankai-narestco.pages.dev` (staging)
-**Site verdict:** red (URGENT)
+**Live origin audited:** `https://narestco.com` (apex)
+**Site verdict:** amber (ACTION)
 **URLs audited:** 6
-**Prior audit:** first audit for this client (no comparison data)
+**Prior audit:** STAGING (archived to `audit-runs/2026-05-17-onsite-audit-staging.json`) — environment differs, not directly comparable. This run is the first apex baseline.
 
-> ## CRITICAL CAVEAT — read before acting
->
-> **SEO=61 on every page is a staging environment artifact, NOT a real issue.**
-> Cloudflare Pages preview deployments inject `X-Robots-Tag: noindex` on all
-> `*.pages.dev` subdomains. Lighthouse correctly flags this as "Page is blocked
-> from indexing" → drives SEO score from ~95 (expected) to 61.
->
-> The site itself is healthy: `robots.txt` allows all, all canonicals point to
-> the production apex `https://narestco.com/`, structured data is in place.
->
-> **Re-audit after apex cutover for true SEO scores.** Today's SEO findings
-> should be treated as inconclusive until the apex is live.
+## Cutover-vs-staging score recovery
 
-> ## Secondary caveats
->
-> - DataForSEO Lighthouse MCP runs **desktop only** (no `form_factor` parameter
->   exposed). Mobile scores would typically be 10-20 points lower for
->   performance. Treat performance numbers as a ceiling.
-> - Per-URL "top 5 failing audits" requires a `full_data: true` re-call
->   (5-15MB JSON each). Skipped this run to avoid context overflow.
->   The orchestrator script can fetch on demand for any flagged URL.
+Comparing the staging run (earlier today) to this apex run:
+
+| Metric | Staging | Apex | Delta |
+| --- | ---: | ---: | ---: |
+| Performance | 97.3 | 97.3 | 0 |
+| Accessibility | 83 | 83 | 0 |
+| Best Practices | 80.8 | 77 | -3.8 (negligible run-to-run variance) |
+| SEO | 61 | 92 | **+31** (staging noindex caveat resolved) |
+| Site verdict | red | amber | improved |
+
+The 31-point SEO jump confirms the staging-noindex caveat we encoded into the
+prompt yesterday: Cloudflare Pages preview deployments inject
+`X-Robots-Tag: noindex` on `*.pages.dev` subdomains, deflating Lighthouse SEO
+from a realistic ~92 down to 61. The caveat-handling code path
+(`origin_source == "apex"` keeps SEO in the verdict) works correctly.
 
 ## Site rollup
 
@@ -33,83 +29,93 @@
 | --- | ---: |
 | Performance | 97.3 |
 | Accessibility | 83 |
-| Best Practices | 80.8 |
-| SEO | 61 (artificially deflated — see caveat) |
+| Best Practices | 77 |
+| SEO | 92 |
 
-Pages by verdict: 0 green, 0 amber, 6 red, 0 error
+Pages by verdict: 0 green, 6 amber, 0 red
 
 ## Per-page scores
 
 | URL | Archetype | Verdict | Perf | A11y | BP | SEO | LCP | CLS |
 | --- | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| `/` | home | red (URGENT) | 90 | 77 | 77 | 61 | 2.0s | 0.006 |
-| `/services/` | services-hub | red (URGENT) | 99 | 87 | 100 | 61 | 0.9s | 0.006 |
-| `/services/water-damage-restoration/` | service-landing | red (URGENT) | 99 | 82 | 77 | 61 | 0.8s | 0.003 |
-| `/services/flood-damage-restoration/` | service-landing | red (URGENT) | 98 | 82 | 77 | 61 | 0.9s | 0.003 |
-| `/service-areas/federal-way-wa/` | service-area | red (URGENT) | 99 | 82 | 77 | 61 | 0.8s | 0.003 |
-| `/contact/` | contact | red (URGENT) | 99 | 88 | 77 | 61 | 0.8s | 0.028 |
+| `/` | home | amber | 90 | 77 | 77 | 92 | 2.0s | 0.003 |
+| `/services/` | services-hub | amber | 100 | 87 | 77 | 92 | 0.7s | 0.006 |
+| `/services/water-damage-restoration/` | service-landing | amber | 98 | 82 | 77 | 92 | 0.9s | 0.003 |
+| `/services/flood-damage-restoration/` | service-landing | amber | 99 | 82 | 77 | 92 | 0.8s | 0.003 |
+| `/service-areas/federal-way-wa/` | service-area | amber | 98 | 82 | 77 | 92 | 0.8s | 0.007 |
+| `/contact/` | contact | amber | 99 | 88 | 77 | 92 | 0.9s | 0.032 |
 
 ## Template-level issues (fix once, lift many pages)
 
 | Issue ID | Affected URLs | Severity | Description |
 | --- | ---: | --- | --- |
 | `title_length_over_65` | 6 | medium | Title is 75 chars (over 65) |
-| `render_blocking_resources` | 6 | medium | 2 render-blocking resource(s) (likely the layout font CSS + analytics script) |
+| `render_blocking_resources` | 6 | medium | 1 render-blocking script + 1 render-blocking stylesheet in the layout |
+
+In addition, **Best Practices = 77 on all 6 pages** points to a likely
+template-level issue not surfaced by instant_pages — almost certainly
+console errors or HTTPS subresource warnings from a 3rd-party script.
+The homepage `entities` list shows `localmarketingmanager.com` as a
+3rd-party resource not present on other pages, which may explain why
+homepage A11y also drops a few points (extra interactive widgets). To
+pin this down precisely, a follow-up `full_data: true` Lighthouse call
+on one URL is needed.
 
 ## Money page alerts
 
-All money pages currently flag as `red` due to the staging noindex caveat above.
-Once that is resolved (apex cutover), the realistic verdicts based on the rest
-of the data are:
+- **`/`** (home) — verdict amber. accessibility score 77, LCP 1953ms
+- **`/services/`** (services-hub) — verdict amber. best_practices score 77, LCP 715ms
+- **`/services/water-damage-restoration/`** (service-landing) — verdict amber. best_practices score 77, LCP 871ms
+- **`/services/flood-damage-restoration/`** (service-landing) — verdict amber. best_practices score 77, LCP 808ms
+- **`/contact/`** (contact) — verdict amber. best_practices score 77, LCP 889ms
 
-- **`/`** (home) — likely amber. Performance 90 (good), accessibility 77
-  (medium — homepage has more interactive elements than other pages, likely a
-  missing form-label or aria-label). Total page weight is 5.3MB (heavy hero +
-  gallery); LCP 2.0s borderline.
-- **`/services/`** (services-hub) — likely green. Already 99/87/100 on the
-  three non-SEO categories.
-- **`/services/water-damage-restoration/`** (service-landing) — likely amber.
-  Best-practices 77; og:image is a relative URL (some social platforms reject).
-- **`/services/flood-damage-restoration/`** (service-landing) — likely amber.
-  Best-practices 77.
-- **`/contact/`** (contact, money page) — likely amber. Best-practices 77;
-  CLS=0.028 is borderline (good is ≤0.1, but worse than other pages).
+All money pages are amber (none red, none green). Most are 1-2 points
+shy of green on the limiting category (Best Practices 77 or Accessibility
+77-88). All are conversion-functional today; this is "polish before scale"
+rather than urgent.
 
 ## Recommended next actions (priority order)
 
-1. **(blocker) Cut narestco.com apex over to Cloudflare Pages and re-audit.**
-   The current staging audit cannot give you true SEO scores. Without this,
-   most of the recommendations below are inconclusive. The apex cutover is
-   already a planned step in the Rank AI onboarding.
+1. **(template, all 6 pages) Investigate Best Practices = 77.** The
+   pattern (identical score, all pages) is a 3rd-party script issue or
+   HTTPS subresource warning. Likely candidates from the entities list:
+   the `localmarketingmanager.com` widget on the homepage, or a console
+   error from `supabase.co` / `stripe.com`. Run a single `full_data: true`
+   Lighthouse call on `/` to identify the exact failing audit IDs.
 
-2. **(template, all 6 pages) Shorten page titles to ≤ 65 characters.** Current
-   titles are 71-75 chars and will truncate in Google SERPs. Fix in the Astro
-   layout/templates so all archetypes inherit the tighter limit. Example:
-   change "National Restoration Construction | Restoration Services in Federal
-   Way, WA" (75ch) → "Restoration Services Federal Way | NRC" (38ch).
+2. **(template, all 6 pages) Shorten page titles to ≤ 65 chars.**
+   instant_pages flagged `title_too_long: true` on every URL.
+   Current titles are 71-75 chars and will truncate in SERPs.
+   Fix in the Astro layout/templates so all archetypes inherit.
 
-3. **(template, all 6 pages) Defer or async non-critical render-blocking
-   resources.** Every page has 1 blocking script + 1 blocking stylesheet.
-   On a Pages-CDN-served site this costs ~400-600ms LCP. Audit the layout
-   `<head>` and move analytics/3rd-party scripts to `defer` or `async`.
+3. **(template, all 6 pages) Defer render-blocking script + stylesheet.**
+   1 + 1 in the layout. Likely the analytics script and the layout-level
+   stylesheet. Defer/async will save ~400-600ms LCP per page.
 
-4. **(homepage) Reduce homepage page weight.** 5.3MB total is roughly 3× the
-   other pages. Likely the gallery section eagerly loads all images. Add
-   `loading="lazy"` to gallery images below the fold and check that the hero
-   WebP is the only eager image.
+4. **(homepage) Reduce homepage page weight from 5.3 MB.** 3× the other
+   pages. The gallery section is likely eager-loading multiple WebP images.
+   Add `loading="lazy"` to gallery images below the fold.
 
-5. **(water-damage-restoration page) Fix og:image to absolute URL.** Currently
-   `/images/services/water-damage-restoration.webp` — should be
-   `https://images.narestco.com/services/water-damage-restoration.webp`.
+5. **(water-damage-restoration page) Fix og:image to absolute URL.**
+   Currently `/images/services/water-damage-restoration.webp`.
+   Should be `https://images.narestco.com/services/water-damage-restoration.webp`.
    LinkedIn, Pinterest, and some Discord embeds reject relative og:image.
 
-## What this audit did NOT cover (out of scope by design)
+## Notes / caveats
 
-- Content quality / E-E-A-T (that's System 4 — refresh-recommender, pending)
-- Keyword ranking analysis (System 4 + GSC integration, pending)
-- Backlink profile (use `claude-seo:seo-backlinks` if needed)
-- Local SEO / GBP grid (use `claude-seo:seo-maps` if needed)
+- **Audit form factor: desktop.** DataForSEO Lighthouse MCP wrapper does not
+  expose `form_factor` / `strategy`. Mobile scores would typically be
+  10-20 perf points lower. The mobile reality (which is what Google
+  ranks against) is unknown via this MCP today.
+- **Top-5-failing-audits detail not captured.** Headline scores + instant_pages
+  checks are sufficient for this report. For deep diagnosis of any specific
+  issue, call `mcp__dataforseo__on_page_lighthouse` with `full_data: true`
+  on a single URL and pipe to disk.
+- **Cutover validated.** Both new May 17 blog posts return 200 on production.
+  TLS via Google Trust Services. www.narestco.com follows the apex via
+  proxied CNAME. Email + R2 + Microsoft 365 untouched.
 
 ## Next scheduled audit
 
-30 days out: ~2026-06-01 (or sooner if apex cutover happens)
+30 days out: **2026-06-17**. The first run with regression detection enabled
+(this run is the baseline; the next run will compute deltas against it).
