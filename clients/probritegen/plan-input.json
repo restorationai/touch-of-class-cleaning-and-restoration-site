@@ -1,0 +1,130 @@
+{
+  "_source": "manual-synthesis from clients/probritegen.json (probritegen predates rank-ai-plan-site)",
+  "_resolved_questions": {},
+  "template": "restoration_plus_plumbing",
+  "services": [
+    {
+      "slug": "water-damage-restoration",
+      "display": "Water Damage Restoration",
+      "category": "restoration",
+      "primary": true
+    },
+    {
+      "slug": "mold-remediation",
+      "display": "Mold Remediation",
+      "category": "restoration",
+      "primary": true
+    },
+    {
+      "slug": "sewage-backup-cleanup",
+      "display": "Sewage Backup Cleanup",
+      "category": "restoration",
+      "primary": false
+    },
+    {
+      "slug": "water-heater-installation",
+      "display": "Water Heater Installation",
+      "category": "plumbing_installation",
+      "primary": false
+    },
+    {
+      "slug": "water-softener-installation",
+      "display": "Water Softener Installation",
+      "category": "plumbing_installation",
+      "primary": false
+    }
+  ],
+  "service_areas": [
+    {
+      "city": "Houston",
+      "state": "TX",
+      "primary": true,
+      "slug": "houston-tx"
+    },
+    {
+      "city": "Katy",
+      "state": "TX",
+      "primary": false,
+      "slug": "katy-tx"
+    },
+    {
+      "city": "Sugar Land",
+      "state": "TX",
+      "primary": false,
+      "slug": "sugar-land-tx"
+    },
+    {
+      "city": "The Woodlands",
+      "state": "TX",
+      "primary": false,
+      "slug": "the-woodlands-tx"
+    },
+    {
+      "city": "Spring",
+      "state": "TX",
+      "primary": false,
+      "slug": "spring-tx"
+    },
+    {
+      "city": "Pearland",
+      "state": "TX",
+      "primary": false,
+      "slug": "pearland-tx"
+    },
+    {
+      "city": "Cypress",
+      "state": "TX",
+      "primary": false,
+      "slug": "cypress-tx"
+    },
+    {
+      "city": "Pasadena",
+      "state": "TX",
+      "primary": false,
+      "slug": "pasadena-tx"
+    },
+    {
+      "city": "Humble",
+      "state": "TX",
+      "primary": false,
+      "slug": "humble-tx"
+    },
+    {
+      "city": "Atascocita",
+      "state": "TX",
+      "primary": false,
+      "slug": "atascocita-tx"
+    }
+  ],
+  "brand": {
+    "display_name": "ProBrite Gen",
+    "short_name": "ProBrite Gen",
+    "legal_name": "ProBrite Gen",
+    "primary_color": "#1E5AD4",
+    "primary_dark": "#0D1B3E",
+    "primary_light": "#5982E5",
+    "accent_color": "#F97316",
+    "phone": "(832) 688-6779",
+    "email": "service@probritegen.com",
+    "hours": "24/7",
+    "founded_year": null,
+    "street_address": null,
+    "postal_code": null,
+    "lat": null,
+    "lng": null,
+    "place_id": null,
+    "google_cid": null,
+    "license_numbers": [],
+    "license_authority": null,
+    "license_type": null,
+    "certifications": [
+      "IICRC-certified"
+    ],
+    "same_as_urls": []
+  },
+  "cross_product": false,
+  "keyword_strategy": {
+    "primary_metro": "Houston, TX"
+  },
+  "blog_seed_count": 6
+}
