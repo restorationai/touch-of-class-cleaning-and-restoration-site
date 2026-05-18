@@ -1,0 +1,399 @@
+{
+  "schema_version": 1,
+  "slug": "probritegen",
+  "site": "probritegen.com",
+  "live_origin": "https://probritegen.com",
+  "live_origin_source": "apex",
+  "audit_form_factor": "desktop",
+  "generated_at": "2026-05-18T19:50:05Z",
+  "environment_caveats": [
+    "audit_form_factor=desktop: DataForSEO Lighthouse MCP runs desktop only. Mobile scores would typically be 10-20 perf points lower; LCP and CLS scores here may actually UNDERSTATE the mobile problem.",
+    "on_page_instant_pages calls failed (transient API error) for this run; only Lighthouse headline + CWV data captured. Re-run instant_pages for on-page checks (title length, render-blocking, schema validation)."
+  ],
+  "audited_urls": [
+    {
+      "url": "https://probritegen.com/",
+      "archetype": "home",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 70,
+        "accessibility": 75,
+        "best_practices": 77,
+        "seo": 83
+      },
+      "core_web_vitals": {
+        "LCP_ms": 5202,
+        "CLS": 0.137,
+        "TBT_ms": null,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [],
+      "onpage_issues": [
+        {
+          "id": "lcp_poor",
+          "title": "LCP is 5202ms (Poor: > 4000ms)",
+          "severity": "high",
+          "source": "lighthouse"
+        },
+        {
+          "id": "cls_needs_improvement",
+          "title": "CLS is 0.137 (Needs Improvement: > 0.1)",
+          "severity": "medium",
+          "source": "lighthouse"
+        },
+        {
+          "id": "large_total_byte_weight",
+          "title": "Page weight is 20.5MB",
+          "severity": "medium",
+          "source": "lighthouse"
+        },
+        {
+          "id": "a11y_below_threshold",
+          "title": "Accessibility 75",
+          "severity": "medium",
+          "source": "lighthouse"
+        },
+        {
+          "id": "bp_below_threshold",
+          "title": "Best Practices 77 (likely 3rd-party script console errors)",
+          "severity": "medium",
+          "source": "lighthouse"
+        }
+      ]
+    },
+    {
+      "url": "https://probritegen.com/water-damage/",
+      "archetype": "service-landing",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 65,
+        "accessibility": 75,
+        "best_practices": 77,
+        "seo": 83
+      },
+      "core_web_vitals": {
+        "LCP_ms": 6753,
+        "CLS": 0.207,
+        "TBT_ms": null,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [],
+      "onpage_issues": [
+        {
+          "id": "perf_below_threshold",
+          "title": "Performance 65 (target \u2265 70 amber, \u2265 90 green)",
+          "severity": "high",
+          "source": "lighthouse"
+        },
+        {
+          "id": "lcp_poor",
+          "title": "LCP is 6753ms (Poor: > 4000ms)",
+          "severity": "high",
+          "source": "lighthouse"
+        },
+        {
+          "id": "cls_needs_improvement",
+          "title": "CLS is 0.207 (Needs Improvement: > 0.1)",
+          "severity": "medium",
+          "source": "lighthouse"
+        },
+        {
+          "id": "large_total_byte_weight",
+          "title": "Page weight is 9.5MB",
+          "severity": "medium",
+          "source": "lighthouse"
+        },
+        {
+          "id": "a11y_below_threshold",
+          "title": "Accessibility 75",
+          "severity": "medium",
+          "source": "lighthouse"
+        },
+        {
+          "id": "bp_below_threshold",
+          "title": "Best Practices 77 (likely 3rd-party script console errors)",
+          "severity": "medium",
+          "source": "lighthouse"
+        }
+      ]
+    },
+    {
+      "url": "https://probritegen.com/mold-remediation/",
+      "archetype": "service-landing",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 65,
+        "accessibility": 75,
+        "best_practices": 77,
+        "seo": 83
+      },
+      "core_web_vitals": {
+        "LCP_ms": 6738,
+        "CLS": 0.207,
+        "TBT_ms": null,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [],
+      "onpage_issues": [
+        {
+          "id": "perf_below_threshold",
+          "title": "Performance 65 (target \u2265 70 amber, \u2265 90 green)",
+          "severity": "high",
+          "source": "lighthouse"
+        },
+        {
+          "id": "lcp_poor",
+          "title": "LCP is 6738ms (Poor: > 4000ms)",
+          "severity": "high",
+          "source": "lighthouse"
+        },
+        {
+          "id": "cls_needs_improvement",
+          "title": "CLS is 0.207 (Needs Improvement: > 0.1)",
+          "severity": "medium",
+          "source": "lighthouse"
+        },
+        {
+          "id": "large_total_byte_weight",
+          "title": "Page weight is 10.3MB",
+          "severity": "medium",
+          "source": "lighthouse"
+        },
+        {
+          "id": "a11y_below_threshold",
+          "title": "Accessibility 75",
+          "severity": "medium",
+          "source": "lighthouse"
+        },
+        {
+          "id": "bp_below_threshold",
+          "title": "Best Practices 77 (likely 3rd-party script console errors)",
+          "severity": "medium",
+          "source": "lighthouse"
+        }
+      ]
+    },
+    {
+      "url": "https://probritegen.com/sewage-backup/",
+      "archetype": "service-landing",
+      "verdict": "red",
+      "error_reason": null,
+      "scores": {
+        "performance": 70,
+        "accessibility": 75,
+        "best_practices": 77,
+        "seo": 83
+      },
+      "core_web_vitals": {
+        "LCP_ms": 4243,
+        "CLS": 0.172,
+        "TBT_ms": null,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [],
+      "onpage_issues": [
+        {
+          "id": "lcp_poor",
+          "title": "LCP is 4243ms (Poor: > 4000ms)",
+          "severity": "high",
+          "source": "lighthouse"
+        },
+        {
+          "id": "cls_needs_improvement",
+          "title": "CLS is 0.172 (Needs Improvement: > 0.1)",
+          "severity": "medium",
+          "source": "lighthouse"
+        },
+        {
+          "id": "large_total_byte_weight",
+          "title": "Page weight is 11.0MB",
+          "severity": "medium",
+          "source": "lighthouse"
+        },
+        {
+          "id": "a11y_below_threshold",
+          "title": "Accessibility 75",
+          "severity": "medium",
+          "source": "lighthouse"
+        },
+        {
+          "id": "bp_below_threshold",
+          "title": "Best Practices 77 (likely 3rd-party script console errors)",
+          "severity": "medium",
+          "source": "lighthouse"
+        }
+      ]
+    },
+    {
+      "url": "https://probritegen.com/hot-water/",
+      "archetype": "service-landing",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 77,
+        "accessibility": 75,
+        "best_practices": 77,
+        "seo": 83
+      },
+      "core_web_vitals": {
+        "LCP_ms": 2400,
+        "CLS": 0.208,
+        "TBT_ms": null,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [],
+      "onpage_issues": [
+        {
+          "id": "cls_needs_improvement",
+          "title": "CLS is 0.208 (Needs Improvement: > 0.1)",
+          "severity": "medium",
+          "source": "lighthouse"
+        },
+        {
+          "id": "a11y_below_threshold",
+          "title": "Accessibility 75",
+          "severity": "medium",
+          "source": "lighthouse"
+        },
+        {
+          "id": "bp_below_threshold",
+          "title": "Best Practices 77 (likely 3rd-party script console errors)",
+          "severity": "medium",
+          "source": "lighthouse"
+        }
+      ]
+    },
+    {
+      "url": "https://probritegen.com/contact/",
+      "archetype": "contact",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 86,
+        "accessibility": 75,
+        "best_practices": 77,
+        "seo": 83
+      },
+      "core_web_vitals": {
+        "LCP_ms": 2371,
+        "CLS": 0.075,
+        "TBT_ms": null,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [],
+      "onpage_issues": [
+        {
+          "id": "a11y_below_threshold",
+          "title": "Accessibility 75",
+          "severity": "medium",
+          "source": "lighthouse"
+        },
+        {
+          "id": "bp_below_threshold",
+          "title": "Best Practices 77 (likely 3rd-party script console errors)",
+          "severity": "medium",
+          "source": "lighthouse"
+        }
+      ]
+    }
+  ],
+  "site_rollup": {
+    "avg_scores": {
+      "performance": 72.2,
+      "accessibility": 75,
+      "best_practices": 77,
+      "seo": 83
+    },
+    "verdict": "red",
+    "url_count": 6,
+    "urls_by_verdict": {
+      "green": 0,
+      "amber": 2,
+      "red": 4,
+      "error": 0
+    },
+    "template_issues": [
+      {
+        "id": "a11y_below_threshold",
+        "title": "Accessibility 75",
+        "severity": "medium",
+        "affected_urls": 6
+      },
+      {
+        "id": "bp_below_threshold",
+        "title": "Best Practices 77 (likely 3rd-party script console errors)",
+        "severity": "medium",
+        "affected_urls": 6
+      },
+      {
+        "id": "cls_needs_improvement",
+        "title": "CLS is 0.137 (Needs Improvement: > 0.1)",
+        "severity": "medium",
+        "affected_urls": 5
+      },
+      {
+        "id": "lcp_poor",
+        "title": "LCP is 5202ms (Poor: > 4000ms)",
+        "severity": "high",
+        "affected_urls": 4
+      },
+      {
+        "id": "large_total_byte_weight",
+        "title": "Page weight is 20.5MB",
+        "severity": "medium",
+        "affected_urls": 4
+      },
+      {
+        "id": "perf_below_threshold",
+        "title": "Performance 65 (target \u2265 70 amber, \u2265 90 green)",
+        "severity": "high",
+        "affected_urls": 2
+      }
+    ],
+    "money_page_alerts": [
+      {
+        "url": "https://probritegen.com/",
+        "archetype": "home",
+        "verdict": "red",
+        "main_issue": "performance score 70, LCP 5202ms, CLS 0.137"
+      },
+      {
+        "url": "https://probritegen.com/water-damage/",
+        "archetype": "service-landing",
+        "verdict": "red",
+        "main_issue": "performance score 65, LCP 6753ms, CLS 0.207"
+      },
+      {
+        "url": "https://probritegen.com/mold-remediation/",
+        "archetype": "service-landing",
+        "verdict": "red",
+        "main_issue": "performance score 65, LCP 6738ms, CLS 0.207"
+      },
+      {
+        "url": "https://probritegen.com/sewage-backup/",
+        "archetype": "service-landing",
+        "verdict": "red",
+        "main_issue": "performance score 70, LCP 4243ms, CLS 0.172"
+      },
+      {
+        "url": "https://probritegen.com/hot-water/",
+        "archetype": "service-landing",
+        "verdict": "amber",
+        "main_issue": "accessibility score 75, LCP 2400ms, CLS 0.208"
+      },
+      {
+        "url": "https://probritegen.com/contact/",
+        "archetype": "contact",
+        "verdict": "amber",
+        "main_issue": "accessibility score 75, LCP 2371ms, CLS 0.075"
+      }
+    ]
+  },
+  "regression": {
+    "prior_run_at": null,
+    "note": "First baseline audit for probritegen."
+  }
+}

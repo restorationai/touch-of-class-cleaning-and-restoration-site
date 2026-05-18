@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "slug": "probritegen",
+  "origin": "https://probritegen.com",
+  "origin_source": "apex",
+  "generated_at": "2026-05-18T19:50:52+00:00",
+  "stale_threshold_days": 365,
+  "aging_threshold_days": 305,
+  "gsc_enabled": false,
+  "v1_notes": [
+    "v1 = sitemap + page-level date extraction. No GSC indexing flags.",
+    "See docs/system-4-v2-activation.md for GSC v2 setup."
+  ],
+  "inspected_count": 0,
+  "fetched_html_count": 0,
+  "failed_html_count": 0,
+  "flag_counts": {},
+  "candidates": []
+}
