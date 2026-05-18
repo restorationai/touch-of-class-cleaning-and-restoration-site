@@ -462,7 +462,7 @@ def cmd_send(args) -> int:
 
     body = {
         "personalizations": [{"to": [{"email": to_email, "name": to_name}], "subject": subject}],
-        "from": {"email": "noreply@restorationai.io", "name": "Rank AI"},
+        "from": {"email": "no-reply@restorationai.io", "name": "Rank AI"},
         "reply_to": {"email": "contact@restorationai.io", "name": "Rank AI"},
         "content": [{"type": "text/html", "value": html}],
     }
@@ -497,6 +497,195 @@ def cmd_send(args) -> int:
     return 0
 
 
+def cmd_portfolio(args) -> int:
+    """Generate + (optionally) send a single internal digest email summarizing
+    ALL active clients. This is the agency-owner dashboard delivered to
+    contact@restorationai.io — NOT a client-facing artifact."""
+    import os, json, urllib.request, urllib.error
+    from datetime import datetime, timezone
+
+    start, end, label = parse_period(args.period)
+    # Build rows for every active client
+    rows_data = []
+    for path in sorted(CLIENTS_DIR.glob("*.json")):
+        c = json.loads(path.read_text())
+        if c.get("status") != "active":
+            continue
+        slug = c["slug"]
+        r = build_report_data(slug, args.period)
+        rows_data.append({
+            "slug": slug,
+            "display_name": c.get("display_name", slug),
+            "domain": c.get("domain", ""),
+            "report_path": str(
+                CLIENTS_DIR / slug / "reports" / f"{r.period_start.strftime('%Y-%m')}-monthly.html"
+            ),
+            "verdict": r.audit_latest.get("site_rollup", {}).get("verdict") if r.audit_latest else None,
+            "avg_perf": r.audit_latest.get("site_rollup", {}).get("avg_scores", {}).get("performance") if r.audit_latest else None,
+            "money_alerts": len(r.audit_latest.get("site_rollup", {}).get("money_page_alerts", [])) if r.audit_latest else 0,
+            "posts_this_month": len(r.posts_this_month),
+            "refresh_actions": (r.refresh_latest or {}).get("totals", {}).get("total_actions", 0),
+            "queue_depth": r.queue_depth,
+            "audit_last_run": (c.get("audit") or {}).get("last_audit_at"),
+            "build_status": c.get("build_status"),
+        })
+
+    if not rows_data:
+        sys.stderr.write("No active clients found.\n")
+        return 1
+
+    def verdict_dot(v):
+        color = {"green": "#16a34a", "amber": "#f59e0b", "red": "#dc2626", "error": "#6b7280"}.get(v, "#9ca3af")
+        return f'<span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:{color};margin-right:8px;vertical-align:middle;"></span>{(v or "n/a").upper()}'
+
+    # HTML rows
+    tbody = ""
+    for r in rows_data:
+        report_url = f'file://{r["report_path"]}'
+        tbody += f'''
+        <tr style="border-bottom:1px solid #e5e7eb;">
+          <td style="padding:14px 12px;font-weight:700;color:#0D1B3E;">
+            {html_escape(r["display_name"])}
+            <div style="font-size:12px;color:#6b7280;font-family:ui-monospace,monospace;margin-top:2px;">{html_escape(r["domain"])}</div>
+          </td>
+          <td style="padding:14px 12px;font-size:13px;white-space:nowrap;">{verdict_dot(r["verdict"])}</td>
+          <td style="padding:14px 12px;text-align:right;font-family:ui-monospace,monospace;font-weight:700;">{r["avg_perf"] if r["avg_perf"] is not None else "-"}</td>
+          <td style="padding:14px 12px;text-align:right;font-family:ui-monospace,monospace;">{r["posts_this_month"]}</td>
+          <td style="padding:14px 12px;text-align:right;font-family:ui-monospace,monospace;">{r["refresh_actions"]}</td>
+          <td style="padding:14px 12px;text-align:right;font-family:ui-monospace,monospace;">{r["queue_depth"]}</td>
+          <td style="padding:14px 12px;text-align:right;font-family:ui-monospace,monospace;font-size:13px;color:#dc2626;">{r["money_alerts"] if r["money_alerts"] else "-"}</td>
+          <td style="padding:14px 12px;text-align:right;font-size:13px;">
+            <a href="{report_url}" style="color:#1E5AD4;font-weight:700;">Open report</a>
+          </td>
+        </tr>
+        '''
+
+    # Action items summary across portfolio
+    red_clients = [r for r in rows_data if r["verdict"] == "red"]
+    amber_clients = [r for r in rows_data if r["verdict"] == "amber"]
+    total_posts = sum(r["posts_this_month"] for r in rows_data)
+    total_alerts = sum(r["money_alerts"] for r in rows_data)
+
+    issues_block = ""
+    if red_clients:
+        issues_block += f'<p style="margin:6px 0;"><strong style="color:#dc2626;">{len(red_clients)} RED:</strong> {", ".join(html_escape(r["display_name"]) for r in red_clients)} — investigate this week.</p>'
+    if amber_clients:
+        issues_block += f'<p style="margin:6px 0;"><strong style="color:#f59e0b;">{len(amber_clients)} AMBER:</strong> {", ".join(html_escape(r["display_name"]) for r in amber_clients)} — schedule fixes next sprint.</p>'
+    if not red_clients and not amber_clients:
+        issues_block = '<p style="margin:6px 0;color:#16a34a;"><strong>All clients green.</strong> No urgent action required.</p>'
+
+    html = f'''<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+<title>Rank AI Portfolio Digest - {html_escape(label)}</title>
+<style>
+  body {{ margin:0; padding:0; background:#f3f4f6; font-family:-apple-system,BlinkMacSystemFont,'Inter',sans-serif; color:#111827; }}
+  .container {{ max-width:920px; margin:0 auto; background:#fff; }}
+  .header {{ background:#0D1B3E; color:#fff; padding:36px 32px; }}
+  .header h1 {{ margin:0; font-size:28px; font-weight:900; text-transform:uppercase; letter-spacing:-0.02em; line-height:1; }}
+  .header .meta {{ margin-top:8px; font-size:13px; opacity:0.7; text-transform:uppercase; letter-spacing:0.08em; }}
+  .strip {{ background:#1E5AD4; color:#fff; padding:20px 32px; display:flex; gap:32px; flex-wrap:wrap; }}
+  .strip .stat {{ }}
+  .strip .stat .num {{ font-size:26px; font-weight:900; line-height:1; }}
+  .strip .stat .label {{ font-size:11px; opacity:0.9; text-transform:uppercase; letter-spacing:0.08em; margin-top:4px; }}
+  section {{ padding:28px 32px; border-bottom:1px solid #e5e7eb; }}
+  section h2 {{ margin:0 0 12px; font-size:16px; font-weight:900; text-transform:uppercase; letter-spacing:0.04em; color:#0D1B3E; }}
+  table {{ width:100%; border-collapse:collapse; font-size:14px; }}
+  th {{ text-align:left; padding:10px 12px; background:#f9fafb; font-weight:700; font-size:11px; color:#6b7280; letter-spacing:0.08em; text-transform:uppercase; border-bottom:2px solid #e5e7eb; }}
+  th.r {{ text-align:right; }}
+  .footer {{ padding:20px 32px; font-size:12px; color:#6b7280; background:#f9fafb; }}
+</style></head><body>
+<div class="container">
+  <div class="header">
+    <h1>Rank AI Portfolio Digest</h1>
+    <div class="meta">{html_escape(label)} - internal use only - {datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")}</div>
+  </div>
+  <div class="strip">
+    <div class="stat"><div class="num">{len(rows_data)}</div><div class="label">Active Clients</div></div>
+    <div class="stat"><div class="num">{total_posts}</div><div class="label">Posts Written</div></div>
+    <div class="stat"><div class="num">{len(red_clients)}</div><div class="label">Red Sites</div></div>
+    <div class="stat"><div class="num">{len(amber_clients)}</div><div class="label">Amber Sites</div></div>
+    <div class="stat"><div class="num">{total_alerts}</div><div class="label">Money-Page Alerts</div></div>
+  </div>
+  <section>
+    <h2>Action Items</h2>
+    {issues_block}
+  </section>
+  <section>
+    <h2>Per-Client Summary</h2>
+    <table>
+      <thead><tr>
+        <th>Client</th>
+        <th>Health</th>
+        <th class="r">Perf</th>
+        <th class="r">Posts</th>
+        <th class="r">Refresh</th>
+        <th class="r">Queue</th>
+        <th class="r">Alerts</th>
+        <th class="r"></th>
+      </tr></thead>
+      <tbody>{tbody}</tbody>
+    </table>
+  </section>
+  <div class="footer">
+    Click "Open report" to view the per-client full HTML report (local file). Reply if you want to change which clients appear here or what the digest shows.
+  </div>
+</div>
+</body></html>'''
+
+    # Save to disk
+    out_dir = CLIENTS_DIR.parent / "portfolio" / "digests"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    out_path = out_dir / f"{start.strftime('%Y-%m')}-digest.html"
+    out_path.write_text(html)
+    print(f"==> Wrote portfolio digest: {out_path}")
+    print(f"    Clients summarized: {len(rows_data)}")
+    print(f"    Red: {len(red_clients)}  Amber: {len(amber_clients)}  Green: {len(rows_data) - len(red_clients) - len(amber_clients)}")
+
+    if not args.send:
+        print(f"\n    Open in browser:  file://{out_path}")
+        print(f"    To send to contact@restorationai.io: re-run with --send")
+        return 0
+
+    # Send via SendGrid
+    api_key = os.environ.get("SENDGRID_API_KEY")
+    if not api_key:
+        sys.stderr.write("ERROR: SENDGRID_API_KEY not in env.\n")
+        return 1
+    body = {
+        "personalizations": [{
+            "to": [{"email": "contact@restorationai.io", "name": "Santino"}],
+            "subject": f"Rank AI portfolio digest - {label}",
+        }],
+        "from": {"email": "no-reply@restorationai.io", "name": "Rank AI"},
+        "content": [{"type": "text/html", "value": html}],
+    }
+    req = urllib.request.Request(
+        "https://api.sendgrid.com/v3/mail/send",
+        data=json.dumps(body).encode(),
+        headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
+    )
+    try:
+        with urllib.request.urlopen(req) as resp:
+            msg_id = resp.headers.get("X-Message-Id", "")
+            print(f"\n==> Sent: HTTP {resp.status}  X-Message-Id: {msg_id}")
+    except urllib.error.HTTPError as e:
+        sys.stderr.write(f"SendGrid HTTP {e.code}: {e.read().decode()}\n")
+        return 4
+
+    deliveries = out_dir / "_deliveries.jsonl"
+    record = {
+        "sent_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "period": start.strftime("%Y-%m"),
+        "to": "contact@restorationai.io",
+        "subject": f"Rank AI portfolio digest - {label}",
+        "x_message_id": msg_id,
+        "clients_summarized": len(rows_data),
+    }
+    with open(deliveries, "a") as f:
+        f.write(json.dumps(record) + "\n")
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(description="Rank AI — monthly client report generator")
     sub = p.add_subparsers(dest="cmd", required=True)
@@ -504,6 +693,12 @@ def build_parser() -> argparse.ArgumentParser:
     pp.add_argument("--slug", required=True)
     pp.add_argument("--period", help="YYYY-MM (defaults to current month)")
     pp.set_defaults(func=cmd_preview)
+
+    pd = sub.add_parser("portfolio", help="Generate a portfolio digest summarizing ALL active clients (internal-only)")
+    pd.add_argument("--period", help="YYYY-MM (defaults to current month)")
+    pd.add_argument("--send", action="store_true",
+                    help="Send the digest to contact@restorationai.io via SendGrid")
+    pd.set_defaults(func=cmd_portfolio)
     ps = sub.add_parser("send", help="Send the report via SendGrid REST API")
     ps.add_argument("--slug", required=True)
     ps.add_argument("--period", help="YYYY-MM (defaults to current month)")
