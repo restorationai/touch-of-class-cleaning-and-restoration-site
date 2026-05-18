@@ -1,28 +1,28 @@
 {
   "schema_version": 1,
   "slug": "narestco",
-  "origin": "https://staging.rankai-narestco.pages.dev",
-  "origin_source": "staging",
-  "generated_at": "2026-05-17T16:45:39+00:00",
+  "origin": "https://narestco.com",
+  "origin_source": "apex",
+  "generated_at": "2026-05-18T00:09:50+00:00",
   "stale_threshold_days": 365,
   "aging_threshold_days": 305,
   "gsc_enabled": false,
   "v1_notes": [
     "v1 = sitemap + page-level date extraction. No GSC indexing flags.",
-    "v2 will add GSC URL Inspection \u2014 see gsc_inspect() stub."
+    "See docs/system-4-v2-activation.md for GSC v2 setup."
   ],
-  "inspected_count": 20,
-  "fetched_html_count": 20,
+  "inspected_count": 5,
+  "fetched_html_count": 5,
   "failed_html_count": 0,
   "flag_counts": {},
   "candidates": [
     {
-      "url": "https://staging.rankai-narestco.pages.dev/",
+      "url": "https://narestco.com/",
       "date": "2026-05-17",
       "date_source": "sitemap_lastmod",
       "age_days": 0,
       "flags": [],
-      "sitemap_lastmod": "2026-05-17T15:51:01.040Z",
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -33,12 +33,12 @@
       "gsc": null
     },
     {
-      "url": "https://staging.rankai-narestco.pages.dev/about/",
+      "url": "https://narestco.com/about/",
       "date": "2026-05-17",
       "date_source": "sitemap_lastmod",
       "age_days": 0,
       "flags": [],
-      "sitemap_lastmod": "2026-05-17T15:51:01.040Z",
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -49,12 +49,12 @@
       "gsc": null
     },
     {
-      "url": "https://staging.rankai-narestco.pages.dev/accessibility/",
+      "url": "https://narestco.com/accessibility/",
       "date": "2026-05-17",
       "date_source": "sitemap_lastmod",
       "age_days": 0,
       "flags": [],
-      "sitemap_lastmod": "2026-05-17T15:51:01.040Z",
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -65,12 +65,12 @@
       "gsc": null
     },
     {
-      "url": "https://staging.rankai-narestco.pages.dev/blog/",
+      "url": "https://narestco.com/blog/",
       "date": "2026-05-17",
       "date_source": "sitemap_lastmod",
       "age_days": 0,
       "flags": [],
-      "sitemap_lastmod": "2026-05-17T15:51:01.040Z",
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -81,255 +81,15 @@
       "gsc": null
     },
     {
-      "url": "https://staging.rankai-narestco.pages.dev/blog/black-mold-vs-regular-mold/",
+      "url": "https://narestco.com/blog/black-mold-vs-regular-mold/",
       "date": "2026-05-13",
       "date_source": "json_ld_date_modified",
       "age_days": 4,
       "flags": [],
-      "sitemap_lastmod": "2026-05-17T15:51:01.040Z",
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
       "html_dates": {
         "json_ld_date_published": "2026-05-13",
         "json_ld_date_modified": "2026-05-13",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null
-    },
-    {
-      "url": "https://staging.rankai-narestco.pages.dev/blog/burst-pipe-emergency-checklist/",
-      "date": "2026-05-13",
-      "date_source": "json_ld_date_modified",
-      "age_days": 4,
-      "flags": [],
-      "sitemap_lastmod": "2026-05-17T15:51:01.040Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-05-13",
-        "json_ld_date_modified": "2026-05-13",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null
-    },
-    {
-      "url": "https://staging.rankai-narestco.pages.dev/blog/choosing-a-restoration-company/",
-      "date": "2026-05-13",
-      "date_source": "json_ld_date_modified",
-      "age_days": 4,
-      "flags": [],
-      "sitemap_lastmod": "2026-05-17T15:51:01.040Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-05-13",
-        "json_ld_date_modified": "2026-05-13",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null
-    },
-    {
-      "url": "https://staging.rankai-narestco.pages.dev/blog/does-homeowners-insurance-cover-water-damage/",
-      "date": "2026-05-17",
-      "date_source": "json_ld_date_modified",
-      "age_days": 0,
-      "flags": [],
-      "sitemap_lastmod": "2026-05-17T15:51:01.040Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-05-17",
-        "json_ld_date_modified": "2026-05-17",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null
-    },
-    {
-      "url": "https://staging.rankai-narestco.pages.dev/blog/fire-damage-restoration-process/",
-      "date": "2026-05-13",
-      "date_source": "json_ld_date_modified",
-      "age_days": 4,
-      "flags": [],
-      "sitemap_lastmod": "2026-05-17T15:51:01.040Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-05-13",
-        "json_ld_date_modified": "2026-05-13",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null
-    },
-    {
-      "url": "https://staging.rankai-narestco.pages.dev/blog/how-long-does-water-damage-restoration-take/",
-      "date": "2026-05-13",
-      "date_source": "json_ld_date_modified",
-      "age_days": 4,
-      "flags": [],
-      "sitemap_lastmod": "2026-05-17T15:51:01.040Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-05-13",
-        "json_ld_date_modified": "2026-05-13",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null
-    },
-    {
-      "url": "https://staging.rankai-narestco.pages.dev/blog/mold-after-water-damage/",
-      "date": "2026-05-13",
-      "date_source": "json_ld_date_modified",
-      "age_days": 4,
-      "flags": [],
-      "sitemap_lastmod": "2026-05-17T15:51:01.040Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-05-13",
-        "json_ld_date_modified": "2026-05-13",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null
-    },
-    {
-      "url": "https://staging.rankai-narestco.pages.dev/blog/sewage-backup-health-risks/",
-      "date": "2026-05-13",
-      "date_source": "json_ld_date_modified",
-      "age_days": 4,
-      "flags": [],
-      "sitemap_lastmod": "2026-05-17T15:51:01.040Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-05-13",
-        "json_ld_date_modified": "2026-05-13",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null
-    },
-    {
-      "url": "https://staging.rankai-narestco.pages.dev/blog/signs-of-hidden-mold/",
-      "date": "2026-05-13",
-      "date_source": "json_ld_date_modified",
-      "age_days": 4,
-      "flags": [],
-      "sitemap_lastmod": "2026-05-17T15:51:01.040Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-05-13",
-        "json_ld_date_modified": "2026-05-13",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null
-    },
-    {
-      "url": "https://staging.rankai-narestco.pages.dev/blog/smoke-odor-removal-techniques/",
-      "date": "2026-05-13",
-      "date_source": "json_ld_date_modified",
-      "age_days": 4,
-      "flags": [],
-      "sitemap_lastmod": "2026-05-17T15:51:01.040Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-05-13",
-        "json_ld_date_modified": "2026-05-13",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null
-    },
-    {
-      "url": "https://staging.rankai-narestco.pages.dev/blog/storm-damage-insurance-claim-checklist/",
-      "date": "2026-05-13",
-      "date_source": "json_ld_date_modified",
-      "age_days": 4,
-      "flags": [],
-      "sitemap_lastmod": "2026-05-17T15:51:01.040Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-05-13",
-        "json_ld_date_modified": "2026-05-13",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null
-    },
-    {
-      "url": "https://staging.rankai-narestco.pages.dev/blog/what-does-homeowners-insurance-cover-and-not-cover/",
-      "date": "2026-05-17",
-      "date_source": "json_ld_date_modified",
-      "age_days": 0,
-      "flags": [],
-      "sitemap_lastmod": "2026-05-17T15:51:01.040Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-05-17",
-        "json_ld_date_modified": "2026-05-17",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null
-    },
-    {
-      "url": "https://staging.rankai-narestco.pages.dev/blog/what-to-do-first-24-hours-water-damage/",
-      "date": "2026-05-13",
-      "date_source": "json_ld_date_modified",
-      "age_days": 4,
-      "flags": [],
-      "sitemap_lastmod": "2026-05-17T15:51:01.040Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-05-13",
-        "json_ld_date_modified": "2026-05-13",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null
-    },
-    {
-      "url": "https://staging.rankai-narestco.pages.dev/contact/",
-      "date": "2026-05-17",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
-      "flags": [],
-      "sitemap_lastmod": "2026-05-17T15:51:01.040Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null
-    },
-    {
-      "url": "https://staging.rankai-narestco.pages.dev/privacy/",
-      "date": "2026-05-17",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
-      "flags": [],
-      "sitemap_lastmod": "2026-05-17T15:51:01.040Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null
-    },
-    {
-      "url": "https://staging.rankai-narestco.pages.dev/service-areas/",
-      "date": "2026-05-17",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
-      "flags": [],
-      "sitemap_lastmod": "2026-05-17T15:51:01.040Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null

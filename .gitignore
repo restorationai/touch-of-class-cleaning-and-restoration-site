@@ -3,3 +3,7 @@
 !.env.example
 *.pyc
 __pycache__/
+
+# System 4 v2 — GSC OAuth secrets (never commit)
+.gsc-oauth-client.json
+clients/*/.gsc-token.json

@@ -273,21 +273,44 @@ def best_date(sitemap_lastmod: str | None, html_dates: dict) -> tuple[dt.date | 
 
 
 # -----------------------------------------------------------------------------
-# GSC hook (v2 — currently stubbed)
+# GSC hook (v2 — activated when per-client token + OAuth client secret exist)
 # -----------------------------------------------------------------------------
 
 
-def gsc_inspect(_url: str) -> dict | None:
-    """STUB: returns None.
+_GSC_CLIENT_CACHE: dict[str, object] = {}
 
-    v2 will call the Google Search Console URL Inspection API and return:
-      {"index_status": "PASS" | "FAIL" | "PARTIAL",
-       "coverage_state": "<verbatim string from GSC>",
-       "last_crawl_time": "<iso string>" or None}
 
-    Requires per-client OAuth + property verification. Out of scope for v1.
+def gsc_inspect(url: str, slug: str | None = None, domain: str | None = None) -> dict | None:
+    """Inspect a URL via Google Search Console if configured for this client.
+
+    v1 behavior (no GSC token present): returns None — caller treats as
+    "indexing flags unavailable" and proceeds with sitemap-only scoring.
+
+    v2 behavior (per-client OAuth token present): returns a normalized dict:
+      {"index_status": "PASS" | "FAIL" | "PARTIAL" | "UNKNOWN",
+       "coverage_state": "<verbatim GSC string>",
+       "last_crawl_time": "<iso>" or None,
+       "fetched_at": "<iso>"}
+
+    Activation: see docs/system-4-v2-activation.md.
     """
-    return None
+    if not slug or not domain:
+        return None
+    try:
+        from gsc_client import GSCClient  # local import to avoid hard dep in v1
+    except ImportError:
+        return None
+    if not GSCClient.is_configured(slug):
+        return None
+    client = _GSC_CLIENT_CACHE.get(slug)
+    if client is None:
+        client = GSCClient(slug=slug, domain=domain)
+        _GSC_CLIENT_CACHE[slug] = client
+    try:
+        return client.inspect(url)
+    except Exception as e:
+        sys.stderr.write(f"WARN: GSC inspect failed for {url}: {e}\n")
+        return None
 
 
 # -----------------------------------------------------------------------------
@@ -353,8 +376,8 @@ def score(c: dict, *, origin: str, origin_source: str, max_urls: int,
             elif age_days >= AGING_DAYS:
                 flags.append("aging")
 
-        # GSC hook (currently stub)
-        gsc = gsc_inspect(loc)
+        # GSC hook (v1 returns None; v2 returns indexing flags when configured)
+        gsc = gsc_inspect(loc, slug=slug, domain=c.get("domain"))
         if gsc:
             if gsc.get("index_status") == "FAIL":
                 flags.append("not_indexed")
@@ -388,6 +411,8 @@ def score(c: dict, *, origin: str, origin_source: str, max_urls: int,
         for f, n in sorted(flag_counts.items(), key=lambda x: -x[1]):
             print(f"      {f:15} {n}")
 
+    # Detect whether any candidate actually got GSC data (proves v2 is active for this client)
+    gsc_enabled = any(c0.get("gsc") for c0 in candidates)
     return {
         "schema_version": 1,
         "slug": slug,
@@ -396,10 +421,12 @@ def score(c: dict, *, origin: str, origin_source: str, max_urls: int,
         "generated_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
         "stale_threshold_days": STALE_DAYS,
         "aging_threshold_days": AGING_DAYS,
-        "gsc_enabled": False,
+        "gsc_enabled": gsc_enabled,
         "v1_notes": [
-            "v1 = sitemap + page-level date extraction. No GSC indexing flags.",
-            "v2 will add GSC URL Inspection — see gsc_inspect() stub.",
+            "v1 = sitemap + page-level date extraction. No GSC indexing flags."
+            if not gsc_enabled else
+            "v2 active: per-URL GSC indexing flags included.",
+            "See docs/system-4-v2-activation.md for GSC v2 setup.",
         ],
         "inspected_count": inspected,
         "fetched_html_count": fetched_html,
