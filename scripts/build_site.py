@@ -1356,7 +1356,17 @@ def cmd_sync_deploy(args) -> int:
             f"Run `git init` at {mono} or fix the topology before sync-deploy."
         )
 
+    # Repo name: default to convention, but a client can override via
+    # build.github_repo in their client record (useful for clients onboarded
+    # before the {slug}-site convention was locked in).
     client_repo = f"{slug}-site"
+    client_record_path = mono / "clients" / f"{slug}.json"
+    if client_record_path.exists():
+        client_record = json.loads(client_record_path.read_text())
+        gh_field = client_record.get("build", {}).get("github_repo")
+        if gh_field and "/" in gh_field:
+            # Stored as "owner/repo" — extract repo part
+            client_repo = gh_field.split("/", 1)[1]
     remote_name = f"deploy-{slug}"
     remote_url = f"https://x-access-token:{gh_token()}@github.com/{GH_OWNER}/{client_repo}.git"
 
