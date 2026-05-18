@@ -138,7 +138,7 @@
   },
   "status": "active",
   "created_at": "2026-05-18T03:44:57+00:00",
-  "updated_at": "2026-05-18T19:50:42+00:00",
+  "updated_at": "2026-05-18T19:54:27+00:00",
   "plan_status": "planned",
   "plan": {
     "template": "restoration_plus_plumbing",
@@ -154,7 +154,7 @@
     "pages_project": "rankai-probritegen",
     "starter_version": "migrated-from-existing",
     "pages_status": "live",
-    "last_pushed_main_at": "2026-05-18T19:43:09.606136+00:00",
+    "last_pushed_main_at": "2026-05-18T19:52:26.952988+00:00",
     "last_rendered_at": "2026-05-07T23:38:30+00:00",
     "last_pushed_staging_at": "2026-05-18T01:23:54+00:00",
     "previous_pages_project": "probritegen-astro (deleted 2026-05-18 \u2014 was Direct Upload, replaced with git-connected)",
@@ -178,5 +178,11 @@
     "last_audit_verdict": "red",
     "last_audit_report_path": "clients/probritegen/audit-runs/2026-05-18-onsite-audit.md",
     "live_origin_audited": "https://probritegen.com"
+  },
+  "refresh": {
+    "last_run_at": "2026-05-18T19:54:27+00:00",
+    "last_run_total_actions": 0,
+    "last_run_top_action": null,
+    "last_run_report_path": "clients/probritegen/refresh-runs/2026-05-18-refresh-recommender.md"
   }
 }
