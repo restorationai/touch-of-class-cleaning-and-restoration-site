@@ -412,8 +412,89 @@ def cmd_preview(args) -> int:
 
 
 def cmd_send(args) -> int:
-    print("Send via SendGrid is task #40 (not yet implemented). Use preview for now.")
-    return 1
+    import os, json, urllib.request, urllib.error
+    from datetime import datetime, timezone
+
+    api_key = os.environ.get("SENDGRID_API_KEY")
+    if not api_key:
+        sys.stderr.write("ERROR: SENDGRID_API_KEY not in env. `set -a && source ./.env && set +a` first.\n")
+        return 1
+
+    client = load_client(args.slug)
+    enabled = client.get("report_email_enabled", False)
+    if not enabled and not args.test:
+        sys.stderr.write(
+            f"ERROR: client.report_email_enabled is false for {args.slug}. "
+            f"Set it to true in clients/{args.slug}.json (opt-in safety), "
+            f"or re-run with --test to send to contact@restorationai.io instead.\n"
+        )
+        return 2
+
+    # Build the report if it doesn't exist
+    r = build_report_data(args.slug, args.period)
+    out_dir = CLIENTS_DIR / args.slug / "reports"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    out_path = out_dir / f"{r.period_start.strftime('%Y-%m')}-monthly.html"
+    if not out_path.exists():
+        out_path.write_text(render_html(r))
+    html = out_path.read_text()
+
+    # Recipient: --test always overrides to the operator inbox
+    if args.test:
+        to_email = "contact@restorationai.io"
+        to_name = "Santino (TEST)"
+        subject = f"TEST - Rank AI Monthly Report - {r.display_name} - {r.period_label}"
+        test_banner = (
+            '<div style="background:#dc2626;color:#fff;padding:14px 32px;'
+            'text-align:center;font-weight:700;text-transform:uppercase;'
+            'letter-spacing:0.08em;font-size:13px;">TEST DELIVERY - not sent to actual client</div>'
+        )
+        html = html.replace('<div class="container">', f'<div class="container">{test_banner}', 1)
+    else:
+        to_email = (client.get("report_email_to_override")
+                    or client.get("contact", {}).get("email")
+                    or client.get("contact", {}).get("primary_email"))
+        if not to_email:
+            sys.stderr.write(f"ERROR: no recipient email for {args.slug} (contact.email missing).\n")
+            return 3
+        to_name = client.get("display_name", args.slug)
+        subject = f"Rank AI Monthly Report - {r.display_name} - {r.period_label}"
+
+    body = {
+        "personalizations": [{"to": [{"email": to_email, "name": to_name}], "subject": subject}],
+        "from": {"email": "noreply@restorationai.io", "name": "Rank AI"},
+        "reply_to": {"email": "contact@restorationai.io", "name": "Rank AI"},
+        "content": [{"type": "text/html", "value": html}],
+    }
+    req = urllib.request.Request(
+        "https://api.sendgrid.com/v3/mail/send",
+        data=json.dumps(body).encode(),
+        headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
+    )
+    try:
+        with urllib.request.urlopen(req) as resp:
+            msg_id = resp.headers.get("X-Message-Id", "")
+            print(f"==> HTTP {resp.status}  sent to {to_email}  X-Message-Id: {msg_id}")
+    except urllib.error.HTTPError as e:
+        sys.stderr.write(f"SendGrid HTTP {e.code}: {e.read().decode()}\n")
+        return 4
+
+    # Log delivery
+    deliveries_path = out_dir / "_deliveries.jsonl"
+    record = {
+        "sent_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "slug": args.slug,
+        "period": r.period_start.strftime("%Y-%m"),
+        "to": to_email,
+        "test_mode": bool(args.test),
+        "subject": subject,
+        "x_message_id": msg_id,
+        "report_path": str(out_path.relative_to(CLIENTS_DIR.parent)),
+    }
+    with open(deliveries_path, "a") as f:
+        f.write(json.dumps(record) + "\n")
+    print(f"    Logged to {deliveries_path}")
+    return 0
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -423,9 +504,12 @@ def build_parser() -> argparse.ArgumentParser:
     pp.add_argument("--slug", required=True)
     pp.add_argument("--period", help="YYYY-MM (defaults to current month)")
     pp.set_defaults(func=cmd_preview)
-    ps = sub.add_parser("send", help="Send the report via SendGrid (stub — task #40)")
+    ps = sub.add_parser("send", help="Send the report via SendGrid REST API")
     ps.add_argument("--slug", required=True)
     ps.add_argument("--period", help="YYYY-MM (defaults to current month)")
+    ps.add_argument("--test", action="store_true",
+                    help="Override recipient to contact@restorationai.io + prepend TEST banner. "
+                         "Bypasses client.report_email_enabled.")
     ps.set_defaults(func=cmd_send)
     return p
 
