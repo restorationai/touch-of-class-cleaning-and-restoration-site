@@ -1,0 +1,200 @@
+{
+  "template": "restoration_plus_plumbing",
+  "template_version": "0.1.0",
+  "generated_at": "2026-05-18T16:50:00+00:00",
+  "input_summary": {
+    "service_count": 5,
+    "service_area_count": 10,
+    "cross_product": false,
+    "blog_seed_count": 6,
+    "note": "Hand-built plan reflecting the existing ProBriteGen-Website Astro project as migrated. Unlike narestco, this site does NOT cross-product cities × services — services are single landing pages without per-city variants. System 1 coverage check will use this to dedupe against existing coverage."
+  },
+  "pages": [
+    {
+      "url_path": "/",
+      "archetype": "home",
+      "title": "Home | ProBrite Gen",
+      "h1": "24/7 Restoration & Water Solutions in Houston, TX",
+      "meta_description": "ProBrite Gen provides 24/7 water damage, mold, sewage backup, and water system services across Houston, TX and surrounding cities.",
+      "primary_keyword": "restoration services houston tx",
+      "secondary_keywords": ["water damage houston", "mold remediation houston", "24/7 restoration"],
+      "search_intent": "local_commercial",
+      "target_word_count": 1200
+    },
+    {
+      "url_path": "/water-damage/",
+      "archetype": "service-landing",
+      "service_slug": "water-damage-restoration",
+      "service_display": "Water Damage Restoration",
+      "title": "Water Damage Restoration in Houston, TX | ProBrite Gen",
+      "h1": "Water Damage Restoration",
+      "meta_description": "24/7 water damage restoration in Houston, TX. IICRC-certified. Call (832) 688-6779.",
+      "primary_keyword": "water damage restoration houston",
+      "secondary_keywords": ["water damage houston tx", "emergency water damage", "water damage cleanup houston"],
+      "search_intent": "transactional",
+      "target_word_count": 1500
+    },
+    {
+      "url_path": "/mold-remediation/",
+      "archetype": "service-landing",
+      "service_slug": "mold-remediation",
+      "service_display": "Mold Remediation",
+      "title": "Mold Remediation in Houston, TX | ProBrite Gen",
+      "h1": "Mold Remediation",
+      "meta_description": "Professional mold remediation in Houston, TX. Free inspection. Call (832) 688-6779.",
+      "primary_keyword": "mold remediation houston",
+      "secondary_keywords": ["mold removal houston", "mold inspection houston", "black mold removal"],
+      "search_intent": "transactional",
+      "target_word_count": 1500
+    },
+    {
+      "url_path": "/sewage-backup/",
+      "archetype": "service-landing",
+      "service_slug": "sewage-backup-cleanup",
+      "service_display": "Sewage Backup Cleanup",
+      "title": "Sewage Backup Cleanup in Houston, TX | ProBrite Gen",
+      "h1": "Sewage Backup Cleanup",
+      "meta_description": "Emergency sewage backup cleanup in Houston, TX. 24/7 response. Call (832) 688-6779.",
+      "primary_keyword": "sewage backup cleanup houston",
+      "secondary_keywords": ["sewage cleanup houston", "sewer backup houston", "raw sewage cleanup"],
+      "search_intent": "transactional",
+      "target_word_count": 1500
+    },
+    {
+      "url_path": "/hot-water/",
+      "archetype": "service-landing",
+      "service_slug": "water-heater-installation",
+      "service_display": "Water Heater Installation",
+      "title": "Water Heater Installation in Houston, TX | ProBrite Gen",
+      "h1": "Water Heater Installation",
+      "meta_description": "Water heater installation & replacement in Houston, TX. Tank & tankless options. Call (832) 688-6779.",
+      "primary_keyword": "water heater installation houston",
+      "secondary_keywords": ["water heater replacement houston", "tankless water heater houston", "hot water heater repair"],
+      "search_intent": "commercial",
+      "target_word_count": 1200
+    },
+    {
+      "url_path": "/water-softener/",
+      "archetype": "service-landing",
+      "service_slug": "water-softener-installation",
+      "service_display": "Water Softener Installation",
+      "title": "Water Softener Installation in Houston, TX | ProBrite Gen",
+      "h1": "Water Softener Installation",
+      "meta_description": "Water softener installation in Houston, TX. Whole-home solutions. Call (832) 688-6779.",
+      "primary_keyword": "water softener installation houston",
+      "secondary_keywords": ["water softener houston", "whole house water softener", "hard water softener houston"],
+      "search_intent": "commercial",
+      "target_word_count": 1200
+    },
+    {
+      "url_path": "/contact/",
+      "archetype": "contact",
+      "title": "Contact ProBrite Gen | 24/7 Restoration in Houston",
+      "h1": "Contact Us",
+      "meta_description": "Call (832) 688-6779 for 24/7 emergency restoration in Houston, TX. Free quotes.",
+      "primary_keyword": "probritegen contact",
+      "secondary_keywords": [],
+      "search_intent": "navigational",
+      "target_word_count": 400
+    },
+    {
+      "url_path": "/careers/",
+      "archetype": "careers",
+      "title": "Careers | ProBrite Gen",
+      "h1": "Join Our Team",
+      "meta_description": "Field technician opportunities at ProBrite Gen in the Houston metro.",
+      "primary_keyword": "probritegen careers",
+      "secondary_keywords": [],
+      "search_intent": "navigational",
+      "target_word_count": 500
+    },
+    {
+      "url_path": "/gallery/",
+      "archetype": "gallery",
+      "title": "Gallery | ProBrite Gen",
+      "h1": "Our Work",
+      "meta_description": "Before-and-after photos of restoration projects ProBrite Gen has completed across Houston.",
+      "primary_keyword": "probritegen gallery",
+      "secondary_keywords": [],
+      "search_intent": "navigational",
+      "target_word_count": 200
+    },
+    {
+      "url_path": "/blog/",
+      "archetype": "blog-index",
+      "title": "Blog | ProBrite Gen",
+      "h1": "Check Out Our Blog",
+      "meta_description": "Restoration, water systems, and home protection tips from the ProBrite Gen team in Houston.",
+      "primary_keyword": "probritegen blog",
+      "secondary_keywords": [],
+      "search_intent": "navigational",
+      "target_word_count": 300
+    },
+    {
+      "url_path": "/blog-post-1/",
+      "archetype": "blog-post",
+      "title": "What to Do Immediately After Water Damage in Your Home",
+      "h1": "What to Do Immediately After Water Damage in Your Home",
+      "meta_description": "First steps to take when water damage hits your home — minimize damage and start the recovery process.",
+      "primary_keyword": "what to do after water damage",
+      "secondary_keywords": ["water damage first steps", "water damage immediate response"],
+      "search_intent": "informational",
+      "target_word_count": 1200
+    },
+    {
+      "url_path": "/blog-post-2/",
+      "archetype": "blog-post",
+      "title": "Common Causes of Water Damage and How to Prevent Them",
+      "h1": "Common Causes of Water Damage and How to Prevent Them",
+      "meta_description": "Top causes of residential water damage in Houston and how homeowners can prevent each one.",
+      "primary_keyword": "common causes of water damage",
+      "secondary_keywords": ["how to prevent water damage", "water damage prevention"],
+      "search_intent": "informational",
+      "target_word_count": 1200
+    },
+    {
+      "url_path": "/blog-post-3/",
+      "archetype": "blog-post",
+      "title": "The Benefits of Installing a Water Softener in Houston",
+      "h1": "The Benefits of Installing a Water Softener in Houston",
+      "meta_description": "Why Houston homes benefit from a water softener — hard water issues, appliance longevity, skin and hair effects.",
+      "primary_keyword": "benefits of water softener",
+      "secondary_keywords": ["water softener houston", "why install water softener"],
+      "search_intent": "informational",
+      "target_word_count": 1100
+    },
+    {
+      "url_path": "/blog-post-4/",
+      "archetype": "blog-post",
+      "title": "Signs Your Hot Water Heater Needs Professional Attention",
+      "h1": "Signs Your Hot Water Heater Needs Professional Attention",
+      "meta_description": "Warning signs that your water heater needs repair or replacement before it fails completely.",
+      "primary_keyword": "signs hot water heater needs service",
+      "secondary_keywords": ["water heater warning signs", "when to replace water heater"],
+      "search_intent": "informational",
+      "target_word_count": 1100
+    },
+    {
+      "url_path": "/blog-post-5/",
+      "archetype": "blog-post",
+      "title": "What Causes Mold Growth After Water Damage",
+      "h1": "What Causes Mold Growth After Water Damage",
+      "meta_description": "How water damage leads to mold growth and what timelines homeowners need to know.",
+      "primary_keyword": "what causes mold after water damage",
+      "secondary_keywords": ["mold after water damage", "water damage mold timeline"],
+      "search_intent": "informational",
+      "target_word_count": 1100
+    },
+    {
+      "url_path": "/blog-post-6/",
+      "archetype": "blog-post",
+      "title": "Signs You May Need Professional Mold Remediation",
+      "h1": "Signs You May Need Professional Mold Remediation",
+      "meta_description": "Visual and health signs that mold in your home requires professional remediation, not DIY cleanup.",
+      "primary_keyword": "signs you need mold remediation",
+      "secondary_keywords": ["when to call mold remediation", "professional mold removal signs"],
+      "search_intent": "informational",
+      "target_word_count": 1100
+    }
+  ]
+}
