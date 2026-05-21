@@ -1,0 +1,56 @@
+{
+  "slug": "davis-construction",
+  "display_name": "Davis Construction Contractors",
+  "domain": "davisconstructioncontractors.com",
+  "tier": "premium",
+  "image_policy": "pro_all",
+  "verticals": [
+    "construction",
+    "restoration"
+  ],
+  "contact": "contact@restorationai.io",
+  "zone": {
+    "id": "4d40cf49806c064997819b8192989810",
+    "name": "davisconstructioncontractors.com",
+    "status": "active",
+    "name_servers": [
+      "amos.ns.cloudflare.com",
+      "anastasia.ns.cloudflare.com"
+    ],
+    "created_on": "2026-05-21T22:13:55.468553Z"
+  },
+  "r2": {
+    "bucket": "rankai-davis-construction",
+    "custom_domain": "images.davisconstructioncontractors.com",
+    "public_url": "https://images.davisconstructioncontractors.com",
+    "provisioned_at": "2026-05-21T22:35:00.000000+00:00"
+  },
+  "status": "active",
+  "plan_status": "planned",
+  "build_status": "content_rendered",
+  "audit": {
+    "last_audit_at": null,
+    "last_audit_verdict": null,
+    "last_audit_report_path": null
+  },
+  "refresh": {
+    "last_run_at": null
+  },
+  "created_at": "2026-05-21T22:14:07.882136+00:00",
+  "updated_at": "2026-05-21T22:49:27.245766+00:00",
+  "plan": {
+    "template": "restoration",
+    "template_version": "0.1.0",
+    "url_count": 60,
+    "generated_at": "2026-05-21T22:47:46.837658+00:00"
+  },
+  "build": {
+    "scaffolded_at": "2026-05-21T22:49:27.245148+00:00",
+    "github_repo": "restorationai/davis-construction-site",
+    "pages_project": "rankai-davis-construction",
+    "starter_version": "0.1.0",
+    "url_count": 60,
+    "pages_status": "created",
+    "last_rendered_at": "2026-05-21T23:02:59.656440+00:00"
+  }
+}

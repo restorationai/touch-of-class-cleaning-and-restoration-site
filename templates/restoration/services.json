@@ -1,7 +1,7 @@
 {
-  "version": "0.2.0",
-  "note": "Canonical restoration-industry service catalog. The template is a superset; each client selects the subset they offer. tier values: 'core' = standard restoration services most clients should offer; 'specialty' = distinct service some clients offer; 'adjacent' = related cleaning/maintenance services a minority offer. content_guardrails='sensitive' triggers Skill 3's sensitive-content rules at generation time.",
-  "tiers": ["core", "specialty", "adjacent"],
+  "version": "0.3.0",
+  "note": "Canonical service catalog for restoration and construction verticals. The template is a superset; each client selects the subset they offer. tier values: 'core' = standard restoration services most clients should offer; 'specialty' = distinct service some clients offer; 'adjacent' = related cleaning/maintenance services a minority offer; 'construction' = construction/GC services for dual-vertical clients. content_guardrails='sensitive' triggers Skill 3's sensitive-content rules at generation time.",
+  "tiers": ["core", "specialty", "adjacent", "construction"],
   "services": [
     {
       "slug": "water-damage-restoration",
@@ -502,6 +502,111 @@
       ],
       "tier": "adjacent",
       "priority": 4
+    },
+    {
+      "slug": "new-construction",
+      "display_name": "New Home Construction",
+      "short_name": "New Construction",
+      "primary_intent": "local_commercial",
+      "secondary_keywords": [
+        "custom home builder",
+        "new home builder",
+        "build a house",
+        "residential construction",
+        "ground-up construction"
+      ],
+      "tier": "construction",
+      "priority": 9
+    },
+    {
+      "slug": "home-remodeling",
+      "display_name": "Home Remodeling",
+      "short_name": "Remodeling",
+      "primary_intent": "local_commercial",
+      "secondary_keywords": [
+        "home renovation",
+        "kitchen remodel",
+        "bathroom remodel",
+        "whole home remodel",
+        "interior remodeling contractor"
+      ],
+      "tier": "construction",
+      "priority": 10
+    },
+    {
+      "slug": "room-addition",
+      "display_name": "Room Additions and Home Additions",
+      "short_name": "Home Additions",
+      "primary_intent": "local_commercial",
+      "secondary_keywords": [
+        "home addition contractor",
+        "room addition",
+        "add a room to house",
+        "house addition",
+        "bump out addition"
+      ],
+      "tier": "construction",
+      "priority": 8
+    },
+    {
+      "slug": "decks-pergolas-fences",
+      "display_name": "Decks, Pergolas and Fences",
+      "short_name": "Decks & Outdoor Structures",
+      "primary_intent": "local_commercial",
+      "secondary_keywords": [
+        "deck builder",
+        "deck installation",
+        "pergola builder",
+        "fence installation",
+        "outdoor structure contractor"
+      ],
+      "tier": "construction",
+      "priority": 9
+    },
+    {
+      "slug": "roofing",
+      "display_name": "Roofing Installation and Replacement",
+      "short_name": "Roofing",
+      "primary_intent": "local_commercial",
+      "secondary_keywords": [
+        "roofing contractor",
+        "roof replacement",
+        "new roof installation",
+        "residential roofing",
+        "roof repair"
+      ],
+      "tier": "construction",
+      "priority": 10
+    },
+    {
+      "slug": "siding-gutters",
+      "display_name": "Siding and Gutters",
+      "short_name": "Siding & Gutters",
+      "primary_intent": "local_commercial",
+      "secondary_keywords": [
+        "siding contractor",
+        "siding installation",
+        "siding replacement",
+        "gutter installation",
+        "exterior contractor"
+      ],
+      "tier": "construction",
+      "priority": 8
+    },
+    {
+      "slug": "painting-trim",
+      "display_name": "Painting and Trim",
+      "short_name": "Painting",
+      "primary_intent": "local_commercial",
+      "secondary_keywords": [
+        "painting contractor",
+        "interior painting",
+        "exterior painting",
+        "house painter",
+        "trim painting"
+      ],
+      "tier": "construction",
+      "priority": 7
     }
   ]
 }

@@ -1,0 +1,51 @@
+{
+  "template": "restoration",
+  "services": [
+    "home-remodeling",
+    "new-construction",
+    "decks-pergolas-fences",
+    "roofing",
+    "siding-gutters",
+    "painting-trim",
+    "water-damage-restoration",
+    "storm-damage-restoration",
+    "mold-remediation"
+  ],
+  "service_areas": [
+    {
+      "city": "Madison",
+      "state": "AL",
+      "slug": "madison-al",
+      "primary": true
+    },
+    {
+      "city": "Huntsville",
+      "state": "AL",
+      "slug": "huntsville-al",
+      "primary": false
+    },
+    {
+      "city": "Athens",
+      "state": "AL",
+      "slug": "athens-al",
+      "primary": false
+    }
+  ],
+  "brand": {
+    "display_name": "Davis Construction Contractors",
+    "legal_name": "Davis Construction Inc.",
+    "phone": "(256) 771-0326",
+    "email": "davisheath09@gmail.com",
+    "hours": "Monday\u2013Friday, 8:00 AM \u2013 5:00 PM",
+    "founded_year": "2008",
+    "license_numbers": [],
+    "certifications": []
+  },
+  "cross_product": true,
+  "keyword_strategy": "conservative",
+  "blog_seed_count": 12,
+  "verticals": [
+    "construction",
+    "restoration"
+  ]
+}

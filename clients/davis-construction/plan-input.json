@@ -1,0 +1,60 @@
+{
+  "template": "restoration",
+  "services": [
+    "home-remodeling",
+    "new-construction",
+    "decks-pergolas-fences",
+    "roofing",
+    "siding-gutters",
+    "painting-trim",
+    "water-damage-restoration",
+    "storm-damage-restoration",
+    "mold-remediation"
+  ],
+  "service_areas": [
+    {
+      "city": "Madison",
+      "state": "AL",
+      "slug": "madison-al",
+      "primary": true,
+      "neighborhoods": ["Old Town Madison", "Liberty Park", "Blue Springs", "Bradford Creek", "Redstone Village"],
+      "landmarks": ["Madison City Hall", "Bradford Creek Park", "Research Park Boulevard", "County Line Road corridor", "Madison Hospital"],
+      "zip_codes": ["35758", "35756"],
+      "local_notes": "Fast-growing Huntsville suburb with heavy mix of 2000s-2020s construction and older 1970s-80s ranch homes. High concentration of Redstone Arsenal and aerospace families. Strong HOA presence in newer subdivisions. Hot, humid summers accelerate exterior material wear; spring severe weather season brings hail and high winds."
+    },
+    {
+      "city": "Huntsville",
+      "state": "AL",
+      "slug": "huntsville-al",
+      "primary": false,
+      "neighborhoods": ["Twickenham Historic District", "Five Points", "Hampton Cove", "South Huntsville", "Monte Sano", "Downtown Huntsville"],
+      "landmarks": ["U.S. Space & Rocket Center", "Big Spring Park", "Bridge Street Town Centre", "Monte Sano State Park", "Redstone Arsenal gate area"],
+      "zip_codes": ["35801", "35802", "35805", "35811", "35816"],
+      "local_notes": "Largest city in Alabama, tech and defense hub. Wide range of housing from 1920s-1950s Twickenham historic homes to modern Hampton Cove developments. Older neighborhoods see more moisture intrusion through aging masonry; newer subdivisions in Hampton Cove have HOA architectural review requirements for exterior work. Tornado and severe hail risk April-May."
+    },
+    {
+      "city": "Athens",
+      "state": "AL",
+      "slug": "athens-al",
+      "primary": false,
+      "neighborhoods": ["Downtown Athens", "Sanderfer Heights", "Westover Hills", "East Limestone Road corridor"],
+      "landmarks": ["Athens State University", "Limestone County Courthouse", "Swan Creek", "Highway 72 commercial corridor", "Athens Veterans Memorial Park"],
+      "zip_codes": ["35611", "35613"],
+      "local_notes": "County seat of Limestone County, mix of older downtown homes and newer suburban development along Highway 72. Agricultural community with some localized flooding risk near Swan Creek. 1950s-1970s brick ranch homes common in established neighborhoods. Growing population adding new construction on the eastern edge of the city."
+    }
+  ],
+  "brand": {
+    "display_name": "Davis Construction Contractors",
+    "legal_name": "Davis Construction Inc.",
+    "phone": "(256) 771-0326",
+    "email": "davisheath09@gmail.com",
+    "hours": "Monday–Friday, 8:00 AM – 5:00 PM",
+    "founded_year": "2008",
+    "license_numbers": [],
+    "certifications": []
+  },
+  "cross_product": true,
+  "keyword_strategy": "conservative",
+  "blog_seed_count": 12,
+  "verticals": ["construction", "restoration"]
+}
