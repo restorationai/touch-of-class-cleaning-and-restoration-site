@@ -1,0 +1,74 @@
+name: Rank AI Monthly Reports
+
+on:
+  schedule:
+    - cron: '0 17 1 * *'   # 1st of every month, 10 am PDT / 9 am PST (after weekly job completes)
+  workflow_dispatch:
+
+jobs:
+  reports:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
+          fetch-depth: 0
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Configure git identity
+        run: |
+          git config user.email "ops@restorationai.io"
+          git config user.name "Rank AI Bot"
+
+      - name: Generate per-client HTML reports
+        run: |
+          python3 -c "
+          import json, pathlib, subprocess, sys
+          for p in sorted(pathlib.Path('clients').glob('*.json')):
+              c = json.loads(p.read_text())
+              if c.get('status') == 'active':
+                  slug = c['slug']
+                  rc = subprocess.call(['python3', 'scripts/client_report.py', 'preview', '--slug', slug])
+                  if rc != 0:
+                      print(f'WARNING: preview failed for {slug} (rc={rc})', file=sys.stderr)
+          "
+
+      - name: Send portfolio digest to operator
+        env:
+          SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
+        run: python3 scripts/client_report.py portfolio --send
+
+      - name: Send per-client reports (only for clients with report_email_enabled=true)
+        env:
+          SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
+        run: |
+          python3 -c "
+          import json, pathlib, subprocess, sys
+          for p in sorted(pathlib.Path('clients').glob('*.json')):
+              c = json.loads(p.read_text())
+              if c.get('status') == 'active' and c.get('report_email_enabled'):
+                  slug = c['slug']
+                  rc = subprocess.call(['python3', 'scripts/client_report.py', 'send', '--slug', slug])
+                  if rc != 0:
+                      print(f'WARNING: send failed for {slug} (rc={rc})', file=sys.stderr)
+          "
+
+      - name: Commit generated report files
+        run: |
+          git add clients/*/reports/ portfolio/digests/ 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."
+          else
+            git commit -m "chore: $(date +%Y-%m) monthly reports generated [automated]"
+            git push
+          fi

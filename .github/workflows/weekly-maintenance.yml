@@ -1,0 +1,63 @@
+name: Rank AI Weekly Maintenance
+
+on:
+  schedule:
+    - cron: '0 16 * * 1'   # every Monday, 9 am PDT / 8 am PST
+  workflow_dispatch:         # manual trigger for testing
+
+jobs:
+  maintain:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
+          fetch-depth: 0
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Install Claude Code CLI
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Configure git identity
+        run: |
+          git config user.email "ops@restorationai.io"
+          git config user.name "Rank AI Bot"
+
+      - name: Run due systems (S1-S4 for all active clients)
+        env:
+          ANTHROPIC_API_KEY:            ${{ secrets.ANTHROPIC_API_KEY }}
+          GOOGLE_AI_API_KEY:            ${{ secrets.GOOGLE_AI_API_KEY }}
+          CLOUDFLARE_API_TOKEN:         ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_R2_API_TOKEN:      ${{ secrets.CLOUDFLARE_R2_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID:        ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_PAGES_API_TOKEN:   ${{ secrets.CLOUDFLARE_PAGES_API_TOKEN }}
+          SENDGRID_API_KEY:             ${{ secrets.SENDGRID_API_KEY }}
+          GITHUB_PERSONAL_ACCESS_TOKEN: ${{ secrets.GH_PAT }}
+          DATAFORSEO_USERNAME:          ${{ secrets.DATAFORSEO_USERNAME }}
+          DATAFORSEO_PASSWORD:          ${{ secrets.DATAFORSEO_PASSWORD }}
+        run: python3 scripts/master_scheduler.py run-due --all --headless
+
+      - name: Commit generated state files and content
+        run: |
+          git add clients/ sites/ portfolio/ docs/ 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."
+          else
+            git commit -m "chore: weekly maintenance run $(date +%Y-%m-%d) [automated]"
+            git push
+          fi
