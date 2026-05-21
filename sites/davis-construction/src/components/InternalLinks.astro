@@ -1,0 +1,62 @@
+---
+import { getCollection } from "astro:content";
+
+type Props = { paths?: string[]; heading?: string; eyebrow?: string };
+const { paths = [], heading = "Related", eyebrow = "Keep Exploring" } = Astro.props;
+
+const [pages, services, serviceAreas, locations, blog, legal] = await Promise.all([
+  getCollection("pages"),
+  getCollection("services"),
+  getCollection("serviceAreas"),
+  getCollection("locations"),
+  getCollection("blog"),
+  getCollection("legal"),
+]);
+
+const lookup = new Map<string, string>();
+for (const p of pages) {
+  if (p.slug === "home") lookup.set("/", p.data.h1);
+  else if (p.slug === "blog-index") lookup.set("/blog/", p.data.h1);
+  else lookup.set(`/${p.slug}/`, p.data.h1);
+}
+for (const s of services) lookup.set(`/services/${s.data.service_slug}/`, s.data.h1);
+for (const a of serviceAreas) lookup.set(`/service-areas/${a.data.area_slug}/`, a.data.h1);
+for (const l of locations) {
+  lookup.set(`/service-areas/${l.data.area_slug}/${l.data.service_slug}/`, l.data.h1);
+}
+for (const b of blog) lookup.set(`/blog/${b.slug}/`, b.data.h1);
+for (const lg of legal) lookup.set(`/${lg.data.ref}/`, lg.data.h1);
+
+function pathFallback(p: string): string {
+  return p
+    .replace(/^\//, "")
+    .replace(/\/$/, "")
+    .split("/")
+    .map((s) => s.replace(/-/g, " "))
+    .map((s) => s.replace(/\b\w/g, (c) => c.toUpperCase()))
+    .join(" › ");
+}
+
+const linked = paths.map((p) => ({ path: p, label: lookup.get(p) || pathFallback(p) }));
+---
+
+{linked.length > 0 && (
+  <section class="section bg-navy">
+    <div class="container-wide max-w-5xl mx-auto">
+      <div class="mb-8">
+        <div class="eyebrow">{eyebrow}</div>
+        <h2>{heading}</h2>
+      </div>
+      <ul class="grid gap-3 sm:grid-cols-2 list-none pl-0">
+        {linked.map((l) => (
+          <li>
+            <a href={l.path} class="block p-5 rounded-lg border border-white/10 bg-white/5 hover:bg-white/10 hover:border-primary/40 transition-all no-underline text-white">
+              <span class="font-semibold">{l.label}</span>
+              <span aria-hidden="true" class="float-right text-primary-200">→</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+)}

@@ -1,0 +1,63 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "~/layouts/BaseLayout.astro";
+import CtaBanner from "~/components/CtaBanner.astro";
+import FAQSection from "~/components/FAQSection.astro";
+import InternalLinks from "~/components/InternalLinks.astro";
+import { brand } from "~/lib/brand";
+
+export async function getStaticPaths() {
+  // Slugs handled by dedicated route files, not by this catch-all.
+  const DEDICATED = new Set(["home", "blog-index"]);
+  const pages = await getCollection("pages");
+  return pages
+    .filter((p) => !DEDICATED.has(p.slug))
+    .map((p) => ({ params: { fixed: p.slug }, props: { entry: p } }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+const data = entry.data;
+const archetype = data.archetype ?? entry.slug;
+const heroImage = data.hero || `${brand.imagesBase}/brand/hero.webp`;
+---
+
+<BaseLayout
+  title={data.title}
+  meta_description={data.meta_description}
+  hero_image_url={heroImage}
+  schema_stubs={["organization", "website", "local-business", "breadcrumb-list"]}
+  schema_ctx={{ archetype }}
+  breadcrumb={data.breadcrumb}
+  faq={data.faq}
+>
+  <!-- COMPACT HERO -->
+  <section class="relative min-h-[350px] flex items-center overflow-hidden bg-navy border-b border-white/10">
+    <div class="absolute inset-0 z-0">
+      <img src={heroImage} alt={data.h1} class="w-full h-full object-cover" loading="eager" />
+      <div class="absolute inset-0 bg-gradient-to-r from-navy via-navy/90 to-navy/60"></div>
+    </div>
+    <div class="container-wide relative z-10 py-16">
+      <div class="max-w-2xl">
+        <div class="eyebrow">{archetype.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase())}</div>
+        <h1>{data.h1}</h1>
+        <p class="text-lg text-white/85 mt-6 mb-0 leading-relaxed max-w-xl">{data.meta_description}</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- BODY -->
+  <section class="section-first bg-navy">
+    <div class="container-wide">
+      <div class="prose-body">
+        <Content />
+      </div>
+    </div>
+  </section>
+
+  <FAQSection faq={data.faq} />
+
+  <CtaBanner />
+
+  <InternalLinks paths={data.internal_links} heading="Keep Exploring" />
+</BaseLayout>
