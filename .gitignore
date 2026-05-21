@@ -6,4 +6,5 @@ __pycache__/
 
 # System 4 v2 — GSC OAuth secrets (never commit)
 .gsc-oauth-client.json
+.gsc-agency-token.json
 clients/*/.gsc-token.json
