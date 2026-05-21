@@ -32,7 +32,8 @@ export const brand = {
   sameAsUrls: [] as string[],
   gbpRatingValue: "",
   gbpReviewCount: "",
-  tagline: "24/7 restoration services in Madison, AL.",
+  tagline: "Construction and restoration services in Madison, AL.",
+  ctaLabel: "24/7 Emergency Hotline",
 } as const;
 
 export const entityId = `${brand.canonicalUrl}/#identity`;

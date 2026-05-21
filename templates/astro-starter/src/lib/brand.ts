@@ -33,6 +33,7 @@ export const brand = {
   gbpRatingValue: "{{BRAND_GBP_RATING_VALUE}}",
   gbpReviewCount: "{{BRAND_GBP_REVIEW_COUNT}}",
   tagline: "{{BRAND_TAGLINE}}",
+  ctaLabel: "{{BRAND_CTA_LABEL}}",
 } as const;
 
 export const entityId = `${brand.canonicalUrl}/#identity`;
