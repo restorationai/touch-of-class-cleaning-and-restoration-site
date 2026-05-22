@@ -24,7 +24,7 @@ export const brand = {
   googleCid: "",
   imagesBase: "https://images.davisconstructioncontractors.com",
   googleMapsApiKey: "",
-  logoUrl: "https://images.davisconstructioncontractors.com/brand/logo.png",
+  logoUrl: "/images/logo.webp",
   licenseNumbers: [] as string[],
   licenseAuthority: "",
   licenseType: "",

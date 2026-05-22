@@ -27,7 +27,7 @@ const { services } = Astro.props;
     <div class="flex flex-wrap justify-center gap-10">
       {services.map((s) => {
         // Fallback to brand hero image if no service hero is defined
-        const imageUrl = s.data.hero || `${brand.imagesBase}/brand/hero.webp`;
+        const imageUrl = s.data.hero || `/images/services/${s.data.service_slug}.png`;
         
         return (
           <a 
