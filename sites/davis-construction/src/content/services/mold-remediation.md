@@ -6,7 +6,7 @@ meta_description: "24/7 mold remediation in Madison and surrounding areas. IICRC
 primary_keyword: "mold remediation madison"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
-priority: 9.0
+priority: 8.1
 plan_hash: "f5509959dd2da5f1"
 generated_at: "2026-05-21T22:50:29.588372+00:00"
 manual_override: false

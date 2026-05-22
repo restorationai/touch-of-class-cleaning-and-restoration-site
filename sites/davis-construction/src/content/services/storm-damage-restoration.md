@@ -6,7 +6,7 @@ meta_description: "24/7 storm damage restoration in Madison and surrounding area
 primary_keyword: "storm damage restoration madison"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
-priority: 8.1
+priority: 7.5
 plan_hash: "c46ff47557173b5f"
 generated_at: "2026-05-21T22:51:23.626698+00:00"
 manual_override: false

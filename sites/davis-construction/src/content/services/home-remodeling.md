@@ -6,7 +6,7 @@ meta_description: "24/7 home remodeling in Madison and surrounding areas. IICRC-
 primary_keyword: "home remodeling madison"
 secondary_keywords: ["home renovation", "kitchen remodel", "bathroom remodel", "whole home remodel", "interior remodeling contractor"]
 search_intent: "local_commercial"
-priority: 9.0
+priority: 9.3
 plan_hash: "fef30d4d3b599d08"
 generated_at: "2026-05-21T22:50:29.589523+00:00"
 manual_override: false

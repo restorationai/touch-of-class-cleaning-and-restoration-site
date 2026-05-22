@@ -6,7 +6,7 @@ meta_description: "24/7 decks, pergolas and fences in Madison and surrounding ar
 primary_keyword: "decks, pergolas and fences madison"
 secondary_keywords: ["deck builder", "deck installation", "pergola builder", "fence installation", "outdoor structure contractor"]
 search_intent: "local_commercial"
-priority: 8.1
+priority: 9.1
 plan_hash: "6bae0bd40a21385c"
 generated_at: "2026-05-21T22:51:22.785208+00:00"
 manual_override: false

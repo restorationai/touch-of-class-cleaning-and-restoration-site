@@ -6,7 +6,7 @@ meta_description: "24/7 roofing installation and replacement in Madison and surr
 primary_keyword: "roofing installation and replacement madison"
 secondary_keywords: ["roofing contractor", "roof replacement", "new roof installation", "residential roofing", "roof repair"]
 search_intent: "local_commercial"
-priority: 9.0
+priority: 9.4
 plan_hash: "72ff71efc538501a"
 generated_at: "2026-05-21T22:50:25.715776+00:00"
 manual_override: false

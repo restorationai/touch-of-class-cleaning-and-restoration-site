@@ -6,7 +6,7 @@ meta_description: "24/7 new home construction in Madison and surrounding areas. 
 primary_keyword: "new home construction madison"
 secondary_keywords: ["custom home builder", "new home builder", "build a house", "residential construction", "ground-up construction"]
 search_intent: "local_commercial"
-priority: 8.1
+priority: 9.2
 plan_hash: "ba37bf6f1d83d2e8"
 generated_at: "2026-05-21T22:51:21.529959+00:00"
 manual_override: false

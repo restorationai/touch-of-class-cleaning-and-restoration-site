@@ -6,7 +6,7 @@ meta_description: "24/7 water damage restoration in Madison and surrounding area
 primary_keyword: "water damage restoration madison"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
-priority: 9.0
+priority: 8.2
 plan_hash: "6f8129f79619dfe8"
 generated_at: "2026-05-21T22:50:31.699633+00:00"
 manual_override: false
