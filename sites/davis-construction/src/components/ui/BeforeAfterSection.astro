@@ -1,0 +1,149 @@
+---
+// Before/after comparison slider section.
+// Uses a native <input type="range"> + CSS clip-path — no JS framework required.
+// The initial 50/50 split is set via inline style so it renders correctly even
+// before the script executes (progressive enhancement).
+
+interface Pair {
+  label: string;
+  beforeSrc: string;
+  beforeAlt: string;
+  afterSrc: string;
+  afterAlt: string;
+}
+
+const pairs: Pair[] = [
+  {
+    label: "Water Damage Restoration",
+    beforeSrc: "https://storage.googleapis.com/msgsndr/Tx5eKisj3Xluq1SeZKe3/media/697e98141311f66b99469f5f.png",
+    beforeAlt: "Interior room with visible water damage, wet flooring, and standing moisture before restoration work",
+    afterSrc: "https://storage.googleapis.com/msgsndr/Tx5eKisj3Xluq1SeZKe3/media/697e981b1fd827570a43ac94.png",
+    afterAlt: "Same room fully restored with clean, dry flooring and repaired walls after water damage remediation",
+  },
+  {
+    label: "Fire & Smoke Damage Restoration",
+    beforeSrc: "https://storage.googleapis.com/msgsndr/Tx5eKisj3Xluq1SeZKe3/media/697e9be266e7ca4d0885c947.png",
+    beforeAlt: "Room with heavy fire and smoke damage, charred walls, and soot-covered surfaces before restoration",
+    afterSrc: "https://storage.googleapis.com/msgsndr/Tx5eKisj3Xluq1SeZKe3/media/697e9be266e7ca34a485c946.png",
+    afterAlt: "Fully rebuilt and repainted interior after fire and smoke damage restoration by Davis Construction",
+  },
+  {
+    label: "Storm Damage & Biohazard Cleanup",
+    beforeSrc: "https://storage.googleapis.com/msgsndr/Tx5eKisj3Xluq1SeZKe3/media/697e9ed41311f66d494798c4.png",
+    beforeAlt: "Property with storm debris, contaminated materials, and hazardous conditions before professional cleanup",
+    afterSrc: "https://storage.googleapis.com/msgsndr/Tx5eKisj3Xluq1SeZKe3/media/697e9ed4f7a8776652d24fbc.png",
+    afterAlt: "Clean, safe, and restored property after storm damage cleanup and decontamination work",
+  },
+  {
+    label: "General Construction & Rebuild",
+    beforeSrc: "https://storage.googleapis.com/msgsndr/SoaJxwp6MUc7dIBOnzdi/media/693d97eeab25946ca9b33c36.png",
+    beforeAlt: "Damaged or unfinished structure showing construction scope before Davis Construction rebuild",
+    afterSrc: "https://storage.googleapis.com/msgsndr/SoaJxwp6MUc7dIBOnzdi/media/693d97eeb4f4202a2efedc02.png",
+    afterAlt: "Completed construction and rebuild project showing finished quality craftsmanship by Davis Construction Contractors",
+  },
+];
+---
+
+<section
+  class="bg-dark-900 py-24 border-t border-white/10 text-white"
+  aria-label="Before and after project results"
+>
+  <div class="container-wide px-6 sm:px-10 lg:px-12">
+
+    <div class="text-center mb-16">
+      <span class="inline-block bg-primary-600 text-white px-4 py-1.5 text-xs font-black uppercase tracking-[0.3em] mb-4">Real Results</span>
+      <h2 class="text-5xl md:text-6xl font-black uppercase tracking-tighter mb-4">Before &amp; After</h2>
+      <p class="text-white/70 text-lg max-w-2xl mx-auto">
+        Drag the handle on any image to compare the damage against the finished result. Every project below was completed by our team in Madison and North Alabama.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-14 max-w-6xl mx-auto">
+      {pairs.map((pair, i) => (
+        <div data-comparison-item>
+          <h3 class="text-lg font-black uppercase tracking-tight text-white mb-4">{pair.label}</h3>
+
+          <div class="relative w-full aspect-video rounded-xl overflow-hidden shadow-2xl select-none border-4 border-white/10">
+
+            {/* Base layer: BEFORE */}
+            <img
+              src={pair.beforeSrc}
+              alt={pair.beforeAlt}
+              class="absolute inset-0 w-full h-full object-cover"
+              loading={i < 2 ? "eager" : "lazy"}
+              decoding="async"
+            />
+            <span class="absolute top-3 left-3 z-10 bg-dark-900/80 text-white text-xs font-black uppercase tracking-widest px-2.5 py-1 rounded backdrop-blur-sm pointer-events-none">
+              Before
+            </span>
+
+            {/* Top layer: AFTER — clipped to right half initially */}
+            <div
+              data-after-layer
+              class="absolute inset-0"
+              style="clip-path: inset(0 0 0 50%)"
+            >
+              <img
+                src={pair.afterSrc}
+                alt={pair.afterAlt}
+                class="absolute inset-0 w-full h-full object-cover"
+                loading={i < 2 ? "eager" : "lazy"}
+                decoding="async"
+              />
+              <span class="absolute top-3 right-3 bg-primary-600/90 text-white text-xs font-black uppercase tracking-widest px-2.5 py-1 rounded backdrop-blur-sm pointer-events-none">
+                After
+              </span>
+            </div>
+
+            {/* Divider line + handle knob */}
+            <div
+              data-handle
+              class="absolute top-0 bottom-0 z-20 w-0.5 bg-white shadow-[0_0_10px_rgba(0,0,0,0.5)] pointer-events-none"
+              style="left: 50%"
+              aria-hidden="true"
+            >
+              <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-white shadow-lg flex items-center justify-center">
+                {/* Left/right chevron icon */}
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-dark" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M8 9l-4 3 4 3M16 9l4 3-4 3" />
+                </svg>
+              </div>
+            </div>
+
+            {/* Invisible range input drives the interaction */}
+            <input
+              type="range"
+              min="0"
+              max="100"
+              value="50"
+              step="0.5"
+              class="absolute inset-0 w-full h-full opacity-0 cursor-ew-resize z-30 touch-none"
+              aria-label={`Drag to compare before and after: ${pair.label}`}
+              data-range
+            />
+          </div>
+        </div>
+      ))}
+    </div>
+
+  </div>
+</section>
+
+<script>
+  document.querySelectorAll<HTMLElement>('[data-comparison-item]').forEach(container => {
+    const range = container.querySelector<HTMLInputElement>('[data-range]');
+    const afterLayer = container.querySelector<HTMLElement>('[data-after-layer]');
+    const handle = container.querySelector<HTMLElement>('[data-handle]');
+    if (!range || !afterLayer || !handle) return;
+
+    function update(pos: string) {
+      afterLayer!.style.clipPath = `inset(0 0 0 ${pos}%)`;
+      handle!.style.left = `${pos}%`;
+    }
+
+    range.addEventListener('input', () => update(range.value));
+
+    // Touch: prevent page scroll while dragging the slider
+    range.addEventListener('touchstart', (e) => e.stopPropagation(), { passive: true });
+  });
+</script>

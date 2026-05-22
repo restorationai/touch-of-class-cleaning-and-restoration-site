@@ -9,6 +9,7 @@ import TrustStrip from "~/components/ui/TrustStrip.astro";
 import AboutSection from "~/components/ui/AboutSection.astro";
 import ServicesStrip from "~/components/ui/ServicesStrip.astro";
 import ProcessSection from "~/components/ui/ProcessSection.astro";
+import BeforeAfterSection from "~/components/ui/BeforeAfterSection.astro";
 import GallerySection from "~/components/ui/GallerySection.astro";
 import ServiceAreasSection from "~/components/ui/ServiceAreasSection.astro";
 import { brand } from "~/lib/brand";
@@ -52,6 +53,8 @@ const services = (allServices as CollectionEntry<"services">[])
   {services.length > 0 && <ServicesStrip services={services} />}
 
   <ProcessSection />
+
+  <BeforeAfterSection />
 
   <GallerySection />
 
