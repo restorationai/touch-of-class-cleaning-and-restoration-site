@@ -1,32 +1,48 @@
 /** @type {import('tailwindcss').Config}
  *
- * Design tokens derived from the restoration-vertical visual template
- * (see rank-ai/docs/build-site-skill-spec.md). Three colors:
- *   navy    — primary background, the dominant brand surface
- *   primary — saturated blue for CTAs, hovers, links
- *   accent  — orange highlight; sparingly applied to emergency CTAs / accents
- *
- * Per-client overrides happen at scaffold time via brand tokens; the default
- * palette below is the canonical restoration-industry look.
+ * Davis Construction Contractors brand palette:
+ *   dark    — primary background surface (charcoal/near-black)
+ *   primary — Davis red for CTAs, hovers, links
+ *   accent  — brighter red for urgent highlights
  */
 export default {
   content: ["./src/**/*.{astro,html,js,ts,md,mdx}"],
   theme: {
     extend: {
       colors: {
-        navy: {
-          DEFAULT: "#0d1b3e",
-          50: "#f5f7fb",
-          100: "#e6eaf3",
-          900: "#0d1b3e",
+        dark: {
+          DEFAULT: "#111827", // gray-900
+          50: "#f9fafb",
+          100: "#f3f4f6",
+          200: "#e5e7eb",
+          300: "#d1d5db",
+          400: "#9ca3af",
+          500: "#6b7280",
+          600: "#4b5563",
+          700: "#374151",
+          800: "#1f2937",
+          900: "#111827",
+          950: "#030712",
         },
         primary: {
-          DEFAULT: "#1e5ad4",
-          50: "#eff4ff",
-          200: "#bdd0ff",
+          DEFAULT: "#dc2626", // Davis Red (matches logo)
+          50: "#fef2f2",
+          100: "#fee2e2",
+          200: "#fecaca",
+          300: "#fca5a5",
+          400: "#f87171",
+          500: "#ef4444",
+          600: "#dc2626",
+          700: "#b91c1c",
+          800: "#991b1b",
+          900: "#7f1d1d",
+          950: "#450a0a",
         },
         accent: {
-          DEFAULT: "#f97316",
+          DEFAULT: "#ef4444",
+        },
+        muted: {
+          DEFAULT: "#4b5563",
         },
       },
       fontFamily: {

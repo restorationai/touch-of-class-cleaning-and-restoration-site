@@ -87,12 +87,13 @@ def slugify(text: str) -> str:
 
 
 DEFAULTS = {
-    # Canonical restoration-industry palette (probritegen template).
+    # Canonical palette matching the narestco visual reference (dark + red).
     # Per-client overrides flow through plan-input.json's brand block.
-    "BRAND_PRIMARY_COLOR": "#0d1b3e",   # navy — dominant background
-    "BRAND_PRIMARY_DARK": "#1e5ad4",    # saturated blue — CTAs, links, hovers
-    "BRAND_PRIMARY_LIGHT": "#bdd0ff",
-    "BRAND_ACCENT_COLOR": "#f97316",    # orange — emergency / accent
+    "BRAND_DARK_COLOR": "#111827",      # dark.DEFAULT — dominant background (gray-900)
+    "BRAND_PRIMARY_COLOR": "#dc2626",   # primary-600 — CTA buttons, links
+    "BRAND_PRIMARY_DARK": "#b91c1c",    # primary-700 — hover state
+    "BRAND_PRIMARY_LIGHT": "#fecaca",   # primary-200 — light tint
+    "BRAND_ACCENT_COLOR": "#ef4444",    # accent — urgent highlights
     "BRAND_FONT_SANS": "Inter",
     "BRAND_FONT_DISPLAY": "Inter",
 }

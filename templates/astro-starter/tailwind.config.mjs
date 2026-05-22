@@ -1,32 +1,50 @@
 /** @type {import('tailwindcss').Config}
  *
- * Design tokens derived from the restoration-vertical visual template
- * (see rank-ai/docs/build-site-skill-spec.md). Three colors:
- *   navy    — primary background, the dominant brand surface
- *   primary — saturated blue for CTAs, hovers, links
- *   accent  — orange highlight; sparingly applied to emergency CTAs / accents
+ * Canonical Rank AI starter palette — matches the narestco visual reference.
+ * Tokens substituted at scaffold time from plan-input.json via build_site.py.
  *
- * Per-client overrides happen at scaffold time via brand tokens; the default
- * palette below is the canonical restoration-industry look.
+ *   dark    — primary background surface (charcoal/near-black)
+ *   primary — CTA color (red by default; override via BRAND_PRIMARY_* tokens)
+ *   accent  — brighter highlight for urgent elements
  */
 export default {
   content: ["./src/**/*.{astro,html,js,ts,md,mdx}"],
   theme: {
     extend: {
       colors: {
-        navy: {
-          DEFAULT: "{{BRAND_PRIMARY_COLOR}}",
-          50: "#f5f7fb",
-          100: "#e6eaf3",
-          900: "#0d1b3e",
+        dark: {
+          DEFAULT: "{{BRAND_DARK_COLOR}}",
+          50: "#f9fafb",
+          100: "#f3f4f6",
+          200: "#e5e7eb",
+          300: "#d1d5db",
+          400: "#9ca3af",
+          500: "#6b7280",
+          600: "#4b5563",
+          700: "#374151",
+          800: "#1f2937",
+          900: "#111827",
+          950: "#030712",
         },
         primary: {
-          DEFAULT: "{{BRAND_PRIMARY_DARK}}",
-          50: "#eff4ff",
-          200: "#bdd0ff",
+          DEFAULT: "#dc2626",
+          50: "#fef2f2",
+          100: "#fee2e2",
+          200: "#fecaca",
+          300: "#fca5a5",
+          400: "#f87171",
+          500: "#ef4444",
+          600: "{{BRAND_PRIMARY_COLOR}}",
+          700: "{{BRAND_PRIMARY_DARK}}",
+          800: "#991b1b",
+          900: "#7f1d1d",
+          950: "#450a0a",
         },
         accent: {
           DEFAULT: "{{BRAND_ACCENT_COLOR}}",
+        },
+        muted: {
+          DEFAULT: "#4b5563",
         },
       },
       fontFamily: {

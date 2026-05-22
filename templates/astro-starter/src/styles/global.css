@@ -14,7 +14,7 @@
     -moz-osx-font-smoothing: grayscale;
   }
   body {
-    @apply bg-navy text-white font-sans;
+    @apply bg-dark text-white font-sans;
   }
   h1, h2, h3, h4 {
     @apply font-display tracking-tight text-white;
@@ -48,13 +48,13 @@
     @apply inline-flex items-center justify-center gap-2 rounded-md px-6 py-3 text-sm font-bold uppercase tracking-widest transition-colors no-underline;
   }
   .btn-primary {
-    @apply btn bg-primary text-white hover:bg-primary-200 hover:text-navy-900;
+    @apply btn bg-primary text-white hover:bg-primary-200 hover:text-dark-900;
   }
   .btn-accent {
     @apply btn bg-accent text-white hover:opacity-90;
   }
   .btn-outline {
-    @apply btn border border-white/30 text-white hover:bg-white hover:text-navy;
+    @apply btn border border-white/30 text-white hover:bg-white hover:text-dark;
   }
 
   .section { @apply py-24 border-t border-white/10; }
