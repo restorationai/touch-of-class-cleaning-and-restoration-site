@@ -1,20 +1,14 @@
 ---
 import { MapPin } from '@lucide/astro';
 import { brand } from '~/lib/brand';
+import { getCollection } from 'astro:content';
 
-// For the starter template, this can be dynamically populated or passed via props.
-// Using Narestco's areas as the default placeholder for visual completeness.
-const areas = [
-  "Federal Way",
-  "Auburn",
-  "Kent",
-  "Tacoma",
-  "Des Moines",
-  "Renton",
-  "Burien",
-  "Puyallup",
-  "Seattle"
-];
+const allAreas = await getCollection('serviceAreas');
+const areas = allAreas.sort((a, b) => {
+  if (a.data.primary && !b.data.primary) return -1;
+  if (!a.data.primary && b.data.primary) return 1;
+  return a.data.city.localeCompare(b.data.city);
+});
 ---
 
 <section class="bg-dark py-32 text-white border-t border-white/10">
@@ -24,16 +18,16 @@ const areas = [
           Proudly Serving
         </h2>
         <p class="text-xl opacity-70 font-medium max-w-md">
-          {brand.displayName} provides reliable restoration and cleanup solutions throughout {brand.primaryCity}, {brand.primaryState} and surrounding areas.
+          {brand.displayName} provides reliable services throughout {brand.primaryCity}, {brand.primaryState} and surrounding communities.
         </p>
      </div>
-     
+
      <div class="md:w-1/2 grid grid-cols-2 sm:grid-cols-3 gap-y-8 gap-x-6">
         {areas.map((area) => (
-          <div class="flex items-center gap-3 text-lg font-black uppercase tracking-[0.05em] group cursor-pointer">
+          <a href={`/service-areas/${area.data.area_slug}/`} class="flex items-center gap-3 text-lg font-black uppercase tracking-[0.05em] group">
             <MapPin size={24} class="text-primary-500 group-hover:scale-125 transition-transform duration-300 shrink-0" />
-            <span class="group-hover:text-primary-500 transition-colors leading-tight">{area}</span>
-          </div>
+            <span class="group-hover:text-primary-500 transition-colors leading-tight">{area.data.city}</span>
+          </a>
         ))}
      </div>
   </div>
