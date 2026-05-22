@@ -1,8 +1,5 @@
 ---
-// Before/after comparison slider section.
-// Uses a native <input type="range"> + CSS clip-path — no JS framework required.
-// The initial 50/50 split is set via inline style so it renders correctly even
-// before the script executes (progressive enhancement).
+import { ArrowRight } from '@lucide/astro';
 
 interface Pair {
   label: string;
@@ -16,54 +13,75 @@ const pairs: Pair[] = [
   {
     label: "Water Damage Restoration",
     beforeSrc: "https://storage.googleapis.com/msgsndr/Tx5eKisj3Xluq1SeZKe3/media/697e98141311f66b99469f5f.png",
-    beforeAlt: "Interior room with visible water damage, wet flooring, and standing moisture before restoration work",
+    beforeAlt: "Interior room with water damage, wet flooring, and standing moisture before restoration",
     afterSrc: "https://storage.googleapis.com/msgsndr/Tx5eKisj3Xluq1SeZKe3/media/697e981b1fd827570a43ac94.png",
-    afterAlt: "Same room fully restored with clean, dry flooring and repaired walls after water damage remediation",
+    afterAlt: "Same room fully restored with clean dry flooring and repaired walls after water damage remediation",
   },
   {
     label: "Fire & Smoke Damage Restoration",
     beforeSrc: "https://storage.googleapis.com/msgsndr/Tx5eKisj3Xluq1SeZKe3/media/697e9be266e7ca4d0885c947.png",
-    beforeAlt: "Room with heavy fire and smoke damage, charred walls, and soot-covered surfaces before restoration",
+    beforeAlt: "Room with heavy fire and smoke damage, charred walls and soot-covered surfaces before restoration",
     afterSrc: "https://storage.googleapis.com/msgsndr/Tx5eKisj3Xluq1SeZKe3/media/697e9be266e7ca34a485c946.png",
-    afterAlt: "Fully rebuilt and repainted interior after fire and smoke damage restoration by Davis Construction",
+    afterAlt: "Fully rebuilt and repainted interior after fire and smoke damage restoration",
   },
   {
-    label: "Storm Damage & Biohazard Cleanup",
+    label: "Storm Damage Cleanup",
     beforeSrc: "https://storage.googleapis.com/msgsndr/Tx5eKisj3Xluq1SeZKe3/media/697e9ed41311f66d494798c4.png",
-    beforeAlt: "Property with storm debris, contaminated materials, and hazardous conditions before professional cleanup",
+    beforeAlt: "Property with storm debris and hazardous conditions before professional cleanup and restoration",
     afterSrc: "https://storage.googleapis.com/msgsndr/Tx5eKisj3Xluq1SeZKe3/media/697e9ed4f7a8776652d24fbc.png",
-    afterAlt: "Clean, safe, and restored property after storm damage cleanup and decontamination work",
+    afterAlt: "Clean safe restored property after storm damage cleanup and decontamination",
   },
   {
-    label: "General Construction & Rebuild",
+    label: "Construction & Rebuild",
     beforeSrc: "https://storage.googleapis.com/msgsndr/SoaJxwp6MUc7dIBOnzdi/media/693d97eeab25946ca9b33c36.png",
-    beforeAlt: "Damaged or unfinished structure showing construction scope before Davis Construction rebuild",
+    beforeAlt: "Damaged structure before Davis Construction general contracting rebuild project",
     afterSrc: "https://storage.googleapis.com/msgsndr/SoaJxwp6MUc7dIBOnzdi/media/693d97eeb4f4202a2efedc02.png",
-    afterAlt: "Completed construction and rebuild project showing finished quality craftsmanship by Davis Construction Contractors",
+    afterAlt: "Completed construction and rebuild showing finished quality craftsmanship by Davis Construction Contractors",
+  },
+  {
+    label: "Bathroom Renovation",
+    beforeSrc: "/images/before-after/bathroom-before.png",
+    beforeAlt: "Outdated residential bathroom with worn vanity, aged fixtures, and dated tile before renovation",
+    afterSrc: "/images/before-after/bathroom-after.png",
+    afterAlt: "Fully renovated modern bathroom with subway tile, floating vanity, LED mirror, and walk-in shower",
+  },
+  {
+    label: "Kitchen Remodel",
+    beforeSrc: "/images/before-after/kitchen-before.png",
+    beforeAlt: "Dated kitchen with worn oak cabinets, old laminate countertops, and aging appliances before remodel",
+    afterSrc: "/images/before-after/kitchen-after.png",
+    afterAlt: "Renovated open kitchen with white shaker cabinets, quartz countertops, stainless appliances, and hardwood flooring",
   },
 ];
 ---
 
-<section
-  class="bg-dark-900 py-24 border-t border-white/10 text-white"
-  aria-label="Before and after project results"
->
+<section class="bg-dark py-24 text-white" aria-label="Before and after project results">
   <div class="container-wide px-6 sm:px-10 lg:px-12">
 
-    <div class="text-center mb-16">
-      <span class="inline-block bg-primary-600 text-white px-4 py-1.5 text-xs font-black uppercase tracking-[0.3em] mb-4">Real Results</span>
-      <h2 class="text-5xl md:text-6xl font-black uppercase tracking-tighter mb-4">Before &amp; After</h2>
-      <p class="text-white/70 text-lg max-w-2xl mx-auto">
-        Drag the handle on any image to compare the damage against the finished result. Every project below was completed by our team in Madison and North Alabama.
-      </p>
+    <!-- Header: exact narestco "Our Work" style -->
+    <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-8">
+      <div>
+        <span class="inline-block bg-black text-white px-4 py-1.5 text-xs font-black uppercase tracking-[0.3em] mb-4">See why our customers love us</span>
+        <div class="flex items-center gap-6">
+          <h2 class="text-5xl md:text-6xl font-black uppercase tracking-tighter">Our Work</h2>
+          <div class="hidden md:block flex-grow h-px bg-white/30 w-72"></div>
+        </div>
+      </div>
+      <a
+        href="#"
+        class="bg-white text-dark font-black uppercase px-8 py-4 text-base flex items-center justify-center gap-3 hover:bg-primary-600 hover:text-white transition-all rounded-sm shadow-xl"
+      >
+        See All Photos <ArrowRight size={20} />
+      </a>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-14 max-w-6xl mx-auto">
+    <!-- 2-column slider grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
       {pairs.map((pair, i) => (
         <div data-comparison-item>
-          <h3 class="text-lg font-black uppercase tracking-tight text-white mb-4">{pair.label}</h3>
+          <p class="text-sm font-black uppercase tracking-wider text-white/60 mb-2">{pair.label}</p>
 
-          <div class="relative w-full aspect-video rounded-xl overflow-hidden shadow-2xl select-none border-4 border-white/10">
+          <div class="relative w-full aspect-video rounded-sm overflow-hidden shadow-2xl select-none border-4 border-white/10 group transition-all duration-500 hover:border-primary-500">
 
             {/* Base layer: BEFORE */}
             <img
@@ -77,7 +95,7 @@ const pairs: Pair[] = [
               Before
             </span>
 
-            {/* Top layer: AFTER — clipped to right half initially */}
+            {/* Top layer: AFTER */}
             <div
               data-after-layer
               class="absolute inset-0"
@@ -95,7 +113,7 @@ const pairs: Pair[] = [
               </span>
             </div>
 
-            {/* Divider line + handle knob */}
+            {/* Divider + handle */}
             <div
               data-handle
               class="absolute top-0 bottom-0 z-20 w-0.5 bg-white shadow-[0_0_10px_rgba(0,0,0,0.5)] pointer-events-none"
@@ -103,14 +121,13 @@ const pairs: Pair[] = [
               aria-hidden="true"
             >
               <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-white shadow-lg flex items-center justify-center">
-                {/* Left/right chevron icon */}
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-dark" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M8 9l-4 3 4 3M16 9l4 3-4 3" />
                 </svg>
               </div>
             </div>
 
-            {/* Invisible range input drives the interaction */}
+            {/* Range input */}
             <input
               type="range"
               min="0"
@@ -142,8 +159,6 @@ const pairs: Pair[] = [
     }
 
     range.addEventListener('input', () => update(range.value));
-
-    // Touch: prevent page scroll while dragging the slider
     range.addEventListener('touchstart', (e) => e.stopPropagation(), { passive: true });
   });
 </script>
