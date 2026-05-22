@@ -147,6 +147,12 @@ def resolve_tokens(client: dict, plan_input: dict) -> tuple[dict, dict]:
             f"24/7 restoration services in {primary_area.get('city','')}, "
             f"{primary_area.get('state','')}.",
         ),
+        "BRAND_CTA_LABEL": brand.get(
+            "cta_label",
+            "Call for a Free Estimate"
+            if "construction" in plan_input.get("verticals", [])
+            else "24/7 Emergency Hotline",
+        ),
         "BRAND_LOGO_URL": brand.get("logo_url", f"https://images.{domain}/brand/logo.png"),
         "BRAND_INITIALS": initials,
         "BRAND_IMAGES_BASE": f"https://images.{domain}",
@@ -1229,6 +1235,13 @@ def cmd_scaffold(args) -> int:
     print("[4/5] Pushing to GitHub (main + staging)...")
     commit = args.message or f"Scaffold from rank-ai-build-site at {now_iso()}"
     git_init_and_push(site_dir, repo_name, commit)
+    # Remove the nested .git so the monorepo tracks files directly instead of
+    # recording sites/{slug}/ as a submodule (which breaks git subtree split).
+    nested_git = site_dir / ".git"
+    if nested_git.exists():
+        import shutil as _shutil
+        _shutil.rmtree(nested_git)
+        print("      Removed nested .git (monorepo-safe).")
     print("      Pushed to main and staging.")
 
     # Step 5: Cloudflare Pages project (gated on OAuth)
