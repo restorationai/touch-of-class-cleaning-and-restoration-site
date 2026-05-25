@@ -1,0 +1,34 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+water damage restoration madison,transactional,,1,,3,water damage restoration,madison-al,/service-areas/madison-al/water-damage-restoration/,false
+water damage restoration madison al,transactional,,,,3,water damage restoration,madison-al,/service-areas/madison-al/water-damage-restoration/,false
+water damage restoration huntsville,transactional,,,,3,water damage restoration,huntsville-al,/service-areas/huntsville-al/water-damage-restoration/,false
+water damage restoration huntsville al,transactional,,8,,3,water damage restoration,huntsville-al,/service-areas/huntsville-al/water-damage-restoration/,false
+water damage restoration athens al,transactional,,,,3,water damage restoration,athens-al,/service-areas/athens-al/water-damage-restoration/,false
+emergency water damage restoration madison al,transactional,,,,3,water damage restoration,madison-al,/service-areas/madison-al/water-damage-restoration/,false
+emergency water damage restoration huntsville al,transactional,,,,3,water damage restoration,huntsville-al,/service-areas/huntsville-al/water-damage-restoration/,false
+water damage company huntsville al,transactional,,,,3,water damage restoration,huntsville-al,/service-areas/huntsville-al/water-damage-restoration/,false
+water damage repair huntsville al,transactional,,,,3,water damage restoration,huntsville-al,/service-areas/huntsville-al/water-damage-restoration/,false
+water mitigation huntsville al,transactional,,,,3,water damage restoration,huntsville-al,/service-areas/huntsville-al/water-damage-restoration/,false
+water removal huntsville al,transactional,,,,3,water damage restoration,huntsville-al,/service-areas/huntsville-al/water-damage-restoration/,false
+flood damage cleanup huntsville al,transactional,,,,2,water damage restoration,huntsville-al,,false
+flooded basement huntsville al,transactional,,,,2,water damage restoration,huntsville-al,,false
+water damage restoration near me,commercial,246000,,38.99,3,water damage restoration,,/services/water-damage-restoration/,false
+water damage restoration,commercial,135000,31,44.85,3,water damage restoration,,/services/water-damage-restoration/,false
+water damage restoration companies,commercial,110000,14,53.51,3,water damage restoration,,/services/water-damage-restoration/,false
+water damage restoration company,commercial,110000,25,53.51,3,water damage restoration,,/services/water-damage-restoration/,false
+water restoration services,commercial,135000,31,26.64,3,water damage restoration,,/services/water-damage-restoration/,false
+residential water damage restoration near me,commercial,320,32,55.6,3,water damage restoration near me,,/services/water-damage-restoration/,false
+best water damage restoration near me,commercial,320,9,33.15,3,water damage restoration near me,,/services/water-damage-restoration/,false
+residential restoration companies near me,commercial,70,28,76.6,3,water damage restoration,,/services/water-damage-restoration/,false
+flood damage restoration,commercial,110000,28,30.47,2,water damage restoration,,,false
+water damage restoration cost,informational,1000,,55.3,1,water damage restoration,,,true
+water damage restoration cost per square foot,informational,90,6,8.61,2,water damage restoration cost,,,false
+water damage repair cost calculator,informational,390,,14.57,2,water damage restoration cost,,,false
+what to do after water damage,informational,,,,3,water damage restoration,,/blog/what-to-do-first-24-hours-water-damage/,false
+how long does water damage take to dry,informational,,,,2,water damage restoration,,,false
+water damage drying time,informational,,,,2,water damage restoration,,,false
+water damage drywall save or replace,informational,,,,2,water damage restoration,,,false
+category 1 water damage,informational,,,,2,water damage restoration,,,false
+category 2 water damage,informational,,,,2,water damage restoration,,,false
+category 3 water damage,informational,,,,2,water damage restoration,,,false
+class 4 water damage,informational,,,,2,water damage restoration,,,false

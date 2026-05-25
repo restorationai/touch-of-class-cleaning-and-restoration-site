@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "slug": "narestco",
+  "site": "narestco.com",
+  "origin": "https://narestco.com",
+  "generated_at": "2026-05-25T18:03:41Z",
+  "gsc_enabled": false,
+  "totals": {
+    "total_actions": 0,
+    "by_action": {
+      "refresh": 0,
+      "audit_then_decide": 0,
+      "request_indexing": 0,
+      "fix_canonical": 0
+    },
+    "by_priority": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    }
+  },
+  "items": [],
+  "notes": [
+    "URLs skipped because already in content-queue: 0 (none)",
+    "URLs where date extraction failed: 0 (none)",
+    "URLs skipped because fresh (age < 305d, no flags): 120",
+    "v1 limitations: no GSC indexing flags (sitemap + page-date scoring only)"
+  ]
+}

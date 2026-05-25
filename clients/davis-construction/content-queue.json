@@ -1,0 +1,41 @@
+{
+  "slug": "davis-construction",
+  "items": [
+    {
+      "id": "2026-05-25-water-damage-restoration-cost-guide",
+      "status": "queued",
+      "queued_at": "2026-05-25T20:46:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "water damage restoration cost",
+      "intent": "informational",
+      "volume": 1000,
+      "kd": null,
+      "fan_out_cluster": [
+        "water damage restoration cost per square foot",
+        "water damage repair cost calculator",
+        "average water damage restoration cost",
+        "water damage cleanup cost",
+        "how much does water damage restoration cost",
+        "water damage restoration cost by category"
+      ],
+      "suggested_slug": "water-damage-restoration-cost-guide",
+      "suggested_title": "Water Damage Restoration Cost: What to Expect (and What You'll Actually Pay)",
+      "target_word_count": 1800,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/service-areas/madison-al/water-damage-restoration/",
+        "/service-areas/huntsville-al/water-damage-restoration/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/blog/how-long-does-water-damage-restoration-take/"
+      ],
+      "service_tags": ["water-damage-restoration"],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.iii.org/article/insurance-for-flood"
+      ],
+      "notes": "Lead with the cost-drivers framework (water category 1/2/3, square footage, materials affected, drying duration). Include a square-foot pricing table and a worked example for a typical Madison ranch home and a Huntsville Twickenham historic home. Cross-link to the homeowners insurance blog because most readers are evaluating out-of-pocket vs claim. Cluster covers per-square-foot pricing and calculator-style breakdowns so we capture the entire cost SERP in one canonical post."
+    }
+  ]
+}

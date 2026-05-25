@@ -1,0 +1,371 @@
+{
+  "schema_version": 1,
+  "slug": "davis-construction",
+  "site": "davisconstructioncontractors.com",
+  "live_origin": "https://staging.rankai-davis-construction.pages.dev",
+  "live_origin_source": "staging",
+  "audit_form_factor": "desktop",
+  "generated_at": "2026-05-25T17:58:08Z",
+  "environment_caveats": [
+    {
+      "id": "staging_noindex",
+      "description": "Audited on Cloudflare Pages staging which injects x-robots-tag: noindex. Lighthouse SEO is artificially deflated because the is-crawlable audit fails. SEO score is excluded from verdict computation. Re-audit after apex cutover."
+    },
+    {
+      "id": "canonical_offsite_intentional",
+      "description": "Every page canonical points to https://davisconstructioncontractors.com (apex) while served from staging.rankai-davis-construction.pages.dev. This is intentional pre-cutover behavior; canonicals will be self-referencing after apex cutover."
+    },
+    {
+      "id": "lighthouse_desktop_only",
+      "description": "DataForSEO Lighthouse MCP wrapper runs DESKTOP only (cpuSlowdownMultiplier=1, throughputKbps=10240, formFactor=desktop). Mobile scores typically run 10-20 performance points lower. Mobile-specific issues are not surfaced in this run."
+    }
+  ],
+  "audited_urls": [
+    {
+      "url": "https://staging.rankai-davis-construction.pages.dev/",
+      "archetype": "home",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 84,
+        "best_practices": 96,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 595,
+        "CLS": 0.016,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "button-name",
+          "title": "Buttons do not have an accessible name",
+          "severity": "high",
+          "estimated_savings_ms": 0,
+          "category": "accessibility"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": 0,
+          "category": "accessibility"
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "severity": "high",
+          "estimated_savings_ms": 0,
+          "category": "best_practices"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "title_length_out_of_range",
+          "title": "Title length 68 chars outside 30-65 range",
+          "severity": "low"
+        },
+        {
+          "id": "meta_description_length_out_of_range",
+          "title": "Meta description length 187 chars outside 70-160 range",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-davis-construction.pages.dev/services/",
+      "archetype": "services-hub",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 93,
+        "best_practices": 77,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 776,
+        "CLS": 0.02,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "button-name",
+          "title": "Buttons do not have an accessible name",
+          "severity": "high",
+          "estimated_savings_ms": 0,
+          "category": "accessibility"
+        },
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "severity": "high",
+          "estimated_savings_ms": 0,
+          "category": "best_practices"
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "severity": "high",
+          "estimated_savings_ms": 0,
+          "category": "best_practices"
+        }
+      ],
+      "onpage_issues": []
+    },
+    {
+      "url": "https://staging.rankai-davis-construction.pages.dev/services/home-remodeling/",
+      "archetype": "service-landing",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 98,
+        "accessibility": 89,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 840,
+        "CLS": 0.004,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "button-name",
+          "title": "Buttons do not have an accessible name",
+          "severity": "high",
+          "estimated_savings_ms": 0,
+          "category": "accessibility"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": 0,
+          "category": "accessibility"
+        }
+      ],
+      "onpage_issues": []
+    },
+    {
+      "url": "https://staging.rankai-davis-construction.pages.dev/services/roofing/",
+      "archetype": "service-landing",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 98,
+        "accessibility": 89,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 846,
+        "CLS": 0.003,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "button-name",
+          "title": "Buttons do not have an accessible name",
+          "severity": "high",
+          "estimated_savings_ms": 0,
+          "category": "accessibility"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": 0,
+          "category": "accessibility"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "title_length_out_of_range",
+          "title": "Title length 80 chars outside 30-65 range",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-davis-construction.pages.dev/service-areas/madison-al/",
+      "archetype": "service-area",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 98,
+        "accessibility": 89,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 858,
+        "CLS": 0.004,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "button-name",
+          "title": "Buttons do not have an accessible name",
+          "severity": "high",
+          "estimated_savings_ms": 0,
+          "category": "accessibility"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": 0,
+          "category": "accessibility"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "title_length_out_of_range",
+          "title": "Title length 68 chars outside 30-65 range",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-davis-construction.pages.dev/contact/",
+      "archetype": "contact",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 94,
+        "best_practices": 77,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 788,
+        "CLS": 0.028,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "button-name",
+          "title": "Buttons do not have an accessible name",
+          "severity": "high",
+          "estimated_savings_ms": 0,
+          "category": "accessibility"
+        },
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "severity": "high",
+          "estimated_savings_ms": 0,
+          "category": "best_practices"
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "severity": "high",
+          "estimated_savings_ms": 0,
+          "category": "best_practices"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "title_length_out_of_range",
+          "title": "Title length 68 chars outside 30-65 range",
+          "severity": "low"
+        }
+      ]
+    }
+  ],
+  "site_rollup": {
+    "avg_scores": {
+      "performance": 99,
+      "accessibility": 90,
+      "best_practices": 92,
+      "seo": 69
+    },
+    "verdict": "amber",
+    "url_count": 6,
+    "urls_by_verdict": {
+      "green": 0,
+      "amber": 6,
+      "red": 0,
+      "error": 0
+    },
+    "template_issues": [
+      {
+        "id": "button-name",
+        "title": "Buttons do not have an accessible name",
+        "severity": "high",
+        "category": "accessibility",
+        "affected_urls": 6
+      },
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "severity": "high",
+        "category": "accessibility",
+        "affected_urls": 4
+      },
+      {
+        "id": "inspector-issues",
+        "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+        "severity": "high",
+        "category": "best_practices",
+        "affected_urls": 2
+      },
+      {
+        "id": "third-party-cookies",
+        "title": "Uses third-party cookies",
+        "severity": "high",
+        "category": "best_practices",
+        "affected_urls": 2
+      }
+    ],
+    "money_page_alerts": [
+      {
+        "url": "https://staging.rankai-davis-construction.pages.dev/",
+        "archetype": "home",
+        "verdict": "amber",
+        "main_issue": "accessibility 84"
+      },
+      {
+        "url": "https://staging.rankai-davis-construction.pages.dev/services/",
+        "archetype": "services-hub",
+        "verdict": "amber",
+        "main_issue": "best practices 77"
+      },
+      {
+        "url": "https://staging.rankai-davis-construction.pages.dev/services/home-remodeling/",
+        "archetype": "service-landing",
+        "verdict": "amber",
+        "main_issue": "accessibility 89"
+      },
+      {
+        "url": "https://staging.rankai-davis-construction.pages.dev/services/roofing/",
+        "archetype": "service-landing",
+        "verdict": "amber",
+        "main_issue": "accessibility 89"
+      },
+      {
+        "url": "https://staging.rankai-davis-construction.pages.dev/contact/",
+        "archetype": "contact",
+        "verdict": "amber",
+        "main_issue": "best practices 77"
+      }
+    ]
+  },
+  "regression": {
+    "prior_run_at": null,
+    "score_deltas": null,
+    "verdict_transitions": [],
+    "new_issues": [],
+    "resolved_issues": [],
+    "note": "First audit for this client \u2014 no prior comparison data."
+  }
+}

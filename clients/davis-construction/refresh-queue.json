@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "slug": "davis-construction",
+  "site": "staging.rankai-davis-construction.pages.dev",
+  "origin": "https://staging.rankai-davis-construction.pages.dev",
+  "generated_at": "2026-05-25T18:01:38Z",
+  "gsc_enabled": false,
+  "totals": {
+    "total_actions": 0,
+    "by_action": {
+      "refresh": 0,
+      "audit_then_decide": 0,
+      "request_indexing": 0,
+      "fix_canonical": 0
+    },
+    "by_priority": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    }
+  },
+  "items": [],
+  "notes": [
+    "URLs skipped because already in content-queue: []",
+    "URLs where date extraction failed: []",
+    "v1 limitations: no GSC indexing flags (not_indexed and index_warning are deferred to v2)"
+  ]
+}

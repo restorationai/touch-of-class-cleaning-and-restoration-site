@@ -3,7 +3,7 @@
   "slug": "narestco",
   "origin": "https://narestco.com",
   "origin_source": "apex",
-  "generated_at": "2026-05-18T00:09:50+00:00",
+  "generated_at": "2026-05-25T18:02:31+00:00",
   "stale_threshold_days": 365,
   "aging_threshold_days": 305,
   "gsc_enabled": false,
@@ -11,8 +11,8 @@
     "v1 = sitemap + page-level date extraction. No GSC indexing flags.",
     "See docs/system-4-v2-activation.md for GSC v2 setup."
   ],
-  "inspected_count": 5,
-  "fetched_html_count": 5,
+  "inspected_count": 120,
+  "fetched_html_count": 120,
   "failed_html_count": 0,
   "flag_counts": {},
   "candidates": [
@@ -20,7 +20,7 @@
       "url": "https://narestco.com/",
       "date": "2026-05-17",
       "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "age_days": 8,
       "flags": [],
       "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
       "html_dates": {
@@ -36,7 +36,7 @@
       "url": "https://narestco.com/about/",
       "date": "2026-05-17",
       "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "age_days": 8,
       "flags": [],
       "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
       "html_dates": {
@@ -52,7 +52,7 @@
       "url": "https://narestco.com/accessibility/",
       "date": "2026-05-17",
       "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "age_days": 8,
       "flags": [],
       "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
       "html_dates": {
@@ -68,7 +68,7 @@
       "url": "https://narestco.com/blog/",
       "date": "2026-05-17",
       "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "age_days": 8,
       "flags": [],
       "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
       "html_dates": {
@@ -84,12 +84,1852 @@
       "url": "https://narestco.com/blog/black-mold-vs-regular-mold/",
       "date": "2026-05-13",
       "date_source": "json_ld_date_modified",
-      "age_days": 4,
+      "age_days": 12,
       "flags": [],
       "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
       "html_dates": {
         "json_ld_date_published": "2026-05-13",
         "json_ld_date_modified": "2026-05-13",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/blog/burst-pipe-emergency-checklist/",
+      "date": "2026-05-13",
+      "date_source": "json_ld_date_modified",
+      "age_days": 12,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-05-13",
+        "json_ld_date_modified": "2026-05-13",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/blog/choosing-a-restoration-company/",
+      "date": "2026-05-13",
+      "date_source": "json_ld_date_modified",
+      "age_days": 12,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-05-13",
+        "json_ld_date_modified": "2026-05-13",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/blog/does-homeowners-insurance-cover-water-damage/",
+      "date": "2026-05-17",
+      "date_source": "json_ld_date_modified",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-05-17",
+        "json_ld_date_modified": "2026-05-17",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/blog/fire-damage-restoration-process/",
+      "date": "2026-05-13",
+      "date_source": "json_ld_date_modified",
+      "age_days": 12,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-05-13",
+        "json_ld_date_modified": "2026-05-13",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/blog/how-long-does-water-damage-restoration-take/",
+      "date": "2026-05-13",
+      "date_source": "json_ld_date_modified",
+      "age_days": 12,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-05-13",
+        "json_ld_date_modified": "2026-05-13",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/blog/mold-after-water-damage/",
+      "date": "2026-05-13",
+      "date_source": "json_ld_date_modified",
+      "age_days": 12,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-05-13",
+        "json_ld_date_modified": "2026-05-13",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/blog/sewage-backup-health-risks/",
+      "date": "2026-05-13",
+      "date_source": "json_ld_date_modified",
+      "age_days": 12,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-05-13",
+        "json_ld_date_modified": "2026-05-13",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/blog/signs-of-hidden-mold/",
+      "date": "2026-05-13",
+      "date_source": "json_ld_date_modified",
+      "age_days": 12,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-05-13",
+        "json_ld_date_modified": "2026-05-13",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/blog/smoke-odor-removal-techniques/",
+      "date": "2026-05-13",
+      "date_source": "json_ld_date_modified",
+      "age_days": 12,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-05-13",
+        "json_ld_date_modified": "2026-05-13",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/blog/storm-damage-insurance-claim-checklist/",
+      "date": "2026-05-13",
+      "date_source": "json_ld_date_modified",
+      "age_days": 12,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-05-13",
+        "json_ld_date_modified": "2026-05-13",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/blog/what-does-homeowners-insurance-cover-and-not-cover/",
+      "date": "2026-05-17",
+      "date_source": "json_ld_date_modified",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-05-17",
+        "json_ld_date_modified": "2026-05-17",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/blog/what-to-do-first-24-hours-water-damage/",
+      "date": "2026-05-13",
+      "date_source": "json_ld_date_modified",
+      "age_days": 12,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-05-13",
+        "json_ld_date_modified": "2026-05-13",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/contact/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/privacy/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/auburn-wa/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/auburn-wa/appliance-leak-cleanup/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/auburn-wa/basement-flooding-cleanup/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/auburn-wa/biohazard-cleanup/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/auburn-wa/burst-pipe-repair/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/auburn-wa/fire-damage-restoration/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/auburn-wa/flood-damage-restoration/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/auburn-wa/frozen-pipe-restoration/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/auburn-wa/general-contracting/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/auburn-wa/mold-inspection-testing/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/auburn-wa/mold-remediation/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/auburn-wa/odor-removal/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/auburn-wa/reconstruction/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/auburn-wa/roof-leak-repair/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/auburn-wa/sewage-cleanup/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/auburn-wa/smoke-damage-restoration/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/auburn-wa/soot-removal/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/auburn-wa/storm-damage-restoration/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/auburn-wa/water-damage-restoration/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/bellevue-wa/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/bellevue-wa/appliance-leak-cleanup/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/bellevue-wa/basement-flooding-cleanup/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/bellevue-wa/biohazard-cleanup/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/bellevue-wa/burst-pipe-repair/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/bellevue-wa/fire-damage-restoration/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/bellevue-wa/flood-damage-restoration/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/bellevue-wa/frozen-pipe-restoration/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/bellevue-wa/general-contracting/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/bellevue-wa/mold-inspection-testing/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/bellevue-wa/mold-remediation/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/bellevue-wa/odor-removal/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/bellevue-wa/reconstruction/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/bellevue-wa/roof-leak-repair/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/bellevue-wa/sewage-cleanup/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/bellevue-wa/smoke-damage-restoration/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/bellevue-wa/soot-removal/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/bellevue-wa/storm-damage-restoration/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/bellevue-wa/water-damage-restoration/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/everett-wa/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/everett-wa/appliance-leak-cleanup/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/everett-wa/basement-flooding-cleanup/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/everett-wa/biohazard-cleanup/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/everett-wa/burst-pipe-repair/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/everett-wa/fire-damage-restoration/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/everett-wa/flood-damage-restoration/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/everett-wa/frozen-pipe-restoration/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/everett-wa/general-contracting/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/everett-wa/mold-inspection-testing/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/everett-wa/mold-remediation/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/everett-wa/odor-removal/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/everett-wa/reconstruction/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/everett-wa/roof-leak-repair/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/everett-wa/sewage-cleanup/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/everett-wa/smoke-damage-restoration/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/everett-wa/soot-removal/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/everett-wa/storm-damage-restoration/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/everett-wa/water-damage-restoration/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/federal-way-wa/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/federal-way-wa/appliance-leak-cleanup/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/federal-way-wa/basement-flooding-cleanup/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/federal-way-wa/biohazard-cleanup/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/federal-way-wa/burst-pipe-repair/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/federal-way-wa/fire-damage-restoration/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/federal-way-wa/flood-damage-restoration/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/federal-way-wa/frozen-pipe-restoration/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/federal-way-wa/general-contracting/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/federal-way-wa/mold-inspection-testing/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/federal-way-wa/mold-remediation/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/federal-way-wa/odor-removal/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/federal-way-wa/reconstruction/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/federal-way-wa/roof-leak-repair/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/federal-way-wa/sewage-cleanup/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/federal-way-wa/smoke-damage-restoration/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/federal-way-wa/soot-removal/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/federal-way-wa/storm-damage-restoration/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/federal-way-wa/water-damage-restoration/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/kent-wa/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/kent-wa/appliance-leak-cleanup/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/kent-wa/basement-flooding-cleanup/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/kent-wa/biohazard-cleanup/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/kent-wa/burst-pipe-repair/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/kent-wa/fire-damage-restoration/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/kent-wa/flood-damage-restoration/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/kent-wa/frozen-pipe-restoration/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/kent-wa/general-contracting/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/kent-wa/mold-inspection-testing/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/kent-wa/mold-remediation/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/kent-wa/odor-removal/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/kent-wa/reconstruction/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/kent-wa/roof-leak-repair/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/kent-wa/sewage-cleanup/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/kent-wa/smoke-damage-restoration/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/kent-wa/soot-removal/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/kent-wa/storm-damage-restoration/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/kent-wa/water-damage-restoration/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/kirkland-wa/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/kirkland-wa/appliance-leak-cleanup/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/kirkland-wa/basement-flooding-cleanup/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/kirkland-wa/biohazard-cleanup/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null
+    },
+    {
+      "url": "https://narestco.com/service-areas/kirkland-wa/burst-pipe-repair/",
+      "date": "2026-05-17",
+      "date_source": "sitemap_lastmod",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-05-17T22:10:08.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
