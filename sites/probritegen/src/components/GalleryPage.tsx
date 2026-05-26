@@ -4,14 +4,14 @@ import { Camera } from 'lucide-react';
 
 const GalleryPage: React.FC = () => {
   const allPhotos = [
-    "/media/6976c78bc1fa0c9f59a78f69.png",
-    "/media/6976cf73d4fb905a09ee6ab7.png",
-    "/media/6976c32bc1fa0cbbdba6d70d.png",
-    "/media/6976c388a87bebeb9de7d09f.png",
-    "/media/6977d7fff62bb7666098bdaa.png",
-    "/media/6976cc33c1fa0c7e02a83b75.png",
-    "/media/6976cc33eb392b5ed868201e.png",
-    "/media/6976cc38c1fa0c1523a83c22.png"
+    "/media/6976c78bc1fa0c9f59a78f69.webp",
+    "/media/6976cf73d4fb905a09ee6ab7.webp",
+    "/media/6976c32bc1fa0cbbdba6d70d.webp",
+    "/media/6976c388a87bebeb9de7d09f.webp",
+    "/media/6977d7fff62bb7666098bdaa.webp",
+    "/media/6976cc33c1fa0c7e02a83b75.webp",
+    "/media/6976cc33eb392b5ed868201e.webp",
+    "/media/6976cc38c1fa0c1523a83c22.webp"
   ];
 
   return (
@@ -19,10 +19,14 @@ const GalleryPage: React.FC = () => {
       {/* Hero / Header for Gallery */}
       <section className="relative min-h-[600px] flex items-center justify-center overflow-hidden border-b border-white border-opacity-10">
         <div className="absolute inset-0 z-0">
-          <img 
-            src="/media/6976c78bc1fa0c9f59a78f69.png" 
-            alt="Gallery background" 
+          <img
+            src="/media/6976c78bc1fa0c9f59a78f69.webp"
+            alt="Gallery background"
             className="w-full h-full object-cover"
+            fetchpriority="high"
+            loading="eager"
+            width="1376"
+            height="768"
           />
         </div>
         <div className="relative z-10 text-center text-white px-6">
@@ -39,11 +43,14 @@ const GalleryPage: React.FC = () => {
                 key={i} 
                 className="break-inside-avoid overflow-hidden rounded-sm border-4 border-white border-opacity-10 shadow-2xl group transition-all duration-500 hover:border-primary"
               >
-                <img 
-                  src={src} 
-                  alt={`Project ${i+1}`} 
-                  className="w-full h-auto transition-all duration-700 transform group-hover:scale-105" 
+                <img
+                  src={src}
+                  alt={`Project ${i+1}`}
+                  className="w-full h-auto transition-all duration-700 transform group-hover:scale-105"
                   referrerPolicy="no-referrer"
+                  loading="lazy"
+                  width="1376"
+                  height="768"
                 />
               </div>
             ))}

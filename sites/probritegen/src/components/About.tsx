@@ -2,7 +2,7 @@
 import React from 'react';
 
 const About: React.FC = () => {
-  const logoUrl = "/media/69cd6fb6ddfdcb063981acc7.png";
+  const logoUrl = "/media/69cd6fb6ddfdcb063981acc7.webp";
 
   return (
     <section className="bg-navy py-24 text-white overflow-hidden relative">
@@ -23,10 +23,12 @@ const About: React.FC = () => {
           </div>
 
           <div className="relative flex justify-center items-center">
-             <img 
-               src={logoUrl} 
-               alt="ProBrite Gen Logo" 
+             <img
+               src={logoUrl}
+               alt="ProBrite Gen Logo"
                className="w-full max-w-[280px] md:max-w-[400px] h-auto object-contain drop-shadow-[0_20px_20px_rgba(0,0,0,0.4)] opacity-100"
+               width="500"
+               height="500"
              />
           </div>
         </div>

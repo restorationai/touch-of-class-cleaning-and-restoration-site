@@ -56,10 +56,12 @@ const Header: React.FC = () => {
             className="hidden xl:flex flex-shrink-0 items-center gap-4 cursor-pointer"
             href="/"
           >
-            <img 
-              src="/media/69cd6fb6ddfdcb063981acc7.png" 
-              alt="ProBrite Gen Logo" 
+            <img
+              src="/media/69cd6fb6ddfdcb063981acc7.webp"
+              alt="ProBrite Gen Logo"
               className="h-24 w-auto object-contain"
+              width="500"
+              height="500"
             />
             <div className="font-black text-xl leading-tight italic">
               ProBrite Gen<br/>
@@ -147,9 +149,11 @@ const Header: React.FC = () => {
 
           {/* MOBILE ONLY: Hamburger Menu Button */}
           <div className="xl:hidden flex items-center justify-end ml-4">
-            <button 
+            <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="text-white p-2 focus:outline-none"
+              aria-label={isMenuOpen ? "Close navigation menu" : "Open navigation menu"}
+              aria-expanded={isMenuOpen}
             >
               {isMenuOpen ? <X size={32} /> : <Menu size={32} />}
             </button>

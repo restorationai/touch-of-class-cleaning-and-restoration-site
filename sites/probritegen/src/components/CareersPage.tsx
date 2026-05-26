@@ -2,7 +2,7 @@ import React from 'react';
 import { MapPin, Download } from 'lucide-react';
 
 const CareersPage: React.FC = () => {
-  const bgImage = "/media/6976c78bc1fa0c9f59a78f69.png";
+  const bgImage = "/media/6976c78bc1fa0c9f59a78f69.webp";
 
   return (
     <div className="flex flex-col">

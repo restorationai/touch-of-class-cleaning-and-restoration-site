@@ -15,10 +15,12 @@ const Footer: React.FC = () => {
             <div className="bg-white rounded-lg p-10 shadow-[0_20px_80px_-20px_rgba(0,0,0,0.3)] border border-gray-50 max-w-sm">
                <div className="flex items-center gap-6 mb-8">
                   <div className="w-24 h-24 overflow-hidden flex-shrink-0 flex items-center justify-center p-3 border-4 border-gray-50 shadow-inner">
-                    <img 
-                      src="/media/69cd6fb6ddfdcb063981acc7.png" 
-                      alt="ProBrite Gen" 
-                      className="w-full h-auto" 
+                    <img
+                      src="/media/69cd6fb6ddfdcb063981acc7.webp"
+                      alt="ProBrite Gen"
+                      className="w-full h-auto"
+                      width="500"
+                      height="500"
                     />
                   </div>
                   <div>

@@ -6,7 +6,7 @@ import { ArrowRight, Star, Users, FileCheck, Settings, Search, HandCoins, MapPin
 
 
 const SewageBackupPage: React.FC = () => {
-  const bgImage = "/media/6976c78bc1fa0c9f59a78f69.png";
+  const bgImage = "/media/6976c78bc1fa0c9f59a78f69.webp";
   
   const steps = [
     { icon: <Users size={45} />, label: "Free Consultation" },
@@ -73,20 +73,29 @@ const SewageBackupPage: React.FC = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <img 
-              src="/media/69cd83bf45ec94717bfb490b.png" 
-              alt="Sewage cleanup process 1" 
-              className="w-full aspect-video object-cover rounded-sm shadow-xl" 
+            <img
+              src="/media/69cd83bf45ec94717bfb490b.webp"
+              alt="Sewage cleanup process 1"
+              className="w-full aspect-video object-cover rounded-sm shadow-xl"
+              loading="lazy"
+              width="928"
+              height="1152"
             />
-            <img 
-              src="/media/69cd83bf2815919248ee1ea5.png" 
-              alt="Sewage cleanup process 2" 
-              className="w-full aspect-video object-cover rounded-sm shadow-xl" 
+            <img
+              src="/media/69cd83bf2815919248ee1ea5.webp"
+              alt="Sewage cleanup process 2"
+              className="w-full aspect-video object-cover rounded-sm shadow-xl"
+              loading="lazy"
+              width="928"
+              height="1152"
             />
-            <img 
-              src="/media/69cd83bfc85939f3533be73a.png" 
-              alt="Sewage cleanup process 3" 
-              className="w-full aspect-video object-cover rounded-sm shadow-xl" 
+            <img
+              src="/media/69cd83bfc85939f3533be73a.webp"
+              alt="Sewage cleanup process 3"
+              className="w-full aspect-video object-cover rounded-sm shadow-xl"
+              loading="lazy"
+              width="928"
+              height="1152"
             />
           </div>
         </div>

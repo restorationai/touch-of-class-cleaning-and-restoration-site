@@ -9,10 +9,13 @@ const FinalCTA: React.FC = () => {
     <section className="relative py-40 bg-navy overflow-hidden">
       {/* Background Image Container */}
       <div className="absolute inset-0 z-0">
-        <img 
-          src="/media/6976c78bc1fa0c9f59a78f69.png" 
-          alt="Professional restoration and construction site" 
-          className="w-full h-full object-cover" 
+        <img
+          src="/media/6976c78bc1fa0c9f59a78f69.webp"
+          alt="Professional restoration and construction site"
+          className="w-full h-full object-cover"
+          loading="lazy"
+          width="1376"
+          height="768"
         />
         {/* Dark overlay to ensure text readability */}
         <div className="absolute inset-0 bg-black/40"></div>

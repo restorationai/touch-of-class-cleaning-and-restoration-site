@@ -7,7 +7,7 @@ import FinalCTA from './FinalCTA';
 
 
 const BlogPost4: React.FC = () => {
-  const bgImage = "/media/6976c78bc1fa0c9f59a78f69.png";
+  const bgImage = "/media/6976c78bc1fa0c9f59a78f69.webp";
 
   return (
     <div className="flex flex-col">

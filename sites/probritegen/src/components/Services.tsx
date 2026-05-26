@@ -8,17 +8,17 @@ const Services: React.FC = () => {
   const services = [
     {
       title: "WATER DAMAGE RESTORATION",
-      image: "/media/6976c78bc1fa0c9f59a78f69.png",
+      image: "/media/6976c78bc1fa0c9f59a78f69.webp",
       page: 'water-damage' as const,
     },
     {
       title: "SEWAGE BACKUP AND CLEANUP",
-      image: "/media/69cd83bfc85939f3533be73a.png",
+      image: "/media/69cd83bfc85939f3533be73a.webp",
       page: 'sewage-backup' as const,
     },
     {
       title: "MOLD REMOVAL",
-      image: "/media/6976cf73d4fb905a09ee6ab7.png",
+      image: "/media/6976cf73d4fb905a09ee6ab7.webp",
       page: 'mold-remediation' as const,
     },
     {

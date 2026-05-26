@@ -6,11 +6,15 @@ const Hero: React.FC = () => {
     <section className="relative min-h-[750px] flex items-center overflow-hidden">
       {/* Background with Overlay */}
       <div className="absolute inset-0 z-0">
-        <img 
-          src="/media/69d454413d829c73b28678e0.png" 
-          alt="ProBrite Gen Restoration" 
+        <img
+          src="/media/69d454413d829c73b28678e0.webp"
+          alt="ProBrite Gen Restoration"
           className="w-full h-full object-cover object-center scale-100 lg:scale-[1.05] transition-transform duration-700 brightness-90 contrast-110"
           style={{ imageRendering: 'auto' }}
+          fetchpriority="high"
+          loading="eager"
+          width="1152"
+          height="928"
         />
         {/* Adjusted overlay to be more transparent (40%) so the image is clearly visible behind the content */}
         <div className="absolute inset-0 bg-black/40"></div>

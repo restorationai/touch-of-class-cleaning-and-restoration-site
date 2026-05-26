@@ -7,12 +7,12 @@ import { ArrowRight } from 'lucide-react';
 const Gallery: React.FC = () => {
   // Using 6 before-and-after images for the home section as requested
   const photos = [
-    "/media/6976c32bc1fa0cbbdba6d70d.png",
-    "/media/6976c388a87bebeb9de7d09f.png",
-    "/media/6977d7fff62bb7666098bdaa.png",
-    "/media/6976cc33c1fa0c7e02a83b75.png",
-    "/media/6976cc33eb392b5ed868201e.png",
-    "/media/6976cc38c1fa0c1523a83c22.png",
+    "/media/6976c32bc1fa0cbbdba6d70d.webp",
+    "/media/6976c388a87bebeb9de7d09f.webp",
+    "/media/6977d7fff62bb7666098bdaa.webp",
+    "/media/6976cc33c1fa0c7e02a83b75.webp",
+    "/media/6976cc33eb392b5ed868201e.webp",
+    "/media/6976cc38c1fa0c1523a83c22.webp",
   ];
 
   return (
@@ -37,11 +37,14 @@ const Gallery: React.FC = () => {
         <div className="columns-1 sm:columns-2 lg:columns-3 gap-6 space-y-6">
           {photos.map((src, i) => (
             <div key={i} className="break-inside-avoid overflow-hidden rounded-sm border-4 border-white border-opacity-10 shadow-2xl group transition-all duration-500 hover:border-primary">
-              <img 
-                src={src} 
-                alt={`Restoration project ${i+1}`} 
-                className="w-full h-auto transition-all duration-700 transform group-hover:scale-105" 
+              <img
+                src={src}
+                alt={`Restoration project ${i+1}`}
+                className="w-full h-auto transition-all duration-700 transform group-hover:scale-105"
                 referrerPolicy="no-referrer"
+                loading="lazy"
+                width="1376"
+                height="768"
               />
             </div>
           ))}

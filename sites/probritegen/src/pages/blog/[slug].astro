@@ -10,7 +10,7 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { Content } = await render(entry);
 const data = entry.data;
-const heroImage = data.hero || "/media/6976c78bc1fa0c9f59a78f69.png";
+const heroImage = data.hero || "/media/6976c78bc1fa0c9f59a78f69.webp";
 const dateStr = new Date(data.published_at).toLocaleDateString("en-US", {
   year: "numeric",
   month: "long",

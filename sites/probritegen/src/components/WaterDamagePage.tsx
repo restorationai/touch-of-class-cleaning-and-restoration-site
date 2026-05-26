@@ -6,7 +6,7 @@ import { ArrowRight, Star, Users, FileCheck, Settings, Search, HandCoins, MapPin
 
 
 const WaterDamagePage: React.FC = () => {
-  const bgImage = "/media/6976c78bc1fa0c9f59a78f69.png";
+  const bgImage = "/media/6976c78bc1fa0c9f59a78f69.webp";
   
   const steps = [
     { icon: <Users size={45} />, label: "Free Consultation" },
@@ -60,20 +60,29 @@ const WaterDamagePage: React.FC = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <img 
-              src="/media/6976c32bc1fa0cbbdba6d70d.png" 
-              alt="Water damage restoration process 1" 
-              className="w-full aspect-video object-cover rounded-sm shadow-xl" 
+            <img
+              src="/media/6976c32bc1fa0cbbdba6d70d.webp"
+              alt="Water damage restoration process 1"
+              className="w-full aspect-video object-cover rounded-sm shadow-xl"
+              loading="lazy"
+              width="1376"
+              height="768"
             />
-            <img 
-              src="/media/6976c388a87bebeb9de7d09f.png" 
-              alt="Water damage restoration process 2" 
-              className="w-full aspect-video object-cover rounded-sm shadow-xl" 
+            <img
+              src="/media/6976c388a87bebeb9de7d09f.webp"
+              alt="Water damage restoration process 2"
+              className="w-full aspect-video object-cover rounded-sm shadow-xl"
+              loading="lazy"
+              width="1376"
+              height="768"
             />
-            <img 
-              src="/media/6977d7fff62bb7666098bdaa.png" 
-              alt="Water damage restoration process 3" 
-              className="w-full aspect-video object-cover rounded-sm shadow-xl" 
+            <img
+              src="/media/6977d7fff62bb7666098bdaa.webp"
+              alt="Water damage restoration process 3"
+              className="w-full aspect-video object-cover rounded-sm shadow-xl"
+              loading="lazy"
+              width="1376"
+              height="768"
             />
           </div>
         </div>

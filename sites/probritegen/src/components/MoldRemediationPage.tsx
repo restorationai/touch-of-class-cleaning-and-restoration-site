@@ -6,8 +6,8 @@ import { ArrowRight, Star, Users, FileCheck, ShieldCheck, Search, HandCoins, Map
 
 
 const MoldRemediationPage: React.FC = () => {
-  const bgImageReviewsCTA = "/media/6976c78bc1fa0c9f59a78f69.png";
-  const heroImage = "/media/6976cf73d4fb905a09ee6ab7.png"; 
+  const bgImageReviewsCTA = "/media/6976c78bc1fa0c9f59a78f69.webp";
+  const heroImage = "/media/6976cf73d4fb905a09ee6ab7.webp"; 
   
   const steps = [
     { icon: <Users size={45} />, label: "Free Consultation" },
@@ -61,20 +61,29 @@ const MoldRemediationPage: React.FC = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <img 
-              src="/media/6976cc33c1fa0c7e02a83b75.png" 
-              alt="Mold remediation process 1" 
-              className="w-full aspect-video object-cover rounded-sm shadow-xl" 
+            <img
+              src="/media/6976cc33c1fa0c7e02a83b75.webp"
+              alt="Mold remediation process 1"
+              className="w-full aspect-video object-cover rounded-sm shadow-xl"
+              loading="lazy"
+              width="1376"
+              height="768"
             />
-            <img 
-              src="/media/6976cc33eb392b5ed868201e.png" 
-              alt="Mold remediation process 2" 
-              className="w-full aspect-video object-cover rounded-sm shadow-xl" 
+            <img
+              src="/media/6976cc33eb392b5ed868201e.webp"
+              alt="Mold remediation process 2"
+              className="w-full aspect-video object-cover rounded-sm shadow-xl"
+              loading="lazy"
+              width="1376"
+              height="768"
             />
-            <img 
-              src="/media/6976cc38c1fa0c1523a83c22.png" 
-              alt="Mold remediation process 3" 
-              className="w-full aspect-video object-cover rounded-sm shadow-xl" 
+            <img
+              src="/media/6976cc38c1fa0c1523a83c22.webp"
+              alt="Mold remediation process 3"
+              className="w-full aspect-video object-cover rounded-sm shadow-xl"
+              loading="lazy"
+              width="1376"
+              height="768"
             />
           </div>
         </div>

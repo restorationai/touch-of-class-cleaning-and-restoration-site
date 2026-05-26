@@ -6,7 +6,7 @@ import { ArrowRight, Star, Users, FileCheck, Settings, Search, HandCoins, MapPin
 
 
 const WaterSoftenerPage: React.FC = () => {
-  const bgImage = "/media/6976c78bc1fa0c9f59a78f69.png";
+  const bgImage = "/media/6976c78bc1fa0c9f59a78f69.webp";
   
   const steps = [
     { icon: <Users size={45} />, label: "Free Consultation" },
