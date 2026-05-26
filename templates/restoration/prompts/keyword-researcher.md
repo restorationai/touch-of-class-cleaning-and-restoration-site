@@ -268,7 +268,7 @@ Rules:
 - `suggested_title` must contain the primary keyword.
 - `service_tags` — slug from `templates/restoration/services.json` so the blog post can link to the correct service pages.
 - `city_anchor` — if the primary keyword is location-modified (e.g., "water damage Seattle"), this is the city slug ("seattle-wa"). Otherwise null. Used by the writer to pull local context.
-- **Cap: 5 queued items per run.** If more priority-1 keywords exist, they stay in the bank with `priority: 1` and get queued in future runs (the queue intentionally drains slowly — content velocity should be predictable, not bursty).
+- **Cap: 10 queued items per run.** If more priority-1 keywords exist, they stay in the bank with `priority: 1` and get queued in future runs (the queue intentionally drains slowly — content velocity should be predictable, not bursty).
 
 ### Step 8: Write the per-run CSV (audit trail)
 
@@ -293,7 +293,7 @@ Sort: transactional first, then commercial, then informational, each block by pr
 - Queued for content writer: {N_added}
 - CSV: clients/{slug}/keywords/runs/{date}-{seed-slug}.csv
 
-## Top 5 priority-1 keywords queued
+## Top 10 priority-1 keywords queued
 | Keyword | Volume | KD | Intent | City |
 | --- | --- | --- | --- | --- |
 | ... |

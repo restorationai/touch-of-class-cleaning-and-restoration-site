@@ -208,7 +208,7 @@ Update `last_updated` and append/update the seed in `seeds_researched[]`.
 
 Note the `vertical: "construction"` tag — S2 uses this to select the construction content-writer prompt.
 
-Cap: 5 queued items per run.
+Cap: 10 queued items per run.
 
 ### Step 8: Write per-run CSV
 
@@ -230,7 +230,7 @@ keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,vertical,cove
 - Added to bank: {N_new}
 - Queued for content writer: {N_added}
 
-## Top 5 priority-1 keywords queued
+## Top 10 priority-1 keywords queued
 | Keyword | Volume | KD | Intent | City |
 
 ## Intent split

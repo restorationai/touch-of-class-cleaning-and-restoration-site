@@ -2,7 +2,8 @@ name: Rank AI Weekly Maintenance
 
 on:
   schedule:
-    - cron: '0 16 * * 1'   # every Monday, 9 am PDT / 8 am PST
+    - cron: '0 16 * * 1'   # every Monday,   9 am PDT / 8 am PST
+    - cron: '0 16 * * 4'   # every Thursday, 9 am PDT / 8 am PST
   workflow_dispatch:         # manual trigger for testing
 
 jobs:
