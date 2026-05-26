@@ -74,7 +74,7 @@ HEADLESS_ALLOWED_TOOLS = {
 
 SCHEDULE_DEFAULTS = {
     1: {"name": "keyword-researcher",     "cadence_days": 30, "driver": "agent"},
-    2: {"name": "content-writer",         "cadence_days":  7, "driver": "script"},
+    2: {"name": "content-writer",         "cadence_days":  3, "driver": "script"},
     3: {"name": "onsite-audit",           "cadence_days": 30, "driver": "agent"},
     4: {"name": "refresh-recommender",    "cadence_days": 30, "driver": "split"},  # L1 script, L2 agent
 }
