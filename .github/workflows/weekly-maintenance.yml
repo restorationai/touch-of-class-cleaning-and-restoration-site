@@ -9,6 +9,8 @@ jobs:
   maintain:
     runs-on: ubuntu-latest
     timeout-minutes: 120
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
     steps:
       - name: Checkout repo
@@ -22,10 +24,10 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Set up Node.js 20
+      - name: Set up Node.js 22
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
 
       - name: Install Python dependencies
         run: pip install -r requirements.txt
