@@ -75,6 +75,16 @@ const ctx: PageSchemaContext = {
 
     <Schema stubs={schema_stubs} ctx={ctx} />
 
+    <!-- Google Ads tag -->
+    <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=AW-16824131335"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16824131335');
+    </script>
+    <!-- End Google Ads tag -->
+
     <!-- Restoration AI Chat Widget -->
     <script is:inline>
       window.EmergencyWidgetId = "CO-1771290587387";
