@@ -5,6 +5,7 @@ import Header from "~/components/Header.astro";
 import Footer from "~/components/Footer.astro";
 import Schema from "~/components/Schema.astro";
 import Breadcrumb from "~/components/Breadcrumb.astro";
+import { Phone } from "@lucide/astro";
 import type { PageSchemaContext } from "~/lib/schema";
 
 type Props = {
@@ -83,11 +84,18 @@ const ctx: PageSchemaContext = {
     <!-- End Restoration AI Chat Widget -->
   </head>
   <body class="min-h-screen flex flex-col">
+    <div class="hidden md:block bg-primary-600 text-white text-xs md:text-sm font-bold text-center py-2 px-4 tracking-wider">
+      Licensed &amp; Insured &mdash; Construction &amp; Restoration in Madison, AL
+    </div>
     <Header />
     <Breadcrumb trail={breadcrumb} />
-    <main class="flex-1">
+    <main class="flex-1 pb-14 md:pb-0">
       <slot />
     </main>
     <Footer />
+    <a href={`tel:${brand.phoneRaw}`} class="fixed bottom-0 inset-x-0 z-40 md:hidden flex items-center justify-center gap-3 bg-primary-600 text-white font-black py-4 text-base shadow-[0_-4px_24px_rgba(220,38,38,0.35)] border-t border-primary-700">
+      <Phone size={18} strokeWidth={3} />
+      Call Now: {brand.phone}
+    </a>
   </body>
 </html>
