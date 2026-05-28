@@ -24,7 +24,7 @@ export const brand = {
   googleCid: "12984564642744438542",
   imagesBase: "https://images.narestco.com",
   googleMapsApiKey: "",
-  logoUrl: "https://images.narestco.com/brand/logo.png",
+  logoUrl: "/images/logo.webp",
   licenseNumbers: ["NATIORC792M6"] as string[],
   licenseAuthority: "WA State Department of Labor & Industries",
   licenseType: "General Contractor Certificate of Registration",
