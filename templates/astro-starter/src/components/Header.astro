@@ -19,10 +19,12 @@ import { brand } from "~/lib/brand";
       <a href="/contact/" class="hover:text-primary-200 no-underline transition-colors py-8">Contact</a>
     </nav>
 
-    <a href={`tel:${brand.phoneRaw}`} class="btn-primary text-xs px-5 py-2.5 whitespace-nowrap shadow-primary-900/40 tracking-wider">
-      <span aria-hidden="true">🚨</span>
-      <span class="hidden sm:inline">24/7 EMERGENCY: {brand.phone}</span>
-      <span class="sm:hidden">24/7 Emergency</span>
+    <a href={`tel:${brand.phoneRaw}`} class="btn-primary text-xs px-4 py-2 shadow-primary-900/40 text-center leading-tight">
+      <span class="hidden sm:block tracking-wider whitespace-nowrap"><span aria-hidden="true">🚨</span> 24/7 EMERGENCY: {brand.phone}</span>
+      <span class="sm:hidden flex flex-col items-center gap-0.5">
+        <span class="text-[9px] font-bold tracking-[0.15em] opacity-80 uppercase">Call Now</span>
+        <span class="font-black tracking-wide">{brand.phone}</span>
+      </span>
     </a>
   </div>
 </header>

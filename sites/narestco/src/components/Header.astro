@@ -4,11 +4,10 @@ import { brand } from "~/lib/brand";
 
 <header class="bg-dark text-white sticky top-0 z-50 border-b border-white/10 shadow-md">
   <div class="container-wide flex items-center justify-between gap-6 h-20">
-    <a href="/" class="flex items-center gap-3 no-underline text-white group">
+    <a href="/" class="flex items-center gap-3 no-underline text-white group flex-shrink-0">
       {brand.logoUrl && (
         <img src={brand.logoUrl} alt={`${brand.displayName} logo`} class="h-10 w-auto group-hover:scale-105 transition-transform drop-shadow-[0_0_8px_rgba(255,255,255,0.8)]" width="40" height="40" loading="eager" />
       )}
-      <span class="font-display font-black text-lg md:text-xl uppercase tracking-widest leading-none group-hover:text-primary-400 transition-colors">{brand.shortName || brand.displayName}</span>
     </a>
 
     <nav class="hidden lg:flex items-center gap-6 text-[11px] font-black uppercase tracking-widest h-full">
@@ -19,9 +18,12 @@ import { brand } from "~/lib/brand";
       <a href="/contact/" class="hover:text-primary-400 no-underline transition-colors py-8">Contact</a>
     </nav>
 
-    <a href={`tel:${brand.phoneRaw}`} class="btn-primary text-xs px-5 py-2.5 whitespace-nowrap shadow-primary-900/40 tracking-wider">
-      <span class="hidden sm:inline">24/7 EMERGENCY: {brand.phone}</span>
-      <span class="sm:hidden">24/7 Emergency</span>
+    <a href={`tel:${brand.phoneRaw}`} class="btn-primary text-xs px-4 py-2 shadow-primary-900/40 text-center leading-tight">
+      <span class="hidden sm:block tracking-wider whitespace-nowrap">24/7 EMERGENCY: {brand.phone}</span>
+      <span class="sm:hidden flex flex-col items-center gap-0.5">
+        <span class="text-[9px] font-bold tracking-[0.15em] opacity-80 uppercase">Call Now</span>
+        <span class="font-black tracking-wide">{brand.phone}</span>
+      </span>
     </a>
   </div>
 </header>
