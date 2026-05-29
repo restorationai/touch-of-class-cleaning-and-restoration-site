@@ -476,7 +476,7 @@ def commit_and_sync(slug: str, item: dict, post_path: Path, branch: str) -> None
             raise
 
     print(f"      Pulling latest monorepo state before push...")
-    run(["git", "pull", "--rebase", "origin", "main"], REPO_ROOT)
+    run(["git", "pull", "--rebase", "--autostash", "origin", "main"], REPO_ROOT)
     print(f"      Pushing monorepo to origin...")
     run(["git", "push", "origin", "main"], REPO_ROOT)
 
