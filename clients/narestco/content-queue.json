@@ -134,10 +134,10 @@
     },
     {
       "id": "2026-05-17-does-homeowners-insurance-cover-water-damage-from-rain",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-05-17T14:59:05Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-05-29T23:46:03Z",
+      "post_url": "https://narestco.com/blog/does-homeowners-insurance-cover-water-damage-from-rain/",
       "primary_keyword": "does homeowners insurance cover water damage from rain",
       "intent": "informational",
       "volume": 260,
