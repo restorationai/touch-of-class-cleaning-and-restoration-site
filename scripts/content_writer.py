@@ -483,7 +483,7 @@ def commit_and_sync(slug: str, item: dict, post_path: Path, branch: str) -> None
     print(f"      Sync-deploying sites/{slug}/ to per-client repo (branch={branch})...")
     sync = subprocess.run(
         ["python3", str(SCRIPT_DIR / "build_site.py"),
-         "sync-deploy", "--slug", slug, "--branch", branch],
+         "sync-deploy", "--slug", slug, "--branch", branch, "--allow-dirty"],
         cwd=str(REPO_ROOT), capture_output=True, text=True,
     )
     if sync.returncode != 0:
