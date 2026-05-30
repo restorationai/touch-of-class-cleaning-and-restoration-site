@@ -3,10 +3,10 @@
   "items": [
     {
       "id": "2026-05-25-water-damage-restoration-cost-guide",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-05-25T20:46:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-05-30T15:27:59Z",
+      "post_url": "https://davisconstructioncontractors.com/blog/water-damage-restoration-cost-guide/",
       "primary_keyword": "water damage restoration cost",
       "intent": "informational",
       "volume": 1000,
@@ -29,7 +29,9 @@
         "/blog/does-homeowners-insurance-cover-water-damage/",
         "/blog/how-long-does-water-damage-restoration-take/"
       ],
-      "service_tags": ["water-damage-restoration"],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
       "city_anchor": null,
       "external_authority_candidates": [
         "https://www.iicrc.org/page/IICRCS500",
