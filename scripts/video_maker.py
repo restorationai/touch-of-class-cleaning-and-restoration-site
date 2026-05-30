@@ -515,8 +515,17 @@ def load_youtube_credentials(slug: str):
     return creds
 
 
-def cmd_auth(slug: str) -> int:
-    """One-time browser OAuth flow to authorise the YouTube channel for a client."""
+def cmd_auth(slug: str, console: bool = False) -> int:
+    """One-time OAuth flow to authorise a YouTube channel for a client.
+
+    Agency workflow (recommended): have the client add contact@restorationai.io
+    as a YouTube Channel Manager (YouTube Studio → Settings → Permissions → Invite),
+    then run this command and log in as contact@restorationai.io. No client password
+    needed; the token is stored locally on this machine.
+
+    Remote workflow (--console): prints an auth URL. Paste it to the client, they
+    visit it, paste the resulting code back. Use this when screen-sharing is not possible.
+    """
     if not YOUTUBE_OAUTH_CLIENT_PATH.exists():
         die(
             f"OAuth client secret not found at {YOUTUBE_OAUTH_CLIENT_PATH}.\n\n"
@@ -525,7 +534,8 @@ def cmd_auth(slug: str) -> int:
             "  2. Create Credentials → OAuth 2.0 Client ID → Desktop app\n"
             "  3. Download the JSON and save it to rank-ai/.youtube-oauth-client.json\n"
             "  4. Enable YouTube Data API v3 in the same project\n"
-            "  5. Add the channel owner's Google account as a test user (while app is unverified)"
+            "  5. Add contact@restorationai.io as a test user on the OAuth consent screen\n"
+            "     (only needed while the app is in 'Testing' mode, i.e. <100 users)"
         )
     try:
         from google_auth_oauthlib.flow import InstalledAppFlow
@@ -533,11 +543,25 @@ def cmd_auth(slug: str) -> int:
         die("Missing google-auth-oauthlib. Run: pip install google-auth-oauthlib")
 
     print(f"==> YouTube OAuth for client: {slug}")
-    print("    This will open a browser window. Log in as the YouTube channel owner.")
+
     flow = InstalledAppFlow.from_client_secrets_file(
         str(YOUTUBE_OAUTH_CLIENT_PATH), scopes=YOUTUBE_SCOPES
     )
-    creds = flow.run_local_server(port=0)
+
+    if console:
+        # Print URL — client (or you) visits it, pastes back the code
+        flow.redirect_uri = "urn:ietf:wg:oauth:2.0:oob"
+        auth_url, _ = flow.authorization_url(prompt="consent")
+        print("\n  Visit this URL in any browser (you can send it to the client):")
+        print(f"\n  {auth_url}\n")
+        print("  After authorising, Google will show a code. Paste it here:")
+        code = input("  Code: ").strip()
+        flow.fetch_token(code=code)
+        creds = flow.credentials
+    else:
+        print("    Opening browser. Log in as the YouTube channel owner")
+        print("    (or contact@restorationai.io if they added you as channel manager).")
+        creds = flow.run_local_server(port=0)
 
     client_config = json.loads(YOUTUBE_OAUTH_CLIENT_PATH.read_text())
     installed = client_config.get("installed") or client_config.get("web", {})
@@ -551,8 +575,8 @@ def cmd_auth(slug: str) -> int:
     }
     token_path = youtube_token_path(slug)
     token_path.write_text(json.dumps(token_data, indent=2))
-    print(f"    Token saved to {token_path}")
-    print("    YouTube auth complete. You can now run `make` for this client.")
+    print(f"\n    Token saved to {token_path}")
+    print("    YouTube auth complete. Run `make` to create your first video.")
     return 0
 
 
@@ -799,7 +823,9 @@ def main() -> int:
 
     pa = sub.add_parser("auth", help="One-time YouTube OAuth setup for a client channel")
     pa.add_argument("--slug", required=True)
-    pa.set_defaults(func=lambda a: cmd_auth(a.slug))
+    pa.add_argument("--console", action="store_true",
+                    help="Print auth URL instead of opening browser (for remote/headless setup)")
+    pa.set_defaults(func=lambda a: cmd_auth(a.slug, console=a.console))
 
     pm = sub.add_parser("make", help="Generate and upload a video for a blog post")
     pm.add_argument("--slug", required=True, help="Client slug")
