@@ -38,6 +38,195 @@
         "https://www.iii.org/article/insurance-for-flood"
       ],
       "notes": "Lead with the cost-drivers framework (water category 1/2/3, square footage, materials affected, drying duration). Include a square-foot pricing table and a worked example for a typical Madison ranch home and a Huntsville Twickenham historic home. Cross-link to the homeowners insurance blog because most readers are evaluating out-of-pocket vs claim. Cluster covers per-square-foot pricing and calculator-style breakdowns so we capture the entire cost SERP in one canonical post."
+    },
+    {
+      "id": "2026-05-30-what-to-do-after-a-house-fire",
+      "status": "queued",
+      "queued_at": "2026-05-30T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what to do after a house fire",
+      "intent": "informational",
+      "volume": 1000,
+      "kd": 12,
+      "fan_out_cluster": [
+        "house fire cleanup checklist",
+        "what to throw out after a house fire",
+        "soot cleaning after house fire",
+        "what to do after a house fire checklist",
+        "steps after a house fire",
+        "fire damage restoration process"
+      ],
+      "suggested_slug": "what-to-do-after-a-house-fire",
+      "suggested_title": "What to Do After a House Fire: The First 24-48 Hours (Step-by-Step Guide)",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/storm-damage-restoration/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "storm-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/fire/home-fire-recovery.html",
+        "https://www.fema.gov/emergency-managers/risk-management/hazard-mitigation-planning/hazard-risk-assessment/fire"
+      ],
+      "notes": "Highest-volume informational keyword from this seed run (est ~1000/mo) with KD 12 -- very winnable. Emotionally charged query from homeowners in crisis. Lead with immediate safety and insurance contact steps, then move into restoration process. Note that Davis Construction does not have a dedicated /services/fire-damage-restoration/ page; link to storm-damage-restoration as the closest equivalent until the site plan is updated. Cross-link to the homeowners insurance post when it is written."
+    },
+    {
+      "id": "2026-05-30-does-homeowners-insurance-cover-fire-damage",
+      "status": "queued",
+      "queued_at": "2026-05-30T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does homeowners insurance cover fire damage",
+      "intent": "informational",
+      "volume": 320,
+      "kd": 29,
+      "fan_out_cluster": [
+        "does homeowners insurance cover smoke damage",
+        "does insurance cover fire damage restoration",
+        "fire damage insurance claim process",
+        "how to file a fire damage insurance claim",
+        "insurance adjuster fire damage",
+        "what does homeowners insurance cover after a fire"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-fire-damage",
+      "suggested_title": "Does Homeowners Insurance Cover Fire Damage? (What Your Policy Actually Pays)",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/storm-damage-restoration/",
+        "/blog/what-to-do-after-a-house-fire/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "storm-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iii.org/article/coverage-for-fire",
+        "https://www.naic.org/documents/prod_serv_homeowners.pdf"
+      ],
+      "notes": "Pre-hire decision query -- homeowner typically searches this 24-48 hours after a fire while deciding whether to call a restoration company or handle it themselves. Distinct from the existing /blog/does-homeowners-insurance-cover-water-damage/ post (fire claims have different sub-limits, total loss provisions, and smoke/personal-property coverage nuances). Include Alabama-specific angle: mention that most standard HO-3 policies in Madison and Huntsville cover accidental fire but exclude arson. Cross-link to the what-to-do-after-house-fire post."
+    },
+    {
+      "id": "2026-05-30-fire-damage-restoration-process",
+      "status": "queued",
+      "queued_at": "2026-05-30T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "fire damage restoration process",
+      "intent": "informational",
+      "volume": 90,
+      "kd": 8,
+      "fan_out_cluster": [
+        "fire restoration process step by step",
+        "residential fire damage restoration process",
+        "what does a fire restoration company do",
+        "fire restoration checklist",
+        "how long does fire damage restoration take",
+        "fire damage restoration steps explained"
+      ],
+      "suggested_slug": "fire-damage-restoration-process",
+      "suggested_title": "The Fire Damage Restoration Process: What Happens After the Fire Department Leaves",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/storm-damage-restoration/",
+        "/services/mold-remediation/",
+        "/blog/what-to-do-after-a-house-fire/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "storm-damage-restoration",
+        "mold-remediation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCSr-753",
+        "https://www.epa.gov/indoor-air-quality-iaq/fires-and-indoor-air-quality"
+      ],
+      "notes": "KD 8 makes this highly winnable despite lower volume (90/mo). Step-by-step process post that answers what restoration contractors actually do after a fire: assessment, board-up/tarping, water extraction (firefighting water), soot removal, deodorization, drywall/structural rebuild. Note that fire damage often leads to mold within 48-72 hours due to firefighting water -- cross-link to mold-remediation service page. Connect to Davis Construction's reconstruction services since fire usually requires rebuild."
+    },
+    {
+      "id": "2026-05-30-fire-damage-restoration-cost",
+      "status": "queued",
+      "queued_at": "2026-05-30T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "fire damage restoration cost",
+      "intent": "informational",
+      "volume": 320,
+      "kd": null,
+      "fan_out_cluster": [
+        "fire damage restoration cost per square foot",
+        "residential fire damage restoration cost",
+        "fire damage restoration cost calculator",
+        "how to estimate fire damage costs",
+        "house fire damage cost by room",
+        "soot removal cost"
+      ],
+      "suggested_slug": "fire-damage-restoration-cost",
+      "suggested_title": "Fire Damage Restoration Cost: What Homeowners in Alabama Actually Pay",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/storm-damage-restoration/",
+        "/blog/does-homeowners-insurance-cover-fire-damage/",
+        "/blog/water-damage-restoration-cost-guide/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "storm-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.homeadvisor.com/cost/disaster-recovery/restore-fire-or-smoke-damage/",
+        "https://www.iii.org/article/coverage-for-fire"
+      ],
+      "notes": "Direct parallel to the successful water-damage-restoration-cost-guide (already written and live). Use the same cost-drivers framework: scope of damage, materials affected, square footage, smoke penetration depth, water extraction from firefighting. Include a room-by-room cost table. Add Madison/Huntsville context: older Twickenham homes with plaster walls cost more to restore than newer Madison subdivision drywall homes. Cross-link to the homeowners insurance fire damage post since most readers are deciding whether to file a claim."
+    },
+    {
+      "id": "2026-05-30-residential-fire-damage-restoration",
+      "status": "queued",
+      "queued_at": "2026-05-30T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "residential fire damage restoration",
+      "intent": "commercial",
+      "volume": 70,
+      "kd": 17,
+      "fan_out_cluster": [
+        "residential fire damage restoration near me",
+        "fire damage restoration company",
+        "fire damage restoration services",
+        "house fire restoration contractors",
+        "fire damage repair contractors madison al",
+        "fire damage restoration huntsville al"
+      ],
+      "suggested_slug": "residential-fire-damage-restoration",
+      "suggested_title": "Residential Fire Damage Restoration in Madison and Huntsville AL",
+      "target_word_count": 1200,
+      "internal_link_targets": [
+        "/services/storm-damage-restoration/",
+        "/services/mold-remediation/",
+        "/service-areas/madison-al/storm-damage-restoration/",
+        "/service-areas/huntsville-al/storm-damage-restoration/",
+        "/blog/fire-damage-restoration-process/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "storm-damage-restoration"
+      ],
+      "city_anchor": "madison-al",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCSr-753"
+      ],
+      "notes": "Commercial intent post targeting homeowners actively looking to hire a fire restoration contractor in Davis Construction's market. KD 17 is very winnable. Because there is no dedicated /services/fire-damage-restoration/ page, this blog post will need to carry both informational and commercial weight. Lead with the local angle (Madison, Huntsville, Athens AL) and include specific local context from plan-input.json: Twickenham historic homes, Madison aerospace families, HOA notification requirements. Include a clear CTA to call (256) 771-0326. Note: recommend requesting a dedicated fire-damage-restoration service page in the next site plan update -- this blog post is a bridging solution."
     }
   ]
 }

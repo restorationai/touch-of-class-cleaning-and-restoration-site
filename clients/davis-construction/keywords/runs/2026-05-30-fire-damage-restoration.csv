@@ -1,0 +1,32 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+residential fire damage restoration,commercial,70,17,1.62,1,fire damage restoration,,, true
+fire damage restoration cost,informational,320,,9.12,1,fire damage restoration,,,true
+fire damage restoration process,informational,90,8,15.33,1,fire damage restoration,,,true
+does homeowners insurance cover fire damage,informational,320,29,,1,fire damage restoration,,,true
+what to do after a house fire,informational,1000,12,,1,fire damage restoration,,,true
+fire damage restoration near me,commercial,49500,9,7.89,3,fire damage restoration,,/services/storm-damage-restoration/,false
+fire damage restoration,commercial,135000,19,22.81,3,fire damage restoration,,/services/storm-damage-restoration/,false
+fire restoration checklist,informational,40,,18.39,2,fire damage restoration,,,false
+residential fire damage restoration near me,commercial,,,, 2,fire damage restoration near me,,,false
+what does a fire restoration company do,informational,20,,,3,fire damage restoration,,,false
+fire damage restoration madison al,transactional,,,,2,fire damage restoration,madison-al,,false
+fire damage restoration huntsville al,transactional,,,,2,fire damage restoration,huntsville-al,,false
+fire damage restoration athens al,transactional,,,,2,fire damage restoration,athens-al,,false
+fire damage restoration in madison,transactional,,,,2,fire damage restoration,madison-al,,false
+fire damage restoration in huntsville,transactional,,,,2,fire damage restoration,huntsville-al,,false
+emergency fire damage restoration huntsville al,transactional,,,,2,fire damage restoration,huntsville-al,,false
+emergency fire damage restoration madison al,transactional,,,,2,fire damage restoration,madison-al,,false
+fire cleanup company huntsville al,transactional,,,,2,fire damage restoration,huntsville-al,,false
+smoke damage restoration huntsville al,transactional,,,,2,fire damage restoration,huntsville-al,,false
+fire damage repair madison al,transactional,,,,2,fire damage restoration,madison-al,,false
+house fire cleanup checklist,informational,,,,2,fire damage restoration,,,false
+how to get smoke smell out of house after fire,informational,,,,2,fire damage restoration,,,false
+what to throw out after a house fire,informational,,,,2,fire damage restoration,,,false
+how long does fire damage restoration take,informational,,,,2,fire damage restoration,,,false
+smoke smell removal after fire,informational,,,,2,fire damage restoration,,,false
+fire damage cost per room,informational,,,,2,fire damage restoration,,,false
+soot cleaning after house fire,informational,,,,2,fire damage restoration,,,false
+smoke damage cleanup huntsville al,transactional,,,,2,fire damage restoration,huntsville-al,,false
+fire cleanup huntsville al,transactional,,,,2,fire damage restoration,huntsville-al,,false
+fire damage restoration madison,transactional,,,,2,fire damage restoration,madison-al,,false
+fire damage restoration huntsville,transactional,,,,2,fire damage restoration,huntsville-al,,false
