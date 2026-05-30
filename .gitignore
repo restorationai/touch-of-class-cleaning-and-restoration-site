@@ -9,3 +9,7 @@ __pycache__/
 .gsc-oauth-client.json
 .gsc-agency-token.json
 clients/*/.gsc-token.json
+
+# System 5 — YouTube OAuth secrets (never commit)
+.youtube-oauth-client.json
+clients/*/.youtube-token.json

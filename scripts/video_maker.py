@@ -1,0 +1,824 @@
+#!/usr/bin/env python3
+"""
+Rank AI — System 5: Blog Post to YouTube Video.
+
+Converts a published blog post into a ~90-second image-montage video and
+uploads it to the client's YouTube channel.
+
+Pipeline per run:
+  1. Read blog post markdown (title, body, FAQ)
+  2. Claude generates: 10-scene video script, per-scene image prompts,
+     YouTube title / description / tags / category
+  3. Google Cloud TTS synthesises narration → MP3
+     Fallback: macOS `say` command (no API key needed, for testing)
+  4. Gemini generates one 16:9 PNG per scene (same API as hero images)
+  5. FFmpeg assembles: images + Ken Burns zoom + audio → 1920x1080 MP4
+  6. SRT captions written from scene timing
+  7. YouTube Data API v3: upload video + captions, set unlisted (safe default)
+  8. Blog post frontmatter updated: youtube_id: <id>
+  9. Monorepo commit + sync-deploy so the embed shows on the live post
+
+Subcommands:
+  auth --slug <slug>              One-time OAuth setup per client YouTube channel
+  make --slug <slug> --post <slug> [--no-upload] [--public] [--flash] [--tts macos]
+  list --slug <slug>              Show uploaded videos for a client
+
+Required env vars (rank-ai/.env):
+  ANTHROPIC_API_KEY               Script generation
+  GOOGLE_AI_API_KEY               Gemini scene images
+  GOOGLE_CLOUD_API_KEY            Google Cloud TTS (see docs/system5-setup.md)
+  GITHUB_PERSONAL_ACCESS_TOKEN    Commit + sync-deploy
+
+Per-client OAuth token (created by `auth`):
+  clients/{slug}/.youtube-token.json
+
+Shared OAuth client secret (agency-wide, same as GSC):
+  .youtube-oauth-client.json  (or reuse .gsc-oauth-client.json if scopes allow)
+"""
+from __future__ import annotations
+
+import argparse
+import base64
+import json
+import os
+import re
+import shutil
+import socket
+import subprocess
+import sys
+import tempfile
+import time
+import urllib.error
+import urllib.request
+from datetime import datetime, timezone
+from pathlib import Path
+
+SCRIPT_DIR = Path(__file__).resolve().parent
+sys.path.insert(0, str(SCRIPT_DIR))
+import image_utils  # noqa: E402
+
+REPO_ROOT = SCRIPT_DIR.parent
+CLIENTS_DIR = REPO_ROOT / "clients"
+SITES_DIR = REPO_ROOT / "sites"
+
+ANTHROPIC_API = "https://api.anthropic.com/v1/messages"
+ANTHROPIC_MODEL = "claude-sonnet-4-6"
+
+GEMINI_API_BASE = "https://generativelanguage.googleapis.com/v1beta/models"
+GEMINI_PRO_MODEL = "gemini-3-pro-image-preview"
+GEMINI_FLASH_MODEL = "gemini-3.1-flash-image-preview"
+
+TTS_API_URL = "https://texttospeech.googleapis.com/v1/text:synthesize"
+TTS_VOICE = "en-US-Neural2-D"  # Professional US male voice
+
+YOUTUBE_SCOPES = ["https://www.googleapis.com/auth/youtube.upload"]
+YOUTUBE_OAUTH_CLIENT_PATH = REPO_ROOT / ".youtube-oauth-client.json"
+YOUTUBE_CATEGORY_HOWTO = "26"  # Howto & Style — best fit for restoration guides
+
+
+# ---------------------------------------------------------------------------
+# Utilities
+# ---------------------------------------------------------------------------
+
+
+def die(msg: str) -> None:
+    print(f"\nERROR: {msg}", file=sys.stderr)
+    sys.exit(1)
+
+
+def load_client(slug: str) -> dict:
+    path = CLIENTS_DIR / f"{slug}.json"
+    if not path.exists():
+        die(f"Client record not found: {path}")
+    return json.loads(path.read_text())
+
+
+def require_env(name: str) -> str:
+    val = os.environ.get(name)
+    if not val:
+        die(f"Missing env var {name}. Source rank-ai/.env first.")
+    return val
+
+
+def load_post(slug: str, post_slug: str) -> dict:
+    """Return parsed frontmatter + body dict from a blog post markdown file."""
+    path = SITES_DIR / slug / "src" / "content" / "blog" / f"{post_slug}.md"
+    if not path.exists():
+        die(f"Blog post not found: {path}")
+    text = path.read_text()
+
+    # Parse YAML frontmatter
+    match = re.match(r"^---\n(.*?)\n---\n(.*)", text, re.DOTALL)
+    if not match:
+        die(f"Could not parse frontmatter in {path}")
+
+    fm_raw, body = match.group(1), match.group(2)
+    fm: dict = {}
+    for line in fm_raw.splitlines():
+        if ": " in line:
+            k, v = line.split(": ", 1)
+            fm[k.strip()] = v.strip().strip('"')
+
+    return {"path": path, "frontmatter": fm, "body": body.strip()}
+
+
+def update_post_youtube_id(post_path: Path, youtube_id: str) -> None:
+    """Add or update youtube_id field in the post's frontmatter."""
+    text = post_path.read_text()
+    if "youtube_id:" in text:
+        text = re.sub(r"youtube_id:.*", f'youtube_id: "{youtube_id}"', text)
+    else:
+        # Inject before the closing ---
+        text = text.replace("\n---\n", f'\nyoutube_id: "{youtube_id}"\n---\n', 1)
+    post_path.write_text(text)
+
+
+# ---------------------------------------------------------------------------
+# Step 1 — Claude: generate video script
+# ---------------------------------------------------------------------------
+
+VIDEO_SCRIPT_PROMPT = """You are writing a script for a 90-second YouTube video for a home restoration company.
+The video will use an image montage (no real footage). Your job is to turn the blog post below into
+an engaging, helpful video script.
+
+Blog post title: {title}
+Blog post body:
+{body}
+
+Produce a JSON object with these exact keys:
+{{
+  "scenes": [
+    {{
+      "narration": "...",        // 20-30 words, conversational, no hashtags
+      "image_prompt": "..."     // Detailed prompt for Gemini: photorealistic, 16:9, what to show
+    }},
+    ... (10 scenes total, must be exactly 10)
+  ],
+  "youtube_title": "...",        // 60 chars max, includes primary keyword naturally
+  "youtube_description": "...", // 1000-1500 chars, includes the blog URL, timestamps, call to action
+  "tags": ["...", "...", ...],   // 15-20 tags, mix of broad + specific + local
+  "thumbnail_prompt": "..."     // Gemini prompt for the custom thumbnail (bold text area left side)
+}}
+
+RULES for narration:
+- Total narration must read in ~90 seconds at normal pace (~2.5 words/second = ~225 words total)
+- Warm, direct voice. Never say "we" for the company — say "your contractor" or use passive voice
+- No jargon the homeowner would not understand
+- End with a clear CTA: "Call {company} at {phone} for a free estimate."
+
+RULES for image prompts:
+- Each prompt: photorealistic, bright, clean, professional. Show the subject, not the problem aftermath.
+- No people in distress. Show work being done, professionals working, finished results.
+- Include "dramatic professional lighting, restoration industry, hyperrealistic" in each prompt.
+
+RULES for youtube_description:
+- First 2 lines: hook + primary keyword (visible before "show more")
+- Lines 3+: chapter markers if natural, then key takeaways (3 bullets)
+- Include: "For emergency help, call {company} at {phone}"
+- Include: "Read the full guide: {post_url}"
+- End with 3-5 relevant hashtags
+
+Respond with ONLY valid JSON. No prose before or after.
+"""
+
+
+def generate_video_script(post: dict, client: dict) -> dict:
+    api_key = require_env("ANTHROPIC_API_KEY")
+
+    brand_name = client.get("display_name", "")
+    phone = ""
+    try:
+        plan_input = json.loads(
+            (CLIENTS_DIR / client["slug"] / "plan-input.json").read_text()
+        )
+        phone = plan_input.get("brand", {}).get("phone", "")
+    except Exception:
+        pass
+
+    post_url = f"https://{client.get('domain', '')}/blog/{post['frontmatter'].get('slug', '')}"
+
+    prompt = VIDEO_SCRIPT_PROMPT.format(
+        title=post["frontmatter"].get("title", ""),
+        body=post["body"][:6000],  # stay within token budget
+        company=brand_name,
+        phone=phone,
+        post_url=post_url,
+    )
+
+    body = json.dumps({
+        "model": ANTHROPIC_MODEL,
+        "max_tokens": 2000,
+        "messages": [{"role": "user", "content": prompt}],
+    }).encode()
+    req = urllib.request.Request(
+        ANTHROPIC_API, data=body, method="POST",
+        headers={
+            "content-type": "application/json",
+            "x-api-key": api_key,
+            "anthropic-version": "2023-06-01",
+        },
+    )
+    with urllib.request.urlopen(req, timeout=120) as resp:
+        payload = json.loads(resp.read().decode())
+
+    raw = payload["content"][0]["text"].strip()
+    # Strip ```json fences if present
+    raw = re.sub(r"^```json\s*", "", raw)
+    raw = re.sub(r"\s*```$", "", raw)
+    return json.loads(raw)
+
+
+# ---------------------------------------------------------------------------
+# Step 2 — TTS: synthesise narration
+# ---------------------------------------------------------------------------
+
+
+def synthesise_speech_google(narration_text: str, output_path: Path) -> None:
+    """Call Google Cloud TTS REST API. Requires GOOGLE_CLOUD_API_KEY."""
+    api_key = require_env("GOOGLE_CLOUD_API_KEY")
+    body = json.dumps({
+        "input": {"text": narration_text},
+        "voice": {
+            "languageCode": "en-US",
+            "name": TTS_VOICE,
+            "ssmlGender": "MALE",
+        },
+        "audioConfig": {"audioEncoding": "MP3"},
+    }).encode()
+    url = f"{TTS_API_URL}?key={api_key}"
+    req = urllib.request.Request(url, data=body, method="POST",
+                                 headers={"content-type": "application/json"})
+    try:
+        with urllib.request.urlopen(req, timeout=60) as resp:
+            result = json.loads(resp.read().decode())
+    except urllib.error.HTTPError as exc:
+        err = exc.read().decode(errors="replace")
+        die(f"TTS API error {exc.code}: {err[:300]}")
+
+    audio_bytes = base64.b64decode(result["audioContent"])
+    output_path.write_bytes(audio_bytes)
+
+
+def synthesise_speech_macos(narration_text: str, output_path: Path) -> None:
+    """Fallback: use macOS `say` command. No API key needed."""
+    if not shutil.which("say"):
+        die("macOS `say` command not found. Use --tts google or install a TTS provider.")
+    aiff_path = output_path.with_suffix(".aiff")
+    subprocess.run(
+        ["say", "-v", "Samantha", "-r", "165", "-o", str(aiff_path), narration_text],
+        check=True,
+    )
+    # Convert AIFF to MP3 via ffmpeg
+    subprocess.run(
+        ["ffmpeg", "-y", "-i", str(aiff_path), "-c:a", "libmp3lame", "-b:a", "128k",
+         str(output_path)],
+        check=True, capture_output=True,
+    )
+    aiff_path.unlink(missing_ok=True)
+
+
+def synthesise_speech(narration_text: str, output_path: Path, tts: str = "google") -> None:
+    print(f"  [TTS] Synthesising {len(narration_text)} chars via {tts}...")
+    if tts == "macos":
+        synthesise_speech_macos(narration_text, output_path)
+    else:
+        synthesise_speech_google(narration_text, output_path)
+
+
+# ---------------------------------------------------------------------------
+# Step 3 — Gemini: generate scene images
+# ---------------------------------------------------------------------------
+
+
+def gemini_generate_image(prompt: str, model: str, max_retries: int = 3) -> bytes:
+    """Generate a 16:9 PNG via Gemini REST API."""
+    api_key = require_env("GOOGLE_AI_API_KEY")
+    url = f"{GEMINI_API_BASE}/{model}:generateContent?key={api_key}"
+    body = json.dumps({
+        "contents": [{"parts": [{"text": prompt}]}],
+        "generationConfig": {
+            "responseModalities": ["IMAGE"],
+            "imageConfig": {"aspectRatio": "16:9"},
+        },
+    }).encode()
+
+    last = ""
+    for attempt in range(1, max_retries + 1):
+        req = urllib.request.Request(url, data=body, method="POST",
+                                     headers={"content-type": "application/json"})
+        try:
+            with urllib.request.urlopen(req, timeout=300) as resp:
+                payload = json.loads(resp.read().decode())
+            for cand in payload.get("candidates", []):
+                for part in cand.get("content", {}).get("parts", []):
+                    inline = part.get("inlineData") or part.get("inline_data")
+                    if inline and inline.get("data"):
+                        return base64.b64decode(inline["data"])
+            raise RuntimeError(f"Gemini: no image in response: {json.dumps(payload)[:300]}")
+        except urllib.error.HTTPError as exc:
+            err = exc.read().decode(errors="replace")
+            if exc.code in (429,) or 500 <= exc.code < 600:
+                wait = 2 ** attempt
+                last = f"HTTP {exc.code}"
+                print(f"      retry {attempt}/{max_retries} in {wait}s ({last})")
+                time.sleep(wait)
+                continue
+            raise RuntimeError(f"Gemini HTTP {exc.code}: {err}")
+        except (urllib.error.URLError, socket.timeout) as exc:
+            last = str(exc)
+            wait = 2 ** attempt
+            print(f"      retry {attempt}/{max_retries} in {wait}s (net: {last[:60]})")
+            time.sleep(wait)
+    raise RuntimeError(f"Gemini failed after {max_retries} retries. Last: {last}")
+
+
+def generate_scene_images(scenes: list[dict], work_dir: Path, model: str) -> list[Path]:
+    """Generate one PNG per scene. Returns list of image paths in order."""
+    image_paths: list[Path] = []
+    for i, scene in enumerate(scenes):
+        print(f"  [image {i+1}/{len(scenes)}] {scene['image_prompt'][:60]}...")
+        png_bytes = gemini_generate_image(scene["image_prompt"], model=model)
+        img_path = work_dir / f"scene_{i:02d}.png"
+        img_path.write_bytes(png_bytes)
+        image_paths.append(img_path)
+        time.sleep(1)  # rate limit courtesy
+    return image_paths
+
+
+def generate_thumbnail(thumbnail_prompt: str, work_dir: Path, model: str) -> Path:
+    """Generate the YouTube thumbnail image."""
+    print("  [thumbnail] generating...")
+    png_bytes = gemini_generate_image(thumbnail_prompt, model=model)
+    thumb_path = work_dir / "thumbnail.png"
+    thumb_path.write_bytes(png_bytes)
+    return thumb_path
+
+
+# ---------------------------------------------------------------------------
+# Step 4 — FFmpeg: assemble video
+# ---------------------------------------------------------------------------
+
+
+def get_audio_duration(audio_path: Path) -> float:
+    """Return audio duration in seconds via ffprobe."""
+    result = subprocess.run(
+        [
+            "ffprobe", "-v", "quiet", "-print_format", "json",
+            "-show_streams", str(audio_path),
+        ],
+        capture_output=True, text=True, check=True,
+    )
+    probe = json.loads(result.stdout)
+    for stream in probe.get("streams", []):
+        dur = stream.get("duration")
+        if dur:
+            return float(dur)
+    die("Could not determine audio duration from ffprobe.")
+    return 0.0  # unreachable, satisfy type checker
+
+
+def build_scene_clip(img_path: Path, clip_path: Path, duration: float,
+                     zoom_direction: str, fps: int = 30) -> None:
+    """Create a single scene clip with Ken Burns zoom effect."""
+    frames = int(duration * fps)
+    if zoom_direction == "in":
+        zoom_expr = "min(zoom+0.0005,1.04)"
+    else:
+        zoom_expr = "if(eq(on,1),1.04,max(1.001,zoom-0.0005))"
+
+    vf = (
+        "scale=1920:1080:force_original_aspect_ratio=increase,"
+        "crop=1920:1080,"
+        f"zoompan=z='{zoom_expr}':d={frames}:"
+        "x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)'"
+        f":s=1920x1080:fps={fps},"
+        "setsar=1"
+    )
+    cmd = [
+        "ffmpeg", "-y",
+        "-loop", "1",
+        "-t", str(duration + 0.1),  # slightly over to avoid stall on last frame
+        "-i", str(img_path),
+        "-vf", vf,
+        "-t", str(duration),
+        "-c:v", "libx264", "-preset", "fast", "-pix_fmt", "yuv420p",
+        str(clip_path),
+    ]
+    subprocess.run(cmd, check=True, capture_output=True)
+
+
+def assemble_video(
+    image_paths: list[Path],
+    audio_path: Path,
+    output_path: Path,
+    work_dir: Path,
+    fps: int = 30,
+) -> None:
+    """Assemble scene clips + narration into the final MP4."""
+    audio_duration = get_audio_duration(audio_path)
+    scene_duration = audio_duration / len(image_paths)
+
+    print(f"  [video] audio={audio_duration:.1f}s, {len(image_paths)} scenes x {scene_duration:.1f}s each")
+
+    # Build individual scene clips
+    clip_paths: list[Path] = []
+    for i, img_path in enumerate(image_paths):
+        clip_path = work_dir / f"clip_{i:02d}.mp4"
+        zoom_dir = "in" if i % 2 == 0 else "out"
+        print(f"  [clip {i+1}/{len(image_paths)}] Ken Burns zoom-{zoom_dir}...")
+        build_scene_clip(img_path, clip_path, scene_duration, zoom_dir, fps=fps)
+        clip_paths.append(clip_path)
+
+    # Write concat list
+    concat_list = work_dir / "concat.txt"
+    lines = [f"file '{cp.resolve()}'\n" for cp in clip_paths]
+    concat_list.write_text("".join(lines))
+
+    # Final assembly: concat clips + mux audio
+    print("  [video] assembling final MP4...")
+    cmd = [
+        "ffmpeg", "-y",
+        "-f", "concat", "-safe", "0", "-i", str(concat_list),
+        "-i", str(audio_path),
+        "-c:v", "libx264", "-preset", "medium", "-crf", "22",
+        "-c:a", "aac", "-b:a", "128k",
+        "-pix_fmt", "yuv420p",
+        "-movflags", "+faststart",
+        "-shortest",
+        str(output_path),
+    ]
+    subprocess.run(cmd, check=True, capture_output=True)
+
+
+# ---------------------------------------------------------------------------
+# Step 5 — SRT captions
+# ---------------------------------------------------------------------------
+
+
+def seconds_to_srt_time(t: float) -> str:
+    h = int(t // 3600)
+    m = int((t % 3600) // 60)
+    s = int(t % 60)
+    ms = int((t % 1) * 1000)
+    return f"{h:02d}:{m:02d}:{s:02d},{ms:03d}"
+
+
+def generate_srt(scenes: list[dict], audio_duration: float, output_path: Path) -> None:
+    scene_dur = audio_duration / len(scenes)
+    lines: list[str] = []
+    for i, scene in enumerate(scenes):
+        start = i * scene_dur
+        end = start + scene_dur
+        lines.append(str(i + 1))
+        lines.append(f"{seconds_to_srt_time(start)} --> {seconds_to_srt_time(end)}")
+        lines.append(scene["narration"])
+        lines.append("")
+    output_path.write_text("\n".join(lines))
+
+
+# ---------------------------------------------------------------------------
+# Step 6 — YouTube OAuth
+# ---------------------------------------------------------------------------
+
+
+def youtube_token_path(slug: str) -> Path:
+    return CLIENTS_DIR / slug / ".youtube-token.json"
+
+
+def load_youtube_credentials(slug: str):
+    """Load and refresh YouTube OAuth credentials for a client."""
+    token_path = youtube_token_path(slug)
+    if not token_path.exists():
+        die(
+            f"No YouTube token for {slug}.\n"
+            f"Run: python3 scripts/video_maker.py auth --slug {slug}"
+        )
+    try:
+        from google.oauth2.credentials import Credentials
+        from google.auth.transport.requests import Request
+    except ImportError:
+        die("Missing google-auth. Run: pip install google-auth google-auth-oauthlib")
+
+    token_data = json.loads(token_path.read_text())
+    creds = Credentials(
+        token=token_data.get("token"),
+        refresh_token=token_data["refresh_token"],
+        token_uri="https://oauth2.googleapis.com/token",
+        client_id=token_data["client_id"],
+        client_secret=token_data["client_secret"],
+        scopes=YOUTUBE_SCOPES,
+    )
+    if not creds.valid:
+        creds.refresh(Request())
+        token_data["token"] = creds.token
+        token_path.write_text(json.dumps(token_data, indent=2))
+    return creds
+
+
+def cmd_auth(slug: str) -> int:
+    """One-time browser OAuth flow to authorise the YouTube channel for a client."""
+    if not YOUTUBE_OAUTH_CLIENT_PATH.exists():
+        die(
+            f"OAuth client secret not found at {YOUTUBE_OAUTH_CLIENT_PATH}.\n\n"
+            "To create one:\n"
+            "  1. Go to console.cloud.google.com → APIs & Services → Credentials\n"
+            "  2. Create Credentials → OAuth 2.0 Client ID → Desktop app\n"
+            "  3. Download the JSON and save it to rank-ai/.youtube-oauth-client.json\n"
+            "  4. Enable YouTube Data API v3 in the same project\n"
+            "  5. Add the channel owner's Google account as a test user (while app is unverified)"
+        )
+    try:
+        from google_auth_oauthlib.flow import InstalledAppFlow
+    except ImportError:
+        die("Missing google-auth-oauthlib. Run: pip install google-auth-oauthlib")
+
+    print(f"==> YouTube OAuth for client: {slug}")
+    print("    This will open a browser window. Log in as the YouTube channel owner.")
+    flow = InstalledAppFlow.from_client_secrets_file(
+        str(YOUTUBE_OAUTH_CLIENT_PATH), scopes=YOUTUBE_SCOPES
+    )
+    creds = flow.run_local_server(port=0)
+
+    client_config = json.loads(YOUTUBE_OAUTH_CLIENT_PATH.read_text())
+    installed = client_config.get("installed") or client_config.get("web", {})
+
+    token_data = {
+        "token": creds.token,
+        "refresh_token": creds.refresh_token,
+        "client_id": installed.get("client_id"),
+        "client_secret": installed.get("client_secret"),
+        "scopes": list(creds.scopes or YOUTUBE_SCOPES),
+    }
+    token_path = youtube_token_path(slug)
+    token_path.write_text(json.dumps(token_data, indent=2))
+    print(f"    Token saved to {token_path}")
+    print("    YouTube auth complete. You can now run `make` for this client.")
+    return 0
+
+
+# ---------------------------------------------------------------------------
+# Step 7 — YouTube upload
+# ---------------------------------------------------------------------------
+
+
+def upload_to_youtube(
+    slug: str,
+    video_path: Path,
+    thumbnail_path: Path | None,
+    srt_path: Path,
+    metadata: dict,
+    privacy: str = "unlisted",
+) -> str:
+    """Upload video + thumbnail + captions. Returns video_id."""
+    try:
+        from googleapiclient.discovery import build
+        from googleapiclient.http import MediaFileUpload
+    except ImportError:
+        die("Missing google-api-python-client. Run: pip install google-api-python-client")
+
+    creds = load_youtube_credentials(slug)
+    youtube = build("youtube", "v3", credentials=creds)
+
+    # Upload video
+    print("  [youtube] uploading video...")
+    body = {
+        "snippet": {
+            "title": metadata["youtube_title"],
+            "description": metadata["youtube_description"],
+            "tags": metadata.get("tags", []),
+            "categoryId": YOUTUBE_CATEGORY_HOWTO,
+        },
+        "status": {"privacyStatus": privacy},
+    }
+    media = MediaFileUpload(str(video_path), mimetype="video/mp4", resumable=True)
+    request = youtube.videos().insert(part="snippet,status", body=body, media_body=media)
+
+    response = None
+    while response is None:
+        status, response = request.next_chunk()
+        if status:
+            pct = int(status.progress() * 100)
+            print(f"    Uploading... {pct}%", end="\r")
+    print()
+
+    video_id = response["id"]
+    print(f"  [youtube] video uploaded: https://youtu.be/{video_id}")
+
+    # Upload thumbnail
+    if thumbnail_path and thumbnail_path.exists():
+        print("  [youtube] uploading thumbnail...")
+        media_thumb = MediaFileUpload(str(thumbnail_path), mimetype="image/png")
+        youtube.thumbnails().set(videoId=video_id, media_body=media_thumb).execute()
+
+    # Upload captions
+    if srt_path.exists():
+        print("  [youtube] uploading captions...")
+        caption_body = {
+            "snippet": {
+                "videoId": video_id,
+                "language": "en",
+                "name": "English",
+                "isDraft": False,
+            }
+        }
+        media_cap = MediaFileUpload(str(srt_path), mimetype="text/plain")
+        youtube.captions().insert(
+            part="snippet", body=caption_body, media_body=media_cap
+        ).execute()
+
+    return video_id
+
+
+# ---------------------------------------------------------------------------
+# Step 8 — Commit
+# ---------------------------------------------------------------------------
+
+
+def commit_video_update(slug: str, post_slug: str, youtube_id: str) -> None:
+    result = subprocess.run(
+        ["git", "add",
+         f"sites/{slug}/src/content/blog/{post_slug}.md"],
+        cwd=str(REPO_ROOT), capture_output=True, text=True,
+    )
+    if result.returncode != 0:
+        print(f"  [git] warning: could not stage post file: {result.stderr[:200]}")
+        return
+
+    msg = (
+        f"video: add youtube_id to {slug}/{post_slug}\n\n"
+        f"System 5 uploaded https://youtu.be/{youtube_id}\n"
+        f"Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>"
+    )
+    result = subprocess.run(
+        ["git", "commit", "-m", msg],
+        cwd=str(REPO_ROOT), capture_output=True, text=True,
+    )
+    if result.returncode == 0:
+        print(f"  [git] committed youtube_id update")
+    else:
+        print(f"  [git] commit skipped (nothing new or already committed)")
+
+
+# ---------------------------------------------------------------------------
+# Main: make-video
+# ---------------------------------------------------------------------------
+
+
+def cmd_make(args) -> int:
+    slug = args.slug
+    post_slug = args.post
+    model = GEMINI_FLASH_MODEL if args.flash else GEMINI_PRO_MODEL
+    tts = args.tts
+    privacy = "public" if args.public else "unlisted"
+
+    client = load_client(slug)
+    post = load_post(slug, post_slug)
+
+    print(f"\n==> System 5: Video for {client.get('display_name', slug)}")
+    print(f"    Post:   {post['frontmatter'].get('title', post_slug)}")
+    print(f"    Model:  {model}")
+    print(f"    TTS:    {tts}")
+    print(f"    Upload: {'no' if args.no_upload else privacy}")
+
+    with tempfile.TemporaryDirectory(prefix=f"rankai-video-{slug}-") as tmp:
+        work_dir = Path(tmp)
+
+        # Step 1 — script
+        print("\n[1/6] Generating video script via Claude...")
+        script = generate_video_script(post, client)
+        scenes = script["scenes"]
+        if len(scenes) != 10:
+            print(f"  warning: Claude returned {len(scenes)} scenes (expected 10), adjusting...")
+        (work_dir / "script.json").write_text(json.dumps(script, indent=2))
+        print(f"  YouTube title: {script['youtube_title'][:60]}")
+
+        # Step 2 — TTS
+        print("\n[2/6] Synthesising narration...")
+        narration = " ".join(s["narration"] for s in scenes)
+        audio_path = work_dir / "narration.mp3"
+        synthesise_speech(narration, audio_path, tts=tts)
+        audio_duration = get_audio_duration(audio_path)
+        print(f"  Audio: {audio_duration:.1f}s ({len(narration)} chars)")
+
+        # Step 3 — scene images
+        print("\n[3/6] Generating scene images via Gemini...")
+        image_paths = generate_scene_images(scenes, work_dir, model)
+
+        # thumbnail
+        thumb_path = generate_thumbnail(script.get("thumbnail_prompt", scenes[0]["image_prompt"]), work_dir, model)
+
+        # Step 4 — FFmpeg assembly
+        print("\n[4/6] Assembling video with FFmpeg...")
+        video_path = work_dir / f"{post_slug}.mp4"
+        assemble_video(image_paths, audio_path, video_path, work_dir)
+        size_mb = video_path.stat().st_size / 1_000_000
+        print(f"  Video: {video_path.name} ({size_mb:.1f} MB)")
+
+        # Step 5 — SRT captions
+        srt_path = work_dir / f"{post_slug}.srt"
+        generate_srt(scenes, audio_duration, srt_path)
+
+        if args.no_upload:
+            out_video = REPO_ROOT / "sites" / slug / f"{post_slug}-draft.mp4"
+            shutil.copy(video_path, out_video)
+            print(f"\n==> Draft saved (no upload): {out_video}")
+            return 0
+
+        # Step 6 — YouTube upload
+        print("\n[5/6] Uploading to YouTube...")
+        video_id = upload_to_youtube(
+            slug, video_path, thumb_path, srt_path, script, privacy=privacy
+        )
+
+        # Step 7 — update frontmatter
+        print("\n[6/6] Updating blog post frontmatter...")
+        update_post_youtube_id(post["path"], video_id)
+        commit_video_update(slug, post_slug, video_id)
+
+    # Deploy the frontmatter update
+    if not args.no_deploy:
+        print("\nDeploying updated post...")
+        subprocess.run(
+            [sys.executable, str(SCRIPT_DIR / "build_site.py"),
+             "sync-deploy", "--slug", slug, "--branch", "main", "--allow-dirty"],
+            cwd=str(REPO_ROOT),
+        )
+
+    domain = client.get("domain", "")
+    print(f"""
+==> System 5 complete
+
+  YouTube:   https://youtu.be/{video_id}
+  Privacy:   {privacy}
+  Blog post: https://{domain}/blog/{post_slug}/
+  Embed:     Will show on the live post after Cloudflare build (~60s)
+
+Next: If this is your first video for {slug}, set up the channel's channel art
+and verify the upload looks correct before setting to public.
+""")
+    return 0
+
+
+def cmd_list(slug: str) -> int:
+    """List uploaded videos for a client's YouTube channel."""
+    try:
+        from googleapiclient.discovery import build
+    except ImportError:
+        die("Missing google-api-python-client. Run: pip install google-api-python-client")
+
+    creds = load_youtube_credentials(slug)
+    youtube = build("youtube", "v3", credentials=creds)
+
+    # Get the channel's uploads playlist
+    channel = youtube.channels().list(part="contentDetails", mine=True).execute()
+    playlist_id = channel["items"][0]["contentDetails"]["relatedPlaylists"]["uploads"]
+
+    items = youtube.playlistItems().list(
+        part="snippet,contentDetails", playlistId=playlist_id, maxResults=25
+    ).execute()
+
+    print(f"\nYouTube videos for {slug}:")
+    print(f"{'Title':<55} {'ID':<15} {'Published':<12}")
+    print("-" * 85)
+    for item in items.get("items", []):
+        sn = item["snippet"]
+        vid_id = item["contentDetails"]["videoId"]
+        pub = sn.get("publishedAt", "")[:10]
+        print(f"{sn['title'][:54]:<55} {vid_id:<15} {pub}")
+    return 0
+
+
+# ---------------------------------------------------------------------------
+# CLI
+# ---------------------------------------------------------------------------
+
+
+def main() -> int:
+    p = argparse.ArgumentParser(prog="video_maker", description="Rank AI System 5 — Blog to YouTube")
+    sub = p.add_subparsers(dest="cmd", required=True)
+
+    pa = sub.add_parser("auth", help="One-time YouTube OAuth setup for a client channel")
+    pa.add_argument("--slug", required=True)
+    pa.set_defaults(func=lambda a: cmd_auth(a.slug))
+
+    pm = sub.add_parser("make", help="Generate and upload a video for a blog post")
+    pm.add_argument("--slug", required=True, help="Client slug")
+    pm.add_argument("--post", required=True, help="Blog post slug (filename without .md)")
+    pm.add_argument("--flash", action="store_true", help="Use Gemini Flash (cheaper images)")
+    pm.add_argument("--tts", choices=["google", "macos"], default="google",
+                    help="TTS provider (google requires GOOGLE_CLOUD_API_KEY; macos uses system `say`)")
+    pm.add_argument("--no-upload", action="store_true", help="Skip YouTube upload, save draft MP4 locally")
+    pm.add_argument("--no-deploy", action="store_true", help="Skip sync-deploy after frontmatter update")
+    pm.add_argument("--public", action="store_true", help="Upload as public (default: unlisted)")
+    pm.set_defaults(func=cmd_make)
+
+    pl = sub.add_parser("list", help="List videos uploaded to a client's YouTube channel")
+    pl.add_argument("--slug", required=True)
+    pl.set_defaults(func=lambda a: cmd_list(a.slug))
+
+    args = p.parse_args()
+    return args.func(args)
+
+
+if __name__ == "__main__":
+    sys.exit(main())

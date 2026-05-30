@@ -46,6 +46,20 @@ const dateStr = new Date(data.published_at).toLocaleDateString("en-US", { year: 
   <!-- ARTICLE BODY -->
   <article class="section-first bg-navy">
     <div class="container-wide max-w-3xl mx-auto">
+      {data.youtube_id && (
+        <div class="mb-10 rounded-xl overflow-hidden border border-white/10 shadow-2xl aspect-video">
+          <iframe
+            src={`https://www.youtube.com/embed/${data.youtube_id}`}
+            title={data.title}
+            width="100%"
+            height="100%"
+            style="border:0;display:block;"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            loading="lazy"
+          ></iframe>
+        </div>
+      )}
       <div class="prose-body">
         <Content />
       </div>

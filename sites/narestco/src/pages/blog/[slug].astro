@@ -32,10 +32,10 @@ const dateStr = new Date(data.published_at).toLocaleDateString("en-US", { year: 
   faq={data.faq}
 >
   <!-- ARTICLE HEADER -->
-  <section class="relative min-h-[420px] flex items-end overflow-hidden bg-dark border-b border-white/10">
+  <section class="relative min-h-[420px] flex items-end overflow-hidden bg-navy border-b border-white/10">
     <div class="absolute inset-0 z-0">
       <img src={heroImage} alt={data.title} class="w-full h-full object-cover" loading="eager" />
-      <div class="absolute inset-0 bg-gradient-to-t from-dark via-dark-900/85 to-dark-800/40"></div>
+      <div class="absolute inset-0 bg-gradient-to-t from-navy via-navy/85 to-navy/40"></div>
     </div>
     <div class="container-wide relative z-10 py-16 max-w-4xl">
       <div class="eyebrow">{dateStr}</div>
@@ -44,8 +44,22 @@ const dateStr = new Date(data.published_at).toLocaleDateString("en-US", { year: 
   </section>
 
   <!-- ARTICLE BODY -->
-  <article class="section-first bg-dark">
+  <article class="section-first bg-navy">
     <div class="container-wide max-w-3xl mx-auto">
+      {data.youtube_id && (
+        <div class="mb-10 rounded-xl overflow-hidden border border-white/10 shadow-2xl aspect-video">
+          <iframe
+            src={`https://www.youtube.com/embed/${data.youtube_id}`}
+            title={data.title}
+            width="100%"
+            height="100%"
+            style="border:0;display:block;"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            loading="lazy"
+          ></iframe>
+        </div>
+      )}
       <div class="prose-body">
         <Content />
       </div>

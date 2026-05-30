@@ -90,6 +90,7 @@ const blog = defineCollection({
     internal_links: internalLinks,
     breadcrumb: breadcrumb.optional(),
     faq: z.array(faqItem).default([]),
+    youtube_id: z.string().optional(),
   }),
 });
 
