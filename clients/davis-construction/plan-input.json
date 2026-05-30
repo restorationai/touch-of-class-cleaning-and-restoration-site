@@ -51,7 +51,8 @@
     "hours": "Monday–Friday, 8:00 AM – 5:00 PM",
     "founded_year": "2008",
     "license_numbers": [],
-    "certifications": []
+    "certifications": [],
+    "google_maps_api_key": "AIzaSyDrYnSuDu-hFvKHEcQCjwb-zsMebInPneU"
   },
   "cross_product": true,
   "keyword_strategy": "conservative",

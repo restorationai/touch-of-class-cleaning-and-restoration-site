@@ -23,7 +23,7 @@ export const brand = {
   placeId: "ChIJ8URpSkf_UaURDg_hVb9wMrQ",
   googleCid: "12984564642744438542",
   imagesBase: "https://images.narestco.com",
-  googleMapsApiKey: "",
+  googleMapsApiKey: "AIzaSyDrYnSuDu-hFvKHEcQCjwb-zsMebInPneU",
   logoUrl: "/images/logo.webp",
   licenseNumbers: ["NATIORC792M6"] as string[],
   licenseAuthority: "WA State Department of Labor & Industries",

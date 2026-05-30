@@ -23,7 +23,7 @@ export const brand = {
   placeId: "",
   googleCid: "",
   imagesBase: "https://images.davisconstructioncontractors.com",
-  googleMapsApiKey: "",
+  googleMapsApiKey: "AIzaSyDrYnSuDu-hFvKHEcQCjwb-zsMebInPneU",
   logoUrl: "/images/logo.webp",
   licenseNumbers: [] as string[],
   licenseAuthority: "",

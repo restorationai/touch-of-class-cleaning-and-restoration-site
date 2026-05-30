@@ -131,7 +131,8 @@
       "https://www.instagram.com/narestco",
       "https://www.tiktok.com/@narestco",
       "https://twitter.com/narestco"
-    ]
+    ],
+    "google_maps_api_key": "AIzaSyDrYnSuDu-hFvKHEcQCjwb-zsMebInPneU"
   },
   "cross_product": true,
   "keyword_strategy": "conservative",
