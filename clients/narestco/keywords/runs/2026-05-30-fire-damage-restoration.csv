@@ -1,0 +1,37 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+fire damage restoration cost,informational,320,,9.12,1,fire damage restoration,,, true
+fire damage restoration process,informational,90,8,15.33,1,fire damage restoration,,,true
+what to do after a house fire,informational,,12,,1,fire damage restoration,,,true
+does homeowners insurance cover fire damage,informational,,29,,1,fire damage restoration,,,true
+residential fire damage restoration,commercial,70,17,1.62,3,fire damage restoration,,/services/fire-damage-restoration/,false
+fire and smoke damage restoration,commercial,720,7,27.07,3,fire damage restoration,,/services/fire-damage-restoration/,false
+fire damage restoration contractors,commercial,590,5,2.14,3,fire damage restoration,,/services/fire-damage-restoration/,false
+fire restoration checklist,informational,40,,18.39,2,fire damage restoration,,,false
+what does a fire restoration company do,informational,20,,,2,fire damage restoration,,,false
+how long does fire damage restoration take,informational,,,,2,fire damage restoration,,,false
+fire damage restoration company,commercial,3600,28,22.78,3,fire damage restoration,,/services/fire-damage-restoration/,false
+fire damage restoration companies,commercial,3600,16,22.78,3,fire damage restoration,,/services/fire-damage-restoration/,false
+fire damage restoration near me,commercial,49500,9,7.89,3,fire damage restoration,,/services/fire-damage-restoration/,false
+fire damage restoration,commercial,135000,19,22.81,3,fire damage restoration,,/services/fire-damage-restoration/,false
+fire damage restoration Federal Way,transactional,,,,3,fire damage restoration,Federal Way,/service-areas/federal-way-wa/fire-damage-restoration/,false
+fire damage restoration Federal Way WA,transactional,,,,3,fire damage restoration,Federal Way,/service-areas/federal-way-wa/fire-damage-restoration/,false
+emergency fire damage restoration Federal Way,transactional,,,,3,fire damage restoration,Federal Way,/service-areas/federal-way-wa/fire-damage-restoration/,false
+Federal Way fire damage restoration,transactional,,,,3,fire damage restoration,Federal Way,/service-areas/federal-way-wa/fire-damage-restoration/,false
+fire damage restoration Seattle,transactional,,,,3,fire damage restoration,Seattle,/service-areas/seattle-wa/fire-damage-restoration/,false
+fire damage restoration Seattle WA,transactional,,,,3,fire damage restoration,Seattle,/service-areas/seattle-wa/fire-damage-restoration/,false
+emergency fire damage restoration Seattle,transactional,,,,3,fire damage restoration,Seattle,/service-areas/seattle-wa/fire-damage-restoration/,false
+Seattle fire damage restoration,transactional,,,,3,fire damage restoration,Seattle,/service-areas/seattle-wa/fire-damage-restoration/,false
+fire damage restoration Tacoma,transactional,,,,3,fire damage restoration,Tacoma,/service-areas/tacoma-wa/fire-damage-restoration/,false
+emergency fire damage restoration Tacoma,transactional,,,,3,fire damage restoration,Tacoma,/service-areas/tacoma-wa/fire-damage-restoration/,false
+Tacoma fire damage restoration,transactional,,,,3,fire damage restoration,Tacoma,/service-areas/tacoma-wa/fire-damage-restoration/,false
+fire damage restoration Auburn,transactional,,,,3,fire damage restoration,Auburn,/service-areas/auburn-wa/fire-damage-restoration/,false
+emergency fire damage restoration Auburn,transactional,,,,3,fire damage restoration,Auburn,/service-areas/auburn-wa/fire-damage-restoration/,false
+Auburn fire damage restoration,transactional,,,,3,fire damage restoration,Auburn,/service-areas/auburn-wa/fire-damage-restoration/,false
+fire damage restoration Kent,transactional,,,,3,fire damage restoration,Kent,/service-areas/kent-wa/fire-damage-restoration/,false
+emergency fire damage restoration Kent,transactional,,,,3,fire damage restoration,Kent,/service-areas/kent-wa/fire-damage-restoration/,false
+Kent fire damage restoration,transactional,,,,3,fire damage restoration,Kent,/service-areas/kent-wa/fire-damage-restoration/,false
+fire damage restoration Renton,transactional,,,,3,fire damage restoration,Renton,/service-areas/renton-wa/fire-damage-restoration/,false
+emergency fire damage restoration Renton,transactional,,,,3,fire damage restoration,Renton,/service-areas/renton-wa/fire-damage-restoration/,false
+Renton fire damage restoration,transactional,,,,3,fire damage restoration,Renton,/service-areas/renton-wa/fire-damage-restoration/,false
+fire damage restoration Bellevue,transactional,,,,3,fire damage restoration,Bellevue,/service-areas/bellevue-wa/fire-damage-restoration/,false
+fire damage restoration Everett,transactional,,,,3,fire damage restoration,Everett,/service-areas/everett-wa/fire-damage-restoration/,false

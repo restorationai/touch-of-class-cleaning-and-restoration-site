@@ -164,6 +164,188 @@
       "city_anchor": null,
       "external_authority_candidates": [],
       "notes": "Informational insurance-claim topic. Pairs naturally with the water damage service page. Lead with the practical answer in the first 80 words."
+    },
+    {
+      "id": "2026-05-30-fire-damage-restoration-cost",
+      "status": "queued",
+      "queued_at": "2026-05-30T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "fire damage restoration cost",
+      "intent": "informational",
+      "volume": 320,
+      "kd": null,
+      "fan_out_cluster": [
+        "fire damage restoration cost per square foot",
+        "residential fire damage restoration cost",
+        "how much does fire damage restoration cost",
+        "servpro fire restoration cost",
+        "house fire debris removal cost"
+      ],
+      "suggested_slug": "fire-damage-restoration-cost",
+      "suggested_title": "Fire Damage Restoration Cost: What Homeowners Pay in 2026",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/smoke-damage-restoration/",
+        "/services/reconstruction/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "smoke-damage-restoration",
+        "reconstruction"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS700"
+      ],
+      "notes": "Cost-focused informational post. Decision-stage readers are 24-48 hours from hiring. Lead with a realistic range ($3,000-$50,000+ depending on severity) and break down by damage category: smoke, structural, soot, odor. Mention IICRC S700 standard. Pair with reconstruction service page."
+    },
+    {
+      "id": "2026-05-30-fire-damage-restoration-process",
+      "status": "queued",
+      "queued_at": "2026-05-30T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "fire damage restoration process",
+      "intent": "informational",
+      "volume": 90,
+      "kd": 8,
+      "fan_out_cluster": [
+        "residential fire damage restoration process",
+        "fire restoration process step by step",
+        "fire restoration cleaning process",
+        "what does a fire restoration company do",
+        "fire restoration checklist"
+      ],
+      "suggested_slug": "fire-damage-restoration-process",
+      "suggested_title": "The Fire Damage Restoration Process: Step by Step",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/smoke-damage-restoration/",
+        "/services/soot-removal/",
+        "/services/odor-removal/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "smoke-damage-restoration",
+        "soot-removal",
+        "odor-removal"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS700"
+      ],
+      "notes": "Process walkthrough: board-up, assessment, debris removal, soot and smoke cleaning, odor elimination (thermal fogging / ozone), structural drying, reconstruction. KD 8 is very low. Lead with the 7-step framework ChatGPT decomposes the topic into. Mention Tacoma HEPA ordinance as a local compliance note."
+    },
+    {
+      "id": "2026-05-30-what-to-do-after-a-house-fire",
+      "status": "queued",
+      "queued_at": "2026-05-30T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what to do after a house fire",
+      "intent": "informational",
+      "volume": null,
+      "kd": 12,
+      "fan_out_cluster": [
+        "what to do after a house fire checklist",
+        "what to expect after a house fire",
+        "house fire cleanup checklist",
+        "what to throw out after a fire",
+        "fire damage insurance claim steps",
+        "how long does fire damage restoration take"
+      ],
+      "suggested_slug": "what-to-do-after-a-house-fire",
+      "suggested_title": "What to Do After a House Fire: The First 72 Hours",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/smoke-damage-restoration/",
+        "/services/reconstruction/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "smoke-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/fire/if-your-home-is-on-fire.html"
+      ],
+      "notes": "Highest-priority post in this run. KD 12 is very winnable. This is the top-of-funnel post panicked homeowners search in the hours and days after a fire. Structure: wait for clearance, call insurance, document damage, call restoration company, avoid touching soot. Lead with emotional empathy. Strong candidate for AI Overview citation."
+    },
+    {
+      "id": "2026-05-30-does-homeowners-insurance-cover-fire-damage",
+      "status": "queued",
+      "queued_at": "2026-05-30T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does homeowners insurance cover fire damage",
+      "intent": "informational",
+      "volume": null,
+      "kd": 29,
+      "fan_out_cluster": [
+        "does homeowners insurance cover house fire",
+        "what does homeowners insurance cover after a fire",
+        "fire damage insurance claim tips",
+        "average insurance payout for fire damage",
+        "does insurance cover smoke damage"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-fire-damage",
+      "suggested_title": "Does Homeowners Insurance Cover Fire Damage? What to Know",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/smoke-damage-restoration/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "smoke-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iii.org/article/does-homeowners-insurance-cover-fire"
+      ],
+      "notes": "Insurance decision-stage post. Companion to the existing water damage insurance post at /blog/does-homeowners-insurance-cover-water-damage/. Answer yes (most policies cover accidental fire + smoke + soot + firefighting water), then cover the exclusions: arson, earthquake-caused fire, flood-adjacent fire. Cross-link to the water damage insurance post."
+    },
+    {
+      "id": "2026-05-30-fire-damage-restoration-cost-per-square-foot",
+      "status": "queued",
+      "queued_at": "2026-05-30T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "fire damage restoration cost per square foot",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "fire damage restoration cost",
+        "how much does fire damage cleanup cost",
+        "cost to restore fire damaged home",
+        "fire damage repair cost estimate",
+        "how to estimate fire damage costs"
+      ],
+      "suggested_slug": "fire-damage-restoration-cost-per-square-foot",
+      "suggested_title": "Fire Damage Restoration Cost Per Square Foot: 2026 Pricing Guide",
+      "target_word_count": 1200,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/reconstruction/",
+        "/blog/fire-damage-restoration-cost/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "reconstruction"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [],
+      "notes": "Supporting cost post to the main cost article. Focus on per-sqft breakdown: minor smoke ($3-8/sqft), major structural ($15-50/sqft), total loss ($75+/sqft). Internal link to main cost article and reconstruction page. Can be shorter (1200 words). Write after the main fire-damage-restoration-cost post."
     }
   ]
 }
