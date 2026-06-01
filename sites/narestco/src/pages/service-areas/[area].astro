@@ -47,6 +47,8 @@ const locations = (await getCollection("locations"))
     </div>
   </section>
 
+  <GoogleMap city={data.city} state={data.state} />
+
   <!-- Services in this area -->
   {locations.length > 0 && (
     <section class="section bg-dark">
@@ -71,8 +73,6 @@ const locations = (await getCollection("locations"))
   )}
 
   <FAQSection faq={data.faq} eyebrow={`${data.city}, ${data.state}`} />
-
-  <GoogleMap city={data.city} state={data.state} />
 
   <CtaBanner heading={`Restoration emergency in ${data.city}?`} subheading={`Our team is based nearby. Call now for fast response.`} />
 

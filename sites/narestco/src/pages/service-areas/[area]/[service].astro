@@ -54,9 +54,9 @@ const heroImage = data.hero || `${brand.imagesBase}/brand/hero.webp`;
     </div>
   </section>
 
-  <FAQSection faq={data.faq} eyebrow={`${data.service_display} in ${data.city}`} />
-
   <GoogleMap city={data.city} state={data.state} service={data.service_display} />
+
+  <FAQSection faq={data.faq} eyebrow={`${data.service_display} in ${data.city}`} />
 
   <CtaBanner
     heading={`${data.service_display} response in ${data.city}`}
