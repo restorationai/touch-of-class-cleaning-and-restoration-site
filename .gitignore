@@ -5,6 +5,9 @@
 *.pyc
 __pycache__/
 
+# System 5 — background music (royalty-free MP3, not redistributed)
+assets/background_music.mp3
+
 # System 4 v2 — GSC OAuth secrets (never commit)
 .gsc-oauth-client.json
 .gsc-agency-token.json

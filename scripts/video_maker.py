@@ -407,6 +407,9 @@ def build_scene_clip(img_path: Path, clip_path: Path, duration: float,
     subprocess.run(cmd, check=True, capture_output=True)
 
 
+BACKGROUND_MUSIC_PATH = REPO_ROOT / "assets" / "background_music.mp3"
+
+
 def assemble_video(
     image_paths: list[Path],
     audio_path: Path,
@@ -414,7 +417,11 @@ def assemble_video(
     work_dir: Path,
     fps: int = 30,
 ) -> None:
-    """Assemble scene clips + narration into the final MP4."""
+    """Assemble scene clips + narration into the final MP4.
+
+    If assets/background_music.mp3 exists it is mixed under the narration at
+    -18 dB so it adds ambience without competing with the voice.
+    """
     audio_duration = get_audio_duration(audio_path)
     scene_duration = audio_duration / len(image_paths)
 
@@ -434,12 +441,33 @@ def assemble_video(
     lines = [f"file '{cp.resolve()}'\n" for cp in clip_paths]
     concat_list.write_text("".join(lines))
 
+    # Mix narration with optional background music
+    use_music = BACKGROUND_MUSIC_PATH.exists()
+    if use_music:
+        # Narration at 0 dB, music looped to match length and attenuated to -18 dB
+        mixed_audio = work_dir / "mixed_audio.mp3"
+        subprocess.run([
+            "ffmpeg", "-y",
+            "-i", str(audio_path),
+            "-stream_loop", "-1", "-i", str(BACKGROUND_MUSIC_PATH),
+            "-filter_complex",
+            f"[1:a]volume=0.126,atrim=0:duration={audio_duration:.3f}[bg];"
+            "[0:a][bg]amix=inputs=2:duration=first:dropout_transition=3[out]",
+            "-map", "[out]",
+            "-c:a", "libmp3lame", "-b:a", "128k",
+            str(mixed_audio),
+        ], check=True, capture_output=True)
+        final_audio = mixed_audio
+        print(f"  [video] background music mixed in (assets/background_music.mp3)")
+    else:
+        final_audio = audio_path
+
     # Final assembly: concat clips + mux audio
     print("  [video] assembling final MP4...")
     cmd = [
         "ffmpeg", "-y",
         "-f", "concat", "-safe", "0", "-i", str(concat_list),
-        "-i", str(audio_path),
+        "-i", str(final_audio),
         "-c:v", "libx264", "-preset", "medium", "-crf", "22",
         "-c:a", "aac", "-b:a", "128k",
         "-pix_fmt", "yuv420p",
