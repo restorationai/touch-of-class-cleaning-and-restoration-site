@@ -22,11 +22,12 @@ const dateStr = new Date(data.published_at).toLocaleDateString("en-US", { year: 
   title={data.title}
   meta_description={data.meta_description}
   hero_image_url={heroImage}
-  schema_stubs={["blog-posting", "faq", "breadcrumb-list"]}
+  schema_stubs={["blog-posting", ...(data.youtube_id ? ["video-object"] : []), "faq", "breadcrumb-list"]}
   schema_ctx={{
     archetype: "blog-post",
     post_published_at: data.published_at,
     post_updated_at: data.updated_at,
+    youtube_id: data.youtube_id,
   }}
   breadcrumb={data.breadcrumb}
   faq={data.faq}

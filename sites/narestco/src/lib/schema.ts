@@ -19,6 +19,7 @@ export type PageSchemaContext = {
   post_published_at?: string;
   post_updated_at?: string;
   primary_service_display?: string;
+  youtube_id?: string;
 };
 
 const safe = (v: unknown) => (v == null || v === "" ? undefined : v);
@@ -137,6 +138,25 @@ function blogPosting(ctx: PageSchemaContext) {
   };
 }
 
+function videoObject(ctx: PageSchemaContext) {
+  if (!ctx.youtube_id) return undefined;
+  return {
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    name: ctx.title,
+    description: ctx.meta_description,
+    thumbnailUrl: `https://img.youtube.com/vi/${ctx.youtube_id}/maxresdefault.jpg`,
+    uploadDate: ctx.post_published_at,
+    contentUrl: `https://www.youtube.com/watch?v=${ctx.youtube_id}`,
+    embedUrl: `https://www.youtube.com/embed/${ctx.youtube_id}`,
+    publisher: {
+      "@type": "Organization",
+      name: brand.displayName,
+      logo: { "@type": "ImageObject", url: brand.logoUrl },
+    },
+  };
+}
+
 function faqPage(ctx: PageSchemaContext) {
   if (!ctx.faq || ctx.faq.length === 0) return undefined;
   return {
@@ -170,6 +190,7 @@ const RESOLVERS: Record<string, (ctx: PageSchemaContext) => unknown | undefined>
   website,
   service,
   "blog-posting": blogPosting,
+  "video-object": videoObject,
   faq: faqPage,
   "breadcrumb-list": breadcrumbList,
   // "aggregate-rating" is embedded inside local-business, not emitted standalone
