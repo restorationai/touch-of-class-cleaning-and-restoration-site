@@ -72,7 +72,14 @@ TTS_API_URL = "https://texttospeech.googleapis.com/v1/text:synthesize"
 TTS_VOICE = "en-US-Neural2-D"  # Professional US male voice
 
 YOUTUBE_SCOPES = ["https://www.googleapis.com/auth/youtube.upload"]
-YOUTUBE_OAUTH_CLIENT_PATH = REPO_ROOT / ".youtube-oauth-client.json"
+# Reuse the same Desktop app OAuth client as GSC — same Google Cloud project,
+# YouTube Data API v3 enabled separately. Fall back to .youtube-oauth-client.json
+# if the GSC file is absent (e.g. on a fresh clone).
+YOUTUBE_OAUTH_CLIENT_PATH = (
+    REPO_ROOT / ".gsc-oauth-client.json"
+    if (REPO_ROOT / ".gsc-oauth-client.json").exists()
+    else REPO_ROOT / ".youtube-oauth-client.json"
+)
 YOUTUBE_CATEGORY_HOWTO = "26"  # Howto & Style — best fit for restoration guides
 
 
