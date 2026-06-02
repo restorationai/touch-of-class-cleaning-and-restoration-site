@@ -70,9 +70,15 @@ GEMINI_PRO_MODEL = "gemini-3-pro-image-preview"
 GEMINI_FLASH_MODEL = "gemini-3.1-flash-image-preview"
 
 TTS_API_URL = "https://texttospeech.googleapis.com/v1/text:synthesize"
-TTS_VOICE = "en-US-Neural2-D"  # Professional US male voice
+TTS_VOICE = "en-US-Neural2-D"  # Google fallback voice
+
+ELEVENLABS_API = "https://api.elevenlabs.io/v1/text-to-speech"
+ELEVENLABS_VOICE_ID = "HIGUfNOdjuWQwwapnTRW"
+ELEVENLABS_MODEL = "eleven_turbo_v2_5"  # Fast + high quality; upgrade to eleven_multilingual_v2 for max quality
 
 PEXELS_API = "https://api.pexels.com/videos/search"
+
+XFADE_DURATION = 0.4  # seconds of dissolve between clips
 
 YOUTUBE_SCOPES = ["https://www.googleapis.com/auth/youtube.upload"]
 # Reuse the same Desktop app OAuth client as GSC — same Google Cloud project,
@@ -308,9 +314,41 @@ def synthesise_speech_macos(narration_text: str, output_path: Path) -> None:
     aiff_path.unlink(missing_ok=True)
 
 
-def synthesise_speech(narration_text: str, output_path: Path, tts: str = "google") -> None:
+def synthesise_speech_elevenlabs(narration_text: str, output_path: Path) -> None:
+    """ElevenLabs TTS — highest quality, human-sounding narration."""
+    api_key = require_env("ELEVENLABS_API_KEY")
+    url = f"{ELEVENLABS_API}/{ELEVENLABS_VOICE_ID}"
+    body = json.dumps({
+        "text": narration_text,
+        "model_id": ELEVENLABS_MODEL,
+        "voice_settings": {
+            "stability": 0.45,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": True,
+        },
+    }).encode()
+    req = urllib.request.Request(
+        url, data=body, method="POST",
+        headers={
+            "xi-api-key": api_key,
+            "content-type": "application/json",
+            "accept": "audio/mpeg",
+        },
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=120) as resp:
+            output_path.write_bytes(resp.read())
+    except urllib.error.HTTPError as exc:
+        err = exc.read().decode(errors="replace")
+        die(f"ElevenLabs API error {exc.code}: {err[:300]}")
+
+
+def synthesise_speech(narration_text: str, output_path: Path, tts: str = "elevenlabs") -> None:
     print(f"  [TTS] Synthesising {len(narration_text)} chars via {tts}...")
-    if tts == "macos":
+    if tts == "elevenlabs":
+        synthesise_speech_elevenlabs(narration_text, output_path)
+    elif tts == "macos":
         synthesise_speech_macos(narration_text, output_path)
     else:
         synthesise_speech_google(narration_text, output_path)
@@ -417,6 +455,7 @@ def download_and_trim_pexels(url: str, clip_path: Path, duration: float) -> bool
         "ffmpeg", "-y", "-i", str(tmp),
         "-t", str(duration),
         "-vf", "scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,setsar=1",
+        "-r", "30",
         "-c:v", "libx264", "-preset", "fast", "-pix_fmt", "yuv420p", "-an",
         str(clip_path),
     ]
@@ -556,28 +595,42 @@ def get_audio_duration(audio_path: Path) -> float:
 
 def build_still_clip(img_path: Path, clip_path: Path, duration: float,
                      zoom_direction: str, fps: int = 30) -> None:
-    """Create a clip from a still image with Ken Burns zoom effect."""
+    """Create a clip from a still image with smooth Ken Burns pan.
+
+    Uses a simple linear crop instead of zoompan to eliminate the sub-pixel
+    jitter that causes the 'shaking' artifact in zoompan at zoom≈1.0.
+    Pads image to 110% of output then slowly drifts the crop window.
+    """
     frames = int(duration * fps)
+    # 10% padding gives room to drift without exposing edges
+    pad_w, pad_h = 2114, 1190  # next-even above 1920*1.1, 1080*1.1
+    dx, dy = pad_w - 1920, pad_h - 1080  # 194, 110 pixels of movement range
+
+    half_dx, half_dy = dx // 2, dy // 2
+
     if zoom_direction == "in":
-        zoom_expr = "min(zoom+0.0005,1.04)"
+        # Drift from center toward top-left corner (subtle zoom-in feel)
+        x_expr = f"{half_dx}*(1-n/{frames})"
+        y_expr = f"{half_dy}*(1-n/{frames})"
     else:
-        zoom_expr = "if(eq(on,1),1.04,max(1.001,zoom-0.0005))"
+        # Drift from top-left back toward center (zoom-out feel)
+        x_expr = f"{half_dx}*(n/{frames})"
+        y_expr = f"{half_dy}*(n/{frames})"
 
     vf = (
-        "scale=1920:1080:force_original_aspect_ratio=increase,"
-        "crop=1920:1080,"
-        f"zoompan=z='{zoom_expr}':d={frames}:"
-        "x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)'"
-        f":s=1920x1080:fps={fps},"
+        f"scale={pad_w}:{pad_h}:force_original_aspect_ratio=increase:flags=lanczos,"
+        f"crop={pad_w}:{pad_h},"
+        f"crop=1920:1080:x='{x_expr}':y='{y_expr}',"
         "setsar=1"
     )
     cmd = [
         "ffmpeg", "-y",
-        "-loop", "1",
-        "-t", str(duration + 0.1),  # slightly over to avoid stall on last frame
+        "-loop", "1", "-framerate", str(fps),
+        "-t", str(duration),
         "-i", str(img_path),
         "-vf", vf,
         "-t", str(duration),
+        "-r", str(fps),
         "-c:v", "libx264", "-preset", "fast", "-pix_fmt", "yuv420p",
         str(clip_path),
     ]
@@ -593,18 +646,14 @@ def assemble_video(
     output_path: Path,
     work_dir: Path,
 ) -> None:
-    """Concatenate pre-built scene clips with narration + optional background music."""
+    """Join clips with xfade dissolve transitions, mux narration + optional music."""
     audio_duration = get_audio_duration(audio_path)
-    print(f"  [video] {len(clip_paths)} clips, audio={audio_duration:.1f}s")
-
-    # Write concat list
-    concat_list = work_dir / "concat.txt"
-    concat_list.write_text("".join(f"file '{cp.resolve()}'\n" for cp in clip_paths))
+    n = len(clip_paths)
+    print(f"  [video] {n} clips, audio={audio_duration:.1f}s, dissolve={XFADE_DURATION}s")
 
     # Mix narration with optional background music
     use_music = BACKGROUND_MUSIC_PATH.exists()
     if use_music:
-        # Narration at 0 dB, music looped to match length and attenuated to -18 dB
         mixed_audio = work_dir / "mixed_audio.mp3"
         subprocess.run([
             "ffmpeg", "-y",
@@ -618,16 +667,54 @@ def assemble_video(
             str(mixed_audio),
         ], check=True, capture_output=True)
         final_audio = mixed_audio
-        print(f"  [video] background music mixed in (assets/background_music.mp3)")
+        print("  [video] background music mixed in")
     else:
         final_audio = audio_path
 
-    # Final assembly: concat clips + mux audio
-    print("  [video] assembling final MP4...")
+    print("  [video] assembling with xfade transitions...")
+
+    if n == 1:
+        # Single clip — no transitions needed
+        cmd = [
+            "ffmpeg", "-y", "-i", str(clip_paths[0]), "-i", str(final_audio),
+            "-c:v", "libx264", "-preset", "medium", "-crf", "22",
+            "-c:a", "aac", "-b:a", "128k", "-pix_fmt", "yuv420p",
+            "-movflags", "+faststart", "-shortest", str(output_path),
+        ]
+        subprocess.run(cmd, check=True, capture_output=True)
+        return
+
+    # Build filter_complex for N clips with xfade dissolve.
+    # Offset formula: offset[i] = (i+1) * (scene_duration - XFADE_DURATION)
+    scene_duration = audio_duration / n
+    t = XFADE_DURATION
+
+    # Input args: one -i per clip
+    input_args: list[str] = []
+    for cp in clip_paths:
+        input_args += ["-i", str(cp)]
+
+    # Build chained xfade filter
+    filter_parts: list[str] = []
+    prev_label = "[0:v]"
+    for i in range(1, n):
+        out_label = "[vout]" if i == n - 1 else f"[v{i}]"
+        offset = (i) * (scene_duration - t)
+        filter_parts.append(
+            f"{prev_label}[{i}:v]xfade=transition=dissolve:"
+            f"duration={t}:offset={offset:.3f}{out_label}"
+        )
+        prev_label = out_label
+
+    filter_complex = "; ".join(filter_parts)
+
     cmd = [
         "ffmpeg", "-y",
-        "-f", "concat", "-safe", "0", "-i", str(concat_list),
+        *input_args,
         "-i", str(final_audio),
+        "-filter_complex", filter_complex,
+        "-map", "[vout]",
+        "-map", f"{n}:a",
         "-c:v", "libx264", "-preset", "medium", "-crf", "22",
         "-c:a", "aac", "-b:a", "128k",
         "-pix_fmt", "yuv420p",
@@ -1021,8 +1108,8 @@ def main() -> int:
     pm.add_argument("--slug", required=True, help="Client slug")
     pm.add_argument("--post", required=True, help="Blog post slug (filename without .md)")
     pm.add_argument("--flash", action="store_true", help="Use Gemini Flash (cheaper images)")
-    pm.add_argument("--tts", choices=["google", "macos"], default="google",
-                    help="TTS provider (google requires GOOGLE_CLOUD_API_KEY; macos uses system `say`)")
+    pm.add_argument("--tts", choices=["elevenlabs", "google", "macos"], default="elevenlabs",
+                    help="TTS provider (default: elevenlabs; google uses Neural2; macos uses system `say`)")
     pm.add_argument("--no-upload", action="store_true", help="Skip YouTube upload, save draft MP4 locally")
     pm.add_argument("--no-deploy", action="store_true", help="Skip sync-deploy after frontmatter update")
     pm.add_argument("--public", action="store_true", help="Upload as public (default: unlisted)")
