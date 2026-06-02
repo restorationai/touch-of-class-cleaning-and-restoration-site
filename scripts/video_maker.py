@@ -49,6 +49,7 @@ import sys
 import tempfile
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
@@ -70,6 +71,8 @@ GEMINI_FLASH_MODEL = "gemini-3.1-flash-image-preview"
 
 TTS_API_URL = "https://texttospeech.googleapis.com/v1/text:synthesize"
 TTS_VOICE = "en-US-Neural2-D"  # Professional US male voice
+
+PEXELS_API = "https://api.pexels.com/videos/search"
 
 YOUTUBE_SCOPES = ["https://www.googleapis.com/auth/youtube.upload"]
 # Reuse the same Desktop app OAuth client as GSC — same Google Cloud project,
@@ -145,42 +148,51 @@ def update_post_youtube_id(post_path: Path, youtube_id: str) -> None:
 # ---------------------------------------------------------------------------
 
 VIDEO_SCRIPT_PROMPT = """You are writing a script for a 90-second YouTube video for a home restoration company.
-The video will use an image montage (no real footage). Your job is to turn the blog post below into
-an engaging, helpful video script.
+The video uses a mix of the client's real photos and stock footage from Pexels.
+Turn the blog post below into an engaging, helpful video script.
 
 Blog post title: {title}
 Blog post body:
 {body}
 
+Available client photo categories (use these for "client_photo" scenes):
+{photo_categories}
+
 Produce a JSON object with these exact keys:
 {{
   "scenes": [
     {{
-      "narration": "...",        // 20-30 words, conversational, no hashtags
-      "image_prompt": "..."     // Detailed prompt for Gemini: photorealistic, 16:9, what to show
+      "narration": "...",         // 20-30 words, conversational, no hashtags
+      "scene_type": "...",        // one of: "client_photo", "stock", "ai"
+      "photo_keywords": [...],    // if scene_type="client_photo": 1-3 keywords matching categories above
+      "stock_query": "...",       // if scene_type="stock": 3-5 word Pexels search (e.g. "water damage restoration crew")
+      "image_prompt": "..."       // if scene_type="ai": detailed Gemini prompt, photorealistic 16:9
     }},
-    ... (10 scenes total, must be exactly 10)
+    ... (exactly 10 scenes)
   ],
-  "youtube_title": "...",        // 60 chars max, includes primary keyword naturally
-  "youtube_description": "...", // 1000-1500 chars, includes the blog URL, timestamps, call to action
-  "tags": ["...", "...", ...],   // 15-20 tags, mix of broad + specific + local
-  "thumbnail_prompt": "..."     // Gemini prompt for the custom thumbnail (bold text area left side)
+  "youtube_title": "...",         // 60 chars max, includes primary keyword naturally
+  "youtube_description": "...",  // 1000-1500 chars, includes the blog URL and call to action
+  "tags": ["...", "...", ...],    // 15-20 tags, mix of broad + specific + local
+  "thumbnail_prompt": "..."      // Gemini prompt for custom thumbnail (bold text, left side clear for text overlay)
 }}
 
+RULES for scene_type assignment:
+- Use "client_photo" for intro scenes, team/company credibility scenes, and job-result scenes
+  — pick keywords matching the available categories above (e.g. "team", "before_after", "equipment")
+- Use "stock" for topic-specific footage the client's photos won't cover (flooded room, insurance adjuster,
+  moisture meter, specific damage type). Good Pexels queries: "water damage restoration", "flooded basement",
+  "insurance adjuster home inspection", "drywall repair contractor", "fire damage cleanup crew"
+- Use "ai" only when neither client photos nor stock would work well (uncommon)
+- If photo categories are available, aim for at least 3-4 "client_photo" scenes
+
 RULES for narration:
-- Total narration must read in ~90 seconds at normal pace (~2.5 words/second = ~225 words total)
-- Warm, direct voice. Never say "we" for the company — say "your contractor" or use passive voice
+- Total must read in ~90 seconds (~2.5 words/second = ~225 words total across all scenes)
+- Warm, direct voice. Say "your contractor" not "we"
 - No jargon the homeowner would not understand
 - End with a clear CTA: "Call {company} at {phone} for a free estimate."
 
-RULES for image prompts:
-- Each prompt: photorealistic, bright, clean, professional. Show the subject, not the problem aftermath.
-- No people in distress. Show work being done, professionals working, finished results.
-- Include "dramatic professional lighting, restoration industry, hyperrealistic" in each prompt.
-
 RULES for youtube_description:
 - First 2 lines: hook + primary keyword (visible before "show more")
-- Lines 3+: chapter markers if natural, then key takeaways (3 bullets)
 - Include: "For emergency help, call {company} at {phone}"
 - Include: "Read the full guide: {post_url}"
 - End with 3-5 relevant hashtags
@@ -204,12 +216,24 @@ def generate_video_script(post: dict, client: dict) -> dict:
 
     post_url = f"https://{client.get('domain', '')}/blog/{post['frontmatter'].get('slug', '')}"
 
+    # Detect available client photo categories for scene assignment guidance
+    photos_map = load_client_photos(client["slug"])
+    if photos_map:
+        cat_list = ", ".join(
+            f"{cat} ({len(paths)} photo{'s' if len(paths) > 1 else ''})"
+            for cat, paths in sorted(photos_map.items())
+        )
+        photo_categories = f"Available: {cat_list}"
+    else:
+        photo_categories = "None — use stock or ai for all scenes"
+
     prompt = VIDEO_SCRIPT_PROMPT.format(
         title=post["frontmatter"].get("title", ""),
         body=post["body"][:6000],  # stay within token budget
         company=brand_name,
         phone=phone,
         post_url=post_url,
+        photo_categories=photo_categories,
     )
 
     body = json.dumps({
@@ -293,8 +317,112 @@ def synthesise_speech(narration_text: str, output_path: Path, tts: str = "google
 
 
 # ---------------------------------------------------------------------------
-# Step 3 — Gemini: generate scene images
+# Step 3 — Scene sources: client photos → Pexels stock → Gemini AI fallback
 # ---------------------------------------------------------------------------
+
+# Map category names to filename keywords used to auto-classify Photos folder contents
+PHOTO_CATEGORIES = {
+    "team":        ["team", "crew", "staff", "worker", "people", "group", "full"],
+    "before_after": ["before", "after"],
+    "equipment":   ["blower", "dryer", "equipment", "machine", "fan", "tool"],
+    "hazmat":      ["hazmat", "suit", "protective", "gear"],
+    "truck":       ["truck", "vehicle", "van"],
+    "job_site":    ["job", "site", "damage", "restoration", "water", "fire", "mold"],
+}
+PHOTO_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp"}
+
+
+def load_client_photos(slug: str) -> dict[str, list[Path]]:
+    """Return {category: [paths]} from clients/{slug}/Photos/. Logos excluded."""
+    photos_dir = CLIENTS_DIR / slug / "Photos"
+    if not photos_dir.exists():
+        return {}
+    result: dict[str, list[Path]] = {}
+    for p in sorted(photos_dir.iterdir()):
+        if p.suffix.lower() not in PHOTO_EXTENSIONS:
+            continue
+        name_lower = p.name.lower()
+        if "logo" in name_lower or "favicon" in name_lower:
+            continue
+        matched = False
+        for category, keywords in PHOTO_CATEGORIES.items():
+            if any(kw in name_lower for kw in keywords):
+                result.setdefault(category, []).append(p)
+                matched = True
+                break
+        if not matched:
+            result.setdefault("misc", []).append(p)
+    return result
+
+
+def match_client_photo(keywords: list[str], photos_map: dict, used: set) -> Path | None:
+    """Find the best unused client photo matching the given keywords."""
+    for kw in keywords:
+        kw_lower = kw.lower()
+        for category, photos in photos_map.items():
+            if kw_lower in category or any(kw_lower in p.name.lower() for p in photos):
+                for p in photos:
+                    if str(p) not in used:
+                        return p
+    # Fallback: any unused photo in preferred order
+    for category in ("before_after", "job_site", "equipment", "team", "hazmat", "truck", "misc"):
+        for p in photos_map.get(category, []):
+            if str(p) not in used:
+                return p
+    return None
+
+
+def pexels_search_video(query: str, min_duration: int = 6) -> str | None:
+    """Search Pexels for a landscape video clip. Returns download URL or None."""
+    api_key = require_env("PEXELS_API_KEY")
+    url = (PEXELS_API + "?query=" + urllib.parse.quote(query)
+           + "&per_page=10&size=medium&orientation=landscape")
+    req = urllib.request.Request(url, headers={
+        "Authorization": api_key,
+        "User-Agent": "RankAI/1.0",
+    })
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            data = json.loads(resp.read().decode())
+    except Exception as exc:
+        print(f"      [pexels] search error: {exc}")
+        return None
+    for video in data.get("videos", []):
+        if video.get("duration", 0) < min_duration:
+            continue
+        best_url, best_w = None, 0
+        for f in video.get("video_files", []):
+            if f.get("file_type") != "video/mp4":
+                continue
+            w = f.get("width", 0)
+            if f.get("quality") in ("hd", "uhd") and w > best_w:
+                best_url, best_w = f.get("link"), w
+        if best_url:
+            return best_url
+    return None
+
+
+def download_and_trim_pexels(url: str, clip_path: Path, duration: float) -> bool:
+    """Download a Pexels video, trim to duration, scale to 1920x1080."""
+    tmp = clip_path.with_suffix(".pexels_raw.mp4")
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "RankAI/1.0"})
+        with urllib.request.urlopen(req, timeout=90) as resp:
+            tmp.write_bytes(resp.read())
+    except Exception as exc:
+        print(f"      [pexels] download failed: {exc}")
+        tmp.unlink(missing_ok=True)
+        return False
+    cmd = [
+        "ffmpeg", "-y", "-i", str(tmp),
+        "-t", str(duration),
+        "-vf", "scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,setsar=1",
+        "-c:v", "libx264", "-preset", "fast", "-pix_fmt", "yuv420p", "-an",
+        str(clip_path),
+    ]
+    result = subprocess.run(cmd, capture_output=True)
+    tmp.unlink(missing_ok=True)
+    return result.returncode == 0
 
 
 def gemini_generate_image(prompt: str, model: str, max_retries: int = 3) -> bytes:
@@ -339,17 +467,59 @@ def gemini_generate_image(prompt: str, model: str, max_retries: int = 3) -> byte
     raise RuntimeError(f"Gemini failed after {max_retries} retries. Last: {last}")
 
 
-def generate_scene_images(scenes: list[dict], work_dir: Path, model: str) -> list[Path]:
-    """Generate one PNG per scene. Returns list of image paths in order."""
-    image_paths: list[Path] = []
+def generate_scene_clips(
+    scenes: list[dict],
+    work_dir: Path,
+    model: str,
+    slug: str,
+    scene_duration: float,
+) -> list[Path]:
+    """Build one .mp4 clip per scene using: client photo > Pexels stock > Gemini AI."""
+    photos_map = load_client_photos(slug)
+    used_photos: set[str] = set()
+    clip_paths: list[Path] = []
+
     for i, scene in enumerate(scenes):
-        print(f"  [image {i+1}/{len(scenes)}] {scene['image_prompt'][:60]}...")
-        png_bytes = gemini_generate_image(scene["image_prompt"], model=model)
+        clip_path = work_dir / f"clip_{i:02d}.mp4"
+        zoom_dir = "in" if i % 2 == 0 else "out"
+        scene_type = scene.get("scene_type", "ai")
+
+        # --- 1. Client photo ---
+        if scene_type == "client_photo" and photos_map:
+            photo = match_client_photo(scene.get("photo_keywords", []), photos_map, used_photos)
+            if photo:
+                print(f"  [clip {i+1}/{len(scenes)}] client photo: {photo.name[:45]}")
+                build_still_clip(photo, clip_path, scene_duration, zoom_dir)
+                used_photos.add(str(photo))
+                clip_paths.append(clip_path)
+                continue
+            print(f"  [clip {i+1}/{len(scenes)}] no matching client photo, trying Pexels...")
+
+        # --- 2. Pexels stock video ---
+        if scene_type in ("client_photo", "stock"):
+            query = scene.get("stock_query") or scene.get("narration", "")[:50]
+            print(f"  [clip {i+1}/{len(scenes)}] pexels: '{query[:45]}'...")
+            video_url = pexels_search_video(query, min_duration=int(scene_duration))
+            if video_url:
+                if download_and_trim_pexels(video_url, clip_path, scene_duration):
+                    clip_paths.append(clip_path)
+                    continue
+            print(f"      falling back to Gemini AI...")
+
+        # --- 3. Gemini AI image fallback ---
+        img_prompt = scene.get("image_prompt") or (
+            f"Photorealistic 16:9 professional restoration scene: {scene.get('narration', '')[:80]}, "
+            "dramatic professional lighting, hyperrealistic, restoration industry"
+        )
+        print(f"  [clip {i+1}/{len(scenes)}] gemini: {img_prompt[:50]}...")
+        png_bytes = gemini_generate_image(img_prompt, model=model)
         img_path = work_dir / f"scene_{i:02d}.png"
         img_path.write_bytes(png_bytes)
-        image_paths.append(img_path)
-        time.sleep(1)  # rate limit courtesy
-    return image_paths
+        build_still_clip(img_path, clip_path, scene_duration, zoom_dir)
+        clip_paths.append(clip_path)
+        time.sleep(1)  # Gemini rate limit courtesy
+
+    return clip_paths
 
 
 def generate_thumbnail(thumbnail_prompt: str, work_dir: Path, model: str) -> Path:
@@ -384,9 +554,9 @@ def get_audio_duration(audio_path: Path) -> float:
     return 0.0  # unreachable, satisfy type checker
 
 
-def build_scene_clip(img_path: Path, clip_path: Path, duration: float,
+def build_still_clip(img_path: Path, clip_path: Path, duration: float,
                      zoom_direction: str, fps: int = 30) -> None:
-    """Create a single scene clip with Ken Burns zoom effect."""
+    """Create a clip from a still image with Ken Burns zoom effect."""
     frames = int(duration * fps)
     if zoom_direction == "in":
         zoom_expr = "min(zoom+0.0005,1.04)"
@@ -418,35 +588,18 @@ BACKGROUND_MUSIC_PATH = REPO_ROOT / "assets" / "background_music.mp3"
 
 
 def assemble_video(
-    image_paths: list[Path],
+    clip_paths: list[Path],
     audio_path: Path,
     output_path: Path,
     work_dir: Path,
-    fps: int = 30,
 ) -> None:
-    """Assemble scene clips + narration into the final MP4.
-
-    If assets/background_music.mp3 exists it is mixed under the narration at
-    -18 dB so it adds ambience without competing with the voice.
-    """
+    """Concatenate pre-built scene clips with narration + optional background music."""
     audio_duration = get_audio_duration(audio_path)
-    scene_duration = audio_duration / len(image_paths)
-
-    print(f"  [video] audio={audio_duration:.1f}s, {len(image_paths)} scenes x {scene_duration:.1f}s each")
-
-    # Build individual scene clips
-    clip_paths: list[Path] = []
-    for i, img_path in enumerate(image_paths):
-        clip_path = work_dir / f"clip_{i:02d}.mp4"
-        zoom_dir = "in" if i % 2 == 0 else "out"
-        print(f"  [clip {i+1}/{len(image_paths)}] Ken Burns zoom-{zoom_dir}...")
-        build_scene_clip(img_path, clip_path, scene_duration, zoom_dir, fps=fps)
-        clip_paths.append(clip_path)
+    print(f"  [video] {len(clip_paths)} clips, audio={audio_duration:.1f}s")
 
     # Write concat list
     concat_list = work_dir / "concat.txt"
-    lines = [f"file '{cp.resolve()}'\n" for cp in clip_paths]
-    concat_list.write_text("".join(lines))
+    concat_list.write_text("".join(f"file '{cp.resolve()}'\n" for cp in clip_paths))
 
     # Mix narration with optional background music
     use_music = BACKGROUND_MUSIC_PATH.exists()
@@ -759,17 +912,19 @@ def cmd_make(args) -> int:
         audio_duration = get_audio_duration(audio_path)
         print(f"  Audio: {audio_duration:.1f}s ({len(narration)} chars)")
 
-        # Step 3 — scene images
-        print("\n[3/6] Generating scene images via Gemini...")
-        image_paths = generate_scene_images(scenes, work_dir, model)
+        # Step 3 — scene clips (client photos → Pexels → Gemini AI)
+        scene_duration = audio_duration / len(scenes)
+        print(f"\n[3/6] Building scene clips ({len(scenes)} scenes x {scene_duration:.1f}s)...")
+        clip_paths = generate_scene_clips(scenes, work_dir, model, slug, scene_duration)
 
-        # thumbnail
-        thumb_path = generate_thumbnail(script.get("thumbnail_prompt", scenes[0]["image_prompt"]), work_dir, model)
+        # thumbnail (always Gemini — needs specific composition with text area)
+        thumb_prompt = script.get("thumbnail_prompt") or scenes[0].get("image_prompt", "")
+        thumb_path = generate_thumbnail(thumb_prompt, work_dir, model)
 
         # Step 4 — FFmpeg assembly
         print("\n[4/6] Assembling video with FFmpeg...")
         video_path = work_dir / f"{post_slug}.mp4"
-        assemble_video(image_paths, audio_path, video_path, work_dir)
+        assemble_video(clip_paths, audio_path, video_path, work_dir)
         size_mb = video_path.stat().st_size / 1_000_000
         print(f"  Video: {video_path.name} ({size_mb:.1f} MB)")
 
