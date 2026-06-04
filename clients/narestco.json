@@ -23,8 +23,7 @@
   },
   "status": "active",
   "created_at": "2026-05-10T03:18:58.761481+00:00",
-  "updated_at": "2026-06-04T18:13:36.472342+00:00",  "plan_status": "planned",
-  "plan": {
+  "updated_at": "2026-06-04T18:13:36.472342+00:00",  "plan_status": "planned",  "plan": {
     "template": "restoration",
     "template_version": "0.1.0",
     "url_count": 229,
@@ -38,9 +37,10 @@
     "url_count": 229,
     "pages_status": "created",
     "last_rendered_at": "2026-05-14T15:12:15.203970+00:00",
-    "last_pushed_main_at": "2026-06-04T18:13:36.472327+00:00",    "last_pushed_staging_at": "2026-05-17T15:50:41.961967+00:00"
-  },
-  "build_status": "pushed_main",
+    "last_pushed_main_at": "2026-06-04T18:13:36.472327+00:00",    "last_pushed_staging_at": "2026-05-17T15:50:41.961967+00:00"  },
+  "build_status": "cut_over",
+  "cut_over_at": "2026-05-17T22:11:55+00:00",
+  "deploy_url": "https://narestco.com",
   "audit": {
     "last_audit_at": "2026-05-17T23:25:01+00:00",
     "last_audit_verdict": "amber",
@@ -68,5 +68,12 @@
     "property_url": "sc-domain:narestco.com",
     "verified_at": "2026-05-28T18:31:19+00:00",
     "sitemap_url": "https://narestco.com/sitemap-index.xml"
+  },
+  "google_ads": {
+    "customer_id": "3832550597",
+    "linked_at": "2026-06-02"
+  },
+  "brand": {
+    "google_ads_customer_id": "3832550597"
   }
 }
