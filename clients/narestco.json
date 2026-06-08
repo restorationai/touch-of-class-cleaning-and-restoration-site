@@ -23,7 +23,9 @@
   },
   "status": "active",
   "created_at": "2026-05-10T03:18:58.761481+00:00",
-  "updated_at": "2026-06-04T18:13:36.472342+00:00",  "plan_status": "planned",  "plan": {
+  "updated_at": "2026-06-08T18:28:28.663020+00:00",
+  "plan_status": "planned",
+  "plan": {
     "template": "restoration",
     "template_version": "0.1.0",
     "url_count": 229,
@@ -37,8 +39,10 @@
     "url_count": 229,
     "pages_status": "created",
     "last_rendered_at": "2026-05-14T15:12:15.203970+00:00",
-    "last_pushed_main_at": "2026-06-04T18:13:36.472327+00:00",    "last_pushed_staging_at": "2026-05-17T15:50:41.961967+00:00"  },
-  "build_status": "cut_over",
+    "last_pushed_main_at": "2026-06-08T18:28:28.663002+00:00",
+    "last_pushed_staging_at": "2026-05-17T15:50:41.961967+00:00"
+  },
+  "build_status": "pushed_main",
   "cut_over_at": "2026-05-17T22:11:55+00:00",
   "deploy_url": "https://narestco.com",
   "audit": {
