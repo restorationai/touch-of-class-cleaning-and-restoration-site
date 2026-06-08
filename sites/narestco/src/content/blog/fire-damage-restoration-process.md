@@ -1,90 +1,103 @@
 ---
 archetype: "blog-post"
-title: "The Fire Damage Restoration Process, Explained"
-h1: "The Fire Damage Restoration Process, Explained"
-meta_description: ""
-primary_keyword: "the fire damage restoration process explained"
-secondary_keywords: ["fire damage restoration", "smoke damage restoration"]
-search_intent: "informational_emergency"
-priority: 5.4
-plan_hash: "235742622f997214"
-generated_at: "2026-05-14T14:57:04.655016+00:00"
+title: "The Fire Damage Restoration Process: Step by Step"
+h1: "The Fire Damage Restoration Process: Step by Step"
+meta_description: "From emergency board-up to final reconstruction, here's exactly what happens during professional fire damage restoration — and what to expect at each stage."
+primary_keyword: "fire damage restoration process"
+secondary_keywords: ["residential fire damage restoration process", "fire restoration process step by step", "fire restoration cleaning process", "what does a fire restoration company do", "fire restoration checklist"]
+search_intent: "informational"
+priority: 7
+hero: "https://images.narestco.com/blog/2026/06/fire-damage-restoration-process/hero.webp"
+og: "https://images.narestco.com/blog/2026/06/fire-damage-restoration-process/hero.webp"
+generated_at: "2026-06-08T18:28:25Z"
 manual_override: false
-internal_links: ["/blog/", "/services/fire-damage-restoration/", "/services/smoke-damage-restoration/", "/blog/choosing-a-restoration-company/", "/blog/smoke-odor-removal-techniques/"]
-breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Blog", "url": "/blog/"}, {"name": "The Fire Damage Restoration Process, Explained"}]
-faq: [{"question": "Can I stay in my house after a fire while restoration is happening?", "answer": "It depends on the scope of the damage and which areas were affected. If the fire was contained to one room and the HVAC system wasn't running during the event, other parts of the home may be habitable \u2014 but you should confirm this with both your restoration contractor and your insurance adjuster before assuming it's safe. Smoke particulates and VOCs from fire residue can cause respiratory irritation even in rooms that look undamaged, and many insurance policies include loss-of-use coverage that pays for temporary housing precisely for this situation."}, {"question": "How long does the smoke smell last after a fire?", "answer": "Without professional treatment, smoke odor can persist for years \u2014 it's not something that airs out on its own. The VOCs responsible for the smell have penetrated porous materials like drywall, insulation, wood framing, and soft furnishings. Professional deodorization using thermal fogging, ozone treatment, and HEPA air scrubbing addresses the odor at the source rather than masking it. If the smell returns after a restoration, it typically means the ductwork wasn't cleaned or that soot-contaminated materials weren't fully removed before reconstruction."}, {"question": "Does homeowner's insurance cover fire damage restoration?", "answer": "Most standard homeowner's insurance policies cover fire damage, including both the structural repairs and the contents of the home, subject to your deductible and policy limits. Smoke damage \u2014 even in rooms that weren't directly burned \u2014 is typically covered as part of the same claim. What many policyholders don't realize is that loss-of-use coverage (also called \"additional living expenses\") can pay for a hotel or rental while the home is uninhabitable. Review your declarations page and call your insurer to open a claim as soon as possible; most policies require prompt notice of a loss."}, {"question": "What items can be saved after a fire, and what has to be thrown away?", "answer": "Hard, non-porous items \u2014 glass, metal, ceramics, and many plastics \u2014 can often be cleaned and restored. Porous materials like mattresses, upholstered furniture, and particleboard are much harder to fully deodorize and are frequently a total loss. Electronics exposed to smoke should be evaluated by a technician before being powered on, since soot is conductive and can cause short circuits. Food, medications, and cosmetics that were in the affected area should be discarded \u2014 smoke residue and firefighting chemicals can contaminate them in ways that aren't visible."}]
-published_at: "2026-05-13"
-services: ["fire-damage-restoration", "smoke-damage-restoration"]
+internal_links: ["/services/fire-damage-restoration/", "/services/smoke-damage-restoration/", "/services/soot-removal/", "/services/odor-removal/", "/services/reconstruction/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Blog", "url": "/blog/"}, {"name": "The Fire Damage Restoration Process: Step by Step"}]
+faq: [{"question": "How long does fire damage restoration take from start to finish?", "answer": "It depends heavily on fire severity. A contained single-room fire typically takes 2-4 weeks from board-up through reconstruction. A whole-floor or multi-room fire can run 6-12 weeks or longer, especially if structural permits are required. The mitigation phases (cleaning, drying, odor treatment) usually complete within 7-14 days; reconstruction is where timelines extend."}, {"question": "Can smoke damage in rooms that didn't burn be restored, or does everything need to be replaced?", "answer": "Most hard surfaces in smoke-affected rooms can be cleaned and sealed rather than replaced. Drywall with light-to-moderate smoke residue is typically cleaned, primed with a stain-blocking primer, and repainted. Heavily saturated drywall, insulation, and porous soft goods (carpet, upholstered furniture) are more often replaced because the cost to clean exceeds the replacement value and odor compounds are difficult to fully neutralize in highly porous materials."}, {"question": "Why does my house still smell like smoke after the cleaning crew finished?", "answer": "Surface cleaning removes visible soot but doesn't address odor compounds that have penetrated porous materials \u2014 drywall, wood framing, subfloor, and concrete. Persistent smoke odor after cleaning usually means the odor elimination phase (thermal fogging, ozone treatment, or hydroxyl generation) was skipped or incomplete, or that surfaces were repainted without a stain-blocking primer seal. A proper restoration sequence treats odor as a separate, dedicated phase after cleaning."}, {"question": "Does homeowners insurance cover the full fire damage restoration process?", "answer": "Standard homeowners policies cover fire damage from sudden, accidental fires \u2014 including mitigation (board-up, cleaning, drying), contents restoration, and reconstruction up to the policy's dwelling coverage limit. Emergency services like board-up are typically covered as part of the claim. Your adjuster will work from the written scope the restoration contractor provides. Disputes usually arise from vague scope documentation or from work that started before the adjuster could inspect \u2014 both are avoidable with a documented pre-work assessment."}, {"question": "What is thermal fogging and is it safe for my home?", "answer": "Thermal fogging vaporizes a deodorizing solution into a fine fog that penetrates the same porous pathways smoke traveled through. The fog particles bond to odor compounds and neutralize them chemically. It is not safe to occupy the structure during treatment \u2014 occupants, pets, and plants must be removed. After treatment, the structure is ventilated for several hours before re-entry. When applied correctly by a trained technician, thermal fogging leaves no harmful residue."}, {"question": "What does IICRC S700 mean and why does it matter for fire restoration?", "answer": "The IICRC S700 is the industry standard for fire and smoke damage restoration, published by the Institute of Inspection, Cleaning and Restoration Certification. It defines how smoke residues are classified (wet, dry, protein, fuel oil), what cleaning methods are appropriate for each type, and what documentation a proper restoration job requires. Hiring a contractor who follows S700 protocols matters because using the wrong cleaning method for a residue type can spread contamination further or permanently damage surfaces."}]
+published_at: "2026-06-08"
+services: ["fire-damage-restoration", "smoke-damage-restoration", "soot-removal", "odor-removal"]
 rendered: true
 ---
-Fire damage restoration follows a predictable sequence — even when the fire itself felt anything but. Whether you're dealing with a small kitchen fire or a blaze that spread through multiple rooms, the process moves through six core phases: emergency securing, damage assessment, water and debris removal, smoke and soot cleaning, structural drying and deodorization, and finally reconstruction. Knowing what happens at each stage helps you ask the right questions, understand your insurance adjuster's timeline, and avoid the common mistakes that turn a recoverable situation into a much larger one.
+Your house fire is out. The fire department has cleared the scene. Now you're standing in front of a property that smells like a chimney, has blackened walls, and may have water damage on top of the fire damage from suppression efforts. What happens next, and in what order? Here's the full fire damage restoration process broken into seven stages, with the reasoning behind each one.
 
-## Phase 1: Emergency Stabilization (Hours 0–24)
+## Why the sequence matters
 
-The first thing a restoration crew does after a fire is assess whether the structure is safe to enter. That's not a formality — fires weaken load-bearing walls, warp floor joists, and can compromise a roof in ways that aren't obvious from the outside. If firefighters used significant water, you may also have active structural saturation on top of the fire damage.
+Fire restoration isn't just cleaning up char. Smoke and soot are chemically active — they keep etching surfaces, corroding metals, and penetrating porous materials for days after the fire is out. The longer the wait, the deeper the damage. A professional crew works the process in a specific order because each step creates the conditions the next step requires. Skipping or reordering stages creates problems downstream.
 
-Once the site is cleared, the priority is securing the building envelope:
+The IICRC S700 standard governs fire and smoke damage restoration. It classifies smoke residues by type (wet, dry, protein, fuel oil) because each type requires a different cleaning chemistry. A crew that treats all soot the same way will either spread residue further or etch finishes they were trying to save.
 
-1. **Board up windows and doors** that were broken or burned through. This keeps weather out and deters theft — a real concern when a property is visibly damaged and unoccupied.
-2. **Tarp the roof** over any areas where sheathing or shingles burned away. Even a Pacific Northwest drizzle can soak insulation and framing within hours, compounding the damage.
-3. **Shut off utilities** if they haven't been already. Gas and electricity should stay off until a licensed inspector clears them.
-4. **Document everything before touching it.** Your insurance claim depends on a clear photographic record of the pre-remediation condition.
+## Step 1: Emergency board-up and site stabilization (Day 1)
 
-If your fire happened in Federal Way or anywhere in King or Pierce County, the local fire marshal may place a placard on the structure indicating whether it's safe to re-enter. Follow that guidance — it's not bureaucratic caution, it's based on what the crew saw inside.
+Before any cleaning or assessment happens, the structure needs to be secured. Broken windows, compromised doors, and roof openings from fire or suppression activity create two problems: weather intrusion (especially relevant in the Pacific Northwest, where rain arrives fast) and unauthorized entry.
 
-## Phase 2: Damage Assessment and Insurance Documentation
+A board-up crew installs plywood over window and door openings, applies roof tarps to any breached areas, and places visible security notices. This step is typically billable to your insurance claim as an emergency service. Keep the invoice — adjusters expect it.
 
-A thorough assessment is what separates a well-managed restoration from one that drags on for months. A qualified restoration contractor — ideally one that's IICRC-certified in fire and smoke restoration — will walk the entire structure and categorize damage into three types:
+If the fire involved structural collapse or the building is tagged as unsafe by the fire marshal, no interior work begins until a structural engineer clears the site.
 
-- **Primary fire damage:** materials that were directly burned or charred
-- **Secondary smoke and soot damage:** surfaces that weren't touched by flame but are coated in residue, which can extend far from the fire's origin
-- **Water damage:** from suppression efforts, which can affect areas that never saw smoke
+## Step 2: Damage assessment and scope development (Day 1-2)
 
-Smoke travels further than most people expect. In a house fire that starts in the garage, soot can infiltrate HVAC ductwork and deposit on walls two floors away. That's not hypothetical — it's a common finding on assessments, and it matters because untreated smoke residue continues to corrode metal surfaces and degrade fabrics for months after the fire.
+Once the structure is secured, a project manager walks the property with a moisture meter, a thermal imaging camera, and a detailed scope form. The assessment does three things:
 
-This assessment phase is also when your restoration contractor should be communicating directly with your insurance adjuster. Most reputable contractors handle insurance billing directly and can provide the line-item documentation adjusters require.
+- **Classifies the fire and smoke type.** Kitchen grease fires produce wet, sticky smoke residue that behaves differently from a dry-fuel fire in a living room. Protein smoke from a stovetop fire is nearly invisible but creates a powerful odor and bonds tightly to surfaces.
+- **Documents suppression water damage.** Fire hoses deliver high volumes of water. If firefighters worked the scene, expect Category 1 water intrusion (clean water from municipal supply) that needs the same drying protocol as a burst pipe.
+- **Establishes the scope for insurance.** The written scope — itemizing what gets cleaned, what gets replaced, and what gets reconstructed — is the document your adjuster works from. A vague scope creates disputes. A detailed, line-item scope with photos reduces them.
 
-## Phase 3: Debris Removal and Structural Cleaning
+This is also when the crew identifies contents that can be restored versus contents that need to be discarded. Electronics, upholstered furniture, and documents all have different restoration thresholds.
 
-Anything that's burned beyond recovery comes out first — charred drywall, melted insulation, compromised framing. This isn't just aesthetic cleanup; burned organic material off-gasses continuously and is a primary source of that persistent smoke smell that can linger for years in an improperly remediated home.
+## Step 3: Debris removal and controlled demolition (Days 2-4)
 
-Once the debris is cleared, the structural cleaning begins. This is more technical than it sounds:
+Charred structural materials — drywall, insulation, framing — can't be cleaned. They're removed. This is sometimes called "controlled demo" because the crew is selectively taking out only what's unsalvageable, not gutting the entire structure.
 
-- **Dry soot** (from fast, hot fires) is typically brushed and vacuumed before wet cleaning, because wetting it first can drive it deeper into porous surfaces.
-- **Wet soot** (from slow, smoldering fires — common with upholstered furniture or synthetic materials) requires chemical sponges and alkaline cleaners to lift the oily residue.
-- **Protein residue** from kitchen fires is nearly invisible but produces an intense, rancid odor. It bonds tightly to surfaces and requires enzymatic cleaners to break down.
+Debris removal also exposes hidden fire spread. Fire travels through wall cavities and attic spaces in ways that aren't visible from the surface. Pulling drywall in the affected area often reveals char lines that extend further than the visible burn zone. Better to find that now than after reconstruction.
 
-Concrete, brick, and unfinished wood are particularly absorbent. Masonry in a Federal Way home that's seen decades of Pacific Northwest moisture tends to be more porous than masonry in drier climates, which means soot penetrates deeper and requires more aggressive treatment.
+During debris removal, the crew also removes contents that are being packed out for off-site cleaning. Clothing, soft goods, and restorable furniture go to a contents cleaning facility where they're processed with ultrasonic cleaning, ozone chambers, or dry-cleaning methods depending on the material.
 
-## Phase 4: Deodorization and Air Quality Treatment
+## Step 4: Soot and smoke cleaning (Days 3-7)
 
-This is the phase most homeowners underestimate — and the one that most often gets cut short when people try to manage restoration themselves.
+This is the most labor-intensive phase and the one most homeowners underestimate. Smoke travels through an entire structure during a fire — not just the rooms that burned. Soot deposits on every surface that air reached: inside HVAC ducts, inside closets, on top of ceiling fan blades, behind outlet covers.
 
-Smoke odor isn't just a surface problem. The volatile organic compounds (VOCs) that cause that acrid smell have penetrated wall cavities, subfloor assemblies, and HVAC systems. Spraying air freshener or painting over soot-stained walls doesn't eliminate the odor source; it temporarily masks it, and the smell returns — especially in warm weather when materials off-gas more aggressively.
+The cleaning method depends on residue type:
 
-Professional deodorization typically involves a combination of:
+- **Dry soot** (from fast-burning, low-moisture fuels) is powdery and responds to dry chemical sponges and HEPA vacuuming before wet cleaning.
+- **Wet soot** (from slow-burning, high-moisture fuels like rubber or synthetic materials) is smeared by dry methods and requires specific alkaline cleaners.
+- **Protein residue** (stovetop fires) requires enzymatic cleaners and often repainting because the residue bonds to the paint layer itself.
 
-1. **Thermal fogging** — a deodorizing solvent is vaporized and dispersed through the structure, penetrating the same pathways smoke traveled
-2. **Ozone treatment** — ozone generators oxidize odor molecules at a molecular level; this requires the structure to be unoccupied during treatment
-3. **HEPA air scrubbing** — continuous filtration to capture fine particulates that remain airborne long after visible smoke clears
-4. **Duct cleaning** — if the HVAC system ran during or after the fire, the ductwork is almost certainly contaminated and needs to be addressed before the system is used again
+Hard surfaces — walls, ceilings, cabinets — are cleaned with appropriate chemistry and then sealed with a stain-blocking primer before any finish coat. The primer step is not optional. Smoke odor compounds in unsealed drywall will off-gas through new paint indefinitely.
 
-## Phase 5: Structural Drying
+In Tacoma and other jurisdictions with municipal HEPA filtration ordinances, restoration work that produces airborne particulate — including soot cleaning — requires HEPA-filtered negative air machines running continuously during the cleaning phase. This keeps fine particulate from migrating to unaffected areas of the structure and complies with local air quality requirements.
 
-If firefighters used hose lines inside the structure, you're dealing with a combined fire and water damage event. Water moves fast — it can travel through wall cavities and saturate subfloor assemblies within minutes. Mold colonization can begin in as little as 24–48 hours in wet materials, so drying isn't something that can wait until after reconstruction planning.
+National Restoration Construction's [soot removal](/services/soot-removal/) and [smoke damage restoration](/services/smoke-damage-restoration/) work follows IICRC S700 protocols, with residue-type identification before any cleaning chemistry is applied.
 
-Industrial dehumidifiers and air movers run continuously — often for 3–5 days, sometimes longer depending on the extent of saturation and the ambient humidity. In the Seattle metro area, where outdoor relative humidity regularly runs above 70%, mechanical drying is essential; opening windows is not a substitute.
+## Step 5: Structural drying (Days 3-7, overlapping with cleaning)
 
-Moisture readings are taken daily using thermal imaging and pin-type meters to verify that structural materials are reaching acceptable dryness levels before reconstruction begins.
+If suppression water is present, drying runs concurrently with cleaning. The drying protocol is essentially the same as a water damage job: LGR (low-grain refrigerant) dehumidifiers pull moisture from the air, axial air movers accelerate evaporation from wet structural materials, and moisture meters track daily readings until the materials reach their dry standard.
 
-## Phase 6: Reconstruction
+Fire-damaged structures have a complication water-only jobs don't: wet materials that also have soot contamination can't be dried in place if the drying airflow would spread soot further. The sequence matters — HEPA vacuum and clean before directing high-velocity air across a soot-covered surface.
 
-Once the structure is clean, dry, and deodorized, rebuilding can begin. Depending on the extent of damage, this can range from repainting and replacing drywall in a single room to full structural reconstruction involving framing, roofing, electrical, and mechanical systems.
+Drying typically takes 3-5 days for standard residential water intrusion from suppression, longer if the structure has dense framing or concrete elements.
 
-A contractor who handles both the remediation and the reconstruction — sometimes called a "full-service" or "design-build" restoration firm — can simplify the process considerably. You're working with one point of contact, one insurance file, and one project timeline rather than coordinating between a remediation company and a separate general contractor.
+## Step 6: Odor elimination (Days 5-10)
 
-Timelines vary widely. A contained kitchen fire with no structural damage might be resolved in two to three weeks. A fire that spread through multiple rooms and required significant structural work can take three to six months, particularly when permit timelines are involved.
+Once surfaces are clean and dry, odor treatment begins. Smoke odor is not a surface problem — the compounds (aldehydes, phenols, and other combustion byproducts) have penetrated into porous materials: drywall, wood framing, concrete, and subfloor. Masking sprays don't work. The odor has to be neutralized at the molecular level.
 
----
+Two primary methods are used, often in combination:
 
-If you're in the early stages of dealing with fire damage — or even just trying to understand what your insurance company is telling you — the most useful thing you can do right now is get a professional assessment before making any decisions about what to keep, what to discard, or what repairs to authorize. National Restoration Construction handles fire and smoke damage restoration throughout Federal Way and the surrounding King and Pierce County area. Call **(206) 883-0333** any time — the line is answered around the clock.
+- **Thermal fogging**: A petroleum-based or water-based deodorizer is vaporized into a fog that penetrates the same porous pathways the smoke followed. The fog particles bond to odor compounds and neutralize them. The structure must be vacated during treatment.
+- **Ozone treatment**: An ozone generator produces O3, which oxidizes odor compounds on contact. Effective in enclosed spaces. The structure must be vacated and ventilated thoroughly before re-entry — ozone at treatment concentrations is harmful to breathe.
+- **Hydroxyl generators**: A slower but occupant-safe alternative to ozone. Uses UV light to generate hydroxyl radicals that break down odor compounds. Can run while occupants are present in some configurations.
+
+For severe fires, thermal fogging and ozone are often used in sequence. [Odor removal](/services/odor-removal/) after fire damage is one of the more technically demanding parts of the job — a structure that passes visual inspection but still smells like smoke will fail a re-occupancy inspection and, more practically, will be unlivable.
+
+## Step 7: Reconstruction (Weeks 2-6+)
+
+With the structure clean, dry, and deodorized, reconstruction begins. Scope varies enormously based on fire severity: a contained kitchen fire might require only drywall replacement, cabinet reinstallation, and repainting. A whole-floor fire may require full framing repair, new mechanical and electrical rough-in, insulation, drywall, flooring, and finish work.
+
+Because National Restoration Construction holds a General Contractor Certificate of Registration with WA State Department of Labor & Industries (license NATIORC792M6), the same company that handled mitigation can carry the project through to finished reconstruction — which simplifies insurance billing, eliminates handoff gaps, and keeps one point of accountability for the entire scope.
+
+Reconstruction timelines depend on permit requirements, material lead times, and the insurance claim cycle. A well-documented scope from Step 2 accelerates the claim approval, which is the most common bottleneck.
+
+## What to do right now
+
+If you're in the immediate aftermath of a fire, three things matter before anything else: get a board-up scheduled (weather and security), call your insurance carrier to open a claim, and request a written damage assessment from a restoration contractor before any cleanup work begins. Work that starts before documentation is created is work that may not get reimbursed.
+
+For a detailed assessment of your property's scope, contact National Restoration Construction at (206) 883-0333 — available 24/7 for emergency response and next-day assessments across the greater Seattle-Tacoma area.
