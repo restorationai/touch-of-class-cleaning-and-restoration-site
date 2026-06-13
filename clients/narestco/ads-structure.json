@@ -1,0 +1,790 @@
+{
+  "campaigns": {
+    "water-flood": {
+      "name": "National Restoration Construction - Water and Flood",
+      "resource_name": "customers/3832550597/campaigns/23943830377",
+      "budget_resource": "customers/3832550597/campaignBudgets/15654162637",
+      "services": [
+        "water-damage-restoration"
+      ]
+    },
+    "fire-smoke": {
+      "name": "National Restoration Construction - Fire and Smoke",
+      "resource_name": "customers/3832550597/campaigns/23939263802",
+      "budget_resource": "customers/3832550597/campaignBudgets/15654164542",
+      "services": [
+        "fire-damage-restoration"
+      ]
+    },
+    "mold-air-quality": {
+      "name": "National Restoration Construction - Mold and Air Quality",
+      "resource_name": "customers/3832550597/campaigns/23934073908",
+      "budget_resource": "customers/3832550597/campaignBudgets/15644084330",
+      "services": [
+        "mold-remediation"
+      ]
+    }
+  },
+  "ad_groups": {
+    "water-flood_federal-way-wa_water-damage-restoration": {
+      "name": "Water Damage - Federal Way, WA",
+      "resource_name": "customers/3832550597/adGroups/195263573497",
+      "campaign_key": "water-flood",
+      "service": "water-damage-restoration",
+      "area": "federal-way-wa",
+      "ad_resource": "customers/3832550597/adGroupAds/195263573497~812876681747",
+      "final_url": "https://narestco.com/lp/water-damage-restoration-federal-way-wa/",
+      "extra_ad_resources": [
+        {
+          "angle": "trust",
+          "ad_resource": "customers/3832550597/adGroupAds/195263573497~812776044663"
+        },
+        {
+          "angle": "value",
+          "ad_resource": "customers/3832550597/adGroupAds/195263573497~812776075605"
+        }
+      ]
+    },
+    "water-flood_seattle-wa_water-damage-restoration": {
+      "name": "Water Damage - Seattle, WA",
+      "resource_name": "customers/3832550597/adGroups/198081736952",
+      "campaign_key": "water-flood",
+      "service": "water-damage-restoration",
+      "area": "seattle-wa",
+      "ad_resource": "customers/3832550597/adGroupAds/198081736952~812804946691",
+      "final_url": "https://narestco.com/lp/water-damage-restoration-seattle-wa/",
+      "extra_ad_resources": [
+        {
+          "angle": "trust",
+          "ad_resource": "customers/3832550597/adGroupAds/198081736952~812808625411"
+        },
+        {
+          "angle": "value",
+          "ad_resource": "customers/3832550597/adGroupAds/198081736952~812880310289"
+        }
+      ]
+    },
+    "water-flood_bellevue-wa_water-damage-restoration": {
+      "name": "Water Damage - Bellevue, WA",
+      "resource_name": "customers/3832550597/adGroups/196203509663",
+      "campaign_key": "water-flood",
+      "service": "water-damage-restoration",
+      "area": "bellevue-wa",
+      "ad_resource": "customers/3832550597/adGroupAds/196203509663~812804954764",
+      "final_url": "https://narestco.com/lp/water-damage-restoration-bellevue-wa/",
+      "extra_ad_resources": [
+        {
+          "angle": "trust",
+          "ad_resource": "customers/3832550597/adGroupAds/196203509663~812808647497"
+        },
+        {
+          "angle": "value",
+          "ad_resource": "customers/3832550597/adGroupAds/196203509663~812808677698"
+        }
+      ]
+    },
+    "water-flood_tacoma-wa_water-damage-restoration": {
+      "name": "Water Damage - Tacoma, WA",
+      "resource_name": "customers/3832550597/adGroups/198220192020",
+      "campaign_key": "water-flood",
+      "service": "water-damage-restoration",
+      "area": "tacoma-wa",
+      "ad_resource": "customers/3832550597/adGroupAds/198220192020~812876658683",
+      "final_url": "https://narestco.com/lp/water-damage-restoration-tacoma-wa/",
+      "extra_ad_resources": [
+        {
+          "angle": "trust",
+          "ad_resource": "customers/3832550597/adGroupAds/198220192020~812776155756"
+        },
+        {
+          "angle": "value",
+          "ad_resource": "customers/3832550597/adGroupAds/198220192020~812880437420"
+        }
+      ]
+    },
+    "water-flood_everett-wa_water-damage-restoration": {
+      "name": "Water Damage - Everett, WA",
+      "resource_name": "customers/3832550597/adGroups/196177886094",
+      "campaign_key": "water-flood",
+      "service": "water-damage-restoration",
+      "area": "everett-wa",
+      "ad_resource": "customers/3832550597/adGroupAds/196177886094~812876658710",
+      "final_url": "https://narestco.com/lp/water-damage-restoration-everett-wa/",
+      "extra_ad_resources": [
+        {
+          "angle": "trust",
+          "ad_resource": "customers/3832550597/adGroupAds/196177886094~812880437468"
+        },
+        {
+          "angle": "value",
+          "ad_resource": "customers/3832550597/adGroupAds/196177886094~812880461498"
+        }
+      ]
+    },
+    "water-flood_kent-wa_water-damage-restoration": {
+      "name": "Water Damage - Kent, WA",
+      "resource_name": "customers/3832550597/adGroups/201309812590",
+      "campaign_key": "water-flood",
+      "service": "water-damage-restoration",
+      "area": "kent-wa",
+      "ad_resource": "customers/3832550597/adGroupAds/201309812590~812804975239",
+      "final_url": "https://narestco.com/lp/water-damage-restoration-kent-wa/",
+      "extra_ad_resources": [
+        {
+          "angle": "trust",
+          "ad_resource": "customers/3832550597/adGroupAds/201309812590~812880461642"
+        },
+        {
+          "angle": "value",
+          "ad_resource": "customers/3832550597/adGroupAds/201309812590~812808795598"
+        }
+      ]
+    },
+    "water-flood_renton-wa_water-damage-restoration": {
+      "name": "Water Damage - Renton, WA",
+      "resource_name": "customers/3832550597/adGroups/197534945917",
+      "campaign_key": "water-flood",
+      "service": "water-damage-restoration",
+      "area": "renton-wa",
+      "ad_resource": "customers/3832550597/adGroupAds/197534945917~812772708705",
+      "final_url": "https://narestco.com/lp/water-damage-restoration-renton-wa/",
+      "extra_ad_resources": [
+        {
+          "angle": "trust",
+          "ad_resource": "customers/3832550597/adGroupAds/197534945917~812776250058"
+        },
+        {
+          "angle": "value",
+          "ad_resource": "customers/3832550597/adGroupAds/197534945917~812776280079"
+        }
+      ]
+    },
+    "water-flood_auburn-wa_water-damage-restoration": {
+      "name": "Water Damage - Auburn, WA",
+      "resource_name": "customers/3832550597/adGroups/199962043880",
+      "campaign_key": "water-flood",
+      "service": "water-damage-restoration",
+      "area": "auburn-wa",
+      "ad_resource": "customers/3832550597/adGroupAds/199962043880~812772711036",
+      "final_url": "https://narestco.com/lp/water-damage-restoration-auburn-wa/",
+      "extra_ad_resources": [
+        {
+          "angle": "trust",
+          "ad_resource": "customers/3832550597/adGroupAds/199962043880~812808859888"
+        },
+        {
+          "angle": "value",
+          "ad_resource": "customers/3832550597/adGroupAds/199962043880~812808860071"
+        }
+      ]
+    },
+    "water-flood_kirkland-wa_water-damage-restoration": {
+      "name": "Water Damage - Kirkland, WA",
+      "resource_name": "customers/3832550597/adGroups/197932499696",
+      "campaign_key": "water-flood",
+      "service": "water-damage-restoration",
+      "area": "kirkland-wa",
+      "ad_resource": "customers/3832550597/adGroupAds/197932499696~812876715560",
+      "final_url": "https://narestco.com/lp/water-damage-restoration-kirkland-wa/",
+      "extra_ad_resources": [
+        {
+          "angle": "trust",
+          "ad_resource": "customers/3832550597/adGroupAds/197932499696~812808811888"
+        },
+        {
+          "angle": "value",
+          "ad_resource": "customers/3832550597/adGroupAds/197932499696~812808929686"
+        }
+      ]
+    },
+    "water-flood_redmond-wa_water-damage-restoration": {
+      "name": "Water Damage - Redmond, WA",
+      "resource_name": "customers/3832550597/adGroups/200188032929",
+      "campaign_key": "water-flood",
+      "service": "water-damage-restoration",
+      "area": "redmond-wa",
+      "ad_resource": "customers/3832550597/adGroupAds/200188032929~812772726189",
+      "final_url": "https://narestco.com/lp/water-damage-restoration-redmond-wa/",
+      "extra_ad_resources": [
+        {
+          "angle": "trust",
+          "ad_resource": "customers/3832550597/adGroupAds/200188032929~812808941434"
+        },
+        {
+          "angle": "value",
+          "ad_resource": "customers/3832550597/adGroupAds/200188032929~812880141491"
+        }
+      ]
+    },
+    "water-flood_water-damage-restoration_near-me": {
+      "name": "Water Damage - Near Me",
+      "resource_name": "customers/3832550597/adGroups/197535020557",
+      "campaign_key": "water-flood",
+      "service": "water-damage-restoration",
+      "intent": "near-me",
+      "ad_resource": "customers/3832550597/adGroupAds/197535020557~812876659169",
+      "final_url": "https://narestco.com/lp/water-damage-restoration-near-me/"
+    },
+    "water-flood_water-damage-restoration_emergency": {
+      "name": "Water Damage - Emergency",
+      "resource_name": "customers/3832550597/adGroups/197535029717",
+      "campaign_key": "water-flood",
+      "service": "water-damage-restoration",
+      "intent": "emergency",
+      "ad_resource": "customers/3832550597/adGroupAds/197535029717~812772849579",
+      "final_url": "https://narestco.com/lp/water-damage-restoration-emergency/"
+    },
+    "water-flood_water-damage-restoration_cost": {
+      "name": "Water Damage - Cost",
+      "resource_name": "customers/3832550597/adGroups/197535004757",
+      "campaign_key": "water-flood",
+      "service": "water-damage-restoration",
+      "intent": "cost",
+      "ad_resource": "customers/3832550597/adGroupAds/197535004757~812772827988",
+      "final_url": "https://narestco.com/lp/water-damage-restoration-cost/"
+    },
+    "water-flood_water-damage-restoration_company": {
+      "name": "Water Damage - Company",
+      "resource_name": "customers/3832550597/adGroups/197535045757",
+      "campaign_key": "water-flood",
+      "service": "water-damage-restoration",
+      "intent": "company",
+      "ad_resource": "customers/3832550597/adGroupAds/197535045757~812772862998",
+      "final_url": "https://narestco.com/lp/water-damage-restoration-company/"
+    },
+    "water-flood_water-damage-restoration_free-estimate": {
+      "name": "Water Damage - Free Estimate",
+      "resource_name": "customers/3832550597/adGroups/197535053277",
+      "campaign_key": "water-flood",
+      "service": "water-damage-restoration",
+      "intent": "free-estimate",
+      "ad_resource": "customers/3832550597/adGroupAds/197535053277~812772862236",
+      "final_url": "https://narestco.com/lp/water-damage-restoration-free-estimate/"
+    },
+    "water-flood_water-damage-restoration_insurance": {
+      "name": "Water Damage - Insurance",
+      "resource_name": "customers/3832550597/adGroups/197535061117",
+      "campaign_key": "water-flood",
+      "service": "water-damage-restoration",
+      "intent": "insurance",
+      "ad_resource": "customers/3832550597/adGroupAds/197535061117~812876776514",
+      "final_url": "https://narestco.com/lp/water-damage-restoration-insurance/"
+    },
+    "water-flood_water-damage-restoration_removal": {
+      "name": "Water Damage - Removal",
+      "resource_name": "customers/3832550597/adGroups/200553888954",
+      "campaign_key": "water-flood",
+      "service": "water-damage-restoration",
+      "intent": "removal",
+      "ad_resource": "customers/3832550597/adGroupAds/200553888954~812876726306",
+      "final_url": "https://narestco.com/lp/water-damage-restoration-removal/"
+    },
+    "fire-smoke_federal-way-wa_fire-damage-restoration": {
+      "name": "Fire Damage - Federal Way, WA",
+      "resource_name": "customers/3832550597/adGroups/198376717598",
+      "campaign_key": "fire-smoke",
+      "service": "fire-damage-restoration",
+      "area": "federal-way-wa",
+      "ad_resource": "customers/3832550597/adGroupAds/198376717598~812772750186",
+      "final_url": "https://narestco.com/lp/fire-damage-restoration-federal-way-wa/",
+      "extra_ad_resources": [
+        {
+          "angle": "trust",
+          "ad_resource": "customers/3832550597/adGroupAds/198376717598~812776331985"
+        },
+        {
+          "angle": "value",
+          "ad_resource": "customers/3832550597/adGroupAds/198376717598~812776360548"
+        }
+      ]
+    },
+    "fire-smoke_seattle-wa_fire-damage-restoration": {
+      "name": "Fire Damage - Seattle, WA",
+      "resource_name": "customers/3832550597/adGroups/200364781631",
+      "campaign_key": "fire-smoke",
+      "service": "fire-damage-restoration",
+      "area": "seattle-wa",
+      "ad_resource": "customers/3832550597/adGroupAds/200364781631~812804982211",
+      "final_url": "https://narestco.com/lp/fire-damage-restoration-seattle-wa/",
+      "extra_ad_resources": [
+        {
+          "angle": "trust",
+          "ad_resource": "customers/3832550597/adGroupAds/200364781631~812809010566"
+        },
+        {
+          "angle": "value",
+          "ad_resource": "customers/3832550597/adGroupAds/200364781631~812809022071"
+        }
+      ]
+    },
+    "fire-smoke_bellevue-wa_fire-damage-restoration": {
+      "name": "Fire Damage - Bellevue, WA",
+      "resource_name": "customers/3832550597/adGroups/197672915899",
+      "campaign_key": "fire-smoke",
+      "service": "fire-damage-restoration",
+      "area": "bellevue-wa",
+      "ad_resource": "customers/3832550597/adGroupAds/197672915899~812772762441",
+      "final_url": "https://narestco.com/lp/fire-damage-restoration-bellevue-wa/",
+      "extra_ad_resources": [
+        {
+          "angle": "trust",
+          "ad_resource": "customers/3832550597/adGroupAds/197672915899~812809028629"
+        },
+        {
+          "angle": "value",
+          "ad_resource": "customers/3832550597/adGroupAds/197672915899~812809028773"
+        }
+      ]
+    },
+    "fire-smoke_tacoma-wa_fire-damage-restoration": {
+      "name": "Fire Damage - Tacoma, WA",
+      "resource_name": "customers/3832550597/adGroups/198376755518",
+      "campaign_key": "fire-smoke",
+      "service": "fire-damage-restoration",
+      "area": "tacoma-wa",
+      "ad_resource": "customers/3832550597/adGroupAds/198376755518~812876670425",
+      "final_url": "https://narestco.com/lp/fire-damage-restoration-tacoma-wa/",
+      "extra_ad_resources": [
+        {
+          "angle": "trust",
+          "ad_resource": "customers/3832550597/adGroupAds/198376755518~812809041262"
+        },
+        {
+          "angle": "value",
+          "ad_resource": "customers/3832550597/adGroupAds/198376755518~812880667439"
+        }
+      ]
+    },
+    "fire-smoke_everett-wa_fire-damage-restoration": {
+      "name": "Fire Damage - Everett, WA",
+      "resource_name": "customers/3832550597/adGroups/200364861551",
+      "campaign_key": "fire-smoke",
+      "service": "fire-damage-restoration",
+      "area": "everett-wa",
+      "ad_resource": "customers/3832550597/adGroupAds/200364861551~812772762657",
+      "final_url": "https://narestco.com/lp/fire-damage-restoration-everett-wa/",
+      "extra_ad_resources": [
+        {
+          "angle": "trust",
+          "ad_resource": "customers/3832550597/adGroupAds/200364861551~812809074364"
+        },
+        {
+          "angle": "value",
+          "ad_resource": "customers/3832550597/adGroupAds/200364861551~812776544136"
+        }
+      ]
+    },
+    "fire-smoke_kent-wa_fire-damage-restoration": {
+      "name": "Fire Damage - Kent, WA",
+      "resource_name": "customers/3832550597/adGroups/199107466044",
+      "campaign_key": "fire-smoke",
+      "service": "fire-damage-restoration",
+      "area": "kent-wa",
+      "ad_resource": "customers/3832550597/adGroupAds/199107466044~812876724155",
+      "final_url": "https://narestco.com/lp/fire-damage-restoration-kent-wa/",
+      "extra_ad_resources": [
+        {
+          "angle": "trust",
+          "ad_resource": "customers/3832550597/adGroupAds/199107466044~812880689276"
+        },
+        {
+          "angle": "value",
+          "ad_resource": "customers/3832550597/adGroupAds/199107466044~812809132033"
+        }
+      ]
+    },
+    "fire-smoke_renton-wa_fire-damage-restoration": {
+      "name": "Fire Damage - Renton, WA",
+      "resource_name": "customers/3832550597/adGroups/202623019612",
+      "campaign_key": "fire-smoke",
+      "service": "fire-damage-restoration",
+      "area": "renton-wa",
+      "ad_resource": "customers/3832550597/adGroupAds/202623019612~812876745734",
+      "final_url": "https://narestco.com/lp/fire-damage-restoration-renton-wa/",
+      "extra_ad_resources": [
+        {
+          "angle": "trust",
+          "ad_resource": "customers/3832550597/adGroupAds/202623019612~812809164421"
+        },
+        {
+          "angle": "value",
+          "ad_resource": "customers/3832550597/adGroupAds/202623019612~812776595988"
+        }
+      ]
+    },
+    "fire-smoke_auburn-wa_fire-damage-restoration": {
+      "name": "Fire Damage - Auburn, WA",
+      "resource_name": "customers/3832550597/adGroups/199107541844",
+      "campaign_key": "fire-smoke",
+      "service": "fire-damage-restoration",
+      "area": "auburn-wa",
+      "ad_resource": "customers/3832550597/adGroupAds/199107541844~812876660570",
+      "final_url": "https://narestco.com/lp/fire-damage-restoration-auburn-wa/",
+      "extra_ad_resources": [
+        {
+          "angle": "trust",
+          "ad_resource": "customers/3832550597/adGroupAds/199107541844~812776604331"
+        },
+        {
+          "angle": "value",
+          "ad_resource": "customers/3832550597/adGroupAds/199107541844~812809220779"
+        }
+      ]
+    },
+    "fire-smoke_kirkland-wa_fire-damage-restoration": {
+      "name": "Fire Damage - Kirkland, WA",
+      "resource_name": "customers/3832550597/adGroups/199962096840",
+      "campaign_key": "fire-smoke",
+      "service": "fire-damage-restoration",
+      "area": "kirkland-wa",
+      "ad_resource": "customers/3832550597/adGroupAds/199962096840~812876724380",
+      "final_url": "https://narestco.com/lp/fire-damage-restoration-kirkland-wa/",
+      "extra_ad_resources": [
+        {
+          "angle": "trust",
+          "ad_resource": "customers/3832550597/adGroupAds/199962096840~812809232866"
+        },
+        {
+          "angle": "value",
+          "ad_resource": "customers/3832550597/adGroupAds/199962096840~812809220860"
+        }
+      ]
+    },
+    "fire-smoke_redmond-wa_fire-damage-restoration": {
+      "name": "Fire Damage - Redmond, WA",
+      "resource_name": "customers/3832550597/adGroups/194426591021",
+      "campaign_key": "fire-smoke",
+      "service": "fire-damage-restoration",
+      "area": "redmond-wa",
+      "ad_resource": "customers/3832550597/adGroupAds/194426591021~812772779898",
+      "final_url": "https://narestco.com/lp/fire-damage-restoration-redmond-wa/",
+      "extra_ad_resources": [
+        {
+          "angle": "trust",
+          "ad_resource": "customers/3832550597/adGroupAds/194426591021~812776653963"
+        },
+        {
+          "angle": "value",
+          "ad_resource": "customers/3832550597/adGroupAds/194426591021~812809278916"
+        }
+      ]
+    },
+    "fire-smoke_fire-damage-restoration_near-me": {
+      "name": "Fire Damage - Near Me",
+      "resource_name": "customers/3832550597/adGroups/198220362220",
+      "campaign_key": "fire-smoke",
+      "service": "fire-damage-restoration",
+      "intent": "near-me",
+      "ad_resource": "customers/3832550597/adGroupAds/198220362220~812772763857",
+      "final_url": "https://narestco.com/lp/fire-damage-restoration-near-me/"
+    },
+    "fire-smoke_fire-damage-restoration_emergency": {
+      "name": "Fire Damage - Emergency",
+      "resource_name": "customers/3832550597/adGroups/198476501698",
+      "campaign_key": "fire-smoke",
+      "service": "fire-damage-restoration",
+      "intent": "emergency",
+      "ad_resource": "customers/3832550597/adGroupAds/198476501698~812876660801",
+      "final_url": "https://narestco.com/lp/fire-damage-restoration-emergency/"
+    },
+    "fire-smoke_fire-damage-restoration_cost": {
+      "name": "Fire Damage - Cost",
+      "resource_name": "customers/3832550597/adGroups/198220270460",
+      "campaign_key": "fire-smoke",
+      "service": "fire-damage-restoration",
+      "intent": "cost",
+      "ad_resource": "customers/3832550597/adGroupAds/198220270460~812805162397",
+      "final_url": "https://narestco.com/lp/fire-damage-restoration-cost/"
+    },
+    "fire-smoke_fire-damage-restoration_company": {
+      "name": "Fire Damage - Company",
+      "resource_name": "customers/3832550597/adGroups/197672991059",
+      "campaign_key": "fire-smoke",
+      "service": "fire-damage-restoration",
+      "intent": "company",
+      "ad_resource": "customers/3832550597/adGroupAds/197672991059~812805176377",
+      "final_url": "https://narestco.com/lp/fire-damage-restoration-company/"
+    },
+    "fire-smoke_fire-damage-restoration_free-estimate": {
+      "name": "Fire Damage - Free Estimate",
+      "resource_name": "customers/3832550597/adGroups/197932584856",
+      "campaign_key": "fire-smoke",
+      "service": "fire-damage-restoration",
+      "intent": "free-estimate",
+      "ad_resource": "customers/3832550597/adGroupAds/197932584856~812772764631",
+      "final_url": "https://narestco.com/lp/fire-damage-restoration-free-estimate/"
+    },
+    "fire-smoke_fire-damage-restoration_insurance": {
+      "name": "Fire Damage - Insurance",
+      "resource_name": "customers/3832550597/adGroups/198220394140",
+      "campaign_key": "fire-smoke",
+      "service": "fire-damage-restoration",
+      "intent": "insurance",
+      "ad_resource": "customers/3832550597/adGroupAds/198220394140~812805110329",
+      "final_url": "https://narestco.com/lp/fire-damage-restoration-insurance/"
+    },
+    "fire-smoke_fire-damage-restoration_removal": {
+      "name": "Fire Damage - Removal",
+      "resource_name": "customers/3832550597/adGroups/199962146760",
+      "campaign_key": "fire-smoke",
+      "service": "fire-damage-restoration",
+      "intent": "removal",
+      "ad_resource": "customers/3832550597/adGroupAds/199962146760~812876747456",
+      "final_url": "https://narestco.com/lp/fire-damage-restoration-removal/"
+    },
+    "mold-air-quality_federal-way-wa_mold-remediation": {
+      "name": "Mold Removal - Federal Way, WA",
+      "resource_name": "customers/3832550597/adGroups/201310106070",
+      "campaign_key": "mold-air-quality",
+      "service": "mold-remediation",
+      "area": "federal-way-wa",
+      "ad_resource": "customers/3832550597/adGroupAds/201310106070~812772776625",
+      "final_url": "https://narestco.com/lp/mold-remediation-federal-way-wa/",
+      "extra_ad_resources": [
+        {
+          "angle": "trust",
+          "ad_resource": "customers/3832550597/adGroupAds/201310106070~812774806920"
+        },
+        {
+          "angle": "value",
+          "ad_resource": "customers/3832550597/adGroupAds/201310106070~812776739493"
+        }
+      ]
+    },
+    "mold-air-quality_seattle-wa_mold-remediation": {
+      "name": "Mold Removal - Seattle, WA",
+      "resource_name": "customers/3832550597/adGroups/198220428140",
+      "campaign_key": "mold-air-quality",
+      "service": "mold-remediation",
+      "area": "seattle-wa",
+      "ad_resource": "customers/3832550597/adGroupAds/198220428140~812876661086",
+      "final_url": "https://narestco.com/lp/mold-remediation-seattle-wa/",
+      "extra_ad_resources": [
+        {
+          "angle": "trust",
+          "ad_resource": "customers/3832550597/adGroupAds/198220428140~812880839411"
+        },
+        {
+          "angle": "value",
+          "ad_resource": "customers/3832550597/adGroupAds/198220428140~812776486686"
+        }
+      ]
+    },
+    "mold-air-quality_bellevue-wa_mold-remediation": {
+      "name": "Mold Removal - Bellevue, WA",
+      "resource_name": "customers/3832550597/adGroups/196999585666",
+      "campaign_key": "mold-air-quality",
+      "service": "mold-remediation",
+      "area": "bellevue-wa",
+      "ad_resource": "customers/3832550597/adGroupAds/196999585666~812772851481",
+      "final_url": "https://narestco.com/lp/mold-remediation-bellevue-wa/",
+      "extra_ad_resources": [
+        {
+          "angle": "trust",
+          "ad_resource": "customers/3832550597/adGroupAds/196999585666~812880622223"
+        },
+        {
+          "angle": "value",
+          "ad_resource": "customers/3832550597/adGroupAds/196999585666~812880622226"
+        }
+      ]
+    },
+    "mold-air-quality_tacoma-wa_mold-remediation": {
+      "name": "Mold Removal - Tacoma, WA",
+      "resource_name": "customers/3832550597/adGroups/196200331566",
+      "campaign_key": "mold-air-quality",
+      "service": "mold-remediation",
+      "area": "tacoma-wa",
+      "ad_resource": "customers/3832550597/adGroupAds/196200331566~812876784467",
+      "final_url": "https://narestco.com/lp/mold-remediation-tacoma-wa/",
+      "extra_ad_resources": [
+        {
+          "angle": "trust",
+          "ad_resource": "customers/3832550597/adGroupAds/196200331566~812809342921"
+        },
+        {
+          "angle": "value",
+          "ad_resource": "customers/3832550597/adGroupAds/196200331566~812880839465"
+        }
+      ]
+    },
+    "mold-air-quality_everett-wa_mold-remediation": {
+      "name": "Mold Removal - Everett, WA",
+      "resource_name": "customers/3832550597/adGroups/198220463900",
+      "campaign_key": "mold-air-quality",
+      "service": "mold-remediation",
+      "area": "everett-wa",
+      "ad_resource": "customers/3832550597/adGroupAds/198220463900~812768573493",
+      "final_url": "https://narestco.com/lp/mold-remediation-everett-wa/",
+      "extra_ad_resources": [
+        {
+          "angle": "trust",
+          "ad_resource": "customers/3832550597/adGroupAds/198220463900~812809214344"
+        },
+        {
+          "angle": "value",
+          "ad_resource": "customers/3832550597/adGroupAds/198220463900~812776821282"
+        }
+      ]
+    },
+    "mold-air-quality_kent-wa_mold-remediation": {
+      "name": "Mold Removal - Kent, WA",
+      "resource_name": "customers/3832550597/adGroups/199107613324",
+      "campaign_key": "mold-air-quality",
+      "service": "mold-remediation",
+      "area": "kent-wa",
+      "ad_resource": "customers/3832550597/adGroupAds/199107613324~812876787740",
+      "final_url": "https://narestco.com/lp/mold-remediation-kent-wa/",
+      "extra_ad_resources": [
+        {
+          "angle": "trust",
+          "ad_resource": "customers/3832550597/adGroupAds/199107613324~812809414474"
+        },
+        {
+          "angle": "value",
+          "ad_resource": "customers/3832550597/adGroupAds/199107613324~812809433644"
+        }
+      ]
+    },
+    "mold-air-quality_renton-wa_mold-remediation": {
+      "name": "Mold Removal - Renton, WA",
+      "resource_name": "customers/3832550597/adGroups/196999609866",
+      "campaign_key": "mold-air-quality",
+      "service": "mold-remediation",
+      "area": "renton-wa",
+      "ad_resource": "customers/3832550597/adGroupAds/196999609866~812772851685",
+      "final_url": "https://narestco.com/lp/mold-remediation-renton-wa/",
+      "extra_ad_resources": [
+        {
+          "angle": "trust",
+          "ad_resource": "customers/3832550597/adGroupAds/196999609866~812809434379"
+        },
+        {
+          "angle": "value",
+          "ad_resource": "customers/3832550597/adGroupAds/196999609866~812809469251"
+        }
+      ]
+    },
+    "mold-air-quality_auburn-wa_mold-remediation": {
+      "name": "Mold Removal - Auburn, WA",
+      "resource_name": "customers/3832550597/adGroups/198081821272",
+      "campaign_key": "mold-air-quality",
+      "service": "mold-remediation",
+      "area": "auburn-wa",
+      "ad_resource": "customers/3832550597/adGroupAds/198081821272~812772819054",
+      "final_url": "https://narestco.com/lp/mold-remediation-auburn-wa/",
+      "extra_ad_resources": [
+        {
+          "angle": "trust",
+          "ad_resource": "customers/3832550597/adGroupAds/198081821272~812881078013"
+        },
+        {
+          "angle": "value",
+          "ad_resource": "customers/3832550597/adGroupAds/198081821272~812881116230"
+        }
+      ]
+    },
+    "mold-air-quality_kirkland-wa_mold-remediation": {
+      "name": "Mold Removal - Kirkland, WA",
+      "resource_name": "customers/3832550597/adGroups/203121886488",
+      "campaign_key": "mold-air-quality",
+      "service": "mold-remediation",
+      "area": "kirkland-wa",
+      "ad_resource": "customers/3832550597/adGroupAds/203121886488~812772824127",
+      "final_url": "https://narestco.com/lp/mold-remediation-kirkland-wa/",
+      "extra_ad_resources": [
+        {
+          "angle": "trust",
+          "ad_resource": "customers/3832550597/adGroupAds/203121886488~812776935831"
+        },
+        {
+          "angle": "value",
+          "ad_resource": "customers/3832550597/adGroupAds/203121886488~812881078271"
+        }
+      ]
+    },
+    "mold-air-quality_redmond-wa_mold-remediation": {
+      "name": "Mold Removal - Redmond, WA",
+      "resource_name": "customers/3832550597/adGroups/200554052594",
+      "campaign_key": "mold-air-quality",
+      "service": "mold-remediation",
+      "area": "redmond-wa",
+      "ad_resource": "customers/3832550597/adGroupAds/200554052594~812876785898",
+      "final_url": "https://narestco.com/lp/mold-remediation-redmond-wa/",
+      "extra_ad_resources": [
+        {
+          "angle": "trust",
+          "ad_resource": "customers/3832550597/adGroupAds/200554052594~812881162730"
+        },
+        {
+          "angle": "value",
+          "ad_resource": "customers/3832550597/adGroupAds/200554052594~812776976847"
+        }
+      ]
+    },
+    "mold-air-quality_mold-remediation_near-me": {
+      "name": "Mold Removal - Near Me",
+      "resource_name": "customers/3832550597/adGroups/195263797337",
+      "campaign_key": "mold-air-quality",
+      "service": "mold-remediation",
+      "intent": "near-me",
+      "ad_resource": "customers/3832550597/adGroupAds/195263797337~812772777990",
+      "final_url": "https://narestco.com/lp/mold-remediation-near-me/"
+    },
+    "mold-air-quality_mold-remediation_emergency": {
+      "name": "Mold Removal - Emergency",
+      "resource_name": "customers/3832550597/adGroups/198972987753",
+      "campaign_key": "mold-air-quality",
+      "service": "mold-remediation",
+      "intent": "emergency",
+      "ad_resource": "customers/3832550597/adGroupAds/198972987753~812876775599",
+      "final_url": "https://narestco.com/lp/mold-remediation-emergency/"
+    },
+    "mold-air-quality_mold-remediation_cost": {
+      "name": "Mold Removal - Cost",
+      "resource_name": "customers/3832550597/adGroups/200188175489",
+      "campaign_key": "mold-air-quality",
+      "service": "mold-remediation",
+      "intent": "cost",
+      "ad_resource": "customers/3832550597/adGroupAds/200188175489~812805113497",
+      "final_url": "https://narestco.com/lp/mold-remediation-cost/"
+    },
+    "mold-air-quality_mold-remediation_company": {
+      "name": "Mold Removal - Company",
+      "resource_name": "customers/3832550597/adGroups/203121928768",
+      "campaign_key": "mold-air-quality",
+      "service": "mold-remediation",
+      "intent": "company",
+      "ad_resource": "customers/3832550597/adGroupAds/203121928768~812772835644",
+      "final_url": "https://narestco.com/lp/mold-remediation-company/"
+    },
+    "mold-air-quality_mold-remediation_free-estimate": {
+      "name": "Mold Removal - Free Estimate",
+      "resource_name": "customers/3832550597/adGroups/198081882632",
+      "campaign_key": "mold-air-quality",
+      "service": "mold-remediation",
+      "intent": "free-estimate",
+      "ad_resource": "customers/3832550597/adGroupAds/198081882632~812876799977",
+      "final_url": "https://narestco.com/lp/mold-remediation-free-estimate/"
+    },
+    "mold-air-quality_mold-remediation_insurance": {
+      "name": "Mold Removal - Insurance",
+      "resource_name": "customers/3832550597/adGroups/201224180047",
+      "campaign_key": "mold-air-quality",
+      "service": "mold-remediation",
+      "intent": "insurance",
+      "ad_resource": "customers/3832550597/adGroupAds/201224180047~812772827643",
+      "final_url": "https://narestco.com/lp/mold-remediation-insurance/"
+    },
+    "mold-air-quality_mold-remediation_removal": {
+      "name": "Mold Removal - Removal",
+      "resource_name": "customers/3832550597/adGroups/197163935403",
+      "campaign_key": "mold-air-quality",
+      "service": "mold-remediation",
+      "intent": "removal",
+      "ad_resource": "customers/3832550597/adGroupAds/197163935403~812876775827",
+      "final_url": "https://narestco.com/lp/mold-remediation-removal/"
+    }
+  },
+  "budgets": {}
+}

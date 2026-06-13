@@ -1,0 +1,25 @@
+# Railway config-as-code for the ads_provision WORKER service ONLY.
+# Set this service's "Config-as-code file path" to this file so it does NOT
+# inherit the root railway.toml (the FastAPI web server) or railway.ads-sync.toml.
+#
+# Unlike ads_sync (a nightly cron), this is a long-running worker: it polls
+# marketing_ads_jobs and processes launch / go_live jobs as the app enqueues them,
+# so the operator's "Launch Ads" → progress bar feels near-real-time.
+[build]
+builder = "NIXPACKS"
+
+[deploy]
+# Long-running poller. --interval is the idle poll cadence (seconds).
+startCommand = "/opt/venv/bin/python scripts/ads_provision.py --loop --interval 30"
+# Keep the worker up; restart if it crashes.
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 10
+
+# Required service variables (set in the Railway dashboard for THIS service):
+#   SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY
+#   GOOGLE_OAUTH_CLIENT_ID, GOOGLE_OAUTH_CLIENT_SECRET, GOOGLE_ADS_DEVELOPER_TOKEN
+#   GITHUB_PERSONAL_ACCESS_TOKEN  (for build_site.py sync-deploy → per-client repos)
+#   ANTHROPIC_API_KEY             (RSA + LP copy generation)
+#   GOOGLE_AI_API_KEY             (Nano Banana LP imagery — only for brand-new clients)
+# Also configure a git identity in the build (user.name / user.email) so the
+# worker's commits before sync-deploy succeed.
