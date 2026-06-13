@@ -11,6 +11,9 @@ export const brand = {
   canonicalUrl: "https://narestco.com",
   phone: "(206) 883-0333",
   phoneRaw: "+12068830333",
+  // Google Ads click-to-call conversion (LP layouts read these; no-op if empty)
+  gadsId: "AW-16824131335",
+  gadsCallConversionLabel: "AW-16824131335/lNXeCMeuy74cEIe-r9Y-",
   email: "info@narestco.com",
   hours: "24/7",
   foundedYear: "2004",
