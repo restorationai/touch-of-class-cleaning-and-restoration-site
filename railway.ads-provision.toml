@@ -21,5 +21,11 @@ restartPolicyMaxRetries = 10
 #   GITHUB_PERSONAL_ACCESS_TOKEN  (for build_site.py sync-deploy → per-client repos)
 #   ANTHROPIC_API_KEY             (RSA + LP copy generation)
 #   GOOGLE_AI_API_KEY             (Nano Banana LP imagery — only for brand-new clients)
-# Also configure a git identity in the build (user.name / user.email) so the
-# worker's commits before sync-deploy succeed.
+# Cloud git deploys (Phase 4 landing pages):
+#   ADS_WORKER_CLONE=1                         enable fresh-clone mode (REQUIRED on Railway)
+#   ADS_WORKER_REPO=restorationai/Rank-AI-Pipeline   (default; override if the repo moves)
+#   ADS_WORKER_WORKDIR=/tmp/rank-ai-work       (default; use a Railway volume to cache the clone)
+# With ADS_WORKER_CLONE=1 the worker clones the monorepo fresh (full history), generates
+# files there, commits + pushes origin, and subtree-pushes sites/{slug} to the per-client
+# repo — so git ops work even though the runtime container has no .git. The worker sets its
+# own git identity; no extra build config needed.

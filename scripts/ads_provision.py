@@ -44,10 +44,50 @@ import argparse
 import traceback
 from pathlib import Path
 
-REPO_ROOT = Path(__file__).resolve().parent.parent
-SCRIPTS = REPO_ROOT / "scripts"
-CLIENTS = REPO_ROOT / "clients"
-SITES = REPO_ROOT / "sites"
+REPO_ROOT = Path(__file__).resolve().parent.parent  # where this worker's code lives
+# WORK_ROOT is the checkout used for file generation + git ops. Locally it's the
+# repo itself; on Railway it's a fresh full clone (see ensure_work_repo) so that
+# `git subtree split/push` has real history + push credentials.
+WORK_ROOT = REPO_ROOT
+SCRIPTS = WORK_ROOT / "scripts"
+CLIENTS = WORK_ROOT / "clients"
+SITES = WORK_ROOT / "sites"
+
+
+def set_work_root(path):
+    global WORK_ROOT, SCRIPTS, CLIENTS, SITES
+    WORK_ROOT = Path(path)
+    SCRIPTS = WORK_ROOT / "scripts"
+    CLIENTS = WORK_ROOT / "clients"
+    SITES = WORK_ROOT / "sites"
+
+
+def cloud_mode():
+    return os.environ.get("ADS_WORKER_CLONE") == "1"
+
+
+def ensure_work_repo():
+    """In cloud mode (ADS_WORKER_CLONE=1) clone the monorepo fresh so git deploys
+    work in a runtime container that has no .git. A no-op locally."""
+    if not cloud_mode():
+        return
+    pat = os.environ.get("GITHUB_PERSONAL_ACCESS_TOKEN")
+    if not pat:
+        raise RuntimeError("ADS_WORKER_CLONE=1 but GITHUB_PERSONAL_ACCESS_TOKEN is not set")
+    repo = os.environ.get("ADS_WORKER_REPO", "restorationai/Rank-AI-Pipeline")
+    work = Path(os.environ.get("ADS_WORKER_WORKDIR", "/tmp/rank-ai-work"))
+    url = f"https://x-access-token:{pat}@github.com/{repo}.git"
+    if (work / ".git").exists():
+        subprocess.run(["git", "-C", str(work), "fetch", "origin", "main"], check=True)
+        subprocess.run(["git", "-C", str(work), "reset", "--hard", "origin/main"], check=True)
+    else:
+        work.parent.mkdir(parents=True, exist_ok=True)
+        subprocess.run(["git", "clone", url, str(work)], check=True)  # full clone — subtree needs history
+    # Git identity for the worker's commits
+    subprocess.run(["git", "-C", str(work), "config", "user.email", "ads-worker@restorationai.io"], check=False)
+    subprocess.run(["git", "-C", str(work), "config", "user.name", "Rank AI Ads Worker"], check=False)
+    set_work_root(work)
+    log.info(f"Worker repo ready at {work}")
 
 logging.basicConfig(level=logging.INFO, format="[%(asctime)s] %(levelname)s - %(message)s",
                     datefmt="%Y-%m-%d %H:%M:%S")
@@ -178,7 +218,7 @@ def client_env(ctx):
 
 def run_cmd(args, env=None, cwd=None):
     """Run a pipeline command; raise with captured output on failure."""
-    res = subprocess.run([sys.executable, "-u"] + args, cwd=str(cwd or REPO_ROOT),
+    res = subprocess.run([sys.executable, "-u"] + args, cwd=str(cwd or WORK_ROOT),
                          env=env or os.environ.copy(), capture_output=True, text=True)
     if res.returncode != 0:
         tail = (res.stdout or "")[-1500:] + "\n" + (res.stderr or "")[-1500:]
@@ -345,10 +385,19 @@ def provision_twilio(ctx, forward_to, area_codes, record):
 
 
 def git_deploy(ctx, message):
-    """Commit the site working tree and subtree-push to the per-client repo."""
+    """Commit the generated site/client files, then subtree-push to the per-client
+    repo (→ Cloudflare build). In cloud mode also push the monorepo so the generated
+    source (manifest, brand.ts, voice.ts) persists beyond the ephemeral clone."""
     slug = ctx["slug"]
-    subprocess.run(["git", "add", f"sites/{slug}", f"clients/{slug}"], cwd=str(REPO_ROOT), check=False)
-    subprocess.run(["git", "commit", "-q", "-m", message], cwd=str(REPO_ROOT), check=False)
+    root = str(WORK_ROOT)
+    subprocess.run(["git", "add", f"sites/{slug}", f"clients/{slug}"], cwd=root, check=False)
+    # commit returns non-zero if nothing changed — that's fine
+    subprocess.run(["git", "commit", "-q", "-m", message], cwd=root, check=False)
+    if cloud_mode():
+        # sync with origin, then persist the generated source upstream
+        subprocess.run(["git", "pull", "--rebase", "--autostash", "origin", "main"], cwd=root, check=True)
+        subprocess.run(["git", "push", "origin", "main"], cwd=root, check=True)
+    # subtree-split + force-push sites/{slug} → the per-client deploy repo (Cloudflare builds it)
     run_cmd([str(SCRIPTS / "build_site.py"), "sync-deploy", "--slug", slug,
              "--branch", "main", "--allow-dirty"])
 
@@ -474,6 +523,7 @@ def process_one():
     job_id = job["id"]
     log.info(f"Processing job {job_id} type={job.get('job_type')} company={job.get('company_id')}")
     try:
+        ensure_work_repo()  # cloud: fresh clone w/ history+creds for git deploys; no-op locally
         ctx = resolve_client(job["company_id"])
         if job.get("job_type") == "go_live":
             run_go_live(job, ctx)
