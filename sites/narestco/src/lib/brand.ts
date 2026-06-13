@@ -14,6 +14,9 @@ export const brand = {
   // Google Ads click-to-call conversion (LP layouts read these; no-op if empty)
   gadsId: "AW-16824131335",
   gadsCallConversionLabel: "AW-16824131335/lNXeCMeuy74cEIe-r9Y-",
+  // Twilio call-tracking number — shows on the /lp/ ad pages ONLY (main site NAP unchanged)
+  adsTrackingPhone: "(253) 338-5162",
+  adsTrackingPhoneRaw: "+12533385162",
   email: "info@narestco.com",
   hours: "24/7",
   foundedYear: "2004",
