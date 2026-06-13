@@ -11,9 +11,9 @@ const seoFields = z.object({
 });
 
 const imageFields = z.object({
-  hero: z.string().url().optional(),
-  og: z.string().url().optional(),
-  inline: z.array(z.string().url()).default([]),
+  hero: z.string().optional(),
+  og: z.string().optional(),
+  inline: z.array(z.string()).default([]),
 });
 
 const planFields = z.object({
@@ -91,6 +91,7 @@ const blog = defineCollection({
     breadcrumb: breadcrumb.optional(),
     faq: z.array(faqItem).default([]),
     youtube_id: z.string().optional(),
+    video_transcript: z.string().optional().default(""),
   }),
 });
 

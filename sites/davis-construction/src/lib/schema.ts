@@ -20,6 +20,7 @@ export type PageSchemaContext = {
   post_updated_at?: string;
   primary_service_display?: string;
   youtube_id?: string;
+  video_transcript?: string;
 };
 
 const safe = (v: unknown) => (v == null || v === "" ? undefined : v);
@@ -149,6 +150,7 @@ function videoObject(ctx: PageSchemaContext) {
     uploadDate: ctx.post_published_at,
     contentUrl: `https://www.youtube.com/watch?v=${ctx.youtube_id}`,
     embedUrl: `https://www.youtube.com/embed/${ctx.youtube_id}`,
+    ...(ctx.video_transcript ? { transcript: ctx.video_transcript } : {}),
     publisher: {
       "@type": "Organization",
       name: brand.displayName,
