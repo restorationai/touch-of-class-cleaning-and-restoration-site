@@ -8,9 +8,15 @@
 // Operator chose to defer the disclaimer (2026-06-13); add it before relying on recordings.
 const FORWARD_TO = "+12068830333"; // brand.phoneRaw — the REAL line that rings
 const RECORD = true;               // call recording (operator-approved)
+// Supabase Edge Function that logs the call + recording into marketing_ads_calls
+// (validates X-Twilio-Signature, fetches call details, streams recordings via proxy).
+const STATUS_CALLBACK = "https://nyscciinkhlutvqkgyvq.supabase.co/functions/v1/twilio-status-callback";
 
 const handler: PagesFunction = () => {
-  const rec = RECORD ? ' record="record-from-answer"' : "";
+  const rec = RECORD
+    ? ` record="record-from-answer" recordingStatusCallback="${STATUS_CALLBACK}"` +
+      ` recordingStatusCallbackEvent="completed" recordingStatusCallbackMethod="POST"`
+    : "";
   const twiml =
     `<?xml version="1.0" encoding="UTF-8"?>` +
     `<Response><Dial${rec} answerOnBridge="true"><Number>${FORWARD_TO}</Number></Dial></Response>`;
