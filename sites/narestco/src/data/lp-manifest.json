@@ -1387,5 +1387,53 @@
       ],
       "callout": null
     }
+  },
+  {
+    "slug": "water-damage-restoration-federal-way-wa-b",
+    "variant": "v1",
+    "serviceLabel": "Water Damage Restoration",
+    "city": "Federal Way",
+    "state": "WA",
+    "intent": "city",
+    "h1": "Water Damage Restoration in Federal Way, WA",
+    "metaTitle": "Water Damage Restoration in Federal Way, WA | 24/7 Emergency Response",
+    "metaDescription": "Fast, licensed water damage restoration in Federal Way, WA. 24/7 emergency response, insurance billing, free on-site assessment. Call now.",
+    "heroSubtitle": "Trusted Cleanup & Recovery Experts \u2014 Available Day or Night, When It Matters Most",
+    "bodyContent": {
+      "heading": "Fast Restoration When Every Minute Counts",
+      "intro": "Water damage spreads rapidly \u2014 the first 24 hours determine total restoration cost and whether secondary mold damage occurs. Our IICRC-certified team responds within 60 minutes, extracts standing water immediately, and begins industrial drying to protect your home and minimize total cost.",
+      "bullets": [
+        "Rapid response: we arrive within 60 minutes of your call, 24/7",
+        "IICRC Certified \u2014 the industry standard for water damage restoration",
+        "We handle your insurance claim from documentation to approval",
+        "Same-day water extraction, industrial drying, and mold prevention"
+      ],
+      "callout": "Water damage gets worse every hour it sits. Call now to stop the clock on secondary damage."
+    }
+  },
+  {
+    "slug": "water-damage-restoration-federal-way-wa-c",
+    "variant": "v3",
+    "serviceLabel": "Water Damage Restoration",
+    "city": "Federal Way",
+    "state": "WA",
+    "intent": "city",
+    "h1": "Water Damage Restoration in Federal Way, WA",
+    "metaTitle": "Water Damage Restoration in Federal Way, WA | 24/7 Emergency Response",
+    "metaDescription": "Fast, licensed water damage restoration in Federal Way, WA. 24/7 emergency response, insurance billing, free on-site assessment. Call now.",
+    "heroSubtitle": "Trusted Cleanup & Recovery Experts \u2014 Available Day or Night, When It Matters Most",
+    "heroImageUrl": "/images/lp/v3-hero-tech.png",
+    "featureImageUrl": "/images/lp/v3-team.png",
+    "bodyContent": {
+      "heading": "Fast Restoration When Every Minute Counts",
+      "intro": "Water damage spreads rapidly \u2014 the first 24 hours determine total restoration cost and whether secondary mold damage occurs. Our IICRC-certified team responds within 60 minutes, extracts standing water immediately, and begins industrial drying to protect your home and minimize total cost.",
+      "bullets": [
+        "Rapid response: we arrive within 60 minutes of your call, 24/7",
+        "IICRC Certified \u2014 the industry standard for water damage restoration",
+        "We handle your insurance claim from documentation to approval",
+        "Same-day water extraction, industrial drying, and mold prevention"
+      ],
+      "callout": "Water damage gets worse every hour it sits. Call now to stop the clock on secondary damage."
+    }
   }
 ]
