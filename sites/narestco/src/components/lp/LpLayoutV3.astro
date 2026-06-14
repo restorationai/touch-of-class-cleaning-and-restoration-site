@@ -209,7 +209,7 @@ const displayPhoneRaw = (brand as any).adsTrackingPhoneRaw ?? brand.phoneRaw;
           <div class="relative">
             <div class="rounded-[2.5rem] overflow-hidden h-80 md:h-[30rem] border-4 shadow-xl" style={`border-color:${NAVY};background:${NAVY}`}>
               {heroImageUrl
-                ? <img src={heroImageUrl} alt={serviceLabel} class="w-full h-full object-cover object-top" loading="eager" />
+                ? <img src={heroImageUrl} alt={serviceLabel} class="w-full h-full object-cover object-[50%_30%]" loading="eager" />
                 : <div class="w-full h-full flex items-center justify-center text-white/20 text-sm">Service Photo</div>
               }
             </div>
