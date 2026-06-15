@@ -111,6 +111,7 @@ Use BOTH:
 - `mcp__dfs-mcp__ai_optimization_chat_gpt_scraper` with the seed → captures real ChatGPT decomposition. Pull related queries and entities.
 - `mcp__dfs-mcp__dataforseo_labs_google_keyword_ideas` with the seed → traditional ideas, volume, CPC.
 - `mcp__dfs-mcp__dataforseo_labs_google_related_keywords` with the seed → related cluster.
+- **`clients/{slug}/keyword-research.json` (if present)** → real Google Ads keyword data (volume + CPC) the ads side already pulled. Fold any entries relevant to the seed into the candidate pool; they're commercially pre-validated. Skip silently if the file doesn't exist.
 
 **Multi-client geographic fan-out**: for the top 8 raw fan-out variations, generate location-modified versions using THIS CLIENT'S service-area cities. From `plan-input.json -> service_areas[]`, take the primary city + up to 3 other cities. For each seed variation, generate:
 - `"{variation} {city}"`
@@ -164,6 +165,8 @@ Priority 1 → 3 (lower number = higher priority):
   - Same as 1 but volume < 50, OR KD 46-60, OR partial coverage exists
 - **3** — Park in bank, do not queue:
   - Low volume (<10), or KD > 60, or weak topical fit, or out-of-area city, or `covered_by` is set
+
+**Money-keyword override (PPC-validated):** if `clients/{slug}/keyword-research.json` exists (from the ads side) and a candidate appears there as BOTH high-volume AND high-CPC for the service (top CPC tier — the client is paying real money to rank for it on PPC), bump it to **priority 1** even if KD is on the higher side, and tag it `ppc_validated: true` in the bank. Rationale: a term worth paying for on PPC is worth owning organically. Still respects coverage (Step 5) and service-fit.
 
 Drop entirely (do not even add to bank):
 - KD > 75
