@@ -279,10 +279,10 @@
     },
     {
       "id": "2026-05-30-does-homeowners-insurance-cover-fire-damage",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-05-30T00:00:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-06-15T19:50:36Z",
+      "post_url": "https://narestco.com/blog/does-homeowners-insurance-cover-fire-damage/",
       "primary_keyword": "does homeowners insurance cover fire damage",
       "intent": "informational",
       "volume": null,
