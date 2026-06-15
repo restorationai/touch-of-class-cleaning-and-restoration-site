@@ -154,10 +154,10 @@
     },
     {
       "id": "2026-05-30-fire-damage-restoration-cost",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-05-30T00:00:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-06-15T19:48:55Z",
+      "post_url": "https://davisconstructioncontractors.com/blog/fire-damage-restoration-cost/",
       "primary_keyword": "fire damage restoration cost",
       "intent": "informational",
       "volume": 320,
