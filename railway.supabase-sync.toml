@@ -1,0 +1,23 @@
+# Railway config-as-code for the supabase_sync CRON service ONLY.
+# Set this service's "Config-as-code file path" to this file so it does NOT inherit
+# the root railway.toml (FastAPI web) or the other service configs.
+#
+# Mirrors rank-ai local JSON state -> Supabase marketing_* tables (sites, audit runs,
+# content items, keywords) so the app's Marketing dashboard stays current. This is the
+# NIGHTLY BACKSTOP; content_writer.py also triggers a per-client sync right after it
+# publishes, so new posts appear in the app within minutes — the cron catches anything
+# the per-publish hook missed (audits, refreshes, manual edits, failed hooks).
+[build]
+builder = "NIXPACKS"
+
+[deploy]
+# No --slug = sync every client.
+startCommand = "/opt/venv/bin/python scripts/supabase_sync.py"
+# Nightly at 08:00 UTC (~1am PT) — ahead of the 09:00 ads_sync so the morning view is fresh.
+cronSchedule = "0 8 * * *"
+# One-shot job: do NOT restart on exit, NO healthcheck.
+restartPolicyType = "NEVER"
+
+# Required service variables (set in the Railway dashboard for THIS service):
+#   SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY
+# (supabase_sync reads only local repo JSON + writes marketing_* via the service-role key.)

@@ -491,6 +491,18 @@ def commit_and_sync(slug: str, item: dict, post_path: Path, branch: str) -> None
         raise RuntimeError(f"sync-deploy failed (exit {sync.returncode})")
     print(f"      Sync complete. Cloudflare will auto-build the {branch} branch.")
 
+    # Mirror publish status into Supabase so the app's Content view updates immediately.
+    # Non-fatal: the nightly supabase_sync cron is the backstop if this fails.
+    print(f"      Syncing publish status to Supabase (marketing_content_items)...")
+    db = subprocess.run(
+        ["python3", str(SCRIPT_DIR / "supabase_sync.py"), "--slug", slug],
+        cwd=str(REPO_ROOT), capture_output=True, text=True,
+    )
+    if db.returncode != 0:
+        print(f"      [warn] supabase_sync failed (non-fatal): {db.stderr[-300:]}")
+    else:
+        print(f"      Supabase sync OK — app Content view is current.")
+
 
 # ----------------------------------------------------------------------------
 # Subcommands
