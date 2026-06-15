@@ -899,7 +899,38 @@ def services_to_groups(services: list[str]) -> dict[str, list[str]]:
     return mapping
 
 
-def cmd_scaffold(slug: str, dry_run: bool = False, services_filter: list = None) -> int:
+# Intent signal tokens — used to map real research keywords to the right intent ad group.
+INTENT_MATCH_TOKENS = {
+    "near-me": ["near me", "near you", "local"],
+    "emergency": ["emergency", "24 hour", "24/7", "urgent", "same day"],
+    "cost": ["cost", "price", "pricing", "how much", "quote"],
+    "company": ["company", "companies", "contractor", "specialist", "professional"],
+    "free-estimate": ["free estimate", "free inspection", "free quote"],
+    "insurance": ["insurance", "claim", "covered"],
+    "removal": ["removal", "cleanup", "clean up", "remediation"],
+}
+
+
+def pick_research_kws(research_list, intent_key, limit=5):
+    """Top research keywords (by volume) whose text matches an intent's signal tokens —
+    enriches an intent ad group with real, volume-validated query variants."""
+    tokens = INTENT_MATCH_TOKENS.get(intent_key, [])
+    if not tokens:
+        return []
+    matched = [r for r in research_list if any(t in r["keyword"].lower() for t in tokens)]
+    matched.sort(key=lambda r: r.get("avg_monthly_searches", 0), reverse=True)
+    return [r["keyword"] for r in matched[:limit]]
+
+
+def load_keyword_research(slug):
+    p = CLIENTS_DIR / slug / "keyword-research.json"
+    if p.exists():
+        return json.loads(p.read_text()).get("by_service", {})
+    return {}
+
+
+def cmd_scaffold(slug: str, dry_run: bool = False, services_filter: list = None,
+                 auto_keywords: bool = False) -> int:
     client_rec = load_client(slug)
     customer_id = get_customer_id(client_rec, slug)
     client = build_ads_client(slug)
@@ -932,6 +963,20 @@ def cmd_scaffold(slug: str, dry_run: bool = False, services_filter: list = None)
 
     template = plan.get("template", "general")
     industry_config = load_industry_config(template)
+
+    # Auto keyword research: pull real, volume-validated keywords (run it if missing)
+    # and use them to enrich the intent ad groups. Falls back to templates if unavailable.
+    research_by_service: dict = {}
+    if auto_keywords:
+        if not (CLIENTS_DIR / slug / "keyword-research.json").exists() and not dry_run:
+            print("    [auto-keywords] no research on file — running keyword research first...")
+            try:
+                cmd_keyword_research(slug, services=services)
+            except Exception as exc:
+                print(f"    [auto-keywords] research failed ({str(exc)[:80]}) — falling back to templates")
+        research_by_service = load_keyword_research(slug)
+        print(f"    [auto-keywords] research loaded for {len(research_by_service)} service(s)")
+
     print(f"\n==> Scaffolding Google Ads for {display_name}")
     print(f"    Industry: {industry_config.get('industry', template)}")
     print(f"    Services: {len(services)}  |  Areas: {len(service_areas)}")
@@ -1057,7 +1102,13 @@ def cmd_scaffold(slug: str, dry_run: bool = False, services_filter: list = None)
                                               campaign_resource, dry_run=dry_run)
 
                 intent_kws = [kw.format(base=base) for kw in intent["keywords"]]
-                print(f"    Adding {len(intent_kws)} intent keywords")
+                # Enrich with real, volume-validated keywords matched to this intent
+                if research_by_service:
+                    for rk in pick_research_kws(research_by_service.get(service_slug, []), intent["key"], limit=5):
+                        if rk.lower() not in [k.lower() for k in intent_kws]:
+                            intent_kws.append(rk)
+                print(f"    Adding {len(intent_kws)} intent keywords"
+                      + (f" (+research)" if research_by_service else ""))
                 add_keywords_to_ad_group(client, customer_id, ag_resource,
                                          intent_kws, dry_run=dry_run)
 
@@ -1356,8 +1407,17 @@ def cmd_keyword_research(slug: str, services: list[str] | None = None,
         writer.writeheader()
         writer.writerows(all_results)
 
+    # Structured JSON grouped by service — consumed by `scaffold --auto-keywords`.
+    by_service: dict = {}
+    for r in all_results:
+        by_service.setdefault(r["service"], []).append(
+            {k: r[k] for k in ("keyword", "avg_monthly_searches", "competition", "low_top_cpc", "high_top_cpc")})
+    json_path = CLIENTS_DIR / slug / "keyword-research.json"
+    json_path.write_text(json.dumps({"generated_at": str(date.today()), "by_service": by_service}, indent=2))
+
     print(f"  Total keywords: {len(all_results)}")
     print(f"  Saved to: {output_csv}")
+    print(f"  Structured:   {json_path}")
     return 0
 
 
@@ -1617,6 +1677,7 @@ def main() -> int:
     p.add_argument("--slug", required=True)
     p.add_argument("--dry-run", action="store_true")
     p.add_argument("--services", help="Comma-separated service slugs to build (default: all from plan-input.json)")
+    p.add_argument("--auto-keywords", action="store_true", help="Run keyword research and enrich ad groups with real, volume-validated keywords")
 
     p = sub.add_parser("backfill-rsas")
     p.add_argument("--slug", required=True)
@@ -1684,6 +1745,7 @@ def main() -> int:
         "scaffold": lambda: cmd_scaffold(
             args.slug, dry_run=args.dry_run,
             services_filter=[s.strip() for s in args.services.split(",")] if getattr(args, "services", None) else None,
+            auto_keywords=getattr(args, "auto_keywords", False),
         ),
         "backfill-rsas": lambda: cmd_backfill_rsas(args.slug),
         "update-final-urls": lambda: cmd_update_final_urls(args.slug),

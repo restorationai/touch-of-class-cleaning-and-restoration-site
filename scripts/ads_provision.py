@@ -426,9 +426,11 @@ def run_full_launch(job, ctx):
 
     write_auth_shim(ctx)
 
-    # Phase 1 — campaign structure + RSAs + budgets
-    set_phase(job_id, "Phase 1 · Campaigns", 15)
-    am(ctx, "scaffold", "--slug", slug, "--services", service_slugs)
+    # Phase 1 — campaign structure (auto keyword research) + RSAs + budgets.
+    # --auto-keywords runs Google Ads keyword research and seeds ad groups with real,
+    # volume-validated keywords, so the operator only supplies services + cities.
+    set_phase(job_id, "Phase 1 · Keyword research + campaigns", 15)
+    am(ctx, "scaffold", "--slug", slug, "--services", service_slugs, "--auto-keywords")
     am(ctx, "backfill-rsas", "--slug", slug)
     struct = load_structure(slug)
     for ckey, c in struct.get("campaigns", {}).items():
