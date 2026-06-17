@@ -1,0 +1,26 @@
+# Railway config-as-code for the System 4 refresh CRON service ONLY.
+# Set this service's "Config-as-code file path" to this file so it does NOT inherit
+# the root railway.toml (FastAPI web) or the other service configs.
+#
+# MONTHLY refresh audit: loops every live client, runs the Layer-1 refresh scorer
+# (sitemap + page-date extraction + optional GSC index flags), and emails one
+# aggregated summary of which clients have stale / aging / not-indexed pages.
+# This is the unattended backstop; the rank-ai-refresh-recommender skill still does
+# the deeper per-client reasoning on demand.
+[build]
+builder = "NIXPACKS"
+
+[deploy]
+# No flags = all live clients, email the summary if SENDGRID_API_KEY is set.
+startCommand = "/opt/venv/bin/python scripts/refresh_cron.py"
+# 07:00 UTC on the 1st of every month (~midnight PT). Monthly cadence per the skill spec.
+cronSchedule = "0 7 1 * *"
+# One-shot job: do NOT restart on exit, NO healthcheck.
+restartPolicyType = "NEVER"
+
+# Required service variables (set in the Railway dashboard for THIS service):
+#   SENDGRID_API_KEY      — to email the summary (omit -> stdout/logs only)
+#   REFRESH_REPORT_EMAIL  — recipient (default contact@restorationai.io)
+#   SENDGRID_FROM         — verified SendGrid sender (default contact@restorationai.io)
+# Also needs the GSC agency token + .env baked into the image for v2 index flags
+# (optional — without it the scorer runs in sitemap-only mode).

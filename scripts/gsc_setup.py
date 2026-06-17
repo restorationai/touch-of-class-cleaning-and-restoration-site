@@ -97,9 +97,15 @@ def _load_credentials():
         client_secret=token_data["client_secret"],
         scopes=SCOPES,
     )
-    if not creds.valid:
+    # Stored tokens often lack an `expiry`, which makes google-auth treat a
+    # stale access token as still valid (it skips the refresh -> 401). Whenever
+    # a refresh token is present, mint a fresh access token if the creds aren't
+    # provably valid, and persist the expiry so later loads can judge validity.
+    if creds.refresh_token and (not creds.valid or creds.expiry is None):
         creds.refresh(Request())
         token_data["token"] = creds.token
+        if creds.expiry is not None:
+            token_data["expiry"] = creds.expiry.isoformat()
         AGENCY_TOKEN_PATH.write_text(json.dumps(token_data, indent=2))
     return creds
 

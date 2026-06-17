@@ -78,7 +78,10 @@ def determine_origin(c: dict, force: str | None) -> tuple[str, str]:
     """Return (origin, source) — source is 'apex', 'staging', or 'forced'."""
     if force:
         return force.rstrip("/"), "forced"
-    if c.get("apex_cutover", {}).get("completed_at"):
+    # Cut-over is recorded as either top-level `cut_over_at` or nested
+    # `apex_cutover.completed_at` (both forms exist in client records, same as
+    # supabase_sync's apex_live check). Either means the live apex is the origin.
+    if c.get("cut_over_at") or c.get("apex_cutover", {}).get("completed_at"):
         return f"https://{c['domain']}", "apex"
     return f"https://staging.rankai-{c['slug']}.pages.dev", "staging"
 
