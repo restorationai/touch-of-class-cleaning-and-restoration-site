@@ -78,9 +78,16 @@ ELEVENLABS_MODEL = "eleven_turbo_v2_5"  # Fast + high quality; upgrade to eleven
 
 PEXELS_API = "https://api.pexels.com/videos/search"
 
+# Images-only mode: when False, scenes never use Pexels stock video — every scene is a
+# still (client photo or Gemini AI image) with a Ken Burns zoom. Set True to re-enable stock.
+USE_STOCK_VIDEO = False
+
 XFADE_DURATION = 0.4  # seconds of dissolve between clips
 
-YOUTUBE_SCOPES = ["https://www.googleapis.com/auth/youtube.upload"]
+YOUTUBE_SCOPES = [
+    "https://www.googleapis.com/auth/youtube.upload",
+    "https://www.googleapis.com/auth/youtube.force-ssl",  # required for captions().insert()
+]
 # Reuse the same Desktop app OAuth client as GSC — same Google Cloud project,
 # YouTube Data API v3 enabled separately. Fall back to .youtube-oauth-client.json
 # if the GSC file is absent (e.g. on a fresh clone).
@@ -138,14 +145,37 @@ def load_post(slug: str, post_slug: str) -> dict:
     return {"path": path, "frontmatter": fm, "body": body.strip()}
 
 
-def update_post_youtube_id(post_path: Path, youtube_id: str) -> None:
-    """Add or update youtube_id field in the post's frontmatter."""
+def update_post_youtube_id(
+    post_path: Path, youtube_id: str, transcript: str | None = None
+) -> None:
+    """Patch youtube_id + video_transcript into frontmatter and append transcript section."""
     text = post_path.read_text()
+
+    # Patch youtube_id
     if "youtube_id:" in text:
         text = re.sub(r"youtube_id:.*", f'youtube_id: "{youtube_id}"', text)
     else:
-        # Inject before the closing ---
         text = text.replace("\n---\n", f'\nyoutube_id: "{youtube_id}"\n---\n', 1)
+
+    # Patch video_transcript in frontmatter (used by VideoObject JSON-LD schema)
+    if transcript:
+        safe_transcript = transcript.replace('"', "'")
+        if "video_transcript:" in text:
+            text = re.sub(
+                r"video_transcript:.*",
+                f'video_transcript: "{safe_transcript}"',
+                text,
+            )
+        else:
+            text = text.replace(
+                "\n---\n",
+                f'\nvideo_transcript: "{safe_transcript}"\n---\n',
+                1,
+            )
+        # Append visible transcript section to post body (crawlable text)
+        if "## Video Transcript" not in text:
+            text = text.rstrip() + f"\n\n## Video Transcript\n\n{transcript}\n"
+
     post_path.write_text(text)
 
 
@@ -182,14 +212,15 @@ Produce a JSON object with these exact keys:
   "thumbnail_prompt": "..."      // Gemini prompt for custom thumbnail (bold text, left side clear for text overlay)
 }}
 
-RULES for scene_type assignment:
+RULES for scene_type assignment (this video uses IMAGES ONLY — no stock video):
 - Use "client_photo" for intro scenes, team/company credibility scenes, and job-result scenes
   — pick keywords matching the available categories above (e.g. "team", "before_after", "equipment")
-- Use "stock" for topic-specific footage the client's photos won't cover (flooded room, insurance adjuster,
-  moisture meter, specific damage type). Good Pexels queries: "water damage restoration", "flooded basement",
-  "insurance adjuster home inspection", "drywall repair contractor", "fire damage cleanup crew"
-- Use "ai" only when neither client photos nor stock would work well (uncommon)
-- If photo categories are available, aim for at least 3-4 "client_photo" scenes
+- Use "ai" for every other scene (topic-specific visuals the client's photos won't cover — flooded room,
+  moisture meter, drying equipment, specific damage type). ALWAYS include a detailed "image_prompt": a
+  photorealistic 16:9 scene (specific subject, setting, lighting, mood; NO on-screen text; avoid showing
+  faces — shoot from behind, hands-only, or wide framing, so auto-blur never triggers).
+- Do NOT use "stock" — there is no stock-video step anymore.
+- If photo categories are available, aim for 3-4 "client_photo" scenes; make every other scene "ai".
 
 RULES for narration:
 - Total must read in ~90 seconds (~2.5 words/second = ~225 words total across all scenes)
@@ -513,7 +544,10 @@ def generate_scene_clips(
     slug: str,
     scene_duration: float,
 ) -> list[Path]:
-    """Build one .mp4 clip per scene using: client photo > Pexels stock > Gemini AI."""
+    """Build one .mp4 clip per scene using IMAGES ONLY: client photo > Gemini AI image.
+
+    Stock video (Pexels) is disabled (USE_STOCK_VIDEO=False) — every scene renders as a
+    still (client photo or AI image) with a Ken Burns zoom, for a consistent look."""
     photos_map = load_client_photos(slug)
     used_photos: set[str] = set()
     clip_paths: list[Path] = []
@@ -523,38 +557,44 @@ def generate_scene_clips(
         zoom_dir = "in" if i % 2 == 0 else "out"
         scene_type = scene.get("scene_type", "ai")
 
+        narration = scene.get("narration", "")
+
         # --- 1. Client photo ---
         if scene_type == "client_photo" and photos_map:
             photo = match_client_photo(scene.get("photo_keywords", []), photos_map, used_photos)
             if photo:
                 print(f"  [clip {i+1}/{len(scenes)}] client photo: {photo.name[:45]}")
-                build_still_clip(photo, clip_path, scene_duration, zoom_dir)
+                build_still_clip(photo, clip_path, scene_duration, zoom_dir,
+                                 subtitle_text=narration)
                 used_photos.add(str(photo))
                 clip_paths.append(clip_path)
                 continue
-            print(f"  [clip {i+1}/{len(scenes)}] no matching client photo, trying Pexels...")
+            print(f"  [clip {i+1}/{len(scenes)}] no matching client photo, using AI image...")
 
-        # --- 2. Pexels stock video ---
-        if scene_type in ("client_photo", "stock"):
-            query = scene.get("stock_query") or scene.get("narration", "")[:50]
+        # --- 2. Pexels stock video (disabled — images only) ---
+        if USE_STOCK_VIDEO and scene_type in ("client_photo", "stock"):
+            query = scene.get("stock_query") or narration[:50]
             print(f"  [clip {i+1}/{len(scenes)}] pexels: '{query[:45]}'...")
             video_url = pexels_search_video(query, min_duration=int(scene_duration))
             if video_url:
                 if download_and_trim_pexels(video_url, clip_path, scene_duration):
+                    print(f"      [subtitle] burning captions on pexels clip...")
+                    _burn_subtitles_on_video(clip_path, narration)
                     clip_paths.append(clip_path)
                     continue
             print(f"      falling back to Gemini AI...")
 
         # --- 3. Gemini AI image fallback ---
         img_prompt = scene.get("image_prompt") or (
-            f"Photorealistic 16:9 professional restoration scene: {scene.get('narration', '')[:80]}, "
+            f"Photorealistic 16:9 professional restoration scene: {narration[:80]}, "
             "dramatic professional lighting, hyperrealistic, restoration industry"
         )
         print(f"  [clip {i+1}/{len(scenes)}] gemini: {img_prompt[:50]}...")
         png_bytes = gemini_generate_image(img_prompt, model=model)
         img_path = work_dir / f"scene_{i:02d}.png"
         img_path.write_bytes(png_bytes)
-        build_still_clip(img_path, clip_path, scene_duration, zoom_dir)
+        build_still_clip(img_path, clip_path, scene_duration, zoom_dir,
+                         subtitle_text=narration)
         clip_paths.append(clip_path)
         time.sleep(1)  # Gemini rate limit courtesy
 
@@ -593,50 +633,179 @@ def get_audio_duration(audio_path: Path) -> float:
     return 0.0  # unreachable, satisfy type checker
 
 
+# ---------------------------------------------------------------------------
+# Subtitle rendering helpers (PIL-based — no libass/drawtext needed)
+# ---------------------------------------------------------------------------
+
+SUBTITLE_FONT_SIZE = 52
+SUBTITLE_CHARS_PER_LINE = 52
+
+
+def _load_subtitle_font():
+    from PIL import ImageFont
+    for fp in [
+        "/System/Library/Fonts/Helvetica.ttc",
+        "/System/Library/Fonts/HelveticaNeue.ttc",
+        "/System/Library/Fonts/Arial.ttf",
+        "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+        "/usr/share/fonts/truetype/ubuntu/Ubuntu-B.ttf",
+    ]:
+        try:
+            return ImageFont.truetype(fp, SUBTITLE_FONT_SIZE)
+        except Exception:
+            pass
+    return ImageFont.load_default()
+
+
+def _wrap_text(text: str) -> list[str]:
+    words = text.split()
+    lines: list[str] = []
+    current: list[str] = []
+    curr_len = 0
+    for word in words:
+        if curr_len + len(word) + 1 > SUBTITLE_CHARS_PER_LINE and current:
+            lines.append(" ".join(current))
+            current, curr_len = [word], len(word)
+        else:
+            current.append(word)
+            curr_len += len(word) + 1
+    if current:
+        lines.append(" ".join(current))
+    return lines
+
+
+def _draw_subtitle(img, lines: list[str], font) -> "PILImage":
+    """Draw white text with black outline onto img in-place. Returns img."""
+    from PIL import ImageDraw
+    draw = ImageDraw.Draw(img)
+    line_h = SUBTITLE_FONT_SIZE + 12
+    total_h = line_h * len(lines)
+    y_base = img.height - total_h - 70  # 70px above bottom edge
+
+    for i, line in enumerate(lines):
+        bbox = font.getbbox(line)
+        tw = bbox[2] - bbox[0]
+        x = (img.width - tw) // 2
+        y = y_base + i * line_h
+        # Black outline in 8 directions
+        for dx, dy in [(-3, 0), (3, 0), (0, -3), (0, 3),
+                       (-3, -3), (3, 3), (-3, 3), (3, -3)]:
+            draw.text((x + dx, y + dy), line, font=font, fill=(0, 0, 0))
+        draw.text((x, y), line, font=font, fill=(255, 255, 255))
+    return img
+
+
 def build_still_clip(img_path: Path, clip_path: Path, duration: float,
-                     zoom_direction: str, fps: int = 30) -> None:
-    """Create a clip from a still image with smooth Ken Burns pan.
+                     zoom_direction: str, fps: int = 30,
+                     subtitle_text: str = "") -> None:
+    """Ken Burns clip from a still image via Pillow frame-pipe to FFmpeg.
 
-    Uses a simple linear crop instead of zoompan to eliminate the sub-pixel
-    jitter that causes the 'shaking' artifact in zoompan at zoom≈1.0.
-    Pads image to 110% of output then slowly drifts the crop window.
+    Generates exact integer crop coordinates per-frame — eliminates the
+    floating-point rounding oscillation that caused the shaking artifact
+    in the previous FFmpeg crop-expression approach.
     """
+    from PIL import Image as PILImage
+
     frames = int(duration * fps)
-    # 10% padding gives room to drift without exposing edges
-    pad_w, pad_h = 2114, 1190  # next-even above 1920*1.1, 1080*1.1
-    dx, dy = pad_w - 1920, pad_h - 1080  # 194, 110 pixels of movement range
+    img = PILImage.open(img_path).convert("RGB")
+    orig_w, orig_h = img.size
 
-    half_dx, half_dy = dx // 2, dy // 2
+    # Scale image to 115% of output so there's room to pan
+    target_w, target_h = 1920, 1080
+    scale = max(target_w * 1.15 / orig_w, target_h * 1.15 / orig_h)
+    scaled_w = int(orig_w * scale)
+    scaled_h = int(orig_h * scale)
+    scaled_w += scaled_w % 2  # x264 requires even dimensions
+    scaled_h += scaled_h % 2
+    img = img.resize((scaled_w, scaled_h), PILImage.LANCZOS)
 
-    if zoom_direction == "in":
-        # Drift from center toward top-left corner (subtle zoom-in feel)
-        x_expr = f"{half_dx}*(1-n/{frames})"
-        y_expr = f"{half_dy}*(1-n/{frames})"
-    else:
-        # Drift from top-left back toward center (zoom-out feel)
-        x_expr = f"{half_dx}*(n/{frames})"
-        y_expr = f"{half_dy}*(n/{frames})"
+    max_x = scaled_w - target_w  # total horizontal travel in pixels
+    max_y = scaled_h - target_h  # total vertical travel in pixels
 
-    vf = (
-        f"scale={pad_w}:{pad_h}:force_original_aspect_ratio=increase:flags=lanczos,"
-        f"crop={pad_w}:{pad_h},"
-        f"crop=1920:1080:x='{x_expr}':y='{y_expr}',"
-        "setsar=1"
+    # Pre-compute subtitle lines and font once
+    font = sub_lines = None
+    if subtitle_text:
+        font = _load_subtitle_font()
+        sub_lines = _wrap_text(subtitle_text)
+
+    proc = subprocess.Popen(
+        [
+            "ffmpeg", "-y",
+            "-f", "rawvideo", "-vcodec", "rawvideo",
+            "-s", f"{target_w}x{target_h}", "-pix_fmt", "rgb24",
+            "-r", str(fps), "-i", "pipe:0",
+            "-c:v", "libx264", "-preset", "fast", "-pix_fmt", "yuv420p",
+            str(clip_path),
+        ],
+        stdin=subprocess.PIPE,
+        stderr=subprocess.DEVNULL,
     )
-    cmd = [
-        "ffmpeg", "-y",
-        "-loop", "1", "-framerate", str(fps),
-        "-t", str(duration),
-        "-i", str(img_path),
-        "-vf", vf,
-        "-t", str(duration),
-        "-r", str(fps),
-        "-c:v", "libx264", "-preset", "fast", "-pix_fmt", "yuv420p",
-        str(clip_path),
-    ]
-    subprocess.run(cmd, check=True, capture_output=True)
+    try:
+        for n in range(frames):
+            t = n / max(frames - 1, 1)        # 0.0 → 1.0
+            if zoom_direction == "out":
+                t = 1.0 - t                    # reverse direction
+            # Integer coords — monotonically increase, never oscillate
+            x = int(max_x * t)
+            y = int(max_y * t)
+            frame = img.crop((x, y, x + target_w, y + target_h))
+            if sub_lines:
+                _draw_subtitle(frame, sub_lines, font)
+            proc.stdin.write(frame.tobytes())
+    finally:
+        proc.stdin.close()
+        proc.wait()
 
 
+def _burn_subtitles_on_video(clip_path: Path, subtitle_text: str, fps: int = 30) -> None:
+    """Read an existing clip frame-by-frame and burn subtitle text onto each frame."""
+    from PIL import Image as PILImage
+
+    font = _load_subtitle_font()
+    lines = _wrap_text(subtitle_text)
+    frame_bytes = 1920 * 1080 * 3
+    tmp = clip_path.with_suffix(".sub_tmp.mp4")
+
+    reader = subprocess.Popen(
+        ["ffmpeg", "-i", str(clip_path),
+         "-vf", "scale=1920:1080",
+         "-f", "rawvideo", "-pix_fmt", "rgb24", "pipe:1"],
+        stdout=subprocess.PIPE, stderr=subprocess.DEVNULL,
+    )
+    writer = subprocess.Popen(
+        ["ffmpeg", "-y",
+         "-f", "rawvideo", "-vcodec", "rawvideo",
+         "-s", "1920x1080", "-pix_fmt", "rgb24", "-r", str(fps), "-i", "pipe:0",
+         "-c:v", "libx264", "-preset", "fast", "-pix_fmt", "yuv420p",
+         str(tmp)],
+        stdin=subprocess.PIPE, stderr=subprocess.DEVNULL,
+    )
+    try:
+        while True:
+            data = reader.stdout.read(frame_bytes)
+            if len(data) < frame_bytes:
+                break
+            frame = PILImage.frombuffer("RGB", (1920, 1080), data, "raw", "RGB", 0, 1)
+            _draw_subtitle(frame, lines, font)
+            writer.stdin.write(frame.tobytes())
+    finally:
+        reader.stdout.close()
+        reader.wait()
+        writer.stdin.close()
+        writer.wait()
+
+    if tmp.exists() and tmp.stat().st_size > 10_000:
+        tmp.replace(clip_path)
+    else:
+        tmp.unlink(missing_ok=True)
+        print(f"      [subtitle] burn failed for {clip_path.name}, keeping original")
+
+
+# Background-music bed (auto-mixed when present; the file itself is gitignored — see
+# .gitignore:9 — so it stays out of the repo and is sourced locally). Current track:
+# "Raising Me Higher" — Mixkit Stock Music Free License (commercial use, no attribution).
+# Re-fetch with: curl -A "Mozilla/5.0" -o assets/background_music.mp3 \
+#   https://assets.mixkit.co/music/34/34.mp3
 BACKGROUND_MUSIC_PATH = REPO_ROOT / "assets" / "background_music.mp3"
 
 
@@ -661,7 +830,9 @@ def assemble_video(
             "-stream_loop", "-1", "-i", str(BACKGROUND_MUSIC_PATH),
             "-filter_complex",
             f"[1:a]volume=0.126,atrim=0:duration={audio_duration:.3f}[bg];"
-            "[0:a][bg]amix=inputs=2:duration=first:dropout_transition=3[out]",
+            # normalize=0 keeps the narration at full level; without it amix scales
+            # every input by 1/n, which halves the voiceover when music is mixed in.
+            "[0:a][bg]amix=inputs=2:duration=first:dropout_transition=3:normalize=0[out]",
             "-map", "[out]",
             "-c:a", "libmp3lame", "-b:a", "128k",
             str(mixed_audio),
@@ -749,6 +920,26 @@ def generate_srt(scenes: list[dict], audio_duration: float, output_path: Path) -
         lines.append(scene["narration"])
         lines.append("")
     output_path.write_text("\n".join(lines))
+
+
+def format_chapter_timestamps(scenes: list[dict], audio_duration: float) -> str:
+    """Return a 'Chapters:' block for the YouTube description.
+
+    YouTube detects chapter markers from lines formatted as 'M:SS Title'
+    (or H:MM:SS) — the first entry must be at 0:00.
+    """
+    scene_dur = audio_duration / len(scenes)
+    lines = ["Chapters:"]
+    for i, scene in enumerate(scenes):
+        t = i * scene_dur
+        m = int(t // 60)
+        s = int(t % 60)
+        # Trim narration to a short chapter title (max 50 chars, no mid-word cut)
+        narration = scene.get("narration", "")
+        if len(narration) > 50:
+            narration = narration[:50].rsplit(" ", 1)[0]
+        lines.append(f"{m}:{s:02d} {narration}")
+    return "\n".join(lines)
 
 
 # ---------------------------------------------------------------------------
@@ -999,6 +1190,12 @@ def cmd_make(args) -> int:
         audio_duration = get_audio_duration(audio_path)
         print(f"  Audio: {audio_duration:.1f}s ({len(narration)} chars)")
 
+        # Inject chapter timestamps into YouTube description now that we know audio_duration
+        chapters = format_chapter_timestamps(scenes, audio_duration)
+        script["youtube_description"] = (
+            script.get("youtube_description", "") + "\n\n" + chapters
+        )
+
         # Step 3 — scene clips (client photos → Pexels → Gemini AI)
         scene_duration = audio_duration / len(scenes)
         print(f"\n[3/6] Building scene clips ({len(scenes)} scenes x {scene_duration:.1f}s)...")
@@ -1031,9 +1228,9 @@ def cmd_make(args) -> int:
             slug, video_path, thumb_path, srt_path, script, privacy=privacy
         )
 
-        # Step 7 — update frontmatter
+        # Step 7 — update frontmatter + append transcript
         print("\n[6/6] Updating blog post frontmatter...")
-        update_post_youtube_id(post["path"], video_id)
+        update_post_youtube_id(post["path"], video_id, transcript=narration)
         commit_video_update(slug, post_slug, video_id)
 
     # Deploy the frontmatter update
