@@ -4,10 +4,8 @@ import { brand } from "~/lib/brand";
 
 <header class="bg-dark text-white sticky top-0 z-50 border-b border-white/10 shadow-md">
   <div class="container-wide flex items-center justify-between gap-6 h-20">
-    <a href="/" class="flex items-center gap-3 no-underline text-white group flex-shrink-0">
-      {brand.logoUrl && (
-        <img src={brand.logoUrl} alt={`${brand.displayName} logo`} class="h-9 w-auto group-hover:scale-105 transition-transform" width="36" height="36" loading="eager" />
-      )}
+    <a href="/" class="flex items-center no-underline text-white group min-w-0 mr-2">
+      <span class="font-black text-sm sm:text-base lg:text-lg tracking-tight leading-tight group-hover:text-primary-400 transition-colors">{brand.displayName}</span>
     </a>
 
     <nav class="hidden lg:flex items-center gap-6 text-[11px] font-black uppercase tracking-widest h-full">
