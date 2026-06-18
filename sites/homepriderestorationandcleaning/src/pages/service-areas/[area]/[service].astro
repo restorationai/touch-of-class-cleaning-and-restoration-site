@@ -1,0 +1,81 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "~/layouts/BaseLayout.astro";
+import CtaBanner from "~/components/CtaBanner.astro";
+import FAQSection from "~/components/FAQSection.astro";
+import InternalLinks from "~/components/InternalLinks.astro";
+import GoogleMap from "~/components/GoogleMap.astro";
+import { brand } from "~/lib/brand";
+
+export async function getStaticPaths() {
+  const locations = await getCollection("locations");
+  return locations.map((l) => ({
+    params: { area: l.data.area_slug, service: l.data.service_slug },
+    props: { entry: l },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+const data = entry.data;
+const sensitive = data.content_guardrails === "sensitive";
+const heroImage = data.hero || `${brand.imagesBase}/brand/hero.webp`;
+---
+
+<BaseLayout
+  title={data.title}
+  meta_description={data.meta_description}
+  hero_image_url={heroImage}
+  schema_stubs={["service", "local-business", "faq", "breadcrumb-list"]}
+  schema_ctx={{
+    archetype: "service-area-service",
+    service_display: data.service_display,
+    city: data.city,
+    state: data.state,
+  }}
+  breadcrumb={data.breadcrumb}
+  faq={data.faq}
+>
+  <!-- HERO -->
+  <section class="relative min-h-[500px] flex items-center overflow-hidden bg-navy border-b border-white/10">
+    <div class="absolute inset-0 z-0">
+      <img src={heroImage} alt={data.h1} class="w-full h-full object-cover" loading="eager" />
+      <div class="absolute inset-0 bg-gradient-to-r from-navy via-navy/85 to-navy/30"></div>
+    </div>
+    <div class="container-wide relative z-10 py-20">
+      <div class="max-w-2xl">
+        <div class="eyebrow">{data.city}, {data.state} · {data.service_display}</div>
+        <h1 class="mb-6">{data.h1}</h1>
+        <p class="text-lg text-white/85 mb-8 leading-relaxed">{data.meta_description}</p>
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a href={`tel:${brand.phoneRaw}`} class={sensitive ? "btn-primary" : "btn-accent"}>
+            {sensitive ? "Request Discreet Help" : `📞 Call ${brand.phone}`}
+          </a>
+          <a href={`/service-areas/${data.area_slug}/`} class="btn-outline">
+            All Services in {data.city}
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BODY -->
+  <section class="section-first bg-navy">
+    <div class="container-wide">
+      <div class="prose-body">
+        <Content />
+      </div>
+    </div>
+  </section>
+
+  <GoogleMap city={data.city} state={data.state} service={data.service_display} />
+
+  <FAQSection faq={data.faq} eyebrow={`${data.service_display} in ${data.city}`} />
+
+  <CtaBanner
+    heading={`${data.service_display} response in ${data.city}`}
+    subheading={`Most ${data.city} calls see a technician on-site within 60 minutes from our ${brand.primaryCity} headquarters.`}
+  />
+
+  <InternalLinks paths={data.internal_links} heading="Nearby & Related" eyebrow="More Coverage" />
+</BaseLayout>

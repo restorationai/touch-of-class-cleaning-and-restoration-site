@@ -1,0 +1,96 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "~/layouts/BaseLayout.astro";
+import CtaBanner from "~/components/CtaBanner.astro";
+import FAQSection from "~/components/FAQSection.astro";
+import InternalLinks from "~/components/InternalLinks.astro";
+import GoogleMap from "~/components/GoogleMap.astro";
+import { brand } from "~/lib/brand";
+
+export async function getStaticPaths() {
+  const areas = await getCollection("serviceAreas");
+  return areas.map((a) => ({ params: { area: a.data.area_slug }, props: { entry: a } }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+const data = entry.data;
+const heroImage = data.hero || `${brand.imagesBase}/brand/hero.webp`;
+
+// Sister cross-product pages for this area, sorted by priority
+const locations = (await getCollection("locations"))
+  .filter((l) => l.data.area_slug === data.area_slug)
+  .sort((a, b) => (b.data.priority || 0) - (a.data.priority || 0));
+---
+
+<BaseLayout
+  title={data.title}
+  meta_description={data.meta_description}
+  hero_image_url={heroImage}
+  schema_stubs={["local-business", "service", "breadcrumb-list"]}
+  schema_ctx={{
+    archetype: "service-area",
+    city: data.city,
+    state: data.state,
+  }}
+  breadcrumb={data.breadcrumb}
+>
+  <!-- HERO -->
+  <section class="relative min-h-[500px] flex items-center overflow-hidden bg-navy border-b border-white/10">
+    <div class="absolute inset-0 z-0">
+      <img src={heroImage} alt={data.h1} class="w-full h-full object-cover" loading="eager" />
+      <div class="absolute inset-0 bg-gradient-to-r from-navy via-navy/85 to-navy/30"></div>
+    </div>
+    <div class="container-wide relative z-10 py-20">
+      <div class="max-w-2xl">
+        <div class="eyebrow">Service Area</div>
+        <h1 class="mb-6">{data.h1}</h1>
+        <p class="text-lg text-white/85 mb-8 leading-relaxed">{data.meta_description}</p>
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a href={`tel:${brand.phoneRaw}`} class="btn-accent">📞 Call {brand.phone}</a>
+          <a href="/contact/" class="btn-outline">Get a Free Estimate</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BODY -->
+  <section class="section-first bg-navy">
+    <div class="container-wide">
+      <div class="prose-body">
+        <Content />
+      </div>
+    </div>
+  </section>
+
+  <GoogleMap city={data.city} state={data.state} />
+
+  <!-- Services in this area -->
+  {locations.length > 0 && (
+    <section class="section bg-navy">
+      <div class="container-wide">
+        <div class="text-center mb-12">
+          <div class="eyebrow">{data.city}, {data.state}</div>
+          <h2>Services We Provide in {data.city}</h2>
+        </div>
+        <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {locations.map((l) => (
+            <a href={`/service-areas/${l.data.area_slug}/${l.data.service_slug}/`} class="group block p-6 rounded-lg border border-white/10 bg-white/5 hover:bg-white/10 hover:border-primary/40 transition-all no-underline">
+              <div class="text-lg font-bold text-white mb-2">{l.data.service_display}</div>
+              <p class="text-sm text-white/65 mb-4">{l.data.meta_description.slice(0, 100)}…</p>
+              <span class="text-xs font-black uppercase tracking-widest text-primary-200 group-hover:text-white transition-colors">
+                {l.data.service_display} in {l.data.city} →
+              </span>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <FAQSection faq={data.faq} eyebrow={`${data.city}, ${data.state}`} />
+
+  <CtaBanner heading={`Restoration emergency in ${data.city}?`} subheading={`Our team is based nearby. Call now for fast response.`} />
+
+  <InternalLinks paths={data.internal_links} heading="More Service Areas" eyebrow="Nearby Coverage" />
+</BaseLayout>

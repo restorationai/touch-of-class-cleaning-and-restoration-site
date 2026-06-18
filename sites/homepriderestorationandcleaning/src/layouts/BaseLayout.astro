@@ -1,0 +1,103 @@
+---
+import "~/styles/global.css";
+import { brand } from "~/lib/brand";
+import Header from "~/components/Header.astro";
+import Footer from "~/components/Footer.astro";
+import Schema from "~/components/Schema.astro";
+import Breadcrumb from "~/components/Breadcrumb.astro";
+import { Phone } from "@lucide/astro";
+import type { PageSchemaContext } from "~/lib/schema";
+
+type Props = {
+  title: string;
+  meta_description: string;
+  canonical_url?: string;
+  hero_image_url?: string;
+  schema_stubs?: string[];
+  schema_ctx?: Partial<PageSchemaContext>;
+  breadcrumb?: { name: string; url?: string }[];
+  faq?: { question: string; answer: string }[];
+  noindex?: boolean;
+};
+
+const {
+  title,
+  meta_description,
+  canonical_url,
+  hero_image_url,
+  schema_stubs = [],
+  schema_ctx = {},
+  breadcrumb,
+  faq,
+  noindex = false,
+} = Astro.props;
+
+const fullCanonical = canonical_url ?? `${brand.canonicalUrl}${Astro.url.pathname}`;
+const ogImage = hero_image_url ?? `${brand.imagesBase}/brand/hero.webp`;
+
+const ctx: PageSchemaContext = {
+  archetype: schema_ctx.archetype ?? "unknown",
+  url: Astro.url.pathname,
+  title,
+  meta_description,
+  hero_image_url: ogImage,
+  breadcrumb,
+  faq,
+  ...schema_ctx,
+};
+---
+
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0d1b3e" />
+    <title>{title}</title>
+    <meta name="description" content={meta_description} />
+    <link rel="canonical" href={fullCanonical} />
+    {noindex && <meta name="robots" content="noindex,nofollow" />}
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={meta_description} />
+    <meta property="og:url" content={fullCanonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:site_name" content={brand.displayName} />
+    <meta property="og:locale" content="en_US" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={meta_description} />
+    <meta name="twitter:image" content={ogImage} />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+
+    <Schema stubs={schema_stubs} ctx={ctx} />
+
+    {/* Restoration AI Chat Widget — only renders if this client has a widget id set
+        (brand.emergencyWidgetId). Removed hardcoded narestco id. */}
+    {(brand as any).emergencyWidgetId && (
+      <>
+        <script is:inline set:html={`window.EmergencyWidgetId = ${JSON.stringify((brand as any).emergencyWidgetId)};`} />
+        <script is:inline src="https://app.restorationai.io/widget-main.js" async></script>
+      </>
+    )}
+  </head>
+  <body class="min-h-screen flex flex-col">
+    <div class="hidden md:block bg-primary-600 text-white text-xs md:text-sm font-bold text-center py-2 px-4 tracking-wider">
+      Licensed &amp; Insured &mdash; {brand.primaryCity}, {brand.primaryState} Restoration Specialists
+    </div>
+    <Header />
+    <Breadcrumb trail={breadcrumb} />
+    <main class="flex-1 pb-14 md:pb-0">
+      <slot />
+    </main>
+    <Footer />
+    <a href={`tel:${brand.phoneRaw}`} class="fixed bottom-0 inset-x-0 z-40 md:hidden flex items-center justify-center gap-3 bg-primary-600 text-white font-black py-4 text-base shadow-[0_-4px_24px_rgba(220,38,38,0.35)] border-t border-primary-700">
+      <Phone size={18} strokeWidth={3} />
+      Call Now: {brand.phone}
+    </a>
+  </body>
+</html>

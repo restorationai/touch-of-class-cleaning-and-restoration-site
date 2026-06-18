@@ -1,0 +1,47 @@
+---
+import { MapPin, Users, Clock, Shield, IdCard } from '@lucide/astro';
+
+const items = [
+  { icon: MapPin, label: "100% Local" },
+  { icon: Users, label: "Family Business" },
+  { icon: Clock, label: "12+ Years Experience" },
+  { icon: Shield, label: "Insured" },
+  { icon: IdCard, label: "Fully Licensed" },
+];
+---
+
+<section class="bg-dark py-16 md:py-8 text-white border-y border-white/10">
+  <div class="container-wide px-6">
+    
+    {/* MOBILE VIEW: Vertical Stack with Icons Aligned to the Left of Text */}
+    <div class="flex flex-col lg:hidden items-start w-fit mx-auto gap-12 py-4">
+      {items.map((item) => {
+        const Icon = item.icon;
+        return (
+          <div class="flex items-center gap-6 font-black uppercase text-3xl xs:text-4xl tracking-tighter">
+            <span class="text-white shrink-0 flex items-center justify-center w-10">
+              <Icon size={32} />
+            </span>
+            <span class="whitespace-nowrap">{item.label}</span>
+          </div>
+        );
+      })}
+    </div>
+    
+    {/* DESKTOP VIEW: Horizontal Row */}
+    <div class="hidden lg:flex justify-between items-center gap-8 overflow-x-auto whitespace-nowrap">
+      {items.map((item) => {
+        const Icon = item.icon;
+        return (
+          <div class="flex items-center gap-3 font-black uppercase text-base tracking-[0.15em]">
+            <span class="text-primary-500">
+              <Icon size={24} />
+            </span>
+            {item.label}
+          </div>
+        );
+      })}
+    </div>
+
+  </div>
+</section>
