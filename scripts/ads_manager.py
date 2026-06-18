@@ -413,7 +413,8 @@ def create_budget(client, customer_id: str, name: str,
 
 
 def create_campaign(client, customer_id: str, name: str,
-                    budget_resource: str, dry_run: bool = False) -> str:
+                    budget_resource: str, dry_run: bool = False,
+                    cold_start_max_cpc: float | None = 30.0) -> str:
     if dry_run:
         print(f"    [dry-run] campaign: {name}")
         return f"customers/{customer_id}/campaigns/0"
@@ -427,12 +428,20 @@ def create_campaign(client, customer_id: str, name: str,
     )
     campaign.status = client.enums.CampaignStatusEnum.PAUSED
     campaign.campaign_budget = budget_resource
+    # Cold-start: a brand-new campaign has NO conversion history, so Maximize
+    # Conversions bids microscopically and loses ~90% impression share to rank
+    # ($0 spend, 0 clicks). Start on Maximize Clicks (TARGET_SPEND) with a max-CPC
+    # ceiling to win clicks + gather data; graduate to Maximize Conversions after
+    # ~15-30 conversions via `set-bid-strategy` (see bidding-strategy-playbook.md).
     campaign.bidding_strategy_type = (
-        client.enums.BiddingStrategyTypeEnum.MAXIMIZE_CONVERSIONS
+        client.enums.BiddingStrategyTypeEnum.TARGET_SPEND
     )
     # The bidding strategy oneof message must be set, not just the type enum,
     # or the API rejects with REQUIRED: campaign_bidding_strategy.
-    campaign.maximize_conversions = client.get_type("MaximizeConversions")
+    if cold_start_max_cpc:
+        campaign.target_spend.cpc_bid_ceiling_micros = int(cold_start_max_cpc * 1_000_000)
+    else:
+        campaign.target_spend.CopyFrom(client.get_type("TargetSpend"))
     campaign.network_settings.target_google_search = True
     campaign.network_settings.target_search_network = False
     campaign.network_settings.target_content_network = False
