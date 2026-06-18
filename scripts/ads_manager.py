@@ -1209,6 +1209,50 @@ def cmd_set_budget(slug: str, campaign_resource: str, daily_budget: float) -> in
     return 0
 
 
+def cmd_set_bid_strategy(slug: str, campaign_resource: str, strategy: str,
+                         max_cpc: float | None = None) -> int:
+    """Switch a campaign's portfolio-free bidding strategy.
+
+    strategy:
+      maximize-clicks      -> TARGET_SPEND (Maximize Clicks), optional --max-cpc ceiling.
+                              The cold-start strategy: forces the campaign into the auction
+                              to win clicks + gather conversion data (fixes IS-lost-to-rank).
+      maximize-conversions -> MAXIMIZE_CONVERSIONS (graduate here once ~15-30 conv exist).
+
+    Uses the field-mask helper (Google's recommended pattern) so the bidding-strategy
+    oneof switches cleanly.
+    """
+    from google.api_core import protobuf_helpers
+
+    client_rec = load_client(slug)
+    customer_id = get_customer_id(client_rec, slug)
+    client = build_ads_client(slug)
+
+    service = client.get_service("CampaignService")
+    op = client.get_type("CampaignOperation")
+    campaign = op.update
+    campaign.resource_name = campaign_resource
+
+    if strategy == "maximize-clicks":
+        # Setting the target_spend oneof switches the strategy away from maximize_conversions.
+        if max_cpc is not None:
+            campaign.target_spend.cpc_bid_ceiling_micros = int(max_cpc * 1_000_000)
+        else:
+            # Touch the message so the oneof is set even without a ceiling.
+            campaign.target_spend.CopyFrom(client.get_type("TargetSpend"))
+        label = f"Maximize Clicks" + (f" (max CPC ${max_cpc:.2f})" if max_cpc else "")
+    elif strategy == "maximize-conversions":
+        campaign.maximize_conversions.CopyFrom(client.get_type("MaximizeConversions"))
+        label = "Maximize Conversions"
+    else:
+        die(f"Unknown strategy: {strategy} (use maximize-clicks | maximize-conversions)")
+
+    op.update_mask.CopyFrom(protobuf_helpers.field_mask(None, campaign._pb))
+    service.mutate_campaigns(customer_id=customer_id, operations=[op])
+    print(f"  Bid strategy -> {label}: {campaign_resource}")
+    return 0
+
+
 def cmd_add_keywords(slug: str, ad_group_resource: str, keywords_str: str) -> int:
     client_rec = load_client(slug)
     customer_id = get_customer_id(client_rec, slug)
@@ -1714,6 +1758,12 @@ def main() -> int:
     p.add_argument("--campaign", required=True)
     p.add_argument("--daily-budget", type=float, required=True)
 
+    p = sub.add_parser("set-bid-strategy")
+    p.add_argument("--slug", required=True)
+    p.add_argument("--campaign", required=True)
+    p.add_argument("--strategy", required=True, choices=["maximize-clicks", "maximize-conversions"])
+    p.add_argument("--max-cpc", type=float, help="CPC ceiling for maximize-clicks (dollars)")
+
     p = sub.add_parser("add-keywords")
     p.add_argument("--slug", required=True)
     p.add_argument("--ad-group", required=True)
@@ -1756,6 +1806,7 @@ def main() -> int:
         "pause": lambda: cmd_pause_or_enable(args.slug, args.resource, "pause"),
         "enable": lambda: cmd_pause_or_enable(args.slug, args.resource, "enable"),
         "set-budget": lambda: cmd_set_budget(args.slug, args.campaign, args.daily_budget),
+        "set-bid-strategy": lambda: cmd_set_bid_strategy(args.slug, args.campaign, args.strategy, getattr(args, "max_cpc", None)),
         "add-keywords": lambda: cmd_add_keywords(args.slug, args.ad_group, args.keywords),
         "add-negatives": lambda: cmd_add_negatives(args.slug, args.campaign, args.keywords),
         "generate-ads": lambda: cmd_generate_ads(
