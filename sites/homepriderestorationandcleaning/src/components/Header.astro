@@ -3,9 +3,9 @@ import { brand } from "~/lib/brand";
 ---
 
 <header class="bg-dark text-white sticky top-0 z-50 border-b border-white/10 shadow-md">
-  <div class="container-wide flex items-center justify-between gap-6 h-20">
+  <div class="container-wide flex items-center justify-between gap-3 sm:gap-6 h-20">
     <a href="/" class="flex items-center no-underline text-white group min-w-0 mr-2">
-      <span class="font-black text-sm sm:text-base lg:text-lg tracking-tight leading-tight group-hover:text-primary-400 transition-colors">{brand.displayName}</span>
+      <span class="font-black text-sm sm:text-base lg:text-lg tracking-tight leading-tight group-hover:text-primary-400 transition-colors">Home Pride Restoration <span class="whitespace-nowrap">and Cleaning</span></span>
     </a>
 
     <nav class="hidden lg:flex items-center gap-6 text-[11px] font-black uppercase tracking-widest h-full">
@@ -20,7 +20,7 @@ import { brand } from "~/lib/brand";
       <span class="hidden sm:block tracking-wider whitespace-nowrap">24/7 EMERGENCY: {brand.phone}</span>
       <span class="sm:hidden flex flex-col items-center gap-0.5">
         <span class="text-[9px] font-bold tracking-[0.15em] opacity-80 uppercase">Call Now</span>
-        <span class="font-black tracking-wide">{brand.phone}</span>
+        <span class="font-black tracking-wide whitespace-nowrap">{brand.phone}</span>
       </span>
     </a>
   </div>
