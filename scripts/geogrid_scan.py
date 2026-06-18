@@ -43,7 +43,17 @@ MILES_PER_DEG_LAT = 69.0
 
 
 def load_dfs_creds() -> tuple[str, str]:
-    cfg = json.loads((Path.home() / ".claude.json").read_text())
+    # Production (Railway/CI): env vars. Local: fall back to the dataforseo MCP
+    # creds embedded in ~/.claude.json (same account the MCP uses).
+    import os
+    env_u = os.environ.get("DATAFORSEO_USERNAME")
+    env_p = os.environ.get("DATAFORSEO_PASSWORD")
+    if env_u and env_p:
+        return env_u, env_p
+    home_cfg = Path.home() / ".claude.json"
+    if not home_cfg.exists():
+        sys.exit("ERROR: DATAFORSEO_USERNAME/PASSWORD not set and ~/.claude.json not found.")
+    cfg = json.loads(home_cfg.read_text())
     found = {}
     def walk(o):
         if isinstance(o, dict):

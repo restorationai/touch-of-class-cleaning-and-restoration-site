@@ -8,13 +8,16 @@ Authentication: Bearer token (API_SECRET_KEY env var).
 Deployed on Railway from the rank-ai monorepo.
 """
 
+import json
 import os
+import sys
 from pathlib import Path
 
 from dotenv import load_dotenv
 
 ROOT = Path(__file__).parent.parent
 load_dotenv(ROOT / ".env")
+sys.path.insert(0, str(ROOT / "scripts"))  # so we can import the geogrid pipeline
 
 from datetime import datetime, timezone
 
@@ -72,6 +75,12 @@ class CompleteJobRequest(BaseModel):
     status: str   # "completed" or "failed"
     log: str = ""
     error: str = ""
+
+
+class GeogridScanRequest(BaseModel):
+    company_id: str        # = companies.id (TEXT), the app's join key
+    keyword: str
+    city_label: str        # must match a label in clients/{slug}/geogrid-cities.json
 
 # ---------------------------------------------------------------------------
 # Endpoints
@@ -156,6 +165,75 @@ def complete_job(job_id: str, req: CompleteJobRequest):
         )
 
     return {"ok": True}
+
+
+# ---------------------------------------------------------------------------
+# Geo-grid: on-demand local-map-rankings scan (one keyword + one city)
+# ---------------------------------------------------------------------------
+
+# Reverse of COMPANY_MAP — the app sends company_id; the pipeline keys off slug.
+SLUG_BY_COMPANY = {cid: slug for slug, cid in COMPANY_MAP.items()}
+
+
+def _resolve_city(slug: str, city_label: str) -> dict:
+    """Find {label,lat,lng} for a city_label in the client's geogrid-cities.json."""
+    f = ROOT / "clients" / slug / "geogrid-cities.json"
+    if not f.exists():
+        raise HTTPException(status_code=404, detail=f"No geogrid-cities.json for {slug}")
+    for c in json.loads(f.read_text()):
+        if c.get("label") == city_label:
+            return c
+    raise HTTPException(status_code=404, detail=f"city_label '{city_label}' not configured for {slug}")
+
+
+@app.post("/geogrid/scan", dependencies=[Depends(auth)])
+def geogrid_scan(req: GeogridScanRequest):
+    """Run ONE keyword×city geo-grid scan, store it, return the new scan row.
+
+    Server-enforced rate limit: at most 1 scan per (company_id, keyword, city_label)
+    per UTC day — re-scanning the same cell same-day returns 429 with the existing
+    row (the dashboard should just show that one). Scans are ~10-60s; this blocks
+    until the row + points + PNG are written. The app refreshes the card from the
+    returned row (or via realtime subscribe to marketing_geogrid_scans).
+    """
+    slug = SLUG_BY_COMPANY.get(req.company_id)
+    if not slug:
+        raise HTTPException(status_code=404, detail=f"Unknown company_id: {req.company_id}")
+    city = _resolve_city(slug, req.city_label)
+
+    client = sb()
+    # Rate limit: any scan for this cell since UTC midnight?
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%dT00:00:00+00:00")
+    existing = (
+        client.table("marketing_geogrid_scans")
+        .select("id,avg_rank,pct_in_top3,found_points,total_points,image_url,scanned_at")
+        .eq("company_id", req.company_id).eq("keyword", req.keyword)
+        .eq("city_label", req.city_label).gte("scanned_at", today)
+        .order("scanned_at", desc=True).limit(1).execute()
+    )
+    if existing.data:
+        raise HTTPException(
+            status_code=429,
+            detail={"message": "Already scanned today (1/keyword/city/day).",
+                    "scan": existing.data[0]},
+        )
+
+    # Lazy import — keeps PIL/requests out of the cold-start path for other routes.
+    from geogrid_store import scan_and_store
+    row = scan_and_store(client, slug, req.keyword, city)
+    return {
+        "id":           row["id"],
+        "company_id":   req.company_id,
+        "keyword":      req.keyword,
+        "city_label":   req.city_label,
+        "avg_rank":     row.get("avg_rank"),
+        "pct_in_top3":  row.get("pct_in_top3"),
+        "found_points": row.get("found_points"),
+        "total_points": row.get("total_points"),
+        "image_url":    row.get("image_url"),
+        "cost_usd":     row.get("cost_usd"),
+        "scanned_at":   row.get("scanned_at"),
+    }
 
 
 @app.get("/jobs", dependencies=[Depends(auth)])
