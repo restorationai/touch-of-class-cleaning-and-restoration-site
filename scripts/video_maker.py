@@ -82,6 +82,17 @@ PEXELS_API = "https://api.pexels.com/videos/search"
 # still (client photo or Gemini AI image) with a Ken Burns zoom. Set True to re-enable stock.
 USE_STOCK_VIDEO = False
 
+# Output dimensions. Default landscape 16:9 (watch-page embeds). Flip to vertical 9:16
+# (GBP video posts / YouTube Shorts) via set_orientation(vertical=True).
+OUT_W, OUT_H = 1920, 1080
+GEMINI_ASPECT = "16:9"
+
+
+def set_orientation(vertical: bool) -> None:
+    """Set output dimensions + Gemini aspect ratio. Vertical = 9:16 for GBP/Shorts."""
+    global OUT_W, OUT_H, GEMINI_ASPECT
+    OUT_W, OUT_H, GEMINI_ASPECT = (1080, 1920, "9:16") if vertical else (1920, 1080, "16:9")
+
 XFADE_DURATION = 0.4  # seconds of dissolve between clips
 
 YOUTUBE_SCOPES = [
@@ -297,6 +308,117 @@ def generate_video_script(post: dict, client: dict) -> dict:
 
 
 # ---------------------------------------------------------------------------
+# Step 1b — Claude: generate a BRAND-AUTHORITY script (Merchynt/Paige style)
+# ---------------------------------------------------------------------------
+
+BRAND_SCRIPT_PROMPT = """You are writing a ~35-second brand-authority video script for a home restoration company.
+This is NOT a how-to. It is a short "who we are, where we serve, what we do, call us" video — modeled on the
+best local-SEO brand videos. Its transcript is indexed by Google and cited by AI search, so it must be DENSE
+with the company name, the service-area city names, and the service names (these are the ranking signals).
+
+Company: {company}
+Phone: {phone}
+Service-area cities: {cities}
+Services to feature: {services}
+Credibility: {credibility}
+Available client photo categories (prefer these): {photo_categories}
+{focus}
+
+CRITICAL LENGTH: the TOTAL narration across ALL scenes must be 75-90 words MAXIMUM (~30-35 seconds
+spoken). This is a punchy brand short, NOT a 90-second video. Each scene = ONE short sentence (8-14
+words). Count your words and stay under 90 total. Structure the narration to flow like this:
+1. LOCAL HOOK naming 2-3 service-area cities + the core problem ("From {{city}} to {{city}}, when water hits fast...")
+2. The company name + a speed/trust value prop ("{company} shows up ready.")
+3. The services, grouped naturally (name each service clearly — these are keywords)
+4. A credibility/reassurance beat
+5. A clear CTA ending with the phone number
+
+Produce a JSON object with these exact keys:
+{{
+  "scenes": [
+    {{
+      "scene_type": "client_photo" | "ai",   // prefer client_photo when a category fits; else ai
+      "narration": "the spoken line for this segment (one sentence)",
+      "caption": "SHORT on-screen label (3-6 words, e.g. 'Emergency water removal')",
+      "photo_keywords": ["team","truck",...],  // for client_photo — match the categories above
+      "image_prompt": "for ai scenes: photoreal 16:9 scene, NO on-screen text, NO faces (behind/hands/wide)"
+    }}
+    // 5-6 scenes total: scene 1 = company/team intro, then service groups, last = CTA/credibility
+  ],
+  "youtube_title": "{company} — {primary_service} in {primary_city} | 60 chars max",
+  "youtube_description": "2-3 sentences naming the company, cities, and services + 'Call {company} at {phone}'",
+  "tags": ["...", 15-20 tags mixing company name + services + city names],
+  "thumbnail_prompt": "Gemini prompt: bold branded thumbnail, company name area clear"
+}}
+
+RULES:
+- LENGTH IS CRITICAL: combined narration across all scenes must be <= 90 words TOTAL. Count them. A
+  35-second punchy short beats a comprehensive 90-second one. If in doubt, cut words.
+- Name the COMPANY, the CITIES, and the SERVICES explicitly and often — that density IS the SEO/AI signal.
+- Captions are SHORT service labels, not the spoken sentence.
+- Warm, confident, local. End with the phone number.
+- Respond with ONLY valid JSON. No prose before or after.
+"""
+
+
+def generate_brand_script(client: dict, service: str | None = None,
+                          city: str | None = None) -> dict:
+    """Claude → a Merchynt-style brand-authority script (entity/local/service dense)."""
+    api_key = require_env("ANTHROPIC_API_KEY")
+    brand_name = client.get("display_name", "")
+    phone = founded = ""
+    services: list[str] = []
+    areas: list[str] = []
+    certs: list[str] = []
+    try:
+        plan = json.loads((CLIENTS_DIR / client["slug"] / "plan-input.json").read_text())
+        b = plan.get("brand", {})
+        phone = b.get("phone", "")
+        founded = str(b.get("founded_year", "") or "")
+        certs = b.get("certifications", []) or []
+        services = plan.get("services", []) or []
+        areas = [f"{a['city']}, {a['state']}" for a in plan.get("service_areas", [])]
+    except Exception:
+        pass
+
+    feat_services = [service] if service else services
+    svc_pretty = ", ".join(s.replace("-", " ") for s in feat_services[:10])
+    cities = ", ".join([city] if city else areas[:6])
+    credibility = ", ".join(filter(None, [
+        f"founded {founded}" if founded else "",
+        ", ".join(certs[:3]),
+    ])) or "licensed, insured, and certified"
+    focus = ""
+    if service or city:
+        focus = "FOCUS this video on " + " in ".join(filter(None, [
+            (service or "").replace("-", " "), city or ""])) + "."
+
+    photos_map = load_client_photos(client["slug"])
+    photo_categories = (", ".join(sorted(photos_map)) if photos_map
+                        else "None — use ai scenes")
+
+    prompt = BRAND_SCRIPT_PROMPT.format(
+        company=brand_name, phone=phone, cities=cities, services=svc_pretty,
+        credibility=credibility, photo_categories=photo_categories, focus=focus,
+        primary_service=(feat_services[0].replace("-", " ") if feat_services else "restoration"),
+        primary_city=(city or (areas[0] if areas else "")),
+    )
+    body = json.dumps({
+        "model": ANTHROPIC_MODEL, "max_tokens": 2000,
+        "messages": [{"role": "user", "content": prompt}],
+    }).encode()
+    req = urllib.request.Request(ANTHROPIC_API, data=body, method="POST", headers={
+        "content-type": "application/json", "x-api-key": api_key,
+        "anthropic-version": "2023-06-01"})
+    with urllib.request.urlopen(req, timeout=120) as resp:
+        payload = json.loads(resp.read().decode())
+    raw = payload["content"][0]["text"].strip()
+    raw = re.sub(r"^```json\s*", "", raw)
+    raw = re.sub(r"\s*```$", "", raw)
+    return json.loads(raw)
+
+
+# ---------------------------------------------------------------------------
 # Step 2 — TTS: synthesise narration
 # ---------------------------------------------------------------------------
 
@@ -503,7 +625,7 @@ def gemini_generate_image(prompt: str, model: str, max_retries: int = 3) -> byte
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {
             "responseModalities": ["IMAGE"],
-            "imageConfig": {"aspectRatio": "16:9"},
+            "imageConfig": {"aspectRatio": GEMINI_ASPECT},
         },
     }).encode()
 
@@ -558,6 +680,9 @@ def generate_scene_clips(
         scene_type = scene.get("scene_type", "ai")
 
         narration = scene.get("narration", "")
+        # Brand videos carry a short on-screen "caption" (service label, like the
+        # Merchynt style); blog videos burn the spoken narration. Prefer caption.
+        subtitle = scene.get("caption") or narration
 
         # --- 1. Client photo ---
         if scene_type == "client_photo" and photos_map:
@@ -565,7 +690,7 @@ def generate_scene_clips(
             if photo:
                 print(f"  [clip {i+1}/{len(scenes)}] client photo: {photo.name[:45]}")
                 build_still_clip(photo, clip_path, scene_duration, zoom_dir,
-                                 subtitle_text=narration)
+                                 subtitle_text=subtitle)
                 used_photos.add(str(photo))
                 clip_paths.append(clip_path)
                 continue
@@ -594,7 +719,7 @@ def generate_scene_clips(
         img_path = work_dir / f"scene_{i:02d}.png"
         img_path.write_bytes(png_bytes)
         build_still_clip(img_path, clip_path, scene_duration, zoom_dir,
-                         subtitle_text=narration)
+                         subtitle_text=subtitle)
         clip_paths.append(clip_path)
         time.sleep(1)  # Gemini rate limit courtesy
 
@@ -641,8 +766,9 @@ SUBTITLE_FONT_SIZE = 52
 SUBTITLE_CHARS_PER_LINE = 52
 
 
-def _load_subtitle_font():
+def _load_subtitle_font(size: int = None):
     from PIL import ImageFont
+    px = size or SUBTITLE_FONT_SIZE
     for fp in [
         "/System/Library/Fonts/Helvetica.ttc",
         "/System/Library/Fonts/HelveticaNeue.ttc",
@@ -651,7 +777,7 @@ def _load_subtitle_font():
         "/usr/share/fonts/truetype/ubuntu/Ubuntu-B.ttf",
     ]:
         try:
-            return ImageFont.truetype(fp, SUBTITLE_FONT_SIZE)
+            return ImageFont.truetype(fp, px)
         except Exception:
             pass
     return ImageFont.load_default()
@@ -711,7 +837,7 @@ def build_still_clip(img_path: Path, clip_path: Path, duration: float,
     orig_w, orig_h = img.size
 
     # Scale image to 115% of output so there's room to pan
-    target_w, target_h = 1920, 1080
+    target_w, target_h = OUT_W, OUT_H
     scale = max(target_w * 1.15 / orig_w, target_h * 1.15 / orig_h)
     scaled_w = int(orig_w * scale)
     scaled_h = int(orig_h * scale)
@@ -755,6 +881,51 @@ def build_still_clip(img_path: Path, clip_path: Path, duration: float,
     finally:
         proc.stdin.close()
         proc.wait()
+
+
+def build_brand_card(slug: str, kind: str, work_dir: Path) -> Path:
+    """Render a branded title/CTA card (white bg + centered logo, + CTA text on outro).
+
+    Used as the intro/outro bookends of a brand-authority video (Merchynt style)."""
+    from PIL import Image as PILImage
+    from PIL import ImageDraw
+
+    card = PILImage.new("RGB", (OUT_W, OUT_H), (255, 255, 255))
+    # Logo (slightly above center so CTA text has room below)
+    logo_path = SITES_DIR / slug / "public" / "images" / "logo.webp"
+    logo_cy = int(OUT_H * (0.42 if kind == "outro" else 0.5))
+    if logo_path.exists():
+        try:
+            logo = PILImage.open(logo_path).convert("RGBA")
+            target_w = int(OUT_W * 0.6)
+            ratio = target_w / logo.width
+            logo = logo.resize((target_w, int(logo.height * ratio)), PILImage.LANCZOS)
+            card.paste(logo, (int((OUT_W - logo.width) / 2), int(logo_cy - logo.height / 2)), logo)
+        except Exception:
+            pass
+
+    if kind == "outro":
+        phone = ""
+        try:
+            phone = json.loads((CLIENTS_DIR / slug / "plan-input.json").read_text()) \
+                .get("brand", {}).get("phone", "")
+        except Exception:
+            pass
+        draw = ImageDraw.Draw(card)
+        text = f"Call {phone}" if phone else "Call for a free estimate"
+        font = _load_subtitle_font(size=int(OUT_H * 0.05))
+        bb = draw.textbbox((0, 0), text, font=font)
+        tx = (OUT_W - (bb[2] - bb[0])) / 2
+        ty = int(OUT_H * 0.6)
+        # brand-red pill behind the CTA
+        pad = int(OUT_H * 0.018)
+        draw.rounded_rectangle([tx - pad * 2, ty - pad, tx + (bb[2] - bb[0]) + pad * 2, ty + (bb[3] - bb[1]) + pad * 2],
+                               radius=pad * 2, fill=(168, 50, 39))
+        draw.text((tx, ty - bb[1] + pad // 2), text, font=font, fill=(255, 255, 255))
+
+    out = work_dir / f"card_{kind}.png"
+    card.save(out)
+    return out
 
 
 def _burn_subtitles_on_video(clip_path: Path, subtitle_text: str, fps: int = 30) -> None:
@@ -856,9 +1027,11 @@ def assemble_video(
         return
 
     # Build filter_complex for N clips with xfade dissolve.
-    # Offset formula: offset[i] = (i+1) * (scene_duration - XFADE_DURATION)
-    scene_duration = audio_duration / n
+    # offset[i] = sum(durations[0:i]) - i*XFADE_DURATION  — uses ACTUAL per-clip
+    # durations so variable-length clips (e.g. brand-video logo/CTA cards) align
+    # correctly. For uniform clips this is identical to the old i*(scene_dur - t).
     t = XFADE_DURATION
+    durs = [get_audio_duration(cp) for cp in clip_paths]
 
     # Input args: one -i per clip
     input_args: list[str] = []
@@ -868,12 +1041,13 @@ def assemble_video(
     # Build chained xfade filter
     filter_parts: list[str] = []
     prev_label = "[0:v]"
+    cum = 0.0
     for i in range(1, n):
         out_label = "[vout]" if i == n - 1 else f"[v{i}]"
-        offset = (i) * (scene_duration - t)
+        cum += durs[i - 1] - t
         filter_parts.append(
             f"{prev_label}[{i}:v]xfade=transition=dissolve:"
-            f"duration={t}:offset={offset:.3f}{out_label}"
+            f"duration={t}:offset={cum:.3f}{out_label}"
         )
         prev_label = out_label
 
@@ -1160,6 +1334,7 @@ def cmd_make(args) -> int:
     model = GEMINI_FLASH_MODEL if args.flash else GEMINI_PRO_MODEL
     tts = args.tts
     privacy = "public" if args.public else "unlisted"
+    set_orientation(getattr(args, "vertical", False))
 
     client = load_client(slug)
     post = load_post(slug, post_slug)
@@ -1257,6 +1432,82 @@ and verify the upload looks correct before setting to public.
     return 0
 
 
+def cmd_brand(args) -> int:
+    """Generate a Merchynt-style BRAND-AUTHORITY video (company/service/location overview).
+
+    Not tied to a blog post. Logo intro -> per-service scenes (client photos / AI images
+    with short service captions) -> CTA outro. Landscape by default; --vertical for GBP/Shorts."""
+    slug = args.slug
+    model = GEMINI_FLASH_MODEL if args.flash else GEMINI_PRO_MODEL
+    tts = args.tts
+    privacy = "public" if args.public else "unlisted"
+    set_orientation(getattr(args, "vertical", False))
+    client = load_client(slug)
+
+    focus = " · ".join(filter(None, [args.service, args.city])) or "company overview"
+    print(f"\n==> System 5 (brand-authority): {client.get('display_name', slug)} — {focus}")
+    print(f"    Orientation: {'vertical 9:16' if args.vertical else 'landscape 16:9'} | "
+          f"Upload: {'no' if args.no_upload else privacy}")
+
+    INTRO, OUTRO = 2.0, 2.8  # silent branded bookend durations (seconds)
+
+    with tempfile.TemporaryDirectory(prefix=f"rankai-brand-{slug}-") as tmp:
+        work_dir = Path(tmp)
+
+        print("\n[1/5] Generating brand script via Claude...")
+        script = generate_brand_script(client, service=args.service, city=args.city)
+        scenes = script["scenes"]
+        (work_dir / "script.json").write_text(json.dumps(script, indent=2))
+        print(f"  scenes: {len(scenes)} | title: {script.get('youtube_title','')[:55]}")
+
+        print("\n[2/5] Synthesising narration...")
+        narration = " ".join(s["narration"] for s in scenes)
+        raw_audio = work_dir / "narration_raw.mp3"
+        synthesise_speech(narration, raw_audio, tts=tts)
+        narr_dur = get_audio_duration(raw_audio)
+        # Pad with silence so the audio spans intro + scenes + outro cards
+        audio_path = work_dir / "narration.mp3"
+        total_dur = INTRO + narr_dur + OUTRO
+        subprocess.run([
+            "ffmpeg", "-y", "-loglevel", "error", "-i", str(raw_audio),
+            "-af", f"adelay={int(INTRO*1000)}:all=1,apad=pad_dur={OUTRO}",
+            "-t", f"{total_dur:.3f}", "-c:a", "libmp3lame", "-b:a", "128k", str(audio_path),
+        ], check=True)
+        print(f"  narration {narr_dur:.1f}s -> padded {total_dur:.1f}s")
+
+        print("\n[3/5] Building clips (logo intro + scenes + CTA outro)...")
+        scene_duration = narr_dur / len(scenes)
+        scene_clips = generate_scene_clips(scenes, work_dir, model, slug, scene_duration)
+        intro_clip = work_dir / "clip_intro.mp4"
+        outro_clip = work_dir / "clip_outro.mp4"
+        build_still_clip(build_brand_card(slug, "intro", work_dir), intro_clip, INTRO, "in")
+        build_still_clip(build_brand_card(slug, "outro", work_dir), outro_clip, OUTRO, "out")
+        clip_paths = [intro_clip] + scene_clips + [outro_clip]
+
+        print("\n[4/5] Assembling...")
+        out_name = "brand-" + "-".join(filter(None, [
+            (args.service or "company"),
+            (args.city.lower().replace(", ", "-").replace(" ", "-") if args.city else ""),
+        ]))
+        video_path = work_dir / f"{out_name}.mp4"
+        assemble_video(clip_paths, audio_path, video_path, work_dir)
+        thumb_path = generate_thumbnail(
+            script.get("thumbnail_prompt") or scenes[0].get("image_prompt", ""), work_dir, model)
+        print(f"  video: {video_path.stat().st_size/1e6:.1f} MB")
+
+        if args.no_upload:
+            dest = REPO_ROOT / "sites" / slug / f"{out_name}-draft.mp4"
+            shutil.copy(video_path, dest)
+            print(f"\n==> Brand video saved (no upload): {dest}")
+            return 0
+
+        print("\n[5/5] Uploading to YouTube...")
+        srt_path = work_dir / f"{out_name}.srt"  # not created -> upload skips captions (burned-in labels suffice)
+        video_id = upload_to_youtube(slug, video_path, thumb_path, srt_path, script, privacy=privacy)
+        print(f"\n==> Brand video: https://youtu.be/{video_id}  ({privacy})")
+    return 0
+
+
 def cmd_list(slug: str) -> int:
     """List uploaded videos for a client's YouTube channel."""
     try:
@@ -1310,7 +1561,20 @@ def main() -> int:
     pm.add_argument("--no-upload", action="store_true", help="Skip YouTube upload, save draft MP4 locally")
     pm.add_argument("--no-deploy", action="store_true", help="Skip sync-deploy after frontmatter update")
     pm.add_argument("--public", action="store_true", help="Upload as public (default: unlisted)")
+    pm.add_argument("--vertical", action="store_true", help="Render 9:16 (1080x1920) instead of 16:9")
     pm.set_defaults(func=cmd_make)
+
+    pb = sub.add_parser("brand", help="Generate a brand-authority video (company/service/location overview)")
+    pb.add_argument("--slug", required=True, help="Client slug")
+    pb.add_argument("--service", help="Focus on one service (slug, e.g. water-damage-restoration)")
+    pb.add_argument("--city", help='Focus on one city (e.g. "Tacoma, WA")')
+    pb.add_argument("--vertical", action="store_true", help="Render 9:16 (1080x1920) for GBP/Shorts")
+    pb.add_argument("--flash", action="store_true", help="Use Gemini Flash (cheaper images)")
+    pb.add_argument("--tts", choices=["elevenlabs", "google", "macos"], default="elevenlabs",
+                    help="TTS provider (default elevenlabs)")
+    pb.add_argument("--no-upload", action="store_true", help="Skip YouTube upload, save draft MP4 locally")
+    pb.add_argument("--public", action="store_true", help="Upload as public (default: unlisted)")
+    pb.set_defaults(func=cmd_brand)
 
     pl = sub.add_parser("list", help="List videos uploaded to a client's YouTube channel")
     pl.add_argument("--slug", required=True)
