@@ -1,0 +1,108 @@
+{
+  "template": "restoration",
+  "services": [
+    "water-damage-restoration",
+    "burst-pipe-repair",
+    "frozen-pipe-restoration",
+    "appliance-leak-cleanup",
+    "basement-flooding-cleanup",
+    "roof-leak-repair",
+    "sewage-cleanup",
+    "storm-damage-restoration",
+    "fire-damage-restoration",
+    "smoke-damage-restoration",
+    "mold-remediation",
+    "mold-inspection-testing",
+    "carpet-cleaning",
+    "odor-removal",
+    "upholstery-cleaning",
+    "tile-grout-cleaning",
+    "fabric-protection",
+    "junk-debris-removal"
+  ],
+  "service_areas": [
+    {
+      "city": "Saratoga Springs",
+      "state": "UT",
+      "slug": "saratoga-springs-ut",
+      "primary": true
+    },
+    {
+      "city": "Lehi",
+      "state": "UT",
+      "slug": "lehi-ut",
+      "primary": false
+    },
+    {
+      "city": "Eagle Mountain",
+      "state": "UT",
+      "slug": "eagle-mountain-ut",
+      "primary": false
+    },
+    {
+      "city": "American Fork",
+      "state": "UT",
+      "slug": "american-fork-ut",
+      "primary": false
+    },
+    {
+      "city": "Pleasant Grove",
+      "state": "UT",
+      "slug": "pleasant-grove-ut",
+      "primary": false
+    },
+    {
+      "city": "Orem",
+      "state": "UT",
+      "slug": "orem-ut",
+      "primary": false
+    },
+    {
+      "city": "Provo",
+      "state": "UT",
+      "slug": "provo-ut",
+      "primary": false
+    },
+    {
+      "city": "Herriman",
+      "state": "UT",
+      "slug": "herriman-ut",
+      "primary": false
+    },
+    {
+      "city": "South Jordan",
+      "state": "UT",
+      "slug": "south-jordan-ut",
+      "primary": false
+    },
+    {
+      "city": "Riverton",
+      "state": "UT",
+      "slug": "riverton-ut",
+      "primary": false
+    }
+  ],
+  "brand": {
+    "display_name": "Home Pride Restoration and Cleaning",
+    "phone": "(801) 995-2437",
+    "email": "homepriderestorationut@gmail.com",
+    "hours": "24/7",
+    "founded_year": "1997",
+    "license_numbers": [
+      "RC-25-0737"
+    ],
+    "certifications": [
+      "IICRC Certified"
+    ],
+    "google_maps_api_key": "AIzaSyDrYnSuDu-hFvKHEcQCjwb-zsMebInPneU",
+    "lat": 40.31172,
+    "lng": -111.89406,
+    "street_address": "78 W Wildflower Dr",
+    "postal_code": "84045",
+    "place_id": "ChIJGzr1iePDLCsR1fkC5O33F10",
+    "google_cid": "6708102771096353237"
+  },
+  "cross_product": true,
+  "keyword_strategy": "conservative",
+  "blog_seed_count": 12
+}

@@ -20,6 +20,7 @@ ROOT = Path(__file__).parent.parent
 COMPANY_MAP = {
     "narestco":           "CO-1771290587387",
     "davis-construction": "CO-1778778644861",
+    "homepriderestorationandcleaning": "CO-1780333664867",
 }
 
 GITHUB_REPO  = "restorationai/Rank-AI-Pipeline"

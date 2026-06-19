@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Saratoga Springs, UT",
+    "lat": 40.31172,
+    "lng": -111.89406
+  },
+  {
+    "label": "Lehi, UT",
+    "lat": 40.3881,
+    "lng": -111.8486
+  },
+  {
+    "label": "Orem, UT",
+    "lat": 40.2982,
+    "lng": -111.6944
+  },
+  {
+    "label": "Provo, UT",
+    "lat": 40.2337,
+    "lng": -111.6587
+  }
+]

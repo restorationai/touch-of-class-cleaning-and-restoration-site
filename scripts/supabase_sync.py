@@ -32,6 +32,7 @@ SUPABASE_KEY = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
 COMPANY_MAP = {
     "narestco":          "CO-1771290587387",
     "davis-construction": "CO-1778778644861",
+    "homepriderestorationandcleaning": "CO-1780333664867",
 }
 
 

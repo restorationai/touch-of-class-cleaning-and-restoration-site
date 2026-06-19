@@ -58,6 +58,7 @@ from geogrid_render import render_png  # noqa: E402
 COMPANY_MAP = {
     "narestco":           "CO-1771290587387",
     "davis-construction": "CO-1778778644861",
+    "homepriderestorationandcleaning": "CO-1780333664867",
 }
 
 CF_API = "https://api.cloudflare.com/client/v4"

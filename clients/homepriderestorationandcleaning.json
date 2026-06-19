@@ -1,0 +1,54 @@
+{
+  "slug": "homepriderestorationandcleaning",
+  "display_name": "Home Pride Restoration and Cleaning LLC",
+  "domain": "homepriderestorationandcleaning.com",
+  "tier": "standard",
+  "image_policy": "pro_hero_flash_inline",
+  "contact": null,
+  "zone": {
+    "id": "a7d27c3777b9f9b9571e4c0c4dc290f0",
+    "name": "homepriderestorationandcleaning.com",
+    "status": "active",
+    "name_servers": [
+      "amos.ns.cloudflare.com",
+      "anastasia.ns.cloudflare.com"
+    ],
+    "created_on": "2026-06-15T16:36:27.562117Z"
+  },
+  "r2": {
+    "bucket": "rankai-homepriderestorationandcleaning",
+    "custom_domain": "images.homepriderestorationandcleaning.com",
+    "public_url": "https://images.homepriderestorationandcleaning.com",
+    "provisioned_at": "2026-06-15T17:57:07.839644+00:00"
+  },
+  "status": "active",
+  "created_at": "2026-06-15T16:36:28.124334+00:00",
+  "updated_at": "2026-06-19T03:56:59+00:00",
+  "plan_status": "planned",
+  "plan": {
+    "template": "restoration",
+    "template_version": "0.2.0",
+    "url_count": 229,
+    "generated_at": "2026-06-15T18:11:27.370507+00:00"
+  },
+  "build": {
+    "scaffolded_at": "2026-06-15T18:21:11.503890+00:00",
+    "github_repo": "restorationai/homepriderestorationandcleaning-site",
+    "pages_project": "rankai-homepriderestorationandcleaning",
+    "starter_version": "0.1.0",
+    "url_count": 229,
+    "pages_status": "created",
+    "last_rendered_at": "2026-06-15T19:08:18.418246+00:00",
+    "last_pushed_main_at": "2026-06-18T04:22:45.199347+00:00"
+  },
+  "build_status": "pushed_main",
+  "cloudflare": {
+    "zone_id": "a7d27c3777b9f9b9571e4c0c4dc290f0"
+  },
+  "gsc": {
+    "property_url": "sc-domain:homepriderestorationandcleaning.com",
+    "verified_at": "2026-06-19T03:56:59+00:00",
+    "sitemap_url": "https://homepriderestorationandcleaning.com/sitemap-index.xml"
+  },
+  "company_id": "CO-1780333664867"
+}
