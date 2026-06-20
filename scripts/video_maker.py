@@ -1125,20 +1125,87 @@ def youtube_token_path(slug: str) -> Path:
     return CLIENTS_DIR / slug / ".youtube-token.json"
 
 
+# company_id (app companies.id) per slug — used to find the client's user_integrations
+# row. Reads the client record first; falls back to this map (mirrors the other scripts).
+_COMPANY_MAP = {
+    "narestco":                         "CO-1771290587387",
+    "davis-construction":               "CO-1778778644861",
+    "homepriderestorationandcleaning":  "CO-1780333664867",
+}
+
+
+def _company_id_for(slug: str) -> str | None:
+    rec = CLIENTS_DIR / f"{slug}.json"
+    if rec.exists():
+        cid = json.loads(rec.read_text()).get("company_id")
+        if cid:
+            return cid
+    return _COMPANY_MAP.get(slug)
+
+
+def youtube_integration(slug: str) -> dict | None:
+    """The client's connected-via-app YouTube integration (connection_metadata), or None.
+
+    The app writes this when a client clicks "Connect YouTube": user_integrations row,
+    provider='youtube', connection_metadata={refresh_token, channel_id, channel_title, scopes}."""
+    company_id = _company_id_for(slug)
+    if not company_id or not os.environ.get("SUPABASE_URL"):
+        return None
+    try:
+        from supabase import create_client
+        sb = create_client(os.environ["SUPABASE_URL"], os.environ["SUPABASE_SERVICE_ROLE_KEY"])
+        # NB: the client/company is keyed by the `client_id` column (= CO-... companies.id).
+        r = (sb.table("user_integrations").select("connection_metadata,refresh_token,status")
+             .eq("provider", "youtube").eq("client_id", company_id).limit(1).execute())
+        if r.data and r.data[0].get("status") in (None, "connected", "active"):
+            row = r.data[0]
+            md = dict(row.get("connection_metadata") or {})
+            # refresh_token may live in connection_metadata OR the top-level column
+            md.setdefault("refresh_token", row.get("refresh_token"))
+            return md if md.get("refresh_token") else None
+    except Exception as e:
+        sys.stderr.write(f"  youtube user_integrations lookup failed: {str(e)[:120]}\n")
+    return None
+
+
 def load_youtube_credentials(slug: str):
-    """Load and refresh YouTube OAuth credentials for a client."""
-    token_path = youtube_token_path(slug)
-    if not token_path.exists():
-        die(
-            f"No YouTube token for {slug}.\n"
-            f"Run: python3 scripts/video_maker.py auth --slug {slug}"
-        )
+    """Load + refresh YouTube OAuth credentials for a client.
+
+    Prefers the app-connected token in Supabase user_integrations (the self-serve model:
+    client clicks "Connect YouTube" -> token stored by the app). The refresh_token was
+    minted by the APP's OAuth client, so we refresh it with GOOGLE_OAUTH_CLIENT_ID/SECRET
+    (the same env creds ads_sync uses). Falls back to the local .youtube-token.json (the
+    dev / agency Channel-Manager flow from `auth --slug`)."""
     try:
         from google.oauth2.credentials import Credentials
         from google.auth.transport.requests import Request
     except ImportError:
         die("Missing google-auth. Run: pip install google-auth google-auth-oauthlib")
 
+    # 1) App-connected token from Supabase (production / Railway)
+    md = youtube_integration(slug)
+    if md and md.get("refresh_token"):
+        creds = Credentials(
+            token=None,
+            refresh_token=md["refresh_token"],
+            token_uri="https://oauth2.googleapis.com/token",
+            client_id=os.environ.get("GOOGLE_OAUTH_CLIENT_ID"),
+            client_secret=os.environ.get("GOOGLE_OAUTH_CLIENT_SECRET"),
+            scopes=YOUTUBE_SCOPES,
+        )
+        creds.refresh(Request())  # exchange refresh_token -> access_token
+        print(f"    [youtube] using app-connected channel: {md.get('channel_title') or md.get('channel_id')}")
+        return creds
+
+    # 2) Local token file (dev / agency Channel-Manager flow)
+    token_path = youtube_token_path(slug)
+    if not token_path.exists():
+        die(
+            f"No YouTube token for {slug} — neither an app 'Connect YouTube' integration "
+            f"(user_integrations) nor a local token.\n"
+            f"Either have the client connect in the app, or run: "
+            f"python3 scripts/video_maker.py auth --slug {slug}"
+        )
     token_data = json.loads(token_path.read_text())
     creds = Credentials(
         token=token_data.get("token"),
