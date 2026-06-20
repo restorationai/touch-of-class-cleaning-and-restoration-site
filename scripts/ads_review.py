@@ -99,8 +99,13 @@ def vet_search_terms(candidates: list[dict], services: list[str], cities: list[s
         "BIAS STRONGLY TO KEEP when uncertain — wrongly blocking a real lead is far worse than one wasted click. "
         "Only negate terms you are confident are non-customers.\n\n"
         "Terms:\n" + "\n".join(f"- {t}" for t in terms) +
-        '\n\nReturn ONLY a JSON array, no prose: '
-        '[{"term":"...","negate":true,"match_type":"BROAD","reason":"..."}]'
+        "\n\nALSO — dual use: a term that's junk for ADS can be GOLD for a BLOG. If a term is an "
+        "INFORMATIONAL question a homeowner researches (how-to, symptoms, 'what is', cost/comparison, "
+        "'signs of'), it may be a strong EVERGREEN blog topic that builds organic + AI-search authority "
+        "(Gemini/ChatGPT/AI Overviews cite this). Set blog_candidate=true and suggest a concise blog_title. "
+        "NOT blog candidates: competitor brand names, job-seeker queries, pure product-shopping ('best X to buy').\n\n"
+        'Return ONLY a JSON array, no prose: '
+        '[{"term":"...","negate":true,"match_type":"BROAD","reason":"...","blog_candidate":false,"blog_title":""}]'
     )
     body = json.dumps({"model": ANTHROPIC_MODEL, "max_tokens": 2000,
                        "messages": [{"role": "user", "content": prompt}]}).encode()
@@ -184,7 +189,7 @@ def review_client(slug: str, b6: set[str], apply: bool = False) -> dict:
         pass
 
     # 2b) LLM-vet the wasted terms; auto-negate the confirmed-junk (campaign-level) if apply=True
-    applied, kept = [], []
+    applied, kept, blog_topics = [], [], []
     if junk:
         services, cities = _client_context(slug)
         vmap = {v.get("term"): v for v in vet_search_terms(junk, services, cities)}
@@ -196,6 +201,15 @@ def review_client(slug: str, b6: set[str], apply: bool = False) -> dict:
                 by_campaign.setdefault(j["campaign"], []).append(j["term"])
             else:
                 kept.append({**j, "reason": (v or {}).get("reason", "kept (no verdict)")})
+        # Dual use: surface informational terms as candidate evergreen blog topics
+        # (ad-junk = content-gold). Human promotes the good ones to seed-blog-topics.json.
+        seen_titles = set()
+        for v in vmap.values():
+            if v.get("blog_candidate") and v.get("blog_title"):
+                key = v["blog_title"].lower()
+                if key not in seen_titles:
+                    seen_titles.add(key)
+                    blog_topics.append({"term": v.get("term", ""), "title": v["blog_title"]})
         if apply and by_campaign:
             for camp_res, terms in by_campaign.items():
                 try:
@@ -220,10 +234,12 @@ def review_client(slug: str, b6: set[str], apply: bool = False) -> dict:
         flags.append(f"{verb} {len(applied)} wasted search terms")
     if kept:
         flags.append(f"{len(kept)} borderline terms KEPT (lead-intent / uncertain) — see list")
+    if blog_topics:
+        flags.append(f"{len(blog_topics)} candidate evergreen blog topics (informational demand) — see list")
 
     return {
         "slug": slug, "ok": True, "campaigns": camps, "junk_cost": junk_cost,
-        "applied": applied, "kept": kept, "apply_mode": apply,
+        "applied": applied, "kept": kept, "blog_topics": blog_topics, "apply_mode": apply,
         "spend": spend, "clicks": clicks, "conv": conv,
         "cost_per_conv": (spend / conv) if conv else None, "flags": flags,
     }
@@ -291,6 +307,10 @@ def render(rows: list[dict], when: str) -> str:
             L.append(f"  KEPT — lead-intent / uncertain ({len(r['kept'])}):")
             for j in r["kept"][:8]:
                 L.append(f"    ✓ {j['term'][:38]:38} ${j['cost']:.2f}  — {j.get('reason','')[:46]}")
+        if r.get("blog_topics"):
+            L.append(f"  CANDIDATE EVERGREEN BLOG TOPICS — promote good ones to seed-blog-topics.json (AI-search authority):")
+            for b in r["blog_topics"][:8]:
+                L.append(f"    ✎ {b['title'][:52]:52}  (search: \"{b['term'][:28]}\")")
         L.append("")
     return "\n".join(L)
 

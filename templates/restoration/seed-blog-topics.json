@@ -31,6 +31,13 @@
       "priority": 9
     },
     {
+      "slug": "how-to-test-for-mold",
+      "title_template": "How To Test for Mold in Your Home (DIY Kits vs a Pro Inspection)",
+      "services": ["mold-remediation", "mold-inspection-testing"],
+      "intent": "informational_health",
+      "priority": 9
+    },
+    {
       "slug": "black-mold-vs-regular-mold",
       "title_template": "Black Mold vs Regular Mold: How To Tell the Difference",
       "services": ["mold-remediation"],
