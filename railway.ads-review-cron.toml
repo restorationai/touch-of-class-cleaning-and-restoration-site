@@ -11,7 +11,7 @@
 builder = "NIXPACKS"
 
 [deploy]
-startCommand = "/opt/venv/bin/python scripts/ads_review.py"
+startCommand = "/opt/venv/bin/python scripts/ads_review.py --apply"
 # 14:00 UTC every Monday (~6-7am PT) — a Monday-morning review of last week.
 cronSchedule = "0 14 * * 1"
 # One-shot job: do NOT restart on exit, NO healthcheck.

@@ -67,6 +67,56 @@ def is_junk(term: str, b6: set[str]) -> bool:
     return any(tok in t for tok in b6)
 
 
+def _client_context(slug: str) -> tuple[list[str], list[str]]:
+    try:
+        p = json.loads((ROOT / "clients" / slug / "plan-input.json").read_text())
+        services = p.get("services", [])
+        cities = [f"{a.get('city','')}, {a.get('state','')}" for a in p.get("service_areas", [])]
+        return services, cities
+    except Exception:
+        return [], []
+
+
+def vet_search_terms(candidates: list[dict], services: list[str], cities: list[str]) -> list[dict]:
+    """LLM vets each candidate term: negate (junk) or keep (lead). Conservative — keep when unsure.
+    Returns [{term, negate, match_type, reason}]. Empty if no API key / no candidates."""
+    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    if not api_key or not candidates:
+        return []
+    terms = [c["term"] for c in candidates]
+    prompt = (
+        "You vet Google Ads search terms for a RESTORATION company. Decide, per term, whether to add it "
+        "as a NEGATIVE keyword.\n\n"
+        f"Services this company offers: {', '.join(services) or 'water / fire / mold damage restoration'}.\n"
+        f"Service area: {', '.join(cities) or 'local metro'}.\n\n"
+        "NEGATE (negate=true) ONLY if the searcher is clearly NOT a potential customer who would HIRE this company:\n"
+        "  • DIY / self-treatment — 'does vinegar kill mold', 'how to remove mold yourself'\n"
+        "  • product shopping — 'mold test kit', 'best mold remover', 'mold spray', 'concrobium'\n"
+        "  • research / informational / symptoms / definitions — 'black mold symptoms', 'mold vs mildew', 'is mold dangerous'\n"
+        "  • job seekers, training/courses, competitor BRAND names, or a service this company does NOT offer\n\n"
+        "KEEP (negate=false) anything with commercial intent for a service offered — INCLUDING buyer-research terms "
+        "like 'cost', 'price', 'near me', a city name, 'company', 'emergency', 'inspection', 'testing', 'remediation', 'restoration'.\n\n"
+        "BIAS STRONGLY TO KEEP when uncertain — wrongly blocking a real lead is far worse than one wasted click. "
+        "Only negate terms you are confident are non-customers.\n\n"
+        "Terms:\n" + "\n".join(f"- {t}" for t in terms) +
+        '\n\nReturn ONLY a JSON array, no prose: '
+        '[{"term":"...","negate":true,"match_type":"BROAD","reason":"..."}]'
+    )
+    body = json.dumps({"model": ANTHROPIC_MODEL, "max_tokens": 2000,
+                       "messages": [{"role": "user", "content": prompt}]}).encode()
+    try:
+        req = urllib.request.Request(ANTHROPIC_API, data=body, method="POST",
+            headers={"content-type": "application/json", "x-api-key": api_key, "anthropic-version": "2023-06-01"})
+        with urllib.request.urlopen(req, timeout=90) as resp:
+            raw = json.loads(resp.read())["content"][0]["text"].strip()
+        raw = re.sub(r"^```json\s*", "", raw)
+        raw = re.sub(r"\s*```$", "", raw)
+        return json.loads(raw)
+    except Exception as e:
+        sys.stderr.write(f"  vet error: {str(e)[:120]}\n")
+        return []
+
+
 def clients_with_ads() -> list[str]:
     out = []
     for f in sorted((ROOT / "clients").glob("*.json")):
@@ -83,8 +133,9 @@ def clients_with_ads() -> list[str]:
 # Per-client review
 # ---------------------------------------------------------------------------
 
-def review_client(slug: str, b6: set[str]) -> dict:
-    """Pull 7d performance + search terms, diagnose. Never raises — returns a row."""
+def review_client(slug: str, b6: set[str], apply: bool = False) -> dict:
+    """Pull 7d performance + search terms, vet wasted terms, optionally auto-negate.
+    Never raises — returns a row."""
     try:
         client = am.build_ads_client(slug, login_as_mcc=True)
         cid = am.get_customer_id(am.load_client(slug), slug)
@@ -113,10 +164,10 @@ def review_client(slug: str, b6: set[str]) -> dict:
     except Exception as e:
         return {"slug": slug, "ok": False, "error": f"metrics: {str(e)[:150]}"}
 
-    # 2) search terms (7d) -> junk vs candidate
+    # 2) search terms (7d) -> junk vs candidate (capture campaign for precise negation)
     junk, junk_cost = [], 0.0
-    stq = """SELECT search_term_view.search_term, metrics.impressions, metrics.clicks,
-      metrics.cost_micros, metrics.conversions
+    stq = """SELECT search_term_view.search_term, campaign.resource_name,
+      metrics.impressions, metrics.clicks, metrics.cost_micros, metrics.conversions
     FROM search_term_view WHERE segments.date DURING LAST_7_DAYS
     AND campaign.advertising_channel_type='SEARCH' AND campaign.status='ENABLED'
     AND metrics.clicks > 0 ORDER BY metrics.cost_micros DESC"""
@@ -126,10 +177,31 @@ def review_client(slug: str, b6: set[str]) -> dict:
             cost = r.metrics.cost_micros / 1e6
             if is_junk(t, b6) or (r.metrics.conversions == 0 and cost >= 5):
                 junk.append({"term": t, "clicks": r.metrics.clicks, "cost": cost,
-                             "matched_b6": is_junk(t, b6)})
+                             "matched_b6": is_junk(t, b6),
+                             "campaign": r.campaign.resource_name})
                 junk_cost += cost
     except Exception:
         pass
+
+    # 2b) LLM-vet the wasted terms; auto-negate the confirmed-junk (campaign-level) if apply=True
+    applied, kept = [], []
+    if junk:
+        services, cities = _client_context(slug)
+        vmap = {v.get("term"): v for v in vet_search_terms(junk, services, cities)}
+        by_campaign: dict[str, list[str]] = {}
+        for j in junk:
+            v = vmap.get(j["term"])
+            if v and v.get("negate"):
+                applied.append({**j, "reason": v.get("reason", "")})
+                by_campaign.setdefault(j["campaign"], []).append(j["term"])
+            else:
+                kept.append({**j, "reason": (v or {}).get("reason", "kept (no verdict)")})
+        if apply and by_campaign:
+            for camp_res, terms in by_campaign.items():
+                try:
+                    am.add_campaign_negatives(client, cid, camp_res, terms)
+                except Exception as e:
+                    sys.stderr.write(f"  apply negatives failed ({camp_res}): {str(e)[:120]}\n")
 
     # 3) diagnostics (deterministic)
     spend = sum(c["cost"] for c in camps)
@@ -143,11 +215,15 @@ def review_client(slug: str, b6: set[str]) -> dict:
             flags.append(f"{c['name'][:34]}: losing {c['lost_budget']*100:.0f}% IS to BUDGET → raise budget")
         if c["cost"] >= 20 and c["conv"] == 0:
             flags.append(f"{c['name'][:34]}: ${c['cost']:.0f} spent, 0 conversions")
-    if junk:
-        flags.append(f"{len(junk)} wasted/irrelevant search terms (${junk_cost:.0f}) → run ads-negative-search-terms")
+    if applied:
+        verb = "auto-negated" if apply else "would auto-negate"
+        flags.append(f"{verb} {len(applied)} wasted search terms")
+    if kept:
+        flags.append(f"{len(kept)} borderline terms KEPT (lead-intent / uncertain) — see list")
 
     return {
-        "slug": slug, "ok": True, "campaigns": camps, "junk": junk[:12], "junk_cost": junk_cost,
+        "slug": slug, "ok": True, "campaigns": camps, "junk_cost": junk_cost,
+        "applied": applied, "kept": kept, "apply_mode": apply,
         "spend": spend, "clicks": clicks, "conv": conv,
         "cost_per_conv": (spend / conv) if conv else None, "flags": flags,
     }
@@ -165,7 +241,9 @@ def llm_summary(row: dict) -> str:
         "weekly_spend": round(row["spend"], 2), "clicks": row["clicks"],
         "conversions": round(row["conv"], 1), "cost_per_conversion": row["cost_per_conv"],
         "campaigns": [{k: cc[k] for k in ("name", "cost", "clicks", "conv", "lost_rank", "lost_budget")} for cc in row["campaigns"]],
-        "wasted_terms_sample": [j["term"] for j in row["junk"][:8]], "diagnostics": row["flags"],
+        "auto_negated_sample": [j["term"] for j in row.get("applied", [])[:8]],
+        "kept_borderline_sample": [j["term"] for j in row.get("kept", [])[:6]],
+        "diagnostics": row["flags"],
     }
     prompt = (
         "You are a senior Google Ads analyst for a home-services (restoration) client. "
@@ -204,11 +282,15 @@ def render(rows: list[dict], when: str) -> str:
             L.append("  FLAGS:")
             for f in r["flags"]:
                 L.append(f"    • {f}")
-        if r["junk"]:
-            L.append(f"  Top wasted search terms (review for negatives):")
-            for j in r["junk"][:8]:
-                tag = " [B.6]" if j["matched_b6"] else ""
-                L.append(f"    - {j['term'][:44]:44} {j['clicks']}clk ${j['cost']:.2f}{tag}")
+        if r.get("applied"):
+            verb = "AUTO-NEGATED" if r.get("apply_mode") else "WOULD NEGATE (dry-run)"
+            L.append(f"  {verb} — confirmed junk ({len(r['applied'])}):")
+            for j in r["applied"][:12]:
+                L.append(f"    ✕ {j['term'][:38]:38} ${j['cost']:.2f}  — {j.get('reason','')[:46]}")
+        if r.get("kept"):
+            L.append(f"  KEPT — lead-intent / uncertain ({len(r['kept'])}):")
+            for j in r["kept"][:8]:
+                L.append(f"    ✓ {j['term'][:38]:38} ${j['cost']:.2f}  — {j.get('reason','')[:46]}")
         L.append("")
     return "\n".join(L)
 
@@ -237,6 +319,9 @@ def main() -> int:
     ap.add_argument("--slug", help="One client (default: all with a google_ads customer_id)")
     ap.add_argument("--dry-run", action="store_true", help="Analyse + print, never email")
     ap.add_argument("--no-llm", action="store_true", help="Skip the LLM analyst summary")
+    ap.add_argument("--apply", action="store_true",
+                    help="AUTO-APPLY the LLM-vetted negatives to the account (the cron uses this). "
+                         "Without it, runs dry — vets + reports what it WOULD negate, changes nothing.")
     args = ap.parse_args()
 
     when = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%MZ")
@@ -244,9 +329,10 @@ def main() -> int:
     slugs = [args.slug] if args.slug else clients_with_ads()
     print(f"==> Ads review: {len(slugs)} client(s): {', '.join(slugs) or '(none)'} | B.6 tokens: {len(b6)}\n")
 
+    print(f"    mode: {'AUTO-APPLY negatives' if args.apply else 'dry (vet + report only)'}\n")
     rows = []
     for s in slugs:
-        r = review_client(s, b6)
+        r = review_client(s, b6, apply=args.apply)
         if r["ok"] and not args.no_llm:
             r["summary"] = llm_summary(r)
         rows.append(r)
