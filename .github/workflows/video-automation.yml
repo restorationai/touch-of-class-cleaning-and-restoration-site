@@ -1,0 +1,83 @@
+name: Rank AI Video Automation
+
+# Paced video generation: for each active client that has CONNECTED their YouTube
+# channel in the app, generate + upload the next blog post without a video yet
+# (1/client/run), then embed it on the post. No-ops for clients who haven't connected.
+on:
+  schedule:
+    - cron: '0 16 * * 2'   # every Tuesday, 9 am PDT / 8 am PST (day after the Monday content run)
+  workflow_dispatch:         # manual trigger for testing
+    inputs:
+      slug:
+        description: 'Optional: run for one client slug only'
+        required: false
+      dry_run:
+        description: 'Dry run (plan only, render nothing)'
+        type: boolean
+        default: false
+
+jobs:
+  videos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
+          fetch-depth: 0
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Configure git identity
+        run: |
+          git config user.email "ops@restorationai.io"
+          git config user.name "Rank AI Bot"
+
+      - name: Run paced video automation
+        env:
+          ANTHROPIC_API_KEY:            ${{ secrets.ANTHROPIC_API_KEY }}
+          GOOGLE_AI_API_KEY:            ${{ secrets.GOOGLE_AI_API_KEY }}
+          ELEVENLABS_API_KEY:           ${{ secrets.ELEVENLABS_API_KEY }}
+          SUPABASE_URL:                 ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY:    ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          GOOGLE_OAUTH_CLIENT_ID:       ${{ secrets.GOOGLE_OAUTH_CLIENT_ID }}
+          GOOGLE_OAUTH_CLIENT_SECRET:   ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
+          CLOUDFLARE_API_TOKEN:         ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_R2_API_TOKEN:      ${{ secrets.CLOUDFLARE_R2_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID:        ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_PAGES_API_TOKEN:   ${{ secrets.CLOUDFLARE_PAGES_API_TOKEN }}
+          GITHUB_PERSONAL_ACCESS_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          python3 scripts/video_cron.py \
+            ${{ github.event.inputs.slug && format('--slug {0}', github.event.inputs.slug) || '' }} \
+            ${{ github.event.inputs.dry_run == 'true' && '--dry-run' || '' }}
+
+      - name: Commit any frontmatter/state changes
+        run: |
+          git add clients/ sites/ 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."
+          else
+            git commit -m "chore: video automation run $(date +%Y-%m-%d) [automated]"
+            git push
+          fi
+
+      - name: Alert on failure
+        if: failure()
+        env:
+          SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
+        run: |
+          python3 scripts/notify_failure.py \
+            --subject "[Rank AI] CI failure: Video Automation run #${{ github.run_number }}" \
+            --run-url "https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}" || true
