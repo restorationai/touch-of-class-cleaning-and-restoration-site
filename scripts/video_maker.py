@@ -1184,16 +1184,23 @@ def load_youtube_credentials(slug: str):
 
     # 1) App-connected token from Supabase (production / Railway)
     md = youtube_integration(slug)
-    if md and md.get("refresh_token"):
+    if md and (md.get("refresh_token") or md.get("access_token")):
         creds = Credentials(
-            token=None,
-            refresh_token=md["refresh_token"],
+            token=md.get("access_token"),
+            refresh_token=md.get("refresh_token"),
             token_uri="https://oauth2.googleapis.com/token",
             client_id=os.environ.get("GOOGLE_OAUTH_CLIENT_ID"),
             client_secret=os.environ.get("GOOGLE_OAUTH_CLIENT_SECRET"),
             scopes=YOUTUBE_SCOPES,
         )
-        creds.refresh(Request())  # exchange refresh_token -> access_token
+        # With the app's OAuth client creds we mint a fresh access token (required for
+        # automated/cron uploads, where the stored access_token has expired). Without them,
+        # fall back to the stored access_token (valid right after a connect — fine for tests).
+        if creds.refresh_token and creds.client_id and creds.client_secret:
+            creds.refresh(Request())
+        elif not creds.token:
+            die(f"YouTube token for {slug} has no usable access_token and no "
+                f"GOOGLE_OAUTH_CLIENT_ID/SECRET (the app's OAuth client) to refresh it.")
         print(f"    [youtube] using app-connected channel: {md.get('channel_title') or md.get('channel_id')}")
         return creds
 
