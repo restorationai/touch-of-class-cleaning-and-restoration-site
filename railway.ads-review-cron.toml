@@ -1,0 +1,25 @@
+# Railway config-as-code for the WEEKLY ads-review CRON service ONLY.
+# Set this service's "Config-as-code file path" to this file so it does NOT inherit
+# the root railway.toml (FastAPI web) or the other service configs.
+#
+# WEEKLY Google Ads review ("Paige for ads"): for every client with a live Google Ads
+# account, pulls 7-day performance + search terms, runs media-buyer diagnostics
+# (impression-share bottleneck, conversion rate, spend pacing, anomalies, wasted search
+# terms), writes an LLM analyst summary, and emails one report. READ-ONLY — it analyses
+# + flags actions (negatives to add, bids/budget to adjust); it does NOT change accounts.
+[build]
+builder = "NIXPACKS"
+
+[deploy]
+startCommand = "/opt/venv/bin/python scripts/ads_review.py"
+# 14:00 UTC every Monday (~6-7am PT) — a Monday-morning review of last week.
+cronSchedule = "0 14 * * 1"
+# One-shot job: do NOT restart on exit, NO healthcheck.
+restartPolicyType = "NEVER"
+
+# Required service variables (set in the Railway dashboard for THIS service):
+#   GOOGLE_ADS_DEVELOPER_TOKEN, GOOGLE_ADS_MCC_CUSTOMER_ID — Ads API
+#   GOOGLE_OAUTH_CLIENT_ID, GOOGLE_OAUTH_CLIENT_SECRET, GOOGLE_ADS_REFRESH_TOKEN
+#     — agency MCC OAuth (the build_ads_client env fallback; reads any linked client)
+#   SENDGRID_API_KEY, ADS_REPORT_EMAIL (default contact@restorationai.io), SENDGRID_FROM
+#   ANTHROPIC_API_KEY — optional, powers the LLM analyst summary (omit -> diagnostics only)

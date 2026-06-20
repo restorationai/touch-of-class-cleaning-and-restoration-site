@@ -132,18 +132,29 @@ def build_ads_client(slug: str, login_as_mcc: bool = True):
         die("Missing google-ads library. Run: pip install google-ads")
 
     t_path = token_path(slug)
-    if not t_path.exists():
-        die(
-            f"No Ads token for {slug}.\n"
-            f"Run: python3 scripts/ads_manager.py auth --slug {slug}"
-        )
+    if t_path.exists():
+        token_data = json.loads(t_path.read_text())
+        client_id = token_data["client_id"]
+        client_secret = token_data["client_secret"]
+        refresh_token = token_data["refresh_token"]
+    else:
+        # Headless/Railway fallback: the agency MCC OAuth creds from env. The MCC
+        # refresh token can read any linked client account, so a single env-based
+        # credential serves every client for read-only reporting (e.g. ads_review cron).
+        client_id = os.environ.get("GOOGLE_OAUTH_CLIENT_ID")
+        client_secret = os.environ.get("GOOGLE_OAUTH_CLIENT_SECRET")
+        refresh_token = os.environ.get("GOOGLE_ADS_REFRESH_TOKEN")
+        if not (client_id and client_secret and refresh_token):
+            die(
+                f"No Ads token file for {slug} and no GOOGLE_OAUTH_*/GOOGLE_ADS_REFRESH_TOKEN "
+                f"env fallback.\nRun: python3 scripts/ads_manager.py auth --slug {slug}"
+            )
 
-    token_data = json.loads(t_path.read_text())
     config = {
         "developer_token": require_env("GOOGLE_ADS_DEVELOPER_TOKEN"),
-        "client_id": token_data["client_id"],
-        "client_secret": token_data["client_secret"],
-        "refresh_token": token_data["refresh_token"],
+        "client_id": client_id,
+        "client_secret": client_secret,
+        "refresh_token": refresh_token,
         "use_proto_plus": True,
     }
     if login_as_mcc:
