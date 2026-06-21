@@ -1,0 +1,78 @@
+{
+  "keywords": [
+    "water damage restoration",
+    "fire damage restoration",
+    "mold remediation",
+    "sewage cleanup",
+    "storm damage restoration",
+    "smoke damage restoration",
+    "burst pipe cleanup",
+    "basement flooding cleanup",
+    "mold inspection",
+    "frozen pipe restoration"
+  ],
+  "cities": [
+    {
+      "label": "Saratoga Springs, UT",
+      "lat": 40.31172,
+      "lng": -111.89406,
+      "primary": true
+    },
+    {
+      "label": "Lehi, UT",
+      "lat": 40.3881,
+      "lng": -111.8486,
+      "primary": false
+    },
+    {
+      "label": "Eagle Mountain, UT",
+      "lat": 40.3093,
+      "lng": -112.012,
+      "primary": false
+    },
+    {
+      "label": "American Fork, UT",
+      "lat": 40.3768,
+      "lng": -111.7959,
+      "primary": false
+    },
+    {
+      "label": "Pleasant Grove, UT",
+      "lat": 40.364,
+      "lng": -111.7387,
+      "primary": false
+    },
+    {
+      "label": "Orem, UT",
+      "lat": 40.2982,
+      "lng": -111.6944,
+      "primary": false
+    },
+    {
+      "label": "Provo, UT",
+      "lat": 40.2337,
+      "lng": -111.6587,
+      "primary": false
+    },
+    {
+      "label": "Herriman, UT",
+      "lat": 40.514,
+      "lng": -112.0329,
+      "primary": false
+    },
+    {
+      "label": "South Jordan, UT",
+      "lat": 40.5585,
+      "lng": -111.9367,
+      "primary": false
+    },
+    {
+      "label": "Riverton, UT",
+      "lat": 40.518,
+      "lng": -111.9394,
+      "primary": false
+    }
+  ],
+  "company_id": "CO-1780333664867",
+  "has_identity": true
+}

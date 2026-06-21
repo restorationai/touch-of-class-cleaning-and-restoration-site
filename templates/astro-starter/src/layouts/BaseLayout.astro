@@ -76,12 +76,14 @@ const ctx: PageSchemaContext = {
 
     <Schema stubs={schema_stubs} ctx={ctx} />
 
-    <!-- Restoration AI Chat Widget -->
-    <script is:inline>
-      window.EmergencyWidgetId = "CO-1771290587387";
-    </script>
-    <script is:inline src="https://app.restorationai.io/widget-main.js" async></script>
-    <!-- End Restoration AI Chat Widget -->
+    {/* Restoration AI Chat Widget — per-client: only renders if brand.emergencyWidgetId
+        is set (the client's own company_id). Never hardcode a company_id here. */}
+    {(brand as any).emergencyWidgetId && (
+      <>
+        <script is:inline set:html={`window.EmergencyWidgetId = ${JSON.stringify((brand as any).emergencyWidgetId)};`} />
+        <script is:inline src="https://app.restorationai.io/widget-main.js" async></script>
+      </>
+    )}
   </head>
   <body class="min-h-screen flex flex-col">
     <div class="hidden md:block bg-primary-600 text-white text-xs md:text-sm font-bold text-center py-2 px-4 tracking-wider">

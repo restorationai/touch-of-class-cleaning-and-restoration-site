@@ -16,3 +16,10 @@ clients/*/.gsc-token.json
 # System 5 — YouTube OAuth secrets (never commit)
 .youtube-oauth-client.json
 clients/*/.youtube-token.json
+
+# Google Ads OAuth token cache (never commit — live credential)
+clients/*/.ads-token.json
+.ads-token.json
+
+# System 5 — local draft video renders (large working artifacts, not source)
+*-draft.mp4

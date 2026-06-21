@@ -1,7 +1,7 @@
 {
   "name": "restoration",
   "display_name": "Restoration Industry",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "URL plan + content map template for damage restoration contractors (water, fire, mold, storm, biohazard, commercial). Targets local-commercial search intent with dense city x service cross-product pages.",
   "supported_archetypes": [
     "home",

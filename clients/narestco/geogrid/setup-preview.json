@@ -1,0 +1,78 @@
+{
+  "keywords": [
+    "water damage restoration",
+    "fire damage restoration",
+    "mold remediation",
+    "flood damage restoration",
+    "sewage cleanup",
+    "smoke damage restoration",
+    "storm damage restoration",
+    "reconstruction services",
+    "burst pipe cleanup",
+    "basement flooding cleanup"
+  ],
+  "cities": [
+    {
+      "label": "Federal Way, WA",
+      "lat": 47.337,
+      "lng": -122.314,
+      "primary": true
+    },
+    {
+      "label": "Seattle, WA",
+      "lat": 47.6038,
+      "lng": -122.3301,
+      "primary": false
+    },
+    {
+      "label": "Bellevue, WA",
+      "lat": 47.6144,
+      "lng": -122.1923,
+      "primary": false
+    },
+    {
+      "label": "Tacoma, WA",
+      "lat": 47.2455,
+      "lng": -122.4383,
+      "primary": false
+    },
+    {
+      "label": "Everett, WA",
+      "lat": 47.9793,
+      "lng": -122.2127,
+      "primary": false
+    },
+    {
+      "label": "Kent, WA",
+      "lat": 47.3827,
+      "lng": -122.227,
+      "primary": false
+    },
+    {
+      "label": "Renton, WA",
+      "lat": 47.4799,
+      "lng": -122.2034,
+      "primary": false
+    },
+    {
+      "label": "Auburn, WA",
+      "lat": 47.3075,
+      "lng": -122.2302,
+      "primary": false
+    },
+    {
+      "label": "Kirkland, WA",
+      "lat": 47.6765,
+      "lng": -122.2071,
+      "primary": false
+    },
+    {
+      "label": "Redmond, WA",
+      "lat": 47.6694,
+      "lng": -122.1239,
+      "primary": false
+    }
+  ],
+  "company_id": "CO-1771290587387",
+  "has_identity": true
+}

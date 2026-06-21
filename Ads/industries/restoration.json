@@ -1,0 +1,116 @@
+{
+  "_comment": "Industry config for water/fire/mold/biohazard restoration companies.",
+  "industry": "restoration",
+  "rsa_label": "restoration company",
+  "rsa_guidance": "Emphasize 24/7 emergency response, IICRC certification, insurance direct billing, same-day extraction, and preventing secondary damage (mold within 24-48h). Speed and credentials are the top conversion levers.",
+  "service_labels": {
+    "water-damage-restoration": "Water Damage",
+    "fire-damage-restoration": "Fire Damage",
+    "mold-remediation": "Mold Removal",
+    "smoke-damage-restoration": "Smoke Damage",
+    "storm-damage-restoration": "Storm Damage",
+    "sewage-cleanup": "Sewage Cleanup",
+    "carpet-cleaning": "Carpet Cleaning",
+    "air-duct-cleaning": "Air Duct Cleaning",
+    "biohazard-cleanup": "Biohazard Cleanup",
+    "asbestos-removal": "Asbestos Removal",
+    "lead-paint-removal": "Lead Removal",
+    "trauma-cleanup": "Trauma Cleanup",
+    "hoarding-cleanup": "Hoarding Cleanup",
+    "reconstruction": "Reconstruction",
+    "roof-repair": "Roof Repair",
+    "flood-cleanup": "Flood Cleanup",
+    "flood-damage-restoration": "Flood Damage",
+    "burst-pipe-repair": "Burst Pipe Repair",
+    "basement-flooding-cleanup": "Basement Flooding",
+    "appliance-leak-cleanup": "Appliance Leak",
+    "frozen-pipe-restoration": "Frozen Pipe",
+    "roof-leak-repair": "Roof Leak",
+    "soot-removal": "Soot Removal",
+    "odor-removal": "Odor Removal",
+    "mold-inspection-testing": "Mold Inspection",
+    "biohazard-cleanup": "Biohazard Cleanup",
+    "general-contracting": "General Contracting",
+    "basement-waterproofing": "Waterproofing",
+    "emergency-board-up": "Board Up Service"
+  },
+  "service_groups": [
+    {"name": "Water and Flood", "services": ["water-damage-restoration", "flood-cleanup", "flood-damage-restoration", "sewage-cleanup", "basement-waterproofing", "burst-pipe-repair", "basement-flooding-cleanup", "appliance-leak-cleanup", "frozen-pipe-restoration"]},
+    {"name": "Fire and Smoke", "services": ["fire-damage-restoration", "smoke-damage-restoration", "soot-removal", "odor-removal", "emergency-board-up"]},
+    {"name": "Mold and Air Quality", "services": ["mold-remediation", "mold-inspection-testing", "air-duct-cleaning"]},
+    {"name": "Storm and Structural", "services": ["storm-damage-restoration", "reconstruction", "roof-repair", "roof-leak-repair", "general-contracting"]},
+    {"name": "Specialty", "services": ["biohazard-cleanup", "trauma-cleanup", "hoarding-cleanup", "asbestos-removal", "lead-paint-removal", "carpet-cleaning"]}
+  ],
+  "lp_body_content": {
+    "city": {
+      "heading": "Why Immediate Response Matters",
+      "intro": "Water damage spreads rapidly — mold can begin forming within 24–48 hours. The sooner a certified crew begins extraction and structural drying, the lower your total restoration cost and the less likely you are to face long-term structural damage.",
+      "bullets": [
+        "Within 1 hour: water saturates walls, floors, and personal belongings",
+        "Within 24 hours: mold spores begin to activate in wet materials",
+        "Within 48 hours: structural materials swell, warp, and may need full replacement",
+        "Within 1 week: remediation costs increase 3–5× compared to immediate response"
+      ],
+      "callout": null
+    },
+    "cost": {
+      "heading": "What Does {service} Cost?",
+      "intro": "Restoration costs depend on the size of the affected area, the materials involved, and how quickly the damage is addressed. The best way to get an accurate number is a free on-site assessment — we never charge for the inspection.",
+      "bullets": [
+        "Affected area: larger areas require more equipment and drying time, increasing cost",
+        "Material type: hardwood, drywall, and insulation each require different treatment",
+        "Response time: damage addressed within hours costs significantly less than damage left for days",
+        "Insurance: most homeowner policies cover sudden water and fire damage — we bill directly"
+      ],
+      "callout": "We provide a written upfront estimate before any work begins. No surprises, no hidden fees."
+    },
+    "company": {
+      "heading": "Why Choose Us?",
+      "intro": "Not all restoration companies are the same. Here's what sets us apart.",
+      "bullets": [
+        "IICRC Certified: every technician certified by the industry's highest standard",
+        "Licensed & Insured: fully licensed contractor with general liability and workers' comp on every job",
+        "Local & Family-Owned: not a national franchise — your neighbors call us too",
+        "Insurance Direct Billing: we handle the claim process from first call to final settlement"
+      ],
+      "callout": null
+    },
+    "free-estimate": {
+      "heading": "What Happens During a Free Inspection?",
+      "intro": "Our free assessment is a no-obligation, on-site evaluation by a certified technician. You'll know exactly what you're dealing with and what it will cost before committing to anything.",
+      "bullets": [
+        "We arrive within 60 minutes and assess the full extent of the damage",
+        "We identify hidden moisture with thermal imaging and moisture meters",
+        "We document everything for your insurance claim (photos, measurements, readings)",
+        "We provide a written scope of work and cost estimate on the spot",
+        "You decide whether to proceed — zero pressure, zero obligation"
+      ],
+      "callout": "The inspection is completely free. If you choose to move forward, we begin work immediately."
+    },
+    "insurance": {
+      "heading": "Does Insurance Cover {service}?",
+      "intro": "Most standard homeowner and commercial property policies cover sudden and accidental damage. We work directly with all major carriers and help you navigate the claims process from first call to final settlement.",
+      "bullets": [
+        "Direct billing: we invoice your insurer directly — no upfront out-of-pocket cost in most cases",
+        "All carriers: State Farm, Allstate, USAA, Farmers, Liberty Mutual, and all others",
+        "Documentation: we provide the full photo and moisture report your adjuster needs",
+        "Claim assistance: we walk you through the process and answer questions at every step"
+      ],
+      "callout": "Coverage depends on your specific policy and the cause of the damage. We'll clarify during the free inspection."
+    },
+    "removal": {
+      "heading": "How {service} Removal Works",
+      "intro": "Our certified technicians follow a documented removal and restoration process designed to eliminate the damage completely — not just dry the surface.",
+      "bullets": [
+        "Free on-site assessment — moisture mapping, documentation, written estimate",
+        "Containment — seal the affected area to prevent cross-contamination",
+        "Removal — extract water, remove unsalvageable materials (drywall, flooring, insulation)",
+        "Structural drying — industrial dehumidifiers and air movers until readings return to baseline",
+        "Treatment — EPA-safe antimicrobial application to prevent mold growth",
+        "Clearance testing — air quality verification before sign-off",
+        "Restoration — rebuild affected areas to pre-loss condition"
+      ],
+      "callout": null
+    }
+  }
+}

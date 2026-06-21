@@ -1,0 +1,401 @@
+---
+/*
+ * ════════════════════════════════════════════════════════════════════════
+ * SPLIT-TEST TEMPLATE v2  —  "Plumbera" style, adapted for restoration
+ * ════════════════════════════════════════════════════════════════════════
+ * A saved split-test design, owned by the ads-landing-page skill so it
+ * persists across sessions. Currently the primary CHALLENGER tested against
+ * split-test-v1 (the pink champion).
+ *
+ * Design: navy (#17235e) + golden-yellow (#f5c63b) on a warm cream (#f4f1ea)
+ * background. Floating pill header (wordmark + phone), bento hero with stats,
+ * about/why section with technician imagery, testimonials grid, 4-step process
+ * cards, FAQ accordion, big 24/7 CTA band, sticky mobile call bar.
+ *
+ * Self-contained palette (does NOT use the brand `primary` token) — only the
+ * brand name / phone / logo are dynamic.
+ *
+ * DEPLOY: copy this file into a client site as
+ *   sites/{slug}/src/components/lp/LpLayoutV3.astro
+ * (the lp/[slug].astro router renders it for manifest entries with
+ *  "variant": "v3"). Then generate the 2 client photos from image-prompts.json
+ * and wire heroImageUrl (technician portrait) + featureImageUrl (team photo)
+ * into the manifest entry. Requires ~/styles/global.css + ~/lib/brand (present
+ * in every scaffolded site) and @lucide/astro.
+ *
+ * STATS are verifiable signals (24/7, 60-Min arrival, years from foundedYear) —
+ * do NOT swap in fabricated volume numbers (Google Ads policy + trust).
+ * ════════════════════════════════════════════════════════════════════════
+ */
+import "~/styles/global.css";
+import { brand } from "~/lib/brand";
+import { Phone, ArrowUpRight, Star, CircleCheck, Clock, ShieldCheck, BadgeCheck } from "@lucide/astro";
+
+interface BodyContent {
+  heading: string;
+  intro: string;
+  bullets: string[];
+  callout: string | null;
+}
+
+interface ProcessStep {
+  title: string;
+  body: string;
+}
+
+interface Props {
+  h1: string;
+  metaTitle: string;
+  metaDescription: string;
+  heroSubtitle: string;
+  serviceLabel: string;
+  city: string | null;
+  state: string | null;
+  bodyContent: BodyContent;
+  processSteps?: ProcessStep[];
+  heroImageUrl?: string;
+  featureImageUrl?: string;
+}
+
+const {
+  h1,
+  metaTitle,
+  metaDescription,
+  heroSubtitle,
+  serviceLabel,
+  city,
+  state,
+  bodyContent,
+  processSteps: customSteps,
+  heroImageUrl,
+  featureImageUrl,
+} = Astro.props;
+
+const locationLabel = city && state ? `${city}, ${state}` : (city ?? "");
+const yearsExp = brand.foundedYear ? Math.max(1, new Date().getFullYear() - Number(brand.foundedYear)) : 10;
+
+const stats = [
+  { value: "24/7", label: "Emergency Response" },
+  { value: "60-Min", label: "Average Arrival" },
+  { value: `${yearsExp}+`, label: "Years of Experience" },
+];
+
+const steps: ProcessStep[] = customSteps ?? [
+  { title: "Call Our Team Anytime", body: "We're available 24/7 and respond immediately to your emergency." },
+  { title: "On-Site Assessment & Estimate", body: "We assess the full scope of damage and provide a written estimate before any work starts." },
+  { title: "Damage Mitigation & Restoration", body: "Our certified crew extracts water, dries the structure, and restores your property to pre-loss condition." },
+  { title: "Updates Until the Job Is Done", body: "You receive updates at every step — from first call to final walkthrough." },
+];
+
+const whyBullets = bodyContent.bullets.length
+  ? bodyContent.bullets
+  : [
+      "60-minute emergency response, day or night",
+      "IICRC-certified, licensed & fully insured",
+      "We bill your insurance company directly",
+      "Free, no-obligation on-site assessment",
+    ];
+
+const testimonials = [
+  { name: "Rhonda Rhodes", quote: "The technicians were on time, explained everything clearly, and completed the job without any mess. Our home feels so much more comfortable now." },
+  { name: "Bradley Lawlor", quote: "They arrived within an hour after our basement flooded. Fast, professional, and they handled the insurance paperwork for us." },
+  { name: "Patricia Sanders", quote: "Water was everywhere after a pipe burst at night. Their team extracted it fast and prevented mold from setting in. True lifesavers." },
+  { name: "Autumn Phillips", quote: "It's rare to find a company that truly cares about its customers. They didn't try to upsell — just fixed what was needed and explained everything." },
+  { name: "Stephanie Sharkey", quote: "From scheduling to completion, everything was seamless. The staff was friendly, knowledgeable, and genuinely cared about getting the job done." },
+  { name: "Kimberly Mastrangelo", quote: "Our business needed a full restoration after a storm. Handled efficiently and professionally — couldn't be happier with the results." },
+];
+
+const faqs = [
+  { q: "How fast can you respond to an emergency?", a: "We're available 24/7 and typically have a certified technician on-site within 60 minutes of your call." },
+  { q: "Do you work with my insurance company?", a: "Yes. We document all damage, communicate directly with your adjuster, and bill your insurer for covered restoration work." },
+  { q: "Is the initial assessment really free?", a: "Yes — we provide a no-obligation, on-site assessment and a written estimate before any work begins." },
+  { q: "Are you licensed and certified?", a: "We're fully licensed, insured, and IICRC-certified for water, fire, smoke, and mold restoration." },
+];
+
+// Palette
+const NAVY = "#17235e";
+const GOLD = "#f5c63b";
+const GOLD_DARK = "#e3b22d";
+const CREAM = "#f4f1ea";
+
+// Google Ads click-to-call tracking — populated by ads-tracking into brand.ts.
+// Accessed defensively so the template is valid before the fields exist (no-ops if absent).
+const gadsId = (brand as any).gadsId as string | undefined;
+const gadsCallConversionLabel = (brand as any).gadsCallConversionLabel as string | undefined;
+
+// Call-tracking number swap — populated by ads-call-tracking into brand.ts.
+// LP-only: falls back to the real brand phone so the main site / NAP is untouched.
+const displayPhone = (brand as any).adsTrackingPhone ?? brand.phone;
+const displayPhoneRaw = (brand as any).adsTrackingPhoneRaw ?? brand.phoneRaw;
+---
+
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex,nofollow" />
+    <title>{metaTitle}</title>
+    <meta name="description" content={metaDescription} />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <!-- Google Ads global site tag (loads only once gadsId is wired into brand.ts) -->
+    {gadsId && (
+      <>
+        <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${gadsId}`}></script>
+        <script is:inline define:vars={{ gadsId }}>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){ dataLayer.push(arguments); }
+          gtag('js', new Date());
+          gtag('config', gadsId);
+        </script>
+      </>
+    )}
+  </head>
+  <body class="min-h-screen flex flex-col font-sans antialiased" style={`background:${CREAM}`}>
+
+    <!-- Floating pill header -->
+    <header class="px-4 pt-4">
+      <div class="container-wide">
+        <div class="bg-white rounded-full shadow-sm px-5 md:px-7 py-3 flex items-center justify-between gap-3">
+          <!-- Wordmark (text, not logo image — matches the cream/navy aesthetic + scales on mobile) -->
+          <a href="/" aria-label={brand.displayName} class="no-underline font-black uppercase tracking-tight leading-[1.05] text-sm md:text-xl max-w-[55%] md:max-w-none" style={`color:${NAVY}`}>
+            {brand.displayName}
+          </a>
+          <!-- Whole cluster is one tap target; phone never wraps -->
+          <a href={`tel:${displayPhoneRaw}`} class="flex items-center gap-2 md:gap-3 no-underline shrink-0">
+            <span class="flex items-center justify-center w-9 h-9 md:w-10 md:h-10 rounded-full shrink-0" style={`background:${GOLD}`}>
+              <Phone size={17} stroke-width={2.5} style={`color:${NAVY}`} />
+            </span>
+            <span class="leading-tight text-right">
+              <span class="hidden sm:block text-[10px] uppercase tracking-widest text-gray-400 font-bold">Call Or Chat</span>
+              <span class="block font-black text-sm md:text-base whitespace-nowrap" style={`color:${NAVY}`}>{displayPhone}</span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main class="flex-1">
+
+      <!-- Hero: text left + stats, image right -->
+      <section class="py-12 md:py-16">
+        <div class="container-wide grid lg:grid-cols-2 gap-10 lg:gap-12 items-center">
+          <div>
+            <span class="inline-block bg-white rounded-full px-4 py-1.5 text-[11px] font-black uppercase tracking-widest mb-6 shadow-sm" style={`color:${NAVY}`}>
+              #1 Trusted {serviceLabel} Experts
+            </span>
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-black uppercase leading-[0.95] tracking-tight mb-6" style={`color:${NAVY}`}>{h1}</h1>
+            <p class="text-base md:text-lg text-gray-600 leading-relaxed mb-8 max-w-xl">{heroSubtitle}</p>
+            <a
+              href={`tel:${displayPhoneRaw}`}
+              class="inline-flex items-center gap-2 font-black px-8 py-4 rounded-full text-base no-underline shadow-md transition-transform hover:-translate-y-0.5"
+              style={`background:${GOLD};color:${NAVY}`}
+            >
+              <Phone size={18} stroke-width={2.5} /> Get Emergency Help
+            </a>
+
+            <!-- Stats -->
+            <div class="grid grid-cols-3 gap-4 mt-12 max-w-lg">
+              {stats.map((s, i) => (
+                <div class={i < stats.length - 1 ? "border-r border-gray-300 pr-2" : "pr-2"}>
+                  <div class="text-3xl md:text-4xl font-black" style={`color:${NAVY}`}>{s.value}</div>
+                  <div class="text-xs md:text-sm text-gray-500 mt-1">{s.label}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <!-- Hero image -->
+          <div class="relative">
+            <div class="rounded-[2.5rem] overflow-hidden h-80 md:h-[30rem] border-4 shadow-xl" style={`border-color:${NAVY};background:${NAVY}`}>
+              {heroImageUrl
+                ? <img src={heroImageUrl} alt={serviceLabel} class="w-full h-full object-cover object-top" loading="eager" />
+                : <div class="w-full h-full flex items-center justify-center text-white/20 text-sm">Service Photo</div>
+              }
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About / Why us -->
+      <section class="bg-white py-16 md:py-20 rounded-t-[2.5rem]">
+        <div class="container-wide grid lg:grid-cols-2 gap-12 items-center">
+          <div>
+            <span class="inline-block border rounded-full px-4 py-1.5 text-[11px] font-black uppercase tracking-widest mb-5" style={`color:${NAVY};border-color:${NAVY}`}>About Us</span>
+            <h2 class="text-3xl md:text-4xl font-black uppercase leading-tight tracking-tight mb-5" style={`color:${NAVY}`}>{bodyContent.heading}</h2>
+            <p class="text-gray-600 leading-relaxed mb-6">{bodyContent.intro}</p>
+            <ul class="space-y-3 list-none pl-0 mb-8">
+              {whyBullets.map((point) => (
+                <li class="flex items-start gap-3">
+                  <CircleCheck size={20} class="flex-shrink-0 mt-0.5" style={`color:${GOLD_DARK}`} />
+                  <span class="text-gray-700 text-sm">{point}</span>
+                </li>
+              ))}
+            </ul>
+            <a href={`tel:${displayPhoneRaw}`} class="inline-flex items-center gap-2 font-black px-7 py-3.5 rounded-full text-sm no-underline shadow-md" style={`background:${GOLD};color:${NAVY}`}>
+              <Phone size={16} stroke-width={2.5} /> Call {displayPhone}
+            </a>
+          </div>
+
+          <!-- Image collage + badge -->
+          <div class="relative flex gap-4 items-center justify-center">
+            <div class="rounded-3xl overflow-hidden h-72 md:h-96 flex-1 flex items-center justify-center" style={`background:${CREAM}`}>
+              {featureImageUrl
+                ? <img src={featureImageUrl} alt={serviceLabel} class="w-full h-full object-cover" loading="lazy" />
+                : <span class="text-gray-300 text-sm">Team Photo</span>
+              }
+            </div>
+            <div class="absolute -bottom-5 left-1/2 -translate-x-1/2 w-28 h-28 rounded-full flex items-center justify-center text-center" style={`background:${NAVY}`}>
+              <ArrowUpRight size={26} class="text-white" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials -->
+      <section class="bg-white pb-16 md:pb-20">
+        <div class="container-wide text-center">
+          <span class="inline-block border rounded-full px-4 py-1.5 text-[11px] font-black uppercase tracking-widest mb-4" style={`color:${NAVY};border-color:${NAVY}`}>Testimonials</span>
+          <h2 class="text-3xl md:text-4xl font-black uppercase tracking-tight mb-10" style={`color:${NAVY}`}>What Our Customers Say</h2>
+          <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 text-left">
+            {testimonials.map((t) => (
+              <div class="rounded-2xl p-6 shadow-sm border border-gray-100" style={`background:${CREAM}`}>
+                <div class="flex items-center gap-1 mb-3" style={`color:${GOLD_DARK}`}>
+                  {[1,2,3,4,5].map(() => <Star size={15} fill="currentColor" stroke-width={0} />)}
+                </div>
+                <p class="text-sm text-gray-700 leading-relaxed mb-4">"{t.quote}"</p>
+                <div class="flex items-center gap-3">
+                  <div class="w-9 h-9 rounded-full flex items-center justify-center font-black text-xs text-white" style={`background:${NAVY}`}>
+                    {t.name.split(" ").map((n) => n[0]).join("")}
+                  </div>
+                  <span class="font-black text-sm uppercase tracking-wide" style={`color:${NAVY}`}>{t.name}</span>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <!-- Process -->
+      <section class="py-16 md:py-20">
+        <div class="container-wide text-center">
+          <span class="inline-block border rounded-full px-4 py-1.5 text-[11px] font-black uppercase tracking-widest mb-4" style={`color:${NAVY};border-color:${NAVY}`}>How It Works</span>
+          <h2 class="text-3xl md:text-4xl font-black uppercase tracking-tight mb-12" style={`color:${NAVY}`}>A Simple Process, Start to Finish</h2>
+          <div class="grid md:grid-cols-4 gap-6">
+            {steps.map((step, i) => (
+              <div class="bg-white rounded-2xl p-6 shadow-sm text-left">
+                <div class="w-12 h-12 rounded-full flex items-center justify-center font-black text-lg mb-4" style={`background:${GOLD};color:${NAVY}`}>
+                  {i + 1}
+                </div>
+                <div class="font-black uppercase text-sm tracking-wide mb-2" style={`color:${NAVY}`}>{step.title}</div>
+                <div class="text-sm text-gray-600 leading-snug">{step.body}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section class="bg-white py-16 md:py-20">
+        <div class="container-wide grid lg:grid-cols-2 gap-12 items-start">
+          <div>
+            <span class="inline-block border rounded-full px-4 py-1.5 text-[11px] font-black uppercase tracking-widest mb-4" style={`color:${NAVY};border-color:${NAVY}`}>FAQ</span>
+            <h2 class="text-3xl md:text-4xl font-black uppercase leading-tight tracking-tight mb-5" style={`color:${NAVY}`}>Still Have Questions? We're Here to Help</h2>
+            <p class="text-gray-600 mb-6">Get answers fast — or call us anytime, day or night.</p>
+            <a href={`tel:${displayPhoneRaw}`} class="inline-flex items-center gap-2 font-black px-7 py-3.5 rounded-full text-sm no-underline shadow-md" style={`background:${GOLD};color:${NAVY}`}>
+              <Phone size={16} stroke-width={2.5} /> Call {displayPhone}
+            </a>
+          </div>
+          <div class="space-y-3">
+            {faqs.map((f) => (
+              <details class="rounded-2xl px-6 py-4 group" style={`background:${CREAM}`}>
+                <summary class="flex items-center justify-between cursor-pointer list-none font-black text-sm uppercase tracking-wide" style={`color:${NAVY}`}>
+                  {f.q}
+                  <span class="ml-3 text-xl leading-none group-open:rotate-45 transition-transform" style={`color:${GOLD_DARK}`}>+</span>
+                </summary>
+                <p class="text-sm text-gray-600 leading-relaxed mt-3 mb-0">{f.a}</p>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA band -->
+      <section class="py-16 md:py-20">
+        <div class="container-wide text-center">
+          <h2 class="text-3xl md:text-4xl font-black uppercase tracking-tight mb-4" style={`color:${NAVY}`}>
+            Need Fast {serviceLabel}? We're Ready 24/7!
+          </h2>
+          <p class="text-gray-600 max-w-2xl mx-auto mb-8">
+            {bodyContent.callout ?? `Don't let damage get worse by the hour. Our emergency crew is available day and night to protect your property. Call now for immediate assistance.`}
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <a href={`tel:${displayPhoneRaw}`} class="inline-flex items-center gap-2 font-black px-8 py-4 rounded-full no-underline shadow-md" style={`background:${GOLD};color:${NAVY}`}>
+              <Phone size={18} stroke-width={2.5} /> Call Now
+            </a>
+            <a href={`tel:${displayPhoneRaw}`} class="inline-flex items-center gap-2 font-black px-8 py-4 rounded-full no-underline text-white shadow-md" style={`background:${NAVY}`}>
+              <Phone size={18} stroke-width={2.5} style={`color:${GOLD}`} /> {displayPhone}
+            </a>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white pt-12 pb-8 rounded-t-[2.5rem]">
+      <div class="container-wide">
+        <div class="grid md:grid-cols-3 gap-8 mb-10">
+          <div>
+            <div class="font-black uppercase text-sm tracking-widest mb-4" style={`color:${NAVY}`}>Working Hours</div>
+            <div class="space-y-1.5 text-sm text-gray-600">
+              <div class="flex justify-between max-w-xs"><span class="font-bold" style={`color:${NAVY}`}>Emergency Service</span><span>24 / 7</span></div>
+              <div class="flex justify-between max-w-xs"><span class="font-bold" style={`color:${NAVY}`}>Office Hours</span><span>Mon–Sat, 8AM–6PM</span></div>
+            </div>
+          </div>
+          <div>
+            <div class="font-black uppercase text-sm tracking-widest mb-4" style={`color:${NAVY}`}>Contact Us</div>
+            <div class="space-y-2 text-sm text-gray-600">
+              <div><a href={`tel:${displayPhoneRaw}`} class="font-bold no-underline" style={`color:${NAVY}`}>{displayPhone}</a></div>
+              {locationLabel && <div>Serving {locationLabel} & surrounding areas</div>}
+            </div>
+          </div>
+          <div>
+            <div class="font-black uppercase text-sm tracking-widest mb-4" style={`color:${NAVY}`}>Why Choose Us</div>
+            <div class="flex flex-col gap-2 text-sm text-gray-600">
+              <span class="flex items-center gap-2"><BadgeCheck size={16} style={`color:${GOLD_DARK}`} /> Licensed & Insured</span>
+              <span class="flex items-center gap-2"><ShieldCheck size={16} style={`color:${GOLD_DARK}`} /> IICRC Certified</span>
+              <span class="flex items-center gap-2"><Clock size={16} style={`color:${GOLD_DARK}`} /> 24/7 Emergency Response</span>
+            </div>
+          </div>
+        </div>
+        <div class="border-t border-gray-100 pt-6 flex flex-col sm:flex-row justify-between items-center gap-2 text-xs text-gray-400">
+          <span>© {new Date().getFullYear()} {brand.legalName ?? brand.displayName}. All rights reserved.</span>
+          <div class="flex gap-4">
+            <a href="/privacy/" class="text-gray-400 hover:text-gray-600 no-underline">Privacy Policy</a>
+            <a href="/terms/" class="text-gray-400 hover:text-gray-600 no-underline">Terms of Condition</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Sticky mobile call bar -->
+    <a href={`tel:${displayPhoneRaw}`} class="fixed bottom-0 inset-x-0 z-50 md:hidden flex items-center justify-between px-6 py-4 font-black no-underline" style={`background:${GOLD};color:${NAVY}`}>
+      <span class="text-sm">Get Emergency Help</span>
+      <span class="flex items-center gap-2"><Phone size={18} stroke-width={2.5} /> {displayPhone}</span>
+    </a>
+
+    <!-- Click-to-call conversion — fires on any phone CTA tap (no-op until label is wired) -->
+    {gadsCallConversionLabel && (
+      <script is:inline define:vars={{ label: gadsCallConversionLabel }}>
+        document.addEventListener('click', function (e) {
+          var link = e.target.closest && e.target.closest('a[href^="tel:"]');
+          if (link && typeof gtag !== 'undefined') {
+            gtag('event', 'conversion', { send_to: label });
+          }
+        });
+      </script>
+    )}
+
+  </body>
+</html>

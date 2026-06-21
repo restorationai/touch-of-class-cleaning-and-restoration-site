@@ -1,0 +1,1543 @@
+{
+  "slug": "narestco",
+  "business": {
+    "name": "National Restoration Construction",
+    "lat": 47.337,
+    "lng": -122.314,
+    "place_id": "ChIJ8URpSkf_UaURDg_hVb9wMrQ",
+    "cid": "12984564642744438542"
+  },
+  "keyword": "water damage restoration",
+  "grid": 13,
+  "miles": 6.5,
+  "zoom": 12,
+  "scanned_at": "2026-06-17 22:56Z",
+  "avg_rank": 6.67948717948718,
+  "pct_in_top3": 30.8,
+  "found_points": 156,
+  "total_points": 169,
+  "cost_usd": 0.33,
+  "points": [
+    {
+      "row": 0,
+      "col": 0,
+      "lat": 47.384101,
+      "lng": -122.383503,
+      "rank": 5,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "lat": 47.384101,
+      "lng": -122.37192,
+      "rank": 6,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "lat": 47.384101,
+      "lng": -122.360336,
+      "rank": 9,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "lat": 47.384101,
+      "lng": -122.348752,
+      "rank": 11,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 0,
+      "col": 4,
+      "lat": 47.384101,
+      "lng": -122.337168,
+      "rank": 9,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 0,
+      "col": 5,
+      "lat": 47.384101,
+      "lng": -122.325584,
+      "rank": 10,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 0,
+      "col": 6,
+      "lat": 47.384101,
+      "lng": -122.314,
+      "rank": 15,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 0,
+      "col": 7,
+      "lat": 47.384101,
+      "lng": -122.302416,
+      "rank": 14,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 0,
+      "col": 8,
+      "lat": 47.384101,
+      "lng": -122.290832,
+      "rank": 16,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 0,
+      "col": 9,
+      "lat": 47.384101,
+      "lng": -122.279248,
+      "rank": null,
+      "found": false,
+      "cost": 0.002
+    },
+    {
+      "row": 0,
+      "col": 10,
+      "lat": 47.384101,
+      "lng": -122.267664,
+      "rank": null,
+      "found": false,
+      "cost": 0.002
+    },
+    {
+      "row": 0,
+      "col": 11,
+      "lat": 47.384101,
+      "lng": -122.25608,
+      "rank": null,
+      "found": false,
+      "cost": 0.002
+    },
+    {
+      "row": 0,
+      "col": 12,
+      "lat": 47.384101,
+      "lng": -122.244497,
+      "rank": null,
+      "found": false,
+      "cost": 0.002
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "lat": 47.376251,
+      "lng": -122.383503,
+      "rank": 7,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "lat": 47.376251,
+      "lng": -122.37192,
+      "rank": 7,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "lat": 47.376251,
+      "lng": -122.360336,
+      "rank": 7,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "lat": 47.376251,
+      "lng": -122.348752,
+      "rank": 4,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 1,
+      "col": 4,
+      "lat": 47.376251,
+      "lng": -122.337168,
+      "rank": 6,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 1,
+      "col": 5,
+      "lat": 47.376251,
+      "lng": -122.325584,
+      "rank": 7,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 1,
+      "col": 6,
+      "lat": 47.376251,
+      "lng": -122.314,
+      "rank": 6,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 1,
+      "col": 7,
+      "lat": 47.376251,
+      "lng": -122.302416,
+      "rank": 14,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 1,
+      "col": 8,
+      "lat": 47.376251,
+      "lng": -122.290832,
+      "rank": 13,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 1,
+      "col": 9,
+      "lat": 47.376251,
+      "lng": -122.279248,
+      "rank": 17,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 1,
+      "col": 10,
+      "lat": 47.376251,
+      "lng": -122.267664,
+      "rank": 19,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 1,
+      "col": 11,
+      "lat": 47.376251,
+      "lng": -122.25608,
+      "rank": null,
+      "found": false,
+      "cost": 0.002
+    },
+    {
+      "row": 1,
+      "col": 12,
+      "lat": 47.376251,
+      "lng": -122.244497,
+      "rank": null,
+      "found": false,
+      "cost": 0.002
+    },
+    {
+      "row": 2,
+      "col": 0,
+      "lat": 47.368401,
+      "lng": -122.383503,
+      "rank": 3,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 2,
+      "col": 1,
+      "lat": 47.368401,
+      "lng": -122.37192,
+      "rank": 3,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "lat": 47.368401,
+      "lng": -122.360336,
+      "rank": 2,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "lat": 47.368401,
+      "lng": -122.348752,
+      "rank": 1,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 2,
+      "col": 4,
+      "lat": 47.368401,
+      "lng": -122.337168,
+      "rank": 2,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 2,
+      "col": 5,
+      "lat": 47.368401,
+      "lng": -122.325584,
+      "rank": 2,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 2,
+      "col": 6,
+      "lat": 47.368401,
+      "lng": -122.314,
+      "rank": 6,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 2,
+      "col": 7,
+      "lat": 47.368401,
+      "lng": -122.302416,
+      "rank": 6,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 2,
+      "col": 8,
+      "lat": 47.368401,
+      "lng": -122.290832,
+      "rank": 10,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 2,
+      "col": 9,
+      "lat": 47.368401,
+      "lng": -122.279248,
+      "rank": 15,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 2,
+      "col": 10,
+      "lat": 47.368401,
+      "lng": -122.267664,
+      "rank": 15,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 2,
+      "col": 11,
+      "lat": 47.368401,
+      "lng": -122.25608,
+      "rank": 20,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 2,
+      "col": 12,
+      "lat": 47.368401,
+      "lng": -122.244497,
+      "rank": null,
+      "found": false,
+      "cost": 0.002
+    },
+    {
+      "row": 3,
+      "col": 0,
+      "lat": 47.360551,
+      "lng": -122.383503,
+      "rank": 2,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 3,
+      "col": 1,
+      "lat": 47.360551,
+      "lng": -122.37192,
+      "rank": 2,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "lat": 47.360551,
+      "lng": -122.360336,
+      "rank": 2,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "lat": 47.360551,
+      "lng": -122.348752,
+      "rank": 1,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 3,
+      "col": 4,
+      "lat": 47.360551,
+      "lng": -122.337168,
+      "rank": 2,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 3,
+      "col": 5,
+      "lat": 47.360551,
+      "lng": -122.325584,
+      "rank": 1,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 3,
+      "col": 6,
+      "lat": 47.360551,
+      "lng": -122.314,
+      "rank": 4,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 3,
+      "col": 7,
+      "lat": 47.360551,
+      "lng": -122.302416,
+      "rank": 4,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 3,
+      "col": 8,
+      "lat": 47.360551,
+      "lng": -122.290832,
+      "rank": 7,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 3,
+      "col": 9,
+      "lat": 47.360551,
+      "lng": -122.279248,
+      "rank": 9,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 3,
+      "col": 10,
+      "lat": 47.360551,
+      "lng": -122.267664,
+      "rank": 14,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 3,
+      "col": 11,
+      "lat": 47.360551,
+      "lng": -122.25608,
+      "rank": 20,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 3,
+      "col": 12,
+      "lat": 47.360551,
+      "lng": -122.244497,
+      "rank": null,
+      "found": false,
+      "cost": 0.002
+    },
+    {
+      "row": 4,
+      "col": 0,
+      "lat": 47.3527,
+      "lng": -122.383503,
+      "rank": 2,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 4,
+      "col": 1,
+      "lat": 47.3527,
+      "lng": -122.37192,
+      "rank": 3,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "lat": 47.3527,
+      "lng": -122.360336,
+      "rank": 3,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 4,
+      "col": 3,
+      "lat": 47.3527,
+      "lng": -122.348752,
+      "rank": 1,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 4,
+      "col": 4,
+      "lat": 47.3527,
+      "lng": -122.337168,
+      "rank": null,
+      "found": false,
+      "cost": 0.0
+    },
+    {
+      "row": 4,
+      "col": 5,
+      "lat": 47.3527,
+      "lng": -122.325584,
+      "rank": 1,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 4,
+      "col": 6,
+      "lat": 47.3527,
+      "lng": -122.314,
+      "rank": 2,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 4,
+      "col": 7,
+      "lat": 47.3527,
+      "lng": -122.302416,
+      "rank": null,
+      "found": false,
+      "cost": 0.0
+    },
+    {
+      "row": 4,
+      "col": 8,
+      "lat": 47.3527,
+      "lng": -122.290832,
+      "rank": null,
+      "found": false,
+      "cost": 0.0
+    },
+    {
+      "row": 4,
+      "col": 9,
+      "lat": 47.3527,
+      "lng": -122.279248,
+      "rank": 5,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 4,
+      "col": 10,
+      "lat": 47.3527,
+      "lng": -122.267664,
+      "rank": 9,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 4,
+      "col": 11,
+      "lat": 47.3527,
+      "lng": -122.25608,
+      "rank": 13,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 4,
+      "col": 12,
+      "lat": 47.3527,
+      "lng": -122.244497,
+      "rank": null,
+      "found": false,
+      "cost": 0.0
+    },
+    {
+      "row": 5,
+      "col": 0,
+      "lat": 47.34485,
+      "lng": -122.383503,
+      "rank": 2,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 5,
+      "col": 1,
+      "lat": 47.34485,
+      "lng": -122.37192,
+      "rank": 3,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 5,
+      "col": 2,
+      "lat": 47.34485,
+      "lng": -122.360336,
+      "rank": 2,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 5,
+      "col": 3,
+      "lat": 47.34485,
+      "lng": -122.348752,
+      "rank": 1,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 5,
+      "col": 4,
+      "lat": 47.34485,
+      "lng": -122.337168,
+      "rank": 1,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 5,
+      "col": 5,
+      "lat": 47.34485,
+      "lng": -122.325584,
+      "rank": 1,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 5,
+      "col": 6,
+      "lat": 47.34485,
+      "lng": -122.314,
+      "rank": 2,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 5,
+      "col": 7,
+      "lat": 47.34485,
+      "lng": -122.302416,
+      "rank": 4,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 5,
+      "col": 8,
+      "lat": 47.34485,
+      "lng": -122.290832,
+      "rank": 5,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 5,
+      "col": 9,
+      "lat": 47.34485,
+      "lng": -122.279248,
+      "rank": 4,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 5,
+      "col": 10,
+      "lat": 47.34485,
+      "lng": -122.267664,
+      "rank": 7,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 5,
+      "col": 11,
+      "lat": 47.34485,
+      "lng": -122.25608,
+      "rank": 13,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 5,
+      "col": 12,
+      "lat": 47.34485,
+      "lng": -122.244497,
+      "rank": 20,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 6,
+      "col": 0,
+      "lat": 47.337,
+      "lng": -122.383503,
+      "rank": 2,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 6,
+      "col": 1,
+      "lat": 47.337,
+      "lng": -122.37192,
+      "rank": 2,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "lat": 47.337,
+      "lng": -122.360336,
+      "rank": 3,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 6,
+      "col": 3,
+      "lat": 47.337,
+      "lng": -122.348752,
+      "rank": 2,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 6,
+      "col": 4,
+      "lat": 47.337,
+      "lng": -122.337168,
+      "rank": 1,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 6,
+      "col": 5,
+      "lat": 47.337,
+      "lng": -122.325584,
+      "rank": 1,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 6,
+      "col": 6,
+      "lat": 47.337,
+      "lng": -122.314,
+      "rank": 1,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 6,
+      "col": 7,
+      "lat": 47.337,
+      "lng": -122.302416,
+      "rank": 2,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 6,
+      "col": 8,
+      "lat": 47.337,
+      "lng": -122.290832,
+      "rank": 2,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 6,
+      "col": 9,
+      "lat": 47.337,
+      "lng": -122.279248,
+      "rank": 4,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 6,
+      "col": 10,
+      "lat": 47.337,
+      "lng": -122.267664,
+      "rank": 7,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 6,
+      "col": 11,
+      "lat": 47.337,
+      "lng": -122.25608,
+      "rank": 14,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 6,
+      "col": 12,
+      "lat": 47.337,
+      "lng": -122.244497,
+      "rank": 15,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 7,
+      "col": 0,
+      "lat": 47.32915,
+      "lng": -122.383503,
+      "rank": 2,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 7,
+      "col": 1,
+      "lat": 47.32915,
+      "lng": -122.37192,
+      "rank": 2,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 7,
+      "col": 2,
+      "lat": 47.32915,
+      "lng": -122.360336,
+      "rank": 2,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 7,
+      "col": 3,
+      "lat": 47.32915,
+      "lng": -122.348752,
+      "rank": 2,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 7,
+      "col": 4,
+      "lat": 47.32915,
+      "lng": -122.337168,
+      "rank": 2,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 7,
+      "col": 5,
+      "lat": 47.32915,
+      "lng": -122.325584,
+      "rank": 3,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 7,
+      "col": 6,
+      "lat": 47.32915,
+      "lng": -122.314,
+      "rank": 1,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 7,
+      "col": 7,
+      "lat": 47.32915,
+      "lng": -122.302416,
+      "rank": 3,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 7,
+      "col": 8,
+      "lat": 47.32915,
+      "lng": -122.290832,
+      "rank": 1,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 7,
+      "col": 9,
+      "lat": 47.32915,
+      "lng": -122.279248,
+      "rank": 2,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 7,
+      "col": 10,
+      "lat": 47.32915,
+      "lng": -122.267664,
+      "rank": 10,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 7,
+      "col": 11,
+      "lat": 47.32915,
+      "lng": -122.25608,
+      "rank": 13,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 7,
+      "col": 12,
+      "lat": 47.32915,
+      "lng": -122.244497,
+      "rank": 17,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 8,
+      "col": 0,
+      "lat": 47.3213,
+      "lng": -122.383503,
+      "rank": 4,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 8,
+      "col": 1,
+      "lat": 47.3213,
+      "lng": -122.37192,
+      "rank": 2,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 8,
+      "col": 2,
+      "lat": 47.3213,
+      "lng": -122.360336,
+      "rank": 3,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 8,
+      "col": 3,
+      "lat": 47.3213,
+      "lng": -122.348752,
+      "rank": 4,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 8,
+      "col": 4,
+      "lat": 47.3213,
+      "lng": -122.337168,
+      "rank": 2,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 8,
+      "col": 5,
+      "lat": 47.3213,
+      "lng": -122.325584,
+      "rank": 2,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 8,
+      "col": 6,
+      "lat": 47.3213,
+      "lng": -122.314,
+      "rank": 2,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 8,
+      "col": 7,
+      "lat": 47.3213,
+      "lng": -122.302416,
+      "rank": 2,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 8,
+      "col": 8,
+      "lat": 47.3213,
+      "lng": -122.290832,
+      "rank": 2,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 8,
+      "col": 9,
+      "lat": 47.3213,
+      "lng": -122.279248,
+      "rank": 4,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 8,
+      "col": 10,
+      "lat": 47.3213,
+      "lng": -122.267664,
+      "rank": 9,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 8,
+      "col": 11,
+      "lat": 47.3213,
+      "lng": -122.25608,
+      "rank": null,
+      "found": false,
+      "cost": 0.002
+    },
+    {
+      "row": 8,
+      "col": 12,
+      "lat": 47.3213,
+      "lng": -122.244497,
+      "rank": 16,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 9,
+      "col": 0,
+      "lat": 47.313449,
+      "lng": -122.383503,
+      "rank": 3,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 9,
+      "col": 1,
+      "lat": 47.313449,
+      "lng": -122.37192,
+      "rank": 4,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 9,
+      "col": 2,
+      "lat": 47.313449,
+      "lng": -122.360336,
+      "rank": 4,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 9,
+      "col": 3,
+      "lat": 47.313449,
+      "lng": -122.348752,
+      "rank": 6,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 9,
+      "col": 4,
+      "lat": 47.313449,
+      "lng": -122.337168,
+      "rank": 5,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 9,
+      "col": 5,
+      "lat": 47.313449,
+      "lng": -122.325584,
+      "rank": 7,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 9,
+      "col": 6,
+      "lat": 47.313449,
+      "lng": -122.314,
+      "rank": 7,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 9,
+      "col": 7,
+      "lat": 47.313449,
+      "lng": -122.302416,
+      "rank": 4,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 9,
+      "col": 8,
+      "lat": 47.313449,
+      "lng": -122.290832,
+      "rank": 4,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 9,
+      "col": 9,
+      "lat": 47.313449,
+      "lng": -122.279248,
+      "rank": 10,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 9,
+      "col": 10,
+      "lat": 47.313449,
+      "lng": -122.267664,
+      "rank": 13,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 9,
+      "col": 11,
+      "lat": 47.313449,
+      "lng": -122.25608,
+      "rank": 11,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 9,
+      "col": 12,
+      "lat": 47.313449,
+      "lng": -122.244497,
+      "rank": 12,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 10,
+      "col": 0,
+      "lat": 47.305599,
+      "lng": -122.383503,
+      "rank": 4,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 10,
+      "col": 1,
+      "lat": 47.305599,
+      "lng": -122.37192,
+      "rank": 5,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 10,
+      "col": 2,
+      "lat": 47.305599,
+      "lng": -122.360336,
+      "rank": 5,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 10,
+      "col": 3,
+      "lat": 47.305599,
+      "lng": -122.348752,
+      "rank": 7,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 10,
+      "col": 4,
+      "lat": 47.305599,
+      "lng": -122.337168,
+      "rank": 5,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 10,
+      "col": 5,
+      "lat": 47.305599,
+      "lng": -122.325584,
+      "rank": 7,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 10,
+      "col": 6,
+      "lat": 47.305599,
+      "lng": -122.314,
+      "rank": 6,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 10,
+      "col": 7,
+      "lat": 47.305599,
+      "lng": -122.302416,
+      "rank": 5,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 10,
+      "col": 8,
+      "lat": 47.305599,
+      "lng": -122.290832,
+      "rank": 5,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 10,
+      "col": 9,
+      "lat": 47.305599,
+      "lng": -122.279248,
+      "rank": 10,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 10,
+      "col": 10,
+      "lat": 47.305599,
+      "lng": -122.267664,
+      "rank": 11,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 10,
+      "col": 11,
+      "lat": 47.305599,
+      "lng": -122.25608,
+      "rank": 13,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 10,
+      "col": 12,
+      "lat": 47.305599,
+      "lng": -122.244497,
+      "rank": 16,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 11,
+      "col": 0,
+      "lat": 47.297749,
+      "lng": -122.383503,
+      "rank": 6,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 11,
+      "col": 1,
+      "lat": 47.297749,
+      "lng": -122.37192,
+      "rank": 8,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 11,
+      "col": 2,
+      "lat": 47.297749,
+      "lng": -122.360336,
+      "rank": 5,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 11,
+      "col": 3,
+      "lat": 47.297749,
+      "lng": -122.348752,
+      "rank": 5,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 11,
+      "col": 4,
+      "lat": 47.297749,
+      "lng": -122.337168,
+      "rank": 5,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 11,
+      "col": 5,
+      "lat": 47.297749,
+      "lng": -122.325584,
+      "rank": 7,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 11,
+      "col": 6,
+      "lat": 47.297749,
+      "lng": -122.314,
+      "rank": 6,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 11,
+      "col": 7,
+      "lat": 47.297749,
+      "lng": -122.302416,
+      "rank": 6,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 11,
+      "col": 8,
+      "lat": 47.297749,
+      "lng": -122.290832,
+      "rank": 7,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 11,
+      "col": 9,
+      "lat": 47.297749,
+      "lng": -122.279248,
+      "rank": 10,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 11,
+      "col": 10,
+      "lat": 47.297749,
+      "lng": -122.267664,
+      "rank": 11,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 11,
+      "col": 11,
+      "lat": 47.297749,
+      "lng": -122.25608,
+      "rank": 14,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 11,
+      "col": 12,
+      "lat": 47.297749,
+      "lng": -122.244497,
+      "rank": 15,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 12,
+      "col": 0,
+      "lat": 47.289899,
+      "lng": -122.383503,
+      "rank": 10,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 12,
+      "col": 1,
+      "lat": 47.289899,
+      "lng": -122.37192,
+      "rank": 9,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 12,
+      "col": 2,
+      "lat": 47.289899,
+      "lng": -122.360336,
+      "rank": 9,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 12,
+      "col": 3,
+      "lat": 47.289899,
+      "lng": -122.348752,
+      "rank": 7,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 12,
+      "col": 4,
+      "lat": 47.289899,
+      "lng": -122.337168,
+      "rank": 6,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 12,
+      "col": 5,
+      "lat": 47.289899,
+      "lng": -122.325584,
+      "rank": 6,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 12,
+      "col": 6,
+      "lat": 47.289899,
+      "lng": -122.314,
+      "rank": 6,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 12,
+      "col": 7,
+      "lat": 47.289899,
+      "lng": -122.302416,
+      "rank": 7,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 12,
+      "col": 8,
+      "lat": 47.289899,
+      "lng": -122.290832,
+      "rank": 7,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 12,
+      "col": 9,
+      "lat": 47.289899,
+      "lng": -122.279248,
+      "rank": 12,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 12,
+      "col": 10,
+      "lat": 47.289899,
+      "lng": -122.267664,
+      "rank": 12,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 12,
+      "col": 11,
+      "lat": 47.289899,
+      "lng": -122.25608,
+      "rank": 13,
+      "found": true,
+      "cost": 0.002
+    },
+    {
+      "row": 12,
+      "col": 12,
+      "lat": 47.289899,
+      "lng": -122.244497,
+      "rank": 17,
+      "found": true,
+      "cost": 0.002
+    }
+  ]
+}

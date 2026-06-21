@@ -1,0 +1,106 @@
+{
+  "_comment": "Industry config for licensed plumbing contractors.",
+  "industry": "plumbing",
+  "rsa_label": "licensed plumber",
+  "rsa_guidance": "Emphasize 24/7 emergency availability, licensed and insured, upfront pricing, and same-day service. Water damage risk from delays is a strong urgency lever. Credentials (licensed master plumber) build trust for larger jobs like repiping and water heater replacement.",
+  "service_labels": {
+    "drain-cleaning": "Drain Cleaning",
+    "emergency-plumbing": "Emergency Plumber",
+    "burst-pipe-repair": "Burst Pipe Repair",
+    "leak-repair": "Leak Repair",
+    "water-heater-repair": "Water Heater Repair",
+    "water-heater-installation": "Water Heater Installation",
+    "water-heater-replacement": "Water Heater Replacement",
+    "tankless-water-heater": "Tankless Water Heater",
+    "toilet-repair": "Toilet Repair",
+    "toilet-installation": "Toilet Installation",
+    "faucet-repair": "Faucet Repair",
+    "faucet-installation": "Faucet Installation",
+    "pipe-repair": "Pipe Repair",
+    "repiping": "Whole-Home Repiping",
+    "sewer-repair": "Sewer Repair",
+    "sewer-replacement": "Sewer Replacement",
+    "hydro-jetting": "Hydro Jetting",
+    "water-filtration": "Water Filtration",
+    "garbage-disposal": "Garbage Disposal",
+    "bathroom-remodel-plumbing": "Bathroom Plumbing",
+    "gas-line-repair": "Gas Line Repair",
+    "backflow-testing": "Backflow Testing"
+  },
+  "service_groups": [
+    {"name": "Emergency Plumbing", "services": ["emergency-plumbing", "burst-pipe-repair", "leak-repair", "drain-cleaning"]},
+    {"name": "Water Heaters", "services": ["water-heater-repair", "water-heater-installation", "water-heater-replacement", "tankless-water-heater"]},
+    {"name": "Drains and Sewer", "services": ["sewer-repair", "sewer-replacement", "hydro-jetting"]},
+    {"name": "Fixtures and Installation", "services": ["toilet-repair", "toilet-installation", "faucet-repair", "faucet-installation", "garbage-disposal", "bathroom-remodel-plumbing"]},
+    {"name": "Pipe and Gas", "services": ["pipe-repair", "repiping", "gas-line-repair", "water-filtration", "backflow-testing"]}
+  ],
+  "lp_body_content": {
+    "city": {
+      "heading": "Why Plumbing Problems Need Fast Attention",
+      "intro": "A slow drip or small leak can become thousands of dollars in water damage within hours. The sooner a licensed plumber diagnoses the issue, the lower the total cost and the less disruption to your home.",
+      "bullets": [
+        "A slow leak under a sink can rot the cabinet floor and subfloor within days",
+        "A burst pipe can flood a room in minutes — water extraction and drying adds significant cost",
+        "Ignoring a drain backup can indicate a sewer line issue — caught early, it's a clean-out; ignored, it's excavation",
+        "Water heater failures often give warning signs weeks before a full failure — catching them saves the tank"
+      ],
+      "callout": null
+    },
+    "cost": {
+      "heading": "What Does {service} Cost?",
+      "intro": "Plumbing costs vary by job complexity, access, and parts. We provide a written upfront quote before any work starts — no surprise invoices.",
+      "bullets": [
+        "Access: jobs behind walls or under slabs cost more due to required demolition",
+        "Parts: we stock common parts on our trucks for same-day repair without a second trip",
+        "Water heaters: cost depends on unit type (tank vs tankless) and fuel source (gas vs electric)",
+        "Repiping: whole-home repiping is priced per linear foot — we measure and quote before starting"
+      ],
+      "callout": "We provide a written upfront estimate before any work begins. No hidden fees, no trip charges."
+    },
+    "company": {
+      "heading": "Why Choose Us?",
+      "intro": "Licensed plumbers protect your home and your investment. Here's what sets us apart.",
+      "bullets": [
+        "Licensed & Insured: fully licensed master plumber — license number available on request",
+        "Upfront Pricing: you know the cost before we start — no surprises on the invoice",
+        "Same-Day Service: most repairs handled the same day you call",
+        "Local & Family-Owned: we live in this community and stand behind our work"
+      ],
+      "callout": null
+    },
+    "free-estimate": {
+      "heading": "What Happens During a Free Estimate?",
+      "intro": "Our licensed plumbers diagnose the issue on-site and give you a written quote before any work starts. No obligation, no pressure.",
+      "bullets": [
+        "We assess the full issue — not just the visible symptom",
+        "We check for related problems that could cause future failures",
+        "We give you honest repair-vs-replace guidance",
+        "You get a written quote — decide on your own timeline"
+      ],
+      "callout": "The estimate is completely free. Most repairs can be completed the same day."
+    },
+    "insurance": {
+      "heading": "Does Insurance Cover Plumbing Repairs?",
+      "intro": "Homeowner's insurance typically covers sudden and accidental water damage from plumbing failures (burst pipes, appliance leaks). The plumbing repair itself is usually the homeowner's responsibility — but the resulting water damage is often covered.",
+      "bullets": [
+        "Water damage from burst pipes: typically covered under homeowner's policies",
+        "Sewer backup: covered if you have a sewer backup rider (we can document for your adjuster)",
+        "Gradual leaks: usually not covered — another reason to catch problems early",
+        "We provide documentation: photos, repair notes, and invoices for your insurance claim"
+      ],
+      "callout": "Ask us about documentation when you call — we provide what your adjuster needs."
+    },
+    "removal": {
+      "heading": "How {service} Works",
+      "intro": "Our licensed plumbers follow a thorough process from diagnosis to final test.",
+      "bullets": [
+        "On-site assessment — diagnose the root cause, not just the symptom",
+        "Written quote — itemized breakdown before any work starts",
+        "Repair or replacement — with quality parts, backed by our workmanship warranty",
+        "Final test — run water, check pressure, verify no leaks before we leave",
+        "Clean-up — we leave the work area clean"
+      ],
+      "callout": null
+    }
+  }
+}

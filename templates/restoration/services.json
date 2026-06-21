@@ -1,7 +1,12 @@
 {
-  "version": "0.3.0",
+  "version": "0.4.0",
   "note": "Canonical service catalog for restoration and construction verticals. The template is a superset; each client selects the subset they offer. tier values: 'core' = standard restoration services most clients should offer; 'specialty' = distinct service some clients offer; 'adjacent' = related cleaning/maintenance services a minority offer; 'construction' = construction/GC services for dual-vertical clients. content_guardrails='sensitive' triggers Skill 3's sensitive-content rules at generation time.",
-  "tiers": ["core", "specialty", "adjacent", "construction"],
+  "tiers": [
+    "core",
+    "specialty",
+    "adjacent",
+    "construction"
+  ],
   "services": [
     {
       "slug": "water-damage-restoration",
@@ -502,6 +507,66 @@
       ],
       "tier": "adjacent",
       "priority": 4
+    },
+    {
+      "slug": "upholstery-cleaning",
+      "display_name": "Upholstery Cleaning",
+      "short_name": "Upholstery",
+      "primary_intent": "local_specialty",
+      "secondary_keywords": [
+        "sofa cleaning",
+        "couch cleaning",
+        "furniture steam cleaning",
+        "leather upholstery cleaning",
+        "fabric upholstery cleaning"
+      ],
+      "tier": "adjacent",
+      "priority": 4
+    },
+    {
+      "slug": "tile-grout-cleaning",
+      "display_name": "Tile & Grout Cleaning",
+      "short_name": "Tile & Grout",
+      "primary_intent": "local_specialty",
+      "secondary_keywords": [
+        "grout cleaning",
+        "tile cleaning",
+        "grout sealing",
+        "grout restoration",
+        "floor tile cleaning"
+      ],
+      "tier": "adjacent",
+      "priority": 4
+    },
+    {
+      "slug": "fabric-protection",
+      "display_name": "Fabric Protection",
+      "short_name": "Fabric Protection",
+      "primary_intent": "local_specialty",
+      "secondary_keywords": [
+        "carpet protection",
+        "upholstery protection",
+        "stain guard",
+        "scotchgard application",
+        "fabric stain protection"
+      ],
+      "tier": "adjacent",
+      "priority": 5
+    },
+    {
+      "slug": "junk-debris-removal",
+      "display_name": "Junk & Debris Removal",
+      "short_name": "Junk Removal",
+      "primary_intent": "local_specialty",
+      "secondary_keywords": [
+        "junk removal",
+        "debris removal",
+        "house cleanout",
+        "garage cleanout",
+        "hauling services"
+      ],
+      "tier": "adjacent",
+      "priority": 5
     },
     {
       "slug": "new-construction",

@@ -1,0 +1,104 @@
+{
+  "_comment": "Industry config for HVAC companies (heating, cooling, air quality).",
+  "industry": "hvac",
+  "rsa_label": "HVAC company",
+  "rsa_guidance": "Emphasize NATE certification, licensed & insured, seasonal urgency (no AC in summer / no heat in winter), energy efficiency savings, manufacturer warranty, and same-day service. Comfort and safety are the top conversion levers.",
+  "service_labels": {
+    "ac-repair": "AC Repair",
+    "ac-installation": "AC Installation",
+    "ac-maintenance": "AC Maintenance",
+    "ac-replacement": "AC Replacement",
+    "furnace-repair": "Furnace Repair",
+    "furnace-installation": "Furnace Installation",
+    "furnace-replacement": "Furnace Replacement",
+    "heat-pump-repair": "Heat Pump Repair",
+    "heat-pump-installation": "Heat Pump Installation",
+    "hvac-maintenance": "HVAC Tune-Up",
+    "hvac-installation": "HVAC Installation",
+    "air-duct-cleaning": "Air Duct Cleaning",
+    "air-duct-repair": "Air Duct Repair",
+    "indoor-air-quality": "Indoor Air Quality",
+    "humidifier-installation": "Humidifier Installation",
+    "dehumidifier-installation": "Dehumidifier Installation",
+    "thermostat-installation": "Smart Thermostat",
+    "mini-split-installation": "Mini-Split Installation",
+    "boiler-repair": "Boiler Repair",
+    "boiler-installation": "Boiler Installation",
+    "emergency-hvac": "Emergency HVAC"
+  },
+  "service_groups": [
+    {"name": "Cooling", "services": ["ac-repair", "ac-installation", "ac-maintenance", "ac-replacement", "mini-split-installation"]},
+    {"name": "Heating", "services": ["furnace-repair", "furnace-installation", "furnace-replacement", "heat-pump-repair", "heat-pump-installation", "boiler-repair", "boiler-installation"]},
+    {"name": "Indoor Air Quality", "services": ["air-duct-cleaning", "air-duct-repair", "indoor-air-quality", "humidifier-installation", "dehumidifier-installation"]},
+    {"name": "Service and Maintenance", "services": ["hvac-maintenance", "hvac-installation", "thermostat-installation", "emergency-hvac"]}
+  ],
+  "lp_body_content": {
+    "city": {
+      "heading": "Why a Broken HVAC Can't Wait",
+      "intro": "A failing heating or cooling system isn't just uncomfortable — it can become dangerous during extreme weather. The longer a fault goes unaddressed, the more it stresses the rest of the system and drives up repair costs.",
+      "bullets": [
+        "In summer: a failing AC can push indoor temps above 90°F, dangerous for children and the elderly",
+        "In winter: a broken furnace in freezing temperatures risks frozen pipes and structural damage",
+        "Running a struggling system: forces the compressor or heat exchanger to work harder, shortening its life",
+        "Delaying a small repair: often leads to a full system replacement that could have been avoided"
+      ],
+      "callout": null
+    },
+    "cost": {
+      "heading": "What Does {service} Cost?",
+      "intro": "HVAC repair and installation costs vary by system type, age, and the scope of work. The best way to get an accurate number is a free diagnostic visit — we assess before we quote.",
+      "bullets": [
+        "System age: older systems may cost more to repair than to replace with a high-efficiency unit",
+        "Part availability: common parts are stocked on our trucks for same-day repair",
+        "Energy savings: a new high-efficiency system can reduce your utility bill by 20–40%",
+        "Financing: we offer 0% financing options for installations — ask during your free estimate"
+      ],
+      "callout": "We provide a written upfront quote before any work begins. No surprise invoices."
+    },
+    "company": {
+      "heading": "Why Choose Us?",
+      "intro": "Not all HVAC companies are the same. Here's what sets us apart.",
+      "bullets": [
+        "NATE Certified: our technicians hold the industry's highest certification standard",
+        "Licensed & Insured: fully licensed HVAC contractor with liability and workers' comp on every job",
+        "Local & Family-Owned: we serve this community — your neighbors call us too",
+        "All Brands: we service and install all major HVAC brands, no brand lock-in"
+      ],
+      "callout": null
+    },
+    "free-estimate": {
+      "heading": "What Happens During a Free Estimate?",
+      "intro": "Our free diagnostic visit is a no-obligation, on-site evaluation by a certified HVAC technician. You'll know exactly what's wrong and what it will cost before committing to anything.",
+      "bullets": [
+        "We diagnose the root cause — not just the symptom",
+        "We check refrigerant levels, electrical components, and airflow",
+        "We give you honest repair-vs-replace guidance based on system age and efficiency",
+        "We provide a written quote on the spot — no pressure, no obligation"
+      ],
+      "callout": "The diagnostic visit is completely free. If you choose to move forward, we can often fix it the same day."
+    },
+    "insurance": {
+      "heading": "Does Insurance or a Home Warranty Cover HVAC Repairs?",
+      "intro": "Homeowner's insurance typically covers HVAC damage caused by a covered peril (fire, flooding, lightning). Home warranties often cover mechanical breakdowns. We work with both.",
+      "bullets": [
+        "Insurance claims: we document the damage and provide the report your adjuster needs",
+        "Home warranties: we work with most major home warranty providers",
+        "Manufacturer warranty: we honor and process manufacturer warranties on parts and units",
+        "Financing: for costs not covered, we offer flexible payment options"
+      ],
+      "callout": "Ask us about your coverage options when you call — we'll help you understand what applies."
+    },
+    "removal": {
+      "heading": "How {service} Replacement Works",
+      "intro": "Our certified technicians handle the full replacement process — old unit removal, new installation, and system commissioning — in a single visit.",
+      "bullets": [
+        "Free on-site assessment — measure the space, evaluate ductwork, recommend system size",
+        "Old unit removal — safe refrigerant recovery and responsible disposal",
+        "New installation — factory-spec mounting, electrical connection, refrigerant charge",
+        "System commissioning — test all modes, calibrate thermostat, verify airflow",
+        "Permit pulled if required — we handle the paperwork"
+      ],
+      "callout": null
+    }
+  }
+}

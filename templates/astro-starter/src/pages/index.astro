@@ -9,9 +9,10 @@ import TrustStrip from "~/components/ui/TrustStrip.astro";
 import AboutSection from "~/components/ui/AboutSection.astro";
 import ServicesStrip from "~/components/ui/ServicesStrip.astro";
 import ProcessSection from "~/components/ui/ProcessSection.astro";
-import GallerySection from "~/components/ui/GallerySection.astro";
+import BeforeAfterSection from "~/components/ui/BeforeAfterSection.astro";
 import ServiceAreasSection from "~/components/ui/ServiceAreasSection.astro";
 import { brand } from "~/lib/brand";
+import { workPairs } from "~/data/work";
 
 const entry = await getEntry("pages", "home");
 if (!entry) throw new Error("Missing content: pages/home.md — has Skill 3 rendered yet?");
@@ -49,7 +50,7 @@ const services = (allServices as CollectionEntry<"services">[])
 
   <ProcessSection />
 
-  <GallerySection />
+  <BeforeAfterSection pairs={workPairs} />
 
   <CtaBanner heading="24/7 Emergency Response" subheading="We answer the phone day and night. Insurance billing accepted." />
 

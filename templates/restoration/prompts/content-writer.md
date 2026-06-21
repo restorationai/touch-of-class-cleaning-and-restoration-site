@@ -39,6 +39,10 @@ You are writing for a stressed homeowner or property manager who searched the pr
 
 Lead with the answer, not throat-clearing. Use specific facts (numbers, timeframes, specific equipment, specific code references when relevant). Vary sentence length. No corporate filler.
 
+**Write for answer engines, not just Google.** This post should be quotable verbatim by ChatGPT, Perplexity, and Google AI Overviews. Those systems lift self-contained passages that directly answer a question. So: make each section's first sentence a complete, standalone answer that makes sense pulled out of context. Don't bury the answer mid-paragraph or make it depend on the sentence before it.
+
+**Reading level — write for a stressed 8th-grader.** Most sentences under 20 words. Active voice. Common words over jargon (define the jargon the one time you need it: "Category 3 water, also called black water, ..."). Short paragraphs (2-4 sentences). This is not dumbing down — it's how you stay extractable and skimmable for someone in a crisis.
+
 **Content-differentiation requirements (see `docs/content-differentiation.md` — these are MANDATORY):**
 
 For every blog post:
@@ -73,22 +77,48 @@ Avoid:
 For most informational posts (1200-1600 words):
 
 ```
-{Opening paragraph — 80-120 words, answers the headline question directly}
+**TL;DR:** {50-80 words. A self-contained summary that directly answers the primary keyword.
+This is the block an AI Overview is most likely to quote — it must stand completely on its
+own, with no reference to "this post" or "below". Plain prose, one short paragraph.}
 
-## {First H2 — usually "The short answer" or scenario-specific}
-{1-2 paragraphs}
+{Opening paragraph — 80-120 words — the scenario-specific hook (per the differentiation
+rules above): name the exact situation the reader is in, then start answering it.}
 
-## {Second H2 — process / steps / criteria}
-{2-3 paragraphs OR a numbered/bulleted list with prose around it}
+## {H2 phrased as the question the reader is actually typing}
+{Answer Capsule: the FIRST paragraph is a direct 30-60 word answer to that H2 question —
+complete and standalone. Then 1-2 supporting paragraphs with the specifics.}
 
-## {Third H2 — what to watch out for / common mistakes / nuance}
-{2-3 paragraphs}
+## {Second H2 — phrased as a question: process / steps / criteria}
+{Answer capsule first, then 2-3 paragraphs OR a numbered/bulleted list with prose around it}
 
-## {Fourth H2 — practical guidance / what to do next}
-{1-2 paragraphs, ends with a soft action — calling for an assessment, getting a written scope, etc.}
+## {Third H2 — phrased as a question: what to watch out for / common mistakes / nuance}
+{Answer capsule first, then 2-3 paragraphs}
+
+## {Fourth H2 — phrased as a question: what to do next}
+{Answer capsule first, then 1-2 paragraphs, ends with a soft action — booking an assessment,
+getting a written scope, etc.}
 
 {Closing 2-3 sentence paragraph — no heading — that points toward the client's relevant service if natural}
+
+---
+
+**About {brand.display_name}**
+
+{60-90 word author bio written in third person about the BUSINESS as the author. Establish
+real E-E-A-T from the client context block only — never invent credentials. Pull from what's
+available: IICRC certification, license number, founded year, primary city/state, years in
+business. Example shape: "{brand.display_name} is an IICRC-certified restoration company
+serving {primary_city}, {primary_state} since {founded_year} (license {license}). Their crews
+handle water, fire, and mold losses across the region..." Use only fields that are actually
+present in the context; drop any that are empty rather than fabricating.}
 ```
+
+**Answer Capsule rule (applies to most H2s):** At least 60% of your H2 headings should be
+phrased as the question a homeowner would ask ("How long does water damage take to dry?",
+"Will insurance cover a slow leak?"), and the paragraph immediately under each must be a
+direct 30-60 word answer to it. Never prefix the answer with a label like "The short answer:"
+or "In brief:" — the structure carries it. This is the highest-leverage thing in the post for
+ranking in AI Overviews and featured snippets, so don't skip it.
 
 For commercial-intent posts (1000-1300 words), shorten the body and add a stronger CTA. For very long-tail informational, 800-1000 words is fine.
 

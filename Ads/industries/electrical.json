@@ -1,0 +1,103 @@
+{
+  "_comment": "Industry config for licensed electrical contractors.",
+  "industry": "electrical",
+  "rsa_label": "licensed electrician",
+  "rsa_guidance": "Lead with safety, licensed/bonded/insured, code compliance, and permit-pulled work. Electrical work has high perceived risk — credentials and safety messaging are the top conversion levers. Urgency is relevant for electrical emergencies (no power, sparking outlets, burning smell).",
+  "service_labels": {
+    "panel-upgrade": "Panel Upgrade",
+    "electrical-repair": "Electrical Repair",
+    "outlet-repair": "Outlet Repair",
+    "outlet-installation": "Outlet Installation",
+    "wiring-repair": "Wiring Repair",
+    "rewiring": "Home Rewiring",
+    "ev-charger-installation": "EV Charger Installation",
+    "generator-installation": "Generator Installation",
+    "generator-repair": "Generator Repair",
+    "smoke-detector-installation": "Smoke Detector",
+    "ceiling-fan-installation": "Ceiling Fan Installation",
+    "lighting-installation": "Lighting Installation",
+    "led-upgrade": "LED Upgrade",
+    "surge-protection": "Surge Protection",
+    "gfci-installation": "GFCI Installation",
+    "electrical-inspection": "Electrical Inspection",
+    "emergency-electrical": "Emergency Electrical",
+    "commercial-electrical": "Commercial Electrical",
+    "solar-installation": "Solar Installation"
+  },
+  "service_groups": [
+    {"name": "Emergency and Safety", "services": ["emergency-electrical", "electrical-repair", "wiring-repair", "smoke-detector-installation", "gfci-installation", "surge-protection"]},
+    {"name": "Panel and Wiring", "services": ["panel-upgrade", "rewiring", "outlet-repair", "outlet-installation"]},
+    {"name": "Installation", "services": ["ev-charger-installation", "generator-installation", "ceiling-fan-installation", "lighting-installation", "led-upgrade", "solar-installation"]},
+    {"name": "Inspection and Commercial", "services": ["electrical-inspection", "commercial-electrical", "generator-repair"]}
+  ],
+  "lp_body_content": {
+    "city": {
+      "heading": "Electrical Problems Are a Safety Issue — Don't Wait",
+      "intro": "Faulty wiring and electrical faults are the leading cause of house fires in the US. What looks like a minor issue — a flickering light, a warm outlet — can be a serious hazard. Licensed electricians catch these before they become emergencies.",
+      "bullets": [
+        "Sparking or warm outlets: a sign of loose connections or overloaded circuits",
+        "Flickering lights: often indicates wiring issues or a failing panel",
+        "Burning smell near outlets: a fire hazard — turn off the breaker and call immediately",
+        "Tripping breakers: repeated trips mean the circuit is overloaded or there's a fault"
+      ],
+      "callout": null
+    },
+    "cost": {
+      "heading": "What Does {service} Cost?",
+      "intro": "Electrical costs vary by job complexity, panel size, and whether permits are required. We provide a written upfront quote before any work starts — no surprise invoices.",
+      "bullets": [
+        "Panel upgrades: cost depends on amp capacity and whether new wiring runs are needed",
+        "Permits: we pull all required permits — factored into the quote upfront",
+        "Code compliance: older homes often need code updates alongside the primary job",
+        "EV chargers and generators: eligible for federal and state tax credits that reduce net cost"
+      ],
+      "callout": "We provide a written upfront estimate before any work begins. Permits included, no hidden fees."
+    },
+    "company": {
+      "heading": "Why Choose Us?",
+      "intro": "Electrical work is not the place to cut corners. Here's why homeowners and businesses trust us.",
+      "bullets": [
+        "Licensed & Bonded: fully licensed electrical contractor — license number available on request",
+        "Insured: general liability and workers' comp on every job",
+        "Code-Compliant: all work meets or exceeds local and national electrical code (NEC)",
+        "Permit-Pulled: we handle all permits so your work is on record and your insurance stays valid"
+      ],
+      "callout": null
+    },
+    "free-estimate": {
+      "heading": "What Happens During a Free Estimate?",
+      "intro": "Our licensed electricians assess the job on-site and give you a written quote before any work starts. No obligation, no pressure.",
+      "bullets": [
+        "We inspect the area and identify all work required — no hidden scope",
+        "We check for code compliance issues that may affect the job",
+        "We explain permit requirements and factor them into the quote",
+        "You get a written estimate with a clear breakdown — decide on your own timeline"
+      ],
+      "callout": "The estimate is completely free. If you move forward, most jobs can be scheduled within 1–2 days."
+    },
+    "insurance": {
+      "heading": "Does Insurance Cover Electrical Repairs?",
+      "intro": "Homeowner's insurance typically covers electrical damage caused by a covered event (fire, storm, power surge). Work done without a permit may void your coverage — we always pull permits.",
+      "bullets": [
+        "Storm damage: lightning-related electrical damage is usually covered under homeowner's policies",
+        "Fire damage: electrical fire repair is typically covered — we document the damage for your adjuster",
+        "Permit records: all our work is on record, which protects your insurance coverage",
+        "Tax credits: EV charger and solar installations may qualify for federal tax credits"
+      ],
+      "callout": "Ask us about documentation for your insurance claim — we provide the report your adjuster needs."
+    },
+    "removal": {
+      "heading": "How {service} Works",
+      "intro": "Our licensed electricians follow a code-compliant process from assessment to final inspection.",
+      "bullets": [
+        "On-site assessment — evaluate existing wiring, panel capacity, and permit requirements",
+        "Written quote — itemized breakdown before any work starts",
+        "Permit pulled — filed with the local authority before work begins",
+        "Installation — code-compliant work by licensed electricians",
+        "Inspection — we coordinate the final inspection with the local authority",
+        "Sign-off — permit closed, work is on record"
+      ],
+      "callout": null
+    }
+  }
+}
