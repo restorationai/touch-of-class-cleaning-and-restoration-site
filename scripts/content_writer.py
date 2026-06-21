@@ -197,6 +197,28 @@ def parse_llm_json(text: str) -> dict:
     return json.loads(text)
 
 
+def sanitize_content(obj):
+    """Deterministically strip em dashes from generated content.
+
+    The prompt forbids em dashes (brand voice rule: use commas, colons, or
+    parentheses instead), but a prompt instruction alone doesn't reliably hold —
+    the model still emits them. This walks every string in the parsed content dict
+    (title, meta_description, body_markdown, image_prompt, and each faq
+    question/answer) and replaces em dash / horizontal bar with a comma, so the
+    rule is enforced regardless of what the model returns.
+    """
+    if isinstance(obj, str):
+        s = re.sub(r"\s*[—―]\s*", ", ", obj)  # em dash / horizontal bar -> comma
+        s = re.sub(r"\s+,", ",", s)                      # " ," -> ","
+        s = re.sub(r",\s*,", ", ", s)                    # ",," / ", ," -> ", "
+        return s
+    if isinstance(obj, list):
+        return [sanitize_content(x) for x in obj]
+    if isinstance(obj, dict):
+        return {k: sanitize_content(v) for k, v in obj.items()}
+    return obj
+
+
 # ----------------------------------------------------------------------------
 # Gemini — hero image generation
 # ----------------------------------------------------------------------------
@@ -537,6 +559,7 @@ def cmd_next_post(args) -> int:
     except json.JSONDecodeError as e:
         print(f"      LLM returned non-JSON (first 300 chars):\n{raw[:300]}")
         raise RuntimeError(f"Content writer LLM output failed JSON parse: {e}")
+    content = sanitize_content(content)  # enforce no-em-dash rule deterministically
     body_len = len(content.get("body_markdown", ""))
     faq_count = len(content.get("faq", []))
     print(f"      Body: {body_len} chars, FAQ: {faq_count} items, "
