@@ -357,7 +357,7 @@ aftermarket
 ---
 
 
-### B.6 Restoration — DIY / self-treatment / product-shopping / symptoms (42 terms)
+### B.6 Restoration — DIY / self-treatment / product-shopping / symptoms (46 terms)
 
 **Restoration clients: ALWAYS include.** Water/fire/mold keywords attract a flood of
 homeowner-DIY, product-shopping, and symptom/research queries — people who want to fix
@@ -409,6 +409,10 @@ mildew vs mold
 types of mold
 what does mold look like
 best mold killer
+mold detection kit
+rmr 86
+public adjuster
+fire department
 ```
 
 

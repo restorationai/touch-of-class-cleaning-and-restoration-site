@@ -1793,7 +1793,10 @@ def cmd_angle_rsas(slug: str) -> int:
 
 
 def _parse_negative_terms() -> list:
-    """Universal (Section A) + trades (B.1) negatives from the spec file."""
+    """Universal (Section A) + trades (B.1) + restoration DIY/product/symptoms (B.6)
+    negatives from the spec file. B.6 is mandatory for restoration clients (every Rank
+    AI client is one) — it blocks the homeowner-DIY / product-shopping / symptom queries
+    that water/fire/mold keywords flood in, which Section A's generic DIY list misses."""
     spec = (REPO_ROOT / "Ads" / "universal-negative-keywords.md").read_text()
     def block_terms(start, end):
         s = spec.index(start); e = spec.index(end, s)
@@ -1805,7 +1808,9 @@ def _parse_negative_terms() -> list:
                 terms.append(line.strip().lower())
         return terms
     out, seen = [], set()
-    for t in block_terms("## A. Universal", "## B. Industry") + block_terms("### B.1", "### B.2"):
+    for t in (block_terms("## A. Universal", "## B. Industry")
+              + block_terms("### B.1", "### B.2")
+              + block_terms("### B.6", "## C. Geographic")):
         if t not in seen:
             seen.add(t); out.append(t)
     return out
