@@ -7,6 +7,21 @@ entry after any change.**
 
 <!-- entries below, newest first -->
 
+## 2026-06-22 22:00Z · action · —
+Added competitor negatives: 18 national restoration brands (servpro, servicemaster, belfor, puroclean, restoration 1, first onsite, ati restoration, etc.) now in the UNIVERSAL list (D.1, auto-applied) + local 'total restore' per-client. All 3 SKAGs now ~251-256 negatives. NOTE: a future Competitor Conquest campaign must have 'conquest' in its name — apply-negatives skips those so it can bid on competitor brands. Also FIXED a bug: apply-negatives was crashing on the LSA campaign (LSA rejects keyword negatives) which aborted the whole run — now targets SEARCH campaigns only + is resilient per-campaign. — _santino_
+
+## 2026-06-22 21:59Z · apply-negatives · —
+Applied the universal negative-keyword list. — _santino_
+
+## 2026-06-22 21:58Z · add-negatives · customers/3832550597/campaigns/23934073908
+Added campaign negatives: total restore — _santino_
+
+## 2026-06-22 21:58Z · add-negatives · customers/3832550597/campaigns/23939263802
+Added campaign negatives: total restore — _santino_
+
+## 2026-06-22 21:58Z · add-negatives · customers/3832550597/campaigns/23943830377
+Added campaign negatives: total restore — _santino_
+
 ## 2026-06-22 21:32Z · action · —
 GET-CLICKS push (2026-06-22): (1) Removed the halted 'A/C LP' Water experiment — its trial campaign couldn't be paused (CANNOT_MODIFY_FOR_TRIAL); base Water is now the sole Water campaign. (2) All 3 SKAGs → Maximize Clicks (Mold was wrongly on Max Conversions with 0 data → underbidding), max-CPC cap $45→$80. (3) Budgets: Water $150→$250, Fire $100→$150, Mold $75→$150 (~$550/day ceiling). (4) BUG FIXED: apply-negatives only pulled Section A + B.1 — never B.6 — so restoration DIY/product/symptom negatives were NEVER applied to any client. Now includes B.6; pushed 224-229 negatives/SKAG. Added public adjuster, fire department, rmr 86, mold detection kit to B.6. MONITOR spend 48-72h; do not graduate to Max Conversions until 15-30 conv. — _santino_
 

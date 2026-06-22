@@ -1810,7 +1810,8 @@ def _parse_negative_terms() -> list:
     out, seen = [], set()
     for t in (block_terms("## A. Universal", "## B. Industry")
               + block_terms("### B.1", "### B.2")
-              + block_terms("### B.6", "## C. Geographic")):
+              + block_terms("### B.6", "## C. Geographic")
+              + block_terms("### D.1", "### D.2")):  # national restoration competitors
         if t not in seen:
             seen.add(t); out.append(t)
     return out
@@ -1824,21 +1825,33 @@ def cmd_apply_negatives(slug: str) -> int:
     client = build_ads_client(slug)
     master = _parse_negative_terms()
     ga = client.get_service("GoogleAdsService")
-    campaigns = [(r.campaign.id, r.campaign.resource_name) for r in ga.search(
+    # Only SEARCH campaigns take keyword negatives — LOCAL_SERVICES (LSA), Performance Max,
+    # etc. reject them with OPERATION_NOT_PERMITTED_FOR_CONTEXT and would abort the batch.
+    campaigns = [(r.campaign.id, r.campaign.resource_name, r.campaign.name) for r in ga.search(
         customer_id=customer_id,
-        query="SELECT campaign.id, campaign.resource_name FROM campaign WHERE campaign.status != 'REMOVED'")]
+        query="SELECT campaign.id, campaign.resource_name, campaign.name FROM campaign "
+              "WHERE campaign.status != 'REMOVED' AND campaign.advertising_channel_type = 'SEARCH'")]
+    # Skip dedicated Competitor Conquest campaigns — they intentionally bid on competitor
+    # brands, so we must NOT push the national-competitor negatives (D.1) onto them.
+    conquest = [c for c in campaigns if "conquest" in c[2].lower()]
+    campaigns = [c for c in campaigns if "conquest" not in c[2].lower()]
+    if conquest:
+        print(f"  (skipping {len(conquest)} Conquest campaign(s): {', '.join(c[2] for c in conquest)})")
     total = 0
-    for cid, res in campaigns:
+    for cid, res, name in campaigns:
         existing = {r.campaign_criterion.keyword.text.lower() for r in ga.search(
             customer_id=customer_id,
             query=f"SELECT campaign_criterion.keyword.text FROM campaign_criterion "
                   f"WHERE campaign.id = {cid} AND campaign_criterion.negative = true "
                   f"AND campaign_criterion.type = 'KEYWORD'")}
         new_terms = [t for t in master if t not in existing]
-        for i in range(0, len(new_terms), 100):
-            add_campaign_negatives(client, customer_id, res, new_terms[i:i+100])
-        total += len(new_terms)
-    print(f"==> Applied {total} negatives across {len(campaigns)} campaigns ({len(master)}-term list)")
+        try:
+            for i in range(0, len(new_terms), 100):
+                add_campaign_negatives(client, customer_id, res, new_terms[i:i+100])
+            total += len(new_terms)
+        except Exception as e:  # don't let one campaign abort the rest
+            print(f"  ! skipped {name[:40]}: {str(e)[:90]}")
+    print(f"==> Applied {total} negatives across {len(campaigns)} search campaigns ({len(master)}-term list)")
     return 0
 
 

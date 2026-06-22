@@ -478,17 +478,42 @@ You **do** want to add them as **negatives on every other campaign except your d
 "Competitor Conquest" campaign**, so the queries route to the right ads.
 
 
-If you don't run a Conquest campaign yet, add the top 5-10 local competitors as broad
-negatives at the account level to avoid wasting brand-mismatched clicks:
+If you don't run a Conquest campaign yet, add competitors as negatives so you don't
+waste brand-mismatched clicks. Split into two tiers:
 
+### D.1 National restoration competitors (universal — auto-applied)
+
+These big franchises/nationals compete with **every** restoration client, so they're part
+of the universal auto-applied list. `apply-negatives` pushes them to all campaigns **except
+any campaign with "conquest" in its name** — so when you launch a dedicated Competitor
+Conquest campaign, name it accordingly and it will be left free to bid on these brands.
 
 ```
-[competitor 1]
-[competitor 2]
-[competitor 3]
-[competitor 4]
-[competitor 5]
+servpro
+servicemaster
+servicemaster restore
+service master
+belfor
+puroclean
+restoration 1
+911 restoration
+rainbow restoration
+rainbow international
+paul davis
+dki restoration
+first onsite
+interstate restoration
+blackmon mooring
+bms cat
+jenkins restorations
+ati restoration
 ```
+
+### D.2 Local competitors (per-client — NOT universal)
+
+Local/regional competitors differ by client, so they are NOT in the universal list. Add
+them to that client's SKAGs with `ads_manager.py add-negatives --slug {slug} --campaign
+{res} --keywords "..."`. Examples seen for narestco: `total restore`, `ati restoration`.
 
 
 ---
