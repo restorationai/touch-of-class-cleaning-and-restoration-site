@@ -315,10 +315,10 @@
     },
     {
       "id": "2026-05-30-fire-damage-restoration-cost-per-square-foot",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-05-30T00:00:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-06-22T19:43:12Z",
+      "post_url": "https://narestco.com/blog/fire-damage-restoration-cost-per-square-foot/",
       "primary_keyword": "fire damage restoration cost per square foot",
       "intent": "informational",
       "volume": null,
