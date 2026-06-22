@@ -35,9 +35,10 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import sys
 import urllib.request
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).resolve().parent
@@ -118,6 +119,99 @@ def save_structure(slug: str, structure: dict) -> None:
     path = structure_path(slug)
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(structure, indent=2))
+
+
+# ---------------------------------------------------------------------------
+# Per-client ads journal — a running ops log of every change + decision.
+# Read it before touching the account; an entry is auto-appended after every
+# change command, and humans/agents can add freeform notes via `note --add`.
+# ---------------------------------------------------------------------------
+JOURNAL_MARKER = "<!-- entries below, newest first -->"
+
+
+def journal_path(slug: str) -> Path:
+    return CLIENTS_DIR / slug / "ads-journal.md"
+
+
+def _journal_header(slug: str) -> str:
+    name = load_client(slug).get("display_name", slug)
+    return (
+        f"# Ads Journal — {name} ({slug})\n\n"
+        "Running log of every change + decision on this client's Google Ads. Newest first.\n"
+        "Auto-appended by ads_manager.py change commands (budget / bid / pause / enable /\n"
+        "negatives) and by `note --add`. **Read this before touching the account; add an\n"
+        "entry after any change.**\n\n"
+        f"{JOURNAL_MARKER}\n"
+    )
+
+
+def append_journal(slug: str, text: str, *, kind: str = "note",
+                   campaign: str | None = None, author: str = "operator") -> Path:
+    """Prepend a dated entry to the client's ads journal (newest first)."""
+    path = journal_path(slug)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%MZ")
+    entry = f"## {stamp} · {kind} · {campaign or '—'}\n{text.strip()} — _{author}_\n\n"
+    if path.exists() and JOURNAL_MARKER in path.read_text():
+        content = path.read_text()
+        head, rest = content.split(JOURNAL_MARKER, 1)
+        content = head + JOURNAL_MARKER + "\n\n" + entry + rest.lstrip("\n")
+    else:
+        content = _journal_header(slug) + "\n" + entry
+    path.write_text(content)
+    return path
+
+
+def read_journal(slug: str, limit: int = 12) -> list[str]:
+    """Return the most-recent journal entries (each a multi-line '## ...' block)."""
+    path = journal_path(slug)
+    if not path.exists():
+        return []
+    content = path.read_text()
+    body = content.split(JOURNAL_MARKER, 1)[-1] if JOURNAL_MARKER in content else content
+    blocks = [b.strip() for b in re.split(r"(?m)^(?=## )", body.strip()) if b.strip().startswith("## ")]
+    return blocks[:limit]
+
+
+def print_journal_brief(slug: str, n: int = 6) -> None:
+    """Print the latest journal entries — shown at the top of `report`."""
+    entries = read_journal(slug, limit=n)
+    if not entries:
+        print(f"  📓 No ads journal yet for {slug}. Start one:")
+        print(f"     ads_manager.py note --slug {slug} --add \"...\"\n")
+        return
+    print(f"\n  📓 ADS JOURNAL — last {len(entries)} (read before changing anything)")
+    print(f"  {'-'*64}")
+    for e in entries:
+        for line in e.splitlines():
+            print(f"  {line}")
+    print(f"  {'-'*64}")
+
+
+# Commands that mutate the live account → auto-logged to the journal on success.
+CHANGE_CMDS = {"set-budget", "set-bid-strategy", "pause", "enable",
+               "add-keywords", "add-negatives", "apply-negatives"}
+
+
+def _describe_change(args) -> str:
+    """Human-readable one-liner for a change command, for the journal entry."""
+    c = args.cmd
+    if c == "set-budget":
+        return f"Set daily budget to ${args.daily_budget:.2f}."
+    if c == "set-bid-strategy":
+        tail = f" (max-CPC ${args.max_cpc:.2f}/click)" if getattr(args, "max_cpc", None) else ""
+        return f"Set bid strategy → {args.strategy}{tail}."
+    if c == "pause":
+        return f"Paused {args.resource}."
+    if c == "enable":
+        return f"Enabled {args.resource}."
+    if c == "add-keywords":
+        return f"Added keywords to ad group {args.ad_group}: {args.keywords}"
+    if c == "add-negatives":
+        return f"Added campaign negatives: {args.keywords}"
+    if c == "apply-negatives":
+        return "Applied the universal negative-keyword list."
+    return f"Ran {c}."
 
 
 # ---------------------------------------------------------------------------
@@ -279,10 +373,33 @@ def cmd_list_campaigns(slug: str) -> int:
 # Performance report
 # ---------------------------------------------------------------------------
 
+def cmd_note(slug: str, add: str | None = None, campaign: str | None = None,
+             kind: str = "note", limit: int = 12) -> int:
+    """Append a note to (or read) the client's ads journal."""
+    load_client(slug)  # validates the slug exists
+    if add:
+        author = os.environ.get("ADS_JOURNAL_AUTHOR", "operator")
+        path = append_journal(slug, add, kind=kind, campaign=campaign, author=author)
+        print(f"  ✓ logged to {path}")
+        return 0
+    entries = read_journal(slug, limit=limit)
+    if not entries:
+        print(f"  (no journal yet for {slug})")
+        print(f"  add one:  ads_manager.py note --slug {slug} --add \"...\"")
+        return 0
+    print(f"\n  📓 Ads journal — {slug}  (latest {len(entries)})\n")
+    for e in entries:
+        for line in e.splitlines():
+            print(f"  {line}")
+        print()
+    return 0
+
+
 def cmd_report(slug: str, days: int = 30) -> int:
     client_rec = load_client(slug)
     customer_id = get_customer_id(client_rec, slug)
     client = build_ads_client(slug)
+    print_journal_brief(slug)
 
     end = date.today()
     start = end - timedelta(days=days - 1)
@@ -1765,6 +1882,13 @@ def main() -> int:
     p.add_argument("--slug", required=True)
     p.add_argument("--days", type=int, default=30)
 
+    p = sub.add_parser("note", help="Read or append the client's ads journal")
+    p.add_argument("--slug", required=True)
+    p.add_argument("--add", help="Append this note (omit to list recent entries)")
+    p.add_argument("--campaign", help="Optional campaign this note is about")
+    p.add_argument("--kind", default="note", help="Entry tag: note | watch | budget | bid | etc.")
+    p.add_argument("--limit", type=int, default=12, help="How many recent entries to list")
+
     p = sub.add_parser("pause")
     p.add_argument("--slug", required=True)
     p.add_argument("--resource", required=True)
@@ -1823,6 +1947,8 @@ def main() -> int:
         "angle-rsas": lambda: cmd_angle_rsas(args.slug),
         "apply-negatives": lambda: cmd_apply_negatives(args.slug),
         "report": lambda: cmd_report(args.slug, days=args.days),
+        "note": lambda: cmd_note(args.slug, add=args.add, campaign=args.campaign,
+                                 kind=args.kind, limit=args.limit),
         "pause": lambda: cmd_pause_or_enable(args.slug, args.resource, "pause"),
         "enable": lambda: cmd_pause_or_enable(args.slug, args.resource, "enable"),
         "set-budget": lambda: cmd_set_budget(args.slug, args.campaign, args.daily_budget),
@@ -1840,11 +1966,24 @@ def main() -> int:
         ),
     }
 
-    if args.cmd in dispatch:
-        return dispatch[args.cmd]()
-    else:
+    if args.cmd not in dispatch:
         parser.print_help()
         return 1
+
+    rc = dispatch[args.cmd]()
+
+    # Auto-log every successful change command to the client's ads journal, so the
+    # record of "what we did" builds itself even when a cron (not a human) acts.
+    if rc == 0 and args.cmd in CHANGE_CMDS:
+        try:
+            append_journal(
+                args.slug, _describe_change(args), kind=args.cmd,
+                campaign=getattr(args, "campaign", None) or getattr(args, "resource", None),
+                author=os.environ.get("ADS_JOURNAL_AUTHOR", "auto"),
+            )
+        except Exception as e:  # never let journaling break a real change
+            print(f"  (note: could not auto-log to ads journal: {e})")
+    return rc
 
 
 if __name__ == "__main__":

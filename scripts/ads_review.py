@@ -291,6 +291,14 @@ def render(rows: list[dict], when: str) -> str:
             L.append(f"  ERROR: {r['error']}\n"); continue
         cpc = f"${r['cost_per_conv']:.0f}/conv" if r["cost_per_conv"] else "no conversions"
         L.append(f"  7d: ${r['spend']:.0f} spend · {r['clicks']} clicks · {r['conv']:.0f} conv · {cpc}")
+        prior = am.read_journal(r["slug"], limit=2)
+        if prior:
+            L.append("  prior journal (what we were watching):")
+            for blk in prior:
+                ln = blk.splitlines()
+                hdr = ln[0].replace("## ", "")
+                txt = (ln[1][:88] + "…") if len(ln) > 1 and len(ln[1]) > 89 else (ln[1] if len(ln) > 1 else "")
+                L.append(f"    • {hdr} — {txt}")
         summary = r.get("summary")
         if summary:
             L += ["", "  " + summary.replace("\n", "\n  "), ""]
@@ -362,6 +370,23 @@ def main() -> int:
     flagged = sum(1 for r in rows if r.get("ok") and r.get("flags"))
     send_email(f"Rank AI ads review — {len(slugs)} clients, {flagged} need attention ({when})",
                report, args.dry_run)
+
+    # Append this week's outcome to each client's ads journal (real runs only, so
+    # dry-run vetting doesn't pollute the log). This is how the cron leaves a trail
+    # of "what to look at next time" — read back at the top of the next review/report.
+    if args.apply:
+        for r in rows:
+            if not r.get("ok"):
+                continue
+            cpc = f"${r['cost_per_conv']:.0f}/conv" if r["cost_per_conv"] else "no conv"
+            line = (f"Weekly review: ${r['spend']:.0f} / {r['clicks']} clicks / "
+                    f"{r['conv']:.0f} conv ({cpc}). Auto-negated {len(r.get('applied', []))} junk term(s).")
+            if r.get("flags"):
+                line += " Flags: " + "; ".join(r["flags"][:2]) + "."
+            try:
+                am.append_journal(r["slug"], line, kind="review", author="ads-review-cron")
+            except Exception:
+                pass
     return 0
 
 
