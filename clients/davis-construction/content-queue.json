@@ -192,10 +192,10 @@
     },
     {
       "id": "2026-05-30-residential-fire-damage-restoration",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-05-30T00:00:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-06-22T19:26:54Z",
+      "post_url": "https://davisconstructioncontractors.com/blog/residential-fire-damage-restoration/",
       "primary_keyword": "residential fire damage restoration",
       "intent": "commercial",
       "volume": 70,
