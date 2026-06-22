@@ -1,0 +1,6 @@
+{
+  "keywords": [],
+  "seeds_researched": [],
+  "last_updated": null,
+  "notes": "2026-06-22: keyword research attempted for seed 'water damage restoration' but the DataForSEO MCP backend was unavailable, so no volume/KD/CPC metrics could be fetched. Per the no-fabrication rule, no keywords were banked (banking null-metric rows would cause the dedup pre-check to silently drop them on the next run that does have metrics). The fan-out, intent classification, and coverage analysis for this run are recorded in keywords/runs/2026-06-22-water-damage-restoration.csv. Seed intentionally NOT recorded in seeds_researched so it is re-picked on the next run once DataForSEO is restored."
+}

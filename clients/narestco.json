@@ -23,7 +23,7 @@
   },
   "status": "active",
   "created_at": "2026-05-10T03:18:58.761481+00:00",
-  "updated_at": "2026-06-18T17:47:38.092472+00:00",
+  "updated_at": "2026-06-22T19:46:30Z",
   "plan_status": "planned",
   "plan": {
     "template": "restoration",
@@ -39,17 +39,17 @@
     "url_count": 229,
     "pages_status": "created",
     "last_rendered_at": "2026-05-14T15:12:15.203970+00:00",
-    "last_pushed_main_at": "2026-06-18T17:47:38.092429+00:00",
+    "last_pushed_main_at": "2026-06-22T19:43:16.541493+00:00",
     "last_pushed_staging_at": "2026-05-17T15:50:41.961967+00:00"
   },
   "build_status": "pushed_main",
   "cut_over_at": "2026-05-17T22:11:55+00:00",
   "deploy_url": "https://narestco.com",
   "audit": {
-    "last_audit_at": "2026-05-17T23:25:01+00:00",
+    "last_audit_at": "2026-06-22T19:46:30Z",
     "last_audit_verdict": "amber",
-    "last_audit_report_path": "clients/narestco/audit-runs/2026-05-17-onsite-audit.md",
-    "last_audit_caveat": "Apex audit (post-cutover). True baseline. Next run will compute deltas.",
+    "last_audit_report_path": "clients/narestco/audit-runs/2026-06-22-onsite-audit.md",
+    "last_audit_caveat": "Apex audit. Stable vs 2026-05-17 baseline; one regression on /services/ (LCP 0.7s->1.4s, perf 100->95). Site-wide best_practices 77 and long titles persist.",
     "live_origin_audited": "https://narestco.com"
   },
   "apex_cutover": {

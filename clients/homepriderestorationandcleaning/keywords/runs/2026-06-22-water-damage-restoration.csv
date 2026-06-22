@@ -1,0 +1,36 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+ceiling water damage repair,transactional,,,,2,water damage restoration,,,no
+residential water damage restoration,transactional,,,,2,water damage restoration,,/services/water-damage-restoration/,no
+water damage inspection,transactional,,,,2,water damage restoration,,,no
+water damage restoration,transactional,,,,3,water damage restoration,,/services/water-damage-restoration/,no
+water damage restoration company,transactional,,,,3,water damage restoration,,/services/water-damage-restoration/,no
+water damage restoration near me,transactional,,,,3,water damage restoration,,/services/water-damage-restoration/,no
+water damage restoration services,transactional,,,,3,water damage restoration,,/services/water-damage-restoration/,no
+emergency water damage restoration,transactional,,,,3,water damage restoration,,/services/water-damage-restoration/,no
+24 hour water damage restoration,transactional,,,,3,water damage restoration,,/services/water-damage-restoration/,no
+water damage cleanup,transactional,,,,3,water damage restoration,,/services/water-damage-restoration/,no
+water damage repair,transactional,,,,3,water damage restoration,,/services/water-damage-restoration/,no
+water damage restoration saratoga springs,transactional,,,,3,water damage restoration,saratoga-springs-ut,/service-areas/saratoga-springs-ut/water-damage-restoration/,no
+water damage restoration in saratoga springs,transactional,,,,3,water damage restoration,saratoga-springs-ut,/service-areas/saratoga-springs-ut/water-damage-restoration/,no
+saratoga springs water damage restoration,transactional,,,,3,water damage restoration,saratoga-springs-ut,/service-areas/saratoga-springs-ut/water-damage-restoration/,no
+emergency water damage restoration saratoga springs,transactional,,,,3,water damage restoration,saratoga-springs-ut,/service-areas/saratoga-springs-ut/water-damage-restoration/,no
+water damage restoration lehi,transactional,,,,3,water damage restoration,lehi-ut,/service-areas/lehi-ut/water-damage-restoration/,no
+water damage cleanup lehi,transactional,,,,3,water damage restoration,lehi-ut,/service-areas/lehi-ut/water-damage-restoration/,no
+emergency water damage restoration lehi,transactional,,,,3,water damage restoration,lehi-ut,/service-areas/lehi-ut/water-damage-restoration/,no
+water damage restoration eagle mountain,transactional,,,,3,water damage restoration,eagle-mountain-ut,/service-areas/eagle-mountain-ut/water-damage-restoration/,no
+water damage restoration american fork,transactional,,,,3,water damage restoration,american-fork-ut,/service-areas/american-fork-ut/water-damage-restoration/,no
+water damage restoration provo,transactional,,,,3,water damage restoration,provo-ut,/service-areas/provo-ut/water-damage-restoration/,no
+water damage restoration orem,transactional,,,,3,water damage restoration,orem-ut,/service-areas/orem-ut/water-damage-restoration/,no
+commercial water damage restoration,transactional,,,,3,water damage restoration,,,no
+water damage restoration cost,commercial,,,,2,water damage restoration,,,no
+water damage restoration estimate,commercial,,,,2,water damage restoration,,,no
+best water damage restoration company,commercial,,,,3,water damage restoration,,/services/water-damage-restoration/,no
+how much does water damage restoration cost,informational,,,,2,water damage restoration,,,no
+water damage restoration process,informational,,,,2,water damage restoration,,,no
+water damage restoration insurance claim,informational,,,,2,water damage restoration,,,no
+what is water damage restoration,informational,,,,2,water damage restoration,,,no
+signs of water damage in walls,informational,,,,2,water damage restoration,,,no
+what to do after water damage,informational,,,,3,water damage restoration,,/blog/what-to-do-first-24-hours-water-damage/,no
+does insurance cover water damage restoration,informational,,,,3,water damage restoration,,/blog/does-homeowners-insurance-cover-water-damage/,no
+how long does water damage restoration take,informational,,,,3,water damage restoration,,/blog/how-long-does-water-damage-restoration-take/,no
+how quickly does mold grow after water damage,informational,,,,3,water damage restoration,,/blog/mold-after-water-damage/,no

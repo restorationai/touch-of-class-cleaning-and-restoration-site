@@ -23,7 +23,7 @@
   },
   "status": "active",
   "created_at": "2026-06-15T16:36:28.124334+00:00",
-  "updated_at": "2026-06-19T03:56:59+00:00",
+  "updated_at": "2026-06-22T19:40:00Z",
   "plan_status": "planned",
   "plan": {
     "template": "restoration",
@@ -50,5 +50,10 @@
     "verified_at": "2026-06-19T03:56:59+00:00",
     "sitemap_url": "https://homepriderestorationandcleaning.com/sitemap-index.xml"
   },
-  "company_id": "CO-1780333664867"
+  "company_id": "CO-1780333664867",
+  "audit": {
+    "last_audit_at": "2026-06-22T19:40:00Z",
+    "last_audit_verdict": "amber",
+    "last_audit_report_path": "audit-runs/2026-06-22-onsite-audit.md"
+  }
 }
