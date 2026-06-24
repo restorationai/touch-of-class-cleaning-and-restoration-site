@@ -42,6 +42,14 @@ PROVIDERS = {
     "youtube": "YouTube channel",
 }
 
+# Redirect origins that are registered as Authorized redirect URIs in the Google
+# OAuth client. The origin is embedded in the SIGNED token, and connect-link-start
+# re-checks it against the same allowlist, so it can't be tampered to an arbitrary host.
+ALLOWED_ORIGINS = {
+    "https://app.restorationai.io",   # production
+    "http://localhost:5173",          # local dev (npm run dev)
+}
+
 
 def _b64url(b: bytes) -> str:
     return base64.urlsafe_b64encode(b).rstrip(b"=").decode()
@@ -68,7 +76,14 @@ def main() -> int:
     ap.add_argument("--provider", required=True, choices=sorted(PROVIDERS))
     ap.add_argument("--days", type=int, default=30, help="link validity window")
     ap.add_argument("--label", default="", help="note stored in connect_links.created_by")
+    ap.add_argument("--origin", default="https://app.restorationai.io",
+                    help="redirect origin; use http://localhost:5173 to test locally first")
     args = ap.parse_args()
+
+    if args.origin not in ALLOWED_ORIGINS:
+        print(f"ERROR: --origin must be one of {sorted(ALLOWED_ORIGINS)} "
+              f"(must be an Authorized redirect URI in the Google OAuth client).", file=sys.stderr)
+        return 1
 
     url = os.environ.get("SUPABASE_URL")
     key = os.environ.get("SUPABASE_SERVICE_ROLE_KEY")
@@ -106,7 +121,7 @@ def main() -> int:
         return 1
 
     # 2) sign the token over base64url(payload)
-    payload = {"cid": company_id, "p": args.provider, "jti": jti, "exp": exp}
+    payload = {"cid": company_id, "p": args.provider, "jti": jti, "exp": exp, "o": args.origin}
     payload_b64 = _b64url(json.dumps(payload, separators=(",", ":")).encode())
     sig_b64 = _b64url(hmac.new(secret.encode(), payload_b64.encode(), hashlib.sha256).digest())
     token = f"{payload_b64}.{sig_b64}"
