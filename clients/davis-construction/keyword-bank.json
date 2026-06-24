@@ -1,9 +1,19 @@
 {
   "slug": "davis-construction",
-  "last_updated": "2026-05-30",
+  "last_updated": "2026-06-23",
   "seeds_researched": [
-    {"seed": "water damage restoration", "last_researched": "2026-05-25"},
-    {"seed": "fire damage restoration", "last_researched": "2026-05-30"}
+    {
+      "seed": "water damage restoration",
+      "last_researched": "2026-05-25"
+    },
+    {
+      "seed": "fire damage restoration",
+      "last_researched": "2026-05-30"
+    },
+    {
+      "seed": "mold remediation",
+      "last_researched": "2026-06-23"
+    }
   ],
   "keywords": [
     {
@@ -917,6 +927,199 @@
       "covered_by": null,
       "discovered": "2026-05-30",
       "source": "geographic_fan_out"
+    },
+    {
+      "keyword": "mold remediation cost",
+      "seed": "mold remediation",
+      "intent": "informational",
+      "volume": 9900,
+      "kd": 8,
+      "cpc": 21.71,
+      "priority": 1,
+      "fan_out_parent": "mold remediation",
+      "city_modifier": null,
+      "covered_by": null,
+      "discovered": "2026-06-23",
+      "source": "dataforseo_labs_google_keyword_overview"
+    },
+    {
+      "keyword": "mold inspection cost",
+      "seed": "mold remediation",
+      "intent": "informational",
+      "volume": 5400,
+      "kd": null,
+      "cpc": 15.99,
+      "priority": 1,
+      "fan_out_parent": "mold remediation",
+      "city_modifier": null,
+      "covered_by": null,
+      "discovered": "2026-06-23",
+      "source": "dataforseo_labs_google_keyword_overview",
+      "notes": "KD null; competition LOW."
+    },
+    {
+      "keyword": "attic mold removal",
+      "seed": "mold remediation",
+      "intent": "informational",
+      "volume": 2400,
+      "kd": null,
+      "cpc": 24.93,
+      "priority": 1,
+      "fan_out_parent": "mold remediation",
+      "city_modifier": null,
+      "covered_by": null,
+      "discovered": "2026-06-23",
+      "source": "dataforseo_labs_google_keyword_overview",
+      "notes": "KD null; competition MEDIUM, CPC $25."
+    },
+    {
+      "keyword": "crawl space mold removal",
+      "seed": "mold remediation",
+      "intent": "commercial",
+      "volume": 1900,
+      "kd": null,
+      "cpc": 29.48,
+      "priority": 1,
+      "fan_out_parent": "mold remediation",
+      "city_modifier": null,
+      "covered_by": null,
+      "discovered": "2026-06-23",
+      "source": "dataforseo_labs_google_keyword_overview",
+      "notes": "KD null; MEDIUM comp, CPC $29. AL humid crawl spaces."
+    },
+    {
+      "keyword": "does insurance cover mold remediation",
+      "seed": "mold remediation",
+      "intent": "informational",
+      "volume": 880,
+      "kd": 22,
+      "cpc": 13.64,
+      "priority": 1,
+      "fan_out_parent": "mold remediation",
+      "city_modifier": null,
+      "covered_by": null,
+      "discovered": "2026-06-23",
+      "source": "dataforseo_labs_google_keyword_overview"
+    },
+    {
+      "keyword": "how much does mold remediation cost",
+      "seed": "mold remediation",
+      "intent": "informational",
+      "volume": 3600,
+      "kd": 5,
+      "cpc": 12.11,
+      "priority": 2,
+      "fan_out_parent": "mold remediation",
+      "city_modifier": null,
+      "covered_by": null,
+      "discovered": "2026-06-23",
+      "source": "dataforseo_labs_google_keyword_overview",
+      "notes": "Near-duplicate of 'mold remediation cost'; banked to avoid two cost posts."
+    },
+    {
+      "keyword": "mold remediation process",
+      "seed": "mold remediation",
+      "intent": "informational",
+      "volume": 720,
+      "kd": null,
+      "cpc": 6.73,
+      "priority": 1,
+      "fan_out_parent": "mold remediation",
+      "city_modifier": null,
+      "covered_by": null,
+      "discovered": "2026-06-23",
+      "source": "dataforseo_labs_google_keyword_overview",
+      "notes": "KD null; LOW comp. Queue on a future run (over 5-cap this run)."
+    },
+    {
+      "keyword": "is black mold dangerous",
+      "seed": "mold remediation",
+      "intent": "informational",
+      "volume": 6600,
+      "kd": 21,
+      "cpc": 5.54,
+      "priority": 2,
+      "fan_out_parent": "mold remediation",
+      "city_modifier": null,
+      "covered_by": "/blog/black-mold-vs-regular-mold/",
+      "discovered": "2026-06-23",
+      "source": "dataforseo_labs_google_keyword_overview",
+      "notes": "Health-risk angle overlaps the existing black-mold post; bank to avoid cannibalization."
+    },
+    {
+      "keyword": "how to get rid of mold",
+      "seed": "mold remediation",
+      "intent": "informational",
+      "volume": 14800,
+      "kd": 27,
+      "cpc": 3.71,
+      "priority": 2,
+      "fan_out_parent": "mold remediation",
+      "city_modifier": null,
+      "covered_by": null,
+      "discovered": "2026-06-23",
+      "source": "dataforseo_labs_google_keyword_overview",
+      "notes": "Broad DIY intent, weaker commercial fit for a remediation seller; bank."
+    },
+    {
+      "keyword": "mold remediation companies near me",
+      "seed": "mold remediation",
+      "intent": "commercial",
+      "volume": 49500,
+      "kd": 15,
+      "cpc": 33.64,
+      "priority": 3,
+      "fan_out_parent": "mold remediation",
+      "city_modifier": null,
+      "covered_by": null,
+      "discovered": "2026-06-23",
+      "source": "dataforseo_labs_google_keyword_overview",
+      "notes": "Transactional 'near me' -> owned by service-area pages + GBP, not a blog post."
+    },
+    {
+      "keyword": "mold remediation huntsville al",
+      "seed": "mold remediation",
+      "intent": "commercial",
+      "volume": 260,
+      "kd": null,
+      "cpc": 24.94,
+      "priority": 3,
+      "fan_out_parent": "mold remediation",
+      "city_modifier": "Huntsville",
+      "covered_by": null,
+      "discovered": "2026-06-23",
+      "source": "dataforseo_labs_google_keyword_overview",
+      "notes": "Local transactional -> Huntsville mold service-area page territory."
+    },
+    {
+      "keyword": "mold remediation madison al",
+      "seed": "mold remediation",
+      "intent": "commercial",
+      "volume": 10,
+      "kd": null,
+      "cpc": 152.79,
+      "priority": 3,
+      "fan_out_parent": "mold remediation",
+      "city_modifier": "Madison",
+      "covered_by": null,
+      "discovered": "2026-06-23",
+      "source": "dataforseo_labs_google_keyword_overview",
+      "notes": "Volume 10; service-area page territory."
+    },
+    {
+      "keyword": "mold remediation vs removal",
+      "seed": "mold remediation",
+      "intent": "informational",
+      "volume": 30,
+      "kd": null,
+      "cpc": 2.66,
+      "priority": 3,
+      "fan_out_parent": "mold remediation",
+      "city_modifier": null,
+      "covered_by": null,
+      "discovered": "2026-06-23",
+      "source": "dataforseo_labs_google_keyword_overview",
+      "notes": "Low volume."
     }
   ]
 }

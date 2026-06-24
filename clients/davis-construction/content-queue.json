@@ -227,6 +227,174 @@
         "https://www.iicrc.org/page/IICRCSr-753"
       ],
       "notes": "Commercial intent post targeting homeowners actively looking to hire a fire restoration contractor in Davis Construction's market. KD 17 is very winnable. Because there is no dedicated /services/fire-damage-restoration/ page, this blog post will need to carry both informational and commercial weight. Lead with the local angle (Madison, Huntsville, Athens AL) and include specific local context from plan-input.json: Twickenham historic homes, Madison aerospace families, HOA notification requirements. Include a clear CTA to call (256) 771-0326. Note: recommend requesting a dedicated fire-damage-restoration service page in the next site plan update -- this blog post is a bridging solution."
+    },
+    {
+      "id": "2026-06-23-mold-remediation-cost-madison",
+      "status": "queued",
+      "queued_at": "2026-06-24T05:34:32Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "mold remediation cost",
+      "intent": "informational",
+      "volume": 9900,
+      "kd": 8,
+      "fan_out_cluster": [
+        "mold remediation cost per square foot",
+        "cost to remove black mold",
+        "attic mold removal cost",
+        "crawl space mold remediation cost",
+        "does insurance cover mold remediation",
+        "mold remediation cost factors"
+      ],
+      "suggested_slug": "mold-remediation-cost-madison",
+      "suggested_title": "Mold Remediation Cost in Madison, AL: 2026 Price Guide",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/service-areas/madison-al/",
+        "/blog/black-mold-vs-regular-mold/"
+      ],
+      "service_tags": [
+        "mold-remediation"
+      ],
+      "city_anchor": "madison-al",
+      "external_authority_candidates": [],
+      "notes": "Top pick: 9900 vol, KD 8. Localize price ranges to North Alabama humidity-driven mold jobs."
+    },
+    {
+      "id": "2026-06-23-mold-inspection-cost-huntsville",
+      "status": "queued",
+      "queued_at": "2026-06-24T05:34:32Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "mold inspection cost",
+      "intent": "informational",
+      "volume": 5400,
+      "kd": null,
+      "fan_out_cluster": [
+        "mold testing cost",
+        "mold inspection vs testing",
+        "is a mold inspection worth it",
+        "how much is a mold test",
+        "when to get a mold inspection",
+        "mold inspection process"
+      ],
+      "suggested_slug": "mold-inspection-cost-huntsville",
+      "suggested_title": "Mold Inspection Cost in Huntsville, AL: What to Expect",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/service-areas/huntsville-al/"
+      ],
+      "service_tags": [
+        "mold-remediation"
+      ],
+      "city_anchor": "huntsville-al",
+      "external_authority_candidates": [],
+      "notes": "Distinct from remediation cost (inspection/testing stage). LOW competition, vol 5400."
+    },
+    {
+      "id": "2026-06-23-attic-mold-removal-athens",
+      "status": "queued",
+      "queued_at": "2026-06-24T05:34:32Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "attic mold removal",
+      "intent": "informational",
+      "volume": 2400,
+      "kd": null,
+      "fan_out_cluster": [
+        "what causes attic mold",
+        "attic mold removal cost",
+        "attic ventilation and mold",
+        "roof leak attic mold",
+        "is attic mold dangerous",
+        "how to prevent attic mold"
+      ],
+      "suggested_slug": "attic-mold-removal-athens",
+      "suggested_title": "Attic Mold Removal in Athens, AL: Causes, Cost, and Prevention",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/services/roofing/",
+        "/service-areas/athens-al/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "roofing"
+      ],
+      "city_anchor": "athens-al",
+      "external_authority_candidates": [],
+      "notes": "Ties mold to Davis's roofing service (roof leaks -> attic mold). CPC $25, vol 2400."
+    },
+    {
+      "id": "2026-06-23-crawl-space-mold-removal-madison",
+      "status": "queued",
+      "queued_at": "2026-06-24T05:34:32Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "crawl space mold removal",
+      "intent": "commercial",
+      "volume": 1900,
+      "kd": null,
+      "fan_out_cluster": [
+        "crawl space mold removal cost",
+        "crawl space encapsulation mold",
+        "humidity and crawl space mold",
+        "signs of crawl space mold",
+        "crawl space mold health risks",
+        "preventing crawl space mold"
+      ],
+      "suggested_slug": "crawl-space-mold-removal-madison",
+      "suggested_title": "Crawl Space Mold Removal in Madison, AL: Why Humidity Is the Culprit",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/service-areas/madison-al/"
+      ],
+      "service_tags": [
+        "mold-remediation"
+      ],
+      "city_anchor": "madison-al",
+      "external_authority_candidates": [],
+      "notes": "High relevance for humid North Alabama crawl spaces. CPC $29, commercial intent, vol 1900."
+    },
+    {
+      "id": "2026-06-23-does-insurance-cover-mold-remediation-huntsville",
+      "status": "queued",
+      "queued_at": "2026-06-24T05:34:32Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does insurance cover mold remediation",
+      "intent": "informational",
+      "volume": 880,
+      "kd": 22,
+      "fan_out_cluster": [
+        "is mold covered by homeowners insurance",
+        "mold from water damage insurance",
+        "filing a mold claim",
+        "mold exclusions in insurance policy",
+        "sudden vs gradual mold coverage",
+        "how to document mold for a claim"
+      ],
+      "suggested_slug": "does-insurance-cover-mold-remediation-huntsville",
+      "suggested_title": "Does Insurance Cover Mold Remediation? A Huntsville, AL Homeowner's Guide",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/service-areas/huntsville-al/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "city_anchor": "huntsville-al",
+      "external_authority_candidates": [
+        "https://www.iii.org/article/what-covered-standard-homeowners-policy"
+      ],
+      "notes": "Decision-stage, KD 22. Links to existing water-damage insurance post."
     }
   ]
 }
