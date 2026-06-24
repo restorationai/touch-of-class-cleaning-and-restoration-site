@@ -55,6 +55,12 @@ jobs:
           DATAFORSEO_PASSWORD:          ${{ secrets.DATAFORSEO_PASSWORD }}
         run: python3 scripts/master_scheduler.py run-due --all --headless
 
+      - name: Refresh strategist action plans (System 0)
+        env:
+          SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY:  ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: python3 scripts/strategist.py --all
+
       - name: Commit generated state files and content
         run: |
           git add clients/ sites/ portfolio/ docs/ 2>/dev/null || true

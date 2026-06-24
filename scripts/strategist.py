@@ -159,27 +159,19 @@ def build_actions(geo: list[dict], content: dict, audit: dict) -> list[dict]:
     return acts
 
 
-def main() -> int:
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--slug", required=True)
-    ap.add_argument("--dry-run", action="store_true")
-    args = ap.parse_args()
-
-    if not (os.environ.get("SUPABASE_URL") and os.environ.get("SUPABASE_SERVICE_ROLE_KEY")):
-        print("ERROR: SUPABASE_URL + SUPABASE_SERVICE_ROLE_KEY required (rank-ai/.env).", file=sys.stderr)
-        return 1
-    company_id = company_id_for(args.slug)
+def run_for(slug: str, dry_run: bool) -> int:
+    company_id = company_id_for(slug)
     if not company_id:
-        print(f"ERROR: no company_id for slug '{args.slug}'.", file=sys.stderr)
+        print(f"  skip '{slug}': no company_id", file=sys.stderr)
         return 1
 
     geo = gather_geogrid(company_id)
-    content = gather_content(args.slug)
-    audit = gather_audit(args.slug)
+    content = gather_content(slug)
+    audit = gather_audit(slug)
     actions = build_actions(geo, content, audit)
     now = datetime.now(timezone.utc).isoformat()
 
-    print(f"\n=== Strategist plan — {args.slug} ({company_id}) ===")
+    print(f"\n=== Strategist plan — {slug} ({company_id}) ===")
     print(f"signals: {len(geo)} weak geo cells | {content['queued']} queued posts | "
           f"{len(content['uncovered'])} uncovered kw | audit={audit.get('last_audit_verdict','?')}\n")
     for a in actions:
@@ -188,7 +180,7 @@ def main() -> int:
     if not actions:
         print("  (no actions — client is in good shape on the signals checked)")
 
-    if args.dry_run:
+    if dry_run:
         print("\n(dry-run — nothing written)")
         return 0
 
@@ -204,7 +196,7 @@ def main() -> int:
     _sb("DELETE", cq + "&status=eq.planned&pinned=is.false")   # clear refreshable rows
 
     inserts = [{
-        "company_id": company_id, "rank_ai_slug": args.slug, "priority": a["priority"],
+        "company_id": company_id, "rank_ai_slug": slug, "priority": a["priority"],
         "action_type": a["action_type"], "title": a["title"], "rationale": a["rationale"],
         "target": a.get("target"), "assigned_system": a["assigned_system"],
         "impact": a["impact"], "effort": a["effort"], "status": "planned",
@@ -212,9 +204,30 @@ def main() -> int:
     } for a in actions if a["action_key"] not in survive]
     if inserts:
         _sb("POST", "/rest/v1/marketing_action_plan", inserts)
-    print(f"\nUpserted plan for {args.slug}: {len(inserts)} planned, "
+    print(f"\nUpserted plan for {slug}: {len(inserts)} planned, "
           f"{len(actions) - len(inserts)} left untouched (dismissed/pinned/in-progress).")
     return 0
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser()
+    grp = ap.add_mutually_exclusive_group(required=True)
+    grp.add_argument("--slug", help="one client")
+    grp.add_argument("--all", action="store_true", help="every active client (clients/company_map.json)")
+    ap.add_argument("--dry-run", action="store_true")
+    args = ap.parse_args()
+
+    if not (os.environ.get("SUPABASE_URL") and os.environ.get("SUPABASE_SERVICE_ROLE_KEY")):
+        print("ERROR: SUPABASE_URL + SUPABASE_SERVICE_ROLE_KEY required.", file=sys.stderr)
+        return 1
+
+    if args.all:
+        cmap = json.loads((ROOT / "clients" / "company_map.json").read_text())
+        rc = 0
+        for slug in cmap:
+            rc |= run_for(slug, args.dry_run)
+        return rc
+    return run_for(args.slug, args.dry_run)
 
 
 if __name__ == "__main__":
