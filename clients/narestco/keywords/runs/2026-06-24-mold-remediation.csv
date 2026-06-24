@@ -1,0 +1,16 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+mold removal tacoma,transactional,170,,93.08,3,mold remediation,Tacoma,/service-areas/tacoma-wa/mold-remediation/,no
+crawl space mold removal,commercial,1900,,29.48,1,mold remediation,,,yes
+mold removal seattle,commercial,880,,17.36,3,mold remediation,Seattle,/service-areas/seattle-wa/mold-remediation/,no
+mold remediation seattle,commercial,880,,17.36,3,mold remediation,Seattle,/service-areas/seattle-wa/mold-remediation/,no
+mold remediation bellevue,commercial,210,,22.1,3,mold remediation,Bellevue,/service-areas/bellevue-wa/mold-remediation/,no
+mold remediation cost,informational,9900,8,21.71,1,mold remediation,,,yes
+mold inspection cost,informational,5400,,15.99,1,mold remediation,,,yes
+attic mold removal,informational,2400,,24.93,1,mold remediation,,,yes
+does insurance cover mold remediation,informational,880,22,13.64,1,mold remediation,,,yes
+mold remediation process,informational,720,,6.73,1,mold remediation,,,no
+how to get rid of mold,informational,14800,27,3.71,2,mold remediation,,,no
+is black mold dangerous,informational,6600,21,5.54,2,mold remediation,,/blog/black-mold-vs-regular-mold/,no
+how much does mold remediation cost,informational,3600,5,12.11,2,mold remediation,,,no
+mold inspection seattle,informational,880,,17.36,2,mold remediation,Seattle,,no
+mold testing seattle,informational,140,5,34.61,3,mold remediation,Seattle,,no

@@ -346,6 +346,175 @@
       "city_anchor": null,
       "external_authority_candidates": [],
       "notes": "Supporting cost post to the main cost article. Focus on per-sqft breakdown: minor smoke ($3-8/sqft), major structural ($15-50/sqft), total loss ($75+/sqft). Internal link to main cost article and reconstruction page. Can be shorter (1200 words). Write after the main fire-damage-restoration-cost post."
+    },
+    {
+      "id": "2026-06-24-mold-remediation-cost-seattle",
+      "status": "queued",
+      "queued_at": "2026-06-24T15:47:35Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "mold remediation cost",
+      "intent": "informational",
+      "volume": 9900,
+      "kd": 8,
+      "fan_out_cluster": [
+        "mold remediation cost per square foot",
+        "cost to remove black mold",
+        "attic mold removal cost",
+        "crawl space mold remediation cost",
+        "does insurance cover mold remediation",
+        "what drives mold remediation cost"
+      ],
+      "suggested_slug": "mold-remediation-cost-seattle",
+      "suggested_title": "Mold Remediation Cost in Seattle: 2026 Price Guide",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/service-areas/seattle-wa/",
+        "/blog/black-mold-vs-regular-mold/"
+      ],
+      "service_tags": [
+        "mold-remediation"
+      ],
+      "city_anchor": "seattle-wa",
+      "external_authority_candidates": [],
+      "notes": "Top pick: 9900 vol, KD 8. Localize price ranges to the wet Puget Sound market."
+    },
+    {
+      "id": "2026-06-24-crawl-space-mold-removal-federal-way",
+      "status": "queued",
+      "queued_at": "2026-06-24T15:47:35Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "crawl space mold removal",
+      "intent": "commercial",
+      "volume": 1900,
+      "kd": null,
+      "fan_out_cluster": [
+        "crawl space mold removal cost",
+        "crawl space encapsulation mold",
+        "vapor barrier crawl space mold",
+        "signs of crawl space mold",
+        "crawl space mold health risks",
+        "preventing crawl space mold in a wet climate"
+      ],
+      "suggested_slug": "crawl-space-mold-removal-federal-way",
+      "suggested_title": "Crawl Space Mold Removal in Federal Way: Why Puget Sound Homes Are Prone to It",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/service-areas/federal-way-wa/"
+      ],
+      "service_tags": [
+        "mold-remediation"
+      ],
+      "city_anchor": "federal-way-wa",
+      "external_authority_candidates": [],
+      "notes": "Highly relevant for PNW crawl spaces (rain + vented crawl spaces). CPC $29, vol 1900. Anchored to primary city."
+    },
+    {
+      "id": "2026-06-24-mold-inspection-cost-bellevue",
+      "status": "queued",
+      "queued_at": "2026-06-24T15:47:35Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "mold inspection cost",
+      "intent": "informational",
+      "volume": 5400,
+      "kd": null,
+      "fan_out_cluster": [
+        "mold testing cost",
+        "mold inspection vs testing",
+        "is a mold inspection worth it",
+        "how much is a mold test",
+        "when to get a mold inspection",
+        "mold inspection process"
+      ],
+      "suggested_slug": "mold-inspection-cost-bellevue",
+      "suggested_title": "Mold Inspection Cost in Bellevue: What to Expect",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/mold-inspection-testing/",
+        "/service-areas/bellevue-wa/"
+      ],
+      "service_tags": [
+        "mold-inspection-testing",
+        "mold-remediation"
+      ],
+      "city_anchor": "bellevue-wa",
+      "external_authority_candidates": [],
+      "notes": "Distinct from remediation cost; ties to their mold-inspection-testing service. LOW comp, vol 5400."
+    },
+    {
+      "id": "2026-06-24-attic-mold-removal-tacoma",
+      "status": "queued",
+      "queued_at": "2026-06-24T15:47:35Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "attic mold removal",
+      "intent": "informational",
+      "volume": 2400,
+      "kd": null,
+      "fan_out_cluster": [
+        "what causes attic mold",
+        "attic mold removal cost",
+        "attic ventilation and mold",
+        "roof leak attic mold",
+        "is attic mold dangerous",
+        "how to prevent attic mold"
+      ],
+      "suggested_slug": "attic-mold-removal-tacoma",
+      "suggested_title": "Attic Mold Removal in Tacoma: Causes, Cost, and Prevention",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/services/roof-leak-repair/",
+        "/service-areas/tacoma-wa/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "roof-leak-repair"
+      ],
+      "city_anchor": "tacoma-wa",
+      "external_authority_candidates": [],
+      "notes": "Ties mold to roof-leak service (roof leaks -> attic mold), big in rainy Tacoma. CPC $25, vol 2400."
+    },
+    {
+      "id": "2026-06-24-does-insurance-cover-mold-remediation-everett",
+      "status": "queued",
+      "queued_at": "2026-06-24T15:47:35Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does insurance cover mold remediation",
+      "intent": "informational",
+      "volume": 880,
+      "kd": 22,
+      "fan_out_cluster": [
+        "is mold covered by homeowners insurance",
+        "mold from water damage insurance",
+        "filing a mold claim",
+        "mold exclusions in insurance policy",
+        "sudden vs gradual mold coverage",
+        "documenting mold for a claim"
+      ],
+      "suggested_slug": "does-insurance-cover-mold-remediation-everett",
+      "suggested_title": "Does Insurance Cover Mold Remediation? An Everett Homeowner's Guide",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/service-areas/everett-wa/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "city_anchor": "everett-wa",
+      "external_authority_candidates": [
+        "https://www.iii.org/article/what-covered-standard-homeowners-policy"
+      ],
+      "notes": "Decision-stage, KD 22. Links to existing water-damage insurance post."
     }
   ]
 }

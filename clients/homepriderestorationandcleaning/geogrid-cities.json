@@ -18,5 +18,15 @@
     "label": "Provo, UT",
     "lat": 40.2337,
     "lng": -111.6587
+  },
+  {
+    "label": "Heber City, UT",
+    "lat": 40.5065,
+    "lng": -111.4133
+  },
+  {
+    "label": "Park City, UT",
+    "lat": 40.6461,
+    "lng": -111.498
   }
 ]
