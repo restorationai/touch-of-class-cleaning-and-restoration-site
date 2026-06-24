@@ -23,7 +23,7 @@
   },
   "status": "active",
   "created_at": "2026-06-15T16:36:28.124334+00:00",
-  "updated_at": "2026-06-24T05:17:14+00:00",
+  "updated_at": "2026-06-24T05:30:00Z",
   "plan_status": "planned",
   "plan": {
     "template": "restoration",
@@ -39,10 +39,10 @@
     "url_count": 267,
     "pages_status": "created",
     "last_rendered_at": "2026-06-15T19:08:18.418246+00:00",
-    "last_pushed_main_at": "2026-06-24T05:15:43.997391+00:00",
-    "last_pushed_staging_at": "2026-06-24T00:46:03.560766+00:00"
+    "last_pushed_main_at": "2026-06-24T05:28:19.707993+00:00",
+    "last_pushed_staging_at": "2026-06-24T05:26:54.069433+00:00"
   },
-  "build_status": "pushed_main",
+  "build_status": "cut_over",
   "cloudflare": {
     "zone_id": "a7d27c3777b9f9b9571e4c0c4dc290f0"
   },
@@ -56,5 +56,12 @@
     "last_audit_at": "2026-06-22T19:40:00Z",
     "last_audit_verdict": "amber",
     "last_audit_report_path": "audit-runs/2026-06-22-onsite-audit.md"
+  },
+  "cut_over_at": "2026-06-18T00:06:15Z",
+  "deploy_url": "https://homepriderestorationandcleaning.com",
+  "apex_cutover": {
+    "completed_at": "2026-06-18T00:06:15Z",
+    "live_origin": "https://homepriderestorationandcleaning.com",
+    "method": "cloudflare-pages-custom-domain"
   }
 }
