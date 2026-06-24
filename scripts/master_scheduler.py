@@ -24,12 +24,16 @@ Usage:
   python3 scripts/master_scheduler.py force-run --slug narestco --system 3
 
 Schedule defaults (cadence_days):
-  System 1 (keyword-researcher):     30
-  System 2 (content-writer):          7
+  System 1 (keyword-researcher):     14
+  System 2 (content-writer):          3
   System 3 (onsite-audit):           30
   System 4 (refresh-recommender):    30
 
 A system is "due" if last_run_at is null OR (now - last_run_at) >= cadence_days.
+System 1 is ALSO demand-driven: it becomes due whenever a client's content queue
+drops below QUEUE_LOW_THRESHOLD, so the queue is refilled on need, not just on the
+calendar (the producer/consumer fix — System 2 drains ~2/week, so a pure 14-day
+refill could still trend dry between runs).
 """
 from __future__ import annotations
 
@@ -38,6 +42,8 @@ import json
 import os
 import subprocess
 import sys
+import urllib.error
+import urllib.request
 from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -73,11 +79,22 @@ HEADLESS_ALLOWED_TOOLS = {
 }
 
 SCHEDULE_DEFAULTS = {
-    1: {"name": "keyword-researcher",     "cadence_days": 30, "driver": "agent"},
+    1: {"name": "keyword-researcher",     "cadence_days": 14, "driver": "agent"},
     2: {"name": "content-writer",         "cadence_days":  3, "driver": "script"},
     3: {"name": "onsite-audit",           "cadence_days": 30, "driver": "agent"},
     4: {"name": "refresh-recommender",    "cadence_days": 30, "driver": "split"},  # L1 script, L2 agent
 }
+
+# Demand-driven queue management for System 1 (the producer/consumer fix).
+# System 2 drains ~2 posts/week; a fixed calendar refill alone trends the queue dry.
+#   - QUEUE_LOW_THRESHOLD: System 1 becomes "due" when queued items < this, regardless
+#     of the 14-day calendar. run-due processes System 1 before System 2, so a low queue
+#     is refilled and consumed in the SAME Mon/Thu run (no dead week). The keyword
+#     researcher's own per-seed 30-day cooldown still prevents re-researching a seed.
+#   - QUEUE_ALERT_THRESHOLD: after a run, any active client still below this gets an
+#     email alert (catches the silent case where the refill failed or ran out of seeds).
+QUEUE_LOW_THRESHOLD = 4
+QUEUE_ALERT_THRESHOLD = 2
 
 
 # -----------------------------------------------------------------------------
@@ -140,8 +157,27 @@ def _parse_iso(s: str | None) -> datetime | None:
         return None
 
 
+def queued_count(client: dict) -> int:
+    """Number of items still waiting to be written for this client."""
+    q_path = ROOT / "clients" / client["slug"] / "content-queue.json"
+    if not q_path.exists():
+        return 0
+    try:
+        q = json.loads(q_path.read_text())
+    except (json.JSONDecodeError, OSError):
+        return 0
+    return sum(1 for i in q.get("items", []) if i.get("status") == "queued")
+
+
 def is_due(client: dict, system: int) -> tuple[bool, str]:
     """Return (due, reason)."""
+    # System 1 is demand-driven as well as calendar-driven: if the content queue is
+    # running low, refill it now regardless of the 14-day cadence. Because run-due
+    # processes System 1 before System 2, the refill is consumed in the same pass.
+    if system == 1:
+        qc = queued_count(client)
+        if qc < QUEUE_LOW_THRESHOLD:
+            return True, f"queue low ({qc} queued < {QUEUE_LOW_THRESHOLD})"
     last = last_run_at(client, system)
     cadence = SCHEDULE_DEFAULTS[system]["cadence_days"]
     if last is None:
@@ -270,6 +306,61 @@ def cmd_status(args) -> int:
     return 0
 
 
+def send_alert_email(subject: str, body: str) -> bool:
+    """Send an ops alert via SendGrid (same from/to as scripts/notify_failure.py).
+    No-op (returns False) when SENDGRID_API_KEY is unset, e.g. local runs."""
+    api_key = os.environ.get("SENDGRID_API_KEY")
+    if not api_key:
+        print("    (SENDGRID_API_KEY unset — skipping email alert)")
+        return False
+    payload = {
+        "personalizations": [{"to": [{"email": "contact@restorationai.io"}], "subject": subject}],
+        "from": {"email": "no-reply@restorationai.io", "name": "Rank AI Bot"},
+        "content": [{"type": "text/plain", "value": body}],
+    }
+    req = urllib.request.Request(
+        "https://api.sendgrid.com/v3/mail/send",
+        data=json.dumps(payload).encode(),
+        headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
+        method="POST",
+    )
+    try:
+        with urllib.request.urlopen(req) as resp:
+            print(f"    Alert emailed to contact@restorationai.io (HTTP {resp.status})")
+        return True
+    except (urllib.error.HTTPError, urllib.error.URLError) as exc:
+        detail = exc.read().decode(errors="replace") if isinstance(exc, urllib.error.HTTPError) else str(exc)
+        print(f"    SendGrid alert failed: {detail}", file=sys.stderr)
+        return False
+
+
+def alert_starved_queues(clients: list[dict]) -> None:
+    """Post-run safety net: email ops about any active client whose queue is still
+    critically low AFTER the refill pass. Catches the silent failure the GH Actions
+    if:failure() step misses (System 1 errored, ran out of fresh seeds, or coverage
+    consumed every candidate). Re-reads the queue from disk to reflect this run."""
+    starved = [(c["slug"], queued_count(c)) for c in clients
+               if queued_count(c) < QUEUE_ALERT_THRESHOLD]
+    if not starved:
+        return
+    lines = "\n".join(f"  - {slug}: {n} queued" for slug, n in starved)
+    body = (
+        "These active clients have a near-empty content queue AFTER the latest "
+        "scheduler run, so System 2 will have nothing to publish next cycle:\n\n"
+        f"{lines}\n\n"
+        "Likely cause: System 1 (keyword-researcher) failed, ran out of fresh seeds "
+        "(all within their per-seed 30-day cooldown), or coverage consumed every "
+        "candidate.\n\nAction: check the latest weekly-maintenance run logs, or force a "
+        "refill:\n  python3 scripts/master_scheduler.py force-run --slug <slug> --system 1 --headless\n\n"
+        "-- Rank AI Bot"
+    )
+    print(f"\n  ALERT: {len(starved)} client(s) with starved queue — emailing ops.")
+    send_alert_email(
+        subject=f"[Rank AI] {len(starved)} client(s) with empty content queue",
+        body=body,
+    )
+
+
 def cmd_run_due(args) -> int:
     clients = load_clients(args.slug if not args.all else None)
     if not clients:
@@ -334,6 +425,10 @@ def cmd_run_due(args) -> int:
                     print(f"      {emit_agent_prompt(4, slug)}")
     if not any_action:
         print("\nNothing due across all checked clients.")
+    # Email ops if any client is still starved after the refill pass. Only in headless
+    # (CI) runs so local/interactive invocations don't send mail.
+    if getattr(args, "headless", False):
+        alert_starved_queues(clients)
     return 0
 
 
