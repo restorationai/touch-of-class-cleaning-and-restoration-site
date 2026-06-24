@@ -16,6 +16,8 @@ Usage:
 
 Env (rank-ai/.env): SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, CONNECT_LINK_SIGNING_SECRET
 """
+from __future__ import annotations
+
 import argparse
 import base64
 import hashlib
