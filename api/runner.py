@@ -6,6 +6,7 @@ S1 (keyword-researcher) and S3 (onsite-audit) are agent-driven — dispatched to
 GitHub Actions which already has the claude CLI + DataForSEO MCP configured.
 """
 
+import json
 import os
 import subprocess
 import threading
@@ -17,11 +18,13 @@ from supabase import create_client
 
 ROOT = Path(__file__).parent.parent
 
-COMPANY_MAP = {
-    "narestco":           "CO-1771290587387",
-    "davis-construction": "CO-1778778644861",
-    "homepriderestorationandcleaning": "CO-1780333664867",
-}
+# Single source of truth for slug -> company_id: clients/company_map.json.
+# Fail-soft: a missing/corrupt file yields {} and degrades to the existing
+# "no company_id mapping" handling rather than crashing the FastAPI import.
+try:
+    COMPANY_MAP = json.loads((ROOT / "clients" / "company_map.json").read_text())
+except Exception:
+    COMPANY_MAP = {}
 
 GITHUB_REPO  = "restorationai/Rank-AI-Pipeline"
 GITHUB_TOKEN = os.environ.get("GITHUB_PERSONAL_ACCESS_TOKEN", "")

@@ -29,11 +29,11 @@ SUPABASE_URL = os.environ["SUPABASE_URL"]
 SUPABASE_KEY = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
 
 # Active clients only. Churned (probritegen) excluded.
-COMPANY_MAP = {
-    "narestco":          "CO-1771290587387",
-    "davis-construction": "CO-1778778644861",
-    "homepriderestorationandcleaning": "CO-1780333664867",
-}
+# Single source of truth: clients/company_map.json (fail-soft on missing file).
+try:
+    COMPANY_MAP = json.loads((ROOT / "clients" / "company_map.json").read_text())
+except Exception:
+    COMPANY_MAP = {}
 
 
 def load_json(path: Path):

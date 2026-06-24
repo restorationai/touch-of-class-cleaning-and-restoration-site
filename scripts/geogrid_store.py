@@ -52,14 +52,12 @@ load_dotenv(ROOT / ".env")
 import geogrid_scan as gs          # noqa: E402  (build_grid, rank_at_point, load_center, load_dfs_creds)
 from geogrid_render import render_png  # noqa: E402
 
-# company_id (TEXT, = companies.id) per slug. Mirrors api/runner.py + supabase_sync.py.
-# Kept local on purpose — the same 2-entry map is already duplicated across the
-# pipeline; a third copy is consistent with that pattern and avoids cross-imports.
-COMPANY_MAP = {
-    "narestco":           "CO-1771290587387",
-    "davis-construction": "CO-1778778644861",
-    "homepriderestorationandcleaning": "CO-1780333664867",
-}
+# company_id (TEXT, = companies.id) per slug.
+# Single source of truth: clients/company_map.json (fail-soft on missing file).
+try:
+    COMPANY_MAP = json.loads((ROOT / "clients" / "company_map.json").read_text())
+except Exception:
+    COMPANY_MAP = {}
 
 CF_API = "https://api.cloudflare.com/client/v4"
 

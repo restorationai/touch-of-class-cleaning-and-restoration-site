@@ -1126,12 +1126,12 @@ def youtube_token_path(slug: str) -> Path:
 
 
 # company_id (app companies.id) per slug — used to find the client's user_integrations
-# row. Reads the client record first; falls back to this map (mirrors the other scripts).
-_COMPANY_MAP = {
-    "narestco":                         "CO-1771290587387",
-    "davis-construction":               "CO-1778778644861",
-    "homepriderestorationandcleaning":  "CO-1780333664867",
-}
+# row. Reads the client record first; falls back to clients/company_map.json (the
+# single source of truth shared with api/runner.py, supabase_sync.py, geogrid_store.py).
+try:
+    _COMPANY_MAP = json.loads((CLIENTS_DIR / "company_map.json").read_text())
+except Exception:
+    _COMPANY_MAP = {}
 
 
 def _company_id_for(slug: str) -> str | None:
