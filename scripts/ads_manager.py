@@ -783,6 +783,65 @@ def geo_lookup(client, customer_id: str, city: str, state: str = "") -> str | No
     return rows[0].geo_target_constant.resource_name
 
 
+def ensure_location_assets(client, customer_id: str, place_id: str,
+                            campaign_resources: list, dry_run: bool = False) -> int:
+    """Link the client's OWN Business Profile location to the given campaigns so the
+    ads are eligible for the local/Maps pack (the "Sponsored" map-pack slot).
+
+    Keyed on the client's explicit `place_id` (from plan-input brand.place_id), so it
+    can ONLY ever link the correct GBP. If no synced location matches that place_id, it
+    SKIPS with a clear message rather than linking a wrong/stray location — the same
+    fail-safe philosophy as geo_lookup(). (A real account had a stray second location
+    asset for a different business; matching on place_id avoids ever attaching it.)
+    """
+    if not place_id:
+        sys.stderr.write("  [location] no brand.place_id in plan-input — skipping map-pack "
+                         "location asset. Add brand.place_id to enable it.\n")
+        return 0
+    cid = customer_id.replace("-", "")
+    rows = gaql(client, cid,
+        "SELECT asset.resource_name, asset.location_asset.place_id FROM asset WHERE asset.type = 'LOCATION'")
+    match = next((r.asset.resource_name for r in rows
+                  if r.asset.location_asset.place_id == place_id), None)
+    if not match:
+        sys.stderr.write(
+            f"  [location] no synced Business Profile location for place_id {place_id}. "
+            f"Link the client's GBP to this Ads account (Linked accounts -> Business Profile), "
+            f"then re-run. Skipping — will NOT link a wrong/stray location.\n")
+        return 0
+    # Which ENABLED asset set(s) contain this exact location?
+    asset_sets = {r.asset_set_asset.asset_set for r in gaql(client, cid,
+        f"SELECT asset_set_asset.asset_set FROM asset_set_asset "
+        f"WHERE asset_set_asset.asset = '{match}' AND asset_set_asset.status = 'ENABLED'")}
+    if not asset_sets:
+        sys.stderr.write(f"  [location] location {match} is in no ENABLED asset set — skipping\n")
+        return 0
+    # Already linked account-wide? then every campaign is already covered.
+    acct_links = {r.customer_asset_set.asset_set for r in gaql(client, cid,
+        "SELECT customer_asset_set.asset_set FROM customer_asset_set "
+        "WHERE customer_asset_set.status = 'ENABLED'")}
+    if asset_sets & acct_links:
+        print(f"  [location] client GBP location ({place_id}) already linked account-wide — ok")
+        return 0
+    if dry_run:
+        print(f"  [location] would link GBP location {place_id} to {len(campaign_resources)} campaign(s)")
+        return 0
+    aset = sorted(asset_sets)[0]
+    ops = []
+    for camp in campaign_resources:
+        op = client.get_type("CampaignAssetSetOperation")
+        op.create.campaign = camp
+        op.create.asset_set = aset
+        ops.append(op)
+    req = client.get_type("MutateCampaignAssetSetsRequest")
+    req.customer_id = cid
+    req.operations = ops
+    req.partial_failure = True
+    client.get_service("CampaignAssetSetService").mutate_campaign_asset_sets(request=req)
+    print(f"  [location] linked client GBP location ({place_id}) to {len(ops)} campaign(s)")
+    return len(ops)
+
+
 # ---------------------------------------------------------------------------
 # Claude RSA copy generation
 # ---------------------------------------------------------------------------
@@ -1195,6 +1254,11 @@ def cmd_scaffold(slug: str, dry_run: bool = False, services_filter: list = None,
                     "services": group_services,
                 }
                 save_structure(slug, structure)
+
+        # Map-pack eligibility: link the client's OWN GBP location (place_id-matched, fail-safe)
+        ensure_location_assets(client, customer_id,
+                               (plan.get("brand") or {}).get("place_id", ""),
+                               [campaign_resource], dry_run=dry_run)
 
         for area in service_areas:
             city = area.get("city", "")
