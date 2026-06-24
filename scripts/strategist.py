@@ -18,6 +18,7 @@ Env (rank-ai/.env): SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import os
 import sys
@@ -152,6 +153,9 @@ def build_actions(geo: list[dict], content: dict, audit: dict) -> list[dict]:
     acts.sort(key=lambda a: (IMPACT_RANK.get(a["impact"], 9), EFFORT_RANK.get(a["effort"], 9)))
     for i, a in enumerate(acts, 1):
         a["priority"] = i
+        # stable identity so re-runs don't resurrect a dismissed action or lose a pin
+        a["action_key"] = hashlib.sha1(
+            f"{a['action_type']}|{a.get('target') or ''}".encode()).hexdigest()[:16]
     return acts
 
 
@@ -188,19 +192,28 @@ def main() -> int:
         print("\n(dry-run — nothing written)")
         return 0
 
-    # Replace this company's prior 'planned' rows, then insert the fresh plan.
-    _sb("DELETE", "/rest/v1/marketing_action_plan?status=eq.planned&company_id=eq." +
-        urllib.parse.quote(company_id))
-    if actions:
-        rows = [{
-            "company_id": company_id, "rank_ai_slug": args.slug, "priority": a["priority"],
-            "action_type": a["action_type"], "title": a["title"], "rationale": a["rationale"],
-            "target": a.get("target"), "assigned_system": a["assigned_system"],
-            "impact": a["impact"], "effort": a["effort"], "status": "planned",
-            "source_run_at": now,
-        } for a in actions]
-        _sb("POST", "/rest/v1/marketing_action_plan", rows)
-    print(f"\nWrote {len(actions)} action(s) to marketing_action_plan for {args.slug}.")
+    # Persist, honoring operator overrides:
+    #  - rows the operator DISMISSED, or that are pinned / in_progress / done, SURVIVE
+    #    and are not re-created (we never resurrect a dismissed action).
+    #  - all other 'planned' rows are refreshed (cleared + re-inserted with new ranking).
+    cq = "/rest/v1/marketing_action_plan?company_id=eq." + urllib.parse.quote(company_id)
+    existing = _sb("GET", cq + "&select=action_key,status,pinned") or []
+    survive = {r["action_key"] for r in existing
+               if r.get("action_key") and (r["status"] in ("dismissed", "done", "in_progress") or r["pinned"])}
+
+    _sb("DELETE", cq + "&status=eq.planned&pinned=is.false")   # clear refreshable rows
+
+    inserts = [{
+        "company_id": company_id, "rank_ai_slug": args.slug, "priority": a["priority"],
+        "action_type": a["action_type"], "title": a["title"], "rationale": a["rationale"],
+        "target": a.get("target"), "assigned_system": a["assigned_system"],
+        "impact": a["impact"], "effort": a["effort"], "status": "planned",
+        "action_key": a["action_key"], "source_run_at": now,
+    } for a in actions if a["action_key"] not in survive]
+    if inserts:
+        _sb("POST", "/rest/v1/marketing_action_plan", inserts)
+    print(f"\nUpserted plan for {args.slug}: {len(inserts)} planned, "
+          f"{len(actions) - len(inserts)} left untouched (dismissed/pinned/in-progress).")
     return 0
 
 
