@@ -174,6 +174,20 @@ def sync_audit(client, slug: str, company_id: str, dry_run: bool) -> None:
 # marketing_content_items
 # ---------------------------------------------------------------------------
 
+def _upcoming_publish_slots(n: int) -> list:
+    """Projected publish datetimes: the next n Mon/Thu 16:00 UTC slots — the
+    weekly-maintenance cadence at which System 2 publishes one queued post each."""
+    from datetime import datetime, timezone, timedelta
+    now = datetime.now(timezone.utc)
+    cur = now.replace(hour=16, minute=0, second=0, microsecond=0)
+    slots = []
+    while len(slots) < n:
+        if cur > now and cur.weekday() in (0, 3):   # Mon=0, Thu=3
+            slots.append(cur.isoformat())
+        cur += timedelta(days=1)
+    return slots
+
+
 def sync_content(client, slug: str, company_id: str, dry_run: bool) -> None:
     queue = load_json(ROOT / "clients" / slug / "content-queue.json")
     if not queue:
@@ -181,6 +195,15 @@ def sync_content(client, slug: str, company_id: str, dry_run: bool) -> None:
         return
 
     items = queue.get("items", [])
+
+    # Project a publish date onto each queued item (FIFO by queued_at) so the app
+    # can show "Scheduled for <date>" instead of a bare "Scheduled".
+    queued_sorted = sorted(
+        [i for i in items if (i.get("status") or "queued") == "queued"],
+        key=lambda i: i.get("queued_at") or "")
+    _slots = _upcoming_publish_slots(len(queued_sorted))
+    schedule_map = {i.get("suggested_slug"): _slots[idx]
+                    for idx, i in enumerate(queued_sorted) if i.get("suggested_slug")}
 
     if dry_run:
         queued = sum(1 for i in items if i.get("status") == "queued")
@@ -223,6 +246,7 @@ def sync_content(client, slug: str, company_id: str, dry_run: bool) -> None:
             "notes":            item.get("notes"),
             "queued_at":        ts(item.get("queued_at")),
             "written_at":       ts(item.get("written_at")),
+            "scheduled_for":    schedule_map.get(item.get("suggested_slug")) if status == "queued" else None,
         }
 
         suggested_slug = item.get("suggested_slug")
