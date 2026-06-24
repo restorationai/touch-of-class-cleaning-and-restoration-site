@@ -721,25 +721,66 @@ def add_keywords_to_ad_group(client, customer_id: str, ad_group_resource: str,
     return len(ops)
 
 
-def geo_lookup(client, customer_id: str, city: str) -> str | None:
+US_STATES = {
+    "AL": "Alabama", "AK": "Alaska", "AZ": "Arizona", "AR": "Arkansas", "CA": "California",
+    "CO": "Colorado", "CT": "Connecticut", "DE": "Delaware", "FL": "Florida", "GA": "Georgia",
+    "HI": "Hawaii", "ID": "Idaho", "IL": "Illinois", "IN": "Indiana", "IA": "Iowa",
+    "KS": "Kansas", "KY": "Kentucky", "LA": "Louisiana", "ME": "Maine", "MD": "Maryland",
+    "MA": "Massachusetts", "MI": "Michigan", "MN": "Minnesota", "MS": "Mississippi", "MO": "Missouri",
+    "MT": "Montana", "NE": "Nebraska", "NV": "Nevada", "NH": "New Hampshire", "NJ": "New Jersey",
+    "NM": "New Mexico", "NY": "New York", "NC": "North Carolina", "ND": "North Dakota", "OH": "Ohio",
+    "OK": "Oklahoma", "OR": "Oregon", "PA": "Pennsylvania", "RI": "Rhode Island", "SC": "South Carolina",
+    "SD": "South Dakota", "TN": "Tennessee", "TX": "Texas", "UT": "Utah", "VT": "Vermont",
+    "VA": "Virginia", "WA": "Washington", "WV": "West Virginia", "WI": "Wisconsin", "WY": "Wyoming",
+    "DC": "District of Columbia",
+}
+
+
+def geo_lookup(client, customer_id: str, city: str, state: str = "") -> str | None:
+    """Resolve a city to its Google geo target constant, DISAMBIGUATED BY STATE.
+
+    Many US cities share a name across states (Auburn AL/WA, Kent CT/WA, Redmond OR/WA).
+    Matching on city name alone and taking the first row silently targets the wrong
+    state. We therefore filter on the state in canonical_name. If a state is given but
+    no city+state match exists, we return None (skip) rather than risk the wrong state.
+    """
+    safe_city = city.replace("'", "\\'")
     query = f"""
         SELECT
           geo_target_constant.resource_name,
           geo_target_constant.name,
+          geo_target_constant.canonical_name,
           geo_target_constant.target_type,
           geo_target_constant.country_code
         FROM geo_target_constant
         WHERE geo_target_constant.country_code = 'US'
           AND geo_target_constant.target_type = 'City'
-          AND geo_target_constant.name = '{city}'
+          AND geo_target_constant.name = '{safe_city}'
     """
     try:
         rows = gaql(client, customer_id, query)
-        if rows:
-            return rows[0].geo_target_constant.resource_name
     except Exception:
-        pass
-    return None
+        return None
+    if not rows:
+        return None
+    state_full = US_STATES.get((state or "").upper().strip(), "")
+    if state_full:
+        for r in rows:
+            if f",{state_full}," in r.geo_target_constant.canonical_name:
+                return r.geo_target_constant.resource_name
+        # State was specified but no match — DO NOT fall back to a wrong-state city.
+        sys.stderr.write(
+            f"  geo_lookup: no '{city}, {state}' among {len(rows)} US cities named "
+            f"'{city}'; skipping (avoids wrong-state targeting)\n"
+        )
+        return None
+    # No state provided (legacy callers): keep old behaviour but warn.
+    if len(rows) > 1:
+        sys.stderr.write(
+            f"  geo_lookup: '{city}' is ambiguous ({len(rows)} states) and no state "
+            f"was given; using first — pass state to disambiguate\n"
+        )
+    return rows[0].geo_target_constant.resource_name
 
 
 # ---------------------------------------------------------------------------
@@ -1172,8 +1213,8 @@ def cmd_scaffold(slug: str, dry_run: bool = False, services_filter: list = None,
                 ag_resource = create_ad_group(client, customer_id, ag_name,
                                               campaign_resource, dry_run=dry_run)
 
-                # Geo target
-                geo_resource = geo_lookup(client, customer_id, city)
+                # Geo target (state-disambiguated — see geo_lookup)
+                geo_resource = geo_lookup(client, customer_id, city, state)
                 if geo_resource:
                     add_campaign_geo_target(client, customer_id, campaign_resource,
                                             geo_resource, dry_run=dry_run)
@@ -1497,7 +1538,7 @@ def cmd_keyword_research(slug: str, services: list[str] | None = None,
     geo_targets: list[str] = []
     if service_areas:
         for area in service_areas[:5]:  # Limit to avoid quota
-            geo = geo_lookup(ads_client, customer_id, area.get("city", ""))
+            geo = geo_lookup(ads_client, customer_id, area.get("city", ""), area.get("state", ""))
             if geo:
                 geo_targets.append(geo)
 

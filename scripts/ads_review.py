@@ -77,6 +77,25 @@ def _client_context(slug: str) -> tuple[list[str], list[str]]:
         return [], []
 
 
+def _parse_verdict_array(raw: str) -> list[dict]:
+    """Parse the LLM's JSON verdict array, tolerant of code fences and truncation.
+    If the array doesn't parse whole (e.g. it was cut off mid-string), salvage every
+    complete {...} object so we keep the verdicts we can rather than dropping all of
+    them (the old behaviour, which silently kept every term unvetted)."""
+    raw = re.sub(r"^```(?:json)?\s*", "", raw.strip())
+    raw = re.sub(r"\s*```$", "", raw).strip()
+    try:
+        return json.loads(raw)
+    except Exception:
+        out: list[dict] = []
+        for m in re.finditer(r"\{[^{}]*\}", raw):
+            try:
+                out.append(json.loads(m.group(0)))
+            except Exception:
+                pass
+        return out
+
+
 def vet_search_terms(candidates: list[dict], services: list[str], cities: list[str]) -> list[dict]:
     """LLM vets each candidate term: negate (junk) or keep (lead). Conservative — keep when unsure.
     Returns [{term, negate, match_type, reason}]. Empty if no API key / no candidates."""
@@ -107,16 +126,18 @@ def vet_search_terms(candidates: list[dict], services: list[str], cities: list[s
         'Return ONLY a JSON array, no prose: '
         '[{"term":"...","negate":true,"match_type":"BROAD","reason":"...","blog_candidate":false,"blog_title":""}]'
     )
-    body = json.dumps({"model": ANTHROPIC_MODEL, "max_tokens": 2000,
+    # max_tokens must be large enough to hold a verdict object PER term, or the JSON
+    # array truncates mid-string and the whole vet fails (every term then kept unvetted).
+    # ~120 tokens/verdict; 8000 covers ~60 terms with headroom. Scale with the input.
+    max_tokens = max(2000, min(8000, 200 + 140 * len(terms)))
+    body = json.dumps({"model": ANTHROPIC_MODEL, "max_tokens": max_tokens,
                        "messages": [{"role": "user", "content": prompt}]}).encode()
     try:
         req = urllib.request.Request(ANTHROPIC_API, data=body, method="POST",
             headers={"content-type": "application/json", "x-api-key": api_key, "anthropic-version": "2023-06-01"})
-        with urllib.request.urlopen(req, timeout=90) as resp:
+        with urllib.request.urlopen(req, timeout=120) as resp:
             raw = json.loads(resp.read())["content"][0]["text"].strip()
-        raw = re.sub(r"^```json\s*", "", raw)
-        raw = re.sub(r"\s*```$", "", raw)
-        return json.loads(raw)
+        return _parse_verdict_array(raw)
     except Exception as e:
         sys.stderr.write(f"  vet error: {str(e)[:120]}\n")
         return []

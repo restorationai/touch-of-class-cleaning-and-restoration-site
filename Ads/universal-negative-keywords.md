@@ -357,7 +357,7 @@ aftermarket
 ---
 
 
-### B.6 Restoration — DIY / self-treatment / product-shopping / symptoms (46 terms)
+### B.6 Restoration — DIY / self-treatment / product-shopping / symptoms (49 terms)
 
 **Restoration clients: ALWAYS include.** Water/fire/mold keywords attract a flood of
 homeowner-DIY, product-shopping, and symptom/research queries — people who want to fix
@@ -413,6 +413,9 @@ mold detection kit
 rmr 86
 public adjuster
 fire department
+iicrc
+mold abatement products
+mold treatment for wood
 ```
 
 
@@ -507,6 +510,10 @@ blackmon mooring
 bms cat
 jenkins restorations
 ati restoration
+coit
+voda
+delta restoration
+ars restoration
 ```
 
 ### D.2 Local competitors (per-client — NOT universal)
