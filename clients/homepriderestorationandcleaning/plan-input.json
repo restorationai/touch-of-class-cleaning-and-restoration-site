@@ -80,6 +80,18 @@
       "state": "UT",
       "slug": "riverton-ut",
       "primary": false
+    },
+    {
+      "city": "Heber City",
+      "state": "UT",
+      "slug": "heber-city-ut",
+      "primary": false
+    },
+    {
+      "city": "Park City",
+      "state": "UT",
+      "slug": "park-city-ut",
+      "primary": false
     }
   ],
   "brand": {

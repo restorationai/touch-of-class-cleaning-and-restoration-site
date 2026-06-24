@@ -80,6 +80,18 @@
       "state": "UT",
       "slug": "riverton-ut",
       "primary": false
+    },
+    {
+      "city": "Heber City",
+      "state": "UT",
+      "slug": "heber-city-ut",
+      "primary": false
+    },
+    {
+      "city": "Park City",
+      "state": "UT",
+      "slug": "park-city-ut",
+      "primary": false
     }
   ],
   "brand": {
@@ -94,7 +106,13 @@
     "certifications": [
       "IICRC Certified"
     ],
-    "google_maps_api_key": "AIzaSyDrYnSuDu-hFvKHEcQCjwb-zsMebInPneU"
+    "google_maps_api_key": "AIzaSyDrYnSuDu-hFvKHEcQCjwb-zsMebInPneU",
+    "lat": 40.31172,
+    "lng": -111.89406,
+    "street_address": "78 W Wildflower Dr",
+    "postal_code": "84045",
+    "place_id": "ChIJGzr1iePDLCsR1fkC5O33F10",
+    "google_cid": "6708102771096353237"
   },
   "cross_product": true,
   "keyword_strategy": "conservative",

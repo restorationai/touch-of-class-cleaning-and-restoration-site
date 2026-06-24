@@ -1,0 +1,15 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+carpet cleaning park city,commercial,260,,15.34,2,carpet cleaning,Park City,,no
+mold remediation park city,commercial,,,,3,mold remediation,Park City,,no
+ice dam removal,informational,4400,15,2.59,1,storm damage restoration,,,yes
+how to prevent ice dams,informational,1300,9,1.09,1,storm damage restoration,,,yes
+water damage restoration cost,informational,880,,23.53,1,water damage restoration,,,yes
+does homeowners insurance cover frozen pipes,informational,320,,,1,frozen pipe damage,,,yes
+frozen pipe damage,informational,110,,57.28,1,frozen pipe damage,,,yes
+how much does water damage restoration cost,informational,50,,16.95,2,water damage restoration,,,no
+how to prevent frozen pipes,informational,14800,63,0.87,3,frozen pipe damage,,,no
+signs of mold in house,informational,6600,43,2.74,3,mold remediation,,/blog/signs-of-hidden-mold/,no
+how long does it take mold to grow,informational,3600,,7.56,3,mold remediation,,/blog/mold-after-water-damage/,no
+does homeowners insurance cover water damage,informational,1900,28,14.55,3,water damage restoration,,/blog/does-homeowners-insurance-cover-water-damage/,no
+burst pipe water damage,informational,170,,51.61,3,burst pipe repair,,/blog/burst-pipe-emergency-checklist/,no
+what to do after a burst pipe,informational,10,49,,3,burst pipe repair,,/blog/burst-pipe-emergency-checklist/,no

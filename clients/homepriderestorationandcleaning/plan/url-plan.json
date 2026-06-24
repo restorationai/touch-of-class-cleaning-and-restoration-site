@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.2.0",
-  "generated_at": "2026-06-15T18:11:27.358973+00:00",
+  "generated_at": "2026-06-24T00:30:34.548755+00:00",
   "input_summary": {
     "service_count": 18,
-    "service_area_count": 10,
+    "service_area_count": 12,
     "cross_product": true,
     "blog_seed_count": 12
   },
@@ -65,9 +65,11 @@
         "/service-areas/saratoga-springs-ut/",
         "/service-areas/american-fork-ut/",
         "/service-areas/eagle-mountain-ut/",
+        "/service-areas/heber-city-ut/",
         "/service-areas/herriman-ut/",
         "/service-areas/lehi-ut/",
         "/service-areas/orem-ut/",
+        "/service-areas/park-city-ut/",
         "/service-areas/pleasant-grove-ut/",
         "/service-areas/provo-ut/",
         "/service-areas/riverton-ut/",
@@ -156,9 +158,11 @@
         "/service-areas/saratoga-springs-ut/",
         "/service-areas/american-fork-ut/",
         "/service-areas/eagle-mountain-ut/",
+        "/service-areas/heber-city-ut/",
         "/service-areas/herriman-ut/",
         "/service-areas/lehi-ut/",
         "/service-areas/orem-ut/",
+        "/service-areas/park-city-ut/",
         "/service-areas/pleasant-grove-ut/",
         "/service-areas/provo-ut/",
         "/service-areas/riverton-ut/",
@@ -197,12 +201,12 @@
         "/blog/choosing-a-restoration-company/",
         "/blog/does-homeowners-insurance-cover-water-damage/",
         "/blog/fire-damage-restoration-process/",
+        "/blog/how-to-test-for-mold/",
         "/blog/signs-of-hidden-mold/",
         "/blog/black-mold-vs-regular-mold/",
         "/blog/how-long-does-water-damage-restoration-take/",
         "/blog/mold-after-water-damage/",
         "/blog/storm-damage-insurance-claim-checklist/",
-        "/blog/sewage-backup-health-risks/",
         "/blog/smoke-odor-removal-techniques/"
       ]
     },
@@ -312,9 +316,11 @@
         "/contact/",
         "/service-areas/american-fork-ut/water-damage-restoration/",
         "/service-areas/eagle-mountain-ut/water-damage-restoration/",
+        "/service-areas/heber-city-ut/water-damage-restoration/",
         "/service-areas/herriman-ut/water-damage-restoration/",
         "/service-areas/lehi-ut/water-damage-restoration/",
         "/service-areas/orem-ut/water-damage-restoration/",
+        "/service-areas/park-city-ut/water-damage-restoration/",
         "/service-areas/pleasant-grove-ut/water-damage-restoration/",
         "/service-areas/provo-ut/water-damage-restoration/",
         "/service-areas/riverton-ut/water-damage-restoration/",
@@ -363,9 +369,11 @@
         "/contact/",
         "/service-areas/american-fork-ut/burst-pipe-repair/",
         "/service-areas/eagle-mountain-ut/burst-pipe-repair/",
+        "/service-areas/heber-city-ut/burst-pipe-repair/",
         "/service-areas/herriman-ut/burst-pipe-repair/",
         "/service-areas/lehi-ut/burst-pipe-repair/",
         "/service-areas/orem-ut/burst-pipe-repair/",
+        "/service-areas/park-city-ut/burst-pipe-repair/",
         "/service-areas/pleasant-grove-ut/burst-pipe-repair/",
         "/service-areas/provo-ut/burst-pipe-repair/",
         "/service-areas/riverton-ut/burst-pipe-repair/",
@@ -411,9 +419,11 @@
         "/contact/",
         "/service-areas/american-fork-ut/frozen-pipe-restoration/",
         "/service-areas/eagle-mountain-ut/frozen-pipe-restoration/",
+        "/service-areas/heber-city-ut/frozen-pipe-restoration/",
         "/service-areas/herriman-ut/frozen-pipe-restoration/",
         "/service-areas/lehi-ut/frozen-pipe-restoration/",
         "/service-areas/orem-ut/frozen-pipe-restoration/",
+        "/service-areas/park-city-ut/frozen-pipe-restoration/",
         "/service-areas/pleasant-grove-ut/frozen-pipe-restoration/",
         "/service-areas/provo-ut/frozen-pipe-restoration/",
         "/service-areas/riverton-ut/frozen-pipe-restoration/",
@@ -459,9 +469,11 @@
         "/contact/",
         "/service-areas/american-fork-ut/appliance-leak-cleanup/",
         "/service-areas/eagle-mountain-ut/appliance-leak-cleanup/",
+        "/service-areas/heber-city-ut/appliance-leak-cleanup/",
         "/service-areas/herriman-ut/appliance-leak-cleanup/",
         "/service-areas/lehi-ut/appliance-leak-cleanup/",
         "/service-areas/orem-ut/appliance-leak-cleanup/",
+        "/service-areas/park-city-ut/appliance-leak-cleanup/",
         "/service-areas/pleasant-grove-ut/appliance-leak-cleanup/",
         "/service-areas/provo-ut/appliance-leak-cleanup/",
         "/service-areas/riverton-ut/appliance-leak-cleanup/",
@@ -508,9 +520,11 @@
         "/contact/",
         "/service-areas/american-fork-ut/basement-flooding-cleanup/",
         "/service-areas/eagle-mountain-ut/basement-flooding-cleanup/",
+        "/service-areas/heber-city-ut/basement-flooding-cleanup/",
         "/service-areas/herriman-ut/basement-flooding-cleanup/",
         "/service-areas/lehi-ut/basement-flooding-cleanup/",
         "/service-areas/orem-ut/basement-flooding-cleanup/",
+        "/service-areas/park-city-ut/basement-flooding-cleanup/",
         "/service-areas/pleasant-grove-ut/basement-flooding-cleanup/",
         "/service-areas/provo-ut/basement-flooding-cleanup/",
         "/service-areas/riverton-ut/basement-flooding-cleanup/",
@@ -556,9 +570,11 @@
         "/contact/",
         "/service-areas/american-fork-ut/roof-leak-repair/",
         "/service-areas/eagle-mountain-ut/roof-leak-repair/",
+        "/service-areas/heber-city-ut/roof-leak-repair/",
         "/service-areas/herriman-ut/roof-leak-repair/",
         "/service-areas/lehi-ut/roof-leak-repair/",
         "/service-areas/orem-ut/roof-leak-repair/",
+        "/service-areas/park-city-ut/roof-leak-repair/",
         "/service-areas/pleasant-grove-ut/roof-leak-repair/",
         "/service-areas/provo-ut/roof-leak-repair/",
         "/service-areas/riverton-ut/roof-leak-repair/",
@@ -604,15 +620,16 @@
         "/contact/",
         "/service-areas/american-fork-ut/sewage-cleanup/",
         "/service-areas/eagle-mountain-ut/sewage-cleanup/",
+        "/service-areas/heber-city-ut/sewage-cleanup/",
         "/service-areas/herriman-ut/sewage-cleanup/",
         "/service-areas/lehi-ut/sewage-cleanup/",
         "/service-areas/orem-ut/sewage-cleanup/",
+        "/service-areas/park-city-ut/sewage-cleanup/",
         "/service-areas/pleasant-grove-ut/sewage-cleanup/",
         "/service-areas/provo-ut/sewage-cleanup/",
         "/service-areas/riverton-ut/sewage-cleanup/",
         "/service-areas/saratoga-springs-ut/sewage-cleanup/",
-        "/service-areas/south-jordan-ut/sewage-cleanup/",
-        "/blog/sewage-backup-health-risks/"
+        "/service-areas/south-jordan-ut/sewage-cleanup/"
       ]
     },
     {
@@ -653,9 +670,11 @@
         "/contact/",
         "/service-areas/american-fork-ut/storm-damage-restoration/",
         "/service-areas/eagle-mountain-ut/storm-damage-restoration/",
+        "/service-areas/heber-city-ut/storm-damage-restoration/",
         "/service-areas/herriman-ut/storm-damage-restoration/",
         "/service-areas/lehi-ut/storm-damage-restoration/",
         "/service-areas/orem-ut/storm-damage-restoration/",
+        "/service-areas/park-city-ut/storm-damage-restoration/",
         "/service-areas/pleasant-grove-ut/storm-damage-restoration/",
         "/service-areas/provo-ut/storm-damage-restoration/",
         "/service-areas/riverton-ut/storm-damage-restoration/",
@@ -702,9 +721,11 @@
         "/contact/",
         "/service-areas/american-fork-ut/fire-damage-restoration/",
         "/service-areas/eagle-mountain-ut/fire-damage-restoration/",
+        "/service-areas/heber-city-ut/fire-damage-restoration/",
         "/service-areas/herriman-ut/fire-damage-restoration/",
         "/service-areas/lehi-ut/fire-damage-restoration/",
         "/service-areas/orem-ut/fire-damage-restoration/",
+        "/service-areas/park-city-ut/fire-damage-restoration/",
         "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
         "/service-areas/provo-ut/fire-damage-restoration/",
         "/service-areas/riverton-ut/fire-damage-restoration/",
@@ -753,9 +774,11 @@
         "/contact/",
         "/service-areas/american-fork-ut/smoke-damage-restoration/",
         "/service-areas/eagle-mountain-ut/smoke-damage-restoration/",
+        "/service-areas/heber-city-ut/smoke-damage-restoration/",
         "/service-areas/herriman-ut/smoke-damage-restoration/",
         "/service-areas/lehi-ut/smoke-damage-restoration/",
         "/service-areas/orem-ut/smoke-damage-restoration/",
+        "/service-areas/park-city-ut/smoke-damage-restoration/",
         "/service-areas/pleasant-grove-ut/smoke-damage-restoration/",
         "/service-areas/provo-ut/smoke-damage-restoration/",
         "/service-areas/riverton-ut/smoke-damage-restoration/",
@@ -803,17 +826,19 @@
         "/contact/",
         "/service-areas/american-fork-ut/mold-remediation/",
         "/service-areas/eagle-mountain-ut/mold-remediation/",
+        "/service-areas/heber-city-ut/mold-remediation/",
         "/service-areas/herriman-ut/mold-remediation/",
         "/service-areas/lehi-ut/mold-remediation/",
         "/service-areas/orem-ut/mold-remediation/",
+        "/service-areas/park-city-ut/mold-remediation/",
         "/service-areas/pleasant-grove-ut/mold-remediation/",
         "/service-areas/provo-ut/mold-remediation/",
         "/service-areas/riverton-ut/mold-remediation/",
         "/service-areas/saratoga-springs-ut/mold-remediation/",
         "/service-areas/south-jordan-ut/mold-remediation/",
         "/blog/choosing-a-restoration-company/",
-        "/blog/signs-of-hidden-mold/",
-        "/blog/black-mold-vs-regular-mold/"
+        "/blog/how-to-test-for-mold/",
+        "/blog/signs-of-hidden-mold/"
       ]
     },
     {
@@ -854,14 +879,17 @@
         "/contact/",
         "/service-areas/american-fork-ut/mold-inspection-testing/",
         "/service-areas/eagle-mountain-ut/mold-inspection-testing/",
+        "/service-areas/heber-city-ut/mold-inspection-testing/",
         "/service-areas/herriman-ut/mold-inspection-testing/",
         "/service-areas/lehi-ut/mold-inspection-testing/",
         "/service-areas/orem-ut/mold-inspection-testing/",
+        "/service-areas/park-city-ut/mold-inspection-testing/",
         "/service-areas/pleasant-grove-ut/mold-inspection-testing/",
         "/service-areas/provo-ut/mold-inspection-testing/",
         "/service-areas/riverton-ut/mold-inspection-testing/",
         "/service-areas/saratoga-springs-ut/mold-inspection-testing/",
-        "/service-areas/south-jordan-ut/mold-inspection-testing/"
+        "/service-areas/south-jordan-ut/mold-inspection-testing/",
+        "/blog/how-to-test-for-mold/"
       ]
     },
     {
@@ -902,9 +930,11 @@
         "/contact/",
         "/service-areas/american-fork-ut/carpet-cleaning/",
         "/service-areas/eagle-mountain-ut/carpet-cleaning/",
+        "/service-areas/heber-city-ut/carpet-cleaning/",
         "/service-areas/herriman-ut/carpet-cleaning/",
         "/service-areas/lehi-ut/carpet-cleaning/",
         "/service-areas/orem-ut/carpet-cleaning/",
+        "/service-areas/park-city-ut/carpet-cleaning/",
         "/service-areas/pleasant-grove-ut/carpet-cleaning/",
         "/service-areas/provo-ut/carpet-cleaning/",
         "/service-areas/riverton-ut/carpet-cleaning/",
@@ -950,9 +980,11 @@
         "/contact/",
         "/service-areas/american-fork-ut/odor-removal/",
         "/service-areas/eagle-mountain-ut/odor-removal/",
+        "/service-areas/heber-city-ut/odor-removal/",
         "/service-areas/herriman-ut/odor-removal/",
         "/service-areas/lehi-ut/odor-removal/",
         "/service-areas/orem-ut/odor-removal/",
+        "/service-areas/park-city-ut/odor-removal/",
         "/service-areas/pleasant-grove-ut/odor-removal/",
         "/service-areas/provo-ut/odor-removal/",
         "/service-areas/riverton-ut/odor-removal/",
@@ -998,9 +1030,11 @@
         "/contact/",
         "/service-areas/american-fork-ut/upholstery-cleaning/",
         "/service-areas/eagle-mountain-ut/upholstery-cleaning/",
+        "/service-areas/heber-city-ut/upholstery-cleaning/",
         "/service-areas/herriman-ut/upholstery-cleaning/",
         "/service-areas/lehi-ut/upholstery-cleaning/",
         "/service-areas/orem-ut/upholstery-cleaning/",
+        "/service-areas/park-city-ut/upholstery-cleaning/",
         "/service-areas/pleasant-grove-ut/upholstery-cleaning/",
         "/service-areas/provo-ut/upholstery-cleaning/",
         "/service-areas/riverton-ut/upholstery-cleaning/",
@@ -1046,9 +1080,11 @@
         "/contact/",
         "/service-areas/american-fork-ut/tile-grout-cleaning/",
         "/service-areas/eagle-mountain-ut/tile-grout-cleaning/",
+        "/service-areas/heber-city-ut/tile-grout-cleaning/",
         "/service-areas/herriman-ut/tile-grout-cleaning/",
         "/service-areas/lehi-ut/tile-grout-cleaning/",
         "/service-areas/orem-ut/tile-grout-cleaning/",
+        "/service-areas/park-city-ut/tile-grout-cleaning/",
         "/service-areas/pleasant-grove-ut/tile-grout-cleaning/",
         "/service-areas/provo-ut/tile-grout-cleaning/",
         "/service-areas/riverton-ut/tile-grout-cleaning/",
@@ -1094,9 +1130,11 @@
         "/contact/",
         "/service-areas/american-fork-ut/fabric-protection/",
         "/service-areas/eagle-mountain-ut/fabric-protection/",
+        "/service-areas/heber-city-ut/fabric-protection/",
         "/service-areas/herriman-ut/fabric-protection/",
         "/service-areas/lehi-ut/fabric-protection/",
         "/service-areas/orem-ut/fabric-protection/",
+        "/service-areas/park-city-ut/fabric-protection/",
         "/service-areas/pleasant-grove-ut/fabric-protection/",
         "/service-areas/provo-ut/fabric-protection/",
         "/service-areas/riverton-ut/fabric-protection/",
@@ -1142,9 +1180,11 @@
         "/contact/",
         "/service-areas/american-fork-ut/junk-debris-removal/",
         "/service-areas/eagle-mountain-ut/junk-debris-removal/",
+        "/service-areas/heber-city-ut/junk-debris-removal/",
         "/service-areas/herriman-ut/junk-debris-removal/",
         "/service-areas/lehi-ut/junk-debris-removal/",
         "/service-areas/orem-ut/junk-debris-removal/",
+        "/service-areas/park-city-ut/junk-debris-removal/",
         "/service-areas/pleasant-grove-ut/junk-debris-removal/",
         "/service-areas/provo-ut/junk-debris-removal/",
         "/service-areas/riverton-ut/junk-debris-removal/",
@@ -1204,7 +1244,7 @@
         "/service-areas/saratoga-springs-ut/upholstery-cleaning/",
         "/service-areas/american-fork-ut/",
         "/service-areas/eagle-mountain-ut/",
-        "/service-areas/herriman-ut/"
+        "/service-areas/heber-city-ut/"
       ]
     },
     {
@@ -1314,7 +1354,7 @@
         "/service-areas/eagle-mountain-ut/upholstery-cleaning/",
         "/service-areas/saratoga-springs-ut/",
         "/service-areas/american-fork-ut/",
-        "/service-areas/herriman-ut/"
+        "/service-areas/heber-city-ut/"
       ]
     },
     {
@@ -1369,7 +1409,7 @@
         "/service-areas/american-fork-ut/upholstery-cleaning/",
         "/service-areas/saratoga-springs-ut/",
         "/service-areas/eagle-mountain-ut/",
-        "/service-areas/herriman-ut/"
+        "/service-areas/heber-city-ut/"
       ]
     },
     {
@@ -1697,6 +1737,116 @@
         "/service-areas/riverton-ut/carpet-cleaning/",
         "/service-areas/riverton-ut/tile-grout-cleaning/",
         "/service-areas/riverton-ut/upholstery-cleaning/",
+        "/service-areas/saratoga-springs-ut/",
+        "/service-areas/american-fork-ut/",
+        "/service-areas/eagle-mountain-ut/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/heber-city-ut/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Heber City, UT | Home Pride Restoration and Cleaning",
+      "h1": "Restoration Services in Heber City",
+      "meta_description": "Serving Heber City, UT with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (801) 995-2437.",
+      "primary_keyword": "restoration services heber city",
+      "secondary_keywords": [
+        "heber city restoration company",
+        "damage restoration heber city",
+        "heber city disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/heber-city-ut/fire-damage-restoration/",
+        "/service-areas/heber-city-ut/mold-remediation/",
+        "/service-areas/heber-city-ut/water-damage-restoration/",
+        "/service-areas/heber-city-ut/sewage-cleanup/",
+        "/service-areas/heber-city-ut/smoke-damage-restoration/",
+        "/service-areas/heber-city-ut/storm-damage-restoration/",
+        "/service-areas/heber-city-ut/basement-flooding-cleanup/",
+        "/service-areas/heber-city-ut/burst-pipe-repair/",
+        "/service-areas/heber-city-ut/mold-inspection-testing/",
+        "/service-areas/heber-city-ut/frozen-pipe-restoration/",
+        "/service-areas/heber-city-ut/odor-removal/",
+        "/service-areas/heber-city-ut/roof-leak-repair/",
+        "/service-areas/heber-city-ut/appliance-leak-cleanup/",
+        "/service-areas/heber-city-ut/fabric-protection/",
+        "/service-areas/heber-city-ut/junk-debris-removal/",
+        "/service-areas/heber-city-ut/carpet-cleaning/",
+        "/service-areas/heber-city-ut/tile-grout-cleaning/",
+        "/service-areas/heber-city-ut/upholstery-cleaning/",
+        "/service-areas/saratoga-springs-ut/",
+        "/service-areas/american-fork-ut/",
+        "/service-areas/eagle-mountain-ut/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/park-city-ut/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Park City, UT | Home Pride Restoration and Cleaning",
+      "h1": "Restoration Services in Park City",
+      "meta_description": "Serving Park City, UT with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (801) 995-2437.",
+      "primary_keyword": "restoration services park city",
+      "secondary_keywords": [
+        "park city restoration company",
+        "damage restoration park city",
+        "park city disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/park-city-ut/fire-damage-restoration/",
+        "/service-areas/park-city-ut/mold-remediation/",
+        "/service-areas/park-city-ut/water-damage-restoration/",
+        "/service-areas/park-city-ut/sewage-cleanup/",
+        "/service-areas/park-city-ut/smoke-damage-restoration/",
+        "/service-areas/park-city-ut/storm-damage-restoration/",
+        "/service-areas/park-city-ut/basement-flooding-cleanup/",
+        "/service-areas/park-city-ut/burst-pipe-repair/",
+        "/service-areas/park-city-ut/mold-inspection-testing/",
+        "/service-areas/park-city-ut/frozen-pipe-restoration/",
+        "/service-areas/park-city-ut/odor-removal/",
+        "/service-areas/park-city-ut/roof-leak-repair/",
+        "/service-areas/park-city-ut/appliance-leak-cleanup/",
+        "/service-areas/park-city-ut/fabric-protection/",
+        "/service-areas/park-city-ut/junk-debris-removal/",
+        "/service-areas/park-city-ut/carpet-cleaning/",
+        "/service-areas/park-city-ut/tile-grout-cleaning/",
+        "/service-areas/park-city-ut/upholstery-cleaning/",
         "/service-areas/saratoga-springs-ut/",
         "/service-areas/american-fork-ut/",
         "/service-areas/eagle-mountain-ut/"
@@ -3326,7 +3476,7 @@
         "/service-areas/eagle-mountain-ut/fire-damage-restoration/",
         "/service-areas/eagle-mountain-ut/mold-remediation/",
         "/service-areas/american-fork-ut/water-damage-restoration/",
-        "/service-areas/herriman-ut/water-damage-restoration/",
+        "/service-areas/heber-city-ut/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3370,7 +3520,7 @@
         "/service-areas/eagle-mountain-ut/fire-damage-restoration/",
         "/service-areas/eagle-mountain-ut/mold-remediation/",
         "/service-areas/american-fork-ut/burst-pipe-repair/",
-        "/service-areas/herriman-ut/burst-pipe-repair/",
+        "/service-areas/heber-city-ut/burst-pipe-repair/",
         "/contact/"
       ]
     },
@@ -3414,7 +3564,7 @@
         "/service-areas/eagle-mountain-ut/fire-damage-restoration/",
         "/service-areas/eagle-mountain-ut/mold-remediation/",
         "/service-areas/american-fork-ut/frozen-pipe-restoration/",
-        "/service-areas/herriman-ut/frozen-pipe-restoration/",
+        "/service-areas/heber-city-ut/frozen-pipe-restoration/",
         "/contact/"
       ]
     },
@@ -3458,7 +3608,7 @@
         "/service-areas/eagle-mountain-ut/fire-damage-restoration/",
         "/service-areas/eagle-mountain-ut/mold-remediation/",
         "/service-areas/american-fork-ut/appliance-leak-cleanup/",
-        "/service-areas/herriman-ut/appliance-leak-cleanup/",
+        "/service-areas/heber-city-ut/appliance-leak-cleanup/",
         "/contact/"
       ]
     },
@@ -3502,7 +3652,7 @@
         "/service-areas/eagle-mountain-ut/fire-damage-restoration/",
         "/service-areas/eagle-mountain-ut/mold-remediation/",
         "/service-areas/american-fork-ut/basement-flooding-cleanup/",
-        "/service-areas/herriman-ut/basement-flooding-cleanup/",
+        "/service-areas/heber-city-ut/basement-flooding-cleanup/",
         "/contact/"
       ]
     },
@@ -3546,7 +3696,7 @@
         "/service-areas/eagle-mountain-ut/fire-damage-restoration/",
         "/service-areas/eagle-mountain-ut/mold-remediation/",
         "/service-areas/american-fork-ut/roof-leak-repair/",
-        "/service-areas/herriman-ut/roof-leak-repair/",
+        "/service-areas/heber-city-ut/roof-leak-repair/",
         "/contact/"
       ]
     },
@@ -3590,7 +3740,7 @@
         "/service-areas/eagle-mountain-ut/fire-damage-restoration/",
         "/service-areas/eagle-mountain-ut/mold-remediation/",
         "/service-areas/american-fork-ut/sewage-cleanup/",
-        "/service-areas/herriman-ut/sewage-cleanup/",
+        "/service-areas/heber-city-ut/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -3634,7 +3784,7 @@
         "/service-areas/eagle-mountain-ut/fire-damage-restoration/",
         "/service-areas/eagle-mountain-ut/mold-remediation/",
         "/service-areas/american-fork-ut/storm-damage-restoration/",
-        "/service-areas/herriman-ut/storm-damage-restoration/",
+        "/service-areas/heber-city-ut/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3678,7 +3828,7 @@
         "/service-areas/eagle-mountain-ut/mold-remediation/",
         "/service-areas/eagle-mountain-ut/water-damage-restoration/",
         "/service-areas/american-fork-ut/fire-damage-restoration/",
-        "/service-areas/herriman-ut/fire-damage-restoration/",
+        "/service-areas/heber-city-ut/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3722,7 +3872,7 @@
         "/service-areas/eagle-mountain-ut/fire-damage-restoration/",
         "/service-areas/eagle-mountain-ut/mold-remediation/",
         "/service-areas/american-fork-ut/smoke-damage-restoration/",
-        "/service-areas/herriman-ut/smoke-damage-restoration/",
+        "/service-areas/heber-city-ut/smoke-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3766,7 +3916,7 @@
         "/service-areas/eagle-mountain-ut/fire-damage-restoration/",
         "/service-areas/eagle-mountain-ut/water-damage-restoration/",
         "/service-areas/american-fork-ut/mold-remediation/",
-        "/service-areas/herriman-ut/mold-remediation/",
+        "/service-areas/heber-city-ut/mold-remediation/",
         "/contact/"
       ]
     },
@@ -3810,7 +3960,7 @@
         "/service-areas/eagle-mountain-ut/fire-damage-restoration/",
         "/service-areas/eagle-mountain-ut/mold-remediation/",
         "/service-areas/american-fork-ut/mold-inspection-testing/",
-        "/service-areas/herriman-ut/mold-inspection-testing/",
+        "/service-areas/heber-city-ut/mold-inspection-testing/",
         "/contact/"
       ]
     },
@@ -3854,7 +4004,7 @@
         "/service-areas/eagle-mountain-ut/fire-damage-restoration/",
         "/service-areas/eagle-mountain-ut/mold-remediation/",
         "/service-areas/american-fork-ut/carpet-cleaning/",
-        "/service-areas/herriman-ut/carpet-cleaning/",
+        "/service-areas/heber-city-ut/carpet-cleaning/",
         "/contact/"
       ]
     },
@@ -3898,7 +4048,7 @@
         "/service-areas/eagle-mountain-ut/fire-damage-restoration/",
         "/service-areas/eagle-mountain-ut/mold-remediation/",
         "/service-areas/american-fork-ut/odor-removal/",
-        "/service-areas/herriman-ut/odor-removal/",
+        "/service-areas/heber-city-ut/odor-removal/",
         "/contact/"
       ]
     },
@@ -3942,7 +4092,7 @@
         "/service-areas/eagle-mountain-ut/fire-damage-restoration/",
         "/service-areas/eagle-mountain-ut/mold-remediation/",
         "/service-areas/american-fork-ut/upholstery-cleaning/",
-        "/service-areas/herriman-ut/upholstery-cleaning/",
+        "/service-areas/heber-city-ut/upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -3986,7 +4136,7 @@
         "/service-areas/eagle-mountain-ut/fire-damage-restoration/",
         "/service-areas/eagle-mountain-ut/mold-remediation/",
         "/service-areas/american-fork-ut/tile-grout-cleaning/",
-        "/service-areas/herriman-ut/tile-grout-cleaning/",
+        "/service-areas/heber-city-ut/tile-grout-cleaning/",
         "/contact/"
       ]
     },
@@ -4030,7 +4180,7 @@
         "/service-areas/eagle-mountain-ut/fire-damage-restoration/",
         "/service-areas/eagle-mountain-ut/mold-remediation/",
         "/service-areas/american-fork-ut/fabric-protection/",
-        "/service-areas/herriman-ut/fabric-protection/",
+        "/service-areas/heber-city-ut/fabric-protection/",
         "/contact/"
       ]
     },
@@ -4074,7 +4224,7 @@
         "/service-areas/eagle-mountain-ut/fire-damage-restoration/",
         "/service-areas/eagle-mountain-ut/mold-remediation/",
         "/service-areas/american-fork-ut/junk-debris-removal/",
-        "/service-areas/herriman-ut/junk-debris-removal/",
+        "/service-areas/heber-city-ut/junk-debris-removal/",
         "/contact/"
       ]
     },
@@ -4118,7 +4268,7 @@
         "/service-areas/american-fork-ut/fire-damage-restoration/",
         "/service-areas/american-fork-ut/mold-remediation/",
         "/service-areas/eagle-mountain-ut/water-damage-restoration/",
-        "/service-areas/herriman-ut/water-damage-restoration/",
+        "/service-areas/heber-city-ut/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4162,7 +4312,7 @@
         "/service-areas/american-fork-ut/fire-damage-restoration/",
         "/service-areas/american-fork-ut/mold-remediation/",
         "/service-areas/eagle-mountain-ut/burst-pipe-repair/",
-        "/service-areas/herriman-ut/burst-pipe-repair/",
+        "/service-areas/heber-city-ut/burst-pipe-repair/",
         "/contact/"
       ]
     },
@@ -4206,7 +4356,7 @@
         "/service-areas/american-fork-ut/fire-damage-restoration/",
         "/service-areas/american-fork-ut/mold-remediation/",
         "/service-areas/eagle-mountain-ut/frozen-pipe-restoration/",
-        "/service-areas/herriman-ut/frozen-pipe-restoration/",
+        "/service-areas/heber-city-ut/frozen-pipe-restoration/",
         "/contact/"
       ]
     },
@@ -4250,7 +4400,7 @@
         "/service-areas/american-fork-ut/fire-damage-restoration/",
         "/service-areas/american-fork-ut/mold-remediation/",
         "/service-areas/eagle-mountain-ut/appliance-leak-cleanup/",
-        "/service-areas/herriman-ut/appliance-leak-cleanup/",
+        "/service-areas/heber-city-ut/appliance-leak-cleanup/",
         "/contact/"
       ]
     },
@@ -4294,7 +4444,7 @@
         "/service-areas/american-fork-ut/fire-damage-restoration/",
         "/service-areas/american-fork-ut/mold-remediation/",
         "/service-areas/eagle-mountain-ut/basement-flooding-cleanup/",
-        "/service-areas/herriman-ut/basement-flooding-cleanup/",
+        "/service-areas/heber-city-ut/basement-flooding-cleanup/",
         "/contact/"
       ]
     },
@@ -4338,7 +4488,7 @@
         "/service-areas/american-fork-ut/fire-damage-restoration/",
         "/service-areas/american-fork-ut/mold-remediation/",
         "/service-areas/eagle-mountain-ut/roof-leak-repair/",
-        "/service-areas/herriman-ut/roof-leak-repair/",
+        "/service-areas/heber-city-ut/roof-leak-repair/",
         "/contact/"
       ]
     },
@@ -4382,7 +4532,7 @@
         "/service-areas/american-fork-ut/fire-damage-restoration/",
         "/service-areas/american-fork-ut/mold-remediation/",
         "/service-areas/eagle-mountain-ut/sewage-cleanup/",
-        "/service-areas/herriman-ut/sewage-cleanup/",
+        "/service-areas/heber-city-ut/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -4426,7 +4576,7 @@
         "/service-areas/american-fork-ut/fire-damage-restoration/",
         "/service-areas/american-fork-ut/mold-remediation/",
         "/service-areas/eagle-mountain-ut/storm-damage-restoration/",
-        "/service-areas/herriman-ut/storm-damage-restoration/",
+        "/service-areas/heber-city-ut/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4470,7 +4620,7 @@
         "/service-areas/american-fork-ut/mold-remediation/",
         "/service-areas/american-fork-ut/water-damage-restoration/",
         "/service-areas/eagle-mountain-ut/fire-damage-restoration/",
-        "/service-areas/herriman-ut/fire-damage-restoration/",
+        "/service-areas/heber-city-ut/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4514,7 +4664,7 @@
         "/service-areas/american-fork-ut/fire-damage-restoration/",
         "/service-areas/american-fork-ut/mold-remediation/",
         "/service-areas/eagle-mountain-ut/smoke-damage-restoration/",
-        "/service-areas/herriman-ut/smoke-damage-restoration/",
+        "/service-areas/heber-city-ut/smoke-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4558,7 +4708,7 @@
         "/service-areas/american-fork-ut/fire-damage-restoration/",
         "/service-areas/american-fork-ut/water-damage-restoration/",
         "/service-areas/eagle-mountain-ut/mold-remediation/",
-        "/service-areas/herriman-ut/mold-remediation/",
+        "/service-areas/heber-city-ut/mold-remediation/",
         "/contact/"
       ]
     },
@@ -4602,7 +4752,7 @@
         "/service-areas/american-fork-ut/fire-damage-restoration/",
         "/service-areas/american-fork-ut/mold-remediation/",
         "/service-areas/eagle-mountain-ut/mold-inspection-testing/",
-        "/service-areas/herriman-ut/mold-inspection-testing/",
+        "/service-areas/heber-city-ut/mold-inspection-testing/",
         "/contact/"
       ]
     },
@@ -4646,7 +4796,7 @@
         "/service-areas/american-fork-ut/fire-damage-restoration/",
         "/service-areas/american-fork-ut/mold-remediation/",
         "/service-areas/eagle-mountain-ut/carpet-cleaning/",
-        "/service-areas/herriman-ut/carpet-cleaning/",
+        "/service-areas/heber-city-ut/carpet-cleaning/",
         "/contact/"
       ]
     },
@@ -4690,7 +4840,7 @@
         "/service-areas/american-fork-ut/fire-damage-restoration/",
         "/service-areas/american-fork-ut/mold-remediation/",
         "/service-areas/eagle-mountain-ut/odor-removal/",
-        "/service-areas/herriman-ut/odor-removal/",
+        "/service-areas/heber-city-ut/odor-removal/",
         "/contact/"
       ]
     },
@@ -4734,7 +4884,7 @@
         "/service-areas/american-fork-ut/fire-damage-restoration/",
         "/service-areas/american-fork-ut/mold-remediation/",
         "/service-areas/eagle-mountain-ut/upholstery-cleaning/",
-        "/service-areas/herriman-ut/upholstery-cleaning/",
+        "/service-areas/heber-city-ut/upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -4778,7 +4928,7 @@
         "/service-areas/american-fork-ut/fire-damage-restoration/",
         "/service-areas/american-fork-ut/mold-remediation/",
         "/service-areas/eagle-mountain-ut/tile-grout-cleaning/",
-        "/service-areas/herriman-ut/tile-grout-cleaning/",
+        "/service-areas/heber-city-ut/tile-grout-cleaning/",
         "/contact/"
       ]
     },
@@ -4822,7 +4972,7 @@
         "/service-areas/american-fork-ut/fire-damage-restoration/",
         "/service-areas/american-fork-ut/mold-remediation/",
         "/service-areas/eagle-mountain-ut/fabric-protection/",
-        "/service-areas/herriman-ut/fabric-protection/",
+        "/service-areas/heber-city-ut/fabric-protection/",
         "/contact/"
       ]
     },
@@ -4866,7 +5016,7 @@
         "/service-areas/american-fork-ut/fire-damage-restoration/",
         "/service-areas/american-fork-ut/mold-remediation/",
         "/service-areas/eagle-mountain-ut/junk-debris-removal/",
-        "/service-areas/herriman-ut/junk-debris-removal/",
+        "/service-areas/heber-city-ut/junk-debris-removal/",
         "/contact/"
       ]
     },
@@ -9623,6 +9773,1590 @@
       ]
     },
     {
+      "url_path": "/service-areas/heber-city-ut/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Heber City, UT | Home Pride Restoration and Cleaning",
+      "h1": "Water Damage Restoration in Heber City",
+      "meta_description": "24/7 water damage restoration in Heber City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "water damage restoration heber city",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/heber-city-ut/",
+        "/service-areas/heber-city-ut/fire-damage-restoration/",
+        "/service-areas/heber-city-ut/mold-remediation/",
+        "/service-areas/american-fork-ut/water-damage-restoration/",
+        "/service-areas/eagle-mountain-ut/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/heber-city-ut/burst-pipe-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst Pipe Cleanup and Repair in Heber City, UT | Home Pride Restoration and Cleaning",
+      "h1": "Burst Pipe Cleanup and Repair in Heber City",
+      "meta_description": "24/7 burst pipe cleanup and repair in Heber City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "burst pipe cleanup and repair heber city",
+      "secondary_keywords": [
+        "burst pipe cleanup",
+        "pipe burst emergency",
+        "pipe break water damage",
+        "water line break",
+        "emergency pipe repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-pipe-repair/",
+        "/service-areas/heber-city-ut/",
+        "/service-areas/heber-city-ut/fire-damage-restoration/",
+        "/service-areas/heber-city-ut/mold-remediation/",
+        "/service-areas/american-fork-ut/burst-pipe-repair/",
+        "/service-areas/eagle-mountain-ut/burst-pipe-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/heber-city-ut/frozen-pipe-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Frozen Pipe Restoration in Heber City, UT | Home Pride Restoration and Cleaning",
+      "h1": "Frozen Pipe Restoration in Heber City",
+      "meta_description": "24/7 frozen pipe restoration in Heber City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "frozen pipe restoration heber city",
+      "secondary_keywords": [
+        "frozen pipe damage",
+        "winter pipe burst cleanup",
+        "thawed pipe water damage",
+        "frozen pipe leak repair",
+        "cold weather pipe damage"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/frozen-pipe-restoration/",
+        "/service-areas/heber-city-ut/",
+        "/service-areas/heber-city-ut/fire-damage-restoration/",
+        "/service-areas/heber-city-ut/mold-remediation/",
+        "/service-areas/american-fork-ut/frozen-pipe-restoration/",
+        "/service-areas/eagle-mountain-ut/frozen-pipe-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/heber-city-ut/appliance-leak-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Appliance Leak Cleanup in Heber City, UT | Home Pride Restoration and Cleaning",
+      "h1": "Appliance Leak Cleanup in Heber City",
+      "meta_description": "24/7 appliance leak cleanup in Heber City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "appliance leak cleanup heber city",
+      "secondary_keywords": [
+        "dishwasher leak cleanup",
+        "washing machine flood",
+        "refrigerator leak cleanup",
+        "water heater leak cleanup",
+        "ice maker line leak"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/appliance-leak-cleanup/",
+        "/service-areas/heber-city-ut/",
+        "/service-areas/heber-city-ut/fire-damage-restoration/",
+        "/service-areas/heber-city-ut/mold-remediation/",
+        "/service-areas/american-fork-ut/appliance-leak-cleanup/",
+        "/service-areas/eagle-mountain-ut/appliance-leak-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/heber-city-ut/basement-flooding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Flooding Cleanup in Heber City, UT | Home Pride Restoration and Cleaning",
+      "h1": "Basement Flooding Cleanup in Heber City",
+      "meta_description": "24/7 basement flooding cleanup in Heber City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "basement flooding cleanup heber city",
+      "secondary_keywords": [
+        "flooded basement cleanup",
+        "basement water removal",
+        "wet basement restoration",
+        "basement water damage",
+        "basement drying"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-flooding-cleanup/",
+        "/service-areas/heber-city-ut/",
+        "/service-areas/heber-city-ut/fire-damage-restoration/",
+        "/service-areas/heber-city-ut/mold-remediation/",
+        "/service-areas/american-fork-ut/basement-flooding-cleanup/",
+        "/service-areas/eagle-mountain-ut/basement-flooding-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/heber-city-ut/roof-leak-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Roof Leak Cleanup and Repair in Heber City, UT | Home Pride Restoration and Cleaning",
+      "h1": "Roof Leak Cleanup and Repair in Heber City",
+      "meta_description": "24/7 roof leak cleanup and repair in Heber City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "roof leak cleanup and repair heber city",
+      "secondary_keywords": [
+        "roof leak cleanup",
+        "ceiling water damage",
+        "attic water damage",
+        "roof leak restoration",
+        "interior roof leak damage"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/roof-leak-repair/",
+        "/service-areas/heber-city-ut/",
+        "/service-areas/heber-city-ut/fire-damage-restoration/",
+        "/service-areas/heber-city-ut/mold-remediation/",
+        "/service-areas/american-fork-ut/roof-leak-repair/",
+        "/service-areas/eagle-mountain-ut/roof-leak-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/heber-city-ut/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Heber City, UT | Home Pride Restoration and Cleaning",
+      "h1": "Sewage Cleanup and Sanitization in Heber City",
+      "meta_description": "24/7 sewage cleanup and sanitization in Heber City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "sewage cleanup and sanitization heber city",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/heber-city-ut/",
+        "/service-areas/heber-city-ut/fire-damage-restoration/",
+        "/service-areas/heber-city-ut/mold-remediation/",
+        "/service-areas/american-fork-ut/sewage-cleanup/",
+        "/service-areas/eagle-mountain-ut/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/heber-city-ut/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Heber City, UT | Home Pride Restoration and Cleaning",
+      "h1": "Storm Damage Restoration in Heber City",
+      "meta_description": "24/7 storm damage restoration in Heber City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "storm damage restoration heber city",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/heber-city-ut/",
+        "/service-areas/heber-city-ut/fire-damage-restoration/",
+        "/service-areas/heber-city-ut/mold-remediation/",
+        "/service-areas/american-fork-ut/storm-damage-restoration/",
+        "/service-areas/eagle-mountain-ut/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/heber-city-ut/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Heber City, UT | Home Pride Restoration and Cleaning",
+      "h1": "Fire Damage Restoration in Heber City",
+      "meta_description": "24/7 fire damage restoration in Heber City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "fire damage restoration heber city",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/heber-city-ut/",
+        "/service-areas/heber-city-ut/mold-remediation/",
+        "/service-areas/heber-city-ut/water-damage-restoration/",
+        "/service-areas/american-fork-ut/fire-damage-restoration/",
+        "/service-areas/eagle-mountain-ut/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/heber-city-ut/smoke-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Smoke Damage Restoration in Heber City, UT | Home Pride Restoration and Cleaning",
+      "h1": "Smoke Damage Restoration in Heber City",
+      "meta_description": "24/7 smoke damage restoration in Heber City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "smoke damage restoration heber city",
+      "secondary_keywords": [
+        "smoke residue cleanup",
+        "smoke damage repair",
+        "post-fire smoke cleanup",
+        "smoke damage restoration services",
+        "wildfire smoke cleanup"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/smoke-damage-restoration/",
+        "/service-areas/heber-city-ut/",
+        "/service-areas/heber-city-ut/fire-damage-restoration/",
+        "/service-areas/heber-city-ut/mold-remediation/",
+        "/service-areas/american-fork-ut/smoke-damage-restoration/",
+        "/service-areas/eagle-mountain-ut/smoke-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/heber-city-ut/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Heber City, UT | Home Pride Restoration and Cleaning",
+      "h1": "Mold Remediation in Heber City",
+      "meta_description": "24/7 mold remediation in Heber City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "mold remediation heber city",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/heber-city-ut/",
+        "/service-areas/heber-city-ut/fire-damage-restoration/",
+        "/service-areas/heber-city-ut/water-damage-restoration/",
+        "/service-areas/american-fork-ut/mold-remediation/",
+        "/service-areas/eagle-mountain-ut/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/heber-city-ut/mold-inspection-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Inspection and Testing in Heber City, UT | Home Pride Restoration and Cleaning",
+      "h1": "Mold Inspection and Testing in Heber City",
+      "meta_description": "24/7 mold inspection and testing in Heber City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "mold inspection and testing heber city",
+      "secondary_keywords": [
+        "mold inspection",
+        "mold testing",
+        "indoor air quality testing",
+        "mold spore testing",
+        "mold assessment"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-inspection-testing/",
+        "/service-areas/heber-city-ut/",
+        "/service-areas/heber-city-ut/fire-damage-restoration/",
+        "/service-areas/heber-city-ut/mold-remediation/",
+        "/service-areas/american-fork-ut/mold-inspection-testing/",
+        "/service-areas/eagle-mountain-ut/mold-inspection-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/heber-city-ut/carpet-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet Cleaning in Heber City, UT | Home Pride Restoration and Cleaning",
+      "h1": "Carpet Cleaning in Heber City",
+      "meta_description": "24/7 carpet cleaning in Heber City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "carpet cleaning heber city",
+      "secondary_keywords": [
+        "professional carpet cleaning",
+        "deep carpet cleaning",
+        "carpet stain removal",
+        "commercial carpet cleaning",
+        "carpet sanitization"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-cleaning/",
+        "/service-areas/heber-city-ut/",
+        "/service-areas/heber-city-ut/fire-damage-restoration/",
+        "/service-areas/heber-city-ut/mold-remediation/",
+        "/service-areas/american-fork-ut/carpet-cleaning/",
+        "/service-areas/eagle-mountain-ut/carpet-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/heber-city-ut/odor-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Odor Removal and Deodorization in Heber City, UT | Home Pride Restoration and Cleaning",
+      "h1": "Odor Removal and Deodorization in Heber City",
+      "meta_description": "24/7 odor removal and deodorization in Heber City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "odor removal and deodorization heber city",
+      "secondary_keywords": [
+        "smoke odor removal",
+        "ozone treatment",
+        "hydroxyl deodorization",
+        "thermal fogging",
+        "professional odor elimination"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/odor-removal/",
+        "/service-areas/heber-city-ut/",
+        "/service-areas/heber-city-ut/fire-damage-restoration/",
+        "/service-areas/heber-city-ut/mold-remediation/",
+        "/service-areas/american-fork-ut/odor-removal/",
+        "/service-areas/eagle-mountain-ut/odor-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/heber-city-ut/upholstery-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Upholstery Cleaning in Heber City, UT | Home Pride Restoration and Cleaning",
+      "h1": "Upholstery Cleaning in Heber City",
+      "meta_description": "24/7 upholstery cleaning in Heber City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "upholstery cleaning heber city",
+      "secondary_keywords": [
+        "sofa cleaning",
+        "couch cleaning",
+        "furniture steam cleaning",
+        "leather upholstery cleaning",
+        "fabric upholstery cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/upholstery-cleaning/",
+        "/service-areas/heber-city-ut/",
+        "/service-areas/heber-city-ut/fire-damage-restoration/",
+        "/service-areas/heber-city-ut/mold-remediation/",
+        "/service-areas/american-fork-ut/upholstery-cleaning/",
+        "/service-areas/eagle-mountain-ut/upholstery-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/heber-city-ut/tile-grout-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Tile & Grout Cleaning in Heber City, UT | Home Pride Restoration and Cleaning",
+      "h1": "Tile & Grout Cleaning in Heber City",
+      "meta_description": "24/7 tile & grout cleaning in Heber City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "tile & grout cleaning heber city",
+      "secondary_keywords": [
+        "grout cleaning",
+        "tile cleaning",
+        "grout sealing",
+        "grout restoration",
+        "floor tile cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/tile-grout-cleaning/",
+        "/service-areas/heber-city-ut/",
+        "/service-areas/heber-city-ut/fire-damage-restoration/",
+        "/service-areas/heber-city-ut/mold-remediation/",
+        "/service-areas/american-fork-ut/tile-grout-cleaning/",
+        "/service-areas/eagle-mountain-ut/tile-grout-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/heber-city-ut/fabric-protection/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fabric Protection in Heber City, UT | Home Pride Restoration and Cleaning",
+      "h1": "Fabric Protection in Heber City",
+      "meta_description": "24/7 fabric protection in Heber City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "fabric protection heber city",
+      "secondary_keywords": [
+        "carpet protection",
+        "upholstery protection",
+        "stain guard",
+        "scotchgard application",
+        "fabric stain protection"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fabric-protection/",
+        "/service-areas/heber-city-ut/",
+        "/service-areas/heber-city-ut/fire-damage-restoration/",
+        "/service-areas/heber-city-ut/mold-remediation/",
+        "/service-areas/american-fork-ut/fabric-protection/",
+        "/service-areas/eagle-mountain-ut/fabric-protection/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/heber-city-ut/junk-debris-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Junk & Debris Removal in Heber City, UT | Home Pride Restoration and Cleaning",
+      "h1": "Junk & Debris Removal in Heber City",
+      "meta_description": "24/7 junk & debris removal in Heber City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "junk & debris removal heber city",
+      "secondary_keywords": [
+        "junk removal",
+        "debris removal",
+        "house cleanout",
+        "garage cleanout",
+        "hauling services"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/junk-debris-removal/",
+        "/service-areas/heber-city-ut/",
+        "/service-areas/heber-city-ut/fire-damage-restoration/",
+        "/service-areas/heber-city-ut/mold-remediation/",
+        "/service-areas/american-fork-ut/junk-debris-removal/",
+        "/service-areas/eagle-mountain-ut/junk-debris-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/park-city-ut/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Park City, UT | Home Pride Restoration and Cleaning",
+      "h1": "Water Damage Restoration in Park City",
+      "meta_description": "24/7 water damage restoration in Park City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "water damage restoration park city",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/park-city-ut/",
+        "/service-areas/park-city-ut/fire-damage-restoration/",
+        "/service-areas/park-city-ut/mold-remediation/",
+        "/service-areas/american-fork-ut/water-damage-restoration/",
+        "/service-areas/eagle-mountain-ut/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/park-city-ut/burst-pipe-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst Pipe Cleanup and Repair in Park City, UT | Home Pride Restoration and Cleaning",
+      "h1": "Burst Pipe Cleanup and Repair in Park City",
+      "meta_description": "24/7 burst pipe cleanup and repair in Park City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "burst pipe cleanup and repair park city",
+      "secondary_keywords": [
+        "burst pipe cleanup",
+        "pipe burst emergency",
+        "pipe break water damage",
+        "water line break",
+        "emergency pipe repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-pipe-repair/",
+        "/service-areas/park-city-ut/",
+        "/service-areas/park-city-ut/fire-damage-restoration/",
+        "/service-areas/park-city-ut/mold-remediation/",
+        "/service-areas/american-fork-ut/burst-pipe-repair/",
+        "/service-areas/eagle-mountain-ut/burst-pipe-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/park-city-ut/frozen-pipe-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Frozen Pipe Restoration in Park City, UT | Home Pride Restoration and Cleaning",
+      "h1": "Frozen Pipe Restoration in Park City",
+      "meta_description": "24/7 frozen pipe restoration in Park City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "frozen pipe restoration park city",
+      "secondary_keywords": [
+        "frozen pipe damage",
+        "winter pipe burst cleanup",
+        "thawed pipe water damage",
+        "frozen pipe leak repair",
+        "cold weather pipe damage"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/frozen-pipe-restoration/",
+        "/service-areas/park-city-ut/",
+        "/service-areas/park-city-ut/fire-damage-restoration/",
+        "/service-areas/park-city-ut/mold-remediation/",
+        "/service-areas/american-fork-ut/frozen-pipe-restoration/",
+        "/service-areas/eagle-mountain-ut/frozen-pipe-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/park-city-ut/appliance-leak-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Appliance Leak Cleanup in Park City, UT | Home Pride Restoration and Cleaning",
+      "h1": "Appliance Leak Cleanup in Park City",
+      "meta_description": "24/7 appliance leak cleanup in Park City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "appliance leak cleanup park city",
+      "secondary_keywords": [
+        "dishwasher leak cleanup",
+        "washing machine flood",
+        "refrigerator leak cleanup",
+        "water heater leak cleanup",
+        "ice maker line leak"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/appliance-leak-cleanup/",
+        "/service-areas/park-city-ut/",
+        "/service-areas/park-city-ut/fire-damage-restoration/",
+        "/service-areas/park-city-ut/mold-remediation/",
+        "/service-areas/american-fork-ut/appliance-leak-cleanup/",
+        "/service-areas/eagle-mountain-ut/appliance-leak-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/park-city-ut/basement-flooding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Flooding Cleanup in Park City, UT | Home Pride Restoration and Cleaning",
+      "h1": "Basement Flooding Cleanup in Park City",
+      "meta_description": "24/7 basement flooding cleanup in Park City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "basement flooding cleanup park city",
+      "secondary_keywords": [
+        "flooded basement cleanup",
+        "basement water removal",
+        "wet basement restoration",
+        "basement water damage",
+        "basement drying"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-flooding-cleanup/",
+        "/service-areas/park-city-ut/",
+        "/service-areas/park-city-ut/fire-damage-restoration/",
+        "/service-areas/park-city-ut/mold-remediation/",
+        "/service-areas/american-fork-ut/basement-flooding-cleanup/",
+        "/service-areas/eagle-mountain-ut/basement-flooding-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/park-city-ut/roof-leak-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Roof Leak Cleanup and Repair in Park City, UT | Home Pride Restoration and Cleaning",
+      "h1": "Roof Leak Cleanup and Repair in Park City",
+      "meta_description": "24/7 roof leak cleanup and repair in Park City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "roof leak cleanup and repair park city",
+      "secondary_keywords": [
+        "roof leak cleanup",
+        "ceiling water damage",
+        "attic water damage",
+        "roof leak restoration",
+        "interior roof leak damage"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/roof-leak-repair/",
+        "/service-areas/park-city-ut/",
+        "/service-areas/park-city-ut/fire-damage-restoration/",
+        "/service-areas/park-city-ut/mold-remediation/",
+        "/service-areas/american-fork-ut/roof-leak-repair/",
+        "/service-areas/eagle-mountain-ut/roof-leak-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/park-city-ut/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Park City, UT | Home Pride Restoration and Cleaning",
+      "h1": "Sewage Cleanup and Sanitization in Park City",
+      "meta_description": "24/7 sewage cleanup and sanitization in Park City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "sewage cleanup and sanitization park city",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/park-city-ut/",
+        "/service-areas/park-city-ut/fire-damage-restoration/",
+        "/service-areas/park-city-ut/mold-remediation/",
+        "/service-areas/american-fork-ut/sewage-cleanup/",
+        "/service-areas/eagle-mountain-ut/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/park-city-ut/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Park City, UT | Home Pride Restoration and Cleaning",
+      "h1": "Storm Damage Restoration in Park City",
+      "meta_description": "24/7 storm damage restoration in Park City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "storm damage restoration park city",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/park-city-ut/",
+        "/service-areas/park-city-ut/fire-damage-restoration/",
+        "/service-areas/park-city-ut/mold-remediation/",
+        "/service-areas/american-fork-ut/storm-damage-restoration/",
+        "/service-areas/eagle-mountain-ut/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/park-city-ut/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Park City, UT | Home Pride Restoration and Cleaning",
+      "h1": "Fire Damage Restoration in Park City",
+      "meta_description": "24/7 fire damage restoration in Park City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "fire damage restoration park city",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/park-city-ut/",
+        "/service-areas/park-city-ut/mold-remediation/",
+        "/service-areas/park-city-ut/water-damage-restoration/",
+        "/service-areas/american-fork-ut/fire-damage-restoration/",
+        "/service-areas/eagle-mountain-ut/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/park-city-ut/smoke-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Smoke Damage Restoration in Park City, UT | Home Pride Restoration and Cleaning",
+      "h1": "Smoke Damage Restoration in Park City",
+      "meta_description": "24/7 smoke damage restoration in Park City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "smoke damage restoration park city",
+      "secondary_keywords": [
+        "smoke residue cleanup",
+        "smoke damage repair",
+        "post-fire smoke cleanup",
+        "smoke damage restoration services",
+        "wildfire smoke cleanup"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/smoke-damage-restoration/",
+        "/service-areas/park-city-ut/",
+        "/service-areas/park-city-ut/fire-damage-restoration/",
+        "/service-areas/park-city-ut/mold-remediation/",
+        "/service-areas/american-fork-ut/smoke-damage-restoration/",
+        "/service-areas/eagle-mountain-ut/smoke-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/park-city-ut/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Park City, UT | Home Pride Restoration and Cleaning",
+      "h1": "Mold Remediation in Park City",
+      "meta_description": "24/7 mold remediation in Park City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "mold remediation park city",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/park-city-ut/",
+        "/service-areas/park-city-ut/fire-damage-restoration/",
+        "/service-areas/park-city-ut/water-damage-restoration/",
+        "/service-areas/american-fork-ut/mold-remediation/",
+        "/service-areas/eagle-mountain-ut/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/park-city-ut/mold-inspection-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Inspection and Testing in Park City, UT | Home Pride Restoration and Cleaning",
+      "h1": "Mold Inspection and Testing in Park City",
+      "meta_description": "24/7 mold inspection and testing in Park City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "mold inspection and testing park city",
+      "secondary_keywords": [
+        "mold inspection",
+        "mold testing",
+        "indoor air quality testing",
+        "mold spore testing",
+        "mold assessment"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-inspection-testing/",
+        "/service-areas/park-city-ut/",
+        "/service-areas/park-city-ut/fire-damage-restoration/",
+        "/service-areas/park-city-ut/mold-remediation/",
+        "/service-areas/american-fork-ut/mold-inspection-testing/",
+        "/service-areas/eagle-mountain-ut/mold-inspection-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/park-city-ut/carpet-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet Cleaning in Park City, UT | Home Pride Restoration and Cleaning",
+      "h1": "Carpet Cleaning in Park City",
+      "meta_description": "24/7 carpet cleaning in Park City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "carpet cleaning park city",
+      "secondary_keywords": [
+        "professional carpet cleaning",
+        "deep carpet cleaning",
+        "carpet stain removal",
+        "commercial carpet cleaning",
+        "carpet sanitization"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-cleaning/",
+        "/service-areas/park-city-ut/",
+        "/service-areas/park-city-ut/fire-damage-restoration/",
+        "/service-areas/park-city-ut/mold-remediation/",
+        "/service-areas/american-fork-ut/carpet-cleaning/",
+        "/service-areas/eagle-mountain-ut/carpet-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/park-city-ut/odor-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Odor Removal and Deodorization in Park City, UT | Home Pride Restoration and Cleaning",
+      "h1": "Odor Removal and Deodorization in Park City",
+      "meta_description": "24/7 odor removal and deodorization in Park City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "odor removal and deodorization park city",
+      "secondary_keywords": [
+        "smoke odor removal",
+        "ozone treatment",
+        "hydroxyl deodorization",
+        "thermal fogging",
+        "professional odor elimination"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/odor-removal/",
+        "/service-areas/park-city-ut/",
+        "/service-areas/park-city-ut/fire-damage-restoration/",
+        "/service-areas/park-city-ut/mold-remediation/",
+        "/service-areas/american-fork-ut/odor-removal/",
+        "/service-areas/eagle-mountain-ut/odor-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/park-city-ut/upholstery-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Upholstery Cleaning in Park City, UT | Home Pride Restoration and Cleaning",
+      "h1": "Upholstery Cleaning in Park City",
+      "meta_description": "24/7 upholstery cleaning in Park City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "upholstery cleaning park city",
+      "secondary_keywords": [
+        "sofa cleaning",
+        "couch cleaning",
+        "furniture steam cleaning",
+        "leather upholstery cleaning",
+        "fabric upholstery cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/upholstery-cleaning/",
+        "/service-areas/park-city-ut/",
+        "/service-areas/park-city-ut/fire-damage-restoration/",
+        "/service-areas/park-city-ut/mold-remediation/",
+        "/service-areas/american-fork-ut/upholstery-cleaning/",
+        "/service-areas/eagle-mountain-ut/upholstery-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/park-city-ut/tile-grout-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Tile & Grout Cleaning in Park City, UT | Home Pride Restoration and Cleaning",
+      "h1": "Tile & Grout Cleaning in Park City",
+      "meta_description": "24/7 tile & grout cleaning in Park City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "tile & grout cleaning park city",
+      "secondary_keywords": [
+        "grout cleaning",
+        "tile cleaning",
+        "grout sealing",
+        "grout restoration",
+        "floor tile cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/tile-grout-cleaning/",
+        "/service-areas/park-city-ut/",
+        "/service-areas/park-city-ut/fire-damage-restoration/",
+        "/service-areas/park-city-ut/mold-remediation/",
+        "/service-areas/american-fork-ut/tile-grout-cleaning/",
+        "/service-areas/eagle-mountain-ut/tile-grout-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/park-city-ut/fabric-protection/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fabric Protection in Park City, UT | Home Pride Restoration and Cleaning",
+      "h1": "Fabric Protection in Park City",
+      "meta_description": "24/7 fabric protection in Park City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "fabric protection park city",
+      "secondary_keywords": [
+        "carpet protection",
+        "upholstery protection",
+        "stain guard",
+        "scotchgard application",
+        "fabric stain protection"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fabric-protection/",
+        "/service-areas/park-city-ut/",
+        "/service-areas/park-city-ut/fire-damage-restoration/",
+        "/service-areas/park-city-ut/mold-remediation/",
+        "/service-areas/american-fork-ut/fabric-protection/",
+        "/service-areas/eagle-mountain-ut/fabric-protection/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/park-city-ut/junk-debris-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Junk & Debris Removal in Park City, UT | Home Pride Restoration and Cleaning",
+      "h1": "Junk & Debris Removal in Park City",
+      "meta_description": "24/7 junk & debris removal in Park City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "junk & debris removal park city",
+      "secondary_keywords": [
+        "junk removal",
+        "debris removal",
+        "house cleanout",
+        "garage cleanout",
+        "hauling services"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/junk-debris-removal/",
+        "/service-areas/park-city-ut/",
+        "/service-areas/park-city-ut/fire-damage-restoration/",
+        "/service-areas/park-city-ut/mold-remediation/",
+        "/service-areas/american-fork-ut/junk-debris-removal/",
+        "/service-areas/eagle-mountain-ut/junk-debris-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/blog/what-to-do-first-24-hours-water-damage/",
       "archetype": "blog-post",
       "vars_keys": [
@@ -9764,8 +11498,46 @@
         "/blog/",
         "/services/mold-remediation/",
         "/blog/choosing-a-restoration-company/",
-        "/blog/black-mold-vs-regular-mold/",
-        "/blog/mold-after-water-damage/"
+        "/blog/how-to-test-for-mold/",
+        "/blog/black-mold-vs-regular-mold/"
+      ]
+    },
+    {
+      "url_path": "/blog/how-to-test-for-mold/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "How To Test for Mold in Your Home (DIY Kits vs a Pro Inspection)",
+      "h1": "How To Test for Mold in Your Home (DIY Kits vs a Pro Inspection)",
+      "meta_description": "",
+      "primary_keyword": "how to test for mold in your home diy kits vs a pro inspection",
+      "secondary_keywords": [
+        "mold remediation",
+        "mold inspection and testing"
+      ],
+      "search_intent": "informational_health",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/mold-remediation/",
+        "/services/mold-inspection-testing/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/signs-of-hidden-mold/",
+        "/blog/black-mold-vs-regular-mold/"
       ]
     },
     {
@@ -9877,8 +11649,8 @@
         "/blog/",
         "/services/mold-remediation/",
         "/blog/choosing-a-restoration-company/",
-        "/blog/signs-of-hidden-mold/",
-        "/blog/mold-after-water-damage/"
+        "/blog/how-to-test-for-mold/",
+        "/blog/signs-of-hidden-mold/"
       ]
     },
     {
@@ -10023,39 +11795,6 @@
         "/services/smoke-damage-restoration/",
         "/blog/choosing-a-restoration-company/",
         "/blog/fire-damage-restoration-process/"
-      ]
-    },
-    {
-      "url_path": "/blog/sewage-backup-health-risks/",
-      "archetype": "blog-post",
-      "vars_keys": [
-        "post"
-      ],
-      "title": "Why You Can't DIY Sewage Backup: The Health Risks Nobody Warns You About",
-      "h1": "Why You Can't DIY Sewage Backup: The Health Risks Nobody Warns You About",
-      "meta_description": "",
-      "primary_keyword": "why you cant diy sewage backup the health risks nobody warns you about",
-      "secondary_keywords": [
-        "sewage cleanup and sanitization"
-      ],
-      "search_intent": "informational_health",
-      "target_word_count": 1400,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "blog-posting",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.2,
-      "status": "planned",
-      "internal_links_out": [
-        "/blog/",
-        "/services/sewage-cleanup/"
       ]
     },
     {

@@ -1,22 +1,22 @@
 # Site Plan Report — Home Pride Restoration and Cleaning
 
 - Template: `restoration` v0.2.0
-- Generated: 2026-06-15T18:11:27.370136+00:00
+- Generated: 2026-06-24T00:30:34.562421+00:00
 - Domain: `homepriderestorationandcleaning.com`
 - Services selected: 18 of 44 catalog entries
-- Service areas: 10
+- Service areas: 12
 - Cross-product enabled: True
-- Total URLs: **229**
-- Total internal links: 1859 (avg 8.1 per page)
+- Total URLs: **267**
+- Total internal links: 2201 (avg 8.2 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 180 |
+| `service-area-service` | 216 |
 | `service-landing` | 18 |
+| `service-area` | 12 |
 | `blog-post` | 12 |
-| `service-area` | 10 |
 | `legal` | 3 |
 | `home` | 1 |
 | `services-hub` | 1 |
@@ -58,6 +58,8 @@
 - `herriman-ut` — Herriman, UT
 - `south-jordan-ut` — South Jordan, UT
 - `riverton-ut` — Riverton, UT
+- `heber-city-ut` — Heber City, UT
+- `park-city-ut` — Park City, UT
 
 ## Top 10 priority pages
 
