@@ -23,7 +23,7 @@
   },
   "status": "active",
   "created_at": "2026-06-15T16:36:28.124334+00:00",
-  "updated_at": "2026-06-24T05:30:00Z",
+  "updated_at": "2026-06-24T16:44:27Z",
   "plan_status": "planned",
   "plan": {
     "template": "restoration",
@@ -63,5 +63,11 @@
     "completed_at": "2026-06-18T00:06:15Z",
     "live_origin": "https://homepriderestorationandcleaning.com",
     "method": "cloudflare-pages-custom-domain"
+  },
+  "refresh": {
+    "last_run_at": "2026-06-24T16:44:27Z",
+    "last_run_total_actions": 0,
+    "last_run_top_action": "none",
+    "last_run_report_path": "clients/homepriderestorationandcleaning/refresh-runs/2026-06-24-refresh-recommender.md"
   }
 }
