@@ -2,10 +2,10 @@
   "items": [
     {
       "id": "2026-06-23-ice-dam-removal-park-city",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-06-24T00:29:58Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-06-24T05:26:45Z",
+      "post_url": "https://homepriderestorationandcleaning.com/blog/ice-dam-removal-park-city/",
       "primary_keyword": "ice dam removal",
       "intent": "informational",
       "volume": 4400,
