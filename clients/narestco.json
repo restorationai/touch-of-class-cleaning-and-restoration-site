@@ -80,5 +80,15 @@
   "brand": {
     "google_ads_customer_id": "3832550597"
   },
-  "company_id": "CO-1771290587387"
+  "company_id": "CO-1771290587387",
+  "ops_alerts": [
+    {
+      "key": "lsa_not_serving",
+      "title": "Google LSA not serving (verification stalled)",
+      "detail": "Local Services Ads aren't showing despite high bids/budget. Verification/background-check artifacts pending \u2014 needs manual follow-up with Google LSA support.",
+      "severity": "high",
+      "system": "ads",
+      "status": "open"
+    }
+  ]
 }

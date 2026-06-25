@@ -134,10 +134,57 @@ def gather_audit(slug: str) -> dict:
     return json.loads(rec.read_text()).get("audit", {}) or {}
 
 
+def gather_alerts(slug: str, content: dict, ai: dict, audit: dict) -> list[dict]:
+    """Account-health flags that need a human's attention (not routine work).
+    Two sources: (1) auto-derived from the signals we already gathered, and
+    (2) operator-set flags in clients/{slug}.json['ops_alerts'] (e.g. narestco LSA)."""
+    alerts: list[dict] = []
+
+    # (1) Operator-set ops alerts — highest signal (a human flagged it).
+    rec = ROOT / "clients" / f"{slug}.json"
+    if rec.exists():
+        for a in (json.loads(rec.read_text()).get("ops_alerts") or []):
+            if (a.get("status") or "open").lower() != "open":
+                continue
+            alerts.append({
+                "title": a.get("title") or "Account needs attention",
+                "rationale": a.get("detail") or "",
+                "target": a.get("key") or a.get("title"),
+                "severity": (a.get("severity") or "high").lower(),
+                "system": a.get("system") or "manual",
+            })
+
+    # (2) Auto-derived flags from the signals.
+    if (audit.get("last_audit_verdict") or "").lower() == "red":
+        alerts.append({"title": "Site health is critical (red audit)",
+                       "rationale": f"Latest onsite audit verdict is red ({audit.get('last_audit_at','')}).",
+                       "target": "audit_red", "severity": "high", "system": "s3"})
+    if content.get("queued", 1) == 0:
+        alerts.append({"title": "Content queue is empty",
+                       "rationale": "No posts queued — publishing will stop until the queue is refilled.",
+                       "target": "queue_empty", "severity": "high", "system": "s1"})
+    if ai.get("total", 0) > 0 and ai.get("cited", 0) == 0:
+        alerts.append({"title": "Invisible in AI search",
+                       "rationale": f"Not recommended in any of {ai['total']} AI money questions scanned.",
+                       "target": "ai_invisible", "severity": "high", "system": "s2"})
+    return alerts
+
+
 # ----------------------------------------------------------------- build + rank
-def build_actions(geo: list[dict], content: dict, audit: dict, ai: dict | None = None) -> list[dict]:
+def build_actions(geo: list[dict], content: dict, audit: dict, ai: dict | None = None,
+                  alerts: list[dict] | None = None) -> list[dict]:
     acts: list[dict] = []
     ai = ai or {"missing": []}
+
+    # Alerts: account-health flags surfaced as a "Needs Attention" section in the app.
+    # action_type='alert' so the UI can split them from routine actions.
+    for al in (alerts or []):
+        acts.append({
+            "action_type": "alert", "assigned_system": al.get("system", "manual"),
+            "title": al["title"], "rationale": al.get("rationale", ""),
+            "target": al.get("target"),
+            "impact": al.get("severity", "high"), "effort": "low", "is_alert": True,
+        })
 
     # AI search: money questions where AI assistants don't recommend the client.
     # High strategic priority — this is where buyers increasingly start.
@@ -192,9 +239,12 @@ def build_actions(geo: list[dict], content: dict, audit: dict, ai: dict | None =
             "target": None, "impact": "high" if verdict == "red" else "medium", "effort": "medium",
         })
 
-    acts.sort(key=lambda a: (IMPACT_RANK.get(a["impact"], 9), EFFORT_RANK.get(a["effort"], 9)))
+    # Alerts first (most severe), then routine actions by impact/effort.
+    acts.sort(key=lambda a: (0 if a.get("is_alert") else 1,
+                             IMPACT_RANK.get(a["impact"], 9), EFFORT_RANK.get(a["effort"], 9)))
     for i, a in enumerate(acts, 1):
         a["priority"] = i
+        a.pop("is_alert", None)
         # stable identity so re-runs don't resurrect a dismissed action or lose a pin
         a["action_key"] = hashlib.sha1(
             f"{a['action_type']}|{a.get('target') or ''}".encode()).hexdigest()[:16]
@@ -211,12 +261,13 @@ def run_for(slug: str, dry_run: bool) -> int:
     content = gather_content(slug)
     audit = gather_audit(slug)
     ai = gather_ai_search(company_id)
-    actions = build_actions(geo, content, audit, ai)
+    alerts = gather_alerts(slug, content, ai, audit)
+    actions = build_actions(geo, content, audit, ai, alerts)
     now = datetime.now(timezone.utc).isoformat()
 
     ai_summary = f"{ai['cited']}/{ai['total']} AI-cited" if ai["total"] else "no AI scan"
     print(f"\n=== Strategist plan — {slug} ({company_id}) ===")
-    print(f"signals: {len(geo)} weak geo cells | {content['queued']} queued posts | "
+    print(f"signals: {len(alerts)} alerts | {len(geo)} weak geo cells | {content['queued']} queued posts | "
           f"{len(content['uncovered'])} uncovered kw | {ai_summary} | "
           f"audit={audit.get('last_audit_verdict','?')}\n")
     for a in actions:
