@@ -106,6 +106,34 @@ def money_queries(ident: dict, limit: int) -> list[dict]:
     return qs[:limit]
 
 
+def detect_rank(answer: str, brand_name: str, domain: str) -> int | None:
+    """Approximate the client's position in the AI's recommendation.
+    1 = top pick; N = listed Nth; None = cited but position unclear (or not cited).
+    Heuristics: ordered list entries first, then a 'the best … is X' headline."""
+    if not answer:
+        return None
+    low = answer.lower()
+    bn = (brand_name or "").lower().strip()
+    droot = (domain or "").split(".")[0].lower()
+    def hit(text: str) -> bool:
+        t = text.lower()
+        return bool((bn and bn in t) or (droot and len(droot) > 3 and droot in t))
+    # numbered/bulleted list entries: "1. Name", "1) Name", "**1. Name**", "- **Name**"
+    import re as _re
+    numbered = _re.findall(r'(?m)^\s*\*{0,2}(\d+)[.)]\s*\*{0,2}([^\n*]{2,90})', answer)
+    for num, text in numbered:
+        if hit(text):
+            return int(num)
+    bullets = _re.findall(r'(?m)^\s*[-*•]\s*\*{0,2}([^\n*]{2,90})', answer)
+    for i, text in enumerate(bullets, 1):
+        if hit(text):
+            return i
+    # headline pattern: "the best … is X" / brand named in the first ~180 chars
+    if bn and bn in low[:180]:
+        return 1
+    return None
+
+
 def _walk(obj, texts, urls):
     if isinstance(obj, dict):
         for k, v in obj.items():
@@ -184,13 +212,14 @@ def run_for(slug: str, auth: str, limit: int, engines: list[str], dry_run: bool)
             cited = (ident["domain"] and ident["domain"] in r["domains"]) or \
                     (ident["name"] and ident["name"] in ans_l)
             eng_cited += 1 if cited else 0
+            rank = detect_rank(r["answer"], ident["name"], ident["domain"]) if cited else None
             sources = [{"domain": d, "directory": any(d.endswith(x) for x in DIRECTORY_DOMAINS)}
                        for d in r["domains"][:12]]
             rows.append({
                 "company_id": cid, "rank_ai_slug": slug, "engine": engine, "query": q["query"],
-                "location": q["location"], "cited": bool(cited), "client_rank": None,
+                "location": q["location"], "cited": bool(cited), "client_rank": rank,
                 "competitors": None, "cited_sources": sources,
-                "answer_excerpt": r["answer"][:400], "scanned_at": now,
+                "answer_excerpt": r["answer"][:600], "scanned_at": now,
             })
         print(f"  {engine:11} cited {eng_cited}/{len(queries)}")
     print(f"  spend: ${spend:.3f} | cited in {sum(1 for x in rows if x['cited'])}/{len(rows)} (all engines)")
