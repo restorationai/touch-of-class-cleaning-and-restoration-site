@@ -94,6 +94,17 @@ Clients connect Google Ads/GBP/Search Console/YouTube via an emailed/texted link
 
 **Convention:** update this journal as we go — new features, decisions, specs, learnings. Newest first.
 
+### 2026-06-26 — AI Search v2: multi-engine + redesign (BUILT)
+Working the agreed roadmap (1 multi-LLM, 2 redesign, then 3 content-wiring, 4 strategist rebalance). Items 1+2 done.
+
+**Bug fixed first (keyword dupes):** `marketing_keywords` unique index `(company_id,keyword,city)` let `city=NULL` (national) rows duplicate every sync (Postgres treats NULL as distinct). Rebuilt index `NULLS NOT DISTINCT` (PG17), deleted **1,265** dupe rows, sync now idempotent. Also fixed the dev clone blank screen: `/tmp/rankai/Restoration-AI-APP` had no dev env → wrote `.env.local` from the **correct** project (`nyscciinkhlutvqkgyvq`; the repo's `.env.staging` points at a *different* project `cahi…`).
+
+**1. Multi-engine scanner** (`ai_search_scan.py`): `ENGINES` map → ChatGPT (`chat_gpt`/gpt-4o), Gemini (`gemini`/gemini-2.5-flash), Perplexity (`perplexity`/sonar), Claude available but off by default (low ROI for local-service). `--engines` flag, default chatgpt,gemini,perplexity. All four DataForSEO endpoints verified live (`/ai_optimization/{provider}/llm_responses/live`). Engine priority rationale: ChatGPT (biggest) → Gemini/Google AI (in Google Search where local searches happen — highest ROI) → Perplexity → skip Claude. **dry-run is now offline** (was making real API calls).
+**2a. Top-10 + locations:** `money_queries` now returns up to 10 `{query,city,state,location}` across top 4 services × 4 cities (service-major so early rows span cities); added `location` column to `marketing_ai_search_scans`. App `MarketingAISearch.tsx`: **engine filter + location filter**, location chip per row, and **per-row Prioritize** on uncited rows → find-or-create a **pinned `ai_visibility`** action using the **same `action_key` = sha1("ai_visibility|"+query)[:16]** as the strategist (so no dup on next run); shows "In plan" once pinned. Weekly workflow → `--limit 8 --engines chatgpt,gemini,perplexity` (~$5/wk at 3 clients).
+**2b. Guard-railed custom queries:** still TODO (phase 2).
+
+Pipeline commit 5386aa7; app PR #13 updated (branch `feat/ai-search-view`, commit 3309858). Cost note: ~$0.075/query × engines.
+
 ### 2026-06-25 (pm-3) — Actionable Keyword Bank (BUILT — PR #15, app)
 Replaced the static keyword table (`components/MarketingKeywordBank.tsx`, swapped into Content → Keyword Bank sub-tab).
 - Summary chips (total / covered / uncovered-P1 / local-national); filters: search, scope (local/national via `city`), coverage (covered vs gap via `covered_by`), priority, sort (priority/volume/difficulty), show-dismissed.
