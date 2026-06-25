@@ -86,18 +86,33 @@ def gather_geogrid(company_id: str) -> list[dict]:
     return weak
 
 
+TRANSACTIONAL_INTENTS = ("transactional", "commercial")
+
+
+def _is_local_tx(kw: dict) -> bool:
+    """Local + buy-intent = a real lead driver (someone hiring in a city we serve)."""
+    return bool(kw.get("city_modifier")) and (kw.get("intent") in TRANSACTIONAL_INTENTS)
+
+
 def gather_content(slug: str, company_id: str | None = None) -> dict:
     cdir = ROOT / "clients" / slug
     q = cdir / "content-queue.json"
     queued = 0
     if q.exists():
         queued = sum(1 for i in json.loads(q.read_text()).get("items", []) if i.get("status") == "queued")
+
     bank = cdir / "keyword-bank.json"
-    uncovered = []
+    uncovered = []          # priority-1 uncovered, each: {keyword, intent, city, local_tx}
+    local_tx_total = 0
     if bank.exists():
         for k in json.loads(bank.read_text()).get("keywords", []):
+            if _is_local_tx(k):
+                local_tx_total += 1
             if k.get("priority") == 1 and not k.get("covered_by"):
-                uncovered.append(k.get("keyword"))
+                uncovered.append({
+                    "keyword": k.get("keyword"), "intent": k.get("intent"),
+                    "city": k.get("city_modifier"), "local_tx": _is_local_tx(k),
+                })
 
     # Honor operator overrides from the app's Keyword Bank (marketing_keywords.status):
     # drop dismissed keywords, and float queued ones to the front.
@@ -107,9 +122,21 @@ def gather_content(slug: str, company_id: str | None = None) -> dict:
                    "&select=keyword,status&status=in.(queued,dismissed)") or []
         dismissed = {r["keyword"] for r in rows if r.get("status") == "dismissed"}
         queued_kw = {r["keyword"] for r in rows if r.get("status") == "queued"}
-        uncovered = [k for k in uncovered if k not in dismissed]
-        uncovered.sort(key=lambda k: 0 if k in queued_kw else 1)
-    return {"queued": queued, "uncovered": uncovered}
+        uncovered = [u for u in uncovered if u["keyword"] not in dismissed]
+        # queued first, then local-transactional before generic informational
+        uncovered.sort(key=lambda u: (0 if u["keyword"] in queued_kw else 1,
+                                      0 if u["local_tx"] else 1))
+    else:
+        uncovered.sort(key=lambda u: 0 if u["local_tx"] else 1)
+
+    # how many service areas have NO local-transactional coverage at all
+    n_areas = 0
+    pi = cdir / "plan-input.json"
+    if pi.exists():
+        n_areas = len(json.loads(pi.read_text()).get("service_areas", []))
+
+    return {"queued": queued, "uncovered": uncovered,
+            "local_tx_total": local_tx_total, "n_areas": n_areas}
 
 
 def gather_ai_search(company_id: str) -> dict:
@@ -225,7 +252,8 @@ def build_actions(geo: list[dict], content: dict, audit: dict, ai: dict | None =
             "target": f"{kw} | {w['city']}", "impact": "high", "effort": "medium",
         })
 
-    # Content: thin queue -> research; uncovered priority-1 -> write posts.
+    # Content — weighted for LEAD GEN:
+    #   local-transactional gaps (drive calls) = HIGH; generic informational = LOW (support).
     if content["queued"] < 3:
         acts.append({
             "action_type": "keyword_research", "assigned_system": "s1",
@@ -233,12 +261,37 @@ def build_actions(geo: list[dict], content: dict, audit: dict, ai: dict | None =
             "rationale": f"Only {content['queued']} priority-1 posts queued — System 2 will run dry.",
             "target": None, "impact": "medium", "effort": "low",
         })
-    for kw in content["uncovered"][:3]:
+
+    # Thin local coverage -> targeted local-transactional research (the real call driver).
+    if content.get("n_areas", 0) and content.get("local_tx_total", 0) < content["n_areas"]:
+        acts.append({
+            "action_type": "keyword_research", "assigned_system": "s1",
+            "title": "Research local-transactional keywords for the service areas",
+            "rationale": f"Only {content.get('local_tx_total',0)} local buy-intent keywords across "
+                         f"{content['n_areas']} service areas — too thin to drive local calls. "
+                         f"Run keyword research focused on '{{service}} {{city}}' terms.",
+            "target": None, "impact": "high", "effort": "low",
+        })
+
+    uncovered = content["uncovered"]
+    local_tx = [u for u in uncovered if u.get("local_tx")]
+    informational = [u for u in uncovered if not u.get("local_tx")]
+    # local-transactional pages = HIGH impact (someone hiring in a city we serve)
+    for u in local_tx[:4]:
         acts.append({
             "action_type": "blog_post", "assigned_system": "s2",
-            "title": f"Publish a blog post targeting '{kw}'",
-            "rationale": "Priority-1 keyword with no page covering it yet.",
-            "target": kw, "impact": "medium", "effort": "low",
+            "title": f"Publish a local page targeting '{u['keyword']}'",
+            "rationale": f"Local buy-intent keyword ({u['city']}) with no page yet — direct lead driver.",
+            "target": u["keyword"], "impact": "high", "effort": "low",
+        })
+    # generic informational = LOW impact supporting content (authority/AI-citation, not direct calls)
+    for u in informational[:2]:
+        acts.append({
+            "action_type": "blog_post", "assigned_system": "s2",
+            "title": f"Publish a blog post targeting '{u['keyword']}'",
+            "rationale": "Informational keyword with no page yet — supporting content for "
+                         "authority/AI citation (not a direct lead driver).",
+            "target": u["keyword"], "impact": "low", "effort": "low",
         })
 
     # Audit: amber/red -> fix.
