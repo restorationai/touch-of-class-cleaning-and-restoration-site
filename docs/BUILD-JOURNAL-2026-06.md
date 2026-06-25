@@ -94,6 +94,15 @@ Clients connect Google Ads/GBP/Search Console/YouTube via an emailed/texted link
 
 **Convention:** update this journal as we go — new features, decisions, specs, learnings. Newest first.
 
+### 2026-06-26 (pm-3) — AI Search 2b: guard-railed custom queries (BUILT)
+Decision: **service × city dropdowns** (fully on-rails — no vanity/irrelevant queries, cost-capped). Cap **5 per company**.
+- New table `marketing_ai_search_custom_queries` (company_id, rank_ai_slug, service, location, query; unique(company_id,query); RLS select+all by `get_effective_company_id()`).
+- Scanner `fetch_custom_queries()` merges active custom queries into each scan (dedup vs auto). `--limit 0` scans custom-only (used for cheap testing).
+- App (`MarketingAISearch.tsx`, managers only): "Track your own queries" card — service dropdown (from distinct `marketing_keywords.seed`) × city dropdown (from scanned `location`s) → builds "best {service} company in {city}"; shows each tracked query's latest rank badge or "Pending next scan"; remove button; cap-5 enforced.
+- Verified end-to-end: inserted a **Park City** custom query → scanner picked it up (`--limit 0`) → stored with location, Home Pride not cited there (matches earlier finding). Left that Park City query in place (real city they want tracked).
+
+**AI Search roadmap (1, 2a, 2b, position tracking) COMPLETE.** PR #13 (`feat/ai-search-view`) now carries: multi-engine, top-10+locations, Prioritize→action, position/rank, custom queries. Strategist items 3 + 4 complete (pipeline, on main).
+
 ### 2026-06-26 (pm-2) — Item 4 (strategist rebalance) + position tracking (BUILT)
 **Item 4 — lead-gen rebalance** (pipeline 7841841): `gather_content` tags uncovered keywords **local-transactional** (city + buy-intent = real call driver) vs **informational**; `build_actions` makes local-tx gaps **HIGH** impact (local pages), generic informational **LOW** (supporting/AI-citation), and adds a **HIGH** "research local-transactional keywords" action when `local_tx_total < n_areas`. Verified: Home Pride now leads with local-keyword research + AI-visibility + GBP; ice-dam/insurance blogs demoted off the top. Plans refreshed for all 3.
 
