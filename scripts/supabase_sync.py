@@ -293,7 +293,11 @@ def sync_keywords(client, slug: str, company_id: str, dry_run: bool) -> None:
             "search_volume":  kw.get("volume"),
             "difficulty":     kw.get("kd"),
             "seed":           kw.get("fan_out_parent") or kw.get("seed"),
+            "covered_by":     kw.get("covered_by"),
+            "cpc":            kw.get("cpc"),
             "last_researched": ts(kw.get("discovered")),
+            # NOTE: 'status' is intentionally omitted — it's operator-set in the app
+            # (queue/dismiss); upsert leaves it untouched on conflict.
         })
 
     if kw_rows:

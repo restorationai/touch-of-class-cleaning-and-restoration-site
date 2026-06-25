@@ -85,7 +85,7 @@ def gather_geogrid(company_id: str) -> list[dict]:
     return weak
 
 
-def gather_content(slug: str) -> dict:
+def gather_content(slug: str, company_id: str | None = None) -> dict:
     cdir = ROOT / "clients" / slug
     q = cdir / "content-queue.json"
     queued = 0
@@ -97,6 +97,17 @@ def gather_content(slug: str) -> dict:
         for k in json.loads(bank.read_text()).get("keywords", []):
             if k.get("priority") == 1 and not k.get("covered_by"):
                 uncovered.append(k.get("keyword"))
+
+    # Honor operator overrides from the app's Keyword Bank (marketing_keywords.status):
+    # drop dismissed keywords, and float queued ones to the front.
+    if company_id:
+        rows = _sb("GET", "/rest/v1/marketing_keywords?company_id=eq." +
+                   urllib.parse.quote(company_id) +
+                   "&select=keyword,status&status=in.(queued,dismissed)") or []
+        dismissed = {r["keyword"] for r in rows if r.get("status") == "dismissed"}
+        queued_kw = {r["keyword"] for r in rows if r.get("status") == "queued"}
+        uncovered = [k for k in uncovered if k not in dismissed]
+        uncovered.sort(key=lambda k: 0 if k in queued_kw else 1)
     return {"queued": queued, "uncovered": uncovered}
 
 
@@ -258,7 +269,7 @@ def run_for(slug: str, dry_run: bool) -> int:
         return 1
 
     geo = gather_geogrid(company_id)
-    content = gather_content(slug)
+    content = gather_content(slug, company_id)
     audit = gather_audit(slug)
     ai = gather_ai_search(company_id)
     alerts = gather_alerts(slug, content, ai, audit)
