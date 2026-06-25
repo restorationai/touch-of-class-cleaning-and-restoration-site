@@ -94,6 +94,16 @@ Clients connect Google Ads/GBP/Search Console/YouTube via an emailed/texted link
 
 **Convention:** update this journal as we go — new features, decisions, specs, learnings. Newest first.
 
+### 2026-06-25 (pm) — AI-search view + Action Plan alerts (BUILT)
+Working through the 4-item plan in order. Local dev clone now in use: **`/tmp/rankai/Restoration-AI-APP`** (fresh GitHub clone; `npm run dev` → localhost:5173). Feature branch `feat/action-plan-alerts` is stacked on `feat/ai-search-view`, so localhost shows both.
+
+1. **AI Search view (DONE — PR #13, app).** New `components/MarketingAISearch.tsx` + "AI Search" tab in `AIMarketing.tsx`. Reads `marketing_ai_search_scans`. Shows AI Visibility % (cited/total), per-query Recommended vs Not-mentioned cards (answer excerpt + cited domains, competitors highlighted / directories greyed), and "Who AI recommends most". **Strategist now weights AI visibility** (`scripts/strategist.py` `gather_ai_search()` → uncited money queries become high-impact `action_type='ai_visibility'` items naming the competitors AI cites instead). **Weekly AI scan** added to `weekly-maintenance.yml` (Monday + manual only, `ai_search_scan.py --all --limit 4`, runs before strategist). Pipeline commit b151548. All 3 clients scanned: narestco 2/4 cited, Davis 1/4, Home Pride 1/4.
+2. **Action Plan alerts (DONE — PR #14, app).** Red **"Needs Attention"** section above routine actions. Strategist `gather_alerts()` writes `action_type='alert'` rows from (a) operator-set `clients/{slug}.json['ops_alerts']` and (b) auto-derived flags (red audit, empty queue, zero AI visibility). Alerts sort first. **narestco LSA-not-serving** added as its first ops_alert. UI: `MarketingActionPlan.tsx` splits alerts vs actions; managers get a "Resolve" button. Pipeline commit f1b18b0.
+
+**ops_alerts convention:** add to `clients/{slug}.json` as `"ops_alerts": [{key,title,detail,severity,system,status}]`; `status:"open"` shows it, anything else hides it. Strategist picks them up next run.
+
+**Merge order:** merge PR #13 first, then #14 (stacked).
+
 ### 2026-06-25 — strategy decisions (from Santino Q&A)
 - **Credibility surfacing on client sites (the "Voda 10,000 reviews" lesson).** AI answers cite pages that prominently feature trust/credibility signals. Voda's "Over 10,000 5-Star Reviews" is a *headline claim* (aggregate across their national franchise), NOT a display of 10k reviews — plus a testimonials widget + trust badges (Google Guaranteed, IICRC). Takeaway: prominently surface each client's **REAL** credibility — actual review count + star rating (ideally pulled from GBP), awards ("voted #1 …"), certs (IICRC), years in business — in page titles/headers + Review/AggregateRating schema + a testimonials widget. Never fabricate numbers; grow them via the reviews push. → **Build queue.**
 - **How AI uses reviews:** it repeats BOTH real platform signals it can read (Google/Yelp/BBB — it cited BBB + linked Yelp in the Federal Way result) AND self-reported on-page claims (it didn't verify Voda's 10k). So the play = drive real reviews on GMB/Yelp/BBB **and** surface them prominently on-site.
