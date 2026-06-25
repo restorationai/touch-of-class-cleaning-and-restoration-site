@@ -177,6 +177,22 @@ def run_query(auth: str, engine: str, query: str) -> dict:
     return {"answer": answer, "domains": domains, "cost": cost}
 
 
+def fetch_custom_queries(cid: str, cap: int = 5) -> list[dict]:
+    """Operator/client-added queries from the app (guard-railed service x city).
+    Returns up to `cap` as {query, location} to merge into the scan."""
+    try:
+        url = (os.environ["SUPABASE_URL"].rstrip("/") +
+               "/rest/v1/marketing_ai_search_custom_queries?select=query,location&company_id=eq." +
+               urllib.parse.quote(cid) + "&order=created_at.asc&limit=" + str(cap))
+        key = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
+        req = urllib.request.Request(url, headers={"apikey": key, "Authorization": f"Bearer {key}"})
+        with urllib.request.urlopen(req, timeout=30) as r:
+            return json.loads(r.read()) or []
+    except Exception as e:
+        print(f"  (custom queries unavailable: {e})", file=sys.stderr)
+        return []
+
+
 def _sb_insert(rows: list[dict]) -> None:
     url = os.environ["SUPABASE_URL"].rstrip("/") + "/rest/v1/marketing_ai_search_scans"
     key = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
@@ -192,6 +208,13 @@ def run_for(slug: str, auth: str, limit: int, engines: list[str], dry_run: bool)
         print(f"  skip {slug}: no company_id", file=sys.stderr); return 0.0
     ident = client_identity(slug)
     queries = money_queries(ident, limit)
+    # merge guard-railed custom queries (service x city) added in the app
+    seen_q = {q["query"].lower() for q in queries}
+    for c in fetch_custom_queries(cid):
+        if c.get("query") and c["query"].lower() not in seen_q:
+            queries.append({"query": c["query"], "city": "", "state": "",
+                            "location": c.get("location") or ""})
+            seen_q.add(c["query"].lower())
     now = datetime.now(timezone.utc).isoformat()
     rows, spend = [], 0.0
     print(f"\n=== AI-search scan — {slug} ({cid}) — {len(queries)} queries x {len(engines)} engines ===")
