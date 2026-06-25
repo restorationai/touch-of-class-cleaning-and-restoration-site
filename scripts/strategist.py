@@ -100,6 +100,33 @@ def gather_content(slug: str) -> dict:
     return {"queued": queued, "uncovered": uncovered}
 
 
+def gather_ai_search(company_id: str) -> dict:
+    """Latest AI-search scan per (engine, query); flag money questions where the
+    client is NOT cited by the AI assistant — a top strategic priority."""
+    q = ("/rest/v1/marketing_ai_search_scans?company_id=eq." + urllib.parse.quote(company_id) +
+         "&select=engine,query,cited,cited_sources,scanned_at&order=scanned_at.desc")
+    rows = _sb("GET", q) or []
+    seen, latest = set(), []
+    for r in rows:
+        k = (r.get("engine"), r.get("query"))
+        if k in seen:
+            continue
+        seen.add(k)
+        latest.append(r)
+    total = len(latest)
+    missing = []
+    for r in latest:
+        if r.get("cited"):
+            continue
+        # competitor domains the AI cited instead (skip directories)
+        comps = [s.get("domain") for s in (r.get("cited_sources") or [])
+                 if s.get("domain") and not s.get("directory")][:3]
+        missing.append({"query": r["query"], "engine": r.get("engine") or "chatgpt",
+                        "competitors": comps})
+    cited = total - len(missing)
+    return {"total": total, "cited": cited, "missing": missing}
+
+
 def gather_audit(slug: str) -> dict:
     rec = ROOT / "clients" / f"{slug}.json"
     if not rec.exists():
@@ -108,8 +135,23 @@ def gather_audit(slug: str) -> dict:
 
 
 # ----------------------------------------------------------------- build + rank
-def build_actions(geo: list[dict], content: dict, audit: dict) -> list[dict]:
+def build_actions(geo: list[dict], content: dict, audit: dict, ai: dict | None = None) -> list[dict]:
     acts: list[dict] = []
+    ai = ai or {"missing": []}
+
+    # AI search: money questions where AI assistants don't recommend the client.
+    # High strategic priority — this is where buyers increasingly start.
+    for m in ai["missing"][:4]:
+        instead = (" AI recommends " + ", ".join(m["competitors"]) + " instead."
+                   if m.get("competitors") else "")
+        acts.append({
+            "action_type": "ai_visibility", "assigned_system": "s2",
+            "title": f"Get cited by AI for “{m['query']}”",
+            "rationale": f"{m['engine'].title()} does not recommend this business for "
+                         f"“{m['query']}”.{instead} Publish/strengthen a page answering "
+                         f"this question with citable facts, reviews, and local detail.",
+            "target": m["query"], "impact": "high", "effort": "medium",
+        })
 
     # Geo-grid: one action per weak keyword (its worst city), capped.
     by_kw = {}
@@ -168,12 +210,15 @@ def run_for(slug: str, dry_run: bool) -> int:
     geo = gather_geogrid(company_id)
     content = gather_content(slug)
     audit = gather_audit(slug)
-    actions = build_actions(geo, content, audit)
+    ai = gather_ai_search(company_id)
+    actions = build_actions(geo, content, audit, ai)
     now = datetime.now(timezone.utc).isoformat()
 
+    ai_summary = f"{ai['cited']}/{ai['total']} AI-cited" if ai["total"] else "no AI scan"
     print(f"\n=== Strategist plan — {slug} ({company_id}) ===")
     print(f"signals: {len(geo)} weak geo cells | {content['queued']} queued posts | "
-          f"{len(content['uncovered'])} uncovered kw | audit={audit.get('last_audit_verdict','?')}\n")
+          f"{len(content['uncovered'])} uncovered kw | {ai_summary} | "
+          f"audit={audit.get('last_audit_verdict','?')}\n")
     for a in actions:
         print(f"  [{a['priority']}] ({a['impact']}/{a['effort']}) {a['assigned_system']:6} {a['title']}")
         print(f"        why: {a['rationale']}")
