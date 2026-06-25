@@ -94,6 +94,15 @@ Clients connect Google Ads/GBP/Search Console/YouTube via an emailed/texted link
 
 **Convention:** update this journal as we go — new features, decisions, specs, learnings. Newest first.
 
+### 2026-06-26 (pm-4) — Merged to production + scan refresh
+- **All 3 app PRs merged to `main`** (production, Netlify auto-deploy): **#13** AI Search (multi-engine, top-10+locations, Prioritize→action, position/rank, custom queries), **#14** Action Plan alerts + deprioritize, **#15** actionable Keyword Bank. Merge order #13→#14→#15; #15 had an AIMarketing.tsx import conflict (both added imports) — resolved on-branch (kept all three imports), pushed, merged. **Production build verified green** (`npm run build` exit 0, all 3 components present).
+- **Full AI-search refresh** complete ($3.70, ~93 queries incl. Home Pride's Park City custom). `client_rank` now populated from full answers. Fresh rank breakdown:
+  - **narestco**: 6 cited (0 top-pick, 4 listed #N, 2 mentioned)
+  - **davis-construction**: 3 cited (0 top-pick, 1 listed, 2 mentioned)
+  - **homepriderestorationandcleaning**: 6 cited (**2 top-pick**, 4 listed) — incl. Park City custom (not cited there)
+  - Reality check: nobody is winning the AI-search game broadly yet (lots of "listed/mentioned," few #1) — which is exactly the gap the strategist's AI-visibility actions + content wiring target.
+- Reminder: this is the **first production push** of the strategist/AI-search/keyword-bank suite. Pipeline (strategist items 3+4, scanner) already on `main` of the pipeline repo.
+
 ### 2026-06-26 (pm-3) — AI Search 2b: guard-railed custom queries (BUILT)
 Decision: **service × city dropdowns** (fully on-rails — no vanity/irrelevant queries, cost-capped). Cap **5 per company**.
 - New table `marketing_ai_search_custom_queries` (company_id, rank_ai_slug, service, location, query; unique(company_id,query); RLS select+all by `get_effective_company_id()`).
