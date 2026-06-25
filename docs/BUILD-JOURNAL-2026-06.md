@@ -94,6 +94,15 @@ Clients connect Google Ads/GBP/Search Console/YouTube via an emailed/texted link
 
 **Convention:** update this journal as we go — new features, decisions, specs, learnings. Newest first.
 
+### 2026-06-25 (pm-3) — Actionable Keyword Bank (BUILT — PR #15, app)
+Replaced the static keyword table (`components/MarketingKeywordBank.tsx`, swapped into Content → Keyword Bank sub-tab).
+- Summary chips (total / covered / uncovered-P1 / local-national); filters: search, scope (local/national via `city`), coverage (covered vs gap via `covered_by`), priority, sort (priority/volume/difficulty), show-dismissed.
+- Manager actions: **Queue** (`status='queued'`) and **Dismiss** (`status='dismissed'`), plus Restore/Unqueue.
+- DB: added `covered_by`, `cpc`, `status` (default 'active') to `marketing_keywords` (+ index on company_id,status). `supabase_sync.py` now syncs covered_by/cpc and **omits status** so operator choices persist across syncs.
+- **Loop closed (pipeline commit 3e2ab10):** strategist `gather_content()` reads `marketing_keywords.status` → drops dismissed, floats queued uncovered-P1 to the front. Verified live (dismiss → strategist drops the kw).
+
+**All four plan items shipped this session. PRs: #13 (AI Search), #14 (Action Plan alerts, stacked on #13), #15 (Keyword Bank).** Merge order: #13 → #14 → #15. Combined preview branch `test/all-features` is what's on localhost:5173 now (all four merged for testing; conflict in AIMarketing.tsx imports resolved by keeping both).
+
 ### 2026-06-25 (pm-2) — GA4 + Clarity per client (PLUMBING BUILT; provisioning pending)
 **Decision: OAuth Connect, not service account.** We have NO service account; our whole Google stack is OAuth refresh-token based. GA4 properties get created under OUR agency GA account (we own/retain data; client gets viewer access) → one-time agency OAuth grant, then automate. Clarity has **no project-creation API** — always manual.
 
