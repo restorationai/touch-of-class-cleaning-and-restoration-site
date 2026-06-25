@@ -87,3 +87,24 @@ Clients connect Google Ads/GBP/Search Console/YouTube via an emailed/texted link
 - **narestco** (CO-1771290587387): Seattle metro water/fire/mold + reconstruction. Ads in cold-start (geo fixed, negatives applied, call tracking → Twilio). LSA blocked on verification. #1 on ChatGPT for Federal Way. Content queue refilled (mold seed).
 - **homepriderestorationandcleaning** (CO-1780333664867): Saratoga Springs UT + 11 areas incl new Heber/Park City. Site live, first post published, geo-grid baselined, app tab fixed. GBP API reapplication candidate. Park City = AI + Maps gap.
 - **davis-construction** (CO-1778778644861): Madison AL hybrid construction+restoration. Content queue refilled (mold). No geo-grid set up. No claimed GBP found via lookup.
+
+---
+
+## 7) Updates log (keep this doc LIVE — update as we build)
+
+**Convention:** update this journal as we go — new features, decisions, specs, learnings. Newest first.
+
+### 2026-06-25 — strategy decisions (from Santino Q&A)
+- **Credibility surfacing on client sites (the "Voda 10,000 reviews" lesson).** AI answers cite pages that prominently feature trust/credibility signals. Voda's "Over 10,000 5-Star Reviews" is a *headline claim* (aggregate across their national franchise), NOT a display of 10k reviews — plus a testimonials widget + trust badges (Google Guaranteed, IICRC). Takeaway: prominently surface each client's **REAL** credibility — actual review count + star rating (ideally pulled from GBP), awards ("voted #1 …"), certs (IICRC), years in business — in page titles/headers + Review/AggregateRating schema + a testimonials widget. Never fabricate numbers; grow them via the reviews push. → **Build queue.**
+- **How AI uses reviews:** it repeats BOTH real platform signals it can read (Google/Yelp/BBB — it cited BBB + linked Yelp in the Federal Way result) AND self-reported on-page claims (it didn't verify Voda's 10k). So the play = drive real reviews on GMB/Yelp/BBB **and** surface them prominently on-site.
+- **Onboarding wizard (planned, like the AI-receptionist wizard):** should (a) connect accounts via the standalone connect-links flow, (b) collect business info (NAP/services/areas/hours/license/certs), and (c) **collect accomplishments/awards/noteworthy achievements** ("voted #1 restoration company on the east coast", # jobs, notable projects). Reasoning: achievements are E-E-A-T + **AI-citation fuel** + content/sales differentiators. Store as brand credentials → content writer + strategist + GBP + site credibility section use them. → **Build queue.**
+- **DataForSEO product strategy** (we charge $997/mo/client, so agency tooling that adds value is justified at scale):
+  - **LLM Mentions API**: $0.10/req + $0.001/row + **$100/mo minimum = AGENCY-level (per DataForSEO account), NOT per client.** Adds AI *share-of-voice* / competitive mention analytics beyond the per-query scraper. Plan: keep the **scraper** (built, ~$0.075/q, no commitment) for core "are we cited"; **add LLM Mentions when we build the AI-search competitive/share-of-voice view** (powers the sales story; $100/mo amortizes to <$20/client at 5+ clients).
+  - **Reviews API (Business Data)**: pull clients'/competitors' real Google/Yelp reviews + ratings → feeds the credibility-surfacing play + strategist review signal + competitive analysis. Strong candidate.
+  - **Backlinks API**: authority signals (relevant to AI/SEO authority). Later.
+  - At scale, move from pay-as-you-go to a committed DataForSEO plan for lower per-call rates.
+
+### Build queue additions (from this session)
+- Onboarding wizard (connect accounts + business info + **achievements/credentials intake**).
+- Credibility surfacing on client sites (real review count/rating + awards + certs in titles/headers + schema + testimonials widget); drive reviews.
+- Evaluate/add **LLM Mentions API** (when building AI share-of-voice view) + **Reviews API** (review intelligence).
