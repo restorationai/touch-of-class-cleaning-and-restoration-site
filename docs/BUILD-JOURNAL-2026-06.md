@@ -94,6 +94,11 @@ Clients connect Google Ads/GBP/Search Console/YouTube via an emailed/texted link
 
 **Convention:** update this journal as we go — new features, decisions, specs, learnings. Newest first.
 
+### 2026-06-26 (pm-7) — Sales page v2 (rank.ai-modeled, white theme) + booking
+- **Booking:** embedded GHL calendar (`link.restorationai.io/widget/booking/5GoVLLz9HDn8Ik3RjFMB` + `form_embed.js`) in a `#book` section; all primary CTAs scroll to it; hero "see where you rank" form also routes to `#book`.
+- **v2 (commit b00e177):** rewrote `sales/rank-ai/src/pages/index.astro` to a **white/light theme** modeled on **rank.ai's** layout (per Santino's "make it like theirs"). Sections: nav, hero ("Rank higher. With AI. For AI." + rank-check input + dashboard mockup), 4 quick solution cards, 3-ways grid, **before/after** (AI / Map Pack / Google), **AI-analytics** mock (per-engine recommendation bars + "recommends instead"), **geo-grid heatmap + reviews** mock, why-us, single **$997 flat** pricing, FAQ, CTA+booking, multi-column footer. global.css → light; build green. Own copy/brand (not rank.ai's text/assets). Review on localhost:4321.
+- **Domain decided: `rank.restorationai.io`** — Santino will update Cloudflare DNS. astro.config `site` set to it. NEXT: deploy to Cloudflare Pages + map the domain once Santino approves the design; then personalized proposal generator (page + PDF + live audit) for the hot lead.
+
 ### 2026-06-26 (pm-6) — NEW DIRECTION: Sales assets
 Pivot to sales collateral. Context: 3 demos — 2 want "more info on what Rank AI is / how it helps," 1 wants a proposal.
 - **Decision (web vs PDF):** lead with **web page** (it's a proof of capability for an SEO/AI product, trackable via GA4/Clarity, updatable, personalizable); offer **PDF export** for proposals. Two distinct assets: a reusable **overview page** (info requests) and **personalized proposal pages** (+PDF) with a **live audit of the prospect's own business** (run our AI-search + geo-grid + keyword tools on them — the unfair advantage).
