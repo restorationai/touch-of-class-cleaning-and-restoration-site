@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "slug": "davis-construction",
-  "site": "staging.rankai-davis-construction.pages.dev",
-  "origin": "https://staging.rankai-davis-construction.pages.dev",
-  "generated_at": "2026-05-25T18:01:38Z",
+  "site": "davisconstructioncontractors.com",
+  "origin": "https://davisconstructioncontractors.com",
+  "generated_at": "2026-06-25T18:15:38Z",
   "gsc_enabled": false,
   "totals": {
     "total_actions": 0,
@@ -24,6 +24,7 @@
   "notes": [
     "URLs skipped because already in content-queue: []",
     "URLs where date extraction failed: []",
-    "v1 limitations: no GSC indexing flags (not_indexed and index_warning are deferred to v2)"
+    "v1 limitations: no GSC indexing flags (not_indexed and index_warning are deferred to v2)",
+    "All 66 inspected URLs are fresh: every candidate has empty flags and age_days well below the 305-day aging threshold (oldest is 35 days). No refresh or audit_then_decide actions warranted this cycle."
   ]
 }
