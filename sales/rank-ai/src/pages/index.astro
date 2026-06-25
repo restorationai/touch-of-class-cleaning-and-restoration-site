@@ -5,7 +5,8 @@ import {
   ArrowRight, Zap, Building2, Phone, Quote, Sparkles,
 } from "@lucide/astro";
 
-const CALENDAR = "mailto:contact@restorationai.io?subject=Rank%20AI%20%E2%80%94%20Free%20AI%20Visibility%20Audit";
+const CALENDAR = "#book";  // primary CTAs scroll to the embedded booking calendar
+const BOOK_URL = "https://link.restorationai.io/widget/booking/5GoVLLz9HDn8Ik3RjFMB";
 const EMAIL = "mailto:contact@restorationai.io?subject=Rank%20AI%20%E2%80%94%20Tell%20me%20more";
 
 const services = [
@@ -255,17 +256,27 @@ const faqs = [
       </div>
     </section>
 
-    <!-- Final CTA -->
-    <section class="max-w-wide mx-auto px-5 pb-24">
-      <div class="rounded-3xl grid-bg border border-white/10 px-6 py-16 text-center">
-        <h2 class="text-3xl sm:text-5xl font-black leading-tight max-w-3xl mx-auto">See where AI ranks you today — free.</h2>
-        <p class="mt-5 text-slate-400 max-w-xl mx-auto">We'll run your business through AI search and the map pack and show you exactly where you stand against your competitors. No cost, no commitment.</p>
-        <div class="mt-8 flex flex-col sm:flex-row items-center justify-center gap-3">
-          <a href={CALENDAR} class="w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-xl bg-brand-600 hover:bg-brand-500 transition-colors px-7 py-3.5 text-base font-bold text-white">Get my free audit <ArrowRight size={17} /></a>
-          <a href={EMAIL} class="w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-xl glass hover:bg-white/10 transition-colors px-7 py-3.5 text-base font-bold text-white"><Phone size={16} /> Talk to us</a>
+    <!-- Final CTA + embedded booking -->
+    <section id="book" class="max-w-wide mx-auto px-5 pb-24 scroll-mt-20">
+      <div class="rounded-3xl grid-bg border border-white/10 px-5 sm:px-8 py-14">
+        <div class="text-center">
+          <h2 class="text-3xl sm:text-5xl font-black leading-tight max-w-3xl mx-auto">See where AI ranks you today — free.</h2>
+          <p class="mt-5 text-slate-400 max-w-xl mx-auto">Book a 15-minute call. We'll run your business through AI search and the map pack live and show you exactly where you stand against your competitors. No cost, no commitment.</p>
         </div>
+        <div class="mt-9 max-w-3xl mx-auto rounded-2xl bg-white p-2 sm:p-3 shadow-2xl">
+          <iframe
+            src={BOOK_URL}
+            title="Book your free Rank AI audit"
+            style="width:100%; min-height:720px; border:none; overflow:hidden;"
+            scrolling="no"
+            loading="lazy"
+            id="rankai-booking">
+          </iframe>
+        </div>
+        <p class="mt-5 text-center text-sm text-slate-500">Prefer email? <a href={EMAIL} class="text-brand-300 font-semibold hover:text-brand-200">contact@restorationai.io</a></p>
       </div>
     </section>
+    <script is:inline src="https://link.restorationai.io/js/form_embed.js" type="text/javascript"></script>
 
     <!-- Footer -->
     <footer class="border-t border-white/5">
