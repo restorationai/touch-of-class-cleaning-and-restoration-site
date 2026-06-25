@@ -202,6 +202,38 @@ def _sb_insert(rows: list[dict]) -> None:
     urllib.request.urlopen(req)
 
 
+# Skip tiny ad-hoc runs (validation/tests) so the trend stays clean.
+HISTORY_MIN_ROWS = 5
+
+
+def _sb_history(rows: list[dict], cid: str, slug: str, now: str) -> None:
+    """One rollup snapshot per scan run -> marketing_ai_search_history (the trend source)."""
+    if len(rows) < HISTORY_MIN_ROWS:
+        return
+    cited = sum(1 for r in rows if r["cited"])
+    top = sum(1 for r in rows if r.get("client_rank") == 1)
+    by_engine: dict = {}
+    for r in rows:
+        e = by_engine.setdefault(r["engine"], {"cited": 0, "total": 0})
+        e["total"] += 1
+        e["cited"] += 1 if r["cited"] else 0
+    snap = {
+        "company_id": cid, "rank_ai_slug": slug, "scanned_at": now,
+        "total": len(rows), "cited": cited, "top_picks": top,
+        "visibility_pct": round(100 * cited / len(rows)) if rows else 0,
+        "by_engine": by_engine,
+    }
+    url = os.environ["SUPABASE_URL"].rstrip("/") + "/rest/v1/marketing_ai_search_history"
+    key = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
+    req = urllib.request.Request(url, data=json.dumps(snap).encode(), method="POST",
+        headers={"apikey": key, "Authorization": f"Bearer {key}",
+                 "Content-Type": "application/json", "Prefer": "resolution=merge-duplicates,return=minimal"})
+    try:
+        urllib.request.urlopen(req)
+    except Exception as e:
+        print(f"  (history snapshot skipped: {e})", file=sys.stderr)
+
+
 def run_for(slug: str, auth: str, limit: int, engines: list[str], dry_run: bool) -> float:
     cid = company_id_for(slug)
     if not cid:
@@ -248,6 +280,7 @@ def run_for(slug: str, auth: str, limit: int, engines: list[str], dry_run: bool)
     print(f"  spend: ${spend:.3f} | cited in {sum(1 for x in rows if x['cited'])}/{len(rows)} (all engines)")
     if not dry_run and rows:
         _sb_insert(rows)
+        _sb_history(rows, cid, slug, now)
         print(f"  stored {len(rows)} rows.")
     return spend
 
