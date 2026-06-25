@@ -41,6 +41,20 @@ SB_URL = os.environ.get("SUPABASE_URL", "").rstrip("/")
 SB_KEY = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")
 G_CID = os.environ.get("GOOGLE_OAUTH_CLIENT_ID", "")
 G_SECRET = os.environ.get("GOOGLE_OAUTH_CLIENT_SECRET", "")
+DFS_USER = os.environ.get("DATAFORSEO_USERNAME") or os.environ.get("DATAFORSEO_LOGIN", "")
+DFS_PASS = os.environ.get("DATAFORSEO_PASSWORD", "")
+
+# Performance API daily metric -> marketing_gbp_daily column
+PERF_METRICS = {
+    "CALL_CLICKS": "call_clicks",
+    "WEBSITE_CLICKS": "website_clicks",
+    "BUSINESS_DIRECTION_REQUESTS": "direction_requests",
+    "BUSINESS_CONVERSATIONS": "conversations",
+    "BUSINESS_IMPRESSIONS_DESKTOP_MAPS": "impressions_desktop_maps",
+    "BUSINESS_IMPRESSIONS_MOBILE_MAPS": "impressions_mobile_maps",
+    "BUSINESS_IMPRESSIONS_DESKTOP_SEARCH": "impressions_desktop_search",
+    "BUSINESS_IMPRESSIONS_MOBILE_SEARCH": "impressions_mobile_search",
+}
 
 ACCT_API = "https://mybusinessaccountmanagement.googleapis.com/v1"
 INFO_API = "https://mybusinessbusinessinformation.googleapis.com/v1"
@@ -185,6 +199,113 @@ def reconcile(slug: str) -> dict:
 
 
 # --------------------------------------------------------------------------- #
+# Sync to Supabase (profile snapshot + daily insights for month-over-month)
+# --------------------------------------------------------------------------- #
+def _sb_upsert(table: str, rows: list, on_conflict: str) -> None:
+    if not rows:
+        return
+    r = requests.post(
+        f"{SB_URL}/rest/v1/{table}?on_conflict={on_conflict}",
+        headers={"apikey": SB_KEY, "Authorization": f"Bearer {SB_KEY}",
+                 "Content-Type": "application/json",
+                 "Prefer": "resolution=merge-duplicates,return=minimal"},
+        data=json.dumps(rows))
+    r.raise_for_status()
+
+
+def get_insights(token: str, location_id: str, days: int = 90) -> dict:
+    """Daily GBP performance metrics for the last `days` -> {date: {col: value}}.
+    Stored daily so the app can compute ANY period delta (this month vs last)."""
+    import datetime as dt
+    end = dt.date.today()
+    start = end - dt.timedelta(days=days)
+    qs = "&".join(f"dailyMetrics={m}" for m in PERF_METRICS)
+    qs += (f"&dailyRange.start_date.year={start.year}&dailyRange.start_date.month={start.month}"
+           f"&dailyRange.start_date.day={start.day}&dailyRange.end_date.year={end.year}"
+           f"&dailyRange.end_date.month={end.month}&dailyRange.end_date.day={end.day}")
+    url = (f"https://businessprofileperformance.googleapis.com/v1/locations/{location_id}"
+           f":fetchMultiDailyMetricsTimeSeries?{qs}")
+    daily: dict = {}
+    for series in _g(url, token).get("multiDailyMetricTimeSeries", []):
+        for ts in series.get("dailyMetricTimeSeries", []):
+            col = PERF_METRICS.get(ts.get("dailyMetric"))
+            if not col:
+                continue
+            for p in ts.get("timeSeries", {}).get("datedValues", []):
+                d = p.get("date") or {}
+                if not d:
+                    continue
+                key = f"{d['year']:04d}-{d['month']:02d}-{d['day']:02d}"
+                daily.setdefault(key, {})[col] = int(p.get("value", 0))
+    return daily
+
+
+def review_aggregate(brand: dict) -> dict:
+    """Best-effort rating + review count via DataForSEO (no GBP v4 needed). Empty on failure."""
+    if not (DFS_USER and DFS_PASS and brand.get("lat")):
+        return {}
+    try:
+        payload = [{"title": brand.get("display_name"),
+                    "location_coordinate": f"{brand['lat']},{brand['lng']},10", "limit": 5}]
+        r = requests.post("https://api.dataforseo.com/v3/business_data/business_listings/search/live",
+                          auth=(DFS_USER, DFS_PASS), json=payload, timeout=40)
+        items = r.json()["tasks"][0]["result"][0]["items"]
+        want = str(brand.get("google_cid") or "")
+        for it in items:
+            if not want or str(it.get("cid")) == want:
+                rt = it.get("rating") or {}
+                return {"rating": rt.get("value"), "review_count": rt.get("votes_count")}
+    except Exception:
+        pass
+    return {}
+
+
+def sync(slug: str) -> str:
+    import datetime as dt
+    cid = company_id_for(slug)
+    brand = json.loads((ROOT / "clients" / slug / "plan-input.json").read_text()).get("brand", {})
+    place = brand.get("place_id")
+    token = get_access_token(cid) if cid else None
+    if not (cid and place and token):
+        return f"{slug}: skip (missing company_id / place_id / GBP token)"
+    loc = find_location(token, place)
+    if not loc:
+        return f"{slug}: skip (no GBP location for place_id {place})"
+    g = summarize(loc)
+    rec = reconcile(slug)
+    agg = review_aggregate(brand)
+    addr = loc.get("storefrontAddress", {}) or {}
+    address = ", ".join(filter(None, [
+        " ".join(addr.get("addressLines", [])), addr.get("locality"),
+        addr.get("administrativeArea"), addr.get("postalCode")]))
+    phone = (loc.get("phoneNumbers", {}) or {}).get("primaryPhone")
+    now = dt.datetime.now(dt.timezone.utc).isoformat()
+
+    _sb_upsert("marketing_gbp_profiles", [{
+        "company_id": cid, "place_id": place, "location_name": loc.get("name"),
+        "title": g["title"], "primary_category": g["primary_category"],
+        "additional_categories": g["additional_categories"], "services": g["services"],
+        "rating": agg.get("rating"), "review_count": agg.get("review_count"), "claimed": True,
+        "address": address or None, "phone": phone, "website": g["website"],
+        "has_hours": g["has_hours"], "description": (loc.get("profile") or {}).get("description"),
+        "reconcile_gbp_without_page": rec.get("gbp_without_page"),
+        "reconcile_site_without_gbp": rec.get("site_without_gbp"), "synced_at": now,
+    }], on_conflict="company_id")
+
+    daily = get_insights(token, loc["name"].split("/")[-1])
+    rows = [{"company_id": cid, "date": d, **vals} for d, vals in daily.items()]
+    _sb_upsert("marketing_gbp_daily", rows, on_conflict="company_id,date")
+    return (f"{slug}: profile synced (rating {agg.get('rating')}/{agg.get('review_count')}) + "
+            f"{len(rows)} days of insights")
+
+
+def cmd_sync(args) -> int:
+    for slug in _clients(args):
+        print("  " + sync(slug))
+    return 0
+
+
+# --------------------------------------------------------------------------- #
 # CLI
 # --------------------------------------------------------------------------- #
 def _clients(args) -> list[str]:
@@ -241,13 +362,13 @@ def main() -> int:
         return 1
     ap = argparse.ArgumentParser(description="Google Business Profile module")
     sub = ap.add_subparsers(dest="cmd", required=True)
-    for name in ("read", "reconcile"):
+    for name in ("read", "reconcile", "sync"):
         p = sub.add_parser(name)
         g = p.add_mutually_exclusive_group(required=True)
         g.add_argument("--slug")
         g.add_argument("--all", action="store_true")
     args = ap.parse_args()
-    return cmd_read(args) if args.cmd == "read" else cmd_reconcile(args)
+    return {"read": cmd_read, "reconcile": cmd_reconcile, "sync": cmd_sync}[args.cmd](args)
 
 
 if __name__ == "__main__":
