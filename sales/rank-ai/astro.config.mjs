@@ -3,7 +3,7 @@ import tailwind from "@astrojs/tailwind";
 import sitemap from "@astrojs/sitemap";
 
 export default defineConfig({
-  site: "https://rankai.restorationai.io",
+  site: "https://rank.restorationai.io",
   output: "static",
   trailingSlash: "ignore",
   integrations: [tailwind({ applyBaseStyles: false }), sitemap()],

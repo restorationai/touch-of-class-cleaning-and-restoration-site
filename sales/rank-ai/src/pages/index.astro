@@ -2,35 +2,48 @@
 import "~/styles/global.css";
 import {
   Bot, MapPin, FileText, Star, Search, TrendingUp, ShieldCheck, Check,
-  ArrowRight, Zap, Building2, Phone, Quote, Sparkles,
+  ArrowRight, Zap, Sparkles, BarChart3, MessageSquare, X,
 } from "@lucide/astro";
 
-const CALENDAR = "#book";  // primary CTAs scroll to the embedded booking calendar
+const CALENDAR = "#book";
 const BOOK_URL = "https://link.restorationai.io/widget/booking/5GoVLLz9HDn8Ik3RjFMB";
 const EMAIL = "mailto:contact@restorationai.io?subject=Rank%20AI%20%E2%80%94%20Tell%20me%20more";
 
-const services = [
-  { icon: Bot, title: "AI Search Visibility", body: "We track whether ChatGPT, Google AI (Gemini), and Perplexity recommend you when a homeowner asks for the best company in your city — then we get you cited." },
-  { icon: MapPin, title: "Google Map Pack", body: "Geo-grid tracking across your whole service area shows exactly where you rank in the local pack — and we work the levers that move you into the top 3." },
-  { icon: FileText, title: "Content Engine", body: "Local, buy-intent pages and answer-ready content written and published for you every week — the pages AI and Google actually cite." },
-  { icon: Star, title: "Reviews & Reputation", body: "More real Google reviews and the on-site proof (ratings, awards, certifications) that AI weighs most when it picks who to recommend." },
-  { icon: Building2, title: "Google Business Profile", body: "Your GBP optimized and kept active — categories, posts, photos, services — the #1 driver of local service calls." },
-  { icon: Search, title: "Local SEO", body: "Service and city pages, schema, and site health tuned so you show up when someone in your area needs you now." },
+const solutions = [
+  { icon: Bot, title: "AI Search", body: "Get recommended by ChatGPT, Gemini & Perplexity." },
+  { icon: MapPin, title: "Map Pack", body: "Rank in the Google local top-3 across your area." },
+  { icon: FileText, title: "Content", body: "Local, answer-ready pages published weekly." },
+  { icon: Star, title: "Reviews & GBP", body: "More reviews, an optimized Business Profile." },
 ];
 
-const steps = [
-  { n: "1", title: "Free visibility audit", body: "We run your business through AI search, the map pack, and your competitors — and show you exactly where you stand today." },
-  { n: "2", title: "We build your plan", body: "Our system pinpoints the highest-impact gaps (where you're invisible, where competitors win) and turns them into a prioritized plan." },
-  { n: "3", title: "We execute weekly", body: "Content, GBP, reviews, and AI-search optimization — done for you, every week. No work on your end." },
-  { n: "4", title: "You watch it climb", body: "A live scoreboard shows your AI visibility and local rankings improving over time. More calls, more jobs." },
+const threeWays = [
+  { icon: Bot, title: "AI Search Visibility", body: "We track every AI assistant for the questions your customers ask — 'best water damage company in [city]' — and do the work to get you named as the answer." },
+  { icon: MapPin, title: "Google Map Pack", body: "Geo-grid tracking across your whole service area pinpoints where you're outside the top-3, then we work GBP, reviews & local signals to move you up." },
+  { icon: FileText, title: "Content & Reputation", body: "Buy-intent local pages, FAQs and schema — plus real reviews and on-site proof — the exact signals AI and Google trust when they pick who to recommend." },
+];
+
+const why = [
+  { icon: Zap, title: "AI-first", body: "We optimize for how people search now — AI answers and the map pack, not just blue links." },
+  { icon: ShieldCheck, title: "Restoration-only", body: "Built for water, fire, mold, storm & biohazard. We know your customers and your keywords." },
+  { icon: TrendingUp, title: "Radically transparent", body: "A live scoreboard, a real audit of your business, and a prioritized plan you can see anytime." },
 ];
 
 const faqs = [
-  { q: "How is this different from a normal SEO agency?", a: "Most agencies still optimize only for blue-link Google. Buyers increasingly start in ChatGPT and Google's AI answers and in the map pack. We track and win all three — and we show you a live scoreboard of exactly where you stand, including a real audit of your own business." },
-  { q: "What does it cost?", a: "A flat $997/month. No setup fees, no long-term contract, month to month. Everything below is included." },
-  { q: "How long until I see results?", a: "GBP and content improvements start compounding within weeks; local-pack and AI-search gains build over the first 60–90 days. You'll see the trend move on your dashboard the whole way." },
-  { q: "Do I have to do anything?", a: "Connect your accounts once (we send a single link) and the rest is done for you. No logins, no homework — though you can watch everything in the dashboard any time." },
-  { q: "Is this only for restoration companies?", a: "Yes. Rank AI is built specifically for the restoration industry — water, fire, mold, storm, biohazard — so the strategy, content, and keywords are tuned to how homeowners actually search for help." },
+  { q: "How is this different from a normal SEO agency?", a: "Most agencies still optimize only for blue-link Google. Buyers now start in ChatGPT and Google's AI answers and the map pack. We track and win all three — and show you a live scoreboard of exactly where you stand, including a real audit of your own business." },
+  { q: "What does it cost?", a: "A flat $997/month. No setup fees, no long-term contract, month to month. Everything is included." },
+  { q: "How long until I see results?", a: "GBP and content improvements compound within weeks; local-pack and AI-search gains build over the first 60–90 days. You watch the trend move on your dashboard the whole way." },
+  { q: "Do I have to do anything?", a: "Connect your accounts once (we send a single link). After that it's done for you — no logins, no homework — though you can watch everything in the dashboard any time." },
+  { q: "Is this only for restoration companies?", a: "Yes. Rank AI is built specifically for restoration — water, fire, mold, storm, biohazard — so the strategy, content and keywords match how homeowners actually search for help." },
+];
+
+const includes = [
+  "AI search tracking & optimization (ChatGPT, Gemini, Perplexity)",
+  "Google map pack / geo-grid rank tracking",
+  "Weekly local content written & published",
+  "Google Business Profile optimization",
+  "Review generation & reputation",
+  "Local SEO, schema & site health",
+  "Live dashboard + improvement reporting",
 ];
 ---
 
@@ -40,17 +53,22 @@ const faqs = [
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Rank AI — Get Recommended by AI Search & Google for Restoration Companies</title>
-    <meta name="description" content="Rank AI gets restoration companies recommended by ChatGPT, Google AI, and the local map pack. Done-for-you AI search, local SEO, content, reviews, and GBP — $997/month." />
+    <meta name="description" content="Rank AI gets restoration companies recommended by ChatGPT, Google AI and the local map pack. Done-for-you AI search, local SEO, content, reviews and GBP — $997/month." />
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='6' fill='%232563eb'/%3E%3Ctext x='12' y='17' font-size='13' font-family='Arial' font-weight='bold' fill='white' text-anchor='middle'%3ER%3C/text%3E%3C/svg%3E" />
   </head>
   <body>
     <!-- Nav -->
-    <header class="sticky top-0 z-50 border-b border-white/5 bg-ink/80 backdrop-blur-md">
+    <header class="sticky top-0 z-50 border-b border-slate-100 bg-white/85 backdrop-blur-md">
       <nav class="max-w-wide mx-auto px-5 h-16 flex items-center justify-between">
         <div class="flex items-center gap-2.5">
           <span class="w-8 h-8 rounded-lg bg-brand-600 flex items-center justify-center font-black text-white">R</span>
-          <span class="font-black text-white text-lg tracking-tight">Rank AI</span>
-          <span class="hidden sm:inline text-[10px] font-bold text-slate-500 uppercase tracking-widest border-l border-white/10 pl-2.5 ml-1">by Restoration AI</span>
+          <span class="font-black text-slate-900 text-lg tracking-tight">Rank AI</span>
+          <span class="hidden sm:inline text-[10px] font-bold text-slate-400 uppercase tracking-widest border-l border-slate-200 pl-2.5 ml-1">by Restoration AI</span>
+        </div>
+        <div class="hidden md:flex items-center gap-7 text-sm font-semibold text-slate-600">
+          <a href="#how" class="hover:text-slate-900 transition-colors">How it works</a>
+          <a href="#results" class="hover:text-slate-900 transition-colors">Results</a>
+          <a href="#pricing" class="hover:text-slate-900 transition-colors">Pricing</a>
         </div>
         <a href={CALENDAR} class="inline-flex items-center gap-2 rounded-xl bg-brand-600 hover:bg-brand-500 transition-colors px-4 py-2 text-sm font-bold text-white">
           Free AI audit <ArrowRight size={15} />
@@ -59,237 +77,302 @@ const faqs = [
     </header>
 
     <!-- Hero -->
-    <section class="grid-bg border-b border-white/5">
-      <div class="max-w-wide mx-auto px-5 pt-20 pb-24 text-center">
-        <span class="inline-flex items-center gap-2 rounded-full glass px-4 py-1.5 text-xs font-bold text-brand-200 mb-6">
+    <section class="hero-glow border-b border-slate-100">
+      <div class="max-w-wide mx-auto px-5 pt-20 pb-16 text-center">
+        <span class="inline-flex items-center gap-2 rounded-full bg-brand-50 border border-brand-100 px-4 py-1.5 text-xs font-bold text-brand-700 mb-6">
           <Sparkles size={13} /> Built for restoration contractors
         </span>
-        <h1 class="text-4xl sm:text-6xl font-black leading-[1.05] max-w-4xl mx-auto">
-          When someone asks AI for the<br class="hidden sm:block" /> best restoration company,
-          <span class="text-gradient"> make sure it says you.</span>
+        <h1 class="text-4xl sm:text-6xl font-black leading-[1.05] max-w-4xl mx-auto text-slate-900">
+          Rank higher. <span class="text-gradient">With AI. For AI.</span>
         </h1>
-        <p class="mt-6 text-lg text-slate-400 max-w-2xl mx-auto leading-relaxed">
-          Homeowners now ask ChatGPT and Google AI "who's the best water damage company near me?" —
-          and check the map pack. Rank AI gets you recommended in all three. Done for you, every week.
+        <p class="mt-6 text-lg text-slate-500 max-w-2xl mx-auto leading-relaxed">
+          Homeowners now ask ChatGPT and Google AI "who's the best water damage company near me?" — and check the map pack. Rank AI gets you recommended in all three. Done for you, every week.
         </p>
-        <div class="mt-9 flex flex-col sm:flex-row items-center justify-center gap-3">
-          <a href={CALENDAR} class="w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-xl bg-brand-600 hover:bg-brand-500 transition-colors px-7 py-3.5 text-base font-bold text-white">
-            Get your free AI visibility audit <ArrowRight size={17} />
-          </a>
-          <a href="#how" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-xl glass hover:bg-white/10 transition-colors px-7 py-3.5 text-base font-bold text-white">
-            See how it works
-          </a>
-        </div>
-        <p class="mt-5 text-xs font-semibold text-slate-500">$997/month · month-to-month · no setup fees</p>
-      </div>
-    </section>
 
-    <!-- The shift -->
-    <section class="max-w-wide mx-auto px-5 py-20">
-      <div class="grid lg:grid-cols-2 gap-12 items-center">
-        <div>
-          <p class="text-xs font-black text-brand-400 uppercase tracking-widest">The shift</p>
-          <h2 class="text-3xl sm:text-4xl font-black mt-3 leading-tight">Your next customer is asking AI — not scrolling page two of Google.</h2>
-          <p class="mt-5 text-slate-400 leading-relaxed">
-            Search changed. People type "best mold remediation company in [your city]" into ChatGPT or get Google's AI answer at the top — and they call whoever gets named. If AI doesn't mention you, you never had a shot at the job.
-          </p>
-          <ul class="mt-6 space-y-3">
-            {["AI assistants recommend a short list — and most contractors aren't on it","The Google map pack (top 3) wins the majority of local service calls","Whoever AI and Google trust most — reviews, content, profile — gets the call"].map((t) => (
-              <li class="flex items-start gap-3 text-slate-300">
-                <span class="mt-0.5 shrink-0 w-5 h-5 rounded-full bg-brand-600/20 text-brand-300 flex items-center justify-center"><Check size={12} /></span>
-                <span class="font-medium">{t}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
-        <div class="glass rounded-2xl p-6">
-          <div class="flex items-center gap-2 text-slate-400 text-sm font-semibold"><Bot size={16} class="text-brand-400" /> "Best water damage restoration company in your city?"</div>
-          <div class="mt-4 space-y-3">
-            <div class="rounded-xl bg-emerald-500/10 border border-emerald-500/20 p-4">
-              <div class="flex items-center justify-between"><span class="font-black text-white">★ Your Company</span><span class="text-[10px] font-black uppercase tracking-widest text-emerald-300">Top pick</span></div>
-              <p class="text-xs text-slate-400 mt-1">"Highly rated, IICRC-certified, 24/7 — the go-to for water damage in the area."</p>
-            </div>
-            <div class="rounded-xl bg-white/[0.03] border border-white/10 p-4 opacity-60">
-              <span class="font-bold text-slate-300">A competitor</span>
-              <p class="text-xs text-slate-500 mt-1">Listed #2</p>
-            </div>
-            <div class="rounded-xl bg-white/[0.03] border border-white/10 p-4 opacity-40">
-              <span class="font-bold text-slate-400">Another competitor</span>
-              <p class="text-xs text-slate-500 mt-1">Listed #3</p>
-            </div>
+        <!-- "See where you rank" input -->
+        <form id="rank-form" class="mt-9 max-w-xl mx-auto flex flex-col sm:flex-row gap-3">
+          <input type="text" name="site" placeholder="yourcompany.com" autocomplete="off"
+            class="flex-1 rounded-xl border border-slate-300 bg-white px-4 py-3.5 text-sm font-semibold text-slate-800 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-200 focus:border-brand-400" />
+          <button type="submit" class="inline-flex items-center justify-center gap-2 rounded-xl bg-brand-600 hover:bg-brand-500 transition-colors px-6 py-3.5 text-sm font-bold text-white whitespace-nowrap">
+            See where you rank — free <ArrowRight size={16} />
+          </button>
+        </form>
+        <p class="mt-4 text-xs font-semibold text-slate-400">$997/month · month-to-month · no setup fees</p>
+
+        <!-- Hero dashboard mockup -->
+        <div class="mt-14 max-w-4xl mx-auto card p-5 sm:p-6 text-left">
+          <div class="flex items-center justify-between flex-wrap gap-2">
+            <div class="flex items-center gap-2 font-black text-slate-800"><BarChart3 size={16} class="text-brand-600" /> AI Search Visibility</div>
+            <span class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Last scan · today</span>
           </div>
-          <p class="text-[11px] text-slate-500 mt-4 font-semibold">This is the exact scoreboard we build for you — and work to get you to the top of.</p>
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-4">
+            <div class="rounded-xl bg-slate-50 border border-slate-100 p-3"><p class="text-[9px] font-black text-slate-400 uppercase tracking-widest">Visibility</p><p class="text-3xl font-black text-emerald-600">62%</p></div>
+            <div class="rounded-xl bg-slate-50 border border-slate-100 p-3"><p class="text-[9px] font-black text-slate-400 uppercase tracking-widest">Top pick</p><p class="text-3xl font-black text-slate-900">8</p></div>
+            <div class="rounded-xl bg-slate-50 border border-slate-100 p-3"><p class="text-[9px] font-black text-slate-400 uppercase tracking-widest">Cited</p><p class="text-3xl font-black text-sky-600">19</p></div>
+            <div class="rounded-xl bg-slate-50 border border-slate-100 p-3"><p class="text-[9px] font-black text-slate-400 uppercase tracking-widest">Trend</p><p class="text-3xl font-black text-emerald-600">▲14</p></div>
+          </div>
+          <div class="mt-3 rounded-xl bg-slate-50 border border-slate-100 p-4">
+            <div class="flex items-end gap-1.5 h-24">
+              {[28,33,31,40,44,52,58,62].map((v) => (<div class="flex-1 rounded-t bg-gradient-to-t from-brand-600 to-brand-300" style={`height:${v}%`}></div>))}
+            </div>
+            <p class="text-[10px] text-slate-400 font-semibold mt-2">Visibility trending up across the last 8 scans</p>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- What Rank AI does -->
-    <section class="border-y border-white/5 bg-white/[0.015]">
+    <!-- Quick solution cards -->
+    <section class="max-w-wide mx-auto px-5 py-12">
+      <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
+        {solutions.map((s) => (
+          <div class="card card-hover p-5">
+            <span class="w-10 h-10 rounded-xl bg-brand-50 text-brand-600 flex items-center justify-center"><s.icon size={19} /></span>
+            <h3 class="text-base font-black mt-3 text-slate-900">{s.title}</h3>
+            <p class="text-xs text-slate-500 mt-1 leading-relaxed">{s.body}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Three ways -->
+    <section id="how" class="bg-slate-50 border-y border-slate-100 scroll-mt-16">
       <div class="max-w-wide mx-auto px-5 py-20">
         <div class="text-center max-w-2xl mx-auto">
-          <p class="text-xs font-black text-brand-400 uppercase tracking-widest">What Rank AI does</p>
-          <h2 class="text-3xl sm:text-4xl font-black mt-3">Everything that gets you found — handled for you.</h2>
-          <p class="mt-4 text-slate-400">One system covering the channels that drive restoration calls.</p>
+          <p class="text-xs font-black text-brand-600 uppercase tracking-widest">How it works</p>
+          <h2 class="text-3xl sm:text-4xl font-black mt-3">Three ways we get you found.</h2>
+          <p class="mt-4 text-slate-500">One system covering every channel that drives restoration calls — handled for you.</p>
         </div>
-        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-12">
-          {services.map((s) => (
-            <div class="glass rounded-2xl p-6 hover:bg-white/[0.06] transition-colors">
-              <span class="w-11 h-11 rounded-xl bg-brand-600/15 text-brand-300 flex items-center justify-center"><s.icon size={20} /></span>
-              <h3 class="text-lg font-black mt-4">{s.title}</h3>
-              <p class="text-sm text-slate-400 mt-2 leading-relaxed">{s.body}</p>
+        <div class="grid md:grid-cols-3 gap-4 mt-12">
+          {threeWays.map((s) => (
+            <div class="card p-7">
+              <span class="w-12 h-12 rounded-xl bg-brand-600 text-white flex items-center justify-center"><s.icon size={22} /></span>
+              <h3 class="text-xl font-black mt-5 text-slate-900">{s.title}</h3>
+              <p class="text-sm text-slate-500 mt-2 leading-relaxed">{s.body}</p>
             </div>
           ))}
         </div>
       </div>
     </section>
 
-    <!-- How it works -->
-    <section id="how" class="max-w-wide mx-auto px-5 py-20">
+    <!-- Before / After transformation -->
+    <section id="results" class="max-w-wide mx-auto px-5 py-20 scroll-mt-16">
       <div class="text-center max-w-2xl mx-auto">
-        <p class="text-xs font-black text-brand-400 uppercase tracking-widest">How it works</p>
-        <h2 class="text-3xl sm:text-4xl font-black mt-3">Four steps. Zero work on your end.</h2>
+        <p class="text-xs font-black text-brand-600 uppercase tracking-widest">The transformation</p>
+        <h2 class="text-3xl sm:text-4xl font-black mt-3">From invisible to the obvious choice.</h2>
+        <p class="mt-4 text-slate-500">Across the three places homeowners decide who to call.</p>
       </div>
-      <div class="grid md:grid-cols-4 gap-4 mt-12">
-        {steps.map((s) => (
-          <div class="relative glass rounded-2xl p-6">
-            <span class="text-4xl font-black text-brand-500/40">{s.n}</span>
-            <h3 class="text-lg font-black mt-2">{s.title}</h3>
-            <p class="text-sm text-slate-400 mt-2 leading-relaxed">{s.body}</p>
+      <div class="grid md:grid-cols-3 gap-5 mt-12">
+        <!-- AI answer -->
+        <div class="card p-6">
+          <div class="flex items-center gap-2 text-sm font-black text-slate-800"><Bot size={16} class="text-brand-600" /> AI Search</div>
+          <div class="mt-4 space-y-2">
+            <div class="rounded-lg bg-rose-50 border border-rose-100 p-3 flex items-center gap-2"><X size={14} class="text-rose-500 shrink-0" /><span class="text-xs font-semibold text-rose-600">Before — not mentioned by ChatGPT</span></div>
+            <div class="text-center text-slate-300 text-lg leading-none">↓</div>
+            <div class="rounded-lg bg-emerald-50 border border-emerald-100 p-3 flex items-center justify-between"><span class="text-xs font-bold text-emerald-700">★ Your Company</span><span class="text-[9px] font-black uppercase tracking-widest text-emerald-600">Top pick</span></div>
           </div>
-        ))}
+        </div>
+        <!-- Map pack -->
+        <div class="card p-6">
+          <div class="flex items-center gap-2 text-sm font-black text-slate-800"><MapPin size={16} class="text-brand-600" /> Google Map Pack</div>
+          <div class="mt-4 space-y-2">
+            <div class="rounded-lg bg-rose-50 border border-rose-100 p-3 flex items-center gap-2"><X size={14} class="text-rose-500 shrink-0" /><span class="text-xs font-semibold text-rose-600">Before — page 2, outside the top-3</span></div>
+            <div class="text-center text-slate-300 text-lg leading-none">↓</div>
+            <div class="rounded-lg bg-emerald-50 border border-emerald-100 p-3 flex items-center justify-between"><span class="text-xs font-bold text-emerald-700">Your Company</span><span class="text-[9px] font-black uppercase tracking-widest text-emerald-600">#2 in the pack</span></div>
+          </div>
+        </div>
+        <!-- Google -->
+        <div class="card p-6">
+          <div class="flex items-center gap-2 text-sm font-black text-slate-800"><Search size={16} class="text-brand-600" /> Google Search</div>
+          <div class="mt-4 space-y-2">
+            <div class="rounded-lg bg-rose-50 border border-rose-100 p-3 flex items-center gap-2"><X size={14} class="text-rose-500 shrink-0" /><span class="text-xs font-semibold text-rose-600">Before — buried below competitors</span></div>
+            <div class="text-center text-slate-300 text-lg leading-none">↓</div>
+            <div class="rounded-lg bg-emerald-50 border border-emerald-100 p-3 flex items-center justify-between"><span class="text-xs font-bold text-emerald-700">Your Company</span><span class="text-[9px] font-black uppercase tracking-widest text-emerald-600">Top of page 1</span></div>
+          </div>
+        </div>
       </div>
     </section>
 
-    <!-- Proof / scoreboard -->
-    <section class="border-y border-white/5 bg-white/[0.015]">
+    <!-- AI analytics dashboard -->
+    <section class="bg-slate-50 border-y border-slate-100">
       <div class="max-w-wide mx-auto px-5 py-20 grid lg:grid-cols-2 gap-12 items-center">
         <div>
-          <p class="text-xs font-black text-brand-400 uppercase tracking-widest">See exactly where you stand</p>
-          <h2 class="text-3xl sm:text-4xl font-black mt-3 leading-tight">A live scoreboard, not a monthly PDF you'll never read.</h2>
-          <p class="mt-5 text-slate-400 leading-relaxed">
-            Most agencies send a report once a month. Rank AI gives you a live dashboard: your AI-search visibility, your map-pack rankings across the whole service area, who AI recommends instead of you, and your improvement over time.
+          <p class="text-xs font-black text-brand-600 uppercase tracking-widest">AI analytics</p>
+          <h2 class="text-3xl sm:text-4xl font-black mt-3 leading-tight">See exactly who AI recommends — and beat them.</h2>
+          <p class="mt-5 text-slate-500 leading-relaxed">
+            We scan ChatGPT, Gemini and Perplexity for the questions your customers ask, and show you whether you're recommended, what position you're in, and which competitors win when you don't. Then we close the gap.
           </p>
           <ul class="mt-6 space-y-3">
-            {[
-              ["AI Visibility %","Are ChatGPT, Gemini & Perplexity recommending you — and at what position"],
-              ["Local map heatmap","Where you rank in the top-3 across every neighborhood you serve"],
-              ["Improvement over time","Watch your visibility climb scan over scan"],
-            ].map(([h, b]) => (
-              <li class="flex items-start gap-3">
-                <span class="mt-0.5 shrink-0 w-5 h-5 rounded-full bg-brand-600/20 text-brand-300 flex items-center justify-center"><TrendingUp size={12} /></span>
-                <span><span class="font-bold text-white">{h}.</span> <span class="text-slate-400">{b}</span></span>
-              </li>
+            {[["Per-engine visibility","ChatGPT, Gemini & Perplexity — tracked separately"],["Position, not just mention","Top pick vs. listed #3 vs. invisible"],["Competitor intel","Exactly who AI names instead of you"]].map(([h, b]) => (
+              <li class="flex items-start gap-3"><span class="mt-0.5 shrink-0 w-5 h-5 rounded-full bg-brand-100 text-brand-600 flex items-center justify-center"><Check size={12} /></span><span><span class="font-bold text-slate-900">{h}.</span> <span class="text-slate-500">{b}</span></span></li>
             ))}
           </ul>
         </div>
-        <div class="glass rounded-2xl p-6">
-          <div class="flex items-center gap-2 text-sm font-black text-white"><TrendingUp size={16} class="text-brand-400" /> AI Search Visibility</div>
-          <div class="grid grid-cols-3 gap-3 mt-4">
-            <div class="rounded-xl bg-white/[0.03] border border-white/10 p-3"><p class="text-[9px] font-black text-slate-500 uppercase tracking-widest">Visibility</p><p class="text-2xl font-black text-emerald-400">62%</p></div>
-            <div class="rounded-xl bg-white/[0.03] border border-white/10 p-3"><p class="text-[9px] font-black text-slate-500 uppercase tracking-widest">Top pick</p><p class="text-2xl font-black text-white">8</p></div>
-            <div class="rounded-xl bg-white/[0.03] border border-white/10 p-3"><p class="text-[9px] font-black text-slate-500 uppercase tracking-widest">Trend</p><p class="text-2xl font-black text-emerald-400">▲ 14</p></div>
+        <div class="card p-6">
+          <div class="flex items-center gap-2 text-sm font-black text-slate-800"><MessageSquare size={16} class="text-brand-600" /> Recommendations by engine</div>
+          <div class="mt-5 space-y-4">
+            {[["ChatGPT",78],["Gemini",64],["Perplexity",41]].map(([name, pct]) => (
+              <div>
+                <div class="flex items-center justify-between text-xs font-bold text-slate-600"><span>{name}</span><span>{pct}%</span></div>
+                <div class="mt-1.5 h-2.5 rounded-full bg-slate-100 overflow-hidden"><div class="h-full rounded-full bg-gradient-to-r from-brand-600 to-sky-400" style={`width:${pct}%`}></div></div>
+              </div>
+            ))}
           </div>
-          <div class="mt-4 rounded-xl bg-white/[0.03] border border-white/10 p-4">
-            <div class="flex items-end gap-1.5 h-20">
-              {[28,33,31,40,44,52,58,62].map((v) => (<div class="flex-1 rounded-t bg-gradient-to-t from-brand-700 to-brand-400" style={`height:${v}%`}></div>))}
+          <div class="mt-6 pt-5 border-t border-slate-100">
+            <p class="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-2">AI recommends instead</p>
+            <div class="flex flex-wrap gap-2">
+              {["competitor-a.com","yelp.com","competitor-b.com","bbb.org"].map((d) => (<span class="text-[11px] font-bold text-slate-500 bg-slate-50 border border-slate-200 rounded-md px-2 py-0.5">{d}</span>))}
             </div>
-            <p class="text-[10px] text-slate-500 font-semibold mt-2">Visibility trending up over the last 8 scans</p>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Local SEO deep-dive: geo-grid heatmap + reviews -->
+    <section class="max-w-wide mx-auto px-5 py-20 grid lg:grid-cols-2 gap-12 items-center">
+      <div class="order-2 lg:order-1 grid grid-cols-2 gap-4">
+        <div class="card p-5">
+          <p class="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-3">Map-pack heatmap</p>
+          <div class="grid grid-cols-5 gap-1.5">
+            {[3,2,1,2,3, 2,1,1,1,2, 1,1,1,1,1, 2,1,1,1,2, 3,2,1,2,3].map((r) => (
+              <div class={`aspect-square rounded ${r===1?'bg-emerald-500':r===2?'bg-amber-400':'bg-rose-400'}`}></div>
+            ))}
+          </div>
+          <p class="text-[10px] text-slate-400 font-semibold mt-3">Top-3 across your whole service area</p>
+        </div>
+        <div class="card p-5">
+          <p class="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-3">Reviews</p>
+          <div class="flex items-center gap-1 text-amber-400">{[1,2,3,4,5].map(() => (<Star size={16} class="fill-amber-400" />))}</div>
+          <p class="text-3xl font-black text-slate-900 mt-2">4.9</p>
+          <p class="text-xs text-slate-500 font-semibold">312 Google reviews · ▲ 41 this quarter</p>
+          <div class="mt-3 space-y-1.5">{[96,88,72].map((w) => (<div class="h-1.5 rounded-full bg-slate-100 overflow-hidden"><div class="h-full bg-emerald-400" style={`width:${w}%`}></div></div>))}</div>
+        </div>
+      </div>
+      <div class="order-1 lg:order-2">
+        <p class="text-xs font-black text-brand-600 uppercase tracking-widest">Local SEO</p>
+        <h2 class="text-3xl sm:text-4xl font-black mt-3 leading-tight">Own the map pack across every neighborhood you serve.</h2>
+        <p class="mt-5 text-slate-500 leading-relaxed">
+          We track your local-pack ranking on a geo-grid — not one citywide number, but every corner of your service area — and work the levers that move you into the top-3 where the calls are: Google Business Profile, reviews, local pages and citations.
+        </p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          {["Geo-grid rank tracking","GBP optimization","Review generation","Local landing pages"].map((t) => (<span class="inline-flex items-center gap-1.5 text-xs font-bold text-slate-700 bg-slate-50 border border-slate-200 rounded-lg px-3 py-1.5"><Check size={13} class="text-emerald-500" />{t}</span>)) }
         </div>
       </div>
     </section>
 
     <!-- Why us -->
-    <section class="max-w-wide mx-auto px-5 py-20">
-      <div class="grid sm:grid-cols-3 gap-4">
-        {[
-          [Zap, "AI-first", "We optimize for how people actually search now — AI answers, not just blue links."],
-          [ShieldCheck, "Restoration-only", "Built for water, fire, mold, storm & biohazard. We know your customers and keywords."],
-          [TrendingUp, "Radically transparent", "A live scoreboard, real audits of your business, and a plan you can see at any time."],
-        ].map(([Icon, h, b]) => (
-          <div class="glass rounded-2xl p-6">
-            <span class="w-11 h-11 rounded-xl bg-brand-600/15 text-brand-300 flex items-center justify-center"><Icon size={20} /></span>
-            <h3 class="text-lg font-black mt-4">{h}</h3>
-            <p class="text-sm text-slate-400 mt-2 leading-relaxed">{b}</p>
-          </div>
-        ))}
+    <section class="bg-slate-50 border-y border-slate-100">
+      <div class="max-w-wide mx-auto px-5 py-20">
+        <div class="grid sm:grid-cols-3 gap-4">
+          {why.map((s) => (
+            <div class="card p-6">
+              <span class="w-11 h-11 rounded-xl bg-brand-50 text-brand-600 flex items-center justify-center"><s.icon size={20} /></span>
+              <h3 class="text-lg font-black mt-4 text-slate-900">{s.title}</h3>
+              <p class="text-sm text-slate-500 mt-2 leading-relaxed">{s.body}</p>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
 
     <!-- Pricing -->
-    <section class="border-y border-white/5 bg-white/[0.015]">
-      <div class="max-w-wide mx-auto px-5 py-20">
-        <div class="text-center max-w-2xl mx-auto">
-          <p class="text-xs font-black text-brand-400 uppercase tracking-widest">Pricing</p>
-          <h2 class="text-3xl sm:text-4xl font-black mt-3">One plan. Everything included.</h2>
+    <section id="pricing" class="max-w-wide mx-auto px-5 py-20 scroll-mt-16">
+      <div class="text-center max-w-2xl mx-auto">
+        <p class="text-xs font-black text-brand-600 uppercase tracking-widest">Pricing</p>
+        <h2 class="text-3xl sm:text-4xl font-black mt-3">One plan. Everything included.</h2>
+      </div>
+      <div class="max-w-lg mx-auto mt-12 card p-8 text-center relative overflow-hidden">
+        <div class="absolute inset-x-0 top-0 h-1.5 bg-gradient-to-r from-brand-600 to-sky-400"></div>
+        <p class="text-sm font-bold text-slate-500">Rank AI — full system</p>
+        <div class="mt-3 flex items-end justify-center gap-1">
+          <span class="text-6xl font-black text-slate-900">$997</span>
+          <span class="text-slate-400 font-bold mb-2">/month</span>
         </div>
-        <div class="max-w-lg mx-auto mt-12 rounded-3xl glass p-8 text-center relative overflow-hidden">
-          <div class="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-brand-500 to-sky-400"></div>
-          <p class="text-sm font-bold text-slate-400">Rank AI — full system</p>
-          <div class="mt-3 flex items-end justify-center gap-1">
-            <span class="text-6xl font-black text-white">$997</span>
-            <span class="text-slate-400 font-bold mb-2">/month</span>
-          </div>
-          <p class="text-xs font-semibold text-slate-500 mt-2">Month-to-month · no setup fee · cancel anytime</p>
-          <div class="mt-7 space-y-3 text-left">
-            {["AI search tracking & optimization (ChatGPT, Gemini, Perplexity)","Google map pack / geo-grid rank tracking","Weekly local content written & published","Google Business Profile optimization","Review generation & reputation","Local SEO, schema & site health","Live dashboard + improvement reporting"].map((t) => (
-              <div class="flex items-start gap-3"><span class="mt-0.5 shrink-0 w-5 h-5 rounded-full bg-emerald-500/15 text-emerald-300 flex items-center justify-center"><Check size={12} /></span><span class="text-sm text-slate-200 font-medium">{t}</span></div>
-            ))}
-          </div>
-          <a href={CALENDAR} class="mt-8 w-full inline-flex items-center justify-center gap-2 rounded-xl bg-brand-600 hover:bg-brand-500 transition-colors px-7 py-3.5 text-base font-bold text-white">
-            Start with a free audit <ArrowRight size={17} />
-          </a>
+        <p class="text-xs font-semibold text-slate-400 mt-2">Month-to-month · no setup fee · cancel anytime</p>
+        <div class="mt-7 space-y-3 text-left">
+          {includes.map((t) => (<div class="flex items-start gap-3"><span class="mt-0.5 shrink-0 w-5 h-5 rounded-full bg-emerald-50 text-emerald-600 flex items-center justify-center"><Check size={12} /></span><span class="text-sm text-slate-700 font-medium">{t}</span></div>))}
         </div>
+        <a href={CALENDAR} class="mt-8 w-full inline-flex items-center justify-center gap-2 rounded-xl bg-brand-600 hover:bg-brand-500 transition-colors px-7 py-3.5 text-base font-bold text-white">
+          Start with a free audit <ArrowRight size={17} />
+        </a>
       </div>
     </section>
 
     <!-- FAQ -->
     <section class="max-w-3xl mx-auto px-5 py-20">
-      <div class="text-center"><p class="text-xs font-black text-brand-400 uppercase tracking-widest">FAQ</p><h2 class="text-3xl sm:text-4xl font-black mt-3">Questions, answered.</h2></div>
+      <div class="text-center"><p class="text-xs font-black text-brand-600 uppercase tracking-widest">FAQ</p><h2 class="text-3xl sm:text-4xl font-black mt-3">Questions, answered.</h2></div>
       <div class="mt-10 space-y-3">
         {faqs.map((f) => (
-          <details class="glass rounded-2xl p-5 group">
-            <summary class="flex items-center justify-between cursor-pointer list-none font-bold text-white">{f.q}<span class="text-brand-400 group-open:rotate-45 transition-transform text-xl leading-none">+</span></summary>
-            <p class="mt-3 text-sm text-slate-400 leading-relaxed">{f.a}</p>
+          <details class="card p-5 group">
+            <summary class="flex items-center justify-between cursor-pointer list-none font-bold text-slate-900">{f.q}<span class="text-brand-600 group-open:rotate-45 transition-transform text-xl leading-none">+</span></summary>
+            <p class="mt-3 text-sm text-slate-500 leading-relaxed">{f.a}</p>
           </details>
         ))}
       </div>
     </section>
 
     <!-- Final CTA + embedded booking -->
-    <section id="book" class="max-w-wide mx-auto px-5 pb-24 scroll-mt-20">
-      <div class="rounded-3xl grid-bg border border-white/10 px-5 sm:px-8 py-14">
+    <section id="book" class="bg-slate-50 border-t border-slate-100 scroll-mt-16">
+      <div class="max-w-wide mx-auto px-5 py-20">
         <div class="text-center">
           <h2 class="text-3xl sm:text-5xl font-black leading-tight max-w-3xl mx-auto">See where AI ranks you today — free.</h2>
-          <p class="mt-5 text-slate-400 max-w-xl mx-auto">Book a 15-minute call. We'll run your business through AI search and the map pack live and show you exactly where you stand against your competitors. No cost, no commitment.</p>
+          <p class="mt-5 text-slate-500 max-w-xl mx-auto">Book a 15-minute call. We'll run your business through AI search and the map pack live and show you exactly where you stand against your competitors. No cost, no commitment.</p>
         </div>
-        <div class="mt-9 max-w-3xl mx-auto rounded-2xl bg-white p-2 sm:p-3 shadow-2xl">
-          <iframe
-            src={BOOK_URL}
-            title="Book your free Rank AI audit"
-            style="width:100%; min-height:720px; border:none; overflow:hidden;"
-            scrolling="no"
-            loading="lazy"
-            id="rankai-booking">
-          </iframe>
+        <div class="mt-9 max-w-3xl mx-auto card p-2 sm:p-3">
+          <iframe src={BOOK_URL} title="Book your free Rank AI audit"
+            style="width:100%; min-height:720px; border:none; overflow:hidden;" scrolling="no" loading="lazy" id="rankai-booking"></iframe>
         </div>
-        <p class="mt-5 text-center text-sm text-slate-500">Prefer email? <a href={EMAIL} class="text-brand-300 font-semibold hover:text-brand-200">contact@restorationai.io</a></p>
+        <p class="mt-5 text-center text-sm text-slate-400">Prefer email? <a href={EMAIL} class="text-brand-600 font-semibold hover:text-brand-500">contact@restorationai.io</a></p>
       </div>
     </section>
     <script is:inline src="https://link.restorationai.io/js/form_embed.js" type="text/javascript"></script>
 
     <!-- Footer -->
-    <footer class="border-t border-white/5">
-      <div class="max-w-wide mx-auto px-5 py-10 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-500">
-        <div class="flex items-center gap-2.5">
-          <span class="w-7 h-7 rounded-lg bg-brand-600 flex items-center justify-center font-black text-white text-sm">R</span>
-          <span class="font-bold text-slate-300">Rank AI</span><span class="text-slate-600">·</span><span>by Restoration AI</span>
+    <footer class="border-t border-slate-100 bg-white">
+      <div class="max-w-wide mx-auto px-5 py-12 grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="lg:col-span-1">
+          <div class="flex items-center gap-2.5">
+            <span class="w-8 h-8 rounded-lg bg-brand-600 flex items-center justify-center font-black text-white">R</span>
+            <span class="font-black text-slate-900">Rank AI</span>
+          </div>
+          <p class="text-xs text-slate-400 mt-3 leading-relaxed">AI search & local visibility for restoration companies. By Restoration AI.</p>
         </div>
-        <div class="flex items-center gap-5">
-          <a href={EMAIL} class="hover:text-slate-300 transition-colors">contact@restorationai.io</a>
-          <span>© {new Date().getFullYear()} Restoration AI</span>
+        <div>
+          <p class="text-[11px] font-black text-slate-400 uppercase tracking-widest mb-3">Product</p>
+          <ul class="space-y-2 text-sm text-slate-600">
+            <li><a href="#how" class="hover:text-slate-900">How it works</a></li>
+            <li><a href="#results" class="hover:text-slate-900">Results</a></li>
+            <li><a href="#pricing" class="hover:text-slate-900">Pricing</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="text-[11px] font-black text-slate-400 uppercase tracking-widest mb-3">Get started</p>
+          <ul class="space-y-2 text-sm text-slate-600">
+            <li><a href={CALENDAR} class="hover:text-slate-900">Free AI audit</a></li>
+            <li><a href={EMAIL} class="hover:text-slate-900">Contact us</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="text-[11px] font-black text-slate-400 uppercase tracking-widest mb-3">Company</p>
+          <ul class="space-y-2 text-sm text-slate-600">
+            <li><a href="https://restorationai.io" class="hover:text-slate-900">Restoration AI</a></li>
+            <li><a href={EMAIL} class="hover:text-slate-900">contact@restorationai.io</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-slate-100">
+        <div class="max-w-wide mx-auto px-5 py-5 text-xs text-slate-400 flex flex-col sm:flex-row items-center justify-between gap-2">
+          <span>© {new Date().getFullYear()} Restoration AI. All rights reserved.</span>
+          <span>Rank AI — by Restoration AI</span>
         </div>
       </div>
     </footer>
+
+    <script is:inline>
+      // Hero "see where you rank" -> scroll to the booking calendar
+      document.getElementById('rank-form')?.addEventListener('submit', (e) => {
+        e.preventDefault();
+        document.getElementById('book')?.scrollIntoView({ behavior: 'smooth' });
+      });
+    </script>
   </body>
 </html>

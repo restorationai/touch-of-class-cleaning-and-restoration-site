@@ -11,25 +11,34 @@
     -moz-osx-font-smoothing: grayscale;
   }
   body {
-    @apply bg-ink text-slate-200 font-sans antialiased;
+    @apply bg-white text-slate-600 font-sans antialiased;
   }
   h1, h2, h3, h4 {
-    @apply font-display tracking-tight text-white;
+    @apply font-display tracking-tight text-slate-900;
   }
 }
 
 @layer utilities {
-  .glass {
-    @apply bg-white/[0.04] border border-white/10 backdrop-blur-sm;
-  }
-  .grid-bg {
+  /* Soft blue/indigo glow behind the hero, like rank.ai */
+  .hero-glow {
     background-image:
-      radial-gradient(60% 50% at 50% 0%, rgba(37, 99, 235, 0.18), transparent 70%),
-      linear-gradient(to bottom, rgba(255,255,255,0.04) 1px, transparent 1px),
-      linear-gradient(to right, rgba(255,255,255,0.04) 1px, transparent 1px);
-    background-size: 100% 100%, 44px 44px, 44px 44px;
+      radial-gradient(50% 45% at 50% 0%, rgba(37, 99, 235, 0.12), transparent 70%),
+      radial-gradient(40% 40% at 85% 10%, rgba(139, 92, 246, 0.10), transparent 70%),
+      radial-gradient(40% 40% at 15% 15%, rgba(56, 189, 248, 0.10), transparent 70%);
+  }
+  .faint-grid {
+    background-image:
+      linear-gradient(to bottom, rgba(15,23,42,0.04) 1px, transparent 1px),
+      linear-gradient(to right, rgba(15,23,42,0.04) 1px, transparent 1px);
+    background-size: 44px 44px, 44px 44px;
   }
   .text-gradient {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-brand-300 via-brand-400 to-sky-300;
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-brand-600 via-violet-500 to-sky-500;
+  }
+  .card {
+    @apply bg-white border border-slate-200 rounded-2xl shadow-sm;
+  }
+  .card-hover {
+    @apply transition-all hover:shadow-md hover:border-slate-300;
   }
 }
