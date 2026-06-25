@@ -94,6 +94,16 @@ Clients connect Google Ads/GBP/Search Console/YouTube via an emailed/texted link
 
 **Convention:** update this journal as we go — new features, decisions, specs, learnings. Newest first.
 
+### 2026-06-26 (pm) — Item 3: content-queue wiring (pin = pull forward) (BUILT)
+The one safe auto-exec. Pipeline commit 9749e8a (no app changes).
+- `strategist.sync_content_queue(slug, company_id)`: reads **pinned** `blog_post`/`ai_visibility` actions from `marketing_action_plan` → ensures a **prioritized** content-queue item exists (find-or-create by primary_keyword, case-insensitive; rich fields from keyword-bank when available; `city_anchor` parsed from "…in {City}, {ST}" for AI-visibility queries; `intent` commercial/informational; anti-self-ranking `notes` for AI-visibility). Never touches written/live items; idempotent.
+- `content_writer.pop_next_queued()`: **prioritized items jump the line**, then oldest-first.
+- **Verified end-to-end:** app Prioritize → pinned action → strategist creates prioritized queue item (city_anchor=lehi-ut) → S2 pop selects it first. Test data cleaned up.
+- GBP/video stay **advisory** (not auto-executed) per the "don't overcomplicate" call.
+- Q&A this session: confirmed "cited" currently = *mentioned at all* (not #1) — recommended adding `client_rank` position tracking later. Advised AGAINST self-ranking "best companies in {city}" listicles (low trust, AI discounts them); DO third-party directory inclusion + reviews + criteria FAQs. Recommended criteria-based self-positioning FAQ (not "we're the best") — queued as content-gen follow-up.
+
+Remaining roadmap: **item 4 (strategist rebalance: local-transactional + AI-visibility > generic informational blogs)**; AI Search **2b (guard-railed custom queries)**; position/rank tracking; criteria-FAQ content.
+
 ### 2026-06-26 — AI Search v2: multi-engine + redesign (BUILT)
 Working the agreed roadmap (1 multi-LLM, 2 redesign, then 3 content-wiring, 4 strategist rebalance). Items 1+2 done.
 
