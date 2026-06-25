@@ -94,6 +94,14 @@ Clients connect Google Ads/GBP/Search Console/YouTube via an emailed/texted link
 
 **Convention:** update this journal as we go — new features, decisions, specs, learnings. Newest first.
 
+### 2026-06-26 (pm-5) — AI Search trend over time (BUILT + MERGED to prod, PR #16)
+"Track improvement over time." Data already existed (every scan is timestamped) but wasn't surfaced; raw rows are noisy (test runs) + capped by row limits — so built a **rollup**:
+- New table `marketing_ai_search_history` (company_id, scanned_at, total, cited, top_picks, visibility_pct, by_engine jsonb; unique(company_id,scanned_at); RLS select by `get_effective_company_id()`).
+- `ai_search_scan.py` writes **one snapshot per run** (`_sb_history`, guarded `HISTORY_MIN_ROWS=5` to skip ad-hoc/validation runs). Pipeline commit b641e61.
+- App AI Search tab: **Visibility trend** card — dependency-free inline-SVG sparkline + delta vs last scan (▲/▼ pts) + top-pick change + date range; "builds after next scan" empty state. PR #16 merged to main; **prod build green**. localhost now runs `main` directly (all features merged).
+- Backfilled history from the two real existing snapshots/client (skipped the 1- and 4-row test runs). Current trend: davis 7%→10%, Home Pride 17%→18% (0→2 top picks), narestco 17%→17%.
+- Future scans (weekly Mon + manual) append snapshots automatically → trend grows on its own.
+
 ### 2026-06-26 (pm-4) — Merged to production + scan refresh
 - **All 3 app PRs merged to `main`** (production, Netlify auto-deploy): **#13** AI Search (multi-engine, top-10+locations, Prioritize→action, position/rank, custom queries), **#14** Action Plan alerts + deprioritize, **#15** actionable Keyword Bank. Merge order #13→#14→#15; #15 had an AIMarketing.tsx import conflict (both added imports) — resolved on-branch (kept all three imports), pushed, merged. **Production build verified green** (`npm run build` exit 0, all 3 components present).
 - **Full AI-search refresh** complete ($3.70, ~93 queries incl. Home Pride's Park City custom). `client_rank` now populated from full answers. Fresh rank breakdown:
