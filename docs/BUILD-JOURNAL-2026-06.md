@@ -94,6 +94,21 @@ Clients connect Google Ads/GBP/Search Console/YouTube via an emailed/texted link
 
 **Convention:** update this journal as we go — new features, decisions, specs, learnings. Newest first.
 
+### 2026-06-25 (pm-2) — GA4 + Clarity per client (PLUMBING BUILT; provisioning pending)
+**Decision: OAuth Connect, not service account.** We have NO service account; our whole Google stack is OAuth refresh-token based. GA4 properties get created under OUR agency GA account (we own/retain data; client gets viewer access) → one-time agency OAuth grant, then automate. Clarity has **no project-creation API** — always manual.
+
+Built (pipeline commit 7c4e29d):
+- `templates/astro-starter/src/components/Analytics.astro` — GA4 gtag + Clarity, **no-op when id empty**. Wired into BaseLayout + LpLayoutV1/2/3 (site **and** ad LPs) across template + all 3 live sites. narestco site build verified (299 pages, exit 0).
+- `brand.ts` gains `ga4MeasurementId` / `clarityProjectId`; `build_site.py` hydrates `BRAND_GA4_MEASUREMENT_ID` / `BRAND_CLARITY_PROJECT_ID` from `plan-input.json` brand block (so future scaffolds keep them).
+- `scripts/analytics_set.py` — update-or-insert ids into a site's brand.ts + mirror to plan-input; optional `--push` commits/deploys the site's own repo.
+- `scripts/create_ga4.py` — Analytics Admin API (OAuth) creates property + web stream per client, saves measurement id via analytics_set. `--auth-url` prints the consent URL; `--all --push`.
+
+**Note on deploy:** monorepo `sites/` commit ≠ deploy. Each site is its own `{slug}-site` repo (Cloudflare Pages). `analytics_set.py --push` / `create_ga4.py --push` push the site repo to deploy. No rush — tags are no-op until ids set.
+
+**STILL NEEDED from Santino (provisioning):**
+1. **GA4:** add `analytics.edit` scope to our OAuth consent screen (needs Google Cloud Console), then one-time grant via the URL from `create_ga4.py --auth-url`; set `GOOGLE_ANALYTICS_REFRESH_TOKEN` + `GOOGLE_ANALYTICS_ACCOUNT_ID` in `.env`. Then I run `create_ga4.py --all --push`.
+2. **Clarity:** manually create 3 projects at clarity.microsoft.com, send me the project ids → I run `analytics_set.py --slug <s> --clarity <id> --push`.
+
 ### 2026-06-25 (pm) — AI-search view + Action Plan alerts (BUILT)
 Working through the 4-item plan in order. Local dev clone now in use: **`/tmp/rankai/Restoration-AI-APP`** (fresh GitHub clone; `npm run dev` → localhost:5173). Feature branch `feat/action-plan-alerts` is stacked on `feat/ai-search-view`, so localhost shows both.
 
