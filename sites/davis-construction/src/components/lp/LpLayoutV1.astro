@@ -8,6 +8,7 @@
  */
 import "~/styles/global.css";
 import { brand } from "~/lib/brand";
+import Analytics from "~/components/Analytics.astro";
 import { Phone, MapPin, ChevronDown, Star, ShieldCheck, Clock, FileText, Users, Wrench, Award, BadgeCheck, Headphones, Smile } from "@lucide/astro";
 
 interface BodyContent {
@@ -134,6 +135,7 @@ const displayPhoneRaw = (brand as any).adsTrackingPhoneRaw ?? brand.phoneRaw;
         </script>
       </>
     )}
+      <Analytics />
   </head>
   <body class="min-h-screen flex flex-col bg-white font-sans antialiased">
 

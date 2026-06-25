@@ -1,6 +1,7 @@
 ---
 import "~/styles/global.css";
 import { brand } from "~/lib/brand";
+import Analytics from "~/components/Analytics.astro";
 import Header from "~/components/Header.astro";
 import Footer from "~/components/Footer.astro";
 import Schema from "~/components/Schema.astro";
@@ -93,6 +94,7 @@ const ctx: PageSchemaContext = {
     </script>
     <script is:inline src="https://app.restorationai.io/widget-main.js" async></script>
     <!-- End Restoration AI Chat Widget -->
+      <Analytics />
   </head>
   <body class="min-h-screen flex flex-col">
     <!-- Top Announcement Bar -->

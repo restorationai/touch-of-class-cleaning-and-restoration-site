@@ -30,6 +30,9 @@ export const brand = {
   googleCid: "12984564642744438542",
   imagesBase: "https://images.narestco.com",
   googleMapsApiKey: "AIzaSyDrYnSuDu-hFvKHEcQCjwb-zsMebInPneU",
+  // Analytics — set by scripts/analytics_set.py / create_ga4.py; no-op if empty
+  ga4MeasurementId: "",
+  clarityProjectId: "",
   logoUrl: "/images/logo.webp",
   licenseNumbers: ["NATIORC792M6"] as string[],
   licenseAuthority: "WA State Department of Labor & Industries",

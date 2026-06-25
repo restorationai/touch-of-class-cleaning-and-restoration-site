@@ -24,6 +24,9 @@ export const brand = {
   googleCid: "{{BRAND_GOOGLE_CID}}",
   imagesBase: "{{BRAND_IMAGES_BASE}}",
   googleMapsApiKey: "{{BRAND_GOOGLE_MAPS_API_KEY}}",
+  // Analytics — set post-scaffold (scripts/analytics_set.py / create_ga4.py); no-op if empty
+  ga4MeasurementId: "{{BRAND_GA4_MEASUREMENT_ID}}",
+  clarityProjectId: "{{BRAND_CLARITY_PROJECT_ID}}",
   logoUrl: "{{BRAND_LOGO_URL}}",
   licenseNumbers: {{BRAND_LICENSE_NUMBERS_JSON}} as string[],
   licenseAuthority: "{{BRAND_LICENSE_AUTHORITY}}",

@@ -24,6 +24,9 @@ export const brand = {
   googleCid: "",
   imagesBase: "https://images.homepriderestorationandcleaning.com",
   googleMapsApiKey: "AIzaSyDrYnSuDu-hFvKHEcQCjwb-zsMebInPneU",
+  // Analytics — set by scripts/analytics_set.py / create_ga4.py; no-op if empty
+  ga4MeasurementId: "",
+  clarityProjectId: "",
   logoUrl: "https://images.homepriderestorationandcleaning.com/brand/logo.png",
   licenseNumbers: ["RC-25-0737"] as string[],
   licenseAuthority: "",

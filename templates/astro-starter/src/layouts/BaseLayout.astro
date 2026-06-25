@@ -1,6 +1,7 @@
 ---
 import "~/styles/global.css";
 import { brand } from "~/lib/brand";
+import Analytics from "~/components/Analytics.astro";
 import Header from "~/components/Header.astro";
 import Footer from "~/components/Footer.astro";
 import Schema from "~/components/Schema.astro";
@@ -84,6 +85,7 @@ const ctx: PageSchemaContext = {
         <script is:inline src="https://app.restorationai.io/widget-main.js" async></script>
       </>
     )}
+      <Analytics />
   </head>
   <body class="min-h-screen flex flex-col">
     <div class="hidden md:block bg-primary-600 text-white text-xs md:text-sm font-bold text-center py-2 px-4 tracking-wider">

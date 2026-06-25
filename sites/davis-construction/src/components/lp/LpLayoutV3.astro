@@ -29,6 +29,7 @@
  */
 import "~/styles/global.css";
 import { brand } from "~/lib/brand";
+import Analytics from "~/components/Analytics.astro";
 import { Phone, ArrowUpRight, Star, CircleCheck, Clock, ShieldCheck, BadgeCheck } from "@lucide/astro";
 
 interface BodyContent {
@@ -150,6 +151,7 @@ const displayPhoneRaw = (brand as any).adsTrackingPhoneRaw ?? brand.phoneRaw;
         </script>
       </>
     )}
+      <Analytics />
   </head>
   <body class="min-h-screen flex flex-col font-sans antialiased" style={`background:${CREAM}`}>
 

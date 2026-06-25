@@ -158,6 +158,8 @@ def resolve_tokens(client: dict, plan_input: dict) -> tuple[dict, dict]:
         "BRAND_INITIALS": initials,
         "BRAND_IMAGES_BASE": f"https://images.{domain}",
         "BRAND_GOOGLE_MAPS_API_KEY": brand.get("google_maps_api_key", ""),
+        "BRAND_GA4_MEASUREMENT_ID": brand.get("ga4_measurement_id", ""),
+        "BRAND_CLARITY_PROJECT_ID": brand.get("clarity_project_id", ""),
         **DEFAULTS,
     }
 
