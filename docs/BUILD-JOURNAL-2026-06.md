@@ -94,6 +94,11 @@ Clients connect Google Ads/GBP/Search Console/YouTube via an emailed/texted link
 
 **Convention:** update this journal as we go — new features, decisions, specs, learnings. Newest first.
 
+### 2026-06-26 (pm-2) — Item 4 (strategist rebalance) + position tracking (BUILT)
+**Item 4 — lead-gen rebalance** (pipeline 7841841): `gather_content` tags uncovered keywords **local-transactional** (city + buy-intent = real call driver) vs **informational**; `build_actions` makes local-tx gaps **HIGH** impact (local pages), generic informational **LOW** (supporting/AI-citation), and adds a **HIGH** "research local-transactional keywords" action when `local_tx_total < n_areas`. Verified: Home Pride now leads with local-keyword research + AI-visibility + GBP; ice-dam/insurance blogs demoted off the top. Plans refreshed for all 3.
+
+**Position tracking** (pipeline 1aa02d0; app PR #13 663da1d): scanner `detect_rank()` parses the AI answer (numbered/bulleted lists, then "the best … is X" headline) → stores `client_rank` (1 = top pick, N = listed Nth, null = cited but position unclear). App shows **★ Top pick / Listed #N / Mentioned / Not mentioned** + a "Top Pick" stat. Honest metric now: "cited" ≠ "#1". Validated live (narestco Federal Way = **#2** on ChatGPT). Excerpt bumped 400→600. NOTE: existing rows mostly show "Mentioned" (rank not recoverable from old truncated excerpts); the Monday scheduled scan repopulates ranks from full answers (or trigger `ai_search_scan.py --all` to refresh now, ~$3.6).
+
 ### 2026-06-26 (pm) — Item 3: content-queue wiring (pin = pull forward) (BUILT)
 The one safe auto-exec. Pipeline commit 9749e8a (no app changes).
 - `strategist.sync_content_queue(slug, company_id)`: reads **pinned** `blog_post`/`ai_visibility` actions from `marketing_action_plan` → ensures a **prioritized** content-queue item exists (find-or-create by primary_keyword, case-insensitive; rich fields from keyword-bank when available; `city_anchor` parsed from "…in {City}, {ST}" for AI-visibility queries; `intent` commercial/informational; anti-self-ranking `notes` for AI-visibility). Never touches written/live items; idempotent.
