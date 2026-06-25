@@ -94,6 +94,14 @@ Clients connect Google Ads/GBP/Search Console/YouTube via an emailed/texted link
 
 **Convention:** update this journal as we go — new features, decisions, specs, learnings. Newest first.
 
+### 2026-06-26 (pm-6) — NEW DIRECTION: Sales assets
+Pivot to sales collateral. Context: 3 demos — 2 want "more info on what Rank AI is / how it helps," 1 wants a proposal.
+- **Decision (web vs PDF):** lead with **web page** (it's a proof of capability for an SEO/AI product, trackable via GA4/Clarity, updatable, personalizable); offer **PDF export** for proposals. Two distinct assets: a reusable **overview page** (info requests) and **personalized proposal pages** (+PDF) with a **live audit of the prospect's own business** (run our AI-search + geo-grid + keyword tools on them — the unfair advantage).
+- **Key finding:** `restorationai.io` is already live = the **AI Receptionist / dispatch** product (separate Astro site on Cloudflare, different repo). Rank AI (SEO/AI-search) is a **separate product line**. So position as **"Rank AI — by Restoration AI"**; recommended URL **`rankai.restorationai.io`** (subdomain, doesn't touch existing site).
+- **User chose:** build the **reusable overview page first**; personalize with **full live audits per prospect** next (they'll supply name/site/city/services; ~$1–3 DataForSEO/prospect).
+- **BUILT (this turn):** `sales/rank-ai/` — standalone Astro landing page (own indigo/blue theme, Tailwind compiled, Inter), single `src/pages/index.astro`. Sections: hero (AI-search shift), the shift/problem (with a mock AI scoreboard), services (AI search / map pack / content / reviews / GBP / local SEO), 4-step how-it-works, live-scoreboard proof, why-us, pricing ($997/mo flat, month-to-month), FAQ, CTAs (mailto contact@restorationai.io — **need real booking link**). Build green; **review on localhost:4321** (NOT deployed yet). Committed (pipeline 9f0b432).
+- **NEXT:** (1) Santino reviews/edits copy + confirms brand/URL; (2) swap mailto → real booking link (Calendly?); (3) deploy to Cloudflare Pages + map `rankai.restorationai.io`; (4) build personalized proposal generator (page + PDF + live audit) for the hot lead.
+
 ### 2026-06-26 (pm-5) — AI Search trend over time (BUILT + MERGED to prod, PR #16)
 "Track improvement over time." Data already existed (every scan is timestamped) but wasn't surfaced; raw rows are noisy (test runs) + capped by row limits — so built a **rollup**:
 - New table `marketing_ai_search_history` (company_id, scanned_at, total, cited, top_picks, visibility_pct, by_engine jsonb; unique(company_id,scanned_at); RLS select by `get_effective_company_id()`).
