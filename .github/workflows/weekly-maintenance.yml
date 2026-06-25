@@ -62,7 +62,7 @@ jobs:
           SUPABASE_SERVICE_ROLE_KEY:  ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           DATAFORSEO_USERNAME:        ${{ secrets.DATAFORSEO_USERNAME }}
           DATAFORSEO_PASSWORD:        ${{ secrets.DATAFORSEO_PASSWORD }}
-        run: python3 scripts/ai_search_scan.py --all --limit 4
+        run: python3 scripts/ai_search_scan.py --all --limit 8 --engines chatgpt,gemini,perplexity
 
       - name: Refresh strategist action plans (System 0)
         env:

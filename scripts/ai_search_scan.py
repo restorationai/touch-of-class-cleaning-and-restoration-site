@@ -39,8 +39,16 @@ except Exception:
     pass
 from geogrid_scan import load_dfs_creds   # noqa: E402  reuse the DataForSEO creds loader
 
-DFS_LLM_URL = "https://api.dataforseo.com/v3/ai_optimization/chat_gpt/llm_responses/live"
-MODEL = "gpt-4o"
+# Each engine -> (DataForSEO provider path segment, model_name). All use the same
+# /ai_optimization/{provider}/llm_responses/live shape with web_search=true.
+ENGINES = {
+    "chatgpt":    ("chat_gpt",   "gpt-4o"),
+    "gemini":     ("gemini",     "gemini-2.5-flash"),
+    "perplexity": ("perplexity", "sonar"),
+    "claude":     ("claude",     "claude-haiku-4-5"),   # available but low-ROI for this vertical
+}
+DEFAULT_ENGINES = ["chatgpt", "gemini", "perplexity"]
+LLM_URL = "https://api.dataforseo.com/v3/ai_optimization/{provider}/llm_responses/live"
 # Directory/aggregator domains that aren't competitors — useful as GEO targets, flagged separately.
 DIRECTORY_DOMAINS = {"bbb.org", "yelp.com", "expertise.com", "angi.com", "thumbtack.com",
                      "reddit.com", "google.com", "facebook.com", "nextdoor.com", "houzz.com"}
@@ -65,24 +73,37 @@ def client_identity(slug: str) -> dict:
             "services": pi.get("services", []), "areas": pi.get("service_areas", [])}
 
 
-def money_queries(ident: dict, limit: int) -> list[str]:
-    svc_labels = [s.replace("-", " ") for s in ident["services"][:3]]
+def money_queries(ident: dict, limit: int) -> list[dict]:
+    """Up to `limit` money questions spanning top services x top cities.
+    Interleaved (city-major) so the set covers multiple locations rather than
+    exhausting one city first. Returns dicts: {query, city, state, location}."""
+    svc_labels = [s.replace("-", " ") for s in ident["services"][:4]]
     areas = ident["areas"]
     primary = next((a for a in areas if a.get("primary")), areas[0] if areas else None)
-    others = [a for a in areas if not a.get("primary")][:1]
-    cities = [c for c in ([primary] + others) if c]
-    qs = []
+    others = [a for a in areas if not a.get("primary")]
+    cities = [c for c in ([primary] + others) if c][:4]
+    if not (svc_labels and cities):
+        return []
+
+    # Build a city-major grid: for each service, walk every city, so early rows
+    # already span locations.
+    qs: list[dict] = []
+    seen: set[str] = set()
+
+    def add(query: str, c: dict):
+        if query not in seen:
+            seen.add(query)
+            qs.append({"query": query, "city": c["city"], "state": c["state"],
+                       "location": f"{c['city']}, {c['state']}"})
+
     for svc in svc_labels:
         for c in cities:
-            qs.append(f"best {svc} company in {c['city']}, {c['state']}")
+            add(f"best {svc} company in {c['city']}, {c['state']}", c)
+    # one "near me" for the primary service/city (how people actually ask AI)
     if cities:
-        qs.append(f"{svc_labels[0]} near me {cities[0]['city']} {cities[0]['state']}")
-    # de-dup, cap
-    seen, out = set(), []
-    for q in qs:
-        if q not in seen:
-            seen.add(q); out.append(q)
-    return out[:limit]
+        add(f"{svc_labels[0]} near me in {cities[0]['city']}, {cities[0]['state']}", cities[0])
+
+    return qs[:limit]
 
 
 def _walk(obj, texts, urls):
@@ -106,10 +127,11 @@ def _domain(u: str) -> str:
     return host.replace("www.", "").lower().split("/")[0]
 
 
-def run_query(auth: str, query: str) -> dict:
-    body = [{"user_prompt": query[:500], "model_name": MODEL, "web_search": True,
+def run_query(auth: str, engine: str, query: str) -> dict:
+    provider, model = ENGINES[engine]
+    body = [{"user_prompt": query[:500], "model_name": model, "web_search": True,
              "max_output_tokens": 800}]
-    req = urllib.request.Request(DFS_LLM_URL, data=json.dumps(body).encode(),
+    req = urllib.request.Request(LLM_URL.format(provider=provider), data=json.dumps(body).encode(),
         headers={"Authorization": f"Basic {auth}", "Content-Type": "application/json"}, method="POST")
     with urllib.request.urlopen(req, timeout=180) as r:
         d = json.loads(r.read())
@@ -136,7 +158,7 @@ def _sb_insert(rows: list[dict]) -> None:
     urllib.request.urlopen(req)
 
 
-def run_for(slug: str, auth: str, limit: int, dry_run: bool) -> float:
+def run_for(slug: str, auth: str, limit: int, engines: list[str], dry_run: bool) -> float:
     cid = company_id_for(slug)
     if not cid:
         print(f"  skip {slug}: no company_id", file=sys.stderr); return 0.0
@@ -144,26 +166,34 @@ def run_for(slug: str, auth: str, limit: int, dry_run: bool) -> float:
     queries = money_queries(ident, limit)
     now = datetime.now(timezone.utc).isoformat()
     rows, spend = [], 0.0
-    print(f"\n=== AI-search scan — {slug} ({cid}) — {len(queries)} queries ===")
-    for q in queries:
-        try:
-            r = run_query(auth, q)
-        except urllib.error.HTTPError as e:
-            print(f"  ! {q[:50]}: HTTP {e.code}", file=sys.stderr); continue
-        spend += float(r["cost"])
-        ans_l = r["answer"].lower()
-        cited = (ident["domain"] and ident["domain"] in r["domains"]) or \
-                (ident["name"] and ident["name"] in ans_l)
-        sources = [{"domain": d, "directory": any(d.endswith(x) for x in DIRECTORY_DOMAINS)}
-                   for d in r["domains"][:12]]
-        print(f"  [{'CITED' if cited else ' --- '}] {q}")
-        rows.append({
-            "company_id": cid, "rank_ai_slug": slug, "engine": "chatgpt", "query": q,
-            "cited": bool(cited), "client_rank": None,
-            "competitors": None, "cited_sources": sources,
-            "answer_excerpt": r["answer"][:400], "scanned_at": now,
-        })
-    print(f"  spend: ${spend:.3f} | cited in {sum(1 for x in rows if x['cited'])}/{len(rows)}")
+    print(f"\n=== AI-search scan — {slug} ({cid}) — {len(queries)} queries x {len(engines)} engines ===")
+    if dry_run:
+        for q in queries:
+            print(f"  [{q['location']}] {q['query']}")
+        print(f"  (dry-run — would query {len(engines)} engine(s): {', '.join(engines)}; no API calls, no writes)")
+        return 0.0
+    for engine in engines:
+        eng_cited = 0
+        for q in queries:
+            try:
+                r = run_query(auth, engine, q["query"])
+            except urllib.error.HTTPError as e:
+                print(f"  ! [{engine}] {q['query'][:46]}: HTTP {e.code}", file=sys.stderr); continue
+            spend += float(r["cost"])
+            ans_l = r["answer"].lower()
+            cited = (ident["domain"] and ident["domain"] in r["domains"]) or \
+                    (ident["name"] and ident["name"] in ans_l)
+            eng_cited += 1 if cited else 0
+            sources = [{"domain": d, "directory": any(d.endswith(x) for x in DIRECTORY_DOMAINS)}
+                       for d in r["domains"][:12]]
+            rows.append({
+                "company_id": cid, "rank_ai_slug": slug, "engine": engine, "query": q["query"],
+                "location": q["location"], "cited": bool(cited), "client_rank": None,
+                "competitors": None, "cited_sources": sources,
+                "answer_excerpt": r["answer"][:400], "scanned_at": now,
+            })
+        print(f"  {engine:11} cited {eng_cited}/{len(queries)}")
+    print(f"  spend: ${spend:.3f} | cited in {sum(1 for x in rows if x['cited'])}/{len(rows)} (all engines)")
     if not dry_run and rows:
         _sb_insert(rows)
         print(f"  stored {len(rows)} rows.")
@@ -175,17 +205,22 @@ def main() -> int:
     grp = ap.add_mutually_exclusive_group(required=True)
     grp.add_argument("--slug")
     grp.add_argument("--all", action="store_true")
-    ap.add_argument("--limit", type=int, default=6, help="max money queries per client (cost control)")
+    ap.add_argument("--limit", type=int, default=10, help="max money queries per client (cost control)")
+    ap.add_argument("--engines", default=",".join(DEFAULT_ENGINES),
+                    help=f"comma-separated engines. available: {','.join(ENGINES)}")
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
     if not (os.environ.get("SUPABASE_URL") and os.environ.get("SUPABASE_SERVICE_ROLE_KEY")):
         print("ERROR: SUPABASE_URL + SUPABASE_SERVICE_ROLE_KEY required.", file=sys.stderr); return 1
+    engines = [e.strip() for e in args.engines.split(",") if e.strip() in ENGINES]
+    if not engines:
+        print(f"ERROR: no valid engines. available: {','.join(ENGINES)}", file=sys.stderr); return 1
     u, p = load_dfs_creds()
     auth = base64.b64encode(f"{u}:{p}".encode()).decode()
     slugs = list(json.loads((ROOT / "clients" / "company_map.json").read_text())) if args.all else [args.slug]
     total = 0.0
     for s in slugs:
-        total += run_for(s, auth, args.limit, args.dry_run)
+        total += run_for(s, auth, args.limit, engines, args.dry_run)
     print(f"\nTOTAL DataForSEO spend: ${total:.3f}")
     return 0
 
