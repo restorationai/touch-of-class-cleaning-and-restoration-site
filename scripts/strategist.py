@@ -21,6 +21,7 @@ import argparse
 import hashlib
 import json
 import os
+import re
 import sys
 import urllib.parse
 import urllib.request
@@ -262,6 +263,84 @@ def build_actions(geo: list[dict], content: dict, audit: dict, ai: dict | None =
     return acts
 
 
+def _parse_city_anchor(slug: str, target: str) -> str | None:
+    """For an ai_visibility query like 'best X company in Saratoga Springs, UT',
+    map the city to a service_area slug so the content writer localizes it."""
+    if " in " not in (target or ""):
+        return None
+    city = target.rsplit(" in ", 1)[1].split(",")[0].strip().lower()
+    try:
+        pi = json.loads((ROOT / "clients" / slug / "plan-input.json").read_text())
+    except Exception:
+        return None
+    for a in pi.get("service_areas", []):
+        if (a.get("city") or "").strip().lower() == city:
+            return a.get("slug")
+    return None
+
+
+def sync_content_queue(slug: str, company_id: str) -> int:
+    """Make pinned content actions (blog_post / ai_visibility) into prioritized
+    content-queue items so System 2 writes them next. Find-or-create by keyword
+    (case-insensitive); never touches already-written/live items. Safe + idempotent."""
+    rows = _sb("GET", "/rest/v1/marketing_action_plan?company_id=eq." +
+               urllib.parse.quote(company_id) +
+               "&pinned=is.true&action_type=in.(blog_post,ai_visibility)"
+               "&status=in.(planned,in_progress)&select=action_type,target,title") or []
+    pinned = [r for r in rows if r.get("target")]
+    if not pinned:
+        return 0
+
+    qpath = ROOT / "clients" / slug / "content-queue.json"
+    queue = json.loads(qpath.read_text()) if qpath.exists() else {"items": []}
+    items = queue.setdefault("items", [])
+    by_kw = {(i.get("primary_keyword") or "").strip().lower(): i for i in items}
+
+    # rich data from the keyword bank when the target is a researched keyword
+    bank = {}
+    bpath = ROOT / "clients" / slug / "keyword-bank.json"
+    if bpath.exists():
+        for k in json.loads(bpath.read_text()).get("keywords", []):
+            bank[(k.get("keyword") or "").strip().lower()] = k
+
+    now = datetime.now(timezone.utc).isoformat()
+    touched = 0
+    for r in pinned:
+        kw = r["target"].strip()
+        key = kw.lower()
+        existing = by_kw.get(key)
+        if existing:
+            if existing.get("status") == "queued" and not existing.get("prioritized"):
+                existing["prioritized"] = True
+                touched += 1
+            continue  # already covered/written or already prioritized — leave it
+
+        b = bank.get(key, {})
+        item = {
+            "id": f"{now[:10]}-pin-" + re.sub(r"[^a-z0-9]+", "-", key)[:48].strip("-"),
+            "status": "queued", "queued_at": now, "prioritized": True,
+            "source": "strategist-pin",
+            "primary_keyword": kw,
+            "intent": b.get("intent") or ("commercial" if r["action_type"] == "ai_visibility" else "informational"),
+            "volume": b.get("volume"), "kd": b.get("kd"),
+            "target_word_count": 1500,
+        }
+        anchor = _parse_city_anchor(slug, kw)
+        if anchor:
+            item["city_anchor"] = anchor
+        if r["action_type"] == "ai_visibility":
+            item["notes"] = ("Pinned from AI Search. Write an honest, locally-specific guide that "
+                             "positions this business on verifiable strengths (certifications, license, "
+                             "response time, reviews) — NOT a self-ranking 'best companies' list.")
+        items.append(item)
+        by_kw[key] = item
+        touched += 1
+
+    if touched:
+        qpath.write_text(json.dumps(queue, indent=2))
+    return touched
+
+
 def run_for(slug: str, dry_run: bool) -> int:
     company_id = company_id_for(slug)
     if not company_id:
@@ -313,6 +392,12 @@ def run_for(slug: str, dry_run: bool) -> int:
         _sb("POST", "/rest/v1/marketing_action_plan", inserts)
     print(f"\nUpserted plan for {slug}: {len(inserts)} planned, "
           f"{len(actions) - len(inserts)} left untouched (dismissed/pinned/in-progress).")
+
+    # Pull-forward wiring: pinned content actions become prioritized content-queue
+    # items so System 2 writes them next. The one safe auto-exec (content only).
+    synced = sync_content_queue(slug, company_id)
+    if synced:
+        print(f"  content-queue: {synced} pinned item(s) queued/prioritized for System 2.")
     return 0
 
 

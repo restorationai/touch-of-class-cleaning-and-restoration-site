@@ -291,13 +291,14 @@ def load_queue(slug: str) -> dict:
 
 
 def pop_next_queued(queue: dict) -> dict | None:
-    """Find the oldest priority-1 queued item. Does NOT modify the queue (the
-    orchestrator updates status after a successful write)."""
+    """Find the next queued item. Prioritized items (pinned in the app's Action
+    Plan, synced by the strategist) jump the line; otherwise oldest-first.
+    Does NOT modify the queue (the orchestrator updates status after a write)."""
     items = [i for i in queue.get("items", []) if i.get("status") == "queued"]
     if not items:
         return None
-    # Sort by queued_at ascending — oldest first
-    items.sort(key=lambda i: i.get("queued_at", ""))
+    # prioritized first, then oldest queued_at
+    items.sort(key=lambda i: (0 if i.get("prioritized") else 1, i.get("queued_at", "")))
     return items[0]
 
 
