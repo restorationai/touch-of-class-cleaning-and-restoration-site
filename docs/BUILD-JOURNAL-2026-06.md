@@ -94,6 +94,13 @@ Clients connect Google Ads/GBP/Search Console/YouTube via an emailed/texted link
 
 **Convention:** update this journal as we go — new features, decisions, specs, learnings. Newest first.
 
+### 2026-06-26 (pm-20) — GBP insights wired into the strategist's Action Plan (System 0)
+- `strategist.py` now has `gather_gbp(company_id)` reading `marketing_gbp_suggestions` (optimizer output) + `marketing_gbp_profiles` (review recency). Threaded into `gather_alerts` + `build_actions`.
+- **Surfaces:** (1) ALERT — services the client declared they do NOT offer that are live on the GBP (negatives → trust/suspension risk, high); (2) "Add N confirmed services" (medium/low); (3) "Create N website pages for confirmed services" (medium/medium); (4) "Clean up N duplicate/off-brand services" (low/low); (5) "Get fresh Google reviews" if last_review_at ≥45 days. All aggregated (counts, not per-service) and one-click in Marketing → Locations.
+- All assigned_system='gbp'; stable action_keys (gbp_add_services/gbp_create_pages/gbp_cleanup/gbp_reviews + gbp_negatives alert) so re-runs honor dismissed/pinned.
+- **Ran --all live:** Home Pride (1 negative, 10 add, 10 pages, 15 cleanup), narestco (9 negatives, 4 add, 8 pages, 27 cleanup), Davis (0 — no synced GBP, handled gracefully). Rows confirmed in marketing_action_plan; the app's "What we're working on" card now shows GBP work. No workflow change needed — strategist already runs in weekly-maintenance (Mon+Thu).
+- **GBP optimizer system now complete:** optimize → suggestions → app panel (one-click apply) → page-build pipeline → strategist Action Plan. End of this build arc.
+
 ### 2026-06-26 (pm-19) — Page-build automation PROVEN end-to-end; schedule enabled
 - Manual gbp-maintenance runs surfaced + fixed THREE real build-chain bugs (each a distinct footgun):
   1. **render fatality:** 13/14 pages rendered but 1 straggler made the chain abort before deploy. Fix: render is best-effort (retry once); the DEPLOY is the success gate.

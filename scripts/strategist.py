@@ -173,7 +173,40 @@ def gather_audit(slug: str) -> dict:
     return json.loads(rec.read_text()).get("audit", {}) or {}
 
 
-def gather_alerts(slug: str, content: dict, ai: dict, audit: dict) -> list[dict]:
+def gather_gbp(company_id: str) -> dict:
+    """Open GBP optimizer suggestions + review recency → strategic signals. Backed by
+    scripts/gbp.py optimize (marketing_gbp_suggestions) and the synced profile. All
+    items are one-click-applicable in the app's Marketing > Locations panel."""
+    rows = _sb("GET", "/rest/v1/marketing_gbp_suggestions?company_id=eq." +
+               urllib.parse.quote(company_id) +
+               "&status=eq.open&select=verdict,item_type,item,auto_safe,reason") or []
+
+    def is_negative(r: dict) -> bool:  # set by gbp.py's deterministic guardrail
+        return "do not offer" in (r.get("reason") or "").lower()
+
+    removes = [r for r in rows if r.get("verdict") == "REMOVE"]
+    negatives = [r for r in removes if is_negative(r)]
+    add_services = [r for r in rows if r.get("verdict") == "ADD" and r.get("item_type") == "service"]
+    pages = [r for r in rows if r.get("item_type") == "page"]          # ADD (confirmed, no page)
+    merges = [r for r in rows if r.get("verdict") == "MERGE"]
+
+    prof = _sb("GET", "/rest/v1/marketing_gbp_profiles?company_id=eq." +
+               urllib.parse.quote(company_id) + "&select=last_review_at,review_count,rating") or []
+    p = prof[0] if prof else {}
+    return {
+        "removes": removes, "negatives": negatives, "add_services": add_services,
+        "pages": pages, "merges": merges,
+        "cleanup_n": len(merges) + (len(removes) - len(negatives)),
+        "last_review_at": p.get("last_review_at"), "review_count": p.get("review_count"),
+    }
+
+
+def _names(items: list, n: int = 3) -> str:
+    shown = ", ".join((r.get("item") or "") for r in items[:n])
+    return shown + ("…" if len(items) > n else "")
+
+
+def gather_alerts(slug: str, content: dict, ai: dict, audit: dict, gbp: dict | None = None) -> list[dict]:
     """Account-health flags that need a human's attention (not routine work).
     Two sources: (1) auto-derived from the signals we already gathered, and
     (2) operator-set flags in clients/{slug}.json['ops_alerts'] (e.g. narestco LSA)."""
@@ -206,14 +239,25 @@ def gather_alerts(slug: str, content: dict, ai: dict, audit: dict) -> list[dict]
         alerts.append({"title": "Invisible in AI search",
                        "rationale": f"Not recommended in any of {ai['total']} AI money questions scanned.",
                        "target": "ai_invisible", "severity": "high", "system": "s2"})
+
+    # GBP correctness: services the business declared it does NOT offer are live on the
+    # listing — a trust problem and a suspension risk. Highest-signal GBP issue.
+    if gbp and gbp.get("negatives"):
+        alerts.append({
+            "title": "Incorrect services on your Google Business Profile",
+            "rationale": f"{len(gbp['negatives'])} service(s) the business declared it does NOT offer "
+                         f"are live on the GBP ({_names(gbp['negatives'])}). These mislead customers and "
+                         f"risk a listing suspension — remove them in Marketing → Locations (one click).",
+            "target": "gbp_negatives", "severity": "high", "system": "gbp"})
     return alerts
 
 
 # ----------------------------------------------------------------- build + rank
 def build_actions(geo: list[dict], content: dict, audit: dict, ai: dict | None = None,
-                  alerts: list[dict] | None = None) -> list[dict]:
+                  alerts: list[dict] | None = None, gbp: dict | None = None) -> list[dict]:
     acts: list[dict] = []
     ai = ai or {"missing": []}
+    gbp = gbp or {}
 
     # Alerts: account-health flags surfaced as a "Needs Attention" section in the app.
     # action_type='alert' so the UI can split them from routine actions.
@@ -293,6 +337,49 @@ def build_actions(geo: list[dict], content: dict, audit: dict, ai: dict | None =
                          "authority/AI citation (not a direct lead driver).",
             "target": u["keyword"], "impact": "low", "effort": "low",
         })
+
+    # GBP optimizer: confirmed-service gaps + listing cleanup + review velocity.
+    # Each is one-click-applicable in the app's Marketing > Locations panel (or auto-
+    # built by the gbp-maintenance pipeline for pages). Aggregated, not per-service.
+    if gbp.get("add_services"):
+        acts.append({
+            "action_type": "gbp_add_services", "assigned_system": "gbp",
+            "title": f"Add {len(gbp['add_services'])} confirmed service(s) to your Business Profile",
+            "rationale": f"Services the business offers but are missing from the GBP "
+                         f"({_names(gbp['add_services'])}). Apply in Marketing → Locations (vetted, one click).",
+            "target": "gbp_add_services", "impact": "medium", "effort": "low",
+        })
+    if gbp.get("pages"):
+        acts.append({
+            "action_type": "gbp_create_pages", "assigned_system": "gbp",
+            "title": f"Create {len(gbp['pages'])} website page(s) for confirmed services",
+            "rationale": f"Confirmed services with no crawlable page ({_names(gbp['pages'])}) — a local-ranking "
+                         f"and GBP↔site consistency gap. Approve in Marketing → Locations; the pipeline "
+                         f"builds + deploys them.",
+            "target": "gbp_create_pages", "impact": "medium", "effort": "medium",
+        })
+    if gbp.get("cleanup_n"):
+        acts.append({
+            "action_type": "gbp_cleanup", "assigned_system": "gbp",
+            "title": f"Clean up {gbp['cleanup_n']} duplicate/off-brand service(s) on your GBP",
+            "rationale": "Duplicate and off-brand service labels bloat the listing and dilute relevance. "
+                         "Merge/remove them in Marketing → Locations (one click).",
+            "target": "gbp_cleanup", "impact": "low", "effort": "low",
+        })
+    last = gbp.get("last_review_at")
+    if last:
+        try:
+            age = (datetime.now(timezone.utc) - datetime.fromisoformat(last.replace("Z", "+00:00"))).days
+        except Exception:
+            age = 0
+        if age >= 45:
+            acts.append({
+                "action_type": "gbp_reviews", "assigned_system": "gbp",
+                "title": "Get fresh Google reviews",
+                "rationale": f"No new Google review since {str(last)[:10]} ({age} days). Review velocity is a "
+                             f"strong local-ranking and trust signal — run a review-request campaign.",
+                "target": "gbp_reviews", "impact": "medium", "effort": "low",
+            })
 
     # Audit: amber/red -> fix.
     verdict = (audit.get("last_audit_verdict") or "").lower()
@@ -404,14 +491,17 @@ def run_for(slug: str, dry_run: bool) -> int:
     content = gather_content(slug, company_id)
     audit = gather_audit(slug)
     ai = gather_ai_search(company_id)
-    alerts = gather_alerts(slug, content, ai, audit)
-    actions = build_actions(geo, content, audit, ai, alerts)
+    gbp = gather_gbp(company_id)
+    alerts = gather_alerts(slug, content, ai, audit, gbp)
+    actions = build_actions(geo, content, audit, ai, alerts, gbp)
     now = datetime.now(timezone.utc).isoformat()
 
     ai_summary = f"{ai['cited']}/{ai['total']} AI-cited" if ai["total"] else "no AI scan"
+    gbp_summary = (f"{len(gbp['add_services'])} add / {len(gbp['pages'])} pages / "
+                   f"{gbp['cleanup_n']} cleanup / {len(gbp['negatives'])} negatives")
     print(f"\n=== Strategist plan — {slug} ({company_id}) ===")
     print(f"signals: {len(alerts)} alerts | {len(geo)} weak geo cells | {content['queued']} queued posts | "
-          f"{len(content['uncovered'])} uncovered kw | {ai_summary} | "
+          f"{len(content['uncovered'])} uncovered kw | {ai_summary} | gbp[{gbp_summary}] | "
           f"audit={audit.get('last_audit_verdict','?')}\n")
     for a in actions:
         print(f"  [{a['priority']}] ({a['impact']}/{a['effort']}) {a['assigned_system']:6} {a['title']}")
