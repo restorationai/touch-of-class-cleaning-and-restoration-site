@@ -43,6 +43,9 @@ G_CID = os.environ.get("GOOGLE_OAUTH_CLIENT_ID", "")
 G_SECRET = os.environ.get("GOOGLE_OAUTH_CLIENT_SECRET", "")
 DFS_USER = os.environ.get("DATAFORSEO_USERNAME") or os.environ.get("DATAFORSEO_LOGIN", "")
 DFS_PASS = os.environ.get("DATAFORSEO_PASSWORD", "")
+ANTHROPIC_API = "https://api.anthropic.com/v1/messages"
+ANTHROPIC_MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-4-6")
+GBP_RULES = ROOT / "GBP" / "gbp-best-practices.md"
 
 # Performance API daily metric -> marketing_gbp_daily column
 PERF_METRICS = {
@@ -219,6 +222,14 @@ def _sb_patch(table: str, match: str, body: dict) -> None:
         headers={"apikey": SB_KEY, "Authorization": f"Bearer {SB_KEY}",
                  "Content-Type": "application/json", "Prefer": "return=minimal"},
         data=json.dumps(body))
+    r.raise_for_status()
+
+
+def _sb_delete(table: str, match: str) -> None:
+    r = requests.delete(
+        f"{SB_URL}/rest/v1/{table}?{match}",
+        headers={"apikey": SB_KEY, "Authorization": f"Bearer {SB_KEY}",
+                 "Prefer": "return=minimal"})
     r.raise_for_status()
 
 
@@ -499,6 +510,120 @@ def cmd_reconcile(args) -> int:
 
 
 # --------------------------------------------------------------------------- #
+# AI optimizer — grounded in the client's CONFIRMED services (companies.services /
+# negative_services) + the best-practices ruleset, classify every live category,
+# service, and reconciliation gap into KEEP / ADD / REMOVE / MERGE / NEEDS-REVIEW.
+# --------------------------------------------------------------------------- #
+def declared_services(cid: str) -> tuple[list, list]:
+    """The client's CONFIRMED do / do-not-do lists from the app (companies table —
+    the 'Services & Area' tab). This is ground truth."""
+    rows = _sb(f"companies?id=eq.{cid}&select=services,negative_services")
+    if not rows:
+        return [], []
+    r = rows[0]
+    return (r.get("services") or []), (r.get("negative_services") or [])
+
+
+def _anthropic_json(system: str, user: str) -> dict:
+    key = os.environ.get("ANTHROPIC_API_KEY")
+    if not key:
+        raise RuntimeError("Missing ANTHROPIC_API_KEY in rank-ai/.env")
+    r = requests.post(ANTHROPIC_API, headers={
+        "x-api-key": key, "anthropic-version": "2023-06-01", "Content-Type": "application/json"},
+        data=json.dumps({"model": ANTHROPIC_MODEL, "max_tokens": 16384,
+                         "system": system, "messages": [{"role": "user", "content": user}]}))
+    r.raise_for_status()
+    text = "".join(b.get("text", "") for b in r.json().get("content", []))
+    text = re.sub(r"^```(?:json)?|```$", "", text.strip(), flags=re.MULTILINE).strip()
+    return json.loads(text)
+
+
+def _matches(term: str, pool: list) -> bool:
+    """Loose membership: normalized substring match against a confirmed list."""
+    n = _norm(term)
+    return bool(n) and any(n == _norm(p) or n in _norm(p) or _norm(p) in n for p in pool)
+
+
+def optimize(slug: str) -> dict:
+    """Audit the live GBP against confirmed services + the best-practices ruleset.
+    Returns {summary, items[]} and upserts items to marketing_gbp_suggestions."""
+    cid = company_id_for(slug)
+    brand = json.loads((ROOT / "clients" / slug / "plan-input.json").read_text()).get("brand", {})
+    place = brand.get("place_id")
+    token = get_access_token(cid) if cid else None
+    if not (cid and place and token):
+        return {"slug": slug, "error": "missing company_id / place_id / GBP token"}
+    loc = find_location(token, place)
+    if not loc:
+        return {"slug": slug, "error": f"no GBP location for place_id {place}"}
+    g = summarize(loc)
+    do, dont = declared_services(cid)
+    site = site_services(slug)
+
+    payload = {
+        "business": loc.get("title"), "primary_category": g["primary_category"],
+        "additional_categories": g["additional_categories"],
+        "live_gbp_services": g["services"], "website_service_pages": site,
+        "confirmed_services": do, "negative_services": dont,
+    }
+    rules = GBP_RULES.read_text()
+    instruction = (
+        "Audit this Google Business Profile against the rules. Classify EVERY item in "
+        "additional_categories, live_gbp_services, and website_service_pages, PLUS any "
+        "confirmed_service missing from the GBP (verdict ADD) or missing a website page. "
+        "Return STRICT JSON only: {\"items\":[{\"item\":str,\"item_type\":\"category\"|"
+        "\"service\"|\"page\",\"source\":\"gbp\"|\"site\"|\"confirmed\",\"verdict\":\"KEEP\""
+        "|\"ADD\"|\"REMOVE\"|\"MERGE\"|\"NEEDS-REVIEW\",\"reason\":str,\"confidence\":num,"
+        "\"canonical\":str|null}]}. canonical = the item to merge into (MERGE only). "
+        "Keep each reason under 12 words. Do not apply auto_safe; just classify.\n\n"
+        f"DATA:\n{json.dumps(payload, indent=2)}")
+    result = _anthropic_json(rules, instruction)
+    items = result.get("items", [])
+
+    # Deterministic guardrail overrides the model on the non-negotiables.
+    for it in items:
+        term, vtype = it.get("item", ""), it.get("item_type")
+        if _matches(term, dont):
+            it["verdict"], it["confidence"] = "REMOVE", max(it.get("confidence", 0), 0.95)
+            it["reason"] = "Client declared they do NOT offer this (negative_services)."
+        it["auto_safe"] = bool(
+            it.get("verdict") in ("ADD", "MERGE", "REMOVE")
+            and vtype != "category"
+            and float(it.get("confidence", 0)) >= 0.85
+            and (_matches(term, do) or _matches(term, dont)))
+        if vtype == "category":
+            it["auto_safe"] = False
+
+    rows = [{
+        "company_id": cid, "item": it.get("item"), "item_type": it.get("item_type"),
+        "source": it.get("source"), "verdict": it.get("verdict"), "reason": it.get("reason"),
+        "confidence": it.get("confidence"), "canonical": it.get("canonical"),
+        "auto_safe": it.get("auto_safe", False), "status": "open",
+    } for it in items if it.get("item")]
+    if rows:
+        _sb_delete("marketing_gbp_suggestions", f"company_id=eq.{cid}&status=eq.open")
+        _sb_upsert("marketing_gbp_suggestions", rows, on_conflict="company_id,item_type,item")
+    from collections import Counter
+    by_verdict = Counter(it.get("verdict") for it in items)
+    return {"slug": slug, "summary": dict(by_verdict),
+            "auto_safe": sum(1 for it in items if it.get("auto_safe")), "items": items}
+
+
+def cmd_optimize(args) -> int:
+    for slug in _clients(args):
+        r = optimize(slug)
+        if r.get("error"):
+            print(f"  {slug}: skip ({r['error']})")
+            continue
+        print(f"  {slug}: {r['summary']} | {r['auto_safe']} auto-safe")
+        for it in r["items"]:
+            if it["verdict"] != "KEEP":
+                flag = "AUTO" if it.get("auto_safe") else "review"
+                print(f"     [{it['verdict']:<12}] ({flag}) {it['item']} — {it['reason']}")
+    return 0
+
+
+# --------------------------------------------------------------------------- #
 # "Create page" execution — drain the marketing_page_requests queue into the
 # client's plan-input (the canonical services list the build pipeline reads), so
 # the next re-plan + rebuild scaffolds, renders, and deploys a page per service.
@@ -586,10 +711,14 @@ def main() -> int:
     gc = pc.add_mutually_exclusive_group(required=True)
     gc.add_argument("--slug")
     gc.add_argument("--all", action="store_true")
+    po = sub.add_parser("optimize")
+    go = po.add_mutually_exclusive_group(required=True)
+    go.add_argument("--slug")
+    go.add_argument("--all", action="store_true")
     args = ap.parse_args()
     return {"read": cmd_read, "reconcile": cmd_reconcile, "sync": cmd_sync,
             "reviews": cmd_reviews, "add-services": cmd_add_services,
-            "create-pages": cmd_create_pages}[args.cmd](args)
+            "create-pages": cmd_create_pages, "optimize": cmd_optimize}[args.cmd](args)
 
 
 if __name__ == "__main__":
