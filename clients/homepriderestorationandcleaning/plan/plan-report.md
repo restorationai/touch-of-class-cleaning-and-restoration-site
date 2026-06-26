@@ -1,20 +1,20 @@
 # Site Plan Report — Home Pride Restoration and Cleaning
 
 - Template: `restoration` v0.2.0
-- Generated: 2026-06-24T00:30:34.562421+00:00
+- Generated: 2026-06-26T04:55:54.525368+00:00
 - Domain: `homepriderestorationandcleaning.com`
-- Services selected: 18 of 44 catalog entries
+- Services selected: 19 of 45 catalog entries
 - Service areas: 12
 - Cross-product enabled: True
-- Total URLs: **267**
-- Total internal links: 2201 (avg 8.2 per page)
+- Total URLs: **280**
+- Total internal links: 2313 (avg 8.3 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 216 |
-| `service-landing` | 18 |
+| `service-area-service` | 228 |
+| `service-landing` | 19 |
 | `service-area` | 12 |
 | `blog-post` | 12 |
 | `legal` | 3 |
@@ -45,6 +45,7 @@
 - `tile-grout-cleaning` — Tile & Grout Cleaning (adjacent, priority 4)
 - `fabric-protection` — Fabric Protection (adjacent, priority 5)
 - `junk-debris-removal` — Junk & Debris Removal (adjacent, priority 5)
+- `crawl-space-encapsulation` — Crawl Space Encapsulation (adjacent, priority 5)
 
 ## Service areas
 

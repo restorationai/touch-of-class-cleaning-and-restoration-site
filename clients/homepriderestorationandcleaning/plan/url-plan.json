@@ -1,9 +1,9 @@
 {
   "template": "restoration",
   "template_version": "0.2.0",
-  "generated_at": "2026-06-24T00:30:34.548755+00:00",
+  "generated_at": "2026-06-26T04:55:54.500575+00:00",
   "input_summary": {
-    "service_count": 18,
+    "service_count": 19,
     "service_area_count": 12,
     "cross_product": true,
     "blog_seed_count": 12
@@ -57,6 +57,7 @@
         "/services/odor-removal/",
         "/services/roof-leak-repair/",
         "/services/appliance-leak-cleanup/",
+        "/services/crawl-space-encapsulation/",
         "/services/fabric-protection/",
         "/services/junk-debris-removal/",
         "/services/carpet-cleaning/",
@@ -119,6 +120,7 @@
         "/services/odor-removal/",
         "/services/roof-leak-repair/",
         "/services/appliance-leak-cleanup/",
+        "/services/crawl-space-encapsulation/",
         "/services/fabric-protection/",
         "/services/junk-debris-removal/",
         "/services/carpet-cleaning/",
@@ -1193,6 +1195,50 @@
       ]
     },
     {
+      "url_path": "/services/crawl-space-encapsulation/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Crawl Space Encapsulation in Saratoga Springs | Home Pride Restoration and Cleaning",
+      "h1": "Crawl Space Encapsulation in Saratoga Springs",
+      "meta_description": "24/7 crawl space encapsulation in Saratoga Springs and surrounding areas. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "crawl space encapsulation saratoga springs",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/american-fork-ut/crawl-space-encapsulation/",
+        "/service-areas/eagle-mountain-ut/crawl-space-encapsulation/",
+        "/service-areas/heber-city-ut/crawl-space-encapsulation/",
+        "/service-areas/herriman-ut/crawl-space-encapsulation/",
+        "/service-areas/lehi-ut/crawl-space-encapsulation/",
+        "/service-areas/orem-ut/crawl-space-encapsulation/",
+        "/service-areas/park-city-ut/crawl-space-encapsulation/",
+        "/service-areas/pleasant-grove-ut/crawl-space-encapsulation/",
+        "/service-areas/provo-ut/crawl-space-encapsulation/",
+        "/service-areas/riverton-ut/crawl-space-encapsulation/",
+        "/service-areas/saratoga-springs-ut/crawl-space-encapsulation/",
+        "/service-areas/south-jordan-ut/crawl-space-encapsulation/"
+      ]
+    },
+    {
       "url_path": "/service-areas/saratoga-springs-ut/",
       "archetype": "service-area",
       "vars_keys": [
@@ -1237,6 +1283,7 @@
         "/service-areas/saratoga-springs-ut/odor-removal/",
         "/service-areas/saratoga-springs-ut/roof-leak-repair/",
         "/service-areas/saratoga-springs-ut/appliance-leak-cleanup/",
+        "/service-areas/saratoga-springs-ut/crawl-space-encapsulation/",
         "/service-areas/saratoga-springs-ut/fabric-protection/",
         "/service-areas/saratoga-springs-ut/junk-debris-removal/",
         "/service-areas/saratoga-springs-ut/carpet-cleaning/",
@@ -1292,6 +1339,7 @@
         "/service-areas/lehi-ut/odor-removal/",
         "/service-areas/lehi-ut/roof-leak-repair/",
         "/service-areas/lehi-ut/appliance-leak-cleanup/",
+        "/service-areas/lehi-ut/crawl-space-encapsulation/",
         "/service-areas/lehi-ut/fabric-protection/",
         "/service-areas/lehi-ut/junk-debris-removal/",
         "/service-areas/lehi-ut/carpet-cleaning/",
@@ -1347,6 +1395,7 @@
         "/service-areas/eagle-mountain-ut/odor-removal/",
         "/service-areas/eagle-mountain-ut/roof-leak-repair/",
         "/service-areas/eagle-mountain-ut/appliance-leak-cleanup/",
+        "/service-areas/eagle-mountain-ut/crawl-space-encapsulation/",
         "/service-areas/eagle-mountain-ut/fabric-protection/",
         "/service-areas/eagle-mountain-ut/junk-debris-removal/",
         "/service-areas/eagle-mountain-ut/carpet-cleaning/",
@@ -1402,6 +1451,7 @@
         "/service-areas/american-fork-ut/odor-removal/",
         "/service-areas/american-fork-ut/roof-leak-repair/",
         "/service-areas/american-fork-ut/appliance-leak-cleanup/",
+        "/service-areas/american-fork-ut/crawl-space-encapsulation/",
         "/service-areas/american-fork-ut/fabric-protection/",
         "/service-areas/american-fork-ut/junk-debris-removal/",
         "/service-areas/american-fork-ut/carpet-cleaning/",
@@ -1457,6 +1507,7 @@
         "/service-areas/pleasant-grove-ut/odor-removal/",
         "/service-areas/pleasant-grove-ut/roof-leak-repair/",
         "/service-areas/pleasant-grove-ut/appliance-leak-cleanup/",
+        "/service-areas/pleasant-grove-ut/crawl-space-encapsulation/",
         "/service-areas/pleasant-grove-ut/fabric-protection/",
         "/service-areas/pleasant-grove-ut/junk-debris-removal/",
         "/service-areas/pleasant-grove-ut/carpet-cleaning/",
@@ -1512,6 +1563,7 @@
         "/service-areas/orem-ut/odor-removal/",
         "/service-areas/orem-ut/roof-leak-repair/",
         "/service-areas/orem-ut/appliance-leak-cleanup/",
+        "/service-areas/orem-ut/crawl-space-encapsulation/",
         "/service-areas/orem-ut/fabric-protection/",
         "/service-areas/orem-ut/junk-debris-removal/",
         "/service-areas/orem-ut/carpet-cleaning/",
@@ -1567,6 +1619,7 @@
         "/service-areas/provo-ut/odor-removal/",
         "/service-areas/provo-ut/roof-leak-repair/",
         "/service-areas/provo-ut/appliance-leak-cleanup/",
+        "/service-areas/provo-ut/crawl-space-encapsulation/",
         "/service-areas/provo-ut/fabric-protection/",
         "/service-areas/provo-ut/junk-debris-removal/",
         "/service-areas/provo-ut/carpet-cleaning/",
@@ -1622,6 +1675,7 @@
         "/service-areas/herriman-ut/odor-removal/",
         "/service-areas/herriman-ut/roof-leak-repair/",
         "/service-areas/herriman-ut/appliance-leak-cleanup/",
+        "/service-areas/herriman-ut/crawl-space-encapsulation/",
         "/service-areas/herriman-ut/fabric-protection/",
         "/service-areas/herriman-ut/junk-debris-removal/",
         "/service-areas/herriman-ut/carpet-cleaning/",
@@ -1677,6 +1731,7 @@
         "/service-areas/south-jordan-ut/odor-removal/",
         "/service-areas/south-jordan-ut/roof-leak-repair/",
         "/service-areas/south-jordan-ut/appliance-leak-cleanup/",
+        "/service-areas/south-jordan-ut/crawl-space-encapsulation/",
         "/service-areas/south-jordan-ut/fabric-protection/",
         "/service-areas/south-jordan-ut/junk-debris-removal/",
         "/service-areas/south-jordan-ut/carpet-cleaning/",
@@ -1732,6 +1787,7 @@
         "/service-areas/riverton-ut/odor-removal/",
         "/service-areas/riverton-ut/roof-leak-repair/",
         "/service-areas/riverton-ut/appliance-leak-cleanup/",
+        "/service-areas/riverton-ut/crawl-space-encapsulation/",
         "/service-areas/riverton-ut/fabric-protection/",
         "/service-areas/riverton-ut/junk-debris-removal/",
         "/service-areas/riverton-ut/carpet-cleaning/",
@@ -1787,6 +1843,7 @@
         "/service-areas/heber-city-ut/odor-removal/",
         "/service-areas/heber-city-ut/roof-leak-repair/",
         "/service-areas/heber-city-ut/appliance-leak-cleanup/",
+        "/service-areas/heber-city-ut/crawl-space-encapsulation/",
         "/service-areas/heber-city-ut/fabric-protection/",
         "/service-areas/heber-city-ut/junk-debris-removal/",
         "/service-areas/heber-city-ut/carpet-cleaning/",
@@ -1842,6 +1899,7 @@
         "/service-areas/park-city-ut/odor-removal/",
         "/service-areas/park-city-ut/roof-leak-repair/",
         "/service-areas/park-city-ut/appliance-leak-cleanup/",
+        "/service-areas/park-city-ut/crawl-space-encapsulation/",
         "/service-areas/park-city-ut/fabric-protection/",
         "/service-areas/park-city-ut/junk-debris-removal/",
         "/service-areas/park-city-ut/carpet-cleaning/",
@@ -2645,6 +2703,44 @@
       ]
     },
     {
+      "url_path": "/service-areas/saratoga-springs-ut/crawl-space-encapsulation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crawl Space Encapsulation in Saratoga Springs, UT | Home Pride Restoration and Cleaning",
+      "h1": "Crawl Space Encapsulation in Saratoga Springs",
+      "meta_description": "24/7 crawl space encapsulation in Saratoga Springs, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "crawl space encapsulation saratoga springs",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crawl-space-encapsulation/",
+        "/service-areas/saratoga-springs-ut/",
+        "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
+        "/service-areas/saratoga-springs-ut/mold-remediation/",
+        "/service-areas/american-fork-ut/crawl-space-encapsulation/",
+        "/service-areas/eagle-mountain-ut/crawl-space-encapsulation/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/lehi-ut/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -3433,6 +3529,44 @@
         "/service-areas/lehi-ut/mold-remediation/",
         "/service-areas/american-fork-ut/junk-debris-removal/",
         "/service-areas/eagle-mountain-ut/junk-debris-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lehi-ut/crawl-space-encapsulation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crawl Space Encapsulation in Lehi, UT | Home Pride Restoration and Cleaning",
+      "h1": "Crawl Space Encapsulation in Lehi",
+      "meta_description": "24/7 crawl space encapsulation in Lehi, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "crawl space encapsulation lehi",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crawl-space-encapsulation/",
+        "/service-areas/lehi-ut/",
+        "/service-areas/lehi-ut/fire-damage-restoration/",
+        "/service-areas/lehi-ut/mold-remediation/",
+        "/service-areas/american-fork-ut/crawl-space-encapsulation/",
+        "/service-areas/eagle-mountain-ut/crawl-space-encapsulation/",
         "/contact/"
       ]
     },
@@ -4229,6 +4363,44 @@
       ]
     },
     {
+      "url_path": "/service-areas/eagle-mountain-ut/crawl-space-encapsulation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crawl Space Encapsulation in Eagle Mountain, UT | Home Pride Restoration and Cleaning",
+      "h1": "Crawl Space Encapsulation in Eagle Mountain",
+      "meta_description": "24/7 crawl space encapsulation in Eagle Mountain, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "crawl space encapsulation eagle mountain",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crawl-space-encapsulation/",
+        "/service-areas/eagle-mountain-ut/",
+        "/service-areas/eagle-mountain-ut/fire-damage-restoration/",
+        "/service-areas/eagle-mountain-ut/mold-remediation/",
+        "/service-areas/american-fork-ut/crawl-space-encapsulation/",
+        "/service-areas/heber-city-ut/crawl-space-encapsulation/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/american-fork-ut/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5017,6 +5189,44 @@
         "/service-areas/american-fork-ut/mold-remediation/",
         "/service-areas/eagle-mountain-ut/junk-debris-removal/",
         "/service-areas/heber-city-ut/junk-debris-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/american-fork-ut/crawl-space-encapsulation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crawl Space Encapsulation in American Fork, UT | Home Pride Restoration and Cleaning",
+      "h1": "Crawl Space Encapsulation in American Fork",
+      "meta_description": "24/7 crawl space encapsulation in American Fork, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "crawl space encapsulation american fork",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crawl-space-encapsulation/",
+        "/service-areas/american-fork-ut/",
+        "/service-areas/american-fork-ut/fire-damage-restoration/",
+        "/service-areas/american-fork-ut/mold-remediation/",
+        "/service-areas/eagle-mountain-ut/crawl-space-encapsulation/",
+        "/service-areas/heber-city-ut/crawl-space-encapsulation/",
         "/contact/"
       ]
     },
@@ -5813,6 +6023,44 @@
       ]
     },
     {
+      "url_path": "/service-areas/pleasant-grove-ut/crawl-space-encapsulation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crawl Space Encapsulation in Pleasant Grove, UT | Home Pride Restoration and Cleaning",
+      "h1": "Crawl Space Encapsulation in Pleasant Grove",
+      "meta_description": "24/7 crawl space encapsulation in Pleasant Grove, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "crawl space encapsulation pleasant grove",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crawl-space-encapsulation/",
+        "/service-areas/pleasant-grove-ut/",
+        "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
+        "/service-areas/pleasant-grove-ut/mold-remediation/",
+        "/service-areas/american-fork-ut/crawl-space-encapsulation/",
+        "/service-areas/eagle-mountain-ut/crawl-space-encapsulation/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/orem-ut/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -6601,6 +6849,44 @@
         "/service-areas/orem-ut/mold-remediation/",
         "/service-areas/american-fork-ut/junk-debris-removal/",
         "/service-areas/eagle-mountain-ut/junk-debris-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/orem-ut/crawl-space-encapsulation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crawl Space Encapsulation in Orem, UT | Home Pride Restoration and Cleaning",
+      "h1": "Crawl Space Encapsulation in Orem",
+      "meta_description": "24/7 crawl space encapsulation in Orem, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "crawl space encapsulation orem",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crawl-space-encapsulation/",
+        "/service-areas/orem-ut/",
+        "/service-areas/orem-ut/fire-damage-restoration/",
+        "/service-areas/orem-ut/mold-remediation/",
+        "/service-areas/american-fork-ut/crawl-space-encapsulation/",
+        "/service-areas/eagle-mountain-ut/crawl-space-encapsulation/",
         "/contact/"
       ]
     },
@@ -7397,6 +7683,44 @@
       ]
     },
     {
+      "url_path": "/service-areas/provo-ut/crawl-space-encapsulation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crawl Space Encapsulation in Provo, UT | Home Pride Restoration and Cleaning",
+      "h1": "Crawl Space Encapsulation in Provo",
+      "meta_description": "24/7 crawl space encapsulation in Provo, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "crawl space encapsulation provo",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crawl-space-encapsulation/",
+        "/service-areas/provo-ut/",
+        "/service-areas/provo-ut/fire-damage-restoration/",
+        "/service-areas/provo-ut/mold-remediation/",
+        "/service-areas/american-fork-ut/crawl-space-encapsulation/",
+        "/service-areas/eagle-mountain-ut/crawl-space-encapsulation/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/herriman-ut/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -8185,6 +8509,44 @@
         "/service-areas/herriman-ut/mold-remediation/",
         "/service-areas/american-fork-ut/junk-debris-removal/",
         "/service-areas/eagle-mountain-ut/junk-debris-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/herriman-ut/crawl-space-encapsulation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crawl Space Encapsulation in Herriman, UT | Home Pride Restoration and Cleaning",
+      "h1": "Crawl Space Encapsulation in Herriman",
+      "meta_description": "24/7 crawl space encapsulation in Herriman, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "crawl space encapsulation herriman",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crawl-space-encapsulation/",
+        "/service-areas/herriman-ut/",
+        "/service-areas/herriman-ut/fire-damage-restoration/",
+        "/service-areas/herriman-ut/mold-remediation/",
+        "/service-areas/american-fork-ut/crawl-space-encapsulation/",
+        "/service-areas/eagle-mountain-ut/crawl-space-encapsulation/",
         "/contact/"
       ]
     },
@@ -8981,6 +9343,44 @@
       ]
     },
     {
+      "url_path": "/service-areas/south-jordan-ut/crawl-space-encapsulation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crawl Space Encapsulation in South Jordan, UT | Home Pride Restoration and Cleaning",
+      "h1": "Crawl Space Encapsulation in South Jordan",
+      "meta_description": "24/7 crawl space encapsulation in South Jordan, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "crawl space encapsulation south jordan",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crawl-space-encapsulation/",
+        "/service-areas/south-jordan-ut/",
+        "/service-areas/south-jordan-ut/fire-damage-restoration/",
+        "/service-areas/south-jordan-ut/mold-remediation/",
+        "/service-areas/american-fork-ut/crawl-space-encapsulation/",
+        "/service-areas/eagle-mountain-ut/crawl-space-encapsulation/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/riverton-ut/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -9769,6 +10169,44 @@
         "/service-areas/riverton-ut/mold-remediation/",
         "/service-areas/american-fork-ut/junk-debris-removal/",
         "/service-areas/eagle-mountain-ut/junk-debris-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/riverton-ut/crawl-space-encapsulation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crawl Space Encapsulation in Riverton, UT | Home Pride Restoration and Cleaning",
+      "h1": "Crawl Space Encapsulation in Riverton",
+      "meta_description": "24/7 crawl space encapsulation in Riverton, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "crawl space encapsulation riverton",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crawl-space-encapsulation/",
+        "/service-areas/riverton-ut/",
+        "/service-areas/riverton-ut/fire-damage-restoration/",
+        "/service-areas/riverton-ut/mold-remediation/",
+        "/service-areas/american-fork-ut/crawl-space-encapsulation/",
+        "/service-areas/eagle-mountain-ut/crawl-space-encapsulation/",
         "/contact/"
       ]
     },
@@ -10565,6 +11003,44 @@
       ]
     },
     {
+      "url_path": "/service-areas/heber-city-ut/crawl-space-encapsulation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crawl Space Encapsulation in Heber City, UT | Home Pride Restoration and Cleaning",
+      "h1": "Crawl Space Encapsulation in Heber City",
+      "meta_description": "24/7 crawl space encapsulation in Heber City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "crawl space encapsulation heber city",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crawl-space-encapsulation/",
+        "/service-areas/heber-city-ut/",
+        "/service-areas/heber-city-ut/fire-damage-restoration/",
+        "/service-areas/heber-city-ut/mold-remediation/",
+        "/service-areas/american-fork-ut/crawl-space-encapsulation/",
+        "/service-areas/eagle-mountain-ut/crawl-space-encapsulation/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/park-city-ut/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -11353,6 +11829,44 @@
         "/service-areas/park-city-ut/mold-remediation/",
         "/service-areas/american-fork-ut/junk-debris-removal/",
         "/service-areas/eagle-mountain-ut/junk-debris-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/park-city-ut/crawl-space-encapsulation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crawl Space Encapsulation in Park City, UT | Home Pride Restoration and Cleaning",
+      "h1": "Crawl Space Encapsulation in Park City",
+      "meta_description": "24/7 crawl space encapsulation in Park City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
+      "primary_keyword": "crawl space encapsulation park city",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crawl-space-encapsulation/",
+        "/service-areas/park-city-ut/",
+        "/service-areas/park-city-ut/fire-damage-restoration/",
+        "/service-areas/park-city-ut/mold-remediation/",
+        "/service-areas/american-fork-ut/crawl-space-encapsulation/",
+        "/service-areas/eagle-mountain-ut/crawl-space-encapsulation/",
         "/contact/"
       ]
     },

@@ -238,6 +238,16 @@
     ],
     "missing_stubs": []
   },
+  "/services/crawl-space-encapsulation/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/saratoga-springs-ut/": {
     "archetype": "service-area",
     "stubs": [
@@ -526,6 +536,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/saratoga-springs-ut/crawl-space-encapsulation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/lehi-ut/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -697,6 +717,16 @@
     "missing_stubs": []
   },
   "/service-areas/lehi-ut/junk-debris-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/lehi-ut/crawl-space-encapsulation/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -886,6 +916,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/eagle-mountain-ut/crawl-space-encapsulation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/american-fork-ut/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1057,6 +1097,16 @@
     "missing_stubs": []
   },
   "/service-areas/american-fork-ut/junk-debris-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/american-fork-ut/crawl-space-encapsulation/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1246,6 +1296,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/pleasant-grove-ut/crawl-space-encapsulation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/orem-ut/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1417,6 +1477,16 @@
     "missing_stubs": []
   },
   "/service-areas/orem-ut/junk-debris-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/orem-ut/crawl-space-encapsulation/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1606,6 +1676,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/provo-ut/crawl-space-encapsulation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/herriman-ut/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1777,6 +1857,16 @@
     "missing_stubs": []
   },
   "/service-areas/herriman-ut/junk-debris-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/herriman-ut/crawl-space-encapsulation/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1966,6 +2056,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/south-jordan-ut/crawl-space-encapsulation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/riverton-ut/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2137,6 +2237,16 @@
     "missing_stubs": []
   },
   "/service-areas/riverton-ut/junk-debris-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/riverton-ut/crawl-space-encapsulation/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2326,6 +2436,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/heber-city-ut/crawl-space-encapsulation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/park-city-ut/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2497,6 +2617,16 @@
     "missing_stubs": []
   },
   "/service-areas/park-city-ut/junk-debris-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/park-city-ut/crawl-space-encapsulation/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
