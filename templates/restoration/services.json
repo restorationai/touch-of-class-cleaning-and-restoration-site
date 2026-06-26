@@ -672,6 +672,15 @@
       ],
       "tier": "construction",
       "priority": 7
+    },
+    {
+      "slug": "crawl-space-encapsulation",
+      "display_name": "Crawl Space Encapsulation",
+      "short_name": "Crawl Space Encapsulation",
+      "primary_intent": "local_specialty",
+      "secondary_keywords": [],
+      "tier": "adjacent",
+      "priority": 5
     }
   ]
 }
