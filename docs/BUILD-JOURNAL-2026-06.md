@@ -94,6 +94,13 @@ Clients connect Google Ads/GBP/Search Console/YouTube via an emailed/texted link
 
 **Convention:** update this journal as we go — new features, decisions, specs, learnings. Newest first.
 
+### 2026-06-26 (pm-12) — One-click "Add now" productized + Locations view merged (PR #17)
+- **Locations view merged to prod** (app PR #17).
+- **`gbp-add-service` edge function** (app, authenticated + manager-gated in-fn: superadmin or admin/owner of the company): refreshes the client's google token from user_integrations, GETs the location (categories+serviceItems), appends free-form services under the primary category, PATCHes. Mirrors `scripts/gbp.py add_services`. Deployed; rejects no-auth with 401.
+- **UI:** Locations "Add to your Business Profile" chips are now clickable + an "Add all" button → `supabase.functions.invoke('gbp-add-service')` → optimistic chip removal + toast. **Services only** (categories left untouched — ranking-sensitive; a confirm-gated category add is a later step). Branch `feat/gbp-add-button`, served on **localhost:5174** for review.
+- narestco is already finished out (no gaps); **Home Pride has 4 gaps** (Appliance Leak Cleanup, Fabric Protection, Odor Removal, Roof Leak) to demo the button live.
+- **NEXT:** confirm on localhost → merge `feat/gbp-add-button`; then the **"Create page"** direction (right card → async site-build job); `gather_gbp()` into strategist; schedule `gbp.py sync`/`reviews` crons.
+
 ### 2026-06-26 (pm-11) — GBP "Add now" write op (gbp.py add-services) + narestco finished out
 - **GBP writes work.** `gbp.py add-services --slug X --service "..."` adds free-form services to a client's live GBP via the Business Information API PATCH (`updateMask=serviceItems`): reads current serviceItems, appends `{freeFormServiceItem:{category:<primaryCategory.name>, label:{displayName}}}`, patches the full list, reads back to confirm. Idempotent (skips present). Free-form services attach to `categories/gcid:water_damage_restoration_service` (narestco's primary).
 - **Tested on one** (Storm Damage Restoration → narestco, 45→46, read-back confirmed), then **finished out narestco**: added all 9 remaining `reconcile_site_without_gbp` services (Basement Flooding, Biohazard/Trauma, Burst Pipe, Frozen Pipe, Odor Removal, Reconstruction, Renovations/Remodels/GC, Roof Leak, Sewage). Listing now 55 services; the "Add to your Business Profile" gap is CLOSED (reconcile re-run confirms). Re-synced so the Locations view reflects it.
