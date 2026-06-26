@@ -395,6 +395,79 @@ def render_html(r: ReportData) -> str:
 # ----------------------------------------------------------------------------
 
 
+def _avg_lighthouse(r: ReportData) -> int | None:
+    s = (r.audit_latest or {}).get("site_rollup", {}).get("avg_scores", {}) or {}
+    vals = [s.get(k) for k in ("performance", "accessibility", "best_practices", "seo")
+            if isinstance(s.get(k), (int, float))]
+    return round(sum(vals) / len(vals)) if vals else None
+
+
+def _videos_in_period(slug: str, start: datetime, end: datetime) -> int:
+    bdir = CLIENTS_DIR.parent / "sites" / slug / "src" / "content" / "blog"
+    if not bdir.exists():
+        return 0
+    n = 0
+    for md in bdir.glob("*.md"):
+        t = md.read_text()
+        yid = re.search(r'youtube_id:\s*"?([A-Za-z0-9_-]{6,})"?', t)
+        pub = re.search(r'published_at:\s*"?(\d{4}-\d{2}-\d{2})', t)
+        if yid and yid.group(1) and pub:
+            d = datetime.fromisoformat(pub.group(1)).replace(tzinfo=timezone.utc)
+            if start <= d <= end:
+                n += 1
+    return n
+
+
+def cmd_publish(args) -> int:
+    """Render the monthly report AND upsert it (metrics + full HTML) to Supabase
+    marketing_reports, so the app's Reports tab shows real data and 'View' opens it."""
+    import os
+    import requests
+    sb = os.environ.get("SUPABASE_URL", "").rstrip("/")
+    key = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")
+    if not (sb and key):
+        sys.stderr.write("ERROR: SUPABASE_URL + SUPABASE_SERVICE_ROLE_KEY required.\n")
+        return 1
+    if args.all:
+        slugs = list(json.loads((CLIENTS_DIR / "company_map.json").read_text()).keys())
+    else:
+        slugs = [args.slug]
+    rc = 0
+    for slug in slugs:
+        try:
+            client = load_client(slug)
+            cid = client.get("company_id")
+            if not cid:
+                print(f"  {slug}: skip (no company_id)")
+                continue
+            r = build_report_data(slug, args.period)
+            html = render_html(r)
+            # keep the file artifact too (parity with preview)
+            out_dir = CLIENTS_DIR / slug / "reports"
+            out_dir.mkdir(parents=True, exist_ok=True)
+            (out_dir / f"{r.period_start.strftime('%Y-%m')}-monthly.html").write_text(html)
+            row = {
+                "company_id": cid, "report_month": r.period_label,
+                "posts_published": len(r.posts_this_month),
+                "videos_created": _videos_in_period(slug, r.period_start, r.period_end),
+                "avg_lighthouse_score": _avg_lighthouse(r),
+                "status": "completed", "report_html": html,  # CHECK: draft|completed
+            }
+            resp = requests.post(
+                f"{sb}/rest/v1/marketing_reports?on_conflict=company_id,report_month",
+                headers={"apikey": key, "Authorization": f"Bearer {key}",
+                         "Content-Type": "application/json",
+                         "Prefer": "resolution=merge-duplicates,return=minimal"},
+                data=json.dumps([row]))
+            resp.raise_for_status()
+            print(f"  {slug}: published {r.period_label} — {row['posts_published']} posts, "
+                  f"{row['videos_created']} videos, lighthouse {row['avg_lighthouse_score']}")
+        except Exception as e:
+            rc = 1
+            print(f"  {slug}: ERROR ({type(e).__name__}: {str(e)[:160]})")
+    return rc
+
+
 def cmd_preview(args) -> int:
     r = build_report_data(args.slug, args.period)
     html = render_html(r)
@@ -706,6 +779,13 @@ def build_parser() -> argparse.ArgumentParser:
                     help="Override recipient to contact@restorationai.io + prepend TEST banner. "
                          "Bypasses client.report_email_enabled.")
     ps.set_defaults(func=cmd_send)
+
+    pub = sub.add_parser("publish", help="Render + upsert the report (metrics + HTML) to Supabase for the app's Reports tab")
+    grp = pub.add_mutually_exclusive_group(required=True)
+    grp.add_argument("--slug")
+    grp.add_argument("--all", action="store_true")
+    pub.add_argument("--period", help="YYYY-MM (defaults to current month)")
+    pub.set_defaults(func=cmd_publish)
     return p
 
 

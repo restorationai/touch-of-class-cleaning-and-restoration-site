@@ -32,7 +32,10 @@ jobs:
           git config user.email "ops@restorationai.io"
           git config user.name "Rank AI Bot"
 
-      - name: Generate per-client HTML reports
+      - name: Generate + publish per-client reports (HTML file + Supabase for the app's Reports tab)
+        env:
+          SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY:  ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
         run: |
           python3 -c "
           import json, pathlib, subprocess, sys
@@ -40,9 +43,9 @@ jobs:
               c = json.loads(p.read_text())
               if c.get('status') == 'active':
                   slug = c['slug']
-                  rc = subprocess.call(['python3', 'scripts/client_report.py', 'preview', '--slug', slug])
+                  rc = subprocess.call(['python3', 'scripts/client_report.py', 'publish', '--slug', slug])
                   if rc != 0:
-                      print(f'WARNING: preview failed for {slug} (rc={rc})', file=sys.stderr)
+                      print(f'WARNING: publish failed for {slug} (rc={rc})', file=sys.stderr)
           "
 
       - name: Send portfolio digest to operator

@@ -94,6 +94,14 @@ Clients connect Google Ads/GBP/Search Console/YouTube via an emailed/texted link
 
 **Convention:** update this journal as we go — new features, decisions, specs, learnings. Newest first.
 
+### 2026-06-26 (pm-22) — Reports tab finished (real monthly reports, no more mock)
+- Santino chose "finish it." The Reports tab showed REAL review-engine stats but FAKE monthly summaries (marketing_reports empty → hardcoded May/Apr/Mar mock) behind a dead `alert()` "View" button.
+- **`client_report.py publish --slug|--all [--period]`**: renders the monthly report, writes the HTML file (parity with preview), computes real metrics (posts_published=len(posts), videos_created=blog md w/ youtube_id in period, avg_lighthouse_score=mean of audit site_rollup avg_scores), and UPSERTS to `marketing_reports` (added `report_html`/`report_url` cols + unique (company_id,report_month); status CHECK only allows draft|completed → use 'completed'). Ran --all: Home Pride 14 posts/lh98, narestco 5/lh87, Davis 5/lh91, full HTML stored.
+- **App:** "View" now opens the stored report_html in a new tab; **mock fallback removed** → honest empty state when no reports. (`feat/gsc-analytics`, localhost:5175.)
+- **Scheduled:** monthly-reports.yml step switched `preview` → `publish` (+ SUPABASE env), so the 1st-of-month run populates the app automatically.
+- **Tab split is now coherent:** Analytics = live perf (GSC/GA4/Clarity); Reports = packaged monthly deliverable + review-engine results.
+- **NEXT:** merge `feat/gsc-analytics` (now carries GSC Analytics tab + Reports finish); add GSC_AGENCY_TOKEN secret.
+
 ### 2026-06-26 (pm-21) — Google Search Console analytics: app "Analytics" tab + strategist striking-distance + sync
 - **New app surface:** "Analytics" tab in Marketing (shared home for organic search + GA4 + Clarity). `MarketingAnalytics.tsx`: GSC month-over-month tiles (clicks/impressions/CTR/avg position, position inverted so lower=better), a **striking-distance** opportunity table, and top queries / top pages. GA4 + Clarity show as "tags live, data view next" placeholders (their site tags already ship per journal pm-2; GA4 data pull still pending the analytics.edit OAuth grant). Branch `feat/gsc-analytics`, localhost:5175.
 - **Bug fixed:** `gsc_client.py` hardcoded `webmasters.readonly` but the agency token was granted `webmasters`+`siteverification` → refresh failed `invalid_scope` (latent; broke once the token expired, would have killed URL-inspection too). Now uses the token's granted scopes.
