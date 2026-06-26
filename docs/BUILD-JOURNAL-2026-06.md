@@ -94,6 +94,16 @@ Clients connect Google Ads/GBP/Search Console/YouTube via an emailed/texted link
 
 **Convention:** update this journal as we go — new features, decisions, specs, learnings. Newest first.
 
+### 2026-06-26 (pm-16) — Merge grouping + website pages folded into the optimizer (blue card retired)
+- **Optimizer now emits website pages:** `optimize` prompt produces a 3rd item kind — for each confirmed_service with NO matching website page (after synonym/dup collapse), emit item_type='page', verdict ADD. Home Pride → 9 page suggestions (Biohazard, Board-Up, Crawl Space Encapsulation, Hoarding, Drywall, Trim, Red Stain, Flooring, Post-Construction). Pages are NOT auto_safe (13x cross-product fan-out + categories stay human-gated).
+- **App panel rebuilt (`MarketingSuggestions.tsx`):**
+  - MERGE rows now GROUPED by canonical target — "Merge N → Water Damage Restoration · Merge all" with variant chips, instead of 30+ individual rows.
+  - New "Create website pages" section (the page items) → "Create all" / per-item, wired to `gbp-create-page` queue. Replaces the old blue card.
+  - "Apply all vetted" spans vetted singles + vetted merge groups; one batched gbp-add-service call (services + remove).
+- **Retired the blue card** + removed all dead reconcile state/handlers from `MarketingLocations.tsx`. The AI panel is now the single surface for both directions (GBP listing + website pages).
+- Home Pride latest: KEEP 32, MERGE 33, ADD 19 (10 service + 9 page), REMOVE 4, NEEDS-REVIEW 4; 30 auto-safe (services only).
+- **NEXT:** Santino review on localhost → merge `feat/gbp-add-button`; then wire `optimize` into the sync cadence (run per client) + strategist Action Plan.
+
 ### 2026-06-26 (pm-15) — Optimizer tuning + UI cleanup (Santino review)
 - Renamed ruleset → `GBP/rank-ai-gbp-best-practices.md` (matches rank-ai-* skill naming).
 - **Over-merge fix:** the first pass collapsed distinct long-tail services (Toilet Overflow / Sump Pump / Washing Machine Leak Cleanup) into "Water Damage Restoration" — wrong; on a GBP, services are keyword-bearing. Tightened the MERGE rule: same *work* different words → MERGE; different *situation* sharing a parent → KEEP. Re-ran Home Pride: KEEP 23→48, MERGE 56→30, ADD 16→9 (much healthier).

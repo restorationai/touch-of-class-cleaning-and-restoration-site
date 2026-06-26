@@ -568,9 +568,18 @@ def optimize(slug: str) -> dict:
     }
     rules = GBP_RULES.read_text()
     instruction = (
-        "Audit this Google Business Profile against the rules. Classify EVERY item in "
-        "additional_categories, live_gbp_services, and website_service_pages, PLUS any "
-        "confirmed_service missing from the GBP (verdict ADD) or missing a website page. "
+        "Audit this Google Business Profile against the rules. Produce items of THREE "
+        "kinds:\n"
+        "1) GBP categories+services: classify EVERY item in additional_categories and "
+        "live_gbp_services (item_type 'category'/'service', source 'gbp').\n"
+        "2) Missing GBP services: for each confirmed_service not on the GBP, emit "
+        "item_type 'service', source 'confirmed', verdict ADD.\n"
+        "3) Website pages: for each confirmed_service that has NO matching "
+        "website_service_page (after collapsing synonyms/duplicates — do NOT request a "
+        "page for something an existing page already covers), emit item_type 'page', "
+        "source 'confirmed', verdict ADD, reason naming the service. These become "
+        "'Create page' actions. Only suggest pages for services the client genuinely "
+        "offers and that are distinct enough to deserve their own page.\n\n"
         "Return STRICT JSON only: {\"items\":[{\"item\":str,\"item_type\":\"category\"|"
         "\"service\"|\"page\",\"source\":\"gbp\"|\"site\"|\"confirmed\",\"verdict\":\"KEEP\""
         "|\"ADD\"|\"REMOVE\"|\"MERGE\"|\"NEEDS-REVIEW\",\"reason\":str,\"confidence\":num,"
@@ -588,11 +597,9 @@ def optimize(slug: str) -> dict:
             it["reason"] = "Client declared they do NOT offer this (negative_services)."
         it["auto_safe"] = bool(
             it.get("verdict") in ("ADD", "MERGE", "REMOVE")
-            and vtype != "category"
+            and vtype not in ("category", "page")  # pages fan out 13x; categories high-stakes
             and float(it.get("confidence", 0)) >= 0.85
             and (_matches(term, do) or _matches(term, dont)))
-        if vtype == "category":
-            it["auto_safe"] = False
 
     rows = [{
         "company_id": cid, "item": it.get("item"), "item_type": it.get("item_type"),
