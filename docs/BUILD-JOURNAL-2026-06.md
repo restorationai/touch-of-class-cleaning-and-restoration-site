@@ -94,6 +94,16 @@ Clients connect Google Ads/GBP/Search Console/YouTube via an emailed/texted link
 
 **Convention:** update this journal as we go — new features, decisions, specs, learnings. Newest first.
 
+### 2026-06-26 (pm-13) — "Add now" bugfix + website "Create page" half built (both reconciliation directions now have buttons)
+- **Bug:** the GBP "Add" button errored `No connected Google Business Profile for this company` for Home Pride. Root cause: only 2 of 4 clients have their own `user_integrations` google row; Home Pride has none. `scripts/gbp.py` works because it **falls back to any agency google token** (the agency account manages all 4 locations) — the edge function lacked that fallback. **Fix:** `gbp-add-service` now mirrors gbp.py — `getAccessToken()` tries the client's row then any agency 'google' integration; `resolveLocation()` uses the synced `location_name` else finds the location by `place_id` across managed accounts. Deployed. (Home Pride has both location_name + place_id, so it resolves.)
+- **Website half ("Create page"):** the blue card was display-only. Built the enqueue path end-to-end:
+  - **Table `marketing_page_requests`** (queued|building|built|error; read-own RLS) — migration `20260626140000`.
+  - **Edge fn `gbp-create-page`** (auth + manager-gated): inserts queued rows, dedupes vs existing.
+  - **UI:** blue card chips + "Create all" now invoke it → toast "Queued — live after the next site build."
+  - **Pipeline consumer `gbp.py create-pages --slug|--all`**: drains queued rows → maps each GBP service to a catalog slug (`service_to_slug`) → adds to `clients/<slug>/plan-input.json` services (deduped) → marks the request `building`. The normal **re-plan + rebuild** then scaffolds/renders/deploys the page (subtree push → Cloudflare). Why enqueue (not synchronous): a page needs generation + git push + a CF build — can't be done in the edge function.
+- **Asymmetry by design:** GBP add = instant (API PATCH). Website page = queued build. Both are one click in the app.
+- Both functions on branch `feat/gbp-add-button`, served on **localhost:5174**. **NEXT:** Santino re-tests Add (now fixed) + Create page on Home Pride → merge; then auto-trigger the rebuild on enqueue (optional), strategist `gather_gbp()`, schedule syncs.
+
 ### 2026-06-26 (pm-12) — One-click "Add now" productized + Locations view merged (PR #17)
 - **Locations view merged to prod** (app PR #17).
 - **`gbp-add-service` edge function** (app, authenticated + manager-gated in-fn: superadmin or admin/owner of the company): refreshes the client's google token from user_integrations, GETs the location (categories+serviceItems), appends free-form services under the primary category, PATCHes. Mirrors `scripts/gbp.py add_services`. Deployed; rejects no-auth with 401.

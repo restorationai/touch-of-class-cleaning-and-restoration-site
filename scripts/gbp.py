@@ -213,6 +213,15 @@ def _sb_upsert(table: str, rows: list, on_conflict: str) -> None:
     r.raise_for_status()
 
 
+def _sb_patch(table: str, match: str, body: dict) -> None:
+    r = requests.patch(
+        f"{SB_URL}/rest/v1/{table}?{match}",
+        headers={"apikey": SB_KEY, "Authorization": f"Bearer {SB_KEY}",
+                 "Content-Type": "application/json", "Prefer": "return=minimal"},
+        data=json.dumps(body))
+    r.raise_for_status()
+
+
 def get_insights(token: str, location_id: str, days: int = 90) -> dict:
     """Daily GBP performance metrics for the last `days` -> {date: {col: value}}.
     Stored daily so the app can compute ANY period delta (this month vs last)."""
@@ -489,6 +498,75 @@ def cmd_reconcile(args) -> int:
     return 0
 
 
+# --------------------------------------------------------------------------- #
+# "Create page" execution — drain the marketing_page_requests queue into the
+# client's plan-input (the canonical services list the build pipeline reads), so
+# the next re-plan + rebuild scaffolds, renders, and deploys a page per service.
+# --------------------------------------------------------------------------- #
+def _slugify(text: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "-", (text or "").lower()).strip("-")
+
+
+def service_to_slug(display: str) -> str:
+    """Map a GBP service display name to a catalog service slug if one matches
+    (by normalized name), else a fresh slug from the display name."""
+    cat = json.loads((ROOT / "templates" / "restoration" / "services.json").read_text())
+    for s in cat["services"]:
+        if _norm(s.get("display_name", s["slug"])) == _norm(display):
+            return s["slug"]
+    return _slugify(display)
+
+
+def _slug_for_company(cid: str) -> str | None:
+    cmap = json.loads((ROOT / "clients" / "company_map.json").read_text())
+    for slug, c in cmap.items():
+        if c == cid:
+            return slug
+    return None
+
+
+def create_pages(slug_filter: str | None = None) -> list[str]:
+    """Consume queued page requests: add each service slug to the client's
+    plan-input.json (deduped) and mark the request 'building'. Returns log lines.
+    The actual scaffold/render/deploy happens via the normal rebuild flow."""
+    rows = _sb("marketing_page_requests?status=eq.queued&select=id,company_id,service")
+    out = []
+    by_slug: dict[str, list] = {}
+    for r in rows:
+        slug = _slug_for_company(r["company_id"])
+        if not slug or (slug_filter and slug != slug_filter):
+            continue
+        by_slug.setdefault(slug, []).append(r)
+
+    for slug, reqs in by_slug.items():
+        pi_path = ROOT / "clients" / slug / "plan-input.json"
+        pi = json.loads(pi_path.read_text())
+        services = pi.get("services", [])
+        added = []
+        for r in reqs:
+            sslug = service_to_slug(r["service"])
+            if sslug not in services:
+                services.append(sslug)
+                added.append(sslug)
+            _sb_patch("marketing_page_requests", f"id=eq.{r['id']}",
+                      {"status": "building", "slug": slug, "service_slug": sslug})
+        if added:
+            pi["services"] = services
+            pi_path.write_text(json.dumps(pi, indent=2) + "\n")
+        out.append(f"{slug}: queued {len(reqs)} page(s); +{len(added)} new service(s) "
+                   f"in plan-input {added or '(all already present)'}")
+    if not out:
+        out.append("no queued page requests")
+    return out
+
+
+def cmd_create_pages(args) -> int:
+    for line in create_pages(args.slug if not args.all else None):
+        print("  " + line)
+    print("  -> next: re-plan + rebuild this client to scaffold/render/deploy the new pages.")
+    return 0
+
+
 def main() -> int:
     if not (SB_URL and SB_KEY and G_CID and G_SECRET):
         print("ERROR: SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, GOOGLE_OAUTH_CLIENT_ID, "
@@ -504,9 +582,14 @@ def main() -> int:
     pa = sub.add_parser("add-services")
     pa.add_argument("--slug", required=True)
     pa.add_argument("--service", action="append", required=True, help="repeat for multiple")
+    pc = sub.add_parser("create-pages")
+    gc = pc.add_mutually_exclusive_group(required=True)
+    gc.add_argument("--slug")
+    gc.add_argument("--all", action="store_true")
     args = ap.parse_args()
     return {"read": cmd_read, "reconcile": cmd_reconcile, "sync": cmd_sync,
-            "reviews": cmd_reviews, "add-services": cmd_add_services}[args.cmd](args)
+            "reviews": cmd_reviews, "add-services": cmd_add_services,
+            "create-pages": cmd_create_pages}[args.cmd](args)
 
 
 if __name__ == "__main__":
