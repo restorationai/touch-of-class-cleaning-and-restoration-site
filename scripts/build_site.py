@@ -1505,12 +1505,48 @@ def cmd_sync_deploy_all(args) -> int:
 # ----------------------------------------------------------------------------
 
 
+def cmd_add_pages(args) -> int:
+    """Incrementally write content markdown ONLY for planned URLs that don't yet have a
+    file. Unlike `scaffold` (which overwrites every page with a placeholder), this never
+    touches existing/rendered pages — used after new services are added to plan-input so
+    new service + location pages get scaffolded without wiping rendered content."""
+    slug = args.slug
+    plan_input = load_json(CLIENTS_DIR / slug / "plan-input.json")
+    plan_input["_slug"] = slug
+    url_plan = load_json(CLIENTS_DIR / slug / "plan" / "url-plan.json")
+    internal_links = load_json(CLIENTS_DIR / slug / "plan" / "internal-links.json")
+    site_dir = SITES_DIR / slug
+
+    catalog = load_json(TEMPLATES_DIR / "restoration" / "services.json")
+    catalog_by_slug = {s["slug"]: s for s in catalog["services"]}
+    services_lookup = {s: catalog_by_slug[s] for s in plan_input.get("services", []) if s in catalog_by_slug}
+    areas_lookup = {a["slug"]: a for a in plan_input.get("service_areas", [])}
+    blog_topics = load_json(TEMPLATES_DIR / "restoration" / "seed-blog-topics.json")
+    blog_topics_lookup = {t["slug"]: t for t in blog_topics["topics"]}
+
+    new = 0
+    for page in url_plan["pages"]:
+        coll, _ = ARCHETYPE_TO_COLLECTION[page["archetype"]]
+        out = site_dir / "src" / "content" / coll / f"{derive_filename(page)}.md"
+        if out.exists():
+            continue
+        write_content_md(site_dir, page, plan_input,
+                         services_lookup, areas_lookup, blog_topics_lookup, internal_links)
+        new += 1
+    print(f"  {slug}: wrote {new} new page file(s); {len(url_plan['pages']) - new} existing untouched")
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(
         prog="build_site",
         description="Rank AI — build site (Skill 3, phase 1: scaffold + GitHub + Pages).",
     )
     sub = p.add_subparsers(dest="cmd", required=True)
+
+    pap = sub.add_parser("add-pages", help="Write content md ONLY for new planned URLs (never overwrites rendered pages)")
+    pap.add_argument("--slug", required=True)
+    pap.set_defaults(func=cmd_add_pages)
 
     ps = sub.add_parser("scaffold", help="Copy starter, substitute tokens, push to GitHub, create Pages project")
     ps.add_argument("--slug", required=True)

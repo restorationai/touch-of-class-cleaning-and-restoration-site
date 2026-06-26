@@ -94,6 +94,17 @@ Clients connect Google Ads/GBP/Search Console/YouTube via an emailed/texted link
 
 **Convention:** update this journal as we go — new features, decisions, specs, learnings. Newest first.
 
+### 2026-06-26 (pm-18) — Page-build automation wired (safe incremental chain) + GBP maintenance workflow
+- **Goal:** queued pages (e.g. Crawl Space Encapsulation) actually build/deploy, and `optimize` runs on a schedule.
+- **Footgun caught:** `build_site scaffold` overwrites EVERY page with a placeholder (would wipe rendered content); and `plan_site` DIES on any plan-input slug not in `templates/restoration/services.json` (the GBP-confirmed services — Crawl Space, Biohazard, Board-Up, Red Stain… — aren't in the 44-service catalog). So a naive build would crash or nuke the site.
+- **Safe incremental chain built:**
+  - `build_site.py add-pages --slug` — writes content md ONLY for planned URLs missing a file (never overwrites rendered pages; unlike scaffold).
+  - `gbp.py create-pages --build` — runs: `plan_site generate` → `add-pages` → `render` (skips already-rendered) → `sync-deploy --branch main`; marks requests built/error.
+  - `gbp.py ensure_catalog_entry()` — self-heals the catalog: appends a VALID entry (intent local_specialty, tier adjacent; biohazard/trauma/hoarding/sewage → content_guardrails sensitive) for confirmed services the template lacks, so plan_site accepts them. Verified: 8 Home Pride services produce valid entries.
+- **Workflow `gbp-maintenance.yml`** (workflow_dispatch now; schedule commented until tested): step 1 `optimize --all` (safe, DB-only), step 2 `create-pages --all --build` (gated by input). All required GH secrets confirmed present (GOOGLE_OAUTH_CLIENT_ID/SECRET, CLOUDFLARE_*, GH_PAT, ANTHROPIC, SUPABASE, DATAFORSEO).
+- **Why a separate manual workflow (not the weekly cron):** the build chain touches live client sites — test Crawl Space end-to-end via manual run BEFORE enabling the schedule.
+- **NEXT:** trigger gbp-maintenance manually → confirm Crawl Space builds + deploys to Home Pride → enable the schedule; then merge feat/gbp-add-button.
+
 ### 2026-06-26 (pm-17) — Structured items canonical; build-cadence finding
 - **Tuning (Santino-approved):** ruleset now treats Google `job_type_id:` *structured* service types as canonical — KEEP them when the client offers the work; MERGE free-form duplicates INTO the structured item (never flag the structured one as the dup). Re-ran Home Pride: structured mold/water/sewage/carpet types now KEEP; MERGE 33→15; even merges duplicate structured carpet types into the canonical one. Matches "keep the Google-recognized type, drop the text dupes" + removes the "can't remove in dashboard" friction.
 - **Build cadence (answer to Santino):** recurring builds = `weekly-maintenance.yml`, **Mon + Thu 9am PT** (master_scheduler S1-S4 → ai_search_scan → strategist → commit/deploy). **GAP:** nothing consumes the `marketing_page_requests` queue yet — `gbp.py create-pages` is built but NOT wired into any workflow, so queued pages (e.g. Crawl Space Encapsulation) won't auto-build. NEXT: wire `create-pages` + the re-plan/scaffold/render/deploy chain into the maintenance run (or a dedicated step).

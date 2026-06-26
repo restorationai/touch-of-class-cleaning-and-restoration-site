@@ -657,10 +657,61 @@ def _slug_for_company(cid: str) -> str | None:
     return None
 
 
-def create_pages(slug_filter: str | None = None) -> list[str]:
+SENSITIVE_HINTS = ("biohazard", "trauma", "hoarding", "crime", "death", "sewage",
+                   "blood", "unattended", "suicide", "meth")
+
+
+def ensure_catalog_entry(slug: str, display_name: str) -> bool:
+    """Make sure the restoration services catalog has this service so plan_site won't
+    reject it (plan_site dies on slugs not in the catalog). Clients declare services the
+    template doesn't have yet; append a minimal VALID entry. Returns True if added."""
+    cat_path = ROOT / "templates" / "restoration" / "services.json"
+    cat = json.loads(cat_path.read_text())
+    if any(s["slug"] == slug for s in cat["services"]):
+        return False
+    name = display_name.strip()
+    entry = {
+        "slug": slug, "display_name": name,
+        "short_name": " ".join(name.split()[:3]),
+        "primary_intent": "local_specialty",      # valid intent (passed through as search_intent)
+        "secondary_keywords": [], "tier": "adjacent", "priority": 5,
+    }
+    if any(h in name.lower() for h in SENSITIVE_HINTS):
+        entry["content_guardrails"] = "sensitive"  # trauma/biohazard/hoarding need careful copy
+    cat["services"].append(entry)
+    cat_path.write_text(json.dumps(cat, indent=2) + "\n")
+    return True
+
+
+def _run(cmd: list) -> tuple:
+    import subprocess
+    p = subprocess.run(["python3"] + cmd, cwd=str(ROOT), capture_output=True, text=True)
+    return p.returncode, (p.stdout + p.stderr)
+
+
+def build_client_pages(slug: str) -> tuple:
+    """Safe incremental build+deploy after new services land in plan-input:
+    regenerate the plan, write ONLY the new page files (never the destructive full
+    scaffold), render the unrendered pages, then sync-deploy to production. Returns
+    (ok, message)."""
+    steps = [
+        ["scripts/plan_site.py", "generate", "--slug", slug],
+        ["scripts/build_site.py", "add-pages", "--slug", slug],     # only new files
+        ["scripts/build_site.py", "render", "--slug", slug],        # skips rendered
+        ["scripts/build_site.py", "sync-deploy", "--slug", slug, "--branch", "main"],
+    ]
+    for cmd in steps:
+        rc, log = _run(cmd)
+        if rc != 0:
+            return False, f"BUILD FAILED at `{cmd[0].split('/')[-1]} {cmd[1]}` -> ...{log.strip()[-300:]}"
+    return True, "built + deployed (plan -> add-pages -> render -> sync-deploy main)"
+
+
+def create_pages(slug_filter: str | None = None, build: bool = False) -> list[str]:
     """Consume queued page requests: add each service slug to the client's
-    plan-input.json (deduped) and mark the request 'building'. Returns log lines.
-    The actual scaffold/render/deploy happens via the normal rebuild flow."""
+    plan-input.json (deduped) and mark the request 'building'. With build=True, run the
+    safe incremental build+deploy chain and mark the requests 'built'/'error'."""
+    import datetime as dt
     rows = _sb("marketing_page_requests?status=eq.queued&select=id,company_id,service")
     out = []
     by_slug: dict[str, list] = {}
@@ -674,9 +725,11 @@ def create_pages(slug_filter: str | None = None) -> list[str]:
         pi_path = ROOT / "clients" / slug / "plan-input.json"
         pi = json.loads(pi_path.read_text())
         services = pi.get("services", [])
-        added = []
+        added, new_catalog = [], []
         for r in reqs:
             sslug = service_to_slug(r["service"])
+            if ensure_catalog_entry(sslug, r["service"]):
+                new_catalog.append(sslug)
             if sslug not in services:
                 services.append(sslug)
                 added.append(sslug)
@@ -685,17 +738,30 @@ def create_pages(slug_filter: str | None = None) -> list[str]:
         if added:
             pi["services"] = services
             pi_path.write_text(json.dumps(pi, indent=2) + "\n")
-        out.append(f"{slug}: queued {len(reqs)} page(s); +{len(added)} new service(s) "
-                   f"in plan-input {added or '(all already present)'}")
+        msg = (f"{slug}: queued {len(reqs)} page(s); +{len(added)} new service(s) in plan-input "
+               f"{added or '(all already present)'}")
+        if new_catalog:
+            msg += f"; +{len(new_catalog)} new catalog entr(ies): {new_catalog}"
+        out.append(msg)
+
+        if build:
+            ok, msg = build_client_pages(slug)
+            out.append(f"  build: {msg}")
+            patch = {"status": "built", "built_at": dt.datetime.now(dt.timezone.utc).isoformat()} \
+                if ok else {"status": "error", "error": msg[:500]}
+            for r in reqs:
+                _sb_patch("marketing_page_requests", f"id=eq.{r['id']}", patch)
+
     if not out:
         out.append("no queued page requests")
     return out
 
 
 def cmd_create_pages(args) -> int:
-    for line in create_pages(args.slug if not args.all else None):
+    for line in create_pages(args.slug if not args.all else None, build=args.build):
         print("  " + line)
-    print("  -> next: re-plan + rebuild this client to scaffold/render/deploy the new pages.")
+    if not args.build:
+        print("  -> staged into plan-input. Re-run with --build (or the gbp-pages workflow) to deploy.")
     return 0
 
 
@@ -718,6 +784,8 @@ def main() -> int:
     gc = pc.add_mutually_exclusive_group(required=True)
     gc.add_argument("--slug")
     gc.add_argument("--all", action="store_true")
+    pc.add_argument("--build", action="store_true",
+                    help="Also run the safe incremental build+deploy (plan→add-pages→render→sync-deploy)")
     po = sub.add_parser("optimize")
     go = po.add_mutually_exclusive_group(required=True)
     go.add_argument("--slug")
