@@ -709,6 +709,13 @@ def _run(cmd: list) -> tuple:
     return p.returncode, (p.stdout + p.stderr)
 
 
+def _sh(cmd: list) -> tuple:
+    """Run a raw (non-python) command from the repo root."""
+    import subprocess
+    p = subprocess.run(cmd, cwd=str(ROOT), capture_output=True, text=True)
+    return p.returncode, (p.stdout + p.stderr)
+
+
 def build_client_pages(slug: str) -> tuple:
     """Safe incremental build+deploy after new services land in plan-input:
     regenerate the plan, write ONLY the new page files (never the destructive full
@@ -730,11 +737,17 @@ def build_client_pages(slug: str) -> tuple:
         rc, _ = _run(["scripts/build_site.py", "render", "--slug", slug])
     render_note = "" if rc == 0 else " (note: a page failed to render twice — it stays a placeholder and retries next run)"
 
-    # 4. deploy what rendered — the gate. 13 good pages beat deploying nothing over 1 straggler.
+    # 4. commit first — sync-deploy does a `git subtree split` over COMMITTED history, so
+    #    the new pages (+ plan/catalog changes) must be committed or they (a) won't be in
+    #    the push and (b) make the tree dirty, which sync-deploy refuses.
+    _sh(["git", "add", "clients", "sites", "templates"])
+    _sh(["git", "commit", "-m", f"gbp: build pages for {slug} [automated]"])  # no-op if nothing staged
+
+    # 5. deploy what rendered — the gate. 13 good pages beat deploying nothing over 1 straggler.
     rcd, logd = _run(["scripts/build_site.py", "sync-deploy", "--slug", slug, "--branch", "main"])
     if rcd != 0:
         return False, f"BUILD FAILED at `sync-deploy` -> ...{logd.strip()[-400:]}"
-    return True, "built + deployed (plan -> add-pages -> render -> sync-deploy main)" + render_note
+    return True, "built + deployed (plan -> add-pages -> render -> commit -> sync-deploy main)" + render_note
 
 
 def create_pages(slug_filter: str | None = None, build: bool = False) -> list[str]:
