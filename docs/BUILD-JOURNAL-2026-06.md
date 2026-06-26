@@ -94,6 +94,11 @@ Clients connect Google Ads/GBP/Search Console/YouTube via an emailed/texted link
 
 **Convention:** update this journal as we go — new features, decisions, specs, learnings. Newest first.
 
+### 2026-06-26 (pm-17) — Structured items canonical; build-cadence finding
+- **Tuning (Santino-approved):** ruleset now treats Google `job_type_id:` *structured* service types as canonical — KEEP them when the client offers the work; MERGE free-form duplicates INTO the structured item (never flag the structured one as the dup). Re-ran Home Pride: structured mold/water/sewage/carpet types now KEEP; MERGE 33→15; even merges duplicate structured carpet types into the canonical one. Matches "keep the Google-recognized type, drop the text dupes" + removes the "can't remove in dashboard" friction.
+- **Build cadence (answer to Santino):** recurring builds = `weekly-maintenance.yml`, **Mon + Thu 9am PT** (master_scheduler S1-S4 → ai_search_scan → strategist → commit/deploy). **GAP:** nothing consumes the `marketing_page_requests` queue yet — `gbp.py create-pages` is built but NOT wired into any workflow, so queued pages (e.g. Crawl Space Encapsulation) won't auto-build. NEXT: wire `create-pages` + the re-plan/scaffold/render/deploy chain into the maintenance run (or a dedicated step).
+- **NEXT:** wire create-pages into the cron; schedule `gbp.py optimize` per client (refresh suggestions); then merge `feat/gbp-add-button`.
+
 ### 2026-06-26 (pm-16) — Merge grouping + website pages folded into the optimizer (blue card retired)
 - **Optimizer now emits website pages:** `optimize` prompt produces a 3rd item kind — for each confirmed_service with NO matching website page (after synonym/dup collapse), emit item_type='page', verdict ADD. Home Pride → 9 page suggestions (Biohazard, Board-Up, Crawl Space Encapsulation, Hoarding, Drywall, Trim, Red Stain, Flooring, Post-Construction). Pages are NOT auto_safe (13x cross-product fan-out + categories stay human-gated).
 - **App panel rebuilt (`MarketingSuggestions.tsx`):**

@@ -58,6 +58,17 @@ better. Accuracy and focus beat a stuffed listing.
     performs the work. Do NOT merge a specific scenario into its parent category.
   - Rule of thumb: same *work*, different words → MERGE. Different *situations* that
     share a parent → KEEP both.
+- **Structured (`job_type_id:`) items are Google-recognized canonical types — prefer
+  them.** A service shown as `job_type_id:water_damage_mold_removal` is one of Google's
+  predefined service types for the category; these are stronger signals than free-form
+  text labels. So:
+  - **KEEP** a structured (`job_type_id:`) item whenever the client performs that work
+    (unless it maps to a `negative_services` entry → then REMOVE).
+  - When a free-form label duplicates a structured item, **MERGE the free-form variant
+    INTO the structured item** (set `canonical` to the structured item, mark the
+    free-form one MERGE). Never the other way around — do not flag the structured item
+    as a duplicate of a free-form label.
+  - Only remove a structured item if the client genuinely does not offer it.
 - Each service must map to a `companies.services` entry OR be a plausible sub-scenario of
   one (allowing for synonyms). If it maps to a negative service → REMOVE. If it maps to
   nothing the client offers → NEEDS-REVIEW.
