@@ -94,6 +94,11 @@ Clients connect Google Ads/GBP/Search Console/YouTube via an emailed/texted link
 
 **Convention:** update this journal as we go — new features, decisions, specs, learnings. Newest first.
 
+### 2026-06-26 (pm-11) — GBP "Add now" write op (gbp.py add-services) + narestco finished out
+- **GBP writes work.** `gbp.py add-services --slug X --service "..."` adds free-form services to a client's live GBP via the Business Information API PATCH (`updateMask=serviceItems`): reads current serviceItems, appends `{freeFormServiceItem:{category:<primaryCategory.name>, label:{displayName}}}`, patches the full list, reads back to confirm. Idempotent (skips present). Free-form services attach to `categories/gcid:water_damage_restoration_service` (narestco's primary).
+- **Tested on one** (Storm Damage Restoration → narestco, 45→46, read-back confirmed), then **finished out narestco**: added all 9 remaining `reconcile_site_without_gbp` services (Basement Flooding, Biohazard/Trauma, Burst Pipe, Frozen Pipe, Odor Removal, Reconstruction, Renovations/Remodels/GC, Roof Leak, Sewage). Listing now 55 services; the "Add to your Business Profile" gap is CLOSED (reconcile re-run confirms). Re-synced so the Locations view reflects it.
+- **NEXT (productize "Add now"):** Supabase edge function `gbp-add-service` (mirrors this: refresh token from user_integrations, GET location categories+serviceItems, append, PATCH) → "Add" buttons on the Locations reconciliation chips for one-click. Categories behind a confirm (ranking-sensitive); services one-click (safe). Then the other direction: "Create page" → enqueue a site-build job.
+
 ### 2026-06-26 (pm-9) — GBP "Locations" data layer (layer 1) — Supabase tables + `gbp.py sync` (insights MoM)
 - Building a client-facing **Locations / GBP view** (blueprint = a competitor "Rank AI" screenshot showing narestco's profile + reviews + GMB insights + rank grids + audits). We already have every data source; ours adds the GBP↔website reconciliation + AI-search visibility they lack.
 - **Confirmed GBP Insights work now** (Performance API, already enabled): narestco last 30d — 9 calls, 17 website clicks, 63 directions, 153 map impressions.

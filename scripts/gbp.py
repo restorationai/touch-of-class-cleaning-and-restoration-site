@@ -240,15 +240,41 @@ def get_insights(token: str, location_id: str, days: int = 90) -> dict:
     return daily
 
 
+def _dfs_auth():
+    """DataForSEO basic-auth (user, pass): env first, else ~/.claude.json (the MCP creds)."""
+    u = os.environ.get("DATAFORSEO_USERNAME") or DFS_USER
+    p = os.environ.get("DATAFORSEO_PASSWORD") or DFS_PASS
+    if u and p:
+        return (u, p)
+    cfg_path = Path.home() / ".claude.json"
+    if not cfg_path.exists():
+        return None
+    def walk(o):
+        if isinstance(o, dict):
+            if "DATAFORSEO_USERNAME" in o and "DATAFORSEO_PASSWORD" in o:
+                return o["DATAFORSEO_USERNAME"], o["DATAFORSEO_PASSWORD"]
+            for v in o.values():
+                r = walk(v)
+                if r:
+                    return r
+        elif isinstance(o, list):
+            for v in o:
+                r = walk(v)
+                if r:
+                    return r
+    return walk(json.loads(cfg_path.read_text()))
+
+
 def review_aggregate(brand: dict) -> dict:
-    """Best-effort rating + review count via DataForSEO (no GBP v4 needed). Empty on failure."""
-    if not (DFS_USER and DFS_PASS and brand.get("lat")):
+    """Rating + review count via DataForSEO business listings (no GBP v4 needed)."""
+    auth = _dfs_auth()
+    if not (auth and brand.get("lat")):
         return {}
     try:
         payload = [{"title": brand.get("display_name"),
                     "location_coordinate": f"{brand['lat']},{brand['lng']},10", "limit": 5}]
         r = requests.post("https://api.dataforseo.com/v3/business_data/business_listings/search/live",
-                          auth=(DFS_USER, DFS_PASS), json=payload, timeout=40)
+                          auth=auth, json=payload, timeout=40)
         items = r.json()["tasks"][0]["result"][0]["items"]
         want = str(brand.get("google_cid") or "")
         for it in items:
@@ -258,6 +284,65 @@ def review_aggregate(brand: dict) -> dict:
     except Exception:
         pass
     return {}
+
+
+def sync_reviews(slug: str, depth: int = 50, timeout_s: int = 240) -> str:
+    """Pull individual reviews via the DataForSEO Google Reviews task API (read-only,
+    no GBP v4 needed) and upsert into marketing_gbp_reviews. Task-based (~1-3 min)."""
+    import datetime as dt
+    import hashlib
+    import time
+    cid = company_id_for(slug)
+    pi = json.loads((ROOT / "clients" / slug / "plan-input.json").read_text())
+    brand = pi.get("brand", {})
+    areas = pi.get("service_areas", [])
+    city = next((a.get("city") for a in areas if a.get("primary")), areas[0].get("city") if areas else "")
+    auth = _dfs_auth()
+    if not (cid and auth and brand.get("display_name")):
+        return f"{slug}: skip reviews (missing creds / company_id / name)"
+    kw = f"{brand['display_name']} {city}".strip()
+    tp = requests.post("https://api.dataforseo.com/v3/business_data/google/reviews/task_post",
+                       auth=auth, json=[{"keyword": kw, "location_name": "United States",
+                                         "language_name": "English", "depth": depth, "sort_by": "newest"}], timeout=40)
+    t = tp.json()["tasks"][0]
+    if t.get("status_code") != 20100:
+        return f"{slug}: reviews task not created ({t.get('status_message')})"
+    tid = t["id"]
+    items, waited = None, 0
+    while waited < timeout_s:
+        time.sleep(12); waited += 12
+        g = requests.get(f"https://api.dataforseo.com/v3/business_data/google/reviews/task_get/{tid}",
+                         auth=auth, timeout=40).json()["tasks"][0]
+        if g.get("status_code") == 20000 and g.get("result"):
+            items = g["result"][0].get("items") or []
+            break
+    if items is None:
+        return f"{slug}: reviews task still queued after {timeout_s}s (retry later)"
+    rows, latest = [], None
+    for rv in items:
+        ts = rv.get("timestamp")
+        rid = hashlib.md5(f"{rv.get('profile_name')}|{ts}|{(rv.get('review_text') or '')[:60]}".encode()).hexdigest()[:20]
+        oa = rv.get("owner_answer")
+        reply = oa.get("text") if isinstance(oa, dict) else oa
+        rows.append({"company_id": cid, "review_id": rid, "reviewer_name": rv.get("profile_name"),
+                     "star_rating": (rv.get("rating") or {}).get("value"), "comment": rv.get("review_text"),
+                     "create_time": ts, "reply_comment": reply, "source": "dataforseo",
+                     "synced_at": dt.datetime.now(dt.timezone.utc).isoformat()})
+        if ts and (latest is None or ts > latest):
+            latest = ts
+    _sb_upsert("marketing_gbp_reviews", rows, on_conflict="company_id,review_id")
+    if latest:
+        requests.patch(f"{SB_URL}/rest/v1/marketing_gbp_profiles?company_id=eq.{cid}",
+                       headers={"apikey": SB_KEY, "Authorization": f"Bearer {SB_KEY}",
+                                "Content-Type": "application/json", "Prefer": "return=minimal"},
+                       data=json.dumps({"last_review_at": latest}))
+    return f"{slug}: {len(rows)} reviews synced (latest {latest[:10] if latest else '?'})"
+
+
+def cmd_reviews(args) -> int:
+    for slug in _clients(args):
+        print("  " + sync_reviews(slug))
+    return 0
 
 
 def sync(slug: str) -> str:
@@ -302,6 +387,55 @@ def sync(slug: str) -> str:
 def cmd_sync(args) -> int:
     for slug in _clients(args):
         print("  " + sync(slug))
+    return 0
+
+
+# --------------------------------------------------------------------------- #
+# Writes (the "Add now" execution) — add free-form services to the GBP listing
+# --------------------------------------------------------------------------- #
+def add_services(slug: str, services: list) -> str:
+    """Add free-form services to the client's GBP (Business Information API patch).
+    Reads the current serviceItems, appends new ones under the primary category,
+    PATCHes serviceItems (full list), then reads back to confirm. Idempotent:
+    skips services already on the listing (case-insensitive)."""
+    cid = company_id_for(slug)
+    brand = json.loads((ROOT / "clients" / slug / "plan-input.json").read_text()).get("brand", {})
+    token = get_access_token(cid) if cid else None
+    if not (token and brand.get("place_id")):
+        return f"{slug}: skip (no token / place_id)"
+    loc = find_location(token, brand["place_id"])
+    if not loc:
+        return f"{slug}: skip (no GBP location)"
+    primary_cat = (loc.get("categories", {}).get("primaryCategory") or {}).get("name")
+    if not primary_cat:
+        return f"{slug}: skip (no primary category to attach services to)"
+    existing = loc.get("serviceItems", [])
+    have = {((s.get("freeFormServiceItem", {}) or {}).get("label", {}) or {}).get("displayName", "").strip().lower()
+            for s in existing if "freeFormServiceItem" in s}
+    new_list, added = list(existing), []
+    for svc in services:
+        if svc.strip().lower() in have:
+            continue
+        new_list.append({"freeFormServiceItem": {"category": primary_cat,
+                                                  "label": {"displayName": svc.strip()}}})
+        added.append(svc.strip())
+    if not added:
+        return f"{slug}: nothing to add (all already on the listing)"
+    r = requests.patch(f"{INFO_API}/{loc['name']}?updateMask=serviceItems",
+                       headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json"},
+                       data=json.dumps({"serviceItems": new_list}))
+    if not r.ok:
+        return f"{slug}: PATCH failed {r.status_code}: {r.text[:200]}"
+    # read back to confirm
+    back = find_location(token, brand["place_id"])
+    now_have = {((s.get("freeFormServiceItem", {}) or {}).get("label", {}) or {}).get("displayName", "").strip().lower()
+                for s in back.get("serviceItems", []) if "freeFormServiceItem" in s}
+    confirmed = [s for s in added if s.lower() in now_have]
+    return f"{slug}: added {len(confirmed)}/{len(added)} -> {confirmed} (listing now has {len(back.get('serviceItems', []))} services)"
+
+
+def cmd_add_services(args) -> int:
+    print("  " + add_services(args.slug, args.service))
     return 0
 
 
@@ -362,13 +496,17 @@ def main() -> int:
         return 1
     ap = argparse.ArgumentParser(description="Google Business Profile module")
     sub = ap.add_subparsers(dest="cmd", required=True)
-    for name in ("read", "reconcile", "sync"):
+    for name in ("read", "reconcile", "sync", "reviews"):
         p = sub.add_parser(name)
         g = p.add_mutually_exclusive_group(required=True)
         g.add_argument("--slug")
         g.add_argument("--all", action="store_true")
+    pa = sub.add_parser("add-services")
+    pa.add_argument("--slug", required=True)
+    pa.add_argument("--service", action="append", required=True, help="repeat for multiple")
     args = ap.parse_args()
-    return {"read": cmd_read, "reconcile": cmd_reconcile, "sync": cmd_sync}[args.cmd](args)
+    return {"read": cmd_read, "reconcile": cmd_reconcile, "sync": cmd_sync,
+            "reviews": cmd_reviews, "add-services": cmd_add_services}[args.cmd](args)
 
 
 if __name__ == "__main__":
