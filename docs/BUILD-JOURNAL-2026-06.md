@@ -94,6 +94,15 @@ Clients connect Google Ads/GBP/Search Console/YouTube via an emailed/texted link
 
 **Convention:** update this journal as we go — new features, decisions, specs, learnings. Newest first.
 
+### 2026-06-26 (pm-19) — Page-build automation PROVEN end-to-end; schedule enabled
+- Manual gbp-maintenance runs surfaced + fixed THREE real build-chain bugs (each a distinct footgun):
+  1. **render fatality:** 13/14 pages rendered but 1 straggler made the chain abort before deploy. Fix: render is best-effort (retry once); the DEPLOY is the success gate.
+  2. **optimize --all not resilient:** one client's empty/non-JSON Anthropic response crashed the whole loop (skipping everyone, incl. the build step). Fix: per-client try/except + `_anthropic_json` retry on empty/non-JSON/overload (429/5xx/529); run stays exit-0.
+  3. **dirty-tree deploy:** sync-deploy does `git subtree split` over COMMITTED history, so rendered pages must be committed first (and `--allow-dirty` would push WITHOUT them). Fix: `build_client_pages` commits clients/sites/templates before sync-deploy; workflow always `git push HEAD:main`.
+- **RESULT (verified):** Home Pride `homepriderestorationandcleaning-site` now has services/crawl-space-encapsulation.md (11.8KB, rendered:true) + 12 location pages; DB request status=built. Cloudflare auto-builds.
+- **Schedule enabled:** gbp-maintenance.yml cron `0 17 * * 1` (Mon 10am PT, after the content run). optimize --all refreshes suggestions; create-pages --all --build drains the page queue + deploys.
+- **NEXT:** merge `feat/gbp-add-button` (the app side: optimizer panel + Add/remove/merge + Create-page) to ship; then strategist Action-Plan wiring.
+
 ### 2026-06-26 (pm-18) — Page-build automation wired (safe incremental chain) + GBP maintenance workflow
 - **Goal:** queued pages (e.g. Crawl Space Encapsulation) actually build/deploy, and `optimize` runs on a schedule.
 - **Footgun caught:** `build_site scaffold` overwrites EVERY page with a placeholder (would wipe rendered content); and `plan_site` DIES on any plan-input slug not in `templates/restoration/services.json` (the GBP-confirmed services — Crawl Space, Biohazard, Board-Up, Red Stain… — aren't in the 44-service catalog). So a naive build would crash or nuke the site.

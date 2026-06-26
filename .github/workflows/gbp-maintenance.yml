@@ -14,9 +14,10 @@ on:
         description: "Also build & deploy queued pages (create-pages --build)"
         type: boolean
         default: true
-  # Enable after a successful manual test (runs Mondays 10am PT, after the content run):
-  # schedule:
-  #   - cron: '0 17 * * 1'
+  # Verified end-to-end 2026-06-26 (Crawl Space Encapsulation built + deployed for Home Pride).
+  # Runs Mondays 10am PT, after the weekly content run.
+  schedule:
+    - cron: '0 17 * * 1'
 
 jobs:
   gbp:
