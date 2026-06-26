@@ -94,6 +94,14 @@ Clients connect Google Ads/GBP/Search Console/YouTube via an emailed/texted link
 
 **Convention:** update this journal as we go — new features, decisions, specs, learnings. Newest first.
 
+### 2026-06-26 (pm-21) — Google Search Console analytics: app "Analytics" tab + strategist striking-distance + sync
+- **New app surface:** "Analytics" tab in Marketing (shared home for organic search + GA4 + Clarity). `MarketingAnalytics.tsx`: GSC month-over-month tiles (clicks/impressions/CTR/avg position, position inverted so lower=better), a **striking-distance** opportunity table, and top queries / top pages. GA4 + Clarity show as "tags live, data view next" placeholders (their site tags already ship per journal pm-2; GA4 data pull still pending the analytics.edit OAuth grant). Branch `feat/gsc-analytics`, localhost:5175.
+- **Bug fixed:** `gsc_client.py` hardcoded `webmasters.readonly` but the agency token was granted `webmasters`+`siteverification` → refresh failed `invalid_scope` (latent; broke once the token expired, would have killed URL-inspection too). Now uses the token's granted scopes.
+- **Data layer:** `scripts/gsc_sync.py` pulls Search Analytics → `marketing_gsc_daily` (pre-existing, total_*/avg_* cols, 90d), `marketing_gsc_queries` (top 200, 28d, +`striking` flag: pos 8-20 & impr≥10), `marketing_gsc_pages`. Per-client resilient. Synced all 3: narestco 200q/11 striking, Home Pride 200q (33K impr), Davis 173q.
+- **Strategist:** `gather_gsc()` → top striking queries become high-impact/low-effort "Push '{query}' onto page one" actions (assigned s2, capped 3). narestco surfaced e.g. *federal way water damage restoration* @ pos 13.7. Ran --all live.
+- **Scheduled:** `gsc_sync --all` step added to weekly-maintenance BEFORE the strategist (so striking data is fresh). Gated on a new **`GSC_AGENCY_TOKEN`** GH secret (the .gsc-agency-token.json is gitignored / not in CI) — writes it to disk then syncs; skips gracefully if unset. **ACTION: add GSC_AGENCY_TOKEN secret** (paste contents of .gsc-agency-token.json).
+- **NEXT:** Santino review localhost → merge `feat/gsc-analytics`; add the GSC_AGENCY_TOKEN secret; (later) GA4 data card once analytics.edit grant is done, Clarity metrics card.
+
 ### 2026-06-26 (pm-20) — GBP insights wired into the strategist's Action Plan (System 0)
 - `strategist.py` now has `gather_gbp(company_id)` reading `marketing_gbp_suggestions` (optimizer output) + `marketing_gbp_profiles` (review recency). Threaded into `gather_alerts` + `build_actions`.
 - **Surfaces:** (1) ALERT — services the client declared they do NOT offer that are live on the GBP (negatives → trust/suspension risk, high); (2) "Add N confirmed services" (medium/low); (3) "Create N website pages for confirmed services" (medium/medium); (4) "Clean up N duplicate/off-brand services" (low/low); (5) "Get fresh Google reviews" if last_review_at ≥45 days. All aggregated (counts, not per-service) and one-click in Marketing → Locations.

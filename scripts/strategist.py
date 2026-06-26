@@ -206,6 +206,17 @@ def _names(items: list, n: int = 3) -> str:
     return shown + ("…" if len(items) > n else "")
 
 
+def gather_gsc(company_id: str) -> list[dict]:
+    """Striking-distance queries from Google Search Console (marketing_gsc_queries,
+    populated by scripts/gsc_sync.py): real impressions, ranking on the page-1/2 edge.
+    The highest-ROI content/refresh opportunities — a small push wins page-one traffic."""
+    rows = _sb("GET", "/rest/v1/marketing_gsc_queries?company_id=eq." +
+               urllib.parse.quote(company_id) +
+               "&striking=is.true&order=impressions.desc&limit=8"
+               "&select=query,impressions,position,clicks") or []
+    return rows
+
+
 def gather_alerts(slug: str, content: dict, ai: dict, audit: dict, gbp: dict | None = None) -> list[dict]:
     """Account-health flags that need a human's attention (not routine work).
     Two sources: (1) auto-derived from the signals we already gathered, and
@@ -254,10 +265,12 @@ def gather_alerts(slug: str, content: dict, ai: dict, audit: dict, gbp: dict | N
 
 # ----------------------------------------------------------------- build + rank
 def build_actions(geo: list[dict], content: dict, audit: dict, ai: dict | None = None,
-                  alerts: list[dict] | None = None, gbp: dict | None = None) -> list[dict]:
+                  alerts: list[dict] | None = None, gbp: dict | None = None,
+                  gsc: list[dict] | None = None) -> list[dict]:
     acts: list[dict] = []
     ai = ai or {"missing": []}
     gbp = gbp or {}
+    gsc = gsc or []
 
     # Alerts: account-health flags surfaced as a "Needs Attention" section in the app.
     # action_type='alert' so the UI can split them from routine actions.
@@ -336,6 +349,20 @@ def build_actions(geo: list[dict], content: dict, audit: dict, ai: dict | None =
             "rationale": "Informational keyword with no page yet — supporting content for "
                          "authority/AI citation (not a direct lead driver).",
             "target": u["keyword"], "impact": "low", "effort": "low",
+        })
+
+    # GSC striking distance: queries ranking on the page-1/2 edge with real demand.
+    # A focused refresh of the ranking page converts these to page-one traffic (high
+    # impact, low effort). Cap so they don't crowd out the rest of the plan.
+    for q in gsc[:3]:
+        acts.append({
+            "action_type": "gsc_striking", "assigned_system": "s2",
+            "title": f"Push '{q['query']}' onto page one",
+            "rationale": f"Ranks position {q.get('position')} for '{q['query']}' with "
+                         f"{q.get('impressions')} impressions in 28 days (striking distance). "
+                         f"Strengthen the ranking page (depth, internal links, FAQ, freshness) "
+                         f"to break into the top results.",
+            "target": q["query"], "impact": "high", "effort": "low",
         })
 
     # GBP optimizer: confirmed-service gaps + listing cleanup + review velocity.
@@ -492,8 +519,9 @@ def run_for(slug: str, dry_run: bool) -> int:
     audit = gather_audit(slug)
     ai = gather_ai_search(company_id)
     gbp = gather_gbp(company_id)
+    gsc = gather_gsc(company_id)
     alerts = gather_alerts(slug, content, ai, audit, gbp)
-    actions = build_actions(geo, content, audit, ai, alerts, gbp)
+    actions = build_actions(geo, content, audit, ai, alerts, gbp, gsc)
     now = datetime.now(timezone.utc).isoformat()
 
     ai_summary = f"{ai['cited']}/{ai['total']} AI-cited" if ai["total"] else "no AI scan"
@@ -502,7 +530,7 @@ def run_for(slug: str, dry_run: bool) -> int:
     print(f"\n=== Strategist plan — {slug} ({company_id}) ===")
     print(f"signals: {len(alerts)} alerts | {len(geo)} weak geo cells | {content['queued']} queued posts | "
           f"{len(content['uncovered'])} uncovered kw | {ai_summary} | gbp[{gbp_summary}] | "
-          f"audit={audit.get('last_audit_verdict','?')}\n")
+          f"{len(gsc)} gsc striking | audit={audit.get('last_audit_verdict','?')}\n")
     for a in actions:
         print(f"  [{a['priority']}] ({a['impact']}/{a['effort']}) {a['assigned_system']:6} {a['title']}")
         print(f"        why: {a['rationale']}")

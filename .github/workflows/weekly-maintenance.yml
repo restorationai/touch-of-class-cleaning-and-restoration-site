@@ -64,6 +64,19 @@ jobs:
           DATAFORSEO_PASSWORD:        ${{ secrets.DATAFORSEO_PASSWORD }}
         run: python3 scripts/ai_search_scan.py --all --limit 8 --engines chatgpt,gemini,perplexity
 
+      - name: Sync Google Search Console performance (before strategist)
+        env:
+          SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY:  ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          GSC_AGENCY_TOKEN:           ${{ secrets.GSC_AGENCY_TOKEN }}
+        run: |
+          if [ -n "$GSC_AGENCY_TOKEN" ]; then
+            printf '%s' "$GSC_AGENCY_TOKEN" > .gsc-agency-token.json
+            python3 scripts/gsc_sync.py --all
+          else
+            echo "GSC_AGENCY_TOKEN secret not set — skipping GSC sync (strategist uses last-synced data)."
+          fi
+
       - name: Refresh strategist action plans (System 0)
         env:
           SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}
