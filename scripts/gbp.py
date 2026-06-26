@@ -528,14 +528,26 @@ def _anthropic_json(system: str, user: str) -> dict:
     key = os.environ.get("ANTHROPIC_API_KEY")
     if not key:
         raise RuntimeError("Missing ANTHROPIC_API_KEY in rank-ai/.env")
-    r = requests.post(ANTHROPIC_API, headers={
-        "x-api-key": key, "anthropic-version": "2023-06-01", "Content-Type": "application/json"},
-        data=json.dumps({"model": ANTHROPIC_MODEL, "max_tokens": 16384,
-                         "system": system, "messages": [{"role": "user", "content": user}]}))
-    r.raise_for_status()
-    text = "".join(b.get("text", "") for b in r.json().get("content", []))
-    text = re.sub(r"^```(?:json)?|```$", "", text.strip(), flags=re.MULTILINE).strip()
-    return json.loads(text)
+    last = ""
+    for attempt in (1, 2):  # retry once: transient empty/non-JSON or overload happens
+        r = requests.post(ANTHROPIC_API, headers={
+            "x-api-key": key, "anthropic-version": "2023-06-01", "Content-Type": "application/json"},
+            data=json.dumps({"model": ANTHROPIC_MODEL, "max_tokens": 16384,
+                             "system": system, "messages": [{"role": "user", "content": user}]}))
+        if r.status_code in (429, 500, 503, 529):  # overloaded/rate-limited — retry
+            last = f"HTTP {r.status_code}"
+            continue
+        r.raise_for_status()
+        text = "".join(b.get("text", "") for b in r.json().get("content", []))
+        text = re.sub(r"^```(?:json)?|```$", "", text.strip(), flags=re.MULTILINE).strip()
+        if not text:
+            last = "empty response"
+            continue
+        try:
+            return json.loads(text)
+        except json.JSONDecodeError:
+            last = f"non-JSON: {text[:120]!r}"
+    raise RuntimeError(f"Anthropic did not return valid JSON after 2 tries ({last})")
 
 
 def _matches(term: str, pool: list) -> bool:
@@ -617,8 +629,14 @@ def optimize(slug: str) -> dict:
 
 
 def cmd_optimize(args) -> int:
+    failures = 0
     for slug in _clients(args):
-        r = optimize(slug)
+        try:
+            r = optimize(slug)
+        except Exception as e:  # one client must never abort the whole --all run
+            failures += 1
+            print(f"  {slug}: ERROR ({type(e).__name__}: {str(e)[:200]}) — skipped")
+            continue
         if r.get("error"):
             print(f"  {slug}: skip ({r['error']})")
             continue
@@ -627,7 +645,9 @@ def cmd_optimize(args) -> int:
             if it["verdict"] != "KEEP":
                 flag = "AUTO" if it.get("auto_safe") else "review"
                 print(f"     [{it['verdict']:<12}] ({flag}) {it['item']} — {it['reason']}")
-    return 0
+    if failures:
+        print(f"  ({failures} client(s) errored and were skipped — see above)")
+    return 0  # non-fatal: a client error shouldn't fail the scheduled run
 
 
 # --------------------------------------------------------------------------- #
