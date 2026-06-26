@@ -93,7 +93,10 @@ class GSCClient:
             token_uri="https://oauth2.googleapis.com/token",
             client_id=token_data["client_id"],
             client_secret=token_data["client_secret"],
-            scopes=SCOPES,
+            # Use the scopes the token was actually GRANTED (stored at consent time).
+            # Passing a narrower hardcoded scope makes refresh fail with invalid_scope —
+            # the granted 'webmasters' scope already covers searchanalytics + inspection.
+            scopes=token_data.get("scopes") or SCOPES,
         )
 
         if not creds.valid:
