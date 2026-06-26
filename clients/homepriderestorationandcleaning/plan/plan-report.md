@@ -1,7 +1,7 @@
 # Site Plan Report — Home Pride Restoration and Cleaning
 
 - Template: `restoration` v0.2.0
-- Generated: 2026-06-26T04:55:54.525368+00:00
+- Generated: 2026-06-26T05:08:24.811212+00:00
 - Domain: `homepriderestorationandcleaning.com`
 - Services selected: 19 of 45 catalog entries
 - Service areas: 12

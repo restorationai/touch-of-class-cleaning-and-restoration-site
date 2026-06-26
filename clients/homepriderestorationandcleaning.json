@@ -23,13 +23,13 @@
   },
   "status": "active",
   "created_at": "2026-06-15T16:36:28.124334+00:00",
-  "updated_at": "2026-06-26T04:55:54.525898+00:00",
+  "updated_at": "2026-06-26T05:08:24.811507+00:00",
   "plan_status": "planned",
   "plan": {
     "template": "restoration",
     "template_version": "0.2.0",
     "url_count": 280,
-    "generated_at": "2026-06-26T04:55:54.525888+00:00"
+    "generated_at": "2026-06-26T05:08:24.811501+00:00"
   },
   "build": {
     "scaffolded_at": "2026-06-15T18:21:11.503890+00:00",
@@ -38,11 +38,11 @@
     "starter_version": "0.1.0",
     "url_count": 267,
     "pages_status": "created",
-    "last_rendered_at": "2026-06-26T04:59:06.558074+00:00",
+    "last_rendered_at": "2026-06-26T05:09:22.595081+00:00",
     "last_pushed_main_at": "2026-06-24T05:28:19.707993+00:00",
     "last_pushed_staging_at": "2026-06-24T05:26:54.069433+00:00"
   },
-  "build_status": "content_partial",
+  "build_status": "content_rendered",
   "cloudflare": {
     "zone_id": "a7d27c3777b9f9b9571e4c0c4dc290f0"
   },
