@@ -45,7 +45,7 @@ DFS_USER = os.environ.get("DATAFORSEO_USERNAME") or os.environ.get("DATAFORSEO_L
 DFS_PASS = os.environ.get("DATAFORSEO_PASSWORD", "")
 ANTHROPIC_API = "https://api.anthropic.com/v1/messages"
 ANTHROPIC_MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-4-6")
-GBP_RULES = ROOT / "GBP" / "gbp-best-practices.md"
+GBP_RULES = ROOT / "GBP" / "rank-ai-gbp-best-practices.md"
 
 # Performance API daily metric -> marketing_gbp_daily column
 PERF_METRICS = {

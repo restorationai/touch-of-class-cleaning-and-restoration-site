@@ -94,6 +94,13 @@ Clients connect Google Ads/GBP/Search Console/YouTube via an emailed/texted link
 
 **Convention:** update this journal as we go — new features, decisions, specs, learnings. Newest first.
 
+### 2026-06-26 (pm-15) — Optimizer tuning + UI cleanup (Santino review)
+- Renamed ruleset → `GBP/rank-ai-gbp-best-practices.md` (matches rank-ai-* skill naming).
+- **Over-merge fix:** the first pass collapsed distinct long-tail services (Toilet Overflow / Sump Pump / Washing Machine Leak Cleanup) into "Water Damage Restoration" — wrong; on a GBP, services are keyword-bearing. Tightened the MERGE rule: same *work* different words → MERGE; different *situation* sharing a parent → KEEP. Re-ran Home Pride: KEEP 23→48, MERGE 56→30, ADD 16→9 (much healthier).
+- **UI:** removed the redundant amber "Add to your Business Profile" card (the dumb string-diff; the AI panel's grounded ADD replaces it). Kept the blue "Create page" card until website-page suggestions are folded into the optimizer.
+- Open Qs answered for Santino: website-page intelligence not yet in the optimizer (pending, next layer); cards were leftover (amber removed).
+- **NEXT:** group MERGE rows by canonical target in the UI; fold website "page" verdicts into the optimizer (retire the blue card); then merge + wire optimize into the sync cadence.
+
 ### 2026-06-26 (pm-14) — AI GBP optimizer: grounded judgment layer (no more dumb string-diff)
 - **Why:** the reconcile was a pure string diff with no judgment — it suggested near-duplicate pages and off-brand services (Fabric Protection, Roof Leak "Repair"). Santino: it must not suggest/auto-do wrong things, and should advise like an expert (e.g. "you have 45 categories, keep 8").
 - **Ground truth discovered in-app:** `companies.services` (confirmed do) + `companies.negative_services` (confirmed do-NOT) — set by clients in the AI-dispatcher "Services & Area" tab. This is the trust anchor; we stop guessing.

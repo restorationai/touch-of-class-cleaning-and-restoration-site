@@ -41,17 +41,30 @@ better. Accuracy and focus beat a stuffed listing.
 ## Services (LOWER STAKES — relevance + dedupe over volume)
 
 - Services behave like keywords/content under a category. Relevant, distinct ones can
-  help you surface for more queries; junk and duplicates are noise that make the
+  help you surface for more queries; junk and TRUE duplicates are noise that make the
   listing look unprofessional and add zero ranking value.
-- **Dedupe near-synonyms aggressively.** Collapse variants of the same offering into
-  one canonical service. Example: "Mold Removal", "Mold removal service", "Mold removal
-  and remediation", "Mold removal and structural drying", "Mold Removal and Mold
-  Remediation" → ONE "Mold Remediation". Mark the extras MERGE.
-- Each service must map to a `companies.services` entry (allowing for synonyms). If it
-  maps to a negative service → REMOVE. If it maps to nothing confirmed → NEEDS-REVIEW.
-- Prefer the client's own wording from `companies.services` as the canonical label.
-- A focused listing of ~10–25 distinct, real services is healthy. 40–70 near-duplicate
-  labels is bloat — recommend trimming.
+- **Only MERGE true duplicates — KEEP distinct long-tail services.** This is the most
+  important judgment call, do not get it wrong:
+  - **MERGE (true duplicate):** the SAME service worded differently. E.g. "Mold
+    Removal" / "Mold removal service" / "Mold removal and remediation" / "Mold Removal
+    and Mold Remediation" → ONE "Mold Remediation". Or "Professional water damage
+    restoration" / "Comprehensive Water Damage Restoration" / "Water damage remediation"
+    → ONE "Water Damage Restoration". Mark the extras MERGE.
+  - **KEEP (distinct sub-service / scenario):** a specific real situation a customer
+    searches for, even though it rolls up under a broader service. "Toilet Overflow
+    Cleanup", "Sump Pump Failure Cleanup", "Washing Machine Leak Cleanup", "Burst Pipe
+    Cleanup", "Crawl Space Water Removal" are NOT duplicates of "Water Damage
+    Restoration" — they are valuable keyword-bearing services. KEEP them when the client
+    performs the work. Do NOT merge a specific scenario into its parent category.
+  - Rule of thumb: same *work*, different words → MERGE. Different *situations* that
+    share a parent → KEEP both.
+- Each service must map to a `companies.services` entry OR be a plausible sub-scenario of
+  one (allowing for synonyms). If it maps to a negative service → REMOVE. If it maps to
+  nothing the client offers → NEEDS-REVIEW.
+- Prefer the client's own wording from `companies.services` for canonical/parent labels.
+- A focused listing of ~20–35 distinct, real services (parents + meaningful long-tail
+  scenarios) is healthy. The enemy is *duplicate phrasings of the same service*, not
+  specificity.
 
 ---
 
