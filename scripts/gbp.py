@@ -692,19 +692,29 @@ def _run(cmd: list) -> tuple:
 def build_client_pages(slug: str) -> tuple:
     """Safe incremental build+deploy after new services land in plan-input:
     regenerate the plan, write ONLY the new page files (never the destructive full
-    scaffold), render the unrendered pages, then sync-deploy to production. Returns
-    (ok, message)."""
-    steps = [
-        ["scripts/plan_site.py", "generate", "--slug", slug],
-        ["scripts/build_site.py", "add-pages", "--slug", slug],     # only new files
-        ["scripts/build_site.py", "render", "--slug", slug],        # skips rendered
-        ["scripts/build_site.py", "sync-deploy", "--slug", slug, "--branch", "main"],
-    ]
-    for cmd in steps:
+    scaffold), render the unrendered pages (best-effort — a single transient page
+    failure must not block deploying the rest), then sync-deploy to production. The
+    DEPLOY is the success gate; unrendered stragglers self-heal on the next run.
+    Returns (ok, message)."""
+    # 1. plan + 2. write only-new page files — these must succeed.
+    for cmd in (["scripts/plan_site.py", "generate", "--slug", slug],
+                ["scripts/build_site.py", "add-pages", "--slug", slug]):
         rc, log = _run(cmd)
         if rc != 0:
-            return False, f"BUILD FAILED at `{cmd[0].split('/')[-1]} {cmd[1]}` -> ...{log.strip()[-300:]}"
-    return True, "built + deployed (plan -> add-pages -> render -> sync-deploy main)"
+            return False, f"BUILD FAILED at `{cmd[0].split('/')[-1]} {cmd[1]}` -> ...{log.strip()[-400:]}"
+
+    # 3. render (best-effort): retry once for transient failures; render is idempotent
+    #    and skips already-rendered pages, so the retry only re-attempts the failures.
+    rc, _ = _run(["scripts/build_site.py", "render", "--slug", slug])
+    if rc != 0:
+        rc, _ = _run(["scripts/build_site.py", "render", "--slug", slug])
+    render_note = "" if rc == 0 else " (note: a page failed to render twice — it stays a placeholder and retries next run)"
+
+    # 4. deploy what rendered — the gate. 13 good pages beat deploying nothing over 1 straggler.
+    rcd, logd = _run(["scripts/build_site.py", "sync-deploy", "--slug", slug, "--branch", "main"])
+    if rcd != 0:
+        return False, f"BUILD FAILED at `sync-deploy` -> ...{logd.strip()[-400:]}"
+    return True, "built + deployed (plan -> add-pages -> render -> sync-deploy main)" + render_note
 
 
 def create_pages(slug_filter: str | None = None, build: bool = False) -> list[str]:
