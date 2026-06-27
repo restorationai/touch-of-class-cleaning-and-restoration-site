@@ -94,6 +94,14 @@ Clients connect Google Ads/GBP/Search Console/YouTube via an emailed/texted link
 
 **Convention:** update this journal as we go — new features, decisions, specs, learnings. Newest first.
 
+### 2026-06-27 (pm-1) — GA4 LIVE on all 3 clients (service account, no OAuth grant needed)
+- **Big correction to pm-2's "we have NO service account":** there IS one — `claude@restoration-ai-analytics.iam.gserviceaccount.com` has **Editor** on the "Restoration AI" GA4 account (`accounts/397914758`). Key was in ~/Downloads; stashed to `.secrets/ga4-sa.json` (gitignored). So GA4 provisioning needs NO OAuth consent flow and NO admin upgrade (Editor creates properties).
+- `create_ga4.py`: added a service-account auth path in `access_token()` (uses `GOOGLE_ANALYTICS_SA_KEY` if set). `.env`: `GOOGLE_ANALYTICS_SA_KEY` + `GOOGLE_ANALYTICS_ACCOUNT_ID=397914758`.
+- **Created + deployed GA4 for all 3:** narestco `G-5N8L5D4Z3C` (prop 543376986), davis `G-BRL1Q2KTGV` (543375103), homepride `G-6X1L63FBE5` (543476231). Wrote measurement IDs into each brand.ts + plan-input, sync-deployed; **verified the gtag is live in production HTML on all three.**
+- **Bug fixed:** `analytics_set.git_push_site()` did `git push` inside sites/{slug} — but that's a monorepo SUBDIR, so it pushed the monorepo, not the client site. Now commits brand.ts + runs `build_site sync-deploy` (the real deploy).
+- **Clarity still pending:** no creation API — Santino must create 3 projects at clarity.microsoft.com and hand me the IDs, then `analytics_set.py --slug X --clarity <id> --push` installs them (tags already wired).
+- **NEXT:** Clarity IDs from Santino; GA4 data card in the app's Analytics tab (Data API via the same SA); the narestco ads negatives + match-type cleanup still pending.
+
 ### 2026-06-26 (pm-24) — www duplicate fixed on ALL 3 clients + Analytics width
 - Completed the www→apex 301 on **narestco + davis** (Home Pride was already done). Root cause confirmed: all 3 had www as a Pages custom domain, but narestco/davis www CNAME pointed to the APEX (loopback) which blocks the zone redirect rule; Home Pride's pointed to pages.dev (works).
 - **How (answering Santino's "you should have full DNS / try wrangler"):** provisioning never edited DNS — it adds Pages custom domains and Pages auto-creates DNS (via CLOUDFLARE_PAGES_API_TOKEN, which is Pages/account-scoped, NO zone access). CLOUDFLARE_API_TOKEN has zone read + Rulesets edit + DNS **create/delete** but NOT PATCH/PUT edit (returns method_not_allowed). Delete+re-add of the Pages custom domain did NOT repoint (Pages re-adopts the existing apex record). **Working fix:** DELETE the www→apex DNS record + CREATE www→pages.dev (proxied) — the redirect rule then fires. wrangler doesn't manage DNS records. All 3 verified 301; apexes stay 200.

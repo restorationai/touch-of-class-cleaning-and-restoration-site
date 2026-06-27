@@ -62,11 +62,14 @@ def mirror_plan_input(slug: str, ga4: str | None, clarity: str | None) -> None:
 
 
 def git_push_site(slug: str) -> None:
-    """Commit + push the brand.ts change to the site's own repo (Cloudflare deploys)."""
-    site = SITES / slug
-    subprocess.run(["git", "add", "src/lib/brand.ts"], cwd=site, check=True)
-    subprocess.run(["git", "commit", "-m", "analytics: set GA4/Clarity ids"], cwd=site, check=True)
-    subprocess.run(["git", "push"], cwd=site, check=True)
+    """Commit the brand.ts change to the monorepo, then deploy via subtree push so
+    Cloudflare rebuilds. NOTE: sites/{slug} is a monorepo subdir (NOT its own repo), so
+    a plain `git push` here would push the monorepo, not the client site — use sync-deploy."""
+    subprocess.run(["git", "add", f"sites/{slug}/src/lib/brand.ts"], cwd=ROOT, check=True)
+    subprocess.run(["git", "commit", "-m", f"analytics: set GA4/Clarity ids for {slug}"],
+                   cwd=ROOT, check=False)  # no-op if nothing staged
+    subprocess.run(["python3", "scripts/build_site.py", "sync-deploy",
+                    "--slug", slug, "--branch", "main", "--allow-dirty"], cwd=ROOT, check=True)
 
 
 def main() -> int:
