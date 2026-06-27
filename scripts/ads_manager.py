@@ -602,7 +602,12 @@ def add_campaign_geo_target(client, customer_id: str, campaign_resource: str,
 
 
 def add_campaign_negatives(client, customer_id: str, campaign_resource: str,
-                            keywords: list[str], dry_run: bool = False) -> None:
+                            keywords: list[str], dry_run: bool = False,
+                            match_type=None) -> None:
+    # Default negative match = BROAD (blocks any query containing ALL the words). For a
+    # single word that is a SUBSET of a desired query (e.g. "fire" is inside "fire damage
+    # restoration"), pass match_type=EXACT so it only blocks the literal lone-word search.
+    mt = match_type or client.enums.KeywordMatchTypeEnum.BROAD
     if dry_run:
         print(f"    [dry-run] {len(keywords)} campaign negatives")
         return
@@ -614,7 +619,7 @@ def add_campaign_negatives(client, customer_id: str, campaign_resource: str,
         c.campaign = campaign_resource
         c.negative = True
         c.keyword.text = kw
-        c.keyword.match_type = client.enums.KeywordMatchTypeEnum.BROAD
+        c.keyword.match_type = mt
         ops.append(op)
     criterion_service.mutate_campaign_criteria(
         customer_id=customer_id, operations=ops
