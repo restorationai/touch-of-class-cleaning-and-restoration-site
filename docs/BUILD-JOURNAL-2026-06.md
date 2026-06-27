@@ -94,6 +94,13 @@ Clients connect Google Ads/GBP/Search Console/YouTube via an emailed/texted link
 
 **Convention:** update this journal as we go — new features, decisions, specs, learnings. Newest first.
 
+### 2026-06-26 (pm-24) — www duplicate fixed on ALL 3 clients + Analytics width
+- Completed the www→apex 301 on **narestco + davis** (Home Pride was already done). Root cause confirmed: all 3 had www as a Pages custom domain, but narestco/davis www CNAME pointed to the APEX (loopback) which blocks the zone redirect rule; Home Pride's pointed to pages.dev (works).
+- **How (answering Santino's "you should have full DNS / try wrangler"):** provisioning never edited DNS — it adds Pages custom domains and Pages auto-creates DNS (via CLOUDFLARE_PAGES_API_TOKEN, which is Pages/account-scoped, NO zone access). CLOUDFLARE_API_TOKEN has zone read + Rulesets edit + DNS **create/delete** but NOT PATCH/PUT edit (returns method_not_allowed). Delete+re-add of the Pages custom domain did NOT repoint (Pages re-adopts the existing apex record). **Working fix:** DELETE the www→apex DNS record + CREATE www→pages.dev (proxied) — the redirect rule then fires. wrangler doesn't manage DNS records. All 3 verified 301; apexes stay 200.
+- Note: narestco's www Pages custom domain was delete+re-added (now re-verifying) — cosmetic since the 301 fires before Pages; davis was DNS-swap only (cleaner). Both action-plan items → done.
+- **Analytics:** widened container max-w-5xl → max-w-[1400px] (removed right-side gap).
+- **NEXT:** roll premium style to other tabs + merge feat/gsc-analytics.
+
 ### 2026-06-26 (pm-23) — Premium Analytics restyle + www-duplicate fix (found via GSC)
 - **Found a real SEO bug from the GSC data:** Home Pride's 32,923 impressions were 75% the `www.` homepage ranking ~pos 29 across thousands of long-tail queries (CTR 0.04%). Confirmed www served HTTP 200 with NO redirect on ALL 3 client domains (systemic duplicate-host issue splitting ranking authority). GSC = web search only (country dim, ~99% USA), NOT the local pack — that's geo-grid.
 - **Fix:** added Cloudflare zone Redirect Rule (http_request_dynamic_redirect) www→apex 301, query+path preserved. **Home Pride verified** (www 301→apex, apex stays 200, no loop). narestco/davis rules created but a www **Pages custom domain** intercepts before the zone rule (the CLOUDFLARE_API_TOKEN lacks Pages perms to remove it) — flagged as pinned Action Plan items; Home Pride flagged as a `done` item.
