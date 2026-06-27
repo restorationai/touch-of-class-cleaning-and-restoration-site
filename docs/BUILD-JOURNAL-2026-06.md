@@ -94,6 +94,13 @@ Clients connect Google Ads/GBP/Search Console/YouTube via an emailed/texted link
 
 **Convention:** update this journal as we go — new features, decisions, specs, learnings. Newest first.
 
+### 2026-06-26 (pm-23) — Premium Analytics restyle + www-duplicate fix (found via GSC)
+- **Found a real SEO bug from the GSC data:** Home Pride's 32,923 impressions were 75% the `www.` homepage ranking ~pos 29 across thousands of long-tail queries (CTR 0.04%). Confirmed www served HTTP 200 with NO redirect on ALL 3 client domains (systemic duplicate-host issue splitting ranking authority). GSC = web search only (country dim, ~99% USA), NOT the local pack — that's geo-grid.
+- **Fix:** added Cloudflare zone Redirect Rule (http_request_dynamic_redirect) www→apex 301, query+path preserved. **Home Pride verified** (www 301→apex, apex stays 200, no loop). narestco/davis rules created but a www **Pages custom domain** intercepts before the zone rule (the CLOUDFLARE_API_TOKEN lacks Pages perms to remove it) — flagged as pinned Action Plan items; Home Pride flagged as a `done` item.
+- **Premium UI restyle (Analytics pilot, Santino: dislikes glassmorphism):** flat white surfaces, hairline borders, tabular-nums, indigo accent, no shadows/blur. Added a **"What your search data says"** insight header (derived client-side: impressions-vs-position story, striking count, low-CTR note) so the tab leads with *what to do*, not raw tables.
+- **Striking distance now explicit + actionable:** copy states the top few are auto-added to the Action Plan; per-row **Prioritize** button pins/creates a `gsc_striking` plan row (RLS "manage own" allows it) and shows "In plan". Answers Santino's "is this automatic / button?" question.
+- Branch `feat/gsc-analytics`, localhost:5175. **NEXT:** Santino reviews the premium look → if good, roll the style to other tabs + merge. Follow-up: finish narestco/davis www (needs Pages-domain access).
+
 ### 2026-06-26 (pm-22) — Reports tab finished (real monthly reports, no more mock)
 - Santino chose "finish it." The Reports tab showed REAL review-engine stats but FAKE monthly summaries (marketing_reports empty → hardcoded May/Apr/Mar mock) behind a dead `alert()` "View" button.
 - **`client_report.py publish --slug|--all [--period]`**: renders the monthly report, writes the HTML file (parity with preview), computes real metrics (posts_published=len(posts), videos_created=blog md w/ youtube_id in period, avg_lighthouse_score=mean of audit site_rollup avg_scores), and UPSERTS to `marketing_reports` (added `report_html`/`report_url` cols + unique (company_id,report_month); status CHECK only allows draft|completed → use 'completed'). Ran --all: Home Pride 14 posts/lh98, narestco 5/lh87, Davis 5/lh91, full HTML stored.
