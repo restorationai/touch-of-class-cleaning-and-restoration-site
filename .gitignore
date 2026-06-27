@@ -23,3 +23,6 @@ clients/*/.ads-token.json
 
 # System 5 — local draft video renders (large working artifacts, not source)
 *-draft.mp4
+
+# Ads dashboard snapshots (live client data, regenerate on demand)
+ads-dashboard/*.html
