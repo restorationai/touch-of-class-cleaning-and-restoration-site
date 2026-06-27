@@ -25,7 +25,7 @@ export const brand = {
   imagesBase: "https://images.davisconstructioncontractors.com",
   googleMapsApiKey: "AIzaSyDrYnSuDu-hFvKHEcQCjwb-zsMebInPneU",
   // Analytics — set by scripts/analytics_set.py / create_ga4.py; no-op if empty
-  ga4MeasurementId: "",
+  ga4MeasurementId: "G-BRL1Q2KTGV",
   clarityProjectId: "",
   logoUrl: "/images/logo.webp",
   licenseNumbers: [] as string[],

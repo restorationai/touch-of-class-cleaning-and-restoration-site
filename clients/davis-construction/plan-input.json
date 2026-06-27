@@ -102,7 +102,8 @@
     "certifications": [],
     "google_maps_api_key": "AIzaSyDrYnSuDu-hFvKHEcQCjwb-zsMebInPneU",
     "lat": 34.77368,
-    "lng": -86.56751
+    "lng": -86.56751,
+    "ga4_measurement_id": "G-BRL1Q2KTGV"
   },
   "cross_product": true,
   "keyword_strategy": "conservative",

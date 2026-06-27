@@ -31,7 +31,7 @@ export const brand = {
   imagesBase: "https://images.narestco.com",
   googleMapsApiKey: "AIzaSyDrYnSuDu-hFvKHEcQCjwb-zsMebInPneU",
   // Analytics — set by scripts/analytics_set.py / create_ga4.py; no-op if empty
-  ga4MeasurementId: "",
+  ga4MeasurementId: "G-5N8L5D4Z3C",
   clarityProjectId: "",
   logoUrl: "/images/logo.webp",
   licenseNumbers: ["NATIORC792M6"] as string[],

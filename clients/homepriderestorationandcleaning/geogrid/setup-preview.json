@@ -71,6 +71,18 @@
       "lat": 40.518,
       "lng": -111.9394,
       "primary": false
+    },
+    {
+      "label": "Heber City, UT",
+      "lat": 40.5065,
+      "lng": -111.4133,
+      "primary": false
+    },
+    {
+      "label": "Park City, UT",
+      "lat": 40.6461,
+      "lng": -111.498,
+      "primary": false
     }
   ],
   "company_id": "CO-1780333664867",
