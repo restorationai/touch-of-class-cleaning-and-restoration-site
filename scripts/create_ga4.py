@@ -59,6 +59,14 @@ def auth_url() -> str:
 
 
 def access_token() -> str:
+    # Prefer a service-account key (Editor on our GA4 account) — no OAuth consent needed.
+    sa = os.environ.get("GOOGLE_ANALYTICS_SA_KEY")
+    if sa and Path(sa).exists():
+        from google.oauth2 import service_account
+        from google.auth.transport.requests import Request as GReq
+        creds = service_account.Credentials.from_service_account_file(sa, scopes=[SCOPE])
+        creds.refresh(GReq())
+        return creds.token
     rt = os.environ.get("GOOGLE_ANALYTICS_REFRESH_TOKEN")
     cid = os.environ.get("GOOGLE_OAUTH_CLIENT_ID")
     secret = os.environ.get("GOOGLE_OAUTH_CLIENT_SECRET")

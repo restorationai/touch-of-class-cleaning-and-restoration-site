@@ -26,3 +26,6 @@ clients/*/.ads-token.json
 
 # Ads dashboard snapshots (live client data, regenerate on demand)
 ads-dashboard/*.html
+
+# Service-account keys (never commit)
+.secrets/
