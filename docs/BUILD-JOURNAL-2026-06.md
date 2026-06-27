@@ -94,6 +94,10 @@ Clients connect Google Ads/GBP/Search Console/YouTube via an emailed/texted link
 
 **Convention:** update this journal as we go — new features, decisions, specs, learnings. Newest first.
 
+### 2026-06-27 (pm-2) — Clarity live on all 3 (analytics stack complete)
+- Santino created the 3 Clarity projects; set + deployed: narestco `xdoigoc8of`, davis `xdoje59wr1`, homepride `xdojyl8enb` (GA4 ids preserved). **Verified GA4 + Clarity both firing in production HTML on all three.**
+- Per-client analytics instrumentation is now COMPLETE: organic (GSC, in-app), traffic/behavior (GA4), session replay/heatmaps (Clarity). NEXT: let data accumulate ~24-48h, then read narestco's post-click behavior (the ads "why no calls" question); GA4 data card in the app Analytics tab via the same SA.
+
 ### 2026-06-27 (pm-1) — GA4 LIVE on all 3 clients (service account, no OAuth grant needed)
 - **Big correction to pm-2's "we have NO service account":** there IS one — `claude@restoration-ai-analytics.iam.gserviceaccount.com` has **Editor** on the "Restoration AI" GA4 account (`accounts/397914758`). Key was in ~/Downloads; stashed to `.secrets/ga4-sa.json` (gitignored). So GA4 provisioning needs NO OAuth consent flow and NO admin upgrade (Editor creates properties).
 - `create_ga4.py`: added a service-account auth path in `access_token()` (uses `GOOGLE_ANALYTICS_SA_KEY` if set). `.env`: `GOOGLE_ANALYTICS_SA_KEY` + `GOOGLE_ANALYTICS_ACCOUNT_ID=397914758`.
