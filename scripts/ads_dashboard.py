@@ -134,13 +134,14 @@ def gather(slug: str, days: int) -> dict:
 
 HTML = """<!DOCTYPE html><html lang=en><head><meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-store, must-revalidate">
 <title>{name} — Google Ads</title>
 <style>
 :root{{--bg:#f7f8fa;--card:#fff;--bd:#e7e9ee;--ink:#0f172a;--mut:#64748b;--accent:#4f46e5;
 --rose:#e11d48;--amber:#d97706;--emerald:#059669;--amberbg:#fffbeb;--rosebg:#fff1f2;--embg:#ecfdf5;}}
 *{{box-sizing:border-box}}body{{margin:0;background:var(--bg);color:var(--ink);
 font:14px/1.5 -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;-webkit-font-smoothing:antialiased}}
-.wrap{{max-width:1280px;margin:0 auto;padding:32px 24px 80px}}
+.wrap{{max-width:1640px;margin:0 auto;padding:32px 24px 80px}}
 h1{{font-size:22px;font-weight:700;letter-spacing:-.01em;margin:0}}
 .sub{{color:var(--mut);font-size:13px;margin-top:4px}}
 .tiles{{display:grid;grid-template-columns:repeat(6,1fr);gap:1px;background:var(--bd);
@@ -150,14 +151,16 @@ border:1px solid var(--bd);border-radius:16px;overflow:hidden;margin:24px 0}}
 .tile .v{{font-size:24px;font-weight:700;letter-spacing:-.02em;margin-top:2px;font-variant-numeric:tabular-nums}}
 .card{{background:var(--card);border:1px solid var(--bd);border-radius:16px;overflow:hidden;margin:20px 0}}
 .card h2{{font-size:14px;font-weight:700;margin:0;padding:16px 20px;border-bottom:1px solid var(--bd)}}
-table{{width:100%;border-collapse:collapse;font-size:13px}}
-th,td{{text-align:left;padding:9px 14px;border-bottom:1px solid #f1f2f5;white-space:nowrap}}
-th{{font-size:11px;text-transform:uppercase;letter-spacing:.04em;color:var(--mut);font-weight:700;
+table{{width:100%;border-collapse:collapse;font-size:12.5px}}
+th,td{{text-align:left;padding:7px 9px;border-bottom:1px solid #f1f2f5;white-space:nowrap;
+overflow:hidden;text-overflow:ellipsis}}
+th{{font-size:10.5px;text-transform:uppercase;letter-spacing:.03em;color:var(--mut);font-weight:700;
 cursor:pointer;user-select:none}}
 td.num,th.num{{text-align:right;font-variant-numeric:tabular-nums}}
 tr:last-child td{{border-bottom:0}}
-.term{{font-weight:500;max-width:340px;overflow:hidden;text-overflow:ellipsis}}
-.camp{{color:var(--mut);font-size:12px}}
+.scrollx{{overflow-x:auto}}
+.term{{font-weight:500;max-width:230px;overflow:hidden;text-overflow:ellipsis}}
+.camp{{color:var(--mut);font-size:12px;max-width:160px;overflow:hidden;text-overflow:ellipsis}}
 .badge{{display:inline-block;padding:2px 8px;border-radius:999px;font-size:11px;font-weight:700}}
 .b-negate{{background:var(--amberbg);color:var(--amber)}}
 .b-negated{{background:#f1f5f9;color:var(--mut)}}
@@ -213,12 +216,12 @@ on top of the <b>{negated_existing}</b> already on the account. Filter the table
 <span class=filter data-f=active onclick=f(this)>Active (kept)</span>
 <input id=q placeholder="search terms…" oninput=draw()>
 </div>
-<table id=terms><thead><tr>
+<div class=scrollx><table id=terms><thead><tr>
 <th data-k=term>Search term</th><th data-k=match>Match</th><th data-k=campaign>Campaign</th>
 <th data-k=adgroup>Ad group (set)</th><th data-k=kw>Triggered by keyword</th>
 <th class=num data-k=clicks>Clicks</th><th class=num data-k=impr>Impr</th>
 <th class=num data-k=cost>Cost</th><th class=num data-k=conv>Conv</th><th>Status</th>
-</tr></thead><tbody id=tbody></tbody></table></div>
+</tr></thead><tbody id=tbody></tbody></table></div></div>
 
 <p class=muted style=font-size:12px>Zero-backend snapshot · re-run <code>ads_dashboard.py --slug {slug}</code> to refresh.</p>
 </div>
