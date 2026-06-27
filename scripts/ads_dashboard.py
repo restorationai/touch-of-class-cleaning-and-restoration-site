@@ -54,28 +54,33 @@ def gather(slug: str, days: int) -> dict:
             "lost_budget": round((m.search_budget_lost_impression_share or 0) * 100),
         })
 
-    # Daily (last 14d)
+    # Daily spend-by-date (full window)
     daily = []
-    for r in am.gaql(client, cid, """
+    for r in am.gaql(client, cid, f"""
         SELECT segments.date, metrics.cost_micros, metrics.clicks, metrics.impressions,
-          metrics.conversions FROM customer WHERE segments.date DURING LAST_14_DAYS
+          metrics.conversions FROM customer WHERE segments.date {win}
         ORDER BY segments.date DESC"""):
         m = r.metrics
         daily.append({"date": r.segments.date, "cost": round(m.cost_micros / 1e6, 2),
                       "clicks": m.clicks, "impr": m.impressions, "conv": round(m.conversions, 1)})
 
-    # ALL search terms with clicks
-    terms = []
+    # ALL search terms with clicks, BY DATE (so each day can be drilled into) — incl.
+    # the ad group ("ad set") + the keyword that triggered each click.
+    raw = []
     for r in am.gaql(client, cid, f"""
-        SELECT search_term_view.search_term, segments.search_term_match_type, campaign.name,
+        SELECT search_term_view.search_term, segments.date, segments.search_term_match_type,
+          campaign.name, ad_group.name, segments.keyword.info.text, segments.keyword.info.match_type,
           metrics.clicks, metrics.impressions, metrics.cost_micros, metrics.conversions
         FROM search_term_view WHERE segments.date {win} AND metrics.clicks > 0
         ORDER BY metrics.cost_micros DESC"""):
         m = r.metrics
-        terms.append({
-            "term": r.search_term_view.search_term,
+        kw = r.segments.keyword.info
+        raw.append({
+            "term": r.search_term_view.search_term, "date": r.segments.date,
             "match": r.segments.search_term_match_type.name.replace("_", " ").title(),
-            "campaign": r.campaign.name, "clicks": m.clicks, "impr": m.impressions,
+            "campaign": r.campaign.name, "adgroup": r.ad_group.name,
+            "kw": kw.text or "", "kwmatch": kw.match_type.name.title() if kw.text else "",
+            "clicks": m.clicks, "impr": m.impressions,
             "cost": round(m.cost_micros / 1e6, 2), "conv": round(m.conversions, 1),
         })
 
@@ -94,29 +99,34 @@ def gather(slug: str, days: int) -> dict:
     def covered(t): return any(neg == t or neg in t for neg in existing)
     new_negs = {t for t in to_negate if not covered(t)}
 
-    # Tag each search term with a status
-    for t in terms:
-        n = _norm(t["term"])
-        if covered(n):
-            t["status"] = "negated"
-        elif n in new_negs:
-            t["status"] = "to_negate"
-        elif t["conv"] > 0:
-            t["status"] = "converting"
-        else:
-            t["status"] = "active"
+    # Per-term aggregate (status is per-term, not per-day) -> tag every dated row.
+    from collections import defaultdict
+    agg = defaultdict(lambda: {"cost": 0.0, "conv": 0.0})
+    for t in raw:
+        a = agg[_norm(t["term"])]; a["cost"] += t["cost"]; a["conv"] += t["conv"]
+    def status_for(term: str) -> str:
+        n = _norm(term)
+        if covered(n): return "negated"
+        if n in new_negs: return "to_negate"
+        if agg[n]["conv"] > 0: return "converting"
+        return "active"
+    for t in raw:
+        t["status"] = status_for(t["term"])
 
+    uniq = {_norm(t["term"]): t["status"] for t in raw}
+    new_neg_terms = [n for n, s in uniq.items() if s == "to_negate"]
     totals = {
         "cost": round(sum(c["cost"] for c in campaigns), 2),
         "clicks": sum(c["clicks"] for c in campaigns),
         "impr": sum(c["impr"] for c in campaigns),
         "conv": round(sum(c["conv"] for c in campaigns), 1),
         "value": round(sum(c["value"] for c in campaigns)),
-        "terms": len(terms),
-        "new_neg_count": len(new_negs),
-        "new_neg_cost": round(sum(t["cost"] for t in terms if t["status"] == "to_negate"), 2),
+        "terms": len(uniq),
+        "new_neg_count": len(new_neg_terms),
+        "new_neg_cost": round(sum(agg[n]["cost"] for n in new_neg_terms), 2),
         "negated_existing": len(existing),
     }
+    terms = raw
     return {"name": name, "slug": slug, "customer_id": cid, "days": days,
             "generated": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
             "totals": totals, "campaigns": campaigns, "daily": daily, "terms": terms}
@@ -161,18 +171,24 @@ font-weight:600;color:var(--mut);cursor:pointer}}
 #q{{margin-left:auto;padding:7px 12px;border:1px solid var(--bd);border-radius:10px;font-size:13px;width:220px}}
 .note{{background:var(--amberbg);border:1px solid #fde68a;border-radius:14px;padding:14px 18px;margin:20px 0;font-size:13px;color:#92400e}}
 .muted{{color:var(--mut)}}
+tr.drow{{cursor:pointer}} tr.drow:hover{{background:#f4f6fb}} tr.drow.sel{{background:#eef2ff}}
+tr.drow td:first-child::before{{content:"▸ ";color:var(--accent)}} tr.drow.sel td:first-child::before{{content:"▾ "}}
+#datebanner{{display:none;align-items:center;gap:12px;padding:12px 20px;background:#eef2ff;
+border-bottom:1px solid var(--bd);font-size:13px;color:var(--ink)}}
+.link{{color:var(--accent);font-weight:700;cursor:pointer}}
 </style></head><body><div class=wrap>
 <h1>{name} — Google Ads</h1>
 <div class=sub>Customer {customer_id} · last {days} days · generated {generated}</div>
 
 <div class=tiles>
-<div class=tile><div class=l>Spend</div><div class=v>${t_cost}</div></div>
-<div class=tile><div class=l>Clicks</div><div class=v>{t_clicks}</div></div>
-<div class=tile><div class=l>Impressions</div><div class=v>{t_impr}</div></div>
-<div class=tile><div class=l>Conversions</div><div class=v>{t_conv}</div></div>
-<div class=tile><div class=l>Cost / conv</div><div class=v>{t_cpa}</div></div>
-<div class=tile><div class=l>Conv. value</div><div class=v>${t_value}</div></div>
+<div class=tile><div class=l>Spend</div><div class=v id=k-cost>${t_cost}</div></div>
+<div class=tile><div class=l>Clicks</div><div class=v id=k-clicks>{t_clicks}</div></div>
+<div class=tile><div class=l>Impressions</div><div class=v id=k-impr>{t_impr}</div></div>
+<div class=tile><div class=l>Conversions</div><div class=v id=k-conv>{t_conv}</div></div>
+<div class=tile><div class=l>Cost / conv</div><div class=v id=k-cpa>{t_cpa}</div></div>
+<div class=tile><div class=l>Conv. value</div><div class=v id=k-value>${t_value}</div></div>
 </div>
+<div class=sub id=period style=margin-top:-10px>Showing all {days} days · click any date below to drill into that day</div>
 
 <div class=note><b>{new_neg_count} new negative keywords</b> to apply (${new_neg_cost} wasted in {days}d) —
 on top of the <b>{negated_existing}</b> already on the account. Filter the table by
@@ -183,11 +199,12 @@ on top of the <b>{negated_existing}</b> already on the account. Filter the table
 <th class=num>Conv</th><th class=num>Lost→Rank</th><th class=num>Lost→Budget</th></tr></thead>
 <tbody>{camp_rows}</tbody></table></div>
 
-<div class=card><h2>Daily (last 14 days)</h2><table>
+<div class=card><h2>Spend by date</h2><table>
 <thead><tr><th>Date</th><th class=num>Spend</th><th class=num>Clicks</th><th class=num>Impr</th>
 <th class=num>Conv</th><th>Spend trend</th></tr></thead><tbody>{daily_rows}</tbody></table></div>
 
 <div class=card><h2>Search terms that got clicks ({t_terms})</h2>
+<div id=datebanner></div>
 <div class=controls>
 <span class=filter data-f=all onclick=f(this)>All</span>
 <span class="filter" data-f=to_negate onclick=f(this)>To negate (new)</span>
@@ -198,6 +215,7 @@ on top of the <b>{negated_existing}</b> already on the account. Filter the table
 </div>
 <table id=terms><thead><tr>
 <th data-k=term>Search term</th><th data-k=match>Match</th><th data-k=campaign>Campaign</th>
+<th data-k=adgroup>Ad group (set)</th><th data-k=kw>Triggered by keyword</th>
 <th class=num data-k=clicks>Clicks</th><th class=num data-k=impr>Impr</th>
 <th class=num data-k=cost>Cost</th><th class=num data-k=conv>Conv</th><th>Status</th>
 </tr></thead><tbody id=tbody></tbody></table></div>
@@ -206,30 +224,64 @@ on top of the <b>{negated_existing}</b> already on the account. Filter the table
 </div>
 <script>
 const DATA={data_json};
-let cur='all', sortK='cost', sortDir=-1;
+let cur='all', curDate=null, sortK='cost', sortDir=-1;
+const byDate={{}}; DATA.daily.forEach(d=>byDate[d.date]=d);
 const BADGE={{to_negate:['To negate','b-negate'],negated:['Negated','b-negated'],
 converting:['Converting','b-converting'],active:['Kept','b-active']}};
+const fmt=n=>Number(n||0).toLocaleString('en-US');
 function f(el){{document.querySelectorAll('.filter').forEach(x=>x.classList.remove('on'));
 el.classList.add('on');cur=el.dataset.f;draw();}}
 document.querySelectorAll('#terms th[data-k]').forEach(th=>th.onclick=()=>{{
   const k=th.dataset.k; sortDir=(sortK===k)?-sortDir:-1; sortK=k; draw();}});
+function setk(id,v){{document.getElementById('k-'+id).textContent=v;}}
+function setTiles(){{
+  if(curDate){{const d=byDate[curDate]||{{cost:0,clicks:0,impr:0,conv:0}};
+    setk('cost','$'+fmt(Math.round(d.cost))); setk('clicks',fmt(d.clicks)); setk('impr',fmt(d.impr));
+    setk('conv',d.conv); setk('cpa', d.conv?'$'+fmt(Math.round(d.cost/d.conv)):'—'); setk('value','—');
+    document.getElementById('period').textContent='Showing '+curDate+' only · click the date again to go back';
+  }} else {{const t=DATA.totals;
+    setk('cost','$'+fmt(t.cost)); setk('clicks',fmt(t.clicks)); setk('impr',fmt(t.impr));
+    setk('conv',t.conv); setk('cpa', t.conv?'$'+fmt(Math.round(t.cost/t.conv)):'—'); setk('value','$'+fmt(t.value));
+    document.getElementById('period').textContent='Showing all '+DATA.days+' days · click any date below to drill into that day';
+  }}
+}}
+function pickDate(d){{
+  curDate=(curDate===d)?null:d;
+  document.querySelectorAll('.drow').forEach(r=>r.classList.toggle('sel', r.dataset.date===curDate));
+  const b=document.getElementById('datebanner');
+  if(curDate){{b.style.display='flex';
+    b.innerHTML='Search terms & clicks on <b>&nbsp;'+curDate+'</b> &nbsp;·&nbsp; <span class=link onclick="pickDate(curDate)">← back to all '+DATA.days+' days</span>';}}
+  else b.style.display='none';
+  setTiles(); draw();
+}}
+function aggregate(rows){{
+  const m={{}};
+  for(const t of rows){{const key=t.term.toLowerCase();
+    if(!m[key]) m[key]=Object.assign({{}},t,{{clicks:0,impr:0,cost:0,conv:0}});
+    m[key].clicks+=t.clicks; m[key].impr+=t.impr; m[key].cost+=t.cost; m[key].conv+=t.conv;}}
+  return Object.values(m);
+}}
 function draw(){{
   const q=(document.getElementById('q').value||'').toLowerCase();
-  let rows=DATA.terms.filter(t=>cur==='all'||t.status===cur)
+  let rows=DATA.terms.filter(t=>(!curDate||t.date===curDate) && (cur==='all'||t.status===cur))
     .filter(t=>!q||t.term.toLowerCase().includes(q));
+  if(!curDate) rows=aggregate(rows);          // sum each term across all days
   rows.sort((a,b)=>{{let x=a[sortK],y=b[sortK];
     if(typeof x==='string')return sortDir*x.localeCompare(y);return sortDir*(x-y);}});
   document.getElementById('tbody').innerHTML=rows.map(t=>{{
     const [lab,cls]=BADGE[t.status]||['','b-active'];
     return `<tr><td class=term>${{esc(t.term)}}</td><td class=muted>${{t.match}}</td>
-    <td class=camp>${{esc(shortC(t.campaign))}}</td><td class=num>${{t.clicks}}</td>
+    <td class=camp>${{esc(shortC(t.campaign))}}</td><td class=camp>${{esc(shortG(t.adgroup))}}</td>
+    <td class=camp>${{esc(t.kw)}}${{t.kwmatch?' <span class=muted>['+t.kwmatch[0]+']</span>':''}}</td>
+    <td class=num>${{t.clicks}}</td>
     <td class=num>${{t.impr}}</td><td class=num>$${{t.cost.toFixed(2)}}</td>
     <td class=num>${{t.conv||''}}</td><td><span class="badge ${{cls}}">${{lab}}</span></td></tr>`;
-  }}).join('')||'<tr><td colspan=8 class=muted style=padding:24px;text-align:center>No terms match.</td></tr>';
+  }}).join('')||'<tr><td colspan=10 class=muted style=padding:24px;text-align:center>No terms match.</td></tr>';
 }}
-function shortC(c){{return c.replace('National Restoration Construction - ','').replace('LocalServicesCampaign:SystemGenerated:','LSA ');}}
+function shortC(c){{return (c||'').replace('National Restoration Construction - ','').replace('LocalServicesCampaign:SystemGenerated:','LSA ');}}
+function shortG(g){{return (g||'').replace('National Restoration Construction - ','').replace(' - Exact','').replace(' - Phrase','');}}
 function esc(s){{return (s||'').replace(/[&<>]/g,m=>({{'&':'&amp;','<':'&lt;','>':'&gt;'}}[m]));}}
-document.querySelector('.filter[data-f=all]').classList.add('on');draw();
+document.querySelector('.filter[data-f=all]').classList.add('on');setTiles();draw();
 </script></body></html>"""
 
 
@@ -245,7 +297,8 @@ def render(d: dict) -> str:
         f"<td class=num>{c['lost_budget']}%</td></tr>" for c in d["campaigns"])
     mx = max((x["cost"] for x in d["daily"]), default=1) or 1
     daily_rows = "".join(
-        f"<tr><td>{x['date']}</td><td class=num>${x['cost']:,.2f}</td><td class=num>{x['clicks']}</td>"
+        f"<tr class=drow data-date='{x['date']}' onclick=\"pickDate('{x['date']}')\">"
+        f"<td>{x['date']}</td><td class=num>${x['cost']:,.2f}</td><td class=num>{x['clicks']}</td>"
         f"<td class=num>{x['impr']}</td><td class=num>{x['conv']}</td>"
         f"<td><span class=bar style=width:{int(x['cost']/mx*180)}px></span></td></tr>" for x in d["daily"])
     return HTML.format(
@@ -256,7 +309,8 @@ def render(d: dict) -> str:
         new_neg_count=t["new_neg_count"], new_neg_cost=f"{t['new_neg_cost']:,.2f}",
         negated_existing=t["negated_existing"],
         camp_rows=camp_rows, daily_rows=daily_rows,
-        data_json=json.dumps({"terms": d["terms"]}))
+        data_json=json.dumps({"terms": d["terms"], "daily": d["daily"],
+                              "totals": d["totals"], "days": d["days"]}))
 
 
 def main() -> int:
