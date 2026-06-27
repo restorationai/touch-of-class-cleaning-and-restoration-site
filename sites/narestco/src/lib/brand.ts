@@ -32,7 +32,7 @@ export const brand = {
   googleMapsApiKey: "AIzaSyDrYnSuDu-hFvKHEcQCjwb-zsMebInPneU",
   // Analytics — set by scripts/analytics_set.py / create_ga4.py; no-op if empty
   ga4MeasurementId: "G-5N8L5D4Z3C",
-  clarityProjectId: "",
+  clarityProjectId: "xdoigoc8of",
   logoUrl: "/images/logo.webp",
   licenseNumbers: ["NATIORC792M6"] as string[],
   licenseAuthority: "WA State Department of Labor & Industries",

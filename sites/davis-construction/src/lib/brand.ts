@@ -26,7 +26,7 @@ export const brand = {
   googleMapsApiKey: "AIzaSyDrYnSuDu-hFvKHEcQCjwb-zsMebInPneU",
   // Analytics — set by scripts/analytics_set.py / create_ga4.py; no-op if empty
   ga4MeasurementId: "G-BRL1Q2KTGV",
-  clarityProjectId: "",
+  clarityProjectId: "xdoje59wr1",
   logoUrl: "/images/logo.webp",
   licenseNumbers: [] as string[],
   licenseAuthority: "",
