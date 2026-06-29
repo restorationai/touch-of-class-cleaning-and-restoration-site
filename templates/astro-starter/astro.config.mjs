@@ -9,7 +9,10 @@ export default defineConfig({
   integrations: [
     tailwind({ applyBaseStyles: false }),
     sitemap({
-      filter: (page) => !page.includes("/404"),
+      // Exclude noindex Google Ads landing pages (/lp/) from the sitemap.
+      // They are intentionally noindex,nofollow; listing them creates conflicting
+      // signals ("Submitted URL marked noindex" in GSC) and wastes crawl budget.
+      filter: (page) => !page.includes("/404") && !page.includes("/lp/"),
       changefreq: "weekly",
       lastmod: new Date(),
       serialize(item) {
