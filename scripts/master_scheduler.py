@@ -405,6 +405,15 @@ def cmd_run_due(args) -> int:
                 else:
                     print(f"    Agent-driven. Paste into Claude Code:")
                     print(f"      {emit_agent_prompt(3, slug)}")
+                # Deterministic layer: write tiered SEO fixes/proposals into the
+                # app's action plan (marketing_action_plan). Code-verified checks,
+                # idempotent, and never resurrects a user-dismissed row. Runs every
+                # cadence regardless of agent/headless mode.
+                if not args.dry_run:
+                    rc_det = run_script(["python3", str(ROOT / "scripts" / "seo_audit_actions.py"),
+                                         "--slug", slug])
+                    if rc_det != 0:
+                        print(f"    seo_audit_actions FAILED with rc={rc_det}")
             elif sys_id == 4:
                 # Layer 1 (script)
                 if args.dry_run:
