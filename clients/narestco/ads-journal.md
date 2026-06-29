@@ -7,6 +7,48 @@ entry after any change.**
 
 <!-- entries below, newest first -->
 
+## 2026-06-29 16:22Z · watch · —
+MAJOR — CONVERSION TRACKING IS BROKEN, campaign IS producing leads (2026-06-29): Twilio subaccount logs show 10 CONNECTED calls to the tracking number 253-338-5162 over 6/24-6/28 (durations 11-159s, several WA area codes), all forwarded to 206-883-0333. Because ONLY the noindex ad LPs use 253-338-5162 (main site uses real NAP 206-883-0333), every one of these is an ads-LP lead. Yet Google Ads recorded 0 'Calls from ads'/phone-lead conversions over the same span (last call-conv was 6/23) — only GBP Local-actions (directions/other) registered. => The LP tel-taps connect but the gtag click-to-call conversion (AW-16824131335) is NOT firing/counting, so the campaign looks dead (0 conv) when it's actually generating ~2 calls/day. REVERSES the prior 'LP fine, traffic junk, no qualified traffic' verdict. ACTION: do NOT keep cutting budget on a 0-conv illusion; fix the click-to-call conversion (verify gtag fires on tap + action enabled/primary) or import Twilio calls as offline conversions. Trigger: Santino watched a Clarity recording (user 2ip9al) of a Bellevue-WA-water LP visitor tapping Call Now. LP + button verified WORKING (tel:+12533385162 live, HTTP 200); the (□□□) in the recording is Clarity text-masking, not a broken number. — _operator_
+
+## 2026-06-29 05:54Z · note · —
+Negative search-term pruning (2026-06-29, approved): added 7 phrase/broad negatives x3 SKAGs (21 total). cerca de mi (Spanish near-me, $88 leak), northwest restoration + homeguard environmental (competitor brands), drying out a basement + best way to remove black mold from shower (DIY), is mold damage covered by home insurance (informational), seattle home inspection cost (wrong service+shopper). ~$170/mo waste. NOTE: top 'wasted' terms were actually BUYER queries (restoration contractors near me etc) NOT negated — their 0-conv is the LP-engagement problem (GA4: paid sessions bounce 1-6s, 0% eng; Clarity: 15s active, 34% scroll), not bad keywords. Promoting DIY/informational ones to universal B.6. — _operator_
+
+## 2026-06-29 05:54Z · add-negatives · customers/3832550597/campaigns/23943830377
+Added campaign negatives: cerca de mi,northwest restoration,drying out a basement,is mold damage covered by home insurance,homeguard environmental,seattle home inspection cost,best way to remove black mold from shower — _auto_
+
+## 2026-06-29 05:54Z · add-negatives · customers/3832550597/campaigns/23934073908
+Added campaign negatives: cerca de mi,northwest restoration,drying out a basement,is mold damage covered by home insurance,homeguard environmental,seattle home inspection cost,best way to remove black mold from shower — _auto_
+
+## 2026-06-29 05:54Z · add-negatives · customers/3832550597/campaigns/23939263802
+Added campaign negatives: cerca de mi,northwest restoration,drying out a basement,is mold damage covered by home insurance,homeguard environmental,seattle home inspection cost,best way to remove black mold from shower — _auto_
+
+## 2026-06-29 05:49Z · budget · —
+Budget HALVED AGAIN (2026-06-29, Santino directive): Water $125->$62.50, Fire $75->$37.50, Mold $75->$37.50. Daily ceiling $275 -> $137.50. Rationale: GA4 (prop 543376986) + Clarity (proj xdoigoc8of) now wired — paid-search sessions land & bounce in ~1-6s, 0% engagement, 0 key events; Clarity avg active time 15s, scroll 34%, 13% dead-click. Pulling spend while we fix LP engagement + apply new negatives. NOTE: set-budget --campaign needs a RESOURCE NAME (customers/<cid>/campaigns/<id>), not a display name — name breaks GAQL. — _operator_
+
+## 2026-06-29 05:49Z · set-budget · customers/3832550597/campaigns/23934073908
+Set daily budget to $37.50. — _auto_
+
+## 2026-06-29 05:49Z · set-budget · customers/3832550597/campaigns/23939263802
+Set daily budget to $37.50. — _auto_
+
+## 2026-06-29 05:49Z · set-budget · customers/3832550597/campaigns/23943830377
+Set daily budget to $62.50. — _auto_
+
+## 2026-06-27 20:08Z · apply-negatives · —
+Applied 23 NEW negatives across 3 SKAGs (Santino directive): 20 BROAD (multi-word junk: competitors palouse/raincity/pacific/eco/groundworks, DIY/research, handyman/inspection/out-of-area) + 3 EXACT (['fire', 'narestco', 'handyman']). 'fire' added as EXACT [fire] — NOT broad — so it only blocks the lone-word search and does NOT block 'fire damage restoration'. Single-word negatives applied as exact to avoid over-blocking desired service queries. — _operator_
+
+## 2026-06-27 19:41Z · note · —
+Budget CUT IN HALF (2026-06-27, Santino directive): Water $250->$125, Fire $150->$75, Mold $150->$75. Daily ceiling $550 -> $275. Rationale: ~$2.5k/5d for 1 conversion (all on day 1), live SKAGs ~0 conv on broad-match junk; pulling spend back while we tighten match types + apply the 27 new negatives + let GA4/Clarity (now live) show post-click behavior. Bid strategy untouched (still Max Clicks). — _operator_
+
+## 2026-06-27 19:40Z · set-budget · 23934073908
+Set daily budget to $75.00. — _auto_
+
+## 2026-06-27 19:40Z · set-budget · 23939263802
+Set daily budget to $75.00. — _auto_
+
+## 2026-06-27 19:40Z · set-budget · 23943830377
+Set daily budget to $125.00. — _auto_
+
 ## 2026-06-24 19:45Z · location · —
 Map-pack location assets (2026-06-24): on inspection, narestco's CORRECT GBP location (place_id ChIJ8URpSkf_UaURDg_hVb9wMrQ, asset 365472398992) is ALREADY linked account-wide via the ENABLED LOCATION_SYNC asset set 9118232479 ('Google Maps'). So the ads are already eligible for the local/Maps pack; not showing there is an AD RANK issue (still 55-58% IS lost to rank), not a missing-location issue. NOTE: a stray location asset 365472398989 (place_id ChIJP1UllmyLYogRrvhg5FrxH7U = a DIFFERENT business) exists but only in the REMOVED set 9117961649 — not serving; worth cleaning up. Systematized: ads_manager.scaffold now calls ensure_location_assets() which links the client's OWN GBP by place_id from plan-input (fail-safe: skips if no place_id match, never links a wrong/stray location). Verified against narestco live (correct place_id -> 'already linked'; wrong place_id -> skipped). — _operator_
 
