@@ -357,7 +357,7 @@ aftermarket
 ---
 
 
-### B.6 Restoration — DIY / self-treatment / product-shopping / symptoms (49 terms)
+### B.6 Restoration — DIY / self-treatment / product-shopping / symptoms (51 terms)
 
 **Restoration clients: ALWAYS include.** Water/fire/mold keywords attract a flood of
 homeowner-DIY, product-shopping, and symptom/research queries — people who want to fix
@@ -416,6 +416,8 @@ fire department
 iicrc
 mold abatement products
 mold treatment for wood
+drying out a basement
+best way to remove black mold
 ```
 
 
