@@ -1,0 +1,116 @@
+{
+  "template": "restoration",
+  "services": [
+    "water-damage-restoration",
+    "flood-damage-restoration",
+    "burst-pipe-repair",
+    "basement-flooding-cleanup",
+    "reconstruction",
+    "general-contracting"
+  ],
+  "service_areas": [
+    {
+      "city": "San Diego",
+      "state": "CA",
+      "slug": "san-diego-ca",
+      "primary": true
+    },
+    {
+      "city": "Chula Vista",
+      "state": "CA",
+      "slug": "chula-vista-ca",
+      "primary": false
+    },
+    {
+      "city": "Oceanside",
+      "state": "CA",
+      "slug": "oceanside-ca",
+      "primary": false
+    },
+    {
+      "city": "Escondido",
+      "state": "CA",
+      "slug": "escondido-ca",
+      "primary": false
+    },
+    {
+      "city": "Carlsbad",
+      "state": "CA",
+      "slug": "carlsbad-ca",
+      "primary": false
+    },
+    {
+      "city": "El Cajon",
+      "state": "CA",
+      "slug": "el-cajon-ca",
+      "primary": false
+    },
+    {
+      "city": "Vista",
+      "state": "CA",
+      "slug": "vista-ca",
+      "primary": false
+    },
+    {
+      "city": "San Marcos",
+      "state": "CA",
+      "slug": "san-marcos-ca",
+      "primary": false
+    },
+    {
+      "city": "Encinitas",
+      "state": "CA",
+      "slug": "encinitas-ca",
+      "primary": false
+    },
+    {
+      "city": "La Mesa",
+      "state": "CA",
+      "slug": "la-mesa-ca",
+      "primary": false
+    },
+    {
+      "city": "Santee",
+      "state": "CA",
+      "slug": "santee-ca",
+      "primary": false
+    },
+    {
+      "city": "Poway",
+      "state": "CA",
+      "slug": "poway-ca",
+      "primary": false
+    },
+    {
+      "city": "National City",
+      "state": "CA",
+      "slug": "national-city-ca",
+      "primary": false
+    },
+    {
+      "city": "Spring Valley",
+      "state": "CA",
+      "slug": "spring-valley-ca",
+      "primary": false
+    },
+    {
+      "city": "Temecula",
+      "state": "CA",
+      "slug": "temecula-ca",
+      "primary": false
+    }
+  ],
+  "brand": {
+    "display_name": "Flood Fixers",
+    "phone": "(855) 204-1124",
+    "email": "",
+    "hours": "24/7 Emergency Service",
+    "founded_year": "",
+    "license_numbers": [],
+    "certifications": [],
+    "google_maps_api_key": "AIzaSyDrYnSuDu-hFvKHEcQCjwb-zsMebInPneU"
+  },
+  "cross_product": true,
+  "keyword_strategy": "conservative",
+  "blog_seed_count": 12
+}

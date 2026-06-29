@@ -1,0 +1,42 @@
+{
+  "slug": "flood-fixers",
+  "display_name": "Flood Fixers",
+  "domain": "flood-fixers.com",
+  "tier": "standard",
+  "image_policy": "pro_hero_flash_inline",
+  "contact": "luxurycustomfloors@gmail.com",
+  "zone": {
+    "id": "0e9dec42e9729ffd6424b2472144d4b4",
+    "name": "flood-fixers.com",
+    "status": "pending",
+    "name_servers": [
+      "amos.ns.cloudflare.com",
+      "anastasia.ns.cloudflare.com"
+    ],
+    "created_on": "2026-06-29T20:08:03.188019Z"
+  },
+  "r2": {
+    "bucket": "rankai-flood-fixers",
+    "custom_domain": "images.flood-fixers.com"
+  },
+  "status": "pending_ns",
+  "created_at": "2026-06-29T20:08:03.446673+00:00",
+  "updated_at": "2026-06-29T20:29:55.195536+00:00",
+  "plan_status": "planned",
+  "plan": {
+    "template": "restoration",
+    "template_version": "0.2.0",
+    "url_count": 129,
+    "generated_at": "2026-06-29T20:20:14.192249+00:00"
+  },
+  "build": {
+    "scaffolded_at": "2026-06-29T20:29:55.195141+00:00",
+    "github_repo": "restorationai/flood-fixers-site",
+    "pages_project": "rankai-flood-fixers",
+    "starter_version": "0.1.0",
+    "url_count": 129,
+    "pages_status": "created",
+    "last_rendered_at": "2026-06-29T20:56:54.729664+00:00"
+  },
+  "build_status": "content_rendered"
+}

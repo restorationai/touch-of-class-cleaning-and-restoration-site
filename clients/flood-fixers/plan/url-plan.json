@@ -1,0 +1,5579 @@
+{
+  "template": "restoration",
+  "template_version": "0.2.0",
+  "generated_at": "2026-06-29T20:20:14.183647+00:00",
+  "input_summary": {
+    "service_count": 6,
+    "service_area_count": 15,
+    "cross_product": true,
+    "blog_seed_count": 12
+  },
+  "pages": [
+    {
+      "url_path": "/",
+      "archetype": "home",
+      "vars_keys": [],
+      "title": "Flood Fixers | Restoration Services in San Diego, CA",
+      "h1": "24/7 Restoration Services in San Diego",
+      "meta_description": "Flood Fixers provides 24/7 water, fire, mold, and storm damage restoration across San Diego and surrounding areas. Licensed, insured, IICRC-certified. Call (855) 204-1124.",
+      "primary_keyword": "restoration services san diego",
+      "secondary_keywords": [
+        "restoration company near me",
+        "24/7 damage restoration",
+        "emergency restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 1200,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2",
+        "inline-3"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "aggregate-rating"
+      ],
+      "priority": 5.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/service-areas/",
+        "/contact/",
+        "/about/",
+        "/services/water-damage-restoration/",
+        "/services/flood-damage-restoration/",
+        "/services/reconstruction/",
+        "/services/basement-flooding-cleanup/",
+        "/services/burst-pipe-repair/",
+        "/services/general-contracting/",
+        "/service-areas/san-diego-ca/",
+        "/service-areas/carlsbad-ca/",
+        "/service-areas/chula-vista-ca/",
+        "/service-areas/el-cajon-ca/",
+        "/service-areas/encinitas-ca/",
+        "/service-areas/escondido-ca/",
+        "/service-areas/la-mesa-ca/",
+        "/service-areas/national-city-ca/",
+        "/service-areas/oceanside-ca/",
+        "/service-areas/poway-ca/",
+        "/service-areas/san-marcos-ca/",
+        "/service-areas/santee-ca/",
+        "/service-areas/spring-valley-ca/",
+        "/service-areas/temecula-ca/",
+        "/service-areas/vista-ca/"
+      ]
+    },
+    {
+      "url_path": "/services/",
+      "archetype": "services-hub",
+      "vars_keys": [],
+      "title": "Restoration Services in San Diego | Flood Fixers",
+      "h1": "Our Restoration Services",
+      "meta_description": "Full-service restoration in San Diego: water, fire, mold, storm, biohazard, and commercial restoration. 24/7 response. Call (855) 204-1124.",
+      "primary_keyword": "restoration services san diego",
+      "secondary_keywords": [
+        "damage restoration services",
+        "property restoration services",
+        "disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 800,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "breadcrumb-list"
+      ],
+      "priority": 4.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/services/water-damage-restoration/",
+        "/services/flood-damage-restoration/",
+        "/services/reconstruction/",
+        "/services/basement-flooding-cleanup/",
+        "/services/burst-pipe-repair/",
+        "/services/general-contracting/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/",
+      "archetype": "service-areas-hub",
+      "vars_keys": [],
+      "title": "Service Areas | Flood Fixers Restoration",
+      "h1": "Areas We Serve",
+      "meta_description": "Flood Fixers provides 24/7 restoration services across San Diego and the surrounding region. Find your city.",
+      "primary_keyword": "flood fixers service areas",
+      "secondary_keywords": [
+        "restoration service area",
+        "cities we serve",
+        "local restoration coverage"
+      ],
+      "search_intent": "navigational_local",
+      "target_word_count": 500,
+      "image_roles": [
+        "hero",
+        "og"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/service-areas/san-diego-ca/",
+        "/service-areas/carlsbad-ca/",
+        "/service-areas/chula-vista-ca/",
+        "/service-areas/el-cajon-ca/",
+        "/service-areas/encinitas-ca/",
+        "/service-areas/escondido-ca/",
+        "/service-areas/la-mesa-ca/",
+        "/service-areas/national-city-ca/",
+        "/service-areas/oceanside-ca/",
+        "/service-areas/poway-ca/",
+        "/service-areas/san-marcos-ca/",
+        "/service-areas/santee-ca/",
+        "/service-areas/spring-valley-ca/",
+        "/service-areas/temecula-ca/",
+        "/service-areas/vista-ca/"
+      ]
+    },
+    {
+      "url_path": "/blog/",
+      "archetype": "blog-index",
+      "vars_keys": [],
+      "title": "Restoration Blog | Flood Fixers",
+      "h1": "Restoration Resources and Insights",
+      "meta_description": "Guides, checklists, and explainers from Flood Fixers on water, fire, mold, and storm damage restoration.",
+      "primary_keyword": "restoration blog san diego",
+      "secondary_keywords": [
+        "restoration guides",
+        "damage restoration tips",
+        "restoration insights"
+      ],
+      "search_intent": "informational_browse",
+      "target_word_count": 300,
+      "image_roles": [
+        "hero",
+        "og"
+      ],
+      "schema_stubs": [
+        "website",
+        "breadcrumb-list"
+      ],
+      "priority": 3.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/blog/how-long-does-water-damage-restoration-take/",
+        "/blog/mold-after-water-damage/",
+        "/blog/basement-flooding-prevention/",
+        "/blog/commercial-water-damage-business-continuity/",
+        "/blog/iicrc-certification-explained/"
+      ]
+    },
+    {
+      "url_path": "/about/",
+      "archetype": "about",
+      "vars_keys": [],
+      "title": "About Flood Fixers | San Diego Restoration Company",
+      "h1": "About Flood Fixers",
+      "meta_description": "Flood Fixers has served San Diego since . Meet our IICRC-certified restoration team. Licensed, insured, locally owned.",
+      "primary_keyword": "flood fixers san diego",
+      "secondary_keywords": [
+        "local restoration company",
+        "iicrc certified restoration",
+        "licensed restoration contractor"
+      ],
+      "search_intent": "navigational_trust",
+      "target_word_count": 700,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "aggregate-rating",
+        "breadcrumb-list"
+      ],
+      "priority": 2.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/contact/",
+      "archetype": "contact",
+      "vars_keys": [],
+      "title": "Contact Flood Fixers | 24/7 Restoration in San Diego",
+      "h1": "Contact Flood Fixers",
+      "meta_description": "Call (855) 204-1124 for 24/7 emergency restoration in San Diego and surrounding areas. Free estimates. Direct insurance billing.",
+      "primary_keyword": "flood fixers contact",
+      "secondary_keywords": [
+        "restoration company contact",
+        "24/7 restoration phone",
+        "emergency restoration near me"
+      ],
+      "search_intent": "navigational_action",
+      "target_word_count": 400,
+      "image_roles": [
+        "hero",
+        "og"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "breadcrumb-list"
+      ],
+      "priority": 2.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/services/",
+        "/service-areas/"
+      ]
+    },
+    {
+      "url_path": "/services/water-damage-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Water Damage Restoration in San Diego | Flood Fixers",
+      "h1": "Water Damage Restoration in San Diego",
+      "meta_description": "24/7 water damage restoration in San Diego and surrounding areas. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "water damage restoration san diego",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 9.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/carlsbad-ca/water-damage-restoration/",
+        "/service-areas/chula-vista-ca/water-damage-restoration/",
+        "/service-areas/el-cajon-ca/water-damage-restoration/",
+        "/service-areas/encinitas-ca/water-damage-restoration/",
+        "/service-areas/escondido-ca/water-damage-restoration/",
+        "/service-areas/la-mesa-ca/water-damage-restoration/",
+        "/service-areas/national-city-ca/water-damage-restoration/",
+        "/service-areas/oceanside-ca/water-damage-restoration/",
+        "/service-areas/poway-ca/water-damage-restoration/",
+        "/service-areas/san-diego-ca/water-damage-restoration/",
+        "/service-areas/san-marcos-ca/water-damage-restoration/",
+        "/service-areas/santee-ca/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/services/flood-damage-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Flood Damage Restoration in San Diego | Flood Fixers",
+      "h1": "Flood Damage Restoration in San Diego",
+      "meta_description": "24/7 flood damage restoration in San Diego and surrounding areas. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "flood damage restoration san diego",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/carlsbad-ca/flood-damage-restoration/",
+        "/service-areas/chula-vista-ca/flood-damage-restoration/",
+        "/service-areas/el-cajon-ca/flood-damage-restoration/",
+        "/service-areas/encinitas-ca/flood-damage-restoration/",
+        "/service-areas/escondido-ca/flood-damage-restoration/",
+        "/service-areas/la-mesa-ca/flood-damage-restoration/",
+        "/service-areas/national-city-ca/flood-damage-restoration/",
+        "/service-areas/oceanside-ca/flood-damage-restoration/",
+        "/service-areas/poway-ca/flood-damage-restoration/",
+        "/service-areas/san-diego-ca/flood-damage-restoration/",
+        "/service-areas/san-marcos-ca/flood-damage-restoration/",
+        "/service-areas/santee-ca/flood-damage-restoration/"
+      ]
+    },
+    {
+      "url_path": "/services/burst-pipe-repair/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Burst Pipe Cleanup and Repair in San Diego | Flood Fixers",
+      "h1": "Burst Pipe Cleanup and Repair in San Diego",
+      "meta_description": "24/7 burst pipe cleanup and repair in San Diego and surrounding areas. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "burst pipe cleanup and repair san diego",
+      "secondary_keywords": [
+        "burst pipe cleanup",
+        "pipe burst emergency",
+        "pipe break water damage",
+        "water line break",
+        "emergency pipe repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/carlsbad-ca/burst-pipe-repair/",
+        "/service-areas/chula-vista-ca/burst-pipe-repair/",
+        "/service-areas/el-cajon-ca/burst-pipe-repair/",
+        "/service-areas/encinitas-ca/burst-pipe-repair/",
+        "/service-areas/escondido-ca/burst-pipe-repair/",
+        "/service-areas/la-mesa-ca/burst-pipe-repair/",
+        "/service-areas/national-city-ca/burst-pipe-repair/",
+        "/service-areas/oceanside-ca/burst-pipe-repair/",
+        "/service-areas/poway-ca/burst-pipe-repair/",
+        "/service-areas/san-diego-ca/burst-pipe-repair/",
+        "/service-areas/san-marcos-ca/burst-pipe-repair/",
+        "/service-areas/santee-ca/burst-pipe-repair/"
+      ]
+    },
+    {
+      "url_path": "/services/basement-flooding-cleanup/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Basement Flooding Cleanup in San Diego | Flood Fixers",
+      "h1": "Basement Flooding Cleanup in San Diego",
+      "meta_description": "24/7 basement flooding cleanup in San Diego and surrounding areas. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "basement flooding cleanup san diego",
+      "secondary_keywords": [
+        "flooded basement cleanup",
+        "basement water removal",
+        "wet basement restoration",
+        "basement water damage",
+        "basement drying"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/carlsbad-ca/basement-flooding-cleanup/",
+        "/service-areas/chula-vista-ca/basement-flooding-cleanup/",
+        "/service-areas/el-cajon-ca/basement-flooding-cleanup/",
+        "/service-areas/encinitas-ca/basement-flooding-cleanup/",
+        "/service-areas/escondido-ca/basement-flooding-cleanup/",
+        "/service-areas/la-mesa-ca/basement-flooding-cleanup/",
+        "/service-areas/national-city-ca/basement-flooding-cleanup/",
+        "/service-areas/oceanside-ca/basement-flooding-cleanup/",
+        "/service-areas/poway-ca/basement-flooding-cleanup/",
+        "/service-areas/san-diego-ca/basement-flooding-cleanup/",
+        "/service-areas/san-marcos-ca/basement-flooding-cleanup/",
+        "/service-areas/santee-ca/basement-flooding-cleanup/"
+      ]
+    },
+    {
+      "url_path": "/services/reconstruction/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Reconstruction Services in San Diego | Flood Fixers",
+      "h1": "Reconstruction Services in San Diego",
+      "meta_description": "24/7 reconstruction services in San Diego and surrounding areas. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "reconstruction services san diego",
+      "secondary_keywords": [
+        "post-damage reconstruction",
+        "rebuild services",
+        "structural reconstruction",
+        "post-disaster rebuilding",
+        "fire damage reconstruction"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/carlsbad-ca/reconstruction/",
+        "/service-areas/chula-vista-ca/reconstruction/",
+        "/service-areas/el-cajon-ca/reconstruction/",
+        "/service-areas/encinitas-ca/reconstruction/",
+        "/service-areas/escondido-ca/reconstruction/",
+        "/service-areas/la-mesa-ca/reconstruction/",
+        "/service-areas/national-city-ca/reconstruction/",
+        "/service-areas/oceanside-ca/reconstruction/",
+        "/service-areas/poway-ca/reconstruction/",
+        "/service-areas/san-diego-ca/reconstruction/",
+        "/service-areas/san-marcos-ca/reconstruction/",
+        "/service-areas/santee-ca/reconstruction/"
+      ]
+    },
+    {
+      "url_path": "/services/general-contracting/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in San Diego | Flood Fixers",
+      "h1": "Renovations, Remodels and General Contracting in San Diego",
+      "meta_description": "24/7 renovations, remodels and general contracting in San Diego and surrounding areas. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "renovations, remodels and general contracting san diego",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/carlsbad-ca/general-contracting/",
+        "/service-areas/chula-vista-ca/general-contracting/",
+        "/service-areas/el-cajon-ca/general-contracting/",
+        "/service-areas/encinitas-ca/general-contracting/",
+        "/service-areas/escondido-ca/general-contracting/",
+        "/service-areas/la-mesa-ca/general-contracting/",
+        "/service-areas/national-city-ca/general-contracting/",
+        "/service-areas/oceanside-ca/general-contracting/",
+        "/service-areas/poway-ca/general-contracting/",
+        "/service-areas/san-diego-ca/general-contracting/",
+        "/service-areas/san-marcos-ca/general-contracting/",
+        "/service-areas/santee-ca/general-contracting/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/san-diego-ca/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in San Diego, CA | Flood Fixers",
+      "h1": "Restoration Services in San Diego",
+      "meta_description": "Serving San Diego, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (855) 204-1124.",
+      "primary_keyword": "restoration services san diego",
+      "secondary_keywords": [
+        "san diego restoration company",
+        "damage restoration san diego",
+        "san diego disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 7.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/san-diego-ca/water-damage-restoration/",
+        "/service-areas/san-diego-ca/flood-damage-restoration/",
+        "/service-areas/san-diego-ca/reconstruction/",
+        "/service-areas/san-diego-ca/basement-flooding-cleanup/",
+        "/service-areas/san-diego-ca/burst-pipe-repair/",
+        "/service-areas/san-diego-ca/general-contracting/",
+        "/service-areas/carlsbad-ca/",
+        "/service-areas/chula-vista-ca/",
+        "/service-areas/el-cajon-ca/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/chula-vista-ca/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Chula Vista, CA | Flood Fixers",
+      "h1": "Restoration Services in Chula Vista",
+      "meta_description": "Serving Chula Vista, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (855) 204-1124.",
+      "primary_keyword": "restoration services chula vista",
+      "secondary_keywords": [
+        "chula vista restoration company",
+        "damage restoration chula vista",
+        "chula vista disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/chula-vista-ca/water-damage-restoration/",
+        "/service-areas/chula-vista-ca/flood-damage-restoration/",
+        "/service-areas/chula-vista-ca/reconstruction/",
+        "/service-areas/chula-vista-ca/basement-flooding-cleanup/",
+        "/service-areas/chula-vista-ca/burst-pipe-repair/",
+        "/service-areas/chula-vista-ca/general-contracting/",
+        "/service-areas/san-diego-ca/",
+        "/service-areas/carlsbad-ca/",
+        "/service-areas/el-cajon-ca/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oceanside-ca/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Oceanside, CA | Flood Fixers",
+      "h1": "Restoration Services in Oceanside",
+      "meta_description": "Serving Oceanside, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (855) 204-1124.",
+      "primary_keyword": "restoration services oceanside",
+      "secondary_keywords": [
+        "oceanside restoration company",
+        "damage restoration oceanside",
+        "oceanside disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/oceanside-ca/water-damage-restoration/",
+        "/service-areas/oceanside-ca/flood-damage-restoration/",
+        "/service-areas/oceanside-ca/reconstruction/",
+        "/service-areas/oceanside-ca/basement-flooding-cleanup/",
+        "/service-areas/oceanside-ca/burst-pipe-repair/",
+        "/service-areas/oceanside-ca/general-contracting/",
+        "/service-areas/san-diego-ca/",
+        "/service-areas/carlsbad-ca/",
+        "/service-areas/chula-vista-ca/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/escondido-ca/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Escondido, CA | Flood Fixers",
+      "h1": "Restoration Services in Escondido",
+      "meta_description": "Serving Escondido, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (855) 204-1124.",
+      "primary_keyword": "restoration services escondido",
+      "secondary_keywords": [
+        "escondido restoration company",
+        "damage restoration escondido",
+        "escondido disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/escondido-ca/water-damage-restoration/",
+        "/service-areas/escondido-ca/flood-damage-restoration/",
+        "/service-areas/escondido-ca/reconstruction/",
+        "/service-areas/escondido-ca/basement-flooding-cleanup/",
+        "/service-areas/escondido-ca/burst-pipe-repair/",
+        "/service-areas/escondido-ca/general-contracting/",
+        "/service-areas/san-diego-ca/",
+        "/service-areas/carlsbad-ca/",
+        "/service-areas/chula-vista-ca/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/carlsbad-ca/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Carlsbad, CA | Flood Fixers",
+      "h1": "Restoration Services in Carlsbad",
+      "meta_description": "Serving Carlsbad, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (855) 204-1124.",
+      "primary_keyword": "restoration services carlsbad",
+      "secondary_keywords": [
+        "carlsbad restoration company",
+        "damage restoration carlsbad",
+        "carlsbad disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/carlsbad-ca/water-damage-restoration/",
+        "/service-areas/carlsbad-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/reconstruction/",
+        "/service-areas/carlsbad-ca/basement-flooding-cleanup/",
+        "/service-areas/carlsbad-ca/burst-pipe-repair/",
+        "/service-areas/carlsbad-ca/general-contracting/",
+        "/service-areas/san-diego-ca/",
+        "/service-areas/chula-vista-ca/",
+        "/service-areas/el-cajon-ca/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/el-cajon-ca/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in El Cajon, CA | Flood Fixers",
+      "h1": "Restoration Services in El Cajon",
+      "meta_description": "Serving El Cajon, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (855) 204-1124.",
+      "primary_keyword": "restoration services el cajon",
+      "secondary_keywords": [
+        "el cajon restoration company",
+        "damage restoration el cajon",
+        "el cajon disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/el-cajon-ca/water-damage-restoration/",
+        "/service-areas/el-cajon-ca/flood-damage-restoration/",
+        "/service-areas/el-cajon-ca/reconstruction/",
+        "/service-areas/el-cajon-ca/basement-flooding-cleanup/",
+        "/service-areas/el-cajon-ca/burst-pipe-repair/",
+        "/service-areas/el-cajon-ca/general-contracting/",
+        "/service-areas/san-diego-ca/",
+        "/service-areas/carlsbad-ca/",
+        "/service-areas/chula-vista-ca/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/vista-ca/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Vista, CA | Flood Fixers",
+      "h1": "Restoration Services in Vista",
+      "meta_description": "Serving Vista, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (855) 204-1124.",
+      "primary_keyword": "restoration services vista",
+      "secondary_keywords": [
+        "vista restoration company",
+        "damage restoration vista",
+        "vista disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/vista-ca/water-damage-restoration/",
+        "/service-areas/vista-ca/flood-damage-restoration/",
+        "/service-areas/vista-ca/reconstruction/",
+        "/service-areas/vista-ca/basement-flooding-cleanup/",
+        "/service-areas/vista-ca/burst-pipe-repair/",
+        "/service-areas/vista-ca/general-contracting/",
+        "/service-areas/san-diego-ca/",
+        "/service-areas/carlsbad-ca/",
+        "/service-areas/chula-vista-ca/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/san-marcos-ca/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in San Marcos, CA | Flood Fixers",
+      "h1": "Restoration Services in San Marcos",
+      "meta_description": "Serving San Marcos, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (855) 204-1124.",
+      "primary_keyword": "restoration services san marcos",
+      "secondary_keywords": [
+        "san marcos restoration company",
+        "damage restoration san marcos",
+        "san marcos disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/san-marcos-ca/water-damage-restoration/",
+        "/service-areas/san-marcos-ca/flood-damage-restoration/",
+        "/service-areas/san-marcos-ca/reconstruction/",
+        "/service-areas/san-marcos-ca/basement-flooding-cleanup/",
+        "/service-areas/san-marcos-ca/burst-pipe-repair/",
+        "/service-areas/san-marcos-ca/general-contracting/",
+        "/service-areas/san-diego-ca/",
+        "/service-areas/carlsbad-ca/",
+        "/service-areas/chula-vista-ca/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/encinitas-ca/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Encinitas, CA | Flood Fixers",
+      "h1": "Restoration Services in Encinitas",
+      "meta_description": "Serving Encinitas, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (855) 204-1124.",
+      "primary_keyword": "restoration services encinitas",
+      "secondary_keywords": [
+        "encinitas restoration company",
+        "damage restoration encinitas",
+        "encinitas disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/encinitas-ca/water-damage-restoration/",
+        "/service-areas/encinitas-ca/flood-damage-restoration/",
+        "/service-areas/encinitas-ca/reconstruction/",
+        "/service-areas/encinitas-ca/basement-flooding-cleanup/",
+        "/service-areas/encinitas-ca/burst-pipe-repair/",
+        "/service-areas/encinitas-ca/general-contracting/",
+        "/service-areas/san-diego-ca/",
+        "/service-areas/carlsbad-ca/",
+        "/service-areas/chula-vista-ca/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/la-mesa-ca/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in La Mesa, CA | Flood Fixers",
+      "h1": "Restoration Services in La Mesa",
+      "meta_description": "Serving La Mesa, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (855) 204-1124.",
+      "primary_keyword": "restoration services la mesa",
+      "secondary_keywords": [
+        "la mesa restoration company",
+        "damage restoration la mesa",
+        "la mesa disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/la-mesa-ca/water-damage-restoration/",
+        "/service-areas/la-mesa-ca/flood-damage-restoration/",
+        "/service-areas/la-mesa-ca/reconstruction/",
+        "/service-areas/la-mesa-ca/basement-flooding-cleanup/",
+        "/service-areas/la-mesa-ca/burst-pipe-repair/",
+        "/service-areas/la-mesa-ca/general-contracting/",
+        "/service-areas/san-diego-ca/",
+        "/service-areas/carlsbad-ca/",
+        "/service-areas/chula-vista-ca/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/santee-ca/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Santee, CA | Flood Fixers",
+      "h1": "Restoration Services in Santee",
+      "meta_description": "Serving Santee, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (855) 204-1124.",
+      "primary_keyword": "restoration services santee",
+      "secondary_keywords": [
+        "santee restoration company",
+        "damage restoration santee",
+        "santee disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/santee-ca/water-damage-restoration/",
+        "/service-areas/santee-ca/flood-damage-restoration/",
+        "/service-areas/santee-ca/reconstruction/",
+        "/service-areas/santee-ca/basement-flooding-cleanup/",
+        "/service-areas/santee-ca/burst-pipe-repair/",
+        "/service-areas/santee-ca/general-contracting/",
+        "/service-areas/san-diego-ca/",
+        "/service-areas/carlsbad-ca/",
+        "/service-areas/chula-vista-ca/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/poway-ca/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Poway, CA | Flood Fixers",
+      "h1": "Restoration Services in Poway",
+      "meta_description": "Serving Poway, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (855) 204-1124.",
+      "primary_keyword": "restoration services poway",
+      "secondary_keywords": [
+        "poway restoration company",
+        "damage restoration poway",
+        "poway disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/poway-ca/water-damage-restoration/",
+        "/service-areas/poway-ca/flood-damage-restoration/",
+        "/service-areas/poway-ca/reconstruction/",
+        "/service-areas/poway-ca/basement-flooding-cleanup/",
+        "/service-areas/poway-ca/burst-pipe-repair/",
+        "/service-areas/poway-ca/general-contracting/",
+        "/service-areas/san-diego-ca/",
+        "/service-areas/carlsbad-ca/",
+        "/service-areas/chula-vista-ca/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/national-city-ca/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in National City, CA | Flood Fixers",
+      "h1": "Restoration Services in National City",
+      "meta_description": "Serving National City, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (855) 204-1124.",
+      "primary_keyword": "restoration services national city",
+      "secondary_keywords": [
+        "national city restoration company",
+        "damage restoration national city",
+        "national city disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/national-city-ca/water-damage-restoration/",
+        "/service-areas/national-city-ca/flood-damage-restoration/",
+        "/service-areas/national-city-ca/reconstruction/",
+        "/service-areas/national-city-ca/basement-flooding-cleanup/",
+        "/service-areas/national-city-ca/burst-pipe-repair/",
+        "/service-areas/national-city-ca/general-contracting/",
+        "/service-areas/san-diego-ca/",
+        "/service-areas/carlsbad-ca/",
+        "/service-areas/chula-vista-ca/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/spring-valley-ca/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Spring Valley, CA | Flood Fixers",
+      "h1": "Restoration Services in Spring Valley",
+      "meta_description": "Serving Spring Valley, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (855) 204-1124.",
+      "primary_keyword": "restoration services spring valley",
+      "secondary_keywords": [
+        "spring valley restoration company",
+        "damage restoration spring valley",
+        "spring valley disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/spring-valley-ca/water-damage-restoration/",
+        "/service-areas/spring-valley-ca/flood-damage-restoration/",
+        "/service-areas/spring-valley-ca/reconstruction/",
+        "/service-areas/spring-valley-ca/basement-flooding-cleanup/",
+        "/service-areas/spring-valley-ca/burst-pipe-repair/",
+        "/service-areas/spring-valley-ca/general-contracting/",
+        "/service-areas/san-diego-ca/",
+        "/service-areas/carlsbad-ca/",
+        "/service-areas/chula-vista-ca/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/temecula-ca/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Temecula, CA | Flood Fixers",
+      "h1": "Restoration Services in Temecula",
+      "meta_description": "Serving Temecula, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (855) 204-1124.",
+      "primary_keyword": "restoration services temecula",
+      "secondary_keywords": [
+        "temecula restoration company",
+        "damage restoration temecula",
+        "temecula disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/temecula-ca/water-damage-restoration/",
+        "/service-areas/temecula-ca/flood-damage-restoration/",
+        "/service-areas/temecula-ca/reconstruction/",
+        "/service-areas/temecula-ca/basement-flooding-cleanup/",
+        "/service-areas/temecula-ca/burst-pipe-repair/",
+        "/service-areas/temecula-ca/general-contracting/",
+        "/service-areas/san-diego-ca/",
+        "/service-areas/carlsbad-ca/",
+        "/service-areas/chula-vista-ca/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/san-diego-ca/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in San Diego, CA | Flood Fixers",
+      "h1": "Water Damage Restoration in San Diego",
+      "meta_description": "24/7 water damage restoration in San Diego, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "water damage restoration san diego",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/san-diego-ca/",
+        "/service-areas/san-diego-ca/flood-damage-restoration/",
+        "/service-areas/san-diego-ca/reconstruction/",
+        "/service-areas/carlsbad-ca/water-damage-restoration/",
+        "/service-areas/chula-vista-ca/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/san-diego-ca/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in San Diego, CA | Flood Fixers",
+      "h1": "Flood Damage Restoration in San Diego",
+      "meta_description": "24/7 flood damage restoration in San Diego, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "flood damage restoration san diego",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/san-diego-ca/",
+        "/service-areas/san-diego-ca/water-damage-restoration/",
+        "/service-areas/san-diego-ca/reconstruction/",
+        "/service-areas/carlsbad-ca/flood-damage-restoration/",
+        "/service-areas/chula-vista-ca/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/san-diego-ca/burst-pipe-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst Pipe Cleanup and Repair in San Diego, CA | Flood Fixers",
+      "h1": "Burst Pipe Cleanup and Repair in San Diego",
+      "meta_description": "24/7 burst pipe cleanup and repair in San Diego, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "burst pipe cleanup and repair san diego",
+      "secondary_keywords": [
+        "burst pipe cleanup",
+        "pipe burst emergency",
+        "pipe break water damage",
+        "water line break",
+        "emergency pipe repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-pipe-repair/",
+        "/service-areas/san-diego-ca/",
+        "/service-areas/san-diego-ca/water-damage-restoration/",
+        "/service-areas/san-diego-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/burst-pipe-repair/",
+        "/service-areas/chula-vista-ca/burst-pipe-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/san-diego-ca/basement-flooding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Flooding Cleanup in San Diego, CA | Flood Fixers",
+      "h1": "Basement Flooding Cleanup in San Diego",
+      "meta_description": "24/7 basement flooding cleanup in San Diego, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "basement flooding cleanup san diego",
+      "secondary_keywords": [
+        "flooded basement cleanup",
+        "basement water removal",
+        "wet basement restoration",
+        "basement water damage",
+        "basement drying"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-flooding-cleanup/",
+        "/service-areas/san-diego-ca/",
+        "/service-areas/san-diego-ca/water-damage-restoration/",
+        "/service-areas/san-diego-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/basement-flooding-cleanup/",
+        "/service-areas/chula-vista-ca/basement-flooding-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/san-diego-ca/reconstruction/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Reconstruction Services in San Diego, CA | Flood Fixers",
+      "h1": "Reconstruction Services in San Diego",
+      "meta_description": "24/7 reconstruction services in San Diego, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "reconstruction services san diego",
+      "secondary_keywords": [
+        "post-damage reconstruction",
+        "rebuild services",
+        "structural reconstruction",
+        "post-disaster rebuilding",
+        "fire damage reconstruction"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/reconstruction/",
+        "/service-areas/san-diego-ca/",
+        "/service-areas/san-diego-ca/water-damage-restoration/",
+        "/service-areas/san-diego-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/reconstruction/",
+        "/service-areas/chula-vista-ca/reconstruction/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/san-diego-ca/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in San Diego, CA | Flood Fixers",
+      "h1": "Renovations, Remodels and General Contracting in San Diego",
+      "meta_description": "24/7 renovations, remodels and general contracting in San Diego, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "renovations, remodels and general contracting san diego",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/san-diego-ca/",
+        "/service-areas/san-diego-ca/water-damage-restoration/",
+        "/service-areas/san-diego-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/general-contracting/",
+        "/service-areas/chula-vista-ca/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/chula-vista-ca/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Chula Vista, CA | Flood Fixers",
+      "h1": "Water Damage Restoration in Chula Vista",
+      "meta_description": "24/7 water damage restoration in Chula Vista, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "water damage restoration chula vista",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/chula-vista-ca/",
+        "/service-areas/chula-vista-ca/flood-damage-restoration/",
+        "/service-areas/chula-vista-ca/reconstruction/",
+        "/service-areas/carlsbad-ca/water-damage-restoration/",
+        "/service-areas/el-cajon-ca/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/chula-vista-ca/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in Chula Vista, CA | Flood Fixers",
+      "h1": "Flood Damage Restoration in Chula Vista",
+      "meta_description": "24/7 flood damage restoration in Chula Vista, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "flood damage restoration chula vista",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/chula-vista-ca/",
+        "/service-areas/chula-vista-ca/water-damage-restoration/",
+        "/service-areas/chula-vista-ca/reconstruction/",
+        "/service-areas/carlsbad-ca/flood-damage-restoration/",
+        "/service-areas/el-cajon-ca/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/chula-vista-ca/burst-pipe-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst Pipe Cleanup and Repair in Chula Vista, CA | Flood Fixers",
+      "h1": "Burst Pipe Cleanup and Repair in Chula Vista",
+      "meta_description": "24/7 burst pipe cleanup and repair in Chula Vista, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "burst pipe cleanup and repair chula vista",
+      "secondary_keywords": [
+        "burst pipe cleanup",
+        "pipe burst emergency",
+        "pipe break water damage",
+        "water line break",
+        "emergency pipe repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-pipe-repair/",
+        "/service-areas/chula-vista-ca/",
+        "/service-areas/chula-vista-ca/water-damage-restoration/",
+        "/service-areas/chula-vista-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/burst-pipe-repair/",
+        "/service-areas/el-cajon-ca/burst-pipe-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/chula-vista-ca/basement-flooding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Flooding Cleanup in Chula Vista, CA | Flood Fixers",
+      "h1": "Basement Flooding Cleanup in Chula Vista",
+      "meta_description": "24/7 basement flooding cleanup in Chula Vista, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "basement flooding cleanup chula vista",
+      "secondary_keywords": [
+        "flooded basement cleanup",
+        "basement water removal",
+        "wet basement restoration",
+        "basement water damage",
+        "basement drying"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-flooding-cleanup/",
+        "/service-areas/chula-vista-ca/",
+        "/service-areas/chula-vista-ca/water-damage-restoration/",
+        "/service-areas/chula-vista-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/basement-flooding-cleanup/",
+        "/service-areas/el-cajon-ca/basement-flooding-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/chula-vista-ca/reconstruction/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Reconstruction Services in Chula Vista, CA | Flood Fixers",
+      "h1": "Reconstruction Services in Chula Vista",
+      "meta_description": "24/7 reconstruction services in Chula Vista, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "reconstruction services chula vista",
+      "secondary_keywords": [
+        "post-damage reconstruction",
+        "rebuild services",
+        "structural reconstruction",
+        "post-disaster rebuilding",
+        "fire damage reconstruction"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/reconstruction/",
+        "/service-areas/chula-vista-ca/",
+        "/service-areas/chula-vista-ca/water-damage-restoration/",
+        "/service-areas/chula-vista-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/reconstruction/",
+        "/service-areas/el-cajon-ca/reconstruction/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/chula-vista-ca/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Chula Vista, CA | Flood Fixers",
+      "h1": "Renovations, Remodels and General Contracting in Chula Vista",
+      "meta_description": "24/7 renovations, remodels and general contracting in Chula Vista, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "renovations, remodels and general contracting chula vista",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/chula-vista-ca/",
+        "/service-areas/chula-vista-ca/water-damage-restoration/",
+        "/service-areas/chula-vista-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/general-contracting/",
+        "/service-areas/el-cajon-ca/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oceanside-ca/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Oceanside, CA | Flood Fixers",
+      "h1": "Water Damage Restoration in Oceanside",
+      "meta_description": "24/7 water damage restoration in Oceanside, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "water damage restoration oceanside",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/oceanside-ca/",
+        "/service-areas/oceanside-ca/flood-damage-restoration/",
+        "/service-areas/oceanside-ca/reconstruction/",
+        "/service-areas/carlsbad-ca/water-damage-restoration/",
+        "/service-areas/chula-vista-ca/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oceanside-ca/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in Oceanside, CA | Flood Fixers",
+      "h1": "Flood Damage Restoration in Oceanside",
+      "meta_description": "24/7 flood damage restoration in Oceanside, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "flood damage restoration oceanside",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/oceanside-ca/",
+        "/service-areas/oceanside-ca/water-damage-restoration/",
+        "/service-areas/oceanside-ca/reconstruction/",
+        "/service-areas/carlsbad-ca/flood-damage-restoration/",
+        "/service-areas/chula-vista-ca/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oceanside-ca/burst-pipe-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst Pipe Cleanup and Repair in Oceanside, CA | Flood Fixers",
+      "h1": "Burst Pipe Cleanup and Repair in Oceanside",
+      "meta_description": "24/7 burst pipe cleanup and repair in Oceanside, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "burst pipe cleanup and repair oceanside",
+      "secondary_keywords": [
+        "burst pipe cleanup",
+        "pipe burst emergency",
+        "pipe break water damage",
+        "water line break",
+        "emergency pipe repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-pipe-repair/",
+        "/service-areas/oceanside-ca/",
+        "/service-areas/oceanside-ca/water-damage-restoration/",
+        "/service-areas/oceanside-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/burst-pipe-repair/",
+        "/service-areas/chula-vista-ca/burst-pipe-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oceanside-ca/basement-flooding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Flooding Cleanup in Oceanside, CA | Flood Fixers",
+      "h1": "Basement Flooding Cleanup in Oceanside",
+      "meta_description": "24/7 basement flooding cleanup in Oceanside, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "basement flooding cleanup oceanside",
+      "secondary_keywords": [
+        "flooded basement cleanup",
+        "basement water removal",
+        "wet basement restoration",
+        "basement water damage",
+        "basement drying"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-flooding-cleanup/",
+        "/service-areas/oceanside-ca/",
+        "/service-areas/oceanside-ca/water-damage-restoration/",
+        "/service-areas/oceanside-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/basement-flooding-cleanup/",
+        "/service-areas/chula-vista-ca/basement-flooding-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oceanside-ca/reconstruction/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Reconstruction Services in Oceanside, CA | Flood Fixers",
+      "h1": "Reconstruction Services in Oceanside",
+      "meta_description": "24/7 reconstruction services in Oceanside, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "reconstruction services oceanside",
+      "secondary_keywords": [
+        "post-damage reconstruction",
+        "rebuild services",
+        "structural reconstruction",
+        "post-disaster rebuilding",
+        "fire damage reconstruction"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/reconstruction/",
+        "/service-areas/oceanside-ca/",
+        "/service-areas/oceanside-ca/water-damage-restoration/",
+        "/service-areas/oceanside-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/reconstruction/",
+        "/service-areas/chula-vista-ca/reconstruction/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oceanside-ca/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Oceanside, CA | Flood Fixers",
+      "h1": "Renovations, Remodels and General Contracting in Oceanside",
+      "meta_description": "24/7 renovations, remodels and general contracting in Oceanside, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "renovations, remodels and general contracting oceanside",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/oceanside-ca/",
+        "/service-areas/oceanside-ca/water-damage-restoration/",
+        "/service-areas/oceanside-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/general-contracting/",
+        "/service-areas/chula-vista-ca/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/escondido-ca/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Escondido, CA | Flood Fixers",
+      "h1": "Water Damage Restoration in Escondido",
+      "meta_description": "24/7 water damage restoration in Escondido, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "water damage restoration escondido",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/escondido-ca/",
+        "/service-areas/escondido-ca/flood-damage-restoration/",
+        "/service-areas/escondido-ca/reconstruction/",
+        "/service-areas/carlsbad-ca/water-damage-restoration/",
+        "/service-areas/chula-vista-ca/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/escondido-ca/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in Escondido, CA | Flood Fixers",
+      "h1": "Flood Damage Restoration in Escondido",
+      "meta_description": "24/7 flood damage restoration in Escondido, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "flood damage restoration escondido",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/escondido-ca/",
+        "/service-areas/escondido-ca/water-damage-restoration/",
+        "/service-areas/escondido-ca/reconstruction/",
+        "/service-areas/carlsbad-ca/flood-damage-restoration/",
+        "/service-areas/chula-vista-ca/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/escondido-ca/burst-pipe-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst Pipe Cleanup and Repair in Escondido, CA | Flood Fixers",
+      "h1": "Burst Pipe Cleanup and Repair in Escondido",
+      "meta_description": "24/7 burst pipe cleanup and repair in Escondido, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "burst pipe cleanup and repair escondido",
+      "secondary_keywords": [
+        "burst pipe cleanup",
+        "pipe burst emergency",
+        "pipe break water damage",
+        "water line break",
+        "emergency pipe repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-pipe-repair/",
+        "/service-areas/escondido-ca/",
+        "/service-areas/escondido-ca/water-damage-restoration/",
+        "/service-areas/escondido-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/burst-pipe-repair/",
+        "/service-areas/chula-vista-ca/burst-pipe-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/escondido-ca/basement-flooding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Flooding Cleanup in Escondido, CA | Flood Fixers",
+      "h1": "Basement Flooding Cleanup in Escondido",
+      "meta_description": "24/7 basement flooding cleanup in Escondido, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "basement flooding cleanup escondido",
+      "secondary_keywords": [
+        "flooded basement cleanup",
+        "basement water removal",
+        "wet basement restoration",
+        "basement water damage",
+        "basement drying"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-flooding-cleanup/",
+        "/service-areas/escondido-ca/",
+        "/service-areas/escondido-ca/water-damage-restoration/",
+        "/service-areas/escondido-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/basement-flooding-cleanup/",
+        "/service-areas/chula-vista-ca/basement-flooding-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/escondido-ca/reconstruction/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Reconstruction Services in Escondido, CA | Flood Fixers",
+      "h1": "Reconstruction Services in Escondido",
+      "meta_description": "24/7 reconstruction services in Escondido, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "reconstruction services escondido",
+      "secondary_keywords": [
+        "post-damage reconstruction",
+        "rebuild services",
+        "structural reconstruction",
+        "post-disaster rebuilding",
+        "fire damage reconstruction"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/reconstruction/",
+        "/service-areas/escondido-ca/",
+        "/service-areas/escondido-ca/water-damage-restoration/",
+        "/service-areas/escondido-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/reconstruction/",
+        "/service-areas/chula-vista-ca/reconstruction/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/escondido-ca/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Escondido, CA | Flood Fixers",
+      "h1": "Renovations, Remodels and General Contracting in Escondido",
+      "meta_description": "24/7 renovations, remodels and general contracting in Escondido, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "renovations, remodels and general contracting escondido",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/escondido-ca/",
+        "/service-areas/escondido-ca/water-damage-restoration/",
+        "/service-areas/escondido-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/general-contracting/",
+        "/service-areas/chula-vista-ca/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/carlsbad-ca/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Carlsbad, CA | Flood Fixers",
+      "h1": "Water Damage Restoration in Carlsbad",
+      "meta_description": "24/7 water damage restoration in Carlsbad, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "water damage restoration carlsbad",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/carlsbad-ca/",
+        "/service-areas/carlsbad-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/reconstruction/",
+        "/service-areas/chula-vista-ca/water-damage-restoration/",
+        "/service-areas/el-cajon-ca/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/carlsbad-ca/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in Carlsbad, CA | Flood Fixers",
+      "h1": "Flood Damage Restoration in Carlsbad",
+      "meta_description": "24/7 flood damage restoration in Carlsbad, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "flood damage restoration carlsbad",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/",
+        "/service-areas/carlsbad-ca/water-damage-restoration/",
+        "/service-areas/carlsbad-ca/reconstruction/",
+        "/service-areas/chula-vista-ca/flood-damage-restoration/",
+        "/service-areas/el-cajon-ca/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/carlsbad-ca/burst-pipe-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst Pipe Cleanup and Repair in Carlsbad, CA | Flood Fixers",
+      "h1": "Burst Pipe Cleanup and Repair in Carlsbad",
+      "meta_description": "24/7 burst pipe cleanup and repair in Carlsbad, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "burst pipe cleanup and repair carlsbad",
+      "secondary_keywords": [
+        "burst pipe cleanup",
+        "pipe burst emergency",
+        "pipe break water damage",
+        "water line break",
+        "emergency pipe repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-pipe-repair/",
+        "/service-areas/carlsbad-ca/",
+        "/service-areas/carlsbad-ca/water-damage-restoration/",
+        "/service-areas/carlsbad-ca/flood-damage-restoration/",
+        "/service-areas/chula-vista-ca/burst-pipe-repair/",
+        "/service-areas/el-cajon-ca/burst-pipe-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/carlsbad-ca/basement-flooding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Flooding Cleanup in Carlsbad, CA | Flood Fixers",
+      "h1": "Basement Flooding Cleanup in Carlsbad",
+      "meta_description": "24/7 basement flooding cleanup in Carlsbad, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "basement flooding cleanup carlsbad",
+      "secondary_keywords": [
+        "flooded basement cleanup",
+        "basement water removal",
+        "wet basement restoration",
+        "basement water damage",
+        "basement drying"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-flooding-cleanup/",
+        "/service-areas/carlsbad-ca/",
+        "/service-areas/carlsbad-ca/water-damage-restoration/",
+        "/service-areas/carlsbad-ca/flood-damage-restoration/",
+        "/service-areas/chula-vista-ca/basement-flooding-cleanup/",
+        "/service-areas/el-cajon-ca/basement-flooding-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/carlsbad-ca/reconstruction/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Reconstruction Services in Carlsbad, CA | Flood Fixers",
+      "h1": "Reconstruction Services in Carlsbad",
+      "meta_description": "24/7 reconstruction services in Carlsbad, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "reconstruction services carlsbad",
+      "secondary_keywords": [
+        "post-damage reconstruction",
+        "rebuild services",
+        "structural reconstruction",
+        "post-disaster rebuilding",
+        "fire damage reconstruction"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/reconstruction/",
+        "/service-areas/carlsbad-ca/",
+        "/service-areas/carlsbad-ca/water-damage-restoration/",
+        "/service-areas/carlsbad-ca/flood-damage-restoration/",
+        "/service-areas/chula-vista-ca/reconstruction/",
+        "/service-areas/el-cajon-ca/reconstruction/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/carlsbad-ca/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Carlsbad, CA | Flood Fixers",
+      "h1": "Renovations, Remodels and General Contracting in Carlsbad",
+      "meta_description": "24/7 renovations, remodels and general contracting in Carlsbad, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "renovations, remodels and general contracting carlsbad",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/carlsbad-ca/",
+        "/service-areas/carlsbad-ca/water-damage-restoration/",
+        "/service-areas/carlsbad-ca/flood-damage-restoration/",
+        "/service-areas/chula-vista-ca/general-contracting/",
+        "/service-areas/el-cajon-ca/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/el-cajon-ca/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in El Cajon, CA | Flood Fixers",
+      "h1": "Water Damage Restoration in El Cajon",
+      "meta_description": "24/7 water damage restoration in El Cajon, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "water damage restoration el cajon",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/el-cajon-ca/",
+        "/service-areas/el-cajon-ca/flood-damage-restoration/",
+        "/service-areas/el-cajon-ca/reconstruction/",
+        "/service-areas/carlsbad-ca/water-damage-restoration/",
+        "/service-areas/chula-vista-ca/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/el-cajon-ca/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in El Cajon, CA | Flood Fixers",
+      "h1": "Flood Damage Restoration in El Cajon",
+      "meta_description": "24/7 flood damage restoration in El Cajon, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "flood damage restoration el cajon",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/el-cajon-ca/",
+        "/service-areas/el-cajon-ca/water-damage-restoration/",
+        "/service-areas/el-cajon-ca/reconstruction/",
+        "/service-areas/carlsbad-ca/flood-damage-restoration/",
+        "/service-areas/chula-vista-ca/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/el-cajon-ca/burst-pipe-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst Pipe Cleanup and Repair in El Cajon, CA | Flood Fixers",
+      "h1": "Burst Pipe Cleanup and Repair in El Cajon",
+      "meta_description": "24/7 burst pipe cleanup and repair in El Cajon, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "burst pipe cleanup and repair el cajon",
+      "secondary_keywords": [
+        "burst pipe cleanup",
+        "pipe burst emergency",
+        "pipe break water damage",
+        "water line break",
+        "emergency pipe repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-pipe-repair/",
+        "/service-areas/el-cajon-ca/",
+        "/service-areas/el-cajon-ca/water-damage-restoration/",
+        "/service-areas/el-cajon-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/burst-pipe-repair/",
+        "/service-areas/chula-vista-ca/burst-pipe-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/el-cajon-ca/basement-flooding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Flooding Cleanup in El Cajon, CA | Flood Fixers",
+      "h1": "Basement Flooding Cleanup in El Cajon",
+      "meta_description": "24/7 basement flooding cleanup in El Cajon, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "basement flooding cleanup el cajon",
+      "secondary_keywords": [
+        "flooded basement cleanup",
+        "basement water removal",
+        "wet basement restoration",
+        "basement water damage",
+        "basement drying"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-flooding-cleanup/",
+        "/service-areas/el-cajon-ca/",
+        "/service-areas/el-cajon-ca/water-damage-restoration/",
+        "/service-areas/el-cajon-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/basement-flooding-cleanup/",
+        "/service-areas/chula-vista-ca/basement-flooding-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/el-cajon-ca/reconstruction/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Reconstruction Services in El Cajon, CA | Flood Fixers",
+      "h1": "Reconstruction Services in El Cajon",
+      "meta_description": "24/7 reconstruction services in El Cajon, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "reconstruction services el cajon",
+      "secondary_keywords": [
+        "post-damage reconstruction",
+        "rebuild services",
+        "structural reconstruction",
+        "post-disaster rebuilding",
+        "fire damage reconstruction"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/reconstruction/",
+        "/service-areas/el-cajon-ca/",
+        "/service-areas/el-cajon-ca/water-damage-restoration/",
+        "/service-areas/el-cajon-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/reconstruction/",
+        "/service-areas/chula-vista-ca/reconstruction/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/el-cajon-ca/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in El Cajon, CA | Flood Fixers",
+      "h1": "Renovations, Remodels and General Contracting in El Cajon",
+      "meta_description": "24/7 renovations, remodels and general contracting in El Cajon, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "renovations, remodels and general contracting el cajon",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/el-cajon-ca/",
+        "/service-areas/el-cajon-ca/water-damage-restoration/",
+        "/service-areas/el-cajon-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/general-contracting/",
+        "/service-areas/chula-vista-ca/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/vista-ca/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Vista, CA | Flood Fixers",
+      "h1": "Water Damage Restoration in Vista",
+      "meta_description": "24/7 water damage restoration in Vista, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "water damage restoration vista",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/vista-ca/",
+        "/service-areas/vista-ca/flood-damage-restoration/",
+        "/service-areas/vista-ca/reconstruction/",
+        "/service-areas/carlsbad-ca/water-damage-restoration/",
+        "/service-areas/chula-vista-ca/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/vista-ca/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in Vista, CA | Flood Fixers",
+      "h1": "Flood Damage Restoration in Vista",
+      "meta_description": "24/7 flood damage restoration in Vista, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "flood damage restoration vista",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/vista-ca/",
+        "/service-areas/vista-ca/water-damage-restoration/",
+        "/service-areas/vista-ca/reconstruction/",
+        "/service-areas/carlsbad-ca/flood-damage-restoration/",
+        "/service-areas/chula-vista-ca/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/vista-ca/burst-pipe-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst Pipe Cleanup and Repair in Vista, CA | Flood Fixers",
+      "h1": "Burst Pipe Cleanup and Repair in Vista",
+      "meta_description": "24/7 burst pipe cleanup and repair in Vista, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "burst pipe cleanup and repair vista",
+      "secondary_keywords": [
+        "burst pipe cleanup",
+        "pipe burst emergency",
+        "pipe break water damage",
+        "water line break",
+        "emergency pipe repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-pipe-repair/",
+        "/service-areas/vista-ca/",
+        "/service-areas/vista-ca/water-damage-restoration/",
+        "/service-areas/vista-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/burst-pipe-repair/",
+        "/service-areas/chula-vista-ca/burst-pipe-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/vista-ca/basement-flooding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Flooding Cleanup in Vista, CA | Flood Fixers",
+      "h1": "Basement Flooding Cleanup in Vista",
+      "meta_description": "24/7 basement flooding cleanup in Vista, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "basement flooding cleanup vista",
+      "secondary_keywords": [
+        "flooded basement cleanup",
+        "basement water removal",
+        "wet basement restoration",
+        "basement water damage",
+        "basement drying"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-flooding-cleanup/",
+        "/service-areas/vista-ca/",
+        "/service-areas/vista-ca/water-damage-restoration/",
+        "/service-areas/vista-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/basement-flooding-cleanup/",
+        "/service-areas/chula-vista-ca/basement-flooding-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/vista-ca/reconstruction/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Reconstruction Services in Vista, CA | Flood Fixers",
+      "h1": "Reconstruction Services in Vista",
+      "meta_description": "24/7 reconstruction services in Vista, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "reconstruction services vista",
+      "secondary_keywords": [
+        "post-damage reconstruction",
+        "rebuild services",
+        "structural reconstruction",
+        "post-disaster rebuilding",
+        "fire damage reconstruction"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/reconstruction/",
+        "/service-areas/vista-ca/",
+        "/service-areas/vista-ca/water-damage-restoration/",
+        "/service-areas/vista-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/reconstruction/",
+        "/service-areas/chula-vista-ca/reconstruction/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/vista-ca/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Vista, CA | Flood Fixers",
+      "h1": "Renovations, Remodels and General Contracting in Vista",
+      "meta_description": "24/7 renovations, remodels and general contracting in Vista, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "renovations, remodels and general contracting vista",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/vista-ca/",
+        "/service-areas/vista-ca/water-damage-restoration/",
+        "/service-areas/vista-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/general-contracting/",
+        "/service-areas/chula-vista-ca/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/san-marcos-ca/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in San Marcos, CA | Flood Fixers",
+      "h1": "Water Damage Restoration in San Marcos",
+      "meta_description": "24/7 water damage restoration in San Marcos, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "water damage restoration san marcos",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/san-marcos-ca/",
+        "/service-areas/san-marcos-ca/flood-damage-restoration/",
+        "/service-areas/san-marcos-ca/reconstruction/",
+        "/service-areas/carlsbad-ca/water-damage-restoration/",
+        "/service-areas/chula-vista-ca/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/san-marcos-ca/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in San Marcos, CA | Flood Fixers",
+      "h1": "Flood Damage Restoration in San Marcos",
+      "meta_description": "24/7 flood damage restoration in San Marcos, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "flood damage restoration san marcos",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/san-marcos-ca/",
+        "/service-areas/san-marcos-ca/water-damage-restoration/",
+        "/service-areas/san-marcos-ca/reconstruction/",
+        "/service-areas/carlsbad-ca/flood-damage-restoration/",
+        "/service-areas/chula-vista-ca/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/san-marcos-ca/burst-pipe-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst Pipe Cleanup and Repair in San Marcos, CA | Flood Fixers",
+      "h1": "Burst Pipe Cleanup and Repair in San Marcos",
+      "meta_description": "24/7 burst pipe cleanup and repair in San Marcos, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "burst pipe cleanup and repair san marcos",
+      "secondary_keywords": [
+        "burst pipe cleanup",
+        "pipe burst emergency",
+        "pipe break water damage",
+        "water line break",
+        "emergency pipe repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-pipe-repair/",
+        "/service-areas/san-marcos-ca/",
+        "/service-areas/san-marcos-ca/water-damage-restoration/",
+        "/service-areas/san-marcos-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/burst-pipe-repair/",
+        "/service-areas/chula-vista-ca/burst-pipe-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/san-marcos-ca/basement-flooding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Flooding Cleanup in San Marcos, CA | Flood Fixers",
+      "h1": "Basement Flooding Cleanup in San Marcos",
+      "meta_description": "24/7 basement flooding cleanup in San Marcos, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "basement flooding cleanup san marcos",
+      "secondary_keywords": [
+        "flooded basement cleanup",
+        "basement water removal",
+        "wet basement restoration",
+        "basement water damage",
+        "basement drying"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-flooding-cleanup/",
+        "/service-areas/san-marcos-ca/",
+        "/service-areas/san-marcos-ca/water-damage-restoration/",
+        "/service-areas/san-marcos-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/basement-flooding-cleanup/",
+        "/service-areas/chula-vista-ca/basement-flooding-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/san-marcos-ca/reconstruction/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Reconstruction Services in San Marcos, CA | Flood Fixers",
+      "h1": "Reconstruction Services in San Marcos",
+      "meta_description": "24/7 reconstruction services in San Marcos, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "reconstruction services san marcos",
+      "secondary_keywords": [
+        "post-damage reconstruction",
+        "rebuild services",
+        "structural reconstruction",
+        "post-disaster rebuilding",
+        "fire damage reconstruction"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/reconstruction/",
+        "/service-areas/san-marcos-ca/",
+        "/service-areas/san-marcos-ca/water-damage-restoration/",
+        "/service-areas/san-marcos-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/reconstruction/",
+        "/service-areas/chula-vista-ca/reconstruction/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/san-marcos-ca/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in San Marcos, CA | Flood Fixers",
+      "h1": "Renovations, Remodels and General Contracting in San Marcos",
+      "meta_description": "24/7 renovations, remodels and general contracting in San Marcos, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "renovations, remodels and general contracting san marcos",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/san-marcos-ca/",
+        "/service-areas/san-marcos-ca/water-damage-restoration/",
+        "/service-areas/san-marcos-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/general-contracting/",
+        "/service-areas/chula-vista-ca/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/encinitas-ca/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Encinitas, CA | Flood Fixers",
+      "h1": "Water Damage Restoration in Encinitas",
+      "meta_description": "24/7 water damage restoration in Encinitas, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "water damage restoration encinitas",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/encinitas-ca/",
+        "/service-areas/encinitas-ca/flood-damage-restoration/",
+        "/service-areas/encinitas-ca/reconstruction/",
+        "/service-areas/carlsbad-ca/water-damage-restoration/",
+        "/service-areas/chula-vista-ca/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/encinitas-ca/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in Encinitas, CA | Flood Fixers",
+      "h1": "Flood Damage Restoration in Encinitas",
+      "meta_description": "24/7 flood damage restoration in Encinitas, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "flood damage restoration encinitas",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/encinitas-ca/",
+        "/service-areas/encinitas-ca/water-damage-restoration/",
+        "/service-areas/encinitas-ca/reconstruction/",
+        "/service-areas/carlsbad-ca/flood-damage-restoration/",
+        "/service-areas/chula-vista-ca/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/encinitas-ca/burst-pipe-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst Pipe Cleanup and Repair in Encinitas, CA | Flood Fixers",
+      "h1": "Burst Pipe Cleanup and Repair in Encinitas",
+      "meta_description": "24/7 burst pipe cleanup and repair in Encinitas, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "burst pipe cleanup and repair encinitas",
+      "secondary_keywords": [
+        "burst pipe cleanup",
+        "pipe burst emergency",
+        "pipe break water damage",
+        "water line break",
+        "emergency pipe repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-pipe-repair/",
+        "/service-areas/encinitas-ca/",
+        "/service-areas/encinitas-ca/water-damage-restoration/",
+        "/service-areas/encinitas-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/burst-pipe-repair/",
+        "/service-areas/chula-vista-ca/burst-pipe-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/encinitas-ca/basement-flooding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Flooding Cleanup in Encinitas, CA | Flood Fixers",
+      "h1": "Basement Flooding Cleanup in Encinitas",
+      "meta_description": "24/7 basement flooding cleanup in Encinitas, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "basement flooding cleanup encinitas",
+      "secondary_keywords": [
+        "flooded basement cleanup",
+        "basement water removal",
+        "wet basement restoration",
+        "basement water damage",
+        "basement drying"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-flooding-cleanup/",
+        "/service-areas/encinitas-ca/",
+        "/service-areas/encinitas-ca/water-damage-restoration/",
+        "/service-areas/encinitas-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/basement-flooding-cleanup/",
+        "/service-areas/chula-vista-ca/basement-flooding-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/encinitas-ca/reconstruction/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Reconstruction Services in Encinitas, CA | Flood Fixers",
+      "h1": "Reconstruction Services in Encinitas",
+      "meta_description": "24/7 reconstruction services in Encinitas, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "reconstruction services encinitas",
+      "secondary_keywords": [
+        "post-damage reconstruction",
+        "rebuild services",
+        "structural reconstruction",
+        "post-disaster rebuilding",
+        "fire damage reconstruction"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/reconstruction/",
+        "/service-areas/encinitas-ca/",
+        "/service-areas/encinitas-ca/water-damage-restoration/",
+        "/service-areas/encinitas-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/reconstruction/",
+        "/service-areas/chula-vista-ca/reconstruction/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/encinitas-ca/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Encinitas, CA | Flood Fixers",
+      "h1": "Renovations, Remodels and General Contracting in Encinitas",
+      "meta_description": "24/7 renovations, remodels and general contracting in Encinitas, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "renovations, remodels and general contracting encinitas",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/encinitas-ca/",
+        "/service-areas/encinitas-ca/water-damage-restoration/",
+        "/service-areas/encinitas-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/general-contracting/",
+        "/service-areas/chula-vista-ca/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/la-mesa-ca/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in La Mesa, CA | Flood Fixers",
+      "h1": "Water Damage Restoration in La Mesa",
+      "meta_description": "24/7 water damage restoration in La Mesa, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "water damage restoration la mesa",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/la-mesa-ca/",
+        "/service-areas/la-mesa-ca/flood-damage-restoration/",
+        "/service-areas/la-mesa-ca/reconstruction/",
+        "/service-areas/carlsbad-ca/water-damage-restoration/",
+        "/service-areas/chula-vista-ca/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/la-mesa-ca/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in La Mesa, CA | Flood Fixers",
+      "h1": "Flood Damage Restoration in La Mesa",
+      "meta_description": "24/7 flood damage restoration in La Mesa, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "flood damage restoration la mesa",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/la-mesa-ca/",
+        "/service-areas/la-mesa-ca/water-damage-restoration/",
+        "/service-areas/la-mesa-ca/reconstruction/",
+        "/service-areas/carlsbad-ca/flood-damage-restoration/",
+        "/service-areas/chula-vista-ca/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/la-mesa-ca/burst-pipe-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst Pipe Cleanup and Repair in La Mesa, CA | Flood Fixers",
+      "h1": "Burst Pipe Cleanup and Repair in La Mesa",
+      "meta_description": "24/7 burst pipe cleanup and repair in La Mesa, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "burst pipe cleanup and repair la mesa",
+      "secondary_keywords": [
+        "burst pipe cleanup",
+        "pipe burst emergency",
+        "pipe break water damage",
+        "water line break",
+        "emergency pipe repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-pipe-repair/",
+        "/service-areas/la-mesa-ca/",
+        "/service-areas/la-mesa-ca/water-damage-restoration/",
+        "/service-areas/la-mesa-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/burst-pipe-repair/",
+        "/service-areas/chula-vista-ca/burst-pipe-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/la-mesa-ca/basement-flooding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Flooding Cleanup in La Mesa, CA | Flood Fixers",
+      "h1": "Basement Flooding Cleanup in La Mesa",
+      "meta_description": "24/7 basement flooding cleanup in La Mesa, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "basement flooding cleanup la mesa",
+      "secondary_keywords": [
+        "flooded basement cleanup",
+        "basement water removal",
+        "wet basement restoration",
+        "basement water damage",
+        "basement drying"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-flooding-cleanup/",
+        "/service-areas/la-mesa-ca/",
+        "/service-areas/la-mesa-ca/water-damage-restoration/",
+        "/service-areas/la-mesa-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/basement-flooding-cleanup/",
+        "/service-areas/chula-vista-ca/basement-flooding-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/la-mesa-ca/reconstruction/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Reconstruction Services in La Mesa, CA | Flood Fixers",
+      "h1": "Reconstruction Services in La Mesa",
+      "meta_description": "24/7 reconstruction services in La Mesa, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "reconstruction services la mesa",
+      "secondary_keywords": [
+        "post-damage reconstruction",
+        "rebuild services",
+        "structural reconstruction",
+        "post-disaster rebuilding",
+        "fire damage reconstruction"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/reconstruction/",
+        "/service-areas/la-mesa-ca/",
+        "/service-areas/la-mesa-ca/water-damage-restoration/",
+        "/service-areas/la-mesa-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/reconstruction/",
+        "/service-areas/chula-vista-ca/reconstruction/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/la-mesa-ca/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in La Mesa, CA | Flood Fixers",
+      "h1": "Renovations, Remodels and General Contracting in La Mesa",
+      "meta_description": "24/7 renovations, remodels and general contracting in La Mesa, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "renovations, remodels and general contracting la mesa",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/la-mesa-ca/",
+        "/service-areas/la-mesa-ca/water-damage-restoration/",
+        "/service-areas/la-mesa-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/general-contracting/",
+        "/service-areas/chula-vista-ca/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/santee-ca/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Santee, CA | Flood Fixers",
+      "h1": "Water Damage Restoration in Santee",
+      "meta_description": "24/7 water damage restoration in Santee, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "water damage restoration santee",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/santee-ca/",
+        "/service-areas/santee-ca/flood-damage-restoration/",
+        "/service-areas/santee-ca/reconstruction/",
+        "/service-areas/carlsbad-ca/water-damage-restoration/",
+        "/service-areas/chula-vista-ca/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/santee-ca/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in Santee, CA | Flood Fixers",
+      "h1": "Flood Damage Restoration in Santee",
+      "meta_description": "24/7 flood damage restoration in Santee, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "flood damage restoration santee",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/santee-ca/",
+        "/service-areas/santee-ca/water-damage-restoration/",
+        "/service-areas/santee-ca/reconstruction/",
+        "/service-areas/carlsbad-ca/flood-damage-restoration/",
+        "/service-areas/chula-vista-ca/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/santee-ca/burst-pipe-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst Pipe Cleanup and Repair in Santee, CA | Flood Fixers",
+      "h1": "Burst Pipe Cleanup and Repair in Santee",
+      "meta_description": "24/7 burst pipe cleanup and repair in Santee, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "burst pipe cleanup and repair santee",
+      "secondary_keywords": [
+        "burst pipe cleanup",
+        "pipe burst emergency",
+        "pipe break water damage",
+        "water line break",
+        "emergency pipe repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-pipe-repair/",
+        "/service-areas/santee-ca/",
+        "/service-areas/santee-ca/water-damage-restoration/",
+        "/service-areas/santee-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/burst-pipe-repair/",
+        "/service-areas/chula-vista-ca/burst-pipe-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/santee-ca/basement-flooding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Flooding Cleanup in Santee, CA | Flood Fixers",
+      "h1": "Basement Flooding Cleanup in Santee",
+      "meta_description": "24/7 basement flooding cleanup in Santee, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "basement flooding cleanup santee",
+      "secondary_keywords": [
+        "flooded basement cleanup",
+        "basement water removal",
+        "wet basement restoration",
+        "basement water damage",
+        "basement drying"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-flooding-cleanup/",
+        "/service-areas/santee-ca/",
+        "/service-areas/santee-ca/water-damage-restoration/",
+        "/service-areas/santee-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/basement-flooding-cleanup/",
+        "/service-areas/chula-vista-ca/basement-flooding-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/santee-ca/reconstruction/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Reconstruction Services in Santee, CA | Flood Fixers",
+      "h1": "Reconstruction Services in Santee",
+      "meta_description": "24/7 reconstruction services in Santee, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "reconstruction services santee",
+      "secondary_keywords": [
+        "post-damage reconstruction",
+        "rebuild services",
+        "structural reconstruction",
+        "post-disaster rebuilding",
+        "fire damage reconstruction"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/reconstruction/",
+        "/service-areas/santee-ca/",
+        "/service-areas/santee-ca/water-damage-restoration/",
+        "/service-areas/santee-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/reconstruction/",
+        "/service-areas/chula-vista-ca/reconstruction/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/santee-ca/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Santee, CA | Flood Fixers",
+      "h1": "Renovations, Remodels and General Contracting in Santee",
+      "meta_description": "24/7 renovations, remodels and general contracting in Santee, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "renovations, remodels and general contracting santee",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/santee-ca/",
+        "/service-areas/santee-ca/water-damage-restoration/",
+        "/service-areas/santee-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/general-contracting/",
+        "/service-areas/chula-vista-ca/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/poway-ca/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Poway, CA | Flood Fixers",
+      "h1": "Water Damage Restoration in Poway",
+      "meta_description": "24/7 water damage restoration in Poway, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "water damage restoration poway",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/poway-ca/",
+        "/service-areas/poway-ca/flood-damage-restoration/",
+        "/service-areas/poway-ca/reconstruction/",
+        "/service-areas/carlsbad-ca/water-damage-restoration/",
+        "/service-areas/chula-vista-ca/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/poway-ca/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in Poway, CA | Flood Fixers",
+      "h1": "Flood Damage Restoration in Poway",
+      "meta_description": "24/7 flood damage restoration in Poway, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "flood damage restoration poway",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/poway-ca/",
+        "/service-areas/poway-ca/water-damage-restoration/",
+        "/service-areas/poway-ca/reconstruction/",
+        "/service-areas/carlsbad-ca/flood-damage-restoration/",
+        "/service-areas/chula-vista-ca/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/poway-ca/burst-pipe-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst Pipe Cleanup and Repair in Poway, CA | Flood Fixers",
+      "h1": "Burst Pipe Cleanup and Repair in Poway",
+      "meta_description": "24/7 burst pipe cleanup and repair in Poway, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "burst pipe cleanup and repair poway",
+      "secondary_keywords": [
+        "burst pipe cleanup",
+        "pipe burst emergency",
+        "pipe break water damage",
+        "water line break",
+        "emergency pipe repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-pipe-repair/",
+        "/service-areas/poway-ca/",
+        "/service-areas/poway-ca/water-damage-restoration/",
+        "/service-areas/poway-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/burst-pipe-repair/",
+        "/service-areas/chula-vista-ca/burst-pipe-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/poway-ca/basement-flooding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Flooding Cleanup in Poway, CA | Flood Fixers",
+      "h1": "Basement Flooding Cleanup in Poway",
+      "meta_description": "24/7 basement flooding cleanup in Poway, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "basement flooding cleanup poway",
+      "secondary_keywords": [
+        "flooded basement cleanup",
+        "basement water removal",
+        "wet basement restoration",
+        "basement water damage",
+        "basement drying"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-flooding-cleanup/",
+        "/service-areas/poway-ca/",
+        "/service-areas/poway-ca/water-damage-restoration/",
+        "/service-areas/poway-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/basement-flooding-cleanup/",
+        "/service-areas/chula-vista-ca/basement-flooding-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/poway-ca/reconstruction/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Reconstruction Services in Poway, CA | Flood Fixers",
+      "h1": "Reconstruction Services in Poway",
+      "meta_description": "24/7 reconstruction services in Poway, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "reconstruction services poway",
+      "secondary_keywords": [
+        "post-damage reconstruction",
+        "rebuild services",
+        "structural reconstruction",
+        "post-disaster rebuilding",
+        "fire damage reconstruction"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/reconstruction/",
+        "/service-areas/poway-ca/",
+        "/service-areas/poway-ca/water-damage-restoration/",
+        "/service-areas/poway-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/reconstruction/",
+        "/service-areas/chula-vista-ca/reconstruction/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/poway-ca/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Poway, CA | Flood Fixers",
+      "h1": "Renovations, Remodels and General Contracting in Poway",
+      "meta_description": "24/7 renovations, remodels and general contracting in Poway, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "renovations, remodels and general contracting poway",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/poway-ca/",
+        "/service-areas/poway-ca/water-damage-restoration/",
+        "/service-areas/poway-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/general-contracting/",
+        "/service-areas/chula-vista-ca/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/national-city-ca/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in National City, CA | Flood Fixers",
+      "h1": "Water Damage Restoration in National City",
+      "meta_description": "24/7 water damage restoration in National City, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "water damage restoration national city",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/national-city-ca/",
+        "/service-areas/national-city-ca/flood-damage-restoration/",
+        "/service-areas/national-city-ca/reconstruction/",
+        "/service-areas/carlsbad-ca/water-damage-restoration/",
+        "/service-areas/chula-vista-ca/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/national-city-ca/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in National City, CA | Flood Fixers",
+      "h1": "Flood Damage Restoration in National City",
+      "meta_description": "24/7 flood damage restoration in National City, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "flood damage restoration national city",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/national-city-ca/",
+        "/service-areas/national-city-ca/water-damage-restoration/",
+        "/service-areas/national-city-ca/reconstruction/",
+        "/service-areas/carlsbad-ca/flood-damage-restoration/",
+        "/service-areas/chula-vista-ca/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/national-city-ca/burst-pipe-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst Pipe Cleanup and Repair in National City, CA | Flood Fixers",
+      "h1": "Burst Pipe Cleanup and Repair in National City",
+      "meta_description": "24/7 burst pipe cleanup and repair in National City, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "burst pipe cleanup and repair national city",
+      "secondary_keywords": [
+        "burst pipe cleanup",
+        "pipe burst emergency",
+        "pipe break water damage",
+        "water line break",
+        "emergency pipe repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-pipe-repair/",
+        "/service-areas/national-city-ca/",
+        "/service-areas/national-city-ca/water-damage-restoration/",
+        "/service-areas/national-city-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/burst-pipe-repair/",
+        "/service-areas/chula-vista-ca/burst-pipe-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/national-city-ca/basement-flooding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Flooding Cleanup in National City, CA | Flood Fixers",
+      "h1": "Basement Flooding Cleanup in National City",
+      "meta_description": "24/7 basement flooding cleanup in National City, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "basement flooding cleanup national city",
+      "secondary_keywords": [
+        "flooded basement cleanup",
+        "basement water removal",
+        "wet basement restoration",
+        "basement water damage",
+        "basement drying"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-flooding-cleanup/",
+        "/service-areas/national-city-ca/",
+        "/service-areas/national-city-ca/water-damage-restoration/",
+        "/service-areas/national-city-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/basement-flooding-cleanup/",
+        "/service-areas/chula-vista-ca/basement-flooding-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/national-city-ca/reconstruction/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Reconstruction Services in National City, CA | Flood Fixers",
+      "h1": "Reconstruction Services in National City",
+      "meta_description": "24/7 reconstruction services in National City, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "reconstruction services national city",
+      "secondary_keywords": [
+        "post-damage reconstruction",
+        "rebuild services",
+        "structural reconstruction",
+        "post-disaster rebuilding",
+        "fire damage reconstruction"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/reconstruction/",
+        "/service-areas/national-city-ca/",
+        "/service-areas/national-city-ca/water-damage-restoration/",
+        "/service-areas/national-city-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/reconstruction/",
+        "/service-areas/chula-vista-ca/reconstruction/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/national-city-ca/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in National City, CA | Flood Fixers",
+      "h1": "Renovations, Remodels and General Contracting in National City",
+      "meta_description": "24/7 renovations, remodels and general contracting in National City, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "renovations, remodels and general contracting national city",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/national-city-ca/",
+        "/service-areas/national-city-ca/water-damage-restoration/",
+        "/service-areas/national-city-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/general-contracting/",
+        "/service-areas/chula-vista-ca/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/spring-valley-ca/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Spring Valley, CA | Flood Fixers",
+      "h1": "Water Damage Restoration in Spring Valley",
+      "meta_description": "24/7 water damage restoration in Spring Valley, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "water damage restoration spring valley",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/spring-valley-ca/",
+        "/service-areas/spring-valley-ca/flood-damage-restoration/",
+        "/service-areas/spring-valley-ca/reconstruction/",
+        "/service-areas/carlsbad-ca/water-damage-restoration/",
+        "/service-areas/chula-vista-ca/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/spring-valley-ca/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in Spring Valley, CA | Flood Fixers",
+      "h1": "Flood Damage Restoration in Spring Valley",
+      "meta_description": "24/7 flood damage restoration in Spring Valley, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "flood damage restoration spring valley",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/spring-valley-ca/",
+        "/service-areas/spring-valley-ca/water-damage-restoration/",
+        "/service-areas/spring-valley-ca/reconstruction/",
+        "/service-areas/carlsbad-ca/flood-damage-restoration/",
+        "/service-areas/chula-vista-ca/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/spring-valley-ca/burst-pipe-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst Pipe Cleanup and Repair in Spring Valley, CA | Flood Fixers",
+      "h1": "Burst Pipe Cleanup and Repair in Spring Valley",
+      "meta_description": "24/7 burst pipe cleanup and repair in Spring Valley, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "burst pipe cleanup and repair spring valley",
+      "secondary_keywords": [
+        "burst pipe cleanup",
+        "pipe burst emergency",
+        "pipe break water damage",
+        "water line break",
+        "emergency pipe repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-pipe-repair/",
+        "/service-areas/spring-valley-ca/",
+        "/service-areas/spring-valley-ca/water-damage-restoration/",
+        "/service-areas/spring-valley-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/burst-pipe-repair/",
+        "/service-areas/chula-vista-ca/burst-pipe-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/spring-valley-ca/basement-flooding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Flooding Cleanup in Spring Valley, CA | Flood Fixers",
+      "h1": "Basement Flooding Cleanup in Spring Valley",
+      "meta_description": "24/7 basement flooding cleanup in Spring Valley, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "basement flooding cleanup spring valley",
+      "secondary_keywords": [
+        "flooded basement cleanup",
+        "basement water removal",
+        "wet basement restoration",
+        "basement water damage",
+        "basement drying"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-flooding-cleanup/",
+        "/service-areas/spring-valley-ca/",
+        "/service-areas/spring-valley-ca/water-damage-restoration/",
+        "/service-areas/spring-valley-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/basement-flooding-cleanup/",
+        "/service-areas/chula-vista-ca/basement-flooding-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/spring-valley-ca/reconstruction/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Reconstruction Services in Spring Valley, CA | Flood Fixers",
+      "h1": "Reconstruction Services in Spring Valley",
+      "meta_description": "24/7 reconstruction services in Spring Valley, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "reconstruction services spring valley",
+      "secondary_keywords": [
+        "post-damage reconstruction",
+        "rebuild services",
+        "structural reconstruction",
+        "post-disaster rebuilding",
+        "fire damage reconstruction"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/reconstruction/",
+        "/service-areas/spring-valley-ca/",
+        "/service-areas/spring-valley-ca/water-damage-restoration/",
+        "/service-areas/spring-valley-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/reconstruction/",
+        "/service-areas/chula-vista-ca/reconstruction/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/spring-valley-ca/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Spring Valley, CA | Flood Fixers",
+      "h1": "Renovations, Remodels and General Contracting in Spring Valley",
+      "meta_description": "24/7 renovations, remodels and general contracting in Spring Valley, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "renovations, remodels and general contracting spring valley",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/spring-valley-ca/",
+        "/service-areas/spring-valley-ca/water-damage-restoration/",
+        "/service-areas/spring-valley-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/general-contracting/",
+        "/service-areas/chula-vista-ca/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/temecula-ca/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Temecula, CA | Flood Fixers",
+      "h1": "Water Damage Restoration in Temecula",
+      "meta_description": "24/7 water damage restoration in Temecula, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "water damage restoration temecula",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/temecula-ca/",
+        "/service-areas/temecula-ca/flood-damage-restoration/",
+        "/service-areas/temecula-ca/reconstruction/",
+        "/service-areas/carlsbad-ca/water-damage-restoration/",
+        "/service-areas/chula-vista-ca/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/temecula-ca/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in Temecula, CA | Flood Fixers",
+      "h1": "Flood Damage Restoration in Temecula",
+      "meta_description": "24/7 flood damage restoration in Temecula, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "flood damage restoration temecula",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/temecula-ca/",
+        "/service-areas/temecula-ca/water-damage-restoration/",
+        "/service-areas/temecula-ca/reconstruction/",
+        "/service-areas/carlsbad-ca/flood-damage-restoration/",
+        "/service-areas/chula-vista-ca/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/temecula-ca/burst-pipe-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst Pipe Cleanup and Repair in Temecula, CA | Flood Fixers",
+      "h1": "Burst Pipe Cleanup and Repair in Temecula",
+      "meta_description": "24/7 burst pipe cleanup and repair in Temecula, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "burst pipe cleanup and repair temecula",
+      "secondary_keywords": [
+        "burst pipe cleanup",
+        "pipe burst emergency",
+        "pipe break water damage",
+        "water line break",
+        "emergency pipe repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-pipe-repair/",
+        "/service-areas/temecula-ca/",
+        "/service-areas/temecula-ca/water-damage-restoration/",
+        "/service-areas/temecula-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/burst-pipe-repair/",
+        "/service-areas/chula-vista-ca/burst-pipe-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/temecula-ca/basement-flooding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Flooding Cleanup in Temecula, CA | Flood Fixers",
+      "h1": "Basement Flooding Cleanup in Temecula",
+      "meta_description": "24/7 basement flooding cleanup in Temecula, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "basement flooding cleanup temecula",
+      "secondary_keywords": [
+        "flooded basement cleanup",
+        "basement water removal",
+        "wet basement restoration",
+        "basement water damage",
+        "basement drying"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-flooding-cleanup/",
+        "/service-areas/temecula-ca/",
+        "/service-areas/temecula-ca/water-damage-restoration/",
+        "/service-areas/temecula-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/basement-flooding-cleanup/",
+        "/service-areas/chula-vista-ca/basement-flooding-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/temecula-ca/reconstruction/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Reconstruction Services in Temecula, CA | Flood Fixers",
+      "h1": "Reconstruction Services in Temecula",
+      "meta_description": "24/7 reconstruction services in Temecula, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "reconstruction services temecula",
+      "secondary_keywords": [
+        "post-damage reconstruction",
+        "rebuild services",
+        "structural reconstruction",
+        "post-disaster rebuilding",
+        "fire damage reconstruction"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/reconstruction/",
+        "/service-areas/temecula-ca/",
+        "/service-areas/temecula-ca/water-damage-restoration/",
+        "/service-areas/temecula-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/reconstruction/",
+        "/service-areas/chula-vista-ca/reconstruction/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/temecula-ca/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Temecula, CA | Flood Fixers",
+      "h1": "Renovations, Remodels and General Contracting in Temecula",
+      "meta_description": "24/7 renovations, remodels and general contracting in Temecula, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
+      "primary_keyword": "renovations, remodels and general contracting temecula",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/temecula-ca/",
+        "/service-areas/temecula-ca/water-damage-restoration/",
+        "/service-areas/temecula-ca/flood-damage-restoration/",
+        "/service-areas/carlsbad-ca/general-contracting/",
+        "/service-areas/chula-vista-ca/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/blog/what-to-do-first-24-hours-water-damage/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "What To Do in the First 24 Hours After Water Damage",
+      "h1": "What To Do in the First 24 Hours After Water Damage",
+      "meta_description": "",
+      "primary_keyword": "what to do in the first 24 hours after water damage",
+      "secondary_keywords": [
+        "water damage restoration"
+      ],
+      "search_intent": "informational_emergency",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ]
+    },
+    {
+      "url_path": "/blog/burst-pipe-emergency-checklist/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Burst Pipe Emergency Checklist: Step-by-Step Response",
+      "h1": "Burst Pipe Emergency Checklist: Step-by-Step Response",
+      "meta_description": "",
+      "primary_keyword": "burst pipe emergency checklist stepbystep response",
+      "secondary_keywords": [
+        "water damage restoration",
+        "appliance leak cleanup"
+      ],
+      "search_intent": "informational_emergency",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ]
+    },
+    {
+      "url_path": "/blog/does-homeowners-insurance-cover-water-damage/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Does Homeowners Insurance Cover Water Damage? A Plain-English Guide",
+      "h1": "Does Homeowners Insurance Cover Water Damage? A Plain-English Guide",
+      "meta_description": "",
+      "primary_keyword": "does homeowners insurance cover water damage a plainenglish guide",
+      "secondary_keywords": [
+        "water damage restoration"
+      ],
+      "search_intent": "informational_insurance",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/blog/choosing-a-restoration-company/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "How To Choose a Restoration Company in  (Without Getting Burned)",
+      "h1": "How To Choose a Restoration Company in  (Without Getting Burned)",
+      "meta_description": "",
+      "primary_keyword": "how to choose a restoration company in  without getting burned",
+      "secondary_keywords": [
+        "water damage restoration",
+        "fire damage restoration",
+        "mold remediation"
+      ],
+      "search_intent": "commercial_decision",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ]
+    },
+    {
+      "url_path": "/blog/how-long-does-water-damage-restoration-take/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "How Long Does Water Damage Restoration Actually Take?",
+      "h1": "How Long Does Water Damage Restoration Actually Take?",
+      "meta_description": "",
+      "primary_keyword": "how long does water damage restoration actually take",
+      "secondary_keywords": [
+        "water damage restoration"
+      ],
+      "search_intent": "informational_process",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/blog/mold-after-water-damage/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "How Quickly Does Mold Grow After Water Damage?",
+      "h1": "How Quickly Does Mold Grow After Water Damage?",
+      "meta_description": "",
+      "primary_keyword": "how quickly does mold grow after water damage",
+      "secondary_keywords": [
+        "mold remediation",
+        "water damage restoration"
+      ],
+      "search_intent": "informational_emergency",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/blog/basement-flooding-prevention/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "8 Ways To Prevent Basement Flooding This Season",
+      "h1": "8 Ways To Prevent Basement Flooding This Season",
+      "meta_description": "",
+      "primary_keyword": "8 ways to prevent basement flooding this season",
+      "secondary_keywords": [
+        "water damage restoration"
+      ],
+      "search_intent": "informational_prevention",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/blog/commercial-water-damage-business-continuity/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Commercial Water Damage: Protecting Business Continuity After a Loss",
+      "h1": "Commercial Water Damage: Protecting Business Continuity After a Loss",
+      "meta_description": "",
+      "primary_keyword": "commercial water damage protecting business continuity after a loss",
+      "secondary_keywords": [
+        "commercial restoration",
+        "water damage restoration"
+      ],
+      "search_intent": "informational_b2b",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/blog/iicrc-certification-explained/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "What IICRC Certification Means (and Why You Should Hire It)",
+      "h1": "What IICRC Certification Means (and Why You Should Hire It)",
+      "meta_description": "",
+      "primary_keyword": "what iicrc certification means and why you should hire it",
+      "secondary_keywords": [
+        "water damage restoration",
+        "mold remediation",
+        "fire damage restoration"
+      ],
+      "search_intent": "informational_trust",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/privacy/",
+      "archetype": "legal",
+      "vars_keys": [
+        "instance"
+      ],
+      "title": "Privacy Policy | Flood Fixers",
+      "h1": "Privacy Policy",
+      "meta_description": "Privacy Policy | {brand.display_name}.",
+      "primary_keyword": "flood fixers privacy",
+      "secondary_keywords": [],
+      "search_intent": "navigational_legal",
+      "target_word_count": 600,
+      "image_roles": [
+        "og"
+      ],
+      "schema_stubs": [],
+      "priority": 1.0,
+      "status": "planned",
+      "internal_links_out": []
+    },
+    {
+      "url_path": "/terms/",
+      "archetype": "legal",
+      "vars_keys": [
+        "instance"
+      ],
+      "title": "Terms of Service | Flood Fixers",
+      "h1": "Terms of Service",
+      "meta_description": "Terms of Service | {brand.display_name}.",
+      "primary_keyword": "flood fixers terms",
+      "secondary_keywords": [],
+      "search_intent": "navigational_legal",
+      "target_word_count": 600,
+      "image_roles": [
+        "og"
+      ],
+      "schema_stubs": [],
+      "priority": 1.0,
+      "status": "planned",
+      "internal_links_out": []
+    },
+    {
+      "url_path": "/accessibility/",
+      "archetype": "legal",
+      "vars_keys": [
+        "instance"
+      ],
+      "title": "Accessibility Statement | Flood Fixers",
+      "h1": "Accessibility Statement",
+      "meta_description": "Accessibility Statement | {brand.display_name}.",
+      "primary_keyword": "flood fixers accessibility",
+      "secondary_keywords": [],
+      "search_intent": "navigational_legal",
+      "target_word_count": 400,
+      "image_roles": [
+        "og"
+      ],
+      "schema_stubs": [],
+      "priority": 1.0,
+      "status": "planned",
+      "internal_links_out": []
+    }
+  ]
+}

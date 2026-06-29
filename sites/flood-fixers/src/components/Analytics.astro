@@ -1,0 +1,29 @@
+---
+// Analytics.astro — GA4 + Microsoft Clarity tags.
+// No-op when the corresponding id is empty, so it's safe to include everywhere.
+// IDs live in brand.ts (ga4MeasurementId / clarityProjectId), set post-scaffold
+// by scripts/analytics_set.py (or create_ga4.py for GA4).
+import { brand } from "~/lib/brand";
+const ga4 = (brand as any).ga4MeasurementId || "";
+const clarity = (brand as any).clarityProjectId || "";
+---
+{ga4 && (
+  <Fragment>
+    <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${ga4}`}></script>
+    <script is:inline define:vars={{ ga4 }}>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){ dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', ga4);
+    </script>
+  </Fragment>
+)}
+{clarity && (
+  <script is:inline define:vars={{ clarity }}>
+    (function(c,l,a,r,i,t,y){
+      c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+      t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+      y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", clarity);
+  </script>
+)}
