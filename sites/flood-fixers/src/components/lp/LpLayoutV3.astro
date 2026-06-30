@@ -212,7 +212,7 @@ const displayPhoneRaw = (brand as any).adsTrackingPhoneRaw ?? brand.phoneRaw;
             <div class="rounded-[2.5rem] overflow-hidden h-80 md:h-[30rem] border-4 shadow-xl" style={`border-color:${NAVY};background:${NAVY}`}>
               {heroImageUrl
                 ? <img src={heroImageUrl} alt={serviceLabel} class="w-full h-full object-cover object-top" loading="eager" />
-                : <div class="w-full h-full flex items-center justify-center text-white/20 text-sm">Service Photo</div>
+                : <div class="w-full h-full flex items-center justify-center text-dark/20 text-sm">Service Photo</div>
               }
             </div>
           </div>
@@ -248,7 +248,7 @@ const displayPhoneRaw = (brand as any).adsTrackingPhoneRaw ?? brand.phoneRaw;
               }
             </div>
             <div class="absolute -bottom-5 left-1/2 -translate-x-1/2 w-28 h-28 rounded-full flex items-center justify-center text-center" style={`background:${NAVY}`}>
-              <ArrowUpRight size={26} class="text-white" />
+              <ArrowUpRight size={26} class="text-dark-900" />
             </div>
           </div>
         </div>
@@ -267,7 +267,7 @@ const displayPhoneRaw = (brand as any).adsTrackingPhoneRaw ?? brand.phoneRaw;
                 </div>
                 <p class="text-sm text-gray-700 leading-relaxed mb-4">"{t.quote}"</p>
                 <div class="flex items-center gap-3">
-                  <div class="w-9 h-9 rounded-full flex items-center justify-center font-black text-xs text-white" style={`background:${NAVY}`}>
+                  <div class="w-9 h-9 rounded-full flex items-center justify-center font-black text-xs text-dark-900" style={`background:${NAVY}`}>
                     {t.name.split(" ").map((n) => n[0]).join("")}
                   </div>
                   <span class="font-black text-sm uppercase tracking-wide" style={`color:${NAVY}`}>{t.name}</span>
@@ -335,7 +335,7 @@ const displayPhoneRaw = (brand as any).adsTrackingPhoneRaw ?? brand.phoneRaw;
             <a href={`tel:${displayPhoneRaw}`} class="inline-flex items-center gap-2 font-black px-8 py-4 rounded-full no-underline shadow-md" style={`background:${GOLD};color:${NAVY}`}>
               <Phone size={18} stroke-width={2.5} /> Call Now
             </a>
-            <a href={`tel:${displayPhoneRaw}`} class="inline-flex items-center gap-2 font-black px-8 py-4 rounded-full no-underline text-white shadow-md" style={`background:${NAVY}`}>
+            <a href={`tel:${displayPhoneRaw}`} class="inline-flex items-center gap-2 font-black px-8 py-4 rounded-full no-underline text-dark-900 shadow-md" style={`background:${NAVY}`}>
               <Phone size={18} stroke-width={2.5} style={`color:${GOLD}`} /> {displayPhone}
             </a>
           </div>

@@ -30,7 +30,7 @@ const heroImage = data.hero || `${brand.imagesBase}/brand/hero.webp`;
   faq={data.faq}
 >
   <!-- HERO -->
-  <section class="relative min-h-[500px] flex items-center overflow-hidden bg-navy border-b border-white/10">
+  <section class="relative min-h-[500px] flex items-center overflow-hidden bg-navy border-b border-dark/10">
     <div class="absolute inset-0 z-0">
       <img src={heroImage} alt={data.h1} class="w-full h-full object-cover" loading="eager" />
       <div class="absolute inset-0 bg-gradient-to-r from-navy via-navy/85 to-navy/30"></div>
@@ -39,7 +39,7 @@ const heroImage = data.hero || `${brand.imagesBase}/brand/hero.webp`;
       <div class="max-w-2xl">
         <div class="eyebrow">{data.service_display}</div>
         <h1 class="mb-6">{data.h1}</h1>
-        <p class="text-lg text-white/85 mb-8 leading-relaxed">{data.meta_description}</p>
+        <p class="text-lg text-dark/85 mb-8 leading-relaxed">{data.meta_description}</p>
         <div class="flex flex-col sm:flex-row gap-4">
           <a href={`tel:${brand.phoneRaw}`} class="btn-accent">📞 Call {brand.phone}</a>
           <a href="/contact/" class="btn-outline">Get a Free Estimate</a>

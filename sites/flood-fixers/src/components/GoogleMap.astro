@@ -36,7 +36,7 @@ const fallbackHref = `https://www.google.com/maps/search/?api=1&query=${query}`;
       <h2>{heading}</h2>
     </div>
     {embedSrc ? (
-      <div class="rounded-xl overflow-hidden border border-white/10 shadow-2xl">
+      <div class="rounded-xl overflow-hidden border border-dark/10 shadow-2xl">
         <iframe
           src={embedSrc}
           width="100%"
@@ -49,14 +49,14 @@ const fallbackHref = `https://www.google.com/maps/search/?api=1&query=${query}`;
         ></iframe>
       </div>
     ) : (
-      <div class="rounded-xl border border-white/10 p-12 text-center bg-white/5">
-        <p class="text-white/70 mb-6">
+      <div class="rounded-xl border border-dark/10 p-12 text-center bg-dark/5">
+        <p class="text-dark/70 mb-6">
           Service coverage centered on <strong>{city}, {state}</strong>.
         </p>
         <a href={fallbackHref} target="_blank" rel="noopener" class="btn-outline">
           View {city} on Google Maps
         </a>
-        <p class="text-xs text-white/40 mt-6 mb-0">
+        <p class="text-xs text-dark/40 mt-6 mb-0">
           (Configure <code>BRAND_GOOGLE_MAPS_API_KEY</code> in plan-input.json to enable inline map embed.)
         </p>
       </div>

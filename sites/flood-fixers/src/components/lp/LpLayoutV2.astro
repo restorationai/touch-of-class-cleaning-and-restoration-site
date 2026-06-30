@@ -160,7 +160,7 @@ const displayPhoneRaw = (brand as any).adsTrackingPhoneRaw ?? brand.phoneRaw;
     <main class="flex-1">
 
       <!-- Hero: bg image + dark overlay, CENTERED content, full-height -->
-      <section id="lp-hero" class="relative text-white overflow-hidden min-h-[90vh] flex items-center">
+      <section id="lp-hero" class="relative text-dark-900 overflow-hidden min-h-[90vh] flex items-center">
         {heroImageUrl
           ? (
             <div class="absolute inset-0 z-0">
@@ -174,14 +174,14 @@ const displayPhoneRaw = (brand as any).adsTrackingPhoneRaw ?? brand.phoneRaw;
           {locationLabel && (
             <div class="text-base md:text-lg font-bold tracking-wide mb-5 pb-1 border-b-2" style={`border-color:${PINK}`}>{locationLabel}</div>
           )}
-          <h1 class="text-4xl md:text-6xl lg:text-7xl font-black leading-[1.05] mb-6 text-white max-w-5xl">{h1}</h1>
-          <p class="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl leading-snug">{heroSubtitle}</p>
-          <p class="text-base md:text-lg font-semibold text-white/85 mb-5">
+          <h1 class="text-4xl md:text-6xl lg:text-7xl font-black leading-[1.05] mb-6 text-dark-900 max-w-5xl">{h1}</h1>
+          <p class="text-xl md:text-2xl text-dark/90 mb-8 max-w-3xl leading-snug">{heroSubtitle}</p>
+          <p class="text-base md:text-lg font-semibold text-dark/85 mb-5">
             Call Now: <span style={`color:${PINK}`}>{displayPhone}</span>
           </p>
           <a
             href={`tel:${displayPhoneRaw}`}
-            class="inline-flex items-center justify-center gap-2 text-white font-bold text-lg px-12 py-5 rounded-md shadow-xl transition-transform hover:-translate-y-0.5 no-underline mb-6"
+            class="inline-flex items-center justify-center gap-2 text-dark-900 font-bold text-lg px-12 py-5 rounded-md shadow-xl transition-transform hover:-translate-y-0.5 no-underline mb-6"
             style={`background:${PINK}`}
           >
             <Phone size={20} stroke-width={2.5} />
@@ -195,8 +195,8 @@ const displayPhoneRaw = (brand as any).adsTrackingPhoneRaw ?? brand.phoneRaw;
           <div class="grid grid-cols-2 md:grid-cols-4 gap-10 w-full max-w-4xl">
             {heroTrust.map(({ Icon, label }) => (
               <div class="flex flex-col items-center text-center gap-3">
-                <Icon size={36} stroke-width={1.5} class="text-white" />
-                <span class="text-sm font-bold text-white/95 leading-tight uppercase tracking-wide">{label}</span>
+                <Icon size={36} stroke-width={1.5} class="text-dark-900" />
+                <span class="text-sm font-bold text-dark/95 leading-tight uppercase tracking-wide">{label}</span>
               </div>
             ))}
           </div>
@@ -229,7 +229,7 @@ const displayPhoneRaw = (brand as any).adsTrackingPhoneRaw ?? brand.phoneRaw;
             <h2 class="text-gray-900 text-2xl md:text-3xl font-black mb-4 mt-0 leading-tight">{bodyContent.heading}</h2>
             <p class="text-gray-600 mb-6 leading-relaxed">{bodyContent.intro}</p>
             <div class="flex flex-col sm:flex-row gap-3">
-              <a href={`tel:${displayPhoneRaw}`} class="inline-flex items-center justify-center gap-2 text-white font-bold px-6 py-3 rounded-md text-sm no-underline transition-colors" style={`background:${PINK}`}>
+              <a href={`tel:${displayPhoneRaw}`} class="inline-flex items-center justify-center gap-2 text-dark-900 font-bold px-6 py-3 rounded-md text-sm no-underline transition-colors" style={`background:${PINK}`}>
                 <Phone size={15} stroke-width={2.5} /> Call {displayPhone}
               </a>
               <a href="#process" class="inline-flex items-center justify-center font-bold px-6 py-3 rounded-md text-sm no-underline border-2 transition-colors" style={`color:${PINK};border-color:${PINK}`}>
@@ -268,7 +268,7 @@ const displayPhoneRaw = (brand as any).adsTrackingPhoneRaw ?? brand.phoneRaw;
             <p class="text-gray-600 mb-6 leading-relaxed text-sm">
               When disaster strikes, every moment matters. We help homeowners get connected quickly with trusted restoration professionals who can act fast to protect your home and prevent further damage — from water leaks to fire and storm recovery.
             </p>
-            <a href={`tel:${displayPhoneRaw}`} class="inline-flex items-center gap-2 text-white font-bold px-6 py-3 rounded-md text-sm no-underline transition-colors" style={`background:${PINK}`}>
+            <a href={`tel:${displayPhoneRaw}`} class="inline-flex items-center gap-2 text-dark-900 font-bold px-6 py-3 rounded-md text-sm no-underline transition-colors" style={`background:${PINK}`}>
               <Phone size={15} stroke-width={2.5} /> Call {displayPhone}
             </a>
           </div>
@@ -285,7 +285,7 @@ const displayPhoneRaw = (brand as any).adsTrackingPhoneRaw ?? brand.phoneRaw;
               From your first call, we connect you with local restoration experts who assess the damage and begin recovery. You'll be connected with professionals who guide you through what to expect and answer your questions.
             </p>
             <div class="flex flex-col sm:flex-row gap-3">
-              <a href={`tel:${displayPhoneRaw}`} class="inline-flex items-center justify-center gap-2 text-white font-bold px-6 py-3 rounded-md text-sm no-underline" style={`background:${PINK}`}>
+              <a href={`tel:${displayPhoneRaw}`} class="inline-flex items-center justify-center gap-2 text-dark-900 font-bold px-6 py-3 rounded-md text-sm no-underline" style={`background:${PINK}`}>
                 <Phone size={15} stroke-width={2.5} /> Call {displayPhone}
               </a>
               <a href={`tel:${displayPhoneRaw}`} class="inline-flex items-center justify-center font-bold px-6 py-3 rounded-md text-sm no-underline border-2" style={`color:${PINK};border-color:${PINK}`}>
@@ -296,7 +296,7 @@ const displayPhoneRaw = (brand as any).adsTrackingPhoneRaw ?? brand.phoneRaw;
           <ol class="space-y-4 list-none pl-0 mb-0">
             {steps.map((step, i) => (
               <li class="bg-white rounded-xl border border-gray-200 shadow-sm p-5 flex gap-4">
-                <span class="flex-shrink-0 w-8 h-8 rounded-full text-white text-sm font-black flex items-center justify-center" style={`background:${PINK}`}>
+                <span class="flex-shrink-0 w-8 h-8 rounded-full text-dark-900 text-sm font-black flex items-center justify-center" style={`background:${PINK}`}>
                   {i + 1}
                 </span>
                 <div>
@@ -315,11 +315,11 @@ const displayPhoneRaw = (brand as any).adsTrackingPhoneRaw ?? brand.phoneRaw;
           <div class="bg-gray-900 rounded-lg px-8 py-10 flex flex-col md:flex-row items-center justify-between gap-6">
             <div>
               <div class="text-xs font-black uppercase tracking-widest mb-2" style={`color:${PINK}`}>Don't Wait — Get Help Now</div>
-              <p class="text-white font-semibold text-lg mb-0 max-w-xl">
+              <p class="text-dark-900 font-semibold text-lg mb-0 max-w-xl">
                 Speak with a restoration specialist who can assess your situation and connect you with emergency services right away.
               </p>
             </div>
-            <a href={`tel:${displayPhoneRaw}`} class="flex-shrink-0 inline-flex items-center gap-2 text-white font-bold px-8 py-4 rounded-md whitespace-nowrap no-underline" style={`background:${PINK}`}>
+            <a href={`tel:${displayPhoneRaw}`} class="flex-shrink-0 inline-flex items-center gap-2 text-dark-900 font-bold px-8 py-4 rounded-md whitespace-nowrap no-underline" style={`background:${PINK}`}>
               <Phone size={16} stroke-width={2.5} /> Call {displayPhone}
             </a>
           </div>
@@ -344,14 +344,14 @@ const displayPhoneRaw = (brand as any).adsTrackingPhoneRaw ?? brand.phoneRaw;
               {bodyContent.callout ?? "When your home is hit by water, fire, or storm damage, acting quickly can make all the difference. Don't wait — protect your home and start restoring peace of mind today."}
             </p>
           </div>
-          <div class="text-white">
-            <h3 class="text-white text-xl md:text-2xl font-black mb-2 mt-0">
+          <div class="text-dark-900">
+            <h3 class="text-dark-900 text-xl md:text-2xl font-black mb-2 mt-0">
               Our Services in {locationLabel || "Your Area"}
             </h3>
-            <p class="text-white/80 text-sm mb-5">
+            <p class="text-dark/80 text-sm mb-5">
               Get connected with a licensed {serviceLabel.toLowerCase()} professional who can help protect your home today.
             </p>
-            <a href={`tel:${displayPhoneRaw}`} class="inline-flex items-center gap-2 text-white font-bold px-8 py-4 rounded-md no-underline" style={`background:${PINK}`}>
+            <a href={`tel:${displayPhoneRaw}`} class="inline-flex items-center gap-2 text-dark-900 font-bold px-8 py-4 rounded-md no-underline" style={`background:${PINK}`}>
               <Phone size={16} stroke-width={2.5} /> Call {displayPhone}
             </a>
           </div>
@@ -361,17 +361,17 @@ const displayPhoneRaw = (brand as any).adsTrackingPhoneRaw ?? brand.phoneRaw;
     </main>
 
     <!-- Footer -->
-    <footer class="bg-gray-950 text-white/40 text-xs py-8 px-6">
+    <footer class="bg-gray-950 text-dark/40 text-xs py-8 px-6">
       <div class="container-wide">
         <div class="flex flex-col sm:flex-row justify-between items-center gap-2 mb-4">
           <span>© {new Date().getFullYear()} {brand.legalName ?? brand.displayName}. All rights reserved.</span>
           <div class="flex gap-4">
-            <a href="/privacy/" class="text-white/40 hover:text-white/70 no-underline">Privacy Policy</a>
-            <a href="/terms/" class="text-white/40 hover:text-white/70 no-underline">Terms of Service</a>
-            <a href="/privacy/" class="text-white/40 hover:text-white/70 no-underline">Do Not Sell</a>
+            <a href="/privacy/" class="text-dark/40 hover:text-dark/70 no-underline">Privacy Policy</a>
+            <a href="/terms/" class="text-dark/40 hover:text-dark/70 no-underline">Terms of Service</a>
+            <a href="/privacy/" class="text-dark/40 hover:text-dark/70 no-underline">Do Not Sell</a>
           </div>
         </div>
-        <p class="text-white/25 leading-relaxed max-w-4xl mb-0 text-[11px]">
+        <p class="text-dark/25 leading-relaxed max-w-4xl mb-0 text-[11px]">
           {brand.displayName} connects homeowners with licensed local restoration professionals. All work is performed by independent, licensed and insured contractors. Response times are estimates and may vary based on conditions and availability.
         </p>
       </div>
@@ -382,11 +382,11 @@ const displayPhoneRaw = (brand as any).adsTrackingPhoneRaw ?? brand.phoneRaw;
       <div class="container-wide flex items-center justify-between py-3 gap-4">
         <a href={`tel:${displayPhoneRaw}`} class="flex items-center gap-2 font-black text-gray-900 no-underline">
           <span class="flex items-center justify-center w-9 h-9 rounded-full" style={`background:${PINK}`}>
-            <Phone size={16} stroke-width={2.5} class="text-white" />
+            <Phone size={16} stroke-width={2.5} class="text-dark-900" />
           </span>
           <span class="text-sm md:text-base">Get Help Now</span>
         </a>
-        <a href={`tel:${displayPhoneRaw}`} class="inline-flex items-center gap-2 text-white font-bold px-5 md:px-8 py-3 rounded-md no-underline whitespace-nowrap" style={`background:${PINK}`}>
+        <a href={`tel:${displayPhoneRaw}`} class="inline-flex items-center gap-2 text-dark-900 font-bold px-5 md:px-8 py-3 rounded-md no-underline whitespace-nowrap" style={`background:${PINK}`}>
           <Phone size={16} stroke-width={2.5} /> Call {displayPhone}
         </a>
       </div>

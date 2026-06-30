@@ -32,7 +32,7 @@ const heroImage = data.hero || `${brand.imagesBase}/brand/hero.webp`;
   faq={data.faq}
 >
   <!-- COMPACT HERO -->
-  <section class="relative min-h-[350px] flex items-center overflow-hidden bg-navy border-b border-white/10">
+  <section class="relative min-h-[350px] flex items-center overflow-hidden bg-navy border-b border-dark/10">
     <div class="absolute inset-0 z-0">
       <img src={heroImage} alt={data.h1} class="w-full h-full object-cover" loading="eager" />
       <div class="absolute inset-0 bg-gradient-to-r from-navy via-navy/90 to-navy/60"></div>
@@ -41,7 +41,7 @@ const heroImage = data.hero || `${brand.imagesBase}/brand/hero.webp`;
       <div class="max-w-2xl">
         <div class="eyebrow">{archetype.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase())}</div>
         <h1>{data.h1}</h1>
-        <p class="text-lg text-white/85 mt-6 mb-0 leading-relaxed max-w-xl">{data.meta_description}</p>
+        <p class="text-lg text-dark/85 mt-6 mb-0 leading-relaxed max-w-xl">{data.meta_description}</p>
       </div>
     </div>
   </section>

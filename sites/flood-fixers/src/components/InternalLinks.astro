@@ -50,7 +50,7 @@ const linked = paths.map((p) => ({ path: p, label: lookup.get(p) || pathFallback
       <ul class="grid gap-3 sm:grid-cols-2 list-none pl-0">
         {linked.map((l) => (
           <li>
-            <a href={l.path} class="block p-5 rounded-lg border border-white/10 bg-white/5 hover:bg-white/10 hover:border-primary/40 transition-all no-underline text-white">
+            <a href={l.path} class="block p-5 rounded-lg border border-dark/10 bg-dark/5 hover:bg-dark/10 hover:border-primary/40 transition-all no-underline text-dark-900">
               <span class="font-semibold">{l.label}</span>
               <span aria-hidden="true" class="float-right text-primary-200">→</span>
             </a>
