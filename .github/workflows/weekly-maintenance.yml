@@ -55,6 +55,15 @@ jobs:
           DATAFORSEO_PASSWORD:          ${{ secrets.DATAFORSEO_PASSWORD }}
         run: python3 scripts/master_scheduler.py run-due --all --headless
 
+      - name: GBP posts (2x/week — every Mon + Thu run)
+        env:
+          SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY:  ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          ANTHROPIC_API_KEY:          ${{ secrets.ANTHROPIC_API_KEY }}
+          GOOGLE_OAUTH_CLIENT_ID:     ${{ secrets.GOOGLE_OAUTH_CLIENT_ID }}
+          GOOGLE_OAUTH_CLIENT_SECRET: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
+        run: python3 scripts/gbp_post.py due --all
+
       - name: Scan AI search visibility (weekly — Monday + manual)
         if: github.event.schedule == '0 16 * * 1' || github.event_name == 'workflow_dispatch'
         env:
