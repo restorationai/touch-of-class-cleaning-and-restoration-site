@@ -69,5 +69,14 @@
     "last_run_total_actions": 0,
     "last_run_top_action": "none",
     "last_run_report_path": "clients/homepriderestorationandcleaning/refresh-runs/2026-06-24-refresh-recommender.md"
+  },
+  "nap": {
+    "name": "Home Pride Restoration and Cleaning",
+    "street": "78 W Wildflower Dr",
+    "city": "Saratoga Springs",
+    "state": "UT",
+    "zip": "84045",
+    "phone": "(801) 995-2437",
+    "website": "https://homepriderestorationandcleaning.com"
   }
 }
