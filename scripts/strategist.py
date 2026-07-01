@@ -447,12 +447,12 @@ def _parse_city_anchor(slug: str, target: str) -> str | None:
 
 
 def sync_content_queue(slug: str, company_id: str) -> int:
-    """Make pinned content actions (blog_post / ai_visibility) into prioritized
-    content-queue items so System 2 writes them next. Find-or-create by keyword
-    (case-insensitive); never touches already-written/live items. Safe + idempotent."""
+    """Make pinned content actions (blog_post / ai_visibility / ai_keyword) into
+    prioritized content-queue items so System 2 writes them next. Find-or-create by
+    keyword (case-insensitive); never touches already-written/live items. Safe + idempotent."""
     rows = _sb("GET", "/rest/v1/marketing_action_plan?company_id=eq." +
                urllib.parse.quote(company_id) +
-               "&pinned=is.true&action_type=in.(blog_post,ai_visibility)"
+               "&pinned=is.true&action_type=in.(blog_post,ai_visibility,ai_keyword)"
                "&status=in.(planned,in_progress)&select=action_type,target,title") or []
     pinned = [r for r in rows if r.get("target")]
     if not pinned:
@@ -488,14 +488,14 @@ def sync_content_queue(slug: str, company_id: str) -> int:
             "status": "queued", "queued_at": now, "prioritized": True,
             "source": "strategist-pin",
             "primary_keyword": kw,
-            "intent": b.get("intent") or ("commercial" if r["action_type"] == "ai_visibility" else "informational"),
+            "intent": b.get("intent") or ("commercial" if r["action_type"] in ("ai_visibility", "ai_keyword") else "informational"),
             "volume": b.get("volume"), "kd": b.get("kd"),
             "target_word_count": 1500,
         }
         anchor = _parse_city_anchor(slug, kw)
         if anchor:
             item["city_anchor"] = anchor
-        if r["action_type"] == "ai_visibility":
+        if r["action_type"] in ("ai_visibility", "ai_keyword"):
             item["notes"] = ("Pinned from AI Search. Write an honest, locally-specific guide that "
                              "positions this business on verifiable strengths (certifications, license, "
                              "response time, reviews) — NOT a self-ranking 'best companies' list.")
