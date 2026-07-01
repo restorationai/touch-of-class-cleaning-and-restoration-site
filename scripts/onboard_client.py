@@ -359,6 +359,17 @@ def cmd_provision(args) -> int:
     print(f"      curl -X PUT -H 'Content-Type: text/plain' --data 'hello' \\")
     print(f"        https://{account_id}.r2.cloudflarestorage.com/{bucket}/_health.txt \\")
     print(f"        # then: curl {public_url}/_health.txt")
+
+    # Seed the Get-Listed baseline into the Action Plan (non-fatal). A brand-new
+    # client gets the core directories now; the monthly authority cron enriches it
+    # with AI-cited directories + link-gap once scan data exists.
+    try:
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        from authority_targets import build as build_get_listed
+        print("\n[+] Seeding Get-Listed baseline into the Action Plan...")
+        build_get_listed(slug, write=True)
+    except Exception as e:
+        sys.stderr.write(f"    (Get-Listed baseline skipped: {str(e)[:160]})\n")
     return 0
 
 

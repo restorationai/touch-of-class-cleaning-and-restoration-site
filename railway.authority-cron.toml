@@ -1,0 +1,26 @@
+# Railway config-as-code for the Authority "Get Listed" MONTHLY cron service ONLY.
+# Set this service's "Config-as-code file path" to this file so it does NOT inherit
+# the root railway.toml (FastAPI web) or the other service configs.
+#
+# MONTHLY get-listed refresh: for every client in clients/company_map.json, builds
+# the Get-Listed target list (core directories + the directories AI actually cites
+# for the client + national backlink link-gap) and upserts them into
+# marketing_action_plan (action_type='get_listed'), so they appear in the Action
+# Plan tab. Idempotent via action_key — existing items are skipped, not duplicated.
+[build]
+builder = "NIXPACKS"
+
+[deploy]
+# --all = every client in company_map.json; --write = persist to the Action Plan.
+startCommand = "/opt/venv/bin/python scripts/authority_targets.py --all --write"
+# 09:00 UTC on the 1st of each month (~1h after the geo-grid cron, so AI/geo data
+# is fresh). Backlinks + citations move slowly — monthly is plenty.
+cronSchedule = "0 9 1 * *"
+# One-shot job: do NOT restart on exit, NO healthcheck.
+restartPolicyType = "NEVER"
+
+# Required service variables (set in the Railway dashboard for THIS service):
+#   SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY   — read AI-search data, write action plan
+#   DATAFORSEO_USERNAME / DATAFORSEO_PASSWORD — backlinks domain_intersection (link-gap)
+# Cost is tiny: ~$0.02-0.05 per client (one link-gap call); citation data is read
+# from marketing_ai_search_scans we already collect.

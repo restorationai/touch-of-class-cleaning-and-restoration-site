@@ -42,6 +42,11 @@ DIRECTORIES = {"yelp.com", "bbb.org", "homeadvisor.com", "angi.com", "angieslist
                "facebook.com", "houzz.com", "porch.com", "buildzoom.com", "expertise.com",
                "reddit.com", "trustpilot.com", "manta.com", "chamberofcommerce.com"}
 
+# Universal directories every restoration business should be listed on. Seeds a
+# baseline Get-Listed list even for a brand-new client with no AI-search data yet.
+CORE_DIRECTORIES = ["yelp.com", "bbb.org", "angi.com", "homeadvisor.com", "thumbtack.com",
+                    "facebook.com", "nextdoor.com", "yellowpages.com", "mapquest.com", "houzz.com"]
+
 # Search/AI infrastructure and non-actionable domains — never a "get listed" target.
 JUNK = {"vertexaisearch.cloud.google.com", "google.com", "gstatic.com", "googleusercontent.com",
         "bing.com", "duckduckgo.com", "search.brave.com", "wikipedia.org"}
@@ -111,11 +116,12 @@ def action_key(action_type: str, target: str) -> str:
     return hashlib.sha1(f"{action_type}|{target}".encode()).hexdigest()[:16]
 
 
-def build(slug: str, write: bool) -> list[dict]:
-    sb = sb_client()
+def build(slug: str, write: bool, sb=None) -> list[dict]:
+    sb = sb or sb_client()
     cid = COMPANY_MAP.get(slug)
     if not cid:
-        sys.exit(f"No company_id for slug '{slug}'")
+        sys.stderr.write(f"  skip {slug}: no company_id in company_map.json\n")
+        return []
     domain = client_domain(sb, slug)
     print(f"client: {slug}  domain: {domain}  company_id: {cid}\n")
 
@@ -131,9 +137,21 @@ def build(slug: str, write: bool) -> list[dict]:
     # cited domains are COMPETITORS (you can't "get listed" on them) — shown
     # separately as context, never as actions.
     targets: dict[str, dict] = {}
+    # 1) Core directories — always seeded so even a data-less new client has a list.
+    for j, dom in enumerate(CORE_DIRECTORIES):
+        targets[dom] = {"domain": dom, "kind": "directory", "score": 80 - j,
+                        "reason": "Core directory every restoration business should be listed on."}
+    # 2) Directories AI actually cites for this client — boosted with proof.
     for dom, n in directories.most_common():
-        targets[dom] = {"domain": dom, "kind": "directory", "score": 100 + n * 5,
-                        "reason": f"AI assistants cite {dom} for your services — get listed there."}
+        if dom in JUNK:
+            continue
+        if dom in targets:
+            targets[dom]["score"] = 100 + n * 5
+            targets[dom]["reason"] = f"AI assistants cite {dom} for your services — get listed there."
+        else:
+            targets[dom] = {"domain": dom, "kind": "directory", "score": 100 + n * 5,
+                            "reason": f"AI assistants cite {dom} for your services — get listed there."}
+    # 3) Authority-link domains from the national link-gap.
     for dom, rank in sorted(gap, key=lambda x: -x["rank"])[:20]:
         if dom in targets or dom == domain or dom in JUNK:
             continue
@@ -177,10 +195,20 @@ def build(slug: str, write: bool) -> list[dict]:
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Build a client's Get-Listed authority targets")
-    ap.add_argument("--slug", required=True)
+    ap.add_argument("--slug", help="Run one client")
+    ap.add_argument("--all", action="store_true", help="Run every client in company_map.json (for the monthly cron)")
     ap.add_argument("--write", action="store_true", help="Upsert targets into marketing_action_plan")
     args = ap.parse_args()
-    build(args.slug, args.write)
+    if not args.slug and not args.all:
+        ap.error("pass --slug <slug> or --all")
+    sb = sb_client()
+    slugs = list(COMPANY_MAP.keys()) if args.all else [args.slug]
+    for slug in slugs:
+        try:
+            build(slug, args.write, sb=sb)
+        except Exception as e:
+            sys.stderr.write(f"  FAIL {slug}: {str(e)[:160]}\n")
+        print()
     return 0
 
 
