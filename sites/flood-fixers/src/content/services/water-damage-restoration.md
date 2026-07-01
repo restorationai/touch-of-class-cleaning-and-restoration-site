@@ -1,4 +1,5 @@
 ---
+hero: "/services/water-damage-restoration.webp"
 archetype: "service-landing"
 title: "Water Damage Restoration in San Diego | Flood Fixers"
 h1: "Water Damage Restoration in San Diego"

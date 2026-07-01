@@ -27,7 +27,7 @@ export const brand = {
   // Analytics — set post-scaffold (scripts/analytics_set.py / create_ga4.py); no-op if empty
   ga4MeasurementId: "",
   clarityProjectId: "",
-  logoUrl: "https://images.flood-fixers.com/brand/logo.png",
+  logoUrl: "/images/logo.webp",
   licenseNumbers: [] as string[],
   licenseAuthority: "",
   licenseType: "",
