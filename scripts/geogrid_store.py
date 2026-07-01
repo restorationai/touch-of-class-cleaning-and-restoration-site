@@ -39,6 +39,7 @@ import os
 import re
 import sys
 import tempfile
+import time
 from pathlib import Path
 
 import requests
@@ -239,11 +240,38 @@ def scan_and_store(
 
     pts = gs.build_grid(city["lat"], city["lng"], grid, miles)
     results = [None] * len(pts)
-    with cf.ThreadPoolExecutor(max_workers=workers) as ex:
-        futs = {ex.submit(gs.rank_at_point, auth, keyword, pt, biz, zoom, max_rank): k
-                for k, pt in enumerate(pts)}
-        for fut in cf.as_completed(futs):
-            results[futs[fut]] = fut.result()
+
+    def _run(indices):
+        with cf.ThreadPoolExecutor(max_workers=workers) as ex:
+            futs = {ex.submit(gs.rank_at_point, auth, keyword, pts[k], biz, zoom, max_rank): k
+                    for k in indices}
+            for fut in cf.as_completed(futs):
+                results[futs[fut]] = fut.result()
+
+    _run(range(len(pts)))
+
+    # A point whose DataForSEO call ERRORED bills $0 and returns found=False. A point
+    # that simply didn't contain the listing still bills >$0. So $0-cost, not-found
+    # points = failed calls (rate-limit / timeout / auth), NOT a genuine "not ranking
+    # here". Retry those once — a transient blip shouldn't poison the scan.
+    def _errored(r):
+        return (not r["found"]) and (r.get("cost") or 0.0) == 0.0
+
+    err_idx = [k for k, r in enumerate(results) if _errored(r)]
+    if err_idx:
+        time.sleep(2)
+        _run(err_idx)
+
+    # If a large share of points STILL errored, the scan is unreliable. Raise instead
+    # of persisting — an all-error scan writes as an all-red / avg-0 grid that looks
+    # identical to a real ranking collapse and misleads the dashboard. The cron catches
+    # this per keyword, logs a FAIL, and leaves the last good scan in place.
+    errored_final = sum(1 for r in results if _errored(r))
+    if errored_final > 0.4 * len(pts):
+        raise RuntimeError(
+            f"unreliable scan: {errored_final}/{len(pts)} points errored ($0 cost) for "
+            f"'{keyword}' @ {city['label']} — likely DataForSEO rate-limit/credit/auth; not writing"
+        )
 
     found = [r for r in results if r["found"]]
     cost = sum(r["cost"] for r in results)
