@@ -1,10 +1,20 @@
 ---
+import { brand } from "~/lib/brand";
 import { MapPin, Users, Clock, Shield, IdCard } from '@lucide/astro';
+
+// Derive experience from the single source of truth (brand.foundedYear) so it can
+// never contradict the "since {year}" copy elsewhere on the site. "Since 2004" is a
+// hard fact — no rounding that could drift from the body content — and self-updating.
+const founded = parseInt(String(brand.foundedYear), 10);
+const experienceLabel =
+  Number.isFinite(founded) && founded > 1900 && founded <= new Date().getFullYear()
+    ? `Since ${founded}`
+    : "Experienced Team";
 
 const items = [
   { icon: MapPin, label: "100% Local" },
   { icon: Users, label: "Family Business" },
-  { icon: Clock, label: "12+ Years Experience" },
+  { icon: Clock, label: experienceLabel },
   { icon: Shield, label: "Insured" },
   { icon: IdCard, label: "Fully Licensed" },
 ];
