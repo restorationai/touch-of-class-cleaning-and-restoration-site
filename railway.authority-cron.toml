@@ -1,20 +1,23 @@
-# Railway config-as-code for the Authority "Get Listed" MONTHLY cron service ONLY.
+# Railway config-as-code for the MONTHLY AI-visibility cron service ONLY.
 # Set this service's "Config-as-code file path" to this file so it does NOT inherit
 # the root railway.toml (FastAPI web) or the other service configs.
 #
-# MONTHLY get-listed refresh: for every client in clients/company_map.json, builds
-# the Get-Listed target list (core directories + the directories AI actually cites
-# for the client + national backlink link-gap) and upserts them into
-# marketing_action_plan (action_type='get_listed'), so they appear in the Action
-# Plan tab. Idempotent via action_key — existing items are skipped, not duplicated.
+# MONTHLY refresh for every client in clients/company_map.json, upserting into
+# marketing_action_plan (idempotent via action_key). Two steps:
+#   1) authority_targets.py  -> Get-Listed targets (core directories + directories
+#      AI cites for the client + national backlink link-gap; action_type='get_listed')
+#   2) ai_keyword_planner.py -> demand-ranked AI-keyword opportunities via real AI
+#      search volume + the sources AI pulls from (action_type='ai_keyword'/'get_listed')
+# Existing/dismissed items are skipped, never duplicated.
 [build]
 builder = "NIXPACKS"
 
 [deploy]
 # --all = every client in company_map.json; --write = persist to the Action Plan.
-startCommand = "/opt/venv/bin/python scripts/authority_targets.py --all --write"
+# Run both steps; ';' so step 2 runs even if step 1 errors on a client.
+startCommand = "bash -lc '/opt/venv/bin/python scripts/authority_targets.py --all --write; /opt/venv/bin/python scripts/ai_keyword_planner.py --all --write'"
 # 09:00 UTC on the 1st of each month (~1h after the geo-grid cron, so AI/geo data
-# is fresh). Backlinks + citations move slowly — monthly is plenty.
+# is fresh). Backlinks + citations + AI demand move slowly — monthly is plenty.
 cronSchedule = "0 9 1 * *"
 # One-shot job: do NOT restart on exit, NO healthcheck.
 restartPolicyType = "NEVER"
