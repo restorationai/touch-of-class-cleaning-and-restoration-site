@@ -534,6 +534,23 @@ def commit_and_sync(slug: str, item: dict, post_path: Path, branch: str) -> None
 
 def cmd_next_post(args) -> int:
     slug = args.slug
+    # Pull operator-prioritized Action Plan items (pinned blog_post / ai_visibility /
+    # ai_keyword) into the queue first, so a term you Prioritize in the app gets
+    # written on the very next content run. Safe, idempotent, non-fatal.
+    try:
+        import sys as _sys
+        _sys.path.insert(0, str(SCRIPT_DIR))
+        from geogrid_store import COMPANY_MAP
+        from strategist import sync_content_queue
+        cid = COMPANY_MAP.get(slug)
+        if cid:
+            n = sync_content_queue(slug, cid)
+            if n:
+                print(f"    (+{n} prioritized item(s) synced from the Action Plan)")
+    except Exception as e:
+        import sys as _sys
+        _sys.stderr.write(f"    (Action Plan sync skipped: {str(e)[:140]})\n")
+
     queue = load_queue(slug)
     item = pop_next_queued(queue)
     if not item:

@@ -45,9 +45,9 @@ ENGINES = {
     "chatgpt":    ("chat_gpt",   "gpt-4o"),
     "gemini":     ("gemini",     "gemini-2.5-flash"),
     "perplexity": ("perplexity", "sonar"),
-    "claude":     ("claude",     "claude-haiku-4-5"),   # available but low-ROI for this vertical
+    "claude":     ("claude",     "claude-haiku-4-5"),   # tracked by default for fuller coverage
 }
-DEFAULT_ENGINES = ["chatgpt", "gemini", "perplexity"]
+DEFAULT_ENGINES = ["chatgpt", "gemini", "perplexity", "claude"]
 LLM_URL = "https://api.dataforseo.com/v3/ai_optimization/{provider}/llm_responses/live"
 # Directory/aggregator domains that aren't competitors — useful as GEO targets, flagged separately.
 DIRECTORY_DOMAINS = {"bbb.org", "yelp.com", "expertise.com", "angi.com", "thumbtack.com",
