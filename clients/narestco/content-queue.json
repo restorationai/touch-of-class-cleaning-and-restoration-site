@@ -382,10 +382,10 @@
     },
     {
       "id": "2026-06-24-crawl-space-mold-removal-federal-way",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-06-24T15:47:35Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-07-02T17:40:26Z",
+      "post_url": "https://narestco.com/blog/crawl-space-mold-removal-federal-way/",
       "primary_keyword": "crawl space mold removal",
       "intent": "commercial",
       "volume": 1900,
