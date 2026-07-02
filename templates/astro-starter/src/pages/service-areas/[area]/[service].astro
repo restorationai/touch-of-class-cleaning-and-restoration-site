@@ -20,6 +20,15 @@ const { Content } = await entry.render();
 const data = entry.data;
 const sensitive = data.content_guardrails === "sensitive";
 const heroImage = data.hero || `${brand.imagesBase}/brand/hero.webp`;
+
+// Guarantee a localized response-time FAQ on every service-area page — the "how fast
+// can you arrive in {city}?" question people actually ask. Visible + folded into the
+// FAQPage schema, and consistent with the 60-min CtaBanner copy below.
+const responseFaq = {
+  question: `How fast can you arrive for ${data.service_display.toLowerCase()} in ${data.city}?`,
+  answer: `We offer 24/7 emergency response and typically arrive on-site in ${data.city}, ${data.state} within about 60 minutes of your call — often sooner for active water, fire, or storm damage.`,
+};
+const faq = [responseFaq, ...(Array.isArray(data.faq) ? data.faq : [])];
 ---
 
 <BaseLayout
@@ -34,7 +43,7 @@ const heroImage = data.hero || `${brand.imagesBase}/brand/hero.webp`;
     state: data.state,
   }}
   breadcrumb={data.breadcrumb}
-  faq={data.faq}
+  faq={faq}
 >
   <!-- HERO -->
   <section class="relative min-h-[500px] flex items-center overflow-hidden bg-navy border-b border-white/10">
@@ -70,7 +79,7 @@ const heroImage = data.hero || `${brand.imagesBase}/brand/hero.webp`;
 
   <GoogleMap city={data.city} state={data.state} service={data.service_display} />
 
-  <FAQSection faq={data.faq} eyebrow={`${data.service_display} in ${data.city}`} />
+  <FAQSection faq={faq} eyebrow={`${data.service_display} in ${data.city}`} />
 
   <CtaBanner
     heading={`${data.service_display} response in ${data.city}`}
