@@ -175,6 +175,156 @@
       "city_anchor": "park-city-ut",
       "external_authority_candidates": [],
       "notes": "No cost guide exists on the site. Decision-stage query (vol 880, CPC $23) that attracts homeowners hours before they hire. Localize price ranges to the Park City/Wasatch Back market."
+    },
+    {
+      "id": "2026-07-02-how-to-clean-soot-off-walls",
+      "status": "queued",
+      "queued_at": "2026-07-02T17:37:35Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to clean soot off walls",
+      "intent": "informational",
+      "volume": 590,
+      "kd": 0,
+      "fan_out_cluster": [
+        "how to remove soot from walls",
+        "cleaning soot off painted walls",
+        "soot on walls after a fire",
+        "chemical dry sponge for soot",
+        "does soot wipe off walls",
+        "how to clean soot from ceilings",
+        "why professional soot removal matters"
+      ],
+      "suggested_slug": "how-to-clean-soot-off-walls",
+      "suggested_title": "How to Clean Soot Off Walls After a Fire (and When to Call a Pro)",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/smoke-damage-restoration/",
+        "/services/fire-damage-restoration/",
+        "/services/odor-removal/"
+      ],
+      "service_tags": [
+        "smoke-damage-restoration",
+        "fire-damage-restoration",
+        "odor-removal"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.epa.gov/indoor-air-quality-iaq/protect-your-home-cleaning-after-fire"
+      ],
+      "notes": "Uncovered DIY query (KD 0, 590/mo). Explain the safe DIY steps (dry chemical sponge, TSP, ventilation) but be clear about when soot residue is acidic/health-hazardous and needs pro smoke-damage restoration. Localize lightly to the Saratoga Springs / Utah County market. CTA to smoke-damage-restoration service."
+    },
+    {
+      "id": "2026-07-02-fire-damage-restoration-cost",
+      "status": "queued",
+      "queued_at": "2026-07-02T17:37:35Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "fire damage restoration cost",
+      "intent": "informational",
+      "volume": 320,
+      "kd": 0,
+      "fan_out_cluster": [
+        "average fire damage restoration cost",
+        "cost to repair fire damage",
+        "house fire cleanup cost",
+        "smoke damage repair cost",
+        "does insurance pay for fire restoration",
+        "fire damage restoration cost per square foot",
+        "house fire debris removal cost"
+      ],
+      "suggested_slug": "fire-damage-restoration-cost",
+      "suggested_title": "Fire Damage Restoration Cost: 2026 Price Guide for Utah Homeowners",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/smoke-damage-restoration/",
+        "/blog/fire-damage-restoration-process/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "smoke-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iii.org/article/what-covered-standard-homeowners-policy"
+      ],
+      "notes": "No fire cost guide exists on site (process blog covers steps, not price). Decision-stage query, CPC $24. Break down cost by damage severity (soot/smoke only vs structural), square footage, and insurance. Localize price ranges to the Utah County / Wasatch market."
+    },
+    {
+      "id": "2026-07-02-what-to-do-after-a-house-fire",
+      "status": "queued",
+      "queued_at": "2026-07-02T17:37:35Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what to do after a house fire",
+      "intent": "informational",
+      "volume": 260,
+      "kd": 12,
+      "fan_out_cluster": [
+        "first steps after a house fire",
+        "house fire recovery checklist",
+        "who to call after a house fire",
+        "board up after a house fire",
+        "filing a fire insurance claim",
+        "is my house safe after a fire",
+        "returning home after a house fire",
+        "debris removal after house fire"
+      ],
+      "suggested_slug": "what-to-do-after-a-house-fire",
+      "suggested_title": "What to Do After a House Fire: A Step-by-Step Recovery Guide",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/smoke-damage-restoration/",
+        "/blog/fire-damage-restoration-process/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "smoke-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/fire/recovering-from-a-fire.html"
+      ],
+      "notes": "SENSITIVE / emotional query (a homeowner who just had a fire). Apply sensitive-content guardrails: lead with safety and empathy, not a sales pitch. Cover the first 24-48 hours: safety, contacting insurer, securing/boarding up, what not to touch. Soft CTA to 24/7 fire restoration."
+    },
+    {
+      "id": "2026-07-02-does-homeowners-insurance-cover-fire-damage",
+      "status": "queued",
+      "queued_at": "2026-07-02T17:37:35Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does homeowners insurance cover fire damage",
+      "intent": "informational",
+      "volume": 210,
+      "kd": 29,
+      "fan_out_cluster": [
+        "what does fire insurance cover",
+        "fire insurance claim process",
+        "smoke damage insurance claim",
+        "does insurance cover smoke damage",
+        "how to file a fire insurance claim",
+        "additional living expenses after a fire",
+        "personal property fire claim"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-fire-damage",
+      "suggested_title": "Does Homeowners Insurance Cover Fire Damage? A Plain-English Guide",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/blog/storm-damage-insurance-claim-checklist/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "smoke-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iii.org/article/what-covered-standard-homeowners-policy"
+      ],
+      "notes": "Distinct from the existing water-damage insurance post (different peril). Cover dwelling vs personal property vs ALE, smoke/soot coverage, documentation, and working with a restoration company on the claim. Cross-link the sibling water insurance post."
     }
   ]
 }

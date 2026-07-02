@@ -515,6 +515,47 @@
         "https://www.iii.org/article/what-covered-standard-homeowners-policy"
       ],
       "notes": "Decision-stage, KD 22. Links to existing water-damage insurance post."
+    },
+    {
+      "id": "2026-07-02-pin-best-flood-damage-restoration-company-in-bellevu",
+      "status": "queued",
+      "queued_at": "2026-07-02T17:41:02.653193+00:00",
+      "prioritized": true,
+      "source": "strategist-pin",
+      "primary_keyword": "best flood damage restoration company in Bellevue, WA",
+      "intent": "commercial",
+      "volume": null,
+      "kd": null,
+      "target_word_count": 1500,
+      "city_anchor": "bellevue-wa",
+      "notes": "Pinned from AI Search. Write an honest, locally-specific guide that positions this business on verifiable strengths (certifications, license, response time, reviews) \u2014 NOT a self-ranking 'best companies' list."
+    },
+    {
+      "id": "2026-07-02-pin-mold-removal",
+      "status": "queued",
+      "queued_at": "2026-07-02T17:41:02.653193+00:00",
+      "prioritized": true,
+      "source": "strategist-pin",
+      "primary_keyword": "mold removal",
+      "intent": "commercial",
+      "volume": null,
+      "kd": null,
+      "target_word_count": 1500,
+      "notes": "Pinned from AI Search. Write an honest, locally-specific guide that positions this business on verifiable strengths (certifications, license, response time, reviews) \u2014 NOT a self-ranking 'best companies' list."
+    },
+    {
+      "id": "2026-07-02-pin-best-water-damage-restoration-company-in-bellevu",
+      "status": "queued",
+      "queued_at": "2026-07-02T17:41:02.653193+00:00",
+      "prioritized": true,
+      "source": "strategist-pin",
+      "primary_keyword": "best water damage restoration company in Bellevue, WA",
+      "intent": "commercial",
+      "volume": null,
+      "kd": null,
+      "target_word_count": 1500,
+      "city_anchor": "bellevue-wa",
+      "notes": "Pinned from AI Search. Write an honest, locally-specific guide that positions this business on verifiable strengths (certifications, license, response time, reviews) \u2014 NOT a self-ranking 'best companies' list."
     }
   ]
 }
