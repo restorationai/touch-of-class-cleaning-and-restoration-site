@@ -370,6 +370,16 @@ def cmd_provision(args) -> int:
         build_get_listed(slug, write=True)
     except Exception as e:
         sys.stderr.write(f"    (Get-Listed baseline skipped: {str(e)[:160]})\n")
+
+    # Register the branded photo-upload link in Cloudflare KV (non-fatal), so
+    # restorationai.io/gbpphotos/<slug> works immediately with no Worker redeploy.
+    try:
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        from upload_links_sync import main as sync_upload_links
+        print("\n[+] Registering photo-upload link (Cloudflare KV)...")
+        sync_upload_links()
+    except Exception as e:
+        sys.stderr.write(f"    (Upload-link KV sync skipped: {str(e)[:160]})\n")
     return 0
 
 
