@@ -78,14 +78,14 @@ const locationLabel = city && state ? `${city}, ${state}` : (city ?? "");
 
 const steps: ProcessStep[] = customSteps ?? [
   { title: "Call Our Team Anytime", body: "Our dedicated team is available around the clock — call us anytime, 24/7, for support whenever you need it." },
-  { title: "On-Site Home Assessment & Estimate", body: "Get connected with a local professional to schedule an assessment and discuss your options." },
+  { title: "On-Site Home Assessment & Estimate", body: "Our IICRC-certified project manager inspects the damage on-site, documents everything for your insurance claim, and gives you a written scope and estimate." },
   { title: "Damage Mitigation & Restoration", body: "Expert team responds immediately to assess the situation, prevent further damage, and begin the restoration process without delay." },
   { title: "Get Updates Until the Job is Done", body: "From the initial assessment to the final walkthrough, you'll receive regular updates on progress, timelines, and next steps." },
 ];
 
 const whyItems = [
   { Icon: Bell, label: "24/7 Emergency Response" },
-  { Icon: HousePlus, label: "We Help You Find Experts Who Know What to Do in an Emergency" },
+  { Icon: HousePlus, label: "IICRC-Certified Crews Who Know Exactly What to Do in an Emergency" },
   { Icon: ShieldCheck, label: "Insurance-Friendly Support" },
   { Icon: BadgeCheck, label: "High-Quality Services" },
   { Icon: FileCheck, label: "On-Site Home Assessments" },
@@ -131,6 +131,7 @@ const displayPhoneRaw = (brand as any).adsTrackingPhoneRaw ?? brand.phoneRaw;
         <script is:inline define:vars={{ gadsId }}>
           window.dataLayer = window.dataLayer || [];
           function gtag(){ dataLayer.push(arguments); }
+      window.gtag = gtag;  // expose globally: define:vars wraps scripts in IIFEs; tel-click handler needs it
           gtag('js', new Date());
           gtag('config', gadsId);
         </script>
@@ -349,7 +350,7 @@ const displayPhoneRaw = (brand as any).adsTrackingPhoneRaw ?? brand.phoneRaw;
               Our Services in {locationLabel || "Your Area"}
             </h3>
             <p class="text-white/80 text-sm mb-5">
-              Get connected with a licensed {serviceLabel.toLowerCase()} professional who can help protect your home today.
+              Talk directly to our licensed {serviceLabel.toLowerCase()} team and protect your home today.
             </p>
             <a href={`tel:${displayPhoneRaw}`} class="inline-flex items-center gap-2 text-white font-bold px-8 py-4 rounded-md no-underline" style={`background:${PINK}`}>
               <Phone size={16} stroke-width={2.5} /> Call {displayPhone}
@@ -372,7 +373,7 @@ const displayPhoneRaw = (brand as any).adsTrackingPhoneRaw ?? brand.phoneRaw;
           </div>
         </div>
         <p class="text-white/25 leading-relaxed max-w-4xl mb-0 text-[11px]">
-          {brand.displayName} connects homeowners with licensed local restoration professionals. All work is performed by independent, licensed and insured contractors. Response times are estimates and may vary based on conditions and availability.
+          {brand.displayName} is a licensed and insured general contractor (WA License NATIORC792M6) serving Federal Way and the greater Puget Sound region since 2004. IICRC certified. Response times are estimates and may vary based on conditions and availability.
         </p>
       </div>
     </footer>
@@ -417,8 +418,8 @@ const displayPhoneRaw = (brand as any).adsTrackingPhoneRaw ?? brand.phoneRaw;
       <script is:inline define:vars={{ label: gadsCallConversionLabel }}>
         document.addEventListener('click', function (e) {
           var link = e.target.closest && e.target.closest('a[href^="tel:"]');
-          if (link && typeof gtag !== 'undefined') {
-            gtag('event', 'conversion', { send_to: label });
+          if (link && typeof window.gtag === 'function') {
+            gtag('event', 'conversion', { send_to: label, transport_type: 'beacon' });
           }
         });
       </script>

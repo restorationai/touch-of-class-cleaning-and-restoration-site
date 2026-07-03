@@ -7,6 +7,8 @@ primary_keyword: "7 signs you have hidden mold and what to do next"
 secondary_keywords: ["mold remediation"]
 search_intent: "informational_health"
 priority: 5.4
+hero: "https://images.homepriderestorationandcleaning.com/blog/2026/06/signs-of-hidden-mold/hero.webp"
+og: "https://images.homepriderestorationandcleaning.com/blog/2026/06/signs-of-hidden-mold/hero.webp"
 plan_hash: "669b7a6d23d06997"
 generated_at: "2026-06-15T18:43:34.885496+00:00"
 manual_override: false

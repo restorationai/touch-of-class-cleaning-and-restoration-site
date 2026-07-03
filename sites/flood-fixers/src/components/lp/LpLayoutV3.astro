@@ -88,11 +88,26 @@ const steps: ProcessStep[] = customSteps ?? [
   { title: "Updates Until the Job Is Done", body: "You receive updates at every step — from first call to final walkthrough." },
 ];
 
+// Credential claims are derived from brand data — never hardcode "IICRC" or
+// "licensed" for a client we can't verify it for (hardcoded-claims audit).
+const isIicrc = (brand.certifications || []).some((c: string) => /iicrc/i.test(c));
+const isLicensedLp = Array.isArray(brand.licenseNumbers) && brand.licenseNumbers.length > 0;
+const credentialBullet =
+  isIicrc && isLicensedLp ? "IICRC-certified, licensed & fully insured"
+  : isLicensedLp ? "Licensed & fully insured"
+  : isIicrc ? "IICRC-certified restoration professionals"
+  : "Trained, vetted restoration professionals";
+const credentialFaqAnswer =
+  isIicrc && isLicensedLp ? "We're fully licensed, insured, and IICRC-certified for water, fire, smoke, and mold restoration."
+  : isLicensedLp ? "We're fully licensed and insured for water, fire, smoke, and mold restoration."
+  : isIicrc ? "Our technicians are IICRC-certified for water, fire, smoke, and mold restoration."
+  : "Our technicians are trained and vetted for water, fire, smoke, and mold restoration.";
+
 const whyBullets = bodyContent.bullets.length
   ? bodyContent.bullets
   : [
       "60-minute emergency response, day or night",
-      "IICRC-certified, licensed & fully insured",
+      credentialBullet,
       "We bill your insurance company directly",
       "Free, no-obligation on-site assessment",
     ];
@@ -110,7 +125,7 @@ const faqs = [
   { q: "How fast can you respond to an emergency?", a: "We're available 24/7 and typically have a certified technician on-site within 60 minutes of your call." },
   { q: "Do you work with my insurance company?", a: "Yes. We document all damage, communicate directly with your adjuster, and bill your insurer for covered restoration work." },
   { q: "Is the initial assessment really free?", a: "Yes — we provide a no-obligation, on-site assessment and a written estimate before any work begins." },
-  { q: "Are you licensed and certified?", a: "We're fully licensed, insured, and IICRC-certified for water, fire, smoke, and mold restoration." },
+  { q: "Are you licensed and certified?", a: credentialFaqAnswer },
 ];
 
 // Palette
@@ -146,6 +161,7 @@ const displayPhoneRaw = (brand as any).adsTrackingPhoneRaw ?? brand.phoneRaw;
         <script is:inline define:vars={{ gadsId }}>
           window.dataLayer = window.dataLayer || [];
           function gtag(){ dataLayer.push(arguments); }
+      window.gtag = gtag;  // expose globally: define:vars wraps scripts in IIFEs; tel-click handler needs it
           gtag('js', new Date());
           gtag('config', gadsId);
         </script>
@@ -365,8 +381,8 @@ const displayPhoneRaw = (brand as any).adsTrackingPhoneRaw ?? brand.phoneRaw;
           <div>
             <div class="font-black uppercase text-sm tracking-widest mb-4" style={`color:${NAVY}`}>Why Choose Us</div>
             <div class="flex flex-col gap-2 text-sm text-gray-600">
-              <span class="flex items-center gap-2"><BadgeCheck size={16} style={`color:${GOLD_DARK}`} /> Licensed & Insured</span>
-              <span class="flex items-center gap-2"><ShieldCheck size={16} style={`color:${GOLD_DARK}`} /> IICRC Certified</span>
+              {isLicensedLp && <span class="flex items-center gap-2"><BadgeCheck size={16} style={`color:${GOLD_DARK}`} /> Licensed & Insured</span>}
+              {isIicrc && <span class="flex items-center gap-2"><ShieldCheck size={16} style={`color:${GOLD_DARK}`} /> IICRC Certified</span>}
               <span class="flex items-center gap-2"><Clock size={16} style={`color:${GOLD_DARK}`} /> 24/7 Emergency Response</span>
             </div>
           </div>
@@ -392,8 +408,8 @@ const displayPhoneRaw = (brand as any).adsTrackingPhoneRaw ?? brand.phoneRaw;
       <script is:inline define:vars={{ label: gadsCallConversionLabel }}>
         document.addEventListener('click', function (e) {
           var link = e.target.closest && e.target.closest('a[href^="tel:"]');
-          if (link && typeof gtag !== 'undefined') {
-            gtag('event', 'conversion', { send_to: label });
+          if (link && typeof window.gtag === 'function') {
+            gtag('event', 'conversion', { send_to: label, transport_type: 'beacon' });
           }
         });
       </script>

@@ -76,7 +76,7 @@ const {
                 src={pair.beforeSrc}
                 alt={pair.beforeAlt}
                 class="absolute inset-0 w-full h-full object-cover"
-                loading={i < 2 ? "eager" : "lazy"}
+                loading="lazy"
                 decoding="async"
               />
               <span class="absolute top-3 left-3 z-10 bg-dark-900/80 text-white text-xs font-black uppercase tracking-widest px-2.5 py-1 rounded backdrop-blur-sm pointer-events-none">
@@ -93,7 +93,7 @@ const {
                   src={pair.afterSrc}
                   alt={pair.afterAlt}
                   class="absolute inset-0 w-full h-full object-cover"
-                  loading={i < 2 ? "eager" : "lazy"}
+                  loading="lazy"
                   decoding="async"
                 />
                 <span class="absolute top-3 right-3 bg-primary-600/90 text-white text-xs font-black uppercase tracking-widest px-2.5 py-1 rounded backdrop-blur-sm pointer-events-none">

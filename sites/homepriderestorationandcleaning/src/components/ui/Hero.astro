@@ -16,7 +16,7 @@ const { title, subtitle, isSensitive = false, backgroundImage } = Astro.props;
 <header class="relative overflow-hidden border-t border-white/10 min-h-[78vh] md:min-h-[80vh] flex items-center">
   {backgroundImage ? (
     <div class="absolute inset-0 z-0">
-      <img src={backgroundImage} alt="Background" class="w-full h-full object-cover object-[center_35%]" />
+      <img src={backgroundImage} alt="Background" loading="eager" fetchpriority="high" decoding="async" class="w-full h-full object-cover object-[center_35%]" />
       <div class="absolute inset-0 bg-dark-900/40"></div>
     </div>
   ) : (

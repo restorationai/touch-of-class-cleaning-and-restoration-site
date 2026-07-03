@@ -39,11 +39,32 @@ export default {
           950: "#450a0a",
         },
         accent: {
-          DEFAULT: "#ef4444", // Brighter red for urgent CTA
+          // #dc2626 (was #ef4444): keeps the urgent red but meets WCAG AA 4.5:1
+          // with white button text (audit: color-contrast)
+          DEFAULT: "#dc2626",
         },
         muted: {
           DEFAULT: "#4b5563", // gray-600 for sensitive pages
-        }
+        },
+        /* navy — deep blue-black surface used by Footer (text-navy-900 on the
+           inverted white footer), GoogleMap/InternalLinks sections, and interior
+           page-route backgrounds. Was referenced by components but never defined,
+           so Tailwind dropped every navy-* class and the white footer rendered
+           white-on-white text (audit: color-contrast). */
+        navy: {
+          DEFAULT: "#0f172a",
+          50: "#f8fafc",
+          100: "#f1f5f9",
+          200: "#e2e8f0",
+          300: "#cbd5e1",
+          400: "#94a3b8",
+          500: "#64748b",
+          600: "#475569",
+          700: "#334155",
+          800: "#1e293b",
+          900: "#0f172a",
+          950: "#020617",
+        },
       },
       fontFamily: {
         sans: ["Inter", "system-ui", "sans-serif"],

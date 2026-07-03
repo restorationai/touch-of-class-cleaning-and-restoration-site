@@ -7,6 +7,8 @@ primary_keyword: "black mold vs regular mold how to tell the difference"
 secondary_keywords: ["mold remediation"]
 search_intent: "informational_health"
 priority: 4.8
+hero: "https://images.homepriderestorationandcleaning.com/blog/2026/06/black-mold-vs-regular-mold/hero.webp"
+og: "https://images.homepriderestorationandcleaning.com/blog/2026/06/black-mold-vs-regular-mold/hero.webp"
 plan_hash: "2692043e7e7657ec"
 generated_at: "2026-06-15T18:52:26.819715+00:00"
 manual_override: false

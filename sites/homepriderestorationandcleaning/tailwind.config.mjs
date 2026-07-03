@@ -26,25 +26,49 @@ export default {
           900: "#111827",
           950: "#030712",
         },
+        /* primary DEFAULT/600 darkened one step (orange-700) so white-on-primary
+           CTAs meet WCAG AA 4.5:1 (audit: color-contrast). 400/500 keep the brand
+           orange for accents on dark surfaces. */
         primary: {
-          DEFAULT: "#f97316",
+          DEFAULT: "#c2410c",
           50: "#fff7ed",
           100: "#ffedd5",
           200: "#fed7aa",
           300: "#fdba74",
           400: "#fb923c",
           500: "#f97316",
-          600: "#ea580c",
-          700: "#c2410c",
+          600: "#c2410c",
+          700: "#9a3412",
           800: "#9a3412",
           900: "#7c2d12",
           950: "#431407",
         },
         accent: {
-          DEFAULT: "#fb923c",
+          // #c2410c (was #fb923c): white-on-accent CTAs (btn-accent) now meet
+          // WCAG AA 4.5:1 (audit: color-contrast)
+          DEFAULT: "#c2410c",
         },
         muted: {
           DEFAULT: "#4b5563",
+        },
+        /* navy — deep blue-black surface used by Footer (text-navy-900 on the
+           inverted white footer), GoogleMap/InternalLinks sections, and interior
+           page-route backgrounds. Was referenced by components but never defined,
+           so Tailwind dropped every navy-* class and the white footer rendered
+           white-on-white text (audit: color-contrast). */
+        navy: {
+          DEFAULT: "#0f172a",
+          50: "#f8fafc",
+          100: "#f1f5f9",
+          200: "#e2e8f0",
+          300: "#cbd5e1",
+          400: "#94a3b8",
+          500: "#64748b",
+          600: "#475569",
+          700: "#334155",
+          800: "#1e293b",
+          900: "#0f172a",
+          950: "#020617",
         },
       },
       fontFamily: {

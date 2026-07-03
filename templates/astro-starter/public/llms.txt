@@ -2,23 +2,22 @@
 
 > {{BRAND_TAGLINE}}
 
-{{BRAND_DISPLAY_NAME}} ({{BRAND_LEGAL_NAME}}) is a licensed, insured restoration contractor serving {{BRAND_PRIMARY_CITY}}, {{BRAND_PRIMARY_STATE}} and surrounding areas since {{BRAND_FOUNDED_YEAR}}. We provide 24/7 emergency response for water, fire, mold, storm, biohazard, and reconstruction services. Phone: {{BRAND_PHONE}} · Email: {{BRAND_EMAIL}}.
+{{BRAND_DISPLAY_NAME}} ({{BRAND_LEGAL_NAME}}) is a professional restoration contractor serving {{BRAND_PRIMARY_CITY}}, {{BRAND_PRIMARY_STATE}} and surrounding areas since {{BRAND_FOUNDED_YEAR}}. We provide 24/7 emergency response for water, fire, mold, storm, biohazard, and reconstruction services. Phone: {{BRAND_PHONE}} · Email: {{BRAND_EMAIL}}.
 
 ## Site index
 
 This file is intended for AI assistants and language models to efficiently ingest the structure and content of this website. The full list of pages is in the sitemap at {{BRAND_CANONICAL_URL}}/sitemap-index.xml.
 
 ### Core service pages
-<!-- Skill 3 substitutes the actual service list at scaffold time. -->
 {{LLMS_SERVICES_INDEX}}
 
 ### Service area pages
 {{LLMS_SERVICE_AREAS_INDEX}}
 
 ### Resources
-- Blog: {{BRAND_CANONICAL_URL}}/blog/
-- About: {{BRAND_CANONICAL_URL}}/about/
-- Contact: {{BRAND_CANONICAL_URL}}/contact/
+- [Blog]({{BRAND_CANONICAL_URL}}/blog/): Restoration guides and local resources
+- [About]({{BRAND_CANONICAL_URL}}/about/): Company background and credentials
+- [Contact]({{BRAND_CANONICAL_URL}}/contact/): Phone, email, and service request form
 
 ## Key facts
 

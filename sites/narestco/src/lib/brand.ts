@@ -38,9 +38,10 @@ export const brand = {
   licenseAuthority: "WA State Department of Labor & Industries",
   licenseType: "General Contractor Certificate of Registration",
   certifications: ["IICRC Certified", "BBB Accredited", "Lead-Safe Certified Firm", "EPA Certified", "ANSI Certified"] as string[],
+  trustBadges: [] as string[],
   sameAsUrls: ["https://www.google.com/maps?cid=12984564642744438542", "https://www.facebook.com/narestco", "https://www.instagram.com/narestco", "https://www.tiktok.com/@narestco", "https://twitter.com/narestco"] as string[],
-  gbpRatingValue: "",
-  gbpReviewCount: "",
+  gbpRatingValue: "4.9",
+  gbpReviewCount: "53",
   tagline: "24/7 restoration services in Federal Way, WA.",
 } as const;
 

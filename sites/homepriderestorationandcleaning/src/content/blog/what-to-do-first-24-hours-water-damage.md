@@ -7,6 +7,8 @@ primary_keyword: "what to do in the first 24 hours after water damage"
 secondary_keywords: ["water damage restoration"]
 search_intent: "informational_emergency"
 priority: 6.0
+hero: "https://images.homepriderestorationandcleaning.com/blog/2026/06/what-to-do-first-24-hours-water-damage/hero.webp"
+og: "https://images.homepriderestorationandcleaning.com/blog/2026/06/what-to-do-first-24-hours-water-damage/hero.webp"
 plan_hash: "d7733d880b96dfb0"
 generated_at: "2026-06-15T19:08:18.416147+00:00"
 manual_override: false

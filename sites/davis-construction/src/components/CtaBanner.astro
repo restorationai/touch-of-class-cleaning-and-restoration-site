@@ -21,10 +21,12 @@ const bgImg = background_image || `${brand.imagesBase}/brand/hero.webp`;
 <section class="relative py-40 bg-dark overflow-hidden">
   {/* Background Image Container */}
   <div class="absolute inset-0 z-0">
-    <img 
-      src={bgImg} 
-      alt="Professional restoration and construction site" 
-      class="w-full h-full object-cover" 
+    <img
+      src={bgImg}
+      alt="Professional restoration and construction site"
+      loading="lazy"
+      decoding="async"
+      class="w-full h-full object-cover"
     />
     {/* Dark overlay to ensure text readability */}
     <div class="absolute inset-0 bg-black/60"></div>

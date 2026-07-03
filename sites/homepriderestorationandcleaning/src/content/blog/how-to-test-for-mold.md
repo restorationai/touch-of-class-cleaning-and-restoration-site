@@ -7,6 +7,8 @@ primary_keyword: "how to test for mold in your home diy kits vs a pro inspection
 secondary_keywords: ["mold remediation", "mold inspection and testing"]
 search_intent: "informational_health"
 priority: 5.4
+hero: "https://images.homepriderestorationandcleaning.com/blog/2026/06/how-to-test-for-mold/hero.webp"
+og: "https://images.homepriderestorationandcleaning.com/blog/2026/06/how-to-test-for-mold/hero.webp"
 plan_hash: "39aa50346175f2e4"
 generated_at: "2026-06-26T05:09:22.594468+00:00"
 manual_override: false

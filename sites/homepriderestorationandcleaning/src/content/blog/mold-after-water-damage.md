@@ -7,6 +7,8 @@ primary_keyword: "how quickly does mold grow after water damage"
 secondary_keywords: ["mold remediation", "water damage restoration"]
 search_intent: "informational_emergency"
 priority: 4.8
+hero: "https://images.homepriderestorationandcleaning.com/blog/2026/06/mold-after-water-damage/hero.webp"
+og: "https://images.homepriderestorationandcleaning.com/blog/2026/06/mold-after-water-damage/hero.webp"
 plan_hash: "58a8b27d831135ef"
 generated_at: "2026-06-15T18:52:51.880738+00:00"
 manual_override: false

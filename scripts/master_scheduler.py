@@ -80,7 +80,11 @@ HEADLESS_ALLOWED_TOOLS = {
 
 SCHEDULE_DEFAULTS = {
     1: {"name": "keyword-researcher",     "cadence_days": 14, "driver": "agent"},
-    2: {"name": "content-writer",         "cadence_days":  3, "driver": "script"},
+    # 2 (not 3): the Mon+Thu crons are nominally 3 days apart, but GitHub cron start
+    # times jitter by up to ~2h, so a strict >=3d check made Thursday runs land at
+    # ~2d22h and skip the post (observed Jun 18 + Jun 25). 2 days keeps Mon->Thu and
+    # Thu->Mon both reliably due while still preventing double-posts within one day.
+    2: {"name": "content-writer",         "cadence_days":  2, "driver": "script"},
     3: {"name": "onsite-audit",           "cadence_days": 30, "driver": "agent"},
     4: {"name": "refresh-recommender",    "cadence_days": 30, "driver": "split"},  # L1 script, L2 agent
 }

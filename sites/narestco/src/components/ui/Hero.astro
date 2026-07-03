@@ -19,7 +19,7 @@ const { title, subtitle, ctaText = "Get Help Now", ctaLink = "tel:18001234567", 
   {/* Background image or solid dark color */}
   {backgroundImage ? (
     <div class="absolute inset-0 z-0">
-      <img src={backgroundImage} alt="Background" class="w-full h-full object-cover object-[center_25%]" />
+      <img src={backgroundImage} alt="Background" loading="eager" fetchpriority="high" decoding="async" class="w-full h-full object-cover object-[center_25%]" />
       <div class="absolute inset-0 bg-dark-900/40"></div>
     </div>
   ) : (

@@ -344,6 +344,19 @@ def build_prompt_inputs(slug: str, item: dict) -> tuple[str, str]:
             None
         )
 
+    # Existing published posts (slug + title) so the model can interlink the blog.
+    # The prompt caps usage at 1-2 links and only when topically relevant.
+    existing_posts = []
+    blog_dir = SITES_DIR / slug / "src" / "content" / "blog"
+    if blog_dir.exists():
+        for md in sorted(blog_dir.glob("*.md")):
+            title = ""
+            for line in md.read_text().splitlines()[:12]:
+                if line.startswith("title:"):
+                    title = line.split(":", 1)[1].strip().strip('"')
+                    break
+            existing_posts.append({"path": f"/blog/{md.stem}/", "title": title})
+
     context = {
         "slug": slug,
         "client": {
@@ -357,6 +370,8 @@ def build_prompt_inputs(slug: str, item: dict) -> tuple[str, str]:
         "services_selected": services,
         "queue_item": item,
         "city_anchor_record": city_anchor_record,
+        "existing_blog_posts": existing_posts,
+        "current_month": datetime.now(timezone.utc).strftime("%B %Y"),
     }
 
     user = (

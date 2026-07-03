@@ -220,13 +220,14 @@ def build_llms_substitutions(plan_input: dict, client: dict) -> dict:
     catalog_path = TEMPLATES_DIR / "restoration" / "services.json"
     catalog = {s["slug"]: s for s in load_json(catalog_path)["services"]}
 
+    # llms.txt spec recommends markdown link lists: "- [Name](url)"
     svc_lines = []
     for slug in services:
         s = catalog.get(slug, {"display_name": slug})
-        svc_lines.append(f"- {s['display_name']}: https://{domain}/services/{slug}/")
+        svc_lines.append(f"- [{s['display_name']}](https://{domain}/services/{slug}/)")
     area_lines = []
     for a in areas:
-        area_lines.append(f"- {a['city']}, {a['state']}: https://{domain}/service-areas/{a['slug']}/")
+        area_lines.append(f"- [{a['city']}, {a['state']}](https://{domain}/service-areas/{a['slug']}/)")
 
     radius_default = f"Greater {areas[0]['city']} region" if areas else "Local area"
     radius = plan_input.get("service_radius_description") or radius_default
@@ -234,7 +235,9 @@ def build_llms_substitutions(plan_input: dict, client: dict) -> dict:
     return {
         "LLMS_SERVICES_INDEX": "\n".join(svc_lines) if svc_lines else "(no services)",
         "LLMS_SERVICE_AREAS_INDEX": "\n".join(area_lines) if area_lines else "(no areas)",
-        "LLMS_CERTIFICATIONS": ", ".join(certs) if certs else "Licensed and insured",
+        # Never default to an unverified "Licensed and insured" claim — only list
+        # certifications we actually have on file (hardcoded-claims audit).
+        "LLMS_CERTIFICATIONS": ", ".join(certs) if certs else "Available on request",
         "LLMS_SERVICE_RADIUS": radius,
     }
 

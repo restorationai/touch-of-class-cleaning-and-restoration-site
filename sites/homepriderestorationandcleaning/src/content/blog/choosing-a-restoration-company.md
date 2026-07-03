@@ -7,6 +7,8 @@ primary_keyword: "how to choose a restoration company in  without getting burned
 secondary_keywords: ["water damage restoration", "fire damage restoration", "mold remediation"]
 search_intent: "commercial_decision"
 priority: 5.4
+hero: "https://images.homepriderestorationandcleaning.com/blog/2026/06/choosing-a-restoration-company/hero.webp"
+og: "https://images.homepriderestorationandcleaning.com/blog/2026/06/choosing-a-restoration-company/hero.webp"
 plan_hash: "0cb75dafabbc7aaa"
 generated_at: "2026-06-15T18:44:22.016260+00:00"
 manual_override: false

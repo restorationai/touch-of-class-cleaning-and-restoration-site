@@ -405,9 +405,16 @@ def sync(slug: str) -> str:
 
 
 def cmd_sync(args) -> int:
+    failures = 0
     for slug in _clients(args):
-        print("  " + sync(slug))
-    return 0
+        try:
+            print("  " + sync(slug))
+        except Exception as e:  # one client must never abort a scheduled --all run
+            failures += 1
+            print(f"  {slug}: ERROR ({type(e).__name__}: {str(e)[:200]}) — skipped")
+    if failures:
+        print(f"  ({failures} client(s) errored and were skipped — see above)")
+    return 0  # non-fatal: a client error shouldn't fail the scheduled run
 
 
 # --------------------------------------------------------------------------- #
@@ -556,6 +563,21 @@ def _matches(term: str, pool: list) -> bool:
     return bool(n) and any(n == _norm(p) or n in _norm(p) or _norm(p) in n for p in pool)
 
 
+def _norm_service(term: str) -> str:
+    """Normalize a service item for whole-phrase comparison. Handles structured
+    GBP ids ('job_type_id:mold_remediation' -> same key as 'Mold Remediation')."""
+    t = re.sub(r"^job_type_id:", "", (term or "").strip())
+    return _norm(t.replace("_", " "))
+
+
+def _matches_exact(term: str, pool: list) -> bool:
+    """Strict membership: whole-phrase equality on the normalized string. Only this
+    justifies a forced REMOVE — substring hits (e.g. 'plumbing' inside 'Plumbing
+    Leak Water Cleanup') are too loose to auto-act on."""
+    n = _norm_service(term)
+    return bool(n) and any(n == _norm_service(p) for p in pool)
+
+
 def optimize(slug: str) -> dict:
     """Audit the live GBP against confirmed services + the best-practices ruleset.
     Returns {summary, items[]} and upserts items to marketing_gbp_suggestions."""
@@ -601,12 +623,33 @@ def optimize(slug: str) -> dict:
     result = _anthropic_json(rules, instruction)
     items = result.get("items", [])
 
+    # Structured (job_type_id) services the model classified KEEP — a free-form
+    # REMOVE of the same normalized service contradicts them and must never
+    # auto-execute (e.g. free-form "Mold Remediation" vs job_type_id:mold_remediation).
+    structured_keeps = {
+        _norm_service(it.get("item", "")) for it in items
+        if it.get("verdict") == "KEEP" and str(it.get("item", "")).startswith("job_type_id")}
+
     # Deterministic guardrail overrides the model on the non-negotiables.
     for it in items:
         term, vtype = it.get("item", ""), it.get("item_type")
-        if _matches(term, dont):
+        if _matches_exact(term, dont):
+            # Whole-phrase match on a declared negative -> forced REMOVE.
             it["verdict"], it["confidence"] = "REMOVE", max(it.get("confidence", 0), 0.95)
             it["reason"] = "Client declared they do NOT offer this (negative_services)."
+        elif _matches(term, dont):
+            # Substring-only (fuzzy) hit — too loose to auto-remove ('plumbing' in
+            # 'Plumbing Leak Water Cleanup'). Surface for a human, never auto-act.
+            it["verdict"] = "NEEDS-REVIEW"
+            it["confidence"] = min(float(it.get("confidence", 0) or 0), 0.6)
+            it["reason"] = "Fuzzy match to a negative_services entry — verify before removing."
+        if (it.get("verdict") == "REMOVE"
+                and not str(term).startswith("job_type_id")
+                and _norm_service(term) in structured_keeps):
+            # Conflict: the structured equivalent is KEEP — never auto-remove.
+            it["verdict"] = "NEEDS-REVIEW"
+            it["confidence"] = min(float(it.get("confidence", 0) or 0), 0.6)
+            it["reason"] = "Conflicts with a KEEP on the structured (job_type_id) equivalent."
         it["auto_safe"] = bool(
             it.get("verdict") in ("ADD", "MERGE", "REMOVE")
             and vtype not in ("category", "page")  # pages fan out 13x; categories high-stakes
@@ -621,6 +664,14 @@ def optimize(slug: str) -> dict:
     } for it in items if it.get("item")]
     if rows:
         _sb_delete("marketing_gbp_suggestions", f"company_id=eq.{cid}&status=eq.open")
+        # Never resurrect suggestions a human already settled: upserting with
+        # status='open' on (company_id,item_type,item) would flip dismissed/applied
+        # rows back to open. Exclude those keys so human decisions stick.
+        settled = _sb(f"marketing_gbp_suggestions?company_id=eq.{cid}"
+                      f"&status=in.(dismissed,applied)&select=item,item_type")
+        settled_keys = {(s.get("item_type"), s.get("item")) for s in settled}
+        rows = [r for r in rows if (r["item_type"], r["item"]) not in settled_keys]
+    if rows:
         _sb_upsert("marketing_gbp_suggestions", rows, on_conflict="company_id,item_type,item")
     from collections import Counter
     by_verdict = Counter(it.get("verdict") for it in items)

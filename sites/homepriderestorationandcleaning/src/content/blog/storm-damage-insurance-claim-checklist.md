@@ -7,6 +7,8 @@ primary_keyword: "storm damage insurance claim checklist use this before you cal
 secondary_keywords: ["storm damage restoration"]
 search_intent: "informational_insurance"
 priority: 4.8
+hero: "https://images.homepriderestorationandcleaning.com/blog/2026/06/storm-damage-insurance-claim-checklist/hero.webp"
+og: "https://images.homepriderestorationandcleaning.com/blog/2026/06/storm-damage-insurance-claim-checklist/hero.webp"
 plan_hash: "b84337ede9beb9b1"
 generated_at: "2026-06-15T18:52:27.884564+00:00"
 manual_override: false

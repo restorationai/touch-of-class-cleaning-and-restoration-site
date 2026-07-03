@@ -7,6 +7,8 @@ primary_keyword: "how professionals remove smoke odor and why diy usually fails"
 secondary_keywords: ["smoke damage restoration", "fire damage restoration"]
 search_intent: "informational_specialty"
 priority: 4.2
+hero: "https://images.narestco.com/blog/2026/05/smoke-odor-removal-techniques/hero.webp"
+og: "https://images.narestco.com/blog/2026/05/smoke-odor-removal-techniques/hero.webp"
 plan_hash: "80bb3c0d4693630d"
 generated_at: "2026-05-14T15:09:03.728809+00:00"
 manual_override: false

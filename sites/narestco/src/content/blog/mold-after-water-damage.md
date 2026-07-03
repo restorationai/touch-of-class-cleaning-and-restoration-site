@@ -7,6 +7,8 @@ primary_keyword: "how quickly does mold grow after water damage"
 secondary_keywords: ["mold remediation", "water damage restoration"]
 search_intent: "informational_emergency"
 priority: 4.8
+hero: "https://images.narestco.com/blog/2026/05/mold-after-water-damage/hero.webp"
+og: "https://images.narestco.com/blog/2026/05/mold-after-water-damage/hero.webp"
 plan_hash: "58a8b27d831135ef"
 generated_at: "2026-05-14T15:07:01.877003+00:00"
 manual_override: false

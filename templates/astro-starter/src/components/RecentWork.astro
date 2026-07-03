@@ -15,13 +15,13 @@ const photos = (brand.jobPhotos || []).slice(0, 12);
         <h2>Real jobs from our {brand.primaryCity} crews</h2>
       </div>
       <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4">
-        {photos.map((src, i) => (
+        {photos.map((src) => (
           <div class="relative aspect-square rounded-xl overflow-hidden border border-white/10 shadow-lg bg-white/5">
             <img
               src={src}
               alt={`${brand.displayName} — recent ${brand.primaryCity} restoration job`}
               class="w-full h-full object-cover"
-              loading={i < 4 ? "eager" : "lazy"}
+              loading="lazy"
               decoding="async"
             />
           </div>

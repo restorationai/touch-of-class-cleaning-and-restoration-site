@@ -18,7 +18,11 @@ better. Accuracy and focus beat a stuffed listing.
      override. A wrong service erodes trust and can trigger GBP suspension.
 3. If a candidate is neither clearly in `services` nor `negative_services`, it is
    **NEEDS-REVIEW** — never auto-add. Do not assume from the industry.
-4. The business's real-world offering wins over any website or scaffold artifact.
+4. **A human dismissal is a decision, not noise.** If the operator dismissed a REMOVE
+   suggestion for an item, its `negative_services` mapping is DISPUTED: the human
+   looked at that exact removal and said no. Do not re-emit REMOVE for it — emit
+   NEEDS-REVIEW at most, and say the mapping is disputed in the reason.
+5. The business's real-world offering wins over any website or scaffold artifact.
    Onboarding scaffolds sometimes inject templated services the client never offered
    (e.g. "Fabric Protection" on a water-damage company) — treat unconfirmed items as
    suspect, not as fact.
@@ -37,6 +41,10 @@ better. Accuracy and focus beat a stuffed listing.
   the client clearly does not do.
 - Never recommend more than 10 secondary categories total. If more than 10 plausible
   ones exist, rank them and keep the strongest; the rest are NEEDS-REVIEW at most.
+- **Never suggest changing the primary category.** Do not emit ADD/REMOVE/MERGE for the
+  primary category under any circumstance. If the evidence strongly says the primary
+  category is wrong, the most you may emit is NEEDS-REVIEW with the evidence spelled
+  out in the reason — a human makes the call.
 
 ## Services (LOWER STAKES — relevance + dedupe over volume)
 
@@ -58,6 +66,14 @@ better. Accuracy and focus beat a stuffed listing.
     performs the work. Do NOT merge a specific scenario into its parent category.
   - Rule of thumb: same *work*, different words → MERGE. Different *situations* that
     share a parent → KEEP both.
+- **A MERGE is only valid if the canonical will EXIST on the listing after the
+  operation.** Applying a MERGE deletes the duplicates — if the canonical isn't there,
+  the service vanishes entirely (this has destroyed live coverage before). Before
+  emitting any MERGE, verify the canonical is either (a) currently live on the listing
+  (in `live_gbp_services`, free-form or structured), or (b) emitted as an ADD in this
+  same run. If neither holds, emit the ADD for the canonical alongside the MERGE, or
+  downgrade the whole group to NEEDS-REVIEW. Never emit a MERGE whose canonical would
+  not survive the apply.
 - **Structured (`job_type_id:`) items are Google-recognized canonical types — prefer
   them.** A service shown as `job_type_id:water_damage_mold_removal` is one of Google's
   predefined service types for the category; these are stronger signals than free-form

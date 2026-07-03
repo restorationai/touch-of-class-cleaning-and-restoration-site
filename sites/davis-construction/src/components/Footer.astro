@@ -67,15 +67,15 @@ const year = new Date().getFullYear();
     </div>
   </div>
 
-  <div class="container-wide mt-16 pt-8 border-t border-navy-900/10 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 text-xs text-navy-900/60">
+  <div class="container-wide mt-16 pt-8 border-t border-navy-900/10 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 text-xs text-navy-900/70">
     <div>© {year} {brand.legalName}. All rights reserved.</div>
     <div class="flex flex-wrap items-center gap-x-3 gap-y-1">
       <span>{brand.licenseType}</span>
-      <span class="text-navy-900/30">·</span>
+      <span class="text-navy-900/70" aria-hidden="true">·</span>
       <span>{brand.licenseAuthority}</span>
       {brand.licenseNumbers && Array.isArray(brand.licenseNumbers) && brand.licenseNumbers.length > 0 && (
         <>
-          <span class="text-navy-900/30">·</span>
+          <span class="text-navy-900/70" aria-hidden="true">·</span>
           <span>#{brand.licenseNumbers.join(", #")}</span>
         </>
       )}

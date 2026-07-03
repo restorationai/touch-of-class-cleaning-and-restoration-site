@@ -1,13 +1,44 @@
 ---
-import { MapPin, Users, Clock, Shield, IdCard } from '@lucide/astro';
+import { brand } from "~/lib/brand";
+import { MapPin, Users, Clock, Shield, BadgeCheck, Star, Award } from '@lucide/astro';
 
-const items = [
-  { icon: MapPin, label: "100% Local" },
-  { icon: Users, label: "Family Business" },
-  { icon: Clock, label: "12+ Years Experience" },
-  { icon: Shield, label: "Insured" },
-  { icon: IdCard, label: "Fully Licensed" },
-];
+// "Since {foundedYear}" is a hard fact (no rounding that could drift from body copy).
+const founded = parseInt(String(brand.foundedYear), 10);
+const sinceLabel =
+  Number.isFinite(founded) && founded > 1900 && founded <= new Date().getFullYear()
+    ? `Since ${founded}` : null;
+
+// The client's SELECTED trust badges (from onboarding) drive the strip. Fall back to
+// safe, generally-true defaults — never a hardcoded claim that could be false for a
+// given client (the old "Family Business / 12+ Years" bug). Claims are gated on
+// brand data: "Licensed & Insured" requires a license number on file; "24/7"
+// requires 24/7 hours; certifications come straight from brand.certifications.
+const isLicensed = Array.isArray(brand.licenseNumbers) && brand.licenseNumbers.length > 0;
+const is247 = /24\s*[\/x-]?\s*7|24 ?hours/i.test(String(brand.hours || ""));
+const certBadges = (brand.certifications || []).slice(0, 2);
+const badges: string[] =
+  brand.trustBadges && brand.trustBadges.length
+    ? [...brand.trustBadges]
+    : [
+        "Locally Owned",
+        ...(sinceLabel ? [sinceLabel] : []),
+        ...(isLicensed ? ["Licensed & Insured"] : []),
+        ...(is247 ? ["24/7 Emergency Service"] : []),
+        ...certBadges,
+      ];
+
+function iconFor(label: string) {
+  const t = label.toLowerCase();
+  if (t.includes("star") || t.includes("rated")) return Star;
+  if (t.includes("guarantee") || t.includes("award") || t.includes("voted") || t.includes("#1")) return Award;
+  if (t.includes("year") || t.includes("since") || t.includes("est.") || t.includes("24") || t.includes("emergency")) return Clock;
+  if (t.includes("licens") || t.includes("insur") || t.includes("certif") || t.includes("iicrc") || t.includes("bonded")) return Shield;
+  if (t.includes("financ") || t.includes("estimate") || t.includes("billing")) return BadgeCheck;
+  if (t.includes("local") || t.includes("family") || t.includes("owned") || t.includes("veteran") || t.includes("woman")) return Users;
+  return MapPin;
+}
+
+const items = badges.slice(0, 6).map((label) => ({ icon: iconFor(label), label }));
 ---
 
 <section class="bg-dark py-16 md:py-8 text-white border-y border-white/10">

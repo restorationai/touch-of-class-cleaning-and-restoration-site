@@ -86,8 +86,12 @@ const carriers = [
   "Stillwater Insurance", "Lemonade Insurance", "All Other Providers!",
 ];
 
+// "Licensed & Insured" only when we actually hold license data for this client
+// (hardcoded-claims audit); the other badges are universally-true service claims.
 const trustBadges = [
-  { Icon: BadgeCheck, label: "Licensed & Insured" },
+  ...(Array.isArray(brand.licenseNumbers) && brand.licenseNumbers.length
+    ? [{ Icon: BadgeCheck, label: "Licensed & Insured" }]
+    : []),
   { Icon: Clock, label: "Emergency Response" },
   { Icon: FileText, label: "Stress-Free Claims" },
   { Icon: Headphones, label: "24/7 Availability" },
@@ -130,6 +134,7 @@ const displayPhoneRaw = (brand as any).adsTrackingPhoneRaw ?? brand.phoneRaw;
         <script is:inline define:vars={{ gadsId }}>
           window.dataLayer = window.dataLayer || [];
           function gtag(){ dataLayer.push(arguments); }
+      window.gtag = gtag;  // expose globally: define:vars wraps scripts in IIFEs; tel-click handler needs it
           gtag('js', new Date());
           gtag('config', gadsId);
         </script>
@@ -340,8 +345,8 @@ const displayPhoneRaw = (brand as any).adsTrackingPhoneRaw ?? brand.phoneRaw;
       <script is:inline define:vars={{ label: gadsCallConversionLabel }}>
         document.addEventListener('click', function (e) {
           var link = e.target.closest && e.target.closest('a[href^="tel:"]');
-          if (link && typeof gtag !== 'undefined') {
-            gtag('event', 'conversion', { send_to: label });
+          if (link && typeof window.gtag === 'function') {
+            gtag('event', 'conversion', { send_to: label, transport_type: 'beacon' });
           }
         });
       </script>

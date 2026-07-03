@@ -32,6 +32,7 @@ export const brand = {
   licenseAuthority: "",
   licenseType: "",
   certifications: [] as string[],
+  trustBadges: [] as string[],
   sameAsUrls: [] as string[],
   gbpRatingValue: "",
   gbpReviewCount: "",

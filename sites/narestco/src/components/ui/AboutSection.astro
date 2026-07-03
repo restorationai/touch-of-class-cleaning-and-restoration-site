@@ -27,9 +27,11 @@ const isLogo = imageSrc === brand.logoUrl;
       </div>
 
       <div class="relative flex justify-center items-center">
-         <img 
-           src={imageSrc} 
-           alt={imageAlt} 
+         <img
+           src={imageSrc}
+           alt={imageAlt}
+           loading="lazy"
+           decoding="async"
            class={isLogo 
              ? "w-full max-w-[280px] md:max-w-[400px] h-auto object-contain drop-shadow-[0_20px_20px_rgba(0,0,0,0.4)] opacity-100"
              : "w-full h-auto rounded-xl shadow-2xl object-cover aspect-video lg:aspect-square"

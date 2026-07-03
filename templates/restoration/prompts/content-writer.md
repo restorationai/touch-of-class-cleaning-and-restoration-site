@@ -51,6 +51,9 @@ For every blog post:
 3. **Reference the client's actual services** via internal links — pull from `services_selected[]`. Bad: link to a service the client doesn't offer. Good: only link to services in their plan.
 4. **If `city_anchor` is set**, the post is location-specific — weave in 1-2 named neighborhoods + 1-2 landmarks from that area's `service_areas[]` entry. If `city_anchor` is null, the post is national/general — DO NOT force in city references.
 5. **Service-specific FAQs** that are about this topic specifically, not generic restoration FAQs. The FAQs become FAQPage schema; they must be useful Q&As, not "how fast can you respond" boilerplate.
+6. **Source-backed claims (E-E-A-T).** When you cite a standard, statistic, or regulation, link to the authoritative source as a markdown link in the body: IICRC (iicrc.org), EPA (epa.gov), FEMA (fema.gov), NFPA, NOAA, or the state's official agency. 1-3 external links per post. ONLY link to stable, well-known pages you are certain exist (an org's homepage or a canonical program page like epa.gov/mold). If you are not sure of the exact URL, name the organization in prose without a link — never guess a deep URL.
+7. **Interlink the blog.** The client context includes `existing_blog_posts` (path + title). If 1-2 of them are genuinely relevant to this topic, link to them naturally in the body using their exact `path`. Never force a link and never invent a post path not in the list.
+8. **Seasonal awareness.** The client context includes `current_month`. Never frame the post as if the reader is inside a season they are not in (no "this winter" or "after the latest storm" framing for a July publish). Off-season topics are fine — frame them as preparation ("before the first freeze hits Heber Valley...").
 
 ---
 

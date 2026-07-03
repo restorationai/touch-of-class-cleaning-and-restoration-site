@@ -7,6 +7,8 @@ primary_keyword: "why you cant diy sewage backup the health risks nobody warns y
 secondary_keywords: ["sewage cleanup and sanitization"]
 search_intent: "informational_health"
 priority: 4.2
+hero: "https://images.homepriderestorationandcleaning.com/blog/2026/06/sewage-backup-health-risks/hero.webp"
+og: "https://images.homepriderestorationandcleaning.com/blog/2026/06/sewage-backup-health-risks/hero.webp"
 plan_hash: "6dcd9f9b4dd250b0"
 generated_at: "2026-06-15T18:56:03.074512+00:00"
 manual_override: false

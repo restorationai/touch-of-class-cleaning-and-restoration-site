@@ -36,6 +36,48 @@ const {
 const fullCanonical = canonical_url ?? `${brand.canonicalUrl}${Astro.url.pathname}`;
 const ogImage = hero_image_url ?? `${brand.imagesBase}/brand/hero.webp`;
 
+// Keep the rendered <title> at or under 65 chars (audit: title_length_over_65 on
+// every page). Plan-generated titles are "{descriptor} | {brand}" compositions;
+// shorten them here rather than editing hundreds of content files.
+function fitTitle(raw: string): string {
+  const MAX = 65;
+  let t = raw.trim();
+  if (t.length <= MAX) return t;
+  // 1) Swap the full display name for the short name when they differ.
+  if (brand.shortName && brand.shortName !== brand.displayName && t.includes(brand.displayName)) {
+    t = t.split(brand.displayName).join(brand.shortName);
+    if (t.length <= MAX) return t;
+  }
+  // 2) Drop a " | "-delimited segment that is exactly the brand name — the
+  //    remaining segment keeps the page's keyword phrasing.
+  let parts = t.split(" | ").map((p) => p.trim());
+  if (parts.length > 1) {
+    const brandNames = [brand.displayName, brand.shortName, brand.legalName].filter(Boolean);
+    const kept = parts.filter((p) => !brandNames.includes(p));
+    if (kept.length > 0 && kept.length < parts.length) {
+      parts = kept;
+      t = parts.join(" | ");
+      if (t.length <= MAX) return t;
+    }
+  }
+  // 3) Drop trailing segments until it fits.
+  while (t.length > MAX && parts.length > 1) {
+    parts = parts.slice(0, -1);
+    t = parts.join(" | ");
+  }
+  if (t.length <= MAX) return t;
+  // 4) Last resort: truncate on a word boundary.
+  const cut = t.slice(0, MAX + 1);
+  const space = cut.lastIndexOf(" ");
+  return (space > 40 ? cut.slice(0, space) : t.slice(0, MAX)).trim();
+}
+const pageTitle = fitTitle(title);
+
+// Google Fonts stylesheet URL — loaded non-render-blocking below (audit:
+// render_blocking_resources; was a blocking @import in global.css).
+const fontsHref = "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap";
+
+
 const ctx: PageSchemaContext = {
   archetype: schema_ctx.archetype ?? "unknown",
   url: Astro.url.pathname,
@@ -54,13 +96,13 @@ const ctx: PageSchemaContext = {
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#0d1b3e" />
-    <title>{title}</title>
+    <title>{pageTitle}</title>
     <meta name="description" content={meta_description} />
     <link rel="canonical" href={fullCanonical} />
     {noindex && <meta name="robots" content="noindex,nofollow" />}
 
     <meta property="og:type" content="website" />
-    <meta property="og:title" content={title} />
+    <meta property="og:title" content={pageTitle} />
     <meta property="og:description" content={meta_description} />
     <meta property="og:url" content={fullCanonical} />
     <meta property="og:image" content={ogImage} />
@@ -68,12 +110,19 @@ const ctx: PageSchemaContext = {
     <meta property="og:locale" content="en_US" />
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content={title} />
+    <meta name="twitter:title" content={pageTitle} />
     <meta name="twitter:description" content={meta_description} />
     <meta name="twitter:image" content={ogImage} />
 
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="sitemap" href="/sitemap-index.xml" />
+
+    {/* Web fonts, loaded without blocking first paint: preconnect + print-media
+        swap trick. The blocking @import was removed from global.css. */}
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href={fontsHref} media="print" onload="this.media='all'" />
+    <noscript><link rel="stylesheet" href={fontsHref} /></noscript>
 
     <Schema stubs={schema_stubs} ctx={ctx} />
 

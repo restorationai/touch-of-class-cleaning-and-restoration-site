@@ -64,6 +64,16 @@ jobs:
           GOOGLE_OAUTH_CLIENT_SECRET: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
         run: python3 scripts/gbp_post.py due --all
 
+      - name: Sync GBP profile snapshot + daily insights (2x/week — keeps dashboard data fresh)
+        env:
+          SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY:  ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          GOOGLE_OAUTH_CLIENT_ID:     ${{ secrets.GOOGLE_OAUTH_CLIENT_ID }}
+          GOOGLE_OAUTH_CLIENT_SECRET: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
+          DATAFORSEO_USERNAME:        ${{ secrets.DATAFORSEO_USERNAME }}
+          DATAFORSEO_PASSWORD:        ${{ secrets.DATAFORSEO_PASSWORD }}
+        run: python3 scripts/gbp.py sync --all || echo "GBP sync failed (non-fatal — dashboard uses last-synced data)."
+
       - name: Upload real job photos to GBP (2x/week — only if crews uploaded any)
         env:
           SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}

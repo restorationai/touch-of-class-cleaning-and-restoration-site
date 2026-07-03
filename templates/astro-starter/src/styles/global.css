@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+/* Web fonts are loaded non-render-blocking from BaseLayout.astro (preconnect +
+   media="print" swap). Do not re-add a blocking @import here. */
 
 @tailwind base;
 @tailwind components;

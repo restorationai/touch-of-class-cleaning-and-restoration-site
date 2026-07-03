@@ -2,48 +2,47 @@
 
 > 24/7 restoration services in San Diego, CA.
 
-Flood Fixers (Flood Fixers) is a licensed, insured restoration contractor serving San Diego, CA and surrounding areas since . We provide 24/7 emergency response for water, fire, mold, storm, biohazard, and reconstruction services. Phone: (855) 204-1124 · Email: .
+Flood Fixers (Flood Fixers) is a professional restoration contractor serving San Diego, CA and surrounding areas. We provide 24/7 emergency response for water, fire, mold, storm, biohazard, and reconstruction services. Phone: (855) 204-1124.
 
 ## Site index
 
 This file is intended for AI assistants and language models to efficiently ingest the structure and content of this website. The full list of pages is in the sitemap at https://flood-fixers.com/sitemap-index.xml.
 
 ### Core service pages
-<!-- Skill 3 substitutes the actual service list at scaffold time. -->
-- Water Damage Restoration: https://flood-fixers.com/services/water-damage-restoration/
-- Flood Damage Restoration: https://flood-fixers.com/services/flood-damage-restoration/
-- Burst Pipe Cleanup and Repair: https://flood-fixers.com/services/burst-pipe-repair/
-- Basement Flooding Cleanup: https://flood-fixers.com/services/basement-flooding-cleanup/
-- Reconstruction Services: https://flood-fixers.com/services/reconstruction/
-- Renovations, Remodels and General Contracting: https://flood-fixers.com/services/general-contracting/
+- [Water Damage Restoration](https://flood-fixers.com/services/water-damage-restoration/)
+- [Flood Damage Restoration](https://flood-fixers.com/services/flood-damage-restoration/)
+- [Burst Pipe Cleanup and Repair](https://flood-fixers.com/services/burst-pipe-repair/)
+- [Basement Flooding Cleanup](https://flood-fixers.com/services/basement-flooding-cleanup/)
+- [Reconstruction Services](https://flood-fixers.com/services/reconstruction/)
+- [Renovations, Remodels and General Contracting](https://flood-fixers.com/services/general-contracting/)
 
 ### Service area pages
-- San Diego, CA: https://flood-fixers.com/service-areas/san-diego-ca/
-- Chula Vista, CA: https://flood-fixers.com/service-areas/chula-vista-ca/
-- Oceanside, CA: https://flood-fixers.com/service-areas/oceanside-ca/
-- Escondido, CA: https://flood-fixers.com/service-areas/escondido-ca/
-- Carlsbad, CA: https://flood-fixers.com/service-areas/carlsbad-ca/
-- El Cajon, CA: https://flood-fixers.com/service-areas/el-cajon-ca/
-- Vista, CA: https://flood-fixers.com/service-areas/vista-ca/
-- San Marcos, CA: https://flood-fixers.com/service-areas/san-marcos-ca/
-- Encinitas, CA: https://flood-fixers.com/service-areas/encinitas-ca/
-- La Mesa, CA: https://flood-fixers.com/service-areas/la-mesa-ca/
-- Santee, CA: https://flood-fixers.com/service-areas/santee-ca/
-- Poway, CA: https://flood-fixers.com/service-areas/poway-ca/
-- National City, CA: https://flood-fixers.com/service-areas/national-city-ca/
-- Spring Valley, CA: https://flood-fixers.com/service-areas/spring-valley-ca/
-- Temecula, CA: https://flood-fixers.com/service-areas/temecula-ca/
+- [San Diego, CA](https://flood-fixers.com/service-areas/san-diego-ca/)
+- [Chula Vista, CA](https://flood-fixers.com/service-areas/chula-vista-ca/)
+- [Oceanside, CA](https://flood-fixers.com/service-areas/oceanside-ca/)
+- [Escondido, CA](https://flood-fixers.com/service-areas/escondido-ca/)
+- [Carlsbad, CA](https://flood-fixers.com/service-areas/carlsbad-ca/)
+- [El Cajon, CA](https://flood-fixers.com/service-areas/el-cajon-ca/)
+- [Vista, CA](https://flood-fixers.com/service-areas/vista-ca/)
+- [San Marcos, CA](https://flood-fixers.com/service-areas/san-marcos-ca/)
+- [Encinitas, CA](https://flood-fixers.com/service-areas/encinitas-ca/)
+- [La Mesa, CA](https://flood-fixers.com/service-areas/la-mesa-ca/)
+- [Santee, CA](https://flood-fixers.com/service-areas/santee-ca/)
+- [Poway, CA](https://flood-fixers.com/service-areas/poway-ca/)
+- [National City, CA](https://flood-fixers.com/service-areas/national-city-ca/)
+- [Spring Valley, CA](https://flood-fixers.com/service-areas/spring-valley-ca/)
+- [Temecula, CA](https://flood-fixers.com/service-areas/temecula-ca/)
 
 ### Resources
-- Blog: https://flood-fixers.com/blog/
-- About: https://flood-fixers.com/about/
-- Contact: https://flood-fixers.com/contact/
+- [Blog](https://flood-fixers.com/blog/)
+- [About](https://flood-fixers.com/about/)
+- [Contact](https://flood-fixers.com/contact/)
 
 ## Key facts
 
 - **Founded:** 
 - **Licenses:**  · 
-- **Certifications:** Licensed and insured
+- **Certifications:** Available on request
 - **Response time:** 24/7 emergency dispatch
 - **Insurance:** Direct insurance billing accepted
 - **Service radius:** Greater San Diego region

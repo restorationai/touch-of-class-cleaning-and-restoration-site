@@ -7,6 +7,8 @@ primary_keyword: "storm damage insurance claim checklist use this before you cal
 secondary_keywords: ["storm damage restoration"]
 search_intent: "informational_insurance"
 priority: 4.8
+hero: "https://images.narestco.com/blog/2026/05/storm-damage-insurance-claim-checklist/hero.webp"
+og: "https://images.narestco.com/blog/2026/05/storm-damage-insurance-claim-checklist/hero.webp"
 plan_hash: "b84337ede9beb9b1"
 generated_at: "2026-05-14T15:06:39.863402+00:00"
 manual_override: false
