@@ -43,6 +43,7 @@ import os
 import subprocess
 import sys
 import urllib.error
+import urllib.parse
 import urllib.request
 from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
@@ -50,6 +51,26 @@ from pathlib import Path
 from typing import Callable
 
 ROOT = Path(__file__).resolve().parent.parent
+
+
+def _load_env_file() -> None:
+    """Fail-soft .env loader (local runs). Never overrides existing env vars —
+    CI keeps injecting secrets via the workflow env blocks."""
+    env_path = ROOT / ".env"
+    if not env_path.exists():
+        return
+    try:
+        for line in env_path.read_text().splitlines():
+            line = line.strip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+            k, v = line.split("=", 1)
+            os.environ.setdefault(k.strip(), v.strip().strip('"').strip("'"))
+    except OSError:
+        pass
+
+
+_load_env_file()
 
 # Prompt files used in headless (CI) mode — paths relative to ROOT
 HEADLESS_PROMPT_MAP = {
@@ -138,7 +159,9 @@ def last_run_at(client: dict, system: int) -> datetime | None:
         if not q_path.exists():
             return None
         q = json.loads(q_path.read_text())
-        written = [i.get("written_at") for i in q.get("items", []) if i.get("status") == "written" and i.get("written_at")]
+        # "published" = written + live-URL verified (content_writer verification step)
+        written = [i.get("written_at") for i in q.get("items", [])
+                   if i.get("status") in ("written", "published") and i.get("written_at")]
         return max(_parse_iso(w) for w in written) if written else None
     if system == 3:
         return _parse_iso(client.get("audit", {}).get("last_audit_at"))
@@ -476,6 +499,214 @@ def cmd_force_run(args) -> int:
 
 
 # -----------------------------------------------------------------------------
+# Coverage gate — is every marketing system actually running for every client?
+# -----------------------------------------------------------------------------
+
+COVERAGE_QUEUE_WARN = 3          # queued items below this → WARN
+COVERAGE_AUDIT_MAX_DAYS = 45     # onsite audit older than this → MISS
+COVERAGE_GEOGRID_MAX_DAYS = 21   # newest geo-grid scan older than this → MISS
+COVERAGE_AI_MAX_DAYS = 14        # newest AI-search scan older than this → MISS
+
+
+def _company_map() -> dict:
+    try:
+        return json.loads((ROOT / "clients" / "company_map.json").read_text())
+    except Exception:
+        return {}
+
+
+def _sb_select(table: str, params: list[tuple[str, str]]) -> list | None:
+    """Supabase PostgREST read. None = creds missing or request failed
+    (callers report UNKNOWN instead of MISS so we don't false-alarm)."""
+    sb = os.environ.get("SUPABASE_URL", "").rstrip("/")
+    key = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")
+    if not (sb and key):
+        return None
+    req = urllib.request.Request(
+        f"{sb}/rest/v1/{table}?{urllib.parse.urlencode(params)}",
+        headers={"apikey": key, "Authorization": f"Bearer {key}"},
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            return json.loads(resp.read().decode())
+    except Exception as e:  # noqa: BLE001
+        print(f"    [warn] Supabase read {table} failed: {str(e)[:120]}", file=sys.stderr)
+        return None
+
+
+def _latest_by_company(table: str, ts_col: str, company_ids: list[str]) -> dict | None:
+    """Return {company_id: latest_ts (datetime)} for a Supabase table, or None
+    when Supabase is unreachable."""
+    if not company_ids:
+        return {}
+    rows = _sb_select(table, [
+        ("company_id", f"in.({','.join(company_ids)})"),
+        ("select", f"company_id,{ts_col}"),
+        ("order", f"{ts_col}.desc"),
+        ("limit", "2000"),
+    ])
+    if rows is None:
+        return None
+    out: dict = {}
+    for r in rows:
+        cid = r.get("company_id")
+        ts = _parse_iso(r.get(ts_col))
+        if cid and ts and cid not in out:
+            out[cid] = ts
+    return out
+
+
+def cmd_coverage(args) -> int:
+    """Check every ACTIVE client has every marketing system running. Prints a
+    table; exit 1 when any client has a MISSING system (CI flags it)."""
+    clients = load_clients(getattr(args, "slug", None))
+    if not clients:
+        print("No active clients found.")
+        return 0
+    now = datetime.now(timezone.utc)
+    cmap = _company_map()
+    company_ids = [cmap.get(c["slug"]) or c.get("company_id") for c in clients]
+    company_ids = [cid for cid in company_ids if cid]
+
+    geogrid_latest = _latest_by_company("marketing_geogrid_scans", "scanned_at", company_ids)
+    ai_latest = _latest_by_company("marketing_ai_search_scans", "scanned_at", company_ids)
+    gbp_rows = _sb_select("marketing_gbp_profiles", [
+        ("company_id", f"in.({','.join(company_ids)})"),
+        ("select", "company_id"),
+    ]) if company_ids else []
+    gbp_companies = {r["company_id"] for r in gbp_rows} if gbp_rows is not None else None
+
+    failures: list[str] = []   # "slug: what is missing"
+    warnings: list[str] = []
+
+    def cell(status: str, detail: str = "") -> str:
+        return f"{status}({detail})" if detail else status
+
+    header = f"{'CLIENT':32} {'QUEUE':10} {'KW-BANK':10} {'AUDIT<=45d':12} {'GEOGRID<=21d':14} {'GBP-PROFILE':12} {'AI-SCAN<=14d':12}"
+    print(f"Coverage gate — {now.isoformat(timespec='seconds')}\n")
+    print(header)
+    print("-" * len(header))
+
+    for c in clients:
+        slug = c["slug"]
+        cid = cmap.get(slug) or c.get("company_id")
+        row: list[str] = []
+
+        # 1. content queue depth
+        qc = queued_count(c)
+        if qc == 0:
+            row.append(cell("MISS", "0"))
+            failures.append(f"{slug}: content queue is EMPTY (System 1 refill not landing)")
+        elif qc < COVERAGE_QUEUE_WARN:
+            row.append(cell("WARN", str(qc)))
+            warnings.append(f"{slug}: content queue low ({qc} < {COVERAGE_QUEUE_WARN})")
+        else:
+            row.append(cell("OK", str(qc)))
+
+        # 2. keyword bank exists + size
+        bank_path = ROOT / "clients" / slug / "keyword-bank.json"
+        if not bank_path.exists():
+            row.append("MISS")
+            failures.append(f"{slug}: keyword-bank.json missing (System 1 never ran)")
+        else:
+            try:
+                bank = json.loads(bank_path.read_text())
+                n_kw = len(bank.get("keywords", []))
+            except (json.JSONDecodeError, OSError):
+                n_kw = 0
+            if n_kw == 0:
+                row.append(cell("WARN", "0"))
+                warnings.append(f"{slug}: keyword bank exists but has 0 keywords")
+            else:
+                row.append(cell("OK", str(n_kw)))
+
+        # 3. onsite audit within 45d
+        audit_at = _parse_iso((c.get("audit") or {}).get("last_audit_at"))
+        if audit_at is None:
+            row.append("MISS")
+            failures.append(f"{slug}: no onsite audit on record (System 3 never ran)")
+        else:
+            age = (now - audit_at).days
+            if age > COVERAGE_AUDIT_MAX_DAYS:
+                row.append(cell("MISS", f"{age}d"))
+                failures.append(f"{slug}: onsite audit is {age}d old (max {COVERAGE_AUDIT_MAX_DAYS}d)")
+            else:
+                row.append(cell("OK", f"{age}d"))
+
+        # 4. geo-grid: configs exist AND a scan within 21d in Supabase
+        kw_file = ROOT / "clients" / slug / "geogrid-keywords.txt"
+        city_file = ROOT / "clients" / slug / "geogrid-cities.json"
+        if not (kw_file.exists() and city_file.exists()):
+            missing = [p.name for p in (kw_file, city_file) if not p.exists()]
+            row.append(cell("MISS", "cfg"))
+            failures.append(f"{slug}: geo-grid config missing ({', '.join(missing)})")
+        elif not cid:
+            row.append(cell("MISS", "no-cid"))
+            failures.append(f"{slug}: no company_id mapping — geo-grid scans can't be verified")
+        elif geogrid_latest is None:
+            row.append(cell("UNKNOWN", "no-sb"))
+            warnings.append(f"{slug}: geo-grid scan freshness unknown (Supabase unreachable)")
+        else:
+            ts = geogrid_latest.get(cid)
+            age = (now - ts).days if ts else None
+            if ts is None:
+                row.append(cell("MISS", "none"))
+                failures.append(f"{slug}: no geo-grid scans in Supabase")
+            elif age > COVERAGE_GEOGRID_MAX_DAYS:
+                row.append(cell("MISS", f"{age}d"))
+                failures.append(f"{slug}: newest geo-grid scan is {age}d old (max {COVERAGE_GEOGRID_MAX_DAYS}d)")
+            else:
+                row.append(cell("OK", f"{age}d"))
+
+        # 5. GBP profile row exists
+        if not cid:
+            row.append(cell("MISS", "no-cid"))
+            failures.append(f"{slug}: no company_id mapping — GBP profile can't be verified")
+        elif gbp_companies is None:
+            row.append(cell("UNKNOWN", "no-sb"))
+            warnings.append(f"{slug}: GBP profile unknown (Supabase unreachable)")
+        elif cid not in gbp_companies:
+            row.append("MISS")
+            failures.append(f"{slug}: no row in marketing_gbp_profiles (GBP sync never ran)")
+        else:
+            row.append("OK")
+
+        # 6. AI-search scan within 14d
+        if not cid:
+            row.append(cell("MISS", "no-cid"))
+            failures.append(f"{slug}: no company_id mapping — AI-search scans can't be verified")
+        elif ai_latest is None:
+            row.append(cell("UNKNOWN", "no-sb"))
+            warnings.append(f"{slug}: AI-search scan freshness unknown (Supabase unreachable)")
+        else:
+            ts = ai_latest.get(cid)
+            age = (now - ts).days if ts else None
+            if ts is None:
+                row.append(cell("MISS", "none"))
+                failures.append(f"{slug}: no AI-search scans in Supabase")
+            elif age > COVERAGE_AI_MAX_DAYS:
+                row.append(cell("MISS", f"{age}d"))
+                failures.append(f"{slug}: newest AI-search scan is {age}d old (max {COVERAGE_AI_MAX_DAYS}d)")
+            else:
+                row.append(cell("OK", f"{age}d"))
+
+        print(f"{slug:32} {row[0]:10} {row[1]:10} {row[2]:12} {row[3]:14} {row[4]:12} {row[5]:12}")
+
+    if warnings:
+        print("\nWarnings:")
+        for w in warnings:
+            print(f"  - {w}")
+    if failures:
+        print("\nMISSING systems (coverage gate FAILED):")
+        for f_ in failures:
+            print(f"  - {f_}")
+        print(f"\n{len(failures)} gap(s) across {len(clients)} active client(s). Exit 1.")
+        return 1
+    print(f"\nAll systems covered for {len(clients)} active client(s).")
+    return 0
+
+
+# -----------------------------------------------------------------------------
 # Entry point
 # -----------------------------------------------------------------------------
 
@@ -504,6 +735,12 @@ def build_parser() -> argparse.ArgumentParser:
     pf.add_argument("--headless", action="store_true",
                     help="CI mode: invoke claude -p for agent-driven systems")
     pf.set_defaults(func=cmd_force_run)
+
+    pc = sub.add_parser("coverage",
+                        help="Check every active client has every marketing system running "
+                             "(queue, keyword bank, audit, geo-grid, GBP, AI-search). Exit 1 on gaps.")
+    pc.add_argument("--slug", help="Limit to one client")
+    pc.set_defaults(func=cmd_coverage)
 
     return p
 

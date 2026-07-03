@@ -911,7 +911,7 @@ def blog_detail(slug: str):
 
     all_items = queue.get("items", [])
     pending_items = [i for i in all_items if i.get("status") == "queued"]
-    written_items = [i for i in all_items if i.get("status") == "written"]
+    written_items = [i for i in all_items if i.get("status") in ("written", "published")]
 
     # Build lookup: suggested_slug -> queue item (for written_at + post_url)
     written_lookup: dict[str, dict] = {}

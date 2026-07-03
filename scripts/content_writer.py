@@ -313,6 +313,54 @@ def mark_written(slug: str, item_id: str, post_url: str) -> None:
     save_json(queue_path(slug), queue)
 
 
+def mark_published(slug: str, item_id: str) -> None:
+    """Upgrade a queue item from 'written' to 'published' once the live URL
+    verifiably returns HTTP 200 (post-deploy verification)."""
+    queue = load_queue(slug)
+    for item in queue.get("items", []):
+        if item.get("id") == item_id:
+            item["status"] = "published"
+            item["published_verified_at"] = now_iso()
+            break
+    save_json(queue_path(slug), queue)
+
+
+# ----------------------------------------------------------------------------
+# Publish verification — poll the live URL until Cloudflare finishes the build
+# ----------------------------------------------------------------------------
+
+PUBLISH_POLL_INTERVAL_S = 30
+PUBLISH_POLL_TIMEOUT_S = 300  # 5 minutes — typical Cloudflare Pages build time
+
+
+def verify_published(post_url: str, *,
+                     interval_s: int = PUBLISH_POLL_INTERVAL_S,
+                     timeout_s: int = PUBLISH_POLL_TIMEOUT_S) -> bool:
+    """Poll post_url until it returns HTTP 200. Returns True on success,
+    False if the deadline passes. Never raises — verification is best-effort."""
+    deadline = time.time() + timeout_s
+    attempt = 0
+    while True:
+        attempt += 1
+        try:
+            req = urllib.request.Request(post_url, headers={
+                "User-Agent": "rank-ai-publish-verify/1.0",
+                "Cache-Control": "no-cache",
+            })
+            with urllib.request.urlopen(req, timeout=20) as resp:
+                if resp.status == 200:
+                    print(f"      Live check attempt {attempt}: HTTP 200")
+                    return True
+                print(f"      Live check attempt {attempt}: HTTP {resp.status}")
+        except urllib.error.HTTPError as e:
+            print(f"      Live check attempt {attempt}: HTTP {e.code} (build not done yet)")
+        except Exception as e:  # noqa: BLE001 — network blips must not kill the run
+            print(f"      Live check attempt {attempt}: {str(e)[:100]}")
+        if time.time() + interval_s > deadline:
+            return False
+        time.sleep(interval_s)
+
+
 # ----------------------------------------------------------------------------
 # Build the prompt input (system + user messages)
 # ----------------------------------------------------------------------------
@@ -456,18 +504,20 @@ def write_markdown(slug: str, item: dict, content: dict, hero_url: str) -> Path:
 # ----------------------------------------------------------------------------
 
 
-def generate_and_upload_hero(slug: str, item: dict, image_prompt: str, *, use_pro: bool = True) -> str:
-    """Generate hero image via Gemini, convert PNG → WebP, upload to R2, return
-    the public URL."""
+def generate_and_upload_hero(slug: str, item: dict, image_prompt: str, *, use_pro: bool = True,
+                             filename: str = "hero.webp") -> str:
+    """Generate an image via Gemini, convert PNG → WebP, upload to R2, return
+    the public URL. Used for the hero (hero.webp) and the optional mid-body
+    section image (section.webp) — same machinery, different key."""
     client = load_json(CLIENTS_DIR / f"{slug}.json")
     domain = client["domain"]
     bucket = f"rankai-{slug}"
     post_slug = item.get("suggested_slug") or re.sub(r"[^a-z0-9]+", "-", item["primary_keyword"].lower()).strip("-")
     today = datetime.now(timezone.utc).strftime("%Y/%m")
-    r2_key = f"blog/{today}/{post_slug}/hero.webp"
+    r2_key = f"blog/{today}/{post_slug}/{filename}"
 
     model = GEMINI_PRO_MODEL if use_pro else GEMINI_FLASH_MODEL
-    print(f"      Generating hero image with {model}...")
+    print(f"      Generating {filename} with {model}...")
     png_bytes = gemini_generate_image(image_prompt, model=model, aspect_ratio="16:9")
     print(f"      PNG size: {len(png_bytes) / 1024:.1f} KB")
 
@@ -481,6 +531,46 @@ def generate_and_upload_hero(slug: str, item: dict, image_prompt: str, *, use_pr
     public_url = f"https://images.{domain}/{r2_key}"
     print(f"      Public URL: {public_url}")
     return public_url
+
+
+# ----------------------------------------------------------------------------
+# Optional mid-body section image (second field the model MAY return)
+# ----------------------------------------------------------------------------
+
+
+def _h2_matches(body: str) -> list:
+    return list(re.finditer(r"(?m)^##\s+(.+?)\s*$", body))
+
+
+def section_image_alt(body: str, primary_keyword: str) -> str:
+    """Keyword-rich alt text derived from the second H2 (the section the image
+    illustrates)."""
+    h2s = _h2_matches(body)
+    h2_text = h2s[1].group(1).strip() if len(h2s) >= 2 else primary_keyword
+    h2_clean = h2_text.rstrip("?").strip()
+    if primary_keyword.lower() in h2_clean.lower():
+        return h2_clean
+    return f"{h2_clean}: {primary_keyword}"
+
+
+def insert_section_image(body: str, image_url: str, alt: str) -> str:
+    """Insert a markdown image right after the second H2 section's last
+    paragraph — i.e. immediately before the third H2 when one exists,
+    otherwise before the closing '---' rule, otherwise at the end.
+    Returns body unchanged when it has fewer than two H2s (nowhere sane to put it)."""
+    h2s = _h2_matches(body)
+    img_md = f"![{alt}]({image_url})"
+    if len(h2s) >= 3:
+        pos = h2s[2].start()
+        return body[:pos].rstrip("\n") + "\n\n" + img_md + "\n\n" + body[pos:]
+    if len(h2s) == 2:
+        tail = body[h2s[1].end():]
+        m = re.search(r"(?m)^---\s*$", tail)
+        if m:
+            pos = h2s[1].end() + m.start()
+            return body[:pos].rstrip("\n") + "\n\n" + img_md + "\n\n" + body[pos:]
+        return body.rstrip("\n") + "\n\n" + img_md + "\n"
+    return body
 
 
 # ----------------------------------------------------------------------------
@@ -619,6 +709,25 @@ def cmd_next_post(args) -> int:
             client = load_json(CLIENTS_DIR / f"{slug}.json")
             hero_url = f"https://images.{client['domain']}/brand/hero.webp"
 
+    # Step 2b (optional): mid-body section image. Only when the model returned
+    # section_image_prompt — absence changes nothing. Fully best-effort: any
+    # failure logs a warning and the post ships without it.
+    section_prompt = (content.get("section_image_prompt") or "").strip()
+    if section_prompt and not args.skip_image:
+        print("      Optional section image requested by the model — generating...")
+        try:
+            section_url = generate_and_upload_hero(
+                slug, item, section_prompt, use_pro=not args.flash, filename="section.webp")
+            alt = section_image_alt(content.get("body_markdown", ""), item["primary_keyword"])
+            new_body = insert_section_image(content.get("body_markdown", ""), section_url, alt)
+            if new_body != content.get("body_markdown"):
+                content["body_markdown"] = new_body
+                print(f"      Section image inserted (alt: {alt[:80]})")
+            else:
+                print("      [warn] body has fewer than two H2s — section image skipped")
+        except Exception as e:  # noqa: BLE001 — optional feature, never fatal
+            print(f"      [warn] section image failed (non-fatal): {str(e)[:140]}")
+
     # Step 3: write markdown
     print("[3/5] Writing post markdown...")
     post_path = write_markdown(slug, item, content, hero_url)
@@ -637,6 +746,27 @@ def cmd_next_post(args) -> int:
         print(f"[5/5] Committing and sync-deploying to {args.branch} branch...")
         commit_and_sync(slug, item, post_path, args.branch)
 
+        # Post-deploy verification: wait for the Cloudflare build, confirm the
+        # post is actually live, then upgrade the queue item written -> published.
+        # Best-effort by design — a verification miss NEVER fails the run; the
+        # item just stays "written" with a warning.
+        if args.branch != "main":
+            print(f"      (branch={args.branch}: skipping live-URL verification — "
+                  f"production domain won't serve this deploy)")
+        else:
+            try:
+                print(f"      Verifying publish at {post_url} "
+                      f"(every {PUBLISH_POLL_INTERVAL_S}s, up to {PUBLISH_POLL_TIMEOUT_S // 60} min)...")
+                if verify_published(post_url):
+                    mark_published(slug, item["id"])
+                    print(f"      Verified live. Queue item {item['id']} → status: published")
+                else:
+                    print(f"      [warn] {post_url} never returned HTTP 200 within "
+                          f"{PUBLISH_POLL_TIMEOUT_S // 60} min — leaving status 'written'. "
+                          f"Check the Cloudflare Pages build / apex cutover.")
+            except Exception as e:  # noqa: BLE001
+                print(f"      [warn] publish verification errored (non-fatal): {str(e)[:140]}")
+
     print()
     print(f"==> Post complete.")
     print(f"    Post:    {post_path}")
@@ -650,7 +780,7 @@ def cmd_queue(args) -> int:
     queue = load_queue(slug)
     items = queue.get("items", [])
     queued = [i for i in items if i.get("status") == "queued"]
-    written = [i for i in items if i.get("status") == "written"]
+    written = [i for i in items if i.get("status") in ("written", "published")]
 
     print(f"==> Content queue for {slug}")
     print(f"    Queued (waiting):  {len(queued)}")
@@ -679,7 +809,7 @@ def cmd_status(args) -> int:
     print(json.dumps({
         "slug": slug,
         "queued": sum(1 for i in items if i.get("status") == "queued"),
-        "written": sum(1 for i in items if i.get("status") == "written"),
+        "written": sum(1 for i in items if i.get("status") in ("written", "published")),
         "total": len(items),
     }, indent=2))
     return 0

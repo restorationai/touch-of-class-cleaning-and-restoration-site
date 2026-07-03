@@ -29,14 +29,58 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
 import sys
+import urllib.error
+import urllib.parse
+import urllib.request
 from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 CLIENTS_DIR = ROOT / "clients"
+
+
+def _load_env_file() -> None:
+    """Fail-soft .env loader so Supabase/SendGrid creds work without sourcing.
+    Never overrides variables already present in the environment."""
+    env_path = ROOT / ".env"
+    if not env_path.exists():
+        return
+    try:
+        for line in env_path.read_text().splitlines():
+            line = line.strip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+            k, v = line.split("=", 1)
+            os.environ.setdefault(k.strip(), v.strip().strip('"').strip("'"))
+    except OSError:
+        pass
+
+
+_load_env_file()
+
+
+def sb_select(table: str, params: list[tuple[str, str]]) -> list | None:
+    """Read rows from Supabase via PostgREST. Returns None when creds are
+    missing or the request fails — callers treat None as 'no data, skip'."""
+    sb = os.environ.get("SUPABASE_URL", "").rstrip("/")
+    key = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")
+    if not (sb and key):
+        return None
+    qs = urllib.parse.urlencode(params)
+    req = urllib.request.Request(
+        f"{sb}/rest/v1/{table}?{qs}",
+        headers={"apikey": key, "Authorization": f"Bearer {key}"},
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            return json.loads(resp.read().decode())
+    except Exception as e:  # noqa: BLE001 — report sections are best-effort
+        sys.stderr.write(f"    [warn] Supabase read {table} failed: {str(e)[:120]}\n")
+        return None
 
 
 # ----------------------------------------------------------------------------
@@ -58,6 +102,11 @@ class ReportData:
     refresh_latest: dict | None # state from refresh-queue.json
     queue_depth: int            # priority-1 items in content-queue.json
     upcoming_schedule: list     # next monthly cadence dates
+    # v2 data sections — each None when no data exists (section is skipped)
+    geogrid: dict | None = None     # local map-pack rankings (Supabase)
+    gbp: dict | None = None         # Google Business Profile stats (Supabase)
+    ai_search: dict | None = None   # AI-engine citation rate (Supabase)
+    ads: dict | None = None         # Google Ads last-30d totals (Ads API)
 
 
 # ----------------------------------------------------------------------------
@@ -182,11 +231,261 @@ def collect_state(slug: str) -> tuple[dict | None, dict | None, int]:
     return audit, refresh, queue_depth
 
 
+# ----------------------------------------------------------------------------
+# v2 data collectors (Supabase + Google Ads) — all fail-soft, return None on
+# missing creds / missing data so the report gracefully skips the section.
+# ----------------------------------------------------------------------------
+
+
+def resolve_company_id(slug: str, client: dict) -> str | None:
+    cid = client.get("company_id")
+    if cid:
+        return cid
+    cm_path = CLIENTS_DIR / "company_map.json"
+    if cm_path.exists():
+        try:
+            return json.loads(cm_path.read_text()).get(slug)
+        except (json.JSONDecodeError, OSError):
+            return None
+    return None
+
+
+def _latest_per_city_keyword(rows: list[dict]) -> dict:
+    """rows must be sorted scanned_at DESC. Returns {(city, keyword): row}."""
+    seen: dict = {}
+    for row in rows:
+        k = (row.get("city_label"), row.get("keyword"))
+        if k not in seen:
+            seen[k] = row
+    return seen
+
+
+def collect_geogrid(company_id: str | None, start: datetime, end: datetime) -> dict | None:
+    """Latest geo-grid scan per city×keyword (as of period end) + MoM delta vs
+    the latest prior-month scan. Returns None when there's nothing to show."""
+    if not company_id:
+        return None
+    rows = sb_select("marketing_geogrid_scans", [
+        ("company_id", f"eq.{company_id}"),
+        ("select", "keyword,city_label,avg_rank,pct_in_top3,found_points,total_points,scanned_at"),
+        ("order", "scanned_at.desc"),
+        ("limit", "1000"),
+    ])
+    if not rows:
+        return None
+    for row in rows:
+        row["_dt"] = parse_iso(row.get("scanned_at"))
+    rows = [row for row in rows if row["_dt"]]
+
+    prev_start = (start - timedelta(days=1)).replace(day=1, hour=0, minute=0, second=0, microsecond=0)
+    current = _latest_per_city_keyword([row for row in rows if row["_dt"] < end])
+    prior = _latest_per_city_keyword([row for row in rows if prev_start <= row["_dt"] < start])
+    if not current:
+        return None
+
+    cities: dict[str, list[dict]] = {}
+    for (city, _kw), row in current.items():
+        cities.setdefault(city, []).append(row)
+
+    out_cities = []
+    for city, rs in sorted(cities.items()):
+        ranked = [x for x in rs if x.get("avg_rank") is not None]
+        best = min(ranked, key=lambda x: x["avg_rank"]) if ranked else None
+        top3 = sum((x.get("pct_in_top3") or 0) for x in rs) / len(rs)
+        prior_rs = [prior.get((city, x["keyword"])) for x in rs]
+        prior_rs = [p for p in prior_rs if p]
+        prior_top3 = (sum((p.get("pct_in_top3") or 0) for p in prior_rs) / len(prior_rs)) if prior_rs else None
+        out_cities.append({
+            "city": city,
+            "keywords_tracked": len(rs),
+            "best_keyword": best["keyword"] if best else "",
+            "best_avg_rank": best["avg_rank"] if best else None,
+            "best_top3": (best.get("pct_in_top3") or 0) if best else None,
+            "top3": round(top3, 1),
+            "prior_top3": round(prior_top3, 1) if prior_top3 is not None else None,
+            "top3_delta": round(top3 - prior_top3, 1) if prior_top3 is not None else None,
+            "scanned_at": max(x["scanned_at"] for x in rs)[:10],
+        })
+
+    cur_vals = [row.get("pct_in_top3") or 0 for row in current.values()]
+    overall_cur = round(sum(cur_vals) / len(cur_vals), 1)
+    overall_prior = None
+    if prior:
+        pv = [row.get("pct_in_top3") or 0 for row in prior.values()]
+        overall_prior = round(sum(pv) / len(pv), 1)
+    return {
+        "cities": out_cities,
+        "overall_top3": overall_cur,
+        "prior_overall_top3": overall_prior,
+        "latest_scan_date": max(row["scanned_at"] for row in current.values())[:10],
+    }
+
+
+def collect_gbp(company_id: str | None, start: datetime, end: datetime) -> dict | None:
+    """GBP profile snapshot (rating, reviews) + this-month vs prior-month daily
+    totals (calls, website clicks)."""
+    if not company_id:
+        return None
+    profiles = sb_select("marketing_gbp_profiles", [
+        ("company_id", f"eq.{company_id}"),
+        ("select", "title,rating,review_count,primary_category,synced_at"),
+        ("limit", "1"),
+    ])
+    prev_start = (start - timedelta(days=1)).replace(day=1, hour=0, minute=0, second=0, microsecond=0)
+    daily = sb_select("marketing_gbp_daily", [
+        ("company_id", f"eq.{company_id}"),
+        ("select", "date,call_clicks,website_clicks"),
+        ("date", f"gte.{prev_start.strftime('%Y-%m-%d')}"),
+        ("date", f"lt.{end.strftime('%Y-%m-%d')}"),
+        ("order", "date.asc"),
+        ("limit", "1000"),
+    ])
+    profile = profiles[0] if profiles else None
+    this_month = [d for d in (daily or []) if d["date"] >= start.strftime("%Y-%m-%d")]
+    prior_month = [d for d in (daily or []) if d["date"] < start.strftime("%Y-%m-%d")]
+    if not profile and not this_month and not prior_month:
+        return None
+
+    def _tot(rows: list[dict], col: str) -> int:
+        return sum(int(x.get(col) or 0) for x in rows)
+
+    return {
+        "title": (profile or {}).get("title", ""),
+        "rating": (profile or {}).get("rating"),
+        "review_count": (profile or {}).get("review_count"),
+        "calls": _tot(this_month, "call_clicks"),
+        "web_clicks": _tot(this_month, "website_clicks"),
+        "days": len(this_month),
+        "prior_calls": _tot(prior_month, "call_clicks") if prior_month else None,
+        "prior_web_clicks": _tot(prior_month, "website_clicks") if prior_month else None,
+        "prior_days": len(prior_month),
+    }
+
+
+def collect_ai_search(company_id: str | None, start: datetime, end: datetime) -> dict | None:
+    """AI-engine citation rate for the period (cited/total by engine) + up to 3
+    example queries where the client WAS cited."""
+    if not company_id:
+        return None
+    rows = sb_select("marketing_ai_search_scans", [
+        ("company_id", f"eq.{company_id}"),
+        ("select", "engine,query,cited,scanned_at"),
+        ("scanned_at", f"gte.{start.isoformat()}"),
+        ("scanned_at", f"lt.{end.isoformat()}"),
+        ("order", "scanned_at.desc"),
+        ("limit", "2000"),
+    ])
+    if not rows:
+        return None
+
+    engines: dict[str, dict] = {}
+    for row in rows:
+        e = engines.setdefault(row.get("engine") or "unknown", {"total": 0, "cited": 0})
+        e["total"] += 1
+        e["cited"] += 1 if row.get("cited") else 0
+    engine_rows = [
+        {"engine": name, "total": v["total"], "cited": v["cited"],
+         "rate": round(100.0 * v["cited"] / v["total"], 1) if v["total"] else 0.0}
+        for name, v in sorted(engines.items())
+    ]
+
+    # Example queries where the client WAS cited (this period first; fall back
+    # to the most recent citations on record so the section still shows proof).
+    def _dedup_queries(rs: list[dict]) -> list[dict]:
+        out, seen = [], set()
+        for row in rs:
+            key = (row.get("query") or "").strip().lower()
+            if key and key not in seen:
+                seen.add(key)
+                out.append({"query": row["query"], "engine": row.get("engine", "")})
+            if len(out) >= 3:
+                break
+        return out
+
+    examples = _dedup_queries([row for row in rows if row.get("cited")])
+    examples_from_prior = False
+    if not examples:
+        older = sb_select("marketing_ai_search_scans", [
+            ("company_id", f"eq.{company_id}"),
+            ("select", "engine,query,scanned_at"),
+            ("cited", "eq.true"),
+            ("order", "scanned_at.desc"),
+            ("limit", "25"),
+        ])
+        if older:
+            examples = _dedup_queries(older)
+            examples_from_prior = bool(examples)
+
+    total = sum(e["total"] for e in engine_rows)
+    cited = sum(e["cited"] for e in engine_rows)
+    return {
+        "engines": engine_rows,
+        "total": total,
+        "cited": cited,
+        "rate": round(100.0 * cited / total, 1) if total else 0.0,
+        "examples": examples,
+        "examples_from_prior": examples_from_prior,
+    }
+
+
+def collect_ads(slug: str, client: dict) -> dict | None:
+    """Last-30d Google Ads totals via the same data path scripts/ads_dashboard.py
+    uses (ads_manager as a library). Only for clients with linked campaigns;
+    returns None on any failure (no ads section rather than a broken report)."""
+    gads = client.get("google_ads") or {}
+    if not gads.get("customer_id"):
+        return None
+    try:
+        sys.path.insert(0, str(ROOT / "scripts"))
+        import ads_manager as am  # noqa: PLC0415 — heavy import, only when needed
+        ads_client = am.build_ads_client(slug, login_as_mcc=True)
+        cid = am.get_customer_id(am.load_client(slug), slug)
+        campaigns = []
+        for r in am.gaql(ads_client, cid, """
+            SELECT campaign.name, campaign.status, metrics.cost_micros, metrics.clicks,
+              metrics.impressions, metrics.conversions
+            FROM campaign WHERE segments.date DURING LAST_30_DAYS
+              AND campaign.advertising_channel_type IN ('SEARCH','LOCAL_SERVICES')
+            ORDER BY metrics.cost_micros DESC"""):
+            c, m = r.campaign, r.metrics
+            campaigns.append({
+                "name": c.name, "status": c.status.name,
+                "cost": m.cost_micros / 1e6, "clicks": m.clicks,
+                "impr": m.impressions, "conv": round(m.conversions, 1),
+            })
+        if not campaigns:
+            return None
+        return {
+            "window": "last 30 days",
+            "customer_id": cid,
+            "campaigns": campaigns,
+            "spend": round(sum(c["cost"] for c in campaigns), 2),
+            "clicks": sum(c["clicks"] for c in campaigns),
+            "impr": sum(c["impr"] for c in campaigns),
+            "conv": round(sum(c["conv"] for c in campaigns), 1),
+        }
+    except Exception as e:  # noqa: BLE001 — ads section is best-effort
+        sys.stderr.write(f"    [warn] Ads section skipped for {slug}: {str(e)[:140]}\n")
+        return None
+
+
 def build_report_data(slug: str, period: str | None) -> ReportData:
     client = load_client(slug)
     start, end, label = parse_period(period)
+
+    # Guard: reports are meant to be generated at month end. Running for the
+    # CURRENT month before the 25th means the numbers below are partial.
+    now = datetime.now(timezone.utc)
+    if start <= now < end and now.day < 25:
+        sys.stderr.write(
+            f"WARNING: generating the {label} report on {now.strftime('%Y-%m-%d')} — "
+            f"this is the CURRENT month and it's before the 25th, so all monthly "
+            f"numbers are PARTIAL. Monthly reports should be generated at month end.\n"
+        )
+
     posts = collect_posts_this_month(slug, start, end)
     audit, refresh, queue_depth = collect_state(slug)
+    company_id = resolve_company_id(slug, client)
     return ReportData(
         slug=slug,
         display_name=client.get("display_name", slug),
@@ -204,6 +503,10 @@ def build_report_data(slug: str, period: str | None) -> ReportData:
             (start.replace(month=start.month + 1 if start.month < 12 else 1) + timedelta(days=4), "System 3 onsite audit"),
             (start.replace(month=start.month + 1 if start.month < 12 else 1) + timedelta(days=6), "System 4 refresh recommender"),
         ],
+        geogrid=collect_geogrid(company_id, start, end),
+        gbp=collect_gbp(company_id, start, end),
+        ai_search=collect_ai_search(company_id, start, end),
+        ads=collect_ads(slug, client),
     )
 
 
@@ -302,6 +605,187 @@ def render_html(r: ReportData) -> str:
 
     posts_count = len(r.posts_this_month)
 
+    # ---- Table style helpers (match existing inlined style) ----
+    TH = ('style="text-align:left;padding:8px 12px;background:#f9fafb;font-weight:700;'
+          'font-size:12px;color:#6b7280;letter-spacing:0.05em;border-bottom:1px solid #e5e7eb;"')
+    THR = TH.replace("text-align:left", "text-align:right")
+    TD = 'style="padding:10px 12px;border-bottom:1px solid #f3f4f6;"'
+    TDR = ('style="padding:10px 12px;border-bottom:1px solid #f3f4f6;text-align:right;'
+           'font-family:ui-monospace,monospace;font-weight:700;"')
+
+    def delta_span(delta: float | None, unit: str = " pts", better_up: bool = True) -> str:
+        if delta is None:
+            return '<span style="color:#9ca3af;">—</span>'
+        good = (delta > 0) if better_up else (delta < 0)
+        color = "#16a34a" if good else ("#6b7280" if delta == 0 else "#dc2626")
+        arrow = "▲" if delta > 0 else ("▼" if delta < 0 else "•")
+        return f'<span style="color:{color};font-weight:700;">{arrow} {delta:+.1f}{unit}</span>'
+
+    # ---- Section 2 (v2): Local map rankings (geo-grid) ----
+    geogrid_section = None
+    if r.geogrid and r.geogrid.get("cities"):
+        gg = r.geogrid
+        rows_html = ""
+        for c in gg["cities"]:
+            best_rank = f'#{c["best_avg_rank"]:.1f}' if c.get("best_avg_rank") is not None else "—"
+            rows_html += (
+                f'<tr><td {TD}><strong>{html_escape(c["city"])}</strong>'
+                f'<div style="font-size:11px;color:#9ca3af;">{c["keywords_tracked"]} keywords · scanned {c["scanned_at"]}</div></td>'
+                f'<td {TD}>{html_escape(c["best_keyword"])}</td>'
+                f'<td {TDR}>{best_rank}</td>'
+                f'<td {TDR}>{c["top3"]:.1f}%</td>'
+                f'<td {TDR}>{delta_span(c.get("top3_delta"))}</td></tr>'
+            )
+        overall_html = ""
+        if gg.get("prior_overall_top3") is not None:
+            overall_html = (
+                f'<p style="margin-top:14px;color:#374151;font-size:14px;line-height:1.7;">'
+                f'Across every tracked keyword and city, your top-3 map coverage moved from '
+                f'<strong>{gg["prior_overall_top3"]:.1f}%</strong> last month to '
+                f'<strong>{gg["overall_top3"]:.1f}%</strong> this period '
+                f'({delta_span(round(gg["overall_top3"] - gg["prior_overall_top3"], 1))}).</p>'
+            )
+        geogrid_section = (
+            "Local Map Rankings (Geo-Grid)",
+            "Where your business ranks in the Google Maps pack across your service area, "
+            "measured on a mile-by-mile grid. “Top-3 coverage” is the share of grid "
+            "points where you appear in the map pack's top 3.",
+            f'''<table style="width:100%;border-collapse:collapse;margin-top:12px;">
+          <tr><th {TH}>CITY</th><th {TH}>BEST KEYWORD</th><th {THR}>AVG RANK</th><th {THR}>TOP-3 COVERAGE</th><th {THR}>VS LAST MONTH</th></tr>
+          {rows_html}
+        </table>{overall_html}'''
+        )
+
+    # ---- Section (v2): Google Business Profile ----
+    gbp_section = None
+    if r.gbp:
+        g = r.gbp
+        rating_html = ""
+        if g.get("rating") is not None:
+            rating_html = (
+                f'<p style="color:#374151;font-size:14px;line-height:1.7;margin-top:8px;">'
+                f'Your profile currently holds a <strong>{g["rating"]}★</strong> rating across '
+                f'<strong>{g.get("review_count", "?")}</strong> reviews.</p>'
+            )
+        def _gbp_row(label: str, cur: int, prior: int | None) -> str:
+            d = delta_span(float(cur - prior), unit="", better_up=True) if prior is not None else '<span style="color:#9ca3af;">—</span>'
+            prior_txt = prior if prior is not None else "—"
+            return (f'<tr><td {TD}>{label}</td><td {TDR}>{cur}</td>'
+                    f'<td {TDR}>{prior_txt}</td><td {TDR}>{d}</td></tr>')
+        gbp_table = (
+            f'<table style="width:100%;border-collapse:collapse;margin-top:12px;">'
+            f'<tr><th {TH}>PROFILE ACTION</th><th {THR}>THIS PERIOD</th><th {THR}>PRIOR MONTH</th><th {THR}>CHANGE</th></tr>'
+            + _gbp_row("Phone calls from profile", g["calls"], g.get("prior_calls"))
+            + _gbp_row("Website clicks from profile", g["web_clicks"], g.get("prior_web_clicks"))
+            + '</table>'
+        )
+        days_note = ""
+        if g.get("days") and g.get("prior_days") and g["days"] < g["prior_days"]:
+            days_note = (f'<p style="margin-top:10px;font-size:12px;color:#9ca3af;">This period covers '
+                         f'{g["days"]} day(s) of data so far vs {g["prior_days"]} days last month.</p>')
+        gbp_section = (
+            "Google Business Profile",
+            "How your Google Business Profile (the Maps listing) performed: direct calls and "
+            "website visits generated from the listing itself.",
+            rating_html + gbp_table + days_note,
+        )
+
+    # ---- Section (v2): AI search visibility ----
+    ai_section = None
+    if r.ai_search:
+        a = r.ai_search
+        engine_rows = "".join(
+            f'<tr><td {TD}>{html_escape(e["engine"])}</td><td {TDR}>{e["total"]}</td>'
+            f'<td {TDR}>{e["cited"]}</td><td {TDR}>{e["rate"]:.1f}%</td></tr>'
+            for e in a["engines"]
+        )
+        examples_html = ""
+        if a.get("examples"):
+            hdr = ("Queries where AI engines cited your business"
+                   + (" (from recent scans)" if a.get("examples_from_prior") else " this period"))
+            examples_html = (
+                f'<h4 style="margin:24px 0 8px;color:{dark};font-size:14px;font-weight:700;'
+                f'text-transform:uppercase;letter-spacing:0.05em;">{hdr}</h4>'
+                '<ul style="margin:0;padding-left:20px;color:#374151;font-size:14px;line-height:1.7;">'
+                + "".join(
+                    f'<li>&ldquo;{html_escape(x["query"])}&rdquo; '
+                    f'<span style="color:#9ca3af;font-size:12px;">({html_escape(x["engine"])})</span></li>'
+                    for x in a["examples"]
+                ) + '</ul>'
+            )
+        ai_section = (
+            "AI Search Visibility",
+            f'We test whether ChatGPT, Gemini, Perplexity, and Google AI recommend your business '
+            f'when buyers ask for help. This period: cited in <strong>{a["cited"]} of {a["total"]}</strong> '
+            f'test queries ({a["rate"]:.1f}%).',
+            f'''<table style="width:100%;border-collapse:collapse;margin-top:12px;">
+          <tr><th {TH}>ENGINE</th><th {THR}>QUERIES TESTED</th><th {THR}>CITED</th><th {THR}>CITATION RATE</th></tr>
+          {engine_rows}
+        </table>{examples_html}'''
+        )
+
+    # ---- Section (v2): Google Ads (only when campaigns exist) ----
+    ads_section = None
+    if r.ads:
+        ad = r.ads
+        cpc = f'${ad["spend"] / ad["clicks"]:.2f}' if ad["clicks"] else "—"
+        cpa = f'${ad["spend"] / ad["conv"]:,.0f}' if ad["conv"] else "—"
+        camp_rows = "".join(
+            f'<tr><td {TD}>{html_escape(c["name"])}'
+            f'<div style="font-size:11px;color:#9ca3af;">{c["status"]}</div></td>'
+            f'<td {TDR}>${c["cost"]:,.0f}</td><td {TDR}>{c["clicks"]:,}</td>'
+            f'<td {TDR}>{c["conv"]}</td></tr>'
+            for c in ad["campaigns"][:6]
+        )
+        ads_section = (
+            "Google Ads",
+            f'Paid search totals for the {html_escape(ad["window"])} '
+            f'(Google Ads account {html_escape(str(ad["customer_id"]))}).',
+            f'''<table style="width:100%;border-collapse:collapse;margin-top:12px;">
+          <tr><th {TH}>METRIC</th><th {THR}>VALUE</th></tr>
+          <tr><td {TD}>Spend</td><td {TDR}>${ad["spend"]:,.2f}</td></tr>
+          <tr><td {TD}>Clicks</td><td {TDR}>{ad["clicks"]:,}</td></tr>
+          <tr><td {TD}>Impressions</td><td {TDR}>{ad["impr"]:,}</td></tr>
+          <tr><td {TD}>Calls / conversions</td><td {TDR}>{ad["conv"]}</td></tr>
+          <tr><td {TD}>Avg. cost per click</td><td {TDR}>{cpc}</td></tr>
+          <tr><td {TD}>Cost per conversion</td><td {TDR}>{cpa}</td></tr>
+        </table>
+        <table style="width:100%;border-collapse:collapse;margin-top:20px;">
+          <tr><th {TH}>CAMPAIGN</th><th {THR}>SPEND</th><th {THR}>CLICKS</th><th {THR}>CONV</th></tr>
+          {camp_rows}
+        </table>'''
+        )
+
+    # ---- Assemble all sections in order with dynamic numbering ----
+    ordered = [
+        ("Content Delivered",
+         f'Below is the SEO content we wrote, published, and indexed on your site in {html_escape(r.period_label)}.',
+         f'<table style="width:100%;border-collapse:collapse;margin-top:16px;">{posts_html}</table>'),
+    ]
+    for opt in (geogrid_section, gbp_section, ai_section, ads_section):
+        if opt:
+            ordered.append(opt)
+    ordered.extend([
+        (f'Site Health &nbsp; {verdict_badge(audit_verdict)}',
+         "Monthly technical audit of your site's core SEO health (performance, accessibility, on-page signals).",
+         audit_html),
+        ("Content Refresh Activity",
+         "Existing pages we identified as needing refresh, fix, or re-indexing.",
+         refresh_html),
+        ("Coming Up Next Month",
+         "Scheduled work + the queue we're drawing from to write next.",
+         coming_html),
+    ])
+    sections_html = "\n".join(
+        f'''
+    <section>
+      <div class="eyebrow">Section {i}</div>
+      <h2>{title}</h2>
+      <p>{intro}</p>
+      {body}
+    </section>''' for i, (title, intro, body) in enumerate(ordered, 1)
+    )
+
     return f'''<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -353,33 +837,7 @@ def render_html(r: ReportData) -> str:
       </div>
     </div>
 
-    <section>
-      <div class="eyebrow">Section 1</div>
-      <h2>Content Delivered</h2>
-      <p>Below is the SEO content we wrote, published, and indexed on your site in {html_escape(r.period_label)}.</p>
-      <table style="width:100%;border-collapse:collapse;margin-top:16px;">{posts_html}</table>
-    </section>
-
-    <section>
-      <div class="eyebrow">Section 2</div>
-      <h2>Site Health &nbsp; {verdict_badge(audit_verdict)}</h2>
-      <p>Monthly technical audit of your site's core SEO health (performance, accessibility, on-page signals).</p>
-      {audit_html}
-    </section>
-
-    <section>
-      <div class="eyebrow">Section 3</div>
-      <h2>Content Refresh Activity</h2>
-      <p>Existing pages we identified as needing refresh, fix, or re-indexing.</p>
-      {refresh_html}
-    </section>
-
-    <section>
-      <div class="eyebrow">Section 4</div>
-      <h2>Coming Up Next Month</h2>
-      <p>Scheduled work + the queue we're drawing from to write next.</p>
-      {coming_html}
-    </section>
+{sections_html}
 
     <div class="footer">
       Generated {datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")} by Rank AI. Questions? Reply to this email.
@@ -481,6 +939,35 @@ def cmd_preview(args) -> int:
     print(f"    Posts this month: {len(r.posts_this_month)}")
     print(f"    Audit verdict:    {r.audit_latest.get('site_rollup', {}).get('verdict') if r.audit_latest else 'n/a'}")
     print(f"    Refresh actions:  {r.refresh_latest.get('totals', {}).get('total_actions', 0) if r.refresh_latest else 0}")
+    if r.geogrid:
+        gg = r.geogrid
+        prior = f" (prior month {gg['prior_overall_top3']}%)" if gg.get("prior_overall_top3") is not None else ""
+        print(f"    Geo-grid:         top-3 coverage {gg['overall_top3']}%{prior} — latest scan {gg['latest_scan_date']}")
+        for c in gg["cities"]:
+            d = f"  MoM {c['top3_delta']:+.1f} pts" if c.get("top3_delta") is not None else ""
+            rank = f"#{c['best_avg_rank']:.1f}" if c.get("best_avg_rank") is not None else "—"
+            print(f"      {c['city']}: best '{c['best_keyword']}' avg rank {rank}, top-3 {c['top3']}%{d}")
+    else:
+        print(f"    Geo-grid:         no data (section skipped)")
+    if r.gbp:
+        g = r.gbp
+        print(f"    GBP:              {g.get('rating', '—')}★ / {g.get('review_count', '—')} reviews · "
+              f"calls {g['calls']} (prior {g.get('prior_calls', '—')}) · "
+              f"web clicks {g['web_clicks']} (prior {g.get('prior_web_clicks', '—')})")
+    else:
+        print(f"    GBP:              no data (section skipped)")
+    if r.ai_search:
+        a = r.ai_search
+        print(f"    AI search:        cited {a['cited']}/{a['total']} ({a['rate']}%) · "
+              f"{len(a['examples'])} example citation(s)"
+              f"{' from earlier scans' if a.get('examples_from_prior') else ''}")
+    else:
+        print(f"    AI search:        no data (section skipped)")
+    if r.ads:
+        ad = r.ads
+        print(f"    Ads (last 30d):   spend ${ad['spend']:,.2f} · {ad['clicks']} clicks · {ad['conv']} conv")
+    else:
+        print(f"    Ads:              no campaigns / no data (section skipped)")
     return 0
 
 

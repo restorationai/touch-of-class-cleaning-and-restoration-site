@@ -21,11 +21,14 @@ You must return ONE JSON object containing:
     ...
   ],
   "image_prompt": "A photo-realistic editorial scene: ...",
+  "section_image_prompt": "OPTIONAL — a second, DIFFERENT scene: ...",
   "internal_link_suggestions": ["/services/water-damage-restoration/", "..."]
 }
 ```
 
-The orchestrator will use these fields to build the markdown frontmatter, generate the hero image, populate internal links, and deploy.
+`section_image_prompt` is the ONLY optional field. When present, the orchestrator generates a second image and inserts it mid-body (after the second H2 section); when absent, nothing changes — the post ships with the hero only.
+
+The orchestrator will use these fields to build the markdown frontmatter, generate the hero image (and optional section image), populate internal links, and deploy.
 
 ---
 
@@ -154,6 +157,15 @@ mirrorless full-frame look, neutral white balance, no text or watermarks, no log
 
 Don't reuse the same scene description across posts. Vary the angle, the equipment shown, the demarcation moment.
 
+### Optional second image: `section_image_prompt`
+
+You MAY additionally return `section_image_prompt` — a second scene the orchestrator inserts mid-body, right after the second H2 section. Include it only when the post genuinely benefits from a second visual (process posts, step-by-step guides, equipment-heavy topics). Rules:
+
+1. It must be a **different scene from the hero** — different moment, different angle, different equipment. Never a re-description of the hero.
+2. Make it **relevant to the post's second or third H2** (that's where it will appear). If the second H2 is about the drying process, show the drying setup: air movers, dehumidifier placement, a moisture-meter reading.
+3. All the same style-guide rules apply (camera, lighting, branded polo, IICRC patch, faces obscured, no text/logos).
+4. When in doubt, **omit the field entirely** — a post with only the hero is completely fine. Do not return an empty string; either a real prompt or no field at all.
+
 ---
 
 ## Internal link suggestions
@@ -194,7 +206,7 @@ Critical JSON rules (same as System 1):
 - No prose commentary before or after.
 - `body_markdown` is plain markdown (no MDX, no Astro components, no HTML).
 - `faq` count is 4-6 entries.
-- Every string field is required (use empty string `""` rather than null if absent).
+- Every string field is required (use empty string `""` rather than null if absent) — EXCEPT `section_image_prompt`, which is optional: include it with a real prompt or leave the field out entirely (never an empty string).
 
 ## Hard rules
 

@@ -55,6 +55,22 @@ jobs:
           DATAFORSEO_PASSWORD:          ${{ secrets.DATAFORSEO_PASSWORD }}
         run: python3 scripts/master_scheduler.py run-due --all --headless
 
+      - name: Coverage gate (non-fatal — emails gap summary if any system is missing)
+        env:
+          SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY:  ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          SENDGRID_API_KEY:           ${{ secrets.SENDGRID_API_KEY }}
+        run: |
+          RC=0
+          python3 scripts/master_scheduler.py coverage > coverage-report.txt 2>&1 || RC=$?
+          cat coverage-report.txt
+          if [ "$RC" -ne 0 ]; then
+            python3 scripts/notify_failure.py \
+              --subject "[Rank AI] Coverage gaps: ${{ github.workflow }} run #${{ github.run_number }}" \
+              --run-url "https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+              --body "$(cat coverage-report.txt)" || true
+          fi
+
       - name: GBP posts (2x/week — every Mon + Thu run)
         env:
           SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}

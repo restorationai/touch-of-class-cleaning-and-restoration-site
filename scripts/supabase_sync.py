@@ -207,7 +207,7 @@ def sync_content(client, slug: str, company_id: str, dry_run: bool) -> None:
 
     if dry_run:
         queued = sum(1 for i in items if i.get("status") == "queued")
-        written = sum(1 for i in items if i.get("status") == "written")
+        written = sum(1 for i in items if i.get("status") in ("written", "published"))
         print(f"  [content] WOULD sync {len(items)} items ({queued} queued, {written} published)")
         return
 

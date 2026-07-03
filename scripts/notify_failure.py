@@ -25,11 +25,13 @@ FROM_NAME = "Rank AI Bot"
 TO_EMAIL = "contact@restorationai.io"
 
 
-def send(subject: str, run_url: str, api_key: str) -> None:
+def send(subject: str, run_url: str, api_key: str, extra_body: str | None = None) -> None:
+    detail = f"{extra_body.strip()}\n\n" if extra_body else ""
     body = (
         f"A Rank AI automated job failed and needs your attention.\n\n"
         f"Run: {run_url}\n"
         f"Time: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}\n\n"
+        f"{detail}"
         f"Open the link above, click the failed step, and check the logs.\n\n"
         f"-- Rank AI Bot"
     )
@@ -62,6 +64,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Send a CI failure alert via SendGrid")
     parser.add_argument("--subject", required=True, help="Email subject line")
     parser.add_argument("--run-url", required=True, help="GitHub Actions run URL")
+    parser.add_argument("--body", help="Optional extra detail (e.g. a failure summary) included in the email body")
     args = parser.parse_args()
 
     api_key = os.environ.get("SENDGRID_API_KEY")
@@ -69,7 +72,7 @@ def main() -> None:
         print("ERROR: SENDGRID_API_KEY env var not set", file=sys.stderr)
         sys.exit(1)
 
-    send(args.subject, args.run_url, api_key)
+    send(args.subject, args.run_url, api_key, extra_body=args.body)
 
 
 if __name__ == "__main__":
