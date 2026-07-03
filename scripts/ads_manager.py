@@ -1436,10 +1436,17 @@ def cmd_set_budget(slug: str, campaign_resource: str, daily_budget: float) -> in
     customer_id = get_customer_id(client_rec, slug)
     client = build_ads_client(slug)
 
-    # Fetch the budget resource name from the campaign
+    # Fetch the budget resource name from the campaign. Accept either a
+    # campaign resource/id or a campaign NAME (names contain spaces, which
+    # break a bare id-interpolated query — quote and match on name instead).
     campaign_id = campaign_resource.split("/campaigns/")[-1]
+    if campaign_id.isdigit():
+        where = f"campaign.id = {campaign_id}"
+    else:
+        safe_name = campaign_resource.replace("\\", "\\\\").replace("'", "\\'")
+        where = f"campaign.name = '{safe_name}'"
     rows = gaql(client, customer_id,
-                f"SELECT campaign.campaign_budget FROM campaign WHERE campaign.id = {campaign_id}")
+                f"SELECT campaign.campaign_budget FROM campaign WHERE {where}")
     if not rows:
         die(f"Campaign not found: {campaign_resource}")
 
