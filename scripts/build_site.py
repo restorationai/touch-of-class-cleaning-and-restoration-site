@@ -476,7 +476,16 @@ def write_content_md(
     elif arc == "blog-post":
         slug = parts[-1]
         topic = blog_topics_lookup.get(slug, {})
-        fm["published_at"] = topic.get("published_at", now_iso()[:10])
+        # Bulk-seeded launch posts: stagger published_at across the preceding
+        # ~4 weeks instead of stamping every seed with the same launch date
+        # (identical dates on 10+ posts looks programmatic and gives Google no
+        # publish cadence). Deterministic per slug so re-scaffolds are stable.
+        if topic.get("published_at"):
+            fm["published_at"] = topic["published_at"]
+        else:
+            from datetime import date, timedelta
+            offset = (sum(slug.encode()) % 28) + 1   # 1..28 days back
+            fm["published_at"] = (date.today() - timedelta(days=offset)).isoformat()
         fm["services"] = topic.get("services", [])
     elif arc == "legal":
         fm["ref"] = parts[-1]

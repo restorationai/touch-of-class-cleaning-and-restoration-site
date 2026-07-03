@@ -1,5 +1,6 @@
 ---
 import { brand } from "~/lib/brand";
+const is247 = /24\s*[\/x-]?\s*7|24 ?hours/i.test(String(brand.hours || ""));
 ---
 
 <header class="bg-dark text-white sticky top-0 z-50 border-b border-white/10 shadow-md">
@@ -17,7 +18,7 @@ import { brand } from "~/lib/brand";
     </nav>
 
     <a href={`tel:${brand.phoneRaw}`} class="btn-primary text-xs px-4 py-2 md:py-3.5 shadow-primary-900/40 text-center leading-tight">
-      <span class="hidden sm:block tracking-wider whitespace-nowrap">24/7 EMERGENCY: {brand.phone}</span>
+      <span class="hidden sm:block tracking-wider whitespace-nowrap">{is247 ? `24/7 EMERGENCY: ${brand.phone}` : `CALL TODAY: ${brand.phone}`}</span>
       <span class="sm:hidden flex flex-col items-center gap-0.5">
         <span class="text-[9px] font-bold tracking-[0.15em] opacity-80 uppercase">Call Now</span>
         <span class="font-black tracking-wide whitespace-nowrap">{brand.phone}</span>
