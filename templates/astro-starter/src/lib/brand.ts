@@ -33,6 +33,7 @@ export const brand = {
   licenseType: "{{BRAND_LICENSE_TYPE}}",
   certifications: {{BRAND_CERTIFICATIONS_JSON}} as string[],
   trustBadges: {{BRAND_TRUST_BADGES_JSON}} as string[],
+  jobPhotos: {{BRAND_JOB_PHOTOS_JSON}} as string[],
   sameAsUrls: {{BRAND_SAME_AS_URLS_JSON}} as string[],
   gbpRatingValue: "{{BRAND_GBP_RATING_VALUE}}",
   gbpReviewCount: "{{BRAND_GBP_REVIEW_COUNT}}",

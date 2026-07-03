@@ -35,6 +35,8 @@ import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
+import requests  # Supabase storage list (urllib is WAF-blocked on supabase.co)
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CLIENTS_DIR = REPO_ROOT / "clients"
 TEMPLATES_DIR = REPO_ROOT / "templates"
@@ -97,6 +99,32 @@ DEFAULTS = {
     "BRAND_FONT_SANS": "Inter",
     "BRAND_FONT_DISPLAY": "Inter",
 }
+
+
+def fetch_job_photos(company_id: str, limit: int = 24) -> list[str]:
+    """Build-time: public URLs of the client's uploaded job photos (from the intake
+    link, branding/{cid}/job-photos[/posted]) for the site's 'Recent Work' gallery.
+    Non-fatal — returns [] on missing creds or any error."""
+    sb_url = os.environ.get("SUPABASE_URL", "").rstrip("/")
+    sb_key = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")
+    if not (company_id and sb_url and sb_key):
+        return []
+    hdr = {"apikey": sb_key, "Authorization": f"Bearer {sb_key}", "Content-Type": "application/json"}
+    urls: list[str] = []
+    for sub in ("job-photos", "job-photos/posted"):
+        try:
+            r = requests.post(f"{sb_url}/storage/v1/object/list/branding", headers=hdr,
+                              json={"prefix": f"{company_id}/{sub}/", "limit": 100,
+                                    "sortBy": {"column": "created_at", "order": "desc"}}, timeout=20)
+            if not r.ok:
+                continue
+            for f in r.json():
+                n = f.get("name") or ""
+                if f.get("id") and n.lower().endswith((".jpg", ".jpeg", ".png", ".webp")):
+                    urls.append(f"{sb_url}/storage/v1/object/public/branding/{company_id}/{sub}/{n}")
+        except Exception:
+            continue
+    return urls[:limit]
 
 
 def resolve_tokens(client: dict, plan_input: dict) -> tuple[dict, dict]:
@@ -174,6 +202,7 @@ def resolve_tokens(client: dict, plan_input: dict) -> tuple[dict, dict]:
         "BRAND_CERTIFICATIONS_JSON": json.dumps(brand.get("certifications", [])),
         "BRAND_TRUST_BADGES_JSON": json.dumps(brand.get("trust_badges", [])),
         "BRAND_SAME_AS_URLS_JSON": json.dumps(brand.get("same_as_urls", [])),
+        "BRAND_JOB_PHOTOS_JSON": json.dumps(fetch_job_photos(client.get("company_id", ""))),
     }
 
     return string_tokens, json_tokens

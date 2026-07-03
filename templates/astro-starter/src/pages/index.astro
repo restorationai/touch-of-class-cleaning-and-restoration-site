@@ -10,6 +10,7 @@ import AboutSection from "~/components/ui/AboutSection.astro";
 import ServicesStrip from "~/components/ui/ServicesStrip.astro";
 import ProcessSection from "~/components/ui/ProcessSection.astro";
 import BeforeAfterSection from "~/components/ui/BeforeAfterSection.astro";
+import RecentWork from "~/components/RecentWork.astro";
 import ServiceAreasSection from "~/components/ui/ServiceAreasSection.astro";
 import { brand } from "~/lib/brand";
 import { workPairs } from "~/data/work";
@@ -51,6 +52,8 @@ const services = (allServices as CollectionEntry<"services">[])
   <ProcessSection />
 
   <BeforeAfterSection pairs={workPairs} />
+
+  <RecentWork />
 
   <CtaBanner heading="24/7 Emergency Response" subheading="We answer the phone day and night. Insurance billing accepted." />
 
