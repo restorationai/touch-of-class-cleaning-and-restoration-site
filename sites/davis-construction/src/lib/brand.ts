@@ -32,7 +32,10 @@ export const brand = {
   licenseAuthority: "",
   licenseType: "",
   certifications: [] as string[],
-  trustBadges: [] as string[],
+  // Operator-attested 2026-07-04 (Santino): family business (two brothers),
+  // licensed & insured — license number pending; add it to licenseNumbers when
+  // received so footer/llms.txt can cite it.
+  trustBadges: ["Family-Owned & Operated", "Licensed & Insured", "Locally Owned", "Since 2008"] as string[],
   sameAsUrls: [] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
