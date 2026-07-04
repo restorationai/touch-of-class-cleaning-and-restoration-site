@@ -70,7 +70,7 @@ Call a water damage restoration professional if any of the following apply:
 
 Professional water damage restoration involves industrial-grade dehumidifiers and air movers that pull moisture out of materials at a rate no consumer equipment can match. Technicians also use thermal imaging and moisture meters to find hidden wet areas behind walls and under floors — the spots where mold problems quietly develop over weeks before anyone notices.
 
-If mold is already visible or the musty smell is present, that moves into mold remediation territory, which involves containment, air filtration with HEPA equipment, and proper disposal of contaminated materials. IICRC-certified remediation follows specific protocols to prevent spreading spores to unaffected areas of the home during the cleanup process.
+If mold is already visible or the musty smell is present, that moves into mold remediation territory, which involves containment, air filtration with HEPA equipment, and proper disposal of contaminated materials. Professional remediation follows specific protocols to prevent spreading spores to unaffected areas of the home during the cleanup process.
 
 ## The Longer Recovery: What to Expect
 

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Painting and Trim in Huntsville, AL | Davis Construction Contractors"
 h1: "Painting and Trim in Huntsville"
-meta_description: "24/7 painting and trim in Huntsville, AL. IICRC-certified, insurance billing accepted. Call (256) 771-0326."
+meta_description: "Professional painting and trim in Huntsville, AL. Family-owned, licensed & insured since 2008. Call (256) 771-0326."
 primary_keyword: "painting and trim huntsville"
 secondary_keywords: ["painting contractor", "interior painting", "exterior painting", "house painter", "trim painting"]
 search_intent: "local_commercial"

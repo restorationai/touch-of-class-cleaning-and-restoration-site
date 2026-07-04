@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Storm Damage Restoration in Huntsville, AL | Davis Construction Contractors"
 h1: "Storm Damage Restoration in Huntsville"
-meta_description: "24/7 storm damage restoration in Huntsville, AL. IICRC-certified, insurance billing accepted. Call (256) 771-0326."
+meta_description: "Expert storm damage restoration in Huntsville, AL. Family-owned, licensed & insured since 2008. Call (256) 771-0326."
 primary_keyword: "storm damage restoration huntsville"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"

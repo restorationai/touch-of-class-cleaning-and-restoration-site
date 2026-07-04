@@ -83,7 +83,7 @@ Call a mold remediation professional when:
 - Anyone in the household has respiratory conditions, immune compromise, or is experiencing unexplained symptoms
 - You're preparing to sell the home or filing an insurance claim and need documentation
 
-Professional remediation isn't just cleaning — it involves containment to prevent cross-contamination, HEPA air filtration during removal, proper disposal of affected materials, and post-remediation verification testing to confirm the area is clear. IICRC-certified technicians follow the S520 Standard for Mold Remediation, which sets the protocols for how this work is done safely and thoroughly.
+Professional remediation isn't just cleaning — it involves containment to prevent cross-contamination, HEPA air filtration during removal, proper disposal of affected materials, and post-remediation verification testing to confirm the area is clear. Professional remediation technicians follow the S520 Standard for Mold Remediation, which sets the protocols for how this work is done safely and thoroughly.
 
 ## The Bottom Line
 

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Storm Damage Restoration in Madison, AL | Davis Construction Contractors"
 h1: "Storm Damage Restoration in Madison"
-meta_description: "24/7 storm damage restoration in Madison, AL. IICRC-certified, insurance billing accepted. Call (256) 771-0326."
+meta_description: "Expert storm damage restoration in Madison, AL. Family-owned, licensed & insured since 2008. Call (256) 771-0326."
 primary_keyword: "storm damage restoration madison"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -38,7 +38,7 @@ Tree impact jobs get a separate structural assessment before any debris removal 
 
 ## Response Time and Coverage Across Madison
 
-Our operation is headquartered in Madison, which puts us minutes from most of the city's residential neighborhoods. Old Town Madison, Bradford Creek, Blue Springs — we can typically have a crew on-site within 60 to 90 minutes of your call, often faster for addresses close to the Research Park Boulevard corridor. For properties in the 35758 and 35756 ZIP codes, we don't subcontract emergency response to a distant call center — the same team that answers the phone is the team that shows up.
+Our operation is headquartered in Madison, which puts us minutes from most of the city's residential neighborhoods. Old Town Madison, Bradford Creek, Blue Springs — we can typically have a crew on-site within 60 to 90 minutes of your call, often faster for addresses close to the Research Park Boulevard corridor. For properties in the 35758 and 35756 ZIP codes, we don't subcontract storm repair work to a distant call center — the same team that answers the phone is the team that shows up.
 
 We maintain storm-ready vehicles stocked with tarping materials, board-up supplies, and moisture detection equipment so we're not making a warehouse run at 2 a.m. when your roof is open to the sky.
 

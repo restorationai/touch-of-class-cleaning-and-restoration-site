@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Remediation in Athens, AL | Davis Construction Contractors"
 h1: "Mold Remediation in Athens"
-meta_description: "24/7 mold remediation in Athens, AL. IICRC-certified, insurance billing accepted. Call (256) 771-0326."
+meta_description: "Expert mold remediation in Athens, AL. Family-owned, licensed & insured since 2008. Call (256) 771-0326."
 primary_keyword: "mold remediation athens"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"

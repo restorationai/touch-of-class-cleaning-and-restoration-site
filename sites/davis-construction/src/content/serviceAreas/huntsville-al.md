@@ -2,7 +2,7 @@
 archetype: "service-area"
 title: "Restoration Services in Huntsville, AL | Davis Construction Contractors"
 h1: "Restoration Services in Huntsville"
-meta_description: "Serving Huntsville, AL with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (256) 771-0326."
+meta_description: "Serving Huntsville, AL with expert water, fire, mold, and storm damage restoration. Family-owned, licensed & insured. Call (256) 771-0326."
 primary_keyword: "restoration services huntsville"
 secondary_keywords: ["huntsville restoration company", "damage restoration huntsville", "huntsville disaster restoration"]
 search_intent: "local_commercial"
@@ -31,7 +31,7 @@ Older masonry in neighborhoods like Twickenham and Five Points absorbs and holds
 
 ### Water damage restoration
 
-Water damage in Huntsville often starts small and escalates quietly. A slow roof leak near the Monte Sano foothills, a backed-up floor drain in a Downtown Huntsville commercial space, a burst supply line in a South Huntsville ranch house — the water finds the path of least resistance and saturates subfloor, insulation, and drywall before the damage is visible. We extract standing water, deploy industrial drying equipment, and monitor moisture readings daily until the structure is dry to IICRC S500 standard.
+Water damage in Huntsville often starts small and escalates quietly. A slow roof leak near the Monte Sano foothills, a backed-up floor drain in a Downtown Huntsville commercial space, a burst supply line in a South Huntsville ranch house — the water finds the path of least resistance and saturates subfloor, insulation, and drywall before the damage is visible. We extract standing water, deploy industrial drying equipment, and monitor moisture readings daily until the structure is dry to the industry S500 drying standard.
 
 ### Fire and smoke damage restoration
 
@@ -53,4 +53,4 @@ Our shop is in Madison, AL — roughly 10 to 15 minutes from most Huntsville nei
 
 A property manager overseeing a multi-unit building in the 35801 ZIP code called us on a Tuesday morning after a tenant reported water dripping from a second-floor ceiling. By the time our crew arrived — 18 minutes after the call — a supply line failure had pushed water through the subfloor into the unit below. We extracted standing water from both units, set drying equipment across three rooms, and had a full moisture map to the property manager and their insurance adjuster by end of day. Drying was complete in four days; reconstruction of the affected drywall and flooring followed the week after. *(Scenario is representative of the type of work we handle; identifying details are not from a single client.)*
 
-If you're dealing with water, fire, mold, or storm damage anywhere in Huntsville, call Davis Construction Contractors at **(256) 771-0326**. We answer around the clock, and we'll tell you honestly what the damage looks like and what it will take to fix it.
+If you're dealing with water, fire, mold, or storm damage anywhere in Huntsville, call Davis Construction Contractors at **(256) 771-0326**. We answer Monday through Friday, 8 to 5, return messages promptly, and we'll tell you honestly what the damage looks like and what it will take to fix it.

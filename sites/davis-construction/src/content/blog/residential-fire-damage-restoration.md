@@ -30,7 +30,7 @@ Here is how the phases break down:
 
 1. **Emergency board-up and tarping**, Secure broken windows, doors, and roof penetrations within the first 24 hours to prevent weather intrusion and unauthorized entry.
 2. **Damage documentation**, Photo and written documentation of every affected surface, system, and content item. This is the foundation of your insurance claim.
-3. **Soot and smoke removal**, Dry sponge cleaning of walls and ceilings, HEPA vacuuming of contents, and chemical sponge treatment for porous surfaces. IICRC S700 standards govern this work.
+3. **Soot and smoke removal**, Dry sponge cleaning of walls and ceilings, HEPA vacuuming of contents, and chemical sponge treatment for porous surfaces. Industry S700 standards govern this work.
 4. **Odor treatment**, Thermal fogging, hydroxyl generation, or ozone treatment depending on the severity and the materials involved. Smoke odor in HVAC ductwork requires separate duct cleaning.
 5. **Water and moisture control**, Firefighting water soaks into subfloors, wall cavities, and insulation. If that moisture is not extracted and dried within 48-72 hours, mold follows. [Mold remediation](/services/mold-remediation/) becomes a second claim if water damage is not addressed during the fire restoration scope.
 6. **Structural reconstruction**, Framing, drywall, insulation, roofing, siding, painting, and finish work to return the home to pre-loss condition.

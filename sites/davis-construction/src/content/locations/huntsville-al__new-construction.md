@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "New Home Construction in Huntsville, AL | Davis Construction Contractors"
 h1: "New Home Construction in Huntsville"
-meta_description: "24/7 new home construction in Huntsville, AL. IICRC-certified, insurance billing accepted. Call (256) 771-0326."
+meta_description: "Professional new home construction in Huntsville, AL. Family-owned, licensed & insured since 2008. Call (256) 771-0326."
 primary_keyword: "new home construction huntsville"
 secondary_keywords: ["custom home builder", "new home builder", "build a house", "residential construction", "ground-up construction"]
 search_intent: "local_commercial"

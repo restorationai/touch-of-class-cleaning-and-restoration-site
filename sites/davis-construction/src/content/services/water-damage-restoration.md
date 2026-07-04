@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Water Damage Restoration in Madison | Davis Construction Contractors"
 h1: "Water Damage Restoration in Madison"
-meta_description: "24/7 water damage restoration in Madison and surrounding areas. IICRC-certified, insurance billing accepted. Call (256) 771-0326."
+meta_description: "Expert water damage restoration in Madison and surrounding areas. Family-owned, licensed & insured since 2008. Call (256) 771-0326."
 primary_keyword: "water damage restoration madison"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -33,7 +33,7 @@ Moisture readings are logged daily. Drying typically takes 3–5 days for Catego
 
 ## Our process
 
-**1. Emergency response and water source control**
+**1. Rapid response and water source control**
 Before anything is extracted, the source has to be stopped. That means coordinating with your plumber if a supply line is still running, or documenting the entry point for storm-driven water. We identify the water category (clean, gray, or black) on arrival — that classification determines the safety protocols and disposal requirements for everything we remove.
 
 **2. Moisture mapping and documentation**

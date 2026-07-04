@@ -84,7 +84,7 @@ Davis Construction Contractors handles [water damage restoration](/services/wate
 
 ## What does the mold remediation process actually involve?
 
-A professional mold remediation job follows the IICRC S520 Standard for Professional Mold Remediation. The process has five core steps regardless of job size.
+A professional mold remediation job follows the S520 Standard for Professional Mold Remediation. The process has five core steps regardless of job size.
 
 1. **Containment.** Poly sheeting is sealed over doorways and HVAC registers to prevent spores from spreading to unaffected areas. Negative air pressure is established using an air scrubber exhausted to the exterior.
 2. **HEPA vacuuming.** All visible mold growth is vacuumed using HEPA-filtered equipment before any disturbance. This step captures spores before they become airborne.

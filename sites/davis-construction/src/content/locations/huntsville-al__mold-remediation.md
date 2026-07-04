@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Remediation in Huntsville, AL | Davis Construction Contractors"
 h1: "Mold Remediation in Huntsville"
-meta_description: "24/7 mold remediation in Huntsville, AL. IICRC-certified, insurance billing accepted. Call (256) 771-0326."
+meta_description: "Expert mold remediation in Huntsville, AL. Family-owned, licensed & insured since 2008. Call (256) 771-0326."
 primary_keyword: "mold remediation huntsville"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"

@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Siding and Gutters in Madison | Davis Construction Contractors"
 h1: "Siding and Gutters in Madison"
-meta_description: "24/7 siding and gutters in Madison and surrounding areas. IICRC-certified, insurance billing accepted. Call (256) 771-0326."
+meta_description: "Professional siding and gutters in Madison and surrounding areas. Family-owned, licensed & insured since 2008. Call (256) 771-0326."
 primary_keyword: "siding and gutters madison"
 secondary_keywords: ["siding contractor", "siding installation", "siding replacement", "gutter installation", "exterior contractor"]
 search_intent: "local_commercial"

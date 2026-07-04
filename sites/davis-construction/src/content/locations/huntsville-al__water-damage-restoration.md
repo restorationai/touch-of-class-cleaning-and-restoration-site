@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Water Damage Restoration in Huntsville, AL | Davis Construction Contractors"
 h1: "Water Damage Restoration in Huntsville"
-meta_description: "24/7 water damage restoration in Huntsville, AL. IICRC-certified, insurance billing accepted. Call (256) 771-0326."
+meta_description: "Expert water damage restoration in Huntsville, AL. Family-owned, licensed & insured since 2008. Call (256) 771-0326."
 primary_keyword: "water damage restoration huntsville"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -41,7 +41,7 @@ From there, the process moves through extraction, structural drying, and monitor
 
 ## Response Time to Huntsville from Our Madison HQ
 
-Our shop is in Madison, which puts us roughly 10 to 15 minutes from most of Huntsville under normal traffic conditions via US-72 or Research Park Boulevard. For neighborhoods closer to the city core — Downtown Huntsville, Five Points, the Twickenham area — drive time is typically under 20 minutes. South Huntsville addresses near the Redstone Arsenal gate area or Monte Sano run closer to 25 to 30 minutes depending on time of day. We aim to have a technician on-site within 60 minutes of your call for emergencies anywhere in our Huntsville service area. Call us at (256) 771-0326 any time — day or night.
+Our shop is in Madison, which puts us roughly 10 to 15 minutes from most of Huntsville under normal traffic conditions via US-72 or Research Park Boulevard. For neighborhoods closer to the city core — Downtown Huntsville, Five Points, the Twickenham area — drive time is typically under 20 minutes. South Huntsville addresses near the Redstone Arsenal gate area or Monte Sano run closer to 25 to 30 minutes depending on time of day. We aim to have a technician on-site as quickly as scheduling allows anywhere in our Huntsville service area. Call us at (256) 771-0326, Monday through Friday, 8 to 5.
 
 ## Huntsville Insurance and HOA Coordination
 

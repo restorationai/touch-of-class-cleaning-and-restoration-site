@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Home Remodeling in Athens, AL | Davis Construction Contractors"
 h1: "Home Remodeling in Athens"
-meta_description: "24/7 home remodeling in Athens, AL. IICRC-certified, insurance billing accepted. Call (256) 771-0326."
+meta_description: "Professional home remodeling in Athens, AL. Family-owned, licensed & insured since 2008. Call (256) 771-0326."
 primary_keyword: "home remodeling athens"
 secondary_keywords: ["home renovation", "kitchen remodel", "bathroom remodel", "whole home remodel", "interior remodeling contractor"]
 search_intent: "local_commercial"

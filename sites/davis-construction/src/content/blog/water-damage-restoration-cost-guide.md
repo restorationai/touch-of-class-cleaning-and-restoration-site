@@ -24,7 +24,7 @@ You're standing in a wet room and trying to figure out whether to file a claim o
 
 Restoration contractors price water damage jobs using a framework built around these variables. Understanding them lets you evaluate any estimate you receive.
 
-**Water category** is the single biggest driver. The IICRC S500 standard, which governs professional water damage response, classifies water in three categories:
+**Water category** is the single biggest driver. The industry's S500 standard, which governs professional water damage response, classifies water in three categories:
 
 - **Category 1 (Clean water)**: Comes from a supply line, faucet, or appliance inlet. A burst supply line under a sink or a failed washing machine fill hose. Lowest remediation cost because the water itself isn't a biological hazard.
 - **Category 2 (Gray water)**: Contains contaminants that can cause illness. Dishwasher overflow, aquarium spill, or washing machine drain water. Requires more protective handling and antimicrobial treatment.
@@ -62,7 +62,7 @@ These ranges cover extraction and drying only. Add reconstruction costs separate
 
 A 1980s ranch home in the Bradford Creek area has a supply line fail on the refrigerator ice maker. The homeowner discovers it Monday morning after it ran over the weekend. By then, the water has spread across 350 square feet of vinyl plank flooring in the kitchen and adjacent dining room and wicked up into 40 linear feet of drywall to a height of about 8 inches.
 
-Because it sat for roughly 48 hours, the Category 1 water has likely degraded to Category 2 under IICRC S500 protocols. The vinyl plank flooring is non-porous and can be lifted, the subfloor dried, and the flooring reinstalled if it hasn't buckled. The drywall section affected is about 80 square feet of wall surface.
+Because it sat for roughly 48 hours, the Category 1 water has likely degraded to Category 2 under S500 drying protocols. The vinyl plank flooring is non-porous and can be lifted, the subfloor dried, and the flooring reinstalled if it hasn't buckled. The drywall section affected is about 80 square feet of wall surface.
 
 - Extraction and initial setup: $450-$650
 - Equipment deployment (4 air movers, 1 LGR dehumidifier, 3-5 days): $600-$900

@@ -21,7 +21,7 @@ Most water damage restoration takes **3 to 5 days for drying alone**, but the fu
 
 ---
 
-## Phase 1: Emergency Response and Water Extraction (Day 1)
+## Phase 1: Initial Response and Water Extraction (Day 1)
 
 The clock starts the moment water enters the structure. Within the first 24 to 48 hours, mold spores already present in the air can begin colonizing wet organic material — drywall paper, wood framing, carpet backing. That's not a scare tactic; it's why extraction speed matters.
 

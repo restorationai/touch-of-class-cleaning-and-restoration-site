@@ -2,9 +2,9 @@
 archetype: "about"
 title: "About Davis Construction Contractors | Madison Restoration Company"
 h1: "About Davis Construction Contractors"
-meta_description: "Davis Construction Contractors has served Madison since 2008. Meet our IICRC-certified restoration team. Licensed, insured, locally owned."
+meta_description: "Davis Construction Contractors has served Madison since 2008. Family-owned & operated by two brothers. Licensed, insured, locally owned."
 primary_keyword: "davis construction contractors madison"
-secondary_keywords: ["local restoration company", "iicrc certified restoration", "licensed restoration contractor"]
+secondary_keywords: ["local restoration company", "family owned restoration company", "licensed restoration contractor"]
 search_intent: "navigational_trust"
 priority: 2.5
 plan_hash: "99662af10ddf4988"
@@ -21,7 +21,7 @@ Davis Construction Contractors has been doing restoration and reconstruction wor
 
 Most of the calls that come in to (256) 771-0326 aren't planned. A homeowner wakes up to water spreading across hardwood floors. A property manager gets a tenant call about a sewage backup. A business owner is standing in a smoke-damaged office the morning after a fire. The work starts there — at the moment someone needs a clear answer about what happens next and a crew that can move quickly.
 
-Day to day, that means being available around the clock, walking properties to document damage before anything is touched, coordinating directly with insurance adjusters so homeowners aren't stuck translating between their carrier and their contractor, and managing the full scope from emergency mitigation through final reconstruction. The goal at the end of every job is a structure that's dry, safe, and back to the condition it was in before the loss — or better.
+Day to day, that means being easy to reach and quick to schedule, walking properties to document damage before anything is touched, coordinating directly with insurance adjusters so homeowners aren't stuck translating between their carrier and their contractor, and managing the full scope from initial mitigation through final reconstruction. The goal at the end of every job is a structure that's dry, safe, and back to the condition it was in before the loss — or better.
 
 ## Our certifications and licensure
 

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Remediation in Madison, AL | Davis Construction Contractors"
 h1: "Mold Remediation in Madison"
-meta_description: "24/7 mold remediation in Madison, AL. IICRC-certified, insurance billing accepted. Call (256) 771-0326."
+meta_description: "Expert mold remediation in Madison, AL. Family-owned, licensed & insured since 2008. Call (256) 771-0326."
 primary_keyword: "mold remediation madison"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"

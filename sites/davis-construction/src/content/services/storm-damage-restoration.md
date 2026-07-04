@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Storm Damage Restoration in Madison | Davis Construction Contractors"
 h1: "Storm Damage Restoration in Madison"
-meta_description: "24/7 storm damage restoration in Madison and surrounding areas. IICRC-certified, insurance billing accepted. Call (256) 771-0326."
+meta_description: "Expert storm damage restoration in Madison and surrounding areas. Family-owned, licensed & insured since 2008. Call (256) 771-0326."
 primary_keyword: "storm damage restoration madison"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -53,7 +53,7 @@ On the insurance side, adjusters look specifically for proof of storm causation 
 
 Madison and the broader Tennessee Valley sit in one of the most active severe weather corridors in the country. The region sees two distinct severe weather peaks: spring (March through May), when supercell thunderstorms and tornado outbreaks are most frequent, and late fall (November into December), when a secondary severe weather season brings another round of wind and tornado risk. Summer brings frequent afternoon thunderstorms capable of producing damaging straight-line winds and large hail.
 
-Humidity is a compounding factor. When a storm breach happens in July or August, interior temperatures and humidity levels accelerate the timeline for secondary mold growth — the 48–72 hour window that applies in temperate climates can compress in a Madison summer. Emergency response speed matters more here than it does in drier climates.
+Humidity is a compounding factor. When a storm breach happens in July or August, interior temperatures and humidity levels accelerate the timeline for secondary mold growth — the 48–72 hour window that applies in temperate climates can compress in a Madison summer. Response speed matters more here than it does in drier climates.
 
 ## Service area
 

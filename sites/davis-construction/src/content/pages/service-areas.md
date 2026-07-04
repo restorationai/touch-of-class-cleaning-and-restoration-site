@@ -2,7 +2,7 @@
 archetype: "service-areas-hub"
 title: "Service Areas | Davis Construction Contractors Restoration"
 h1: "Areas We Serve"
-meta_description: "Davis Construction Contractors provides 24/7 restoration services across Madison and the surrounding region. Find your city."
+meta_description: "Davis Construction Contractors provides trusted restoration services across Madison and the surrounding region. Find your city."
 primary_keyword: "davis construction contractors service areas"
 secondary_keywords: ["restoration service area", "cities we serve", "local restoration coverage"]
 search_intent: "navigational_local"

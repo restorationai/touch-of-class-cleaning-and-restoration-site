@@ -32,7 +32,7 @@ At the same time, the contractor documents everything. Photos, moisture readings
 
 This surprises most homeowners: one of the first technical tasks after a fire is water removal. Firefighting operations can introduce hundreds or even thousands of gallons of water into a structure. That water saturates drywall, soaks insulation, wicks into hardwood floors, and pools in basements and crawl spaces.
 
-If that water sits, mold growth begins within 48 to 72 hours — sometimes faster in a warm, enclosed space with organic material like drywall paper and wood framing. This is not a hypothetical. It's a documented pattern that the IICRC S500 standard addresses directly: fire losses with significant water intrusion must be treated as concurrent water damage events.
+If that water sits, mold growth begins within 48 to 72 hours — sometimes faster in a warm, enclosed space with organic material like drywall paper and wood framing. This is not a hypothetical. It's a documented pattern that the industry S500 standard addresses directly: fire losses with significant water intrusion must be treated as concurrent water damage events.
 
 Extraction equipment — truck-mounted or portable units capable of pulling several hundred gallons per hour — removes standing water first. Then industrial-grade LGR (low-grain refrigerant) dehumidifiers and high-velocity air movers are staged throughout the structure to drive moisture out of building materials. Restoration contractors use pin-type and non-invasive moisture meters to track drying progress in walls and floors, targeting specific moisture content thresholds before moving to the next phase. Skipping or rushing this step leads to mold colonies inside wall cavities that won't show up visually for weeks.
 
@@ -48,7 +48,7 @@ Soot is not uniform. The type of fire determines the type of residue, and differ
 
 **Protein residue** from kitchen fires is nearly invisible but has an extremely persistent odor. It bonds to surfaces at a molecular level and requires enzymatic cleaners.
 
-The IICRC S753 standard for fire and smoke damage restoration provides the technical framework for identifying residue types and selecting appropriate cleaning methods. A contractor working to this standard will test-clean small sections before committing to a cleaning method across an entire room.
+The industry's S753 standard for fire and smoke damage restoration provides the technical framework for identifying residue types and selecting appropriate cleaning methods. A contractor working to this standard will test-clean small sections before committing to a cleaning method across an entire room.
 
 All porous materials that cannot be cleaned to pre-loss condition — insulation, heavily contaminated drywall, carpet — get removed and disposed of at this stage. Structural materials like framing lumber are assessed individually: surface soot on intact framing can often be cleaned and sealed; charred or structurally compromised framing gets replaced during reconstruction.
 
@@ -93,7 +93,7 @@ Timeline depends on the size and severity of the fire, the extent of water intru
 - **Deodorization**: 1 to 3 days, sometimes concurrent with cleaning
 - **Reconstruction**: 2 to 8 weeks depending on scope
 
-Total timeline for a significant residential fire: 6 to 12 weeks from emergency response to move-in, assuming no major supply chain delays and a clean insurance approval process. Smaller contained fires (kitchen, single room) can move faster — 3 to 5 weeks is realistic.
+Total timeline for a significant residential fire: 6 to 12 weeks from first mitigation to move-in, assuming no major supply chain delays and a clean insurance approval process. Smaller contained fires (kitchen, single room) can move faster — 3 to 5 weeks is realistic.
 
 ## What to Ask Before You Sign a Restoration Contract
 
@@ -102,6 +102,6 @@ Before authorizing work, get clear answers to four questions:
 1. **Who handles the water damage component?** If the contractor plans to skip or minimize the drying phase, that's a red flag. Firefighting water is a water damage event and needs to be treated as one.
 2. **Do you handle reconstruction, or do I need a separate contractor?** Handoffs between restoration and rebuild contractors are a common source of delays and disputes.
 3. **How do you document scope for the insurance adjuster?** You want a line-item estimate in Xactimate or equivalent format — the format adjusters work in.
-4. **What certifications does your team hold?** IICRC certifications in fire and smoke restoration (FSRT) and water damage restoration (WRT) indicate trained technicians, not just laborers.
+4. **What training does your team have?** Formal training in fire and smoke restoration and in water damage restoration indicates skilled technicians, not just laborers.
 
 If you're in the early stages after a fire and need a damage assessment and written scope, contact Davis Construction Contractors at (256) 771-0326 to schedule an on-site evaluation.

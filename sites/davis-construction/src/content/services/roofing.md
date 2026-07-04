@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Roofing Installation and Replacement in Madison | Davis Construction Contractors"
 h1: "Roofing Installation and Replacement in Madison"
-meta_description: "24/7 roofing installation and replacement in Madison and surrounding areas. IICRC-certified, insurance billing accepted. Call (256) 771-0326."
+meta_description: "Professional roofing installation and replacement in Madison and surrounding areas. Family-owned, licensed & insured since 2008. Call (256) 771-0326."
 primary_keyword: "roofing installation and replacement madison"
 secondary_keywords: ["roofing contractor", "roof replacement", "new roof installation", "residential roofing", "roof repair"]
 search_intent: "local_commercial"

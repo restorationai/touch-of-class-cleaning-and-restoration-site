@@ -2,7 +2,7 @@
 archetype: "service-area"
 title: "Restoration Services in Athens, AL | Davis Construction Contractors"
 h1: "Restoration Services in Athens"
-meta_description: "Serving Athens, AL with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (256) 771-0326."
+meta_description: "Serving Athens, AL with expert water, fire, mold, and storm damage restoration. Family-owned, licensed & insured. Call (256) 771-0326."
 primary_keyword: "restoration services athens"
 secondary_keywords: ["athens restoration company", "damage restoration athens", "athens disaster restoration"]
 search_intent: "local_commercial"
@@ -19,7 +19,7 @@ state: "AL"
 primary: false
 rendered: true
 ---
-When a pipe bursts in a Westover Hills ranch house at 2 a.m. or smoke works its way into the walls of a Downtown Athens bungalow, Davis Construction Contractors sends a crew — not a call center. Since 2008, we've handled water extraction, fire and smoke cleanup, mold remediation, and full reconstruction for homeowners and property managers across Athens and Limestone County. If you're in ZIP code 35611 or 35613, you can reach us at (256) 771-0326 any hour of the day.
+When a pipe bursts in a Westover Hills ranch house at 2 a.m. or smoke works its way into the walls of a Downtown Athens bungalow, Davis Construction Contractors sends a crew — not a call center. Since 2008, we've handled water extraction, fire and smoke cleanup, mold remediation, and full reconstruction for homeowners and property managers across Athens and Limestone County. If you're in ZIP code 35611 or 35613, you can reach us at (256) 771-0326, Monday through Friday, 8 a.m. to 5 p.m.
 
 ## Restoration emergencies common in Athens
 
@@ -35,7 +35,7 @@ Water damage in Athens frequently starts in places that don't get looked at unti
 
 ### Fire and smoke damage restoration
 
-After a kitchen fire, the visible char is rarely the biggest problem. Smoke residue — the oily, protein-based kind that comes from cooking fires — penetrates drywall, HVAC ductwork, and cabinet interiors and produces an odor that resurfaces for months if it isn't chemically neutralized. In the older wood-framed homes near Athens State University and Downtown Athens, smoke travels farther through wall cavities than in newer builds. Our IICRC-certified technicians identify the smoke type, treat surfaces with the right chemistry, and clear ductwork before we sign off.
+After a kitchen fire, the visible char is rarely the biggest problem. Smoke residue — the oily, protein-based kind that comes from cooking fires — penetrates drywall, HVAC ductwork, and cabinet interiors and produces an odor that resurfaces for months if it isn't chemically neutralized. In the older wood-framed homes near Athens State University and Downtown Athens, smoke travels farther through wall cavities than in newer builds. Our experienced technicians identify the smoke type, treat surfaces with the right chemistry, and clear ductwork before we sign off.
 
 ### Mold remediation
 

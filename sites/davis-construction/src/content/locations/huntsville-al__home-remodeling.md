@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Home Remodeling in Huntsville, AL | Davis Construction Contractors"
 h1: "Home Remodeling in Huntsville"
-meta_description: "24/7 home remodeling in Huntsville, AL. IICRC-certified, insurance billing accepted. Call (256) 771-0326."
+meta_description: "Professional home remodeling in Huntsville, AL. Family-owned, licensed & insured since 2008. Call (256) 771-0326."
 primary_keyword: "home remodeling huntsville"
 secondary_keywords: ["home renovation", "kitchen remodel", "bathroom remodel", "whole home remodel", "interior remodeling contractor"]
 search_intent: "local_commercial"

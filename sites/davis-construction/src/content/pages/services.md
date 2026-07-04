@@ -2,7 +2,7 @@
 archetype: "services-hub"
 title: "Restoration Services in Madison | Davis Construction Contractors"
 h1: "Our Restoration Services"
-meta_description: "Full-service restoration in Madison: water, fire, mold, storm, biohazard, and commercial restoration. 24/7 response. Call (256) 771-0326."
+meta_description: "Full-service restoration in Madison: water, fire, mold, storm, biohazard, and commercial restoration. Family-owned since 2008. Call (256) 771-0326."
 primary_keyword: "restoration services madison"
 secondary_keywords: ["damage restoration services", "property restoration services", "disaster restoration"]
 search_intent: "local_commercial"

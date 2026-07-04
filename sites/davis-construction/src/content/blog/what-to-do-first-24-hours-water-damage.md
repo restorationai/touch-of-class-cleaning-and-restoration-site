@@ -79,7 +79,7 @@ Call a restoration contractor when:
 - You see or smell anything that suggests mold is already present
 - Your insurance company is involved and you need documented drying logs
 
-Professional water damage restoration includes thermal imaging to find hidden moisture, industrial drying equipment placed strategically based on readings — not guesswork — and the documentation your insurance adjuster will ask for. IICRC-certified technicians follow a standard of care (the S500) that's recognized by most major insurers.
+Professional water damage restoration includes thermal imaging to find hidden moisture, industrial drying equipment placed strategically based on readings — not guesswork — and the documentation your insurance adjuster will ask for. Trained technicians follow an industry standard of care (the S500) that's recognized by most major insurers.
 
 ## The Longer Recovery: What Comes After the First Day
 

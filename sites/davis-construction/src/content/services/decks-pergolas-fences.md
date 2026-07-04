@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Decks, Pergolas and Fences in Madison | Davis Construction Contractors"
 h1: "Decks, Pergolas and Fences in Madison"
-meta_description: "24/7 decks, pergolas and fences in Madison and surrounding areas. IICRC-certified, insurance billing accepted. Call (256) 771-0326."
+meta_description: "Professional decks, pergolas and fences in Madison and surrounding areas. Family-owned, licensed & insured since 2008. Call (256) 771-0326."
 primary_keyword: "decks, pergolas and fences madison"
 secondary_keywords: ["deck builder", "deck installation", "pergola builder", "fence installation", "outdoor structure contractor"]
 search_intent: "local_commercial"

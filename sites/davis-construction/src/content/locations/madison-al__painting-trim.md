@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Painting and Trim in Madison, AL | Davis Construction Contractors"
 h1: "Painting and Trim in Madison"
-meta_description: "24/7 painting and trim in Madison, AL. IICRC-certified, insurance billing accepted. Call (256) 771-0326."
+meta_description: "Professional painting and trim in Madison, AL. Family-owned, licensed & insured since 2008. Call (256) 771-0326."
 primary_keyword: "painting and trim madison"
 secondary_keywords: ["painting contractor", "interior painting", "exterior painting", "house painter", "trim painting"]
 search_intent: "local_commercial"

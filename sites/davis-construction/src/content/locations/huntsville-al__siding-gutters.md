@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Siding and Gutters in Huntsville, AL | Davis Construction Contractors"
 h1: "Siding and Gutters in Huntsville"
-meta_description: "24/7 siding and gutters in Huntsville, AL. IICRC-certified, insurance billing accepted. Call (256) 771-0326."
+meta_description: "Professional siding and gutters in Huntsville, AL. Family-owned, licensed & insured since 2008. Call (256) 771-0326."
 primary_keyword: "siding and gutters huntsville"
 secondary_keywords: ["siding contractor", "siding installation", "siding replacement", "gutter installation", "exterior contractor"]
 search_intent: "local_commercial"

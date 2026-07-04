@@ -59,7 +59,7 @@ The threshold questions are:
 - Is the source potentially contaminated (sewage backup, roof drainage, floodwater)?
 - Do you have tenants, employees, or customers who will re-enter the space?
 
-If the answer to any of those is yes, the job calls for IICRC-certified water damage technicians with commercial-grade extraction equipment, industrial desiccant or refrigerant dehumidifiers, and the moisture documentation to satisfy both your insurance adjuster and any future due-diligence review of the property.
+If the answer to any of those is yes, the job calls for professionally trained water damage technicians with commercial-grade extraction equipment, industrial desiccant or refrigerant dehumidifiers, and the moisture documentation to satisfy both your insurance adjuster and any future due-diligence review of the property.
 
 Davis Construction Contractors handles commercial water damage restoration throughout Madison and the greater Huntsville area. If you're in the middle of an active loss, the number to call is [(256) 771-0326](tel:2567710326).
 

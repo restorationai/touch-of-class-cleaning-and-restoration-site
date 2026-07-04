@@ -45,7 +45,7 @@ export const brand = {
   gbpReviewCount: "",
   gbpReviews: [] as { author: string; rating: number; text: string; when: string }[],
   tagline: "Construction and restoration services in Madison, AL.",
-  ctaLabel: "24/7 Emergency Hotline",
+  ctaLabel: "Call Today — Free Estimates",
 } as const;
 
 export const entityId = `${brand.canonicalUrl}/#identity`;

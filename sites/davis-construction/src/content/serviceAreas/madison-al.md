@@ -2,7 +2,7 @@
 archetype: "service-area"
 title: "Restoration Services in Madison, AL | Davis Construction Contractors"
 h1: "Restoration Services in Madison"
-meta_description: "Serving Madison, AL with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (256) 771-0326."
+meta_description: "Serving Madison, AL with expert water, fire, mold, and storm damage restoration. Family-owned, licensed & insured. Call (256) 771-0326."
 primary_keyword: "restoration services madison"
 secondary_keywords: ["madison restoration company", "damage restoration madison", "madison disaster restoration"]
 search_intent: "local_commercial"
@@ -23,7 +23,7 @@ Davis Construction Contractors has operated out of Madison since 2008, which mea
 
 ## Restoration emergencies common in Madison
 
-Madison's housing stock creates a split picture that shapes what we see on job sites. The 1970s and 1980s ranch homes scattered through Old Town Madison and along the County Line Road corridor often have original cast-iron or galvanized supply lines that corrode quietly for years before failing. Older attic insulation in those homes also gives mold a head start after a roof leak — the IICRC standard is 24–48 hours before colonization begins in humid conditions, and Madison summers give mold every advantage it needs.
+Madison's housing stock creates a split picture that shapes what we see on job sites. The 1970s and 1980s ranch homes scattered through Old Town Madison and along the County Line Road corridor often have original cast-iron or galvanized supply lines that corrode quietly for years before failing. Older attic insulation in those homes also gives mold a head start after a roof leak — the industry rule of thumb is 24–48 hours before colonization begins in humid conditions, and Madison summers give mold every advantage it needs.
 
 The newer subdivisions — Blue Springs, Liberty Park, the communities built out after 2005 — bring a different set of vulnerabilities. Engineered wood framing and OSB sheathing absorb moisture faster than dimensional lumber when a window seal fails or a roof takes hail damage. Madison's spring severe weather season runs February through May, and the hail events that accompany those storms routinely puncture roofing membranes and leave attic spaces open to the next rain. Add the region's high relative humidity — Madison averages over 70% humidity through the summer months — and water intrusion that looks minor on day one can look very different by day four.
 
@@ -39,7 +39,7 @@ After a kitchen fire or an electrical event in the attic, the visible char is on
 
 ### Mold remediation
 
-Mold calls in Madison frequently trace back to HVAC condensation issues — a common problem in tightly built newer homes where vapor management wasn't detailed correctly during construction. We follow EPA and IICRC S520 protocols, contain the affected area, and provide post-remediation clearance testing through a third-party industrial hygienist so the result is documented, not just claimed.
+Mold calls in Madison frequently trace back to HVAC condensation issues — a common problem in tightly built newer homes where vapor management wasn't detailed correctly during construction. We follow EPA guidance and industry S520 protocols, contain the affected area, and provide post-remediation clearance testing through a third-party industrial hygienist so the result is documented, not just claimed.
 
 ### Reconstruction
 

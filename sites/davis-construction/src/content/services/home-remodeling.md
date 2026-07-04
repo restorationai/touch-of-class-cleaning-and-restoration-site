@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Home Remodeling in Madison | Davis Construction Contractors"
 h1: "Home Remodeling in Madison"
-meta_description: "24/7 home remodeling in Madison and surrounding areas. IICRC-certified, insurance billing accepted. Call (256) 771-0326."
+meta_description: "Professional home remodeling in Madison and surrounding areas. Family-owned, licensed & insured since 2008. Call (256) 771-0326."
 primary_keyword: "home remodeling madison"
 secondary_keywords: ["home renovation", "kitchen remodel", "bathroom remodel", "whole home remodel", "interior remodeling contractor"]
 search_intent: "local_commercial"
