@@ -9,6 +9,14 @@ the Supabase `marketing_action_plan` table (which the app's "What we're working 
 card reads). It does NOT execute anything — each action is routed to the system that
 would do it (blog_post->S2, gbp_post->GBP, negative_keyword->ads, etc.).
 
+AI-search loop: marketing_ai_search_scans (written by ai_search_scan.py, which runs
+BEFORE this in weekly-maintenance.yml) is diffed per (engine, query) — latest scan
+vs prior — into newly_cited / lost_citation / never_cited / stable_cited. Uncited
+money queries still become ai_visibility content actions (content_writer consumes
+pinned ones); lost/never-cited queries additionally become ai_citation_fix actions
+with concrete off-site instructions (Yelp/Bing Places/GBP/emergency page) for a
+human. newly_cited wins are printed in the run summary, never inserted as actions.
+
 Usage:
     python3 scripts/strategist.py --slug homepriderestorationandcleaning
     python3 scripts/strategist.py --slug narestco --dry-run   # print, don't write
@@ -139,31 +147,70 @@ def gather_content(slug: str, company_id: str | None = None) -> dict:
             "local_tx_total": local_tx_total, "n_areas": n_areas}
 
 
+# --- AI-search citation trend -------------------------------------------------
+TREND_ORDER = {"lost_citation": 0, "never_cited": 1, "newly_cited": 2, "stable_cited": 3}
+# emergency PHRASING (not service words) = a panicked homeowner asking an AI who
+# to call RIGHT NOW — the highest-value moment to be the recommended answer.
+EMERGENCY_RE = re.compile(
+    r"emergen|just flooded|house flooded|right now|open now|who (should|do) i call"
+    r"|asap|urgent|24[ /-]?7|24.hour", re.I)
+# What each engine actually reads → the concrete off-site fix when it won't cite us.
+ENGINE_PLAYBOOK = {
+    "chatgpt":    "ChatGPT answers from the Bing index — claim + complete the Bing Places "
+                  "listing (exact NAP match) and verify the money pages are indexed in Bing",
+    "gemini":     "Gemini leans on Google — tighten GBP categories/services/photos and drive "
+                  "fresh Google reviews",
+    "perplexity": "Perplexity leans on Yelp/Reddit/directories — Yelp profile: merge duplicates, "
+                  "fix phone NAP mismatches, drive 10+ recent reviews",
+    "claude":     "Claude cites the open web — publish a citable page with verifiable facts "
+                  "(license #, avg response time, review count, exact service area)",
+    "google_ai":  "Google AI Overviews cite pages that rank AND answer directly — win the "
+                  "organic top-10 for this query and add a concise Q&A block to the money page",
+}
+
+
 def gather_ai_search(company_id: str) -> dict:
-    """Latest AI-search scan per (engine, query); flag money questions where the
-    client is NOT cited by the AI assistant — a top strategic priority."""
+    """AI-search visibility with a citation-trend diff. For each tracked
+    (engine, query) pair, compare the latest scan vs the prior scan window:
+      newly_cited / lost_citation / never_cited / stable_cited.
+    `missing` (uncited on the latest scan) still feeds the content-side actions;
+    `trends` feeds the new off-site citation-repair actions + run summary."""
     q = ("/rest/v1/marketing_ai_search_scans?company_id=eq." + urllib.parse.quote(company_id) +
-         "&select=engine,query,cited,cited_sources,scanned_at&order=scanned_at.desc")
+         "&select=engine,query,cited,client_rank,cited_sources,scanned_at&order=scanned_at.desc")
     rows = _sb("GET", q) or []
-    seen, latest = set(), []
+    latest: dict = {}
+    prior: dict = {}
     for r in rows:
-        k = (r.get("engine"), r.get("query"))
-        if k in seen:
-            continue
-        seen.add(k)
-        latest.append(r)
+        k = (r.get("engine") or "chatgpt", r.get("query"))
+        if k not in latest:
+            latest[k] = r
+        elif k not in prior and r["scanned_at"] < latest[k]["scanned_at"]:
+            prior[k] = r          # first row from an earlier run = the prior window
+
+    trends, missing = [], []
+    for (engine, query), r in latest.items():
+        p = prior.get((engine, query))
+        cited = bool(r.get("cited"))
+        was = bool(p.get("cited")) if p else None      # None = no prior scan yet
+        if cited:
+            status = "newly_cited" if was is False else "stable_cited"
+        else:
+            status = "lost_citation" if was else "never_cited"
+        comps, dirs = [], []
+        for s in (r.get("cited_sources") or []):
+            d = s.get("domain")
+            if d:
+                (dirs if s.get("directory") else comps).append(d)
+        trends.append({"query": query, "engine": engine, "status": status,
+                       "rank": r.get("client_rank"), "prev_cited": was,
+                       "competitors": comps[:3], "directories": dirs[:4]})
+        if not cited:
+            missing.append({"query": query, "engine": engine, "competitors": comps[:3]})
+    trends.sort(key=lambda t: (TREND_ORDER.get(t["status"], 9), t["query"], t["engine"]))
     total = len(latest)
-    missing = []
-    for r in latest:
-        if r.get("cited"):
-            continue
-        # competitor domains the AI cited instead (skip directories)
-        comps = [s.get("domain") for s in (r.get("cited_sources") or [])
-                 if s.get("domain") and not s.get("directory")][:3]
-        missing.append({"query": r["query"], "engine": r.get("engine") or "chatgpt",
-                        "competitors": comps})
-    cited = total - len(missing)
-    return {"total": total, "cited": cited, "missing": missing}
+    return {"total": total, "cited": total - len(missing), "missing": missing,
+            "trends": trends,
+            "wins": [t for t in trends if t["status"] == "newly_cited"]}
 
 
 def gather_audit(slug: str) -> dict:
@@ -296,6 +343,55 @@ def build_actions(geo: list[dict], content: dict, audit: dict, ai: dict | None =
             "target": m["query"], "impact": "high", "effort": "medium",
         })
 
+    # Trend-aware citation repair (beyond content): lost_citation / never_cited
+    # high-value queries -> concrete OFF-SITE fixes a human executes (Yelp/Bing
+    # Places/GBP profiles, emergency page). Aggregated per query across engines,
+    # capped so they don't crowd the plan. newly_cited wins are reported in the
+    # run summary only — the plan table is for work, not applause.
+    probs: dict[str, dict] = {}
+    for t in ai.get("trends") or []:
+        if t["status"] not in ("lost_citation", "never_cited"):
+            continue
+        pr = probs.setdefault(t["query"], {"lost": [], "never": [], "dirs": [], "comps": []})
+        pr["lost" if t["status"] == "lost_citation" else "never"].append(t["engine"])
+        pr["dirs"] += [d for d in t["directories"] if d not in pr["dirs"]]
+        pr["comps"] += [c for c in t["competitors"] if c not in pr["comps"]]
+
+    def _urgency(q: str):   # losses first, then invisible emergency queries, then the rest
+        pr = probs[q]
+        return (0 if pr["lost"] else (1 if EMERGENCY_RE.search(q) else 2),
+                -(len(pr["lost"]) + len(pr["never"])))
+
+    for query in sorted(probs, key=_urgency)[:3]:
+        pr = probs[query]
+        engines = pr["lost"] + pr["never"]
+        emergency = bool(EMERGENCY_RE.search(query))
+        steps: list[str] = []
+        if pr["lost"]:
+            steps.append(f"LOST since the prior scan on {', '.join(pr['lost'])} — find the "
+                         f"page/profile the AI used to cite, refresh it, add recent reviews")
+        if emergency:
+            steps.append("add/strengthen an /emergency/ page (24/7 phrasing, tap-to-call CTA, "
+                         "real response-time proof)")
+        steps += [ENGINE_PLAYBOOK[e] for e in engines[:3] if e in ENGINE_PLAYBOOK]
+        if pr["dirs"]:
+            steps.append("be present + complete on the sources the AI actually cites here: "
+                         + ", ".join(pr["dirs"][:4]))
+        instead = f" AI recommends {', '.join(pr['comps'][:3])} instead." if pr["comps"] else ""
+        if pr["lost"]:
+            title, rec = f"Lost AI citation for “{query}”", "lost"
+        elif emergency:
+            title, rec = f"Emergency query invisible in AI search: “{query}”", "emergency"
+        else:
+            title, rec = f"Never cited by AI for “{query}”", "citations"
+        acts.append({
+            "action_type": "ai_citation_fix", "assigned_system": "manual",
+            "title": title,
+            "rationale": f"Uncited on {', '.join(engines)}.{instead} Fix: " + "; ".join(steps) + ".",
+            "target": query, "impact": "high", "effort": "medium",
+            "dedupe": rec,   # (query, recommendation) identity — see action_key below
+        })
+
     # Geo-grid: one action per weak keyword (its worst city), capped.
     by_kw = {}
     for w in geo:
@@ -424,9 +520,15 @@ def build_actions(geo: list[dict], content: dict, audit: dict, ai: dict | None =
     for i, a in enumerate(acts, 1):
         a["priority"] = i
         a.pop("is_alert", None)
-        # stable identity so re-runs don't resurrect a dismissed action or lose a pin
-        a["action_key"] = hashlib.sha1(
-            f"{a['action_type']}|{a.get('target') or ''}".encode()).hexdigest()[:16]
+        # stable identity so re-runs don't resurrect a dismissed action or lose a pin.
+        # 'dedupe' (optional) folds the recommendation into the key so the same query
+        # can carry distinct recommendations (content fix vs citation fix) without
+        # ever duplicating one of them; legacy keys are unchanged when absent.
+        key_src = f"{a['action_type']}|{a.get('target') or ''}"
+        if a.get("dedupe"):
+            key_src += "|" + a["dedupe"]
+        a["action_key"] = hashlib.sha1(key_src.encode()).hexdigest()[:16]
+        a.pop("dedupe", None)
     return acts
 
 
@@ -524,7 +626,10 @@ def run_for(slug: str, dry_run: bool) -> int:
     actions = build_actions(geo, content, audit, ai, alerts, gbp, gsc)
     now = datetime.now(timezone.utc).isoformat()
 
-    ai_summary = f"{ai['cited']}/{ai['total']} AI-cited" if ai["total"] else "no AI scan"
+    trends = ai.get("trends") or []
+    lost_n = sum(1 for t in trends if t["status"] == "lost_citation")
+    ai_summary = (f"{ai['cited']}/{ai['total']} AI-cited "
+                  f"(lost {lost_n}, new {len(ai.get('wins') or [])})") if ai["total"] else "no AI scan"
     gbp_summary = (f"{len(gbp['add_services'])} add / {len(gbp['pages'])} pages / "
                    f"{gbp['cleanup_n']} cleanup / {len(gbp['negatives'])} negatives")
     print(f"\n=== Strategist plan — {slug} ({company_id}) ===")
@@ -537,6 +642,29 @@ def run_for(slug: str, dry_run: bool) -> int:
     if not actions:
         print("  (no actions — client is in good shape on the signals checked)")
 
+    # AI-search citation trend table: the scan -> diff -> action loop, made visible.
+    if trends:
+        emitted: dict[str, list[str]] = {}
+        for a in actions:
+            if a["action_type"] in ("ai_visibility", "ai_citation_fix") and a.get("target"):
+                emitted.setdefault(a["target"], []).append(a["action_type"])
+        print("\n  AI-search citation trend (latest scan vs prior):")
+        print(f"  {'query':<52} | {'engine':<10} | {'trend':<13} | action emitted")
+        print("  " + "-" * 108)
+        for t in trends:
+            if t["status"] == "newly_cited":
+                act = "win — noted in summary"
+            elif t["status"] == "stable_cited":
+                act = "—"
+            else:
+                act = " + ".join(sorted(set(emitted.get(t["query"], [])))) or "—"
+            qd = (t["query"][:49] + "…") if len(t["query"]) > 52 else t["query"]
+            print(f"  {qd:<52} | {t['engine']:<10} | {t['status']:<13} | {act}")
+        wins = ai.get("wins") or []
+        if wins:
+            print("  WINS (newly cited — not added to the plan): " +
+                  "; ".join(f"“{w['query']}” ({w['engine']})" for w in wins[:8]))
+
     if dry_run:
         print("\n(dry-run — nothing written)")
         return 0
@@ -548,7 +676,7 @@ def run_for(slug: str, dry_run: bool) -> int:
     cq = "/rest/v1/marketing_action_plan?company_id=eq." + urllib.parse.quote(company_id)
     existing = _sb("GET", cq + "&select=action_key,status,pinned") or []
     survive = {r["action_key"] for r in existing
-               if r.get("action_key") and (r["status"] in ("dismissed", "done", "in_progress") or r["pinned"])}
+               if r.get("action_key") and (r["status"] in ("dismissed", "done", "in_progress", "approved") or r["pinned"])}
 
     _sb("DELETE", cq + "&status=eq.planned&pinned=is.false")   # clear refreshable rows
 

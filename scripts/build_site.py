@@ -1502,6 +1502,17 @@ def cmd_sync_deploy(args) -> int:
         print(f"    Production URL: https://rankai-{slug}.pages.dev/")
     else:
         print(f"    Preview URL:    https://staging.rankai-{slug}.pages.dev/")
+
+    # IndexNow ping on production deploys — entirely non-fatal (deploy already
+    # succeeded; a failed ping just means Bing finds the pages the slow way).
+    # See the IndexNow section above for the ~2 min Cloudflare build-lag note.
+    if branch == "main":
+        try:
+            status, n = indexnow_ping(slug)
+            print(f"    IndexNow ping:  HTTP {status} ({n} URLs) "
+                  f"[{'accepted' if status in (200, 202) else 'not accepted'}]")
+        except Exception as e:
+            print(f"    IndexNow ping skipped: {str(e)[:120]}")
     return 0
 
 
@@ -1540,6 +1551,111 @@ def cmd_sync_deploy_all(args) -> int:
             print(f"      {s}: {e[:120]}")
         return 2
     return 0
+
+
+# ----------------------------------------------------------------------------
+# IndexNow (Bing fast-indexing; Bing feeds ChatGPT's web retrieval)
+# ----------------------------------------------------------------------------
+#
+# After every production (main) sync-deploy we ping api.indexnow.org with the
+# client's live URL list so Bing picks up new/changed pages within hours, not
+# weeks. The key file sites/{slug}/public/{key}.txt is served at
+# https://{domain}/{key}.txt by the deployed site, which is how IndexNow
+# verifies ownership.
+#
+# URL source: the LIVE sitemap (https://{domain}/sitemap-index.xml → child
+# sitemaps → page URLs). NOTE: Cloudflare Pages takes ~2 min to build after the
+# push, so the sitemap fetched at ping time may be one deploy behind — that's
+# fine, URLs are stable and IndexNow only needs the URL list, not the content.
+# If the live sitemap can't be fetched (staging domain, site not yet live), we
+# fall back to pinging just the homepage.
+
+INDEXNOW_ENDPOINT = "https://api.indexnow.org/indexnow"
+INDEXNOW_URL_CAP = 500
+
+
+def _http_get(url: str, timeout: int = 30) -> str:
+    req = urllib.request.Request(url, headers={"User-Agent": "rank-ai-indexnow/1.0"})
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        return r.read().decode("utf-8", "replace")
+
+
+def _sitemap_locs(xml: str) -> list[str]:
+    return [m.strip() for m in re.findall(r"<loc>\s*([^<]+?)\s*</loc>", xml)]
+
+
+def collect_live_urls(domain: str, cap: int = INDEXNOW_URL_CAP) -> list[str]:
+    """Page URLs from the live sitemap index (child sitemaps expanded), capped.
+    Raises on a failed index fetch — caller decides the fallback."""
+    index_xml = _http_get(f"https://{domain}/sitemap-index.xml")
+    urls: list[str] = []
+    for child in _sitemap_locs(index_xml):
+        if len(urls) >= cap:
+            break
+        if child.endswith(".xml"):  # child sitemap → expand
+            try:
+                urls.extend(_sitemap_locs(_http_get(child)))
+            except Exception:
+                continue  # one bad child sitemap shouldn't kill the ping
+        else:  # index unexpectedly contained page URLs directly
+            urls.append(child)
+    # De-dup preserving order, then cap.
+    seen: set[str] = set()
+    out = []
+    for u in urls:
+        if u not in seen:
+            seen.add(u)
+            out.append(u)
+    return out[:cap]
+
+
+def indexnow_ping(slug: str) -> tuple[int, int]:
+    """POST the client's live URLs to IndexNow. Returns (http_status, url_count).
+    200/202 = accepted. Raises on missing key/domain or network failure of the
+    ping itself (sitemap failure just degrades to a homepage-only ping)."""
+    client = load_json(CLIENTS_DIR / f"{slug}.json")
+    domain = (client.get("domain") or "").strip().rstrip("/")
+    key = (client.get("indexnow_key") or "").strip()
+    if not domain:
+        raise RuntimeError(f"{slug}: no 'domain' in client record")
+    if not key:
+        raise RuntimeError(f"{slug}: no 'indexnow_key' in client record — generate one "
+                           f"(uuid4().hex) and write sites/{slug}/public/{{key}}.txt")
+
+    try:
+        urls = collect_live_urls(domain)
+        if not urls:
+            urls = [f"https://{domain}/"]
+    except Exception as e:
+        print(f"    indexnow: live sitemap fetch failed ({str(e)[:80]}) — pinging homepage only")
+        urls = [f"https://{domain}/"]
+
+    payload = {
+        "host": domain,
+        "key": key,
+        "keyLocation": f"https://{domain}/{key}.txt",
+        "urlList": urls,
+    }
+    req = urllib.request.Request(
+        INDEXNOW_ENDPOINT,
+        data=json.dumps(payload).encode(),
+        method="POST",
+        headers={"Content-Type": "application/json; charset=utf-8"},
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            status = r.status
+    except urllib.error.HTTPError as e:
+        status = e.code
+    return status, len(urls)
+
+
+def cmd_indexnow(args) -> int:
+    status, n = indexnow_ping(args.slug)
+    ok = status in (200, 202)
+    print(f"IndexNow ping for {args.slug}: HTTP {status} "
+          f"({'accepted' if ok else 'NOT accepted'}), {n} URL(s) submitted")
+    return 0 if ok else 1
 
 
 # ----------------------------------------------------------------------------
@@ -1638,6 +1754,14 @@ def build_parser() -> argparse.ArgumentParser:
     psda.add_argument("--private", action="store_true")
     psda.add_argument("--allow-dirty", action="store_true")
     psda.set_defaults(func=cmd_sync_deploy_all)
+
+    # indexnow: manual ping (also runs automatically after sync-deploy --branch main)
+    pin = sub.add_parser(
+        "indexnow",
+        help="Ping api.indexnow.org with the client's live sitemap URLs (Bing fast-indexing)",
+    )
+    pin.add_argument("--slug", required=True)
+    pin.set_defaults(func=cmd_indexnow)
 
     return p
 

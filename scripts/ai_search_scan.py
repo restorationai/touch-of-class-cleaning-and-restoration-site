@@ -96,6 +96,18 @@ def money_queries(ident: dict, limit: int) -> list[dict]:
             qs.append({"query": query, "city": c["city"], "state": c["state"],
                        "location": f"{c['city']}, {c['state']}"})
 
+    # Anchor with the primary service x primary city, then ONE emergency-phrasing
+    # query — how a panicked homeowner actually asks an AI assistant ("my house just
+    # flooded... who should I call"). Added early so it survives --limit truncation;
+    # the strategist's citation-trend diff treats these as top-value queries.
+    p = cities[0]
+    add(f"best {svc_labels[0]} company in {p['city']}, {p['state']}", p)
+    all_svcs = " ".join(ident["services"])
+    if "water" in all_svcs or "flood" in all_svcs:
+        add(f"my house just flooded in {p['city']}, {p['state']} — who should I call?", p)
+    elif "roof" in all_svcs:
+        add(f"my roof is leaking right now in {p['city']}, {p['state']} — who should I call?", p)
+
     for svc in svc_labels:
         for c in cities:
             add(f"best {svc} company in {c['city']}, {c['state']}", c)

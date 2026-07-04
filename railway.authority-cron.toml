@@ -4,8 +4,10 @@
 #
 # MONTHLY refresh for every client in clients/company_map.json, upserting into
 # marketing_action_plan (idempotent via action_key). Two steps:
-#   1) authority_targets.py  -> Get-Listed targets (core directories + directories
-#      AI cites for the client + national backlink link-gap; action_type='get_listed')
+#   1) authority_targets.py --mode all -> Get-Listed targets (core directories +
+#      directories AI cites for the client + national backlink link-gap;
+#      action_type='get_listed') PLUS listicle placement targets ("best {service}
+#      {city}" SERP roundups the client isn't featured on; action_type='listicle')
 #   2) ai_keyword_planner.py -> demand-ranked AI-keyword opportunities via real AI
 #      search volume + the sources AI pulls from (action_type='ai_keyword'/'get_listed')
 # Existing/dismissed items are skipped, never duplicated.
@@ -14,8 +16,9 @@ builder = "NIXPACKS"
 
 [deploy]
 # --all = every client in company_map.json; --write = persist to the Action Plan.
-# Run both steps; ';' so step 2 runs even if step 1 errors on a client.
-startCommand = "bash -lc '/opt/venv/bin/python scripts/authority_targets.py --all --write; /opt/venv/bin/python scripts/ai_keyword_planner.py --all --write'"
+# --mode all = get-listed + listicles in the same process (adds ~12 SERP calls
+# per client, ~$0.04). Run both steps; ';' so step 2 runs even if step 1 errors.
+startCommand = "bash -lc '/opt/venv/bin/python scripts/authority_targets.py --all --write --mode all; /opt/venv/bin/python scripts/ai_keyword_planner.py --all --write'"
 # 09:00 UTC on the 1st of each month (~1h after the geo-grid cron, so AI/geo data
 # is fresh). Backlinks + citations + AI demand move slowly — monthly is plenty.
 cronSchedule = "0 9 1 * *"

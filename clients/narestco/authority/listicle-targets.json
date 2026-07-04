@@ -1,0 +1,303 @@
+{
+  "slug": "narestco",
+  "domain": "narestco.com",
+  "generated_at": "2026-07-04T00:43:00.669025+00:00",
+  "queries": [
+    "best water damage restoration Federal Way",
+    "best water damage restoration companies in Federal Way",
+    "best water damage restoration Seattle",
+    "best water damage restoration companies in Seattle",
+    "best water damage restoration Bellevue",
+    "best water damage restoration companies in Bellevue",
+    "best flood damage restoration Federal Way",
+    "best flood damage restoration companies in Federal Way",
+    "best flood damage restoration Seattle",
+    "best flood damage restoration companies in Seattle",
+    "best flood damage restoration Bellevue",
+    "best flood damage restoration companies in Bellevue"
+  ],
+  "targets": [
+    {
+      "url": "https://www.yelp.com/search?find_desc=Water+Damage+Restoration&find_loc=Seattle%2C+WA",
+      "domain": "yelp.com",
+      "rank": 1,
+      "title": "TOP 10 BEST Water Damage Restoration in Seattle, WA",
+      "client_present": false,
+      "action_hint": "Yelp collection \u2014 improve Yelp profile (reviews, photos, categories)",
+      "queries": [
+        "best water damage restoration Seattle",
+        "best water damage restoration companies in Seattle"
+      ]
+    },
+    {
+      "url": "https://www.yelp.com/search?cflt=damagerestoration&find_loc=Bellevue%2C+WA",
+      "domain": "yelp.com",
+      "rank": 1,
+      "title": "THE BEST 10 DAMAGE RESTORATION IN BELLEVUE, WA",
+      "client_present": false,
+      "action_hint": "Yelp collection \u2014 improve Yelp profile (reviews, photos, categories)",
+      "queries": [
+        "best water damage restoration Bellevue",
+        "best water damage restoration companies in Bellevue"
+      ]
+    },
+    {
+      "url": "https://www.yelp.com/search?find_desc=Water+Damage+Repair&find_loc=Seattle%2C+WA",
+      "domain": "yelp.com",
+      "rank": 1,
+      "title": "TOP 10 BEST Water Damage Repair in Seattle, WA",
+      "client_present": false,
+      "action_hint": "Yelp collection \u2014 improve Yelp profile (reviews, photos, categories)",
+      "queries": [
+        "best flood damage restoration Seattle",
+        "best flood damage restoration companies in Seattle"
+      ]
+    },
+    {
+      "url": "https://www.yelp.com/search?find_desc=Water+Damage+Restoration&find_loc=Bellevue%2C+WA",
+      "domain": "yelp.com",
+      "rank": 1,
+      "title": "TOP 10 BEST Water Damage Restoration in Bellevue, WA",
+      "client_present": false,
+      "action_hint": "Yelp collection \u2014 improve Yelp profile (reviews, photos, categories)",
+      "queries": [
+        "best flood damage restoration Bellevue",
+        "best flood damage restoration companies in Bellevue"
+      ]
+    },
+    {
+      "url": "https://www.thumbtack.com/wa/federal-way/water-damage",
+      "domain": "thumbtack.com",
+      "rank": 4,
+      "title": "Water damage cleanup professionals near Federal Way, WA",
+      "client_present": false,
+      "action_hint": "Thumbtack \u2014 pro profile + reviews",
+      "queries": [
+        "best water damage restoration Federal Way",
+        "best water damage restoration companies in Federal Way",
+        "best flood damage restoration Federal Way",
+        "best flood damage restoration companies in Federal Way"
+      ]
+    },
+    {
+      "url": "https://www.bestpickreports.com/water-damage-restoration/seattle",
+      "domain": "bestpickreports.com",
+      "rank": 5,
+      "title": "Best Water Damage Restoration Companies in Seattle, WA",
+      "client_present": false,
+      "action_hint": "news/blog roundup \u2014 pitch for inclusion (PR/outreach)",
+      "queries": [
+        "best water damage restoration Seattle",
+        "best water damage restoration companies in Seattle"
+      ]
+    },
+    {
+      "url": "https://seattle-adu.com/guides/best-flood-damage-restoration-companies/bellevue",
+      "domain": "seattle-adu.com",
+      "rank": 5,
+      "title": "Best Flood Damage Restoration in Bellevue 2026 | Top 5",
+      "client_present": false,
+      "action_hint": "news/blog roundup \u2014 pitch for inclusion (PR/outreach)",
+      "queries": [
+        "best flood damage restoration Bellevue",
+        "best flood damage restoration companies in Bellevue"
+      ]
+    },
+    {
+      "url": "https://www.bbb.org/us/wa/federal-way/category/fire-water-damage-restoration",
+      "domain": "bbb.org",
+      "rank": 6,
+      "title": "Fire and Water Damage Restoration near Federal Way, WA",
+      "client_present": false,
+      "action_hint": "BBB \u2014 accreditation + A+ profile",
+      "queries": [
+        "best water damage restoration Federal Way",
+        "best water damage restoration companies in Federal Way",
+        "best flood damage restoration Federal Way",
+        "best flood damage restoration companies in Federal Way"
+      ]
+    },
+    {
+      "url": "https://www.thumbtack.com/wa/bellevue/water-damage",
+      "domain": "thumbtack.com",
+      "rank": 6,
+      "title": "Water damage cleanup professionals near Bellevue, WA",
+      "client_present": false,
+      "action_hint": "Thumbtack \u2014 pro profile + reviews",
+      "queries": [
+        "best water damage restoration Bellevue",
+        "best water damage restoration companies in Bellevue",
+        "best flood damage restoration companies in Bellevue"
+      ]
+    },
+    {
+      "url": "https://seattle-adu.com/guides/best-flood-damage-restoration-companies/seatac",
+      "domain": "seattle-adu.com",
+      "rank": 6,
+      "title": "Best Flood Damage Restoration in SeaTac 2026 | Top 5",
+      "client_present": false,
+      "action_hint": "news/blog roundup \u2014 pitch for inclusion (PR/outreach)",
+      "queries": [
+        "best flood damage restoration companies in Seattle"
+      ]
+    },
+    {
+      "url": "https://seattle-adu.com/guides/best-flood-damage-restoration-companies/seattle",
+      "domain": "seattle-adu.com",
+      "rank": 7,
+      "title": "Best Flood Damage Restoration in Seattle 2026 | Top 5",
+      "client_present": false,
+      "action_hint": "news/blog roundup \u2014 pitch for inclusion (PR/outreach)",
+      "queries": [
+        "best flood damage restoration Seattle"
+      ]
+    },
+    {
+      "url": "https://www.homeadvisor.com/c.Disaster-Recovery-Services.Bellevue.WA.-12022.html",
+      "domain": "homeadvisor.com",
+      "rank": 8,
+      "title": "Get matched with top disaster recovery pros in Bellevue, WA",
+      "client_present": false,
+      "action_hint": "HomeAdvisor \u2014 pro profile",
+      "queries": [
+        "best water damage restoration Bellevue",
+        "best water damage restoration companies in Bellevue",
+        "best flood damage restoration Bellevue",
+        "best flood damage restoration companies in Bellevue"
+      ]
+    },
+    {
+      "url": "https://www.expertise.com/home-improvement/mold-remediation/washington/federal-way",
+      "domain": "expertise.com",
+      "rank": 9,
+      "title": "5 Best Federal Way, WA Mold Remediation Companies",
+      "client_present": false,
+      "action_hint": "Expertise.com \u2014 free application",
+      "queries": [
+        "best water damage restoration companies in Federal Way"
+      ]
+    },
+    {
+      "url": "https://www.homeadvisor.com/c.Disaster-Recovery-Services.Seattle.WA.-12022.html",
+      "domain": "homeadvisor.com",
+      "rank": 9,
+      "title": "Top-Rated Disaster Recovery Services Experts in Seattle, ...",
+      "client_present": false,
+      "action_hint": "HomeAdvisor \u2014 pro profile",
+      "queries": [
+        "best flood damage restoration Seattle"
+      ]
+    },
+    {
+      "url": "https://www.yelp.com/search?find_desc=Water+Damage&find_loc=Federal+Way%2C+WA",
+      "domain": "yelp.com",
+      "rank": 10,
+      "title": "TOP 10 BEST Water Damage in Federal Way, WA",
+      "client_present": false,
+      "action_hint": "Yelp collection \u2014 improve Yelp profile (reviews, photos, categories)",
+      "queries": [
+        "best water damage restoration Federal Way",
+        "best water damage restoration companies in Federal Way",
+        "best flood damage restoration companies in Federal Way"
+      ]
+    },
+    {
+      "url": "https://www.homeadvisor.com/tloc/Seattle-WA/Recovery-Service-Water-Removal/",
+      "domain": "homeadvisor.com",
+      "rank": 10,
+      "title": "Find Water removal recovery pros in Seattle",
+      "client_present": false,
+      "action_hint": "HomeAdvisor \u2014 pro profile",
+      "queries": [
+        "best water damage restoration Seattle",
+        "best water damage restoration companies in Seattle",
+        "best flood damage restoration companies in Seattle"
+      ]
+    },
+    {
+      "url": "https://www.bbb.org/us/wa/bellevue/category/restoration-companies",
+      "domain": "bbb.org",
+      "rank": 12,
+      "title": "Restoration Companies near Bellevue, WA",
+      "client_present": false,
+      "action_hint": "BBB \u2014 accreditation + A+ profile",
+      "queries": [
+        "best water damage restoration companies in Bellevue",
+        "best flood damage restoration Bellevue",
+        "best flood damage restoration companies in Bellevue"
+      ]
+    },
+    {
+      "url": "https://www.thumbtack.com/wa/seattle/water-damage",
+      "domain": "thumbtack.com",
+      "rank": 15,
+      "title": "Water damage cleanup professionals near Seattle, WA",
+      "client_present": false,
+      "action_hint": "Thumbtack \u2014 pro profile + reviews",
+      "queries": [
+        "best water damage restoration Seattle",
+        "best water damage restoration companies in Seattle"
+      ]
+    },
+    {
+      "url": "https://www.expertise.com/home-improvement/water-damage/washington/federal-way",
+      "domain": "expertise.com",
+      "rank": 17,
+      "title": "9 Best Federal Way, WA Water Damage Restoration Services",
+      "client_present": false,
+      "action_hint": "Expertise.com \u2014 free application",
+      "queries": [
+        "best water damage restoration Federal Way",
+        "best flood damage restoration Federal Way",
+        "best flood damage restoration companies in Federal Way"
+      ]
+    },
+    {
+      "url": "https://www.expertise.com/home-improvement/water-damage/washington/seattle",
+      "domain": "expertise.com",
+      "rank": 17,
+      "title": "9 Best Seattle, WA Water Damage Restoration Services",
+      "client_present": false,
+      "action_hint": "Expertise.com \u2014 free application",
+      "queries": [
+        "best flood damage restoration Seattle"
+      ]
+    },
+    {
+      "url": "https://www.bbb.org/us/wa/seattle/category/fire-water-damage-restoration",
+      "domain": "bbb.org",
+      "rank": 17,
+      "title": "Fire and Water Damage Restoration near Seattle, WA",
+      "client_present": false,
+      "action_hint": "BBB \u2014 accreditation + A+ profile",
+      "queries": [
+        "best flood damage restoration companies in Seattle"
+      ]
+    },
+    {
+      "url": "https://www.yelp.com/search?find_desc=Water+Damage+Restoration&find_loc=Federal+Way%2C+WA",
+      "domain": "yelp.com",
+      "rank": 1,
+      "title": "TOP 10 BEST Water Damage Restoration in Federal Way ...",
+      "client_present": true,
+      "action_hint": "Yelp collection \u2014 improve Yelp profile (reviews, photos, categories)",
+      "queries": [
+        "best water damage restoration Federal Way",
+        "best water damage restoration companies in Federal Way",
+        "best flood damage restoration Federal Way",
+        "best flood damage restoration companies in Federal Way"
+      ]
+    },
+    {
+      "url": "https://www.yelp.com/search?find_desc=Damage+Restoration&find_loc=Federal+Way%2C+WA",
+      "domain": "yelp.com",
+      "rank": 11,
+      "title": "TOP 10 BEST Damage Restoration in Federal Way, WA",
+      "client_present": true,
+      "action_hint": "Yelp collection \u2014 improve Yelp profile (reviews, photos, categories)",
+      "queries": [
+        "best flood damage restoration Federal Way"
+      ]
+    }
+  ]
+}

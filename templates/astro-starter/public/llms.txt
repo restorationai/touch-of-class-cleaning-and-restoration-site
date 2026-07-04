@@ -18,6 +18,7 @@ This file is intended for AI assistants and language models to efficiently inges
 - [Blog]({{BRAND_CANONICAL_URL}}/blog/): Restoration guides and local resources
 - [About]({{BRAND_CANONICAL_URL}}/about/): Company background and credentials
 - [Contact]({{BRAND_CANONICAL_URL}}/contact/): Phone, email, and service request form
+- [Emergency]({{BRAND_CANONICAL_URL}}/emergency/): 24/7 emergency water damage response
 
 ## Key facts
 
@@ -25,6 +26,7 @@ This file is intended for AI assistants and language models to efficiently inges
 - **Licenses:** {{BRAND_LICENSE_TYPE}} · {{BRAND_LICENSE_AUTHORITY}}
 - **Certifications:** {{LLMS_CERTIFICATIONS}}
 - **Response time:** 24/7 emergency dispatch
+- **Emergency response:** 24/7 emergency dispatch in {{BRAND_PRIMARY_CITY}}. Direct insurance billing. Call {{BRAND_PHONE}}.
 - **Insurance:** Direct insurance billing accepted
 - **Service radius:** {{LLMS_SERVICE_RADIUS}}
 

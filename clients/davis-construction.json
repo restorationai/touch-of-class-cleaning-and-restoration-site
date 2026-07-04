@@ -42,7 +42,7 @@
     "last_run_report_path": "clients/davis-construction/refresh-runs/2026-06-25-refresh-recommender.md"
   },
   "created_at": "2026-05-21T22:14:07.882136+00:00",
-  "updated_at": "2026-07-03T18:52:33.674607+00:00",
+  "updated_at": "2026-07-04T00:37:43.647756+00:00",
   "plan": {
     "template": "restoration",
     "template_version": "0.1.0",
@@ -68,5 +68,6 @@
     "verified_at": "2026-05-28T18:50:24+00:00",
     "sitemap_url": "https://davisconstructioncontractors.com/sitemap-index.xml"
   },
-  "company_id": "CO-1778778644861"
+  "company_id": "CO-1778778644861",
+  "indexnow_key": "e6535141a90342d89dc403a2f51bb9e3"
 }
