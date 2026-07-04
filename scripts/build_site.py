@@ -1619,8 +1619,19 @@ def indexnow_ping(slug: str) -> tuple[int, int]:
     if not domain:
         raise RuntimeError(f"{slug}: no 'domain' in client record")
     if not key:
-        raise RuntimeError(f"{slug}: no 'indexnow_key' in client record — generate one "
-                           f"(uuid4().hex) and write sites/{slug}/public/{{key}}.txt")
+        # Self-provision for new clients: mint a key, persist it, and drop the
+        # proof-of-ownership file into public/ so the NEXT deploy serves it.
+        # (This ping will 403 until that file is live; the deploy hook retries
+        # on every subsequent deploy, so it self-heals without operator action.)
+        import uuid
+        key = uuid.uuid4().hex
+        client["indexnow_key"] = key
+        client_path = CLIENTS_DIR / f"{slug}.json"
+        client_path.write_text(json.dumps(client, indent=2) + "\n")
+        key_file = SITES_DIR / slug / "public" / f"{key}.txt"
+        key_file.parent.mkdir(parents=True, exist_ok=True)
+        key_file.write_text(key)
+        print(f"    indexnow: minted new key for {slug} (key file queued for next deploy)")
 
     try:
         urls = collect_live_urls(domain)
