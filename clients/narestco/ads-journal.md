@@ -7,6 +7,15 @@ entry after any change.**
 
 <!-- entries below, newest first -->
 
+## 2026-07-04 19:37Z · pause · customers/3832550597/campaigns/23943830377
+Paused customers/3832550597/campaigns/23943830377. — _auto_
+
+## 2026-07-04 19:37Z · pause · customers/3832550597/campaigns/23939263802
+Paused customers/3832550597/campaigns/23939263802. — _auto_
+
+## 2026-07-04 19:37Z · pause · customers/3832550597/campaigns/23934073908
+Paused customers/3832550597/campaigns/23934073908. — _auto_
+
 ## 2026-07-03 17:05Z · tracking · sites/narestco LP layouts (deployed)
 ROOT CAUSE FOUND + FIXED for the 6/29 broken click-to-call: Astro define:vars wraps each inline script in its own IIFE, so `function gtag()` in the loader never became window.gtag and the tel-click handler's `typeof gtag !== 'undefined'` guard was ALWAYS false — the conversion event never executed, on any tap, since launch. Google Ads side was verified CORRECT (Lead·Phone Call id 7647450951 ENABLED, primary, label matches brand.ts exactly). FIX: expose window.gtag in the loader + handler checks window.gtag + transport_type beacon (survives tel: navigation). Applied to LpLayoutV1/2/3 in ALL sites + astro-starter + ads-landing-page skill champions; narestco rebuilt (301 pages) + sync-deployed to prod. VERIFY over next 48h: Ads UI 'Lead · Phone Call' should flip to Recording conversions; cross-check daily vs Twilio 253-338-5162 (~1:1, ONE_PER_CLICK). Do NOT backfill 6/24-6/28 Twilio calls (no GCLID captured). — _claude_
 
@@ -124,3 +133,12 @@ Migrated to clean SKAGs: the 3 'National Restoration Construction - {Water/Fire/
 ## 2026-06-22 20:58Z · tracking · —
 Conversion tracking fixed: phone-lead value set to $750. Both PHONE_CALL_LEAD goals (WEBSITE + CALL_FROM_ADS) made primary/biddable; GBP local actions kept secondary. GBP/LSA conversions are API read-only (left at $1, secondary so they don't skew bidding). — _santino_
 
+
+## 2026-07-04 19:25Z · pause · all campaigns
+Client requested PPC pause (all 3 SKAG campaigns → PAUSED). Context: he reports
+steady work coming from Gig Harbor, Tacoma, Bremerton, Port Orchard, University
+Place — organic/GBP/AI channels. NOTE: click-to-call conversion tracking was
+fixed 07-03 and budgets restored same day; tracking stays wired, so a future
+restart begins with working attribution from day one. Restart checklist: enable
+3 campaigns, verify conversion action still ENABLED/primary, re-check negatives
+backlog. — _claude (per Santino)_
