@@ -40,8 +40,18 @@ export const brand = {
   certifications: ["IICRC Certified", "BBB Accredited", "Lead-Safe Certified Firm", "EPA Certified", "ANSI Certified"] as string[],
   trustBadges: [] as string[],
   sameAsUrls: ["https://www.google.com/maps?cid=12984564642744438542", "https://www.facebook.com/narestco", "https://www.instagram.com/narestco", "https://www.tiktok.com/@narestco", "https://twitter.com/narestco"] as string[],
+  // GBP rating fields — synced from the live Google Business Profile by
+  // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "4.9",
   gbpReviewCount: "53",
+  gbpReviews: [
+    { author: "Bhave", rating: 5, text: "My friend had a water leak and Jose and his team did such a fantastic job start to finish. My friend was so happy . Thorough professionals . Highly recommend", when: "June 2026" },
+    { author: "Tuong", rating: 5, text: "We’re very happy with the results! We worked with Jose and Niki, and the team was incredibly responsive throughout the entire process. They kept us informed every step of the way by sending pictures and communicating what was completed as they went. They replaced the flooring for the whole place…", when: "June 2026" },
+    { author: "Stacey", rating: 5, text: "I hired them for water mitigation services and am quite pleased with their professionalism and work overall. Jose ( and Miguel) took the time to explain everything and made sure i understood what would take place. He's very thorough, honest and really cares about getting the job done right!", when: "June 2026" },
+    { author: "Thomas", rating: 5, text: "We worked with Jose and his team to replace the very old hardwood floor and repaint the walls in the dated living room of our first home. From start to finish, they communicated clearly and were patient with all of our concerns and requests, which was exactly what we needed for our first big…", when: "June 2026" },
+    { author: "Belinda", rating: 5, text: "Absolutely great! Rescued us, attentive through the entire process. Look no where else.", when: "May 2026" },
+    { author: "Gretchen", rating: 5, text: "Jose and his company completed two large projects for us. He was professional, timely, responsive, and knowledgeable. He made sure we understood the process and all the options for repairs. We would highly recommend him for any project you need.", when: "May 2026" },
+  ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Federal Way, WA.",
 } as const;
 

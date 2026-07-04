@@ -35,8 +35,11 @@ export const brand = {
   trustBadges: {{BRAND_TRUST_BADGES_JSON}} as string[],
   jobPhotos: {{BRAND_JOB_PHOTOS_JSON}} as string[],
   sameAsUrls: {{BRAND_SAME_AS_URLS_JSON}} as string[],
+  // GBP rating fields — synced from the live Google Business Profile by
+  // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "{{BRAND_GBP_RATING_VALUE}}",
   gbpReviewCount: "{{BRAND_GBP_REVIEW_COUNT}}",
+  gbpReviews: [] as { author: string; rating: number; text: string; when: string }[],
   tagline: "{{BRAND_TAGLINE}}",
   ctaLabel: "{{BRAND_CTA_LABEL}}",
 } as const;

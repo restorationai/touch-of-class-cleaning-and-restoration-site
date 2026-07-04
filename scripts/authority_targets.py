@@ -122,7 +122,9 @@ def link_gap(client: str) -> list[dict]:
 
 
 def action_key(action_type: str, target: str) -> str:
-    return hashlib.sha1(f"{action_type}|{target}".encode()).hexdigest()[:16]
+    # "lst:" namespace: survives strategist's weekly planned-row refresh (it only
+    # deletes its own unprefixed keys).
+    return "lst:" + hashlib.sha1(f"{action_type}|{target}".encode()).hexdigest()[:16]
 
 
 def build(slug: str, write: bool, sb=None) -> list[dict]:

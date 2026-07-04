@@ -506,6 +506,7 @@ COVERAGE_QUEUE_WARN = 3          # queued items below this → WARN
 COVERAGE_AUDIT_MAX_DAYS = 45     # onsite audit older than this → MISS
 COVERAGE_GEOGRID_MAX_DAYS = 21   # newest geo-grid scan older than this → MISS
 COVERAGE_AI_MAX_DAYS = 14        # newest AI-search scan older than this → MISS
+COVERAGE_NAP_MAX_DAYS = 35       # nap-audit.json older than this → MISS (monthly cadence + slack)
 
 
 def _company_map() -> dict:
@@ -582,7 +583,8 @@ def cmd_coverage(args) -> int:
     def cell(status: str, detail: str = "") -> str:
         return f"{status}({detail})" if detail else status
 
-    header = f"{'CLIENT':32} {'QUEUE':10} {'KW-BANK':10} {'AUDIT<=45d':12} {'GEOGRID<=21d':14} {'GBP-PROFILE':12} {'AI-SCAN<=14d':12}"
+    header = (f"{'CLIENT':32} {'QUEUE':10} {'KW-BANK':10} {'AUDIT<=45d':12} "
+              f"{'GEOGRID<=21d':14} {'GBP-PROFILE':12} {'AI-SCAN<=14d':12} {'NAP<=35d':15}")
     print(f"Coverage gate — {now.isoformat(timespec='seconds')}\n")
     print(header)
     print("-" * len(header))
@@ -690,7 +692,34 @@ def cmd_coverage(args) -> int:
             else:
                 row.append(cell("OK", f"{age}d"))
 
-        print(f"{slug:32} {row[0]:10} {row[1]:10} {row[2]:12} {row[3]:14} {row[4]:12} {row[5]:12}")
+        # 7. NAP audit: nap-audit.json fresh (<=35d) AND zero unresolved mismatches
+        nap_path = ROOT / "clients" / slug / "nap-audit.json"
+        if not nap_path.exists():
+            row.append(cell("MISS", "never"))
+            failures.append(f"{slug}: NAP audit never ran (clients/{slug}/nap-audit.json missing "
+                            f"— run scripts/nap_audit.py --slug {slug})")
+        else:
+            try:
+                nap = json.loads(nap_path.read_text())
+            except (json.JSONDecodeError, OSError):
+                nap = {}
+            nap_at = _parse_iso(nap.get("checked_at"))
+            n_mismatch = len(nap.get("mismatches") or [])
+            nap_age = (now - nap_at).days if nap_at else None
+            if nap_at is None or nap_age > COVERAGE_NAP_MAX_DAYS:
+                row.append(cell("MISS", "stale" if nap_at else "never"))
+                failures.append(f"{slug}: NAP audit is "
+                                f"{f'{nap_age}d old' if nap_at else 'undated'} "
+                                f"(max {COVERAGE_NAP_MAX_DAYS}d)")
+            elif n_mismatch:
+                row.append(cell("MISS", "mismatch"))
+                failures.append(f"{slug}: {n_mismatch} unresolved NAP mismatch(es) — "
+                                f"see clients/{slug}/nap-audit.json")
+            else:
+                row.append(cell("OK", f"{nap_age}d"))
+
+        print(f"{slug:32} {row[0]:10} {row[1]:10} {row[2]:12} {row[3]:14} {row[4]:12} "
+              f"{row[5]:12} {row[6]:15}")
 
     if warnings:
         print("\nWarnings:")
@@ -738,7 +767,7 @@ def build_parser() -> argparse.ArgumentParser:
 
     pc = sub.add_parser("coverage",
                         help="Check every active client has every marketing system running "
-                             "(queue, keyword bank, audit, geo-grid, GBP, AI-search). Exit 1 on gaps.")
+                             "(queue, keyword bank, audit, geo-grid, GBP, AI-search, NAP). Exit 1 on gaps.")
     pc.add_argument("--slug", help="Limit to one client")
     pc.set_defaults(func=cmd_coverage)
 

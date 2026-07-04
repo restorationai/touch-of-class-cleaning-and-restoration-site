@@ -678,7 +678,11 @@ def run_for(slug: str, dry_run: bool) -> int:
     survive = {r["action_key"] for r in existing
                if r.get("action_key") and (r["status"] in ("dismissed", "done", "in_progress", "approved") or r["pinned"])}
 
-    _sb("DELETE", cq + "&status=eq.planned&pinned=is.false")   # clear refreshable rows
+    # Clear only rows strategist owns: nap_audit ("nap:") and authority_targets
+    # ("lst:") namespace their action_keys and manage their own lifecycle on a
+    # monthly cadence — wiping them weekly here would orphan real open work.
+    _sb("DELETE", cq + "&status=eq.planned&pinned=is.false"
+        "&action_key=not.like.nap:*&action_key=not.like.lst:*")   # clear refreshable rows
 
     inserts = [{
         "company_id": company_id, "rank_ai_slug": slug, "priority": a["priority"],

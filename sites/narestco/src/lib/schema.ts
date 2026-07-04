@@ -60,6 +60,10 @@ function localBusiness(ctx: PageSchemaContext) {
     },
     sameAs: brand.sameAsUrls,
     foundingDate: brand.foundedYear,
+    // AggregateRating — values come straight from the live Google Business Profile,
+    // synced into brand.ts by scripts/sync_brand_reviews.py (never hand-edited; we
+    // publish REAL ratings only). Emitted ONLY when both gbpRatingValue and
+    // gbpReviewCount are present — sites without a GBP rating get no rating markup.
     aggregateRating: safe(brand.gbpRatingValue) && safe(brand.gbpReviewCount)
       ? {
           "@type": "AggregateRating",

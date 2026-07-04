@@ -55,6 +55,24 @@ jobs:
           DATAFORSEO_PASSWORD:          ${{ secrets.DATAFORSEO_PASSWORD }}
         run: python3 scripts/master_scheduler.py run-due --all --headless
 
+      - name: NAP consistency audit (monthly — first Monday; results feed the coverage gate)
+        if: github.event.schedule == '0 16 * * 1' || github.event_name == 'workflow_dispatch'
+        env:
+          SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY:  ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          DATAFORSEO_USERNAME:        ${{ secrets.DATAFORSEO_USERNAME }}
+          DATAFORSEO_PASSWORD:        ${{ secrets.DATAFORSEO_PASSWORD }}
+        run: |
+          # Monthly gate: scheduled runs only fire in the first 7 days of the month
+          # (= first Monday). Manual dispatch always runs. nap-audit.json lands in
+          # clients/ and is committed by the "Commit generated state files" step,
+          # which is why this lives here and not on the ephemeral Railway cron.
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$(date -u +%-d)" -le 7 ]; then
+            python3 scripts/nap_audit.py --all || echo "NAP audit errored (non-fatal — coverage gate will flag stale clients)."
+          else
+            echo "Not the first Monday of the month — skipping NAP audit."
+          fi
+
       - name: Coverage gate (non-fatal — emails gap summary if any system is missing)
         env:
           SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}

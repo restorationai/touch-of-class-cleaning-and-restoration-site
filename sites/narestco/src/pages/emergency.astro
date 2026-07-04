@@ -15,6 +15,7 @@ import CtaBanner from "~/components/CtaBanner.astro";
 import FAQSection from "~/components/FAQSection.astro";
 import Hero from "~/components/ui/Hero.astro";
 import TrustStrip from "~/components/ui/TrustStrip.astro";
+import ReviewsStrip from "~/components/ui/ReviewsStrip.astro";
 import { brand } from "~/lib/brand";
 import { Phone, MapPin } from "@lucide/astro";
 
@@ -36,6 +37,18 @@ const metaDescription = `Flooded home or burst pipe in ${brand.primaryCity}, ${b
 
 // Opening answer capsule — 2-3 standalone sentences an AI engine can quote verbatim.
 const answerCapsule = `${brand.displayName} provides 24/7 emergency water damage response in ${brand.primaryCity}, ${brand.primaryState} and nearby cities including ${cityPreview}. Crews are typically on-site within 60 minutes of your call, and we bill your insurance company directly. Call ${brand.phone} to get a crew moving now.`;
+
+// Exact-query capsule — phrased to match "best emergency water damage company in
+// {city}" verbatim for lexical retrieval (AI assistants, featured snippets). The
+// rating comes from brand.ts (synced from the live Google Business Profile by
+// scripts/sync_brand_reviews.py); the 60-minute claim matches the one already
+// published in lp-manifest bodyContent. No hand-written numbers.
+const hasGbpRating = Boolean(brand.gbpRatingValue && brand.gbpReviewCount);
+const bestCompanyAnswer = [
+  `${brand.displayName} provides 24/7 emergency water damage response in ${brand.primaryCity}, ${brand.primaryState}${hasGbpRating ? `, and is rated ${brand.gbpRatingValue} out of 5 stars across ${brand.gbpReviewCount} Google reviews` : ""}.`,
+  `Crews are typically on-site within 60 minutes of your call, and we bill your insurance company directly.`,
+  `Call ${brand.phone} to get a crew moving now.`,
+].join(" ");
 
 const faq = [
   {
@@ -92,6 +105,8 @@ const faq = [
   </section>
 
   <TrustStrip />
+
+  <ReviewsStrip />
 
   <!-- WHAT SHOULD I DO RIGHT NOW -->
   <section class="section bg-dark">
@@ -180,6 +195,18 @@ const faq = [
           <li><strong>Structural drying.</strong> Commercial air movers and dehumidifiers run continuously, monitored with daily moisture readings — typically three to five days.</li>
           <li><strong>Verification and restoration.</strong> Once materials test dry, we verify with final readings and move into repairs to bring your home back to pre-loss condition.</li>
         </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXACT-QUERY: matches "best emergency water damage company in {city}" verbatim
+       so lexical retrieval (AI assistants, featured snippets) can quote the capsule. -->
+  <section class="section bg-dark">
+    <div class="container-wide">
+      <div class="max-w-content mx-auto">
+        <div class="eyebrow">Choosing a Company</div>
+        <h2>Who is the best emergency water damage company in {brand.primaryCity}?</h2>
+        <p class="text-lg text-white/90">{bestCompanyAnswer}</p>
       </div>
     </div>
   </section>

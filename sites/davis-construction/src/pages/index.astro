@@ -6,6 +6,7 @@ import FAQSection from "~/components/FAQSection.astro";
 import InternalLinks from "~/components/InternalLinks.astro";
 import Hero from "~/components/ui/Hero.astro";
 import TrustStrip from "~/components/ui/TrustStrip.astro";
+import ReviewsStrip from "~/components/ui/ReviewsStrip.astro";
 import AboutSection from "~/components/ui/AboutSection.astro";
 import ServicesStrip from "~/components/ui/ServicesStrip.astro";
 import ProcessSection from "~/components/ui/ProcessSection.astro";
@@ -42,6 +43,8 @@ const services = (allServices as CollectionEntry<"services">[])
   />
 
   <TrustStrip />
+
+  <ReviewsStrip />
 
   <AboutSection imageSrc="/images/team.png" imageAlt={`${brand.displayName} construction crew on a residential job site in Madison, AL`}>
     <p>

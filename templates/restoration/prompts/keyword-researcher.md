@@ -126,7 +126,9 @@ Examples for slug=narestco, seed="water damage restoration":
 - `emergency water damage restoration Tacoma`
 - `water damage restoration Bellevue WA`
 
-Cap total fan-out at 40 variations after deduping. If you blow past 40, keep the highest-volume ones.
+**Question-format quota (GEO/AI-retrieval fuel):** at least 6 of the fan-out variations MUST be full natural-language questions a homeowner would type or ask an AI assistant — "why is my ceiling leaking after heavy rain", "how long does it take to dry out a flooded basement", "does insurance cover a burst pipe in the wall". Pull these from the ChatGPT scraper's decomposition + People-Also-Ask-style phrasings. Question pages are the passages AI engines lift verbatim, and competitors are winning ChatGPT slots on question-format coverage alone. Zero-volume questions are still eligible when the ChatGPT scraper surfaced them (AI search demand isn't measured by Google volume) — score them intent-first.
+
+Cap total fan-out at 40 variations after deduping. If you blow past 40, keep the highest-volume ones (but never drop below 6 question-format variations).
 
 Drop variations off-topic for the restoration vertical or for this client's specific services (see "in scope" rules above).
 

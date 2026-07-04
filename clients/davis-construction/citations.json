@@ -1,0 +1,4 @@
+{
+  "_comment": "TODO: seed known third-party listings (Yelp, BBB, HomeAdvisor, ...) for Davis Construction — none catalogued yet. scripts/nap_audit.py still checks Google Maps + the GBP snapshot with an empty list.",
+  "listings": []
+}

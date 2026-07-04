@@ -5,6 +5,7 @@ import CtaBanner from "~/components/CtaBanner.astro";
 import FAQSection from "~/components/FAQSection.astro";
 import Hero from "~/components/ui/Hero.astro";
 import TrustStrip from "~/components/ui/TrustStrip.astro";
+import ReviewsStrip from "~/components/ui/ReviewsStrip.astro";
 import AboutSection from "~/components/ui/AboutSection.astro";
 import ServicesStrip from "~/components/ui/ServicesStrip.astro";
 import ProcessSection from "~/components/ui/ProcessSection.astro";
@@ -46,6 +47,8 @@ const services = targetSlugs
   <Hero title={data.h1} subtitle={data.meta_description} ctaText="Call Now for Immediate Help" ctaLink={`tel:${brand.phoneRaw}`} backgroundImage="/images/hero-bg.webp" />
 
   <TrustStrip />
+
+  <ReviewsStrip />
 
   <AboutSection imageSrc="/images/team.webp" imageAlt={`${brand.displayName} Team`}>
     <p>
