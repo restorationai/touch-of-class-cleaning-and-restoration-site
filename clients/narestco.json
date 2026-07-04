@@ -23,13 +23,13 @@
   },
   "status": "active",
   "created_at": "2026-05-10T03:18:58.761481+00:00",
-  "updated_at": "2026-07-04T00:47:38.815463+00:00",
+  "updated_at": "2026-07-04T19:55:55.589339+00:00",
   "plan_status": "planned",
   "plan": {
     "template": "restoration",
-    "template_version": "0.1.0",
-    "url_count": 229,
-    "generated_at": "2026-05-16T23:53:11.777691+00:00"
+    "template_version": "0.2.0",
+    "url_count": 305,
+    "generated_at": "2026-07-04T19:40:56.341967+00:00"
   },
   "build": {
     "scaffolded_at": "2026-05-13T22:59:47.536189+00:00",
@@ -38,8 +38,8 @@
     "starter_version": "0.1.0",
     "url_count": 229,
     "pages_status": "created",
-    "last_rendered_at": "2026-05-14T15:12:15.203970+00:00",
-    "last_pushed_main_at": "2026-07-04T00:47:38.815425+00:00",
+    "last_rendered_at": "2026-07-04T19:54:14.999240+00:00",
+    "last_pushed_main_at": "2026-07-04T19:55:55.589293+00:00",
     "last_pushed_staging_at": "2026-05-17T15:50:41.961967+00:00"
   },
   "build_status": "pushed_main",
