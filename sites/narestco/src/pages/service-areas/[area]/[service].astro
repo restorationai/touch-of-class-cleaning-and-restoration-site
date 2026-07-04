@@ -5,8 +5,11 @@ import CtaBanner from "~/components/CtaBanner.astro";
 import FAQSection from "~/components/FAQSection.astro";
 import InternalLinks from "~/components/InternalLinks.astro";
 import GoogleMap from "~/components/GoogleMap.astro";
+import DispatchCallout from "~/components/ui/DispatchCallout.astro";
+import GbpCityProof from "~/components/ui/GbpCityProof.astro";
 import Hero from "~/components/ui/Hero.astro";
 import { brand } from "~/lib/brand";
+import { dispatchSentence, is247 } from "~/lib/dispatch";
 
 export async function getStaticPaths() {
   const locations = await getCollection("locations");
@@ -21,6 +24,43 @@ const { Content } = await entry.render();
 const data = entry.data;
 const isSensitive = data.content_guardrails === "sensitive";
 const heroImage = data.hero || `${brand.imagesBase}/brand/hero.webp`;
+
+// The quotable dispatch claim — rendered as a callout right after the hero AND
+// repeated verbatim in the LocalBusiness schema description (competitor
+// teardown: one consistent sentence AI engines can cite for "who serves
+// {city}?"). All phrasing is data-gated in ~/lib/dispatch — 24/7 + IICRC
+// wording only appears when brand.ts actually backs it up.
+const dispatch = dispatchSentence(data.city);
+
+// Guarantee a localized response-time FAQ on every service-area page — the "how fast
+// can you arrive in {city}?" question people actually ask. Visible + folded into the
+// FAQPage schema, and consistent with the 60-min CtaBanner copy below. 24/7
+// restoration brands only — scheduled-hours trades make no emergency claim.
+const responseFaq = is247
+  ? [
+      {
+        question: `How fast can you arrive for ${data.service_display.toLowerCase()} in ${data.city}?`,
+        answer: `We offer 24/7 emergency response and typically arrive on-site in ${data.city}, ${data.state} within about 60 minutes of your call — often sooner for active water, fire, or storm damage.`,
+      },
+    ]
+  : [];
+
+// Standard insurance FAQ — appended ONLY when the page's own frontmatter has no
+// insurance question (no duplication), and only for 24/7 restoration brands
+// that actually bill insurers directly (mirrors the emergency page's language).
+const baseFaq = Array.isArray(data.faq) ? data.faq : [];
+const hasInsuranceFaq = baseFaq.some((q) => /insurance/i.test(q.question));
+const insuranceFaq =
+  is247 && !hasInsuranceFaq
+    ? [
+        {
+          question: `Will my homeowners insurance cover ${data.service_display.toLowerCase()} in ${data.city}?`,
+          answer: `Often, yes — most homeowners policies cover sudden and accidental damage, though coverage always depends on your specific policy and the cause of the loss. We work with all major insurance carriers, bill them directly, and document the damage with photos and moisture readings so your ${data.city} adjuster has everything needed to process the claim.`,
+        },
+      ]
+    : [];
+
+const faq = [...responseFaq, ...baseFaq, ...insuranceFaq];
 ---
 
 <BaseLayout
@@ -33,30 +73,37 @@ const heroImage = data.hero || `${brand.imagesBase}/brand/hero.webp`;
     service_display: data.service_display,
     city: data.city,
     state: data.state,
+    dispatch_sentence: dispatch,
+    date_modified: data.generated_at,
   }}
   breadcrumb={data.breadcrumb}
-  faq={data.faq}
+  faq={faq}
 >
-  <Hero 
-    title={data.h1} 
-    subtitle={data.meta_description} 
-    ctaText={isSensitive ? "Request Discreet Help" : `📞 Call ${brand.phone}`} 
-    ctaLink={`tel:${brand.phoneRaw}`} 
-    isSensitive={isSensitive} 
+  <Hero
+    title={data.h1}
+    subtitle={data.meta_description}
+    ctaText={isSensitive ? "Request Discreet Help" : `📞 Call ${brand.phone}`}
+    ctaLink={`tel:${brand.phoneRaw}`}
+    isSensitive={isSensitive}
   />
 
   <!-- BODY -->
   <section class="section-first bg-dark">
     <div class="container-wide">
+      <div class="max-w-content mx-auto mb-10">
+        <DispatchCallout sentence={dispatch} />
+      </div>
       <div class="prose-body">
         <Content />
       </div>
     </div>
   </section>
 
+  <GbpCityProof city={data.city} />
+
   <GoogleMap city={data.city} state={data.state} service={data.service_display} />
 
-  <FAQSection faq={data.faq} eyebrow={`${data.service_display} in ${data.city}`} />
+  <FAQSection faq={faq} eyebrow={`${data.service_display} in ${data.city}`} />
 
   <CtaBanner
     heading={`${data.service_display} response in ${data.city}`}

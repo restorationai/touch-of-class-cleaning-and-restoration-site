@@ -22,6 +22,14 @@ const heroImage = data.hero || `${brand.imagesBase}/brand/hero.webp`;
 const locations = (await getCollection("locations"))
   .filter((l) => l.data.area_slug === data.area_slug)
   .sort((a, b) => (b.data.priority || 0) - (a.data.priority || 0));
+
+// Money-page internal-link priority: the primary service (water damage
+// restoration when the site offers it, else the highest-priority location)
+// gets the featured CTA with fully descriptive anchor text so the city×service
+// money pages — not this hub — accumulate internal relevance for service queries.
+const primaryLoc =
+  locations.find((l) => l.data.service_slug === "water-damage-restoration") ?? locations[0];
+const otherLocs = locations.filter((l) => l !== primaryLoc);
 ---
 
 <BaseLayout
@@ -57,13 +65,28 @@ const locations = (await getCollection("locations"))
           <div class="eyebrow">{data.city}, {data.state}</div>
           <h2>Services We Provide in {data.city}</h2>
         </div>
+        {primaryLoc && (
+          <a
+            href={`/service-areas/${primaryLoc.data.area_slug}/${primaryLoc.data.service_slug}/`}
+            class="group block max-w-3xl mx-auto mb-10 p-8 rounded-lg border-2 border-accent/60 bg-white/5 hover:bg-white/10 hover:border-accent transition-all no-underline text-center shadow-lg hover:shadow-primary-900/20 hover:-translate-y-1"
+          >
+            <div class="eyebrow">Most Requested</div>
+            <div class="text-2xl md:text-3xl font-black text-white mb-3">
+              {primaryLoc.data.service_display} in {primaryLoc.data.city}, {primaryLoc.data.state}
+            </div>
+            <p class="text-sm text-white/70 mb-6">{primaryLoc.data.meta_description.slice(0, 140)}…</p>
+            <span class="btn-accent">
+              {primaryLoc.data.service_display} in {primaryLoc.data.city}, {primaryLoc.data.state} →
+            </span>
+          </a>
+        )}
         <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {locations.map((l) => (
+          {otherLocs.map((l) => (
             <a href={`/service-areas/${l.data.area_slug}/${l.data.service_slug}/`} class="group block p-6 rounded-lg border border-white/10 bg-white/5 hover:bg-white/10 hover:border-primary-500 transition-all no-underline shadow-lg hover:shadow-primary-900/20 hover:-translate-y-1">
               <div class="text-lg font-bold text-white mb-2">{l.data.service_display}</div>
               <p class="text-sm text-white/65 mb-4">{l.data.meta_description.slice(0, 100)}…</p>
               <span class="text-xs font-black uppercase tracking-widest text-primary-400 group-hover:text-primary-300 transition-colors">
-                {l.data.service_display} in {l.data.city} →
+                {l.data.service_display} in {l.data.city}, {l.data.state} →
               </span>
             </a>
           ))}

@@ -21,14 +21,27 @@ export type PageSchemaContext = {
   primary_service_display?: string;
   youtube_id?: string;
   video_transcript?: string;
+  // City×service page extras (competitor-teardown schema upgrades)
+  dispatch_sentence?: string;
+  date_modified?: string;
 };
 
 const safe = (v: unknown) => (v == null || v === "" ? undefined : v);
 
+// 24/7 gate — same brand.hours regex as the Header announcement bar. Only 24/7
+// restoration brands get the EmergencyService typing; scheduled-hours trades
+// (e.g. construction) stay plain LocalBusiness.
+const IS_247 = /24\s*[\/x-]?\s*7|24 ?hours/i.test(String(brand.hours || ""));
+
 function localBusiness(ctx: PageSchemaContext) {
+  // City×service pages get the teardown upgrades: EmergencyService typing
+  // (24/7 brands only), the page city as areaServed, the quotable dispatch
+  // sentence in the description, and dateModified freshness from the page's
+  // generated_at frontmatter (fallback: build date).
+  const isCityService = ctx.archetype === "service-area-service" && !!ctx.city;
   return {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
+    "@type": isCityService && IS_247 ? ["LocalBusiness", "EmergencyService"] : "LocalBusiness",
     "@id": entityId,
     name: brand.displayName,
     legalName: brand.legalName,
@@ -73,6 +86,17 @@ function localBusiness(ctx: PageSchemaContext) {
           worstRating: "1",
         }
       : undefined,
+    ...(isCityService
+      ? {
+          areaServed: { "@type": "City", name: ctx.city },
+          // The description is EXACTLY the quotable dispatch sentence so the
+          // schema repeats the on-page claim verbatim (see ~/lib/dispatch —
+          // data-gated, never invented). Deliberately not meta_description:
+          // plan-generated meta copy can carry claims the brand data doesn't back.
+          description: safe(ctx.dispatch_sentence) ?? safe(ctx.meta_description),
+          dateModified: String(ctx.date_modified || new Date().toISOString()).slice(0, 10),
+        }
+      : {}),
   };
 }
 
