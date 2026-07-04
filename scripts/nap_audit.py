@@ -460,6 +460,28 @@ def audit_client(slug: str, dry_run: bool = False) -> int:
     listings = []
     if cit_p.exists():
         listings = json.loads(cit_p.read_text()).get("listings", [])
+
+    # Merge client-entered listing URLs from the app (Marketing -> Connect ->
+    # Business Listings card writes user_integrations provider='citations',
+    # connection_metadata.citation_urls keyed yelp/bing_places/apple_maps/bbb/
+    # angi/homeadvisor/thumbtack/facebook). App-entered URLs are additive;
+    # citations.json stays the operator-curated base.
+    try:
+        cid = c.get("company_id")
+        if cid:
+            rows = _sb("GET", "/rest/v1/user_integrations?provider=eq.citations"
+                       f"&client_id=eq.{urllib.parse.quote(str(cid))}"
+                       "&select=connection_metadata") or []
+            urls_seen = {e["url"] for e in listings}
+            for r in rows:
+                cu = ((r.get("connection_metadata") or {}).get("citation_urls") or {})
+                for platform, url in cu.items():
+                    if url and url not in urls_seen:
+                        listings.append({"platform": platform, "url": url,
+                                         "source": "app"})
+                        urls_seen.add(url)
+    except Exception as e:
+        print(f"  [warn] app citation_urls fetch failed: {str(e)[:100]}")
     print(f"\n=== NAP audit: {slug} ===")
     print(f"canonical: {c['name']} | {c['phone']} | {c['street_address']}, "
           f"{c['city']}, {c['state']} {c['postal_code']} | {c['domain']}")
