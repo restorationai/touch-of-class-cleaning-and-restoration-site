@@ -287,6 +287,109 @@
         "98053"
       ],
       "local_notes": "Microsoft HQ city. Affluent, fast-claim-cycle market. Newer construction dominates; HOA-mandated remediation protocols are common. Sammamish River flood-edge for low-lying neighborhoods."
+    },
+    {
+      "city": "Gig Harbor",
+      "state": "WA",
+      "slug": "gig-harbor-wa",
+      "neighborhoods": [
+        "Harborview",
+        "Millville",
+        "Finholm District",
+        "Crescent Valley",
+        "Artondale",
+        "Rosedale"
+      ],
+      "landmarks": [
+        "Skansie Brothers Park",
+        "Tacoma Narrows Bridge",
+        "Cushman Trail",
+        "Kopachuck State Park",
+        "Gig Harbor waterfront"
+      ],
+      "zip_codes": [
+        "98329",
+        "98332",
+        "98335"
+      ],
+      "local_notes": "Kitsap Peninsula maritime village across the Tacoma Narrows Bridge from Tacoma. Salt-air maritime climate with persistent marine moisture. Waterfront and view homes along Harborview Drive and the harbor rim; older Harborview/Millville cottages and fishing-era houses sit on vented crawl spaces that trap ground moisture \u2014 crawl-space water intrusion and fungal growth are the dominant loss types. Steep shoreline lots drain toward foundations; Narrows Bridge toll/traffic affects response routing from the Tacoma side."
+    },
+    {
+      "city": "Bremerton",
+      "state": "WA",
+      "slug": "bremerton-wa",
+      "neighborhoods": [
+        "Manette",
+        "Charleston",
+        "East Bremerton",
+        "West Bremerton",
+        "Kitsap Lake",
+        "Sheridan Park"
+      ],
+      "landmarks": [
+        "Puget Sound Naval Shipyard",
+        "USS Turner Joy",
+        "Bremerton ferry terminal",
+        "Manette Bridge",
+        "Evergreen Rotary Park"
+      ],
+      "zip_codes": [
+        "98310",
+        "98311",
+        "98312",
+        "98337"
+      ],
+      "local_notes": "Kitsap County's largest city, anchored by the Puget Sound Naval Shipyard and the Seattle fast ferry. Housing stock skews old \u2014 Manette and Charleston are full of early-1900s to 1940s wartime worker homes with original galvanized plumbing, knob-and-tube era wiring, and unconditioned basements/crawl spaces prone to chronic moisture. Navy families rotate through rentals, so landlord/property-manager water and mold calls are common. Hilly terrain sheds winter rain toward older foundations near the Port Washington Narrows."
+    },
+    {
+      "city": "Port Orchard",
+      "state": "WA",
+      "slug": "port-orchard-wa",
+      "neighborhoods": [
+        "Downtown Bay Street",
+        "Annapolis",
+        "Manchester",
+        "McCormick Woods",
+        "South Kitsap",
+        "Retsil"
+      ],
+      "landmarks": [
+        "Sinclair Inlet",
+        "Bay Street waterfront",
+        "Port Orchard Marina",
+        "Kitsap County Courthouse",
+        "McCormick Woods Golf Club"
+      ],
+      "zip_codes": [
+        "98366",
+        "98367"
+      ],
+      "local_notes": "South Kitsap county seat on Sinclair Inlet, directly across from the Bremerton shipyard via the foot ferry. Low-lying Bay Street commercial strip floods during king tides and heavy winter rain events. Outside the core, much of South Kitsap is rural acreage on private wells and septic systems \u2014 septic backups and well-pump/pressure-tank failures drive sewage cleanup and water damage calls, and utility shutoffs work differently than city service. Newer McCormick Woods development contrasts with older waterfront and mid-century inventory near Annapolis."
+    },
+    {
+      "city": "University Place",
+      "state": "WA",
+      "slug": "university-place-wa",
+      "neighborhoods": [
+        "Day Island",
+        "Chambers Creek",
+        "Sunset Terrace",
+        "Beckonridge",
+        "Fircrest border",
+        "Narrows View"
+      ],
+      "landmarks": [
+        "Chambers Bay Golf Course",
+        "Chambers Creek Regional Park",
+        "Day Island waterfront",
+        "Curran Apple Orchard Park",
+        "Homestead Park"
+      ],
+      "zip_codes": [
+        "98466",
+        "98467"
+      ],
+      "local_notes": "West Pierce County suburb between Tacoma and the Narrows, home of Chambers Bay (2015 U.S. Open). Housing is dominated by 1960s\u201370s ramblers and split-levels with aging original supply lines, cast-iron drains, and minimal crawl-space vapor protection \u2014 slow appliance and supply-line leaks are the classic loss here. Day Island's low-lying waterfront homes face tidal flooding and saltwater exposure; bluff-top properties above Chambers Creek deal with winter slope drainage pushing water into daylight basements."
     }
   ],
   "brand": {

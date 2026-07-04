@@ -1,10 +1,10 @@
 {
   "template": "restoration",
-  "template_version": "0.1.0",
-  "generated_at": "2026-05-16T23:53:11.766596+00:00",
+  "template_version": "0.2.0",
+  "generated_at": "2026-07-04T19:40:56.327046+00:00",
   "input_summary": {
     "service_count": 18,
-    "service_area_count": 10,
+    "service_area_count": 14,
     "cross_product": true,
     "blog_seed_count": 12
   },
@@ -65,13 +65,17 @@
         "/service-areas/federal-way-wa/",
         "/service-areas/auburn-wa/",
         "/service-areas/bellevue-wa/",
+        "/service-areas/bremerton-wa/",
         "/service-areas/everett-wa/",
+        "/service-areas/gig-harbor-wa/",
         "/service-areas/kent-wa/",
         "/service-areas/kirkland-wa/",
+        "/service-areas/port-orchard-wa/",
         "/service-areas/redmond-wa/",
         "/service-areas/renton-wa/",
         "/service-areas/seattle-wa/",
-        "/service-areas/tacoma-wa/"
+        "/service-areas/tacoma-wa/",
+        "/service-areas/university-place-wa/"
       ]
     },
     {
@@ -156,13 +160,17 @@
         "/service-areas/federal-way-wa/",
         "/service-areas/auburn-wa/",
         "/service-areas/bellevue-wa/",
+        "/service-areas/bremerton-wa/",
         "/service-areas/everett-wa/",
+        "/service-areas/gig-harbor-wa/",
         "/service-areas/kent-wa/",
         "/service-areas/kirkland-wa/",
+        "/service-areas/port-orchard-wa/",
         "/service-areas/redmond-wa/",
         "/service-areas/renton-wa/",
         "/service-areas/seattle-wa/",
-        "/service-areas/tacoma-wa/"
+        "/service-areas/tacoma-wa/",
+        "/service-areas/university-place-wa/"
       ]
     },
     {
@@ -197,12 +205,12 @@
         "/blog/choosing-a-restoration-company/",
         "/blog/does-homeowners-insurance-cover-water-damage/",
         "/blog/fire-damage-restoration-process/",
+        "/blog/how-to-test-for-mold/",
         "/blog/signs-of-hidden-mold/",
         "/blog/black-mold-vs-regular-mold/",
         "/blog/how-long-does-water-damage-restoration-take/",
         "/blog/mold-after-water-damage/",
         "/blog/storm-damage-insurance-claim-checklist/",
-        "/blog/sewage-backup-health-risks/",
         "/blog/smoke-odor-removal-techniques/"
       ]
     },
@@ -312,14 +320,16 @@
         "/contact/",
         "/service-areas/auburn-wa/water-damage-restoration/",
         "/service-areas/bellevue-wa/water-damage-restoration/",
+        "/service-areas/bremerton-wa/water-damage-restoration/",
         "/service-areas/everett-wa/water-damage-restoration/",
         "/service-areas/federal-way-wa/water-damage-restoration/",
+        "/service-areas/gig-harbor-wa/water-damage-restoration/",
         "/service-areas/kent-wa/water-damage-restoration/",
         "/service-areas/kirkland-wa/water-damage-restoration/",
+        "/service-areas/port-orchard-wa/water-damage-restoration/",
         "/service-areas/redmond-wa/water-damage-restoration/",
         "/service-areas/renton-wa/water-damage-restoration/",
         "/service-areas/seattle-wa/water-damage-restoration/",
-        "/service-areas/tacoma-wa/water-damage-restoration/",
         "/blog/burst-pipe-emergency-checklist/",
         "/blog/what-to-do-first-24-hours-water-damage/",
         "/blog/choosing-a-restoration-company/"
@@ -363,14 +373,16 @@
         "/contact/",
         "/service-areas/auburn-wa/flood-damage-restoration/",
         "/service-areas/bellevue-wa/flood-damage-restoration/",
+        "/service-areas/bremerton-wa/flood-damage-restoration/",
         "/service-areas/everett-wa/flood-damage-restoration/",
         "/service-areas/federal-way-wa/flood-damage-restoration/",
+        "/service-areas/gig-harbor-wa/flood-damage-restoration/",
         "/service-areas/kent-wa/flood-damage-restoration/",
         "/service-areas/kirkland-wa/flood-damage-restoration/",
+        "/service-areas/port-orchard-wa/flood-damage-restoration/",
         "/service-areas/redmond-wa/flood-damage-restoration/",
         "/service-areas/renton-wa/flood-damage-restoration/",
-        "/service-areas/seattle-wa/flood-damage-restoration/",
-        "/service-areas/tacoma-wa/flood-damage-restoration/"
+        "/service-areas/seattle-wa/flood-damage-restoration/"
       ]
     },
     {
@@ -411,14 +423,16 @@
         "/contact/",
         "/service-areas/auburn-wa/burst-pipe-repair/",
         "/service-areas/bellevue-wa/burst-pipe-repair/",
+        "/service-areas/bremerton-wa/burst-pipe-repair/",
         "/service-areas/everett-wa/burst-pipe-repair/",
         "/service-areas/federal-way-wa/burst-pipe-repair/",
+        "/service-areas/gig-harbor-wa/burst-pipe-repair/",
         "/service-areas/kent-wa/burst-pipe-repair/",
         "/service-areas/kirkland-wa/burst-pipe-repair/",
+        "/service-areas/port-orchard-wa/burst-pipe-repair/",
         "/service-areas/redmond-wa/burst-pipe-repair/",
         "/service-areas/renton-wa/burst-pipe-repair/",
-        "/service-areas/seattle-wa/burst-pipe-repair/",
-        "/service-areas/tacoma-wa/burst-pipe-repair/"
+        "/service-areas/seattle-wa/burst-pipe-repair/"
       ]
     },
     {
@@ -459,14 +473,16 @@
         "/contact/",
         "/service-areas/auburn-wa/basement-flooding-cleanup/",
         "/service-areas/bellevue-wa/basement-flooding-cleanup/",
+        "/service-areas/bremerton-wa/basement-flooding-cleanup/",
         "/service-areas/everett-wa/basement-flooding-cleanup/",
         "/service-areas/federal-way-wa/basement-flooding-cleanup/",
+        "/service-areas/gig-harbor-wa/basement-flooding-cleanup/",
         "/service-areas/kent-wa/basement-flooding-cleanup/",
         "/service-areas/kirkland-wa/basement-flooding-cleanup/",
+        "/service-areas/port-orchard-wa/basement-flooding-cleanup/",
         "/service-areas/redmond-wa/basement-flooding-cleanup/",
         "/service-areas/renton-wa/basement-flooding-cleanup/",
-        "/service-areas/seattle-wa/basement-flooding-cleanup/",
-        "/service-areas/tacoma-wa/basement-flooding-cleanup/"
+        "/service-areas/seattle-wa/basement-flooding-cleanup/"
       ]
     },
     {
@@ -507,14 +523,16 @@
         "/contact/",
         "/service-areas/auburn-wa/appliance-leak-cleanup/",
         "/service-areas/bellevue-wa/appliance-leak-cleanup/",
+        "/service-areas/bremerton-wa/appliance-leak-cleanup/",
         "/service-areas/everett-wa/appliance-leak-cleanup/",
         "/service-areas/federal-way-wa/appliance-leak-cleanup/",
+        "/service-areas/gig-harbor-wa/appliance-leak-cleanup/",
         "/service-areas/kent-wa/appliance-leak-cleanup/",
         "/service-areas/kirkland-wa/appliance-leak-cleanup/",
+        "/service-areas/port-orchard-wa/appliance-leak-cleanup/",
         "/service-areas/redmond-wa/appliance-leak-cleanup/",
         "/service-areas/renton-wa/appliance-leak-cleanup/",
         "/service-areas/seattle-wa/appliance-leak-cleanup/",
-        "/service-areas/tacoma-wa/appliance-leak-cleanup/",
         "/blog/burst-pipe-emergency-checklist/"
       ]
     },
@@ -556,14 +574,16 @@
         "/contact/",
         "/service-areas/auburn-wa/frozen-pipe-restoration/",
         "/service-areas/bellevue-wa/frozen-pipe-restoration/",
+        "/service-areas/bremerton-wa/frozen-pipe-restoration/",
         "/service-areas/everett-wa/frozen-pipe-restoration/",
         "/service-areas/federal-way-wa/frozen-pipe-restoration/",
+        "/service-areas/gig-harbor-wa/frozen-pipe-restoration/",
         "/service-areas/kent-wa/frozen-pipe-restoration/",
         "/service-areas/kirkland-wa/frozen-pipe-restoration/",
+        "/service-areas/port-orchard-wa/frozen-pipe-restoration/",
         "/service-areas/redmond-wa/frozen-pipe-restoration/",
         "/service-areas/renton-wa/frozen-pipe-restoration/",
-        "/service-areas/seattle-wa/frozen-pipe-restoration/",
-        "/service-areas/tacoma-wa/frozen-pipe-restoration/"
+        "/service-areas/seattle-wa/frozen-pipe-restoration/"
       ]
     },
     {
@@ -604,14 +624,16 @@
         "/contact/",
         "/service-areas/auburn-wa/roof-leak-repair/",
         "/service-areas/bellevue-wa/roof-leak-repair/",
+        "/service-areas/bremerton-wa/roof-leak-repair/",
         "/service-areas/everett-wa/roof-leak-repair/",
         "/service-areas/federal-way-wa/roof-leak-repair/",
+        "/service-areas/gig-harbor-wa/roof-leak-repair/",
         "/service-areas/kent-wa/roof-leak-repair/",
         "/service-areas/kirkland-wa/roof-leak-repair/",
+        "/service-areas/port-orchard-wa/roof-leak-repair/",
         "/service-areas/redmond-wa/roof-leak-repair/",
         "/service-areas/renton-wa/roof-leak-repair/",
-        "/service-areas/seattle-wa/roof-leak-repair/",
-        "/service-areas/tacoma-wa/roof-leak-repair/"
+        "/service-areas/seattle-wa/roof-leak-repair/"
       ]
     },
     {
@@ -652,15 +674,16 @@
         "/contact/",
         "/service-areas/auburn-wa/sewage-cleanup/",
         "/service-areas/bellevue-wa/sewage-cleanup/",
+        "/service-areas/bremerton-wa/sewage-cleanup/",
         "/service-areas/everett-wa/sewage-cleanup/",
         "/service-areas/federal-way-wa/sewage-cleanup/",
+        "/service-areas/gig-harbor-wa/sewage-cleanup/",
         "/service-areas/kent-wa/sewage-cleanup/",
         "/service-areas/kirkland-wa/sewage-cleanup/",
+        "/service-areas/port-orchard-wa/sewage-cleanup/",
         "/service-areas/redmond-wa/sewage-cleanup/",
         "/service-areas/renton-wa/sewage-cleanup/",
-        "/service-areas/seattle-wa/sewage-cleanup/",
-        "/service-areas/tacoma-wa/sewage-cleanup/",
-        "/blog/sewage-backup-health-risks/"
+        "/service-areas/seattle-wa/sewage-cleanup/"
       ]
     },
     {
@@ -701,14 +724,16 @@
         "/contact/",
         "/service-areas/auburn-wa/fire-damage-restoration/",
         "/service-areas/bellevue-wa/fire-damage-restoration/",
+        "/service-areas/bremerton-wa/fire-damage-restoration/",
         "/service-areas/everett-wa/fire-damage-restoration/",
         "/service-areas/federal-way-wa/fire-damage-restoration/",
+        "/service-areas/gig-harbor-wa/fire-damage-restoration/",
         "/service-areas/kent-wa/fire-damage-restoration/",
         "/service-areas/kirkland-wa/fire-damage-restoration/",
+        "/service-areas/port-orchard-wa/fire-damage-restoration/",
         "/service-areas/redmond-wa/fire-damage-restoration/",
         "/service-areas/renton-wa/fire-damage-restoration/",
         "/service-areas/seattle-wa/fire-damage-restoration/",
-        "/service-areas/tacoma-wa/fire-damage-restoration/",
         "/blog/choosing-a-restoration-company/",
         "/blog/fire-damage-restoration-process/",
         "/blog/smoke-odor-removal-techniques/"
@@ -752,14 +777,16 @@
         "/contact/",
         "/service-areas/auburn-wa/smoke-damage-restoration/",
         "/service-areas/bellevue-wa/smoke-damage-restoration/",
+        "/service-areas/bremerton-wa/smoke-damage-restoration/",
         "/service-areas/everett-wa/smoke-damage-restoration/",
         "/service-areas/federal-way-wa/smoke-damage-restoration/",
+        "/service-areas/gig-harbor-wa/smoke-damage-restoration/",
         "/service-areas/kent-wa/smoke-damage-restoration/",
         "/service-areas/kirkland-wa/smoke-damage-restoration/",
+        "/service-areas/port-orchard-wa/smoke-damage-restoration/",
         "/service-areas/redmond-wa/smoke-damage-restoration/",
         "/service-areas/renton-wa/smoke-damage-restoration/",
         "/service-areas/seattle-wa/smoke-damage-restoration/",
-        "/service-areas/tacoma-wa/smoke-damage-restoration/",
         "/blog/fire-damage-restoration-process/",
         "/blog/smoke-odor-removal-techniques/"
       ]
@@ -802,14 +829,16 @@
         "/contact/",
         "/service-areas/auburn-wa/soot-removal/",
         "/service-areas/bellevue-wa/soot-removal/",
+        "/service-areas/bremerton-wa/soot-removal/",
         "/service-areas/everett-wa/soot-removal/",
         "/service-areas/federal-way-wa/soot-removal/",
+        "/service-areas/gig-harbor-wa/soot-removal/",
         "/service-areas/kent-wa/soot-removal/",
         "/service-areas/kirkland-wa/soot-removal/",
+        "/service-areas/port-orchard-wa/soot-removal/",
         "/service-areas/redmond-wa/soot-removal/",
         "/service-areas/renton-wa/soot-removal/",
-        "/service-areas/seattle-wa/soot-removal/",
-        "/service-areas/tacoma-wa/soot-removal/"
+        "/service-areas/seattle-wa/soot-removal/"
       ]
     },
     {
@@ -850,14 +879,16 @@
         "/contact/",
         "/service-areas/auburn-wa/odor-removal/",
         "/service-areas/bellevue-wa/odor-removal/",
+        "/service-areas/bremerton-wa/odor-removal/",
         "/service-areas/everett-wa/odor-removal/",
         "/service-areas/federal-way-wa/odor-removal/",
+        "/service-areas/gig-harbor-wa/odor-removal/",
         "/service-areas/kent-wa/odor-removal/",
         "/service-areas/kirkland-wa/odor-removal/",
+        "/service-areas/port-orchard-wa/odor-removal/",
         "/service-areas/redmond-wa/odor-removal/",
         "/service-areas/renton-wa/odor-removal/",
-        "/service-areas/seattle-wa/odor-removal/",
-        "/service-areas/tacoma-wa/odor-removal/"
+        "/service-areas/seattle-wa/odor-removal/"
       ]
     },
     {
@@ -898,17 +929,19 @@
         "/contact/",
         "/service-areas/auburn-wa/mold-remediation/",
         "/service-areas/bellevue-wa/mold-remediation/",
+        "/service-areas/bremerton-wa/mold-remediation/",
         "/service-areas/everett-wa/mold-remediation/",
         "/service-areas/federal-way-wa/mold-remediation/",
+        "/service-areas/gig-harbor-wa/mold-remediation/",
         "/service-areas/kent-wa/mold-remediation/",
         "/service-areas/kirkland-wa/mold-remediation/",
+        "/service-areas/port-orchard-wa/mold-remediation/",
         "/service-areas/redmond-wa/mold-remediation/",
         "/service-areas/renton-wa/mold-remediation/",
         "/service-areas/seattle-wa/mold-remediation/",
-        "/service-areas/tacoma-wa/mold-remediation/",
         "/blog/choosing-a-restoration-company/",
-        "/blog/signs-of-hidden-mold/",
-        "/blog/black-mold-vs-regular-mold/"
+        "/blog/how-to-test-for-mold/",
+        "/blog/signs-of-hidden-mold/"
       ]
     },
     {
@@ -949,14 +982,17 @@
         "/contact/",
         "/service-areas/auburn-wa/mold-inspection-testing/",
         "/service-areas/bellevue-wa/mold-inspection-testing/",
+        "/service-areas/bremerton-wa/mold-inspection-testing/",
         "/service-areas/everett-wa/mold-inspection-testing/",
         "/service-areas/federal-way-wa/mold-inspection-testing/",
+        "/service-areas/gig-harbor-wa/mold-inspection-testing/",
         "/service-areas/kent-wa/mold-inspection-testing/",
         "/service-areas/kirkland-wa/mold-inspection-testing/",
+        "/service-areas/port-orchard-wa/mold-inspection-testing/",
         "/service-areas/redmond-wa/mold-inspection-testing/",
         "/service-areas/renton-wa/mold-inspection-testing/",
         "/service-areas/seattle-wa/mold-inspection-testing/",
-        "/service-areas/tacoma-wa/mold-inspection-testing/"
+        "/blog/how-to-test-for-mold/"
       ]
     },
     {
@@ -997,14 +1033,16 @@
         "/contact/",
         "/service-areas/auburn-wa/storm-damage-restoration/",
         "/service-areas/bellevue-wa/storm-damage-restoration/",
+        "/service-areas/bremerton-wa/storm-damage-restoration/",
         "/service-areas/everett-wa/storm-damage-restoration/",
         "/service-areas/federal-way-wa/storm-damage-restoration/",
+        "/service-areas/gig-harbor-wa/storm-damage-restoration/",
         "/service-areas/kent-wa/storm-damage-restoration/",
         "/service-areas/kirkland-wa/storm-damage-restoration/",
+        "/service-areas/port-orchard-wa/storm-damage-restoration/",
         "/service-areas/redmond-wa/storm-damage-restoration/",
         "/service-areas/renton-wa/storm-damage-restoration/",
         "/service-areas/seattle-wa/storm-damage-restoration/",
-        "/service-areas/tacoma-wa/storm-damage-restoration/",
         "/blog/storm-damage-insurance-claim-checklist/"
       ]
     },
@@ -1046,14 +1084,16 @@
         "/contact/",
         "/service-areas/auburn-wa/biohazard-cleanup/",
         "/service-areas/bellevue-wa/biohazard-cleanup/",
+        "/service-areas/bremerton-wa/biohazard-cleanup/",
         "/service-areas/everett-wa/biohazard-cleanup/",
         "/service-areas/federal-way-wa/biohazard-cleanup/",
+        "/service-areas/gig-harbor-wa/biohazard-cleanup/",
         "/service-areas/kent-wa/biohazard-cleanup/",
         "/service-areas/kirkland-wa/biohazard-cleanup/",
+        "/service-areas/port-orchard-wa/biohazard-cleanup/",
         "/service-areas/redmond-wa/biohazard-cleanup/",
         "/service-areas/renton-wa/biohazard-cleanup/",
-        "/service-areas/seattle-wa/biohazard-cleanup/",
-        "/service-areas/tacoma-wa/biohazard-cleanup/"
+        "/service-areas/seattle-wa/biohazard-cleanup/"
       ]
     },
     {
@@ -1094,14 +1134,16 @@
         "/contact/",
         "/service-areas/auburn-wa/reconstruction/",
         "/service-areas/bellevue-wa/reconstruction/",
+        "/service-areas/bremerton-wa/reconstruction/",
         "/service-areas/everett-wa/reconstruction/",
         "/service-areas/federal-way-wa/reconstruction/",
+        "/service-areas/gig-harbor-wa/reconstruction/",
         "/service-areas/kent-wa/reconstruction/",
         "/service-areas/kirkland-wa/reconstruction/",
+        "/service-areas/port-orchard-wa/reconstruction/",
         "/service-areas/redmond-wa/reconstruction/",
         "/service-areas/renton-wa/reconstruction/",
-        "/service-areas/seattle-wa/reconstruction/",
-        "/service-areas/tacoma-wa/reconstruction/"
+        "/service-areas/seattle-wa/reconstruction/"
       ]
     },
     {
@@ -1143,14 +1185,16 @@
         "/contact/",
         "/service-areas/auburn-wa/general-contracting/",
         "/service-areas/bellevue-wa/general-contracting/",
+        "/service-areas/bremerton-wa/general-contracting/",
         "/service-areas/everett-wa/general-contracting/",
         "/service-areas/federal-way-wa/general-contracting/",
+        "/service-areas/gig-harbor-wa/general-contracting/",
         "/service-areas/kent-wa/general-contracting/",
         "/service-areas/kirkland-wa/general-contracting/",
+        "/service-areas/port-orchard-wa/general-contracting/",
         "/service-areas/redmond-wa/general-contracting/",
         "/service-areas/renton-wa/general-contracting/",
-        "/service-areas/seattle-wa/general-contracting/",
-        "/service-areas/tacoma-wa/general-contracting/"
+        "/service-areas/seattle-wa/general-contracting/"
       ]
     },
     {
@@ -1205,7 +1249,7 @@
         "/service-areas/federal-way-wa/appliance-leak-cleanup/",
         "/service-areas/auburn-wa/",
         "/service-areas/bellevue-wa/",
-        "/service-areas/everett-wa/"
+        "/service-areas/bremerton-wa/"
       ]
     },
     {
@@ -1315,7 +1359,7 @@
         "/service-areas/bellevue-wa/appliance-leak-cleanup/",
         "/service-areas/federal-way-wa/",
         "/service-areas/auburn-wa/",
-        "/service-areas/everett-wa/"
+        "/service-areas/bremerton-wa/"
       ]
     },
     {
@@ -1590,7 +1634,7 @@
         "/service-areas/auburn-wa/appliance-leak-cleanup/",
         "/service-areas/federal-way-wa/",
         "/service-areas/bellevue-wa/",
-        "/service-areas/everett-wa/"
+        "/service-areas/bremerton-wa/"
       ]
     },
     {
@@ -1698,6 +1742,226 @@
         "/service-areas/redmond-wa/roof-leak-repair/",
         "/service-areas/redmond-wa/soot-removal/",
         "/service-areas/redmond-wa/appliance-leak-cleanup/",
+        "/service-areas/federal-way-wa/",
+        "/service-areas/auburn-wa/",
+        "/service-areas/bellevue-wa/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/gig-harbor-wa/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Gig Harbor, WA | National Restoration Construction",
+      "h1": "Restoration Services in Gig Harbor",
+      "meta_description": "Serving Gig Harbor, WA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (206) 883-0333.",
+      "primary_keyword": "restoration services gig harbor",
+      "secondary_keywords": [
+        "gig harbor restoration company",
+        "damage restoration gig harbor",
+        "gig harbor disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/gig-harbor-wa/fire-damage-restoration/",
+        "/service-areas/gig-harbor-wa/mold-remediation/",
+        "/service-areas/gig-harbor-wa/water-damage-restoration/",
+        "/service-areas/gig-harbor-wa/flood-damage-restoration/",
+        "/service-areas/gig-harbor-wa/reconstruction/",
+        "/service-areas/gig-harbor-wa/sewage-cleanup/",
+        "/service-areas/gig-harbor-wa/smoke-damage-restoration/",
+        "/service-areas/gig-harbor-wa/storm-damage-restoration/",
+        "/service-areas/gig-harbor-wa/basement-flooding-cleanup/",
+        "/service-areas/gig-harbor-wa/biohazard-cleanup/",
+        "/service-areas/gig-harbor-wa/burst-pipe-repair/",
+        "/service-areas/gig-harbor-wa/general-contracting/",
+        "/service-areas/gig-harbor-wa/mold-inspection-testing/",
+        "/service-areas/gig-harbor-wa/frozen-pipe-restoration/",
+        "/service-areas/gig-harbor-wa/odor-removal/",
+        "/service-areas/gig-harbor-wa/roof-leak-repair/",
+        "/service-areas/gig-harbor-wa/soot-removal/",
+        "/service-areas/gig-harbor-wa/appliance-leak-cleanup/",
+        "/service-areas/federal-way-wa/",
+        "/service-areas/auburn-wa/",
+        "/service-areas/bellevue-wa/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bremerton-wa/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Bremerton, WA | National Restoration Construction",
+      "h1": "Restoration Services in Bremerton",
+      "meta_description": "Serving Bremerton, WA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (206) 883-0333.",
+      "primary_keyword": "restoration services bremerton",
+      "secondary_keywords": [
+        "bremerton restoration company",
+        "damage restoration bremerton",
+        "bremerton disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/bremerton-wa/fire-damage-restoration/",
+        "/service-areas/bremerton-wa/mold-remediation/",
+        "/service-areas/bremerton-wa/water-damage-restoration/",
+        "/service-areas/bremerton-wa/flood-damage-restoration/",
+        "/service-areas/bremerton-wa/reconstruction/",
+        "/service-areas/bremerton-wa/sewage-cleanup/",
+        "/service-areas/bremerton-wa/smoke-damage-restoration/",
+        "/service-areas/bremerton-wa/storm-damage-restoration/",
+        "/service-areas/bremerton-wa/basement-flooding-cleanup/",
+        "/service-areas/bremerton-wa/biohazard-cleanup/",
+        "/service-areas/bremerton-wa/burst-pipe-repair/",
+        "/service-areas/bremerton-wa/general-contracting/",
+        "/service-areas/bremerton-wa/mold-inspection-testing/",
+        "/service-areas/bremerton-wa/frozen-pipe-restoration/",
+        "/service-areas/bremerton-wa/odor-removal/",
+        "/service-areas/bremerton-wa/roof-leak-repair/",
+        "/service-areas/bremerton-wa/soot-removal/",
+        "/service-areas/bremerton-wa/appliance-leak-cleanup/",
+        "/service-areas/federal-way-wa/",
+        "/service-areas/auburn-wa/",
+        "/service-areas/bellevue-wa/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/port-orchard-wa/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Port Orchard, WA | National Restoration Construction",
+      "h1": "Restoration Services in Port Orchard",
+      "meta_description": "Serving Port Orchard, WA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (206) 883-0333.",
+      "primary_keyword": "restoration services port orchard",
+      "secondary_keywords": [
+        "port orchard restoration company",
+        "damage restoration port orchard",
+        "port orchard disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/port-orchard-wa/fire-damage-restoration/",
+        "/service-areas/port-orchard-wa/mold-remediation/",
+        "/service-areas/port-orchard-wa/water-damage-restoration/",
+        "/service-areas/port-orchard-wa/flood-damage-restoration/",
+        "/service-areas/port-orchard-wa/reconstruction/",
+        "/service-areas/port-orchard-wa/sewage-cleanup/",
+        "/service-areas/port-orchard-wa/smoke-damage-restoration/",
+        "/service-areas/port-orchard-wa/storm-damage-restoration/",
+        "/service-areas/port-orchard-wa/basement-flooding-cleanup/",
+        "/service-areas/port-orchard-wa/biohazard-cleanup/",
+        "/service-areas/port-orchard-wa/burst-pipe-repair/",
+        "/service-areas/port-orchard-wa/general-contracting/",
+        "/service-areas/port-orchard-wa/mold-inspection-testing/",
+        "/service-areas/port-orchard-wa/frozen-pipe-restoration/",
+        "/service-areas/port-orchard-wa/odor-removal/",
+        "/service-areas/port-orchard-wa/roof-leak-repair/",
+        "/service-areas/port-orchard-wa/soot-removal/",
+        "/service-areas/port-orchard-wa/appliance-leak-cleanup/",
+        "/service-areas/federal-way-wa/",
+        "/service-areas/auburn-wa/",
+        "/service-areas/bellevue-wa/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/university-place-wa/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in University Place, WA | National Restoration Construction",
+      "h1": "Restoration Services in University Place",
+      "meta_description": "Serving University Place, WA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (206) 883-0333.",
+      "primary_keyword": "restoration services university place",
+      "secondary_keywords": [
+        "university place restoration company",
+        "damage restoration university place",
+        "university place disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/university-place-wa/fire-damage-restoration/",
+        "/service-areas/university-place-wa/mold-remediation/",
+        "/service-areas/university-place-wa/water-damage-restoration/",
+        "/service-areas/university-place-wa/flood-damage-restoration/",
+        "/service-areas/university-place-wa/reconstruction/",
+        "/service-areas/university-place-wa/sewage-cleanup/",
+        "/service-areas/university-place-wa/smoke-damage-restoration/",
+        "/service-areas/university-place-wa/storm-damage-restoration/",
+        "/service-areas/university-place-wa/basement-flooding-cleanup/",
+        "/service-areas/university-place-wa/biohazard-cleanup/",
+        "/service-areas/university-place-wa/burst-pipe-repair/",
+        "/service-areas/university-place-wa/general-contracting/",
+        "/service-areas/university-place-wa/mold-inspection-testing/",
+        "/service-areas/university-place-wa/frozen-pipe-restoration/",
+        "/service-areas/university-place-wa/odor-removal/",
+        "/service-areas/university-place-wa/roof-leak-repair/",
+        "/service-areas/university-place-wa/soot-removal/",
+        "/service-areas/university-place-wa/appliance-leak-cleanup/",
         "/service-areas/federal-way-wa/",
         "/service-areas/auburn-wa/",
         "/service-areas/bellevue-wa/"
@@ -3329,7 +3593,7 @@
         "/service-areas/bellevue-wa/fire-damage-restoration/",
         "/service-areas/bellevue-wa/mold-remediation/",
         "/service-areas/auburn-wa/water-damage-restoration/",
-        "/service-areas/everett-wa/water-damage-restoration/",
+        "/service-areas/bremerton-wa/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3373,7 +3637,7 @@
         "/service-areas/bellevue-wa/fire-damage-restoration/",
         "/service-areas/bellevue-wa/mold-remediation/",
         "/service-areas/auburn-wa/flood-damage-restoration/",
-        "/service-areas/everett-wa/flood-damage-restoration/",
+        "/service-areas/bremerton-wa/flood-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3417,7 +3681,7 @@
         "/service-areas/bellevue-wa/fire-damage-restoration/",
         "/service-areas/bellevue-wa/mold-remediation/",
         "/service-areas/auburn-wa/burst-pipe-repair/",
-        "/service-areas/everett-wa/burst-pipe-repair/",
+        "/service-areas/bremerton-wa/burst-pipe-repair/",
         "/contact/"
       ]
     },
@@ -3461,7 +3725,7 @@
         "/service-areas/bellevue-wa/fire-damage-restoration/",
         "/service-areas/bellevue-wa/mold-remediation/",
         "/service-areas/auburn-wa/basement-flooding-cleanup/",
-        "/service-areas/everett-wa/basement-flooding-cleanup/",
+        "/service-areas/bremerton-wa/basement-flooding-cleanup/",
         "/contact/"
       ]
     },
@@ -3505,7 +3769,7 @@
         "/service-areas/bellevue-wa/fire-damage-restoration/",
         "/service-areas/bellevue-wa/mold-remediation/",
         "/service-areas/auburn-wa/appliance-leak-cleanup/",
-        "/service-areas/everett-wa/appliance-leak-cleanup/",
+        "/service-areas/bremerton-wa/appliance-leak-cleanup/",
         "/contact/"
       ]
     },
@@ -3549,7 +3813,7 @@
         "/service-areas/bellevue-wa/fire-damage-restoration/",
         "/service-areas/bellevue-wa/mold-remediation/",
         "/service-areas/auburn-wa/frozen-pipe-restoration/",
-        "/service-areas/everett-wa/frozen-pipe-restoration/",
+        "/service-areas/bremerton-wa/frozen-pipe-restoration/",
         "/contact/"
       ]
     },
@@ -3593,7 +3857,7 @@
         "/service-areas/bellevue-wa/fire-damage-restoration/",
         "/service-areas/bellevue-wa/mold-remediation/",
         "/service-areas/auburn-wa/roof-leak-repair/",
-        "/service-areas/everett-wa/roof-leak-repair/",
+        "/service-areas/bremerton-wa/roof-leak-repair/",
         "/contact/"
       ]
     },
@@ -3637,7 +3901,7 @@
         "/service-areas/bellevue-wa/fire-damage-restoration/",
         "/service-areas/bellevue-wa/mold-remediation/",
         "/service-areas/auburn-wa/sewage-cleanup/",
-        "/service-areas/everett-wa/sewage-cleanup/",
+        "/service-areas/bremerton-wa/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -3681,7 +3945,7 @@
         "/service-areas/bellevue-wa/mold-remediation/",
         "/service-areas/bellevue-wa/water-damage-restoration/",
         "/service-areas/auburn-wa/fire-damage-restoration/",
-        "/service-areas/everett-wa/fire-damage-restoration/",
+        "/service-areas/bremerton-wa/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3725,7 +3989,7 @@
         "/service-areas/bellevue-wa/fire-damage-restoration/",
         "/service-areas/bellevue-wa/mold-remediation/",
         "/service-areas/auburn-wa/smoke-damage-restoration/",
-        "/service-areas/everett-wa/smoke-damage-restoration/",
+        "/service-areas/bremerton-wa/smoke-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3769,7 +4033,7 @@
         "/service-areas/bellevue-wa/fire-damage-restoration/",
         "/service-areas/bellevue-wa/mold-remediation/",
         "/service-areas/auburn-wa/soot-removal/",
-        "/service-areas/everett-wa/soot-removal/",
+        "/service-areas/bremerton-wa/soot-removal/",
         "/contact/"
       ]
     },
@@ -3813,7 +4077,7 @@
         "/service-areas/bellevue-wa/fire-damage-restoration/",
         "/service-areas/bellevue-wa/mold-remediation/",
         "/service-areas/auburn-wa/odor-removal/",
-        "/service-areas/everett-wa/odor-removal/",
+        "/service-areas/bremerton-wa/odor-removal/",
         "/contact/"
       ]
     },
@@ -3857,7 +4121,7 @@
         "/service-areas/bellevue-wa/fire-damage-restoration/",
         "/service-areas/bellevue-wa/water-damage-restoration/",
         "/service-areas/auburn-wa/mold-remediation/",
-        "/service-areas/everett-wa/mold-remediation/",
+        "/service-areas/bremerton-wa/mold-remediation/",
         "/contact/"
       ]
     },
@@ -3901,7 +4165,7 @@
         "/service-areas/bellevue-wa/fire-damage-restoration/",
         "/service-areas/bellevue-wa/mold-remediation/",
         "/service-areas/auburn-wa/mold-inspection-testing/",
-        "/service-areas/everett-wa/mold-inspection-testing/",
+        "/service-areas/bremerton-wa/mold-inspection-testing/",
         "/contact/"
       ]
     },
@@ -3945,7 +4209,7 @@
         "/service-areas/bellevue-wa/fire-damage-restoration/",
         "/service-areas/bellevue-wa/mold-remediation/",
         "/service-areas/auburn-wa/storm-damage-restoration/",
-        "/service-areas/everett-wa/storm-damage-restoration/",
+        "/service-areas/bremerton-wa/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3989,7 +4253,7 @@
         "/service-areas/bellevue-wa/fire-damage-restoration/",
         "/service-areas/bellevue-wa/mold-remediation/",
         "/service-areas/auburn-wa/biohazard-cleanup/",
-        "/service-areas/everett-wa/biohazard-cleanup/",
+        "/service-areas/bremerton-wa/biohazard-cleanup/",
         "/contact/"
       ]
     },
@@ -4033,7 +4297,7 @@
         "/service-areas/bellevue-wa/fire-damage-restoration/",
         "/service-areas/bellevue-wa/mold-remediation/",
         "/service-areas/auburn-wa/reconstruction/",
-        "/service-areas/everett-wa/reconstruction/",
+        "/service-areas/bremerton-wa/reconstruction/",
         "/contact/"
       ]
     },
@@ -4078,7 +4342,7 @@
         "/service-areas/bellevue-wa/fire-damage-restoration/",
         "/service-areas/bellevue-wa/mold-remediation/",
         "/service-areas/auburn-wa/general-contracting/",
-        "/service-areas/everett-wa/general-contracting/",
+        "/service-areas/bremerton-wa/general-contracting/",
         "/contact/"
       ]
     },
@@ -7294,7 +7558,7 @@
         "/service-areas/auburn-wa/fire-damage-restoration/",
         "/service-areas/auburn-wa/mold-remediation/",
         "/service-areas/bellevue-wa/water-damage-restoration/",
-        "/service-areas/everett-wa/water-damage-restoration/",
+        "/service-areas/bremerton-wa/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -7338,7 +7602,7 @@
         "/service-areas/auburn-wa/fire-damage-restoration/",
         "/service-areas/auburn-wa/mold-remediation/",
         "/service-areas/bellevue-wa/flood-damage-restoration/",
-        "/service-areas/everett-wa/flood-damage-restoration/",
+        "/service-areas/bremerton-wa/flood-damage-restoration/",
         "/contact/"
       ]
     },
@@ -7382,7 +7646,7 @@
         "/service-areas/auburn-wa/fire-damage-restoration/",
         "/service-areas/auburn-wa/mold-remediation/",
         "/service-areas/bellevue-wa/burst-pipe-repair/",
-        "/service-areas/everett-wa/burst-pipe-repair/",
+        "/service-areas/bremerton-wa/burst-pipe-repair/",
         "/contact/"
       ]
     },
@@ -7426,7 +7690,7 @@
         "/service-areas/auburn-wa/fire-damage-restoration/",
         "/service-areas/auburn-wa/mold-remediation/",
         "/service-areas/bellevue-wa/basement-flooding-cleanup/",
-        "/service-areas/everett-wa/basement-flooding-cleanup/",
+        "/service-areas/bremerton-wa/basement-flooding-cleanup/",
         "/contact/"
       ]
     },
@@ -7470,7 +7734,7 @@
         "/service-areas/auburn-wa/fire-damage-restoration/",
         "/service-areas/auburn-wa/mold-remediation/",
         "/service-areas/bellevue-wa/appliance-leak-cleanup/",
-        "/service-areas/everett-wa/appliance-leak-cleanup/",
+        "/service-areas/bremerton-wa/appliance-leak-cleanup/",
         "/contact/"
       ]
     },
@@ -7514,7 +7778,7 @@
         "/service-areas/auburn-wa/fire-damage-restoration/",
         "/service-areas/auburn-wa/mold-remediation/",
         "/service-areas/bellevue-wa/frozen-pipe-restoration/",
-        "/service-areas/everett-wa/frozen-pipe-restoration/",
+        "/service-areas/bremerton-wa/frozen-pipe-restoration/",
         "/contact/"
       ]
     },
@@ -7558,7 +7822,7 @@
         "/service-areas/auburn-wa/fire-damage-restoration/",
         "/service-areas/auburn-wa/mold-remediation/",
         "/service-areas/bellevue-wa/roof-leak-repair/",
-        "/service-areas/everett-wa/roof-leak-repair/",
+        "/service-areas/bremerton-wa/roof-leak-repair/",
         "/contact/"
       ]
     },
@@ -7602,7 +7866,7 @@
         "/service-areas/auburn-wa/fire-damage-restoration/",
         "/service-areas/auburn-wa/mold-remediation/",
         "/service-areas/bellevue-wa/sewage-cleanup/",
-        "/service-areas/everett-wa/sewage-cleanup/",
+        "/service-areas/bremerton-wa/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -7646,7 +7910,7 @@
         "/service-areas/auburn-wa/mold-remediation/",
         "/service-areas/auburn-wa/water-damage-restoration/",
         "/service-areas/bellevue-wa/fire-damage-restoration/",
-        "/service-areas/everett-wa/fire-damage-restoration/",
+        "/service-areas/bremerton-wa/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -7690,7 +7954,7 @@
         "/service-areas/auburn-wa/fire-damage-restoration/",
         "/service-areas/auburn-wa/mold-remediation/",
         "/service-areas/bellevue-wa/smoke-damage-restoration/",
-        "/service-areas/everett-wa/smoke-damage-restoration/",
+        "/service-areas/bremerton-wa/smoke-damage-restoration/",
         "/contact/"
       ]
     },
@@ -7734,7 +7998,7 @@
         "/service-areas/auburn-wa/fire-damage-restoration/",
         "/service-areas/auburn-wa/mold-remediation/",
         "/service-areas/bellevue-wa/soot-removal/",
-        "/service-areas/everett-wa/soot-removal/",
+        "/service-areas/bremerton-wa/soot-removal/",
         "/contact/"
       ]
     },
@@ -7778,7 +8042,7 @@
         "/service-areas/auburn-wa/fire-damage-restoration/",
         "/service-areas/auburn-wa/mold-remediation/",
         "/service-areas/bellevue-wa/odor-removal/",
-        "/service-areas/everett-wa/odor-removal/",
+        "/service-areas/bremerton-wa/odor-removal/",
         "/contact/"
       ]
     },
@@ -7822,7 +8086,7 @@
         "/service-areas/auburn-wa/fire-damage-restoration/",
         "/service-areas/auburn-wa/water-damage-restoration/",
         "/service-areas/bellevue-wa/mold-remediation/",
-        "/service-areas/everett-wa/mold-remediation/",
+        "/service-areas/bremerton-wa/mold-remediation/",
         "/contact/"
       ]
     },
@@ -7866,7 +8130,7 @@
         "/service-areas/auburn-wa/fire-damage-restoration/",
         "/service-areas/auburn-wa/mold-remediation/",
         "/service-areas/bellevue-wa/mold-inspection-testing/",
-        "/service-areas/everett-wa/mold-inspection-testing/",
+        "/service-areas/bremerton-wa/mold-inspection-testing/",
         "/contact/"
       ]
     },
@@ -7910,7 +8174,7 @@
         "/service-areas/auburn-wa/fire-damage-restoration/",
         "/service-areas/auburn-wa/mold-remediation/",
         "/service-areas/bellevue-wa/storm-damage-restoration/",
-        "/service-areas/everett-wa/storm-damage-restoration/",
+        "/service-areas/bremerton-wa/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -7954,7 +8218,7 @@
         "/service-areas/auburn-wa/fire-damage-restoration/",
         "/service-areas/auburn-wa/mold-remediation/",
         "/service-areas/bellevue-wa/biohazard-cleanup/",
-        "/service-areas/everett-wa/biohazard-cleanup/",
+        "/service-areas/bremerton-wa/biohazard-cleanup/",
         "/contact/"
       ]
     },
@@ -7998,7 +8262,7 @@
         "/service-areas/auburn-wa/fire-damage-restoration/",
         "/service-areas/auburn-wa/mold-remediation/",
         "/service-areas/bellevue-wa/reconstruction/",
-        "/service-areas/everett-wa/reconstruction/",
+        "/service-areas/bremerton-wa/reconstruction/",
         "/contact/"
       ]
     },
@@ -8043,7 +8307,7 @@
         "/service-areas/auburn-wa/fire-damage-restoration/",
         "/service-areas/auburn-wa/mold-remediation/",
         "/service-areas/bellevue-wa/general-contracting/",
-        "/service-areas/everett-wa/general-contracting/",
+        "/service-areas/bremerton-wa/general-contracting/",
         "/contact/"
       ]
     },
@@ -9634,6 +9898,3178 @@
       ]
     },
     {
+      "url_path": "/service-areas/gig-harbor-wa/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Gig Harbor, WA | National Restoration Construction",
+      "h1": "Water Damage Restoration in Gig Harbor",
+      "meta_description": "24/7 water damage restoration in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "water damage restoration gig harbor",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/gig-harbor-wa/",
+        "/service-areas/gig-harbor-wa/fire-damage-restoration/",
+        "/service-areas/gig-harbor-wa/mold-remediation/",
+        "/service-areas/auburn-wa/water-damage-restoration/",
+        "/service-areas/bellevue-wa/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/gig-harbor-wa/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in Gig Harbor, WA | National Restoration Construction",
+      "h1": "Flood Damage Restoration in Gig Harbor",
+      "meta_description": "24/7 flood damage restoration in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "flood damage restoration gig harbor",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/gig-harbor-wa/",
+        "/service-areas/gig-harbor-wa/fire-damage-restoration/",
+        "/service-areas/gig-harbor-wa/mold-remediation/",
+        "/service-areas/auburn-wa/flood-damage-restoration/",
+        "/service-areas/bellevue-wa/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/gig-harbor-wa/burst-pipe-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst Pipe Cleanup and Repair in Gig Harbor, WA | National Restoration Construction",
+      "h1": "Burst Pipe Cleanup and Repair in Gig Harbor",
+      "meta_description": "24/7 burst pipe cleanup and repair in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "burst pipe cleanup and repair gig harbor",
+      "secondary_keywords": [
+        "burst pipe cleanup",
+        "pipe burst emergency",
+        "pipe break water damage",
+        "water line break",
+        "emergency pipe repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-pipe-repair/",
+        "/service-areas/gig-harbor-wa/",
+        "/service-areas/gig-harbor-wa/fire-damage-restoration/",
+        "/service-areas/gig-harbor-wa/mold-remediation/",
+        "/service-areas/auburn-wa/burst-pipe-repair/",
+        "/service-areas/bellevue-wa/burst-pipe-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/gig-harbor-wa/basement-flooding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Flooding Cleanup in Gig Harbor, WA | National Restoration Construction",
+      "h1": "Basement Flooding Cleanup in Gig Harbor",
+      "meta_description": "24/7 basement flooding cleanup in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "basement flooding cleanup gig harbor",
+      "secondary_keywords": [
+        "flooded basement cleanup",
+        "basement water removal",
+        "wet basement restoration",
+        "basement water damage",
+        "basement drying"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-flooding-cleanup/",
+        "/service-areas/gig-harbor-wa/",
+        "/service-areas/gig-harbor-wa/fire-damage-restoration/",
+        "/service-areas/gig-harbor-wa/mold-remediation/",
+        "/service-areas/auburn-wa/basement-flooding-cleanup/",
+        "/service-areas/bellevue-wa/basement-flooding-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/gig-harbor-wa/appliance-leak-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Appliance Leak Cleanup in Gig Harbor, WA | National Restoration Construction",
+      "h1": "Appliance Leak Cleanup in Gig Harbor",
+      "meta_description": "24/7 appliance leak cleanup in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "appliance leak cleanup gig harbor",
+      "secondary_keywords": [
+        "dishwasher leak cleanup",
+        "washing machine flood",
+        "refrigerator leak cleanup",
+        "water heater leak cleanup",
+        "ice maker line leak"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/appliance-leak-cleanup/",
+        "/service-areas/gig-harbor-wa/",
+        "/service-areas/gig-harbor-wa/fire-damage-restoration/",
+        "/service-areas/gig-harbor-wa/mold-remediation/",
+        "/service-areas/auburn-wa/appliance-leak-cleanup/",
+        "/service-areas/bellevue-wa/appliance-leak-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/gig-harbor-wa/frozen-pipe-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Frozen Pipe Restoration in Gig Harbor, WA | National Restoration Construction",
+      "h1": "Frozen Pipe Restoration in Gig Harbor",
+      "meta_description": "24/7 frozen pipe restoration in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "frozen pipe restoration gig harbor",
+      "secondary_keywords": [
+        "frozen pipe damage",
+        "winter pipe burst cleanup",
+        "thawed pipe water damage",
+        "frozen pipe leak repair",
+        "cold weather pipe damage"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/frozen-pipe-restoration/",
+        "/service-areas/gig-harbor-wa/",
+        "/service-areas/gig-harbor-wa/fire-damage-restoration/",
+        "/service-areas/gig-harbor-wa/mold-remediation/",
+        "/service-areas/auburn-wa/frozen-pipe-restoration/",
+        "/service-areas/bellevue-wa/frozen-pipe-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/gig-harbor-wa/roof-leak-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Roof Leak Cleanup and Repair in Gig Harbor, WA | National Restoration Construction",
+      "h1": "Roof Leak Cleanup and Repair in Gig Harbor",
+      "meta_description": "24/7 roof leak cleanup and repair in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "roof leak cleanup and repair gig harbor",
+      "secondary_keywords": [
+        "roof leak cleanup",
+        "ceiling water damage",
+        "attic water damage",
+        "roof leak restoration",
+        "interior roof leak damage"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/roof-leak-repair/",
+        "/service-areas/gig-harbor-wa/",
+        "/service-areas/gig-harbor-wa/fire-damage-restoration/",
+        "/service-areas/gig-harbor-wa/mold-remediation/",
+        "/service-areas/auburn-wa/roof-leak-repair/",
+        "/service-areas/bellevue-wa/roof-leak-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/gig-harbor-wa/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Gig Harbor, WA | National Restoration Construction",
+      "h1": "Sewage Cleanup and Sanitization in Gig Harbor",
+      "meta_description": "24/7 sewage cleanup and sanitization in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "sewage cleanup and sanitization gig harbor",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/gig-harbor-wa/",
+        "/service-areas/gig-harbor-wa/fire-damage-restoration/",
+        "/service-areas/gig-harbor-wa/mold-remediation/",
+        "/service-areas/auburn-wa/sewage-cleanup/",
+        "/service-areas/bellevue-wa/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/gig-harbor-wa/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Gig Harbor, WA | National Restoration Construction",
+      "h1": "Fire Damage Restoration in Gig Harbor",
+      "meta_description": "24/7 fire damage restoration in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "fire damage restoration gig harbor",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/gig-harbor-wa/",
+        "/service-areas/gig-harbor-wa/mold-remediation/",
+        "/service-areas/gig-harbor-wa/water-damage-restoration/",
+        "/service-areas/auburn-wa/fire-damage-restoration/",
+        "/service-areas/bellevue-wa/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/gig-harbor-wa/smoke-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Smoke Damage Restoration in Gig Harbor, WA | National Restoration Construction",
+      "h1": "Smoke Damage Restoration in Gig Harbor",
+      "meta_description": "24/7 smoke damage restoration in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "smoke damage restoration gig harbor",
+      "secondary_keywords": [
+        "smoke residue cleanup",
+        "smoke damage repair",
+        "post-fire smoke cleanup",
+        "smoke damage restoration services",
+        "wildfire smoke cleanup"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/smoke-damage-restoration/",
+        "/service-areas/gig-harbor-wa/",
+        "/service-areas/gig-harbor-wa/fire-damage-restoration/",
+        "/service-areas/gig-harbor-wa/mold-remediation/",
+        "/service-areas/auburn-wa/smoke-damage-restoration/",
+        "/service-areas/bellevue-wa/smoke-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/gig-harbor-wa/soot-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Soot Removal in Gig Harbor, WA | National Restoration Construction",
+      "h1": "Soot Removal in Gig Harbor",
+      "meta_description": "24/7 soot removal in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "soot removal gig harbor",
+      "secondary_keywords": [
+        "soot cleaning",
+        "soot residue removal",
+        "post-fire soot cleanup",
+        "soot damage cleanup",
+        "soot wall cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/soot-removal/",
+        "/service-areas/gig-harbor-wa/",
+        "/service-areas/gig-harbor-wa/fire-damage-restoration/",
+        "/service-areas/gig-harbor-wa/mold-remediation/",
+        "/service-areas/auburn-wa/soot-removal/",
+        "/service-areas/bellevue-wa/soot-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/gig-harbor-wa/odor-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Odor Removal and Deodorization in Gig Harbor, WA | National Restoration Construction",
+      "h1": "Odor Removal and Deodorization in Gig Harbor",
+      "meta_description": "24/7 odor removal and deodorization in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "odor removal and deodorization gig harbor",
+      "secondary_keywords": [
+        "smoke odor removal",
+        "ozone treatment",
+        "hydroxyl deodorization",
+        "thermal fogging",
+        "professional odor elimination"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/odor-removal/",
+        "/service-areas/gig-harbor-wa/",
+        "/service-areas/gig-harbor-wa/fire-damage-restoration/",
+        "/service-areas/gig-harbor-wa/mold-remediation/",
+        "/service-areas/auburn-wa/odor-removal/",
+        "/service-areas/bellevue-wa/odor-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/gig-harbor-wa/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Gig Harbor, WA | National Restoration Construction",
+      "h1": "Mold Remediation in Gig Harbor",
+      "meta_description": "24/7 mold remediation in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "mold remediation gig harbor",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/gig-harbor-wa/",
+        "/service-areas/gig-harbor-wa/fire-damage-restoration/",
+        "/service-areas/gig-harbor-wa/water-damage-restoration/",
+        "/service-areas/auburn-wa/mold-remediation/",
+        "/service-areas/bellevue-wa/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/gig-harbor-wa/mold-inspection-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Inspection and Testing in Gig Harbor, WA | National Restoration Construction",
+      "h1": "Mold Inspection and Testing in Gig Harbor",
+      "meta_description": "24/7 mold inspection and testing in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "mold inspection and testing gig harbor",
+      "secondary_keywords": [
+        "mold inspection",
+        "mold testing",
+        "indoor air quality testing",
+        "mold spore testing",
+        "mold assessment"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-inspection-testing/",
+        "/service-areas/gig-harbor-wa/",
+        "/service-areas/gig-harbor-wa/fire-damage-restoration/",
+        "/service-areas/gig-harbor-wa/mold-remediation/",
+        "/service-areas/auburn-wa/mold-inspection-testing/",
+        "/service-areas/bellevue-wa/mold-inspection-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/gig-harbor-wa/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Gig Harbor, WA | National Restoration Construction",
+      "h1": "Storm Damage Restoration in Gig Harbor",
+      "meta_description": "24/7 storm damage restoration in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "storm damage restoration gig harbor",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/gig-harbor-wa/",
+        "/service-areas/gig-harbor-wa/fire-damage-restoration/",
+        "/service-areas/gig-harbor-wa/mold-remediation/",
+        "/service-areas/auburn-wa/storm-damage-restoration/",
+        "/service-areas/bellevue-wa/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/gig-harbor-wa/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard and Trauma Cleanup in Gig Harbor, WA | National Restoration Construction",
+      "h1": "Biohazard and Trauma Cleanup in Gig Harbor",
+      "meta_description": "24/7 biohazard and trauma cleanup in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "biohazard and trauma cleanup gig harbor",
+      "secondary_keywords": [
+        "trauma scene cleanup",
+        "unattended death cleanup",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "biohazard remediation"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/gig-harbor-wa/",
+        "/service-areas/gig-harbor-wa/fire-damage-restoration/",
+        "/service-areas/gig-harbor-wa/mold-remediation/",
+        "/service-areas/auburn-wa/biohazard-cleanup/",
+        "/service-areas/bellevue-wa/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/gig-harbor-wa/reconstruction/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Reconstruction Services in Gig Harbor, WA | National Restoration Construction",
+      "h1": "Reconstruction Services in Gig Harbor",
+      "meta_description": "24/7 reconstruction services in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "reconstruction services gig harbor",
+      "secondary_keywords": [
+        "post-damage reconstruction",
+        "rebuild services",
+        "structural reconstruction",
+        "post-disaster rebuilding",
+        "fire damage reconstruction"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/reconstruction/",
+        "/service-areas/gig-harbor-wa/",
+        "/service-areas/gig-harbor-wa/fire-damage-restoration/",
+        "/service-areas/gig-harbor-wa/mold-remediation/",
+        "/service-areas/auburn-wa/reconstruction/",
+        "/service-areas/bellevue-wa/reconstruction/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/gig-harbor-wa/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Gig Harbor, WA | National Restoration Construction",
+      "h1": "Renovations, Remodels and General Contracting in Gig Harbor",
+      "meta_description": "24/7 renovations, remodels and general contracting in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "renovations, remodels and general contracting gig harbor",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/gig-harbor-wa/",
+        "/service-areas/gig-harbor-wa/fire-damage-restoration/",
+        "/service-areas/gig-harbor-wa/mold-remediation/",
+        "/service-areas/auburn-wa/general-contracting/",
+        "/service-areas/bellevue-wa/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bremerton-wa/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Bremerton, WA | National Restoration Construction",
+      "h1": "Water Damage Restoration in Bremerton",
+      "meta_description": "24/7 water damage restoration in Bremerton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "water damage restoration bremerton",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/bremerton-wa/",
+        "/service-areas/bremerton-wa/fire-damage-restoration/",
+        "/service-areas/bremerton-wa/mold-remediation/",
+        "/service-areas/auburn-wa/water-damage-restoration/",
+        "/service-areas/bellevue-wa/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bremerton-wa/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in Bremerton, WA | National Restoration Construction",
+      "h1": "Flood Damage Restoration in Bremerton",
+      "meta_description": "24/7 flood damage restoration in Bremerton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "flood damage restoration bremerton",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/bremerton-wa/",
+        "/service-areas/bremerton-wa/fire-damage-restoration/",
+        "/service-areas/bremerton-wa/mold-remediation/",
+        "/service-areas/auburn-wa/flood-damage-restoration/",
+        "/service-areas/bellevue-wa/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bremerton-wa/burst-pipe-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst Pipe Cleanup and Repair in Bremerton, WA | National Restoration Construction",
+      "h1": "Burst Pipe Cleanup and Repair in Bremerton",
+      "meta_description": "24/7 burst pipe cleanup and repair in Bremerton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "burst pipe cleanup and repair bremerton",
+      "secondary_keywords": [
+        "burst pipe cleanup",
+        "pipe burst emergency",
+        "pipe break water damage",
+        "water line break",
+        "emergency pipe repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-pipe-repair/",
+        "/service-areas/bremerton-wa/",
+        "/service-areas/bremerton-wa/fire-damage-restoration/",
+        "/service-areas/bremerton-wa/mold-remediation/",
+        "/service-areas/auburn-wa/burst-pipe-repair/",
+        "/service-areas/bellevue-wa/burst-pipe-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bremerton-wa/basement-flooding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Flooding Cleanup in Bremerton, WA | National Restoration Construction",
+      "h1": "Basement Flooding Cleanup in Bremerton",
+      "meta_description": "24/7 basement flooding cleanup in Bremerton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "basement flooding cleanup bremerton",
+      "secondary_keywords": [
+        "flooded basement cleanup",
+        "basement water removal",
+        "wet basement restoration",
+        "basement water damage",
+        "basement drying"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-flooding-cleanup/",
+        "/service-areas/bremerton-wa/",
+        "/service-areas/bremerton-wa/fire-damage-restoration/",
+        "/service-areas/bremerton-wa/mold-remediation/",
+        "/service-areas/auburn-wa/basement-flooding-cleanup/",
+        "/service-areas/bellevue-wa/basement-flooding-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bremerton-wa/appliance-leak-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Appliance Leak Cleanup in Bremerton, WA | National Restoration Construction",
+      "h1": "Appliance Leak Cleanup in Bremerton",
+      "meta_description": "24/7 appliance leak cleanup in Bremerton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "appliance leak cleanup bremerton",
+      "secondary_keywords": [
+        "dishwasher leak cleanup",
+        "washing machine flood",
+        "refrigerator leak cleanup",
+        "water heater leak cleanup",
+        "ice maker line leak"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/appliance-leak-cleanup/",
+        "/service-areas/bremerton-wa/",
+        "/service-areas/bremerton-wa/fire-damage-restoration/",
+        "/service-areas/bremerton-wa/mold-remediation/",
+        "/service-areas/auburn-wa/appliance-leak-cleanup/",
+        "/service-areas/bellevue-wa/appliance-leak-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bremerton-wa/frozen-pipe-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Frozen Pipe Restoration in Bremerton, WA | National Restoration Construction",
+      "h1": "Frozen Pipe Restoration in Bremerton",
+      "meta_description": "24/7 frozen pipe restoration in Bremerton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "frozen pipe restoration bremerton",
+      "secondary_keywords": [
+        "frozen pipe damage",
+        "winter pipe burst cleanup",
+        "thawed pipe water damage",
+        "frozen pipe leak repair",
+        "cold weather pipe damage"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/frozen-pipe-restoration/",
+        "/service-areas/bremerton-wa/",
+        "/service-areas/bremerton-wa/fire-damage-restoration/",
+        "/service-areas/bremerton-wa/mold-remediation/",
+        "/service-areas/auburn-wa/frozen-pipe-restoration/",
+        "/service-areas/bellevue-wa/frozen-pipe-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bremerton-wa/roof-leak-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Roof Leak Cleanup and Repair in Bremerton, WA | National Restoration Construction",
+      "h1": "Roof Leak Cleanup and Repair in Bremerton",
+      "meta_description": "24/7 roof leak cleanup and repair in Bremerton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "roof leak cleanup and repair bremerton",
+      "secondary_keywords": [
+        "roof leak cleanup",
+        "ceiling water damage",
+        "attic water damage",
+        "roof leak restoration",
+        "interior roof leak damage"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/roof-leak-repair/",
+        "/service-areas/bremerton-wa/",
+        "/service-areas/bremerton-wa/fire-damage-restoration/",
+        "/service-areas/bremerton-wa/mold-remediation/",
+        "/service-areas/auburn-wa/roof-leak-repair/",
+        "/service-areas/bellevue-wa/roof-leak-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bremerton-wa/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Bremerton, WA | National Restoration Construction",
+      "h1": "Sewage Cleanup and Sanitization in Bremerton",
+      "meta_description": "24/7 sewage cleanup and sanitization in Bremerton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "sewage cleanup and sanitization bremerton",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/bremerton-wa/",
+        "/service-areas/bremerton-wa/fire-damage-restoration/",
+        "/service-areas/bremerton-wa/mold-remediation/",
+        "/service-areas/auburn-wa/sewage-cleanup/",
+        "/service-areas/bellevue-wa/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bremerton-wa/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Bremerton, WA | National Restoration Construction",
+      "h1": "Fire Damage Restoration in Bremerton",
+      "meta_description": "24/7 fire damage restoration in Bremerton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "fire damage restoration bremerton",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/bremerton-wa/",
+        "/service-areas/bremerton-wa/mold-remediation/",
+        "/service-areas/bremerton-wa/water-damage-restoration/",
+        "/service-areas/auburn-wa/fire-damage-restoration/",
+        "/service-areas/bellevue-wa/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bremerton-wa/smoke-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Smoke Damage Restoration in Bremerton, WA | National Restoration Construction",
+      "h1": "Smoke Damage Restoration in Bremerton",
+      "meta_description": "24/7 smoke damage restoration in Bremerton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "smoke damage restoration bremerton",
+      "secondary_keywords": [
+        "smoke residue cleanup",
+        "smoke damage repair",
+        "post-fire smoke cleanup",
+        "smoke damage restoration services",
+        "wildfire smoke cleanup"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/smoke-damage-restoration/",
+        "/service-areas/bremerton-wa/",
+        "/service-areas/bremerton-wa/fire-damage-restoration/",
+        "/service-areas/bremerton-wa/mold-remediation/",
+        "/service-areas/auburn-wa/smoke-damage-restoration/",
+        "/service-areas/bellevue-wa/smoke-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bremerton-wa/soot-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Soot Removal in Bremerton, WA | National Restoration Construction",
+      "h1": "Soot Removal in Bremerton",
+      "meta_description": "24/7 soot removal in Bremerton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "soot removal bremerton",
+      "secondary_keywords": [
+        "soot cleaning",
+        "soot residue removal",
+        "post-fire soot cleanup",
+        "soot damage cleanup",
+        "soot wall cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/soot-removal/",
+        "/service-areas/bremerton-wa/",
+        "/service-areas/bremerton-wa/fire-damage-restoration/",
+        "/service-areas/bremerton-wa/mold-remediation/",
+        "/service-areas/auburn-wa/soot-removal/",
+        "/service-areas/bellevue-wa/soot-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bremerton-wa/odor-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Odor Removal and Deodorization in Bremerton, WA | National Restoration Construction",
+      "h1": "Odor Removal and Deodorization in Bremerton",
+      "meta_description": "24/7 odor removal and deodorization in Bremerton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "odor removal and deodorization bremerton",
+      "secondary_keywords": [
+        "smoke odor removal",
+        "ozone treatment",
+        "hydroxyl deodorization",
+        "thermal fogging",
+        "professional odor elimination"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/odor-removal/",
+        "/service-areas/bremerton-wa/",
+        "/service-areas/bremerton-wa/fire-damage-restoration/",
+        "/service-areas/bremerton-wa/mold-remediation/",
+        "/service-areas/auburn-wa/odor-removal/",
+        "/service-areas/bellevue-wa/odor-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bremerton-wa/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Bremerton, WA | National Restoration Construction",
+      "h1": "Mold Remediation in Bremerton",
+      "meta_description": "24/7 mold remediation in Bremerton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "mold remediation bremerton",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/bremerton-wa/",
+        "/service-areas/bremerton-wa/fire-damage-restoration/",
+        "/service-areas/bremerton-wa/water-damage-restoration/",
+        "/service-areas/auburn-wa/mold-remediation/",
+        "/service-areas/bellevue-wa/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bremerton-wa/mold-inspection-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Inspection and Testing in Bremerton, WA | National Restoration Construction",
+      "h1": "Mold Inspection and Testing in Bremerton",
+      "meta_description": "24/7 mold inspection and testing in Bremerton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "mold inspection and testing bremerton",
+      "secondary_keywords": [
+        "mold inspection",
+        "mold testing",
+        "indoor air quality testing",
+        "mold spore testing",
+        "mold assessment"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-inspection-testing/",
+        "/service-areas/bremerton-wa/",
+        "/service-areas/bremerton-wa/fire-damage-restoration/",
+        "/service-areas/bremerton-wa/mold-remediation/",
+        "/service-areas/auburn-wa/mold-inspection-testing/",
+        "/service-areas/bellevue-wa/mold-inspection-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bremerton-wa/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Bremerton, WA | National Restoration Construction",
+      "h1": "Storm Damage Restoration in Bremerton",
+      "meta_description": "24/7 storm damage restoration in Bremerton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "storm damage restoration bremerton",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/bremerton-wa/",
+        "/service-areas/bremerton-wa/fire-damage-restoration/",
+        "/service-areas/bremerton-wa/mold-remediation/",
+        "/service-areas/auburn-wa/storm-damage-restoration/",
+        "/service-areas/bellevue-wa/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bremerton-wa/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard and Trauma Cleanup in Bremerton, WA | National Restoration Construction",
+      "h1": "Biohazard and Trauma Cleanup in Bremerton",
+      "meta_description": "24/7 biohazard and trauma cleanup in Bremerton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "biohazard and trauma cleanup bremerton",
+      "secondary_keywords": [
+        "trauma scene cleanup",
+        "unattended death cleanup",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "biohazard remediation"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/bremerton-wa/",
+        "/service-areas/bremerton-wa/fire-damage-restoration/",
+        "/service-areas/bremerton-wa/mold-remediation/",
+        "/service-areas/auburn-wa/biohazard-cleanup/",
+        "/service-areas/bellevue-wa/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bremerton-wa/reconstruction/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Reconstruction Services in Bremerton, WA | National Restoration Construction",
+      "h1": "Reconstruction Services in Bremerton",
+      "meta_description": "24/7 reconstruction services in Bremerton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "reconstruction services bremerton",
+      "secondary_keywords": [
+        "post-damage reconstruction",
+        "rebuild services",
+        "structural reconstruction",
+        "post-disaster rebuilding",
+        "fire damage reconstruction"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/reconstruction/",
+        "/service-areas/bremerton-wa/",
+        "/service-areas/bremerton-wa/fire-damage-restoration/",
+        "/service-areas/bremerton-wa/mold-remediation/",
+        "/service-areas/auburn-wa/reconstruction/",
+        "/service-areas/bellevue-wa/reconstruction/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bremerton-wa/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Bremerton, WA | National Restoration Construction",
+      "h1": "Renovations, Remodels and General Contracting in Bremerton",
+      "meta_description": "24/7 renovations, remodels and general contracting in Bremerton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "renovations, remodels and general contracting bremerton",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/bremerton-wa/",
+        "/service-areas/bremerton-wa/fire-damage-restoration/",
+        "/service-areas/bremerton-wa/mold-remediation/",
+        "/service-areas/auburn-wa/general-contracting/",
+        "/service-areas/bellevue-wa/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/port-orchard-wa/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Port Orchard, WA | National Restoration Construction",
+      "h1": "Water Damage Restoration in Port Orchard",
+      "meta_description": "24/7 water damage restoration in Port Orchard, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "water damage restoration port orchard",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/port-orchard-wa/",
+        "/service-areas/port-orchard-wa/fire-damage-restoration/",
+        "/service-areas/port-orchard-wa/mold-remediation/",
+        "/service-areas/auburn-wa/water-damage-restoration/",
+        "/service-areas/bellevue-wa/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/port-orchard-wa/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in Port Orchard, WA | National Restoration Construction",
+      "h1": "Flood Damage Restoration in Port Orchard",
+      "meta_description": "24/7 flood damage restoration in Port Orchard, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "flood damage restoration port orchard",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/port-orchard-wa/",
+        "/service-areas/port-orchard-wa/fire-damage-restoration/",
+        "/service-areas/port-orchard-wa/mold-remediation/",
+        "/service-areas/auburn-wa/flood-damage-restoration/",
+        "/service-areas/bellevue-wa/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/port-orchard-wa/burst-pipe-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst Pipe Cleanup and Repair in Port Orchard, WA | National Restoration Construction",
+      "h1": "Burst Pipe Cleanup and Repair in Port Orchard",
+      "meta_description": "24/7 burst pipe cleanup and repair in Port Orchard, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "burst pipe cleanup and repair port orchard",
+      "secondary_keywords": [
+        "burst pipe cleanup",
+        "pipe burst emergency",
+        "pipe break water damage",
+        "water line break",
+        "emergency pipe repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-pipe-repair/",
+        "/service-areas/port-orchard-wa/",
+        "/service-areas/port-orchard-wa/fire-damage-restoration/",
+        "/service-areas/port-orchard-wa/mold-remediation/",
+        "/service-areas/auburn-wa/burst-pipe-repair/",
+        "/service-areas/bellevue-wa/burst-pipe-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/port-orchard-wa/basement-flooding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Flooding Cleanup in Port Orchard, WA | National Restoration Construction",
+      "h1": "Basement Flooding Cleanup in Port Orchard",
+      "meta_description": "24/7 basement flooding cleanup in Port Orchard, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "basement flooding cleanup port orchard",
+      "secondary_keywords": [
+        "flooded basement cleanup",
+        "basement water removal",
+        "wet basement restoration",
+        "basement water damage",
+        "basement drying"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-flooding-cleanup/",
+        "/service-areas/port-orchard-wa/",
+        "/service-areas/port-orchard-wa/fire-damage-restoration/",
+        "/service-areas/port-orchard-wa/mold-remediation/",
+        "/service-areas/auburn-wa/basement-flooding-cleanup/",
+        "/service-areas/bellevue-wa/basement-flooding-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/port-orchard-wa/appliance-leak-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Appliance Leak Cleanup in Port Orchard, WA | National Restoration Construction",
+      "h1": "Appliance Leak Cleanup in Port Orchard",
+      "meta_description": "24/7 appliance leak cleanup in Port Orchard, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "appliance leak cleanup port orchard",
+      "secondary_keywords": [
+        "dishwasher leak cleanup",
+        "washing machine flood",
+        "refrigerator leak cleanup",
+        "water heater leak cleanup",
+        "ice maker line leak"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/appliance-leak-cleanup/",
+        "/service-areas/port-orchard-wa/",
+        "/service-areas/port-orchard-wa/fire-damage-restoration/",
+        "/service-areas/port-orchard-wa/mold-remediation/",
+        "/service-areas/auburn-wa/appliance-leak-cleanup/",
+        "/service-areas/bellevue-wa/appliance-leak-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/port-orchard-wa/frozen-pipe-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Frozen Pipe Restoration in Port Orchard, WA | National Restoration Construction",
+      "h1": "Frozen Pipe Restoration in Port Orchard",
+      "meta_description": "24/7 frozen pipe restoration in Port Orchard, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "frozen pipe restoration port orchard",
+      "secondary_keywords": [
+        "frozen pipe damage",
+        "winter pipe burst cleanup",
+        "thawed pipe water damage",
+        "frozen pipe leak repair",
+        "cold weather pipe damage"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/frozen-pipe-restoration/",
+        "/service-areas/port-orchard-wa/",
+        "/service-areas/port-orchard-wa/fire-damage-restoration/",
+        "/service-areas/port-orchard-wa/mold-remediation/",
+        "/service-areas/auburn-wa/frozen-pipe-restoration/",
+        "/service-areas/bellevue-wa/frozen-pipe-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/port-orchard-wa/roof-leak-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Roof Leak Cleanup and Repair in Port Orchard, WA | National Restoration Construction",
+      "h1": "Roof Leak Cleanup and Repair in Port Orchard",
+      "meta_description": "24/7 roof leak cleanup and repair in Port Orchard, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "roof leak cleanup and repair port orchard",
+      "secondary_keywords": [
+        "roof leak cleanup",
+        "ceiling water damage",
+        "attic water damage",
+        "roof leak restoration",
+        "interior roof leak damage"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/roof-leak-repair/",
+        "/service-areas/port-orchard-wa/",
+        "/service-areas/port-orchard-wa/fire-damage-restoration/",
+        "/service-areas/port-orchard-wa/mold-remediation/",
+        "/service-areas/auburn-wa/roof-leak-repair/",
+        "/service-areas/bellevue-wa/roof-leak-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/port-orchard-wa/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Port Orchard, WA | National Restoration Construction",
+      "h1": "Sewage Cleanup and Sanitization in Port Orchard",
+      "meta_description": "24/7 sewage cleanup and sanitization in Port Orchard, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "sewage cleanup and sanitization port orchard",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/port-orchard-wa/",
+        "/service-areas/port-orchard-wa/fire-damage-restoration/",
+        "/service-areas/port-orchard-wa/mold-remediation/",
+        "/service-areas/auburn-wa/sewage-cleanup/",
+        "/service-areas/bellevue-wa/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/port-orchard-wa/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Port Orchard, WA | National Restoration Construction",
+      "h1": "Fire Damage Restoration in Port Orchard",
+      "meta_description": "24/7 fire damage restoration in Port Orchard, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "fire damage restoration port orchard",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/port-orchard-wa/",
+        "/service-areas/port-orchard-wa/mold-remediation/",
+        "/service-areas/port-orchard-wa/water-damage-restoration/",
+        "/service-areas/auburn-wa/fire-damage-restoration/",
+        "/service-areas/bellevue-wa/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/port-orchard-wa/smoke-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Smoke Damage Restoration in Port Orchard, WA | National Restoration Construction",
+      "h1": "Smoke Damage Restoration in Port Orchard",
+      "meta_description": "24/7 smoke damage restoration in Port Orchard, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "smoke damage restoration port orchard",
+      "secondary_keywords": [
+        "smoke residue cleanup",
+        "smoke damage repair",
+        "post-fire smoke cleanup",
+        "smoke damage restoration services",
+        "wildfire smoke cleanup"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/smoke-damage-restoration/",
+        "/service-areas/port-orchard-wa/",
+        "/service-areas/port-orchard-wa/fire-damage-restoration/",
+        "/service-areas/port-orchard-wa/mold-remediation/",
+        "/service-areas/auburn-wa/smoke-damage-restoration/",
+        "/service-areas/bellevue-wa/smoke-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/port-orchard-wa/soot-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Soot Removal in Port Orchard, WA | National Restoration Construction",
+      "h1": "Soot Removal in Port Orchard",
+      "meta_description": "24/7 soot removal in Port Orchard, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "soot removal port orchard",
+      "secondary_keywords": [
+        "soot cleaning",
+        "soot residue removal",
+        "post-fire soot cleanup",
+        "soot damage cleanup",
+        "soot wall cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/soot-removal/",
+        "/service-areas/port-orchard-wa/",
+        "/service-areas/port-orchard-wa/fire-damage-restoration/",
+        "/service-areas/port-orchard-wa/mold-remediation/",
+        "/service-areas/auburn-wa/soot-removal/",
+        "/service-areas/bellevue-wa/soot-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/port-orchard-wa/odor-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Odor Removal and Deodorization in Port Orchard, WA | National Restoration Construction",
+      "h1": "Odor Removal and Deodorization in Port Orchard",
+      "meta_description": "24/7 odor removal and deodorization in Port Orchard, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "odor removal and deodorization port orchard",
+      "secondary_keywords": [
+        "smoke odor removal",
+        "ozone treatment",
+        "hydroxyl deodorization",
+        "thermal fogging",
+        "professional odor elimination"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/odor-removal/",
+        "/service-areas/port-orchard-wa/",
+        "/service-areas/port-orchard-wa/fire-damage-restoration/",
+        "/service-areas/port-orchard-wa/mold-remediation/",
+        "/service-areas/auburn-wa/odor-removal/",
+        "/service-areas/bellevue-wa/odor-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/port-orchard-wa/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Port Orchard, WA | National Restoration Construction",
+      "h1": "Mold Remediation in Port Orchard",
+      "meta_description": "24/7 mold remediation in Port Orchard, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "mold remediation port orchard",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/port-orchard-wa/",
+        "/service-areas/port-orchard-wa/fire-damage-restoration/",
+        "/service-areas/port-orchard-wa/water-damage-restoration/",
+        "/service-areas/auburn-wa/mold-remediation/",
+        "/service-areas/bellevue-wa/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/port-orchard-wa/mold-inspection-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Inspection and Testing in Port Orchard, WA | National Restoration Construction",
+      "h1": "Mold Inspection and Testing in Port Orchard",
+      "meta_description": "24/7 mold inspection and testing in Port Orchard, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "mold inspection and testing port orchard",
+      "secondary_keywords": [
+        "mold inspection",
+        "mold testing",
+        "indoor air quality testing",
+        "mold spore testing",
+        "mold assessment"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-inspection-testing/",
+        "/service-areas/port-orchard-wa/",
+        "/service-areas/port-orchard-wa/fire-damage-restoration/",
+        "/service-areas/port-orchard-wa/mold-remediation/",
+        "/service-areas/auburn-wa/mold-inspection-testing/",
+        "/service-areas/bellevue-wa/mold-inspection-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/port-orchard-wa/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Port Orchard, WA | National Restoration Construction",
+      "h1": "Storm Damage Restoration in Port Orchard",
+      "meta_description": "24/7 storm damage restoration in Port Orchard, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "storm damage restoration port orchard",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/port-orchard-wa/",
+        "/service-areas/port-orchard-wa/fire-damage-restoration/",
+        "/service-areas/port-orchard-wa/mold-remediation/",
+        "/service-areas/auburn-wa/storm-damage-restoration/",
+        "/service-areas/bellevue-wa/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/port-orchard-wa/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard and Trauma Cleanup in Port Orchard, WA | National Restoration Construction",
+      "h1": "Biohazard and Trauma Cleanup in Port Orchard",
+      "meta_description": "24/7 biohazard and trauma cleanup in Port Orchard, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "biohazard and trauma cleanup port orchard",
+      "secondary_keywords": [
+        "trauma scene cleanup",
+        "unattended death cleanup",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "biohazard remediation"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/port-orchard-wa/",
+        "/service-areas/port-orchard-wa/fire-damage-restoration/",
+        "/service-areas/port-orchard-wa/mold-remediation/",
+        "/service-areas/auburn-wa/biohazard-cleanup/",
+        "/service-areas/bellevue-wa/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/port-orchard-wa/reconstruction/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Reconstruction Services in Port Orchard, WA | National Restoration Construction",
+      "h1": "Reconstruction Services in Port Orchard",
+      "meta_description": "24/7 reconstruction services in Port Orchard, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "reconstruction services port orchard",
+      "secondary_keywords": [
+        "post-damage reconstruction",
+        "rebuild services",
+        "structural reconstruction",
+        "post-disaster rebuilding",
+        "fire damage reconstruction"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/reconstruction/",
+        "/service-areas/port-orchard-wa/",
+        "/service-areas/port-orchard-wa/fire-damage-restoration/",
+        "/service-areas/port-orchard-wa/mold-remediation/",
+        "/service-areas/auburn-wa/reconstruction/",
+        "/service-areas/bellevue-wa/reconstruction/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/port-orchard-wa/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Port Orchard, WA | National Restoration Construction",
+      "h1": "Renovations, Remodels and General Contracting in Port Orchard",
+      "meta_description": "24/7 renovations, remodels and general contracting in Port Orchard, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "renovations, remodels and general contracting port orchard",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/port-orchard-wa/",
+        "/service-areas/port-orchard-wa/fire-damage-restoration/",
+        "/service-areas/port-orchard-wa/mold-remediation/",
+        "/service-areas/auburn-wa/general-contracting/",
+        "/service-areas/bellevue-wa/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/university-place-wa/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in University Place, WA | National Restoration Construction",
+      "h1": "Water Damage Restoration in University Place",
+      "meta_description": "24/7 water damage restoration in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "water damage restoration university place",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/university-place-wa/",
+        "/service-areas/university-place-wa/fire-damage-restoration/",
+        "/service-areas/university-place-wa/mold-remediation/",
+        "/service-areas/auburn-wa/water-damage-restoration/",
+        "/service-areas/bellevue-wa/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/university-place-wa/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in University Place, WA | National Restoration Construction",
+      "h1": "Flood Damage Restoration in University Place",
+      "meta_description": "24/7 flood damage restoration in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "flood damage restoration university place",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/university-place-wa/",
+        "/service-areas/university-place-wa/fire-damage-restoration/",
+        "/service-areas/university-place-wa/mold-remediation/",
+        "/service-areas/auburn-wa/flood-damage-restoration/",
+        "/service-areas/bellevue-wa/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/university-place-wa/burst-pipe-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Burst Pipe Cleanup and Repair in University Place, WA | National Restoration Construction",
+      "h1": "Burst Pipe Cleanup and Repair in University Place",
+      "meta_description": "24/7 burst pipe cleanup and repair in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "burst pipe cleanup and repair university place",
+      "secondary_keywords": [
+        "burst pipe cleanup",
+        "pipe burst emergency",
+        "pipe break water damage",
+        "water line break",
+        "emergency pipe repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/burst-pipe-repair/",
+        "/service-areas/university-place-wa/",
+        "/service-areas/university-place-wa/fire-damage-restoration/",
+        "/service-areas/university-place-wa/mold-remediation/",
+        "/service-areas/auburn-wa/burst-pipe-repair/",
+        "/service-areas/bellevue-wa/burst-pipe-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/university-place-wa/basement-flooding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Flooding Cleanup in University Place, WA | National Restoration Construction",
+      "h1": "Basement Flooding Cleanup in University Place",
+      "meta_description": "24/7 basement flooding cleanup in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "basement flooding cleanup university place",
+      "secondary_keywords": [
+        "flooded basement cleanup",
+        "basement water removal",
+        "wet basement restoration",
+        "basement water damage",
+        "basement drying"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-flooding-cleanup/",
+        "/service-areas/university-place-wa/",
+        "/service-areas/university-place-wa/fire-damage-restoration/",
+        "/service-areas/university-place-wa/mold-remediation/",
+        "/service-areas/auburn-wa/basement-flooding-cleanup/",
+        "/service-areas/bellevue-wa/basement-flooding-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/university-place-wa/appliance-leak-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Appliance Leak Cleanup in University Place, WA | National Restoration Construction",
+      "h1": "Appliance Leak Cleanup in University Place",
+      "meta_description": "24/7 appliance leak cleanup in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "appliance leak cleanup university place",
+      "secondary_keywords": [
+        "dishwasher leak cleanup",
+        "washing machine flood",
+        "refrigerator leak cleanup",
+        "water heater leak cleanup",
+        "ice maker line leak"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/appliance-leak-cleanup/",
+        "/service-areas/university-place-wa/",
+        "/service-areas/university-place-wa/fire-damage-restoration/",
+        "/service-areas/university-place-wa/mold-remediation/",
+        "/service-areas/auburn-wa/appliance-leak-cleanup/",
+        "/service-areas/bellevue-wa/appliance-leak-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/university-place-wa/frozen-pipe-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Frozen Pipe Restoration in University Place, WA | National Restoration Construction",
+      "h1": "Frozen Pipe Restoration in University Place",
+      "meta_description": "24/7 frozen pipe restoration in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "frozen pipe restoration university place",
+      "secondary_keywords": [
+        "frozen pipe damage",
+        "winter pipe burst cleanup",
+        "thawed pipe water damage",
+        "frozen pipe leak repair",
+        "cold weather pipe damage"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/frozen-pipe-restoration/",
+        "/service-areas/university-place-wa/",
+        "/service-areas/university-place-wa/fire-damage-restoration/",
+        "/service-areas/university-place-wa/mold-remediation/",
+        "/service-areas/auburn-wa/frozen-pipe-restoration/",
+        "/service-areas/bellevue-wa/frozen-pipe-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/university-place-wa/roof-leak-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Roof Leak Cleanup and Repair in University Place, WA | National Restoration Construction",
+      "h1": "Roof Leak Cleanup and Repair in University Place",
+      "meta_description": "24/7 roof leak cleanup and repair in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "roof leak cleanup and repair university place",
+      "secondary_keywords": [
+        "roof leak cleanup",
+        "ceiling water damage",
+        "attic water damage",
+        "roof leak restoration",
+        "interior roof leak damage"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/roof-leak-repair/",
+        "/service-areas/university-place-wa/",
+        "/service-areas/university-place-wa/fire-damage-restoration/",
+        "/service-areas/university-place-wa/mold-remediation/",
+        "/service-areas/auburn-wa/roof-leak-repair/",
+        "/service-areas/bellevue-wa/roof-leak-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/university-place-wa/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in University Place, WA | National Restoration Construction",
+      "h1": "Sewage Cleanup and Sanitization in University Place",
+      "meta_description": "24/7 sewage cleanup and sanitization in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "sewage cleanup and sanitization university place",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/university-place-wa/",
+        "/service-areas/university-place-wa/fire-damage-restoration/",
+        "/service-areas/university-place-wa/mold-remediation/",
+        "/service-areas/auburn-wa/sewage-cleanup/",
+        "/service-areas/bellevue-wa/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/university-place-wa/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in University Place, WA | National Restoration Construction",
+      "h1": "Fire Damage Restoration in University Place",
+      "meta_description": "24/7 fire damage restoration in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "fire damage restoration university place",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/university-place-wa/",
+        "/service-areas/university-place-wa/mold-remediation/",
+        "/service-areas/university-place-wa/water-damage-restoration/",
+        "/service-areas/auburn-wa/fire-damage-restoration/",
+        "/service-areas/bellevue-wa/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/university-place-wa/smoke-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Smoke Damage Restoration in University Place, WA | National Restoration Construction",
+      "h1": "Smoke Damage Restoration in University Place",
+      "meta_description": "24/7 smoke damage restoration in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "smoke damage restoration university place",
+      "secondary_keywords": [
+        "smoke residue cleanup",
+        "smoke damage repair",
+        "post-fire smoke cleanup",
+        "smoke damage restoration services",
+        "wildfire smoke cleanup"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/smoke-damage-restoration/",
+        "/service-areas/university-place-wa/",
+        "/service-areas/university-place-wa/fire-damage-restoration/",
+        "/service-areas/university-place-wa/mold-remediation/",
+        "/service-areas/auburn-wa/smoke-damage-restoration/",
+        "/service-areas/bellevue-wa/smoke-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/university-place-wa/soot-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Soot Removal in University Place, WA | National Restoration Construction",
+      "h1": "Soot Removal in University Place",
+      "meta_description": "24/7 soot removal in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "soot removal university place",
+      "secondary_keywords": [
+        "soot cleaning",
+        "soot residue removal",
+        "post-fire soot cleanup",
+        "soot damage cleanup",
+        "soot wall cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/soot-removal/",
+        "/service-areas/university-place-wa/",
+        "/service-areas/university-place-wa/fire-damage-restoration/",
+        "/service-areas/university-place-wa/mold-remediation/",
+        "/service-areas/auburn-wa/soot-removal/",
+        "/service-areas/bellevue-wa/soot-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/university-place-wa/odor-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Odor Removal and Deodorization in University Place, WA | National Restoration Construction",
+      "h1": "Odor Removal and Deodorization in University Place",
+      "meta_description": "24/7 odor removal and deodorization in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "odor removal and deodorization university place",
+      "secondary_keywords": [
+        "smoke odor removal",
+        "ozone treatment",
+        "hydroxyl deodorization",
+        "thermal fogging",
+        "professional odor elimination"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/odor-removal/",
+        "/service-areas/university-place-wa/",
+        "/service-areas/university-place-wa/fire-damage-restoration/",
+        "/service-areas/university-place-wa/mold-remediation/",
+        "/service-areas/auburn-wa/odor-removal/",
+        "/service-areas/bellevue-wa/odor-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/university-place-wa/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in University Place, WA | National Restoration Construction",
+      "h1": "Mold Remediation in University Place",
+      "meta_description": "24/7 mold remediation in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "mold remediation university place",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/university-place-wa/",
+        "/service-areas/university-place-wa/fire-damage-restoration/",
+        "/service-areas/university-place-wa/water-damage-restoration/",
+        "/service-areas/auburn-wa/mold-remediation/",
+        "/service-areas/bellevue-wa/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/university-place-wa/mold-inspection-testing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Inspection and Testing in University Place, WA | National Restoration Construction",
+      "h1": "Mold Inspection and Testing in University Place",
+      "meta_description": "24/7 mold inspection and testing in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "mold inspection and testing university place",
+      "secondary_keywords": [
+        "mold inspection",
+        "mold testing",
+        "indoor air quality testing",
+        "mold spore testing",
+        "mold assessment"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-inspection-testing/",
+        "/service-areas/university-place-wa/",
+        "/service-areas/university-place-wa/fire-damage-restoration/",
+        "/service-areas/university-place-wa/mold-remediation/",
+        "/service-areas/auburn-wa/mold-inspection-testing/",
+        "/service-areas/bellevue-wa/mold-inspection-testing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/university-place-wa/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in University Place, WA | National Restoration Construction",
+      "h1": "Storm Damage Restoration in University Place",
+      "meta_description": "24/7 storm damage restoration in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "storm damage restoration university place",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/university-place-wa/",
+        "/service-areas/university-place-wa/fire-damage-restoration/",
+        "/service-areas/university-place-wa/mold-remediation/",
+        "/service-areas/auburn-wa/storm-damage-restoration/",
+        "/service-areas/bellevue-wa/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/university-place-wa/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard and Trauma Cleanup in University Place, WA | National Restoration Construction",
+      "h1": "Biohazard and Trauma Cleanup in University Place",
+      "meta_description": "24/7 biohazard and trauma cleanup in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "biohazard and trauma cleanup university place",
+      "secondary_keywords": [
+        "trauma scene cleanup",
+        "unattended death cleanup",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "biohazard remediation"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/university-place-wa/",
+        "/service-areas/university-place-wa/fire-damage-restoration/",
+        "/service-areas/university-place-wa/mold-remediation/",
+        "/service-areas/auburn-wa/biohazard-cleanup/",
+        "/service-areas/bellevue-wa/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/university-place-wa/reconstruction/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Reconstruction Services in University Place, WA | National Restoration Construction",
+      "h1": "Reconstruction Services in University Place",
+      "meta_description": "24/7 reconstruction services in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "reconstruction services university place",
+      "secondary_keywords": [
+        "post-damage reconstruction",
+        "rebuild services",
+        "structural reconstruction",
+        "post-disaster rebuilding",
+        "fire damage reconstruction"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/reconstruction/",
+        "/service-areas/university-place-wa/",
+        "/service-areas/university-place-wa/fire-damage-restoration/",
+        "/service-areas/university-place-wa/mold-remediation/",
+        "/service-areas/auburn-wa/reconstruction/",
+        "/service-areas/bellevue-wa/reconstruction/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/university-place-wa/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in University Place, WA | National Restoration Construction",
+      "h1": "Renovations, Remodels and General Contracting in University Place",
+      "meta_description": "24/7 renovations, remodels and general contracting in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "renovations, remodels and general contracting university place",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/university-place-wa/",
+        "/service-areas/university-place-wa/fire-damage-restoration/",
+        "/service-areas/university-place-wa/mold-remediation/",
+        "/service-areas/auburn-wa/general-contracting/",
+        "/service-areas/bellevue-wa/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/blog/what-to-do-first-24-hours-water-damage/",
       "archetype": "blog-post",
       "vars_keys": [
@@ -9775,8 +13211,46 @@
         "/blog/",
         "/services/mold-remediation/",
         "/blog/choosing-a-restoration-company/",
-        "/blog/black-mold-vs-regular-mold/",
-        "/blog/mold-after-water-damage/"
+        "/blog/how-to-test-for-mold/",
+        "/blog/black-mold-vs-regular-mold/"
+      ]
+    },
+    {
+      "url_path": "/blog/how-to-test-for-mold/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "How To Test for Mold in Your Home (DIY Kits vs a Pro Inspection)",
+      "h1": "How To Test for Mold in Your Home (DIY Kits vs a Pro Inspection)",
+      "meta_description": "",
+      "primary_keyword": "how to test for mold in your home diy kits vs a pro inspection",
+      "secondary_keywords": [
+        "mold remediation",
+        "mold inspection and testing"
+      ],
+      "search_intent": "informational_health",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/mold-remediation/",
+        "/services/mold-inspection-testing/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/signs-of-hidden-mold/",
+        "/blog/black-mold-vs-regular-mold/"
       ]
     },
     {
@@ -9888,8 +13362,8 @@
         "/blog/",
         "/services/mold-remediation/",
         "/blog/choosing-a-restoration-company/",
-        "/blog/signs-of-hidden-mold/",
-        "/blog/mold-after-water-damage/"
+        "/blog/how-to-test-for-mold/",
+        "/blog/signs-of-hidden-mold/"
       ]
     },
     {
@@ -10034,39 +13508,6 @@
         "/services/smoke-damage-restoration/",
         "/blog/choosing-a-restoration-company/",
         "/blog/fire-damage-restoration-process/"
-      ]
-    },
-    {
-      "url_path": "/blog/sewage-backup-health-risks/",
-      "archetype": "blog-post",
-      "vars_keys": [
-        "post"
-      ],
-      "title": "Why You Can't DIY Sewage Backup: The Health Risks Nobody Warns You About",
-      "h1": "Why You Can't DIY Sewage Backup: The Health Risks Nobody Warns You About",
-      "meta_description": "",
-      "primary_keyword": "why you cant diy sewage backup the health risks nobody warns you about",
-      "secondary_keywords": [
-        "sewage cleanup and sanitization"
-      ],
-      "search_intent": "informational_health",
-      "target_word_count": 1400,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "blog-posting",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.2,
-      "status": "planned",
-      "internal_links_out": [
-        "/blog/",
-        "/services/sewage-cleanup/"
       ]
     },
     {

@@ -1,22 +1,22 @@
 # Site Plan Report — National Restoration Construction
 
-- Template: `restoration` v0.1.0
-- Generated: 2026-05-16T23:53:11.777416+00:00
+- Template: `restoration` v0.2.0
+- Generated: 2026-07-04T19:40:56.341456+00:00
 - Domain: `narestco.com`
-- Services selected: 18 of 33 catalog entries
-- Service areas: 10
+- Services selected: 18 of 45 catalog entries
+- Service areas: 14
 - Cross-product enabled: True
-- Total URLs: **229**
-- Total internal links: 1859 (avg 8.1 per page)
+- Total URLs: **305**
+- Total internal links: 2503 (avg 8.2 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 180 |
+| `service-area-service` | 252 |
 | `service-landing` | 18 |
+| `service-area` | 14 |
 | `blog-post` | 12 |
-| `service-area` | 10 |
 | `legal` | 3 |
 | `home` | 1 |
 | `services-hub` | 1 |
@@ -58,6 +58,10 @@
 - `auburn-wa` — Auburn, WA
 - `kirkland-wa` — Kirkland, WA
 - `redmond-wa` — Redmond, WA
+- `gig-harbor-wa` — Gig Harbor, WA
+- `bremerton-wa` — Bremerton, WA
+- `port-orchard-wa` — Port Orchard, WA
+- `university-place-wa` — University Place, WA
 
 ## Top 10 priority pages
 
