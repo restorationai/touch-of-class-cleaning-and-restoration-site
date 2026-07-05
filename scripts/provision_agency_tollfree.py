@@ -59,6 +59,11 @@ TOLLFREE_PREFIXES = ["833", "844", "855", "866", "877", "888"]
 # --- Toll-Free Verification legal data (Restoration AI LLC, IRS CP575A) -----
 BUSINESS = {
     "BusinessName": "Restoration AI LLC",
+    "BusinessType": "PRIVATE_PROFIT",
+    "BusinessRegistrationNumber": "41-4181094",
+    "BusinessRegistrationIdentifier": "EIN",
+    "BusinessRegistrationAuthority": "EIN",
+    "BusinessRegistrationCountry": "US",
     "BusinessWebsite": "https://restorationai.io",
     "BusinessStreetAddress": "7465 Bella Vista Road",
     "BusinessCity": "Atascadero",
@@ -74,7 +79,7 @@ BUSINESS = {
 }
 BUSINESS_EIN = "41-4181094"  # noted for records; Twilio TF verification does not take EIN directly
 USE_CASE = {
-    "UseCaseCategories": "Account Notification",
+    "UseCaseCategories": "ACCOUNT_NOTIFICATIONS",
     "UseCaseSummary": (
         "Transactional lead notifications to our business clients: when a visitor "
         "submits a free-estimate request on the client's website, we alert the "
