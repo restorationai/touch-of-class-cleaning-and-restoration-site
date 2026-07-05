@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>{{TITLE}}</title>
+<style>
+  :root{
+    --ink:#0f172a; --ink2:#334155; --mut:#64748b; --line:#e2e8f0;
+    --bg:#f6f7fb; --card:#ffffff; --accent:#4f46e5; --accent2:#4338ca;
+    --good:#16a34a; --warn:#d97706; --bad:#dc2626;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+       background:var(--bg);color:var(--ink);line-height:1.6;font-size:16px}
+  .wrap{max-width:780px;margin:0 auto;padding:0 18px 60px}
+  a{color:var(--accent)}
+  /* hero */
+  .hero{background:linear-gradient(160deg,#0f172a 0%,#1e293b 70%,#312e81 100%);color:#fff;
+        padding:44px 18px 52px;text-align:center}
+  .hero .brand{font-size:12px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#a5b4fc;margin-bottom:18px}
+  .hero h1{font-size:clamp(24px,5.5vw,34px);font-weight:800;letter-spacing:-.02em;margin-bottom:6px}
+  .hero .dom{color:#94a3b8;font-size:14px;margin-bottom:26px;word-break:break-all}
+  .gradebox{display:inline-flex;align-items:center;gap:16px;background:rgba(255,255,255,.06);
+            border:1px solid rgba(255,255,255,.14);border-radius:18px;padding:16px 22px;text-align:left}
+  .grade{width:76px;height:76px;border-radius:16px;display:flex;align-items:center;justify-content:center;
+         font-size:42px;font-weight:900;color:#fff;flex:0 0 auto}
+  .grade.g-good{background:var(--good)} .grade.g-warn{background:var(--warn)} .grade.g-bad{background:var(--bad)}
+  .gradebox .lbl{font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#a5b4fc}
+  .gradebox .verdict{font-size:15px;font-weight:600;color:#e2e8f0;max-width:420px}
+  .hero .date{margin-top:22px;font-size:12px;color:#64748b}
+  /* sections */
+  section{background:var(--card);border:1px solid var(--line);border-radius:16px;
+          padding:26px 22px;margin-top:22px;box-shadow:0 1px 3px rgba(15,23,42,.05)}
+  section:first-of-type{margin-top:-26px}
+  .kicker{font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);margin-bottom:8px}
+  section h2{font-size:20px;font-weight:800;letter-spacing:-.01em;margin-bottom:10px}
+  section p{color:var(--ink2);margin-bottom:12px}
+  section p:last-child{margin-bottom:0}
+  .note{font-size:13px;color:var(--mut)}
+  /* tables */
+  .tblwrap{overflow-x:auto;margin:14px 0 4px;-webkit-overflow-scrolling:touch}
+  table{width:100%;border-collapse:collapse;font-size:14px;min-width:460px}
+  th{font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--mut);
+     text-align:left;padding:8px 10px;border-bottom:2px solid var(--line)}
+  td{padding:10px;border-bottom:1px solid var(--line);color:var(--ink2)}
+  tr:last-child td{border-bottom:none}
+  .pos{font-weight:800}
+  .pos.p-good{color:var(--good)} .pos.p-warn{color:var(--warn)} .pos.p-bad{color:var(--bad)}
+  .you td{background:#eef2ff}
+  /* city cards */
+  .citycard{border:1px solid var(--line);border-radius:12px;padding:16px;margin-top:12px}
+  .citycard h3{font-size:16px;font-weight:800;margin-bottom:4px}
+  .citycard .head{font-size:13px;font-weight:700;color:var(--accent2);margin-bottom:6px}
+  .citycard p{font-size:14px;margin-bottom:0}
+  /* heatmaps */
+  .maps{display:grid;grid-template-columns:1fr;gap:16px;margin-top:14px}
+  @media(min-width:600px){.maps{grid-template-columns:1fr 1fr}}
+  .map figure{margin:0}
+  .map img{width:100%;border-radius:12px;border:1px solid var(--line);display:block}
+  .map figcaption{font-size:13px;color:var(--mut);margin-top:6px;text-align:center}
+  .legend{display:flex;flex-wrap:wrap;gap:14px;font-size:12px;color:var(--mut);margin-top:10px;justify-content:center}
+  .legend b{display:inline-block;width:11px;height:11px;border-radius:50%;margin-right:5px;vertical-align:-1px}
+  /* quote */
+  .aiquote{background:#0f172a;color:#e2e8f0;border-radius:12px;padding:18px;font-size:14px;margin:14px 0}
+  .aiquote .q{font-style:italic}
+  .aiquote .src{margin-top:8px;font-size:12px;color:#94a3b8}
+  /* money */
+  .money{background:linear-gradient(140deg,#312e81,#4f46e5);color:#fff;border-radius:12px;
+         padding:22px;text-align:center;margin:14px 0}
+  .money .amt{font-size:clamp(26px,6vw,36px);font-weight:900;letter-spacing:-.02em}
+  .money .per{font-size:13px;color:#c7d2fe;margin-top:2px}
+  /* plan */
+  .step{display:flex;gap:14px;margin-top:16px}
+  .step .n{width:32px;height:32px;border-radius:50%;background:var(--accent);color:#fff;font-weight:800;
+           display:flex;align-items:center;justify-content:center;flex:0 0 auto;font-size:15px}
+  .step h3{font-size:16px;font-weight:800;margin-bottom:3px}
+  .step p{font-size:14px;margin-bottom:6px}
+  .why{background:#f1f5f9;border-left:3px solid var(--accent);border-radius:0 8px 8px 0;
+       padding:10px 12px;font-size:13px;color:var(--ink2)}
+  .why b{color:var(--ink)}
+  /* CTA */
+  .cta{background:#0f172a;border-radius:16px;color:#fff;text-align:center;padding:36px 22px;margin-top:26px}
+  .cta h2{font-size:22px;font-weight:800;margin-bottom:8px}
+  .cta p{color:#94a3b8;font-size:14px;margin-bottom:20px}
+  .btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;font-weight:800;
+       font-size:16px;padding:14px 30px;border-radius:12px}
+  .btn:active{background:var(--accent2)}
+  footer{margin-top:30px;text-align:center;font-size:12px;color:var(--mut);padding:0 12px}
+  footer p{margin-bottom:8px}
+</style>
+</head>
+<body>
+  <div class="hero">
+    <div class="brand">Rank AI &middot; Free Visibility Audit</div>
+    <h1>{{BUSINESS_NAME}}</h1>
+    <div class="dom">{{DOMAIN}}</div>
+    <div class="gradebox">
+      <div class="grade {{GRADE_CLASS}}">{{GRADE}}</div>
+      <div>
+        <div class="lbl">Online visibility grade</div>
+        <div class="verdict">{{VERDICT}}</div>
+      </div>
+    </div>
+    <div class="date">Generated {{DATE}} &middot; Live data from Google Search, Google Maps &amp; AI assistants</div>
+  </div>
+  <div class="wrap">
+{{SECTIONS}}
+    <div class="cta">
+      <h2>Want us to fix this for you?</h2>
+      <p>Book a free 20-minute strategy call. We'll walk through this report and show exactly how we'd get {{BUSINESS_NAME}} recommended by Google and AI search.</p>
+      <a class="btn" href="{{CTA_URL}}">Book my free strategy call</a>
+    </div>
+    <footer>
+      <p>{{METHODOLOGY}}</p>
+      <p>This audit was generated from live public data on {{DATE}}. Rankings and AI answers vary by location, device and time; figures shown are estimates, not guarantees.</p>
+      <p>&copy; {{YEAR}} Rank AI — by Restoration AI &middot; <a href="mailto:contact@restorationai.io">contact@restorationai.io</a></p>
+    </footer>
+  </div>
+</body>
+</html>

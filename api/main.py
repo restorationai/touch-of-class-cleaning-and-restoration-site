@@ -19,9 +19,11 @@ ROOT = Path(__file__).parent.parent
 load_dotenv(ROOT / ".env")
 sys.path.insert(0, str(ROOT / "scripts"))  # so we can import the geogrid pipeline
 
+import re
+import threading
 from datetime import datetime, timezone
 
-from fastapi import FastAPI, HTTPException, Depends
+from fastapi import FastAPI, HTTPException, Depends, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 from pydantic import BaseModel
@@ -37,7 +39,12 @@ app = FastAPI(title="Rank AI API", version="1.0.0")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://app.restorationai.io", "http://localhost:5173"],
+    allow_origins=[
+        "https://app.restorationai.io",
+        "https://rank.restorationai.io",   # free-audit lead form
+        "http://localhost:5173",
+        "http://localhost:4321",           # sales page astro dev
+    ],
     allow_methods=["GET", "POST"],
     allow_headers=["Authorization", "Content-Type"],
 )
@@ -234,6 +241,111 @@ def geogrid_scan(req: GeogridScanRequest):
         "cost_usd":     row.get("cost_usd"),
         "scanned_at":   row.get("scanned_at"),
     }
+
+
+# ---------------------------------------------------------------------------
+# Free-audit lead magnet (rank.restorationai.io) — PUBLIC endpoints.
+# Jobs are tracked in marketing_jobs (type='lead_audit', company_id NULL);
+# rate limits are derived from the same table so they survive restarts.
+# ---------------------------------------------------------------------------
+
+LEAD_AUDIT_DAILY_CAP = 10       # global per UTC day
+LEAD_AUDIT_IP_CAP = 3           # per IP per UTC day
+LEAD_AUDIT_DOMAIN_CAP = 2       # per target domain per UTC day
+
+EMAIL_RE = re.compile(r"^[^@\s]+@[^@\s]+\.[a-zA-Z]{2,}$")
+
+
+class LeadAuditRequest(BaseModel):
+    website: str
+    name: str = ""
+    email: str
+    phone: str
+
+
+def _lead_norm_domain(url: str) -> str:
+    d = re.sub(r"^https?://", "", (url or "").strip().lower()).split("/")[0].split("?")[0]
+    return d.replace("www.", "")
+
+
+def _lead_count_today(client, col_json: str = None, value: str = None) -> int:
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%dT00:00:00+00:00")
+    q = (client.table("marketing_jobs").select("id", count="exact")
+         .eq("type", "lead_audit").gte("queued_at", today))
+    if col_json:
+        q = q.eq(f"params->>{col_json}", value)
+    return q.execute().count or 0
+
+
+def _run_lead_audit_job(job_id: str, req: "LeadAuditRequest"):
+    client = sb()
+    client.table("marketing_jobs").update(
+        {"status": "running", "started_at": datetime.now(timezone.utc).isoformat()}
+    ).eq("id", job_id).execute()
+    try:
+        import lead_audit  # scripts/ is on sys.path (see header)
+        res = lead_audit.run_audit(req.website, req.name, req.email, req.phone,
+                                   audit_id=job_id.replace("-", "")[:12])
+        client.table("marketing_jobs").update({
+            "status": "completed",
+            "completed_at": datetime.now(timezone.utc).isoformat(),
+            "result": res,
+        }).eq("id", job_id).execute()
+    except Exception as e:  # noqa: BLE001 — job must always terminate with a status
+        client.table("marketing_jobs").update({
+            "status": "failed",
+            "completed_at": datetime.now(timezone.utc).isoformat(),
+            "error": str(e)[:500],
+        }).eq("id", job_id).execute()
+
+
+@app.post("/lead-audit")
+def create_lead_audit(req: LeadAuditRequest, request: Request):
+    """Public: queue a free visibility audit for a prospect's website."""
+    domain = _lead_norm_domain(req.website)
+    if not re.match(r"^[a-z0-9.-]+\.[a-z]{2,}$", domain):
+        raise HTTPException(status_code=400, detail="Please enter a valid website, e.g. yourcompany.com")
+    if not EMAIL_RE.match(req.email or ""):
+        raise HTTPException(status_code=400, detail="Please enter a valid email address.")
+    if len(re.sub(r"\D", "", req.phone or "")) < 10:
+        raise HTTPException(status_code=400, detail="Please enter a valid phone number.")
+
+    ip = (request.headers.get("x-forwarded-for") or (request.client.host if request.client else "") or "").split(",")[0].strip()
+    client = sb()
+    if _lead_count_today(client) >= LEAD_AUDIT_DAILY_CAP:
+        raise HTTPException(status_code=429, detail="We've hit today's audit limit — please try again tomorrow, or email contact@restorationai.io.")
+    if ip and _lead_count_today(client, "ip", ip) >= LEAD_AUDIT_IP_CAP:
+        raise HTTPException(status_code=429, detail="Too many audits from this connection today.")
+    if _lead_count_today(client, "domain", domain) >= LEAD_AUDIT_DOMAIN_CAP:
+        raise HTTPException(status_code=429, detail="We've already run audits for this website today — check your inbox.")
+
+    row = client.table("marketing_jobs").insert({
+        "type": "lead_audit", "status": "queued", "triggered_by": "rank.restorationai.io",
+        "params": {"domain": domain, "name": req.name, "email": req.email,
+                   "phone": req.phone, "ip": ip},
+    }).execute()
+    job_id = row.data[0]["id"]
+
+    threading.Thread(target=_run_lead_audit_job, args=(job_id, req), daemon=True).start()
+    return {"audit_id": job_id, "status": "queued",
+            "note": "Your audit is running — it takes about 5 minutes. We'll email the report to you. "
+                    "You can also poll GET /lead-audit/{audit_id}."}
+
+
+@app.get("/lead-audit/{audit_id}")
+def get_lead_audit(audit_id: str):
+    """Public: audit status. Returns only status + report URL (no contact info)."""
+    rows = (sb().table("marketing_jobs")
+            .select("id,type,status,result,queued_at,completed_at")
+            .eq("id", audit_id).eq("type", "lead_audit").execute())
+    if not rows.data:
+        raise HTTPException(status_code=404, detail="Audit not found")
+    j = rows.data[0]
+    result = j.get("result") or {}
+    return {"audit_id": j["id"], "status": j["status"],
+            "report_url": result.get("report_url"),
+            "grade": result.get("grade"),
+            "queued_at": j["queued_at"], "completed_at": j["completed_at"]}
 
 
 @app.get("/jobs", dependencies=[Depends(auth)])
