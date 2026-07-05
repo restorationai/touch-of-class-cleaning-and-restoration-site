@@ -139,6 +139,15 @@ const ctx: PageSchemaContext = {
       </>
     )}
       <Analytics />
+      {/* Keep the Restoration AI chat FAB (#rai-widget-wrapper, max z-index) clear of
+        the mobile sticky call bar - it otherwise overlaps the bar's right side. */}
+    <style is:global>
+      @media (max-width: 767px) {
+        #rai-widget-wrapper {
+          bottom: 76px !important;
+        }
+      }
+    </style>
   </head>
   <body class="min-h-screen flex flex-col">
     <div class="hidden md:block bg-primary-600 text-white text-xs md:text-sm font-bold text-center py-2 px-4 tracking-wider">

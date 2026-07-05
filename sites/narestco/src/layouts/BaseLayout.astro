@@ -144,6 +144,15 @@ const ctx: PageSchemaContext = {
     <script is:inline src="https://app.restorationai.io/widget-main.js" async></script>
     <!-- End Restoration AI Chat Widget -->
       <Analytics />
+      {/* Keep the Restoration AI chat FAB (#rai-widget-wrapper, max z-index) clear of
+        the mobile sticky call bar - it otherwise overlaps the bar's right side. */}
+    <style is:global>
+      @media (max-width: 767px) {
+        #rai-widget-wrapper {
+          bottom: 76px !important;
+        }
+      }
+    </style>
   </head>
   <body class="min-h-screen flex flex-col">
     <!-- Top Announcement Bar -->
