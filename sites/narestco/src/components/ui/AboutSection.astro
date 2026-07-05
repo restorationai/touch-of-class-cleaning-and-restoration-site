@@ -1,5 +1,6 @@
 ---
 import { brand } from "~/lib/brand";
+import { srcsetFor } from "~/lib/images";
 
 interface Props {
   imageSrc?: string;
@@ -10,6 +11,9 @@ const { imageSrc = brand.logoUrl, imageAlt = `${brand.displayName} Logo` } = Ast
 
 // Determine if it's the logo or a photo based on URL or path. Assuming if it's not the logo it's a photo.
 const isLogo = imageSrc === brand.logoUrl;
+
+// Responsive variants for the team/photo case only — logo rendering untouched.
+const img = srcsetFor(isLogo ? "" : imageSrc);
 ---
 
 <section class="bg-dark py-24 text-white overflow-hidden relative">
@@ -29,6 +33,10 @@ const isLogo = imageSrc === brand.logoUrl;
       <div class="relative flex justify-center items-center">
          <img
            src={imageSrc}
+           srcset={img.srcset}
+           sizes={img.srcset ? "(min-width:1024px) 50vw, 100vw" : undefined}
+           width={img.width}
+           height={img.height}
            alt={imageAlt}
            loading="lazy"
            decoding="async"

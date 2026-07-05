@@ -11,7 +11,7 @@ import ServicesStrip from "~/components/ui/ServicesStrip.astro";
 import ProcessSection from "~/components/ui/ProcessSection.astro";
 import GallerySection from "~/components/ui/GallerySection.astro";
 import ServiceAreasSection from "~/components/ui/ServiceAreasSection.astro";
-import ReviewsWidget from "~/components/ui/ReviewsWidget.astro";
+import ReviewsSection from "~/components/ui/ReviewsSection.astro";
 import { brand } from "~/lib/brand";
 
 const entry = await getEntry("pages", "home");
@@ -62,7 +62,7 @@ const services = targetSlugs
 
   <GallerySection />
 
-  <ReviewsWidget />
+  <ReviewsSection />
 
   <CtaBanner heading="24/7 Emergency Response" subheading="We answer the phone day and night. Insurance billing accepted." />
 

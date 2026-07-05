@@ -1,0 +1,131 @@
+{
+  "/images/gallery/img1.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/gallery/img2.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/gallery/img3.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/gallery/img4.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/gallery/img5.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/gallery/img6.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/hero-bg.webp": {
+    "width": 1728,
+    "height": 1153,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/biohazard-cleanup.webp": {
+    "width": 1024,
+    "height": 1024,
+    "variants": [
+      480,
+      768
+    ]
+  },
+  "/images/services/fire-damage-restoration.webp": {
+    "width": 1024,
+    "height": 1024,
+    "variants": [
+      480,
+      768
+    ]
+  },
+  "/images/services/general-contracting.webp": {
+    "width": 1024,
+    "height": 1024,
+    "variants": [
+      480,
+      768
+    ]
+  },
+  "/images/services/mold-remediation.webp": {
+    "width": 1024,
+    "height": 1024,
+    "variants": [
+      480,
+      768
+    ]
+  },
+  "/images/services/storm-damage-restoration.webp": {
+    "width": 1024,
+    "height": 1024,
+    "variants": [
+      480,
+      768
+    ]
+  },
+  "/images/services/water-damage-restoration.webp": {
+    "width": 1024,
+    "height": 1024,
+    "variants": [
+      480,
+      768
+    ]
+  },
+  "/images/team.webp": {
+    "width": 1728,
+    "height": 1153,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "https://images.narestco.com/brand/hero.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  }
+}

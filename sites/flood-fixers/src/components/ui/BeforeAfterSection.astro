@@ -14,6 +14,7 @@
  * Never show a before/after for a service the client does not perform.
  */
 import { ArrowRight } from "@lucide/astro";
+import { srcsetFor } from "~/lib/images";
 
 export interface BeforeAfterPair {
   label: string;
@@ -56,7 +57,7 @@ const {
         {ctaHref && (
           <a
             href={ctaHref}
-            class="bg-white text-dark font-black uppercase px-8 py-4 text-base flex items-center justify-center gap-3 hover:bg-primary-600 hover:text-white transition-all rounded-sm shadow-xl"
+            class="bg-white text-dark font-black uppercase px-8 py-4 text-base flex items-center justify-center gap-3 hover:bg-accent-600 hover:text-white transition-all rounded-sm shadow-xl"
           >
             {ctaLabel} <ArrowRight size={20} />
           </a>
@@ -65,15 +66,23 @@ const {
 
       {/* 2-column slider grid */}
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-        {pairs.map((pair, i) => (
+        {pairs.map((pair, i) => {
+          // Sliders are absolutely-positioned full-bleed inside an aspect-video
+          // box, so srcset/sizes only — the container controls layout size.
+          const beforeImg = srcsetFor(pair.beforeSrc);
+          const afterImg = srcsetFor(pair.afterSrc);
+          const sizes = "(min-width:768px) 50vw, 100vw";
+          return (
           <div data-comparison-item>
             <p class="text-sm font-black uppercase tracking-wider text-dark/60 mb-2">{pair.label}</p>
 
-            <div class="relative w-full aspect-video rounded-sm overflow-hidden shadow-2xl select-none border-4 border-dark/10 group transition-all duration-500 hover:border-primary-500">
+            <div class="relative w-full aspect-video rounded-sm overflow-hidden shadow-2xl select-none border-4 border-dark/10 group transition-all duration-500 hover:border-accent-500">
 
               {/* Base layer: BEFORE */}
               <img
                 src={pair.beforeSrc}
+                srcset={beforeImg.srcset}
+                sizes={beforeImg.srcset ? sizes : undefined}
                 alt={pair.beforeAlt}
                 class="absolute inset-0 w-full h-full object-cover"
                 loading="lazy"
@@ -91,12 +100,14 @@ const {
               >
                 <img
                   src={pair.afterSrc}
+                  srcset={afterImg.srcset}
+                  sizes={afterImg.srcset ? sizes : undefined}
                   alt={pair.afterAlt}
                   class="absolute inset-0 w-full h-full object-cover"
                   loading="lazy"
                   decoding="async"
                 />
-                <span class="absolute top-3 right-3 bg-primary-600/90 text-white text-xs font-black uppercase tracking-widest px-2.5 py-1 rounded backdrop-blur-sm pointer-events-none">
+                <span class="absolute top-3 right-3 bg-accent-600/90 text-white text-xs font-black uppercase tracking-widest px-2.5 py-1 rounded backdrop-blur-sm pointer-events-none">
                   After
                 </span>
               </div>
@@ -128,7 +139,8 @@ const {
               />
             </div>
           </div>
-        ))}
+          );
+        })}
       </div>
 
     </div>

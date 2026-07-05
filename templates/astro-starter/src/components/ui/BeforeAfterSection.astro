@@ -14,6 +14,7 @@
  * Never show a before/after for a service the client does not perform.
  */
 import { ArrowRight } from "@lucide/astro";
+import { srcsetFor } from "~/lib/images";
 
 export interface BeforeAfterPair {
   label: string;
@@ -65,7 +66,13 @@ const {
 
       {/* 2-column slider grid */}
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-        {pairs.map((pair, i) => (
+        {pairs.map((pair, i) => {
+          // Sliders are absolutely-positioned full-bleed inside an aspect-video
+          // box, so srcset/sizes only — the container controls layout size.
+          const beforeImg = srcsetFor(pair.beforeSrc);
+          const afterImg = srcsetFor(pair.afterSrc);
+          const sizes = "(min-width:768px) 50vw, 100vw";
+          return (
           <div data-comparison-item>
             <p class="text-sm font-black uppercase tracking-wider text-white/60 mb-2">{pair.label}</p>
 
@@ -74,6 +81,8 @@ const {
               {/* Base layer: BEFORE */}
               <img
                 src={pair.beforeSrc}
+                srcset={beforeImg.srcset}
+                sizes={beforeImg.srcset ? sizes : undefined}
                 alt={pair.beforeAlt}
                 class="absolute inset-0 w-full h-full object-cover"
                 loading="lazy"
@@ -91,6 +100,8 @@ const {
               >
                 <img
                   src={pair.afterSrc}
+                  srcset={afterImg.srcset}
+                  sizes={afterImg.srcset ? sizes : undefined}
                   alt={pair.afterAlt}
                   class="absolute inset-0 w-full h-full object-cover"
                   loading="lazy"
@@ -128,7 +139,8 @@ const {
               />
             </div>
           </div>
-        ))}
+          );
+        })}
       </div>
 
     </div>

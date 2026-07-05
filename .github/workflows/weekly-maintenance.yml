@@ -41,6 +41,21 @@ jobs:
           git config user.email "ops@restorationai.io"
           git config user.name "Rank AI Bot"
 
+      - name: Sync GBP ratings + review snippets into brand.ts (before content run — freshened numbers ride each content deploy)
+        env:
+          SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY:  ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          python3 scripts/sync_brand_reviews.py --all || echo "Review sync failed (non-fatal — sites keep last-synced ratings)."
+          # Commit now: the content step's sync-deploy pushes the subtree from
+          # committed HEAD, so uncommitted brand.ts edits would not ride along.
+          git add sites/*/src/lib/brand.ts sites/*/public/llms.txt 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "Review sync: no rating/review changes."
+          else
+            git commit -m "chore: sync GBP ratings + review snippets [automated]"
+          fi
+
       - name: Run due systems (S1-S4 for all active clients)
         env:
           ANTHROPIC_API_KEY:            ${{ secrets.ANTHROPIC_API_KEY }}

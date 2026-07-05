@@ -1,6 +1,7 @@
 ---
 import { ArrowRightCircle } from '@lucide/astro';
 import { brand } from '~/lib/brand';
+import { srcsetFor } from '~/lib/images';
 import type { CollectionEntry } from 'astro:content';
 
 type Props = {
@@ -28,6 +29,7 @@ const { services } = Astro.props;
       {services.map((s) => {
         // Fallback to brand hero image if no service hero is defined
         const imageUrl = s.data.hero || `/images/services/${s.data.service_slug}.webp`;
+        const img = srcsetFor(imageUrl);
         
         return (
           <a 
@@ -37,6 +39,10 @@ const { services } = Astro.props;
             {/* Photo */}
             <img
               src={imageUrl}
+              srcset={img.srcset}
+              sizes={img.srcset ? "(min-width:1024px) 33vw, (min-width:768px) 50vw, 100vw" : undefined}
+              width={img.width}
+              height={img.height}
               alt={s.data.service_display}
               loading="lazy"
               decoding="async"

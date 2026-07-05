@@ -1,6 +1,7 @@
 ---
 import { ArrowRight } from '@lucide/astro';
 import { brand } from '~/lib/brand';
+import { srcsetFor } from '~/lib/images';
 
 const photos = [
   { src: "/images/gallery/img1.webp", alt: `${brand.displayName} project photo 1` },
@@ -31,18 +32,25 @@ const photos = [
     </div>
 
     <div class="columns-1 sm:columns-2 lg:columns-3 gap-6 space-y-6">
-      {photos.map((photo, i) => (
+      {photos.map((photo, i) => {
+        const img = srcsetFor(photo.src);
+        return (
         <div class="break-inside-avoid overflow-hidden rounded-sm border-4 border-white/10 shadow-2xl group transition-all duration-500 hover:border-primary-500">
           <img
             src={photo.src}
+            srcset={img.srcset}
+            sizes={img.srcset ? "(min-width:1024px) 33vw, (min-width:640px) 50vw, 100vw" : undefined}
+            width={img.width}
+            height={img.height}
             alt={photo.alt}
             loading="lazy"
             decoding="async"
-            class="w-full h-auto transition-all duration-700 transform group-hover:scale-105" 
+            class="w-full h-auto transition-all duration-700 transform group-hover:scale-105"
             referrerpolicy="no-referrer"
           />
         </div>
-      ))}
+        );
+      })}
     </div>
   </div>
 </section>

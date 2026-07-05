@@ -3,6 +3,7 @@
 // (branding/{cid}/job-photos), pulled in at build time. Renders nothing if there
 // are no photos yet, so it never shows an empty section.
 import { brand } from "~/lib/brand";
+import { srcsetFor } from "~/lib/images";
 
 const photos = (brand.jobPhotos || []).slice(0, 12);
 ---
@@ -15,17 +16,24 @@ const photos = (brand.jobPhotos || []).slice(0, 12);
         <h2>Real jobs from our {brand.primaryCity} crews</h2>
       </div>
       <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4">
-        {photos.map((src) => (
-          <div class="relative aspect-square rounded-xl overflow-hidden border border-white/10 shadow-lg bg-white/5">
-            <img
-              src={src}
-              alt={`${brand.displayName} — recent ${brand.primaryCity} restoration job`}
-              class="w-full h-full object-cover"
-              loading="lazy"
-              decoding="async"
-            />
-          </div>
-        ))}
+        {photos.map((src) => {
+          const img = srcsetFor(src);
+          return (
+            <div class="relative aspect-square rounded-xl overflow-hidden border border-white/10 shadow-lg bg-white/5">
+              <img
+                src={src}
+                srcset={img.srcset}
+                sizes={img.srcset ? "(min-width:1024px) 25vw, (min-width:640px) 33vw, 50vw" : undefined}
+                width={img.width}
+                height={img.height}
+                alt={`${brand.displayName} — recent ${brand.primaryCity} restoration job`}
+                class="w-full h-full object-cover"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+          );
+        })}
       </div>
     </div>
   </section>

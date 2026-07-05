@@ -25,8 +25,8 @@ const areas = allAreas.sort((a, b) => {
      <div class="md:w-1/2 grid grid-cols-2 sm:grid-cols-3 gap-y-8 gap-x-6">
         {areas.map((area) => (
           <a href={`/service-areas/${area.data.area_slug}/`} class="flex items-center gap-3 text-lg font-black uppercase tracking-[0.05em] group">
-            <MapPin size={24} class="text-primary-500 group-hover:scale-125 transition-transform duration-300 shrink-0" />
-            <span class="group-hover:text-primary-500 transition-colors leading-tight">{area.data.city}</span>
+            <MapPin size={24} class="text-accent-500 group-hover:scale-125 transition-transform duration-300 shrink-0" />
+            <span class="group-hover:text-accent-600 transition-colors leading-tight">{area.data.city}</span>
           </a>
         ))}
      </div>

@@ -1,6 +1,7 @@
 ---
 import { ArrowRightCircle } from '@lucide/astro';
 import { brand } from '~/lib/brand';
+import { srcsetFor } from '~/lib/images';
 import type { CollectionEntry } from 'astro:content';
 
 type Props = {
@@ -28,7 +29,8 @@ const { services } = Astro.props;
       {services.map((s) => {
         // Fallback to brand hero image if no service hero is defined
         const imageUrl = s.data.hero || `${brand.imagesBase}/brand/hero.webp`;
-        
+        const img = srcsetFor(imageUrl);
+
         return (
           <a 
             href={`/services/${s.data.service_slug}/`}
@@ -37,18 +39,22 @@ const { services } = Astro.props;
             {/* Photo */}
             <img
               src={imageUrl}
+              srcset={img.srcset}
+              sizes={img.srcset ? "(min-width:1024px) 33vw, (min-width:768px) 50vw, 100vw" : undefined}
+              width={img.width}
+              height={img.height}
               alt={s.data.service_display}
               loading="lazy"
               decoding="async"
-              class="w-full h-full object-cover brightness-110 saturate-110 transition-transform duration-700 group-hover:scale-110" 
+              class="w-full h-full object-cover brightness-110 saturate-110 transition-transform duration-700 group-hover:scale-110"
             />
 
             
             {/* Bottom banner containing the text box */}
             <div class="absolute bottom-6 left-6 right-6">
-              <div class="flex items-center justify-between gap-3 bg-black text-white px-6 py-4 font-black uppercase text-lg border border-white/10 shadow-xl group-hover:bg-primary-600 transition-colors duration-300">
+              <div class="flex items-center justify-between gap-3 bg-black text-white px-6 py-4 font-black uppercase text-lg border border-white/10 shadow-xl group-hover:bg-accent-600 transition-colors duration-300">
                 <span class="tracking-tight line-clamp-2">{s.data.service_display}</span>
-                <ArrowRightCircle size={28} class="text-primary-500 group-hover:text-dark-900 transition-colors shrink-0" />
+                <ArrowRightCircle size={28} class="text-accent-500 group-hover:text-white transition-colors shrink-0" />
               </div>
             </div>
           </a>

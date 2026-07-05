@@ -3,6 +3,7 @@ import { getCollection } from "astro:content";
 import BaseLayout from "~/layouts/BaseLayout.astro";
 import CtaBanner from "~/components/CtaBanner.astro";
 import FAQSection from "~/components/FAQSection.astro";
+import FreeEstimateForm from "~/components/FreeEstimateForm.astro";
 import InternalLinks from "~/components/InternalLinks.astro";
 import { brand } from "~/lib/brand";
 
@@ -54,6 +55,8 @@ const heroImage = data.hero || `${brand.imagesBase}/brand/hero.webp`;
       </div>
     </div>
   </section>
+
+  {archetype === "contact" && <FreeEstimateForm />}
 
   <FAQSection faq={data.faq} />
 
