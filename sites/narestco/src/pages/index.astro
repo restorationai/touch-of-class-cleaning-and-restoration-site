@@ -10,7 +10,7 @@ import AboutSection from "~/components/ui/AboutSection.astro";
 import ServicesStrip from "~/components/ui/ServicesStrip.astro";
 import ProcessSection from "~/components/ui/ProcessSection.astro";
 import GallerySection from "~/components/ui/GallerySection.astro";
-import ServiceAreasSection from "~/components/ui/ServiceAreasSection.astro";
+import ProudlyServing from "~/components/ui/ProudlyServing.astro";
 import ReviewsSection from "~/components/ui/ReviewsSection.astro";
 import { brand } from "~/lib/brand";
 
@@ -64,11 +64,11 @@ const services = targetSlugs
 
   <ReviewsSection />
 
+  <ProudlyServing />
+
   <CtaBanner heading="24/7 Emergency Response" subheading="We answer the phone day and night. Insurance billing accepted." />
 
   <FAQSection faq={data.faq} />
-
-  <ServiceAreasSection />
 
   <section class="bg-dark py-20">
     <div class="container-wide max-w-6xl mx-auto prose prose-xl prose-invert prose-headings:font-black prose-headings:uppercase prose-headings:tracking-tighter prose-a:text-primary-500 text-white/70">

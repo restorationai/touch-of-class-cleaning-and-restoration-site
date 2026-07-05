@@ -5,7 +5,8 @@ const is247 = /24\s*[\/x-]?\s*7|24 ?hours/i.test(String(brand.hours || ""));
 
 <header class="bg-dark text-white sticky top-0 z-50 border-b border-white/10 shadow-md">
   <div class="container-wide flex items-center justify-between gap-3 sm:gap-6 h-20">
-    <a href="/" class="flex items-center no-underline text-white group min-w-0 mr-2">
+    <a href="/" class="flex items-center gap-2.5 no-underline text-white group min-w-0 mr-2">
+      <img src={`${brand.imagesBase}/brand/logo-icon.png`} alt="" class="h-9 w-auto max-w-[34vw] sm:max-w-none shrink-0 object-contain object-left drop-shadow-[0_0_6px_rgba(255,255,255,0.55)] group-hover:scale-105 transition-transform" width="36" height="36" loading="eager" />
       <span class="font-black text-sm sm:text-base lg:text-lg tracking-tight leading-tight group-hover:text-primary-400 transition-colors">Home Pride Restoration <span class="whitespace-nowrap">and Cleaning</span></span>
     </a>
 

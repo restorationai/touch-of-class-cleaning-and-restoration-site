@@ -1,5 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="12" fill="#0d1b3e" />
-  <path d="M15 24 L32 12 L49 24" fill="none" stroke="#f97316" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" />
-  <text x="32" y="52" text-anchor="middle" font-family="'Arial Black',system-ui,sans-serif" font-weight="900" font-size="24" fill="white">HP</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 488">
+  <!-- Home Pride house mark: navy chevron roof + chimney, orange house, white door notch -->
+  <rect x="88" y="78" width="42" height="100" fill="#c95e18"/>
+  <path d="M243 46 L460 181 L460 261 L243 131 L26 261 L26 181 Z" fill="#1d2b46"/>
+  <path fill-rule="evenodd" d="M243 158 L419 263 L419 439 L67 439 L67 263 Z M173 439 L173 365 A70 70 0 0 1 313 365 L313 439 Z" fill="#c95e18"/>
 </svg>
