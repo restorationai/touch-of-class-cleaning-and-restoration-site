@@ -320,9 +320,9 @@ def create_lead_audit(req: LeadAuditRequest, request: Request):
         raise HTTPException(status_code=429, detail="We've already run audits for this website today — check your inbox.")
 
     row = client.table("marketing_jobs").insert({
-        "type": "lead_audit", "status": "queued", "triggered_by": "rank.restorationai.io",
+        "type": "lead_audit", "status": "queued",  # triggered_by is a UUID col — leave null
         "params": {"domain": domain, "name": req.name, "email": req.email,
-                   "phone": req.phone, "ip": ip},
+                   "phone": req.phone, "ip": ip, "source": "rank.restorationai.io"},
     }).execute()
     job_id = row.data[0]["id"]
 
