@@ -31,6 +31,10 @@ export const brand = {
   licenseNumbers: [] as string[],
   licenseAuthority: "",
   licenseType: "",
+  // Operator-confirmed "licensed & insured" attestation (plan-input.json
+  // brand.licensed_insured_attested) — gates the TrustStrip badge when no
+  // license number is on file yet.
+  licensedInsuredAttested: false,
   certifications: [] as string[],
   // Operator-attested 2026-07-04 (Santino): family business (two brothers),
   // licensed & insured — license number pending; add it to licenseNumbers when

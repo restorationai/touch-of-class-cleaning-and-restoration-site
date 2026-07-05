@@ -31,6 +31,10 @@ export const brand = {
   licenseNumbers: ["RC-25-0737"] as string[],
   licenseAuthority: "",
   licenseType: "",
+  // Operator-confirmed "licensed & insured" attestation (plan-input.json
+  // brand.licensed_insured_attested) — gates the TrustStrip badge when no
+  // license number is on file yet.
+  licensedInsuredAttested: false,
   certifications: ["IICRC Certified"] as string[],
   trustBadges: [] as string[],
   sameAsUrls: [] as string[],

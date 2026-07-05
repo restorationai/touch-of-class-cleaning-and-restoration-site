@@ -31,7 +31,13 @@ export const brand = {
   licenseNumbers: [] as string[],
   licenseAuthority: "",
   licenseType: "",
-  certifications: [] as string[],
+  // Operator-confirmed "licensed & insured" attestation (plan-input.json
+  // brand.licensed_insured_attested) — gates the TrustStrip badge when no
+  // license number is on file yet.
+  licensedInsuredAttested: true,
+  // "EPA Lead-Safe Certified" is also on file (plan-input truth data); the
+  // TrustStrip is operator-specced to 4 badges, so only IICRC renders there.
+  certifications: ["IICRC Certified"] as string[],
   trustBadges: [] as string[],
   sameAsUrls: [] as string[],
   // GBP rating fields — synced from the live Google Business Profile by

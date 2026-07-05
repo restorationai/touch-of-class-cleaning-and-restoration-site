@@ -204,6 +204,7 @@ def resolve_tokens(client: dict, plan_input: dict) -> tuple[dict, dict]:
         "BRAND_LICENSE_NUMBERS_JSON": json.dumps(brand.get("license_numbers", [])),
         "BRAND_CERTIFICATIONS_JSON": json.dumps(brand.get("certifications", [])),
         "BRAND_TRUST_BADGES_JSON": json.dumps(brand.get("trust_badges", [])),
+        "BRAND_LICENSED_INSURED_ATTESTED_JSON": json.dumps(bool(brand.get("licensed_insured_attested", False))),
         "BRAND_SAME_AS_URLS_JSON": json.dumps(brand.get("same_as_urls", [])),
         "BRAND_JOB_PHOTOS_JSON": json.dumps(fetch_job_photos(client.get("company_id", ""))),
     }

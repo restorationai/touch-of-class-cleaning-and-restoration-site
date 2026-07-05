@@ -40,8 +40,21 @@ export default {
           "900": "#111827",
           "950": "#030712"
         },
+        /* accent — brand blue pulled from the Flood Fixers logo (#2da8dc bright
+           blue, #102d5c navy). Used for the hero hotline CTA and small accents;
+           600 (#0f7db0) passes WCAG AA (>=4.5:1) with white text. */
         accent: {
-          DEFAULT: "#111827",
+          DEFAULT: "#2da8dc",
+          50: "#eff8fd",
+          100: "#d8eefa",
+          200: "#b5e0f5",
+          300: "#7fcbed",
+          400: "#4fb9e5",
+          500: "#2da8dc",
+          600: "#0f7db0",
+          700: "#0c6994",
+          800: "#0b5678",
+          900: "#102d5c",
         },
         muted: {
           DEFAULT: "#4b5563",

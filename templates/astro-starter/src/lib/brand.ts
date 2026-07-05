@@ -31,6 +31,9 @@ export const brand = {
   licenseNumbers: {{BRAND_LICENSE_NUMBERS_JSON}} as string[],
   licenseAuthority: "{{BRAND_LICENSE_AUTHORITY}}",
   licenseType: "{{BRAND_LICENSE_TYPE}}",
+  // Operator-confirmed "licensed & insured" attestation from plan-input.json —
+  // lets the TrustStrip show the badge before a license number is on file.
+  licensedInsuredAttested: {{BRAND_LICENSED_INSURED_ATTESTED_JSON}} as boolean,
   certifications: {{BRAND_CERTIFICATIONS_JSON}} as string[],
   trustBadges: {{BRAND_TRUST_BADGES_JSON}} as string[],
   jobPhotos: {{BRAND_JOB_PHOTOS_JSON}} as string[],

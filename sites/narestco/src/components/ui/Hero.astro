@@ -15,18 +15,19 @@ interface Props {
 const { title, subtitle, ctaText = "Get Help Now", ctaLink = "tel:18001234567", isSensitive = false, backgroundImage } = Astro.props;
 ---
 
-<header class="relative section-cta">
+<header class="relative overflow-hidden border-t border-white/10 min-h-[60vh] md:min-h-[560px] md:h-[calc(100vh-188px)] flex items-center">
   {/* Background image or solid dark color */}
   {backgroundImage ? (
     <div class="absolute inset-0 z-0">
       <img src={backgroundImage} alt="Background" loading="eager" fetchpriority="high" decoding="async" class="w-full h-full object-cover object-[center_25%]" />
-      <div class="absolute inset-0 bg-dark-900/40"></div>
+      <div class="absolute inset-0 bg-dark-900/30"></div>
     </div>
   ) : (
     <div class="absolute inset-0 bg-dark z-0"></div>
   )}
   
-  <div class="absolute inset-0 bg-gradient-to-br from-dark-900/60 to-dark-800/40 z-0"></div>
+  {/* Left-to-right scrim: strong behind the text block, light over the photo subject */}
+  <div class="absolute inset-0 bg-gradient-to-r from-dark-950/80 via-dark-900/45 to-dark-900/10 z-0"></div>
   <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-white/5 to-transparent z-0"></div>
 
   <div class="container-wide relative z-10 pt-10 pb-14 md:pt-12 md:pb-16 text-left">

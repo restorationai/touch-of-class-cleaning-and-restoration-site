@@ -11,9 +11,12 @@ const sinceLabel =
 // The client's SELECTED trust badges (from onboarding) drive the strip. Fall back to
 // safe, generally-true defaults — never a hardcoded claim that could be false for a
 // given client (the old "Family Business / 12+ Years" bug). Claims are gated on
-// brand data: "Licensed & Insured" requires a license number on file; "24/7"
-// requires 24/7 hours; certifications come straight from brand.certifications.
-const isLicensed = Array.isArray(brand.licenseNumbers) && brand.licenseNumbers.length > 0;
+// brand data: "Licensed & Insured" requires a license number on file OR an
+// operator-confirmed licensed_insured_attested flag; "24/7" requires 24/7
+// hours; certifications come straight from brand.certifications (max 2).
+const isLicensed =
+  (Array.isArray(brand.licenseNumbers) && brand.licenseNumbers.length > 0) ||
+  (brand as { licensedInsuredAttested?: boolean }).licensedInsuredAttested === true;
 const is247 = /24\s*[\/x-]?\s*7|24 ?hours/i.test(String(brand.hours || ""));
 const certBadges = (brand.certifications || []).slice(0, 2);
 const badges: string[] =

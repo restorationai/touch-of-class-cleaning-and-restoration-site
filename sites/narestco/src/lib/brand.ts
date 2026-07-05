@@ -37,6 +37,10 @@ export const brand = {
   licenseNumbers: ["NATIORC792M6"] as string[],
   licenseAuthority: "WA State Department of Labor & Industries",
   licenseType: "General Contractor Certificate of Registration",
+  // Operator-confirmed "licensed & insured" attestation (plan-input.json
+  // brand.licensed_insured_attested) — gates the TrustStrip badge when no
+  // license number is on file yet.
+  licensedInsuredAttested: false,
   certifications: ["IICRC Certified", "BBB Accredited", "Lead-Safe Certified Firm", "EPA Certified", "ANSI Certified"] as string[],
   trustBadges: [] as string[],
   sameAsUrls: ["https://www.google.com/maps?cid=12984564642744438542", "https://www.facebook.com/narestco", "https://www.instagram.com/narestco", "https://www.tiktok.com/@narestco", "https://twitter.com/narestco"] as string[],
