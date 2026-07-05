@@ -3,13 +3,19 @@
 # the root railway.toml (FastAPI web) or the other service configs.
 #
 # MONTHLY refresh for every client in clients/company_map.json, upserting into
-# marketing_action_plan (idempotent via action_key). Two steps:
+# marketing_action_plan (idempotent via action_key). Three steps:
 #   1) authority_targets.py --mode all -> Get-Listed targets (core directories +
 #      directories AI cites for the client + national backlink link-gap;
 #      action_type='get_listed') PLUS listicle placement targets ("best {service}
 #      {city}" SERP roundups the client isn't featured on; action_type='listicle')
 #   2) ai_keyword_planner.py -> demand-ranked AI-keyword opportunities via real AI
 #      search volume + the sources AI pulls from (action_type='ai_keyword'/'get_listed')
+#   3) press_release.py draft --all -> QUARTERLY truth-gated press-release drafts
+#      into marketing_press_releases (status=draft; operator approves in the app,
+#      then syndicates via Press Advantage / EIN Presswire). The script gates
+#      itself: it no-ops unless this is the first month of a quarter OR the
+#      current quarter has no rows yet (catch-up), so quarterly cadence emerges
+#      from this monthly cron. Row-exists idempotency prevents duplicates.
 # Existing/dismissed items are skipped, never duplicated.
 [build]
 builder = "NIXPACKS"
@@ -18,7 +24,7 @@ builder = "NIXPACKS"
 # --all = every client in company_map.json; --write = persist to the Action Plan.
 # --mode all = get-listed + listicles in the same process (adds ~12 SERP calls
 # per client, ~$0.04). Run both steps; ';' so step 2 runs even if step 1 errors.
-startCommand = "bash -lc '/opt/venv/bin/python scripts/authority_targets.py --all --write --mode all; /opt/venv/bin/python scripts/ai_keyword_planner.py --all --write'"
+startCommand = "bash -lc '/opt/venv/bin/python scripts/authority_targets.py --all --write --mode all; /opt/venv/bin/python scripts/ai_keyword_planner.py --all --write; /opt/venv/bin/python scripts/press_release.py draft --all'"
 # 09:00 UTC on the 1st of each month (~1h after the geo-grid cron, so AI/geo data
 # is fresh). Backlinks + citations + AI demand move slowly — monthly is plenty.
 cronSchedule = "0 9 1 * *"
@@ -28,5 +34,7 @@ restartPolicyType = "NEVER"
 # Required service variables (set in the Railway dashboard for THIS service):
 #   SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY   — read AI-search data, write action plan
 #   DATAFORSEO_USERNAME / DATAFORSEO_PASSWORD — backlinks domain_intersection (link-gap)
+#   ANTHROPIC_API_KEY                         — press_release.py draft generation
+#     (~1 short Sonnet call per client per QUARTER; pennies)
 # Cost is tiny: ~$0.02-0.05 per client (one link-gap call); citation data is read
 # from marketing_ai_search_scans we already collect.
