@@ -13,7 +13,7 @@ Modes:
 
 Reuses gbp.py for token + account + location resolution.
 """
-import argparse, json, os, sys, random, datetime, requests
+import argparse, json, os, sys, random, requests
 from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
@@ -37,7 +37,26 @@ def _resolve(slug):
     return tok, acct, loc["name"].split("/")[-1], loc
 
 
-def create_local_post(slug, summary, cta_type="LEARN_MORE", cta_url=None, dry_run=False):
+def record_post(slug, res, topic=None, source="rank-ai-manual"):
+    """Ledger every post we create into Supabase marketing_gbp_posts (the app's
+    'Recent Google posts' feed). Best-effort: a ledger failure must never fail
+    the post itself (the post is already live on Google)."""
+    try:
+        cid = gbp.company_id_for(slug)
+        cta = res.get("callToAction") or {}
+        gbp._sb_upsert("marketing_gbp_posts", [{
+            "company_id": cid, "post_name": res.get("name"),
+            "posted_at": res.get("createTime"), "summary": res.get("summary"),
+            "cta_type": cta.get("actionType"), "cta_url": cta.get("url"),
+            "topic": topic, "source": source, "state": res.get("state"),
+            "search_url": res.get("searchUrl"),
+        }], on_conflict="company_id,post_name")
+    except Exception as e:
+        print(f"  warn: posted OK but not recorded in marketing_gbp_posts ({e})")
+
+
+def create_local_post(slug, summary, cta_type="LEARN_MORE", cta_url=None, dry_run=False,
+                      topic=None, source="rank-ai-manual"):
     tok, acct, locid, loc = _resolve(slug)
     body = {"languageCode": "en-US", "summary": summary.strip(), "topicType": "STANDARD"}
     if cta_type and cta_type != "NONE":
@@ -54,6 +73,7 @@ def create_local_post(slug, summary, cta_type="LEARN_MORE", cta_url=None, dry_ru
         raise SystemExit(f"  POST failed HTTP {r.status_code}: {r.text[:300]}")
     res = r.json()
     print(f"  ✓ posted -> {res.get('name')}  (state: {res.get('state')})")
+    record_post(slug, res, topic=topic, source=source)
     return res
 
 
@@ -103,13 +123,14 @@ def main():
     a = ap.parse_args()
 
     if a.cmd == "post":
-        summary = a.summary
+        summary, topic = a.summary, None
         if a.auto or not summary:
             topic = a.topic or random.choice(list(TOPICS))
             print(f"  drafting ({topic})...")
             summary = ai_draft(a.slug, topic)
             print("  draft:\n   ", summary[:300])
-        create_local_post(a.slug, summary, a.cta_type, a.cta_url, a.dry_run)
+        create_local_post(a.slug, summary, a.cta_type, a.cta_url, a.dry_run,
+                          topic=topic, source="rank-ai-manual")
 
     elif a.cmd == "due":
         slugs = ([a.slug] if a.slug else
@@ -120,7 +141,8 @@ def main():
                 topic = random.choice(list(TOPICS))
                 s = ai_draft(slug, topic)
                 print(f"== {slug} ({topic}) ==")
-                create_local_post(slug, s, dry_run=a.dry_run)
+                create_local_post(slug, s, dry_run=a.dry_run,
+                                  topic=topic, source="rank-ai-cron")
             except SystemExit as e:
                 print(f"  {slug}: skip — {e}")
 
