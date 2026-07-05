@@ -21,6 +21,15 @@ Pipeline per run:
 Subcommands:
   auth --slug <slug>              One-time OAuth setup per client YouTube channel
   make --slug <slug> --post <slug> [--no-upload] [--public] [--flash] [--tts macos]
+                                  [--title ...] [--description-file ...]
+                                  [--max-ai-images N] [--defer-writeback]
+  brand --slug <slug>             Brand-authority video (company overview)
+  geo --slug <slug> --service <svc> --city <city>
+                                  Standalone local-ranker video (Merchynt style),
+                                  claims-gated to brand truth fields
+  publish --slug <slug> --post <slug> [--video-id ID]
+                                  Flip an uploaded video public + write youtube_id
+                                  into the post frontmatter + queue item + commit
   list --slug <slug>              Show uploaded videos for a client
 
 Required env vars (rank-ai/.env):
@@ -190,6 +199,123 @@ def update_post_youtube_id(
     post_path.write_text(text)
 
 
+def now_iso() -> str:
+    return datetime.now(timezone.utc).isoformat()
+
+
+def collect_post_stills(slug: str, post: dict) -> list[Path]:
+    """Real images tied to a post: frontmatter hero/og/inline, body markdown images,
+    the hero image of each service the post is tagged with, plus site brand images
+    (hero-bg, team). Local files under sites/{slug}/public only; logos excluded."""
+    fm, body = post["frontmatter"], post["body"]
+    pub = SITES_DIR / slug / "public"
+    rel_paths: list[str] = []
+    for key in ("hero", "og"):
+        if fm.get(key):
+            rel_paths.append(fm[key])
+    for key in ("inline", "services"):
+        raw = fm.get(key)
+        if raw and raw.startswith("["):
+            try:
+                vals = [v for v in json.loads(raw) if isinstance(v, str)]
+            except Exception:
+                vals = []
+            if key == "inline":
+                rel_paths += vals
+            else:
+                rel_paths += [f"/services/{s}.webp" for s in vals]
+    rel_paths += re.findall(r"!\[[^\]]*\]\(([^)\s]+)", body)
+    rel_paths += ["/images/hero-bg.webp", "/images/team.webp"]
+
+    out: list[Path] = []
+    seen: set[str] = set()
+    for rp in rel_paths:
+        if rp.startswith("http"):
+            rp = urllib.parse.urlparse(rp).path  # images.{domain} paths mirror /public
+        p = pub / rp.lstrip("/")
+        if (p.exists() and p.suffix.lower() in PHOTO_EXTENSIONS
+                and "logo" not in p.name.lower() and str(p) not in seen):
+            seen.add(str(p))
+            out.append(p)
+    return out
+
+
+def image_style_suffix(slug: str) -> str:
+    """Distil clients/{slug}/image-style-guide.md into a prompt suffix appended to
+    every Gemini scene image, so video stills match the site's photography style."""
+    guide = CLIENTS_DIR / slug / "image-style-guide.md"
+    if not guide.exists():
+        return ""
+    text = guide.read_text()
+    m = re.search(r"Primary brand color[^#\n]*\|[^#\n]*(#[0-9a-fA-F]{6})", text)
+    color = m.group(1) if m else ""
+    m = re.search(r"\*\*Primary setting\*\*:\s*([^\n]+)", text)
+    region = m.group(1).strip() if m else ""
+    parts = [
+        "Professional restoration-company photography, full-frame mirrorless look,",
+        "true-to-life color, no oversaturation; cool neutral diffused light indoors,",
+        "golden-hour light outdoors.",
+    ]
+    if color:
+        parts.append(
+            f"Any worker wears a branded {color} polo, face never clearly visible "
+            "(shot from behind, side angle, or shadowed cap brim)."
+        )
+    if region:
+        parts.append(f"Setting: {region}.")
+    parts.append("No on-screen text, no visible logos, no smiling at camera, "
+                 "no stock-photo poses.")
+    return " ".join(parts)
+
+
+# Rough per-unit cost estimates (USD) for the video cost log. Same JSONL file +
+# shape as build_site.log_cost (sites/{slug}/.rank-ai/cost-log.jsonl).
+_COST_PER_MTOK_IN, _COST_PER_MTOK_OUT = 3.0, 15.0        # claude-sonnet-4-6
+_COST_PER_IMAGE = {"pro": 0.134, "flash": 0.039}          # gemini image gen
+_COST_PER_TTS_CHAR = 0.00011                               # elevenlabs turbo
+
+
+def log_video_cost(slug: str, label: str, model: str, claude_usage: dict,
+                   ai_images: int, tts_chars: int) -> None:
+    tier = "flash" if "flash" in model else "pro"
+    dollars = (
+        claude_usage.get("input_tokens", 0) * _COST_PER_MTOK_IN / 1_000_000
+        + claude_usage.get("output_tokens", 0) * _COST_PER_MTOK_OUT / 1_000_000
+        + ai_images * _COST_PER_IMAGE[tier]
+        + tts_chars * _COST_PER_TTS_CHAR
+    )
+    log = SITES_DIR / slug / ".rank-ai" / "cost-log.jsonl"
+    log.parent.mkdir(parents=True, exist_ok=True)
+    with log.open("a") as f:
+        f.write(json.dumps({
+            "ts": now_iso(),
+            "url": label,
+            "archetype": "video",
+            "model": model,
+            "usage": {"claude": claude_usage, "ai_images": ai_images,
+                      "tts_chars": tts_chars, "estimated": True},
+            "dollars": round(dollars, 6),
+        }) + "\n")
+    print(f"  [cost] ~${dollars:.3f} logged to {log.relative_to(REPO_ROOT)}")
+
+
+def mark_queue_video(slug: str, post_slug: str, video_id: str) -> bool:
+    """Stamp youtube_id + video_published_at onto the matching content-queue item."""
+    qpath = CLIENTS_DIR / slug / "content-queue.json"
+    if not qpath.exists():
+        return False
+    q = json.loads(qpath.read_text())
+    items = q if isinstance(q, list) else q.get("items", [])
+    for it in items:
+        url = it.get("post_url") or ""
+        if it.get("suggested_slug") == post_slug or f"/{post_slug}" in url:
+            it["youtube_id"] = video_id
+            it["video_published_at"] = now_iso()
+            qpath.write_text(json.dumps(q, indent=2) + "\n")
+            return True
+    return False
+
+
 # ---------------------------------------------------------------------------
 # Step 1 — Claude: generate video script
 # ---------------------------------------------------------------------------
@@ -286,7 +412,7 @@ def generate_video_script(post: dict, client: dict) -> dict:
 
     body = json.dumps({
         "model": ANTHROPIC_MODEL,
-        "max_tokens": 2000,
+        "max_tokens": 4000,
         "messages": [{"role": "user", "content": prompt}],
     }).encode()
     req = urllib.request.Request(
@@ -304,7 +430,9 @@ def generate_video_script(post: dict, client: dict) -> dict:
     # Strip ```json fences if present
     raw = re.sub(r"^```json\s*", "", raw)
     raw = re.sub(r"\s*```$", "", raw)
-    return json.loads(raw)
+    script = json.loads(raw)
+    script["_usage"] = payload.get("usage", {})
+    return script
 
 
 # ---------------------------------------------------------------------------
@@ -404,7 +532,7 @@ def generate_brand_script(client: dict, service: str | None = None,
         primary_city=(city or (areas[0] if areas else "")),
     )
     body = json.dumps({
-        "model": ANTHROPIC_MODEL, "max_tokens": 2000,
+        "model": ANTHROPIC_MODEL, "max_tokens": 4000,
         "messages": [{"role": "user", "content": prompt}],
     }).encode()
     req = urllib.request.Request(ANTHROPIC_API, data=body, method="POST", headers={
@@ -415,7 +543,9 @@ def generate_brand_script(client: dict, service: str | None = None,
     raw = payload["content"][0]["text"].strip()
     raw = re.sub(r"^```json\s*", "", raw)
     raw = re.sub(r"\s*```$", "", raw)
-    return json.loads(raw)
+    script = json.loads(raw)
+    script["_usage"] = payload.get("usage", {})
+    return script
 
 
 # ---------------------------------------------------------------------------
@@ -665,14 +795,34 @@ def generate_scene_clips(
     model: str,
     slug: str,
     scene_duration: float,
+    post_stills: list[Path] | None = None,
+    max_ai_images: int | None = None,
 ) -> list[Path]:
-    """Build one .mp4 clip per scene using IMAGES ONLY: client photo > Gemini AI image.
+    """Build one .mp4 clip per scene using IMAGES ONLY: post still > client photo >
+    Gemini AI image.
 
+    post_stills (post hero / section images / service heroes / brand shots) are pinned
+    to evenly-spaced anchor scenes so real photography bookends the AI stills.
+    max_ai_images caps the number of UNIQUE Gemini generations; further AI scenes
+    reuse earlier stills (different Ken Burns direction + subtitle keeps them fresh).
     Stock video (Pexels) is disabled (USE_STOCK_VIDEO=False) — every scene renders as a
-    still (client photo or AI image) with a Ken Burns zoom, for a consistent look."""
+    still with a Ken Burns zoom, for a consistent look."""
     photos_map = load_client_photos(slug)
     used_photos: set[str] = set()
     clip_paths: list[Path] = []
+    style_suffix = image_style_suffix(slug)
+
+    # Pin post stills to evenly-spaced scene indices (first still opens, last closes)
+    still_slots: dict[int, Path] = {}
+    stills = list(post_stills or [])
+    if stills:
+        n, k = len(scenes), min(len(stills), len(scenes))
+        for j in range(k):
+            idx = round(j * (n - 1) / max(k - 1, 1))
+            if idx not in still_slots:
+                still_slots[idx] = stills[j]
+
+    ai_pool: list[Path] = []  # unique Gemini stills already generated (for reuse)
 
     for i, scene in enumerate(scenes):
         clip_path = work_dir / f"clip_{i:02d}.mp4"
@@ -683,6 +833,15 @@ def generate_scene_clips(
         # Brand videos carry a short on-screen "caption" (service label, like the
         # Merchynt style); blog videos burn the spoken narration. Prefer caption.
         subtitle = scene.get("caption") or narration
+
+        # --- 0. Pinned post still (real site imagery) ---
+        if i in still_slots:
+            still = still_slots[i]
+            print(f"  [clip {i+1}/{len(scenes)}] post still: {still.name[:45]}")
+            build_still_clip(still, clip_path, scene_duration, zoom_dir,
+                             subtitle_text=subtitle)
+            clip_paths.append(clip_path)
+            continue
 
         # --- 1. Client photo ---
         if scene_type == "client_photo" and photos_map:
@@ -709,15 +868,27 @@ def generate_scene_clips(
                     continue
             print(f"      falling back to Gemini AI...")
 
-        # --- 3. Gemini AI image fallback ---
+        # --- 3. Gemini AI image (capped) or reuse of an earlier still ---
+        if max_ai_images is not None and len(ai_pool) >= max_ai_images and ai_pool:
+            reuse = ai_pool[(i - len(still_slots)) % len(ai_pool)]
+            print(f"  [clip {i+1}/{len(scenes)}] reuse still: {reuse.name[:45]} "
+                  f"(ai cap {max_ai_images} reached)")
+            build_still_clip(reuse, clip_path, scene_duration, zoom_dir,
+                             subtitle_text=subtitle)
+            clip_paths.append(clip_path)
+            continue
+
         img_prompt = scene.get("image_prompt") or (
-            f"Photorealistic 16:9 professional restoration scene: {narration[:80]}, "
+            f"Photorealistic {GEMINI_ASPECT} professional restoration scene: {narration[:80]}, "
             "dramatic professional lighting, hyperrealistic, restoration industry"
         )
+        if style_suffix:
+            img_prompt = f"{img_prompt} {style_suffix}"
         print(f"  [clip {i+1}/{len(scenes)}] gemini: {img_prompt[:50]}...")
         png_bytes = gemini_generate_image(img_prompt, model=model)
         img_path = work_dir / f"scene_{i:02d}.png"
         img_path.write_bytes(png_bytes)
+        ai_pool.append(img_path)
         build_still_clip(img_path, clip_path, scene_duration, zoom_dir,
                          subtitle_text=subtitle)
         clip_paths.append(clip_path)
@@ -1342,27 +1513,37 @@ def upload_to_youtube(
     video_id = response["id"]
     print(f"  [youtube] video uploaded: https://youtu.be/{video_id}")
 
-    # Upload thumbnail
+    # Upload thumbnail — non-fatal: channels without phone verification cannot set
+    # custom thumbnails (403 youtube.thumbnail/forbidden). The video is already up,
+    # so a channel-level restriction must not kill the run.
     if thumbnail_path and thumbnail_path.exists():
         print("  [youtube] uploading thumbnail...")
-        media_thumb = MediaFileUpload(str(thumbnail_path), mimetype="image/png")
-        youtube.thumbnails().set(videoId=video_id, media_body=media_thumb).execute()
+        try:
+            media_thumb = MediaFileUpload(str(thumbnail_path), mimetype="image/png")
+            youtube.thumbnails().set(videoId=video_id, media_body=media_thumb).execute()
+        except Exception as exc:
+            print(f"  [youtube] thumbnail skipped: {str(exc)[:160]}")
+            print("            (channel likely needs phone verification at "
+                  "youtube.com/verify to allow custom thumbnails)")
 
-    # Upload captions
+    # Upload captions — non-fatal for the same reason.
     if srt_path.exists():
         print("  [youtube] uploading captions...")
-        caption_body = {
-            "snippet": {
-                "videoId": video_id,
-                "language": "en",
-                "name": "English",
-                "isDraft": False,
+        try:
+            caption_body = {
+                "snippet": {
+                    "videoId": video_id,
+                    "language": "en",
+                    "name": "English",
+                    "isDraft": False,
+                }
             }
-        }
-        media_cap = MediaFileUpload(str(srt_path), mimetype="text/plain")
-        youtube.captions().insert(
-            part="snippet", body=caption_body, media_body=media_cap
-        ).execute()
+            media_cap = MediaFileUpload(str(srt_path), mimetype="text/plain")
+            youtube.captions().insert(
+                part="snippet", body=caption_body, media_body=media_cap
+            ).execute()
+        except Exception as exc:
+            print(f"  [youtube] captions skipped: {str(exc)[:160]}")
 
     return video_id
 
@@ -1428,6 +1609,12 @@ def cmd_make(args) -> int:
         scenes = script["scenes"]
         if len(scenes) != 10:
             print(f"  warning: Claude returned {len(scenes)} scenes (expected 10), adjusting...")
+        claude_usage = script.pop("_usage", {})
+        # Operator overrides (pilot / manual runs)
+        if getattr(args, "title", None):
+            script["youtube_title"] = args.title
+        if getattr(args, "description_file", None):
+            script["youtube_description"] = Path(args.description_file).read_text().strip()
         (work_dir / "script.json").write_text(json.dumps(script, indent=2))
         print(f"  YouTube title: {script['youtube_title'][:60]}")
 
@@ -1445,10 +1632,17 @@ def cmd_make(args) -> int:
             script.get("youtube_description", "") + "\n\n" + chapters
         )
 
-        # Step 3 — scene clips (client photos → Pexels → Gemini AI)
+        # Step 3 — scene clips (post stills → client photos → Gemini AI)
         scene_duration = audio_duration / len(scenes)
+        post_stills = collect_post_stills(slug, post)
+        if post_stills:
+            print(f"  Post stills: {', '.join(p.name for p in post_stills)}")
         print(f"\n[3/6] Building scene clips ({len(scenes)} scenes x {scene_duration:.1f}s)...")
-        clip_paths = generate_scene_clips(scenes, work_dir, model, slug, scene_duration)
+        clip_paths = generate_scene_clips(
+            scenes, work_dir, model, slug, scene_duration,
+            post_stills=post_stills,
+            max_ai_images=getattr(args, "max_ai_images", None),
+        )
 
         # thumbnail (always Gemini — needs specific composition with text area)
         thumb_prompt = script.get("thumbnail_prompt") or scenes[0].get("image_prompt", "")
@@ -1465,6 +1659,11 @@ def cmd_make(args) -> int:
         srt_path = work_dir / f"{post_slug}.srt"
         generate_srt(scenes, audio_duration, srt_path)
 
+        # Cost log (rough estimate; same JSONL as build_site renders)
+        n_ai = len(list(work_dir.glob("scene_*.png"))) + 1  # + thumbnail
+        log_video_cost(slug, f"/video/{post_slug}", model, claude_usage,
+                       ai_images=n_ai, tts_chars=len(narration))
+
         if args.no_upload:
             out_video = REPO_ROOT / "sites" / slug / f"{post_slug}-draft.mp4"
             shutil.copy(video_path, out_video)
@@ -1476,6 +1675,16 @@ def cmd_make(args) -> int:
         video_id = upload_to_youtube(
             slug, video_path, thumb_path, srt_path, script, privacy=privacy
         )
+
+        if getattr(args, "defer_writeback", False):
+            # Pilot / unlisted-first flow: leave the post untouched. Run
+            # `video_maker.py publish --slug {slug} --post {post} --video-id {id}`
+            # after operator review to flip public + write the embed.
+            print(f"\n[6/6] Write-back DEFERRED (--defer-writeback).")
+            print(f"  Review: https://youtu.be/{video_id}  (privacy: {privacy})")
+            print(f"  Then:   python3 scripts/video_maker.py publish --slug {slug} "
+                  f"--post {post_slug} --video-id {video_id}")
+            return 0
 
         # Step 7 — update frontmatter + append transcript
         print("\n[6/6] Updating blog post frontmatter...")
@@ -1582,6 +1791,340 @@ def cmd_brand(args) -> int:
     return 0
 
 
+GEO_SCRIPT_PROMPT = """You are writing a 45-60 second STANDALONE local-SEO YouTube video script for a home
+restoration company. It is NOT tied to a blog post. It is a Merchynt-style local ranker: direct answer
+opener, a few proof points, strong call-to-action. Its transcript is indexed by Google, so the company
+name, the city, and the service name must each appear multiple times.
+
+Company: {company}
+Phone: {phone}
+Service: {service}
+City: {city}
+Proof points (these are the ONLY factual claims you may make about the company — do NOT invent
+ratings, review counts, response times, years in business, licenses, or certifications not listed):
+{proof_points}
+Available client photo categories (prefer these for scene_type=client_photo): {photo_categories}
+
+STRUCTURE (5-6 scenes, one sentence each, 12-25 words per sentence):
+1. Direct-answer opener that begins with the pattern: "Need {service} in {city}? {company}..." —
+   answer the search immediately.
+2-4. One beat per proof point above, woven naturally (name the company/city/service again where natural).
+5. Strong CTA: call now, free estimate, and say the phone number clearly.
+
+LENGTH IS CRITICAL: total narration across all scenes must be 110-140 words (~45-55 seconds spoken).
+
+Produce a JSON object with these exact keys:
+{{
+  "scenes": [
+    {{
+      "scene_type": "client_photo" | "ai",
+      "narration": "the spoken sentence for this segment",
+      "caption": "SHORT on-screen label (3-6 words, e.g. 'Serving {city} 24/7')",
+      "photo_keywords": ["team","truck",...],
+      "image_prompt": "for ai scenes: photoreal {aspect} scene, NO on-screen text, NO visible faces"
+    }}
+  ],
+  "thumbnail_prompt": "Gemini prompt: bold local-service thumbnail, left third clear for text overlay"
+}}
+
+Do NOT include youtube_title / description / tags — the caller sets those deterministically.
+Respond with ONLY valid JSON. No prose before or after.
+"""
+
+
+def geo_proof_points(slug: str) -> list[str]:
+    """Claims-gated proof points from brand truth fields only (plan-input.json,
+    cross-checked with clients/{slug}/claims-lint.json truth block when present)."""
+    brand: dict = {}
+    try:
+        brand = json.loads((CLIENTS_DIR / slug / "plan-input.json").read_text()).get("brand", {})
+    except Exception:
+        pass
+    truth: dict = {}
+    try:
+        truth = json.loads((CLIENTS_DIR / slug / "claims-lint.json").read_text()).get("truth", {})
+    except Exception:
+        pass
+
+    pts: list[str] = []
+    hours = brand.get("hours", "") or truth.get("hours", "")
+    if truth.get("is_247") or "24/7" in hours or "24 hours" in hours.lower():
+        pts.append("24/7 emergency response — crews answer day and night")
+    certs = brand.get("certifications") or truth.get("certifications") or []
+    if certs:
+        pts.append(f"{certs[0]} technicians")
+    lic_nums = brand.get("license_numbers") or truth.get("license_numbers") or []
+    if lic_nums:
+        pts.append(f"Licensed (License #{lic_nums[0]}) and insured")
+    elif brand.get("licensed_insured_attested"):
+        pts.append("Licensed and insured")
+    if truth.get("response_minutes"):
+        pts.append(f"~{truth['response_minutes']}-minute average on-site response")
+    rating, reviews = brand.get("rating"), brand.get("review_count") or truth.get("gbp_review_count")
+    if rating and reviews:
+        pts.append(f"Rated {rating} stars across {reviews} Google reviews")
+    if brand.get("insurance_billing"):
+        pts.append("Direct insurance billing — we work with your adjuster")
+    founded = brand.get("founded_year") or truth.get("founded_year")
+    if founded:
+        pts.append(f"Serving the area since {founded}")
+    return pts[:3]
+
+
+def generate_geo_script(client: dict, service: str, city: str,
+                        proof_points: list[str]) -> dict:
+    """Claude → geo local-ranker script. Narration only; metadata is set by cmd_geo."""
+    api_key = require_env("ANTHROPIC_API_KEY")
+    phone = ""
+    try:
+        phone = json.loads((CLIENTS_DIR / client["slug"] / "plan-input.json").read_text()) \
+            .get("brand", {}).get("phone", "")
+    except Exception:
+        pass
+    photos_map = load_client_photos(client["slug"])
+    photo_categories = ", ".join(sorted(photos_map)) if photos_map else "None — use ai scenes"
+    prompt = GEO_SCRIPT_PROMPT.format(
+        company=client.get("display_name", ""),
+        phone=phone,
+        service=service.replace("-", " "),
+        city=city,
+        proof_points="\n".join(f"- {p}" for p in proof_points) or "- (none available — stick to service + city + phone)",
+        photo_categories=photo_categories,
+        aspect=GEMINI_ASPECT,
+    )
+    body = json.dumps({
+        "model": ANTHROPIC_MODEL, "max_tokens": 4000,
+        "messages": [{"role": "user", "content": prompt}],
+    }).encode()
+    req = urllib.request.Request(ANTHROPIC_API, data=body, method="POST", headers={
+        "content-type": "application/json", "x-api-key": api_key,
+        "anthropic-version": "2023-06-01"})
+    with urllib.request.urlopen(req, timeout=120) as resp:
+        payload = json.loads(resp.read().decode())
+    raw = payload["content"][0]["text"].strip()
+    raw = re.sub(r"^```json\s*", "", raw)
+    raw = re.sub(r"\s*```$", "", raw)
+    script = json.loads(raw)
+    script["_usage"] = payload.get("usage", {})
+    return script
+
+
+def _area_url_slug(city: str, state: str) -> str:
+    return f"{city.lower().replace(' ', '-')}-{state.lower()}"
+
+
+def geo_metadata(client: dict, service: str, city: str,
+                 proof_points: list[str]) -> dict:
+    """Deterministic (non-LLM) title / description / tags for a geo video.
+    Title: '{Service} {City} | {Brand}'. Description: NAP + service-area links + phone."""
+    slug = client["slug"]
+    brand = client.get("display_name", slug)
+    domain = client.get("domain", "")
+    plan: dict = {}
+    try:
+        plan = json.loads((CLIENTS_DIR / slug / "plan-input.json").read_text())
+    except Exception:
+        pass
+    b = plan.get("brand", {})
+    phone, hours = b.get("phone", ""), b.get("hours", "")
+    areas = plan.get("service_areas", [])
+    svc_pretty = service.replace("-", " ").title()
+
+    title = f"{svc_pretty} {city} | {brand}"
+
+    # Target city first, then the rest of the service area
+    ordered = sorted(areas, key=lambda a: 0 if a.get("city") == city else 1)
+    area_lines = [
+        f"{a['city']}, {a['state']}: https://{domain}/service-areas/{_area_url_slug(a['city'], a['state'])}/"
+        for a in ordered[:8]
+    ]
+    city_names = ", ".join(a["city"] for a in ordered)
+
+    desc_parts = [
+        f"Need {svc_pretty.lower()} in {city}? {brand} serves {city} and the surrounding area"
+        + (f" — {hours}." if hours else "."),
+    ]
+    if proof_points:
+        desc_parts.append("\n".join(f"• {p}" for p in proof_points))
+    desc_parts.append(f"Call {brand} now: {phone}")
+    desc_parts.append(
+        f"{brand}\nPhone: {phone}\nWebsite: https://{domain}/\nServing: {city_names}"
+    )
+    desc_parts.append("Service areas:\n" + "\n".join(area_lines))
+    description = "\n\n".join(desc_parts)
+
+    svc_lower = svc_pretty.lower()
+    tags = [brand, svc_lower, f"{svc_lower} {city}", f"{svc_lower} near me", city]
+    for a in ordered[1:]:
+        cand = f"{svc_lower} {a['city']}"
+        if sum(len(t) for t in tags) + len(cand) > 420:  # YouTube ~500-char tag budget
+            break
+        tags.append(cand)
+
+    return {"youtube_title": title, "youtube_description": description, "tags": tags}
+
+
+def cmd_geo(args) -> int:
+    """Merchynt-style standalone local ranker: '{Service} {City}' video not tied to a
+    blog post. Claims-gated narration (truth fields only), deterministic metadata."""
+    slug, service, city = args.slug, args.service, args.city
+    model = GEMINI_FLASH_MODEL if args.flash else GEMINI_PRO_MODEL
+    privacy = "public" if args.public else "unlisted"
+    set_orientation(getattr(args, "vertical", False))
+    client = load_client(slug)
+
+    plan_services = []
+    try:
+        plan_services = json.loads(
+            (CLIENTS_DIR / slug / "plan-input.json").read_text()).get("services", [])
+    except Exception:
+        pass
+    if plan_services and service not in plan_services:
+        print(f"  warning: '{service}' not in plan services {plan_services}")
+
+    proof = geo_proof_points(slug)
+    meta = geo_metadata(client, service, city, proof)
+    print(f"\n==> System 5 (geo): {client.get('display_name', slug)} — "
+          f"{service.replace('-', ' ')} in {city}")
+    print(f"    Title: {meta['youtube_title']}")
+    print(f"    Proof points (claims-gated): {proof or 'none'}")
+    print(f"    Upload: {'no' if args.no_upload else privacy}")
+
+    INTRO, OUTRO = 2.0, 2.8  # silent branded bookends (logo card / CTA card)
+
+    with tempfile.TemporaryDirectory(prefix=f"rankai-geo-{slug}-") as tmp:
+        work_dir = Path(tmp)
+
+        print("\n[1/5] Generating geo script via Claude...")
+        script = generate_geo_script(client, service, city, proof)
+        claude_usage = script.pop("_usage", {})
+        scenes = script["scenes"]
+        script.update(meta)  # deterministic title/description/tags win
+        (work_dir / "script.json").write_text(json.dumps(script, indent=2))
+        narration = " ".join(s["narration"] for s in scenes)
+        print(f"  scenes: {len(scenes)} | narration: {len(narration.split())} words")
+
+        print("\n[2/5] Synthesising narration...")
+        raw_audio = work_dir / "narration_raw.mp3"
+        synthesise_speech(narration, raw_audio, tts=args.tts)
+        narr_dur = get_audio_duration(raw_audio)
+        audio_path = work_dir / "narration.mp3"
+        total_dur = INTRO + narr_dur + OUTRO
+        subprocess.run([
+            "ffmpeg", "-y", "-loglevel", "error", "-i", str(raw_audio),
+            "-af", f"adelay={int(INTRO*1000)}:all=1,apad=pad_dur={OUTRO}",
+            "-t", f"{total_dur:.3f}", "-c:a", "libmp3lame", "-b:a", "128k", str(audio_path),
+        ], check=True)
+        print(f"  narration {narr_dur:.1f}s -> padded {total_dur:.1f}s")
+
+        print("\n[3/5] Building clips (logo intro + scenes + CTA outro)...")
+        pub = SITES_DIR / slug / "public"
+        stills = [p for p in (pub / "services" / f"{service}.webp",
+                              pub / "images" / "hero-bg.webp",
+                              pub / "images" / "team.webp") if p.exists()]
+        scene_duration = narr_dur / len(scenes)
+        scene_clips = generate_scene_clips(
+            scenes, work_dir, model, slug, scene_duration,
+            post_stills=stills, max_ai_images=getattr(args, "max_ai_images", None))
+        intro_clip = work_dir / "clip_intro.mp4"
+        outro_clip = work_dir / "clip_outro.mp4"
+        build_still_clip(build_brand_card(slug, "intro", work_dir), intro_clip, INTRO, "in")
+        build_still_clip(build_brand_card(slug, "outro", work_dir), outro_clip, OUTRO, "out")
+        clip_paths = [intro_clip] + scene_clips + [outro_clip]
+
+        print("\n[4/5] Assembling...")
+        city_slug = city.lower().replace(",", "").replace(" ", "-")
+        out_name = f"geo-{service}-{city_slug}"
+        video_path = work_dir / f"{out_name}.mp4"
+        assemble_video(clip_paths, audio_path, video_path, work_dir)
+        thumb_path = generate_thumbnail(
+            script.get("thumbnail_prompt") or scenes[0].get("image_prompt", ""),
+            work_dir, model)
+        srt_path = work_dir / f"{out_name}.srt"
+        generate_srt(scenes, narr_dur, srt_path)
+        print(f"  video: {video_path.stat().st_size/1e6:.1f} MB")
+
+        n_ai = len(list(work_dir.glob("scene_*.png"))) + 1  # + thumbnail
+        log_video_cost(slug, f"/video/{out_name}", model, claude_usage,
+                       ai_images=n_ai, tts_chars=len(narration))
+
+        if args.no_upload:
+            dest = REPO_ROOT / "sites" / slug / f"{out_name}-draft.mp4"
+            shutil.copy(video_path, dest)
+            print(f"\n==> Geo video saved (no upload): {dest}")
+            return 0
+
+        print("\n[5/5] Uploading to YouTube...")
+        video_id = upload_to_youtube(slug, video_path, thumb_path, srt_path,
+                                     script, privacy=privacy)
+        print(f"\n==> Geo video: https://youtu.be/{video_id}  ({privacy})")
+    return 0
+
+
+def cmd_publish(args) -> int:
+    """Close the loop on a reviewed video: flip it PUBLIC on YouTube, write
+    youtube_id into the post frontmatter + content-queue item, commit, deploy."""
+    slug, post_slug = args.slug, args.post
+    client = load_client(slug)
+    post = load_post(slug, post_slug)
+    video_id = args.video_id or post["frontmatter"].get("youtube_id")
+    if not video_id:
+        die("No --video-id given and the post frontmatter has no youtube_id.")
+
+    print(f"\n==> Publish: {client.get('display_name', slug)} / {post_slug} "
+          f"-> https://youtu.be/{video_id}")
+
+    # 1. Flip the video public
+    try:
+        from googleapiclient.discovery import build
+    except ImportError:
+        die("Missing google-api-python-client. Run: pip install google-api-python-client")
+    creds = load_youtube_credentials(slug)
+    youtube = build("youtube", "v3", credentials=creds)
+    youtube.videos().update(
+        part="status",
+        body={"id": video_id, "status": {"privacyStatus": "public"}},
+    ).execute()
+    print("  [youtube] privacy -> public")
+
+    # 2. Frontmatter write-back (idempotent)
+    update_post_youtube_id(post["path"], video_id, transcript=args.transcript or None)
+    print(f"  [post] youtube_id written to {post['path'].relative_to(REPO_ROOT)}")
+
+    # 3. Queue item write-back
+    if mark_queue_video(slug, post_slug, video_id):
+        print("  [queue] content-queue item stamped with youtube_id")
+    else:
+        print("  [queue] no matching content-queue item (ok for seeded posts)")
+
+    # 4. Commit post + queue
+    subprocess.run(
+        ["git", "add", f"sites/{slug}/src/content/blog/{post_slug}.md",
+         f"clients/{slug}/content-queue.json"],
+        cwd=str(REPO_ROOT), capture_output=True, text=True,
+    )
+    msg = (
+        f"video: publish youtube_id for {slug}/{post_slug}\n\n"
+        f"System 5 video flipped public: https://youtu.be/{video_id}\n"
+        f"Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>"
+    )
+    r = subprocess.run(["git", "commit", "-m", msg], cwd=str(REPO_ROOT),
+                       capture_output=True, text=True)
+    print("  [git] committed" if r.returncode == 0
+          else "  [git] commit skipped (nothing new)")
+
+    # 5. Deploy so the embed goes live
+    if not args.no_deploy:
+        print("  Deploying updated post...")
+        subprocess.run(
+            [sys.executable, str(SCRIPT_DIR / "build_site.py"),
+             "sync-deploy", "--slug", slug, "--branch", "main", "--allow-dirty"],
+            cwd=str(REPO_ROOT),
+        )
+    print(f"\n==> Published. https://youtu.be/{video_id} is public; embed live after build.")
+    return 0
+
+
 def cmd_list(slug: str) -> int:
     """List uploaded videos for a client's YouTube channel."""
     try:
@@ -1636,6 +2179,12 @@ def main() -> int:
     pm.add_argument("--no-deploy", action="store_true", help="Skip sync-deploy after frontmatter update")
     pm.add_argument("--public", action="store_true", help="Upload as public (default: unlisted)")
     pm.add_argument("--vertical", action="store_true", help="Render 9:16 (1080x1920) instead of 16:9")
+    pm.add_argument("--title", help="Override the Claude-generated YouTube title")
+    pm.add_argument("--description-file", help="Path to a file whose contents override the YouTube description")
+    pm.add_argument("--max-ai-images", type=int, default=None,
+                    help="Cap unique Gemini stills; further AI scenes reuse earlier images")
+    pm.add_argument("--defer-writeback", action="store_true",
+                    help="Upload but do NOT write youtube_id into the post (use `publish` after review)")
     pm.set_defaults(func=cmd_make)
 
     pb = sub.add_parser("brand", help="Generate a brand-authority video (company/service/location overview)")
@@ -1649,6 +2198,28 @@ def main() -> int:
     pb.add_argument("--no-upload", action="store_true", help="Skip YouTube upload, save draft MP4 locally")
     pb.add_argument("--public", action="store_true", help="Upload as public (default: unlisted)")
     pb.set_defaults(func=cmd_brand)
+
+    pg = sub.add_parser("geo", help="Standalone local-ranker video: '{Service} {City} | {Brand}' (Merchynt style)")
+    pg.add_argument("--slug", required=True, help="Client slug")
+    pg.add_argument("--service", required=True, help="Service slug (e.g. water-damage-restoration)")
+    pg.add_argument("--city", required=True, help='City (e.g. "San Diego")')
+    pg.add_argument("--vertical", action="store_true", help="Render 9:16 (1080x1920) for GBP/Shorts")
+    pg.add_argument("--flash", action="store_true", help="Use Gemini Flash (cheaper images)")
+    pg.add_argument("--tts", choices=["elevenlabs", "google", "macos"], default="elevenlabs",
+                    help="TTS provider (default elevenlabs)")
+    pg.add_argument("--max-ai-images", type=int, default=None,
+                    help="Cap unique Gemini stills; further AI scenes reuse earlier images")
+    pg.add_argument("--no-upload", action="store_true", help="Skip YouTube upload, save draft MP4 locally")
+    pg.add_argument("--public", action="store_true", help="Upload as public (default: unlisted)")
+    pg.set_defaults(func=cmd_geo)
+
+    pp = sub.add_parser("publish", help="Flip a reviewed video public + write youtube_id into post/queue + commit")
+    pp.add_argument("--slug", required=True, help="Client slug")
+    pp.add_argument("--post", required=True, help="Blog post slug (filename without .md)")
+    pp.add_argument("--video-id", help="YouTube video id (default: post frontmatter youtube_id)")
+    pp.add_argument("--transcript", help="Optional narration transcript to write into frontmatter")
+    pp.add_argument("--no-deploy", action="store_true", help="Skip sync-deploy after write-back")
+    pp.set_defaults(func=cmd_publish)
 
     pl = sub.add_parser("list", help="List videos uploaded to a client's YouTube channel")
     pl.add_argument("--slug", required=True)
