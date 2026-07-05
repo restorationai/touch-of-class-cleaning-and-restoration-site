@@ -3,6 +3,7 @@
   "display_name": "National Restoration Construction",
   "domain": "narestco.com",
   "tier": "standard",
+  "vertical": "restoration",
   "image_policy": "pro_hero_flash_inline",
   "contact": null,
   "zone": {

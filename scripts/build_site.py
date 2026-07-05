@@ -37,6 +37,9 @@ from pathlib import Path
 
 import requests  # Supabase storage list (urllib is WAF-blocked on supabase.co)
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import verticals  # noqa: E402 — per-client vertical → template resolution (fail-loud)
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CLIENTS_DIR = REPO_ROOT / "clients"
 TEMPLATES_DIR = REPO_ROOT / "templates"
@@ -216,8 +219,8 @@ def build_llms_substitutions(plan_input: dict, client: dict) -> dict:
     certs = plan_input.get("brand", {}).get("certifications", [])
 
     # Note: services here are slugs; the human display name comes from the
-    # restoration template's services catalog. We re-load it for display.
-    catalog_path = TEMPLATES_DIR / "restoration" / "services.json"
+    # client's vertical services catalog. We re-load it for display.
+    catalog_path = verticals.resolve_template(client["slug"], "services.json", client=client)
     catalog = {s["slug"]: s for s in load_json(catalog_path)["services"]}
 
     # llms.txt spec recommends markdown link lists: "- [Name](url)"
@@ -520,9 +523,10 @@ def render_all_content(
     # Build lookups
     services_lookup = {s["slug"]: s for s in plan_input.get("services_resolved", [])}
     # If services_resolved isn't present (it's not — services in plan-input is a slug list),
-    # rebuild from the restoration template
+    # rebuild from the client's vertical template (resolved fail-loud per client)
+    _slug = plan_input.get("_slug", "")
     if not services_lookup:
-        catalog = load_json(TEMPLATES_DIR / "restoration" / "services.json")
+        catalog = load_json(verticals.resolve_template(_slug, "services.json"))
         catalog_by_slug = {s["slug"]: s for s in catalog["services"]}
         services_lookup = {
             s: catalog_by_slug[s] for s in plan_input.get("services", []) if s in catalog_by_slug
@@ -530,7 +534,7 @@ def render_all_content(
 
     areas_lookup = {a["slug"]: a for a in plan_input.get("service_areas", [])}
 
-    blog_topics = load_json(TEMPLATES_DIR / "restoration" / "seed-blog-topics.json")
+    blog_topics = load_json(verticals.resolve_template(_slug, "seed-blog-topics.json"))
     blog_topics_lookup = {t["slug"]: t for t in blog_topics["topics"]}
 
     count = 0
@@ -1067,14 +1071,14 @@ def cmd_render(args) -> int:
     if not site_dir.exists():
         die(f"Site dir {site_dir} doesn't exist. Run scaffold first.")
 
-    # Build lookups
-    catalog = load_json(TEMPLATES_DIR / "restoration" / "services.json")
+    # Build lookups (catalogs resolved from the client's vertical, fail-loud)
+    catalog = load_json(verticals.resolve_template(slug, "services.json", client=client))
     catalog_by_slug = {s["slug"]: s for s in catalog["services"]}
     services_lookup = {
         s: catalog_by_slug[s] for s in plan_input.get("services", []) if s in catalog_by_slug
     }
     areas_lookup = {a["slug"]: a for a in plan_input.get("service_areas", [])}
-    blog_topics = load_json(TEMPLATES_DIR / "restoration" / "seed-blog-topics.json")
+    blog_topics = load_json(verticals.resolve_template(slug, "seed-blog-topics.json", client=client))
     blog_topics_lookup = {t["slug"]: t for t in blog_topics["topics"]}
 
     # Filter pages
@@ -1723,11 +1727,11 @@ def cmd_add_pages(args) -> int:
     internal_links = load_json(CLIENTS_DIR / slug / "plan" / "internal-links.json")
     site_dir = SITES_DIR / slug
 
-    catalog = load_json(TEMPLATES_DIR / "restoration" / "services.json")
+    catalog = load_json(verticals.resolve_template(slug, "services.json"))
     catalog_by_slug = {s["slug"]: s for s in catalog["services"]}
     services_lookup = {s: catalog_by_slug[s] for s in plan_input.get("services", []) if s in catalog_by_slug}
     areas_lookup = {a["slug"]: a for a in plan_input.get("service_areas", [])}
-    blog_topics = load_json(TEMPLATES_DIR / "restoration" / "seed-blog-topics.json")
+    blog_topics = load_json(verticals.resolve_template(slug, "seed-blog-topics.json"))
     blog_topics_lookup = {t["slug"]: t for t in blog_topics["topics"]}
 
     new = 0

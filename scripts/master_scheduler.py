@@ -72,11 +72,14 @@ def _load_env_file() -> None:
 
 _load_env_file()
 
-# Prompt files used in headless (CI) mode — paths relative to ROOT
+# Prompt files used in headless (CI) mode — paths relative to the CLIENT'S
+# vertical template dir (templates/{vertical}/...). Resolved per client via
+# scripts/verticals.py at run time; hardcoding templates/restoration here
+# caused the davis-construction incident.
 HEADLESS_PROMPT_MAP = {
-    1: "templates/restoration/prompts/keyword-researcher.md",
-    3: "templates/restoration/prompts/onsite-audit.md",
-    4: "templates/restoration/prompts/refresh-recommender.md",
+    1: "prompts/keyword-researcher.md",
+    3: "prompts/onsite-audit.md",
+    4: "prompts/refresh-recommender.md",
 }
 
 # DataForSEO tools each system needs in headless mode
@@ -282,7 +285,16 @@ def run_agent_headless(system: int, slug: str) -> int:
     if not prompt_rel:
         print(f"    No headless prompt defined for System {system}")
         return 1
-    prompt_path = ROOT / prompt_rel
+    # Per-client vertical resolution (fail-loud): templates/{vertical}/{prompt_rel}.
+    # SystemExit is caught so one client's missing vertical asset marks THIS
+    # system failed (non-zero, alert fires) without killing other clients' runs.
+    import verticals  # local sibling module (scripts/)
+    try:
+        prompt_path = verticals.resolve_template(slug, prompt_rel)
+    except SystemExit:
+        print(f"    System {system} ({name}) BLOCKED for {slug}: vertical template "
+              f"resolution failed (see ERROR above).")
+        return 1
     if not prompt_path.exists():
         print(f"    Prompt file not found: {prompt_path}")
         return 1
@@ -583,7 +595,7 @@ def cmd_coverage(args) -> int:
     def cell(status: str, detail: str = "") -> str:
         return f"{status}({detail})" if detail else status
 
-    header = (f"{'CLIENT':32} {'QUEUE':10} {'KW-BANK':10} {'AUDIT<=45d':12} "
+    header = (f"{'CLIENT':32} {'VERTICAL':18} {'QUEUE':10} {'KW-BANK':10} {'AUDIT<=45d':12} "
               f"{'GEOGRID<=21d':14} {'GBP-PROFILE':12} {'AI-SCAN<=14d':12} {'NAP<=35d':15}")
     print(f"Coverage gate — {now.isoformat(timespec='seconds')}\n")
     print(header)
@@ -593,6 +605,19 @@ def cmd_coverage(args) -> int:
         slug = c["slug"]
         cid = cmap.get(slug) or c.get("company_id")
         row: list[str] = []
+
+        # 0. vertical set + templates/{vertical}/prompts/content-writer.md exists
+        vertical = c.get("vertical")
+        if not vertical:
+            row.append(cell("MISS", "unset"))
+            failures.append(f"{slug}: no \"vertical\" field in clients/{slug}.json — "
+                            f"pipeline can't resolve templates (davis incident guard)")
+        elif not (ROOT / "templates" / vertical / "prompts" / "content-writer.md").exists():
+            row.append(cell("MISS", vertical[:8]))
+            failures.append(f"{slug}: vertical={vertical} but templates/{vertical}/prompts/"
+                            f"content-writer.md does not exist — build the {vertical} assets")
+        else:
+            row.append(cell("OK", vertical[:12]))
 
         # 1. content queue depth
         qc = queued_count(c)
@@ -718,8 +743,8 @@ def cmd_coverage(args) -> int:
             else:
                 row.append(cell("OK", f"{nap_age}d"))
 
-        print(f"{slug:32} {row[0]:10} {row[1]:10} {row[2]:12} {row[3]:14} {row[4]:12} "
-              f"{row[5]:12} {row[6]:15}")
+        print(f"{slug:32} {row[0]:18} {row[1]:10} {row[2]:10} {row[3]:12} {row[4]:14} "
+              f"{row[5]:12} {row[6]:12} {row[7]:15}")
 
     if warnings:
         print("\nWarnings:")
@@ -767,7 +792,8 @@ def build_parser() -> argparse.ArgumentParser:
 
     pc = sub.add_parser("coverage",
                         help="Check every active client has every marketing system running "
-                             "(queue, keyword bank, audit, geo-grid, GBP, AI-search, NAP). Exit 1 on gaps.")
+                             "(vertical, queue, keyword bank, audit, geo-grid, GBP, AI-search, NAP). "
+                             "Exit 1 on gaps.")
     pc.add_argument("--slug", help="Limit to one client")
     pc.set_defaults(func=cmd_coverage)
 

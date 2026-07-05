@@ -34,6 +34,9 @@ from pathlib import Path
 import requests
 from dotenv import load_dotenv
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import verticals  # noqa: E402 — per-client vertical → template resolution (fail-loud)
+
 ROOT = Path(__file__).resolve().parent.parent
 load_dotenv(ROOT / ".env")
 
@@ -160,7 +163,7 @@ def site_services(slug: str) -> list[str]:
     if not pi.exists():
         return []
     services = json.loads(pi.read_text()).get("services", [])
-    cat = json.loads((ROOT / "templates" / "restoration" / "services.json").read_text())
+    cat = json.loads(verticals.resolve_template(slug, "services.json").read_text())
     by_slug = {s["slug"]: s.get("display_name", s["slug"]) for s in cat["services"]}
     return [by_slug.get(s, s) for s in services]
 
@@ -710,10 +713,11 @@ def _slugify(text: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", (text or "").lower()).strip("-")
 
 
-def service_to_slug(display: str) -> str:
+def service_to_slug(display: str, client_slug: str) -> str:
     """Map a GBP service display name to a catalog service slug if one matches
-    (by normalized name), else a fresh slug from the display name."""
-    cat = json.loads((ROOT / "templates" / "restoration" / "services.json").read_text())
+    (by normalized name), else a fresh slug from the display name. Catalog is
+    the CLIENT's vertical catalog (templates/{vertical}/services.json)."""
+    cat = json.loads(verticals.resolve_template(client_slug, "services.json").read_text())
     for s in cat["services"]:
         if _norm(s.get("display_name", s["slug"])) == _norm(display):
             return s["slug"]
@@ -732,11 +736,12 @@ SENSITIVE_HINTS = ("biohazard", "trauma", "hoarding", "crime", "death", "sewage"
                    "blood", "unattended", "suicide", "meth")
 
 
-def ensure_catalog_entry(slug: str, display_name: str) -> bool:
-    """Make sure the restoration services catalog has this service so plan_site won't
-    reject it (plan_site dies on slugs not in the catalog). Clients declare services the
-    template doesn't have yet; append a minimal VALID entry. Returns True if added."""
-    cat_path = ROOT / "templates" / "restoration" / "services.json"
+def ensure_catalog_entry(slug: str, display_name: str, client_slug: str) -> bool:
+    """Make sure the CLIENT'S VERTICAL services catalog has this service so plan_site
+    won't reject it (plan_site dies on slugs not in the catalog). Clients declare
+    services the template doesn't have yet; append a minimal VALID entry to
+    templates/{vertical}/services.json. Returns True if added."""
+    cat_path = verticals.resolve_template(client_slug, "services.json")
     cat = json.loads(cat_path.read_text())
     if any(s["slug"] == slug for s in cat["services"]):
         return False
@@ -821,8 +826,8 @@ def create_pages(slug_filter: str | None = None, build: bool = False) -> list[st
         services = pi.get("services", [])
         added, new_catalog = [], []
         for r in reqs:
-            sslug = service_to_slug(r["service"])
-            if ensure_catalog_entry(sslug, r["service"]):
+            sslug = service_to_slug(r["service"], slug)
+            if ensure_catalog_entry(sslug, r["service"], slug):
                 new_catalog.append(sslug)
             if sslug not in services:
                 services.append(sslug)

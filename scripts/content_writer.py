@@ -10,7 +10,8 @@ collection, marks the queue item as written, commits the monorepo, sync-deploys.
 One post per run. Designed for headless cron via the master scheduler.
 
 Spec: rank-ai/docs/seo-operations-spec.md
-Prompt: rank-ai/templates/restoration/prompts/content-writer.md
+Prompt: rank-ai/templates/{vertical}/prompts/content-writer.md — resolved per
+client via scripts/verticals.py (fail-loud; never hardcode a vertical).
 
 Subcommands:
   next-post    Pop next priority-1 queue item, write + publish.
@@ -43,12 +44,16 @@ from pathlib import Path
 SCRIPT_DIR = Path(__file__).resolve().parent
 sys.path.insert(0, str(SCRIPT_DIR))
 import image_utils  # noqa: E402 — local helper, lives in scripts/
+import verticals    # noqa: E402 — per-client vertical → template resolution
 
 REPO_ROOT = SCRIPT_DIR.parent
 CLIENTS_DIR = REPO_ROOT / "clients"
 SITES_DIR = REPO_ROOT / "sites"
 TEMPLATES_DIR = REPO_ROOT / "templates"
-PROMPT_PATH = TEMPLATES_DIR / "restoration" / "prompts" / "content-writer.md"
+# Relative prompt path — resolved per client (templates/{vertical}/...) in
+# build_prompt_inputs. Hardcoding templates/restoration here caused the
+# davis-construction incident.
+CONTENT_WRITER_PROMPT_REL = "prompts/content-writer.md"
 
 ANTHROPIC_API = "https://api.anthropic.com/v1/messages"
 ANTHROPIC_MODEL = "claude-sonnet-4-6"
@@ -381,8 +386,10 @@ def build_prompt_inputs(slug: str, item: dict) -> tuple[str, str]:
     style_guide_path = CLIENTS_DIR / slug / "image-style-guide.md"
     style_guide = style_guide_path.read_text() if style_guide_path.exists() else ""
 
-    # Read the prompt template (source of truth)
-    system = PROMPT_PATH.read_text()
+    # Read the prompt template (source of truth) — resolved per client vertical,
+    # fail-loud if the vertical's prompt asset doesn't exist.
+    prompt_path = verticals.resolve_template(slug, CONTENT_WRITER_PROMPT_REL, client=client)
+    system = prompt_path.read_text()
 
     # Resolve the client context block for the user message
     brand = plan_input.get("brand", {})

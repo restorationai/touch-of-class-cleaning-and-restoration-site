@@ -3,6 +3,7 @@
   "display_name": "ProBrite Gen",
   "domain": "probritegen.com",
   "tier": "standard",
+  "vertical": "restoration",
   "image_policy": "pro_hero_flash_inline",
   "contact": {
     "phone": "(832) 688-6779",

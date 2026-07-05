@@ -1,0 +1,16 @@
+{
+  "name": "BlogPost",
+  "path_pattern": "/blog/{post.slug}/",
+  "driver": "seed-blog-topics[] (top N by priority, N = blog_seed_count)",
+  "title_template": "{post.title}",
+  "h1_template": "{post.title}",
+  "meta_description_template_ref": "generated_from_post",
+  "primary_keyword_template_ref": "post.primary_keyword (resolved at plan time)",
+  "secondary_keywords_ref": "post.secondary_keywords (resolved at plan time)",
+  "search_intent_default_ref": "seed-blog-topics[].intent",
+  "target_word_count": 1400,
+  "image_roles": ["hero", "og", "inline-1", "inline-2"],
+  "schema_stubs": ["blog-posting", "faq", "breadcrumb-list"],
+  "linking_rules_ref": "blog-post",
+  "required_brand_fields": ["display_name", "phone"]
+}

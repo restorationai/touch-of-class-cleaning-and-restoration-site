@@ -38,6 +38,9 @@ import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import verticals  # noqa: E402 — vertical registry (dirs under templates/)
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CLIENTS_DIR = REPO_ROOT / "clients"
 CF_API_BASE = "https://api.cloudflare.com/client/v4"
@@ -160,10 +163,15 @@ def cmd_init(args) -> int:
         print("Re-run with --force to overwrite, or use 'provision' to continue.")
         return 1
 
+    if args.vertical not in verticals.known_verticals():
+        die(f"--vertical must be one of: {', '.join(verticals.known_verticals())} "
+            f"(dirs under templates/), got: {args.vertical}")
+
     print(f"==> Initializing client: {args.name}")
-    print(f"    slug:   {slug}")
-    print(f"    domain: {domain}")
-    print(f"    tier:   {args.tier} (image_policy={image_policy})")
+    print(f"    slug:     {slug}")
+    print(f"    domain:   {domain}")
+    print(f"    tier:     {args.tier} (image_policy={image_policy})")
+    print(f"    vertical: {args.vertical}")
     print()
 
     # Step 1: Check if zone already exists in this account
@@ -195,6 +203,7 @@ def cmd_init(args) -> int:
             "display_name": args.name,
             "domain": domain,
             "tier": args.tier,
+            "vertical": args.vertical,
             "image_policy": image_policy,
             "contact": args.contact,
             "zone": {
@@ -734,6 +743,11 @@ def build_parser() -> argparse.ArgumentParser:
     pi.add_argument("--name", required=True, help='Display name, e.g. "Acme Plumbing"')
     pi.add_argument("--domain", required=True, help="Root domain, e.g. acme.com")
     pi.add_argument("--tier", choices=["standard", "premium", "budget"], default="standard")
+    pi.add_argument("--vertical", required=True, choices=verticals.known_verticals(),
+                    help="Industry vertical — selects templates/{vertical}/ for the whole "
+                         "pipeline (prompts, archetypes, catalogs). REQUIRED so a "
+                         "construction/plumbing/HVAC client can never silently receive "
+                         "restoration templates (davis incident).")
     pi.add_argument("--contact", default=None, help="Contact email (optional)")
     pi.add_argument("--slug", default=None, help="Override derived slug (optional)")
     pi.add_argument("--force", action="store_true", help="Overwrite existing record")

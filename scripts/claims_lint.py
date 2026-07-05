@@ -80,8 +80,11 @@ def truth_from_plan_input(plan_input: dict, client: dict | None = None,
         lic = [lic] if lic.strip() else []
     lic = [str(x) for x in lic if str(x).strip()]
 
-    vertical = (client.get("plan", {}) or {}).get("template") \
-        or client.get("vertical") \
+    # The explicit "vertical" field is authoritative (scripts/verticals.py);
+    # plan.template is historical build state and can be stale (davis was
+    # built on the restoration template before the vertical split).
+    vertical = client.get("vertical") \
+        or (client.get("plan", {}) or {}).get("template") \
         or (client.get("verticals") or [None])[0]
 
     resp = brand.get("response_minutes")

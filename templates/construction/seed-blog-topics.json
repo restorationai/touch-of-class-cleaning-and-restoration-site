@@ -1,0 +1,125 @@
+{
+  "version": "0.1.0",
+  "note": "Ranked seed blog topics for construction-industry sites. Skill 2 plans the first N (default 12) at launch; Skill 4's routine consumes the remainder over time. priority is 1-10 (higher = sooner). title_template supports {primary_city} substitution where geographic anchoring helps SEO.",
+  "topics": [
+    {
+      "slug": "how-to-plan-a-home-remodel",
+      "title_template": "How To Plan a Home Remodel: A Step-by-Step Guide",
+      "services": ["home-remodeling", "general-contracting"],
+      "intent": "informational_process",
+      "priority": 10
+    },
+    {
+      "slug": "choosing-a-general-contractor",
+      "title_template": "How To Choose a General Contractor in {primary_city} (Without Getting Burned)",
+      "services": ["general-contracting", "home-remodeling", "new-construction"],
+      "intent": "commercial_decision",
+      "priority": 10
+    },
+    {
+      "slug": "kitchen-remodel-cost-breakdown",
+      "title_template": "How Much Does a Kitchen Remodel Cost? A Realistic Budget Breakdown",
+      "services": ["kitchen-remodeling", "home-remodeling"],
+      "intent": "commercial_decision",
+      "priority": 9
+    },
+    {
+      "slug": "roofing-material-comparison",
+      "title_template": "Asphalt vs Metal vs Tile: Choosing the Right Roofing Material",
+      "services": ["roofing"],
+      "intent": "informational_specialty",
+      "priority": 9
+    },
+    {
+      "slug": "do-you-need-a-permit",
+      "title_template": "Do You Need a Permit for That? Home Project Permits, Explained",
+      "services": ["general-contracting", "home-remodeling", "room-addition"],
+      "intent": "informational_process",
+      "priority": 9
+    },
+    {
+      "slug": "questions-to-ask-before-signing-contract",
+      "title_template": "15 Questions To Ask a Contractor Before Signing a Construction Contract",
+      "services": ["general-contracting"],
+      "intent": "informational_trust",
+      "priority": 9
+    },
+    {
+      "slug": "how-long-does-roof-replacement-take",
+      "title_template": "How Long Does a Roof Replacement Actually Take?",
+      "services": ["roofing"],
+      "intent": "informational_process",
+      "priority": 8
+    },
+    {
+      "slug": "wood-vs-composite-decking",
+      "title_template": "Wood vs Composite Decking: Which Is Right for Your Backyard?",
+      "services": ["decks-pergolas-fences"],
+      "intent": "informational_specialty",
+      "priority": 8
+    },
+    {
+      "slug": "siding-options-compared",
+      "title_template": "Vinyl, Fiber Cement, or Wood? Home Siding Options Compared",
+      "services": ["siding-gutters"],
+      "intent": "informational_specialty",
+      "priority": 8
+    },
+    {
+      "slug": "storm-damage-repair-process",
+      "title_template": "The Storm Damage Repair Process: From Inspection to Finished Rebuild",
+      "services": ["storm-damage-restoration", "roofing"],
+      "intent": "informational_process",
+      "priority": 8
+    },
+    {
+      "slug": "storm-damage-insurance-claim-checklist",
+      "title_template": "Storm Damage Insurance Claim Checklist for Homeowners",
+      "services": ["storm-damage-restoration"],
+      "intent": "informational_insurance",
+      "priority": 8
+    },
+    {
+      "slug": "mold-found-during-renovation",
+      "title_template": "Found Mold During a Renovation? Here's What Happens Next",
+      "services": ["mold-remediation", "home-remodeling"],
+      "intent": "informational_health",
+      "priority": 8
+    },
+    {
+      "slug": "budgeting-financing-home-addition",
+      "title_template": "How To Budget (and Finance) a Home Addition",
+      "services": ["room-addition", "general-contracting"],
+      "intent": "commercial_decision",
+      "priority": 8
+    },
+    {
+      "slug": "how-long-to-build-a-house",
+      "title_template": "How Long Does It Take To Build a House? A Realistic Timeline",
+      "services": ["new-construction"],
+      "intent": "informational_process",
+      "priority": 8
+    },
+    {
+      "slug": "water-damage-repair-vs-replace",
+      "title_template": "Water-Damaged Drywall and Flooring: What To Repair vs What To Replace",
+      "services": ["water-damage-restoration", "drywall-interior-finishing"],
+      "intent": "informational_process",
+      "priority": 7
+    },
+    {
+      "slug": "deck-maintenance-guide",
+      "title_template": "Deck Maintenance 101: Keep Your Deck Looking New for Decades",
+      "services": ["decks-pergolas-fences"],
+      "intent": "informational_prevention",
+      "priority": 7
+    },
+    {
+      "slug": "exterior-painting-prep",
+      "title_template": "Why Prep Work Is 80% of a Great Exterior Paint Job",
+      "services": ["painting-trim"],
+      "intent": "informational_specialty",
+      "priority": 7
+    }
+  ]
+}

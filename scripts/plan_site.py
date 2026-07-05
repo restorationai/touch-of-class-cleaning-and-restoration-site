@@ -52,6 +52,7 @@ from claims_lint import (  # noqa: E402 — local sibling module
     sanitize_claims_text,
     truth_from_plan_input,
 )
+import verticals  # noqa: E402 — per-client vertical → template resolution (fail-loud)
 
 # Archetype-level priority. Multiplied with per-instance priority to rank pages
 # in the content-map for content-generation order.
@@ -882,13 +883,19 @@ def _format_regional_climate_notes(inputs: dict) -> str:
     return "Regional climate cues per primary city; adapt exterior shots to match."
 
 
-def write_image_style_guide(out_path: Path, inputs: dict, template: Template) -> None:
-    """Resolve the restoration image-style-guide template with per-client values.
+def write_image_style_guide(out_path: Path, inputs: dict, template: Template,
+                            slug: str | None = None) -> None:
+    """Resolve the vertical's image-style-guide template with per-client values.
     Brand colors come from plan-input.json (client's real brand identity), with
     defaults from the canonical starter palette only as fallback."""
-    tmpl_path = TEMPLATES_DIR / "restoration" / "image-style-guide.template.md"
-    if not tmpl_path.exists():
-        return  # template not present yet — skip silently
+    if slug:
+        # Per-client vertical resolution — fail loud if the vertical lacks the
+        # asset (no silent skip, no silent restoration fallback).
+        tmpl_path = verticals.resolve_template(slug, "image-style-guide.template.md")
+    else:
+        tmpl_path = TEMPLATES_DIR / template.name / "image-style-guide.template.md"
+        if not tmpl_path.exists():
+            return  # template not present yet — skip silently (legacy path)
     brand = dict(inputs.get("brand", {}))
     primary = next((a for a in inputs.get("service_areas", []) if a.get("primary")),
                    inputs.get("service_areas", [{}])[0])
@@ -1032,8 +1039,28 @@ def cmd_generate(args) -> int:
         )
     plan_input = load_json(input_path)
 
-    # Resolve template
-    template_name = args.template or plan_input.get("template", "restoration")
+    # Resolve template — the client's explicit vertical is the source of truth.
+    # A plan-input/CLI template that disagrees with the vertical is a hard error
+    # unless the client record explicitly acknowledges it (davis incident guard).
+    vertical = verticals.get_vertical(slug, client=client)
+    template_name = args.template or plan_input.get("template") or vertical
+    if template_name != vertical and not client.get("vertical_override_ack") \
+            and not client.get("vertical_template_fallback"):
+        die(
+            f"Client {slug} is vertical={vertical} but the plan requests "
+            f"template={template_name!r} "
+            f"({'--template flag' if args.template else 'plan-input.json'}). "
+            f"Fix the template field to {vertical!r}, or set "
+            f"clients/{slug}.json \"vertical_template_fallback\" / "
+            f"\"vertical_override_ack\" to consciously plan with another "
+            f"vertical's template."
+        )
+    # Fail loud (with the standard resolver error) if the vertical's core plan
+    # assets don't exist, BEFORE load_template's generic missing-file errors.
+    if template_name == vertical:
+        for asset in ("template.json", "services.json", "seed-blog-topics.json",
+                      "archetypes", "linking-rules.json"):
+            verticals.resolve_template(slug, asset, client=client)
     template = load_template(template_name)
 
     # Normalize inputs
@@ -1087,7 +1114,7 @@ def cmd_generate(args) -> int:
     # Skill 4 (blog routine) and Skill 3 (image regen) consult this file before
     # every Nano Banana call.
     style_guide_path = CLIENTS_DIR / slug / "image-style-guide.md"
-    write_image_style_guide(style_guide_path, inputs, template)
+    write_image_style_guide(style_guide_path, inputs, template, slug=slug)
 
     # Validate before report so the report includes issues
     issues = validate_plan(pages, graph, schema_stubs, template)
@@ -1111,12 +1138,34 @@ def cmd_generate(args) -> int:
     return 0
 
 
+def _warn_template_vertical_mismatch(slug: str, plan_template: str) -> None:
+    """Read-only commands don't hard-fail on a stale plan, but they must be
+    LOUD when the persisted plan's template disagrees with the client's
+    vertical (davis incident: a construction client with a restoration plan)."""
+    try:
+        rec = json.loads(client_record_path(slug).read_text())
+    except (OSError, json.JSONDecodeError):
+        return
+    vertical = rec.get("vertical")
+    if vertical and plan_template != vertical \
+            and not rec.get("vertical_override_ack") \
+            and not rec.get("vertical_template_fallback"):
+        print(
+            f"WARNING: {slug} is vertical={vertical} but the persisted plan was "
+            f"generated with template={plan_template!r}. Re-plan with the "
+            f"{vertical} template (plan_site.py generate) or set an explicit "
+            f"vertical_template_fallback in clients/{slug}.json.",
+            file=sys.stderr,
+        )
+
+
 def cmd_validate(args) -> int:
     slug = args.slug
     out_dir = plan_dir(slug)
     if not (out_dir / "url-plan.json").exists():
         die(f"No plan found at {out_dir}. Run `generate` first.")
     payload = load_json(out_dir / "url-plan.json")
+    _warn_template_vertical_mismatch(slug, payload["template"])
     template = load_template(payload["template"])
     pages = []
     for d in payload["pages"]:
@@ -1147,6 +1196,7 @@ def cmd_report(args) -> int:
     if not (out_dir / "url-plan.json").exists():
         die(f"No plan found at {out_dir}. Run `generate` first.")
     payload = load_json(out_dir / "url-plan.json")
+    _warn_template_vertical_mismatch(slug, payload["template"])
     template = load_template(payload["template"])
     plan_input = load_json(out_dir / "plan-input.json")
     client = load_json(client_record_path(slug))
@@ -1194,7 +1244,10 @@ def build_parser() -> argparse.ArgumentParser:
 
     pg = sub.add_parser("generate", help="Produce all plan artifacts from inputs")
     pg.add_argument("--slug", required=True)
-    pg.add_argument("--template", default=None, help="Override template name (default: from plan-input.json or 'restoration')")
+    pg.add_argument("--template", default=None,
+                    help="Override template name (default: plan-input.json 'template' or the "
+                         "client's vertical). Must match the client's vertical unless the "
+                         "client record sets vertical_template_fallback/vertical_override_ack.")
     pg.set_defaults(func=cmd_generate)
 
     pv = sub.add_parser("validate", help="Lint an existing plan")

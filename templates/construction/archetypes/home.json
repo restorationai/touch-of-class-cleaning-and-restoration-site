@@ -1,0 +1,20 @@
+{
+  "name": "Home",
+  "fixed_ref": "home",
+  "path_pattern": "/",
+  "title_template": "{brand.display_name} | General Contractor in {brand.primary_city}, {brand.primary_state}",
+  "h1_template": "Trusted General Contractor in {brand.primary_city}",
+  "meta_description_template": "{brand.display_name} is a licensed general contractor serving {brand.primary_city} and surrounding areas — remodeling, new construction, roofing, and exterior work. Free estimates. Call {brand.phone}.",
+  "primary_keyword_template": "general contractor {brand.primary_city|lower}",
+  "secondary_keywords": [
+    "general contractor near me",
+    "home remodeling contractor",
+    "licensed construction company"
+  ],
+  "search_intent_default": "local_commercial",
+  "target_word_count": 1200,
+  "image_roles": ["hero", "og", "inline-1", "inline-2", "inline-3"],
+  "schema_stubs": ["organization", "website", "local-business", "aggregate-rating"],
+  "linking_rules_ref": "home",
+  "required_brand_fields": ["display_name", "phone", "primary_city", "primary_state"]
+}

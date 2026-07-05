@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org",
+  "@type": "AggregateRating",
+  "itemReviewed": {
+    "@id": "{brand.entity_id}"
+  },
+  "ratingValue": "{brand.gbp_rating_value}",
+  "reviewCount": "{brand.gbp_review_count}",
+  "bestRating": "5",
+  "worstRating": "1",
+  "_notes": [
+    "Source of truth for ratings is Google Business Profile. Skill 3 reads brand.gbp_rating_value and brand.gbp_review_count from plan-input.json's brand block (populated by Skill 2 from DataForSEO business_data_business_listings_search).",
+    "Emit only when both fields are populated. Empty/null fields → omit the entire AggregateRating block (do NOT emit a 0-rating block; that hurts trust signals).",
+    "Embed AggregateRating INSIDE the LocalBusiness/Organization block on the home and about pages — NOT as a standalone top-level schema. Google ignores orphaned AggregateRating blocks.",
+    "Refresh policy: re-fetch GBP rating quarterly (or whenever the build runs after >90 days). Pin the value to the build for determinism."
+  ]
+}

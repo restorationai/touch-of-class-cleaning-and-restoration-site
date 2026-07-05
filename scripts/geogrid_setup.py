@@ -38,7 +38,8 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 import geogrid_scan as gs  # noqa: E402  (load_dfs_creds, rank-at-point primitives)
 
-SERVICES_CATALOG = ROOT / "templates" / "restoration" / "services.json"
+# NOTE: the services catalog is per-client vertical — resolved in load_catalog()
+# via scripts/verticals.py (fail-loud). Never hardcode templates/restoration.
 TIER_RANK = {"core": 0, "specialty": 1, "adjacent": 2}
 COST_PER_SCAN = 0.34   # ~ 169 points x ~$0.002 at 13x13 zoom 12 (observed)
 NOMINATIM = "https://nominatim.openstreetmap.org/search"
@@ -56,8 +57,9 @@ def load_plan(slug: str) -> dict:
     return json.loads(p.read_text())
 
 
-def load_catalog() -> dict:
-    s = json.loads(SERVICES_CATALOG.read_text())
+def load_catalog(slug: str) -> dict:
+    import verticals  # local sibling module (scripts/) — fail-loud vertical resolution
+    s = json.loads(verticals.resolve_template(slug, "services.json").read_text())
     items = s if isinstance(s, list) else s.get("services", list(s.values()))
     return {it["slug"]: it for it in items if isinstance(it, dict) and "slug" in it}
 
@@ -75,7 +77,7 @@ def derive_keywords(slug: str, max_keywords: int = 10) -> list[str]:
     take the head term of each, and add 'near me' variants for the two strongest.
     """
     plan = load_plan(slug)
-    catalog = load_catalog()
+    catalog = load_catalog(slug)
     services = [catalog[s] for s in plan.get("services", []) if s in catalog]
     services.sort(key=lambda it: (TIER_RANK.get(it.get("tier"), 9), -(it.get("priority") or 0)))
 

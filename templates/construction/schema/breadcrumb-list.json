@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": "{page.breadcrumb_items}",
+  "_item_shape": {
+    "@type": "ListItem",
+    "position": "{n}",
+    "name": "{crumb.name}",
+    "item": "{crumb.url}"
+  },
+  "_notes": [
+    "Skill 3 derives page.breadcrumb_items from the URL path:",
+    "  /services/home-remodeling/               → [Home → Services → Home Remodeling]",
+    "  /service-areas/davis-ca/home-remodeling/  → [Home → Service Areas → Davis, CA → Home Remodeling]",
+    "  /blog/{slug}/                            → [Home → Blog → {Post Title}]",
+    "Emit on every non-home page. Skip on the home page (a single-element breadcrumb adds no value).",
+    "Final crumb (current page) MUST NOT have an `item` URL per Google's spec — only `name` and `position`."
+  ]
+}
