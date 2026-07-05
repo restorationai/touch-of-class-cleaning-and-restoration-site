@@ -62,7 +62,8 @@ from ai_search_scan import run_query as ai_chat_query, _domain  # noqa: E402
 # Config
 # ---------------------------------------------------------------------------
 
-BUCKET = "restorationai-media"
+BUCKET = "restorationai-media"          # public (report.html + heat-map PNGs only)
+PRIVATE_BUCKET = "rankai-leads-private"  # NOT publicly served — lead PII (audit.json, leads.jsonl)
 PUBLIC_BASE = "https://pub-8020f9b4a75d4346b4d17d9e4bec7392.r2.dev"
 PREFIX = "lead-audits"
 BOOK_URL = "https://link.restorationai.io/widget/booking/5GoVLLz9HDn8Ik3RjFMB"
@@ -807,9 +808,9 @@ def r2_get(bucket, key):
 def append_lead_jsonl(lead):
     """Durable lead log in R2 (no Rank AI house company exists in the app DB)."""
     key = PREFIX + "/leads.jsonl"
-    existing = r2_get(BUCKET, key) or b""
+    existing = r2_get(PRIVATE_BUCKET, key) or b""
     line = (json.dumps(lead) + "\n").encode()
-    r2_put(BUCKET, key, existing + line, "application/x-ndjson")
+    r2_put(PRIVATE_BUCKET, key, existing + line, "application/x-ndjson")
 
 
 def send_email(to_addr, subject, html_body):
@@ -972,7 +973,7 @@ def run_audit(website, name, email, phone, audit_id=None, email_mode="all", prog
         raise RuntimeError("R2 upload of report failed")
     report_url = "{}/{}".format(PUBLIC_BASE, report_key)
     costs["claude"] = _claude_cost(usages)
-    r2_put(BUCKET, "{}/{}/audit.json".format(PREFIX, audit_id),
+    r2_put(PRIVATE_BUCKET, "{}/{}/audit.json".format(PREFIX, audit_id),
            json.dumps({"audit_id": audit_id, "requested_by": {"name": name, "email": email, "phone": phone},
                        "data": data, "copy": copy, "costs": costs, "errors": errors,
                        "created_at": _now_iso()}, indent=1).encode(),
