@@ -165,7 +165,7 @@ The worker's uniform stays the same; their PPE and equipment shift per service. 
 This list drives the image generation plan. Skill 3 (initial scaffold) generates the hero. Skill 4 (blog routine) generates blog hero + inline images per post. Service and area images are filled in over time.
 
 ### Brand-level
-- [ ] Homepage hero — the "arrival at dusk" composition (worker + branded van + lit property), or analogous high-leverage opener
+- [ ] Homepage hero — **DEFAULT: branded small-fleet scene.** A matched fleet of 3-5 company vehicles (Transit-style cargo vans and/or box trucks) in one identical livery built from the client's brand colors (primary color panel/wrap + accent swoosh), parked in a staggered line on a residential street matching the client's region, golden-hour light, editorial-photography look. Livery rules: one small stylized brand mark/wordmark per vehicle only — NO phone numbers, NO website URLs, NO certification badges, NO other readable text (AI-rendered text artifacts fail review). Composition: fleet in the center/right two-thirds; LEFT THIRD calm (open street/sky) for headline overlay. Alternative if the operator prefers: the "arrival at dusk" single-van composition (worker + branded van + lit property).
 - [ ] Logo placement test image (no actual logo — narrative shot with brand color in worker uniform)
 - [ ] OG / social-share card (1200×630) — usually a crop or variant of the hero
 

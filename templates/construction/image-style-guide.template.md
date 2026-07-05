@@ -165,7 +165,7 @@ The crew member's workwear stays the same; their PPE and tools shift per service
 This list drives the image generation plan. Skill 3 (initial scaffold) generates the hero. Skill 4 (blog routine) generates blog hero + inline images per post. Service and area images are filled in over time.
 
 ### Brand-level
-- [ ] Homepage hero — golden-hour finished project with crew member + branded truck in frame, or a confident mid-build framing shot against blue sky
+- [ ] Homepage hero — **DEFAULT: branded small-fleet scene.** A matched fleet of 3-5 company vehicles (pickup trucks, box trucks, and/or cargo vans typical of the trade) in one identical livery built from the client's brand colors (primary color panel/wrap + accent stripe), staged in front of a finished or in-progress project matching the client's region, golden-hour light, editorial-photography look. Livery rules: one small stylized brand mark/wordmark per vehicle only — NO phone numbers, NO website URLs, NO license/certification numbers, NO other readable text (AI-rendered text artifacts fail review). Composition: fleet in the center/right two-thirds; LEFT THIRD calm (open sky/street) for headline overlay. Alternative if the operator prefers: golden-hour finished project with crew member + single branded truck.
 - [ ] Logo placement test image (no actual logo — narrative shot with brand color on crew workwear)
 - [ ] OG / social-share card (1200×630) — usually a crop or variant of the hero
 
