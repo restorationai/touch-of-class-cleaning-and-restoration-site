@@ -19,3 +19,14 @@ Follow-up to fully activate (pending):
 - Add both cities to keyword research seeds so System 1 → System 2 produce blog posts
   targeting these areas.
 - Optionally add to `geogrid-cities.json` / `geogrid-keywords.txt` for local map-rank tracking.
+
+## 2026-07-05 — Interim brand assets (REAL LOGO STILL NEEDED)
+- Client has NO real logo on file. Shipped interim assets generated in-house:
+  favicon set (HP monogram, navy #0d1b3e / orange #f97316, PIL-generated) and
+  a wordmark logo.png at images.homepriderestorationandcleaning.com/brand/logo.png
+  (fixes the previous 404 in brand.ts logoUrl / schema / footer).
+- ACTION: get a real logo from the client (or commission one) and replace
+  brand/logo.png in R2 + regenerate favicons to match.
+- Homepage hero swapped to branded fleet scene: brand/hero-fleet.webp
+  (alternates kept at brand/hero-fleet-alt1.webp / -alt2.webp; source PNG in
+  clients/homepriderestorationandcleaning/Photos/brand-hero-fleet.png).
