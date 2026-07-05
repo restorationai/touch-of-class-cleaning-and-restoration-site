@@ -1612,7 +1612,7 @@ def cmd_sync_deploy_all(args) -> int:
 # If the live sitemap can't be fetched (staging domain, site not yet live), we
 # fall back to pinging just the homepage.
 
-INDEXNOW_ENDPOINT = "https://api.indexnow.org/indexnow"
+INDEXNOW_ENDPOINT = "https://www.bing.com/indexnow"  # bing endpoint: api.indexnow.org caches premature 403s (davis/FF hit this); bing accepts the same protocol
 INDEXNOW_URL_CAP = 500
 
 
