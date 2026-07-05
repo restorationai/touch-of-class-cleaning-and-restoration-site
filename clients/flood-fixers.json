@@ -51,5 +51,6 @@
     "property_url": "sc-domain:flood-fixers.com",
     "verified_at": "2026-07-04T20:55:48+00:00",
     "sitemap_url": "https://flood-fixers.com/sitemap-index.xml"
-  }
+  },
+  "cut_over_at": "2026-07-04T20:30:00Z"
 }
