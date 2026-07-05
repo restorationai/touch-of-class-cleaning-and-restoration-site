@@ -38,7 +38,7 @@ Contaminated materials — drywall, insulation, wood framing where necessary —
 
 ## Response Time to Athens from Madison
 
-Our headquarters in Madison puts us roughly 20 minutes from most of Athens via Highway 72 under normal traffic conditions. For addresses in the 35611 ZIP code — which covers much of the older residential core including areas near Athens State University — we can typically have a crew on-site within 45 to 60 minutes of your call. The eastern growth areas in the 35613 corridor add only a few minutes to that estimate.
+Our headquarters in Madison puts us roughly 20 minutes from most of Athens via Highway 72 under normal traffic conditions. For addresses in the 35611 ZIP code — which covers much of the older residential core including areas near Athens State University — we can typically have a crew out the same day you call, with active water and mold emergencies scheduled first. The eastern growth areas in the 35613 corridor add only a few minutes to that estimate.
 
 Mold remediation is rarely a true emergency in the same sense as active flooding, but speed still matters. Every 24 hours of delay in a humid Athens summer gives existing colonies more surface area to colonize. If you're calling because you've just discovered visible growth after a recent water event, the sooner containment is established, the less material typically needs to come out.
 

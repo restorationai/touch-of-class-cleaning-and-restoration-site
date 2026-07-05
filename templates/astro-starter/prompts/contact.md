@@ -11,7 +11,7 @@ Write the body for the **Contact** page of {brand.display_name}'s website.
 - Phone: **{brand.phone}** (the primary CTA on this page)
 - Email: {brand.email}
 - HQ address: {brand.street_address}, {brand.primary_city}, {brand.primary_state} {brand.postal_code}
-- Hours: {brand.hours} (24/7 emergency)
+- Hours: {brand.hours}
 - License: {brand.license_type}{brand.license_numbers_suffix}
 
 # What this page does
@@ -25,7 +25,7 @@ Don't write a corporate "Get in Touch" essay. Keep this page tight and functiona
 # Structure
 
 - Opening 2-sentence paragraph: name the urgency, point at the phone. (~40 words)
-- `## For emergencies` — short paragraph emphasizing the 24/7 phone line, what to do while waiting.
+- `## For urgent situations` — short paragraph on calling right away. Only call the line 24/7 if the brand's Hours say 24/7; otherwise frame as "call during business hours, and we'll get you scheduled fast".
 - `## For estimates and non-urgent inquiries` — when to use the form / email, expected turnaround.
 - `## Where we're located` — address, service radius, mention of nearby cities.
 

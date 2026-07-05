@@ -56,6 +56,7 @@ This page is the deep dive on {service.display_name} specifically. It must be im
 - Phone: {brand.phone}
 - HQ: {brand.primary_city}, {brand.primary_state}
 - Certifications: {brand.certifications}
+- Hours: {brand.hours}
 - License: {brand.license_type}{brand.license_numbers_suffix}
 
 # Structure

@@ -42,6 +42,17 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 CLIENTS_DIR = REPO_ROOT / "clients"
 TEMPLATES_DIR = REPO_ROOT / "templates"
 
+# Truth gate — archetype title/h1/meta templates carry vertical-default claims
+# ("24/7 ...", "IICRC-certified ..."). The davis-construction incident shipped
+# those to a M-F construction client. Every planned title/h1/meta now passes
+# through claims_lint.sanitize_claims_text against the client's brand truth.
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from claims_lint import (  # noqa: E402 — local sibling module
+    keyword_is_safe,
+    sanitize_claims_text,
+    truth_from_plan_input,
+)
+
 # Archetype-level priority. Multiplied with per-instance priority to rank pages
 # in the content-map for content-generation order.
 ARCHETYPE_PRIORITY = {
@@ -446,6 +457,17 @@ def enrich_page(page: Page, template: Template, inputs: dict) -> None:
         page.meta_description = render(arc.get("meta_description_template", ""), ctx)
         page.target_word_count = arc.get("target_word_count", 700)
 
+    # Truth gate: the archetype templates carry vertical-default claims
+    # ("24/7", "IICRC-certified", "Licensed, insured"). Strip/rewrite any claim
+    # the client's brand truth does not back before it reaches the plan.
+    truth = inputs.get("_claims_truth")
+    if truth is None:
+        truth = truth_from_plan_input(inputs)
+        inputs["_claims_truth"] = truth
+    page.title = sanitize_claims_text(page.title, truth)
+    page.h1 = sanitize_claims_text(page.h1, truth)
+    page.meta_description = sanitize_claims_text(page.meta_description, truth)
+
     # Primary keyword
     pk_tpl = arc.get("primary_keyword_template", "")
     if pk_tpl:
@@ -474,6 +496,9 @@ def enrich_page(page: Page, template: Template, inputs: dict) -> None:
             svc = template.services_by_slug.get(svc_slug)
             if svc:
                 sec_keys.append(svc["display_name"].lower())
+    # Truth gate: drop target keywords that would steer generated copy toward
+    # claims the brand can't make (e.g. "24/7 restoration phone" for a M-F shop).
+    sec_keys = [k for k in sec_keys if keyword_is_safe(k, truth)]
     # Dedupe preserving order
     seen = set()
     page.secondary_keywords = [k for k in sec_keys if not (k in seen or seen.add(k))]

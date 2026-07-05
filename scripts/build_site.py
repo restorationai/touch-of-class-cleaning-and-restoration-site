@@ -1120,6 +1120,7 @@ def cmd_render(args) -> int:
     total_cost = 0.0
     succeeded = 0
     failed: list = []
+    rendered_paths: list = []
 
     def render_one(page: dict) -> tuple[str, dict | str]:
         """Returns (status, info). status ∈ {success, no_prompt, api_error, non_json, empty}."""
@@ -1146,7 +1147,7 @@ def cmd_render(args) -> int:
         faq = data.get("faq", [])
         if not body:
             return ("empty", "")
-        update_content_md(site_dir, page, body, faq)
+        md_path = update_content_md(site_dir, page, body, faq)
         dollars = cost_estimate(usage, args.model)
         with cost_lock:
             log_cost(site_dir, page, usage, args.model, dollars)
@@ -1155,6 +1156,7 @@ def cmd_render(args) -> int:
             "faq_count": len(faq),
             "dollars": dollars,
             "usage": usage,
+            "path": str(md_path),
         })
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as executor:
@@ -1175,6 +1177,8 @@ def cmd_render(args) -> int:
                     nonlocal_cost = info["dollars"]
                     total_cost += nonlocal_cost
                     succeeded += 1
+                    if info.get("path"):
+                        rendered_paths.append(info["path"])
                     print(f"[{n:3}/{total_target}] ✓ {arc} :: {url}")
                     print(f"           {info['body_len']:>5} chars + {info['faq_count']} FAQ  "
                           f"${nonlocal_cost:.4f}  "
@@ -1197,6 +1201,39 @@ def cmd_render(args) -> int:
         print("    Failures (first 10):")
         for url, reason in failed[:10]:
             print(f"      {url} :: {reason}")
+
+    # Claims lint (truth gate) on the just-rendered batch. Non-fatal by design
+    # but LOUD: error hits mean the batch asserts availability / certification /
+    # license / response-time claims the brand truth data does not support
+    # (the davis-construction incident class). Fix before push/cut-over.
+    if rendered_paths:
+        try:
+            sys.path.insert(0, str(Path(__file__).resolve().parent))
+            import claims_lint
+            truth = claims_lint.load_truth(slug)
+            violations: list = []
+            for mp in rendered_paths:
+                violations.extend(claims_lint.lint_file(Path(mp), truth, rel_root=site_dir))
+            errors = [v for v in violations if v["severity"] == "error"]
+            print()
+            print("==> Claims lint (truth gate) on this render batch")
+            if not violations:
+                print(f"    Clean — {len(rendered_paths)} file(s), no unverified claims.")
+            else:
+                for v in violations:
+                    print(f"    [{v['severity'].upper():6}] {v['family']:13} "
+                          f"{v['part']:11} {v['file']}")
+                    print(f"             ...{v['context'][:120]}...")
+                if errors:
+                    print()
+                    print("    " + "!" * 70)
+                    print(f"    !! {len(errors)} ERROR-severity claim(s) in this batch — the content")
+                    print("    !! asserts things the brand truth data does not support.")
+                    print("    !! DO NOT push-main / cut-over until fixed. Re-check with:")
+                    print(f"    !!   python3 scripts/claims_lint.py --slug {slug}")
+                    print("    " + "!" * 70)
+        except Exception as e:  # noqa: BLE001 — the gate must never break a render run
+            print(f"    [warn] claims lint failed (non-fatal): {str(e)[:160]}")
 
     # Update client record
     client.setdefault("build", {})

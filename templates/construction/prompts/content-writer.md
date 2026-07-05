@@ -70,6 +70,19 @@ Avoid:
 - Fabricated reviews or testimonials with named customers
 - Overpromising on timelines or cost certainty
 
+## CLAIMS TRUTH TABLE (hard gate — a deploy-time lint checks every claim below)
+
+Construction clients are usually business-hours operations without restoration-industry credentials. Every availability or credential claim must be backed by the `brand` block in the client context:
+
+- **24/7 / around-the-clock / "emergency response"**: only if `brand.hours` actually says 24/7. Most construction clients are M-F — write around it ("prompt scheduling", "call during business hours"); never imply after-hours availability.
+- **Certifications (IICRC, EPA, Lead-Safe, "certified team")**: only name certifications present in `brand.certifications`. Neutral industry-standard references are fine; credential claims are not, unless listed.
+- **License status** ("licensed and insured", "fully licensed"): only if license data is present in the brand block.
+- **Response-time minutes**: never state minutes unless the brand block provides them.
+- **"Family-owned"**: only if the brand block says so.
+- **Review counts / star ratings**: only numbers present in the client context.
+
+When a truth field is absent, write around it — do not fill the gap with an industry-typical claim.
+
 ---
 
 ## Body structure

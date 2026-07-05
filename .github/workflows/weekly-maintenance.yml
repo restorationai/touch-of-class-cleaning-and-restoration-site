@@ -89,6 +89,26 @@ jobs:
               --body "$(cat coverage-report.txt)" || true
           fi
 
+      - name: Claims lint (non-fatal — truth gate on shipped content claims)
+        env:
+          SENDGRID_API_KEY:           ${{ secrets.SENDGRID_API_KEY }}
+        run: |
+          # Truth gate born from the davis-construction incident: content
+          # claiming 24/7 / certifications / license / response times the
+          # client's brand truth data doesn't back. Non-fatal here (weekly run
+          # must finish) but emails a violations report on any error hit.
+          # Per-client JSON lands in clients/{slug}/claims-lint.json and is
+          # committed by the "Commit generated state files" step below.
+          RC=0
+          python3 scripts/claims_lint.py --all --json > claims-lint-report.txt 2>&1 || RC=$?
+          cat claims-lint-report.txt
+          if [ "$RC" -ne 0 ]; then
+            python3 scripts/notify_failure.py \
+              --subject "[Rank AI] Claims lint violations: ${{ github.workflow }} run #${{ github.run_number }}" \
+              --run-url "https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+              --body "$(cat claims-lint-report.txt)" || true
+          fi
+
       - name: GBP posts (2x/week — every Mon + Thu run)
         env:
           SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}

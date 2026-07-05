@@ -14,6 +14,7 @@ Write the body for the **About** page of {brand.display_name}'s website.
 - HQ: {brand.primary_city}, {brand.primary_state}
 - Phone: {brand.phone}
 - Certifications: {brand.certifications}
+- Hours: {brand.hours}
 - License: {brand.license_type}{brand.license_numbers_suffix}, {brand.license_authority}
 
 # What this page covers
@@ -22,7 +23,7 @@ This is a trust-building page — visitors land here after seeing a service page
 
 Cover, in order:
 1. Brief origin: when {brand.display_name} started, why restoration as a focus (don't invent specific founder names or backstories unless we have them — keep it honest at a company level).
-2. What we do every day: not a service list (we have separate pages for that) but the *texture* of the work — being on call 24/7, working insurance claims, responding to homeowners in the worst moments of their year.
+2. What we do every day: not a service list (we have separate pages for that) but the *texture* of the work — being on call (per the brand's Hours — do not claim 24/7 unless Hours say so), working insurance claims, responding to homeowners in the worst moments of their year.
 3. Our certifications and what they actually mean: IICRC sets industry standards; EPA Lead-Safe is a federal certification required for pre-1978 homes; ANSI accreditation, etc. Don't just list them.
 4. The service region: {brand.primary_city} and surrounding {brand.primary_state} cities — describe the area honestly.
 

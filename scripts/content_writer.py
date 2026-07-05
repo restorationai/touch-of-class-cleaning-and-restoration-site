@@ -302,13 +302,20 @@ def pop_next_queued(queue: dict) -> dict | None:
     return items[0]
 
 
-def mark_written(slug: str, item_id: str, post_url: str) -> None:
+def mark_written(slug: str, item_id: str, post_url: str,
+                 claims_flags: list | None = None) -> None:
     queue = load_queue(slug)
     for item in queue.get("items", []):
         if item.get("id") == item_id:
             item["status"] = "written"
             item["written_at"] = now_iso()
             item["post_url"] = post_url
+            if claims_flags:
+                # Truth-gate violations found in the written post (see
+                # scripts/claims_lint.py). Deliberately does NOT fail the run —
+                # deploy may already cover other files — but stays visible on
+                # the queue item until the content or brand truth data is fixed.
+                item["claims_flags"] = claims_flags
             break
     save_json(queue_path(slug), queue)
 
@@ -733,11 +740,38 @@ def cmd_next_post(args) -> int:
     post_path = write_markdown(slug, item, content, hero_url)
     print(f"      {post_path}")
 
+    # Step 3b: claims lint (truth gate) on the file we just wrote. NEVER fails
+    # the run — the flag rides on the queue item so it can't slip by unseen.
+    claims_flags: list = []
+    try:
+        import claims_lint  # scripts/ is on sys.path (SCRIPT_DIR insert above)
+        truth = claims_lint.load_truth(slug)
+        claims_flags = claims_lint.lint_file(post_path, truth, rel_root=SITES_DIR / slug)
+        errors = [v for v in claims_flags if v["severity"] == "error"]
+        if claims_flags:
+            print("      " + "!" * 68)
+            print(f"      !! CLAIMS LINT: {len(errors)} error(s), "
+                  f"{len(claims_flags) - len(errors)} review flag(s) in {post_path.name}")
+            for v in claims_flags:
+                print(f"      !! [{v['severity'].upper()}] {v['family']} ({v['part']}): "
+                      f"...{v['context'][:110]}...")
+            print("      !! The post asserts things the brand truth data does not support.")
+            print("      !! It will still deploy; 'claims_flags' is recorded on the queue")
+            print(f"      !! item. Fix the content or clients/{slug}/plan-input.json truth")
+            print("      !! fields, then redeploy. Full check: "
+                  f"python3 scripts/claims_lint.py --slug {slug}")
+            print("      " + "!" * 68)
+        else:
+            print("      Claims lint: clean.")
+    except Exception as e:  # noqa: BLE001 — the gate must never break publishing
+        print(f"      [warn] claims lint skipped (non-fatal): {str(e)[:140]}")
+
     # Step 4: mark queue item written
     print("[4/5] Marking queue item as written...")
     post_url = f"https://{load_json(CLIENTS_DIR / f'{slug}.json')['domain']}/blog/{post_path.stem}/"
-    mark_written(slug, item["id"], post_url)
-    print(f"      Queue item {item['id']} → status: written, post_url: {post_url}")
+    mark_written(slug, item["id"], post_url, claims_flags=claims_flags)
+    print(f"      Queue item {item['id']} → status: written, post_url: {post_url}"
+          + (f", claims_flags: {len(claims_flags)}" if claims_flags else ""))
 
     # Step 5: commit + sync-deploy
     if args.no_deploy:

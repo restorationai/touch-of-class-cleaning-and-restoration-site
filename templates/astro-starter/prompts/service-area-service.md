@@ -45,6 +45,7 @@ This page MUST satisfy all of:
 - HQ: {brand.primary_city}, {brand.primary_state}
 - Founded: {brand.founded_year}
 - Certifications: {brand.certifications}
+- Hours: {brand.hours}
 - License: {brand.license_type}{brand.license_numbers_suffix}, {brand.license_authority}
 
 # Structure
@@ -53,7 +54,7 @@ This page MUST satisfy all of:
 - 3-4 `##` subsections, chosen from this menu (pick the ones that match this service + city combo):
   - "Why {area.city} Properties See {service.short_or_display_name|lower} Issues" — local pattern, climate / housing stock / utilities
   - "Our {service.display_name} Process in {area.city}" — concrete steps, calibrated to local conditions
-  - "Response Time to {area.city}" — concrete numbers from {brand.primary_city} HQ, mention specific routes or neighborhoods
+  - "Reaching {area.city} from {brand.primary_city}" — specific routes or neighborhoods; minute figures ONLY if the brand block provides response-time data, and no after-hours implication unless Hours say 24/7
   - "{area.city} Insurance & HOA Coordination" — local claim patterns, HOA requirements if known
   - "Equipment & Methods We Use for {service.short_or_display_name}" — only if technical detail matters for this service
 - A short `## Local note` (or similarly framed) with the local-tip paragraph

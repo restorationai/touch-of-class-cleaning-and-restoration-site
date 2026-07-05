@@ -11,6 +11,7 @@ Write the body for the **Service Areas** hub page of {brand.display_name}'s webs
 - Company: {brand.display_name}
 - HQ: {brand.primary_city}, {brand.primary_state}
 - Phone: {brand.phone}
+- Hours: {brand.hours}
 
 # What this page does
 
@@ -18,9 +19,9 @@ Visitors land here looking for "do you serve my city?" Lay out the answer simply
 
 # Structure
 
-- Opening paragraph (~80 words): coverage area, response times.
+- Opening paragraph (~80 words): coverage area and how scheduling/dispatch works (respect the brand's Hours).
 - `## Where we work` — describe the region geographically. For Puget Sound: "Our team is based in {brand.primary_city} and responds across south King County, north Pierce County, and the surrounding {brand.primary_state} cities." Adapt to whatever region the brand serves.
-- `## Response time by distance` — concrete: under an hour for nearby cities, 60-90 min for the broader region, longer for the edge of our coverage. Mention any constraint (traffic, geography).
+- `## Coverage by distance` — nearby cities first, then the broader region, then the edge of coverage. Mention constraints (traffic, geography). Minute/hour promises ONLY if the brand block provides response-time data; otherwise talk order-of-arrival, not clock times.
 - `## Don't see your city?` — short note encouraging a phone call. Many restoration companies will dispatch outside their listed area for large losses.
 
 Target: ~{target_word_count} words.

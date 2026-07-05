@@ -16,6 +16,7 @@ A catalog overview page — visitors land here and need a quick sense of what {b
 - Phone: {brand.phone}
 - HQ: {brand.primary_city}, {brand.primary_state}
 - Certifications: {brand.certifications}
+- Hours: {brand.hours}
 
 # Structure
 

@@ -1,0 +1,42 @@
+{
+  "slug": "homepriderestorationandcleaning",
+  "generated_at": "2026-07-05T03:22:56Z",
+  "truth": {
+    "hours": "24/7",
+    "is_247": true,
+    "certifications": [
+      "IICRC Certified"
+    ],
+    "license_numbers": [
+      "RC-25-0737"
+    ],
+    "licensed_ok": true,
+    "response_minutes": null,
+    "family_owned": false,
+    "founded_year": "1997",
+    "gbp_review_count": 30,
+    "vertical": "restoration"
+  },
+  "errors": 0,
+  "review_flags": 2,
+  "violations": [
+    {
+      "file": "src/content/serviceAreas/pleasant-grove-ut.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "review",
+      "matched": "lead-safe",
+      "context": "lso flag any materials that may require lead-safe or asbestos-aware handling protocols be",
+      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
+    },
+    {
+      "file": "src/content/services/junk-debris-removal.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "EPA-certified",
+      "context": "efrigerant that must be recovered by an EPA-certified technician before disposal. Old chest f",
+      "reason": "certification mention looks like a regulatory reference \u2014 verify it is not a self-claim"
+    }
+  ]
+}

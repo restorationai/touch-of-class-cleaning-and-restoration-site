@@ -76,6 +76,19 @@ Avoid:
 - Fabricated statistics (no "98% of homes have hidden mold" — only use stats you can defend)
 - Generic insurance advice that doesn't reflect actual policy patterns
 
+## CLAIMS TRUTH TABLE (hard gate — a deploy-time lint checks every claim below)
+
+Not every client on this template is a 24/7 certified restoration firm. Every availability or credential claim must be backed by the `brand` block in the client context:
+
+- **24/7 / around-the-clock / "day or night" / "emergency response"**: only if `brand.hours` actually says 24/7. If it doesn't, write around it ("prompt scheduling", "call during business hours") — never imply after-hours availability.
+- **Certifications**: only name certifications present in `brand.certifications` (IICRC, EPA, Lead-Safe, or a generic "certified team"). Neutral references to industry standards ("dried to the IICRC S500 standard") are fine; claiming WE hold the credential is not, unless listed.
+- **License status** ("licensed and insured", "fully licensed"): only if license data is present in the brand block.
+- **Response-time minutes** ("on-site within 60 minutes"): never state minutes unless the brand block provides them or the brand is 24/7 with a stated commitment.
+- **"Family-owned"**: only if the brand block says so.
+- **Review counts / star ratings**: only numbers present in the client context.
+
+When a truth field is absent, write around it — do not fill the gap with an industry-typical claim.
+
 ---
 
 ## Body structure

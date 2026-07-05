@@ -42,7 +42,7 @@ From there, the scope of work is written, submitted to your carrier, and — onc
 
 Our shop is in Madison, which puts us roughly 15–20 minutes from most of Huntsville under normal conditions. The Redstone Arsenal gate area and South Huntsville neighborhoods along Research Park Boulevard are typically a 20-minute run via US-72. Hampton Cove is closer to 25–30 minutes via the Governors Drive corridor. After a major storm event, when debris and traffic pile up, we stage crews closer to the affected zone when we know a system is coming — something we've been doing since 2008.
 
-For ZIP codes 35801 and 35802, which cover much of the older central and southeast Huntsville neighborhoods, we can usually have a crew on-site within 45–60 minutes of your call. Call (256) 771-0326 and you'll reach a live person, not a call center.
+For ZIP codes 35801 and 35802, which cover much of the older central and southeast Huntsville neighborhoods, we can usually get a crew moving quickly — urgent losses go to the front of the schedule. Call (256) 771-0326 and you'll reach a live person, not a call center.
 
 ## Huntsville Insurance and HOA Coordination
 
