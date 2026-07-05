@@ -37,6 +37,19 @@ def _resolve(slug):
     return tok, acct, loc["name"].split("/")[-1], loc
 
 
+def post_media_url(res):
+    """Image URL of a localPost: prefer Google's hosted copy (googleUrl) over
+    the sourceUrl we submitted (which Google may re-host or drop)."""
+    media = res.get("media") or []
+    for m in media:
+        if m.get("googleUrl"):
+            return m["googleUrl"]
+    for m in media:
+        if m.get("sourceUrl"):
+            return m["sourceUrl"]
+    return None
+
+
 def record_post(slug, res, topic=None, source="rank-ai-manual"):
     """Ledger every post we create into Supabase marketing_gbp_posts (the app's
     'Recent Google posts' feed). Best-effort: a ledger failure must never fail
@@ -50,9 +63,45 @@ def record_post(slug, res, topic=None, source="rank-ai-manual"):
             "cta_type": cta.get("actionType"), "cta_url": cta.get("url"),
             "topic": topic, "source": source, "state": res.get("state"),
             "search_url": res.get("searchUrl"),
+            "media_url": post_media_url(res),
         }], on_conflict="company_id,post_name")
     except Exception as e:
         print(f"  warn: posted OK but not recorded in marketing_gbp_posts ({e})")
+
+
+def latest_job_photo(slug):
+    """Public URL of the client's most recent job photo in Supabase Storage
+    (branding/{company_id}/job-photos/, including posted/). None when the client
+    has no photos yet — callers post text-only in that case. Best-effort."""
+    try:
+        cid = gbp.company_id_for(slug)
+        if not cid:
+            return None
+        newest = None  # (created_at, path)
+        for sub in ("", "posted/"):
+            prefix = f"{cid}/job-photos/{sub}"
+            r = requests.post(
+                f"{gbp.SB_URL}/storage/v1/object/list/branding",
+                headers={"apikey": gbp.SB_KEY, "Authorization": f"Bearer {gbp.SB_KEY}",
+                         "Content-Type": "application/json"},
+                json={"prefix": prefix, "limit": 100,
+                      "sortBy": {"column": "created_at", "order": "desc"}})
+            if not r.ok:
+                continue
+            for f in r.json():
+                created = f.get("created_at")
+                mime = (f.get("metadata") or {}).get("mimetype", "")
+                if not created or not mime.startswith("image/"):
+                    continue  # subfolder placeholder / non-image
+                if newest is None or created > newest[0]:
+                    newest = (created, prefix + f["name"])
+        if not newest:
+            return None
+        # branding bucket is public — GBP fetches the image from this URL.
+        return f"{gbp.SB_URL}/storage/v1/object/public/branding/{newest[1]}"
+    except Exception as e:
+        print(f"  warn: job-photo lookup failed, posting text-only ({e})")
+        return None
 
 
 def create_local_post(slug, summary, cta_type="LEARN_MORE", cta_url=None, dry_run=False,
@@ -64,6 +113,12 @@ def create_local_post(slug, summary, cta_type="LEARN_MORE", cta_url=None, dry_ru
         if cta_type != "CALL":
             cta["url"] = cta_url or loc.get("websiteUri")
         body["callToAction"] = cta
+    # Attach the client's most recent job photo (public Storage URL) — posts
+    # with images get materially better engagement. Text-only when none exist.
+    photo = latest_job_photo(slug)
+    if photo:
+        body["media"] = [{"mediaFormat": "PHOTO", "sourceUrl": photo}]
+        print(f"  photo: {photo}")
     if dry_run:
         print("  [dry-run] would post:\n   ", summary.strip()[:200])
         return None
