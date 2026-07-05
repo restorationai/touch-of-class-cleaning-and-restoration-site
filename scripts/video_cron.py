@@ -1,40 +1,61 @@
 #!/usr/bin/env python3
 """
-Rank AI — Paced video automation cron.
+Rank AI — Paced video automation cron (System 5 cadence).
 
 For every active client that has CONNECTED their YouTube channel in the app
-(user_integrations, provider='youtube', status='connected'), finds the next
-published blog post that doesn't have a video yet and generates + uploads one —
-paced to a small number per client per run so the channel + site grow naturally
-(no mass dump). video_maker does the heavy lifting (script → TTS → AI images →
-ffmpeg → upload to THEIR channel → patch youtube_id → embed on the post).
+(user_integrations, provider='youtube', status='connected'), each run produces
+AT MOST ONE video, cycling blog -> geo -> geo. With the workflow scheduled
+Mon/Wed/Fri that is 1 blog video + 2 geo videos per client per week:
 
-Runs headless in GitHub Actions (ffmpeg + the media APIs live there). Clients who
-haven't connected YouTube are skipped — so this no-ops until a client connects,
-then starts producing automatically.
+  blog  — the next published blog post that has no youtube_id yet
+          (falls back to a geo video when every post already has one)
+  geo   — the next city x service combo from the geo matrix
+          (plan-input service_areas x top services, cursor-tracked)
+
+Cadence state lives in clients/{slug}/video-state.json:
+  {
+    "last_kind": "geo",         // what the previous run produced
+    "cycle_pos": 2,             // 0=blog, 1=geo, 2=geo — advances each run
+    "geo_cursor": 5,            // index into the geo matrix (wraps)
+    "history": [ {ts, kind, ...} ]   // last 30 runs, newest last
+  }
+
+Upload privacy comes from the client record's `video_publish_mode` field
+(default "unlisted") — video_maker reads it, so nothing goes public here until
+a client is explicitly flipped (e.g. flood-fixers stays unlisted until their
+channel is renamed off the owner's personal name).
+
+video_maker does the heavy lifting (script -> TTS -> AI images -> ffmpeg ->
+upload to THEIR channel -> ledger row in marketing_videos). Runs headless in
+GitHub Actions. Clients who haven't connected YouTube are skipped — so this
+no-ops until a client connects, then starts producing automatically.
 
 Usage:
-  python3 scripts/video_cron.py                       # all connected clients, 1 video each
-  python3 scripts/video_cron.py --max-per-client 1    # pacing (default 1)
+  python3 scripts/video_cron.py                       # all connected clients, <=1 video each
   python3 scripts/video_cron.py --slug narestco       # one client
   python3 scripts/video_cron.py --dry-run             # show what it WOULD make, render nothing
 """
 from __future__ import annotations
 
 import argparse
+import json
 import os
 import re
 import subprocess
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 CLIENTS_DIR = ROOT / "clients"
 
+TOP_SERVICES = 3          # geo matrix: first N plan-input services x all service areas
+CYCLE = ("blog", "geo", "geo")   # Mon/Wed/Fri -> 1 blog + 2 geo per week
+HISTORY_KEEP = 30
+
 
 def _load_json(p: Path):
-    import json
     try:
         return json.loads(p.read_text())
     except Exception:
@@ -106,35 +127,94 @@ def next_video_post(slug: str) -> str | None:
     return candidates[0][1] if candidates else None
 
 
-def make_video(slug: str, post: str, dry_run: bool) -> dict:
-    if dry_run:
-        return {"slug": slug, "post": post, "ok": True, "dry": True}
-    # Each video in its own process — a failure on one doesn't kill the run.
+# ---------------------------------------------------------------------------
+# Cadence state (clients/{slug}/video-state.json)
+# ---------------------------------------------------------------------------
+
+
+def state_path(slug: str) -> Path:
+    return CLIENTS_DIR / slug / "video-state.json"
+
+
+def load_state(slug: str) -> dict:
+    st = _load_json(state_path(slug)) or {}
+    st.setdefault("last_kind", None)
+    st.setdefault("cycle_pos", 0)
+    st.setdefault("geo_cursor", 0)
+    st.setdefault("history", [])
+    return st
+
+
+def save_state(slug: str, st: dict) -> None:
+    st["history"] = st.get("history", [])[-HISTORY_KEEP:]
+    state_path(slug).write_text(json.dumps(st, indent=2) + "\n")
+
+
+def geo_matrix(slug: str) -> list[tuple[str, str]]:
+    """(service, city) combos: top plan-input services x every service-area city.
+    Primary service blankets the whole service area first, then the next service."""
+    plan = _load_json(CLIENTS_DIR / slug / "plan-input.json") or {}
+    services = (plan.get("services") or [])[:TOP_SERVICES]
+    cities = [a["city"] for a in plan.get("service_areas", []) if a.get("city")]
+    return [(svc, city) for svc in services for city in cities]
+
+
+def plan_next(slug: str, st: dict) -> dict | None:
+    """Decide what this run should produce for a client (no side effects)."""
+    kind = CYCLE[st["cycle_pos"] % len(CYCLE)]
+    if kind == "blog":
+        post = next_video_post(slug)
+        if post:
+            return {"kind": "blog", "post": post}
+        kind = "geo"  # every published post already has a video -> extra geo
+    matrix = geo_matrix(slug)
+    if not matrix:
+        return None
+    service, city = matrix[st["geo_cursor"] % len(matrix)]
+    return {"kind": "geo", "service": service, "city": city,
+            "cursor": st["geo_cursor"] % len(matrix), "of": len(matrix)}
+
+
+# ---------------------------------------------------------------------------
+# Production
+# ---------------------------------------------------------------------------
+
+
+def _run_maker(argv: list[str]) -> dict:
+    """Run video_maker in its own process — a failure on one client doesn't
+    kill the whole cron run."""
     r = subprocess.run(
-        [sys.executable, str(ROOT / "scripts" / "video_maker.py"), "make",
-         "--slug", slug, "--post", post],
+        [sys.executable, str(ROOT / "scripts" / "video_maker.py"), *argv],
         cwd=str(ROOT), capture_output=True, text=True, timeout=1800,
     )
     ok = r.returncode == 0
-    yt = None
     m = re.search(r"youtu\.be/([\w-]+)", r.stdout)
-    if m:
-        yt = m.group(1)
-    return {"slug": slug, "post": post, "ok": ok,
-            "youtube_id": yt, "err": (r.stderr[-300:] if not ok else None)}
+    return {"ok": ok, "youtube_id": m.group(1) if m else None,
+            "err": (r.stderr[-300:] if not ok else None)}
+
+
+def make_planned(slug: str, plan: dict, dry_run: bool) -> dict:
+    if dry_run:
+        return {"slug": slug, **plan, "ok": True, "dry": True}
+    if plan["kind"] == "blog":
+        res = _run_maker(["make", "--slug", slug, "--post", plan["post"]])
+    else:
+        res = _run_maker(["geo", "--slug", slug,
+                          "--service", plan["service"], "--city", plan["city"]])
+    return {"slug": slug, **plan, **res}
 
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Rank AI paced video automation cron")
     ap.add_argument("--slug", help="One client (default: all connected, active clients)")
-    ap.add_argument("--max-per-client", type=int, default=1, help="Videos per client per run")
-    ap.add_argument("--dry-run", action="store_true", help="Show what it would make; render nothing")
+    ap.add_argument("--dry-run", action="store_true",
+                    help="Show what it would make; render nothing, save no state")
     args = ap.parse_args()
 
     slugs = [args.slug] if args.slug else active_clients()
     connected = connected_company_ids()
-    print(f"==> Video cron: {len(slugs)} active client(s) | {len(connected)} with YouTube connected"
-          f" | mode: {'DRY-RUN' if args.dry_run else 'LIVE'}\n")
+    print(f"==> Video cron: {len(slugs)} client(s) | {len(connected)} with YouTube connected"
+          f" | cadence blog->geo->geo | mode: {'DRY-RUN' if args.dry_run else 'LIVE'}\n")
 
     made, skipped = [], []
     for slug in slugs:
@@ -142,24 +222,40 @@ def main() -> int:
         if cid not in connected:
             skipped.append((slug, "no connected YouTube"))
             continue
-        n = 0
-        while n < args.max_per_client:
-            post = next_video_post(slug)
-            if not post:
-                if n == 0:
-                    skipped.append((slug, "no posts needing a video"))
-                break
-            print(f"  [{slug}] {'would make' if args.dry_run else 'making'} video for: {post}")
-            res = make_video(slug, post, args.dry_run)
-            made.append(res)
-            if not res["ok"]:
-                sys.stderr.write(f"    FAILED: {res.get('err')}\n")
-                break
-            if not args.dry_run and res.get("youtube_id"):
+        st = load_state(slug)
+        plan = plan_next(slug, st)
+        if not plan:
+            skipped.append((slug, "nothing to produce (no posts, empty geo matrix)"))
+            continue
+
+        label = (f"blog: {plan['post']}" if plan["kind"] == "blog" else
+                 f"geo: {plan['service']} x {plan['city']} "
+                 f"[{plan['cursor'] + 1}/{plan['of']}]")
+        print(f"  [{slug}] {'would make' if args.dry_run else 'making'} {label}"
+              f" (cycle_pos={st['cycle_pos']}, last_kind={st['last_kind']})")
+
+        res = make_planned(slug, plan, args.dry_run)
+        made.append(res)
+        if not res["ok"]:
+            sys.stderr.write(f"    FAILED: {res.get('err')}\n")
+            continue  # state NOT advanced — the same slot retries next run
+        if not args.dry_run:
+            if res.get("youtube_id"):
                 print(f"    -> youtu.be/{res['youtube_id']}")
-            n += 1
-            if args.dry_run:
-                break  # dry-run can't actually patch youtube_id, so don't loop forever
+            # Advance cadence state only on success
+            st["last_kind"] = plan["kind"]
+            st["cycle_pos"] = (st["cycle_pos"] + 1) % len(CYCLE)
+            if plan["kind"] == "geo":
+                st["geo_cursor"] = st["geo_cursor"] + 1
+            st["history"].append({
+                "ts": datetime.now(timezone.utc).isoformat(),
+                "kind": plan["kind"],
+                "post": plan.get("post"),
+                "service": plan.get("service"),
+                "city": plan.get("city"),
+                "youtube_id": res.get("youtube_id"),
+            })
+            save_state(slug, st)
 
     print(f"\nDone. {sum(1 for m in made if m['ok'])} video(s) "
           f"{'planned' if args.dry_run else 'made'}; {len(skipped)} client(s) skipped.")

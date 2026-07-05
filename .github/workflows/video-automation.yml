@@ -1,11 +1,15 @@
 name: Rank AI Video Automation
 
 # Paced video generation: for each active client that has CONNECTED their YouTube
-# channel in the app, generate + upload the next blog post without a video yet
-# (1/client/run), then embed it on the post. No-ops for clients who haven't connected.
+# channel in the app, produce AT MOST ONE video per run on the blog->geo->geo
+# cadence (Mon = blog video for the next post without one, Wed/Fri = geo
+# local-ranker videos from the service x city matrix) = 1 blog + 2 geo per
+# client per week. Cadence state: clients/{slug}/video-state.json. Upload
+# privacy honours the per-client video_publish_mode (default unlisted).
+# No-ops for clients who haven't connected YouTube.
 on:
   schedule:
-    - cron: '0 16 * * 2'   # every Tuesday, 9 am PDT / 8 am PST (day after the Monday content run)
+    - cron: '0 16 * * 1,3,5'   # Mon/Wed/Fri, 9 am PDT / 8 am PST (Mon run follows the content cron)
   workflow_dispatch:         # manual trigger for testing
     inputs:
       slug:

@@ -299,6 +299,45 @@ def log_video_cost(slug: str, label: str, model: str, claude_usage: dict,
     print(f"  [cost] ~${dollars:.3f} logged to {log.relative_to(REPO_ROOT)}")
 
 
+def record_video(slug: str, video_id: str, title: str, status: str, kind: str,
+                 post_slug: str | None = None, service: str | None = None,
+                 city: str | None = None, published_at: str | None = None) -> None:
+    """Ledger every uploaded video into Supabase marketing_videos (the app's
+    Marketing video feed). Best-effort: a ledger failure must never fail the
+    run itself — the video is already on YouTube. Mirrors gbp_post.record_post."""
+    try:
+        cid = _company_id_for(slug)
+        if not cid or not os.environ.get("SUPABASE_URL"):
+            return
+        from supabase import create_client
+        sb = create_client(os.environ["SUPABASE_URL"],
+                           os.environ["SUPABASE_SERVICE_ROLE_KEY"])
+        sb.table("marketing_videos").upsert({
+            "company_id": cid,
+            "video_id": video_id,
+            "title": title,
+            "status": status,
+            "kind": kind,
+            "post_slug": post_slug,
+            "service": service,
+            "city": city,
+            "url": f"https://youtu.be/{video_id}",
+            "published_at": published_at,
+        }, on_conflict="company_id,video_id").execute()
+        print(f"  [ledger] marketing_videos: {video_id} ({kind}, {status})")
+    except Exception as e:
+        print(f"  warn: uploaded OK but not recorded in marketing_videos ({str(e)[:140]})")
+
+
+def video_publish_mode(client: dict) -> str:
+    """Per-client default upload privacy from clients/{slug}.json
+    (`video_publish_mode`). 'unlisted' unless explicitly set to 'public' —
+    e.g. flood-fixers stays unlisted until their channel is renamed off the
+    owner's personal name."""
+    mode = str(client.get("video_publish_mode", "unlisted")).lower()
+    return mode if mode in ("unlisted", "public") else "unlisted"
+
+
 def mark_queue_video(slug: str, post_slug: str, video_id: str) -> bool:
     """Stamp youtube_id + video_published_at onto the matching content-queue item."""
     qpath = CLIENTS_DIR / slug / "content-queue.json"
@@ -360,7 +399,8 @@ RULES for scene_type assignment (this video uses IMAGES ONLY — no stock video)
 - If photo categories are available, aim for 3-4 "client_photo" scenes; make every other scene "ai".
 
 RULES for narration:
-- Total must read in ~90 seconds (~2.5 words/second = ~225 words total across all scenes)
+- HARD LENGTH CAP: total narration across ALL scenes must be 200-220 words (~90 seconds at
+  ~2.4 words/second spoken). Count the words. Do NOT exceed 220 words total.
 - Warm, direct voice. Say "your contractor" not "we"
 - No jargon the homeowner would not understand
 - End with a clear CTA: "Call {company} at {phone} for a free estimate."
@@ -373,6 +413,33 @@ RULES for youtube_description:
 
 Respond with ONLY valid JSON. No prose before or after.
 """
+
+
+# 90-second tightening: blog-video narration is validated against this band
+# (target 200-220 spoken words). One retry with a firmer instruction, then
+# scenes are trimmed if the estimate still exceeds ~100s at the TTS rate.
+VIDEO_WORDS_MIN, VIDEO_WORDS_MAX = 180, 230
+TTS_WORDS_PER_SEC = 2.4           # measured ElevenLabs turbo pace
+MAX_NARRATION_SEC = 100.0
+
+
+def _narration_words(scenes: list[dict]) -> int:
+    return sum(len(s.get("narration", "").split()) for s in scenes)
+
+
+def _trim_scenes_to_cap(scenes: list[dict],
+                        max_sec: float = MAX_NARRATION_SEC,
+                        wps: float = TTS_WORDS_PER_SEC) -> list[dict]:
+    """Drop scenes (from just before the CTA outro) until estimated narration
+    time fits the cap. Keeps the opener and the CTA closer intact."""
+    max_words = int(max_sec * wps)
+    sc = list(scenes)
+    while len(sc) > 3 and _narration_words(sc) > max_words:
+        drop = len(sc) - 2  # scene just before the CTA outro
+        print(f"  [cap] narration {_narration_words(sc)} words > {max_words} "
+              f"(~{max_sec:.0f}s @ {wps} w/s) — trimming scene {drop + 1}")
+        sc.pop(drop)
+    return sc
 
 
 def generate_video_script(post: dict, client: dict) -> dict:
@@ -410,28 +477,57 @@ def generate_video_script(post: dict, client: dict) -> dict:
         photo_categories=photo_categories,
     )
 
-    body = json.dumps({
-        "model": ANTHROPIC_MODEL,
-        "max_tokens": 4000,
-        "messages": [{"role": "user", "content": prompt}],
-    }).encode()
-    req = urllib.request.Request(
-        ANTHROPIC_API, data=body, method="POST",
-        headers={
-            "content-type": "application/json",
-            "x-api-key": api_key,
-            "anthropic-version": "2023-06-01",
-        },
-    )
-    with urllib.request.urlopen(req, timeout=120) as resp:
-        payload = json.loads(resp.read().decode())
+    # Word-cap validation: one firmer retry if narration lands outside the
+    # 200-220-word target band, then a hard scene-trim as the backstop.
+    script: dict = {}
+    usage_total = {"input_tokens": 0, "output_tokens": 0}
+    attempt_prompt = prompt
+    for attempt in (1, 2):
+        # max_tokens sized for a 200-220-word narration + prompts/metadata JSON
+        body = json.dumps({
+            "model": ANTHROPIC_MODEL,
+            "max_tokens": 3500,
+            "messages": [{"role": "user", "content": attempt_prompt}],
+        }).encode()
+        req = urllib.request.Request(
+            ANTHROPIC_API, data=body, method="POST",
+            headers={
+                "content-type": "application/json",
+                "x-api-key": api_key,
+                "anthropic-version": "2023-06-01",
+            },
+        )
+        with urllib.request.urlopen(req, timeout=120) as resp:
+            payload = json.loads(resp.read().decode())
 
-    raw = payload["content"][0]["text"].strip()
-    # Strip ```json fences if present
-    raw = re.sub(r"^```json\s*", "", raw)
-    raw = re.sub(r"\s*```$", "", raw)
-    script = json.loads(raw)
-    script["_usage"] = payload.get("usage", {})
+        raw = payload["content"][0]["text"].strip()
+        # Strip ```json fences if present
+        raw = re.sub(r"^```json\s*", "", raw)
+        raw = re.sub(r"\s*```$", "", raw)
+        script = json.loads(raw)
+        for k in usage_total:
+            usage_total[k] += payload.get("usage", {}).get(k, 0)
+
+        words = _narration_words(script.get("scenes", []))
+        if VIDEO_WORDS_MIN <= words <= VIDEO_WORDS_MAX:
+            print(f"  narration: {words} words (within {VIDEO_WORDS_MIN}-{VIDEO_WORDS_MAX})")
+            break
+        if attempt == 1:
+            print(f"  narration: {words} words — outside {VIDEO_WORDS_MIN}-"
+                  f"{VIDEO_WORDS_MAX}, retrying with firmer cap...")
+            attempt_prompt = prompt + (
+                f"\n\nIMPORTANT: a previous draft of this script had {words} words of "
+                "narration, which violates the hard length cap. Rewrite so the TOTAL "
+                "narration across all scenes is 200-220 words — count them before "
+                "responding. Shorten every scene evenly; keep the CTA."
+            )
+        else:
+            print(f"  narration: {words} words after retry — accepting; "
+                  "scene-trim backstop will enforce the runtime cap")
+
+    # Backstop: never let narration exceed ~100s at the TTS speaking rate
+    script["scenes"] = _trim_scenes_to_cap(script.get("scenes", []))
+    script["_usage"] = usage_total
     return script
 
 
@@ -1588,10 +1684,12 @@ def cmd_make(args) -> int:
     post_slug = args.post
     model = GEMINI_FLASH_MODEL if args.flash else GEMINI_PRO_MODEL
     tts = args.tts
-    privacy = "public" if args.public else "unlisted"
     set_orientation(getattr(args, "vertical", False))
 
     client = load_client(slug)
+    # --public overrides; otherwise the client record's video_publish_mode
+    # (default unlisted) decides — cron uploads honour the per-client gate.
+    privacy = "public" if args.public else video_publish_mode(client)
     post = load_post(slug, post_slug)
 
     print(f"\n==> System 5: Video for {client.get('display_name', slug)}")
@@ -1674,6 +1772,11 @@ def cmd_make(args) -> int:
         print("\n[5/6] Uploading to YouTube...")
         video_id = upload_to_youtube(
             slug, video_path, thumb_path, srt_path, script, privacy=privacy
+        )
+        record_video(
+            slug, video_id, script.get("youtube_title", ""), privacy, "blog",
+            post_slug=post_slug,
+            published_at=now_iso() if privacy == "public" else None,
         )
 
         if getattr(args, "defer_writeback", False):
@@ -1969,9 +2072,11 @@ def cmd_geo(args) -> int:
     blog post. Claims-gated narration (truth fields only), deterministic metadata."""
     slug, service, city = args.slug, args.service, args.city
     model = GEMINI_FLASH_MODEL if args.flash else GEMINI_PRO_MODEL
-    privacy = "public" if args.public else "unlisted"
     set_orientation(getattr(args, "vertical", False))
     client = load_client(slug)
+    # --public overrides; otherwise the client record's video_publish_mode
+    # (default unlisted) decides — cron uploads honour the per-client gate.
+    privacy = "public" if args.public else video_publish_mode(client)
 
     plan_services = []
     try:
@@ -2057,6 +2162,11 @@ def cmd_geo(args) -> int:
         print("\n[5/5] Uploading to YouTube...")
         video_id = upload_to_youtube(slug, video_path, thumb_path, srt_path,
                                      script, privacy=privacy)
+        record_video(
+            slug, video_id, script.get("youtube_title", ""), privacy, "geo",
+            service=service, city=city,
+            published_at=now_iso() if privacy == "public" else None,
+        )
         print(f"\n==> Geo video: https://youtu.be/{video_id}  ({privacy})")
     return 0
 
@@ -2086,6 +2196,10 @@ def cmd_publish(args) -> int:
         body={"id": video_id, "status": {"privacyStatus": "public"}},
     ).execute()
     print("  [youtube] privacy -> public")
+    record_video(
+        slug, video_id, post["frontmatter"].get("title", post_slug), "public",
+        "blog", post_slug=post_slug, published_at=now_iso(),
+    )
 
     # 2. Frontmatter write-back (idempotent)
     update_post_youtube_id(post["path"], video_id, transcript=args.transcript or None)
