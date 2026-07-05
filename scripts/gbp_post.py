@@ -91,10 +91,16 @@ def ai_draft(slug, topic="services"):
     brand = json.loads((ROOT / "clients" / slug / "plan-input.json").read_text()).get("brand", {})
     city = rec.get("plan", {}).get("primary_city") or brand.get("primary_city", "")
     name = rec.get("display_name", slug)
+    from datetime import datetime, timezone
+    month = datetime.now(timezone.utc).strftime("%B")
+    state = brand.get("primary_state") or rec.get("plan", {}).get("primary_state") or ""
     sysmsg = ("You write Google Business Profile posts for a local restoration company. "
               "Constraints: 60-180 words, plain and trustworthy (no hype/emojis), one clear value point, "
-              "end with a soft call to action. Return ONLY the post text.")
-    user = (f"Company: {name} ({city}). {TOPICS.get(topic, TOPICS['services'])} "
+              "end with a soft call to action. Return ONLY the post text. "
+              f"It is currently {month}. The company is in {city}, {state} - any seasonal or regional "
+              "framing MUST match that month and that region (no winter/freeze content in July, no "
+              "wrong-region weather like 'Mid-Atlantic' for a Pacific Northwest company).")
+    user = (f"Company: {name} ({city}, {state}). {TOPICS.get(topic, TOPICS['services'])} "
             f"Services: {', '.join((rec.get('plan',{}) or {}).get('services', [])[:8]) or 'water/fire/mold restoration'}.")
     r = requests.post(ANTHROPIC_API, headers={
         "x-api-key": os.environ["ANTHROPIC_API_KEY"], "anthropic-version": "2023-06-01",
