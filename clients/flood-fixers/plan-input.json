@@ -107,8 +107,11 @@
     "hours": "24/7 Emergency Service",
     "founded_year": "",
     "license_numbers": [],
-    "certifications": [],
-    "google_maps_api_key": "AIzaSyDrYnSuDu-hFvKHEcQCjwb-zsMebInPneU"
+    "certifications": [
+      "IICRC Certified"
+    ],
+    "google_maps_api_key": "AIzaSyDrYnSuDu-hFvKHEcQCjwb-zsMebInPneU",
+    "licensed_insured_attested": true
   },
   "cross_product": true,
   "keyword_strategy": "conservative",
