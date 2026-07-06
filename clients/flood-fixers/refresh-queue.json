@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "slug": "flood-fixers",
+  "site": "flood-fixers.com",
+  "origin": "https://flood-fixers.com",
+  "generated_at": "2026-07-06T18:34:02Z",
+  "gsc_enabled": false,
+  "totals": {
+    "total_actions": 0,
+    "by_action": { "refresh": 0, "audit_then_decide": 0, "request_indexing": 0, "fix_canonical": 0 },
+    "by_priority": { "1": 0, "2": 0, "3": 0, "4": 0 }
+  },
+  "items": [],
+  "notes": [
+    "URLs skipped because already in content-queue: none flagged (the only overlapping URL, /blog/what-is-category-3-water-damage/, is fresh at age 0 and its content-queue item is status=published, not active).",
+    "URLs where date extraction failed: none. All 120 inspected URLs resolved a date via sitemap_lastmod or json_ld_date_modified.",
+    "v1 limitations: no GSC indexing flags (not_indexed / index_warning coverage states unavailable until v2).",
+    "All 120 candidates are fresh: every URL has empty flags and age_days of 0 or 7 (site cut over 2026-07-04), far below the 305-day aging threshold. No refresh or audit action is warranted this cycle."
+  ]
+}

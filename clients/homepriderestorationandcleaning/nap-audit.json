@@ -1,0 +1,41 @@
+{
+  "slug": "homepriderestorationandcleaning",
+  "checked_at": "2026-07-06T18:41:54.850356+00:00",
+  "canonical": {
+    "name": "Home Pride Restoration and Cleaning",
+    "phone": "(801) 995-2437",
+    "street_address": "78 W Wildflower Dr",
+    "city": "Saratoga Springs",
+    "state": "UT",
+    "postal_code": "84045",
+    "domain": "homepriderestorationandcleaning.com"
+  },
+  "results": [
+    {
+      "platform": "google-maps",
+      "url": "https://www.google.com/maps?cid=6708102771096353237",
+      "source": "dataforseo maps live",
+      "status": "ok",
+      "found_name": "Home Pride Restoration and Cleaning",
+      "found_phone": "(801) 995-2437",
+      "found_address": "78 W Wildflower Dr, Saratoga Springs, UT 84045",
+      "name_match": true,
+      "phone_match": true,
+      "address_match": true
+    },
+    {
+      "platform": "gbp-profile",
+      "source": "marketing_gbp_profiles",
+      "status": "ok",
+      "found_name": "Home Pride Restoration and Cleaning",
+      "found_phone": "(801) 995-2437",
+      "found_address": "78 W Wildflower Dr, Saratoga Springs, UT, 84045",
+      "name_match": true,
+      "phone_match": true,
+      "address_match": true
+    }
+  ],
+  "duplicates": [],
+  "mismatches": [],
+  "actions_upserted": 0
+}

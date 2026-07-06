@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "slug": "flood-fixers",
+  "site": "flood-fixers.com",
+  "live_origin": "https://flood-fixers.com",
+  "live_origin_source": "apex",
+  "generated_at": "2026-07-06T18:31:21Z",
+  "audit_form_factor": "desktop",
+  "lighthouse_detail": "deferred — full_data not pulled. In this harness the MCP full_data response returns into the agent context rather than to a shell pipe, so it cannot be redirected to disk per the methodology's Bash approach; a 5-15MB payload per URL would exceed the context and per-run cost budget. Call full_data on-demand to enumerate specific failing audit IDs, priority the homepage accessibility diagnostics (score 86).",
+  "environment_caveats": [
+    "Lighthouse ran DESKTOP only (formFactor=desktop, cpuSlowdownMultiplier=1, throughputKbps=10240). The DataForSEO MCP wrapper does not expose form_factor/strategy. Mobile performance would typically score 10-20 points lower. Scores here are not mobile-first.",
+    "Per-URL lighthouse_issues arrays are empty because full_data detail was deferred (see lighthouse_detail). Headline category scores and Core Web Vitals are from the reduced Lighthouse response and are accurate.",
+    "TBT_ms and INP_ms are null: the reduced Lighthouse response does not include total-blocking-time or interaction-to-next-paint audits. Not invented.",
+    "Schema.org validation is not represented: the reduced on_page_instant_pages response does not return structured-data checks. Not asserted either way this run."
+  ],
+  "audited_urls": [
+    {
+      "url": "https://flood-fixers.com/",
+      "archetype": "home",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": { "performance": 96, "accessibility": 86, "best_practices": 100, "seo": 100 },
+      "core_web_vitals": { "LCP_ms": 1451, "CLS": 0.011, "TBT_ms": null, "INP_ms": null },
+      "lighthouse_issues": [],
+      "onpage_issues": [
+        { "id": "has_render_blocking_resources", "title": "Render-blocking resources present (1 script, 1 stylesheet)", "severity": "low" },
+        { "id": "meta_description_too_long", "title": "Meta description is 171 characters (exceeds 160)", "severity": "low" }
+      ]
+    },
+    {
+      "url": "https://flood-fixers.com/services/",
+      "archetype": "services-hub",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": { "performance": 95, "accessibility": 90, "best_practices": 100, "seo": 100 },
+      "core_web_vitals": { "LCP_ms": 1477, "CLS": 0.002, "TBT_ms": null, "INP_ms": null },
+      "lighthouse_issues": [],
+      "onpage_issues": [
+        { "id": "has_render_blocking_resources", "title": "Render-blocking resources present (1 script, 1 stylesheet)", "severity": "low" },
+        { "id": "content_below_target_word_count", "title": "Word count 750 is below the 800 archetype target", "severity": "low" }
+      ]
+    },
+    {
+      "url": "https://flood-fixers.com/services/water-damage-restoration/",
+      "archetype": "service-landing",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": { "performance": 100, "accessibility": 90, "best_practices": 100, "seo": 100 },
+      "core_web_vitals": { "LCP_ms": 802, "CLS": 0.003, "TBT_ms": null, "INP_ms": null },
+      "lighthouse_issues": [],
+      "onpage_issues": [
+        { "id": "has_render_blocking_resources", "title": "Render-blocking resources present (1 script, 1 stylesheet)", "severity": "low" },
+        { "id": "relative_og_image", "title": "og:image uses a relative URL (/services/water-damage-restoration.webp) instead of an absolute URL", "severity": "low" }
+      ]
+    },
+    {
+      "url": "https://flood-fixers.com/services/flood-damage-restoration/",
+      "archetype": "service-landing",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": { "performance": 100, "accessibility": 90, "best_practices": 100, "seo": 100 },
+      "core_web_vitals": { "LCP_ms": 812, "CLS": 0.003, "TBT_ms": null, "INP_ms": null },
+      "lighthouse_issues": [],
+      "onpage_issues": [
+        { "id": "has_render_blocking_resources", "title": "Render-blocking resources present (1 script, 1 stylesheet)", "severity": "low" },
+        { "id": "relative_og_image", "title": "og:image uses a relative URL (/services/flood-damage-restoration.webp) instead of an absolute URL", "severity": "low" }
+      ]
+    },
+    {
+      "url": "https://flood-fixers.com/service-areas/san-diego-ca/",
+      "archetype": "service-area",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": { "performance": 99, "accessibility": 91, "best_practices": 100, "seo": 100 },
+      "core_web_vitals": { "LCP_ms": 864, "CLS": 0.003, "TBT_ms": null, "INP_ms": null },
+      "lighthouse_issues": [],
+      "onpage_issues": [
+        { "id": "has_render_blocking_resources", "title": "Render-blocking resources present (1 script, 1 stylesheet)", "severity": "low" },
+        { "id": "frame", "title": "Page contains an iframe (Google Maps embed); iframe content is not crawlable", "severity": "low" }
+      ]
+    },
+    {
+      "url": "https://flood-fixers.com/contact/",
+      "archetype": "contact",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": { "performance": 99, "accessibility": 91, "best_practices": 100, "seo": 100 },
+      "core_web_vitals": { "LCP_ms": 867, "CLS": 0.023, "TBT_ms": null, "INP_ms": null },
+      "lighthouse_issues": [],
+      "onpage_issues": [
+        { "id": "has_render_blocking_resources", "title": "Render-blocking resources present (1 script, 1 stylesheet)", "severity": "low" }
+      ]
+    }
+  ],
+  "site_rollup": {
+    "avg_scores": { "performance": 98, "accessibility": 90, "best_practices": 100, "seo": 100 },
+    "verdict": "amber",
+    "url_count": 6,
+    "urls_by_verdict": { "green": 5, "amber": 1, "red": 0, "error": 0 },
+    "template_issues": [
+      { "id": "has_render_blocking_resources", "title": "Render-blocking resources present (1 script, 1 stylesheet)", "affected_urls": 6, "severity": "low" },
+      { "id": "relative_og_image", "title": "og:image uses a relative URL instead of an absolute URL", "affected_urls": 2, "severity": "low" }
+    ],
+    "money_page_alerts": [
+      { "url": "https://flood-fixers.com/", "archetype": "home", "verdict": "amber", "main_issue": "accessibility 86 (below the 90 threshold); performance 96, LCP 1.45s are healthy" }
+    ]
+  },
+  "regression": {
+    "prior_run_at": null,
+    "score_deltas": null,
+    "verdict_transitions": [],
+    "new_issues": [],
+    "resolved_issues": []
+  }
+}

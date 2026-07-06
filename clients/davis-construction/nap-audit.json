@@ -1,0 +1,31 @@
+{
+  "slug": "davis-construction",
+  "checked_at": "2026-07-06T18:41:45.638237+00:00",
+  "canonical": {
+    "name": "Davis Construction Contractors",
+    "phone": "(256) 771-0326",
+    "street_address": "",
+    "city": "Madison",
+    "state": "AL",
+    "postal_code": "",
+    "domain": "davisconstructioncontractors.com"
+  },
+  "results": [
+    {
+      "platform": "google-maps",
+      "url": null,
+      "source": "dataforseo maps live",
+      "status": "not_found",
+      "notes": "listing not found in top 3 maps results for brand query"
+    },
+    {
+      "platform": "gbp-profile",
+      "source": "marketing_gbp_profiles",
+      "status": "not_found",
+      "notes": "no marketing_gbp_profiles row"
+    }
+  ],
+  "duplicates": [],
+  "mismatches": [],
+  "actions_upserted": 0
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "flood-fixers",
+  "checked_at": "2026-07-06T18:41:52.543471+00:00",
+  "canonical": {
+    "name": "Flood Fixers",
+    "phone": "(855) 204-1124",
+    "street_address": "",
+    "city": "San Diego",
+    "state": "CA",
+    "postal_code": "",
+    "domain": "flood-fixers.com"
+  },
+  "results": [
+    {
+      "platform": "google-maps",
+      "url": null,
+      "source": "dataforseo maps live",
+      "status": "error",
+      "notes": "maps lookup failed: Invalid Field: 'location_coordinate'."
+    },
+    {
+      "platform": "gbp-profile",
+      "source": "marketing_gbp_profiles",
+      "status": "not_found",
+      "notes": "no marketing_gbp_profiles row"
+    }
+  ],
+  "duplicates": [],
+  "mismatches": [],
+  "actions_upserted": 0
+}

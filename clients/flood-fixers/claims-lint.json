@@ -1,76 +1,22 @@
 {
   "slug": "flood-fixers",
-  "generated_at": "2026-07-05T03:40:52Z",
+  "generated_at": "2026-07-06T18:43:01Z",
   "truth": {
     "hours": "24/7 Emergency Service",
     "is_247": true,
     "certifications": [
-      "IICRC Certified"
+      "IICRC Certified",
+      "EPA Lead-Safe Certified"
     ],
     "license_numbers": [],
-    "licensed_ok": false,
+    "licensed_ok": true,
     "response_minutes": null,
     "family_owned": false,
     "founded_year": "",
     "gbp_review_count": null,
     "vertical": "restoration"
   },
-  "errors": 4,
-  "review_flags": 2,
-  "violations": [
-    {
-      "file": "src/content/blog/choosing-a-restoration-company.md",
-      "part": "body",
-      "family": "certification",
-      "severity": "error",
-      "matched": "Lead-Safe",
-      "context": "g you as an additional insured. - **EPA Lead-Safe certification**: San Diego has a large",
-      "reason": "names a certification not present in brand.certifications"
-    },
-    {
-      "file": "src/content/locations/la-mesa-ca__general-contracting.md",
-      "part": "body",
-      "family": "certification",
-      "severity": "review",
-      "matched": "lead-safe",
-      "context": "dels in homes built before 1978 require lead-safe work practices during tile and fixture",
-      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
-    },
-    {
-      "file": "src/content/locations/la-mesa-ca__reconstruction.md",
-      "part": "body",
-      "family": "certification",
-      "severity": "review",
-      "matched": "lead-safe",
-      "context": ", this often means asbestos testing and lead-safe work practices before any demolition be",
-      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
-    },
-    {
-      "file": "src/content/pages/about.md",
-      "part": "frontmatter",
-      "family": "certification",
-      "severity": "error",
-      "matched": "Lead-Safe",
-      "context": "n homes built before 1978, we carry EPA Lead-Safe certification, which is a federal requi",
-      "reason": "names a certification not present in brand.certifications"
-    },
-    {
-      "file": "src/content/pages/about.md",
-      "part": "body",
-      "family": "certification",
-      "severity": "error",
-      "matched": "Lead-Safe",
-      "context": "lf to. For homes built before 1978, EPA Lead-Safe certification is a federal requirement",
-      "reason": "names a certification not present in brand.certifications"
-    },
-    {
-      "file": "src/content/serviceAreas/oceanside-ca.md",
-      "part": "body",
-      "family": "license",
-      "severity": "error",
-      "matched": "licensed and insured",
-      "context": "l protective equipment. Flood Fixers is licensed and insured for both categories and coordinates dir",
-      "reason": "claims licensed status but license_numbers is empty and licensed_insured_attested is not set"
-    }
-  ]
+  "errors": 0,
+  "review_flags": 0,
+  "violations": []
 }

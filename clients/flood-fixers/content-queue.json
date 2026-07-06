@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-07-06-what-is-category-3-water-damage",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-07-06T18:21:18Z",
       "written_at": "2026-07-06T18:25:34Z",
       "post_url": "https://flood-fixers.com/blog/what-is-category-3-water-damage/",
@@ -30,7 +30,8 @@
       "external_authority_candidates": [
         "https://www.iicrc.org/page/IICRCS500"
       ],
-      "notes": "Explain the three IICRC water categories (clean, gray, black), how each affects safety, drying vs. removal, and cost. Category 3 (sewage/contaminated) requires disposal of porous materials. No metrics: DataForSEO unavailable this run; queued intent-first as a GEO/AI-retrieval definitional query with no existing blog coverage."
+      "notes": "Explain the three IICRC water categories (clean, gray, black), how each affects safety, drying vs. removal, and cost. Category 3 (sewage/contaminated) requires disposal of porous materials. No metrics: DataForSEO unavailable this run; queued intent-first as a GEO/AI-retrieval definitional query with no existing blog coverage.",
+      "published_verified_at": "2026-07-06T18:27:10Z"
     },
     {
       "id": "2026-07-06-water-damage-restoration-process",

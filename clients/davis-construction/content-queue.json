@@ -263,7 +263,7 @@
     },
     {
       "id": "2026-06-23-mold-inspection-cost-huntsville",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-06-24T05:34:32Z",
       "written_at": "2026-07-06T18:11:59Z",
       "post_url": "https://davisconstructioncontractors.com/blog/mold-inspection-cost-huntsville/",
@@ -291,7 +291,8 @@
       ],
       "city_anchor": "huntsville-al",
       "external_authority_candidates": [],
-      "notes": "Distinct from remediation cost (inspection/testing stage). LOW competition, vol 5400."
+      "notes": "Distinct from remediation cost (inspection/testing stage). LOW competition, vol 5400.",
+      "published_verified_at": "2026-07-06T18:13:05Z"
     },
     {
       "id": "2026-06-23-attic-mold-removal-athens",

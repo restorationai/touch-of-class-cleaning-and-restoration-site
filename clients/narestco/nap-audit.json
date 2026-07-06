@@ -1,6 +1,6 @@
 {
   "slug": "narestco",
-  "checked_at": "2026-07-04T18:36:50.133420+00:00",
+  "checked_at": "2026-07-06T18:42:58.453936+00:00",
   "canonical": {
     "name": "National Restoration Construction",
     "phone": "(206) 883-0333",
@@ -56,18 +56,11 @@
       "platform": "bbb",
       "url": "https://www.bbb.org/us/wa/federal-way/profile/fire-water-damage-restoration/national-restoration-construction-llc-1296-1000167537",
       "status": "ok",
-      "fetch": "wayback:2026-04-18",
-      "phones_found": [
-        "(844) 672-2424",
-        "(800) 647-0982",
-        "(202) 393-8000",
-        "(202) 393-1198",
-        "(215) 985-9313",
-        "(215) 563-4907"
-      ],
-      "phone_match": false,
+      "fetch": "google_serp_snippet",
+      "phones_found": [],
+      "phone_match": null,
       "address_match": null,
-      "notes": "via Wayback capture 2026-04-18 (page bot-blocked); canonical phone absent; page shows (844) 672-2424, (800) 647-0982, (202) 393-8000; canonical street address not found on page"
+      "notes": "via Google snippet (page bot-blocked); no phone number found on page; canonical street address not found on page"
     },
     {
       "platform": "homeadvisor",
@@ -79,7 +72,7 @@
       "platform": "yahoo-local",
       "url": "https://local.yahoo.com/info-228522009-national-restoration-construction-federal-way",
       "status": "ok",
-      "fetch": "dfs_content_parsing",
+      "fetch": "http",
       "phones_found": [
         "(206) 883-8209"
       ],
@@ -106,12 +99,6 @@
     },
     {
       "kind": "phone",
-      "platform": "bbb",
-      "target": "https://www.bbb.org/us/wa/federal-way/profile/fire-water-damage-restoration/national-restoration-construction-llc-1296-1000167537",
-      "title": "Fix wrong phone number on bbb"
-    },
-    {
-      "kind": "phone",
       "platform": "yahoo-local",
       "target": "https://local.yahoo.com/info-228522009-national-restoration-construction-federal-way",
       "title": "Fix wrong phone number on yahoo-local"
@@ -123,5 +110,5 @@
       "title": "Remove/merge duplicate yelp listing"
     }
   ],
-  "actions_upserted": 1
+  "actions_upserted": 0
 }

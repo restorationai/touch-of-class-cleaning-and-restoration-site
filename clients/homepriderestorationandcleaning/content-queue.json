@@ -71,7 +71,7 @@
     },
     {
       "id": "2026-06-23-does-homeowners-insurance-cover-frozen-pipes-park-city",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-06-24T00:29:58Z",
       "written_at": "2026-07-06T18:36:52Z",
       "post_url": "https://homepriderestorationandcleaning.com/blog/does-homeowners-insurance-cover-frozen-pipes-park-city/",
@@ -105,7 +105,8 @@
       "external_authority_candidates": [
         "https://www.iii.org/article/what-covered-standard-homeowners-policy"
       ],
-      "notes": "Frozen-pipe-specific insurance angle (distinct from the existing general water-damage insurance post). High relevance for Park City second homes/vacant ski properties where unattended freezes are common. KD null but competition LOW."
+      "notes": "Frozen-pipe-specific insurance angle (distinct from the existing general water-damage insurance post). High relevance for Park City second homes/vacant ski properties where unattended freezes are common. KD null but competition LOW.",
+      "published_verified_at": "2026-07-06T18:38:28Z"
     },
     {
       "id": "2026-06-23-frozen-pipe-damage-heber-city",
