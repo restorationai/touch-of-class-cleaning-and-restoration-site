@@ -44,7 +44,9 @@ app.add_middleware(
         "https://rank.restorationai.io",   # free-audit lead form
         "http://localhost:5173",
         "http://localhost:4321",           # sales page astro dev
+        "http://localhost:4322",           # landing-page astro dev
     ],
+    allow_origin_regex=r"https://[a-z0-9-]+\.rank-ai-landing-page\.pages\.dev",  # Pages previews
     allow_methods=["GET", "POST"],
     allow_headers=["Authorization", "Content-Type"],
 )
@@ -252,15 +254,23 @@ def geogrid_scan(req: GeogridScanRequest):
 LEAD_AUDIT_DAILY_CAP = 10       # global per UTC day
 LEAD_AUDIT_IP_CAP = 3           # per IP per UTC day
 LEAD_AUDIT_DOMAIN_CAP = 2       # per target domain per UTC day
+LEAD_LOOKUP_DAILY_CAP = 60      # global business-name lookups per UTC day
+LEAD_LOOKUP_IP_CAP = 15         # per IP per UTC day
 
 EMAIL_RE = re.compile(r"^[^@\s]+@[^@\s]+\.[a-zA-Z]{2,}$")
 
 
 class LeadAuditRequest(BaseModel):
-    website: str
+    # Path A (classic): website + contact info.
+    # Path B (stepper): business_name + place_id/cid (+ optional domain) + contact info.
+    website: str = ""
     name: str = ""
     email: str
     phone: str
+    business_name: str = ""
+    place_id: str = ""
+    cid: str = ""
+    domain: str = ""
 
 
 def _lead_norm_domain(url: str) -> str:
@@ -277,6 +287,143 @@ def _lead_count_today(client, col_json: str = None, value: str = None) -> int:
     return q.execute().count or 0
 
 
+# --- DataForSEO business lookup (name -> candidate GBP listings) ------------
+
+DFS_LISTINGS = "https://api.dataforseo.com/v3/business_data/business_listings/search/live"
+DFS_MAPS_LIVE = "https://api.dataforseo.com/v3/serp/google/maps/live/advanced"
+
+
+def _dfs_post(url: str, body: list, timeout: int = 60) -> list:
+    """POST one DataForSEO live task; return result items (or [])."""
+    import base64
+    import urllib.request
+    import geogrid_scan as gs  # scripts/ on sys.path; load_dfs_creds handles env/~/.claude.json
+    u, p = gs.load_dfs_creds()
+    auth = base64.b64encode("{}:{}".format(u, p).encode()).decode()
+    req = urllib.request.Request(url, data=json.dumps(body).encode(), method="POST",
+        headers={"Authorization": "Basic " + auth, "Content-Type": "application/json"})
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        d = json.loads(r.read())
+    task = (d.get("tasks") or [{}])[0]
+    if task.get("status_code") and int(task["status_code"]) >= 40000:
+        raise RuntimeError(task.get("status_message") or "DataForSEO task error")
+    result = (task.get("result") or [{}])[0] or {}
+    return result.get("items") or []
+
+
+def _listing_row(it: dict) -> dict:
+    rd = it.get("rating") or {}
+    dom = (it.get("domain") or "").replace("www.", "") or None
+    return {
+        "title": it.get("title"),
+        "address": it.get("address"),
+        "rating": rd.get("value"),
+        "reviews": rd.get("votes_count"),
+        "place_id": it.get("place_id"),
+        "cid": str(it.get("cid")) if it.get("cid") is not None else None,
+        "domain": dom,
+        "url": it.get("url"),
+    }
+
+
+def _name_score(a: str, b: str) -> float:
+    import difflib
+    a, b = (a or "").lower().strip(), (b or "").lower().strip()
+    if not a or not b:
+        return 0.0
+    if a in b or b in a:
+        return 1.0
+    return difflib.SequenceMatcher(None, a, b).ratio()
+
+
+def lookup_business(q: str, limit: int = 3) -> list:
+    """US-wide GBP candidate search: business_listings first, Maps SERP fallback."""
+    items = []
+    try:
+        items = _dfs_post(DFS_LISTINGS, [{"title": q[:200], "limit": 20}])
+    except Exception:
+        items = []
+    rows = [it for it in items if isinstance(it, dict) and it.get("title")]
+    if not rows:
+        try:
+            items = _dfs_post(DFS_MAPS_LIVE, [{"keyword": q[:200], "location_code": 2840,
+                                               "language_code": "en", "device": "desktop"}])
+            rows = [it for it in items if isinstance(it, dict) and it.get("title")]
+        except Exception:
+            rows = []
+    scored = sorted(
+        (( _name_score(q, it.get("title")), (it.get("rating") or {}).get("votes_count") or 0, i, it)
+         for i, it in enumerate(rows)),
+        key=lambda t: (-t[0], -t[1], t[2]))
+    out, seen = [], set()
+    for score, _votes, _i, it in scored:
+        if score < 0.35:
+            continue
+        key = it.get("place_id") or it.get("cid") or it.get("title")
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(_listing_row(it))
+        if len(out) >= limit:
+            break
+    return out
+
+
+def _listing_by_id(place_id: str = "", cid: str = ""):
+    """Fetch one listing by place_id/cid (used to resolve a missing domain)."""
+    filters = None
+    if place_id:
+        filters = ["place_id", "=", place_id]
+    elif cid:
+        try:
+            filters = ["cid", "=", int(cid)]
+        except ValueError:
+            filters = ["cid", "=", cid]
+    if not filters:
+        return None
+    try:
+        items = _dfs_post(DFS_LISTINGS, [{"filters": [filters], "limit": 1}])
+        for it in items:
+            if isinstance(it, dict) and it.get("title"):
+                return _listing_row(it)
+    except Exception:
+        pass
+    return None
+
+
+@app.get("/lead-audit/business-lookup")
+def lead_business_lookup(q: str, request: Request):
+    """Public: up to 3 GBP candidates for a business name (stepper step 1)."""
+    q = (q or "").strip()
+    if len(q) < 3 or len(q) > 120:
+        raise HTTPException(status_code=400, detail="Please enter your business name (3-120 characters).")
+
+    ip = (request.headers.get("x-forwarded-for") or (request.client.host if request.client else "") or "").split(",")[0].strip()
+    client = sb()
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%dT00:00:00+00:00")
+
+    def _lookup_count(ip_val=None):
+        query = (client.table("marketing_jobs").select("id", count="exact")
+                 .eq("type", "lead_lookup").gte("queued_at", today))
+        if ip_val:
+            query = query.eq("params->>ip", ip_val)
+        return query.execute().count or 0
+
+    if _lookup_count() >= LEAD_LOOKUP_DAILY_CAP:
+        raise HTTPException(status_code=429, detail="We've hit today's lookup limit — please try again tomorrow.")
+    if ip and _lookup_count(ip) >= LEAD_LOOKUP_IP_CAP:
+        raise HTTPException(status_code=429, detail="Too many searches from this connection today.")
+
+    matches = lookup_business(q)
+    client.table("marketing_jobs").insert({
+        "type": "lead_lookup", "status": "completed",
+        "params": {"q": q, "ip": ip, "source": "rank.restorationai.io"},
+        "result": {"count": len(matches)},
+        "completed_at": datetime.now(timezone.utc).isoformat(),
+    }).execute()
+    return {"query": q, "matches": matches}
+
+
 def _run_lead_audit_job(job_id: str, req: "LeadAuditRequest"):
     client = sb()
     client.table("marketing_jobs").update(
@@ -284,8 +431,11 @@ def _run_lead_audit_job(job_id: str, req: "LeadAuditRequest"):
     ).eq("id", job_id).execute()
     try:
         import lead_audit  # scripts/ is on sys.path (see header)
-        res = lead_audit.run_audit(req.website, req.name, req.email, req.phone,
-                                   audit_id=job_id.replace("-", "")[:12])
+        res = lead_audit.run_audit(req.website or req.domain, req.name, req.email, req.phone,
+                                   audit_id=job_id.replace("-", "")[:12],
+                                   business_name=req.business_name or None,
+                                   place_id=req.place_id or None,
+                                   cid=req.cid or None)
         client.table("marketing_jobs").update({
             "status": "completed",
             "completed_at": datetime.now(timezone.utc).isoformat(),
@@ -301,10 +451,21 @@ def _run_lead_audit_job(job_id: str, req: "LeadAuditRequest"):
 
 @app.post("/lead-audit")
 def create_lead_audit(req: LeadAuditRequest, request: Request):
-    """Public: queue a free visibility audit for a prospect's website."""
-    domain = _lead_norm_domain(req.website)
+    """Public: queue a free visibility audit.
+
+    Accepts either {website, ...} (classic) or {business_name, place_id/cid,
+    domain?, ...} (stepper). When the stepper gives no domain, we resolve it
+    from the chosen listing's website field via DataForSEO."""
+    domain = _lead_norm_domain(req.website or req.domain)
+    if not re.match(r"^[a-z0-9.-]+\.[a-z]{2,}$", domain) and (req.place_id or req.cid):
+        listing = _listing_by_id(req.place_id, req.cid)
+        if listing and (listing.get("domain") or listing.get("url")):
+            domain = _lead_norm_domain(listing.get("domain") or listing.get("url"))
+            req.domain = domain
     if not re.match(r"^[a-z0-9.-]+\.[a-z]{2,}$", domain):
-        raise HTTPException(status_code=400, detail="Please enter a valid website, e.g. yourcompany.com")
+        raise HTTPException(status_code=400,
+                            detail="We couldn't find a website for that business — please enter your website, e.g. yourcompany.com")
+    req.domain = req.domain or domain
     if not EMAIL_RE.match(req.email or ""):
         raise HTTPException(status_code=400, detail="Please enter a valid email address.")
     if len(re.sub(r"\D", "", req.phone or "")) < 10:
@@ -322,7 +483,9 @@ def create_lead_audit(req: LeadAuditRequest, request: Request):
     row = client.table("marketing_jobs").insert({
         "type": "lead_audit", "status": "queued",  # triggered_by is a UUID col — leave null
         "params": {"domain": domain, "name": req.name, "email": req.email,
-                   "phone": req.phone, "ip": ip, "source": "rank.restorationai.io"},
+                   "phone": req.phone, "ip": ip, "source": "rank.restorationai.io",
+                   "business_name": req.business_name or None,
+                   "place_id": req.place_id or None, "cid": req.cid or None},
     }).execute()
     job_id = row.data[0]["id"]
 

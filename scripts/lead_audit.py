@@ -76,6 +76,7 @@ STATS_LIB = ROOT / "docs" / "audit-stats-library.md"
 DFS_ORGANIC = "https://api.dataforseo.com/v3/serp/google/organic/live/advanced"
 DFS_MAPS = "https://api.dataforseo.com/v3/serp/google/maps/live/advanced"
 DFS_VOLUME = "https://api.dataforseo.com/v3/keywords_data/google_ads/search_volume/live"
+DFS_LISTINGS = "https://api.dataforseo.com/v3/business_data/business_listings/search/live"
 
 # avg ticket by vertical — used ONLY inside a clearly-labeled estimate range
 AVG_TICKET = {"water": 4500, "fire": 15000, "mold": 3500, "storm": 6000,
@@ -357,6 +358,34 @@ def gbp_confirm(auth, gbp_query, business_name, lat, lng):
             "cid": str(best.get("cid")) if best.get("cid") is not None else None,
             "rating": rd.get("value"), "reviews": rd.get("votes_count"),
             "address": best.get("address"),
+        }, cost
+    return {"found": False}, cost
+
+
+def gbp_by_id(auth, place_id=None, cid=None):
+    """Fetch the chosen GBP listing directly by place_id/cid (stepper flow:
+    the prospect already confirmed their listing, so skip name re-guessing)."""
+    flt = None
+    if place_id:
+        flt = ["place_id", "=", place_id]
+    elif cid:
+        try:
+            flt = ["cid", "=", int(cid)]
+        except (TypeError, ValueError):
+            flt = ["cid", "=", str(cid)]
+    if not flt:
+        return {"found": False}, 0.0
+    items, cost, _ = _dfs(DFS_LISTINGS, [{"filters": [flt], "limit": 1}], auth)
+    for it in items:
+        if not isinstance(it, dict) or not it.get("title"):
+            continue
+        rd = it.get("rating") or {}
+        return {
+            "found": True, "title": it.get("title"),
+            "place_id": it.get("place_id") or place_id,
+            "cid": str(it.get("cid")) if it.get("cid") is not None else (str(cid) if cid else None),
+            "rating": rd.get("value"), "reviews": rd.get("votes_count"),
+            "address": it.get("address"),
         }, cost
     return {"found": False}, cost
 
@@ -813,6 +842,35 @@ def append_lead_jsonl(lead):
     r2_put(PRIVATE_BUCKET, key, existing + line, "application/x-ndjson")
 
 
+def send_sms(to_phone, body):
+    """Text the report link via the agency estimate-SMS sender (same creds the
+    client sites' /api/estimate path uses). Skips quietly when the three
+    ESTIMATE_SMS_* env vars aren't set (e.g. toll-free still pending review)."""
+    from_num = (os.environ.get("ESTIMATE_SMS_FROM") or "").strip()
+    sid = (os.environ.get("ESTIMATE_SMS_SID") or "").strip()
+    token = (os.environ.get("ESTIMATE_SMS_TOKEN") or "").strip()
+    digits = re.sub(r"\D", "", to_phone or "")
+    if not (from_num and sid and token):
+        sys.stderr.write("  sms skipped (ESTIMATE_SMS_* env not set)\n")
+        return False
+    if len(digits) < 10:
+        sys.stderr.write("  sms skipped (bad phone: {})\n".format(to_phone))
+        return False
+    to_e164 = "+" + digits if digits.startswith("1") and len(digits) == 11 else "+1" + digits[-10:]
+    data = urllib.parse.urlencode({"From": from_num, "To": to_e164, "Body": body}).encode()
+    req = urllib.request.Request(
+        "https://api.twilio.com/2010-04-01/Accounts/{}/Messages.json".format(sid),
+        data=data, method="POST",
+        headers={"Authorization": "Basic " + base64.b64encode("{}:{}".format(sid, token).encode()).decode(),
+                 "Content-Type": "application/x-www-form-urlencoded"})
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            return 200 <= r.status < 300
+    except Exception as e:
+        sys.stderr.write("  sms to {} FAILED: {}\n".format(to_e164, str(e)[:150]))
+        return False
+
+
 def send_email(to_addr, subject, html_body):
     api_key = os.environ.get("SENDGRID_API_KEY")
     if not api_key:
@@ -851,8 +909,11 @@ def _lead_email_html(prof, domain, report_url, copy):
 # Orchestrator
 # ---------------------------------------------------------------------------
 
-def run_audit(website, name, email, phone, audit_id=None, email_mode="all", progress=None):
+def run_audit(website, name, email, phone, audit_id=None, email_mode="all", progress=None,
+              business_name=None, place_id=None, cid=None):
     """Full pipeline. email_mode: 'all' | 'internal' (notify only) | 'none'.
+    business_name/place_id/cid: optional GBP identity already confirmed by the
+    prospect in the stepper — used to pin the listing instead of re-guessing.
     Returns {report_url, grade, costs, errors, ...}."""
     def log(msg):
         print("  [{}] {}".format(dt.datetime.now().strftime("%H:%M:%S"), msg))
@@ -893,15 +954,29 @@ def run_audit(website, name, email, phone, audit_id=None, email_mode="all", prog
     if not cities_geo:
         raise RuntimeError("could not geocode any service city")
 
-    # GBP confirm
+    # GBP confirm — pinned by id when the prospect already picked their listing
     gbp = {"found": False}
-    try:
-        gbp, c = gbp_confirm(auth, prof.get("gbp_query") or prof["business_name"],
-                             prof["business_name"], cities_geo[0]["lat"], cities_geo[0]["lng"])
-        costs["dataforseo"] += c
-        log("gbp: {}".format(gbp))
-    except Exception as e:
-        errors.append("gbp_confirm: " + str(e)[:150])
+    if place_id or cid:
+        try:
+            gbp, c = gbp_by_id(auth, place_id=place_id, cid=cid)
+            costs["dataforseo"] += c
+            log("gbp (pinned by id): {}".format(gbp))
+        except Exception as e:
+            errors.append("gbp_by_id: " + str(e)[:150])
+        if not gbp.get("found"):
+            # id lookup missed (listings DB lag) — trust the confirmed identity anyway
+            gbp = {"found": True, "title": business_name or prof["business_name"],
+                   "place_id": place_id, "cid": str(cid) if cid else None,
+                   "rating": None, "reviews": None, "address": None}
+            log("gbp: listings lookup missed; pinning ids from stepper selection")
+    if not gbp.get("found"):
+        try:
+            gbp, c = gbp_confirm(auth, business_name or prof.get("gbp_query") or prof["business_name"],
+                                 prof["business_name"], cities_geo[0]["lat"], cities_geo[0]["lng"])
+            costs["dataforseo"] += c
+            log("gbp: {}".format(gbp))
+        except Exception as e:
+            errors.append("gbp_confirm: " + str(e)[:150])
     prof["gbp"] = gbp
 
     # 2. organic rankings
@@ -984,6 +1059,9 @@ def run_audit(website, name, email, phone, audit_id=None, email_mode="all", prog
     if email_mode in ("all",):
         send_email(email, "Your Rank AI audit for {}".format(domain),
                    _lead_email_html(prof, domain, report_url, copy))
+        if phone:
+            send_sms(phone, "Rank AI: your free visibility audit for {} is ready (grade {}). "
+                            "View it here: {}".format(domain, copy.get("grade"), report_url))
     if email_mode in ("all", "internal"):
         notif = """<div style="font-family:monospace;font-size:13px">
 <b>NEW LEAD — free audit requested</b><br><br>
