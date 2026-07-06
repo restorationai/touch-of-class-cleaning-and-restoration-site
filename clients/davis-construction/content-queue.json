@@ -263,10 +263,10 @@
     },
     {
       "id": "2026-06-23-mold-inspection-cost-huntsville",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-06-24T05:34:32Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-07-06T18:11:59Z",
+      "post_url": "https://davisconstructioncontractors.com/blog/mold-inspection-cost-huntsville/",
       "primary_keyword": "mold inspection cost",
       "intent": "informational",
       "volume": 5400,
