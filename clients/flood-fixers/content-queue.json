@@ -1,0 +1,168 @@
+{
+  "items": [
+    {
+      "id": "2026-07-06-what-is-category-3-water-damage",
+      "status": "written",
+      "queued_at": "2026-07-06T18:21:18Z",
+      "written_at": "2026-07-06T18:25:34Z",
+      "post_url": "https://flood-fixers.com/blog/what-is-category-3-water-damage/",
+      "primary_keyword": "what is category 3 water damage",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "categories of water damage explained",
+        "clean water vs gray water vs black water",
+        "is category 3 water damage dangerous",
+        "category 1 category 2 category 3 water"
+      ],
+      "suggested_slug": "what-is-category-3-water-damage",
+      "suggested_title": "What Is Category 3 Water Damage? (And Why It Changes Everything)",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/basement-flooding-cleanup/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Explain the three IICRC water categories (clean, gray, black), how each affects safety, drying vs. removal, and cost. Category 3 (sewage/contaminated) requires disposal of porous materials. No metrics: DataForSEO unavailable this run; queued intent-first as a GEO/AI-retrieval definitional query with no existing blog coverage."
+    },
+    {
+      "id": "2026-07-06-water-damage-restoration-process",
+      "status": "queued",
+      "queued_at": "2026-07-06T18:21:18Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what does the water damage restoration process involve",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "water damage restoration process step by step",
+        "water extraction and drying process",
+        "how do professionals dry out water damage",
+        "moisture testing after water damage",
+        "does water damaged drywall need to be replaced"
+      ],
+      "suggested_slug": "water-damage-restoration-process-explained",
+      "suggested_title": "What Does the Water Damage Restoration Process Involve? A Step-by-Step Guide",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/reconstruction/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "reconstruction"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Walk through inspection, water extraction, structural drying, dehumidification, moisture verification, and reconstruction. Pairs with the water damage restoration and reconstruction service pages. No metrics: DataForSEO unavailable this run; queued intent-first (process explainer, no existing blog coverage)."
+    },
+    {
+      "id": "2026-07-06-water-damage-behind-walls",
+      "status": "queued",
+      "queued_at": "2026-07-06T18:21:18Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to tell if you have water damage behind walls",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "signs of water damage behind walls",
+        "signs of water damage on ceiling",
+        "musty smell from water damage",
+        "bubbling or peeling paint water damage",
+        "hidden water damage detection"
+      ],
+      "suggested_slug": "how-to-tell-if-you-have-water-damage-behind-walls",
+      "suggested_title": "How To Tell if You Have Water Damage Behind Your Walls (7 Warning Signs)",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/burst-pipe-repair/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "burst-pipe-repair"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-cleanup-your-home"
+      ],
+      "notes": "List detectable signs (staining, bubbling paint, musty odor, warped drywall, elevated moisture readings), when it points to a hidden burst pipe, and when to call a pro. No metrics: DataForSEO unavailable this run; queued intent-first (diagnostic query, no existing blog coverage)."
+    },
+    {
+      "id": "2026-07-06-water-damage-left-untreated",
+      "status": "queued",
+      "queued_at": "2026-07-06T18:21:18Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what happens if water damage is left untreated",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "is water damage dangerous to your health",
+        "how long before mold grows after water damage",
+        "structural damage from untreated water",
+        "risks of ignoring water damage"
+      ],
+      "suggested_slug": "what-happens-if-water-damage-is-left-untreated",
+      "suggested_title": "What Happens if Water Damage Is Left Untreated? (The 24-Hour to 30-Day Timeline)",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/basement-flooding-cleanup/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-cleanup-your-home"
+      ],
+      "notes": "Timeline of escalation: mold in 24-48 hours, structural weakening, insurance implications for delayed mitigation. Reinforces urgency of the 24/7 service. No metrics: DataForSEO unavailable this run; queued intent-first (no existing blog coverage; adjacent to but distinct from the mold-after-water-damage post)."
+    },
+    {
+      "id": "2026-07-06-water-damage-restoration-cost",
+      "status": "queued",
+      "queued_at": "2026-07-06T18:21:18Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how much does water damage restoration cost",
+      "intent": "commercial",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "water damage restoration cost per square foot",
+        "what affects water damage restoration cost",
+        "does insurance pay for water damage restoration",
+        "category 3 water damage cost"
+      ],
+      "suggested_slug": "how-much-does-water-damage-restoration-cost",
+      "suggested_title": "How Much Does Water Damage Restoration Cost? A 2026 Price Breakdown",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Cost drivers: water category, affected square footage, materials, drying time, mold. Cross-link the insurance-coverage blog. Commercial/decision-stage query with no dedicated cost page in the url-plan. No metrics: DataForSEO unavailable this run; queued intent-first as a high-value decision-stage topic. Keep price ranges general, avoid unverifiable local quotes."
+    }
+  ]
+}
