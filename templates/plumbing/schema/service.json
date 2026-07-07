@@ -1,0 +1,34 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "{service.display_name}",
+  "name": "{service.display_name} in {area.city}",
+  "provider": {
+    "@type": "Plumber",
+    "@id": "{brand.entity_id}",
+    "name": "{brand.display_name}",
+    "telephone": "{brand.phone}"
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "{area.city}",
+    "addressRegion": "{area.state}",
+    "addressCountry": "US"
+  },
+  "url": "{page.canonical_url}",
+  "description": "{page.meta_description}",
+  "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "priceCurrency": "USD",
+    "priceSpecification": {
+      "@type": "PriceSpecification",
+      "priceCurrency": "USD",
+      "description": "Free estimate; pricing depends on scope of work."
+    }
+  },
+  "hoursAvailable": "{brand.hours_specification}",
+  "_notes": [
+    "hoursAvailable is resolved from brand.hours at build time — NEVER hardcode a 24/7 OpeningHoursSpecification in this vertical. Plumbing clients split between true 24/7 emergency shops and M-F scheduled-service shops; the brand.hours gate (identical to the restoration vertical's Header/TrustStrip gate) decides which hours block is emitted."
+  ]
+}

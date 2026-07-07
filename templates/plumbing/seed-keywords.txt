@@ -1,0 +1,62 @@
+# Plumbing vertical — canonical seed keywords (plumbing + heating + air)
+# Shared across all plumbing/HVAC clients. S1 picks the oldest-researched seed
+# per client and fans out with city modifiers from that client's service_areas[].
+# One seed per S1 run.
+
+# Core plumbing service seeds
+plumber
+emergency plumber
+drain cleaning
+clogged drain
+water heater repair
+water heater replacement
+tankless water heater
+sewer line repair
+trenchless sewer repair
+burst pipe repair
+leak detection
+slab leak repair
+repipe house
+gas line repair
+sump pump installation
+water softener installation
+toilet repair
+
+# Heating seeds
+furnace repair
+furnace replacement
+heater not working
+heat pump installation
+
+# Air conditioning seeds
+ac repair
+ac replacement
+air conditioner not cooling
+hvac company
+mini split installation
+duct cleaning and sealing
+indoor air quality
+
+# Problem/need seeds (high commercial intent)
+how much does a new water heater cost
+how much does a new furnace cost
+how much does a new ac unit cost
+cost to repipe a house
+how much does trenchless sewer repair cost
+why is my water bill so high
+
+# Comparison / decision seeds
+tankless vs tank water heater
+heat pump vs furnace
+mini split vs central air
+hydro jetting vs snaking
+how to choose a plumber
+licensed vs unlicensed plumber
+
+# Symptom / informational seeds (drives blog content)
+no hot water
+water heater leaking
+low water pressure
+sewer smell in house
+furnace blowing cold air
+what to do when a pipe bursts

@@ -1,0 +1,132 @@
+{
+  "version": "0.1.0",
+  "note": "Ranked seed blog topics for plumbing/HVAC-industry sites. Skill 2 plans the first N (default 12) at launch; Skill 4's routine consumes the remainder over time. priority is 1-10 (higher = sooner). title_template supports {primary_city} substitution where geographic anchoring helps SEO. Topics span all three trades (plumbing, heating, air). The gas-leak topic MUST keep the call-911/utility-first safety framing (see prompts/content-writer.md).",
+  "topics": [
+    {
+      "slug": "what-to-do-burst-pipe",
+      "title_template": "Pipe Burst? What To Do in the First 10 Minutes",
+      "services": ["burst-pipe-repair", "emergency-plumbing"],
+      "intent": "informational_emergency",
+      "priority": 10
+    },
+    {
+      "slug": "tankless-vs-tank-water-heater",
+      "title_template": "Tankless vs Tank Water Heaters: Which Is Right for Your Home?",
+      "services": ["water-heater-installation"],
+      "intent": "commercial_decision",
+      "priority": 10
+    },
+    {
+      "slug": "water-heater-lifespan-repair-or-replace",
+      "title_template": "How Long Do Water Heaters Last? When To Repair vs Replace",
+      "services": ["water-heater-repair", "water-heater-installation"],
+      "intent": "commercial_decision",
+      "priority": 9
+    },
+    {
+      "slug": "gas-leak-what-to-do",
+      "title_template": "Smell Gas? Leave First, Then Call: A Gas Leak Safety Guide",
+      "services": ["gas-line-services"],
+      "intent": "informational_safety",
+      "priority": 9
+    },
+    {
+      "slug": "drain-cleaning-diy-vs-pro",
+      "title_template": "Chemical Drain Cleaners vs Calling a Plumber: What Actually Works",
+      "services": ["drain-cleaning"],
+      "intent": "informational_process",
+      "priority": 9
+    },
+    {
+      "slug": "how-much-does-a-new-ac-cost",
+      "title_template": "How Much Does a New AC Unit Cost? A Realistic Budget Breakdown",
+      "services": ["ac-installation"],
+      "intent": "commercial_decision",
+      "priority": 9
+    },
+    {
+      "slug": "furnace-repair-or-replace",
+      "title_template": "Furnace Repair or Replace? The 50% Rule and Other Ways To Decide",
+      "services": ["furnace-repair", "furnace-installation"],
+      "intent": "commercial_decision",
+      "priority": 9
+    },
+    {
+      "slug": "signs-of-a-slab-leak",
+      "title_template": "7 Warning Signs of a Slab Leak (and What To Do About Them)",
+      "services": ["slab-leak-repair", "leak-detection"],
+      "intent": "informational_symptom",
+      "priority": 8
+    },
+    {
+      "slug": "heat-pump-vs-furnace",
+      "title_template": "Heat Pump vs Furnace in {primary_city}: Which Heating System Wins?",
+      "services": ["heat-pump-services", "furnace-installation"],
+      "intent": "commercial_decision",
+      "priority": 8
+    },
+    {
+      "slug": "trenchless-sewer-repair-explained",
+      "title_template": "Trenchless Sewer Repair, Explained: Pipe Lining vs Pipe Bursting",
+      "services": ["sewer-line-repair"],
+      "intent": "informational_specialty",
+      "priority": 8
+    },
+    {
+      "slug": "hydro-jetting-vs-snaking",
+      "title_template": "Hydro Jetting vs Snaking: Which Drain Cleaning Method Do You Need?",
+      "services": ["drain-cleaning", "sewer-line-repair"],
+      "intent": "informational_specialty",
+      "priority": 8
+    },
+    {
+      "slug": "low-water-pressure-causes",
+      "title_template": "Low Water Pressure in Your House? Here Are the Usual Suspects",
+      "services": ["repiping", "leak-detection"],
+      "intent": "informational_symptom",
+      "priority": 8
+    },
+    {
+      "slug": "when-to-repipe-a-house",
+      "title_template": "When Should You Repipe a House? Age, Materials, and Warning Signs",
+      "services": ["repiping"],
+      "intent": "commercial_decision",
+      "priority": 7
+    },
+    {
+      "slug": "hard-water-signs-and-fixes",
+      "title_template": "Is Hard Water Ruining Your Plumbing? Signs, Damage, and Fixes",
+      "services": ["water-softeners-filtration"],
+      "intent": "informational_symptom",
+      "priority": 7
+    },
+    {
+      "slug": "mini-split-vs-central-air",
+      "title_template": "Mini-Split vs Central Air: Costs, Efficiency, and Which Fits Your Home",
+      "services": ["ductless-mini-splits", "ac-installation"],
+      "intent": "commercial_decision",
+      "priority": 7
+    },
+    {
+      "slug": "sump-pump-maintenance-checklist",
+      "title_template": "Sump Pump Maintenance: A 15-Minute Checklist Before the Rainy Season",
+      "services": ["sump-pumps"],
+      "intent": "informational_prevention",
+      "priority": 7
+    },
+    {
+      "slug": "why-is-my-ac-not-cooling",
+      "title_template": "Why Is My AC Running but Not Cooling? 8 Causes From Simple to Serious",
+      "services": ["ac-repair"],
+      "intent": "informational_symptom",
+      "priority": 7
+    },
+    {
+      "slug": "indoor-air-quality-upgrades",
+      "title_template": "Indoor Air Quality Upgrades That Actually Work (and What To Skip)",
+      "services": ["indoor-air-quality", "ductwork"],
+      "intent": "informational_specialty",
+      "priority": 6
+    }
+  ]
+}

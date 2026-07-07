@@ -1,0 +1,20 @@
+{
+  "name": "BlogIndex",
+  "fixed_ref": "blog-index",
+  "path_pattern": "/blog/",
+  "title_template": "Plumbing & HVAC Blog | {brand.display_name}",
+  "h1_template": "Plumbing, Heating and Air Resources",
+  "meta_description_template": "Guides, checklists, and explainers from {brand.display_name} on plumbing, water heaters, drains, heating, and air conditioning.",
+  "primary_keyword_template": "plumbing blog {brand.primary_city|lower}",
+  "secondary_keywords": [
+    "plumbing guides",
+    "water heater tips",
+    "hvac maintenance insights"
+  ],
+  "search_intent_default": "informational_browse",
+  "target_word_count": 300,
+  "image_roles": ["hero", "og"],
+  "schema_stubs": ["website", "breadcrumb-list"],
+  "linking_rules_ref": "blog-index",
+  "required_brand_fields": ["display_name"]
+}

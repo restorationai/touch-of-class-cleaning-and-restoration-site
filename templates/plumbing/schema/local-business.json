@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Plumber",
+  "additionalType": "https://schema.org/HVACBusiness",
+  "@id": "{brand.entity_id}",
+  "name": "{brand.display_name}",
+  "url": "{brand.canonical_url}",
+  "telephone": "{brand.phone}",
+  "email": "{brand.email}",
+  "image": "{brand.logo_url}",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "{brand.street_address}",
+    "addressLocality": "{brand.primary_city}",
+    "addressRegion": "{brand.primary_state}",
+    "postalCode": "{brand.postal_code}",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "{brand.lat}",
+    "longitude": "{brand.lng}"
+  },
+  "openingHoursSpecification": "{brand.hours_specification}",
+  "areaServed": "{brand.area_served}",
+  "founder": "{brand.founder}",
+  "foundingDate": "{brand.founded_year}",
+  "sameAs": "{brand.same_as_urls}",
+  "hasCredential": "{brand.certifications}",
+  "_notes": [
+    "Plumber and HVACBusiness are both schema.org LocalBusiness subtypes (under HomeAndConstructionBusiness). Plumbing-led clients emit @type Plumber as primary with additionalType HVACBusiness when they also offer heating/air (the All Pro Plumbing Heating and Air shape). For a rare HVAC-led client, Skill 3 may swap the two.",
+    "brand.hours_specification is resolved from brand.hours at build time. Emit an around-the-clock OpeningHoursSpecification ONLY when brand.hours actually says 24/7 (same gate as Header/TrustStrip/schema.ts); otherwise emit the brand's real business hours."
+  ]
+}
