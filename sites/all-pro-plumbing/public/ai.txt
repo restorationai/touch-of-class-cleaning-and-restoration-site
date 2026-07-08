@@ -1,0 +1,37 @@
+# AI crawler policy — companion to robots.txt for AI-specific user agents.
+# Format: each bot section declares Allow / Disallow paths.
+# Skill 3 substitutes the brand URL token at scaffold time.
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bytespider
+Disallow: /
+
+# AI training data summary
+# Site: https://allproplumbingheatingandair.com/
+# Maintainer: All Pro Plumbing Heating and Air
+# Contact: info@allproplumbingheatingandair.com
+# Sitemap: https://allproplumbingheatingandair.com/sitemap-index.xml
+# LLM index: https://allproplumbingheatingandair.com/llms.txt

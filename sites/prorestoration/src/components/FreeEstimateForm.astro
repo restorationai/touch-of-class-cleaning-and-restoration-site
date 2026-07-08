@@ -1,0 +1,169 @@
+---
+// FreeEstimateForm — the site's lead form. Posts JSON to /api/estimate
+// (Cloudflare Pages Function, functions/api/estimate.ts) which emails the
+// client via SendGrid, optionally SMS-es their line via Twilio call-tracking
+// creds from Supabase, and inserts a CRM contact row.
+//
+// Spam controls (server enforces both):
+//   1. Honeypot field `company_website` — hidden from humans; any value = drop.
+//   2. Min-render-time token `fets` — set to Date.now() by inline JS at load;
+//      submissions younger than 3s are dropped as bot traffic.
+//
+// Phone stays the primary conversion path: the "fastest: call" line renders
+// above the form on both variants.
+import { brand } from "~/lib/brand";
+import { Phone } from "@lucide/astro";
+
+type Props = {
+  /** Compact variant for /emergency/ — tighter spacing, shorter copy. */
+  compact?: boolean;
+  heading?: string;
+};
+const {
+  compact = false,
+  heading = compact ? "Or Request a Free Estimate" : "Request Your Free Estimate",
+} = Astro.props;
+---
+
+<section id="estimate" class={`bg-dark-900 border-y border-white/10 ${compact ? "py-14" : "py-20"}`}>
+  <div class="container-wide px-6">
+    <div class={`mx-auto ${compact ? "max-w-xl" : "max-w-2xl"}`}>
+      <div class={`text-center ${compact ? "mb-6" : "mb-8"}`}>
+        <h2 class={`font-black uppercase tracking-tighter text-white ${compact ? "text-2xl md:text-3xl" : "text-3xl md:text-4xl"} mb-3`}>
+          {heading}
+        </h2>
+        {!compact && (
+          <p class="text-white/75 text-lg mb-0">
+            Tell us what happened and we'll get back to you fast — usually within one business hour.
+          </p>
+        )}
+        <p class="mt-4 mb-0">
+          <a href={`tel:${brand.phoneRaw}`} class="inline-flex items-center gap-2 font-bold text-white no-underline text-lg">
+            <Phone size={18} class="text-primary-500" />
+            Fastest: call {brand.phone}
+          </a>
+        </p>
+      </div>
+
+      <form method="post" action="/api/estimate" data-estimate-form novalidate class="grid gap-4">
+        <div class="grid gap-4 sm:grid-cols-2">
+          <label class="grid gap-1.5 text-sm font-bold uppercase tracking-widest text-white/70">
+            Name *
+            <input
+              type="text" name="name" required autocomplete="name" maxlength="120"
+              class="rounded-md border border-white/15 bg-white/5 px-4 py-3 text-base font-normal normal-case tracking-normal text-white placeholder-white/40 focus:border-white/50 focus:outline-none"
+              placeholder="Your name"
+            />
+          </label>
+          <label class="grid gap-1.5 text-sm font-bold uppercase tracking-widest text-white/70">
+            Phone *
+            <input
+              type="tel" name="phone" required autocomplete="tel" maxlength="30"
+              class="rounded-md border border-white/15 bg-white/5 px-4 py-3 text-base font-normal normal-case tracking-normal text-white placeholder-white/40 focus:border-white/50 focus:outline-none"
+              placeholder="(555) 555-5555"
+            />
+          </label>
+        </div>
+        <div class="grid gap-4 sm:grid-cols-2">
+          <label class="grid gap-1.5 text-sm font-bold uppercase tracking-widest text-white/70">
+            City / ZIP *
+            <input
+              type="text" name="city" required autocomplete="postal-code" maxlength="80"
+              class="rounded-md border border-white/15 bg-white/5 px-4 py-3 text-base font-normal normal-case tracking-normal text-white placeholder-white/40 focus:border-white/50 focus:outline-none"
+              placeholder={`${brand.primaryCity} or ZIP`}
+            />
+          </label>
+          <label class="grid gap-1.5 text-sm font-bold uppercase tracking-widest text-white/70">
+            Email <span class="normal-case font-normal tracking-normal text-white/40">(optional)</span>
+            <input
+              type="email" name="email" autocomplete="email" maxlength="160"
+              class="rounded-md border border-white/15 bg-white/5 px-4 py-3 text-base font-normal normal-case tracking-normal text-white placeholder-white/40 focus:border-white/50 focus:outline-none"
+              placeholder="you@example.com"
+            />
+          </label>
+        </div>
+        <label class="grid gap-1.5 text-sm font-bold uppercase tracking-widest text-white/70">
+          What happened?
+          <textarea
+            name="description" rows={compact ? 3 : 4} maxlength="2000"
+            class="rounded-md border border-white/15 bg-white/5 px-4 py-3 text-base font-normal normal-case tracking-normal text-white placeholder-white/40 focus:border-white/50 focus:outline-none resize-y"
+            placeholder="Briefly describe the damage — e.g. burst pipe in the kitchen, standing water in the basement…"
+          ></textarea>
+        </label>
+
+        {/* Honeypot — hidden from humans, bots fill it. Server drops any submission with a value. */}
+        <div class="absolute -left-[9999px] top-auto w-px h-px overflow-hidden" aria-hidden="true">
+          <label>
+            Company website
+            <input type="text" name="company_website" tabindex="-1" autocomplete="off" />
+          </label>
+        </div>
+        {/* Min-render-time token — set by the inline script below at page load. */}
+        <input type="hidden" name="fets" value="" />
+
+        <button
+          type="submit"
+          class="inline-flex items-center justify-center font-bold px-8 py-4 rounded-md transition-all text-lg shadow-lg bg-primary-600 text-white hover:bg-primary-700 disabled:opacity-60 disabled:cursor-not-allowed"
+        >
+          Get My Free Estimate
+        </button>
+
+        <p data-estimate-status class="hidden m-0 rounded-md px-4 py-3 text-base font-medium" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<script is:inline>
+  (function () {
+    document.querySelectorAll("[data-estimate-form]").forEach(function (form) {
+      var ts = form.querySelector('input[name="fets"]');
+      if (ts) ts.value = String(Date.now());
+      var status = form.querySelector("[data-estimate-status]");
+      var btn = form.querySelector('button[type="submit"]');
+
+      function show(msg, ok) {
+        if (!status) return;
+        status.textContent = msg;
+        status.classList.remove("hidden");
+        status.className =
+          "m-0 rounded-md px-4 py-3 text-base font-medium " +
+          (ok
+            ? "bg-emerald-500/15 text-emerald-300 border border-emerald-400/30"
+            : "bg-red-500/15 text-red-300 border border-red-400/30");
+      }
+
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        var data = {};
+        new FormData(form).forEach(function (v, k) { data[k] = v; });
+        if (!data.name || !data.phone || !data.city) {
+          show("Please fill in your name, phone, and city/ZIP so we can reach you.", false);
+          return;
+        }
+        if (btn) { btn.disabled = true; btn.textContent = "Sending…"; }
+        fetch(form.getAttribute("action") || "/api/estimate", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(data),
+        })
+          .then(function (r) { return r.json().catch(function () { return {}; }).then(function (j) { return { ok: r.ok && j.ok !== false, j: j }; }); })
+          .then(function (res) {
+            if (res.ok) {
+              show("Thanks — your request is in. We'll call you back shortly. For emergencies, call us now.", true);
+              form.reset();
+              if (ts) ts.value = String(Date.now());
+            } else {
+              show("Something went wrong sending your request. Please call us instead — it's faster anyway.", false);
+            }
+          })
+          .catch(function () {
+            show("Something went wrong sending your request. Please call us instead — it's faster anyway.", false);
+          })
+          .finally(function () {
+            if (btn) { btn.disabled = false; btn.textContent = "Get My Free Estimate"; }
+          });
+      });
+    });
+  })();
+</script>

@@ -6,9 +6,9 @@
     "street address vs service-area business decision",
     "family_owned (unset until attested)",
     "GBP place_id / google_cid",
-    "brand colors from logo",
-    "sister_company: if the ProRestoration Services relationship is confirmed at intake, set brand.sister_company {name, url, relationship} for the template's governed cross-links (never invented when absent)"
+    "brand colors from logo"
   ],
+  "_sister_company_note": "Operator approved the disclosure strategy 2026-07-08: brand.sister_company set below (ProRestoration Services). Governed by templates/plumbing/linking-rules.json sister_company_policy — 1-2 contextual cross-links max, water-damage-adjacent pages only.",
   "template": "plumbing",
   "services": [
     "emergency-plumbing",
@@ -136,6 +136,12 @@
     "founded_year": "",
     "license_numbers": [],
     "certifications": [],
+    "tagline": "24/7 plumbing, heating and air service in Bakersfield, CA.",
+    "sister_company": {
+      "name": "ProRestoration Services",
+      "url": "https://prorestorationca.com",
+      "relationship": "sister company"
+    },
     "google_maps_api_key": "AIzaSyDrYnSuDu-hFvKHEcQCjwb-zsMebInPneU"
   },
   "cross_product": true,

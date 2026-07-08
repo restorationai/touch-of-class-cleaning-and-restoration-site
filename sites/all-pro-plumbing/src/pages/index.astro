@@ -1,0 +1,83 @@
+---
+import { getEntry, getCollection, type CollectionEntry } from "astro:content";
+import BaseLayout from "~/layouts/BaseLayout.astro";
+import CtaBanner from "~/components/CtaBanner.astro";
+import FAQSection from "~/components/FAQSection.astro";
+import InternalLinks from "~/components/InternalLinks.astro";
+import Hero from "~/components/ui/Hero.astro";
+import TrustStrip from "~/components/ui/TrustStrip.astro";
+import ReviewsStrip from "~/components/ui/ReviewsStrip.astro";
+import AboutSection from "~/components/ui/AboutSection.astro";
+import ServicesStrip from "~/components/ui/ServicesStrip.astro";
+import ProcessSection from "~/components/ui/ProcessSection.astro";
+import BeforeAfterSection from "~/components/ui/BeforeAfterSection.astro";
+import RecentWork from "~/components/RecentWork.astro";
+import ProudlyServing from "~/components/ui/ProudlyServing.astro";
+import ReviewsSection from "~/components/ui/ReviewsSection.astro";
+import { brand } from "~/lib/brand";
+import { workPairs } from "~/data/work";
+
+const entry = await getEntry("pages", "home");
+if (!entry) throw new Error("Missing content: pages/home.md — has Skill 3 rendered yet?");
+const { Content } = await entry.render();
+const data = entry.data;
+
+const heroImage = data.hero || "/images/hero-bg.webp";
+
+// Pull top 6 services by priority for the home page strip
+const allServices = await getCollection("services");
+const services = (allServices as CollectionEntry<"services">[])
+  .sort((a, b) => (b.data.priority || 0) - (a.data.priority || 0))
+  .slice(0, 6);
+---
+
+<BaseLayout
+  title={data.title}
+  meta_description={data.meta_description}
+  hero_image_url={heroImage}
+  schema_stubs={["organization", "website", "local-business"]}
+  schema_ctx={{ archetype: "home" }}
+  faq={data.faq}
+>
+  {/* Homepage hero background. DEFAULT for new builds: a branded small-fleet
+      scene (3-5 matched vehicles in the client's brand-color livery, region-
+      matched street, golden hour, calm left third for the headline) generated
+      per the client's image-style-guide.md "Homepage hero" spec, uploaded to
+      R2 at brand/hero-fleet.webp and referenced via brand.imagesBase — or
+      dropped into public/images/hero-bg.webp if R2 isn't provisioned yet. */}
+  <Hero title={data.h1} subtitle={data.meta_description} backgroundImage="/images/hero-bg.webp" />
+
+  <TrustStrip />
+
+  <ReviewsStrip />
+
+  <AboutSection imageSrc="/images/team.webp" imageAlt={`${brand.displayName} technician loading a branded service van in Bakersfield, CA`}>
+    <p>
+      {brand.displayName} serves {brand.primaryCity} and the surrounding {brand.primaryState} area with full-service plumbing, heating, and air conditioning. From emergency plumbing repairs, drain cleaning, and water heater service to complete AC and furnace installation, our technicians handle it all — and we answer the phone 24/7, so help is on the way the moment something goes wrong.
+    </p>
+  </AboutSection>
+
+  {services.length > 0 && <ServicesStrip services={services} />}
+
+  <ProcessSection />
+
+  <BeforeAfterSection pairs={workPairs} />
+
+  <RecentWork />
+
+  <ReviewsSection />
+
+  <ProudlyServing />
+
+  <CtaBanner heading="24/7 Emergency Response" subheading="We answer the phone day and night. Insurance billing accepted." />
+
+  <FAQSection faq={data.faq} />
+
+  <section class="bg-white py-20 border-t border-dark/10">
+    <div class="container-wide max-w-6xl mx-auto prose prose-xl prose-invert prose-headings:font-black prose-headings:uppercase prose-headings:tracking-tighter prose-a:text-primary-700 text-dark/70">
+      <Content />
+    </div>
+  </section>
+
+  <InternalLinks paths={data.internal_links} heading="Where to Next" />
+</BaseLayout>

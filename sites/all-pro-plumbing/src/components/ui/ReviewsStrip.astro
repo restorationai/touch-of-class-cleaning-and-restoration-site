@@ -1,0 +1,70 @@
+---
+// ReviewsStrip — on-page proof of the REAL Google rating. Light theme to match
+// this site's design system.
+//
+// Data source: brand.gbpRatingValue / gbpReviewCount / gbpReviews, which are
+// synced from the live Google Business Profile by scripts/sync_brand_reviews.py
+// and NEVER hand-edited (we publish real ratings only — no fabricated numbers).
+// Renders nothing when the rating fields are absent, so this site shows no
+// review claims until its GBP profile is synced.
+import { brand } from "~/lib/brand";
+import { Star } from "@lucide/astro";
+
+const rating = String(brand.gbpRatingValue || "");
+const count = String(brand.gbpReviewCount || "");
+const hasRating = rating !== "" && count !== "";
+const stars = hasRating ? Math.min(5, Math.round(parseFloat(rating))) : 0;
+const snippets = (brand.gbpReviews || []).slice(0, 3);
+const reviewsUrl = brand.placeId
+  ? `https://search.google.com/local/reviews?placeid=${brand.placeId}`
+  : brand.googleCid
+    ? `https://www.google.com/maps?cid=${brand.googleCid}`
+    : "";
+---
+
+{hasRating && (
+  <section class="bg-white py-14 border-y border-dark/10">
+    <div class="container-wide">
+      <div class="flex flex-col items-center text-center gap-3">
+        <div class="flex items-center gap-1 text-amber-500" aria-hidden="true">
+          {Array.from({ length: stars }).map(() => (
+            <Star size={22} class="fill-current" />
+          ))}
+        </div>
+        <p class="text-2xl md:text-3xl font-black tracking-tight text-dark-900 m-0">
+          ★ {rating} rating · {count} Google reviews
+        </p>
+        {reviewsUrl && (
+          <a
+            href={reviewsUrl}
+            target="_blank"
+            rel="noopener"
+            class="text-sm font-bold uppercase tracking-widest text-primary-700 no-underline hover:underline"
+          >
+            Read our reviews on Google →
+          </a>
+        )}
+      </div>
+
+      {snippets.length > 0 && (
+        <div class="grid gap-6 md:grid-cols-3 max-w-5xl mx-auto mt-10">
+          {snippets.map((r) => (
+            <figure class="m-0 p-6 rounded-lg border border-dark/10 bg-dark-50 flex flex-col gap-3">
+              <div class="flex gap-1 text-amber-500" aria-label={`${r.rating} out of 5 stars`}>
+                {Array.from({ length: Math.min(5, r.rating) }).map(() => (
+                  <Star size={14} class="fill-current" />
+                ))}
+              </div>
+              <blockquote class="m-0 p-0 border-0 text-dark-700 text-sm leading-relaxed">
+                “{r.text}”
+              </blockquote>
+              <figcaption class="text-dark-500 text-xs font-bold uppercase tracking-widest mt-auto">
+                — {r.author}{r.when ? ` · ${r.when}` : ""}
+              </figcaption>
+            </figure>
+          ))}
+        </div>
+      )}
+    </div>
+  </section>
+)}

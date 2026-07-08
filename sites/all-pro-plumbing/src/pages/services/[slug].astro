@@ -1,0 +1,101 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "~/layouts/BaseLayout.astro";
+import CtaBanner from "~/components/CtaBanner.astro";
+import FAQSection from "~/components/FAQSection.astro";
+import InternalLinks from "~/components/InternalLinks.astro";
+import { brand } from "~/lib/brand";
+
+export async function getStaticPaths() {
+  const services = await getCollection("services");
+  return services.map((s) => ({ params: { slug: s.data.service_slug }, props: { entry: s } }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+const data = entry.data;
+const heroImage = data.hero || "/images/hero-bg.webp" /* preview: switch to `${brand.imagesBase}/brand/...` at production cutover */;
+
+// Exact-query capsule — matches "best {service} company in {city}" phrasing
+// verbatim for lexical retrieval (AI assistants, featured snippets). Every claim
+// is data-driven from brand.ts: the rating fields are synced from the live Google
+// Business Profile by scripts/sync_brand_reviews.py, "licensed and insured" is
+// gated on a license number being on file, and 24/7 language is gated on
+// brand.hours — no hardcoded claims.
+const is247 = /24\s*[\/x-]?\s*7|24 ?hours/i.test(String(brand.hours || ""));
+const isLicensed = Array.isArray(brand.licenseNumbers) && brand.licenseNumbers.length > 0;
+const hasGbpRating = Boolean(brand.gbpRatingValue && brand.gbpReviewCount);
+const foundedNum = parseInt(String(brand.foundedYear), 10);
+const sinceClause =
+  Number.isFinite(foundedNum) && foundedNum > 1900 && foundedNum <= new Date().getFullYear()
+    ? `, and has served local property owners since ${foundedNum}` : "";
+const serviceLower = data.service_display.toLowerCase();
+const bestCompanyAnswer = [
+  `${brand.displayName} provides ${isLicensed ? "licensed and insured " : ""}${serviceLower} in ${brand.primaryCity}, ${brand.primaryState} and the surrounding area${sinceClause}.`,
+  hasGbpRating
+    ? `Customers rate us ${brand.gbpRatingValue} out of 5 stars across ${brand.gbpReviewCount} Google reviews.`
+    : "",
+  is247
+    ? `We answer calls 24/7 — call ${brand.phone} for immediate help.`
+    : `Call ${brand.phone} during business hours (${brand.hours}) for a free estimate.`,
+].filter(Boolean).join(" ");
+---
+
+<BaseLayout
+  title={data.title}
+  meta_description={data.meta_description}
+  hero_image_url={heroImage}
+  schema_stubs={["service", "local-business", "faq", "breadcrumb-list"]}
+  schema_ctx={{
+    archetype: "service-landing",
+    service_display: data.service_display,
+  }}
+  breadcrumb={data.breadcrumb}
+  faq={data.faq}
+>
+  <!-- HERO -->
+  <section class="relative min-h-[500px] flex items-center overflow-hidden bg-white border-b border-dark/10">
+    <div class="absolute inset-0 z-0">
+      <img src={heroImage} alt={data.h1} class="w-full h-full object-cover" loading="eager" />
+      <div class="absolute inset-0 bg-gradient-to-r from-white/95 via-white/80 to-white/25"></div>
+    </div>
+    <div class="container-wide relative z-10 py-20">
+      <div class="max-w-2xl">
+        <div class="eyebrow">{data.service_display}</div>
+        <h1 class="mb-6">{data.h1}</h1>
+        <p class="text-lg text-dark/85 mb-8 leading-relaxed">{data.meta_description}</p>
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a href={`tel:${brand.phoneRaw}`} class="btn-accent">📞 Call {brand.phone}</a>
+          <a href="/contact/" class="btn-outline">Get a Free Estimate</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BODY -->
+  <section class="section-first bg-white">
+    <div class="container-wide">
+      <div class="prose-body">
+        <Content />
+      </div>
+    </div>
+  </section>
+
+  <FAQSection faq={data.faq} eyebrow={data.service_display} />
+
+  <!-- EXACT-QUERY: matches "best {service} company in {city}" phrasing verbatim
+       so lexical retrieval (AI assistants, featured snippets) can quote the capsule. -->
+  <section class="section bg-white">
+    <div class="container-wide">
+      <div class="max-w-content mx-auto">
+        <div class="eyebrow">Why Choose Us</div>
+        <h2>Looking for the best {serviceLower} company in {brand.primaryCity}?</h2>
+        <p class="text-lg text-dark-800">{bestCompanyAnswer}</p>
+      </div>
+    </div>
+  </section>
+
+  <CtaBanner heading={`Need ${data.service_display} now?`} subheading={`We respond 24/7 across ${brand.primaryCity} and surrounding ${brand.primaryState} cities.`} />
+
+  <InternalLinks paths={data.internal_links} heading="Related Coverage" eyebrow="Areas & Related Services" />
+</BaseLayout>

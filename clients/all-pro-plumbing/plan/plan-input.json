@@ -1,0 +1,239 @@
+{
+  "_source": "Pre-staged draft 2026-07-08 \u2014 client intake answers are the LAST input before staging builds.",
+  "_intake_pending": [
+    "CSLB DBA confirmation: license 960566 is held by PRO RESTORATION SERVICES INC; DBA registration for 'All Pro Plumbing Heating and Air' is UNCONFIRMED. license_numbers stays EMPTY and no licensed/certified claims until the intake answer.",
+    "founded_year",
+    "street address vs service-area business decision",
+    "family_owned (unset until attested)",
+    "GBP place_id / google_cid",
+    "brand colors from logo"
+  ],
+  "_sister_company_note": "Operator approved the disclosure strategy 2026-07-08: brand.sister_company set below (ProRestoration Services). Governed by templates/plumbing/linking-rules.json sister_company_policy \u2014 1-2 contextual cross-links max, water-damage-adjacent pages only.",
+  "template": "plumbing",
+  "services": [
+    "emergency-plumbing",
+    "burst-pipe-repair",
+    "drain-cleaning",
+    "sewer-line-repair",
+    "water-heater-repair",
+    "water-heater-installation",
+    "leak-detection",
+    "slab-leak-repair",
+    "repiping",
+    "gas-line-services",
+    "sump-pumps",
+    "water-softeners-filtration",
+    "toilet-faucet-repair",
+    "garbage-disposal",
+    "furnace-repair",
+    "furnace-installation",
+    "heat-pump-services",
+    "ac-repair",
+    "ac-installation",
+    "ductless-mini-splits",
+    "ductwork",
+    "indoor-air-quality"
+  ],
+  "service_areas": [
+    {
+      "city": "Bakersfield",
+      "state": "CA",
+      "slug": "bakersfield-ca",
+      "primary": true,
+      "neighborhoods": [
+        "Downtown Bakersfield",
+        "Oleander/Sunset",
+        "Westchester",
+        "Seven Oaks",
+        "Stockdale Estates",
+        "Haggin Oaks",
+        "Riverlakes Ranch",
+        "La Cresta/Alta Vista",
+        "East Bakersfield",
+        "Silver Creek"
+      ],
+      "landmarks": [
+        "Buck Owens' Crystal Palace",
+        "Fox Theater",
+        "Mechanics Bank Arena",
+        "Kern County Museum",
+        "Cal State Bakersfield",
+        "Valley Plaza Mall",
+        "The Marketplace on Ming Avenue",
+        "Kern River Parkway",
+        "Meadows Field Airport"
+      ],
+      "zip_codes": [
+        "93301",
+        "93304",
+        "93305",
+        "93306",
+        "93307",
+        "93309",
+        "93311",
+        "93312",
+        "93313",
+        "93314"
+      ],
+      "local_notes": "Kern County seat, ~410k people, with some of the hardest municipal water in California \u2014 scale destroys water heaters and fixtures early, driving strong softener and filtration demand. Pre-1970 homes in Oleander, Westchester and East Bakersfield still carry galvanized supply lines and cast-iron drains; nearly everything sits on slab foundations, so slab leaks are a signature local call. Mature tree canopy downtown means root-intruded sewer laterals. Summers regularly break 100\u00b0F for weeks, hammering AC condensers and making mid-July breakdowns an emergency; winters are mild but foggy (tule fog) with short furnace seasons."
+    },
+    {
+      "city": "Oildale",
+      "state": "CA",
+      "slug": "oildale-ca",
+      "primary": false,
+      "neighborhoods": [
+        "Riverview",
+        "North of the River",
+        "Airport Drive corridor",
+        "Highland"
+      ],
+      "landmarks": [
+        "Meadows Field Airport",
+        "North High School",
+        "Standard Park",
+        "Kern River bluffs",
+        "North Chester Avenue business strip"
+      ],
+      "zip_codes": [
+        "93308"
+      ],
+      "local_notes": "Unincorporated community just north of the Kern River, born as a Standard Oil company town. Housing stock skews 1940s\u20131960s cottages and a large number of mobile home parks \u2014 original galvanized supply pipe, cast-iron and Orangeburg-era sewer laterals, and aging evaporative (swamp) coolers are everyday finds. Budget-conscious repair work, water heater swaps and repipes dominate; summer heat matches Bakersfield's triple digits."
+    },
+    {
+      "city": "Rosedale",
+      "state": "CA",
+      "slug": "rosedale-ca",
+      "primary": false,
+      "neighborhoods": [
+        "Rosedale Ranch",
+        "Calloway/Hageman corridor",
+        "Olive Drive area",
+        "Westdale"
+      ],
+      "landmarks": [
+        "Rosedale Highway retail corridor",
+        "Riverlakes Ranch Golf Course",
+        "Kern River Parkway western reaches",
+        "Froehlich Field"
+      ],
+      "zip_codes": [
+        "93312",
+        "93314"
+      ],
+      "local_notes": "Fast-growing unincorporated northwest Bakersfield suburb of 1990s\u20132020s tract homes, many on private well or blended district water that runs extremely hard \u2014 whole-house softeners and RO systems are near-standard requests. Newer PEX/copper plumbing means fewer repipes but high demand for water heater upgrades (tankless), new-construction HVAC, and warranty-age AC repairs. HOA subdivisions expect clean, scheduled service."
+    },
+    {
+      "city": "Shafter",
+      "state": "CA",
+      "slug": "shafter-ca",
+      "primary": false,
+      "neighborhoods": [
+        "Downtown Shafter",
+        "North Shafter",
+        "Gossamer Grove"
+      ],
+      "landmarks": [
+        "Wonderful Industrial Park",
+        "Shafter Depot Museum",
+        "Green Hotel",
+        "Mannel Park",
+        "Shafter-Minter Field Airport"
+      ],
+      "zip_codes": [
+        "93263"
+      ],
+      "local_notes": "Agriculture-and-logistics town ~18 miles northwest of Bakersfield, anchored by the Wonderful Industrial Park distribution hub. Gossamer Grove is one of Kern County's fastest-growing master-planned communities (new HVAC installs, builder-grade fixture upgrades), while older downtown blocks carry mid-century plumbing. Well-influenced water is hard and often high in nitrates, supporting filtration sales; ag operations and warehouses add commercial service work."
+    },
+    {
+      "city": "Delano",
+      "state": "CA",
+      "slug": "delano-ca",
+      "primary": false,
+      "neighborhoods": [
+        "Downtown Delano",
+        "West Delano",
+        "Randolph Street corridor",
+        "Cecil Avenue corridor"
+      ],
+      "landmarks": [
+        "Delano Regional Medical Center",
+        "Cesar Chavez Park",
+        "Delano High School",
+        "Highway 99 commercial strip"
+      ],
+      "zip_codes": [
+        "93215",
+        "93216"
+      ],
+      "local_notes": "Kern County's second-largest city (~52k), the table-grape capital and birthplace of the farmworker movement. Housing mixes pre-1960 bungalows near downtown with 2000s subdivisions on the west side. Groundwater is hard with known contaminant concerns, so softeners, filtration and water heater longevity are recurring themes; packed summer harvest season makes fast AC turnaround valuable. Ag facilities and cold storage provide commercial plumbing opportunities."
+    },
+    {
+      "city": "Taft",
+      "state": "CA",
+      "slug": "taft-ca",
+      "primary": false,
+      "neighborhoods": [
+        "Downtown Taft",
+        "Ford City",
+        "South Taft",
+        "Taft Heights"
+      ],
+      "landmarks": [
+        "Taft College",
+        "Oil Worker Monument",
+        "West Kern Oil Museum",
+        "Rails to Trails path",
+        "Franklin Field"
+      ],
+      "zip_codes": [
+        "93268"
+      ],
+      "local_notes": "West Side oil town 35 minutes southwest of Bakersfield, one of California's last places built by and for the petroleum industry. Housing is heavily 1920s\u20131950s workers' cottages in Ford City and South Taft \u2014 original galvanized pipe, undersized drains and decades-old wall furnaces are common, making repipes, sewer replacements and heating changeouts steady work. Very dry desert-edge climate; few local plumbers means service-radius trips from Bakersfield win jobs."
+    },
+    {
+      "city": "Tehachapi",
+      "state": "CA",
+      "slug": "tehachapi-ca",
+      "primary": false,
+      "neighborhoods": [
+        "Downtown Tehachapi",
+        "Golden Hills",
+        "Bear Valley Springs",
+        "Stallion Springs",
+        "Alpine Forest"
+      ],
+      "landmarks": [
+        "Tehachapi Loop",
+        "Tehachapi Pass wind farms",
+        "Tehachapi Depot Railroad Museum",
+        "Brite Lake",
+        "Mountain Festival grounds"
+      ],
+      "zip_codes": [
+        "93561"
+      ],
+      "local_notes": "Mountain city at ~4,000 ft between the valley and the Mojave \u2014 the one place in the service area with real winters. Hard freezes and occasional snow mean frozen and burst pipes, failed heat tape, and heating emergencies that valley companies rarely see; furnaces, heat pumps and ductless systems run year-round. Outlying gated communities (Bear Valley Springs, Stallion Springs) rely on wells, pressure tanks and septic, and long driveways reward a company willing to make the drive."
+    }
+  ],
+  "brand": {
+    "display_name": "All Pro Plumbing Heating and Air",
+    "short_name": "All Pro",
+    "phone": "(661) 863-9242",
+    "email": "info@allproplumbingheatingandair.com",
+    "hours": "24/7",
+    "founded_year": "",
+    "license_numbers": [],
+    "certifications": [],
+    "tagline": "24/7 plumbing, heating and air service in Bakersfield, CA.",
+    "sister_company": {
+      "name": "ProRestoration Services",
+      "url": "https://prorestorationca.com",
+      "relationship": "sister company"
+    },
+    "google_maps_api_key": "AIzaSyDrYnSuDu-hFvKHEcQCjwb-zsMebInPneU"
+  },
+  "cross_product": true,
+  "keyword_strategy": "conservative",
+  "blog_seed_count": 12
+}

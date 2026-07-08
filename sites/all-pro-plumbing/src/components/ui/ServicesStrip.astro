@@ -1,0 +1,65 @@
+---
+import { ArrowRightCircle } from '@lucide/astro';
+import { brand } from '~/lib/brand';
+import { srcsetFor } from '~/lib/images';
+import type { CollectionEntry } from 'astro:content';
+
+type Props = {
+  services: CollectionEntry<'services'>[];
+};
+
+const { services } = Astro.props;
+---
+
+<section class="bg-white py-10 text-dark-900">
+  <div class="container-wide px-6 sm:px-10 lg:px-12">
+    {/* Section Header matching reference */}
+    <div class="mb-5">
+      <div class="inline-block bg-black px-4 py-2 mb-4">
+        <span class="text-white text-sm font-black uppercase tracking-widest">What we are best at</span>
+      </div>
+      <div class="flex items-center gap-6">
+        <h2 class="text-4xl sm:text-5xl md:text-7xl font-black uppercase tracking-tighter whitespace-nowrap">Our Services</h2>
+        <div class="flex-grow h-0.5 bg-dark/20"></div>
+      </div>
+    </div>
+
+    {/* Services Grid with spacing and individual borders */}
+    <div class="flex flex-wrap justify-center gap-10">
+      {services.map((s) => {
+        // Fallback to brand hero image if no service hero is defined
+        const imageUrl = s.data.hero || "/images/services.webp" /* preview: switch to `${brand.imagesBase}/brand/...` at production cutover */;
+        const img = srcsetFor(imageUrl);
+
+        return (
+          <a 
+            href={`/services/${s.data.service_slug}/`}
+            class="group relative h-[360px] w-full md:w-[calc((100%-40px)/2)] lg:w-[calc((100%-80px)/3)] border-4 border-dark/10 shadow-2xl overflow-hidden cursor-pointer transform transition-transform hover:-translate-y-2"
+          >
+            {/* Photo */}
+            <img
+              src={imageUrl}
+              srcset={img.srcset}
+              sizes={img.srcset ? "(min-width:1024px) 33vw, (min-width:768px) 50vw, 100vw" : undefined}
+              width={img.width}
+              height={img.height}
+              alt={s.data.service_display}
+              loading="lazy"
+              decoding="async"
+              class="w-full h-full object-cover brightness-110 saturate-110 transition-transform duration-700 group-hover:scale-110"
+            />
+
+            
+            {/* Bottom banner containing the text box */}
+            <div class="absolute bottom-6 left-6 right-6">
+              <div class="flex items-center justify-between gap-3 bg-black text-white px-6 py-4 font-black uppercase text-lg border border-white/10 shadow-xl group-hover:bg-primary-600 transition-colors duration-300">
+                <span class="tracking-tight line-clamp-2">{s.data.service_display}</span>
+                <ArrowRightCircle size={28} class="text-primary-500 group-hover:text-white transition-colors shrink-0" />
+              </div>
+            </div>
+          </a>
+        );
+      })}
+    </div>
+  </div>
+</section>

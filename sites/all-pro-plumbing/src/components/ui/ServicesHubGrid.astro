@@ -1,0 +1,60 @@
+---
+/**
+ * Services hub grid — visual card index of ALL services, rendered above the
+ * prose on /services/. Each card (image + name + one-line descriptor) is a
+ * single descriptive-anchor link to /services/{slug}/. Reuses the same image
+ * source + srcset helper as ServicesStrip so no new assets are required.
+ */
+import { ArrowRightCircle } from '@lucide/astro';
+import { getCollection, type CollectionEntry } from 'astro:content';
+import { brand } from '~/lib/brand';
+import { srcsetFor } from '~/lib/images';
+
+const all = (await getCollection('services')) as CollectionEntry<'services'>[];
+const services = all.sort((a, b) => (b.data.priority || 0) - (a.data.priority || 0));
+
+/** First sentence of the meta description, minus any trailing "Call ..." CTA. */
+function blurb(s: CollectionEntry<'services'>): string {
+  const first = (s.data.meta_description || '').split(/(?<=[.!?])\s+/)[0] ?? '';
+  return first.replace(/\s*Call\s+\(?\d[\d\s().-]*\.?\s*$/i, '').trim();
+}
+---
+
+<section class="bg-white py-16 border-b border-dark/10">
+  <div class="container-wide">
+    <h2 class="text-2xl md:text-3xl font-black uppercase tracking-tighter text-dark-900 mb-8">Explore Our Services</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      {services.map((s) => {
+        const imageUrl = s.data.hero || "/images/services.webp" /* preview: switch to `${brand.imagesBase}/brand/...` at production cutover */;
+        const img = srcsetFor(imageUrl);
+        return (
+          <a
+            href={`/services/${s.data.service_slug}/`}
+            class="group flex flex-col border border-dark/10 bg-white shadow-md overflow-hidden no-underline hover:no-underline hover:border-primary-500 transform transition-all hover:-translate-y-1"
+          >
+            <div class="aspect-[16/9] overflow-hidden">
+              <img
+                src={imageUrl}
+                srcset={img.srcset}
+                sizes={img.srcset ? "(min-width:1024px) 33vw, (min-width:640px) 50vw, 100vw" : undefined}
+                width={img.width}
+                height={img.height}
+                alt={s.data.service_display}
+                loading="lazy"
+                decoding="async"
+                class="w-full h-full object-cover brightness-110 saturate-110 transition-transform duration-700 group-hover:scale-105"
+              />
+            </div>
+            <div class="flex items-start justify-between gap-3 p-5">
+              <div>
+                <span class="block text-dark-900 font-black uppercase tracking-tight leading-snug group-hover:text-primary-600 transition-colors">{s.data.service_display}</span>
+                <span class="block text-sm text-dark-600 mt-1.5 leading-snug">{blurb(s)}</span>
+              </div>
+              <ArrowRightCircle size={26} class="text-primary-500 group-hover:text-primary-600 transition-colors shrink-0 mt-0.5" />
+            </div>
+          </a>
+        );
+      })}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,16 @@
+---
+// DispatchCallout — highlighted callout carrying the quotable dispatch/response
+// claim, rendered right after the hero on city×service pages. The exact same
+// sentence is embedded in the LocalBusiness schema description (see
+// ~/lib/dispatch + ~/lib/schema) so AI answer engines can quote one consistent,
+// data-gated claim. No invented capabilities: phrasing is gated in ~/lib/dispatch.
+import { MapPin } from "@lucide/astro";
+
+type Props = { sentence: string };
+const { sentence } = Astro.props;
+---
+
+<div class="flex items-start gap-4 border-l-4 border-primary bg-white shadow-md rounded-r-lg px-6 py-5">
+  <MapPin size={22} class="text-primary shrink-0 mt-1" aria-hidden="true" />
+  <p class="m-0 text-lg font-semibold text-dark-900 leading-relaxed">{sentence}</p>
+</div>

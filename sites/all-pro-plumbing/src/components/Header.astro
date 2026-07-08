@@ -1,0 +1,59 @@
+---
+import { brand } from "~/lib/brand";
+const is247 = /24\s*[\/x-]?\s*7|24 ?hours/i.test(String(brand.hours || ""));
+---
+
+<header class="bg-white text-dark-900 sticky top-0 z-50 border-b border-dark/10 shadow-md">
+  <div class="container-wide flex items-center justify-between gap-3 sm:gap-6 h-20">
+    <a href="/" class="flex items-center gap-3 no-underline text-dark-900 group min-w-0">
+      {brand.logoUrl && (
+        <img src={brand.logoUrl} alt={`${brand.displayName} logo`} class="h-12 w-auto max-w-[34vw] sm:max-w-none object-contain object-left group-hover:scale-105 transition-transform" width="48" height="48" loading="eager" />
+      )}
+    </a>
+
+    <nav class="hidden lg:flex items-center gap-6 text-[11px] font-black uppercase tracking-widest h-full">
+      <a href="/emergency/" class="text-dark-900 underline decoration-[3px] underline-offset-8 hover:text-primary-500 transition-colors py-8">Emergency</a>
+      <a href="/services/" class="hover:text-primary-400 no-underline transition-colors py-8">Services</a>
+      <a href="/service-areas/" class="hover:text-primary-400 no-underline transition-colors py-8">Areas</a>
+      <a href="/about/" class="hover:text-primary-400 no-underline transition-colors py-8">About</a>
+      <a href="/blog/" class="hover:text-primary-400 no-underline transition-colors py-8">Blog</a>
+      <a href="/contact/" class="hover:text-primary-400 no-underline transition-colors py-8">Contact</a>
+    </nav>
+
+    <div class="flex items-center gap-2 flex-shrink-0">
+      <a href={`tel:${brand.phoneRaw}`} class="btn-primary text-xs px-3 sm:px-4 py-2 md:py-3.5 shadow-primary-900/40 text-center leading-tight">
+        <span class="hidden sm:block tracking-wider whitespace-nowrap">{is247 ? `24/7 EMERGENCY: ${brand.phone}` : `CALL TODAY: ${brand.phone}`}</span>
+        <span class="sm:hidden flex flex-col items-center gap-0.5">
+          <span class="text-[10px] font-bold tracking-[0.15em] opacity-80 uppercase">Call Now</span>
+          <span class="font-black tracking-wide whitespace-nowrap">{brand.phone}</span>
+        </span>
+      </a>
+      <button id="mobile-nav-toggle" type="button" class="lg:hidden inline-flex flex-col items-center justify-center w-11 h-11 gap-[5px] rounded-md border border-dark/20 text-dark-900 flex-shrink-0" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span class="block w-5 h-0.5 bg-current"></span>
+        <span class="block w-5 h-0.5 bg-current"></span>
+        <span class="block w-5 h-0.5 bg-current"></span>
+      </button>
+    </div>
+  </div>
+
+  <nav id="mobile-nav" class="lg:hidden hidden border-t border-dark/10 bg-white text-dark-900" aria-label="Mobile">
+    <a href="/emergency/" class="block px-6 py-3.5 text-sm font-black uppercase tracking-widest text-primary-600 no-underline">Emergency</a>
+    <a href="/services/" class="block px-6 py-3.5 text-sm font-black uppercase tracking-widest no-underline border-t border-dark/5">Services</a>
+    <a href="/service-areas/" class="block px-6 py-3.5 text-sm font-black uppercase tracking-widest no-underline border-t border-dark/5">Service Areas</a>
+    <a href="/about/" class="block px-6 py-3.5 text-sm font-black uppercase tracking-widest no-underline border-t border-dark/5">About</a>
+    <a href="/blog/" class="block px-6 py-3.5 text-sm font-black uppercase tracking-widest no-underline border-t border-dark/5">Blog</a>
+    <a href="/contact/" class="block px-6 py-3.5 text-sm font-black uppercase tracking-widest no-underline border-t border-dark/5">Contact</a>
+  </nav>
+
+  <script is:inline>
+    (function () {
+      var btn = document.getElementById("mobile-nav-toggle");
+      var nav = document.getElementById("mobile-nav");
+      if (!btn || !nav) return;
+      btn.addEventListener("click", function () {
+        var open = nav.classList.toggle("hidden") === false;
+        btn.setAttribute("aria-expanded", String(open));
+      });
+    })();
+  </script>
+</header>

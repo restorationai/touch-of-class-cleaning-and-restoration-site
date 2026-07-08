@@ -1,0 +1,82 @@
+---
+// ReviewsSection — full self-hosted reviews section ("What Our Customers Say").
+//
+// Replaces the old third-party localmarketingmanager.com iframe widget, which
+// depended on an external API that returned zero reviews and rendered a blank
+// section. This renders REAL synced Google reviews only:
+//
+//   brand.gbpRatingValue / gbpReviewCount / gbpReviews — synced from the live
+//   Google Business Profile by scripts/sync_brand_reviews.py, never hand-edited.
+//
+// Relationship to ReviewsStrip (top of page): the strip is quick proof
+// (rating + 3 snippets), this section is depth (up to 6 full cards + link to
+// all reviews on Google). Keep both.
+//
+// Renders nothing when the synced rating fields are absent, so sites without
+// GBP data show no review claims at all.
+import { brand } from "~/lib/brand";
+import { Star } from "@lucide/astro";
+
+const rating = String(brand.gbpRatingValue || "");
+const count = String(brand.gbpReviewCount || "");
+const reviews = (brand.gbpReviews || []).slice(0, 6);
+const hasRating = rating !== "" && count !== "";
+const stars = hasRating ? Math.min(5, Math.round(parseFloat(rating))) : 0;
+const reviewsUrl = brand.placeId
+  ? `https://search.google.com/local/reviews?placeid=${brand.placeId}`
+  : brand.googleCid
+    ? `https://www.google.com/maps?cid=${brand.googleCid}`
+    : "";
+---
+
+{hasRating && reviews.length > 0 && (
+  <section class="bg-dark-50 py-24 text-dark-900">
+    <div class="container-wide px-6 sm:px-10 lg:px-12">
+      <div class="text-center mb-12">
+        {/* Headline sized to stay on ONE line on desktop */}
+        <h2 class="text-3xl sm:text-4xl md:text-5xl font-black uppercase tracking-tighter text-dark-900 mb-4 md:whitespace-nowrap">
+          What Our Customers Say
+        </h2>
+        <div class="flex items-center justify-center gap-3">
+          <span class="flex items-center gap-1 text-amber-500" aria-hidden="true">
+            {Array.from({ length: stars }).map(() => (
+              <Star size={20} class="fill-current" />
+            ))}
+          </span>
+          <span class="text-lg font-bold text-dark-800">{rating} out of 5 · {count} Google reviews</span>
+        </div>
+      </div>
+
+      <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
+        {reviews.map((r) => (
+          <figure class="m-0 p-6 rounded-lg border border-dark/10 bg-white shadow-sm flex flex-col gap-3">
+            <div class="flex gap-1 text-amber-500" aria-label={`${r.rating} out of 5 stars`}>
+              {Array.from({ length: Math.min(5, r.rating) }).map(() => (
+                <Star size={16} class="fill-current" />
+              ))}
+            </div>
+            <blockquote class="m-0 p-0 border-0 text-dark-700 text-base leading-relaxed">
+              “{r.text}”
+            </blockquote>
+            <figcaption class="text-dark-500 text-xs font-bold uppercase tracking-widest mt-auto">
+              — {r.author}{r.when ? ` · ${r.when}` : ""}
+            </figcaption>
+          </figure>
+        ))}
+      </div>
+
+      {reviewsUrl && (
+        <div class="text-center mt-12">
+          <a
+            href={reviewsUrl}
+            target="_blank"
+            rel="noopener"
+            class="inline-flex items-center justify-center font-bold px-8 py-3 rounded-md transition-all text-base border-2 border-dark/30 text-dark-900 hover:border-dark-900 hover:bg-dark-900 hover:text-white no-underline"
+          >
+            Read all {count} reviews on Google →
+          </a>
+        </div>
+      )}
+    </div>
+  </section>
+)}
