@@ -1,7 +1,8 @@
-# Security headers for all routes (Cloudflare Pages). No CSP (needs per-site tuning).
+# Security headers for all routes (Cloudflare Pages).
+# CSP is frame-ancestors ONLY (allows the app's Site-tab preview); no full CSP (needs per-site tuning).
 /*
   Strict-Transport-Security: max-age=31536000; includeSubDomains
   X-Content-Type-Options: nosniff
-  X-Frame-Options: SAMEORIGIN
+  Content-Security-Policy: frame-ancestors 'self' https://app.restorationai.io http://localhost:5173
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: geolocation=(), microphone=(), camera=()
