@@ -388,6 +388,10 @@ def sanitize_claims_text(text: str, truth: dict) -> str:
     if not truth["licensed_ok"]:
         out = re.sub(r"(?:fully )?licensed,?\s*(?:and|&)?\s*insured,?\s*", "", out, flags=re.I)
         out = re.sub(r"\bfully licensed\b,?\s*", "", out, flags=re.I)
+        # Catch-all: a bare "licensed" adjective outside the compound patterns
+        # above ("our licensed plumbing and HVAC team" — plumbing about
+        # archetype) must not survive for an unlicensed/unattested brand.
+        out = re.sub(r"\b(?:state[- ]|CSLB[- ])?licensed\b,?\s*", "", out, flags=re.I)
 
     if not truth["family_owned"]:
         out = re.sub(r"family[- ](?:owned(?:[- ]and[- ]operated)?|run|business),?\s*",

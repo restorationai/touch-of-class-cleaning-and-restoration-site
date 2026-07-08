@@ -1,0 +1,48 @@
+{
+  "slug": "all-pro-plumbing",
+  "display_name": "All Pro Plumbing Heating and Air",
+  "domain": "allproplumbingheatingandair.com",
+  "tier": "standard",
+  "vertical": "plumbing",
+  "image_policy": "pro_hero_flash_inline",
+  "contact": "info@allproplumbingheatingandair.com",
+  "zone": {
+    "id": "d1dc2acf6826b0b9155526c7fb1b565a",
+    "name": "allproplumbingheatingandair.com",
+    "status": "pending",
+    "name_servers": [
+      "amos.ns.cloudflare.com",
+      "anastasia.ns.cloudflare.com"
+    ],
+    "created_on": "2026-07-08T16:12:19.771086Z"
+  },
+  "r2": {
+    "bucket": "rankai-all-pro-plumbing",
+    "custom_domain": "images.allproplumbingheatingandair.com"
+  },
+  "status": "pending",
+  "created_at": "2026-07-08T16:12:20.849362+00:00",
+  "updated_at": "2026-07-08T16:15:42.345948+00:00",
+  "company_id": "CO-1783380243102",
+  "nap": {
+    "name": "All Pro Plumbing Heating and Air",
+    "city": "Bakersfield",
+    "state": "CA",
+    "phone": "(661) 863-9242",
+    "website": "https://allproplumbingheatingandair.com"
+  },
+  "onboarding_notes": {
+    "dns_mirrored_at": "2026-07-08T16:15:42.345948+00:00",
+    "dns_mirror_source": "GoDaddy ns17/ns18.domaincontrol.com (13 records: apex A GoDaddy hosting, www, M365 mail set incl. DKIM-less SPF/DMARC/SRV)",
+    "r2_bucket_created": true,
+    "r2_custom_domain_pending": "bind via `onboard_client.py provision` after NS flip (API rejects pending zones, code 10051)",
+    "license_gate": "CSLB 960566 belongs to PRO RESTORATION SERVICES INC; DBA registration for All Pro UNCONFIRMED - licenseNumbers stays EMPTY until intake answer. NO license/cert claims.",
+    "awaiting_intake": [
+      "DBA/license confirmation",
+      "NS flip at GoDaddy registrar",
+      "street address / SAB decision",
+      "founded year",
+      "GBP place_id"
+    ]
+  }
+}

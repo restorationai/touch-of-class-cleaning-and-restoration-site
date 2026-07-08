@@ -1,0 +1,35 @@
+{
+  "slug": "mcc-restoration",
+  "display_name": "MCC Restoration and Contracting Services",
+  "domain": "TBD",
+  "tier": "standard",
+  "vertical": "restoration",
+  "image_policy": "pro_hero_flash_inline",
+  "contact": null,
+  "zone": null,
+  "r2": null,
+  "status": "pending",
+  "company_id": "CO-1783376797396",
+  "created_at": "2026-07-08T16:15:42.345948+00:00",
+  "updated_at": "2026-07-08T16:15:42.345948+00:00",
+  "nap": {
+    "name": "MCC Restoration and Contracting Services",
+    "city": "Duncanville",
+    "state": "TX",
+    "phone": "(682) 772-9123",
+    "website": null
+  },
+  "onboarding_notes": {
+    "domain_pending": "no domain yet - intake answer required before zone/R2/DNS work",
+    "address_pending": "NAP street address PENDING intake; drafted as SAB (service-area business, hidden address)",
+    "license_gate": "Texas - no state restoration license claimed; no false claims",
+    "awaiting_intake": [
+      "domain",
+      "street address or SAB confirmation",
+      "hours (drafted conservative, NOT 24/7)",
+      "email",
+      "founded year",
+      "GBP place_id"
+    ]
+  }
+}

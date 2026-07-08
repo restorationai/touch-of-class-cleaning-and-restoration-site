@@ -428,6 +428,19 @@ SKIP_NAMES = {"_domainconnect", "_cf-custom-hostname", "_cf-custom-hostname.www"
 SKIP_TYPES = {"SOA", "NS"}
 
 
+def _strip_zone_comment(raw: str) -> str:
+    """Strip a BIND `;` comment, but only when the `;` is OUTSIDE quotes.
+    TXT rdata legitimately contains semicolons (DMARC/DKIM: "v=DMARC1; p=...");
+    the old `raw.split(";", 1)` truncated those records mid-string."""
+    in_quotes = False
+    for i, ch in enumerate(raw):
+        if ch == '"':
+            in_quotes = not in_quotes
+        elif ch == ";" and not in_quotes:
+            return raw[:i]
+    return raw
+
+
 def parse_zonefile(path: Path, origin_hint: str | None = None) -> list[dict]:
     """Minimal BIND zone parser for GoDaddy/cPanel-style exports.
     Supports A, AAAA, CNAME, MX, TXT, SRV. Not a full RFC 1035 implementation.
@@ -436,7 +449,7 @@ def parse_zonefile(path: Path, origin_hint: str | None = None) -> list[dict]:
     records: list[dict] = []
     current_default_ttl = 3600
     for raw in path.read_text().splitlines():
-        line = raw.split(";", 1)[0].strip()
+        line = _strip_zone_comment(raw).strip()
         if not line:
             continue
         if line.startswith("$ORIGIN"):

@@ -1,0 +1,54 @@
+{
+  "slug": "prorestoration",
+  "display_name": "ProRestoration Services",
+  "domain": "prorestorationca.com",
+  "tier": "standard",
+  "vertical": "restoration",
+  "image_policy": "pro_hero_flash_inline",
+  "contact": null,
+  "zone": {
+    "id": "086fbc870d850db70bd5bee030837212",
+    "name": "prorestorationca.com",
+    "status": "pending",
+    "name_servers": [
+      "amos.ns.cloudflare.com",
+      "anastasia.ns.cloudflare.com"
+    ],
+    "created_on": "2026-07-08T16:12:30.538455Z"
+  },
+  "r2": {
+    "bucket": "rankai-prorestoration",
+    "custom_domain": "images.prorestorationca.com"
+  },
+  "status": "pending",
+  "created_at": "2026-07-08T16:12:33.269867+00:00",
+  "updated_at": "2026-07-08T16:15:42.345948+00:00",
+  "company_id": "CO-1779551010975",
+  "nap": {
+    "name": "ProRestoration Services Inc",
+    "street": "3556 Bowman Ct Suite B",
+    "city": "Bakersfield",
+    "state": "CA",
+    "zip": "93308",
+    "phone": "(661) 393-9306",
+    "website": "https://prorestorationca.com"
+  },
+  "gbp": {
+    "place_id": "ChIJH_3NClVC6oAR3mxvd5xofrQ",
+    "google_cid": "13005947795120549086",
+    "rating": 4.8,
+    "review_count": 103
+  },
+  "onboarding_notes": {
+    "dns_mirrored_at": "2026-07-08T16:15:42.345948+00:00",
+    "dns_mirror_source": "Moniker ns1-4.monikerdns.net (9 records: apex A Google Cloud LB 34.149.86.124 / WebsitePro hosting, www CNAME host.websiteprohosting.com, Google Workspace MX x5, 2x google-site-verification TXT; source zone has NO SPF/DKIM/DMARC - flag to client)",
+    "r2_bucket_created": true,
+    "r2_custom_domain_pending": "bind via `onboard_client.py provision` after NS flip (API rejects pending zones, code 10051)",
+    "awaiting_intake": [
+      "NS flip at Moniker registrar",
+      "founded year",
+      "email address",
+      "confirm certifications current"
+    ]
+  }
+}
