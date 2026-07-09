@@ -26,24 +26,28 @@ export default {
           900: "#111827",
           950: "#030712",
         },
+        /* primary — AAA logo red (sampled #ed0103 from the round AAA mark).
+           600/700 are the text-on-white / button shades: #d40e1e = 5.4:1 and
+           #b10818 = 7.3:1 against white (WCAG AA). 500 is the vivid logo red
+           (4.56:1 — icons + large display only). */
         primary: {
-          DEFAULT: "#0284c7",
-          50: "#f0f9ff",
-          100: "#e0f2fe",
-          200: "#bae6fd",
-          300: "#7dd3fc",
-          400: "#38bdf8",
-          500: "#0ea5e9",
-          600: "#0284c7",
-          700: "#0369a1",
-          800: "#075985",
-          900: "#0c4a6e",
-          950: "#082f49",
+          DEFAULT: "#d40e1e",
+          50: "#fef2f2",
+          100: "#fde3e4",
+          200: "#fcc8ca",
+          300: "#f9a1a5",
+          400: "#f3626a",
+          500: "#e8202c",
+          600: "#d40e1e",
+          700: "#b10818",
+          800: "#920d1a",
+          900: "#7a121c",
+          950: "#430609",
         },
         accent: {
           // btn-accent renders WHITE text on this color — pick an accent that
-          // keeps >= 4.5:1 contrast with white (WCAG AA). e.g. #dc2626 or #c2410c.
-          DEFAULT: "#c2410c",
+          // keeps >= 4.5:1 contrast with white (WCAG AA). Logo navy: 12.7:1.
+          DEFAULT: "#0e3167",
         },
         muted: {
           DEFAULT: "#4b5563",

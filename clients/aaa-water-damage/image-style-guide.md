@@ -58,8 +58,8 @@ Per-client brand colors take priority. The values below are substituted from `pl
 
 | Role | Source | Value for this client |
 |------|--------|----------------------|
-| Primary brand color (uniforms, vehicle, signage glimpsed in shots) | `#0284c7` | **#0284c7** |
-| Accent (emergency markings, CTAs that appear in promo shots) | `#c2410c` | **#c2410c** |
+| Primary brand color (uniforms, vehicle, signage glimpsed in shots) | `#d40e1e` | **#d40e1e** (AAA logo red — sampled from the real logo; vehicles are WHITE with red lettering/decals, crew shirts are RED — matches the client's real fleet photos in `clients/aaa-water-damage/`) |
+| Accent (emergency markings, CTAs that appear in promo shots) | `#0e3167` | **#0e3167** (logo navy) |
 | Logo color (if a worker's uniform back is visible) | derived from brand logo | match AAA Water Damage Restoration & Carpet Care's logo |
 | Skin / texture / restoration materials | natural and neutral | warm wood tones for housing stock, cool concrete grays, real surface textures |
 | Environment-specific atmospherics | regional | varies — see "Setting & Environment" below for Honolulu |
@@ -87,7 +87,7 @@ Per-client brand colors take priority. The values below are substituted from `pl
 Every image that depicts a person must show a worker in branded company uniform. This is non-negotiable for visual consistency and trust signaling.
 
 ### Uniform specifications
-- **Top**: Polo or work shirt in the client's primary brand color (`#0284c7`). For darker brand colors (navy, deep red, charcoal), use that color directly. For lighter brand colors, render as a darker navy or charcoal uniform with the brand color visible as logo embroidery, accent stripe, or branded hat.
+- **Top**: Polo or work shirt in the client's primary brand color (`#d40e1e` — RED, matching the real crew photos). Use the red directly.
 - **Bottom**: Neutral work pants (charcoal, dark navy, or khaki). Subordinate to the top.
 - **Branding**: AAA Water Damage Restoration & Carpet Care or AAA Water Damage embroidered on chest or back. **NO certification badges of any kind** (client has no verified certs — claims gate); no readable phone numbers or URLs.
 - **PPE**: Match the service context (see service-specific notes below) — gloves always, respirators / face shields / Tyvek suits when the service warrants it.
@@ -140,7 +140,7 @@ The worker's uniform stays the same; their PPE and equipment shift per service. 
 - **Light**: Bright tropical daylight with soft trade-wind cloud texture, or warm island golden hour. Higher ambient brightness than mainland shoots; interiors still neutral/cool under work lights.
 - **Architecture**: Oahu housing stock ONLY — single-wall wood-frame homes with corrugated or standing-seam metal roofs, lava-rock walls, hollow-tile/CMU construction, plantation-era cottages, 1960s-80s Kaiser-era Hawaii Kai homes, mid-rise and high-rise condo towers (Waikiki/Kakaako) for condo-loss scenes, marina-front townhomes.
 - **Vegetation & backdrop**: Palms, plumeria, monstera, hibiscus hedges, banyan trees; Koolau ridgelines, ocean or marina glimpses, volcanic-rock retaining walls. Tropical vegetation is REQUIRED regional context here, not an error.
-- **Crew/van scenes**: Company van or box truck in the blue (#0284c7) livery on an island residential street — think Hawaii Kai cul-de-sac with Koko Head in haze, not a mainland subdivision.
+- **Crew/van scenes**: WHITE company van or box truck with red (#d40e1e) lettering/decals (matches the real AAA Flood Service fleet — see `AAA Water Damage 2.jpg` / `AAA Water Damage Hawaii.webp`), crew in RED polos, on an island residential street — think Hawaii Kai cul-de-sac with Koko Head in haze, not a mainland subdivision.
 - **Absolutely NO mainland suburbia**: no Texas ranch homes, no evergreen/PNW streets, no fall foliage, no snow, no brick colonials, no desert xeriscape.
 - **Carpet & upholstery pillar shots**: truck-mounted extraction wand with clean stripes in a Hawaii living room (tile + area rug or wall-to-wall carpet, jalousie windows, tropical light through screens); mobile propane steam unit context for apartment/condo corridors.
 - **Equipment-rental shots**: staged LGR dehumidifiers, air movers and extraction gear on a hand truck / in a garage, clean rental-counter feel — no worker required.

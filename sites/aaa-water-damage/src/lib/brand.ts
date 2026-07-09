@@ -27,7 +27,7 @@ export const brand = {
   // Analytics — set post-scaffold (scripts/analytics_set.py / create_ga4.py); no-op if empty
   ga4MeasurementId: "",
   clarityProjectId: "",
-  logoUrl: "",
+  logoUrl: "/images/logo.webp", // preview: switch to images.{domain} at production cutover
   licenseNumbers: [] as string[],
   licenseAuthority: "",
   licenseType: "",
@@ -35,7 +35,9 @@ export const brand = {
   // lets the TrustStrip show the badge before a license number is on file.
   licensedInsuredAttested: false as boolean,
   certifications: [] as string[],
-  trustBadges: [] as string[],
+  // "25+ Years in Business" — operator-attested by Santino (owner's nephew),
+  // 2026-07-09. No specific founding year on file; foundedYear stays empty.
+  trustBadges: ["Locally Owned", "25+ Years in Business", "24/7 Emergency Service"] as string[],
   jobPhotos: [] as string[],
   sameAsUrls: ["https://www.google.com/maps?cid=3582502366071795597", "https://www.facebook.com/26flood"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by

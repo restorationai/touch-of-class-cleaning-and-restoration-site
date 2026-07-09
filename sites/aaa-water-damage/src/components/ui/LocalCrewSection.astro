@@ -1,0 +1,51 @@
+---
+/**
+ * "Your Local Oahu Crew" — real client-supplied crew photo (EXIF/GPS stripped
+ * at intake) in a dark band. Site-specific section for aaa-water-damage; the
+ * photo is the AAA Flood Service box truck with the crew throwing shakas.
+ */
+import { brand } from "~/lib/brand";
+import { srcsetFor } from "~/lib/images";
+import { Phone } from "@lucide/astro";
+
+const src = "/images/crew.webp";
+const img = srcsetFor(src);
+---
+
+<section class="bg-dark py-24 text-white border-t border-white/10 overflow-hidden">
+  <div class="container-wide px-6 sm:px-10 lg:px-12">
+    <div class="grid lg:grid-cols-2 gap-14 lg:gap-20 items-center">
+      <div class="relative">
+        <img
+          src={src}
+          srcset={img.srcset}
+          sizes={img.srcset ? "(min-width:1024px) 50vw, 100vw" : undefined}
+          width={img.width}
+          height={img.height}
+          alt={`The ${brand.shortName} crew in front of the AAA Flood Service box truck in Honolulu`}
+          loading="lazy"
+          decoding="async"
+          class="w-full h-auto rounded-xl shadow-2xl object-cover"
+        />
+      </div>
+      <div>
+        <div class="eyebrow !text-primary-400">The Real Deal</div>
+        <h2 class="text-5xl md:text-6xl font-black uppercase tracking-tighter mb-8 text-white">Your Local Oahu Crew</h2>
+        <p class="text-xl text-white/85 leading-relaxed mb-6 font-medium">
+          This is the crew that shows up — not a call center, not a franchise dispatcher.
+          {brand.shortName} has been drying out Oahu homes and businesses for over 25 years,
+          and when you call, the people in this photo answer.
+        </p>
+        <p class="text-lg text-white/70 leading-relaxed mb-10">
+          Truck-mounted extraction, professional drying equipment, and local crews who know
+          how island homes take on water — from Kona-storm runoff to a failed washer hose
+          on the third floor.
+        </p>
+        <a href={`tel:${brand.phoneRaw}`} class="btn-primary text-lg inline-flex items-center gap-3">
+          <Phone size={20} strokeWidth={3} />
+          Call {brand.phone}
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

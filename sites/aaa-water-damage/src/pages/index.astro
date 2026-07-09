@@ -13,6 +13,7 @@ import ProcessSection from "~/components/ui/ProcessSection.astro";
 import BeforeAfterSection from "~/components/ui/BeforeAfterSection.astro";
 import RecentWork from "~/components/RecentWork.astro";
 import ProudlyServing from "~/components/ui/ProudlyServing.astro";
+import LocalCrewSection from "~/components/ui/LocalCrewSection.astro";
 import ReviewsSection from "~/components/ui/ReviewsSection.astro";
 import { brand } from "~/lib/brand";
 import { workPairs } from "~/data/work";
@@ -51,9 +52,9 @@ const services = (allServices as CollectionEntry<"services">[])
 
   <ReviewsStrip />
 
-  <AboutSection imageSrc="/images/team.webp" imageAlt={`${brand.displayName} Team`}>
+  <AboutSection imageSrc="/images/team.webp" imageAlt={`${brand.shortName} technicians with a truck-mounted extraction van on a Honolulu residential street`}>
     <p>
-      {brand.displayName} has been serving {brand.primaryCity} and the surrounding {brand.primaryState} area since {brand.foundedYear}. We specialize in rapid-response disaster restoration—handling everything from water and fire damage to biohazard cleanup and full reconstruction. When disaster strikes, our certified professionals are standing by 24/7 to return your property to its pre-loss condition quickly and safely.
+      {brand.displayName} has been serving Oahu for over 25 years. We specialize in rapid-response water damage restoration and professional carpet care—handling everything from flood extraction and structural drying to mold remediation and deep carpet cleaning. When water strikes, our crew is standing by 24/7 to return your property to its pre-loss condition quickly and safely.
     </p>
   </AboutSection>
 
@@ -64,6 +65,11 @@ const services = (allServices as CollectionEntry<"services">[])
   <BeforeAfterSection pairs={workPairs} />
 
   <RecentWork />
+
+  {/* Real crew photo (client-supplied, EXIF-stripped) — the AAA Flood Service
+      box truck with the crew in front of it. Second authentic-photo placement
+      alongside the About/team shot. */}
+  <LocalCrewSection />
 
   <ReviewsSection />
 
