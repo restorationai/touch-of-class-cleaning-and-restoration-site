@@ -1,0 +1,76 @@
+name: Rank AI Client Ops Sync
+
+# Client-ops feedback loop (phase 1): daily watch on the two app-facing
+# Supabase tables — client_intake_items (answered questions) and
+# marketing_action_plan (done/dismissed/approved rows). Mechanical handlers
+# (license numbers -> plan-input brand truth, gating yes/no -> ops-journal +
+# unblock plan rows, customer-list checklists -> review-campaign staging rows)
+# run automatically; everything else lands in one digest email to
+# contact@restorationai.io. State cursor + journals + digests are committed
+# back to the repo. See scripts/client_ops_sync.py docstring.
+on:
+  schedule:
+    - cron: '0 14 * * *'   # daily, 7 am PDT / 6 am PST — before the workday
+  workflow_dispatch:         # manual trigger for testing
+    inputs:
+      dry_run:
+        description: 'Dry run (classify + print, write nothing, no email)'
+        type: boolean
+        default: false
+      since:
+        description: 'Optional: ISO cursor override (e.g. 2026-07-01)'
+        required: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
+          fetch-depth: 0
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Configure git identity
+        run: |
+          git config user.email "ops@restorationai.io"
+          git config user.name "Rank AI Bot"
+
+      - name: Run client ops sync
+        env:
+          SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          SENDGRID_API_KEY:          ${{ secrets.SENDGRID_API_KEY }}
+        run: |
+          python3 scripts/client_ops_sync.py \
+            ${{ github.event.inputs.dry_run == 'true' && '--dry-run' || '--send' }} \
+            ${{ github.event.inputs.since && format('--since {0}', github.event.inputs.since) || '' }}
+
+      - name: Commit state, journals and digests
+        run: |
+          git add clients/ 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."
+          else
+            git commit -m "chore: client ops sync $(date +%Y-%m-%d) [automated]"
+            git push
+          fi
+
+      - name: Alert on failure
+        if: failure()
+        env:
+          SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
+        run: |
+          python3 scripts/notify_failure.py \
+            --subject "[Rank AI] CI failure: Client Ops Sync run #${{ github.run_number }}" \
+            --run-url "https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}" || true
