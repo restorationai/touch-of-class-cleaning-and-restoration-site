@@ -535,7 +535,7 @@
     },
     {
       "id": "2026-07-02-pin-mold-removal",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-07-02T17:41:02.653193+00:00",
       "prioritized": true,
       "source": "strategist-pin",
@@ -546,7 +546,8 @@
       "target_word_count": 1500,
       "notes": "Pinned from AI Search. Write an honest, locally-specific guide that positions this business on verifiable strengths (certifications, license, response time, reviews) \u2014 NOT a self-ranking 'best companies' list.",
       "written_at": "2026-07-09T18:14:55Z",
-      "post_url": "https://narestco.com/blog/mold-removal/"
+      "post_url": "https://narestco.com/blog/mold-removal/",
+      "published_verified_at": "2026-07-09T18:16:02Z"
     },
     {
       "id": "2026-07-02-pin-best-water-damage-restoration-company-in-bellevu",

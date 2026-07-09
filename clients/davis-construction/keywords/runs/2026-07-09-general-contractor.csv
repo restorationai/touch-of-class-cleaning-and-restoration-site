@@ -1,0 +1,32 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+general contractor Madison AL,transactional,,,,2,general contractor,madison-al,,no
+general contractor Madison,transactional,,,,2,general contractor,madison-al,,no
+licensed general contractor Madison AL,transactional,,,,2,general contractor,madison-al,,no
+general contractor in Huntsville,transactional,,,,3,general contractor,huntsville-al,,no
+Huntsville general contractor,transactional,,,,3,general contractor,huntsville-al,,no
+general contractor Huntsville,transactional,,,,3,general contractor,huntsville-al,,no
+residential general contractor Huntsville AL,transactional,,,,3,general contractor,huntsville-al,,no
+general contractor near Madison,transactional,,,,3,general contractor,madison-al,,no
+general contractor Athens AL,transactional,,,,3,general contractor,athens-al,,no
+general contractor Athens,transactional,,,,3,general contractor,athens-al,,no
+general contractor near me,transactional,,,,3,general contractor,,,no
+residential general contractor,transactional,,,,3,general contractor,,,no
+licensed general contractor,transactional,,,,3,general contractor,,,no
+home improvement contractor,transactional,,,,3,general contractor,,,no
+general contracting company,transactional,,,,3,general contractor,,,no
+general contractor vs subcontractor,commercial,,,,2,general contractor,,,no
+design-build contractor,commercial,,,,3,general contractor,,,no
+best general contractor near me,commercial,,,,3,general contractor,,,no
+how much does a general contractor cost,informational,,,,1,general contractor,,,yes
+how to choose a general contractor,informational,,,,1,general contractor,,,yes
+licensed vs unlicensed contractor,informational,,,,1,general contractor,,,yes
+do i need a general contractor for a remodel,informational,,,,1,general contractor,,,yes
+how much does a general contractor charge,informational,,,,2,general contractor,,,no
+how do general contractors charge cost plus vs fixed price,informational,,,,2,general contractor,,,no
+general contractor markup percentage,informational,,,,2,general contractor,,,no
+questions to ask a general contractor,informational,,,,2,general contractor,,,no
+what does a general contractor do,informational,,,,2,general contractor,,,no
+how to find a good general contractor,informational,,,,2,general contractor,,,no
+do you need a license to be a general contractor in alabama,informational,,,,2,general contractor,,,no
+what is a general contractor responsible for,informational,,,,2,general contractor,,,no
+should i hire a general contractor or manage it myself,informational,,,,2,general contractor,,,no

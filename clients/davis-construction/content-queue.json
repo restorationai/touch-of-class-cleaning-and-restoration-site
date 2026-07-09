@@ -296,7 +296,7 @@
     },
     {
       "id": "2026-06-23-attic-mold-removal-athens",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-06-24T05:34:32Z",
       "written_at": "2026-07-09T17:56:52Z",
       "post_url": "https://davisconstructioncontractors.com/blog/attic-mold-removal-athens/",
@@ -326,7 +326,8 @@
       ],
       "city_anchor": "athens-al",
       "external_authority_candidates": [],
-      "notes": "Ties mold to Davis's roofing service (roof leaks -> attic mold). CPC $25, vol 2400."
+      "notes": "Ties mold to Davis's roofing service (roof leaks -> attic mold). CPC $25, vol 2400.",
+      "published_verified_at": "2026-07-09T17:57:59Z"
     },
     {
       "id": "2026-06-23-crawl-space-mold-removal-madison",

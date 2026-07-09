@@ -1,0 +1,30 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+storm damage restoration Federal Way,transactional,,,,3,storm damage restoration,Federal Way,/service-areas/federal-way-wa/storm-damage-restoration/,false
+storm damage restoration in Federal Way,transactional,,,,3,storm damage restoration,Federal Way,/service-areas/federal-way-wa/storm-damage-restoration/,false
+Federal Way storm damage restoration,transactional,,,,3,storm damage restoration,Federal Way,/service-areas/federal-way-wa/storm-damage-restoration/,false
+emergency storm damage restoration Federal Way,transactional,,,,3,storm damage restoration,Federal Way,/service-areas/federal-way-wa/storm-damage-restoration/,false
+storm damage restoration Seattle,transactional,,,,3,storm damage restoration,Seattle,/service-areas/seattle-wa/storm-damage-restoration/,false
+emergency storm damage restoration Seattle,transactional,,,,3,storm damage restoration,Seattle,/service-areas/seattle-wa/storm-damage-restoration/,false
+Seattle storm damage restoration,transactional,,,,3,storm damage restoration,Seattle,/service-areas/seattle-wa/storm-damage-restoration/,false
+storm damage restoration Tacoma,transactional,,,,3,storm damage restoration,Tacoma,/service-areas/tacoma-wa/storm-damage-restoration/,false
+emergency storm damage restoration Tacoma,transactional,,,,3,storm damage restoration,Tacoma,/service-areas/tacoma-wa/storm-damage-restoration/,false
+storm damage restoration Bellevue,transactional,,,,3,storm damage restoration,Bellevue,/service-areas/bellevue-wa/storm-damage-restoration/,false
+emergency storm damage restoration Bellevue,transactional,,,,3,storm damage restoration,Bellevue,/service-areas/bellevue-wa/storm-damage-restoration/,false
+storm damage restoration,commercial,,,,3,storm damage restoration,,/services/storm-damage-restoration/,false
+storm damage repair,commercial,,,,3,storm damage restoration,,/services/storm-damage-restoration/,false
+storm damage cleanup,commercial,,,,3,storm damage restoration,,/services/storm-damage-restoration/,false
+storm damage restoration company,commercial,,,,3,storm damage restoration,,/services/storm-damage-restoration/,false
+storm damage restoration services,commercial,,,,3,storm damage restoration,,/services/storm-damage-restoration/,false
+wind damage repair,commercial,,,,3,storm damage restoration,,/services/storm-damage-restoration/,false
+tree damage cleanup,commercial,,,,3,storm damage restoration,,/services/storm-damage-restoration/,false
+roof storm damage repair,commercial,,,,3,storm damage restoration,,/services/storm-damage-restoration/,false
+hail damage repair,commercial,,,,3,storm damage restoration,,/services/storm-damage-restoration/,false
+who to call for storm damage to your house,commercial,,,,3,storm damage restoration,,/blog/choosing-a-restoration-company/,false
+does homeowners insurance cover storm damage,informational,,,,1,storm damage restoration,,,true
+what to do after storm damage to your home,informational,,,,1,storm damage restoration,,,true
+how much does storm damage repair cost,informational,,,,1,storm damage restoration,,,true
+how long does storm damage restoration take,informational,,,,2,storm damage restoration,,,false
+what are the different types of storm damage,informational,,,,2,storm damage restoration,,,false
+how do I know if my roof has storm damage,informational,,,,2,storm damage restoration,,,false
+does insurance cover tree damage to house,informational,,,,2,storm damage restoration,,,false
+how to file a storm damage insurance claim,informational,,,,3,storm damage restoration,,/blog/storm-damage-insurance-claim-checklist/,false
