@@ -1,0 +1,50 @@
+name: Rank AI Ads Sync
+
+# Daily Google Ads → Supabase reporting sync (scripts/ads_sync.py): campaign
+# structure + trailing-14-day metrics into the marketing_ads_* tables for
+# every connected client (iterates all provider='google_ads' rows in
+# user_integrations — per-client OAuth refresh tokens live there, so no
+# per-client secrets are needed here). Keeps the app's Ads tab "as of" stamp
+# fresh instead of relying on ad-hoc local runs.
+on:
+  schedule:
+    - cron: '0 13 * * *'   # daily, 6 am PDT / 5 am PST — before the workday
+  workflow_dispatch:         # manual trigger for testing
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
+          fetch-depth: 0
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run ads sync (all clients)
+        env:
+          SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY:  ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          GOOGLE_OAUTH_CLIENT_ID:     ${{ secrets.GOOGLE_OAUTH_CLIENT_ID }}
+          GOOGLE_OAUTH_CLIENT_SECRET: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
+          GOOGLE_ADS_DEVELOPER_TOKEN: ${{ secrets.GOOGLE_ADS_DEVELOPER_TOKEN }}
+        run: python3 scripts/ads_sync.py
+
+      - name: Alert on failure
+        if: failure()
+        env:
+          SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
+        run: |
+          python3 scripts/notify_failure.py \
+            --subject "[Rank AI] CI failure: Ads Sync run #${{ github.run_number }}" \
+            --run-url "https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}" || true
