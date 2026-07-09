@@ -1,4 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="12" fill="#dc2626" />
-  <text x="32" y="44" text-anchor="middle" font-family="system-ui,sans-serif" font-weight="700" font-size="32" fill="white">PS</text>
+  <!-- ProRestoration Services mark: brand red italic P over the wordmark's blue wave swoosh.
+       Colors sampled from clients/prorestoration/LOGO.svg (.st0 #C80106 red, .st1 #0B338D blue). -->
+  <rect width="64" height="64" rx="12" fill="#ffffff" />
+  <text x="34" y="42" text-anchor="middle" font-family="system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-weight="800" font-style="italic" font-size="40" fill="#C80106">P</text>
+  <path d="M10 48 C 22 43, 38 53, 54 47" stroke="#0B338D" stroke-width="3.2" fill="none" stroke-linecap="round" />
+  <path d="M12 54 C 24 49, 38 58, 52 53" stroke="#0B338D" stroke-width="2.4" fill="none" stroke-linecap="round" />
 </svg>

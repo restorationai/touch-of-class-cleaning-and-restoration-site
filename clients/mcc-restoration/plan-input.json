@@ -7,7 +7,6 @@
     "business email address",
     "founded_year",
     "GBP place_id / google_cid",
-    "brand colors from logo",
     "licensed_insured_attested (Texas has no state restoration license — never claim licensed; general liability insurance attestation may allow 'insured' language only)",
     "family_owned (unset until attested)"
   ],
@@ -86,6 +85,11 @@
     "founded_year": "",
     "license_numbers": [],
     "certifications": [],
+    "primary_color": "#0a5eb6",
+    "accent_color": "#4f7d21",
+    "logo_green": "#8bbb4e",
+    "dark_color": "#1e293b",
+    "_color_notes": "Sampled 2026-07-09 from clients/mcc-restoration/Logo.png. primary = logo blue (6.38:1 on white). accent = AA-deepened logo green for white-text CTAs (4.90:1); true logo green #8bbb4e is decorative-only (2.25:1). dark = steel/slate to match chrome lettering.",
     "google_maps_api_key": "AIzaSyDrYnSuDu-hFvKHEcQCjwb-zsMebInPneU"
   },
   "cross_product": true,

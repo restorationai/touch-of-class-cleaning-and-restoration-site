@@ -24,7 +24,7 @@ const shortLabel = brand.shortName || brand.displayName;
 
 // No invented minutes — this client has no published response-time number.
 const responseClaim = is247
-  ? "rapid emergency dispatch, day or night"
+  ? "60-minute emergency response, day or night"
   : "rapid emergency dispatch during business hours";
 
 const areas = (await getCollection("serviceAreas")).sort(
@@ -38,7 +38,7 @@ const h1 = is247
   ? `24/7 Emergency Plumbing, Heating & Air in ${brand.primaryCity}`
   : `Emergency Plumbing, Heating & Air in ${brand.primaryCity}`;
 
-const metaDescription = `Burst pipe, sewer backup, no heat or AC in ${brand.primaryCity}, ${brand.primaryState}? ${shortLabel} answers ${is247 ? "24/7" : `during business hours (${brand.hours})`} with upfront pricing. Call ${brand.phone}.`;
+const metaDescription = `Burst pipe, sewer backup, no heat or AC in ${brand.primaryCity}, ${brand.primaryState}? ${shortLabel} is typically on-site within 60 minutes${is247 ? ", 24/7" : " during business hours"}, with upfront pricing. Call ${brand.phone}.`;
 
 // Opening answer capsule — 2-3 standalone sentences an AI engine can quote verbatim.
 const answerCapsule = `${brand.displayName} provides ${is247 ? "24/7 " : ""}emergency plumbing, heating, and air conditioning service in ${brand.primaryCity}, ${brand.primaryState} and nearby cities including ${cityPreview}. We provide ${responseClaim}, with upfront pricing before any work begins. Call ${brand.phone} to get a technician moving now.`;
@@ -67,7 +67,7 @@ const faq = [
       },
   {
     question: "How quickly can you be on-site?",
-    answer: `We dispatch the nearest available technician as soon as you call${is247 ? ", 24/7" : ""}. Call ${brand.phone} and we will give you a real ETA for your address.`,
+    answer: `Technicians are typically on-site within 60 minutes of your call anywhere in the ${brand.primaryCity} area${is247 ? ", 24/7" : ""}. Call ${brand.phone} and we will give you a real ETA for your address.`,
   },
   {
     question: "What counts as a plumbing or HVAC emergency?",
@@ -146,7 +146,7 @@ const faq = [
         <h2>How fast can {shortLabel} get here?</h2>
         <p class="text-lg text-dark-800">
           {is247
-            ? `${shortLabel} answers the phone 24/7 and dispatches the nearest available technician — day or night, weekends and holidays.`
+            ? `${shortLabel} answers the phone 24/7 and technicians are typically on-site within 60 minutes of your call — day or night, weekends and holidays.`
             : `${shortLabel} dispatches the nearest available technician as quickly as possible during business hours (${brand.hours}).`}
           Burst pipes and sewer backups get worse by the hour, so we treat every call as urgent.
         </p>

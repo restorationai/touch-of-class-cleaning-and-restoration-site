@@ -1,5 +1,5 @@
 {
-  "version": "0.4.0",
+  "version": "0.4.1",
   "note": "Canonical service catalog for restoration and construction verticals. The template is a superset; each client selects the subset they offer. tier values: 'core' = standard restoration services most clients should offer; 'specialty' = distinct service some clients offer; 'adjacent' = related cleaning/maintenance services a minority offer; 'construction' = construction/GC services for dual-vertical clients. content_guardrails='sensitive' triggers Skill 3's sensitive-content rules at generation time.",
   "tiers": [
     "core",
@@ -492,6 +492,21 @@
       ],
       "tier": "specialty",
       "priority": 5
+    },
+    {
+      "slug": "flood-equipment-rental",
+      "display_name": "Flood & Drying Equipment Rental",
+      "short_name": "Equipment Rental",
+      "primary_intent": "local_specialty",
+      "secondary_keywords": [
+        "water damage equipment rental",
+        "dehumidifier rental",
+        "air mover rental",
+        "carpet drying fan rental",
+        "flood pump rental"
+      ],
+      "tier": "adjacent",
+      "priority": 3
     },
     {
       "slug": "carpet-cleaning",

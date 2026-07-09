@@ -117,7 +117,11 @@ const ctx: PageSchemaContext = {
     <meta name="twitter:description" content={meta_description} />
     <meta name="twitter:image" content={ogImage} />
 
+    {/* Favicon set — generated from the client's real logo mark (see clients/{slug}/). */}
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="alternate icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="alternate icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="sitemap" href="/sitemap-index.xml" />
 
     {/* Web fonts, loaded without blocking first paint: preconnect + print-media

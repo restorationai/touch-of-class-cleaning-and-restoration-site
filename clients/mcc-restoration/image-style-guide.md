@@ -58,9 +58,10 @@ Per-client brand colors take priority. The values below are substituted from `pl
 
 | Role | Source | Value for this client |
 |------|--------|----------------------|
-| Primary brand color (uniforms, vehicle, signage glimpsed in shots) | `#0d1b3e` | **#0d1b3e** |
-| Accent (emergency markings, CTAs that appear in promo shots) | `#f97316` | **#f97316** |
-| Logo color (if a worker's uniform back is visible) | derived from brand logo | match MCC Restoration and Contracting Services's logo |
+| Primary brand color (uniforms, vehicle decals, signage glimpsed in shots) | `#0a5eb6` | **#0a5eb6** (MCC logo blue, sampled from `clients/mcc-restoration/Logo.png`) |
+| Accent (secondary brand color in decals/stripes/equipment) | `#8bbb4e` | **#8bbb4e** (MCC logo green) |
+| Neutrals (vehicle bodies, lettering) | steel/slate | WHITE vehicle bodies; chrome/steel "MCC" lettering (`#1e293b` slate shadows) |
+| Logo color (if a worker's uniform back is visible) | derived from brand logo | match the real MCC lockup: chrome serif MCC + green/blue scaffold-house motif + green-over-blue swoosh underline |
 | Skin / texture / restoration materials | natural and neutral | warm wood tones for housing stock, cool concrete grays, real surface textures |
 | Environment-specific atmospherics | regional | varies — see "Setting & Environment" below for Duncanville |
 
@@ -69,6 +70,7 @@ Per-client brand colors take priority. The values below are substituted from `pl
 - True-to-life, not pumped up. Restoration scenes are not Instagram travel content.
 - Slight warmth on golden-hour exteriors (white balance ~5800-6200K); neutral white balance for interior damage shots (~5000-5500K)
 - The client's primary brand color should appear at least once per worker shot (on a uniform polo, hat, vehicle wrap, or equipment case label). NOT garish — just present.
+- **Vehicle livery (2026-07 rebrand)**: WHITE vans/box trucks with the real MCC logo decal (chrome MCC lettering, green `#8bbb4e` + blue `#0a5eb6` scaffold-house motif, green/blue swoosh) and a thin green+blue dual stripe along the lower body line. NO navy vehicle paint, NO orange anywhere — orange was the pre-rebrand template accent and must not reappear.
 - No oversaturation. Real damaged drywall is not vivid. Real soot is matte black-gray. Real wet wood is dull.
 
 ---
@@ -87,7 +89,7 @@ Per-client brand colors take priority. The values below are substituted from `pl
 Every image that depicts a person must show a worker in branded company uniform. This is non-negotiable for visual consistency and trust signaling.
 
 ### Uniform specifications
-- **Top**: Polo or work shirt in the client's primary brand color (`#0d1b3e`). For darker brand colors (navy, deep red, charcoal), use that color directly. For lighter brand colors, render as a darker navy or charcoal uniform with the brand color visible as logo embroidery, accent stripe, or branded hat.
+- **Top**: Polo or work shirt in the client's primary brand color — royal/medium blue (`#0a5eb6`) with a small MCC chest patch; green (`#8bbb4e`) polos are an acceptable alternate. Never orange, never red.
 - **Bottom**: Neutral work pants (charcoal, dark navy, or khaki). Subordinate to the top.
 - **Branding**: MCC Restoration and Contracting Services or MCC Restoration embroidered on chest or back. IICRC certification badge visible on sleeve or chest where it makes sense.
 - **PPE**: Match the service context (see service-specific notes below) — gloves always, respirators / face shields / Tyvek suits when the service warrants it.

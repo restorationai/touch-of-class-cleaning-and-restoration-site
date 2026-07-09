@@ -1,11 +1,16 @@
 /** @type {import('tailwindcss').Config}
  *
- * Canonical Rank AI starter palette — matches the narestco visual reference.
- * Tokens substituted at scaffold time from plan-input.json via build_site.py.
+ * MCC Restoration brand palette — sampled from clients/mcc-restoration/Logo.png
+ * (2026-07 rebrand: chrome MCC lettering, green+blue construction-scaffold house
+ * motif, green/blue swoosh underline).
  *
- *   dark    — primary background surface (charcoal/near-black)
- *   primary — CTA color (red by default; override via BRAND_PRIMARY_* tokens)
- *   accent  — brighter highlight for urgent elements
+ *   primary — MCC logo BLUE (#0a5eb6 sampled). 600 = 6.38:1 and 700 = 8.78:1 on
+ *             white — both pass WCAG AA for text and white-on-blue CTAs.
+ *   accent  — MCC logo GREEN. The literal logo green (#8bbb4e) is only 2.25:1 on
+ *             white, so accent.DEFAULT (btn-accent renders WHITE text on it) is
+ *             the AA-checked deep green #4f7d21 (4.90:1); the true logo green
+ *             lives at accent-400 for icons/decorative use only.
+ *   dark    — steel/slate neutrals to match the chrome lettering.
  */
 export default {
   content: ["./src/**/*.{astro,html,js,ts,md,mdx}"],
@@ -13,37 +18,42 @@ export default {
     extend: {
       colors: {
         dark: {
-          DEFAULT: "#111827",
-          50: "#f9fafb",
-          100: "#f3f4f6",
-          200: "#e5e7eb",
-          300: "#d1d5db",
-          400: "#9ca3af",
-          500: "#6b7280",
-          600: "#4b5563",
-          700: "#374151",
-          800: "#1f2937",
-          900: "#111827",
-          950: "#030712",
+          // steel/slate grays (Tailwind slate) — matches the chrome MCC lettering
+          DEFAULT: "#1e293b",
+          50: "#f8fafc",
+          100: "#f1f5f9",
+          200: "#e2e8f0",
+          300: "#cbd5e1",
+          400: "#94a3b8",
+          500: "#64748b",
+          600: "#475569",
+          700: "#334155",
+          800: "#1e293b",
+          900: "#0f172a",
+          950: "#020617",
         },
         primary: {
-          DEFAULT: "#dc2626",
-          50: "#fef2f2",
-          100: "#fee2e2",
-          200: "#fecaca",
-          300: "#fca5a5",
-          400: "#f87171",
-          500: "#ef4444",
-          600: "#dc2626",
-          700: "#b91c1c",
-          800: "#991b1b",
-          900: "#7f1d1d",
-          950: "#450a0a",
+          // MCC logo blue (#0a5eb6 sampled from Logo.png swoosh + scaffold motif)
+          DEFAULT: "#0a5eb6",
+          50: "#eef7fd",
+          100: "#d8ecfa",
+          200: "#b5daf4",
+          300: "#83c0eb",
+          400: "#49a0de",
+          500: "#1f7ecb",
+          600: "#0a5eb6", // 6.38:1 on white — AA for normal text + white-on-blue CTAs
+          700: "#084a90", // 8.78:1 on white — AAA-adjacent, used for links/eyebrows
+          800: "#0a3e75",
+          900: "#0d3560",
+          950: "#08203d",
         },
         accent: {
-          // btn-accent renders WHITE text on this color — pick an accent that
-          // keeps >= 4.5:1 contrast with white (WCAG AA). e.g. #dc2626 or #c2410c.
-          DEFAULT: "#ef4444",
+          // btn-accent renders WHITE text on this color — keep >= 4.5:1 contrast
+          // with white (WCAG AA). #4f7d21 = 4.90:1 (deepened MCC logo green).
+          DEFAULT: "#4f7d21",
+          400: "#8bbb4e", // true MCC logo green — icons/decoration only, NOT text-on-white
+          600: "#4f7d21",
+          700: "#3f651a",
         },
         muted: {
           DEFAULT: "#4b5563",

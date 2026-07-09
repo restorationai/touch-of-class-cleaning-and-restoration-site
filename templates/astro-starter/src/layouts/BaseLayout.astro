@@ -117,7 +117,24 @@ const ctx: PageSchemaContext = {
     <meta name="twitter:description" content={meta_description} />
     <meta name="twitter:image" content={ogImage} />
 
+    {/* FAVICON — REQUIRED BUILD STEP (standing rule: every site ships a favicon).
+        The scaffolded public/favicon.svg is only a text-initials placeholder.
+        Before preview deploy, generate the real set from the client's logo MARK
+        (crop the iconic element from clients/{slug}/<logo file> — e.g. the badge,
+        circle mark, or lettermark; if no logo exists yet, hand-build a clean
+        monogram SVG in the client's palette):
+          public/favicon.svg          — vector (or 192px PNG embedded as data URI
+                                        for raster logos)
+          public/favicon.ico          — 16/32/48 multi-size (PIL: save format=ICO)
+          public/apple-touch-icon.png — 180x180, opaque white background
+          public/favicon-32x32.png / favicon-16x16.png — if the mark is faint at
+                                        small sizes (chrome/gradient lettering),
+                                        substitute a bolder solid-color variant.
+        All five files are referenced below; verify each lands in dist/ after build. */}
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="alternate icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="alternate icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="sitemap" href="/sitemap-index.xml" />
 
     {/* Web fonts, loaded without blocking first paint: preconnect + print-media

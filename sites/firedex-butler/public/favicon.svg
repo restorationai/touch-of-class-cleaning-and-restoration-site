@@ -1,4 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="12" fill="#c8102e" />
-  <text x="32" y="44" text-anchor="middle" font-family="system-ui,sans-serif" font-weight="700" font-size="32" fill="white">FB</text>
+  <!-- FireDEX Butler monogram: navy tile (#102a43 dark from plan-input.json), white FD,
+       brand-red (#c8102e) baseline bar. Flame-free by design. -->
+  <rect width="64" height="64" rx="12" fill="#102a43" />
+  <text x="32" y="40" text-anchor="middle" font-family="system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-weight="800" font-size="30" letter-spacing="1" fill="#ffffff">FD</text>
+  <rect x="16" y="46" width="32" height="5" rx="2.5" fill="#c8102e" />
 </svg>

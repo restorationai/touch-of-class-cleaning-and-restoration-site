@@ -27,7 +27,7 @@ export const brand = {
   // Analytics — set post-scaffold (scripts/analytics_set.py / create_ga4.py); no-op if empty
   ga4MeasurementId: "",
   clarityProjectId: "",
-  logoUrl: "", // no logo yet — header/footer fall back to text; set to images.mccrestoration.com/brand/... once Jeff provides one
+  logoUrl: "/images/logo.webp", // clients/mcc-restoration/Logo.png (chrome MCC + green/blue lockup). Local file for preview; move to images.mccrestoration.com/brand/logo.webp at production cutover once the zone + R2 bucket exist.
   licenseNumbers: [] as string[],
   licenseAuthority: "",
   licenseType: "",
