@@ -296,10 +296,10 @@
     },
     {
       "id": "2026-06-23-attic-mold-removal-athens",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-06-24T05:34:32Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-07-09T17:56:52Z",
+      "post_url": "https://davisconstructioncontractors.com/blog/attic-mold-removal-athens/",
       "primary_keyword": "attic mold removal",
       "intent": "informational",
       "volume": 2400,
@@ -396,6 +396,163 @@
         "https://www.iii.org/article/what-covered-standard-homeowners-policy"
       ],
       "notes": "Decision-stage, KD 22. Links to existing water-damage insurance post."
+    },
+    {
+      "id": "2026-07-09-how-much-does-a-general-contractor-cost",
+      "status": "queued",
+      "queued_at": "2026-07-09T17:54:12Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how much does a general contractor cost",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "how much does a general contractor charge",
+        "general contractor markup percentage",
+        "how do general contractors charge cost plus vs fixed price",
+        "general contractor fee percentage of project",
+        "cost plus vs fixed price contract",
+        "what is included in a general contractor's fee"
+      ],
+      "suggested_slug": "how-much-does-a-general-contractor-cost",
+      "suggested_title": "How Much Does a General Contractor Cost in Alabama? (Fees, Markup, and Real Numbers)",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/home-remodeling/",
+        "/services/new-construction/",
+        "/services/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "home-remodeling",
+        "new-construction"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.nahb.org/",
+        "https://www.angi.com/articles/general-contractor-cost.htm"
+      ],
+      "metrics_pending": true,
+      "notes": "Lead with how GCs price work (cost-plus vs fixed price, typical markup range) and a fee breakdown table by project type (kitchen, bath, addition, whole-home). Add a North Alabama worked example (Madison subdivision remodel). No /services/general-contracting/ page exists; link to home-remodeling and new-construction. Metrics null (DataForSEO server unavailable this run) -- validate volume/KD before deprioritizing. Canonical GC cost post; absorbs the charge/markup/pricing-model cluster."
+    },
+    {
+      "id": "2026-07-09-how-to-choose-a-general-contractor",
+      "status": "queued",
+      "queued_at": "2026-07-09T17:54:12Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to choose a general contractor",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "questions to ask a general contractor",
+        "what does a general contractor do",
+        "how to find a good general contractor",
+        "how to vet a general contractor",
+        "red flags when hiring a contractor",
+        "should you get multiple contractor bids"
+      ],
+      "suggested_slug": "how-to-choose-a-general-contractor",
+      "suggested_title": "How to Choose a General Contractor: A Homeowner's Checklist (What to Ask Before You Sign)",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/home-remodeling/",
+        "/services/new-construction/",
+        "/services/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "home-remodeling",
+        "new-construction"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.nahb.org/",
+        "https://genbd.alabama.gov/"
+      ],
+      "metrics_pending": true,
+      "notes": "Decision-stage checklist. Distinct from the restoration-only /blog/choosing-a-restoration-company/ post -- this targets construction/GC intent. Include: licensing/insurance verification (link to the licensed-vs-unlicensed post), reference and portfolio checks, the questions-to-ask list, bid comparison, and contract/payment-schedule basics. Absorbs questions-to-ask + what-does-a-GC-do + how-to-find. Metrics null (DataForSEO unavailable this run)."
+    },
+    {
+      "id": "2026-07-09-licensed-vs-unlicensed-contractor-alabama",
+      "status": "queued",
+      "queued_at": "2026-07-09T17:54:12Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "licensed vs unlicensed contractor",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "do you need a license to be a general contractor in alabama",
+        "what is a general contractor responsible for",
+        "how to verify a contractor's license in alabama",
+        "risks of hiring an unlicensed contractor",
+        "alabama general contractor license requirements",
+        "is it illegal to hire an unlicensed contractor"
+      ],
+      "suggested_slug": "licensed-vs-unlicensed-contractor-alabama",
+      "suggested_title": "Licensed vs Unlicensed Contractor in Alabama: Why It Matters (and How to Verify a License)",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/home-remodeling/",
+        "/services/new-construction/",
+        "/services/roofing/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "home-remodeling",
+        "new-construction"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://genbd.alabama.gov/",
+        "https://www.hblb.alabama.gov/",
+        "https://www.nahb.org/"
+      ],
+      "metrics_pending": true,
+      "notes": "Safety/decision query. Alabama-specific: the AL Licensing Board for General Contractors (genbd.alabama.gov) licenses jobs of $50,000+; residential work is covered by the Home Builders Licensure Board. Cover verification steps, liability/lien and insurance exposure of unlicensed work, and permit implications. Cross-link to how-to-choose-a-general-contractor. Metrics null (DataForSEO unavailable this run)."
+    },
+    {
+      "id": "2026-07-09-do-i-need-a-general-contractor-for-a-remodel",
+      "status": "queued",
+      "queued_at": "2026-07-09T17:54:12Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "do i need a general contractor for a remodel",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "should i hire a general contractor or manage it myself",
+        "general contractor vs subcontractor",
+        "when do you need a general contractor",
+        "do i need a contractor for a kitchen remodel",
+        "can i be my own general contractor",
+        "gc vs owner-builder"
+      ],
+      "suggested_slug": "do-i-need-a-general-contractor-for-a-remodel",
+      "suggested_title": "Do I Need a General Contractor for My Remodel? (When to Hire One vs Manage It Yourself)",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/home-remodeling/",
+        "/services/decks-pergolas-fences/",
+        "/services/new-construction/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "home-remodeling",
+        "new-construction"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.nahb.org/",
+        "https://www.angi.com/articles/do-i-need-general-contractor.htm"
+      ],
+      "metrics_pending": true,
+      "notes": "Whether-to-hire decision query. Frame by project scope: single-trade jobs vs multi-trade remodels/additions where a GC coordinates permits, subs, inspections, and schedule. Owner-builder risks. Absorbs the DIY-vs-GC and GC-vs-subcontractor angles. Metrics null (DataForSEO unavailable this run)."
     }
   ]
 }
