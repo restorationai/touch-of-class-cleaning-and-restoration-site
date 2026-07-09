@@ -1,0 +1,356 @@
+---
+/*
+ * LP Variant V1 — "EmergencyRestorationPros" style
+ * Navy + gold, centered hero, content-dense: text service list, carrier list,
+ * 3x3 trust badge grid, 9-step process, worker card.
+ * Self-contained palette (navy/gold, NOT the brand `primary` token) so it
+ * reads as a distinct design in split tests. Brand name/phone/logo stay dynamic.
+ */
+import "~/styles/global.css";
+import { brand } from "~/lib/brand";
+import Analytics from "~/components/Analytics.astro";
+import { Phone, MapPin, ChevronDown, Star, ShieldCheck, Clock, FileText, Users, Wrench, Award, BadgeCheck, Headphones, Smile } from "@lucide/astro";
+
+interface BodyContent {
+  heading: string;
+  intro: string;
+  bullets: string[];
+  callout: string | null;
+}
+
+interface ProcessStep {
+  title: string;
+  body: string;
+}
+
+interface Props {
+  h1: string;
+  metaTitle: string;
+  metaDescription: string;
+  heroSubtitle: string;
+  serviceLabel: string;
+  city: string | null;
+  state: string | null;
+  bodyContent: BodyContent;
+  processSteps?: ProcessStep[];
+}
+
+const {
+  h1,
+  metaTitle,
+  metaDescription,
+  heroSubtitle,
+  serviceLabel,
+  city,
+  state,
+  bodyContent,
+  processSteps: customSteps,
+} = Astro.props;
+
+const locationLabel = city && state ? `${city}, ${state}` : (city ?? "");
+
+const steps: ProcessStep[] = customSteps ?? [
+  { title: "Emergency Call Received", body: "We're available 24/7 and respond immediately to your emergency." },
+  { title: "On-Site Inspection", body: "Our team arrives quickly to assess the damage and develop a custom restoration plan." },
+  { title: "Damage Mitigation", body: "We take immediate steps to prevent further damage — water extraction, board-up, tarp, or containment as needed." },
+  { title: "Cleanup & Drying", body: "We remove debris, dry affected areas, and clean surfaces using advanced equipment and techniques." },
+  { title: "Mold & Odor Treatment", body: "If necessary, we treat for mold growth and eliminate lingering smoke, mildew, or water odors." },
+  { title: "Insurance Coordination", body: "We work directly with your insurance company to handle paperwork, photos, and claim details." },
+  { title: "Repair & Restoration", body: "Our crew performs all needed repairs — drywall, flooring, painting, and more — to fully restore your home." },
+  { title: "Final Walkthrough", body: "We ensure everything meets our standards and yours before closing out the project." },
+  { title: "Peace of Mind Delivered", body: "You're left with a clean, safe, fully restored home — back to pre-loss condition or better." },
+];
+
+const heroIcons = [
+  { Icon: Wrench, label: "Water Extraction & Repair Services" },
+  { Icon: ShieldCheck, label: "Damage Cleanup & Restoration Pros" },
+  { Icon: Clock, label: "24/7 Emergency Restoration" },
+  { Icon: FileText, label: "We Work Directly With Your Insurer" },
+];
+
+const services = [
+  "Water Damage Restoration", "Storm Damage Restoration", "Burst Pipe Repairs",
+  "Mold Remediation", "Flood Cleanup", "Storm Cleanup",
+  "Overflowing Toilet Cleanup", "Sewage Cleanup", "Appliance Leak Repairs",
+  "Dishwasher Overflow Damage", "HVAC Unit Leaks", "Structural Drying",
+  "Faulty Sump Pump Repairs", "Drywall and Dry Rot Repair", "Ceiling and Wall Restoration",
+  "Basement Water Extraction", "Emergency Board-Up Services", "Roof Tarping and Leak Repair",
+  "Foundation Cracks", "Ice Dam Water Damage", "And Much More!",
+];
+
+const carriers = [
+  "State Farm", "Allstate", "Liberty Mutual", "USAA", "Farmers Insurance", "Travelers",
+  "American Family", "Chubb", "Citizens Property", "Progressive", "Erie Insurance", "Auto-Owners Insurance",
+  "Universal Insurance", "AAA", "Amica Mutual Insurance", "Country Financial", "The Hartford", "Mercury Insurance",
+  "Geico", "Safeco Insurance", "MetLife", "Hippo Insurance", "Homesite Insurance", "Kemper Insurance",
+  "Stillwater Insurance", "Lemonade Insurance", "All Other Providers!",
+];
+
+// "Licensed & Insured" only when we actually hold license data for this client
+// (hardcoded-claims audit); the other badges are universally-true service claims.
+const trustBadges = [
+  ...(Array.isArray(brand.licenseNumbers) && brand.licenseNumbers.length
+    ? [{ Icon: BadgeCheck, label: "Licensed & Insured" }]
+    : []),
+  { Icon: Clock, label: "Emergency Response" },
+  { Icon: FileText, label: "Stress-Free Claims" },
+  { Icon: Headphones, label: "24/7 Availability" },
+  { Icon: ShieldCheck, label: "Work With All Carriers" },
+  { Icon: Smile, label: "100% Satisfaction" },
+  { Icon: Users, label: "Full-Service Restoration" },
+  { Icon: Award, label: "Fast Restorations" },
+  { Icon: MapPin, label: "Local & Trusted Team" },
+];
+
+// Palette
+const NAVY = "#1c2c4c";
+const NAVY_DARK = "#15223d";
+const GOLD = "#f4b740";
+
+// Google Ads click-to-call tracking — populated by ads-tracking into brand.ts.
+// Accessed defensively so the template is valid before the fields exist (no-ops if absent).
+const gadsId = (brand as any).gadsId as string | undefined;
+const gadsCallConversionLabel = (brand as any).gadsCallConversionLabel as string | undefined;
+
+// Call-tracking number swap — populated by ads-call-tracking into brand.ts.
+// LP-only: falls back to the real brand phone so the main site / NAP is untouched.
+const displayPhone = (brand as any).adsTrackingPhone ?? brand.phone;
+const displayPhoneRaw = (brand as any).adsTrackingPhoneRaw ?? brand.phoneRaw;
+---
+
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex,nofollow" />
+    <title>{metaTitle}</title>
+    <meta name="description" content={metaDescription} />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <!-- Google Ads global site tag (loads only once gadsId is wired into brand.ts) -->
+    {gadsId && (
+      <>
+        <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${gadsId}`}></script>
+        <script is:inline define:vars={{ gadsId }}>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){ dataLayer.push(arguments); }
+      window.gtag = gtag;  // expose globally: define:vars wraps scripts in IIFEs; tel-click handler needs it
+          gtag('js', new Date());
+          gtag('config', gadsId);
+        </script>
+      </>
+    )}
+      <Analytics />
+  </head>
+  <body class="min-h-screen flex flex-col bg-white font-sans antialiased">
+
+    <!-- Header: navy, logo + phone -->
+    <header class="px-6 py-4" style={`background:${NAVY}`}>
+      <div class="container-wide flex items-center justify-between">
+        <a href="/" aria-label={brand.displayName} class="no-underline">
+          {brand.logoUrl
+            ? <img src={brand.logoUrl} alt={brand.displayName} class="h-8 w-auto" loading="eager" />
+            : <span class="font-black text-base text-white">{brand.shortName ?? brand.displayName}</span>
+          }
+        </a>
+        <div class="flex items-center gap-3">
+          <span class="hidden sm:inline text-white/70 text-sm font-medium">We Are Available Today!</span>
+          <a href={`tel:${displayPhoneRaw}`} class="inline-flex items-center gap-2 font-black no-underline text-sm" style={`color:${GOLD}`}>
+            <Phone size={15} stroke-width={2.5} />
+            {displayPhone}
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main class="flex-1">
+
+      <!-- Hero: navy, CENTERED -->
+      <section class="text-white text-center" style={`background:${NAVY}`}>
+        <div class="container-wide py-12 md:py-16 flex flex-col items-center">
+          <div class="flex items-center gap-1 mb-4" style={`color:${GOLD}`}>
+            {[1,2,3,4,5].map(() => <Star size={18} fill="currentColor" stroke-width={0} />)}
+          </div>
+          {locationLabel && (
+            <div class="flex items-center gap-1.5 text-sm font-semibold text-white/80 mb-4">
+              <MapPin size={14} style={`color:${GOLD}`} /> {locationLabel}
+            </div>
+          )}
+          <h1 class="text-3xl md:text-5xl font-black leading-tight mb-3 text-white max-w-3xl">{h1}</h1>
+          <p class="text-lg text-white/80 mb-6">{heroSubtitle}</p>
+          <p class="text-xl md:text-2xl font-black mb-8">
+            Call Us Now: <a href={`tel:${displayPhoneRaw}`} class="no-underline" style={`color:${GOLD}`}>{displayPhone}</a>
+          </p>
+
+          <!-- 4 trust icons -->
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-6 w-full max-w-4xl mb-8">
+            {heroIcons.map(({ Icon, label }) => (
+              <div class="flex flex-col items-center text-center gap-2">
+                <Icon size={26} style={`color:${GOLD}`} />
+                <span class="text-xs font-semibold text-white/85 leading-tight">{label}</span>
+              </div>
+            ))}
+          </div>
+
+          <p class="text-sm italic text-white/60 max-w-2xl mb-0">
+            We've helped thousands through the remediation and restoration process. All major insurance generally accepted!
+          </p>
+        </div>
+      </section>
+
+      <!-- Body: description + services list + worker card -->
+      <section class="bg-white py-14">
+        <div class="container-wide grid lg:grid-cols-3 gap-10 items-start">
+          <div class="lg:col-span-2">
+            <h2 class="text-2xl md:text-3xl font-black mb-1 mt-0 inline-block border-b-4 pb-1" style={`color:${NAVY};border-color:${GOLD}`}>
+              {bodyContent.heading}
+            </h2>
+            <p class="text-gray-700 font-semibold mt-4 mb-3">Fast Cleanup and Repairs from {serviceLabel}</p>
+            <p class="text-gray-600 mb-6 leading-relaxed">{bodyContent.intro}</p>
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-x-6 gap-y-2.5 text-sm text-gray-700">
+              {services.map((svc) => (
+                <div class="flex items-start gap-1.5">
+                  <ChevronDown size={15} class="flex-shrink-0 mt-0.5" style={`color:${GOLD}`} />
+                  <span>{svc}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <!-- Worker card -->
+          <div class="rounded-2xl p-6 flex flex-col items-center text-center" style="background:#eceef5">
+            <div class="w-full h-48 rounded-xl mb-4 flex items-center justify-center" style={`background:${NAVY}`}>
+              <Wrench size={48} style={`color:${GOLD}`} />
+            </div>
+            <div class="font-black text-lg mb-1" style={`color:${NAVY}`}>{brand.displayName}</div>
+            <div class="text-gray-500 text-sm mb-4">Open 24/7. Call Now!</div>
+            <a href={`tel:${displayPhoneRaw}`} class="w-full inline-flex items-center justify-center gap-2 text-white font-black py-3 rounded-lg text-sm no-underline" style={`background:${NAVY}`}>
+              <Phone size={16} stroke-width={2.5} style={`color:${GOLD}`} /> {displayPhone}
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Insurance claims: text + carrier list -->
+      <section class="bg-white py-14 border-t border-gray-100">
+        <div class="container-wide">
+          <h2 class="text-2xl md:text-3xl font-black mb-1 mt-0 inline-block border-b-4 pb-1" style={`color:${NAVY};border-color:${GOLD}`}>
+            Hassle-Free Insurance Claims
+          </h2>
+          <p class="text-gray-700 font-semibold mt-4 mb-3">Let Us Handle Your Insurance Company. Claims Made Simple!</p>
+          <p class="text-gray-600 mb-6 leading-relaxed max-w-3xl">
+            We take the stress out of restoration by handling the entire insurance claims process for you. Our team works directly with all major insurance brands and carriers to ensure a smooth, hassle-free experience.
+          </p>
+          <div class="grid grid-cols-2 md:grid-cols-3 gap-x-6 gap-y-2.5 text-sm text-gray-700 mb-6">
+            {carriers.map((name) => (
+              <div class="flex items-start gap-1.5">
+                <ChevronDown size={15} class="flex-shrink-0 mt-0.5" style={`color:${GOLD}`} />
+                <span>{name}</span>
+              </div>
+            ))}
+          </div>
+          <p class="text-sm text-gray-500 mb-0">
+            Have Questions? Contact us today at{" "}
+            <a href={`tel:${displayPhoneRaw}`} class="font-bold no-underline hover:underline" style={`color:${NAVY}`}>{displayPhone}</a>{" "}
+            for emergency service, to schedule an in-home consultation, or to receive a fast and affordable, no-obligation quote.
+          </p>
+        </div>
+      </section>
+
+      <!-- Why use our service: 3x3 trust badge grid -->
+      <section class="bg-white py-14 border-t border-gray-100">
+        <div class="container-wide">
+          <h2 class="text-2xl md:text-3xl font-black mb-1 mt-0 inline-block border-b-4 pb-1" style={`color:${NAVY};border-color:${GOLD}`}>
+            Why Use Our Service?
+          </h2>
+          <p class="text-gray-600 mt-4 mb-8 max-w-3xl leading-relaxed">
+            When disaster strikes, you need a team you can trust. Our restoration service provides fast, reliable cleanup and repair for water, fire, smoke, mold, and storm damage. We're available 24/7, work with all major insurance providers, and handle the entire claims process for you.
+          </p>
+          <div class="grid grid-cols-3 gap-6 md:gap-10 max-w-3xl">
+            {trustBadges.map(({ Icon, label }) => (
+              <div class="flex flex-col items-center text-center gap-3">
+                <Icon size={34} style={`color:${GOLD}`} />
+                <span class="text-xs md:text-sm font-bold leading-tight" style={`color:${NAVY}`}>{label}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <!-- How our service works: 9-step -->
+      <section class="bg-white py-14 border-t border-gray-100">
+        <div class="container-wide">
+          <h2 class="text-2xl md:text-3xl font-black mb-1 mt-0 inline-block border-b-4 pb-1" style={`color:${NAVY};border-color:${GOLD}`}>
+            How Our Service Works:
+          </h2>
+          <p class="text-gray-600 mt-4 mb-8 max-w-3xl leading-relaxed">
+            When unexpected damage happens, you need a team that responds fast and gets the job done right. We follow a clear, step-by-step process to assess, clean, repair, and restore your property — so you're never left guessing what comes next.
+          </p>
+          <ol class="space-y-5 max-w-3xl list-none pl-0 mb-8">
+            {steps.map((step, i) => (
+              <li class="flex gap-4 items-start">
+                <span class="flex-shrink-0 w-8 h-8 rounded-full text-white text-sm font-black flex items-center justify-center" style={`background:${NAVY}`}>
+                  {i + 1}
+                </span>
+                <div>
+                  <div class="font-black" style={`color:${NAVY}`}>{step.title}</div>
+                  <div class="text-sm text-gray-600 mt-0.5">{step.body}</div>
+                </div>
+              </li>
+            ))}
+          </ol>
+          {bodyContent.callout && (
+            <p class="text-gray-600 max-w-3xl leading-relaxed mb-0">{bodyContent.callout}</p>
+          )}
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Footer: navy, centered CTA -->
+    <footer class="text-white pt-14 pb-0" style={`background:${NAVY}`}>
+      <div class="container-wide text-center pb-12">
+        <div class="flex items-center justify-center gap-1 mb-4" style={`color:${GOLD}`}>
+          {[1,2,3,4,5].map(() => <Star size={18} fill="currentColor" stroke-width={0} />)}
+        </div>
+        <div class="text-2xl md:text-3xl font-black mb-2">{serviceLabel}</div>
+        <div class="text-white/70 text-sm mb-1">Technicians are Available 24/7</div>
+        <div class="text-white/70 text-sm mb-6">
+          Call Us Right Now:{" "}
+          <a href={`tel:${displayPhoneRaw}`} class="font-bold no-underline hover:underline" style={`color:${GOLD}`}>{displayPhone}</a>
+        </div>
+        <a href={`tel:${displayPhoneRaw}`} class="inline-flex items-center gap-2 font-black px-10 py-4 rounded-lg text-lg no-underline" style={`background:${GOLD};color:${NAVY}`}>
+          <Phone size={20} stroke-width={2.5} /> Call for Service
+        </a>
+      </div>
+      <div class="py-6 px-6 text-xs text-white/40" style={`background:${NAVY_DARK}`}>
+        <div class="container-wide flex flex-col sm:flex-row justify-between items-center gap-2">
+          <span>© {new Date().getFullYear()} {brand.legalName ?? brand.displayName}. All rights reserved.</span>
+          <div class="flex gap-4">
+            <a href="/privacy/" class="text-white/40 hover:text-white/70 no-underline">Privacy Policy</a>
+            <a href="/terms/" class="text-white/40 hover:text-white/70 no-underline">Terms of Use</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Sticky mobile call bar -->
+    <a href={`tel:${displayPhoneRaw}`} class="fixed bottom-0 inset-x-0 z-50 md:hidden flex items-center justify-between px-6 py-4 font-black no-underline" style={`background:${GOLD};color:${NAVY}`}>
+      <span class="text-sm">Call for Service</span>
+      <span class="flex items-center gap-2"><Phone size={18} stroke-width={2.5} /> {displayPhone}</span>
+    </a>
+
+    <!-- Click-to-call conversion — fires on any phone CTA tap (no-op until label is wired) -->
+    {gadsCallConversionLabel && (
+      <script is:inline define:vars={{ label: gadsCallConversionLabel }}>
+        document.addEventListener('click', function (e) {
+          var link = e.target.closest && e.target.closest('a[href^="tel:"]');
+          if (link && typeof window.gtag === 'function') {
+            gtag('event', 'conversion', { send_to: label, transport_type: 'beacon' });
+          }
+        });
+      </script>
+    )}
+
+  </body>
+</html>

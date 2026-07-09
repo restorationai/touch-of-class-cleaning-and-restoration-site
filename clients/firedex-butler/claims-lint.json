@@ -1,0 +1,229 @@
+{
+  "slug": "firedex-butler",
+  "generated_at": "2026-07-09T16:05:47Z",
+  "truth": {
+    "hours": "24/7",
+    "is_247": true,
+    "certifications": [],
+    "license_numbers": [
+      "PA001913"
+    ],
+    "licensed_ok": true,
+    "response_minutes": null,
+    "family_owned": false,
+    "founded_year": "1981",
+    "gbp_review_count": null,
+    "vertical": "restoration"
+  },
+  "errors": 8,
+  "review_flags": 15,
+  "violations": [
+    {
+      "file": "src/content/blog/black-mold-vs-regular-mold.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "rapid drying after a leak matters: the IICRC S520 standard treats the 48-to-72-hour",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/blog/choosing-a-restoration-company.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "error",
+      "matched": "IICRC",
+      "context": "a different category of problem. 1. **IICRC Certification.** The Institute of Inspe",
+      "reason": "names a certification not present in brand.certifications"
+    },
+    {
+      "file": "src/content/blog/choosing-a-restoration-company.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "error",
+      "matched": "IICRC",
+      "context": "company owner. A company can advertise IICRC membership while sending uncertified cr",
+      "reason": "names a certification not present in brand.certifications"
+    },
+    {
+      "file": "src/content/blog/choosing-a-restoration-company.md",
+      "part": "body",
+      "family": "reviews",
+      "severity": "error",
+      "matched": "40 five-star reviews",
+      "context": "ompany that appeared six weeks ago with 40 five-star reviews and no negative ones is a warning sign.",
+      "reason": "claims 40 reviews but no synced gbpReviewCount exists for this site"
+    },
+    {
+      "file": "src/content/blog/does-homeowners-insurance-cover-water-damage.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "error",
+      "matched": "certified restoration",
+      "context": "independent moisture assessment.** If a certified restoration professional finds evidence that the da",
+      "reason": "names a certification not present in brand.certifications"
+    },
+    {
+      "file": "src/content/blog/how-long-does-water-damage-restoration-take.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "ontent levels \u2014 a target defined by the IICRC S500 standard for water damage restorat",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/blog/mold-after-water-damage.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "alarmism; it's the baseline used by the IICRC S520 standard, the industry reference d",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/locations/cranberry-township-pa__basement-flooding-cleanup.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "materials reach the targets set by the IICRC S500 drying standard.\"}, {\"question\": \"",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/locations/cranberry-township-pa__flood-damage-restoration.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "the correct rate. The goal is to reach IICRC S500 dry standard throughout the assemb",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/locations/seven-fields-pa__commercial-restoration.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "er losses in this building stock dry to IICRC S500 target moisture levels within thre",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/locations/seven-fields-pa__commercial-restoration.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "ants, that response window matters: the IICRC S500 standard treats the first 24 to 48",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/locations/wexford-pa__soot-removal.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "error",
+      "matched": "certified restoration",
+      "context": "5090 area means we're among the closest certified restoration crews available to Wexford homeowners.\"",
+      "reason": "names a certification not present in brand.certifications"
+    },
+    {
+      "file": "src/content/pages/about.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "error",
+      "matched": "iicrc",
+      "context": "eywords: [\"local restoration company\", \"iicrc certified restoration\", \"licensed resto",
+      "reason": "names a certification not present in brand.certifications"
+    },
+    {
+      "file": "src/content/pages/about.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "error",
+      "matched": "certified restoration",
+      "context": "s: [\"local restoration company\", \"iicrc certified restoration\", \"licensed restoration contractor\"] se",
+      "reason": "names a certification not present in brand.certifications"
+    },
+    {
+      "file": "src/content/pages/about.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "error",
+      "matched": "IICRC",
+      "context": "Cleaning and Restoration Certification (IICRC) \u2014 that sets the technical standards mo",
+      "reason": "names a certification not present in brand.certifications"
+    },
+    {
+      "file": "src/content/serviceAreas/butler-pa.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "ed drying equipment tracked against the IICRC S500 standard. Category 3 losses \u2014 sewa",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/serviceAreas/cranberry-township-pa.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "anding water fast, dry the structure to IICRC S500 standards, and document everything",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/serviceAreas/gibsonia-pa.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "g and meters, then dry the structure to IICRC S500 standards. We document everything",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/serviceAreas/mars-pa.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "eadings daily, and dry the structure to IICRC S500 standards before any rebuild begin",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/serviceAreas/seven-fields-pa.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "set drying equipment calibrated to the IICRC S500 standard. For townhome losses in B",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/serviceAreas/wexford-pa.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "librated moisture meters, following the IICRC S500 standard. Contents packing and cli",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/serviceAreas/zelienople-pa.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "lath, and dry structural assemblies to IICRC S500 standards \u2014 documenting every mois",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/services/general-contracting.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "lead-safe",
+      "context": "n a pre-1978 home requires awareness of lead-safe work practices. When those materials ar",
+      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
+    }
+  ]
+}

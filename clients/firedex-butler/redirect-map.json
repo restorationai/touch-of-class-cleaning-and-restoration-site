@@ -1,0 +1,32 @@
+{
+  "_source": "Crawl of https://www.firedex.net/page-sitemap.xml (Yoast, 23 URLs) on 2026-07-08. Legacy WordPress site frozen since late 2020.",
+  "_usage": "At PRODUCTION CUTOVER ONLY: emit these as 301s (Cloudflare _redirects file or Bulk Redirects) on firedex.net. Also 301 the www host to apex. Do NOT deploy before Robert approves cutover — the WP site is live.",
+  "generated_at": "2026-07-08",
+  "status": "staged-not-deployed",
+  "host_rule": "https://www.firedex.net/* -> https://firedex.net/:splat (301), then path rules below",
+  "redirects": [
+    { "from": "/", "to": "/", "note": "homepage — no-op, listed for sitemap completeness" },
+    { "from": "/why-choose-us/", "to": "/about/" },
+    { "from": "/about/", "to": "/about/" },
+    { "from": "/our-process/", "to": "/about/" },
+    { "from": "/our-team/", "to": "/about/" },
+    { "from": "/faq/", "to": "/about/", "note": "no standalone FAQ page in new plan; FAQ blocks live on every service page" },
+    { "from": "/contact/", "to": "/contact/" },
+    { "from": "/residential-services/", "to": "/services/" },
+    { "from": "/commercial-services/", "to": "/services/commercial-restoration/" },
+    { "from": "/water-storm-flood-clean-up-and-restoration/", "to": "/services/water-damage-restoration/" },
+    { "from": "/commercial-services/water-and-storm-damage/", "to": "/services/water-damage-restoration/" },
+    { "from": "/fire-and-smoke-damage-residential/", "to": "/services/fire-damage-restoration/" },
+    { "from": "/commercial-services/fire-and-smoke-damage/", "to": "/services/fire-damage-restoration/" },
+    { "from": "/mold-removal-and-remediation-services/", "to": "/services/mold-remediation/" },
+    { "from": "/commercial-services/mold-removal-and-remediation/", "to": "/services/mold-remediation/" },
+    { "from": "/trauma-and-biohazard-cleanup-residential/", "to": "/services/biohazard-cleanup/" },
+    { "from": "/commercial-services/trauma-and-biohazard-cleanup/", "to": "/services/biohazard-cleanup/" },
+    { "from": "/covid-19-disinfection-residential/", "to": "/services/biohazard-cleanup/", "note": "COVID page retired; nearest service equivalent" },
+    { "from": "/commercial-services/covid-19-disinfection/", "to": "/services/biohazard-cleanup/", "note": "COVID page retired; nearest service equivalent" },
+    { "from": "/general-contracting-services/", "to": "/services/general-contracting/" },
+    { "from": "/employment-opportunities/", "to": "/about/", "note": "no careers page in new plan; ask Robert if hiring page needed" },
+    { "from": "/employment-opportunities-demo/", "to": "/about/", "note": "stray demo page" },
+    { "from": "/employment-application/", "to": "/about/" }
+  ]
+}

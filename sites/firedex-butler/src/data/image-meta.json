@@ -1,0 +1,28 @@
+{
+  "/images/hero-bg.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/team.webp": {
+    "width": 1200,
+    "height": 896,
+    "variants": [
+      480,
+      768
+    ]
+  },
+  "/images/services.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  }
+}
