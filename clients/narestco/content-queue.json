@@ -535,7 +535,7 @@
     },
     {
       "id": "2026-07-02-pin-mold-removal",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-07-02T17:41:02.653193+00:00",
       "prioritized": true,
       "source": "strategist-pin",
@@ -544,7 +544,9 @@
       "volume": null,
       "kd": null,
       "target_word_count": 1500,
-      "notes": "Pinned from AI Search. Write an honest, locally-specific guide that positions this business on verifiable strengths (certifications, license, response time, reviews) \u2014 NOT a self-ranking 'best companies' list."
+      "notes": "Pinned from AI Search. Write an honest, locally-specific guide that positions this business on verifiable strengths (certifications, license, response time, reviews) \u2014 NOT a self-ranking 'best companies' list.",
+      "written_at": "2026-07-09T18:14:55Z",
+      "post_url": "https://narestco.com/blog/mold-removal/"
     },
     {
       "id": "2026-07-02-pin-best-water-damage-restoration-company-in-bellevu",
@@ -559,6 +561,118 @@
       "target_word_count": 1500,
       "city_anchor": "bellevue-wa",
       "notes": "Pinned from AI Search. Write an honest, locally-specific guide that positions this business on verifiable strengths (certifications, license, response time, reviews) \u2014 NOT a self-ranking 'best companies' list."
+    },
+    {
+      "id": "2026-07-09-does-homeowners-insurance-cover-storm-damage",
+      "status": "queued",
+      "queued_at": "2026-07-09T18:09:50Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does homeowners insurance cover storm damage",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "does insurance cover wind damage",
+        "does insurance cover fallen tree damage to house",
+        "what storm damage is not covered by insurance",
+        "does homeowners insurance cover roof storm damage",
+        "storm damage insurance claim tips",
+        "filing a storm damage claim in Washington"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-storm-damage",
+      "suggested_title": "Does Homeowners Insurance Cover Storm Damage? What Washington Homeowners Should Know",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/storm-damage-restoration/",
+        "/services/roof-leak-repair/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/blog/storm-damage-insurance-claim-checklist/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "storm-damage-restoration",
+        "roof-leak-repair"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iii.org/article/does-homeowners-insurance-cover-wind-damage"
+      ],
+      "notes": "Companion to the existing water and fire insurance posts. Answer yes for sudden storm, wind, and hail events plus firefighting-style water, then cover exclusions (flood and storm surge need a separate flood policy, gradual leaks, poor maintenance). Frame for the Pacific Northwest reality: winter windstorms, atmospheric rivers, and falling trees, not hurricanes or tornadoes. Cross-link to the storm damage insurance claim checklist. DataForSEO was unavailable at research time, so volume and KD are pending backfill; queued via intent-first (uncovered, high-intent decision-stage informational)."
+    },
+    {
+      "id": "2026-07-09-what-to-do-after-storm-damage",
+      "status": "queued",
+      "queued_at": "2026-07-09T18:09:50Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what to do after storm damage to your home",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "what to do after a windstorm",
+        "storm damage cleanup steps",
+        "how to secure your home after storm damage",
+        "documenting storm damage for insurance",
+        "when to call a storm damage restoration company",
+        "temporary roof tarping after a storm"
+      ],
+      "suggested_slug": "what-to-do-after-storm-damage",
+      "suggested_title": "What to Do After Storm Damage to Your Home: The First 72 Hours",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/storm-damage-restoration/",
+        "/services/roof-leak-repair/",
+        "/services/water-damage-restoration/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "storm-damage-restoration",
+        "roof-leak-repair",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.ready.gov/severe-weather"
+      ],
+      "notes": "Top-of-funnel emergency guide for homeowners in the hours after a Puget Sound windstorm or atmospheric river. Lead with safety (stay clear of downed power lines and unstable trees), then: document damage, contact insurer, temporary tarping and board-up to stop further water intrusion, and when to call a pro. Strong AI Overview citation candidate. DataForSEO was unavailable at research time; volume and KD pending backfill; queued via intent-first."
+    },
+    {
+      "id": "2026-07-09-storm-damage-repair-cost",
+      "status": "queued",
+      "queued_at": "2026-07-09T18:09:50Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how much does storm damage repair cost",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "storm damage roof repair cost",
+        "wind damage repair cost",
+        "fallen tree removal cost",
+        "storm damage restoration cost per square foot",
+        "emergency roof tarping cost",
+        "does insurance pay for storm damage repair"
+      ],
+      "suggested_slug": "storm-damage-repair-cost",
+      "suggested_title": "How Much Does Storm Damage Repair Cost? A 2026 Homeowner's Guide",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/storm-damage-restoration/",
+        "/services/roof-leak-repair/",
+        "/services/reconstruction/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "storm-damage-restoration",
+        "roof-leak-repair",
+        "reconstruction"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [],
+      "notes": "Cost decision-stage post. Break down realistic ranges by damage type: minor debris and cleanup, roof tarping and repair, fallen-tree impact, structural water intrusion, and full reconstruction. Note how insurance offsets out-of-pocket cost and where deductibles apply. Cross-link to the storm insurance-coverage post and the reconstruction service. DataForSEO was unavailable at research time; volume and KD pending backfill; queued via intent-first."
     }
   ]
 }
