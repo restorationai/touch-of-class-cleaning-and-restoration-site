@@ -1,0 +1,175 @@
+{
+  "_source": "Pre-staged draft 2026-07-08 \u2014 client intake answers are the LAST input before staging builds. Domain TBD: no zone/DNS/R2 work until the intake answer.",
+  "_intake_pending": [
+    "domain (client record domain=TBD; zone + DNS + R2 skipped until answered)",
+    "street address OR confirm service-area business with hidden address (drafted as SAB \u2014 no street address in brand data)",
+    "hours (drafted BLANK/conservative \u2014 the claims sanitizer strips all 24/7 language; set to '24/7' only if the client attests it)",
+    "business email address",
+    "founded_year",
+    "GBP place_id / google_cid",
+    "brand colors from logo",
+    "licensed_insured_attested (Texas has no state restoration license \u2014 never claim licensed; general liability insurance attestation may allow 'insured' language only)",
+    "family_owned (unset until attested)"
+  ],
+  "template": "restoration",
+  "services": [
+    "water-damage-restoration",
+    "flood-damage-restoration",
+    "burst-pipe-repair",
+    "sewage-cleanup",
+    "fire-damage-restoration",
+    "smoke-damage-restoration",
+    "mold-remediation",
+    "storm-damage-restoration",
+    "reconstruction",
+    "home-remodeling",
+    "general-contracting"
+  ],
+  "service_areas": [
+    {
+      "city": "Duncanville",
+      "state": "TX",
+      "slug": "duncanville-tx",
+      "primary": true,
+      "neighborhoods": [
+        "Swan Ridge",
+        "Red Bird area",
+        "Wheatland Road corridor",
+        "Main Street district",
+        "Cedar Ridge"
+      ],
+      "landmarks": [
+        "Duncanville Fieldhouse",
+        "Armstrong Park",
+        "Duncanville High School",
+        "Harrington Library",
+        "Joe Pool Lake vicinity"
+      ],
+      "zip_codes": [
+        "75116",
+        "75137",
+        "75138"
+      ],
+      "local_notes": "'The Perfect Blend of Family, Community and Business' \u2014 a Best Southwest suburb of ~40k, ten miles southwest of downtown Dallas. Housing is predominantly 1950s\u20131980s brick ranches on expansive Blackland Prairie clay: seasonal soil movement cracks slabs and supply lines, making slab leaks and under-foundation plumbing failures a leading water-damage source. North Texas hail alley delivers spring roof damage that turns into interior water losses; hard freezes (February 2021 Uri) burst pipes citywide. Humid summers convert any unresolved leak into a mold job."
+    },
+    {
+      "city": "Dallas",
+      "state": "TX",
+      "slug": "dallas-tx",
+      "primary": false,
+      "neighborhoods": [
+        "Oak Cliff",
+        "Bishop Arts District",
+        "Kessler Park",
+        "Red Bird",
+        "Kiest Park area",
+        "Mountain Creek"
+      ],
+      "landmarks": [
+        "Dallas Zoo",
+        "Bishop Arts District",
+        "Methodist Dallas Medical Center",
+        "Kiest Park",
+        "Trinity River Greenbelt",
+        "Dallas Executive Airport"
+      ],
+      "zip_codes": [
+        "75211",
+        "75224",
+        "75232",
+        "75233",
+        "75237",
+        "75249"
+      ],
+      "local_notes": "Serving southern Dallas from the Duncanville base \u2014 Oak Cliff's 1920s\u20131950s housing stock (Kessler Park's historic homes especially) carries original cast-iron drains and galvanized supply lines that fail in the clay soil, while Red Bird and Mountain Creek add 1970s\u201390s tract homes. Spring supercell season brings tornado and hail losses; Trinity River bottoms and creek-adjacent streets flood in flash-rain events. Dense multifamily along I-35E and Highway 67 creates recurring commercial water-loss work."
+    },
+    {
+      "city": "Grand Prairie",
+      "state": "TX",
+      "slug": "grand-prairie-tx",
+      "primary": false,
+      "neighborhoods": [
+        "Dalworth",
+        "Westchester",
+        "Grand Peninsula",
+        "Mira Lagos",
+        "Lake Parks area"
+      ],
+      "landmarks": [
+        "Epic Waters Indoor Waterpark",
+        "Lone Star Park",
+        "Joe Pool Lake",
+        "Traders Village",
+        "Lake Ridge Parkway"
+      ],
+      "zip_codes": [
+        "75050",
+        "75051",
+        "75052",
+        "75054"
+      ],
+      "local_notes": "A 200k-resident city stretching 25 miles from I-30 down to Joe Pool Lake. The older north end (Dalworth, 1940s\u201360s) sees aging-pipe bursts and roof leaks, while the booming south end (Grand Peninsula, Mira Lagos) is 2000s\u20132020s two-story construction where upstairs bathroom and appliance failures flood finished first floors. Sits squarely in the DFW hail corridor \u2014 wind and hail claims feed roof-to-interior water damage and full reconstruction jobs."
+    },
+    {
+      "city": "DeSoto",
+      "state": "TX",
+      "slug": "desoto-tx",
+      "primary": false,
+      "neighborhoods": [
+        "Thorntree",
+        "Windmill Hill",
+        "Hampton Road corridor",
+        "Meadow Creek"
+      ],
+      "landmarks": [
+        "Thorntree Country Club",
+        "Windmill Hill Nature Preserve",
+        "DeSoto Town Center",
+        "Zeiger Park",
+        "Eagle Stadium"
+      ],
+      "zip_codes": [
+        "75115"
+      ],
+      "local_notes": "Established Best Southwest suburb of ~56k directly east of Duncanville, known for large-lot 1970s\u20131990s brick homes in Thorntree and Windmill Hill. Mature trees drop limbs onto roofs in storm season; expansive clay works foundations and plumbing year-round. The April 2022 hailstorm and repeated spring events keep storm-restoration demand high, and aging water heaters in 30\u201350 year-old homes are a steady burst-and-flood source."
+    },
+    {
+      "city": "Cedar Hill",
+      "state": "TX",
+      "slug": "cedar-hill-tx",
+      "primary": false,
+      "neighborhoods": [
+        "Lake Ridge",
+        "High Pointe",
+        "Cedar Hill historic downtown",
+        "Bear Creek area"
+      ],
+      "landmarks": [
+        "Cedar Hill State Park",
+        "Joe Pool Lake",
+        "Dogwood Canyon Audubon Center",
+        "Uptown Village at Cedar Hill",
+        "Penn Farm Agricultural History Center"
+      ],
+      "zip_codes": [
+        "75104",
+        "75106"
+      ],
+      "local_notes": "Perched on the White Rock Escarpment at one of the highest points in North Texas, bordering Cedar Hill State Park and Joe Pool Lake. Hilltop exposure amplifies wind and hail damage to roofs; Lake Ridge's 2000s custom homes on slopes see drainage-driven water intrusion in heavy rain. A mix of historic downtown structures and newer master-planned sections gives both old-pipe failures and modern appliance-leak losses; escarpment clay keeps foundations \u2014 and the plumbing through them \u2014 moving."
+    }
+  ],
+  "brand": {
+    "display_name": "MCC Restoration and Contracting Services",
+    "short_name": "MCC Restoration",
+    "phone": "(682) 772-9123",
+    "email": "",
+    "hours": "",
+    "founded_year": "",
+    "license_numbers": [],
+    "certifications": [],
+    "google_maps_api_key": "AIzaSyDrYnSuDu-hFvKHEcQCjwb-zsMebInPneU"
+  },
+  "cross_product": true,
+  "keyword_strategy": "conservative",
+  "blog_seed_count": 12
+}

@@ -1,0 +1,874 @@
+{
+  "/": {
+    "archetype": "home",
+    "stubs": [
+      "organization",
+      "website",
+      "local-business",
+      "aggregate-rating"
+    ],
+    "missing_stubs": []
+  },
+  "/services/": {
+    "archetype": "services-hub",
+    "stubs": [
+      "organization",
+      "website",
+      "local-business",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/": {
+    "archetype": "service-areas-hub",
+    "stubs": [
+      "organization",
+      "website",
+      "local-business",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/blog/": {
+    "archetype": "blog-index",
+    "stubs": [
+      "website",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/about/": {
+    "archetype": "about",
+    "stubs": [
+      "organization",
+      "website",
+      "local-business",
+      "aggregate-rating",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/contact/": {
+    "archetype": "contact",
+    "stubs": [
+      "organization",
+      "website",
+      "local-business",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/water-damage-restoration/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/flood-damage-restoration/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/burst-pipe-repair/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/sewage-cleanup/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/fire-damage-restoration/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/smoke-damage-restoration/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/mold-remediation/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/storm-damage-restoration/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/reconstruction/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/home-remodeling/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/general-contracting/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/duncanville-tx/": {
+    "archetype": "service-area",
+    "stubs": [
+      "local-business",
+      "service",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/dallas-tx/": {
+    "archetype": "service-area",
+    "stubs": [
+      "local-business",
+      "service",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/grand-prairie-tx/": {
+    "archetype": "service-area",
+    "stubs": [
+      "local-business",
+      "service",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/desoto-tx/": {
+    "archetype": "service-area",
+    "stubs": [
+      "local-business",
+      "service",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/cedar-hill-tx/": {
+    "archetype": "service-area",
+    "stubs": [
+      "local-business",
+      "service",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/duncanville-tx/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/duncanville-tx/flood-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/duncanville-tx/burst-pipe-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/duncanville-tx/sewage-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/duncanville-tx/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/duncanville-tx/smoke-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/duncanville-tx/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/duncanville-tx/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/duncanville-tx/reconstruction/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/duncanville-tx/home-remodeling/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/duncanville-tx/general-contracting/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/dallas-tx/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/dallas-tx/flood-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/dallas-tx/burst-pipe-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/dallas-tx/sewage-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/dallas-tx/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/dallas-tx/smoke-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/dallas-tx/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/dallas-tx/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/dallas-tx/reconstruction/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/dallas-tx/home-remodeling/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/dallas-tx/general-contracting/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/grand-prairie-tx/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/grand-prairie-tx/flood-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/grand-prairie-tx/burst-pipe-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/grand-prairie-tx/sewage-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/grand-prairie-tx/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/grand-prairie-tx/smoke-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/grand-prairie-tx/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/grand-prairie-tx/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/grand-prairie-tx/reconstruction/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/grand-prairie-tx/home-remodeling/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/grand-prairie-tx/general-contracting/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/desoto-tx/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/desoto-tx/flood-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/desoto-tx/burst-pipe-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/desoto-tx/sewage-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/desoto-tx/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/desoto-tx/smoke-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/desoto-tx/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/desoto-tx/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/desoto-tx/reconstruction/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/desoto-tx/home-remodeling/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/desoto-tx/general-contracting/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/cedar-hill-tx/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/cedar-hill-tx/flood-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/cedar-hill-tx/burst-pipe-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/cedar-hill-tx/sewage-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/cedar-hill-tx/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/cedar-hill-tx/smoke-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/cedar-hill-tx/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/cedar-hill-tx/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/cedar-hill-tx/reconstruction/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/cedar-hill-tx/home-remodeling/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/cedar-hill-tx/general-contracting/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/blog/what-to-do-first-24-hours-water-damage/": {
+    "archetype": "blog-post",
+    "stubs": [
+      "blog-posting",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/blog/burst-pipe-emergency-checklist/": {
+    "archetype": "blog-post",
+    "stubs": [
+      "blog-posting",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/blog/does-homeowners-insurance-cover-water-damage/": {
+    "archetype": "blog-post",
+    "stubs": [
+      "blog-posting",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/blog/signs-of-hidden-mold/": {
+    "archetype": "blog-post",
+    "stubs": [
+      "blog-posting",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/blog/how-to-test-for-mold/": {
+    "archetype": "blog-post",
+    "stubs": [
+      "blog-posting",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/blog/fire-damage-restoration-process/": {
+    "archetype": "blog-post",
+    "stubs": [
+      "blog-posting",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/blog/choosing-a-restoration-company/": {
+    "archetype": "blog-post",
+    "stubs": [
+      "blog-posting",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/blog/black-mold-vs-regular-mold/": {
+    "archetype": "blog-post",
+    "stubs": [
+      "blog-posting",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/blog/storm-damage-insurance-claim-checklist/": {
+    "archetype": "blog-post",
+    "stubs": [
+      "blog-posting",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/blog/how-long-does-water-damage-restoration-take/": {
+    "archetype": "blog-post",
+    "stubs": [
+      "blog-posting",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/blog/mold-after-water-damage/": {
+    "archetype": "blog-post",
+    "stubs": [
+      "blog-posting",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/blog/smoke-odor-removal-techniques/": {
+    "archetype": "blog-post",
+    "stubs": [
+      "blog-posting",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  }
+}
