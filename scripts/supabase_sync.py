@@ -58,7 +58,7 @@ def sync_sites(client, slug: str, company_id: str, dry_run: bool) -> None:
         print(f"  [sites] SKIP — clients/{slug}.json not found")
         return
 
-    apex_live = bool(rec.get("cut_over_at") or rec.get("apex_cutover", {}).get("completed_at"))
+    apex_live = bool(rec.get("cut_over_at") or (rec.get("apex_cutover") or {}).get("completed_at"))
 
     row = {
         "rank_ai_slug":          slug,
@@ -69,24 +69,24 @@ def sync_sites(client, slug: str, company_id: str, dry_run: bool) -> None:
         "build_status":          rec.get("build_status"),
         "plan_status":           rec.get("plan_status"),
         "tier":                  rec.get("tier"),
-        "cf_zone_id":            rec.get("zone", {}).get("id"),
-        "r2_bucket":             rec.get("r2", {}).get("bucket"),
-        "r2_public_url":         rec.get("r2", {}).get("public_url"),
-        "github_repo":           rec.get("build", {}).get("github_repo"),
-        "plan_template":         rec.get("plan", {}).get("template"),
-        "plan_url_count":        rec.get("plan", {}).get("url_count"),
-        "plan_generated_at":     ts(rec.get("plan", {}).get("generated_at")),
-        "scaffolded_at":         ts(rec.get("build", {}).get("scaffolded_at")),
-        "last_pushed_main_at":   ts(rec.get("build", {}).get("last_pushed_main_at")),
-        "apex_completed_at":     ts(rec.get("apex_cutover", {}).get("completed_at") or rec.get("cut_over_at")),
-        "legacy_origin":         rec.get("apex_cutover", {}).get("legacy_origin"),
-        "gsc_property_url":      rec.get("gsc", {}).get("property_url"),
-        "gsc_verified_at":       ts(rec.get("gsc", {}).get("verified_at")),
-        "gsc_sitemap_url":       rec.get("gsc", {}).get("sitemap_url"),
-        "ads_customer_id":       rec.get("google_ads", {}).get("customer_id"),
-        "s3_last_run_at":        ts(rec.get("audit", {}).get("last_audit_at")),
-        "s4_last_run_at":        ts(rec.get("refresh", {}).get("last_run_at")),
-        "last_audit_verdict":    rec.get("audit", {}).get("last_audit_verdict"),
+        "cf_zone_id":            (rec.get("zone") or {}).get("id"),
+        "r2_bucket":             (rec.get("r2") or {}).get("bucket"),
+        "r2_public_url":         (rec.get("r2") or {}).get("public_url"),
+        "github_repo":           (rec.get("build") or {}).get("github_repo"),
+        "plan_template":         (rec.get("plan") or {}).get("template"),
+        "plan_url_count":        (rec.get("plan") or {}).get("url_count"),
+        "plan_generated_at":     ts((rec.get("plan") or {}).get("generated_at")),
+        "scaffolded_at":         ts((rec.get("build") or {}).get("scaffolded_at")),
+        "last_pushed_main_at":   ts((rec.get("build") or {}).get("last_pushed_main_at")),
+        "apex_completed_at":     ts((rec.get("apex_cutover") or {}).get("completed_at") or rec.get("cut_over_at")),
+        "legacy_origin":         (rec.get("apex_cutover") or {}).get("legacy_origin"),
+        "gsc_property_url":      (rec.get("gsc") or {}).get("property_url"),
+        "gsc_verified_at":       ts((rec.get("gsc") or {}).get("verified_at")),
+        "gsc_sitemap_url":       (rec.get("gsc") or {}).get("sitemap_url"),
+        "ads_customer_id":       (rec.get("google_ads") or {}).get("customer_id"),
+        "s3_last_run_at":        ts((rec.get("audit") or {}).get("last_audit_at")),
+        "s4_last_run_at":        ts((rec.get("refresh") or {}).get("last_run_at")),
+        "last_audit_verdict":    (rec.get("audit") or {}).get("last_audit_verdict"),
         "updated_at":            rec.get("updated_at"),
     }
 
