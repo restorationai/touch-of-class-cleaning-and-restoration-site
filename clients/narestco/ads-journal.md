@@ -142,3 +142,6 @@ fixed 07-03 and budgets restored same day; tracking stays wired, so a future
 restart begins with working attribution from day one. Restart checklist: enable
 3 campaigns, verify conversion action still ENABLED/primary, re-check negatives
 backlog. — _claude (per Santino)_
+
+---
+LSA (2026-07-09): Water Damage per-lead max bid $1,000 → **$1,250** via API (portal UI caps at $1,000; API accepts above — validated then applied per Santino, left in place). Also set one-time `contains_eu_political_advertising = DOES_NOT_CONTAIN` on the LSA campaign (required by Google before any criteria/bid mutations). Budget unchanged at $512.14/day ($3,585/wk). Watch lead volume/cost-per-lead over the next 2 weeks to judge the bid raise. — _claude, authorized by santino_
