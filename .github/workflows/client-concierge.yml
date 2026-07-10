@@ -1,0 +1,73 @@
+name: Rank AI Client Concierge
+
+# Client Concierge (phase 1): agentic follow-up on outstanding client intake
+# items + client_input asks. MANUAL ONLY — workflow_dispatch, no cron, until
+# real-client enrollment is approved. All sends are gated at the send-function
+# level to the CONCIERGE_ALLOWLIST (default empty = nothing can be delivered).
+# See scripts/client_concierge.py docstring.
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'What to run'
+        type: choice
+        options:
+          - status
+          - poll
+        default: status
+      dry_run:
+        description: 'Dry run (no Supabase writes, no sends, cursor not persisted)'
+        type: boolean
+        default: true
+
+jobs:
+  concierge:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
+          fetch-depth: 0
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Configure git identity
+        run: |
+          git config user.email "ops@restorationai.io"
+          git config user.name "Rank AI Bot"
+
+      - name: Run concierge
+        env:
+          SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          ANTHROPIC_API_KEY:         ${{ secrets.ANTHROPIC_API_KEY }}
+          GHL_API_KEY:               ${{ secrets.GHL_API_KEY }}
+          GHL_LOCATION_ID:           ${{ secrets.GHL_LOCATION_ID }}
+          CONCIERGE_ALLOWLIST:       ${{ secrets.CONCIERGE_ALLOWLIST }}
+        run: |
+          if [ "${{ github.event.inputs.mode }}" = "poll" ]; then
+            python3 scripts/client_concierge.py inbound --poll \
+              ${{ github.event.inputs.dry_run == 'false' && '--send' || '' }}
+          else
+            python3 scripts/client_concierge.py status
+          fi
+
+      - name: Commit state + escalations
+        if: ${{ github.event.inputs.dry_run == 'false' }}
+        run: |
+          git add clients/_ops/ 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."
+          else
+            git commit -m "chore: client concierge $(date +%Y-%m-%d) [automated]"
+            git push
+          fi
