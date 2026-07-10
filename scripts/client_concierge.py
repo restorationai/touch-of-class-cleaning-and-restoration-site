@@ -65,6 +65,18 @@ Env (rank-ai/.env or CI secrets):
                                               are not accepted on this model,
                                               so determinism is prompt-driven)
     CONCIERGE_ALLOWLIST                       canary gate (default EMPTY)
+    CONCIERGE_FROM_NUMBER                     SMS sender number. The assistant
+                                              identity is the location TOLL-FREE
+                                              +18556484464; the 805 local number
+                                              (+18053293449) stays Santino's
+                                              personal thread — never send
+                                              concierge SMS from it. Unset =>
+                                              loud startup warning and GHL picks
+                                              its default number (the 805!).
+
+GHL contact linkage: companies.integration_settings.ghl_contact_id (written by
+scripts/ghl_link.py) is the source of truth; full-text search is only a
+fallback and every fallback resolution is flagged loudly in the output.
 
 Workflow: .github/workflows/client-concierge.yml — workflow_dispatch ONLY in
 phase 1 (no cron until real-client enrollment is approved).
@@ -102,8 +114,14 @@ ANTHROPIC_API = "https://api.anthropic.com/v1/messages"
 ANTHROPIC_MODEL = "claude-sonnet-5"
 UA = "rank-ai-client-concierge/1.0"
 
-APP_SELF_SERVE = "or fill it in here: https://app.restorationai.io — Setup Guide"
+APP_SELF_SERVE = ("Or do it yourself: log in at app.restorationai.io and "
+                  "click the 'Setup Guide' button at the top.")
+APP_SETUP_LINK = "https://app.restorationai.io/?setup=1"   # auto-opens the guide
+INTRO_TEMPLATE = ("Hi {first}, this is the onboarding assistant from "
+                  "Santino's team at Rank AI — I help get everything set up "
+                  "for your account.")
 SMS_MAX_CHARS = 450
+SMS_MAX_CHARS_FIRST = 900   # first-ever message carries the intro line
 MAX_ITEMS_PER_MESSAGE = 3
 MIN_DAYS_BETWEEN_SENDS = 3
 MAX_NUDGES = 4
@@ -218,13 +236,14 @@ def save_state(state: dict, dry_run: bool) -> None:
 
 def company_state(state: dict, company_id: str) -> dict:
     return state["companies"].setdefault(company_id, {
-        "ghl_contact_id": None, "last_contacted": None,
+        "ghl_contact_id": None, "last_contacted": None, "first_contacted": None,
         "nudge_count": 0, "last_channel": None})
 
 
 # ---------------------------------------------------------------- data pulls
 def fetch_companies(ids: list[str] | None = None) -> dict[str, dict]:
-    q = "/rest/v1/companies?select=id,name,timezone,phone,email,account_owner_name,status"
+    q = ("/rest/v1/companies?select=id,name,timezone,phone,email,"
+         "account_owner_name,status,integration_settings")
     if ids:
         q += "&id=in.(" + ",".join(urllib.parse.quote(i) for i in ids) + ")"
     return {c["id"]: c for c in _sb("GET", q) or []}
@@ -260,7 +279,11 @@ def fetch_open_asks(company_id: str | None = None) -> list[dict]:
          "&order=priority.asc")
     if company_id:
         q += f"&company_id=eq.{urllib.parse.quote(company_id)}"
-    return _sb("GET", q) or []
+    rows = _sb("GET", q) or []
+    # "Client answered 'yes': …" rows are team notifications produced when a
+    # gating intake answer lands — nothing to ask the client. Skip them.
+    return [r for r in rows
+            if not (r.get("title") or "").startswith("Client answered")]
 
 
 def gather_items(company_id: str) -> list[dict]:
@@ -291,8 +314,32 @@ def gather_items(company_id: str) -> list[dict]:
 
 
 # ---------------------------------------------------------------- GHL contact
+def linked_contact_id(company: dict) -> str | None:
+    """Durable linkage written by scripts/ghl_link.py."""
+    return ((company.get("integration_settings") or {}).get("ghl_contact_id")
+            or None)
+
+
 def resolve_contact(company: dict) -> dict | None:
-    """Find the client's GHL contact: try company email, then phone, then name."""
+    """Find the client's GHL contact.
+
+    Order: (1) durable integration_settings.ghl_contact_id linkage (source of
+    truth, written by scripts/ghl_link.py), (2) full-text search fallback by
+    company email, phone, then name — flagged LOUDLY because search matches
+    are best-effort guesses.
+    """
+    cid = linked_contact_id(company)
+    if cid:
+        try:
+            data = _ghl("GET", f"/contacts/{cid}")
+            contact = (data or {}).get("contact") or data
+            if contact and contact.get("id"):
+                return contact
+            print(f"  WARNING: linked GHL contact {cid} returned no record — "
+                  "falling back to search", file=sys.stderr)
+        except RuntimeError as e:
+            print(f"  WARNING: linked GHL contact {cid} lookup failed ({e}) — "
+                  "falling back to search", file=sys.stderr)
     for query in (company.get("email"), company.get("phone"), company.get("name")):
         if not query or not str(query).strip():
             continue
@@ -300,6 +347,10 @@ def resolve_contact(company: dict) -> dict | None:
             "locationId": _loc(), "query": str(query).strip(), "limit": 5})
         contacts = data.get("contacts") or []
         if contacts:
+            print(f"  WARNING: {company.get('id')} has NO ghl_contact_id "
+                  f"linkage — resolved {contacts[0]['id']} via search "
+                  f"fallback. Run scripts/ghl_link.py to link durably.",
+                  file=sys.stderr)
             return contacts[0]
     return None
 
@@ -374,6 +425,14 @@ def send_message(contact: dict, channel: str, body: str,
                      "contactId": contact["id"]}
     if channel == "sms":
         payload["message"] = body
+        from_number = os.environ.get("CONCIERGE_FROM_NUMBER", "").strip()
+        if from_number:
+            payload["fromNumber"] = from_number
+        else:
+            print("  WARNING: CONCIERGE_FROM_NUMBER unset — GHL will pick the "
+                  "location default (the 805 local, Santino's personal "
+                  "thread). Set it to the toll-free +18556484464.",
+                  file=sys.stderr)
     else:
         payload["subject"] = subject or "A few quick things for your Rank AI setup"
         payload["html"] = body.replace("\n", "<br>")
@@ -390,13 +449,40 @@ human, zero corporate filler, no exclamation-point spam, no emojis. You are
 asking the client for things only they can provide. Be specific and easy to
 answer by simply replying to the message.
 
+PLAIN LANGUAGE — the most important rule. Clients are contractors, not tech
+people, and they do not know industry or web terms — ever. Write at a
+6th-grade reading level. Every ask must be answerable by a busy contractor on
+his phone without googling anything. Ask for the THING, not the mechanism.
+
+BANNED WORDS — never use these; use the plain version instead:
+- "registrar"            -> "the website where you bought your domain name (like GoDaddy)"
+- "nameserver change" / "nameservers" -> "a small settings change we make when your new site goes live"
+- "DBA"                  -> ask it as "does your business operate under this license number"
+- "DNS" / "zone" / "NS"  -> never mention them at all; describe the outcome
+                            (e.g. "so your new website can go live")
+- "CSLB"                 -> "contractor license number"
+- "COI"                  -> "proof of insurance from your insurance agent"
+- "GBP" / "Google Business Profile" -> "your Google business listing"
+Items handed to you may be written in jargon by our internal systems —
+translate them into plain asks before writing. Never quote the internal
+wording. No acronyms of any kind unless they are everyday words (OK, TV).
+
+INTRO RULE:
+- If told "FIRST CONTACT: yes", open with EXACTLY the intro line provided,
+  then continue naturally.
+- Otherwise just greet by first name — no intro, no re-introduction.
+
 Rules:
-- Greet by first name.
 - Cover AT MOST the items given (they are already priority-ordered). Weave
   them in conversationally — short sentences or a compact list, not a form.
 - Never invent items, prices, or deadlines. Never promise work.
-- Always end with the exact self-serve alternative line provided.
-- SMS: total body <= 450 characters, no subject.
+- Always end with the exact self-serve alternative line provided. If (and
+  only if) you include a clickable link to the app, the link must be exactly
+  https://app.restorationai.io/?setup=1 — it opens the Setup Guide by itself.
+- SMS: total body within the character budget given — the budget includes the
+  intro and the closing self-serve line, and the closing line must NEVER be
+  cut. If space is tight, trim item detail, not the closing. No subject, no
+  links other than the optional setup link.
 - Email: give a short subject (<= 60 chars) and a slightly fuller body
   (still under ~140 words), sign off as "— Santino's team at Rank AI".
 Return ONLY a JSON object: {"subject": string|null, "body": string}.
@@ -405,22 +491,27 @@ alternatives or commentary."""
 
 
 def compose_draft(company: dict, first_name: str, items: list[dict],
-                  channel: str) -> dict:
+                  channel: str, first_contact: bool) -> dict:
     chosen = items[:MAX_ITEMS_PER_MESSAGE]
     lines = []
     for i, it in enumerate(chosen, 1):
         detail = (it["detail"] or "")[:300]
         lines.append(f"{i}. [{it['kind']}] {it['text']}"
                      + (f" — context: {detail}" if detail else ""))
+    sms_budget = SMS_MAX_CHARS_FIRST if first_contact else SMS_MAX_CHARS
+    intro = INTRO_TEMPLATE.format(first=first_name)
     user = (f"Client: {company['name']} (first name: {first_name})\n"
-            f"Channel: {channel}\n"
-            f"Outstanding items (priority order, cover all of these and "
+            f"Channel: {channel} (character budget for SMS: {sms_budget})\n"
+            f"FIRST CONTACT: {'yes' if first_contact else 'no'}\n"
+            + (f"Intro line to open with, exactly: \"{intro}\"\n"
+               if first_contact else "")
+            + f"Outstanding items (priority order, cover all of these and "
             f"nothing else):\n" + "\n".join(lines) +
             f"\n\nEnd with exactly: \"{APP_SELF_SERVE}\"")
     draft = anthropic_json(COMPOSE_SYSTEM, user)
     body = (draft.get("body") or "").strip()
-    if channel == "sms" and len(body) > SMS_MAX_CHARS:
-        body = body[:SMS_MAX_CHARS - 1].rsplit(" ", 1)[0] + "…"
+    if channel == "sms" and len(body) > sms_budget:
+        body = body[:sms_budget - 1].rsplit(" ", 1)[0] + "…"
     return {"subject": (draft.get("subject") or None), "body": body,
             "items": chosen}
 
@@ -438,14 +529,19 @@ def cmd_compose(args) -> int:
         return 0
     contact = resolve_contact(company)
     first = contact_first_name(contact, company)
+    cs = company_state(state, args.company)
+    first_contact = not cs.get("first_contacted")
     print(f"Company: {company['name']} ({args.company})")
+    linked = linked_contact_id(company)
     print(f"GHL contact: "
           + (f"{contact['id']} ({contact.get('contactName')}, "
              f"{contact.get('phone')}, {contact.get('email')})" if contact
-             else "NOT FOUND — compose only, send would fail"))
+             else "NOT FOUND — compose only, send would fail")
+          + ("" if linked else "  [NO DURABLE LINKAGE — search fallback]"))
+    print(f"First contact: {'yes — intro line required' if first_contact else 'no'}")
     print(f"Outstanding items: {len(items)} (messaging top {min(len(items), MAX_ITEMS_PER_MESSAGE)})")
 
-    draft = compose_draft(company, first, items, args.channel)
+    draft = compose_draft(company, first, items, args.channel, first_contact)
     print("\n" + "=" * 62)
     if draft["subject"] and args.channel == "email":
         print(f"Subject: {draft['subject']}")
@@ -457,7 +553,6 @@ def cmd_compose(args) -> int:
         print("\n[draft only — pass --send to deliver (canary gate applies)]")
         return 0
 
-    cs = company_state(state, args.company)
     reason = cadence_check(cs, company)
     if reason:
         print(f"\nSEND REFUSED (cadence): {reason}", file=sys.stderr)
@@ -470,8 +565,10 @@ def cmd_compose(args) -> int:
     except SendBlocked as e:
         print(f"\nSEND BLOCKED: {e}", file=sys.stderr)
         return 1
+    now = datetime.now(timezone.utc).isoformat()
     cs.update({"ghl_contact_id": contact["id"],
-               "last_contacted": datetime.now(timezone.utc).isoformat(),
+               "last_contacted": now,
+               "first_contacted": cs.get("first_contacted") or now,
                "nudge_count": cs.get("nudge_count", 0) + 1,
                "last_channel": args.channel})
     save_state(state, dry_run=False)
@@ -486,6 +583,7 @@ def cmd_status(_args) -> int:
     ids = sorted({i["company_id"] for i in intake} | {a["company_id"] for a in asks})
     companies = fetch_companies(ids)
     rows = []
+    unlinked = []
     for cid in ids:
         co = companies.get(cid, {"name": cid, "timezone": None})
         cs = state["companies"].get(cid, {})
@@ -499,17 +597,26 @@ def cmd_status(_args) -> int:
             nxt = next_eligible(cs).strftime("%Y-%m-%d")
         else:
             nxt = "now (business hrs)"
-        rows.append((cid, co["name"][:34], n_intake, n_asks, last, nudges, nxt))
+        link = linked_contact_id(co) if co.get("integration_settings") is not None else None
+        if not link:
+            unlinked.append((cid, co["name"]))
+        rows.append((cid, co["name"][:34], n_intake, n_asks, last, nudges, nxt,
+                     "yes" if link else "NO"))
 
     hdr = (f"{'company':<20} {'name':<34} {'intake':>6} {'asks':>4} "
-           f"{'last contact':<16} {'n':>2} {'next eligible':<20}")
+           f"{'last contact':<16} {'n':>2} {'ghl':>3} {'next eligible':<20}")
     print(hdr)
     print("-" * len(hdr))
     for r in rows:
-        print(f"{r[0]:<20} {r[1]:<34} {r[2]:>6} {r[3]:>4} {r[4]:<16} {r[5]:>2} {r[6]:<20}")
+        print(f"{r[0]:<20} {r[1]:<34} {r[2]:>6} {r[3]:>4} {r[4]:<16} "
+              f"{r[5]:>2} {r[7]:>3} {r[6]:<20}")
     print(f"\n{len(rows)} client(s) with outstanding items "
           f"({len(intake)} intake, {len(asks)} asks). "
           f"Allowlist entries: {len(allowed_recipients())}.")
+    for cid, name in unlinked:
+        print(f"!! WARNING: {name} ({cid}) has NO GHL linkage "
+              f"(integration_settings.ghl_contact_id) — sends would rely on "
+              f"search guessing. Fix with: python3 scripts/ghl_link.py link")
     return 0
 
 
@@ -751,7 +858,9 @@ def cmd_canary(args) -> int:
     companies = fetch_companies([CANARY_COMPANY_ID])
     company = companies[CANARY_COMPANY_ID]
     items = gather_items(CANARY_COMPANY_ID)
-    draft = compose_draft(company, "Canary", items, args.channel)
+    cs_peek = state["companies"].get(CANARY_COMPANY_ID, {})
+    draft = compose_draft(company, "Canary", items, args.channel,
+                          first_contact=not cs_peek.get("first_contacted"))
     print("\n" + "=" * 62)
     if draft["subject"] and args.channel == "email":
         print(f"Subject: {draft['subject']}")
@@ -771,8 +880,10 @@ def cmd_canary(args) -> int:
     except SendBlocked as e:
         print(f"SEND BLOCKED: {e}", file=sys.stderr)
         return 1
+    now = datetime.now(timezone.utc).isoformat()
     cs.update({"ghl_contact_id": contact["id"],
-               "last_contacted": datetime.now(timezone.utc).isoformat(),
+               "last_contacted": now,
+               "first_contacted": cs.get("first_contacted") or now,
                "nudge_count": cs.get("nudge_count", 0) + 1,
                "last_channel": args.channel})
     save_state(state, dry_run=False)
@@ -811,6 +922,12 @@ def main() -> int:
     if missing:
         print(f"ERROR: missing env: {', '.join(missing)}", file=sys.stderr)
         return 1
+    if args.cmd != "status" and not os.environ.get("CONCIERGE_FROM_NUMBER", "").strip():
+        print("!! WARNING: CONCIERGE_FROM_NUMBER is not set. SMS sends would "
+              "go out on GHL's default number — the 805 local, which is "
+              "Santino's personal thread. Set CONCIERGE_FROM_NUMBER="
+              "+18556484464 (the toll-free) before any real send.",
+              file=sys.stderr)
     return {"status": cmd_status, "compose": cmd_compose,
             "inbound": cmd_inbound, "canary": cmd_canary}[args.cmd](args)
 
