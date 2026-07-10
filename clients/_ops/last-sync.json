@@ -1,0 +1,26 @@
+{
+  "cursor": "2026-07-10T16:20:58Z",
+  "processed_intake_ids": [
+    "fc44dd89-d909-44f9-93f6-794f847caf15"
+  ],
+  "processed_plan_events": [
+    "80fd3777-f57b-4a61-9cf4-dc4e7d243cd1:done",
+    "b4096158-5d7c-4d03-bf17-0f883396062b:done",
+    "29f79ffd-f0f4-4f5e-baf1-38cb11fd9ab8:dismissed",
+    "bbaacc3d-1bc1-44be-8db0-585757b71847:dismissed",
+    "833d7ef7-800c-4b34-afd3-cd8e91141e8b:approved",
+    "b7f4e04c-2815-42c0-93be-ac01cfc90c90:approved",
+    "cd2838d5-c1ad-460b-a3c9-f6d5401cc3e4:dismissed",
+    "186d6862-b91a-4c3a-b094-37657509596c:approved",
+    "27416bb1-22a7-463b-b074-9db0dfae4ca7:approved",
+    "7f456e5a-172f-4328-a963-fdb604807172:approved",
+    "c80cb8c3-8716-4486-b1ed-95fc0d059a23:approved",
+    "54200dda-c0f5-48d8-9ea9-4ff0bcb34fa6:approved",
+    "82cec3ef-5fa8-43ff-8df6-c0ed158e98b4:approved",
+    "a2ca8a00-6271-4913-a062-93f8e114976b:approved",
+    "09c42871-5498-420d-ac4a-577a952947cc:approved",
+    "11c6d2bb-e4b9-49e4-8bf7-53b935d0805b:approved",
+    "3983ce3d-052c-4d3e-9365-b0e60c39fb24:approved"
+  ],
+  "last_run_at": "2026-07-10T16:20:58.892449+00:00"
+}
