@@ -1,7 +1,7 @@
 {
-  "last_kind": "blog",
-  "cycle_pos": 1,
-  "geo_cursor": 0,
+  "last_kind": "geo",
+  "cycle_pos": 2,
+  "geo_cursor": 1,
   "history": [
     {
       "ts": "2026-07-08T17:27:14.746164+00:00",
@@ -10,6 +10,14 @@
       "service": null,
       "city": null,
       "youtube_id": "ftv2I3CgV-k"
+    },
+    {
+      "ts": "2026-07-10T17:43:21.208316+00:00",
+      "kind": "geo",
+      "post": null,
+      "service": "water-damage-restoration",
+      "city": "San Diego",
+      "youtube_id": "kDBW0NZiP8s"
     }
   ]
 }
