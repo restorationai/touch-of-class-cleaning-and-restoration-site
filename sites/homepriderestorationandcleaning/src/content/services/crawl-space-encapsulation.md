@@ -1,4 +1,5 @@
 ---
+hero: '/images/services/crawl-space-encapsulation.webp'
 archetype: "service-landing"
 title: "Crawl Space Encapsulation in Saratoga Springs | Home Pride Restoration and Cleaning"
 h1: "Crawl Space Encapsulation in Saratoga Springs"

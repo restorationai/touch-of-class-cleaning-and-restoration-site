@@ -152,6 +152,15 @@
       1200
     ]
   },
+  "/images/services/crawl-space-encapsulation.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
   "/images/services/fabric-protection.webp": {
     "width": 1376,
     "height": 768,
@@ -288,6 +297,15 @@
     ]
   },
   "https://images.homepriderestorationandcleaning.com/brand/hero-fleet.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "https://images.homepriderestorationandcleaning.com/brand/hero.webp": {
     "width": 1376,
     "height": 768,
     "variants": [
