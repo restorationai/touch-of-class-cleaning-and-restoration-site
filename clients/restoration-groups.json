@@ -1,0 +1,68 @@
+{
+  "slug": "restoration-groups",
+  "display_name": "The Restoration Group",
+  "domain": "therestorationgroup.com",
+  "tier": "standard",
+  "vertical": "restoration",
+  "image_policy": "pro_hero_flash_inline",
+  "contact": {
+    "name": "Michael Oren",
+    "email": "mikior7@gmail.com"
+  },
+  "zone": null,
+  "r2": null,
+  "status": "pending",
+  "company_id": "CO-1783527517866",
+  "created_at": "2026-07-10T00:00:00+00:00",
+  "updated_at": "2026-07-11T02:58:26.833427+00:00",
+  "nap": {
+    "name": "The Restoration Group",
+    "street": "500 S 31st St",
+    "city": "Kenilworth",
+    "state": "NJ",
+    "zip": "07033",
+    "phone": "(855) 650-7422",
+    "website": "https://therestorationgroup.com"
+  },
+  "gbp": {
+    "place_id": "ChIJfZMnExzVxiIRkevldLILJW8",
+    "google_cid": "8008820373441604497",
+    "rating": 4.9,
+    "review_count": 259,
+    "google_review_url": "https://search.google.com/local/writereview?placeid=ChIJfZMnExzVxiIRkevldLILJW8",
+    "_note": "GBP still displays the OLD name 'Elite Restoration Group' — rebrand to 'The Restoration Group' underway per 7/8 onboarding call. gbpRating fields in brand.ts stay empty until scripts/sync_brand_reviews.py runs."
+  },
+  "onboarding_notes": {
+    "rebrand": "DBA of Schwarz Enterprises; brand 'The Restoration Group' (7/8 onboarding call OVERRIDES the audit's 'Elite Restoration Group'). Old site restorationgroups.com (WordPress, 209 pages) stays live until cutover — full 301 map needed at production.",
+    "domain": "therestorationgroup.com — GoDaddy delegate access granted to contact@restorationai.io. DO NOT touch DNS/registrar yet; preview build only (Pages project the-restoration-group-preview).",
+    "phone_discipline": "ONE phone everywhere: GBP line (855) 650-7422. Old site has 8+ rogue tracking numbers — never reuse any of them.",
+    "license_pending": "NJ HIC number captured on 7/8 call but digits UNVERIFIED ('13VH0488600'-ish) — number is WITHHELD from the site until verified. licensed_insured_attested=true (owner attested); footer prints 'NJ Licensed Home Improvement Contractor' text only.",
+    "ny_metro": "Brooklyn + Manhattan included as secondary metro service-area pages (template handles per-area state cleanly; NY areas simply get no NJ nearby-city cross-links).",
+    "awaiting_intake": [
+      "verify NJ HIC number (13VH...) against DCA registry, then add to license_numbers",
+      "legal entity suffix for Schwarz Enterprises (LLC/Inc) for legal pages",
+      "business email on therestorationgroup.com (old office@restorationgroups.com not printed)",
+      "logo files (text wordmark + TRG favicon monogram used for preview)",
+      "social profile URLs post-rebrand for same_as_urls",
+      "GBP rename Elite Restoration Group -> The Restoration Group",
+      "301 map from restorationgroups.com (209 URLs) at production cutover"
+    ]
+  },
+  "plan_status": "planned",
+  "plan": {
+    "template": "restoration",
+    "template_version": "0.2.0",
+    "url_count": 224,
+    "generated_at": "2026-07-11T01:56:48.926830+00:00"
+  },
+  "build": {
+    "scaffolded_at": "2026-07-11T01:57:15.798619+00:00",
+    "starter_version": "0.1.0",
+    "url_count": 224,
+    "pages_status": "local-only",
+    "last_rendered_at": "2026-07-11T02:50:04.938485+00:00",
+    "preview_url": "https://the-restoration-group-preview.pages.dev",
+    "preview_pages_project": "the-restoration-group-preview"
+  },
+  "build_status": "content_rendered"
+}

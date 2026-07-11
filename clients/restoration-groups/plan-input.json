@@ -1,0 +1,322 @@
+{
+  "_source": "Built 2026-07-10 from clients/restoration-groups/intel/audit-2026-07-09.md + the 2026-07-08 onboarding call (call facts OVERRIDE the audit where they conflict — audit covered the old 'Elite Restoration Group' identity). Preview promised 7/13, review call 7/15.",
+  "_claims_policy": "CLAIMABLE: founded 2021 / 'since 2021' (owner-stated; matches domain registration 2021-12); IICRC Certified Firm #210213 (owner stated on recorded call); 24/7 (GBP open 24h); 60-minute emergency response (owner attested — template default kept ON, response_minutes=60); 'NJ Licensed Home Improvement Contractor' TEXT ONLY. WITHHELD: the specific NJ HIC number (digits unverified — never print until DCA-verified); BBB accreditation (audit: NO BBB profile exists — old site's badge was unsupported, do NOT carry it over); '20+ years' / '13 years' tenure claims (contradictory, replaced by 'since 2021'); star ratings in copy (GBP fields sync-only via sync_brand_reviews.py).",
+  "_intake_pending": [
+    "NJ HIC number verification (13VH... digits) -> license_numbers",
+    "legal entity suffix (Schwarz Enterprises LLC/Inc?)",
+    "email on therestorationgroup.com",
+    "logo files + truck/crew/job photos",
+    "post-rebrand social URLs for same_as_urls",
+    "confirm Brooklyn/Manhattan licensing posture for NY work claims (pages kept service-descriptive)"
+  ],
+  "template": "restoration",
+  "services": [
+    "water-damage-restoration",
+    "flood-damage-restoration",
+    "burst-pipe-repair",
+    "basement-flooding-cleanup",
+    "appliance-leak-cleanup",
+    "sewage-cleanup",
+    "fire-damage-restoration",
+    "smoke-damage-restoration",
+    "odor-removal",
+    "mold-remediation",
+    "mold-inspection-testing",
+    "storm-damage-restoration",
+    "emergency-board-up-tarping",
+    "commercial-restoration",
+    "reconstruction",
+    "general-contracting"
+  ],
+  "service_areas": [
+    {
+      "city": "Kenilworth",
+      "state": "NJ",
+      "slug": "kenilworth-nj",
+      "primary": true,
+      "neighborhoods": [
+        "The Boulevard corridor",
+        "North Kenilworth",
+        "South Kenilworth",
+        "Galloping Hill border",
+        "Monroe Avenue industrial corridor"
+      ],
+      "landmarks": [
+        "Black Brook Park",
+        "Galloping Hill Golf Course",
+        "David Brearley High School",
+        "The Boulevard business district",
+        "Garden State Parkway Exit 138",
+        "The Park (former Merck campus)"
+      ],
+      "zip_codes": ["07033"],
+      "local_notes": "Home base — our headquarters is on S 31st Street, so Kenilworth emergencies get the fastest truck roll we can offer anywhere. This square-mile Union County borough is 1920s-1950s capes and colonials on full basements: sump-pump failures, water-heater lets-go and laundry-line bursts are the everyday losses. Black Brook and its storm drains back up in cloudbursts — Ida (September 2021) put water in basements across the borough — and the Monroe Avenue/Market Street industrial corridor plus the redeveloping Merck campus add commercial water and fire work. Older galvanized supply lines and clay sewer laterals in the prewar housing stock drive burst-pipe and sewage-backup calls year-round."
+    },
+    {
+      "city": "Union",
+      "state": "NJ",
+      "slug": "union-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Union Center",
+        "Vauxhall",
+        "Battle Hill",
+        "Washington",
+        "Larchmont",
+        "Putnam Ridge"
+      ],
+      "landmarks": [
+        "Kean University",
+        "Liberty Hall Museum",
+        "Union Center business district",
+        "Galloping Hill Golf Course",
+        "Route 22 retail corridor"
+      ],
+      "zip_codes": ["07083", "07088"],
+      "local_notes": "Union Township borders Kenilworth directly — crews are minutes away. Dense postwar housing (1940s-60s capes, split-levels and colonials) means original supply plumbing and cast-iron drains failing on schedule, nearly all on finished or semi-finished basements. The Elizabeth River and Rahway River tributaries thread through town and jumped their banks during Ida; low spots off Morris Avenue and Vauxhall flood in hard summer storms. The Route 22 corridor's big-box retail and restaurants generate sprinkler-discharge, roof-leak and overnight commercial losses, and Kean University adds student-housing water events."
+    },
+    {
+      "city": "Elizabeth",
+      "state": "NJ",
+      "slug": "elizabeth-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Elmora",
+        "Midtown",
+        "Elizabethport",
+        "Peterstown",
+        "North Elizabeth",
+        "Bayway",
+        "Westminster"
+      ],
+      "landmarks": [
+        "The Mills at Jersey Gardens",
+        "Union County Courthouse",
+        "Warinanco Park",
+        "Port Newark-Elizabeth Marine Terminal",
+        "Newark Liberty International Airport"
+      ],
+      "zip_codes": ["07201", "07202", "07206", "07208"],
+      "local_notes": "New Jersey's fourth-largest city and a ten-minute run from our Kenilworth shop. Housing skews to early-1900s multifamily — two- and three-family frame homes packed tight, where one burst riser or kitchen fire affects multiple households and landlords need fast, documented mitigation. The Elizabeth River flooded catastrophically during Ida, and low-lying Elizabethport and Bayway see tidal and storm-surge exposure. Combined-sewer backups make sewage cleanup a constant here. The port, airport corridor and Jersey Gardens retail add large commercial and industrial loss potential."
+    },
+    {
+      "city": "Westfield",
+      "state": "NJ",
+      "slug": "westfield-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Downtown Westfield",
+        "Wychwood",
+        "The Gardens",
+        "Indian Forest",
+        "Manor Park",
+        "Brightwood"
+      ],
+      "landmarks": [
+        "Downtown Westfield (Quimby Street)",
+        "Mindowaskin Park",
+        "Tamaques Park",
+        "Echo Lake Country Club"
+      ],
+      "zip_codes": ["07090"],
+      "local_notes": "Affluent Union County town of Victorian, Tudor and center-hall colonial homes dating to the 1890s-1930s — original clay sewer laterals, aging cast-iron stacks and knob-era renovations hiding slow leaks inside plaster walls. Finished basements are near-universal and expensive: home theaters, gyms and offices that turn a failed sump into a five-figure claim. The Rahway River's Robinson's Branch and heavy old-growth tree canopy make storm damage — wind-thrown limbs through roofs, water intrusion behind slate and cedar — a recurring loss type. Owners here expect meticulous protection of floors and finishes and full reconstruction to matching quality."
+    },
+    {
+      "city": "Cranford",
+      "state": "NJ",
+      "slug": "cranford-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Downtown Cranford",
+        "Riverside Drive area",
+        "Sunny Acres",
+        "Cranford West",
+        "Lincoln Park East"
+      ],
+      "landmarks": [
+        "Rahway River Parkway",
+        "Nomahegan Park",
+        "Union College of Union County",
+        "Droescher's Mill",
+        "Cranford Canoe Club"
+      ],
+      "zip_codes": ["07016"],
+      "local_notes": "Cranford is the 'Venice of New Jersey' — the Rahway River winds directly through town, and that charm comes with the most serious repeat-flood history in Union County: Floyd (1999), Irene (2011) and Ida (2021) each put whole neighborhoods underwater. Riverside blocks flood from the river itself; the rest of town floods from overwhelmed storm sewers. Flood cleanup, basement pump-outs, structural drying and mold prevention are the signature services here, and many owners have been through it before — they value a crew that documents everything for the NFIP or their carrier. Housing is 1900s-1940s colonials and capes on full basements, one town over from our Kenilworth headquarters."
+    },
+    {
+      "city": "Springfield",
+      "state": "NJ",
+      "slug": "springfield-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Springfield center",
+        "Baltusrol area",
+        "Route 22 corridor",
+        "Mountain Avenue corridor"
+      ],
+      "landmarks": [
+        "Baltusrol Golf Club",
+        "Meisel Avenue Park",
+        "Jonathan Dayton High School",
+        "Route 22 commercial strip"
+      ],
+      "zip_codes": ["07081"],
+      "local_notes": "Springfield Township sits where the Rahway River's west branch comes off the Watchung ridges — Ida turned Route 22 here into a river and flooded homes and businesses across the township's low spots. Housing is a mix of 1920s-50s colonials and capes plus newer townhome complexes toward the Millburn line, most with finished basements that take on water in every major storm cycle. The Route 22 and Morris Avenue commercial corridors add restaurant, retail and office losses. Minutes from our Kenilworth base via Route 22 or the Parkway."
+    },
+    {
+      "city": "Summit",
+      "state": "NJ",
+      "slug": "summit-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Downtown Summit",
+        "Northside",
+        "Franklin School area",
+        "Brayton School area",
+        "New Providence border"
+      ],
+      "landmarks": [
+        "Overlook Medical Center",
+        "Reeves-Reed Arboretum",
+        "Springfield Avenue downtown",
+        "Summit train station"
+      ],
+      "zip_codes": ["07901"],
+      "local_notes": "Hilltop city of large 1890s-1930s homes — slate roofs, copper gutters, plaster walls and deep finished basements, owned by families who expect white-glove treatment of hardwood, millwork and furnishings during mitigation. Elevation spares Summit the river flooding its neighbors get, but steep lots channel stormwater into lower levels, aging original plumbing fails inside walls, and clay sewer laterals under century-old street trees back up regularly. Freeze events burst uninsulated radiator and supply lines in older wings. High-value contents handling, moisture mapping and reconstruction to period-correct finish quality matter more here than anywhere else we serve."
+    },
+    {
+      "city": "Newark",
+      "state": "NJ",
+      "slug": "newark-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Ironbound",
+        "Downtown Newark",
+        "Forest Hill",
+        "Vailsburg",
+        "Weequahic",
+        "University Heights"
+      ],
+      "landmarks": [
+        "Prudential Center",
+        "Newark Penn Station",
+        "Branch Brook Park",
+        "NJPAC",
+        "Newark Liberty International Airport"
+      ],
+      "zip_codes": ["07102", "07103", "07104", "07105", "07106", "07107", "07108", "07112"],
+      "local_notes": "New Jersey's largest city, fifteen minutes up McCarter Highway from our shop. The Ironbound sits low along the Passaic River and flooded hard during Ida; combined sewers back up into basements citywide in heavy rain, making sewage cleanup a core Newark service. Housing is dense pre-war stock — brick multifamily, frame two- and three-families, and Forest Hill's grand colonials — where fires spread between close-set buildings and one riser failure soaks three floors. Landlords, property managers and institutions (universities, hospitals, the arena district) need documented, insurance-ready mitigation with fast board-up response."
+    },
+    {
+      "city": "Jersey City",
+      "state": "NJ",
+      "slug": "jersey-city-nj",
+      "primary": false,
+      "neighborhoods": [
+        "Downtown Jersey City",
+        "The Heights",
+        "Journal Square",
+        "Bergen-Lafayette",
+        "Greenville",
+        "Newport"
+      ],
+      "landmarks": [
+        "Liberty State Park",
+        "Exchange Place waterfront",
+        "Journal Square",
+        "Liberty Science Center",
+        "Grove Street PATH plaza"
+      ],
+      "zip_codes": ["07302", "07304", "07305", "07306", "07307", "07310"],
+      "local_notes": "Two building worlds share one city: waterfront high-rise condos and rentals at Newport and Exchange Place, where a single supply-line or riser failure cascades through stacked units and building management needs unit-by-unit moisture documentation for the association's insurer — and 1890s-1920s brownstones and frame rowhouses in the Heights, Bergen-Lafayette and Greenville, where cellar flooding and combined-sewer backups are chronic. Sandy's surge showed how exposed Jersey City's low-lying blocks are, and Ida flooded basements citywide. Dense multifamily ownership means landlords and condo boards value fast response and clean paperwork."
+    },
+    {
+      "city": "Brooklyn",
+      "state": "NY",
+      "slug": "brooklyn-ny",
+      "primary": false,
+      "neighborhoods": [
+        "Park Slope",
+        "Brooklyn Heights",
+        "Williamsburg",
+        "Bay Ridge",
+        "Flatbush",
+        "Bushwick",
+        "Canarsie"
+      ],
+      "landmarks": [
+        "Brooklyn Bridge",
+        "Prospect Park",
+        "Barclays Center",
+        "Brooklyn Navy Yard",
+        "Coney Island boardwalk"
+      ],
+      "zip_codes": ["11201", "11209", "11211", "11215", "11226", "11235"],
+      "local_notes": "Our NY-metro coverage runs across the Hudson: Brooklyn's brownstone belt (Park Slope, Brooklyn Heights, Bed-Stuy fringe) is 1880s-1920s masonry rowhouses with garden-level and cellar apartments that flood first — Ida's record rain made Brooklyn basement flooding a citywide emergency. Coastal neighborhoods from Red Hook to Canarsie and Coney Island carry real storm-surge exposure remembered from Sandy. Co-op and condo boards, brownstone owners and commercial landlords need mitigation crews that respect plaster, original woodwork and party-wall neighbors, with documentation their insurer and management company will accept."
+    },
+    {
+      "city": "Manhattan",
+      "state": "NY",
+      "slug": "manhattan-ny",
+      "primary": false,
+      "neighborhoods": [
+        "Upper East Side",
+        "Upper West Side",
+        "Midtown",
+        "Chelsea",
+        "Lower East Side",
+        "Financial District",
+        "Harlem"
+      ],
+      "landmarks": [
+        "Central Park",
+        "Empire State Building",
+        "One World Trade Center",
+        "Times Square",
+        "Grand Central Terminal"
+      ],
+      "zip_codes": ["10001", "10002", "10016", "10021", "10025", "10038"],
+      "local_notes": "Manhattan losses are vertical: in pre-war co-ops and modern condo towers alike, a failed riser, radiator valve or washing-machine hose on the 14th floor means soaked ceilings on thirteen. Buildings run on process — resident managers, boards and managing agents expect certificates of insurance, unit-by-unit moisture logs and after-hours freight-elevator coordination, and we work inside those rules. Sandy's surge flooded the Financial District and Lower East Side; Ida overwhelmed drains from Harlem to Chelsea. Retail, restaurant and office interiors add overnight commercial mitigation where every closed day is lost revenue."
+    }
+  ],
+  "brand": {
+    "display_name": "The Restoration Group",
+    "short_name": "The Restoration Group",
+    "legal_name": "The Restoration Group",
+    "phone": "(855) 650-7422",
+    "email": "",
+    "hours": "24/7",
+    "founded_year": "2021",
+    "street_address": "500 S 31st St",
+    "postal_code": "07033",
+    "lat": "40.6749",
+    "lng": "-74.2957",
+    "place_id": "ChIJfZMnExzVxiIRkevldLILJW8",
+    "google_cid": "8008820373441604497",
+    "license_numbers": [],
+    "license_authority": "NJ Division of Consumer Affairs",
+    "license_type": "NJ Licensed Home Improvement Contractor",
+    "response_minutes": 60,
+    "certifications": [
+      "IICRC Certified Firm #210213"
+    ],
+    "same_as_urls": [
+      "https://www.google.com/maps?cid=8008820373441604497"
+    ],
+    "google_maps_api_key": "AIzaSyDrYnSuDu-hFvKHEcQCjwb-zsMebInPneU",
+    "licensed_insured_attested": true,
+    "_license_note": "NJ HIC number captured on the 7/8 call but digits UNVERIFIED — license_numbers stays EMPTY until DCA-verified. Footer/badges print 'NJ Licensed Home Improvement Contractor' text only. licensed_insured_attested=true per owner attestation on the recorded call.",
+    "trust_badges": ["IICRC Certified Firm #210213", "NJ Licensed Home Improvement Contractor", "24/7 Emergency Response", "Serving NJ Since 2021"],
+    "logo_url": "",
+    "tagline": "24/7 water, fire & mold damage restoration across New Jersey.",
+    "dark_color": "#1e293b",
+    "primary_color": "#c8102e",
+    "primary_dark": "#a00d26",
+    "primary_light": "#f6c9d2",
+    "accent_color": "#1b365d"
+  },
+  "service_radius_description": "Union County NJ home base (Kenilworth) with statewide New Jersey focus plus the Brooklyn and Manhattan NY metro",
+  "cross_product": true,
+  "keyword_strategy": "conservative",
+  "blog_seed_count": 12
+}

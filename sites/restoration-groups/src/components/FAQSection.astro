@@ -1,0 +1,32 @@
+---
+import { ChevronDown } from '@lucide/astro';
+
+type Props = { faq?: { question: string; answer: string }[]; heading?: string; eyebrow?: string };
+const { faq = [], heading = "Frequently Asked Questions", eyebrow = "Questions" } = Astro.props;
+---
+
+{faq.length > 0 && (
+  <section class="bg-white py-24 text-dark-900 overflow-hidden border-t border-dark/10">
+    <div class="container-wide px-6 sm:px-10 lg:px-12">
+      <h2 class="text-5xl md:text-6xl font-black uppercase mb-20 tracking-tighter text-center">{heading}</h2>
+      
+      <div class="max-w-4xl mx-auto">
+        <div class="space-y-6">
+          {faq.map((q) => (
+            <details class="group border-b border-dark/10 last:border-0">
+              <summary class="w-full flex items-center justify-between py-8 text-left cursor-pointer list-none [&::-webkit-details-marker]:hidden">
+                <span class="text-xl md:text-2xl font-black uppercase tracking-wide group-hover:text-primary-500 transition-colors pr-10 flex gap-6 w-full">
+                  <span class="text-primary-500 mt-1 flex-shrink-0 transition-transform duration-300 group-open:rotate-180">
+                    <ChevronDown size={28} />
+                  </span>
+                  <span class="flex-grow">{q.question}</span>
+                </span>
+              </summary>
+              <div class="pb-10 text-xl opacity-80 leading-relaxed max-w-4xl pl-14 animate-fadeIn" set:html={q.answer} />
+            </details>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+)}
