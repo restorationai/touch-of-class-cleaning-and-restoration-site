@@ -1,4 +1,13 @@
 {
+  "/images/crew.webp": {
+    "width": 1360,
+    "height": 951,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
   "/images/hero-bg.webp": {
     "width": 1376,
     "height": 768,
@@ -8,15 +17,16 @@
       1200
     ]
   },
-  "/images/team.webp": {
-    "width": 1019,
-    "height": 764,
+  "/images/services.webp": {
+    "width": 1376,
+    "height": 768,
     "variants": [
       480,
-      768
+      768,
+      1200
     ]
   },
-  "/images/services.webp": {
+  "/images/services/burst-pipe-repair.webp": {
     "width": 1376,
     "height": 768,
     "variants": [
@@ -34,13 +44,84 @@
       1200
     ]
   },
-  "/images/crew.webp": {
-    "width": 1360,
-    "height": 951,
+  "/images/services/commercial-restoration.webp": {
+    "width": 1376,
+    "height": 768,
     "variants": [
       480,
       768,
       1200
+    ]
+  },
+  "/images/services/flood-damage-restoration.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/flood-equipment-rental.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/mold-inspection-testing.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/mold-remediation.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/sewage-cleanup.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/upholstery-cleaning.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/water-damage-restoration.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/team.webp": {
+    "width": 1019,
+    "height": 764,
+    "variants": [
+      480,
+      768
     ]
   }
 }
