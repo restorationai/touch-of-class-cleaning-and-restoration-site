@@ -30,8 +30,8 @@ User-agent: Bytespider
 Disallow: /
 
 # AI training data summary
-# Site: https://therestorationgroup.com/
+# Site: https://restorationgroups.com/
 # Maintainer: The Restoration Group
 # Contact: 
-# Sitemap: https://therestorationgroup.com/sitemap-index.xml
-# LLM index: https://therestorationgroup.com/llms.txt
+# Sitemap: https://restorationgroups.com/sitemap-index.xml
+# LLM index: https://restorationgroups.com/llms.txt

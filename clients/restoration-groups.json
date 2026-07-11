@@ -1,7 +1,7 @@
 {
   "slug": "restoration-groups",
   "display_name": "The Restoration Group",
-  "domain": "therestorationgroup.com",
+  "domain": "restorationgroups.com",
   "tier": "standard",
   "vertical": "restoration",
   "image_policy": "pro_hero_flash_inline",
@@ -22,7 +22,7 @@
     "state": "NJ",
     "zip": "07033",
     "phone": "(855) 650-7422",
-    "website": "https://therestorationgroup.com"
+    "website": "https://restorationgroups.com"
   },
   "gbp": {
     "place_id": "ChIJfZMnExzVxiIRkevldLILJW8",
@@ -34,14 +34,14 @@
   },
   "onboarding_notes": {
     "rebrand": "DBA of Schwarz Enterprises; brand 'The Restoration Group' (7/8 onboarding call OVERRIDES the audit's 'Elite Restoration Group'). Old site restorationgroups.com (WordPress, 209 pages) stays live until cutover — full 301 map needed at production.",
-    "domain": "therestorationgroup.com — GoDaddy delegate access granted to contact@restorationai.io. DO NOT touch DNS/registrar yet; preview build only (Pages project the-restoration-group-preview).",
+    "domain": "restorationgroups.com — GoDaddy delegate access granted to contact@restorationai.io. DO NOT touch DNS/registrar yet; preview build only (Pages project the-restoration-group-preview).",
     "phone_discipline": "ONE phone everywhere: GBP line (855) 650-7422. Old site has 8+ rogue tracking numbers — never reuse any of them.",
     "license_pending": "NJ HIC number captured on 7/8 call but digits UNVERIFIED ('13VH0488600'-ish) — number is WITHHELD from the site until verified. licensed_insured_attested=true (owner attested); footer prints 'NJ Licensed Home Improvement Contractor' text only.",
     "ny_metro": "Brooklyn + Manhattan included as secondary metro service-area pages (template handles per-area state cleanly; NY areas simply get no NJ nearby-city cross-links).",
     "awaiting_intake": [
       "verify NJ HIC number (13VH...) against DCA registry, then add to license_numbers",
       "legal entity suffix for Schwarz Enterprises (LLC/Inc) for legal pages",
-      "business email on therestorationgroup.com (old office@restorationgroups.com not printed)",
+      "business email on restorationgroups.com (old office@restorationgroups.com not printed)",
       "logo files (text wordmark + TRG favicon monogram used for preview)",
       "social profile URLs post-rebrand for same_as_urls",
       "GBP rename Elite Restoration Group -> The Restoration Group",

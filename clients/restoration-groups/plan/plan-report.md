@@ -2,7 +2,7 @@
 
 - Template: `restoration` v0.2.0
 - Generated: 2026-07-11T01:56:48.926489+00:00
-- Domain: `therestorationgroup.com`
+- Domain: `restorationgroups.com`
 - Services selected: 16 of 46 catalog entries
 - Service areas: 11
 - Cross-product enabled: True

@@ -30,7 +30,7 @@ We also aim to keep our language clear and direct. Restoration emergencies are s
 
 ## Known Limitations
 
-We recognize that accessibility is an ongoing effort, not a one-time checkbox. Some third-party content or embedded tools may not yet fully meet our standards. We are actively working to identify and address those gaps. If you encounter a barrier anywhere on therestorationgroup.com, we want to know about it.
+We recognize that accessibility is an ongoing effort, not a one-time checkbox. Some third-party content or embedded tools may not yet fully meet our standards. We are actively working to identify and address those gaps. If you encounter a barrier anywhere on restorationgroups.com, we want to know about it.
 
 ## How to Report an Issue
 

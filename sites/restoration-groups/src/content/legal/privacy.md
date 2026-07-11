@@ -18,7 +18,7 @@ rendered: true
 ---
 ## What This Policy Covers
 
-This Privacy Policy explains how The Restoration Group collects, uses, and protects information you share when you visit therestorationgroup.com or contact us about water damage, fire damage, mold remediation, or any other restoration service. We've written it in plain language because you shouldn't need a law degree to understand how your information is handled.
+This Privacy Policy explains how The Restoration Group collects, uses, and protects information you share when you visit restorationgroups.com or contact us about water damage, fire damage, mold remediation, or any other restoration service. We've written it in plain language because you shouldn't need a law degree to understand how your information is handled.
 
 ## Information We Collect
 
