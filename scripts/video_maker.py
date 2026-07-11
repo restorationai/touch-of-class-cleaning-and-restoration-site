@@ -14,7 +14,7 @@ Pipeline per run:
   4. Gemini generates one 16:9 PNG per scene (same API as hero images)
   5. FFmpeg assembles: images + Ken Burns zoom + audio → 1920x1080 MP4
   6. SRT captions written from scene timing
-  7. YouTube Data API v3: upload video + captions, set unlisted (safe default)
+  7. YouTube Data API v3: upload video + captions, set public (default)
   8. Blog post frontmatter updated: youtube_id: <id>
   9. Monorepo commit + sync-deploy so the embed shows on the live post
 
@@ -331,11 +331,12 @@ def record_video(slug: str, video_id: str, title: str, status: str, kind: str,
 
 def video_publish_mode(client: dict) -> str:
     """Per-client default upload privacy from clients/{slug}.json
-    (`video_publish_mode`). 'unlisted' unless explicitly set to 'public' —
-    e.g. flood-fixers stays unlisted until their channel is renamed off the
+    (`video_publish_mode`). 'public' by default (Santino 2026-07-11: publish
+    even before channel renames — renames re-attribute retroactively). Set
+    'unlisted' per-client only if one specifically needs to stay dark —
     owner's personal name."""
-    mode = str(client.get("video_publish_mode", "unlisted")).lower()
-    return mode if mode in ("unlisted", "public") else "unlisted"
+    mode = str(client.get("video_publish_mode", "public")).lower()
+    return mode if mode in ("unlisted", "public") else "public"
 
 
 def mark_queue_video(slug: str, post_slug: str, video_id: str) -> bool:
