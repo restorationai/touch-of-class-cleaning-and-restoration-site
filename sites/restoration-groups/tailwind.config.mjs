@@ -1,13 +1,16 @@
 /** @type {import('tailwindcss').Config}
  *
- * The Restoration Group brand palette — no logo file on hand (rebrand in
- * progress; text wordmark + TRG monogram used sitewide). Palette is the
- * tasteful navy/red restoration direction approved for the preview build.
+ * The Restoration Group brand palette — sampled from the REAL brand assets:
+ * logo (therestorationgroup.com wp-content, flat two-color: #1498d5 light blue
+ * + black) and the box-truck livery in public/images/team.webp (~#2899bc in
+ * overcast shade — same cerulean family). White/light-blue brand.
  *
- *   primary — crimson RED #c8102e. 600 = 5.88:1 and 700 = 8.14:1 on white —
- *             both pass WCAG AA for text and white-on-red CTAs.
- *   accent  — deep NAVY #1b365d (12.12:1 on white) — monogram tile, secondary
- *             CTAs, trust accents.
+ *   primary — TRG brand BLUE. The literal logo blue #1498d5 is only 3.24:1 on
+ *             white, so it lives at 500 for decorative accents/washes only.
+ *             600 = #0f719f (5.41:1) and 700 = #0c5d83 (7.22:1) are the
+ *             AA-checked interactive/text shades (same approach as MCC green).
+ *   accent  — deep petrol/ink derived from the brand hue. #09435d = 10.65:1
+ *             on white — monogram tile, secondary CTAs, trust accents.
  *   dark    — slate neutrals.
  */
 export default {
@@ -31,27 +34,30 @@ export default {
           950: "#020617",
         },
         primary: {
-          // TRG crimson
-          DEFAULT: "#c8102e",
-          50: "#fdf1f3",
-          100: "#fbdfe4",
-          200: "#f6c9d2",
-          300: "#efa0af",
-          400: "#e56a81",
-          500: "#d63a58",
-          600: "#c8102e", // 5.88:1 on white — AA for normal text + white-on-red CTAs
-          700: "#a00d26", // 8.14:1 on white — links/eyebrows
-          800: "#850c22",
-          900: "#6f0e20",
-          950: "#3d030e",
+          // TRG brand blue (logo #1498d5 / truck livery). DEFAULT is the
+          // AA-checked 600 because bare text-primary/border-primary is used for
+          // links on white (Footer, DispatchCallout) — the literal logo blue
+          // fails 4.5:1 there and lives at 500 for decorative use only.
+          DEFAULT: "#0f719f",
+          50: "#eff9fd",
+          100: "#dff2fb",
+          200: "#bae4f7",
+          300: "#86d1f4",
+          400: "#3bb5ed",
+          500: "#1498d5", // TRUE logo/truck blue — decorative accents + tints only (3.24:1)
+          600: "#0f719f", // 5.41:1 on white — AA for normal text + white-on-blue CTAs
+          700: "#0c5d83", // 7.22:1 on white — links/eyebrows
+          800: "#0a4967",
+          900: "#083a52",
+          950: "#052533",
         },
         accent: {
           // btn-accent renders WHITE text on this color — keep >= 4.5:1 contrast
-          // with white (WCAG AA). #1b365d = 12.12:1 (TRG navy).
-          DEFAULT: "#1b365d",
-          400: "#3b5a8a", // lighter navy — icons/decoration
-          600: "#1b365d",
-          700: "#142a4a",
+          // with white (WCAG AA). #09435d = 10.65:1 (deep petrol from the brand hue).
+          DEFAULT: "#09435d",
+          400: "#2a7ba3", // lighter petrol blue — icons/decoration (4.71:1 on white)
+          600: "#09435d",
+          700: "#073349",
         },
         muted: {
           DEFAULT: "#4b5563",

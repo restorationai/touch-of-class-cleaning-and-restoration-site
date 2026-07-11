@@ -363,10 +363,10 @@
     "logo_url": "",
     "tagline": "24/7 water, fire & mold damage restoration across New Jersey.",
     "dark_color": "#1e293b",
-    "primary_color": "#c8102e",
-    "primary_dark": "#a00d26",
-    "primary_light": "#f6c9d2",
-    "accent_color": "#1b365d"
+    "primary_color": "#1498d5",
+    "primary_dark": "#0c5d83",
+    "primary_light": "#bae4f7",
+    "accent_color": "#09435d"
   },
   "service_radius_description": "Union County NJ home base (Kenilworth) with statewide New Jersey focus plus the Brooklyn and Manhattan NY metro",
   "cross_product": true,

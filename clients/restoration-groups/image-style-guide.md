@@ -58,8 +58,8 @@ Per-client brand colors take priority. The values below are substituted from `pl
 
 | Role | Source | Value for this client |
 |------|--------|----------------------|
-| Primary brand color (uniforms, vehicle, signage glimpsed in shots) | `#c8102e` | **#c8102e** |
-| Accent (emergency markings, CTAs that appear in promo shots) | `#1b365d` | **#1b365d** |
+| Primary brand color (uniforms, vehicle, signage glimpsed in shots) | `#1498d5` | **#1498d5** |
+| Accent (emergency markings, CTAs that appear in promo shots) | `#09435d` | **#09435d** |
 | Logo color (if a worker's uniform back is visible) | derived from brand logo | match The Restoration Group's logo |
 | Skin / texture / restoration materials | natural and neutral | warm wood tones for housing stock, cool concrete grays, real surface textures |
 | Environment-specific atmospherics | regional | varies — see "Setting & Environment" below for Kenilworth |
@@ -87,7 +87,7 @@ Per-client brand colors take priority. The values below are substituted from `pl
 Every image that depicts a person must show a worker in branded company uniform. This is non-negotiable for visual consistency and trust signaling.
 
 ### Uniform specifications
-- **Top**: Polo or work shirt in the client's primary brand color (`#c8102e`). For darker brand colors (navy, deep red, charcoal), use that color directly. For lighter brand colors, render as a darker navy or charcoal uniform with the brand color visible as logo embroidery, accent stripe, or branded hat.
+- **Top**: Polo or work shirt in the client's primary brand color (`#1498d5`). For darker brand colors (navy, deep red, charcoal), use that color directly. For lighter brand colors, render as a darker navy or charcoal uniform with the brand color visible as logo embroidery, accent stripe, or branded hat.
 - **Bottom**: Neutral work pants (charcoal, dark navy, or khaki). Subordinate to the top.
 - **Branding**: The Restoration Group or The Restoration Group embroidered on chest or back. IICRC certification badge visible on sleeve or chest where it makes sense.
 - **PPE**: Match the service context (see service-specific notes below) — gloves always, respirators / face shields / Tyvek suits when the service warrants it.
