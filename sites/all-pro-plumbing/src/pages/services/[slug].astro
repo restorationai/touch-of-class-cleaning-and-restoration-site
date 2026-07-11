@@ -5,6 +5,7 @@ import CtaBanner from "~/components/CtaBanner.astro";
 import FAQSection from "~/components/FAQSection.astro";
 import InternalLinks from "~/components/InternalLinks.astro";
 import { brand } from "~/lib/brand";
+import { serviceImage } from "~/lib/images";
 
 export async function getStaticPaths() {
   const services = await getCollection("services");
@@ -14,7 +15,7 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { Content } = await entry.render();
 const data = entry.data;
-const heroImage = data.hero || "/images/hero-bg.webp" /* preview: switch to `${brand.imagesBase}/brand/...` at production cutover */;
+const heroImage = data.hero || serviceImage(data.service_slug, "/images/hero-bg.webp");
 
 // Exact-query capsule — matches "best {service} company in {city}" phrasing
 // verbatim for lexical retrieval (AI assistants, featured snippets). Every claim

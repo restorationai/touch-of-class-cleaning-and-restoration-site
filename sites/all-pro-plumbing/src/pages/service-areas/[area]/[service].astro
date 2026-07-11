@@ -8,6 +8,7 @@ import GoogleMap from "~/components/GoogleMap.astro";
 import DispatchCallout from "~/components/ui/DispatchCallout.astro";
 import GbpCityProof from "~/components/ui/GbpCityProof.astro";
 import { brand } from "~/lib/brand";
+import { serviceImage } from "~/lib/images";
 import { dispatchSentence, is247 } from "~/lib/dispatch";
 
 export async function getStaticPaths() {
@@ -22,7 +23,7 @@ const { entry } = Astro.props;
 const { Content } = await entry.render();
 const data = entry.data;
 const sensitive = data.content_guardrails === "sensitive";
-const heroImage = data.hero || "/images/hero-bg.webp" /* preview: switch to `${brand.imagesBase}/brand/...` at production cutover */;
+const heroImage = data.hero || serviceImage(data.service_slug, "/images/hero-bg.webp");
 
 // The quotable dispatch claim — rendered as a callout right after the hero AND
 // repeated verbatim in the LocalBusiness schema description (competitor
