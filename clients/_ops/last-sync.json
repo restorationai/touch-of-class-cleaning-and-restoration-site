@@ -1,5 +1,5 @@
 {
-  "cursor": "2026-07-10T16:20:58Z",
+  "cursor": "2026-07-11T14:47:13Z",
   "processed_intake_ids": [
     "fc44dd89-d909-44f9-93f6-794f847caf15"
   ],
@@ -20,7 +20,10 @@
     "a2ca8a00-6271-4913-a062-93f8e114976b:approved",
     "09c42871-5498-420d-ac4a-577a952947cc:approved",
     "11c6d2bb-e4b9-49e4-8bf7-53b935d0805b:approved",
-    "3983ce3d-052c-4d3e-9365-b0e60c39fb24:approved"
+    "3983ce3d-052c-4d3e-9365-b0e60c39fb24:approved",
+    "3a78940f-5e25-42cd-8f55-6abdbea956dd:resolved",
+    "ebbee425-9823-4248-9428-518cfc492bd1:resolved",
+    "9e9fbcf1-da73-4712-b7dc-4a820f26e25c:resolved"
   ],
-  "last_run_at": "2026-07-10T16:20:58.892449+00:00"
+  "last_run_at": "2026-07-11T14:47:13.858736+00:00"
 }
