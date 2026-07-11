@@ -19,6 +19,17 @@ export interface ResponsiveImgAttrs {
  * renders exactly as it did before this pass — we never emit a srcset for an
  * unverified variant.
  */
+/**
+ * Per-service image: returns /images/services/{service-slug}.webp when that
+ * asset exists in the generated manifest, otherwise the provided fallback
+ * (the shared services.webp card or hero-bg.webp). Keyed by service slug so
+ * service cards, service-page heroes and area×service heroes stay consistent.
+ */
+export function serviceImage(serviceSlug: string, fallback: string): string {
+  const src = `/images/services/${serviceSlug}.webp`;
+  return src in meta ? src : fallback;
+}
+
 export function srcsetFor(src: string): ResponsiveImgAttrs {
   const m = meta[src];
   if (!m) return {};
