@@ -19,20 +19,32 @@ CONVERSATION-HISTORY AWARENESS
     answered: …"), and never talks over a human: if the newest OUTBOUND
     message in the thread was not sent by the concierge (sent message ids are
     tracked in the state file — any outbound we didn't send = a human, e.g.
-    Santino, incl. calls) and is <24h old, the nudge is skipped for the cycle
+    Santino, incl. calls) and is <12h old, the nudge is skipped for the cycle
     ("recent human conversation — deferred"). Inbound classification receives
     the last ~10 history messages as context so short replies like "yes" or
     "the second one" disambiguate correctly.
+
+MEETING-INTEL AWARENESS
+    clients/_ops/meeting-intel/{slug}.md holds internal notes from client
+    meetings. One file may cover several companies (sister companies sharing
+    an owner), so compose + inbound load the company's own file PLUS any
+    intel file whose text mentions the company's id or name. The notes go to
+    Claude with hard rules: items the intel marks ANSWERED / in progress on
+    the client's side are EXCLUDED from nudges and escalated ("meeting intel
+    says answered/in progress: …") so a human backfills the DB; the intel may
+    shape phrasing naturally ("Great meeting with the team on Tuesday") but
+    private discussion details are never quoted back to the client.
 
 Subcommands
     status                       Table of every tracked client: pending intake
                                  count, open client_input asks, last concierge
                                  contact, nudges used, next eligible date,
+                                 resolved business-hours timezone + source,
                                  history (message count + days since last
                                  exchange; needs GHL env, else "-").
     compose --company CO-…       Draft ONE consolidated message for a client
         [--channel sms|email]    (max 3 items, highest priority first, always
-        [--send]                 ends with the app self-serve alternative).
+        [--send]                 ends with the reply-first + self-serve close).
                                  Prints the draft; --send delivers via GHL
                                  (CANARY GATE + cadence guardrails apply).
     inbound --poll [--send]      Pull inbound GHL messages for tracked
@@ -64,8 +76,14 @@ CANARY GATE (hard constraint, phase 1)
 Cadence guardrails (enforced in code at send time)
     - min 3 days between sends per company (state: last_contacted)
     - max 4 total nudges, then the company is flagged "ESCALATE to Santino"
-    - business hours only: 9:00-18:00 in companies.timezone
-      (default America/Los_Angeles)
+    - business hours only: 9:00-18:00 in the CLIENT'S local timezone,
+      resolved in order: (a) the GHL contact's timezone field, (b)
+      companies.timezone, (c) inferred from the state in the client's
+      clients/{slug}/plan-input.json (primary service area), (d)
+      America/Los_Angeles with a loud warning. Enforced on EVERY send path
+      (compose --send, inbound auto-replies); the canary is exempt. Outside
+      the window the send is refused and flagged "outside business hours —
+      will send after 9am {tz}" (phase 1: refuse + flag; queueing later).
 
 State: clients/_ops/concierge-state.json — per-company contact bookkeeping
 (ghl_contact_id, last_contacted, nudge_count) + the inbound message cursor
@@ -134,6 +152,8 @@ ROOT = Path(__file__).resolve().parent.parent
 OPS_DIR = ROOT / "clients" / "_ops"
 STATE_PATH = OPS_DIR / "concierge-state.json"
 ESCALATIONS_PATH = OPS_DIR / "concierge-escalations.md"
+MEETING_INTEL_DIR = OPS_DIR / "meeting-intel"
+COMPANY_MAP_PATH = ROOT / "clients" / "company_map.json"
 
 GHL_BASE = "https://services.leadconnectorhq.com"
 GHL_VERSION = "2021-07-28"
@@ -141,7 +161,9 @@ ANTHROPIC_API = "https://api.anthropic.com/v1/messages"
 ANTHROPIC_MODEL = "claude-sonnet-5"
 UA = "rank-ai-client-concierge/1.0"
 
-APP_SELF_SERVE = ("Or do it yourself: log in at app.restorationai.io and "
+# Required closing pattern (Santino's copy): reply-first, then self-serve.
+APP_SELF_SERVE = ("Just reply here and I'll add it all in for you! "
+                  "Or do it yourself: log in at app.restorationai.io and "
                   "click the 'Setup Guide' button at the top.")
 APP_SETUP_LINK = "https://app.restorationai.io/?setup=1"   # auto-opens the guide
 INTRO_TEMPLATE = ("Hi {first}, this is the onboarding assistant from "
@@ -159,11 +181,45 @@ MIN_DAYS_BETWEEN_SENDS = 3
 HISTORY_MAX_MSGS = 25          # default fetch_history depth for compose/status
 CLASSIFY_HISTORY_MSGS = 10     # history context given to inbound classification
 HISTORY_EMAIL_TRIM = 500       # chars kept per email body (threads get long)
-HUMAN_DEFER_HOURS = 24         # human outbound newer than this => skip nudge
+HUMAN_DEFER_HOURS = 12         # human outbound newer than this => skip nudge
 MAX_NUDGES = 4
 BUSINESS_HOUR_START = 9
 BUSINESS_HOUR_END = 18
 DEFAULT_TZ = "America/Los_Angeles"
+
+# US state -> IANA timezone, for inferring a client's business-hours zone
+# from clients/{slug}/plan-input.json when GHL and companies.timezone are
+# both empty. States that straddle zones get their dominant zone.
+US_STATE_TZ = {
+    # Pacific
+    "WA": "America/Los_Angeles", "OR": "America/Los_Angeles",
+    "CA": "America/Los_Angeles", "NV": "America/Los_Angeles",
+    # Mountain (AZ observes no DST -> Phoenix)
+    "UT": "America/Denver", "CO": "America/Denver", "MT": "America/Denver",
+    "ID": "America/Denver", "WY": "America/Denver", "NM": "America/Denver",
+    "AZ": "America/Phoenix",
+    # Central
+    "TX": "America/Chicago", "AL": "America/Chicago", "TN": "America/Chicago",
+    "OK": "America/Chicago", "LA": "America/Chicago", "MS": "America/Chicago",
+    "AR": "America/Chicago", "MO": "America/Chicago", "IA": "America/Chicago",
+    "MN": "America/Chicago", "WI": "America/Chicago", "IL": "America/Chicago",
+    "KS": "America/Chicago", "NE": "America/Chicago", "ND": "America/Chicago",
+    "SD": "America/Chicago",
+    # Eastern
+    "PA": "America/New_York", "NJ": "America/New_York",
+    "SC": "America/New_York", "NY": "America/New_York",
+    "FL": "America/New_York", "GA": "America/New_York",
+    "NC": "America/New_York", "VA": "America/New_York",
+    "WV": "America/New_York", "OH": "America/New_York",
+    "MI": "America/New_York", "IN": "America/New_York",
+    "KY": "America/New_York", "MD": "America/New_York",
+    "DE": "America/New_York", "CT": "America/New_York",
+    "RI": "America/New_York", "MA": "America/New_York",
+    "VT": "America/New_York", "NH": "America/New_York",
+    "ME": "America/New_York", "DC": "America/New_York",
+    # Non-contiguous
+    "HI": "Pacific/Honolulu", "AK": "America/Anchorage",
+}
 
 CANARY_COMPANY_ID = "CO-1782880883337"   # "Test (Rank AI)" — reused for canary
 CANARY_CONTACT_NAME = "Concierge Canary"
@@ -365,8 +421,122 @@ def human_conversation_deferral(history: list[dict], state: dict) -> str | None:
         return ("recent human conversation — deferred (human outbound "
                 f"{last_out['channel']} at "
                 f"{last_out['when'].strftime('%Y-%m-%d %H:%M UTC')}, "
-                f"{age.total_seconds() / 3600:.1f}h ago)")
+                f"{age.total_seconds() / 3600:.1f}h ago, within the "
+                f"{HUMAN_DEFER_HOURS}h defer window)")
     return None
+
+
+# ---------------------------------------------------------------- timezone
+def _valid_tz(name: str) -> bool:
+    try:
+        ZoneInfo(name)
+        return True
+    except Exception:
+        return False
+
+
+def company_slug(company_id: str) -> str | None:
+    """Reverse lookup in clients/company_map.json (slug -> CO-… id)."""
+    try:
+        cmap = json.loads(COMPANY_MAP_PATH.read_text())
+    except (OSError, json.JSONDecodeError):
+        return None
+    for slug, cid in cmap.items():
+        if cid == company_id:
+            return slug
+    return None
+
+
+def plan_input_state(slug: str) -> str | None:
+    """US state of the client's primary service area (plan-input.json)."""
+    path = ROOT / "clients" / slug / "plan-input.json"
+    if not path.exists():
+        return None
+    try:
+        plan = json.loads(path.read_text())
+    except json.JSONDecodeError:
+        return None
+    areas = [a for a in (plan.get("service_areas") or []) if isinstance(a, dict)]
+    primary = next((a for a in areas if a.get("primary")),
+                   areas[0] if areas else None)
+    state = (((primary or {}).get("state")
+              or (plan.get("brand") or {}).get("state") or "")).strip().upper()
+    return state or None
+
+
+def resolve_timezone(company: dict, contact: dict | None = None) -> tuple[str, str]:
+    """The client's business-hours timezone as (IANA key, source).
+
+    Resolution order:
+      (a) the GHL contact's own timezone field (timezone / timezoneId),
+      (b) companies.timezone,
+      (c) inferred from the client's business location — the state of the
+          primary service area in clients/{slug}/plan-input.json,
+      (d) DEFAULT_TZ with a loud warning (business hours may be wrong).
+    """
+    cand = str((contact or {}).get("timezone")
+               or (contact or {}).get("timezoneId") or "").strip()
+    if cand and _valid_tz(cand):
+        return cand, "ghl-contact"
+    cand = str(company.get("timezone") or "").strip()
+    if cand and _valid_tz(cand):
+        return cand, "companies.timezone"
+    slug = company_slug(company.get("id") or "")
+    if slug:
+        state = plan_input_state(slug)
+        if state and state in US_STATE_TZ:
+            return US_STATE_TZ[state], f"plan-input:{state}"
+    print(f"  WARNING: could not resolve a timezone for "
+          f"{company.get('name', '?')} ({company.get('id', '?')}) — no GHL "
+          f"contact timezone, no companies.timezone, no plan-input state. "
+          f"Defaulting to {DEFAULT_TZ}; business-hours enforcement may be "
+          f"wrong for this client.", file=sys.stderr)
+    return DEFAULT_TZ, "DEFAULT-unresolved"
+
+
+def business_hours_check(company: dict, contact: dict | None = None) -> str | None:
+    """Refusal reason when now is outside the client's 9:00-18:00 local
+    window, or None if a send is allowed. Phase 1: refuse + flag (no queue)."""
+    tz_key, source = resolve_timezone(company, contact)
+    local = datetime.now(timezone.utc).astimezone(ZoneInfo(tz_key))
+    if not (BUSINESS_HOUR_START <= local.hour < BUSINESS_HOUR_END):
+        return (f"outside business hours — will send after "
+                f"{BUSINESS_HOUR_START}am {tz_key} (local now "
+                f"{local.strftime('%H:%M')}, tz via {source})")
+    return None
+
+
+# ---------------------------------------------------------------- meeting intel
+def load_meeting_intel(company: dict) -> str | None:
+    """Meeting-intel notes relevant to this company, or None.
+
+    Loads clients/_ops/meeting-intel/{slug}.md for the company's own slug,
+    PLUS any other intel file whose text mentions the company's id or name —
+    one meeting often covers sister companies sharing an owner (they may
+    even share integration_settings.ghl_contact_id), and the notes live in
+    just one of the slugs' files."""
+    if not MEETING_INTEL_DIR.exists():
+        return None
+    slug = company_slug(company.get("id") or "")
+    cid = (company.get("id") or "").strip().lower()
+    name = (company.get("name") or "").strip().lower()
+    # "core" name without legal boilerplate, so "ProRestoration Services"
+    # still matches a note that just says "ProRestoration".
+    core = re.sub(r"\b(inc|llc|corp|co|company|services?)\b\.?", "", name).strip()
+    parts: list[str] = []
+    for path in sorted(MEETING_INTEL_DIR.glob("*.md")):
+        try:
+            text = path.read_text().strip()
+        except OSError:
+            continue
+        low = text.lower()
+        hit = ((slug and path.stem == slug)
+               or (cid and cid in low)
+               or (name and name in low)
+               or (len(core) >= 5 and core in low))
+        if hit and text:
+            parts.append(f"[{path.name}]\n{text}")
+    return "\n\n".join(parts) or None
 
 
 # ---------------------------------------------------------------- data pulls
@@ -601,19 +771,23 @@ def next_eligible(cs: dict) -> datetime | None:
     return last + timedelta(days=MIN_DAYS_BETWEEN_SENDS)
 
 
-def cadence_check(cs: dict, company: dict) -> str | None:
-    """Return a human-readable refusal reason, or None if a send is allowed now."""
+def cadence_check(cs: dict, company: dict, contact: dict | None = None,
+                  enforce_hours: bool = True) -> str | None:
+    """Return a human-readable refusal reason, or None if a send is allowed now.
+
+    Business hours run in the client's OWN timezone (resolve_timezone: GHL
+    contact -> companies.timezone -> plan-input state -> default+warning) and
+    are enforced on every send path; the canary passes enforce_hours=False."""
     if cs.get("nudge_count", 0) >= MAX_NUDGES:
         return f"max {MAX_NUDGES} nudges reached — ESCALATE to Santino"
     ne = next_eligible(cs)
     now = datetime.now(timezone.utc)
     if ne and now < ne:
         return f"cooldown — next eligible {ne.strftime('%Y-%m-%d %H:%M UTC')}"
-    tz = ZoneInfo(company.get("timezone") or DEFAULT_TZ)
-    local = now.astimezone(tz)
-    if not (BUSINESS_HOUR_START <= local.hour < BUSINESS_HOUR_END):
-        return (f"outside business hours ({local.strftime('%H:%M')} "
-                f"{tz.key}; window {BUSINESS_HOUR_START}:00-{BUSINESS_HOUR_END}:00)")
+    if enforce_hours:
+        reason = business_hours_check(company, contact)
+        if reason:
+            return reason
     return None
 
 
@@ -700,9 +874,14 @@ Rules:
 - Cover AT MOST the items given (they are already priority-ordered). Weave
   them in conversationally — short sentences or a compact list, not a form.
 - Never invent items, prices, or deadlines. Never promise work.
-- Always end with the exact self-serve alternative line provided. If (and
-  only if) you include a clickable link to the app, the link must be exactly
-  https://app.restorationai.io/?setup=1 — it opens the Setup Guide by itself.
+- REQUIRED CLOSING PATTERN — every message ends with EXACTLY this, reply-first
+  line then self-serve line, word for word:
+  "Just reply here and I'll add it all in for you! Or do it yourself: log in
+  at app.restorationai.io and click the 'Setup Guide' button at the top."
+  (Its single exclamation point is part of the required copy and is the only
+  one allowed in the message.) If (and only if) you include a clickable link
+  to the app, the link must be exactly https://app.restorationai.io/?setup=1
+  — it opens the Setup Guide by itself.
 - SMS: total body within the character budget given — the budget includes the
   intro and the closing self-serve line, and the closing line must NEVER be
   cut. If space is tight, trim item detail, not the closing. No subject, no
@@ -723,17 +902,43 @@ HISTORY RULES (apply when a "Recent conversation history" block is provided):
   to you last week about the site") — but never quote private history
   verbatim and never recite details back at them.
 
+MEETING INTEL RULES (apply when a "Meeting intel" block is provided):
+- ITEM SELECTION IS A HARD FILTER — apply it BEFORE writing anything:
+  (1) If the intel contains explicit concierge guidance about what to ask or
+      not ask (e.g. "remaining asks = X only", "wait before nudging about
+      Y"), OBEY IT EXACTLY: any outstanding item the guidance rules out must
+      not appear in the body, even if it looks otherwise askable.
+  (2) Any item the intel marks as ANSWERED / resolved / handled on a call,
+      or as IN PROGRESS on the client's side (they're chasing it with a
+      third party), must be left OUT of the body — never nudge for something
+      already answered or in motion.
+  Report every filtered item in "intel_resolved" with its item id and a
+  one-line reason. These exclusions override every other instruction about
+  covering the items.
+- The intel is our team's INTERNAL notes. Never quote it and never recite
+  private discussion details back to the client.
+- Use the intel for natural phrasing context — when it shows a recent
+  meeting or call with the client's team, DO acknowledge it warmly in one
+  short clause right after the greeting/intro ("Great meeting with the team
+  on Tuesday…" adjusted to the actual day). Reference that the meeting
+  happened and its tone, never what was privately discussed.
+
 Return ONLY a JSON object:
 {"subject": string|null, "body": string,
- "history_answered": [{"item_id": string, "evidence": string}]}
-"history_answered" is [] when nothing in the history answers an item.
+ "history_answered": [{"item_id": string, "evidence": string}],
+ "intel_resolved": [{"item_id": string, "reason": string}]}
+"history_answered" is [] when nothing in the history answers an item;
+"intel_resolved" is [] when no meeting intel excludes an item. If EVERY item
+ends up excluded (history + intel), return "body": "" — there is nothing
+worth nudging about this cycle.
 Keep drafting deterministic: choose the most natural single phrasing, no
 alternatives or commentary."""
 
 
 def compose_draft(company: dict, first_name: str, items: list[dict],
                   channel: str, first_contact: bool,
-                  history: list[dict] | None = None) -> dict:
+                  history: list[dict] | None = None,
+                  intel: str | None = None) -> dict:
     chosen = items[:MAX_ITEMS_PER_MESSAGE]
     lines = []
     for i, it in enumerate(chosen, 1):
@@ -754,12 +959,20 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
             "\nRecent conversation history with this person (newest first; "
             "'them' = the client, 'us' = anyone on our side):\n"
             + format_history(history) + "\n")
+    intel_block = ""
+    if intel:
+        intel_block = (
+            "\nMeeting intel (INTERNAL team notes — apply the MEETING INTEL "
+            "RULES; never quote this to the client):\n" + intel + "\n")
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d (%A)")
     user = (f"Client: {company['name']} (first name: {first_name})\n"
+            f"Today's date: {today}\n"
             f"Channel: {channel} (character budget for SMS: {sms_budget})\n"
             f"FIRST CONTACT: {'yes' if first_contact else 'no'}\n"
             + (f"Intro line to open with, exactly: \"{intro}\"\n"
                if first_contact else "")
             + history_block
+            + intel_block
             + f"Outstanding items (priority order, cover all of these and "
             f"nothing else):\n" + "\n".join(lines) +
             f"\n\nEnd with exactly: \"{APP_SELF_SERVE}\"")
@@ -767,10 +980,14 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
     body = (draft.get("body") or "").strip()
     if channel == "sms" and len(body) > sms_budget:
         body = body[:sms_budget - 1].rsplit(" ", 1)[0] + "…"
-    flagged = [f for f in (draft.get("history_answered") or [])
-               if isinstance(f, dict) and f.get("item_id")]
+
+    def _flags(key):
+        return [f for f in (draft.get(key) or [])
+                if isinstance(f, dict) and f.get("item_id")]
+
     return {"subject": (draft.get("subject") or None), "body": body,
-            "items": chosen, "history_answered": flagged}
+            "items": chosen, "history_answered": _flags("history_answered"),
+            "intel_resolved": _flags("intel_resolved")}
 
 
 def cmd_compose(args) -> int:
@@ -798,7 +1015,12 @@ def cmd_compose(args) -> int:
              else "NOT FOUND — compose only, send would fail")
           + ("" if linked else "  [NO DURABLE LINKAGE — search fallback]"))
     print(f"First contact: {'yes — intro line required' if first_contact else 'no'}")
+    tz_key, tz_src = resolve_timezone(company, contact)
+    print(f"Timezone: {tz_key} (via {tz_src})")
     print(f"Outstanding items: {len(items)} (messaging top {min(len(items), MAX_ITEMS_PER_MESSAGE)})")
+    intel = load_meeting_intel(company)
+    print("Meeting intel: "
+          + (f"loaded ({len(intel)} chars)" if intel else "none"))
 
     history = fetch_history(contact["id"]) if contact else []
     if history:
@@ -811,7 +1033,7 @@ def cmd_compose(args) -> int:
         print("History: none found")
 
     # Never talk over a human: newest outbound not sent by the concierge and
-    # <24h old means Santino (or someone on the team) is mid-conversation.
+    # <12h old means Santino (or someone on the team) is mid-conversation.
     defer_reason = human_conversation_deferral(history, state)
     if defer_reason:
         print(f"\nDEFERRED: {defer_reason}")
@@ -823,7 +1045,7 @@ def cmd_compose(args) -> int:
               "inspection]")
 
     draft = compose_draft(company, first, items, args.channel, first_contact,
-                          history=history)
+                          history=history, intel=intel)
     print("\n" + "=" * 62)
     if draft["subject"] and args.channel == "email":
         print(f"Subject: {draft['subject']}")
@@ -842,11 +1064,27 @@ def cmd_compose(args) -> int:
         print(f"ESCALATION: {reason}")
         append_escalation(company, None, reason, dry_run=not args.send)
 
+    # Items meeting intel marks answered / in progress client-side: excluded
+    # from the body by the compose model; escalate so a human backfills the DB.
+    for flag in draft["intel_resolved"]:
+        it = next((i for i in draft["items"] if i["id"] == flag["item_id"]), None)
+        label = it["text"] if it else flag["item_id"]
+        reason = (f"meeting intel says answered/in progress: {label} — "
+                  f"{flag.get('reason') or 'see meeting-intel notes'} "
+                  f"(item excluded from the nudge; verify + record the answer)")
+        print(f"ESCALATION: {reason}")
+        append_escalation(company, None, reason, dry_run=not args.send)
+
+    if not draft["body"]:
+        print("\nNO NUDGE: every item is answered or in progress per "
+              "history/meeting intel — nothing to send this cycle.")
+        return 0
+
     if not args.send:
         print("\n[draft only — pass --send to deliver (canary gate applies)]")
         return 0
 
-    reason = cadence_check(cs, company)
+    reason = cadence_check(cs, company, contact)
     if reason:
         print(f"\nSEND REFUSED (cadence): {reason}", file=sys.stderr)
         return 1
@@ -880,7 +1118,7 @@ def cmd_status(_args) -> int:
     rows = []
     unlinked = []
     for cid in ids:
-        co = companies.get(cid, {"name": cid, "timezone": None})
+        co = companies.get(cid, {"id": cid, "name": cid, "timezone": None})
         cs = state["companies"].get(cid, {})
         n_intake = sum(1 for i in intake if i["company_id"] == cid)
         n_asks = sum(1 for a in asks if a["company_id"] == cid)
@@ -904,7 +1142,13 @@ def cmd_status(_args) -> int:
                       and os.environ.get("GHL_LOCATION_ID"))
         hist_contact = cs.get("ghl_contact_id") or link
         hist = "-"
+        contact_payload = None
         if ghl_ok and hist_contact:
+            try:
+                data = _ghl("GET", f"/contacts/{hist_contact}")
+                contact_payload = (data or {}).get("contact") or data
+            except RuntimeError:
+                contact_payload = None
             try:
                 h = fetch_history(hist_contact)
                 if h:
@@ -914,18 +1158,25 @@ def cmd_status(_args) -> int:
                     hist = "0m"
             except RuntimeError:
                 hist = "err"
+        # Resolved business-hours timezone + its source (ghl-contact /
+        # companies.timezone / plan-input:{state} / DEFAULT-unresolved).
+        tz_key, tz_src = resolve_timezone(co, contact_payload)
+        tz_disp = f"{tz_key} [{tz_src}]"[:36]
         rows.append((cid, co["name"][:30], n_intake, n_asks, last, nudges, nxt,
                      "yes" if link else "NO",
-                     (target_label(co) if has_settings else "?")[:26], hist))
+                     (target_label(co) if has_settings else "?")[:26], hist,
+                     tz_disp))
 
     hdr = (f"{'company':<20} {'name':<30} {'target (who we message)':<26} "
            f"{'intake':>6} {'asks':>4} {'last contact':<16} {'n':>2} "
-           f"{'ghl':>3} {'history':<8} {'next eligible':<20}")
+           f"{'ghl':>3} {'history':<8} {'timezone (business hours)':<36} "
+           f"{'next eligible':<20}")
     print(hdr)
     print("-" * len(hdr))
     for r in rows:
         print(f"{r[0]:<20} {r[1]:<30} {r[8]:<26} {r[2]:>6} {r[3]:>4} "
-              f"{r[4]:<16} {r[5]:>2} {r[7]:>3} {r[9]:<8} {r[6]:<20}")
+              f"{r[4]:<16} {r[5]:>2} {r[7]:>3} {r[9]:<8} {r[10]:<36} "
+              f"{r[6]:<20}")
     print(f"\n{len(rows)} client(s) with outstanding items "
           f"({len(intake)} intake, {len(asks)} asks). "
           f"Allowlist entries: {len(allowed_recipients())}.")
@@ -961,12 +1212,22 @@ A "Recent conversation history" block may be provided — use it to work out
 what a short reply ("yes", "the second one", "that works") is answering; the
 reply usually responds to the most recent thing WE asked in the thread.
 
+A "Meeting intel" block may be provided — our team's INTERNAL notes from
+meetings with this client. Use it as context for classification, and report
+any open item the intel marks as ANSWERED / resolved on a call, or as IN
+PROGRESS on the client's side, in "intel_resolved" (item id + one-line
+reason) — those items must not be re-asked in any follow-up nudge. Never
+treat intel alone as the client's answer to an item (that needs a human to
+verify); intel_resolved is a flag, not a match.
+
 Return ONLY JSON:
 {"matches": [{"item_id": "<id from the list>", "value": "<extracted answer>",
               "answer_type": "license|yes_no|free_text|customer_list"}],
+ "intel_resolved": [{"item_id": "<id from the list>", "reason": string}],
  "escalate": bool,
  "escalate_reason": string|null,
  "sentiment": "positive|neutral|negative"}
+"intel_resolved" is [] when no meeting intel is provided or none applies.
 Match at most the items clearly answered. When in doubt, do not match — set
 escalate true with a reason instead."""
 
@@ -1085,6 +1346,18 @@ def cmd_inbound(args) -> int:
             f"\n\nRecent conversation history (newest first; 'them' = the "
             f"client, 'us' = our side) — use it to disambiguate short "
             f"replies:\n{format_history(history)}" if history else "")
+        intel = load_meeting_intel(company)
+        intel_block = (
+            f"\n\nMeeting intel (INTERNAL team notes — context only, never "
+            f"quote to the client):\n{intel}" if intel else "")
+        # Business-hours enforcement needs the contact's own timezone field.
+        contact_payload = None
+        if args.send:
+            try:
+                data = _ghl("GET", f"/contacts/{contact_id}")
+                contact_payload = (data or {}).get("contact") or data
+            except RuntimeError:
+                contact_payload = None
         for msg in msgs:
             handled_any = True
             print(f"\n  {company['name']}: inbound {msg['channel']} "
@@ -1095,7 +1368,7 @@ def cmd_inbound(args) -> int:
             result = anthropic_json(
                 CLASSIFY_SYSTEM,
                 f"Open items for {company['name']}:\n{item_list}"
-                f"{history_block}\n\n"
+                f"{history_block}{intel_block}\n\n"
                 f"Inbound reply:\n{msg['body'][:1200]}")
             matched_ids = set()
             for match in result.get("matches", []):
@@ -1109,6 +1382,22 @@ def cmd_inbound(args) -> int:
                     apply_answer(it["id"], str(match.get("value", "")), dry_run)
                 else:
                     resolve_plan_row(it["id"], dry_run)
+            # Items meeting intel marks answered / in progress client-side:
+            # never re-asked in the follow-up; escalated for human backfill.
+            intel_ids = set()
+            for flag in result.get("intel_resolved") or []:
+                it = next((i for i in open_items
+                           if i["id"] == flag.get("item_id")), None)
+                if not it:
+                    continue
+                intel_ids.add(it["id"])
+                reason = (f"meeting intel says answered/in progress: "
+                          f"{it['text']} — "
+                          f"{flag.get('reason') or 'see meeting-intel notes'} "
+                          f"(excluded from follow-up nudges; verify + record "
+                          f"the answer)")
+                print(f"    INTEL: {reason}")
+                append_escalation(company, None, reason, dry_run)
             if (result.get("escalate") or result.get("sentiment") == "negative"
                     or not result.get("matches")):
                 reason = result.get("escalate_reason") or (
@@ -1117,7 +1406,9 @@ def cmd_inbound(args) -> int:
                 print(f"    ESCALATE: {reason}")
                 append_escalation(company, msg, reason, dry_run)
             if matched_ids:
-                remaining = [i for i in open_items if i["id"] not in matched_ids]
+                remaining = [i for i in open_items
+                             if i["id"] not in matched_ids
+                             and i["id"] not in intel_ids]
                 nxt = (f"Next open item to ask: {remaining[0]['text']}"
                        if remaining else "No items remain.")
                 reply = anthropic_json(
@@ -1127,6 +1418,14 @@ def cmd_inbound(args) -> int:
                     f"They just answered: {msg['body'][:400]}\n{nxt}")
                 print(f"    reply draft: {reply.get('body', '')!r}")
                 if args.send:
+                    # Business hours enforced on EVERY send path (client's
+                    # local tz). Phase 1: refuse + flag, no queue.
+                    hours_reason = business_hours_check(company, contact_payload)
+                    if hours_reason:
+                        print(f"    SEND FLAGGED: {hours_reason} — reply not "
+                              f"sent this cycle")
+                        append_escalation(company, msg, hours_reason, dry_run)
+                        continue
                     target = messaging_target(company)
                     contact = {"id": contact_id,
                                "phone": target.get("cell") or company.get("phone"),
@@ -1206,7 +1505,9 @@ def cmd_canary(args) -> int:
     print("=" * 62)
 
     cs = company_state(state, CANARY_COMPANY_ID)
-    reason = cadence_check(cs, company)
+    # Canary is EXEMPT from business-hours enforcement (it's Santino testing
+    # the pipe, whatever the hour); nudge-count + cooldown still apply.
+    reason = cadence_check(cs, company, enforce_hours=False)
     if reason:
         print(f"SEND REFUSED (cadence): {reason}", file=sys.stderr)
         return 1
