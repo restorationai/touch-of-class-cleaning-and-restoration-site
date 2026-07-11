@@ -1,0 +1,53 @@
+---
+/**
+ * "Your Local New Jersey Crew" — real client photo (EXIF/GPS stripped) in a
+ * dark band. Site-specific section for restoration-groups; the photo is two
+ * technicians in protective suits beside a lettered The Restoration Group van,
+ * pulled from the client's existing site.
+ */
+import { brand } from "~/lib/brand";
+import { srcsetFor } from "~/lib/images";
+import { Phone } from "@lucide/astro";
+
+const src = "/images/crew.webp";
+const img = srcsetFor(src);
+---
+
+<section class="bg-dark py-24 text-white border-t border-white/10 overflow-hidden">
+  <div class="container-wide px-6 sm:px-10 lg:px-12">
+    <div class="grid lg:grid-cols-2 gap-14 lg:gap-20 items-center">
+      <div class="relative">
+        <img
+          src={src}
+          srcset={img.srcset}
+          sizes={img.srcset ? "(min-width:1024px) 50vw, 100vw" : undefined}
+          width={img.width}
+          height={img.height}
+          alt={`Two ${brand.displayName} technicians in protective suits beside a lettered company van on a New Jersey street`}
+          loading="lazy"
+          decoding="async"
+          class="w-full h-auto rounded-xl shadow-2xl object-cover"
+        />
+      </div>
+      <div>
+        <div class="eyebrow !text-primary-400">The Real Deal</div>
+        <h2 class="text-5xl md:text-6xl font-black uppercase tracking-tighter mb-8 text-white">Your Local New Jersey Crew</h2>
+        <p class="text-xl text-white/85 leading-relaxed mb-6 font-medium">
+          This is the crew that shows up — not a call center, not a middleman.
+          {brand.displayName} works out of {brand.primaryCity}, {brand.primaryState},
+          and when you call, our own suited-up technicians arrive with the van,
+          the equipment, and the containment gear you see here.
+        </p>
+        <p class="text-lg text-white/70 leading-relaxed mb-10">
+          Water extraction, structural drying, mold containment and fire cleanup —
+          performed to IICRC standards by the same local team, from the first
+          moisture reading to the final walkthrough.
+        </p>
+        <a href={`tel:${brand.phoneRaw}`} class="btn-primary text-lg inline-flex items-center gap-3">
+          <Phone size={20} strokeWidth={3} />
+          Call {brand.phone}
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

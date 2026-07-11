@@ -1,5 +1,6 @@
 ---
 archetype: "about"
+hero: "/images/team.webp"
 title: "About The Restoration Group | Kenilworth Restoration Company"
 h1: "About The Restoration Group"
 meta_description: "The Restoration Group has served Kenilworth since 2021. Meet our IICRC-certified restoration team. Licensed, insured, locally owned."

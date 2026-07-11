@@ -12,6 +12,7 @@ import ServicesStrip from "~/components/ui/ServicesStrip.astro";
 import ProcessSection from "~/components/ui/ProcessSection.astro";
 import BeforeAfterSection from "~/components/ui/BeforeAfterSection.astro";
 import RecentWork from "~/components/RecentWork.astro";
+import LocalCrewSection from "~/components/ui/LocalCrewSection.astro";
 import ProudlyServing from "~/components/ui/ProudlyServing.astro";
 import ReviewsSection from "~/components/ui/ReviewsSection.astro";
 import { brand } from "~/lib/brand";
@@ -51,7 +52,7 @@ const services = (allServices as CollectionEntry<"services">[])
 
   <ReviewsStrip />
 
-  <AboutSection imageSrc="/images/team.webp" imageAlt={`${brand.displayName} Team`}>
+  <AboutSection imageSrc="/images/team.webp" imageAlt={`The ${brand.displayName} team lined up in front of two lettered company box trucks outside the Kenilworth, NJ headquarters`}>
     <p>
       {brand.displayName} has been restoring New Jersey homes and businesses since {brand.foundedYear} from our Kenilworth headquarters — with crews serving Union County, Newark, Jersey City and the Brooklyn–Manhattan metro. We specialize in rapid-response water, fire, storm and mold damage restoration through full reconstruction, and as an IICRC Certified Firm we answer the phone 24/7. When disaster strikes, our team returns your property to its pre-loss condition quickly and safely.
     </p>
@@ -64,6 +65,11 @@ const services = (allServices as CollectionEntry<"services">[])
   <BeforeAfterSection pairs={workPairs} />
 
   <RecentWork />
+
+  {/* Real crew photo (from the client's existing site, EXIF-stripped) — two
+      suited-up technicians beside the lettered company van. Second
+      authentic-photo placement alongside the About/team shot. */}
+  <LocalCrewSection />
 
   <ReviewsSection />
 

@@ -42,7 +42,7 @@ const img = srcsetFor(isLogo ? "" : imageSrc);
            decoding="async"
            class={isLogo
              ? "w-full max-w-[280px] md:max-w-[400px] h-auto object-contain drop-shadow-[0_20px_20px_rgba(0,0,0,0.4)] opacity-100"
-             : "w-full h-auto rounded-xl shadow-2xl object-cover aspect-video lg:aspect-square"
+             : "w-full h-auto rounded-xl shadow-2xl object-cover aspect-video lg:aspect-[4/3]" /* 4:3 (not square) so the real full-team lineup photo keeps everyone in frame */
            }
          />
       </div>

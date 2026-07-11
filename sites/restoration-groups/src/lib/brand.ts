@@ -36,7 +36,16 @@ export const brand = {
   licensedInsuredAttested: true as boolean,
   certifications: ["IICRC Certified Firm #210213"] as string[],
   trustBadges: ["IICRC Certified Firm #210213", "NJ Licensed Home Improvement Contractor", "24/7 Emergency Response", "Serving NJ Since 2021"] as string[],
-  jobPhotos: [] as string[],
+  // Real job photos pulled from the client's existing sites
+  // (restorationgroups.com + therestorationgroup.com), EXIF/GPS stripped.
+  jobPhotos: [
+    "/images/work/job-1.webp",
+    "/images/work/job-2.webp",
+    "/images/work/job-3.webp",
+    "/images/work/job-4.webp",
+    "/images/work/job-5.webp",
+    "/images/work/job-6.webp",
+  ] as string[],
   sameAsUrls: ["https://www.google.com/maps?cid=8008820373441604497"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).

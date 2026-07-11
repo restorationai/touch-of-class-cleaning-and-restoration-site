@@ -6,6 +6,23 @@ import { brand } from "~/lib/brand";
 import { srcsetFor } from "~/lib/images";
 
 const photos = (brand.jobPhotos || []).slice(0, 12);
+
+// Per-photo alt text for the real client photos (sourced from the client's
+// existing sites; falls back to the generic alt for any un-mapped photo).
+const ALTS: Record<string, string> = {
+  "/images/work/job-1.webp":
+    "Air movers and drying equipment staged in front of a The Restoration Group van at a New Jersey job site",
+  "/images/work/job-2.webp":
+    "The Restoration Group technicians in protective suits unloading drying equipment from the company van",
+  "/images/work/job-3.webp":
+    "Technician in a The Restoration Group shirt carrying two air movers up the front steps of a home",
+  "/images/work/job-4.webp":
+    "Restoration technician in a respirator hand-cleaning a water-damaged hardwood subfloor",
+  "/images/work/job-5.webp":
+    "Air movers positioned to dry a finished basement after water damage",
+  "/images/work/job-6.webp":
+    "Technician removing water-damaged plank flooring during a basement flood cleanup",
+};
 ---
 
 {photos.length >= 3 && (
@@ -26,7 +43,7 @@ const photos = (brand.jobPhotos || []).slice(0, 12);
                 sizes={img.srcset ? "(min-width:1024px) 25vw, (min-width:640px) 33vw, 50vw" : undefined}
                 width={img.width}
                 height={img.height}
-                alt={`${brand.displayName} — recent ${brand.primaryCity} restoration job`}
+                alt={ALTS[src] ?? `${brand.displayName} — recent ${brand.primaryCity} restoration job`}
                 class="w-full h-full object-cover"
                 loading="lazy"
                 decoding="async"
