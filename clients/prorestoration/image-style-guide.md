@@ -6,6 +6,14 @@ The values below are auto-populated from `plan-input.json` at planning time. Per
 
 ---
 
+## STANDING BRAND RULES (Santino, 2026-07-11) — apply to EVERY image
+
+1. **Vehicles carry the client's REAL logo.** Any generated image featuring a company vehicle must show the client's actual logo mark on the vehicle — supply the real logo file as a reference image to `gemini_edit_image` / `gemini_generate_image` and iterate until the mark reads faithfully (shape + colors; sized so lettering stays clean or is naturally implied at distance). The no-text rule still applies to everything EXCEPT the logo mark itself. For this client: `clients/prorestoration/LOGO.svg` (rasterized reference: `clients/prorestoration/logo-raster-white.png`) — slanted red "ProRestoration" wordmark + blue triple-line water swoosh + blue "Services INC". Fallback after 3 failed attempts on an image: two-color mark impression (red block + blue swoosh, no letters) or naturally defocused decal.
+2. **One crew uniform color per client, everywhere.** Declared once here, used in every image (hero, team, services, per-service, blog heroes). **This client's uniform: DEEP RED polos** (brick red, ~#A6242A fabric tone; brand red #C80106) with subtle navy collar trim, charcoal/navy work pants. Never navy/blue polos.
+3. **If the client has an existing website, harvest its photos FIRST.** Real photos take priority for direct use where quality allows; otherwise they serve as style/livery references for generation. This client: https://prorestorationca.com harvested 2026-07-11 → `clients/prorestoration/harvested/` (real fleet livery photo `pro-restoration-trucks.jpg` — white Ram ProMaster vans, blue roofline band, red swoosh, full wordmark; owner photo `Jack-Bispo-ProRestoration-Services.jpg` — red shirt, confirms uniform color).
+
+---
+
 ## Camera & Lens Setup
 
 - **Camera**: Sony A7 IV (full-frame mirrorless) — implied; the LLM prompt should reference "professional photography, mirrorless full-frame look"
@@ -58,8 +66,9 @@ Per-client brand colors take priority. The values below are substituted from `pl
 
 | Role | Source | Value for this client |
 |------|--------|----------------------|
-| Primary brand color (uniforms, vehicle, signage glimpsed in shots) | `#0d1b3e` | **#0d1b3e** |
-| Accent (emergency markings, CTAs that appear in promo shots) | `#f97316` | **#f97316** |
+| Primary brand color (uniforms, vehicle, signage glimpsed in shots) | brand logo | **#C80106 red** (uniform polos read as deep brick red ~#A6242A on camera) |
+| Secondary (vehicle swoosh, logo lettering) | brand logo | **#0B338D navy** |
+| Vehicles | real fleet | **WHITE vans** with blue roofline band + red swoosh + real ProRestoration logo decal |
 | Logo color (if a worker's uniform back is visible) | derived from brand logo | match ProRestoration Services's logo |
 | Skin / texture / restoration materials | natural and neutral | warm wood tones for housing stock, cool concrete grays, real surface textures |
 | Environment-specific atmospherics | regional | varies — see "Setting & Environment" below for Bakersfield |
@@ -87,7 +96,7 @@ Per-client brand colors take priority. The values below are substituted from `pl
 Every image that depicts a person must show a worker in branded company uniform. This is non-negotiable for visual consistency and trust signaling.
 
 ### Uniform specifications
-- **Top**: Polo or work shirt in the client's primary brand color (`#0d1b3e`). For darker brand colors (navy, deep red, charcoal), use that color directly. For lighter brand colors, render as a darker navy or charcoal uniform with the brand color visible as logo embroidery, accent stripe, or branded hat.
+- **Top**: **DEEP RED polo** (brick red ~#A6242A fabric tone, brand red #C80106) with subtle navy collar trim — the declared standing uniform color for this client (see Standing Brand Rules above). Never navy or blue polos.
 - **Bottom**: Neutral work pants (charcoal, dark navy, or khaki). Subordinate to the top.
 - **Branding**: ProRestoration Services or ProRestoration embroidered on chest or back. IICRC certification badge visible on sleeve or chest where it makes sense.
 - **PPE**: Match the service context (see service-specific notes below) — gloves always, respirators / face shields / Tyvek suits when the service warrants it.
@@ -199,3 +208,6 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 ## Style guide version
 
 This guide is generated from `templates/restoration/image-style-guide.template.md` v1.0. When the canonical template updates, existing clients keep their pinned version unless explicitly regenerated. Bump the version + add a changelog entry when changing structural rules (e.g., adding new mandatory PPE conventions).
+
+**Changelog**
+- **v1.1 (2026-07-11)**: Added Standing Brand Rules (real logo on vehicles, one uniform color per client = DEEP RED for ProRestoration, harvest existing-site photos first). Corrected brand palette to #C80106/#0B338D. hero-bg/team/services + flood/storm/carpet service images updated to red uniforms + real logo vans.
