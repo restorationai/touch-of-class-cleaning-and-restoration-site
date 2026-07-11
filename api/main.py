@@ -69,6 +69,7 @@ SYSTEM_LABELS = {
     2: "Write Post (S2)",
     3: "Onsite Audit (S3)",
     4: "Refresh Recommender (S4)",
+    "gbp_face": "GBP Face Fix",
 }
 
 # ---------------------------------------------------------------------------
@@ -77,7 +78,7 @@ SYSTEM_LABELS = {
 
 class RunJobRequest(BaseModel):
     slug: str
-    system: int  # 1, 2, 3, or 4
+    system: int | str  # 1, 2, 3, 4 — or "gbp_face" (GBP front-face audit + safe auto-fixes)
 
 
 class CompleteJobRequest(BaseModel):
@@ -117,8 +118,8 @@ def run_job(req: RunJobRequest):
     """Trigger a system run for a client. Returns job_id immediately; runs in background."""
     if req.slug not in COMPANY_MAP:
         raise HTTPException(status_code=404, detail=f"Unknown slug: {req.slug}")
-    if req.system not in (1, 2, 3, 4):
-        raise HTTPException(status_code=400, detail="system must be 1, 2, 3, or 4")
+    if req.system not in (1, 2, 3, 4, "gbp_face"):
+        raise HTTPException(status_code=400, detail="system must be 1, 2, 3, 4, or 'gbp_face'")
 
     job_id = create_and_run_job(req.slug, req.system)
 

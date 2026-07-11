@@ -536,6 +536,66 @@ def upsert_plan_items(company_id: str, slug: str, items: list[dict], apply: bool
 
 
 # --------------------------------------------------------------------------- #
+# persist — marketing_gbp_face_audit (the app's GBP Face Score card reads this)
+# --------------------------------------------------------------------------- #
+def autofix_actions(fixes: list[str]) -> list[str]:
+    """Safe actions available, derived from what the fixers themselves decided
+    (dry-run 'WOULD ...' or apply-mode success notes) so the app's 1-click
+    button never promises work --apply wouldn't actually do. Never categories."""
+    actions: list[str] = []
+
+    def hit(action: str) -> None:
+        if action not in actions:
+            actions.append(action)
+
+    for f in fixes:
+        if f.startswith("photos:") and ("WOULD upload" in f or "uploaded" in f):
+            hit("upload_photos")
+        elif f.startswith("description:") and ("WOULD" in f or f.startswith("description: set")):
+            hit("set_description")
+        elif f.startswith("services:") and ("WOULD add" in f or "added" in f):
+            hit("add_services")
+    return actions
+
+
+def persist_audit(company_id: str, p: dict, score: dict,
+                  items: list[dict], applied: bool) -> None:
+    """Upsert the score row. Dry-run also writes — scores are read-only facts;
+    last_applied_at is only touched when --apply actually ran fixes."""
+    expected = sorted(EXPECTED_PRIMARY.get(p["vertical"], set()))
+    row = {
+        "company_id": company_id,
+        "rank_ai_slug": p["slug"],
+        "score": score["total"],
+        "components": {
+            "photos": {"owner_count": p["owner_count"], "cover": p["has_cover"],
+                       "logo": p["has_logo"], "customer_count": p["customer_count"],
+                       "score": score["parts"]["photos"],
+                       "cover_score": score["parts"]["cover"],
+                       "logo_score": score["parts"]["logo"]},
+            "description": {"chars": p["description_len"], "min_chars": MIN_DESC_CHARS,
+                            "score": score["parts"]["description"]},
+            "services": {"gbp_count": len(p["gbp_services"]),
+                         "site_count": len(p["site_services"]),
+                         "score": score["parts"]["services"]},
+            "category": {"primary": p["primary_category"], "expected": expected,
+                         "match": score["category_ok"], "score": score["parts"]["category"]},
+            "hours": {"set": p["has_hours"], "score": score["parts"]["hours"]},
+        },
+        "flags": [{"key": it["dedupe"], "impact": it["impact"], "title": it["title"]}
+                  for it in items],
+        "autofixable": autofix_actions(p.get("fixes") or []),
+        "audited_at": datetime.now(timezone.utc).isoformat(),
+    }
+    if applied:
+        row["last_applied_at"] = row["audited_at"]
+    try:
+        gbp._sb_upsert("marketing_gbp_face_audit", [row], on_conflict="company_id")
+    except Exception as e:  # noqa: BLE001 — persistence must never abort the audit
+        print(f"     persist failed: {str(e)[:140]}")
+
+
+# --------------------------------------------------------------------------- #
 # per-client run
 # --------------------------------------------------------------------------- #
 def audit_client(slug: str, company_id: str, meta: dict, apply: bool,
@@ -574,10 +634,12 @@ def audit_client(slug: str, company_id: str, meta: dict, apply: bool,
         print(f"   -> {f}")
     if not fixes:
         print("   -> no auto-fixes needed")
-    n = upsert_plan_items(company_id, slug, plan_items(p, score), apply)
+    items = plan_items(p, score)
+    n = upsert_plan_items(company_id, slug, items, apply)
     if n and apply:
         print(f"   -> {n} action-plan row(s) inserted (gbpface:)")
     p["fixes"] = fixes
+    persist_audit(company_id, p, score, items, applied=apply)
     return p
 
 

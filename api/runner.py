@@ -107,6 +107,21 @@ def _execute_job(job_id: str, slug: str, system: int) -> None:
             _run_sync(slug)
             _update_job(job_id, status="completed", completed_at=_now(), log=log[-8000:])
 
+        elif system == "gbp_face":
+            # GBP front-face audit + safe auto-fixes (photos/description/services;
+            # never categories). The script is bounded (--max-photos) and
+            # idempotent (sha1 provenance + dedupe), and writes its own
+            # marketing_gbp_face_audit row, so no supabase_sync needed.
+            rc, log = _run_subprocess([
+                "python3", str(ROOT / "scripts" / "gbp_face_audit.py"),
+                "--apply", "--slug", slug, "--max-photos", "10",
+            ])
+            if rc != 0:
+                _update_job(job_id, status="failed", completed_at=_now(),
+                            error=f"gbp_face_audit exited {rc}", log=log[-8000:])
+                return
+            _update_job(job_id, status="completed", completed_at=_now(), log=log[-8000:])
+
         elif system == 4:
             # Layer 1 runs directly; Layer 2 is agent-driven (dispatched to CI)
             rc, log = _run_subprocess([
@@ -134,13 +149,14 @@ def _execute_job(job_id: str, slug: str, system: int) -> None:
         _update_job(job_id, status="failed", completed_at=_now(), error=str(exc))
 
 
-def create_and_run_job(slug: str, system: int) -> str:
+def create_and_run_job(slug: str, system) -> str:
     """Create a marketing_jobs record and kick off the background worker. Returns job_id."""
     company_id = COMPANY_MAP.get(slug)
     if not company_id:
         raise ValueError(f"Unknown slug: {slug}")
 
-    system_names = {1: "keyword_research", 2: "write_post", 3: "audit", 4: "refresh"}
+    system_names = {1: "keyword_research", 2: "write_post", 3: "audit", 4: "refresh",
+                    "gbp_face": "gbp_face_fix"}
     row = {
         "company_id": company_id,
         "type":       system_names[system],
