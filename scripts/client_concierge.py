@@ -74,9 +74,17 @@ Env (rank-ai/.env or CI secrets):
                                               loud startup warning and GHL picks
                                               its default number (the 805!).
 
-GHL contact linkage: companies.integration_settings.ghl_contact_id (written by
-scripts/ghl_link.py) is the source of truth; full-text search is only a
-fallback and every fallback resolution is flagged loudly in the output.
+Messaging target: the PREFERRED entry of integration_settings.contacts
+(array of {role owner|office, first_name, last_name, cell, email, title?,
+ghl_contact_id?, preferred} written by the app's onboarding wizard + Contact
+Card; exactly one preferred). Fallbacks, in order: the legacy
+owner_first_name/owner_last_name/owner_cell keys, then the top-level
+integration_settings.ghl_contact_id linkage (written by scripts/ghl_link.py
+and the ghl-sync-contact edge fn), then full-text search — every fallback
+resolution is flagged loudly in the output. When the preferred contact is
+the OFFICE contact (not the owner), the first-contact intro says we help
+"collect what's needed to finish {Company}'s setup" instead of implying we
+run their account.
 
 Workflow: .github/workflows/client-concierge.yml — workflow_dispatch ONLY in
 phase 1 (no cron until real-client enrollment is approved).
@@ -120,6 +128,11 @@ APP_SETUP_LINK = "https://app.restorationai.io/?setup=1"   # auto-opens the guid
 INTRO_TEMPLATE = ("Hi {first}, this is the onboarding assistant from "
                   "Santino's team at Rank AI — I help get everything set up "
                   "for your account.")
+# Preferred contact is the office/day-to-day person, not the owner: don't
+# imply it's "their" account — we're collecting what finishes the setup.
+INTRO_TEMPLATE_OFFICE = ("Hi {first}, this is the onboarding assistant from "
+                         "Santino's team at Rank AI — I help collect what's "
+                         "needed to finish {company}'s setup.")
 SMS_MAX_CHARS = 450
 SMS_MAX_CHARS_FIRST = 900   # first-ever message carries the intro line
 MAX_ITEMS_PER_MESSAGE = 3
@@ -315,47 +328,142 @@ def gather_items(company_id: str) -> list[dict]:
 
 # ---------------------------------------------------------------- GHL contact
 def linked_contact_id(company: dict) -> str | None:
-    """Durable linkage written by scripts/ghl_link.py."""
+    """Durable top-level linkage (ghl_link.py / ghl-sync-contact edge fn)."""
     return ((company.get("integration_settings") or {}).get("ghl_contact_id")
             or None)
 
 
-def resolve_contact(company: dict) -> dict | None:
-    """Find the client's GHL contact.
+def preferred_contact_entry(company: dict) -> dict | None:
+    """The preferred entry of integration_settings.contacts, or None.
 
-    Order: (1) durable integration_settings.ghl_contact_id linkage (source of
-    truth, written by scripts/ghl_link.py), (2) full-text search fallback by
-    company email, phone, then name — flagged LOUDLY because search matches
-    are best-effort guesses.
+    The app guarantees exactly one preferred=true; be defensive anyway:
+    preferred -> owner -> first entry.
     """
-    cid = linked_contact_id(company)
-    if cid:
+    contacts = (company.get("integration_settings") or {}).get("contacts")
+    if not isinstance(contacts, list):
+        return None
+    entries = [c for c in contacts if isinstance(c, dict)
+               and ((c.get("first_name") or "").strip()
+                    or (c.get("cell") or "").strip()
+                    or (c.get("email") or "").strip())]
+    if not entries:
+        return None
+    return (next((c for c in entries if c.get("preferred")), None)
+            or next((c for c in entries if c.get("role") == "owner"), None)
+            or entries[0])
+
+
+def messaging_target(company: dict) -> dict:
+    """WHO we message for this company.
+
+    Order: (1) integration_settings.contacts preferred entry, (2) the legacy
+    owner_first_name/owner_last_name/owner_cell keys, (3) the company row
+    itself (account_owner_name / phone / email).
+    Returns {role, first_name, last_name, cell, email, ghl_contact_id, source}.
+    """
+    settings = company.get("integration_settings") or {}
+    pref = preferred_contact_entry(company)
+    if pref:
+        return {
+            "role": pref.get("role") or "owner",
+            "first_name": (pref.get("first_name") or "").strip(),
+            "last_name": (pref.get("last_name") or "").strip(),
+            "cell": (pref.get("cell") or "").strip(),
+            "email": (pref.get("email") or "").strip(),
+            "ghl_contact_id": pref.get("ghl_contact_id") or None,
+            "source": "contacts[] preferred",
+        }
+    owner_parts = (company.get("account_owner_name") or "").strip().split()
+    first = (settings.get("owner_first_name") or "").strip() or (owner_parts[0] if owner_parts else "")
+    last = ((settings.get("owner_last_name") or "").strip()
+            or " ".join(owner_parts[1:]))
+    if (settings.get("owner_first_name") or settings.get("owner_cell")):
+        source = "legacy owner_* keys"
+    else:
+        source = "company row"
+    return {
+        "role": "owner",
+        "first_name": first,
+        "last_name": last,
+        "cell": (settings.get("owner_cell") or "").strip() or (company.get("phone") or ""),
+        "email": (company.get("email") or "").strip(),
+        "ghl_contact_id": None,  # per-entry id only lives in contacts[]
+        "source": source,
+    }
+
+
+def target_label(company: dict) -> str:
+    """'Jane Smith (owner)' — for status output / compose logs."""
+    t = messaging_target(company)
+    name = " ".join(x for x in (t["first_name"], t["last_name"]) if x) or "?"
+    return f"{name} ({t['role']})"
+
+
+def resolve_contact(company: dict) -> dict | None:
+    """Find the messaging target's GHL contact.
+
+    Order: (1) the preferred contacts[] entry's own ghl_contact_id, (2) the
+    durable top-level integration_settings.ghl_contact_id linkage, (3)
+    full-text search fallback by the target's email/cell, then company
+    email, phone, name — flagged LOUDLY because search matches are
+    best-effort guesses.
+    """
+    target = messaging_target(company)
+
+    def fetch(cid: str, what: str) -> dict | None:
         try:
             data = _ghl("GET", f"/contacts/{cid}")
             contact = (data or {}).get("contact") or data
             if contact and contact.get("id"):
                 return contact
-            print(f"  WARNING: linked GHL contact {cid} returned no record — "
-                  "falling back to search", file=sys.stderr)
+            print(f"  WARNING: {what} {cid} returned no record — "
+                  "falling back", file=sys.stderr)
         except RuntimeError as e:
-            print(f"  WARNING: linked GHL contact {cid} lookup failed ({e}) — "
-                  "falling back to search", file=sys.stderr)
-    for query in (company.get("email"), company.get("phone"), company.get("name")):
-        if not query or not str(query).strip():
+            print(f"  WARNING: {what} {cid} lookup failed ({e}) — "
+                  "falling back", file=sys.stderr)
+        return None
+
+    if target.get("ghl_contact_id"):
+        contact = fetch(target["ghl_contact_id"], "preferred contact's GHL id")
+        if contact:
+            return contact
+    cid = linked_contact_id(company)
+    if cid and cid != target.get("ghl_contact_id"):
+        contact = fetch(cid, "linked GHL contact")
+        if contact:
+            if target["source"] == "contacts[] preferred":
+                print(f"  WARNING: preferred contact entry has no working "
+                      f"ghl_contact_id — using the top-level linkage {cid} "
+                      f"(the OWNER's). Re-save the Contact Card in the app "
+                      f"to sync + link the preferred contact.", file=sys.stderr)
+            return contact
+    queries = [target.get("email"), target.get("cell"),
+               company.get("email"), company.get("phone"), company.get("name")]
+    seen: set[str] = set()
+    for query in queries:
+        q = str(query or "").strip()
+        if not q or q in seen:
             continue
+        seen.add(q)
         data = _ghl("GET", "/contacts/", params={
-            "locationId": _loc(), "query": str(query).strip(), "limit": 5})
+            "locationId": _loc(), "query": q, "limit": 5})
         contacts = data.get("contacts") or []
         if contacts:
-            print(f"  WARNING: {company.get('id')} has NO ghl_contact_id "
+            print(f"  WARNING: {company.get('id')} has NO working GHL "
                   f"linkage — resolved {contacts[0]['id']} via search "
-                  f"fallback. Run scripts/ghl_link.py to link durably.",
+                  f"fallback ({q!r}). Run scripts/ghl_link.py (or re-save "
+                  f"the Contact Card in the app) to link durably.",
                   file=sys.stderr)
             return contacts[0]
     return None
 
 
 def contact_first_name(contact: dict | None, company: dict) -> str:
+    # The preferred contact's own first name wins (they told us who to talk
+    # to); the GHL record and company row are fallbacks.
+    target = messaging_target(company)
+    if target.get("first_name"):
+        return target["first_name"].title()
     if contact and contact.get("firstName"):
         return contact["firstName"].strip().title()
     owner = (company.get("account_owner_name") or "").strip()
@@ -499,7 +607,13 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
         lines.append(f"{i}. [{it['kind']}] {it['text']}"
                      + (f" — context: {detail}" if detail else ""))
     sms_budget = SMS_MAX_CHARS_FIRST if first_contact else SMS_MAX_CHARS
-    intro = INTRO_TEMPLATE.format(first=first_name)
+    # Office/day-to-day preferred contact gets the "finish {Company}'s setup"
+    # intro — it's not their account, they're helping us finish the setup.
+    if messaging_target(company).get("role") == "office":
+        intro = INTRO_TEMPLATE_OFFICE.format(first=first_name,
+                                             company=company["name"])
+    else:
+        intro = INTRO_TEMPLATE.format(first=first_name)
     user = (f"Client: {company['name']} (first name: {first_name})\n"
             f"Channel: {channel} (character budget for SMS: {sms_budget})\n"
             f"FIRST CONTACT: {'yes' if first_contact else 'no'}\n"
@@ -532,7 +646,9 @@ def cmd_compose(args) -> int:
     cs = company_state(state, args.company)
     first_contact = not cs.get("first_contacted")
     print(f"Company: {company['name']} ({args.company})")
-    linked = linked_contact_id(company)
+    target = messaging_target(company)
+    print(f"Messaging target: {target_label(company)} — via {target['source']}")
+    linked = target.get("ghl_contact_id") or linked_contact_id(company)
     print(f"GHL contact: "
           + (f"{contact['id']} ({contact.get('contactName')}, "
              f"{contact.get('phone')}, {contact.get('email')})" if contact
@@ -597,26 +713,33 @@ def cmd_status(_args) -> int:
             nxt = next_eligible(cs).strftime("%Y-%m-%d")
         else:
             nxt = "now (business hrs)"
-        link = linked_contact_id(co) if co.get("integration_settings") is not None else None
+        has_settings = co.get("integration_settings") is not None
+        target = messaging_target(co) if has_settings else None
+        link = ((target or {}).get("ghl_contact_id")
+                or (linked_contact_id(co) if has_settings else None))
         if not link:
             unlinked.append((cid, co["name"]))
-        rows.append((cid, co["name"][:34], n_intake, n_asks, last, nudges, nxt,
-                     "yes" if link else "NO"))
+        rows.append((cid, co["name"][:30], n_intake, n_asks, last, nudges, nxt,
+                     "yes" if link else "NO",
+                     (target_label(co) if has_settings else "?")[:26]))
 
-    hdr = (f"{'company':<20} {'name':<34} {'intake':>6} {'asks':>4} "
-           f"{'last contact':<16} {'n':>2} {'ghl':>3} {'next eligible':<20}")
+    hdr = (f"{'company':<20} {'name':<30} {'target (who we message)':<26} "
+           f"{'intake':>6} {'asks':>4} {'last contact':<16} {'n':>2} "
+           f"{'ghl':>3} {'next eligible':<20}")
     print(hdr)
     print("-" * len(hdr))
     for r in rows:
-        print(f"{r[0]:<20} {r[1]:<34} {r[2]:>6} {r[3]:>4} {r[4]:<16} "
-              f"{r[5]:>2} {r[7]:>3} {r[6]:<20}")
+        print(f"{r[0]:<20} {r[1]:<30} {r[8]:<26} {r[2]:>6} {r[3]:>4} "
+              f"{r[4]:<16} {r[5]:>2} {r[7]:>3} {r[6]:<20}")
     print(f"\n{len(rows)} client(s) with outstanding items "
           f"({len(intake)} intake, {len(asks)} asks). "
           f"Allowlist entries: {len(allowed_recipients())}.")
     for cid, name in unlinked:
-        print(f"!! WARNING: {name} ({cid}) has NO GHL linkage "
-              f"(integration_settings.ghl_contact_id) — sends would rely on "
-              f"search guessing. Fix with: python3 scripts/ghl_link.py link")
+        print(f"!! WARNING: {name} ({cid}) has NO GHL linkage (no "
+              f"ghl_contact_id on the preferred contacts[] entry or "
+              f"top-level) — sends would rely on search guessing. Fix with: "
+              f"python3 scripts/ghl_link.py link (or re-save the app's "
+              f"Contact Card).")
     return 0
 
 
@@ -793,9 +916,10 @@ def cmd_inbound(args) -> int:
                     f"They just answered: {msg['body'][:400]}\n{nxt}")
                 print(f"    reply draft: {reply.get('body', '')!r}")
                 if args.send:
+                    target = messaging_target(company)
                     contact = {"id": contact_id,
-                               "phone": company.get("phone"),
-                               "email": company.get("email")}
+                               "phone": target.get("cell") or company.get("phone"),
+                               "email": target.get("email") or company.get("email")}
                     try:
                         send_message(contact, msg["channel"],
                                      reply.get("body", ""))
