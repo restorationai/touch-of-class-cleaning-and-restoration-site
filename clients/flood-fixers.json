@@ -21,7 +21,7 @@
     "custom_domain": "images.flood-fixers.com"
   },
   "status": "active",
-  "video_publish_mode": "unlisted",
+  "video_publish_mode": "public",
   "created_at": "2026-06-29T20:08:03.446673+00:00",
   "updated_at": "2026-07-09T18:00:10.587552+00:00",
   "plan_status": "planned",
