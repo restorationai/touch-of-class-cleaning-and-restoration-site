@@ -1,7 +1,7 @@
 ---
 import { ArrowRightCircle } from '@lucide/astro';
 import { brand } from '~/lib/brand';
-import { srcsetFor } from '~/lib/images';
+import { serviceImage, srcsetFor } from '~/lib/images';
 import type { CollectionEntry } from 'astro:content';
 
 type Props = {
@@ -29,7 +29,7 @@ const { services } = Astro.props;
       {services.map((s, index) => {
         const imageIndex = (index % 6) + 1;
         // Fallback to gallery images if no service hero is defined
-        const imageUrl = s.data.hero || `/images/gallery/img${imageIndex}.webp`;
+        const imageUrl = s.data.hero || serviceImage(s.data.service_slug, `/images/gallery/img${imageIndex}.webp`);
         const img = srcsetFor(imageUrl);
 
         return (

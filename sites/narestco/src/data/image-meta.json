@@ -62,12 +62,39 @@
       1200
     ]
   },
+  "/images/services/appliance-leak-cleanup.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/basement-flooding-cleanup.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
   "/images/services/biohazard-cleanup.webp": {
     "width": 1024,
     "height": 1024,
     "variants": [
       480,
       768
+    ]
+  },
+  "/images/services/burst-pipe-repair.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
     ]
   },
   "/images/services/fire-damage-restoration.webp": {
@@ -78,6 +105,24 @@
       768
     ]
   },
+  "/images/services/flood-damage-restoration.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/frozen-pipe-restoration.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
   "/images/services/general-contracting.webp": {
     "width": 1024,
     "height": 1024,
@@ -86,12 +131,75 @@
       768
     ]
   },
+  "/images/services/mold-inspection-testing.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
   "/images/services/mold-remediation.webp": {
     "width": 1024,
     "height": 1024,
     "variants": [
       480,
       768
+    ]
+  },
+  "/images/services/odor-removal.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/reconstruction.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/roof-leak-repair.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/sewage-cleanup.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/smoke-damage-restoration.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/soot-removal.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
     ]
   },
   "/images/services/storm-damage-restoration.webp": {

@@ -9,6 +9,7 @@ import DispatchCallout from "~/components/ui/DispatchCallout.astro";
 import GbpCityProof from "~/components/ui/GbpCityProof.astro";
 import Hero from "~/components/ui/Hero.astro";
 import { brand } from "~/lib/brand";
+import { serviceImage } from "~/lib/images";
 import { dispatchSentence, is247 } from "~/lib/dispatch";
 
 export async function getStaticPaths() {
@@ -23,7 +24,7 @@ const { entry } = Astro.props;
 const { Content } = await entry.render();
 const data = entry.data;
 const isSensitive = data.content_guardrails === "sensitive";
-const heroImage = data.hero || `${brand.imagesBase}/brand/hero.webp`;
+const heroImage = data.hero || serviceImage(data.service_slug, `${brand.imagesBase}/brand/hero.webp`);
 
 // The quotable dispatch claim — rendered as a callout right after the hero AND
 // repeated verbatim in the LocalBusiness schema description (competitor
@@ -85,6 +86,7 @@ const faq = [...responseFaq, ...baseFaq, ...insuranceFaq];
     ctaText={isSensitive ? "Request Discreet Help" : `📞 Call ${brand.phone}`}
     ctaLink={`tel:${brand.phoneRaw}`}
     isSensitive={isSensitive}
+    backgroundImage={heroImage.startsWith("/images/") ? heroImage : undefined}
   />
 
   <!-- BODY -->

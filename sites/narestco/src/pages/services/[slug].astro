@@ -6,6 +6,7 @@ import FAQSection from "~/components/FAQSection.astro";
 import InternalLinks from "~/components/InternalLinks.astro";
 import Hero from "~/components/ui/Hero.astro";
 import { brand } from "~/lib/brand";
+import { serviceImage } from "~/lib/images";
 
 export async function getStaticPaths() {
   const services = await getCollection("services");
@@ -15,7 +16,7 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { Content } = await entry.render();
 const data = entry.data;
-const heroImage = data.hero || `${brand.imagesBase}/brand/hero.webp`;
+const heroImage = data.hero || serviceImage(data.service_slug, `${brand.imagesBase}/brand/hero.webp`);
 
 // Exact-query capsule — matches "best {service} company in {city}" phrasing
 // verbatim for lexical retrieval (AI assistants, featured snippets). Every claim
@@ -55,7 +56,7 @@ const isSensitive = data.content_guardrails === "sensitive";
   breadcrumb={data.breadcrumb}
   faq={data.faq}
 >
-  <Hero title={data.h1} subtitle={data.meta_description} ctaText={`📞 Call ${brand.phone}`} ctaLink={`tel:${brand.phoneRaw}`} isSensitive={isSensitive} />
+  <Hero title={data.h1} subtitle={data.meta_description} ctaText={`📞 Call ${brand.phone}`} ctaLink={`tel:${brand.phoneRaw}`} isSensitive={isSensitive} backgroundImage={heroImage.startsWith("/images/") ? heroImage : undefined} />
 
   <!-- BODY -->
   <section class="section-first bg-dark">
