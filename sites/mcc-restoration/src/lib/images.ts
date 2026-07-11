@@ -33,3 +33,16 @@ export function srcsetFor(src: string): ResponsiveImgAttrs {
   attrs.srcset = parts.join(", ");
   return attrs;
 }
+
+/**
+ * Per-service imagery — resolve /images/services/{service_slug}.webp when the
+ * responsive-images pass (scripts/resize_images.py) has verified it exists
+ * (i.e. it appears in image-meta.json). Otherwise return the caller's
+ * fallback (shared services.webp card image or the brand hero), so pages
+ * render exactly as before for services without a dedicated image.
+ */
+export function serviceImage(serviceSlug: string | undefined, fallback: string): string {
+  if (!serviceSlug) return fallback;
+  const local = `/images/services/${serviceSlug}.webp`;
+  return meta[local] ? local : fallback;
+}
