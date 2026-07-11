@@ -9,10 +9,27 @@ sends through GoHighLevel, understands the replies, and writes matched
 answers back into `client_intake_items` (status=answered, answer={"value":…},
 answered_at) so the EXISTING client_ops_sync handlers apply them downstream.
 
+CONVERSATION-HISTORY AWARENESS
+    Every compose/classify decision is grounded in the contact's real GHL
+    conversation history (fetch_history: all conversations merged, newest
+    first, normalized to sms/email/call/other; calls shown as "[phone call]",
+    email bodies trimmed to ~500 chars). Compose mirrors the client's texting
+    tone, never re-asks something the history shows they already answered
+    (those items are excluded and escalated as "history suggests already
+    answered: …"), and never talks over a human: if the newest OUTBOUND
+    message in the thread was not sent by the concierge (sent message ids are
+    tracked in the state file — any outbound we didn't send = a human, e.g.
+    Santino, incl. calls) and is <24h old, the nudge is skipped for the cycle
+    ("recent human conversation — deferred"). Inbound classification receives
+    the last ~10 history messages as context so short replies like "yes" or
+    "the second one" disambiguate correctly.
+
 Subcommands
     status                       Table of every tracked client: pending intake
                                  count, open client_input asks, last concierge
-                                 contact, nudges used, next eligible date.
+                                 contact, nudges used, next eligible date,
+                                 history (message count + days since last
+                                 exchange; needs GHL env, else "-").
     compose --company CO-…       Draft ONE consolidated message for a client
         [--channel sms|email]    (max 3 items, highest priority first, always
         [--send]                 ends with the app self-serve alternative).
@@ -51,7 +68,9 @@ Cadence guardrails (enforced in code at send time)
       (default America/Los_Angeles)
 
 State: clients/_ops/concierge-state.json — per-company contact bookkeeping
-(ghl_contact_id, last_contacted, nudge_count) + the inbound message cursor.
+(ghl_contact_id, last_contacted, nudge_count) + the inbound message cursor
++ sent_message_ids (every GHL message id the concierge itself delivered —
+the ground truth for "was that outbound one of ours or a human?").
 Committed by the workflow (no secrets in it — GHL contact ids + timestamps).
 Escalations: clients/_ops/concierge-escalations.md (append-only).
 
@@ -137,6 +156,10 @@ SMS_MAX_CHARS = 450
 SMS_MAX_CHARS_FIRST = 900   # first-ever message carries the intro line
 MAX_ITEMS_PER_MESSAGE = 3
 MIN_DAYS_BETWEEN_SENDS = 3
+HISTORY_MAX_MSGS = 25          # default fetch_history depth for compose/status
+CLASSIFY_HISTORY_MSGS = 10     # history context given to inbound classification
+HISTORY_EMAIL_TRIM = 500       # chars kept per email body (threads get long)
+HUMAN_DEFER_HOURS = 24         # human outbound newer than this => skip nudge
 MAX_NUDGES = 4
 BUSINESS_HOUR_START = 9
 BUSINESS_HOUR_END = 18
@@ -235,8 +258,12 @@ def anthropic_json(system: str, user: str, *, max_tokens: int = 1500) -> dict:
 # ---------------------------------------------------------------- state
 def load_state() -> dict:
     if STATE_PATH.exists():
-        return json.loads(STATE_PATH.read_text())
-    return {"inbound_cursor": None, "companies": {}}
+        state = json.loads(STATE_PATH.read_text())
+        # scaffold for older state files: ids of every message WE delivered
+        # via send_message — outbound messages not in here are a human's.
+        state.setdefault("sent_message_ids", [])
+        return state
+    return {"inbound_cursor": None, "companies": {}, "sent_message_ids": []}
 
 
 def save_state(state: dict, dry_run: bool) -> None:
@@ -251,6 +278,95 @@ def company_state(state: dict, company_id: str) -> dict:
     return state["companies"].setdefault(company_id, {
         "ghl_contact_id": None, "last_contacted": None, "first_contacted": None,
         "nudge_count": 0, "last_channel": None})
+
+
+def sent_message_ids(state: dict) -> set[str]:
+    return {i for i in state.get("sent_message_ids", []) if i}
+
+
+def record_sent_message(state: dict, result: dict | None) -> None:
+    """Track the GHL id(s) of a message WE just delivered.
+
+    This is the ground truth for the human-conversation check: any outbound
+    message in a thread whose id is NOT in state.sent_message_ids was sent by
+    a human (Santino / the app's automations acting as him), not the
+    concierge. Empty until the first real send by design."""
+    ids = state.setdefault("sent_message_ids", [])
+    for key in ("messageId", "emailMessageId"):
+        mid = (result or {}).get(key)
+        if mid and mid not in ids:
+            ids.append(mid)
+
+
+# ---------------------------------------------------------------- history
+def fetch_history(contact_id: str, max_msgs: int = HISTORY_MAX_MSGS) -> list[dict]:
+    """The contact's full cross-conversation message history, newest first.
+
+    Pulls every conversation for the contact, merges the messages and
+    normalizes each to {id, when: datetime, direction: "in"|"out",
+    channel: "sms"|"email"|"call"|"other", body}. Calls carry no body and are
+    represented as "[phone call]"; email bodies are trimmed to the first
+    ~HISTORY_EMAIL_TRIM chars (reply threads get enormous). TYPE_ACTIVITY_*
+    rows (opportunity/appointment system events) are dropped — they are not
+    messages anyone wrote."""
+    convs = _ghl("GET", "/conversations/search", params={
+        "locationId": _loc(), "contactId": contact_id, "limit": 20})
+    merged: list[dict] = []
+    for conv in convs.get("conversations", []) or []:
+        data = _ghl("GET", f"/conversations/{conv['id']}/messages",
+                    params={"limit": max(50, max_msgs * 2)})
+        for msg in (data.get("messages") or {}).get("messages", []) or []:
+            mtype = msg.get("messageType") or ""
+            if mtype.startswith("TYPE_ACTIVITY"):
+                continue
+            try:
+                when = datetime.fromisoformat(
+                    (msg.get("dateAdded") or "").replace("Z", "+00:00"))
+            except ValueError:
+                continue
+            channel = {"TYPE_SMS": "sms", "TYPE_EMAIL": "email",
+                       "TYPE_CALL": "call"}.get(mtype, "other")
+            body = (msg.get("body") or "").strip()
+            if channel == "call":
+                body = "[phone call]"
+            elif channel == "email":
+                body = body[:HISTORY_EMAIL_TRIM]
+            if not body:
+                continue
+            merged.append({
+                "id": msg.get("id"), "when": when,
+                "direction": "in" if msg.get("direction") == "inbound" else "out",
+                "channel": channel, "body": body})
+    merged.sort(key=lambda m: m["when"], reverse=True)
+    return merged[:max_msgs]
+
+
+def format_history(history: list[dict]) -> str:
+    """Prompt-ready rendering, newest first ('them' = the client, 'us' = our side)."""
+    return "\n".join(
+        f"{m['when'].strftime('%Y-%m-%d %H:%M')} "
+        f"{'them' if m['direction'] == 'in' else 'us'} ({m['channel']}): {m['body']}"
+        for m in history)
+
+
+def human_conversation_deferral(history: list[dict], state: dict) -> str | None:
+    """Reason to skip this cycle's nudge, or None.
+
+    If the newest OUTBOUND message in the thread was not sent by the
+    concierge (its id is not in state.sent_message_ids — so a human wrote it
+    or made the call) and it is < HUMAN_DEFER_HOURS old, the concierge stays
+    quiet: never talk over Santino mid-conversation."""
+    ours = sent_message_ids(state)
+    last_out = next((m for m in history if m["direction"] == "out"), None)
+    if not last_out or (last_out["id"] and last_out["id"] in ours):
+        return None
+    age = datetime.now(timezone.utc) - last_out["when"]
+    if age < timedelta(hours=HUMAN_DEFER_HOURS):
+        return ("recent human conversation — deferred (human outbound "
+                f"{last_out['channel']} at "
+                f"{last_out['when'].strftime('%Y-%m-%d %H:%M UTC')}, "
+                f"{age.total_seconds() / 3600:.1f}h ago)")
+    return None
 
 
 # ---------------------------------------------------------------- data pulls
@@ -593,18 +709,36 @@ Rules:
   links other than the optional setup link.
 - Email: give a short subject (<= 60 chars) and a slightly fuller body
   (still under ~140 words), sign off as "— Santino's team at Rank AI".
-Return ONLY a JSON object: {"subject": string|null, "body": string}.
+
+HISTORY RULES (apply when a "Recent conversation history" block is provided):
+- Match the tone and formality of the prior successful exchanges with this
+  person — mirror how they text. Short casual texter gets short casual
+  sentences; formal emailer gets fuller sentences. Same warmth either way.
+- NEVER re-ask something the history shows they already answered. If the
+  history contains an apparent answer to one of the outstanding items, leave
+  that item OUT of the message body entirely and report it in
+  "history_answered" with the item id and a one-line paraphrased summary of
+  the evidence (never a verbatim quote of their message).
+- Reference recent context naturally when it genuinely helps ("Great talking
+  to you last week about the site") — but never quote private history
+  verbatim and never recite details back at them.
+
+Return ONLY a JSON object:
+{"subject": string|null, "body": string,
+ "history_answered": [{"item_id": string, "evidence": string}]}
+"history_answered" is [] when nothing in the history answers an item.
 Keep drafting deterministic: choose the most natural single phrasing, no
 alternatives or commentary."""
 
 
 def compose_draft(company: dict, first_name: str, items: list[dict],
-                  channel: str, first_contact: bool) -> dict:
+                  channel: str, first_contact: bool,
+                  history: list[dict] | None = None) -> dict:
     chosen = items[:MAX_ITEMS_PER_MESSAGE]
     lines = []
     for i, it in enumerate(chosen, 1):
         detail = (it["detail"] or "")[:300]
-        lines.append(f"{i}. [{it['kind']}] {it['text']}"
+        lines.append(f"{i}. id={it['id']} [{it['kind']}] {it['text']}"
                      + (f" — context: {detail}" if detail else ""))
     sms_budget = SMS_MAX_CHARS_FIRST if first_contact else SMS_MAX_CHARS
     # Office/day-to-day preferred contact gets the "finish {Company}'s setup"
@@ -614,11 +748,18 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
                                              company=company["name"])
     else:
         intro = INTRO_TEMPLATE.format(first=first_name)
+    history_block = ""
+    if history:
+        history_block = (
+            "\nRecent conversation history with this person (newest first; "
+            "'them' = the client, 'us' = anyone on our side):\n"
+            + format_history(history) + "\n")
     user = (f"Client: {company['name']} (first name: {first_name})\n"
             f"Channel: {channel} (character budget for SMS: {sms_budget})\n"
             f"FIRST CONTACT: {'yes' if first_contact else 'no'}\n"
             + (f"Intro line to open with, exactly: \"{intro}\"\n"
                if first_contact else "")
+            + history_block
             + f"Outstanding items (priority order, cover all of these and "
             f"nothing else):\n" + "\n".join(lines) +
             f"\n\nEnd with exactly: \"{APP_SELF_SERVE}\"")
@@ -626,8 +767,10 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
     body = (draft.get("body") or "").strip()
     if channel == "sms" and len(body) > sms_budget:
         body = body[:sms_budget - 1].rsplit(" ", 1)[0] + "…"
+    flagged = [f for f in (draft.get("history_answered") or [])
+               if isinstance(f, dict) and f.get("item_id")]
     return {"subject": (draft.get("subject") or None), "body": body,
-            "items": chosen}
+            "items": chosen, "history_answered": flagged}
 
 
 def cmd_compose(args) -> int:
@@ -657,13 +800,47 @@ def cmd_compose(args) -> int:
     print(f"First contact: {'yes — intro line required' if first_contact else 'no'}")
     print(f"Outstanding items: {len(items)} (messaging top {min(len(items), MAX_ITEMS_PER_MESSAGE)})")
 
-    draft = compose_draft(company, first, items, args.channel, first_contact)
+    history = fetch_history(contact["id"]) if contact else []
+    if history:
+        newest = history[0]
+        print(f"History: {len(history)} message(s), newest "
+              f"{newest['when'].strftime('%Y-%m-%d %H:%M UTC')} "
+              f"({newest['channel']}, "
+              f"{'them' if newest['direction'] == 'in' else 'us'})")
+    else:
+        print("History: none found")
+
+    # Never talk over a human: newest outbound not sent by the concierge and
+    # <24h old means Santino (or someone on the team) is mid-conversation.
+    defer_reason = human_conversation_deferral(history, state)
+    if defer_reason:
+        print(f"\nDEFERRED: {defer_reason}")
+        append_escalation(company, None, defer_reason, dry_run=not args.send)
+        if args.send:
+            print("[nudge skipped this cycle — no draft, no send]")
+            return 0
+        print("[dry run: a real cycle would SKIP here — drafting anyway for "
+              "inspection]")
+
+    draft = compose_draft(company, first, items, args.channel, first_contact,
+                          history=history)
     print("\n" + "=" * 62)
     if draft["subject"] and args.channel == "email":
         print(f"Subject: {draft['subject']}")
     print(draft["body"])
     print("=" * 62)
     print(f"({len(draft['body'])} chars, channel={args.channel})")
+
+    # Items the history shows were already answered: excluded from the body
+    # by the compose model; escalate so a human backfills the DB.
+    for flag in draft["history_answered"]:
+        it = next((i for i in draft["items"] if i["id"] == flag["item_id"]), None)
+        label = it["text"] if it else flag["item_id"]
+        reason = (f"history suggests already answered: {label} — "
+                  f"{flag.get('evidence') or 'see thread'} "
+                  f"(item excluded from the nudge; verify + record the answer)")
+        print(f"ESCALATION: {reason}")
+        append_escalation(company, None, reason, dry_run=not args.send)
 
     if not args.send:
         print("\n[draft only — pass --send to deliver (canary gate applies)]")
@@ -677,10 +854,12 @@ def cmd_compose(args) -> int:
         print("\nSEND REFUSED: no GHL contact resolved", file=sys.stderr)
         return 1
     try:
-        send_message(contact, args.channel, draft["body"], draft["subject"])
+        result = send_message(contact, args.channel, draft["body"],
+                              draft["subject"])
     except SendBlocked as e:
         print(f"\nSEND BLOCKED: {e}", file=sys.stderr)
         return 1
+    record_sent_message(state, result)
     now = datetime.now(timezone.utc).isoformat()
     cs.update({"ghl_contact_id": contact["id"],
                "last_contacted": now,
@@ -719,18 +898,34 @@ def cmd_status(_args) -> int:
                 or (linked_contact_id(co) if has_settings else None))
         if not link:
             unlinked.append((cid, co["name"]))
+        # history column: message count + days since last exchange. Best
+        # effort — needs GHL env (status alone doesn't) and a known contact.
+        ghl_ok = bool(os.environ.get("GHL_API_KEY")
+                      and os.environ.get("GHL_LOCATION_ID"))
+        hist_contact = cs.get("ghl_contact_id") or link
+        hist = "-"
+        if ghl_ok and hist_contact:
+            try:
+                h = fetch_history(hist_contact)
+                if h:
+                    days = (datetime.now(timezone.utc) - h[0]["when"]).days
+                    hist = f"{len(h)}m/{days}d"
+                else:
+                    hist = "0m"
+            except RuntimeError:
+                hist = "err"
         rows.append((cid, co["name"][:30], n_intake, n_asks, last, nudges, nxt,
                      "yes" if link else "NO",
-                     (target_label(co) if has_settings else "?")[:26]))
+                     (target_label(co) if has_settings else "?")[:26], hist))
 
     hdr = (f"{'company':<20} {'name':<30} {'target (who we message)':<26} "
            f"{'intake':>6} {'asks':>4} {'last contact':<16} {'n':>2} "
-           f"{'ghl':>3} {'next eligible':<20}")
+           f"{'ghl':>3} {'history':<8} {'next eligible':<20}")
     print(hdr)
     print("-" * len(hdr))
     for r in rows:
         print(f"{r[0]:<20} {r[1]:<30} {r[8]:<26} {r[2]:>6} {r[3]:>4} "
-              f"{r[4]:<16} {r[5]:>2} {r[7]:>3} {r[6]:<20}")
+              f"{r[4]:<16} {r[5]:>2} {r[7]:>3} {r[9]:<8} {r[6]:<20}")
     print(f"\n{len(rows)} client(s) with outstanding items "
           f"({len(intake)} intake, {len(asks)} asks). "
           f"Allowlist entries: {len(allowed_recipients())}.")
@@ -761,6 +956,10 @@ Few-shot guide:
   value "confirmed", matches a customer-list/checklist item.
 - "who is this?" / "stop texting me" /
   "call me" / anything angry or unrelated      -> no match; escalate.
+
+A "Recent conversation history" block may be provided — use it to work out
+what a short reply ("yes", "the second one", "that works") is answering; the
+reply usually responds to the most recent thing WE asked in the thread.
 
 Return ONLY JSON:
 {"matches": [{"item_id": "<id from the list>", "value": "<extracted answer>",
@@ -836,12 +1035,16 @@ def resolve_plan_row(row_id: str, dry_run: bool) -> None:
         {"status": "resolved"}, prefer="return=minimal")
 
 
-def append_escalation(company: dict, msg: dict, reason: str, dry_run: bool) -> None:
+def append_escalation(company: dict, msg: dict | None, reason: str,
+                      dry_run: bool) -> None:
+    """Append one escalation block. msg is the triggering inbound message when
+    there is one; compose-side escalations (history-answered items, human-
+    conversation deferrals) pass msg=None."""
     stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     block = (f"\n## {stamp} — {company.get('name', '?')} ({company.get('id', '?')})\n"
-             f"- Channel: {msg['channel']}  Message id: {msg['id']}\n"
-             f"- Reply: {msg['body'][:400]!r}\n"
-             f"- Reason: {reason}\n")
+             + (f"- Channel: {msg['channel']}  Message id: {msg['id']}\n"
+                f"- Reply: {msg['body'][:400]!r}\n" if msg else "")
+             + f"- Reason: {reason}\n")
     if dry_run:
         print(f"    [dry-run] would append escalation:{block}")
         return
@@ -875,6 +1078,13 @@ def cmd_inbound(args) -> int:
         if not msgs:
             continue
         open_items = gather_items(company_id)
+        # Last ~10 history messages disambiguate short replies ("yes",
+        # "the second one") against what was actually asked.
+        history = fetch_history(contact_id, max_msgs=CLASSIFY_HISTORY_MSGS)
+        history_block = (
+            f"\n\nRecent conversation history (newest first; 'them' = the "
+            f"client, 'us' = our side) — use it to disambiguate short "
+            f"replies:\n{format_history(history)}" if history else "")
         for msg in msgs:
             handled_any = True
             print(f"\n  {company['name']}: inbound {msg['channel']} "
@@ -884,7 +1094,8 @@ def cmd_inbound(args) -> int:
                 f"q={it['text'][:110]!r}" for it in open_items) or "(none)"
             result = anthropic_json(
                 CLASSIFY_SYSTEM,
-                f"Open items for {company['name']}:\n{item_list}\n\n"
+                f"Open items for {company['name']}:\n{item_list}"
+                f"{history_block}\n\n"
                 f"Inbound reply:\n{msg['body'][:1200]}")
             matched_ids = set()
             for match in result.get("matches", []):
@@ -921,8 +1132,9 @@ def cmd_inbound(args) -> int:
                                "phone": target.get("cell") or company.get("phone"),
                                "email": target.get("email") or company.get("email")}
                     try:
-                        send_message(contact, msg["channel"],
-                                     reply.get("body", ""))
+                        sent = send_message(contact, msg["channel"],
+                                            reply.get("body", ""))
+                        record_sent_message(state, sent)
                     except SendBlocked as e:
                         print(f"    SEND BLOCKED: {e}")
 
@@ -983,8 +1195,10 @@ def cmd_canary(args) -> int:
     company = companies[CANARY_COMPANY_ID]
     items = gather_items(CANARY_COMPANY_ID)
     cs_peek = state["companies"].get(CANARY_COMPANY_ID, {})
+    history = fetch_history(contact["id"])
     draft = compose_draft(company, "Canary", items, args.channel,
-                          first_contact=not cs_peek.get("first_contacted"))
+                          first_contact=not cs_peek.get("first_contacted"),
+                          history=history)
     print("\n" + "=" * 62)
     if draft["subject"] and args.channel == "email":
         print(f"Subject: {draft['subject']}")
@@ -1000,10 +1214,12 @@ def cmd_canary(args) -> int:
                     "phone": contact.get("phone") or args.phone,
                     "email": contact.get("email") or args.email}
     try:
-        send_message(send_contact, args.channel, draft["body"], draft["subject"])
+        result = send_message(send_contact, args.channel, draft["body"],
+                              draft["subject"])
     except SendBlocked as e:
         print(f"SEND BLOCKED: {e}", file=sys.stderr)
         return 1
+    record_sent_message(state, result)
     now = datetime.now(timezone.utc).isoformat()
     cs.update({"ghl_contact_id": contact["id"],
                "last_contacted": now,
