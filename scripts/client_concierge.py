@@ -290,7 +290,7 @@ def _loc() -> str:
     return os.environ["GHL_LOCATION_ID"]
 
 
-def anthropic_json(system: str, user: str, *, max_tokens: int = 1500) -> dict:
+def anthropic_json(system: str, user: str, *, max_tokens: int = 4000) -> dict:
     """One Messages call, expects a single JSON object in the reply."""
     resp = requests.post(ANTHROPIC_API, timeout=120, headers={
         "x-api-key": os.environ["ANTHROPIC_API_KEY"],
