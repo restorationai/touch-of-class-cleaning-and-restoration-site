@@ -1,5 +1,5 @@
 ---
-hero: "/services/general-contracting.webp"
+hero: "/images/services/general-contracting.webp"
 archetype: "service-landing"
 title: "Renovations, Remodels and General Contracting in San Diego | Flood Fixers"
 h1: "Renovations, Remodels and General Contracting in San Diego"

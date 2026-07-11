@@ -1,5 +1,5 @@
 ---
-hero: "/services/basement-flooding-cleanup.webp"
+hero: "/images/services/basement-flooding-cleanup.webp"
 archetype: "service-landing"
 title: "Basement Flooding Cleanup in San Diego | Flood Fixers"
 h1: "Basement Flooding Cleanup in San Diego"

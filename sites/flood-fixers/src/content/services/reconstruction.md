@@ -1,5 +1,5 @@
 ---
-hero: "/services/reconstruction.webp"
+hero: "/images/services/reconstruction.webp"
 archetype: "service-landing"
 title: "Reconstruction Services in San Diego | Flood Fixers"
 h1: "Reconstruction Services in San Diego"

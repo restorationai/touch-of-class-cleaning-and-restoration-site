@@ -1,5 +1,5 @@
 ---
-hero: "/services/burst-pipe-repair.webp"
+hero: "/images/services/burst-pipe-repair.webp"
 archetype: "service-landing"
 title: "Burst Pipe Cleanup and Repair in San Diego | Flood Fixers"
 h1: "Burst Pipe Cleanup and Repair in San Diego"
