@@ -81,6 +81,21 @@ SITES = {
         "bucket": "rankai-davis-construction",
         "images_base": "https://images.davisconstructioncontractors.com",
     },
+    # Preview-stage clients (Pages *-preview projects). Their images.{domain}
+    # R2 hosts don't resolve yet — the R2 pass HEAD-fails and skips gracefully;
+    # local variants + manifest still generate.
+    "restoration-groups": {
+        "bucket": "rankai-restoration-groups",
+        "images_base": "https://images.restorationgroups.com",
+    },
+    "mcc-restoration": {
+        "bucket": "rankai-mcc-restoration",
+        "images_base": "https://images.mccrestoration.com",
+    },
+    "aaa-water-damage": {
+        "bucket": "rankai-aaa-water-damage",
+        "images_base": "https://images.aaawaterdamagehawaii.com",
+    },
 }
 
 # R2 keys every site may have; 404s are skipped gracefully.
@@ -151,8 +166,11 @@ def local_targets(site_dir: Path) -> list[Path]:
     patterns = [
         "hero-bg.webp",
         "team.webp", "team.png",
+        "crew.webp",
+        "services.webp",
         "services/*.webp",
         "gallery/img*.webp",
+        "work/*.webp",
         "before-after/*.png", "before-after/*.webp",
     ]
     for pat in patterns:
