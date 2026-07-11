@@ -7,3 +7,8 @@ Attendees: Jeff Sibley, Santino.
 - Address + legal-name intake answers EXIST in the docs Jeff shared on the call (CP575/W9) — do NOT re-ask Jeff for address or legal name; escalate "verify from call docs" instead.
 - Logo already provided 7/9.
 - Concierge guidance: remaining true asks = domain choice (mccrestoration.com assumed) + contractor license number. Do NOT ask for address/legal-name (in call docs) or logo (provided). The GBP appeal is what Jeff cares about — reference that we're watching it (status expected ~7/13) when messaging him.
+
+## UPDATE 2026-07-11 (GHL thread + API verification)
+- **GBP REINSTATED as of 2026-07-09** — Jeff texted: listing up and running again, NAME CHANGE still pending Google review. Do NOT say we're "waiting to hear back" — congratulate instead. (Old "expect ~7/13" line above is STALE.)
+- Jeff connected Google in the app on 7/9, BUT the connected Gmail manages ZERO GBP locations (API-verified). The reinstated listing lives on a different Google account. TRUE ASK: reconnect using the Google account that owns the reinstated MCC listing (send him the connect link again, tell him to pick the account he uses for Google Business).
+- Site preview link was already sent to Jeff on 7/9.

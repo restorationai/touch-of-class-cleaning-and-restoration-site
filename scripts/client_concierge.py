@@ -162,9 +162,8 @@ ANTHROPIC_MODEL = "claude-sonnet-5"
 UA = "rank-ai-client-concierge/1.0"
 
 # Required closing pattern (Santino's copy): reply-first, then self-serve.
-APP_SELF_SERVE = ("Just reply here and I'll add it all in for you! "
-                  "Or do it yourself: log in at app.restorationai.io and "
-                  "click the 'Setup Guide' button at the top.")
+APP_SELF_SERVE = ("Just reply here and I'll add it all in for you — "
+                  "or email it to setup@restorationai.io.")
 APP_SETUP_LINK = "https://app.restorationai.io/?setup=1"   # auto-opens the guide
 INTRO_TEMPLATE = ("Hi {first}, this is the onboarding assistant from "
                   "Santino's team at Rank AI — I help get everything set up "
@@ -874,14 +873,14 @@ Rules:
 - Cover AT MOST the items given (they are already priority-ordered). Weave
   them in conversationally — short sentences or a compact list, not a form.
 - Never invent items, prices, or deadlines. Never promise work.
-- REQUIRED CLOSING PATTERN — every message ends with EXACTLY this, reply-first
-  line then self-serve line, word for word:
-  "Just reply here and I'll add it all in for you! Or do it yourself: log in
-  at app.restorationai.io and click the 'Setup Guide' button at the top."
-  (Its single exclamation point is part of the required copy and is the only
-  one allowed in the message.) If (and only if) you include a clickable link
-  to the app, the link must be exactly https://app.restorationai.io/?setup=1
-  — it opens the Setup Guide by itself.
+- REQUIRED CLOSING PATTERN — every message ends with EXACTLY this, word for
+  word: "Just reply here and I'll add it all in for you — or email it to
+  setup@restorationai.io." (Use the email channel especially when the ask
+  involves documents, photos, or lists — attachments don't travel well by
+  text.) When the ask is PHOTOS specifically, mention the no-login photo
+  link instead of email if the company has one (it will be provided in
+  context as photo_upload_link): "easiest way: {photo_upload_link} — snap
+  and upload right from your phone."
 - SMS: total body within the character budget given — the budget includes the
   intro and the closing self-serve line, and the closing line must NEVER be
   cut. If space is tight, trim item detail, not the closing. No subject, no
@@ -901,6 +900,15 @@ HISTORY RULES (apply when a "Recent conversation history" block is provided):
 - Reference recent context naturally when it genuinely helps ("Great talking
   to you last week about the site") — but never quote private history
   verbatim and never recite details back at them.
+
+- RECENCY RULE — conversation history OUTRANKS meeting intel and outstanding
+  item descriptions whenever they conflict, because history is newer. If a
+  history message contradicts a fact in the intel or an item's rationale
+  (e.g. intel says "awaiting Google's decision" but the client texted that
+  it already came through), TRUST THE HISTORY: do not repeat the stale fact,
+  acknowledge the newer state naturally ("Congrats on getting the listing
+  back!"), and report it in "history_answered" as stale-intel so a human
+  updates the records.
 
 MEETING INTEL RULES (apply when a "Meeting intel" block is provided):
 - ITEM SELECTION IS A HARD FILTER — apply it BEFORE writing anything:
