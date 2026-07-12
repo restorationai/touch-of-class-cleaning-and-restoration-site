@@ -1467,13 +1467,21 @@ CANARY_ITEMS = [
 
 def cmd_canary(args) -> int:
     state = load_state()
-    # 1. find-or-create the canary contact in GHL
+    # 1. find-or-create the canary contact in GHL — PHONE match first (the
+    # location dedupes on phone, so the phone owner is the only sendable row)
     contact = None
     data = _ghl("GET", "/contacts/", params={
-        "locationId": _loc(), "query": args.email, "limit": 5})
+        "locationId": _loc(), "query": args.phone, "limit": 5})
     for c in data.get("contacts") or []:
-        if _norm_email(c.get("email")) == _norm_email(args.email):
+        if _norm_phone(c.get("phone")) == _norm_phone(args.phone):
             contact = c
+            break
+    if not contact:
+        data = _ghl("GET", "/contacts/", params={
+            "locationId": _loc(), "query": args.email, "limit": 5})
+        for c in data.get("contacts") or []:
+            if _norm_email(c.get("email")) == _norm_email(args.email):
+                contact = c
             break
     if not contact:
         created = _ghl("POST", "/contacts/upsert", body={
