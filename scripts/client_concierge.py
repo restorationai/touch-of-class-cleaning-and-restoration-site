@@ -161,18 +161,21 @@ ANTHROPIC_API = "https://api.anthropic.com/v1/messages"
 ANTHROPIC_MODEL = "claude-sonnet-5"
 UA = "rank-ai-client-concierge/1.0"
 
+# Client-facing persona (Santino 2026-07-13): a named human assistant, and
+# NEVER em/en dashes in client copy (they read as AI tells).
+ASSISTANT_NAME = os.environ.get("CONCIERGE_ASSISTANT_NAME", "Monica")
+
 # Required closing pattern (Santino's copy): reply-first, then self-serve.
-APP_SELF_SERVE = ("Just reply here and I'll add it all in for you — "
+APP_SELF_SERVE = ("Just reply here and I'll add it all in for you, "
                   "or email it to setup@restorationai.io.")
 APP_SETUP_LINK = "https://app.restorationai.io/?setup=1"   # auto-opens the guide
-INTRO_TEMPLATE = ("Hi {first}, this is the onboarding assistant from "
-                  "Santino's team at Rank AI — I help get everything set up "
-                  "for your account.")
+INTRO_TEMPLATE = ("Hi {first}, this is {name} with Santino's team at "
+                  "Rank AI. I help get everything set up for your account.")
 # Preferred contact is the office/day-to-day person, not the owner: don't
 # imply it's "their" account — we're collecting what finishes the setup.
-INTRO_TEMPLATE_OFFICE = ("Hi {first}, this is the onboarding assistant from "
-                         "Santino's team at Rank AI — I help collect what's "
-                         "needed to finish {company}'s setup.")
+INTRO_TEMPLATE_OFFICE = ("Hi {first}, this is {name} with Santino's team "
+                         "at Rank AI. I help collect what's needed to "
+                         "finish {company}'s setup.")
 SMS_MAX_CHARS = 450
 SMS_MAX_CHARS_FIRST = 900   # first-ever message carries the intro line
 MAX_ITEMS_PER_MESSAGE = 3
@@ -858,6 +861,7 @@ def send_message(contact: dict, channel: str, body: str,
             f"CANARY GATE: {recipient!r} is not on CONCIERGE_ALLOWLIST — "
             f"refusing {channel} send to contact {contact.get('id')}.")
 
+    body = re.sub(r"\s*[\u2014\u2013]\s*", ", ", body)  # no em/en dashes ever
     payload: dict = {"type": "SMS" if channel == "sms" else "Email",
                      "contactId": contact["id"]}
     if channel == "sms":
@@ -880,8 +884,11 @@ def send_message(contact: dict, channel: str, body: str,
 
 # ---------------------------------------------------------------- compose
 COMPOSE_SYSTEM = """\
-You write short follow-up messages to home-services business owners on behalf
-of "Santino's team at Rank AI" (their marketing/website team). Voice: warm,
+You are Monica, an assistant on "Santino's team at Rank AI" (the client's
+marketing/website team), writing short follow-up texts to home-services
+business owners. You sound like a real person, never like software. NEVER
+use em dashes or en dashes anywhere in the message; use a comma, a period,
+or the word "and" instead. Voice: warm,
 human, zero corporate filler, no exclamation-point spam, no emojis. You are
 asking the client for things only they can provide. Be specific and easy to
 answer by simply replying to the message.
@@ -1096,9 +1103,10 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
     # intro — it's not their account, they're helping us finish the setup.
     if messaging_target(company).get("role") == "office":
         intro = INTRO_TEMPLATE_OFFICE.format(first=first_name,
-                                             company=company["name"])
+                                             company=company["name"],
+                                             name=ASSISTANT_NAME)
     else:
-        intro = INTRO_TEMPLATE.format(first=first_name)
+        intro = INTRO_TEMPLATE.format(first=first_name, name=ASSISTANT_NAME)
     history_block = ""
     if history:
         history_block = (
@@ -1450,8 +1458,9 @@ Match at most the items clearly answered. When in doubt, do not match — set
 escalate true with a reason instead."""
 
 REPLY_SYSTEM = """\
-You write the concierge's next reply after a client answered something.
-Voice: warm, brief, from "Santino's team at Rank AI". Thank them, confirm
+You are Monica from Santino's team at Rank AI, replying after a client
+answered something. Voice: warm, brief, human. NEVER use em dashes or en
+dashes; use a comma or a period instead. Thank them, confirm
 what you recorded (one clause), then ask ONE next question if any remain —
 the highest-priority open item provided. If nothing remains, close warmly
 ("that's everything we needed"). SMS-length: <= 450 chars. No emojis.
@@ -1611,8 +1620,9 @@ def flush_ops_pings(dry_run: bool) -> None:
 
 
 RESCHEDULE_OFFER_SYSTEM = """\
-You reply to a client who asked to move an upcoming call. Voice: the same
-warm human onboarding assistant. Confirm moving is no problem, then offer
+You are Monica from Santino's team at Rank AI, replying to a client who
+asked to move an upcoming call. Voice: warm, human, like a real scheduler.
+NEVER use em dashes or en dashes; use a comma or a period instead. Confirm moving is no problem, then offer
 the provided slot options (their local time) — lead with the first. Ask them
 to pick one or say what works better. CONCISE: 2-3 sentences, <= 320 chars,
 no emojis, no corporate filler.
