@@ -983,6 +983,50 @@ Keep drafting deterministic: choose the most natural single phrasing, no
 alternatives or commentary."""
 
 
+def gbp_photo_count(company: dict) -> int | None:
+    """Total photos on the client's GBP (via their connected Google token),
+    cached in kv for 7 days. None = unknown (not connected / API failure)."""
+    cid = company.get("id") or ""
+    cache = kv_get(f"gbp-photo-count/{cid}")
+    if cache and (datetime.now(timezone.utc)
+                  - datetime.fromisoformat(cache["at"])).days < 7:
+        return cache["count"]
+    rows = _sb("GET", f"/rest/v1/user_integrations?client_id=eq.{cid}"
+               "&provider=eq.google&select=connection_metadata")
+    meta = (rows or [{}])[0].get("connection_metadata") or {}
+    refresh = meta.get("refresh_token")
+    if not refresh:
+        return None
+    try:
+        tok = requests.post("https://oauth2.googleapis.com/token", data={
+            "refresh_token": refresh,
+            "client_id": os.environ["GOOGLE_OAUTH_CLIENT_ID"],
+            "client_secret": os.environ["GOOGLE_OAUTH_CLIENT_SECRET"],
+            "grant_type": "refresh_token"}, timeout=30).json()["access_token"]
+        H = {"Authorization": f"Bearer {tok}"}
+        total = 0
+        accts = requests.get(
+            "https://mybusinessaccountmanagement.googleapis.com/v1/accounts",
+            headers=H, timeout=30).json().get("accounts", [])
+        for a in accts:
+            locs = requests.get(
+                "https://mybusinessbusinessinformation.googleapis.com/v1/"
+                f"{a['name']}/locations?readMask=name&pageSize=100",
+                headers=H, timeout=30).json().get("locations", [])
+            for l in locs:
+                media = requests.get(
+                    f"https://mybusiness.googleapis.com/v4/{a['name']}/"
+                    f"{l['name']}/media", headers=H, timeout=30).json()
+                total += int(media.get("totalMediaItemCount",
+                                       len(media.get("mediaItems", []))))
+        kv_set(f"gbp-photo-count/{cid}",
+               {"count": total, "at": datetime.now(timezone.utc).isoformat()})
+        return total
+    except Exception as e:
+        print(f"  [gbp-photos] count failed: {e}", file=sys.stderr)
+        return None
+
+
 _COMPANY_SLUGS: dict | None = None
 
 
@@ -1087,6 +1131,12 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
             "Whenever you ask for photos, include that exact link as the way "
             "to send them (\"here's a link that uploads straight from your "
             "phone\"), and add that texting them here works too.\n")
+        n_photos = gbp_photo_count(company)
+        if n_photos is not None and n_photos >= 20:
+            photo_block += (
+                f"NOTE: this client's Google listing already has {n_photos} "
+                "photos we can use — do NOT ask them for photos in this "
+                "message; drop any photo request entirely.\n")
     user = (f"Client: {company['name']} (first name: {first_name})\n"
             f"Today's date: {today}\n"
             f"Channel: {channel} (character budget for SMS: {sms_budget})\n"
@@ -1215,14 +1265,21 @@ def cmd_compose(args) -> int:
 
     # Items meeting intel marks answered / in progress client-side: excluded
     # from the body by the compose model; escalate so a human backfills the DB.
+    intel_state_dirty = False
     for flag in draft["intel_resolved"]:
         it = next((i for i in draft["items"] if i["id"] == flag["item_id"]), None)
         label = it["text"] if it else flag["item_id"]
+        if not intel_flag_once(state, flag["item_id"]):
+            print(f"[intel-suppressed, already flagged once: {label[:60]}]")
+            continue
+        intel_state_dirty = True
         reason = (f"meeting intel says answered/in progress: {label} — "
                   f"{flag.get('reason') or 'see meeting-intel notes'} "
                   f"(item excluded from the nudge; verify + record the answer)")
         print(f"ESCALATION: {reason}")
         append_escalation(company, None, reason, dry_run=not args.send)
+    if intel_state_dirty and args.send:
+        save_state(state, dry_run=False)
 
     if not draft["body"]:
         print("\nNO NUDGE: every item is answered or in progress per "
@@ -1369,10 +1426,16 @@ reason) — those items must not be re-asked in any follow-up nudge. Never
 treat intel alone as the client's answer to an item (that needs a human to
 verify); intel_resolved is a flag, not a match.
 
+If the reply asks to MOVE/RESCHEDULE/CANCEL an upcoming call or meeting
+("can we reschedule?", "can't make it Tuesday", "push it a few days"), set
+"reschedule" with their timing preference in plain words — that is handled
+by a booking flow, not escalation. Do not also set escalate for this.
+
 Return ONLY JSON:
 {"matches": [{"item_id": "<id from the list>", "value": "<extracted answer>",
               "answer_type": "license|yes_no|free_text|customer_list"}],
  "intel_resolved": [{"item_id": "<id from the list>", "reason": string}],
+ "reschedule": {"requested": bool, "preference": string}|null,
  "escalate": bool,
  "escalate_reason": string|null,
  "sentiment": "positive|neutral|negative"}
@@ -1473,13 +1536,38 @@ def append_escalation(company: dict, msg: dict | None, reason: str,
             f.write(block)
 
 
+def intel_flag_once(state: dict, item_id: str) -> bool:
+    """True the FIRST time an intel-suppressed item is seen (caller should
+    escalate); False afterwards — Santino gets pinged about each such item
+    exactly once, however the model re-words the reason each cycle."""
+    flagged = state.setdefault("intel_flagged", {})
+    if item_id in flagged:
+        return False
+    flagged[item_id] = datetime.now(timezone.utc).isoformat()
+    return True
+
+
 def flush_ops_pings(dry_run: bool) -> None:
     """One summary SMS per run to the ops cell when escalations occurred.
     Deduped: an identical summary within OPS_PING_DEDUPE_HOURS is skipped so
     repeated dry/cron runs don't spam. Goes through send_message, so the
     allowlist gate still applies."""
-    if not _OPS_PINGS:
+    from zoneinfo import ZoneInfo
+    held = kv_get("held-ops-pings") or []
+    if not _OPS_PINGS and not held:
         return
+    hour = datetime.now(ZoneInfo("America/Los_Angeles")).hour
+    if not 8 <= hour < 20:
+        merged = held + [list(t) for t in _OPS_PINGS]
+        if not dry_run:
+            kv_set("held-ops-pings", merged)
+        print(f"  [ops-ping] outside 8am-8pm PT — holding {len(merged)} "
+              "item(s) for morning")
+        _OPS_PINGS.clear()
+        return
+    _OPS_PINGS[:0] = [tuple(h) for h in held]
+    if held and not dry_run:
+        kv_set("held-ops-pings", [])
     lines = []
     seen = set()
     for name, reason in _OPS_PINGS:
@@ -1516,6 +1604,176 @@ def flush_ops_pings(dry_run: bool) -> None:
         print(f"  [ops-ping] blocked: {e}", file=sys.stderr)
 
 
+RESCHEDULE_OFFER_SYSTEM = """\
+You reply to a client who asked to move an upcoming call. Voice: the same
+warm human onboarding assistant. Confirm moving is no problem, then offer
+the provided slot options (their local time) — lead with the first. Ask them
+to pick one or say what works better. CONCISE: 2-3 sentences, <= 320 chars,
+no emojis, no corporate filler.
+Return ONLY JSON: {"body": string}"""
+
+RESCHEDULE_PICK_SYSTEM = """\
+A client was offered these time slots for their rescheduled call (their
+local time, ISO + label). Their reply is below. Decide:
+- picked one -> {"picked": "<iso of the slot>"}
+- wants something else / none work -> {"picked": null, "counter": "<their
+  preference in plain words>"}
+- unrelated reply -> {"picked": null, "counter": null}
+Return ONLY JSON."""
+
+
+def _upcoming_appointment(contact_id: str) -> dict | None:
+    data = _ghl("GET", f"/contacts/{contact_id}/appointments") or {}
+    best = None
+    for ev in data.get("events", []) or []:
+        if ev.get("deleted"):
+            continue
+        if (ev.get("appointmentStatus") or "").lower() in ("cancelled", "noshow"):
+            continue
+        st = ev.get("startTime", "")
+        if st <= datetime.now(timezone.utc).astimezone(
+                __import__("zoneinfo").ZoneInfo(GHL_LOCATION_TZ)
+        ).strftime("%Y-%m-%d %H:%M:%S"):
+            continue
+        if best is None or st < best.get("startTime", ""):
+            best = ev
+    return best
+
+
+def _free_slots(calendar_id: str, tz: str, days: int = 8) -> list[str]:
+    import time as _t
+    start = int(_t.time() * 1000)
+    end = start + days * 86400 * 1000
+    fs = _ghl("GET", f"/calendars/{calendar_id}/free-slots",
+              params={"startDate": start, "endDate": end, "timezone": tz})
+    out: list[str] = []
+    for day, val in (fs or {}).items():
+        if not isinstance(val, dict):
+            continue
+        out.extend(val.get("slots") or [])
+    return sorted(out)
+
+
+def _pick_offer_slots(slots: list[str], current_start_local, tz: str) -> list[str]:
+    """Same clock time ~2 days later first (per 'couple of days'), then the
+    closest alternatives on later days at varied times. Max 3."""
+    from zoneinfo import ZoneInfo
+    from datetime import timedelta
+    want = current_start_local + timedelta(days=2)
+    parsed = [(datetime.fromisoformat(x), x) for x in slots]
+    parsed = [(dt, raw) for dt, raw in parsed
+              if dt >= current_start_local + timedelta(days=1)
+              and 8 <= dt.hour < 18]  # offer business-hours slots only
+    if not parsed:
+        return []
+    exact = [raw for dt, raw in parsed
+             if dt.date() >= want.date() and dt.hour == want.hour
+             and dt.minute == want.minute]
+    offers = exact[:1]
+    for dt, raw in sorted(parsed, key=lambda t: abs(t[0] - want)):
+        if raw in offers:
+            continue
+        if any(datetime.fromisoformat(o).date() == dt.date() for o in offers):
+            continue
+        offers.append(raw)
+        if len(offers) == 3:
+            break
+    return offers
+
+
+def _fmt_slot(iso: str) -> str:
+    dt = datetime.fromisoformat(iso)
+    return dt.strftime("%A %b %-d at %-I:%M %p")
+
+
+def handle_reschedule_request(company: dict, contact: dict, preference: str,
+                              state: dict, dry_run: bool) -> None:
+    from zoneinfo import ZoneInfo
+    tz, _src = resolve_timezone(company, contact)
+    appt = _upcoming_appointment(contact["id"])
+    if not appt:
+        append_escalation(company, None,
+                          "asked to reschedule but no upcoming appointment "
+                          "found on their contact — needs a human", dry_run)
+        return
+    cur = datetime.strptime(appt["startTime"], "%Y-%m-%d %H:%M:%S").replace(
+        tzinfo=ZoneInfo(GHL_LOCATION_TZ)).astimezone(ZoneInfo(tz))
+    slots = _free_slots(appt["calendarId"], tz)
+    offers = _pick_offer_slots(slots, cur, tz)
+    if not offers:
+        append_escalation(company, None,
+                          "reschedule requested but no free slots in the next "
+                          "8 days — needs a human", dry_run)
+        return
+    labels = [_fmt_slot(o) for o in offers]
+    draft = anthropic_json(RESCHEDULE_OFFER_SYSTEM,
+                           f"Client first name: {contact_first_name(contact, company)}\n"
+                           f"Their current call: {_fmt_slot(cur.isoformat())}\n"
+                           f"Their stated preference: {preference or 'unspecified'}\n"
+                           f"Slot options (their local time): {', '.join(labels)}")
+    body = (draft.get("body") or "").strip()
+    print(f"    RESCHEDULE OFFER -> {body!r}")
+    if dry_run:
+        print(f"    [dry-run] offers: {labels}")
+        return
+    send_message(contact, "sms", body)
+    cs = company_state(state, company["id"])
+    cs["pending_reschedule"] = {
+        "appointment_id": appt["id"], "calendar_id": appt["calendarId"],
+        "tz": tz, "offered": offers,
+        "duration_min": 60,
+        "at": datetime.now(timezone.utc).isoformat()}
+
+
+def handle_reschedule_reply(company: dict, contact: dict, msg: dict,
+                            state: dict, dry_run: bool) -> bool:
+    """Returns True when the inbound message was consumed by the pending
+    reschedule flow."""
+    from zoneinfo import ZoneInfo
+    from datetime import timedelta
+    cs = company_state(state, company["id"])
+    pend = cs.get("pending_reschedule")
+    if not pend:
+        return False
+    labels = [f"{o} = {_fmt_slot(o)}" for o in pend["offered"]]
+    result = anthropic_json(RESCHEDULE_PICK_SYSTEM,
+                            "Offered slots:\n" + "\n".join(labels)
+                            + f"\n\nClient reply: {msg['body'][:400]}")
+    picked = result.get("picked")
+    if picked and picked in pend["offered"]:
+        start = datetime.fromisoformat(picked)
+        # GHL appointment times are written in the location timezone, naive.
+        start_loc = start.astimezone(ZoneInfo(GHL_LOCATION_TZ))
+        end_loc = start_loc + timedelta(minutes=pend.get("duration_min", 60))
+        if not dry_run:
+            try:
+                _ghl("PUT", f"/calendars/events/appointments/{pend['appointment_id']}",
+                     body={"startTime": start_loc.strftime("%Y-%m-%dT%H:%M:%S%z"),
+                           "endTime": end_loc.strftime("%Y-%m-%dT%H:%M:%S%z"),
+                           "calendarId": pend["calendar_id"]})
+            except RuntimeError as e:
+                append_escalation(company, msg,
+                                  f"client picked {picked} but the calendar "
+                                  f"update FAILED ({e}) — fix manually", dry_run)
+                return True
+            confirm = (f"You're all set — moved to {_fmt_slot(picked)}. "
+                       "Talk to you then!")
+            send_message(contact, "sms", confirm)
+            cs.pop("pending_reschedule", None)
+            append_escalation(company, None,
+                              f"FYI (no action needed): call rescheduled to "
+                              f"{_fmt_slot(picked)} at the client's request",
+                              dry_run)
+        print(f"    RESCHEDULED -> {picked}")
+        return True
+    if result.get("counter"):
+        cs.pop("pending_reschedule", None)
+        handle_reschedule_request(company, contact, result["counter"],
+                                  state, dry_run)
+        return True
+    return False
+
+
 def cmd_inbound(args) -> int:
     if not args.poll:
         print("inbound: pass --poll", file=sys.stderr)
@@ -1534,6 +1792,20 @@ def cmd_inbound(args) -> int:
     companies = fetch_companies(sorted(set(tracked.values()))) if tracked else {}
     handled_any = False
     for contact_id, company_id in tracked.items():
+        if contact_id == OPS_PING_CONTACT_ID:
+            msgs = fetch_inbound_since(contact_id, since)
+            if msgs:
+                handled_any = True
+                for msg in msgs:
+                    print(f"\n[boss-feedback] ops-thread reply (not a client "
+                          f"message): {msg['body'][:200]!r}")
+                    if not dry_run:
+                        _sb("POST", "/rest/v1/concierge_escalations",
+                            {"company_id": None, "company_name": "OPS THREAD",
+                             "reason": "boss-feedback (Santino reply on ops "
+                                       "thread — review in session)",
+                             "message": msg}, prefer="return=minimal")
+            continue
         company = companies.get(company_id, {"id": company_id, "name": company_id})
         msgs = fetch_inbound_since(contact_id, since)
         if not msgs:
@@ -1562,6 +1834,10 @@ def cmd_inbound(args) -> int:
             handled_any = True
             print(f"\n  {company['name']}: inbound {msg['channel']} "
                   f"{msg['ts'].strftime('%m-%d %H:%M')}: {msg['body'][:90]!r}")
+            contact_for_flow = contact_payload or {"id": contact_id}
+            if handle_reschedule_reply(company, contact_for_flow, msg,
+                                       state, dry_run):
+                continue
             item_list = "\n".join(
                 f"- id={it['id']} kind={it['kind']} type={it['field_type']} "
                 f"q={it['text'][:110]!r}" for it in open_items) or "(none)"
@@ -1591,6 +1867,8 @@ def cmd_inbound(args) -> int:
                 if not it:
                     continue
                 intel_ids.add(it["id"])
+                if not intel_flag_once(state, it["id"]):
+                    continue
                 reason = (f"meeting intel says answered/in progress: "
                           f"{it['text']} — "
                           f"{flag.get('reason') or 'see meeting-intel notes'} "
@@ -1598,6 +1876,12 @@ def cmd_inbound(args) -> int:
                           f"the answer)")
                 print(f"    INTEL: {reason}")
                 append_escalation(company, None, reason, dry_run)
+            resc = result.get("reschedule") or {}
+            if resc.get("requested"):
+                handle_reschedule_request(company, contact_for_flow,
+                                          resc.get("preference") or "",
+                                          state, dry_run)
+                continue
             if (result.get("escalate") or result.get("sentiment") == "negative"
                     or not result.get("matches")):
                 reason = result.get("escalate_reason") or (
