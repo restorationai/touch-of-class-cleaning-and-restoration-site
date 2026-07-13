@@ -164,17 +164,21 @@ UA = "rank-ai-client-concierge/1.0"
 # Client-facing persona (Santino 2026-07-13): a named human assistant, and
 # NEVER em/en dashes in client copy (they read as AI tells).
 ASSISTANT_NAME = os.environ.get("CONCIERGE_ASSISTANT_NAME", "Monica")
+# Client-facing company name: Restoration AI is the company (matches every
+# link we send: app/setup@/upload links on restorationai.io); "Rank AI" is
+# the product and stays in sales materials only. Swap here on any rebrand.
+BRAND_NAME = os.environ.get("CONCIERGE_BRAND_NAME", "Restoration AI")
 
 # Required closing pattern (Santino's copy): reply-first, then self-serve.
 APP_SELF_SERVE = ("Just reply here and I'll add it all in for you, "
                   "or email it to setup@restorationai.io.")
 APP_SETUP_LINK = "https://app.restorationai.io/?setup=1"   # auto-opens the guide
 INTRO_TEMPLATE = ("Hi {first}, this is {name} with Santino's team at "
-                  "Rank AI. I help get everything set up for your account.")
+                  "{brand}. I help get everything set up for your account.")
 # Preferred contact is the office/day-to-day person, not the owner: don't
 # imply it's "their" account — we're collecting what finishes the setup.
 INTRO_TEMPLATE_OFFICE = ("Hi {first}, this is {name} with Santino's team "
-                         "at Rank AI. I help collect what's needed to "
+                         "at {brand}. I help collect what's needed to "
                          "finish {company}'s setup.")
 SMS_MAX_CHARS = 450
 SMS_MAX_CHARS_FIRST = 900   # first-ever message carries the intro line
@@ -875,7 +879,8 @@ def send_message(contact: dict, channel: str, body: str,
                   "thread). Set it to the toll-free +18556484464.",
                   file=sys.stderr)
     else:
-        payload["subject"] = subject or "A few quick things for your Rank AI setup"
+        payload["subject"] = subject or ("A few quick things for your "
+                                         f"{BRAND_NAME} setup")
         payload["html"] = body.replace("\n", "<br>")
     result = _ghl("POST", "/conversations/messages", body=payload)
     print(f"  SENT {channel} to {recipient} (contact {contact['id']})")
@@ -884,9 +889,10 @@ def send_message(contact: dict, channel: str, body: str,
 
 # ---------------------------------------------------------------- compose
 COMPOSE_SYSTEM = """\
-You are Monica, an assistant on "Santino's team at Rank AI" (the client's
-marketing/website team), writing short follow-up texts to home-services
-business owners. You sound like a real person, never like software. NEVER
+You are Monica, an assistant on "Santino's team at Restoration AI" (the
+client's marketing/website team; never say "Rank AI", that is an internal
+product name), writing short follow-up texts to home-services business
+owners. You sound like a real person, never like software. NEVER
 use em dashes or en dashes anywhere in the message; use a comma, a period,
 or the word "and" instead. Voice: warm,
 human, zero corporate filler, no exclamation-point spam, no emojis. You are
@@ -933,7 +939,8 @@ Rules:
   cut. If space is tight, trim item detail, not the closing. No subject, no
   links other than the optional setup link.
 - Email: give a short subject (<= 60 chars) and a slightly fuller body
-  (still under ~140 words), sign off as "— Santino's team at Rank AI".
+  (still under ~140 words), sign off as "Monica, Santino's team at
+  Restoration AI" (no dashes).
 
 HISTORY RULES (apply when a "Recent conversation history" block is provided):
 - Match the tone and formality of the prior successful exchanges with this
@@ -1104,9 +1111,11 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
     if messaging_target(company).get("role") == "office":
         intro = INTRO_TEMPLATE_OFFICE.format(first=first_name,
                                              company=company["name"],
-                                             name=ASSISTANT_NAME)
+                                             name=ASSISTANT_NAME,
+                                             brand=BRAND_NAME)
     else:
-        intro = INTRO_TEMPLATE.format(first=first_name, name=ASSISTANT_NAME)
+        intro = INTRO_TEMPLATE.format(first=first_name, name=ASSISTANT_NAME,
+                                      brand=BRAND_NAME)
     history_block = ""
     if history:
         history_block = (
@@ -1458,8 +1467,8 @@ Match at most the items clearly answered. When in doubt, do not match — set
 escalate true with a reason instead."""
 
 REPLY_SYSTEM = """\
-You are Monica from Santino's team at Rank AI, replying after a client
-answered something. Voice: warm, brief, human. NEVER use em dashes or en
+You are Monica from Santino's team at Restoration AI, replying after a
+client answered something. Voice: warm, brief, human. NEVER use em dashes or en
 dashes; use a comma or a period instead. Thank them, confirm
 what you recorded (one clause), then ask ONE next question if any remain —
 the highest-priority open item provided. If nothing remains, close warmly
@@ -1620,8 +1629,8 @@ def flush_ops_pings(dry_run: bool) -> None:
 
 
 RESCHEDULE_OFFER_SYSTEM = """\
-You are Monica from Santino's team at Rank AI, replying to a client who
-asked to move an upcoming call. Voice: warm, human, like a real scheduler.
+You are Monica from Santino's team at Restoration AI, replying to a client
+who asked to move an upcoming call. Voice: warm, human, like a real scheduler.
 NEVER use em dashes or en dashes; use a comma or a period instead. Confirm moving is no problem, then offer
 the provided slot options (their local time) — lead with the first. Ask them
 to pick one or say what works better. CONCISE: 2-3 sentences, <= 320 chars,
