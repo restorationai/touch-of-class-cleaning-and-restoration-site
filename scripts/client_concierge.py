@@ -182,6 +182,16 @@ CLASSIFY_HISTORY_MSGS = 10     # history context given to inbound classification
 HISTORY_EMAIL_TRIM = 500       # chars kept per email body (threads get long)
 HUMAN_DEFER_HOURS = 12         # human outbound newer than this => skip nudge
 MAX_NUDGES = 4
+# Ops ping: every escalation also fires ONE summary SMS to Santino's cell so
+# a human hears about it without reading concierge-escalations.md. The 805
+# company number is the GHL location's own number and can't receive sends
+# from its own location — the ping goes to the ops cell via the toll-free,
+# which still lands the thread in GHL where the team can see it.
+OPS_PING_CELL = os.environ.get("CONCIERGE_OPS_CELL", "+18089891078")
+OPS_PING_CONTACT_ID = os.environ.get("CONCIERGE_OPS_CONTACT_ID",
+                                     "MIJ5Jm4sobdzSRtnYSzU")  # Santino Velci
+OPS_PING_DEDUPE_HOURS = 24
+_OPS_PINGS: list = []          # (company name, reason) accumulated per run
 BUSINESS_HOUR_START = 9
 BUSINESS_HOUR_END = 18
 DEFAULT_TZ = "America/Los_Angeles"
@@ -1314,6 +1324,7 @@ def append_escalation(company: dict, msg: dict | None, reason: str,
              + (f"- Channel: {msg['channel']}  Message id: {msg['id']}\n"
                 f"- Reply: {msg['body'][:400]!r}\n" if msg else "")
              + f"- Reason: {reason}\n")
+    _OPS_PINGS.append((company.get("name", "?"), reason))
     if dry_run:
         print(f"    [dry-run] would append escalation:{block}")
         return
@@ -1322,6 +1333,49 @@ def append_escalation(company: dict, msg: dict | None, reason: str,
         ESCALATIONS_PATH.write_text("# Concierge Escalations\n")
     with ESCALATIONS_PATH.open("a") as f:
         f.write(block)
+
+
+def flush_ops_pings(dry_run: bool) -> None:
+    """One summary SMS per run to the ops cell when escalations occurred.
+    Deduped: an identical summary within OPS_PING_DEDUPE_HOURS is skipped so
+    repeated dry/cron runs don't spam. Goes through send_message, so the
+    allowlist gate still applies."""
+    if not _OPS_PINGS:
+        return
+    lines = []
+    seen = set()
+    for name, reason in _OPS_PINGS:
+        key = (name, reason[:80])
+        if key in seen:
+            continue
+        seen.add(key)
+        lines.append(f"- {name}: {reason[:160]}")
+    body = (f"Concierge: {len(lines)} item(s) need a human:\n"
+            + "\n".join(lines))[:900]
+    import hashlib
+    digest = hashlib.sha256(body.encode()).hexdigest()[:16]
+    state = load_state()
+    last = state.get("ops_ping") or {}
+    if last.get("hash") == digest:
+        try:
+            age_h = (datetime.now(timezone.utc)
+                     - datetime.fromisoformat(last["at"])).total_seconds() / 3600
+        except Exception:
+            age_h = OPS_PING_DEDUPE_HOURS + 1
+        if age_h < OPS_PING_DEDUPE_HOURS:
+            print(f"  [ops-ping] identical ping {age_h:.1f}h ago — skipping")
+            return
+    if dry_run:
+        print(f"  [dry-run] would ops-ping {OPS_PING_CELL}:\n{body}")
+        return
+    try:
+        send_message({"id": OPS_PING_CONTACT_ID, "phone": OPS_PING_CELL},
+                     "sms", body)
+        state["ops_ping"] = {"hash": digest,
+                             "at": datetime.now(timezone.utc).isoformat()}
+        save_state(state, dry_run=False)
+    except SendBlocked as e:
+        print(f"  [ops-ping] blocked: {e}", file=sys.stderr)
 
 
 def cmd_inbound(args) -> int:
@@ -1585,8 +1639,11 @@ def main() -> int:
               "Santino's personal thread. Set CONCIERGE_FROM_NUMBER="
               "+18556484464 (the toll-free) before any real send.",
               file=sys.stderr)
-    return {"status": cmd_status, "compose": cmd_compose,
-            "inbound": cmd_inbound, "canary": cmd_canary}[args.cmd](args)
+    ret = {"status": cmd_status, "compose": cmd_compose,
+           "inbound": cmd_inbound, "canary": cmd_canary}[args.cmd](args)
+    if args.cmd in ("compose", "inbound"):
+        flush_ops_pings(dry_run=not getattr(args, "send", False))
+    return ret
 
 
 if __name__ == "__main__":
