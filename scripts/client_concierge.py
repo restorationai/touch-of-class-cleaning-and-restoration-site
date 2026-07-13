@@ -1242,7 +1242,8 @@ def cmd_compose(args) -> int:
     defer_reason = human_conversation_deferral(history, state)
     if defer_reason:
         print(f"\nDEFERRED: {defer_reason}")
-        append_escalation(company, None, defer_reason, dry_run=not args.send)
+        append_escalation(company, None, defer_reason, dry_run=not args.send,
+                          ping=False)
         if args.send:
             print("[nudge skipped this cycle — no draft, no send]")
             return 0
@@ -1533,7 +1534,7 @@ def resolve_plan_row(row_id: str, dry_run: bool) -> None:
 
 
 def append_escalation(company: dict, msg: dict | None, reason: str,
-                      dry_run: bool) -> None:
+                      dry_run: bool, ping: bool = True) -> None:
     """Append one escalation block. msg is the triggering inbound message when
     there is one; compose-side escalations (history-answered items, human-
     conversation deferrals) pass msg=None."""
@@ -1542,7 +1543,8 @@ def append_escalation(company: dict, msg: dict | None, reason: str,
              + (f"- Channel: {msg['channel']}  Message id: {msg['id']}\n"
                 f"- Reply: {msg['body'][:400]!r}\n" if msg else "")
              + f"- Reason: {reason}\n")
-    _OPS_PINGS.append((company.get("name", "?"), reason))
+    if ping:
+        _OPS_PINGS.append((company.get("name", "?"), reason))
     if dry_run:
         print(f"    [dry-run] would append escalation:{block}")
         return
@@ -1741,7 +1743,8 @@ def handle_reschedule_request(company: dict, contact: dict, preference: str,
     if dry_run:
         print(f"    [dry-run] offers: {labels}")
         return
-    send_message(contact, "sms", body)
+    res = send_message(contact, "sms", body)
+    record_sent_message(state, res)
     cs = company_state(state, company["id"])
     cs["pending_reschedule"] = {
         "appointment_id": appt["id"], "calendar_id": appt["calendarId"],
@@ -1781,9 +1784,10 @@ def handle_reschedule_reply(company: dict, contact: dict, msg: dict,
                                   f"client picked {picked} but the calendar "
                                   f"update FAILED ({e}) — fix manually", dry_run)
                 return True
-            confirm = (f"You're all set — moved to {_fmt_slot(picked)}. "
+            confirm = (f"You're all set, moved to {_fmt_slot(picked)}. "
                        "Talk to you then!")
-            send_message(contact, "sms", confirm)
+            res = send_message(contact, "sms", confirm)
+            record_sent_message(state, res)
             cs.pop("pending_reschedule", None)
             append_escalation(company, None,
                               f"FYI (no action needed): call rescheduled to "
