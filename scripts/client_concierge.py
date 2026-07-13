@@ -1236,6 +1236,12 @@ def cmd_compose(args) -> int:
         gate = cadence_check(cs, company, contact)
         if gate:
             print(f"[gated, no draft: {gate}]")
+            if "ESCALATE" in gate and not cs.get("max_nudges_escalated"):
+                append_escalation(company, None,
+                                  f"no reply after {MAX_NUDGES} nudges — "
+                                  "needs a human touch (call them?)", False)
+                cs["max_nudges_escalated"] = True
+                save_state(state, dry_run=False)
             return 0
     appts = None
     if contact:
@@ -1830,6 +1836,11 @@ def cmd_inbound(args) -> int:
                 contact_payload = (data or {}).get("contact") or data
             except RuntimeError:
                 contact_payload = None
+        cs_reset = company_state(state, company_id)
+        if cs_reset.get("nudge_count"):
+            cs_reset["nudge_count"] = 0
+            cs_reset.pop("max_nudges_escalated", None)
+            print(f"  [cadence] client replied — nudge counter reset")
         for msg in msgs:
             handled_any = True
             print(f"\n  {company['name']}: inbound {msg['channel']} "
