@@ -118,9 +118,14 @@ def cmd_auth(_args) -> int:
 
 
 def access_token() -> str:
-    if not TOKEN_PATH.exists():
-        sys.exit(f"No Gmail token at {TOKEN_PATH} — run: email_intake.py auth")
-    saved = json.loads(TOKEN_PATH.read_text())
+    env_tok = os.environ.get("GMAIL_TOKEN_JSON", "").strip()
+    if env_tok:
+        saved = json.loads(env_tok)
+    elif TOKEN_PATH.exists():
+        saved = json.loads(TOKEN_PATH.read_text())
+    else:
+        sys.exit(f"No GMAIL_TOKEN_JSON env and no token at {TOKEN_PATH} — "
+                 "run: email_intake.py auth")
     tok = _http("https://oauth2.googleapis.com/token",
                 data=urllib.parse.urlencode({
                     "refresh_token": saved["refresh_token"],
@@ -139,6 +144,21 @@ def _g_post(tok: str, path: str, body: dict) -> dict:
     return _http(f"{GMAIL}{path}", data=json.dumps(body).encode(),
                  headers={"Authorization": f"Bearer {tok}",
                           "Content-Type": "application/json"})
+
+
+def _storage_put(path: str, data: bytes, mime: str) -> None:
+    """Upload to the private Supabase Storage bucket `email-intake`
+    (survives ephemeral worker containers; humans grab files from the
+    Supabase dashboard)."""
+    import requests as _req
+    base = os.environ["SUPABASE_URL"].rstrip("/")
+    key = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
+    r = _req.post(f"{base}/storage/v1/object/email-intake/{path}",
+                  data=data, timeout=60,
+                  headers={"Authorization": f"Bearer {key}",
+                           "Content-Type": mime, "x-upsert": "true"})
+    if r.status_code >= 400:
+        raise RuntimeError(f"storage upload {path}: {r.status_code} {r.text[:200]}")
 
 
 # ------------------------------------------------------------------ poll
@@ -225,14 +245,14 @@ def cmd_poll(args) -> int:
             if not a.get("attachmentId"):
                 continue
             blob = _g(tok, f"/messages/{stub['id']}/attachments/{a['attachmentId']}")
-            dest = ATTACH_DIR / company_id / stub["id"]
+            data = base64.urlsafe_b64decode(blob["data"])
+            path = f"{company_id}/{stub['id']}/{a['filename']}"
             if not dry_run:
-                dest.mkdir(parents=True, exist_ok=True)
-                (dest / a["filename"]).write_bytes(
-                    base64.urlsafe_b64decode(blob["data"]))
+                _storage_put(path, data, a.get("mimeType") or
+                             "application/octet-stream")
             saved.append(a["filename"])
             print(f"    attachment: {a['filename']}"
-                  + ("" if dry_run else f" -> {dest}"))
+                  + ("" if dry_run else f" -> storage email-intake/{path}"))
 
         items = gather_items(company_id)
         if not items and not saved:

@@ -37,7 +37,7 @@ import requests
 
 sys.path.insert(0, str(Path(__file__).parent))
 from client_concierge import (  # noqa: E402
-    ROOT, anthropic_json, fetch_companies, load_env,
+    ROOT, anthropic_json, fetch_companies, kv_get, kv_set, load_env,
 )
 
 STATE_PATH = ROOT / "clients" / "_ops" / "fathom-sync-state.json"
@@ -71,9 +71,10 @@ what's next), no markdown, no links."""
 
 
 def load_state() -> dict:
-    if STATE_PATH.exists():
-        return json.loads(STATE_PATH.read_text())
-    return {"processed": {}, "initialized_at": None}
+    state = kv_get("fathom-sync-state")
+    if state is None and STATE_PATH.exists():   # one-time seed from pre-kv file
+        state = json.loads(STATE_PATH.read_text())
+    return state or {"processed": {}, "initialized_at": None}
 
 
 def fathom_meetings(limit: int = 25) -> list[dict]:
@@ -135,7 +136,7 @@ def cmd_sync(args) -> int:
                   " — only NEW recordings will be mined (use --backfill N to"
                   " mine recent ones now)")
             if not dry_run:
-                STATE_PATH.write_text(json.dumps(state, indent=1))
+                kv_set("fathom-sync-state", state)
             return 0
         meetings = meetings[:args.backfill]
 
@@ -178,19 +179,17 @@ def cmd_sync(args) -> int:
             state["processed"][rid] = "empty"
             continue
 
-        intel_path = INTEL_DIR / f"{slug}.md"
+        kv_key = f"meeting-intel/{slug}"
         block = f"\n\n{intel}\n_(source: Fathom {m.get('url')}, auto-synced)_\n"
         if dry_run:
-            print(f"    [dry-run] would append to {intel_path.name}:\n{intel[:500]}")
+            print(f"    [dry-run] would append to kv {kv_key}:\n{intel[:500]}")
             if note:
                 print(f"    [dry-run] would add GHL note: {note[:200]}")
         else:
-            INTEL_DIR.mkdir(parents=True, exist_ok=True)
-            if not intel_path.exists():
-                intel_path.write_text(f"# Meeting intel — {company.get('name')}\n")
-            with intel_path.open("a") as f:
-                f.write(block)
-            print(f"    intel appended -> {intel_path}")
+            cur = kv_get(kv_key) or {}
+            content = cur.get("content", "") if isinstance(cur, dict) else str(cur)
+            kv_set(kv_key, {"content": (content + block).strip()})
+            print(f"    intel appended -> ops_kv {kv_key}")
             cid = ghl_contact_for(company)
             if cid and note:
                 try:
@@ -201,7 +200,7 @@ def cmd_sync(args) -> int:
         state["processed"][rid] = slug
 
     if not dry_run:
-        STATE_PATH.write_text(json.dumps(state, indent=1))
+        kv_set("fathom-sync-state", state)
     return 0
 
 

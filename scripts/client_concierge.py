@@ -284,6 +284,24 @@ def _sb(method: str, path: str, body=None, prefer: str = "return=representation"
     return resp.json() if resp.content else None
 
 
+def kv_get(k: str):
+    from urllib.parse import quote
+    rows = _sb("GET", f"/rest/v1/ops_kv?k=eq.{quote(k)}&select=v")
+    return rows[0]["v"] if rows else None
+
+
+def kv_set(k: str, v) -> None:
+    _sb("POST", "/rest/v1/ops_kv?on_conflict=k",
+        {"k": k, "v": v, "updated_at": datetime.now(timezone.utc).isoformat()},
+        prefer="resolution=merge-duplicates,return=minimal")
+
+
+def kv_prefix(prefix: str) -> dict:
+    from urllib.parse import quote
+    rows = _sb("GET", f"/rest/v1/ops_kv?k=like.{quote(prefix)}*&select=k,v")
+    return {r["k"]: r["v"] for r in (rows or [])}
+
+
 def _ghl(method: str, path: str, *, params=None, body=None):
     resp = requests.request(
         method, GHL_BASE + path, params=params, json=body, timeout=30,
@@ -322,21 +340,21 @@ def anthropic_json(system: str, user: str, *, max_tokens: int = 4000) -> dict:
 
 # ---------------------------------------------------------------- state
 def load_state() -> dict:
-    if STATE_PATH.exists():
+    state = kv_get("concierge-state")
+    if state is None and STATE_PATH.exists():   # one-time seed from pre-kv file
         state = json.loads(STATE_PATH.read_text())
-        # scaffold for older state files: ids of every message WE delivered
-        # via send_message — outbound messages not in here are a human's.
-        state.setdefault("sent_message_ids", [])
-        return state
-    return {"inbound_cursor": None, "companies": {}, "sent_message_ids": []}
+    if state is None:
+        state = {"inbound_cursor": None, "companies": {}}
+    state.setdefault("sent_message_ids", [])
+    state.setdefault("companies", {})
+    return state
 
 
 def save_state(state: dict, dry_run: bool) -> None:
     if dry_run:
         print("  [dry-run] state not written")
         return
-    OPS_DIR.mkdir(parents=True, exist_ok=True)
-    STATE_PATH.write_text(json.dumps(state, indent=2, sort_keys=True) + "\n")
+    kv_set("concierge-state", state)
 
 
 def company_state(state: dict, company_id: str) -> dict:
@@ -524,7 +542,22 @@ def load_meeting_intel(company: dict) -> str | None:
     one meeting often covers sister companies sharing an owner (they may
     even share integration_settings.ghl_contact_id), and the notes live in
     just one of the slugs' files."""
-    if not MEETING_INTEL_DIR.exists():
+    docs: dict[str, str] = {}
+    if MEETING_INTEL_DIR.exists():
+        for path in sorted(MEETING_INTEL_DIR.glob("*.md")):
+            try:
+                docs[path.stem] = path.read_text()
+            except OSError:
+                pass
+    try:
+        for k, v in kv_prefix("meeting-intel/").items():
+            key = k.split("/", 1)[1]
+            content = v.get("content", "") if isinstance(v, dict) else str(v)
+            docs[key] = (docs.get(key, "") + "\n" + content).strip() \
+                if key in docs else content
+    except Exception as e:  # kv down must not kill compose
+        print(f"  [intel] kv fetch failed: {e}", file=sys.stderr)
+    if not docs:
         return None
     slug = company_slug(company.get("id") or "")
     cid = (company.get("id") or "").strip().lower()
@@ -533,18 +566,15 @@ def load_meeting_intel(company: dict) -> str | None:
     # still matches a note that just says "ProRestoration".
     core = re.sub(r"\b(inc|llc|corp|co|company|services?)\b\.?", "", name).strip()
     parts: list[str] = []
-    for path in sorted(MEETING_INTEL_DIR.glob("*.md")):
-        try:
-            text = path.read_text().strip()
-        except OSError:
-            continue
+    for key in sorted(docs):
+        text = docs[key].strip()
         low = text.lower()
-        hit = ((slug and path.stem == slug)
+        hit = ((slug and key == slug)
                or (cid and cid in low)
                or (name and name in low)
                or (len(core) >= 5 and core in low))
         if hit and text:
-            parts.append(f"[{path.name}]\n{text}")
+            parts.append(f"[{key}]\n{text}")
     return "\n\n".join(parts) or None
 
 
@@ -1424,11 +1454,18 @@ def append_escalation(company: dict, msg: dict | None, reason: str,
     if dry_run:
         print(f"    [dry-run] would append escalation:{block}")
         return
-    OPS_DIR.mkdir(parents=True, exist_ok=True)
-    if not ESCALATIONS_PATH.exists():
-        ESCALATIONS_PATH.write_text("# Concierge Escalations\n")
-    with ESCALATIONS_PATH.open("a") as f:
-        f.write(block)
+    try:
+        _sb("POST", "/rest/v1/concierge_escalations",
+            {"company_id": company.get("id"), "company_name": company.get("name"),
+             "reason": reason, "message": msg}, prefer="return=minimal")
+    except Exception as e:
+        print(f"  [escalation] supabase insert failed ({e}) — falling back "
+              "to local file", file=sys.stderr)
+        OPS_DIR.mkdir(parents=True, exist_ok=True)
+        if not ESCALATIONS_PATH.exists():
+            ESCALATIONS_PATH.write_text("# Concierge Escalations\n")
+        with ESCALATIONS_PATH.open("a") as f:
+            f.write(block)
 
 
 def flush_ops_pings(dry_run: bool) -> None:
