@@ -971,10 +971,46 @@ def photo_upload_link(company: dict) -> str | None:
     return f"https://restorationai.io/gbpphotos/{slug}" if slug else None
 
 
+GHL_LOCATION_TZ = "America/Los_Angeles"  # GHL returns naive local times
+
+
+def fetch_upcoming_appointments(contact_id: str, client_tz: str) -> str | None:
+    """Human-readable block of the contact's upcoming GHL appointments,
+    rendered in the CLIENT's local time. Live calendar data — compose is told
+    to trust this over meeting-intel dates."""
+    from zoneinfo import ZoneInfo
+    try:
+        data = _ghl("GET", f"/contacts/{contact_id}/appointments") or {}
+    except RuntimeError as e:
+        print(f"  [appointments] fetch failed: {e}", file=sys.stderr)
+        return None
+    now = datetime.now(timezone.utc)
+    lines = []
+    for ev in data.get("events", []) or []:
+        if ev.get("deleted"):
+            continue
+        status = (ev.get("appointmentStatus") or "").lower()
+        if status in ("cancelled", "noshow", "invalid"):
+            continue
+        try:
+            start = datetime.strptime(ev["startTime"], "%Y-%m-%d %H:%M:%S")
+            start = start.replace(tzinfo=ZoneInfo(GHL_LOCATION_TZ))
+        except (KeyError, ValueError):
+            continue
+        if start < now or (start - now).days > 30:
+            continue
+        local = start.astimezone(ZoneInfo(client_tz))
+        lines.append(f"- {local.strftime('%A %b %-d, %-I:%M %p')} "
+                     f"(their local time): {ev.get('title', 'appointment')}"
+                     f" [{status or 'booked'}]")
+    return "\n".join(lines) if lines else None
+
+
 def compose_draft(company: dict, first_name: str, items: list[dict],
                   channel: str, first_contact: bool,
                   history: list[dict] | None = None,
-                  intel: str | None = None) -> dict:
+                  intel: str | None = None,
+                  appointments: str | None = None) -> dict:
     chosen = items[:MAX_ITEMS_PER_MESSAGE]
     lines = []
     for i, it in enumerate(chosen, 1):
@@ -1000,7 +1036,19 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
         intel_block = (
             "\nMeeting intel (INTERNAL team notes — apply the MEETING INTEL "
             "RULES; never quote this to the client):\n" + intel + "\n")
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d (%A)")
+    appt_block = ""
+    if appointments:
+        appt_block = (
+            "\nUpcoming appointments (LIVE calendar — when referencing any "
+            "call/meeting date, use THESE times, not the meeting intel; "
+            "phrase relative to today, e.g. 'today at 12' / 'tomorrow'):\n"
+            + appointments + "\n")
+    # "Today" must be the CLIENT's calendar date — UTC rolls over at 5pm PT
+    # and would make an evening compose reference "tomorrow" off by one.
+    from zoneinfo import ZoneInfo
+    tz_name, _tz_src = resolve_timezone(company, None)
+    today = datetime.now(ZoneInfo(tz_name)).strftime(
+        "%Y-%m-%d (%A), their local date")
     photo_link = photo_upload_link(company)
     photo_block = ""
     if photo_link:
@@ -1017,6 +1065,7 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
                if first_contact else "")
             + history_block
             + intel_block
+            + appt_block
             + photo_block
             + f"Outstanding items (priority order, cover all of these and "
             f"nothing else):\n" + "\n".join(lines) +
@@ -1103,8 +1152,14 @@ def cmd_compose(args) -> int:
         print("[dry run: a real cycle would SKIP here — drafting anyway for "
               "inspection]")
 
+    appts = None
+    if contact:
+        tz_name, _tz_src = resolve_timezone(company, contact)
+        appts = fetch_upcoming_appointments(contact["id"], tz_name)
+        if appts:
+            print(f"Upcoming appointments (live GHL calendar):\n{appts}")
     draft = compose_draft(company, first, items, args.channel, first_contact,
-                          history=history, intel=intel)
+                          history=history, intel=intel, appointments=appts)
     print("\n" + "=" * 62)
     if draft["subject"] and args.channel == "email":
         print(f"Subject: {draft['subject']}")
