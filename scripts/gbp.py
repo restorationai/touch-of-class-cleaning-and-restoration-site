@@ -864,6 +864,57 @@ def cmd_create_pages(args) -> int:
     return 0
 
 
+PHOTOS_MAX_DIM = "=s2560"  # googleusercontent size suffix: long edge 2560px
+
+
+def cmd_photos(args) -> int:
+    """Download every GBP photo on the client's connected account to
+    clients/{slug}/gbp-photos/{location}/NNN-{category}.jpg for site use.
+    Idempotent: existing files are skipped (name = position + category)."""
+    import urllib.request as _rq
+    for slug in _clients(args):
+        cid = company_id_for(slug)
+        token = get_access_token(cid) if cid else None
+        if not token:
+            print(f"\n## {slug}: no business.manage token — connect this client's GBP")
+            continue
+        accts = _g(f"{ACCT_API}/accounts", token).get("accounts", [])
+        pulled = 0
+        for a in accts:
+            locs = _g(f"{INFO_API}/{a['name']}/locations?readMask=name,title"
+                      "&pageSize=100", token).get("locations", [])
+            for l in locs:
+                loc_slug = re.sub(r"[^a-z0-9]+", "-", l["title"].lower()).strip("-")
+                dest = ROOT / "clients" / slug / "gbp-photos" / loc_slug
+                media = _g(f"https://mybusiness.googleapis.com/v4/{a['name']}"
+                           f"/{l['name']}/media", token)
+                items = [m for m in media.get("mediaItems", [])
+                         if m.get("mediaFormat") == "PHOTO"]
+                print(f"\n## {slug} / {l['title']}: {len(items)} photo(s)")
+                for i, m in enumerate(items):
+                    cat = (m.get("locationAssociation") or {}).get(
+                        "category", "PHOTO").lower()
+                    out = dest / f"{i:03d}-{cat}.jpg"
+                    if out.exists():
+                        continue
+                    url = m.get("googleUrl") or m.get("sourceUrl")
+                    if not url:
+                        continue
+                    if "googleusercontent.com" in url:
+                        # normalize any baked-in size suffix (=s640 etc.) to full-size
+                        base, sep, tail = url.rpartition("=")
+                        url = (base if sep and re.match(r"^[swh]\d+", tail) else url) + PHOTOS_MAX_DIM
+                    dest.mkdir(parents=True, exist_ok=True)
+                    try:
+                        out.write_bytes(_rq.urlopen(url, timeout=60).read())
+                        pulled += 1
+                    except Exception as e:
+                        print(f"   ! {out.name}: {e}")
+                print(f"   -> {dest} ({len(list(dest.glob('*.jpg')) if dest.exists() else [])} on disk)")
+        print(f"\n{slug}: {pulled} new photo(s) downloaded")
+    return 0
+
+
 def main() -> int:
     if not (SB_URL and SB_KEY and G_CID and G_SECRET):
         print("ERROR: SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, GOOGLE_OAUTH_CLIENT_ID, "
@@ -871,7 +922,7 @@ def main() -> int:
         return 1
     ap = argparse.ArgumentParser(description="Google Business Profile module")
     sub = ap.add_subparsers(dest="cmd", required=True)
-    for name in ("read", "reconcile", "sync", "reviews"):
+    for name in ("read", "reconcile", "sync", "reviews", "photos"):
         p = sub.add_parser(name)
         g = p.add_mutually_exclusive_group(required=True)
         g.add_argument("--slug")
@@ -891,7 +942,7 @@ def main() -> int:
     go.add_argument("--all", action="store_true")
     args = ap.parse_args()
     return {"read": cmd_read, "reconcile": cmd_reconcile, "sync": cmd_sync,
-            "reviews": cmd_reviews, "add-services": cmd_add_services,
+            "reviews": cmd_reviews, "photos": cmd_photos, "add-services": cmd_add_services,
             "create-pages": cmd_create_pages, "optimize": cmd_optimize}[args.cmd](args)
 
 

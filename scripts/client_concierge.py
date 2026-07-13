@@ -953,6 +953,24 @@ Keep drafting deterministic: choose the most natural single phrasing, no
 alternatives or commentary."""
 
 
+_COMPANY_SLUGS: dict | None = None
+
+
+def photo_upload_link(company: dict) -> str | None:
+    """restorationai.io/gbpphotos/{slug} for clients present in
+    clients/company_map.json (slug -> company id)."""
+    global _COMPANY_SLUGS
+    if _COMPANY_SLUGS is None:
+        try:
+            cmap = json.loads(
+                (ROOT / "clients" / "company_map.json").read_text())
+            _COMPANY_SLUGS = {cid: slug for slug, cid in cmap.items()}
+        except (OSError, ValueError):
+            _COMPANY_SLUGS = {}
+    slug = _COMPANY_SLUGS.get(company.get("id", ""))
+    return f"https://restorationai.io/gbpphotos/{slug}" if slug else None
+
+
 def compose_draft(company: dict, first_name: str, items: list[dict],
                   channel: str, first_contact: bool,
                   history: list[dict] | None = None,
@@ -983,6 +1001,14 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
             "\nMeeting intel (INTERNAL team notes — apply the MEETING INTEL "
             "RULES; never quote this to the client):\n" + intel + "\n")
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d (%A)")
+    photo_link = photo_upload_link(company)
+    photo_block = ""
+    if photo_link:
+        photo_block = (
+            f"\nPhoto upload link for THIS client: {photo_link}\n"
+            "Whenever you ask for photos, include that exact link as the way "
+            "to send them (\"here's a link that uploads straight from your "
+            "phone\"), and add that texting them here works too.\n")
     user = (f"Client: {company['name']} (first name: {first_name})\n"
             f"Today's date: {today}\n"
             f"Channel: {channel} (character budget for SMS: {sms_budget})\n"
@@ -991,6 +1017,7 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
                if first_contact else "")
             + history_block
             + intel_block
+            + photo_block
             + f"Outstanding items (priority order, cover all of these and "
             f"nothing else):\n" + "\n".join(lines) +
             f"\n\nEnd with exactly: \"{APP_SELF_SERVE}\"")
@@ -1008,7 +1035,21 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
             "intel_resolved": _flags("intel_resolved")}
 
 
+def _companies_with_items() -> list[str]:
+    ids = {r["company_id"] for r in fetch_pending_intake()}
+    ids |= {r["company_id"] for r in fetch_open_asks()}
+    return sorted(i for i in ids if i)
+
+
 def cmd_compose(args) -> int:
+    if getattr(args, "all", False):
+        rc = 0
+        for cid in _companies_with_items():
+            sub = argparse.Namespace(**{**vars(args), "all": False,
+                                        "company": cid})
+            print(f"\n{'=' * 70}")
+            rc = max(rc, cmd_compose(sub))
+        return rc
     state = load_state()
     companies = fetch_companies([args.company])
     company = companies.get(args.company)
@@ -1609,7 +1650,10 @@ def main() -> int:
     sub.add_parser("status", help="table of clients with outstanding items")
 
     pc = sub.add_parser("compose", help="draft (and optionally send) one nudge")
-    pc.add_argument("--company", required=True, help="company id (CO-…)")
+    gcomp = pc.add_mutually_exclusive_group(required=True)
+    gcomp.add_argument("--company", help="company id (CO-…)")
+    gcomp.add_argument("--all", action="store_true",
+                       help="every company with outstanding items")
     pc.add_argument("--channel", choices=("sms", "email"), default="sms")
     pc.add_argument("--send", action="store_true",
                     help="actually deliver via GHL (canary gate applies)")

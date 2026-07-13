@@ -30,3 +30,4 @@ ads-dashboard/*.html
 # Service-account keys (never commit)
 .secrets/
 clients/_ops/email-intake/
+clients/*/gbp-photos/

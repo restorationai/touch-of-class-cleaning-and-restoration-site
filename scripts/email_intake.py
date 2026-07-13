@@ -74,8 +74,9 @@ def cmd_auth(_args) -> int:
     import socketserver
     import webbrowser
 
-    port = 8765
-    redirect = f"http://localhost:{port}/"
+    port = 5173  # /connect/google/callback on this port is a
+    # registered redirect URI of the shared OAuth client (the app dev origin)
+    redirect = f"http://localhost:{port}/connect/google/callback"
     auth_url = ("https://accounts.google.com/o/oauth2/v2/auth?"
                 + urllib.parse.urlencode({
                     "client_id": cid, "redirect_uri": redirect,
