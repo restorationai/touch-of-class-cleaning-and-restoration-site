@@ -70,10 +70,10 @@
     },
     {
       "id": "2026-07-06-water-damage-behind-walls",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-07-06T18:21:18Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-07-13T18:04:18Z",
+      "post_url": "https://flood-fixers.com/blog/how-to-tell-if-you-have-water-damage-behind-walls/",
       "primary_keyword": "how to tell if you have water damage behind walls",
       "intent": "informational",
       "volume": null,
@@ -165,6 +165,179 @@
         "https://www.iicrc.org/page/IICRCS500"
       ],
       "notes": "Cost drivers: water category, affected square footage, materials, drying time, mold. Cross-link the insurance-coverage blog. Commercial/decision-stage query with no dedicated cost page in the url-plan. No metrics: DataForSEO unavailable this run; queued intent-first as a high-value decision-stage topic. Keep price ranges general, avoid unverifiable local quotes."
+    },
+    {
+      "id": "2026-07-13-does-homeowners-insurance-cover-flood-damage",
+      "status": "queued",
+      "queued_at": "2026-07-13T18:01:06Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does homeowners insurance cover flood damage",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "is flood damage covered by homeowners insurance",
+        "do i need separate flood insurance",
+        "what does flood insurance cover",
+        "nfip flood insurance explained",
+        "difference between flood insurance and water damage coverage"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-flood-damage",
+      "suggested_title": "Does Homeowners Insurance Cover Flood Damage? What San Diego Homeowners Need To Know",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/flood-damage-restoration/",
+        "/services/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "flood-damage-restoration",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.floodsmart.gov/",
+        "https://www.fema.gov/flood-insurance"
+      ],
+      "notes": "Distinguish NFIP flood policies from standard homeowners water-damage coverage: homeowners policies typically EXCLUDE flooding (rising external water). Cross-link the existing water-damage insurance blog and the flood-damage service page. Decision-stage query, no existing blog coverage. No metrics: DataForSEO unavailable this run; queued intent-first."
+    },
+    {
+      "id": "2026-07-13-what-to-do-after-a-flood-in-your-house",
+      "status": "queued",
+      "queued_at": "2026-07-13T18:01:06Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what to do after a flood in your house",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "what to do if your house floods",
+        "steps to clean up flood damage",
+        "how to clean up after a flood",
+        "flood cleanup safety tips",
+        "when to call a flood damage professional"
+      ],
+      "suggested_slug": "what-to-do-after-a-flood-in-your-house",
+      "suggested_title": "What To Do After a Flood in Your House (The First 24 Hours)",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/flood-damage-restoration/",
+        "/services/basement-flooding-cleanup/"
+      ],
+      "service_tags": [
+        "flood-damage-restoration",
+        "basement-flooding-cleanup"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.ready.gov/floods",
+        "https://www.cdc.gov/disasters/floods/index.html"
+      ],
+      "notes": "Emergency checklist: safety (power/gas, contaminated water), document damage for insurance, stop the source, act within the 24-48h mold window, when to call a pro. Reinforces 24/7 service. No existing flood-specific blog coverage. No metrics: DataForSEO unavailable this run; queued intent-first."
+    },
+    {
+      "id": "2026-07-13-how-to-dry-out-a-flooded-house",
+      "status": "queued",
+      "queued_at": "2026-07-13T18:01:06Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to dry out a flooded house",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "how long does it take to dry out a flooded house",
+        "drying out after a flood",
+        "how to dry a flooded room",
+        "do you need professional drying equipment after a flood",
+        "preventing mold after a flood"
+      ],
+      "suggested_slug": "how-to-dry-out-a-flooded-house",
+      "suggested_title": "How To Dry Out a Flooded House: A Step-by-Step Guide",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/flood-damage-restoration/",
+        "/services/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "flood-damage-restoration",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-cleanup-your-home"
+      ],
+      "notes": "Water extraction, air movers and dehumidifiers, moisture monitoring, why full structural drying needs pro equipment, the 24-48h mold growth window. No existing blog coverage. No metrics: DataForSEO unavailable this run; queued intent-first."
+    },
+    {
+      "id": "2026-07-13-difference-between-flood-damage-and-water-damage",
+      "status": "queued",
+      "queued_at": "2026-07-13T18:01:06Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "difference between flood damage and water damage",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "is flood damage the same as water damage",
+        "flood vs water damage insurance",
+        "what counts as flood damage",
+        "water category in a flood",
+        "why flood damage costs more to restore"
+      ],
+      "suggested_slug": "difference-between-flood-damage-and-water-damage",
+      "suggested_title": "The Difference Between Flood Damage and Water Damage (And Why It Matters)",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/flood-damage-restoration/",
+        "/services/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "flood-damage-restoration",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.floodsmart.gov/",
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "GEO/definitional: flood = external rising water (often category 3, contaminated), water damage = internal source (pipes, appliances). Explains why insurance and remediation differ. Disambiguates the two core services for AI retrieval. No existing blog coverage. No metrics: DataForSEO unavailable this run; queued intent-first."
+    },
+    {
+      "id": "2026-07-13-is-flood-water-dangerous",
+      "status": "queued",
+      "queued_at": "2026-07-13T18:01:06Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "is flood water dangerous",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "is flood water contaminated",
+        "is it safe to stay in a house after a flood",
+        "health risks of flood water",
+        "black water category 3 flood",
+        "can you get sick from flood water"
+      ],
+      "suggested_slug": "is-flood-water-dangerous",
+      "suggested_title": "Is Flood Water Dangerous? Health Risks and What To Do",
+      "target_word_count": 1200,
+      "internal_link_targets": [
+        "/services/flood-damage-restoration/",
+        "/services/basement-flooding-cleanup/"
+      ],
+      "service_tags": [
+        "flood-damage-restoration",
+        "basement-flooding-cleanup"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.cdc.gov/disasters/floods/index.html"
+      ],
+      "notes": "Flood water is typically category 3 (black water): sewage, chemicals, pathogens. Cover contamination risks, PPE, why DIY cleanup is risky, when to evacuate. Keep health claims general and cite CDC. No existing blog coverage. No metrics: DataForSEO unavailable this run; queued intent-first."
     }
   ]
 }
