@@ -1182,6 +1182,11 @@ def cmd_compose(args) -> int:
         print("[dry run: a real cycle would SKIP here — drafting anyway for "
               "inspection]")
 
+    if args.send:
+        gate = cadence_check(cs, company, contact)
+        if gate:
+            print(f"[gated, no draft: {gate}]")
+            return 0
     appts = None
     if contact:
         tz_name, _tz_src = resolve_timezone(company, contact)
@@ -1231,7 +1236,7 @@ def cmd_compose(args) -> int:
     reason = cadence_check(cs, company, contact)
     if reason:
         print(f"\nSEND REFUSED (cadence): {reason}", file=sys.stderr)
-        return 1
+        return 0
     if not contact:
         print("\nSEND REFUSED: no GHL contact resolved", file=sys.stderr)
         return 1
