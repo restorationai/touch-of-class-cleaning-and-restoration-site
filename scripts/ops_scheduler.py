@@ -24,6 +24,12 @@ from pathlib import Path
 
 HERE = Path(__file__).parent
 
+# Daily jobs fire once per UTC day at/after the given HH:MM.
+DAILY_JOBS = [
+    # (name, "HH:MM" UTC, argv)  — 12:20 UTC = 5:20am PT
+    ("callist", "12:20", [sys.executable, str(HERE / "callist" / "run_daily.py")]),
+]
+
 JOBS = [
     # (name, interval seconds, argv)
     ("inbound", 300, [sys.executable, str(HERE / "client_concierge.py"),
@@ -46,10 +52,31 @@ def log(msg: str) -> None:
 
 def main() -> None:
     last_run = {name: 0.0 for name, _, _ in JOBS}
+    daily_done: dict = {}
     log(f"ops worker up — jobs: "
         + ", ".join(f"{n}/{iv}s" for n, iv, _ in JOBS))
     while True:
         now = time.time()
+        utc = datetime.now(timezone.utc)
+        for name, at, argv in DAILY_JOBS:
+            if daily_done.get(name) == utc.date():
+                continue
+            hh, mm = at.split(":")
+            if (utc.hour, utc.minute) >= (int(hh), int(mm)):
+                daily_done[name] = utc.date()
+                log(f"--- {name} (daily {at}Z) start")
+                try:
+                    r = subprocess.run(argv, timeout=90 * 60,
+                                       capture_output=True, text=True)
+                    if r.stdout:
+                        print(r.stdout.strip()[-6000:], flush=True)
+                    if r.returncode != 0:
+                        log(f"!!! {name} exited {r.returncode}")
+                        if r.stderr:
+                            print(r.stderr.strip()[-2000:], file=sys.stderr, flush=True)
+                except Exception as e:  # noqa: BLE001
+                    log(f"!!! {name} crashed the runner: {e!r}")
+                log(f"--- {name} done")
         for name, interval, argv in JOBS:
             if now - last_run[name] < interval:
                 continue
