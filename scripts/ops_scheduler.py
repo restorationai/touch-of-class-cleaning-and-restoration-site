@@ -28,6 +28,10 @@ HERE = Path(__file__).parent
 DAILY_JOBS = [
     # (name, "HH:MM" UTC, argv)  — 12:20 UTC = 5:20am PT
     ("callist", "12:20", [sys.executable, str(HERE / "callist" / "run_daily.py")]),
+    # Evening pass: today's Notion notes -> GHL contacts same day
+    # (01:00 UTC = 6:00pm PT the previous calendar day in UTC terms).
+    ("callist-notes", "01:00", [sys.executable,
+                                str(HERE / "callist" / "run_notes_sync.py")]),
 ]
 
 JOBS = [

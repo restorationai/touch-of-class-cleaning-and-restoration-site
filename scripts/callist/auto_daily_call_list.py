@@ -187,7 +187,33 @@ def is_removed(notes_blob):
 
 REMOVED_FILE = os.path.join(BASE_DIR, "removed.json")
 
+
+def _kv(method, key, payload=None):
+    """Tiny ops_kv client — SHARED store so Mac runs and Railway agree.
+    Returns None (and callers fall back to the local file) without env."""
+    url = os.environ.get("SUPABASE_URL"); k = os.environ.get("SUPABASE_SERVICE_ROLE_KEY")
+    if not (url and k):
+        return None
+    h = {"apikey": k, "Authorization": f"Bearer {k}", "Content-Type": "application/json"}
+    try:
+        if method == "GET":
+            r = HTTP.get(f"{url.rstrip('/')}/rest/v1/ops_kv",
+                         params={"k": f"eq.{key}", "select": "v"}, headers=h)
+            rows = r.json() if r.status_code == 200 else []
+            return rows[0]["v"] if rows else {}
+        HTTP.post(f"{url.rstrip('/')}/rest/v1/ops_kv?on_conflict=k",
+                  json={"k": key, "v": payload},
+                  headers={**h, "Prefer": "resolution=merge-duplicates,return=minimal"})
+        return payload
+    except Exception as e:
+        print(f"[kv] {method} {key} failed: {e}")
+        return None
+
+
 def load_removed() -> set:
+    kv = _kv("GET", "callist-removed")
+    if kv is not None:
+        return set(kv.get("ids", []))
     try:
         return set(json.load(open(REMOVED_FILE)))
     except Exception:
@@ -198,7 +224,8 @@ def add_removed(contact_id: str) -> None:
     flow lost 'remove from list' notes to a sync bug (2026-07-14) and people
     Santino had removed kept reappearing."""
     ids = load_removed(); ids.add(contact_id)
-    json.dump(sorted(ids), open(REMOVED_FILE, "w"))
+    if _kv("POST", "callist-removed", {"ids": sorted(ids)}) is None:
+        json.dump(sorted(ids), open(REMOVED_FILE, "w"))
 
 def call_decision(contact, today):
     """(show, reason) — reason explains WHY someone is hidden so the daily

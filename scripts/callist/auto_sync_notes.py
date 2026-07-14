@@ -188,12 +188,19 @@ def is_no_action(note):
 
 # ---------- State ----------
 def load_synced():
+    from auto_daily_call_list import _kv
+    kv = _kv("GET", "callist-synced-notes")
+    if kv is not None:
+        return kv
     try:
         return json.load(open(SYNC_FILE))
     except Exception:
         return {}
 
 def save_synced(data):
+    from auto_daily_call_list import _kv
+    if _kv("POST", "callist-synced-notes", data) is not None:
+        return
     json.dump(data, open(SYNC_FILE, "w"))
 
 # ---------- Main ----------
