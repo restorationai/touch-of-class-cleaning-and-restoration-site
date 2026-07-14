@@ -19,11 +19,11 @@ import requests
 from _http import HTTP
 from datetime import datetime, date, timedelta
 
-BASE_DIR   = os.path.expanduser("~/restoration-ai")
+BASE_DIR   = os.environ.get("RAI_BASE") or os.path.expanduser("~/restoration-ai")
 LOG_FILE   = os.path.join(BASE_DIR, "auto_router.log")
 SUGG_FILE  = os.path.join(BASE_DIR, "router_suggestions.json")
 STATE_FILE = os.path.join(BASE_DIR, "router_state.json")
-ENV_FILE   = os.path.expanduser("~/restoration-ai/.env")
+ENV_FILE   = os.path.join(BASE_DIR, ".env")
 
 def log(msg):
     ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")

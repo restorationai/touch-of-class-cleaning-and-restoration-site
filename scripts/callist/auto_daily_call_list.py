@@ -184,10 +184,28 @@ REMOVE_RE = re.compile(
 def is_removed(notes_blob):
     return bool(REMOVE_RE.search(notes_blob or ""))
 
+
+REMOVED_FILE = os.path.join(BASE_DIR, "removed.json")
+
+def load_removed() -> set:
+    try:
+        return set(json.load(open(REMOVED_FILE)))
+    except Exception:
+        return set()
+
+def add_removed(contact_id: str) -> None:
+    """Durable removal, independent of whether the GHL note posts. The old
+    flow lost 'remove from list' notes to a sync bug (2026-07-14) and people
+    Santino had removed kept reappearing."""
+    ids = load_removed(); ids.add(contact_id)
+    json.dump(sorted(ids), open(REMOVED_FILE, "w"))
+
 def call_decision(contact, today):
     """(show, reason) — reason explains WHY someone is hidden so the daily
     email can list them (a silently missing warm lead cost us Shawn Nunez
     for a week, 2026-07-13)."""
+    if contact.get('contact_id') in load_removed():
+        return False, "removed (do-not-call list)"
     if is_removed(contact.get('notes', '')):
         return False, "removed (do-not-call note)"
     note_body = contact.get('latest_note_body', '')

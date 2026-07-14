@@ -90,6 +90,9 @@ def sync_call_notes(pid):
         key = f"{cid}:{hashlib.sha1(note.encode()).hexdigest()[:10]}"
         if key in already:
             continue
+        if L.REMOVE_RE.search(note):
+            L.add_removed(cid)   # durable even if the GHL note post fails
+            log(f"  remove-from-list captured for {cid}")
         if S.post_note(cid, note):
             already.add(key); posted += 1
     synced[pid] = sorted(already); S.save_synced(synced)
