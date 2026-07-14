@@ -1450,6 +1450,11 @@ reason) — those items must not be re-asked in any follow-up nudge. Never
 treat intel alone as the client's answer to an item (that needs a human to
 verify); intel_resolved is a flag, not a match.
 
+If the reply is a PURE ACKNOWLEDGMENT of our last outbound message — an
+emoji (👍, 🙏), "ok", "sounds good", "thanks", "see you then", "perfect" —
+with no information in it, set "ack": true and nothing else. Acknowledgments
+need no reply and no human.
+
 If the reply asks to MOVE/RESCHEDULE/CANCEL an upcoming call or meeting
 ("can we reschedule?", "can't make it Tuesday", "push it a few days"), set
 "reschedule" with their timing preference in plain words — that is handled
@@ -1459,6 +1464,7 @@ Return ONLY JSON:
 {"matches": [{"item_id": "<id from the list>", "value": "<extracted answer>",
               "answer_type": "license|yes_no|free_text|customer_list"}],
  "intel_resolved": [{"item_id": "<id from the list>", "reason": string}],
+ "ack": bool,
  "reschedule": {"requested": bool, "preference": string}|null,
  "escalate": bool,
  "escalate_reason": string|null,
@@ -1910,6 +1916,9 @@ def cmd_inbound(args) -> int:
                           f"the answer)")
                 print(f"    INTEL: {reason}")
                 append_escalation(company, None, reason, dry_run)
+            if result.get("ack"):
+                print("    acknowledgment — no action, no escalation")
+                continue
             resc = result.get("reschedule") or {}
             if resc.get("requested"):
                 handle_reschedule_request(company, contact_for_flow,
