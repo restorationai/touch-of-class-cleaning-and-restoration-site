@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Water Fighters Restoration — Visibility Report · Restoration AI</title>
+<style>
+  :root{
+    --bg:#0d1420; --panel:#131e2e; --line:#243550; --ink:#e8eef7; --dim:#93a5be;
+    --amber:#f5a623; --good:#3ec97e; --warn:#f5a623; --crit:#ef5350;
+  }
+  *{box-sizing:border-box}
+  html,body{background:var(--bg);-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  body{font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;color:var(--ink);margin:0;padding:40px 20px;line-height:1.5}
+  .wrap{max-width:880px;margin:0 auto}
+  .brand{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:26px;border-bottom:1px solid var(--line);padding-bottom:14px}
+  .brand .logo{font-size:20px;font-weight:800;letter-spacing:.02em}
+  .brand .logo span{color:var(--amber)}
+  .brand .doc{color:var(--dim);font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:700}
+  .eyebrow{letter-spacing:.18em;text-transform:uppercase;font-size:12px;color:var(--amber);font-weight:700}
+  h1{font-size:clamp(26px,4vw,38px);margin:6px 0 2px;text-wrap:balance}
+  .sub{color:var(--dim);margin:0 0 28px;font-size:15px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:14px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:18px 20px;break-inside:avoid}
+  .card h3{margin:0 0 2px;font-size:16px}
+  .stars{font-size:20px;letter-spacing:2px;color:var(--amber);margin:4px 0 6px}
+  .stars .off{color:var(--line)}
+  .stars .half{background:linear-gradient(90deg,var(--amber) 50%,var(--line) 50%);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .why{color:var(--dim);font-size:13.5px;margin:0}
+  .why b{color:var(--ink)}
+  .tag{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;border-radius:99px;padding:2px 10px;margin-left:8px;vertical-align:2px}
+  .t-good{background:rgba(62,201,126,.16);color:var(--good)}
+  .t-warn{background:rgba(245,166,35,.16);color:var(--warn)}
+  .t-crit{background:rgba(239,83,80,.16);color:var(--crit)}
+  .overall{display:flex;align-items:center;gap:22px;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:18px 22px;margin-bottom:16px;flex-wrap:wrap;break-inside:avoid}
+  .overall-num{font-size:44px;font-weight:800;line-height:1;font-variant-numeric:tabular-nums}
+  .overall-num span{font-size:18px;color:var(--dim);font-weight:600}
+  .overall-read{margin:0;color:var(--dim);font-size:14.5px;max-width:56ch}
+  .overall-read b{color:var(--ink)}
+  .feature{margin:26px 0;border:1px solid rgba(239,83,80,.45);background:rgba(239,83,80,.07);border-radius:10px;padding:20px 22px;break-inside:avoid}
+  .feature h2{margin:0 0 8px;font-size:18px}
+  blockquote{margin:10px 0 0;padding:12px 16px;border-left:3px solid var(--crit);background:rgba(13,20,32,.55);border-radius:0 8px 8px 0;color:var(--dim);font-size:14px}
+  blockquote b{color:var(--ink)}
+  .note{font-size:13px;color:var(--dim);margin-top:10px}
+  .comp{margin-top:26px;break-inside:avoid}
+  .comp h2{font-size:18px;margin:0 0 12px}
+  .comp-scroll{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--panel)}
+  table{border-collapse:collapse;width:100%;font-size:13.5px;min-width:560px}
+  th,td{padding:10px 14px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+  th{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.08em}
+  tr:last-child td{border-bottom:none}
+  td b{font-variant-numeric:tabular-nums}
+  .you td{background:rgba(245,166,35,.08)}
+  .yes{color:var(--good);font-weight:700}
+  .no{color:var(--crit);font-weight:700}
+  .plan{margin-top:26px;break-inside:avoid}
+  .plan h2{font-size:18px;margin:0 0 12px}
+  .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+  .step{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px 16px;font-size:14px}
+  .step b{display:block;margin-bottom:4px;color:var(--amber)}
+  .cta{margin-top:26px;border:1px solid rgba(245,166,35,.5);background:rgba(245,166,35,.07);border-radius:10px;padding:18px 22px;break-inside:avoid}
+  .cta h2{margin:0 0 6px;font-size:18px}
+  .cta p{margin:0;color:var(--dim);font-size:14px}
+  .cta b{color:var(--ink)}
+  footer{margin-top:30px;color:var(--dim);font-size:12px;border-top:1px solid var(--line);padding-top:14px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px}
+  footer .fbrand{font-weight:700;color:var(--ink)}
+  footer .fbrand span{color:var(--amber)}
+  @page{size:A4;margin:10mm}
+  @media print{ body{padding:0} .grid{grid-template-columns:1fr 1fr} table{min-width:0} th,td{white-space:normal} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="brand">
+    <div class="logo">Restoration <span>AI</span></div>
+    <div class="doc">Rank AI · Visibility Report</div>
+  </div>
+
+  <div class="eyebrow">Prepared for</div>
+  <h1>Water Fighters Restoration</h1>
+  <p class="sub">Peoria / Greater Phoenix Valley, AZ · waterfighters.net · Live data pulled July 14, 2026</p>
+
+  <div class="overall">
+    <div>
+      <div class="overall-num">2.5<span>/5</span></div>
+      <div class="stars" style="font-size:24px">★★<span class="half">★</span><span class="off">★★</span></div>
+    </div>
+    <p class="overall-read"><b>Strong reputation, weak discoverability.</b> Water Fighters has the best rating in its market — but the customers who search organically, ask AI, or live outside Peoria can't find it. The reputation is earned; the visibility layer is missing.</p>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Overall Visibility <span class="tag t-warn">Mixed</span></h3>
+      <div class="stars">★★★<span class="off">★★</span></div>
+      <p class="why"><b>#1 in the Peoria map pack</b> — genuinely strong. But <b>not in the top 20 organic results</b> for "water damage restoration Peoria AZ," and absent from AI answers. Visibility thins fast outside the home city, despite serving the whole Valley.</p>
+    </div>
+
+    <div class="card">
+      <h3>AI Search Readiness <span class="tag t-crit">Critical</span></h3>
+      <div class="stars">★<span class="off">★★★★</span></div>
+      <p class="why">ChatGPT recommends <b>four competitors — including one with 4 reviews</b> — and never mentions Water Fighters. Root cause: the website serves AI crawlers a <b>blank 169-byte page</b> — no title, no headline, no content. To ChatGPT, the site doesn't exist.</p>
+    </div>
+
+    <div class="card">
+      <h3>Google Business Profile <span class="tag t-warn">Needs work</span></h3>
+      <div class="stars">★★★<span class="off">★★</span></div>
+      <p class="why">Claimed, 24/7, 590 photos — good bones. Two locations (Peoria: 4.9★ / 124 · Phoenix: 4.7★ / 93) — but <b>the website doesn't give each location its own supporting pages</b>, and the profiles list dozens of services with no matching page on the site. Google and AI discount what they can't verify.</p>
+    </div>
+
+    <div class="card">
+      <h3>Reviews &amp; Trust <span class="tag t-good">Strong core</span></h3>
+      <div class="stars">★★★★<span class="off">★</span></div>
+      <p class="why"><b>4.9★ is elite</b>, and licensing/IICRC signals are all present. The gap is volume &amp; velocity: ~217 reviews split across two listings after 15+ years in business. Competitors hold 199–480 on a single listing — and review count is a top map-pack ranking factor.</p>
+    </div>
+
+    <div class="card">
+      <h3>Website &amp; SEO Foundation <span class="tag t-crit">Weak</span></h3>
+      <div class="stars">★★<span class="off">★★★</span></div>
+      <p class="why">Looks professional to humans; <b>invisible to crawlers that don't run JavaScript</b>. No organic rankings in the home market, and modest authority (75 referring domains). The blog exists but isn't earning positions.</p>
+    </div>
+
+    <div class="card">
+      <h3>Paid Coverage — LSA / Ads <span class="tag t-warn">Opportunity</span></h3>
+      <div class="stars">★★<span class="off">★★★</span></div>
+      <p class="why">LSA presence <b>didn't appear on the emergency searches we checked</b> — worth verifying coverage and budget across the Valley. LSA is pay-per-confirmed-lead, and with AI call screening, junk leads get disqualified and refunded — so existing LSA spend works harder.</p>
+    </div>
+  </div>
+
+  <div class="feature">
+    <h2>The AI test — run live today</h2>
+    <p class="why">We asked ChatGPT: <b>"Who are the best water damage restoration companies in Peoria, Arizona? I have an emergency water leak and need someone now."</b></p>
+    <blockquote>It answered: <b>Peoria Water Damage Services</b> (5.0 — <b>4 reviews</b>), <b>Premier Restorations</b>, <b>ServiceMaster All Care</b>, and <b>Drylux</b> (Gilbert — 40 miles away).<br>Water Fighters Restoration — the #1-rated company on the Peoria map — <b>was not mentioned.</b></p>
+    <p class="note">Homeowners are increasingly asking AI instead of Google. Right now, those emergency calls are being routed to competitors — including companies smaller and lower-rated than Water Fighters.</p>
+  </div>
+
+  <div class="comp">
+    <h2>How the market sees it — Peoria, AZ</h2>
+    <div class="comp-scroll">
+      <table>
+        <tr><th>Company</th><th>Rating</th><th>Reviews</th><th>Peoria map pack</th><th>ChatGPT</th></tr>
+        <tr class="you"><td><b>Water Fighters Restoration</b></td><td><b>4.9★</b></td><td><b>124</b> (+93 Phoenix)</td><td><b>#1</b></td><td class="no">✗ Not mentioned</td></tr>
+        <tr><td>Peoria Water Damage Services</td><td>5.0★</td><td><b>4</b></td><td>—</td><td class="yes">✓ First pick</td></tr>
+        <tr><td>Premier Restorations</td><td>4.9★</td><td>81</td><td>#2</td><td class="yes">✓</td></tr>
+        <tr><td>ServiceMaster All Care</td><td>4.8★</td><td>107</td><td>—</td><td class="yes">✓</td></tr>
+        <tr><td>Drylux Restoration (Gilbert)</td><td>4.4★</td><td>480</td><td>—</td><td class="yes">✓</td></tr>
+      </table>
+    </div>
+    <p class="note">The best-rated company in the market is the only one on this list AI won't recommend — that's a fixable technical problem, not a reputation problem.</p>
+  </div>
+
+  <div class="plan">
+    <h2>Biggest opportunities, in order</h2>
+    <div class="steps">
+      <div class="step"><b>1 · Reputation consolidation</b> Strengthen both listings, then run a review reactivation campaign to past customers — you're sitting on hundreds of un-asked-for reviews.</div>
+      <div class="step"><b>2 · AI-readable rebuild</b> Rebuild the site so Google <i>and</i> AI crawlers can read every service and every Valley city — the fix for being invisible in ChatGPT, Gemini &amp; AI Overviews.</div>
+      <div class="step"><b>3 · Claim the LSA auction</b> Launch Local Service Ads — pay only for confirmed leads, with junk calls disqualified so you're refunded.</div>
+    </div>
+  </div>
+
+  <div class="cta">
+    <h2>The non-disruptive path</h2>
+    <p>Everything that's working today keeps running — your team, your site, your campaigns. Rank AI adds the layer nobody's covering: <b>AI-search visibility, review growth, and every call answered.</b> One price, <b>$997/month, no contract</b> — and the first <b>14 days are free</b>, so the results speak before a dollar is spent.</p>
+  </div>
+
+  <footer>
+    <span class="fbrand">Restoration <span>AI</span> · restorationai.io</span>
+    <span>Sources: live Google SERP, Google Business data, ChatGPT (live query), backlink index, site crawl · July 14, 2026</span>
+  </footer>
+</div>
+</body>
+</html>
