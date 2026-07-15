@@ -5,7 +5,7 @@
   "live_origin": "https://davisconstructioncontractors.com",
   "live_origin_source": "apex",
   "audit_form_factor": "desktop",
-  "generated_at": "2026-06-25T18:12:23Z",
+  "generated_at": "2026-07-15T15:47:20Z",
   "environment_caveats": [
     {
       "id": "lighthouse_desktop_only",
@@ -13,135 +13,68 @@
     },
     {
       "id": "mcp_wrapper_unavailable_used_rest",
-      "description": "The mcp__dataforseo MCP wrapper did not expose tools this run. Audit was executed against the same DataForSEO OnPage Lighthouse live and Instant Pages REST endpoints (v13.4.0 lighthouse) using the DATAFORSEO_* credentials in the environment. Same data source as the MCP wrapper."
+      "description": "The mcp__dataforseo MCP wrapper did not expose tools this run. Audit was executed against the DataForSEO OnPage Lighthouse (/v3/on_page/lighthouse/live/json) and Instant Pages (/v3/on_page/instant_pages) REST endpoints using the DATAFORSEO_* credentials in the environment. Same account and data source as the MCP wrapper."
     },
     {
       "id": "schema_jsonld_detection",
-      "description": "DataForSEO instant_pages has_micromarkup=false on all pages, but JSON-LD was verified present in the HTML of all 6 pages (LocalBusiness, Organization, WebSite, Service, FAQPage, BreadcrumbList). has_micromarkup does not count JSON-LD, so missing-schema was NOT flagged."
+      "description": "DataForSEO instant_pages reports has_micromarkup=false on all 6 pages, but JSON-LD was verified present in the served HTML of every page (LocalBusiness, Organization, WebSite, Service, FAQPage, BreadcrumbList). has_micromarkup does not count JSON-LD, so missing-schema was NOT flagged."
     },
     {
-      "id": "prior_audit_on_staging",
-      "description": "Prior audit (2026-05-25) ran on the staging Pages preview with SEO excluded from the verdict (noindex artifact). This run is apex with SEO counted. Regression is matched by URL path across the staging->apex cutover; the large SEO gains and some best-practices shifts reflect the environment change, not page edits."
+      "id": "lighthouse12_insight_audits",
+      "description": "This Lighthouse version emits the new 'Insights' diagnostic audits (cache-insight, image-delivery-insight, lcp-discovery-insight, network-dependency-tree-insight, render-blocking-insight, forced-reflow-insight). Most carry <=150ms savings on pages already scoring 98-100. Several appear as 'new_issues' vs the prior audit purely because the audit set changed; they are low-impact diagnostics, not genuine regressions."
     }
   ],
   "audited_urls": [
     {
       "url": "https://davisconstructioncontractors.com/",
       "archetype": "home",
-      "verdict": "amber",
+      "verdict": "green",
       "error_reason": null,
       "scores": {
-        "performance": 77,
-        "accessibility": 90,
-        "best_practices": 77,
+        "performance": 99,
+        "accessibility": 100,
+        "best_practices": 100,
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 4629,
-        "CLS": 0.017,
+        "LCP_ms": 921,
+        "CLS": 0.015,
         "TBT_ms": 0,
         "INP_ms": null
       },
       "lighthouse_issues": [
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "low",
+          "estimated_savings_ms": 60,
+          "category": "performance"
+        },
         {
           "id": "largest-contentful-paint",
           "title": "Largest Contentful Paint",
-          "severity": "high",
+          "severity": "low",
           "estimated_savings_ms": 0,
           "category": "performance"
         },
         {
-          "id": "button-name",
-          "title": "Buttons do not have an accessible name",
-          "severity": "high",
-          "estimated_savings_ms": 0,
-          "category": "accessibility"
-        },
-        {
-          "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-          "severity": "high",
-          "estimated_savings_ms": 0,
-          "category": "accessibility"
-        },
-        {
-          "id": "third-party-cookies",
-          "title": "Uses third-party cookies",
-          "severity": "high",
-          "estimated_savings_ms": 0,
-          "category": "best_practices"
-        },
-        {
-          "id": "inspector-issues",
-          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
-          "severity": "high",
-          "estimated_savings_ms": 0,
-          "category": "best_practices"
-        }
-      ],
-      "onpage_issues": [
-        {
-          "id": "title_too_long",
-          "title": "Title too long (68 chars, target 30-65)",
-          "severity": "medium"
-        },
-        {
-          "id": "meta_description_length_out_of_range",
-          "title": "Meta description length 187 chars outside 70-160 range",
-          "severity": "low"
-        }
-      ]
-    },
-    {
-      "url": "https://davisconstructioncontractors.com/services/",
-      "archetype": "services-hub",
-      "verdict": "amber",
-      "error_reason": null,
-      "scores": {
-        "performance": 98,
-        "accessibility": 89,
-        "best_practices": 96,
-        "seo": 100
-      },
-      "core_web_vitals": {
-        "LCP_ms": 884,
-        "CLS": 0.001,
-        "TBT_ms": 0,
-        "INP_ms": null
-      },
-      "lighthouse_issues": [
-        {
-          "id": "button-name",
-          "title": "Buttons do not have an accessible name",
-          "severity": "high",
-          "estimated_savings_ms": 0,
-          "category": "accessibility"
-        },
-        {
-          "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-          "severity": "high",
-          "estimated_savings_ms": 0,
-          "category": "accessibility"
-        },
-        {
-          "id": "inspector-issues",
-          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
-          "severity": "high",
-          "estimated_savings_ms": 0,
-          "category": "best_practices"
-        },
-        {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree",
-          "severity": "high",
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
           "estimated_savings_ms": 0,
           "category": "performance"
         },
         {
-          "id": "render-blocking-insight",
-          "title": "Render-blocking requests",
-          "severity": "high",
+          "id": "forced-reflow-insight",
+          "title": "Forced reflow",
+          "severity": "low",
+          "estimated_savings_ms": 0,
+          "category": "performance"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "low",
           "estimated_savings_ms": 0,
           "category": "performance"
         }
@@ -149,7 +82,69 @@
       "onpage_issues": [
         {
           "id": "content_below_target_word_count",
-          "title": "Word count 749 below archetype target 800",
+          "title": "Word count 1191 below archetype target 1200",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "url": "https://davisconstructioncontractors.com/services/",
+      "archetype": "services-hub",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 98,
+        "accessibility": 100,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 1095,
+        "CLS": 0.001,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "low",
+          "estimated_savings_ms": 100,
+          "category": "performance"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": 50,
+          "category": "performance"
+        },
+        {
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
+          "severity": "low",
+          "estimated_savings_ms": 0,
+          "category": "performance"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "low",
+          "estimated_savings_ms": 0,
+          "category": "performance"
+        },
+        {
+          "id": "forced-reflow-insight",
+          "title": "Forced reflow",
+          "severity": "low",
+          "estimated_savings_ms": 0,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "content_below_target_word_count",
+          "title": "Word count 756 below archetype target 800",
           "severity": "low"
         }
       ]
@@ -157,53 +152,53 @@
     {
       "url": "https://davisconstructioncontractors.com/services/home-remodeling/",
       "archetype": "service-landing",
-      "verdict": "amber",
+      "verdict": "green",
       "error_reason": null,
       "scores": {
-        "performance": 98,
-        "accessibility": 89,
-        "best_practices": 77,
+        "performance": 99,
+        "accessibility": 100,
+        "best_practices": 100,
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 870,
+        "LCP_ms": 924,
         "CLS": 0.002,
         "TBT_ms": 0,
         "INP_ms": null
       },
       "lighthouse_issues": [
         {
-          "id": "button-name",
-          "title": "Buttons do not have an accessible name",
-          "severity": "high",
-          "estimated_savings_ms": 0,
-          "category": "accessibility"
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "low",
+          "estimated_savings_ms": 50,
+          "category": "performance"
         },
         {
-          "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-          "severity": "high",
-          "estimated_savings_ms": 0,
-          "category": "accessibility"
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": 50,
+          "category": "performance"
         },
         {
-          "id": "third-party-cookies",
-          "title": "Uses third-party cookies",
-          "severity": "high",
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
+          "severity": "low",
           "estimated_savings_ms": 0,
-          "category": "best_practices"
+          "category": "performance"
         },
         {
-          "id": "inspector-issues",
-          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
-          "severity": "high",
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
           "estimated_savings_ms": 0,
-          "category": "best_practices"
+          "category": "performance"
         },
         {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree",
-          "severity": "high",
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "low",
           "estimated_savings_ms": 0,
           "category": "performance"
         }
@@ -213,296 +208,437 @@
     {
       "url": "https://davisconstructioncontractors.com/services/roofing/",
       "archetype": "service-landing",
-      "verdict": "amber",
+      "verdict": "green",
       "error_reason": null,
       "scores": {
-        "performance": 100,
-        "accessibility": 89,
-        "best_practices": 77,
+        "performance": 99,
+        "accessibility": 100,
+        "best_practices": 100,
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 530,
-        "CLS": 0.002,
+        "LCP_ms": 974,
+        "CLS": 0.008,
         "TBT_ms": 0,
         "INP_ms": null
       },
       "lighthouse_issues": [
         {
-          "id": "button-name",
-          "title": "Buttons do not have an accessible name",
-          "severity": "high",
-          "estimated_savings_ms": 0,
-          "category": "accessibility"
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": 150,
+          "category": "performance"
         },
         {
-          "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-          "severity": "high",
-          "estimated_savings_ms": 0,
-          "category": "accessibility"
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "low",
+          "estimated_savings_ms": 90,
+          "category": "performance"
         },
         {
-          "id": "third-party-cookies",
-          "title": "Uses third-party cookies",
-          "severity": "high",
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
+          "severity": "low",
           "estimated_savings_ms": 0,
-          "category": "best_practices"
+          "category": "performance"
         },
         {
-          "id": "inspector-issues",
-          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
-          "severity": "high",
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
           "estimated_savings_ms": 0,
-          "category": "best_practices"
+          "category": "performance"
         },
         {
-          "id": "server-response-time",
-          "title": "Reduce initial server response time",
-          "severity": "high",
-          "estimated_savings_ms": 543,
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "low",
+          "estimated_savings_ms": 0,
           "category": "performance"
         }
       ],
-      "onpage_issues": [
-        {
-          "id": "title_too_long",
-          "title": "Title too long (80 chars, target 30-65)",
-          "severity": "medium"
-        }
-      ]
+      "onpage_issues": []
     },
     {
       "url": "https://davisconstructioncontractors.com/service-areas/madison-al/",
       "archetype": "service-area",
-      "verdict": "amber",
+      "verdict": "green",
       "error_reason": null,
       "scores": {
-        "performance": 99,
-        "accessibility": 89,
-        "best_practices": 77,
+        "performance": 98,
+        "accessibility": 100,
+        "best_practices": 100,
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 813,
+        "LCP_ms": 1113,
         "CLS": 0.002,
         "TBT_ms": 0,
         "INP_ms": null
       },
       "lighthouse_issues": [
         {
-          "id": "button-name",
-          "title": "Buttons do not have an accessible name",
-          "severity": "high",
-          "estimated_savings_ms": 0,
-          "category": "accessibility"
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": 100,
+          "category": "performance"
         },
         {
-          "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-          "severity": "high",
-          "estimated_savings_ms": 0,
-          "category": "accessibility"
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "low",
+          "estimated_savings_ms": 100,
+          "category": "performance"
         },
         {
-          "id": "third-party-cookies",
-          "title": "Uses third-party cookies",
-          "severity": "high",
-          "estimated_savings_ms": 0,
-          "category": "best_practices"
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "low",
+          "estimated_savings_ms": 50,
+          "category": "performance"
         },
         {
-          "id": "inspector-issues",
-          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
-          "severity": "high",
-          "estimated_savings_ms": 0,
-          "category": "best_practices"
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": 50,
+          "category": "performance"
         },
         {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree",
-          "severity": "high",
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
+          "severity": "low",
           "estimated_savings_ms": 0,
           "category": "performance"
         }
       ],
-      "onpage_issues": [
-        {
-          "id": "title_too_long",
-          "title": "Title too long (68 chars, target 30-65)",
-          "severity": "medium"
-        }
-      ]
+      "onpage_issues": []
     },
     {
       "url": "https://davisconstructioncontractors.com/contact/",
       "archetype": "contact",
-      "verdict": "amber",
+      "verdict": "green",
       "error_reason": null,
       "scores": {
         "performance": 99,
-        "accessibility": 89,
-        "best_practices": 77,
+        "accessibility": 96,
+        "best_practices": 100,
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 801,
-        "CLS": 0.026,
+        "LCP_ms": 1034,
+        "CLS": 0.006,
         "TBT_ms": 0,
         "INP_ms": null
       },
       "lighthouse_issues": [
         {
-          "id": "button-name",
-          "title": "Buttons do not have an accessible name",
-          "severity": "high",
-          "estimated_savings_ms": 0,
-          "category": "accessibility"
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "medium",
+          "estimated_savings_ms": 150,
+          "category": "performance"
         },
         {
           "id": "color-contrast",
           "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-          "severity": "high",
+          "severity": "medium",
           "estimated_savings_ms": 0,
           "category": "accessibility"
         },
         {
-          "id": "third-party-cookies",
-          "title": "Uses third-party cookies",
-          "severity": "high",
-          "estimated_savings_ms": 0,
-          "category": "best_practices"
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "low",
+          "estimated_savings_ms": 100,
+          "category": "performance"
         },
         {
-          "id": "inspector-issues",
-          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
-          "severity": "high",
-          "estimated_savings_ms": 0,
-          "category": "best_practices"
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "low",
+          "estimated_savings_ms": 70,
+          "category": "performance"
         },
         {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree",
-          "severity": "high",
-          "estimated_savings_ms": 0,
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": 50,
           "category": "performance"
         }
       ],
-      "onpage_issues": [
-        {
-          "id": "title_too_long",
-          "title": "Title too long (68 chars, target 30-65)",
-          "severity": "medium"
-        }
-      ]
+      "onpage_issues": []
     }
   ],
   "site_rollup": {
     "avg_scores": {
-      "performance": 95,
-      "accessibility": 89,
-      "best_practices": 80,
+      "performance": 99,
+      "accessibility": 99,
+      "best_practices": 100,
       "seo": 100
     },
-    "verdict": "amber",
+    "verdict": "green",
     "url_count": 6,
     "urls_by_verdict": {
-      "green": 0,
-      "amber": 6,
+      "green": 6,
+      "amber": 0,
       "red": 0,
       "error": 0
     },
     "template_issues": [
       {
-        "id": "button-name",
-        "title": "Buttons do not have an accessible name",
-        "severity": "high",
-        "category": "accessibility",
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "severity": "medium",
+        "category": "performance",
         "affected_urls": 6
       },
       {
-        "id": "color-contrast",
-        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-        "severity": "high",
-        "category": "accessibility",
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "severity": "medium",
+        "category": "performance",
         "affected_urls": 6
       },
       {
-        "id": "inspector-issues",
-        "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
-        "severity": "high",
-        "category": "best_practices",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "severity": "low",
+        "category": "performance",
         "affected_urls": 6
       },
       {
-        "id": "third-party-cookies",
-        "title": "Uses third-party cookies",
-        "severity": "high",
-        "category": "best_practices",
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint",
+        "severity": "low",
+        "category": "performance",
         "affected_urls": 5
       },
       {
-        "id": "network-dependency-tree-insight",
-        "title": "Network dependency tree",
-        "severity": "high",
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "severity": "low",
         "category": "performance",
-        "affected_urls": 4
+        "affected_urls": 3
       },
       {
-        "id": "title_too_long",
-        "title": "Title too long (68 chars, target 30-65)",
-        "severity": "medium",
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow",
+        "severity": "low",
+        "category": "performance",
+        "affected_urls": 2
+      },
+      {
+        "id": "content_below_target_word_count",
+        "title": "Word count 756 below archetype target 800",
+        "severity": "low",
         "category": "onpage",
-        "affected_urls": 4
+        "affected_urls": 2
       }
     ],
-    "money_page_alerts": [
+    "money_page_alerts": []
+  },
+  "regression": {
+    "prior_run_at": "2026-06-25T18:12:23Z",
+    "score_deltas": {
+      "performance": 4,
+      "accessibility": 10,
+      "best_practices": 20,
+      "seo": 0
+    },
+    "verdict_transitions": [
       {
         "url": "https://davisconstructioncontractors.com/",
-        "archetype": "home",
-        "verdict": "amber",
-        "main_issue": "best practices 77, LCP 4.6s"
+        "from": "amber",
+        "to": "green"
       },
       {
         "url": "https://davisconstructioncontractors.com/services/",
-        "archetype": "services-hub",
-        "verdict": "amber",
-        "main_issue": "accessibility 89, LCP 0.9s"
+        "from": "amber",
+        "to": "green"
       },
       {
         "url": "https://davisconstructioncontractors.com/services/home-remodeling/",
-        "archetype": "service-landing",
-        "verdict": "amber",
-        "main_issue": "best practices 77, LCP 0.9s"
+        "from": "amber",
+        "to": "green"
       },
       {
         "url": "https://davisconstructioncontractors.com/services/roofing/",
-        "archetype": "service-landing",
-        "verdict": "amber",
-        "main_issue": "best practices 77, LCP 0.5s"
+        "from": "amber",
+        "to": "green"
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/service-areas/madison-al/",
+        "from": "amber",
+        "to": "green"
       },
       {
         "url": "https://davisconstructioncontractors.com/contact/",
-        "archetype": "contact",
-        "verdict": "amber",
-        "main_issue": "best practices 77, LCP 0.8s"
+        "from": "amber",
+        "to": "green"
       }
-    ]
-  },
-  "regression": {
-    "prior_run_at": "2026-05-25T17:58:08Z",
-    "score_deltas": {
-      "performance": -4,
-      "accessibility": -1,
-      "best_practices": -12,
-      "seo": 31
-    },
-    "verdict_transitions": [],
+    ],
     "new_issues": [
       {
         "url": "https://davisconstructioncontractors.com/",
-        "id": "inspector-issues",
-        "title": "Issues were logged in the `Issues` panel in Chrome Devtools"
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/",
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes"
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/",
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow"
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/",
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery"
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/",
+        "id": "content_below_target_word_count",
+        "title": "Word count 1191 below archetype target 1200"
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/services/",
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery"
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/services/",
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes"
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/services/",
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint"
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/services/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/services/",
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow"
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/services/home-remodeling/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/services/home-remodeling/",
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests"
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/services/home-remodeling/",
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint"
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/services/home-remodeling/",
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes"
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/services/home-remodeling/",
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery"
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/services/roofing/",
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery"
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/services/roofing/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/services/roofing/",
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint"
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/services/roofing/",
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes"
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/services/roofing/",
+        "id": "lcp-discovery-insight",
+        "title": "LCP request discovery"
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/service-areas/madison-al/",
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes"
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/service-areas/madison-al/",
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery"
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/service-areas/madison-al/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/service-areas/madison-al/",
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests"
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/service-areas/madison-al/",
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint"
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/contact/",
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes"
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/contact/",
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery"
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/contact/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/contact/",
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests"
+      }
+    ],
+    "resolved_issues": [
+      {
+        "url": "https://davisconstructioncontractors.com/",
+        "id": "button-name",
+        "title": "Buttons do not have an accessible name"
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/",
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio."
       },
       {
         "url": "https://davisconstructioncontractors.com/",
@@ -511,8 +647,33 @@
       },
       {
         "url": "https://davisconstructioncontractors.com/",
-        "id": "largest-contentful-paint",
-        "title": "Largest Contentful Paint"
+        "id": "inspector-issues",
+        "title": "Issues were logged in the `Issues` panel in Chrome Devtools"
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/",
+        "id": "title_too_long",
+        "title": "Title too long (68 chars, target 30-65)"
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/",
+        "id": "meta_description_length_out_of_range",
+        "title": "Meta description length 187 chars outside 70-160 range"
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/services/",
+        "id": "button-name",
+        "title": "Buttons do not have an accessible name"
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/services/",
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio."
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/services/",
+        "id": "inspector-issues",
+        "title": "Issues were logged in the `Issues` panel in Chrome Devtools"
       },
       {
         "url": "https://davisconstructioncontractors.com/services/",
@@ -525,19 +686,19 @@
         "title": "Render-blocking requests"
       },
       {
-        "url": "https://davisconstructioncontractors.com/services/",
-        "id": "content_below_target_word_count",
-        "title": "Word count 749 below archetype target 800"
+        "url": "https://davisconstructioncontractors.com/services/home-remodeling/",
+        "id": "button-name",
+        "title": "Buttons do not have an accessible name"
       },
       {
-        "url": "https://davisconstructioncontractors.com/services/",
+        "url": "https://davisconstructioncontractors.com/services/home-remodeling/",
         "id": "color-contrast",
         "title": "Background and foreground colors do not have a sufficient contrast ratio."
       },
       {
         "url": "https://davisconstructioncontractors.com/services/home-remodeling/",
-        "id": "network-dependency-tree-insight",
-        "title": "Network dependency tree"
+        "id": "third-party-cookies",
+        "title": "Uses third-party cookies"
       },
       {
         "url": "https://davisconstructioncontractors.com/services/home-remodeling/",
@@ -546,8 +707,28 @@
       },
       {
         "url": "https://davisconstructioncontractors.com/services/home-remodeling/",
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree"
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/services/roofing/",
+        "id": "button-name",
+        "title": "Buttons do not have an accessible name"
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/services/roofing/",
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio."
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/services/roofing/",
         "id": "third-party-cookies",
         "title": "Uses third-party cookies"
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/services/roofing/",
+        "id": "inspector-issues",
+        "title": "Issues were logged in the `Issues` panel in Chrome Devtools"
       },
       {
         "url": "https://davisconstructioncontractors.com/services/roofing/",
@@ -556,50 +737,63 @@
       },
       {
         "url": "https://davisconstructioncontractors.com/services/roofing/",
-        "id": "inspector-issues",
-        "title": "Issues were logged in the `Issues` panel in Chrome Devtools"
-      },
-      {
-        "url": "https://davisconstructioncontractors.com/services/roofing/",
-        "id": "third-party-cookies",
-        "title": "Uses third-party cookies"
+        "id": "title_too_long",
+        "title": "Title too long (80 chars, target 30-65)"
       },
       {
         "url": "https://davisconstructioncontractors.com/service-areas/madison-al/",
-        "id": "network-dependency-tree-insight",
-        "title": "Network dependency tree"
+        "id": "button-name",
+        "title": "Buttons do not have an accessible name"
       },
       {
         "url": "https://davisconstructioncontractors.com/service-areas/madison-al/",
-        "id": "inspector-issues",
-        "title": "Issues were logged in the `Issues` panel in Chrome Devtools"
-      },
-      {
-        "url": "https://davisconstructioncontractors.com/service-areas/madison-al/",
-        "id": "third-party-cookies",
-        "title": "Uses third-party cookies"
-      },
-      {
-        "url": "https://davisconstructioncontractors.com/contact/",
-        "id": "network-dependency-tree-insight",
-        "title": "Network dependency tree"
-      },
-      {
-        "url": "https://davisconstructioncontractors.com/contact/",
         "id": "color-contrast",
         "title": "Background and foreground colors do not have a sufficient contrast ratio."
-      }
-    ],
-    "resolved_issues": [
-      {
-        "url": "https://davisconstructioncontractors.com/",
-        "id": "errors-in-console",
-        "title": "Browser errors were logged to the console"
       },
       {
-        "url": "https://davisconstructioncontractors.com/services/",
+        "url": "https://davisconstructioncontractors.com/service-areas/madison-al/",
         "id": "third-party-cookies",
         "title": "Uses third-party cookies"
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/service-areas/madison-al/",
+        "id": "inspector-issues",
+        "title": "Issues were logged in the `Issues` panel in Chrome Devtools"
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/service-areas/madison-al/",
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree"
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/service-areas/madison-al/",
+        "id": "title_too_long",
+        "title": "Title too long (68 chars, target 30-65)"
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/contact/",
+        "id": "button-name",
+        "title": "Buttons do not have an accessible name"
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/contact/",
+        "id": "third-party-cookies",
+        "title": "Uses third-party cookies"
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/contact/",
+        "id": "inspector-issues",
+        "title": "Issues were logged in the `Issues` panel in Chrome Devtools"
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/contact/",
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree"
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/contact/",
+        "id": "title_too_long",
+        "title": "Title too long (68 chars, target 30-65)"
       }
     ]
   }
