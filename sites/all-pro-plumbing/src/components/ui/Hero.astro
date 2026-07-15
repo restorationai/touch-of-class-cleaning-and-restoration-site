@@ -40,7 +40,7 @@ const bg = backgroundImage ? srcsetFor(backgroundImage) : {};
           href={`tel:${brand.phoneRaw}`}
           class={`group inline-flex flex-col items-center justify-center rounded-xl shadow-[0_0_40px_rgba(220,38,38,0.4)] px-8 py-3 transition-transform hover:-translate-y-1 border-2 border-white ${isSensitive ? "bg-dark-700 hover:bg-dark-600" : "bg-primary-600 hover:bg-primary-700"}`}
         >
-          <span class="text-xs md:text-sm font-bold uppercase tracking-widest text-white/90 mb-1">{brand.ctaLabel}</span>
+          <span class="text-xs md:text-sm font-bold uppercase tracking-widest text-white mb-1">{brand.ctaLabel}</span>
           <span class="text-2xl sm:text-3xl md:text-4xl font-black tracking-tight whitespace-nowrap flex items-center gap-3 text-white">
             <div class="bg-white text-primary-600 rounded-full p-2 shadow-inner">
               <Phone size={24} strokeWidth={3} />

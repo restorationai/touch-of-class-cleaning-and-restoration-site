@@ -50,7 +50,7 @@ const reviewsUrl = brand.placeId
       <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
         {reviews.map((r) => (
           <figure class="m-0 p-6 rounded-lg border border-dark/10 bg-white shadow-sm flex flex-col gap-3">
-            <div class="flex gap-1 text-amber-500" aria-label={`${r.rating} out of 5 stars`}>
+            <div class="flex gap-1 text-amber-500" role="img" aria-label={`${r.rating} out of 5 stars`}>
               {Array.from({ length: Math.min(5, r.rating) }).map(() => (
                 <Star size={16} class="fill-current" />
               ))}
