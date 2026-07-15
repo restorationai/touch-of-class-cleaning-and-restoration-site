@@ -24,7 +24,7 @@
   },
   "status": "active",
   "created_at": "2026-06-15T16:36:28.124334+00:00",
-  "updated_at": "2026-07-15T14:31:49.425308+00:00",
+  "updated_at": "2026-07-15T16:04:07Z",
   "plan_status": "planned",
   "plan": {
     "template": "restoration",
@@ -54,9 +54,9 @@
   },
   "company_id": "CO-1780333664867",
   "audit": {
-    "last_audit_at": "2026-06-22T19:40:00Z",
-    "last_audit_verdict": "amber",
-    "last_audit_report_path": "audit-runs/2026-06-22-onsite-audit.md"
+    "last_audit_at": "2026-07-15T16:04:07Z",
+    "last_audit_verdict": "green",
+    "last_audit_report_path": "audit-runs/2026-07-15-onsite-audit.md"
   },
   "cut_over_at": "2026-06-18T00:06:15Z",
   "deploy_url": "https://homepriderestorationandcleaning.com",
