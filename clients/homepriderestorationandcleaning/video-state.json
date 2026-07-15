@@ -1,7 +1,7 @@
 {
-  "last_kind": "blog",
-  "cycle_pos": 1,
-  "geo_cursor": 0,
+  "last_kind": "geo",
+  "cycle_pos": 2,
+  "geo_cursor": 1,
   "history": [
     {
       "ts": "2026-07-10T17:55:04.571937+00:00",
@@ -10,6 +10,14 @@
       "service": null,
       "city": null,
       "youtube_id": "3uN84_sLVSU"
+    },
+    {
+      "ts": "2026-07-15T17:11:06.322656+00:00",
+      "kind": "geo",
+      "post": null,
+      "service": "water-damage-restoration",
+      "city": "Saratoga Springs",
+      "youtube_id": "XoIa4OfA4v8"
     }
   ]
 }

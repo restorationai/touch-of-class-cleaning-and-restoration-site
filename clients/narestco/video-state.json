@@ -1,7 +1,7 @@
 {
   "last_kind": "geo",
-  "cycle_pos": 2,
-  "geo_cursor": 1,
+  "cycle_pos": 0,
+  "geo_cursor": 2,
   "history": [
     {
       "ts": "2026-07-08T17:38:06.395033+00:00",
@@ -18,6 +18,14 @@
       "service": "water-damage-restoration",
       "city": "Federal Way",
       "youtube_id": "Bf6s2zgCjKE"
+    },
+    {
+      "ts": "2026-07-15T17:14:54.853412+00:00",
+      "kind": "geo",
+      "post": null,
+      "service": "water-damage-restoration",
+      "city": "Seattle",
+      "youtube_id": "CCeZA9Bx1ng"
     }
   ]
 }

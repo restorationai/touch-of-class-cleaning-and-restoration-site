@@ -1,7 +1,7 @@
 {
   "last_kind": "geo",
-  "cycle_pos": 2,
-  "geo_cursor": 1,
+  "cycle_pos": 0,
+  "geo_cursor": 2,
   "history": [
     {
       "ts": "2026-07-08T17:27:14.746164+00:00",
@@ -18,6 +18,14 @@
       "service": "water-damage-restoration",
       "city": "San Diego",
       "youtube_id": "kDBW0NZiP8s"
+    },
+    {
+      "ts": "2026-07-15T17:06:48.772213+00:00",
+      "kind": "geo",
+      "post": null,
+      "service": "water-damage-restoration",
+      "city": "Chula Vista",
+      "youtube_id": "emU39vYT-G4"
     }
   ]
 }
