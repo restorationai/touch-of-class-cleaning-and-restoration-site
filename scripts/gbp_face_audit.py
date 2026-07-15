@@ -141,12 +141,34 @@ def fetch_media(token: str, acct: str, location_id: str) -> dict:
     rc = requests.get(base + "/customers?pageSize=1",
                       headers={"Authorization": f"Bearer {token}"})
     customer_count = rc.json().get("totalMediaItemCount", 0) if rc.ok else None
+    # Cover-photo candidates for the app's picker (googleusercontent URLs
+    # accept a =sNNNN size suffix; strip any existing one first). Landscape
+    # photos only — GBP covers are 16:9 and reject portrait crops badly.
+    candidates = []
+    for it in items:
+        cat = (it.get("locationAssociation") or {}).get("category") or "UNKNOWN"
+        if cat in ("COVER", "PROFILE", "LOGO"):
+            continue
+        raw = it.get("googleUrl") or it.get("thumbnailUrl") or ""
+        if "googleusercontent" not in raw:
+            continue
+        dim = it.get("dimensions") or {}
+        w, h = dim.get("widthPixels") or 0, dim.get("heightPixels") or 0
+        if w and h and w <= h:
+            continue
+        base_url = raw.split("=")[0]
+        candidates.append({"name": it.get("name"), "category": cat,
+                           "thumb": base_url + "=s640",
+                           "full": base_url + "=s2560"})
+        if len(candidates) >= 24:
+            break
     return {
         "owner_count": len(items),
         "owner_by_category": cats,
         "has_cover": bool(cats.get("COVER")),
         "has_logo": bool(cats.get("PROFILE") or cats.get("LOGO")),
         "customer_count": customer_count,
+        "photo_candidates": candidates,
     }
 
 
@@ -269,21 +291,23 @@ def live_image_url(slug: str, path: Path) -> str | None:
     return f"{origin}/{rel.as_posix()}"
 
 
-def upload_photo_source_url(token: str, acct: str, location_id: str, url: str) -> str:
+def upload_photo_source_url(token: str, acct: str, location_id: str, url: str,
+                            category: str = "ADDITIONAL") -> str:
     """v4 sourceUrl flow (the path gbp_photos.py has proven in prod). Returns the
     created media resource name."""
     r = requests.post(f"{GBP_V4}/{acct}/locations/{location_id}/media",
                       headers={"Authorization": f"Bearer {token}",
                                "Content-Type": "application/json"},
                       json={"mediaFormat": "PHOTO",
-                            "locationAssociation": {"category": "ADDITIONAL"},
+                            "locationAssociation": {"category": category},
                             "sourceUrl": url})
     if r.status_code not in (200, 201):
         raise RuntimeError(f"sourceUrl create HTTP {r.status_code}: {r.text[:200]}")
     return r.json().get("name", url)
 
 
-def upload_photo_bytes(token: str, acct: str, location_id: str, jpeg: bytes) -> str:
+def upload_photo_bytes(token: str, acct: str, location_id: str, jpeg: bytes,
+                       category: str = "ADDITIONAL") -> str:
     """v4 bytes flow: startUpload -> PUT bytes -> create media item. Returns the
     created media resource name. (Fallback — some locations 500 on dataRef
     creates, so sourceUrl is tried first.)"""
@@ -298,11 +322,35 @@ def upload_photo_bytes(token: str, acct: str, location_id: str, jpeg: bytes) -> 
     r3 = requests.post(f"{GBP_V4}/{acct}/locations/{location_id}/media",
                        headers={**hdr, "Content-Type": "application/json"},
                        json={"mediaFormat": "PHOTO",
-                             "locationAssociation": {"category": "ADDITIONAL"},
+                             "locationAssociation": {"category": category},
                              "dataRef": {"resourceName": ref}})
     if r3.status_code not in (200, 201):
         raise RuntimeError(f"media create HTTP {r3.status_code}: {r3.text[:200]}")
     return r3.json().get("name", ref)
+
+
+def set_cover_photo(slug: str, company_id: str, meta: dict, photo_url: str) -> None:
+    """One-click cover: upload photo_url as the location's COVER photo, then
+    re-audit the client so the app's score card reflects it. Google may take
+    a few minutes to swap the panel image (and can reject images under
+    480x270 — the picker only offers landscape owner photos)."""
+    location_name = meta["selected_location_id"]
+    location_id = location_name.split("/")[-1]
+    token = gbp.get_access_token(company_id)
+    if not token:
+        raise RuntimeError(f"{slug}: token refresh failed")
+    acct = media_account_for(token, location_id)
+    if not acct:
+        raise RuntimeError(f"{slug}: no v4 media account access")
+    try:
+        name = upload_photo_source_url(token, acct, location_id, photo_url,
+                                       category="COVER")
+    except RuntimeError:
+        jpeg = requests.get(photo_url, timeout=60)
+        jpeg.raise_for_status()
+        name = upload_photo_bytes(token, acct, location_id, jpeg.content,
+                                  category="COVER")
+    print(f"  {slug}: cover photo set ({name})")
 
 
 def r2_hosted_jpeg(slug: str, path: Path, jpeg: bytes) -> str | None:
@@ -570,6 +618,7 @@ def persist_audit(company_id: str, p: dict, score: dict,
         "components": {
             "photos": {"owner_count": p["owner_count"], "cover": p["has_cover"],
                        "logo": p["has_logo"], "customer_count": p["customer_count"],
+                       "candidates": p.get("photo_candidates") or [],
                        "score": score["parts"]["photos"],
                        "cover_score": score["parts"]["cover"],
                        "logo_score": score["parts"]["logo"]},
@@ -650,9 +699,25 @@ def main() -> int:
                     help="execute fixes + insert plan rows (default: dry-run)")
     ap.add_argument("--max-photos", type=int, default=10,
                     help="max photo uploads per client per run (default 10)")
+    ap.add_argument("--set-cover", metavar="URL",
+                    help="set this photo as the COVER for --slug, then re-audit")
     args = ap.parse_args()
 
     integrations = google_integrations()
+
+    if args.set_cover:
+        if not args.slug:
+            ap.error("--set-cover requires --slug")
+        pairs = dict(slug_company_pairs())
+        cid = pairs.get(args.slug)
+        meta = integrations.get(cid) if cid else None
+        if not meta or not meta.get("selected_location_id"):
+            print(f"  {args.slug}: no connected GBP location")
+            return 1
+        set_cover_photo(args.slug, cid, meta, args.set_cover)
+        audit_client(args.slug, cid, meta, apply=False, max_photos=0)
+        return 0
+
     mode = "APPLY" if args.apply else "DRY-RUN"
     print(f"=== GBP front-face audit [{mode}] ===")
     results = []

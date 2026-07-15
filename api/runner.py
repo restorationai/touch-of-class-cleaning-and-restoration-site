@@ -90,7 +90,8 @@ def _run_sync(slug: str) -> None:
     )
 
 
-def _execute_job(job_id: str, slug: str, system: int) -> None:
+def _execute_job(job_id: str, slug: str, system: int,
+                 photo_url: str | None = None) -> None:
     """Worker function — runs in a background thread."""
     _update_job(job_id, status="running", started_at=_now())
 
@@ -122,6 +123,20 @@ def _execute_job(job_id: str, slug: str, system: int) -> None:
                 return
             _update_job(job_id, status="completed", completed_at=_now(), log=log[-8000:])
 
+        elif system == "gbp_set_cover":
+            # One-click cover photo: upload the chosen photo as COVER, then
+            # the script re-audits and rewrites the marketing_gbp_face_audit
+            # row itself (same as gbp_face).
+            rc, log = _run_subprocess([
+                "python3", str(ROOT / "scripts" / "gbp_face_audit.py"),
+                "--slug", slug, "--set-cover", photo_url or "",
+            ])
+            if rc != 0:
+                _update_job(job_id, status="failed", completed_at=_now(),
+                            error=f"gbp_face_audit --set-cover exited {rc}", log=log[-8000:])
+                return
+            _update_job(job_id, status="completed", completed_at=_now(), log=log[-8000:])
+
         elif system == 4:
             # Layer 1 runs directly; Layer 2 is agent-driven (dispatched to CI)
             rc, log = _run_subprocess([
@@ -149,25 +164,29 @@ def _execute_job(job_id: str, slug: str, system: int) -> None:
         _update_job(job_id, status="failed", completed_at=_now(), error=str(exc))
 
 
-def create_and_run_job(slug: str, system) -> str:
+def create_and_run_job(slug: str, system, photo_url: str | None = None) -> str:
     """Create a marketing_jobs record and kick off the background worker. Returns job_id."""
     company_id = COMPANY_MAP.get(slug)
     if not company_id:
         raise ValueError(f"Unknown slug: {slug}")
 
     system_names = {1: "keyword_research", 2: "write_post", 3: "audit", 4: "refresh",
-                    "gbp_face": "gbp_face_fix"}
+                    "gbp_face": "gbp_face_fix", "gbp_set_cover": "gbp_set_cover"}
+    params = {"slug": slug, "system": system}
+    if photo_url:
+        params["photo_url"] = photo_url
     row = {
         "company_id": company_id,
         "type":       system_names[system],
         "status":     "queued",
-        "params":     {"slug": slug, "system": system},
+        "params":     params,
         "queued_at":  _now(),
     }
     result = _sb().table("marketing_jobs").insert(row).execute()
     job_id = result.data[0]["id"]
 
-    thread = threading.Thread(target=_execute_job, args=(job_id, slug, system), daemon=True)
+    thread = threading.Thread(target=_execute_job, args=(job_id, slug, system, photo_url),
+                              daemon=True)
     thread.start()
 
     return job_id
