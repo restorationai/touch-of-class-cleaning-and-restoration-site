@@ -19,6 +19,8 @@ jobs:
   run:
     runs-on: ubuntu-latest
     timeout-minutes: 45
+    permissions:
+      contents: write   # commit run artifacts (onsite-audit.json etc.) back to main
 
     steps:
       - uses: actions/checkout@v4
@@ -58,6 +60,34 @@ jobs:
             --system ${{ inputs.system }} \
             --headless
         continue-on-error: true
+
+      # Without these two steps the run's artifacts (onsite-audit.json,
+      # audit-runs/, keyword files) die with the runner and the app keeps
+      # showing stale scores — the 2026-07-15 audits computed correct results
+      # that went nowhere.
+      - name: Commit run artifacts
+        if: steps.run.outcome == 'success'
+        run: |
+          git config user.name "rank-ai-ci"
+          git config user.email "ci@restorationai.io"
+          git add clients/
+          if git diff --cached --quiet; then
+            echo "No artifacts to commit."
+            exit 0
+          fi
+          git commit -m "ci: system ${{ inputs.system }} artifacts for ${{ inputs.slug }} [automated]"
+          for i in 1 2 3; do
+            git push && exit 0
+            git pull --rebase
+          done
+          git push
+
+      - name: Sync state to Supabase
+        if: steps.run.outcome == 'success'
+        env:
+          SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: python3 scripts/supabase_sync.py --slug ${{ inputs.slug }}
 
       - name: Notify API of completion
         env:
