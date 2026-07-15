@@ -34,7 +34,12 @@ const {
 } = Astro.props;
 
 const fullCanonical = canonical_url ?? `${brand.canonicalUrl}${Astro.url.pathname}`;
-const ogImage = hero_image_url ?? `${brand.imagesBase}/brand/hero.webp`;
+const rawOgImage = hero_image_url ?? `${brand.imagesBase}/brand/hero.webp`;
+// og:image/twitter:image must be ABSOLUTE (audit: og_image_relative_url) —
+// social scrapers don't resolve site-relative paths, so shares showed no image.
+const ogImage = rawOgImage.startsWith("http")
+  ? rawOgImage
+  : new URL(rawOgImage, brand.canonicalUrl).href;
 
 // Keep the rendered <title> at or under 65 chars (audit: title_length_over_65 on
 // every page). Plan-generated titles are "{descriptor} | {brand}" compositions;
