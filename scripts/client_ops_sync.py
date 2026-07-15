@@ -353,6 +353,29 @@ def run(since_override: str | None, dry_run: bool, do_send: bool) -> int:
         return per_client.setdefault(label, {"answered": [], "auto": [],
                                              "plan_changes": [], "attention": []})
 
+    # Backstop: every mapped client with an app account should have intake
+    # items — the day-one audit seeds them, but that's agent-executed and can
+    # be missed (TRG had ZERO items for a week; the concierge had nothing to
+    # collect). Flag it in the digest until someone seeds them.
+    seeded = {r["company_id"] for r in
+              (_sb("GET", "/rest/v1/client_intake_items?select=company_id",
+                   prefer="return=representation") or [])}
+    for cid, slug in cid_to_slug.items():
+        if cid in seeded:
+            continue
+        # Live/active clients with nothing left to collect are fine — the gap
+        # that bites is a client still in onboarding with zero items.
+        try:
+            status = json.loads((ROOT / "clients" / f"{slug}.json").read_text()).get("status")
+        except Exception:
+            status = None
+        if status == "active":
+            continue
+        msg = ("NO client_intake_items seeded — day-one audit seeding was "
+               "skipped; the concierge has nothing to collect for this client.")
+        print(f"  WARNING: {slug} ({cid}) {msg}")
+        bucket(cid, slug)["attention"].append({"question": msg, "answer": ""})
+
     for item in intake:
         cid = item["company_id"]
         slug = cid_to_slug.get(cid)
