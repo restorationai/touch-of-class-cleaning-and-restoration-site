@@ -181,8 +181,11 @@ INTRO_TEMPLATE_OFFICE = ("Hi {first}, this is {name} with Santino's team "
                          "at {brand}. I help collect what's needed to "
                          "finish {company}'s setup.")
 SMS_MAX_CHARS = 450
-SMS_MAX_CHARS_FIRST = 900   # first-ever message carries the intro line
-MAX_ITEMS_PER_MESSAGE = 3
+SMS_MAX_CHARS_FIRST = 550   # first-ever message carries the intro line
+MAX_ITEMS_PER_MESSAGE = 2
+# A first text from an unknown number must feel like a person saying hi with
+# one small favor to ask — never a checklist. Follow-ups may carry two.
+FIRST_CONTACT_MAX_ITEMS = 1
 MIN_DAYS_BETWEEN_SENDS = 3
 HISTORY_MAX_MSGS = 25          # default fetch_history depth for compose/status
 CLASSIFY_HISTORY_MSGS = 10     # history context given to inbound classification
@@ -922,6 +925,21 @@ INTRO RULE:
   then continue naturally.
 - Otherwise just greet by first name — no intro, no re-introduction.
 
+KEEP IT SMALL — the second most important rule. A text that asks for a lot,
+or asks in long dense sentences, gets ignored or scares people off.
+- The character budget is a CEILING, not a target. Shorter always wins.
+- One short sentence of context per ask, then the ask itself. Never explain
+  our process or why our systems need something.
+- Shrink every ask to its minimum viable version and SAY that the minimum is
+  fine: "even 5 names is plenty", "a couple phone photos work great",
+  "whatever you have handy". They can always send more later.
+- Never ask for structured data ("name, phone, email, and job type for
+  each") in a text. Ask for the simple human version ("a handful of past
+  customers who'd leave you a review, names and numbers is perfect") and let
+  us sort out the details on our side.
+- One thing per sentence. If the message reads like a to-do list or a form,
+  rewrite it.
+
 Rules:
 - Cover AT MOST the items given (they are already priority-ordered). Weave
   them in conversationally — short sentences or a compact list, not a form.
@@ -1099,13 +1117,18 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
                   history: list[dict] | None = None,
                   intel: str | None = None,
                   appointments: str | None = None) -> dict:
-    chosen = items[:MAX_ITEMS_PER_MESSAGE]
+    chosen = items[:FIRST_CONTACT_MAX_ITEMS if first_contact
+                   else MAX_ITEMS_PER_MESSAGE]
     lines = []
     for i, it in enumerate(chosen, 1):
         detail = (it["detail"] or "")[:300]
         lines.append(f"{i}. id={it['id']} [{it['kind']}] {it['text']}"
                      + (f" — context: {detail}" if detail else ""))
     sms_budget = SMS_MAX_CHARS_FIRST if first_contact else SMS_MAX_CHARS
+    # Quote the model a smaller budget than we enforce: it drafts to the
+    # ceiling, and the safety clip mid-sentence reads worse than a tighter
+    # draft. The clip at sms_budget then almost never fires.
+    stated_budget = sms_budget - 60
     # Office/day-to-day preferred contact gets the "finish {Company}'s setup"
     # intro — it's not their account, they're helping us finish the setup.
     if messaging_target(company).get("role") == "office":
@@ -1156,7 +1179,7 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
                 "message; drop any photo request entirely.\n")
     user = (f"Client: {company['name']} (first name: {first_name})\n"
             f"Today's date: {today}\n"
-            f"Channel: {channel} (character budget for SMS: {sms_budget})\n"
+            f"Channel: {channel} (character budget for SMS: {stated_budget})\n"
             f"FIRST CONTACT: {'yes' if first_contact else 'no'}\n"
             + (f"Intro line to open with, exactly: \"{intro}\"\n"
                if first_contact else "")
@@ -1170,7 +1193,18 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
     draft = anthropic_json(COMPOSE_SYSTEM, user)
     body = (draft.get("body") or "").strip()
     if channel == "sms" and len(body) > sms_budget:
-        body = body[:sms_budget - 1].rsplit(" ", 1)[0] + "…"
+        # The closing self-serve line must survive the clip — a dangling
+        # "email it to…" reads like bot garble. Trim the middle instead.
+        close_idx = body.rfind("Just reply here")
+        if close_idx > 0:
+            closing = body[close_idx:]
+            head_budget = sms_budget - len(closing) - 1
+            head = body[:close_idx].strip()
+            if len(head) > head_budget > 0:
+                head = head[:head_budget].rsplit(" ", 1)[0].rstrip(" ,;:") + "…"
+            body = head + " " + closing
+        else:
+            body = body[:sms_budget - 1].rsplit(" ", 1)[0] + "…"
 
     def _flags(key):
         return [f for f in (draft.get(key) or [])
@@ -1222,7 +1256,8 @@ def cmd_compose(args) -> int:
     print(f"First contact: {'yes — intro line required' if first_contact else 'no'}")
     tz_key, tz_src = resolve_timezone(company, contact)
     print(f"Timezone: {tz_key} (via {tz_src})")
-    print(f"Outstanding items: {len(items)} (messaging top {min(len(items), MAX_ITEMS_PER_MESSAGE)})")
+    cap = FIRST_CONTACT_MAX_ITEMS if first_contact else MAX_ITEMS_PER_MESSAGE
+    print(f"Outstanding items: {len(items)} (messaging top {min(len(items), cap)})")
     intel = load_meeting_intel(company)
     print("Meeting intel: "
           + (f"loaded ({len(intel)} chars)" if intel else "none"))
