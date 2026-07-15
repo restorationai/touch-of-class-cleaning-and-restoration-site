@@ -5,10 +5,12 @@
   "live_origin": "https://narestco.com",
   "live_origin_source": "apex",
   "audit_form_factor": "desktop",
-  "generated_at": "2026-06-22T19:46:30Z",
+  "generated_at": "2026-07-15T15:59:36Z",
   "environment_caveats": [
-    "audit_form_factor=desktop: DataForSEO Lighthouse MCP does not expose form_factor parameter. Mobile scores would typically be 10-20 perf points lower.",
-    "Lighthouse top-5-failing-audits require a full_data=true call that returns 5-15MB per URL and would blow up agent context; deferred. total-byte-weight was available in the headline diagnostics and is captured. best_practices is uniformly 77 across all 6 URLs (a layout-level cause); pinning the exact failing best-practices audit requires an on-demand full_data drill on one URL."
+    "audit_form_factor=desktop: DataForSEO Lighthouse MCP does not expose form_factor. Mobile scores would typically run 10-20 performance points lower.",
+    "Lighthouse full_data (opportunities/diagnostics) not pulled this run: all four categories scored 98-100 on every URL, so there were no material failing audits to drill. total-byte-weight was read from headline diagnostics and is now under the 1.6 MB threshold on all pages. lighthouse_detail: deferred - call full_data on-demand if a category regresses.",
+    "Service-landing selection changed vs prior audit: url-plan.json was regenerated 2026-07-15 and three landings now tie at priority 9.0 (fire, mold, water). Selected water-damage-restoration (tied-top + continuity with prior audit) and fire-damage-restoration (tied-top, alphabetical). flood-damage-restoration (prior priority set) is no longer top-priority and was dropped, so it has no month-over-month comparison this run.",
+    "has_render_blocking_resources severity recalibrated from medium (prior audit) to low: identical underlying condition (1 script + 1 stylesheet in layout), but all pages now score 98-100 performance with sub-1.2s LCP, so the render-block is immaterial. Prior id render_blocking_resources normalized to the real DataForSEO check id has_render_blocking_resources."
   ],
   "audited_urls": [
     {
@@ -17,33 +19,20 @@
       "verdict": "amber",
       "error_reason": null,
       "scores": {
-        "performance": 89,
-        "accessibility": 77,
-        "best_practices": 77,
-        "seo": 92
+        "performance": 98,
+        "accessibility": 100,
+        "best_practices": 100,
+        "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 2076,
-        "CLS": 0.003,
+        "LCP_ms": 1199,
+        "CLS": 0.006,
         "TBT_ms": null,
         "INP_ms": null
       },
-      "lighthouse_issues": [
-        {
-          "id": "total-byte-weight",
-          "title": "Avoid enormous network payloads (5.44 MiB total; recommended under 1.6 MB)",
-          "severity": "high",
-          "estimated_savings_ms": null,
-          "category": "performance"
-        }
-      ],
+      "total_byte_weight_bytes": 1059907,
+      "lighthouse_issues": [],
       "onpage_issues": [
-        {
-          "id": "title_length_over_65",
-          "title": "Title is 75 chars (over 65)",
-          "severity": "medium",
-          "source": "instant_pages"
-        },
         {
           "id": "meta_description_too_long",
           "title": "Meta description is 194 chars (over 160)",
@@ -51,231 +40,172 @@
           "source": "instant_pages"
         },
         {
-          "id": "render_blocking_resources",
-          "title": "1 render-blocking script + 1 render-blocking stylesheet in the layout",
-          "severity": "medium",
-          "source": "lighthouse_inferred"
+          "id": "has_render_blocking_resources",
+          "title": "1 render-blocking script + 1 render-blocking stylesheet in the layout (perf unaffected: 98, LCP 1199ms)",
+          "severity": "low",
+          "source": "instant_pages"
         },
         {
-          "id": "largest_contentful_paint_borderline",
-          "title": "LCP is 2076ms (Good, under 2500ms, but up from 1953ms last audit)",
+          "id": "low_content_rate",
+          "title": "Low text-to-HTML ratio (plain_text_rate 0.092); word count 1701 exceeds 1200 target, ratio low due to component-heavy DOM",
           "severity": "low",
-          "source": "lighthouse"
+          "source": "instant_pages"
         }
       ]
     },
     {
       "url": "https://narestco.com/services/",
       "archetype": "services-hub",
-      "verdict": "amber",
+      "verdict": "green",
       "error_reason": null,
       "scores": {
-        "performance": 95,
-        "accessibility": 87,
-        "best_practices": 77,
-        "seo": 92
+        "performance": 98,
+        "accessibility": 100,
+        "best_practices": 100,
+        "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 1391,
-        "CLS": 0.006,
+        "LCP_ms": 1164,
+        "CLS": 0.003,
         "TBT_ms": null,
         "INP_ms": null
       },
-      "lighthouse_issues": [
-        {
-          "id": "total-byte-weight",
-          "title": "Avoid enormous network payloads (2.4 MiB total; recommended under 1.6 MB)",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance"
-        }
-      ],
+      "total_byte_weight_bytes": 1387415,
+      "lighthouse_issues": [],
       "onpage_issues": [
         {
-          "id": "title_length_over_65",
-          "title": "Title is 71 chars (over 65)",
-          "severity": "medium",
+          "id": "has_render_blocking_resources",
+          "title": "1 render-blocking script + 1 render-blocking stylesheet in the layout (perf unaffected: 98, LCP 1164ms)",
+          "severity": "low",
           "source": "instant_pages"
         },
         {
-          "id": "render_blocking_resources",
-          "title": "1 render-blocking script + 1 render-blocking stylesheet in the layout",
-          "severity": "medium",
-          "source": "lighthouse_inferred"
+          "id": "low_content_rate",
+          "title": "Low text-to-HTML ratio (plain_text_rate 0.077)",
+          "severity": "low",
+          "source": "instant_pages"
+        },
+        {
+          "id": "content_length_below_target",
+          "title": "Body copy 790 words vs 800-word services-hub target (10 under)",
+          "severity": "low",
+          "source": "url_plan_compare"
         }
       ]
     },
     {
       "url": "https://narestco.com/services/water-damage-restoration/",
       "archetype": "service-landing",
-      "verdict": "amber",
+      "verdict": "green",
       "error_reason": null,
       "scores": {
-        "performance": 98,
-        "accessibility": 82,
-        "best_practices": 77,
-        "seo": 92
+        "performance": 99,
+        "accessibility": 100,
+        "best_practices": 100,
+        "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 865,
+        "LCP_ms": 1027,
         "CLS": 0.004,
         "TBT_ms": null,
         "INP_ms": null
       },
-      "lighthouse_issues": [
-        {
-          "id": "total-byte-weight",
-          "title": "Avoid enormous network payloads (2.13 MiB total; recommended under 1.6 MB)",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance"
-        }
-      ],
+      "total_byte_weight_bytes": 997395,
+      "lighthouse_issues": [],
       "onpage_issues": [
         {
-          "id": "title_length_over_65",
-          "title": "Title is 75 chars (over 65)",
-          "severity": "medium",
-          "source": "instant_pages"
-        },
-        {
-          "id": "render_blocking_resources",
-          "title": "1 render-blocking script + 1 render-blocking stylesheet in the layout",
-          "severity": "medium",
-          "source": "lighthouse_inferred"
-        },
-        {
-          "id": "og_image_relative_url",
-          "title": "og:image is a relative URL (/images/services/water-damage-restoration.webp) - some social platforms reject; make absolute",
-          "severity": "medium",
+          "id": "has_render_blocking_resources",
+          "title": "1 render-blocking script + 1 render-blocking stylesheet in the layout (perf unaffected: 99, LCP 1027ms)",
+          "severity": "low",
           "source": "instant_pages"
         }
       ]
     },
     {
-      "url": "https://narestco.com/services/flood-damage-restoration/",
+      "url": "https://narestco.com/services/fire-damage-restoration/",
       "archetype": "service-landing",
-      "verdict": "amber",
+      "verdict": "green",
       "error_reason": null,
       "scores": {
-        "performance": 99,
-        "accessibility": 82,
-        "best_practices": 77,
-        "seo": 92
+        "performance": 98,
+        "accessibility": 100,
+        "best_practices": 100,
+        "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 818,
+        "LCP_ms": 1080,
         "CLS": 0.004,
         "TBT_ms": null,
         "INP_ms": null
       },
-      "lighthouse_issues": [
-        {
-          "id": "total-byte-weight",
-          "title": "Avoid enormous network payloads (2.21 MiB total; recommended under 1.6 MB)",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance"
-        }
-      ],
+      "total_byte_weight_bytes": 809300,
+      "lighthouse_issues": [],
       "onpage_issues": [
         {
-          "id": "title_length_over_65",
-          "title": "Title is 75 chars (over 65)",
-          "severity": "medium",
+          "id": "has_render_blocking_resources",
+          "title": "1 render-blocking script + 1 render-blocking stylesheet in the layout (perf unaffected: 98, LCP 1080ms)",
+          "severity": "low",
           "source": "instant_pages"
-        },
-        {
-          "id": "render_blocking_resources",
-          "title": "1 render-blocking script + 1 render-blocking stylesheet in the layout",
-          "severity": "medium",
-          "source": "lighthouse_inferred"
         }
       ]
     },
     {
       "url": "https://narestco.com/service-areas/federal-way-wa/",
       "archetype": "service-area",
-      "verdict": "amber",
+      "verdict": "green",
       "error_reason": null,
       "scores": {
-        "performance": 99,
-        "accessibility": 83,
-        "best_practices": 77,
-        "seo": 92
+        "performance": 100,
+        "accessibility": 100,
+        "best_practices": 100,
+        "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 813,
+        "LCP_ms": 586,
         "CLS": 0.004,
         "TBT_ms": null,
         "INP_ms": null
       },
-      "lighthouse_issues": [
-        {
-          "id": "total-byte-weight",
-          "title": "Avoid enormous network payloads (2.13 MiB total; recommended under 1.6 MB)",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance"
-        }
-      ],
+      "total_byte_weight_bytes": 580159,
+      "lighthouse_issues": [],
       "onpage_issues": [
         {
-          "id": "title_length_over_65",
-          "title": "Title is 75 chars (over 65)",
-          "severity": "medium",
+          "id": "has_render_blocking_resources",
+          "title": "1 render-blocking script + 1 render-blocking stylesheet in the layout (perf unaffected: 100, LCP 586ms)",
+          "severity": "low",
           "source": "instant_pages"
-        },
-        {
-          "id": "render_blocking_resources",
-          "title": "1 render-blocking script + 1 render-blocking stylesheet in the layout",
-          "severity": "medium",
-          "source": "lighthouse_inferred"
         }
       ]
     },
     {
       "url": "https://narestco.com/contact/",
       "archetype": "contact",
-      "verdict": "amber",
+      "verdict": "green",
       "error_reason": null,
       "scores": {
         "performance": 98,
-        "accessibility": 88,
-        "best_practices": 77,
-        "seo": 92
+        "accessibility": 100,
+        "best_practices": 100,
+        "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 1103,
+        "LCP_ms": 1147,
         "CLS": 0.028,
         "TBT_ms": null,
         "INP_ms": null
       },
-      "lighthouse_issues": [
-        {
-          "id": "total-byte-weight",
-          "title": "Avoid enormous network payloads (2.43 MiB total; recommended under 1.6 MB)",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance"
-        }
-      ],
+      "total_byte_weight_bytes": 800299,
+      "lighthouse_issues": [],
       "onpage_issues": [
         {
-          "id": "title_length_over_65",
-          "title": "Title is 75 chars (over 65)",
-          "severity": "medium",
+          "id": "has_render_blocking_resources",
+          "title": "1 render-blocking script + 1 render-blocking stylesheet in the layout (perf unaffected: 98, LCP 1147ms)",
+          "severity": "low",
           "source": "instant_pages"
         },
         {
-          "id": "render_blocking_resources",
-          "title": "1 render-blocking script + 1 render-blocking stylesheet in the layout",
-          "severity": "medium",
-          "source": "lighthouse_inferred"
-        },
-        {
           "id": "cumulative_layout_shift_borderline",
-          "title": "CLS is 0.028 (target <= 0.025 for solidly Good; improved from 0.032)",
+          "title": "CLS 0.028 (Google Good is <0.1; internal target <=0.025 for solidly Good). Unchanged vs prior audit.",
           "severity": "low",
           "source": "lighthouse"
         }
@@ -284,37 +214,31 @@
   ],
   "site_rollup": {
     "avg_scores": {
-      "performance": 96.33,
-      "accessibility": 83.17,
-      "best_practices": 77.0,
-      "seo": 92.0
+      "performance": 98.5,
+      "accessibility": 100.0,
+      "best_practices": 100.0,
+      "seo": 100.0
     },
     "verdict": "amber",
     "url_count": 6,
     "urls_by_verdict": {
-      "green": 0,
-      "amber": 6,
+      "green": 5,
+      "amber": 1,
       "red": 0,
       "error": 0
     },
     "template_issues": [
       {
-        "id": "total-byte-weight",
-        "title": "Avoid enormous network payloads (all 6 pages exceed the 1.6 MB recommendation; home is the high outlier at 5.44 MiB, others 2.1-2.5 MiB)",
+        "id": "has_render_blocking_resources",
+        "title": "1 render-blocking script + 1 render-blocking stylesheet in the shared layout (present on all audited pages; performance unaffected, all pages score 98-100)",
         "affected_urls": 6,
-        "severity": "high"
+        "severity": "low"
       },
       {
-        "id": "title_length_over_65",
-        "title": "Title is 75 chars (over 65)",
-        "affected_urls": 6,
-        "severity": "medium"
-      },
-      {
-        "id": "render_blocking_resources",
-        "title": "1 render-blocking script + 1 render-blocking stylesheet in the layout",
-        "affected_urls": 6,
-        "severity": "medium"
+        "id": "low_content_rate",
+        "title": "Low text-to-HTML ratio flagged by DataForSEO (home and services hub)",
+        "affected_urls": 2,
+        "severity": "low"
       }
     ],
     "money_page_alerts": [
@@ -322,104 +246,122 @@
         "url": "https://narestco.com/",
         "archetype": "home",
         "verdict": "amber",
-        "main_issue": "accessibility 77, best_practices 77, performance 89, LCP 2076ms"
-      },
-      {
-        "url": "https://narestco.com/services/",
-        "archetype": "services-hub",
-        "verdict": "amber",
-        "main_issue": "accessibility 87, best_practices 77, LCP 1391ms"
-      },
-      {
-        "url": "https://narestco.com/services/water-damage-restoration/",
-        "archetype": "service-landing",
-        "verdict": "amber",
-        "main_issue": "accessibility 82, best_practices 77, LCP 865ms"
-      },
-      {
-        "url": "https://narestco.com/services/flood-damage-restoration/",
-        "archetype": "service-landing",
-        "verdict": "amber",
-        "main_issue": "accessibility 82, best_practices 77, LCP 818ms"
-      },
-      {
-        "url": "https://narestco.com/contact/",
-        "archetype": "contact",
-        "verdict": "amber",
-        "main_issue": "accessibility 88, best_practices 77, LCP 1103ms"
+        "main_issue": "meta description 194 chars (over 160 limit); all Lighthouse categories 98-100"
       }
     ]
   },
   "regression": {
-    "prior_run_at": "2026-05-17T23:24:13Z",
+    "prior_run_at": "2026-06-22T19:46:30Z",
     "score_deltas": {
-      "performance": -0.97,
-      "accessibility": 0.17,
-      "best_practices": 0.0,
-      "seo": 0.0
+      "performance": 2.17,
+      "accessibility": 16.83,
+      "best_practices": 23.0,
+      "seo": 8.0
     },
-    "per_url_metric_regressions": [
+    "per_url_metric_regressions": [],
+    "verdict_transitions": [
       {
         "url": "https://narestco.com/services/",
-        "metric": "performance",
-        "from": 100,
-        "to": 95,
-        "delta": -5
+        "from": "amber",
+        "to": "green"
       },
       {
-        "url": "https://narestco.com/services/",
-        "metric": "LCP_ms",
-        "from": 715,
-        "to": 1391,
-        "delta": 676
+        "url": "https://narestco.com/services/water-damage-restoration/",
+        "from": "amber",
+        "to": "green"
+      },
+      {
+        "url": "https://narestco.com/service-areas/federal-way-wa/",
+        "from": "amber",
+        "to": "green"
       },
       {
         "url": "https://narestco.com/contact/",
-        "metric": "LCP_ms",
-        "from": 889,
-        "to": 1103,
-        "delta": 214
+        "from": "amber",
+        "to": "green"
       }
     ],
-    "verdict_transitions": [],
     "new_issues": [
       {
         "url": "https://narestco.com/",
+        "id": "low_content_rate",
+        "title": "Low text-to-HTML ratio (0.092)",
+        "note": "Newly surfaced low-severity DataForSEO check; word count (1701) exceeds target. Likely present prior but not captured."
+      },
+      {
+        "url": "https://narestco.com/services/",
+        "id": "low_content_rate",
+        "title": "Low text-to-HTML ratio (0.077)",
+        "note": "Newly surfaced low-severity check."
+      },
+      {
+        "url": "https://narestco.com/services/",
+        "id": "content_length_below_target",
+        "title": "Body copy 790 words vs 800 target",
+        "note": "Marginal (10 words under)."
+      }
+    ],
+    "resolved_issues": [
+      {
+        "url": "https://narestco.com/",
+        "id": "title_length_over_65",
+        "title": "Title now 50 chars (was 75)"
+      },
+      {
+        "url": "https://narestco.com/",
         "id": "total-byte-weight",
-        "title": "Avoid enormous network payloads (5.44 MiB total; recommended under 1.6 MB)",
-        "note": "First captured this run; prior audit did not extract Lighthouse total-byte-weight. Reflects expanded capture, not necessarily a newly introduced defect."
+        "title": "Payload now 1.01 MiB, under 1.6 MB (was 5.44 MiB)"
+      },
+      {
+        "url": "https://narestco.com/",
+        "id": "largest_contentful_paint_borderline",
+        "title": "LCP now 1199ms (was 2076ms borderline)"
+      },
+      {
+        "url": "https://narestco.com/services/",
+        "id": "title_length_over_65",
+        "title": "Title now 46 chars (was 71)"
       },
       {
         "url": "https://narestco.com/services/",
         "id": "total-byte-weight",
-        "title": "Avoid enormous network payloads (2.4 MiB total; recommended under 1.6 MB)",
-        "note": "First captured this run; prior audit did not extract Lighthouse total-byte-weight. Reflects expanded capture, not necessarily a newly introduced defect."
+        "title": "Payload now 1.32 MiB, under 1.6 MB (was 2.4 MiB)"
+      },
+      {
+        "url": "https://narestco.com/services/water-damage-restoration/",
+        "id": "title_length_over_65",
+        "title": "Title now 50 chars (was 75)"
       },
       {
         "url": "https://narestco.com/services/water-damage-restoration/",
         "id": "total-byte-weight",
-        "title": "Avoid enormous network payloads (2.13 MiB total; recommended under 1.6 MB)",
-        "note": "First captured this run; prior audit did not extract Lighthouse total-byte-weight. Reflects expanded capture, not necessarily a newly introduced defect."
+        "title": "Payload now 0.95 MiB, under 1.6 MB (was 2.13 MiB)"
       },
       {
-        "url": "https://narestco.com/services/flood-damage-restoration/",
-        "id": "total-byte-weight",
-        "title": "Avoid enormous network payloads (2.21 MiB total; recommended under 1.6 MB)",
-        "note": "First captured this run; prior audit did not extract Lighthouse total-byte-weight. Reflects expanded capture, not necessarily a newly introduced defect."
+        "url": "https://narestco.com/services/water-damage-restoration/",
+        "id": "og_image_relative_url",
+        "title": "og:image is now an absolute URL"
+      },
+      {
+        "url": "https://narestco.com/service-areas/federal-way-wa/",
+        "id": "title_length_over_65",
+        "title": "Title now 50 chars (was 75)"
       },
       {
         "url": "https://narestco.com/service-areas/federal-way-wa/",
         "id": "total-byte-weight",
-        "title": "Avoid enormous network payloads (2.13 MiB total; recommended under 1.6 MB)",
-        "note": "First captured this run; prior audit did not extract Lighthouse total-byte-weight. Reflects expanded capture, not necessarily a newly introduced defect."
+        "title": "Payload now 0.55 MiB, under 1.6 MB (was 2.13 MiB)"
+      },
+      {
+        "url": "https://narestco.com/contact/",
+        "id": "title_length_over_65",
+        "title": "Title now 50 chars (was 75)"
       },
       {
         "url": "https://narestco.com/contact/",
         "id": "total-byte-weight",
-        "title": "Avoid enormous network payloads (2.43 MiB total; recommended under 1.6 MB)",
-        "note": "First captured this run; prior audit did not extract Lighthouse total-byte-weight. Reflects expanded capture, not necessarily a newly introduced defect."
+        "title": "Payload now 0.76 MiB, under 1.6 MB (was 2.43 MiB)"
       }
-    ],
-    "resolved_issues": []
+    ]
   }
 }

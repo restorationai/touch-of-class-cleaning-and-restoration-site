@@ -24,7 +24,7 @@
   },
   "status": "active",
   "created_at": "2026-05-10T03:18:58.761481+00:00",
-  "updated_at": "2026-07-15T14:28:47.261515+00:00",
+  "updated_at": "2026-07-15T16:01:06Z",
   "plan_status": "planned",
   "plan": {
     "template": "restoration",
@@ -47,10 +47,10 @@
   "cut_over_at": "2026-05-17T22:11:55+00:00",
   "deploy_url": "https://narestco.com",
   "audit": {
-    "last_audit_at": "2026-06-22T19:46:30Z",
+    "last_audit_at": "2026-07-15T16:01:06Z",
     "last_audit_verdict": "amber",
-    "last_audit_report_path": "clients/narestco/audit-runs/2026-06-22-onsite-audit.md",
-    "last_audit_caveat": "Apex audit. Stable vs 2026-05-17 baseline; one regression on /services/ (LCP 0.7s->1.4s, perf 100->95). Site-wide best_practices 77 and long titles persist.",
+    "last_audit_report_path": "clients/narestco/audit-runs/2026-07-15-onsite-audit.md",
+    "last_audit_caveat": "Apex audit. Major improvement vs 2026-06-22: 5 of 6 pages now green (a11y 77->100, best_practices 77->100, total-byte-weight all under 1.6MB, titles 75->~50). Site held at amber solely by home meta description 194 chars (over 160). No regressions.",
     "live_origin_audited": "https://narestco.com"
   },
   "apex_cutover": {
