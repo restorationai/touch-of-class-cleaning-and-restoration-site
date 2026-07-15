@@ -1689,7 +1689,8 @@ def cmd_make(args) -> int:
 
     client = load_client(slug)
     # --public overrides; otherwise the client record's video_publish_mode
-    # (default unlisted) decides — cron uploads honour the per-client gate.
+    # (default PUBLIC — Santino 2026-07-15: no more unlisted-until-reviewed
+    # gate; set video_publish_mode: unlisted per client only to stay dark).
     privacy = "public" if args.public else video_publish_mode(client)
     post = load_post(slug, post_slug)
 
@@ -2076,7 +2077,8 @@ def cmd_geo(args) -> int:
     set_orientation(getattr(args, "vertical", False))
     client = load_client(slug)
     # --public overrides; otherwise the client record's video_publish_mode
-    # (default unlisted) decides — cron uploads honour the per-client gate.
+    # (default PUBLIC — Santino 2026-07-15: no more unlisted-until-reviewed
+    # gate; set video_publish_mode: unlisted per client only to stay dark).
     privacy = "public" if args.public else video_publish_mode(client)
 
     plan_services = []
