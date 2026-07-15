@@ -14,7 +14,7 @@
   "status": "pending",
   "company_id": "CO-1783527517866",
   "created_at": "2026-07-10T00:00:00+00:00",
-  "updated_at": "2026-07-15T14:34:18.418795+00:00",
+  "updated_at": "2026-07-15T15:54:57.527100+00:00",
   "nap": {
     "name": "The Restoration Group",
     "street": "500 S 31st St",
@@ -36,17 +36,17 @@
     "rebrand": "DBA of Schwarz Enterprises; brand 'The Restoration Group' (7/8 onboarding call OVERRIDES the audit's 'Elite Restoration Group'). Old site restorationgroups.com (WordPress, 209 pages) stays live until cutover \u2014 full 301 map needed at production.",
     "domain": "restorationgroups.com \u2014 GoDaddy delegate access granted to contact@restorationai.io. DO NOT touch DNS/registrar yet; preview build only (Pages project the-restoration-group-preview).",
     "phone_discipline": "ONE phone everywhere: GBP line (855) 650-7422. Old site has 8+ rogue tracking numbers \u2014 never reuse any of them.",
-    "license_pending": "NJ HIC number captured on 7/8 call but digits UNVERIFIED ('13VH0488600'-ish) \u2014 number is WITHHELD from the site until verified. licensed_insured_attested=true (owner attested); footer prints 'NJ Licensed Home Improvement Contractor' text only.",
+    "license_pending": "RESOLVED 7/15 call: NJ HIC 13VH05488600 (prior capture missed a 5). Owner-confirmed on live call; safe to print on the site.",
     "ny_metro": "Brooklyn + Manhattan included as secondary metro service-area pages (template handles per-area state cleanly; NY areas simply get no NJ nearby-city cross-links).",
     "awaiting_intake": [
-      "verify NJ HIC number (13VH...) against DCA registry, then add to license_numbers",
-      "legal entity suffix for Schwarz Enterprises (LLC/Inc) for legal pages",
-      "business email on restorationgroups.com (old office@restorationgroups.com not printed)",
       "logo files (text wordmark + TRG favicon monogram used for preview)",
       "social profile URLs post-rebrand for same_as_urls",
       "GBP rename Elite Restoration Group -> The Restoration Group",
-      "301 map from restorationgroups.com (209 URLs) at production cutover"
-    ]
+      "301 map from restorationgroups.com (209 URLs) at production cutover",
+      "legal entity CONFIRMED: Schwartz Enterprises Inc (S-Corp) \u2014 note spelling Schwartz per call"
+    ],
+    "domain_decision_2026_07_15": "NEW SITE DOMAIN = therestorationgroup.com (Michael confirmed on 7/15 call; NOT restorationgroups.com). Old WordPress site stays on restorationgroups.com until strategy decided; email stays office@restorationgroups.com.",
+    "territory_2026_07_15": "Adi: coverage is NJ + PA + NY (~30M people); current 14-area plan is 'completely wrong' \u2014 wants ALL NJ towns, many PA towns, some NY. Prefers town-level pages for rankings. TWO GBPs total: Kenilworth NJ + one in PA (heard as Fairland/Furlong on call \u2014 verify). Adi prefers NOT showing addresses (SAB style). Multi-site vs one-site strategy decision owed to them by Monday call."
   },
   "plan_status": "planned",
   "plan": {
@@ -64,7 +64,10 @@
     "preview_url": "https://the-restoration-group-preview.pages.dev",
     "preview_pages_project": "the-restoration-group-preview",
     "github_repo": "restorationai/restoration-groups-site",
-    "last_pushed_staging_at": "2026-07-15T14:34:18.418774+00:00"
+    "last_pushed_staging_at": "2026-07-15T15:54:57.527052+00:00"
   },
-  "build_status": "pushed_staging"
+  "build_status": "pushed_staging",
+  "license_numbers": [
+    "NJ HIC 13VH05488600"
+  ]
 }
