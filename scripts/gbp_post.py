@@ -13,7 +13,7 @@ Modes:
 
 Reuses gbp.py for token + account + location resolution.
 """
-import argparse, json, os, sys, random, requests
+import argparse, json, os, re, sys, random, time, requests
 from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
@@ -69,38 +69,64 @@ def record_post(slug, res, topic=None, source="rank-ai-manual"):
         print(f"  warn: posted OK but not recorded in marketing_gbp_posts ({e})")
 
 
-def latest_job_photo(slug):
-    """Public URL of the client's most recent job photo in Supabase Storage
-    (branding/{company_id}/job-photos/, including posted/). None when the client
-    has no photos yet — callers post text-only in that case. Best-effort."""
+def _sb_headers():
+    return {"apikey": gbp.SB_KEY, "Authorization": f"Bearer {gbp.SB_KEY}",
+            "Content-Type": "application/json"}
+
+
+def _list_photos(cid, sub):
+    """Image files under branding/{cid}/job-photos/{sub}, oldest created_at first."""
+    r = requests.post(
+        f"{gbp.SB_URL}/storage/v1/object/list/branding",
+        headers=_sb_headers(),
+        json={"prefix": f"{cid}/job-photos/{sub}", "limit": 100,
+              "sortBy": {"column": "created_at", "order": "asc"}})
+    if not r.ok:
+        return []
+    out = []
+    for f in r.json():
+        created = f.get("created_at")
+        mime = (f.get("metadata") or {}).get("mimetype", "")
+        if created and mime.startswith("image/"):
+            out.append((created, f["name"]))
+    return sorted(out)
+
+
+def _sb_move(src, dst):
+    r = requests.post(f"{gbp.SB_URL}/storage/v1/object/move", headers=_sb_headers(),
+                      json={"bucketId": "branding", "sourceKey": src, "destinationKey": dst})
+    return r.ok
+
+
+def next_job_photo(slug, dry_run=False):
+    """Public URL of the job photo to attach, rotating so consecutive posts never
+    reuse the same image. Fresh uploads (job-photos/ root — e.g. from the crew
+    upload link) post first and are archived into posted/; when nothing is fresh,
+    the least-recently-used photo in posted/ is recycled (its rename refreshes
+    created_at, so posted/ behaves as an LRU queue). Dry runs pick without moving.
+    None when the client has no photos — callers post text-only. Best-effort."""
     try:
         cid = gbp.company_id_for(slug)
         if not cid:
             return None
-        newest = None  # (created_at, path)
-        for sub in ("", "posted/"):
-            prefix = f"{cid}/job-photos/{sub}"
-            r = requests.post(
-                f"{gbp.SB_URL}/storage/v1/object/list/branding",
-                headers={"apikey": gbp.SB_KEY, "Authorization": f"Bearer {gbp.SB_KEY}",
-                         "Content-Type": "application/json"},
-                json={"prefix": prefix, "limit": 100,
-                      "sortBy": {"column": "created_at", "order": "desc"}})
-            if not r.ok:
-                continue
-            for f in r.json():
-                created = f.get("created_at")
-                mime = (f.get("metadata") or {}).get("mimetype", "")
-                if not created or not mime.startswith("image/"):
-                    continue  # subfolder placeholder / non-image
-                if newest is None or created > newest[0]:
-                    newest = (created, prefix + f["name"])
-        if not newest:
+        fresh = _list_photos(cid, "")
+        if fresh:
+            _, name = fresh[0]
+            src = f"{cid}/job-photos/{name}"
+            dst = f"{cid}/job-photos/posted/{name}"
+            path = dst if (not dry_run and _sb_move(src, dst)) else src
+            return f"{gbp.SB_URL}/storage/v1/object/public/branding/{path}"
+        used = _list_photos(cid, "posted/")
+        if not used:
             return None
-        # branding bucket is public — GBP fetches the image from this URL.
-        return f"{gbp.SB_URL}/storage/v1/object/public/branding/{newest[1]}"
+        _, name = used[0]  # oldest created_at == least recently posted
+        base = re.sub(r"^r\d+_", "", name)
+        src = f"{cid}/job-photos/posted/{name}"
+        dst = f"{cid}/job-photos/posted/r{int(time.time())}_{base}"
+        path = dst if (not dry_run and _sb_move(src, dst)) else src
+        return f"{gbp.SB_URL}/storage/v1/object/public/branding/{path}"
     except Exception as e:
-        print(f"  warn: job-photo lookup failed, posting text-only ({e})")
+        print(f"  warn: job-photo rotation failed, posting text-only ({e})")
         return None
 
 
@@ -113,9 +139,10 @@ def create_local_post(slug, summary, cta_type="LEARN_MORE", cta_url=None, dry_ru
         if cta_type != "CALL":
             cta["url"] = cta_url or loc.get("websiteUri")
         body["callToAction"] = cta
-    # Attach the client's most recent job photo (public Storage URL) — posts
-    # with images get materially better engagement. Text-only when none exist.
-    photo = latest_job_photo(slug)
+    # Attach a rotating job photo (public Storage URL) — posts with images get
+    # materially better engagement, and rotation keeps the feed from looking
+    # frozen when a client has few photos. Text-only when none exist.
+    photo = next_job_photo(slug, dry_run=dry_run)
     if photo:
         body["media"] = [{"mediaFormat": "PHOTO", "sourceUrl": photo}]
         print(f"  photo: {photo}")
