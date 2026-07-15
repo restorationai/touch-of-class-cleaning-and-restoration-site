@@ -1,9 +1,9 @@
 {
   "template": "restoration",
-  "template_version": "0.2.0",
-  "generated_at": "2026-07-04T19:40:56.327046+00:00",
+  "template_version": "0.3.0",
+  "generated_at": "2026-07-15T05:24:58.098392+00:00",
   "input_summary": {
-    "service_count": 18,
+    "service_count": 22,
     "service_area_count": 14,
     "cross_product": true,
     "blog_seed_count": 12
@@ -61,7 +61,11 @@
         "/services/odor-removal/",
         "/services/roof-leak-repair/",
         "/services/soot-removal/",
+        "/services/trauma-scene-cleanup/",
         "/services/appliance-leak-cleanup/",
+        "/services/crime-scene-cleanup/",
+        "/services/hoarding-cleanup/",
+        "/services/unattended-death-cleanup/",
         "/service-areas/federal-way-wa/",
         "/service-areas/auburn-wa/",
         "/service-areas/bellevue-wa/",
@@ -125,7 +129,11 @@
         "/services/odor-removal/",
         "/services/roof-leak-repair/",
         "/services/soot-removal/",
-        "/services/appliance-leak-cleanup/"
+        "/services/trauma-scene-cleanup/",
+        "/services/appliance-leak-cleanup/",
+        "/services/crime-scene-cleanup/",
+        "/services/hoarding-cleanup/",
+        "/services/unattended-death-cleanup/"
       ]
     },
     {
@@ -1052,16 +1060,16 @@
       "vars_keys": [
         "service"
       ],
-      "title": "Biohazard and Trauma Cleanup in Federal Way | National Restoration Construction",
-      "h1": "Biohazard and Trauma Cleanup in Federal Way",
-      "meta_description": "24/7 biohazard and trauma cleanup in Federal Way and surrounding areas. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
-      "primary_keyword": "biohazard and trauma cleanup federal way",
+      "title": "Biohazard Cleanup in Federal Way | National Restoration Construction",
+      "h1": "Biohazard Cleanup in Federal Way",
+      "meta_description": "24/7 biohazard cleanup in Federal Way and surrounding areas. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "biohazard cleanup federal way",
       "secondary_keywords": [
-        "trauma scene cleanup",
-        "unattended death cleanup",
+        "biohazard remediation",
         "blood cleanup",
         "bodily fluid cleanup",
-        "biohazard remediation"
+        "sharps and needle cleanup",
+        "infectious material cleanup"
       ],
       "search_intent": "local_sensitive",
       "target_word_count": 1100,
@@ -1094,6 +1102,206 @@
         "/service-areas/redmond-wa/biohazard-cleanup/",
         "/service-areas/renton-wa/biohazard-cleanup/",
         "/service-areas/seattle-wa/biohazard-cleanup/"
+      ]
+    },
+    {
+      "url_path": "/services/trauma-scene-cleanup/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Trauma Scene Cleanup in Federal Way | National Restoration Construction",
+      "h1": "Trauma Scene Cleanup in Federal Way",
+      "meta_description": "24/7 trauma scene cleanup in Federal Way and surrounding areas. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "trauma scene cleanup federal way",
+      "secondary_keywords": [
+        "trauma cleanup services",
+        "trauma scene cleaning",
+        "accident scene cleanup",
+        "crime and trauma decontamination",
+        "emergency trauma cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/auburn-wa/trauma-scene-cleanup/",
+        "/service-areas/bellevue-wa/trauma-scene-cleanup/",
+        "/service-areas/bremerton-wa/trauma-scene-cleanup/",
+        "/service-areas/everett-wa/trauma-scene-cleanup/",
+        "/service-areas/federal-way-wa/trauma-scene-cleanup/",
+        "/service-areas/gig-harbor-wa/trauma-scene-cleanup/",
+        "/service-areas/kent-wa/trauma-scene-cleanup/",
+        "/service-areas/kirkland-wa/trauma-scene-cleanup/",
+        "/service-areas/port-orchard-wa/trauma-scene-cleanup/",
+        "/service-areas/redmond-wa/trauma-scene-cleanup/",
+        "/service-areas/renton-wa/trauma-scene-cleanup/",
+        "/service-areas/seattle-wa/trauma-scene-cleanup/"
+      ]
+    },
+    {
+      "url_path": "/services/crime-scene-cleanup/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Crime Scene Cleanup in Federal Way | National Restoration Construction",
+      "h1": "Crime Scene Cleanup in Federal Way",
+      "meta_description": "24/7 crime scene cleanup in Federal Way and surrounding areas. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "crime scene cleanup federal way",
+      "secondary_keywords": [
+        "crime scene cleaning",
+        "forensic cleanup",
+        "post-crime cleanup",
+        "homicide cleanup",
+        "suicide scene cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/auburn-wa/crime-scene-cleanup/",
+        "/service-areas/bellevue-wa/crime-scene-cleanup/",
+        "/service-areas/bremerton-wa/crime-scene-cleanup/",
+        "/service-areas/everett-wa/crime-scene-cleanup/",
+        "/service-areas/federal-way-wa/crime-scene-cleanup/",
+        "/service-areas/gig-harbor-wa/crime-scene-cleanup/",
+        "/service-areas/kent-wa/crime-scene-cleanup/",
+        "/service-areas/kirkland-wa/crime-scene-cleanup/",
+        "/service-areas/port-orchard-wa/crime-scene-cleanup/",
+        "/service-areas/redmond-wa/crime-scene-cleanup/",
+        "/service-areas/renton-wa/crime-scene-cleanup/",
+        "/service-areas/seattle-wa/crime-scene-cleanup/"
+      ]
+    },
+    {
+      "url_path": "/services/unattended-death-cleanup/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Unattended Death Cleanup in Federal Way | National Restoration Construction",
+      "h1": "Unattended Death Cleanup in Federal Way",
+      "meta_description": "24/7 unattended death cleanup in Federal Way and surrounding areas. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "unattended death cleanup federal way",
+      "secondary_keywords": [
+        "decomposition cleanup",
+        "after death cleaning",
+        "deceased estate cleanup",
+        "odor removal after death",
+        "discreet death cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/auburn-wa/unattended-death-cleanup/",
+        "/service-areas/bellevue-wa/unattended-death-cleanup/",
+        "/service-areas/bremerton-wa/unattended-death-cleanup/",
+        "/service-areas/everett-wa/unattended-death-cleanup/",
+        "/service-areas/federal-way-wa/unattended-death-cleanup/",
+        "/service-areas/gig-harbor-wa/unattended-death-cleanup/",
+        "/service-areas/kent-wa/unattended-death-cleanup/",
+        "/service-areas/kirkland-wa/unattended-death-cleanup/",
+        "/service-areas/port-orchard-wa/unattended-death-cleanup/",
+        "/service-areas/redmond-wa/unattended-death-cleanup/",
+        "/service-areas/renton-wa/unattended-death-cleanup/",
+        "/service-areas/seattle-wa/unattended-death-cleanup/"
+      ]
+    },
+    {
+      "url_path": "/services/hoarding-cleanup/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Hoarding Cleanup in Federal Way | National Restoration Construction",
+      "h1": "Hoarding Cleanup in Federal Way",
+      "meta_description": "24/7 hoarding cleanup in Federal Way and surrounding areas. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "hoarding cleanup federal way",
+      "secondary_keywords": [
+        "hoarder cleanup",
+        "hoarding cleaning services",
+        "hoarding remediation",
+        "hoarder home cleaning",
+        "gross filth cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/auburn-wa/hoarding-cleanup/",
+        "/service-areas/bellevue-wa/hoarding-cleanup/",
+        "/service-areas/bremerton-wa/hoarding-cleanup/",
+        "/service-areas/everett-wa/hoarding-cleanup/",
+        "/service-areas/federal-way-wa/hoarding-cleanup/",
+        "/service-areas/gig-harbor-wa/hoarding-cleanup/",
+        "/service-areas/kent-wa/hoarding-cleanup/",
+        "/service-areas/kirkland-wa/hoarding-cleanup/",
+        "/service-areas/port-orchard-wa/hoarding-cleanup/",
+        "/service-areas/redmond-wa/hoarding-cleanup/",
+        "/service-areas/renton-wa/hoarding-cleanup/",
+        "/service-areas/seattle-wa/hoarding-cleanup/"
       ]
     },
     {
@@ -1246,7 +1454,11 @@
         "/service-areas/federal-way-wa/odor-removal/",
         "/service-areas/federal-way-wa/roof-leak-repair/",
         "/service-areas/federal-way-wa/soot-removal/",
+        "/service-areas/federal-way-wa/trauma-scene-cleanup/",
         "/service-areas/federal-way-wa/appliance-leak-cleanup/",
+        "/service-areas/federal-way-wa/crime-scene-cleanup/",
+        "/service-areas/federal-way-wa/hoarding-cleanup/",
+        "/service-areas/federal-way-wa/unattended-death-cleanup/",
         "/service-areas/auburn-wa/",
         "/service-areas/bellevue-wa/",
         "/service-areas/bremerton-wa/"
@@ -1301,7 +1513,11 @@
         "/service-areas/seattle-wa/odor-removal/",
         "/service-areas/seattle-wa/roof-leak-repair/",
         "/service-areas/seattle-wa/soot-removal/",
+        "/service-areas/seattle-wa/trauma-scene-cleanup/",
         "/service-areas/seattle-wa/appliance-leak-cleanup/",
+        "/service-areas/seattle-wa/crime-scene-cleanup/",
+        "/service-areas/seattle-wa/hoarding-cleanup/",
+        "/service-areas/seattle-wa/unattended-death-cleanup/",
         "/service-areas/federal-way-wa/",
         "/service-areas/auburn-wa/",
         "/service-areas/bellevue-wa/"
@@ -1356,7 +1572,11 @@
         "/service-areas/bellevue-wa/odor-removal/",
         "/service-areas/bellevue-wa/roof-leak-repair/",
         "/service-areas/bellevue-wa/soot-removal/",
+        "/service-areas/bellevue-wa/trauma-scene-cleanup/",
         "/service-areas/bellevue-wa/appliance-leak-cleanup/",
+        "/service-areas/bellevue-wa/crime-scene-cleanup/",
+        "/service-areas/bellevue-wa/hoarding-cleanup/",
+        "/service-areas/bellevue-wa/unattended-death-cleanup/",
         "/service-areas/federal-way-wa/",
         "/service-areas/auburn-wa/",
         "/service-areas/bremerton-wa/"
@@ -1411,7 +1631,11 @@
         "/service-areas/tacoma-wa/odor-removal/",
         "/service-areas/tacoma-wa/roof-leak-repair/",
         "/service-areas/tacoma-wa/soot-removal/",
+        "/service-areas/tacoma-wa/trauma-scene-cleanup/",
         "/service-areas/tacoma-wa/appliance-leak-cleanup/",
+        "/service-areas/tacoma-wa/crime-scene-cleanup/",
+        "/service-areas/tacoma-wa/hoarding-cleanup/",
+        "/service-areas/tacoma-wa/unattended-death-cleanup/",
         "/service-areas/federal-way-wa/",
         "/service-areas/auburn-wa/",
         "/service-areas/bellevue-wa/"
@@ -1466,7 +1690,11 @@
         "/service-areas/everett-wa/odor-removal/",
         "/service-areas/everett-wa/roof-leak-repair/",
         "/service-areas/everett-wa/soot-removal/",
+        "/service-areas/everett-wa/trauma-scene-cleanup/",
         "/service-areas/everett-wa/appliance-leak-cleanup/",
+        "/service-areas/everett-wa/crime-scene-cleanup/",
+        "/service-areas/everett-wa/hoarding-cleanup/",
+        "/service-areas/everett-wa/unattended-death-cleanup/",
         "/service-areas/federal-way-wa/",
         "/service-areas/auburn-wa/",
         "/service-areas/bellevue-wa/"
@@ -1521,7 +1749,11 @@
         "/service-areas/kent-wa/odor-removal/",
         "/service-areas/kent-wa/roof-leak-repair/",
         "/service-areas/kent-wa/soot-removal/",
+        "/service-areas/kent-wa/trauma-scene-cleanup/",
         "/service-areas/kent-wa/appliance-leak-cleanup/",
+        "/service-areas/kent-wa/crime-scene-cleanup/",
+        "/service-areas/kent-wa/hoarding-cleanup/",
+        "/service-areas/kent-wa/unattended-death-cleanup/",
         "/service-areas/federal-way-wa/",
         "/service-areas/auburn-wa/",
         "/service-areas/bellevue-wa/"
@@ -1576,7 +1808,11 @@
         "/service-areas/renton-wa/odor-removal/",
         "/service-areas/renton-wa/roof-leak-repair/",
         "/service-areas/renton-wa/soot-removal/",
+        "/service-areas/renton-wa/trauma-scene-cleanup/",
         "/service-areas/renton-wa/appliance-leak-cleanup/",
+        "/service-areas/renton-wa/crime-scene-cleanup/",
+        "/service-areas/renton-wa/hoarding-cleanup/",
+        "/service-areas/renton-wa/unattended-death-cleanup/",
         "/service-areas/federal-way-wa/",
         "/service-areas/auburn-wa/",
         "/service-areas/bellevue-wa/"
@@ -1631,7 +1867,11 @@
         "/service-areas/auburn-wa/odor-removal/",
         "/service-areas/auburn-wa/roof-leak-repair/",
         "/service-areas/auburn-wa/soot-removal/",
+        "/service-areas/auburn-wa/trauma-scene-cleanup/",
         "/service-areas/auburn-wa/appliance-leak-cleanup/",
+        "/service-areas/auburn-wa/crime-scene-cleanup/",
+        "/service-areas/auburn-wa/hoarding-cleanup/",
+        "/service-areas/auburn-wa/unattended-death-cleanup/",
         "/service-areas/federal-way-wa/",
         "/service-areas/bellevue-wa/",
         "/service-areas/bremerton-wa/"
@@ -1686,7 +1926,11 @@
         "/service-areas/kirkland-wa/odor-removal/",
         "/service-areas/kirkland-wa/roof-leak-repair/",
         "/service-areas/kirkland-wa/soot-removal/",
+        "/service-areas/kirkland-wa/trauma-scene-cleanup/",
         "/service-areas/kirkland-wa/appliance-leak-cleanup/",
+        "/service-areas/kirkland-wa/crime-scene-cleanup/",
+        "/service-areas/kirkland-wa/hoarding-cleanup/",
+        "/service-areas/kirkland-wa/unattended-death-cleanup/",
         "/service-areas/federal-way-wa/",
         "/service-areas/auburn-wa/",
         "/service-areas/bellevue-wa/"
@@ -1741,7 +1985,11 @@
         "/service-areas/redmond-wa/odor-removal/",
         "/service-areas/redmond-wa/roof-leak-repair/",
         "/service-areas/redmond-wa/soot-removal/",
+        "/service-areas/redmond-wa/trauma-scene-cleanup/",
         "/service-areas/redmond-wa/appliance-leak-cleanup/",
+        "/service-areas/redmond-wa/crime-scene-cleanup/",
+        "/service-areas/redmond-wa/hoarding-cleanup/",
+        "/service-areas/redmond-wa/unattended-death-cleanup/",
         "/service-areas/federal-way-wa/",
         "/service-areas/auburn-wa/",
         "/service-areas/bellevue-wa/"
@@ -1796,7 +2044,11 @@
         "/service-areas/gig-harbor-wa/odor-removal/",
         "/service-areas/gig-harbor-wa/roof-leak-repair/",
         "/service-areas/gig-harbor-wa/soot-removal/",
+        "/service-areas/gig-harbor-wa/trauma-scene-cleanup/",
         "/service-areas/gig-harbor-wa/appliance-leak-cleanup/",
+        "/service-areas/gig-harbor-wa/crime-scene-cleanup/",
+        "/service-areas/gig-harbor-wa/hoarding-cleanup/",
+        "/service-areas/gig-harbor-wa/unattended-death-cleanup/",
         "/service-areas/federal-way-wa/",
         "/service-areas/auburn-wa/",
         "/service-areas/bellevue-wa/"
@@ -1851,7 +2103,11 @@
         "/service-areas/bremerton-wa/odor-removal/",
         "/service-areas/bremerton-wa/roof-leak-repair/",
         "/service-areas/bremerton-wa/soot-removal/",
+        "/service-areas/bremerton-wa/trauma-scene-cleanup/",
         "/service-areas/bremerton-wa/appliance-leak-cleanup/",
+        "/service-areas/bremerton-wa/crime-scene-cleanup/",
+        "/service-areas/bremerton-wa/hoarding-cleanup/",
+        "/service-areas/bremerton-wa/unattended-death-cleanup/",
         "/service-areas/federal-way-wa/",
         "/service-areas/auburn-wa/",
         "/service-areas/bellevue-wa/"
@@ -1906,7 +2162,11 @@
         "/service-areas/port-orchard-wa/odor-removal/",
         "/service-areas/port-orchard-wa/roof-leak-repair/",
         "/service-areas/port-orchard-wa/soot-removal/",
+        "/service-areas/port-orchard-wa/trauma-scene-cleanup/",
         "/service-areas/port-orchard-wa/appliance-leak-cleanup/",
+        "/service-areas/port-orchard-wa/crime-scene-cleanup/",
+        "/service-areas/port-orchard-wa/hoarding-cleanup/",
+        "/service-areas/port-orchard-wa/unattended-death-cleanup/",
         "/service-areas/federal-way-wa/",
         "/service-areas/auburn-wa/",
         "/service-areas/bellevue-wa/"
@@ -1961,7 +2221,11 @@
         "/service-areas/university-place-wa/odor-removal/",
         "/service-areas/university-place-wa/roof-leak-repair/",
         "/service-areas/university-place-wa/soot-removal/",
+        "/service-areas/university-place-wa/trauma-scene-cleanup/",
         "/service-areas/university-place-wa/appliance-leak-cleanup/",
+        "/service-areas/university-place-wa/crime-scene-cleanup/",
+        "/service-areas/university-place-wa/hoarding-cleanup/",
+        "/service-areas/university-place-wa/unattended-death-cleanup/",
         "/service-areas/federal-way-wa/",
         "/service-areas/auburn-wa/",
         "/service-areas/bellevue-wa/"
@@ -2634,16 +2898,16 @@
         "area",
         "service"
       ],
-      "title": "Biohazard and Trauma Cleanup in Federal Way, WA | National Restoration Construction",
-      "h1": "Biohazard and Trauma Cleanup in Federal Way",
-      "meta_description": "24/7 biohazard and trauma cleanup in Federal Way, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
-      "primary_keyword": "biohazard and trauma cleanup federal way",
+      "title": "Biohazard Cleanup in Federal Way, WA | National Restoration Construction",
+      "h1": "Biohazard Cleanup in Federal Way",
+      "meta_description": "24/7 biohazard cleanup in Federal Way, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "biohazard cleanup federal way",
       "secondary_keywords": [
-        "trauma scene cleanup",
-        "unattended death cleanup",
+        "biohazard remediation",
         "blood cleanup",
         "bodily fluid cleanup",
-        "biohazard remediation"
+        "sharps and needle cleanup",
+        "infectious material cleanup"
       ],
       "search_intent": "local_sensitive",
       "target_word_count": 900,
@@ -2668,6 +2932,182 @@
         "/service-areas/federal-way-wa/mold-remediation/",
         "/service-areas/auburn-wa/biohazard-cleanup/",
         "/service-areas/bellevue-wa/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/federal-way-wa/trauma-scene-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Trauma Scene Cleanup in Federal Way, WA | National Restoration Construction",
+      "h1": "Trauma Scene Cleanup in Federal Way",
+      "meta_description": "24/7 trauma scene cleanup in Federal Way, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "trauma scene cleanup federal way",
+      "secondary_keywords": [
+        "trauma cleanup services",
+        "trauma scene cleaning",
+        "accident scene cleanup",
+        "crime and trauma decontamination",
+        "emergency trauma cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/trauma-scene-cleanup/",
+        "/service-areas/federal-way-wa/",
+        "/service-areas/federal-way-wa/fire-damage-restoration/",
+        "/service-areas/federal-way-wa/mold-remediation/",
+        "/service-areas/auburn-wa/trauma-scene-cleanup/",
+        "/service-areas/bellevue-wa/trauma-scene-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/federal-way-wa/crime-scene-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crime Scene Cleanup in Federal Way, WA | National Restoration Construction",
+      "h1": "Crime Scene Cleanup in Federal Way",
+      "meta_description": "24/7 crime scene cleanup in Federal Way, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "crime scene cleanup federal way",
+      "secondary_keywords": [
+        "crime scene cleaning",
+        "forensic cleanup",
+        "post-crime cleanup",
+        "homicide cleanup",
+        "suicide scene cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crime-scene-cleanup/",
+        "/service-areas/federal-way-wa/",
+        "/service-areas/federal-way-wa/fire-damage-restoration/",
+        "/service-areas/federal-way-wa/mold-remediation/",
+        "/service-areas/auburn-wa/crime-scene-cleanup/",
+        "/service-areas/bellevue-wa/crime-scene-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/federal-way-wa/unattended-death-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Unattended Death Cleanup in Federal Way, WA | National Restoration Construction",
+      "h1": "Unattended Death Cleanup in Federal Way",
+      "meta_description": "24/7 unattended death cleanup in Federal Way, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "unattended death cleanup federal way",
+      "secondary_keywords": [
+        "decomposition cleanup",
+        "after death cleaning",
+        "deceased estate cleanup",
+        "odor removal after death",
+        "discreet death cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/unattended-death-cleanup/",
+        "/service-areas/federal-way-wa/",
+        "/service-areas/federal-way-wa/fire-damage-restoration/",
+        "/service-areas/federal-way-wa/mold-remediation/",
+        "/service-areas/auburn-wa/unattended-death-cleanup/",
+        "/service-areas/bellevue-wa/unattended-death-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/federal-way-wa/hoarding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Hoarding Cleanup in Federal Way, WA | National Restoration Construction",
+      "h1": "Hoarding Cleanup in Federal Way",
+      "meta_description": "24/7 hoarding cleanup in Federal Way, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "hoarding cleanup federal way",
+      "secondary_keywords": [
+        "hoarder cleanup",
+        "hoarding cleaning services",
+        "hoarding remediation",
+        "hoarder home cleaning",
+        "gross filth cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/hoarding-cleanup/",
+        "/service-areas/federal-way-wa/",
+        "/service-areas/federal-way-wa/fire-damage-restoration/",
+        "/service-areas/federal-way-wa/mold-remediation/",
+        "/service-areas/auburn-wa/hoarding-cleanup/",
+        "/service-areas/bellevue-wa/hoarding-cleanup/",
         "/contact/"
       ]
     },
@@ -3427,16 +3867,16 @@
         "area",
         "service"
       ],
-      "title": "Biohazard and Trauma Cleanup in Seattle, WA | National Restoration Construction",
-      "h1": "Biohazard and Trauma Cleanup in Seattle",
-      "meta_description": "24/7 biohazard and trauma cleanup in Seattle, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
-      "primary_keyword": "biohazard and trauma cleanup seattle",
+      "title": "Biohazard Cleanup in Seattle, WA | National Restoration Construction",
+      "h1": "Biohazard Cleanup in Seattle",
+      "meta_description": "24/7 biohazard cleanup in Seattle, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "biohazard cleanup seattle",
       "secondary_keywords": [
-        "trauma scene cleanup",
-        "unattended death cleanup",
+        "biohazard remediation",
         "blood cleanup",
         "bodily fluid cleanup",
-        "biohazard remediation"
+        "sharps and needle cleanup",
+        "infectious material cleanup"
       ],
       "search_intent": "local_sensitive",
       "target_word_count": 900,
@@ -3461,6 +3901,182 @@
         "/service-areas/seattle-wa/mold-remediation/",
         "/service-areas/auburn-wa/biohazard-cleanup/",
         "/service-areas/bellevue-wa/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/seattle-wa/trauma-scene-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Trauma Scene Cleanup in Seattle, WA | National Restoration Construction",
+      "h1": "Trauma Scene Cleanup in Seattle",
+      "meta_description": "24/7 trauma scene cleanup in Seattle, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "trauma scene cleanup seattle",
+      "secondary_keywords": [
+        "trauma cleanup services",
+        "trauma scene cleaning",
+        "accident scene cleanup",
+        "crime and trauma decontamination",
+        "emergency trauma cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/trauma-scene-cleanup/",
+        "/service-areas/seattle-wa/",
+        "/service-areas/seattle-wa/fire-damage-restoration/",
+        "/service-areas/seattle-wa/mold-remediation/",
+        "/service-areas/auburn-wa/trauma-scene-cleanup/",
+        "/service-areas/bellevue-wa/trauma-scene-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/seattle-wa/crime-scene-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crime Scene Cleanup in Seattle, WA | National Restoration Construction",
+      "h1": "Crime Scene Cleanup in Seattle",
+      "meta_description": "24/7 crime scene cleanup in Seattle, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "crime scene cleanup seattle",
+      "secondary_keywords": [
+        "crime scene cleaning",
+        "forensic cleanup",
+        "post-crime cleanup",
+        "homicide cleanup",
+        "suicide scene cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crime-scene-cleanup/",
+        "/service-areas/seattle-wa/",
+        "/service-areas/seattle-wa/fire-damage-restoration/",
+        "/service-areas/seattle-wa/mold-remediation/",
+        "/service-areas/auburn-wa/crime-scene-cleanup/",
+        "/service-areas/bellevue-wa/crime-scene-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/seattle-wa/unattended-death-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Unattended Death Cleanup in Seattle, WA | National Restoration Construction",
+      "h1": "Unattended Death Cleanup in Seattle",
+      "meta_description": "24/7 unattended death cleanup in Seattle, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "unattended death cleanup seattle",
+      "secondary_keywords": [
+        "decomposition cleanup",
+        "after death cleaning",
+        "deceased estate cleanup",
+        "odor removal after death",
+        "discreet death cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/unattended-death-cleanup/",
+        "/service-areas/seattle-wa/",
+        "/service-areas/seattle-wa/fire-damage-restoration/",
+        "/service-areas/seattle-wa/mold-remediation/",
+        "/service-areas/auburn-wa/unattended-death-cleanup/",
+        "/service-areas/bellevue-wa/unattended-death-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/seattle-wa/hoarding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Hoarding Cleanup in Seattle, WA | National Restoration Construction",
+      "h1": "Hoarding Cleanup in Seattle",
+      "meta_description": "24/7 hoarding cleanup in Seattle, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "hoarding cleanup seattle",
+      "secondary_keywords": [
+        "hoarder cleanup",
+        "hoarding cleaning services",
+        "hoarding remediation",
+        "hoarder home cleaning",
+        "gross filth cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/hoarding-cleanup/",
+        "/service-areas/seattle-wa/",
+        "/service-areas/seattle-wa/fire-damage-restoration/",
+        "/service-areas/seattle-wa/mold-remediation/",
+        "/service-areas/auburn-wa/hoarding-cleanup/",
+        "/service-areas/bellevue-wa/hoarding-cleanup/",
         "/contact/"
       ]
     },
@@ -4220,16 +4836,16 @@
         "area",
         "service"
       ],
-      "title": "Biohazard and Trauma Cleanup in Bellevue, WA | National Restoration Construction",
-      "h1": "Biohazard and Trauma Cleanup in Bellevue",
-      "meta_description": "24/7 biohazard and trauma cleanup in Bellevue, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
-      "primary_keyword": "biohazard and trauma cleanup bellevue",
+      "title": "Biohazard Cleanup in Bellevue, WA | National Restoration Construction",
+      "h1": "Biohazard Cleanup in Bellevue",
+      "meta_description": "24/7 biohazard cleanup in Bellevue, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "biohazard cleanup bellevue",
       "secondary_keywords": [
-        "trauma scene cleanup",
-        "unattended death cleanup",
+        "biohazard remediation",
         "blood cleanup",
         "bodily fluid cleanup",
-        "biohazard remediation"
+        "sharps and needle cleanup",
+        "infectious material cleanup"
       ],
       "search_intent": "local_sensitive",
       "target_word_count": 900,
@@ -4254,6 +4870,182 @@
         "/service-areas/bellevue-wa/mold-remediation/",
         "/service-areas/auburn-wa/biohazard-cleanup/",
         "/service-areas/bremerton-wa/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bellevue-wa/trauma-scene-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Trauma Scene Cleanup in Bellevue, WA | National Restoration Construction",
+      "h1": "Trauma Scene Cleanup in Bellevue",
+      "meta_description": "24/7 trauma scene cleanup in Bellevue, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "trauma scene cleanup bellevue",
+      "secondary_keywords": [
+        "trauma cleanup services",
+        "trauma scene cleaning",
+        "accident scene cleanup",
+        "crime and trauma decontamination",
+        "emergency trauma cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/trauma-scene-cleanup/",
+        "/service-areas/bellevue-wa/",
+        "/service-areas/bellevue-wa/fire-damage-restoration/",
+        "/service-areas/bellevue-wa/mold-remediation/",
+        "/service-areas/auburn-wa/trauma-scene-cleanup/",
+        "/service-areas/bremerton-wa/trauma-scene-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bellevue-wa/crime-scene-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crime Scene Cleanup in Bellevue, WA | National Restoration Construction",
+      "h1": "Crime Scene Cleanup in Bellevue",
+      "meta_description": "24/7 crime scene cleanup in Bellevue, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "crime scene cleanup bellevue",
+      "secondary_keywords": [
+        "crime scene cleaning",
+        "forensic cleanup",
+        "post-crime cleanup",
+        "homicide cleanup",
+        "suicide scene cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crime-scene-cleanup/",
+        "/service-areas/bellevue-wa/",
+        "/service-areas/bellevue-wa/fire-damage-restoration/",
+        "/service-areas/bellevue-wa/mold-remediation/",
+        "/service-areas/auburn-wa/crime-scene-cleanup/",
+        "/service-areas/bremerton-wa/crime-scene-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bellevue-wa/unattended-death-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Unattended Death Cleanup in Bellevue, WA | National Restoration Construction",
+      "h1": "Unattended Death Cleanup in Bellevue",
+      "meta_description": "24/7 unattended death cleanup in Bellevue, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "unattended death cleanup bellevue",
+      "secondary_keywords": [
+        "decomposition cleanup",
+        "after death cleaning",
+        "deceased estate cleanup",
+        "odor removal after death",
+        "discreet death cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/unattended-death-cleanup/",
+        "/service-areas/bellevue-wa/",
+        "/service-areas/bellevue-wa/fire-damage-restoration/",
+        "/service-areas/bellevue-wa/mold-remediation/",
+        "/service-areas/auburn-wa/unattended-death-cleanup/",
+        "/service-areas/bremerton-wa/unattended-death-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bellevue-wa/hoarding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Hoarding Cleanup in Bellevue, WA | National Restoration Construction",
+      "h1": "Hoarding Cleanup in Bellevue",
+      "meta_description": "24/7 hoarding cleanup in Bellevue, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "hoarding cleanup bellevue",
+      "secondary_keywords": [
+        "hoarder cleanup",
+        "hoarding cleaning services",
+        "hoarding remediation",
+        "hoarder home cleaning",
+        "gross filth cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/hoarding-cleanup/",
+        "/service-areas/bellevue-wa/",
+        "/service-areas/bellevue-wa/fire-damage-restoration/",
+        "/service-areas/bellevue-wa/mold-remediation/",
+        "/service-areas/auburn-wa/hoarding-cleanup/",
+        "/service-areas/bremerton-wa/hoarding-cleanup/",
         "/contact/"
       ]
     },
@@ -5013,16 +5805,16 @@
         "area",
         "service"
       ],
-      "title": "Biohazard and Trauma Cleanup in Tacoma, WA | National Restoration Construction",
-      "h1": "Biohazard and Trauma Cleanup in Tacoma",
-      "meta_description": "24/7 biohazard and trauma cleanup in Tacoma, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
-      "primary_keyword": "biohazard and trauma cleanup tacoma",
+      "title": "Biohazard Cleanup in Tacoma, WA | National Restoration Construction",
+      "h1": "Biohazard Cleanup in Tacoma",
+      "meta_description": "24/7 biohazard cleanup in Tacoma, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "biohazard cleanup tacoma",
       "secondary_keywords": [
-        "trauma scene cleanup",
-        "unattended death cleanup",
+        "biohazard remediation",
         "blood cleanup",
         "bodily fluid cleanup",
-        "biohazard remediation"
+        "sharps and needle cleanup",
+        "infectious material cleanup"
       ],
       "search_intent": "local_sensitive",
       "target_word_count": 900,
@@ -5047,6 +5839,182 @@
         "/service-areas/tacoma-wa/mold-remediation/",
         "/service-areas/auburn-wa/biohazard-cleanup/",
         "/service-areas/bellevue-wa/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tacoma-wa/trauma-scene-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Trauma Scene Cleanup in Tacoma, WA | National Restoration Construction",
+      "h1": "Trauma Scene Cleanup in Tacoma",
+      "meta_description": "24/7 trauma scene cleanup in Tacoma, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "trauma scene cleanup tacoma",
+      "secondary_keywords": [
+        "trauma cleanup services",
+        "trauma scene cleaning",
+        "accident scene cleanup",
+        "crime and trauma decontamination",
+        "emergency trauma cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/trauma-scene-cleanup/",
+        "/service-areas/tacoma-wa/",
+        "/service-areas/tacoma-wa/fire-damage-restoration/",
+        "/service-areas/tacoma-wa/mold-remediation/",
+        "/service-areas/auburn-wa/trauma-scene-cleanup/",
+        "/service-areas/bellevue-wa/trauma-scene-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tacoma-wa/crime-scene-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crime Scene Cleanup in Tacoma, WA | National Restoration Construction",
+      "h1": "Crime Scene Cleanup in Tacoma",
+      "meta_description": "24/7 crime scene cleanup in Tacoma, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "crime scene cleanup tacoma",
+      "secondary_keywords": [
+        "crime scene cleaning",
+        "forensic cleanup",
+        "post-crime cleanup",
+        "homicide cleanup",
+        "suicide scene cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crime-scene-cleanup/",
+        "/service-areas/tacoma-wa/",
+        "/service-areas/tacoma-wa/fire-damage-restoration/",
+        "/service-areas/tacoma-wa/mold-remediation/",
+        "/service-areas/auburn-wa/crime-scene-cleanup/",
+        "/service-areas/bellevue-wa/crime-scene-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tacoma-wa/unattended-death-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Unattended Death Cleanup in Tacoma, WA | National Restoration Construction",
+      "h1": "Unattended Death Cleanup in Tacoma",
+      "meta_description": "24/7 unattended death cleanup in Tacoma, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "unattended death cleanup tacoma",
+      "secondary_keywords": [
+        "decomposition cleanup",
+        "after death cleaning",
+        "deceased estate cleanup",
+        "odor removal after death",
+        "discreet death cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/unattended-death-cleanup/",
+        "/service-areas/tacoma-wa/",
+        "/service-areas/tacoma-wa/fire-damage-restoration/",
+        "/service-areas/tacoma-wa/mold-remediation/",
+        "/service-areas/auburn-wa/unattended-death-cleanup/",
+        "/service-areas/bellevue-wa/unattended-death-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tacoma-wa/hoarding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Hoarding Cleanup in Tacoma, WA | National Restoration Construction",
+      "h1": "Hoarding Cleanup in Tacoma",
+      "meta_description": "24/7 hoarding cleanup in Tacoma, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "hoarding cleanup tacoma",
+      "secondary_keywords": [
+        "hoarder cleanup",
+        "hoarding cleaning services",
+        "hoarding remediation",
+        "hoarder home cleaning",
+        "gross filth cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/hoarding-cleanup/",
+        "/service-areas/tacoma-wa/",
+        "/service-areas/tacoma-wa/fire-damage-restoration/",
+        "/service-areas/tacoma-wa/mold-remediation/",
+        "/service-areas/auburn-wa/hoarding-cleanup/",
+        "/service-areas/bellevue-wa/hoarding-cleanup/",
         "/contact/"
       ]
     },
@@ -5806,16 +6774,16 @@
         "area",
         "service"
       ],
-      "title": "Biohazard and Trauma Cleanup in Everett, WA | National Restoration Construction",
-      "h1": "Biohazard and Trauma Cleanup in Everett",
-      "meta_description": "24/7 biohazard and trauma cleanup in Everett, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
-      "primary_keyword": "biohazard and trauma cleanup everett",
+      "title": "Biohazard Cleanup in Everett, WA | National Restoration Construction",
+      "h1": "Biohazard Cleanup in Everett",
+      "meta_description": "24/7 biohazard cleanup in Everett, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "biohazard cleanup everett",
       "secondary_keywords": [
-        "trauma scene cleanup",
-        "unattended death cleanup",
+        "biohazard remediation",
         "blood cleanup",
         "bodily fluid cleanup",
-        "biohazard remediation"
+        "sharps and needle cleanup",
+        "infectious material cleanup"
       ],
       "search_intent": "local_sensitive",
       "target_word_count": 900,
@@ -5840,6 +6808,182 @@
         "/service-areas/everett-wa/mold-remediation/",
         "/service-areas/auburn-wa/biohazard-cleanup/",
         "/service-areas/bellevue-wa/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/everett-wa/trauma-scene-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Trauma Scene Cleanup in Everett, WA | National Restoration Construction",
+      "h1": "Trauma Scene Cleanup in Everett",
+      "meta_description": "24/7 trauma scene cleanup in Everett, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "trauma scene cleanup everett",
+      "secondary_keywords": [
+        "trauma cleanup services",
+        "trauma scene cleaning",
+        "accident scene cleanup",
+        "crime and trauma decontamination",
+        "emergency trauma cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/trauma-scene-cleanup/",
+        "/service-areas/everett-wa/",
+        "/service-areas/everett-wa/fire-damage-restoration/",
+        "/service-areas/everett-wa/mold-remediation/",
+        "/service-areas/auburn-wa/trauma-scene-cleanup/",
+        "/service-areas/bellevue-wa/trauma-scene-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/everett-wa/crime-scene-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crime Scene Cleanup in Everett, WA | National Restoration Construction",
+      "h1": "Crime Scene Cleanup in Everett",
+      "meta_description": "24/7 crime scene cleanup in Everett, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "crime scene cleanup everett",
+      "secondary_keywords": [
+        "crime scene cleaning",
+        "forensic cleanup",
+        "post-crime cleanup",
+        "homicide cleanup",
+        "suicide scene cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crime-scene-cleanup/",
+        "/service-areas/everett-wa/",
+        "/service-areas/everett-wa/fire-damage-restoration/",
+        "/service-areas/everett-wa/mold-remediation/",
+        "/service-areas/auburn-wa/crime-scene-cleanup/",
+        "/service-areas/bellevue-wa/crime-scene-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/everett-wa/unattended-death-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Unattended Death Cleanup in Everett, WA | National Restoration Construction",
+      "h1": "Unattended Death Cleanup in Everett",
+      "meta_description": "24/7 unattended death cleanup in Everett, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "unattended death cleanup everett",
+      "secondary_keywords": [
+        "decomposition cleanup",
+        "after death cleaning",
+        "deceased estate cleanup",
+        "odor removal after death",
+        "discreet death cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/unattended-death-cleanup/",
+        "/service-areas/everett-wa/",
+        "/service-areas/everett-wa/fire-damage-restoration/",
+        "/service-areas/everett-wa/mold-remediation/",
+        "/service-areas/auburn-wa/unattended-death-cleanup/",
+        "/service-areas/bellevue-wa/unattended-death-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/everett-wa/hoarding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Hoarding Cleanup in Everett, WA | National Restoration Construction",
+      "h1": "Hoarding Cleanup in Everett",
+      "meta_description": "24/7 hoarding cleanup in Everett, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "hoarding cleanup everett",
+      "secondary_keywords": [
+        "hoarder cleanup",
+        "hoarding cleaning services",
+        "hoarding remediation",
+        "hoarder home cleaning",
+        "gross filth cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/hoarding-cleanup/",
+        "/service-areas/everett-wa/",
+        "/service-areas/everett-wa/fire-damage-restoration/",
+        "/service-areas/everett-wa/mold-remediation/",
+        "/service-areas/auburn-wa/hoarding-cleanup/",
+        "/service-areas/bellevue-wa/hoarding-cleanup/",
         "/contact/"
       ]
     },
@@ -6599,16 +7743,16 @@
         "area",
         "service"
       ],
-      "title": "Biohazard and Trauma Cleanup in Kent, WA | National Restoration Construction",
-      "h1": "Biohazard and Trauma Cleanup in Kent",
-      "meta_description": "24/7 biohazard and trauma cleanup in Kent, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
-      "primary_keyword": "biohazard and trauma cleanup kent",
+      "title": "Biohazard Cleanup in Kent, WA | National Restoration Construction",
+      "h1": "Biohazard Cleanup in Kent",
+      "meta_description": "24/7 biohazard cleanup in Kent, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "biohazard cleanup kent",
       "secondary_keywords": [
-        "trauma scene cleanup",
-        "unattended death cleanup",
+        "biohazard remediation",
         "blood cleanup",
         "bodily fluid cleanup",
-        "biohazard remediation"
+        "sharps and needle cleanup",
+        "infectious material cleanup"
       ],
       "search_intent": "local_sensitive",
       "target_word_count": 900,
@@ -6633,6 +7777,182 @@
         "/service-areas/kent-wa/mold-remediation/",
         "/service-areas/auburn-wa/biohazard-cleanup/",
         "/service-areas/bellevue-wa/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/kent-wa/trauma-scene-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Trauma Scene Cleanup in Kent, WA | National Restoration Construction",
+      "h1": "Trauma Scene Cleanup in Kent",
+      "meta_description": "24/7 trauma scene cleanup in Kent, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "trauma scene cleanup kent",
+      "secondary_keywords": [
+        "trauma cleanup services",
+        "trauma scene cleaning",
+        "accident scene cleanup",
+        "crime and trauma decontamination",
+        "emergency trauma cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/trauma-scene-cleanup/",
+        "/service-areas/kent-wa/",
+        "/service-areas/kent-wa/fire-damage-restoration/",
+        "/service-areas/kent-wa/mold-remediation/",
+        "/service-areas/auburn-wa/trauma-scene-cleanup/",
+        "/service-areas/bellevue-wa/trauma-scene-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/kent-wa/crime-scene-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crime Scene Cleanup in Kent, WA | National Restoration Construction",
+      "h1": "Crime Scene Cleanup in Kent",
+      "meta_description": "24/7 crime scene cleanup in Kent, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "crime scene cleanup kent",
+      "secondary_keywords": [
+        "crime scene cleaning",
+        "forensic cleanup",
+        "post-crime cleanup",
+        "homicide cleanup",
+        "suicide scene cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crime-scene-cleanup/",
+        "/service-areas/kent-wa/",
+        "/service-areas/kent-wa/fire-damage-restoration/",
+        "/service-areas/kent-wa/mold-remediation/",
+        "/service-areas/auburn-wa/crime-scene-cleanup/",
+        "/service-areas/bellevue-wa/crime-scene-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/kent-wa/unattended-death-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Unattended Death Cleanup in Kent, WA | National Restoration Construction",
+      "h1": "Unattended Death Cleanup in Kent",
+      "meta_description": "24/7 unattended death cleanup in Kent, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "unattended death cleanup kent",
+      "secondary_keywords": [
+        "decomposition cleanup",
+        "after death cleaning",
+        "deceased estate cleanup",
+        "odor removal after death",
+        "discreet death cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/unattended-death-cleanup/",
+        "/service-areas/kent-wa/",
+        "/service-areas/kent-wa/fire-damage-restoration/",
+        "/service-areas/kent-wa/mold-remediation/",
+        "/service-areas/auburn-wa/unattended-death-cleanup/",
+        "/service-areas/bellevue-wa/unattended-death-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/kent-wa/hoarding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Hoarding Cleanup in Kent, WA | National Restoration Construction",
+      "h1": "Hoarding Cleanup in Kent",
+      "meta_description": "24/7 hoarding cleanup in Kent, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "hoarding cleanup kent",
+      "secondary_keywords": [
+        "hoarder cleanup",
+        "hoarding cleaning services",
+        "hoarding remediation",
+        "hoarder home cleaning",
+        "gross filth cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/hoarding-cleanup/",
+        "/service-areas/kent-wa/",
+        "/service-areas/kent-wa/fire-damage-restoration/",
+        "/service-areas/kent-wa/mold-remediation/",
+        "/service-areas/auburn-wa/hoarding-cleanup/",
+        "/service-areas/bellevue-wa/hoarding-cleanup/",
         "/contact/"
       ]
     },
@@ -7392,16 +8712,16 @@
         "area",
         "service"
       ],
-      "title": "Biohazard and Trauma Cleanup in Renton, WA | National Restoration Construction",
-      "h1": "Biohazard and Trauma Cleanup in Renton",
-      "meta_description": "24/7 biohazard and trauma cleanup in Renton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
-      "primary_keyword": "biohazard and trauma cleanup renton",
+      "title": "Biohazard Cleanup in Renton, WA | National Restoration Construction",
+      "h1": "Biohazard Cleanup in Renton",
+      "meta_description": "24/7 biohazard cleanup in Renton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "biohazard cleanup renton",
       "secondary_keywords": [
-        "trauma scene cleanup",
-        "unattended death cleanup",
+        "biohazard remediation",
         "blood cleanup",
         "bodily fluid cleanup",
-        "biohazard remediation"
+        "sharps and needle cleanup",
+        "infectious material cleanup"
       ],
       "search_intent": "local_sensitive",
       "target_word_count": 900,
@@ -7426,6 +8746,182 @@
         "/service-areas/renton-wa/mold-remediation/",
         "/service-areas/auburn-wa/biohazard-cleanup/",
         "/service-areas/bellevue-wa/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/renton-wa/trauma-scene-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Trauma Scene Cleanup in Renton, WA | National Restoration Construction",
+      "h1": "Trauma Scene Cleanup in Renton",
+      "meta_description": "24/7 trauma scene cleanup in Renton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "trauma scene cleanup renton",
+      "secondary_keywords": [
+        "trauma cleanup services",
+        "trauma scene cleaning",
+        "accident scene cleanup",
+        "crime and trauma decontamination",
+        "emergency trauma cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/trauma-scene-cleanup/",
+        "/service-areas/renton-wa/",
+        "/service-areas/renton-wa/fire-damage-restoration/",
+        "/service-areas/renton-wa/mold-remediation/",
+        "/service-areas/auburn-wa/trauma-scene-cleanup/",
+        "/service-areas/bellevue-wa/trauma-scene-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/renton-wa/crime-scene-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crime Scene Cleanup in Renton, WA | National Restoration Construction",
+      "h1": "Crime Scene Cleanup in Renton",
+      "meta_description": "24/7 crime scene cleanup in Renton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "crime scene cleanup renton",
+      "secondary_keywords": [
+        "crime scene cleaning",
+        "forensic cleanup",
+        "post-crime cleanup",
+        "homicide cleanup",
+        "suicide scene cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crime-scene-cleanup/",
+        "/service-areas/renton-wa/",
+        "/service-areas/renton-wa/fire-damage-restoration/",
+        "/service-areas/renton-wa/mold-remediation/",
+        "/service-areas/auburn-wa/crime-scene-cleanup/",
+        "/service-areas/bellevue-wa/crime-scene-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/renton-wa/unattended-death-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Unattended Death Cleanup in Renton, WA | National Restoration Construction",
+      "h1": "Unattended Death Cleanup in Renton",
+      "meta_description": "24/7 unattended death cleanup in Renton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "unattended death cleanup renton",
+      "secondary_keywords": [
+        "decomposition cleanup",
+        "after death cleaning",
+        "deceased estate cleanup",
+        "odor removal after death",
+        "discreet death cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/unattended-death-cleanup/",
+        "/service-areas/renton-wa/",
+        "/service-areas/renton-wa/fire-damage-restoration/",
+        "/service-areas/renton-wa/mold-remediation/",
+        "/service-areas/auburn-wa/unattended-death-cleanup/",
+        "/service-areas/bellevue-wa/unattended-death-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/renton-wa/hoarding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Hoarding Cleanup in Renton, WA | National Restoration Construction",
+      "h1": "Hoarding Cleanup in Renton",
+      "meta_description": "24/7 hoarding cleanup in Renton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "hoarding cleanup renton",
+      "secondary_keywords": [
+        "hoarder cleanup",
+        "hoarding cleaning services",
+        "hoarding remediation",
+        "hoarder home cleaning",
+        "gross filth cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/hoarding-cleanup/",
+        "/service-areas/renton-wa/",
+        "/service-areas/renton-wa/fire-damage-restoration/",
+        "/service-areas/renton-wa/mold-remediation/",
+        "/service-areas/auburn-wa/hoarding-cleanup/",
+        "/service-areas/bellevue-wa/hoarding-cleanup/",
         "/contact/"
       ]
     },
@@ -8185,16 +9681,16 @@
         "area",
         "service"
       ],
-      "title": "Biohazard and Trauma Cleanup in Auburn, WA | National Restoration Construction",
-      "h1": "Biohazard and Trauma Cleanup in Auburn",
-      "meta_description": "24/7 biohazard and trauma cleanup in Auburn, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
-      "primary_keyword": "biohazard and trauma cleanup auburn",
+      "title": "Biohazard Cleanup in Auburn, WA | National Restoration Construction",
+      "h1": "Biohazard Cleanup in Auburn",
+      "meta_description": "24/7 biohazard cleanup in Auburn, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "biohazard cleanup auburn",
       "secondary_keywords": [
-        "trauma scene cleanup",
-        "unattended death cleanup",
+        "biohazard remediation",
         "blood cleanup",
         "bodily fluid cleanup",
-        "biohazard remediation"
+        "sharps and needle cleanup",
+        "infectious material cleanup"
       ],
       "search_intent": "local_sensitive",
       "target_word_count": 900,
@@ -8219,6 +9715,182 @@
         "/service-areas/auburn-wa/mold-remediation/",
         "/service-areas/bellevue-wa/biohazard-cleanup/",
         "/service-areas/bremerton-wa/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/auburn-wa/trauma-scene-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Trauma Scene Cleanup in Auburn, WA | National Restoration Construction",
+      "h1": "Trauma Scene Cleanup in Auburn",
+      "meta_description": "24/7 trauma scene cleanup in Auburn, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "trauma scene cleanup auburn",
+      "secondary_keywords": [
+        "trauma cleanup services",
+        "trauma scene cleaning",
+        "accident scene cleanup",
+        "crime and trauma decontamination",
+        "emergency trauma cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/trauma-scene-cleanup/",
+        "/service-areas/auburn-wa/",
+        "/service-areas/auburn-wa/fire-damage-restoration/",
+        "/service-areas/auburn-wa/mold-remediation/",
+        "/service-areas/bellevue-wa/trauma-scene-cleanup/",
+        "/service-areas/bremerton-wa/trauma-scene-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/auburn-wa/crime-scene-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crime Scene Cleanup in Auburn, WA | National Restoration Construction",
+      "h1": "Crime Scene Cleanup in Auburn",
+      "meta_description": "24/7 crime scene cleanup in Auburn, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "crime scene cleanup auburn",
+      "secondary_keywords": [
+        "crime scene cleaning",
+        "forensic cleanup",
+        "post-crime cleanup",
+        "homicide cleanup",
+        "suicide scene cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crime-scene-cleanup/",
+        "/service-areas/auburn-wa/",
+        "/service-areas/auburn-wa/fire-damage-restoration/",
+        "/service-areas/auburn-wa/mold-remediation/",
+        "/service-areas/bellevue-wa/crime-scene-cleanup/",
+        "/service-areas/bremerton-wa/crime-scene-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/auburn-wa/unattended-death-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Unattended Death Cleanup in Auburn, WA | National Restoration Construction",
+      "h1": "Unattended Death Cleanup in Auburn",
+      "meta_description": "24/7 unattended death cleanup in Auburn, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "unattended death cleanup auburn",
+      "secondary_keywords": [
+        "decomposition cleanup",
+        "after death cleaning",
+        "deceased estate cleanup",
+        "odor removal after death",
+        "discreet death cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/unattended-death-cleanup/",
+        "/service-areas/auburn-wa/",
+        "/service-areas/auburn-wa/fire-damage-restoration/",
+        "/service-areas/auburn-wa/mold-remediation/",
+        "/service-areas/bellevue-wa/unattended-death-cleanup/",
+        "/service-areas/bremerton-wa/unattended-death-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/auburn-wa/hoarding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Hoarding Cleanup in Auburn, WA | National Restoration Construction",
+      "h1": "Hoarding Cleanup in Auburn",
+      "meta_description": "24/7 hoarding cleanup in Auburn, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "hoarding cleanup auburn",
+      "secondary_keywords": [
+        "hoarder cleanup",
+        "hoarding cleaning services",
+        "hoarding remediation",
+        "hoarder home cleaning",
+        "gross filth cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/hoarding-cleanup/",
+        "/service-areas/auburn-wa/",
+        "/service-areas/auburn-wa/fire-damage-restoration/",
+        "/service-areas/auburn-wa/mold-remediation/",
+        "/service-areas/bellevue-wa/hoarding-cleanup/",
+        "/service-areas/bremerton-wa/hoarding-cleanup/",
         "/contact/"
       ]
     },
@@ -8978,16 +10650,16 @@
         "area",
         "service"
       ],
-      "title": "Biohazard and Trauma Cleanup in Kirkland, WA | National Restoration Construction",
-      "h1": "Biohazard and Trauma Cleanup in Kirkland",
-      "meta_description": "24/7 biohazard and trauma cleanup in Kirkland, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
-      "primary_keyword": "biohazard and trauma cleanup kirkland",
+      "title": "Biohazard Cleanup in Kirkland, WA | National Restoration Construction",
+      "h1": "Biohazard Cleanup in Kirkland",
+      "meta_description": "24/7 biohazard cleanup in Kirkland, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "biohazard cleanup kirkland",
       "secondary_keywords": [
-        "trauma scene cleanup",
-        "unattended death cleanup",
+        "biohazard remediation",
         "blood cleanup",
         "bodily fluid cleanup",
-        "biohazard remediation"
+        "sharps and needle cleanup",
+        "infectious material cleanup"
       ],
       "search_intent": "local_sensitive",
       "target_word_count": 900,
@@ -9012,6 +10684,182 @@
         "/service-areas/kirkland-wa/mold-remediation/",
         "/service-areas/auburn-wa/biohazard-cleanup/",
         "/service-areas/bellevue-wa/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/kirkland-wa/trauma-scene-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Trauma Scene Cleanup in Kirkland, WA | National Restoration Construction",
+      "h1": "Trauma Scene Cleanup in Kirkland",
+      "meta_description": "24/7 trauma scene cleanup in Kirkland, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "trauma scene cleanup kirkland",
+      "secondary_keywords": [
+        "trauma cleanup services",
+        "trauma scene cleaning",
+        "accident scene cleanup",
+        "crime and trauma decontamination",
+        "emergency trauma cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/trauma-scene-cleanup/",
+        "/service-areas/kirkland-wa/",
+        "/service-areas/kirkland-wa/fire-damage-restoration/",
+        "/service-areas/kirkland-wa/mold-remediation/",
+        "/service-areas/auburn-wa/trauma-scene-cleanup/",
+        "/service-areas/bellevue-wa/trauma-scene-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/kirkland-wa/crime-scene-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crime Scene Cleanup in Kirkland, WA | National Restoration Construction",
+      "h1": "Crime Scene Cleanup in Kirkland",
+      "meta_description": "24/7 crime scene cleanup in Kirkland, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "crime scene cleanup kirkland",
+      "secondary_keywords": [
+        "crime scene cleaning",
+        "forensic cleanup",
+        "post-crime cleanup",
+        "homicide cleanup",
+        "suicide scene cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crime-scene-cleanup/",
+        "/service-areas/kirkland-wa/",
+        "/service-areas/kirkland-wa/fire-damage-restoration/",
+        "/service-areas/kirkland-wa/mold-remediation/",
+        "/service-areas/auburn-wa/crime-scene-cleanup/",
+        "/service-areas/bellevue-wa/crime-scene-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/kirkland-wa/unattended-death-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Unattended Death Cleanup in Kirkland, WA | National Restoration Construction",
+      "h1": "Unattended Death Cleanup in Kirkland",
+      "meta_description": "24/7 unattended death cleanup in Kirkland, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "unattended death cleanup kirkland",
+      "secondary_keywords": [
+        "decomposition cleanup",
+        "after death cleaning",
+        "deceased estate cleanup",
+        "odor removal after death",
+        "discreet death cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/unattended-death-cleanup/",
+        "/service-areas/kirkland-wa/",
+        "/service-areas/kirkland-wa/fire-damage-restoration/",
+        "/service-areas/kirkland-wa/mold-remediation/",
+        "/service-areas/auburn-wa/unattended-death-cleanup/",
+        "/service-areas/bellevue-wa/unattended-death-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/kirkland-wa/hoarding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Hoarding Cleanup in Kirkland, WA | National Restoration Construction",
+      "h1": "Hoarding Cleanup in Kirkland",
+      "meta_description": "24/7 hoarding cleanup in Kirkland, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "hoarding cleanup kirkland",
+      "secondary_keywords": [
+        "hoarder cleanup",
+        "hoarding cleaning services",
+        "hoarding remediation",
+        "hoarder home cleaning",
+        "gross filth cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/hoarding-cleanup/",
+        "/service-areas/kirkland-wa/",
+        "/service-areas/kirkland-wa/fire-damage-restoration/",
+        "/service-areas/kirkland-wa/mold-remediation/",
+        "/service-areas/auburn-wa/hoarding-cleanup/",
+        "/service-areas/bellevue-wa/hoarding-cleanup/",
         "/contact/"
       ]
     },
@@ -9771,16 +11619,16 @@
         "area",
         "service"
       ],
-      "title": "Biohazard and Trauma Cleanup in Redmond, WA | National Restoration Construction",
-      "h1": "Biohazard and Trauma Cleanup in Redmond",
-      "meta_description": "24/7 biohazard and trauma cleanup in Redmond, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
-      "primary_keyword": "biohazard and trauma cleanup redmond",
+      "title": "Biohazard Cleanup in Redmond, WA | National Restoration Construction",
+      "h1": "Biohazard Cleanup in Redmond",
+      "meta_description": "24/7 biohazard cleanup in Redmond, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "biohazard cleanup redmond",
       "secondary_keywords": [
-        "trauma scene cleanup",
-        "unattended death cleanup",
+        "biohazard remediation",
         "blood cleanup",
         "bodily fluid cleanup",
-        "biohazard remediation"
+        "sharps and needle cleanup",
+        "infectious material cleanup"
       ],
       "search_intent": "local_sensitive",
       "target_word_count": 900,
@@ -9805,6 +11653,182 @@
         "/service-areas/redmond-wa/mold-remediation/",
         "/service-areas/auburn-wa/biohazard-cleanup/",
         "/service-areas/bellevue-wa/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/redmond-wa/trauma-scene-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Trauma Scene Cleanup in Redmond, WA | National Restoration Construction",
+      "h1": "Trauma Scene Cleanup in Redmond",
+      "meta_description": "24/7 trauma scene cleanup in Redmond, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "trauma scene cleanup redmond",
+      "secondary_keywords": [
+        "trauma cleanup services",
+        "trauma scene cleaning",
+        "accident scene cleanup",
+        "crime and trauma decontamination",
+        "emergency trauma cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/trauma-scene-cleanup/",
+        "/service-areas/redmond-wa/",
+        "/service-areas/redmond-wa/fire-damage-restoration/",
+        "/service-areas/redmond-wa/mold-remediation/",
+        "/service-areas/auburn-wa/trauma-scene-cleanup/",
+        "/service-areas/bellevue-wa/trauma-scene-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/redmond-wa/crime-scene-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crime Scene Cleanup in Redmond, WA | National Restoration Construction",
+      "h1": "Crime Scene Cleanup in Redmond",
+      "meta_description": "24/7 crime scene cleanup in Redmond, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "crime scene cleanup redmond",
+      "secondary_keywords": [
+        "crime scene cleaning",
+        "forensic cleanup",
+        "post-crime cleanup",
+        "homicide cleanup",
+        "suicide scene cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crime-scene-cleanup/",
+        "/service-areas/redmond-wa/",
+        "/service-areas/redmond-wa/fire-damage-restoration/",
+        "/service-areas/redmond-wa/mold-remediation/",
+        "/service-areas/auburn-wa/crime-scene-cleanup/",
+        "/service-areas/bellevue-wa/crime-scene-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/redmond-wa/unattended-death-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Unattended Death Cleanup in Redmond, WA | National Restoration Construction",
+      "h1": "Unattended Death Cleanup in Redmond",
+      "meta_description": "24/7 unattended death cleanup in Redmond, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "unattended death cleanup redmond",
+      "secondary_keywords": [
+        "decomposition cleanup",
+        "after death cleaning",
+        "deceased estate cleanup",
+        "odor removal after death",
+        "discreet death cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/unattended-death-cleanup/",
+        "/service-areas/redmond-wa/",
+        "/service-areas/redmond-wa/fire-damage-restoration/",
+        "/service-areas/redmond-wa/mold-remediation/",
+        "/service-areas/auburn-wa/unattended-death-cleanup/",
+        "/service-areas/bellevue-wa/unattended-death-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/redmond-wa/hoarding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Hoarding Cleanup in Redmond, WA | National Restoration Construction",
+      "h1": "Hoarding Cleanup in Redmond",
+      "meta_description": "24/7 hoarding cleanup in Redmond, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "hoarding cleanup redmond",
+      "secondary_keywords": [
+        "hoarder cleanup",
+        "hoarding cleaning services",
+        "hoarding remediation",
+        "hoarder home cleaning",
+        "gross filth cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/hoarding-cleanup/",
+        "/service-areas/redmond-wa/",
+        "/service-areas/redmond-wa/fire-damage-restoration/",
+        "/service-areas/redmond-wa/mold-remediation/",
+        "/service-areas/auburn-wa/hoarding-cleanup/",
+        "/service-areas/bellevue-wa/hoarding-cleanup/",
         "/contact/"
       ]
     },
@@ -10564,16 +12588,16 @@
         "area",
         "service"
       ],
-      "title": "Biohazard and Trauma Cleanup in Gig Harbor, WA | National Restoration Construction",
-      "h1": "Biohazard and Trauma Cleanup in Gig Harbor",
-      "meta_description": "24/7 biohazard and trauma cleanup in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
-      "primary_keyword": "biohazard and trauma cleanup gig harbor",
+      "title": "Biohazard Cleanup in Gig Harbor, WA | National Restoration Construction",
+      "h1": "Biohazard Cleanup in Gig Harbor",
+      "meta_description": "24/7 biohazard cleanup in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "biohazard cleanup gig harbor",
       "secondary_keywords": [
-        "trauma scene cleanup",
-        "unattended death cleanup",
+        "biohazard remediation",
         "blood cleanup",
         "bodily fluid cleanup",
-        "biohazard remediation"
+        "sharps and needle cleanup",
+        "infectious material cleanup"
       ],
       "search_intent": "local_sensitive",
       "target_word_count": 900,
@@ -10598,6 +12622,182 @@
         "/service-areas/gig-harbor-wa/mold-remediation/",
         "/service-areas/auburn-wa/biohazard-cleanup/",
         "/service-areas/bellevue-wa/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/gig-harbor-wa/trauma-scene-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Trauma Scene Cleanup in Gig Harbor, WA | National Restoration Construction",
+      "h1": "Trauma Scene Cleanup in Gig Harbor",
+      "meta_description": "24/7 trauma scene cleanup in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "trauma scene cleanup gig harbor",
+      "secondary_keywords": [
+        "trauma cleanup services",
+        "trauma scene cleaning",
+        "accident scene cleanup",
+        "crime and trauma decontamination",
+        "emergency trauma cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/trauma-scene-cleanup/",
+        "/service-areas/gig-harbor-wa/",
+        "/service-areas/gig-harbor-wa/fire-damage-restoration/",
+        "/service-areas/gig-harbor-wa/mold-remediation/",
+        "/service-areas/auburn-wa/trauma-scene-cleanup/",
+        "/service-areas/bellevue-wa/trauma-scene-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/gig-harbor-wa/crime-scene-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crime Scene Cleanup in Gig Harbor, WA | National Restoration Construction",
+      "h1": "Crime Scene Cleanup in Gig Harbor",
+      "meta_description": "24/7 crime scene cleanup in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "crime scene cleanup gig harbor",
+      "secondary_keywords": [
+        "crime scene cleaning",
+        "forensic cleanup",
+        "post-crime cleanup",
+        "homicide cleanup",
+        "suicide scene cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crime-scene-cleanup/",
+        "/service-areas/gig-harbor-wa/",
+        "/service-areas/gig-harbor-wa/fire-damage-restoration/",
+        "/service-areas/gig-harbor-wa/mold-remediation/",
+        "/service-areas/auburn-wa/crime-scene-cleanup/",
+        "/service-areas/bellevue-wa/crime-scene-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/gig-harbor-wa/unattended-death-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Unattended Death Cleanup in Gig Harbor, WA | National Restoration Construction",
+      "h1": "Unattended Death Cleanup in Gig Harbor",
+      "meta_description": "24/7 unattended death cleanup in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "unattended death cleanup gig harbor",
+      "secondary_keywords": [
+        "decomposition cleanup",
+        "after death cleaning",
+        "deceased estate cleanup",
+        "odor removal after death",
+        "discreet death cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/unattended-death-cleanup/",
+        "/service-areas/gig-harbor-wa/",
+        "/service-areas/gig-harbor-wa/fire-damage-restoration/",
+        "/service-areas/gig-harbor-wa/mold-remediation/",
+        "/service-areas/auburn-wa/unattended-death-cleanup/",
+        "/service-areas/bellevue-wa/unattended-death-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/gig-harbor-wa/hoarding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Hoarding Cleanup in Gig Harbor, WA | National Restoration Construction",
+      "h1": "Hoarding Cleanup in Gig Harbor",
+      "meta_description": "24/7 hoarding cleanup in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "hoarding cleanup gig harbor",
+      "secondary_keywords": [
+        "hoarder cleanup",
+        "hoarding cleaning services",
+        "hoarding remediation",
+        "hoarder home cleaning",
+        "gross filth cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/hoarding-cleanup/",
+        "/service-areas/gig-harbor-wa/",
+        "/service-areas/gig-harbor-wa/fire-damage-restoration/",
+        "/service-areas/gig-harbor-wa/mold-remediation/",
+        "/service-areas/auburn-wa/hoarding-cleanup/",
+        "/service-areas/bellevue-wa/hoarding-cleanup/",
         "/contact/"
       ]
     },
@@ -11357,16 +13557,16 @@
         "area",
         "service"
       ],
-      "title": "Biohazard and Trauma Cleanup in Bremerton, WA | National Restoration Construction",
-      "h1": "Biohazard and Trauma Cleanup in Bremerton",
-      "meta_description": "24/7 biohazard and trauma cleanup in Bremerton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
-      "primary_keyword": "biohazard and trauma cleanup bremerton",
+      "title": "Biohazard Cleanup in Bremerton, WA | National Restoration Construction",
+      "h1": "Biohazard Cleanup in Bremerton",
+      "meta_description": "24/7 biohazard cleanup in Bremerton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "biohazard cleanup bremerton",
       "secondary_keywords": [
-        "trauma scene cleanup",
-        "unattended death cleanup",
+        "biohazard remediation",
         "blood cleanup",
         "bodily fluid cleanup",
-        "biohazard remediation"
+        "sharps and needle cleanup",
+        "infectious material cleanup"
       ],
       "search_intent": "local_sensitive",
       "target_word_count": 900,
@@ -11391,6 +13591,182 @@
         "/service-areas/bremerton-wa/mold-remediation/",
         "/service-areas/auburn-wa/biohazard-cleanup/",
         "/service-areas/bellevue-wa/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bremerton-wa/trauma-scene-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Trauma Scene Cleanup in Bremerton, WA | National Restoration Construction",
+      "h1": "Trauma Scene Cleanup in Bremerton",
+      "meta_description": "24/7 trauma scene cleanup in Bremerton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "trauma scene cleanup bremerton",
+      "secondary_keywords": [
+        "trauma cleanup services",
+        "trauma scene cleaning",
+        "accident scene cleanup",
+        "crime and trauma decontamination",
+        "emergency trauma cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/trauma-scene-cleanup/",
+        "/service-areas/bremerton-wa/",
+        "/service-areas/bremerton-wa/fire-damage-restoration/",
+        "/service-areas/bremerton-wa/mold-remediation/",
+        "/service-areas/auburn-wa/trauma-scene-cleanup/",
+        "/service-areas/bellevue-wa/trauma-scene-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bremerton-wa/crime-scene-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crime Scene Cleanup in Bremerton, WA | National Restoration Construction",
+      "h1": "Crime Scene Cleanup in Bremerton",
+      "meta_description": "24/7 crime scene cleanup in Bremerton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "crime scene cleanup bremerton",
+      "secondary_keywords": [
+        "crime scene cleaning",
+        "forensic cleanup",
+        "post-crime cleanup",
+        "homicide cleanup",
+        "suicide scene cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crime-scene-cleanup/",
+        "/service-areas/bremerton-wa/",
+        "/service-areas/bremerton-wa/fire-damage-restoration/",
+        "/service-areas/bremerton-wa/mold-remediation/",
+        "/service-areas/auburn-wa/crime-scene-cleanup/",
+        "/service-areas/bellevue-wa/crime-scene-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bremerton-wa/unattended-death-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Unattended Death Cleanup in Bremerton, WA | National Restoration Construction",
+      "h1": "Unattended Death Cleanup in Bremerton",
+      "meta_description": "24/7 unattended death cleanup in Bremerton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "unattended death cleanup bremerton",
+      "secondary_keywords": [
+        "decomposition cleanup",
+        "after death cleaning",
+        "deceased estate cleanup",
+        "odor removal after death",
+        "discreet death cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/unattended-death-cleanup/",
+        "/service-areas/bremerton-wa/",
+        "/service-areas/bremerton-wa/fire-damage-restoration/",
+        "/service-areas/bremerton-wa/mold-remediation/",
+        "/service-areas/auburn-wa/unattended-death-cleanup/",
+        "/service-areas/bellevue-wa/unattended-death-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bremerton-wa/hoarding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Hoarding Cleanup in Bremerton, WA | National Restoration Construction",
+      "h1": "Hoarding Cleanup in Bremerton",
+      "meta_description": "24/7 hoarding cleanup in Bremerton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "hoarding cleanup bremerton",
+      "secondary_keywords": [
+        "hoarder cleanup",
+        "hoarding cleaning services",
+        "hoarding remediation",
+        "hoarder home cleaning",
+        "gross filth cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/hoarding-cleanup/",
+        "/service-areas/bremerton-wa/",
+        "/service-areas/bremerton-wa/fire-damage-restoration/",
+        "/service-areas/bremerton-wa/mold-remediation/",
+        "/service-areas/auburn-wa/hoarding-cleanup/",
+        "/service-areas/bellevue-wa/hoarding-cleanup/",
         "/contact/"
       ]
     },
@@ -12150,16 +14526,16 @@
         "area",
         "service"
       ],
-      "title": "Biohazard and Trauma Cleanup in Port Orchard, WA | National Restoration Construction",
-      "h1": "Biohazard and Trauma Cleanup in Port Orchard",
-      "meta_description": "24/7 biohazard and trauma cleanup in Port Orchard, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
-      "primary_keyword": "biohazard and trauma cleanup port orchard",
+      "title": "Biohazard Cleanup in Port Orchard, WA | National Restoration Construction",
+      "h1": "Biohazard Cleanup in Port Orchard",
+      "meta_description": "24/7 biohazard cleanup in Port Orchard, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "biohazard cleanup port orchard",
       "secondary_keywords": [
-        "trauma scene cleanup",
-        "unattended death cleanup",
+        "biohazard remediation",
         "blood cleanup",
         "bodily fluid cleanup",
-        "biohazard remediation"
+        "sharps and needle cleanup",
+        "infectious material cleanup"
       ],
       "search_intent": "local_sensitive",
       "target_word_count": 900,
@@ -12184,6 +14560,182 @@
         "/service-areas/port-orchard-wa/mold-remediation/",
         "/service-areas/auburn-wa/biohazard-cleanup/",
         "/service-areas/bellevue-wa/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/port-orchard-wa/trauma-scene-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Trauma Scene Cleanup in Port Orchard, WA | National Restoration Construction",
+      "h1": "Trauma Scene Cleanup in Port Orchard",
+      "meta_description": "24/7 trauma scene cleanup in Port Orchard, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "trauma scene cleanup port orchard",
+      "secondary_keywords": [
+        "trauma cleanup services",
+        "trauma scene cleaning",
+        "accident scene cleanup",
+        "crime and trauma decontamination",
+        "emergency trauma cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/trauma-scene-cleanup/",
+        "/service-areas/port-orchard-wa/",
+        "/service-areas/port-orchard-wa/fire-damage-restoration/",
+        "/service-areas/port-orchard-wa/mold-remediation/",
+        "/service-areas/auburn-wa/trauma-scene-cleanup/",
+        "/service-areas/bellevue-wa/trauma-scene-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/port-orchard-wa/crime-scene-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crime Scene Cleanup in Port Orchard, WA | National Restoration Construction",
+      "h1": "Crime Scene Cleanup in Port Orchard",
+      "meta_description": "24/7 crime scene cleanup in Port Orchard, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "crime scene cleanup port orchard",
+      "secondary_keywords": [
+        "crime scene cleaning",
+        "forensic cleanup",
+        "post-crime cleanup",
+        "homicide cleanup",
+        "suicide scene cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crime-scene-cleanup/",
+        "/service-areas/port-orchard-wa/",
+        "/service-areas/port-orchard-wa/fire-damage-restoration/",
+        "/service-areas/port-orchard-wa/mold-remediation/",
+        "/service-areas/auburn-wa/crime-scene-cleanup/",
+        "/service-areas/bellevue-wa/crime-scene-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/port-orchard-wa/unattended-death-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Unattended Death Cleanup in Port Orchard, WA | National Restoration Construction",
+      "h1": "Unattended Death Cleanup in Port Orchard",
+      "meta_description": "24/7 unattended death cleanup in Port Orchard, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "unattended death cleanup port orchard",
+      "secondary_keywords": [
+        "decomposition cleanup",
+        "after death cleaning",
+        "deceased estate cleanup",
+        "odor removal after death",
+        "discreet death cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/unattended-death-cleanup/",
+        "/service-areas/port-orchard-wa/",
+        "/service-areas/port-orchard-wa/fire-damage-restoration/",
+        "/service-areas/port-orchard-wa/mold-remediation/",
+        "/service-areas/auburn-wa/unattended-death-cleanup/",
+        "/service-areas/bellevue-wa/unattended-death-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/port-orchard-wa/hoarding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Hoarding Cleanup in Port Orchard, WA | National Restoration Construction",
+      "h1": "Hoarding Cleanup in Port Orchard",
+      "meta_description": "24/7 hoarding cleanup in Port Orchard, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "hoarding cleanup port orchard",
+      "secondary_keywords": [
+        "hoarder cleanup",
+        "hoarding cleaning services",
+        "hoarding remediation",
+        "hoarder home cleaning",
+        "gross filth cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/hoarding-cleanup/",
+        "/service-areas/port-orchard-wa/",
+        "/service-areas/port-orchard-wa/fire-damage-restoration/",
+        "/service-areas/port-orchard-wa/mold-remediation/",
+        "/service-areas/auburn-wa/hoarding-cleanup/",
+        "/service-areas/bellevue-wa/hoarding-cleanup/",
         "/contact/"
       ]
     },
@@ -12943,16 +15495,16 @@
         "area",
         "service"
       ],
-      "title": "Biohazard and Trauma Cleanup in University Place, WA | National Restoration Construction",
-      "h1": "Biohazard and Trauma Cleanup in University Place",
-      "meta_description": "24/7 biohazard and trauma cleanup in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
-      "primary_keyword": "biohazard and trauma cleanup university place",
+      "title": "Biohazard Cleanup in University Place, WA | National Restoration Construction",
+      "h1": "Biohazard Cleanup in University Place",
+      "meta_description": "24/7 biohazard cleanup in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "biohazard cleanup university place",
       "secondary_keywords": [
-        "trauma scene cleanup",
-        "unattended death cleanup",
+        "biohazard remediation",
         "blood cleanup",
         "bodily fluid cleanup",
-        "biohazard remediation"
+        "sharps and needle cleanup",
+        "infectious material cleanup"
       ],
       "search_intent": "local_sensitive",
       "target_word_count": 900,
@@ -12977,6 +15529,182 @@
         "/service-areas/university-place-wa/mold-remediation/",
         "/service-areas/auburn-wa/biohazard-cleanup/",
         "/service-areas/bellevue-wa/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/university-place-wa/trauma-scene-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Trauma Scene Cleanup in University Place, WA | National Restoration Construction",
+      "h1": "Trauma Scene Cleanup in University Place",
+      "meta_description": "24/7 trauma scene cleanup in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "trauma scene cleanup university place",
+      "secondary_keywords": [
+        "trauma cleanup services",
+        "trauma scene cleaning",
+        "accident scene cleanup",
+        "crime and trauma decontamination",
+        "emergency trauma cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/trauma-scene-cleanup/",
+        "/service-areas/university-place-wa/",
+        "/service-areas/university-place-wa/fire-damage-restoration/",
+        "/service-areas/university-place-wa/mold-remediation/",
+        "/service-areas/auburn-wa/trauma-scene-cleanup/",
+        "/service-areas/bellevue-wa/trauma-scene-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/university-place-wa/crime-scene-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crime Scene Cleanup in University Place, WA | National Restoration Construction",
+      "h1": "Crime Scene Cleanup in University Place",
+      "meta_description": "24/7 crime scene cleanup in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "crime scene cleanup university place",
+      "secondary_keywords": [
+        "crime scene cleaning",
+        "forensic cleanup",
+        "post-crime cleanup",
+        "homicide cleanup",
+        "suicide scene cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crime-scene-cleanup/",
+        "/service-areas/university-place-wa/",
+        "/service-areas/university-place-wa/fire-damage-restoration/",
+        "/service-areas/university-place-wa/mold-remediation/",
+        "/service-areas/auburn-wa/crime-scene-cleanup/",
+        "/service-areas/bellevue-wa/crime-scene-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/university-place-wa/unattended-death-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Unattended Death Cleanup in University Place, WA | National Restoration Construction",
+      "h1": "Unattended Death Cleanup in University Place",
+      "meta_description": "24/7 unattended death cleanup in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "unattended death cleanup university place",
+      "secondary_keywords": [
+        "decomposition cleanup",
+        "after death cleaning",
+        "deceased estate cleanup",
+        "odor removal after death",
+        "discreet death cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/unattended-death-cleanup/",
+        "/service-areas/university-place-wa/",
+        "/service-areas/university-place-wa/fire-damage-restoration/",
+        "/service-areas/university-place-wa/mold-remediation/",
+        "/service-areas/auburn-wa/unattended-death-cleanup/",
+        "/service-areas/bellevue-wa/unattended-death-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/university-place-wa/hoarding-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Hoarding Cleanup in University Place, WA | National Restoration Construction",
+      "h1": "Hoarding Cleanup in University Place",
+      "meta_description": "24/7 hoarding cleanup in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "hoarding cleanup university place",
+      "secondary_keywords": [
+        "hoarder cleanup",
+        "hoarding cleaning services",
+        "hoarding remediation",
+        "hoarder home cleaning",
+        "gross filth cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/hoarding-cleanup/",
+        "/service-areas/university-place-wa/",
+        "/service-areas/university-place-wa/fire-damage-restoration/",
+        "/service-areas/university-place-wa/mold-remediation/",
+        "/service-areas/auburn-wa/hoarding-cleanup/",
+        "/service-areas/bellevue-wa/hoarding-cleanup/",
         "/contact/"
       ]
     },

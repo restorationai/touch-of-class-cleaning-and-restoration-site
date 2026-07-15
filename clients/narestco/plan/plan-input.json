@@ -22,6 +22,10 @@
     "mold-inspection-testing",
     "storm-damage-restoration",
     "biohazard-cleanup",
+    "trauma-scene-cleanup",
+    "crime-scene-cleanup",
+    "unattended-death-cleanup",
+    "hoarding-cleanup",
     "reconstruction",
     "general-contracting"
   ],

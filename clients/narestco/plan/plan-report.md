@@ -1,20 +1,20 @@
 # Site Plan Report — National Restoration Construction
 
-- Template: `restoration` v0.2.0
-- Generated: 2026-07-04T19:40:56.341456+00:00
+- Template: `restoration` v0.3.0
+- Generated: 2026-07-15T05:24:58.117362+00:00
 - Domain: `narestco.com`
-- Services selected: 18 of 45 catalog entries
+- Services selected: 22 of 48 catalog entries
 - Service areas: 14
 - Cross-product enabled: True
-- Total URLs: **305**
-- Total internal links: 2503 (avg 8.2 per page)
+- Total URLs: **365**
+- Total internal links: 3015 (avg 8.3 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 252 |
-| `service-landing` | 18 |
+| `service-area-service` | 308 |
+| `service-landing` | 22 |
 | `service-area` | 14 |
 | `blog-post` | 12 |
 | `legal` | 3 |
@@ -42,7 +42,11 @@
 - `mold-remediation` — Mold Remediation (core, priority 10)
 - `mold-inspection-testing` — Mold Inspection and Testing (core, priority 8)
 - `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
-- `biohazard-cleanup` — Biohazard and Trauma Cleanup (specialty, priority 8)
+- `biohazard-cleanup` — Biohazard Cleanup (specialty, priority 8)
+- `trauma-scene-cleanup` — Trauma Scene Cleanup (specialty, priority 7)
+- `crime-scene-cleanup` — Crime Scene Cleanup (specialty, priority 6)
+- `unattended-death-cleanup` — Unattended Death Cleanup (specialty, priority 6)
+- `hoarding-cleanup` — Hoarding Cleanup (specialty, priority 6)
 - `reconstruction` — Reconstruction Services (core, priority 9)
 - `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
 
