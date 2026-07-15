@@ -4,27 +4,83 @@
   "site": "flood-fixers.com",
   "live_origin": "https://flood-fixers.com",
   "live_origin_source": "apex",
-  "generated_at": "2026-07-06T18:31:21Z",
+  "generated_at": "2026-07-15T15:46:06Z",
   "audit_form_factor": "desktop",
-  "lighthouse_detail": "deferred — full_data not pulled. In this harness the MCP full_data response returns into the agent context rather than to a shell pipe, so it cannot be redirected to disk per the methodology's Bash approach; a 5-15MB payload per URL would exceed the context and per-run cost budget. Call full_data on-demand to enumerate specific failing audit IDs, priority the homepage accessibility diagnostics (score 86).",
+  "lighthouse_version": "13.4.0",
+  "lighthouse_detail": "captured \u2014 full Lighthouse report pulled per URL (on_page/lighthouse/live/json) and parsed to disk under /tmp/rank-ai-audit/raw. Top 5 failing audits per URL recorded. Lighthouse 13.4.0 emits insight-style audit IDs (cache-insight, image-delivery-insight, render-blocking-insight, lcp-discovery-insight, network-dependency-tree-insight) in place of the older opportunity IDs; these are the real audit IDs for this engine version.",
   "environment_caveats": [
-    "Lighthouse ran DESKTOP only (formFactor=desktop, cpuSlowdownMultiplier=1, throughputKbps=10240). The DataForSEO MCP wrapper does not expose form_factor/strategy. Mobile performance would typically score 10-20 points lower. Scores here are not mobile-first.",
-    "Per-URL lighthouse_issues arrays are empty because full_data detail was deferred (see lighthouse_detail). Headline category scores and Core Web Vitals are from the reduced Lighthouse response and are accurate.",
-    "TBT_ms and INP_ms are null: the reduced Lighthouse response does not include total-blocking-time or interaction-to-next-paint audits. Not invented.",
-    "Schema.org validation is not represented: the reduced on_page_instant_pages response does not return structured-data checks. Not asserted either way this run."
+    "The DataForSEO MCP wrapper did not register tools in this CI run; the audit was executed against the identical DataForSEO OnPage REST endpoints (on_page/lighthouse/live/json and on_page/instant_pages) using the DATAFORSEO_USERNAME/PASSWORD credentials. Same data source, same engine.",
+    "Lighthouse ran DESKTOP only (formFactor=desktop, cpuSlowdownMultiplier=1, throughputKbps=10240, verified in the report configSettings). Mobile performance would typically score 10-20 points lower. Scores here are not mobile-first.",
+    "Schema.org: DataForSEO instant_pages returned has_micromarkup=false on all 6 URLs, but manual HTML inspection confirmed valid JSON-LD on every page (Organization, WebSite, LocalBusiness, Service, FAQPage, BreadcrumbList as appropriate). The DataForSEO flag is a false negative for JS-rendered JSON-LD and was NOT treated as a missing-schema issue.",
+    "TBT_ms is 0 on all pages (desktop, no heavy JS). INP_ms is null: the lab Lighthouse run does not emit interaction-to-next-paint. Not invented.",
+    "Broken-link detection: on_page/instant_pages audits a single URL and does not crawl outbound links, so broken internal/external link checks could not be performed this run. Page-self status was 200 on all 6 URLs."
   ],
   "audited_urls": [
     {
       "url": "https://flood-fixers.com/",
       "archetype": "home",
-      "verdict": "amber",
+      "verdict": "green",
       "error_reason": null,
-      "scores": { "performance": 96, "accessibility": 86, "best_practices": 100, "seo": 100 },
-      "core_web_vitals": { "LCP_ms": 1451, "CLS": 0.011, "TBT_ms": null, "INP_ms": null },
-      "lighthouse_issues": [],
+      "scores": {
+        "performance": 97,
+        "accessibility": 93,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 1272,
+        "CLS": 0.012,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        }
+      ],
       "onpage_issues": [
-        { "id": "has_render_blocking_resources", "title": "Render-blocking resources present (1 script, 1 stylesheet)", "severity": "low" },
-        { "id": "meta_description_too_long", "title": "Meta description is 171 characters (exceeds 160)", "severity": "low" }
+        {
+          "id": "meta_description_too_long",
+          "title": "Meta description is 171 characters (exceeds 160)",
+          "severity": "low"
+        },
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Render-blocking resources present (1 script, 1 stylesheet)",
+          "severity": "low"
+        }
       ]
     },
     {
@@ -32,12 +88,66 @@
       "archetype": "services-hub",
       "verdict": "green",
       "error_reason": null,
-      "scores": { "performance": 95, "accessibility": 90, "best_practices": 100, "seo": 100 },
-      "core_web_vitals": { "LCP_ms": 1477, "CLS": 0.002, "TBT_ms": null, "INP_ms": null },
-      "lighthouse_issues": [],
+      "scores": {
+        "performance": 99,
+        "accessibility": 90,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 940,
+        "CLS": 0.002,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        }
+      ],
       "onpage_issues": [
-        { "id": "has_render_blocking_resources", "title": "Render-blocking resources present (1 script, 1 stylesheet)", "severity": "low" },
-        { "id": "content_below_target_word_count", "title": "Word count 750 is below the 800 archetype target", "severity": "low" }
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Render-blocking resources present (1 script, 1 stylesheet)",
+          "severity": "low"
+        },
+        {
+          "id": "content_below_target_word_count",
+          "title": "Word count 750 is below the 800 archetype target",
+          "severity": "low"
+        }
       ]
     },
     {
@@ -45,12 +155,66 @@
       "archetype": "service-landing",
       "verdict": "green",
       "error_reason": null,
-      "scores": { "performance": 100, "accessibility": 90, "best_practices": 100, "seo": 100 },
-      "core_web_vitals": { "LCP_ms": 802, "CLS": 0.003, "TBT_ms": null, "INP_ms": null },
-      "lighthouse_issues": [],
+      "scores": {
+        "performance": 100,
+        "accessibility": 90,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 787,
+        "CLS": 0.002,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        }
+      ],
       "onpage_issues": [
-        { "id": "has_render_blocking_resources", "title": "Render-blocking resources present (1 script, 1 stylesheet)", "severity": "low" },
-        { "id": "relative_og_image", "title": "og:image uses a relative URL (/services/water-damage-restoration.webp) instead of an absolute URL", "severity": "low" }
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Render-blocking resources present (1 script, 1 stylesheet)",
+          "severity": "low"
+        },
+        {
+          "id": "relative_og_image",
+          "title": "og:image uses a relative URL (/images/services/water-damage-restoration.webp) instead of an absolute URL",
+          "severity": "low"
+        }
       ]
     },
     {
@@ -58,12 +222,66 @@
       "archetype": "service-landing",
       "verdict": "green",
       "error_reason": null,
-      "scores": { "performance": 100, "accessibility": 90, "best_practices": 100, "seo": 100 },
-      "core_web_vitals": { "LCP_ms": 812, "CLS": 0.003, "TBT_ms": null, "INP_ms": null },
-      "lighthouse_issues": [],
+      "scores": {
+        "performance": 100,
+        "accessibility": 90,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 777,
+        "CLS": 0.003,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        }
+      ],
       "onpage_issues": [
-        { "id": "has_render_blocking_resources", "title": "Render-blocking resources present (1 script, 1 stylesheet)", "severity": "low" },
-        { "id": "relative_og_image", "title": "og:image uses a relative URL (/services/flood-damage-restoration.webp) instead of an absolute URL", "severity": "low" }
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Render-blocking resources present (1 script, 1 stylesheet)",
+          "severity": "low"
+        },
+        {
+          "id": "relative_og_image",
+          "title": "og:image uses a relative URL (/images/services/flood-damage-restoration.webp) instead of an absolute URL",
+          "severity": "low"
+        }
       ]
     },
     {
@@ -71,12 +289,66 @@
       "archetype": "service-area",
       "verdict": "green",
       "error_reason": null,
-      "scores": { "performance": 99, "accessibility": 91, "best_practices": 100, "seo": 100 },
-      "core_web_vitals": { "LCP_ms": 864, "CLS": 0.003, "TBT_ms": null, "INP_ms": null },
-      "lighthouse_issues": [],
+      "scores": {
+        "performance": 99,
+        "accessibility": 91,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 877,
+        "CLS": 0.003,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        }
+      ],
       "onpage_issues": [
-        { "id": "has_render_blocking_resources", "title": "Render-blocking resources present (1 script, 1 stylesheet)", "severity": "low" },
-        { "id": "frame", "title": "Page contains an iframe (Google Maps embed); iframe content is not crawlable", "severity": "low" }
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Render-blocking resources present (1 script, 1 stylesheet)",
+          "severity": "low"
+        },
+        {
+          "id": "frame",
+          "title": "Page contains an iframe (Google Maps embed); iframe content is not crawlable",
+          "severity": "low"
+        }
       ]
     },
     {
@@ -84,32 +356,157 @@
       "archetype": "contact",
       "verdict": "green",
       "error_reason": null,
-      "scores": { "performance": 99, "accessibility": 91, "best_practices": 100, "seo": 100 },
-      "core_web_vitals": { "LCP_ms": 867, "CLS": 0.023, "TBT_ms": null, "INP_ms": null },
-      "lighthouse_issues": [],
+      "scores": {
+        "performance": 97,
+        "accessibility": 91,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 1240,
+        "CLS": 0.023,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        }
+      ],
       "onpage_issues": [
-        { "id": "has_render_blocking_resources", "title": "Render-blocking resources present (1 script, 1 stylesheet)", "severity": "low" }
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Render-blocking resources present (1 script, 1 stylesheet)",
+          "severity": "low"
+        }
       ]
     }
   ],
   "site_rollup": {
-    "avg_scores": { "performance": 98, "accessibility": 90, "best_practices": 100, "seo": 100 },
-    "verdict": "amber",
+    "avg_scores": {
+      "performance": 99,
+      "accessibility": 91,
+      "best_practices": 100,
+      "seo": 100
+    },
+    "verdict": "green",
     "url_count": 6,
-    "urls_by_verdict": { "green": 5, "amber": 1, "red": 0, "error": 0 },
+    "urls_by_verdict": {
+      "green": 6,
+      "amber": 0,
+      "red": 0,
+      "error": 0
+    },
     "template_issues": [
-      { "id": "has_render_blocking_resources", "title": "Render-blocking resources present (1 script, 1 stylesheet)", "affected_urls": 6, "severity": "low" },
-      { "id": "relative_og_image", "title": "og:image uses a relative URL instead of an absolute URL", "affected_urls": 2, "severity": "low" }
+      {
+        "id": "link-name",
+        "title": "Links do not have a discernible name",
+        "affected_urls": 6,
+        "severity": "medium"
+      },
+      {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "affected_urls": 6,
+        "severity": "low"
+      },
+      {
+        "id": "has_render_blocking_resources",
+        "title": "Render-blocking resources present (1 script, 1 stylesheet)",
+        "affected_urls": 6,
+        "severity": "low"
+      },
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "affected_urls": 5,
+        "severity": "medium"
+      },
+      {
+        "id": "lcp-discovery-insight",
+        "title": "LCP request discovery",
+        "affected_urls": 5,
+        "severity": "low"
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "affected_urls": 4,
+        "severity": "low"
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "affected_urls": 3,
+        "severity": "low"
+      },
+      {
+        "id": "relative_og_image",
+        "title": "og:image uses a relative URL (/images/services/flood-damage-restoration.webp) instead of an absolute URL",
+        "affected_urls": 2,
+        "severity": "low"
+      }
     ],
-    "money_page_alerts": [
-      { "url": "https://flood-fixers.com/", "archetype": "home", "verdict": "amber", "main_issue": "accessibility 86 (below the 90 threshold); performance 96, LCP 1.45s are healthy" }
-    ]
+    "money_page_alerts": []
   },
   "regression": {
-    "prior_run_at": null,
-    "score_deltas": null,
-    "verdict_transitions": [],
+    "prior_run_at": "2026-07-06T18:31:21Z",
+    "score_deltas": {
+      "performance": 1,
+      "accessibility": 1,
+      "best_practices": 0,
+      "seo": 0
+    },
+    "verdict_transitions": [
+      {
+        "url": "https://flood-fixers.com/",
+        "from": "amber",
+        "to": "green"
+      }
+    ],
+    "cwv_regressions": [
+      {
+        "url": "https://flood-fixers.com/contact/",
+        "metric": "LCP_ms",
+        "from": 867,
+        "to": 1240,
+        "delta_ms": 373
+      }
+    ],
     "new_issues": [],
-    "resolved_issues": []
+    "resolved_issues": [],
+    "regression_notes": "On-page issue IDs are identical to the prior run (no new or resolved on-page issues). Lighthouse issue-ID diffing is not available this month because the prior run deferred full_data and stored empty lighthouse_issues arrays; the accessibility gains (home 86->93) and the newly-captured link-name/color-contrast findings reflect fuller detail this run, not confirmed month-over-month regressions."
   }
 }
