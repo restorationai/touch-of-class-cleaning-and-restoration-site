@@ -43,7 +43,7 @@
     "last_run_report_path": "clients/davis-construction/refresh-runs/2026-06-25-refresh-recommender.md"
   },
   "created_at": "2026-05-21T22:14:07.882136+00:00",
-  "updated_at": "2026-07-09T17:56:57.714733+00:00",
+  "updated_at": "2026-07-15T14:32:07.362600+00:00",
   "plan": {
     "template": "restoration",
     "template_version": "0.1.0",
@@ -59,7 +59,7 @@
     "pages_status": "created",
     "last_rendered_at": "2026-05-21T23:02:59.656440+00:00",
     "last_pushed_staging_at": "2026-05-21T23:32:21.835643+00:00",
-    "last_pushed_main_at": "2026-07-09T17:56:57.714713+00:00"
+    "last_pushed_main_at": "2026-07-15T14:32:07.362550+00:00"
   },
   "cloudflare": {
     "zone_id": "4d40cf49806c064997819b8192989810"

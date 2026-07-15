@@ -14,7 +14,7 @@
   "status": "pending",
   "company_id": "CO-1783527517866",
   "created_at": "2026-07-10T00:00:00+00:00",
-  "updated_at": "2026-07-11T02:58:26.833427+00:00",
+  "updated_at": "2026-07-15T14:34:18.418795+00:00",
   "nap": {
     "name": "The Restoration Group",
     "street": "500 S 31st St",
@@ -30,13 +30,13 @@
     "rating": 4.9,
     "review_count": 259,
     "google_review_url": "https://search.google.com/local/writereview?placeid=ChIJfZMnExzVxiIRkevldLILJW8",
-    "_note": "GBP still displays the OLD name 'Elite Restoration Group' — rebrand to 'The Restoration Group' underway per 7/8 onboarding call. gbpRating fields in brand.ts stay empty until scripts/sync_brand_reviews.py runs."
+    "_note": "GBP still displays the OLD name 'Elite Restoration Group' \u2014 rebrand to 'The Restoration Group' underway per 7/8 onboarding call. gbpRating fields in brand.ts stay empty until scripts/sync_brand_reviews.py runs."
   },
   "onboarding_notes": {
-    "rebrand": "DBA of Schwarz Enterprises; brand 'The Restoration Group' (7/8 onboarding call OVERRIDES the audit's 'Elite Restoration Group'). Old site restorationgroups.com (WordPress, 209 pages) stays live until cutover — full 301 map needed at production.",
-    "domain": "restorationgroups.com — GoDaddy delegate access granted to contact@restorationai.io. DO NOT touch DNS/registrar yet; preview build only (Pages project the-restoration-group-preview).",
-    "phone_discipline": "ONE phone everywhere: GBP line (855) 650-7422. Old site has 8+ rogue tracking numbers — never reuse any of them.",
-    "license_pending": "NJ HIC number captured on 7/8 call but digits UNVERIFIED ('13VH0488600'-ish) — number is WITHHELD from the site until verified. licensed_insured_attested=true (owner attested); footer prints 'NJ Licensed Home Improvement Contractor' text only.",
+    "rebrand": "DBA of Schwarz Enterprises; brand 'The Restoration Group' (7/8 onboarding call OVERRIDES the audit's 'Elite Restoration Group'). Old site restorationgroups.com (WordPress, 209 pages) stays live until cutover \u2014 full 301 map needed at production.",
+    "domain": "restorationgroups.com \u2014 GoDaddy delegate access granted to contact@restorationai.io. DO NOT touch DNS/registrar yet; preview build only (Pages project the-restoration-group-preview).",
+    "phone_discipline": "ONE phone everywhere: GBP line (855) 650-7422. Old site has 8+ rogue tracking numbers \u2014 never reuse any of them.",
+    "license_pending": "NJ HIC number captured on 7/8 call but digits UNVERIFIED ('13VH0488600'-ish) \u2014 number is WITHHELD from the site until verified. licensed_insured_attested=true (owner attested); footer prints 'NJ Licensed Home Improvement Contractor' text only.",
     "ny_metro": "Brooklyn + Manhattan included as secondary metro service-area pages (template handles per-area state cleanly; NY areas simply get no NJ nearby-city cross-links).",
     "awaiting_intake": [
       "verify NJ HIC number (13VH...) against DCA registry, then add to license_numbers",
@@ -62,7 +62,9 @@
     "pages_status": "local-only",
     "last_rendered_at": "2026-07-11T02:50:04.938485+00:00",
     "preview_url": "https://the-restoration-group-preview.pages.dev",
-    "preview_pages_project": "the-restoration-group-preview"
+    "preview_pages_project": "the-restoration-group-preview",
+    "github_repo": "restorationai/restoration-groups-site",
+    "last_pushed_staging_at": "2026-07-15T14:34:18.418774+00:00"
   },
-  "build_status": "content_rendered"
+  "build_status": "pushed_staging"
 }
