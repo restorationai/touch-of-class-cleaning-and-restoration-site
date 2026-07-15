@@ -3,8 +3,16 @@
 This guide is consulted by every image-generation call (Skill 3 launch images, Skill 4 blog hero images, future image regenerations). The goal: a viewer scrolling through the site should feel like one professional photographer documented one company on one continuous job. No stylistic drift from page to page.
 
 The values below are auto-populated from `plan-input.json` at planning time. Per-client brand colors come from the client's logo / brand identity — NOT from the canonical starter palette. The structural conventions (camera, lens, lighting, composition) are restoration-vertical canonical and shared across all Rank AI clients.
-
 ---
+
+## STANDING BRAND RULES (2026-07-11) — apply to EVERY image, every client
+
+1. **Vehicles carry the client's REAL logo.** Any generated image featuring a company vehicle must show the client's actual logo mark on the vehicle. Supply the real logo file (rasterize SVGs to a clean PNG on white first) as a reference image to `gemini_edit_image` / `gemini_generate_image`, and iterate until the mark on the vehicle reads faithfully — correct shape and colors, sized so lettering stays clean or is naturally implied at distance. The no-text rule still applies to everything EXCEPT the logo mark itself (no phone numbers, URLs, license numbers, or other readable text). If the model cannot render the wordmark cleanly at vehicle-side size after 3 attempts on an image, fall back to a two-color mark impression (brand-color blocks/swoosh, no letters) or a naturally defocused decal, and note the fallback.
+
+2. **One crew uniform color per client, everywhere.** Each client's style guide declares exactly one uniform color (derived from their real-world crew wear / brand identity), and every image — hero, team, services, per-service, blog heroes — uses it. Never mix uniform colors across a client's image library.
+
+3. **If the client has an existing website, harvest its photos FIRST.** Before generating any imagery, crawl the client's existing site (e.g. wp-content/uploads on WordPress) and collect real crew / vehicle / job photos. Use real photos directly where quality allows; otherwise use them as style and livery references for generation (real fleet photos define what the vans must look like). Save the harvest to `clients//harvested/`.
+
 
 ## Camera & Lens Setup
 
@@ -165,7 +173,7 @@ The worker's uniform stays the same; their PPE and equipment shift per service. 
 This list drives the image generation plan. Skill 3 (initial scaffold) generates the hero. Skill 4 (blog routine) generates blog hero + inline images per post. Service and area images are filled in over time.
 
 ### Brand-level
-- [ ] Homepage hero — the "arrival at dusk" composition (worker + branded van + lit property), or analogous high-leverage opener
+- [ ] Homepage hero — **DEFAULT: branded small-fleet scene.** A matched fleet of 3-5 company vehicles (Transit-style cargo vans and/or box trucks) in one identical livery built from the client's brand colors (primary color panel/wrap + accent swoosh), parked in a staggered line on a residential street matching the client's region, golden-hour light, editorial-photography look. Livery rules: one small stylized brand mark/wordmark per vehicle only — NO phone numbers, NO website URLs, NO certification badges, NO other readable text (AI-rendered text artifacts fail review). Composition: fleet in the center/right two-thirds; LEFT THIRD calm (open street/sky) for headline overlay. Alternative if the operator prefers: the "arrival at dusk" single-van composition (worker + branded van + lit property).
 - [ ] Logo placement test image (no actual logo — narrative shot with brand color in worker uniform)
 - [ ] OG / social-share card (1200×630) — usually a crop or variant of the hero
 
@@ -174,7 +182,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] flood-damage-restoration
 - [ ] burst-pipe-repair
 - [ ] basement-flooding-cleanup
-- [ ] (continue for each of Water Damage Restoration, Flood Damage Restoration, Burst Pipe Cleanup and Repair, Basement Flooding Cleanup, Appliance Leak Cleanup, Frozen Pipe Restoration, Roof Leak Cleanup and Repair, Sewage Cleanup and Sanitization, Fire Damage Restoration, Smoke Damage Restoration, Soot Removal, Odor Removal and Deodorization, Mold Remediation, Mold Inspection and Testing, Storm Damage Restoration, Biohazard and Trauma Cleanup, Reconstruction Services, Renovations, Remodels and General Contracting)
+- [ ] (continue for each of Water Damage Restoration, Flood Damage Restoration, Burst Pipe Cleanup and Repair, Basement Flooding Cleanup, Appliance Leak Cleanup, Frozen Pipe Restoration, Roof Leak Cleanup and Repair, Sewage Cleanup and Sanitization, Fire Damage Restoration, Smoke Damage Restoration, Soot Removal, Odor Removal and Deodorization, Mold Remediation, Mold Inspection and Testing, Storm Damage Restoration, Biohazard Cleanup, Trauma Scene Cleanup, Crime Scene Cleanup, Unattended Death Cleanup, Hoarding Cleanup, Reconstruction Services, Renovations, Remodels and General Contracting)
 
 ### Service area pages (one image per city served)
 - [ ] Federal Way hero — exterior shot, regional housing stock, evocative of the city
@@ -198,4 +206,4 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 
 ## Style guide version
 
-This guide is generated from `templates/restoration/image-style-guide.template.md` v1.0. When the canonical template updates, existing clients keep their pinned version unless explicitly regenerated. Bump the version + add a changelog entry when changing structural rules (e.g., adding new mandatory PPE conventions).
+This guide is generated from `templates/restoration/image-style-guide.template.md` v1.1 (2026-07-11: added Standing Brand Rules — real vehicle logos, single declared uniform color, harvest-first). When the canonical template updates, existing clients keep their pinned version unless explicitly regenerated. Bump the version + add a changelog entry when changing structural rules (e.g., adding new mandatory PPE conventions).

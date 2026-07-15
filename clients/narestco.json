@@ -24,7 +24,11 @@
   },
   "status": "active",
   "created_at": "2026-05-10T03:18:58.761481+00:00",
+<<<<<<< Updated upstream
   "updated_at": "2026-07-15T16:01:06Z",
+=======
+  "updated_at": "2026-07-15T15:52:40.140347+00:00",
+>>>>>>> Stashed changes
   "plan_status": "planned",
   "plan": {
     "template": "restoration",
@@ -40,7 +44,7 @@
     "url_count": 229,
     "pages_status": "created",
     "last_rendered_at": "2026-07-15T05:38:19.287586+00:00",
-    "last_pushed_main_at": "2026-07-15T14:28:47.261483+00:00",
+    "last_pushed_main_at": "2026-07-15T15:52:40.140325+00:00",
     "last_pushed_staging_at": "2026-07-15T05:39:28.858286+00:00"
   },
   "build_status": "pushed_main",

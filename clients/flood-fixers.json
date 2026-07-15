@@ -23,7 +23,7 @@
   "status": "active",
   "video_publish_mode": "public",
   "created_at": "2026-06-29T20:08:03.446673+00:00",
-  "updated_at": "2026-07-15T15:46:06Z",
+  "updated_at": "2026-07-15T15:53:31.545720+00:00",
   "plan_status": "planned",
   "plan": {
     "template": "restoration",
@@ -40,7 +40,7 @@
     "pages_status": "created",
     "last_rendered_at": "2026-06-29T20:56:54.729664+00:00",
     "last_pushed_staging_at": "2026-07-05T19:59:41.257281+00:00",
-    "last_pushed_main_at": "2026-07-15T14:32:22.514621+00:00"
+    "last_pushed_main_at": "2026-07-15T15:53:31.545686+00:00"
   },
   "build_status": "pushed_main",
   "indexnow_key": "cfd049710bd5477b8ba4bfd8bef5ad3f",
