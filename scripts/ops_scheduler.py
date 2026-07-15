@@ -32,6 +32,11 @@ DAILY_JOBS = [
     # (04:00 UTC = 9:00pm PT — Santino wants notes harvested at end of day).
     ("callist-notes", "04:00", [sys.executable,
                                 str(HERE / "callist" / "run_notes_sync.py")]),
+    # Nightly backstop: repo JSON state -> Supabase (all clients), so the app's
+    # Content/Sites/Keywords views heal even when a post-publish sync fails.
+    # (content_writer.py's inline sync is best-effort; this was the "nightly
+    # cron" its comment promised but which never existed.)
+    ("supabase-sync", "09:10", [sys.executable, str(HERE / "supabase_sync.py")]),
 ]
 
 JOBS = [

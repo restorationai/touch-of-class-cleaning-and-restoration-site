@@ -211,14 +211,20 @@ def sync_content(client, slug: str, company_id: str, dry_run: bool) -> None:
         print(f"  [content] WOULD sync {len(items)} items ({queued} queued, {written} published)")
         return
 
-    # Fetch existing items for this company keyed by suggested_slug
+    # Fetch existing items keyed by suggested_slug, with a normalized-title
+    # fallback: strategist-pin queue items carry no suggested_slug, and
+    # slug-less rows matched nothing — every sync re-inserted them as
+    # duplicates (and their stale "queued" originals never updated).
     existing_raw = (
         client.table("marketing_content_items")
-        .select("id,suggested_slug")
+        .select("id,suggested_slug,title")
         .eq("company_id", company_id)
         .execute()
     )
-    existing = {r["suggested_slug"]: r["id"] for r in existing_raw.data}
+    existing = {r["suggested_slug"]: r["id"] for r in existing_raw.data
+                if r.get("suggested_slug")}
+    existing_by_title = {(r.get("title") or "").strip().lower(): r["id"]
+                         for r in existing_raw.data if r.get("title")}
 
     to_insert, to_update = [], []
     for item in items:
@@ -250,8 +256,11 @@ def sync_content(client, slug: str, company_id: str, dry_run: bool) -> None:
         }
 
         suggested_slug = item.get("suggested_slug")
+        title_key = (row["title"] or "").strip().lower()
         if suggested_slug and suggested_slug in existing:
             to_update.append((existing[suggested_slug], row))
+        elif title_key in existing_by_title:
+            to_update.append((existing_by_title[title_key], row))
         else:
             to_insert.append(row)
 
