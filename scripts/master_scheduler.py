@@ -316,7 +316,10 @@ def run_agent_headless(system: int, slug: str) -> int:
         "--allowed-tools", HEADLESS_ALLOWED_TOOLS[system],
     ]
     print(f"    [headless] claude -p  System {system} ({name}) for {slug} ...")
-    return subprocess.call(cmd, cwd=str(ROOT))
+    # Fresh CI runners cold-start the npx MCP server; give it 2 min to connect
+    # instead of the default (audits were aborting on "still connecting").
+    env = {**os.environ, "MCP_TIMEOUT": "120000"}
+    return subprocess.call(cmd, cwd=str(ROOT), env=env)
 
 
 # -----------------------------------------------------------------------------

@@ -39,6 +39,12 @@ jobs:
       - name: Install Claude CLI
         run: npm install -g @anthropic-ai/claude-code
 
+      # Pre-install the DataForSEO MCP server: `npx -y` cold-downloads it inside
+      # the MCP startup window on fresh runners and regularly misses the connect
+      # timeout ("still connecting" -> audits abort with no Lighthouse source).
+      - name: Pre-install DataForSEO MCP server
+        run: npm install -g dataforseo-mcp-server
+
       - name: Run system ${{ inputs.system }} for ${{ inputs.slug }}
         id: run
         env:
