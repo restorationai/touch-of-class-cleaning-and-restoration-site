@@ -28,10 +28,6 @@ HERE = Path(__file__).parent
 DAILY_JOBS = [
     # (name, "HH:MM" UTC, argv)  — 12:20 UTC = 5:20am PT
     ("callist", "12:20", [sys.executable, str(HERE / "callist" / "run_daily.py")]),
-    # Evening pass: today's Notion notes -> GHL contacts same day
-    # (04:00 UTC = 9:00pm PT — Santino wants notes harvested at end of day).
-    ("callist-notes", "04:00", [sys.executable,
-                                str(HERE / "callist" / "run_notes_sync.py")]),
     # Nightly backstop: repo JSON state -> Supabase (all clients), so the app's
     # Content/Sites/Keywords views heal even when a post-publish sync fails.
     # (content_writer.py's inline sync is best-effort; this was the "nightly
@@ -41,6 +37,11 @@ DAILY_JOBS = [
 
 JOBS = [
     # (name, interval seconds, argv)
+    # Notes sync every 3h (was nightly 04:00Z): idempotent (contact+note-text
+    # dedupe), and harvesting often means a "remove from list" note can't sit
+    # unsynced long enough for the morning repaint to wipe it (2026-07-15 loss).
+    ("callist-notes", 10800, [sys.executable,
+                              str(HERE / "callist" / "run_notes_sync.py")]),
     ("inbound", 300, [sys.executable, str(HERE / "client_concierge.py"),
                       "inbound", "--poll", "--send"]),
     ("email", 300, [sys.executable, str(HERE / "email_intake.py"),

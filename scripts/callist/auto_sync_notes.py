@@ -144,7 +144,10 @@ def extract_phone_from_header(txt):
     return normalize_phone(after)
 
 def parse_contacts(blocks):
-    """Return list of dicts: {cid, phone, note}."""
+    """Return list of dicts: {cid, phone, note, toggle_ids}. toggle_ids are the
+    card's collapsed toggles (📝 Notes & history) — users sometimes type
+    "remove from list" INSIDE those instead of the ✍️ box, so the sync scans
+    their children for remove-phrases too (lost-notes bug, 2026-07-16)."""
     contacts, cur = [], None
     for b in blocks:
         typ = b.get("type", "")
@@ -155,7 +158,7 @@ def parse_contacts(blocks):
             if cur:
                 contacts.append(cur)
             cur = {"cid": None, "phone": extract_phone_from_header(txt),
-                   "note_parts": [], "collecting": False}
+                   "note_parts": [], "toggle_ids": [], "collecting": False}
             continue
         if cur is None:
             continue
@@ -164,6 +167,9 @@ def parse_contacts(blocks):
             continue
         if typ.startswith("heading") or typ == "divider":
             contacts.append(cur); cur = None
+            continue
+        if typ == "toggle" and b.get("has_children"):
+            cur["toggle_ids"].append(b.get("id"))
             continue
         if "Your notes for today" in txt:
             cur["collecting"] = True
@@ -179,7 +185,8 @@ def parse_contacts(blocks):
     out = []
     for c in contacts:
         note = "\n".join(c["note_parts"]).strip()
-        out.append({"cid": c["cid"], "phone": c["phone"], "note": note})
+        out.append({"cid": c["cid"], "phone": c["phone"], "note": note,
+                    "toggle_ids": c["toggle_ids"]})
     return out
 
 def is_no_action(note):

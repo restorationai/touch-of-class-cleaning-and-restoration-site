@@ -249,6 +249,19 @@ REMOVE_RE = re.compile(
     r"\boff\s+the\s+(call\s+)?list\b|\bdo\s*not\s*call\b|\bdon.?t\s*call\b|"
     r"\bdnc\b|\bstop\s+calling\b)", re.IGNORECASE)
 
+_REMOVED_CACHE = None
+def _removed_ids():
+    """Durable removed ledger (shared KV) — lazy import avoids a circular import
+    with auto_daily_call_list, which imports this module at load time."""
+    global _REMOVED_CACHE
+    if _REMOVED_CACHE is None:
+        try:
+            import auto_daily_call_list as _L
+            _REMOVED_CACHE = _L.load_removed()
+        except Exception:
+            _REMOVED_CACHE = set()
+    return _REMOVED_CACHE
+
 def is_removed(notes_blob):
     return bool(REMOVE_RE.search(notes_blob or ""))
 
@@ -440,7 +453,9 @@ def run(no_llm=False, limit=None, quiet=False):
             tgt_stage = "Follow Up Ready" if c["label"] == "Secured Clients" else "Ready For Follow Up"
         notes_full = get_notes(cid)
         # Honor a "remove from list" / "do not call" directive — stop re-suggesting them.
-        if is_removed(notes_full):
+        # Checks the note history, the durable removed ledger, AND the GHL tag.
+        _ctags = [str(t).strip().lower() for t in (contact.get("tags") or [])]
+        if is_removed(notes_full) or cid in _removed_ids() or "remove-from-call-list" in _ctags:
             log(f"  skipping suggestion for {contact.get('name','?')} — 'remove from list' on file")
             continue
         last_reply = (f"{sig['last_inbound']}: {sig['last_inbound_txt']}"

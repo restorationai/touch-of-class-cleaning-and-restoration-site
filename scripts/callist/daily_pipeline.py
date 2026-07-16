@@ -79,10 +79,28 @@ def sync_call_notes(pid):
     pmap = S.build_phone_map() if need else {}
     import hashlib
     synced = S.load_synced(); already = set(synced.get(pid, []))
-    posted = 0
+    removed_before = L.load_removed()
+    posted = captured = 0
     for c in contacts:
         cid = c["cid"] or pmap.get(c["phone"]); note = c["note"]
-        if not note or S.is_no_action(note) or not cid:
+        if not cid:
+            continue
+        # Removal scan runs even when the ✍️ box is empty: users sometimes type
+        # "remove from list" inside the 📝 Notes & history toggle instead
+        # (that's how a whole batch of removals got lost, 2026-07-15).
+        if cid not in removed_before:
+            toggle_txt = ""
+            if not (note and L.REMOVE_RE.search(note)):
+                for tid in c.get("toggle_ids") or []:
+                    toggle_txt += " " + " ".join(
+                        S.block_plain_text(b) for b in S.get_all_children(tid))
+            if L.REMOVE_RE.search(note or "") or L.REMOVE_RE.search(toggle_txt):
+                L.add_removed(cid)   # durable ledger + GHL tag, even if the note post fails
+                captured += 1
+                log(f"  remove-from-list captured for {cid}")
+                if not (note and L.REMOVE_RE.search(note)):
+                    S.post_note(cid, "🚫 Removed from call list (remove note found on their card).")
+        if not note or S.is_no_action(note):
             continue
         # Dedupe on contact+note-text: the page is persistent, so a bare-cid
         # key meant "this contact synced once EVER" and silently dropped every
@@ -90,13 +108,10 @@ def sync_call_notes(pid):
         key = f"{cid}:{hashlib.sha1(note.encode()).hexdigest()[:10]}"
         if key in already:
             continue
-        if L.REMOVE_RE.search(note):
-            L.add_removed(cid)   # durable even if the GHL note post fails
-            log(f"  remove-from-list captured for {cid}")
         if S.post_note(cid, note):
             already.add(key); posted += 1
     synced[pid] = sorted(already); S.save_synced(synced)
-    log(f"Call notes synced to GHL: {posted} posted")
+    log(f"Call notes synced to GHL: {posted} posted, {captured} removal(s) captured")
 
 def main(dry_run=False):
     today = date.today(); disp = today.strftime("%B %-d, %Y")

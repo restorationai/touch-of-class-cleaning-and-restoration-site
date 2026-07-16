@@ -219,18 +219,39 @@ def load_removed() -> set:
     except Exception:
         return set()
 
+# GHL tag that marks a contact as off the call list. Applied automatically when a
+# removal is captured, and honored directly — so Santino can also just add the tag
+# in the GHL UI to drop someone. Remove the tag there to undo.
+REMOVE_TAG = "remove-from-call-list"
+
+def tag_removed(contact_id: str) -> bool:
+    r = HTTP.post(f"{GHL_BASE_URL}/contacts/{contact_id}/tags",
+                  headers=GHL_HEADERS, json={"tags": [REMOVE_TAG]})
+    return r.status_code in (200, 201)
+
+def has_remove_tag(contact) -> bool:
+    tags = (contact.get('meta') or {}).get('tags') or []
+    return REMOVE_TAG in (str(t).strip().lower() for t in tags)
+
 def add_removed(contact_id: str) -> None:
     """Durable removal, independent of whether the GHL note posts. The old
     flow lost 'remove from list' notes to a sync bug (2026-07-14) and people
-    Santino had removed kept reappearing."""
+    Santino had removed kept reappearing. Also tags the contact in GHL so the
+    removal is visible in the CRM and survives any state loss."""
     ids = load_removed(); ids.add(contact_id)
     if _kv("POST", "callist-removed", {"ids": sorted(ids)}) is None:
         json.dump(sorted(ids), open(REMOVED_FILE, "w"))
+    try:
+        tag_removed(contact_id)
+    except Exception as e:
+        print(f"[remove-tag] {contact_id} failed: {e}")
 
 def call_decision(contact, today):
     """(show, reason) — reason explains WHY someone is hidden so the daily
     email can list them (a silently missing warm lead cost us Shawn Nunez
     for a week, 2026-07-13)."""
+    if has_remove_tag(contact):
+        return False, "removed (GHL tag)"
     if contact.get('contact_id') in load_removed():
         return False, "removed (do-not-call list)"
     if is_removed(contact.get('notes', '')):
@@ -365,7 +386,8 @@ def pull_contacts():
             cid = c.get('id')
             if not cid: continue
             nm = (c.get('name') or '').strip().lower()
-            if not nm or nm in JUNK_NAMES or '@' in nm or len(nm) <= 2:
+            if not nm or nm in JUNK_NAMES or '@' in nm or len(nm) <= 2 \
+                    or 'deleteme' in nm or nm.startswith('claude test'):
                 continue  # skip test/junk CRM entries
             notes       = get_notes(cid)
             all_notes   = sorted(notes, key=lambda n: n.get('dateAdded', ''))
