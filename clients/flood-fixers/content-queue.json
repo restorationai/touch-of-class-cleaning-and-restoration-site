@@ -104,10 +104,10 @@
     },
     {
       "id": "2026-07-06-water-damage-left-untreated",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-07-06T18:21:18Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-07-16T17:11:25Z",
+      "post_url": "https://flood-fixers.com/blog/what-happens-if-water-damage-is-left-untreated/",
       "primary_keyword": "what happens if water damage is left untreated",
       "intent": "informational",
       "volume": null,
