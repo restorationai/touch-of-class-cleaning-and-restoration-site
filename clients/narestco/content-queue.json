@@ -1,784 +1,784 @@
 {
- "items": [
-  {
-   "id": "2026-05-17-does-homeowners-insurance-cover-water-damage",
-   "status": "written",
-   "queued_at": "2026-05-17T14:59:05Z",
-   "written_at": "2026-05-17T15:22:53Z",
-   "post_url": "https://narestco.com/blog/does-homeowners-insurance-cover-water-damage/",
-   "primary_keyword": "does homeowners insurance cover water damage",
-   "intent": "informational",
-   "volume": 1900,
-   "kd": 28,
-   "fan_out_cluster": [
-    "water damage insurance claim tips",
-    "what does homeowners insurance cover and not cover",
-    "average insurance payout for water damage",
-    "should i file a home insurance claim for water damage",
-    "does state farm homeowners insurance cover foundation repair",
-    "does homeowners insurance cover water damage from rain"
-   ],
-   "suggested_slug": "does-homeowners-insurance-cover-water-damage",
-   "suggested_title": "Does Homeowners Insurance Cover Water Damage",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/mold-remediation/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "water-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [],
-   "notes": "Informational insurance-claim topic. Pairs naturally with the water damage service page. Lead with the practical answer in the first 80 words."
-  },
-  {
-   "id": "2026-05-17-what-does-homeowners-insurance-cover-and-not-cover",
-   "status": "written",
-   "queued_at": "2026-05-17T14:59:05Z",
-   "written_at": "2026-05-17T15:38:04Z",
-   "post_url": "https://narestco.com/blog/what-does-homeowners-insurance-cover-and-not-cover/",
-   "primary_keyword": "what does homeowners insurance cover and not cover",
-   "intent": "informational",
-   "volume": 390,
-   "kd": 9,
-   "fan_out_cluster": [
-    "does homeowners insurance cover water damage",
-    "water damage insurance claim tips",
-    "average insurance payout for water damage",
-    "should i file a home insurance claim for water damage",
-    "does state farm homeowners insurance cover foundation repair",
-    "does homeowners insurance cover water damage from rain"
-   ],
-   "suggested_slug": "what-does-homeowners-insurance-cover-and-not-cover",
-   "suggested_title": "What Does Homeowners Insurance Cover and Not Cover",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/mold-remediation/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "water-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [],
-   "notes": "Informational insurance-claim topic. Pairs naturally with the water damage service page. Lead with the practical answer in the first 80 words."
-  },
-  {
-   "id": "2026-05-17-average-insurance-payout-for-water-damage",
-   "status": "written",
-   "queued_at": "2026-05-17T14:59:05Z",
-   "written_at": "2026-05-29T23:39:36Z",
-   "post_url": "https://narestco.com/blog/average-insurance-payout-for-water-damage/",
-   "primary_keyword": "average insurance payout for water damage",
-   "intent": "commercial",
-   "volume": 320,
-   "kd": 17,
-   "fan_out_cluster": [
-    "does homeowners insurance cover water damage",
-    "water damage insurance claim tips",
-    "what does homeowners insurance cover and not cover",
-    "should i file a home insurance claim for water damage",
-    "does state farm homeowners insurance cover foundation repair",
-    "does homeowners insurance cover water damage from rain"
-   ],
-   "suggested_slug": "average-insurance-payout-for-water-damage",
-   "suggested_title": "Average Insurance Payout for Water Damage",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/mold-remediation/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "water-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [],
-   "notes": "Informational insurance-claim topic. Pairs naturally with the water damage service page. Lead with the practical answer in the first 80 words."
-  },
-  {
-   "id": "2026-05-17-does-homeowners-insurance-cover-broken-pipes-under-foundation",
-   "status": "written",
-   "queued_at": "2026-05-17T14:59:05Z",
-   "written_at": "2026-05-29T23:43:49Z",
-   "post_url": "https://narestco.com/blog/does-homeowners-insurance-cover-broken-pipes-under-foundation/",
-   "primary_keyword": "does homeowners insurance cover broken pipes under foundation",
-   "intent": "informational",
-   "volume": 260,
-   "kd": 6,
-   "fan_out_cluster": [
-    "does homeowners insurance cover water damage",
-    "water damage insurance claim tips",
-    "what does homeowners insurance cover and not cover",
-    "average insurance payout for water damage",
-    "should i file a home insurance claim for water damage",
-    "does state farm homeowners insurance cover foundation repair"
-   ],
-   "suggested_slug": "does-homeowners-insurance-cover-broken-pipes-under-foundation",
-   "suggested_title": "Does Homeowners Insurance Cover Broken Pipes Under Foundation",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/mold-remediation/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "water-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [],
-   "notes": "Informational insurance-claim topic. Pairs naturally with the water damage service page. Lead with the practical answer in the first 80 words."
-  },
-  {
-   "id": "2026-05-17-does-homeowners-insurance-cover-water-damage-from-rain",
-   "status": "written",
-   "queued_at": "2026-05-17T14:59:05Z",
-   "written_at": "2026-05-29T23:46:03Z",
-   "post_url": "https://narestco.com/blog/does-homeowners-insurance-cover-water-damage-from-rain/",
-   "primary_keyword": "does homeowners insurance cover water damage from rain",
-   "intent": "informational",
-   "volume": 260,
-   "kd": 9,
-   "fan_out_cluster": [
-    "does homeowners insurance cover water damage",
-    "water damage insurance claim tips",
-    "what does homeowners insurance cover and not cover",
-    "average insurance payout for water damage",
-    "should i file a home insurance claim for water damage",
-    "does state farm homeowners insurance cover foundation repair"
-   ],
-   "suggested_slug": "does-homeowners-insurance-cover-water-damage-from-rain",
-   "suggested_title": "Does Homeowners Insurance Cover Water Damage from Rain",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/mold-remediation/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "water-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [],
-   "notes": "Informational insurance-claim topic. Pairs naturally with the water damage service page. Lead with the practical answer in the first 80 words."
-  },
-  {
-   "id": "2026-05-30-fire-damage-restoration-cost",
-   "status": "written",
-   "queued_at": "2026-05-30T00:00:00Z",
-   "written_at": "2026-06-04T18:13:33Z",
-   "post_url": "https://narestco.com/blog/fire-damage-restoration-cost/",
-   "primary_keyword": "fire damage restoration cost",
-   "intent": "informational",
-   "volume": 320,
-   "kd": null,
-   "fan_out_cluster": [
-    "fire damage restoration cost per square foot",
-    "residential fire damage restoration cost",
-    "how much does fire damage restoration cost",
-    "servpro fire restoration cost",
-    "house fire debris removal cost"
-   ],
-   "suggested_slug": "fire-damage-restoration-cost",
-   "suggested_title": "Fire Damage Restoration Cost: What Homeowners Pay in 2026",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/fire-damage-restoration/",
-    "/services/smoke-damage-restoration/",
-    "/services/reconstruction/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "fire-damage-restoration",
-    "smoke-damage-restoration",
-    "reconstruction"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS700"
-   ],
-   "notes": "Cost-focused informational post. Decision-stage readers are 24-48 hours from hiring. Lead with a realistic range ($3,000-$50,000+ depending on severity) and break down by damage category: smoke, structural, soot, odor. Mention IICRC S700 standard. Pair with reconstruction service page."
-  },
-  {
-   "id": "2026-05-30-fire-damage-restoration-process",
-   "status": "written",
-   "queued_at": "2026-05-30T00:00:00Z",
-   "written_at": "2026-06-08T18:28:25Z",
-   "post_url": "https://narestco.com/blog/fire-damage-restoration-process/",
-   "primary_keyword": "fire damage restoration process",
-   "intent": "informational",
-   "volume": 90,
-   "kd": 8,
-   "fan_out_cluster": [
-    "residential fire damage restoration process",
-    "fire restoration process step by step",
-    "fire restoration cleaning process",
-    "what does a fire restoration company do",
-    "fire restoration checklist"
-   ],
-   "suggested_slug": "fire-damage-restoration-process",
-   "suggested_title": "The Fire Damage Restoration Process: Step by Step",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/fire-damage-restoration/",
-    "/services/smoke-damage-restoration/",
-    "/services/soot-removal/",
-    "/services/odor-removal/"
-   ],
-   "service_tags": [
-    "fire-damage-restoration",
-    "smoke-damage-restoration",
-    "soot-removal",
-    "odor-removal"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS700"
-   ],
-   "notes": "Process walkthrough: board-up, assessment, debris removal, soot and smoke cleaning, odor elimination (thermal fogging / ozone), structural drying, reconstruction. KD 8 is very low. Lead with the 7-step framework ChatGPT decomposes the topic into. Mention Tacoma HEPA ordinance as a local compliance note."
-  },
-  {
-   "id": "2026-05-30-what-to-do-after-a-house-fire",
-   "status": "written",
-   "queued_at": "2026-05-30T00:00:00Z",
-   "written_at": "2026-06-11T18:46:51Z",
-   "post_url": "https://narestco.com/blog/what-to-do-after-a-house-fire/",
-   "primary_keyword": "what to do after a house fire",
-   "intent": "informational",
-   "volume": null,
-   "kd": 12,
-   "fan_out_cluster": [
-    "what to do after a house fire checklist",
-    "what to expect after a house fire",
-    "house fire cleanup checklist",
-    "what to throw out after a fire",
-    "fire damage insurance claim steps",
-    "how long does fire damage restoration take"
-   ],
-   "suggested_slug": "what-to-do-after-a-house-fire",
-   "suggested_title": "What to Do After a House Fire: The First 72 Hours",
-   "target_word_count": 1600,
-   "internal_link_targets": [
-    "/services/fire-damage-restoration/",
-    "/services/smoke-damage-restoration/",
-    "/services/reconstruction/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "fire-damage-restoration",
-    "smoke-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/fire/if-your-home-is-on-fire.html"
-   ],
-   "notes": "Highest-priority post in this run. KD 12 is very winnable. This is the top-of-funnel post panicked homeowners search in the hours and days after a fire. Structure: wait for clearance, call insurance, document damage, call restoration company, avoid touching soot. Lead with emotional empathy. Strong candidate for AI Overview citation."
-  },
-  {
-   "id": "2026-05-30-does-homeowners-insurance-cover-fire-damage",
-   "status": "written",
-   "queued_at": "2026-05-30T00:00:00Z",
-   "written_at": "2026-06-15T19:50:36Z",
-   "post_url": "https://narestco.com/blog/does-homeowners-insurance-cover-fire-damage/",
-   "primary_keyword": "does homeowners insurance cover fire damage",
-   "intent": "informational",
-   "volume": null,
-   "kd": 29,
-   "fan_out_cluster": [
-    "does homeowners insurance cover house fire",
-    "what does homeowners insurance cover after a fire",
-    "fire damage insurance claim tips",
-    "average insurance payout for fire damage",
-    "does insurance cover smoke damage"
-   ],
-   "suggested_slug": "does-homeowners-insurance-cover-fire-damage",
-   "suggested_title": "Does Homeowners Insurance Cover Fire Damage? What to Know",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/fire-damage-restoration/",
-    "/services/smoke-damage-restoration/",
-    "/blog/does-homeowners-insurance-cover-water-damage/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "fire-damage-restoration",
-    "smoke-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iii.org/article/does-homeowners-insurance-cover-fire"
-   ],
-   "notes": "Insurance decision-stage post. Companion to the existing water damage insurance post at /blog/does-homeowners-insurance-cover-water-damage/. Answer yes (most policies cover accidental fire + smoke + soot + firefighting water), then cover the exclusions: arson, earthquake-caused fire, flood-adjacent fire. Cross-link to the water damage insurance post."
-  },
-  {
-   "id": "2026-05-30-fire-damage-restoration-cost-per-square-foot",
-   "status": "written",
-   "queued_at": "2026-05-30T00:00:00Z",
-   "written_at": "2026-06-22T19:43:12Z",
-   "post_url": "https://narestco.com/blog/fire-damage-restoration-cost-per-square-foot/",
-   "primary_keyword": "fire damage restoration cost per square foot",
-   "intent": "informational",
-   "volume": null,
-   "kd": null,
-   "fan_out_cluster": [
-    "fire damage restoration cost",
-    "how much does fire damage cleanup cost",
-    "cost to restore fire damaged home",
-    "fire damage repair cost estimate",
-    "how to estimate fire damage costs"
-   ],
-   "suggested_slug": "fire-damage-restoration-cost-per-square-foot",
-   "suggested_title": "Fire Damage Restoration Cost Per Square Foot: 2026 Pricing Guide",
-   "target_word_count": 1200,
-   "internal_link_targets": [
-    "/services/fire-damage-restoration/",
-    "/services/reconstruction/",
-    "/blog/fire-damage-restoration-cost/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "fire-damage-restoration",
-    "reconstruction"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [],
-   "notes": "Supporting cost post to the main cost article. Focus on per-sqft breakdown: minor smoke ($3-8/sqft), major structural ($15-50/sqft), total loss ($75+/sqft). Internal link to main cost article and reconstruction page. Can be shorter (1200 words). Write after the main fire-damage-restoration-cost post."
-  },
-  {
-   "id": "2026-06-24-mold-remediation-cost-seattle",
-   "status": "written",
-   "queued_at": "2026-06-24T15:47:35Z",
-   "written_at": "2026-06-29T05:55:29Z",
-   "post_url": "https://narestco.com/blog/mold-remediation-cost-seattle/",
-   "primary_keyword": "mold remediation cost",
-   "intent": "informational",
-   "volume": 9900,
-   "kd": 8,
-   "fan_out_cluster": [
-    "mold remediation cost per square foot",
-    "cost to remove black mold",
-    "attic mold removal cost",
-    "crawl space mold remediation cost",
-    "does insurance cover mold remediation",
-    "what drives mold remediation cost"
-   ],
-   "suggested_slug": "mold-remediation-cost-seattle",
-   "suggested_title": "Mold Remediation Cost in Seattle: 2026 Price Guide",
-   "target_word_count": 1600,
-   "internal_link_targets": [
-    "/services/mold-remediation/",
-    "/service-areas/seattle-wa/",
-    "/blog/black-mold-vs-regular-mold/"
-   ],
-   "service_tags": [
-    "mold-remediation"
-   ],
-   "city_anchor": "seattle-wa",
-   "external_authority_candidates": [],
-   "notes": "Top pick: 9900 vol, KD 8. Localize price ranges to the wet Puget Sound market."
-  },
-  {
-   "id": "2026-06-24-crawl-space-mold-removal-federal-way",
-   "status": "written",
-   "queued_at": "2026-06-24T15:47:35Z",
-   "written_at": "2026-07-02T17:40:26Z",
-   "post_url": "https://narestco.com/blog/crawl-space-mold-removal-federal-way/",
-   "primary_keyword": "crawl space mold removal",
-   "intent": "commercial",
-   "volume": 1900,
-   "kd": null,
-   "fan_out_cluster": [
-    "crawl space mold removal cost",
-    "crawl space encapsulation mold",
-    "vapor barrier crawl space mold",
-    "signs of crawl space mold",
-    "crawl space mold health risks",
-    "preventing crawl space mold in a wet climate"
-   ],
-   "suggested_slug": "crawl-space-mold-removal-federal-way",
-   "suggested_title": "Crawl Space Mold Removal in Federal Way: Why Puget Sound Homes Are Prone to It",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/mold-remediation/",
-    "/service-areas/federal-way-wa/"
-   ],
-   "service_tags": [
-    "mold-remediation"
-   ],
-   "city_anchor": "federal-way-wa",
-   "external_authority_candidates": [],
-   "notes": "Highly relevant for PNW crawl spaces (rain + vented crawl spaces). CPC $29, vol 1900. Anchored to primary city."
-  },
-  {
-   "id": "2026-06-24-mold-inspection-cost-bellevue",
-   "status": "queued",
-   "queued_at": "2026-06-24T15:47:35Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "mold inspection cost",
-   "intent": "informational",
-   "volume": 5400,
-   "kd": null,
-   "fan_out_cluster": [
-    "mold testing cost",
-    "mold inspection vs testing",
-    "is a mold inspection worth it",
-    "how much is a mold test",
-    "when to get a mold inspection",
-    "mold inspection process"
-   ],
-   "suggested_slug": "mold-inspection-cost-bellevue",
-   "suggested_title": "Mold Inspection Cost in Bellevue: What to Expect",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/mold-inspection-testing/",
-    "/service-areas/bellevue-wa/"
-   ],
-   "service_tags": [
-    "mold-inspection-testing",
-    "mold-remediation"
-   ],
-   "city_anchor": "bellevue-wa",
-   "external_authority_candidates": [],
-   "notes": "Distinct from remediation cost; ties to their mold-inspection-testing service. LOW comp, vol 5400."
-  },
-  {
-   "id": "2026-06-24-attic-mold-removal-tacoma",
-   "status": "queued",
-   "queued_at": "2026-06-24T15:47:35Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "attic mold removal",
-   "intent": "informational",
-   "volume": 2400,
-   "kd": null,
-   "fan_out_cluster": [
-    "what causes attic mold",
-    "attic mold removal cost",
-    "attic ventilation and mold",
-    "roof leak attic mold",
-    "is attic mold dangerous",
-    "how to prevent attic mold"
-   ],
-   "suggested_slug": "attic-mold-removal-tacoma",
-   "suggested_title": "Attic Mold Removal in Tacoma: Causes, Cost, and Prevention",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/mold-remediation/",
-    "/services/roof-leak-repair/",
-    "/service-areas/tacoma-wa/"
-   ],
-   "service_tags": [
-    "mold-remediation",
-    "roof-leak-repair"
-   ],
-   "city_anchor": "tacoma-wa",
-   "external_authority_candidates": [],
-   "notes": "Ties mold to roof-leak service (roof leaks -> attic mold), big in rainy Tacoma. CPC $25, vol 2400."
-  },
-  {
-   "id": "2026-06-24-does-insurance-cover-mold-remediation-everett",
-   "status": "queued",
-   "queued_at": "2026-06-24T15:47:35Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "does insurance cover mold remediation",
-   "intent": "informational",
-   "volume": 880,
-   "kd": 22,
-   "fan_out_cluster": [
-    "is mold covered by homeowners insurance",
-    "mold from water damage insurance",
-    "filing a mold claim",
-    "mold exclusions in insurance policy",
-    "sudden vs gradual mold coverage",
-    "documenting mold for a claim"
-   ],
-   "suggested_slug": "does-insurance-cover-mold-remediation-everett",
-   "suggested_title": "Does Insurance Cover Mold Remediation? An Everett Homeowner's Guide",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/mold-remediation/",
-    "/services/water-damage-restoration/",
-    "/service-areas/everett-wa/",
-    "/blog/does-homeowners-insurance-cover-water-damage/"
-   ],
-   "service_tags": [
-    "mold-remediation",
-    "water-damage-restoration"
-   ],
-   "city_anchor": "everett-wa",
-   "external_authority_candidates": [
-    "https://www.iii.org/article/what-covered-standard-homeowners-policy"
-   ],
-   "notes": "Decision-stage, KD 22. Links to existing water-damage insurance post."
-  },
-  {
-   "id": "2026-07-02-pin-best-flood-damage-restoration-company-in-bellevu",
-   "status": "published",
-   "queued_at": "2026-07-02T17:41:02.653193+00:00",
-   "prioritized": true,
-   "source": "strategist-pin",
-   "primary_keyword": "best flood damage restoration company in Bellevue, WA",
-   "intent": "commercial",
-   "volume": null,
-   "kd": null,
-   "target_word_count": 1500,
-   "city_anchor": "bellevue-wa",
-   "notes": "Pinned from AI Search. Write an honest, locally-specific guide that positions this business on verifiable strengths (certifications, license, response time, reviews) \u2014 NOT a self-ranking 'best companies' list.",
-   "written_at": "2026-07-06T18:40:36Z",
-   "post_url": "https://narestco.com/blog/best-flood-damage-restoration-company-in-bellevue-wa/",
-   "published_verified_at": "2026-07-06T18:41:43Z"
-  },
-  {
-   "id": "2026-07-02-pin-mold-removal",
-   "status": "published",
-   "queued_at": "2026-07-02T17:41:02.653193+00:00",
-   "prioritized": true,
-   "source": "strategist-pin",
-   "primary_keyword": "mold removal",
-   "intent": "commercial",
-   "volume": null,
-   "kd": null,
-   "target_word_count": 1500,
-   "notes": "Pinned from AI Search. Write an honest, locally-specific guide that positions this business on verifiable strengths (certifications, license, response time, reviews) \u2014 NOT a self-ranking 'best companies' list.",
-   "written_at": "2026-07-09T18:14:55Z",
-   "post_url": "https://narestco.com/blog/mold-removal/",
-   "published_verified_at": "2026-07-09T18:16:02Z"
-  },
-  {
-   "id": "2026-07-02-pin-best-water-damage-restoration-company-in-bellevu",
-   "status": "written",
-   "queued_at": "2026-07-02T17:41:02.653193+00:00",
-   "prioritized": true,
-   "source": "strategist-pin",
-   "primary_keyword": "best water damage restoration company in Bellevue, WA",
-   "intent": "commercial",
-   "volume": null,
-   "kd": null,
-   "target_word_count": 1500,
-   "city_anchor": "bellevue-wa",
-   "notes": "Pinned from AI Search. Write an honest, locally-specific guide that positions this business on verifiable strengths (certifications, license, response time, reviews) \u2014 NOT a self-ranking 'best companies' list.",
-   "written_at": "2026-07-13T18:11:39Z",
-   "post_url": "https://narestco.com/blog/best-water-damage-restoration-company-in-bellevue-wa/"
-  },
-  {
-   "id": "2026-07-09-does-homeowners-insurance-cover-storm-damage",
-   "status": "queued",
-   "queued_at": "2026-07-09T18:09:50Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "does homeowners insurance cover storm damage",
-   "intent": "informational",
-   "volume": null,
-   "kd": null,
-   "fan_out_cluster": [
-    "does insurance cover wind damage",
-    "does insurance cover fallen tree damage to house",
-    "what storm damage is not covered by insurance",
-    "does homeowners insurance cover roof storm damage",
-    "storm damage insurance claim tips",
-    "filing a storm damage claim in Washington"
-   ],
-   "suggested_slug": "does-homeowners-insurance-cover-storm-damage",
-   "suggested_title": "Does Homeowners Insurance Cover Storm Damage? What Washington Homeowners Should Know",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/storm-damage-restoration/",
-    "/services/roof-leak-repair/",
-    "/blog/does-homeowners-insurance-cover-water-damage/",
-    "/blog/storm-damage-insurance-claim-checklist/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "storm-damage-restoration",
-    "roof-leak-repair"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iii.org/article/does-homeowners-insurance-cover-wind-damage"
-   ],
-   "notes": "Companion to the existing water and fire insurance posts. Answer yes for sudden storm, wind, and hail events plus firefighting-style water, then cover exclusions (flood and storm surge need a separate flood policy, gradual leaks, poor maintenance). Frame for the Pacific Northwest reality: winter windstorms, atmospheric rivers, and falling trees, not hurricanes or tornadoes. Cross-link to the storm damage insurance claim checklist. DataForSEO was unavailable at research time, so volume and KD are pending backfill; queued via intent-first (uncovered, high-intent decision-stage informational)."
-  },
-  {
-   "id": "2026-07-09-what-to-do-after-storm-damage",
-   "status": "queued",
-   "queued_at": "2026-07-09T18:09:50Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "what to do after storm damage to your home",
-   "intent": "informational",
-   "volume": null,
-   "kd": null,
-   "fan_out_cluster": [
-    "what to do after a windstorm",
-    "storm damage cleanup steps",
-    "how to secure your home after storm damage",
-    "documenting storm damage for insurance",
-    "when to call a storm damage restoration company",
-    "temporary roof tarping after a storm"
-   ],
-   "suggested_slug": "what-to-do-after-storm-damage",
-   "suggested_title": "What to Do After Storm Damage to Your Home: The First 72 Hours",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/storm-damage-restoration/",
-    "/services/roof-leak-repair/",
-    "/services/water-damage-restoration/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "storm-damage-restoration",
-    "roof-leak-repair",
-    "water-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.ready.gov/severe-weather"
-   ],
-   "notes": "Top-of-funnel emergency guide for homeowners in the hours after a Puget Sound windstorm or atmospheric river. Lead with safety (stay clear of downed power lines and unstable trees), then: document damage, contact insurer, temporary tarping and board-up to stop further water intrusion, and when to call a pro. Strong AI Overview citation candidate. DataForSEO was unavailable at research time; volume and KD pending backfill; queued via intent-first."
-  },
-  {
-   "id": "2026-07-09-storm-damage-repair-cost",
-   "status": "queued",
-   "queued_at": "2026-07-09T18:09:50Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "how much does storm damage repair cost",
-   "intent": "informational",
-   "volume": null,
-   "kd": null,
-   "fan_out_cluster": [
-    "storm damage roof repair cost",
-    "wind damage repair cost",
-    "fallen tree removal cost",
-    "storm damage restoration cost per square foot",
-    "emergency roof tarping cost",
-    "does insurance pay for storm damage repair"
-   ],
-   "suggested_slug": "storm-damage-repair-cost",
-   "suggested_title": "How Much Does Storm Damage Repair Cost? A 2026 Homeowner's Guide",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/storm-damage-restoration/",
-    "/services/roof-leak-repair/",
-    "/services/reconstruction/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "storm-damage-restoration",
-    "roof-leak-repair",
-    "reconstruction"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [],
-   "notes": "Cost decision-stage post. Break down realistic ranges by damage type: minor debris and cleanup, roof tarping and repair, fallen-tree impact, structural water intrusion, and full reconstruction. Note how insurance offsets out-of-pocket cost and where deductibles apply. Cross-link to the storm insurance-coverage post and the reconstruction service. DataForSEO was unavailable at research time; volume and KD pending backfill; queued via intent-first."
-  },
-  {
-   "id": "2026-07-15-who-pays-for-crime-scene-cleanup-washington",
-   "status": "queued",
-   "queued_at": "2026-07-15T02:14:14Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "who pays for crime scene cleanup in washington state",
-   "intent": "informational",
-   "volume": 20,
-   "kd": null,
-   "fan_out_cluster": [
-    "does insurance cover crime scene cleanup",
-    "crime scene cleanup cost",
-    "washington crime victims compensation cleanup",
-    "is crime scene cleanup covered by homeowners insurance"
-   ],
-   "suggested_slug": "who-pays-for-crime-scene-cleanup-washington",
-   "suggested_title": "Who Pays for Crime Scene Cleanup in Washington State?",
-   "service_tags": [
-    "crime-scene-cleanup",
-    "trauma-scene-cleanup"
-   ],
-   "prioritized": true,
-   "source": "trauma-focus-2026-07",
-   "notes": "TONE: compassionate, discreet, family-first. No urgency hype. Mention insurance handled + 24/7 discreet arrival."
-  },
-  {
-   "id": "2026-07-15-does-homeowners-insurance-cover-biohazard-cleanup",
-   "status": "queued",
-   "queued_at": "2026-07-15T02:14:14Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "does homeowners insurance cover biohazard cleanup",
-   "intent": "informational",
-   "volume": 30,
-   "kd": null,
-   "fan_out_cluster": [
-    "biohazard cleanup cost",
-    "what is considered a biohazard",
-    "biohazard cleanup insurance claim",
-    "who cleans up after a death in a home"
-   ],
-   "suggested_slug": "does-homeowners-insurance-cover-biohazard-cleanup",
-   "suggested_title": "Does Homeowners Insurance Cover Biohazard Cleanup?",
-   "service_tags": [
-    "biohazard-cleanup"
-   ],
-   "prioritized": true,
-   "source": "trauma-focus-2026-07",
-   "notes": "TONE: compassionate, discreet, family-first. No urgency hype. Mention insurance handled + 24/7 discreet arrival."
-  },
-  {
-   "id": "2026-07-15-what-happens-after-an-unattended-death",
-   "status": "queued",
-   "queued_at": "2026-07-15T02:14:14Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "what happens after an unattended death is discovered",
-   "intent": "informational",
-   "volume": 10,
-   "kd": null,
-   "fan_out_cluster": [
-    "unattended death cleanup",
-    "who do you call after an unattended death",
-    "how long does decomposition cleanup take",
-    "unattended death cleanup cost"
-   ],
-   "suggested_slug": "what-happens-after-an-unattended-death",
-   "suggested_title": "What Happens After an Unattended Death Is Discovered: A Family's Guide",
-   "service_tags": [
-    "unattended-death-cleanup",
-    "trauma-scene-cleanup"
-   ],
-   "prioritized": true,
-   "source": "trauma-focus-2026-07",
-   "notes": "TONE: compassionate, discreet, family-first. No urgency hype. Mention insurance handled + 24/7 discreet arrival."
-  },
-  {
-   "id": "2026-07-15-how-long-does-trauma-scene-cleanup-take",
-   "status": "queued",
-   "queued_at": "2026-07-15T02:14:14Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "how long does trauma scene cleanup take",
-   "intent": "informational",
-   "volume": 10,
-   "kd": null,
-   "fan_out_cluster": [
-    "trauma scene cleaning process",
-    "what do trauma cleaners do",
-    "blood cleanup services",
-    "can family clean up a trauma scene"
-   ],
-   "suggested_slug": "how-long-does-trauma-scene-cleanup-take",
-   "suggested_title": "How Long Does Trauma Scene Cleanup Take? What Families Should Expect",
-   "service_tags": [
-    "trauma-scene-cleanup",
-    "crime-scene-cleanup"
-   ],
-   "prioritized": true,
-   "source": "trauma-focus-2026-07",
-   "notes": "TONE: compassionate, discreet, family-first. No urgency hype. Mention insurance handled + 24/7 discreet arrival."
-  }
- ]
+  "items": [
+    {
+      "id": "2026-05-17-does-homeowners-insurance-cover-water-damage",
+      "status": "written",
+      "queued_at": "2026-05-17T14:59:05Z",
+      "written_at": "2026-05-17T15:22:53Z",
+      "post_url": "https://narestco.com/blog/does-homeowners-insurance-cover-water-damage/",
+      "primary_keyword": "does homeowners insurance cover water damage",
+      "intent": "informational",
+      "volume": 1900,
+      "kd": 28,
+      "fan_out_cluster": [
+        "water damage insurance claim tips",
+        "what does homeowners insurance cover and not cover",
+        "average insurance payout for water damage",
+        "should i file a home insurance claim for water damage",
+        "does state farm homeowners insurance cover foundation repair",
+        "does homeowners insurance cover water damage from rain"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-water-damage",
+      "suggested_title": "Does Homeowners Insurance Cover Water Damage",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [],
+      "notes": "Informational insurance-claim topic. Pairs naturally with the water damage service page. Lead with the practical answer in the first 80 words."
+    },
+    {
+      "id": "2026-05-17-what-does-homeowners-insurance-cover-and-not-cover",
+      "status": "written",
+      "queued_at": "2026-05-17T14:59:05Z",
+      "written_at": "2026-05-17T15:38:04Z",
+      "post_url": "https://narestco.com/blog/what-does-homeowners-insurance-cover-and-not-cover/",
+      "primary_keyword": "what does homeowners insurance cover and not cover",
+      "intent": "informational",
+      "volume": 390,
+      "kd": 9,
+      "fan_out_cluster": [
+        "does homeowners insurance cover water damage",
+        "water damage insurance claim tips",
+        "average insurance payout for water damage",
+        "should i file a home insurance claim for water damage",
+        "does state farm homeowners insurance cover foundation repair",
+        "does homeowners insurance cover water damage from rain"
+      ],
+      "suggested_slug": "what-does-homeowners-insurance-cover-and-not-cover",
+      "suggested_title": "What Does Homeowners Insurance Cover and Not Cover",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [],
+      "notes": "Informational insurance-claim topic. Pairs naturally with the water damage service page. Lead with the practical answer in the first 80 words."
+    },
+    {
+      "id": "2026-05-17-average-insurance-payout-for-water-damage",
+      "status": "written",
+      "queued_at": "2026-05-17T14:59:05Z",
+      "written_at": "2026-05-29T23:39:36Z",
+      "post_url": "https://narestco.com/blog/average-insurance-payout-for-water-damage/",
+      "primary_keyword": "average insurance payout for water damage",
+      "intent": "commercial",
+      "volume": 320,
+      "kd": 17,
+      "fan_out_cluster": [
+        "does homeowners insurance cover water damage",
+        "water damage insurance claim tips",
+        "what does homeowners insurance cover and not cover",
+        "should i file a home insurance claim for water damage",
+        "does state farm homeowners insurance cover foundation repair",
+        "does homeowners insurance cover water damage from rain"
+      ],
+      "suggested_slug": "average-insurance-payout-for-water-damage",
+      "suggested_title": "Average Insurance Payout for Water Damage",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [],
+      "notes": "Informational insurance-claim topic. Pairs naturally with the water damage service page. Lead with the practical answer in the first 80 words."
+    },
+    {
+      "id": "2026-05-17-does-homeowners-insurance-cover-broken-pipes-under-foundation",
+      "status": "written",
+      "queued_at": "2026-05-17T14:59:05Z",
+      "written_at": "2026-05-29T23:43:49Z",
+      "post_url": "https://narestco.com/blog/does-homeowners-insurance-cover-broken-pipes-under-foundation/",
+      "primary_keyword": "does homeowners insurance cover broken pipes under foundation",
+      "intent": "informational",
+      "volume": 260,
+      "kd": 6,
+      "fan_out_cluster": [
+        "does homeowners insurance cover water damage",
+        "water damage insurance claim tips",
+        "what does homeowners insurance cover and not cover",
+        "average insurance payout for water damage",
+        "should i file a home insurance claim for water damage",
+        "does state farm homeowners insurance cover foundation repair"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-broken-pipes-under-foundation",
+      "suggested_title": "Does Homeowners Insurance Cover Broken Pipes Under Foundation",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [],
+      "notes": "Informational insurance-claim topic. Pairs naturally with the water damage service page. Lead with the practical answer in the first 80 words."
+    },
+    {
+      "id": "2026-05-17-does-homeowners-insurance-cover-water-damage-from-rain",
+      "status": "written",
+      "queued_at": "2026-05-17T14:59:05Z",
+      "written_at": "2026-05-29T23:46:03Z",
+      "post_url": "https://narestco.com/blog/does-homeowners-insurance-cover-water-damage-from-rain/",
+      "primary_keyword": "does homeowners insurance cover water damage from rain",
+      "intent": "informational",
+      "volume": 260,
+      "kd": 9,
+      "fan_out_cluster": [
+        "does homeowners insurance cover water damage",
+        "water damage insurance claim tips",
+        "what does homeowners insurance cover and not cover",
+        "average insurance payout for water damage",
+        "should i file a home insurance claim for water damage",
+        "does state farm homeowners insurance cover foundation repair"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-water-damage-from-rain",
+      "suggested_title": "Does Homeowners Insurance Cover Water Damage from Rain",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [],
+      "notes": "Informational insurance-claim topic. Pairs naturally with the water damage service page. Lead with the practical answer in the first 80 words."
+    },
+    {
+      "id": "2026-05-30-fire-damage-restoration-cost",
+      "status": "written",
+      "queued_at": "2026-05-30T00:00:00Z",
+      "written_at": "2026-06-04T18:13:33Z",
+      "post_url": "https://narestco.com/blog/fire-damage-restoration-cost/",
+      "primary_keyword": "fire damage restoration cost",
+      "intent": "informational",
+      "volume": 320,
+      "kd": null,
+      "fan_out_cluster": [
+        "fire damage restoration cost per square foot",
+        "residential fire damage restoration cost",
+        "how much does fire damage restoration cost",
+        "servpro fire restoration cost",
+        "house fire debris removal cost"
+      ],
+      "suggested_slug": "fire-damage-restoration-cost",
+      "suggested_title": "Fire Damage Restoration Cost: What Homeowners Pay in 2026",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/smoke-damage-restoration/",
+        "/services/reconstruction/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "smoke-damage-restoration",
+        "reconstruction"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS700"
+      ],
+      "notes": "Cost-focused informational post. Decision-stage readers are 24-48 hours from hiring. Lead with a realistic range ($3,000-$50,000+ depending on severity) and break down by damage category: smoke, structural, soot, odor. Mention IICRC S700 standard. Pair with reconstruction service page."
+    },
+    {
+      "id": "2026-05-30-fire-damage-restoration-process",
+      "status": "written",
+      "queued_at": "2026-05-30T00:00:00Z",
+      "written_at": "2026-06-08T18:28:25Z",
+      "post_url": "https://narestco.com/blog/fire-damage-restoration-process/",
+      "primary_keyword": "fire damage restoration process",
+      "intent": "informational",
+      "volume": 90,
+      "kd": 8,
+      "fan_out_cluster": [
+        "residential fire damage restoration process",
+        "fire restoration process step by step",
+        "fire restoration cleaning process",
+        "what does a fire restoration company do",
+        "fire restoration checklist"
+      ],
+      "suggested_slug": "fire-damage-restoration-process",
+      "suggested_title": "The Fire Damage Restoration Process: Step by Step",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/smoke-damage-restoration/",
+        "/services/soot-removal/",
+        "/services/odor-removal/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "smoke-damage-restoration",
+        "soot-removal",
+        "odor-removal"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS700"
+      ],
+      "notes": "Process walkthrough: board-up, assessment, debris removal, soot and smoke cleaning, odor elimination (thermal fogging / ozone), structural drying, reconstruction. KD 8 is very low. Lead with the 7-step framework ChatGPT decomposes the topic into. Mention Tacoma HEPA ordinance as a local compliance note."
+    },
+    {
+      "id": "2026-05-30-what-to-do-after-a-house-fire",
+      "status": "written",
+      "queued_at": "2026-05-30T00:00:00Z",
+      "written_at": "2026-06-11T18:46:51Z",
+      "post_url": "https://narestco.com/blog/what-to-do-after-a-house-fire/",
+      "primary_keyword": "what to do after a house fire",
+      "intent": "informational",
+      "volume": null,
+      "kd": 12,
+      "fan_out_cluster": [
+        "what to do after a house fire checklist",
+        "what to expect after a house fire",
+        "house fire cleanup checklist",
+        "what to throw out after a fire",
+        "fire damage insurance claim steps",
+        "how long does fire damage restoration take"
+      ],
+      "suggested_slug": "what-to-do-after-a-house-fire",
+      "suggested_title": "What to Do After a House Fire: The First 72 Hours",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/smoke-damage-restoration/",
+        "/services/reconstruction/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "smoke-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/fire/if-your-home-is-on-fire.html"
+      ],
+      "notes": "Highest-priority post in this run. KD 12 is very winnable. This is the top-of-funnel post panicked homeowners search in the hours and days after a fire. Structure: wait for clearance, call insurance, document damage, call restoration company, avoid touching soot. Lead with emotional empathy. Strong candidate for AI Overview citation."
+    },
+    {
+      "id": "2026-05-30-does-homeowners-insurance-cover-fire-damage",
+      "status": "written",
+      "queued_at": "2026-05-30T00:00:00Z",
+      "written_at": "2026-06-15T19:50:36Z",
+      "post_url": "https://narestco.com/blog/does-homeowners-insurance-cover-fire-damage/",
+      "primary_keyword": "does homeowners insurance cover fire damage",
+      "intent": "informational",
+      "volume": null,
+      "kd": 29,
+      "fan_out_cluster": [
+        "does homeowners insurance cover house fire",
+        "what does homeowners insurance cover after a fire",
+        "fire damage insurance claim tips",
+        "average insurance payout for fire damage",
+        "does insurance cover smoke damage"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-fire-damage",
+      "suggested_title": "Does Homeowners Insurance Cover Fire Damage? What to Know",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/smoke-damage-restoration/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "smoke-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iii.org/article/does-homeowners-insurance-cover-fire"
+      ],
+      "notes": "Insurance decision-stage post. Companion to the existing water damage insurance post at /blog/does-homeowners-insurance-cover-water-damage/. Answer yes (most policies cover accidental fire + smoke + soot + firefighting water), then cover the exclusions: arson, earthquake-caused fire, flood-adjacent fire. Cross-link to the water damage insurance post."
+    },
+    {
+      "id": "2026-05-30-fire-damage-restoration-cost-per-square-foot",
+      "status": "written",
+      "queued_at": "2026-05-30T00:00:00Z",
+      "written_at": "2026-06-22T19:43:12Z",
+      "post_url": "https://narestco.com/blog/fire-damage-restoration-cost-per-square-foot/",
+      "primary_keyword": "fire damage restoration cost per square foot",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "fire damage restoration cost",
+        "how much does fire damage cleanup cost",
+        "cost to restore fire damaged home",
+        "fire damage repair cost estimate",
+        "how to estimate fire damage costs"
+      ],
+      "suggested_slug": "fire-damage-restoration-cost-per-square-foot",
+      "suggested_title": "Fire Damage Restoration Cost Per Square Foot: 2026 Pricing Guide",
+      "target_word_count": 1200,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/reconstruction/",
+        "/blog/fire-damage-restoration-cost/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "reconstruction"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [],
+      "notes": "Supporting cost post to the main cost article. Focus on per-sqft breakdown: minor smoke ($3-8/sqft), major structural ($15-50/sqft), total loss ($75+/sqft). Internal link to main cost article and reconstruction page. Can be shorter (1200 words). Write after the main fire-damage-restoration-cost post."
+    },
+    {
+      "id": "2026-06-24-mold-remediation-cost-seattle",
+      "status": "written",
+      "queued_at": "2026-06-24T15:47:35Z",
+      "written_at": "2026-06-29T05:55:29Z",
+      "post_url": "https://narestco.com/blog/mold-remediation-cost-seattle/",
+      "primary_keyword": "mold remediation cost",
+      "intent": "informational",
+      "volume": 9900,
+      "kd": 8,
+      "fan_out_cluster": [
+        "mold remediation cost per square foot",
+        "cost to remove black mold",
+        "attic mold removal cost",
+        "crawl space mold remediation cost",
+        "does insurance cover mold remediation",
+        "what drives mold remediation cost"
+      ],
+      "suggested_slug": "mold-remediation-cost-seattle",
+      "suggested_title": "Mold Remediation Cost in Seattle: 2026 Price Guide",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/service-areas/seattle-wa/",
+        "/blog/black-mold-vs-regular-mold/"
+      ],
+      "service_tags": [
+        "mold-remediation"
+      ],
+      "city_anchor": "seattle-wa",
+      "external_authority_candidates": [],
+      "notes": "Top pick: 9900 vol, KD 8. Localize price ranges to the wet Puget Sound market."
+    },
+    {
+      "id": "2026-06-24-crawl-space-mold-removal-federal-way",
+      "status": "written",
+      "queued_at": "2026-06-24T15:47:35Z",
+      "written_at": "2026-07-02T17:40:26Z",
+      "post_url": "https://narestco.com/blog/crawl-space-mold-removal-federal-way/",
+      "primary_keyword": "crawl space mold removal",
+      "intent": "commercial",
+      "volume": 1900,
+      "kd": null,
+      "fan_out_cluster": [
+        "crawl space mold removal cost",
+        "crawl space encapsulation mold",
+        "vapor barrier crawl space mold",
+        "signs of crawl space mold",
+        "crawl space mold health risks",
+        "preventing crawl space mold in a wet climate"
+      ],
+      "suggested_slug": "crawl-space-mold-removal-federal-way",
+      "suggested_title": "Crawl Space Mold Removal in Federal Way: Why Puget Sound Homes Are Prone to It",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/service-areas/federal-way-wa/"
+      ],
+      "service_tags": [
+        "mold-remediation"
+      ],
+      "city_anchor": "federal-way-wa",
+      "external_authority_candidates": [],
+      "notes": "Highly relevant for PNW crawl spaces (rain + vented crawl spaces). CPC $29, vol 1900. Anchored to primary city."
+    },
+    {
+      "id": "2026-06-24-mold-inspection-cost-bellevue",
+      "status": "queued",
+      "queued_at": "2026-06-24T15:47:35Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "mold inspection cost",
+      "intent": "informational",
+      "volume": 5400,
+      "kd": null,
+      "fan_out_cluster": [
+        "mold testing cost",
+        "mold inspection vs testing",
+        "is a mold inspection worth it",
+        "how much is a mold test",
+        "when to get a mold inspection",
+        "mold inspection process"
+      ],
+      "suggested_slug": "mold-inspection-cost-bellevue",
+      "suggested_title": "Mold Inspection Cost in Bellevue: What to Expect",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/mold-inspection-testing/",
+        "/service-areas/bellevue-wa/"
+      ],
+      "service_tags": [
+        "mold-inspection-testing",
+        "mold-remediation"
+      ],
+      "city_anchor": "bellevue-wa",
+      "external_authority_candidates": [],
+      "notes": "Distinct from remediation cost; ties to their mold-inspection-testing service. LOW comp, vol 5400."
+    },
+    {
+      "id": "2026-06-24-attic-mold-removal-tacoma",
+      "status": "queued",
+      "queued_at": "2026-06-24T15:47:35Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "attic mold removal",
+      "intent": "informational",
+      "volume": 2400,
+      "kd": null,
+      "fan_out_cluster": [
+        "what causes attic mold",
+        "attic mold removal cost",
+        "attic ventilation and mold",
+        "roof leak attic mold",
+        "is attic mold dangerous",
+        "how to prevent attic mold"
+      ],
+      "suggested_slug": "attic-mold-removal-tacoma",
+      "suggested_title": "Attic Mold Removal in Tacoma: Causes, Cost, and Prevention",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/services/roof-leak-repair/",
+        "/service-areas/tacoma-wa/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "roof-leak-repair"
+      ],
+      "city_anchor": "tacoma-wa",
+      "external_authority_candidates": [],
+      "notes": "Ties mold to roof-leak service (roof leaks -> attic mold), big in rainy Tacoma. CPC $25, vol 2400."
+    },
+    {
+      "id": "2026-06-24-does-insurance-cover-mold-remediation-everett",
+      "status": "queued",
+      "queued_at": "2026-06-24T15:47:35Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does insurance cover mold remediation",
+      "intent": "informational",
+      "volume": 880,
+      "kd": 22,
+      "fan_out_cluster": [
+        "is mold covered by homeowners insurance",
+        "mold from water damage insurance",
+        "filing a mold claim",
+        "mold exclusions in insurance policy",
+        "sudden vs gradual mold coverage",
+        "documenting mold for a claim"
+      ],
+      "suggested_slug": "does-insurance-cover-mold-remediation-everett",
+      "suggested_title": "Does Insurance Cover Mold Remediation? An Everett Homeowner's Guide",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/service-areas/everett-wa/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "city_anchor": "everett-wa",
+      "external_authority_candidates": [
+        "https://www.iii.org/article/what-covered-standard-homeowners-policy"
+      ],
+      "notes": "Decision-stage, KD 22. Links to existing water-damage insurance post."
+    },
+    {
+      "id": "2026-07-02-pin-best-flood-damage-restoration-company-in-bellevu",
+      "status": "published",
+      "queued_at": "2026-07-02T17:41:02.653193+00:00",
+      "prioritized": true,
+      "source": "strategist-pin",
+      "primary_keyword": "best flood damage restoration company in Bellevue, WA",
+      "intent": "commercial",
+      "volume": null,
+      "kd": null,
+      "target_word_count": 1500,
+      "city_anchor": "bellevue-wa",
+      "notes": "Pinned from AI Search. Write an honest, locally-specific guide that positions this business on verifiable strengths (certifications, license, response time, reviews) \u2014 NOT a self-ranking 'best companies' list.",
+      "written_at": "2026-07-06T18:40:36Z",
+      "post_url": "https://narestco.com/blog/best-flood-damage-restoration-company-in-bellevue-wa/",
+      "published_verified_at": "2026-07-06T18:41:43Z"
+    },
+    {
+      "id": "2026-07-02-pin-mold-removal",
+      "status": "published",
+      "queued_at": "2026-07-02T17:41:02.653193+00:00",
+      "prioritized": true,
+      "source": "strategist-pin",
+      "primary_keyword": "mold removal",
+      "intent": "commercial",
+      "volume": null,
+      "kd": null,
+      "target_word_count": 1500,
+      "notes": "Pinned from AI Search. Write an honest, locally-specific guide that positions this business on verifiable strengths (certifications, license, response time, reviews) \u2014 NOT a self-ranking 'best companies' list.",
+      "written_at": "2026-07-09T18:14:55Z",
+      "post_url": "https://narestco.com/blog/mold-removal/",
+      "published_verified_at": "2026-07-09T18:16:02Z"
+    },
+    {
+      "id": "2026-07-02-pin-best-water-damage-restoration-company-in-bellevu",
+      "status": "written",
+      "queued_at": "2026-07-02T17:41:02.653193+00:00",
+      "prioritized": true,
+      "source": "strategist-pin",
+      "primary_keyword": "best water damage restoration company in Bellevue, WA",
+      "intent": "commercial",
+      "volume": null,
+      "kd": null,
+      "target_word_count": 1500,
+      "city_anchor": "bellevue-wa",
+      "notes": "Pinned from AI Search. Write an honest, locally-specific guide that positions this business on verifiable strengths (certifications, license, response time, reviews) \u2014 NOT a self-ranking 'best companies' list.",
+      "written_at": "2026-07-13T18:11:39Z",
+      "post_url": "https://narestco.com/blog/best-water-damage-restoration-company-in-bellevue-wa/"
+    },
+    {
+      "id": "2026-07-09-does-homeowners-insurance-cover-storm-damage",
+      "status": "queued",
+      "queued_at": "2026-07-09T18:09:50Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does homeowners insurance cover storm damage",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "does insurance cover wind damage",
+        "does insurance cover fallen tree damage to house",
+        "what storm damage is not covered by insurance",
+        "does homeowners insurance cover roof storm damage",
+        "storm damage insurance claim tips",
+        "filing a storm damage claim in Washington"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-storm-damage",
+      "suggested_title": "Does Homeowners Insurance Cover Storm Damage? What Washington Homeowners Should Know",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/storm-damage-restoration/",
+        "/services/roof-leak-repair/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/blog/storm-damage-insurance-claim-checklist/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "storm-damage-restoration",
+        "roof-leak-repair"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iii.org/article/does-homeowners-insurance-cover-wind-damage"
+      ],
+      "notes": "Companion to the existing water and fire insurance posts. Answer yes for sudden storm, wind, and hail events plus firefighting-style water, then cover exclusions (flood and storm surge need a separate flood policy, gradual leaks, poor maintenance). Frame for the Pacific Northwest reality: winter windstorms, atmospheric rivers, and falling trees, not hurricanes or tornadoes. Cross-link to the storm damage insurance claim checklist. DataForSEO was unavailable at research time, so volume and KD are pending backfill; queued via intent-first (uncovered, high-intent decision-stage informational)."
+    },
+    {
+      "id": "2026-07-09-what-to-do-after-storm-damage",
+      "status": "queued",
+      "queued_at": "2026-07-09T18:09:50Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what to do after storm damage to your home",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "what to do after a windstorm",
+        "storm damage cleanup steps",
+        "how to secure your home after storm damage",
+        "documenting storm damage for insurance",
+        "when to call a storm damage restoration company",
+        "temporary roof tarping after a storm"
+      ],
+      "suggested_slug": "what-to-do-after-storm-damage",
+      "suggested_title": "What to Do After Storm Damage to Your Home: The First 72 Hours",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/storm-damage-restoration/",
+        "/services/roof-leak-repair/",
+        "/services/water-damage-restoration/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "storm-damage-restoration",
+        "roof-leak-repair",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.ready.gov/severe-weather"
+      ],
+      "notes": "Top-of-funnel emergency guide for homeowners in the hours after a Puget Sound windstorm or atmospheric river. Lead with safety (stay clear of downed power lines and unstable trees), then: document damage, contact insurer, temporary tarping and board-up to stop further water intrusion, and when to call a pro. Strong AI Overview citation candidate. DataForSEO was unavailable at research time; volume and KD pending backfill; queued via intent-first."
+    },
+    {
+      "id": "2026-07-09-storm-damage-repair-cost",
+      "status": "queued",
+      "queued_at": "2026-07-09T18:09:50Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how much does storm damage repair cost",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "storm damage roof repair cost",
+        "wind damage repair cost",
+        "fallen tree removal cost",
+        "storm damage restoration cost per square foot",
+        "emergency roof tarping cost",
+        "does insurance pay for storm damage repair"
+      ],
+      "suggested_slug": "storm-damage-repair-cost",
+      "suggested_title": "How Much Does Storm Damage Repair Cost? A 2026 Homeowner's Guide",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/storm-damage-restoration/",
+        "/services/roof-leak-repair/",
+        "/services/reconstruction/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "storm-damage-restoration",
+        "roof-leak-repair",
+        "reconstruction"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [],
+      "notes": "Cost decision-stage post. Break down realistic ranges by damage type: minor debris and cleanup, roof tarping and repair, fallen-tree impact, structural water intrusion, and full reconstruction. Note how insurance offsets out-of-pocket cost and where deductibles apply. Cross-link to the storm insurance-coverage post and the reconstruction service. DataForSEO was unavailable at research time; volume and KD pending backfill; queued via intent-first."
+    },
+    {
+      "id": "2026-07-15-who-pays-for-crime-scene-cleanup-washington",
+      "status": "written",
+      "queued_at": "2026-07-15T02:14:14Z",
+      "written_at": "2026-07-16T17:26:38Z",
+      "post_url": "https://narestco.com/blog/who-pays-for-crime-scene-cleanup-washington/",
+      "primary_keyword": "who pays for crime scene cleanup in washington state",
+      "intent": "informational",
+      "volume": 20,
+      "kd": null,
+      "fan_out_cluster": [
+        "does insurance cover crime scene cleanup",
+        "crime scene cleanup cost",
+        "washington crime victims compensation cleanup",
+        "is crime scene cleanup covered by homeowners insurance"
+      ],
+      "suggested_slug": "who-pays-for-crime-scene-cleanup-washington",
+      "suggested_title": "Who Pays for Crime Scene Cleanup in Washington State?",
+      "service_tags": [
+        "crime-scene-cleanup",
+        "trauma-scene-cleanup"
+      ],
+      "prioritized": true,
+      "source": "trauma-focus-2026-07",
+      "notes": "TONE: compassionate, discreet, family-first. No urgency hype. Mention insurance handled + 24/7 discreet arrival."
+    },
+    {
+      "id": "2026-07-15-does-homeowners-insurance-cover-biohazard-cleanup",
+      "status": "queued",
+      "queued_at": "2026-07-15T02:14:14Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does homeowners insurance cover biohazard cleanup",
+      "intent": "informational",
+      "volume": 30,
+      "kd": null,
+      "fan_out_cluster": [
+        "biohazard cleanup cost",
+        "what is considered a biohazard",
+        "biohazard cleanup insurance claim",
+        "who cleans up after a death in a home"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-biohazard-cleanup",
+      "suggested_title": "Does Homeowners Insurance Cover Biohazard Cleanup?",
+      "service_tags": [
+        "biohazard-cleanup"
+      ],
+      "prioritized": true,
+      "source": "trauma-focus-2026-07",
+      "notes": "TONE: compassionate, discreet, family-first. No urgency hype. Mention insurance handled + 24/7 discreet arrival."
+    },
+    {
+      "id": "2026-07-15-what-happens-after-an-unattended-death",
+      "status": "queued",
+      "queued_at": "2026-07-15T02:14:14Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what happens after an unattended death is discovered",
+      "intent": "informational",
+      "volume": 10,
+      "kd": null,
+      "fan_out_cluster": [
+        "unattended death cleanup",
+        "who do you call after an unattended death",
+        "how long does decomposition cleanup take",
+        "unattended death cleanup cost"
+      ],
+      "suggested_slug": "what-happens-after-an-unattended-death",
+      "suggested_title": "What Happens After an Unattended Death Is Discovered: A Family's Guide",
+      "service_tags": [
+        "unattended-death-cleanup",
+        "trauma-scene-cleanup"
+      ],
+      "prioritized": true,
+      "source": "trauma-focus-2026-07",
+      "notes": "TONE: compassionate, discreet, family-first. No urgency hype. Mention insurance handled + 24/7 discreet arrival."
+    },
+    {
+      "id": "2026-07-15-how-long-does-trauma-scene-cleanup-take",
+      "status": "queued",
+      "queued_at": "2026-07-15T02:14:14Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how long does trauma scene cleanup take",
+      "intent": "informational",
+      "volume": 10,
+      "kd": null,
+      "fan_out_cluster": [
+        "trauma scene cleaning process",
+        "what do trauma cleaners do",
+        "blood cleanup services",
+        "can family clean up a trauma scene"
+      ],
+      "suggested_slug": "how-long-does-trauma-scene-cleanup-take",
+      "suggested_title": "How Long Does Trauma Scene Cleanup Take? What Families Should Expect",
+      "service_tags": [
+        "trauma-scene-cleanup",
+        "crime-scene-cleanup"
+      ],
+      "prioritized": true,
+      "source": "trauma-focus-2026-07",
+      "notes": "TONE: compassionate, discreet, family-first. No urgency hype. Mention insurance handled + 24/7 discreet arrival."
+    }
+  ]
 }
