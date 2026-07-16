@@ -297,9 +297,12 @@ def should_call_today(contact, today):
     return False
 
 HIDDEN_TODAY = []   # (name, company, reason) collected by filter_for_today
+EXTRA_HIDDEN = []   # (name, company, reason) injected by the pipeline (e.g. Waiting-stage
+                    # contacts with NO follow-up date — otherwise invisible forever)
 
 def filter_for_today(results, today):
     HIDDEN_TODAY.clear()
+    HIDDEN_TODAY.extend(EXTRA_HIDDEN)
     filtered = {}
     for label, stages in results.items():
         filtered_stages = {}

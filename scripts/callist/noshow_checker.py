@@ -39,8 +39,13 @@ def strip(t): return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", t or "")).strip(
 
 # ---------------- Fathom ----------------
 def fathom_key():
-    for line in open(os.path.expanduser("~/restoration-ai/.env")):
-        if line.startswith("FATHOM_API_KEY="): return line.split("=", 1)[1].strip()
+    if os.environ.get("FATHOM_API_KEY"):        # Railway service variable
+        return os.environ["FATHOM_API_KEY"]
+    try:
+        for line in open(os.path.expanduser("~/restoration-ai/.env")):
+            if line.startswith("FATHOM_API_KEY="): return line.split("=", 1)[1].strip()
+    except Exception:
+        pass
     return ""
 
 def fathom_meetings(since):

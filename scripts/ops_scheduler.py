@@ -28,6 +28,9 @@ HERE = Path(__file__).parent
 DAILY_JOBS = [
     # (name, "HH:MM" UTC, argv)  — 12:20 UTC = 5:20am PT
     ("callist", "12:20", [sys.executable, str(HERE / "callist" / "run_daily.py")]),
+    # No-show / post-demo Fathom routing — ported off the Mac 2026-07-16 (it had
+    # been left behind by the Railway migration and only ran when the Mac was awake).
+    ("noshow", "13:00", [sys.executable, str(HERE / "callist" / "noshow_checker.py")]),
     # Nightly backstop: repo JSON state -> Supabase (all clients), so the app's
     # Content/Sites/Keywords views heal even when a post-publish sync fails.
     # (content_writer.py's inline sync is best-effort; this was the "nightly

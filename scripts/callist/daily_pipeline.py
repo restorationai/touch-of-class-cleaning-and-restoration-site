@@ -113,6 +113,71 @@ def sync_call_notes(pid):
     synced[pid] = sorted(already); S.save_synced(synced)
     log(f"Call notes synced to GHL: {posted} posted, {captured} removal(s) captured")
 
+# "Waiting" stages: the design assumed a GHL date automation promotes contacts to
+# Ready For Follow Up when their follow-up date arrives. It doesn't fire reliably —
+# Abdiel/Jai/Anthony sat past their date and Amar was stuck 3 days (found 2026-07-16).
+# So the pipeline promotes them itself, and flags Waiting contacts with NO date.
+WAITING_STAGES = [
+    # (label, pipeline_id, waiting_stage_id, ready_stage_id)
+    ("Sales",       "hPnHBxO63YMecyG219V5", "eeb9f748-951c-4151-8d46-b9b1936ac638",
+                    "9fb3928a-33e3-4592-a080-56b3f353e56b"),
+    ("Re-Igniting", "KRokx3RqJjNzUg8YCbWk", "d921244c-a9c8-46f5-93f7-a34cc7312d3c",
+                    "ce155700-eb61-4d8b-899a-55baaa7d9a6e"),
+    ("Secured",     "OP4aWjh91AfikmEYKDHk", "fd9c5ac9-0681-4d71-8e69-42bec844a771",
+                    "892dfc0e-cec3-4b43-8a6e-0805348ee723"),
+]
+FOLLOWUP_DATE_FIELD = "n87p94Zb8oGN44feoL5S"
+
+def _parse_followup(val):
+    """Handles '07-16-2026 09:00 AM', '07/16/2026 09:00 AM', and ISO dates."""
+    s = str(val or "").strip().split(" ")[0].replace("/", "-")
+    if not s: return None
+    try:
+        if "-" in s and len(s.split("-")[0]) == 4:          # YYYY-MM-DD
+            y, m, d = s.split("-")
+        else:                                                # MM-DD-YYYY
+            m, d, y = s.split("-")
+        return date(int(y), int(m), int(d))
+    except Exception:
+        return None
+
+def promote_due_followups(today, dry_run=False):
+    """Move Waiting-stage contacts whose follow-up date has arrived to Ready For
+    Follow Up (so they land on today's list), and surface no-date contacts in the
+    'Hidden today' footer instead of letting them stay invisible forever."""
+    from _http import HTTP
+    promoted = 0
+    L.EXTRA_HIDDEN.clear()
+    for label, pip, waiting, ready in WAITING_STAGES:
+        r = HTTP.get(f"{R.GHL_BASE}/opportunities/search", headers=R.GHL_HEADERS,
+                     params={"location_id": R.GHL_LOCATION_ID, "pipeline_id": pip,
+                             "pipeline_stage_id": waiting, "status": "open", "limit": 100})
+        if r.status_code != 200: continue
+        for opp in r.json().get("opportunities", []):
+            contact = opp.get("contact", {}) or {}
+            cid = contact.get("id"); name = contact.get("name") or opp.get("name", "?")
+            if not cid: continue
+            c = HTTP.get(f"{R.GHL_BASE}/contacts/{cid}", headers=R.GHL_HEADERS).json().get("contact", {})
+            val = next((f.get("value") for f in c.get("customFields", [])
+                        if f.get("id") == FOLLOWUP_DATE_FIELD), None)
+            due = _parse_followup(val)
+            if due is None:
+                L.EXTRA_HIDDEN.append((name, contact.get("companyName") or "",
+                                       f"⚠️ in {label} Waiting with NO follow-up date"))
+                continue
+            if due > today:
+                continue
+            if dry_run:
+                log(f"  [dry] would promote {name} ({label}, due {due}) -> Ready For Follow Up")
+                continue
+            if R.move_opp(opp.get("id"), pip, ready):
+                R.post_note(cid, f"📅 Follow-up date {due} arrived — moved to Ready For "
+                                 f"Follow Up (auto-promote; GHL date automation missed it).")
+                log(f"  promoted {name} ({label}) — follow-up date {due} arrived")
+                promoted += 1
+    log(f"Waiting-stage sweep: {promoted} promoted, {len(L.EXTRA_HIDDEN)} with no date flagged")
+    return promoted
+
 def main(dry_run=False):
     today = date.today(); disp = today.strftime("%B %-d, %Y")
     log(f"=== Daily pipeline {today} ({'DRY RUN' if dry_run else 'live'}) ===")
@@ -149,6 +214,11 @@ def main(dry_run=False):
         except Exception as e: log(f"router failed: {e}")
     else:
         log("[dry] skipping live re-scan (would auto-park / resurface)")
+
+    # 6.4 promote Waiting-stage contacts whose follow-up date arrived (GHL's own
+    # date automation proved unreliable), BEFORE the repaint pulls contacts.
+    try: promote_due_followups(today, dry_run=dry_run)
+    except Exception as e: log(f"waiting-stage sweep failed: {e}")
 
     # 6.5 inbox triage — unanswered inbound + drafted replies (📬 Needs a Response)
     if not dry_run:
