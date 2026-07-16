@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Renovations, Remodels and General Contracting in Manhattan, NY | The Restoration Group"
 h1: "Renovations, Remodels and General Contracting in Manhattan"
-meta_description: "24/7 renovations, remodels and general contracting in Manhattan, NY. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 renovations, remodels and general contracting in Manhattan, NY. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "renovations, remodels and general contracting manhattan"
 secondary_keywords: ["general contractor", "home renovation services", "home remodeling", "kitchen remodel", "bathroom remodel", "post-damage rebuild"]
 search_intent: "local_commercial"
@@ -46,4 +46,4 @@ For larger losses that cross unit lines, we can coordinate with the building's i
 
 One thing that catches out-of-market contractors in Manhattan: many pre-war buildings in ZIP code 10021 and surrounding Upper East Side blocks have wet-column plumbing chases — vertical shafts shared by multiple units — that are technically common property even when they run through your kitchen wall. Opening that chase for a pipe repair or a kitchen remodel requires written board approval and, in some buildings, a licensed plumber holding a NYC Master Plumber license specifically (not just a state license). We know to flag this before demolition starts, not after.
 
-If you're rebuilding after a loss or planning a renovation in a Manhattan co-op, condo, or commercial space, call The Restoration Group at (855) 650-7422. We handle the coordination that Manhattan buildings demand — from the alteration agreement to the final inspection — so you're not managing three separate conversations while your unit sits unfinished.
+If you're rebuilding after a loss or planning a renovation in a Manhattan co-op, condo, or commercial space, call The Restoration Group at (908) 970-8533. We handle the coordination that Manhattan buildings demand — from the alteration agreement to the final inspection — so you're not managing three separate conversations while your unit sits unfinished.

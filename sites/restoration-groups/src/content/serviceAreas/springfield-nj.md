@@ -2,7 +2,7 @@
 archetype: "service-area"
 title: "Restoration Services in Springfield, NJ | The Restoration Group"
 h1: "Restoration Services in Springfield"
-meta_description: "Serving Springfield, NJ with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (855) 650-7422."
+meta_description: "Serving Springfield, NJ with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (908) 970-8533."
 primary_keyword: "restoration services springfield"
 secondary_keywords: ["springfield restoration company", "damage restoration springfield", "springfield disaster restoration"]
 search_intent: "local_commercial"
@@ -53,4 +53,4 @@ The Restoration Group is based in Kenilworth, which puts Springfield a short dri
 
 A property manager overseeing a townhome complex near the Millburn line called us after a water heater failed overnight and saturated the finished lower level of one unit — and the adjacent unit's shared wall. By the time the damage was discovered the next morning, drywall on both sides of the party wall had absorbed significant moisture. We arrived, assessed both units, set containment to prevent cross-contamination, and began drying equipment in parallel so neither household faced an extended displacement. The property manager coordinated directly with us on documentation for the HOA's insurance carrier. This scenario is representative of the multi-unit losses we handle regularly in Springfield.
 
-If you're dealing with water, fire, mold, or structural damage anywhere in Springfield Township — from the Route 22 commercial strip to a cape cod near Jonathan Dayton High School or a home backing up to Meisel Avenue Park — call The Restoration Group at **(855) 650-7422**. We're available around the clock and ready to respond.
+If you're dealing with water, fire, mold, or structural damage anywhere in Springfield Township — from the Route 22 commercial strip to a cape cod near Jonathan Dayton High School or a home backing up to Meisel Avenue Park — call The Restoration Group at **(908) 970-8533**. We're available around the clock and ready to respond.

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Emergency Board-Up and Tarping in Summit, NJ | The Restoration Group"
 h1: "Emergency Board-Up and Tarping in Summit"
-meta_description: "24/7 emergency board-up and tarping in Summit, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 emergency board-up and tarping in Summit, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "emergency board-up and tarping summit"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -46,4 +46,4 @@ Board-up and tarping costs are almost universally covered under the "protection 
 
 Slate roofs in Summit's older neighborhoods present a specific tarping challenge that crews unfamiliar with the housing stock routinely get wrong: the battens holding slate tiles are often the only structurally sound attachment point left after a wind event, and driving fasteners through them to anchor a tarp can crack adjacent tiles that were otherwise undamaged. We use weighted perimeter ballast and ridge-line tie-offs wherever the deck condition allows, reserving mechanical fasteners for areas where the sheathing is confirmed solid. It takes longer to rig, but it avoids turning a 10-tile loss into a 40-tile loss — a distinction that matters considerably when matching hand-split Vermont slate that has been on the same Northside roof since 1912.
 
-If your Summit property has been damaged by fire, storm, or a sudden structural failure, call (855) 650-7422 now. The Restoration Group is available 24/7 to board up openings, tarp exposed roofing, and secure the structure so that the damage stops where it is — protecting the original character of your home while the recovery process begins.
+If your Summit property has been damaged by fire, storm, or a sudden structural failure, call (908) 970-8533 now. The Restoration Group is available 24/7 to board up openings, tarp exposed roofing, and secure the structure so that the damage stops where it is — protecting the original character of your home while the recovery process begins.

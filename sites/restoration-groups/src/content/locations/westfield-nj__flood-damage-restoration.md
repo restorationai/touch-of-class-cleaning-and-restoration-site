@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Flood Damage Restoration in Westfield, NJ | The Restoration Group"
 h1: "Flood Damage Restoration in Westfield"
-meta_description: "24/7 flood damage restoration in Westfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 flood damage restoration in Westfield, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "flood damage restoration westfield"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -54,4 +54,4 @@ Flood losses in Westfield frequently involve two separate policies: standard hom
 
 In Westfield's Indian Forest and older sections of The Gardens, many homes were renovated in the 1970s and 1980s with fiberglass batt insulation stuffed into basement rim joists — a detail that becomes a problem after a flood. That insulation acts like a sponge, holding moisture against the wood framing long after the visible water is gone. Thermal imaging almost always reveals elevated readings in those cavities even when the finished basement surface feels dry. We pull and replace that insulation as a standard step on any basement flood job in pre-1960 Westfield homes, because leaving it in place is the most common reason a "dried" basement develops mold six weeks later.
 
-If your Westfield home has taken on water — whether from Robinson's Branch overflowing, a sump that couldn't keep up, or a roof breach after a storm — call The Restoration Group at (855) 650-7422. We'll have a crew scoping your property the same day, with a written drying plan before we leave.
+If your Westfield home has taken on water — whether from Robinson's Branch overflowing, a sump that couldn't keep up, or a roof breach after a storm — call The Restoration Group at (908) 970-8533. We'll have a crew scoping your property the same day, with a written drying plan before we leave.

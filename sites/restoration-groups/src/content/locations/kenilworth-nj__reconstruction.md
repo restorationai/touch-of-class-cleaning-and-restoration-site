@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Reconstruction Services in Kenilworth, NJ | The Restoration Group"
 h1: "Reconstruction Services in Kenilworth"
-meta_description: "24/7 reconstruction services in Kenilworth, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 reconstruction services in Kenilworth, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "reconstruction services kenilworth"
 secondary_keywords: ["post-damage reconstruction", "rebuild services", "structural reconstruction", "post-disaster rebuilding", "fire damage reconstruction"]
 search_intent: "local_commercial"
@@ -51,4 +51,4 @@ For commercial properties along the Monroe Avenue corridor or in the redevelopin
 
 One thing that catches out-of-area contractors in Kenilworth: the borough's pre-war colonials often have original 3-inch cast-iron drain stacks that are still functional but don't connect to modern PVC fittings without a transition coupling. When fire or water damage requires opening a wall that contains one of these stacks, replacing just the damaged section means sourcing the right no-hub couplings and scheduling a separate plumbing inspection — a step that adds a few days to the timeline if you don't anticipate it. We've run into this enough times on streets between South Kenilworth and the Galloping Hill border that it's now a standard line item in our pre-construction checklist for any home built before 1955.
 
-If your property in Kenilworth has sustained fire, water, or storm damage and you're ready to talk about putting it back together the right way, call (855) 650-7422. We're available 24/7, and for addresses in the 07033 ZIP code, we're typically the first crew on-site.
+If your property in Kenilworth has sustained fire, water, or storm damage and you're ready to talk about putting it back together the right way, call (908) 970-8533. We're available 24/7, and for addresses in the 07033 ZIP code, we're typically the first crew on-site.

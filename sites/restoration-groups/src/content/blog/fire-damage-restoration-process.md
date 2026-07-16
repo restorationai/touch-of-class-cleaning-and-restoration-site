@@ -81,4 +81,4 @@ If the fire has been extinguished and the fire department has cleared the proper
 4. **Call your insurance company** to open a claim and ask about advance funds for temporary housing if the home is uninhabitable.
 5. **Contact a restoration contractor** to secure the property and begin assessment — the longer soot sits on metal surfaces, the more corrosion occurs.
 
-If you're in Kenilworth or anywhere in northern New Jersey and you're trying to figure out next steps, The Restoration Group handles both [fire damage restoration](/fire-damage-restoration) and [smoke damage restoration](/smoke-damage-restoration) and can walk you through what the process looks like for your specific situation. Call (855) 650-7422 to talk through what you're dealing with.
+If you're in Kenilworth or anywhere in northern New Jersey and you're trying to figure out next steps, The Restoration Group handles both [fire damage restoration](/fire-damage-restoration) and [smoke damage restoration](/smoke-damage-restoration) and can walk you through what the process looks like for your specific situation. Call (908) 970-8533 to talk through what you're dealing with.

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Fire Damage Restoration in Springfield, NJ | The Restoration Group"
 h1: "Fire Damage Restoration in Springfield"
-meta_description: "24/7 fire damage restoration in Springfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 fire damage restoration in Springfield, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "fire damage restoration springfield"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -52,4 +52,4 @@ Most Springfield fire losses go through homeowner's or commercial property polic
 
 Springfield's pre-1950 homes frequently have original horsehair plaster on interior walls — a material that behaves very differently from modern drywall when exposed to smoke and heat. Plaster is denser and more alkaline, which actually resists soot penetration better on the surface, but the wood lathe behind it can char and hold odor long after the plaster face looks clean. When we scope a fire loss in a Springfield colonial, we probe behind plaster in affected rooms rather than relying on visual inspection alone. Missing that step means odor comes back weeks later — and a callback that should have been caught on day one.
 
-If your home or business in Springfield's 07081 ZIP code has been through a fire — whether a contained kitchen incident or a more significant structural loss — call (855) 650-7422. We'll assess the full scope, work directly with your insurance carrier, and restore the structure to pre-loss condition without cutting corners on the chemistry or the documentation.
+If your home or business in Springfield's 07081 ZIP code has been through a fire — whether a contained kitchen incident or a more significant structural loss — call (908) 970-8533. We'll assess the full scope, work directly with your insurance carrier, and restore the structure to pre-loss condition without cutting corners on the chemistry or the documentation.

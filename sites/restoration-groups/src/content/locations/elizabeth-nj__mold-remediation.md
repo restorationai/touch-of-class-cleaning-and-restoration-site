@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Remediation in Elizabeth, NJ | The Restoration Group"
 h1: "Mold Remediation in Elizabeth"
-meta_description: "24/7 mold remediation in Elizabeth, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 mold remediation in Elizabeth, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "mold remediation elizabeth"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
@@ -54,4 +54,4 @@ Elizabeth's landlord-heavy rental market means many mold claims involve both a p
 
 If your building is subject to Union County or City of Elizabeth housing inspections triggered by a tenant complaint, our documentation can also support compliance responses to code enforcement.
 
-If you're dealing with a musty smell, visible growth, or a recent water event in an Elizabeth property, call (855) 650-7422. We'll schedule an assessment, walk you through what we find, and give you a clear picture of what remediation involves before any work begins.
+If you're dealing with a musty smell, visible growth, or a recent water event in an Elizabeth property, call (908) 970-8533. We'll schedule an assessment, walk you through what we find, and give you a clear picture of what remediation involves before any work begins.

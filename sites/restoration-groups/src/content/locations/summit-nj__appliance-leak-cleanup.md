@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Appliance Leak Cleanup in Summit, NJ | The Restoration Group"
 h1: "Appliance Leak Cleanup in Summit"
-meta_description: "24/7 appliance leak cleanup in Summit, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 appliance leak cleanup in Summit, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "appliance leak cleanup summit"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -48,4 +48,4 @@ Appliance leak losses are generally covered under standard homeowners policies a
 
 Something we've learned working in Summit's pre-war homes: plaster walls with a wood-lath substrate behave almost like a sponge compared to modern drywall. After a dishwasher or refrigerator leak, the lath strips behind the plaster absorb water and hold it even after the plaster face reads dry on a pin meter. We extend our drying validation period on these assemblies and use penetrating probes rather than surface-only readings to confirm the structure is genuinely dry before we close out. Skipping that step is how mold ends up behind a wall that was declared dry two weeks earlier — and in a home near Overlook Medical Center or the Reeves-Reed Arboretum that's been in a family for generations, that's not an acceptable outcome.
 
-If an appliance leak has already reached your floors, walls, or basement in Summit, call (855) 650-7422 now. The Restoration Group's IICRC Certified Firm team — Firm #210213 — is available around the clock and carries NJ Licensed Home Improvement Contractor status through the NJ Division of Consumer Affairs, so the work we do is documented, warranted, and built to the standard your home deserves.
+If an appliance leak has already reached your floors, walls, or basement in Summit, call (908) 970-8533 now. The Restoration Group's IICRC Certified Firm team — Firm #210213 — is available around the clock and carries NJ Licensed Home Improvement Contractor status through the NJ Division of Consumer Affairs, so the work we do is documented, warranted, and built to the standard your home deserves.

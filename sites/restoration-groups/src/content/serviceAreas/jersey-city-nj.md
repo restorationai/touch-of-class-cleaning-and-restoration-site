@@ -2,7 +2,7 @@
 archetype: "service-area"
 title: "Restoration Services in Jersey City, NJ | The Restoration Group"
 h1: "Restoration Services in Jersey City"
-meta_description: "Serving Jersey City, NJ with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (855) 650-7422."
+meta_description: "Serving Jersey City, NJ with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (908) 970-8533."
 primary_keyword: "restoration services jersey city"
 secondary_keywords: ["jersey city restoration company", "damage restoration jersey city", "jersey city disaster restoration"]
 search_intent: "local_commercial"
@@ -53,4 +53,4 @@ Kenilworth sits roughly 12 to 15 miles from Jersey City, with the most direct ro
 
 A property manager overseeing a 24-unit building near the Grove Street PATH plaza called after a second-floor supply line failed overnight and water had been running into the units below for several hours. When our crew arrived, three units showed active standing water and two more had elevated moisture readings behind walls with no visible damage yet. We extracted standing water, deployed drying equipment across all five affected units simultaneously, and produced a unit-by-unit moisture log within 24 hours — the format the building's insurer required before authorizing repairs. Dryout was complete within four days. *(This scenario is representative of the type of work we do; it is not attributed to a specific named client.)*
 
-If you're dealing with water, fire, mold, or sewage damage anywhere in Jersey City, call The Restoration Group at **(855) 650-7422** — we answer every hour of every day and can begin coordinating your response immediately.
+If you're dealing with water, fire, mold, or sewage damage anywhere in Jersey City, call The Restoration Group at **(908) 970-8533** — we answer every hour of every day and can begin coordinating your response immediately.

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Appliance Leak Cleanup in Kenilworth, NJ | The Restoration Group"
 h1: "Appliance Leak Cleanup in Kenilworth"
-meta_description: "24/7 appliance leak cleanup in Kenilworth, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 appliance leak cleanup in Kenilworth, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "appliance leak cleanup kenilworth"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -46,4 +46,4 @@ Appliance leaks are among the most commonly covered water losses under standard 
 
 One thing we've learned working Kenilworth specifically: homes in the blocks closest to Black Brook Park and the storm drain network along that corridor tend to have higher ambient moisture levels in their basements year-round — not just after events like the September 2021 flooding from Ida. That chronic dampness means that when an appliance leak adds water to an already-elevated moisture environment, mold colonization can begin faster than the standard 48–72 hour window you'll read about elsewhere. If your home is in that zone and you've had a leak sitting for more than a day, ask us to run a baseline moisture assessment on the surrounding materials even if the visible water is already cleaned up.
 
-If water from an appliance has reached your floors, walls, or basement in Kenilworth, call The Restoration Group at **(855) 650-7422** — we're already in the borough, we're available around the clock, and we'll have eyes on the damage and a drying plan in place before the situation gets worse.
+If water from an appliance has reached your floors, walls, or basement in Kenilworth, call The Restoration Group at **(908) 970-8533** — we're already in the borough, we're available around the clock, and we'll have eyes on the damage and a drying plan in place before the situation gets worse.

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Fire Damage Restoration in Newark, NJ | The Restoration Group"
 h1: "Fire Damage Restoration in Newark"
-meta_description: "24/7 fire damage restoration in Newark, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 fire damage restoration in Newark, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "fire damage restoration newark"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -52,4 +52,4 @@ New Jersey's Division of Consumer Affairs licensing requirements mean our contra
 
 In Newark's Ironbound neighborhood, many older buildings have interior courtyards and shared rear structures that aren't visible from the street — and aren't always reflected accurately in county property records. Firefighting water from a rear-structure fire can drain toward the main building's foundation before anyone realizes the exposure. On Ironbound jobs, we walk the full parcel before finalizing scope, because the damage footprint is often larger than the fire report describes.
 
-If smoke is still in the air at a Newark property, call (855) 650-7422. Our IICRC Certified Firm team is available around the clock, and we'll have eyes on the structure and a scope started before most contractors return a voicemail.
+If smoke is still in the air at a Newark property, call (908) 970-8533. Our IICRC Certified Firm team is available around the clock, and we'll have eyes on the structure and a scope started before most contractors return a voicemail.

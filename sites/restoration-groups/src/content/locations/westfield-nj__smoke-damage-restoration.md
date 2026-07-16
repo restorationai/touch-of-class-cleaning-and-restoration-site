@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Smoke Damage Restoration in Westfield, NJ | The Restoration Group"
 h1: "Smoke Damage Restoration in Westfield"
-meta_description: "24/7 smoke damage restoration in Westfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 smoke damage restoration in Westfield, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "smoke damage restoration westfield"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -58,4 +58,4 @@ We bill most major carriers directly and can provide a line-item estimate format
 
 Westfield's original plaster walls — common throughout Wychwood, The Gardens, and the blocks surrounding Downtown Westfield — absorb smoke odor compounds at a molecular level that painted drywall does not. We've found that a single thermal fogging pass, which is often sufficient in newer construction, rarely eliminates odor in pre-war plaster. Our standard protocol for Westfield's older homes includes a minimum 48-hour hydroxyl treatment cycle after fogging, with a sniff-test walkthrough before equipment is removed. It adds time to the job, but it's the difference between a home that smells clean and one that reminds you of the fire every winter when the heat comes on.
 
-If your home has experienced smoke damage — whether from a contained kitchen incident or a larger structural fire — call The Restoration Group at (855) 650-7422. We'll assess the full scope of the damage, explain what the cleanup involves in plain terms, and work directly with your insurance company so the process moves as quickly as the work allows.
+If your home has experienced smoke damage — whether from a contained kitchen incident or a larger structural fire — call The Restoration Group at (908) 970-8533. We'll assess the full scope of the damage, explain what the cleanup involves in plain terms, and work directly with your insurance company so the process moves as quickly as the work allows.

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Commercial Restoration in Brooklyn, NY | The Restoration Group"
 h1: "Commercial Restoration in Brooklyn"
-meta_description: "24/7 commercial restoration in Brooklyn, NY. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 commercial restoration in Brooklyn, NY. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "commercial restoration brooklyn"
 secondary_keywords: ["commercial water damage", "commercial fire damage", "business restoration", "office restoration", "retail restoration"]
 search_intent: "local_b2b"
@@ -60,4 +60,4 @@ We communicate directly with adjusters, provide line-item estimates in Xactimate
 
 In Brooklyn's brownstone belt — particularly in blocks between Park Slope and the Bed-Stuy fringe — commercial spaces in garden-level and cellar units often share a drainage plane with the residential units above. When a commercial tenant experiences a sewage backup or a significant water intrusion, the moisture doesn't stay contained to the commercial floor. It wicks upward through the party floor assembly into the residential unit above, sometimes without visible signs for days. Experienced crews check the floor above as a standard step on any below-grade commercial loss in this building type — not because it's required, but because missing it means a second claim six weeks later.
 
-If your Brooklyn business has taken on water, smoke, or structural damage, call The Restoration Group at (855) 650-7422. We're available around the clock and understand what commercial restoration in this borough actually involves.
+If your Brooklyn business has taken on water, smoke, or structural damage, call The Restoration Group at (908) 970-8533. We're available around the clock and understand what commercial restoration in this borough actually involves.

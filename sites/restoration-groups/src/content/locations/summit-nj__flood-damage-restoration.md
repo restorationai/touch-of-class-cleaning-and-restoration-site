@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Flood Damage Restoration in Summit, NJ | The Restoration Group"
 h1: "Flood Damage Restoration in Summit"
-meta_description: "24/7 flood damage restoration in Summit, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 flood damage restoration in Summit, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "flood damage restoration summit"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -38,7 +38,7 @@ Reconstruction, when needed, is matched to the home's existing finish quality. P
 
 ## Reaching Summit from Kenilworth
 
-From our Kenilworth headquarters, Summit is a straightforward run — typically via Route 22 West to the Broad Street corridor into town, or through Springfield Avenue depending on traffic. We're available around the clock, so a call at 2 a.m. about a pipe that let go in a basement near the Brayton School area or off the New Providence border gets the same response as a midday call. We'll confirm an estimated arrival window when you call (855) 650-7422 so you're not waiting without information.
+From our Kenilworth headquarters, Summit is a straightforward run — typically via Route 22 West to the Broad Street corridor into town, or through Springfield Avenue depending on traffic. We're available around the clock, so a call at 2 a.m. about a pipe that let go in a basement near the Brayton School area or off the New Providence border gets the same response as a midday call. We'll confirm an estimated arrival window when you call (908) 970-8533 so you're not waiting without information.
 
 ## Summit Insurance Coordination
 
@@ -48,4 +48,4 @@ Flood damage claims in Summit frequently involve multiple coverage questions —
 
 One pattern we've seen repeatedly in Summit's older homes near the Reeves-Reed Arboretum neighborhood and along the larger lots off Northside: plaster walls dry significantly more slowly than modern drywall — sometimes 40 to 60 percent longer — because dense three-coat plaster releases absorbed moisture gradually even under aggressive dehumidification. Homeowners sometimes see surface readings drop and assume the wall is done, but the core is still wet. We extend monitoring cycles on plaster assemblies specifically to catch this, and we won't sign off on a drying job until deep-probe readings confirm the full thickness has reached equilibrium. Skipping that step is how mold gets started inside a wall that looked fine at closeout.
 
-If you're dealing with flood damage in Summit right now — whether it's a burst pipe in a finished basement, a backed-up sewer, or stormwater that found its way into a lower level — call (855) 650-7422. We'll walk you through immediate steps to limit the damage while we're in transit, and we'll arrive with the equipment and the care that Summit homes require.
+If you're dealing with flood damage in Summit right now — whether it's a burst pipe in a finished basement, a backed-up sewer, or stormwater that found its way into a lower level — call (908) 970-8533. We'll walk you through immediate steps to limit the damage while we're in transit, and we'll arrive with the equipment and the care that Summit homes require.

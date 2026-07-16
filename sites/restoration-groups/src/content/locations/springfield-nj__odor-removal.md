@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Odor Removal and Deodorization in Springfield, NJ | The Restoration Group"
 h1: "Odor Removal and Deodorization in Springfield"
-meta_description: "24/7 odor removal and deodorization in Springfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 odor removal and deodorization in Springfield, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "odor removal and deodorization springfield"
 secondary_keywords: ["smoke odor removal", "ozone treatment", "hydroxyl deodorization", "thermal fogging", "professional odor elimination"]
 search_intent: "local_specialty"
@@ -53,4 +53,4 @@ Odor removal is frequently a covered loss — smoke damage, sewage backup riders
 
 Springfield's older colonials in the Baltusrol area and along Mountain Avenue frequently have unlined block or stone foundation walls with no vapor barrier — a construction detail common to pre-1960 Union County homes. After a flood event or sump failure, that block absorbs water and holds it for weeks, creating persistent musty odor even after visible moisture is gone. Standard deodorization applied before the block fully dries will need to be repeated. We've learned to check wall moisture readings at the foundation level before signing off on any odor job in these older neighborhoods, because a reading that looks acceptable at mid-wall can still be elevated at the footer — and that residual moisture is what keeps the smell coming back.
 
-If your Springfield home or business is dealing with smoke, flood, sewage, or any persistent odor that hasn't responded to conventional cleaning, call The Restoration Group at (855) 650-7422. We'll identify the source, recommend the right deodorization approach for your specific building, and get the process started.
+If your Springfield home or business is dealing with smoke, flood, sewage, or any persistent odor that hasn't responded to conventional cleaning, call The Restoration Group at (908) 970-8533. We'll identify the source, recommend the right deodorization approach for your specific building, and get the process started.

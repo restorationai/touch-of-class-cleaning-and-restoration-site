@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Reconstruction Services in Union, NJ | The Restoration Group"
 h1: "Reconstruction Services in Union"
-meta_description: "24/7 reconstruction services in Union, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 reconstruction services in Union, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "reconstruction services union"
 secondary_keywords: ["post-damage reconstruction", "rebuild services", "structural reconstruction", "post-disaster rebuilding", "fire damage reconstruction"]
 search_intent: "local_commercial"
@@ -58,4 +58,4 @@ Commercial losses on the Route 22 corridor or at Kean University-adjacent proper
 
 Union's split-levels present a quirk that catches out contractors unfamiliar with the housing stock: the intermediate floor level — the one that sits roughly halfway between grade and the main living floor — is often where the original builder ran the supply plumbing manifold. After a water loss, that level gets remediated, but the framing cavity above it (which feeds into the main-floor subfloor) is easy to miss on a visual inspection. The Restoration Group's project managers probe that cavity with a moisture meter before closing up walls, because discovering trapped moisture after drywall is hung means tearing it back out.
 
-If you're dealing with fire, water, or storm damage to a Union property and need the rebuild handled by a single accountable team — not a handoff between a remediation company and a separate GC — call (855) 650-7422. The Restoration Group manages the reconstruction from structural framing through final finishes, permitted and inspected through Union Township, with insurance documentation built in from day one.
+If you're dealing with fire, water, or storm damage to a Union property and need the rebuild handled by a single accountable team — not a handoff between a remediation company and a separate GC — call (908) 970-8533. The Restoration Group manages the reconstruction from structural framing through final finishes, permitted and inspected through Union Township, with insurance documentation built in from day one.

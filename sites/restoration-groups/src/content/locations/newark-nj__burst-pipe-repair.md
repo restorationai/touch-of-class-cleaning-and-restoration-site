@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Burst Pipe Cleanup and Repair in Newark, NJ | The Restoration Group"
 h1: "Burst Pipe Cleanup and Repair in Newark"
-meta_description: "24/7 burst pipe cleanup and repair in Newark, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 burst pipe cleanup and repair in Newark, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "burst pipe cleanup and repair newark"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -20,7 +20,7 @@ state: "NJ"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
-Newark winters hit hard, and when temperatures drop below freezing after a stretch of mild days — the kind of weather pattern that catches older buildings off guard — the pipes inside uninsulated exterior walls and unheated crawl spaces don't stand a chance. A single riser failure in one of the Ironbound's brick three-families can push hundreds of gallons through three stacked apartments before anyone reaches the shutoff. When that happens, the clock matters more than anything else, and The Restoration Group is reachable around the clock at (855) 650-7422.
+Newark winters hit hard, and when temperatures drop below freezing after a stretch of mild days — the kind of weather pattern that catches older buildings off guard — the pipes inside uninsulated exterior walls and unheated crawl spaces don't stand a chance. A single riser failure in one of the Ironbound's brick three-families can push hundreds of gallons through three stacked apartments before anyone reaches the shutoff. When that happens, the clock matters more than anything else, and The Restoration Group is reachable around the clock at (908) 970-8533.
 
 ## Why Newark Properties See Burst Pipe Problems
 
@@ -56,4 +56,4 @@ For institutional clients near the arena district or the universities, we're als
 
 One thing that surprises property owners in the Ironbound and other low-lying Newark neighborhoods: when a burst pipe event happens during or just after a significant rain, the moisture readings inside wall cavities are often elevated before we even start drying — not just from the pipe break, but from ambient humidity driven by the area's proximity to the Passaic River and the city's combined sewer system. We account for that baseline when setting drying targets, because hitting standard dry numbers in a building that sits at higher ambient humidity requires more aggressive dehumidification and longer run times than the same job in a drier part of the state. Skipping that step means callbacks.
 
-If you're dealing with a burst pipe anywhere in Newark right now, call (855) 650-7422. The Restoration Group is an IICRC Certified Firm (#210213) and a licensed New Jersey Home Improvement Contractor — we carry the documentation your insurance company and your tenants will ask for, and we're ready to move the moment you call.
+If you're dealing with a burst pipe anywhere in Newark right now, call (908) 970-8533. The Restoration Group is an IICRC Certified Firm (#210213) and a licensed New Jersey Home Improvement Contractor — we carry the documentation your insurance company and your tenants will ask for, and we're ready to move the moment you call.

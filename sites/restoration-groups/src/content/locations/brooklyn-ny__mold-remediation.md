@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Remediation in Brooklyn, NY | The Restoration Group"
 h1: "Mold Remediation in Brooklyn"
-meta_description: "24/7 mold remediation in Brooklyn, NY. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 mold remediation in Brooklyn, NY. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "mold remediation brooklyn"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
@@ -46,4 +46,4 @@ We prepare the documentation packages that management companies and insurers act
 
 One thing worth knowing if you own or manage a pre-war rowhouse in Brooklyn Heights or Park Slope: original horsehair plaster absorbs water at a slower rate than modern drywall, but it also releases moisture more slowly during drying. Air movers alone won't do the job — effective drying in these walls requires a combination of desiccant dehumidification and extended monitoring, often 30 to 50 percent longer than a comparable modern construction project. Rushing the drying phase to close out a job faster is one of the most common reasons mold returns in these buildings within a season.
 
-If you're dealing with visible mold growth, a persistent musty odor, or water damage that wasn't fully dried after a flood or leak, call The Restoration Group at (855) 650-7422. We're available around the clock and respond to Brooklyn addresses from our NY-metro operations — ready to assess the situation, contain the problem, and give you documentation your insurer and building management will accept.
+If you're dealing with visible mold growth, a persistent musty odor, or water damage that wasn't fully dried after a flood or leak, call The Restoration Group at (908) 970-8533. We're available around the clock and respond to Brooklyn addresses from our NY-metro operations — ready to assess the situation, contain the problem, and give you documentation your insurer and building management will accept.

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Smoke Damage Restoration in Newark, NJ | The Restoration Group"
 h1: "Smoke Damage Restoration in Newark"
-meta_description: "24/7 smoke damage restoration in Newark, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 smoke damage restoration in Newark, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "smoke damage restoration newark"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -46,4 +46,4 @@ Most fire losses in Newark run through standard homeowners or landlord policies,
 
 Newark's older brick buildings absorb smoke odor into the mortar joints in a way that surprises homeowners who expect a quick surface clean to solve the problem. Mortar is highly porous and, unlike painted drywall, can't simply be wiped and sealed — it holds odor compounds deep in the matrix. In Forest Hill colonials and Ironbound rowhouses alike, we've found that thermal fogging alone isn't enough; those masonry surfaces often need a penetrating sealant applied after cleaning to lock in residual odor compounds before repainting. Skipping that step is the most common reason smoke smell returns six weeks after a restoration that looked complete on the surface.
 
-If your property in Newark is dealing with smoke residue — whether from a contained kitchen fire or a multi-unit loss — call The Restoration Group at (855) 650-7422. We'll assess the full scope, work directly with your insurance carrier, and get every affected space back to a safe, livable condition.
+If your property in Newark is dealing with smoke residue — whether from a contained kitchen fire or a multi-unit loss — call The Restoration Group at (908) 970-8533. We'll assess the full scope, work directly with your insurance carrier, and get every affected space back to a safe, livable condition.

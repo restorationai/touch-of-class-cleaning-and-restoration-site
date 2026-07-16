@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Remediation in Union, NJ | The Restoration Group"
 h1: "Mold Remediation in Union"
-meta_description: "24/7 mold remediation in Union, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 mold remediation in Union, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "mold remediation union"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
@@ -43,7 +43,7 @@ The process itself follows the IICRC S520 mold remediation standard:
 
 ## Reaching Union from Kenilworth
 
-The Restoration Group is based in Kenilworth, which shares a direct border with Union Township — the crew is not driving in from across the county. Whether the call comes from a homeowner near Galloping Hill Golf Course or a property manager handling a commercial loss in the Union Center business district, dispatch is straightforward. Because our hours are 24/7, a mold concern discovered on a Sunday evening or after a late-night storm gets the same response as a weekday morning call at (855) 650-7422.
+The Restoration Group is based in Kenilworth, which shares a direct border with Union Township — the crew is not driving in from across the county. Whether the call comes from a homeowner near Galloping Hill Golf Course or a property manager handling a commercial loss in the Union Center business district, dispatch is straightforward. Because our hours are 24/7, a mold concern discovered on a Sunday evening or after a late-night storm gets the same response as a weekday morning call at (908) 970-8533.
 
 ## Local Note
 
@@ -55,4 +55,4 @@ Most mold claims in Union originate from a covered water loss — a burst pipe, 
 
 If the mold predates a covered event or is attributed to long-term seepage, coverage gets more complicated. We can provide the documentation an adjuster needs to make that determination, but we'll tell you honestly upfront what the claim is likely to look like based on what we find during inspection.
 
-If you're dealing with a mold problem in Union Township — whether it's a finished basement in Battle Hill, a commercial space on Route 22, or a slow leak that's been working behind a wall for longer than you'd like to think — call (855) 650-7422. We'll inspect, contain, and clear it to a standard you can document.
+If you're dealing with a mold problem in Union Township — whether it's a finished basement in Battle Hill, a commercial space on Route 22, or a slow leak that's been working behind a wall for longer than you'd like to think — call (908) 970-8533. We'll inspect, contain, and clear it to a standard you can document.

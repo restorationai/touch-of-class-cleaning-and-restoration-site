@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Storm Damage Restoration in Summit, NJ | The Restoration Group"
 h1: "Storm Damage Restoration in Summit"
-meta_description: "24/7 storm damage restoration in Summit, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 storm damage restoration in Summit, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "storm damage restoration summit"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -53,4 +53,4 @@ Most Summit storm claims involve homeowners' policies with ordinance-or-law ride
 
 One pattern we've seen repeatedly in Summit's older wing additions — the kind added to Colonials in the 1940s and 1950s along the Northside blocks — is that storm-driven wind pressure forces water through original single-pane casement windows and into wall cavities that were never insulated. The water doesn't reach the floor; it sits inside the wall at the sill plate level and wicks into the original hardwood subfloor beneath. By the time a homeowner notices a soft spot or a cupped floor board, the cavity has been wet for days. If you've had a significant wind event and your floors feel slightly springy near exterior walls, that's worth a moisture check before the damage compounds.
 
-When a storm leaves your Summit home with a damaged roof, a flooded basement, or a fallen tree through a wall, the recovery window matters. Mold colonization in a wet plaster cavity can begin within 24–48 hours, and Summit's dense older housing stock doesn't forgive delayed drying. Call The Restoration Group at **(855) 650-7422** — we're available around the clock, and we'll have eyes on your property and a clear plan in place before the next weather system moves through.
+When a storm leaves your Summit home with a damaged roof, a flooded basement, or a fallen tree through a wall, the recovery window matters. Mold colonization in a wet plaster cavity can begin within 24–48 hours, and Summit's dense older housing stock doesn't forgive delayed drying. Call The Restoration Group at **(908) 970-8533** — we're available around the clock, and we'll have eyes on your property and a clear plan in place before the next weather system moves through.

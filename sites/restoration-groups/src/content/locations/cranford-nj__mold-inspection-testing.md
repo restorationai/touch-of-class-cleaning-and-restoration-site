@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Inspection and Testing in Cranford, NJ | The Restoration Group"
 h1: "Mold Inspection and Testing in Cranford"
-meta_description: "24/7 mold inspection and testing in Cranford, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 mold inspection and testing in Cranford, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "mold inspection and testing cranford"
 secondary_keywords: ["mold inspection", "mold testing", "indoor air quality testing", "mold spore testing", "mold assessment"]
 search_intent: "local_health"
@@ -50,4 +50,4 @@ If remediation follows the inspection, we can also coordinate post-remediation c
 
 One pattern we see specifically in Cranford homes that back up to or near the Rahway River Parkway corridor: the combination of high ambient humidity during summer months and the clay-heavy soil common along the river's floodplain means that even homes that did not flood can develop elevated indoor mold counts. Moisture migrates through foundation walls from saturated soil, and without a dehumidification system running consistently, basements in this zone routinely read above 60% relative humidity — the threshold above which mold growth accelerates. If your home is in this corridor and you haven't had an indoor air quality test done since the last major storm event, that's the single most useful thing you can do before the next rainy season arrives.
 
-If you're seeing discoloration on basement walls, catching an earthy or musty smell after wet weather, or simply want a documented baseline before listing a Cranford property for sale, call (855) 650-7422. We'll schedule an inspection, walk you through the results in plain language, and give you a clear picture of what — if anything — needs to be addressed.
+If you're seeing discoloration on basement walls, catching an earthy or musty smell after wet weather, or simply want a documented baseline before listing a Cranford property for sale, call (908) 970-8533. We'll schedule an inspection, walk you through the results in plain language, and give you a clear picture of what — if anything — needs to be addressed.

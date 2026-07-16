@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Appliance Leak Cleanup in Brooklyn, NY | The Restoration Group"
 h1: "Appliance Leak Cleanup in Brooklyn"
-meta_description: "24/7 appliance leak cleanup in Brooklyn, NY. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 appliance leak cleanup in Brooklyn, NY. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "appliance leak cleanup brooklyn"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -20,7 +20,7 @@ state: "NY"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
-A refrigerator ice maker line that weeps for weeks behind a cabinet, a washing machine hose that lets go at 2 a.m. in a Park Slope garden apartment, a dishwasher door seal that fails and soaks through a century-old fir subfloor — appliance leaks in Brooklyn rarely behave the way they do in newer construction. The borough's brownstone belt is built on masonry and plaster, and water moves through those materials in ways that a moisture meter alone can miss. Call (855) 650-7422 any time, day or night, and The Restoration Group will dispatch a crew.
+A refrigerator ice maker line that weeps for weeks behind a cabinet, a washing machine hose that lets go at 2 a.m. in a Park Slope garden apartment, a dishwasher door seal that fails and soaks through a century-old fir subfloor — appliance leaks in Brooklyn rarely behave the way they do in newer construction. The borough's brownstone belt is built on masonry and plaster, and water moves through those materials in ways that a moisture meter alone can miss. Call (908) 970-8533 any time, day or night, and The Restoration Group will dispatch a crew.
 
 ## Why Brooklyn Properties See More Appliance Leak Damage
 
@@ -54,4 +54,4 @@ Our crews run 24/7, and Brooklyn is a regular part of our NY-metro service area.
 
 In Brooklyn's brownstone neighborhoods, plaster walls and ceilings are often three-coat lime plaster applied over wood lath — a system that can absorb a significant volume of water before showing visible damage. The catch is that lime plaster releases that moisture slowly and unevenly, which means drying times run roughly 40 to 60 percent longer than comparable drywall assemblies. Crews unfamiliar with pre-war construction sometimes pull equipment too early, leaving residual moisture in the lath cavity that feeds mold weeks after the job closes. We extend monitoring periods on plaster structures and don't sign off on drying clearance until readings are stable across multiple days.
 
-If you're dealing with an appliance leak anywhere in Brooklyn — from a water heater failure in a Canarsie basement to an ice maker line soaking through a Williamsburg kitchen wall — call (855) 650-7422. We document thoroughly, work within your building's access requirements, and carry the paperwork your insurer and co-op board will need to close the claim.
+If you're dealing with an appliance leak anywhere in Brooklyn — from a water heater failure in a Canarsie basement to an ice maker line soaking through a Williamsburg kitchen wall — call (908) 970-8533. We document thoroughly, work within your building's access requirements, and carry the paperwork your insurer and co-op board will need to close the claim.

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Basement Flooding Cleanup in Kenilworth, NJ | The Restoration Group"
 h1: "Basement Flooding Cleanup in Kenilworth"
-meta_description: "24/7 basement flooding cleanup in Kenilworth, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 basement flooding cleanup in Kenilworth, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "basement flooding cleanup kenilworth"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -51,4 +51,4 @@ We document both mechanisms separately when both are present, photograph the wat
 
 One thing that comes up specifically in Kenilworth's prewar capes and colonials: many of these homes were finished in the basement at some point in the 1970s or 1980s using wood-paneled walls furred out from the block foundation. When water gets behind that furring, it sits against the block and the wood framing for days before anyone notices the paneling is soft. By the time the visible damage is obvious, the block cavity is often already growing mold. If your basement has that older paneled finish and you've had any water event — even one that seemed minor — it's worth having the moisture levels behind the walls checked before the next wet season. We carry thermal imaging equipment that can flag elevated moisture through a finished wall without cutting into it.
 
-If you're dealing with a flooded basement anywhere in Kenilworth — whether it's a sump failure in North Kenilworth, a sewer backup near the Black Brook Park corridor, or a burst pipe in a finished lower level — call (855) 650-7422 any hour. We're already close.
+If you're dealing with a flooded basement anywhere in Kenilworth — whether it's a sump failure in North Kenilworth, a sewer backup near the Black Brook Park corridor, or a burst pipe in a finished lower level — call (908) 970-8533 any hour. We're already close.

@@ -84,4 +84,4 @@ If the water came from a contaminated source (sewage, outdoor flooding, standing
 
 Call a restoration company — not just a plumber — if any of the following are true: the water covered more than a few square feet of flooring, the event happened more than a few hours ago, the water source was anything other than clean supply water, or you can already smell something musty. That smell is microbial activity, and it means the clock on mold colonization has already started.
 
-The Restoration Group handles water damage restoration throughout Kenilworth and the surrounding area. If you're trying to figure out what you're dealing with, a call to (855) 650-7422 can help you understand the scope before you commit to anything.
+The Restoration Group handles water damage restoration throughout Kenilworth and the surrounding area. If you're trying to figure out what you're dealing with, a call to (908) 970-8533 can help you understand the scope before you commit to anything.

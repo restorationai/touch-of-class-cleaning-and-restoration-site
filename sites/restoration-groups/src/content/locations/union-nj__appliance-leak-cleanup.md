@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Appliance Leak Cleanup in Union, NJ | The Restoration Group"
 h1: "Appliance Leak Cleanup in Union"
-meta_description: "24/7 appliance leak cleanup in Union, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 appliance leak cleanup in Union, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "appliance leak cleanup union"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -48,4 +48,4 @@ Most appliance leak losses in Union fall under standard homeowner's policy cover
 
 One pattern that comes up repeatedly in Union's older split-levels and capes: the laundry is often on the main floor or in a half-finished utility room directly above the basement stairwell, and the subfloor in that area is typically 1-inch tongue-and-groove boards over floor joists — not OSB or plywood. That old-growth lumber holds moisture longer than modern engineered panels and doesn't swell and buckle the same way, which can make a washing machine flood look deceptively minor at the surface. Drying times in those assemblies routinely run a day or two longer than a comparable modern home, and crews account for that when setting the drying equipment schedule rather than pulling gear on a standard timeline.
 
-If you're dealing with a dishwasher leak, a water heater failure, or a refrigerator line that let go in your Union home, call (855) 650-7422 now. The Restoration Group responds 24/7 to appliance leak cleanup calls across Union Township — from Battle Hill to Vauxhall — and the crew that arrives will already know what Union's housing stock tends to hide.
+If you're dealing with a dishwasher leak, a water heater failure, or a refrigerator line that let go in your Union home, call (908) 970-8533 now. The Restoration Group responds 24/7 to appliance leak cleanup calls across Union Township — from Battle Hill to Vauxhall — and the crew that arrives will already know what Union's housing stock tends to hide.

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Renovations, Remodels and General Contracting in Newark, NJ | The Restoration Group"
 h1: "Renovations, Remodels and General Contracting in Newark"
-meta_description: "24/7 renovations, remodels and general contracting in Newark, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 renovations, remodels and general contracting in Newark, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "renovations, remodels and general contracting newark"
 secondary_keywords: ["general contractor", "home renovation services", "home remodeling", "kitchen remodel", "bathroom remodel", "post-damage rebuild"]
 search_intent: "local_commercial"
@@ -46,4 +46,4 @@ Because we operate 24/7, emergency board-up and stabilization calls — the kind
 
 One thing that catches out-of-area contractors in Newark's Ironbound district: the neighborhood's low elevation along the Passaic means that even after visible floodwater recedes, moisture wicks persistently through unreinforced concrete block foundations. Renovation crews that frame and insulate immediately after a flood event — without allowing adequate drying time and verifying moisture content at the block — often see efflorescence and mold colonization within sixty days. We treat Ironbound basement renovations as moisture-management projects first and finish-work projects second, sequencing insulation and framing only after readings confirm the block has dried to an acceptable baseline.
 
-If your Newark property needs a renovation that accounts for what the building has actually been through — not just what it looks like on the surface — call The Restoration Group at (855) 650-7422. We handle projects across ZIP codes 07102 through 07112, from single-family remodels to multifamily post-damage rebuilds, and we manage the permits, the inspections, and the insurance documentation from first call to final walkthrough.
+If your Newark property needs a renovation that accounts for what the building has actually been through — not just what it looks like on the surface — call The Restoration Group at (908) 970-8533. We handle projects across ZIP codes 07102 through 07112, from single-family remodels to multifamily post-damage rebuilds, and we manage the permits, the inspections, and the insurance documentation from first call to final walkthrough.

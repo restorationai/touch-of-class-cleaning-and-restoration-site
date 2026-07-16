@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Reconstruction Services in Newark, NJ | The Restoration Group"
 h1: "Reconstruction Services in Newark"
-meta_description: "24/7 reconstruction services in Newark, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 reconstruction services in Newark, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "reconstruction services newark"
 secondary_keywords: ["post-damage reconstruction", "rebuild services", "structural reconstruction", "post-disaster rebuilding", "fire damage reconstruction"]
 search_intent: "local_commercial"
@@ -54,4 +54,4 @@ Commercial and residential carriers operating in New Jersey's urban markets are 
 
 One thing that catches out-of-market contractors in Newark: the city's combined sewer system means that basement reconstruction after a sewage backup event requires documentation that the space was properly remediated before any new framing or insulation goes in. Newark's inspectors have seen enough shortcuts that they look for this specifically. We sequence our projects so that remediation sign-off is in hand before reconstruction materials ever touch the floor — it protects the property owner from a failed inspection and protects the finished work from being condemned months later.
 
-If you're managing a post-damage rebuild anywhere in Newark — from a Forest Hill colonial to a commercial building near Branch Brook Park — call The Restoration Group at (855) 650-7422. We'll walk the property, produce a documented scope, and get the permits moving before another week passes.
+If you're managing a post-damage rebuild anywhere in Newark — from a Forest Hill colonial to a commercial building near Branch Brook Park — call The Restoration Group at (908) 970-8533. We'll walk the property, produce a documented scope, and get the permits moving before another week passes.

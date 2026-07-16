@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Inspection and Testing in Summit, NJ | The Restoration Group"
 h1: "Mold Inspection and Testing in Summit"
-meta_description: "24/7 mold inspection and testing in Summit, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 mold inspection and testing in Summit, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "mold inspection and testing summit"
 secondary_keywords: ["mold inspection", "mold testing", "indoor air quality testing", "mold spore testing", "mold assessment"]
 search_intent: "local_health"
@@ -48,4 +48,4 @@ Mold discovered after a covered water loss — a burst pipe, an appliance failur
 
 One detail that consistently surprises homeowners in the Northside and Franklin School area neighborhoods: plaster walls don't show mold staining on the surface the way drywall does. Drywall paper is a direct food source for mold and shows visible growth relatively quickly. Plaster itself is more resistant, but the wood lath behind it and the insulation or void space between the lath and the exterior wall are not — and mold can colonize that hidden layer extensively before any surface sign appears. We adjust our sampling strategy in plaster-wall homes to include more wall-cavity air sampling through small probe points, which we patch cleanly after testing. In a home near Reeves-Reed Arboretum or anywhere else in Summit where interior finish quality matters, that approach protects both the integrity of the assessment and the condition of your walls.
 
-If you've had any water event in your Summit home — or if you're noticing a musty odor without a clear source — call The Restoration Group at (855) 650-7422. We'll tell you what's there, what it means, and what, if anything, needs to be done about it.
+If you've had any water event in your Summit home — or if you're noticing a musty odor without a clear source — call The Restoration Group at (908) 970-8533. We'll tell you what's there, what it means, and what, if anything, needs to be done about it.

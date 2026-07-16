@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Water Damage Restoration in Union, NJ | The Restoration Group"
 h1: "Water Damage Restoration in Union"
-meta_description: "24/7 water damage restoration in Union, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 water damage restoration in Union, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "water damage restoration union"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -46,4 +46,4 @@ The Restoration Group's base in Kenilworth puts Union Township within a very sho
 
 One thing that surprises homeowners in Union's older neighborhoods: the plaster-and-lath wall construction found in some of the earliest postwar capes absorbs water more slowly than modern drywall, but it also releases that moisture more slowly during drying. A standard three-day drying protocol that works in a newer home may need an additional day or two in a plaster-walled Union cape, and rushing the process risks trapping residual moisture inside the wall cavity — exactly the condition that leads to a mold call two weeks later. Crews working in Union's 07083 ZIP code learn to extend drying timelines and re-check readings before signing off on structural dryness.
 
-If you're dealing with water in a Union Township home or commercial property right now, call (855) 650-7422. The Restoration Group will document the damage, begin extraction, and work directly with your insurance carrier — so the focus stays on getting your property dry, not on paperwork.
+If you're dealing with water in a Union Township home or commercial property right now, call (908) 970-8533. The Restoration Group will document the damage, begin extraction, and work directly with your insurance carrier — so the focus stays on getting your property dry, not on paperwork.

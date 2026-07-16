@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Inspection and Testing in Westfield, NJ | The Restoration Group"
 h1: "Mold Inspection and Testing in Westfield"
-meta_description: "24/7 mold inspection and testing in Westfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 mold inspection and testing in Westfield, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "mold inspection and testing westfield"
 secondary_keywords: ["mold inspection", "mold testing", "indoor air quality testing", "mold spore testing", "mold assessment"]
 search_intent: "local_health"
@@ -42,4 +42,4 @@ Our team operates out of Kenilworth, placing us within a short drive of Westfiel
 
 One thing that comes up repeatedly in Westfield inspections is the behavior of horsehair plaster as a moisture reservoir. Unlike modern drywall, which wicks and releases moisture relatively quickly, original plaster walls absorb water into their mass and release it slowly over weeks. This means that even after a leak is repaired, the wall cavity can sustain elevated relative humidity — and active mold growth — long after the source is gone. In practice, this changes how we interpret moisture readings and how many air samples we collect per room: a single reading in a plaster-walled space is rarely the whole picture. We account for this in every inspection we conduct in Westfield's older neighborhoods, and it's a detail that matters when you're deciding whether remediation is truly complete.
 
-If you've noticed a musty odor in a finished basement, discovered staining behind a bookcase, or are navigating a home sale that requires documentation of indoor air quality, call (855) 650-7422. We'll schedule a mold inspection and testing visit, give you laboratory-backed answers, and help you understand exactly what the results mean for your Westfield home.
+If you've noticed a musty odor in a finished basement, discovered staining behind a bookcase, or are navigating a home sale that requires documentation of indoor air quality, call (908) 970-8533. We'll schedule a mold inspection and testing visit, give you laboratory-backed answers, and help you understand exactly what the results mean for your Westfield home.

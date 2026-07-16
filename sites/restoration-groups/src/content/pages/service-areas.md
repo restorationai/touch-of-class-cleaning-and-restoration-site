@@ -27,4 +27,4 @@ Cities and townships closest to Kenilworth — Springfield, Cranford, Westfield,
 
 ## Don't see your city?
 
-The list of service-area pages on this site covers our most frequent destinations, but it isn't a hard boundary. Large losses — a commercial building with significant structural damage, a multi-unit property after a fire — often justify a longer drive. Call (855) 650-7422 and describe the situation. If we can get there and help, we will tell you so directly. If the job is genuinely outside our range, we'll say that too and point you toward a qualified contractor who can respond.
+The list of service-area pages on this site covers our most frequent destinations, but it isn't a hard boundary. Large losses — a commercial building with significant structural damage, a multi-unit property after a fire — often justify a longer drive. Call (908) 970-8533 and describe the situation. If we can get there and help, we will tell you so directly. If the job is genuinely outside our range, we'll say that too and point you toward a qualified contractor who can respond.

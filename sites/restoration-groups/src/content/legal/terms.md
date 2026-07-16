@@ -18,7 +18,7 @@ rendered: true
 ---
 ## What These Terms Cover
 
-These Terms of Service apply to your use of restorationgroups.com and to any service relationship you enter into with The Restoration Group, located at 500 S 31st St, Kenilworth, NJ 07033. By using this website or requesting services, you agree to the terms described here. If anything is unclear, call us at (855) 650-7422 before proceeding.
+These Terms of Service apply to your use of restorationgroups.com and to any service relationship you enter into with The Restoration Group, located at 500 S 31st St, Kenilworth, NJ 07033. By using this website or requesting services, you agree to the terms described here. If anything is unclear, call us at (908) 970-8533 before proceeding.
 
 ## Service Area
 
@@ -48,7 +48,7 @@ The Restoration Group operates as a licensed contractor under New Jersey state r
 
 ## Dispute Resolution
 
-If a dispute arises from services rendered, we ask that you contact us first at (855) 650-7422 so we have the opportunity to resolve it directly. If a resolution cannot be reached, disputes will be governed by the laws of the State of New Jersey, and any legal proceedings will take place in Union County, NJ.
+If a dispute arises from services rendered, we ask that you contact us first at (908) 970-8533 so we have the opportunity to resolve it directly. If a resolution cannot be reached, disputes will be governed by the laws of the State of New Jersey, and any legal proceedings will take place in Union County, NJ.
 
 ## Changes to These Terms
 

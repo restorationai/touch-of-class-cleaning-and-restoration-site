@@ -36,7 +36,7 @@ We recognize that accessibility is an ongoing effort, not a one-time checkbox. S
 
 If a page or feature is not working as expected with your assistive technology, or if you find any content difficult to access, please contact us directly:
 
-- **Phone:** (855) 650-7422
+- **Phone:** (908) 970-8533
 - **Mail:** The Restoration Group, 500 S 31st St, Kenilworth, NJ 07033
 
 When you reach out, it helps to include the URL of the page you were visiting and a brief description of the issue. We are committed to acknowledging accessibility concerns promptly and working toward a resolution within a reasonable timeframe — typically within five business days for an initial response.

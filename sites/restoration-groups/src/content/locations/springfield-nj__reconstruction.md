@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Reconstruction Services in Springfield, NJ | The Restoration Group"
 h1: "Reconstruction Services in Springfield"
-meta_description: "24/7 reconstruction services in Springfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 reconstruction services in Springfield, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "reconstruction services springfield"
 secondary_keywords: ["post-damage reconstruction", "rebuild services", "structural reconstruction", "post-disaster rebuilding", "fire damage reconstruction"]
 search_intent: "local_commercial"
@@ -58,4 +58,4 @@ For properties in HOA-governed communities — particularly the townhome develop
 
 One thing that catches out-of-area contractors working in Springfield's older neighborhoods: the 1930s and 1940s colonials in the Baltusrol area and along the Mountain Avenue corridor were frequently built with full-dimension lumber — true 2×4s and 2×6s that are actually 4 inches wide and 6 inches deep, not the nominal dimensions of modern lumber. When framing repairs meet original structure, the difference in thickness shows up at door jambs, window casings, and drywall transitions. We account for this in the scope from the start, which avoids the awkward patching that happens when a crew discovers the mismatch after drywall is already hung.
 
-If your Springfield property has been damaged by flooding, fire, or any event that left the structure compromised, call The Restoration Group at (855) 650-7422. We'll assess the damage, build a scope that holds up to insurance scrutiny, and carry the project through to a finished, inspected result — without handing you off to a separate general contractor mid-stream.
+If your Springfield property has been damaged by flooding, fire, or any event that left the structure compromised, call The Restoration Group at (908) 970-8533. We'll assess the damage, build a scope that holds up to insurance scrutiny, and carry the project through to a finished, inspected result — without handing you off to a separate general contractor mid-stream.

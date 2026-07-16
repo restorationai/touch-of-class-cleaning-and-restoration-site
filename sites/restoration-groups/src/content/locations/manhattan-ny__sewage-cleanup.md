@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Sewage Cleanup and Sanitization in Manhattan, NY | The Restoration Group"
 h1: "Sewage Cleanup and Sanitization in Manhattan"
-meta_description: "24/7 sewage cleanup and sanitization in Manhattan, NY. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 sewage cleanup and sanitization in Manhattan, NY. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "sewage cleanup and sanitization manhattan"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -50,4 +50,4 @@ After-hours freight elevator reservations, noise ordinance windows for equipment
 
 In pre-war buildings throughout the Upper West Side and Upper East Side, original terrazzo and encaustic tile floors are often set over a thick mortar bed — sometimes three to four inches deep. That mortar bed absorbs and holds Category 3 water long after the surface appears dry. Standard moisture meters read the tile surface, not the mortar beneath. We use penetrating probes and thermal imaging to confirm actual moisture levels in the assembly before closing out a sewage job, because a false clearance in a mortar-bed floor is exactly the condition that produces a mold call six weeks later.
 
-If you're dealing with sewage backup, raw sewage removal, or a sewer line backup anywhere in Manhattan — from a Financial District commercial space to a Harlem brownstone — call The Restoration Group at **(855) 650-7422**. We're available around the clock, we understand how Manhattan buildings operate, and we carry the documentation your board or managing agent will ask for before work begins.
+If you're dealing with sewage backup, raw sewage removal, or a sewer line backup anywhere in Manhattan — from a Financial District commercial space to a Harlem brownstone — call The Restoration Group at **(908) 970-8533**. We're available around the clock, we understand how Manhattan buildings operate, and we carry the documentation your board or managing agent will ask for before work begins.

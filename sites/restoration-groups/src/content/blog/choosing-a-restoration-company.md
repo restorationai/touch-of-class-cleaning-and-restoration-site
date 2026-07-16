@@ -71,4 +71,4 @@ Understanding the actual process helps you recognize when corners are being cut.
 
 ## Making the Call
 
-If you are in the middle of a water, fire, or mold situation in Kenilworth or the surrounding area and you want a company that can walk you through this process — not just show up with equipment — The Restoration Group is available at (855) 650-7422. Bring your questions. A company worth hiring will answer them.
+If you are in the middle of a water, fire, or mold situation in Kenilworth or the surrounding area and you want a company that can walk you through this process — not just show up with equipment — The Restoration Group is available at (908) 970-8533. Bring your questions. A company worth hiring will answer them.

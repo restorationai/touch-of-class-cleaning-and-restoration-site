@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Basement Flooding Cleanup in Summit, NJ | The Restoration Group"
 h1: "Basement Flooding Cleanup in Summit"
-meta_description: "24/7 basement flooding cleanup in Summit, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 basement flooding cleanup in Summit, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "basement flooding cleanup summit"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -42,7 +42,7 @@ When we arrive, the first priority is stopping the source — whether that means
 
 ## Reaching Summit from Our Kenilworth Location
 
-Our Kenilworth headquarters puts us on Route 22 within minutes, with straightforward access to Summit via the Garden State Parkway to Route 512 or directly through Springfield and New Providence. Because we operate around the clock, we can be on-site in Summit at 2 a.m. on a Tuesday the same way we can on a Saturday afternoon. When you call (855) 650-7422, a live dispatcher — not an answering service — takes the details and gets a crew moving.
+Our Kenilworth headquarters puts us on Route 22 within minutes, with straightforward access to Summit via the Garden State Parkway to Route 512 or directly through Springfield and New Providence. Because we operate around the clock, we can be on-site in Summit at 2 a.m. on a Tuesday the same way we can on a Saturday afternoon. When you call (908) 970-8533, a live dispatcher — not an answering service — takes the details and gets a crew moving.
 
 ## Insurance Coordination for Summit Homeowners
 
@@ -52,4 +52,4 @@ Basement flooding claims in Summit frequently involve questions about whether th
 
 In Summit's older finished basements, we frequently encounter original plaster on the lower walls — sometimes down to the floor — rather than the drywall you'd find in a post-1980 home. Plaster absorbs water more slowly than drywall, which sounds like an advantage, but it also releases that moisture slowly during drying. We've found that drying times in these spaces run roughly 30–40% longer than our equipment's baseline projections for the same square footage in modern construction. We account for this upfront when we set drying goals and communicate the timeline to homeowners and adjusters, rather than discovering it mid-job and extending the schedule unexpectedly.
 
-If your Summit basement is holding water right now — or you've just found damp walls and a musty smell that wasn't there last week — call (855) 650-7422. We'll assess the situation, explain what we're seeing in plain language, and get the drying process started before secondary damage compounds the loss.
+If your Summit basement is holding water right now — or you've just found damp walls and a musty smell that wasn't there last week — call (908) 970-8533. We'll assess the situation, explain what we're seeing in plain language, and get the drying process started before secondary damage compounds the loss.

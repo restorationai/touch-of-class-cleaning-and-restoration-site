@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Commercial Restoration in Jersey City, NJ | The Restoration Group"
 h1: "Commercial Restoration in Jersey City"
-meta_description: "24/7 commercial restoration in Jersey City, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 commercial restoration in Jersey City, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "commercial restoration jersey city"
 secondary_keywords: ["commercial water damage", "commercial fire damage", "business restoration", "office restoration", "retail restoration"]
 search_intent: "local_b2b"
@@ -54,4 +54,4 @@ For landlords managing older multifamily stock in The Heights or Greenville, we 
 
 One thing that surprises commercial clients new to Jersey City's older corridors: combined-sewer backups — where stormwater and sanitary lines share infrastructure — are classified as Category 3 (grossly contaminated) water intrusion under IICRC standards, regardless of how the water looks when it enters. That classification changes the remediation protocol significantly. Affected materials that might be dried in place after a clean-water pipe burst must instead be removed and disposed of after a sewer backup. Building owners and landlords in ZIP codes 07304 and 07305, where this infrastructure pattern is most common, should expect a more extensive scope and a longer timeline than a surface inspection might suggest — and should communicate that reality to tenants early.
 
-If your Jersey City commercial property has been affected by water, fire, smoke, or storm damage, call The Restoration Group at (855) 650-7422. We document the loss, coordinate with your insurer and building management, and get your space back to operational — without leaving moisture or liability behind.
+If your Jersey City commercial property has been affected by water, fire, smoke, or storm damage, call The Restoration Group at (908) 970-8533. We document the loss, coordinate with your insurer and building management, and get your space back to operational — without leaving moisture or liability behind.

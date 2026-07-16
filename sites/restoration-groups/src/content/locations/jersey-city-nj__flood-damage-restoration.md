@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Flood Damage Restoration in Jersey City, NJ | The Restoration Group"
 h1: "Flood Damage Restoration in Jersey City"
-meta_description: "24/7 flood damage restoration in Jersey City, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 flood damage restoration in Jersey City, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "flood damage restoration jersey city"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -56,4 +56,4 @@ From our Kenilworth headquarters, the most direct route into Jersey City runs vi
 
 In Jersey City's pre-war rowhouses — particularly the brick construction common to The Heights and Bergen-Lafayette — original basement floors are often bare concrete poured directly over rubble fill, with no vapor barrier beneath. After a sewer backup or heavy-rain intrusion, that slab wicks moisture upward for days after the standing water is gone. Crews who pull moisture readings only from the walls and miss the slab itself will sign off on a job that continues to feed humidity into the space, setting the stage for mold growth within 48 to 72 hours. We always include slab readings in our monitoring protocol on pre-1940 construction, and we extend the drying period accordingly.
 
-If your Jersey City property has taken on water — whether it's a rowhouse cellar in Greenville or a high-rise unit near Grove Street PATH plaza — call The Restoration Group at (855) 650-7422. We'll assess the loss, document it thoroughly, and get the drying process started before secondary damage compounds the claim.
+If your Jersey City property has taken on water — whether it's a rowhouse cellar in Greenville or a high-rise unit near Grove Street PATH plaza — call The Restoration Group at (908) 970-8533. We'll assess the loss, document it thoroughly, and get the drying process started before secondary damage compounds the claim.

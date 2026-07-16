@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Emergency Board-Up and Tarping in Kenilworth | The Restoration Group"
 h1: "Emergency Board-Up and Tarping in Kenilworth"
-meta_description: "24/7 emergency board-up and tarping in Kenilworth and surrounding areas. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 emergency board-up and tarping in Kenilworth and surrounding areas. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "emergency board-up and tarping kenilworth"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -59,4 +59,4 @@ Summer storm season — particularly the period from late June through September
 
 The Restoration Group is based in Kenilworth, NJ and responds to emergency board-up and tarping calls throughout Union County, Essex County, and the surrounding region — including Cranford, Westfield, Summit, Mountainside, Springfield, Maplewood, and neighboring communities. Each service-area page links back here for the full technical detail on how this work is done.
 
-If a storm, fire, or structural failure has left your property open to the elements, call (855) 650-7422 now. Crews are available around the clock — the sooner the opening is sealed, the smaller the total loss stays.
+If a storm, fire, or structural failure has left your property open to the elements, call (908) 970-8533 now. Crews are available around the clock — the sooner the opening is sealed, the smaller the total loss stays.

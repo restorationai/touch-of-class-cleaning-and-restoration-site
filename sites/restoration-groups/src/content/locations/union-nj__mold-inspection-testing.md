@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Inspection and Testing in Union, NJ | The Restoration Group"
 h1: "Mold Inspection and Testing in Union"
-meta_description: "24/7 mold inspection and testing in Union, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 mold inspection and testing in Union, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "mold inspection and testing union"
 secondary_keywords: ["mold inspection", "mold testing", "indoor air quality testing", "mold spore testing", "mold assessment"]
 search_intent: "local_health"
@@ -48,4 +48,4 @@ Mold inspection findings frequently feed directly into insurance claims, particu
 
 One pattern that shows up repeatedly in Union's 1950s and 1960s split-levels: the original builders often used rock wool (mineral wool) batt insulation in basement rim joists and exterior walls. That material holds moisture differently than fiberglass — it doesn't wick or sag visibly the way fiberglass does when wet, so a slow leak behind it can go undetected far longer. During inspections in older Union homes, the team probes rim joist cavities with a calibrated moisture meter as a standard step, not an add-on, because visible inspection alone misses saturation in that material more often than not.
 
-If you're in the 07083 or 07088 ZIP code and you've noticed a persistent musty odor, recently had any water intrusion, or are buying or selling a home with an older mechanical history, a documented mold inspection is the clearest way to know what you're dealing with. Call (855) 650-7422 to schedule an assessment for your Union property.
+If you're in the 07083 or 07088 ZIP code and you've noticed a persistent musty odor, recently had any water intrusion, or are buying or selling a home with an older mechanical history, a documented mold inspection is the clearest way to know what you're dealing with. Call (908) 970-8533 to schedule an assessment for your Union property.

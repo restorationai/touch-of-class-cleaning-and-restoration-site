@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Renovations, Remodels and General Contracting in Westfield, NJ | The Restoration Group"
 h1: "Renovations, Remodels and General Contracting in Westfield"
-meta_description: "24/7 renovations, remodels and general contracting in Westfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 renovations, remodels and general contracting in Westfield, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "renovations, remodels and general contracting westfield"
 secondary_keywords: ["general contractor", "home renovation services", "home remodeling", "kitchen remodel", "bathroom remodel", "post-damage rebuild"]
 search_intent: "local_commercial"
@@ -50,4 +50,4 @@ A significant share of renovation work in Westfield originates from an insurance
 
 We work directly with most major carriers, providing photo documentation, moisture readings, and itemized rebuild estimates in the formats adjusters use. Our IICRC Certified Firm status means the remediation side of the claim is documented to a recognized industry standard, which smooths the transition into permitted reconstruction.
 
-If your Westfield home needs renovation work — planned remodel, post-damage rebuild, or a structural project that's been waiting for the right contractor — call The Restoration Group at (855) 650-7422. We'll walk the property, give you a straight assessment, and build a scope that respects both the home and your timeline.
+If your Westfield home needs renovation work — planned remodel, post-damage rebuild, or a structural project that's been waiting for the right contractor — call The Restoration Group at (908) 970-8533. We'll walk the property, give you a straight assessment, and build a scope that respects both the home and your timeline.

@@ -76,4 +76,4 @@ If the mold followed a covered water loss — a burst pipe, an appliance leak, s
 
 ---
 
-If you have found a stain, caught a smell, or recently dealt with water damage in your home and are not sure what you are dealing with, The Restoration Group handles both mold inspection and testing and full mold remediation for properties throughout the Kenilworth area and northern New Jersey. Call (855) 650-7422 to talk through what you are seeing — sometimes a five-minute conversation is enough to know whether a DIY kit makes sense or whether it is time to bring in a professional.
+If you have found a stain, caught a smell, or recently dealt with water damage in your home and are not sure what you are dealing with, The Restoration Group handles both mold inspection and testing and full mold remediation for properties throughout the Kenilworth area and northern New Jersey. Call (908) 970-8533 to talk through what you are seeing — sometimes a five-minute conversation is enough to know whether a DIY kit makes sense or whether it is time to bring in a professional.

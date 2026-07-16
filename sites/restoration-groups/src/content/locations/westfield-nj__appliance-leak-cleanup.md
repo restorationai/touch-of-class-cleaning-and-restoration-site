@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Appliance Leak Cleanup in Westfield, NJ | The Restoration Group"
 h1: "Appliance Leak Cleanup in Westfield"
-meta_description: "24/7 appliance leak cleanup in Westfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 appliance leak cleanup in Westfield, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "appliance leak cleanup westfield"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -52,4 +52,4 @@ Appliance leak claims in Westfield tend to be more complex than in newer communi
 
 In Westfield's older homes — particularly those on the larger lots near Tamaques Park and in the Brightwood section — finished basements were often added or expanded during the 1970s and 1980s using furring strips directly against the foundation wall, with no vapor barrier. When an appliance leak on the first floor reaches that space, the water doesn't just wet the carpet: it saturates the fiberglass batt insulation packed behind the drywall, which holds moisture invisibly for weeks. We've learned to probe those walls as a matter of course on any appliance leak job in this housing type, because missing that pocket of saturation is how a remediated job comes back as a mold claim six months later.
 
-If you're dealing with a dishwasher leak, a washing machine flood, a refrigerator line drip, or a water heater failure anywhere in Westfield, call The Restoration Group at (855) 650-7422. We'll assess the full scope of the damage — not just what's visible — and get drying equipment in place before the clock runs out on your materials.
+If you're dealing with a dishwasher leak, a washing machine flood, a refrigerator line drip, or a water heater failure anywhere in Westfield, call The Restoration Group at (908) 970-8533. We'll assess the full scope of the damage — not just what's visible — and get drying equipment in place before the clock runs out on your materials.

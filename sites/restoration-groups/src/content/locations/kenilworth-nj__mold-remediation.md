@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Remediation in Kenilworth, NJ | The Restoration Group"
 h1: "Mold Remediation in Kenilworth"
-meta_description: "24/7 mold remediation in Kenilworth, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 mold remediation in Kenilworth, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "mold remediation kenilworth"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
@@ -48,4 +48,4 @@ Mold claims in Union County move faster when the documentation is complete from 
 
 In Kenilworth's prewar housing stock, we frequently find that finished basement ceilings conceal original wood-joist bays that have been holding moisture — and mold — for far longer than the visible damage suggests. When a water heater fails against a block wall and the homeowner cleans up the standing water within a day, the joist bays above can still be wet for weeks. We've learned to probe those cavities on every Kenilworth job before closing out containment, because what looks dry at floor level often isn't two feet up.
 
-If you're dealing with mold in a Kenilworth home or commercial property — whether it's a musty smell in a finished basement, visible growth after a plumbing failure, or a post-flood discovery — call The Restoration Group at (855) 650-7422. We're already in the borough.
+If you're dealing with mold in a Kenilworth home or commercial property — whether it's a musty smell in a finished basement, visible growth after a plumbing failure, or a post-flood discovery — call The Restoration Group at (908) 970-8533. We're already in the borough.

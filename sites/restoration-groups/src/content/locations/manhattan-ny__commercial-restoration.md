@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Commercial Restoration in Manhattan, NY | The Restoration Group"
 h1: "Commercial Restoration in Manhattan"
-meta_description: "24/7 commercial restoration in Manhattan, NY. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 commercial restoration in Manhattan, NY. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "commercial restoration manhattan"
 secondary_keywords: ["commercial water damage", "commercial fire damage", "business restoration", "office restoration", "retail restoration"]
 search_intent: "local_b2b"
@@ -54,4 +54,4 @@ Commercial losses in Manhattan almost always involve multiple stakeholders: the 
 
 One thing that catches out-of-market contractors in Manhattan: freight elevator access is not optional, and it is not always available on demand. Most commercial and residential towers in Midtown and the Upper West Side have scheduled freight windows — often 8 a.m. to 5 p.m. on weekdays, with after-hours access requiring advance coordination with the superintendent or management office. Showing up with a truck full of air movers and no freight reservation means equipment sits in the lobby. We confirm elevator scheduling before dispatch so drying equipment reaches the affected floors the same night we arrive, not the following afternoon.
 
-If your Manhattan property has sustained water, fire, or smoke damage and every day closed is money your business isn't making, call The Restoration Group at (855) 650-7422. We'll coordinate with your building management, document the loss for your carrier, and get your space back to operational — without adding friction to an already complicated situation.
+If your Manhattan property has sustained water, fire, or smoke damage and every day closed is money your business isn't making, call The Restoration Group at (908) 970-8533. We'll coordinate with your building management, document the loss for your carrier, and get your space back to operational — without adding friction to an already complicated situation.

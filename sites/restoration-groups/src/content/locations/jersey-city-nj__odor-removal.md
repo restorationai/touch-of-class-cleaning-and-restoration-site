@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Odor Removal and Deodorization in Jersey City, NJ | The Restoration Group"
 h1: "Odor Removal and Deodorization in Jersey City"
-meta_description: "24/7 odor removal and deodorization in Jersey City, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 odor removal and deodorization in Jersey City, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "odor removal and deodorization jersey city"
 secondary_keywords: ["smoke odor removal", "ozone treatment", "hydroxyl deodorization", "thermal fogging", "professional odor elimination"]
 search_intent: "local_specialty"
@@ -57,6 +57,6 @@ In the Heights and Bergen-Lafayette, balloon-frame construction — common in ro
 
 Our team dispatches from Kenilworth and is available around the clock, every day of the year. The New Jersey Turnpike and Routes 1 and 9 connect Kenilworth to Jersey City's major corridors, and we're familiar with the access patterns in dense neighborhoods — the narrow one-way streets near Journal Square, the loading dock requirements at waterfront high-rises, the permit zones near the Grove Street PATH plaza. We call ahead when access coordination is needed so equipment is staged correctly from the start.
 
-When you call **(855) 650-7422**, you reach a live person who can dispatch a crew and begin the intake process — not a voicemail box that routes to a callback the next morning.
+When you call **(908) 970-8533**, you reach a live person who can dispatch a crew and begin the intake process — not a voicemail box that routes to a callback the next morning.
 
 If your Jersey City property is carrying an odor that hasn't responded to cleaning or time, the source is still there. Call us and we'll find it.

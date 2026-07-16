@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Storm Damage Restoration in Kenilworth, NJ | The Restoration Group"
 h1: "Storm Damage Restoration in Kenilworth"
-meta_description: "24/7 storm damage restoration in Kenilworth, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 storm damage restoration in Kenilworth, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "storm damage restoration kenilworth"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -46,4 +46,4 @@ Storm damage claims in New Jersey move faster when documentation is thorough fro
 
 One thing that catches homeowners off guard in Kenilworth's prewar housing stock: many full basements have a combination of poured concrete and concrete-block walls, and block walls wick storm water laterally through the mortar joints long after surface flooding recedes. We've seen block walls in homes near Black Brook Park test at elevated moisture content for ten or more days after a storm event — well past the point where a homeowner assumes everything is dry. If block walls aren't dried to standard before insulation or paneling goes back up, mold colonization can begin within 24 to 48 hours of closure. We leave monitoring equipment in place until readings confirm the assembly is genuinely dry, not just surface-dry.
 
-If your Kenilworth home or commercial property took storm damage — whether it's a punched roof, a flooded basement, or a tree through a wall — call (855) 650-7422 any hour. We're closer to you than any other restoration contractor in the region, and we'll be on-site before the storm is finished making news.
+If your Kenilworth home or commercial property took storm damage — whether it's a punched roof, a flooded basement, or a tree through a wall — call (908) 970-8533 any hour. We're closer to you than any other restoration contractor in the region, and we'll be on-site before the storm is finished making news.

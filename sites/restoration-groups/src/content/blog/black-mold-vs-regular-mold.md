@@ -85,4 +85,4 @@ If testing confirms Stachybotrys or another elevated-concern species, your insur
 
 ---
 
-If you've found mold in your home and you're not sure what you're dealing with — or you know you had a water event that wasn't fully dried out — the safest next step is a professional assessment. The Restoration Group serves Kenilworth and the surrounding area and can help you understand the scope of the problem before you decide how to handle it. Reach them at **(855) 650-7422**.
+If you've found mold in your home and you're not sure what you're dealing with — or you know you had a water event that wasn't fully dried out — the safest next step is a professional assessment. The Restoration Group serves Kenilworth and the surrounding area and can help you understand the scope of the problem before you decide how to handle it. Reach them at **(908) 970-8533**.

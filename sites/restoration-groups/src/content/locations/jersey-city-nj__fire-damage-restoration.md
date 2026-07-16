@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Fire Damage Restoration in Jersey City, NJ | The Restoration Group"
 h1: "Fire Damage Restoration in Jersey City"
-meta_description: "24/7 fire damage restoration in Jersey City, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 fire damage restoration in Jersey City, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "fire damage restoration jersey city"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -46,4 +46,4 @@ We produce photo-documented scope reports, moisture and air quality readings, an
 
 In Jersey City's older rowhouse blocks — particularly in the Heights and Bergen-Lafayette — party walls between attached homes are often unreinforced brick with gaps and voids that channel smoke laterally into neighboring units. We've found smoke odor and light soot in an adjacent property that had no visible fire damage at all. On attached-home fire jobs in these neighborhoods, we recommend a walkthrough of the neighboring unit early in the assessment, with the property owner's cooperation, before assuming the damage footprint is contained to a single address. It's a step that prevents a neighbor's complaint three weeks later and protects everyone's insurance claim.
 
-If you're dealing with fire or smoke damage anywhere in Jersey City — from a rowhouse in Greenville to a high-rise near Liberty State Park — call The Restoration Group at (855) 650-7422. We respond 24/7, and we'll give you a clear picture of the damage scope and next steps before any work begins.
+If you're dealing with fire or smoke damage anywhere in Jersey City — from a rowhouse in Greenville to a high-rise near Liberty State Park — call The Restoration Group at (908) 970-8533. We respond 24/7, and we'll give you a clear picture of the damage scope and next steps before any work begins.

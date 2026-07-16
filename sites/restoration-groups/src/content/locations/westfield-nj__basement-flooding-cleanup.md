@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Basement Flooding Cleanup in Westfield, NJ | The Restoration Group"
 h1: "Basement Flooding Cleanup in Westfield"
-meta_description: "24/7 basement flooding cleanup in Westfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 basement flooding cleanup in Westfield, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "basement flooding cleanup westfield"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -54,4 +54,4 @@ We document the loss from the moment we arrive: photos, moisture readings, scope
 
 One thing that catches homeowners off guard in Westfield's older stock: the plaster-on-lath walls common in pre-war homes along Wychwood and Indian Forest absorb water at a fraction of the rate modern drywall does — which sounds like an advantage, but it isn't. Plaster holds moisture deep in the substrate long after the surface feels dry to the touch. We've pulled readings on plaster walls that looked and felt dry to a homeowner but were still at 35–40% moisture content internally. Skipping the full drying cycle on those walls is how mold problems develop weeks after a cleanup that seemed complete. Our daily monitoring protocol exists specifically because of construction like this.
 
-If your basement took on water — whether from a failed sump, a backed-up lateral, or water intrusion through a foundation wall — call The Restoration Group at (855) 650-7422. We'll assess the damage, map the moisture, and give you a clear picture of what the restoration involves before any work begins.
+If your basement took on water — whether from a failed sump, a backed-up lateral, or water intrusion through a foundation wall — call The Restoration Group at (908) 970-8533. We'll assess the damage, map the moisture, and give you a clear picture of what the restoration involves before any work begins.

@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Mold Inspection and Testing in Kenilworth | The Restoration Group"
 h1: "Mold Inspection and Testing in Kenilworth"
-meta_description: "24/7 mold inspection and testing in Kenilworth and surrounding areas. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 mold inspection and testing in Kenilworth and surrounding areas. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "mold inspection and testing kenilworth"
 secondary_keywords: ["mold inspection", "mold testing", "indoor air quality testing", "mold spore testing", "mold assessment"]
 search_intent: "local_health"
@@ -61,4 +61,4 @@ The second window opens in late fall and winter, when stack effect pulls cold ex
 
 The Restoration Group is based in Kenilworth, NJ, and performs mold inspection and testing across Union, Essex, Morris, Middlesex, and Bergen counties. Dedicated service-area pages cover individual communities throughout northern and central New Jersey.
 
-If your air quality test results are already in hand and you need a remediation scope, or if you're starting from scratch with an unexplained odor and no data, call (855) 650-7422 — we're available around the clock. Request your indoor air quality test and get documented answers, not guesses.
+If your air quality test results are already in hand and you need a remediation scope, or if you're starting from scratch with an unexplained odor and no data, call (908) 970-8533 — we're available around the clock. Request your indoor air quality test and get documented answers, not guesses.

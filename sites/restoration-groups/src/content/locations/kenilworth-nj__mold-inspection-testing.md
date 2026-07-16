@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Inspection and Testing in Kenilworth, NJ | The Restoration Group"
 h1: "Mold Inspection and Testing in Kenilworth"
-meta_description: "24/7 mold inspection and testing in Kenilworth, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 mold inspection and testing in Kenilworth, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "mold inspection and testing kenilworth"
 secondary_keywords: ["mold inspection", "mold testing", "indoor air quality testing", "mold spore testing", "mold assessment"]
 search_intent: "local_health"
@@ -40,7 +40,7 @@ Surface samples — tape lifts or swabs — go to an accredited third-party labo
 
 ## Reaching Kenilworth — Response and Scheduling
 
-Because The Restoration Group is headquartered in Kenilworth itself, there is no drive from a distant regional hub. Whether the call comes from a homeowner near David Brearley High School, a property manager at a commercial building off Garden State Parkway Exit 138, or a real estate agent handling a transaction in South Kenilworth, the truck roll starts from inside the borough. We operate 24/7, so scheduling an inspection after a late-night water event is not a problem — call (855) 650-7422 any time.
+Because The Restoration Group is headquartered in Kenilworth itself, there is no drive from a distant regional hub. Whether the call comes from a homeowner near David Brearley High School, a property manager at a commercial building off Garden State Parkway Exit 138, or a real estate agent handling a transaction in South Kenilworth, the truck roll starts from inside the borough. We operate 24/7, so scheduling an inspection after a late-night water event is not a problem — call (908) 970-8533 any time.
 
 ## Kenilworth Insurance Coordination
 
@@ -50,4 +50,4 @@ Mold inspections tied to a sudden and accidental water loss — a burst pipe, ap
 
 Something worth knowing if your home was built before 1955: Kenilworth's prewar capes and colonials frequently used rock lath and plaster rather than paper-faced drywall. Plaster walls are dense and slow to release absorbed moisture, which means a water intrusion event that looks dry on the surface can still register elevated moisture readings weeks later. We've learned to extend our dwell time on moisture mapping in these homes — a quick scan misses the slow bleed. If your home is original construction and you're seeing a musty smell without obvious water damage, that wall assembly is the first place we look.
 
-If you're in Kenilworth and you're not sure whether what you're smelling is a real problem or just an old house, an inspection is the only way to know. Call (855) 650-7422 or reach out online — we'll schedule a thorough mold assessment and give you a clear, written picture of what's actually happening in your home.
+If you're in Kenilworth and you're not sure whether what you're smelling is a real problem or just an old house, an inspection is the only way to know. Call (908) 970-8533 or reach out online — we'll schedule a thorough mold assessment and give you a clear, written picture of what's actually happening in your home.

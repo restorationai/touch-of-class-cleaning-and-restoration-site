@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Remediation in Cranford, NJ | The Restoration Group"
 h1: "Mold Remediation in Cranford"
-meta_description: "24/7 mold remediation in Cranford, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 mold remediation in Cranford, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "mold remediation cranford"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
@@ -48,4 +48,4 @@ Cranford has one of the highest NFIP policy concentrations in Union County, and 
 
 One thing we've learned working in Cranford specifically: the stone and cinder-block foundation walls common in homes near Droescher's Mill and along the older Riverside Drive blocks hold moisture in their mortar joints long after the visible water is gone. A moisture meter reading taken at the surface of those walls can look acceptable while the interior of the block is still saturated. We use both surface and deep-penetration readings — and in some cases thermal imaging — to confirm that remediation is complete rather than just surface-level. Skipping that step is why mold returns in the same spot six months later.
 
-If you've noticed a musty smell in your basement, visible dark staining on walls or framing, or you've had any water intrusion in the past 90 days, call The Restoration Group at (855) 650-7422. We'll assess the situation honestly, explain what we find, and give you a clear scope before any work begins.
+If you've noticed a musty smell in your basement, visible dark staining on walls or framing, or you've had any water intrusion in the past 90 days, call The Restoration Group at (908) 970-8533. We'll assess the situation honestly, explain what we find, and give you a clear scope before any work begins.

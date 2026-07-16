@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Emergency Board-Up and Tarping in Jersey City, NJ | The Restoration Group"
 h1: "Emergency Board-Up and Tarping in Jersey City"
-meta_description: "24/7 emergency board-up and tarping in Jersey City, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 emergency board-up and tarping in Jersey City, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "emergency board-up and tarping jersey city"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -32,7 +32,7 @@ Fire damage compounds the exposure. After a structure fire, open wall cavities a
 
 ## Our Emergency Board-Up and Tarping Process in Jersey City
 
-When you call (855) 650-7422, dispatch begins immediately. Here's what the process looks like on the ground:
+When you call (908) 970-8533, dispatch begins immediately. Here's what the process looks like on the ground:
 
 **Assessment on arrival.** The crew walks the perimeter and identifies every breach point — broken windows, kicked-in doors, compromised roof sections, damaged soffits. In attached rowhouses common to Bergen-Lafayette and Greenville, we also check party walls for shared openings that may expose a neighbor's unit.
 
@@ -56,4 +56,4 @@ We carry NJ Licensed Home Improvement Contractor status through the NJ Division 
 
 In The Heights and Bergen-Lafayette, many rowhouses share a single wythe of brick or a wood-framed party wall with the adjacent property. After a fire or structural failure, that shared wall can become a breach point that exposes the neighboring unit to weather, smoke odor, or pest entry — even if the neighbor's home sustained no direct damage. Jersey City code requires the property owner of the damaged structure to secure their side of any shared opening. We flag these situations on arrival and board the shared wall from the damaged unit's side, which both satisfies the city's requirement and protects the neighbor from secondary exposure. It's a detail that matters in attached-home neighborhoods and one that a crew unfamiliar with Jersey City's building patterns might overlook.
 
-If your property has been damaged and you need it secured today, call The Restoration Group at **(855) 650-7422**. We cover all of Jersey City — from the waterfront high-rises near Liberty State Park to the side streets of Greenville — and we're available any hour to prevent a bad situation from becoming a worse one.
+If your property has been damaged and you need it secured today, call The Restoration Group at **(908) 970-8533**. We cover all of Jersey City — from the waterfront high-rises near Liberty State Park to the side streets of Greenville — and we're available any hour to prevent a bad situation from becoming a worse one.

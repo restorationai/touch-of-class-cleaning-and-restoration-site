@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Burst Pipe Cleanup and Repair in Elizabeth, NJ | The Restoration Group"
 h1: "Burst Pipe Cleanup and Repair in Elizabeth"
-meta_description: "24/7 burst pipe cleanup and repair in Elizabeth, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 burst pipe cleanup and repair in Elizabeth, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "burst pipe cleanup and repair elizabeth"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -53,4 +53,4 @@ Multifamily losses in Elizabeth almost always involve more than one insurance po
 
 In Elizabeth's older multifamily buildings, the main water shutoff is frequently in the basement — and in Elizabethport and Peterstown especially, those basements are often shared, accessed through a common door, or partially finished in ways that make the shutoff valve hard to find under pressure. We keep a locator tool on every truck and have learned to ask the right questions on the phone before we arrive: who has basement access, is there a separate unit below grade, and has anyone already attempted to shut the water. That 90-second conversation on the way over saves ten minutes of searching when every minute is adding to the loss.
 
-If a pipe has burst in your Elizabeth property — whether you are in a ZIP code 07201 building near the courthouse or a Bayway rental close to the waterfront — call (855) 650-7422 now. We will pick up, ask the right questions, and have a crew moving toward you before you hang up.
+If a pipe has burst in your Elizabeth property — whether you are in a ZIP code 07201 building near the courthouse or a Bayway rental close to the waterfront — call (908) 970-8533 now. We will pick up, ask the right questions, and have a crew moving toward you before you hang up.

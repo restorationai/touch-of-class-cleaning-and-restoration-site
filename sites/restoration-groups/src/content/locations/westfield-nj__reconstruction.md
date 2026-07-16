@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Reconstruction Services in Westfield, NJ | The Restoration Group"
 h1: "Reconstruction Services in Westfield"
-meta_description: "24/7 reconstruction services in Westfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 reconstruction services in Westfield, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "reconstruction services westfield"
 secondary_keywords: ["post-damage reconstruction", "rebuild services", "structural reconstruction", "post-disaster rebuilding", "fire damage reconstruction"]
 search_intent: "local_commercial"
@@ -48,4 +48,4 @@ For properties in neighborhoods like Manor Park or Brightwood where home values 
 
 One thing that catches out-of-area contractors working in Westfield: the combination of original plaster walls and modern spray-foam insulation added during energy retrofits creates an unusual moisture dynamic after a water loss. The plaster releases moisture slowly — much more slowly than drywall — but the spray foam behind it can trap that moisture against the lath if reconstruction moves too fast. Westfield's older homes need extended drying verification before framing cavities are closed, even when surface readings look acceptable. Skipping that step leads to callbacks months later when mold colonizes wood lath that was never fully dry. It's a detail that matters specifically in this housing stock, and it shapes how reconstruction timelines are built here.
 
-If you're managing a post-damage rebuild anywhere in Westfield — whether it's storm damage to a roof near Tamaques Park or a basement reconstruction following a sewer backup — call The Restoration Group at (855) 650-7422. The team is available around the clock, and the rebuild is done to the quality the house was built with.
+If you're managing a post-damage rebuild anywhere in Westfield — whether it's storm damage to a roof near Tamaques Park or a basement reconstruction following a sewer backup — call The Restoration Group at (908) 970-8533. The team is available around the clock, and the rebuild is done to the quality the house was built with.

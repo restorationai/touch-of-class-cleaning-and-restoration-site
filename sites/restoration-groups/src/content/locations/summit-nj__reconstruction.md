@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Reconstruction Services in Summit, NJ | The Restoration Group"
 h1: "Reconstruction Services in Summit"
-meta_description: "24/7 reconstruction services in Summit, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 reconstruction services in Summit, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "reconstruction services summit"
 secondary_keywords: ["post-damage reconstruction", "rebuild services", "structural reconstruction", "post-disaster rebuilding", "fire damage reconstruction"]
 search_intent: "local_commercial"
@@ -46,4 +46,4 @@ Large-loss reconstruction claims on Summit properties — especially those invol
 
 One pattern we've learned working in Summit's older neighborhoods: the finished basements in many homes near the Franklin School area were converted from original utility space decades ago, often without the waterproofing or drainage infrastructure that a purpose-built finished basement would have. When stormwater or a plumbing failure reaches those spaces, the subfloor assembly is frequently a combination of sleepers, rigid foam, and original concrete — not a standard platform frame. Reconstruction in those areas requires a different approach to subfloor drying, vapor management, and rebuild sequencing than what a standard residential estimating template assumes. Knowing that before demo starts saves time, prevents callbacks, and keeps the project on budget.
 
-If your Summit property has sustained fire, water, or storm damage and you're ready to talk about what a proper rebuild looks like, call The Restoration Group at (855) 650-7422. We'll walk the property, scope the work honestly, and put together a reconstruction plan built around what your home actually is — not a generic version of it.
+If your Summit property has sustained fire, water, or storm damage and you're ready to talk about what a proper rebuild looks like, call The Restoration Group at (908) 970-8533. We'll walk the property, scope the work honestly, and put together a reconstruction plan built around what your home actually is — not a generic version of it.

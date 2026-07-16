@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Burst Pipe Cleanup and Repair in Springfield, NJ | The Restoration Group"
 h1: "Burst Pipe Cleanup and Repair in Springfield"
-meta_description: "24/7 burst pipe cleanup and repair in Springfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 burst pipe cleanup and repair in Springfield, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "burst pipe cleanup and repair springfield"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -20,7 +20,7 @@ state: "NJ"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
-When a pipe lets go in a Springfield home — whether it's a 1940s colonial off Mountain Avenue or a finished-basement townhome near the Millburn line — the water doesn't wait for business hours. The west branch of the Rahway River already proved that point during Ida, when Route 22 turned into a channel and flooded properties across the township's low-lying corridors. A burst supply line inside a house works the same physics on a smaller scale: within minutes, water is moving through subfloor cavities, soaking insulation, and wicking up drywall. The Restoration Group is IICRC Certified Firm #210213, based in Kenilworth, and reachable around the clock at (855) 650-7422.
+When a pipe lets go in a Springfield home — whether it's a 1940s colonial off Mountain Avenue or a finished-basement townhome near the Millburn line — the water doesn't wait for business hours. The west branch of the Rahway River already proved that point during Ida, when Route 22 turned into a channel and flooded properties across the township's low-lying corridors. A burst supply line inside a house works the same physics on a smaller scale: within minutes, water is moving through subfloor cavities, soaking insulation, and wicking up drywall. The Restoration Group is IICRC Certified Firm #210213, based in Kenilworth, and reachable around the clock at (908) 970-8533.
 
 ## Why Springfield Properties See Burst Pipe Damage Differently
 
@@ -50,4 +50,4 @@ If your property is part of a townhome association near the Millburn line, we ca
 
 One thing that catches homeowners off guard in the Baltusrol area and older Springfield Center blocks: many of the 1940s and 1950s colonials have galvanized supply lines feeding copper branch lines — a mixed-metal system where the transition fitting is often the first point of failure. After we stop the water and begin drying, we flag those transition points for the plumber so the repair addresses the actual weak link rather than just the visible split. It's a detail that only shows up when you've worked in this specific housing stock, and missing it means the same section of pipe fails again within a year or two.
 
-If a pipe has burst in your Springfield home or business, the clock on secondary damage — mold colonization typically begins within 24 to 48 hours in wet building materials — is already running. Call The Restoration Group at (855) 650-7422 any hour; we serve all of Springfield's 07081 ZIP code and can be on-site to stop the damage from compounding.
+If a pipe has burst in your Springfield home or business, the clock on secondary damage — mold colonization typically begins within 24 to 48 hours in wet building materials — is already running. Call The Restoration Group at (908) 970-8533 any hour; we serve all of Springfield's 07081 ZIP code and can be on-site to stop the damage from compounding.

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Water Damage Restoration in Elizabeth, NJ | The Restoration Group"
 h1: "Water Damage Restoration in Elizabeth"
-meta_description: "24/7 water damage restoration in Elizabeth, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 water damage restoration in Elizabeth, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "water damage restoration elizabeth"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -52,4 +52,4 @@ Multifamily properties in Elizabeth create layered insurance situations. A landl
 
 In Elizabeth's older Elizabethport and Peterstown rowhouses, original pine subfloors are often nailed directly to floor joists with no vapor barrier beneath — a construction detail that was standard practice before 1940. When water gets under that floor, it wicks along the grain rapidly and can travel six to eight feet from the visible wet spot before moisture readings spike. We've learned to map well beyond the obvious damage boundary on these jobs, because stopping the drying perimeter at what's visibly wet almost always means a callback two weeks later when the homeowner notices a soft spot or a musty smell in a room that looked dry.
 
-If you're dealing with water damage in Elizabeth — whether it's a burst pipe in an Elmora two-family, a sewer backup in Bayway, or a roof leak over a Midtown commercial space — call The Restoration Group at (855) 650-7422. We'll have equipment on-site fast, document everything your insurer needs, and dry the structure to standard so the problem doesn't come back.
+If you're dealing with water damage in Elizabeth — whether it's a burst pipe in an Elmora two-family, a sewer backup in Bayway, or a roof leak over a Midtown commercial space — call The Restoration Group at (908) 970-8533. We'll have equipment on-site fast, document everything your insurer needs, and dry the structure to standard so the problem doesn't come back.

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Smoke Damage Restoration in Summit, NJ | The Restoration Group"
 h1: "Smoke Damage Restoration in Summit"
-meta_description: "24/7 smoke damage restoration in Summit, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 smoke damage restoration in Summit, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "smoke damage restoration summit"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -48,4 +48,4 @@ Smoke damage claims on older Summit properties often involve coverage disputes a
 
 Something worth knowing if you own a home near the Reeves-Reed Arboretum or in the larger lots along the Northside: Summit's clay soil and mature street tree canopy mean that even a contained interior fire can draw fire department apparatus that parks on soft ground near property lines. We've seen situations where the suppression effort — not just the fire — creates secondary damage from hose lines run through finished spaces. When we arrive, we scope the full loss including any water intrusion from suppression, not just the smoke and soot, so nothing gets missed on the initial claim.
 
-If your Summit home has been affected by smoke, soot, or fire-related damage, call The Restoration Group at (855) 650-7422. We'll walk you through next steps, work directly with your insurance carrier, and treat your home's original materials with the care they deserve.
+If your Summit home has been affected by smoke, soot, or fire-related damage, call The Restoration Group at (908) 970-8533. We'll walk you through next steps, work directly with your insurance carrier, and treat your home's original materials with the care they deserve.

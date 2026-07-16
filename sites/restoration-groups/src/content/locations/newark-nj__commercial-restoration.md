@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Commercial Restoration in Newark, NJ | The Restoration Group"
 h1: "Commercial Restoration in Newark"
-meta_description: "24/7 commercial restoration in Newark, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 commercial restoration in Newark, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "commercial restoration newark"
 secondary_keywords: ["commercial water damage", "commercial fire damage", "business restoration", "office restoration", "retail restoration"]
 search_intent: "local_b2b"
@@ -54,4 +54,4 @@ We bill major commercial carriers directly and communicate with adjusters throug
 
 One detail that catches out-of-market contractors in Newark: the city's combined sewer system means that a "basement flood" after heavy rain is almost never clean water, even if it looks clear. The same drain that handles stormwater handles sanitary waste, and backflow events mix the two. We treat every below-grade commercial flood in Newark as a Category 2 or Category 3 loss until testing confirms otherwise — a step that protects the building owner from liability and ensures the remediation actually holds up to post-work inspection.
 
-If your commercial property in Newark has taken on water, smoke, or fire damage, call The Restoration Group at (855) 650-7422. We'll have a crew scoped, documented, and drying before your tenants have finished filing their own incident reports.
+If your commercial property in Newark has taken on water, smoke, or fire damage, call The Restoration Group at (908) 970-8533. We'll have a crew scoped, documented, and drying before your tenants have finished filing their own incident reports.

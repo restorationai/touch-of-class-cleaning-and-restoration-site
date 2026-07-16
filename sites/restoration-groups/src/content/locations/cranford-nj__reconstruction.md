@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Reconstruction Services in Cranford, NJ | The Restoration Group"
 h1: "Reconstruction Services in Cranford"
-meta_description: "24/7 reconstruction services in Cranford, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 reconstruction services in Cranford, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "reconstruction services cranford"
 secondary_keywords: ["post-damage reconstruction", "rebuild services", "structural reconstruction", "post-disaster rebuilding", "fire damage reconstruction"]
 search_intent: "local_commercial"
@@ -46,4 +46,4 @@ Cranford homeowners who've been through a major flood event — and there are ma
 
 One thing that catches out-of-area contractors in Cranford: the pre-war colonials common in the Sunny Acres and Cranford West sections frequently have plaster walls over wood lath rather than drywall. Plaster absorbs and holds moisture differently — it can feel dry to the touch while the lath and framing behind it remain wet for weeks. Standard drywall replacement timelines don't apply. We use thermal imaging and deep-wall moisture probes before any finish reconstruction begins in these homes, because rebuilding over wet framing just restarts the mold clock. It's a slower process, but it's the only one that holds up.
 
-When the damage is done and the drying equipment is gone, the real work of putting a Cranford property back together begins. Call The Restoration Group at (855) 650-7422 — our team is available around the clock, we're minutes from Cranford, and we'll start with an honest scope before a single nail goes in.
+When the damage is done and the drying equipment is gone, the real work of putting a Cranford property back together begins. Call The Restoration Group at (908) 970-8533 — our team is available around the clock, we're minutes from Cranford, and we'll start with an honest scope before a single nail goes in.

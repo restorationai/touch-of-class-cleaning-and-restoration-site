@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Basement Flooding Cleanup in Elizabeth, NJ | The Restoration Group"
 h1: "Basement Flooding Cleanup in Elizabeth"
-meta_description: "24/7 basement flooding cleanup in Elizabeth, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 basement flooding cleanup in Elizabeth, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "basement flooding cleanup elizabeth"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -50,4 +50,4 @@ One thing that surprises crews working Elizabeth for the first time is how many 
 
 Most homeowner and landlord policies in New Jersey cover sudden and accidental water damage from burst pipes or appliance failures, but sewer backup coverage is a separate rider that many Elizabeth property owners don't carry — and Ida made that gap painfully clear for a lot of households. We document the loss thoroughly from the moment we arrive: photographs of water levels, moisture readings, material categories, and a written scope of work that aligns with Xactimate line items used by most major carriers. If your policy does cover the loss, that documentation is what gets your claim processed without a prolonged back-and-forth. If it doesn't, a clear scope also helps you understand exactly what work was done and why, which matters if you're pursuing a landlord, a plumber, or a municipal claim.
 
-If your Elizabeth basement is holding water right now — whether it's a clean supply-line break near Warinanco Park or a sewage backup in Elizabethport — call (855) 650-7422. We'll assess the source, contain the damage, and give you a documented path to a dry, safe basement.
+If your Elizabeth basement is holding water right now — whether it's a clean supply-line break near Warinanco Park or a sewage backup in Elizabethport — call (908) 970-8533. We'll assess the source, contain the damage, and give you a documented path to a dry, safe basement.

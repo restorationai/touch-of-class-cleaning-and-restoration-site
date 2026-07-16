@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Inspection and Testing in Manhattan, NY | The Restoration Group"
 h1: "Mold Inspection and Testing in Manhattan"
-meta_description: "24/7 mold inspection and testing in Manhattan, NY. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 mold inspection and testing in Manhattan, NY. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "mold inspection and testing manhattan"
 secondary_keywords: ["mold inspection", "mold testing", "indoor air quality testing", "mold spore testing", "mold assessment"]
 search_intent: "local_health"
@@ -46,4 +46,4 @@ Mold claims in Manhattan co-ops and condos involve at least two layers of insura
 
 In pre-war Manhattan buildings with plaster-and-lath wall construction — common in co-ops throughout the Upper West Side and parts of Harlem — mold often grows on the back face of the lath, completely invisible from the room side. Thermal imaging can suggest elevated moisture behind the plaster, but a definitive answer sometimes requires a small exploratory opening. We flag this possibility before the inspection begins so building management and the unit owner can decide together whether invasive sampling is warranted, rather than discovering mid-inspection that the scope needs to expand.
 
-If you're dealing with a musty smell, a water stain that keeps coming back, or a recent leak that was "dried out" but never tested, a proper mold inspection is the right first step. Call The Restoration Group at (855) 650-7422 — our team understands how Manhattan buildings work and will deliver the documentation your board, your insurer, and your peace of mind actually require.
+If you're dealing with a musty smell, a water stain that keeps coming back, or a recent leak that was "dried out" but never tested, a proper mold inspection is the right first step. Call The Restoration Group at (908) 970-8533 — our team understands how Manhattan buildings work and will deliver the documentation your board, your insurer, and your peace of mind actually require.

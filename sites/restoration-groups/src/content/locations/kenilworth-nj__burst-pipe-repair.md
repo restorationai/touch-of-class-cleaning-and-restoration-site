@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Burst Pipe Cleanup and Repair in Kenilworth, NJ | The Restoration Group"
 h1: "Burst Pipe Cleanup and Repair in Kenilworth"
-meta_description: "24/7 burst pipe cleanup and repair in Kenilworth, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 burst pipe cleanup and repair in Kenilworth, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "burst pipe cleanup and repair kenilworth"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -42,7 +42,7 @@ All drying is performed to IICRC S500 standards. The Restoration Group holds IIC
 
 ## Reaching Kenilworth — Any Hour, Any Day
 
-Our S 31st Street location puts us inside the borough before most contractors have finished loading their truck. For addresses along South Kenilworth near the Garden State Parkway Exit 138 interchange, or for commercial properties in the Monroe Avenue industrial corridor, the route is direct and doesn't require highway time. We operate 24/7, so a pipe that lets go at 2 a.m. on a Tuesday gets the same response as a weekday afternoon call. When you call (855) 650-7422, you reach a live person who dispatches immediately — not an answering service that queues a callback for morning.
+Our S 31st Street location puts us inside the borough before most contractors have finished loading their truck. For addresses along South Kenilworth near the Garden State Parkway Exit 138 interchange, or for commercial properties in the Monroe Avenue industrial corridor, the route is direct and doesn't require highway time. We operate 24/7, so a pipe that lets go at 2 a.m. on a Tuesday gets the same response as a weekday afternoon call. When you call (908) 970-8533, you reach a live person who dispatches immediately — not an answering service that queues a callback for morning.
 
 ## Insurance Coordination for Kenilworth Homeowners
 
@@ -52,4 +52,4 @@ Most standard homeowners policies in New Jersey cover sudden and accidental disc
 
 In Kenilworth's prewar capes and colonials — particularly the blocks between David Brearley High School and The Boulevard business district — original plaster walls are often applied directly over wood lath with no vapor barrier behind them. When a supply line inside that wall cavity bursts, the plaster face can look completely intact while the lath and framing behind it are fully saturated. Homeowners and even some contractors miss it because there's no visible staining. We probe those walls with pin meters before declaring any cavity dry, because a reading of 18% in lath framing at day three means mold colonization is already underway, not approaching.
 
-If you're dealing with a burst pipe anywhere in Kenilworth — whether it's a supply line in a finished basement or a water-heater connection that finally gave out — call (855) 650-7422 now. We're already in the borough.
+If you're dealing with a burst pipe anywhere in Kenilworth — whether it's a supply line in a finished basement or a water-heater connection that finally gave out — call (908) 970-8533 now. We're already in the borough.

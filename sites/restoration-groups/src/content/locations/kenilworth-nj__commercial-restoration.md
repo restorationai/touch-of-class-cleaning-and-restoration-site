@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Commercial Restoration in Kenilworth, NJ | The Restoration Group"
 h1: "Commercial Restoration in Kenilworth"
-meta_description: "24/7 commercial restoration in Kenilworth, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 commercial restoration in Kenilworth, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "commercial restoration kenilworth"
 secondary_keywords: ["commercial water damage", "commercial fire damage", "business restoration", "office restoration", "retail restoration"]
 search_intent: "local_b2b"
@@ -52,4 +52,4 @@ As an IICRC Certified Firm (#210213) and NJ Licensed Home Improvement Contractor
 
 One thing specific to Kenilworth's older commercial buildings: many of the mixed-use properties along The Boulevard were originally built with uninsulated, unlined clay flue systems that were later converted to gas heat. When a fire or significant smoke event occurs, those flue cavities can carry soot and combustion byproducts into wall assemblies on upper floors — sometimes into residential units above a ground-floor commercial space. We probe those cavities as a standard step on any fire loss in pre-1960 Kenilworth buildings, because missing that pathway means the odor complaint comes back six weeks after the job closes.
 
-If your business or property has experienced a water, fire, or smoke event, call (855) 650-7422. We're available around the clock, and for any address in Kenilworth, we're already close.
+If your business or property has experienced a water, fire, or smoke event, call (908) 970-8533. We're available around the clock, and for any address in Kenilworth, we're already close.

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Fire Damage Restoration in Westfield, NJ | The Restoration Group"
 h1: "Fire Damage Restoration in Westfield"
-meta_description: "24/7 fire damage restoration in Westfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 fire damage restoration in Westfield, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "fire damage restoration westfield"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -58,4 +58,4 @@ Fire claims in Westfield frequently involve high replacement-cost valuations —
 
 Westfield's original plaster walls — the kind you find throughout Wychwood and The Gardens — behave differently under smoke exposure than the drywall in a newer construction home. Plaster is alkaline and porous, which means acidic smoke residues penetrate the surface layer rather than sitting on top of it. If a restoration crew treats those walls the way they'd treat modern drywall, the odor returns within weeks as temperature and humidity draw the embedded particles back to the surface. We extend our chemical treatment and odor-neutralization protocols specifically for plaster substrates, and we test with air-quality meters before closing out any room — not just when it smells clean to a nose that's been in the building all day.
 
-If your Westfield home has been damaged by fire, the window for limiting secondary damage is measured in hours, not days. Call The Restoration Group at (855) 650-7422 — our team is available around the clock and can begin the assessment and stabilization process before smoke residue and suppressant moisture have time to cause a second wave of damage.
+If your Westfield home has been damaged by fire, the window for limiting secondary damage is measured in hours, not days. Call The Restoration Group at (908) 970-8533 — our team is available around the clock and can begin the assessment and stabilization process before smoke residue and suppressant moisture have time to cause a second wave of damage.

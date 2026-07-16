@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Smoke Damage Restoration in Brooklyn, NY | The Restoration Group"
 h1: "Smoke Damage Restoration in Brooklyn"
-meta_description: "24/7 smoke damage restoration in Brooklyn, NY. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 smoke damage restoration in Brooklyn, NY. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "smoke damage restoration brooklyn"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -64,4 +64,4 @@ Co-op and condo boards in buildings near Barclays Center and throughout the Heig
 
 One thing that surprises homeowners in older Brooklyn rowhouses: smoke odor can return weeks after a surface cleaning that seemed thorough. Horsehair plaster, which is standard in pre-1930 construction throughout Park Slope and Brooklyn Heights, acts almost like a sponge for volatile compounds. Heat from the fire drives those compounds deep into the substrate, and they off-gas slowly as temperatures fluctuate with the seasons. This is why we don't close out a smoke job in these buildings based on visual inspection alone — we schedule a follow-up air quality check after the first significant temperature swing to confirm the odor hasn't re-emerged from the walls themselves.
 
-If you're dealing with smoke damage in a Brooklyn home or building, call The Restoration Group at (855) 650-7422. We'll assess the full scope of the loss — including the residue you can't see yet — and build a remediation plan that holds up to insurer scrutiny and protects the original character of the building.
+If you're dealing with smoke damage in a Brooklyn home or building, call The Restoration Group at (908) 970-8533. We'll assess the full scope of the loss — including the residue you can't see yet — and build a remediation plan that holds up to insurer scrutiny and protects the original character of the building.

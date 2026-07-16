@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Water Damage Restoration in Westfield, NJ | The Restoration Group"
 h1: "Water Damage Restoration in Westfield"
-meta_description: "24/7 water damage restoration in Westfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 water damage restoration in Westfield, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "water damage restoration westfield"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -57,4 +57,4 @@ If you're uncertain whether your loss is covered, we'll walk through the documen
 
 Westfield's original clay sewer laterals are a detail that matters on water mitigation jobs in ways that aren't always obvious. Clay laterals are prone to root intrusion from the same mature trees that give neighborhoods like The Gardens and Wychwood their character. When a basement floods and the source isn't immediately clear, a backed-up lateral from root intrusion is high on the differential — and it changes the extraction approach, because the water is now a Category 3 (sewage-contaminated) loss requiring a different containment and disposal protocol than a clean-water pipe burst. Knowing to check for that before assuming a clean-water source has saved more than a few Westfield homeowners from an underscoped remediation.
 
-If water is moving through your home right now, call (855) 650-7422. The Restoration Group is available around the clock, and getting extraction started within the first few hours is the single biggest factor in limiting structural damage and preventing secondary mold growth in Westfield's older building assemblies.
+If water is moving through your home right now, call (908) 970-8533. The Restoration Group is available around the clock, and getting extraction started within the first few hours is the single biggest factor in limiting structural damage and preventing secondary mold growth in Westfield's older building assemblies.

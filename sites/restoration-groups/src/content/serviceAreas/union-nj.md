@@ -2,7 +2,7 @@
 archetype: "service-area"
 title: "Restoration Services in Union, NJ | The Restoration Group"
 h1: "Restoration Services in Union"
-meta_description: "Serving Union, NJ with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (855) 650-7422."
+meta_description: "Serving Union, NJ with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (908) 970-8533."
 primary_keyword: "restoration services union"
 secondary_keywords: ["union restoration company", "damage restoration union", "union disaster restoration"]
 search_intent: "local_commercial"
@@ -19,7 +19,7 @@ state: "NJ"
 primary: false
 rendered: true
 ---
-When a pipe bursts behind a finished wall in a Battle Hill split-level, or a storm drain backs up into a Vauxhall basement at 2 a.m., The Restoration Group dispatches from Kenilworth around the clock — water extraction, structural drying, mold containment, fire and smoke cleanup, and full reconstruction, all coordinated under one crew so Union property owners are not juggling multiple contractors during the worst week of their year. Call us at **(855) 650-7422** any time.
+When a pipe bursts behind a finished wall in a Battle Hill split-level, or a storm drain backs up into a Vauxhall basement at 2 a.m., The Restoration Group dispatches from Kenilworth around the clock — water extraction, structural drying, mold containment, fire and smoke cleanup, and full reconstruction, all coordinated under one crew so Union property owners are not juggling multiple contractors during the worst week of their year. Call us at **(908) 970-8533** any time.
 
 ## Restoration emergencies common in Union
 
@@ -59,4 +59,4 @@ The Restoration Group is based in Kenilworth, which shares a border with Union T
 
 A property manager overseeing a six-unit building near the Union Center business district called after a second-floor washing machine supply line failed overnight. By the time the first tenant noticed water coming through a light fixture on the floor below, two units had standing water and a third had wet drywall. Our crew arrived, extracted water from both affected units, set drying equipment across all three floors, and provided the manager with a written moisture log and photo documentation within the first day — the format her carrier required to open the claim without delay. The building was dry and ready for repairs within the standard drying window.
 
-If you're dealing with a loss in Union right now — or want to talk through a situation before it gets worse — call **(855) 650-7422**. We answer around the clock, and our crews are close.
+If you're dealing with a loss in Union right now — or want to talk through a situation before it gets worse — call **(908) 970-8533**. We answer around the clock, and our crews are close.

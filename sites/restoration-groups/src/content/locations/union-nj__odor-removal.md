@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Odor Removal and Deodorization in Union, NJ | The Restoration Group"
 h1: "Odor Removal and Deodorization in Union"
-meta_description: "24/7 odor removal and deodorization in Union, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 odor removal and deodorization in Union, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "odor removal and deodorization union"
 secondary_keywords: ["smoke odor removal", "ozone treatment", "hydroxyl deodorization", "thermal fogging", "professional odor elimination"]
 search_intent: "local_specialty"
@@ -51,4 +51,4 @@ The Restoration Group is based in Kenilworth, which shares a direct border with 
 
 One thing that catches contractors unfamiliar with Union's housing stock off guard: original plaster walls absorb odor compounds differently than modern drywall. Plaster is denser and less permeable on the surface, which sounds like an advantage — but it means odor molecules that do penetrate the surface layer are effectively sealed in. Thermal fogging is often the most effective tool in these homes because the fogging agent can follow the same vapor pathways the original odor used. In homes where the plaster has been skim-coated or painted multiple times over the decades, we sometimes need to extend treatment dwell times to allow full penetration. It's a detail that matters in a town where a significant portion of the housing stock predates 1960.
 
-If your home or business in Union is dealing with smoke, pet, mold, or flood-related odor that hasn't responded to cleaning, call The Restoration Group at (855) 650-7422. We'll assess the source, explain the right treatment method for your specific materials, and get the process started — any time of day.
+If your home or business in Union is dealing with smoke, pet, mold, or flood-related odor that hasn't responded to cleaning, call The Restoration Group at (908) 970-8533. We'll assess the source, explain the right treatment method for your specific materials, and get the process started — any time of day.

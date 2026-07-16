@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Remediation in Jersey City, NJ | The Restoration Group"
 h1: "Mold Remediation in Jersey City"
-meta_description: "24/7 mold remediation in Jersey City, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 mold remediation in Jersey City, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "mold remediation jersey city"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
@@ -54,4 +54,4 @@ The Restoration Group operates 24/7 and dispatches from Kenilworth, reaching Jer
 
 One thing that catches people off guard in older Jersey City buildings: the original horsehair plaster walls common in Heights and Bergen-Lafayette brownstones behave very differently from modern drywall when they get wet. Plaster itself is relatively resistant to mold, but the wood lath strips behind it are not — and because plaster is dense and slow to release moisture, a lath cavity can stay wet for weeks after the surface feels dry to the touch. We've found active mold growth on lath in buildings where the homeowner was certain the wall had dried out months earlier. In these structures, we extend drying monitoring periods and use cavity probes rather than relying on surface readings alone.
 
-If you're dealing with visible mold growth, a musty smell that won't clear, or a recent water event in a Jersey City property, call (855) 650-7422. We'll assess the situation, explain what we find, and give you a clear scope before any work begins.
+If you're dealing with visible mold growth, a musty smell that won't clear, or a recent water event in a Jersey City property, call (908) 970-8533. We'll assess the situation, explain what we find, and give you a clear scope before any work begins.

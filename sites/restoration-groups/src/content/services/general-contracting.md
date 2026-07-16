@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Renovations, Remodels and General Contracting in Kenilworth | The Restoration Group"
 h1: "Renovations, Remodels and General Contracting in Kenilworth"
-meta_description: "24/7 renovations, remodels and general contracting in Kenilworth and surrounding areas. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 renovations, remodels and general contracting in Kenilworth and surrounding areas. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "renovations, remodels and general contracting kenilworth"
 secondary_keywords: ["general contractor", "home renovation services", "home remodeling", "kitchen remodel", "bathroom remodel", "post-damage rebuild"]
 search_intent: "local_commercial"
@@ -57,4 +57,4 @@ Humidity also matters for finish work. Hardwood flooring installed during a humi
 
 The Restoration Group is based in Kenilworth, NJ and handles renovation, remodeling, and general contracting projects across Union, Essex, Morris, and Middlesex counties. Neighboring communities including Cranford, Westfield, Summit, Springfield, Roselle, and Clark are within our regular project footprint. City-specific pages for many of these areas link back here for full service detail.
 
-When your home is cleared and ready to rebuild, call (855) 650-7422 to get a detailed renovation scope of work — one that accounts for what the damage report may have missed and what it will actually take to bring the space back to finished condition.
+When your home is cleared and ready to rebuild, call (908) 970-8533 to get a detailed renovation scope of work — one that accounts for what the damage report may have missed and what it will actually take to bring the space back to finished condition.

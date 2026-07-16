@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Reconstruction Services in Kenilworth | The Restoration Group"
 h1: "Reconstruction Services in Kenilworth"
-meta_description: "24/7 reconstruction services in Kenilworth and surrounding areas. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 reconstruction services in Kenilworth and surrounding areas. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "reconstruction services kenilworth"
 secondary_keywords: ["post-damage reconstruction", "rebuild services", "structural reconstruction", "post-disaster rebuilding", "fire damage reconstruction"]
 search_intent: "local_commercial"
@@ -66,4 +66,4 @@ The Restoration Group handles reconstruction services in Kenilworth and througho
 
 ---
 
-If your structure has been stabilized and you're ready to move from demo to done, call (855) 650-7422 to get a reconstruction scope of work — a line-item breakdown of what needs to happen, in what order, and what the insurance file will need to support it.
+If your structure has been stabilized and you're ready to move from demo to done, call (908) 970-8533 to get a reconstruction scope of work — a line-item breakdown of what needs to happen, in what order, and what the insurance file will need to support it.

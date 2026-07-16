@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Sewage Cleanup and Sanitization in Elizabeth, NJ | The Restoration Group"
 h1: "Sewage Cleanup and Sanitization in Elizabeth"
-meta_description: "24/7 sewage cleanup and sanitization in Elizabeth, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 sewage cleanup and sanitization in Elizabeth, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "sewage cleanup and sanitization elizabeth"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,7 +20,7 @@ state: "NJ"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
-Elizabeth's combined sewer system — the kind where stormwater and sanitary waste share the same underground pipes — was built for a city half its current density. When heavy rain hits Union County, or when a corroded lateral under one of Elizabethport's century-old two-families finally gives way, that system backs up fast. Raw sewage surfaces in basements, laundry rooms, and first-floor units, and in a neighborhood where a single building houses three separate households, one backup can displace multiple families before noon. If that's happening at your property right now, call (855) 650-7422 — the crew dispatches around the clock.
+Elizabeth's combined sewer system — the kind where stormwater and sanitary waste share the same underground pipes — was built for a city half its current density. When heavy rain hits Union County, or when a corroded lateral under one of Elizabethport's century-old two-families finally gives way, that system backs up fast. Raw sewage surfaces in basements, laundry rooms, and first-floor units, and in a neighborhood where a single building houses three separate households, one backup can displace multiple families before noon. If that's happening at your property right now, call (908) 970-8533 — the crew dispatches around the clock.
 
 ## Why Elizabeth Properties See Sewage Backup So Often
 
@@ -56,4 +56,4 @@ For landlords managing multiple units in buildings near Warinanco Park or along 
 
 One thing that surprises property owners new to Elizabeth's older neighborhoods: the original clay tile sewer laterals common in pre-war construction often run under finished basement slabs rather than through crawlspaces. When a lateral fails and sewage migrates under the slab, it can surface through cracks and floor drains well away from the actual break point. We use moisture meters and, when needed, thermal imaging to trace the full contamination footprint before we start cutting — skipping that step in a Peterstown or Midtown basement often means missing saturated material that will grow mold within 48 to 72 hours.
 
-If you're dealing with sewage backup in Elizabeth — whether it's a single-family home in Elmora, a three-unit rental in Elizabethport, or a commercial property near Jersey Gardens — call (855) 650-7422. The Restoration Group is IICRC Certified Firm #210213, licensed by the NJ Division of Consumer Affairs, and ready to respond any hour of the day.
+If you're dealing with sewage backup in Elizabeth — whether it's a single-family home in Elmora, a three-unit rental in Elizabethport, or a commercial property near Jersey Gardens — call (908) 970-8533. The Restoration Group is IICRC Certified Firm #210213, licensed by the NJ Division of Consumer Affairs, and ready to respond any hour of the day.

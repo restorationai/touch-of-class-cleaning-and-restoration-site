@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Burst Pipe Cleanup and Repair in Manhattan, NY | The Restoration Group"
 h1: "Burst Pipe Cleanup and Repair in Manhattan"
-meta_description: "24/7 burst pipe cleanup and repair in Manhattan, NY. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 burst pipe cleanup and repair in Manhattan, NY. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "burst pipe cleanup and repair manhattan"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -48,6 +48,6 @@ One thing that catches out-of-market contractors in Manhattan: freight elevator 
 
 ## Getting to Manhattan from Kenilworth
 
-The Restoration Group operates out of Kenilworth, NJ, and reaches Manhattan via the Lincoln Tunnel or the Goethals-to-Holland corridor depending on destination. Midtown and the Upper East Side are typically our fastest routes; the Financial District and Lower East Side add travel time but remain well within our emergency response window. We're available around the clock — call (855) 650-7422 and a team member will confirm your address, building contact, and access details while the crew is already moving.
+The Restoration Group operates out of Kenilworth, NJ, and reaches Manhattan via the Lincoln Tunnel or the Goethals-to-Holland corridor depending on destination. Midtown and the Upper East Side are typically our fastest routes; the Financial District and Lower East Side add travel time but remain well within our emergency response window. We're available around the clock — call (908) 970-8533 and a team member will confirm your address, building contact, and access details while the crew is already moving.
 
-When a pipe bursts in your Manhattan building, the difference between a contained loss and a multi-floor disaster is measured in minutes. Call (855) 650-7422 now — our crew will coordinate directly with your building staff, document every affected unit, and get drying equipment in place as fast as Manhattan's elevator schedules allow.
+When a pipe bursts in your Manhattan building, the difference between a contained loss and a multi-floor disaster is measured in minutes. Call (908) 970-8533 now — our crew will coordinate directly with your building staff, document every affected unit, and get drying equipment in place as fast as Manhattan's elevator schedules allow.

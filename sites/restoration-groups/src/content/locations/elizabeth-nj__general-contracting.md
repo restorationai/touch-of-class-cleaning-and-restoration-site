@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Renovations, Remodels and General Contracting in Elizabeth, NJ | The Restoration Group"
 h1: "Renovations, Remodels and General Contracting in Elizabeth"
-meta_description: "24/7 renovations, remodels and general contracting in Elizabeth, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 renovations, remodels and general contracting in Elizabeth, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "renovations, remodels and general contracting elizabeth"
 secondary_keywords: ["general contractor", "home renovation services", "home remodeling", "kitchen remodel", "bathroom remodel", "post-damage rebuild"]
 search_intent: "local_commercial"
@@ -51,4 +51,4 @@ In a two- or three-family home, a kitchen or bathroom remodel affects every hous
 
 A significant share of renovation work in Elizabeth follows an insurance loss — a sewage backup in a Bayway basement, a kitchen fire in an Elmora two-family, or storm-surge damage from a coastal weather event. We carry the documentation practices from our mitigation side into the rebuild: photo logs, scope-of-work records, and material specifications formatted the way adjusters expect to see them. That documentation trail shortens the supplement cycle and reduces the back-and-forth that delays a rebuild by weeks.
 
-If you are managing a property in Elizabeth and need a contractor who understands both the restoration side and the rebuild side of a loss, call The Restoration Group at (855) 650-7422. We are available around the clock and can scope your project — whether it starts as a remodel or a recovery.
+If you are managing a property in Elizabeth and need a contractor who understands both the restoration side and the rebuild side of a loss, call The Restoration Group at (908) 970-8533. We are available around the clock and can scope your project — whether it starts as a remodel or a recovery.

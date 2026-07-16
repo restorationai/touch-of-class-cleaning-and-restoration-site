@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Odor Removal and Deodorization in Newark, NJ | The Restoration Group"
 h1: "Odor Removal and Deodorization in Newark"
-meta_description: "24/7 odor removal and deodorization in Newark, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 odor removal and deodorization in Newark, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "odor removal and deodorization newark"
 secondary_keywords: ["smoke odor removal", "ozone treatment", "hydroxyl deodorization", "thermal fogging", "professional odor elimination"]
 search_intent: "local_specialty"
@@ -46,4 +46,4 @@ Odor removal is frequently a covered loss when it follows a documented event —
 
 In Newark's older Ironbound and Vailsburg rowhouses, plaster-and-lath wall systems absorb smoke and sewage odor compounds differently than modern drywall. Plaster is denser and slower to off-gas, which means a thermal fogging treatment that would clear a 1990s frame house in a single session may need a second application and a longer dwell time in a pre-war building. We factor this into the initial scope rather than discovering it mid-job — it keeps timelines honest and prevents callbacks.
 
-If you're dealing with a smell that's outlasted every cleaning attempt — in a rental unit, a historic home, or a commercial space anywhere in Newark — call (855) 650-7422. The Restoration Group will identify the source, apply the right treatment for the building type, and document the result so your insurer, your tenants, and your own nose are satisfied.
+If you're dealing with a smell that's outlasted every cleaning attempt — in a rental unit, a historic home, or a commercial space anywhere in Newark — call (908) 970-8533. The Restoration Group will identify the source, apply the right treatment for the building type, and document the result so your insurer, your tenants, and your own nose are satisfied.

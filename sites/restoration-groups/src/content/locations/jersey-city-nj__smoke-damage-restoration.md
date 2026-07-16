@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Smoke Damage Restoration in Jersey City, NJ | The Restoration Group"
 h1: "Smoke Damage Restoration in Jersey City"
-meta_description: "24/7 smoke damage restoration in Jersey City, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 smoke damage restoration in Jersey City, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "smoke damage restoration jersey city"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -58,4 +58,4 @@ From our Kenilworth headquarters, our crews reach Jersey City via the NJ Turnpik
 
 In the older brownstones and rowhouses of The Heights and Bergen-Lafayette, original horsehair plaster walls absorb smoke odor differently than modern drywall — the lime-based matrix is more porous and holds volatile organic compounds longer. Standard odor neutralizers formulated for drywall surfaces often underperform on these walls. Our technicians adjust dwell times and product concentrations for plaster substrates, and in severe cases we recommend encapsulation with a shellac-based primer before repainting rather than latex-only topcoats, which can allow odor to bleed through within months.
 
-If you're dealing with smoke damage anywhere in Jersey City — from a kitchen fire in a Newport high-rise to a structural fire in a Bergen-Lafayette rowhouse — call The Restoration Group at **(855) 650-7422**. We'll assess the damage, walk you through the process, and get your property back to livable condition as quickly as the work allows.
+If you're dealing with smoke damage anywhere in Jersey City — from a kitchen fire in a Newport high-rise to a structural fire in a Bergen-Lafayette rowhouse — call The Restoration Group at **(908) 970-8533**. We'll assess the damage, walk you through the process, and get your property back to livable condition as quickly as the work allows.

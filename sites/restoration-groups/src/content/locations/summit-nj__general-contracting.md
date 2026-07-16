@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Renovations, Remodels and General Contracting in Summit, NJ | The Restoration Group"
 h1: "Renovations, Remodels and General Contracting in Summit"
-meta_description: "24/7 renovations, remodels and general contracting in Summit, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 renovations, remodels and general contracting in Summit, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "renovations, remodels and general contracting summit"
 secondary_keywords: ["general contractor", "home renovation services", "home remodeling", "kitchen remodel", "bathroom remodel", "post-damage rebuild"]
 search_intent: "local_commercial"
@@ -42,4 +42,4 @@ Kenilworth sits roughly 6 miles from Summit via Route 22 or the Garden State Par
 
 One thing that catches out-of-area contractors working in Summit: the original plaster walls in many Northside and Franklin School area homes are three-coat lime plaster over wood lath, and they hold moisture far longer than modern drywall after a water event. A wall that reads dry on a surface pin meter may still be carrying significant moisture in the brown coat beneath. Before any renovation work closes those walls, we use thermal imaging and deep-probe moisture readings to confirm the assembly is genuinely dry — skipping that step is how a beautifully renovated room develops a mold problem six months later.
 
-When you are ready to talk through a renovation, remodel, or post-damage rebuild at your Summit property, call The Restoration Group at (855) 650-7422. We will walk the job with you, give you a clear picture of what the existing conditions require, and build a scope that respects both the home's original character and your timeline.
+When you are ready to talk through a renovation, remodel, or post-damage rebuild at your Summit property, call The Restoration Group at (908) 970-8533. We will walk the job with you, give you a clear picture of what the existing conditions require, and build a scope that respects both the home's original character and your timeline.

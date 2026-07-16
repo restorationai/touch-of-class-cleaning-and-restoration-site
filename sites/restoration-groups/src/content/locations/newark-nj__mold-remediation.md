@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Remediation in Newark, NJ | The Restoration Group"
 h1: "Mold Remediation in Newark"
-meta_description: "24/7 mold remediation in Newark, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 mold remediation in Newark, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "mold remediation newark"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
@@ -54,4 +54,4 @@ For properties subject to NJ's landlord-tenant habitability standards, that docu
 
 In Newark's older three-family frame buildings — common throughout Vailsburg and the blocks surrounding Branch Brook Park — balloon-frame wall cavities run uninterrupted from the basement to the attic. When mold establishes in a first-floor wall cavity, it can wick upward through that open channel and colonize framing two floors above the original moisture source. We've learned to scope these jobs vertically, not just horizontally. If your building was constructed before 1950 and you're seeing mold on one floor, the inspection needs to include the floors above it before any remediation plan is finalized.
 
-If you're dealing with a musty smell, visible growth, or a recent water event at a Newark property, call (855) 650-7422. We'll assess the full scope, handle the insurance documentation, and remediate to a standard that holds up — whether your property is a Forest Hill colonial, a Ironbound row house, or a multifamily building near Newark Penn Station.
+If you're dealing with a musty smell, visible growth, or a recent water event at a Newark property, call (908) 970-8533. We'll assess the full scope, handle the insurance documentation, and remediate to a standard that holds up — whether your property is a Forest Hill colonial, a Ironbound row house, or a multifamily building near Newark Penn Station.

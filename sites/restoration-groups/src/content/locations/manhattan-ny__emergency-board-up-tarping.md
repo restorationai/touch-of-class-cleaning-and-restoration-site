@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Emergency Board-Up and Tarping in Manhattan, NY | The Restoration Group"
 h1: "Emergency Board-Up and Tarping in Manhattan"
-meta_description: "24/7 emergency board-up and tarping in Manhattan, NY. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 emergency board-up and tarping in Manhattan, NY. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "emergency board-up and tarping manhattan"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -54,4 +54,4 @@ Most Manhattan losses touch more than one party: the unit owner, the co-op or co
 
 In Manhattan's older co-op buildings — particularly the pre-war towers along Central Park West and the Upper East Side — window frames are often set in masonry without a standard rough opening. Standard plywood board-up hardware won't anchor cleanly into those surrounds without risking damage to historic millwork or triggering a board violation. Our crews carry masonry anchors, foam backer rod, and friction-fit panel systems specifically for these situations, so the opening is secured without creating a secondary repair problem.
 
-If your Manhattan property has been damaged by fire, storm, or a structural breach, call The Restoration Group at (855) 650-7422. We'll secure the building, document the loss, and coordinate with whoever needs to be in the loop — day or night.
+If your Manhattan property has been damaged by fire, storm, or a structural breach, call The Restoration Group at (908) 970-8533. We'll secure the building, document the loss, and coordinate with whoever needs to be in the loop — day or night.

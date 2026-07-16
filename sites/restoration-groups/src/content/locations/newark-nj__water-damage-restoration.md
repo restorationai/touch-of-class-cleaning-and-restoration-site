@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Water Damage Restoration in Newark, NJ | The Restoration Group"
 h1: "Water Damage Restoration in Newark"
-meta_description: "24/7 water damage restoration in Newark, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 water damage restoration in Newark, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "water damage restoration newark"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -58,4 +58,4 @@ Most Newark water damage claims run through standard homeowners or landlord poli
 
 In Newark's older multifamily buildings, particularly the brick three-families common throughout Vailsburg and the Ironbound, the original cast-iron drain stacks can develop pinhole failures or joint separations that go unnoticed for months — slow leaks that saturate the framing inside a wall cavity long before water appears on a finished surface. By the time a tenant notices a soft spot in the floor or a musty smell, the damage is often behind the walls across two or three floors. When we get a call that starts with "I'm not sure where the water is coming from," that's frequently what we find. Thermal imaging on the first pass almost always tells the story faster than any visible inspection.
 
-If you're dealing with water damage anywhere in Newark — whether it's a burst riser in a Downtown Newark high-rise, a backed-up basement drain in Weequahic, or a slow leak that's been working on a Forest Hill colonial's plaster walls for weeks — call The Restoration Group at (855) 650-7422. We're available around the clock, and we'll have a crew moving toward you before you hang up.
+If you're dealing with water damage anywhere in Newark — whether it's a burst riser in a Downtown Newark high-rise, a backed-up basement drain in Weequahic, or a slow leak that's been working on a Forest Hill colonial's plaster walls for weeks — call The Restoration Group at (908) 970-8533. We're available around the clock, and we'll have a crew moving toward you before you hang up.

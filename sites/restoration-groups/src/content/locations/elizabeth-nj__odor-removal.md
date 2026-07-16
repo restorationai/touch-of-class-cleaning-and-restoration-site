@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Odor Removal and Deodorization in Elizabeth, NJ | The Restoration Group"
 h1: "Odor Removal and Deodorization in Elizabeth"
-meta_description: "24/7 odor removal and deodorization in Elizabeth, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 odor removal and deodorization in Elizabeth, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "odor removal and deodorization elizabeth"
 secondary_keywords: ["smoke odor removal", "ozone treatment", "hydroxyl deodorization", "thermal fogging", "professional odor elimination"]
 search_intent: "local_specialty"
@@ -52,4 +52,4 @@ The equipment list is calibrated to the loss, not applied by formula. Thermal fo
 
 In Elizabeth's older multifamily stock, smoke odor frequently travels farther than the visible char suggests. Plaster walls — standard in pre-1950 construction across Peterstown and Midtown — absorb smoke compounds deeply and release them slowly over weeks as temperatures fluctuate. Crews that scope only the fire-damaged unit often miss the adjacent unit's shared wall cavity, which has absorbed the same particulates without any visible staining. On Elizabeth jobs, the standard practice is to probe adjacent spaces before finalizing the treatment plan, because a callback three weeks later is far more disruptive than an extra hour of assessment upfront.
 
-If a smell in your Elizabeth property has outlasted every remedy you've tried, the source is almost certainly in a place that hasn't been treated yet. Call The Restoration Group at (855) 650-7422 — the team is available around the clock, and the drive from Kenilworth is short enough that a same-day assessment is realistic for most addresses in the city.
+If a smell in your Elizabeth property has outlasted every remedy you've tried, the source is almost certainly in a place that hasn't been treated yet. Call The Restoration Group at (908) 970-8533 — the team is available around the clock, and the drive from Kenilworth is short enough that a same-day assessment is realistic for most addresses in the city.

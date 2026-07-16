@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Smoke Damage Restoration in Springfield, NJ | The Restoration Group"
 h1: "Smoke Damage Restoration in Springfield"
-meta_description: "24/7 smoke damage restoration in Springfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 smoke damage restoration in Springfield, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "smoke damage restoration springfield"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -55,4 +55,4 @@ Smoke damage claims in Union County frequently involve disputes over scope — i
 
 Springfield's older plaster homes — particularly those on streets that run off the Mountain Avenue corridor — often have original cast-iron radiator systems with decades of accumulated dust in the fins. When a fire occurs, that dust becomes a secondary smoke carrier: the first time the heat kicks on after restoration, it can volatilize residual odor compounds and make a cleaned home smell like the fire happened yesterday. During every smoke job in a pre-1960 Springfield home, the crew inspects and wipes down radiator fins as part of the deodorization scope. It's a small step that prevents a frustrating callback.
 
-If your Springfield property has smoke damage — whether from a contained kitchen fire or a larger loss — call The Restoration Group at (855) 650-7422. The team is available around the clock, the documentation is built for insurance, and the process is calibrated to the specific building materials found in Union County's older housing stock.
+If your Springfield property has smoke damage — whether from a contained kitchen fire or a larger loss — call The Restoration Group at (908) 970-8533. The team is available around the clock, the documentation is built for insurance, and the process is calibrated to the specific building materials found in Union County's older housing stock.

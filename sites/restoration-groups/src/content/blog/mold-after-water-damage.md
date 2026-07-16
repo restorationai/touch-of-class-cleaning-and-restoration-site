@@ -75,7 +75,7 @@ You can handle minor water events yourself — a small appliance leak caught imm
 - **The water has been sitting for more than 24–48 hours.** At that point, assume mold has started and plan accordingly.
 - **Drywall, insulation, or subfloor is saturated.** These materials can't be adequately dried with household fans and need commercial drying equipment.
 
-The Restoration Group handles both the water damage restoration side — extraction, structural drying, moisture mapping — and mold remediation when colonization has already started. Reaching out early, before mold is visible, is almost always cheaper and faster than waiting until it is. You can reach the team at **(855) 650-7422**.
+The Restoration Group handles both the water damage restoration side — extraction, structural drying, moisture mapping — and mold remediation when colonization has already started. Reaching out early, before mold is visible, is almost always cheaper and faster than waiting until it is. You can reach the team at **(908) 970-8533**.
 
 ## The Longer Recovery: What Proper Drying Actually Looks Like
 

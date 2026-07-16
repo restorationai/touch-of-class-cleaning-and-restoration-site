@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Flood Damage Restoration in Kenilworth, NJ | The Restoration Group"
 h1: "Flood Damage Restoration in Kenilworth"
-meta_description: "24/7 flood damage restoration in Kenilworth, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 flood damage restoration in Kenilworth, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "flood damage restoration kenilworth"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -48,4 +48,4 @@ Flood losses in Kenilworth typically run through homeowners' policies when the s
 
 One thing we've learned working Kenilworth basements specifically: the full-depth foundation walls in the borough's older stock are often parged on the interior with a thin cement coat that looks dry long after the block behind it is still holding moisture. Meters read the surface; thermal imaging reads the wall. If a crew pulls equipment based on surface readings alone in one of these homes, the moisture migrates back into finished materials within a week and mold colonization can begin in as little as 24 to 48 hours. We flag this on every Kenilworth job and extend monitoring until the block itself reads dry — not just the parging.
 
-If you're dealing with flood damage anywhere in Kenilworth — whether it's a finished basement off the Boulevard corridor or a commercial space near Monroe Avenue — call (855) 650-7422. We're already here.
+If you're dealing with flood damage anywhere in Kenilworth — whether it's a finished basement off the Boulevard corridor or a commercial space near Monroe Avenue — call (908) 970-8533. We're already here.

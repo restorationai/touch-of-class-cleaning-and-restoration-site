@@ -83,7 +83,7 @@ You can mop up a small, contained spill yourself. But call a professional restor
 
 A qualified restoration team will use thermal imaging cameras and moisture meters to map the true extent of the damage — not just what is visible. They will set up industrial drying equipment sized to the affected volume, monitor readings daily, and produce documentation (moisture logs, photos, drying reports) that your insurance adjuster will use to process the claim.
 
-The Restoration Group serves Kenilworth and surrounding communities in Union County. If you have standing water or suspect hidden moisture damage, you can reach the team at **(855) 650-7422**.
+The Restoration Group serves Kenilworth and surrounding communities in Union County. If you have standing water or suspect hidden moisture damage, you can reach the team at **(908) 970-8533**.
 
 ## The Longer Recovery: What Comes After Drying
 

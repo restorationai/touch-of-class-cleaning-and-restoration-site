@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Renovations, Remodels and General Contracting in Kenilworth, NJ | The Restoration Group"
 h1: "Renovations, Remodels and General Contracting in Kenilworth"
-meta_description: "24/7 renovations, remodels and general contracting in Kenilworth, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 renovations, remodels and general contracting in Kenilworth, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "renovations, remodels and general contracting kenilworth"
 secondary_keywords: ["general contractor", "home renovation services", "home remodeling", "kitchen remodel", "bathroom remodel", "post-damage rebuild"]
 search_intent: "local_commercial"
@@ -54,4 +54,4 @@ One pattern we see consistently in the blocks surrounding The Boulevard business
 
 Kenilworth is a small borough — one square mile — but the variation in housing condition from block to block is real. The homes closest to Black Brook Park tend to carry more moisture history than those on higher ground near the Galloping Hill Golf Course side of town. That affects everything from subfloor condition to the likelihood of finding mold behind original plaster when a bathroom remodel opens up an exterior wall.
 
-If you're planning a kitchen remodel, bathroom renovation, basement conversion, or post-damage rebuild anywhere in Kenilworth, call (855) 650-7422. The Restoration Group is already here — and we can have someone at your door faster than any contractor driving in from outside Union County.
+If you're planning a kitchen remodel, bathroom renovation, basement conversion, or post-damage rebuild anywhere in Kenilworth, call (908) 970-8533. The Restoration Group is already here — and we can have someone at your door faster than any contractor driving in from outside Union County.

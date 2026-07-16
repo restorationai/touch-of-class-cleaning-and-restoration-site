@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Commercial Restoration in Westfield, NJ | The Restoration Group"
 h1: "Commercial Restoration in Westfield"
-meta_description: "24/7 commercial restoration in Westfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 commercial restoration in Westfield, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "commercial restoration westfield"
 secondary_keywords: ["commercial water damage", "commercial fire damage", "business restoration", "office restoration", "retail restoration"]
 search_intent: "local_b2b"
@@ -48,4 +48,4 @@ For businesses in the Wychwood and Brightwood sections of town, we route via Rah
 
 One thing that becomes clear quickly when working commercial losses in Downtown Westfield is that many of the buildings along the Quimby Street corridor have had their basement levels converted multiple times — from storage to office to mechanical space and back again — and the drain and utility configurations don't always match what's on the original drawings. Before any extraction or demolition begins in a basement-level commercial space, we verify utility shutoff locations with the building owner and, where needed, coordinate with PSE&G for meter isolation. Skipping that step on a building with a non-standard electrical panel layout is how a water damage job becomes something much more serious. It's a small thing, but it's the kind of detail that separates a crew that works in Westfield regularly from one that's just passing through.
 
-If your business has been affected by water, fire, smoke, or storm damage, call The Restoration Group at **(855) 650-7422**. We'll assess the loss, coordinate directly with your insurance carrier, and put together a restoration plan that gets your Westfield commercial property back to full operation — without cutting corners on the finish quality your tenants and customers expect.
+If your business has been affected by water, fire, smoke, or storm damage, call The Restoration Group at **(908) 970-8533**. We'll assess the loss, coordinate directly with your insurance carrier, and put together a restoration plan that gets your Westfield commercial property back to full operation — without cutting corners on the finish quality your tenants and customers expect.

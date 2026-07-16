@@ -2,7 +2,7 @@
 archetype: "service-area"
 title: "Restoration Services in Westfield, NJ | The Restoration Group"
 h1: "Restoration Services in Westfield"
-meta_description: "Serving Westfield, NJ with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (855) 650-7422."
+meta_description: "Serving Westfield, NJ with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (908) 970-8533."
 primary_keyword: "restoration services westfield"
 secondary_keywords: ["westfield restoration company", "damage restoration westfield", "westfield disaster restoration"]
 search_intent: "local_commercial"
@@ -55,4 +55,4 @@ The Restoration Group is headquartered in Kenilworth, roughly 4 miles northeast 
 
 A property manager overseeing a Tudor-style home in Wychwood contacted us after a slow leak behind a first-floor bathroom wall went undetected long enough to saturate the subfloor and reach the finished basement ceiling below. We arrived, performed a moisture survey of the wall cavity and floor assembly, set containment to protect the adjacent original hardwood, and began structural drying. The affected plaster and subfloor sections were removed, dried, and rebuilt to match the surrounding finish — the kind of meticulous scope this neighborhood expects. *(This scenario is representative of the work we do; it is not attributed to a specific named client.)*
 
-If you're dealing with water, fire, mold, or storm damage anywhere in Westfield's 07090 ZIP code, call The Restoration Group at **(855) 650-7422** — day or night. We'll assess the damage, explain your options clearly, and get mitigation started before the loss grows.
+If you're dealing with water, fire, mold, or storm damage anywhere in Westfield's 07090 ZIP code, call The Restoration Group at **(908) 970-8533** — day or night. We'll assess the damage, explain your options clearly, and get mitigation started before the loss grows.

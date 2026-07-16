@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Storm Damage Restoration in Cranford, NJ | The Restoration Group"
 h1: "Storm Damage Restoration in Cranford"
-meta_description: "24/7 storm damage restoration in Cranford, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 storm damage restoration in Cranford, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "storm damage restoration cranford"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -54,4 +54,4 @@ Cranford's repeat flood history means a meaningful portion of homeowners here ca
 
 One thing that surprises homeowners near the Cranford Canoe Club and along the lower Riverside Drive corridor: after a major flood event, the river deposits a fine silt layer on hard surfaces and into HVAC systems that isn't always visible once it dries. That silt carries bacteria and organic material, and if it gets into ductwork or settles behind baseboards, it becomes an odor and air quality problem weeks after the water is gone. We inspect and clean HVAC intakes as a standard step on river-flood jobs in this part of town — it's the kind of detail that doesn't show up on a generic storm damage checklist but matters specifically here.
 
-If a storm has already hit your Cranford home, the clock on mold and structural damage is running. Call The Restoration Group at (855) 650-7422 — we're available around the clock and can have a crew on-site in Cranford to assess the damage and start the drying process before conditions get worse.
+If a storm has already hit your Cranford home, the clock on mold and structural damage is running. Call The Restoration Group at (908) 970-8533 — we're available around the clock and can have a crew on-site in Cranford to assess the damage and start the drying process before conditions get worse.

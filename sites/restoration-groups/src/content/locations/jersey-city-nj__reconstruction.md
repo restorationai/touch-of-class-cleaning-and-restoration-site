@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Reconstruction Services in Jersey City, NJ | The Restoration Group"
 h1: "Reconstruction Services in Jersey City"
-meta_description: "24/7 reconstruction services in Jersey City, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 reconstruction services in Jersey City, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "reconstruction services jersey city"
 secondary_keywords: ["post-damage reconstruction", "rebuild services", "structural reconstruction", "post-disaster rebuilding", "fire damage reconstruction"]
 search_intent: "local_commercial"
@@ -54,4 +54,4 @@ For landlords managing multifamily properties in Greenville or Journal Square, w
 
 One thing that catches out-of-area contractors in Jersey City's older neighborhoods: the combined sewer system. In parts of the Heights and Bergen-Lafayette, storm and sanitary lines share the same pipe. After a heavy rain event or a sewer backup, the water that entered a basement may be classified as Category 3 — meaning all porous materials it contacted must be removed before reconstruction begins, regardless of how clean it looks once it dries. We've seen cases in the 07306 ZIP code where a previous contractor rebuilt over contaminated framing because they didn't test the source water. Jersey City's code enforcement and the city's health department take sewer-backup contamination seriously, and doing the reconstruction correctly the first time avoids a second demo.
 
-Call (855) 650-7422 to talk through what reconstruction in your Jersey City property actually involves — the building type, the damage cause, the permit requirements, and a realistic timeline from demo to move-in.
+Call (908) 970-8533 to talk through what reconstruction in your Jersey City property actually involves — the building type, the damage cause, the permit requirements, and a realistic timeline from demo to move-in.

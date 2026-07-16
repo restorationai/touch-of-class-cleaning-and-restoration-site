@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Emergency Board-Up and Tarping in Elizabeth, NJ | The Restoration Group"
 h1: "Emergency Board-Up and Tarping in Elizabeth"
-meta_description: "24/7 emergency board-up and tarping in Elizabeth, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 emergency board-up and tarping in Elizabeth, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "emergency board-up and tarping elizabeth"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -30,7 +30,7 @@ The geography compounds the risk. Low-lying Elizabethport and Bayway sit in the 
 
 ## Our Emergency Board-Up and Tarping Process in Elizabeth
 
-When you call (855) 650-7422, a crew is dispatched immediately — 24/7, including weekends and holidays. Here is what happens on site:
+When you call (908) 970-8533, a crew is dispatched immediately — 24/7, including weekends and holidays. Here is what happens on site:
 
 **Assessment first.** Before a single sheet of plywood goes up, we walk the structure to document every breach — broken windows, door frames blown off track, sections of roof decking lifted by wind. We photograph and measure each opening, which creates the documentation your insurance adjuster will need.
 
@@ -52,4 +52,4 @@ Elizabeth's multifamily housing stock means a significant share of board-up call
 
 One thing crews learn quickly working Elizabeth's older multifamily blocks: the window openings in pre-1940 construction are rarely standard dimensions. A 1920s Elizabethport triple-decker may have window rough openings that are two or three inches narrower than modern nominal sizes, and door frames in balloon-frame buildings can be out of square by a significant margin after a century of settling. We carry a full sheet inventory and cut on site rather than pre-cutting in the shop — it takes a few extra minutes, but a board that fits flush with no gap is the only board that actually secures the structure. Crews who show up with pre-cut panels and force them into irregular openings leave edges that lift in the next wind event.
 
-If your Elizabeth property has been damaged by fire, storm, flooding, or vandalism and needs openings secured today, call (855) 650-7422. We cover the full city — from Elmora to Bayway — and we are on call every hour of the year.
+If your Elizabeth property has been damaged by fire, storm, flooding, or vandalism and needs openings secured today, call (908) 970-8533. We cover the full city — from Elmora to Bayway — and we are on call every hour of the year.

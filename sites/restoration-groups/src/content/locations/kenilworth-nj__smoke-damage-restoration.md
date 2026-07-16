@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Smoke Damage Restoration in Kenilworth, NJ | The Restoration Group"
 h1: "Smoke Damage Restoration in Kenilworth"
-meta_description: "24/7 smoke damage restoration in Kenilworth, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 smoke damage restoration in Kenilworth, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "smoke damage restoration kenilworth"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -52,4 +52,4 @@ If your property is in the Monroe Avenue industrial corridor or the redeveloping
 
 Kenilworth's plaster walls absorb smoke odor differently than the drywall you'd find in a home built after 1980. Plaster is denser and slower to off-gas, which means a house that smells "almost fine" two days after a fire can smell noticeably worse two weeks later as temperature and humidity fluctuate — a pattern that's especially pronounced in the full basements common across the borough, where air circulation is limited. We account for this by extending the deodorization phase and scheduling a follow-up air check rather than signing off after the first clearance reading. It's a small difference in process that prevents a lot of callbacks.
 
-If your home or commercial property in Kenilworth has smoke damage — whether from a contained kitchen fire or something more serious — call (855) 650-7422 any time, day or night. We're already in the borough, and we can be at your door while the situation is still manageable.
+If your home or commercial property in Kenilworth has smoke damage — whether from a contained kitchen fire or something more serious — call (908) 970-8533 any time, day or night. We're already in the borough, and we can be at your door while the situation is still manageable.

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Renovations, Remodels and General Contracting in Brooklyn, NY | The Restoration Group"
 h1: "Renovations, Remodels and General Contracting in Brooklyn"
-meta_description: "24/7 renovations, remodels and general contracting in Brooklyn, NY. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 renovations, remodels and general contracting in Brooklyn, NY. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "renovations, remodels and general contracting brooklyn"
 secondary_keywords: ["general contractor", "home renovation services", "home remodeling", "kitchen remodel", "bathroom remodel", "post-damage rebuild"]
 search_intent: "local_commercial"
@@ -44,4 +44,4 @@ Commercial landlords and property managers working near the Barclays Center corr
 
 Anyone who has renovated a brownstone in the 11215 or 11201 ZIP codes knows that original plaster walls are rarely just plaster. Beneath the finish coat you'll often find multiple layers of paint (some lead-based in pre-1978 units), wood lath nailed to furring strips, and occasionally a layer of mid-century drywall patched over the original surface. Before any demo, we conduct lead testing in accordance with EPA RRP protocols — required by New York State for pre-1978 housing — and adjust our containment and disposal procedures accordingly. Skipping this step doesn't just create a health risk; it creates a liability that can follow a property through its next sale.
 
-If your Brooklyn property needs a kitchen overhaul, a bathroom remodel, a post-flood rebuild, or a full gut renovation, call The Restoration Group at (855) 650-7422. We work across the borough with the permits, the insurance documentation, and the hands-on knowledge of Brooklyn's building stock to get the job done right.
+If your Brooklyn property needs a kitchen overhaul, a bathroom remodel, a post-flood rebuild, or a full gut renovation, call The Restoration Group at (908) 970-8533. We work across the borough with the permits, the insurance documentation, and the hands-on knowledge of Brooklyn's building stock to get the job done right.

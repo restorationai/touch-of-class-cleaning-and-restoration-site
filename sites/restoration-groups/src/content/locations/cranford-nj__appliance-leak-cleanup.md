@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Appliance Leak Cleanup in Cranford, NJ | The Restoration Group"
 h1: "Appliance Leak Cleanup in Cranford"
-meta_description: "24/7 appliance leak cleanup in Cranford, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 appliance leak cleanup in Cranford, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "appliance leak cleanup cranford"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -46,4 +46,4 @@ The Restoration Group operates out of Kenilworth, which puts us one town over fr
 
 Here's something that comes up regularly in Cranford and almost nowhere else in Union County: because the borough has such a documented flood history — Floyd in 1999, Irene in 2011, Ida in 2021 — some insurance adjusters initially flag any water loss in Cranford as potentially flood-related and route it toward NFIP review. An appliance leak is categorically different from a flood loss and is covered under standard homeowners policies, not flood policies. The way to protect that distinction is thorough documentation: photos of the failed appliance or supply line, moisture mapping that shows the damage pattern radiating from the appliance location rather than entering through the foundation, and a written scope that identifies the loss origin clearly. We produce that documentation as a standard part of every job, not as an add-on — it's the kind of detail that keeps a legitimate appliance claim from getting misrouted and delayed.
 
-If your dishwasher, refrigerator, washing machine, water heater, or ice maker line has let go anywhere in Cranford, call (855) 650-7422. We'll assess the damage, start drying, and handle the documentation so you're not left managing adjusters while your subfloor is still wet.
+If your dishwasher, refrigerator, washing machine, water heater, or ice maker line has let go anywhere in Cranford, call (908) 970-8533. We'll assess the damage, start drying, and handle the documentation so you're not left managing adjusters while your subfloor is still wet.

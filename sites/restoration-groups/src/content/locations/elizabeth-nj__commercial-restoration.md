@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Commercial Restoration in Elizabeth, NJ | The Restoration Group"
 h1: "Commercial Restoration in Elizabeth"
-meta_description: "24/7 commercial restoration in Elizabeth, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 commercial restoration in Elizabeth, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "commercial restoration elizabeth"
 secondary_keywords: ["commercial water damage", "commercial fire damage", "business restoration", "office restoration", "retail restoration"]
 search_intent: "local_b2b"
@@ -46,4 +46,4 @@ Our Kenilworth location puts us on the Garden State Parkway or Route 28 and into
 
 One thing that catches commercial property owners off guard in Elizabeth's older mixed-use blocks is how quickly a single loss event becomes a multi-party insurance situation. A kitchen fire in a ground-floor restaurant can push smoke into the residential units directly above through shared wall cavities and unsealed penetrations — common in buildings constructed before modern fire-stop requirements. When that happens, you're coordinating two or more insurance claims, potentially two different adjusters, and two different scopes of work on the same structure. We've handled enough of these in Union County to know that getting a single, unified scope document in front of all parties early is the fastest way to avoid disputes that stall the job. We'll flag the issue on the first walkthrough and help facilitate that coordination before it becomes a problem.
 
-If your Elizabeth commercial property has taken a hit — water, fire, smoke, or sewage — call The Restoration Group at (855) 650-7422. We'll have someone on-site fast, with the equipment and documentation to move your business toward reopening.
+If your Elizabeth commercial property has taken a hit — water, fire, smoke, or sewage — call The Restoration Group at (908) 970-8533. We'll have someone on-site fast, with the equipment and documentation to move your business toward reopening.

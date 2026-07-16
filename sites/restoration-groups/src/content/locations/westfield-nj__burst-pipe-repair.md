@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Burst Pipe Cleanup and Repair in Westfield, NJ | The Restoration Group"
 h1: "Burst Pipe Cleanup and Repair in Westfield"
-meta_description: "24/7 burst pipe cleanup and repair in Westfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 burst pipe cleanup and repair in Westfield, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "burst pipe cleanup and repair westfield"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -30,7 +30,7 @@ Knob-and-tube-era renovations often added copper supply lines without replacing 
 
 ## Our Burst Pipe Cleanup and Repair Process in Westfield
 
-When you call (855) 650-7422, the first thing we do is get a technician moving toward your address — not schedule a next-day estimate. On arrival, we locate and isolate the break, coordinate with you on shutting the main if it hasn't been done, and immediately begin extracting standing water with truck-mounted extraction units before it migrates further.
+When you call (908) 970-8533, the first thing we do is get a technician moving toward your address — not schedule a next-day estimate. On arrival, we locate and isolate the break, coordinate with you on shutting the main if it hasn't been done, and immediately begin extracting standing water with truck-mounted extraction units before it migrates further.
 
 In Westfield's older homes, the cleanup phase requires more care than a standard job. Plaster walls don't release moisture the way drywall does — they absorb it deeply and dry slowly, which means moisture readings inside the wall cavity can stay elevated long after the surface feels dry to the touch. We use thermal imaging cameras to map the true wet boundary before we cut, so we're not opening walls unnecessarily in a home with original millwork and period-correct trim that can't simply be replaced at a lumber yard. Drying equipment — industrial desiccant dehumidifiers and axial air movers — is calibrated and monitored daily against IICRC S500 drying targets until every structural reading clears.
 
@@ -48,4 +48,4 @@ Most standard homeowners policies cover sudden and accidental pipe bursts — bu
 
 One thing that surprises homeowners in Westfield's pre-war neighborhoods is how long structural drying takes compared to a modern home. Lime-based plaster, common in homes built before 1950 throughout The Gardens and Wychwood, is dense and hygroscopic — it holds moisture in a way that standard drywall doesn't. On a typical water loss in a newer home, wall cavities may clear in three to four days. In a plaster-walled Westfield home, the same cavity can take six to eight days to reach the dry standard, even with aggressive equipment placement. Rushing that timeline — pulling equipment early to save a day of rental — is the single most common reason mold colonizes behind walls in these homes within two to three weeks of a repair. We don't close out a job until the readings say it's done.
 
-If your home in Westfield has taken a hit from a burst pipe, call (855) 650-7422 now. Whether the break is in a finished basement in Manor Park or behind the kitchen wall of a century-old colonial near Tamaques Park, the team at The Restoration Group is ready around the clock to extract, dry, document, and rebuild — with the care that Westfield's homes and their owners expect.
+If your home in Westfield has taken a hit from a burst pipe, call (908) 970-8533 now. Whether the break is in a finished basement in Manor Park or behind the kitchen wall of a century-old colonial near Tamaques Park, the team at The Restoration Group is ready around the clock to extract, dry, document, and rebuild — with the care that Westfield's homes and their owners expect.

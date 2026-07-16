@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Renovations, Remodels and General Contracting in Cranford, NJ | The Restoration Group"
 h1: "Renovations, Remodels and General Contracting in Cranford"
-meta_description: "24/7 renovations, remodels and general contracting in Cranford, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 renovations, remodels and general contracting in Cranford, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "renovations, remodels and general contracting cranford"
 secondary_keywords: ["general contractor", "home renovation services", "home remodeling", "kitchen remodel", "bathroom remodel", "post-damage rebuild"]
 search_intent: "local_commercial"
@@ -51,4 +51,4 @@ The Restoration Group's headquarters sits in Kenilworth, one town over from Cran
 
 Here's something that comes up repeatedly on Cranford jobs: homeowners who've been through multiple flood events sometimes have layered repair histories — one contractor dried and patched after Floyd, another reframed a section after Irene, and now the current renovation is the first time anyone has looked at the whole picture at once. That layering can mean inconsistent framing lumber dimensions, mismatched subfloor heights between rooms, and insulation that was replaced piecemeal with whatever was available at the time. A thorough pre-construction probe — not just a visual walk — is the only way to price a Cranford renovation accurately and avoid mid-project change orders that blow a budget. Budget a half-day for that assessment before finalizing any contract numbers.
 
-Ready to talk through what a renovation in Cranford actually involves for your specific property? Call The Restoration Group at **(855) 650-7422** — the team is available around the clock, and a conversation about scope costs nothing.
+Ready to talk through what a renovation in Cranford actually involves for your specific property? Call The Restoration Group at **(908) 970-8533** — the team is available around the clock, and a conversation about scope costs nothing.

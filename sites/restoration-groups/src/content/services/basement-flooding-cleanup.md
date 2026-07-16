@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Basement Flooding Cleanup in Kenilworth | The Restoration Group"
 h1: "Basement Flooding Cleanup in Kenilworth"
-meta_description: "24/7 basement flooding cleanup in Kenilworth and surrounding areas. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 basement flooding cleanup in Kenilworth and surrounding areas. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "basement flooding cleanup kenilworth"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -57,4 +57,4 @@ In northern New Jersey, basement flooding peaks in two windows: the spring thaw 
 
 The Restoration Group is based in Kenilworth and handles basement flooding cleanup throughout Union County and surrounding areas, including Cranford, Westfield, Springfield, Mountainside, Garwood, Roselle Park, and Clark. City-specific pages for each of those communities link back here for the full technical detail on how the work gets done.
 
-If your basement has water in it right now, call (855) 650-7422 — we're available 24/7. The sooner extraction starts, the narrower the window for mold to take hold and the less structural material ends up in a dumpster. Schedule your basement moisture assessment today.
+If your basement has water in it right now, call (908) 970-8533 — we're available 24/7. The sooner extraction starts, the narrower the window for mold to take hold and the less structural material ends up in a dumpster. Schedule your basement moisture assessment today.

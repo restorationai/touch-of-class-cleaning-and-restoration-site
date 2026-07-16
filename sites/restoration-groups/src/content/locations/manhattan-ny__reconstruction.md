@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Reconstruction Services in Manhattan, NY | The Restoration Group"
 h1: "Reconstruction Services in Manhattan"
-meta_description: "24/7 reconstruction services in Manhattan, NY. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 reconstruction services in Manhattan, NY. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "reconstruction services manhattan"
 secondary_keywords: ["post-damage reconstruction", "rebuild services", "structural reconstruction", "post-disaster rebuilding", "fire damage reconstruction"]
 search_intent: "local_commercial"
@@ -46,4 +46,4 @@ On the insurance side, we document the loss in the format adjusters expect: Xact
 
 One thing that surprises property owners new to Manhattan reconstruction: the DOB permit clock doesn't stop for your insurance timeline. We've seen jobs where the adjuster approved the scope in week two, but the permit wasn't issued until week six because the building's existing Certificate of Occupancy had an open violation that needed to be resolved first. If you're managing a loss in a pre-war building — particularly in Harlem or the Lower East Side, where deferred maintenance violations are more common — it's worth pulling the building's DOB record early. We flag this during our initial scope review so the property owner isn't blindsided mid-project.
 
-If your Manhattan property has been damaged by water, fire, or a weather event, the reconstruction phase deserves the same level of coordination and documentation as the emergency response that preceded it. Call The Restoration Group at (855) 650-7422 — we're available around the clock and ready to walk through your scope, your building's requirements, and a realistic timeline for getting the space back to pre-loss condition.
+If your Manhattan property has been damaged by water, fire, or a weather event, the reconstruction phase deserves the same level of coordination and documentation as the emergency response that preceded it. Call The Restoration Group at (908) 970-8533 — we're available around the clock and ready to walk through your scope, your building's requirements, and a realistic timeline for getting the space back to pre-loss condition.

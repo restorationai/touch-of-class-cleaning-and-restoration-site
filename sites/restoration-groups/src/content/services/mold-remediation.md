@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Mold Remediation in Kenilworth | The Restoration Group"
 h1: "Mold Remediation in Kenilworth"
-meta_description: "24/7 mold remediation in Kenilworth and surrounding areas. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 mold remediation in Kenilworth and surrounding areas. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "mold remediation kenilworth"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
@@ -55,4 +55,4 @@ New Jersey's humid summers and freeze-thaw winters create two distinct mold wind
 
 The Restoration Group is based in Kenilworth, NJ and provides mold remediation throughout Union County and surrounding areas, including Cranford, Westfield, Roselle, Clark, Garwood, Springfield, and Summit. Dedicated service-area pages cover each community in detail.
 
-If you are seeing visible growth, smelling musty odors in a closed space, or dealing with a recent water event that was not professionally dried, call (855) 650-7422 to request an air quality assessment. Crews are available around the clock — the earlier the call, the more material is typically salvageable.
+If you are seeing visible growth, smelling musty odors in a closed space, or dealing with a recent water event that was not professionally dried, call (908) 970-8533 to request an air quality assessment. Crews are available around the clock — the earlier the call, the more material is typically salvageable.

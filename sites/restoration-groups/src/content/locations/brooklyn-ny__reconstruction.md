@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Reconstruction Services in Brooklyn, NY | The Restoration Group"
 h1: "Reconstruction Services in Brooklyn"
-meta_description: "24/7 reconstruction services in Brooklyn, NY. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 reconstruction services in Brooklyn, NY. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "reconstruction services brooklyn"
 secondary_keywords: ["post-damage reconstruction", "rebuild services", "structural reconstruction", "post-disaster rebuilding", "fire damage reconstruction"]
 search_intent: "local_commercial"
@@ -44,4 +44,4 @@ For brownstone owners carrying older policies, the gap between actual cash value
 
 One thing that surprises property owners unfamiliar with Brooklyn's rowhouse construction: the "party wall" between two attached brownstones is not always centered on the property line, and its ownership can be ambiguous under New York property law. When reconstruction requires opening or reinforcing a party wall — after a fire that burned through from one unit to the next, for example — we flag this early and recommend that both property owners notify their respective insurers before work begins. Skipping that step has derailed more than one reconstruction project when a neighbor's carrier later disputed the repair scope. It's a detail that comes up regularly in Bushwick and Flatbush, where attached rowhouse blocks are dense and ownership histories are complicated.
 
-When a Brooklyn property needs to be put back together after damage — whether it's a brownstone in Brooklyn Heights, a commercial space near the Barclays Center, or a flood-damaged basement in Canarsie — The Restoration Group brings a reconstruction process built for what Brooklyn's buildings actually are, not a generic template applied to any structure anywhere. Call (855) 650-7422 to talk through your project.
+When a Brooklyn property needs to be put back together after damage — whether it's a brownstone in Brooklyn Heights, a commercial space near the Barclays Center, or a flood-damaged basement in Canarsie — The Restoration Group brings a reconstruction process built for what Brooklyn's buildings actually are, not a generic template applied to any structure anywhere. Call (908) 970-8533 to talk through your project.

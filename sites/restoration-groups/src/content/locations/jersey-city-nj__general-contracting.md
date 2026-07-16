@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Renovations, Remodels and General Contracting in Jersey City, NJ | The Restoration Group"
 h1: "Renovations, Remodels and General Contracting in Jersey City"
-meta_description: "24/7 renovations, remodels and general contracting in Jersey City, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 renovations, remodels and general contracting in Jersey City, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "renovations, remodels and general contracting jersey city"
 secondary_keywords: ["general contractor", "home renovation services", "home remodeling", "kitchen remodel", "bathroom remodel", "post-damage rebuild"]
 search_intent: "local_commercial"
@@ -48,4 +48,4 @@ For post-damage rebuilds that originate from an insurance claim — a burst supp
 
 Contractors new to Jersey City's Heights neighborhood sometimes underestimate what's behind the plaster. The area's 1890s–1920s brownstones were built with true-dimension lumber — 2×4s that actually measure 2 inches by 4 inches — and plaster applied directly over wood lath. When we open walls for a kitchen or bathroom remodel, we routinely find that the existing framing doesn't match modern stud spacing, which means new cabinetry, tile backer, and rough-in locations all need to be re-engineered in the field. Budgeting a contingency for that discovery isn't pessimism — it's just how Heights renovations work.
 
-If your project is in Jersey City and you're ready to talk scope, timeline, or post-damage rebuild options, call The Restoration Group at (855) 650-7422. We're available around the clock and can schedule an on-site assessment at your property.
+If your project is in Jersey City and you're ready to talk scope, timeline, or post-damage rebuild options, call The Restoration Group at (908) 970-8533. We're available around the clock and can schedule an on-site assessment at your property.

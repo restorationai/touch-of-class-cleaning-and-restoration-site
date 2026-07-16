@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Water Damage Restoration in Jersey City, NJ | The Restoration Group"
 h1: "Water Damage Restoration in Jersey City"
-meta_description: "24/7 water damage restoration in Jersey City, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 water damage restoration in Jersey City, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "water damage restoration jersey city"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -50,4 +50,4 @@ The Restoration Group, as an IICRC Certified Firm (#210213), produces the moistu
 
 One thing that catches property owners off guard in Jersey City's older neighborhoods: the rubble-stone and brick foundations common in Heights and Bergen-Lafayette rowhouses don't dry the same way a poured-concrete basement does. Stone foundation walls can wick groundwater laterally for weeks after a flood event, keeping adjacent wood framing above safe moisture thresholds even after the visible water is gone. We account for this by extending monitoring periods on below-grade losses in pre-1940 construction — pulling equipment too early is one of the most common reasons a mold problem shows up sixty days after a "completed" water job in these buildings.
 
-If you're dealing with water damage anywhere in Jersey City — a flooded cellar in the Heights, a burst supply line in a Newport high-rise, or a sewer backup after a storm — call (855) 650-7422 any time. The Restoration Group is available around the clock, and we carry the documentation standards that Jersey City's landlords, condo boards, and insurers expect.
+If you're dealing with water damage anywhere in Jersey City — a flooded cellar in the Heights, a burst supply line in a Newport high-rise, or a sewer backup after a storm — call (908) 970-8533 any time. The Restoration Group is available around the clock, and we carry the documentation standards that Jersey City's landlords, condo boards, and insurers expect.

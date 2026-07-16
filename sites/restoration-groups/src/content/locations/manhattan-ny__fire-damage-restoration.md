@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Fire Damage Restoration in Manhattan, NY | The Restoration Group"
 h1: "Fire Damage Restoration in Manhattan"
-meta_description: "24/7 fire damage restoration in Manhattan, NY. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 fire damage restoration in Manhattan, NY. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "fire damage restoration manhattan"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -54,4 +54,4 @@ For commercial losses — restaurants near Times Square, office suites around Gr
 
 In pre-war Manhattan buildings, the original tin ceilings and decorative plaster medallions that survived a century of steam heat are often the first things an owner asks about after a fire. Standard restoration practice would call them a write-off, but experienced crews working in ZIP codes like 10021 or 10025 know to assess them individually — a medallion with surface soot and minor heat blistering can often be cleaned and stabilized in place for a fraction of the cost of a custom reproduction. It's the kind of call that only gets made when the technician has seen enough pre-war Manhattan interiors to know what's worth saving.
 
-If your property has sustained fire or smoke damage anywhere in Manhattan, call The Restoration Group at **(855) 650-7422**. We'll have a certified crew on site, documentation started, and a scope of work in your hands before your building management asks for it.
+If your property has sustained fire or smoke damage anywhere in Manhattan, call The Restoration Group at **(908) 970-8533**. We'll have a certified crew on site, documentation started, and a scope of work in your hands before your building management asks for it.

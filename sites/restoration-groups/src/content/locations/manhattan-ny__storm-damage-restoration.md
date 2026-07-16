@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Storm Damage Restoration in Manhattan, NY | The Restoration Group"
 h1: "Storm Damage Restoration in Manhattan"
-meta_description: "24/7 storm damage restoration in Manhattan, NY. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 storm damage restoration in Manhattan, NY. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "storm damage restoration manhattan"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -48,4 +48,4 @@ Storm claims in Manhattan co-ops and condos almost always involve at least two i
 
 One thing that surprises property managers unfamiliar with post-storm work in Manhattan: the city's Department of Buildings issues Stop Work Orders on active emergency repairs if permits aren't pulled within a defined window, even when the work is legitimately urgent. We've seen well-intentioned contractors board up a storm-breached facade in Midtown only to have the repair stall for days because the permit paperwork lagged. Our project managers initiate the DOB filing process at intake — not after the crew is already on site — so emergency repairs don't get frozen mid-job by a compliance gap.
 
-When a storm tears through Manhattan, the damage rarely stays contained to one unit, one floor, or one system. The Restoration Group is available around the clock to assess, stabilize, and restore — whether you're managing a prewar co-op on the Upper East Side, a ground-floor restaurant near Grand Central Terminal, or a condo tower in the Financial District. Call (855) 650-7422 any time to reach a live dispatcher.
+When a storm tears through Manhattan, the damage rarely stays contained to one unit, one floor, or one system. The Restoration Group is available around the clock to assess, stabilize, and restore — whether you're managing a prewar co-op on the Upper East Side, a ground-floor restaurant near Grand Central Terminal, or a condo tower in the Financial District. Call (908) 970-8533 any time to reach a live dispatcher.

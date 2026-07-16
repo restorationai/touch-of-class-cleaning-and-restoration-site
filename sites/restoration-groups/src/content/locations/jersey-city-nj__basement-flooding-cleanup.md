@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Basement Flooding Cleanup in Jersey City, NJ | The Restoration Group"
 h1: "Basement Flooding Cleanup in Jersey City"
-meta_description: "24/7 basement flooding cleanup in Jersey City, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 basement flooding cleanup in Jersey City, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "basement flooding cleanup jersey city"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -46,4 +46,4 @@ Jersey City's dense multifamily ownership creates a paperwork layer that single-
 
 In Jersey City's pre-war rowhouse stock — particularly the brick and brownstone buildings common in The Heights and Bergen-Lafayette — basement walls are typically unreinforced concrete block or rubble stone, not poured concrete. These materials are highly absorptive and hold moisture in their cores long after the surface feels dry to the touch. Standard moisture meters read surface conditions and will give a false "dry" reading on block that still holds 15–20% moisture by weight in its interior. We use penetrating probe meters and, when warranted, calcium chloride tests on slab areas to confirm actual dryness before equipment is pulled. Pulling dehumidifiers too early on this building type is one of the most common reasons mold appears weeks after a "completed" cleanup.
 
-If water reached your basement — whether from a sewer backup, a failed sump, a broken supply line, or storm surge — call The Restoration Group at (855) 650-7422. We're available around the clock, we know Jersey City's building stock, and we'll give you a straight assessment of what it takes to dry it correctly.
+If water reached your basement — whether from a sewer backup, a failed sump, a broken supply line, or storm surge — call The Restoration Group at (908) 970-8533. We're available around the clock, we know Jersey City's building stock, and we'll give you a straight assessment of what it takes to dry it correctly.

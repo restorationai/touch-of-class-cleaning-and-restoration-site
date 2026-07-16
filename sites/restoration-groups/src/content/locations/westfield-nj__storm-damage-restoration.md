@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Storm Damage Restoration in Westfield, NJ | The Restoration Group"
 h1: "Storm Damage Restoration in Westfield"
-meta_description: "24/7 storm damage restoration in Westfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 storm damage restoration in Westfield, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "storm damage restoration westfield"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -56,4 +56,4 @@ We bill carriers directly and work with all major insurers active in New Jersey.
 
 One pattern we've seen repeatedly in Westfield's Manor Park and Brightwood neighborhoods: homes with original knob-and-tube wiring that has been partially updated over the decades often have concealed junction points inside wall cavities. When storm water infiltrates those walls, it can reach live electrical connections that aren't visible from the interior. Before any invasive drying work begins in a pre-1940 home, we flag this risk and recommend the homeowner's electrician confirm circuit status in affected walls — it's a step that adds a few hours but prevents a serious hazard during remediation.
 
-If you're dealing with storm damage in Westfield right now, call (855) 650-7422. We'll walk you through immediate steps to protect your home, dispatch a crew, and start the documentation your insurance company will need — all before the damage has a chance to get worse.
+If you're dealing with storm damage in Westfield right now, call (908) 970-8533. We'll walk you through immediate steps to protect your home, dispatch a crew, and start the documentation your insurance company will need — all before the damage has a chance to get worse.

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Smoke Damage Restoration in Manhattan, NY | The Restoration Group"
 h1: "Smoke Damage Restoration in Manhattan"
-meta_description: "24/7 smoke damage restoration in Manhattan, NY. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 smoke damage restoration in Manhattan, NY. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "smoke damage restoration manhattan"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -55,4 +55,4 @@ For co-op boards and condo associations, we provide the unit-by-unit logs and ce
 
 In pre-war Manhattan buildings — particularly the large co-op towers on the Upper East Side and the older walk-ups throughout Harlem — the original plaster walls often contain multiple layers of oil-based paint applied over decades. Smoke odor binds to the oils in those paint layers, not just the surface, which means standard alkaline cleaning removes visible soot but leaves odor sources locked in the substrate. On these properties, we apply a shellac-based sealer to encapsulate the odor compounds in the wall before any finish coat goes on — skipping that step is the single most common reason a smoke-damaged Manhattan apartment still smells like fire six months after the work is done.
 
-If your property in Manhattan has been touched by smoke — from a kitchen fire, an electrical fault, or smoke migration from another unit — call The Restoration Group at (855) 650-7422. We'll assess the full scope of the damage, document it for your building's management and your insurer, and restore the space to pre-loss condition.
+If your property in Manhattan has been touched by smoke — from a kitchen fire, an electrical fault, or smoke migration from another unit — call The Restoration Group at (908) 970-8533. We'll assess the full scope of the damage, document it for your building's management and your insurer, and restore the space to pre-loss condition.

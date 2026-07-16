@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Water Damage Restoration in Kenilworth, NJ | The Restoration Group"
 h1: "Water Damage Restoration in Kenilworth"
-meta_description: "24/7 water damage restoration in Kenilworth, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 water damage restoration in Kenilworth, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "water damage restoration kenilworth"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -48,4 +48,4 @@ Most water losses in this borough run through homeowners' insurance, and the doc
 
 Homes in the blocks between The Boulevard corridor and the Galloping Hill border often have original 1940s plaster on wood-lath walls. When water gets behind that wall system, the lath holds moisture like a sponge even after the plaster face reads dry on a surface meter. We use a deep-wall probe to verify dryness all the way to the stud cavity before signing off — skipping that step is how a "dry" job turns into a mold call six weeks later. It's a detail that matters specifically in Kenilworth's prewar housing stock and one we check on every job here.
 
-If water has reached your floors, walls, or basement in Kenilworth, the clock on secondary damage starts immediately. Call The Restoration Group at **(855) 650-7422** — we're based in the borough, we answer around the clock, and we can have a crew and equipment at your door faster than any firm driving in from outside Union County.
+If water has reached your floors, walls, or basement in Kenilworth, the clock on secondary damage starts immediately. Call The Restoration Group at **(908) 970-8533** — we're based in the borough, we answer around the clock, and we can have a crew and equipment at your door faster than any firm driving in from outside Union County.

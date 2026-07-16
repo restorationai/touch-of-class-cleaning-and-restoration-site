@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Remediation in Manhattan, NY | The Restoration Group"
 h1: "Mold Remediation in Manhattan"
-meta_description: "24/7 mold remediation in Manhattan, NY. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 mold remediation in Manhattan, NY. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "mold remediation manhattan"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
@@ -50,4 +50,4 @@ For commercial spaces — the restaurants, retail storefronts, and office suites
 
 One thing that catches out-of-market contractors in Manhattan: many pre-war buildings have transom windows above unit doors that open into shared corridors. During mold remediation, those transoms are a direct pathway for spores to migrate from a contained work area into a common hallway — and from there into adjacent units through their own door gaps. We seal transoms as part of initial containment setup, a step that's easy to overlook if your crew is used to working in detached single-family homes where corridor contamination isn't a variable.
 
-If you're dealing with visible mold growth, a persistent musty odor, or a recent water event in a Manhattan building, call The Restoration Group at (855) 650-7422. We'll assess the scope, work within your building's protocols, and get the documentation your board or carrier needs — without turning the job into a disruption for the rest of the building.
+If you're dealing with visible mold growth, a persistent musty odor, or a recent water event in a Manhattan building, call The Restoration Group at (908) 970-8533. We'll assess the scope, work within your building's protocols, and get the documentation your board or carrier needs — without turning the job into a disruption for the rest of the building.

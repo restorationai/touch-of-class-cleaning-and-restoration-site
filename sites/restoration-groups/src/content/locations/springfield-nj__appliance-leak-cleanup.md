@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Appliance Leak Cleanup in Springfield, NJ | The Restoration Group"
 h1: "Appliance Leak Cleanup in Springfield"
-meta_description: "24/7 appliance leak cleanup in Springfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 appliance leak cleanup in Springfield, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "appliance leak cleanup springfield"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -50,4 +50,4 @@ Most homeowner policies in New Jersey cover sudden and accidental appliance disc
 
 In Springfield's finished-basement colonials — particularly those built in the 1940s and 1950s in the blocks around Meisel Avenue Park — we frequently find that the original basement slab was poured without a vapor barrier. When an appliance leak saturates the subfloor above and water migrates down to the slab, the concrete itself holds moisture and re-emits it into the drying environment for days after the visible water is gone. We account for this by placing desiccant dehumidifiers rather than standard refrigerant units in those spaces, which pull moisture at lower temperatures and handle the concrete off-gassing more effectively. Skipping that step is why some jobs in this neighborhood stock get called back for mold growth two weeks after a competitor closed out the file.
 
-If an appliance failure has left standing water, wet flooring, or a musty smell anywhere in your Springfield home, call (855) 650-7422 now. The Restoration Group is available around the clock, dispatches from Kenilworth, and carries IICRC Firm Certification #210213 — so the crew arriving at your door is trained to the same standard your insurance company expects.
+If an appliance failure has left standing water, wet flooring, or a musty smell anywhere in your Springfield home, call (908) 970-8533 now. The Restoration Group is available around the clock, dispatches from Kenilworth, and carries IICRC Firm Certification #210213 — so the crew arriving at your door is trained to the same standard your insurance company expects.

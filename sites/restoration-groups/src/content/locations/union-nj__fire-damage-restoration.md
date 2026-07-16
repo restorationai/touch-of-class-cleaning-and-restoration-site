@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Fire Damage Restoration in Union, NJ | The Restoration Group"
 h1: "Fire Damage Restoration in Union"
-meta_description: "24/7 fire damage restoration in Union, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 fire damage restoration in Union, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "fire damage restoration union"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -59,4 +59,4 @@ The Restoration Group bills carriers directly and prepares the scope of loss in 
 
 Union's mid-century plaster walls behave differently than modern drywall during fire restoration — and it catches homeowners off guard. Plaster is more fire-resistant than drywall and often survives a room fire structurally intact, which looks like good news. But smoke and soot penetrate plaster's porous surface deeply, and standard chemical sponge cleaning that works on painted drywall frequently isn't enough. In homes throughout the 07083 ZIP code, we've found that plaster surfaces require a combination of dry chemical sponging followed by encapsulation primer before any finish coat — skipping that step means the odor comes back within months, especially in humid New Jersey summers. It's a detail that matters in Union specifically because so much of the housing stock still has original plaster ceilings and walls.
 
-If your home in Union Township has been affected by fire — whether a contained kitchen event or a more extensive structural loss — call (855) 650-7422 any time. The crew is close, the process is documented, and the goal is to get you back into a safe, restored home as efficiently as the work allows.
+If your home in Union Township has been affected by fire — whether a contained kitchen event or a more extensive structural loss — call (908) 970-8533 any time. The crew is close, the process is documented, and the goal is to get you back into a safe, restored home as efficiently as the work allows.

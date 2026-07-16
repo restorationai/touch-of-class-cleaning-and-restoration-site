@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Emergency Board-Up and Tarping in Brooklyn, NY | The Restoration Group"
 h1: "Emergency Board-Up and Tarping in Brooklyn"
-meta_description: "24/7 emergency board-up and tarping in Brooklyn, NY. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 emergency board-up and tarping in Brooklyn, NY. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "emergency board-up and tarping brooklyn"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -56,4 +56,4 @@ For brownstone owners with landmark or historic district designations — common
 
 On attached rowhouses with shared party walls, a breach on one unit's roof or rear wall can allow water to travel laterally into an adjacent property within hours — a pattern we see repeatedly in the brownstone blocks between Prospect Park and Flatbush Avenue. When we board up or tarp a property in that belt, we always check the interior party-wall surfaces for moisture intrusion before we leave and note any readings in the report. That extra step has prevented more than one neighbor dispute and has helped owners document pre-existing dry conditions in adjacent units before an insurer's adjuster arrives.
 
-If your Brooklyn property has been breached by fire, storm, or forced entry, call (855) 650-7422 now. The Restoration Group's crews are available around the clock to secure the opening, protect what's left, and give you the documentation you need to move the claim forward — whether you're a brownstone owner in Park Slope, a commercial landlord near the Navy Yard, or a co-op board managing a building anywhere across Brooklyn.
+If your Brooklyn property has been breached by fire, storm, or forced entry, call (908) 970-8533 now. The Restoration Group's crews are available around the clock to secure the opening, protect what's left, and give you the documentation you need to move the claim forward — whether you're a brownstone owner in Park Slope, a commercial landlord near the Navy Yard, or a co-op board managing a building anywhere across Brooklyn.

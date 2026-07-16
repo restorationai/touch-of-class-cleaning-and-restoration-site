@@ -98,7 +98,7 @@ A proper structural drying job involves:
 
 For losses involving appliance supply lines — a washing machine hose that let go overnight, for instance — the affected area is often more contained, but the subfloor under the appliance and adjacent rooms should still be mapped before anyone declares the job done.
 
-The Restoration Group handles water damage restoration and appliance leak cleanup throughout the Kenilworth area and surrounding communities. If you are in the middle of this situation right now, call **(855) 650-7422** — the team can walk you through the next steps and get a crew scheduled.
+The Restoration Group handles water damage restoration and appliance leak cleanup throughout the Kenilworth area and surrounding communities. If you are in the middle of this situation right now, call **(908) 970-8533** — the team can walk you through the next steps and get a crew scheduled.
 
 ---
 
@@ -116,4 +116,4 @@ A small pipe burst caught within an hour can be dried in three to four days. A p
 
 ---
 
-If you are reading this in the middle of an emergency, start with the shutoff valve, then call your insurance company and a restoration contractor. If you are in Kenilworth or the surrounding Union County area, The Restoration Group is reachable at **(855) 650-7422**. The faster moisture is extracted and controlled drying begins, the smaller the repair bill — and the lower the chance of a mold problem compounding the original loss.
+If you are reading this in the middle of an emergency, start with the shutoff valve, then call your insurance company and a restoration contractor. If you are in Kenilworth or the surrounding Union County area, The Restoration Group is reachable at **(908) 970-8533**. The faster moisture is extracted and controlled drying begins, the smaller the repair bill — and the lower the chance of a mold problem compounding the original loss.

@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Fire Damage Restoration in Kenilworth | The Restoration Group"
 h1: "Fire Damage Restoration in Kenilworth"
-meta_description: "24/7 fire damage restoration in Kenilworth and surrounding areas. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 fire damage restoration in Kenilworth and surrounding areas. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "fire damage restoration kenilworth"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -60,4 +60,4 @@ The Restoration Group is based in Kenilworth, NJ and responds to fire damage thr
 
 ---
 
-If your home or building has sustained fire or smoke damage, the window to limit permanent loss is measured in hours. Call (855) 650-7422 — crews are available 24/7 — to begin smoke and soot removal before residue sets and odor compounds into the structure.
+If your home or building has sustained fire or smoke damage, the window to limit permanent loss is measured in hours. Call (908) 970-8533 — crews are available 24/7 — to begin smoke and soot removal before residue sets and odor compounds into the structure.

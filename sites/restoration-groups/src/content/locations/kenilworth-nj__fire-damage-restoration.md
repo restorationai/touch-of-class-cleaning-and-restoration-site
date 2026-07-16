@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Fire Damage Restoration in Kenilworth, NJ | The Restoration Group"
 h1: "Fire Damage Restoration in Kenilworth"
-meta_description: "24/7 fire damage restoration in Kenilworth, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 fire damage restoration in Kenilworth, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "fire damage restoration kenilworth"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -60,4 +60,4 @@ If your home falls under a condo association — there are a handful of attached
 
 Kenilworth's plaster-wall homes present a specific challenge that newer-construction fire jobs don't: plaster is dense and alkaline, and it absorbs smoke odor compounds differently than drywall does. We've found that a single thermal fog pass — standard on drywall construction — often isn't enough. On jobs in the older capes and colonials throughout the borough, we typically run a second hydroxyl treatment cycle and test with a calibrated odor meter before closing out the deodorization phase. It adds time, but it's the difference between a home that smells clean on move-in day and one where the odor comes back the first time the heat kicks on in October.
 
-If you're dealing with fire damage at a Kenilworth address, call (855) 650-7422 now. We're based here, we know these homes, and we can have a crew on-site faster than any contractor dispatching from outside Union County.
+If you're dealing with fire damage at a Kenilworth address, call (908) 970-8533 now. We're based here, we know these homes, and we can have a crew on-site faster than any contractor dispatching from outside Union County.

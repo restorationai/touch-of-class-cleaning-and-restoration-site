@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Sewage Cleanup and Sanitization in Newark, NJ | The Restoration Group"
 h1: "Sewage Cleanup and Sanitization in Newark"
-meta_description: "24/7 sewage cleanup and sanitization in Newark, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 sewage cleanup and sanitization in Newark, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "sewage cleanup and sanitization newark"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -53,4 +53,4 @@ Sewage backup coverage in New Jersey is almost always a separate rider on a home
 
 One detail that catches Newark property owners off guard: the city requires a plumbing permit for any repair or replacement of a building sewer lateral, even work done entirely on private property. If the sewage backup was caused by a collapsed or root-infiltrated lateral — common in pre-1950 buildings throughout Vailsburg and Weequahic — the lateral repair has to be permitted and inspected by Newark's Department of Engineering before the excavation is backfilled. We flag this early so the remediation timeline and the plumbing repair timeline are coordinated, rather than discovering the permit requirement after the hole is already dug.
 
-If your Newark property is dealing with sewage backup right now, call (855) 650-7422. We'll confirm the source is controlled, remove the contamination, and produce the documentation your insurance carrier needs — so you're not managing this alone.
+If your Newark property is dealing with sewage backup right now, call (908) 970-8533. We'll confirm the source is controlled, remove the contamination, and produce the documentation your insurance carrier needs — so you're not managing this alone.

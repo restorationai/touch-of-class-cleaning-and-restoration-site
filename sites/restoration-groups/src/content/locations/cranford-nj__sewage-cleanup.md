@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Sewage Cleanup and Sanitization in Cranford, NJ | The Restoration Group"
 h1: "Sewage Cleanup and Sanitization in Cranford"
-meta_description: "24/7 sewage cleanup and sanitization in Cranford, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 sewage cleanup and sanitization in Cranford, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "sewage cleanup and sanitization cranford"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,7 +20,7 @@ state: "NJ"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
-Cranford's nickname — the Venice of New Jersey — tells you everything about why sewage emergencies here hit differently. The Rahway River winds through the center of town, and when it rises, the storm sewer network that serves neighborhoods from Riverside Drive to Sunny Acres backs up fast, pushing raw sewage up through floor drains and basement toilets before most homeowners realize what's happening. If you're dealing with that right now in the 07016 area, call (855) 650-7422 — the line is answered around the clock.
+Cranford's nickname — the Venice of New Jersey — tells you everything about why sewage emergencies here hit differently. The Rahway River winds through the center of town, and when it rises, the storm sewer network that serves neighborhoods from Riverside Drive to Sunny Acres backs up fast, pushing raw sewage up through floor drains and basement toilets before most homeowners realize what's happening. If you're dealing with that right now in the 07016 area, call (908) 970-8533 — the line is answered around the clock.
 
 ## Why Cranford Properties See Sewage Backup So Often
 
@@ -56,4 +56,4 @@ Cranford properties in FEMA-designated Special Flood Hazard Areas carry NFIP pol
 
 One thing that surprises homeowners in Cranford's older neighborhoods is how far sewage contamination travels into unparged concrete block walls. Unlike the poured concrete or modern stud-framed basements found in newer construction, the hollow-core block walls common in 1920s–1940s Cranford colonials wick moisture and contaminants into the cores of the blocks themselves. Standard surface disinfection isn't enough — the cores need to be addressed, which sometimes means removing the bottom courses of block or injecting disinfectant into the voids. It's a step that gets skipped by crews unfamiliar with this housing stock, and it's one of the reasons sewage odors return weeks after a cleanup that looked finished on the surface.
 
-If you're dealing with a sewage backup anywhere in Cranford — from a septic overflow near the outskirts of Sunny Acres to a sewer line backup in a Downtown Cranford storefront — call (855) 650-7422. The line is open now.
+If you're dealing with a sewage backup anywhere in Cranford — from a septic overflow near the outskirts of Sunny Acres to a sewer line backup in a Downtown Cranford storefront — call (908) 970-8533. The line is open now.

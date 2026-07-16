@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Storm Damage Restoration in Newark, NJ | The Restoration Group"
 h1: "Storm Damage Restoration in Newark"
-meta_description: "24/7 storm damage restoration in Newark, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 storm damage restoration in Newark, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "storm damage restoration newark"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -54,4 +54,4 @@ For landlords managing properties across multiple Newark neighborhoods, we can d
 
 Newark's combined sewer infrastructure means that even a storm with no direct structural damage to a building can back raw sewage into ground-floor and basement units through floor drains and toilets — a pattern we saw repeatedly after heavy rain events in the Ironbound and Weequahic. Homeowners sometimes assume this is a plumbing problem and call a plumber first, losing critical hours before proper contamination containment begins. If your basement smells like the street after a storm, that's a restoration call, not a drain-snake job. Sewage-contaminated materials need to be removed, not dried in place.
 
-If your Newark property took a hit from a recent storm — whether it's a tree through the roof in Forest Hill, a flooded basement in the Ironbound, or a blown-out parapet on a Vailsburg multifamily — call The Restoration Group at (855) 650-7422. We'll assess the damage, secure the structure, and carry the documentation load from first call to final inspection.
+If your Newark property took a hit from a recent storm — whether it's a tree through the roof in Forest Hill, a flooded basement in the Ironbound, or a blown-out parapet on a Vailsburg multifamily — call The Restoration Group at (908) 970-8533. We'll assess the damage, secure the structure, and carry the documentation load from first call to final inspection.

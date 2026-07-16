@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Burst Pipe Cleanup and Repair in Union, NJ | The Restoration Group"
 h1: "Burst Pipe Cleanup and Repair in Union"
-meta_description: "24/7 burst pipe cleanup and repair in Union, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 burst pipe cleanup and repair in Union, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "burst pipe cleanup and repair union"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -32,7 +32,7 @@ The Route 22 retail corridor adds a commercial dimension. Restaurants and big-bo
 
 ## Our Burst Pipe Cleanup and Repair Process in Union
 
-The first call triggers dispatch from our Kenilworth base — Union Township shares a border with Kenilworth, which means crews are typically on-site well before water has had time to saturate subfloor assemblies. Because we operate 24/7 as an IICRC Certified Firm (#210213), the response clock starts the moment you call (855) 650-7422, not at the next business opening.
+The first call triggers dispatch from our Kenilworth base — Union Township shares a border with Kenilworth, which means crews are typically on-site well before water has had time to saturate subfloor assemblies. Because we operate 24/7 as an IICRC Certified Firm (#210213), the response clock starts the moment you call (908) 970-8533, not at the next business opening.
 
 On arrival, the priority is source control. If the home's main shutoff hasn't been reached yet, we locate and close it — in many of Union's older colonials, that valve is in the utility area of the basement, sometimes behind finished drywall that was added decades after the original build. Once flow is stopped, we use thermal imaging and moisture meters to map the full extent of travel: water from a second-floor line can wick through subfloor, track along joists, and pool in a finished basement ceiling without a visible drip trail.
 
@@ -50,4 +50,4 @@ Most sudden and accidental pipe bursts are covered under standard homeowner poli
 
 In Union's postwar split-levels — particularly the style common through the Putnam Ridge area — the supply plumbing often runs through an interior chase that also carries HVAC ductwork. When a line bursts inside that chase, water follows the duct path and surfaces in rooms that seem completely unrelated to the failure point. Crews unfamiliar with this construction pattern will miss secondary wet zones. We've learned to probe the duct chase directly on these homes before closing out the moisture mapping phase, because a missed wet pocket inside a chase becomes a mold problem within days.
 
-If a pipe has let go in your Union Township home or commercial property, call (855) 650-7422 now. The Restoration Group responds around the clock, and our Kenilworth location means we're already close — close enough that stopping the damage early is a realistic outcome, not just a promise.
+If a pipe has let go in your Union Township home or commercial property, call (908) 970-8533 now. The Restoration Group responds around the clock, and our Kenilworth location means we're already close — close enough that stopping the damage early is a realistic outcome, not just a promise.

@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Burst Pipe Cleanup and Repair in Kenilworth | The Restoration Group"
 h1: "Burst Pipe Cleanup and Repair in Kenilworth"
-meta_description: "24/7 burst pipe cleanup and repair in Kenilworth and surrounding areas. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 burst pipe cleanup and repair in Kenilworth and surrounding areas. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "burst pipe cleanup and repair kenilworth"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -63,4 +63,4 @@ Spring snowmelt and heavy rain events can compound a burst pipe loss when draina
 
 The Restoration Group is based in Kenilworth, NJ, and handles burst pipe cleanup and repair across Union, Essex, Middlesex, and Morris counties — including Cranford, Westfield, Summit, Millburn, Springfield, and surrounding communities. City-specific pages cover local details; this page describes how the work is done regardless of address.
 
-If you're standing in a wet room right now, call (855) 650-7422. The Restoration Group operates 24/7 — a technician will walk you through immediate steps on the phone and get equipment moving toward your property.
+If you're standing in a wet room right now, call (908) 970-8533. The Restoration Group operates 24/7 — a technician will walk you through immediate steps on the phone and get equipment moving toward your property.

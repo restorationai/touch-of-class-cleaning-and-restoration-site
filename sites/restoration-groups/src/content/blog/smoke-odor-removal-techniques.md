@@ -82,4 +82,4 @@ Laundry, soft goods, and clothing may need separate ozone or hydroxyl treatment,
 
 ---
 
-If you're dealing with smoke odor in a home or commercial property in northern New Jersey and the DIY attempts aren't cutting it, The Restoration Group handles both smoke damage and broader fire damage restoration — including insurance documentation and direct billing. You can reach the team at **(855) 650-7422** to talk through what you're seeing before committing to anything.
+If you're dealing with smoke odor in a home or commercial property in northern New Jersey and the DIY attempts aren't cutting it, The Restoration Group handles both smoke damage and broader fire damage restoration — including insurance documentation and direct billing. You can reach the team at **(908) 970-8533** to talk through what you're seeing before committing to anything.

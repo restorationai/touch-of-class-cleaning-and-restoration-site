@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Basement Flooding Cleanup in Springfield, NJ | The Restoration Group"
 h1: "Basement Flooding Cleanup in Springfield"
-meta_description: "24/7 basement flooding cleanup in Springfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 basement flooding cleanup in Springfield, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "basement flooding cleanup springfield"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -54,4 +54,4 @@ For townhome owners in complexes near the Millburn line, HOA master policies som
 
 In Springfield's pre-war colonials — particularly those on streets that run perpendicular to the Mountain Avenue corridor — many basements were finished with wood furring strips nailed directly to the concrete block wall, then covered with drywall or wood paneling. That air gap between the block and the finish layer can hide weeks' worth of trapped moisture after a flood. We've opened walls in these homes that looked dry on the surface and found active mold growth already underway in the cavity. If your home was built before 1960 and has any wall finish in the basement, we probe behind it before we ever call a job dry.
 
-If your basement is holding water right now — or you're seeing the waterline on the walls after the fact — call The Restoration Group at (855) 650-7422. We'll assess the damage, walk you through the process, and get Springfield-area crews moving the same day.
+If your basement is holding water right now — or you're seeing the waterline on the walls after the fact — call The Restoration Group at (908) 970-8533. We'll assess the damage, walk you through the process, and get Springfield-area crews moving the same day.

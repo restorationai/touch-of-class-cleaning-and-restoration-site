@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Inspection and Testing in Newark, NJ | The Restoration Group"
 h1: "Mold Inspection and Testing in Newark"
-meta_description: "24/7 mold inspection and testing in Newark, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 mold inspection and testing in Newark, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "mold inspection and testing newark"
 secondary_keywords: ["mold inspection", "mold testing", "indoor air quality testing", "mold spore testing", "mold assessment"]
 search_intent: "local_health"
@@ -50,4 +50,4 @@ New Jersey's Department of Community Affairs has specific guidance on mold in re
 
 One pattern we see repeatedly in Newark's older multifamily buildings: the original horsehair plaster on interior walls holds moisture far longer than modern drywall, and it can show a "dry" reading on a standard pin-type moisture meter even when the substrate behind it is still wet. We use non-invasive radio-frequency meters alongside standard capacitance meters on plaster walls specifically because of this. In a Forest Hill colonial or an Ironbound rowhouse, skipping that step means missing the mold problem that's already growing six inches behind a wall that reads clean on a basic scan.
 
-If you're dealing with a persistent musty odor, a tenant complaint, or the aftermath of a flood or sewage backup anywhere in Newark, a documented air quality and mold assessment is the first step toward a clear answer. Call The Restoration Group at (855) 650-7422 — we'll schedule an inspection, collect the samples, and give you a written report you can actually use.
+If you're dealing with a persistent musty odor, a tenant complaint, or the aftermath of a flood or sewage backup anywhere in Newark, a documented air quality and mold assessment is the first step toward a clear answer. Call The Restoration Group at (908) 970-8533 — we'll schedule an inspection, collect the samples, and give you a written report you can actually use.

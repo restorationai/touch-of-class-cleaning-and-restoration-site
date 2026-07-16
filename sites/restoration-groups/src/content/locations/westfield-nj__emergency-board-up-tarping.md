@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Emergency Board-Up and Tarping in Westfield, NJ | The Restoration Group"
 h1: "Emergency Board-Up and Tarping in Westfield"
-meta_description: "24/7 emergency board-up and tarping in Westfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 emergency board-up and tarping in Westfield, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "emergency board-up and tarping westfield"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -54,4 +54,4 @@ For Westfield's higher-value homes, where replacement costs on original millwork
 
 One pattern we've seen repeatedly in Westfield's older neighborhoods: slate roofs that appear intact from the street often have hairline fractures invisible until a tarp is lifted after a storm. The weight of a fallen limb can crack individual slates several feet from the point of impact, and those cracks won't show up on a quick visual pass from a ladder. During board-up and tarping work, we do a close-range inspection of the surrounding field and note any cracked or slipped slates in our documentation — not to expand the scope unnecessarily, but because an adjuster who sees that notation in the file is better equipped to authorize a thorough roofing assessment rather than a patch-only repair that fails the following winter.
 
-If your Westfield home has been damaged by storm, fire, or a break-in, call The Restoration Group at (855) 650-7422. We're available around the clock, and we'll have a crew moving toward your address while you're still on the phone.
+If your Westfield home has been damaged by storm, fire, or a break-in, call The Restoration Group at (908) 970-8533. We're available around the clock, and we'll have a crew moving toward your address while you're still on the phone.

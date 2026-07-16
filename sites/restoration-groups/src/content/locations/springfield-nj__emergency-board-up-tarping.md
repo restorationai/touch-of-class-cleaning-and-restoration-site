@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Emergency Board-Up and Tarping in Springfield, NJ | The Restoration Group"
 h1: "Emergency Board-Up and Tarping in Springfield"
-meta_description: "24/7 emergency board-up and tarping in Springfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 emergency board-up and tarping in Springfield, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "emergency board-up and tarping springfield"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -32,7 +32,7 @@ The Route 22 commercial strip adds a different category of loss: restaurant grea
 
 ## Our Emergency Board-Up and Tarping Process in Springfield
 
-When you call (855) 650-7422, the first thing we do is triage the opening — size, shape, floor level, and what's immediately at risk inside. That determines whether we're arriving with plywood and a crew of two or with heavy polyethylene sheeting, lumber battens, and additional hands for a large roof section.
+When you call (908) 970-8533, the first thing we do is triage the opening — size, shape, floor level, and what's immediately at risk inside. That determines whether we're arriving with plywood and a crew of two or with heavy polyethylene sheeting, lumber battens, and additional hands for a large roof section.
 
 On-site, we work in a defined sequence:
 
@@ -58,4 +58,4 @@ For single-family losses, we carry the documentation insurers want — IICRC Cer
 
 Springfield's older colonials along the Mountain Avenue corridor frequently have original wood window frames with exterior storm windows added in the 1970s or 80s. When a fire or impact breaks the inner window, the storm window frame is often still intact but bent — and boarding over a bent aluminum storm frame without removing it first creates a gap that looks sealed but isn't. We pull the damaged storm frame before installing plywood so the board-up actually keeps weather and intruders out, not just looks like it does from the street.
 
-If your Springfield property has been opened by storm damage, fire, a break-in, or a vehicle impact, call (855) 650-7422 now. We'll have a crew en route and a documented scope ready for your adjuster before the next weather system moves through.
+If your Springfield property has been opened by storm damage, fire, a break-in, or a vehicle impact, call (908) 970-8533 now. We'll have a crew en route and a documented scope ready for your adjuster before the next weather system moves through.

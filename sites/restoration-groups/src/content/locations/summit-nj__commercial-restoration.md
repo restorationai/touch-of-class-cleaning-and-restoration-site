@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Commercial Restoration in Summit, NJ | The Restoration Group"
 h1: "Commercial Restoration in Summit"
-meta_description: "24/7 commercial restoration in Summit, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 commercial restoration in Summit, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "commercial restoration summit"
 secondary_keywords: ["commercial water damage", "commercial fire damage", "business restoration", "office restoration", "retail restoration"]
 search_intent: "local_b2b"
@@ -48,4 +48,4 @@ Commercial property claims in Summit frequently involve multiple coverage layers
 
 One pattern we've learned working in Summit's older commercial corridors: plaster walls in pre-war buildings dry significantly more slowly than modern gypsum board — often 40 to 60 percent longer to reach equilibrium moisture content — because dense lime plaster releases absorbed water gradually and traps it behind original lath. Crews unfamiliar with this will pull equipment too early, leaving residual moisture that feeds mold growth inside the wall cavity weeks after the job is closed. We extend monitoring cycles on Summit commercial jobs specifically to account for this, and we don't sign off on a dry structure until meter readings are stable across multiple consecutive visits.
 
-If your Summit property has taken on water, smoke, or structural damage, call The Restoration Group at (855) 650-7422. We'll assess the loss, protect your contents, and move your building toward a complete, period-appropriate restoration — without shortcuts that create problems six months from now.
+If your Summit property has taken on water, smoke, or structural damage, call The Restoration Group at (908) 970-8533. We'll assess the loss, protect your contents, and move your building toward a complete, period-appropriate restoration — without shortcuts that create problems six months from now.

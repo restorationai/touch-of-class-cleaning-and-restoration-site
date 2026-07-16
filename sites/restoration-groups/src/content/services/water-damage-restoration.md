@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Water Damage Restoration in Kenilworth | The Restoration Group"
 h1: "Water Damage Restoration in Kenilworth"
-meta_description: "24/7 water damage restoration in Kenilworth and surrounding areas. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 water damage restoration in Kenilworth and surrounding areas. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "water damage restoration kenilworth"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -59,4 +59,4 @@ Kenilworth and the surrounding Union County communities sit in a mix of mid-cent
 
 The Restoration Group is based in Kenilworth and provides water damage restoration throughout Union County and the surrounding region, including Springfield, Cranford, Westfield, Clark, Garwood, Roselle Park, and Mountainside. City-specific pages detail local response logistics — this page covers the full scope of what the service involves.
 
-If you're watching water spread across your floor right now, call **(855) 650-7422**. We respond 24/7 and can walk you through what to do before the crew arrives. If the immediate emergency has passed and you're assessing damage, schedule a moisture assessment — it takes about an hour and gives you a clear picture of what dried on its own and what didn't.
+If you're watching water spread across your floor right now, call **(908) 970-8533**. We respond 24/7 and can walk you through what to do before the crew arrives. If the immediate emergency has passed and you're assessing damage, schedule a moisture assessment — it takes about an hour and gives you a clear picture of what dried on its own and what didn't.

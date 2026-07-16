@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Commercial Restoration in Cranford, NJ | The Restoration Group"
 h1: "Commercial Restoration in Cranford"
-meta_description: "24/7 commercial restoration in Cranford, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 commercial restoration in Cranford, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "commercial restoration cranford"
 secondary_keywords: ["commercial water damage", "commercial fire damage", "business restoration", "office restoration", "retail restoration"]
 search_intent: "local_b2b"
@@ -44,7 +44,7 @@ For fire or smoke damage in a commercial space, the process shifts toward odor n
 
 ## Reaching Cranford from Kenilworth
 
-Our Kenilworth base puts us directly adjacent to Cranford's western boundary. North Avenue and South Avenue connect the two towns without highway routing, which matters when a burst sprinkler line is soaking a server room at 2 a.m. Because we operate 24/7, a call to (855) 650-7422 reaches a live dispatcher at any hour — not an answering service. We stage equipment for Cranford commercial calls from the same facility we use for our Union County residential work, so there's no transfer delay between residential and commercial dispatch.
+Our Kenilworth base puts us directly adjacent to Cranford's western boundary. North Avenue and South Avenue connect the two towns without highway routing, which matters when a burst sprinkler line is soaking a server room at 2 a.m. Because we operate 24/7, a call to (908) 970-8533 reaches a live dispatcher at any hour — not an answering service. We stage equipment for Cranford commercial calls from the same facility we use for our Union County residential work, so there's no transfer delay between residential and commercial dispatch.
 
 For properties near Downtown Cranford or along the Lincoln Park East corridor, routing through Centennial Avenue typically avoids the intersection congestion that slows response along South Avenue during business hours.
 
@@ -58,4 +58,4 @@ We build that documentation into every job as a standard step, not an add-on. Ou
 
 One pattern we've seen repeatedly in Cranford's older commercial buildings near the Rahway River Parkway: the original basement floor drains in these structures were sized for the storm-sewer capacity of the 1930s, not for the volume that backs up during a modern 100-year rain event. When those drains reverse-flow, water enters the basement faster than most sump systems can handle, and it carries sewer-category contamination even if the source looks like clean stormwater. Any commercial property owner in this part of Cranford should treat basement flood water as category 3 until testing says otherwise — and restoration crews who don't know the local sewer history sometimes underestimate the contamination level and under-scope the remediation.
 
-For a business that has been through this before, call (855) 650-7422. We know what Cranford's flood events actually leave behind, and we document it in a way that holds up with your carrier.
+For a business that has been through this before, call (908) 970-8533. We know what Cranford's flood events actually leave behind, and we document it in a way that holds up with your carrier.

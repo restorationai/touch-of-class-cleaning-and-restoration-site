@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Flood Damage Restoration in Cranford, NJ | The Restoration Group"
 h1: "Flood Damage Restoration in Cranford"
-meta_description: "24/7 flood damage restoration in Cranford, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 flood damage restoration in Cranford, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "flood damage restoration cranford"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -56,4 +56,4 @@ For homeowners who have filed before — after Irene, after Ida — the process 
 
 One thing worth knowing about Cranford's older colonials and capes: the original plaster walls common in homes built before 1950 behave very differently from modern drywall when they get wet. Plaster itself is dense and slow to release absorbed moisture — it can read dry on the surface while the wood lath behind it is still holding significant water content. We've learned to extend drying cycles on these homes and position equipment specifically to draw moisture out through the lath layer, rather than calling a job complete based on surface readings alone. It's a detail that matters for mold prevention in the weeks after a flood.
 
-If your home in Cranford has taken on water — whether from the Rahway, a backed-up drain, or a storm that overwhelmed the sewer system — call The Restoration Group at **(855) 650-7422**. We're available around the clock, we know these streets, and we'll document everything your insurer needs from the moment we walk in the door.
+If your home in Cranford has taken on water — whether from the Rahway, a backed-up drain, or a storm that overwhelmed the sewer system — call The Restoration Group at **(908) 970-8533**. We're available around the clock, we know these streets, and we'll document everything your insurer needs from the moment we walk in the door.

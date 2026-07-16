@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Sewage Cleanup and Sanitization in Kenilworth, NJ | The Restoration Group"
 h1: "Sewage Cleanup and Sanitization in Kenilworth"
-meta_description: "24/7 sewage cleanup and sanitization in Kenilworth, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 sewage cleanup and sanitization in Kenilworth, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "sewage cleanup and sanitization kenilworth"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -58,4 +58,4 @@ We're a licensed NJ Home Improvement Contractor through the NJ Division of Consu
 
 Something specific to Kenilworth's prewar housing stock: the clay lateral lines in many homes along the South Kenilworth streets run under concrete driveways that were poured decades after the original plumbing. When a lateral collapses and needs replacement, accessing it can mean cutting through a driveway slab — a scope item that surprises homeowners and sometimes gets missed in early insurance estimates. We flag this during our initial assessment so there are no mid-project surprises about access or additional permits with the borough.
 
-If you're dealing with sewage backup anywhere in Kenilworth — a flooded basement floor drain, a backed-up ejector pit, or overflow from a storm event — call (855) 650-7422 any time, day or night. We're already nearby, and the faster the response, the more of your home we can save.
+If you're dealing with sewage backup anywhere in Kenilworth — a flooded basement floor drain, a backed-up ejector pit, or overflow from a storm event — call (908) 970-8533 any time, day or night. We're already nearby, and the faster the response, the more of your home we can save.

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Inspection and Testing in Elizabeth, NJ | The Restoration Group"
 h1: "Mold Inspection and Testing in Elizabeth"
-meta_description: "24/7 mold inspection and testing in Elizabeth, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 mold inspection and testing in Elizabeth, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "mold inspection and testing elizabeth"
 secondary_keywords: ["mold inspection", "mold testing", "indoor air quality testing", "mold spore testing", "mold assessment"]
 search_intent: "local_health"
@@ -50,4 +50,4 @@ One thing that catches inspectors off guard in Elizabeth's pre-war housing is ho
 
 Mold claims in New Jersey are handled inconsistently across carriers, and Elizabeth landlords with multiple-unit properties sometimes find that insurers require documented air quality testing before approving remediation coverage. Our lab-backed reports — which include spore species, concentration levels, and affected area mapping — are formatted to meet the documentation standards most major carriers expect. We can also provide pre- and post-remediation testing if your policy or a court proceeding requires clearance verification. If you're in a dispute with a tenant or a prior owner over undisclosed mold, that chain of documented evidence is often what resolves the matter.
 
-If you're dealing with a musty smell, a recent flood, or a tenant complaint in Elizabeth — ZIP codes 07201, 07202, 07206, or 07208 — call The Restoration Group at (855) 650-7422. We'll schedule an inspection, give you real data from an accredited lab, and walk you through what the results mean before you spend a dollar on remediation.
+If you're dealing with a musty smell, a recent flood, or a tenant complaint in Elizabeth — ZIP codes 07201, 07202, 07206, or 07208 — call The Restoration Group at (908) 970-8533. We'll schedule an inspection, give you real data from an accredited lab, and walk you through what the results mean before you spend a dollar on remediation.

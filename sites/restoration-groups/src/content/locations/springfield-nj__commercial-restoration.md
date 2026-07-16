@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Commercial Restoration in Springfield, NJ | The Restoration Group"
 h1: "Commercial Restoration in Springfield"
-meta_description: "24/7 commercial restoration in Springfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 commercial restoration in Springfield, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "commercial restoration springfield"
 secondary_keywords: ["commercial water damage", "commercial fire damage", "business restoration", "office restoration", "retail restoration"]
 search_intent: "local_b2b"
@@ -46,4 +46,4 @@ For properties closer to the Baltusrol area or near Jonathan Dayton High School,
 
 After working losses along the Route 22 corridor in the wake of major storm events, one pattern stands out: many of the commercial spaces here have finished or semi-finished lower levels — storage rooms, prep kitchens, mechanical rooms — that aren't visible from the street and aren't always on the property manager's radar until water has been sitting for 12 to 24 hours. By then, mold colonization is already a risk on porous materials. On any Springfield commercial flood loss, we make it a point to inspect below-grade and semi-enclosed spaces before finalizing a scope, because the visible damage is rarely the full picture.
 
-If your Springfield business has taken on water, smoke, or structural damage — whether you're on the Route 22 strip, in Springfield Center, or anywhere across 07081 — call The Restoration Group at (855) 650-7422. We'll assess the loss, work directly with your carrier, and build a restoration plan around getting your operation back open, not just getting the building dry.
+If your Springfield business has taken on water, smoke, or structural damage — whether you're on the Route 22 strip, in Springfield Center, or anywhere across 07081 — call The Restoration Group at (908) 970-8533. We'll assess the loss, work directly with your carrier, and build a restoration plan around getting your operation back open, not just getting the building dry.

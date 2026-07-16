@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Inspection and Testing in Springfield, NJ | The Restoration Group"
 h1: "Mold Inspection and Testing in Springfield"
-meta_description: "24/7 mold inspection and testing in Springfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 mold inspection and testing in Springfield, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "mold inspection and testing springfield"
 secondary_keywords: ["mold inspection", "mold testing", "indoor air quality testing", "mold spore testing", "mold assessment"]
 search_intent: "local_health"
@@ -46,10 +46,10 @@ The Restoration Group is an IICRC Certified Firm (#210213) and a licensed NJ Hom
 
 ## Reaching Springfield from Our Kenilworth Base
 
-Our team operates 24/7 and reaches Springfield quickly via Route 22 west from Kenilworth — the same corridor that flooded during Ida and that we know well. The Route 22 commercial strip and Morris Avenue corridor are straightforward runs; residential streets in the Baltusrol area and Mountain Avenue corridor add a few minutes but are well within our standard response range. When you call (855) 650-7422, you're not waiting for a dispatcher to locate a subcontractor — you're reaching a team that's made this drive many times.
+Our team operates 24/7 and reaches Springfield quickly via Route 22 west from Kenilworth — the same corridor that flooded during Ida and that we know well. The Route 22 commercial strip and Morris Avenue corridor are straightforward runs; residential streets in the Baltusrol area and Mountain Avenue corridor add a few minutes but are well within our standard response range. When you call (908) 970-8533, you're not waiting for a dispatcher to locate a subcontractor — you're reaching a team that's made this drive many times.
 
 ## Local Note: What Springfield's Older Homes Hide in Plain Sight
 
 One pattern we see repeatedly in Springfield's pre-1950 housing stock: original horsehair plaster on the interior side of exterior walls acts as a slow-release moisture reservoir. After a flood event or prolonged humidity exposure, that plaster holds water long after the visible surface feels dry to the touch. Standard moisture meters calibrated for drywall can underread these walls significantly. We adjust our baseline thresholds and extend dwell time on readings in homes we identify as plaster-construction — typically anything in Springfield Center built before 1955. It's a small calibration that prevents a false "all clear" and the mold discovery six months later that follows one.
 
-If you're in Springfield and you've had water in the basement, noticed a persistent musty odor, or recently purchased an older home and want to know what's behind the walls, a professional mold inspection and testing assessment is the right starting point. Call (855) 650-7422 or reach out online — we'll schedule promptly and give you a clear picture of what's actually happening in your home.
+If you're in Springfield and you've had water in the basement, noticed a persistent musty odor, or recently purchased an older home and want to know what's behind the walls, a professional mold inspection and testing assessment is the right starting point. Call (908) 970-8533 or reach out online — we'll schedule promptly and give you a clear picture of what's actually happening in your home.

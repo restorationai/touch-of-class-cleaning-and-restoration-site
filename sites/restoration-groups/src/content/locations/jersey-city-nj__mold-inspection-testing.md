@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Inspection and Testing in Jersey City, NJ | The Restoration Group"
 h1: "Mold Inspection and Testing in Jersey City"
-meta_description: "24/7 mold inspection and testing in Jersey City, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 mold inspection and testing in Jersey City, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "mold inspection and testing jersey city"
 secondary_keywords: ["mold inspection", "mold testing", "indoor air quality testing", "mold spore testing", "mold assessment"]
 search_intent: "local_health"
@@ -42,7 +42,7 @@ For condo associations and landlords managing multiple affected units, we struct
 
 The Restoration Group dispatches from Kenilworth, and Jersey City is a routine service area — teams travel the New Jersey Turnpike or Routes 1 and 9 depending on traffic and destination. Downtown Jersey City, Journal Square, and the Newport corridor are all reachable without navigating the city's more congested interior streets. Because the team is available around the clock, scheduling an inspection doesn't mean waiting until the next business-day window opens.
 
-For landlords managing properties across multiple neighborhoods — say, a portfolio that spans Journal Square and Bergen-Lafayette — a single call to (855) 650-7422 can coordinate inspections across addresses on the same visit when scheduling allows.
+For landlords managing properties across multiple neighborhoods — say, a portfolio that spans Journal Square and Bergen-Lafayette — a single call to (908) 970-8533 can coordinate inspections across addresses on the same visit when scheduling allows.
 
 ## Jersey City Insurance and HOA Coordination
 
@@ -54,4 +54,4 @@ For rental properties, New Jersey's warranty of habitability creates real urgenc
 
 One pattern that comes up repeatedly in the Heights and in parts of Greenville: homeowners or tenants report a musty smell that intensifies in winter, which seems counterintuitive. In uninsulated or under-insulated rowhouses, heating the interior while exterior temperatures drop creates a steep vapor-pressure gradient that drives moisture from the cold exterior wall assembly toward the warm interior — the opposite of the summer condensation problem. Mold that established itself in wall cavities during a wet fall can become more odor-active in January without any new water event. If an inspection is triggered by a smell that's worse in cold weather, we factor that seasonal dynamic into where we sample and what we're looking for.
 
-If you're dealing with a persistent odor, visible growth, or recent water intrusion anywhere in Jersey City — from a waterfront high-rise to a century-old rowhouse in the 07306 corridor — call (855) 650-7422 to schedule a mold inspection and testing visit. Clear answers start with the right questions asked in the right places.
+If you're dealing with a persistent odor, visible growth, or recent water intrusion anywhere in Jersey City — from a waterfront high-rise to a century-old rowhouse in the 07306 corridor — call (908) 970-8533 to schedule a mold inspection and testing visit. Clear answers start with the right questions asked in the right places.

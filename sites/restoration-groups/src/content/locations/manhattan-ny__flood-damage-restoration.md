@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Flood Damage Restoration in Manhattan, NY | The Restoration Group"
 h1: "Flood Damage Restoration in Manhattan"
-meta_description: "24/7 flood damage restoration in Manhattan, NY. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 flood damage restoration in Manhattan, NY. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "flood damage restoration manhattan"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -48,4 +48,4 @@ Flood claims in Manhattan often involve multiple parties: the unit owner's HO-6 
 
 One thing that surprises building managers unfamiliar with vertical flood losses: in Manhattan pre-war buildings, original plaster ceilings act almost like a reservoir. Water pools above the plaster skin, held in place by the lath, and can release suddenly — sometimes hours after the source leak has been stopped — when someone walks across the floor above or when temperature changes cause slight expansion. Experienced technicians probe above plaster surfaces before declaring an area dry, because a ceiling that looks intact can be holding gallons. Skipping that step leads to secondary collapses and mold growth inside the ceiling cavity weeks later.
 
-If water is moving through your building — or you suspect it already has — call The Restoration Group at (855) 650-7422. We respond 24/7 across Manhattan, and we bring the documentation, equipment, and building-management experience that vertical flood losses in this borough demand.
+If water is moving through your building — or you suspect it already has — call The Restoration Group at (908) 970-8533. We respond 24/7 across Manhattan, and we bring the documentation, equipment, and building-management experience that vertical flood losses in this borough demand.

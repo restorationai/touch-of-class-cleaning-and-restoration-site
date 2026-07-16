@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Remediation in Summit, NJ | The Restoration Group"
 h1: "Mold Remediation in Summit"
-meta_description: "24/7 mold remediation in Summit, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 mold remediation in Summit, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "mold remediation summit"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
@@ -38,10 +38,10 @@ For homes with finished basements, we document and photograph all contents befor
 
 ## Reaching Summit from Kenilworth
 
-The Restoration Group operates 24/7 out of Kenilworth, and Summit is a straightforward run — typically west on Route 22 to the Garden State Parkway south, or directly via Springfield Avenue depending on traffic. We serve the full 07901 ZIP code, including properties near the Reeves-Reed Arboretum and along the corridors leading toward the New Providence border. When you call (855) 650-7422, you reach a live person every hour of the day, not an answering service.
+The Restoration Group operates 24/7 out of Kenilworth, and Summit is a straightforward run — typically west on Route 22 to the Garden State Parkway south, or directly via Springfield Avenue depending on traffic. We serve the full 07901 ZIP code, including properties near the Reeves-Reed Arboretum and along the corridors leading toward the New Providence border. When you call (908) 970-8533, you reach a live person every hour of the day, not an answering service.
 
 ## Local Note: What Plaster Walls Mean for Drying Time
 
 This is something that matters specifically in Summit and isn't obvious until you've worked in these homes: plaster over wood lath releases moisture at roughly half the rate of modern drywall. A water-damaged plaster wall that reads wet on a moisture meter may take 60–80% longer to reach acceptable dryness than a comparable drywall assembly would. We account for this in every drying plan we write for Summit properties — extending the drying phase rather than rushing to reconstruction — because remediating mold on a wall that isn't fully dry yet is work that will have to be done twice. Homeowners near Downtown Summit and Springfield Avenue downtown who have dealt with contractors who rushed the drying phase often find themselves calling again within a season.
 
-If you're dealing with visible mold growth, a persistent musty odor, or a recent water event in a Summit home, the window to act before secondary damage sets in is short. Call The Restoration Group at (855) 650-7422 — our IICRC Certified Firm (#210213) team will assess the situation, walk you through the scope, and handle the remediation in a way that respects both the structure and the contents inside it.
+If you're dealing with visible mold growth, a persistent musty odor, or a recent water event in a Summit home, the window to act before secondary damage sets in is short. Call The Restoration Group at (908) 970-8533 — our IICRC Certified Firm (#210213) team will assess the situation, walk you through the scope, and handle the remediation in a way that respects both the structure and the contents inside it.

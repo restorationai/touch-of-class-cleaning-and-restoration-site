@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Odor Removal and Deodorization in Kenilworth | The Restoration Group"
 h1: "Odor Removal and Deodorization in Kenilworth"
-meta_description: "24/7 odor removal and deodorization in Kenilworth and surrounding areas. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 odor removal and deodorization in Kenilworth and surrounding areas. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "odor removal and deodorization kenilworth"
 secondary_keywords: ["smoke odor removal", "ozone treatment", "hydroxyl deodorization", "thermal fogging", "professional odor elimination"]
 search_intent: "local_specialty"
@@ -57,4 +57,4 @@ New Jersey's humid summers create compounding odor problems. High ambient humidi
 
 The Restoration Group is based in Kenilworth, NJ and provides odor removal and deodorization throughout Union County and surrounding areas, including Cranford, Westfield, Springfield, Summit, Roselle, and Clark. Dedicated service-area pages cover each city in detail.
 
-If a smell has come back after a previous treatment — or if you're dealing with smoke, pet, or decomposition odor for the first time — call (855) 650-7422 any time, day or night, to schedule a source assessment and get a clear picture of what it will actually take to eliminate it.
+If a smell has come back after a previous treatment — or if you're dealing with smoke, pet, or decomposition odor for the first time — call (908) 970-8533 any time, day or night, to schedule a source assessment and get a clear picture of what it will actually take to eliminate it.

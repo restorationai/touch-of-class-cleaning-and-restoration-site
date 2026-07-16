@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Water Damage Restoration in Cranford, NJ | The Restoration Group"
 h1: "Water Damage Restoration in Cranford"
-meta_description: "24/7 water damage restoration in Cranford, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 water damage restoration in Cranford, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "water damage restoration cranford"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -46,4 +46,4 @@ Because Cranford sits in one of New Jersey's most flood-affected corridors, many
 
 One thing that surprises homeowners in the Riverside Drive area after a flood: the river deposits a fine silt layer across basement floors and lower wall surfaces that looks like dried mud but behaves differently during cleanup. That silt contains organic material that accelerates mold growth and can interfere with adhesion if walls are primed before the substrate is fully clean and dry. We treat silt-affected surfaces with an antimicrobial application after extraction and before any drying equipment is positioned — a step that matters specifically in riverfront flood scenarios and that gets skipped when crews are working fast without local experience.
 
-If your home or property in Cranford has taken on water — whether from the Rahway River, a failed sump pump, or a burst supply line — call The Restoration Group at (855) 650-7422. We'll assess the damage, begin extraction, and build the documentation trail you'll need to get your home dry and your claim moving.
+If your home or property in Cranford has taken on water — whether from the Rahway River, a failed sump pump, or a burst supply line — call The Restoration Group at (908) 970-8533. We'll assess the damage, begin extraction, and build the documentation trail you'll need to get your home dry and your claim moving.

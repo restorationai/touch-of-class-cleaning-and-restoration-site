@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Appliance Leak Cleanup in Newark, NJ | The Restoration Group"
 h1: "Appliance Leak Cleanup in Newark"
-meta_description: "24/7 appliance leak cleanup in Newark, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 appliance leak cleanup in Newark, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "appliance leak cleanup newark"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -54,4 +54,4 @@ One thing that catches out-of-market contractors in Newark's pre-war buildings: 
 
 Most standard homeowner and renter policies cover sudden appliance leaks — a dishwasher supply line failure, an ice maker connection that pulls loose — but carriers distinguish sharply between sudden loss and gradual leakage. A slow drip under a refrigerator that has been staining the floor for months is typically denied; a washing machine hose that fails and floods a laundry room in an afternoon is typically covered. The Restoration Group documents the loss in a format that supports the sudden-loss narrative where the facts support it: timestamped photographs, moisture readings on arrival, and a written scope of work that maps affected materials to the source event. For landlords managing multiple units in a Newark building, that documentation also serves as the record for tenant communication and any subsequent repair permitting required by the city.
 
-If you are dealing with an appliance leak in Newark right now — whether it's a dishwasher overflow in an Ironbound two-family or a water heater failure in a Forest Hill colonial — call (855) 650-7422. The crew is dispatched around the clock, and the documentation starts the moment they arrive.
+If you are dealing with an appliance leak in Newark right now — whether it's a dishwasher overflow in an Ironbound two-family or a water heater failure in a Forest Hill colonial — call (908) 970-8533. The crew is dispatched around the clock, and the documentation starts the moment they arrive.

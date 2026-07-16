@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Renovations, Remodels and General Contracting in Springfield, NJ | The Restoration Group"
 h1: "Renovations, Remodels and General Contracting in Springfield"
-meta_description: "24/7 renovations, remodels and general contracting in Springfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+meta_description: "24/7 renovations, remodels and general contracting in Springfield, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "renovations, remodels and general contracting springfield"
 secondary_keywords: ["general contractor", "home renovation services", "home remodeling", "kitchen remodel", "bathroom remodel", "post-damage rebuild"]
 search_intent: "local_commercial"
@@ -49,4 +49,4 @@ Kenilworth sits minutes from Springfield via Route 22 east — the same corridor
 
 Here's something that surprises homeowners who've only gotten quotes from contractors unfamiliar with this part of Union County: a significant number of finished basements in Springfield were completed without permits in the 1970s and 1980s. When a flood or a remodel brings that space back to studs, the rebuild has to meet current code — egress window sizing, smoke and CO detector placement, proper ceiling height documentation — even if the original finish never did. That means the renovation scope is often larger than the initial damage would suggest, and a contractor who doesn't flag it early will cost you time and money when the inspector shows up. We identify those gaps in the scope walk so the permit application reflects reality from day one.
 
-If your home in Springfield's 07081 zip code needs a kitchen remodel, a bathroom overhaul, a post-flood rebuild, or a full addition, call The Restoration Group at (855) 650-7422. We're licensed through the NJ Division of Consumer Affairs as a Home Improvement Contractor, and we handle the permitting, the trades, and the coordination — so you're managing one point of contact, not five subcontractors.
+If your home in Springfield's 07081 zip code needs a kitchen remodel, a bathroom overhaul, a post-flood rebuild, or a full addition, call The Restoration Group at (908) 970-8533. We're licensed through the NJ Division of Consumer Affairs as a Home Improvement Contractor, and we handle the permitting, the trades, and the coordination — so you're managing one point of contact, not five subcontractors.

@@ -2,7 +2,7 @@
 archetype: "services-hub"
 title: "Restoration Services in Kenilworth | The Restoration Group"
 h1: "Our Restoration Services"
-meta_description: "Full-service restoration in Kenilworth: water, fire, mold, storm, biohazard, and commercial restoration. 24/7 response. Call (855) 650-7422."
+meta_description: "Full-service restoration in Kenilworth: water, fire, mold, storm, biohazard, and commercial restoration. 24/7 response. Call (908) 970-8533."
 primary_keyword: "restoration services kenilworth"
 secondary_keywords: ["damage restoration services", "property restoration services", "disaster restoration"]
 search_intent: "local_commercial"
@@ -31,4 +31,4 @@ Some situations don't fit neatly into emergency or rebuild categories. Mold insp
 
 ## One call, start to finish
 
-The practical advantage of working with a single firm across mitigation and reconstruction is straightforward: nothing falls through the cracks between phases. Documentation gathered during emergency response feeds directly into the rebuild estimate. Insurance supplements get filed by the same team that performed the original scope. If you're dealing with damage right now — or trying to plan next steps after an adjuster visit — call (855) 650-7422. An IICRC Certified Firm (Firm #210213) is ready to help you figure out what comes next.
+The practical advantage of working with a single firm across mitigation and reconstruction is straightforward: nothing falls through the cracks between phases. Documentation gathered during emergency response feeds directly into the rebuild estimate. Insurance supplements get filed by the same team that performed the original scope. If you're dealing with damage right now — or trying to plan next steps after an adjuster visit — call (908) 970-8533. An IICRC Certified Firm (Firm #210213) is ready to help you figure out what comes next.
