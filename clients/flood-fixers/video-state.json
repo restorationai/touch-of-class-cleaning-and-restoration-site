@@ -1,6 +1,6 @@
 {
-  "last_kind": "geo",
-  "cycle_pos": 0,
+  "last_kind": "blog",
+  "cycle_pos": 1,
   "geo_cursor": 2,
   "history": [
     {
@@ -26,6 +26,14 @@
       "service": "water-damage-restoration",
       "city": "Chula Vista",
       "youtube_id": "emU39vYT-G4"
+    },
+    {
+      "ts": "2026-07-17T17:08:00.699150+00:00",
+      "kind": "blog",
+      "post": "burst-pipe-emergency-checklist",
+      "service": null,
+      "city": null,
+      "youtube_id": "9lNxYalcohI"
     }
   ]
 }
