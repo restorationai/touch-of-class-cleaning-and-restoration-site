@@ -876,25 +876,26 @@ def send_sms(to_phone, body):
 # lead gets a personalized "we found something" image in the nurture sequence)
 # ---------------------------------------------------------------------------
 
-def make_teaser_image(business_name, issues_count, grade=None):
-    """1200x630 branded teaser card (PIL, fonts vendored in assets/fonts).
-    Deliberately shows the issue COUNT but not the findings — the reveal is
-    the meeting. Returns PNG bytes."""
+GRADE_COLORS = {"A": (52, 211, 153), "B": (52, 211, 153),
+                "C": (251, 191, 36), "D": (248, 113, 113), "F": (248, 113, 113)}
+
+
+def make_teaser_image(business_name, issues_count, grade=None, verdict=None, money=None):
+    """1200x630 teaser card built from REAL audit output: the visibility grade,
+    the audit's own one-line verdict, and the revenue-left-on-the-table range.
+    Curiosity by omission — the findings themselves stay for the call."""
     from PIL import Image, ImageDraw, ImageFont
     W, H = 1200, 630
-    img = Image.new("RGB", (W, H), (15, 23, 42))          # slate-900
+    img = Image.new("RGB", (W, H), (15, 23, 42))
     d = ImageDraw.Draw(img)
-    # subtle vertical gradient wash
     for y in range(H):
         a = y / H
         d.line([(0, y), (W, y)], fill=(15 + int(10 * a), 23 + int(12 * a), 42 + int(28 * a)))
-    # brand bar
-    d.rectangle([0, 0, W, 8], fill=(124, 58, 237))         # rank-ai purple
+    d.rectangle([0, 0, W, 8], fill=(124, 58, 237))
     fb = str(ROOT / "assets" / "fonts" / "DejaVuSans-Bold.ttf")
     fr = str(ROOT / "assets" / "fonts" / "DejaVuSans.ttf")
 
     def fit(text, font_path, start, floor, max_w):
-        """Largest font size (start→floor) whose rendered width fits max_w."""
         size = start
         while size > floor:
             f = ImageFont.truetype(font_path, size)
@@ -903,25 +904,59 @@ def make_teaser_image(business_name, issues_count, grade=None):
             size -= 2
         return ImageFont.truetype(font_path, floor)
 
-    f_small = ImageFont.truetype(fr, 30)
-    f_label = ImageFont.truetype(fb, 34)
-    d.text((70, 60), "RESTORATION AI — ONLINE RANKING REPORT", font=f_label, fill=(167, 139, 250))
+    def wrap(text, font, max_w):
+        words, lines, cur = text.split(), [], ""
+        for w in words:
+            t = (cur + " " + w).strip()
+            if d.textlength(t, font=font) <= max_w:
+                cur = t
+            else:
+                if cur:
+                    lines.append(cur)
+                cur = w
+        if cur:
+            lines.append(cur)
+        return lines
+
+    f_label = ImageFont.truetype(fb, 30)
+    f_tiny = ImageFont.truetype(fb, 22)
+    f_body = ImageFont.truetype(fr, 30)
+    d.text((70, 52), "RESTORATION AI — ONLINE RANKING REPORT", font=f_label, fill=(167, 139, 250))
     name = (business_name or "Your Business").strip()
-    f_big = fit(name, fb, 64, 34, W - 140)
-    if d.textlength(name, font=f_big) > W - 140:  # still too long at floor
-        while name and d.textlength(name + "…", font=f_big) > W - 140:
+    f_name = fit(name, fb, 54, 30, W - 140)
+    if d.textlength(name, font=f_name) > W - 140:
+        while name and d.textlength(name + "…", font=f_name) > W - 140:
             name = name[:-1].rstrip()
         name += "…"
-    d.text((70, 150), name, font=f_big, fill=(255, 255, 255))
-    n = max(int(issues_count or 0), 1)
-    d.text((70, 285), "Our team completed your ranking report.", font=f_small, fill=(203, 213, 225))
-    # highlight box
-    d.rounded_rectangle([70, 355, W - 70, 480], radius=18, fill=(30, 27, 62), outline=(124, 58, 237), width=3)
-    headline = "We found {} issue{} costing you calls from Google.".format(n, "" if n == 1 else "s")
-    f_huge = fit(headline, fb, 46, 26, W - 200)
-    d.text((100, 395), headline, font=f_huge, fill=(252, 211, 77))
-    d.text((70, 525), "Full breakdown on our call — we'll walk you through every one.",
-           font=f_small, fill=(148, 163, 184))
+    d.text((70, 112), name, font=f_name, fill=(255, 255, 255))
+
+    # grade badge + real verdict, side by side
+    g = (grade or "C").upper()[:1]
+    gcol = GRADE_COLORS.get(g, (251, 191, 36))
+    d.rounded_rectangle([70, 210, 250, 390], radius=22, fill=(30, 27, 62), outline=gcol, width=4)
+    f_grade = ImageFont.truetype(fb, 120)
+    gw = d.textlength(g, font=f_grade)
+    d.text((70 + (180 - gw) / 2, 230), g, font=f_grade, fill=gcol)
+    d.text((84, 348), "VISIBILITY GRADE", font=f_tiny, fill=(148, 163, 184))
+    vtext = '"' + (verdict or "Your customers are searching. They are finding someone else.").strip().rstrip(".") + '."'
+    vy = 228
+    for line in wrap(vtext, f_body, W - 390)[:4]:
+        d.text((290, vy), line, font=f_body, fill=(226, 232, 240))
+        vy += 42
+
+    # revenue-left-on-the-table box (real numbers from the audit)
+    d.rounded_rectangle([70, 420, W - 70, 545], radius=18, fill=(30, 27, 62), outline=(124, 58, 237), width=3)
+    d.text((100, 442), "ESTIMATED REVENUE LEFT ON THE TABLE", font=f_tiny, fill=(148, 163, 184))
+    if money and money.get("low") is not None:
+        amt = "${:,} – ${:,} / month".format(int(money["low"]), int(money["high"]))
+    else:
+        n = max(int(issues_count or 0), 1)
+        amt = "{} issues costing you calls from Google".format(n)
+    f_amt = fit(amt, fb, 48, 28, W - 200)
+    d.text((100, 476), amt, font=f_amt, fill=(252, 211, 77))
+    close = "Where is it going instead? We'll open the full report together on your call."
+    f_close = fit(close, fr, 26, 18, W - 140)
+    d.text((70, 572), close, font=f_close, fill=(148, 163, 184))
     import io
     buf = io.BytesIO()
     img.save(buf, "PNG")
@@ -1201,7 +1236,8 @@ def run_audit(website, name, email, phone, audit_id=None, email_mode="all", prog
     if sales_mode:
         try:
             n_fixes = len(copy.get("game_plan") or []) or 5
-            png = make_teaser_image(prof["business_name"], n_fixes, copy.get("grade"))
+            png = make_teaser_image(prof["business_name"], n_fixes, copy.get("grade"),
+                                    verdict=copy.get("verdict"), money=money)
             teaser_key = "{}/{}/teaser.png".format(PREFIX, audit_id)
             r2_put(BUCKET, teaser_key, png, "image/png")
             teaser_url = "{}/{}".format(PUBLIC_BASE, teaser_key)
