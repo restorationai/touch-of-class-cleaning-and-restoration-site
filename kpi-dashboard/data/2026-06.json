@@ -1,0 +1,86 @@
+{
+  "month": "2026-06",
+  "generated_at": "2026-06-26T18:07:05.725767+00:00",
+  "backfilled": false,
+  "sources": {
+    "meta": {
+      "spend": 2503,
+      "leads": 19,
+      "clicks": 721,
+      "impressions": 24820,
+      "campaigns": [
+        {
+          "name": "NEW Testing Campaign",
+          "spend": 1299,
+          "clicks": 331,
+          "ctr": 2.64,
+          "leads": 9
+        },
+        {
+          "name": "Restoration AI - Prospecting",
+          "spend": 786,
+          "clicks": 203,
+          "ctr": 2.52,
+          "leads": 6
+        },
+        {
+          "name": "QUIZ FUNNEL",
+          "spend": 344,
+          "clicks": 163,
+          "ctr": 4.55,
+          "leads": 4
+        },
+        {
+          "name": "AI Receptionist",
+          "spend": 75,
+          "clicks": 24,
+          "ctr": 3.86,
+          "leads": 0
+        }
+      ]
+    },
+    "ghl": {
+      "pulled": 147,
+      "pipeline_total": 147,
+      "leads_this_month": 22,
+      "demos_booked_this_month": 10,
+      "signed_up_this_month": 0,
+      "pipeline_by_stage": {
+        "New Leads From Ads": 76,
+        "Follow-Up Meeting Booked": 5,
+        "Demo Meeting Booked": 26,
+        "Ready For Follow Up": 20,
+        "Waiting For Follow Up": 5,
+        "No-Show": 7,
+        "Client Signed Up": 7,
+        "Client Not Yet Secured": 1
+      }
+    },
+    "stripe": {
+      "mrr": 9780,
+      "active_subs": 21,
+      "new_subs_this_month": 2,
+      "revenue_this_month": 8865
+    },
+    "ga": {
+      "site": 459,
+      "funnel": 46
+    },
+    "supabase": {
+      "new_companies_this_month": "4",
+      "date_col": "created_at"
+    }
+  },
+  "scoreboard": {
+    "ad_spend": 2503,
+    "leads": 19,
+    "demos_booked": 10,
+    "clients_signed": 0,
+    "cost_per_lead": 131.74,
+    "cost_per_demo": 250.3,
+    "cost_per_client": null,
+    "lead_to_demo_pct": 52.63,
+    "demo_to_close_pct": 0.0,
+    "mrr": 9780
+  }
+}

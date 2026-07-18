@@ -31,3 +31,9 @@ ads-dashboard/*.html
 .secrets/
 clients/_ops/email-intake/
 clients/*/gbp-photos/
+
+# local tooling / heavy deps
+node_modules/
+.wrangler/
+landing-page/dist/
+kpi-dashboard/*.log

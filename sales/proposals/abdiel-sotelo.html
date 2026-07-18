@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Rank AI Proposal — Abdiel Sotelo</title>
+<style>
+  :root{
+    --ink:#0f172a; --muted:#475569; --line:#e2e8f0;
+    --brand1:#7c3aed; --brand2:#ec4899; --green:#10b981; --bg:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    color:var(--ink); background:#f1f5f9; line-height:1.5; -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .sheet{
+    max-width:8.5in; margin:24px auto; background:var(--bg); padding:48px 52px;
+    box-shadow:0 10px 40px rgba(15,23,42,.12); border-radius:10px;
+  }
+  .top{display:flex; justify-content:space-between; align-items:flex-start; border-bottom:2px solid var(--line); padding-bottom:18px; margin-bottom:24px;}
+  .brand{font-size:22px; font-weight:800; letter-spacing:-.02em;}
+  .brand span{background:linear-gradient(90deg,var(--brand1),var(--brand2)); -webkit-background-clip:text; background-clip:text; color:transparent;}
+  .brand small{display:block; font-weight:600; font-size:11px; color:var(--muted); letter-spacing:.12em; text-transform:uppercase; margin-top:4px;}
+  .meta{text-align:right; font-size:12px; color:var(--muted);}
+  .meta strong{color:var(--ink);}
+  h1{font-size:26px; line-height:1.2; letter-spacing:-.02em; margin:0 0 6px;}
+  .lede{color:var(--muted); font-size:14.5px; margin:0 0 26px;}
+  h2{font-size:13px; text-transform:uppercase; letter-spacing:.1em; color:var(--brand1); margin:26px 0 10px;}
+  p{margin:0 0 12px; font-size:14px; color:#1e293b;}
+  .prob{background:#fef2f2; border:1px solid #fecaca; border-radius:8px; padding:16px 18px;}
+  .prob p{margin:0; color:#7f1d1d; font-size:13.5px;}
+  ul.deliver{list-style:none; margin:0; padding:0;}
+  ul.deliver li{position:relative; padding:9px 0 9px 30px; border-bottom:1px solid var(--line); font-size:13.5px;}
+  ul.deliver li:last-child{border-bottom:none;}
+  ul.deliver li::before{
+    content:"✓"; position:absolute; left:0; top:9px; width:20px; height:20px; border-radius:50%;
+    background:linear-gradient(135deg,var(--brand1),var(--brand2)); color:#fff; font-size:12px; font-weight:700;
+    display:flex; align-items:center; justify-content:center;
+  }
+  ul.deliver li b{color:var(--ink);}
+  .opt-tag{display:inline-block; font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:.06em; color:var(--brand1); background:#f3e8ff; border:1px solid #e9d5ff; border-radius:20px; padding:1px 8px; margin-left:6px; vertical-align:middle;}
+  .price-box{
+    margin:26px 0 6px; background:linear-gradient(135deg,#faf5ff,#fdf2f8); border:1px solid #f0abfc;
+    border-radius:12px; padding:22px 24px; display:flex; justify-content:space-between; align-items:center;
+  }
+  .price-box .amt{font-size:34px; font-weight:800; letter-spacing:-.02em;}
+  .price-box .amt span{font-size:15px; font-weight:600; color:var(--muted);}
+  .price-box .note{font-size:12.5px; color:var(--muted); margin-top:2px;}
+  .price-box .cta{font-size:12px; color:var(--brand1); font-weight:700; text-align:right; max-width:190px;}
+  .timeline{display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin-top:6px;}
+  .step{background:#f8fafc; border:1px solid var(--line); border-radius:8px; padding:12px 14px;}
+  .step .wk{font-size:11px; font-weight:700; color:var(--brand2); text-transform:uppercase; letter-spacing:.06em;}
+  .step .t{font-size:13px; font-weight:600; margin-top:3px;}
+  .step .d{font-size:12px; color:var(--muted); margin-top:3px;}
+  .next{background:#0f172a; color:#fff; border-radius:10px; padding:20px 24px; margin-top:28px;}
+  .next h3{margin:0 0 6px; font-size:16px;}
+  .next p{color:#cbd5e1; margin:0; font-size:13.5px;}
+  .next a{color:#f0abfc; text-decoration:none; font-weight:600;}
+  .foot{margin-top:26px; padding-top:16px; border-top:1px solid var(--line); font-size:12px; color:var(--muted); display:flex; justify-content:space-between;}
+  @media print{
+    body{background:#fff;}
+    .sheet{box-shadow:none; margin:0; max-width:none; border-radius:0; padding:0.42in 0.55in;}
+    h2{margin:16px 0 8px;}
+    .lede{margin-bottom:18px;}
+    ul.deliver li{padding:7px 0 7px 30px;}
+    .price-box{margin:18px 0 6px; padding:18px 24px;}
+    .next{margin-top:20px; padding:16px 24px;}
+    @page{margin:0;}
+  }
+</style>
+</head>
+<body>
+<div class="sheet">
+
+  <div class="top">
+    <div class="brand">Rank <span>AI</span><small>Local + AI Search Growth</small></div>
+    <div class="meta">
+      <div><strong>Proposal for</strong></div>
+      <div>Abdiel Sotelo</div>
+      <div>Restoration — Miami, FL</div>
+      <div style="margin-top:6px;">July 2026</div>
+    </div>
+  </div>
+
+  <h1>Get found first in Miami —<br />in Google <em>and</em> in AI search.</h1>
+  <p class="lede">You've built a solid 10-year business almost entirely on referrals. The problem is that referrals leave your revenue tied to the weather — busy after a hurricane, quiet in between. This gives you a second, steady lead source: when a Miami homeowner has water or fire damage and asks Google or ChatGPT "who's the best near me?", your company becomes the answer, every month, storm or no storm.</p>
+
+  <h2>The Problem</h2>
+  <div class="prob">
+    <p>After 10 years, your company is nearly invisible online. Your website is built on a poor architecture that search engines can't read, and you have just <b>13 Google reviews</b> — far too few social proof for a business your age, so you don't show up when new customers search. That's why 100% of your work still comes from referrals and your revenue swings with hurricane season. Meanwhile competitors with stronger profiles get found first, and you never even see those leads.</p>
+  </div>
+
+  <h2>What We Deliver — The Rank AI Growth Engine</h2>
+  <ul class="deliver">
+    <li><b>Review reactivation campaign</b> — we turn your list of ~182 past clients into a wave of new Google reviews, quickly building the social proof a 10-year company should already have.</li>
+    <li><b>Automated review engine</b> — every new customer is automatically asked for a review going forward; 5-star ratings go straight to Google while anything lower is caught privately first, so your rating keeps climbing and stays protected.</li>
+    <li><b>Brand-new, conversion-built website</b> — a modern 250-page site with the correct architecture, covering every service across your Miami service area. Included at no extra cost.</li>
+    <li><b>AI Search Optimization</b> — schema and structure engineered to get your company read and cited by name in ChatGPT, Gemini, and Google for local restoration searches.</li>
+    <li><b>Complete Google Business Profile management</b> — full optimization and consistent posting to own the Google Maps 3-pack where nearby customers search.</li>
+    <li><b>Ongoing content engine</b> — 2 blogs/week plus YouTube videos that build the topical authority Google and AI reward.</li>
+    <li><b>24/7 AI receptionist &amp; call tracking</b> — every new-lead call answered and captured, so referral season and storm surges never slip through.</li>
+    <li><b>Google LSA management</b><span class="opt-tag">Optional</span> — when you want leads immediately, we run your Local Service Ads directly at true cost — real jobs, not resold leads.</li>
+  </ul>
+
+  <div class="price-box">
+    <div>
+      <div class="amt">$997<span> / month</span></div>
+      <div class="note">No long-term contracts. No hidden fees. Cancel anytime.</div>
+    </div>
+    <div class="cta">Everything above, bundled into one flat monthly.</div>
+  </div>
+
+  <h2>Timeline</h2>
+  <div class="timeline">
+    <div class="step"><div class="wk">Weeks 1–2</div><div class="t">Build &amp; Launch</div><div class="d">New site live, GBP optimized, review campaign firing to your 182 past clients, tracking + dashboard wired up.</div></div>
+    <div class="step"><div class="wk">Weeks 3–6</div><div class="t">Authority Engine</div><div class="d">Reviews climb, content &amp; schema published — Google and AI engines start indexing and trusting you.</div></div>
+    <div class="step"><div class="wk">Month 2+</div><div class="t">Rankings Climb</div><div class="d">Map grid turns green; AI starts naming your company. Steady leads that don't depend on the weather.</div></div>
+  </div>
+
+  <div class="next">
+    <h3>Ready to start?</h3>
+    <p>Reply with a "yes" and I'll send the onboarding link and agreement — we can start building within 48 hours. Or let's cover any questions with you and your partner on our follow-up Wednesday. See a live AI-ranking report anytime at <a href="https://rank.restorationai.io">rank.restorationai.io</a>.</p>
+  </div>
+
+  <div class="foot">
+    <div>Rank AI — restorationai.io</div>
+    <div>contact@restorationai.io</div>
+  </div>
+
+</div>
+</body>
+</html>

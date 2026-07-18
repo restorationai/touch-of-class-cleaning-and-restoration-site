@@ -1,0 +1,72 @@
+{
+  "month": "2026-05",
+  "generated_at": "2026-06-21T23:50:58.885920+00:00",
+  "backfilled": true,
+  "sources": {
+    "meta": {
+      "spend": 1406,
+      "leads": 15,
+      "clicks": 396,
+      "impressions": 17081,
+      "campaigns": [
+        {
+          "name": "Restoration AI - Prospecting",
+          "spend": 1251,
+          "clicks": 338,
+          "ctr": 2.18,
+          "leads": 11
+        },
+        {
+          "name": "NEW Testing Campaign",
+          "spend": 155,
+          "clicks": 58,
+          "ctr": 3.7,
+          "leads": 4
+        }
+      ]
+    },
+    "ghl": {
+      "pulled": 146,
+      "pipeline_total": 146,
+      "leads_this_month": 8,
+      "demos_booked_this_month": 8,
+      "signed_up_this_month": 1,
+      "pipeline_by_stage": {
+        "New Leads From Ads": 77,
+        "Demo Meeting Booked": 26,
+        "Ready For Follow Up": 20,
+        "Waiting For Follow Up": 5,
+        "No-Show": 7,
+        "Client Signed Up": 7,
+        "Client Not Yet Secured": 1,
+        "Follow-Up Meeting Booked": 3
+      }
+    },
+    "stripe": {
+      "mrr": 9483,
+      "active_subs": 20,
+      "new_subs_this_month": 4,
+      "revenue_this_month": 10947
+    },
+    "ga": {
+      "site": 0,
+      "funnel": 0
+    },
+    "supabase": {
+      "new_companies_this_month": "16",
+      "date_col": "created_at"
+    }
+  },
+  "scoreboard": {
+    "ad_spend": 1406,
+    "leads": 15,
+    "demos_booked": 8,
+    "clients_signed": 1,
+    "cost_per_lead": 93.73,
+    "cost_per_demo": 175.75,
+    "cost_per_client": 1406.0,
+    "lead_to_demo_pct": 53.33,
+    "demo_to_close_pct": 12.5,
+    "mrr": 9483
+  }
+}
