@@ -931,68 +931,75 @@ def make_teaser_image(business_name, issues_count, grade=None, verdict=None, mon
     LX = 88 * S
     RX = W - 88 * S
     CW = RX - LX
-    # header
-    f_brand = ImageFont.truetype(FB, 30 * S)
-    f_report = ImageFont.truetype(FS, 30 * S)
-    d.text((LX, 90 * S), "RESTORATION AI", font=f_brand, fill=PURPLE)
-    d.text((LX, 134 * S), "ONLINE VISIBILITY REPORT", font=f_report, fill=MUTED)
-    # business name (up to 2 lines)
+    # header: small brand, BIG report title (this is what the image "is")
+    f_brand = ImageFont.truetype(FB, 26 * S)
+    d.text((LX, 88 * S), "RESTORATION AI", font=f_brand, fill=PURPLE)
+    f_title = fit("ONLINE VISIBILITY REPORT", FB, 46, 34, CW)
+    d.text((LX, 128 * S), "ONLINE VISIBILITY REPORT", font=f_title, fill=INK)
+    # business name
     name = (business_name or "Your Business").strip()
-    f_name = fit(name, FB, 56, 34, CW)
-    d.text((LX, 196 * S), name, font=f_name, fill=INK)
-    d.line([LX, 292 * S, RX, 292 * S], fill=(226, 232, 240), width=S)
+    f_name = fit(name, FS, 36, 26, CW)
+    d.text((LX, 206 * S), name, font=f_name, fill=MUTED)
+    d.line([LX, 270 * S, RX, 270 * S], fill=(226, 232, 240), width=S)
 
-    # grade badge centered
+    # grade badge LEFT, verdict RIGHT
     g = (grade or "C").upper()[:1]
     gcol = GRADE_COLORS.get(g, (217, 119, 6))
-    bs = 210 * S
-    bx0 = (W - bs) // 2
-    by0 = 340 * S
+    bs = 190 * S
+    bx0, by0 = LX, 320 * S
     tint = (250, 245, 255) if g in "AB" else (255, 251, 235) if g == "C" else (254, 242, 242)
-    d.rounded_rectangle([bx0, by0, bx0 + bs, by0 + bs], radius=30 * S,
+    d.rounded_rectangle([bx0, by0, bx0 + bs, by0 + bs], radius=28 * S,
                         fill=tint, outline=gcol, width=4 * S)
-    f_grade = ImageFont.truetype(FB, 132 * S)
+    f_grade = ImageFont.truetype(FB, 118 * S)
     gw = d.textlength(g, font=f_grade)
     d.text((bx0 + (bs - gw) / 2, by0 + 14 * S), g, font=f_grade, fill=gcol)
-    f_lab = ImageFont.truetype(FS, 22 * S)
+    f_lab = ImageFont.truetype(FS, 20 * S)
     lab = "VISIBILITY GRADE"
     lw = d.textlength(lab, font=f_lab)
-    d.text(((W - lw) / 2, by0 + bs + 18 * S), lab, font=f_lab, fill=MUTED)
+    d.text((bx0 + (bs - lw) / 2, by0 + bs + 16 * S), lab, font=f_lab, fill=MUTED)
 
-    # verdict (no quotation marks), centered block
+    # verdict to the right of the badge (no quotation marks)
     vtext = (verdict or "Your customers are searching. They are finding someone else.").strip()
-    f_v = ImageFont.truetype(FM, 34 * S)
-    vy = 660 * S
-    for line in wrap(vtext, f_v, CW)[:4]:
-        lw2 = d.textlength(line, font=f_v)
-        d.text(((W - lw2) / 2, vy), line, font=f_v, fill=(51, 65, 85))
-        vy += 50 * S
+    vx = bx0 + bs + 40 * S
+    f_v = ImageFont.truetype(FM, 33 * S)
+    vlines = wrap(vtext, f_v, RX - vx)[:5]
+    block_h = len(vlines) * 48 * S
+    vy = by0 + max((bs - block_h) // 2, 0)
+    for line in vlines:
+        d.text((vx, vy), line, font=f_v, fill=(51, 65, 85))
+        vy += 48 * S
 
     # revenue block — headline LARGE per Santino
-    ry0 = 900 * S
-    d.rounded_rectangle([LX, ry0, RX, ry0 + 240 * S], radius=20 * S,
+    ry0 = 640 * S
+    d.rounded_rectangle([LX, ry0, RX, ry0 + 270 * S], radius=20 * S,
                         fill=(245, 243, 255), outline=(221, 214, 254), width=S)
     klab = "ESTIMATED REVENUE"
     klab2 = "LEFT ON THE TABLE"
     f_klab = fit(klab, FB, 34, 22, CW - 56 * S)
     kw = d.textlength(klab, font=f_klab)
-    d.text(((W - kw) / 2, ry0 + 26 * S), klab, font=f_klab, fill=(109, 40, 217))
+    d.text(((W - kw) / 2, ry0 + 34 * S), klab, font=f_klab, fill=(109, 40, 217))
     kw2 = d.textlength(klab2, font=f_klab)
-    d.text(((W - kw2) / 2, ry0 + 74 * S), klab2, font=f_klab, fill=(109, 40, 217))
+    d.text(((W - kw2) / 2, ry0 + 86 * S), klab2, font=f_klab, fill=(109, 40, 217))
     if money and money.get("low") is not None:
         amt = "${:,} – ${:,} / mo".format(int(money["low"]), int(money["high"]))
     else:
         n = max(int(issues_count or 0), 1)
         amt = "{} issues costing you calls".format(n)
-    f_amt = fit(amt, FB, 52, 30, CW - 56 * S)
+    f_amt = fit(amt, FB, 58, 32, CW - 56 * S)
     aw = d.textlength(amt, font=f_amt)
-    d.text(((W - aw) / 2, ry0 + 138 * S), amt, font=f_amt, fill=INK)
+    d.text(((W - aw) / 2, ry0 + 152 * S), amt, font=f_amt, fill=INK)
 
     # closing line
     close = "Where is it going instead? We'll open the full report on your call."
     f_close = fit(close, FR, 25, 17, CW)
     cw2 = d.textlength(close, font=f_close)
-    d.text(((W - cw2) / 2, 1220 * S), close, font=f_close, fill=MUTED)
+    d.text(((W - cw2) / 2, 990 * S), close, font=f_close, fill=MUTED)
+    # footer
+    foot = "Prepared by Restoration AI  •  restorationai.io"
+    f_foot = ImageFont.truetype(FS, 20 * S)
+    fw = d.textlength(foot, font=f_foot)
+    d.line([LX, 1170 * S, RX, 1170 * S], fill=(226, 232, 240), width=S)
+    d.text(((W - fw) / 2, 1206 * S), foot, font=f_foot, fill=(148, 163, 184))
 
     img = img.resize((1080, 1350), Image.LANCZOS)
     import io
