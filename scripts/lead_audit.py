@@ -878,28 +878,46 @@ def send_sms(to_phone, body):
 
 GRADE_COLORS = {"A": (16, 163, 127), "B": (16, 163, 127),
                 "C": (217, 119, 6), "D": (220, 38, 38), "F": (220, 38, 38)}
-PURPLE = (124, 58, 237)
+BLUE = (37, 99, 235)        # brand blue-600 (matches restorationai.io)
+BLUE_LT = (59, 130, 246)    # blue-500 (gradient start)
+BLUE_DK = (29, 78, 216)     # blue-700 (gradient end)
 INK = (15, 23, 42)
 MUTED = (100, 116, 139)
 
+TEASER_PLAN_FALLBACK = [
+    {"title": "Claim and build a Google Business Profile", "body": ""},
+    {"title": "Launch a fast, city-targeted website", "body": ""},
+    {"title": "Win the map pack with reviews", "body": ""},
+    {"title": "Get cited by AI assistants", "body": ""},
+    {"title": "Track calls and double down on what works", "body": ""},
+]
 
-def make_teaser_image(business_name, issues_count, grade=None, verdict=None, money=None):
-    """Premium light 'report snippet' teaser — PORTRAIT 1080x1350 (4:5) so it
-    fills the screen when it lands in a text thread. Poppins, rendered 2x then
-    downsampled. Real audit output only: grade, the audit's verdict line, and
-    the revenue-left-on-the-table range. Findings stay for the call."""
+
+def make_teaser_image(business_name, issues_count, grade=None, verdict=None, money=None,
+                      ai_cited=None, ai_total=None, ai_headline=None, plan=None):
+    """Premium 'crop of the real report' teaser — PORTRAIT 1080x1350 (4:5),
+    Poppins, rendered 2x then downsampled. Mirrors the report's visual system
+    (section kickers, dark AI-search chip, gradient money box) in brand blue.
+    The 5-step game plan is the last section and is clipped mid-letter by the
+    card edge, so the image reads as a snippet of a longer report. All content
+    is real audit output; findings stay for the call."""
     from PIL import Image, ImageDraw, ImageFont
     S = 2
     W, H = 1080 * S, 1350 * S
     img = Image.new("RGB", (W, H), (241, 245, 249))
     d = ImageDraw.Draw(img)
-    card = [36 * S, 36 * S, W - 36 * S, H - 36 * S]
-    d.rounded_rectangle([card[0] + 4 * S, card[1] + 7 * S, card[2] + 4 * S, card[3] + 7 * S],
+
+    # card geometry — content is drawn on its own layer and pasted through a
+    # rounded mask, so anything past the card bottom is cleanly clipped
+    CX0, CY0 = 36 * S, 36 * S
+    CX1, CY1 = W - 36 * S, H - 94 * S
+    CARD_W, CARD_H = CX1 - CX0, CY1 - CY0
+    d.rounded_rectangle([CX0 + 4 * S, CY0 + 7 * S, CX1 + 4 * S, CY1 + 7 * S],
                         radius=26 * S, fill=(203, 213, 225))
-    d.rounded_rectangle(card, radius=26 * S, fill=(255, 255, 255),
-                        outline=(226, 232, 240), width=S)
-    d.rounded_rectangle([card[0], card[1], card[2], card[1] + 12 * S],
-                        radius=6 * S, fill=PURPLE)
+    card = Image.new("RGB", (CARD_W, CARD_H), (255, 255, 255))
+    dc = ImageDraw.Draw(card)
+    dc.rectangle([0, 0, CARD_W, 12 * S], fill=BLUE)   # top accent bar
+
     FB = str(ROOT / "assets" / "fonts" / "Poppins-Bold.ttf")
     FS = str(ROOT / "assets" / "fonts" / "Poppins-SemiBold.ttf")
     FM = str(ROOT / "assets" / "fonts" / "Poppins-Medium.ttf")
@@ -909,7 +927,7 @@ def make_teaser_image(business_name, issues_count, grade=None, verdict=None, mon
         size = start
         while size > floor:
             f = ImageFont.truetype(font_path, size * S)
-            if d.textlength(text, font=f) <= max_w:
+            if dc.textlength(text, font=f) <= max_w:
                 return f
             size -= 2
         return ImageFont.truetype(font_path, floor * S)
@@ -918,7 +936,7 @@ def make_teaser_image(business_name, issues_count, grade=None, verdict=None, mon
         words, lines, cur = text.split(), [], ""
         for w in words:
             t = (cur + " " + w).strip()
-            if d.textlength(t, font=font) <= max_w:
+            if dc.textlength(t, font=font) <= max_w:
                 cur = t
             else:
                 if cur:
@@ -928,78 +946,159 @@ def make_teaser_image(business_name, issues_count, grade=None, verdict=None, mon
             lines.append(cur)
         return lines
 
-    LX = 88 * S
-    RX = W - 88 * S
-    CW = RX - LX
-    # header: small brand, BIG report title (this is what the image "is")
-    f_brand = ImageFont.truetype(FB, 26 * S)
-    d.text((LX, 88 * S), "RESTORATION AI", font=f_brand, fill=PURPLE)
-    f_title = fit("ONLINE VISIBILITY REPORT", FB, 46, 34, CW)
-    d.text((LX, 128 * S), "ONLINE VISIBILITY REPORT", font=f_title, fill=INK)
-    # business name
-    name = (business_name or "Your Business").strip()
-    f_name = fit(name, FS, 36, 26, CW)
-    d.text((LX, 206 * S), name, font=f_name, fill=MUTED)
-    d.line([LX, 270 * S, RX, 270 * S], fill=(226, 232, 240), width=S)
+    def kicker(y, text):
+        # small letter-spaced blue caps, like the report's section labels
+        f = ImageFont.truetype(FB, 21 * S)
+        x = LX
+        for ch in text:
+            dc.text((x, y), ch, font=f, fill=BLUE)
+            x += dc.textlength(ch, font=f) + 3 * S
+        return y + 34 * S
 
-    # grade badge LEFT, verdict RIGHT
+    LX = 52 * S                 # card-local (== 88px from image edge)
+    RX = CARD_W - 52 * S
+    CW = RX - LX
+
+    # ---- header ----
+    f_brand = ImageFont.truetype(FB, 25 * S)
+    dc.text((LX, 50 * S), "RESTORATION AI", font=f_brand, fill=BLUE)
+    f_title = fit("ONLINE VISIBILITY REPORT", FB, 46, 34, CW)
+    dc.text((LX, 88 * S), "ONLINE VISIBILITY REPORT", font=f_title, fill=INK)
+    name = (business_name or "Your Business").strip()
+    f_name = fit(name, FS, 33, 24, CW)
+    dc.text((LX, 158 * S), name, font=f_name, fill=MUTED)
+    dc.line([LX, 218 * S, RX, 218 * S], fill=(226, 232, 240), width=S)
+
+    # ---- grade badge LEFT, verdict RIGHT ----
     g = (grade or "C").upper()[:1]
     gcol = GRADE_COLORS.get(g, (217, 119, 6))
-    bs = 190 * S
-    bx0, by0 = LX, 320 * S
-    tint = (250, 245, 255) if g in "AB" else (255, 251, 235) if g == "C" else (254, 242, 242)
-    d.rounded_rectangle([bx0, by0, bx0 + bs, by0 + bs], radius=28 * S,
-                        fill=tint, outline=gcol, width=4 * S)
-    f_grade = ImageFont.truetype(FB, 118 * S)
-    gw = d.textlength(g, font=f_grade)
-    d.text((bx0 + (bs - gw) / 2, by0 + 14 * S), g, font=f_grade, fill=gcol)
-    f_lab = ImageFont.truetype(FS, 20 * S)
+    bs = 165 * S
+    bx0, by0 = LX, 248 * S
+    tint = (240, 253, 244) if g in "AB" else (255, 251, 235) if g == "C" else (254, 242, 242)
+    dc.rounded_rectangle([bx0, by0, bx0 + bs, by0 + bs], radius=26 * S,
+                         fill=tint, outline=gcol, width=4 * S)
+    f_grade = ImageFont.truetype(FB, 102 * S)
+    gw = dc.textlength(g, font=f_grade)
+    dc.text((bx0 + (bs - gw) / 2, by0 + 12 * S), g, font=f_grade, fill=gcol)
+    f_lab = ImageFont.truetype(FS, 19 * S)
     lab = "VISIBILITY GRADE"
-    lw = d.textlength(lab, font=f_lab)
-    d.text((bx0 + (bs - lw) / 2, by0 + bs + 16 * S), lab, font=f_lab, fill=MUTED)
+    lw = dc.textlength(lab, font=f_lab)
+    dc.text((bx0 + (bs - lw) / 2, by0 + bs + 14 * S), lab, font=f_lab, fill=MUTED)
 
-    # verdict to the right of the badge (no quotation marks)
     vtext = (verdict or "Your customers are searching. They are finding someone else.").strip()
-    vx = bx0 + bs + 40 * S
-    f_v = ImageFont.truetype(FM, 33 * S)
-    vlines = wrap(vtext, f_v, RX - vx)[:5]
-    block_h = len(vlines) * 48 * S
+    vx = bx0 + bs + 38 * S
+    f_v = ImageFont.truetype(FM, 30 * S)
+    vlines = wrap(vtext, f_v, RX - vx)[:4]
+    block_h = len(vlines) * 44 * S
     vy = by0 + max((bs - block_h) // 2, 0)
     for line in vlines:
-        d.text((vx, vy), line, font=f_v, fill=(51, 65, 85))
-        vy += 48 * S
+        dc.text((vx, vy), line, font=f_v, fill=(51, 65, 85))
+        vy += 44 * S
 
-    # revenue block — headline LARGE per Santino
-    ry0 = 640 * S
-    d.rounded_rectangle([LX, ry0, RX, ry0 + 270 * S], radius=20 * S,
-                        fill=(245, 243, 255), outline=(221, 214, 254), width=S)
-    klab = "ESTIMATED REVENUE"
-    klab2 = "LEFT ON THE TABLE"
-    f_klab = fit(klab, FB, 34, 22, CW - 56 * S)
-    kw = d.textlength(klab, font=f_klab)
-    d.text(((W - kw) / 2, ry0 + 34 * S), klab, font=f_klab, fill=(109, 40, 217))
-    kw2 = d.textlength(klab2, font=f_klab)
-    d.text(((W - kw2) / 2, ry0 + 86 * S), klab2, font=f_klab, fill=(109, 40, 217))
+    y = by0 + bs + 52 * S
+
+    # ---- AI search chip (dark, like the report's ChatGPT quote box) ----
+    if ai_total:
+        head = (ai_headline or "AI assistants are recommending someone else").strip()
+        f_ch = ImageFont.truetype(FS, 27 * S)
+        hlines = wrap(head, f_ch, CW - 60 * S)[:2]
+        sub = "Your business was cited in {} of {} live AI answers we checked.".format(
+            int(ai_cited or 0), int(ai_total))
+        f_cs = fit(sub, FR, 21, 16, CW - 60 * S)
+        chip_h = 30 * S + len(hlines) * 38 * S + 8 * S + 30 * S + 28 * S
+        dc.rounded_rectangle([LX, y, RX, y + chip_h], radius=18 * S, fill=(15, 23, 42))
+        ty = y + 26 * S
+        for line in hlines:
+            dc.text((LX + 30 * S, ty), line, font=f_ch, fill=(255, 255, 255))
+            ty += 38 * S
+        dc.text((LX + 30 * S, ty + 8 * S), sub, font=f_cs, fill=(148, 163, 184))
+        y += chip_h + 40 * S
+
+    # ---- revenue: kicker + headline ABOVE the gradient box ----
+    y = kicker(y, "WHAT IT'S WORTH")
+    f_mh = fit("Estimated revenue left on the table", FB, 34, 26, CW)
+    dc.text((LX, y), "Estimated revenue left on the table", font=f_mh, fill=INK)
+    y += 52 * S
+
+    box_h = 168 * S
+    grad = Image.new("RGB", (64, 64))
+    for gy in range(64):
+        for gx in range(64):
+            t = (gx + gy) / 126.0
+            grad.putpixel((gx, gy), tuple(int(a + (b - a) * t) for a, b in zip(BLUE_LT, BLUE_DK)))
+    grad = grad.resize((CW, box_h), Image.BILINEAR)
+    gmask = Image.new("L", (CW, box_h), 0)
+    ImageDraw.Draw(gmask).rounded_rectangle([0, 0, CW, box_h], radius=20 * S, fill=255)
+    card.paste(grad, (LX, y), gmask)
     if money and money.get("low") is not None:
-        amt = "${:,} – ${:,} / mo".format(int(money["low"]), int(money["high"]))
+        amt = "${:,} – ${:,}".format(int(money["low"]), int(money["high"]))
+        amt_sub = "per month, estimated range"
     else:
-        n = max(int(issues_count or 0), 1)
-        amt = "{} issues costing you calls".format(n)
-    f_amt = fit(amt, FB, 58, 32, CW - 56 * S)
-    aw = d.textlength(amt, font=f_amt)
-    d.text(((W - aw) / 2, ry0 + 152 * S), amt, font=f_amt, fill=INK)
+        amt = "{} fixable gaps found".format(max(int(issues_count or 0), 1))
+        amt_sub = "each one is costing you calls"
+    f_amt = fit(amt, FB, 62, 36, CW - 56 * S)
+    aw = dc.textlength(amt, font=f_amt)
+    dc.text(((CARD_W - aw) / 2, y + 30 * S), amt, font=f_amt, fill=(255, 255, 255))
+    f_asub = ImageFont.truetype(FM, 21 * S)
+    asw = dc.textlength(amt_sub, font=f_asub)
+    dc.text(((CARD_W - asw) / 2, y + 112 * S), amt_sub, font=f_asub, fill=(219, 234, 254))
+    y += box_h + 44 * S
 
-    # closing line
-    close = "Where is it going instead? We'll open the full report on your call."
-    f_close = fit(close, FR, 25, 17, CW)
-    cw2 = d.textlength(close, font=f_close)
-    d.text(((W - cw2) / 2, 990 * S), close, font=f_close, fill=MUTED)
-    # footer
+    # ---- game plan: last section, clipped mid-letter by the card edge ----
+    y = kicker(y, "THE PLAN")
+    f_ph = fit("The 5-step game plan to fix this", FB, 34, 26, CW)
+    dc.text((LX, y), "The 5-step game plan to fix this", font=f_ph, fill=INK)
+    y += 68 * S
+
+    steps = [s for s in (plan or []) if isinstance(s, dict) and s.get("title")] or TEASER_PLAN_FALLBACK
+    f_st = ImageFont.truetype(FS, 27 * S)
+    f_sb = ImageFont.truetype(FR, 23 * S)
+    stream = []  # (y, kind, payload) — laid out first so the cut can be tuned
+    sy = y
+    for i, step in enumerate(steps[:5]):
+        stream.append((sy, "row", (str(i + 1), step["title"])))
+        sy += 54 * S
+        for bl in wrap((step.get("body") or "").strip(), f_sb, CW - 64 * S)[:4]:
+            stream.append((sy, "line", bl))
+            sy += 42 * S
+        sy += 14 * S
+        if sy > CARD_H + 60 * S:
+            break
+    # nudge so the card edge cuts through letter bodies, not between lines —
+    # shift the stream DOWN until the last fully-visible line straddles the edge
+    cut = CARD_H
+    letter = lambda ty: ty + 8 * S <= cut <= ty + 30 * S
+    crosses = any(ty + 30 * S >= cut for ty, _, _ in stream)
+    if crosses and not any(letter(ty) for ty, _, _ in stream):
+        above = [ty for ty, _, _ in stream if ty + 30 * S < cut]
+        if above:
+            stream = [(ty + (cut - max(above) - 18 * S), k, p) for ty, k, p in stream]
+    for ty, kind, payload in stream:
+        if ty > CARD_H + 40 * S:
+            break
+        if kind == "row":
+            num, title = payload
+            r = 21 * S
+            ccy = ty + 17 * S
+            dc.ellipse([LX, ccy - r, LX + 2 * r, ccy + r], fill=BLUE)
+            f_n = ImageFont.truetype(FB, 22 * S)
+            nw = dc.textlength(num, font=f_n)
+            dc.text((LX + r - nw / 2, ccy - 15 * S), num, font=f_n, fill=(255, 255, 255))
+            f_t = fit(title, FS, 27, 21, CW - 64 * S)
+            dc.text((LX + 64 * S, ty + 2 * S), title, font=f_t, fill=INK)
+        else:
+            dc.text((LX + 64 * S, ty), payload, font=f_sb, fill=(71, 85, 105))
+
+    # paste card through rounded mask (clips overflow), then footer on the bg
+    mask = Image.new("L", (CARD_W, CARD_H), 0)
+    ImageDraw.Draw(mask).rounded_rectangle([0, 0, CARD_W, CARD_H], radius=26 * S, fill=255)
+    img.paste(card, (CX0, CY0), mask)
+    d.rounded_rectangle([CX0, CY0, CX1, CY1], radius=26 * S, outline=(226, 232, 240), width=S)
+
     foot = "Prepared by Restoration AI  •  restorationai.io"
     f_foot = ImageFont.truetype(FS, 20 * S)
     fw = d.textlength(foot, font=f_foot)
-    d.line([LX, 1170 * S, RX, 1170 * S], fill=(226, 232, 240), width=S)
-    d.text(((W - fw) / 2, 1206 * S), foot, font=f_foot, fill=(148, 163, 184))
+    d.text(((W - fw) / 2, H - 66 * S), foot, font=f_foot, fill=(120, 134, 156))
 
     img = img.resize((1080, 1350), Image.LANCZOS)
     import io
@@ -1246,6 +1345,7 @@ def run_audit(website, name, email, phone, audit_id=None, email_mode="all", prog
 
     # 6. volumes + revenue math
     money = None
+    vols = {}
     try:
         vols, c = run_volumes(auth, [r["keyword"] for r in rankings])
         costs["dataforseo"] += c
@@ -1258,7 +1358,8 @@ def run_audit(website, name, email, phone, audit_id=None, email_mode="all", prog
     data = {"business": {k: prof.get(k) for k in
                          ("business_name", "phone", "vertical", "services", "cities")},
             "domain": domain, "gbp": gbp, "rankings": rankings, "geogrid": geogrid,
-            "ai_search": ai_results, "map_pack": mappack, "revenue_estimate": money}
+            "ai_search": ai_results, "map_pack": mappack, "revenue_estimate": money,
+            "search_volumes": vols}
     copy, u = generate_report_copy(client, data)
     usages.append(u)
     html_out = build_html(audit_id, prof, domain, copy, rankings, geogrid, ai_results, mappack, money)
@@ -1282,7 +1383,11 @@ def run_audit(website, name, email, phone, audit_id=None, email_mode="all", prog
         try:
             n_fixes = len(copy.get("game_plan") or []) or 5
             png = make_teaser_image(prof["business_name"], n_fixes, copy.get("grade"),
-                                    verdict=copy.get("verdict"), money=money)
+                                    verdict=copy.get("verdict"), money=money,
+                                    ai_cited=sum(1 for r in ai_results if r.get("cited")),
+                                    ai_total=sum(1 for r in ai_results if r.get("cited") is not None),
+                                    ai_headline=copy.get("ai_headline"),
+                                    plan=copy.get("game_plan"))
             teaser_key = "{}/{}/teaser.png".format(PREFIX, audit_id)
             r2_put(BUCKET, teaser_key, png, "image/png")
             teaser_url = "{}/{}".format(PUBLIC_BASE, teaser_key)
