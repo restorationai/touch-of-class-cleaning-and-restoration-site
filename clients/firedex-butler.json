@@ -26,7 +26,8 @@
     "google_cid": "14805396469301132499",
     "rating": 3.8,
     "review_count": 11,
-    "note": "3.8/11 \u2014 NEVER quote rating in site copy; review reactivation planned before any rating surfaces"
+    "note": "3.8/11 \u2014 NEVER quote rating in site copy; review reactivation planned before any rating surfaces",
+    "google_review_url": "https://search.google.com/local/writereview?placeid=ChIJ4zqdqGF9NIgR0zyEf6VVd80"
   },
   "onboarding_notes": {
     "dns_warning": "firedex.net runs a LIVE 2020-frozen WordPress site. DO NOT touch DNS, zone, or registrar. Preview build only (firedex-butler-preview.pages.dev) until Robert approves cutover.",

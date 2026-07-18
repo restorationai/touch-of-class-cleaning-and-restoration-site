@@ -42,15 +42,42 @@ def client_name(slug: str) -> str:
     return slug
 
 
+def review_url(slug: str):
+    p = ROOT / "clients" / f"{slug}.json"
+    if p.exists():
+        return (json.loads(p.read_text()).get("gbp") or {}).get("google_review_url")
+    return None
+
+
+def hub_token(slug: str) -> str:
+    """Deterministic per-client secret for /hub/{slug}/{token} — derived from
+    CONNECT_LINK_SIGNING_SECRET so the URL is stable and printable anywhere
+    without extra storage. Worker just compares against the KV value."""
+    import hashlib
+    import hmac as hmac_mod
+    secret = os.environ.get("CONNECT_LINK_SIGNING_SECRET", "")
+    if not secret:
+        sys.exit("CONNECT_LINK_SIGNING_SECRET required for hub tokens")
+    return hmac_mod.new(secret.encode(), f"hub:{slug}".encode(),
+                        hashlib.sha256).hexdigest()[:10]
+
+
 def main() -> int:
     if not (TOKEN and ACCT):
         sys.exit("CLOUDFLARE_R2_API_TOKEN + CLOUDFLARE_ACCOUNT_ID required")
     ns = kv_namespace_id()
     m = json.loads((ROOT / "clients" / "company_map.json").read_text())
-    bulk = [{"key": slug, "value": json.dumps({"cid": cid, "name": client_name(slug)})}
-            for slug, cid in m.items()]
+    bulk = []
+    for slug, cid in m.items():
+        v = {"cid": cid, "name": client_name(slug), "hub": hub_token(slug)}
+        ru = review_url(slug)
+        if ru:
+            v["review_url"] = ru
+        bulk.append({"key": slug, "value": json.dumps(v)})
     d = cf("PUT", f"/accounts/{ACCT}/storage/kv/namespaces/{ns}/bulk", bulk)
-    print(f"synced {len(bulk)} upload links to KV: {[b['key'] for b in bulk]} | success: {d.get('success')}")
+    print(f"synced {len(bulk)} upload links to KV | success: {d.get('success')}")
+    for slug in m:
+        print(f"  hub: https://restorationai.io/hub/{slug}/{hub_token(slug)}")
     return 0
 
 

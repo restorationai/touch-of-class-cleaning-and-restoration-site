@@ -107,5 +107,9 @@
     "website": "https://narestco.com"
   },
   "indexnow_key": "722a5cb3b83943ea81e1ac966baefb62",
-  "video_publish_mode": "public"
+  "video_publish_mode": "public",
+  "gbp": {
+    "place_id": "ChIJ8URpSkf_UaURDg_hVb9wMrQ",
+    "google_review_url": "https://search.google.com/local/writereview?placeid=ChIJ8URpSkf_UaURDg_hVb9wMrQ"
+  }
 }

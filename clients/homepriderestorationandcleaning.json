@@ -81,5 +81,9 @@
     "website": "https://homepriderestorationandcleaning.com"
   },
   "indexnow_key": "c07ed68ea29b48918d04a079121afc9a",
-  "video_publish_mode": "public"
+  "video_publish_mode": "public",
+  "gbp": {
+    "place_id": "ChIJGzr1iePDLCsR1fkC5O33F10",
+    "google_review_url": "https://search.google.com/local/writereview?placeid=ChIJGzr1iePDLCsR1fkC5O33F10"
+  }
 }

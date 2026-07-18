@@ -24,7 +24,8 @@
     "place_id": "ChIJD0yxLYptAHwRja-0yOuatzE",
     "google_cid": "3582502366071795597",
     "rating": 5.0,
-    "review_count": 19
+    "review_count": 19,
+    "google_review_url": "https://search.google.com/local/writereview?placeid=ChIJD0yxLYptAHwRja-0yOuatzE"
   },
   "onboarding_notes": {
     "greenfield": "No owned website has ever existed (GBP website link is hijacked by a lead-gen squatter on aaawaterdamagerestoration.com \u2014 see clients/aaa-water-damage/intel/audit-2026-07-09.md). No 301 map needed.",

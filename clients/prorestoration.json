@@ -37,7 +37,8 @@
     "place_id": "ChIJH_3NClVC6oAR3mxvd5xofrQ",
     "google_cid": "13005947795120549086",
     "rating": 4.8,
-    "review_count": 103
+    "review_count": 103,
+    "google_review_url": "https://search.google.com/local/writereview?placeid=ChIJH_3NClVC6oAR3mxvd5xofrQ"
   },
   "onboarding_notes": {
     "dns_mirrored_at": "2026-07-08T16:15:42.345948+00:00",
