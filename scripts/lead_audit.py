@@ -905,7 +905,7 @@ def make_teaser_image(business_name, issues_count, grade=None):
 
     f_small = ImageFont.truetype(fr, 30)
     f_label = ImageFont.truetype(fb, 34)
-    d.text((70, 60), "RESTORATION AI — ONLINE PRESENCE AUDIT", font=f_label, fill=(167, 139, 250))
+    d.text((70, 60), "RESTORATION AI — ONLINE RANKING REPORT", font=f_label, fill=(167, 139, 250))
     name = (business_name or "Your Business").strip()
     f_big = fit(name, fb, 64, 34, W - 140)
     if d.textlength(name, font=f_big) > W - 140:  # still too long at floor
@@ -914,7 +914,7 @@ def make_teaser_image(business_name, issues_count, grade=None):
         name += "…"
     d.text((70, 150), name, font=f_big, fill=(255, 255, 255))
     n = max(int(issues_count or 0), 1)
-    d.text((70, 285), "Our team completed your audit.", font=f_small, fill=(203, 213, 225))
+    d.text((70, 285), "Our team completed your ranking report.", font=f_small, fill=(203, 213, 225))
     # highlight box
     d.rounded_rectangle([70, 355, W - 70, 480], radius=18, fill=(30, 27, 62), outline=(124, 58, 237), width=3)
     headline = "We found {} issue{} costing you calls from Google.".format(n, "" if n == 1 else "s")
@@ -1004,16 +1004,8 @@ def deliver_to_ghl(name, email, phone, domain, business_name, grade,
         _ghl("POST", "/contacts/{}/notes".format(contact_id), params={},
              body={"body": "AUDIT READY (grade {g}) for {d}\nReport: {r}\nTeaser image: {t}".format(
                  g=grade, d=domain, r=report_url, t=teaser_url)})
-    # ops ping to Santino's thread (same target as concierge ops-ping)
-    try:
-        _ghl("POST", "/conversations/messages", params={}, body={
-            "type": "SMS",
-            "contactId": os.environ.get("CONCIERGE_OPS_CONTACT_ID", "MIJ5Jm4sobdzSRtnYSzU"),
-            "message": "Audit ready for {b} ({d}) — grade {g}. Report: {r}".format(
-                b=business_name or domain, d=domain, g=grade, r=report_url),
-            "fromNumber": os.environ.get("CONCIERGE_FROM_NUMBER", "+18556484464")})
-    except Exception as e:
-        log("ops ping failed: " + str(e)[:100])
+    # (No ops SMS by design — the GHL workflow automation owns notifications;
+    # the internal SendGrid notify email still fires via email_mode='internal'.)
     log("ghl delivery done (contact {})".format(contact_id or "NOT FOUND/CREATED"))
     return contact_id
 
