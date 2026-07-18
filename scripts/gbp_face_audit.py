@@ -659,6 +659,10 @@ def persist_audit(company_id: str, p: dict, score: dict,
             "category": {"primary": p["primary_category"], "expected": expected,
                          "match": score["category_ok"], "score": score["parts"]["category"]},
             "hours": {"set": p["has_hours"], "score": score["parts"]["hours"]},
+            # Multi-GBP: one entry per managed listing (primary first) so the
+            # app renders a score card per listing. Single-listing clients get
+            # a one-entry list — same shape everywhere.
+            "locations": [location_summary(p)] + (p.get("extra_locations") or []),
         },
         "flags": [{"key": it["dedupe"], "impact": it["impact"], "title": it["title"]}
                   for it in items],
@@ -677,8 +681,12 @@ def persist_audit(company_id: str, p: dict, score: dict,
 # per-client run
 # --------------------------------------------------------------------------- #
 def audit_client(slug: str, company_id: str, meta: dict, apply: bool,
-                 max_photos: int) -> dict | None:
-    location_name = meta["selected_location_id"]  # "locations/NNN"
+                 max_photos: int, location: dict = None,
+                 persist: bool = True, run_fixes: bool = True) -> dict | None:
+    """Audit one location. Multi-GBP: `location` overrides the primary
+    (selected_location_id); secondary listings run audit-only (run_fixes=False,
+    persist=False) and are folded into the primary's row by audit_company."""
+    location_name = (location or {}).get("location_id") or meta["selected_location_id"]
     location_id = location_name.split("/")[-1]
     token = gbp.get_access_token(company_id)
     if not token:
@@ -702,23 +710,83 @@ def audit_client(slug: str, company_id: str, meta: dict, apply: bool,
           f" | description {p['description_len']} chars | hours={p['has_hours']}")
 
     fixes: list[str] = []
-    if acct:
-        fixes += fix_photos(slug, token, acct, location_id, p["owner_count"], max_photos, apply)
-    else:
-        fixes.append("photos: no v4 media account access — photo fix skipped")
-    fixes += fix_description(slug, token, location_name, p["description_len"], apply)
-    fixes += fix_services(slug, apply)
-    for f in fixes:
-        print(f"   -> {f}")
-    if not fixes:
-        print("   -> no auto-fixes needed")
+    if run_fixes:
+        if acct:
+            fixes += fix_photos(slug, token, acct, location_id, p["owner_count"], max_photos, apply)
+        else:
+            fixes.append("photos: no v4 media account access — photo fix skipped")
+        fixes += fix_description(slug, token, location_name, p["description_len"], apply)
+        fixes += fix_services(slug, apply)
+        for f in fixes:
+            print(f"   -> {f}")
+        if not fixes:
+            print("   -> no auto-fixes needed")
     items = plan_items(p, score)
+    if location and (location.get("title") or "").strip():
+        # Secondary listing: tag plan items so they don't collide with the
+        # primary's dedupe keys and read unambiguously in the app.
+        loc_tag = location["title"].strip()
+        for it in items:
+            it["dedupe"] = f"{it['dedupe']}:{location_name.split('/')[-1]}"
+            it["title"] = f"[{loc_tag}] {it['title']}"
     n = upsert_plan_items(company_id, slug, items, apply)
     if n and apply:
         print(f"   -> {n} action-plan row(s) inserted (gbpface:)")
     p["fixes"] = fixes
-    persist_audit(company_id, p, score, items, applied=apply)
+    p["location_name"] = location_name
+    p["location_title"] = (location or {}).get("title") or p.get("title") or ""
+    p["items"] = items
+    if persist:
+        persist_audit(company_id, p, score, items, applied=apply)
     return p
+
+
+def location_summary(p: dict) -> dict:
+    """Compact per-listing entry for components.locations (multi-GBP UI)."""
+    s = p["score"]
+    return {
+        "location_id": p.get("location_name"),
+        "title": p.get("location_title") or p.get("title"),
+        "score": s["total"], "parts": s["parts"],
+        "owner_count": p["owner_count"], "customer_count": p["customer_count"],
+        "cover": p["has_cover"], "logo": p["has_logo"],
+        "description_chars": p["description_len"],
+        "services_count": len(p["gbp_services"]),
+        "primary_category": p["primary_category"],
+        "category_ok": s["category_ok"], "hours": p["has_hours"],
+    }
+
+
+def audit_company(slug: str, cid: str, meta: dict, apply: bool,
+                  max_photos: int) -> dict | None:
+    """Audit every managed listing for a company (multi-GBP Phase 1).
+
+    Primary = selected_locations[0] (or the legacy selected_location_id):
+    full audit + auto-fixes + persisted row. Secondaries: audit-only (no
+    writes to Google), folded into the primary row's components.locations so
+    the app renders one score card per listing without schema changes."""
+    locs = [l for l in (meta.get("selected_locations") or [])
+            if isinstance(l, dict) and l.get("location_id")]
+    if not locs:
+        locs = [{"location_id": meta["selected_location_id"],
+                 "title": meta.get("selected_location_title") or ""}]
+    primary = audit_client(slug, cid, meta, apply, max_photos,
+                           location=locs[0], persist=False, run_fixes=True)
+    if not primary:
+        return None
+    extras = []
+    for loc in locs[1:]:
+        try:
+            p = audit_client(slug, cid, meta, apply, max_photos,
+                             location=loc, persist=False, run_fixes=False)
+            if p:
+                extras.append(p)
+        except Exception as e:  # noqa: BLE001 — one listing never kills the run
+            print(f"  {slug}: secondary listing {loc.get('title') or loc['location_id']} "
+                  f"ERROR ({str(e)[:120]}) — skipped")
+    primary["extra_locations"] = [location_summary(p) for p in extras]
+    persist_audit(cid, primary, primary["score"], primary["items"], applied=apply)
+    return primary
 
 
 def main() -> int:
@@ -744,7 +812,7 @@ def main() -> int:
             print(f"  {args.slug}: no connected GBP location")
             return 1
         set_cover_photo(args.slug, cid, meta, args.set_cover)
-        audit_client(args.slug, cid, meta, apply=False, max_photos=0)
+        audit_company(args.slug, cid, meta, apply=False, max_photos=0)
         return 0
 
     mode = "APPLY" if args.apply else "DRY-RUN"
@@ -762,7 +830,7 @@ def main() -> int:
                   "(0 locations on the account, or selection pending)")
             continue
         try:
-            r = audit_client(slug, cid, meta, args.apply, args.max_photos)
+            r = audit_company(slug, cid, meta, args.apply, args.max_photos)
             if r:
                 results.append(r)
         except Exception as e:  # one client must never abort a scheduled run
