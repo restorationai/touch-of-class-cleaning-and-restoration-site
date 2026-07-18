@@ -278,6 +278,11 @@ class LeadAuditRequest(BaseModel):
     place_id: str = ""
     cid: str = ""
     domain: str = ""
+    # Sales-funnel mode (e.g. OpDigital application → GHL webhook): the lead is
+    # NOT emailed; the report + teaser image land on their GHL contact and the
+    # team gets an ops ping. Requires the shared secret.
+    source: str = ""
+    secret: str = ""
 
 
 def _lead_norm_domain(url: str) -> str:
@@ -438,11 +443,14 @@ def _run_lead_audit_job(job_id: str, req: "LeadAuditRequest"):
     ).eq("id", job_id).execute()
     try:
         import lead_audit  # scripts/ is on sys.path (see header)
+        sales = bool(req.source)
         res = lead_audit.run_audit(req.website or req.domain, req.name, req.email, req.phone,
                                    audit_id=job_id.replace("-", "")[:12],
                                    business_name=req.business_name or None,
                                    place_id=req.place_id or None,
-                                   cid=req.cid or None)
+                                   cid=req.cid or None,
+                                   email_mode="internal" if sales else "all",
+                                   sales_mode=sales)
         client.table("marketing_jobs").update({
             "status": "completed",
             "completed_at": datetime.now(timezone.utc).isoformat(),
@@ -477,6 +485,13 @@ def create_lead_audit(req: LeadAuditRequest, request: Request):
         raise HTTPException(status_code=400, detail="Please enter a valid email address.")
     if len(re.sub(r"\D", "", req.phone or "")) < 10:
         raise HTTPException(status_code=400, detail="Please enter a valid phone number.")
+
+    # Sales-funnel calls must present the shared secret (set in Railway env);
+    # a bad secret is treated as a normal public request (source stripped).
+    if req.source:
+        expected = os.environ.get("LEAD_AUDIT_FUNNEL_SECRET", "")
+        if not (expected and req.secret == expected):
+            req.source = ""
 
     ip = (request.headers.get("x-forwarded-for") or (request.client.host if request.client else "") or "").split(",")[0].strip()
     client = sb()

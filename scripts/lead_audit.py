@@ -871,6 +871,150 @@ def send_sms(to_phone, body):
         return False
 
 
+# ---------------------------------------------------------------------------
+# Sales-funnel mode: teaser image + GHL delivery (report goes to the TEAM, the
+# lead gets a personalized "we found something" image in the nurture sequence)
+# ---------------------------------------------------------------------------
+
+def make_teaser_image(business_name, issues_count, grade=None):
+    """1200x630 branded teaser card (PIL, fonts vendored in assets/fonts).
+    Deliberately shows the issue COUNT but not the findings — the reveal is
+    the meeting. Returns PNG bytes."""
+    from PIL import Image, ImageDraw, ImageFont
+    W, H = 1200, 630
+    img = Image.new("RGB", (W, H), (15, 23, 42))          # slate-900
+    d = ImageDraw.Draw(img)
+    # subtle vertical gradient wash
+    for y in range(H):
+        a = y / H
+        d.line([(0, y), (W, y)], fill=(15 + int(10 * a), 23 + int(12 * a), 42 + int(28 * a)))
+    # brand bar
+    d.rectangle([0, 0, W, 8], fill=(124, 58, 237))         # rank-ai purple
+    fb = str(ROOT / "assets" / "fonts" / "DejaVuSans-Bold.ttf")
+    fr = str(ROOT / "assets" / "fonts" / "DejaVuSans.ttf")
+
+    def fit(text, font_path, start, floor, max_w):
+        """Largest font size (start→floor) whose rendered width fits max_w."""
+        size = start
+        while size > floor:
+            f = ImageFont.truetype(font_path, size)
+            if d.textlength(text, font=f) <= max_w:
+                return f
+            size -= 2
+        return ImageFont.truetype(font_path, floor)
+
+    f_small = ImageFont.truetype(fr, 30)
+    f_label = ImageFont.truetype(fb, 34)
+    d.text((70, 60), "RESTORATION AI — ONLINE PRESENCE AUDIT", font=f_label, fill=(167, 139, 250))
+    name = (business_name or "Your Business").strip()
+    f_big = fit(name, fb, 64, 34, W - 140)
+    if d.textlength(name, font=f_big) > W - 140:  # still too long at floor
+        while name and d.textlength(name + "…", font=f_big) > W - 140:
+            name = name[:-1].rstrip()
+        name += "…"
+    d.text((70, 150), name, font=f_big, fill=(255, 255, 255))
+    n = max(int(issues_count or 0), 1)
+    d.text((70, 285), "Our team completed your audit.", font=f_small, fill=(203, 213, 225))
+    # highlight box
+    d.rounded_rectangle([70, 355, W - 70, 480], radius=18, fill=(30, 27, 62), outline=(124, 58, 237), width=3)
+    headline = "We found {} issue{} costing you calls from Google.".format(n, "" if n == 1 else "s")
+    f_huge = fit(headline, fb, 46, 26, W - 200)
+    d.text((100, 395), headline, font=f_huge, fill=(252, 211, 77))
+    d.text((70, 525), "Full breakdown on our call — we'll walk you through every one.",
+           font=f_small, fill=(148, 163, 184))
+    import io
+    buf = io.BytesIO()
+    img.save(buf, "PNG")
+    return buf.getvalue()
+
+
+def _ghl(method, path, params=None, body=None):
+    key = os.environ.get("GHL_API_KEY")
+    loc = os.environ.get("GHL_LOCATION_ID")
+    if not (key and loc):
+        raise RuntimeError("GHL_API_KEY / GHL_LOCATION_ID not set")
+    q = dict(params or {})
+    q.setdefault("locationId", loc)
+    url = "https://services.leadconnectorhq.com{}?{}".format(path, urllib.parse.urlencode(q))
+    req = urllib.request.Request(url, method=method,
+                                 data=json.dumps(body).encode() if body is not None else None,
+                                 headers={"Authorization": "Bearer " + key, "Version": "2021-07-28",
+                                          "Content-Type": "application/json", "Accept": "application/json",
+                                          "User-Agent": "Mozilla/5.0"})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        raw = r.read()
+        return json.loads(raw) if raw else {}
+
+
+def _ghl_custom_field_ids():
+    """Resolve (create if missing) the two audit custom fields. Cached per run."""
+    loc = os.environ.get("GHL_LOCATION_ID")
+    want = {"audit_report_url": None, "audit_teaser_image_url": None}
+    existing = _ghl("GET", "/locations/{}/customFields".format(loc), params={}) or {}
+    for f in existing.get("customFields", []):
+        k = (f.get("fieldKey") or f.get("name") or "").split(".")[-1].lower()
+        if k in want:
+            want[k] = f.get("id")
+    for name, fid in list(want.items()):
+        if not fid:
+            made = _ghl("POST", "/locations/{}/customFields".format(loc), params={},
+                        body={"name": name, "dataType": "TEXT"})
+            want[name] = (made.get("customField") or made).get("id")
+    return want
+
+
+def deliver_to_ghl(name, email, phone, domain, business_name, grade,
+                   report_url, teaser_url, log):
+    """Find-or-create the lead's GHL contact; write the audit URLs to custom
+    fields + a note, and ops-ping the team. Best-effort: any failure logs and
+    moves on (the report itself is already safe on R2)."""
+    contact_id = None
+    for q in [email, phone]:
+        if not q:
+            continue
+        try:
+            res = _ghl("GET", "/contacts/", params={"query": q})
+            if res.get("contacts"):
+                contact_id = res["contacts"][0]["id"]
+                break
+        except Exception as e:
+            log("ghl search failed: " + str(e)[:100])
+    fields = _ghl_custom_field_ids()
+    payload_fields = [
+        {"id": fields["audit_report_url"], "field_value": report_url},
+        {"id": fields["audit_teaser_image_url"], "field_value": teaser_url},
+    ]
+    if contact_id:
+        _ghl("PUT", "/contacts/{}".format(contact_id), params={},
+             body={"customFields": payload_fields})
+    else:
+        parts = (name or "").split()
+        made = _ghl("POST", "/contacts/", params={}, body={
+            "firstName": parts[0] if parts else "", "lastName": " ".join(parts[1:]),
+            "email": email or None, "phone": phone or None,
+            "companyName": business_name or domain,
+            "tags": ["opdigital-audit"], "source": "opdigital funnel audit",
+            "locationId": os.environ.get("GHL_LOCATION_ID"),
+            "customFields": payload_fields})
+        contact_id = (made.get("contact") or {}).get("id")
+    if contact_id:
+        _ghl("POST", "/contacts/{}/notes".format(contact_id), params={},
+             body={"body": "AUDIT READY (grade {g}) for {d}\nReport: {r}\nTeaser image: {t}".format(
+                 g=grade, d=domain, r=report_url, t=teaser_url)})
+    # ops ping to Santino's thread (same target as concierge ops-ping)
+    try:
+        _ghl("POST", "/conversations/messages", params={}, body={
+            "type": "SMS",
+            "contactId": os.environ.get("CONCIERGE_OPS_CONTACT_ID", "MIJ5Jm4sobdzSRtnYSzU"),
+            "message": "Audit ready for {b} ({d}) — grade {g}. Report: {r}".format(
+                b=business_name or domain, d=domain, g=grade, r=report_url),
+            "fromNumber": os.environ.get("CONCIERGE_FROM_NUMBER", "+18556484464")})
+    except Exception as e:
+        log("ops ping failed: " + str(e)[:100])
+    log("ghl delivery done (contact {})".format(contact_id or "NOT FOUND/CREATED"))
+    return contact_id
+
+
 def send_email(to_addr, subject, html_body):
     api_key = os.environ.get("SENDGRID_API_KEY")
     if not api_key:
@@ -910,11 +1054,13 @@ def _lead_email_html(prof, domain, report_url, copy):
 # ---------------------------------------------------------------------------
 
 def run_audit(website, name, email, phone, audit_id=None, email_mode="all", progress=None,
-              business_name=None, place_id=None, cid=None):
+              business_name=None, place_id=None, cid=None, sales_mode=False):
     """Full pipeline. email_mode: 'all' | 'internal' (notify only) | 'none'.
     business_name/place_id/cid: optional GBP identity already confirmed by the
     prospect in the stepper — used to pin the listing instead of re-guessing.
-    Returns {report_url, grade, costs, errors, ...}."""
+    sales_mode: funnel-triggered pre-meeting audit — generates the teaser image
+    and delivers report/teaser URLs to the lead's GHL contact (custom fields +
+    note) instead of emailing the lead. Returns {report_url, grade, ...}."""
     def log(msg):
         print("  [{}] {}".format(dt.datetime.now().strftime("%H:%M:%S"), msg))
         if progress:
@@ -1055,6 +1201,26 @@ def run_audit(website, name, email, phone, audit_id=None, email_mode="all", prog
            "application/json")
     log("report: " + report_url)
 
+    # 8b. sales-funnel extras: teaser image + GHL contact delivery
+    teaser_url = None
+    if sales_mode:
+        try:
+            n_fixes = len(copy.get("game_plan") or []) or 5
+            png = make_teaser_image(prof["business_name"], n_fixes, copy.get("grade"))
+            teaser_key = "{}/{}/teaser.png".format(PREFIX, audit_id)
+            r2_put(BUCKET, teaser_key, png, "image/png")
+            teaser_url = "{}/{}".format(PUBLIC_BASE, teaser_key)
+            log("teaser: " + teaser_url)
+        except Exception as e:
+            errors.append("teaser: " + str(e)[:150])
+            log("teaser FAILED: " + str(e)[:150])
+        try:
+            deliver_to_ghl(name, email, phone, domain, prof["business_name"],
+                           copy.get("grade"), report_url, teaser_url or report_url, log)
+        except Exception as e:
+            errors.append("ghl_delivery: " + str(e)[:150])
+            log("ghl delivery FAILED: " + str(e)[:150])
+
     # 9. delivery
     if email_mode in ("all",):
         send_email(email, "Your Rank AI audit for {}".format(domain),
@@ -1083,6 +1249,7 @@ Costs: DFS ${dc:.2f} + Claude ${cc:.2f}<br>Errors: {err}</div>""".format(
         errors.append("lead_log: " + str(e)[:120])
 
     return {"audit_id": audit_id, "report_url": report_url, "grade": copy.get("grade"),
+            "teaser_url": teaser_url,
             "business_name": prof["business_name"], "domain": domain,
             "costs": costs, "errors": errors}
 
