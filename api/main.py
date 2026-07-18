@@ -495,9 +495,10 @@ def create_lead_audit(req: LeadAuditRequest, request: Request):
 
     ip = (request.headers.get("x-forwarded-for") or (request.client.host if request.client else "") or "").split(",")[0].strip()
     client = sb()
-    if _lead_count_today(client) >= LEAD_AUDIT_DAILY_CAP:
+    trusted = bool(req.source)  # secret already validated above
+    if not trusted and _lead_count_today(client) >= LEAD_AUDIT_DAILY_CAP:
         raise HTTPException(status_code=429, detail="We've hit today's audit limit — please try again tomorrow, or email contact@restorationai.io.")
-    if ip and _lead_count_today(client, "ip", ip) >= LEAD_AUDIT_IP_CAP:
+    if not trusted and ip and _lead_count_today(client, "ip", ip) >= LEAD_AUDIT_IP_CAP:
         raise HTTPException(status_code=429, detail="Too many audits from this connection today.")
     if _lead_count_today(client, "domain", domain) >= LEAD_AUDIT_DOMAIN_CAP:
         raise HTTPException(status_code=429, detail="We've already run audits for this website today — check your inbox.")
