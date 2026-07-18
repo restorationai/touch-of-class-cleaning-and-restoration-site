@@ -884,23 +884,22 @@ MUTED = (100, 116, 139)
 
 
 def make_teaser_image(business_name, issues_count, grade=None, verdict=None, money=None):
-    """Premium light 'report snippet' teaser (Poppins, rendered 2x then
-    downsampled for crispness through MMS compression). Real audit output
-    only: the visibility grade, the audit's own verdict line, and the
-    revenue-left-on-the-table range. Findings stay for the call."""
+    """Premium light 'report snippet' teaser — PORTRAIT 1080x1350 (4:5) so it
+    fills the screen when it lands in a text thread. Poppins, rendered 2x then
+    downsampled. Real audit output only: grade, the audit's verdict line, and
+    the revenue-left-on-the-table range. Findings stay for the call."""
     from PIL import Image, ImageDraw, ImageFont
-    S = 2                                   # supersample factor
-    W, H = 1200 * S, 630 * S
-    img = Image.new("RGB", (W, H), (241, 245, 249))     # slate-100 backdrop
+    S = 2
+    W, H = 1080 * S, 1350 * S
+    img = Image.new("RGB", (W, H), (241, 245, 249))
     d = ImageDraw.Draw(img)
-    # the "document": white card with a soft edge, like a cropped report page
-    card = [40 * S, 40 * S, W - 40 * S, H - 40 * S]
-    d.rounded_rectangle([card[0] + 4 * S, card[1] + 6 * S, card[2] + 4 * S, card[3] + 6 * S],
-                        radius=24 * S, fill=(203, 213, 225))       # shadow
-    d.rounded_rectangle(card, radius=24 * S, fill=(255, 255, 255),
+    card = [36 * S, 36 * S, W - 36 * S, H - 36 * S]
+    d.rounded_rectangle([card[0] + 4 * S, card[1] + 7 * S, card[2] + 4 * S, card[3] + 7 * S],
+                        radius=26 * S, fill=(203, 213, 225))
+    d.rounded_rectangle(card, radius=26 * S, fill=(255, 255, 255),
                         outline=(226, 232, 240), width=S)
-    d.rounded_rectangle([card[0], card[1], card[2], card[1] + 10 * S],
-                        radius=5 * S, fill=PURPLE)                  # brand bar
+    d.rounded_rectangle([card[0], card[1], card[2], card[1] + 12 * S],
+                        radius=6 * S, fill=PURPLE)
     FB = str(ROOT / "assets" / "fonts" / "Poppins-Bold.ttf")
     FS = str(ROOT / "assets" / "fonts" / "Poppins-SemiBold.ttf")
     FM = str(ROOT / "assets" / "fonts" / "Poppins-Medium.ttf")
@@ -929,66 +928,73 @@ def make_teaser_image(business_name, issues_count, grade=None, verdict=None, mon
             lines.append(cur)
         return lines
 
-    LX = 92 * S                              # left text margin inside the card
-    RX = W - 92 * S
-    # header: brand + report name
-    f_brand = ImageFont.truetype(FB, 26 * S)
-    f_report = ImageFont.truetype(FS, 26 * S)
-    d.text((LX, 84 * S), "RESTORATION AI", font=f_brand, fill=PURPLE)
-    bw = d.textlength("RESTORATION AI", font=f_brand)
-    d.text((LX + bw + 18 * S, 84 * S), "|  ONLINE VISIBILITY REPORT", font=f_report, fill=MUTED)
-    # business name
+    LX = 88 * S
+    RX = W - 88 * S
+    CW = RX - LX
+    # header
+    f_brand = ImageFont.truetype(FB, 30 * S)
+    f_report = ImageFont.truetype(FS, 30 * S)
+    d.text((LX, 90 * S), "RESTORATION AI", font=f_brand, fill=PURPLE)
+    d.text((LX, 134 * S), "ONLINE VISIBILITY REPORT", font=f_report, fill=MUTED)
+    # business name (up to 2 lines)
     name = (business_name or "Your Business").strip()
-    f_name = fit(name, FB, 52, 30, RX - LX)
-    d.text((LX, 130 * S), name, font=f_name, fill=INK)
-    # divider
-    d.line([LX, 208 * S, RX, 208 * S], fill=(226, 232, 240), width=S)
+    f_name = fit(name, FB, 56, 34, CW)
+    d.text((LX, 196 * S), name, font=f_name, fill=INK)
+    d.line([LX, 292 * S, RX, 292 * S], fill=(226, 232, 240), width=S)
 
-    # grade badge (letter only, label centered BELOW the badge)
+    # grade badge centered
     g = (grade or "C").upper()[:1]
     gcol = GRADE_COLORS.get(g, (217, 119, 6))
-    bx0, by0, bs = LX, 240 * S, 132 * S
-    d.rounded_rectangle([bx0, by0, bx0 + bs, by0 + bs], radius=20 * S,
-                        fill=(gcol[0], gcol[1], gcol[2], 20) if False else
-                        (250, 245, 255) if g in "AB" else (255, 251, 235) if g == "C" else (254, 242, 242),
-                        outline=gcol, width=3 * S)
-    f_grade = ImageFont.truetype(FB, 84 * S)
+    bs = 210 * S
+    bx0 = (W - bs) // 2
+    by0 = 340 * S
+    tint = (250, 245, 255) if g in "AB" else (255, 251, 235) if g == "C" else (254, 242, 242)
+    d.rounded_rectangle([bx0, by0, bx0 + bs, by0 + bs], radius=30 * S,
+                        fill=tint, outline=gcol, width=4 * S)
+    f_grade = ImageFont.truetype(FB, 132 * S)
     gw = d.textlength(g, font=f_grade)
-    d.text((bx0 + (bs - gw) / 2, by0 + 8 * S), g, font=f_grade, fill=gcol)
-    f_lab = ImageFont.truetype(FS, 15 * S)
+    d.text((bx0 + (bs - gw) / 2, by0 + 14 * S), g, font=f_grade, fill=gcol)
+    f_lab = ImageFont.truetype(FS, 22 * S)
     lab = "VISIBILITY GRADE"
     lw = d.textlength(lab, font=f_lab)
-    d.text((bx0 + (bs - lw) / 2, by0 + bs + 10 * S), lab, font=f_lab, fill=MUTED)
+    d.text(((W - lw) / 2, by0 + bs + 18 * S), lab, font=f_lab, fill=MUTED)
 
-    # verdict quote, right of the badge
-    vtext = "“" + (verdict or "Your customers are searching. They are finding someone else.").strip().rstrip(".") + ".”"
-    f_v = ImageFont.truetype(FM, 27 * S)
-    vx = bx0 + bs + 44 * S
-    vy = 248 * S
-    for line in wrap(vtext, f_v, RX - vx)[:4]:
-        d.text((vx, vy), line, font=f_v, fill=(51, 65, 85))
-        vy += 40 * S
+    # verdict (no quotation marks), centered block
+    vtext = (verdict or "Your customers are searching. They are finding someone else.").strip()
+    f_v = ImageFont.truetype(FM, 34 * S)
+    vy = 660 * S
+    for line in wrap(vtext, f_v, CW)[:4]:
+        lw2 = d.textlength(line, font=f_v)
+        d.text(((W - lw2) / 2, vy), line, font=f_v, fill=(51, 65, 85))
+        vy += 50 * S
 
-    # revenue block
-    ry0 = 440 * S
-    d.rounded_rectangle([LX, ry0, RX, ry0 + 108 * S], radius=16 * S,
+    # revenue block — headline LARGE per Santino
+    ry0 = 900 * S
+    d.rounded_rectangle([LX, ry0, RX, ry0 + 240 * S], radius=20 * S,
                         fill=(245, 243, 255), outline=(221, 214, 254), width=S)
-    f_klab = ImageFont.truetype(FS, 16 * S)
-    d.text((LX + 28 * S, ry0 + 16 * S), "ESTIMATED REVENUE LEFT ON THE TABLE", font=f_klab, fill=(109, 40, 217))
+    klab = "ESTIMATED REVENUE"
+    klab2 = "LEFT ON THE TABLE"
+    f_klab = fit(klab, FB, 34, 22, CW - 56 * S)
+    kw = d.textlength(klab, font=f_klab)
+    d.text(((W - kw) / 2, ry0 + 26 * S), klab, font=f_klab, fill=(109, 40, 217))
+    kw2 = d.textlength(klab2, font=f_klab)
+    d.text(((W - kw2) / 2, ry0 + 74 * S), klab2, font=f_klab, fill=(109, 40, 217))
     if money and money.get("low") is not None:
-        amt = "${:,} – ${:,} / month".format(int(money["low"]), int(money["high"]))
+        amt = "${:,} – ${:,} / mo".format(int(money["low"]), int(money["high"]))
     else:
         n = max(int(issues_count or 0), 1)
-        amt = "{} issues costing you calls from Google".format(n)
-    f_amt = fit(amt, FB, 42, 26, RX - LX - 56 * S)
-    d.text((LX + 28 * S, ry0 + 44 * S), amt, font=f_amt, fill=INK)
+        amt = "{} issues costing you calls".format(n)
+    f_amt = fit(amt, FB, 52, 30, CW - 56 * S)
+    aw = d.textlength(amt, font=f_amt)
+    d.text(((W - aw) / 2, ry0 + 138 * S), amt, font=f_amt, fill=INK)
 
     # closing line
-    close = "Where is it going instead? We'll open the full report together on your call."
-    f_close = fit(close, FR, 22, 16, RX - LX)
-    d.text((LX, 556 * S), close, font=f_close, fill=MUTED)
+    close = "Where is it going instead? We'll open the full report on your call."
+    f_close = fit(close, FR, 25, 17, CW)
+    cw2 = d.textlength(close, font=f_close)
+    d.text(((W - cw2) / 2, 1220 * S), close, font=f_close, fill=MUTED)
 
-    img = img.resize((1200, 630), Image.LANCZOS)
+    img = img.resize((1080, 1350), Image.LANCZOS)
     import io
     buf = io.BytesIO()
     img.save(buf, "PNG")
