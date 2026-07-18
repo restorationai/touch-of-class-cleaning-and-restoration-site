@@ -37,3 +37,4 @@ node_modules/
 .wrangler/
 landing-page/dist/
 kpi-dashboard/*.log
+landing-page/
