@@ -14,7 +14,7 @@
   "status": "pending",
   "company_id": "CO-1783527517866",
   "created_at": "2026-07-10T00:00:00+00:00",
-  "updated_at": "2026-07-16T17:27:43.482477+00:00",
+  "updated_at": "2026-07-18T20:19:17.766231+00:00",
   "nap": {
     "name": "The Restoration Group",
     "street": "500 S 31st St",
@@ -34,7 +34,7 @@
   },
   "onboarding_notes": {
     "rebrand": "DBA of Schwarz Enterprises; brand 'The Restoration Group' (7/8 onboarding call OVERRIDES the audit's 'Elite Restoration Group'). Old site restorationgroups.com (WordPress, 209 pages) stays live until cutover \u2014 full 301 map needed at production.",
-    "domain": "DOMAIN DECIDED 7/15: therestorationgroup.com (take over right away per Santino/client). GoDaddy delegate access confirmed for restorationgroups.com only \u2014 CONFIRM it covers therestorationgroup.com. Old restorationgroups.com (209pg) AND old therestorationgroup.com WP (274pg) both need 301 maps into the new build.",
+    "domain": "DOMAIN DECIDED 7/15: therestorationgroup.com (take over right away per Santino/client). GoDaddy delegate access confirmed for restorationgroups.com only \u2014 CONFIRMED 7/18: GoDaddy access covers BOTH therestorationgroup.com and restorationgroups.com (they own both). Old restorationgroups.com (209pg) AND old therestorationgroup.com WP (274pg) both need 301 maps into the new build.",
     "phone_discipline": "ONE phone everywhere: GBP line (855) 650-7422. Old site has 8+ rogue tracking numbers \u2014 never reuse any of them.",
     "license_pending": "RESOLVED 7/15 call: NJ HIC 13VH05488600 (prior capture missed a 5). Owner-confirmed on live call; safe to print on the site.",
     "ny_metro": "Brooklyn + Manhattan included as secondary metro service-area pages (template handles per-area state cleanly; NY areas simply get no NJ nearby-city cross-links).",
@@ -52,22 +52,22 @@
   "plan_status": "planned",
   "plan": {
     "template": "restoration",
-    "template_version": "0.2.0",
-    "url_count": 224,
-    "generated_at": "2026-07-11T01:56:48.926830+00:00"
+    "template_version": "0.3.0",
+    "url_count": 938,
+    "generated_at": "2026-07-18T20:19:17.766228+00:00"
   },
   "build": {
     "scaffolded_at": "2026-07-11T01:57:15.798619+00:00",
     "starter_version": "0.1.0",
     "url_count": 224,
     "pages_status": "local-only",
-    "last_rendered_at": "2026-07-11T02:50:04.938485+00:00",
+    "last_rendered_at": "2026-07-18T21:57:06.218718+00:00",
     "preview_url": "https://the-restoration-group-preview.pages.dev",
     "preview_pages_project": "the-restoration-group-preview",
     "github_repo": "restorationai/restoration-groups-site",
     "last_pushed_staging_at": "2026-07-16T17:27:43.482436+00:00"
   },
-  "build_status": "pushed_staging",
+  "build_status": "content_rendered",
   "license_numbers": [
     "NJ HIC 13VH05488600"
   ]

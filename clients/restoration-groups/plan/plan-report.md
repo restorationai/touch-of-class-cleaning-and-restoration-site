@@ -1,22 +1,22 @@
 # Site Plan Report — The Restoration Group
 
-- Template: `restoration` v0.2.0
-- Generated: 2026-07-11T01:56:48.926489+00:00
-- Domain: `restorationgroups.com`
-- Services selected: 16 of 46 catalog entries
-- Service areas: 11
+- Template: `restoration` v0.3.0
+- Generated: 2026-07-18T20:19:17.765486+00:00
+- Domain: `therestorationgroup.com`
+- Services selected: 16 of 48 catalog entries
+- Service areas: 53
 - Cross-product enabled: True
-- Total URLs: **224**
-- Total internal links: 1822 (avg 8.1 per page)
+- Total URLs: **938**
+- Total internal links: 7509 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 176 |
+| `service-area-service` | 848 |
+| `service-area` | 53 |
 | `service-landing` | 16 |
 | `blog-post` | 12 |
-| `service-area` | 11 |
 | `legal` | 3 |
 | `home` | 1 |
 | `services-hub` | 1 |
@@ -57,6 +57,48 @@
 - `jersey-city-nj` — Jersey City, NJ
 - `brooklyn-ny` — Brooklyn, NY
 - `manhattan-ny` — Manhattan, NY
+- `fair-lawn-nj` — Fair Lawn, NJ
+- `highland-park-nj` — Highland Park, NJ
+- `staten-island-ny` — Staten Island, NY
+- `linden-nj` — Linden, NJ
+- `rahway-nj` — Rahway, NJ
+- `plainfield-nj` — Plainfield, NJ
+- `scotch-plains-nj` — Scotch Plains, NJ
+- `clark-nj` — Clark, NJ
+- `roselle-nj` — Roselle, NJ
+- `hillside-nj` — Hillside, NJ
+- `east-orange-nj` — East Orange, NJ
+- `west-orange-nj` — West Orange, NJ
+- `montclair-nj` — Montclair, NJ
+- `bloomfield-nj` — Bloomfield, NJ
+- `livingston-nj` — Livingston, NJ
+- `irvington-nj` — Irvington, NJ
+- `maplewood-nj` — Maplewood, NJ
+- `millburn-nj` — Millburn, NJ
+- `hackensack-nj` — Hackensack, NJ
+- `paramus-nj` — Paramus, NJ
+- `fort-lee-nj` — Fort Lee, NJ
+- `teaneck-nj` — Teaneck, NJ
+- `ridgewood-nj` — Ridgewood, NJ
+- `englewood-nj` — Englewood, NJ
+- `garfield-nj` — Garfield, NJ
+- `new-brunswick-nj` — New Brunswick, NJ
+- `edison-nj` — Edison, NJ
+- `woodbridge-nj` — Woodbridge, NJ
+- `perth-amboy-nj` — Perth Amboy, NJ
+- `east-brunswick-nj` — East Brunswick, NJ
+- `piscataway-nj` — Piscataway, NJ
+- `morristown-nj` — Morristown, NJ
+- `parsippany-nj` — Parsippany, NJ
+- `somerville-nj` — Somerville, NJ
+- `bridgewater-nj` — Bridgewater, NJ
+- `paterson-nj` — Paterson, NJ
+- `clifton-nj` — Clifton, NJ
+- `wayne-nj` — Wayne, NJ
+- `passaic-nj` — Passaic, NJ
+- `hoboken-nj` — Hoboken, NJ
+- `bayonne-nj` — Bayonne, NJ
+- `north-bergen-nj` — North Bergen, NJ
 
 ## Top 10 priority pages
 

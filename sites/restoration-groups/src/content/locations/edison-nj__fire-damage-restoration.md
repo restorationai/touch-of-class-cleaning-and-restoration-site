@@ -1,0 +1,49 @@
+---
+archetype: "service-area-service"
+title: "Fire Damage Restoration in Edison, NJ | The Restoration Group"
+h1: "Fire Damage Restoration in Edison"
+meta_description: "24/7 fire damage restoration in Edison, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+primary_keyword: "fire damage restoration edison"
+secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
+search_intent: "local_emergency"
+priority: 7.0
+plan_hash: "75f0882183342202"
+generated_at: "2026-07-18T20:31:05.531314+00:00"
+manual_override: false
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/edison-nj/", "/service-areas/edison-nj/mold-remediation/", "/service-areas/edison-nj/water-damage-restoration/", "/service-areas/bayonne-nj/fire-damage-restoration/", "/service-areas/bloomfield-nj/fire-damage-restoration/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Edison", "url": "/service-areas/edison-nj/"}, {"name": "Fire Damage Restoration"}]
+faq: [{"question": "How quickly can The Restoration Group reach a fire-damaged home in North Edison or Clara Barton?", "answer": "We operate 24/7 out of Kenilworth and can reach most Edison neighborhoods \u2014 including North Edison and Clara Barton \u2014 via the Garden State Parkway or Route 1. We don't publish a guaranteed minute figure because traffic on the Route 1 corridor varies significantly, but we dispatch immediately on every call and will give you a realistic arrival estimate when you phone us at (855) 650-7422."}, {"question": "Edison has a lot of homes built in the 1950s and 60s \u2014 does older construction change how fire restoration is handled?", "answer": "Yes, meaningfully. Homes from that era in neighborhoods like Stelton and Oak Tree often have plaster-and-lath walls rather than drywall, open-joist basement ceilings, and HVAC return-air chases that run through unlined wall cavities. Plaster absorbs soot and odor compounds differently than modern drywall, and those open cavities allow smoke to travel further from the origin point. Our scope process accounts for these construction details rather than treating every Edison home the same way."}, {"question": "A fire started in my kitchen and the sprinklers activated \u2014 is that a fire job or a water job, and does it affect my insurance claim in Edison?", "answer": "It's both, and that distinction matters for your claim. Fire and smoke damage is typically covered under your fire peril, while the sprinkler discharge is treated as a water loss \u2014 some policies handle them under the same adjuster, others split them. We document both scopes separately from the start, which prevents disputes during the claim process and ensures neither loss category gets underestimated. This combined scenario is common in Edison's commercial properties along Route 1 and in multifamily buildings in the 08837 ZIP code."}, {"question": "What does smoke odor elimination actually involve, and how long does it take in a typical Edison split-level?", "answer": "Odor elimination goes beyond surface cleaning \u2014 smoke compounds bond to porous materials including framing, insulation, and HVAC components. We use a combination of HEPA air scrubbing, thermal fogging, and hydroxyl generation depending on the residue type and whether the home is occupied. In a typical Edison split-level where smoke has traveled through ductwork and wall cavities, the deodorization phase alone usually runs two to four days after structural cleaning is complete, though heavily affected homes take longer."}, {"question": "Does The Restoration Group handle the rebuild after fire mitigation, or do I need to hire a separate contractor in Edison?", "answer": "We carry a New Jersey Licensed Home Improvement Contractor license and handle reconstruction through the same project, so there's no handoff gap between mitigation and rebuild. For Edison homeowners, that continuity matters because the permitting process through the township's building department moves faster when one licensed contractor owns the full scope and the documentation is already in order from the mitigation phase."}]
+area_slug: "edison-nj"
+service_slug: "fire-damage-restoration"
+city: "Edison"
+state: "NJ"
+service_display: "Fire Damage Restoration"
+rendered: true
+---
+Edison's postwar housing stock — the split-levels in Clara Barton, the brick colonials in North Edison, the mid-century capes scattered through Stelton — was built in an era when electrical panels were modest and kitchens were small. When a grease fire or electrical fault ignites one of these homes today, the original construction details matter: open-joist basements pull smoke deep into unfinished cavities, older plaster walls trap soot differently than modern drywall, and attic insulation installed decades ago can smolder long after visible flames are out. The Restoration Group responds 24/7 from Kenilworth to help Edison homeowners and property managers move from the moment the fire marshal releases the scene to a fully restored, safe structure.
+
+## Why Edison Properties See Distinctive Fire Damage Patterns
+
+Edison is one of Middlesex County's largest townships by land area, and that size means a wide range of building types burning in different ways. The dense residential neighborhoods around Oak Tree Road and the Route 27 corridor are dominated by homes built between 1950 and 1975 — a period when aluminum wiring was common and kitchen ventilation was minimal. Aluminum-wired homes carry a higher risk of connection-point arcing, and when a fire does start, the smoke migrates aggressively through the original ductwork. Along the Route 1 retail corridor and near Menlo Park Mall, commercial sprinkler discharges following a fire event add a water-damage layer on top of the smoke and char — a combined loss that requires both structural drying and soot remediation happening in sequence, not separately.
+
+Multifamily complexes in ZIP code 08837 and the industrial and logistics properties near the New Jersey Turnpike interchanges present large-loss scenarios where a single fire event can affect dozens of units or tens of thousands of square feet of warehouse space. Coordinating scope documentation, air quality monitoring, and phased reconstruction across that scale requires a structured process — not a crew showing up with shop vacs.
+
+## Our Fire Damage Restoration Process in Edison
+
+Every fire loss is different, but the sequence of decisions is consistent. When we arrive at an Edison property, the first priority is stabilization: board-up and roof tarping if the structure is breached, followed by a room-by-room assessment that separates salvageable materials from those that need removal. Smoke and soot behave differently depending on what burned — a kitchen grease fire leaves a wet, oily residue that bonds to cabinet surfaces; an electrical fire in a wall cavity produces dry, powdery soot that travels further and settles in HVAC systems.
+
+Once the scope is documented with photographs and moisture readings, we move into controlled demolition of charred framing and drywall, HEPA-filtered air scrubbing to reduce airborne particulates, and chemical sponge or wet-cleaning of affected surfaces depending on residue type. Odor elimination follows — thermal fogging and hydroxyl generation are both options depending on whether the structure is occupied. Reconstruction is coordinated under our NJ Licensed Home Improvement Contractor license, so the project doesn't stall between the mitigation phase and the rebuild.
+
+## Reaching Edison from Kenilworth
+
+Kenilworth sits roughly 15 miles northwest of central Edison via the Garden State Parkway or Route 1. Because The Restoration Group operates 24/7, a call at 2 a.m. from a homeowner near Roosevelt Park or a property manager overseeing a complex near Middlesex County College gets the same response as a midday call. We stage equipment for large-loss commercial work and can mobilize additional crews for multi-unit or warehouse events along the Route 1 and Turnpike corridors without subcontracting the core work out.
+
+## Edison Insurance Coordination
+
+Most Edison homeowners carry standard HO-3 policies that cover sudden and accidental fire losses, but the documentation requirements vary by carrier. We photograph every affected surface before any material is moved, generate a line-item scope using Xactimate — the estimating platform most adjusters work from — and communicate directly with your adjuster throughout the claim. For commercial losses along the Route 1 corridor or in the township's industrial zones, we're familiar with the additional requirements that come with business interruption riders and tenant-improvement coverage. You are not expected to navigate the claim alone.
+
+## Local Note
+
+In Edison's older split-levels and raised ranches — particularly in neighborhoods like Stelton and Nixon — the return-air chase for the HVAC system often runs through an interior wall cavity without a dedicated duct liner. After a fire, that pathway becomes a direct route for smoke odor to redistribute throughout the house even after visible soot is cleaned. We scope HVAC cavities and return-air pathways as part of every fire assessment in these homes, not as an add-on. Skipping that step is one of the most common reasons a homeowner calls a second contractor six weeks later wondering why the smell came back.
+
+If your Edison property has been affected by fire, call (855) 650-7422 any time — day or night. We'll walk you through the immediate steps, get eyes on the damage fast, and build a restoration plan that accounts for the specific construction and conditions of your home or building.
