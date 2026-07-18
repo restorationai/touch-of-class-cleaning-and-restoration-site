@@ -77,7 +77,17 @@ Reference examples of the finished product:
 3. **Intake questions** — `client_intake_items` for anything the client must
    answer (field_type text/yes_no/select/checklist, `blocks` when it gates
    site_build/review_campaign, `source: 'rank-ai'`). Skip questions already
-   seeded.
+   seeded. ALWAYS seed one item per social platform separately (Facebook link,
+   Instagram link — never one combined "social links" ask), and ALWAYS seed
+   the two authority-links inputs: "Which equipment suppliers/distributors do
+   you buy from?" and "What is your IICRC firm/certification number?".
+3b. **Authority-links sprint row** — every audit seeds ONE
+   `marketing_action_plan` row (action_type `authority_links`, effort low,
+   impact high): get the client listed on the IICRC firm locator, their
+   equipment suppliers' dealer locators (Dri-Eaz/Phoenix/etc. — draft the
+   email, client forwards to their rep), and the local chamber of commerce.
+   These are the cheapest high-relevance backlinks a restoration company can
+   get; the intake answers above feed this row.
 4. **Branded report** — HTML+PDF to `~/Desktop/Rank AI Reports/{Client}-Audit`
    using the report CSS pattern (purple #7c3aed accents, Rank AI header/footer;
    see the July 2026 reports for style). markdown→HTML, then headless chrome

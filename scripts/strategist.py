@@ -598,9 +598,18 @@ def sync_content_queue(slug: str, company_id: str) -> int:
         if anchor:
             item["city_anchor"] = anchor
         if r["action_type"] in ("ai_visibility", "ai_keyword"):
-            item["notes"] = ("Pinned from AI Search. Write an honest, locally-specific guide that "
-                             "positions this business on verifiable strengths (certifications, license, "
-                             "response time, reviews) — NOT a self-ranking 'best companies' list.")
+            # Format per Santino 2026-07-17: a REAL numbered listicle. AI
+            # engines cite ranked lists; a prose guide reads as a service page.
+            item["notes"] = (
+                "Pinned from AI Search. Write a NUMBERED ranked listicle (#1, #2, #3...) of "
+                "real local companies for this query. Our client is #1 with a factual "
+                "justification (verifiable certifications, license, response time, review "
+                "count/rating); competitors at #2-#5 are REAL businesses with their REAL "
+                "Google ratings and one honest strength each — never invented, never "
+                "disparaged. End with an FAQ section whose first question is the search "
+                "query itself, answered directly, plus 3-4 people-also-ask variants "
+                "(cost, how to choose, response time) phrased the way customers search. "
+                "Every claim about our client must pass the claims truth table.")
         items.append(item)
         by_kw[key] = item
         touched += 1

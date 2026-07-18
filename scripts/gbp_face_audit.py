@@ -106,7 +106,8 @@ def slug_company_pairs() -> list[tuple[str, str]]:
 # --------------------------------------------------------------------------- #
 def fetch_location(token: str, location_name: str) -> dict:
     url = (f"{gbp.INFO_API}/{location_name}?readMask=name,title,categories,"
-           "storefrontAddress,regularHours,profile,serviceItems,metadata,websiteUri")
+           "storefrontAddress,regularHours,profile,serviceItems,metadata,websiteUri,"
+           "serviceArea")
     return gbp._g(url, token)
 
 
@@ -175,13 +176,29 @@ def fetch_media(token: str, acct: str, location_id: str) -> dict:
 def profile_snapshot(slug: str, loc: dict, media: dict) -> dict:
     g = gbp.summarize(loc)
     site = gbp.site_services(slug)
-    vertical = json.loads((ROOT / "clients" / f"{slug}.json").read_text()).get("vertical", "")
+    client = json.loads((ROOT / "clients" / f"{slug}.json").read_text())
+    vertical = client.get("vertical", "")
+    # Listing-declared service-area towns (Igler adoption 2026-07-17): tells
+    # Google how far from the pin the business deserves calls. Compared against
+    # the plan's service_areas; read-only for now (set comes after one cycle).
+    sa_places = [pi.get("placeName") or pi.get("name") or ""
+                 for pi in ((loc.get("serviceArea") or {}).get("places") or {}).get("placeInfos", [])]
+    plan_areas = []
+    try:
+        pi_path = ROOT / "clients" / slug / "plan-input.json"
+        if pi_path.exists():
+            plan_areas = [a.get("label") or a.get("name") or str(a)
+                          for a in json.loads(pi_path.read_text()).get("service_areas", [])]
+    except Exception:
+        pass
     return {
         "slug": slug, "title": g["title"], "vertical": vertical,
         "primary_category": g["primary_category"],
         "additional_categories": g["additional_categories"],
         "gbp_services": g["services"], "site_services": site,
         "description_len": g["description_len"], "has_hours": g["has_hours"],
+        "service_area_places": sa_places,
+        "plan_service_areas": plan_areas,
         **media,
     }
 
@@ -531,6 +548,18 @@ def plan_items(p: dict, score: dict) -> list[dict]:
                           "signal AND the label shown on the panel. NEVER auto-changed "
                           "(ranking-sensitive) — review and apply manually in the GBP dashboard, "
                           "ideally in a low-traffic window, and watch the geo-grid after.")})
+    sa_n, plan_n = len(p.get("service_area_places") or []), len(p.get("plan_service_areas") or [])
+    if plan_n and sa_n < min(plan_n, 10):
+        items.append({
+            "dedupe": "service-area-thin", "priority": 2, "impact": "medium",
+            "title": f"GBP service areas thin: {sa_n} towns listed vs {plan_n} in the plan",
+            "rationale": (f"GBP front-face audit: '{title}' declares only {sa_n} service-area "
+                          f"place(s) on the listing while the site plan targets {plan_n} areas. "
+                          "The listing's service-area list tells Google how far from the pin the "
+                          "business deserves calls (rule of thumb: everything within ~2h drive, "
+                          "Google caps at 20). Add the plan's top towns/counties in the GBP "
+                          "dashboard (Edit profile > Location and areas). Listing currently has: "
+                          + (", ".join(p["service_area_places"]) or "none") + ".")})
     if not p["has_logo"]:
         items.append({
             "dedupe": "logo-missing", "priority": 2, "impact": "medium",
