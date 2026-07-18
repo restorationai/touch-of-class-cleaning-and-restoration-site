@@ -928,14 +928,17 @@ def make_teaser_image(business_name, issues_count, grade=None):
     return buf.getvalue()
 
 
-def _ghl(method, path, params=None, body=None):
+def _ghl(method, path, params=None, body=None, add_loc=True):
     key = os.environ.get("GHL_API_KEY")
     loc = os.environ.get("GHL_LOCATION_ID")
     if not (key and loc):
         raise RuntimeError("GHL_API_KEY / GHL_LOCATION_ID not set")
     q = dict(params or {})
-    q.setdefault("locationId", loc)
-    url = "https://services.leadconnectorhq.com{}?{}".format(path, urllib.parse.urlencode(q))
+    if add_loc and "/locations/" not in path:
+        q.setdefault("locationId", loc)
+    url = "https://services.leadconnectorhq.com{}".format(path)
+    if q:
+        url += "?" + urllib.parse.urlencode(q)
     req = urllib.request.Request(url, method=method,
                                  data=json.dumps(body).encode() if body is not None else None,
                                  headers={"Authorization": "Bearer " + key, "Version": "2021-07-28",
