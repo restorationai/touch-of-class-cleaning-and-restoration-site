@@ -372,6 +372,35 @@ def gbp_confirm(auth, gbp_query, business_name, lat, lng):
             "rating": rd.get("value"), "reviews": rd.get("votes_count"),
             "address": best.get("address"),
         }, cost
+    # Fallback: the Maps SERP sometimes skips the exact listing (missed
+    # "PuroClean of East Las Vegas" 2026-07-19 → report wrongly said no GBP).
+    # Search the business-listings DB by brand word near the same coords;
+    # stricter match bar since this net is wider.
+    try:
+        brand = (business_name or gbp_query).split()[0]
+        items2, c2, _ = _dfs(DFS_LISTINGS, [{"title": brand[:50],
+                             "location_coordinate": "{},{},15".format(lat, lng),
+                             "limit": 20}], auth)
+        cost += c2
+        best2, score2 = None, 0.0
+        for it in items2:
+            if not isinstance(it, dict):
+                continue
+            s = max(_name_match(business_name, it.get("title")),
+                    _name_match(gbp_query, it.get("title")))
+            if s > score2:
+                best2, score2 = it, s
+        if best2 and score2 >= 0.75:
+            rd = best2.get("rating") or {}
+            return {
+                "found": True, "title": best2.get("title"),
+                "place_id": best2.get("place_id"),
+                "cid": str(best2.get("cid")) if best2.get("cid") is not None else None,
+                "rating": rd.get("value"), "reviews": rd.get("votes_count"),
+                "address": best2.get("address"),
+            }, cost
+    except Exception as e:
+        sys.stderr.write("  gbp listings fallback: {}\n".format(str(e)[:120]))
     return {"found": False}, cost
 
 
