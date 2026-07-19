@@ -898,7 +898,7 @@ def _strip_dashes(s):
 
 
 def make_teaser_image(business_name, issues_count, grade=None, verdict=None, money=None,
-                      ai_cited=None, ai_total=None, plan=None):
+                      ai_cited=None, ai_total=None, ai_body=None, plan=None):
     """Premium 'crop of the real report' teaser — PORTRAIT 1080x1350 (4:5),
     Poppins, rendered 2x then downsampled. Mirrors the report's visual system
     (section kickers, dark ChatGPT chip, gradient money box) in brand blue.
@@ -964,19 +964,23 @@ def make_teaser_image(business_name, issues_count, grade=None, verdict=None, mon
     RX = CARD_W - 52 * S
     CW = RX - LX
 
-    # ---- header: what it is (small blue) + THEIR name as the hero line, so
-    # the business name reads even in a phone message preview thumbnail ----
-    kicker(52 * S, "ONLINE VISIBILITY REPORT", 23)
+    # ---- header: big report title, THEIR name on a yellow highlight below so
+    # it still pops in a phone message preview thumbnail ----
+    f_title = fit("ONLINE VISIBILITY REPORT", FB, 46, 34, CW)
+    dc.text((LX, 54 * S), "ONLINE VISIBILITY REPORT", font=f_title, fill=INK)
     name = (business_name or "Your Business").strip()
-    f_name = fit(name, FB, 50, 30, CW)
-    dc.text((LX, 96 * S), name, font=f_name, fill=INK)
-    dc.line([LX, 182 * S, RX, 182 * S], fill=(226, 232, 240), width=S)
+    f_name = fit(name, FB, 36, 25, CW - 32 * S)
+    nmw = dc.textlength(name, font=f_name)
+    dc.rounded_rectangle([LX - 6 * S, 128 * S, LX + nmw + 22 * S, 186 * S],
+                         radius=10 * S, fill=(254, 240, 138))
+    dc.text((LX + 8 * S, 135 * S), name, font=f_name, fill=INK)
+    dc.line([LX, 214 * S, RX, 214 * S], fill=(226, 232, 240), width=S)
 
     # ---- grade badge LEFT, verdict RIGHT ----
     g = (grade or "C").upper()[:1]
     gcol = GRADE_COLORS.get(g, (217, 119, 6))
     bs = 165 * S
-    bx0, by0 = LX, 212 * S
+    bx0, by0 = LX, 244 * S
     tint = (240, 253, 244) if g in "AB" else (255, 251, 235) if g == "C" else (254, 242, 242)
     dc.rounded_rectangle([bx0, by0, bx0 + bs, by0 + bs], radius=26 * S,
                          fill=tint, outline=gcol, width=4 * S)
@@ -1003,30 +1007,50 @@ def make_teaser_image(business_name, issues_count, grade=None, verdict=None, mon
 
     # ---- measure the flexible sections, then justify the gaps so step 1's
     # headline lands bisected exactly on the card's bottom edge ----
+    money_h = (34 + 52 + 168) * S
+    planhead_h = (34 + 46) * S
+    row_anchor = CARD_H - 18 * S          # step-1 title top: edge cuts mid-letter
+
     chip_lines = None
+    body_lines = []
     f_ch = ImageFont.truetype(FS, 27 * S)
+    f_cb = ImageFont.truetype(FR, 20 * S)
     if ai_total:
         head = ("ChatGPT is recommending someone else" if not ai_cited
                 else "ChatGPT still recommends your competitors")
         chip_lines = wrap(head, f_ch, CW - 60 * S)[:2]
-        sub = "Your business was cited in {} of {} live AI answers we checked.".format(
+        sub = "Cited in {} of {} live AI answers across ChatGPT and Google.".format(
             int(ai_cited or 0), int(ai_total))
-        f_cs = fit(sub, FR, 21, 16, CW - 60 * S)
-        chip_h = 30 * S + len(chip_lines) * 38 * S + 8 * S + 30 * S + 28 * S
+        f_cs = fit(sub, FS, 19, 15, CW - 60 * S)
+        body_lines = wrap(_strip_dashes((ai_body or "").strip()), f_cb, CW - 60 * S)
+
+        def _chip_h(nb):
+            return (26 * S + len(chip_lines) * 38 * S
+                    + ((12 * S + nb * 29 * S) if nb else 0)
+                    + 14 * S + 24 * S + 26 * S)
+
+        avail = row_anchor - y_after - money_h - planhead_h - 4 * 28 * S
+        keep = min(len(body_lines), 6)
+        while keep > 2 and _chip_h(keep) > avail:
+            keep -= 1
+        if keep < len(body_lines):
+            last = body_lines[keep - 1].rstrip(".,;")
+            while dc.textlength(last + "…", font=f_cb) > CW - 60 * S and " " in last:
+                last = last.rsplit(" ", 1)[0]
+            body_lines = body_lines[:keep - 1] + [last + "…"]
+        chip_h = _chip_h(len(body_lines))
     else:
         close = "Where is it going instead? We open the full report on your call."
         f_cl = ImageFont.truetype(FR, 24 * S)
         close_lines = wrap(close, f_cl, CW)
         chip_h = len(close_lines) * 36 * S
 
-    money_h = (34 + 52 + 168) * S
-    planhead_h = (34 + 46) * S
-    row_anchor = CARD_H - 18 * S          # step-1 title top: edge cuts mid-letter
     base = [44 * S, 44 * S, 46 * S, 40 * S]
     extra = row_anchor - y_after - chip_h - money_h - planhead_h - sum(base)
     gaps = [max(28 * S, b + extra // 4) for b in base]
 
-    # ---- ChatGPT chip (dark, like the report's quote box) ----
+    # ---- ChatGPT chip (dark, like the report's quote box): headline, the
+    # report's actual AI-search story, then the cited count ----
     y = y_after + gaps[0]
     if chip_lines is not None:
         dc.rounded_rectangle([LX, y, RX, y + chip_h], radius=18 * S, fill=(15, 23, 42))
@@ -1034,7 +1058,12 @@ def make_teaser_image(business_name, issues_count, grade=None, verdict=None, mon
         for line in chip_lines:
             dc.text((LX + 30 * S, ty), line, font=f_ch, fill=(255, 255, 255))
             ty += 38 * S
-        dc.text((LX + 30 * S, ty + 8 * S), sub, font=f_cs, fill=(148, 163, 184))
+        if body_lines:
+            ty += 12 * S
+            for line in body_lines:
+                dc.text((LX + 30 * S, ty), line, font=f_cb, fill=(203, 213, 225))
+                ty += 29 * S
+        dc.text((LX + 30 * S, ty + 14 * S), sub, font=f_cs, fill=(148, 163, 184))
     else:
         ty = y
         for line in close_lines:
@@ -1387,6 +1416,7 @@ def run_audit(website, name, email, phone, audit_id=None, email_mode="all", prog
                                     verdict=copy.get("verdict"), money=money,
                                     ai_cited=sum(1 for r in ai_results if r.get("cited")),
                                     ai_total=sum(1 for r in ai_results if r.get("cited") is not None),
+                                    ai_body=copy.get("ai_body"),
                                     plan=copy.get("game_plan"))
             teaser_key = "{}/{}/teaser.png".format(PREFIX, audit_id)
             r2_put(BUCKET, teaser_key, png, "image/png")
