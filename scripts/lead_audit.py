@@ -897,15 +897,47 @@ def _strip_dashes(s):
     return s.replace("—", ", ")
 
 
-def make_teaser_image(business_name, issues_count, grade=None, verdict=None, money=None,
-                      ai_cited=None, ai_total=None, ai_body=None, plan=None):
-    """Premium 'crop of the real report' teaser — PORTRAIT 1080x1350 (4:5),
-    Poppins, rendered 2x then downsampled. Mirrors the report's visual system
-    (section kickers, dark ChatGPT chip, gradient money box) in brand blue.
-    THEIR business name is the hero line (readable even in a phone message
-    preview); our brand lives in the footer. The game plan's step 1 headline
-    is bisected by the card edge (curiosity cut). No em dashes. All content
-    is real audit output; findings stay for the call."""
+def _google_bullets(gbp, rankings, mappack):
+    """Compose the teaser's 'Google can't find you' bullets — bold label +
+    consequence, max 2, every claim backed by the audit data or omitted.
+    Competitor names come from the map-pack leaders (claims-honesty rule)."""
+    bullets = []
+    if not (gbp or {}).get("found"):
+        bullets.append(("No Google Business Profile:",
+                        "you can't appear in the map pack, where local jobs get decided."))
+    leaders = []
+    for p in (mappack or []):
+        for comp in (p.get("competitors") or [])[:1]:
+            t = (comp.get("title") or "").split(",")[0].strip()
+            if t and t not in leaders:
+                leaders.append(t)
+    positions = [r.get("position") for r in (rankings or []) if r.get("position")]
+    if rankings and not positions:
+        lead_txt = " and ".join(leaders[:2]) if leaders else "Your competitors"
+        bullets.append(("Ranking gap:", lead_txt + " hold the top spots. "
+                        "You're not in the top 20 for any search we tracked."))
+    elif positions and min(positions) > 3:
+        bullets.append(("Ranking gap:",
+                        "Your best Google position is #{}. Customers rarely scroll past "
+                        "the top 3.".format(min(positions))))
+    elif (len(bullets) < 2 and leaders
+          and not any((p.get("client_rank") or 99) <= 3 for p in (mappack or []))):
+        bullets.append(("Map pack gap:",
+                        " and ".join(leaders[:2]) + " hold the top map spots in your cities."))
+    return bullets[:2]
+
+
+def make_teaser_image(business_name, issues_count, grade=None, money=None,
+                      ai_cited=None, ai_total=None, ai_body=None, plan=None,
+                      google_bullets=None):
+    """FINAL teaser layout (Santino picked 'version B', 2026-07-19): PORTRAIT
+    1080x1350 crop-of-the-report in brand blue. Header = big report title,
+    business name on a soft yellow highlight, visibility grade badge top
+    right. Then the light 'Google can't find you' box (x-bullets, bold label
+    + consequence, real competitor names), the dark ChatGPT box (headline +
+    the report's ai_body story + cited count), the gradient money box, and
+    THE PLAN with step 1's headline bisected by the card edge. No em dashes.
+    All content is real audit output; findings stay for the call."""
     from PIL import Image, ImageDraw, ImageFont
     S = 2
     W, H = 1080 * S, 1350 * S
@@ -966,50 +998,68 @@ def make_teaser_image(business_name, issues_count, grade=None, verdict=None, mon
 
     # ---- header: big report title, THEIR name on a yellow highlight below so
     # it still pops in a phone message preview thumbnail ----
-    f_title = fit("ONLINE VISIBILITY REPORT", FB, 46, 34, CW)
+    title_w = CW - 170 * S              # clear the badge column top right
+    f_title = fit("ONLINE VISIBILITY REPORT", FB, 46, 30, title_w)
     dc.text((LX, 54 * S), "ONLINE VISIBILITY REPORT", font=f_title, fill=INK)
     name = (business_name or "Your Business").strip()
-    f_name = fit(name, FB, 36, 25, CW - 32 * S)
+    f_name = fit(name, FB, 36, 25, title_w - 32 * S)
     nmw = dc.textlength(name, font=f_name)
     dc.rounded_rectangle([LX - 6 * S, 128 * S, LX + nmw + 22 * S, 186 * S],
-                         radius=10 * S, fill=(254, 240, 138))
+                         radius=10 * S, fill=(254, 246, 189))
     dc.text((LX + 8 * S, 135 * S), name, font=f_name, fill=INK)
     dc.line([LX, 214 * S, RX, 214 * S], fill=(226, 232, 240), width=S)
 
-    # ---- grade badge LEFT, verdict RIGHT ----
+    # ---- grade badge, top right corner of the header ----
     g = (grade or "C").upper()[:1]
     gcol = GRADE_COLORS.get(g, (217, 119, 6))
-    bs = 165 * S
-    bx0, by0 = LX, 244 * S
+    bs = 136 * S
+    bx0, by0 = RX - bs, 44 * S
     tint = (240, 253, 244) if g in "AB" else (255, 251, 235) if g == "C" else (254, 242, 242)
-    dc.rounded_rectangle([bx0, by0, bx0 + bs, by0 + bs], radius=26 * S,
+    dc.rounded_rectangle([bx0, by0, bx0 + bs, by0 + bs], radius=22 * S,
                          fill=tint, outline=gcol, width=4 * S)
-    f_grade = ImageFont.truetype(FB, 102 * S)
+    f_grade = ImageFont.truetype(FB, 84 * S)
     gw = dc.textlength(g, font=f_grade)
-    dc.text((bx0 + (bs - gw) / 2, by0 + 12 * S), g, font=f_grade, fill=gcol)
-    f_lab = ImageFont.truetype(FS, 19 * S)
+    dc.text((bx0 + (bs - gw) / 2, by0 + 10 * S), g, font=f_grade, fill=gcol)
+    f_lab = ImageFont.truetype(FS, 13 * S)
     lab = "VISIBILITY GRADE"
     lw = dc.textlength(lab, font=f_lab)
-    dc.text((bx0 + (bs - lw) / 2, by0 + bs + 14 * S), lab, font=f_lab, fill=MUTED)
+    dc.text((bx0 + (bs - lw) / 2, by0 + bs + 13 * S), lab, font=f_lab, fill=MUTED)
 
-    vtext = _strip_dashes(
-        (verdict or "Your customers are searching. They are finding someone else.").strip())
-    vx = bx0 + bs + 38 * S
-    f_v = ImageFont.truetype(FM, 30 * S)
-    vlines = wrap(vtext, f_v, RX - vx)[:4]
-    block_h = len(vlines) * 44 * S
-    vy = by0 + max((bs - block_h) // 2, 0)
-    for line in vlines:
-        dc.text((vx, vy), line, font=f_v, fill=(51, 65, 85))
-        vy += 44 * S
-
-    y_after = by0 + bs + 38 * S   # bottom of the VISIBILITY GRADE label
+    y_after = 214 * S                     # header divider; sections flow below
 
     # ---- measure the flexible sections, then justify the gaps so step 1's
     # headline lands bisected exactly on the card's bottom edge ----
     money_h = (34 + 52 + 168) * S
     planhead_h = (34 + 46) * S
     row_anchor = CARD_H - 18 * S          # step-1 title top: edge cuts mid-letter
+
+    # Google box: x-bullets, bold label + consequence (skipped if no bullets)
+    gbullets = [(la_l, la_t) for la_l, la_t in (google_bullets or [])]
+    gbox_h = 0
+    bl_wrapped = []
+    if gbullets:
+        f_gh = ImageFont.truetype(FS, 27 * S)
+        f_gl = ImageFont.truetype(FS, 21 * S)
+        f_gb = ImageFont.truetype(FR, 21 * S)
+
+        def wrap_rich(label, rest, max_w):
+            words = ([(w, f_gl) for w in _strip_dashes(label).split()]
+                     + [(w, f_gb) for w in _strip_dashes(rest).split()])
+            lines, cur, cw_ = [], [], 0
+            for w, fnt in words:
+                ww = dc.textlength(w + " ", font=fnt)
+                if cur and cw_ + ww > max_w:
+                    lines.append(cur)
+                    cur, cw_ = [], 0
+                cur.append((w, fnt))
+                cw_ += ww
+            if cur:
+                lines.append(cur)
+            return lines[:3]
+
+        bl_wrapped = [wrap_rich(l, t, CW - 100 * S) for l, t in gbullets]
+        gbox_h = (24 * S + 38 * S + 14 * S
+                  + sum(len(ls) * 31 * S + 12 * S for ls in bl_wrapped) + 10 * S)
 
     chip_lines = None
     body_lines = []
@@ -1029,7 +1079,8 @@ def make_teaser_image(business_name, issues_count, grade=None, verdict=None, mon
                     + ((12 * S + nb * 29 * S) if nb else 0)
                     + 14 * S + 24 * S + 26 * S)
 
-        avail = row_anchor - y_after - money_h - planhead_h - 4 * 28 * S
+        ngaps = 5 if gbullets else 4
+        avail = row_anchor - y_after - money_h - planhead_h - gbox_h - ngaps * 28 * S
         keep = min(len(body_lines), 6)
         while keep > 2 and _chip_h(keep) > avail:
             keep -= 1
@@ -1045,13 +1096,33 @@ def make_teaser_image(business_name, issues_count, grade=None, verdict=None, mon
         close_lines = wrap(close, f_cl, CW)
         chip_h = len(close_lines) * 36 * S
 
-    base = [44 * S, 44 * S, 46 * S, 40 * S]
-    extra = row_anchor - y_after - chip_h - money_h - planhead_h - sum(base)
-    gaps = [max(28 * S, b + extra // 4) for b in base]
+    base = ([40 * S] * 5) if gbullets else [44 * S, 44 * S, 46 * S, 40 * S]
+    extra = row_anchor - y_after - gbox_h - chip_h - money_h - planhead_h - sum(base)
+    gaps = [max(28 * S, b + extra // len(base)) for b in base]
+    gi = 0
+
+    y = y_after + gaps[gi]; gi += 1
+
+    # ---- Google box (light, x-bullets with bold labels) ----
+    if gbullets:
+        dc.rounded_rectangle([LX, y, RX, y + gbox_h], radius=18 * S,
+                             fill=(248, 250, 252), outline=(226, 232, 240), width=2 * S)
+        dc.text((LX + 30 * S, y + 24 * S), "Google can't find you", font=f_gh, fill=INK)
+        ty = y + 24 * S + 38 * S + 14 * S
+        f_x = ImageFont.truetype(FB, 24 * S)
+        for ls in bl_wrapped:
+            dc.text((LX + 32 * S, ty - 2 * S), "×", font=f_x, fill=(220, 38, 38))
+            for line in ls:
+                x = LX + 66 * S
+                for w, fnt in line:
+                    dc.text((x, ty), w, font=fnt, fill=INK if fnt is f_gl else (71, 85, 105))
+                    x += dc.textlength(w + " ", font=fnt)
+                ty += 31 * S
+            ty += 12 * S
+        y += gbox_h + gaps[gi]; gi += 1
 
     # ---- ChatGPT chip (dark, like the report's quote box): headline, the
     # report's actual AI-search story, then the cited count ----
-    y = y_after + gaps[0]
     if chip_lines is not None:
         dc.rounded_rectangle([LX, y, RX, y + chip_h], radius=18 * S, fill=(15, 23, 42))
         ty = y + 26 * S
@@ -1069,7 +1140,7 @@ def make_teaser_image(business_name, issues_count, grade=None, verdict=None, mon
         for line in close_lines:
             dc.text((LX, ty), line, font=f_cl, fill=MUTED)
             ty += 36 * S
-    y += chip_h + gaps[1]
+    y += chip_h + gaps[gi]; gi += 1
 
     # ---- revenue: kicker + headline ABOVE the gradient box ----
     y = kicker(y, "WHAT IT'S WORTH")
@@ -1099,7 +1170,7 @@ def make_teaser_image(business_name, issues_count, grade=None, verdict=None, mon
     f_asub = ImageFont.truetype(FM, 21 * S)
     asw = dc.textlength(amt_sub, font=f_asub)
     dc.text(((CARD_W - asw) / 2, y + 112 * S), amt_sub, font=f_asub, fill=(219, 234, 254))
-    y += box_h + gaps[2]
+    y += box_h + gaps[gi]; gi += 1
 
     # ---- the plan: headline fully visible, step 1's own headline bisected by
     # the card edge so nothing is given away (top half of the letters only) ----
@@ -1413,11 +1484,12 @@ def run_audit(website, name, email, phone, audit_id=None, email_mode="all", prog
         try:
             n_fixes = len(copy.get("game_plan") or []) or 5
             png = make_teaser_image(prof["business_name"], n_fixes, copy.get("grade"),
-                                    verdict=copy.get("verdict"), money=money,
+                                    money=money,
                                     ai_cited=sum(1 for r in ai_results if r.get("cited")),
                                     ai_total=sum(1 for r in ai_results if r.get("cited") is not None),
                                     ai_body=copy.get("ai_body"),
-                                    plan=copy.get("game_plan"))
+                                    plan=copy.get("game_plan"),
+                                    google_bullets=_google_bullets(gbp, rankings, mappack))
             teaser_key = "{}/{}/teaser.png".format(PREFIX, audit_id)
             r2_put(BUCKET, teaser_key, png, "image/png")
             teaser_url = "{}/{}".format(PUBLIC_BASE, teaser_key)
