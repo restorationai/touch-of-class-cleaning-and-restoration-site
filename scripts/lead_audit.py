@@ -1230,9 +1230,10 @@ def _ghl(method, path, params=None, body=None, add_loc=True):
 
 
 def _ghl_custom_field_ids():
-    """Resolve (create if missing) the two audit custom fields. Cached per run."""
+    """Resolve (create if missing) the audit custom fields. Cached per run."""
     loc = os.environ.get("GHL_LOCATION_ID")
-    want = {"audit_report_url": None, "audit_teaser_image_url": None}
+    want = {"audit_report_url": None, "audit_teaser_image_url": None,
+            "audit_cities": None, "audit_grade": None}
     existing = _ghl("GET", "/locations/{}/customFields".format(loc), params={}) or {}
     for f in existing.get("customFields", []):
         k = (f.get("fieldKey") or f.get("name") or "").split(".")[-1].lower()
@@ -1247,10 +1248,11 @@ def _ghl_custom_field_ids():
 
 
 def deliver_to_ghl(name, email, phone, domain, business_name, grade,
-                   report_url, teaser_url, log):
-    """Find-or-create the lead's GHL contact; write the audit URLs to custom
-    fields + a note, and ops-ping the team. Best-effort: any failure logs and
-    moves on (the report itself is already safe on R2)."""
+                   report_url, teaser_url, log, cities=None):
+    """Find-or-create the lead's GHL contact; write the audit URLs + cities +
+    grade to custom fields + a note. cities is a human phrase ("Memphis and
+    Cincinnati") for SMS merge-field personalization. Best-effort: any failure
+    logs and moves on (the report itself is already safe on R2)."""
     contact_id = None
     for q in [email, phone]:
         if not q:
@@ -1267,6 +1269,10 @@ def deliver_to_ghl(name, email, phone, domain, business_name, grade,
         {"id": fields["audit_report_url"], "field_value": report_url},
         {"id": fields["audit_teaser_image_url"], "field_value": teaser_url},
     ]
+    if cities:
+        payload_fields.append({"id": fields["audit_cities"], "field_value": cities})
+    if grade:
+        payload_fields.append({"id": fields["audit_grade"], "field_value": str(grade)})
     if contact_id:
         _ghl("PUT", "/contacts/{}".format(contact_id), params={},
              body={"customFields": payload_fields})
@@ -1498,8 +1504,12 @@ def run_audit(website, name, email, phone, audit_id=None, email_mode="all", prog
             errors.append("teaser: " + str(e)[:150])
             log("teaser FAILED: " + str(e)[:150])
         try:
+            city_names = [c["city"] for c in cities][:3]
+            cities_phrase = (" and ".join([", ".join(city_names[:-1]), city_names[-1]])
+                             if len(city_names) > 2 else " and ".join(city_names))
             deliver_to_ghl(name, email, phone, domain, prof["business_name"],
-                           copy.get("grade"), report_url, teaser_url or report_url, log)
+                           copy.get("grade"), report_url, teaser_url or report_url, log,
+                           cities=cities_phrase)
         except Exception as e:
             errors.append("ghl_delivery: " + str(e)[:150])
             log("ghl delivery FAILED: " + str(e)[:150])
