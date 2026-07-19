@@ -1233,7 +1233,8 @@ def _ghl_custom_field_ids():
     """Resolve (create if missing) the audit custom fields. Cached per run."""
     loc = os.environ.get("GHL_LOCATION_ID")
     want = {"audit_report_url": None, "audit_teaser_image_url": None,
-            "audit_cities": None, "audit_grade": None}
+            "audit_cities": None, "audit_grade": None,
+            "visibility_grade": None}   # alias: Santino's SMS templates use this key
     existing = _ghl("GET", "/locations/{}/customFields".format(loc), params={}) or {}
     for f in existing.get("customFields", []):
         k = (f.get("fieldKey") or f.get("name") or "").split(".")[-1].lower()
@@ -1273,6 +1274,7 @@ def deliver_to_ghl(name, email, phone, domain, business_name, grade,
         payload_fields.append({"id": fields["audit_cities"], "field_value": cities})
     if grade:
         payload_fields.append({"id": fields["audit_grade"], "field_value": str(grade)})
+        payload_fields.append({"id": fields["visibility_grade"], "field_value": str(grade)})
     if contact_id:
         _ghl("PUT", "/contacts/{}".format(contact_id), params={},
              body={"customFields": payload_fields})
