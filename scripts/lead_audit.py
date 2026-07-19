@@ -231,34 +231,47 @@ def _claude_cost(usages):
 # Step 1 — fetch + profile the site
 # ---------------------------------------------------------------------------
 
-def fetch_site(domain):
-    """Homepage + up to 4 about/service pages, as plain text."""
+def fetch_site(domain, start_url=None):
+    """Homepage + up to 4 about/service pages, as plain text.
+
+    start_url: when the lead submitted a PAGE on a shared domain (franchise
+    sites like puroclean.com/eastlasvegas), profile from THAT page — the
+    domain root is the corporate brand, not their business — and prefer
+    links inside the same subtree."""
     pages = {}
     base = "https://" + domain
-    try:
-        raw = _http_get(base).decode("utf-8", "ignore")
-    except Exception:
-        raw = _http_get("http://" + domain).decode("utf-8", "ignore")  # may raise
+    if start_url:
+        raw = _http_get(start_url).decode("utf-8", "ignore")
+    else:
+        try:
+            raw = _http_get(base).decode("utf-8", "ignore")
+        except Exception:
+            raw = _http_get("http://" + domain).decode("utf-8", "ignore")  # may raise
     pages["homepage"] = _html_to_text(raw)[:15000]
 
+    sub_prefix = urllib.parse.urlparse(start_url).path.rstrip("/").lower() if start_url else ""
     hrefs = re.findall(r'href=["\']([^"\'#]+)', raw)
-    picked, seen = [], set()
+    sub_picked, kw_picked, seen = [], [], set()
     for h in hrefs:
-        full = urllib.parse.urljoin(base + "/", h)
+        full = urllib.parse.urljoin((start_url or base) + "/", h)
         host = _norm_domain(full)
         if host != domain:
             continue
         path = urllib.parse.urlparse(full).path.lower()
         if re.search(r"\.(png|jpe?g|gif|svg|webp|ico|pdf|css|js|xml|woff2?)$", path) or "/wp-content/" in path:
             continue
-        if re.search(r"about|service|water|fire|mold|storm|restoration|area|location|contact", path):
-            key = path.rstrip("/")
-            if key and key not in seen:
-                seen.add(key)
-                picked.append(full)
-        if len(picked) >= 4:
+        key = path.rstrip("/")
+        if not key or key in seen or key == sub_prefix:
+            continue
+        if sub_prefix and key.startswith(sub_prefix + "/"):
+            seen.add(key)
+            sub_picked.append(full)
+        elif re.search(r"about|service|water|fire|mold|storm|restoration|area|location|contact", path):
+            seen.add(key)
+            kw_picked.append(full)
+        if len(sub_picked) >= 4:
             break
-    for u in picked:
+    for u in (sub_picked + kw_picked)[:4]:
         try:
             pages[u] = _html_to_text(_http_get(u).decode("utf-8", "ignore"))[:8000]
         except Exception:
@@ -1356,6 +1369,12 @@ def run_audit(website, name, email, phone, audit_id=None, email_mode="all", prog
     domain = _norm_domain(website)
     if not re.match(r"^[a-z0-9.-]+\.[a-z]{2,}$", domain):
         raise ValueError("invalid website: " + str(website))
+    # franchise/shared-domain support: profile from the submitted PAGE, not
+    # the domain root (puroclean.com/eastlasvegas is a business; puroclean.com
+    # is a corporation with 400 locations)
+    m_path = re.match(r"^(?:https?://)?[^/?#]+(/[^?#]*)", (website or "").strip())
+    sub_path = (m_path.group(1).rstrip("/") if m_path else "")
+    start_url = "https://" + domain + sub_path if sub_path else None
     errors = []
     costs = {"dataforseo": 0.0, "claude": 0.0}
     usages = []
@@ -1365,8 +1384,8 @@ def run_audit(website, name, email, phone, audit_id=None, email_mode="all", prog
     log("audit {} for {} started".format(audit_id, domain))
 
     # 1. site -> profile
-    pages = fetch_site(domain)
-    prof, u = profile_site(client, domain, pages)
+    pages = fetch_site(domain, start_url)
+    prof, u = profile_site(client, start_url or domain, pages)
     usages.append(u)
     service = prof["services"][0]
     cities = prof["cities"]
