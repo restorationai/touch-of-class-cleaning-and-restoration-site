@@ -621,6 +621,8 @@ HARD RULES — these are non-negotiable:
 4. Never promise results; describe gaps and what fixing them typically does.
 5. When naming competitors, only use names that literally appear in the audit data
    (map-pack competitor titles or AI answer excerpts).
+6. NEVER use an em dash (—) or a spaced en dash anywhere. Use a comma, a colon, or
+   two sentences instead.
 
 Return ONLY a JSON object (no fences) with exactly these keys:
 {
@@ -632,7 +634,8 @@ Return ONLY a JSON object (no fences) with exactly these keys:
  "city_cards": [{"city": str, "headline": str, "body": str}],  // one per city with ranking data;
                                       // headline <=8 words; body 2 sentences citing their actual positions
  "heatmap_caption": str,              // 1-2 sentences reading the heat map(s) for them (only if geogrid data)
- "ai_headline": str,                  // <=10 words, e.g. "AI assistants are recommending someone else"
+ "ai_headline": str,                  // <=10 words; lead with ChatGPT when the data includes a
+                                      // ChatGPT answer, e.g. "ChatGPT is recommending someone else"
  "ai_body": str,                      // 2-3 sentences: what we asked, whether they appeared, and WHO the
                                       // AI recommended instead (competitor names from the answer excerpts)
  "reviews_body": str,                 // 2-3 sentences comparing their rating/review count vs the top-3
@@ -884,22 +887,24 @@ BLUE_DK = (29, 78, 216)     # blue-700 (gradient end)
 INK = (15, 23, 42)
 MUTED = (100, 116, 139)
 
-TEASER_PLAN_FALLBACK = [
-    {"title": "Claim and build a Google Business Profile", "body": ""},
-    {"title": "Launch a fast, city-targeted website", "body": ""},
-    {"title": "Win the map pack with reviews", "body": ""},
-    {"title": "Get cited by AI assistants", "body": ""},
-    {"title": "Track calls and double down on what works", "body": ""},
-]
+def _strip_dashes(s):
+    """No em dashes anywhere in client-facing text (Santino's rule): turn a
+    sentence-break dash into a period and capitalize what follows."""
+    if not s:
+        return s
+    s = re.sub(r"\s*—\s*(\w)", lambda m: ". " + m.group(1).upper(), s)
+    s = re.sub(r"\s+–\s+(\w)", lambda m: ". " + m.group(1).upper(), s)
+    return s.replace("—", ", ")
 
 
 def make_teaser_image(business_name, issues_count, grade=None, verdict=None, money=None,
-                      ai_cited=None, ai_total=None, ai_headline=None, plan=None):
+                      ai_cited=None, ai_total=None, plan=None):
     """Premium 'crop of the real report' teaser — PORTRAIT 1080x1350 (4:5),
     Poppins, rendered 2x then downsampled. Mirrors the report's visual system
-    (section kickers, dark AI-search chip, gradient money box) in brand blue.
-    The 5-step game plan is the last section and is clipped mid-letter by the
-    card edge, so the image reads as a snippet of a longer report. All content
+    (section kickers, dark ChatGPT chip, gradient money box) in brand blue.
+    THEIR business name is the hero line (readable even in a phone message
+    preview); our brand lives in the footer. The game plan's step 1 headline
+    is bisected by the card edge (curiosity cut). No em dashes. All content
     is real audit output; findings stay for the call."""
     from PIL import Image, ImageDraw, ImageFont
     S = 2
@@ -946,9 +951,9 @@ def make_teaser_image(business_name, issues_count, grade=None, verdict=None, mon
             lines.append(cur)
         return lines
 
-    def kicker(y, text):
+    def kicker(y, text, size=21):
         # small letter-spaced blue caps, like the report's section labels
-        f = ImageFont.truetype(FB, 21 * S)
+        f = ImageFont.truetype(FB, size * S)
         x = LX
         for ch in text:
             dc.text((x, y), ch, font=f, fill=BLUE)
@@ -959,21 +964,19 @@ def make_teaser_image(business_name, issues_count, grade=None, verdict=None, mon
     RX = CARD_W - 52 * S
     CW = RX - LX
 
-    # ---- header ----
-    f_brand = ImageFont.truetype(FB, 25 * S)
-    dc.text((LX, 50 * S), "RESTORATION AI", font=f_brand, fill=BLUE)
-    f_title = fit("ONLINE VISIBILITY REPORT", FB, 46, 34, CW)
-    dc.text((LX, 88 * S), "ONLINE VISIBILITY REPORT", font=f_title, fill=INK)
+    # ---- header: what it is (small blue) + THEIR name as the hero line, so
+    # the business name reads even in a phone message preview thumbnail ----
+    kicker(52 * S, "ONLINE VISIBILITY REPORT", 23)
     name = (business_name or "Your Business").strip()
-    f_name = fit(name, FS, 33, 24, CW)
-    dc.text((LX, 158 * S), name, font=f_name, fill=MUTED)
-    dc.line([LX, 218 * S, RX, 218 * S], fill=(226, 232, 240), width=S)
+    f_name = fit(name, FB, 50, 30, CW)
+    dc.text((LX, 96 * S), name, font=f_name, fill=INK)
+    dc.line([LX, 182 * S, RX, 182 * S], fill=(226, 232, 240), width=S)
 
     # ---- grade badge LEFT, verdict RIGHT ----
     g = (grade or "C").upper()[:1]
     gcol = GRADE_COLORS.get(g, (217, 119, 6))
     bs = 165 * S
-    bx0, by0 = LX, 248 * S
+    bx0, by0 = LX, 212 * S
     tint = (240, 253, 244) if g in "AB" else (255, 251, 235) if g == "C" else (254, 242, 242)
     dc.rounded_rectangle([bx0, by0, bx0 + bs, by0 + bs], radius=26 * S,
                          fill=tint, outline=gcol, width=4 * S)
@@ -985,7 +988,8 @@ def make_teaser_image(business_name, issues_count, grade=None, verdict=None, mon
     lw = dc.textlength(lab, font=f_lab)
     dc.text((bx0 + (bs - lw) / 2, by0 + bs + 14 * S), lab, font=f_lab, fill=MUTED)
 
-    vtext = (verdict or "Your customers are searching. They are finding someone else.").strip()
+    vtext = _strip_dashes(
+        (verdict or "Your customers are searching. They are finding someone else.").strip())
     vx = bx0 + bs + 38 * S
     f_v = ImageFont.truetype(FM, 30 * S)
     vlines = wrap(vtext, f_v, RX - vx)[:4]
@@ -995,24 +999,48 @@ def make_teaser_image(business_name, issues_count, grade=None, verdict=None, mon
         dc.text((vx, vy), line, font=f_v, fill=(51, 65, 85))
         vy += 44 * S
 
-    y = by0 + bs + 52 * S
+    y_after = by0 + bs + 38 * S   # bottom of the VISIBILITY GRADE label
 
-    # ---- AI search chip (dark, like the report's ChatGPT quote box) ----
+    # ---- measure the flexible sections, then justify the gaps so step 1's
+    # headline lands bisected exactly on the card's bottom edge ----
+    chip_lines = None
+    f_ch = ImageFont.truetype(FS, 27 * S)
     if ai_total:
-        head = (ai_headline or "AI assistants are recommending someone else").strip()
-        f_ch = ImageFont.truetype(FS, 27 * S)
-        hlines = wrap(head, f_ch, CW - 60 * S)[:2]
+        head = ("ChatGPT is recommending someone else" if not ai_cited
+                else "ChatGPT still recommends your competitors")
+        chip_lines = wrap(head, f_ch, CW - 60 * S)[:2]
         sub = "Your business was cited in {} of {} live AI answers we checked.".format(
             int(ai_cited or 0), int(ai_total))
         f_cs = fit(sub, FR, 21, 16, CW - 60 * S)
-        chip_h = 30 * S + len(hlines) * 38 * S + 8 * S + 30 * S + 28 * S
+        chip_h = 30 * S + len(chip_lines) * 38 * S + 8 * S + 30 * S + 28 * S
+    else:
+        close = "Where is it going instead? We open the full report on your call."
+        f_cl = ImageFont.truetype(FR, 24 * S)
+        close_lines = wrap(close, f_cl, CW)
+        chip_h = len(close_lines) * 36 * S
+
+    money_h = (34 + 52 + 168) * S
+    planhead_h = (34 + 46) * S
+    row_anchor = CARD_H - 18 * S          # step-1 title top: edge cuts mid-letter
+    base = [44 * S, 44 * S, 46 * S, 40 * S]
+    extra = row_anchor - y_after - chip_h - money_h - planhead_h - sum(base)
+    gaps = [max(28 * S, b + extra // 4) for b in base]
+
+    # ---- ChatGPT chip (dark, like the report's quote box) ----
+    y = y_after + gaps[0]
+    if chip_lines is not None:
         dc.rounded_rectangle([LX, y, RX, y + chip_h], radius=18 * S, fill=(15, 23, 42))
         ty = y + 26 * S
-        for line in hlines:
+        for line in chip_lines:
             dc.text((LX + 30 * S, ty), line, font=f_ch, fill=(255, 255, 255))
             ty += 38 * S
         dc.text((LX + 30 * S, ty + 8 * S), sub, font=f_cs, fill=(148, 163, 184))
-        y += chip_h + 40 * S
+    else:
+        ty = y
+        for line in close_lines:
+            dc.text((LX, ty), line, font=f_cl, fill=MUTED)
+            ty += 36 * S
+    y += chip_h + gaps[1]
 
     # ---- revenue: kicker + headline ABOVE the gradient box ----
     y = kicker(y, "WHAT IT'S WORTH")
@@ -1042,52 +1070,25 @@ def make_teaser_image(business_name, issues_count, grade=None, verdict=None, mon
     f_asub = ImageFont.truetype(FM, 21 * S)
     asw = dc.textlength(amt_sub, font=f_asub)
     dc.text(((CARD_W - asw) / 2, y + 112 * S), amt_sub, font=f_asub, fill=(219, 234, 254))
-    y += box_h + 44 * S
+    y += box_h + gaps[2]
 
-    # ---- game plan: last section, clipped mid-letter by the card edge ----
+    # ---- the plan: headline fully visible, step 1's own headline bisected by
+    # the card edge so nothing is given away (top half of the letters only) ----
     y = kicker(y, "THE PLAN")
     f_ph = fit("The 5-step game plan to fix this", FB, 34, 26, CW)
     dc.text((LX, y), "The 5-step game plan to fix this", font=f_ph, fill=INK)
-    y += 68 * S
 
-    steps = [s for s in (plan or []) if isinstance(s, dict) and s.get("title")] or TEASER_PLAN_FALLBACK
-    f_st = ImageFont.truetype(FS, 27 * S)
-    f_sb = ImageFont.truetype(FR, 23 * S)
-    stream = []  # (y, kind, payload) — laid out first so the cut can be tuned
-    sy = y
-    for i, step in enumerate(steps[:5]):
-        stream.append((sy, "row", (str(i + 1), step["title"])))
-        sy += 54 * S
-        for bl in wrap((step.get("body") or "").strip(), f_sb, CW - 64 * S)[:4]:
-            stream.append((sy, "line", bl))
-            sy += 42 * S
-        sy += 14 * S
-        if sy > CARD_H + 60 * S:
-            break
-    # nudge so the card edge cuts through letter bodies, not between lines —
-    # shift the stream DOWN until the last fully-visible line straddles the edge
-    cut = CARD_H
-    letter = lambda ty: ty + 8 * S <= cut <= ty + 30 * S
-    crosses = any(ty + 30 * S >= cut for ty, _, _ in stream)
-    if crosses and not any(letter(ty) for ty, _, _ in stream):
-        above = [ty for ty, _, _ in stream if ty + 30 * S < cut]
-        if above:
-            stream = [(ty + (cut - max(above) - 18 * S), k, p) for ty, k, p in stream]
-    for ty, kind, payload in stream:
-        if ty > CARD_H + 40 * S:
-            break
-        if kind == "row":
-            num, title = payload
-            r = 21 * S
-            ccy = ty + 17 * S
-            dc.ellipse([LX, ccy - r, LX + 2 * r, ccy + r], fill=BLUE)
-            f_n = ImageFont.truetype(FB, 22 * S)
-            nw = dc.textlength(num, font=f_n)
-            dc.text((LX + r - nw / 2, ccy - 15 * S), num, font=f_n, fill=(255, 255, 255))
-            f_t = fit(title, FS, 27, 21, CW - 64 * S)
-            dc.text((LX + 64 * S, ty + 2 * S), title, font=f_t, fill=INK)
-        else:
-            dc.text((LX + 64 * S, ty), payload, font=f_sb, fill=(71, 85, 105))
+    steps = [s for s in (plan or []) if isinstance(s, dict) and s.get("title")]
+    title = _strip_dashes((steps[0]["title"] if steps
+                           else "Claim and build a Google Business Profile").strip())
+    r = 21 * S
+    ccy = row_anchor + 17 * S
+    dc.ellipse([LX, ccy - r, LX + 2 * r, ccy + r], fill=BLUE)
+    f_n = ImageFont.truetype(FB, 22 * S)
+    nw = dc.textlength("1", font=f_n)
+    dc.text((LX + r - nw / 2, ccy - 15 * S), "1", font=f_n, fill=(255, 255, 255))
+    f_t = fit(title, FS, 27, 21, CW - 64 * S)
+    dc.text((LX + 64 * S, row_anchor + 2 * S), title, font=f_t, fill=INK)
 
     # paste card through rounded mask (clips overflow), then footer on the bg
     mask = Image.new("L", (CARD_W, CARD_H), 0)
@@ -1386,7 +1387,6 @@ def run_audit(website, name, email, phone, audit_id=None, email_mode="all", prog
                                     verdict=copy.get("verdict"), money=money,
                                     ai_cited=sum(1 for r in ai_results if r.get("cited")),
                                     ai_total=sum(1 for r in ai_results if r.get("cited") is not None),
-                                    ai_headline=copy.get("ai_headline"),
                                     plan=copy.get("game_plan"))
             teaser_key = "{}/{}/teaser.png".format(PREFIX, audit_id)
             r2_put(BUCKET, teaser_key, png, "image/png")
