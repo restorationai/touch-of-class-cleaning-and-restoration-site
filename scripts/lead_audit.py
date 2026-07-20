@@ -923,9 +923,9 @@ def send_sms(to_phone, body):
 
 GRADE_COLORS = {"A": (16, 163, 127), "B": (16, 163, 127),
                 "C": (217, 119, 6), "D": (220, 38, 38), "F": (220, 38, 38)}
-BLUE = (37, 99, 235)        # brand blue-600 (matches restorationai.io)
-BLUE_LT = (59, 130, 246)    # blue-500 (gradient start)
-BLUE_DK = (29, 78, 216)     # blue-700 (gradient end)
+BLUE = (30, 63, 138)        # sapphire ink (Santino picked over stock blue, 2026-07-20)
+BLUE_LT = (44, 85, 176)     # gradient start
+BLUE_DK = (20, 38, 79)      # gradient end (near-midnight)
 INK = (15, 23, 42)
 MUTED = (100, 116, 139)
 
@@ -1081,8 +1081,8 @@ def make_teaser_image(business_name, issues_count, grade=None, money=None,
     bl_wrapped = []
     if gbullets:
         f_gh = ImageFont.truetype(FS, 27 * S)
-        f_gl = ImageFont.truetype(FS, 21 * S)
-        f_gb = ImageFont.truetype(FR, 21 * S)
+        f_gl = ImageFont.truetype(FS, 22 * S)
+        f_gb = ImageFont.truetype(FR, 22 * S)
 
         def wrap_rich(label, rest, max_w):
             words = ([(w, f_gl) for w in _strip_dashes(label).split()]
@@ -1106,20 +1106,20 @@ def make_teaser_image(business_name, issues_count, grade=None, money=None,
     chip_lines = None
     body_lines = []
     f_ch = ImageFont.truetype(FS, 27 * S)
-    f_cb = ImageFont.truetype(FR, 20 * S)
+    f_cb = ImageFont.truetype(FR, 21 * S)
     if ai_total:
         head = ("ChatGPT is recommending someone else" if not ai_cited
                 else "ChatGPT still recommends your competitors")
         chip_lines = wrap(head, f_ch, CW - 60 * S)[:2]
         sub = "Cited in {} of {} live AI answers across ChatGPT and Google.".format(
             int(ai_cited or 0), int(ai_total))
-        f_cs = fit(sub, FS, 19, 15, CW - 60 * S)
+        f_cs = fit(sub, FS, 20, 16, CW - 60 * S)
         body_lines = wrap(_strip_dashes((ai_body or "").strip()), f_cb, CW - 60 * S)
 
         def _chip_h(nb):
-            return (26 * S + len(chip_lines) * 38 * S
-                    + ((12 * S + nb * 29 * S) if nb else 0)
-                    + 14 * S + 24 * S + 26 * S)
+            return (24 * S + len(chip_lines) * 38 * S
+                    + ((12 * S + nb * 28 * S) if nb else 0)
+                    + 12 * S + 24 * S + 24 * S)
 
         ngaps = 5 if gbullets else 4
         avail = row_anchor - y_after - money_h - planhead_h - gbox_h - ngaps * 28 * S
@@ -1140,7 +1140,7 @@ def make_teaser_image(business_name, issues_count, grade=None, money=None,
 
     base = ([40 * S] * 5) if gbullets else [44 * S, 44 * S, 46 * S, 40 * S]
     extra = row_anchor - y_after - gbox_h - chip_h - money_h - planhead_h - sum(base)
-    gaps = [max(28 * S, b + extra // len(base)) for b in base]
+    gaps = [max(24 * S, b + extra // len(base)) for b in base]
     gi = 0
 
     y = y_after + gaps[gi]; gi += 1
@@ -1167,7 +1167,7 @@ def make_teaser_image(business_name, issues_count, grade=None, money=None,
     # report's actual AI-search story, then the cited count ----
     if chip_lines is not None:
         dc.rounded_rectangle([LX, y, RX, y + chip_h], radius=18 * S, fill=(15, 23, 42))
-        ty = y + 26 * S
+        ty = y + 24 * S
         for line in chip_lines:
             dc.text((LX + 30 * S, ty), line, font=f_ch, fill=(255, 255, 255))
             ty += 38 * S
@@ -1175,8 +1175,8 @@ def make_teaser_image(business_name, issues_count, grade=None, money=None,
             ty += 12 * S
             for line in body_lines:
                 dc.text((LX + 30 * S, ty), line, font=f_cb, fill=(203, 213, 225))
-                ty += 29 * S
-        dc.text((LX + 30 * S, ty + 14 * S), sub, font=f_cs, fill=(148, 163, 184))
+                ty += 28 * S
+        dc.text((LX + 30 * S, ty + 12 * S), sub, font=f_cs, fill=(148, 163, 184))
     else:
         ty = y
         for line in close_lines:
