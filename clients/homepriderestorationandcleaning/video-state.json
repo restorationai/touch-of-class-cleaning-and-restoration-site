@@ -1,6 +1,6 @@
 {
-  "last_kind": "geo",
-  "cycle_pos": 0,
+  "last_kind": "blog",
+  "cycle_pos": 1,
   "geo_cursor": 2,
   "history": [
     {
@@ -26,6 +26,14 @@
       "service": "water-damage-restoration",
       "city": "Lehi",
       "youtube_id": "FHkC8ikNiqg"
+    },
+    {
+      "ts": "2026-07-20T17:30:27.689252+00:00",
+      "kind": "blog",
+      "post": "burst-pipe-emergency-checklist",
+      "service": null,
+      "city": null,
+      "youtube_id": "zUwQumxt1-I"
     }
   ]
 }
