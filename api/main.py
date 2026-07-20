@@ -518,6 +518,33 @@ def create_lead_audit(req: LeadAuditRequest, request: Request):
                     "You can also poll GET /lead-audit/{audit_id}."}
 
 
+class KickoffPrepRequest(BaseModel):
+    contact_id: str
+    secret: str = ""
+    appointment_time: str = ""   # optional human phrase, e.g. "tomorrow at 5"
+
+
+@app.post("/kickoff-prep")
+def kickoff_prep_endpoint(req: KickoffPrepRequest):
+    """Fired by the GHL 'kickoff booked' workflow webhook. Spawns a thread
+    that polls Fathom for the just-finished sales demo with this contact,
+    extracts what Santino asked them to have ready, and sends ONE friendly
+    SMS + email (deduped via the kickoff-prep-sent contact tag)."""
+    expected = (os.environ.get("KICKOFF_PREP_SECRET")
+                or os.environ.get("LEAD_AUDIT_FUNNEL_SECRET", ""))
+    if not (expected and req.secret == expected):
+        raise HTTPException(status_code=403, detail="bad secret")
+    if not req.contact_id or len(req.contact_id) < 8:
+        raise HTTPException(status_code=400, detail="contact_id required")
+    import kickoff_prep  # scripts/ is on sys.path (see header)
+    threading.Thread(target=kickoff_prep.run, args=(req.contact_id,),
+                     kwargs={"appt_time": req.appointment_time},
+                     daemon=True).start()
+    return {"status": "queued",
+            "note": "Polling Fathom for the demo transcript; the reminder "
+                    "sends once it lands. Dedupe tag: kickoff-prep-sent."}
+
+
 @app.get("/lead-audit/{audit_id}")
 def get_lead_audit(audit_id: str):
     """Public: audit status. Returns only status + report URL (no contact info)."""
