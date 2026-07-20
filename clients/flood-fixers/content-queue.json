@@ -136,10 +136,10 @@
     },
     {
       "id": "2026-07-06-water-damage-restoration-cost",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-07-06T18:21:18Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-07-20T18:13:16Z",
+      "post_url": "https://flood-fixers.com/blog/how-much-does-water-damage-restoration-cost/",
       "primary_keyword": "how much does water damage restoration cost",
       "intent": "commercial",
       "volume": null,
@@ -338,6 +338,110 @@
         "https://www.cdc.gov/disasters/floods/index.html"
       ],
       "notes": "Flood water is typically category 3 (black water): sewage, chemicals, pathogens. Cover contamination risks, PPE, why DIY cleanup is risky, when to evacuate. Keep health claims general and cite CDC. No existing blog coverage. No metrics: DataForSEO unavailable this run; queued intent-first."
+    },
+    {
+      "id": "2026-07-20-how-to-prevent-mold-after-a-flood",
+      "status": "queued",
+      "queued_at": "2026-07-20T21:15:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to prevent mold after a flood",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "how long before mold grows after a flood",
+        "how to dry out after a flood to prevent mold",
+        "does flood water always cause mold",
+        "mold prevention after flooding",
+        "when to call a mold professional after a flood"
+      ],
+      "suggested_slug": "how-to-prevent-mold-after-a-flood",
+      "suggested_title": "How To Prevent Mold After a Flood (The 24-48 Hour Window)",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/flood-damage-restoration/",
+        "/services/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "flood-damage-restoration",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-cleanup-your-home",
+        "https://www.cdc.gov/disasters/floods/index.html"
+      ],
+      "notes": "Actionable prevention post: mold begins in 24-48h after flooding. Cover fast water removal, structural drying, discarding porous materials, dehumidification, and when DIY isn't enough. Distinct from the basement-flooding-prevention (prevents the flood) and mold-after-water-damage (mold growth timing) blogs. No Google volume returned; queued intent-first as a GEO/AI-retrieval question. KD low (null in bulk check)."
+    },
+    {
+      "id": "2026-07-20-what-to-throw-away-after-a-flood",
+      "status": "queued",
+      "queued_at": "2026-07-20T21:15:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what to throw away after a flood",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "what to save after a flood",
+        "can carpet be saved after flooding",
+        "what materials must be removed after flooding",
+        "is flood damaged furniture salvageable",
+        "cleaning vs discarding items after a flood"
+      ],
+      "suggested_slug": "what-to-throw-away-after-a-flood",
+      "suggested_title": "What To Throw Away After a Flood (And What You Can Save)",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/flood-damage-restoration/",
+        "/services/basement-flooding-cleanup/"
+      ],
+      "service_tags": [
+        "flood-damage-restoration",
+        "basement-flooding-cleanup"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.ready.gov/floods",
+        "https://www.epa.gov/mold/mold-cleanup-your-home"
+      ],
+      "notes": "Save/discard checklist grounded in the ChatGPT decomposition: usually discard carpet padding, wet insulation, particleboard/MDF, mattresses and upholstery exposed to floodwater; can often save solid wood, metal, glass after cleaning. Emphasize category-3 contamination from floodwater. No Google volume returned; queued intent-first."
+    },
+    {
+      "id": "2026-07-20-how-much-does-flood-damage-cleanup-cost",
+      "status": "queued",
+      "queued_at": "2026-07-20T21:15:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how much does flood damage cleanup cost",
+      "intent": "commercial",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "flood damage cleanup cost",
+        "what affects flood cleanup cost",
+        "does flood insurance cover cleanup",
+        "flood cleanup cost per square foot",
+        "professional flood cleanup vs diy cost"
+      ],
+      "suggested_slug": "how-much-does-flood-damage-cleanup-cost",
+      "suggested_title": "How Much Does Flood Damage Cleanup Cost? A 2026 Price Breakdown",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/flood-damage-restoration/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "flood-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.floodsmart.gov/",
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Decision-stage cost query, distinct from the queued water-damage-restoration cost post: flood water is typically category 3, driving higher remediation cost, and NFIP flood insurance (not standard homeowners) is the relevant coverage. Keep ranges general; avoid unverifiable local quotes. Commercial intent, no matching commercial page in url-plan; blog is correct home. No Google volume returned; queued intent-first, KD low."
     }
   ]
 }
