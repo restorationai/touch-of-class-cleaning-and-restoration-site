@@ -400,10 +400,10 @@
     },
     {
       "id": "2026-07-09-how-much-does-a-general-contractor-cost",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-07-09T17:54:12Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-07-20T18:02:30Z",
+      "post_url": "https://davisconstructioncontractors.com/blog/how-much-does-a-general-contractor-cost/",
       "primary_keyword": "how much does a general contractor cost",
       "intent": "informational",
       "volume": null,
