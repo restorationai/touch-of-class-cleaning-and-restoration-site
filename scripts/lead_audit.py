@@ -923,9 +923,9 @@ def send_sms(to_phone, body):
 
 GRADE_COLORS = {"A": (16, 163, 127), "B": (16, 163, 127),
                 "C": (217, 119, 6), "D": (220, 38, 38), "F": (220, 38, 38)}
-BLUE = (30, 63, 138)        # sapphire ink (Santino picked over stock blue, 2026-07-20)
-BLUE_LT = (44, 85, 176)     # gradient start
-BLUE_DK = (20, 38, 79)      # gradient end (near-midnight)
+BLUE = (14, 88, 116)        # deep petrol (Santino's final pick over stock hues, 2026-07-20)
+BLUE_LT = (20, 123, 165)    # gradient start
+BLUE_DK = (10, 58, 82)      # gradient end
 INK = (15, 23, 42)
 MUTED = (100, 116, 139)
 
