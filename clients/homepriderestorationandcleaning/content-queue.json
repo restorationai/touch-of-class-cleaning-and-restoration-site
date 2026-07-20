@@ -218,7 +218,7 @@
     },
     {
       "id": "2026-07-02-fire-damage-restoration-cost",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-07-02T17:37:35Z",
       "written_at": "2026-07-20T18:25:11Z",
       "post_url": "https://homepriderestorationandcleaning.com/blog/fire-damage-restoration-cost/",
@@ -251,7 +251,8 @@
       "external_authority_candidates": [
         "https://www.iii.org/article/what-covered-standard-homeowners-policy"
       ],
-      "notes": "No fire cost guide exists on site (process blog covers steps, not price). Decision-stage query, CPC $24. Break down cost by damage severity (soot/smoke only vs structural), square footage, and insurance. Localize price ranges to the Utah County / Wasatch market."
+      "notes": "No fire cost guide exists on site (process blog covers steps, not price). Decision-stage query, CPC $24. Break down cost by damage severity (soot/smoke only vs structural), square footage, and insurance. Localize price ranges to the Utah County / Wasatch market.",
+      "published_verified_at": "2026-07-20T18:27:50Z"
     },
     {
       "id": "2026-07-02-what-to-do-after-a-house-fire",

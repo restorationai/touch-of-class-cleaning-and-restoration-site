@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+mold remediation,transactional,165000,38,38.78,3,mold remediation,,/services/mold-remediation/,no
+professional mold remediation,transactional,40500,18,21.11,3,mold remediation,,/services/mold-remediation/,no
+mold remediation near me,transactional,33100,,36.49,3,mold remediation,,/services/mold-remediation/,no
+mold remediation companies near me,transactional,33100,,36.49,3,mold remediation,,/services/mold-remediation/,no
+mold inspection near me,transactional,33100,3,28.31,3,mold inspection,,/services/mold-inspection-testing/,no
+mold remediation experts,transactional,5400,,29.03,3,mold remediation,,/services/mold-remediation/,no
+mold remediation saratoga springs,transactional,,,,3,mold remediation,Saratoga Springs,/service-areas/saratoga-springs-ut/mold-remediation/,no
+mold remediation lehi,transactional,,,,3,mold remediation,Lehi,/service-areas/lehi-ut/mold-remediation/,no
+mold remediation orem,transactional,,,,3,mold remediation,Orem,/service-areas/orem-ut/mold-remediation/,no
+mold remediation provo,transactional,,,,3,mold remediation,Provo,/service-areas/provo-ut/mold-remediation/,no
+mold remediation park city,transactional,,,,3,mold remediation,Park City,/service-areas/park-city-ut/mold-remediation/,no
+mold remediation companies,commercial,27100,20,45.97,3,mold remediation,,/services/mold-remediation/,no
+best mold remediation companies,commercial,210,,24.91,3,mold remediation,,/services/mold-remediation/,no
+mold remediation cost,informational,9900,8,23.03,1,mold remediation,,,no
+does homeowners insurance cover mold,informational,5400,7,,1,mold remediation,,,no
+what kills mold permanently,informational,3600,18,4.33,1,mold remediation,,,no
+when is mold remediation required,informational,480,16,19.24,1,mold remediation,,,no
+what is mold remediation,informational,,11,,1,mold remediation,,,yes
+how to get rid of mold in shower,informational,6600,,1.81,2,how to get rid of mold,,,no
+mold remediation cost calculator,informational,2900,,12.86,2,mold remediation,,,no
+mold remediation diy,informational,1900,6,3.45,2,mold remediation,,,no
+mold remediation cost per square foot,informational,880,,14.29,2,mold remediation,,,no
+who pays for mold remediation,informational,880,4,13.56,2,mold remediation,,,no
+how to clean mold without spreading spores,informational,590,18,1.88,2,how to get rid of mold,,,no
+epa mold remediation guidelines,informational,260,40,12.02,2,mold remediation,,,no
+how does mold remediation work,informational,,16,,2,mold remediation,,,no
+mold remediation process,informational,,,,2,mold remediation,,,no
+how long does mold remediation take,informational,,,,2,mold remediation,,,no
+can you stay in your house during mold remediation,informational,,,,2,mold remediation,,,no
+what to do after mold remediation,informational,,11,,2,mold remediation,,,no
+is black mold dangerous,informational,,21,,2,mold remediation,,,no
+does bleach kill mold,informational,,18,,2,how to get rid of mold,,,no
+black mold removal cost,informational,,6,,2,mold remediation,,,no
+how to prevent mold after water damage,informational,,11,,2,mold remediation,,,no
+mold inspection cost,informational,,,,2,mold inspection,,,no
+signs you need mold remediation,informational,,,,2,mold remediation,,,no
+how to get rid of mold,informational,14800,27,4.09,3,how to get rid of mold,,,no
+how to remove mold from walls,informational,8100,44,3.04,3,how to get rid of mold,,,no
+how to get rid of mold in house,informational,6600,37,4.45,3,how to get rid of mold,,,no
+mold remediation vs removal,informational,30,,45.78,3,mold remediation,,,no

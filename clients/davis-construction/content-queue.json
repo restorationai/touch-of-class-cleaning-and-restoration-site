@@ -400,7 +400,7 @@
     },
     {
       "id": "2026-07-09-how-much-does-a-general-contractor-cost",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-07-09T17:54:12Z",
       "written_at": "2026-07-20T18:02:30Z",
       "post_url": "https://davisconstructioncontractors.com/blog/how-much-does-a-general-contractor-cost/",
@@ -435,7 +435,8 @@
         "https://www.angi.com/articles/general-contractor-cost.htm"
       ],
       "metrics_pending": true,
-      "notes": "Lead with how GCs price work (cost-plus vs fixed price, typical markup range) and a fee breakdown table by project type (kitchen, bath, addition, whole-home). Add a North Alabama worked example (Madison subdivision remodel). No /services/general-contracting/ page exists; link to home-remodeling and new-construction. Metrics null (DataForSEO server unavailable this run) -- validate volume/KD before deprioritizing. Canonical GC cost post; absorbs the charge/markup/pricing-model cluster."
+      "notes": "Lead with how GCs price work (cost-plus vs fixed price, typical markup range) and a fee breakdown table by project type (kitchen, bath, addition, whole-home). Add a North Alabama worked example (Madison subdivision remodel). No /services/general-contracting/ page exists; link to home-remodeling and new-construction. Metrics null (DataForSEO server unavailable this run) -- validate volume/KD before deprioritizing. Canonical GC cost post; absorbs the charge/markup/pricing-model cluster.",
+      "published_verified_at": "2026-07-20T18:04:38Z"
     },
     {
       "id": "2026-07-09-how-to-choose-a-general-contractor",

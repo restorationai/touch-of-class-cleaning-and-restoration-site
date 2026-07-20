@@ -136,7 +136,7 @@
     },
     {
       "id": "2026-07-06-water-damage-restoration-cost",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-07-06T18:21:18Z",
       "written_at": "2026-07-20T18:13:16Z",
       "post_url": "https://flood-fixers.com/blog/how-much-does-water-damage-restoration-cost/",
@@ -164,7 +164,8 @@
       "external_authority_candidates": [
         "https://www.iicrc.org/page/IICRCS500"
       ],
-      "notes": "Cost drivers: water category, affected square footage, materials, drying time, mold. Cross-link the insurance-coverage blog. Commercial/decision-stage query with no dedicated cost page in the url-plan. No metrics: DataForSEO unavailable this run; queued intent-first as a high-value decision-stage topic. Keep price ranges general, avoid unverifiable local quotes."
+      "notes": "Cost drivers: water category, affected square footage, materials, drying time, mold. Cross-link the insurance-coverage blog. Commercial/decision-stage query with no dedicated cost page in the url-plan. No metrics: DataForSEO unavailable this run; queued intent-first as a high-value decision-stage topic. Keep price ranges general, avoid unverifiable local quotes.",
+      "published_verified_at": "2026-07-20T18:14:53Z"
     },
     {
       "id": "2026-07-13-does-homeowners-insurance-cover-flood-damage",
