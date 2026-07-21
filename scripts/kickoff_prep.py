@@ -62,6 +62,8 @@ STEP 2 — write one SMS and one matching email, first person from Santino:
 - NEVER use an em dash or a spaced en dash. Use commas or periods.
 - NEVER say "just reply here" or any variant of it. End like a person would
   ("Talk soon", "See you then"). The email MAY invite replying with files.
+- When naming the client's company or brand, use EXACTLY the CRM spelling
+  provided (transcripts mishear brand names, e.g. "PureClean" for PuroClean).
 - SMS: plain text, max 550 characters, no links.
 - Email: email_subject short and plain; email_html is a simple inline-styled
   <div> (font-family Arial, font-size 15px, color #1f2937, max-width 560px)
@@ -165,7 +167,8 @@ def find_demo(email, name, company="", lookback_hours=12):
     return None, ""
 
 
-def run(contact_id, appt_time="", poll_minutes=10, max_attempts=30, dry_run=False):
+def run(contact_id, appt_time="", poll_minutes=10, max_attempts=30, dry_run=False,
+        lookback_hours=12):
     """Poll Fathom for the demo with this contact, then send SMS + email once."""
     contact = la._ghl("GET", "/contacts/{}".format(contact_id)).get("contact") or {}
     tags = [t.lower() for t in (contact.get("tags") or [])]
@@ -182,7 +185,7 @@ def run(contact_id, appt_time="", poll_minutes=10, max_attempts=30, dry_run=Fals
     company = contact.get("companyName") or ""
     meeting, text = None, ""
     for attempt in range(max_attempts):
-        meeting, text = find_demo(email, name, company)
+        meeting, text = find_demo(email, name, company, lookback_hours)
         if meeting:
             break
         if attempt + 1 >= max_attempts:
@@ -198,9 +201,10 @@ def run(contact_id, appt_time="", poll_minutes=10, max_attempts=30, dry_run=Fals
         return {"error": "no meeting found"}
     _log("demo: {} ({})".format(meeting.get("title"), meeting.get("url")))
 
-    user = ("CLIENT FIRST NAME: {}\nKICKOFF CALL: {}\nTODAY: {}\n\n"
+    user = ("CLIENT FIRST NAME: {}\nCLIENT COMPANY (CRM spelling): {}\n"
+            "KICKOFF CALL: {}\nTODAY: {}\n\n"
             "SALES CALL TRANSCRIPT:\n{}").format(
-        first, appt_time or "as agreed on the call",
+        first, company or "unknown", appt_time or "as agreed on the call",
         dt.date.today().isoformat(), text)
     copy, _ = la.claude_json(la._claude(), COMPOSE_SYSTEM, user,
                              max_tokens=2000, schema=COMPOSE_SCHEMA)
@@ -252,9 +256,12 @@ def main():
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--no-wait", action="store_true",
                     help="single Fathom check, no polling")
+    ap.add_argument("--lookback-hours", type=int, default=12,
+                    help="how far back to search Fathom (manual reruns)")
     args = ap.parse_args()
     res = run(args.contact, appt_time=args.appt_time,
-              max_attempts=1 if args.no_wait else 30, dry_run=args.dry_run)
+              max_attempts=1 if args.no_wait else 30, dry_run=args.dry_run,
+              lookback_hours=args.lookback_hours)
     print(json.dumps(res, indent=1, default=str))
 
 
