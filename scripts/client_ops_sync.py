@@ -329,6 +329,78 @@ def digest_html(date_str: str, per_client: dict[str, dict]) -> str:
     return "".join(parts)
 
 
+# ------------------------------------------------------- bootstrap backstop
+def ensure_bootstrapped(dry_run: bool, do_send: bool,
+                        cid_to_slug: dict[str, str] | None = None) -> list[str]:
+    """Auto-provision the DB/KV half of the sales-to-ops handoff for Active
+    companies with no marketing_sites row (the Gregory Arianoff gap): slug +
+    marketing_sites row + public upload-link KV entry. Repo files + GBP sync
+    still need scripts/bootstrap_client.py locally (the worker cannot commit),
+    so an alert email lists exactly what to run."""
+    import re as _re
+    # Rank AI marketing clients only: the marketing wizard writes goals /
+    # lp_consent into integration_settings; receptionist-only clients never
+    # have them. Test companies excluded by name.
+    cos = _sb("GET", "/rest/v1/companies?status=eq.Active"
+              "&select=id,name,integration_settings",
+              prefer="return=representation") or []
+    def _is_rank_ai(co):
+        ints = co.get("integration_settings") or {}
+        if not isinstance(ints, dict):
+            return False
+        return ("goals" in ints) or ("lp_consent" in ints)
+    cos = [c for c in cos if _is_rank_ai(c)
+           and not _re.search(r"test|trachawk|xyz restoration", (c.get("name") or "").lower())]
+    sites = _sb("GET", "/rest/v1/marketing_sites?select=company_id,rank_ai_slug",
+                prefer="return=representation") or []
+    have = {r["company_id"] for r in sites}
+    taken = {r.get("rank_ai_slug") for r in sites if r.get("rank_ai_slug")}
+    lines: list[str] = []
+    for co in cos:
+        if co["id"] in have or "test" in (co.get("name") or "").lower():
+            continue
+        pipeline_slug = (cid_to_slug or {}).get(co["id"])
+        if pipeline_slug:
+            slug = pipeline_slug        # existing pipeline identity wins
+        else:
+            base = _re.sub(r"-{2,}", "-",
+                           _re.sub(r"[^a-z0-9]+", "-", (co.get("name") or "").lower())).strip("-")
+            slug, n = (base or "client"), 2
+            while slug in taken:
+                slug, n = f"{base}-{n}", n + 1
+        taken.add(slug)
+        if dry_run:
+            lines.append(f"WOULD bootstrap {co['name']} ({co['id']}) as {slug}")
+            continue
+        try:
+            _sb("POST", "/rest/v1/marketing_sites", body={
+                "company_id": co["id"], "rank_ai_slug": slug,
+                "domain": slug + ".invalid",   # reserved TLD = obviously-pending
+                "tier": "standard", "plan_template": "restoration"})
+            try:
+                import upload_links_sync as uls
+                ns = uls.kv_namespace_id()
+                uls.cf("PUT", f"/storage/kv/namespaces/{ns}/bulk", [{
+                    "key": slug,
+                    "value": json.dumps({"cid": co["id"], "name": co["name"],
+                                          "hub": uls.hub_token(slug)}),
+                }])
+                kv_note = "upload link LIVE"
+            except Exception as e:  # KV needs CF env on this host
+                kv_note = f"KV pending ({str(e)[:60]})"
+            lines.append(f"auto-bootstrapped {co['name']} ({co['id']}) as {slug} — {kv_note}")
+        except Exception as e:
+            lines.append(f"FAILED bootstrap {co['name']} ({co['id']}): {str(e)[:120]}")
+    if lines:
+        send_email("New-client bootstrap backstop",
+                   "<br>".join(lines) + "<br><br>Finish repo files + GBP sync with: "
+                   "<code>python3 scripts/bootstrap_client.py --company-id CO-... --slug ...</code>",
+                   do_send)
+        for ln in lines:
+            print("  [bootstrap] " + ln)
+    return lines
+
+
 # ---------------------------------------------------------------- main
 def run(since_override: str | None, dry_run: bool, do_send: bool) -> int:
     run_start = datetime.now(timezone.utc)
@@ -339,6 +411,8 @@ def run(since_override: str | None, dry_run: bool, do_send: bool) -> int:
     cid_to_slug = slug_map()
     print(f"client-ops sync since {since}"
           f"{' [DRY RUN]' if dry_run else ''}")
+
+    ensure_bootstrapped(dry_run, do_send, cid_to_slug)
 
     intake = [i for i in fetch_answered_intake(since)
               if i["id"] not in state["processed_intake_ids"]]
