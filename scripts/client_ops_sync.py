@@ -338,19 +338,15 @@ def ensure_bootstrapped(dry_run: bool, do_send: bool,
     still need scripts/bootstrap_client.py locally (the worker cannot commit),
     so an alert email lists exactly what to run."""
     import re as _re
-    # Rank AI marketing clients only: the marketing wizard writes goals /
-    # lp_consent into integration_settings; receptionist-only clients never
-    # have them. Test companies excluded by name.
-    cos = _sb("GET", "/rest/v1/companies?status=eq.Active"
-              "&select=id,name,integration_settings",
+    # Rank AI marketing clients only: plan is the source of truth (Santino,
+    # 2026-07-21 — Leakproof/Rapid Response are receptionist plans; wizard
+    # artifacts alone misfire because receptionist clients sometimes click
+    # through the marketing wizard). Test companies excluded by name.
+    cos = _sb("GET", "/rest/v1/companies?status=eq.Active&plan=eq.Rank%20AI"
+              "&select=id,name",
               prefer="return=representation") or []
-    def _is_rank_ai(co):
-        ints = co.get("integration_settings") or {}
-        if not isinstance(ints, dict):
-            return False
-        return ("goals" in ints) or ("lp_consent" in ints)
-    cos = [c for c in cos if _is_rank_ai(c)
-           and not _re.search(r"test|trachawk|xyz restoration", (c.get("name") or "").lower())]
+    cos = [c for c in cos
+           if not _re.search(r"test|trachawk|xyz restoration", (c.get("name") or "").lower())]
     sites = _sb("GET", "/rest/v1/marketing_sites?select=company_id,rank_ai_slug",
                 prefer="return=representation") or []
     have = {r["company_id"] for r in sites}
@@ -386,6 +382,19 @@ def ensure_bootstrapped(dry_run: bool, do_send: bool,
                                           "hub": uls.hub_token(slug)}),
                 }])
                 kv_note = "upload link LIVE"
+                try:
+                    hub = f"https://restorationai.io/hub/{slug}/{uls.hub_token(slug)}"
+                    row = _sb("GET", f"/rest/v1/companies?id=eq.{co['id']}"
+                              "&select=integration_settings",
+                              prefer="return=representation")
+                    ints = (row or [{}])[0].get("integration_settings") or {}
+                    if not isinstance(ints, dict):
+                        ints = {}
+                    ints["hub_url"] = hub
+                    _sb("PATCH", f"/rest/v1/companies?id=eq.{co['id']}",
+                        body={"integration_settings": ints})
+                except Exception:
+                    pass
             except Exception as e:  # KV needs CF env on this host
                 kv_note = f"KV pending ({str(e)[:60]})"
             lines.append(f"auto-bootstrapped {co['name']} ({co['id']}) as {slug} — {kv_note}")

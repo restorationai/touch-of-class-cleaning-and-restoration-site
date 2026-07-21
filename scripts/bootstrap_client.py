@@ -125,8 +125,20 @@ def main():
             "tier": "standard", "plan_template": "restoration"})
         print("marketing_sites row created")
 
-    # 4. KV upload link (whole-map sync keeps everything consistent)
+    # 4. KV upload link (whole-map sync keeps everything consistent) + hub URL
     subprocess.run([sys.executable, str(ROOT / "scripts" / "upload_links_sync.py")], check=True)
+    hub = "https://restorationai.io/hub/{}/{}".format(slug, uls.hub_token(slug))
+    rows2 = sb("GET", "/rest/v1/companies?id=eq.{}&select=integration_settings".format(co["id"]))
+    ints = (rows2 or [{}])[0].get("integration_settings") or {}
+    if isinstance(ints, str):
+        try:
+            ints = json.loads(ints)
+        except Exception:
+            ints = {}
+    ints["hub_url"] = hub
+    sb("PATCH", "/rest/v1/companies?id=eq." + co["id"], body={"integration_settings": ints},
+       prefer="return=minimal")
+    print("hub url: " + hub)
 
     # 5. standard intake items (skip duplicates by question text)
     have = {(r.get("question") or "").lower() for r in

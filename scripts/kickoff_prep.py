@@ -212,6 +212,20 @@ def run(contact_id, appt_time="", poll_minutes=10, max_attempts=30, dry_run=Fals
         return {"skipped": "already sent"}
     email = contact.get("email") or ""
     phone = contact.get("phone") or ""
+    # Duplicate-contact guard: people sometimes sign up under a different
+    # email than their existing GHL contact, creating two records for one
+    # human. If ANY contact sharing this phone already got the reminder,
+    # stand down — one text per person, not per contact row.
+    if phone:
+        try:
+            res = la._ghl("GET", "/contacts/", params={"query": phone})
+            for c2 in (res.get("contacts") or []):
+                if c2.get("id") != contact_id and DONE_TAG in [
+                        (t or "").lower() for t in (c2.get("tags") or [])]:
+                    _log("duplicate contact {} already received kickoff-prep — skipping".format(c2.get("id")))
+                    return {"skipped": "duplicate contact already sent"}
+        except Exception:
+            pass
     first = contact.get("firstName") or "there"
     name = "{} {}".format(contact.get("firstName") or "",
                           contact.get("lastName") or "").strip()
