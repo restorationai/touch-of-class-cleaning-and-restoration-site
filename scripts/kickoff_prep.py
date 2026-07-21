@@ -53,8 +53,21 @@ zip codes, photos, documents). Ignore things Santino will do himself and
 things that will be done together ON the call. If Santino asked for nothing,
 return found_asks=false.
 
+STEP 1b — scheduling: you receive NEXT CALL. If it says BOOKED, reference
+that time naturally. If it says NOT BOOKED, scan the transcript for an
+explicitly agreed next-call date AND time. Only if both are unambiguous,
+set agreed_datetime_iso (ISO 8601 with utc offset, the CLIENT's timezone)
+and reference that time in the messages. Otherwise set agreed_datetime_iso
+to null and END both messages by asking them to reply with what day works,
+referencing whatever was loosely floated on the call, e.g. "Once you've had
+a chance to check your schedule, let me know what day next week works and
+I'll lock in our call."
+
 STEP 2 — write one SMS and one matching email, first person from Santino:
 - Warm, casual, sounds like a person texting. 6th-8th grade reading level.
+- You receive MEETING DATE and TODAY. Refer to the meeting correctly:
+  "today" only if they match, "yesterday" if the meeting was the day before,
+  otherwise "the other day". Never say "today" for a past-day meeting.
 - NEVER frame anything as required. Always include one line making clear
   that if a piece or two is not ready, it is no stress and the call still
   happens and will still be productive. Never suggest rescheduling.
@@ -73,7 +86,7 @@ STEP 2 — write one SMS and one matching email, first person from Santino:
 
 Return ONLY JSON:
 {"found_asks": bool, "items": [str], "sms": str,
- "email_subject": str, "email_html": str}"""
+ "email_subject": str, "email_html": str, "agreed_datetime_iso": str|null}"""
 
 COMPOSE_SCHEMA = {
     "type": "object", "additionalProperties": False,
@@ -83,8 +96,10 @@ COMPOSE_SCHEMA = {
         "sms": {"type": "string"},
         "email_subject": {"type": "string"},
         "email_html": {"type": "string"},
+        "agreed_datetime_iso": {"type": ["string", "null"]},
     },
-    "required": ["found_asks", "items", "sms", "email_subject", "email_html"],
+    "required": ["found_asks", "items", "sms", "email_subject", "email_html",
+                 "agreed_datetime_iso"],
 }
 
 
@@ -167,6 +182,26 @@ def find_demo(email, name, company="", lookback_hours=12):
     return None, ""
 
 
+def _book_kickoff(contact_id, start_iso, name):
+    """Create the kickoff appointment when the call explicitly agreed a time.
+    Best-effort: booking failure never blocks the messages."""
+    try:
+        cal = os.environ.get("KICKOFF_CALENDAR_ID", "DcoatVel3rEw01lKoGlA")
+        r = la._ghl("POST", "/calendars/events/appointments", params={}, body={
+            "calendarId": cal,
+            "locationId": os.environ.get("GHL_LOCATION_ID"),
+            "contactId": contact_id,
+            "startTime": start_iso,
+            "title": "{} - Kick Off Call".format(name or "Client"),
+            "appointmentStatus": "confirmed",
+            "ignoreFreeSlotValidation": True,
+        })
+        return r.get("id") or (r.get("event") or {}).get("id") or "created"
+    except Exception as e:
+        _log("auto-book failed: {}".format(str(e)[:200]))
+        return None
+
+
 def run(contact_id, appt_time="", poll_minutes=10, max_attempts=30, dry_run=False,
         lookback_hours=12):
     """Poll Fathom for the demo with this contact, then send SMS + email once."""
@@ -201,10 +236,14 @@ def run(contact_id, appt_time="", poll_minutes=10, max_attempts=30, dry_run=Fals
         return {"error": "no meeting found"}
     _log("demo: {} ({})".format(meeting.get("title"), meeting.get("url")))
 
+    meeting_date = (meeting.get("recording_start_time")
+                    or meeting.get("created_at") or "")[:10]
+    next_call = ("BOOKED: " + appt_time) if appt_time else (
+        "NOT BOOKED: no appointment exists yet, follow the scheduling rules")
     user = ("CLIENT FIRST NAME: {}\nCLIENT COMPANY (CRM spelling): {}\n"
-            "KICKOFF CALL: {}\nTODAY: {}\n\n"
+            "NEXT CALL: {}\nMEETING DATE: {}\nTODAY: {}\n\n"
             "SALES CALL TRANSCRIPT:\n{}").format(
-        first, company or "unknown", appt_time or "as agreed on the call",
+        first, company or "unknown", next_call, meeting_date or "unknown",
         dt.date.today().isoformat(), text)
     copy, _ = la.claude_json(la._claude(), COMPOSE_SYSTEM, user,
                              max_tokens=2000, schema=COMPOSE_SCHEMA)
@@ -220,6 +259,11 @@ def run(contact_id, appt_time="", poll_minutes=10, max_attempts=30, dry_run=Fals
     if dry_run:
         print(json.dumps(copy, indent=1))
         return {"dry_run": True, "copy": copy}
+
+    booked = None
+    if not appt_time and copy.get("agreed_datetime_iso"):
+        booked = _book_kickoff(contact_id, copy["agreed_datetime_iso"], name)
+        _log("auto-booked kickoff: {}".format(booked))
 
     sms_ok = email_ok = False
     try:
@@ -241,8 +285,10 @@ def run(contact_id, appt_time="", poll_minutes=10, max_attempts=30, dry_run=Fals
     la.send_email(la.NOTIFY_EMAIL,
                   "[kickoff-prep] sent to {} (sms={} email={})".format(
                       name, sms_ok, email_ok),
-                  "<p><b>Items:</b> {}</p><p><b>SMS:</b> {}</p><p>Demo: {}</p>".format(
+                  "<p><b>Items:</b> {}</p><p><b>SMS:</b> {}</p>"
+                  "<p><b>Auto-booked:</b> {}</p><p>Demo: {}</p>".format(
                       ", ".join(copy.get("items") or []), copy["sms"],
+                      booked or "no (no explicit time agreed)",
                       meeting.get("url")))
     _log("done: sms={} email={}".format(sms_ok, email_ok))
     return {"sent": True, "sms": sms_ok, "email": email_ok,
