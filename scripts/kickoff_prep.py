@@ -22,6 +22,7 @@ import argparse
 import datetime as dt
 import json
 import os
+import re
 import sys
 import time
 import urllib.parse
@@ -59,6 +60,8 @@ STEP 2 — write one SMS and one matching email, first person from Santino:
   happens and will still be productive. Never suggest rescheduling.
 - Reference the kickoff time naturally, the way it was agreed on the call.
 - NEVER use an em dash or a spaced en dash. Use commas or periods.
+- NEVER say "just reply here" or any variant of it. End like a person would
+  ("Talk soon", "See you then"). The email MAY invite replying with files.
 - SMS: plain text, max 550 characters, no links.
 - Email: email_subject short and plain; email_html is a simple inline-styled
   <div> (font-family Arial, font-size 15px, color #1f2937, max-width 560px)
@@ -100,10 +103,13 @@ def _fathom_meetings(created_after_iso, include_transcript=True):
         return json.loads(r.read()).get("items", [])
 
 
-def _matches(meeting, email, name):
+def _matches(meeting, email, name, company=""):
     """The client is usually NOT a calendar invitee on these GHL-booked Zoom
     calls (Fathom only lists Santino) — but they ARE a transcript speaker.
-    Match on invitee email, then speaker display names, then the title."""
+    Match on invitee email, then speaker display names, then the title.
+    Zoom display names are often first-name-only ("Gregory") or junk
+    ("iPhone"), so a first-name speaker match is accepted when the transcript
+    corroborates it: last name, a company word, or their email domain."""
     email = (email or "").lower()
     tokens = [t for t in (name or "").lower().split() if len(t) > 2]
     for inv in (meeting.get("calendar_invitees") or []):
@@ -114,14 +120,26 @@ def _matches(meeting, email, name):
         iname = (inv.get("name") or "").lower()
         if tokens and all(t in iname for t in tokens):
             return True
-    if tokens:
-        speakers = set()
-        for seg in (meeting.get("transcript") or []):
-            sp = seg.get("speaker")
-            nm = (sp.get("display_name") if isinstance(sp, dict) else sp) or ""
-            if nm:
-                speakers.add(nm.lower())
-        if any(all(t in s for t in tokens) for s in speakers):
+    speakers = set()
+    for seg in (meeting.get("transcript") or []):
+        sp = seg.get("speaker")
+        nm = (sp.get("display_name") if isinstance(sp, dict) else sp) or ""
+        if nm:
+            speakers.add(nm.lower().strip())
+    if tokens and any(all(t in s for t in tokens) for s in speakers):
+        return True
+    first = tokens[0] if tokens else ""
+    if len(first) >= 4 and any(s == first or s.startswith(first + " ")
+                               for s in speakers):
+        text = _transcript_text(meeting).lower()
+        corro = set(tokens[1:])
+        corro |= {w for w in re.split(r"[^a-z0-9]+", (company or "").lower())
+                  if len(w) >= 5}
+        dom = email.split("@")[-1].split(".")[0] if "@" in email else ""
+        if len(dom) >= 5 and dom not in ("gmail", "yahoo", "outlook",
+                                         "hotmail", "icloud"):
+            corro.add(dom)
+        if any(c in text for c in corro):
             return True
     title = (meeting.get("title") or "").lower()
     return bool(tokens) and all(t in title for t in tokens)
@@ -136,11 +154,11 @@ def _transcript_text(meeting):
     return "\n".join(parts)[:80000]
 
 
-def find_demo(email, name, lookback_hours=12):
+def find_demo(email, name, company="", lookback_hours=12):
     since = (dt.datetime.now(dt.timezone.utc)
              - dt.timedelta(hours=lookback_hours)).strftime("%Y-%m-%dT%H:%M:%SZ")
     for m in _fathom_meetings(since):
-        if _matches(m, email, name):
+        if _matches(m, email, name, company):
             text = _transcript_text(m)
             if len(text) > 500:      # transcript actually landed
                 return m, text
@@ -161,9 +179,10 @@ def run(contact_id, appt_time="", poll_minutes=10, max_attempts=30, dry_run=Fals
                           contact.get("lastName") or "").strip()
     _log("contact: {} <{}> {}".format(name, email, phone))
 
+    company = contact.get("companyName") or ""
     meeting, text = None, ""
     for attempt in range(max_attempts):
-        meeting, text = find_demo(email, name)
+        meeting, text = find_demo(email, name, company)
         if meeting:
             break
         if attempt + 1 >= max_attempts:
