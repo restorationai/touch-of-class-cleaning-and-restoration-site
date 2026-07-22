@@ -269,6 +269,36 @@ def domains_purchase(req: DomainPurchaseRequest):
 # the pilot — everything through the app, nothing manual).
 # ---------------------------------------------------------------------------
 
+class DomainAttachRequest(BaseModel):
+    company_id: str
+    domain: str
+
+
+@app.post("/domains/attach", dependencies=[Depends(auth)])
+def domains_attach(req: DomainAttachRequest):
+    """Client already OWNS a domain (Isaac case): record it on the site row
+    and pre-create the Cloudflare zone so go-live is just a nameserver
+    change at their registrar. No purchase, no DNS changes on their side."""
+    dom = re.sub(r"[^a-z0-9.-]", "", req.domain.lower().strip()
+                 .replace("https://", "").replace("http://", "").replace("www.", "").split("/")[0])
+    if "." not in dom or len(dom) < 4:
+        raise HTTPException(status_code=400, detail="Enter a full domain, e.g. example.com")
+    zone_id, ns = None, []
+    try:
+        zone_id, ns = _cf_zone(dom)
+    except Exception:
+        pass  # zone can be created at cutover; recording the domain still works
+    upd = {"domain": dom}
+    if zone_id:
+        upd["cf_zone_id"] = zone_id
+    r = sb().table("marketing_sites").update(upd).eq("company_id", req.company_id).execute()
+    if not r.data:
+        raise HTTPException(status_code=400, detail="No site record for this company (not bootstrapped yet).")
+    return {"status": "attached", "domain": dom, "cf_zone_id": zone_id,
+            "nameservers": ns,
+            "note": "Existing site untouched; cutover happens at go-live."}
+
+
 class SiteBriefColorsRequest(BaseModel):
     company_id: str
 
