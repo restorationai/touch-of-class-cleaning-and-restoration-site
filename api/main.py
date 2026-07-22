@@ -21,6 +21,9 @@ sys.path.insert(0, str(ROOT / "scripts"))  # so we can import the geogrid pipeli
 
 import re
 import threading
+import urllib.error
+import urllib.parse
+import urllib.request
 from datetime import datetime, timezone
 
 from fastapi import FastAPI, HTTPException, Depends, Request
@@ -114,6 +117,151 @@ def status():
         .execute()
     )
     return {"clients": rows.data}
+
+
+# ---------------------------------------------------------------------------
+# Domains: in-app search + purchase (GoDaddy PAT), phantom-domain pipeline.
+# Purchase = availability re-check -> Cloudflare zone created FIRST (so the
+# domain is born pointing at our infrastructure) -> GoDaddy buy with CF
+# nameservers -> marketing_sites row updated. We absorb the cost (Santino,
+# 2026-07-21); premium domains blocked by the price cap.
+# ---------------------------------------------------------------------------
+
+GODADDY_API = "https://api.godaddy.com"
+DOMAIN_PRICE_CAP_USD = 50.0
+REGISTRANT = {
+    "nameFirst": os.environ.get("DOMAIN_REG_FIRST", "Santino"),
+    "nameLast": os.environ.get("DOMAIN_REG_LAST", "Velci"),
+    "email": os.environ.get("DOMAIN_REG_EMAIL", "contact@getrestorationai.com"),
+    "phone": os.environ.get("DOMAIN_REG_PHONE", "+1.8053293449"),
+    "addressMailing": {
+        "address1": os.environ.get("DOMAIN_REG_ADDR", "30 N Gould Street Ste R"),
+        "city": os.environ.get("DOMAIN_REG_CITY", "Sheridan"),
+        "state": os.environ.get("DOMAIN_REG_STATE", "Wyoming"),
+        "postalCode": os.environ.get("DOMAIN_REG_ZIP", "82801"),
+        "country": "US",
+    },
+}
+
+
+def _gd(method: str, path: str, body=None, timeout=60):
+    req = urllib.request.Request(
+        GODADDY_API + path, method=method,
+        data=json.dumps(body).encode() if body is not None else None,
+        headers={"Authorization": "Bearer " + os.environ["GODADDY_PAT"],
+                 "Content-Type": "application/json"})
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        raw = r.read()
+        return json.loads(raw) if raw else {}
+
+
+def _cf_zone(domain: str):
+    """Create (or fetch) the Cloudflare zone; returns (zone_id, nameservers)."""
+    tok = os.environ["CLOUDFLARE_API_TOKEN"]
+    acct = os.environ["CLOUDFLARE_ACCOUNT_ID"]
+    hdrs = {"Authorization": "Bearer " + tok, "Content-Type": "application/json"}
+    req = urllib.request.Request("https://api.cloudflare.com/client/v4/zones",
+        method="POST", headers=hdrs,
+        data=json.dumps({"name": domain, "account": {"id": acct}, "type": "full"}).encode())
+    try:
+        d = json.loads(urllib.request.urlopen(req, timeout=60).read())
+        z = d["result"]
+        return z["id"], z.get("name_servers") or []
+    except urllib.error.HTTPError as e:
+        err = json.loads(e.read())
+        if any(x.get("code") == 1061 for x in err.get("errors", [])):  # already exists
+            q = urllib.request.Request(
+                "https://api.cloudflare.com/client/v4/zones?name=" + domain, headers=hdrs)
+            d = json.loads(urllib.request.urlopen(q, timeout=30).read())
+            z = (d.get("result") or [{}])[0]
+            return z.get("id"), z.get("name_servers") or []
+        raise
+
+
+class DomainSearchRequest(BaseModel):
+    query: str
+
+
+@app.post("/domains/search", dependencies=[Depends(auth)])
+def domains_search(req: DomainSearchRequest):
+    """Availability + price for the query (and GoDaddy suggestions)."""
+    q = re.sub(r"[^a-z0-9.-]", "", req.query.lower().strip())
+    if not q:
+        raise HTTPException(status_code=400, detail="Enter a domain to search.")
+    candidates = [q if "." in q else q + ".com"]
+    try:
+        sug = _gd("GET", "/v1/domains/suggest?query={}&limit=8&waitMs=800".format(
+            urllib.parse.quote(q)))
+        candidates += [s["domain"] for s in sug if s.get("domain")][:8]
+    except Exception:
+        pass
+    seen, out = set(), []
+    for dom in candidates:
+        if dom in seen:
+            continue
+        seen.add(dom)
+        try:
+            a = _gd("GET", "/v1/domains/available?domain=" + urllib.parse.quote(dom))
+            out.append({"domain": dom, "available": bool(a.get("available")),
+                        "price_usd": round((a.get("price") or 0) / 1e6, 2),
+                        "definitive": a.get("definitive", False)})
+        except Exception:
+            continue
+        if len(out) >= 6:
+            break
+    return {"results": out, "price_cap_usd": DOMAIN_PRICE_CAP_USD}
+
+
+class DomainPurchaseRequest(BaseModel):
+    domain: str
+    company_id: str = ""
+
+
+@app.post("/domains/purchase", dependencies=[Depends(auth)])
+def domains_purchase(req: DomainPurchaseRequest):
+    """Buy the domain on our GoDaddy account, born on Cloudflare nameservers."""
+    dom = re.sub(r"[^a-z0-9.-]", "", req.domain.lower().strip())
+    if "." not in dom:
+        raise HTTPException(status_code=400, detail="Full domain required, e.g. example.com")
+    a = _gd("GET", "/v1/domains/available?domain=" + urllib.parse.quote(dom))
+    price = round((a.get("price") or 0) / 1e6, 2)
+    if not a.get("available"):
+        raise HTTPException(status_code=409, detail="{} is no longer available.".format(dom))
+    if price > DOMAIN_PRICE_CAP_USD:
+        raise HTTPException(status_code=400,
+                            detail="{} costs ${:.2f} — over the ${:.0f} auto-purchase cap. "
+                                   "Check with Santino first.".format(dom, price, DOMAIN_PRICE_CAP_USD))
+    tld = dom.split(".")[-1]
+    ag = _gd("GET", "/v1/domains/agreements?tlds={}&privacy=false".format(tld))
+    keys = [x["agreementKey"] for x in ag] or ["DNRA"]
+
+    zone_id, ns = _cf_zone(dom)
+    body = {
+        "domain": dom,
+        "consent": {"agreementKeys": keys, "agreedBy": "45.29.84.10",
+                    "agreedAt": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")},
+        "period": 1, "privacy": False, "renewAuto": True,
+        "contactAdmin": REGISTRANT, "contactBilling": REGISTRANT,
+        "contactRegistrant": REGISTRANT, "contactTech": REGISTRANT,
+    }
+    if ns:
+        body["nameServers"] = ns
+    try:
+        order = _gd("POST", "/v1/domains/purchase", body)
+    except urllib.error.HTTPError as e:
+        raise HTTPException(status_code=502,
+                            detail="GoDaddy rejected the purchase: " + e.read().decode()[:300])
+
+    if req.company_id:
+        try:
+            sb().table("marketing_sites").update(
+                {"domain": dom, "cf_zone_id": zone_id}
+            ).eq("company_id", req.company_id).execute()
+        except Exception:
+            pass
+    return {"status": "purchased", "domain": dom, "price_usd": price,
+            "order_id": order.get("orderId"), "cf_zone_id": zone_id,
+            "nameservers": ns}
 
 
 @app.post("/jobs/run", dependencies=[Depends(auth)])
