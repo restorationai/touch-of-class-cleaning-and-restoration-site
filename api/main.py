@@ -264,6 +264,123 @@ def domains_purchase(req: DomainPurchaseRequest):
             "nameservers": ns}
 
 
+# ---------------------------------------------------------------------------
+# Site builds: brief helpers + push-button build (Isaac/RestorationXpress is
+# the pilot — everything through the app, nothing manual).
+# ---------------------------------------------------------------------------
+
+class SiteBriefColorsRequest(BaseModel):
+    company_id: str
+
+
+@app.post("/site-brief/extract-colors", dependencies=[Depends(auth)])
+def site_brief_extract_colors(req: SiteBriefColorsRequest):
+    """Fetch the client's CURRENT website and return its dominant brand
+    colors ("use the same green as my site" without hex-code archaeology)."""
+    rows = sb().table("companies").select("website").eq("id", req.company_id).execute()
+    site = (rows.data[0].get("website") if rows.data else "") or ""
+    site = site.strip()
+    if not site:
+        raise HTTPException(status_code=400, detail="No website on file for this company.")
+    if not site.startswith("http"):
+        site = "https://" + site.lstrip("/")
+    ua = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"}
+
+    def fetch(u):
+        try:
+            r = urllib.request.Request(u, headers=ua)
+            return urllib.request.urlopen(r, timeout=20).read().decode("utf-8", "ignore")
+        except Exception:
+            return ""
+
+    html_text = fetch(site)
+    if not html_text:
+        raise HTTPException(status_code=502, detail="Couldn't fetch their website.")
+    corpus = html_text
+    for href in re.findall(r'<link[^>]+rel=["\']stylesheet["\'][^>]*href=["\']([^"\']+)', html_text)[:3]:
+        corpus += fetch(urllib.parse.urljoin(site + "/", href))
+
+    counts: dict = {}
+    for m in re.findall(r"#([0-9a-fA-F]{6}|[0-9a-fA-F]{3})\b", corpus):
+        h = m.lower()
+        if len(h) == 3:
+            h = "".join(c * 2 for c in h)
+        counts[h] = counts.get(h, 0) + 1
+    for m in re.findall(r"rgba?\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)", corpus):
+        r0, g0, b0 = (min(int(x), 255) for x in m)
+        counts["{:02x}{:02x}{:02x}".format(r0, g0, b0)] =             counts.get("{:02x}{:02x}{:02x}".format(r0, g0, b0), 0) + 1
+
+    def is_gray(h):
+        r0, g0, b0 = int(h[0:2], 16), int(h[2:4], 16), int(h[4:6], 16)
+        if max(r0, g0, b0) - min(r0, g0, b0) < 26:
+            return True                       # gray family
+        return (r0 + g0 + b0) > 705 or (r0 + g0 + b0) < 45  # near white/black
+
+    ranked = sorted(((h, n) for h, n in counts.items() if not is_gray(h)),
+                    key=lambda x: -x[1])[:8]
+    return {"website": site,
+            "colors": [{"hex": "#" + h, "count": n} for h, n in ranked]}
+
+
+class SiteBuildRequest(BaseModel):
+    company_id: str
+
+
+@app.post("/site-build", dependencies=[Depends(auth)])
+def site_build(req: SiteBuildRequest):
+    """Queue a full site build (plan -> scaffold -> render -> staging preview)
+    on GitHub Actions. Validates the brief; long work never runs on this
+    server (a redeploy would kill it)."""
+    site_rows = sb().table("marketing_sites").select(
+        "rank_ai_slug,domain,build_status").eq("company_id", req.company_id).execute()
+    if not site_rows.data:
+        raise HTTPException(status_code=400,
+                            detail="Client isn't bootstrapped yet — no site record. The 2-hour automation will create it, or run the bootstrap.")
+    site = site_rows.data[0]
+    slug, domain = site.get("rank_ai_slug"), site.get("domain") or ""
+    if not slug:
+        raise HTTPException(status_code=400, detail="No Rank AI slug on the site record.")
+    if domain.endswith(".invalid") or not domain:
+        raise HTTPException(status_code=400,
+                            detail="No real domain yet — buy or set one in the Domain Purchase card first.")
+    if site.get("build_status") in ("queued", "building"):
+        raise HTTPException(status_code=409, detail="A build is already {}.".format(site["build_status"]))
+
+    co = sb().table("companies").select("integration_settings").eq("id", req.company_id).execute()
+    ints = (co.data[0].get("integration_settings") if co.data else None) or {}
+    brand = ints.get("brand") or {}
+    brief = ints.get("site_brief") or {}
+    missing = []
+    if not brand.get("primary_color"):
+        missing.append("primary brand color")
+    if not (brief.get("cities") or []):
+        missing.append("at least one build city")
+    if missing:
+        raise HTTPException(status_code=400,
+                            detail="Brief incomplete: add " + " and ".join(missing) + ", then save.")
+
+    gh_pat = os.environ.get("GH_PAT", "")
+    if not gh_pat:
+        raise HTTPException(status_code=500, detail="GH_PAT not configured on the API service.")
+    disp = urllib.request.Request(
+        "https://api.github.com/repos/restorationai/Rank-AI-Pipeline/actions/workflows/site-build.yml/dispatches",
+        method="POST",
+        data=json.dumps({"ref": "main", "inputs": {"slug": slug}}).encode(),
+        headers={"Authorization": "Bearer " + gh_pat,
+                 "Accept": "application/vnd.github+json",
+                 "User-Agent": "rank-ai-api"})
+    try:
+        urllib.request.urlopen(disp, timeout=30)
+    except urllib.error.HTTPError as e:
+        raise HTTPException(status_code=502,
+                            detail="GitHub dispatch failed: " + e.read().decode()[:200])
+    sb().table("marketing_sites").update({"build_status": "queued"}).eq(
+        "company_id", req.company_id).execute()
+    return {"status": "queued", "slug": slug,
+            "note": "Plan + render + staging preview takes 1-3 hours; "
+                    "watch build_status and the ops email for the preview link."}
+
+
 @app.post("/jobs/run", dependencies=[Depends(auth)])
 def run_job(req: RunJobRequest):
     """Trigger a system run for a client. Returns job_id immediately; runs in background."""

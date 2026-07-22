@@ -1,0 +1,177 @@
+name: Site Build
+
+# Push-button site build, dispatched by the app's "Build Site" button via
+# POST /site-build on the Railway API. Brief -> plan-input -> plan ->
+# scaffold (first build only) -> add-pages -> render -> staging deploy.
+# Production push + domain cutover stay human-gated in the app.
+on:
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: 'Client slug (clients/{slug})'
+        required: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
+          fetch-depth: 0
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Configure git identity
+        run: |
+          git config user.email "ops@restorationai.io"
+          git config user.name "Rank AI Bot"
+
+      - name: Mark building
+        env:
+          SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          python3 - <<'EOF'
+          import json, os, urllib.request
+          slug = "${{ github.event.inputs.slug }}"
+          req = urllib.request.Request(
+              os.environ["SUPABASE_URL"] + "/rest/v1/marketing_sites?rank_ai_slug=eq." + slug,
+              method="PATCH", data=json.dumps({"build_status": "building"}).encode(),
+              headers={"apikey": os.environ["SUPABASE_SERVICE_ROLE_KEY"],
+                       "Authorization": "Bearer " + os.environ["SUPABASE_SERVICE_ROLE_KEY"],
+                       "Content-Type": "application/json"})
+          urllib.request.urlopen(req, timeout=30)
+          EOF
+
+      - name: Brief -> plan-input
+        env:
+          SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          ANTHROPIC_API_KEY:         ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python3 scripts/site_brief_build.py --slug "${{ github.event.inputs.slug }}"
+
+      - name: Plan site
+        env:
+          SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          ANTHROPIC_API_KEY:         ${{ secrets.ANTHROPIC_API_KEY }}
+          DATAFORSEO_USERNAME:       ${{ secrets.DATAFORSEO_USERNAME }}
+          DATAFORSEO_PASSWORD:       ${{ secrets.DATAFORSEO_PASSWORD }}
+        run: python3 scripts/plan_site.py generate --slug "${{ github.event.inputs.slug }}"
+
+      - name: Scaffold (first build only)
+        env:
+          SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY:  ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          GH_PAT:                     ${{ secrets.GH_PAT }}
+          GITHUB_TOKEN:               ${{ secrets.GH_PAT }}
+          CLOUDFLARE_ACCOUNT_ID:      ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN:       ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_PAGES_API_TOKEN: ${{ secrets.CLOUDFLARE_PAGES_API_TOKEN }}
+        run: |
+          SLUG="${{ github.event.inputs.slug }}"
+          if [ -d "sites/$SLUG" ]; then
+            echo "sites/$SLUG exists — skipping scaffold"
+          else
+            python3 scripts/build_site.py scaffold --slug "$SLUG"
+          fi
+
+      - name: Add pages + render
+        env:
+          SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          ANTHROPIC_API_KEY:         ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          SLUG="${{ github.event.inputs.slug }}"
+          python3 scripts/build_site.py add-pages --slug "$SLUG"
+          python3 scripts/build_site.py render --slug "$SLUG" || \
+            python3 scripts/build_site.py render --slug "$SLUG"
+
+      - name: Deploy to staging
+        env:
+          SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY:  ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          GH_PAT:                     ${{ secrets.GH_PAT }}
+          GITHUB_TOKEN:               ${{ secrets.GH_PAT }}
+          CLOUDFLARE_ACCOUNT_ID:      ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN:       ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_PAGES_API_TOKEN: ${{ secrets.CLOUDFLARE_PAGES_API_TOKEN }}
+        run: python3 scripts/build_site.py sync-deploy --slug "${{ github.event.inputs.slug }}" --branch staging
+
+      - name: Commit monorepo state
+        run: |
+          git add clients/ sites/ 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."
+          else
+            git commit -m "site-build: ${{ github.event.inputs.slug }} $(date +%Y-%m-%d) [automated]"
+            git pull --rebase --autostash
+            git push
+          fi
+
+      - name: Mark preview ready + notify
+        if: success()
+        env:
+          SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          SENDGRID_API_KEY:          ${{ secrets.SENDGRID_API_KEY }}
+        run: |
+          python3 - <<'EOF'
+          import json, os, urllib.request
+          slug = "${{ github.event.inputs.slug }}"
+          key = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
+          req = urllib.request.Request(
+              os.environ["SUPABASE_URL"] + "/rest/v1/marketing_sites?rank_ai_slug=eq." + slug,
+              method="PATCH",
+              data=json.dumps({"build_status": "preview_ready"}).encode(),
+              headers={"apikey": key, "Authorization": "Bearer " + key,
+                       "Content-Type": "application/json"})
+          urllib.request.urlopen(req, timeout=30)
+          preview = "https://staging.rankai-{}.pages.dev".format(slug)
+          body = json.dumps({
+            "personalizations": [{"to": [{"email": "contact@restorationai.io"}]}],
+            "from": {"email": "contact@restorationai.io"},
+            "subject": "[site-build] {} preview ready".format(slug),
+            "content": [{"type": "text/html",
+                         "value": "Preview: <a href='{0}'>{0}</a><br>Approve in the app (Go Live) after review.".format(preview)}]})
+          req = urllib.request.Request("https://api.sendgrid.com/v3/mail/send",
+              method="POST", data=body.encode(),
+              headers={"Authorization": "Bearer " + os.environ["SENDGRID_API_KEY"],
+                       "Content-Type": "application/json"})
+          urllib.request.urlopen(req, timeout=30)
+          EOF
+
+      - name: Mark failed + alert
+        if: failure()
+        env:
+          SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          SENDGRID_API_KEY:          ${{ secrets.SENDGRID_API_KEY }}
+        run: |
+          python3 - <<'EOF'
+          import json, os, urllib.request
+          slug = "${{ github.event.inputs.slug }}"
+          key = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
+          try:
+              req = urllib.request.Request(
+                  os.environ["SUPABASE_URL"] + "/rest/v1/marketing_sites?rank_ai_slug=eq." + slug,
+                  method="PATCH", data=json.dumps({"build_status": "failed"}).encode(),
+                  headers={"apikey": key, "Authorization": "Bearer " + key,
+                           "Content-Type": "application/json"})
+              urllib.request.urlopen(req, timeout=30)
+          except Exception:
+              pass
+          EOF
+          python3 scripts/notify_failure.py \
+            --subject "[Rank AI] Site build FAILED: ${{ github.event.inputs.slug }} run #${{ github.run_number }}" \
+            --run-url "https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}" || true
