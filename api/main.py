@@ -349,16 +349,39 @@ def site_brief_extract_colors(req: SiteBriefColorsRequest):
         r0, g0, b0 = (min(int(x), 255) for x in m)
         counts["{:02x}{:02x}{:02x}".format(r0, g0, b0)] =             counts.get("{:02x}{:02x}{:02x}".format(r0, g0, b0), 0) + 1
 
+    def rgb(h):
+        return int(h[0:2], 16), int(h[2:4], 16), int(h[4:6], 16)
+
     def is_gray(h):
-        r0, g0, b0 = int(h[0:2], 16), int(h[2:4], 16), int(h[4:6], 16)
+        r0, g0, b0 = rgb(h)
         if max(r0, g0, b0) - min(r0, g0, b0) < 26:
             return True                       # gray family
         return (r0 + g0 + b0) > 705 or (r0 + g0 + b0) < 45  # near white/black
 
-    ranked = sorted(((h, n) for h, n in counts.items() if not is_gray(h)),
-                    key=lambda x: -x[1])[:8]
+    # Brand colors are frequent AND saturated — score by both, then merge
+    # near-duplicate shades so three greens don't crowd out the row.
+    def score(h, n):
+        r0, g0, b0 = rgb(h)
+        mx, mn = max(r0, g0, b0), min(r0, g0, b0)
+        sat = (mx - mn) / mx if mx else 0
+        return n * (0.5 + sat)
+
+    ranked = sorted(((h, n) for h, n in counts.items() if not is_gray(h) and n >= 2),
+                    key=lambda x: -score(*x))
+    if not ranked:  # tiny sites: fall back to single-occurrence colors
+        ranked = sorted(((h, n) for h, n in counts.items() if not is_gray(h)),
+                        key=lambda x: -score(*x))
+    picked = []
+    for h, n in ranked:
+        r0, g0, b0 = rgb(h)
+        if any(abs(r0 - pr) + abs(g0 - pg) + abs(b0 - pb) < 90
+               for pr, pg, pb in (rgb(x[0]) for x in picked)):
+            continue
+        picked.append((h, n))
+        if len(picked) >= 6:
+            break
     return {"website": site,
-            "colors": [{"hex": "#" + h, "count": n} for h, n in ranked]}
+            "colors": [{"hex": "#" + h, "count": n} for h, n in picked]}
 
 
 class SiteBuildRequest(BaseModel):

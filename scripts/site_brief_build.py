@@ -102,8 +102,16 @@ def main():
     brand.setdefault("short_name", co["name"].strip().split()[0])
     if brand_kit.get("primary_color"):
         brand.setdefault("primary_color", brand_kit["primary_color"])
-    if brand_kit.get("secondary_color"):
-        brand.setdefault("accent_color", brand_kit["secondary_color"])
+    sec = (brand_kit.get("secondary_color") or "").lstrip("#")
+    # A near-white accent on a light theme renders invisible elements — skip
+    # it and let the template derive an accent from the primary instead.
+    def _too_light(h):
+        try:
+            return (int(h[0:2], 16) + int(h[2:4], 16) + int(h[4:6], 16)) > 690
+        except Exception:
+            return False
+    if sec and not (theme == "light" and _too_light(sec)):
+        brand.setdefault("accent_color", "#" + sec)
     if brand_kit.get("heading_font"):
         brand.setdefault("heading_font", brand_kit["heading_font"])
     if brand_kit.get("body_font"):
