@@ -1,0 +1,78 @@
+name: Bootstrap New Clients
+
+# Sales→ops handoff, fully automated: every 2 hours, find Active companies on
+# the 'Rank AI' plan with no marketing_sites row and run the FULL bootstrap
+# for each (scripts/bootstrap_client.py — slug, company map, client files,
+# marketing_sites, KV upload link + crew hub, intake checklist, GBP sync,
+# geo-grid config + first scan). CI has commit rights, so the repo half that
+# the Railway worker can't write gets committed here. No-op when there are no
+# new clients; emails the ops digest address when it bootstraps someone.
+on:
+  schedule:
+    - cron: '15 */2 * * *'   # every 2 hours
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run (list candidates, write nothing)'
+        type: boolean
+        default: false
+
+jobs:
+  bootstrap:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
+          fetch-depth: 0
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Configure git identity
+        run: |
+          git config user.email "ops@restorationai.io"
+          git config user.name "Rank AI Bot"
+
+      - name: Bootstrap any new Rank AI clients
+        env:
+          SUPABASE_URL:                ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY:   ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          SENDGRID_API_KEY:            ${{ secrets.SENDGRID_API_KEY }}
+          CLOUDFLARE_R2_API_TOKEN:     ${{ secrets.CLOUDFLARE_R2_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID:       ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CONNECT_LINK_SIGNING_SECRET: ${{ secrets.CONNECT_LINK_SIGNING_SECRET }}
+          DATAFORSEO_USERNAME:         ${{ secrets.DATAFORSEO_USERNAME }}
+          DATAFORSEO_PASSWORD:         ${{ secrets.DATAFORSEO_PASSWORD }}
+          ANTHROPIC_API_KEY:           ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python3 scripts/client_ops_sync.py --bootstrap-only \
+            ${{ github.event.inputs.dry_run == 'true' && '--dry-run' || '--send' }}
+
+      - name: Commit new client files
+        run: |
+          git add clients/ 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."
+          else
+            git commit -m "chore: bootstrap new clients $(date +%Y-%m-%d) [automated]"
+            git pull --rebase --autostash
+            git push
+          fi
+
+      - name: Alert on failure
+        if: failure()
+        env:
+          SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
+        run: |
+          python3 scripts/notify_failure.py \
+            --subject "[Rank AI] CI failure: Bootstrap New Clients run #${{ github.run_number }}" \
+            --run-url "https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}" || true

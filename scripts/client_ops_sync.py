@@ -331,7 +331,8 @@ def digest_html(date_str: str, per_client: dict[str, dict]) -> str:
 
 # ------------------------------------------------------- bootstrap backstop
 def ensure_bootstrapped(dry_run: bool, do_send: bool,
-                        cid_to_slug: dict[str, str] | None = None) -> list[str]:
+                        cid_to_slug: dict[str, str] | None = None,
+                        full: bool = False) -> list[str]:
     """Auto-provision the DB/KV half of the sales-to-ops handoff for Active
     companies with no marketing_sites row (the Gregory Arianoff gap): slug +
     marketing_sites row + public upload-link KV entry. Repo files + GBP sync
@@ -367,6 +368,16 @@ def ensure_bootstrapped(dry_run: bool, do_send: bool,
         taken.add(slug)
         if dry_run:
             lines.append(f"WOULD bootstrap {co['name']} ({co['id']}) as {slug}")
+            continue
+        if full:
+            import subprocess as _sp
+            r = _sp.run([sys.executable, str(Path(__file__).parent / "bootstrap_client.py"),
+                         "--company-id", co["id"], "--slug", slug],
+                        capture_output=True, text=True, timeout=900)
+            ok = r.returncode == 0
+            lines.append(f"{'FULL-bootstrapped' if ok else 'FULL bootstrap FAILED'} "
+                         f"{co['name']} ({co['id']}) as {slug}"
+                         + ("" if ok else f": {(r.stdout + r.stderr)[-200:]}"))
             continue
         try:
             _sb("POST", "/rest/v1/marketing_sites", body={
@@ -564,12 +575,20 @@ def run(since_override: str | None, dry_run: bool, do_send: bool) -> int:
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
+    ap.add_argument("--bootstrap-only", action="store_true",
+                    help="run only the new-client bootstrap backstop (full mode), then exit")
     ap.add_argument("--dry-run", action="store_true",
                     help="classify + print everything; write nothing anywhere")
     ap.add_argument("--since", help="ISO timestamp cursor override (e.g. 2026-07-01)")
     ap.add_argument("--send", action="store_true",
                     help="actually deliver the digest email (default: print it)")
     args = ap.parse_args()
+    if args.bootstrap_only:
+        load_env()
+        lines = ensure_bootstrapped(args.dry_run, getattr(args, "send", False),
+                                    slug_map(), full=True)
+        print("bootstrap-only: {} action(s)".format(len(lines)))
+        raise SystemExit(0)
 
     load_env()
     if not (os.environ.get("SUPABASE_URL") and os.environ.get("SUPABASE_SERVICE_ROLE_KEY")):
