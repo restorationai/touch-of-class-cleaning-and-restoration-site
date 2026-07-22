@@ -160,6 +160,30 @@ def main():
         sb("POST", "/rest/v1/client_intake_items", body=payload)
     print("intake items added: {}".format(len(payload)))
 
+    # 6b. geo-grid config + first scan — without this the app's Local Maps
+    # stays empty (the Gregory question, 2026-07-21). Keywords = top services,
+    # grid centered on the company's city until a storefront is known.
+    kw_f = cdir / "geogrid-keywords.txt"
+    ct_f = cdir / "geogrid-cities.json"
+    if not kw_f.exists():
+        full = sb("GET", "/rest/v1/companies?id=eq.{}&select=services,city,state".format(co["id"]))[0]
+        services = [x.lower() for x in (full.get("services") or [])][:2] or ["water damage restoration"]
+        kw_f.write_text("\n".join(services) + "\n")
+        cities = []
+        if full.get("city"):
+            ll = la.geocode(full["city"], full.get("state") or "")
+            if ll:
+                cities = [{"label": full["city"], "lat": ll[0], "lng": ll[1]}]
+                d2 = json.loads(pi.read_text())
+                d2.setdefault("brand", {})
+                d2["brand"].setdefault("lat", ll[0])
+                d2["brand"].setdefault("lng", ll[1])
+                pi.write_text(json.dumps(d2, indent=1) + "\n")
+        ct_f.write_text(json.dumps(cities, indent=1) + "\n")
+        if cities:
+            subprocess.run([sys.executable, str(ROOT / "scripts" / "geogrid_cron.py"),
+                            "--slug", slug])
+
     # 6. GBP sync (needs place_id)
     if place_id:
         subprocess.run([sys.executable, str(ROOT / "scripts" / "gbp.py"),
