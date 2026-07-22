@@ -36,6 +36,10 @@ DAILY_JOBS = [
     # (content_writer.py's inline sync is best-effort; this was the "nightly
     # cron" its comment promised but which never existed.)
     ("supabase-sync", "09:10", [sys.executable, str(HERE / "supabase_sync.py")]),
+    # Weekly-per-client progress reports (baseline vs now) — self-gating: the
+    # script skips any client whose last progress report is <6 days old or
+    # whose baseline is <6 days old, so a daily tick yields weekly reports.
+    ("progress", "15:00", [sys.executable, str(HERE / "progress_report.py"), "--all"]),
 ]
 
 JOBS = [
