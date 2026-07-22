@@ -1,6 +1,9 @@
 {
  "brand": {
   "display_name": "PuroClean of East Las Vegas",
-  "place_id": "ChIJWRNeaVbDyIAR429H1EKyxas"
+  "place_id": "ChIJWRNeaVbDyIAR429H1EKyxas",
+  "lat": 36.2153,
+  "lng": -115.0867,
+  "gbp_name": "PuroClean of East Las Vegas"
  }
 }
