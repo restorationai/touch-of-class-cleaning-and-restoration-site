@@ -309,12 +309,13 @@ def site_brief_extract_colors(req: SiteBriefColorsRequest):
     colors ("use the same green as my site" without hex-code archaeology)."""
     rows = sb().table("companies").select("website").eq("id", req.company_id).execute()
     site = (rows.data[0].get("website") if rows.data else "") or ""
-    site = site.strip()
-    if not site:
+    # Hosts MUST be lowercased: "Www.RestorationXpress.com" stored verbatim
+    # breaks TLS SNI on some servers (found live 2026-07-22).
+    host = site.strip().lower().replace("https://", "").replace("http://", "").split("/")[0]
+    if not host:
         raise HTTPException(status_code=400, detail="No website on file for this company.")
-    if not site.startswith("http"):
-        site = "https://" + site.lstrip("/")
-    ua = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"}
+    ua = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)",
+          "Accept": "text/html,application/xhtml+xml"}
 
     def fetch(u):
         try:
@@ -323,9 +324,17 @@ def site_brief_extract_colors(req: SiteBriefColorsRequest):
         except Exception:
             return ""
 
-    html_text = fetch(site)
+    bare = host[4:] if host.startswith("www.") else host
+    html_text, site = "", ""
+    for cand in ("https://" + host, "https://www." + bare, "https://" + bare,
+                 "http://" + bare):
+        html_text = fetch(cand)
+        if html_text:
+            site = cand
+            break
     if not html_text:
-        raise HTTPException(status_code=502, detail="Couldn't fetch their website.")
+        raise HTTPException(status_code=502,
+                            detail="Couldn't fetch {} — their site may block bots; set colors manually.".format(bare))
     corpus = html_text
     for href in re.findall(r'<link[^>]+rel=["\']stylesheet["\'][^>]*href=["\']([^"\']+)', html_text)[:3]:
         corpus += fetch(urllib.parse.urljoin(site + "/", href))
