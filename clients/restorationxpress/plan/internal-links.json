@@ -1,0 +1,532 @@
+{
+  "/": [
+    "/services/",
+    "/service-areas/",
+    "/contact/",
+    "/about/",
+    "/services/fire-damage-restoration/",
+    "/services/mold-remediation/",
+    "/services/water-damage-restoration/",
+    "/service-areas/davie-fl/",
+    "/service-areas/cooper-city-fl/",
+    "/service-areas/fort-lauderdale-fl/",
+    "/service-areas/hollywood-fl/",
+    "/service-areas/miramar-fl/",
+    "/service-areas/pembroke-pines-fl/",
+    "/service-areas/plantation-fl/",
+    "/service-areas/sunrise-fl/",
+    "/service-areas/weston-fl/"
+  ],
+  "/services/": [
+    "/",
+    "/services/fire-damage-restoration/",
+    "/services/mold-remediation/",
+    "/services/water-damage-restoration/"
+  ],
+  "/service-areas/": [
+    "/",
+    "/service-areas/davie-fl/",
+    "/service-areas/cooper-city-fl/",
+    "/service-areas/fort-lauderdale-fl/",
+    "/service-areas/hollywood-fl/",
+    "/service-areas/miramar-fl/",
+    "/service-areas/pembroke-pines-fl/",
+    "/service-areas/plantation-fl/",
+    "/service-areas/sunrise-fl/",
+    "/service-areas/weston-fl/"
+  ],
+  "/blog/": [
+    "/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/does-homeowners-insurance-cover-water-damage/",
+    "/blog/fire-damage-restoration-process/",
+    "/blog/how-to-test-for-mold/",
+    "/blog/signs-of-hidden-mold/",
+    "/blog/black-mold-vs-regular-mold/",
+    "/blog/how-long-does-water-damage-restoration-take/",
+    "/blog/mold-after-water-damage/",
+    "/blog/basement-flooding-prevention/",
+    "/blog/smoke-odor-removal-techniques/"
+  ],
+  "/about/": [
+    "/",
+    "/services/",
+    "/contact/"
+  ],
+  "/contact/": [
+    "/",
+    "/services/",
+    "/service-areas/"
+  ],
+  "/services/water-damage-restoration/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/cooper-city-fl/water-damage-restoration/",
+    "/service-areas/davie-fl/water-damage-restoration/",
+    "/service-areas/fort-lauderdale-fl/water-damage-restoration/",
+    "/service-areas/hollywood-fl/water-damage-restoration/",
+    "/service-areas/miramar-fl/water-damage-restoration/",
+    "/service-areas/pembroke-pines-fl/water-damage-restoration/",
+    "/service-areas/plantation-fl/water-damage-restoration/",
+    "/service-areas/sunrise-fl/water-damage-restoration/",
+    "/service-areas/weston-fl/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/"
+  ],
+  "/services/fire-damage-restoration/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/cooper-city-fl/fire-damage-restoration/",
+    "/service-areas/davie-fl/fire-damage-restoration/",
+    "/service-areas/fort-lauderdale-fl/fire-damage-restoration/",
+    "/service-areas/hollywood-fl/fire-damage-restoration/",
+    "/service-areas/miramar-fl/fire-damage-restoration/",
+    "/service-areas/pembroke-pines-fl/fire-damage-restoration/",
+    "/service-areas/plantation-fl/fire-damage-restoration/",
+    "/service-areas/sunrise-fl/fire-damage-restoration/",
+    "/service-areas/weston-fl/fire-damage-restoration/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/fire-damage-restoration-process/",
+    "/blog/smoke-odor-removal-techniques/"
+  ],
+  "/services/mold-remediation/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/cooper-city-fl/mold-remediation/",
+    "/service-areas/davie-fl/mold-remediation/",
+    "/service-areas/fort-lauderdale-fl/mold-remediation/",
+    "/service-areas/hollywood-fl/mold-remediation/",
+    "/service-areas/miramar-fl/mold-remediation/",
+    "/service-areas/pembroke-pines-fl/mold-remediation/",
+    "/service-areas/plantation-fl/mold-remediation/",
+    "/service-areas/sunrise-fl/mold-remediation/",
+    "/service-areas/weston-fl/mold-remediation/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/how-to-test-for-mold/",
+    "/blog/signs-of-hidden-mold/"
+  ],
+  "/service-areas/davie-fl/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/davie-fl/fire-damage-restoration/",
+    "/service-areas/davie-fl/mold-remediation/",
+    "/service-areas/davie-fl/water-damage-restoration/",
+    "/service-areas/cooper-city-fl/",
+    "/service-areas/fort-lauderdale-fl/",
+    "/service-areas/hollywood-fl/"
+  ],
+  "/service-areas/fort-lauderdale-fl/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/fort-lauderdale-fl/fire-damage-restoration/",
+    "/service-areas/fort-lauderdale-fl/mold-remediation/",
+    "/service-areas/fort-lauderdale-fl/water-damage-restoration/",
+    "/service-areas/davie-fl/",
+    "/service-areas/cooper-city-fl/",
+    "/service-areas/hollywood-fl/"
+  ],
+  "/service-areas/hollywood-fl/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/hollywood-fl/fire-damage-restoration/",
+    "/service-areas/hollywood-fl/mold-remediation/",
+    "/service-areas/hollywood-fl/water-damage-restoration/",
+    "/service-areas/davie-fl/",
+    "/service-areas/cooper-city-fl/",
+    "/service-areas/fort-lauderdale-fl/"
+  ],
+  "/service-areas/plantation-fl/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/plantation-fl/fire-damage-restoration/",
+    "/service-areas/plantation-fl/mold-remediation/",
+    "/service-areas/plantation-fl/water-damage-restoration/",
+    "/service-areas/davie-fl/",
+    "/service-areas/cooper-city-fl/",
+    "/service-areas/fort-lauderdale-fl/"
+  ],
+  "/service-areas/sunrise-fl/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/sunrise-fl/fire-damage-restoration/",
+    "/service-areas/sunrise-fl/mold-remediation/",
+    "/service-areas/sunrise-fl/water-damage-restoration/",
+    "/service-areas/davie-fl/",
+    "/service-areas/cooper-city-fl/",
+    "/service-areas/fort-lauderdale-fl/"
+  ],
+  "/service-areas/cooper-city-fl/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/cooper-city-fl/fire-damage-restoration/",
+    "/service-areas/cooper-city-fl/mold-remediation/",
+    "/service-areas/cooper-city-fl/water-damage-restoration/",
+    "/service-areas/davie-fl/",
+    "/service-areas/fort-lauderdale-fl/",
+    "/service-areas/hollywood-fl/"
+  ],
+  "/service-areas/weston-fl/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/weston-fl/fire-damage-restoration/",
+    "/service-areas/weston-fl/mold-remediation/",
+    "/service-areas/weston-fl/water-damage-restoration/",
+    "/service-areas/davie-fl/",
+    "/service-areas/cooper-city-fl/",
+    "/service-areas/fort-lauderdale-fl/"
+  ],
+  "/service-areas/pembroke-pines-fl/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/pembroke-pines-fl/fire-damage-restoration/",
+    "/service-areas/pembroke-pines-fl/mold-remediation/",
+    "/service-areas/pembroke-pines-fl/water-damage-restoration/",
+    "/service-areas/davie-fl/",
+    "/service-areas/cooper-city-fl/",
+    "/service-areas/fort-lauderdale-fl/"
+  ],
+  "/service-areas/miramar-fl/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/miramar-fl/fire-damage-restoration/",
+    "/service-areas/miramar-fl/mold-remediation/",
+    "/service-areas/miramar-fl/water-damage-restoration/",
+    "/service-areas/davie-fl/",
+    "/service-areas/cooper-city-fl/",
+    "/service-areas/fort-lauderdale-fl/"
+  ],
+  "/service-areas/davie-fl/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/davie-fl/",
+    "/service-areas/davie-fl/fire-damage-restoration/",
+    "/service-areas/davie-fl/mold-remediation/",
+    "/service-areas/cooper-city-fl/water-damage-restoration/",
+    "/service-areas/fort-lauderdale-fl/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/davie-fl/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/davie-fl/",
+    "/service-areas/davie-fl/mold-remediation/",
+    "/service-areas/davie-fl/water-damage-restoration/",
+    "/service-areas/cooper-city-fl/fire-damage-restoration/",
+    "/service-areas/fort-lauderdale-fl/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/davie-fl/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/davie-fl/",
+    "/service-areas/davie-fl/fire-damage-restoration/",
+    "/service-areas/davie-fl/water-damage-restoration/",
+    "/service-areas/cooper-city-fl/mold-remediation/",
+    "/service-areas/fort-lauderdale-fl/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/fort-lauderdale-fl/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/fort-lauderdale-fl/",
+    "/service-areas/fort-lauderdale-fl/fire-damage-restoration/",
+    "/service-areas/fort-lauderdale-fl/mold-remediation/",
+    "/service-areas/cooper-city-fl/water-damage-restoration/",
+    "/service-areas/davie-fl/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/fort-lauderdale-fl/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/fort-lauderdale-fl/",
+    "/service-areas/fort-lauderdale-fl/mold-remediation/",
+    "/service-areas/fort-lauderdale-fl/water-damage-restoration/",
+    "/service-areas/cooper-city-fl/fire-damage-restoration/",
+    "/service-areas/davie-fl/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/fort-lauderdale-fl/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/fort-lauderdale-fl/",
+    "/service-areas/fort-lauderdale-fl/fire-damage-restoration/",
+    "/service-areas/fort-lauderdale-fl/water-damage-restoration/",
+    "/service-areas/cooper-city-fl/mold-remediation/",
+    "/service-areas/davie-fl/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/hollywood-fl/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/hollywood-fl/",
+    "/service-areas/hollywood-fl/fire-damage-restoration/",
+    "/service-areas/hollywood-fl/mold-remediation/",
+    "/service-areas/cooper-city-fl/water-damage-restoration/",
+    "/service-areas/davie-fl/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/hollywood-fl/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/hollywood-fl/",
+    "/service-areas/hollywood-fl/mold-remediation/",
+    "/service-areas/hollywood-fl/water-damage-restoration/",
+    "/service-areas/cooper-city-fl/fire-damage-restoration/",
+    "/service-areas/davie-fl/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/hollywood-fl/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/hollywood-fl/",
+    "/service-areas/hollywood-fl/fire-damage-restoration/",
+    "/service-areas/hollywood-fl/water-damage-restoration/",
+    "/service-areas/cooper-city-fl/mold-remediation/",
+    "/service-areas/davie-fl/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/plantation-fl/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/plantation-fl/",
+    "/service-areas/plantation-fl/fire-damage-restoration/",
+    "/service-areas/plantation-fl/mold-remediation/",
+    "/service-areas/cooper-city-fl/water-damage-restoration/",
+    "/service-areas/davie-fl/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/plantation-fl/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/plantation-fl/",
+    "/service-areas/plantation-fl/mold-remediation/",
+    "/service-areas/plantation-fl/water-damage-restoration/",
+    "/service-areas/cooper-city-fl/fire-damage-restoration/",
+    "/service-areas/davie-fl/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/plantation-fl/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/plantation-fl/",
+    "/service-areas/plantation-fl/fire-damage-restoration/",
+    "/service-areas/plantation-fl/water-damage-restoration/",
+    "/service-areas/cooper-city-fl/mold-remediation/",
+    "/service-areas/davie-fl/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/sunrise-fl/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/sunrise-fl/",
+    "/service-areas/sunrise-fl/fire-damage-restoration/",
+    "/service-areas/sunrise-fl/mold-remediation/",
+    "/service-areas/cooper-city-fl/water-damage-restoration/",
+    "/service-areas/davie-fl/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/sunrise-fl/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/sunrise-fl/",
+    "/service-areas/sunrise-fl/mold-remediation/",
+    "/service-areas/sunrise-fl/water-damage-restoration/",
+    "/service-areas/cooper-city-fl/fire-damage-restoration/",
+    "/service-areas/davie-fl/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/sunrise-fl/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/sunrise-fl/",
+    "/service-areas/sunrise-fl/fire-damage-restoration/",
+    "/service-areas/sunrise-fl/water-damage-restoration/",
+    "/service-areas/cooper-city-fl/mold-remediation/",
+    "/service-areas/davie-fl/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/cooper-city-fl/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/cooper-city-fl/",
+    "/service-areas/cooper-city-fl/fire-damage-restoration/",
+    "/service-areas/cooper-city-fl/mold-remediation/",
+    "/service-areas/davie-fl/water-damage-restoration/",
+    "/service-areas/fort-lauderdale-fl/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/cooper-city-fl/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/cooper-city-fl/",
+    "/service-areas/cooper-city-fl/mold-remediation/",
+    "/service-areas/cooper-city-fl/water-damage-restoration/",
+    "/service-areas/davie-fl/fire-damage-restoration/",
+    "/service-areas/fort-lauderdale-fl/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/cooper-city-fl/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/cooper-city-fl/",
+    "/service-areas/cooper-city-fl/fire-damage-restoration/",
+    "/service-areas/cooper-city-fl/water-damage-restoration/",
+    "/service-areas/davie-fl/mold-remediation/",
+    "/service-areas/fort-lauderdale-fl/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/weston-fl/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/weston-fl/",
+    "/service-areas/weston-fl/fire-damage-restoration/",
+    "/service-areas/weston-fl/mold-remediation/",
+    "/service-areas/cooper-city-fl/water-damage-restoration/",
+    "/service-areas/davie-fl/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/weston-fl/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/weston-fl/",
+    "/service-areas/weston-fl/mold-remediation/",
+    "/service-areas/weston-fl/water-damage-restoration/",
+    "/service-areas/cooper-city-fl/fire-damage-restoration/",
+    "/service-areas/davie-fl/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/weston-fl/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/weston-fl/",
+    "/service-areas/weston-fl/fire-damage-restoration/",
+    "/service-areas/weston-fl/water-damage-restoration/",
+    "/service-areas/cooper-city-fl/mold-remediation/",
+    "/service-areas/davie-fl/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/pembroke-pines-fl/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/pembroke-pines-fl/",
+    "/service-areas/pembroke-pines-fl/fire-damage-restoration/",
+    "/service-areas/pembroke-pines-fl/mold-remediation/",
+    "/service-areas/cooper-city-fl/water-damage-restoration/",
+    "/service-areas/davie-fl/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/pembroke-pines-fl/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/pembroke-pines-fl/",
+    "/service-areas/pembroke-pines-fl/mold-remediation/",
+    "/service-areas/pembroke-pines-fl/water-damage-restoration/",
+    "/service-areas/cooper-city-fl/fire-damage-restoration/",
+    "/service-areas/davie-fl/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/pembroke-pines-fl/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/pembroke-pines-fl/",
+    "/service-areas/pembroke-pines-fl/fire-damage-restoration/",
+    "/service-areas/pembroke-pines-fl/water-damage-restoration/",
+    "/service-areas/cooper-city-fl/mold-remediation/",
+    "/service-areas/davie-fl/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/miramar-fl/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/miramar-fl/",
+    "/service-areas/miramar-fl/fire-damage-restoration/",
+    "/service-areas/miramar-fl/mold-remediation/",
+    "/service-areas/cooper-city-fl/water-damage-restoration/",
+    "/service-areas/davie-fl/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/miramar-fl/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/miramar-fl/",
+    "/service-areas/miramar-fl/mold-remediation/",
+    "/service-areas/miramar-fl/water-damage-restoration/",
+    "/service-areas/cooper-city-fl/fire-damage-restoration/",
+    "/service-areas/davie-fl/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/miramar-fl/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/miramar-fl/",
+    "/service-areas/miramar-fl/fire-damage-restoration/",
+    "/service-areas/miramar-fl/water-damage-restoration/",
+    "/service-areas/cooper-city-fl/mold-remediation/",
+    "/service-areas/davie-fl/mold-remediation/",
+    "/contact/"
+  ],
+  "/blog/what-to-do-first-24-hours-water-damage/": [
+    "/blog/",
+    "/services/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/does-homeowners-insurance-cover-water-damage/"
+  ],
+  "/blog/burst-pipe-emergency-checklist/": [
+    "/blog/",
+    "/services/water-damage-restoration/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/does-homeowners-insurance-cover-water-damage/"
+  ],
+  "/blog/does-homeowners-insurance-cover-water-damage/": [
+    "/blog/",
+    "/services/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/"
+  ],
+  "/blog/signs-of-hidden-mold/": [
+    "/blog/",
+    "/services/mold-remediation/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/how-to-test-for-mold/",
+    "/blog/black-mold-vs-regular-mold/"
+  ],
+  "/blog/how-to-test-for-mold/": [
+    "/blog/",
+    "/services/mold-remediation/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/signs-of-hidden-mold/",
+    "/blog/black-mold-vs-regular-mold/"
+  ],
+  "/blog/fire-damage-restoration-process/": [
+    "/blog/",
+    "/services/fire-damage-restoration/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/smoke-odor-removal-techniques/"
+  ],
+  "/blog/choosing-a-restoration-company/": [
+    "/blog/",
+    "/services/fire-damage-restoration/",
+    "/services/mold-remediation/",
+    "/services/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/does-homeowners-insurance-cover-water-damage/"
+  ],
+  "/blog/black-mold-vs-regular-mold/": [
+    "/blog/",
+    "/services/mold-remediation/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/how-to-test-for-mold/",
+    "/blog/signs-of-hidden-mold/"
+  ],
+  "/blog/how-long-does-water-damage-restoration-take/": [
+    "/blog/",
+    "/services/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/"
+  ],
+  "/blog/mold-after-water-damage/": [
+    "/blog/",
+    "/services/mold-remediation/",
+    "/services/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/"
+  ],
+  "/blog/smoke-odor-removal-techniques/": [
+    "/blog/",
+    "/services/fire-damage-restoration/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/fire-damage-restoration-process/"
+  ],
+  "/blog/basement-flooding-prevention/": [
+    "/blog/",
+    "/services/water-damage-restoration/",
+    "/blog/burst-pipe-emergency-checklist/",
+    "/blog/what-to-do-first-24-hours-water-damage/",
+    "/blog/choosing-a-restoration-company/"
+  ],
+  "/privacy/": [],
+  "/terms/": [],
+  "/accessibility/": []
+}
