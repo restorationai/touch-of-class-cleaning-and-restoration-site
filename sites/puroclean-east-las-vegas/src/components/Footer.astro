@@ -1,0 +1,86 @@
+---
+import { brand } from "~/lib/brand";
+import { getCollection } from "astro:content";
+
+const is247 = /24\s*[\/x-]?\s*7|24 ?hours/i.test(String(brand.hours || ""));
+const services = (await getCollection("services")).sort((a, b) => (b.data.priority || 0) - (a.data.priority || 0));
+const areas = (await getCollection("serviceAreas")).sort((a, b) => Number(b.data.primary) - Number(a.data.primary));
+const year = new Date().getFullYear();
+---
+
+<footer class="bg-white text-navy-900 pt-24 pb-12 mt-0">
+  <div class="container-wide grid gap-12 lg:grid-cols-12">
+    <div class="lg:col-span-4">
+      {brand.logoUrl && (
+        <img src={brand.logoUrl} alt={`${brand.displayName} logo`} class="h-12 w-auto mb-6" width="48" height="48" loading="lazy" />
+      )}
+      <div class="font-display text-2xl font-black tracking-tight text-navy-900">{brand.displayName}</div>
+      <p class="mt-4 text-navy-900/70 text-sm leading-relaxed mb-0">{brand.tagline}</p>
+      <address class="not-italic mt-6 text-sm text-navy-900/80 leading-relaxed">
+        <div>{brand.streetAddress}</div>
+        <div>{brand.primaryCity}, {brand.primaryState} {brand.postalCode}</div>
+        <div class="mt-3"><a href={`tel:${brand.phoneRaw}`} class="text-primary font-bold no-underline hover:underline">{brand.phone}</a></div>
+        <div><a href={`mailto:${brand.email}`} class="text-primary no-underline hover:underline">{brand.email}</a></div>
+      </address>
+    </div>
+
+    <div class="lg:col-span-3">
+      <div class="text-xs font-black uppercase tracking-widest text-navy-900 mb-4">Services</div>
+      <ul class="space-y-2 text-sm list-none pl-0">
+        {services.slice(0, 8).map((s) => (
+          <li>
+            <a href={`/services/${s.data.service_slug}/`} class="text-navy-900/70 hover:text-primary no-underline transition-colors">
+              {s.data.service_display}
+            </a>
+          </li>
+        ))}
+        {services.length > 8 && (
+          <li>
+            <a href="/services/" class="text-primary font-semibold no-underline hover:underline">See all services →</a>
+          </li>
+        )}
+      </ul>
+    </div>
+
+    <div class="lg:col-span-3">
+      <div class="text-xs font-black uppercase tracking-widest text-navy-900 mb-4">Service Areas</div>
+      <ul class="space-y-2 text-sm list-none pl-0">
+        {areas.slice(0, 10).map((a) => (
+          <li>
+            <a href={`/service-areas/${a.data.area_slug}/`} class="text-navy-900/70 hover:text-primary no-underline transition-colors">
+              {a.data.city}, {a.data.state}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+
+    <div class="lg:col-span-2">
+      <div class="text-xs font-black uppercase tracking-widest text-navy-900 mb-4">Company</div>
+      <ul class="space-y-2 text-sm list-none pl-0">
+        <li><a href="/emergency/" class="text-primary font-bold no-underline hover:underline">{is247 ? "24/7 Emergency" : "Emergency"}</a></li>
+        <li><a href="/about/" class="text-navy-900/70 hover:text-primary no-underline">About</a></li>
+        <li><a href="/contact/" class="text-navy-900/70 hover:text-primary no-underline">Contact</a></li>
+        <li><a href="/blog/" class="text-navy-900/70 hover:text-primary no-underline">Blog</a></li>
+        <li><a href="/privacy/" class="text-navy-900/70 hover:text-primary no-underline">Privacy</a></li>
+        <li><a href="/terms/" class="text-navy-900/70 hover:text-primary no-underline">Terms</a></li>
+        <li><a href="/accessibility/" class="text-navy-900/70 hover:text-primary no-underline">Accessibility</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container-wide mt-16 pt-8 border-t border-navy-900/10 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 text-xs text-navy-900/70">
+    <div>© {year} {brand.legalName}. All rights reserved.</div>
+    <div class="flex flex-wrap items-center gap-x-3 gap-y-1">
+      <span>{brand.licenseType}</span>
+      <span class="text-navy-900/70" aria-hidden="true">·</span>
+      <span>{brand.licenseAuthority}</span>
+      {brand.licenseNumbers && Array.isArray(brand.licenseNumbers) && brand.licenseNumbers.length > 0 && (
+        <>
+          <span class="text-navy-900/70" aria-hidden="true">·</span>
+          <span>#{brand.licenseNumbers.join(", #")}</span>
+        </>
+      )}
+    </div>
+  </div>
+</footer>

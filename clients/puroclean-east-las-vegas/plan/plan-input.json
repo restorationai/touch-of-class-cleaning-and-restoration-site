@@ -1,0 +1,244 @@
+{
+  "brand": {
+    "display_name": "PuroClean of East Las Vegas",
+    "place_id": "ChIJWRNeaVbDyIAR429H1EKyxas",
+    "lat": 36.2153,
+    "lng": -115.0867,
+    "gbp_name": "PuroClean of East Las Vegas",
+    "short_name": "Puroclean",
+    "primary_color": "#c50a1d",
+    "accent_color": "#000000",
+    "phone": "+17025513040",
+    "email": "eastlasvegas@puroclean.com",
+    "street_address": "2777 N Lamb Blvd",
+    "postal_code": "89115",
+    "theme": "light"
+  },
+  "template": "restoration",
+  "services": [
+    "fire-damage-restoration",
+    "mold-remediation",
+    "water-damage-restoration",
+    "sewage-cleanup",
+    "biohazard-cleanup"
+  ],
+  "blog_seed_count": 12,
+  "service_areas": [
+    {
+      "city": "Las Vegas",
+      "state": "NV",
+      "slug": "las-vegas-nv",
+      "neighborhoods": [
+        "Downtown",
+        "Summerlin",
+        "The Lakes",
+        "Centennial Hills",
+        "Rancho Charleston"
+      ],
+      "landmarks": [
+        "Fremont Street Experience",
+        "The Smith Center",
+        "Red Rock Canyon National Conservation Area",
+        "Springs Preserve"
+      ],
+      "zip_codes": [
+        "89101",
+        "89102",
+        "89106",
+        "89107",
+        "89108",
+        "89128",
+        "89129",
+        "89130",
+        "89131",
+        "89134",
+        "89144",
+        "89145",
+        "89146",
+        "89149"
+      ],
+      "local_notes": "Monsoon-season flash flooding and burst pipes in older Downtown homes keep our crews busy year-round.",
+      "primary": true
+    },
+    {
+      "city": "Henderson",
+      "state": "NV",
+      "slug": "henderson-nv",
+      "neighborhoods": [
+        "Green Valley",
+        "Green Valley Ranch",
+        "Anthem",
+        "Seven Hills",
+        "MacDonald Ranch",
+        "Inspirada"
+      ],
+      "landmarks": [
+        "The District at Green Valley Ranch",
+        "Clark County Heritage Museum",
+        "Lake Las Vegas",
+        "Sloan Canyon National Conservation Area"
+      ],
+      "zip_codes": [
+        "89002",
+        "89011",
+        "89012",
+        "89014",
+        "89015",
+        "89044",
+        "89052",
+        "89074"
+      ],
+      "local_notes": "Fast-growing master-planned communities mean lots of newer homes with appliance and slab-leak water damage calls."
+    },
+    {
+      "city": "North Las Vegas",
+      "state": "NV",
+      "slug": "north-las-vegas-nv",
+      "neighborhoods": [
+        "Aliante",
+        "Eldorado",
+        "Cheyenne Ranch",
+        "Sky Canyon",
+        "Valley View"
+      ],
+      "landmarks": [
+        "Aliante Casino",
+        "Craig Ranch Regional Park",
+        "Nellis Air Force Base",
+        "The Aliante Nature Discovery Park"
+      ],
+      "zip_codes": [
+        "89030",
+        "89031",
+        "89032",
+        "89081",
+        "89084",
+        "89085",
+        "89086",
+        "89087"
+      ],
+      "local_notes": "We serve homes near Nellis AFB and the Aliante area with rapid mold and water mitigation."
+    },
+    {
+      "city": "Paradise",
+      "state": "NV",
+      "slug": "paradise-nv",
+      "neighborhoods": [
+        "The Strip",
+        "University District (near UNLV)",
+        "Paradise Palms",
+        "McCarran"
+      ],
+      "landmarks": [
+        "Harry Reid International Airport",
+        "University of Nevada Las Vegas",
+        "Las Vegas Convention Center",
+        "Allegiant Stadium"
+      ],
+      "zip_codes": [
+        "89109",
+        "89119",
+        "89120",
+        "89121",
+        "89123",
+        "89169"
+      ],
+      "local_notes": "High-density condos and rentals near the Strip and UNLV frequently need quick water and fire cleanup."
+    },
+    {
+      "city": "Spring Valley",
+      "state": "NV",
+      "slug": "spring-valley-nv",
+      "neighborhoods": [
+        "Chinatown",
+        "Rhodes Ranch",
+        "Peccole Ranch",
+        "Spring Valley Ranch"
+      ],
+      "landmarks": [
+        "Chinatown Plaza",
+        "Spring Valley Library",
+        "Wet 'n' Wild Las Vegas",
+        "Rhodes Ranch Golf Club"
+      ],
+      "zip_codes": [
+        "89102",
+        "89103",
+        "89117",
+        "89118",
+        "89147",
+        "89148"
+      ],
+      "local_notes": "The Chinatown corridor and surrounding subdivisions get frequent HVAC condensation and pipe-break calls in summer."
+    },
+    {
+      "city": "Sunrise Manor",
+      "state": "NV",
+      "slug": "sunrise-manor-nv",
+      "neighborhoods": [
+        "Nellis Meadows",
+        "Sunrise Vista",
+        "East Charleston corridor",
+        "Whitney Ranch border"
+      ],
+      "landmarks": [
+        "Sunrise Mountain",
+        "Sunrise Hospital",
+        "Nellis Air Force Base",
+        "Winchester Dondero Cultural Center"
+      ],
+      "zip_codes": [
+        "89101",
+        "89104",
+        "89110",
+        "89115",
+        "89142",
+        "89156"
+      ],
+      "local_notes": "Home turf for our East Las Vegas team \ffastest drive times to Sunrise Mountain neighborhoods."
+    },
+    {
+      "city": "Whitney",
+      "state": "NV",
+      "slug": "whitney-nv",
+      "neighborhoods": [
+        "Whitney Ranch",
+        "Winterwood",
+        "East Tropicana corridor"
+      ],
+      "landmarks": [
+        "Whitney Recreation Center",
+        "Sam Boyd Stadium",
+        "Whitney Mesa Recreation Area",
+        "Boulder Highway"
+      ],
+      "zip_codes": [
+        "89122",
+        "89110",
+        "89142"
+      ],
+      "local_notes": "Just south of our East Las Vegas base, so Whitney Ranch homes get priority response."
+    },
+    {
+      "city": "Boulder City",
+      "state": "NV",
+      "slug": "boulder-city-nv",
+      "neighborhoods": [
+        "Historic District",
+        "Del Prado",
+        "Lake Mountain Estates"
+      ],
+      "landmarks": [
+        "Hoover Dam",
+        "Lake Mead National Recreation Area",
+        "Boulder City Historic District",
+        "Bootleg Canyon"
+      ],
+      "zip_codes": [
+        "89005",
+        "89006"
+      ],
+      "local_notes": "Older historic-district homes here often need careful water-damage restoration due to aging plumbing."
+    }
+  ]
+}
