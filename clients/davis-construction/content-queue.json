@@ -486,7 +486,7 @@
     },
     {
       "id": "2026-07-09-how-to-choose-a-general-contractor",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-07-09T17:54:12Z",
       "written_at": "2026-07-23T17:20:43Z",
       "post_url": "https://davisconstructioncontractors.com/blog/how-to-choose-a-general-contractor/",
@@ -521,7 +521,8 @@
         "https://genbd.alabama.gov/"
       ],
       "metrics_pending": true,
-      "notes": "Decision-stage checklist. Distinct from the restoration-only /blog/choosing-a-restoration-company/ post -- this targets construction/GC intent. Include: licensing/insurance verification (link to the licensed-vs-unlicensed post), reference and portfolio checks, the questions-to-ask list, bid comparison, and contract/payment-schedule basics. Absorbs questions-to-ask + what-does-a-GC-do + how-to-find. Metrics null (DataForSEO unavailable this run)."
+      "notes": "Decision-stage checklist. Distinct from the restoration-only /blog/choosing-a-restoration-company/ post -- this targets construction/GC intent. Include: licensing/insurance verification (link to the licensed-vs-unlicensed post), reference and portfolio checks, the questions-to-ask list, bid comparison, and contract/payment-schedule basics. Absorbs questions-to-ask + what-does-a-GC-do + how-to-find. Metrics null (DataForSEO unavailable this run).",
+      "published_verified_at": "2026-07-23T17:22:51Z"
     },
     {
       "id": "2026-07-09-licensed-vs-unlicensed-contractor-alabama",

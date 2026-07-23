@@ -302,7 +302,7 @@
     },
     {
       "id": "2026-07-02-what-to-do-after-a-house-fire",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-07-02T17:37:35Z",
       "written_at": "2026-07-23T17:28:15Z",
       "post_url": "https://homepriderestorationandcleaning.com/blog/what-to-do-after-a-house-fire/",
@@ -336,7 +336,8 @@
       "external_authority_candidates": [
         "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/fire/recovering-from-a-fire.html"
       ],
-      "notes": "SENSITIVE / emotional query (a homeowner who just had a fire). Apply sensitive-content guardrails: lead with safety and empathy, not a sales pitch. Cover the first 24-48 hours: safety, contacting insurer, securing/boarding up, what not to touch. Soft CTA to 24/7 fire restoration."
+      "notes": "SENSITIVE / emotional query (a homeowner who just had a fire). Apply sensitive-content guardrails: lead with safety and empathy, not a sales pitch. Cover the first 24-48 hours: safety, contacting insurer, securing/boarding up, what not to touch. Soft CTA to 24/7 fire restoration.",
+      "published_verified_at": "2026-07-23T17:29:24Z"
     },
     {
       "id": "2026-07-02-does-homeowners-insurance-cover-fire-damage",

@@ -1,0 +1,31 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+remodeling contractor,transactional,12100,11,10.91,3,remodeling contractor,,/services/home-remodeling/,no
+remodeling contractor Madison AL,transactional,,,,3,remodeling contractor,Madison,/service-areas/madison-al/home-remodeling/,no
+remodeling contractor in Huntsville,transactional,,,,3,remodeling contractor,Huntsville,/service-areas/huntsville-al/home-remodeling/,no
+Huntsville remodeling contractor,transactional,,,,3,remodeling contractor,Huntsville,/service-areas/huntsville-al/home-remodeling/,no
+remodeling contractor Athens AL,transactional,,,,3,remodeling contractor,Athens,/service-areas/athens-al/home-remodeling/,no
+remodeling contractor near Madison,transactional,,,,3,remodeling contractor,Madison,/service-areas/madison-al/home-remodeling/,no
+home remodeling contractor Madison AL,transactional,,,,3,remodeling contractor,Madison,/service-areas/madison-al/home-remodeling/,no
+home remodeling contractor Huntsville AL,transactional,,,,3,remodeling contractor,Huntsville,/service-areas/huntsville-al/home-remodeling/,no
+licensed remodeling contractor Huntsville AL,transactional,,,,3,remodeling contractor,Huntsville,/service-areas/huntsville-al/home-remodeling/,no
+renovation contractor Madison AL,transactional,,,,3,remodeling contractor,Madison,/service-areas/madison-al/home-remodeling/,no
+renovation contractor Huntsville AL,transactional,,,,3,remodeling contractor,Huntsville,/service-areas/huntsville-al/home-remodeling/,no
+best remodeling contractors near me,commercial,480,20,8.34,2,remodeling contractor,,,no
+licensed remodeling contractors near me,commercial,140,17,11.69,2,remodeling contractor,,,no
+best remodeling contractor Huntsville AL,commercial,,,,3,remodeling contractor,Huntsville,/service-areas/huntsville-al/home-remodeling/,no
+affordable remodeling contractor near me,commercial,,,,3,remodeling contractor,,,no
+how long does a home remodel take,informational,,,,1,remodeling contractor,,,yes
+how much does a home remodel cost,informational,,23,,1,remodeling contractor,,,yes
+remodeling contractor vs general contractor,informational,,,,1,remodeling contractor,,,yes
+how to plan a home remodel,informational,,36,,1,remodeling contractor,,,yes
+how to choose a remodeling contractor,informational,,5,,2,remodeling contractor,,,no
+what questions to ask a remodeling contractor,informational,,,,2,remodeling contractor,,,no
+how to tell if a remodeling contractor is licensed,informational,,,,2,remodeling contractor,,,no
+how many estimates should I get for a home remodel,informational,,,,2,remodeling contractor,,,no
+what does a remodeling contractor do,informational,,7,,2,remodeling contractor,,,no
+how much does a whole home remodel cost,informational,,26,,2,remodeling contractor,,,no
+red flags when hiring a remodeling contractor,informational,,,,2,remodeling contractor,,,no
+do remodeling contractors offer financing,informational,,,,2,remodeling contractor,,,no
+is a remodeling contractor the same as a general contractor,informational,,,,2,remodeling contractor,,,no
+cost to remodel a house,informational,,25,,2,remodeling contractor,,,no
+how to find a good remodeling contractor,informational,,64,,3,remodeling contractor,,,no

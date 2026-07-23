@@ -215,7 +215,7 @@
     },
     {
       "id": "2026-07-13-does-homeowners-insurance-cover-flood-damage",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-07-13T18:01:06Z",
       "written_at": "2026-07-23T17:24:56Z",
       "post_url": "https://flood-fixers.com/blog/does-homeowners-insurance-cover-flood-damage/",
@@ -246,7 +246,8 @@
         "https://www.floodsmart.gov/",
         "https://www.fema.gov/flood-insurance"
       ],
-      "notes": "Distinguish NFIP flood policies from standard homeowners water-damage coverage: homeowners policies typically EXCLUDE flooding (rising external water). Cross-link the existing water-damage insurance blog and the flood-damage service page. Decision-stage query, no existing blog coverage. No metrics: DataForSEO unavailable this run; queued intent-first."
+      "notes": "Distinguish NFIP flood policies from standard homeowners water-damage coverage: homeowners policies typically EXCLUDE flooding (rising external water). Cross-link the existing water-damage insurance blog and the flood-damage service page. Decision-stage query, no existing blog coverage. No metrics: DataForSEO unavailable this run; queued intent-first.",
+      "published_verified_at": "2026-07-23T17:26:03Z"
     },
     {
       "id": "2026-07-13-what-to-do-after-a-flood-in-your-house",
