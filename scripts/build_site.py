@@ -644,7 +644,10 @@ def git_init_and_push(site_dir: Path, repo_name: str, commit_message: str) -> No
         else:
             raise
 
-    git(["push", "-u", "origin", "main"], site_dir)
+    # --force: a previous failed CI attempt may have already pushed to the
+    # per-client repo (PuroClean round-2, 2026-07-23); these repos are
+    # machine-generated and force-overwritten by every sync-deploy anyway.
+    git(["push", "-u", "--force", "origin", "main"], site_dir)
 
     # Create or update staging branch (mirror of main initially)
     branches = git(["branch", "-a"], site_dir)
@@ -656,7 +659,7 @@ def git_init_and_push(site_dir: Path, repo_name: str, commit_message: str) -> No
             git(["merge", "main", "--ff-only"], site_dir)
         except RuntimeError:
             pass
-    git(["push", "-u", "origin", "staging"], site_dir)
+    git(["push", "-u", "--force", "origin", "staging"], site_dir)
     git(["checkout", "main"], site_dir)
 
 
