@@ -317,10 +317,10 @@ def site_brief_extract_colors(req: SiteBriefColorsRequest):
     ua = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)",
           "Accept": "text/html,application/xhtml+xml"}
 
-    def fetch(u):
+    def fetch(u, t=20):
         try:
             r = urllib.request.Request(u, headers=ua)
-            return urllib.request.urlopen(r, timeout=20).read().decode("utf-8", "ignore")
+            return urllib.request.urlopen(r, timeout=t).read().decode("utf-8", "ignore")
         except Exception:
             return ""
 
@@ -335,19 +335,36 @@ def site_brief_extract_colors(req: SiteBriefColorsRequest):
     if not html_text:
         raise HTTPException(status_code=502,
                             detail="Couldn't fetch {} — their site may block bots; set colors manually.".format(bare))
-    corpus = html_text
-    for href in re.findall(r'<link[^>]+rel=["\']stylesheet["\'][^>]*href=["\']([^"\']+)', html_text)[:3]:
-        corpus += fetch(urllib.parse.urljoin(site + "/", href))
+    # Brand colors rarely sit in the HTML itself — WordPress and friends
+    # compile the owner's chosen palette into dynamic/child/custom/uploads
+    # stylesheets, while generic theme CSS carries decorative palettes that
+    # are pure noise. Weight sources accordingly (found live: the greens of
+    # restorationxpress.com were 109x in enfold_child.css, 1x in the HTML).
+    sheets = []
+    for tag in re.findall(r"<link[^>]+>", html_text):
+        m = re.search(r'href=["\']([^"\']+)', tag)
+        if "stylesheet" in tag and m:
+            u = urllib.parse.urljoin(site + "/", m.group(1))
+            if bare in urllib.parse.urlparse(u).netloc:
+                sheets.append(u)
+
+    def weight(u):
+        return 5 if re.search(r"dynamic|custom|child|uploads", u, re.I) else 1
+
+    sheets.sort(key=lambda u: -weight(u))
+    corpora = [(html_text, 3)] + [(fetch(u, t=8), weight(u)) for u in sheets[:10]]
 
     counts: dict = {}
-    for m in re.findall(r"#([0-9a-fA-F]{6}|[0-9a-fA-F]{3})\b", corpus):
-        h = m.lower()
-        if len(h) == 3:
-            h = "".join(c * 2 for c in h)
-        counts[h] = counts.get(h, 0) + 1
-    for m in re.findall(r"rgba?\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)", corpus):
-        r0, g0, b0 = (min(int(x), 255) for x in m)
-        counts["{:02x}{:02x}{:02x}".format(r0, g0, b0)] =             counts.get("{:02x}{:02x}{:02x}".format(r0, g0, b0), 0) + 1
+    for text, w in corpora:
+        for m in re.findall(r"#([0-9a-fA-F]{6}|[0-9a-fA-F]{3})\b", text):
+            h = m.lower()
+            if len(h) == 3:
+                h = "".join(c * 2 for c in h)
+            counts[h] = counts.get(h, 0) + w
+        for m in re.findall(r"rgba?\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)", text):
+            r0, g0, b0 = (min(int(x), 255) for x in m)
+            k = "{:02x}{:02x}{:02x}".format(r0, g0, b0)
+            counts[k] = counts.get(k, 0) + w
 
     def rgb(h):
         return int(h[0:2], 16), int(h[2:4], 16), int(h[4:6], 16)
@@ -366,11 +383,8 @@ def site_brief_extract_colors(req: SiteBriefColorsRequest):
         sat = (mx - mn) / mx if mx else 0
         return n * (0.5 + sat)
 
-    ranked = sorted(((h, n) for h, n in counts.items() if not is_gray(h) and n >= 2),
+    ranked = sorted(((h, n) for h, n in counts.items() if not is_gray(h)),
                     key=lambda x: -score(*x))
-    if not ranked:  # tiny sites: fall back to single-occurrence colors
-        ranked = sorted(((h, n) for h, n in counts.items() if not is_gray(h)),
-                        key=lambda x: -score(*x))
     picked = []
     for h, n in ranked:
         r0, g0, b0 = rgb(h)
