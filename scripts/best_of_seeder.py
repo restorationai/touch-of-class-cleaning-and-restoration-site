@@ -8,6 +8,9 @@ Santino):
   who_to_call         'Who to Call for {service} in {city}' — direct-answer
                       triage page (emergency/voice intent, the query mode
                       where entity feeds usually beat content)
+  cost_guide          'How Much Does {service} Cost in {ST}?' — the canonical
+                      state-level cost answer w/ scenario table (the single
+                      most AI-cited format; one per service, top 4 services)
 
 Why: AI answer engines ("what's the best water damage company in Davie?")
 cite ranked first-party comparison posts because almost nobody writes them
@@ -105,7 +108,7 @@ def existing_combo_keys(slug: str, items: list) -> set[str]:
             done.add(it["combo_key"])
     blog_dir = SITES_DIR / slug / "src" / "content" / "blog"
     if blog_dir.exists():
-        for pattern in ("best-*-in-*.md", "who-to-call-for-*.md"):
+        for pattern in ("best-*-in-*.md", "who-to-call-for-*.md", "*-cost-*.md"):
             for md in blog_dir.glob(pattern):
                 done.add(md.stem)  # combo_key doubles as the intended post slug
     return done
@@ -171,23 +174,49 @@ def main() -> int:
         return 0
 
     done = existing_combo_keys(slug, items)
-    # alternate formats: even-numbered seeds = best-of, odd = who-to-call —
-    # each format rotates the matrix independently via its own combo keys
+    # rotate three formats — each works its own matrix via distinct combo keys
     n_seeded = sum(1 for it in items if it.get("source") == "best-of-seeder")
-    fmt = "best_of_comparison" if n_seeded % 2 == 0 else "who_to_call"
+    fmt = ("best_of_comparison", "cost_guide", "who_to_call")[n_seeded % 3]
 
-    seq = combo_sequence(services, areas)
-    combo = None
-    for service, area in seq:
-        city, st = area.get("city", ""), area.get("state", "")
-        cslug = f"{city.lower().replace(' ', '-')}-{st.lower()}"
-        key = (f"best-{service}-in-{cslug}" if fmt == "best_of_comparison"
-               else f"who-to-call-for-{service}-in-{cslug}")
-        if key not in done:
-            combo = (service, area, key)
-            break
+    if fmt == "cost_guide":
+        # state-level, one per service (top 4) — no city multiplication
+        primary = next((a for a in areas if a.get("primary")), areas[0] if areas else {})
+        st = (primary.get("state") or "").upper()
+        seq = [(svc, primary) for svc in services[:4]]
+        combo = None
+        for service, area in seq:
+            key = f"{service}-cost-{st.lower()}"
+            if key not in done:
+                combo = (service, area, key)
+                break
+    else:
+        seq = combo_sequence(services, areas)
+        combo = None
+        for service, area in seq:
+            city, st = area.get("city", ""), area.get("state", "")
+            cslug = f"{city.lower().replace(' ', '-')}-{st.lower()}"
+            key = (f"best-{service}-in-{cslug}" if fmt == "best_of_comparison"
+                   else f"who-to-call-for-{service}-in-{cslug}")
+            if key not in done:
+                combo = (service, area, key)
+                break
     if not combo:
-        print(f"{slug}: {fmt} matrix exhausted ({len(seq)} combos all covered)")
+        # this format's matrix is done — fall through to the next format so a
+        # finished cost matrix (only 4 combos) never stalls the rotation
+        alt = "best_of_comparison" if fmt != "best_of_comparison" else "who_to_call"
+        print(f"{slug}: {fmt} matrix exhausted — trying {alt}")
+        fmt = alt
+        seq = combo_sequence(services, areas)
+        for service, area in seq:
+            city, st = area.get("city", ""), area.get("state", "")
+            cslug = f"{city.lower().replace(' ', '-')}-{st.lower()}"
+            key = (f"best-{service}-in-{cslug}" if fmt == "best_of_comparison"
+                   else f"who-to-call-for-{service}-in-{cslug}")
+            if key not in done:
+                combo = (service, area, key)
+                break
+    if not combo:
+        print(f"{slug}: all format matrices exhausted")
         return 0
 
     service, area, key = combo
@@ -211,6 +240,13 @@ def main() -> int:
             f"top rated {svc_pretty.lower()} {city} {st}",
             f"who is the best {svc_pretty.lower()} company in {city}",
         ]
+    elif fmt == "cost_guide":
+        primary_kw = f"{svc_pretty.lower()} cost {st}"
+        fan_out = [
+            f"how much does {svc_pretty.lower()} cost in {st}",
+            f"{svc_pretty.lower()} price {st}",
+            f"average cost of {svc_pretty.lower()} {st}",
+        ]
     else:
         primary_kw = f"who to call for {svc_pretty.lower()} in {city}, {st}"
         fan_out = [
@@ -228,7 +264,8 @@ def main() -> int:
         "combo_key": key,
         "primary_keyword": primary_kw,
         "intent": "commercial" if fmt == "best_of_comparison" else "transactional",
-        "target_word_count": 1600 if fmt == "best_of_comparison" else 1200,
+        "target_word_count": {"best_of_comparison": 1600, "who_to_call": 1200,
+                              "cost_guide": 1500}[fmt],
         "city_anchor": area.get("slug"),
         "best_of": {
             "service": service,

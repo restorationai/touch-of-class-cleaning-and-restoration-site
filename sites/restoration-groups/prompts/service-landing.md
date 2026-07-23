@@ -65,6 +65,7 @@ This page is the deep dive on {service.display_name} specifically. It must be im
 - `## What {service.display_name} actually involves` — concrete description of the work, equipment, and timeline. Be specific to THIS service.
 - `## Our process` — 4-5 numbered steps SPECIFIC to {service.display_name}. Not a generic "we assess, we work, we clean up" template.
 - `## What separates a good [service] response from a bad one` — common technical mistakes, what good operators do differently, what insurance adjusters look for.
+- `## What does {service.display_name} cost?` — REQUIRED. Two to three sentences plus a markdown table (4-6 rows, "Scenario | Typical range") of INDUSTRY-TYPICAL cost ranges for this service, scenario-specific ("Single room, clean water | $1,200 - $3,500"). Framing rules (hard): ranges are typical industry figures, always phrased that way ("typical costs run...", "most homeowners pay..."); NEVER present a number as {brand.display_name}'s own price or quote; include one sentence that every loss is different and {brand.display_name} provides a written scope before work begins; one sentence on what homeowners insurance typically covers here.
 - `## Seasonal & regional considerations` — only if relevant for this service (e.g., for water damage: freeze-thaw cycles; for storm damage: peak season; for mold: humidity windows).
 - `## Service area` — brief mention of {brand.primary_city} and surrounding cities (the planner links service-area-service pages).
 - Closing CTA paragraph (no heading) — service-specific CTA.

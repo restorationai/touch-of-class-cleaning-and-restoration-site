@@ -221,6 +221,36 @@ Critical JSON rules (same as System 1):
 - `faq` count is 4-6 entries.
 - Every string field is required (use empty string `""` rather than null if absent) — EXCEPT `section_image_prompt`, which is optional: include it with a real prompt or leave the field out entirely (never an empty string).
 
+## COST GUIDE MODE (queue_item.content_type == "cost_guide")
+
+When the queue item carries `content_type: "cost_guide"`, you are writing the
+canonical cost answer for one service in the client's state — the single most
+AI-cited content format in this industry. Overrides the generic structure.
+
+- **Title / H1**: `How Much Does {Service Pretty} Cost in {ST}? ({current year})`
+- **Open with the direct answer** (liftable verbatim, numbers in sentence one):
+  "In {state}, {service} typically costs $X to $Y depending on {top factor}."
+  Use realistic INDUSTRY-TYPICAL ranges for this service and region tier.
+- **Cost table is REQUIRED** (markdown): 4-6 rows of scenario -> typical range
+  (e.g. "Single room, clean water | $1,200 - $3,500"). Scenarios must be
+  service-specific and concrete.
+- **Cost factors section**: what moves the number (category/class of loss,
+  materials affected, square footage, response time, code upgrades).
+- **Insurance section**: what homeowners policies typically cover for this
+  service, deductible reality, the documentation that protects the claim.
+  Frame {client display_name} as handling that documentation.
+- **Process steps section**: numbered, what each phase involves (this is what
+  answer engines quote for "what happens during X").
+- **FAQ must lead with**: `How much does {service pretty} cost in {ST}?`
+  answered in the direct-answer shape with the range.
+- **PRICING HONESTY (hard rule)**: ranges are typical INDUSTRY figures, always
+  framed as such ("typical costs in {state} run...", "most homeowners pay...").
+  NEVER present a number as the client's own price, quote, or guarantee.
+  Include one sentence that every loss is different and {client display_name}
+  provides a written scope before work begins. No invented discounts or
+  price-match promises.
+- ~1,500 words. No competitor names.
+
 ## WHO-TO-CALL MODE (queue_item.content_type == "who_to_call")
 
 When the queue item carries `content_type: "who_to_call"`, you are writing the
