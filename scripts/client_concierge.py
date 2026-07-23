@@ -171,8 +171,8 @@ ASSISTANT_NAME = os.environ.get("CONCIERGE_ASSISTANT_NAME", "Monica")
 BRAND_NAME = os.environ.get("CONCIERGE_BRAND_NAME", "Restoration AI")
 
 # Required closing pattern (Santino's copy): reply-first, then self-serve.
-APP_SELF_SERVE = ("Just reply here and I'll add it all in for you, "
-                  "or email it to setup@restorationai.io.")
+# No standing closer line — messages end after the last ask (2026-07-22,
+# Santino: "purely conversational, slightly informal").
 APP_SETUP_LINK = "https://app.restorationai.io/?setup=1"   # auto-opens the guide
 INTRO_TEMPLATE = ("Hi {first}, this is {name} with Santino's team at "
                   "{brand}. I help get everything set up for your account.")
@@ -425,6 +425,12 @@ def fetch_history(contact_id: str, max_msgs: int = HISTORY_MAX_MSGS) -> list[dic
                 body = "[phone call]"
             elif channel == "email":
                 body = body[:HISTORY_EMAIL_TRIM]
+            n_att = len(msg.get("attachments") or [])
+            if n_att:
+                # photo-only MMS must be visible in history or the composer
+                # re-asks for photos the client already texted (Jeff, 07-22)
+                tag = f"[sent {n_att} photo/video attachment(s)]"
+                body = f"{body} {tag}".strip() if body else tag
             if not body:
                 continue
             merged.append({
@@ -883,8 +889,7 @@ def send_message(contact: dict, channel: str, body: str,
                   "thread). Set it to the toll-free +18556484464.",
                   file=sys.stderr)
     else:
-        payload["subject"] = subject or ("A few quick things for your "
-                                         f"{BRAND_NAME} setup")
+        payload["subject"] = subject or f"Your {BRAND_NAME} setup"
         payload["html"] = body.replace("\n", "<br>")
     result = _ghl("POST", "/conversations/messages", body=payload)
     print(f"  SENT {channel} to {recipient} (contact {contact['id']})")
@@ -952,18 +957,23 @@ Rules:
 - Cover AT MOST the items given (they are already priority-ordered). Weave
   them in conversationally — short sentences or a compact list, not a form.
 - Never invent items, prices, or deadlines. Never promise work.
-- CLOSING: sound like a person, not a form. When you're just asking a
-  question, ask it and stop — never append "just reply here" (replying is
-  obvious). ONLY when the ask involves files, photos, or lists that don't
-  travel well by text, mention email naturally: "you can email it to
-  setup@restorationai.io." When the ask involves PHOTOS or FILES, mention the client's
-  hub link instead of email if the company has one (provided in context as
-  photo_upload_link): "easiest way: {photo_upload_link} — tap Upload Job
-  Photos and add them right from your phone (camera or camera roll)."
-- SMS: total body within the character budget given — the budget includes the
-  intro and the closing self-serve line, and the closing line must NEVER be
-  cut. If space is tight, trim item detail, not the closing. No subject, no
-  links other than the optional setup link.
+- CLOSING: end the message right after the last ask. NO closing line of any
+  kind — never "just reply here", never "I'll add it all in for you", never
+  an email address tacked on the end. Replying is obvious. The ONLY
+  exceptions, woven in naturally mid-sentence rather than appended:
+    * an actual FILE or DOCUMENT (spreadsheet, PDF, insurance certificate)
+      that can't travel by text -> "you can email it to
+      setup@restorationai.io"
+    * PHOTOS or FILES when the company has a hub link (provided in context
+      as photo_upload_link) -> "easiest way: {photo_upload_link} — tap
+      Upload Job Photos and add them right from your phone"
+- OPENERS: no filler. Never "quick question", "two quick ones", "a couple
+  quick things", "just checking in", "hope you're well", "touching base".
+  Anchor to the real subject instead: "Hey Jack, regarding your website,
+  should we say…". Slightly informal, like a competent coworker texting.
+- SMS: total body within the character budget given. If space is tight, cut
+  an item, not words mid-thought. No subject, no links other than the ones
+  the rules above allow.
 - Email: give a short subject (<= 60 chars) and a slightly fuller body
   (still under ~140 words), sign off as "Monica, Santino's team at
   Restoration AI" (no dashes).
@@ -1194,23 +1204,11 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
             + appt_block
             + photo_block
             + f"Outstanding items (priority order, cover all of these and "
-            f"nothing else):\n" + "\n".join(lines) +
-            f"\n\nEnd with exactly: \"{APP_SELF_SERVE}\"")
+            f"nothing else):\n" + "\n".join(lines))
     draft = anthropic_json(COMPOSE_SYSTEM, user)
     body = (draft.get("body") or "").strip()
     if channel == "sms" and len(body) > sms_budget:
-        # The closing self-serve line must survive the clip — a dangling
-        # "email it to…" reads like bot garble. Trim the middle instead.
-        close_idx = body.rfind("Just reply here")
-        if close_idx > 0:
-            closing = body[close_idx:]
-            head_budget = sms_budget - len(closing) - 1
-            head = body[:close_idx].strip()
-            if len(head) > head_budget > 0:
-                head = head[:head_budget].rsplit(" ", 1)[0].rstrip(" ,;:") + "…"
-            body = head + " " + closing
-        else:
-            body = body[:sms_budget - 1].rsplit(" ", 1)[0] + "…"
+        body = body[:sms_budget - 1].rsplit(" ", 1)[0] + "…"
 
     def _flags(key):
         return [f for f in (draft.get(key) or [])
