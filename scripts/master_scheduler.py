@@ -103,6 +103,10 @@ HEADLESS_ALLOWED_TOOLS = {
 }
 
 SCHEDULE_DEFAULTS = {
+    # 0 runs FIRST so the seeded best-of item is written by System 2 in the
+    # SAME Mon/Thu run. 14d cadence = ~2 best-of posts/month/client, rotating
+    # the city x service matrix (scripts/best_of_seeder.py).
+    0: {"name": "best-of-seeder",         "cadence_days": 14, "driver": "script"},
     1: {"name": "keyword-researcher",     "cadence_days": 14, "driver": "agent"},
     # 2 (not 3): the Mon+Thu crons are nominally 3 days apart, but GitHub cron start
     # times jitter by up to ~2h, so a strict >=3d check made Thursday runs land at
@@ -145,6 +149,16 @@ def load_clients(slug_filter: str | None = None) -> list[dict]:
 def last_run_at(client: dict, system: int) -> datetime | None:
     """Return the last run time for a given system on this client, or None."""
     slug = client["slug"]
+    if system == 0:
+        # System 0 derives from the queue: newest best-of item it ever seeded
+        q_path = ROOT / "clients" / slug / "content-queue.json"
+        if not q_path.exists():
+            return None
+        q = json.loads(q_path.read_text())
+        items = q if isinstance(q, list) else q.get("items", [])
+        stamps = [i.get("queued_at") for i in items
+                  if i.get("source") == "best-of-seeder" and i.get("queued_at")]
+        return _parse_iso(max(stamps)) if stamps else None
     if system == 1:
         # System 1 stores per-seed timestamps in keyword-bank.json
         bank_path = ROOT / "clients" / slug / "keyword-bank.json"
@@ -339,7 +353,7 @@ def cmd_status(args) -> int:
         print(f"=== {slug} — {name}")
         print(f"    apex_cutover:    {cutover or 'NOT CUT OVER (staging only)'}")
         print(f"    build_status:    {c.get('build_status')}")
-        for sys_id in (1, 2, 3, 4):
+        for sys_id in (0, 1, 2, 3, 4):
             due, reason = is_due(c, sys_id)
             sched = SCHEDULE_DEFAULTS[sys_id]
             marker = "DUE  " if due else "ok   "
@@ -412,7 +426,7 @@ def cmd_run_due(args) -> int:
     for c in clients:
         slug = c["slug"]
         print(f"\n=== {slug} ===")
-        for sys_id in (1, 2, 3, 4):
+        for sys_id in (0, 1, 2, 3, 4):
             due, reason = is_due(c, sys_id)
             if not due:
                 print(f"  System {sys_id}: {reason}")
@@ -423,7 +437,15 @@ def cmd_run_due(args) -> int:
                 print(f"    SKIP — prerequisites not met (e.g., empty queue or no plan)")
                 continue
             any_action = True
-            if sys_id == 1:
+            if sys_id == 0:
+                if args.dry_run:
+                    print(f"    DRY-RUN: would invoke best_of_seeder for {slug}")
+                else:
+                    rc = run_script(["python3", str(ROOT / "scripts" / "best_of_seeder.py"),
+                                     "--slug", slug])
+                    if rc != 0:
+                        print(f"    FAILED with rc={rc}")
+            elif sys_id == 1:
                 if args.headless:
                     rc = run_agent_headless(1, slug)
                     if rc != 0:

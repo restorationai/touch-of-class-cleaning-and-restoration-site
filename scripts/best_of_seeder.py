@@ -1,0 +1,228 @@
+#!/usr/bin/env python3
+"""best_of_seeder.py — System 0: seed one 'Best {service} in {city}' ranked
+comparison post into the client's content queue, rotating through the
+city x service matrix (2026-07-23, the Hank/dialhank + Breesy AI-citation
+play, per Santino).
+
+Why: AI answer engines ("what's the best water damage company in Davie?")
+cite ranked first-party comparison posts because almost nobody writes them
+for local niches. One per client every ~2 weeks works through the matrix
+without tripping the mass-produced-doorway-page pattern.
+
+Rotation order (skipping combos already seeded/written):
+  1. hero service x primary city          (the flagship)
+  2. hero service x each other city       (ring order — "Tacoma, then Seattle")
+  3. services 2..4 x primary city
+  4. services 2..4 x other cities         (deep tail, years of runway)
+
+Competitors: top rated local competitors from DataForSEO Google Maps for
+that exact city+service — REAL names, REAL ratings, REAL review counts.
+The writer prompt (BEST-OF COMPARISON MODE in content-writer.md) may only
+use these provided fields for competitors; the client's own claims stay
+truth-table gated as always.
+
+Scheduling: master_scheduler SYSTEM 0, cadence_days=14, runs before the
+content writer so the seeded item is written in the same Mon/Thu run.
+
+Usage: python3 scripts/best_of_seeder.py --slug narestco [--dry-run]
+"""
+from __future__ import annotations
+
+import argparse
+import base64
+import json
+import sys
+from datetime import datetime, timezone
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "scripts"))
+try:
+    from dotenv import load_dotenv
+    load_dotenv(ROOT / ".env")
+except Exception:
+    pass
+
+import requests
+
+from geogrid_scan import load_dfs_creds  # noqa: E402
+
+CLIENTS_DIR = ROOT / "clients"
+SITES_DIR = ROOT / "sites"
+DFS_MAPS = "https://api.dataforseo.com/v3/serp/google/maps/live/advanced"
+MAX_COMPETITORS = 4
+
+
+def now_iso() -> str:
+    return datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
+
+
+def pretty(service_slug: str) -> str:
+    return service_slug.replace("-", " ").title().replace("Hvac", "HVAC")
+
+
+def load_queue(slug: str) -> tuple[dict | list, list]:
+    """Return (raw_queue_object, items_list_reference)."""
+    p = CLIENTS_DIR / slug / "content-queue.json"
+    if not p.exists():
+        raw: dict = {"items": []}
+        return raw, raw["items"]
+    raw = json.loads(p.read_text())
+    if isinstance(raw, list):
+        return raw, raw
+    return raw, raw.setdefault("items", [])
+
+
+def save_queue(slug: str, raw) -> None:
+    (CLIENTS_DIR / slug / "content-queue.json").write_text(
+        json.dumps(raw, indent=1) + "\n")
+
+
+def combo_sequence(services: list[str], areas: list[dict]) -> list[tuple[str, dict]]:
+    """The rotation: flagship first, then hero-service ring, then service depth."""
+    if not services or not areas:
+        return []
+    primary = next((a for a in areas if a.get("primary")), areas[0])
+    others = [a for a in areas if a is not primary]
+    hero, rest = services[0], services[1:4]
+    seq: list[tuple[str, dict]] = [(hero, primary)]
+    seq += [(hero, a) for a in others]
+    seq += [(s, primary) for s in rest]
+    for a in others:
+        seq += [(s, a) for s in rest]
+    return seq
+
+
+def existing_combo_keys(slug: str, items: list) -> set[str]:
+    done = set()
+    for it in items:
+        if it.get("content_type") == "best_of_comparison" and it.get("combo_key"):
+            done.add(it["combo_key"])
+    blog_dir = SITES_DIR / slug / "src" / "content" / "blog"
+    if blog_dir.exists():
+        for md in blog_dir.glob("best-*-in-*.md"):
+            done.add(md.stem)  # combo_key doubles as the intended post slug
+    return done
+
+
+def fetch_competitors(service: str, city: str, state: str,
+                      client_name: str) -> list[dict]:
+    u, p = load_dfs_creds()
+    auth = base64.b64encode(f"{u}:{p}".encode()).decode()
+    kw = f"{pretty(service).lower()} {city} {state}"
+    r = requests.post(DFS_MAPS, headers={
+        "Authorization": "Basic " + auth, "Content-Type": "application/json"},
+        json=[{"keyword": kw, "location_name": "United States",
+               "language_code": "en", "depth": 20}], timeout=120)
+    r.raise_for_status()
+    task = (r.json().get("tasks") or [{}])[0]
+    if task.get("status_code") != 20000:
+        raise RuntimeError(f"DFS maps: {task.get('status_message')}")
+    items = ((task.get("result") or [{}])[0] or {}).get("items") or []
+    out = []
+    client_tokens = {t for t in client_name.lower().split() if len(t) > 3}
+    for it in items:
+        name = (it.get("title") or "").strip()
+        rating = ((it.get("rating") or {}).get("value"))
+        votes = ((it.get("rating") or {}).get("votes_count"))
+        if not name or rating is None:
+            continue
+        # never list the client as their own competitor
+        if client_tokens and client_tokens & {t for t in name.lower().split() if len(t) > 3}:
+            continue
+        out.append({"name": name, "google_rating": rating,
+                    "review_count": votes or 0})
+        if len(out) >= MAX_COMPETITORS:
+            break
+    return out
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--slug", required=True)
+    ap.add_argument("--dry-run", action="store_true")
+    args = ap.parse_args()
+    slug = args.slug
+
+    pi_path = CLIENTS_DIR / slug / "plan-input.json"
+    if not pi_path.exists():
+        print(f"{slug}: no plan-input.json — skip")
+        return 0
+    pi = json.loads(pi_path.read_text())
+    brand = pi.get("brand", {})
+    services = pi.get("services") or []
+    areas = pi.get("service_areas") or []
+    client_name = brand.get("display_name") or slug
+
+    raw, items = load_queue(slug)
+
+    # one unwritten best-of in the queue at a time — the writer drains it first
+    pending = [it for it in items
+               if it.get("content_type") == "best_of_comparison"
+               and it.get("status") == "queued"]
+    if pending:
+        print(f"{slug}: best-of already queued ({pending[0]['id']}) — nothing to seed")
+        return 0
+
+    done = existing_combo_keys(slug, items)
+    seq = combo_sequence(services, areas)
+    combo = None
+    for service, area in seq:
+        city, st = area.get("city", ""), area.get("state", "")
+        key = f"best-{service}-in-{city.lower().replace(' ', '-')}-{st.lower()}"
+        if key not in done:
+            combo = (service, area, key)
+            break
+    if not combo:
+        print(f"{slug}: matrix exhausted ({len(seq)} combos all covered)")
+        return 0
+
+    service, area, key = combo
+    city, st = area["city"], area.get("state", "")
+    svc_pretty = pretty(service)
+    print(f"{slug}: seeding {svc_pretty!r} x {city}, {st}")
+
+    try:
+        competitors = fetch_competitors(service, city, st, client_name)
+    except Exception as e:  # noqa: BLE001 — a failed lookup must not kill the run
+        print(f"  competitor lookup failed ({e}) — seeding without comparison data")
+        competitors = []
+    for c in competitors:
+        print(f"  competitor: {c['name']} ({c['google_rating']}★ / {c['review_count']})")
+
+    item = {
+        "id": f"{datetime.now(timezone.utc).strftime('%Y-%m-%d')}-{key}",
+        "status": "queued",
+        "queued_at": now_iso(),
+        "priority": 1,
+        "content_type": "best_of_comparison",
+        "combo_key": key,
+        "primary_keyword": f"best {svc_pretty.lower()} company in {city}, {st}",
+        "intent": "commercial",
+        "target_word_count": 1600,
+        "city_anchor": area.get("slug"),
+        "best_of": {
+            "service": service,
+            "service_pretty": svc_pretty,
+            "city": city,
+            "state": st,
+            "competitors": competitors,
+        },
+        "fan_out_cluster": [
+            f"best {svc_pretty.lower()} companies {city}",
+            f"top rated {svc_pretty.lower()} {city} {st}",
+            f"who is the best {svc_pretty.lower()} company in {city}",
+        ],
+        "source": "best-of-seeder",
+    }
+    if args.dry_run:
+        print("  [dry-run] would queue:\n" + json.dumps(item, indent=2)[:800])
+        return 0
+    items.insert(0, item)
+    save_queue(slug, raw)
+    print(f"  queued {item['id']} (priority 1 — next post the writer produces)")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
