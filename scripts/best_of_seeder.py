@@ -1,8 +1,13 @@
 #!/usr/bin/env python3
-"""best_of_seeder.py — System 0: seed one 'Best {service} in {city}' ranked
-comparison post into the client's content queue, rotating through the
-city x service matrix (2026-07-23, the Hank/dialhank + Breesy AI-citation
-play, per Santino).
+"""best_of_seeder.py — System 0: seed one AI-citation post into the client's
+content queue, rotating through the city x service matrix and ALTERNATING
+between two formats (2026-07-23, the Hank/dialhank + Breesy play, per
+Santino):
+  best_of_comparison  'Best {service} Companies in {city}' — ranked list vs
+                      real local competitors (commercial/comparison intent)
+  who_to_call         'Who to Call for {service} in {city}' — direct-answer
+                      triage page (emergency/voice intent, the query mode
+                      where entity feeds usually beat content)
 
 Why: AI answer engines ("what's the best water damage company in Davie?")
 cite ranked first-party comparison posts because almost nobody writes them
@@ -96,12 +101,13 @@ def combo_sequence(services: list[str], areas: list[dict]) -> list[tuple[str, di
 def existing_combo_keys(slug: str, items: list) -> set[str]:
     done = set()
     for it in items:
-        if it.get("content_type") == "best_of_comparison" and it.get("combo_key"):
+        if it.get("source") == "best-of-seeder" and it.get("combo_key"):
             done.add(it["combo_key"])
     blog_dir = SITES_DIR / slug / "src" / "content" / "blog"
     if blog_dir.exists():
-        for md in blog_dir.glob("best-*-in-*.md"):
-            done.add(md.stem)  # combo_key doubles as the intended post slug
+        for pattern in ("best-*-in-*.md", "who-to-call-for-*.md"):
+            for md in blog_dir.glob(pattern):
+                done.add(md.stem)  # combo_key doubles as the intended post slug
     return done
 
 
@@ -156,50 +162,73 @@ def main() -> int:
 
     raw, items = load_queue(slug)
 
-    # one unwritten best-of in the queue at a time — the writer drains it first
+    # one unwritten seeder item at a time (either format) — writer drains first
     pending = [it for it in items
-               if it.get("content_type") == "best_of_comparison"
+               if it.get("source") == "best-of-seeder"
                and it.get("status") == "queued"]
     if pending:
-        print(f"{slug}: best-of already queued ({pending[0]['id']}) — nothing to seed")
+        print(f"{slug}: seeder item already queued ({pending[0]['id']}) — nothing to seed")
         return 0
 
     done = existing_combo_keys(slug, items)
+    # alternate formats: even-numbered seeds = best-of, odd = who-to-call —
+    # each format rotates the matrix independently via its own combo keys
+    n_seeded = sum(1 for it in items if it.get("source") == "best-of-seeder")
+    fmt = "best_of_comparison" if n_seeded % 2 == 0 else "who_to_call"
+
     seq = combo_sequence(services, areas)
     combo = None
     for service, area in seq:
         city, st = area.get("city", ""), area.get("state", "")
-        key = f"best-{service}-in-{city.lower().replace(' ', '-')}-{st.lower()}"
+        cslug = f"{city.lower().replace(' ', '-')}-{st.lower()}"
+        key = (f"best-{service}-in-{cslug}" if fmt == "best_of_comparison"
+               else f"who-to-call-for-{service}-in-{cslug}")
         if key not in done:
             combo = (service, area, key)
             break
     if not combo:
-        print(f"{slug}: matrix exhausted ({len(seq)} combos all covered)")
+        print(f"{slug}: {fmt} matrix exhausted ({len(seq)} combos all covered)")
         return 0
 
     service, area, key = combo
     city, st = area["city"], area.get("state", "")
     svc_pretty = pretty(service)
-    print(f"{slug}: seeding {svc_pretty!r} x {city}, {st}")
+    print(f"{slug}: seeding [{fmt}] {svc_pretty!r} x {city}, {st}")
 
-    try:
-        competitors = fetch_competitors(service, city, st, client_name)
-    except Exception as e:  # noqa: BLE001 — a failed lookup must not kill the run
-        print(f"  competitor lookup failed ({e}) — seeding without comparison data")
-        competitors = []
-    for c in competitors:
-        print(f"  competitor: {c['name']} ({c['google_rating']}★ / {c['review_count']})")
+    competitors = []
+    if fmt == "best_of_comparison":
+        try:
+            competitors = fetch_competitors(service, city, st, client_name)
+        except Exception as e:  # noqa: BLE001 — a failed lookup must not kill the run
+            print(f"  competitor lookup failed ({e}) — seeding without comparison data")
+        for c in competitors:
+            print(f"  competitor: {c['name']} ({c['google_rating']}★ / {c['review_count']})")
+
+    if fmt == "best_of_comparison":
+        primary_kw = f"best {svc_pretty.lower()} company in {city}, {st}"
+        fan_out = [
+            f"best {svc_pretty.lower()} companies {city}",
+            f"top rated {svc_pretty.lower()} {city} {st}",
+            f"who is the best {svc_pretty.lower()} company in {city}",
+        ]
+    else:
+        primary_kw = f"who to call for {svc_pretty.lower()} in {city}, {st}"
+        fan_out = [
+            f"who do you call for {svc_pretty.lower()} {city}",
+            f"who do I call for {svc_pretty.lower()} in {city}",
+            f"{svc_pretty.lower()} emergency number {city} {st}",
+        ]
 
     item = {
         "id": f"{datetime.now(timezone.utc).strftime('%Y-%m-%d')}-{key}",
         "status": "queued",
         "queued_at": now_iso(),
         "priority": 1,
-        "content_type": "best_of_comparison",
+        "content_type": fmt,
         "combo_key": key,
-        "primary_keyword": f"best {svc_pretty.lower()} company in {city}, {st}",
-        "intent": "commercial",
-        "target_word_count": 1600,
+        "primary_keyword": primary_kw,
+        "intent": "commercial" if fmt == "best_of_comparison" else "transactional",
+        "target_word_count": 1600 if fmt == "best_of_comparison" else 1200,
         "city_anchor": area.get("slug"),
         "best_of": {
             "service": service,
@@ -208,11 +237,7 @@ def main() -> int:
             "state": st,
             "competitors": competitors,
         },
-        "fan_out_cluster": [
-            f"best {svc_pretty.lower()} companies {city}",
-            f"top rated {svc_pretty.lower()} {city} {st}",
-            f"who is the best {svc_pretty.lower()} company in {city}",
-        ],
+        "fan_out_cluster": fan_out,
         "source": "best-of-seeder",
     }
     if args.dry_run:

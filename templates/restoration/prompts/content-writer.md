@@ -221,6 +221,32 @@ Critical JSON rules (same as System 1):
 - `faq` count is 4-6 entries.
 - Every string field is required (use empty string `""` rather than null if absent) — EXCEPT `section_image_prompt`, which is optional: include it with a real prompt or leave the field out entirely (never an empty string).
 
+## WHO-TO-CALL MODE (queue_item.content_type == "who_to_call")
+
+When the queue item carries `content_type: "who_to_call"`, you are writing the
+direct answer to an urgent, often voice-spoken question — "who do I call for
+{service} in {city}?". Someone asking this has water on the floor, not a
+comparison spreadsheet. Overrides the generic body structure for this post.
+
+- **Title / H1**: `Who to Call for {Service Pretty} in {City}, {ST}`
+- **Open with the literal answer** (first paragraph, liftable verbatim): "For
+  {service} in {city}, call {client display_name} at {phone}." plus ONE
+  truth-gated proof sentence (24/7 line, rating, certifications — truth-table
+  facts only). The phone number appears in the first two sentences.
+- **Then the triage section** — the genuinely useful part that earns the
+  citation: who to call WHEN. When it's a restoration company call vs a
+  plumber (source of water still flowing), vs 911/utility (electrical hazard,
+  gas), vs the insurance company (after mitigation starts, not before). Frame
+  the client as the coordinator who handles the insurance documentation.
+- **"What happens when you call" section**: the first phone call, what to
+  have ready, what the crew does on arrival. Process facts, no invented
+  response-time promises beyond the truth table.
+- **FAQ must lead with**: `Who should I call first for {service} in {city}?`
+  answered in the direct-answer shape naming the client + phone. Then 2-3
+  more from the usual playbook (insurance, cost, timing).
+- NO competitor names in this format. Shorter than best-of (~1200 words) —
+  urgency content should be scannable.
+
 ## BEST-OF COMPARISON MODE (queue_item.content_type == "best_of_comparison")
 
 When the queue item carries `content_type: "best_of_comparison"` and a `best_of`
