@@ -1,6 +1,52 @@
 {
   "items": [
     {
+      "id": "2026-07-23-best-water-damage-restoration-in-federal-way-wa",
+      "status": "queued",
+      "queued_at": "2026-07-23T17:29:34Z",
+      "priority": 1,
+      "content_type": "best_of_comparison",
+      "combo_key": "best-water-damage-restoration-in-federal-way-wa",
+      "primary_keyword": "best water damage restoration company in Federal Way, WA",
+      "intent": "commercial",
+      "target_word_count": 1600,
+      "city_anchor": "federal-way-wa",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Federal Way",
+        "state": "WA",
+        "competitors": [
+          {
+            "name": "SERVPRO of Federal Way",
+            "google_rating": 4.4,
+            "review_count": 21
+          },
+          {
+            "name": "PuroClean of Northeast Tacoma",
+            "google_rating": 4.9,
+            "review_count": 68
+          },
+          {
+            "name": "Bastion Water Damage",
+            "google_rating": 5,
+            "review_count": 37
+          },
+          {
+            "name": "24/7 Flood & Fire",
+            "google_rating": 4.8,
+            "review_count": 199
+          }
+        ]
+      },
+      "fan_out_cluster": [
+        "best water damage restoration companies Federal Way",
+        "top rated water damage restoration Federal Way WA",
+        "who is the best water damage restoration company in Federal Way"
+      ],
+      "source": "best-of-seeder"
+    },
+    {
       "id": "2026-05-17-does-homeowners-insurance-cover-water-damage",
       "status": "written",
       "queued_at": "2026-05-17T14:59:05Z",
@@ -731,10 +777,10 @@
     },
     {
       "id": "2026-07-15-what-happens-after-an-unattended-death",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-07-15T02:14:14Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-07-23T17:37:54Z",
+      "post_url": "https://narestco.com/blog/what-happens-after-an-unattended-death/",
       "primary_keyword": "what happens after an unattended death is discovered",
       "intent": "informational",
       "volume": 10,
@@ -780,6 +826,154 @@
       "prioritized": true,
       "source": "trauma-focus-2026-07",
       "notes": "TONE: compassionate, discreet, family-first. No urgency hype. Mention insurance handled + 24/7 discreet arrival."
+    },
+    {
+      "id": "2026-07-23-flooded-basement-what-to-do",
+      "status": "queued",
+      "queued_at": "2026-07-23T18:15:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "flooded basement what to do",
+      "intent": "informational",
+      "volume": 1000,
+      "kd": 3,
+      "fan_out_cluster": [
+        "what to do when your basement floods from rain",
+        "how to dry out a basement fast",
+        "flooded basement cleanup cost",
+        "flooded basement who to call",
+        "how to deodorize a flooded basement",
+        "what to do if your basement floods with sewage"
+      ],
+      "suggested_slug": "flooded-basement-what-to-do",
+      "suggested_title": "Flooded Basement? What to Do in the First 24 Hours (Puget Sound Guide)",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/basement-flooding-cleanup/",
+        "/services/water-damage-restoration/",
+        "/services/sewage-cleanup/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "basement-flooding-cleanup",
+        "water-damage-restoration",
+        "sewage-cleanup"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.ready.gov/floods"
+      ],
+      "notes": "Top pick: vol 1000, KD 3. Emergency top-of-funnel for panicked homeowners. Lead with safety first (kill power/gas before entering standing water), then document for insurance, stop the source, extract water, and the 24-48 hour mold window. Distinguish clean vs gray vs sewage (black) water and when to call a pro (over ~10 sq ft or sewage). PNW context: 37+ in/yr rain, sump-pump failures, older ramblers with unconditioned crawl spaces and basements. Strong AI Overview citation candidate."
+    },
+    {
+      "id": "2026-07-23-how-to-prevent-basement-flooding-heavy-rain",
+      "status": "queued",
+      "queued_at": "2026-07-23T18:15:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to prevent basement flooding during heavy rain",
+      "intent": "informational",
+      "volume": 320,
+      "kd": null,
+      "fan_out_cluster": [
+        "why does my basement flood when it rains",
+        "sump pump failure basement flooding",
+        "basement flooding prevention tips",
+        "how to stop water coming into basement",
+        "exterior grading and gutter drainage",
+        "preparing a basement for an atmospheric river"
+      ],
+      "suggested_slug": "how-to-prevent-basement-flooding-during-heavy-rain",
+      "suggested_title": "How to Prevent Basement Flooding During Heavy Rain: A Puget Sound Homeowner's Guide",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/basement-flooding-cleanup/",
+        "/services/water-damage-restoration/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "basement-flooding-cleanup",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.ready.gov/floods"
+      ],
+      "notes": "Prevention/seasonal decision-stage, vol 320 (KD pending, competition HIGH). Frame for the PNW reality: sustained winter drizzle, atmospheric rivers, and Green/White/Cedar/Snohomish river valleys. Cover sump pumps + battery backup, exterior grading, gutter and downspout extensions, French drains, window-well covers, and backwater valves. Close with what to do when prevention fails, linking basement-flooding-cleanup. Matches the seed-list informational topic 'how to prevent basement flooding'."
+    },
+    {
+      "id": "2026-07-23-flooded-basement-cleanup-cost",
+      "status": "queued",
+      "queued_at": "2026-07-23T18:15:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "flooded basement cleanup cost",
+      "intent": "informational",
+      "volume": 260,
+      "kd": null,
+      "fan_out_cluster": [
+        "basement flood clean up cost",
+        "water damage basement repair cost",
+        "basement water removal cost",
+        "cost to dry out a flooded basement",
+        "sewage backup cleanup cost basement",
+        "does insurance affect basement flooding cost"
+      ],
+      "suggested_slug": "flooded-basement-cleanup-cost",
+      "suggested_title": "Flooded Basement Cleanup Cost: What Homeowners Pay in 2026",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/basement-flooding-cleanup/",
+        "/services/water-damage-restoration/",
+        "/services/sewage-cleanup/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "basement-flooding-cleanup",
+        "water-damage-restoration",
+        "sewage-cleanup"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [],
+      "notes": "Cost decision-stage, vol 260. Cost posts perform well for this client (see fire and mold cost posts). Break down realistic ranges by water category (clean vs gray vs sewage/black), affected square footage, extraction + structural drying vs full reconstruction, and mold remediation add-ons. Note how insurance offsets out-of-pocket and where deductibles and coverage gaps (surface flood, sewer backup) apply. Cross-link the basement flooding insurance post."
+    },
+    {
+      "id": "2026-07-23-my-basement-flooded-what-will-insurance-cover",
+      "status": "queued",
+      "queued_at": "2026-07-23T18:15:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "my basement flooded what will insurance cover",
+      "intent": "informational",
+      "volume": 170,
+      "kd": null,
+      "fan_out_cluster": [
+        "does homeowners insurance cover basement flooding",
+        "sump pump failure insurance coverage",
+        "water backup coverage endorsement",
+        "flood insurance vs homeowners for a basement",
+        "sewage backup insurance basement",
+        "filing a basement flooding insurance claim"
+      ],
+      "suggested_slug": "my-basement-flooded-what-will-insurance-cover",
+      "suggested_title": "My Basement Flooded: What Will Insurance Cover?",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/basement-flooding-cleanup/",
+        "/services/water-damage-restoration/",
+        "/services/sewage-cleanup/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "basement-flooding-cleanup",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iii.org/article/what-covered-standard-homeowners-policy"
+      ],
+      "notes": "High-value insurance decision-stage (restoration-vertical priority), vol 170. Distinguish the three coverage buckets that trip up homeowners: sudden/accidental internal water (burst pipe, appliance leak) usually covered; surface flooding and groundwater need a separate NFIP/flood policy; sewer/drain backup needs a water-backup endorsement, and sump-pump failure needs its own rider. Cross-link the existing water-damage insurance post. Companion piece extending the site's insurance content into basement flooding."
     }
   ]
 }
