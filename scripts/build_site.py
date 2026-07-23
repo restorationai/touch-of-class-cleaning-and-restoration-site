@@ -277,6 +277,30 @@ def copy_starter(site_dir: Path) -> None:
         shutil.copytree(STARTER_DIR, site_dir, dirs_exist_ok=True)
 
 
+LIGHT_OVERLAY_DIR = TEMPLATES_DIR / "astro-starter-light"
+
+
+def apply_light_overlay(site_dir: Path) -> int:
+    """Overlay the light-theme file variants (brand.theme == 'light').
+
+    The starter is dark-navy by design; the overlay is the proven light
+    conversion (sourced from the all-pro/prorestoration hand conversions,
+    2026-07-23) captured as drop-in replacements. Same component contracts,
+    light surfaces."""
+    if not LIGHT_OVERLAY_DIR.exists():
+        return 0
+    n = 0
+    for f in LIGHT_OVERLAY_DIR.rglob("*"):
+        if not f.is_file():
+            continue
+        rel = f.relative_to(LIGHT_OVERLAY_DIR)
+        dst = site_dir / rel
+        dst.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(f, dst)
+        n += 1
+    return n
+
+
 def substitute_in_tree(root: Path, tokens: dict) -> tuple[int, set]:
     """Walk root, substitute tokens in every text file, return (files_changed, unsubstituted_set)."""
     files_changed = 0
@@ -1297,6 +1321,9 @@ def cmd_scaffold(args) -> int:
     # Step 1: Copy starter + substitute tokens
     print("[1/5] Copying starter and substituting brand tokens...")
     copy_starter(site_dir)
+    if (plan_input.get("brand", {}) or {}).get("theme") == "light":
+        n = apply_light_overlay(site_dir)
+        print(f"      light theme: {n} overlay file(s) applied")
     string_tokens, json_tokens = resolve_tokens(client, plan_input)
     llms_tokens = build_llms_substitutions(plan_input, client)
     all_tokens = {**string_tokens, **json_tokens, **llms_tokens}

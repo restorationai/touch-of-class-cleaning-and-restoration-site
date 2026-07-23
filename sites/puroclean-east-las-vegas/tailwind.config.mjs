@@ -27,7 +27,7 @@ export default {
           950: "#030712",
         },
         primary: {
-          DEFAULT: "#dc2626",
+          DEFAULT: "#c50a1d",
           50: "#fef2f2",
           100: "#fee2e2",
           200: "#fecaca",
