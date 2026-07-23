@@ -134,9 +134,20 @@ def next_video_post(slug: str) -> str | None:
             continue
         if fm.get("youtube_id"):          # already has a video
             continue
-        candidates.append((fm.get("published_at", ""), md.stem))
-    candidates.sort()                      # oldest published first
-    return candidates[0][1] if candidates else None
+        # Highest-value first: frontmatter priority (bigger = more valuable
+        # keyword), then newest — a fresh high-intent post gets its video while
+        # it's climbing, instead of waiting behind the whole archive
+        # (2026-07-23; was oldest-first).
+        try:
+            prio = int(float(fm.get("priority", 5)))
+        except ValueError:
+            prio = 5
+        candidates.append((prio, fm.get("published_at", ""), md.stem))
+    if not candidates:
+        return None
+    # priority desc, then published_at desc (newest first)
+    candidates.sort(key=lambda t: (t[0], t[1]), reverse=True)
+    return candidates[0][2]
 
 
 # ---------------------------------------------------------------------------
