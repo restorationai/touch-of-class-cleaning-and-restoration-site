@@ -1,6 +1,52 @@
 {
   "items": [
     {
+      "id": "2026-07-23-best-water-damage-restoration-in-saratoga-springs-ut",
+      "status": "queued",
+      "queued_at": "2026-07-23T17:26:08Z",
+      "priority": 1,
+      "content_type": "best_of_comparison",
+      "combo_key": "best-water-damage-restoration-in-saratoga-springs-ut",
+      "primary_keyword": "best water damage restoration company in Saratoga Springs, UT",
+      "intent": "commercial",
+      "target_word_count": 1600,
+      "city_anchor": "saratoga-springs-ut",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Saratoga Springs",
+        "state": "UT",
+        "competitors": [
+          {
+            "name": "Utah Flood Guys of Eagle Mountain - Saratoga springs",
+            "google_rating": 5,
+            "review_count": 11
+          },
+          {
+            "name": "FIX Flood & Water Damage Pros",
+            "google_rating": 4.9,
+            "review_count": 555
+          },
+          {
+            "name": "ServiceMaster Restore by A3 Disaster Services",
+            "google_rating": 4.9,
+            "review_count": 482
+          },
+          {
+            "name": "Water Damage Specialists",
+            "google_rating": 4.9,
+            "review_count": 68
+          }
+        ]
+      },
+      "fan_out_cluster": [
+        "best water damage restoration companies Saratoga Springs",
+        "top rated water damage restoration Saratoga Springs UT",
+        "who is the best water damage restoration company in Saratoga Springs"
+      ],
+      "source": "best-of-seeder"
+    },
+    {
       "id": "2026-06-23-ice-dam-removal-park-city",
       "status": "written",
       "queued_at": "2026-06-24T00:29:58Z",
@@ -256,10 +302,10 @@
     },
     {
       "id": "2026-07-02-what-to-do-after-a-house-fire",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-07-02T17:37:35Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-07-23T17:28:15Z",
+      "post_url": "https://homepriderestorationandcleaning.com/blog/what-to-do-after-a-house-fire/",
       "primary_keyword": "what to do after a house fire",
       "intent": "informational",
       "volume": 260,
