@@ -140,6 +140,46 @@ def main():
        prefer="return=minimal")
     print("hub url: " + hub)
 
+    # 4b. seed the site-brief city ring — the metro towns around the client's
+    # city, pre-ticked in the Site Build card so the brief starts as "Davie +
+    # the 8 towns a truck actually drives to", not a single lonely city.
+    # Only fills an EMPTY list; anything a human saved always wins.
+    try:
+        rows3 = sb("GET", "/rest/v1/companies?id=eq.{}&select=city,state,integration_settings".format(co["id"]))
+        co3 = (rows3 or [{}])[0]
+        ints3 = co3.get("integration_settings") or {}
+        if isinstance(ints3, str):
+            ints3 = json.loads(ints3)
+        brief = ints3.get("site_brief") or {}
+        if co3.get("city") and not (brief.get("cities") or []):
+            ring_schema = {
+                "type": "object", "additionalProperties": False,
+                "properties": {"cities": {"type": "array", "items": {
+                    "type": "object", "additionalProperties": False,
+                    "properties": {"label": {"type": "string"},
+                                   "state": {"type": "string"}},
+                    "required": ["label", "state"]}}},
+                "required": ["cities"]}
+            out, _ = la.claude_json(
+                la._claude(),
+                "You pick the service-area ring for a local restoration/home-services "
+                "company's website. Return the company's own city FIRST, then the 7-8 "
+                "nearby REAL cities/towns (within ~25 miles) a service truck would "
+                "actually drive to, ordered by population/search demand. Real places "
+                "only, never invented. state = 2-letter abbreviation. "
+                'Return ONLY JSON: {"cities": [{"label": "...", "state": "XX"}]}',
+                "Company city: {}, {}".format(co3["city"], co3.get("state") or ""),
+                max_tokens=1000, schema=ring_schema)
+            ring = (out.get("cities") or [])[:9]
+            if ring:
+                brief["cities"] = ring
+                ints3["site_brief"] = brief
+                sb("PATCH", "/rest/v1/companies?id=eq." + co["id"],
+                   body={"integration_settings": ints3}, prefer="return=minimal")
+                print("site-brief city ring seeded: " + ", ".join(c["label"] for c in ring))
+    except Exception as e:  # noqa: BLE001 — ring seeding must never block bootstrap
+        print("city-ring seeding skipped: {}".format(e))
+
     # 5. standard intake items (skip duplicates by question text)
     have = {(r.get("question") or "").lower() for r in
             sb("GET", "/rest/v1/client_intake_items?company_id=eq.{}&select=question".format(co["id"])) or []}
