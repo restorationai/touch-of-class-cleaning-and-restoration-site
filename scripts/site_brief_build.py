@@ -71,6 +71,54 @@ def service_slug(name):
     return re.sub(r"-{2,}", "-", s)
 
 
+# Wizard service names don't always match catalog slugs ("Fire & Smoke
+# Restoration" -> fire-and-smoke-restoration, which plan_site rejects).
+# Resolve every service against the template catalog; unknowns are DROPPED
+# with a warning rather than blocking the build (2026-07-23 maiden voyage).
+_ALIASES = {
+    "fire-and-smoke-restoration": "fire-damage-restoration",
+    "smoke-and-fire-restoration": "fire-damage-restoration",
+    "water-damage-mitigation": "water-damage-restoration",
+    "mold-removal": "mold-remediation",
+    "mold-removal-and-remediation": "mold-remediation",
+}
+
+
+def catalog_services(names):
+    catalog = []
+    try:
+        d = json.loads((ROOT / "templates" / "restoration" / "services.json").read_text())
+        catalog = [s["slug"] if isinstance(s, dict) else s
+                   for s in (d if isinstance(d, list) else d.get("services", []))]
+    except Exception:
+        pass
+    out = []
+    for n in names:
+        slug = service_slug(n)
+        if not catalog or slug in catalog:
+            resolved = slug
+        elif slug in _ALIASES:
+            resolved = _ALIASES[slug]
+        else:
+            # token-subset: catalog slug whose every token appears in the
+            # wizard slug ("sewage-cleanup" in "sewage-cleanup-and-remediation")
+            toks = set(slug.split("-"))
+            subset = [c for c in catalog if set(c.split("-")) <= toks]
+            if subset:
+                resolved = max(subset, key=len)
+            else:
+                import difflib
+                close = difflib.get_close_matches(slug, catalog, n=1, cutoff=0.8)
+                if close:
+                    resolved = close[0]
+                else:
+                    print(f"  service {n!r} ({slug}) not in catalog — dropped")
+                    continue
+        if resolved not in out:
+            out.append(resolved)
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--slug", required=True)
@@ -135,7 +183,7 @@ def main():
     pi["brand"] = brand
 
     pi.setdefault("template", "restoration")
-    pi.setdefault("services", [service_slug(s) for s in (co.get("services") or [])]
+    pi.setdefault("services", catalog_services(co.get("services") or [])
                   or ["water-damage-restoration"])
     pi.setdefault("blog_seed_count", 12)
 
