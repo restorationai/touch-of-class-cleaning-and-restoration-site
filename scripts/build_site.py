@@ -248,7 +248,9 @@ def build_llms_substitutions(plan_input: dict, client: dict) -> dict:
 
 def substitute_text(text: str, tokens: dict) -> tuple[str, set]:
     for k, v in tokens.items():
-        text = text.replace(f"{{{{{k}}}}}", v)
+        # plan-input JSON nulls surface as None ("place_id": null crashed the
+        # RestorationXpress scaffold 2026-07-23) — treat as empty, never crash.
+        text = text.replace(f"{{{{{k}}}}}", "" if v is None else str(v))
     return text, set(re.findall(r"\{\{[A-Z_]+\}\}", text))
 
 
