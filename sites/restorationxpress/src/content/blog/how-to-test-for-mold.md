@@ -61,7 +61,7 @@ Some situations don't need a $30 test to confirm there's a problem. Go straight 
 If you've scheduled an inspection, a few things will affect the accuracy of the results:
 
 **Do:**
-- Run your HVAC system normally for at least 24 hours before the inspection so air is circulating as it usually would be
+- Run your HVAC system normally for at least a full day before the inspection so air is circulating as it usually would be
 - Note the locations of any past leaks, water stains, or musty odors so you can point the inspector to priority areas
 - Keep windows and exterior doors closed for at least an hour before air sampling begins
 

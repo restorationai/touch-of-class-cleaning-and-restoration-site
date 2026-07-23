@@ -40,8 +40,8 @@ These apply whether you're dealing with water damage, fire damage, or a mold pro
 **1. Verify their Florida contractor license.**
 Go to the Florida Department of Business and Professional Regulation (DBPR) website and search the company name or license number. A legitimate restoration contractor will have a current, active license. If they can't provide a license number when you ask, stop the conversation.
 
-**2. Ask specifically about IICRC certification.**
-The Institute of Inspection, Cleaning and Restoration Certification sets the technical standards the industry actually uses — the S500 for water damage, the S520 for mold, the S700 for fire and smoke. A company whose technicians hold IICRC credentials has been trained to those standards, not just trained by whoever hired them last month. Ask which certifications the crew showing up to your home holds, not just the company in general.
+**2. Ask specifically about training to IICRC standards.**
+The Institute of Inspection, Cleaning and Restoration Certification sets the technical standards the industry actually uses — the S500 for water damage, the S520 for mold, the S700 for fire and smoke. A company whose technicians are trained to IICRC standards has been trained to those standards, not just trained by whoever hired them last month. Ask which certifications the crew showing up to your home holds, not just the company in general.
 
 **3. Confirm they carry general liability and workers' comp.**
 If an uninsured worker is injured on your property, you can be liable. Ask for a certificate of insurance and verify it's current. Any legitimate company will send this without hesitation.

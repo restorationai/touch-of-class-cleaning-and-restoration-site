@@ -93,7 +93,7 @@ Call a professional if any of the following are true:
 - **The affected area is larger than roughly 10 square feet** of saturated flooring or wall
 - **You smell anything musty within 48 hours** — that odor is microbial activity starting
 - **The source was a supply line behind an appliance** and you are not certain how far the water traveled under the appliance or cabinetry
-- **You are filing an insurance claim** — a certified restoration crew produces the moisture mapping, drying logs, and equipment records that adjusters require
+- **You are filing an insurance claim** — a professional restoration crew produces the moisture mapping, drying logs, and equipment records that adjusters require
 
 Professional water damage restoration uses industrial air movers, refrigerant dehumidifiers, and thermal imaging cameras to find and extract moisture that fans and shop vacs cannot reach. The drying process is documented to a standard (IICRC S500) that insurance carriers recognize. That documentation protects you if questions come up later about whether the structure was properly dried.
 

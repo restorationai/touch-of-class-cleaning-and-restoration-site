@@ -51,7 +51,7 @@ Some well-intentioned actions make restoration harder and more expensive.
 
 ## The Professional Restoration Process, Phase by Phase
 
-Once a certified restoration team is on-site, the work moves through a defined sequence. Cutting corners on any phase typically creates problems in a later one.
+Once a professional restoration team is on-site, the work moves through a defined sequence. Cutting corners on any phase typically creates problems in a later one.
 
 ### Phase 1 — Emergency Stabilization
 

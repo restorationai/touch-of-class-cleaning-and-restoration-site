@@ -58,7 +58,7 @@ Call your insurer first — before work begins if possible, or immediately after
 
 A good restoration company will communicate directly with your adjuster and provide the documentation the adjuster needs — moisture logs, photos, scope of work, drying reports. They should not, however, be the only channel of communication between you and your insurance company. Stay involved. Review the scope of work your insurer approves and compare it to what the contractor is proposing. Gaps between those two documents are where disputes start.
 
-If your insurer disputes a line item in the contractor's estimate, ask the contractor to provide the technical justification — the moisture readings, the IICRC protocol reference, the equipment log. A contractor who can't or won't provide that documentation is a contractor whose estimate may not hold up.
+If your insurer disputes a line item in the contractor's estimate, ask the contractor to provide the technical justification — the moisture readings, the industry drying-protocol reference, the equipment log. A contractor who can't or won't provide that documentation is a contractor whose estimate may not hold up.
 
 ## What the Recovery Timeline Actually Looks Like
 

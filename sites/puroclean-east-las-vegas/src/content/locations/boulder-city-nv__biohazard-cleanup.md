@@ -45,7 +45,7 @@ For properties in ZIP code 89005, our team coordinates directly with local waste
 
 PuroClean of East Las Vegas operates out of the Las Vegas Valley, and Boulder City sits roughly 25 miles southeast via US-93 — a straightforward drive with no major interchange complications. For properties near Lake Mountain Estates or out toward the Lake Mead National Recreation Area corridor, access is direct. We call ahead when jobs require staging equipment near residential driveways or shared access points, which is common in the more densely platted streets of the Historic District.
 
-Because Boulder City has no 24-hour emergency services of its own for this type of work, we encourage families or property managers to call us as soon as they're ready — prompt scheduling means we can often reach the property the same day.
+Because Boulder City has no dedicated emergency services of its own for this type of work, we encourage families or property managers to call us as soon as they're ready — prompt scheduling means we can often reach the property the same day.
 
 ## Insurance and Documentation for Boulder City Residents
 

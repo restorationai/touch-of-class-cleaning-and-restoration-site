@@ -4,7 +4,7 @@ title: "About RestorationXpress  | Davie Restoration Company"
 h1: "About RestorationXpress "
 meta_description: "RestorationXpress has served Davie since. Meet our restoration team. Locally owned."
 primary_keyword: "restorationxpress  davie"
-secondary_keywords: ["local restoration company", "iicrc certified restoration", "licensed restoration contractor"]
+secondary_keywords: ["local restoration company", "restoration industry standards", "licensed restoration contractor"]
 search_intent: "navigational_trust"
 priority: 2.5
 plan_hash: "5f45f533b0bcd9ec"
@@ -25,7 +25,7 @@ A significant part of the job is working alongside insurance carriers. We docume
 
 ## Our certifications and licensure
 
-Certifications in this industry aren't just wall decorations. The IICRC — the Institute of Inspection, Cleaning and Restoration Certification — sets the technical standards that define how water damage is actually categorized, how drying is validated, and what "complete" looks like before a job is closed. Working to those standards protects homeowners from shortcuts that look fine on the surface and cause problems six months later.
+Industry standards aren't just wall decorations. National restoration standards bodies publish the technical benchmarks that define how water damage is actually categorized, how drying is validated, and what "complete" looks like before a job is closed. Working to those standards protects homeowners from shortcuts that look fine on the surface and cause problems six months later.
 
 For older homes — anything built before 1978 — lead-containing paint is a real concern any time walls or trim are disturbed during demolition or reconstruction. Federal law requires contractors to follow specific containment and disposal procedures in those situations. We follow the applicable regulatory requirements for work in pre-1978 structures.
 

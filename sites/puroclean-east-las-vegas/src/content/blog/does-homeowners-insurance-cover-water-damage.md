@@ -89,7 +89,7 @@ Denials and low estimates are common in water damage claims. A few options if th
 
 - **Request the denial in writing** with the specific policy language cited. Vague denials are easier to dispute.
 - **Hire a public adjuster.** Unlike your insurer's adjuster, a public adjuster works for you. They typically charge 10–15% of the final settlement but often recover significantly more than the initial offer on complex claims.
-- **Get an independent scope of work from a restoration contractor.** A detailed line-item estimate from a certified restoration company can serve as a counter to a low adjuster estimate. This is documentation, not a commitment to hire.
+- **Get an independent scope of work from a restoration contractor.** A detailed line-item estimate from a professional restoration company can serve as a counter to a low adjuster estimate. This is documentation, not a commitment to hire.
 - **File a complaint with the Nevada Division of Insurance** if you believe the denial violates your policy terms. Nevada has specific timelines insurers must follow for acknowledging and resolving claims.
 
 ---

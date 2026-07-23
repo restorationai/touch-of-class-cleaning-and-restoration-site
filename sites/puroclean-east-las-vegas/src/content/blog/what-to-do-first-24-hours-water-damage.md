@@ -92,7 +92,7 @@ Even after standing water is gone and surfaces feel dry, the recovery process co
 
 During that window:
 
-- Expect loud equipment running around the clock. Industrial air movers are not quiet.
+- Expect loud equipment running continuously. Industrial air movers are not quiet.
 - Expect daily or every-other-day moisture readings to track progress.
 - Do not close doors to rooms being dried — airflow needs a path.
 - Keep pets and children away from equipment.

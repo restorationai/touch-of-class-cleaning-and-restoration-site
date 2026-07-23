@@ -42,7 +42,7 @@ RestorationXpress is based in Davie, which puts us just a few miles east of Pemb
 
 Large HOA communities in Pembroke Pines often have master policies that cover common-area water intrusion but leave interior unit damage to individual homeowners — a distinction that creates confusion during a loss. We document the damage with photographs, moisture readings, and written scope notes formatted for adjuster review, which helps move the claim forward regardless of which policy is responding.
 
-For HOA-governed properties, some associations require advance notice before restoration equipment is staged in common hallways or parking areas. We've worked in enough of these Pembroke Pines developments to know when to make that call proactively, so the work isn't delayed by a property manager who needs 24 hours' notice before a dumpster or equipment trailer can be placed.
+For HOA-governed properties, some associations require advance notice before restoration equipment is staged in common hallways or parking areas. We've worked in enough of these Pembroke Pines developments to know when to make that call proactively, so the work isn't delayed by a property manager who needs a day's notice before a dumpster or equipment trailer can be placed.
 
 ## Local Note
 
