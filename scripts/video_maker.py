@@ -2045,6 +2045,13 @@ def geo_metadata(client: dict, service: str, city: str,
     ]
     city_names = ", ".join(a["city"] for a in ordered)
 
+    # Pre-launch / siteless clients get their Google listing instead of dead
+    # site links (day-one videos, 2026-07-23).
+    site_live = bool(client.get("cut_over_at")
+                     or (client.get("apex_cutover") or {}).get("completed_at"))
+    maps_link = ("https://www.google.com/maps/place/?q=place_id:" + b["place_id"]
+                 if b.get("place_id") else "")
+
     desc_parts = [
         f"Need {svc_pretty.lower()} in {city}? {brand} serves {city} and the surrounding area"
         + (f" — {hours}." if hours else "."),
@@ -2052,10 +2059,17 @@ def geo_metadata(client: dict, service: str, city: str,
     if proof_points:
         desc_parts.append("\n".join(f"• {p}" for p in proof_points))
     desc_parts.append(f"Call {brand} now: {phone}")
-    desc_parts.append(
-        f"{brand}\nPhone: {phone}\nWebsite: https://{domain}/\nServing: {city_names}"
-    )
-    desc_parts.append("Service areas:\n" + "\n".join(area_lines))
+    if site_live:
+        desc_parts.append(
+            f"{brand}\nPhone: {phone}\nWebsite: https://{domain}/\nServing: {city_names}"
+        )
+        desc_parts.append("Service areas:\n" + "\n".join(area_lines))
+    else:
+        desc_parts.append(
+            f"{brand}\nPhone: {phone}"
+            + (f"\nFind us on Google: {maps_link}" if maps_link else "")
+            + f"\nServing: {city_names}"
+        )
     description = "\n\n".join(desc_parts)
 
     svc_lower = svc_pretty.lower()

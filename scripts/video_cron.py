@@ -63,13 +63,25 @@ def _load_json(p: Path):
 
 
 def active_clients() -> list[str]:
-    """Slugs of clients that are active AND cut over to apex (live site)."""
+    """Slugs of every current client eligible for videos.
+
+    YouTube is its own search engine — geo videos only need the city x
+    service matrix (plan-input), NOT a live website, so pre-launch and
+    siteless (franchise) clients are included from day one (2026-07-23,
+    Santino). Blog-kind videos still require published posts and fall back
+    to geo naturally. Only truly departed clients are excluded."""
+    DEPARTED = {"archived", "churned", "paused", "cancelled"}
     out = []
     for f in sorted(CLIENTS_DIR.glob("*.json")):
         rec = _load_json(f)
-        if not rec or rec.get("status") != "active":
+        if not rec or str(rec.get("status") or "").lower() in DEPARTED:
             continue
-        if rec.get("cut_over_at") or rec.get("apex_cutover", {}).get("completed_at"):
+        try:
+            plan = _load_json(CLIENTS_DIR / f.stem / "plan-input.json") or {}
+        except Exception:
+            plan = {}
+        live = rec.get("cut_over_at") or rec.get("apex_cutover", {}).get("completed_at")
+        if live or plan.get("service_areas"):
             out.append(f.stem)
     return out
 
