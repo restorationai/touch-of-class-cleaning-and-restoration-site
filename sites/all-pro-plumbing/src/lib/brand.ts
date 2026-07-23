@@ -44,7 +44,7 @@ export const brand = {
   gbpReviewCount: "",
   gbpReviews: [] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 plumbing, heating and air service in Bakersfield, CA.",
-  ctaLabel: "24/7 Emergency Hotline",
+  ctaLabel: "24/7 Emergency Line",
 } as const;
 
 export const entityId = `${brand.canonicalUrl}/#identity`;

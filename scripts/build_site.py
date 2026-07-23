@@ -183,7 +183,7 @@ def resolve_tokens(client: dict, plan_input: dict) -> tuple[dict, dict]:
             "cta_label",
             "Call for a Free Estimate"
             if "construction" in plan_input.get("verticals", [])
-            else "24/7 Emergency Hotline",
+            else "24/7 Emergency Line",
         ),
         "BRAND_LOGO_URL": brand.get("logo_url", f"https://images.{domain}/brand/logo.png"),
         "BRAND_INITIALS": initials,

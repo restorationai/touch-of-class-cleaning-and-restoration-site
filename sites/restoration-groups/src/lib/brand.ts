@@ -35,7 +35,7 @@ export const brand = {
   // lets the TrustStrip show the badge before a license number is on file.
   licensedInsuredAttested: true as boolean,
   certifications: ["IICRC Certified Firm #210213"] as string[],
-  trustBadges: ["IICRC Certified Firm #210213", "NJ Licensed Home Improvement Contractor", "24/7 Emergency Response", "Serving NJ Since 2021"] as string[],
+  trustBadges: ["500+ Google Reviews", "IICRC Certified Firm #210213", "NJ Licensed Home Improvement Contractor", "24/7 Emergency Response"] as string[],
   // Real job photos pulled from the client's existing sites
   // (restorationgroups.com + therestorationgroup.com), EXIF/GPS stripped.
   jobPhotos: [
@@ -53,7 +53,7 @@ export const brand = {
   gbpReviewCount: "",
   gbpReviews: [] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 water, fire & mold damage restoration across New Jersey.",
-  ctaLabel: "24/7 Emergency Hotline",
+  ctaLabel: "24/7 Emergency Line",
 } as const;
 
 export const entityId = `${brand.canonicalUrl}/#identity`;
