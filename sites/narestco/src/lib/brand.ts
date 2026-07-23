@@ -36,6 +36,7 @@ export const brand = {
   logoUrl: "/images/logo.webp",
   licenseNumbers: ["NATIORC792M6"] as string[],
   licenseAuthority: "WA State Department of Labor & Industries",
+  licenseLookupUrl: "https://secure.lni.wa.gov/verify/",
   licenseType: "General Contractor Certificate of Registration",
   // Operator-confirmed "licensed & insured" attestation (plan-input.json
   // brand.licensed_insured_attested) — gates the TrustStrip badge when no

@@ -30,6 +30,8 @@ export const brand = {
   logoUrl: "{{BRAND_LOGO_URL}}",
   licenseNumbers: {{BRAND_LICENSE_NUMBERS_JSON}} as string[],
   licenseAuthority: "{{BRAND_LICENSE_AUTHORITY}}",
+  // State license-verification page — the footer links the license number here.
+  licenseLookupUrl: "{{BRAND_LICENSE_LOOKUP_URL}}",
   licenseType: "{{BRAND_LICENSE_TYPE}}",
   // Operator-confirmed "licensed & insured" attestation from plan-input.json —
   // lets the TrustStrip show the badge before a license number is on file.

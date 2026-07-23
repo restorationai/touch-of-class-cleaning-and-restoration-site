@@ -30,6 +30,7 @@ export const brand = {
   logoUrl: "",
   licenseNumbers: ["NJ HIC 13VH05488600"] as string[],
   licenseAuthority: "NJ Division of Consumer Affairs",
+  licenseLookupUrl: "https://newjersey.mylicense.com/verification/",
   licenseType: "NJ Licensed Home Improvement Contractor",
   // Operator-confirmed "licensed & insured" attestation from plan-input.json —
   // lets the TrustStrip show the badge before a license number is on file.

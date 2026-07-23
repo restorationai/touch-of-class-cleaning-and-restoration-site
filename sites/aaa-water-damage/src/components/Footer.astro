@@ -78,7 +78,16 @@ const year = new Date().getFullYear();
       {brand.licenseNumbers && Array.isArray(brand.licenseNumbers) && brand.licenseNumbers.length > 0 && (
         <>
           <span class="text-navy-900/70" aria-hidden="true">·</span>
-          <span>#{brand.licenseNumbers.join(", #")}</span>
+          {(brand as { licenseLookupUrl?: string }).licenseLookupUrl ? (
+            <a href={(brand as { licenseLookupUrl?: string }).licenseLookupUrl}
+               target="_blank" rel="noopener nofollow"
+               class="underline decoration-dotted underline-offset-2 hover:opacity-80"
+               title="Verify this license with the state">
+              #{brand.licenseNumbers.join(", #")}
+            </a>
+          ) : (
+            <span>#{brand.licenseNumbers.join(", #")}</span>
+          )}
         </>
       )}
     </div>

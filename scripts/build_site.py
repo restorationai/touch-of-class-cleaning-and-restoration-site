@@ -50,6 +50,22 @@ GH_OWNER = "restorationai"   # locked per architectural decision
 GH_API = "https://api.github.com"
 CF_API = "https://api.cloudflare.com/client/v4"
 
+# State contractor-license verification pages (footer license link).
+STATE_LICENSE_LOOKUP = {
+    "WA": "https://secure.lni.wa.gov/verify/",
+    "NJ": "https://newjersey.mylicense.com/verification/",
+    "CT": "https://www.elicense.ct.gov/Lookup/LicenseLookup.aspx",
+    "CA": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/CheckLicense.aspx",
+    "NV": "https://www.nvcontractorsboard.com/",
+    "FL": "https://www.myfloridalicense.com/wl11.asp",
+    "TX": "https://www.tdlr.texas.gov/LicenseSearch/",
+    "UT": "https://secure.utah.gov/llv/search/index.html",
+    "AL": "https://genconbd.alabama.gov/ROSTER-SEARCH.aspx",
+    "PA": "https://hicsearch.attorneygeneral.gov/",
+    "NY": "https://appext20.dos.ny.gov/lcns_public/chk_load",
+    "MA": "https://services.oca.state.ma.us/hic/licenseelist.aspx",
+}
+
 BINARY_EXTS = {".png", ".jpg", ".jpeg", ".gif", ".ico", ".woff", ".woff2", ".ttf"}
 
 
@@ -171,6 +187,13 @@ def resolve_tokens(client: dict, plan_input: dict) -> tuple[dict, dict]:
         "BRAND_PLACE_ID": brand.get("place_id", ""),
         "BRAND_GOOGLE_CID": brand.get("google_cid", ""),
         "BRAND_LICENSE_AUTHORITY": brand.get("license_authority", ""),
+        # Footer links the license number to the state's verification page —
+        # instantly checkable beats merely printed (Green Restoration pattern,
+        # 2026-07-23). Empty when no license on file; the Footer guards.
+        "BRAND_LICENSE_LOOKUP_URL": brand.get(
+            "license_lookup_url",
+            STATE_LICENSE_LOOKUP.get(str(primary_area.get("state", "")).upper(), "")
+            if brand.get("license_numbers") else ""),
         "BRAND_LICENSE_TYPE": brand.get("license_type", ""),
         "BRAND_GBP_RATING_VALUE": str(brand.get("gbp_rating_value", "")),
         "BRAND_GBP_REVIEW_COUNT": str(brand.get("gbp_review_count", "")),
