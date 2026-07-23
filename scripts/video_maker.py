@@ -995,12 +995,122 @@ def generate_scene_clips(
 
 
 def generate_thumbnail(thumbnail_prompt: str, work_dir: Path, model: str) -> Path:
-    """Generate the YouTube thumbnail image."""
+    """Generate the YouTube thumbnail image (legacy Gemini path)."""
     print("  [thumbnail] generating...")
     png_bytes = gemini_generate_image(thumbnail_prompt, model=model)
     thumb_path = work_dir / "thumbnail.png"
     thumb_path.write_bytes(png_bytes)
     return thumb_path
+
+
+def build_branded_thumbnail(slug: str, lines: list[str], work_dir: Path) -> Path:
+    """Deterministic branded thumbnail: the client's consistent hero image as
+    background + per-video text overlay (Santino 2026-07-23: 'same background
+    image but add text to differentiate each one'). Brand color bar + logo +
+    phone. Replaces the Gemini thumbnail — consistent, free, on-brand.
+    """
+    from PIL import Image as PILImage
+    from PIL import ImageDraw, ImageFilter
+
+    W, H = 1280, 720
+    brand = {}
+    try:
+        brand = json.loads((CLIENTS_DIR / slug / "plan-input.json").read_text()).get("brand", {})
+    except Exception:
+        pass
+
+    def _hex_rgb(h, fallback=(168, 50, 39)):
+        h = str(h or "").lstrip("#")
+        try:
+            return (int(h[0:2], 16), int(h[2:4], 16), int(h[4:6], 16))
+        except Exception:
+            return fallback
+    accent = _hex_rgb(brand.get("primary_color"))
+
+    # background: the client's hero image, cover-cropped (consistent per client)
+    canvas = PILImage.new("RGB", (W, H), (16, 24, 39))
+    bg_path = SITES_DIR / slug / "public" / "images" / "hero-bg.webp"
+    if bg_path.exists():
+        try:
+            bg = PILImage.open(bg_path).convert("RGB")
+            scale = max(W / bg.width, H / bg.height)
+            bg = bg.resize((int(bg.width * scale) + 1, int(bg.height * scale) + 1), PILImage.LANCZOS)
+            canvas.paste(bg, (int((W - bg.width) / 2), int((H - bg.height) / 2)))
+        except Exception:
+            pass
+    # left-weighted dark gradient for text legibility
+    grad = PILImage.new("L", (W, 1), 0)
+    for x in range(W):
+        grad.putpixel((x, 0), int(200 * max(0.0, 1.0 - x / (W * 0.85))))
+    grad = grad.resize((W, H))
+    canvas = PILImage.composite(PILImage.new("RGB", (W, H), (8, 12, 20)), canvas, grad)
+
+    draw = ImageDraw.Draw(canvas)
+    # big text lines, top-left, white with soft shadow; each line auto-shrinks
+    # until it fits inside the safe width (long service names overflowed)
+    max_w = int(W * 0.88)
+    y = int(H * 0.13)
+    for i, line in enumerate([l for l in lines if l][:3]):
+        size = int(H * (0.15 if i == 0 else 0.115))
+        font = _load_subtitle_font(size=size)
+        while size > int(H * 0.06):
+            bb = draw.textbbox((0, 0), line, font=font)
+            if bb[2] - bb[0] <= max_w - int(W * 0.055):
+                break
+            size = int(size * 0.92)
+            font = _load_subtitle_font(size=size)
+        draw.text((int(W * 0.055) + 3, y + 4), line, font=font, fill=(0, 0, 0))
+        draw.text((int(W * 0.055), y), line, font=font, fill=(255, 255, 255))
+        bb = draw.textbbox((0, 0), line, font=font)
+        y += (bb[3] - bb[1]) + int(H * 0.05)
+
+    # brand color bar with phone at the bottom
+    bar_h = int(H * 0.11)
+    draw.rectangle([0, H - bar_h, W, H], fill=accent)
+    phone = brand.get("phone", "")
+    label = (brand.get("display_name", "") + ("   •   " + phone if phone else "")).strip()
+    if label:
+        f2 = _load_subtitle_font(size=int(bar_h * 0.44))
+        bb = draw.textbbox((0, 0), label, font=f2)
+        draw.text((int(W * 0.055), H - bar_h + (bar_h - (bb[3] - bb[1])) // 2 - bb[1]),
+                  label, font=f2, fill=(255, 255, 255))
+
+    # logo chip top-right on a white pill
+    logo_path = SITES_DIR / slug / "public" / "images" / "logo.webp"
+    if logo_path.exists():
+        try:
+            logo = PILImage.open(logo_path).convert("RGBA")
+            lw = int(W * 0.18)
+            logo = logo.resize((lw, int(logo.height * lw / logo.width)), PILImage.LANCZOS)
+            pad = int(H * 0.02)
+            pill = PILImage.new("RGBA", (logo.width + pad * 2, logo.height + pad * 2), (255, 255, 255, 235))
+            canvas.paste(pill, (W - pill.width - pad, pad), pill)
+            canvas.paste(logo, (W - pill.width, pad * 2), logo)
+        except Exception:
+            pass
+
+    out = work_dir / "thumbnail.png"
+    canvas.save(out)
+    print("  [thumbnail] branded template rendered ({} lines)".format(len([l for l in lines if l][:3])))
+    return out
+
+
+def _title_thumb_lines(title: str) -> list[str]:
+    """Split a video title into <=3 short uppercase lines for the thumbnail."""
+    head = title.split("|")[0].strip()
+    words = head.split()
+    lines, cur = [], ""
+    for w in words:
+        if len(cur) + len(w) + 1 > 16 and cur:
+            lines.append(cur)
+            cur = w
+        else:
+            cur = (cur + " " + w).strip()
+        if len(lines) == 3:
+            break
+    if cur and len(lines) < 3:
+        lines.append(cur)
+    return [l.upper() for l in lines[:3]]
 
 
 # ---------------------------------------------------------------------------
@@ -1744,9 +1854,11 @@ def cmd_make(args) -> int:
             max_ai_images=getattr(args, "max_ai_images", None),
         )
 
-        # thumbnail (always Gemini — needs specific composition with text area)
-        thumb_prompt = script.get("thumbnail_prompt") or scenes[0].get("image_prompt", "")
-        thumb_path = generate_thumbnail(thumb_prompt, work_dir, model)
+        # thumbnail: deterministic branded template (same client background,
+        # per-video text) — replaced the Gemini one-off 2026-07-23
+        thumb_path = build_branded_thumbnail(
+            slug, _title_thumb_lines(script.get("youtube_title") or post_slug.replace("-", " ")),
+            work_dir)
 
         # Step 4 — FFmpeg assembly
         print("\n[4/6] Assembling video with FFmpeg...")
@@ -2159,9 +2271,9 @@ def cmd_geo(args) -> int:
         out_name = f"geo-{service}-{city_slug}"
         video_path = work_dir / f"{out_name}.mp4"
         assemble_video(clip_paths, audio_path, video_path, work_dir)
-        thumb_path = generate_thumbnail(
-            script.get("thumbnail_prompt") or scenes[0].get("image_prompt", ""),
-            work_dir, model)
+        thumb_path = build_branded_thumbnail(
+            slug, _title_thumb_lines(service.replace("-", " "))[:2] + [city.upper()],
+            work_dir)
         srt_path = work_dir / f"{out_name}.srt"
         generate_srt(scenes, narr_dur, srt_path)
         print(f"  video: {video_path.stat().st_size/1e6:.1f} MB")
