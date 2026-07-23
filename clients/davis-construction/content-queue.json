@@ -2,6 +2,52 @@
   "slug": "davis-construction",
   "items": [
     {
+      "id": "2026-07-23-best-home-remodeling-in-madison-al",
+      "status": "queued",
+      "queued_at": "2026-07-23T17:11:05Z",
+      "priority": 1,
+      "content_type": "best_of_comparison",
+      "combo_key": "best-home-remodeling-in-madison-al",
+      "primary_keyword": "best home remodeling company in Madison, AL",
+      "intent": "commercial",
+      "target_word_count": 1600,
+      "city_anchor": "madison-al",
+      "best_of": {
+        "service": "home-remodeling",
+        "service_pretty": "Home Remodeling",
+        "city": "Madison",
+        "state": "AL",
+        "competitors": [
+          {
+            "name": "Home One Remodeling",
+            "google_rating": 3.8,
+            "review_count": 9
+          },
+          {
+            "name": "3D Remodeling",
+            "google_rating": 5,
+            "review_count": 71
+          },
+          {
+            "name": "Green Spaces Home Improvement LLC",
+            "google_rating": 4.8,
+            "review_count": 108
+          },
+          {
+            "name": "DreamMaker Bath & Kitchen of Huntsville",
+            "google_rating": 4.5,
+            "review_count": 28
+          }
+        ]
+      },
+      "fan_out_cluster": [
+        "best home remodeling companies Madison",
+        "top rated home remodeling Madison AL",
+        "who is the best home remodeling company in Madison"
+      ],
+      "source": "best-of-seeder"
+    },
+    {
       "id": "2026-05-25-water-damage-restoration-cost-guide",
       "status": "written",
       "queued_at": "2026-05-25T20:46:00Z",
@@ -440,10 +486,10 @@
     },
     {
       "id": "2026-07-09-how-to-choose-a-general-contractor",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-07-09T17:54:12Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-07-23T17:20:43Z",
+      "post_url": "https://davisconstructioncontractors.com/blog/how-to-choose-a-general-contractor/",
       "primary_keyword": "how to choose a general contractor",
       "intent": "informational",
       "volume": null,
@@ -555,6 +601,148 @@
       ],
       "metrics_pending": true,
       "notes": "Whether-to-hire decision query. Frame by project scope: single-trade jobs vs multi-trade remodels/additions where a GC coordinates permits, subs, inspections, and schedule. Owner-builder risks. Absorbs the DIY-vs-GC and GC-vs-subcontractor angles. Metrics null (DataForSEO unavailable this run)."
+    },
+    {
+      "id": "2026-07-23-how-much-does-a-home-remodel-cost",
+      "status": "queued",
+      "queued_at": "2026-07-23T17:18:06Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how much does a home remodel cost",
+      "intent": "informational",
+      "volume": null,
+      "kd": 23,
+      "fan_out_cluster": [
+        "cost to remodel a house",
+        "how much does a whole home remodel cost",
+        "home remodel cost per square foot",
+        "average cost to renovate a house in Alabama",
+        "kitchen and bathroom remodel cost",
+        "home remodel cost breakdown by project"
+      ],
+      "suggested_slug": "how-much-does-a-home-remodel-cost",
+      "suggested_title": "How much does a home remodel cost in Alabama (2026 price breakdown)",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/home-remodeling/",
+        "/service-areas/madison-al/home-remodeling/"
+      ],
+      "service_tags": [
+        "home-remodeling",
+        "kitchen-remodeling",
+        "bathroom-remodeling"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.nahb.org/",
+        "https://www.remodeling.hw.net/cost-vs-value/"
+      ],
+      "notes": "Lead with a cost table by project type (kitchen, bath, whole-home, room addition) and by square footage, with North Alabama-specific ranges. Pair with the home-remodeling service page. Do not overlap the general-contractor cost post already published; this is about project cost, not contractor fees."
+    },
+    {
+      "id": "2026-07-23-how-long-does-a-home-remodel-take",
+      "status": "queued",
+      "queued_at": "2026-07-23T17:18:06Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how long does a home remodel take",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "how long does a kitchen remodel take",
+        "how long does a bathroom remodel take",
+        "home remodel timeline",
+        "whole house renovation timeline",
+        "how long does a home addition take"
+      ],
+      "suggested_slug": "how-long-does-a-home-remodel-take",
+      "suggested_title": "How long does a home remodel take? A realistic timeline by project",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/home-remodeling/",
+        "/service-areas/madison-al/home-remodeling/"
+      ],
+      "service_tags": [
+        "home-remodeling",
+        "kitchen-remodeling",
+        "bathroom-remodeling"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.nahb.org/"
+      ],
+      "notes": "Break the timeline into phases (design and permits, demo, rough-in, finishes). Give ranges by project type. Note that HOA architectural review in newer Madison and Hampton Cove subdivisions can add lead time."
+    },
+    {
+      "id": "2026-07-23-remodeling-contractor-vs-general-contractor",
+      "status": "queued",
+      "queued_at": "2026-07-23T17:18:06Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "remodeling contractor vs general contractor",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "is a remodeling contractor the same as a general contractor",
+        "difference between a remodeling contractor and a general contractor",
+        "what does a remodeling contractor do",
+        "do I need a general contractor or a remodeler",
+        "design-build vs general contractor"
+      ],
+      "suggested_slug": "remodeling-contractor-vs-general-contractor",
+      "suggested_title": "Remodeling contractor vs general contractor: which one do you need?",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/home-remodeling/",
+        "/service-areas/huntsville-al/home-remodeling/"
+      ],
+      "service_tags": [
+        "home-remodeling",
+        "general-contracting"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.nahb.org/"
+      ],
+      "notes": "Clarify the roles: a remodeler specializes in renovating existing homes; a general contractor manages any construction project. Position Davis as doing both under one roof. Keep distinct from the queued 'do I need a general contractor for a remodel' post by focusing on the role distinction."
+    },
+    {
+      "id": "2026-07-23-how-to-plan-a-home-remodel",
+      "status": "queued",
+      "queued_at": "2026-07-23T17:18:06Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to plan a home remodel",
+      "intent": "informational",
+      "volume": null,
+      "kd": 36,
+      "fan_out_cluster": [
+        "home remodel planning checklist",
+        "how to budget for a home remodel",
+        "steps to plan a home renovation",
+        "how to prepare for a home remodel",
+        "home remodel design process"
+      ],
+      "suggested_slug": "how-to-plan-a-home-remodel",
+      "suggested_title": "How to plan a home remodel: a step-by-step guide for homeowners",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/home-remodeling/",
+        "/service-areas/madison-al/home-remodeling/"
+      ],
+      "service_tags": [
+        "home-remodeling",
+        "kitchen-remodeling",
+        "bathroom-remodeling"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.nahb.org/",
+        "https://www.houzz.com/"
+      ],
+      "notes": "Walk through budgeting, design, permits, contractor selection, and timeline. Frame around a homeowner checklist and tie to Davis's design-build process. Local note: HOA architectural review in newer Madison and Hampton Cove subdivisions."
     }
   ]
 }
