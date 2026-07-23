@@ -14,7 +14,7 @@
   "status": "pending",
   "company_id": "CO-1783527517866",
   "created_at": "2026-07-10T00:00:00+00:00",
-  "updated_at": "2026-07-18T20:19:17.766231+00:00",
+  "updated_at": "2026-07-23T03:18:44.732979+00:00",
   "nap": {
     "name": "The Restoration Group",
     "street": "500 S 31st St",
@@ -65,10 +65,12 @@
     "preview_url": "https://the-restoration-group-preview.pages.dev",
     "preview_pages_project": "the-restoration-group-preview",
     "github_repo": "restorationai/restoration-groups-site",
-    "last_pushed_staging_at": "2026-07-16T17:27:43.482436+00:00"
+    "last_pushed_staging_at": "2026-07-16T17:27:43.482436+00:00",
+    "last_pushed_main_at": "2026-07-23T03:18:44.732943+00:00"
   },
-  "build_status": "content_rendered",
+  "build_status": "pushed_main",
   "license_numbers": [
     "NJ HIC 13VH05488600"
-  ]
+  ],
+  "indexnow_key": "ec0cd1d2ed524f1198aa5ce8b6632e65"
 }
