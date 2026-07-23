@@ -66,9 +66,12 @@ ANTHROPIC_API = "https://api.anthropic.com/v1/messages"
 ANTHROPIC_MODEL = "claude-sonnet-4-6"
 
 MAX_ATTEMPTS = 3          # generation attempts before refusing to save
-WORDS_MIN, WORDS_MAX = 350, 500
+# 300 floor: brand-new clients have thin truth tables — an honest 300-word
+# release beats no release (wire services accept 300+); 350-500 stays the
+# prompt target so data-rich clients still land there.
+WORDS_MIN, WORDS_MAX = 300, 500
 # Soft acceptance band — journalism trims are fine, bloat is not.
-WORDS_HARD_MIN, WORDS_HARD_MAX = 320, 560
+WORDS_HARD_MIN, WORDS_HARD_MAX = 280, 560
 
 
 def die(msg: str, code: int = 1) -> None:
@@ -403,15 +406,22 @@ def draft_one(slug: str, company_id: str, quarter: str, model: str) -> str:
 
 
 def active_slugs() -> dict[str, str]:
-    """slug -> company_id for every active client in company_map.json."""
+    """slug -> company_id for every current client in company_map.json.
+
+    Press releases are brand-data-only (no website dependency), so they run
+    for every client from day one — pending/onboarding included. Only truly
+    departed clients are excluded (2026-07-22: the old status=='active'
+    whitelist silently skipped every pre-launch client)."""
+    DEPARTED = {"archived", "churned", "paused", "cancelled"}
     cmap = json.loads((CLIENTS_DIR / "company_map.json").read_text())
     out = {}
     for slug, company_id in cmap.items():
         client_path = CLIENTS_DIR / f"{slug}.json"
         if not client_path.exists():
             continue
-        if json.loads(client_path.read_text()).get("status") == "active":
-            out[slug] = company_id
+        if str(json.loads(client_path.read_text()).get("status") or "").lower() in DEPARTED:
+            continue
+        out[slug] = company_id
     return out
 
 
