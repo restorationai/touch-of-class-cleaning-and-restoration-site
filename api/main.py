@@ -803,6 +803,29 @@ def _run_lead_audit_job(job_id: str, req: "LeadAuditRequest"):
             "completed_at": datetime.now(timezone.utc).isoformat(),
             "error": str(e)[:500],
         }).eq("id", job_id).execute()
+        # A silently failed lead audit = a hot lead with no report (Chris
+        # Morrow sat unnoticed ~20h, 2026-07-23). Always tell the team.
+        try:
+            sg = os.environ.get("SENDGRID_API_KEY", "")
+            if sg:
+                body = json.dumps({
+                    "personalizations": [{"to": [{"email": "contact@restorationai.io"}]}],
+                    "from": {"email": "contact@restorationai.io"},
+                    "subject": "[Rank AI] Lead audit FAILED: {} ({})".format(
+                        req.name or req.business_name or "unknown", req.email),
+                    "content": [{"type": "text/plain", "value":
+                        "Lead audit job {} failed.\n\nLead: {} <{}> {}\n"
+                        "Website: {}\nBusiness: {}\nError: {}\n\n"
+                        "The lead got NO report — follow up or re-run manually.".format(
+                            job_id, req.name, req.email, req.phone,
+                            req.website or req.domain, req.business_name, str(e)[:300])}]})
+                urllib.request.urlopen(urllib.request.Request(
+                    "https://api.sendgrid.com/v3/mail/send", method="POST",
+                    data=body.encode(),
+                    headers={"Authorization": "Bearer " + sg,
+                             "Content-Type": "application/json"}), timeout=20)
+        except Exception:
+            pass  # notification is best-effort; the job status is the record
 
 
 @app.post("/lead-audit")

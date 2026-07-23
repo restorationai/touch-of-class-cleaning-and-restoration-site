@@ -1398,6 +1398,30 @@ def run_audit(website, name, email, phone, audit_id=None, email_mode="all", prog
     domain = _norm_domain(website)
     if not re.match(r"^[a-z0-9.-]+\.[a-z]{2,}$", domain):
         raise ValueError("invalid website: " + str(website))
+
+    # Leads typo their own domain in the form (ameritibe.com for
+    # ameritribe.com, 2026-07-22) — a dead hostname must not kill the audit.
+    # If the typed domain doesn't resolve but their EMAIL domain does, use it.
+    def _resolves(host):
+        import socket
+        try:
+            socket.getaddrinfo(host, 443)
+            return True
+        except OSError:
+            return False
+
+    _FREE_MAIL = {"gmail.com", "yahoo.com", "aol.com", "hotmail.com",
+                  "outlook.com", "icloud.com", "msn.com", "live.com",
+                  "att.net", "comcast.net", "protonmail.com", "me.com"}
+    if not _resolves(domain) and not _resolves("www." + domain):
+        alt = (email or "").rsplit("@", 1)[-1].strip().lower() if "@" in (email or "") else ""
+        if alt and alt not in _FREE_MAIL and alt != domain and _resolves(alt):
+            log("domain {} does not resolve — using email domain {} instead".format(domain, alt))
+            domain = alt
+        else:
+            raise ValueError(
+                "the submitted website {} does not resolve (likely a typo in "
+                "the form) and no usable email-domain fallback exists".format(domain))
     # franchise/shared-domain support: profile from the submitted PAGE, not
     # the domain root (puroclean.com/eastlasvegas is a business; puroclean.com
     # is a corporation with 400 locations)
