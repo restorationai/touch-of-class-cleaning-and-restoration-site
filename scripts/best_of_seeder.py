@@ -260,6 +260,8 @@ def main() -> int:
         "status": "queued",
         "queued_at": now_iso(),
         "priority": 1,
+        "prioritized": True,   # pop_next_queued's jump-the-line lane — a seeder
+                               # item must be the NEXT post, not queue #26
         "content_type": fmt,
         "combo_key": key,
         "primary_keyword": primary_kw,
