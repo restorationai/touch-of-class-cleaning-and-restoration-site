@@ -1,6 +1,31 @@
 {
   "items": [
     {
+      "id": "2026-07-23-water-damage-restoration-cost-wa",
+      "status": "queued",
+      "queued_at": "2026-07-23T19:19:49Z",
+      "priority": 1,
+      "content_type": "cost_guide",
+      "combo_key": "water-damage-restoration-cost-wa",
+      "primary_keyword": "water damage restoration cost wa",
+      "intent": "commercial",
+      "target_word_count": 1500,
+      "city_anchor": null,
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Federal Way",
+        "state": "WA",
+        "competitors": []
+      },
+      "fan_out_cluster": [
+        "how much does water damage restoration cost in wa",
+        "water damage restoration price washington",
+        "average cost of water damage restoration wa"
+      ],
+      "source": "best-of-seeder"
+    },
+    {
       "id": "2026-07-23-best-water-damage-restoration-in-federal-way-wa",
       "status": "queued",
       "queued_at": "2026-07-23T17:29:34Z",
@@ -803,10 +828,10 @@
     },
     {
       "id": "2026-07-15-how-long-does-trauma-scene-cleanup-take",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-07-15T02:14:14Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-07-23T19:22:33Z",
+      "post_url": "https://narestco.com/blog/how-long-does-trauma-scene-cleanup-take/",
       "primary_keyword": "how long does trauma scene cleanup take",
       "intent": "informational",
       "volume": 10,
