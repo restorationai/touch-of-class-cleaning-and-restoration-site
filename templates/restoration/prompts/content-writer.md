@@ -221,6 +221,34 @@ Critical JSON rules (same as System 1):
 - `faq` count is 4-6 entries.
 - Every string field is required (use empty string `""` rather than null if absent) — EXCEPT `section_image_prompt`, which is optional: include it with a real prompt or leave the field out entirely (never an empty string).
 
+## CASE STUDY MODE (queue_item.content_type == "case_study")
+
+When the queue item carries `content_type: "case_study"` and a `case_study`
+payload (a real, verbatim Google review), you are writing a story page built
+around the customer's OWN words. Overrides the generic structure.
+
+- **THE IRON RULE**: every fact about this specific job comes ONLY from
+  `case_study.review_text`. If the review doesn't say the city, don't name
+  one. If it doesn't give a timeline, don't invent one. Everything else in
+  the post is GENERAL education about how this kind of job works — clearly
+  framed as general process, never as details of this customer's job.
+- **Title / H1**: derived from what the review is actually about, e.g.
+  `Case Study: What a {Service} Call Looks Like When It Goes Right` — never
+  invent specifics the review lacks.
+- **Open** with 2-3 sentences setting up the situation type, then the review
+  itself as a BLOCKQUOTE, quoted verbatim (you may trim with "..." but never
+  alter words), attributed: `— {reviewer_name}, verified Google review`.
+- **Then unpack it**: 3-4 sections that take phrases from the review and
+  explain the craft behind them ("responsive throughout" -> what good
+  communication on a loss actually looks like; "start to finish" -> what the
+  phases are). This is where the general education lives.
+- **Never** fabricate the customer's address, damage extent, cost, timeline,
+  or photos. Never expand their words into invented dialogue or scenes.
+- Close with a CTA and 2-3 FAQ pairs about this service type generally.
+- ~1,000 words. No competitor names. The hero image is illustrative editorial
+  imagery like every blog post — the image_prompt must NOT attempt to depict
+  the reviewer's specific property or stage fake "job photos".
+
 ## COST GUIDE MODE (queue_item.content_type == "cost_guide")
 
 When the queue item carries `content_type: "cost_guide"`, you are writing the

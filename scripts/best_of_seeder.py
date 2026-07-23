@@ -11,6 +11,9 @@ Santino):
   cost_guide          'How Much Does {service} Cost in {ST}?' — the canonical
                       state-level cost answer w/ scenario table (the single
                       most AI-cited format; one per service, top 4 services)
+  case_study          real-review-sourced story ("Case Study: ...") built
+                      around a verbatim 4-5 star Google review — job facts
+                      come ONLY from the customer's own words, never invented
 
 Why: AI answer engines ("what's the best water damage company in Davie?")
 cite ranked first-party comparison posts because almost nobody writes them
@@ -146,6 +149,57 @@ def fetch_competitors(service: str, city: str, state: str,
     return out
 
 
+def build_case_study_item(slug: str, items: list, done_keys: set) -> dict | None:
+    """Pick the best unused story-worthy Google review as a case-study seed.
+
+    Real reviews only (marketing_gbp_reviews, synced from the live GBP).
+    Story-worthy = 4-5 stars, substantial text (>=140 chars). The writer's
+    CASE STUDY MODE may only use job facts present in the review text itself.
+    """
+    import os
+    import requests as rq
+    cmap = json.loads((CLIENTS_DIR / "company_map.json").read_text())
+    cid = cmap.get(slug)
+    sb_url, sb_key = os.environ.get("SUPABASE_URL"), os.environ.get("SUPABASE_SERVICE_ROLE_KEY")
+    if not (cid and sb_url and sb_key):
+        return None
+    try:
+        rows = rq.get(
+            f"{sb_url}/rest/v1/marketing_gbp_reviews?company_id=eq.{cid}"
+            "&select=review_id,reviewer_name,star_rating,comment,create_time"
+            "&order=create_time.desc&limit=40",
+            headers={"apikey": sb_key, "Authorization": "Bearer " + sb_key},
+            timeout=30).json()
+    except Exception:
+        return None
+    for r in rows if isinstance(rows, list) else []:
+        stars = str(r.get("star_rating") or "")
+        comment = (r.get("comment") or "").strip()
+        if stars not in ("4", "5", "FOUR", "FIVE") or len(comment) < 140:
+            continue
+        key = "case-study-" + str(r.get("review_id") or "")[:16]
+        if key in done_keys:
+            continue
+        first_name = (r.get("reviewer_name") or "a customer").split()[0]
+        return {
+            "id": f"{datetime.now(timezone.utc).strftime('%Y-%m-%d')}-{key}",
+            "status": "queued", "queued_at": now_iso(),
+            "priority": 1, "prioritized": True,
+            "content_type": "case_study", "combo_key": key,
+            "primary_keyword": "",
+            "intent": "commercial", "target_word_count": 1000,
+            "case_study": {
+                "review_id": r.get("review_id"),
+                "reviewer_name": first_name,
+                "star_rating": 5 if stars in ("5", "FIVE") else 4,
+                "review_text": comment,
+                "review_date": (r.get("create_time") or "")[:10],
+            },
+            "source": "best-of-seeder",
+        }
+    return None
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--slug", required=True)
@@ -174,9 +228,23 @@ def main() -> int:
         return 0
 
     done = existing_combo_keys(slug, items)
-    # rotate three formats — each works its own matrix via distinct combo keys
+    # rotate four formats — each works its own matrix via distinct combo keys
     n_seeded = sum(1 for it in items if it.get("source") == "best-of-seeder")
-    fmt = ("best_of_comparison", "cost_guide", "who_to_call")[n_seeded % 3]
+    fmt = ("best_of_comparison", "cost_guide", "who_to_call", "case_study")[n_seeded % 4]
+
+    if fmt == "case_study":
+        item = build_case_study_item(slug, items, done_keys=existing_combo_keys(slug, items))
+        if item is None:
+            print(f"{slug}: no unused story-worthy review — falling back to best-of")
+            fmt = "best_of_comparison"
+        else:
+            if args.dry_run:
+                print("  [dry-run] would queue:\n" + json.dumps(item, indent=2)[:800])
+                return 0
+            items.insert(0, item)
+            save_queue(slug, raw)
+            print(f"  queued {item['id']} (case study from review by {item['case_study']['reviewer_name']})")
+            return 0
 
     if fmt == "cost_guide":
         # state-level, one per service (top 4) — no city multiplication
