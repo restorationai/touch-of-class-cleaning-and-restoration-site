@@ -137,6 +137,7 @@ Usage examples
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import os
 import re
@@ -955,10 +956,10 @@ Rules:
   question, ask it and stop — never append "just reply here" (replying is
   obvious). ONLY when the ask involves files, photos, or lists that don't
   travel well by text, mention email naturally: "you can email it to
-  setup@restorationai.io." When the ask is PHOTOS specifically, mention the no-login photo
-  link instead of email if the company has one (it will be provided in
-  context as photo_upload_link): "easiest way: {photo_upload_link} — snap
-  and upload right from your phone."
+  setup@restorationai.io." When the ask involves PHOTOS or FILES, mention the client's
+  hub link instead of email if the company has one (provided in context as
+  photo_upload_link): "easiest way: {photo_upload_link} — tap Upload Job
+  Photos and add them right from your phone (camera or camera roll)."
 - SMS: total body within the character budget given — the budget includes the
   intro and the closing self-serve line, and the closing line must NEVER be
   cut. If space is tight, trim item detail, not the closing. No subject, no
@@ -1070,18 +1071,16 @@ _COMPANY_SLUGS: dict | None = None
 
 
 def photo_upload_link(company: dict) -> str | None:
-    """restorationai.io/gbpphotos/{slug} for clients present in
-    clients/company_map.json (slug -> company id)."""
-    global _COMPANY_SLUGS
-    if _COMPANY_SLUGS is None:
+    """The client's hub link (integration_settings.hub_url, written by
+    bootstrap). One link for everything — photos, files, reviews. Never hand
+    out the raw /gbpphotos/ URL in messages (2026-07-22 decision)."""
+    settings = company.get("integration_settings") or {}
+    if isinstance(settings, str):
         try:
-            cmap = json.loads(
-                (ROOT / "clients" / "company_map.json").read_text())
-            _COMPANY_SLUGS = {cid: slug for slug, cid in cmap.items()}
-        except (OSError, ValueError):
-            _COMPANY_SLUGS = {}
-    slug = _COMPANY_SLUGS.get(company.get("id", ""))
-    return f"https://restorationai.io/gbpphotos/{slug}" if slug else None
+            settings = json.loads(settings)
+        except ValueError:
+            settings = {}
+    return settings.get("hub_url") or None
 
 
 GHL_LOCATION_TZ = "America/Los_Angeles"  # GHL returns naive local times
@@ -1547,7 +1546,10 @@ def fetch_inbound_since(contact_id: str, since: datetime) -> list[dict]:
             if msg.get("messageType") not in ("TYPE_SMS", "TYPE_EMAIL"):
                 continue
             body = (msg.get("body") or "").strip()
-            if not body:
+            attachments = msg.get("attachments") or []
+            # A photo-only MMS has an empty body — those are real client
+            # messages too (the Jeff Sibley case, 2026-07-22).
+            if not body and not attachments:
                 continue
             added = msg.get("dateAdded")
             try:
@@ -1558,9 +1560,80 @@ def fetch_inbound_since(contact_id: str, since: datetime) -> list[dict]:
                 continue
             messages.append({"id": msg["id"], "body": body, "ts": ts,
                              "conversation_id": conv["id"],
+                             "attachments": attachments,
                              "channel": "sms" if msg["messageType"] == "TYPE_SMS"
                              else "email"})
     return sorted(messages, key=lambda m: m["ts"])
+
+
+def ingest_inbound_media(company: dict, msg: dict, dry_run: bool) -> dict:
+    """File a client's texted photos/videos where the hub upload page puts
+    them, so nothing a client sends is ever lost:
+      photos       -> branding/{cid}/job-photos/        (weekly GBP poster feed)
+      screenshots  -> branding/{cid}/job-photos/inbox/  (very tall images are
+                      usually phone screenshots, not job photos — quarantined
+                      so they never get posted to Google)
+      videos       -> branding/{cid}/job-videos/        (the GBP poster only
+                      handles PHOTO media; keep its folder clean)
+    Images are re-encoded (EXIF/GPS stripped) like the upload page does."""
+    out = {"photos": 0, "screenshots": 0, "videos": 0, "failed": 0}
+    cid = company["id"]
+    for url in msg.get("attachments") or []:
+        try:
+            r = requests.get(url, timeout=60)
+            r.raise_for_status()
+            raw = r.content
+            if not raw or len(raw) > 25 * 1024 * 1024:
+                out["failed"] += 1
+                continue
+            ctype = (r.headers.get("Content-Type") or "").lower()
+            ext = url.rsplit(".", 1)[-1].lower() if "." in url.rsplit("/", 1)[-1] else ""
+            stamp = "{}-{}".format(int(msg["ts"].timestamp() * 1000),
+                                   hashlib.sha1(url.encode()).hexdigest()[:8])
+            sb_url = os.environ["SUPABASE_URL"].rstrip("/")
+            sb_key = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
+            if ctype.startswith("video/") or ext in ("mp4", "mpg4", "mov", "m4v"):
+                path = f"{cid}/job-videos/sms-{stamp}.mp4"
+                body, up_type, kind = raw, (ctype or "video/mp4"), "videos"
+            elif ctype.startswith("image/") or ext in ("jpg", "jpeg", "png", "webp", "heic"):
+                from io import BytesIO
+                from PIL import Image
+                img = Image.open(BytesIO(raw)).convert("RGB")
+                w, h = img.size
+                if max(w, h) > 2000:
+                    s = 2000 / max(w, h)
+                    img = img.resize((round(w * s), round(h * s)))
+                buf = BytesIO()
+                img.save(buf, "JPEG", quality=85)   # re-encode = EXIF/GPS gone
+                body, up_type = buf.getvalue(), "image/jpeg"
+                if h and w / h < 0.5:               # screenshot-shaped
+                    path, kind = f"{cid}/job-photos/inbox/sms-{stamp}.jpg", "screenshots"
+                else:
+                    path, kind = f"{cid}/job-photos/sms-{stamp}.jpg", "photos"
+            else:
+                out["failed"] += 1
+                continue
+            if dry_run:
+                print(f"    [dry-run] would store {kind[:-1]} -> {path}")
+            else:
+                up = requests.post(
+                    f"{sb_url}/storage/v1/object/branding/{path}", data=body,
+                    headers={"apikey": sb_key, "Authorization": f"Bearer {sb_key}",
+                             "Content-Type": up_type, "x-upsert": "false"},
+                    timeout=120)
+                if up.status_code not in (200, 201):
+                    # already stored on a previous partial run is fine
+                    if up.status_code != 409:
+                        print(f"    [media] upload {up.status_code}: "
+                              f"{up.text[:120]}", file=sys.stderr)
+                        out["failed"] += 1
+                        continue
+            out[kind] += 1
+        except Exception as e:
+            print(f"    [media] ingest failed for {url[-40:]}: {e}",
+                  file=sys.stderr)
+            out["failed"] += 1
+    return out
 
 
 def apply_answer(item_id: str, value: str, dry_run: bool) -> None:
@@ -1916,6 +1989,28 @@ def cmd_inbound(args) -> int:
             handled_any = True
             print(f"\n  {company['name']}: inbound {msg['channel']} "
                   f"{msg['ts'].strftime('%m-%d %H:%M')}: {msg['body'][:90]!r}")
+            if msg.get("attachments"):
+                media = ingest_inbound_media(company, msg, dry_run)
+                print(f"    [media] photos={media['photos']} "
+                      f"videos={media['videos']} "
+                      f"screenshots={media['screenshots']} "
+                      f"failed={media['failed']}")
+                if not msg["body"]:
+                    if media["photos"] or media["videos"]:
+                        # Give the normal reply flow something to acknowledge
+                        # (marks photo intake items answered + thanks them).
+                        n = media["photos"] + media["videos"]
+                        msg["body"] = (
+                            f"(the client texted {n} photo(s)/video(s) with no "
+                            "message — they are already saved on our side; "
+                            "treat this as them sending the photos we asked "
+                            "for and thank them briefly)")
+                    else:
+                        append_escalation(
+                            company, msg,
+                            "client texted a screenshot/attachment we could "
+                            "not auto-file — check the conversation", dry_run)
+                        continue
             contact_for_flow = contact_payload or {"id": contact_id}
             if handle_reschedule_reply(company, contact_for_flow, msg,
                                        state, dry_run):

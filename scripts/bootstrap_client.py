@@ -146,7 +146,7 @@ def main():
     std = [
         ("Customer list for the review campaign", "Any format works: Excel, CSV, or a contact export", 10),
         ("Team photo for review outreach + Google profile",
-         "Upload at restorationai.io/gbpphotos/" + slug + " (no login needed)", 20),
+         "Upload at " + hub + " (no login needed)", 20),
         ("Brand guide or brand preferences (fonts, colors, hex codes)",
          "Franchise HQ usually provides this as a PDF; independents can just tell us preferences", 30),
         ("Finished job photos for the Google Business Profile",
@@ -192,7 +192,7 @@ def main():
         print("no place_id on the Google integration yet — GBP sync skipped")
 
     print("\nBootstrap complete for {} ({}).".format(co["name"], slug))
-    print("Upload link: https://restorationai.io/gbpphotos/" + slug)
+    print("Hub link (use this in all client messages): " + hub)
     print("Remember to commit clients/ changes.")
 
 
