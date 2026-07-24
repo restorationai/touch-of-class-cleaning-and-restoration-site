@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-07-23-water-damage-restoration-cost-wa",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-07-23T19:19:49Z",
       "priority": 1,
       "content_type": "cost_guide",
@@ -26,7 +26,8 @@
       "source": "best-of-seeder",
       "prioritized": true,
       "written_at": "2026-07-23T19:27:30Z",
-      "post_url": "https://narestco.com/blog/water-damage-restoration-cost-wa/"
+      "post_url": "https://narestco.com/blog/water-damage-restoration-cost-wa/",
+      "published_verified_at": "2026-07-23T19:29:01Z"
     },
     {
       "id": "2026-07-23-best-water-damage-restoration-in-federal-way-wa",
