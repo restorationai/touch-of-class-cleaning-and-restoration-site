@@ -154,7 +154,7 @@ jobs:
               if cid:
                   row = {"company_id": cid, "rank_ai_slug": slug,
                          "action_key": "site-preview-feedback-" + slug,
-                         "action_type": "client_input", "status": "pending",
+                         "action_type": "client_input", "status": "planned",
                          "priority": 1, "impact": "high", "effort": "low",
                          "title": "Take a look at your new website preview and tell us your thoughts",
                          "target": preview,
