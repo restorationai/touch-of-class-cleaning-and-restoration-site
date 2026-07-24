@@ -492,9 +492,42 @@ def ensure_google_connect_asks(dry_run: bool, cid_to_slug: dict) -> list[str]:
             if existing:
                 continue
             co = _sb("GET", "/rest/v1/companies?id=eq.{}"
-                     "&select=name,city,state,plan".format(cid))
+                     "&select=name,city,state,plan,integration_settings".format(cid))
             if not co or (co[0].get("plan") or "") != "Rank AI":
                 continue
+            # kickoff-aware: a client with their kickoff call still ahead of
+            # them gets set up ON the call — no automated connect nudges yet
+            # (RestorationXpress case, Santino 2026-07-25)
+            try:
+                ints = co[0].get("integration_settings") or {}
+                if isinstance(ints, str):
+                    ints = json.loads(ints)
+                gcid = ints.get("ghl_contact_id")
+                if gcid and os.environ.get("GHL_API_KEY"):
+                    import urllib.request as _ur
+                    rq = _ur.Request(
+                        "https://services.leadconnectorhq.com/contacts/{}/appointments".format(gcid),
+                        headers={"Authorization": "Bearer " + os.environ["GHL_API_KEY"],
+                                 "Version": "2021-07-28",
+                                 "User-Agent": "Mozilla/5.0 (rank-ai ops)"})
+                    evs = json.loads(_ur.urlopen(rq, timeout=20).read()).get("events") or []
+                    from datetime import datetime as _dt
+                    now_local = _dt.now()
+                    def _future(ev):
+                        try:
+                            t = _dt.strptime(ev.get("startTime", ""), "%Y-%m-%d %H:%M:%S")
+                            return t > now_local
+                        except ValueError:
+                            return False
+                    upcoming_kickoff = any(
+                        "kickoff" in (ev.get("title") or "").lower() and _future(ev)
+                        and (ev.get("appointmentStatus") or "").lower() not in ("cancelled", "noshow")
+                        for ev in evs)
+                    if upcoming_kickoff:
+                        lines.append(f"google-connect {slug}: kickoff call upcoming — deferring")
+                        continue
+            except Exception:
+                pass  # gate is best-effort; a failed lookup never blocks the ask
             name = (co[0].get("name") or "").strip()
             if not listing_exists(name, co[0].get("city") or "",
                                   co[0].get("state") or ""):

@@ -968,6 +968,28 @@ def kickoff_prep_endpoint(req: KickoffPrepRequest):
                     "sends once it lands. Dedupe tag: kickoff-prep-sent."}
 
 
+@app.post("/kickoff-recap")
+def kickoff_recap_endpoint(req: KickoffPrepRequest):
+    """Fired by the GHL workflow when a KICKOFF appointment is marked
+    completed. Polls Fathom for the recording and sends ONE recap of what was
+    agreed (dedupe tag kickoff-recap-sent). GHL sometimes auto-completes
+    appointments that never happened — if no recording matches, nothing is
+    sent (the no-show rule, Santino 2026-07-25)."""
+    expected = (os.environ.get("KICKOFF_PREP_SECRET")
+                or os.environ.get("LEAD_AUDIT_FUNNEL_SECRET", ""))
+    if not (expected and req.secret == expected):
+        raise HTTPException(status_code=403, detail="bad secret")
+    if not req.contact_id or len(req.contact_id) < 8:
+        raise HTTPException(status_code=400, detail="contact_id required")
+    import kickoff_recap  # scripts/ is on sys.path (see header)
+    threading.Thread(target=kickoff_recap.run, args=(req.contact_id,),
+                     daemon=True).start()
+    return {"status": "queued",
+            "note": "Polling Fathom for the kickoff recording; the recap sends "
+                    "once it lands. No recording = no message (no-show rule). "
+                    "Dedupe tag: kickoff-recap-sent."}
+
+
 @app.get("/lead-audit/{audit_id}")
 def get_lead_audit(audit_id: str):
     """Public: audit status. Returns only status + report URL (no contact info)."""
