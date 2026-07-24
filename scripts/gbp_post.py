@@ -119,7 +119,15 @@ def next_job_photo(slug, dry_run=False):
         used = _list_photos(cid, "posted/")
         if not used:
             return None
-        _, name = used[0]  # oldest created_at == least recently posted
+        # LRU order comes from the r{epoch}_ prefix stamped at each recycle —
+        # NOT from created_at: Supabase's move/rename preserves created_at, so
+        # sorting by it re-picks the same oldest file forever (NaRestCo posted
+        # one photo for a month). No prefix = never recycled = posts first.
+        def _last_posted(item):
+            m = re.match(r"^r(\d+)_", item[1])
+            return (int(m.group(1)) if m else 0, item[0])
+        used.sort(key=_last_posted)
+        _, name = used[0]
         base = re.sub(r"^r\d+_", "", name)
         src = f"{cid}/job-photos/posted/{name}"
         dst = f"{cid}/job-photos/posted/r{int(time.time())}_{base}"

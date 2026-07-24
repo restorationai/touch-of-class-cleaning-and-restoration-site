@@ -362,9 +362,155 @@ def sync_reviews(slug: str, depth: int = 50, timeout_s: int = 240) -> str:
     return f"{slug}: {len(rows)} reviews synced (latest {latest[:10] if latest else '?'})"
 
 
+def sync_reviews_v4(slug: str, token: str | None = None, loc: dict | None = None) -> str:
+    """Authoritative review sync straight from the GBP v4 API for connected
+    clients. The DFS task sync above stays as the unconnected-client fallback,
+    but it was never scheduled (the app showed reviews frozen at June 19) and
+    its md5 ids can't be matched to v4 reviewIds — so this REPLACES the
+    company's rows wholesale instead of upserting alongside them."""
+    import datetime as dt
+    cid = company_id_for(slug)
+    if not cid:
+        return f"{slug}: no company_id"
+    brand = json.loads((ROOT / "clients" / slug / "plan-input.json").read_text()).get("brand", {})
+    token = token or (get_access_token(cid) if cid else None)
+    if not token:
+        return f"{slug}: no token"
+    loc = loc or find_location(token, brand.get("place_id", ""))
+    if not loc:
+        return f"{slug}: no GBP location"
+    acct = _g(f"{ACCT_API}/accounts", token)["accounts"][0]["name"]
+    star = {"ONE": 1, "TWO": 2, "THREE": 3, "FOUR": 4, "FIVE": 5}
+    now = dt.datetime.now(dt.timezone.utc).isoformat()
+    rows, page, total, avg = [], None, None, None
+    while True:
+        d = _g(f"https://mybusiness.googleapis.com/v4/{acct}/{loc['name']}/reviews"
+               f"?pageSize=50" + (f"&pageToken={page}" if page else ""), token)
+        total = d.get("totalReviewCount", total)
+        avg = d.get("averageRating", avg)
+        for rv in d.get("reviews", []):
+            reply = rv.get("reviewReply") or {}
+            rows.append({
+                "company_id": cid, "review_id": rv["reviewId"],
+                "reviewer_name": (rv.get("reviewer") or {}).get("displayName"),
+                "star_rating": star.get(rv.get("starRating", ""), None),
+                "comment": rv.get("comment"), "create_time": rv.get("createTime"),
+                "reply_comment": reply.get("comment") or None,
+                "reply_time": reply.get("updateTime") or None,
+                "source": "gbp-v4", "synced_at": now})
+        page = d.get("nextPageToken")
+        if not page or len(rows) >= 500:
+            break
+    if not rows:
+        return f"{slug}: 0 reviews on GBP"
+    hdrs = {"apikey": SB_KEY, "Authorization": f"Bearer {SB_KEY}"}
+    requests.delete(f"{SB_URL}/rest/v1/marketing_gbp_reviews?company_id=eq.{cid}",
+                    headers=hdrs, timeout=30)
+    _sb_upsert("marketing_gbp_reviews", rows, on_conflict="company_id,review_id")
+    latest = max((r.get("create_time") or "" for r in rows), default="") or None
+    patch = {"last_review_at": latest}
+    if total is not None:
+        patch["review_count"] = total
+    if avg is not None:
+        patch["rating"] = round(float(avg), 1)
+    requests.patch(f"{SB_URL}/rest/v1/marketing_gbp_profiles?company_id=eq.{cid}",
+                   headers={**hdrs, "Content-Type": "application/json",
+                            "Prefer": "return=minimal"},
+                   data=json.dumps(patch), timeout=30)
+    return (f"{slug}: {len(rows)} reviews (v4), profile {avg}/{total}, "
+            f"latest {(latest or '?')[:10]}")
+
+
+def import_gbp_media(slug: str, cap: int = 40) -> str:
+    """Import the client's existing GBP photo library into
+    branding/{cid}/job-photos/posted/ as gbp-{mediaKey}.jpg. Two consumers:
+    the app's Photos tab (lists exactly that folder) and gbp_post's LRU
+    rotation (recycles posted/ when no fresh crew uploads exist) — fixes
+    NaRestCo re-posting its single July 1 crew photo on every Google post.
+    Lands in posted/ (NOT the root) because gbp_photos.py drains the root UP
+    to the GBP — importing to the root would re-upload the client's own
+    photos back to their profile as duplicates. Skips PROFILE/COVER/LOGO
+    shots and anything we ourselves published (supabase sourceUrl)."""
+    import urllib.request as _rq
+    cid = company_id_for(slug)
+    brand = json.loads((ROOT / "clients" / slug / "plan-input.json").read_text()).get("brand", {})
+    token = get_access_token(cid) if cid else None
+    if not token:
+        return f"{slug}: no token"
+    loc = find_location(token, brand.get("place_id", ""))
+    if not loc:
+        return f"{slug}: no GBP location"
+    acct = _g(f"{ACCT_API}/accounts", token)["accounts"][0]["name"]
+    hdrs = {"apikey": SB_KEY, "Authorization": f"Bearer {SB_KEY}"}
+
+    def _names(sub):
+        r = requests.post(f"{SB_URL}/storage/v1/object/list/branding",
+                          headers={**hdrs, "Content-Type": "application/json"},
+                          json={"prefix": f"{cid}/job-photos/{sub}", "limit": 1000},
+                          timeout=30)
+        return [f["name"] for f in (r.json() or [])
+                if isinstance(f, dict) and f.get("id")]
+
+    # rotation renames recycled files to r{ts}_{base} — compare stripped basenames
+    have = {re.sub(r"^r\d+_", "", n) for n in _names("") + _names("posted/")}
+    imported, scanned, page = 0, 0, None
+    while imported < cap:
+        d = _g(f"https://mybusiness.googleapis.com/v4/{acct}/{loc['name']}/media"
+               + (f"?pageToken={page}" if page else ""), token)
+        for m in d.get("mediaItems", []):
+            scanned += 1
+            if m.get("mediaFormat") != "PHOTO":
+                continue
+            cat = (m.get("locationAssociation") or {}).get("category", "")
+            if cat in ("PROFILE", "COVER", "LOGO"):
+                continue
+            if "supabase" in (m.get("sourceUrl") or ""):
+                continue
+            fname = "gbp-" + m["name"].split("/")[-1][:48] + ".jpg"
+            if fname in have:
+                continue
+            url = m.get("googleUrl") or m.get("sourceUrl")
+            if not url:
+                continue
+            if "googleusercontent.com" in url:
+                base, sep, tail = url.rpartition("=")
+                url = (base if sep and re.match(r"^[swh]\d+", tail) else url) + PHOTOS_MAX_DIM
+            try:
+                data = _rq.urlopen(url, timeout=60).read()
+                up = requests.post(
+                    f"{SB_URL}/storage/v1/object/branding/{cid}/job-photos/posted/{fname}",
+                    headers={**hdrs, "Content-Type": "image/jpeg"}, data=data, timeout=60)
+                if up.status_code in (200, 201):
+                    imported += 1
+                    have.add(fname)
+            except Exception as e:
+                print(f"   ! {fname}: {str(e)[:80]}")
+            if imported >= cap:
+                break
+        page = d.get("nextPageToken")
+        if not page:
+            break
+    return f"{slug}: {imported} GBP photo(s) imported into rotation ({scanned} scanned)"
+
+
 def cmd_reviews(args) -> int:
     for slug in _clients(args):
-        print("  " + sync_reviews(slug))
+        try:
+            out = sync_reviews_v4(slug)
+        except Exception as e:
+            out = f"{slug}: v4 failed ({str(e)[:100]})"
+        if "no token" in out or "v4 failed" in out:
+            out += " -> DFS fallback: " + sync_reviews(slug)
+        print("  " + out)
+    return 0
+
+
+def cmd_media_import(args) -> int:
+    for slug in _clients(args):
+        try:
+            print("  " + import_gbp_media(slug))
+        except Exception as e:
+            print(f"  {slug}: ERROR ({str(e)[:120]})")
     return 0
 
 
@@ -403,8 +549,17 @@ def sync(slug: str) -> str:
     daily = get_insights(token, loc["name"].split("/")[-1])
     rows = [{"company_id": cid, "date": d, **vals} for d, vals in daily.items()]
     _sb_upsert("marketing_gbp_daily", rows, on_conflict="company_id,date")
+    # Best-effort riders on the scheduled sync: fresh reviews (v4 overrides the
+    # DFS aggregate written above) + any new GBP photos into the post rotation.
+    extras = []
+    for fn in (lambda: sync_reviews_v4(slug, token=token, loc=loc),
+               lambda: import_gbp_media(slug)):
+        try:
+            extras.append(fn())
+        except Exception as e:  # riders never fail the profile sync
+            extras.append(f"rider error: {str(e)[:100]}")
     return (f"{slug}: profile synced (rating {agg.get('rating')}/{agg.get('review_count')}) + "
-            f"{len(rows)} days of insights")
+            f"{len(rows)} days of insights\n    " + "\n    ".join(extras))
 
 
 def cmd_sync(args) -> int:
@@ -922,7 +1077,7 @@ def main() -> int:
         return 1
     ap = argparse.ArgumentParser(description="Google Business Profile module")
     sub = ap.add_subparsers(dest="cmd", required=True)
-    for name in ("read", "reconcile", "sync", "reviews", "photos"):
+    for name in ("read", "reconcile", "sync", "reviews", "photos", "media-import"):
         p = sub.add_parser(name)
         g = p.add_mutually_exclusive_group(required=True)
         g.add_argument("--slug")
@@ -942,7 +1097,8 @@ def main() -> int:
     go.add_argument("--all", action="store_true")
     args = ap.parse_args()
     return {"read": cmd_read, "reconcile": cmd_reconcile, "sync": cmd_sync,
-            "reviews": cmd_reviews, "photos": cmd_photos, "add-services": cmd_add_services,
+            "reviews": cmd_reviews, "photos": cmd_photos, "media-import": cmd_media_import,
+            "add-services": cmd_add_services,
             "create-pages": cmd_create_pages, "optimize": cmd_optimize}[args.cmd](args)
 
 
