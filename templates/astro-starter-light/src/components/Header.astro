@@ -21,10 +21,10 @@ const is247 = /24\s*[\/x-]?\s*7|24 ?hours/i.test(String(brand.hours || ""));
     </nav>
 
     <div class="flex items-center gap-2 flex-shrink-0">
-      <a href={`tel:${brand.phoneRaw}`} class="btn-primary text-xs px-3 sm:px-4 py-2 md:py-3.5 shadow-primary-900/40 text-center leading-tight">
-        <span class="hidden sm:block tracking-wider whitespace-nowrap">{is247 ? `24/7 EMERGENCY: ${brand.phone}` : `CALL TODAY: ${brand.phone}`}</span>
+      <a href={`tel:${brand.phoneRaw}`} class="btn-primary text-sm md:text-base px-4 sm:px-6 py-3 md:py-4 shadow-primary-900/40 text-center leading-tight font-black">
+        <span class="hidden sm:block tracking-wide whitespace-nowrap">Call Us Now <span aria-hidden="true">•</span> {brand.phone}</span>
         <span class="sm:hidden flex flex-col items-center gap-0.5">
-          <span class="text-[10px] font-bold tracking-[0.15em] opacity-80 uppercase">Call Now</span>
+          <span class="text-[11px] font-black tracking-[0.15em] opacity-90 uppercase">Call Us Now</span>
           <span class="font-black tracking-wide whitespace-nowrap">{brand.phone}</span>
         </span>
       </a>
