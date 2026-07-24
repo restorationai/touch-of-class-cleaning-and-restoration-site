@@ -76,6 +76,9 @@ Target: ~{target_word_count} words.
 
 # FAQ — write {faq_count} pairs
 
+One FAQ is REQUIRED on every service page: an insurance question in the customer's own words ("Does homeowners insurance cover {service.display_name|lower}?" or "Do you work with my insurance company?"), answered in the direct-answer shape: first sentence answers plainly, and the answer states that {brand.display_name} works with all insurance carriers and handles the claim documentation. This is one of the most-asked questions on ChatGPT and AI search — the FAQ schema is what gets quoted.
+
+
 All FAQs must be SPECIFIC TO {service.display_name}. See the GOOD/BAD examples above. Mix technical depth (process, equipment, timeline) with practical concerns (insurance documentation, what to do while waiting) — but EVERY question must clearly belong on a {service.display_name} page, not just any service page.
 
 # Output

@@ -165,6 +165,27 @@ def run_checks() -> list[tuple[str, bool, str]]:
     except Exception as e:
         checks.append(("concierge state", False, str(e)[:60]))
 
+    # 8b. Pages deploys: latest deployment per active client's production
+    # project — a failed build means the live site is silently STALE (the
+    # trust-pages/ReviewsSection incident, 2026-07-25)
+    cf_tok = os.environ.get("CLOUDFLARE_PAGES_API_TOKEN", "")
+    cf_acct = os.environ.get("CLOUDFLARE_ACCOUNT_ID", "")
+    if cf_tok and cf_acct:
+        for c in active:
+            try:
+                d = requests.get(
+                    "https://api.cloudflare.com/client/v4/accounts/{}/pages/projects/rankai-{}/deployments?per_page=1".format(cf_acct, c["slug"]),
+                    headers={"Authorization": "Bearer " + cf_tok}, timeout=20).json()
+                dep = (d.get("result") or [{}])[0]
+                st = (dep.get("latest_stage") or {})
+                ok = not (st.get("status") == "failure")
+                checks.append(("deploy {}".format(c["slug"]), ok,
+                               "{}:{}".format(st.get("name"), st.get("status"))))
+            except Exception as e:
+                checks.append(("deploy {}".format(c["slug"]), False, str(e)[:50]))
+    else:
+        checks.append(("deploy checks", True, "skipped (no CF env)"))
+
     # 8. failed jobs last 24h
     try:
         rows = sb(f"/rest/v1/marketing_jobs?status=eq.failed&queued_at=gte.{iso_z(NOW - timedelta(days=1))}&select=id,type,error")

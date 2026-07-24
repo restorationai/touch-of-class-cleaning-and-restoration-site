@@ -50,6 +50,7 @@ jobs:
         env:
           SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          CONNECT_LINK_SIGNING_SECRET: ${{ secrets.CONNECT_LINK_SIGNING_SECRET }}
           SENDGRID_API_KEY:          ${{ secrets.SENDGRID_API_KEY }}
         run: |
           python3 scripts/client_ops_sync.py \

@@ -422,6 +422,106 @@ def ensure_bootstrapped(dry_run: bool, do_send: bool,
 
 
 # ---------------------------------------------------------------- main
+
+
+def ensure_google_connect_asks(dry_run: bool, cid_to_slug: dict) -> list[str]:
+    """Clients with a real Google Business Profile but NO Google connection in
+    the app get a signed connect link seeded as a Monica ask (delivered to the
+    PREFERRED contact — the office admin when one is set; Santino 2026-07-24,
+    the All Pro case). Idempotent via action_key google-connect-{slug}."""
+    import base64
+    import hashlib
+    import hmac as _hmac
+    import time
+    import uuid as _uuid
+
+    secret = os.environ.get("CONNECT_LINK_SIGNING_SECRET", "")
+    if not secret:
+        return ["google-connect: CONNECT_LINK_SIGNING_SECRET unset — skipped"]
+
+    def mint(cid):
+        payload = {"cid": cid, "p": "google", "jti": str(_uuid.uuid4()),
+                   "exp": int(time.time()) + 30 * 86400,
+                   "o": "https://app.restorationai.io"}
+        pb = base64.urlsafe_b64encode(
+            json.dumps(payload, separators=(",", ":")).encode()).rstrip(b"=").decode()
+        sig = base64.urlsafe_b64encode(_hmac.new(
+            secret.encode(), pb.encode(), hashlib.sha256).digest()).rstrip(b"=").decode()
+        return ("https://nyscciinkhlutvqkgyvq.supabase.co/functions/v1/"
+                "connect-link-start?t=" + pb + "." + sig)
+
+    def listing_exists(name, city, state):
+        """One DFS maps lookup — only nudge when a listing actually exists."""
+        try:
+            import base64 as _b64
+
+            import requests as _rq
+            from geogrid_scan import load_dfs_creds
+            u, pw = load_dfs_creds()
+            r = _rq.post(
+                "https://api.dataforseo.com/v3/serp/google/maps/live/advanced",
+                headers={"Authorization": "Basic " + _b64.b64encode(
+                    f"{u}:{pw}".encode()).decode(),
+                    "Content-Type": "application/json"},
+                json=[{"keyword": f"{name} {city} {state}",
+                       "location_name": "United States", "language_code": "en",
+                       "depth": 5}], timeout=90).json()
+            items = ((r["tasks"][0].get("result") or [{}])[0] or {}).get("items") or []
+            toks = {t for t in name.lower().split() if len(t) > 3}
+            return any(toks & {t for t in (i.get("title") or "").lower().split()
+                               if len(t) > 3} for i in items if i)
+        except Exception:
+            return False  # fail closed: no lookup, no nudge
+
+    lines = []
+    for cid, slug in cid_to_slug.items():
+        try:
+            gi = _sb("GET", "/rest/v1/user_integrations?client_id=eq.{}"
+                     "&provider=eq.google&select=id".format(cid))
+            if gi:
+                # connected — auto-resolve any outstanding connect ask
+                if not dry_run:
+                    _sb("PATCH",
+                        "/rest/v1/marketing_action_plan?company_id=eq.{}"
+                        "&action_key=eq.google-connect-{}&status=eq.planned".format(cid, slug),
+                        {"status": "resolved"})
+                continue
+            existing = _sb("GET",
+                "/rest/v1/marketing_action_plan?company_id=eq.{}"
+                "&action_key=eq.google-connect-{}&select=id".format(cid, slug))
+            if existing:
+                continue
+            co = _sb("GET", "/rest/v1/companies?id=eq.{}"
+                     "&select=name,city,state,plan".format(cid))
+            if not co or (co[0].get("plan") or "") != "Rank AI":
+                continue
+            name = (co[0].get("name") or "").strip()
+            if not listing_exists(name, co[0].get("city") or "",
+                                  co[0].get("state") or ""):
+                lines.append(f"google-connect {slug}: no listing found — manual review")
+                continue
+            link = mint(cid)
+            row = {"company_id": cid, "rank_ai_slug": slug,
+                   "action_key": "google-connect-" + slug,
+                   "action_type": "client_input", "status": "planned",
+                   "priority": 1, "pinned": True, "impact": "high",
+                   "effort": "low",
+                   "title": "Connect your Google Business Profile",
+                   "target": link,
+                   "rationale": ("Their listing exists but the account isn't "
+                                 "connected. Send this link and tell them to sign "
+                                 "in with the Google account that manages their "
+                                 "business listing: " + link)}
+            if dry_run:
+                lines.append(f"google-connect {slug}: WOULD seed ask")
+            else:
+                _sb("POST", "/rest/v1/marketing_action_plan", [row])
+                lines.append(f"google-connect {slug}: ask seeded (Monica delivers)")
+        except Exception as e:  # noqa: BLE001 — one client never kills the run
+            lines.append(f"google-connect {slug}: ERROR {str(e)[:80]}")
+    return lines
+
+
 def run(since_override: str | None, dry_run: bool, do_send: bool) -> int:
     run_start = datetime.now(timezone.utc)
     cursor_out = run_start.strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -433,6 +533,8 @@ def run(since_override: str | None, dry_run: bool, do_send: bool) -> int:
           f"{' [DRY RUN]' if dry_run else ''}")
 
     ensure_bootstrapped(dry_run, do_send, cid_to_slug)
+    for ln in ensure_google_connect_asks(dry_run, cid_to_slug):
+        print("  " + ln)
 
     intake = [i for i in fetch_answered_intake(since)
               if i["id"] not in state["processed_intake_ids"]]
