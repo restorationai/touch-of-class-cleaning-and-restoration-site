@@ -40,6 +40,10 @@ DAILY_JOBS = [
     # script skips any client whose last progress report is <6 days old or
     # whose baseline is <6 days old, so a daily tick yields weekly reports.
     ("progress", "15:00", [sys.executable, str(HERE / "progress_report.py"), "--all"]),
+    # Daily all-systems pulse: one green/red email checking every system's
+    # OUTCOME (sites up incl SSL, content/video cadence, GSC/GBP freshness,
+    # worker alive, failed jobs). Built 2026-07-23 post-shipping-week.
+    ("pulse", "14:45", [sys.executable, str(HERE / "systems_pulse.py")]),
 ]
 
 JOBS = [

@@ -8,6 +8,7 @@ import GoogleMap from "~/components/GoogleMap.astro";
 import DispatchCallout from "~/components/ui/DispatchCallout.astro";
 import GbpCityProof from "~/components/ui/GbpCityProof.astro";
 import { brand } from "~/lib/brand";
+import geoVideos from "~/data/geo-videos.json";
 import { serviceImage } from "~/lib/images";
 import { dispatchSentence, is247 } from "~/lib/dispatch";
 
@@ -23,6 +24,10 @@ const { entry } = Astro.props;
 const { Content } = await entry.render();
 const data = entry.data;
 const sensitive = data.content_guardrails === "sensitive";
+// City x service explainer video (our auto-produced geo YouTube videos) —
+// embedded when one exists for this exact page. Lazy iframe: no LCP cost.
+const geoVideoId = (geoVideos as Record<string, string>)[
+  `${Astro.params.service}|${Astro.params.area}`] || null;
 const heroImage = data.hero || serviceImage(data.service_slug, "/images/hero-bg.webp");
 
 // The quotable dispatch claim — rendered as a callout right after the hero AND
@@ -119,6 +124,23 @@ const faq = [...responseFaq, ...baseFaq, ...insuranceFaq];
   <GoogleMap city={data.city} state={data.state} service={data.service_display} />
 
   <FAQSection faq={faq} eyebrow={`${data.service_display} in ${data.city}`} />
+
+  {geoVideoId && (
+    <section class="py-14">
+      <div class="container-wide max-w-3xl mx-auto">
+        <h2 class="text-center mb-6">Watch: {data.service_display} in {data.city}</h2>
+        <div class="rounded-2xl overflow-hidden aspect-video border border-current/15 shadow-xl">
+          <iframe
+            src={`https://www.youtube-nocookie.com/embed/${geoVideoId}`}
+            title={`${data.service_display} in ${data.city} | ${brand.displayName}`}
+            width="100%" height="100%" style="border:0;display:block;"
+            allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+  )}
 
   <CtaBanner
     heading={is247 ? `${data.service_display} response in ${data.city}` : `${data.service_display} in ${data.city}`}

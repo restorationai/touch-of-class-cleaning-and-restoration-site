@@ -2296,6 +2296,21 @@ def cmd_geo(args) -> int:
             service=service, city=city,
             published_at=now_iso() if privacy == "public" else None,
         )
+        # register for the on-page embed (service-area-service pages read
+        # src/data/geo-videos.json; goes live with the site's next deploy)
+        try:
+            plan = json.loads((CLIENTS_DIR / slug / "plan-input.json").read_text())
+            area = next((a for a in plan.get("service_areas", [])
+                         if a.get("city", "").lower() == city.lower()), None)
+            if area and privacy == "public":
+                data_p = SITES_DIR / slug / "src" / "data" / "geo-videos.json"
+                data_p.parent.mkdir(exist_ok=True)
+                m = json.loads(data_p.read_text()) if data_p.exists() else {}
+                m[f"{service}|{area['slug']}"] = video_id
+                data_p.write_text(json.dumps(m, indent=1) + "\n")
+                print(f"  [embed] registered {service}|{area['slug']} -> page embed on next deploy")
+        except Exception as e:
+            print(f"  [embed] mapping skipped: {str(e)[:100]}")
         print(f"\n==> Geo video: https://youtu.be/{video_id}  ({privacy})")
     return 0
 
