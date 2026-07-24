@@ -711,6 +711,15 @@ def _anthropic_json(system: str, user: str) -> dict:
         try:
             return json.loads(text)
         except json.JSONDecodeError:
+            # Model sometimes reasons out loud before the JSON despite the
+            # strict-JSON instruction (narestco's negative_services reliably
+            # triggers this). Salvage the outermost {...} block before failing.
+            start, end = text.find("{"), text.rfind("}")
+            if start != -1 and end > start:
+                try:
+                    return json.loads(text[start:end + 1])
+                except json.JSONDecodeError:
+                    pass
             last = f"non-JSON: {text[:120]!r}"
     raise RuntimeError(f"Anthropic did not return valid JSON after 2 tries ({last})")
 
@@ -734,6 +743,68 @@ def _matches_exact(term: str, pool: list) -> bool:
     Leak Water Cleanup') are too loose to auto-act on."""
     n = _norm_service(term)
     return bool(n) and any(n == _norm_service(p) for p in pool)
+
+
+def _suggest_description(cid: str, slug: str, loc: dict, g: dict,
+                         do: list, dont: list, token: str) -> dict | None:
+    """AI business-description pass. Empty description on Google -> write and
+    push immediately (the one case where automatic can't make anything worse).
+    Existing description -> generate a candidate; if the model judges it a real
+    improvement, park it as an open 'description' suggestion for one-click
+    approval in the app's Locations tab. Claims-safe by construction: the model
+    only sees confirmed services/areas — never credentials — and is forbidden
+    from inventing any. Returns a suggestion row or None."""
+    cur = ((loc.get("profile") or {}).get("description") or "").strip()
+    pi = json.loads((ROOT / "clients" / slug / "plan-input.json").read_text())
+    areas = pi.get("service_areas", [])
+    primary = next((a for a in areas if a.get("primary")), areas[0] if areas else {})
+    sysmsg = (
+        "You write the Google Business Profile business description for a local "
+        "restoration company. Hard rules:\n"
+        "- 600 to 730 characters total. The FIRST 240 characters must stand alone "
+        "(Google truncates there behind 'More') and carry the city plus the core "
+        "services.\n"
+        "- Natural, confident, human voice. No keyword stuffing, no ALL CAPS, no "
+        "em dashes.\n"
+        "- NEVER mention licenses, certifications, insurance status, years in "
+        "business, awards, or guarantees unless they appear in the data given.\n"
+        "- Google policy: no URLs, no phone numbers, no prices or promotions.\n"
+        "- Mention the primary city naturally; weave in the highest-value services "
+        "without cataloguing every one.\n"
+        'Return ONLY JSON: {"description": str, "better_than_current": bool, '
+        '"reason": str}. reason under 12 words; judge better_than_current on '
+        "clarity, local relevance, and coverage of what they actually offer.")
+    user = json.dumps({
+        "business": loc.get("title") or slug,
+        "primary_category": g.get("primary_category"),
+        "primary_city": f"{primary.get('city', '')}, {primary.get('state', '')}".strip(", "),
+        "service_areas": [a.get("city") for a in areas if a.get("city")][:8],
+        "confirmed_services": do[:12], "never_mention_offering": dont,
+        "current_description": cur or "(none)"}, indent=1)
+    out = _anthropic_json(sysmsg, "Write the description.\n\nDATA:\n" + user)
+    desc = (out.get("description") or "").replace("—", ", ").replace("–", ", ").strip()
+    if not desc or len(desc) > 750:
+        return None
+    hdrs = {"apikey": SB_KEY, "Authorization": f"Bearer {SB_KEY}",
+            "Content-Type": "application/json", "Prefer": "return=minimal"}
+    if not cur:
+        r = requests.patch(f"{INFO_API}/{loc['name']}?updateMask=profile.description",
+                           headers={"Authorization": f"Bearer {token}",
+                                    "Content-Type": "application/json"},
+                           json={"profile": {"description": desc}}, timeout=30)
+        if r.status_code == 200:
+            requests.patch(f"{SB_URL}/rest/v1/marketing_gbp_profiles?company_id=eq.{cid}",
+                           headers=hdrs, data=json.dumps({"description": desc}), timeout=30)
+            print(f"   description: was empty -> wrote and pushed ({len(desc)} chars)")
+        else:
+            print(f"   description: auto-push failed HTTP {r.status_code}: {r.text[:120]}")
+        return None
+    if not out.get("better_than_current"):
+        return None
+    return {"company_id": cid, "item": "business-description", "item_type": "description",
+            "source": "gbp", "verdict": "ADD",
+            "reason": desc,  # the proposed text itself; the app renders from here
+            "confidence": 0.8, "canonical": None, "auto_safe": False, "status": "open"}
 
 
 def optimize(slug: str) -> dict:
@@ -820,6 +891,18 @@ def optimize(slug: str) -> dict:
         "confidence": it.get("confidence"), "canonical": it.get("canonical"),
         "auto_safe": it.get("auto_safe", False), "status": "open",
     } for it in items if it.get("item")]
+
+    # Description pass (Santino 2026-07-24: the Locations editor must be
+    # AI-recommended, not edit-your-own). Empty on Google -> written and pushed
+    # automatically (nothing to overwrite = nothing to break). Existing ->
+    # parked as an open suggestion the app approves with one click. Flows
+    # through the settled-keys filter below, so a dismissal sticks.
+    try:
+        drow = _suggest_description(cid, slug, loc, g, do, dont, token)
+        if drow:
+            rows.append(drow)
+    except Exception as e:  # advisory pass; never blocks the audit
+        print(f"   description pass failed: {str(e)[:120]}")
     if rows:
         _sb_delete("marketing_gbp_suggestions", f"company_id=eq.{cid}&status=eq.open")
         # Never resurrect suggestions a human already settled: upserting with
