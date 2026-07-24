@@ -36,7 +36,7 @@ export const brand = {
   // lets the TrustStrip show the badge before a license number is on file.
   licensedInsuredAttested: true as boolean,
   certifications: ["IICRC Certified Firm #210213"] as string[],
-  trustBadges: ["500+ Google Reviews", "IICRC Certified Firm #210213", "NJ Licensed Home Improvement Contractor", "24/7 Emergency Response"] as string[],
+  trustBadges: ["500+ Google Reviews", "IICRC Certified", "Licensed & Insured", "24/7 Emergency Response"] as string[],
   // Real job photos pulled from the client's existing sites
   // (restorationgroups.com + therestorationgroup.com), EXIF/GPS stripped.
   jobPhotos: [
