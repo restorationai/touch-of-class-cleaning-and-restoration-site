@@ -283,6 +283,64 @@ def best_date(sitemap_lastmod: str | None, html_dates: dict) -> tuple[dt.date | 
 _GSC_CLIENT_CACHE: dict[str, object] = {}
 
 
+def gsc_search_signals(slug: str, domain: str | None) -> dict:
+    """v2: per-URL demand signals from GSC Search Analytics (28 days).
+
+    Returns {url: {"striking": [{query, position, impressions}...],
+                   "low_ctr": bool, "impressions": int}}.
+      striking = queries ranking 8-20 with real impressions — one focused
+                 refresh can push these onto page 1 (the highest-ROI refresh
+                 targeting there is; Santino-approved v2, 2026-07-23)
+      low_ctr  = page already ranks (avg pos <= 10, 100+ impressions) but CTR
+                 < 2 percent — a title/meta rewrite candidate
+    Fails soft: any error returns {} and scoring proceeds sitemap-only."""
+    if not slug or not domain:
+        return {}
+    try:
+        from gsc_client import GSCClient
+        if not GSCClient.is_configured(slug):
+            return {}
+        c = GSCClient(slug=slug, domain=domain)
+        c._ensure_service()
+        import datetime as _dt
+        end = _dt.date.today() - _dt.timedelta(days=2)
+        start = end - _dt.timedelta(days=28)
+        rows = c._service.searchanalytics().query(
+            siteUrl=f"sc-domain:{domain}",
+            body={"startDate": start.isoformat(), "endDate": end.isoformat(),
+                  "dimensions": ["page", "query"], "rowLimit": 5000}).execute().get("rows", [])
+    except Exception as e:
+        sys.stderr.write(f"WARN: gsc search signals unavailable ({str(e)[:100]})\n")
+        return {}
+    out: dict = {}
+    page_tot: dict = {}
+    for r in rows:
+        page, query = r["keys"][0], r["keys"][1]
+        d = page_tot.setdefault(page, {"impressions": 0, "clicks": 0, "pos_w": 0.0})
+        d["impressions"] += r.get("impressions", 0)
+        d["clicks"] += r.get("clicks", 0)
+        d["pos_w"] += r.get("position", 0) * r.get("impressions", 0)
+        if 8 <= r.get("position", 99) <= 20 and r.get("impressions", 0) >= 30:
+            out.setdefault(page, {"striking": [], "low_ctr": False, "impressions": 0})
+            out[page]["striking"].append({
+                "query": query,
+                "position": round(r.get("position", 0), 1),
+                "impressions": r.get("impressions", 0)})
+    for page, d in page_tot.items():
+        if d["impressions"] >= 100:
+            avg_pos = d["pos_w"] / d["impressions"] if d["impressions"] else 99
+            ctr = d["clicks"] / d["impressions"]
+            if avg_pos <= 10 and ctr < 0.02:
+                out.setdefault(page, {"striking": [], "low_ctr": False, "impressions": 0})
+                out[page]["low_ctr"] = True
+        if page in out:
+            out[page]["impressions"] = d["impressions"]
+    for page in out:  # top 3 striking queries per page, by demand
+        out[page]["striking"] = sorted(out[page]["striking"],
+                                       key=lambda q: -q["impressions"])[:3]
+    return out
+
+
 def gsc_inspect(url: str, slug: str | None = None, domain: str | None = None) -> dict | None:
     """Inspect a URL via Google Search Console if configured for this client.
 
@@ -355,6 +413,14 @@ def score(c: dict, *, origin: str, origin_source: str, max_urls: int,
     fetched_html = 0
     failed_html = 0
 
+    # v2: one GSC Search Analytics pull for the whole site (28d) — striking
+    # queries + low-CTR pages get flagged on their candidate rows below.
+    search_signals = gsc_search_signals(slug, c.get("domain"))
+    if search_signals:
+        n_striking = sum(1 for v in search_signals.values() if v.get("striking"))
+        n_ctr = sum(1 for v in search_signals.values() if v.get("low_ctr"))
+        print(f"      GSC signals: {n_striking} page(s) w/ striking queries, {n_ctr} low-CTR page(s)")
+
     print(f"[2/3] Extracting dates per URL...")
     for u in all_urls:
         loc = u["loc"]
@@ -387,6 +453,14 @@ def score(c: dict, *, origin: str, origin_source: str, max_urls: int,
             elif gsc.get("index_status") == "PARTIAL":
                 flags.append("index_warning")
 
+        sig = search_signals.get(loc) or search_signals.get(loc.rstrip("/")) \
+            or search_signals.get(loc.rstrip("/") + "/")
+        if sig:
+            if sig.get("striking"):
+                flags.append("striking_queries")
+            if sig.get("low_ctr"):
+                flags.append("low_ctr")
+
         candidates.append({
             "url": loc,
             "date": chosen.isoformat() if chosen else None,
@@ -396,6 +470,7 @@ def score(c: dict, *, origin: str, origin_source: str, max_urls: int,
             "sitemap_lastmod": lastmod,
             "html_dates": html_dates,
             "gsc": gsc,
+            "search_signals": sig,
         })
         inspected += 1
 

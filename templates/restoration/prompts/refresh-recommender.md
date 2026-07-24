@@ -240,3 +240,23 @@ Atomic write — don't overwrite other fields.
 - Indexing-status detection without GSC. The v2 layer will fill this in.
 - Backlink decay or referring-domain churn. Out of scope.
 - Content quality scoring (E-E-A-T, readability decay). Out of scope — different problem.
+
+## v2 — GSC demand signals (when present on a candidate)
+
+Candidates may carry `search_signals` and the flags `striking_queries` /
+`low_ctr`, from real Google Search Console data (28 days):
+
+- `striking_queries` — the page ranks position 8-20 for the listed queries
+  with real impressions. These OUTRANK age-based candidates: a focused
+  refresh here moves a page onto page 1 for demand that already exists.
+  Action: `refresh` with the top striking query named as the target — add a
+  section that directly answers it, work it into the H1/intro if natural,
+  strengthen internal links to the page using the query phrasing.
+- `low_ctr` — the page ranks (avg position <= 10, 100+ impressions) but under
+  2 percent of searchers click it. Action: `title-meta-rewrite` — rewrite the
+  title/meta_description to earn the click (number, benefit, locality);
+  content itself usually fine.
+
+Priority order for the final queue: striking_queries first (sorted by top
+query impressions), then low_ctr, then not_indexed/index_warning, then
+stale/aging by age.
