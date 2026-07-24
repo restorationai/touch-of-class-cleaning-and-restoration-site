@@ -149,6 +149,36 @@ def fetch_competitors(service: str, city: str, state: str,
     return out
 
 
+def variant_fanout(service: str, place: str) -> list[str]:
+    """Customer-language variants for this service, best-volume first.
+
+    "water cleanup Federal Way" style phrasings from keyword-variants.json,
+    volume-ranked via DataForSEO when reachable (falls back to file order).
+    Titles keep the canonical phrasing; these ride as secondary keywords."""
+    try:
+        vmap = json.loads((ROOT / "templates" / "restoration" / "keyword-variants.json").read_text())
+    except Exception:
+        return []
+    variants = [v for v in vmap.get(service, []) if isinstance(v, str)][:7]
+    if not variants:
+        return []
+    kws = [f"{v} {place}".strip() for v in variants]
+    try:
+        u, p_ = load_dfs_creds()
+        auth = base64.b64encode(f"{u}:{p_}".encode()).decode()
+        r = requests.post(
+            "https://api.dataforseo.com/v3/keywords_data/google_ads/search_volume/live",
+            headers={"Authorization": "Basic " + auth, "Content-Type": "application/json"},
+            json=[{"keywords": kws, "location_code": 2840, "language_code": "en"}],
+            timeout=60)
+        items = ((r.json().get("tasks") or [{}])[0].get("result") or [])
+        vol = {i.get("keyword", "").lower(): i.get("search_volume") or 0 for i in items}
+        kws.sort(key=lambda k: vol.get(k.lower(), 0), reverse=True)
+    except Exception:
+        pass  # file order is a fine fallback
+    return kws[:3]
+
+
 def build_case_study_item(slug: str, items: list, done_keys: set) -> dict | None:
     """Pick the best unused story-worthy Google review as a case-study seed.
 
@@ -322,6 +352,9 @@ def main() -> int:
             f"who do I call for {svc_pretty.lower()} in {city}",
             f"{svc_pretty.lower()} emergency number {city} {st}",
         ]
+
+    fan_out = (fan_out + variant_fanout(
+        service, city if fmt != "cost_guide" else st))[:6]
 
     item = {
         "id": f"{datetime.now(timezone.utc).strftime('%Y-%m-%d')}-{key}",

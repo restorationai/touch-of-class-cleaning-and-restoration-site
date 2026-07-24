@@ -20,9 +20,9 @@
     "bucket": "rankai-all-pro-plumbing",
     "custom_domain": "images.allproplumbingheatingandair.com"
   },
-  "status": "pending",
+  "status": "active",
   "created_at": "2026-07-08T16:12:20.849362+00:00",
-  "updated_at": "2026-07-23T04:11:45.276874+00:00",
+  "updated_at": "2026-07-23T23:57:44.289006+00:00",
   "company_id": "CO-1783380243102",
   "nap": {
     "name": "All Pro Plumbing Heating and Air",
@@ -63,5 +63,9 @@
     "last_pushed_main_at": "2026-07-23T04:11:45.276828+00:00"
   },
   "build_status": "pushed_main",
-  "indexnow_key": "39ec3a0fa4c14d2f99f975c9f2f61739"
+  "indexnow_key": "39ec3a0fa4c14d2f99f975c9f2f61739",
+  "apex_cutover": {
+    "completed_at": "2026-07-23T06:30:00+00:00"
+  },
+  "cut_over_at": "2026-07-23T06:30:00+00:00"
 }
