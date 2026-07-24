@@ -160,13 +160,19 @@ jobs:
                          "target": preview,
                          "rationale": "New site build finished at " + preview +
                                       " — share the link with the client, ask what they think, and collect any change requests."}
-                  rq = urllib.request.Request(
-                      os.environ["SUPABASE_URL"] + "/rest/v1/marketing_action_plan?on_conflict=action_key",
-                      method="POST", data=json.dumps([row]).encode(),
-                      headers={"apikey": key, "Authorization": "Bearer " + key,
-                               "Content-Type": "application/json",
-                               "Prefer": "resolution=merge-duplicates,return=minimal"})
-                  urllib.request.urlopen(rq, timeout=30)
+                  # manual dedupe (table has no unique constraint on action_key)
+                  chk = urllib.request.Request(
+                      os.environ["SUPABASE_URL"] + "/rest/v1/marketing_action_plan"
+                      "?company_id=eq." + cid + "&action_key=eq." + row["action_key"] + "&select=id",
+                      headers={"apikey": key, "Authorization": "Bearer " + key})
+                  if not json.loads(urllib.request.urlopen(chk, timeout=30).read()):
+                      rq = urllib.request.Request(
+                          os.environ["SUPABASE_URL"] + "/rest/v1/marketing_action_plan",
+                          method="POST", data=json.dumps([row]).encode(),
+                          headers={"apikey": key, "Authorization": "Bearer " + key,
+                                   "Content-Type": "application/json",
+                                   "Prefer": "return=minimal"})
+                      urllib.request.urlopen(rq, timeout=30)
           except Exception as e:
               print("preview feedback row skipped:", e)
           body = json.dumps({
