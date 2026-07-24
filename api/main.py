@@ -398,6 +398,65 @@ def site_brief_extract_colors(req: SiteBriefColorsRequest):
             "colors": [{"hex": "#" + h, "count": n} for h, n in picked]}
 
 
+@app.post("/site-brief/extract-colors-from-logo", dependencies=[Depends(auth)])
+def site_brief_extract_colors_from_logo(req: SiteBriefColorsRequest):
+    """Brand colors from the client's UPLOADED LOGO — for clients with no
+    website (Go Green: domain purchased, logo uploaded, no site to scrape).
+    Reads the newest branding/{cid}/brand/ image and returns dominant
+    saturated colors, same shape as extract-colors."""
+    import io as _io
+
+    from PIL import Image as _Img
+
+    sb_url = os.environ["SUPABASE_URL"].rstrip("/")
+    sb_key = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
+    hdrs = {"apikey": sb_key, "Authorization": "Bearer " + sb_key,
+            "Content-Type": "application/json"}
+    lst = urllib.request.Request(
+        sb_url + "/storage/v1/object/list/branding", method="POST",
+        data=json.dumps({"prefix": req.company_id + "/brand", "limit": 100,
+                         "sortBy": {"column": "created_at", "order": "desc"}}).encode(),
+        headers=hdrs)
+    try:
+        objs = json.loads(urllib.request.urlopen(lst, timeout=30).read())
+    except Exception:
+        objs = []
+    imgs = [o for o in objs if o.get("id") and any(
+        str(o.get("name", "")).lower().endswith(x)
+        for x in (".png", ".jpg", ".jpeg", ".webp"))]
+    if not imgs:
+        raise HTTPException(status_code=404,
+                            detail="No logo on file yet — have them send it via the hub (Send Us Files, Logo).")
+    key = req.company_id + "/brand/" + imgs[0]["name"]
+    raw = urllib.request.urlopen(urllib.request.Request(
+        sb_url + "/storage/v1/object/branding/" + urllib.parse.quote(key),
+        headers=hdrs), timeout=60).read()
+    img = _Img.open(_io.BytesIO(raw)).convert("RGB").resize((96, 96))
+    from collections import Counter
+    counts = Counter(img.getdata())
+
+    def is_gray(c):
+        r0, g0, b0 = c
+        return (max(c) - min(c) < 26) or sum(c) > 705 or sum(c) < 45
+
+    def score(c, n):
+        mx, mn = max(c), min(c)
+        return n * (0.5 + ((mx - mn) / mx if mx else 0))
+
+    ranked = sorted(((c, n) for c, n in counts.items() if not is_gray(c)),
+                    key=lambda x: -score(*x))
+    picked = []
+    for c, n in ranked:
+        if any(sum(abs(a - b) for a, b in zip(c, pc)) < 90 for pc, _ in picked):
+            continue
+        picked.append((c, n))
+        if len(picked) >= 6:
+            break
+    return {"source": imgs[0]["name"],
+            "colors": [{"hex": "#{:02x}{:02x}{:02x}".format(*c), "count": n}
+                       for c, n in picked]}
+
+
 class SiteBuildRequest(BaseModel):
     company_id: str
 

@@ -145,6 +145,30 @@ jobs:
                        "Content-Type": "application/json"})
           urllib.request.urlopen(req, timeout=30)
           preview = "https://staging.rankai-{}.pages.dev".format(slug)
+          # client feedback loop v1: seed a client_input plan row so Monica
+          # shares the preview and collects their thoughts (quiet-hours-safe,
+          # replies classified + escalated through her normal machinery)
+          try:
+              cmap = json.load(open("clients/company_map.json"))
+              cid = cmap.get(slug)
+              if cid:
+                  row = {"company_id": cid, "rank_ai_slug": slug,
+                         "action_key": "site-preview-feedback-" + slug,
+                         "action_type": "client_input", "status": "pending",
+                         "priority": 1, "impact": "high", "effort": "low",
+                         "title": "Take a look at your new website preview and tell us your thoughts",
+                         "target": preview,
+                         "rationale": "New site build finished at " + preview +
+                                      " — share the link with the client, ask what they think, and collect any change requests."}
+                  rq = urllib.request.Request(
+                      os.environ["SUPABASE_URL"] + "/rest/v1/marketing_action_plan?on_conflict=action_key",
+                      method="POST", data=json.dumps([row]).encode(),
+                      headers={"apikey": key, "Authorization": "Bearer " + key,
+                               "Content-Type": "application/json",
+                               "Prefer": "resolution=merge-duplicates,return=minimal"})
+                  urllib.request.urlopen(rq, timeout=30)
+          except Exception as e:
+              print("preview feedback row skipped:", e)
           body = json.dumps({
             "personalizations": [{"to": [{"email": "contact@restorationai.io"}]}],
             "from": {"email": "contact@restorationai.io"},

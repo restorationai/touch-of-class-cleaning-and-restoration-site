@@ -156,7 +156,11 @@ export default {
     const token = pb + "." + (await hmac(env.SIGNING_SECRET, pb));
     const init = { method: request.method, headers: {} };
     if (request.method === "POST") { init.body = await request.arrayBuffer(); init.headers["Content-Type"] = request.headers.get("Content-Type") || "image/jpeg"; }
-    const resp = await fetch(route.fn + "?t=" + token, init);
+    // forward the page's own query params (cat/note/fn for categorized
+    // uploads) alongside our signed token — previously dropped (2026-07-24)
+    const fwd = new URLSearchParams(url.search);
+    fwd.set("t", token);
+    const resp = await fetch(route.fn + "?" + fwd.toString(), init);
     const headers = new Headers();
     headers.set("Content-Type", request.method === "GET" ? "text/html; charset=utf-8" : "application/json; charset=utf-8");
     headers.set("Cache-Control", "no-store");
