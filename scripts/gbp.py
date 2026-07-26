@@ -745,6 +745,83 @@ def _matches_exact(term: str, pool: list) -> bool:
     return bool(n) and any(n == _norm_service(p) for p in pool)
 
 
+def _geogrid_summary(cid: str) -> list:
+    """Compact geo-grid picture for the optimizer payload: per tracked keyword,
+    the latest scan's avg rank / top-3 share plus the previous scan's for
+    trend. Grid movement is the ground truth the suggestions should chase."""
+    scans = _sb(f"marketing_geogrid_scans?company_id=eq.{cid}"
+                f"&order=scanned_at.desc&limit=16"
+                f"&select=keyword,city_label,avg_rank,pct_in_top3,scanned_at")
+    by_kw: dict = {}
+    for s in scans:
+        by_kw.setdefault(s["keyword"], []).append(s)
+    out = []
+    for kw, runs in by_kw.items():
+        cur, prev = runs[0], (runs[1] if len(runs) > 1 else None)
+        out.append({
+            "keyword": kw, "city": cur.get("city_label"),
+            "scanned": (cur.get("scanned_at") or "")[:10],
+            "avg_rank": cur.get("avg_rank"), "pct_top3": cur.get("pct_in_top3"),
+            "prev_avg_rank": prev.get("avg_rank") if prev else None,
+            "prev_pct_top3": prev.get("pct_in_top3") if prev else None,
+        })
+    return out
+
+
+def _propose_new_categories(cid: str, token: str, g: dict, do: list,
+                            dont: list, geo: list) -> list:
+    """Propose NEW GBP categories (the audit only classifies ones already on
+    the listing). Model suggests names grounded in confirmed services + grid
+    weakness; each candidate is validated against Google's REAL category
+    taxonomy and only exact matches survive — the gcid rides in `canonical`
+    so the app can apply it with one click. Never auto_safe: category changes
+    are the highest-stakes GBP edit (re-verification risk)."""
+    existing = {str(g.get("primary_category") or "").lower()} | {
+        str(c).lower() for c in (g.get("additional_categories") or [])}
+    sysmsg = (
+        "You suggest ADDITIONAL Google Business Profile categories for a local "
+        "restoration company. Only suggest categories that plausibly exist in "
+        "Google's fixed GBP category taxonomy and that the business genuinely "
+        "serves per its confirmed services. Skip anything matching "
+        "negative_services. Max 4. Return ONLY JSON: {\"candidates\": "
+        "[{\"name\": str, \"reason\": str (under 12 words), \"confidence\": num}]}")
+    user = json.dumps({
+        "existing_categories": sorted(existing),
+        "confirmed_services": do[:15], "negative_services": dont,
+        "geo_grid_ranking": geo[:6]}, indent=1)
+    out = _anthropic_json(sysmsg, "Propose categories.\n\nDATA:\n" + user)
+    rows = []
+    for cand in (out.get("candidates") or [])[:4]:
+        name = str(cand.get("name") or "").strip()
+        if not name or name.lower() in existing:
+            continue
+        try:
+            # Taxonomy validation. The categories filter only accepts a SINGLE
+            # token (multi-word 400s, quoted is silently ignored) — so search
+            # on the longest word and exact-match the full name locally.
+            tok = max(name.split(), key=len)
+            r = requests.get(f"{INFO_API}/categories",
+                             params={"regionCode": "US", "languageCode": "en-US",
+                                     "view": "BASIC", "pageSize": 100,
+                                     "filter": f"displayName={tok}"},
+                             headers={"Authorization": f"Bearer {token}"}, timeout=30)
+            match = next((c for c in r.json().get("categories", [])
+                          if c.get("displayName", "").lower() == name.lower()), None)
+        except Exception:
+            match = None
+        if not match:
+            continue
+        rows.append({
+            "company_id": cid, "item": match["displayName"], "item_type": "category",
+            "source": "confirmed", "verdict": "ADD",
+            "reason": (cand.get("reason") or "Matches a confirmed service line.")
+                      + " Verified against Google's category list.",
+            "confidence": min(float(cand.get("confidence") or 0.7), 0.9),
+            "canonical": match["name"],  # categories/gcid:... — the app applies via this
+            "auto_safe": False, "status": "open"})
+    return rows
+
+
 def _suggest_description(cid: str, slug: str, loc: dict, g: dict,
                          do: list, dont: list, token: str) -> dict | None:
     """AI business-description pass. Empty description on Google -> write and
@@ -823,11 +900,16 @@ def optimize(slug: str) -> dict:
     do, dont = declared_services(cid)
     site = site_services(slug)
 
+    try:  # grid movement is the outcome the suggestions should chase
+        geo = _geogrid_summary(cid)
+    except Exception:
+        geo = []
     payload = {
         "business": loc.get("title"), "primary_category": g["primary_category"],
         "additional_categories": g["additional_categories"],
         "live_gbp_services": g["services"], "website_service_pages": site,
         "confirmed_services": do, "negative_services": dont,
+        "geo_grid_ranking": geo,
     }
     rules = GBP_RULES.read_text()
     instruction = (
@@ -847,7 +929,11 @@ def optimize(slug: str) -> dict:
         "\"service\"|\"page\",\"source\":\"gbp\"|\"site\"|\"confirmed\",\"verdict\":\"KEEP\""
         "|\"ADD\"|\"REMOVE\"|\"MERGE\"|\"NEEDS-REVIEW\",\"reason\":str,\"confidence\":num,"
         "\"canonical\":str|null}]}. canonical = the item to merge into (MERGE only). "
-        "Keep each reason under 12 words. Do not apply auto_safe; just classify.\n\n"
+        "Keep each reason under 12 words. Do not apply auto_safe; just classify. "
+        "geo_grid_ranking shows live map-pack position per keyword (avg_rank, share of "
+        "grid cells in the top 3, and the previous scan for trend) — when a weak or "
+        "declining keyword maps to a service/page item, prioritize it and cite the grid "
+        "position in the reason.\n\n"
         f"DATA:\n{json.dumps(payload, indent=2)}")
     result = _anthropic_json(rules, instruction)
     items = result.get("items", [])
@@ -891,6 +977,14 @@ def optimize(slug: str) -> dict:
         "confidence": it.get("confidence"), "canonical": it.get("canonical"),
         "auto_safe": it.get("auto_safe", False), "status": "open",
     } for it in items if it.get("item")]
+
+    # NEW-category proposals (Santino 2026-07-25): the audit above only
+    # classifies categories ALREADY on the listing; this proposes missing
+    # ones, taxonomy-validated, gcid in `canonical`, never auto_safe.
+    try:
+        rows.extend(_propose_new_categories(cid, token, g, do, dont, geo))
+    except Exception as e:
+        print(f"   category proposal pass failed: {str(e)[:120]}")
 
     # Description pass (Santino 2026-07-24: the Locations editor must be
     # AI-recommended, not edit-your-own). Empty on Google -> written and pushed
