@@ -966,6 +966,41 @@ class KickoffPrepRequest(BaseModel):
     appointment_time: str = ""   # optional human phrase, e.g. "tomorrow at 5"
 
 
+class BootstrapNowRequest(BaseModel):
+    company_id: str = ""
+    secret: str
+
+
+@app.post("/bootstrap-now")
+def bootstrap_now(req: BootstrapNowRequest):
+    """Fired by the signup-alert edge fn the moment an account is created
+    (Santino 2026-07-26: tabs full by FIRST login). Dispatches the bootstrap
+    workflow, whose bootstrap-only pass now runs the whole day-one blitz:
+    client files + geo-grid baseline + AI-search baseline + GBP/ads first
+    syncs + optimizer. The 2-hourly schedule stays as the backstop."""
+    expected = (os.environ.get("KICKOFF_PREP_SECRET")
+                or os.environ.get("LEAD_AUDIT_FUNNEL_SECRET", ""))
+    if not (expected and req.secret == expected):
+        raise HTTPException(status_code=403, detail="bad secret")
+    gh_pat = os.environ.get("GH_PAT", "")
+    if not gh_pat:
+        raise HTTPException(status_code=500, detail="GH_PAT not configured")
+    disp = urllib.request.Request(
+        "https://api.github.com/repos/restorationai/Rank-AI-Pipeline/actions/"
+        "workflows/bootstrap-new-clients.yml/dispatches",
+        method="POST",
+        data=json.dumps({"ref": "main"}).encode(),
+        headers={"Authorization": "Bearer " + gh_pat,
+                 "Accept": "application/vnd.github+json",
+                 "User-Agent": "rank-ai-api"})
+    try:
+        urllib.request.urlopen(disp, timeout=30)
+    except urllib.error.HTTPError as e:
+        raise HTTPException(status_code=502,
+                            detail=f"workflow dispatch failed: {e.code}")
+    return {"status": "dispatched"}
+
+
 class GbpFirstSyncRequest(BaseModel):
     company_id: str
     secret: str

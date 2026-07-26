@@ -424,6 +424,36 @@ def ensure_bootstrapped(dry_run: bool, do_send: bool,
 # ---------------------------------------------------------------- main
 
 
+def ensure_ads_first_sync(dry_run: bool, cid_to_slug: dict) -> list[str]:
+    """Any client with a selected Ads account but zero synced campaigns gets
+    ads_sync run immediately (the sync loops every connected account, so one
+    invocation covers all stragglers in the pass)."""
+    import subprocess
+    rows = _sb("GET", "/rest/v1/user_integrations?provider=in.(google,google_ads)"
+               "&select=client_id,connection_metadata",
+               prefer="return=representation") or []
+    stragglers = []
+    for r in rows:
+        cid = r.get("client_id")
+        if not cid or not (r.get("connection_metadata") or {}).get("selected_ads_customer_id"):
+            continue
+        camps = _sb("GET", f"/rest/v1/marketing_ads_campaigns?company_id=eq.{cid}"
+                    "&select=id&limit=1", prefer="return=representation") or []
+        if not camps:
+            stragglers.append(cid_to_slug.get(cid, cid))
+    if not stragglers:
+        return []
+    if dry_run:
+        return [f"ads first-sync: WOULD run for {', '.join(stragglers)}"]
+    try:
+        r = subprocess.run([sys.executable, str(ROOT / "scripts" / "ads_sync.py")],
+                           capture_output=True, text=True, timeout=1800)
+        ok = r.returncode == 0
+        return [f"ads first-sync ({', '.join(stragglers)}): {'ok' if ok else 'FAILED'}"]
+    except Exception as e:
+        return [f"ads first-sync failed ({str(e)[:100]})"]
+
+
 def ensure_baseline_scans(dry_run: bool, cid_to_slug: dict) -> list[str]:
     """Day-one data blitz backstop (Kyle 2026-07-26: follow-up call with an
     empty Map Rankings tab, empty AI Search tab, no AI suggestions — every
@@ -809,6 +839,8 @@ def run(since_override: str | None, dry_run: bool, do_send: bool) -> int:
         print("  " + ln)
     for ln in ensure_baseline_scans(dry_run, cid_to_slug):
         print("  " + ln)
+    for ln in ensure_ads_first_sync(dry_run, cid_to_slug):
+        print("  " + ln)
     for ln in ensure_setup_checklist(dry_run, cid_to_slug):
         print("  " + ln)
 
@@ -965,6 +997,18 @@ def main() -> int:
         load_env()
         lines = ensure_bootstrapped(args.dry_run, getattr(args, "send", False),
                                     slug_map(), full=True)
+        # Day-one blitz rides the same run (Santino 2026-07-26: every tab full
+        # by first login, never 'come back tomorrow'). Fresh slug map — the
+        # bootstrap above may have just minted new clients.
+        m = slug_map()
+        for fn in (ensure_gbp_first_sync, ensure_baseline_scans, ensure_ads_first_sync):
+            try:
+                extra = fn(args.dry_run, m)
+            except Exception as e:  # noqa: BLE001 — blitz never blocks bootstrap
+                extra = [f"{fn.__name__} failed: {str(e)[:100]}"]
+            for ln in extra:
+                print("  " + ln)
+            lines += extra
         print("bootstrap-only: {} action(s)".format(len(lines)))
         raise SystemExit(0)
 

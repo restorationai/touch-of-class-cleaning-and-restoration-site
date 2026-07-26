@@ -53,6 +53,10 @@ jobs:
           DATAFORSEO_USERNAME:         ${{ secrets.DATAFORSEO_USERNAME }}
           DATAFORSEO_PASSWORD:         ${{ secrets.DATAFORSEO_PASSWORD }}
           ANTHROPIC_API_KEY:           ${{ secrets.ANTHROPIC_API_KEY }}
+          GOOGLE_OAUTH_CLIENT_ID:      ${{ secrets.GOOGLE_OAUTH_CLIENT_ID }}
+          GOOGLE_OAUTH_CLIENT_SECRET:  ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
+          GOOGLE_ADS_DEVELOPER_TOKEN:  ${{ secrets.GOOGLE_ADS_DEVELOPER_TOKEN }}
+          CLOUDFLARE_API_TOKEN:        ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: |
           python3 scripts/client_ops_sync.py --bootstrap-only \
             ${{ github.event.inputs.dry_run == 'true' && '--dry-run' || '--send' }}

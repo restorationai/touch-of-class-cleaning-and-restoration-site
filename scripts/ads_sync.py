@@ -126,6 +126,20 @@ def sync_structure(google_ads_client: GoogleAdsClient, customer_id: str, company
         WHERE ad_group.status != 'REMOVED'
     """
     
+    # Landing page per ad group: first final URL of a non-removed ad. External
+    # campaigns (Kyle/RGP 2026-07-26) had blank landing pages in the app
+    # because only our own scaffold pipeline ever wrote final_url.
+    ag_urls = {}
+    try:
+        for row in ga_service.search(customer_id=customer_id, query=
+                "SELECT ad_group.resource_name, ad_group_ad.ad.final_urls "
+                "FROM ad_group_ad WHERE ad_group_ad.status != 'REMOVED'"):
+            urls = list(row.ad_group_ad.ad.final_urls)
+            if urls and row.ad_group.resource_name not in ag_urls:
+                ag_urls[row.ad_group.resource_name] = urls[0]
+    except GoogleAdsException as ex:
+        logger.warning(f"final-url fetch failed for {customer_id}: {ex}")
+
     try:
         ag_response = ga_service.search(customer_id=customer_id, query=ad_group_query)
         for row in ag_response:
@@ -142,6 +156,7 @@ def sync_structure(google_ads_client: GoogleAdsClient, customer_id: str, company
                 "name": ag.name,
                 "status": ag.status.name.lower(),
                 "ad_group_type": "city_skag",
+                "final_url": ag_urls.get(ag.resource_name),
                 "synced_at": datetime.utcnow().isoformat()
             }
             
