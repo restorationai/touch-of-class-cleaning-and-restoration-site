@@ -51,21 +51,31 @@ better. Accuracy and focus beat a stuffed listing.
 - Services behave like keywords/content under a category. Relevant, distinct ones can
   help you surface for more queries; junk and TRUE duplicates are noise that make the
   listing look unprofessional and add zero ranking value.
-- **Only MERGE true duplicates — KEEP distinct long-tail services.** This is the most
-  important judgment call, do not get it wrong:
-  - **MERGE (true duplicate):** the SAME service worded differently. E.g. "Mold
-    Removal" / "Mold removal service" / "Mold removal and remediation" / "Mold Removal
-    and Mold Remediation" → ONE "Mold Remediation". Or "Professional water damage
-    restoration" / "Comprehensive Water Damage Restoration" / "Water damage remediation"
-    → ONE "Water Damage Restoration". Mark the extras MERGE.
-  - **KEEP (distinct sub-service / scenario):** a specific real situation a customer
-    searches for, even though it rolls up under a broader service. "Toilet Overflow
-    Cleanup", "Sump Pump Failure Cleanup", "Washing Machine Leak Cleanup", "Burst Pipe
-    Cleanup", "Crawl Space Water Removal" are NOT duplicates of "Water Damage
-    Restoration" — they are valuable keyword-bearing services. KEEP them when the client
-    performs the work. Do NOT merge a specific scenario into its parent category.
-  - Rule of thumb: same *work*, different words → MERGE. Different *situations* that
-    share a parent → KEEP both.
+- **Services carry real ranking weight — bias hard toward KEEP.** (Updated 2026-07-26
+  after Sterling Sky's controlled retests: adding services moved rankings for the
+  matching queries within 24-72h, strongest on exact-match; predefined types strongest,
+  custom services weaker but nonzero. The 2019 "no effect" result is obsolete.)
+  Consequence: a service label is a QUERY SURFACE. Removing or merging a label that
+  matches a real search phrasing can cost coverage for exactly that phrasing.
+- **Only MERGE near-identical wording — KEEP every distinct query phrasing.** This is
+  the most important judgment call, do not get it wrong:
+  - **MERGE (near-identical):** the SAME phrase differing only in case, punctuation,
+    filler adjectives, or trivial suffixes. E.g. "Mold Removal" / "Mold removal
+    service" / "Professional Mold Removal" → one "Mold Removal". "Steam Cleaned" /
+    "Steam Cleaning" → one.
+  - **KEEP (distinct query phrasing):** different head terms or different customer
+    language, even for the same underlying work. "Water Damage Repair" vs "Water Damage
+    Restoration" vs "Water Damage Cleanup" are DIFFERENT searches — keep all. "Fire
+    Damage Cleanup" vs "Fire Restoration" — keep both. "Mold Removal" vs "Mold
+    Remediation" — keep both (homeowners say removal, adjusters say remediation).
+  - **KEEP (distinct sub-service / scenario):** "Toilet Overflow Cleanup", "Sump Pump
+    Failure Cleanup", "Burst Pipe Cleanup", "Crawl Space Water Removal" are never
+    duplicates of "Water Damage Restoration" — they are query-bearing services. KEEP
+    them when the client performs the work.
+  - Rule of thumb: would a real customer type BOTH phrasings into Google? If yes,
+    KEEP both. Only merge when nobody would ever search the variant as its own phrase.
+  - When in doubt between MERGE and KEEP → KEEP. A redundant-looking label costs
+    nothing; a deleted query surface costs rankings.
 - **A MERGE is only valid if the canonical will EXIST on the listing after the
   operation.** Applying a MERGE deletes the duplicates — if the canonical isn't there,
   the service vanishes entirely (this has destroyed live coverage before). Before
