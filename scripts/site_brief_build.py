@@ -190,7 +190,11 @@ def main():
     # service areas: enrich only cities we don't already have
     existing = {a.get("slug") for a in (pi.get("service_areas") or [])}
     todo = []
-    for c in cities[:25]:
+    # No silent truncation (Santino 2026-07-26: complete coverage in ONE build,
+    # no renditions — a [:25] here quietly cut Kyle's 45 declared cities to 25).
+    # The demand floor happens upstream when the list is composed; 75 is a pure
+    # runaway guard, not a product cap.
+    for c in cities[:75]:
         label = c.get("label") if isinstance(c, dict) else str(c)
         state = (c.get("state") if isinstance(c, dict) else "") or co.get("state") or ""
         cslug = service_slug("{} {}".format(label, state[:2] if len(state) > 2 else state))
