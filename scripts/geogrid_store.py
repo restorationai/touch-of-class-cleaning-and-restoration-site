@@ -61,6 +61,10 @@ except Exception:
     COMPANY_MAP = {}
 
 CF_API = "https://api.cloudflare.com/client/v4"
+# Shared public bucket for clients whose per-client bucket doesn't exist yet
+# (created pre-onboarding, 2026-07-26; managed r2.dev domain enabled).
+FALLBACK_BUCKET = "rankai-geogrid"
+FALLBACK_PUBLIC_URL = "https://pub-1fc4fbd06484414192f087f3e6a5eca9.r2.dev"
 
 
 def _now_iso() -> str:
@@ -180,6 +184,10 @@ def persist_scan(
     scan_id = scan["id"]
 
     # Render PNG + upload to R2, keyed by scan_id, then patch image_url.
+    # Fallback (Kyle/Crew3r 2026-07-26): the per-client bucket only exists
+    # after full site onboarding, so day-one scans lost every image ("bucket
+    # does not exist"). When the client bucket rejects the put, the shared
+    # public bucket takes it — map images must exist from the first scan.
     image_url = None
     if render:
         try:
@@ -187,8 +195,12 @@ def persist_scan(
                 tmp_path = Path(tmp.name)
             render_png(points, tmp_path)
             key = f"geogrid/{_kw_slug(keyword)}/{scan_id}.png"
-            if r2_put(bucket, key, tmp_path.read_bytes(), "image/png"):
+            data = tmp_path.read_bytes()
+            if r2_put(bucket, key, data, "image/png"):
                 image_url = f"{public_url}/{key}"
+            elif r2_put(FALLBACK_BUCKET, key, data, "image/png"):
+                image_url = f"{FALLBACK_PUBLIC_URL}/{key}"
+            if image_url:
                 sb.table("marketing_geogrid_scans").update({"image_url": image_url}).eq("id", scan_id).execute()
                 scan["image_url"] = image_url
             tmp_path.unlink(missing_ok=True)
