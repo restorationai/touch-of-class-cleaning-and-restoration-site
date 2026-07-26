@@ -954,6 +954,30 @@ def optimize(slug: str) -> dict:
         _norm_service(it.get("item", "")) for it in items
         if it.get("verdict") == "KEEP" and str(it.get("item", "")).startswith("job_type_id")}
 
+    # MERGE guardrail (2026-07-26, evidence: Sterling Sky retests show service
+    # labels move rankings for their exact phrasings): a MERGE only survives
+    # when item and canonical are token-identical after stripping filler —
+    # otherwise the label is a distinct query surface and gets KEEP. The model
+    # over-merges no matter how the prompt is worded ("Hail Damage Restoration"
+    # -> "Hail Damage Repair" is a rankings-costing deletion, not a dedupe).
+    _FILLER = {"service", "services", "professional", "comprehensive", "expert",
+               "and", "the", "of", "a", "for"}
+
+    def _qtokens(s):
+        s = str(s or "")
+        if s.startswith("job_type_id:"):
+            s = s[len("job_type_id:"):]
+        return {t.rstrip("s") for t in re.findall(r"[a-z]+", s.replace("_", " ").lower())
+                if t not in _FILLER}
+
+    for it in items:
+        if it.get("verdict") == "MERGE" and it.get("item_type") == "service":
+            if _qtokens(it.get("item")) != _qtokens(it.get("canonical")):
+                it["verdict"] = "KEEP"
+                it["canonical"] = None
+                it["reason"] = "Distinct query phrasing — kept (services rank for their exact wording)."
+                it["confidence"] = 0.9
+
     # Deterministic guardrail overrides the model on the non-negotiables.
     for it in items:
         term, vtype = it.get("item", ""), it.get("item_type")
