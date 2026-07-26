@@ -180,6 +180,50 @@ def main():
     if gmd.get("place_id"):
         brand.setdefault("place_id", gmd["place_id"])
     brand.setdefault("theme", theme)
+
+    # Licensing & Trust from the onboarding wizard (integration_settings.licensing,
+    # persisted by the wizard since 2026-07-26) -> brand truth: powers trust
+    # badges + footer license line + claims-lint. Kyle's IICRC/license never
+    # reached his site because this hop didn't exist.
+    lic = ints.get("licensing") or {}
+    if lic.get("license_number") and not brand.get("license_numbers"):
+        brand["license_numbers"] = [str(lic["license_number"])]
+    if lic.get("certifications") and not brand.get("certifications"):
+        brand["certifications"] = [c.strip() for c in str(lic["certifications"]).replace(";", ",").split(",") if c.strip()]
+    if isinstance(lic.get("insured"), bool):
+        brand.setdefault("insured", lic["insured"])
+    if lic.get("founded_year"):
+        brand.setdefault("founded_year", str(lic["founded_year"]))
+
+    # Logo: pull the newest uploaded logo from branding/{cid}/brand/ into the
+    # site as a LOCAL file (never a cross-domain URL that may not exist yet —
+    # crew shipped with logoUrl https://images.None/brand/logo.png). SVGs are
+    # kept as-is; browsers render them fine in <img>.
+    try:
+        import requests as _rq
+        sb_url = os.environ["SUPABASE_URL"].rstrip("/")
+        sb_key = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
+        hdrs = {"apikey": sb_key, "Authorization": "Bearer " + sb_key,
+                "Content-Type": "application/json"}
+        objs = _rq.post(sb_url + "/storage/v1/object/list/branding", headers=hdrs,
+                        json={"prefix": cid + "/brand", "limit": 50,
+                              "sortBy": {"column": "created_at", "order": "desc"}},
+                        timeout=30).json()
+        img = next((o for o in objs if isinstance(o, dict) and o.get("id")
+                    and str(o.get("name", "")).lower().endswith(
+                        (".png", ".jpg", ".jpeg", ".webp", ".svg"))), None)
+        if img:
+            ext = Path(img["name"]).suffix.lower()
+            raw = _rq.get(f"{sb_url}/storage/v1/object/branding/{cid}/brand/{img['name']}",
+                          headers=hdrs, timeout=60).content
+            out = ROOT / "sites" / slug / "public" / "images" / f"logo{ext}"
+            out.parent.mkdir(parents=True, exist_ok=True)
+            out.write_bytes(raw)
+            brand.setdefault("logo_url", f"/images/logo{ext}")
+            print(f"  logo: pulled {img['name']} -> public/images/logo{ext}")
+    except Exception as e:
+        print(f"  logo pull skipped: {str(e)[:100]}")
+
     pi["brand"] = brand
 
     pi.setdefault("template", "restoration")
