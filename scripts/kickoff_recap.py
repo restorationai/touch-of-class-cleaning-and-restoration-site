@@ -35,7 +35,7 @@ except Exception:
 
 import lead_audit as la  # noqa: E402  _ghl, _claude, claude_json, send_email
 from kickoff_prep import (  # noqa: E402
-    _fathom_meetings, _log, _matches, _transcript_text)
+    _fathom_meetings, _log, _matches, _transcript_text, hold_for_business_hours)
 
 DONE_TAG = "kickoff-recap-sent"
 
@@ -141,6 +141,16 @@ def run(contact_id, poll_minutes=10, max_attempts=12, lookback_hours=6,
     if dry_run:
         print(json.dumps(copy, indent=1))
         return {"dry_run": True, "copy": copy}
+
+    if not hold_for_business_hours(contact):
+        _log("outside client business hours — held, not sent")
+        la.send_email(la.NOTIFY_EMAIL,
+                      "[kickoff-recap] HELD (after hours) for " + (name or contact_id),
+                      "<p>The recap for {} is ready but it's outside their business "
+                      "hours and too far from the 8:30am window to hold in-process. "
+                      "It was NOT sent — re-run kickoff_recap for this contact in "
+                      "the morning.</p><p>Call: {}</p>".format(name, meeting.get("url")))
+        return {"skipped": "outside business hours"}
 
     sms_ok = email_ok = False
     try:

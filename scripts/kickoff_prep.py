@@ -103,6 +103,33 @@ COMPOSE_SCHEMA = {
 }
 
 
+def hold_for_business_hours(contact: dict, max_hold_min: int = 180) -> bool:
+    """Client-facing messages only go out 8:30-18:00 in the contact's local
+    time (Santino 2026-07-26). Inside the window -> True immediately. A short
+    gap (evening edge, <= max_hold_min) is slept away in-process; a long gap
+    (late night) returns False so the caller skips sending and leaves an ops
+    note instead. The sleep is bounded because a Railway redeploy kills
+    in-flight threads — never rely on surviving until morning."""
+    import datetime as _dt
+    from zoneinfo import ZoneInfo
+    tz = contact.get("timezone") or "America/Los_Angeles"
+    try:
+        z = ZoneInfo(tz)
+    except Exception:
+        z = ZoneInfo("America/Los_Angeles")
+    while True:
+        now = _dt.datetime.now(z)
+        if (now.hour > 8 or (now.hour == 8 and now.minute >= 30)) and now.hour < 18:
+            return True
+        nxt = now.replace(hour=8, minute=30, second=0, microsecond=0)
+        if now >= nxt:
+            nxt += _dt.timedelta(days=1)
+        gap_min = (nxt - now).total_seconds() / 60
+        if gap_min > max_hold_min:
+            return False
+        time.sleep(min(gap_min * 60 + 30, 900))
+
+
 def _log(msg):
     print("  [kickoff-prep {}] {}".format(
         dt.datetime.now().strftime("%H:%M:%S"), msg))
@@ -273,6 +300,16 @@ def run(contact_id, appt_time="", poll_minutes=10, max_attempts=30, dry_run=Fals
     if dry_run:
         print(json.dumps(copy, indent=1))
         return {"dry_run": True, "copy": copy}
+
+    if not hold_for_business_hours(contact):
+        _log("outside client business hours — held, not sent")
+        la.send_email(la.NOTIFY_EMAIL,
+                      "[kickoff-prep] HELD (after hours) for " + (name or contact_id),
+                      "<p>The prep message for {} is ready but it's outside their "
+                      "business hours and too far from the 8:30am window to hold "
+                      "in-process. It was NOT sent — re-run kickoff_prep for this "
+                      "contact in the morning.</p>".format(name))
+        return {"skipped": "outside business hours"}
 
     booked = None
     if not appt_time and copy.get("agreed_datetime_iso"):
