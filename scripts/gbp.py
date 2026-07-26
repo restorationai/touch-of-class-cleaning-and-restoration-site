@@ -746,20 +746,27 @@ def _matches_exact(term: str, pool: list) -> bool:
 
 
 def _geogrid_summary(cid: str) -> list:
-    """Compact geo-grid picture for the optimizer payload: per tracked keyword,
-    the latest scan's avg rank / top-3 share plus the previous scan's for
-    trend. Grid movement is the ground truth the suggestions should chase."""
+    """Compact geo-grid picture for the optimizer payload: per tracked
+    (keyword, GRID CITY), the latest scan's avg rank / top-3 share plus the
+    previous scan of the SAME city for trend. Grouping must include the city:
+    clients are scanned around multiple centers on the same day (NaRestCo:
+    Federal Way + Tacoma), and keyword-only grouping mis-read the two cities
+    as a time series ('7.55 -> 14.63 declining' that never happened)."""
     scans = _sb(f"marketing_geogrid_scans?company_id=eq.{cid}"
-                f"&order=scanned_at.desc&limit=16"
+                f"&order=scanned_at.desc&limit=40"
                 f"&select=keyword,city_label,avg_rank,pct_in_top3,scanned_at")
-    by_kw: dict = {}
+    by_key: dict = {}
     for s in scans:
-        by_kw.setdefault(s["keyword"], []).append(s)
+        by_key.setdefault((s["keyword"], s.get("city_label")), []).append(s)
     out = []
-    for kw, runs in by_kw.items():
-        cur, prev = runs[0], (runs[1] if len(runs) > 1 else None)
+    for (kw, city), runs in by_key.items():
+        cur = runs[0]
+        # previous = the most recent scan of this keyword+city from an EARLIER day
+        prev = next((r for r in runs[1:]
+                     if (r.get("scanned_at") or "")[:10] != (cur.get("scanned_at") or "")[:10]),
+                    None)
         out.append({
-            "keyword": kw, "city": cur.get("city_label"),
+            "keyword": kw, "grid_city": city,
             "scanned": (cur.get("scanned_at") or "")[:10],
             "avg_rank": cur.get("avg_rank"), "pct_top3": cur.get("pct_in_top3"),
             "prev_avg_rank": prev.get("avg_rank") if prev else None,
@@ -930,10 +937,12 @@ def optimize(slug: str) -> dict:
         "|\"ADD\"|\"REMOVE\"|\"MERGE\"|\"NEEDS-REVIEW\",\"reason\":str,\"confidence\":num,"
         "\"canonical\":str|null}]}. canonical = the item to merge into (MERGE only). "
         "Keep each reason under 12 words. Do not apply auto_safe; just classify. "
-        "geo_grid_ranking shows live map-pack position per keyword (avg_rank, share of "
-        "grid cells in the top 3, and the previous scan for trend) — when a weak or "
-        "declining keyword maps to a service/page item, prioritize it and cite the grid "
-        "position in the reason.\n\n"
+        "geo_grid_ranking shows live map-pack position per keyword PER GRID CITY "
+        "(avg_rank, share of grid cells in the top 3; prev_* = the same city's earlier "
+        "scan, null until a second scan date exists — never call something 'declining' "
+        "unless prev_* is present and worse). Different grid_city rows are different "
+        "markets, not a trend. When a weak keyword+city maps to a service/page item, "
+        "prioritize it and cite the grid position and city in the reason.\n\n"
         f"DATA:\n{json.dumps(payload, indent=2)}")
     result = _anthropic_json(rules, instruction)
     items = result.get("items", [])
