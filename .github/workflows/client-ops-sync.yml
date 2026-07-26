@@ -52,6 +52,10 @@ jobs:
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           CONNECT_LINK_SIGNING_SECRET: ${{ secrets.CONNECT_LINK_SIGNING_SECRET }}
           SENDGRID_API_KEY:          ${{ secrets.SENDGRID_API_KEY }}
+          GOOGLE_OAUTH_CLIENT_ID:    ${{ secrets.GOOGLE_OAUTH_CLIENT_ID }}
+          GOOGLE_OAUTH_CLIENT_SECRET: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
+          DATAFORSEO_LOGIN:          ${{ secrets.DATAFORSEO_LOGIN }}
+          DATAFORSEO_PASSWORD:       ${{ secrets.DATAFORSEO_PASSWORD }}
         run: |
           python3 scripts/client_ops_sync.py \
             ${{ github.event.inputs.dry_run == 'true' && '--dry-run' || '--send' }} \

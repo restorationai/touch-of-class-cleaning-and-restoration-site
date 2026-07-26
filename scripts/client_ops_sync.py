@@ -424,6 +424,40 @@ def ensure_bootstrapped(dry_run: bool, do_send: bool,
 # ---------------------------------------------------------------- main
 
 
+def ensure_gbp_first_sync(dry_run: bool, cid_to_slug: dict) -> list[str]:
+    """Connected-but-never-synced clients get their first GBP sync immediately
+    (Kyle 2026-07-26: connected Friday on the sales call, Locations tab sat on
+    'No Business Profile connected' because the sync only runs Mon+Thu). Runs
+    gbp.py sync per such client — populates the profile row, pulls reviews via
+    v4, imports their GBP photo library. Scheduled syncs stay the refresher."""
+    import subprocess
+    out: list[str] = []
+    conns = _sb("GET", "/rest/v1/user_integrations?provider=eq.google"
+                "&select=client_id", prefer="return=representation") or []
+    connected = {c["client_id"] for c in conns if c.get("client_id")}
+    for cid in sorted(connected):
+        slug = cid_to_slug.get(cid)
+        if not slug:
+            continue
+        prof = _sb("GET", f"/rest/v1/marketing_gbp_profiles?company_id=eq.{cid}"
+                   "&select=company_id", prefer="return=representation") or []
+        if prof:
+            continue
+        if dry_run:
+            out.append(f"{slug}: WOULD run first GBP sync")
+            continue
+        try:
+            r = subprocess.run(
+                [sys.executable, str(ROOT / "scripts" / "gbp.py"),
+                 "sync", "--slug", slug],
+                capture_output=True, text=True, timeout=600)
+            tail = (r.stdout or r.stderr or "").strip().splitlines()
+            out.append(f"{slug}: first GBP sync -> {tail[-1][:120] if tail else 'no output'}")
+        except Exception as e:
+            out.append(f"{slug}: first GBP sync failed ({str(e)[:100]})")
+    return out
+
+
 def ensure_setup_checklist(dry_run: bool, cid_to_slug: dict) -> list[str]:
     """Daily business-setup checklist (Santino 2026-07-25: 'this is why they
     pay US — we handle what we can'). Three buckets: auto-fix (ours, handled
@@ -697,6 +731,8 @@ def run(since_override: str | None, dry_run: bool, do_send: bool) -> int:
 
     ensure_bootstrapped(dry_run, do_send, cid_to_slug)
     for ln in ensure_google_connect_asks(dry_run, cid_to_slug):
+        print("  " + ln)
+    for ln in ensure_gbp_first_sync(dry_run, cid_to_slug):
         print("  " + ln)
     for ln in ensure_setup_checklist(dry_run, cid_to_slug):
         print("  " + ln)
