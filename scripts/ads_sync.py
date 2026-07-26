@@ -192,8 +192,11 @@ def sync_metrics(google_ads_client: GoogleAdsClient, customer_id: str, company_i
             metrics.conversions,
             metrics.conversions_value
         FROM ad_group
-        WHERE segments.date DURING LAST_90_DAYS
-    """
+        WHERE segments.date BETWEEN '{start}' AND '{end}'
+    """.format(
+        start=(datetime.utcnow() - timedelta(days=90)).strftime("%Y-%m-%d"),
+        end=datetime.utcnow().strftime("%Y-%m-%d"),
+    )
     
     try:
         response = ga_service.search(customer_id=customer_id, query=query)
