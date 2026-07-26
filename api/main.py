@@ -423,7 +423,7 @@ def site_brief_extract_colors_from_logo(req: SiteBriefColorsRequest):
         objs = []
     imgs = [o for o in objs if o.get("id") and any(
         str(o.get("name", "")).lower().endswith(x)
-        for x in (".png", ".jpg", ".jpeg", ".webp"))]
+        for x in (".png", ".jpg", ".jpeg", ".webp", ".svg"))]
     if not imgs:
         raise HTTPException(status_code=404,
                             detail="No logo on file yet — have them send it via the hub (Send Us Files, Logo).")
@@ -431,9 +431,28 @@ def site_brief_extract_colors_from_logo(req: SiteBriefColorsRequest):
     raw = urllib.request.urlopen(urllib.request.Request(
         sb_url + "/storage/v1/object/branding/" + urllib.parse.quote(key),
         headers=hdrs), timeout=60).read()
-    img = _Img.open(_io.BytesIO(raw)).convert("RGB").resize((96, 96))
     from collections import Counter
-    counts = Counter(img.getdata())
+    if imgs[0]["name"].lower().endswith(".svg"):
+        # SVGs (Kyle/Crew3r 2026-07-25) carry their palette as literal color
+        # tokens — PIL can't rasterize them, but we don't need it to. Pull
+        # every hex/rgb() token, weight by occurrence, reuse the same
+        # gray-filter + dedupe pipeline below.
+        import re as _re
+        txt = raw.decode("utf-8", "ignore")
+        tokens = []
+        for h in _re.findall(r"#([0-9a-fA-F]{6})\b", txt):
+            tokens.append(tuple(int(h[i:i + 2], 16) for i in (0, 2, 4)))
+        for h in _re.findall(r"#([0-9a-fA-F]{3})\b", txt):
+            tokens.append(tuple(int(c * 2, 16) for c in h))
+        for m in _re.findall(r"rgb\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)\s*\)", txt):
+            tokens.append(tuple(min(int(v), 255) for v in m))
+        if not tokens:
+            raise HTTPException(status_code=422,
+                                detail="The SVG logo has no literal colors (image-embedded or CSS-classed) — set colors manually.")
+        counts = Counter(tokens)
+    else:
+        img = _Img.open(_io.BytesIO(raw)).convert("RGB").resize((96, 96))
+        counts = Counter(img.getdata())
 
     def is_gray(c):
         r0, g0, b0 = c
