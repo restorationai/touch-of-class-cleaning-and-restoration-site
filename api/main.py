@@ -1008,11 +1008,32 @@ def gbp_first_sync(req: GbpFirstSyncRequest):
         return {"status": "skipped", "note": "already synced"}
 
     def _run(s=slug):
+        # Full day-one blitz (Santino 2026-07-26: Kyle's follow-up call hit
+        # empty tabs): sync -> AI optimizer suggestions -> face-score audit.
+        # Each step best-effort; nightly ops-sync backstops all of them.
         try:
             import gbp  # scripts/ is on sys.path
             print("[gbp-first-sync]", gbp.sync(s))
         except Exception as e:  # noqa: BLE001 — backstopped nightly
-            print("[gbp-first-sync] failed:", s, str(e)[:200])
+            print("[gbp-first-sync] sync failed:", s, str(e)[:200])
+            return
+        try:
+            import gbp
+            r = gbp.optimize(s)
+            print("[gbp-first-sync] optimize:", s, r.get("summary") or r.get("error"))
+        except Exception as e:  # noqa: BLE001
+            print("[gbp-first-sync] optimize failed:", s, str(e)[:200])
+        try:
+            import subprocess
+            import sys as _sys
+            root = Path(__file__).resolve().parent.parent
+            r = subprocess.run([_sys.executable, str(root / "scripts" / "gbp_face_audit.py"),
+                                "--slug", s, "--apply"],
+                               capture_output=True, text=True, timeout=900)
+            tail = (r.stdout or r.stderr or "").strip().splitlines()
+            print("[gbp-first-sync] face-audit:", s, tail[-1][:120] if tail else "no output")
+        except Exception as e:  # noqa: BLE001
+            print("[gbp-first-sync] face-audit failed:", s, str(e)[:200])
 
     threading.Thread(target=_run, daemon=True).start()
     return {"status": "queued", "slug": slug}

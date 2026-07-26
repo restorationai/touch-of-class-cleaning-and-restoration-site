@@ -424,6 +424,79 @@ def ensure_bootstrapped(dry_run: bool, do_send: bool,
 # ---------------------------------------------------------------- main
 
 
+def ensure_baseline_scans(dry_run: bool, cid_to_slug: dict) -> list[str]:
+    """Day-one data blitz backstop (Kyle 2026-07-26: follow-up call with an
+    empty Map Rankings tab, empty AI Search tab, no AI suggestions — every
+    surface waited on a weekly cron). For each active client the nightly run
+    fills whatever baseline is missing:
+      geo-grid   configs exist but zero scans -> geogrid_cron --slug
+      AI search  zero scan rows              -> ai_search_scan --slug
+      optimizer  connected + zero suggestions -> gbp.py optimize --slug
+    The connect-triggered chain (/gbp-first-sync) does this instantly for
+    fresh connects; this pass catches everyone it misses."""
+    import subprocess
+
+    def run_tool(args_, timeout):
+        r = subprocess.run([sys.executable] + args_, capture_output=True,
+                           text=True, timeout=timeout)
+        tail = (r.stdout or r.stderr or "").strip().splitlines()
+        return tail[-1][:110] if tail else "no output"
+
+    out: list[str] = []
+    active = _sb("GET", "/rest/v1/companies?status=ilike.active&select=id",
+                 prefer="return=representation") or []
+    conns = {c["client_id"] for c in (_sb(
+        "GET", "/rest/v1/user_integrations?provider=eq.google&select=client_id",
+        prefer="return=representation") or []) if c.get("client_id")}
+    for co in active:
+        cid = co["id"]
+        slug = cid_to_slug.get(cid)
+        if not slug:
+            continue
+        kw_f = CLIENTS_DIR / slug / "geogrid-keywords.txt"
+        ct_f = CLIENTS_DIR / slug / "geogrid-cities.json"
+        if kw_f.exists() and ct_f.exists():
+            scans = _sb("GET", f"/rest/v1/marketing_geogrid_scans?company_id=eq.{cid}"
+                        "&select=id&limit=1", prefer="return=representation") or []
+            if not scans:
+                if dry_run:
+                    out.append(f"{slug}: WOULD run geo-grid baseline")
+                else:
+                    try:
+                        out.append(f"{slug}: geo-grid baseline -> "
+                                   + run_tool([str(ROOT / 'scripts' / 'geogrid_cron.py'),
+                                               '--slug', slug], 3600))
+                    except Exception as e:
+                        out.append(f"{slug}: geo-grid baseline failed ({str(e)[:80]})")
+        ai = _sb("GET", f"/rest/v1/marketing_ai_search_scans?company_id=eq.{cid}"
+                 "&select=id&limit=1", prefer="return=representation") or []
+        if not ai and (CLIENTS_DIR / slug / "plan-input.json").exists():
+            if dry_run:
+                out.append(f"{slug}: WOULD run AI-search baseline")
+            else:
+                try:
+                    out.append(f"{slug}: AI-search baseline -> "
+                               + run_tool([str(ROOT / 'scripts' / 'ai_search_scan.py'),
+                                           '--slug', slug, '--limit', '8',
+                                           '--engines', 'chatgpt,gemini,perplexity,claude'], 1800))
+                except Exception as e:
+                    out.append(f"{slug}: AI-search baseline failed ({str(e)[:80]})")
+        if cid in conns:
+            sug = _sb("GET", f"/rest/v1/marketing_gbp_suggestions?company_id=eq.{cid}"
+                      "&select=id&limit=1", prefer="return=representation") or []
+            if not sug:
+                if dry_run:
+                    out.append(f"{slug}: WOULD run optimizer baseline")
+                else:
+                    try:
+                        out.append(f"{slug}: optimizer baseline -> "
+                                   + run_tool([str(ROOT / 'scripts' / 'gbp.py'),
+                                               'optimize', '--slug', slug], 1200))
+                    except Exception as e:
+                        out.append(f"{slug}: optimizer baseline failed ({str(e)[:80]})")
+    return out
+
+
 def ensure_gbp_first_sync(dry_run: bool, cid_to_slug: dict) -> list[str]:
     """Connected-but-never-synced clients get their first GBP sync immediately
     (Kyle 2026-07-26: connected Friday on the sales call, Locations tab sat on
@@ -733,6 +806,8 @@ def run(since_override: str | None, dry_run: bool, do_send: bool) -> int:
     for ln in ensure_google_connect_asks(dry_run, cid_to_slug):
         print("  " + ln)
     for ln in ensure_gbp_first_sync(dry_run, cid_to_slug):
+        print("  " + ln)
+    for ln in ensure_baseline_scans(dry_run, cid_to_slug):
         print("  " + ln)
     for ln in ensure_setup_checklist(dry_run, cid_to_slug):
         print("  " + ln)

@@ -54,8 +54,12 @@ jobs:
           SENDGRID_API_KEY:          ${{ secrets.SENDGRID_API_KEY }}
           GOOGLE_OAUTH_CLIENT_ID:    ${{ secrets.GOOGLE_OAUTH_CLIENT_ID }}
           GOOGLE_OAUTH_CLIENT_SECRET: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
-          DATAFORSEO_LOGIN:          ${{ secrets.DATAFORSEO_LOGIN }}
+          DATAFORSEO_USERNAME:       ${{ secrets.DATAFORSEO_USERNAME }}
           DATAFORSEO_PASSWORD:       ${{ secrets.DATAFORSEO_PASSWORD }}
+          ANTHROPIC_API_KEY:         ${{ secrets.ANTHROPIC_API_KEY }}
+          CLOUDFLARE_R2_API_TOKEN:   ${{ secrets.CLOUDFLARE_R2_API_TOKEN }}
+          CLOUDFLARE_API_TOKEN:      ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID:     ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
           python3 scripts/client_ops_sync.py \
             ${{ github.event.inputs.dry_run == 'true' && '--dry-run' || '--send' }} \
