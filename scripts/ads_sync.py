@@ -179,7 +179,8 @@ def sync_metrics(google_ads_client: GoogleAdsClient, customer_id: str, company_i
     """
     ga_service = google_ads_client.get_service("GoogleAdsService")
     
-    # We use a 14 day trailing window because conversions (like calls) backfill.
+    # 90-day trailing window: feeds the app's 7/14/30/90d period selector;
+    # conversions backfill safely because rows upsert on metric_key.
     query = """
         SELECT
             campaign.resource_name,
@@ -191,7 +192,7 @@ def sync_metrics(google_ads_client: GoogleAdsClient, customer_id: str, company_i
             metrics.conversions,
             metrics.conversions_value
         FROM ad_group
-        WHERE segments.date DURING LAST_14_DAYS
+        WHERE segments.date DURING LAST_90_DAYS
     """
     
     try:
