@@ -1,22 +1,22 @@
 # Site Plan Report — Crew Restoration & Construction
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-07-26T15:31:08.687503+00:00
+- Generated: 2026-07-26T16:11:25.482751+00:00
 - Domain: `None`
-- Services selected: 9 of 48 catalog entries
+- Services selected: 13 of 50 catalog entries
 - Service areas: 45
 - Cross-product enabled: True
-- Total URLs: **480**
-- Total internal links: 3792 (avg 7.9 per page)
+- Total URLs: **664**
+- Total internal links: 5296 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 405 |
+| `service-area-service` | 585 |
 | `service-area` | 45 |
+| `service-landing` | 13 |
 | `blog-post` | 12 |
-| `service-landing` | 9 |
 | `legal` | 3 |
 | `home` | 1 |
 | `services-hub` | 1 |
@@ -36,6 +36,10 @@
 - `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
 - `biohazard-cleanup` — Biohazard Cleanup (specialty, priority 8)
 - `asbestos-abatement` — Asbestos Abatement (specialty, priority 6)
+- `emergency-board-up-tarping` — Emergency Board-Up and Tarping (specialty, priority 7)
+- `siding-gutters` — Siding and Gutters (construction, priority 8)
+- `contents-restoration` — Contents Restoration and Storage (supporting, priority 5)
+- `post-construction-cleaning` — Post-Construction and Specialty Cleaning (supporting, priority 4)
 
 ## Service areas
 
@@ -98,7 +102,7 @@
 | `/service-areas/sioux-falls-sd/` | `service-area` | 7.2 | restoration services sioux falls |
 | `/services/biohazard-cleanup/` | `service-landing` | 7.2 | biohazard cleanup sioux falls |
 | `/services/general-contracting/` | `service-landing` | 7.2 | renovations, remodels and general contracting sioux falls |
-| `/service-areas/adrian-mn/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration adrian |
+| `/services/siding-gutters/` | `service-landing` | 7.2 | siding and gutters sioux falls |
 
 ## Validation
 
