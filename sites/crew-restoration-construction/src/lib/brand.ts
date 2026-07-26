@@ -27,17 +27,17 @@ export const brand = {
   // Analytics — set post-scaffold (scripts/analytics_set.py / create_ga4.py); no-op if empty
   ga4MeasurementId: "",
   clarityProjectId: "",
-  logoUrl: "https://images.None/brand/logo.png",
-  licenseNumbers: [] as string[],
+  logoUrl: "/images/logo.png",
+  licenseNumbers: ["3814"] as string[],
   licenseAuthority: "",
   // State license-verification page — the footer links the license number here.
   licenseLookupUrl: "",
   licenseType: "",
   // Operator-confirmed "licensed & insured" attestation from plan-input.json —
   // lets the TrustStrip show the badge before a license number is on file.
-  licensedInsuredAttested: false as boolean,
-  certifications: [] as string[],
-  trustBadges: [] as string[],
+  licensedInsuredAttested: true as boolean,
+  certifications: ["IICRC"] as string[],
+  trustBadges: ["IICRC Certified", "Licensed & Insured", "24/7 Emergency Response", "Locally Owned Since 2015"] as string[],
   jobPhotos: [] as string[],
   sameAsUrls: [] as string[],
   // GBP rating fields — synced from the live Google Business Profile by

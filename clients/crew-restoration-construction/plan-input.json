@@ -1,838 +1,847 @@
 {
- "brand": {
-  "display_name": "Crew Restoration & Construction",
-  "place_id": "ChIJ62IxEgm2jocRJj94-dsO6Nw",
-  "lat": 43.5476008,
-  "lng": -96.7293629,
-  "short_name": "Crew",
-  "primary_color": "#b31217",
-  "accent_color": "#e9292f",
-  "phone": "(605) 965-2727",
-  "email": "estimates@crewthatcares.com",
-  "street_address": "3503 South Norton Avenue",
-  "postal_code": "57110",
-  "theme": "light"
- },
- "template": "restoration",
- "services": [
-  "water-damage-restoration",
-  "fire-damage-restoration",
-  "mold-remediation",
-  "storm-damage-restoration",
-  "general-contracting",
-  "roofing",
-  "sewage-cleanup",
-  "biohazard-cleanup",
-  "asbestos-abatement",
-  "emergency-board-up-tarping",
-  "siding-gutters",
-  "contents-restoration",
-  "post-construction-cleaning"
- ],
- "blog_seed_count": 12,
- "service_areas": [
-  {
-   "city": "Sioux Falls",
-   "state": "SD",
-   "slug": "sioux-falls-sd",
-   "neighborhoods": [
-    "McKennan Park",
-    "All Saints",
-    "Whittier",
-    "Cathedral Historic District",
-    "Prairie Green"
-   ],
-   "landmarks": [
-    "Falls Park",
-    "Washington Pavilion",
-    "Great Plains Zoo",
-    "Sanford USD Medical Center"
-   ],
-   "zip_codes": [
-    "57103",
-    "57104",
-    "57105",
-    "57106",
-    "57107",
-    "57108",
-    "57110"
-   ],
-   "local_notes": "Home base \the the \\ fastest response times across the metro.",
-   "primary": true
+  "brand": {
+    "display_name": "Crew Restoration & Construction",
+    "place_id": "ChIJ62IxEgm2jocRJj94-dsO6Nw",
+    "lat": 43.5476008,
+    "lng": -96.7293629,
+    "short_name": "Crew",
+    "primary_color": "#b31217",
+    "accent_color": "#e9292f",
+    "phone": "(605) 965-2727",
+    "email": "estimates@crewthatcares.com",
+    "street_address": "3503 South Norton Avenue",
+    "postal_code": "57110",
+    "theme": "light",
+    "logo_url": "/images/logo.png",
+    "license_numbers": [
+      "3814"
+    ],
+    "certifications": [
+      "IICRC"
+    ],
+    "insured": true,
+    "founded_year": "2015"
   },
-  {
-   "city": "Brookings",
-   "state": "SD",
-   "slug": "brookings-sd",
-   "neighborhoods": [
-    "Downtown Brookings",
-    "Sexauer Park area",
-    "Pheasant Ridge"
-   ],
-   "landmarks": [
-    "South Dakota State University",
-    "McCrory Gardens",
-    "Children's Museum of South Dakota"
-   ],
-   "zip_codes": [
-    "57006"
-   ],
-   "local_notes": "College-town rentals near SDSU often need quick water and storm damage turnaround."
-  },
-  {
-   "city": "Yankton",
-   "state": "SD",
-   "slug": "yankton-sd",
-   "neighborhoods": [
-    "Downtown Yankton",
-    "Riverside",
-    "Westside"
-   ],
-   "landmarks": [
-    "Lewis and Clark Lake",
-    "Gavins Point Dam",
-    "Riverside Park"
-   ],
-   "zip_codes": [
-    "57078"
-   ],
-   "local_notes": "Lakeside properties near Gavins Point see recurring flood and moisture issues."
-  },
-  {
-   "city": "Worthington",
-   "state": "MN",
-   "slug": "worthington-mn",
-   "neighborhoods": [
-    "Downtown Worthington",
-    "Lake Okabena area"
-   ],
-   "landmarks": [
-    "Lake Okabena",
-    "Chautauqua Park",
-    "Nobles County Fairgrounds"
-   ],
-   "zip_codes": [
-    "56187"
-   ],
-   "local_notes": "Homes around Lake Okabena are prone to seasonal water intrusion."
-  },
-  {
-   "city": "Brandon",
-   "state": "SD",
-   "slug": "brandon-sd",
-   "neighborhoods": [
-    "Aspen Heights",
-    "Brandon Valley",
-    "Split Rock area"
-   ],
-   "landmarks": [
-    "Split Rock Creek",
-    "Brandon Golf Course",
-    "Aspen Park"
-   ],
-   "zip_codes": [
-    "57005"
-   ],
-   "local_notes": "Fast-growing suburb east of Sioux Falls with many newer subdivisions."
-  },
-  {
-   "city": "Le Mars",
-   "state": "IA",
-   "slug": "le-mars-ia",
-   "neighborhoods": [
-    "Downtown Le Mars",
-    "Foster Park area"
-   ],
-   "landmarks": [
-    "Wells Blue Bunny visitor center",
-    "Foster Park",
-    "Plymouth County Courthouse"
-   ],
-   "zip_codes": [
-    "51031"
-   ],
-   "local_notes": "Known as the Ice Cream Capital, with a mix of historic and newer homes."
-  },
-  {
-   "city": "Sioux Center",
-   "state": "IA",
-   "slug": "sioux-center-ia",
-   "neighborhoods": [
-    "Downtown Sioux Center",
-    "Children's Park area"
-   ],
-   "landmarks": [
-    "Dordt University",
-    "Open Space Park",
-    "Sioux Center Health"
-   ],
-   "zip_codes": [
-    "51250"
-   ],
-   "local_notes": "College and agricultural community in the heart of Sioux County."
-  },
-  {
-   "city": "Harrisburg",
-   "state": "SD",
-   "slug": "harrisburg-sd",
-   "neighborhoods": [
-    "Willow Run",
-    "Journey subdivision",
-    "Downtown Harrisburg"
-   ],
-   "landmarks": [
-    "Harrisburg High School",
-    "Willow Creek",
-    "Freedom Elementary"
-   ],
-   "zip_codes": [
-    "57032"
-   ],
-   "local_notes": "One of the fastest-growing communities south of Sioux Falls."
-  },
-  {
-   "city": "Madison",
-   "state": "SD",
-   "slug": "madison-sd",
-   "neighborhoods": [
-    "Downtown Madison",
-    "Lake Herman area"
-   ],
-   "landmarks": [
-    "Dakota State University",
-    "Lake Herman State Park",
-    "Prairie Village"
-   ],
-   "zip_codes": [
-    "57042"
-   ],
-   "local_notes": "Lakeside cabins near Lake Herman often need water damage service."
-  },
-  {
-   "city": "Tea",
-   "state": "SD",
-   "slug": "tea-sd",
-   "neighborhoods": [
-    "Sunrise Ridge",
-    "Prairie Meadows",
-    "Downtown Tea"
-   ],
-   "landmarks": [
-    "Tea Area High School",
-    "Legacy Park"
-   ],
-   "zip_codes": [
-    "57064"
-   ],
-   "local_notes": "Rapidly expanding bedroom community just southwest of Sioux Falls."
-  },
-  {
-   "city": "Orange City",
-   "state": "IA",
-   "slug": "orange-city-ia",
-   "neighborhoods": [
-    "Downtown Orange City",
-    "Windmill Park area"
-   ],
-   "landmarks": [
-    "Northwestern College",
-    "Windmill Park",
-    "Tulip Festival grounds"
-   ],
-   "zip_codes": [
-    "51041"
-   ],
-   "local_notes": "Dutch-heritage town famous for its annual Tulip Festival."
-  },
-  {
-   "city": "Luverne",
-   "state": "MN",
-   "slug": "luverne-mn",
-   "neighborhoods": [
-    "Downtown Luverne",
-    "The Bluffs area"
-   ],
-   "landmarks": [
-    "Blue Mounds State Park",
-    "Rock County Courthouse",
-    "Redbird Field"
-   ],
-   "zip_codes": [
-    "56156"
-   ],
-   "local_notes": "Gateway town near Blue Mounds with prairie storm exposure."
-  },
-  {
-   "city": "Pipestone",
-   "state": "MN",
-   "slug": "pipestone-mn",
-   "neighborhoods": [
-    "Downtown Pipestone Historic District",
-    "Hiawatha area"
-   ],
-   "landmarks": [
-    "Pipestone National Monument",
-    "Historic Calumet Inn",
-    "Hiawatha Pageant grounds"
-   ],
-   "zip_codes": [
-    "56164"
-   ],
-   "local_notes": "Historic quartzite buildings downtown require specialized restoration care."
-  },
-  {
-   "city": "Rock Valley",
-   "state": "IA",
-   "slug": "rock-valley-ia",
-   "neighborhoods": [
-    "Downtown Rock Valley",
-    "Rock River area"
-   ],
-   "landmarks": [
-    "Rock River",
-    "Rock Valley City Park",
-    "Hospers Park"
-   ],
-   "zip_codes": [
-    "51247"
-   ],
-   "local_notes": "Rock River flooding has historically affected low-lying properties."
-  },
-  {
-   "city": "Dell Rapids",
-   "state": "SD",
-   "slug": "dell-rapids-sd",
-   "neighborhoods": [
-    "Downtown Dell Rapids Historic District",
-    "Big Sioux River area"
-   ],
-   "landmarks": [
-    "The Dells of the Big Sioux",
-    "Dell Rapids Museum",
-    "Rocky Run"
-   ],
-   "zip_codes": [
-    "57022"
-   ],
-   "local_notes": "Quartzite-lined river dells draw visitors and flood-prone lots along the Big Sioux."
-  },
-  {
-   "city": "Hartford",
-   "state": "SD",
-   "slug": "hartford-sd",
-   "neighborhoods": [
-    "Downtown Hartford",
-    "Buffalo Ridge area"
-   ],
-   "landmarks": [
-    "Buffalo Ridge Ghost Town",
-    "West Central High School"
-   ],
-   "zip_codes": [
-    "57033"
-   ],
-   "local_notes": "Growing community west of Sioux Falls along Highway 42."
-  },
-  {
-   "city": "Canton",
-   "state": "SD",
-   "slug": "canton-sd",
-   "neighborhoods": [
-    "Downtown Canton",
-    "Big Sioux River area"
-   ],
-   "landmarks": [
-    "Newton Hills State Park",
-    "Augustana Lutheran Church",
-    "Lincoln County Courthouse"
-   ],
-   "zip_codes": [
-    "57013"
-   ],
-   "local_notes": "Riverfront town near Newton Hills with older housing stock."
-  },
-  {
-   "city": "North Sioux City",
-   "state": "SD",
-   "slug": "north-sioux-city-sd",
-   "neighborhoods": [
-    "McCook Lake area",
-    "Downtown North Sioux City"
-   ],
-   "landmarks": [
-    "McCook Lake",
-    "Adams Homestead and Nature Preserve",
-    "Dakota Dunes"
-   ],
-   "zip_codes": [
-    "57049"
-   ],
-   "local_notes": "McCook Lake homes have faced significant flood damage in recent years."
-  },
-  {
-   "city": "Sibley",
-   "state": "IA",
-   "slug": "sibley-ia",
-   "neighborhoods": [
-    "Downtown Sibley",
-    "Osceola County Fairgrounds area"
-   ],
-   "landmarks": [
-    "Osceola County Courthouse",
-    "Sibley City Park"
-   ],
-   "zip_codes": [
-    "51249"
-   ],
-   "local_notes": "County seat of Osceola County with a compact historic downtown."
-  },
-  {
-   "city": "Rock Rapids",
-   "state": "IA",
-   "slug": "rock-rapids-ia",
-   "neighborhoods": [
-    "Downtown Rock Rapids",
-    "Rock River area"
-   ],
-   "landmarks": [
-    "Lyon County Courthouse",
-    "Emma Sater Park",
-    "Rock River"
-   ],
-   "zip_codes": [
-    "51246"
-   ],
-   "local_notes": "Rock River flooding poses recurring risk to riverside properties."
-  },
-  {
-   "city": "Lennox",
-   "state": "SD",
-   "slug": "lennox-sd",
-   "neighborhoods": [
-    "Downtown Lennox",
-    "Lennox City Park area"
-   ],
-   "landmarks": [
-    "Lennox City Park",
-    "Lincoln County farmland"
-   ],
-   "zip_codes": [
-    "57039"
-   ],
-   "local_notes": "Small Lincoln County town with steady residential growth."
-  },
-  {
-   "city": "Flandreau",
-   "state": "SD",
-   "slug": "flandreau-sd",
-   "neighborhoods": [
-    "Downtown Flandreau",
-    "Big Sioux River area"
-   ],
-   "landmarks": [
-    "Flandreau Santee Sioux Reservation",
-    "Royal River Casino",
-    "First American Baptist Church"
-   ],
-   "zip_codes": [
-    "57028"
-   ],
-   "local_notes": "Big Sioux River town home to the Flandreau Santee Sioux Tribe."
-  },
-  {
-   "city": "Parker",
-   "state": "SD",
-   "slug": "parker-sd",
-   "neighborhoods": [
-    "Downtown Parker",
-    "Turner County Fairgrounds area"
-   ],
-   "landmarks": [
-    "Turner County Courthouse",
-    "Turner County Fairgrounds"
-   ],
-   "zip_codes": [
-    "57053"
-   ],
-   "local_notes": "Turner County seat known for its long-running county fair."
-  },
-  {
-   "city": "Salem",
-   "state": "SD",
-   "slug": "salem-sd",
-   "neighborhoods": [
-    "Downtown Salem",
-    "McCook County Fairgrounds area"
-   ],
-   "landmarks": [
-    "McCook County Courthouse",
-    "Lake Vermillion nearby"
-   ],
-   "zip_codes": [
-    "57058"
-   ],
-   "local_notes": "McCook County seat along the I-90 corridor west of Sioux Falls."
-  },
-  {
-   "city": "Slayton",
-   "state": "MN",
-   "slug": "slayton-mn",
-   "neighborhoods": [
-    "Downtown Slayton",
-    "Lake Sarah area"
-   ],
-   "landmarks": [
-    "Murray County Courthouse",
-    "Lake Sarah",
-    "End-O-Line Railroad Park nearby"
-   ],
-   "zip_codes": [
-    "56172"
-   ],
-   "local_notes": "Murray County seat with nearby lakes that see seasonal flooding."
-  },
-  {
-   "city": "Crooks",
-   "state": "SD",
-   "slug": "crooks-sd",
-   "neighborhoods": [
-    "Downtown Crooks",
-    "West Crooks"
-   ],
-   "landmarks": [
-    "Crooks City Park",
-    "Renner Corner"
-   ],
-   "zip_codes": [
-    "57020"
-   ],
-   "local_notes": "A quick drive northwest of Sioux Falls off Highway 138 for fast local response."
-  },
-  {
-   "city": "Baltic",
-   "state": "SD",
-   "slug": "baltic-sd",
-   "neighborhoods": [
-    "Downtown Baltic",
-    "Big Sioux River area"
-   ],
-   "landmarks": [
-    "Big Sioux River",
-    "Baltic School"
-   ],
-   "zip_codes": [
-    "57003"
-   ],
-   "local_notes": "River-adjacent homes here can be prone to spring flooding along the Big Sioux."
-  },
-  {
-   "city": "Garretson",
-   "state": "SD",
-   "slug": "garretson-sd",
-   "neighborhoods": [
-    "Downtown Garretson",
-    "Palisades area"
-   ],
-   "landmarks": [
-    "Palisades State Park",
-    "Devil's Gulch",
-    "Split Rock Creek"
-   ],
-   "zip_codes": [
-    "57030"
-   ],
-   "local_notes": "Known for the dramatic Sioux quartzite cliffs at Palisades State Park."
-  },
-  {
-   "city": "Worthing",
-   "state": "SD",
-   "slug": "worthing-sd",
-   "neighborhoods": [
-    "Downtown Worthing",
-    "East Worthing"
-   ],
-   "landmarks": [
-    "Worthing City Park",
-    "Interstate 29 Exit 68"
-   ],
-   "zip_codes": [
-    "57077"
-   ],
-   "local_notes": "A growing bedroom community just south of Sioux Falls along I-29."
-  },
-  {
-   "city": "Volga",
-   "state": "SD",
-   "slug": "volga-sd",
-   "neighborhoods": [
-    "Downtown Volga",
-    "Oakwood area"
-   ],
-   "landmarks": [
-    "Oakwood Lakes State Park",
-    "Sixmile Creek"
-   ],
-   "zip_codes": [
-    "57071"
-   ],
-   "local_notes": "Located just west of Brookings near Oakwood Lakes for lake-home service calls."
-  },
-  {
-   "city": "Beresford",
-   "state": "SD",
-   "slug": "beresford-sd",
-   "neighborhoods": [
-    "Downtown Beresford",
-    "East Beresford"
-   ],
-   "landmarks": [
-    "Beresford Golf Course",
-    "Interstate 29 Exit 47"
-   ],
-   "zip_codes": [
-    "57004"
-   ],
-   "local_notes": "The 'Town of Friendly People' sits at the Union-Lincoln county line along I-29."
-  },
-  {
-   "city": "Dakota Dunes",
-   "state": "SD",
-   "slug": "dakota-dunes-sd",
-   "neighborhoods": [
-    "The Dunes golf community",
-    "Two Rivers"
-   ],
-   "landmarks": [
-    "Dakota Dunes Country Club",
-    "Missouri River",
-    "Big Sioux River confluence"
-   ],
-   "zip_codes": [
-    "57049"
-   ],
-   "local_notes": "This upscale riverside community faced major flooding during the 2011 Missouri River flood."
-  },
-  {
-   "city": "Elk Point",
-   "state": "SD",
-   "slug": "elk-point-sd",
-   "neighborhoods": [
-    "Downtown Elk Point",
-    "West Elk Point"
-   ],
-   "landmarks": [
-    "Union County Courthouse",
-    "Adams Homestead and Nature Preserve"
-   ],
-   "zip_codes": [
-    "57025"
-   ],
-   "local_notes": "The Union County seat, one of the oldest towns in South Dakota near the Missouri River."
-  },
-  {
-   "city": "Adrian",
-   "state": "MN",
-   "slug": "adrian-mn",
-   "neighborhoods": [
-    "Downtown Adrian",
-    "East Adrian"
-   ],
-   "landmarks": [
-    "St. Adrian Catholic Church",
-    "Interstate 90 Exit 26"
-   ],
-   "zip_codes": [
-    "56110"
-   ],
-   "local_notes": "A tight-knit Nobles County town right along I-90 in southwest Minnesota."
-  },
-  {
-   "city": "Edgerton",
-   "state": "MN",
-   "slug": "edgerton-mn",
-   "neighborhoods": [
-    "Downtown Edgerton",
-    "West Edgerton"
-   ],
-   "landmarks": [
-    "Edgerton Public Library",
-    "Chanarambie Creek"
-   ],
-   "zip_codes": [
-    "56128"
-   ],
-   "local_notes": "A small Pipestone County community known for its strong Dutch heritage."
-  },
-  {
-   "city": "Fulda",
-   "state": "MN",
-   "slug": "fulda-mn",
-   "neighborhoods": [
-    "Downtown Fulda",
-    "Lakeside Fulda"
-   ],
-   "landmarks": [
-    "Fulda Lakes",
-    "Seven Mile Lake"
-   ],
-   "zip_codes": [
-    "56131"
-   ],
-   "local_notes": "This Murray County town sits between two lakes popular for recreation."
-  },
-  {
-   "city": "George",
-   "state": "IA",
-   "slug": "george-ia",
-   "neighborhoods": [
-    "Downtown George",
-    "North George"
-   ],
-   "landmarks": [
-    "George City Park",
-    "Lyon County line"
-   ],
-   "zip_codes": [
-    "51237"
-   ],
-   "local_notes": "A small Lyon County farm town in Iowa's northwest corner."
-  },
-  {
-   "city": "Hawarden",
-   "state": "IA",
-   "slug": "hawarden-ia",
-   "neighborhoods": [
-    "Downtown Hawarden",
-    "Central Avenue district"
-   ],
-   "landmarks": [
-    "Big Sioux River",
-    "Calliope Village",
-    "Hawarden Golf Course"
-   ],
-   "zip_codes": [
-    "51023"
-   ],
-   "local_notes": "A Sioux County river town on the Big Sioux, once home to the historic Calliope settlement."
-  },
-  {
-   "city": "Hull",
-   "state": "IA",
-   "slug": "hull-ia",
-   "neighborhoods": [
-    "Downtown Hull",
-    "West Hull"
-   ],
-   "landmarks": [
-    "Boyden-Hull High School",
-    "Hull City Park"
-   ],
-   "zip_codes": [
-    "51239"
-   ],
-   "local_notes": "A Sioux County community with deep Dutch-American roots and strong agriculture."
-  },
-  {
-   "city": "Alton",
-   "state": "IA",
-   "slug": "alton-ia",
-   "neighborhoods": [
-    "Downtown Alton",
-    "East Alton"
-   ],
-   "landmarks": [
-    "Floyd River",
-    "St. Mary's Catholic Church"
-   ],
-   "zip_codes": [
-    "51003"
-   ],
-   "local_notes": "A Sioux County town along the Floyd River near neighboring Orange City."
-  },
-  {
-   "city": "Akron",
-   "state": "IA",
-   "slug": "akron-ia",
-   "neighborhoods": [
-    "Downtown Akron",
-    "River district"
-   ],
-   "landmarks": [
-    "Big Sioux River",
-    "Akron-Westfield School"
-   ],
-   "zip_codes": [
-    "51001"
-   ],
-   "local_notes": "A Plymouth County town on the Big Sioux River at the South Dakota border."
-  },
-  {
-   "city": "Remsen",
-   "state": "IA",
-   "slug": "remsen-ia",
-   "neighborhoods": [
-    "Downtown Remsen",
-    "St. Mary's district"
-   ],
-   "landmarks": [
-    "St. Mary's Catholic Church",
-    "Remsen City Park"
-   ],
-   "zip_codes": [
-    "51050"
-   ],
-   "local_notes": "A Plymouth County town known for its German Catholic heritage and Oktoberfest."
-  },
-  {
-   "city": "Hinton",
-   "state": "IA",
-   "slug": "hinton-ia",
-   "neighborhoods": [
-    "Downtown Hinton",
-    "West Fork area"
-   ],
-   "landmarks": [
-    "West Fork Little Sioux River",
-    "Hinton Community School"
-   ],
-   "zip_codes": [
-    "51024"
-   ],
-   "local_notes": "A growing Plymouth County town just north of Sioux City along Highway 75."
-  },
-  {
-   "city": "Merrill",
-   "state": "IA",
-   "slug": "merrill-ia",
-   "neighborhoods": [
-    "Downtown Merrill",
-    "East Merrill"
-   ],
-   "landmarks": [
-    "Floyd River",
-    "Merrill City Park"
-   ],
-   "zip_codes": [
-    "51038"
-   ],
-   "local_notes": "A small Plymouth County community along the Floyd River near Le Mars."
-  },
-  {
-   "city": "Kingsley",
-   "state": "IA",
-   "slug": "kingsley-ia",
-   "neighborhoods": [
-    "Downtown Kingsley",
-    "South Kingsley"
-   ],
-   "landmarks": [
-    "Kingsley-Pierson School",
-    "Kingsley City Park"
-   ],
-   "zip_codes": [
-    "51028"
-   ],
-   "local_notes": "A Plymouth County farm town in the rolling Loess Hills region of western Iowa."
-  }
- ]
+  "template": "restoration",
+  "services": [
+    "water-damage-restoration",
+    "fire-damage-restoration",
+    "mold-remediation",
+    "storm-damage-restoration",
+    "general-contracting",
+    "roofing",
+    "sewage-cleanup",
+    "biohazard-cleanup",
+    "asbestos-abatement",
+    "emergency-board-up-tarping",
+    "siding-gutters",
+    "contents-restoration",
+    "post-construction-cleaning"
+  ],
+  "blog_seed_count": 12,
+  "service_areas": [
+    {
+      "city": "Sioux Falls",
+      "state": "SD",
+      "slug": "sioux-falls-sd",
+      "neighborhoods": [
+        "McKennan Park",
+        "All Saints",
+        "Whittier",
+        "Cathedral Historic District",
+        "Prairie Green"
+      ],
+      "landmarks": [
+        "Falls Park",
+        "Washington Pavilion",
+        "Great Plains Zoo",
+        "Sanford USD Medical Center"
+      ],
+      "zip_codes": [
+        "57103",
+        "57104",
+        "57105",
+        "57106",
+        "57107",
+        "57108",
+        "57110"
+      ],
+      "local_notes": "Home base \the the \\ fastest response times across the metro.",
+      "primary": true
+    },
+    {
+      "city": "Brookings",
+      "state": "SD",
+      "slug": "brookings-sd",
+      "neighborhoods": [
+        "Downtown Brookings",
+        "Sexauer Park area",
+        "Pheasant Ridge"
+      ],
+      "landmarks": [
+        "South Dakota State University",
+        "McCrory Gardens",
+        "Children's Museum of South Dakota"
+      ],
+      "zip_codes": [
+        "57006"
+      ],
+      "local_notes": "College-town rentals near SDSU often need quick water and storm damage turnaround."
+    },
+    {
+      "city": "Yankton",
+      "state": "SD",
+      "slug": "yankton-sd",
+      "neighborhoods": [
+        "Downtown Yankton",
+        "Riverside",
+        "Westside"
+      ],
+      "landmarks": [
+        "Lewis and Clark Lake",
+        "Gavins Point Dam",
+        "Riverside Park"
+      ],
+      "zip_codes": [
+        "57078"
+      ],
+      "local_notes": "Lakeside properties near Gavins Point see recurring flood and moisture issues."
+    },
+    {
+      "city": "Worthington",
+      "state": "MN",
+      "slug": "worthington-mn",
+      "neighborhoods": [
+        "Downtown Worthington",
+        "Lake Okabena area"
+      ],
+      "landmarks": [
+        "Lake Okabena",
+        "Chautauqua Park",
+        "Nobles County Fairgrounds"
+      ],
+      "zip_codes": [
+        "56187"
+      ],
+      "local_notes": "Homes around Lake Okabena are prone to seasonal water intrusion."
+    },
+    {
+      "city": "Brandon",
+      "state": "SD",
+      "slug": "brandon-sd",
+      "neighborhoods": [
+        "Aspen Heights",
+        "Brandon Valley",
+        "Split Rock area"
+      ],
+      "landmarks": [
+        "Split Rock Creek",
+        "Brandon Golf Course",
+        "Aspen Park"
+      ],
+      "zip_codes": [
+        "57005"
+      ],
+      "local_notes": "Fast-growing suburb east of Sioux Falls with many newer subdivisions."
+    },
+    {
+      "city": "Le Mars",
+      "state": "IA",
+      "slug": "le-mars-ia",
+      "neighborhoods": [
+        "Downtown Le Mars",
+        "Foster Park area"
+      ],
+      "landmarks": [
+        "Wells Blue Bunny visitor center",
+        "Foster Park",
+        "Plymouth County Courthouse"
+      ],
+      "zip_codes": [
+        "51031"
+      ],
+      "local_notes": "Known as the Ice Cream Capital, with a mix of historic and newer homes."
+    },
+    {
+      "city": "Sioux Center",
+      "state": "IA",
+      "slug": "sioux-center-ia",
+      "neighborhoods": [
+        "Downtown Sioux Center",
+        "Children's Park area"
+      ],
+      "landmarks": [
+        "Dordt University",
+        "Open Space Park",
+        "Sioux Center Health"
+      ],
+      "zip_codes": [
+        "51250"
+      ],
+      "local_notes": "College and agricultural community in the heart of Sioux County."
+    },
+    {
+      "city": "Harrisburg",
+      "state": "SD",
+      "slug": "harrisburg-sd",
+      "neighborhoods": [
+        "Willow Run",
+        "Journey subdivision",
+        "Downtown Harrisburg"
+      ],
+      "landmarks": [
+        "Harrisburg High School",
+        "Willow Creek",
+        "Freedom Elementary"
+      ],
+      "zip_codes": [
+        "57032"
+      ],
+      "local_notes": "One of the fastest-growing communities south of Sioux Falls."
+    },
+    {
+      "city": "Madison",
+      "state": "SD",
+      "slug": "madison-sd",
+      "neighborhoods": [
+        "Downtown Madison",
+        "Lake Herman area"
+      ],
+      "landmarks": [
+        "Dakota State University",
+        "Lake Herman State Park",
+        "Prairie Village"
+      ],
+      "zip_codes": [
+        "57042"
+      ],
+      "local_notes": "Lakeside cabins near Lake Herman often need water damage service."
+    },
+    {
+      "city": "Tea",
+      "state": "SD",
+      "slug": "tea-sd",
+      "neighborhoods": [
+        "Sunrise Ridge",
+        "Prairie Meadows",
+        "Downtown Tea"
+      ],
+      "landmarks": [
+        "Tea Area High School",
+        "Legacy Park"
+      ],
+      "zip_codes": [
+        "57064"
+      ],
+      "local_notes": "Rapidly expanding bedroom community just southwest of Sioux Falls."
+    },
+    {
+      "city": "Orange City",
+      "state": "IA",
+      "slug": "orange-city-ia",
+      "neighborhoods": [
+        "Downtown Orange City",
+        "Windmill Park area"
+      ],
+      "landmarks": [
+        "Northwestern College",
+        "Windmill Park",
+        "Tulip Festival grounds"
+      ],
+      "zip_codes": [
+        "51041"
+      ],
+      "local_notes": "Dutch-heritage town famous for its annual Tulip Festival."
+    },
+    {
+      "city": "Luverne",
+      "state": "MN",
+      "slug": "luverne-mn",
+      "neighborhoods": [
+        "Downtown Luverne",
+        "The Bluffs area"
+      ],
+      "landmarks": [
+        "Blue Mounds State Park",
+        "Rock County Courthouse",
+        "Redbird Field"
+      ],
+      "zip_codes": [
+        "56156"
+      ],
+      "local_notes": "Gateway town near Blue Mounds with prairie storm exposure."
+    },
+    {
+      "city": "Pipestone",
+      "state": "MN",
+      "slug": "pipestone-mn",
+      "neighborhoods": [
+        "Downtown Pipestone Historic District",
+        "Hiawatha area"
+      ],
+      "landmarks": [
+        "Pipestone National Monument",
+        "Historic Calumet Inn",
+        "Hiawatha Pageant grounds"
+      ],
+      "zip_codes": [
+        "56164"
+      ],
+      "local_notes": "Historic quartzite buildings downtown require specialized restoration care."
+    },
+    {
+      "city": "Rock Valley",
+      "state": "IA",
+      "slug": "rock-valley-ia",
+      "neighborhoods": [
+        "Downtown Rock Valley",
+        "Rock River area"
+      ],
+      "landmarks": [
+        "Rock River",
+        "Rock Valley City Park",
+        "Hospers Park"
+      ],
+      "zip_codes": [
+        "51247"
+      ],
+      "local_notes": "Rock River flooding has historically affected low-lying properties."
+    },
+    {
+      "city": "Dell Rapids",
+      "state": "SD",
+      "slug": "dell-rapids-sd",
+      "neighborhoods": [
+        "Downtown Dell Rapids Historic District",
+        "Big Sioux River area"
+      ],
+      "landmarks": [
+        "The Dells of the Big Sioux",
+        "Dell Rapids Museum",
+        "Rocky Run"
+      ],
+      "zip_codes": [
+        "57022"
+      ],
+      "local_notes": "Quartzite-lined river dells draw visitors and flood-prone lots along the Big Sioux."
+    },
+    {
+      "city": "Hartford",
+      "state": "SD",
+      "slug": "hartford-sd",
+      "neighborhoods": [
+        "Downtown Hartford",
+        "Buffalo Ridge area"
+      ],
+      "landmarks": [
+        "Buffalo Ridge Ghost Town",
+        "West Central High School"
+      ],
+      "zip_codes": [
+        "57033"
+      ],
+      "local_notes": "Growing community west of Sioux Falls along Highway 42."
+    },
+    {
+      "city": "Canton",
+      "state": "SD",
+      "slug": "canton-sd",
+      "neighborhoods": [
+        "Downtown Canton",
+        "Big Sioux River area"
+      ],
+      "landmarks": [
+        "Newton Hills State Park",
+        "Augustana Lutheran Church",
+        "Lincoln County Courthouse"
+      ],
+      "zip_codes": [
+        "57013"
+      ],
+      "local_notes": "Riverfront town near Newton Hills with older housing stock."
+    },
+    {
+      "city": "North Sioux City",
+      "state": "SD",
+      "slug": "north-sioux-city-sd",
+      "neighborhoods": [
+        "McCook Lake area",
+        "Downtown North Sioux City"
+      ],
+      "landmarks": [
+        "McCook Lake",
+        "Adams Homestead and Nature Preserve",
+        "Dakota Dunes"
+      ],
+      "zip_codes": [
+        "57049"
+      ],
+      "local_notes": "McCook Lake homes have faced significant flood damage in recent years."
+    },
+    {
+      "city": "Sibley",
+      "state": "IA",
+      "slug": "sibley-ia",
+      "neighborhoods": [
+        "Downtown Sibley",
+        "Osceola County Fairgrounds area"
+      ],
+      "landmarks": [
+        "Osceola County Courthouse",
+        "Sibley City Park"
+      ],
+      "zip_codes": [
+        "51249"
+      ],
+      "local_notes": "County seat of Osceola County with a compact historic downtown."
+    },
+    {
+      "city": "Rock Rapids",
+      "state": "IA",
+      "slug": "rock-rapids-ia",
+      "neighborhoods": [
+        "Downtown Rock Rapids",
+        "Rock River area"
+      ],
+      "landmarks": [
+        "Lyon County Courthouse",
+        "Emma Sater Park",
+        "Rock River"
+      ],
+      "zip_codes": [
+        "51246"
+      ],
+      "local_notes": "Rock River flooding poses recurring risk to riverside properties."
+    },
+    {
+      "city": "Lennox",
+      "state": "SD",
+      "slug": "lennox-sd",
+      "neighborhoods": [
+        "Downtown Lennox",
+        "Lennox City Park area"
+      ],
+      "landmarks": [
+        "Lennox City Park",
+        "Lincoln County farmland"
+      ],
+      "zip_codes": [
+        "57039"
+      ],
+      "local_notes": "Small Lincoln County town with steady residential growth."
+    },
+    {
+      "city": "Flandreau",
+      "state": "SD",
+      "slug": "flandreau-sd",
+      "neighborhoods": [
+        "Downtown Flandreau",
+        "Big Sioux River area"
+      ],
+      "landmarks": [
+        "Flandreau Santee Sioux Reservation",
+        "Royal River Casino",
+        "First American Baptist Church"
+      ],
+      "zip_codes": [
+        "57028"
+      ],
+      "local_notes": "Big Sioux River town home to the Flandreau Santee Sioux Tribe."
+    },
+    {
+      "city": "Parker",
+      "state": "SD",
+      "slug": "parker-sd",
+      "neighborhoods": [
+        "Downtown Parker",
+        "Turner County Fairgrounds area"
+      ],
+      "landmarks": [
+        "Turner County Courthouse",
+        "Turner County Fairgrounds"
+      ],
+      "zip_codes": [
+        "57053"
+      ],
+      "local_notes": "Turner County seat known for its long-running county fair."
+    },
+    {
+      "city": "Salem",
+      "state": "SD",
+      "slug": "salem-sd",
+      "neighborhoods": [
+        "Downtown Salem",
+        "McCook County Fairgrounds area"
+      ],
+      "landmarks": [
+        "McCook County Courthouse",
+        "Lake Vermillion nearby"
+      ],
+      "zip_codes": [
+        "57058"
+      ],
+      "local_notes": "McCook County seat along the I-90 corridor west of Sioux Falls."
+    },
+    {
+      "city": "Slayton",
+      "state": "MN",
+      "slug": "slayton-mn",
+      "neighborhoods": [
+        "Downtown Slayton",
+        "Lake Sarah area"
+      ],
+      "landmarks": [
+        "Murray County Courthouse",
+        "Lake Sarah",
+        "End-O-Line Railroad Park nearby"
+      ],
+      "zip_codes": [
+        "56172"
+      ],
+      "local_notes": "Murray County seat with nearby lakes that see seasonal flooding."
+    },
+    {
+      "city": "Crooks",
+      "state": "SD",
+      "slug": "crooks-sd",
+      "neighborhoods": [
+        "Downtown Crooks",
+        "West Crooks"
+      ],
+      "landmarks": [
+        "Crooks City Park",
+        "Renner Corner"
+      ],
+      "zip_codes": [
+        "57020"
+      ],
+      "local_notes": "A quick drive northwest of Sioux Falls off Highway 138 for fast local response."
+    },
+    {
+      "city": "Baltic",
+      "state": "SD",
+      "slug": "baltic-sd",
+      "neighborhoods": [
+        "Downtown Baltic",
+        "Big Sioux River area"
+      ],
+      "landmarks": [
+        "Big Sioux River",
+        "Baltic School"
+      ],
+      "zip_codes": [
+        "57003"
+      ],
+      "local_notes": "River-adjacent homes here can be prone to spring flooding along the Big Sioux."
+    },
+    {
+      "city": "Garretson",
+      "state": "SD",
+      "slug": "garretson-sd",
+      "neighborhoods": [
+        "Downtown Garretson",
+        "Palisades area"
+      ],
+      "landmarks": [
+        "Palisades State Park",
+        "Devil's Gulch",
+        "Split Rock Creek"
+      ],
+      "zip_codes": [
+        "57030"
+      ],
+      "local_notes": "Known for the dramatic Sioux quartzite cliffs at Palisades State Park."
+    },
+    {
+      "city": "Worthing",
+      "state": "SD",
+      "slug": "worthing-sd",
+      "neighborhoods": [
+        "Downtown Worthing",
+        "East Worthing"
+      ],
+      "landmarks": [
+        "Worthing City Park",
+        "Interstate 29 Exit 68"
+      ],
+      "zip_codes": [
+        "57077"
+      ],
+      "local_notes": "A growing bedroom community just south of Sioux Falls along I-29."
+    },
+    {
+      "city": "Volga",
+      "state": "SD",
+      "slug": "volga-sd",
+      "neighborhoods": [
+        "Downtown Volga",
+        "Oakwood area"
+      ],
+      "landmarks": [
+        "Oakwood Lakes State Park",
+        "Sixmile Creek"
+      ],
+      "zip_codes": [
+        "57071"
+      ],
+      "local_notes": "Located just west of Brookings near Oakwood Lakes for lake-home service calls."
+    },
+    {
+      "city": "Beresford",
+      "state": "SD",
+      "slug": "beresford-sd",
+      "neighborhoods": [
+        "Downtown Beresford",
+        "East Beresford"
+      ],
+      "landmarks": [
+        "Beresford Golf Course",
+        "Interstate 29 Exit 47"
+      ],
+      "zip_codes": [
+        "57004"
+      ],
+      "local_notes": "The 'Town of Friendly People' sits at the Union-Lincoln county line along I-29."
+    },
+    {
+      "city": "Dakota Dunes",
+      "state": "SD",
+      "slug": "dakota-dunes-sd",
+      "neighborhoods": [
+        "The Dunes golf community",
+        "Two Rivers"
+      ],
+      "landmarks": [
+        "Dakota Dunes Country Club",
+        "Missouri River",
+        "Big Sioux River confluence"
+      ],
+      "zip_codes": [
+        "57049"
+      ],
+      "local_notes": "This upscale riverside community faced major flooding during the 2011 Missouri River flood."
+    },
+    {
+      "city": "Elk Point",
+      "state": "SD",
+      "slug": "elk-point-sd",
+      "neighborhoods": [
+        "Downtown Elk Point",
+        "West Elk Point"
+      ],
+      "landmarks": [
+        "Union County Courthouse",
+        "Adams Homestead and Nature Preserve"
+      ],
+      "zip_codes": [
+        "57025"
+      ],
+      "local_notes": "The Union County seat, one of the oldest towns in South Dakota near the Missouri River."
+    },
+    {
+      "city": "Adrian",
+      "state": "MN",
+      "slug": "adrian-mn",
+      "neighborhoods": [
+        "Downtown Adrian",
+        "East Adrian"
+      ],
+      "landmarks": [
+        "St. Adrian Catholic Church",
+        "Interstate 90 Exit 26"
+      ],
+      "zip_codes": [
+        "56110"
+      ],
+      "local_notes": "A tight-knit Nobles County town right along I-90 in southwest Minnesota."
+    },
+    {
+      "city": "Edgerton",
+      "state": "MN",
+      "slug": "edgerton-mn",
+      "neighborhoods": [
+        "Downtown Edgerton",
+        "West Edgerton"
+      ],
+      "landmarks": [
+        "Edgerton Public Library",
+        "Chanarambie Creek"
+      ],
+      "zip_codes": [
+        "56128"
+      ],
+      "local_notes": "A small Pipestone County community known for its strong Dutch heritage."
+    },
+    {
+      "city": "Fulda",
+      "state": "MN",
+      "slug": "fulda-mn",
+      "neighborhoods": [
+        "Downtown Fulda",
+        "Lakeside Fulda"
+      ],
+      "landmarks": [
+        "Fulda Lakes",
+        "Seven Mile Lake"
+      ],
+      "zip_codes": [
+        "56131"
+      ],
+      "local_notes": "This Murray County town sits between two lakes popular for recreation."
+    },
+    {
+      "city": "George",
+      "state": "IA",
+      "slug": "george-ia",
+      "neighborhoods": [
+        "Downtown George",
+        "North George"
+      ],
+      "landmarks": [
+        "George City Park",
+        "Lyon County line"
+      ],
+      "zip_codes": [
+        "51237"
+      ],
+      "local_notes": "A small Lyon County farm town in Iowa's northwest corner."
+    },
+    {
+      "city": "Hawarden",
+      "state": "IA",
+      "slug": "hawarden-ia",
+      "neighborhoods": [
+        "Downtown Hawarden",
+        "Central Avenue district"
+      ],
+      "landmarks": [
+        "Big Sioux River",
+        "Calliope Village",
+        "Hawarden Golf Course"
+      ],
+      "zip_codes": [
+        "51023"
+      ],
+      "local_notes": "A Sioux County river town on the Big Sioux, once home to the historic Calliope settlement."
+    },
+    {
+      "city": "Hull",
+      "state": "IA",
+      "slug": "hull-ia",
+      "neighborhoods": [
+        "Downtown Hull",
+        "West Hull"
+      ],
+      "landmarks": [
+        "Boyden-Hull High School",
+        "Hull City Park"
+      ],
+      "zip_codes": [
+        "51239"
+      ],
+      "local_notes": "A Sioux County community with deep Dutch-American roots and strong agriculture."
+    },
+    {
+      "city": "Alton",
+      "state": "IA",
+      "slug": "alton-ia",
+      "neighborhoods": [
+        "Downtown Alton",
+        "East Alton"
+      ],
+      "landmarks": [
+        "Floyd River",
+        "St. Mary's Catholic Church"
+      ],
+      "zip_codes": [
+        "51003"
+      ],
+      "local_notes": "A Sioux County town along the Floyd River near neighboring Orange City."
+    },
+    {
+      "city": "Akron",
+      "state": "IA",
+      "slug": "akron-ia",
+      "neighborhoods": [
+        "Downtown Akron",
+        "River district"
+      ],
+      "landmarks": [
+        "Big Sioux River",
+        "Akron-Westfield School"
+      ],
+      "zip_codes": [
+        "51001"
+      ],
+      "local_notes": "A Plymouth County town on the Big Sioux River at the South Dakota border."
+    },
+    {
+      "city": "Remsen",
+      "state": "IA",
+      "slug": "remsen-ia",
+      "neighborhoods": [
+        "Downtown Remsen",
+        "St. Mary's district"
+      ],
+      "landmarks": [
+        "St. Mary's Catholic Church",
+        "Remsen City Park"
+      ],
+      "zip_codes": [
+        "51050"
+      ],
+      "local_notes": "A Plymouth County town known for its German Catholic heritage and Oktoberfest."
+    },
+    {
+      "city": "Hinton",
+      "state": "IA",
+      "slug": "hinton-ia",
+      "neighborhoods": [
+        "Downtown Hinton",
+        "West Fork area"
+      ],
+      "landmarks": [
+        "West Fork Little Sioux River",
+        "Hinton Community School"
+      ],
+      "zip_codes": [
+        "51024"
+      ],
+      "local_notes": "A growing Plymouth County town just north of Sioux City along Highway 75."
+    },
+    {
+      "city": "Merrill",
+      "state": "IA",
+      "slug": "merrill-ia",
+      "neighborhoods": [
+        "Downtown Merrill",
+        "East Merrill"
+      ],
+      "landmarks": [
+        "Floyd River",
+        "Merrill City Park"
+      ],
+      "zip_codes": [
+        "51038"
+      ],
+      "local_notes": "A small Plymouth County community along the Floyd River near Le Mars."
+    },
+    {
+      "city": "Kingsley",
+      "state": "IA",
+      "slug": "kingsley-ia",
+      "neighborhoods": [
+        "Downtown Kingsley",
+        "South Kingsley"
+      ],
+      "landmarks": [
+        "Kingsley-Pierson School",
+        "Kingsley City Park"
+      ],
+      "zip_codes": [
+        "51028"
+      ],
+      "local_notes": "A Plymouth County farm town in the rolling Loess Hills region of western Iowa."
+    }
+  ]
 }
