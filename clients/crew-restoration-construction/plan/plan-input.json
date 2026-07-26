@@ -486,6 +486,349 @@
         "56172"
       ],
       "local_notes": "Murray County seat with nearby lakes that see seasonal flooding."
+    },
+    {
+      "city": "Crooks",
+      "state": "SD",
+      "slug": "crooks-sd",
+      "neighborhoods": [
+        "Downtown Crooks",
+        "West Crooks"
+      ],
+      "landmarks": [
+        "Crooks City Park",
+        "Renner Corner"
+      ],
+      "zip_codes": [
+        "57020"
+      ],
+      "local_notes": "A quick drive northwest of Sioux Falls off Highway 138 for fast local response."
+    },
+    {
+      "city": "Baltic",
+      "state": "SD",
+      "slug": "baltic-sd",
+      "neighborhoods": [
+        "Downtown Baltic",
+        "Big Sioux River area"
+      ],
+      "landmarks": [
+        "Big Sioux River",
+        "Baltic School"
+      ],
+      "zip_codes": [
+        "57003"
+      ],
+      "local_notes": "River-adjacent homes here can be prone to spring flooding along the Big Sioux."
+    },
+    {
+      "city": "Garretson",
+      "state": "SD",
+      "slug": "garretson-sd",
+      "neighborhoods": [
+        "Downtown Garretson",
+        "Palisades area"
+      ],
+      "landmarks": [
+        "Palisades State Park",
+        "Devil's Gulch",
+        "Split Rock Creek"
+      ],
+      "zip_codes": [
+        "57030"
+      ],
+      "local_notes": "Known for the dramatic Sioux quartzite cliffs at Palisades State Park."
+    },
+    {
+      "city": "Worthing",
+      "state": "SD",
+      "slug": "worthing-sd",
+      "neighborhoods": [
+        "Downtown Worthing",
+        "East Worthing"
+      ],
+      "landmarks": [
+        "Worthing City Park",
+        "Interstate 29 Exit 68"
+      ],
+      "zip_codes": [
+        "57077"
+      ],
+      "local_notes": "A growing bedroom community just south of Sioux Falls along I-29."
+    },
+    {
+      "city": "Volga",
+      "state": "SD",
+      "slug": "volga-sd",
+      "neighborhoods": [
+        "Downtown Volga",
+        "Oakwood area"
+      ],
+      "landmarks": [
+        "Oakwood Lakes State Park",
+        "Sixmile Creek"
+      ],
+      "zip_codes": [
+        "57071"
+      ],
+      "local_notes": "Located just west of Brookings near Oakwood Lakes for lake-home service calls."
+    },
+    {
+      "city": "Beresford",
+      "state": "SD",
+      "slug": "beresford-sd",
+      "neighborhoods": [
+        "Downtown Beresford",
+        "East Beresford"
+      ],
+      "landmarks": [
+        "Beresford Golf Course",
+        "Interstate 29 Exit 47"
+      ],
+      "zip_codes": [
+        "57004"
+      ],
+      "local_notes": "The 'Town of Friendly People' sits at the Union-Lincoln county line along I-29."
+    },
+    {
+      "city": "Dakota Dunes",
+      "state": "SD",
+      "slug": "dakota-dunes-sd",
+      "neighborhoods": [
+        "The Dunes golf community",
+        "Two Rivers"
+      ],
+      "landmarks": [
+        "Dakota Dunes Country Club",
+        "Missouri River",
+        "Big Sioux River confluence"
+      ],
+      "zip_codes": [
+        "57049"
+      ],
+      "local_notes": "This upscale riverside community faced major flooding during the 2011 Missouri River flood."
+    },
+    {
+      "city": "Elk Point",
+      "state": "SD",
+      "slug": "elk-point-sd",
+      "neighborhoods": [
+        "Downtown Elk Point",
+        "West Elk Point"
+      ],
+      "landmarks": [
+        "Union County Courthouse",
+        "Adams Homestead and Nature Preserve"
+      ],
+      "zip_codes": [
+        "57025"
+      ],
+      "local_notes": "The Union County seat, one of the oldest towns in South Dakota near the Missouri River."
+    },
+    {
+      "city": "Adrian",
+      "state": "MN",
+      "slug": "adrian-mn",
+      "neighborhoods": [
+        "Downtown Adrian",
+        "East Adrian"
+      ],
+      "landmarks": [
+        "St. Adrian Catholic Church",
+        "Interstate 90 Exit 26"
+      ],
+      "zip_codes": [
+        "56110"
+      ],
+      "local_notes": "A tight-knit Nobles County town right along I-90 in southwest Minnesota."
+    },
+    {
+      "city": "Edgerton",
+      "state": "MN",
+      "slug": "edgerton-mn",
+      "neighborhoods": [
+        "Downtown Edgerton",
+        "West Edgerton"
+      ],
+      "landmarks": [
+        "Edgerton Public Library",
+        "Chanarambie Creek"
+      ],
+      "zip_codes": [
+        "56128"
+      ],
+      "local_notes": "A small Pipestone County community known for its strong Dutch heritage."
+    },
+    {
+      "city": "Fulda",
+      "state": "MN",
+      "slug": "fulda-mn",
+      "neighborhoods": [
+        "Downtown Fulda",
+        "Lakeside Fulda"
+      ],
+      "landmarks": [
+        "Fulda Lakes",
+        "Seven Mile Lake"
+      ],
+      "zip_codes": [
+        "56131"
+      ],
+      "local_notes": "This Murray County town sits between two lakes popular for recreation."
+    },
+    {
+      "city": "George",
+      "state": "IA",
+      "slug": "george-ia",
+      "neighborhoods": [
+        "Downtown George",
+        "North George"
+      ],
+      "landmarks": [
+        "George City Park",
+        "Lyon County line"
+      ],
+      "zip_codes": [
+        "51237"
+      ],
+      "local_notes": "A small Lyon County farm town in Iowa's northwest corner."
+    },
+    {
+      "city": "Hawarden",
+      "state": "IA",
+      "slug": "hawarden-ia",
+      "neighborhoods": [
+        "Downtown Hawarden",
+        "Central Avenue district"
+      ],
+      "landmarks": [
+        "Big Sioux River",
+        "Calliope Village",
+        "Hawarden Golf Course"
+      ],
+      "zip_codes": [
+        "51023"
+      ],
+      "local_notes": "A Sioux County river town on the Big Sioux, once home to the historic Calliope settlement."
+    },
+    {
+      "city": "Hull",
+      "state": "IA",
+      "slug": "hull-ia",
+      "neighborhoods": [
+        "Downtown Hull",
+        "West Hull"
+      ],
+      "landmarks": [
+        "Boyden-Hull High School",
+        "Hull City Park"
+      ],
+      "zip_codes": [
+        "51239"
+      ],
+      "local_notes": "A Sioux County community with deep Dutch-American roots and strong agriculture."
+    },
+    {
+      "city": "Alton",
+      "state": "IA",
+      "slug": "alton-ia",
+      "neighborhoods": [
+        "Downtown Alton",
+        "East Alton"
+      ],
+      "landmarks": [
+        "Floyd River",
+        "St. Mary's Catholic Church"
+      ],
+      "zip_codes": [
+        "51003"
+      ],
+      "local_notes": "A Sioux County town along the Floyd River near neighboring Orange City."
+    },
+    {
+      "city": "Akron",
+      "state": "IA",
+      "slug": "akron-ia",
+      "neighborhoods": [
+        "Downtown Akron",
+        "River district"
+      ],
+      "landmarks": [
+        "Big Sioux River",
+        "Akron-Westfield School"
+      ],
+      "zip_codes": [
+        "51001"
+      ],
+      "local_notes": "A Plymouth County town on the Big Sioux River at the South Dakota border."
+    },
+    {
+      "city": "Remsen",
+      "state": "IA",
+      "slug": "remsen-ia",
+      "neighborhoods": [
+        "Downtown Remsen",
+        "St. Mary's district"
+      ],
+      "landmarks": [
+        "St. Mary's Catholic Church",
+        "Remsen City Park"
+      ],
+      "zip_codes": [
+        "51050"
+      ],
+      "local_notes": "A Plymouth County town known for its German Catholic heritage and Oktoberfest."
+    },
+    {
+      "city": "Hinton",
+      "state": "IA",
+      "slug": "hinton-ia",
+      "neighborhoods": [
+        "Downtown Hinton",
+        "West Fork area"
+      ],
+      "landmarks": [
+        "West Fork Little Sioux River",
+        "Hinton Community School"
+      ],
+      "zip_codes": [
+        "51024"
+      ],
+      "local_notes": "A growing Plymouth County town just north of Sioux City along Highway 75."
+    },
+    {
+      "city": "Merrill",
+      "state": "IA",
+      "slug": "merrill-ia",
+      "neighborhoods": [
+        "Downtown Merrill",
+        "East Merrill"
+      ],
+      "landmarks": [
+        "Floyd River",
+        "Merrill City Park"
+      ],
+      "zip_codes": [
+        "51038"
+      ],
+      "local_notes": "A small Plymouth County community along the Floyd River near Le Mars."
+    },
+    {
+      "city": "Kingsley",
+      "state": "IA",
+      "slug": "kingsley-ia",
+      "neighborhoods": [
+        "Downtown Kingsley",
+        "South Kingsley"
+      ],
+      "landmarks": [
+        "Kingsley-Pierson School",
+        "Kingsley City Park"
+      ],
+      "zip_codes": [
+        "51028"
+      ],
+      "local_notes": "A Plymouth County farm town in the rolling Loess Hills region of western Iowa."
     }
   ]
 }

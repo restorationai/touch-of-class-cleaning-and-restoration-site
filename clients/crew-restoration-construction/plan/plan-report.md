@@ -1,20 +1,20 @@
 # Site Plan Report — Crew Restoration & Construction
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-07-26T06:51:37.341028+00:00
+- Generated: 2026-07-26T15:31:08.687503+00:00
 - Domain: `None`
 - Services selected: 9 of 48 catalog entries
-- Service areas: 25
+- Service areas: 45
 - Cross-product enabled: True
-- Total URLs: **280**
-- Total internal links: 2212 (avg 7.9 per page)
+- Total URLs: **480**
+- Total internal links: 3792 (avg 7.9 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 225 |
-| `service-area` | 25 |
+| `service-area-service` | 405 |
+| `service-area` | 45 |
 | `blog-post` | 12 |
 | `service-landing` | 9 |
 | `legal` | 3 |
@@ -64,6 +64,26 @@
 - `parker-sd` — Parker, SD
 - `salem-sd` — Salem, SD
 - `slayton-mn` — Slayton, MN
+- `crooks-sd` — Crooks, SD
+- `baltic-sd` — Baltic, SD
+- `garretson-sd` — Garretson, SD
+- `worthing-sd` — Worthing, SD
+- `volga-sd` — Volga, SD
+- `beresford-sd` — Beresford, SD
+- `dakota-dunes-sd` — Dakota Dunes, SD
+- `elk-point-sd` — Elk Point, SD
+- `adrian-mn` — Adrian, MN
+- `edgerton-mn` — Edgerton, MN
+- `fulda-mn` — Fulda, MN
+- `george-ia` — George, IA
+- `hawarden-ia` — Hawarden, IA
+- `hull-ia` — Hull, IA
+- `alton-ia` — Alton, IA
+- `akron-ia` — Akron, IA
+- `remsen-ia` — Remsen, IA
+- `hinton-ia` — Hinton, IA
+- `merrill-ia` — Merrill, IA
+- `kingsley-ia` — Kingsley, IA
 
 ## Top 10 priority pages
 
@@ -78,7 +98,7 @@
 | `/service-areas/sioux-falls-sd/` | `service-area` | 7.2 | restoration services sioux falls |
 | `/services/biohazard-cleanup/` | `service-landing` | 7.2 | biohazard cleanup sioux falls |
 | `/services/general-contracting/` | `service-landing` | 7.2 | renovations, remodels and general contracting sioux falls |
-| `/service-areas/brandon-sd/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration brandon |
+| `/service-areas/adrian-mn/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration adrian |
 
 ## Validation
 
