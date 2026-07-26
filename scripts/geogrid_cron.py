@@ -48,24 +48,27 @@ def run_client(sb, slug: str, dry_run: bool) -> dict:
         print(f"  [{slug}] SKIP — no geogrid-keywords.txt / geogrid-cities.json")
         return {"slug": slug, "scans": 0, "cost": 0.0, "skipped": True}
 
-    pairs = [(kw, c) for kw in keywords for c in cities]
-    print(f"  [{slug}] {len(keywords)} keywords × {len(cities)} cities = {len(pairs)} scans")
+    # Per-city radius list (Santino 2026-07-26: 9.5mi standard, 15mi wide view
+    # for metro home cities). "miles_list" on a city entry; absent = [9.5].
+    pairs = [(kw, c, m) for kw in keywords for c in cities
+             for m in (c.get("miles_list") or [9.5])]
+    print(f"  [{slug}] {len(keywords)} keywords × {len(cities)} cities/radii = {len(pairs)} scans")
     if dry_run:
-        for kw, c in pairs:
-            print(f"      WOULD scan: '{kw}' @ {c['label']}")
+        for kw, c, m in pairs:
+            print(f"      WOULD scan: '{kw}' @ {c['label']} ({m}mi)")
         return {"slug": slug, "scans": len(pairs), "cost": 0.0, "skipped": False, "dry": True}
 
     scans, cost, fails = 0, 0.0, 0
-    for kw, c in pairs:
+    for kw, c, m in pairs:
         try:
-            row = scan_and_store(sb, slug, kw, c)
+            row = scan_and_store(sb, slug, kw, c, miles=m)
             scans += 1
             cost += float(row.get("cost_usd") or 0.0)
             print(f"      ok: '{kw}' @ {c['label']} | avg={row.get('avg_rank')} "
                   f"top3={row.get('pct_in_top3')}% found={row.get('found_points')}/{row.get('total_points')}")
         except Exception as e:
             fails += 1
-            sys.stderr.write(f"      FAIL: '{kw}' @ {c['label']}: {str(e)[:200]}\n")
+            sys.stderr.write(f"      FAIL: '{kw}' @ {c['label']} ({m}mi): {str(e)[:200]}\n")
         time.sleep(1)  # gentle pacing between scans
     print(f"  [{slug}] done — {scans} scans, {fails} failed, ${cost:.2f}")
     return {"slug": slug, "scans": scans, "cost": cost, "fails": fails, "skipped": False}
