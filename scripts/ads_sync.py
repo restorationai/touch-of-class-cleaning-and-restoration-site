@@ -257,18 +257,31 @@ def sync_metrics(google_ads_client: GoogleAdsClient, customer_id: str, company_i
 def main():
     logger.info("Starting Rank AI Ads Sync Pipeline...")
     
-    # 1. Get all connected Google Ads accounts
-    integrations_res = supabase.table("user_integrations").select("*").eq("provider", "google_ads").execute()
-    
-    if not integrations_res.data:
-        logger.info("No google_ads integrations found.")
+    # 1. Get all connected Google Ads accounts. Two shapes exist:
+    #    - legacy dedicated rows (provider='google_ads')
+    #    - the unified Google connect (provider='google') whose metadata
+    #      carries selected_ads_customer_id (Kyle/Crew3r 2026-07-26: PPC
+    #      invisible in the app because only 'google_ads' rows were swept).
+    #    Legacy row wins when a company has both.
+    ga_rows = supabase.table("user_integrations").select("*") \
+        .eq("provider", "google_ads").execute().data or []
+    g_rows = supabase.table("user_integrations").select("*") \
+        .eq("provider", "google").execute().data or []
+    seen = {r["client_id"] for r in ga_rows}
+    merged = ga_rows + [
+        r for r in g_rows
+        if r["client_id"] not in seen
+        and (r.get("connection_metadata") or {}).get("selected_ads_customer_id")]
+
+    if not merged:
+        logger.info("No ads-connected integrations found.")
         return
-        
-    for integration in integrations_res.data:
+
+    for integration in merged:
         company_id = integration["client_id"] # client_id == company_id in our architecture
         metadata = integration.get("connection_metadata", {})
-        
-        refresh_token = metadata.get("refresh_token")
+
+        refresh_token = integration.get("refresh_token") or metadata.get("refresh_token")
         client_customer_id = metadata.get("selected_ads_customer_id")
         login_customer_id = metadata.get("login_customer_id", client_customer_id) # Default to self if no MCC saved
         
