@@ -424,6 +424,136 @@ def ensure_bootstrapped(dry_run: bool, do_send: bool,
 # ---------------------------------------------------------------- main
 
 
+def ensure_setup_checklist(dry_run: bool, cid_to_slug: dict) -> list[str]:
+    """Daily business-setup checklist (Santino 2026-07-25: 'this is why they
+    pay US — we handle what we can'). Three buckets: auto-fix (ours, handled
+    by the optimizer/responder/importer), one-click approvals (ours, in-app),
+    and NEEDS-CLIENT — only that last bucket lands here, as pinned
+    client_input asks Monica works over SMS/email (docs by hub upload link or
+    email, never a call unless the client asks or goes quiet). Rows
+    auto-resolve when the underlying gap clears; docs arriving via the hub
+    already pin their own action-plan row, so ops gets notified to finish.
+
+    v1 checks:
+      lsa-docs     an open lsa_fix plan row -> ask for the real docs w/ links
+      svc-confirm  NEEDS-REVIEW service/category suggestions -> batched
+                   'do you actually offer these?' ask (top 3, humanized)
+      hours        GBP claimed but no business hours set
+      crew-photos  zero crew-uploaded job photos ever (gbp- imports and
+                   posted/ recycles don't count)
+    """
+    from upload_links_sync import hub_token
+
+    out: list[str] = []
+    active = _sb("GET", "/rest/v1/companies?status=ilike.active&select=id,name",
+                 prefer="return=representation") or []
+    svc_label = (lambda s: s[len("job_type_id:"):].replace("_", " ").capitalize()
+                 if str(s).startswith("job_type_id:") else str(s))
+
+    for co in active:
+        cid = co["id"]
+        slug = cid_to_slug.get(cid)
+        if not slug:
+            continue
+        hub = f"https://restorationai.io/hub/{slug}/{hub_token(slug)}"
+        photos_link = f"https://restorationai.io/gbpphotos/{slug}"
+        profs = _sb("GET", "/rest/v1/marketing_gbp_profiles"
+                    f"?company_id=eq.{cid}&select=has_hours,claimed",
+                    prefer="return=representation") or []
+        prof = profs[0] if profs else {}
+        lsa = _sb("GET", "/rest/v1/marketing_action_plan"
+                  f"?company_id=eq.{cid}&action_type=eq.lsa_fix&status=eq.planned"
+                  "&select=title,rationale", prefer="return=representation") or []
+        # Only clients actually live on marketing ops (synced GBP) get
+        # checklist nags — mid-onboarding clients aren't ready to be asked
+        # for crew photos. An open LSA blocker qualifies on its own.
+        if not profs and not lsa:
+            continue
+
+        checks: list[tuple[str, bool, str, str]] = []  # (seed, gap_open, title, rationale)
+        checks.append((
+            f"checklist-lsa-docs-{slug}", bool(lsa),
+            "ASK CLIENT: documents needed to unblock Local Services Ads",
+            ("Google rejected or is missing verification documents on this client's "
+             "Local Services Ads, so their LSA cannot serve. Blocker: {}\n\n"
+             "MONICA: ask the owner to send the required documents (state contractor "
+             "license, current certificate of insurance). They can reply with a photo, "
+             "email contact@restorationai.io, or use their private upload link: {} "
+             "(pick the License / Insurance category). We resubmit to Google for them "
+             "— they should NOT have to log into anything. Their upload pins a task "
+             "for our team automatically.").format(
+                (lsa[0]["title"] if lsa else ""), hub)))
+
+        nr = _sb("GET", "/rest/v1/marketing_gbp_suggestions"
+                 f"?company_id=eq.{cid}&status=eq.open&verdict=eq.NEEDS-REVIEW"
+                 "&item_type=in.(service,category)&select=item,reason",
+                 prefer="return=representation") or []
+        top = ", ".join(svc_label(x["item"]) for x in nr[:3])
+        checks.append((
+            f"checklist-svc-confirm-{slug}", bool(nr),
+            f"ASK CLIENT: confirm {len(nr)} service(s) on their Google listing",
+            ("Our Google Business Profile audit flagged {} item(s) it cannot confirm "
+             "the client actually offers (top: {}). MONICA: ask conversationally, max "
+             "3 per message, e.g. 'quick sanity check, do you folks handle {}? Want to "
+             "make sure your Google listing only shows what you actually do.' Relay "
+             "answers back; our team applies the changes — the client does nothing in "
+             "Google.").format(len(nr), top or "n/a", top or "these")))
+
+        checks.append((
+            f"checklist-hours-{slug}",
+            bool(prof) and prof.get("claimed") is True and prof.get("has_hours") is False,
+            "ASK CLIENT: business hours for the Google listing",
+            "Their Google Business Profile has no hours set, which suppresses the "
+            "listing for 'open now' searches. MONICA: ask what hours they want shown "
+            "(24/7 emergency companies usually want Open 24 hours). We set it on "
+            "Google for them."))
+
+        crew = 0
+        try:
+            sb_url = os.environ["SUPABASE_URL"].rstrip("/")
+            sb_key = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
+            for sub in ("", "posted/"):
+                r = requests.post(f"{sb_url}/storage/v1/object/list/branding",
+                                  headers={"apikey": sb_key,
+                                           "Authorization": f"Bearer {sb_key}",
+                                           "Content-Type": "application/json"},
+                                  json={"prefix": f"{cid}/job-photos/{sub}", "limit": 200},
+                                  timeout=30)
+                for f in r.json() or []:
+                    if not isinstance(f, dict) or not f.get("id"):
+                        continue
+                    base = re.sub(r"^r\d+_", "", f["name"])
+                    if not base.startswith("gbp-"):
+                        crew += 1
+        except Exception:
+            crew = 1  # storage hiccup: assume fine, never nag on bad data
+        checks.append((
+            f"checklist-crew-photos-{slug}", crew == 0,
+            "ASK CLIENT: get the crew photo link in use",
+            ("No job photos have ever come in from the field crew — fresh photos feed "
+             "both the Google profile and the website. MONICA: re-share their no-login "
+             "crew upload link ({}) and suggest texting it to the crew group chat; "
+             "even 3-4 phone pics from recent jobs is plenty.").format(photos_link)))
+
+        for seed, gap_open, title, rationale in checks:
+            key = action_key(cid, seed)
+            existing = _sb("GET", "/rest/v1/marketing_action_plan"
+                           f"?company_id=eq.{cid}&action_key=eq.{key}"
+                           "&select=id,status", prefer="return=representation") or []
+            if gap_open and not existing:
+                if insert_plan_row(cid, slug, seed, title=title, rationale=rationale,
+                                   action_type="client_input", target=None,
+                                   impact="high", effort="low", dry_run=dry_run):
+                    out.append(f"{slug}: seeded ask — {title}")
+            elif not gap_open and existing and existing[0].get("status") == "planned":
+                if not dry_run:
+                    _sb("PATCH", "/rest/v1/marketing_action_plan"
+                        f"?company_id=eq.{cid}&action_key=eq.{key}",
+                        {"status": "done"})
+                out.append(f"{slug}: gap cleared — resolved '{title}'")
+    return out
+
+
 def ensure_google_connect_asks(dry_run: bool, cid_to_slug: dict) -> list[str]:
     """Clients with a real Google Business Profile but NO Google connection in
     the app get a signed connect link seeded as a Monica ask (delivered to the
@@ -567,6 +697,8 @@ def run(since_override: str | None, dry_run: bool, do_send: bool) -> int:
 
     ensure_bootstrapped(dry_run, do_send, cid_to_slug)
     for ln in ensure_google_connect_asks(dry_run, cid_to_slug):
+        print("  " + ln)
+    for ln in ensure_setup_checklist(dry_run, cid_to_slug):
         print("  " + ln)
 
     intake = [i for i in fetch_answered_intake(since)
