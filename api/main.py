@@ -966,6 +966,58 @@ class KickoffPrepRequest(BaseModel):
     appointment_time: str = ""   # optional human phrase, e.g. "tomorrow at 5"
 
 
+class GbpFirstSyncRequest(BaseModel):
+    company_id: str
+    secret: str
+
+
+@app.post("/gbp-first-sync")
+def gbp_first_sync(req: GbpFirstSyncRequest):
+    """Fired by the Google-connect edge functions the moment a client's GBP
+    connects (Santino 2026-07-26: 'as soon as someone connects, run it').
+    Spawns gbp.sync in a thread so the Locations tab populates in minutes —
+    profile row + v4 reviews + GBP photo import. The nightly ops-sync
+    first-sync pass stays as the backstop (connect-before-bootstrap, redeploy
+    killing the thread, etc.)."""
+    expected = (os.environ.get("KICKOFF_PREP_SECRET")
+                or os.environ.get("LEAD_AUDIT_FUNNEL_SECRET", ""))
+    if not (expected and req.secret == expected):
+        raise HTTPException(status_code=403, detail="bad secret")
+    croot = Path(__file__).resolve().parent.parent / "clients"
+    slug = None
+    cmap = croot / "company_map.json"
+    if cmap.exists():
+        slug = next((s for s, cid in json.loads(cmap.read_text()).items()
+                     if cid == req.company_id), None)
+    if not slug:
+        for f in croot.glob("*.json"):
+            if f.name == "company_map.json":
+                continue
+            try:
+                if json.loads(f.read_text()).get("company_id") == req.company_id:
+                    slug = f.stem
+                    break
+            except (json.JSONDecodeError, OSError):
+                continue
+    if not slug:
+        return {"status": "skipped",
+                "note": "not bootstrapped yet — nightly ops sync will run the first sync"}
+    rows = sb().table("marketing_gbp_profiles").select("company_id") \
+        .eq("company_id", req.company_id).execute()
+    if rows.data:
+        return {"status": "skipped", "note": "already synced"}
+
+    def _run(s=slug):
+        try:
+            import gbp  # scripts/ is on sys.path
+            print("[gbp-first-sync]", gbp.sync(s))
+        except Exception as e:  # noqa: BLE001 — backstopped nightly
+            print("[gbp-first-sync] failed:", s, str(e)[:200])
+
+    threading.Thread(target=_run, daemon=True).start()
+    return {"status": "queued", "slug": slug}
+
+
 @app.post("/kickoff-prep")
 def kickoff_prep_endpoint(req: KickoffPrepRequest):
     """Fired by the GHL 'kickoff booked' workflow webhook. Spawns a thread
