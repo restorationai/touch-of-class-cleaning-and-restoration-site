@@ -87,6 +87,22 @@ def company_id_for(slug: str) -> str | None:
     return json.loads(cmap.read_text()).get(slug) if cmap.exists() else None
 
 
+def _place_id_from_connection(company_id: str | None) -> str | None:
+    """place_id from the company's OWN google connection (the OAuth exchange
+    auto-selects it). Repo plan-input.json can lag behind a connect — e.g.
+    go-green 2026-07-27: connected w/ location selected, first sync skipped
+    on the stale brand block. Never read another company's row here."""
+    if not company_id:
+        return None
+    rows = _sb("user_integrations?provider=eq.google&select=connection_metadata"
+               f"&client_id=eq.{company_id}")
+    for row in rows or []:
+        md = row.get("connection_metadata") or {}
+        if md.get("place_id"):
+            return md["place_id"]
+    return None
+
+
 def get_access_token(company_id: str) -> str | None:
     """Refresh a business.manage access token for this company. Falls back to any
     agency 'google' integration (the agency account manages every client location)."""
@@ -171,7 +187,7 @@ def site_services(slug: str) -> list[str]:
 def reconcile(slug: str) -> dict:
     cid = company_id_for(slug)
     brand = json.loads((ROOT / "clients" / slug / "plan-input.json").read_text()).get("brand", {})
-    place_id = brand.get("place_id")
+    place_id = brand.get("place_id") or _place_id_from_connection(cid)
     out = {"slug": slug, "company_id": cid, "place_id": place_id}
     if not place_id:
         out["error"] = "no brand.place_id (client GBP identity unknown)"
@@ -249,7 +265,14 @@ def get_insights(token: str, location_id: str, days: int = 90) -> dict:
     url = (f"https://businessprofileperformance.googleapis.com/v1/locations/{location_id}"
            f":fetchMultiDailyMetricsTimeSeries?{qs}")
     daily: dict = {}
-    for series in _g(url, token).get("multiDailyMetricTimeSeries", []):
+    try:
+        series_list = _g(url, token).get("multiDailyMetricTimeSeries", [])
+    except requests.HTTPError as e:
+        # 403 on unverified/limited listings (go-green 2026-07-27) — insights
+        # are a nice-to-have; never let them kill the whole first sync
+        sys.stderr.write(f"  insights unavailable ({str(e)[:80]}) — continuing\n")
+        return daily
+    for series in series_list:
         for ts in series.get("dailyMetricTimeSeries", []):
             col = PERF_METRICS.get(ts.get("dailyMetric"))
             if not col:
@@ -518,7 +541,7 @@ def sync(slug: str) -> str:
     import datetime as dt
     cid = company_id_for(slug)
     brand = json.loads((ROOT / "clients" / slug / "plan-input.json").read_text()).get("brand", {})
-    place = brand.get("place_id")
+    place = brand.get("place_id") or _place_id_from_connection(cid)
     token = get_access_token(cid) if cid else None
     if not (cid and place and token):
         return f"{slug}: skip (missing company_id / place_id / GBP token)"
@@ -586,9 +609,10 @@ def add_services(slug: str, services: list) -> str:
     cid = company_id_for(slug)
     brand = json.loads((ROOT / "clients" / slug / "plan-input.json").read_text()).get("brand", {})
     token = get_access_token(cid) if cid else None
-    if not (token and brand.get("place_id")):
+    place = brand.get("place_id") or _place_id_from_connection(cid)
+    if not (token and place):
         return f"{slug}: skip (no token / place_id)"
-    loc = find_location(token, brand["place_id"])
+    loc = find_location(token, place)
     if not loc:
         return f"{slug}: skip (no GBP location)"
     primary_cat = (loc.get("categories", {}).get("primaryCategory") or {}).get("name")
@@ -896,7 +920,7 @@ def optimize(slug: str) -> dict:
     Returns {summary, items[]} and upserts items to marketing_gbp_suggestions."""
     cid = company_id_for(slug)
     brand = json.loads((ROOT / "clients" / slug / "plan-input.json").read_text()).get("brand", {})
-    place = brand.get("place_id")
+    place = brand.get("place_id") or _place_id_from_connection(cid)
     token = get_access_token(cid) if cid else None
     if not (cid and place and token):
         return {"slug": slug, "error": "missing company_id / place_id / GBP token"}

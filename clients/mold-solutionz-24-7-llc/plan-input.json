@@ -3,5 +3,52 @@
   "display_name": "Mold Solutionz 24/7 Llc",
   "lat": 33.8644291,
   "lng": -118.0539323
- }
+ },
+ "services": [
+  "mold-remediation",
+  "sewage-cleanup"
+ ],
+ "service_areas": [
+  {
+   "city": "Cerritos",
+   "state": "CA",
+   "slug": "cerritos-ca",
+   "primary": true
+  },
+  {
+   "city": "Long Beach",
+   "state": "CA",
+   "slug": "long-beach-ca"
+  },
+  {
+   "city": "Anaheim",
+   "state": "CA",
+   "slug": "anaheim-ca"
+  },
+  {
+   "city": "Whittier",
+   "state": "CA",
+   "slug": "whittier-ca"
+  },
+  {
+   "city": "Fullerton",
+   "state": "CA",
+   "slug": "fullerton-ca"
+  },
+  {
+   "city": "Norwalk",
+   "state": "CA",
+   "slug": "norwalk-ca"
+  },
+  {
+   "city": "Corona",
+   "state": "CA",
+   "slug": "corona-ca"
+  },
+  {
+   "city": "Riverside",
+   "state": "CA",
+   "slug": "riverside-ca"
+  }
+ ]
 }

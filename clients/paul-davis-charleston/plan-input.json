@@ -1,5 +1,38 @@
 {
  "brand": {
   "display_name": "Paul Davis Restoration of Charleston"
- }
+ },
+ "services": [
+  "water-damage-restoration",
+  "fire-damage-restoration",
+  "mold-remediation"
+ ],
+ "service_areas": [
+  {
+   "city": "Charleston",
+   "state": "SC",
+   "slug": "charleston-sc",
+   "primary": true
+  },
+  {
+   "city": "Mount Pleasant",
+   "state": "SC",
+   "slug": "mount-pleasant-sc"
+  },
+  {
+   "city": "North Charleston",
+   "state": "SC",
+   "slug": "north-charleston-sc"
+  },
+  {
+   "city": "Summerville",
+   "state": "SC",
+   "slug": "summerville-sc"
+  },
+  {
+   "city": "James Island",
+   "state": "SC",
+   "slug": "james-island-sc"
+  }
+ ]
 }
