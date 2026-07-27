@@ -1040,6 +1040,12 @@ def optimize(slug: str) -> dict:
         settled_keys = {(s.get("item_type"), s.get("item")) for s in settled}
         rows = [r for r in rows if (r["item_type"], r["item"]) not in settled_keys]
     if rows:
+        # The model can emit the same (item_type, item) twice in one run —
+        # Postgres 500s the upsert ("cannot affect row a second time").
+        seen_keys: set = set()
+        rows = [r for r in rows
+                if (k := (r["item_type"], str(r["item"]).strip())) not in seen_keys
+                and not seen_keys.add(k)]
         _sb_upsert("marketing_gbp_suggestions", rows, on_conflict="company_id,item_type,item")
     from collections import Counter
     by_verdict = Counter(it.get("verdict") for it in items)
