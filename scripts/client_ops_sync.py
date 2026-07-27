@@ -478,11 +478,7 @@ def ensure_baseline_scans(dry_run: bool, cid_to_slug: dict) -> list[str]:
     conns = {c["client_id"] for c in (_sb(
         "GET", "/rest/v1/user_integrations?provider=eq.google&select=client_id",
         prefer="return=representation") or []) if c.get("client_id")}
-    for co in active:
-        cid = co["id"]
-        slug = cid_to_slug.get(cid)
-        if not slug:
-            continue
+    def _company_pass(cid, slug):
         kw_f = CLIENTS_DIR / slug / "geogrid-keywords.txt"
         ct_f = CLIENTS_DIR / slug / "geogrid-cities.json"
         if kw_f.exists() and ct_f.exists():
@@ -512,8 +508,10 @@ def ensure_baseline_scans(dry_run: bool, cid_to_slug: dict) -> list[str]:
                 except Exception as e:
                     out.append(f"{slug}: AI-search baseline failed ({str(e)[:80]})")
         if cid in conns:
+            # table has NO id column (PK = company_id,item_type,item); select=id
+            # 400'd here and killed the WHOLE baseline pass for every client
             sug = _sb("GET", f"/rest/v1/marketing_gbp_suggestions?company_id=eq.{cid}"
-                      "&select=id&limit=1", prefer="return=representation") or []
+                      "&select=company_id&limit=1", prefer="return=representation") or []
             if not sug:
                 if dry_run:
                     out.append(f"{slug}: WOULD run optimizer baseline")
@@ -524,6 +522,18 @@ def ensure_baseline_scans(dry_run: bool, cid_to_slug: dict) -> list[str]:
                                                'optimize', '--slug', slug], 1200))
                     except Exception as e:
                         out.append(f"{slug}: optimizer baseline failed ({str(e)[:80]})")
+
+    # one company's bad query must never starve the rest (select=id on the
+    # id-less suggestions table 400'd and zeroed EVERY client's baselines)
+    for co in active:
+        cid = co["id"]
+        slug = cid_to_slug.get(cid)
+        if not slug:
+            continue
+        try:
+            _company_pass(cid, slug)
+        except Exception as e:
+            out.append(f"{slug}: baseline pass errored ({str(e)[:80]})")
     return out
 
 
