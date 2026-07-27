@@ -350,19 +350,43 @@ def _name_match(a, b):
     return difflib.SequenceMatcher(None, a, b).ratio()
 
 
-def gbp_confirm(auth, gbp_query, business_name, lat, lng):
-    """Find the business's Maps listing near its primary city."""
-    body = [{"keyword": gbp_query[:200], "location_coordinate": "{},{},14z".format(lat, lng),
-             "language_code": "en", "device": "desktop"}]
-    items, cost, _ = _dfs(DFS_MAPS, body, auth)
-    best, score = None, 0.0
-    for it in items:
-        if not isinstance(it, dict):
-            continue
-        s = max(_name_match(business_name, it.get("title")),
-                _name_match(gbp_query, it.get("title")))
-        if s > score:
-            best, score = it, s
+def gbp_confirm(auth, gbp_query, business_name, lat, lng, domain=None):
+    """Find the business's Maps listing near its primary city.
+
+    A candidate whose listing links to the audited domain IS the business —
+    that beats any name-similarity score. Name-only matches that link to a
+    DIFFERENT domain are near-certainly someone else (2026-07-26: "Coastal
+    Restoration Services" fuzzy-matched tree service "Coastal Treetenders"
+    and the report told the lead to fix a stranger's profile name)."""
+    def _strip(d):
+        return d[4:] if d.startswith("www.") else d
+    def _dom(it):
+        return _strip(str(it.get("domain") or "").lower())
+    want = _strip(str(domain or "").lower())
+    # 14z first (the business is usually IN its primary city), then 11z — the
+    # HQ pin can sit outside a tight viewport (callcrs.com 2026-07-26: listing
+    # invisible at 14z Santa Maria, found at wider zoom).
+    best, score, cost = None, 0.0, 0.0
+    for zoom in ("14z", "11z"):
+        body = [{"keyword": gbp_query[:200],
+                 "location_coordinate": "{},{},{}".format(lat, lng, zoom),
+                 "language_code": "en", "device": "desktop"}]
+        items, c, _ = _dfs(DFS_MAPS, body, auth)
+        cost += c
+        for it in items:
+            if not isinstance(it, dict):
+                continue
+            if want and _dom(it) == want:
+                best, score = it, 1.0
+                break
+            s = max(_name_match(business_name, it.get("title")),
+                    _name_match(gbp_query, it.get("title")))
+            if want and _dom(it) and _dom(it) != want:
+                s -= 0.35
+            if s > score:
+                best, score = it, s
+        if best and score >= 0.55:
+            break
     if best and score >= 0.55:
         rd = best.get("rating") or {}
         return {
@@ -386,8 +410,13 @@ def gbp_confirm(auth, gbp_query, business_name, lat, lng):
         for it in items2:
             if not isinstance(it, dict):
                 continue
+            if want and _dom(it) == want:
+                best2, score2 = it, 1.0
+                break
             s = max(_name_match(business_name, it.get("title")),
                     _name_match(gbp_query, it.get("title")))
+            if want and _dom(it) and _dom(it) != want:
+                s -= 0.35
             if s > score2:
                 best2, score2 = it, s
         if best2 and score2 >= 0.75:
@@ -1473,7 +1502,8 @@ def run_audit(website, name, email, phone, audit_id=None, email_mode="all", prog
     if not gbp.get("found"):
         try:
             gbp, c = gbp_confirm(auth, business_name or prof.get("gbp_query") or prof["business_name"],
-                                 prof["business_name"], cities_geo[0]["lat"], cities_geo[0]["lng"])
+                                 prof["business_name"], cities_geo[0]["lat"], cities_geo[0]["lng"],
+                                 domain=domain)
             costs["dataforseo"] += c
             log("gbp: {}".format(gbp))
         except Exception as e:
