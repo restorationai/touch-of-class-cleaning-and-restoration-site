@@ -489,10 +489,10 @@
     },
     {
       "id": "2026-06-24-mold-inspection-cost-bellevue",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-06-24T15:47:35Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-07-27T18:25:28Z",
+      "post_url": "https://narestco.com/blog/mold-inspection-cost-bellevue/",
       "primary_keyword": "mold inspection cost",
       "intent": "informational",
       "volume": 5400,
