@@ -85,6 +85,11 @@ AVG_TICKET = {"water": 4500, "fire": 15000, "mold": 3500, "storm": 6000,
               # tickets honest per trade or the one-job floor overstates
               "plumbing": 650}
 DEFAULT_TICKET = 4500
+# Floor for the shown revenue range on restoration audits (Santino 2026-07-28:
+# "minimum of 14,500 to 19,000 per month" — one full water-loss project/month,
+# mitigation + rebuild + contents). Non-restoration trades floor at one job.
+RESTORATION_FLOOR = (14500, 19000)
+NON_RESTORATION_VERTICALS = {"plumbing"}
 
 # organic CTR curve (share of clicks by position; Backlinko/AWR-style curve)
 CTR = {1: 0.28, 2: 0.15, 3: 0.11, 4: 0.08, 5: 0.07,
@@ -664,22 +669,32 @@ def revenue_math(rankings, vols, vertical):
         gap = max(0.0, TOP3_BLEND - ctr_for(r["position"]))
         missed_clicks += vol * gap
     mid = missed_clicks * 0.10 * ticket
-    # ONE-JOB FLOOR (Santino 2026-07-28): click-math on a small market's 9
-    # tracked keywords produced ranges like $500-$1,100/mo, below our own
-    # $997 fee, and it undersells reality (these companies also do mold,
-    # rebuilds, packouts; single fire losses run to six figures). The floor
-    # is an explicitly STATED assumption, never silent inflation: winning
-    # just one average job per month is worth the ticket, so the shown
-    # range never starts below one job. Methodology text always says so.
-    floor_low, floor_high = ticket, ticket * 2
+    # REVENUE FLOOR (Santino 2026-07-28, raised same day): click-math on a
+    # small market's 9 tracked keywords produced ranges like $500-$1,100/mo,
+    # below our own $997 fee, and it undersells reality (these companies also
+    # do mold, rebuilds, packouts, contents; single fire losses run to six
+    # figures). Restoration floor = one full water-loss PROJECT per month
+    # (mitigation + rebuild, insured losses routinely deep five figures):
+    # $14,500-$19,000, Santino's number. Non-restoration trades keep an
+    # honest one-job floor. The floor is an explicitly STATED assumption,
+    # never silent inflation: methodology text always discloses it.
+    if vertical in NON_RESTORATION_VERTICALS:
+        floor_low, floor_high = ticket, ticket * 2
+        floor_note = ("winning just ONE additional {} job per month at an average ticket "
+                      "of ${:,}").format(vertical, ticket)
+    else:
+        floor_low = max(ticket, RESTORATION_FLOOR[0])
+        floor_high = max(ticket * 2, RESTORATION_FLOOR[1])
+        floor_note = ("winning roughly one full {} loss per month, mitigation plus rebuild "
+                      "and contents, which for insured losses routinely runs well into five "
+                      "figures").format(vertical)
     if tracked == 0 or mid < 200:
         return {"low": floor_low, "high": floor_high, "ticket": ticket,
                 "missed_clicks": int(round(missed_clicks)),
                 "methodology": ("Tracked search volume in this market is too thin for click-by-click math, "
                                 "so this range shows the most conservative yardstick instead: the value of "
-                                "winning just ONE additional {} job per month at an average ticket of ${:,}. "
-                                "Real tickets vary widely, and large losses run far higher."
-                                ).format(vertical, ticket)}
+                                + floor_note + ". Real tickets vary widely, and a single large fire loss "
+                                "can exceed $100,000.")}
     low = int(round(mid * 0.6, -2))
     high = int(round(mid * 1.4, -2))
     methodology = ("Estimate = monthly Google search volume for the {} tracked keywords x the standard "
@@ -689,9 +704,9 @@ def revenue_math(rankings, vols, vertical):
                    ).format(tracked, vertical, ticket)
     if low < floor_low:
         low, high = floor_low, max(high, floor_high)
-        methodology += (" The keyword click-math came in below the value of a single average {} job, "
-                        "so the shown range starts at one additional job per month (${:,}), the most "
-                        "conservative floor.").format(vertical, ticket)
+        methodology += (" The keyword click-math understates markets like this one, where much of the "
+                        "demand never types the tracked phrases, so the shown range floors at the value "
+                        "of " + floor_note + ".")
     return {"low": low, "high": high, "ticket": ticket,
             "missed_clicks": int(round(missed_clicks)),
             "methodology": methodology}
@@ -994,6 +1009,8 @@ def _strip_dashes(s):
 def _google_bullets(gbp, rankings, mappack):
     """Compose the teaser's 'Google can't find you' bullets — bold label +
     consequence, max 2, every claim backed by the audit data or omitted.
+    MAP PACK LEADS (Santino 2026-07-28): the pack is where local jobs get
+    decided and it is what we sell; organic is the supporting bullet.
     Competitor names come from the map-pack leaders (claims-honesty rule)."""
     bullets = []
     if not (gbp or {}).get("found"):
@@ -1005,19 +1022,30 @@ def _google_bullets(gbp, rankings, mappack):
             t = (comp.get("title") or "").split(",")[0].strip()
             if t and t not in leaders:
                 leaders.append(t)
-    positions = [r.get("position") for r in (rankings or []) if r.get("position")]
-    if rankings and not positions:
-        lead_txt = " and ".join(leaders[:2]) if leaders else "Your competitors"
-        bullets.append(("Ranking gap:", lead_txt + " hold the top spots. "
-                        "You're not in the top 20 for any search we tracked."))
-    elif positions and min(positions) > 3:
-        bullets.append(("Ranking gap:",
-                        "Your best Google position is #{}. Customers rarely scroll past "
-                        "the top 3.".format(min(positions))))
-    elif (len(bullets) < 2 and leaders
-          and not any((p.get("client_rank") or 99) <= 3 for p in (mappack or []))):
+    # 1) Map-pack standing first, whenever we have pack data
+    ranked = sorted([(p.get("client_rank"), p.get("city")) for p in (mappack or [])
+                     if p.get("client_rank")])
+    if ranked and ranked[0][0] > 3:
+        best, city = ranked[0]
+        held = (", and " + " and ".join(leaders[:2]) + " hold them") if leaders else ""
+        bullets.append(("Map pack:",
+                        "You sit #{} in the {} map pack. The 3 spots above the fold get "
+                        "the calls{}.".format(best, city, held)))
+    elif not ranked and mappack and leaders and len(bullets) < 2:
         bullets.append(("Map pack gap:",
-                        " and ".join(leaders[:2]) + " hold the top map spots in your cities."))
+                        " and ".join(leaders[:2]) + " hold the top map spots in your "
+                        "cities. You're not in the pack."))
+    # 2) Organic gap second
+    positions = [r.get("position") for r in (rankings or []) if r.get("position")]
+    if len(bullets) < 2:
+        if rankings and not positions:
+            lead_txt = " and ".join(leaders[:2]) if leaders else "Your competitors"
+            bullets.append(("Ranking gap:", lead_txt + " hold the top spots. "
+                            "You're not in the top 20 for any search we tracked."))
+        elif positions and min(positions) > 3:
+            bullets.append(("Ranking gap:",
+                            "Your best Google position is #{}. Customers rarely scroll past "
+                            "the top 3.".format(min(positions))))
     return bullets[:2]
 
 
