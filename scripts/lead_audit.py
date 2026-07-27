@@ -80,7 +80,10 @@ DFS_LISTINGS = "https://api.dataforseo.com/v3/business_data/business_listings/se
 
 # avg ticket by vertical — used ONLY inside a clearly-labeled estimate range
 AVG_TICKET = {"water": 4500, "fire": 15000, "mold": 3500, "storm": 6000,
-              "biohazard": 4000, "reconstruction": 12000}
+              "biohazard": 4000, "reconstruction": 12000,
+              # non-restoration verticals audited for competitive intel — keep
+              # tickets honest per trade or the one-job floor overstates
+              "plumbing": 650}
 DEFAULT_TICKET = 4500
 
 # organic CTR curve (share of clicks by position; Backlinko/AWR-style curve)
@@ -661,17 +664,37 @@ def revenue_math(rankings, vols, vertical):
         gap = max(0.0, TOP3_BLEND - ctr_for(r["position"]))
         missed_clicks += vol * gap
     mid = missed_clicks * 0.10 * ticket
+    # ONE-JOB FLOOR (Santino 2026-07-28): click-math on a small market's 9
+    # tracked keywords produced ranges like $500-$1,100/mo, below our own
+    # $997 fee, and it undersells reality (these companies also do mold,
+    # rebuilds, packouts; single fire losses run to six figures). The floor
+    # is an explicitly STATED assumption, never silent inflation: winning
+    # just one average job per month is worth the ticket, so the shown
+    # range never starts below one job. Methodology text always says so.
+    floor_low, floor_high = ticket, ticket * 2
     if tracked == 0 or mid < 200:
-        return None
+        return {"low": floor_low, "high": floor_high, "ticket": ticket,
+                "missed_clicks": int(round(missed_clicks)),
+                "methodology": ("Tracked search volume in this market is too thin for click-by-click math, "
+                                "so this range shows the most conservative yardstick instead: the value of "
+                                "winning just ONE additional {} job per month at an average ticket of ${:,}. "
+                                "Real tickets vary widely, and large losses run far higher."
+                                ).format(vertical, ticket)}
     low = int(round(mid * 0.6, -2))
     high = int(round(mid * 1.4, -2))
+    methodology = ("Estimate = monthly Google search volume for the {} tracked keywords x the standard "
+                   "click-through-rate curve for Google positions (a top-3 listing captures roughly 18% "
+                   "of searches; page 2 captures almost none) x a 10% booked-job rate x an average {} "
+                   "job ticket of ${:,}. Shown as a range because real close rates and tickets vary."
+                   ).format(tracked, vertical, ticket)
+    if low < floor_low:
+        low, high = floor_low, max(high, floor_high)
+        methodology += (" The keyword click-math came in below the value of a single average {} job, "
+                        "so the shown range starts at one additional job per month (${:,}), the most "
+                        "conservative floor.").format(vertical, ticket)
     return {"low": low, "high": high, "ticket": ticket,
             "missed_clicks": int(round(missed_clicks)),
-            "methodology": ("Estimate = monthly Google search volume for the {} tracked keywords x the standard "
-                            "click-through-rate curve for Google positions (a top-3 listing captures roughly 18% "
-                            "of searches; page 2 captures almost none) x a 10% booked-job rate x an average {} "
-                            "job ticket of ${:,}. Shown as a range because real close rates and tickets vary."
-                            ).format(tracked, vertical, ticket)}
+            "methodology": methodology}
 
 
 # ---------------------------------------------------------------------------
