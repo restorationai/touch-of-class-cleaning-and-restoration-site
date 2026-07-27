@@ -13,7 +13,7 @@ export const brand = {
   phoneRaw: "+19549646471",
   email: "issac@restorationxpress.com",
   hours: "24/7",
-  foundedYear: "",
+  foundedYear: "2011",
   primaryCity: "Davie",
   primaryState: "FL",
   streetAddress: "4700 SW 51 ST SUIT 205 DAVIE FL33314 ",
@@ -27,15 +27,15 @@ export const brand = {
   // Analytics — set post-scaffold (scripts/analytics_set.py / create_ga4.py); no-op if empty
   ga4MeasurementId: "",
   clarityProjectId: "",
-  logoUrl: "https://images.None/brand/logo.png",
-  licenseNumbers: [] as string[],
+  logoUrl: "/images/logo.png",
+  licenseNumbers: ["1057"] as string[],
   licenseAuthority: "",
   licenseType: "",
   // Operator-confirmed "licensed & insured" attestation from plan-input.json —
   // lets the TrustStrip show the badge before a license number is on file.
-  licensedInsuredAttested: false as boolean,
+  licensedInsuredAttested: true as boolean,
   certifications: [] as string[],
-  trustBadges: [] as string[],
+  trustBadges: ["Licensed & Insured", "24/7 Emergency Response", "Serving Broward County Since 2011", "Insurance Billing Accepted"] as string[],
   jobPhotos: [] as string[],
   sameAsUrls: [] as string[],
   // GBP rating fields — synced from the live Google Business Profile by

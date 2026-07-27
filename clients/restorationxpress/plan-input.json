@@ -10,13 +10,17 @@
   "email": "issac@restorationxpress.com",
   "street_address": "4700 SW 51 ST SUIT 205 DAVIE FL33314 ",
   "postal_code": "33314",
-  "theme": "light"
+  "theme": "light",
+  "logo_url": "/images/logo.png"
  },
  "template": "restoration",
  "services": [
   "water-damage-restoration",
   "fire-damage-restoration",
-  "mold-remediation"
+  "mold-remediation",
+  "storm-damage-restoration",
+  "flood-damage-restoration",
+  "smoke-damage-restoration"
  ],
  "blog_seed_count": 12,
  "service_areas": [

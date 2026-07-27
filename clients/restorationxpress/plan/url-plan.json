@@ -1,9 +1,9 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-07-23T05:41:07.293204+00:00",
+  "generated_at": "2026-07-27T17:34:32.858291+00:00",
   "input_summary": {
-    "service_count": 3,
+    "service_count": 6,
     "service_area_count": 9,
     "cross_product": true,
     "blog_seed_count": 12
@@ -45,6 +45,9 @@
         "/services/fire-damage-restoration/",
         "/services/mold-remediation/",
         "/services/water-damage-restoration/",
+        "/services/flood-damage-restoration/",
+        "/services/smoke-damage-restoration/",
+        "/services/storm-damage-restoration/",
         "/service-areas/davie-fl/",
         "/service-areas/cooper-city-fl/",
         "/service-areas/fort-lauderdale-fl/",
@@ -88,7 +91,10 @@
         "/",
         "/services/fire-damage-restoration/",
         "/services/mold-remediation/",
-        "/services/water-damage-restoration/"
+        "/services/water-damage-restoration/",
+        "/services/flood-damage-restoration/",
+        "/services/smoke-damage-restoration/",
+        "/services/storm-damage-restoration/"
       ]
     },
     {
@@ -168,7 +174,7 @@
         "/blog/black-mold-vs-regular-mold/",
         "/blog/how-long-does-water-damage-restoration-take/",
         "/blog/mold-after-water-damage/",
-        "/blog/basement-flooding-prevention/",
+        "/blog/storm-damage-insurance-claim-checklist/",
         "/blog/smoke-odor-removal-techniques/"
       ]
     },
@@ -389,6 +395,150 @@
       ]
     },
     {
+      "url_path": "/services/storm-damage-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Davie | RestorationXpress ",
+      "h1": "Storm Damage Restoration in Davie",
+      "meta_description": "Storm damage restoration in Davie and surrounding areas. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "storm damage restoration davie",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/cooper-city-fl/storm-damage-restoration/",
+        "/service-areas/davie-fl/storm-damage-restoration/",
+        "/service-areas/fort-lauderdale-fl/storm-damage-restoration/",
+        "/service-areas/hollywood-fl/storm-damage-restoration/",
+        "/service-areas/miramar-fl/storm-damage-restoration/",
+        "/service-areas/pembroke-pines-fl/storm-damage-restoration/",
+        "/service-areas/plantation-fl/storm-damage-restoration/",
+        "/service-areas/sunrise-fl/storm-damage-restoration/",
+        "/service-areas/weston-fl/storm-damage-restoration/",
+        "/blog/storm-damage-insurance-claim-checklist/"
+      ]
+    },
+    {
+      "url_path": "/services/flood-damage-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Flood Damage Restoration in Davie | RestorationXpress ",
+      "h1": "Flood Damage Restoration in Davie",
+      "meta_description": "Flood damage restoration in Davie and surrounding areas. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "flood damage restoration davie",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/cooper-city-fl/flood-damage-restoration/",
+        "/service-areas/davie-fl/flood-damage-restoration/",
+        "/service-areas/fort-lauderdale-fl/flood-damage-restoration/",
+        "/service-areas/hollywood-fl/flood-damage-restoration/",
+        "/service-areas/miramar-fl/flood-damage-restoration/",
+        "/service-areas/pembroke-pines-fl/flood-damage-restoration/",
+        "/service-areas/plantation-fl/flood-damage-restoration/",
+        "/service-areas/sunrise-fl/flood-damage-restoration/",
+        "/service-areas/weston-fl/flood-damage-restoration/"
+      ]
+    },
+    {
+      "url_path": "/services/smoke-damage-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Smoke Damage Restoration in Davie | RestorationXpress ",
+      "h1": "Smoke Damage Restoration in Davie",
+      "meta_description": "Smoke damage restoration in Davie and surrounding areas. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "smoke damage restoration davie",
+      "secondary_keywords": [
+        "smoke residue cleanup",
+        "smoke damage repair",
+        "post-fire smoke cleanup",
+        "smoke damage restoration services",
+        "wildfire smoke cleanup"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/cooper-city-fl/smoke-damage-restoration/",
+        "/service-areas/davie-fl/smoke-damage-restoration/",
+        "/service-areas/fort-lauderdale-fl/smoke-damage-restoration/",
+        "/service-areas/hollywood-fl/smoke-damage-restoration/",
+        "/service-areas/miramar-fl/smoke-damage-restoration/",
+        "/service-areas/pembroke-pines-fl/smoke-damage-restoration/",
+        "/service-areas/plantation-fl/smoke-damage-restoration/",
+        "/service-areas/sunrise-fl/smoke-damage-restoration/",
+        "/service-areas/weston-fl/smoke-damage-restoration/",
+        "/blog/fire-damage-restoration-process/",
+        "/blog/smoke-odor-removal-techniques/"
+      ]
+    },
+    {
       "url_path": "/service-areas/davie-fl/",
       "archetype": "service-area",
       "vars_keys": [
@@ -423,6 +573,9 @@
         "/service-areas/davie-fl/fire-damage-restoration/",
         "/service-areas/davie-fl/mold-remediation/",
         "/service-areas/davie-fl/water-damage-restoration/",
+        "/service-areas/davie-fl/flood-damage-restoration/",
+        "/service-areas/davie-fl/smoke-damage-restoration/",
+        "/service-areas/davie-fl/storm-damage-restoration/",
         "/service-areas/cooper-city-fl/",
         "/service-areas/fort-lauderdale-fl/",
         "/service-areas/hollywood-fl/"
@@ -463,6 +616,9 @@
         "/service-areas/fort-lauderdale-fl/fire-damage-restoration/",
         "/service-areas/fort-lauderdale-fl/mold-remediation/",
         "/service-areas/fort-lauderdale-fl/water-damage-restoration/",
+        "/service-areas/fort-lauderdale-fl/flood-damage-restoration/",
+        "/service-areas/fort-lauderdale-fl/smoke-damage-restoration/",
+        "/service-areas/fort-lauderdale-fl/storm-damage-restoration/",
         "/service-areas/davie-fl/",
         "/service-areas/cooper-city-fl/",
         "/service-areas/hollywood-fl/"
@@ -503,6 +659,9 @@
         "/service-areas/hollywood-fl/fire-damage-restoration/",
         "/service-areas/hollywood-fl/mold-remediation/",
         "/service-areas/hollywood-fl/water-damage-restoration/",
+        "/service-areas/hollywood-fl/flood-damage-restoration/",
+        "/service-areas/hollywood-fl/smoke-damage-restoration/",
+        "/service-areas/hollywood-fl/storm-damage-restoration/",
         "/service-areas/davie-fl/",
         "/service-areas/cooper-city-fl/",
         "/service-areas/fort-lauderdale-fl/"
@@ -543,6 +702,9 @@
         "/service-areas/plantation-fl/fire-damage-restoration/",
         "/service-areas/plantation-fl/mold-remediation/",
         "/service-areas/plantation-fl/water-damage-restoration/",
+        "/service-areas/plantation-fl/flood-damage-restoration/",
+        "/service-areas/plantation-fl/smoke-damage-restoration/",
+        "/service-areas/plantation-fl/storm-damage-restoration/",
         "/service-areas/davie-fl/",
         "/service-areas/cooper-city-fl/",
         "/service-areas/fort-lauderdale-fl/"
@@ -583,6 +745,9 @@
         "/service-areas/sunrise-fl/fire-damage-restoration/",
         "/service-areas/sunrise-fl/mold-remediation/",
         "/service-areas/sunrise-fl/water-damage-restoration/",
+        "/service-areas/sunrise-fl/flood-damage-restoration/",
+        "/service-areas/sunrise-fl/smoke-damage-restoration/",
+        "/service-areas/sunrise-fl/storm-damage-restoration/",
         "/service-areas/davie-fl/",
         "/service-areas/cooper-city-fl/",
         "/service-areas/fort-lauderdale-fl/"
@@ -623,6 +788,9 @@
         "/service-areas/cooper-city-fl/fire-damage-restoration/",
         "/service-areas/cooper-city-fl/mold-remediation/",
         "/service-areas/cooper-city-fl/water-damage-restoration/",
+        "/service-areas/cooper-city-fl/flood-damage-restoration/",
+        "/service-areas/cooper-city-fl/smoke-damage-restoration/",
+        "/service-areas/cooper-city-fl/storm-damage-restoration/",
         "/service-areas/davie-fl/",
         "/service-areas/fort-lauderdale-fl/",
         "/service-areas/hollywood-fl/"
@@ -663,6 +831,9 @@
         "/service-areas/weston-fl/fire-damage-restoration/",
         "/service-areas/weston-fl/mold-remediation/",
         "/service-areas/weston-fl/water-damage-restoration/",
+        "/service-areas/weston-fl/flood-damage-restoration/",
+        "/service-areas/weston-fl/smoke-damage-restoration/",
+        "/service-areas/weston-fl/storm-damage-restoration/",
         "/service-areas/davie-fl/",
         "/service-areas/cooper-city-fl/",
         "/service-areas/fort-lauderdale-fl/"
@@ -703,6 +874,9 @@
         "/service-areas/pembroke-pines-fl/fire-damage-restoration/",
         "/service-areas/pembroke-pines-fl/mold-remediation/",
         "/service-areas/pembroke-pines-fl/water-damage-restoration/",
+        "/service-areas/pembroke-pines-fl/flood-damage-restoration/",
+        "/service-areas/pembroke-pines-fl/smoke-damage-restoration/",
+        "/service-areas/pembroke-pines-fl/storm-damage-restoration/",
         "/service-areas/davie-fl/",
         "/service-areas/cooper-city-fl/",
         "/service-areas/fort-lauderdale-fl/"
@@ -743,6 +917,9 @@
         "/service-areas/miramar-fl/fire-damage-restoration/",
         "/service-areas/miramar-fl/mold-remediation/",
         "/service-areas/miramar-fl/water-damage-restoration/",
+        "/service-areas/miramar-fl/flood-damage-restoration/",
+        "/service-areas/miramar-fl/smoke-damage-restoration/",
+        "/service-areas/miramar-fl/storm-damage-restoration/",
         "/service-areas/davie-fl/",
         "/service-areas/cooper-city-fl/",
         "/service-areas/fort-lauderdale-fl/"
@@ -881,6 +1058,138 @@
       ]
     },
     {
+      "url_path": "/service-areas/davie-fl/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Davie, FL | RestorationXpress ",
+      "h1": "Storm Damage Restoration in Davie",
+      "meta_description": "Storm damage restoration in Davie, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "storm damage restoration davie",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/davie-fl/",
+        "/service-areas/davie-fl/fire-damage-restoration/",
+        "/service-areas/davie-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/storm-damage-restoration/",
+        "/service-areas/fort-lauderdale-fl/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/davie-fl/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in Davie, FL | RestorationXpress ",
+      "h1": "Flood Damage Restoration in Davie",
+      "meta_description": "Flood damage restoration in Davie, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "flood damage restoration davie",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/davie-fl/",
+        "/service-areas/davie-fl/fire-damage-restoration/",
+        "/service-areas/davie-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/flood-damage-restoration/",
+        "/service-areas/fort-lauderdale-fl/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/davie-fl/smoke-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Smoke Damage Restoration in Davie, FL | RestorationXpress ",
+      "h1": "Smoke Damage Restoration in Davie",
+      "meta_description": "Smoke damage restoration in Davie, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "smoke damage restoration davie",
+      "secondary_keywords": [
+        "smoke residue cleanup",
+        "smoke damage repair",
+        "post-fire smoke cleanup",
+        "smoke damage restoration services",
+        "wildfire smoke cleanup"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/smoke-damage-restoration/",
+        "/service-areas/davie-fl/",
+        "/service-areas/davie-fl/fire-damage-restoration/",
+        "/service-areas/davie-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/smoke-damage-restoration/",
+        "/service-areas/fort-lauderdale-fl/smoke-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/fort-lauderdale-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -1009,6 +1318,138 @@
         "/service-areas/fort-lauderdale-fl/water-damage-restoration/",
         "/service-areas/cooper-city-fl/mold-remediation/",
         "/service-areas/davie-fl/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/fort-lauderdale-fl/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Fort Lauderdale, FL | RestorationXpress ",
+      "h1": "Storm Damage Restoration in Fort Lauderdale",
+      "meta_description": "Storm damage restoration in Fort Lauderdale, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "storm damage restoration fort lauderdale",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/fort-lauderdale-fl/",
+        "/service-areas/fort-lauderdale-fl/fire-damage-restoration/",
+        "/service-areas/fort-lauderdale-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/storm-damage-restoration/",
+        "/service-areas/davie-fl/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/fort-lauderdale-fl/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in Fort Lauderdale, FL | RestorationXpress ",
+      "h1": "Flood Damage Restoration in Fort Lauderdale",
+      "meta_description": "Flood damage restoration in Fort Lauderdale, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "flood damage restoration fort lauderdale",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/fort-lauderdale-fl/",
+        "/service-areas/fort-lauderdale-fl/fire-damage-restoration/",
+        "/service-areas/fort-lauderdale-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/flood-damage-restoration/",
+        "/service-areas/davie-fl/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/fort-lauderdale-fl/smoke-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Smoke Damage Restoration in Fort Lauderdale, FL | RestorationXpress ",
+      "h1": "Smoke Damage Restoration in Fort Lauderdale",
+      "meta_description": "Smoke damage restoration in Fort Lauderdale, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "smoke damage restoration fort lauderdale",
+      "secondary_keywords": [
+        "smoke residue cleanup",
+        "smoke damage repair",
+        "post-fire smoke cleanup",
+        "smoke damage restoration services",
+        "wildfire smoke cleanup"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/smoke-damage-restoration/",
+        "/service-areas/fort-lauderdale-fl/",
+        "/service-areas/fort-lauderdale-fl/fire-damage-restoration/",
+        "/service-areas/fort-lauderdale-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/smoke-damage-restoration/",
+        "/service-areas/davie-fl/smoke-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1145,6 +1586,138 @@
       ]
     },
     {
+      "url_path": "/service-areas/hollywood-fl/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Hollywood, FL | RestorationXpress ",
+      "h1": "Storm Damage Restoration in Hollywood",
+      "meta_description": "Storm damage restoration in Hollywood, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "storm damage restoration hollywood",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/hollywood-fl/",
+        "/service-areas/hollywood-fl/fire-damage-restoration/",
+        "/service-areas/hollywood-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/storm-damage-restoration/",
+        "/service-areas/davie-fl/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hollywood-fl/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in Hollywood, FL | RestorationXpress ",
+      "h1": "Flood Damage Restoration in Hollywood",
+      "meta_description": "Flood damage restoration in Hollywood, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "flood damage restoration hollywood",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/hollywood-fl/",
+        "/service-areas/hollywood-fl/fire-damage-restoration/",
+        "/service-areas/hollywood-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/flood-damage-restoration/",
+        "/service-areas/davie-fl/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hollywood-fl/smoke-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Smoke Damage Restoration in Hollywood, FL | RestorationXpress ",
+      "h1": "Smoke Damage Restoration in Hollywood",
+      "meta_description": "Smoke damage restoration in Hollywood, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "smoke damage restoration hollywood",
+      "secondary_keywords": [
+        "smoke residue cleanup",
+        "smoke damage repair",
+        "post-fire smoke cleanup",
+        "smoke damage restoration services",
+        "wildfire smoke cleanup"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/smoke-damage-restoration/",
+        "/service-areas/hollywood-fl/",
+        "/service-areas/hollywood-fl/fire-damage-restoration/",
+        "/service-areas/hollywood-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/smoke-damage-restoration/",
+        "/service-areas/davie-fl/smoke-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/plantation-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -1273,6 +1846,138 @@
         "/service-areas/plantation-fl/water-damage-restoration/",
         "/service-areas/cooper-city-fl/mold-remediation/",
         "/service-areas/davie-fl/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/plantation-fl/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Plantation, FL | RestorationXpress ",
+      "h1": "Storm Damage Restoration in Plantation",
+      "meta_description": "Storm damage restoration in Plantation, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "storm damage restoration plantation",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/plantation-fl/",
+        "/service-areas/plantation-fl/fire-damage-restoration/",
+        "/service-areas/plantation-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/storm-damage-restoration/",
+        "/service-areas/davie-fl/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/plantation-fl/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in Plantation, FL | RestorationXpress ",
+      "h1": "Flood Damage Restoration in Plantation",
+      "meta_description": "Flood damage restoration in Plantation, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "flood damage restoration plantation",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/plantation-fl/",
+        "/service-areas/plantation-fl/fire-damage-restoration/",
+        "/service-areas/plantation-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/flood-damage-restoration/",
+        "/service-areas/davie-fl/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/plantation-fl/smoke-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Smoke Damage Restoration in Plantation, FL | RestorationXpress ",
+      "h1": "Smoke Damage Restoration in Plantation",
+      "meta_description": "Smoke damage restoration in Plantation, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "smoke damage restoration plantation",
+      "secondary_keywords": [
+        "smoke residue cleanup",
+        "smoke damage repair",
+        "post-fire smoke cleanup",
+        "smoke damage restoration services",
+        "wildfire smoke cleanup"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/smoke-damage-restoration/",
+        "/service-areas/plantation-fl/",
+        "/service-areas/plantation-fl/fire-damage-restoration/",
+        "/service-areas/plantation-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/smoke-damage-restoration/",
+        "/service-areas/davie-fl/smoke-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1409,6 +2114,138 @@
       ]
     },
     {
+      "url_path": "/service-areas/sunrise-fl/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Sunrise, FL | RestorationXpress ",
+      "h1": "Storm Damage Restoration in Sunrise",
+      "meta_description": "Storm damage restoration in Sunrise, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "storm damage restoration sunrise",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/sunrise-fl/",
+        "/service-areas/sunrise-fl/fire-damage-restoration/",
+        "/service-areas/sunrise-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/storm-damage-restoration/",
+        "/service-areas/davie-fl/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sunrise-fl/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in Sunrise, FL | RestorationXpress ",
+      "h1": "Flood Damage Restoration in Sunrise",
+      "meta_description": "Flood damage restoration in Sunrise, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "flood damage restoration sunrise",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/sunrise-fl/",
+        "/service-areas/sunrise-fl/fire-damage-restoration/",
+        "/service-areas/sunrise-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/flood-damage-restoration/",
+        "/service-areas/davie-fl/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sunrise-fl/smoke-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Smoke Damage Restoration in Sunrise, FL | RestorationXpress ",
+      "h1": "Smoke Damage Restoration in Sunrise",
+      "meta_description": "Smoke damage restoration in Sunrise, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "smoke damage restoration sunrise",
+      "secondary_keywords": [
+        "smoke residue cleanup",
+        "smoke damage repair",
+        "post-fire smoke cleanup",
+        "smoke damage restoration services",
+        "wildfire smoke cleanup"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/smoke-damage-restoration/",
+        "/service-areas/sunrise-fl/",
+        "/service-areas/sunrise-fl/fire-damage-restoration/",
+        "/service-areas/sunrise-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/smoke-damage-restoration/",
+        "/service-areas/davie-fl/smoke-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/cooper-city-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -1537,6 +2374,138 @@
         "/service-areas/cooper-city-fl/water-damage-restoration/",
         "/service-areas/davie-fl/mold-remediation/",
         "/service-areas/fort-lauderdale-fl/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/cooper-city-fl/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Cooper City, FL | RestorationXpress ",
+      "h1": "Storm Damage Restoration in Cooper City",
+      "meta_description": "Storm damage restoration in Cooper City, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "storm damage restoration cooper city",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/cooper-city-fl/",
+        "/service-areas/cooper-city-fl/fire-damage-restoration/",
+        "/service-areas/cooper-city-fl/mold-remediation/",
+        "/service-areas/davie-fl/storm-damage-restoration/",
+        "/service-areas/fort-lauderdale-fl/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/cooper-city-fl/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in Cooper City, FL | RestorationXpress ",
+      "h1": "Flood Damage Restoration in Cooper City",
+      "meta_description": "Flood damage restoration in Cooper City, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "flood damage restoration cooper city",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/cooper-city-fl/",
+        "/service-areas/cooper-city-fl/fire-damage-restoration/",
+        "/service-areas/cooper-city-fl/mold-remediation/",
+        "/service-areas/davie-fl/flood-damage-restoration/",
+        "/service-areas/fort-lauderdale-fl/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/cooper-city-fl/smoke-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Smoke Damage Restoration in Cooper City, FL | RestorationXpress ",
+      "h1": "Smoke Damage Restoration in Cooper City",
+      "meta_description": "Smoke damage restoration in Cooper City, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "smoke damage restoration cooper city",
+      "secondary_keywords": [
+        "smoke residue cleanup",
+        "smoke damage repair",
+        "post-fire smoke cleanup",
+        "smoke damage restoration services",
+        "wildfire smoke cleanup"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/smoke-damage-restoration/",
+        "/service-areas/cooper-city-fl/",
+        "/service-areas/cooper-city-fl/fire-damage-restoration/",
+        "/service-areas/cooper-city-fl/mold-remediation/",
+        "/service-areas/davie-fl/smoke-damage-restoration/",
+        "/service-areas/fort-lauderdale-fl/smoke-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1673,6 +2642,138 @@
       ]
     },
     {
+      "url_path": "/service-areas/weston-fl/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Weston, FL | RestorationXpress ",
+      "h1": "Storm Damage Restoration in Weston",
+      "meta_description": "Storm damage restoration in Weston, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "storm damage restoration weston",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/weston-fl/",
+        "/service-areas/weston-fl/fire-damage-restoration/",
+        "/service-areas/weston-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/storm-damage-restoration/",
+        "/service-areas/davie-fl/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/weston-fl/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in Weston, FL | RestorationXpress ",
+      "h1": "Flood Damage Restoration in Weston",
+      "meta_description": "Flood damage restoration in Weston, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "flood damage restoration weston",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/weston-fl/",
+        "/service-areas/weston-fl/fire-damage-restoration/",
+        "/service-areas/weston-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/flood-damage-restoration/",
+        "/service-areas/davie-fl/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/weston-fl/smoke-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Smoke Damage Restoration in Weston, FL | RestorationXpress ",
+      "h1": "Smoke Damage Restoration in Weston",
+      "meta_description": "Smoke damage restoration in Weston, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "smoke damage restoration weston",
+      "secondary_keywords": [
+        "smoke residue cleanup",
+        "smoke damage repair",
+        "post-fire smoke cleanup",
+        "smoke damage restoration services",
+        "wildfire smoke cleanup"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/smoke-damage-restoration/",
+        "/service-areas/weston-fl/",
+        "/service-areas/weston-fl/fire-damage-restoration/",
+        "/service-areas/weston-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/smoke-damage-restoration/",
+        "/service-areas/davie-fl/smoke-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/pembroke-pines-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -1805,6 +2906,138 @@
       ]
     },
     {
+      "url_path": "/service-areas/pembroke-pines-fl/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Pembroke Pines, FL | RestorationXpress ",
+      "h1": "Storm Damage Restoration in Pembroke Pines",
+      "meta_description": "Storm damage restoration in Pembroke Pines, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "storm damage restoration pembroke pines",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/pembroke-pines-fl/",
+        "/service-areas/pembroke-pines-fl/fire-damage-restoration/",
+        "/service-areas/pembroke-pines-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/storm-damage-restoration/",
+        "/service-areas/davie-fl/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/pembroke-pines-fl/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in Pembroke Pines, FL | RestorationXpress ",
+      "h1": "Flood Damage Restoration in Pembroke Pines",
+      "meta_description": "Flood damage restoration in Pembroke Pines, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "flood damage restoration pembroke pines",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/pembroke-pines-fl/",
+        "/service-areas/pembroke-pines-fl/fire-damage-restoration/",
+        "/service-areas/pembroke-pines-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/flood-damage-restoration/",
+        "/service-areas/davie-fl/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/pembroke-pines-fl/smoke-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Smoke Damage Restoration in Pembroke Pines, FL | RestorationXpress ",
+      "h1": "Smoke Damage Restoration in Pembroke Pines",
+      "meta_description": "Smoke damage restoration in Pembroke Pines, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "smoke damage restoration pembroke pines",
+      "secondary_keywords": [
+        "smoke residue cleanup",
+        "smoke damage repair",
+        "post-fire smoke cleanup",
+        "smoke damage restoration services",
+        "wildfire smoke cleanup"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/smoke-damage-restoration/",
+        "/service-areas/pembroke-pines-fl/",
+        "/service-areas/pembroke-pines-fl/fire-damage-restoration/",
+        "/service-areas/pembroke-pines-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/smoke-damage-restoration/",
+        "/service-areas/davie-fl/smoke-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/miramar-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -1933,6 +3166,138 @@
         "/service-areas/miramar-fl/water-damage-restoration/",
         "/service-areas/cooper-city-fl/mold-remediation/",
         "/service-areas/davie-fl/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/miramar-fl/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Miramar, FL | RestorationXpress ",
+      "h1": "Storm Damage Restoration in Miramar",
+      "meta_description": "Storm damage restoration in Miramar, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "storm damage restoration miramar",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/miramar-fl/",
+        "/service-areas/miramar-fl/fire-damage-restoration/",
+        "/service-areas/miramar-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/storm-damage-restoration/",
+        "/service-areas/davie-fl/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/miramar-fl/flood-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Flood Damage Restoration in Miramar, FL | RestorationXpress ",
+      "h1": "Flood Damage Restoration in Miramar",
+      "meta_description": "Flood damage restoration in Miramar, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "flood damage restoration miramar",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/flood-damage-restoration/",
+        "/service-areas/miramar-fl/",
+        "/service-areas/miramar-fl/fire-damage-restoration/",
+        "/service-areas/miramar-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/flood-damage-restoration/",
+        "/service-areas/davie-fl/flood-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/miramar-fl/smoke-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Smoke Damage Restoration in Miramar, FL | RestorationXpress ",
+      "h1": "Smoke Damage Restoration in Miramar",
+      "meta_description": "Smoke damage restoration in Miramar, FL. Insurance billing accepted. Call (954) 964-6471.",
+      "primary_keyword": "smoke damage restoration miramar",
+      "secondary_keywords": [
+        "smoke residue cleanup",
+        "smoke damage repair",
+        "post-fire smoke cleanup",
+        "smoke damage restoration services",
+        "wildfire smoke cleanup"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/smoke-damage-restoration/",
+        "/service-areas/miramar-fl/",
+        "/service-areas/miramar-fl/fire-damage-restoration/",
+        "/service-areas/miramar-fl/mold-remediation/",
+        "/service-areas/cooper-city-fl/smoke-damage-restoration/",
+        "/service-areas/davie-fl/smoke-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2150,6 +3515,7 @@
       "internal_links_out": [
         "/blog/",
         "/services/fire-damage-restoration/",
+        "/services/smoke-damage-restoration/",
         "/blog/choosing-a-restoration-company/",
         "/blog/smoke-odor-removal-techniques/"
       ]
@@ -2228,6 +3594,39 @@
         "/blog/choosing-a-restoration-company/",
         "/blog/how-to-test-for-mold/",
         "/blog/signs-of-hidden-mold/"
+      ]
+    },
+    {
+      "url_path": "/blog/storm-damage-insurance-claim-checklist/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Storm Damage Insurance Claim Checklist (Use This Before You Call Your Insurer)",
+      "h1": "Storm Damage Insurance Claim Checklist (Use This Before You Call Your Insurer)",
+      "meta_description": "",
+      "primary_keyword": "storm damage insurance claim checklist use this before you call your insurer",
+      "secondary_keywords": [
+        "storm damage restoration"
+      ],
+      "search_intent": "informational_insurance",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/storm-damage-restoration/"
       ]
     },
     {
@@ -2336,44 +3735,9 @@
       "internal_links_out": [
         "/blog/",
         "/services/fire-damage-restoration/",
+        "/services/smoke-damage-restoration/",
         "/blog/choosing-a-restoration-company/",
         "/blog/fire-damage-restoration-process/"
-      ]
-    },
-    {
-      "url_path": "/blog/basement-flooding-prevention/",
-      "archetype": "blog-post",
-      "vars_keys": [
-        "post"
-      ],
-      "title": "8 Ways To Prevent Basement Flooding This Season",
-      "h1": "8 Ways To Prevent Basement Flooding This Season",
-      "meta_description": "",
-      "primary_keyword": "8 ways to prevent basement flooding this season",
-      "secondary_keywords": [
-        "water damage restoration"
-      ],
-      "search_intent": "informational_prevention",
-      "target_word_count": 1400,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "blog-posting",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.2,
-      "status": "planned",
-      "internal_links_out": [
-        "/blog/",
-        "/services/water-damage-restoration/",
-        "/blog/burst-pipe-emergency-checklist/",
-        "/blog/what-to-do-first-24-hours-water-damage/",
-        "/blog/choosing-a-restoration-company/"
       ]
     },
     {

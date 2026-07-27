@@ -1,22 +1,22 @@
 # Site Plan Report — RestorationXpress 
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-07-23T05:41:07.296821+00:00
+- Generated: 2026-07-27T17:34:32.863579+00:00
 - Domain: `None`
-- Services selected: 3 of 48 catalog entries
+- Services selected: 6 of 50 catalog entries
 - Service areas: 9
 - Cross-product enabled: True
-- Total URLs: **60**
-- Total internal links: 413 (avg 6.9 per page)
+- Total URLs: **90**
+- Total internal links: 670 (avg 7.4 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 27 |
+| `service-area-service` | 54 |
 | `blog-post` | 12 |
 | `service-area` | 9 |
-| `service-landing` | 3 |
+| `service-landing` | 6 |
 | `legal` | 3 |
 | `home` | 1 |
 | `services-hub` | 1 |
@@ -30,6 +30,9 @@
 - `water-damage-restoration` — Water Damage Restoration (core, priority 10)
 - `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
 - `mold-remediation` — Mold Remediation (core, priority 10)
+- `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
+- `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
+- `smoke-damage-restoration` — Smoke Damage Restoration (core, priority 9)
 
 ## Service areas
 
@@ -50,13 +53,13 @@
 | `/services/fire-damage-restoration/` | `service-landing` | 9.0 | fire damage restoration davie |
 | `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation davie |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration davie |
+| `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration davie |
+| `/services/smoke-damage-restoration/` | `service-landing` | 8.1 | smoke damage restoration davie |
+| `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration davie |
 | `/service-areas/davie-fl/` | `service-area` | 7.2 | restoration services davie |
 | `/service-areas/cooper-city-fl/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration cooper city |
 | `/service-areas/cooper-city-fl/mold-remediation/` | `service-area-service` | 7.0 | mold remediation cooper city |
 | `/service-areas/cooper-city-fl/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration cooper city |
-| `/service-areas/davie-fl/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration davie |
-| `/service-areas/davie-fl/mold-remediation/` | `service-area-service` | 7.0 | mold remediation davie |
-| `/service-areas/davie-fl/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration davie |
 
 ## Validation
 

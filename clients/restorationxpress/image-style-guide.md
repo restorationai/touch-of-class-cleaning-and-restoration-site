@@ -182,7 +182,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] flood-damage-restoration
 - [ ] burst-pipe-repair
 - [ ] basement-flooding-cleanup
-- [ ] (continue for each of Water Damage Restoration, Fire Damage Restoration, Mold Remediation)
+- [ ] (continue for each of Water Damage Restoration, Fire Damage Restoration, Mold Remediation, Storm Damage Restoration, Flood Damage Restoration, Smoke Damage Restoration)
 
 ### Service area pages (one image per city served)
 - [ ] Davie hero — exterior shot, regional housing stock, evocative of the city

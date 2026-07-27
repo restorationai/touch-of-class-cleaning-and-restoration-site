@@ -1,1 +1,83 @@
-{}
+{
+  "/images/hero-bg.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/fire-damage-restoration.webp": {
+    "width": 1264,
+    "height": 848,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/flood-damage-restoration.webp": {
+    "width": 1264,
+    "height": 848,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/mold-remediation.webp": {
+    "width": 1264,
+    "height": 848,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/smoke-damage-restoration.webp": {
+    "width": 1264,
+    "height": 848,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/storm-damage-restoration.webp": {
+    "width": 1264,
+    "height": 848,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/water-damage-restoration.webp": {
+    "width": 1264,
+    "height": 848,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/team.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  }
+}

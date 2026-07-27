@@ -96,6 +96,14 @@ SITES = {
         "bucket": "rankai-aaa-water-damage",
         "images_base": "https://images.aaawaterdamagehawaii.com",
     },
+    "restorationxpress": {
+        "bucket": "rankai-restorationxpress",
+        "images_base": "https://images.restorationxpress.com",
+    },
+    "crew-restoration-construction": {
+        "bucket": "rankai-crew-restoration-construction",
+        "images_base": "https://images.crew3r.com",
+    },
 }
 
 # R2 keys every site may have; 404s are skipped gracefully.
