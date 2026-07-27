@@ -1,0 +1,228 @@
+{
+  "items": [
+    {
+      "id": "2026-07-27-best-emergency-plumbing-in-bakersfield-ca",
+      "status": "written",
+      "queued_at": "2026-07-27T17:41:36Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "best_of_comparison",
+      "combo_key": "best-emergency-plumbing-in-bakersfield-ca",
+      "primary_keyword": "best emergency plumbing company in Bakersfield, CA",
+      "intent": "commercial",
+      "target_word_count": 1600,
+      "city_anchor": "bakersfield-ca",
+      "best_of": {
+        "service": "emergency-plumbing",
+        "service_pretty": "Emergency Plumbing",
+        "city": "Bakersfield",
+        "state": "CA",
+        "competitors": [
+          {
+            "name": "The Honest Plumber",
+            "google_rating": 3.9,
+            "review_count": 288
+          }
+        ]
+      },
+      "fan_out_cluster": [
+        "best emergency plumbing companies Bakersfield",
+        "top rated emergency plumbing Bakersfield CA",
+        "who is the best emergency plumbing company in Bakersfield"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-07-27T17:54:24Z",
+      "post_url": "https://allproplumbingheatingandair.com/blog/best-emergency-plumbing-company-in-bakersfield-ca/"
+    },
+    {
+      "id": "2026-07-27-how-much-does-a-plumber-cost-per-hour",
+      "status": "queued",
+      "queued_at": "2026-07-27T20:50:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how much does a plumber cost per hour",
+      "intent": "commercial",
+      "volume": 1600,
+      "kd": 11,
+      "fan_out_cluster": [
+        "plumber prices per hour",
+        "how much do plumbers charge per hour near me",
+        "plumbing labor price list",
+        "how much does a plumber charge for a service call",
+        "emergency plumber cost per hour",
+        "plumber bakersfield prices",
+        "plumbing cost estimator",
+        "plumbing prices per fixture"
+      ],
+      "suggested_slug": "how-much-does-a-plumber-cost-per-hour",
+      "suggested_title": "How much does a plumber cost per hour in Bakersfield (2026 price ranges)",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/emergency-plumbing/",
+        "/services/drain-cleaning/",
+        "/services/toilet-faucet-repair/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "emergency-plumbing",
+        "drain-cleaning",
+        "toilet-faucet-repair"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.bls.gov/ooh/construction-and-extraction/plumbers-pipefitters-and-steamfitters.htm",
+        "https://www.cslb.ca.gov/"
+      ],
+      "notes": "Highest-CPC cluster in this run (service-call and per-hour terms run $8 to $28 CPC). Open with a scannable price table: service call or diagnostic fee, hourly vs flat-rate, after-hours premium, then per-job ranges (drain clearing, toilet, water heater). Brand hours are 24/7 so after-hours availability can be stated plainly. LICENSE GATE: do not call All Pro licensed, certified or bonded anywhere in this post (CSLB 960566 is held by PRO RESTORATION SERVICES INC and the DBA is unconfirmed). Explain flat-rate vs hourly generically and tell readers to verify any contractor on the CSLB lookup.",
+      "source": "rank-ai-keyword-researcher"
+    },
+    {
+      "id": "2026-07-27-how-to-find-a-good-plumber",
+      "status": "queued",
+      "queued_at": "2026-07-27T20:50:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to find a good plumber",
+      "intent": "informational",
+      "volume": null,
+      "kd": 8,
+      "fan_out_cluster": [
+        "what questions to ask a plumber before hiring",
+        "how to check if a plumber is licensed in california",
+        "signs of a bad plumber",
+        "licensed vs unlicensed plumber",
+        "should a plumber give a written estimate",
+        "how many plumbing quotes should I get"
+      ],
+      "suggested_slug": "how-to-find-a-good-plumber",
+      "suggested_title": "How to find a good plumber in Bakersfield: a 10-question vetting checklist",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/",
+        "/service-areas/bakersfield-ca/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "emergency-plumbing",
+        "sewer-line-repair",
+        "water-heater-repair"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://web.cslb.ca.gov/OnlineServices/CheckLicenseII/checklicense.aspx",
+        "https://www.cslb.ca.gov/Consumers/"
+      ],
+      "notes": "Pure GEO play: zero measured Google volume, but the ChatGPT decomposition for this seed is built almost entirely out of this question (license verification, questions to ask, warning signs). Question-and-answer H2s so AI engines can lift passages verbatim. LICENSE GATE IS CRITICAL HERE: the post teaches readers to verify a CSLB number without ever asserting All Pro's own license status. Frame every checklist item in second person (what you should ask any contractor), never as a claim about us.",
+      "source": "rank-ai-keyword-researcher"
+    },
+    {
+      "id": "2026-07-27-toilet-replacement-cost",
+      "status": "queued",
+      "queued_at": "2026-07-27T20:50:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "toilet replacement cost",
+      "intent": "commercial",
+      "volume": 5400,
+      "kd": 1,
+      "fan_out_cluster": [
+        "plumber cost to replace toilet near me",
+        "how much does a plumber cost to fix a toilet",
+        "labor cost to replace toilet fill valve",
+        "plumber to install toilet",
+        "toilet installation labor cost",
+        "is it worth replacing an old toilet"
+      ],
+      "suggested_slug": "toilet-replacement-cost",
+      "suggested_title": "Toilet replacement cost in 2026: what Bakersfield homeowners actually pay",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/toilet-faucet-repair/",
+        "/service-areas/bakersfield-ca/toilet-faucet-repair/"
+      ],
+      "service_tags": [
+        "toilet-faucet-repair"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.epa.gov/watersense/residential-toilets"
+      ],
+      "notes": "Highest volume uncovered term in the run (5,400/mo at KD 1). Split fixture cost from labor cost, then cover the cheap-fix fork: fill valve or flapper repair versus full replacement. Local angle: Bakersfield's very hard municipal water scales flappers and fill valves early, so repair-then-replace timing is a real decision here. WaterSense rebate angle fits the water-savings section.",
+      "source": "rank-ai-keyword-researcher"
+    },
+    {
+      "id": "2026-07-27-does-homeowners-insurance-cover-slab-leak-repair",
+      "status": "queued",
+      "queued_at": "2026-07-27T20:50:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does homeowners insurance cover slab leak repair",
+      "intent": "informational",
+      "volume": 170,
+      "kd": null,
+      "fan_out_cluster": [
+        "who pays for slab leak repair",
+        "slab leak insurance claim denied",
+        "average cost of slab leak repair",
+        "does insurance cover the water damage from a slab leak",
+        "how to prove a slab leak to insurance",
+        "slab leak repair cost bakersfield"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-slab-leak-repair",
+      "suggested_title": "Does homeowners insurance cover slab leak repair? A Bakersfield homeowner's guide",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/slab-leak-repair/",
+        "/services/leak-detection/",
+        "/service-areas/bakersfield-ca/slab-leak-repair/"
+      ],
+      "service_tags": [
+        "slab-leak-repair",
+        "leak-detection"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iii.org/article/what-does-a-standard-homeowners-policy-cover"
+      ],
+      "notes": "Signature local topic: nearly every Bakersfield home is slab-on-grade, so slab leaks are a defining local call, and the existing /blog/signs-of-a-slab-leak/ post covers symptoms but not the money question. Teach the standard split (many policies pay to access and repair plus resulting damage, but not the failed pipe itself) and tell readers to read their own policy, with no coverage guarantees. Scope: stop at detection and pipe repair. Drying and rebuild are out of scope for this site; at most one contextual sister-company cross-link to ProRestoration Services per linking-rules sister_company_policy.",
+      "source": "rank-ai-keyword-researcher"
+    },
+    {
+      "id": "2026-07-27-how-much-does-a-plumber-cost-to-unclog-a-drain",
+      "status": "queued",
+      "queued_at": "2026-07-27T20:50:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how much does a plumber cost to unclog a drain",
+      "intent": "commercial",
+      "volume": 480,
+      "kd": null,
+      "fan_out_cluster": [
+        "hydrojet drain cleaning cost",
+        "cost to snake a main line",
+        "drain cleaning cost bakersfield",
+        "how much does it cost to clear a sewer line",
+        "why does my drain keep clogging",
+        "when snaking is not enough"
+      ],
+      "suggested_slug": "how-much-does-a-plumber-cost-to-unclog-a-drain",
+      "suggested_title": "How much does a plumber cost to unclog a drain? Bakersfield pricing by clog type",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/drain-cleaning/",
+        "/services/sewer-line-repair/",
+        "/service-areas/bakersfield-ca/drain-cleaning/"
+      ],
+      "service_tags": [
+        "drain-cleaning",
+        "sewer-line-repair"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.epa.gov/septic/septicsmart-homeowners"
+      ],
+      "notes": "Price by clog type (single fixture, branch line, main line, camera inspection, hydro jetting) rather than one number. Local hook: mature downtown tree canopy drives root-intruded laterals in Oleander, Westchester and East Bakersfield, which is why a repeat main-line clog becomes a sewer conversation. Complements the planned /blog/hydro-jetting-vs-snaking/ post: that one compares methods, this one prices them, so cross-link rather than restate.",
+      "source": "rank-ai-keyword-researcher"
+    }
+  ]
+}
