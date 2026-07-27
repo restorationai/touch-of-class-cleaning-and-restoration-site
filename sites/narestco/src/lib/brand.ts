@@ -48,14 +48,14 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "4.9",
-  gbpReviewCount: "53",
+  gbpReviewCount: "57",
   gbpReviews: [
+    { author: "Tatyana", rating: 5, text: "So glad they were able to come out same day as I called to check my home for mold. Everything was explained simple and easy to understand", when: "July 2026" },
+    { author: "Wesley", rating: 5, text: "These fellas came in when we had a water leak from a major big box store install. They came in as a third party. It did take some time, but they got everything fixed.And they went out of the way to make sure that we got what we needed.The way we needed it.", when: "July 2026" },
+    { author: "Doneen", rating: 5, text: "Very pleased with the service. They explained each step clearly. They answered any questions we had. They were on time and cleaned up each day any mess they had created working.", when: "July 2026" },
+    { author: "Sherry", rating: 5, text: "Jose is such a great pleasure to work with to remediate water damage to our property caused by sprinkler malfunction. He is very experienced in working with the insurance company. He is efficient in managing teams and timelines to complete remediation and restoration project milestones. He was very…", when: "July 2026" },
     { author: "Bhave", rating: 5, text: "My friend had a water leak and Jose and his team did such a fantastic job start to finish. My friend was so happy . Thorough professionals . Highly recommend", when: "June 2026" },
     { author: "Tuong", rating: 5, text: "We’re very happy with the results! We worked with Jose and Niki, and the team was incredibly responsive throughout the entire process. They kept us informed every step of the way by sending pictures and communicating what was completed as they went. They replaced the flooring for the whole place…", when: "June 2026" },
-    { author: "Stacey", rating: 5, text: "I hired them for water mitigation services and am quite pleased with their professionalism and work overall. Jose ( and Miguel) took the time to explain everything and made sure i understood what would take place. He's very thorough, honest and really cares about getting the job done right!", when: "June 2026" },
-    { author: "Thomas", rating: 5, text: "We worked with Jose and his team to replace the very old hardwood floor and repaint the walls in the dated living room of our first home. From start to finish, they communicated clearly and were patient with all of our concerns and requests, which was exactly what we needed for our first big…", when: "June 2026" },
-    { author: "Belinda", rating: 5, text: "Absolutely great! Rescued us, attentive through the entire process. Look no where else.", when: "May 2026" },
-    { author: "Gretchen", rating: 5, text: "Jose and his company completed two large projects for us. He was professional, timely, responsive, and knowledgeable. He made sure we understood the process and all the options for repairs. We would highly recommend him for any project you need.", when: "May 2026" },
   ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Federal Way, WA.",
 } as const;

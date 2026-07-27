@@ -44,9 +44,15 @@ export const brand = {
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   // Empty for this client: no GBP profile row yet, so no AggregateRating is
   // published and the ReviewsStrip renders nothing.
-  gbpRatingValue: "",
-  gbpReviewCount: "",
-  gbpReviews: [] as { author: string; rating: number; text: string; when: string }[],
+  gbpRatingValue: "5.0",
+  gbpReviewCount: "9",
+  gbpReviews: [
+    { author: "Erik", rating: 5, text: "i'd like to leave a review based upon the exceptional work done in my home. Their services were completed on time, quality assurance after flooring was completed. Thank you", when: "May 2026" },
+    { author: "Ian", rating: 5, text: "Courteous and respectful crew with excellent attention to detail.", when: "May 2026" },
+    { author: "Nigel", rating: 5, text: "Flood Fixers completely saved my home and my sanity. I experienced an extreme upstairs bathroom leak that could have caused catastrophic damage, but their team responded immediately. They arrived fast, assessed the situation with total professionalism, and went straight to work.The technicians were…", when: "May 2026" },
+    { author: "Maryann", rating: 5, text: "Great work by the Flood Fixer team. Highly recommend.", when: "May 2026" },
+    { author: "Jeffrey", rating: 5, text: "Absolutely blown away by Flood Fixers! ⭐⭐⭐⭐⭐ They swooped in after our disaster like a team of caffeinated superheroes and brought a level of creative flair I didn’t even know my home needed. The floors? Let’s just say they now have a one-of-a-kind, “you’ll never see this anywhere else” finish. The…", when: "May 2026" },
+  ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in San Diego, CA.",
   ctaLabel: "24/7 Emergency Hotline",
 } as const;
