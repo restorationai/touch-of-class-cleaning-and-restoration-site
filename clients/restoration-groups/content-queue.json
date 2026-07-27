@@ -1,0 +1,283 @@
+{
+  "items": [
+    {
+      "id": "2026-07-27-best-water-damage-restoration-in-kenilworth-nj",
+      "status": "written",
+      "queued_at": "2026-07-27T18:32:35Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "best_of_comparison",
+      "combo_key": "best-water-damage-restoration-in-kenilworth-nj",
+      "primary_keyword": "best water damage restoration company in Kenilworth, NJ",
+      "intent": "commercial",
+      "target_word_count": 1600,
+      "city_anchor": "kenilworth-nj",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Kenilworth",
+        "state": "NJ",
+        "competitors": [
+          {
+            "name": "NJ Experts",
+            "google_rating": 5,
+            "review_count": 6
+          },
+          {
+            "name": "Tanaka Water Repair",
+            "google_rating": 5,
+            "review_count": 3
+          },
+          {
+            "name": "Green Guard Mold Remediation of Union",
+            "google_rating": 5,
+            "review_count": 83
+          },
+          {
+            "name": "Eradicator Mold Remediation Services",
+            "google_rating": 4.9,
+            "review_count": 97
+          }
+        ]
+      },
+      "fan_out_cluster": [
+        "best water damage restoration companies Kenilworth",
+        "top rated water damage restoration Kenilworth NJ",
+        "who is the best water damage restoration company in Kenilworth",
+        "water damage cleanup Kenilworth",
+        "water cleanup Kenilworth",
+        "water removal Kenilworth"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-07-27T18:43:37Z",
+      "post_url": "https://therestorationgroup.com/blog/best-water-damage-restoration-company-in-kenilworth-nj/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-kenilworth-nj.md",
+          "part": "frontmatter",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "10 reviews",
+          "context": "fic work. For companies with fewer than 10 reviews, treat the rating cautiously, a small s",
+          "reason": "claims 10 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-kenilworth-nj.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "83 reviews",
+          "context": ". They carry a 5.0 Google rating across 83 reviews, a meaningful sample size that reflects",
+          "reason": "claims 83 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-kenilworth-nj.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "83 reviews",
+          "context": "f publication. **Google Rating:** 5.0 (83 reviews) --- ### #3, Eradicator Mold Remediat",
+          "reason": "claims 83 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-kenilworth-nj.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "97 Google reviews",
+          "context": "he highest review count on this list at 97 Google reviews and a 4.9 rating, strong evidence of a",
+          "reason": "claims 97 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-kenilworth-nj.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "100 reviews",
+          "context": "to a mold problem. A 4.9 across nearly 100 reviews is a credible signal. Specific availabi",
+          "reason": "claims 100 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-kenilworth-nj.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "97 reviews",
+          "context": "f publication. **Google Rating:** 4.9 (97 reviews) --- ### #4, NJ Experts NJ Experts c",
+          "reason": "claims 97 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-kenilworth-nj.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "6 reviews",
+          "context": "f publication. **Google Rating:** 5.0 (6 reviews) --- ### #5, Tanaka Water Repair Tan",
+          "reason": "claims 6 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-kenilworth-nj.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "3 reviews",
+          "context": "r Repair holds a 5.0 Google rating with 3 reviews. The rating is perfect but the sample i",
+          "reason": "claims 3 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-kenilworth-nj.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "3 reviews",
+          "context": "f publication. **Google Rating:** 5.0 (3 reviews) --- ## Comparison Table | Company |",
+          "reason": "claims 3 reviews but no synced gbpReviewCount exists for this site"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-27-ceiling-water-damage-repair",
+      "status": "queued",
+      "queued_at": "2026-07-27T18:39:36Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "ceiling water damage repair",
+      "intent": "transactional",
+      "volume": 1900,
+      "kd": null,
+      "fan_out_cluster": [
+        "ceiling water damage",
+        "signs of water damage in ceiling",
+        "water stain on ceiling from leak above",
+        "sagging ceiling from water damage",
+        "how much does ceiling water damage repair cost",
+        "can a water damaged ceiling collapse"
+      ],
+      "suggested_slug": "ceiling-water-damage-repair",
+      "suggested_title": "Ceiling water damage repair: when to patch, when to replace, and what it costs",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/reconstruction/",
+        "/blog/what-to-do-first-24-hours-water-damage/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "reconstruction"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Highest-volume uncovered term from this seed (1,900/mo, CPC $36.82). KD absent from the DataForSEO database. Lead with the collapse-risk safety call, then the patch-vs-replace decision, then cost ranges. Cover the ceiling-from-upstairs-bathroom case: that is the most common Kenilworth-area cape and colonial loss. Fold the signs cluster in as an H2 so the post also answers the diagnostic query."
+    },
+    {
+      "id": "2026-07-27-hardwood-floor-water-damage",
+      "status": "queued",
+      "queued_at": "2026-07-27T18:39:36Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "hardwood floor water damage",
+      "intent": "transactional",
+      "volume": 1600,
+      "kd": null,
+      "fan_out_cluster": [
+        "can water damaged hardwood floors be saved",
+        "cupping hardwood floor water damage",
+        "how long does it take hardwood to dry after a leak",
+        "hardwood floor water damage repair cost",
+        "buckled wood floor after flooding",
+        "does insurance cover hardwood floor water damage"
+      ],
+      "suggested_slug": "hardwood-floor-water-damage",
+      "suggested_title": "Hardwood floor water damage: what can be dried and saved, and what has to go",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/basement-flooding-cleanup/",
+        "/blog/how-long-does-water-damage-restoration-take/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "reconstruction"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "1,600/mo, CPC $55.67, no coverage in the commercial partition. Homeowner is deciding between drying-in-place and tear-out, which is exactly where an IICRC firm wins the job. Explain cupping vs crowning vs buckling, the in-place drying window, and why a moisture meter reading beats a visual check."
+    },
+    {
+      "id": "2026-07-27-condo-insurance-water-damage",
+      "status": "queued",
+      "queued_at": "2026-07-27T18:39:36Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "condo insurance water damage",
+      "intent": "informational",
+      "volume": 1000,
+      "kd": null,
+      "fan_out_cluster": [
+        "who pays for water damage in a condo",
+        "condo master policy vs ho-6 water damage",
+        "water leak from upstairs condo who is responsible",
+        "does condo insurance cover water damage from a neighbor",
+        "hoa responsibility water damage new jersey",
+        "condo water damage deductible"
+      ],
+      "suggested_slug": "condo-insurance-water-damage",
+      "suggested_title": "Condo insurance and water damage: who pays when the leak comes from another unit",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/services/commercial-restoration/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "commercial-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://nj.gov/dobi/division_consumers/insurance/homeowner.htm"
+      ],
+      "notes": "1,000/mo decision-stage insurance query with no blog coverage. Distinct from the existing homeowners-insurance post: this one is the HO-6 vs master-policy responsibility split. High relevance to the Hoboken, Jersey City, Fort Lee and Brooklyn high-rise segment of the service area. Do not give legal or coverage advice, describe how the policies usually divide and tell them to read their master deed."
+    },
+    {
+      "id": "2026-07-27-water-damage-restoration-cost",
+      "status": "queued",
+      "queued_at": "2026-07-27T18:39:36Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "water damage restoration cost",
+      "intent": "commercial",
+      "volume": 880,
+      "kd": 3,
+      "fan_out_cluster": [
+        "water damage restoration cost per square foot",
+        "water damage restoration cost calculator",
+        "how much does water damage restoration cost in new jersey",
+        "average cost to dry out a flooded basement",
+        "does insurance pay the restoration company directly",
+        "water damage restoration price sheet"
+      ],
+      "suggested_slug": "water-damage-restoration-cost",
+      "suggested_title": "Water damage restoration cost: real 2026 price ranges by category and square foot",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/basement-flooding-cleanup/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "basement-flooding-cleanup"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "KD 3 with 880/mo and CPC $20.21: the cheapest priority-1 win in this seed family. Cost pages are the top AI-assistant citation target for this vertical. Break price out by water category (1/2/3), affected square footage and equipment days, and explain that most losses run through insurance so the homeowner's real number is the deductible."
+    }
+  ]
+}
