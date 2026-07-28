@@ -167,7 +167,7 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
     attention: list[str] = []
     # per-run auto-heal budget: 2 geo-grid re-scans (DFS cost) + 3 media
     # imports + 3 tracking-number provisions + 3 GBP phone swaps
-    _HEALS = {"geogrid": 2, "media": 3, "calltrack": 3, "swap": 3}
+    _HEALS = {"geogrid": 2, "media": 3, "calltrack": 3, "swap": 3, "citations": 2}
 
     for co in cos:
         cid = co["id"]
@@ -384,27 +384,16 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                 line = (r.stdout or r.stderr or "").strip().splitlines()[-1:]
                 attention.append(f"{slug}: call tracking -> {line[0][:110] if line else 'no output'}")
                 has_number = "provisioned" in (line[0] if line else "")
+            # The GBP phone SWAP is NEVER automatic (Santino 2026-07-28: "a
+            # human overseeing and confirming the push live for every single
+            # client"). Provisioning is zero-touch; the swap is a per-client
+            # human action: gbp.py set-phone --slug X (app button coming).
             swapped = bool((ct.get("gbp") or {}).get("gbp_swapped_at"))
-            if (has_number and not swapped and not dry_run
-                    and os.environ.get("AUTO_PHONE_SWAP") == "1"
-                    and _HEALS.get("swap", 0) > 0):
-                _HEALS["swap"] -= 1
-                r = subprocess.run([sys.executable, str(ROOT / "scripts" / "gbp.py"),
-                                    "set-phone", "--slug", slug],
-                                   capture_output=True, text=True, timeout=300)
-                line = (r.stdout or r.stderr or "").strip().splitlines()[-1:]
-                if line and "->" in line[0]:
-                    co2 = _sb("GET", f"/rest/v1/companies?id=eq.{cid}"
-                              "&select=integration_settings",
-                              prefer="return=representation") or [{}]
-                    i2 = co2[0].get("integration_settings") or {}
-                    if isinstance(i2, str):
-                        i2 = json.loads(i2)
-                    i2.setdefault("call_tracking", {}).setdefault("gbp", {})[
-                        "gbp_swapped_at"] = datetime.now(timezone.utc).isoformat()
-                    _sb("PATCH", f"/rest/v1/companies?id=eq.{cid}",
-                        {"integration_settings": i2})
-                attention.append(f"{slug}: GBP phone swap -> {line[0][:110] if line else 'no output'}")
+            if has_number and not swapped:
+                attention.append(f"{slug}: tracking number "
+                                 f"{ct.get('gbp', {}).get('number', '?')} ready — "
+                                 "HUMAN STEP: verify by test call, then run "
+                                 f"gbp.py set-phone --slug {slug}")
             rows.append({"company_id": cid, "item_key": "call-tracking", "kind": "auto",
                          "status": "done" if has_number else "open",
                          "title": ("Call tracking live: " + ct.get("gbp", {}).get("number", "")
@@ -414,6 +403,58 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                          "on the next ops pass.",
                          "evidence": {"gbp_number": ct.get("gbp", {}).get("number"),
                                       "swapped": swapped}})
+        except Exception:
+            pass
+
+        # ---- CITATIONS discovery/NAP audit (Santino 2026-07-28, priority):
+        # auto-discovers each client's directory listings, prepopulates the
+        # Connect tab slots, and flags phone discrepancies. Re-audits monthly.
+        try:
+            cit = _sb("GET", f"/rest/v1/user_integrations?client_id=eq.{cid}"
+                      "&provider=eq.citations&select=connection_metadata",
+                      prefer="return=representation") or []
+            napa = ((cit[0].get("connection_metadata") or {}).get("nap_audit")
+                    if cit else None) or {}
+            newest_chk = max((v.get("checked_at") or "" for v in napa.values()),
+                             default="")
+            stale_c = True
+            if newest_chk:
+                try:
+                    stale_c = (datetime.now(timezone.utc) - datetime.fromisoformat(
+                        newest_chk.replace("Z", "+00:00"))).days > 30
+                except ValueError:
+                    pass
+            if stale_c and not dry_run and _HEALS.get("citations", 0) > 0:
+                _HEALS["citations"] -= 1
+                r = subprocess.run([sys.executable,
+                                    str(ROOT / "scripts" / "citations_audit.py"),
+                                    "--slug", slug],
+                                   capture_output=True, text=True, timeout=600)
+                tail_ = (r.stdout or r.stderr or "").strip().splitlines()[-1:]
+                attention.append(f"{slug}: citations audit -> {tail_[0][:110] if tail_ else 'no output'}")
+                cit = _sb("GET", f"/rest/v1/user_integrations?client_id=eq.{cid}"
+                          "&provider=eq.citations&select=connection_metadata",
+                          prefer="return=representation") or []
+                napa = ((cit[0].get("connection_metadata") or {}).get("nap_audit")
+                        if cit else None) or {}
+            n_found = sum(1 for v in napa.values()
+                          if v.get("status") in ("found", "discrepancy"))
+            n_disc = sum(1 for v in napa.values() if v.get("status") == "discrepancy")
+            n_missing = sum(1 for v in napa.values() if v.get("status") == "missing")
+            if napa:
+                rows.append({"company_id": cid, "item_key": "citations", "kind": "client_owed",
+                             "status": "open" if (n_disc or n_missing >= 5) else "done",
+                             "title": f"Directory listings: {n_found} found, "
+                                      f"{n_disc} wrong phone, {n_missing} missing",
+                             "detail": ("Discrepancies get fixed against the Business "
+                                        "Information card; heavy gaps mean it's time to "
+                                        "order citations." if (n_disc or n_missing >= 5)
+                                        else None),
+                             "evidence": {"found": n_found, "discrepancies": n_disc,
+                                          "missing": n_missing}})
+                if n_disc:
+                    attention.append(f"{slug}: {n_disc} directory listing(s) show a WRONG "
+                                     "phone — fix against the canonical card")
         except Exception:
             pass
 
