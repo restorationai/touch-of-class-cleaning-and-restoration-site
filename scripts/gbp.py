@@ -718,11 +718,16 @@ def _anthropic_json(system: str, user: str) -> dict:
     if not key:
         raise RuntimeError("Missing ANTHROPIC_API_KEY in rank-ai/.env")
     last = ""
-    for attempt in (1, 2):  # retry once: transient empty/non-JSON or overload happens
+    # claude-sonnet-4-6 rejects assistant prefill outright, so JSON-only is
+    # enforced by instruction + a corrective retry (2026-07-28: the
+    # variant-expansion ruleset tipped the model into prose twice in a row).
+    messages = [{"role": "user", "content": user + "\n\nReply with ONLY the JSON object. "
+                 "The very first character of your reply must be '{'. No preamble, no analysis."}]
+    for attempt in (1, 2, 3):
         r = requests.post(ANTHROPIC_API, headers={
             "x-api-key": key, "anthropic-version": "2023-06-01", "Content-Type": "application/json"},
             data=json.dumps({"model": ANTHROPIC_MODEL, "max_tokens": 16384,
-                             "system": system, "messages": [{"role": "user", "content": user}]}))
+                             "system": system, "messages": messages}))
         if r.status_code in (429, 500, 503, 529):  # overloaded/rate-limited — retry
             last = f"HTTP {r.status_code}"
             continue
@@ -745,7 +750,11 @@ def _anthropic_json(system: str, user: str) -> dict:
                 except json.JSONDecodeError:
                     pass
             last = f"non-JSON: {text[:120]!r}"
-    raise RuntimeError(f"Anthropic did not return valid JSON after 2 tries ({last})")
+            messages = messages[:1] + [
+                {"role": "assistant", "content": text[:2000]},
+                {"role": "user", "content": "That was not valid JSON. Send the complete JSON "
+                 "object now, nothing else. First character must be '{'."}]
+    raise RuntimeError(f"Anthropic did not return valid JSON after 3 tries ({last})")
 
 
 def _matches(term: str, pool: list) -> bool:
