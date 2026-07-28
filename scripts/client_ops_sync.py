@@ -1004,8 +1004,9 @@ def run(since_override: str | None, dry_run: bool, do_send: bool) -> int:
     # GSC/IndexNow on live sites, and returns the us-owed attention list
     # (fed into the digest's "Needs Santino/Claude" sections below).
     try:
-        from setup_ledger import ensure_ledger
+        from setup_ledger import ensure_auto_site_build, ensure_ledger
         ledger_lines = ensure_ledger(dry_run, cid_to_slug)
+        ledger_lines += ensure_auto_site_build(dry_run, cid_to_slug)
     except Exception as e:
         ledger_lines = [f"(ledger) errored: {str(e)[:120]}"]
     for ln in ledger_lines:

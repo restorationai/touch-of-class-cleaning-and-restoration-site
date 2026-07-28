@@ -285,6 +285,91 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
     return attention
 
 
+def ensure_auto_site_build(dry_run: bool, cid_to_slug: dict | None = None,
+                           cap: int = 1) -> list[str]:
+    """Auto-build preview sites — site builds never wait on approval (Santino
+    2026-07-28: "I definitely don't want site builds to be backlogged just
+    because I haven't said yes or no"). For Active Rank AI clients with NO
+    sites/{slug}: seed/enrich plan-input from the truth table (services +
+    company contact block, the manual Mold Solutionz steps mechanized), then
+    plan -> scaffold -> render. Cap 1 per run (render cost/time). Imagery is
+    NOT auto-generated — the attention line flags the built site for the
+    hero/photo pass. Disable with AUTO_SITE_BUILD=0."""
+    if os.environ.get("AUTO_SITE_BUILD", "1") == "0":
+        return ["auto-build disabled (AUTO_SITE_BUILD=0)"]
+    cid_to_slug = cid_to_slug or slug_map()
+    cos = _sb("GET", "/rest/v1/companies?status=ilike.active&plan=eq.Rank%20AI"
+              "&select=id,name,phone,email,address,city,state,postal_code,services",
+              prefer="return=representation") or []
+    out: list[str] = []
+    built = 0
+    for co in cos:
+        if built >= cap:
+            break
+        cid, slug = co["id"], cid_to_slug.get(co["id"])
+        if not slug or (SITES_DIR / slug / "src").exists():
+            continue
+        services = [s for s in (co.get("services") or []) if s]
+        if not services:
+            out.append(f"{slug}: cannot auto-build — no confirmed services in truth table")
+            continue
+        pi_path = CLIENTS_DIR / slug / "plan-input.json"
+        if not pi_path.exists():
+            out.append(f"{slug}: cannot auto-build — no plan-input.json (bootstrap missing)")
+            continue
+        if dry_run:
+            out.append(f"{slug}: WOULD auto-build preview site ({len(services)} services)")
+            built += 1
+            continue
+        try:
+            pi = json.loads(pi_path.read_text())
+            # map confirmed service names -> catalog slugs (simple normalize)
+            import verticals
+            cat = json.loads(Path(verticals.resolve_template(slug, "services.json")).read_text())
+            by_norm = {re.sub(r"[^a-z]", "", s["display_name"].lower()): s["slug"]
+                       for s in cat["services"]}
+            svc_slugs = []
+            for s in services:
+                key = re.sub(r"[^a-z]", "", s.lower())
+                hit = by_norm.get(key) or next(
+                    (v for k, v in by_norm.items() if key[:12] and key[:12] in k), None)
+                if hit and hit not in svc_slugs:
+                    svc_slugs.append(hit)
+            if not svc_slugs:
+                out.append(f"{slug}: cannot auto-build — no services mapped to catalog")
+                continue
+            pi["services"] = svc_slugs
+            pi.setdefault("template", "restoration")
+            pi.setdefault("blog_seed_count", 8)
+            b = pi.setdefault("brand", {})
+            b.setdefault("display_name", (co.get("name") or slug).strip())
+            b.setdefault("phone", co.get("phone") or "")
+            b.setdefault("email", co.get("email") or "")
+            b.setdefault("street_address", co.get("address") or "")
+            b.setdefault("city", co.get("city") or "")
+            b.setdefault("state", co.get("state") or "")
+            b.setdefault("postal_code", co.get("postal_code") or "")
+            pi_path.write_text(json.dumps(pi, indent=1) + "\n")
+            for cmdline, tmo in [
+                ([sys.executable, str(ROOT / "scripts" / "plan_site.py"),
+                  "generate", "--slug", slug], 300),
+                ([sys.executable, str(ROOT / "scripts" / "build_site.py"),
+                  "scaffold", "--slug", slug], 900),
+                ([sys.executable, str(ROOT / "scripts" / "build_site.py"),
+                  "render", "--slug", slug, "--workers", "4", "--push"], 5400),
+            ]:
+                r = subprocess.run(cmdline, capture_output=True, text=True, timeout=tmo)
+                if r.returncode != 0:
+                    tail = (r.stderr or r.stdout or "").strip().splitlines()[-1:]
+                    raise RuntimeError(f"{cmdline[2]} failed: {tail}")
+            built += 1
+            out.append(f"{slug}: AUTO-BUILT preview site ({len(svc_slugs)} services) — "
+                       "NEEDS imagery pass (hero + per-service) + human once-over")
+        except Exception as e:
+            out.append(f"{slug}: auto-build FAILED — {str(e)[:140]}")
+    return out
+
+
 if __name__ == "__main__":
     dry = "--dry-run" in sys.argv
     try:

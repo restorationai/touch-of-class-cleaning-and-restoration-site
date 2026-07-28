@@ -1401,6 +1401,34 @@ def cmd_compose(args) -> int:
                 "exclude this item based on meeting intel or history — include it "
                 "as a light check-in ('circling back on...'). || "
                 + (it.get("detail") or ""))
+    # ESCALATION LADDER (Santino 2026-07-28): 4+ open items AND 2+ outbound
+    # nudges with no reply → stop retail-texting; this message proposes a
+    # 15-minute setup call and carries the checklist-card image link.
+    consecutive_out = 0
+    for m_ in history:
+        if m_.get("direction") == "out":
+            consecutive_out += 1
+        else:
+            break
+    if len(items) >= 4 and consecutive_out >= 2:
+        try:
+            import subprocess as _sp
+            r_ = _sp.run([sys.executable,
+                          str(ROOT / "scripts" / "checklist_image.py"),
+                          "--company", args.company],
+                         capture_output=True, text=True, timeout=120)
+            card_url = (r_.stdout or "").strip().splitlines()[-1] if r_.returncode == 0 else ""
+        except Exception:
+            card_url = ""
+        if card_url.startswith("http"):
+            intel = ((intel or "") +
+                     f"\n\n[ESCALATION LADDER — follow this]\nThis client has {len(items)} "
+                     f"open items and {consecutive_out} unanswered nudges. In THIS message: "
+                     "lead with wanting to hop on a quick 15-minute call this week to knock "
+                     "everything out together (offer 2-3 concrete times plus an easy out), and "
+                     f"include this link to a picture of their setup checklist: {card_url} . "
+                     "Keep individual asks brief; the call is the main CTA.")
+            print(f"[ladder] escalation active — checklist card: {card_url}")
     draft = compose_draft(company, first, items, args.channel, first_contact,
                           history=history, intel=intel, appointments=appts,
                           sister_names=sister_names)
