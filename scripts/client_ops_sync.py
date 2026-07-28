@@ -656,6 +656,7 @@ def ensure_setup_checklist(dry_run: bool, cid_to_slug: dict) -> list[str]:
             "Google for them."))
 
         crew = 0
+        newest_upload = ""  # newest field-crew upload created_at (ISO)
         try:
             sb_url = os.environ["SUPABASE_URL"].rstrip("/")
             sb_key = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
@@ -672,6 +673,7 @@ def ensure_setup_checklist(dry_run: bool, cid_to_slug: dict) -> list[str]:
                     base = re.sub(r"^r\d+_", "", f["name"])
                     if not base.startswith("gbp-"):
                         crew += 1
+                        newest_upload = max(newest_upload, f.get("created_at") or "")
         except Exception:
             crew = 1  # storage hiccup: assume fine, never nag on bad data
         checks.append((
@@ -681,6 +683,85 @@ def ensure_setup_checklist(dry_run: bool, cid_to_slug: dict) -> list[str]:
              "both the Google profile and the website. MONICA: re-share their no-login "
              "crew upload link ({}) and suggest texting it to the crew group chat; "
              "even 3-4 phone pics from recent jobs is plenty.").format(photos_link)))
+
+        # Photo freshness (Santino 2026-07-28): clients who HAVE uploaded before
+        # but have gone 30+ days without a new photo anywhere (app upload OR
+        # their Google profile) get a friendly reminder. Google side is checked
+        # before nagging so a client whose GBP gets photos from elsewhere (e.g.
+        # a daily posting tool, Home Pride) is never falsely nagged.
+        photo_stale = False
+        if crew > 0:
+            from datetime import datetime as _dt, timedelta, timezone as _tz
+            cutoff = _dt.now(_tz.utc) - timedelta(days=30)
+            def _fresh(iso):
+                try:
+                    return _dt.fromisoformat(iso.replace("Z", "+00:00")) > cutoff
+                except (ValueError, AttributeError):
+                    return False
+            fresh = _fresh(newest_upload)
+            if not fresh:
+                try:
+                    import gbp as _gbp
+                    tok = _gbp.get_access_token(cid)
+                    place = _gbp._place_id_from_connection(cid)
+                    if not place:
+                        bfile = CLIENTS_DIR / slug / "plan-input.json"
+                        if bfile.exists():
+                            place = (json.loads(bfile.read_text()).get("brand") or {}).get("place_id")
+                    loc = _gbp.find_location(tok, place) if (tok and place) else None
+                    if loc:
+                        acct = _gbp._g(f"{_gbp.ACCT_API}/accounts", tok)["accounts"][0]["name"]
+                        media = _gbp._g("https://mybusiness.googleapis.com/v4/"
+                                        f"{acct}/{loc['name']}/media", tok)
+                        latest = max((m.get("createTime") or ""
+                                      for m in media.get("mediaItems", [])), default="")
+                        fresh = _fresh(latest)
+                except Exception:
+                    fresh = True  # can't verify the Google side — never nag on bad data
+            photo_stale = not fresh
+        checks.append((
+            f"checklist-photo-fresh-{slug}", photo_stale,
+            "ASK CLIENT: fresh job photos (none in 30+ days)",
+            ("It's been over a month since any new photo landed on their Google "
+             "profile or came in from the crew — fresh photos are a real local-ranking "
+             "signal and keep the listing alive. MONICA: friendly nudge, re-share the "
+             "crew upload link ({}) and suggest 3-4 phone pics from whatever job "
+             "they're on this week.").format(photos_link)))
+
+        # YouTube channel readiness (Santino 2026-07-28): connected YouTube with
+        # NO channel on the Google account means we cannot upload videos for
+        # them. Verified live against the YouTube API (channel_id missing in
+        # metadata can just mean the backfill never ran) before flagging.
+        yt_gap = False
+        try:
+            yt = _sb("GET", f"/rest/v1/user_integrations?client_id=eq.{cid}"
+                     "&provider=eq.youtube&select=connection_metadata",
+                     prefer="return=representation") or []
+            md = (yt[0].get("connection_metadata") or {}) if yt else None
+            if md is not None and not md.get("channel_id"):
+                rt = md.get("refresh_token")
+                if rt:
+                    t = requests.post("https://oauth2.googleapis.com/token", data={
+                        "client_id": os.environ.get("GOOGLE_OAUTH_CLIENT_ID", ""),
+                        "client_secret": os.environ.get("GOOGLE_OAUTH_CLIENT_SECRET", ""),
+                        "refresh_token": rt, "grant_type": "refresh_token"},
+                        timeout=30).json().get("access_token")
+                    if t:
+                        ch = requests.get(
+                            "https://www.googleapis.com/youtube/v3/channels"
+                            "?part=id&mine=true",
+                            headers={"Authorization": f"Bearer {t}"}, timeout=30).json()
+                        yt_gap = not (ch.get("items") or [])
+        except Exception:
+            yt_gap = False  # verification failed — never nag on bad data
+        checks.append((
+            f"checklist-youtube-channel-{slug}", yt_gap,
+            "ASK CLIENT: create their YouTube channel (account connected, no channel)",
+            "Their YouTube is connected but the Google account has no YouTube channel "
+            "yet, so we cannot post videos for them. MONICA: tell them it takes 2 "
+            "minutes — open youtube.com while signed into that Google account, click "
+            "their avatar, then 'Create a channel', use the business name. Once it "
+            "exists we handle all the video posting."))
 
         for seed, gap_open, title, rationale in checks:
             key = action_key(cid, seed)

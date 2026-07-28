@@ -1132,7 +1132,8 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
                   channel: str, first_contact: bool,
                   history: list[dict] | None = None,
                   intel: str | None = None,
-                  appointments: str | None = None) -> dict:
+                  appointments: str | None = None,
+                  sister_names: list[str] | None = None) -> dict:
     chosen = items[:FIRST_CONTACT_MAX_ITEMS if first_contact
                    else MAX_ITEMS_PER_MESSAGE]
     lines = []
@@ -1193,10 +1194,21 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
                 f"NOTE: this client's Google listing already has {n_photos} "
                 "photos we can use — do NOT ask them for photos in this "
                 "message; drop any photo request entirely.\n")
+    sister_block = ""
+    if sister_names:
+        sister_block = (
+            "\nNOTE: this person owns multiple companies we manage: "
+            + company["name"].strip() + " plus " + ", ".join(sister_names)
+            + ". The outstanding items below are prefixed with [Company Name]. "
+            "Write ONE message that covers everything; when an item belongs to "
+            "a different company than the main one, say naturally which company "
+            "it's about (e.g. 'and for Pro Restoration, ...'). Never draft as if "
+            "these were separate conversations.\n")
     user = (f"Client: {company['name']} (first name: {first_name})\n"
             f"Today's date: {today}\n"
             f"Channel: {channel} (character budget for SMS: {stated_budget})\n"
             f"FIRST CONTACT: {'yes' if first_contact else 'no'}\n"
+            + sister_block
             + (f"Intro line to open with, exactly: \"{intro}\"\n"
                if first_contact else "")
             + history_block
@@ -1227,11 +1239,34 @@ def _companies_with_items() -> list[str]:
 
 def cmd_compose(args) -> int:
     if getattr(args, "all", False):
+        # SAME-OWNER MERGE (Santino 2026-07-28): All Pro + ProRestoration share
+        # one owner (Jack, one phone, one GHL contact) — composing per company
+        # would text the same person twice back-to-back. Group companies by
+        # their resolved messaging target; one merged message per human.
+        cids = _companies_with_items()
+        companies = fetch_companies(cids)
+        groups: dict[str, list[str]] = {}
+        for cid in cids:
+            co = companies.get(cid)
+            key = cid
+            if co:
+                t = messaging_target(co)
+                key = (t.get("ghl_contact_id")
+                       or re.sub(r"\D", "", t.get("cell") or "")
+                       or (t.get("email") or "").lower() or cid)
+            groups.setdefault(str(key), []).append(cid)
         rc = 0
-        for cid in _companies_with_items():
+        for group in groups.values():
+            # primary = the company with the most outstanding items
+            group = sorted(group, key=lambda c: -len(gather_items(c)))
             sub = argparse.Namespace(**{**vars(args), "all": False,
-                                        "company": cid})
+                                        "company": group[0],
+                                        "merge_with": group[1:]})
             print(f"\n{'=' * 70}")
+            if group[1:]:
+                names = ", ".join((companies.get(c) or {}).get("name", c)
+                                  for c in group)
+                print(f"[same-owner merge] one message covers: {names}")
             rc = max(rc, cmd_compose(sub))
         return rc
     state = load_state()
@@ -1241,6 +1276,29 @@ def cmd_compose(args) -> int:
         print(f"ERROR: company {args.company} not found", file=sys.stderr)
         return 1
     items = gather_items(args.company)
+    # Same-owner merge: fold sister companies' items into this compose, each
+    # prefixed with its company name so the draft can attribute them.
+    merge_with = [c for c in (getattr(args, "merge_with", None) or [])
+                  if c and c != args.company]
+    sister_names: list[str] = []
+    if merge_with:
+        sisters = fetch_companies(merge_with)
+        for scid in merge_with:
+            sco = sisters.get(scid)
+            if not sco:
+                continue
+            s_items = gather_items(scid)
+            if not s_items:
+                continue
+            sister_names.append((sco.get("name") or scid).strip())
+            for it in s_items:
+                it["text"] = "[{}] {}".format((sco.get("name") or scid).strip(),
+                                              it["text"])
+            items.extend(s_items)
+        if sister_names:
+            for it in items:
+                if not str(it.get("text", "")).startswith("["):
+                    it["text"] = "[{}] {}".format(company["name"].strip(), it["text"])
     if not items:
         print(f"{company['name']}: nothing outstanding — no message needed.")
         return 0
@@ -1306,8 +1364,30 @@ def cmd_compose(args) -> int:
         appts = fetch_upcoming_appointments(contact["id"], tz_name)
         if appts:
             print(f"Upcoming appointments (live GHL calendar):\n{appts}")
+    # STALE-INTEL RE-ASK (Santino 2026-07-28, "reach out consistently"): All
+    # Pro's Google-connect ask sat excluded for weeks because kickoff-call
+    # intel said "in progress" — and nothing ever aged that out. Any item the
+    # intel suppressed 7+ days ago that is STILL open gets force-included as
+    # a light check-in. Prepended (detail is clipped at 300 chars downstream).
+    for it in items:
+        ts = state.get("intel_flagged", {}).get(it.get("id"))
+        if not ts:
+            continue
+        try:
+            age_days = (datetime.now(timezone.utc)
+                        - datetime.fromisoformat(ts)).days
+        except ValueError:
+            continue
+        if age_days >= 7:
+            it["detail"] = (
+                "RE-ASK OVERRIDE: an earlier call said this was in progress, but "
+                f"it has been open {age_days} days and still is not done. Do NOT "
+                "exclude this item based on meeting intel or history — include it "
+                "as a light check-in ('circling back on...'). || "
+                + (it.get("detail") or ""))
     draft = compose_draft(company, first, items, args.channel, first_contact,
-                          history=history, intel=intel, appointments=appts)
+                          history=history, intel=intel, appointments=appts,
+                          sister_names=sister_names)
     print("\n" + "=" * 62)
     if draft["subject"] and args.channel == "email":
         print(f"Subject: {draft['subject']}")

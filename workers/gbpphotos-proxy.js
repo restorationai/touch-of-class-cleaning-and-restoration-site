@@ -146,16 +146,36 @@ export default {
         headers: { "Content-Type": "text/html; charset=utf-8", "Cache-Control": "no-store" } });
     }
 
-    // /connect/{slug} → 302 to the client's current signed Google-connect
-    // URL (KV key connect:{slug}, written when client_ops_sync mints an
-    // ask). The raw Supabase links are unreadable and got dropped from an
-    // SMS entirely (Jeff/MCC 2026-07-25); short link, full signed token at
-    // the destination.
-    const cn = url.pathname.match(/^\/connect\/([a-z0-9-]+)\/?$/i);
+    // /connect/{slug}[/{provider}] → 302 to a SIGNED connect URL for that
+    // client. provider defaults to google; youtube supported (Santino
+    // 2026-07-28: one short link shape for both). Token is minted fresh on
+    // every click with CONNECT_SIGNING_SECRET (30-day exp), so the short
+    // link never goes stale; KV key connect:{slug}[:{provider}] remains as
+    // an override/fallback for clients not in the slug map. Raw Supabase
+    // links are unreadable and got dropped from an SMS entirely (Jeff/MCC
+    // 2026-07-25).
+    const cn = url.pathname.match(/^\/connect\/([a-z0-9-]+)(?:\/(google|youtube))?\/?$/i);
     if (cn) {
+      const slug = cn[1].toLowerCase();
+      const provider = (cn[2] || "google").toLowerCase();
+      if (env && env.CONNECT_SIGNING_SECRET) {
+        const client = await lookup(slug, env);
+        if (client && client.cid) {
+          const payload = {
+            cid: client.cid, p: provider, jti: crypto.randomUUID(),
+            exp: Math.floor(Date.now() / 1000) + 30 * 86400,
+            o: "https://app.restorationai.io",
+          };
+          const pb = b64url(new TextEncoder().encode(JSON.stringify(payload)));
+          const sig = await hmac(env.CONNECT_SIGNING_SECRET, pb);
+          return Response.redirect(SB_URL + "/functions/v1/connect-link-start?t=" + pb + "." + sig, 302);
+        }
+      }
       let dest = null;
       if (env && env.UPLOAD_MAP) {
-        try { dest = await env.UPLOAD_MAP.get("connect:" + cn[1].toLowerCase()); } catch (e) {}
+        try {
+          dest = await env.UPLOAD_MAP.get("connect:" + slug + (provider === "google" ? "" : ":" + provider));
+        } catch (e) {}
       }
       if (dest) return Response.redirect(dest, 302);
       return new Response("This connect link isn't active anymore. Text us and we'll send a fresh one.",
