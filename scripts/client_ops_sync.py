@@ -768,8 +768,18 @@ def ensure_setup_checklist(dry_run: bool, cid_to_slug: dict) -> list[str]:
             ints_ = (co_row[0].get("integration_settings") or {}) if co_row else {}
             if isinstance(ints_, str):
                 ints_ = json.loads(ints_)
+            # "later - revisit 2026-09-15" style answers re-open the ask once
+            # the revisit date passes (Santino 2026-07-28: third state beyond
+            # yes/no for clients who say "maybe later").
+            from datetime import datetime as _ldt
+            intent = str(ints_.get("lsa_intent") or "").strip().lower()
+            intent_active = bool(intent)
+            if intent.startswith("later"):
+                m_ = re.search(r"(\d{4}-\d{2}-\d{2})", intent)
+                if m_ and m_.group(1) <= _ldt.now().strftime("%Y-%m-%d"):
+                    intent_active = False
             if (co_row and (co_row[0].get("plan") or "") == "Rank AI"
-                    and not ints_.get("lsa_intent")):
+                    and not intent_active):
                 gi_ = _sb("GET", f"/rest/v1/user_integrations?client_id=eq.{cid}"
                           "&provider=in.(google,google_ads)&select=connection_metadata",
                           prefer="return=representation") or []
@@ -990,6 +1000,16 @@ def run(since_override: str | None, dry_run: bool, do_send: bool) -> int:
         print("  " + ln)
     for ln in ensure_setup_checklist(dry_run, cid_to_slug):
         print("  " + ln)
+    # Setup ledger — the overseer: derives per-client setup state, auto-heals
+    # GSC/IndexNow on live sites, and returns the us-owed attention list
+    # (fed into the digest's "Needs Santino/Claude" sections below).
+    try:
+        from setup_ledger import ensure_ledger
+        ledger_lines = ensure_ledger(dry_run, cid_to_slug)
+    except Exception as e:
+        ledger_lines = [f"(ledger) errored: {str(e)[:120]}"]
+    for ln in ledger_lines:
+        print("  LEDGER: " + ln)
 
     intake = [i for i in fetch_answered_intake(since)
               if i["id"] not in state["processed_intake_ids"]]
@@ -1003,6 +1023,12 @@ def run(since_override: str | None, dry_run: bool, do_send: bool) -> int:
         label = slug or company_id
         return per_client.setdefault(label, {"answered": [], "auto": [],
                                              "plan_changes": [], "attention": []})
+
+    for ln in ledger_lines:
+        label, _, rest = ln.partition(": ")
+        if not rest:
+            label, rest = "(ops)", ln
+        bucket("", label)["attention"].append("LEDGER: " + rest)
 
     # Backstop: every mapped client with an app account should have intake
     # items — the day-one audit seeds them, but that's agent-executed and can

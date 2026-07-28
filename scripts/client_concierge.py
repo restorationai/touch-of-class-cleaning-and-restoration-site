@@ -592,6 +592,22 @@ def load_meeting_intel(company: dict) -> str | None:
                or (len(core) >= 5 and core in low))
         if hit and text:
             parts.append(f"[{key}]\n{text}")
+    # OPS NOTES (Santino 2026-07-28): super-admin notes written in the app
+    # (marketing_ops_notes) are direct instructions to Monica — priorities,
+    # context, "still waiting on their YouTube connection, make it a
+    # priority". Open notes ride in with the meeting intel every compose.
+    try:
+        notes = _sb("GET", "/rest/v1/marketing_ops_notes"
+                    f"?company_id=eq.{company.get('id')}&status=eq.open"
+                    "&select=body,created_at&order=created_at.desc&limit=10") or []
+        if notes:
+            lines = "\n".join(
+                f"- ({(n.get('created_at') or '')[:10]}) {n.get('body', '').strip()}"
+                for n in notes)
+            parts.append("[OPS NOTES from Santino — treat as current instructions, "
+                         "they override older meeting intel]\n" + lines)
+    except Exception as e:
+        print(f"  [intel] ops-notes fetch failed: {e}", file=sys.stderr)
     return "\n\n".join(parts) or None
 
 
