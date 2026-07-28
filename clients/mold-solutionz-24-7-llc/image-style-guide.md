@@ -182,7 +182,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] flood-damage-restoration
 - [ ] burst-pipe-repair
 - [ ] basement-flooding-cleanup
-- [ ] (continue for each of Mold Remediation, Mold Inspection and Testing, Sewage Cleanup and Sanitization)
+- [ ] (continue for each of Mold Remediation, Black Mold Removal, Mold Inspection and Testing, Attic Mold Removal, Crawl Space Mold Removal, Sewage Cleanup and Sanitization)
 
 ### Service area pages (one image per city served)
 - [ ] Cerritos hero — exterior shot, regional housing stock, evocative of the city

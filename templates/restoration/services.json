@@ -1,762 +1,805 @@
 {
-  "version": "0.3.0",
-  "note": "Canonical service catalog for restoration and construction verticals. The template is a superset; each client selects the subset they offer. tier values: 'core' = standard restoration services most clients should offer; 'specialty' = distinct service some clients offer; 'adjacent' = related cleaning/maintenance services a minority offer; 'construction' = construction/GC services for dual-vertical clients. content_guardrails='sensitive' triggers Skill 3's sensitive-content rules at generation time.",
-  "tiers": [
-    "core",
-    "specialty",
-    "adjacent",
-    "construction"
-  ],
-  "services": [
-    {
-      "slug": "water-damage-restoration",
-      "display_name": "Water Damage Restoration",
-      "short_name": "Water Damage",
-      "primary_intent": "local_emergency",
-      "secondary_keywords": [
-        "water removal",
-        "water extraction",
-        "water cleanup",
-        "structural drying",
-        "water mitigation"
-      ],
-      "tier": "core",
-      "priority": 10
-    },
-    {
-      "slug": "flood-damage-restoration",
-      "display_name": "Flood Damage Restoration",
-      "short_name": "Flood Damage",
-      "primary_intent": "local_emergency",
-      "secondary_keywords": [
-        "flood cleanup",
-        "flood restoration",
-        "post-flood restoration",
-        "residential flood damage",
-        "flood damage repair"
-      ],
-      "tier": "core",
-      "priority": 9
-    },
-    {
-      "slug": "burst-pipe-repair",
-      "display_name": "Burst Pipe Cleanup and Repair",
-      "short_name": "Burst Pipe",
-      "primary_intent": "local_emergency",
-      "secondary_keywords": [
-        "burst pipe cleanup",
-        "pipe burst emergency",
-        "pipe break water damage",
-        "water line break",
-        "emergency pipe repair"
-      ],
-      "tier": "core",
-      "priority": 8
-    },
-    {
-      "slug": "basement-flooding-cleanup",
-      "display_name": "Basement Flooding Cleanup",
-      "short_name": "Basement Flooding",
-      "primary_intent": "local_emergency",
-      "secondary_keywords": [
-        "flooded basement cleanup",
-        "basement water removal",
-        "wet basement restoration",
-        "basement water damage",
-        "basement drying"
-      ],
-      "tier": "core",
-      "priority": 8
-    },
-    {
-      "slug": "appliance-leak-cleanup",
-      "display_name": "Appliance Leak Cleanup",
-      "short_name": "Appliance Leak",
-      "primary_intent": "local_emergency",
-      "secondary_keywords": [
-        "dishwasher leak cleanup",
-        "washing machine flood",
-        "refrigerator leak cleanup",
-        "water heater leak cleanup",
-        "ice maker line leak"
-      ],
-      "tier": "specialty",
-      "priority": 6
-    },
-    {
-      "slug": "frozen-pipe-restoration",
-      "display_name": "Frozen Pipe Restoration",
-      "short_name": "Frozen Pipe",
-      "primary_intent": "local_emergency",
-      "secondary_keywords": [
-        "frozen pipe damage",
-        "winter pipe burst cleanup",
-        "thawed pipe water damage",
-        "frozen pipe leak repair",
-        "cold weather pipe damage"
-      ],
-      "tier": "specialty",
-      "priority": 7
-    },
-    {
-      "slug": "roof-leak-repair",
-      "display_name": "Roof Leak Cleanup and Repair",
-      "short_name": "Roof Leak",
-      "primary_intent": "local_emergency",
-      "secondary_keywords": [
-        "roof leak cleanup",
-        "ceiling water damage",
-        "attic water damage",
-        "roof leak restoration",
-        "interior roof leak damage"
-      ],
-      "tier": "specialty",
-      "priority": 7
-    },
-    {
-      "slug": "sewage-cleanup",
-      "display_name": "Sewage Cleanup and Sanitization",
-      "short_name": "Sewage Cleanup",
-      "primary_intent": "local_emergency",
-      "secondary_keywords": [
-        "sewage backup cleanup",
-        "raw sewage removal",
-        "septic overflow cleanup",
-        "sewer line backup",
-        "sanitization services"
-      ],
-      "tier": "core",
-      "priority": 9
-    },
-    {
-      "slug": "fire-damage-restoration",
-      "display_name": "Fire Damage Restoration",
-      "short_name": "Fire Damage",
-      "primary_intent": "local_emergency",
-      "secondary_keywords": [
-        "fire cleanup",
-        "fire and smoke restoration",
-        "structural fire damage",
-        "post-fire restoration",
-        "fire damage repair"
-      ],
-      "tier": "core",
-      "priority": 10
-    },
-    {
-      "slug": "smoke-damage-restoration",
-      "display_name": "Smoke Damage Restoration",
-      "short_name": "Smoke Damage",
-      "primary_intent": "local_emergency",
-      "secondary_keywords": [
-        "smoke residue cleanup",
-        "smoke damage repair",
-        "post-fire smoke cleanup",
-        "smoke damage restoration services",
-        "wildfire smoke cleanup"
-      ],
-      "tier": "core",
-      "priority": 9
-    },
-    {
-      "slug": "soot-removal",
-      "display_name": "Soot Removal",
-      "short_name": "Soot Removal",
-      "primary_intent": "local_specialty",
-      "secondary_keywords": [
-        "soot cleaning",
-        "soot residue removal",
-        "post-fire soot cleanup",
-        "soot damage cleanup",
-        "soot wall cleaning"
-      ],
-      "tier": "specialty",
-      "priority": 7
-    },
-    {
-      "slug": "odor-removal",
-      "display_name": "Odor Removal and Deodorization",
-      "short_name": "Odor Removal",
-      "primary_intent": "local_specialty",
-      "secondary_keywords": [
-        "smoke odor removal",
-        "ozone treatment",
-        "hydroxyl deodorization",
-        "thermal fogging",
-        "professional odor elimination"
-      ],
-      "tier": "specialty",
-      "priority": 7
-    },
-    {
-      "slug": "mold-remediation",
-      "display_name": "Mold Remediation",
-      "short_name": "Mold",
-      "primary_intent": "local_health",
-      "secondary_keywords": [
-        "mold removal",
-        "black mold remediation",
-        "mold abatement",
-        "mold containment",
-        "mold cleanup"
-      ],
-      "tier": "core",
-      "priority": 10
-    },
-    {
-      "slug": "mold-inspection-testing",
-      "display_name": "Mold Inspection and Testing",
-      "short_name": "Mold Inspection",
-      "primary_intent": "local_health",
-      "secondary_keywords": [
-        "mold inspection",
-        "mold testing",
-        "indoor air quality testing",
-        "mold spore testing",
-        "mold assessment"
-      ],
-      "tier": "core",
-      "priority": 8
-    },
-    {
-      "slug": "storm-damage-restoration",
-      "display_name": "Storm Damage Restoration",
-      "short_name": "Storm Damage",
-      "primary_intent": "local_emergency",
-      "secondary_keywords": [
-        "hurricane damage cleanup",
-        "tornado damage cleanup",
-        "tree damage cleanup",
-        "storm cleanup services",
-        "severe weather damage repair"
-      ],
-      "tier": "core",
-      "priority": 9
-    },
-    {
-      "slug": "wind-damage-repair",
-      "display_name": "Wind Damage Repair",
-      "short_name": "Wind Damage",
-      "primary_intent": "local_emergency",
-      "secondary_keywords": [
-        "wind damage cleanup",
-        "wind damage restoration",
-        "severe wind damage",
-        "windstorm cleanup",
-        "high wind damage repair"
-      ],
-      "tier": "specialty",
-      "priority": 7
-    },
-    {
-      "slug": "hail-damage-restoration",
-      "display_name": "Hail Damage Restoration",
-      "short_name": "Hail Damage",
-      "primary_intent": "local_emergency",
-      "secondary_keywords": [
-        "hail damage cleanup",
-        "hail damage repair",
-        "hailstorm damage",
-        "hail roof damage",
-        "hail damage insurance claim"
-      ],
-      "tier": "specialty",
-      "priority": 7
-    },
-    {
-      "slug": "emergency-board-up-tarping",
-      "display_name": "Emergency Board-Up and Tarping",
-      "short_name": "Board-Up & Tarping",
-      "primary_intent": "local_emergency",
-      "secondary_keywords": [
-        "emergency board up",
-        "roof tarping",
-        "emergency tarping service",
-        "fire damage board up",
-        "broken window board up"
-      ],
-      "tier": "specialty",
-      "priority": 7
-    },
-    {
-      "slug": "biohazard-cleanup",
-      "display_name": "Biohazard Cleanup",
-      "short_name": "Biohazard",
-      "primary_intent": "local_sensitive",
-      "secondary_keywords": [
-        "biohazard remediation",
-        "blood cleanup",
-        "bodily fluid cleanup",
-        "sharps and needle cleanup",
-        "infectious material cleanup"
-      ],
-      "tier": "specialty",
-      "priority": 8,
-      "content_guardrails": "sensitive"
-    },
-    {
-      "slug": "trauma-scene-cleanup",
-      "display_name": "Trauma Scene Cleanup",
-      "short_name": "Trauma Cleanup",
-      "primary_intent": "local_sensitive",
-      "secondary_keywords": [
-        "trauma cleanup services",
-        "trauma scene cleaning",
-        "accident scene cleanup",
-        "crime and trauma decontamination",
-        "emergency trauma cleanup"
-      ],
-      "tier": "specialty",
-      "priority": 7,
-      "content_guardrails": "sensitive"
-    },
-    {
-      "slug": "unattended-death-cleanup",
-      "display_name": "Unattended Death Cleanup",
-      "short_name": "Unattended Death",
-      "primary_intent": "local_sensitive",
-      "secondary_keywords": [
-        "decomposition cleanup",
-        "after death cleaning",
-        "deceased estate cleanup",
-        "odor removal after death",
-        "discreet death cleanup"
-      ],
-      "tier": "specialty",
-      "priority": 6,
-      "content_guardrails": "sensitive"
-    },
-    {
-      "slug": "crime-scene-cleanup",
-      "display_name": "Crime Scene Cleanup",
-      "short_name": "Crime Scene",
-      "primary_intent": "local_sensitive",
-      "secondary_keywords": [
-        "crime scene cleaning",
-        "forensic cleanup",
-        "post-crime cleanup",
-        "homicide cleanup",
-        "suicide scene cleanup"
-      ],
-      "tier": "specialty",
-      "priority": 6,
-      "content_guardrails": "sensitive"
-    },
-    {
-      "slug": "hoarding-cleanup",
-      "display_name": "Hoarding Cleanup",
-      "short_name": "Hoarding",
-      "primary_intent": "local_sensitive",
-      "secondary_keywords": [
-        "hoarder cleanup",
-        "hoarding cleaning services",
-        "hoarding remediation",
-        "hoarder home cleaning",
-        "gross filth cleanup"
-      ],
-      "tier": "specialty",
-      "priority": 6,
-      "content_guardrails": "sensitive"
-    },
-    {
-      "slug": "commercial-restoration",
-      "display_name": "Commercial Restoration",
-      "short_name": "Commercial",
-      "primary_intent": "local_b2b",
-      "secondary_keywords": [
-        "commercial water damage",
-        "commercial fire damage",
-        "business restoration",
-        "office restoration",
-        "retail restoration"
-      ],
-      "tier": "core",
-      "priority": 9
-    },
-    {
-      "slug": "industrial-restoration",
-      "display_name": "Industrial Restoration",
-      "short_name": "Industrial",
-      "primary_intent": "local_b2b",
-      "secondary_keywords": [
-        "industrial water damage",
-        "warehouse restoration",
-        "manufacturing facility restoration",
-        "industrial fire damage",
-        "plant restoration services"
-      ],
-      "tier": "core",
-      "priority": 7
-    },
-    {
-      "slug": "reconstruction",
-      "display_name": "Reconstruction Services",
-      "short_name": "Reconstruction",
-      "primary_intent": "local_commercial",
-      "secondary_keywords": [
-        "post-damage reconstruction",
-        "rebuild services",
-        "structural reconstruction",
-        "post-disaster rebuilding",
-        "fire damage reconstruction"
-      ],
-      "tier": "core",
-      "priority": 9
-    },
-    {
-      "slug": "general-contracting",
-      "display_name": "Renovations, Remodels and General Contracting",
-      "short_name": "Renovations & GC",
-      "primary_intent": "local_commercial",
-      "secondary_keywords": [
-        "general contractor",
-        "home renovation services",
-        "home remodeling",
-        "kitchen remodel",
-        "bathroom remodel",
-        "post-damage rebuild"
-      ],
-      "tier": "core",
-      "priority": 8
-    },
-    {
-      "slug": "asbestos-abatement",
-      "display_name": "Asbestos Abatement",
-      "short_name": "Asbestos",
-      "primary_intent": "local_specialty",
-      "secondary_keywords": [
-        "asbestos removal",
-        "asbestos testing",
-        "asbestos remediation",
-        "popcorn ceiling asbestos removal",
-        "asbestos inspection"
-      ],
-      "tier": "specialty",
-      "priority": 6
-    },
-    {
-      "slug": "lead-paint-abatement",
-      "display_name": "Lead Paint Abatement",
-      "short_name": "Lead Paint",
-      "primary_intent": "local_specialty",
-      "secondary_keywords": [
-        "lead paint removal",
-        "lead paint testing",
-        "lead-safe renovation",
-        "lead paint remediation",
-        "EPA RRP certified"
-      ],
-      "tier": "specialty",
-      "priority": 5
-    },
-    {
-      "slug": "meth-lab-decontamination",
-      "display_name": "Meth Lab Decontamination",
-      "short_name": "Meth Lab",
-      "primary_intent": "local_sensitive",
-      "secondary_keywords": [
-        "meth lab cleanup",
-        "methamphetamine remediation",
-        "illicit drug lab cleanup",
-        "meth residue testing",
-        "drug lab decontamination"
-      ],
-      "tier": "specialty",
-      "priority": 5,
-      "content_guardrails": "sensitive"
-    },
-    {
-      "slug": "air-duct-cleaning",
-      "display_name": "Air Duct Cleaning",
-      "short_name": "Air Duct",
-      "primary_intent": "local_specialty",
-      "secondary_keywords": [
-        "duct cleaning",
-        "HVAC duct cleaning",
-        "air duct sanitization",
-        "dryer vent cleaning",
-        "residential duct cleaning"
-      ],
-      "tier": "adjacent",
-      "priority": 5
-    },
-    {
-      "slug": "hvac-decontamination",
-      "display_name": "HVAC System Decontamination",
-      "short_name": "HVAC Decon",
-      "primary_intent": "local_specialty",
-      "secondary_keywords": [
-        "HVAC cleaning",
-        "HVAC sanitization",
-        "post-fire HVAC cleaning",
-        "HVAC mold remediation",
-        "ductwork decontamination"
-      ],
-      "tier": "specialty",
-      "priority": 5
-    },
-    {
-      "slug": "large-loss-response",
-      "display_name": "Large Loss and Catastrophic Response",
-      "short_name": "Large Loss",
-      "primary_intent": "local_b2b",
-      "secondary_keywords": [
-        "large loss restoration",
-        "catastrophic loss response",
-        "commercial catastrophic restoration",
-        "multi-million dollar restoration",
-        "large loss adjusters"
-      ],
-      "tier": "core",
-      "priority": 8
-    },
-    {
-      "slug": "vandalism-cleanup",
-      "display_name": "Vandalism Cleanup",
-      "short_name": "Vandalism",
-      "primary_intent": "local_specialty",
-      "secondary_keywords": [
-        "vandalism cleanup",
-        "graffiti removal",
-        "post-vandalism restoration",
-        "vandalism damage repair",
-        "broken glass cleanup"
-      ],
-      "tier": "specialty",
-      "priority": 5
-    },
-    {
-      "slug": "flood-equipment-rental",
-      "display_name": "Flood & Drying Equipment Rental",
-      "short_name": "Equipment Rental",
-      "primary_intent": "local_specialty",
-      "secondary_keywords": [
-        "water damage equipment rental",
-        "dehumidifier rental",
-        "air mover rental",
-        "carpet drying fan rental",
-        "flood pump rental"
-      ],
-      "tier": "adjacent",
-      "priority": 3
-    },
-    {
-      "slug": "carpet-cleaning",
-      "display_name": "Carpet Cleaning",
-      "short_name": "Carpet",
-      "primary_intent": "local_specialty",
-      "secondary_keywords": [
-        "professional carpet cleaning",
-        "deep carpet cleaning",
-        "carpet stain removal",
-        "commercial carpet cleaning",
-        "carpet sanitization"
-      ],
-      "tier": "adjacent",
-      "priority": 4
-    },
-    {
-      "slug": "upholstery-cleaning",
-      "display_name": "Upholstery Cleaning",
-      "short_name": "Upholstery",
-      "primary_intent": "local_specialty",
-      "secondary_keywords": [
-        "sofa cleaning",
-        "couch cleaning",
-        "furniture steam cleaning",
-        "leather upholstery cleaning",
-        "fabric upholstery cleaning"
-      ],
-      "tier": "adjacent",
-      "priority": 4
-    },
-    {
-      "slug": "tile-grout-cleaning",
-      "display_name": "Tile & Grout Cleaning",
-      "short_name": "Tile & Grout",
-      "primary_intent": "local_specialty",
-      "secondary_keywords": [
-        "grout cleaning",
-        "tile cleaning",
-        "grout sealing",
-        "grout restoration",
-        "floor tile cleaning"
-      ],
-      "tier": "adjacent",
-      "priority": 4
-    },
-    {
-      "slug": "fabric-protection",
-      "display_name": "Fabric Protection",
-      "short_name": "Fabric Protection",
-      "primary_intent": "local_specialty",
-      "secondary_keywords": [
-        "carpet protection",
-        "upholstery protection",
-        "stain guard",
-        "scotchgard application",
-        "fabric stain protection"
-      ],
-      "tier": "adjacent",
-      "priority": 5
-    },
-    {
-      "slug": "junk-debris-removal",
-      "display_name": "Junk & Debris Removal",
-      "short_name": "Junk Removal",
-      "primary_intent": "local_specialty",
-      "secondary_keywords": [
-        "junk removal",
-        "debris removal",
-        "house cleanout",
-        "garage cleanout",
-        "hauling services"
-      ],
-      "tier": "adjacent",
-      "priority": 5
-    },
-    {
-      "slug": "new-construction",
-      "display_name": "New Home Construction",
-      "short_name": "New Construction",
-      "primary_intent": "local_commercial",
-      "secondary_keywords": [
-        "custom home builder",
-        "new home builder",
-        "build a house",
-        "residential construction",
-        "ground-up construction"
-      ],
-      "tier": "construction",
-      "priority": 9
-    },
-    {
-      "slug": "home-remodeling",
-      "display_name": "Home Remodeling",
-      "short_name": "Remodeling",
-      "primary_intent": "local_commercial",
-      "secondary_keywords": [
-        "home renovation",
-        "kitchen remodel",
-        "bathroom remodel",
-        "whole home remodel",
-        "interior remodeling contractor"
-      ],
-      "tier": "construction",
-      "priority": 10
-    },
-    {
-      "slug": "room-addition",
-      "display_name": "Room Additions and Home Additions",
-      "short_name": "Home Additions",
-      "primary_intent": "local_commercial",
-      "secondary_keywords": [
-        "home addition contractor",
-        "room addition",
-        "add a room to house",
-        "house addition",
-        "bump out addition"
-      ],
-      "tier": "construction",
-      "priority": 8
-    },
-    {
-      "slug": "decks-pergolas-fences",
-      "display_name": "Decks, Pergolas and Fences",
-      "short_name": "Decks & Outdoor Structures",
-      "primary_intent": "local_commercial",
-      "secondary_keywords": [
-        "deck builder",
-        "deck installation",
-        "pergola builder",
-        "fence installation",
-        "outdoor structure contractor"
-      ],
-      "tier": "construction",
-      "priority": 9
-    },
-    {
-      "slug": "roofing",
-      "display_name": "Roofing Installation and Replacement",
-      "short_name": "Roofing",
-      "primary_intent": "local_commercial",
-      "secondary_keywords": [
-        "roofing contractor",
-        "roof replacement",
-        "new roof installation",
-        "residential roofing",
-        "roof repair"
-      ],
-      "tier": "construction",
-      "priority": 10
-    },
-    {
-      "slug": "siding-gutters",
-      "display_name": "Siding and Gutters",
-      "short_name": "Siding & Gutters",
-      "primary_intent": "local_commercial",
-      "secondary_keywords": [
-        "siding contractor",
-        "siding installation",
-        "siding replacement",
-        "gutter installation",
-        "exterior contractor"
-      ],
-      "tier": "construction",
-      "priority": 8
-    },
-    {
-      "slug": "painting-trim",
-      "display_name": "Painting and Trim",
-      "short_name": "Painting",
-      "primary_intent": "local_commercial",
-      "secondary_keywords": [
-        "painting contractor",
-        "interior painting",
-        "exterior painting",
-        "house painter",
-        "trim painting"
-      ],
-      "tier": "construction",
-      "priority": 7
-    },
-    {
-      "slug": "crawl-space-encapsulation",
-      "display_name": "Crawl Space Encapsulation",
-      "short_name": "Crawl Space Encapsulation",
-      "primary_intent": "local_specialty",
-      "secondary_keywords": [],
-      "tier": "adjacent",
-      "priority": 5
-    },
-    {
-      "slug": "contents-restoration",
-      "display_name": "Contents Restoration and Storage",
-      "short_name": "Contents Restoration",
-      "primary_intent": "local_service",
-      "secondary_keywords": [
-        "contents pack-out",
-        "contents cleaning",
-        "belongings restoration",
-        "furniture restoration after fire",
-        "contents storage"
-      ],
-      "tier": "supporting",
-      "priority": 5
-    },
-    {
-      "slug": "post-construction-cleaning",
-      "display_name": "Post-Construction and Specialty Cleaning",
-      "short_name": "Post-Construction Cleaning",
-      "primary_intent": "local_service",
-      "secondary_keywords": [
-        "post construction cleanup",
-        "construction debris cleaning",
-        "final clean",
-        "deep cleaning after renovation"
-      ],
-      "tier": "supporting",
-      "priority": 4
-    }
-  ]
+ "version": "0.3.0",
+ "note": "Canonical service catalog for restoration and construction verticals. The template is a superset; each client selects the subset they offer. tier values: 'core' = standard restoration services most clients should offer; 'specialty' = distinct service some clients offer; 'adjacent' = related cleaning/maintenance services a minority offer; 'construction' = construction/GC services for dual-vertical clients. content_guardrails='sensitive' triggers Skill 3's sensitive-content rules at generation time.",
+ "tiers": [
+  "core",
+  "specialty",
+  "adjacent",
+  "construction"
+ ],
+ "services": [
+  {
+   "slug": "water-damage-restoration",
+   "display_name": "Water Damage Restoration",
+   "short_name": "Water Damage",
+   "primary_intent": "local_emergency",
+   "secondary_keywords": [
+    "water removal",
+    "water extraction",
+    "water cleanup",
+    "structural drying",
+    "water mitigation"
+   ],
+   "tier": "core",
+   "priority": 10
+  },
+  {
+   "slug": "flood-damage-restoration",
+   "display_name": "Flood Damage Restoration",
+   "short_name": "Flood Damage",
+   "primary_intent": "local_emergency",
+   "secondary_keywords": [
+    "flood cleanup",
+    "flood restoration",
+    "post-flood restoration",
+    "residential flood damage",
+    "flood damage repair"
+   ],
+   "tier": "core",
+   "priority": 9
+  },
+  {
+   "slug": "burst-pipe-repair",
+   "display_name": "Burst Pipe Cleanup and Repair",
+   "short_name": "Burst Pipe",
+   "primary_intent": "local_emergency",
+   "secondary_keywords": [
+    "burst pipe cleanup",
+    "pipe burst emergency",
+    "pipe break water damage",
+    "water line break",
+    "emergency pipe repair"
+   ],
+   "tier": "core",
+   "priority": 8
+  },
+  {
+   "slug": "basement-flooding-cleanup",
+   "display_name": "Basement Flooding Cleanup",
+   "short_name": "Basement Flooding",
+   "primary_intent": "local_emergency",
+   "secondary_keywords": [
+    "flooded basement cleanup",
+    "basement water removal",
+    "wet basement restoration",
+    "basement water damage",
+    "basement drying"
+   ],
+   "tier": "core",
+   "priority": 8
+  },
+  {
+   "slug": "appliance-leak-cleanup",
+   "display_name": "Appliance Leak Cleanup",
+   "short_name": "Appliance Leak",
+   "primary_intent": "local_emergency",
+   "secondary_keywords": [
+    "dishwasher leak cleanup",
+    "washing machine flood",
+    "refrigerator leak cleanup",
+    "water heater leak cleanup",
+    "ice maker line leak"
+   ],
+   "tier": "specialty",
+   "priority": 6
+  },
+  {
+   "slug": "frozen-pipe-restoration",
+   "display_name": "Frozen Pipe Restoration",
+   "short_name": "Frozen Pipe",
+   "primary_intent": "local_emergency",
+   "secondary_keywords": [
+    "frozen pipe damage",
+    "winter pipe burst cleanup",
+    "thawed pipe water damage",
+    "frozen pipe leak repair",
+    "cold weather pipe damage"
+   ],
+   "tier": "specialty",
+   "priority": 7
+  },
+  {
+   "slug": "roof-leak-repair",
+   "display_name": "Roof Leak Cleanup and Repair",
+   "short_name": "Roof Leak",
+   "primary_intent": "local_emergency",
+   "secondary_keywords": [
+    "roof leak cleanup",
+    "ceiling water damage",
+    "attic water damage",
+    "roof leak restoration",
+    "interior roof leak damage"
+   ],
+   "tier": "specialty",
+   "priority": 7
+  },
+  {
+   "slug": "sewage-cleanup",
+   "display_name": "Sewage Cleanup and Sanitization",
+   "short_name": "Sewage Cleanup",
+   "primary_intent": "local_emergency",
+   "secondary_keywords": [
+    "sewage backup cleanup",
+    "raw sewage removal",
+    "septic overflow cleanup",
+    "sewer line backup",
+    "sanitization services"
+   ],
+   "tier": "core",
+   "priority": 9
+  },
+  {
+   "slug": "fire-damage-restoration",
+   "display_name": "Fire Damage Restoration",
+   "short_name": "Fire Damage",
+   "primary_intent": "local_emergency",
+   "secondary_keywords": [
+    "fire cleanup",
+    "fire and smoke restoration",
+    "structural fire damage",
+    "post-fire restoration",
+    "fire damage repair"
+   ],
+   "tier": "core",
+   "priority": 10
+  },
+  {
+   "slug": "smoke-damage-restoration",
+   "display_name": "Smoke Damage Restoration",
+   "short_name": "Smoke Damage",
+   "primary_intent": "local_emergency",
+   "secondary_keywords": [
+    "smoke residue cleanup",
+    "smoke damage repair",
+    "post-fire smoke cleanup",
+    "smoke damage restoration services",
+    "wildfire smoke cleanup"
+   ],
+   "tier": "core",
+   "priority": 9
+  },
+  {
+   "slug": "soot-removal",
+   "display_name": "Soot Removal",
+   "short_name": "Soot Removal",
+   "primary_intent": "local_specialty",
+   "secondary_keywords": [
+    "soot cleaning",
+    "soot residue removal",
+    "post-fire soot cleanup",
+    "soot damage cleanup",
+    "soot wall cleaning"
+   ],
+   "tier": "specialty",
+   "priority": 7
+  },
+  {
+   "slug": "odor-removal",
+   "display_name": "Odor Removal and Deodorization",
+   "short_name": "Odor Removal",
+   "primary_intent": "local_specialty",
+   "secondary_keywords": [
+    "smoke odor removal",
+    "ozone treatment",
+    "hydroxyl deodorization",
+    "thermal fogging",
+    "professional odor elimination"
+   ],
+   "tier": "specialty",
+   "priority": 7
+  },
+  {
+   "slug": "mold-remediation",
+   "display_name": "Mold Remediation",
+   "short_name": "Mold",
+   "primary_intent": "local_health",
+   "secondary_keywords": [
+    "mold removal",
+    "black mold remediation",
+    "mold abatement",
+    "mold containment",
+    "mold cleanup"
+   ],
+   "tier": "core",
+   "priority": 10
+  },
+  {
+   "slug": "mold-inspection-testing",
+   "display_name": "Mold Inspection and Testing",
+   "short_name": "Mold Inspection",
+   "primary_intent": "local_health",
+   "secondary_keywords": [
+    "mold inspection",
+    "mold testing",
+    "indoor air quality testing",
+    "mold spore testing",
+    "mold assessment"
+   ],
+   "tier": "core",
+   "priority": 8
+  },
+  {
+   "slug": "storm-damage-restoration",
+   "display_name": "Storm Damage Restoration",
+   "short_name": "Storm Damage",
+   "primary_intent": "local_emergency",
+   "secondary_keywords": [
+    "hurricane damage cleanup",
+    "tornado damage cleanup",
+    "tree damage cleanup",
+    "storm cleanup services",
+    "severe weather damage repair"
+   ],
+   "tier": "core",
+   "priority": 9
+  },
+  {
+   "slug": "wind-damage-repair",
+   "display_name": "Wind Damage Repair",
+   "short_name": "Wind Damage",
+   "primary_intent": "local_emergency",
+   "secondary_keywords": [
+    "wind damage cleanup",
+    "wind damage restoration",
+    "severe wind damage",
+    "windstorm cleanup",
+    "high wind damage repair"
+   ],
+   "tier": "specialty",
+   "priority": 7
+  },
+  {
+   "slug": "hail-damage-restoration",
+   "display_name": "Hail Damage Restoration",
+   "short_name": "Hail Damage",
+   "primary_intent": "local_emergency",
+   "secondary_keywords": [
+    "hail damage cleanup",
+    "hail damage repair",
+    "hailstorm damage",
+    "hail roof damage",
+    "hail damage insurance claim"
+   ],
+   "tier": "specialty",
+   "priority": 7
+  },
+  {
+   "slug": "emergency-board-up-tarping",
+   "display_name": "Emergency Board-Up and Tarping",
+   "short_name": "Board-Up & Tarping",
+   "primary_intent": "local_emergency",
+   "secondary_keywords": [
+    "emergency board up",
+    "roof tarping",
+    "emergency tarping service",
+    "fire damage board up",
+    "broken window board up"
+   ],
+   "tier": "specialty",
+   "priority": 7
+  },
+  {
+   "slug": "biohazard-cleanup",
+   "display_name": "Biohazard Cleanup",
+   "short_name": "Biohazard",
+   "primary_intent": "local_sensitive",
+   "secondary_keywords": [
+    "biohazard remediation",
+    "blood cleanup",
+    "bodily fluid cleanup",
+    "sharps and needle cleanup",
+    "infectious material cleanup"
+   ],
+   "tier": "specialty",
+   "priority": 8,
+   "content_guardrails": "sensitive"
+  },
+  {
+   "slug": "trauma-scene-cleanup",
+   "display_name": "Trauma Scene Cleanup",
+   "short_name": "Trauma Cleanup",
+   "primary_intent": "local_sensitive",
+   "secondary_keywords": [
+    "trauma cleanup services",
+    "trauma scene cleaning",
+    "accident scene cleanup",
+    "crime and trauma decontamination",
+    "emergency trauma cleanup"
+   ],
+   "tier": "specialty",
+   "priority": 7,
+   "content_guardrails": "sensitive"
+  },
+  {
+   "slug": "unattended-death-cleanup",
+   "display_name": "Unattended Death Cleanup",
+   "short_name": "Unattended Death",
+   "primary_intent": "local_sensitive",
+   "secondary_keywords": [
+    "decomposition cleanup",
+    "after death cleaning",
+    "deceased estate cleanup",
+    "odor removal after death",
+    "discreet death cleanup"
+   ],
+   "tier": "specialty",
+   "priority": 6,
+   "content_guardrails": "sensitive"
+  },
+  {
+   "slug": "crime-scene-cleanup",
+   "display_name": "Crime Scene Cleanup",
+   "short_name": "Crime Scene",
+   "primary_intent": "local_sensitive",
+   "secondary_keywords": [
+    "crime scene cleaning",
+    "forensic cleanup",
+    "post-crime cleanup",
+    "homicide cleanup",
+    "suicide scene cleanup"
+   ],
+   "tier": "specialty",
+   "priority": 6,
+   "content_guardrails": "sensitive"
+  },
+  {
+   "slug": "hoarding-cleanup",
+   "display_name": "Hoarding Cleanup",
+   "short_name": "Hoarding",
+   "primary_intent": "local_sensitive",
+   "secondary_keywords": [
+    "hoarder cleanup",
+    "hoarding cleaning services",
+    "hoarding remediation",
+    "hoarder home cleaning",
+    "gross filth cleanup"
+   ],
+   "tier": "specialty",
+   "priority": 6,
+   "content_guardrails": "sensitive"
+  },
+  {
+   "slug": "commercial-restoration",
+   "display_name": "Commercial Restoration",
+   "short_name": "Commercial",
+   "primary_intent": "local_b2b",
+   "secondary_keywords": [
+    "commercial water damage",
+    "commercial fire damage",
+    "business restoration",
+    "office restoration",
+    "retail restoration"
+   ],
+   "tier": "core",
+   "priority": 9
+  },
+  {
+   "slug": "industrial-restoration",
+   "display_name": "Industrial Restoration",
+   "short_name": "Industrial",
+   "primary_intent": "local_b2b",
+   "secondary_keywords": [
+    "industrial water damage",
+    "warehouse restoration",
+    "manufacturing facility restoration",
+    "industrial fire damage",
+    "plant restoration services"
+   ],
+   "tier": "core",
+   "priority": 7
+  },
+  {
+   "slug": "reconstruction",
+   "display_name": "Reconstruction Services",
+   "short_name": "Reconstruction",
+   "primary_intent": "local_commercial",
+   "secondary_keywords": [
+    "post-damage reconstruction",
+    "rebuild services",
+    "structural reconstruction",
+    "post-disaster rebuilding",
+    "fire damage reconstruction"
+   ],
+   "tier": "core",
+   "priority": 9
+  },
+  {
+   "slug": "general-contracting",
+   "display_name": "Renovations, Remodels and General Contracting",
+   "short_name": "Renovations & GC",
+   "primary_intent": "local_commercial",
+   "secondary_keywords": [
+    "general contractor",
+    "home renovation services",
+    "home remodeling",
+    "kitchen remodel",
+    "bathroom remodel",
+    "post-damage rebuild"
+   ],
+   "tier": "core",
+   "priority": 8
+  },
+  {
+   "slug": "asbestos-abatement",
+   "display_name": "Asbestos Abatement",
+   "short_name": "Asbestos",
+   "primary_intent": "local_specialty",
+   "secondary_keywords": [
+    "asbestos removal",
+    "asbestos testing",
+    "asbestos remediation",
+    "popcorn ceiling asbestos removal",
+    "asbestos inspection"
+   ],
+   "tier": "specialty",
+   "priority": 6
+  },
+  {
+   "slug": "lead-paint-abatement",
+   "display_name": "Lead Paint Abatement",
+   "short_name": "Lead Paint",
+   "primary_intent": "local_specialty",
+   "secondary_keywords": [
+    "lead paint removal",
+    "lead paint testing",
+    "lead-safe renovation",
+    "lead paint remediation",
+    "EPA RRP certified"
+   ],
+   "tier": "specialty",
+   "priority": 5
+  },
+  {
+   "slug": "meth-lab-decontamination",
+   "display_name": "Meth Lab Decontamination",
+   "short_name": "Meth Lab",
+   "primary_intent": "local_sensitive",
+   "secondary_keywords": [
+    "meth lab cleanup",
+    "methamphetamine remediation",
+    "illicit drug lab cleanup",
+    "meth residue testing",
+    "drug lab decontamination"
+   ],
+   "tier": "specialty",
+   "priority": 5,
+   "content_guardrails": "sensitive"
+  },
+  {
+   "slug": "air-duct-cleaning",
+   "display_name": "Air Duct Cleaning",
+   "short_name": "Air Duct",
+   "primary_intent": "local_specialty",
+   "secondary_keywords": [
+    "duct cleaning",
+    "HVAC duct cleaning",
+    "air duct sanitization",
+    "dryer vent cleaning",
+    "residential duct cleaning"
+   ],
+   "tier": "adjacent",
+   "priority": 5
+  },
+  {
+   "slug": "hvac-decontamination",
+   "display_name": "HVAC System Decontamination",
+   "short_name": "HVAC Decon",
+   "primary_intent": "local_specialty",
+   "secondary_keywords": [
+    "HVAC cleaning",
+    "HVAC sanitization",
+    "post-fire HVAC cleaning",
+    "HVAC mold remediation",
+    "ductwork decontamination"
+   ],
+   "tier": "specialty",
+   "priority": 5
+  },
+  {
+   "slug": "large-loss-response",
+   "display_name": "Large Loss and Catastrophic Response",
+   "short_name": "Large Loss",
+   "primary_intent": "local_b2b",
+   "secondary_keywords": [
+    "large loss restoration",
+    "catastrophic loss response",
+    "commercial catastrophic restoration",
+    "multi-million dollar restoration",
+    "large loss adjusters"
+   ],
+   "tier": "core",
+   "priority": 8
+  },
+  {
+   "slug": "vandalism-cleanup",
+   "display_name": "Vandalism Cleanup",
+   "short_name": "Vandalism",
+   "primary_intent": "local_specialty",
+   "secondary_keywords": [
+    "vandalism cleanup",
+    "graffiti removal",
+    "post-vandalism restoration",
+    "vandalism damage repair",
+    "broken glass cleanup"
+   ],
+   "tier": "specialty",
+   "priority": 5
+  },
+  {
+   "slug": "flood-equipment-rental",
+   "display_name": "Flood & Drying Equipment Rental",
+   "short_name": "Equipment Rental",
+   "primary_intent": "local_specialty",
+   "secondary_keywords": [
+    "water damage equipment rental",
+    "dehumidifier rental",
+    "air mover rental",
+    "carpet drying fan rental",
+    "flood pump rental"
+   ],
+   "tier": "adjacent",
+   "priority": 3
+  },
+  {
+   "slug": "carpet-cleaning",
+   "display_name": "Carpet Cleaning",
+   "short_name": "Carpet",
+   "primary_intent": "local_specialty",
+   "secondary_keywords": [
+    "professional carpet cleaning",
+    "deep carpet cleaning",
+    "carpet stain removal",
+    "commercial carpet cleaning",
+    "carpet sanitization"
+   ],
+   "tier": "adjacent",
+   "priority": 4
+  },
+  {
+   "slug": "upholstery-cleaning",
+   "display_name": "Upholstery Cleaning",
+   "short_name": "Upholstery",
+   "primary_intent": "local_specialty",
+   "secondary_keywords": [
+    "sofa cleaning",
+    "couch cleaning",
+    "furniture steam cleaning",
+    "leather upholstery cleaning",
+    "fabric upholstery cleaning"
+   ],
+   "tier": "adjacent",
+   "priority": 4
+  },
+  {
+   "slug": "tile-grout-cleaning",
+   "display_name": "Tile & Grout Cleaning",
+   "short_name": "Tile & Grout",
+   "primary_intent": "local_specialty",
+   "secondary_keywords": [
+    "grout cleaning",
+    "tile cleaning",
+    "grout sealing",
+    "grout restoration",
+    "floor tile cleaning"
+   ],
+   "tier": "adjacent",
+   "priority": 4
+  },
+  {
+   "slug": "fabric-protection",
+   "display_name": "Fabric Protection",
+   "short_name": "Fabric Protection",
+   "primary_intent": "local_specialty",
+   "secondary_keywords": [
+    "carpet protection",
+    "upholstery protection",
+    "stain guard",
+    "scotchgard application",
+    "fabric stain protection"
+   ],
+   "tier": "adjacent",
+   "priority": 5
+  },
+  {
+   "slug": "junk-debris-removal",
+   "display_name": "Junk & Debris Removal",
+   "short_name": "Junk Removal",
+   "primary_intent": "local_specialty",
+   "secondary_keywords": [
+    "junk removal",
+    "debris removal",
+    "house cleanout",
+    "garage cleanout",
+    "hauling services"
+   ],
+   "tier": "adjacent",
+   "priority": 5
+  },
+  {
+   "slug": "new-construction",
+   "display_name": "New Home Construction",
+   "short_name": "New Construction",
+   "primary_intent": "local_commercial",
+   "secondary_keywords": [
+    "custom home builder",
+    "new home builder",
+    "build a house",
+    "residential construction",
+    "ground-up construction"
+   ],
+   "tier": "construction",
+   "priority": 9
+  },
+  {
+   "slug": "home-remodeling",
+   "display_name": "Home Remodeling",
+   "short_name": "Remodeling",
+   "primary_intent": "local_commercial",
+   "secondary_keywords": [
+    "home renovation",
+    "kitchen remodel",
+    "bathroom remodel",
+    "whole home remodel",
+    "interior remodeling contractor"
+   ],
+   "tier": "construction",
+   "priority": 10
+  },
+  {
+   "slug": "room-addition",
+   "display_name": "Room Additions and Home Additions",
+   "short_name": "Home Additions",
+   "primary_intent": "local_commercial",
+   "secondary_keywords": [
+    "home addition contractor",
+    "room addition",
+    "add a room to house",
+    "house addition",
+    "bump out addition"
+   ],
+   "tier": "construction",
+   "priority": 8
+  },
+  {
+   "slug": "decks-pergolas-fences",
+   "display_name": "Decks, Pergolas and Fences",
+   "short_name": "Decks & Outdoor Structures",
+   "primary_intent": "local_commercial",
+   "secondary_keywords": [
+    "deck builder",
+    "deck installation",
+    "pergola builder",
+    "fence installation",
+    "outdoor structure contractor"
+   ],
+   "tier": "construction",
+   "priority": 9
+  },
+  {
+   "slug": "roofing",
+   "display_name": "Roofing Installation and Replacement",
+   "short_name": "Roofing",
+   "primary_intent": "local_commercial",
+   "secondary_keywords": [
+    "roofing contractor",
+    "roof replacement",
+    "new roof installation",
+    "residential roofing",
+    "roof repair"
+   ],
+   "tier": "construction",
+   "priority": 10
+  },
+  {
+   "slug": "siding-gutters",
+   "display_name": "Siding and Gutters",
+   "short_name": "Siding & Gutters",
+   "primary_intent": "local_commercial",
+   "secondary_keywords": [
+    "siding contractor",
+    "siding installation",
+    "siding replacement",
+    "gutter installation",
+    "exterior contractor"
+   ],
+   "tier": "construction",
+   "priority": 8
+  },
+  {
+   "slug": "painting-trim",
+   "display_name": "Painting and Trim",
+   "short_name": "Painting",
+   "primary_intent": "local_commercial",
+   "secondary_keywords": [
+    "painting contractor",
+    "interior painting",
+    "exterior painting",
+    "house painter",
+    "trim painting"
+   ],
+   "tier": "construction",
+   "priority": 7
+  },
+  {
+   "slug": "crawl-space-encapsulation",
+   "display_name": "Crawl Space Encapsulation",
+   "short_name": "Crawl Space Encapsulation",
+   "primary_intent": "local_specialty",
+   "secondary_keywords": [],
+   "tier": "adjacent",
+   "priority": 5
+  },
+  {
+   "slug": "contents-restoration",
+   "display_name": "Contents Restoration and Storage",
+   "short_name": "Contents Restoration",
+   "primary_intent": "local_service",
+   "secondary_keywords": [
+    "contents pack-out",
+    "contents cleaning",
+    "belongings restoration",
+    "furniture restoration after fire",
+    "contents storage"
+   ],
+   "tier": "supporting",
+   "priority": 5
+  },
+  {
+   "slug": "post-construction-cleaning",
+   "display_name": "Post-Construction and Specialty Cleaning",
+   "short_name": "Post-Construction Cleaning",
+   "primary_intent": "local_service",
+   "secondary_keywords": [
+    "post construction cleanup",
+    "construction debris cleaning",
+    "final clean",
+    "deep cleaning after renovation"
+   ],
+   "tier": "supporting",
+   "priority": 4
+  },
+  {
+   "slug": "black-mold-removal",
+   "display_name": "Black Mold Removal",
+   "short_name": "Black Mold",
+   "primary_intent": "local_urgent",
+   "secondary_keywords": [
+    "black mold remediation",
+    "stachybotrys removal",
+    "toxic mold removal",
+    "black mold in bathroom",
+    "black mold testing"
+   ],
+   "tier": "specialty",
+   "priority": 8
+  },
+  {
+   "slug": "attic-mold-removal",
+   "display_name": "Attic Mold Removal",
+   "short_name": "Attic Mold",
+   "primary_intent": "local_service",
+   "secondary_keywords": [
+    "attic mold remediation",
+    "roof leak mold",
+    "attic mold treatment",
+    "mold on roof sheathing"
+   ],
+   "tier": "specialty",
+   "priority": 6
+  },
+  {
+   "slug": "crawl-space-mold-removal",
+   "display_name": "Crawl Space Mold Removal",
+   "short_name": "Crawl Space Mold",
+   "primary_intent": "local_service",
+   "secondary_keywords": [
+    "crawl space mold remediation",
+    "crawl space fungus",
+    "subfloor mold removal",
+    "crawl space moisture control"
+   ],
+   "tier": "specialty",
+   "priority": 6
+  }
+ ]
 }

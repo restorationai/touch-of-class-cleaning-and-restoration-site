@@ -8,6 +8,33 @@
       1200
     ]
   },
+  "/images/services/attic-mold-removal.webp": {
+    "width": 1264,
+    "height": 848,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/black-mold-removal.webp": {
+    "width": 1264,
+    "height": 848,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/crawl-space-mold-removal.webp": {
+    "width": 1264,
+    "height": 848,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
   "/images/services/mold-inspection-testing.webp": {
     "width": 1264,
     "height": 848,

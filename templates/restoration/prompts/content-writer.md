@@ -126,10 +126,17 @@ getting a written scope, etc.}
 {60-90 word author bio written in third person about the BUSINESS as the author. Establish
 real E-E-A-T from the client context block only — never invent credentials. Pull from what's
 available: IICRC certification, license number, founded year, primary city/state, years in
-business. Example shape: "{brand.display_name} is an IICRC-certified restoration company
-serving {primary_city}, {primary_state} since {founded_year} (license {license}). Their crews
-handle water, fire, and mold losses across the region..." Use only fields that are actually
-present in the context; drop any that are empty rather than fabricating.}
+business. Example shape: "{brand.display_name} is an IICRC-certified company serving
+{primary_city}, {primary_state} since {founded_year} (license {license}). Their crews
+handle {the client's ACTUAL service lines} across the region..." Use only fields that are
+actually present in the context; drop any that are empty rather than fabricating.}
+
+**SERVICE-SCOPE RULE (hard, non-negotiable):** Only ever name service lines that appear in
+the client's services list in the context block. A dedicated mold company must NEVER be
+described as handling water damage, fire, smoke, storm, biohazard, or reconstruction — and
+vice versa. When describing what the company does, enumerate FROM the provided services
+list, not from what restoration companies typically do. (2026-07-28: a mold-only client's
+homepage claimed six services they don't offer.)
 ```
 
 **Answer Capsule rule (applies to most H2s):** At least 60% of your H2 headings should be

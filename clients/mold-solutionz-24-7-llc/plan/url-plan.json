@@ -1,9 +1,9 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-07-28T04:58:09.354894+00:00",
+  "generated_at": "2026-07-28T05:46:21.109874+00:00",
   "input_summary": {
-    "service_count": 3,
+    "service_count": 6,
     "service_area_count": 8,
     "cross_product": true,
     "blog_seed_count": 8
@@ -46,7 +46,10 @@
         "/about/",
         "/services/mold-remediation/",
         "/services/sewage-cleanup/",
+        "/services/black-mold-removal/",
         "/services/mold-inspection-testing/",
+        "/services/attic-mold-removal/",
+        "/services/crawl-space-mold-removal/",
         "/service-areas/cerritos-ca/",
         "/service-areas/anaheim-ca/",
         "/service-areas/corona-ca/",
@@ -89,7 +92,10 @@
         "/",
         "/services/mold-remediation/",
         "/services/sewage-cleanup/",
-        "/services/mold-inspection-testing/"
+        "/services/black-mold-removal/",
+        "/services/mold-inspection-testing/",
+        "/services/attic-mold-removal/",
+        "/services/crawl-space-mold-removal/"
       ]
     },
     {
@@ -279,9 +285,57 @@
         "/service-areas/norwalk-ca/mold-remediation/",
         "/service-areas/riverside-ca/mold-remediation/",
         "/service-areas/whittier-ca/mold-remediation/",
+        "/services/black-mold-removal/",
         "/blog/choosing-a-restoration-company/",
         "/blog/how-to-test-for-mold/",
         "/blog/signs-of-hidden-mold/"
+      ]
+    },
+    {
+      "url_path": "/services/black-mold-removal/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Black Mold Removal in Cerritos | Mold Solutionz 24/7",
+      "h1": "Black Mold Removal in Cerritos",
+      "meta_description": "24/7 black mold removal in Cerritos and surrounding areas. IICRC-certified, insurance billing accepted. Call (714) 409-4758.",
+      "primary_keyword": "black mold removal cerritos",
+      "secondary_keywords": [
+        "black mold remediation",
+        "stachybotrys removal",
+        "toxic mold removal",
+        "black mold in bathroom",
+        "black mold testing"
+      ],
+      "search_intent": "local_urgent",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/anaheim-ca/black-mold-removal/",
+        "/service-areas/cerritos-ca/black-mold-removal/",
+        "/service-areas/corona-ca/black-mold-removal/",
+        "/service-areas/fullerton-ca/black-mold-removal/",
+        "/service-areas/long-beach-ca/black-mold-removal/",
+        "/service-areas/norwalk-ca/black-mold-removal/",
+        "/service-areas/riverside-ca/black-mold-removal/",
+        "/service-areas/whittier-ca/black-mold-removal/",
+        "/services/mold-remediation/"
       ]
     },
     {
@@ -329,6 +383,96 @@
         "/service-areas/riverside-ca/mold-inspection-testing/",
         "/service-areas/whittier-ca/mold-inspection-testing/",
         "/blog/how-to-test-for-mold/"
+      ]
+    },
+    {
+      "url_path": "/services/attic-mold-removal/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Attic Mold Removal in Cerritos | Mold Solutionz 24/7",
+      "h1": "Attic Mold Removal in Cerritos",
+      "meta_description": "24/7 attic mold removal in Cerritos and surrounding areas. IICRC-certified, insurance billing accepted. Call (714) 409-4758.",
+      "primary_keyword": "attic mold removal cerritos",
+      "secondary_keywords": [
+        "attic mold remediation",
+        "roof leak mold",
+        "attic mold treatment",
+        "mold on roof sheathing"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/anaheim-ca/attic-mold-removal/",
+        "/service-areas/cerritos-ca/attic-mold-removal/",
+        "/service-areas/corona-ca/attic-mold-removal/",
+        "/service-areas/fullerton-ca/attic-mold-removal/",
+        "/service-areas/long-beach-ca/attic-mold-removal/",
+        "/service-areas/norwalk-ca/attic-mold-removal/",
+        "/service-areas/riverside-ca/attic-mold-removal/",
+        "/service-areas/whittier-ca/attic-mold-removal/"
+      ]
+    },
+    {
+      "url_path": "/services/crawl-space-mold-removal/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Crawl Space Mold Removal in Cerritos | Mold Solutionz 24/7",
+      "h1": "Crawl Space Mold Removal in Cerritos",
+      "meta_description": "24/7 crawl space mold removal in Cerritos and surrounding areas. IICRC-certified, insurance billing accepted. Call (714) 409-4758.",
+      "primary_keyword": "crawl space mold removal cerritos",
+      "secondary_keywords": [
+        "crawl space mold remediation",
+        "crawl space fungus",
+        "subfloor mold removal",
+        "crawl space moisture control"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/anaheim-ca/crawl-space-mold-removal/",
+        "/service-areas/cerritos-ca/crawl-space-mold-removal/",
+        "/service-areas/corona-ca/crawl-space-mold-removal/",
+        "/service-areas/fullerton-ca/crawl-space-mold-removal/",
+        "/service-areas/long-beach-ca/crawl-space-mold-removal/",
+        "/service-areas/norwalk-ca/crawl-space-mold-removal/",
+        "/service-areas/riverside-ca/crawl-space-mold-removal/",
+        "/service-areas/whittier-ca/crawl-space-mold-removal/"
       ]
     },
     {
@@ -412,7 +556,10 @@
         "/contact/",
         "/service-areas/cerritos-ca/mold-remediation/",
         "/service-areas/cerritos-ca/sewage-cleanup/",
+        "/service-areas/cerritos-ca/black-mold-removal/",
         "/service-areas/cerritos-ca/mold-inspection-testing/",
+        "/service-areas/cerritos-ca/attic-mold-removal/",
+        "/service-areas/cerritos-ca/crawl-space-mold-removal/",
         "/service-areas/anaheim-ca/",
         "/service-areas/corona-ca/",
         "/service-areas/fullerton-ca/"
@@ -452,7 +599,10 @@
         "/contact/",
         "/service-areas/long-beach-ca/mold-remediation/",
         "/service-areas/long-beach-ca/sewage-cleanup/",
+        "/service-areas/long-beach-ca/black-mold-removal/",
         "/service-areas/long-beach-ca/mold-inspection-testing/",
+        "/service-areas/long-beach-ca/attic-mold-removal/",
+        "/service-areas/long-beach-ca/crawl-space-mold-removal/",
         "/service-areas/cerritos-ca/",
         "/service-areas/anaheim-ca/",
         "/service-areas/corona-ca/"
@@ -492,7 +642,10 @@
         "/contact/",
         "/service-areas/anaheim-ca/mold-remediation/",
         "/service-areas/anaheim-ca/sewage-cleanup/",
+        "/service-areas/anaheim-ca/black-mold-removal/",
         "/service-areas/anaheim-ca/mold-inspection-testing/",
+        "/service-areas/anaheim-ca/attic-mold-removal/",
+        "/service-areas/anaheim-ca/crawl-space-mold-removal/",
         "/service-areas/cerritos-ca/",
         "/service-areas/corona-ca/",
         "/service-areas/fullerton-ca/"
@@ -532,7 +685,10 @@
         "/contact/",
         "/service-areas/whittier-ca/mold-remediation/",
         "/service-areas/whittier-ca/sewage-cleanup/",
+        "/service-areas/whittier-ca/black-mold-removal/",
         "/service-areas/whittier-ca/mold-inspection-testing/",
+        "/service-areas/whittier-ca/attic-mold-removal/",
+        "/service-areas/whittier-ca/crawl-space-mold-removal/",
         "/service-areas/cerritos-ca/",
         "/service-areas/anaheim-ca/",
         "/service-areas/corona-ca/"
@@ -572,7 +728,10 @@
         "/contact/",
         "/service-areas/fullerton-ca/mold-remediation/",
         "/service-areas/fullerton-ca/sewage-cleanup/",
+        "/service-areas/fullerton-ca/black-mold-removal/",
         "/service-areas/fullerton-ca/mold-inspection-testing/",
+        "/service-areas/fullerton-ca/attic-mold-removal/",
+        "/service-areas/fullerton-ca/crawl-space-mold-removal/",
         "/service-areas/cerritos-ca/",
         "/service-areas/anaheim-ca/",
         "/service-areas/corona-ca/"
@@ -612,7 +771,10 @@
         "/contact/",
         "/service-areas/norwalk-ca/mold-remediation/",
         "/service-areas/norwalk-ca/sewage-cleanup/",
+        "/service-areas/norwalk-ca/black-mold-removal/",
         "/service-areas/norwalk-ca/mold-inspection-testing/",
+        "/service-areas/norwalk-ca/attic-mold-removal/",
+        "/service-areas/norwalk-ca/crawl-space-mold-removal/",
         "/service-areas/cerritos-ca/",
         "/service-areas/anaheim-ca/",
         "/service-areas/corona-ca/"
@@ -652,7 +814,10 @@
         "/contact/",
         "/service-areas/corona-ca/mold-remediation/",
         "/service-areas/corona-ca/sewage-cleanup/",
+        "/service-areas/corona-ca/black-mold-removal/",
         "/service-areas/corona-ca/mold-inspection-testing/",
+        "/service-areas/corona-ca/attic-mold-removal/",
+        "/service-areas/corona-ca/crawl-space-mold-removal/",
         "/service-areas/cerritos-ca/",
         "/service-areas/anaheim-ca/",
         "/service-areas/fullerton-ca/"
@@ -692,7 +857,10 @@
         "/contact/",
         "/service-areas/riverside-ca/mold-remediation/",
         "/service-areas/riverside-ca/sewage-cleanup/",
+        "/service-areas/riverside-ca/black-mold-removal/",
         "/service-areas/riverside-ca/mold-inspection-testing/",
+        "/service-areas/riverside-ca/attic-mold-removal/",
+        "/service-areas/riverside-ca/crawl-space-mold-removal/",
         "/service-areas/cerritos-ca/",
         "/service-areas/anaheim-ca/",
         "/service-areas/corona-ca/"
@@ -736,9 +904,53 @@
         "/services/mold-remediation/",
         "/service-areas/cerritos-ca/",
         "/service-areas/cerritos-ca/sewage-cleanup/",
-        "/service-areas/cerritos-ca/mold-inspection-testing/",
+        "/service-areas/cerritos-ca/black-mold-removal/",
         "/service-areas/anaheim-ca/mold-remediation/",
         "/service-areas/corona-ca/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/cerritos-ca/black-mold-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Black Mold Removal in Cerritos, CA | Mold Solutionz 24/7",
+      "h1": "Black Mold Removal in Cerritos",
+      "meta_description": "24/7 black mold removal in Cerritos, CA. IICRC-certified, insurance billing accepted. Call (714) 409-4758.",
+      "primary_keyword": "black mold removal cerritos",
+      "secondary_keywords": [
+        "black mold remediation",
+        "stachybotrys removal",
+        "toxic mold removal",
+        "black mold in bathroom",
+        "black mold testing"
+      ],
+      "search_intent": "local_urgent",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/black-mold-removal/",
+        "/service-areas/cerritos-ca/",
+        "/service-areas/cerritos-ca/mold-remediation/",
+        "/service-areas/cerritos-ca/sewage-cleanup/",
+        "/service-areas/anaheim-ca/black-mold-removal/",
+        "/service-areas/corona-ca/black-mold-removal/",
         "/contact/"
       ]
     },
@@ -787,6 +999,92 @@
       ]
     },
     {
+      "url_path": "/service-areas/cerritos-ca/attic-mold-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Attic Mold Removal in Cerritos, CA | Mold Solutionz 24/7",
+      "h1": "Attic Mold Removal in Cerritos",
+      "meta_description": "24/7 attic mold removal in Cerritos, CA. IICRC-certified, insurance billing accepted. Call (714) 409-4758.",
+      "primary_keyword": "attic mold removal cerritos",
+      "secondary_keywords": [
+        "attic mold remediation",
+        "roof leak mold",
+        "attic mold treatment",
+        "mold on roof sheathing"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/attic-mold-removal/",
+        "/service-areas/cerritos-ca/",
+        "/service-areas/cerritos-ca/mold-remediation/",
+        "/service-areas/cerritos-ca/sewage-cleanup/",
+        "/service-areas/anaheim-ca/attic-mold-removal/",
+        "/service-areas/corona-ca/attic-mold-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/cerritos-ca/crawl-space-mold-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crawl Space Mold Removal in Cerritos, CA | Mold Solutionz 24/7",
+      "h1": "Crawl Space Mold Removal in Cerritos",
+      "meta_description": "24/7 crawl space mold removal in Cerritos, CA. IICRC-certified, insurance billing accepted. Call (714) 409-4758.",
+      "primary_keyword": "crawl space mold removal cerritos",
+      "secondary_keywords": [
+        "crawl space mold remediation",
+        "crawl space fungus",
+        "subfloor mold removal",
+        "crawl space moisture control"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crawl-space-mold-removal/",
+        "/service-areas/cerritos-ca/",
+        "/service-areas/cerritos-ca/mold-remediation/",
+        "/service-areas/cerritos-ca/sewage-cleanup/",
+        "/service-areas/anaheim-ca/crawl-space-mold-removal/",
+        "/service-areas/corona-ca/crawl-space-mold-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/cerritos-ca/sewage-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -824,7 +1122,7 @@
         "/services/sewage-cleanup/",
         "/service-areas/cerritos-ca/",
         "/service-areas/cerritos-ca/mold-remediation/",
-        "/service-areas/cerritos-ca/mold-inspection-testing/",
+        "/service-areas/cerritos-ca/black-mold-removal/",
         "/service-areas/anaheim-ca/sewage-cleanup/",
         "/service-areas/corona-ca/sewage-cleanup/",
         "/contact/"
@@ -868,9 +1166,53 @@
         "/services/mold-remediation/",
         "/service-areas/long-beach-ca/",
         "/service-areas/long-beach-ca/sewage-cleanup/",
-        "/service-areas/long-beach-ca/mold-inspection-testing/",
+        "/service-areas/long-beach-ca/black-mold-removal/",
         "/service-areas/anaheim-ca/mold-remediation/",
         "/service-areas/cerritos-ca/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/long-beach-ca/black-mold-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Black Mold Removal in Long Beach, CA | Mold Solutionz 24/7",
+      "h1": "Black Mold Removal in Long Beach",
+      "meta_description": "24/7 black mold removal in Long Beach, CA. IICRC-certified, insurance billing accepted. Call (714) 409-4758.",
+      "primary_keyword": "black mold removal long beach",
+      "secondary_keywords": [
+        "black mold remediation",
+        "stachybotrys removal",
+        "toxic mold removal",
+        "black mold in bathroom",
+        "black mold testing"
+      ],
+      "search_intent": "local_urgent",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/black-mold-removal/",
+        "/service-areas/long-beach-ca/",
+        "/service-areas/long-beach-ca/mold-remediation/",
+        "/service-areas/long-beach-ca/sewage-cleanup/",
+        "/service-areas/anaheim-ca/black-mold-removal/",
+        "/service-areas/cerritos-ca/black-mold-removal/",
         "/contact/"
       ]
     },
@@ -919,6 +1261,92 @@
       ]
     },
     {
+      "url_path": "/service-areas/long-beach-ca/attic-mold-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Attic Mold Removal in Long Beach, CA | Mold Solutionz 24/7",
+      "h1": "Attic Mold Removal in Long Beach",
+      "meta_description": "24/7 attic mold removal in Long Beach, CA. IICRC-certified, insurance billing accepted. Call (714) 409-4758.",
+      "primary_keyword": "attic mold removal long beach",
+      "secondary_keywords": [
+        "attic mold remediation",
+        "roof leak mold",
+        "attic mold treatment",
+        "mold on roof sheathing"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/attic-mold-removal/",
+        "/service-areas/long-beach-ca/",
+        "/service-areas/long-beach-ca/mold-remediation/",
+        "/service-areas/long-beach-ca/sewage-cleanup/",
+        "/service-areas/anaheim-ca/attic-mold-removal/",
+        "/service-areas/cerritos-ca/attic-mold-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/long-beach-ca/crawl-space-mold-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crawl Space Mold Removal in Long Beach, CA | Mold Solutionz 24/7",
+      "h1": "Crawl Space Mold Removal in Long Beach",
+      "meta_description": "24/7 crawl space mold removal in Long Beach, CA. IICRC-certified, insurance billing accepted. Call (714) 409-4758.",
+      "primary_keyword": "crawl space mold removal long beach",
+      "secondary_keywords": [
+        "crawl space mold remediation",
+        "crawl space fungus",
+        "subfloor mold removal",
+        "crawl space moisture control"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crawl-space-mold-removal/",
+        "/service-areas/long-beach-ca/",
+        "/service-areas/long-beach-ca/mold-remediation/",
+        "/service-areas/long-beach-ca/sewage-cleanup/",
+        "/service-areas/anaheim-ca/crawl-space-mold-removal/",
+        "/service-areas/cerritos-ca/crawl-space-mold-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/long-beach-ca/sewage-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -956,7 +1384,7 @@
         "/services/sewage-cleanup/",
         "/service-areas/long-beach-ca/",
         "/service-areas/long-beach-ca/mold-remediation/",
-        "/service-areas/long-beach-ca/mold-inspection-testing/",
+        "/service-areas/long-beach-ca/black-mold-removal/",
         "/service-areas/anaheim-ca/sewage-cleanup/",
         "/service-areas/cerritos-ca/sewage-cleanup/",
         "/contact/"
@@ -1000,9 +1428,53 @@
         "/services/mold-remediation/",
         "/service-areas/anaheim-ca/",
         "/service-areas/anaheim-ca/sewage-cleanup/",
-        "/service-areas/anaheim-ca/mold-inspection-testing/",
+        "/service-areas/anaheim-ca/black-mold-removal/",
         "/service-areas/cerritos-ca/mold-remediation/",
         "/service-areas/corona-ca/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/anaheim-ca/black-mold-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Black Mold Removal in Anaheim, CA | Mold Solutionz 24/7",
+      "h1": "Black Mold Removal in Anaheim",
+      "meta_description": "24/7 black mold removal in Anaheim, CA. IICRC-certified, insurance billing accepted. Call (714) 409-4758.",
+      "primary_keyword": "black mold removal anaheim",
+      "secondary_keywords": [
+        "black mold remediation",
+        "stachybotrys removal",
+        "toxic mold removal",
+        "black mold in bathroom",
+        "black mold testing"
+      ],
+      "search_intent": "local_urgent",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/black-mold-removal/",
+        "/service-areas/anaheim-ca/",
+        "/service-areas/anaheim-ca/mold-remediation/",
+        "/service-areas/anaheim-ca/sewage-cleanup/",
+        "/service-areas/cerritos-ca/black-mold-removal/",
+        "/service-areas/corona-ca/black-mold-removal/",
         "/contact/"
       ]
     },
@@ -1051,6 +1523,92 @@
       ]
     },
     {
+      "url_path": "/service-areas/anaheim-ca/attic-mold-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Attic Mold Removal in Anaheim, CA | Mold Solutionz 24/7",
+      "h1": "Attic Mold Removal in Anaheim",
+      "meta_description": "24/7 attic mold removal in Anaheim, CA. IICRC-certified, insurance billing accepted. Call (714) 409-4758.",
+      "primary_keyword": "attic mold removal anaheim",
+      "secondary_keywords": [
+        "attic mold remediation",
+        "roof leak mold",
+        "attic mold treatment",
+        "mold on roof sheathing"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/attic-mold-removal/",
+        "/service-areas/anaheim-ca/",
+        "/service-areas/anaheim-ca/mold-remediation/",
+        "/service-areas/anaheim-ca/sewage-cleanup/",
+        "/service-areas/cerritos-ca/attic-mold-removal/",
+        "/service-areas/corona-ca/attic-mold-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/anaheim-ca/crawl-space-mold-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crawl Space Mold Removal in Anaheim, CA | Mold Solutionz 24/7",
+      "h1": "Crawl Space Mold Removal in Anaheim",
+      "meta_description": "24/7 crawl space mold removal in Anaheim, CA. IICRC-certified, insurance billing accepted. Call (714) 409-4758.",
+      "primary_keyword": "crawl space mold removal anaheim",
+      "secondary_keywords": [
+        "crawl space mold remediation",
+        "crawl space fungus",
+        "subfloor mold removal",
+        "crawl space moisture control"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crawl-space-mold-removal/",
+        "/service-areas/anaheim-ca/",
+        "/service-areas/anaheim-ca/mold-remediation/",
+        "/service-areas/anaheim-ca/sewage-cleanup/",
+        "/service-areas/cerritos-ca/crawl-space-mold-removal/",
+        "/service-areas/corona-ca/crawl-space-mold-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/anaheim-ca/sewage-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -1088,7 +1646,7 @@
         "/services/sewage-cleanup/",
         "/service-areas/anaheim-ca/",
         "/service-areas/anaheim-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/mold-inspection-testing/",
+        "/service-areas/anaheim-ca/black-mold-removal/",
         "/service-areas/cerritos-ca/sewage-cleanup/",
         "/service-areas/corona-ca/sewage-cleanup/",
         "/contact/"
@@ -1132,9 +1690,53 @@
         "/services/mold-remediation/",
         "/service-areas/whittier-ca/",
         "/service-areas/whittier-ca/sewage-cleanup/",
-        "/service-areas/whittier-ca/mold-inspection-testing/",
+        "/service-areas/whittier-ca/black-mold-removal/",
         "/service-areas/anaheim-ca/mold-remediation/",
         "/service-areas/cerritos-ca/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/whittier-ca/black-mold-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Black Mold Removal in Whittier, CA | Mold Solutionz 24/7",
+      "h1": "Black Mold Removal in Whittier",
+      "meta_description": "24/7 black mold removal in Whittier, CA. IICRC-certified, insurance billing accepted. Call (714) 409-4758.",
+      "primary_keyword": "black mold removal whittier",
+      "secondary_keywords": [
+        "black mold remediation",
+        "stachybotrys removal",
+        "toxic mold removal",
+        "black mold in bathroom",
+        "black mold testing"
+      ],
+      "search_intent": "local_urgent",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/black-mold-removal/",
+        "/service-areas/whittier-ca/",
+        "/service-areas/whittier-ca/mold-remediation/",
+        "/service-areas/whittier-ca/sewage-cleanup/",
+        "/service-areas/anaheim-ca/black-mold-removal/",
+        "/service-areas/cerritos-ca/black-mold-removal/",
         "/contact/"
       ]
     },
@@ -1183,6 +1785,92 @@
       ]
     },
     {
+      "url_path": "/service-areas/whittier-ca/attic-mold-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Attic Mold Removal in Whittier, CA | Mold Solutionz 24/7",
+      "h1": "Attic Mold Removal in Whittier",
+      "meta_description": "24/7 attic mold removal in Whittier, CA. IICRC-certified, insurance billing accepted. Call (714) 409-4758.",
+      "primary_keyword": "attic mold removal whittier",
+      "secondary_keywords": [
+        "attic mold remediation",
+        "roof leak mold",
+        "attic mold treatment",
+        "mold on roof sheathing"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/attic-mold-removal/",
+        "/service-areas/whittier-ca/",
+        "/service-areas/whittier-ca/mold-remediation/",
+        "/service-areas/whittier-ca/sewage-cleanup/",
+        "/service-areas/anaheim-ca/attic-mold-removal/",
+        "/service-areas/cerritos-ca/attic-mold-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/whittier-ca/crawl-space-mold-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crawl Space Mold Removal in Whittier, CA | Mold Solutionz 24/7",
+      "h1": "Crawl Space Mold Removal in Whittier",
+      "meta_description": "24/7 crawl space mold removal in Whittier, CA. IICRC-certified, insurance billing accepted. Call (714) 409-4758.",
+      "primary_keyword": "crawl space mold removal whittier",
+      "secondary_keywords": [
+        "crawl space mold remediation",
+        "crawl space fungus",
+        "subfloor mold removal",
+        "crawl space moisture control"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crawl-space-mold-removal/",
+        "/service-areas/whittier-ca/",
+        "/service-areas/whittier-ca/mold-remediation/",
+        "/service-areas/whittier-ca/sewage-cleanup/",
+        "/service-areas/anaheim-ca/crawl-space-mold-removal/",
+        "/service-areas/cerritos-ca/crawl-space-mold-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/whittier-ca/sewage-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -1220,7 +1908,7 @@
         "/services/sewage-cleanup/",
         "/service-areas/whittier-ca/",
         "/service-areas/whittier-ca/mold-remediation/",
-        "/service-areas/whittier-ca/mold-inspection-testing/",
+        "/service-areas/whittier-ca/black-mold-removal/",
         "/service-areas/anaheim-ca/sewage-cleanup/",
         "/service-areas/cerritos-ca/sewage-cleanup/",
         "/contact/"
@@ -1264,9 +1952,53 @@
         "/services/mold-remediation/",
         "/service-areas/fullerton-ca/",
         "/service-areas/fullerton-ca/sewage-cleanup/",
-        "/service-areas/fullerton-ca/mold-inspection-testing/",
+        "/service-areas/fullerton-ca/black-mold-removal/",
         "/service-areas/anaheim-ca/mold-remediation/",
         "/service-areas/cerritos-ca/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/fullerton-ca/black-mold-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Black Mold Removal in Fullerton, CA | Mold Solutionz 24/7",
+      "h1": "Black Mold Removal in Fullerton",
+      "meta_description": "24/7 black mold removal in Fullerton, CA. IICRC-certified, insurance billing accepted. Call (714) 409-4758.",
+      "primary_keyword": "black mold removal fullerton",
+      "secondary_keywords": [
+        "black mold remediation",
+        "stachybotrys removal",
+        "toxic mold removal",
+        "black mold in bathroom",
+        "black mold testing"
+      ],
+      "search_intent": "local_urgent",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/black-mold-removal/",
+        "/service-areas/fullerton-ca/",
+        "/service-areas/fullerton-ca/mold-remediation/",
+        "/service-areas/fullerton-ca/sewage-cleanup/",
+        "/service-areas/anaheim-ca/black-mold-removal/",
+        "/service-areas/cerritos-ca/black-mold-removal/",
         "/contact/"
       ]
     },
@@ -1315,6 +2047,92 @@
       ]
     },
     {
+      "url_path": "/service-areas/fullerton-ca/attic-mold-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Attic Mold Removal in Fullerton, CA | Mold Solutionz 24/7",
+      "h1": "Attic Mold Removal in Fullerton",
+      "meta_description": "24/7 attic mold removal in Fullerton, CA. IICRC-certified, insurance billing accepted. Call (714) 409-4758.",
+      "primary_keyword": "attic mold removal fullerton",
+      "secondary_keywords": [
+        "attic mold remediation",
+        "roof leak mold",
+        "attic mold treatment",
+        "mold on roof sheathing"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/attic-mold-removal/",
+        "/service-areas/fullerton-ca/",
+        "/service-areas/fullerton-ca/mold-remediation/",
+        "/service-areas/fullerton-ca/sewage-cleanup/",
+        "/service-areas/anaheim-ca/attic-mold-removal/",
+        "/service-areas/cerritos-ca/attic-mold-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/fullerton-ca/crawl-space-mold-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crawl Space Mold Removal in Fullerton, CA | Mold Solutionz 24/7",
+      "h1": "Crawl Space Mold Removal in Fullerton",
+      "meta_description": "24/7 crawl space mold removal in Fullerton, CA. IICRC-certified, insurance billing accepted. Call (714) 409-4758.",
+      "primary_keyword": "crawl space mold removal fullerton",
+      "secondary_keywords": [
+        "crawl space mold remediation",
+        "crawl space fungus",
+        "subfloor mold removal",
+        "crawl space moisture control"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crawl-space-mold-removal/",
+        "/service-areas/fullerton-ca/",
+        "/service-areas/fullerton-ca/mold-remediation/",
+        "/service-areas/fullerton-ca/sewage-cleanup/",
+        "/service-areas/anaheim-ca/crawl-space-mold-removal/",
+        "/service-areas/cerritos-ca/crawl-space-mold-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/fullerton-ca/sewage-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -1352,7 +2170,7 @@
         "/services/sewage-cleanup/",
         "/service-areas/fullerton-ca/",
         "/service-areas/fullerton-ca/mold-remediation/",
-        "/service-areas/fullerton-ca/mold-inspection-testing/",
+        "/service-areas/fullerton-ca/black-mold-removal/",
         "/service-areas/anaheim-ca/sewage-cleanup/",
         "/service-areas/cerritos-ca/sewage-cleanup/",
         "/contact/"
@@ -1396,9 +2214,53 @@
         "/services/mold-remediation/",
         "/service-areas/norwalk-ca/",
         "/service-areas/norwalk-ca/sewage-cleanup/",
-        "/service-areas/norwalk-ca/mold-inspection-testing/",
+        "/service-areas/norwalk-ca/black-mold-removal/",
         "/service-areas/anaheim-ca/mold-remediation/",
         "/service-areas/cerritos-ca/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/norwalk-ca/black-mold-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Black Mold Removal in Norwalk, CA | Mold Solutionz 24/7",
+      "h1": "Black Mold Removal in Norwalk",
+      "meta_description": "24/7 black mold removal in Norwalk, CA. IICRC-certified, insurance billing accepted. Call (714) 409-4758.",
+      "primary_keyword": "black mold removal norwalk",
+      "secondary_keywords": [
+        "black mold remediation",
+        "stachybotrys removal",
+        "toxic mold removal",
+        "black mold in bathroom",
+        "black mold testing"
+      ],
+      "search_intent": "local_urgent",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/black-mold-removal/",
+        "/service-areas/norwalk-ca/",
+        "/service-areas/norwalk-ca/mold-remediation/",
+        "/service-areas/norwalk-ca/sewage-cleanup/",
+        "/service-areas/anaheim-ca/black-mold-removal/",
+        "/service-areas/cerritos-ca/black-mold-removal/",
         "/contact/"
       ]
     },
@@ -1447,6 +2309,92 @@
       ]
     },
     {
+      "url_path": "/service-areas/norwalk-ca/attic-mold-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Attic Mold Removal in Norwalk, CA | Mold Solutionz 24/7",
+      "h1": "Attic Mold Removal in Norwalk",
+      "meta_description": "24/7 attic mold removal in Norwalk, CA. IICRC-certified, insurance billing accepted. Call (714) 409-4758.",
+      "primary_keyword": "attic mold removal norwalk",
+      "secondary_keywords": [
+        "attic mold remediation",
+        "roof leak mold",
+        "attic mold treatment",
+        "mold on roof sheathing"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/attic-mold-removal/",
+        "/service-areas/norwalk-ca/",
+        "/service-areas/norwalk-ca/mold-remediation/",
+        "/service-areas/norwalk-ca/sewage-cleanup/",
+        "/service-areas/anaheim-ca/attic-mold-removal/",
+        "/service-areas/cerritos-ca/attic-mold-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/norwalk-ca/crawl-space-mold-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crawl Space Mold Removal in Norwalk, CA | Mold Solutionz 24/7",
+      "h1": "Crawl Space Mold Removal in Norwalk",
+      "meta_description": "24/7 crawl space mold removal in Norwalk, CA. IICRC-certified, insurance billing accepted. Call (714) 409-4758.",
+      "primary_keyword": "crawl space mold removal norwalk",
+      "secondary_keywords": [
+        "crawl space mold remediation",
+        "crawl space fungus",
+        "subfloor mold removal",
+        "crawl space moisture control"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crawl-space-mold-removal/",
+        "/service-areas/norwalk-ca/",
+        "/service-areas/norwalk-ca/mold-remediation/",
+        "/service-areas/norwalk-ca/sewage-cleanup/",
+        "/service-areas/anaheim-ca/crawl-space-mold-removal/",
+        "/service-areas/cerritos-ca/crawl-space-mold-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/norwalk-ca/sewage-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -1484,7 +2432,7 @@
         "/services/sewage-cleanup/",
         "/service-areas/norwalk-ca/",
         "/service-areas/norwalk-ca/mold-remediation/",
-        "/service-areas/norwalk-ca/mold-inspection-testing/",
+        "/service-areas/norwalk-ca/black-mold-removal/",
         "/service-areas/anaheim-ca/sewage-cleanup/",
         "/service-areas/cerritos-ca/sewage-cleanup/",
         "/contact/"
@@ -1528,9 +2476,53 @@
         "/services/mold-remediation/",
         "/service-areas/corona-ca/",
         "/service-areas/corona-ca/sewage-cleanup/",
-        "/service-areas/corona-ca/mold-inspection-testing/",
+        "/service-areas/corona-ca/black-mold-removal/",
         "/service-areas/anaheim-ca/mold-remediation/",
         "/service-areas/cerritos-ca/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/corona-ca/black-mold-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Black Mold Removal in Corona, CA | Mold Solutionz 24/7",
+      "h1": "Black Mold Removal in Corona",
+      "meta_description": "24/7 black mold removal in Corona, CA. IICRC-certified, insurance billing accepted. Call (714) 409-4758.",
+      "primary_keyword": "black mold removal corona",
+      "secondary_keywords": [
+        "black mold remediation",
+        "stachybotrys removal",
+        "toxic mold removal",
+        "black mold in bathroom",
+        "black mold testing"
+      ],
+      "search_intent": "local_urgent",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/black-mold-removal/",
+        "/service-areas/corona-ca/",
+        "/service-areas/corona-ca/mold-remediation/",
+        "/service-areas/corona-ca/sewage-cleanup/",
+        "/service-areas/anaheim-ca/black-mold-removal/",
+        "/service-areas/cerritos-ca/black-mold-removal/",
         "/contact/"
       ]
     },
@@ -1579,6 +2571,92 @@
       ]
     },
     {
+      "url_path": "/service-areas/corona-ca/attic-mold-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Attic Mold Removal in Corona, CA | Mold Solutionz 24/7",
+      "h1": "Attic Mold Removal in Corona",
+      "meta_description": "24/7 attic mold removal in Corona, CA. IICRC-certified, insurance billing accepted. Call (714) 409-4758.",
+      "primary_keyword": "attic mold removal corona",
+      "secondary_keywords": [
+        "attic mold remediation",
+        "roof leak mold",
+        "attic mold treatment",
+        "mold on roof sheathing"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/attic-mold-removal/",
+        "/service-areas/corona-ca/",
+        "/service-areas/corona-ca/mold-remediation/",
+        "/service-areas/corona-ca/sewage-cleanup/",
+        "/service-areas/anaheim-ca/attic-mold-removal/",
+        "/service-areas/cerritos-ca/attic-mold-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/corona-ca/crawl-space-mold-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crawl Space Mold Removal in Corona, CA | Mold Solutionz 24/7",
+      "h1": "Crawl Space Mold Removal in Corona",
+      "meta_description": "24/7 crawl space mold removal in Corona, CA. IICRC-certified, insurance billing accepted. Call (714) 409-4758.",
+      "primary_keyword": "crawl space mold removal corona",
+      "secondary_keywords": [
+        "crawl space mold remediation",
+        "crawl space fungus",
+        "subfloor mold removal",
+        "crawl space moisture control"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crawl-space-mold-removal/",
+        "/service-areas/corona-ca/",
+        "/service-areas/corona-ca/mold-remediation/",
+        "/service-areas/corona-ca/sewage-cleanup/",
+        "/service-areas/anaheim-ca/crawl-space-mold-removal/",
+        "/service-areas/cerritos-ca/crawl-space-mold-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/corona-ca/sewage-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -1616,7 +2694,7 @@
         "/services/sewage-cleanup/",
         "/service-areas/corona-ca/",
         "/service-areas/corona-ca/mold-remediation/",
-        "/service-areas/corona-ca/mold-inspection-testing/",
+        "/service-areas/corona-ca/black-mold-removal/",
         "/service-areas/anaheim-ca/sewage-cleanup/",
         "/service-areas/cerritos-ca/sewage-cleanup/",
         "/contact/"
@@ -1660,9 +2738,53 @@
         "/services/mold-remediation/",
         "/service-areas/riverside-ca/",
         "/service-areas/riverside-ca/sewage-cleanup/",
-        "/service-areas/riverside-ca/mold-inspection-testing/",
+        "/service-areas/riverside-ca/black-mold-removal/",
         "/service-areas/anaheim-ca/mold-remediation/",
         "/service-areas/cerritos-ca/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/riverside-ca/black-mold-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Black Mold Removal in Riverside, CA | Mold Solutionz 24/7",
+      "h1": "Black Mold Removal in Riverside",
+      "meta_description": "24/7 black mold removal in Riverside, CA. IICRC-certified, insurance billing accepted. Call (714) 409-4758.",
+      "primary_keyword": "black mold removal riverside",
+      "secondary_keywords": [
+        "black mold remediation",
+        "stachybotrys removal",
+        "toxic mold removal",
+        "black mold in bathroom",
+        "black mold testing"
+      ],
+      "search_intent": "local_urgent",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/black-mold-removal/",
+        "/service-areas/riverside-ca/",
+        "/service-areas/riverside-ca/mold-remediation/",
+        "/service-areas/riverside-ca/sewage-cleanup/",
+        "/service-areas/anaheim-ca/black-mold-removal/",
+        "/service-areas/cerritos-ca/black-mold-removal/",
         "/contact/"
       ]
     },
@@ -1711,6 +2833,92 @@
       ]
     },
     {
+      "url_path": "/service-areas/riverside-ca/attic-mold-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Attic Mold Removal in Riverside, CA | Mold Solutionz 24/7",
+      "h1": "Attic Mold Removal in Riverside",
+      "meta_description": "24/7 attic mold removal in Riverside, CA. IICRC-certified, insurance billing accepted. Call (714) 409-4758.",
+      "primary_keyword": "attic mold removal riverside",
+      "secondary_keywords": [
+        "attic mold remediation",
+        "roof leak mold",
+        "attic mold treatment",
+        "mold on roof sheathing"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/attic-mold-removal/",
+        "/service-areas/riverside-ca/",
+        "/service-areas/riverside-ca/mold-remediation/",
+        "/service-areas/riverside-ca/sewage-cleanup/",
+        "/service-areas/anaheim-ca/attic-mold-removal/",
+        "/service-areas/cerritos-ca/attic-mold-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/riverside-ca/crawl-space-mold-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crawl Space Mold Removal in Riverside, CA | Mold Solutionz 24/7",
+      "h1": "Crawl Space Mold Removal in Riverside",
+      "meta_description": "24/7 crawl space mold removal in Riverside, CA. IICRC-certified, insurance billing accepted. Call (714) 409-4758.",
+      "primary_keyword": "crawl space mold removal riverside",
+      "secondary_keywords": [
+        "crawl space mold remediation",
+        "crawl space fungus",
+        "subfloor mold removal",
+        "crawl space moisture control"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crawl-space-mold-removal/",
+        "/service-areas/riverside-ca/",
+        "/service-areas/riverside-ca/mold-remediation/",
+        "/service-areas/riverside-ca/sewage-cleanup/",
+        "/service-areas/anaheim-ca/crawl-space-mold-removal/",
+        "/service-areas/cerritos-ca/crawl-space-mold-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/riverside-ca/sewage-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -1748,7 +2956,7 @@
         "/services/sewage-cleanup/",
         "/service-areas/riverside-ca/",
         "/service-areas/riverside-ca/mold-remediation/",
-        "/service-areas/riverside-ca/mold-inspection-testing/",
+        "/service-areas/riverside-ca/black-mold-removal/",
         "/service-areas/anaheim-ca/sewage-cleanup/",
         "/service-areas/cerritos-ca/sewage-cleanup/",
         "/contact/"

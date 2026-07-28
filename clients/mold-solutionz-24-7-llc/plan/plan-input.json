@@ -25,7 +25,10 @@
   },
   "services": [
     "mold-remediation",
+    "black-mold-removal",
     "mold-inspection-testing",
+    "attic-mold-removal",
+    "crawl-space-mold-removal",
     "sewage-cleanup"
   ],
   "service_areas": [

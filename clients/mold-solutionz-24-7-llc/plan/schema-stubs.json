@@ -68,7 +68,37 @@
     ],
     "missing_stubs": []
   },
+  "/services/black-mold-removal/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/services/mold-inspection-testing/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/attic-mold-removal/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/crawl-space-mold-removal/": {
     "archetype": "service-landing",
     "stubs": [
       "service",
@@ -170,7 +200,37 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/cerritos-ca/black-mold-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/cerritos-ca/mold-inspection-testing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/cerritos-ca/attic-mold-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/cerritos-ca/crawl-space-mold-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -200,7 +260,37 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/long-beach-ca/black-mold-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/long-beach-ca/mold-inspection-testing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/long-beach-ca/attic-mold-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/long-beach-ca/crawl-space-mold-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -230,7 +320,37 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/anaheim-ca/black-mold-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/anaheim-ca/mold-inspection-testing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/anaheim-ca/attic-mold-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/anaheim-ca/crawl-space-mold-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -260,7 +380,37 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/whittier-ca/black-mold-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/whittier-ca/mold-inspection-testing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/whittier-ca/attic-mold-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/whittier-ca/crawl-space-mold-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -290,7 +440,37 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/fullerton-ca/black-mold-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/fullerton-ca/mold-inspection-testing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/fullerton-ca/attic-mold-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/fullerton-ca/crawl-space-mold-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -320,7 +500,37 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/norwalk-ca/black-mold-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/norwalk-ca/mold-inspection-testing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/norwalk-ca/attic-mold-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/norwalk-ca/crawl-space-mold-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -350,7 +560,37 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/corona-ca/black-mold-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/corona-ca/mold-inspection-testing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/corona-ca/attic-mold-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/corona-ca/crawl-space-mold-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -380,7 +620,37 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/riverside-ca/black-mold-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/riverside-ca/mold-inspection-testing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/riverside-ca/attic-mold-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/riverside-ca/crawl-space-mold-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

@@ -24,7 +24,7 @@ Write the body for the **home page** of {brand.display_name}'s website.
 
 # What this page needs to do
 
-1. Open with a short lead (strictly 1 concise paragraph maximum) that names what {brand.display_name} actually does — water, fire, mold, storm, biohazard, reconstruction — in language a stressed homeowner skims. Avoid corporate openers and lengthy histories. Readability is priority.
+1. Open with a short lead (strictly 1 concise paragraph maximum) that names what {brand.display_name} actually does — enumerating ONLY the services present in the SERVICES context for this client, never the generic restoration list (a dedicated mold company must never be described as handling water, fire, storm, biohazard, or reconstruction work) — in language a stressed homeowner skims. Avoid corporate openers and lengthy histories. Readability is priority.
 2. Establish trust quickly: years in business, certifications (only those listed), insurance billing, availability (24/7 ONLY if the brand's Hours say so).
 3. Give a brief breakdown of the main service categories (3-4 services with one sentence each).
 4. Anchor service area: {brand.primary_city} and surrounding {brand.primary_state} cities. Mention 2-3 nearby cities by name if obvious from context.
