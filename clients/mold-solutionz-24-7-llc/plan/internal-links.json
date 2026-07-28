@@ -1,0 +1,443 @@
+{
+  "/": [
+    "/services/",
+    "/service-areas/",
+    "/contact/",
+    "/about/",
+    "/services/mold-remediation/",
+    "/services/sewage-cleanup/",
+    "/services/mold-inspection-testing/",
+    "/service-areas/cerritos-ca/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/corona-ca/",
+    "/service-areas/fullerton-ca/",
+    "/service-areas/long-beach-ca/",
+    "/service-areas/norwalk-ca/",
+    "/service-areas/riverside-ca/",
+    "/service-areas/whittier-ca/"
+  ],
+  "/services/": [
+    "/",
+    "/services/mold-remediation/",
+    "/services/sewage-cleanup/",
+    "/services/mold-inspection-testing/"
+  ],
+  "/service-areas/": [
+    "/",
+    "/service-areas/cerritos-ca/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/corona-ca/",
+    "/service-areas/fullerton-ca/",
+    "/service-areas/long-beach-ca/",
+    "/service-areas/norwalk-ca/",
+    "/service-areas/riverside-ca/",
+    "/service-areas/whittier-ca/"
+  ],
+  "/blog/": [
+    "/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/how-to-test-for-mold/",
+    "/blog/signs-of-hidden-mold/",
+    "/blog/black-mold-vs-regular-mold/",
+    "/blog/mold-after-water-damage/",
+    "/blog/sewage-backup-health-risks/",
+    "/blog/iicrc-certification-explained/"
+  ],
+  "/about/": [
+    "/",
+    "/services/",
+    "/contact/"
+  ],
+  "/contact/": [
+    "/",
+    "/services/",
+    "/service-areas/"
+  ],
+  "/services/mold-remediation/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/anaheim-ca/mold-remediation/",
+    "/service-areas/cerritos-ca/mold-remediation/",
+    "/service-areas/corona-ca/mold-remediation/",
+    "/service-areas/fullerton-ca/mold-remediation/",
+    "/service-areas/long-beach-ca/mold-remediation/",
+    "/service-areas/norwalk-ca/mold-remediation/",
+    "/service-areas/riverside-ca/mold-remediation/",
+    "/service-areas/whittier-ca/mold-remediation/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/how-to-test-for-mold/",
+    "/blog/signs-of-hidden-mold/"
+  ],
+  "/services/mold-inspection-testing/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/anaheim-ca/mold-inspection-testing/",
+    "/service-areas/cerritos-ca/mold-inspection-testing/",
+    "/service-areas/corona-ca/mold-inspection-testing/",
+    "/service-areas/fullerton-ca/mold-inspection-testing/",
+    "/service-areas/long-beach-ca/mold-inspection-testing/",
+    "/service-areas/norwalk-ca/mold-inspection-testing/",
+    "/service-areas/riverside-ca/mold-inspection-testing/",
+    "/service-areas/whittier-ca/mold-inspection-testing/",
+    "/blog/how-to-test-for-mold/"
+  ],
+  "/services/sewage-cleanup/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/anaheim-ca/sewage-cleanup/",
+    "/service-areas/cerritos-ca/sewage-cleanup/",
+    "/service-areas/corona-ca/sewage-cleanup/",
+    "/service-areas/fullerton-ca/sewage-cleanup/",
+    "/service-areas/long-beach-ca/sewage-cleanup/",
+    "/service-areas/norwalk-ca/sewage-cleanup/",
+    "/service-areas/riverside-ca/sewage-cleanup/",
+    "/service-areas/whittier-ca/sewage-cleanup/",
+    "/blog/sewage-backup-health-risks/"
+  ],
+  "/service-areas/cerritos-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/cerritos-ca/mold-remediation/",
+    "/service-areas/cerritos-ca/sewage-cleanup/",
+    "/service-areas/cerritos-ca/mold-inspection-testing/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/corona-ca/",
+    "/service-areas/fullerton-ca/"
+  ],
+  "/service-areas/long-beach-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/long-beach-ca/mold-remediation/",
+    "/service-areas/long-beach-ca/sewage-cleanup/",
+    "/service-areas/long-beach-ca/mold-inspection-testing/",
+    "/service-areas/cerritos-ca/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/corona-ca/"
+  ],
+  "/service-areas/anaheim-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/anaheim-ca/mold-remediation/",
+    "/service-areas/anaheim-ca/sewage-cleanup/",
+    "/service-areas/anaheim-ca/mold-inspection-testing/",
+    "/service-areas/cerritos-ca/",
+    "/service-areas/corona-ca/",
+    "/service-areas/fullerton-ca/"
+  ],
+  "/service-areas/whittier-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/whittier-ca/mold-remediation/",
+    "/service-areas/whittier-ca/sewage-cleanup/",
+    "/service-areas/whittier-ca/mold-inspection-testing/",
+    "/service-areas/cerritos-ca/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/corona-ca/"
+  ],
+  "/service-areas/fullerton-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/fullerton-ca/mold-remediation/",
+    "/service-areas/fullerton-ca/sewage-cleanup/",
+    "/service-areas/fullerton-ca/mold-inspection-testing/",
+    "/service-areas/cerritos-ca/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/corona-ca/"
+  ],
+  "/service-areas/norwalk-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/norwalk-ca/mold-remediation/",
+    "/service-areas/norwalk-ca/sewage-cleanup/",
+    "/service-areas/norwalk-ca/mold-inspection-testing/",
+    "/service-areas/cerritos-ca/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/corona-ca/"
+  ],
+  "/service-areas/corona-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/corona-ca/mold-remediation/",
+    "/service-areas/corona-ca/sewage-cleanup/",
+    "/service-areas/corona-ca/mold-inspection-testing/",
+    "/service-areas/cerritos-ca/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/fullerton-ca/"
+  ],
+  "/service-areas/riverside-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/riverside-ca/mold-remediation/",
+    "/service-areas/riverside-ca/sewage-cleanup/",
+    "/service-areas/riverside-ca/mold-inspection-testing/",
+    "/service-areas/cerritos-ca/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/corona-ca/"
+  ],
+  "/service-areas/cerritos-ca/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/cerritos-ca/",
+    "/service-areas/cerritos-ca/sewage-cleanup/",
+    "/service-areas/cerritos-ca/mold-inspection-testing/",
+    "/service-areas/anaheim-ca/mold-remediation/",
+    "/service-areas/corona-ca/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/cerritos-ca/mold-inspection-testing/": [
+    "/services/mold-inspection-testing/",
+    "/service-areas/cerritos-ca/",
+    "/service-areas/cerritos-ca/mold-remediation/",
+    "/service-areas/cerritos-ca/sewage-cleanup/",
+    "/service-areas/anaheim-ca/mold-inspection-testing/",
+    "/service-areas/corona-ca/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/cerritos-ca/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/cerritos-ca/",
+    "/service-areas/cerritos-ca/mold-remediation/",
+    "/service-areas/cerritos-ca/mold-inspection-testing/",
+    "/service-areas/anaheim-ca/sewage-cleanup/",
+    "/service-areas/corona-ca/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/long-beach-ca/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/long-beach-ca/",
+    "/service-areas/long-beach-ca/sewage-cleanup/",
+    "/service-areas/long-beach-ca/mold-inspection-testing/",
+    "/service-areas/anaheim-ca/mold-remediation/",
+    "/service-areas/cerritos-ca/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/long-beach-ca/mold-inspection-testing/": [
+    "/services/mold-inspection-testing/",
+    "/service-areas/long-beach-ca/",
+    "/service-areas/long-beach-ca/mold-remediation/",
+    "/service-areas/long-beach-ca/sewage-cleanup/",
+    "/service-areas/anaheim-ca/mold-inspection-testing/",
+    "/service-areas/cerritos-ca/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/long-beach-ca/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/long-beach-ca/",
+    "/service-areas/long-beach-ca/mold-remediation/",
+    "/service-areas/long-beach-ca/mold-inspection-testing/",
+    "/service-areas/anaheim-ca/sewage-cleanup/",
+    "/service-areas/cerritos-ca/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/anaheim-ca/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/anaheim-ca/sewage-cleanup/",
+    "/service-areas/anaheim-ca/mold-inspection-testing/",
+    "/service-areas/cerritos-ca/mold-remediation/",
+    "/service-areas/corona-ca/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/anaheim-ca/mold-inspection-testing/": [
+    "/services/mold-inspection-testing/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/anaheim-ca/mold-remediation/",
+    "/service-areas/anaheim-ca/sewage-cleanup/",
+    "/service-areas/cerritos-ca/mold-inspection-testing/",
+    "/service-areas/corona-ca/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/anaheim-ca/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/anaheim-ca/mold-remediation/",
+    "/service-areas/anaheim-ca/mold-inspection-testing/",
+    "/service-areas/cerritos-ca/sewage-cleanup/",
+    "/service-areas/corona-ca/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/whittier-ca/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/whittier-ca/",
+    "/service-areas/whittier-ca/sewage-cleanup/",
+    "/service-areas/whittier-ca/mold-inspection-testing/",
+    "/service-areas/anaheim-ca/mold-remediation/",
+    "/service-areas/cerritos-ca/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/whittier-ca/mold-inspection-testing/": [
+    "/services/mold-inspection-testing/",
+    "/service-areas/whittier-ca/",
+    "/service-areas/whittier-ca/mold-remediation/",
+    "/service-areas/whittier-ca/sewage-cleanup/",
+    "/service-areas/anaheim-ca/mold-inspection-testing/",
+    "/service-areas/cerritos-ca/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/whittier-ca/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/whittier-ca/",
+    "/service-areas/whittier-ca/mold-remediation/",
+    "/service-areas/whittier-ca/mold-inspection-testing/",
+    "/service-areas/anaheim-ca/sewage-cleanup/",
+    "/service-areas/cerritos-ca/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/fullerton-ca/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/fullerton-ca/",
+    "/service-areas/fullerton-ca/sewage-cleanup/",
+    "/service-areas/fullerton-ca/mold-inspection-testing/",
+    "/service-areas/anaheim-ca/mold-remediation/",
+    "/service-areas/cerritos-ca/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/fullerton-ca/mold-inspection-testing/": [
+    "/services/mold-inspection-testing/",
+    "/service-areas/fullerton-ca/",
+    "/service-areas/fullerton-ca/mold-remediation/",
+    "/service-areas/fullerton-ca/sewage-cleanup/",
+    "/service-areas/anaheim-ca/mold-inspection-testing/",
+    "/service-areas/cerritos-ca/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/fullerton-ca/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/fullerton-ca/",
+    "/service-areas/fullerton-ca/mold-remediation/",
+    "/service-areas/fullerton-ca/mold-inspection-testing/",
+    "/service-areas/anaheim-ca/sewage-cleanup/",
+    "/service-areas/cerritos-ca/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/norwalk-ca/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/norwalk-ca/",
+    "/service-areas/norwalk-ca/sewage-cleanup/",
+    "/service-areas/norwalk-ca/mold-inspection-testing/",
+    "/service-areas/anaheim-ca/mold-remediation/",
+    "/service-areas/cerritos-ca/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/norwalk-ca/mold-inspection-testing/": [
+    "/services/mold-inspection-testing/",
+    "/service-areas/norwalk-ca/",
+    "/service-areas/norwalk-ca/mold-remediation/",
+    "/service-areas/norwalk-ca/sewage-cleanup/",
+    "/service-areas/anaheim-ca/mold-inspection-testing/",
+    "/service-areas/cerritos-ca/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/norwalk-ca/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/norwalk-ca/",
+    "/service-areas/norwalk-ca/mold-remediation/",
+    "/service-areas/norwalk-ca/mold-inspection-testing/",
+    "/service-areas/anaheim-ca/sewage-cleanup/",
+    "/service-areas/cerritos-ca/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/corona-ca/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/corona-ca/",
+    "/service-areas/corona-ca/sewage-cleanup/",
+    "/service-areas/corona-ca/mold-inspection-testing/",
+    "/service-areas/anaheim-ca/mold-remediation/",
+    "/service-areas/cerritos-ca/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/corona-ca/mold-inspection-testing/": [
+    "/services/mold-inspection-testing/",
+    "/service-areas/corona-ca/",
+    "/service-areas/corona-ca/mold-remediation/",
+    "/service-areas/corona-ca/sewage-cleanup/",
+    "/service-areas/anaheim-ca/mold-inspection-testing/",
+    "/service-areas/cerritos-ca/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/corona-ca/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/corona-ca/",
+    "/service-areas/corona-ca/mold-remediation/",
+    "/service-areas/corona-ca/mold-inspection-testing/",
+    "/service-areas/anaheim-ca/sewage-cleanup/",
+    "/service-areas/cerritos-ca/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/riverside-ca/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/riverside-ca/",
+    "/service-areas/riverside-ca/sewage-cleanup/",
+    "/service-areas/riverside-ca/mold-inspection-testing/",
+    "/service-areas/anaheim-ca/mold-remediation/",
+    "/service-areas/cerritos-ca/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/riverside-ca/mold-inspection-testing/": [
+    "/services/mold-inspection-testing/",
+    "/service-areas/riverside-ca/",
+    "/service-areas/riverside-ca/mold-remediation/",
+    "/service-areas/riverside-ca/sewage-cleanup/",
+    "/service-areas/anaheim-ca/mold-inspection-testing/",
+    "/service-areas/cerritos-ca/mold-inspection-testing/",
+    "/contact/"
+  ],
+  "/service-areas/riverside-ca/sewage-cleanup/": [
+    "/services/sewage-cleanup/",
+    "/service-areas/riverside-ca/",
+    "/service-areas/riverside-ca/mold-remediation/",
+    "/service-areas/riverside-ca/mold-inspection-testing/",
+    "/service-areas/anaheim-ca/sewage-cleanup/",
+    "/service-areas/cerritos-ca/sewage-cleanup/",
+    "/contact/"
+  ],
+  "/blog/signs-of-hidden-mold/": [
+    "/blog/",
+    "/services/mold-remediation/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/how-to-test-for-mold/",
+    "/blog/black-mold-vs-regular-mold/"
+  ],
+  "/blog/how-to-test-for-mold/": [
+    "/blog/",
+    "/services/mold-remediation/",
+    "/services/mold-inspection-testing/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/signs-of-hidden-mold/",
+    "/blog/black-mold-vs-regular-mold/"
+  ],
+  "/blog/choosing-a-restoration-company/": [
+    "/blog/",
+    "/services/mold-remediation/",
+    "/blog/how-to-test-for-mold/",
+    "/blog/signs-of-hidden-mold/",
+    "/blog/black-mold-vs-regular-mold/"
+  ],
+  "/blog/black-mold-vs-regular-mold/": [
+    "/blog/",
+    "/services/mold-remediation/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/how-to-test-for-mold/",
+    "/blog/signs-of-hidden-mold/"
+  ],
+  "/blog/mold-after-water-damage/": [
+    "/blog/",
+    "/services/mold-remediation/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/how-to-test-for-mold/",
+    "/blog/signs-of-hidden-mold/"
+  ],
+  "/blog/sewage-backup-health-risks/": [
+    "/blog/",
+    "/services/sewage-cleanup/"
+  ],
+  "/blog/iicrc-certification-explained/": [
+    "/blog/",
+    "/services/mold-remediation/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/how-to-test-for-mold/",
+    "/blog/signs-of-hidden-mold/"
+  ],
+  "/privacy/": [],
+  "/terms/": [],
+  "/accessibility/": []
+}

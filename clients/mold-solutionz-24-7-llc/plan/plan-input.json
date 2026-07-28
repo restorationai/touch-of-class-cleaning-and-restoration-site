@@ -1,0 +1,76 @@
+{
+  "brand": {
+    "display_name": "Mold Solutionz 24/7",
+    "short_name": "Mold Solutionz",
+    "legal_name": "Mold Solutionz 24/7 LLC",
+    "phone": "(714) 409-4758",
+    "email": "moldsolutionz247@gmail.com",
+    "street_address": "18869 Jeffrey Avenue",
+    "city": "Cerritos",
+    "state": "CA",
+    "postal_code": "90703",
+    "lat": 33.8644291,
+    "lng": -118.0539323,
+    "primary_color": "#9BE22D",
+    "secondary_color": "#161616",
+    "accent_color": "#9BE22D",
+    "theme": "dark",
+    "logo_url": "/images/logo.png",
+    "tagline": "Got mold? We have the solution.",
+    "founded_year": "2017",
+    "certifications": [
+      "IICRC WRT #70145645"
+    ],
+    "hours": "24/7"
+  },
+  "services": [
+    "mold-remediation",
+    "mold-inspection-testing",
+    "sewage-cleanup"
+  ],
+  "service_areas": [
+    {
+      "city": "Cerritos",
+      "state": "CA",
+      "slug": "cerritos-ca",
+      "primary": true
+    },
+    {
+      "city": "Long Beach",
+      "state": "CA",
+      "slug": "long-beach-ca"
+    },
+    {
+      "city": "Anaheim",
+      "state": "CA",
+      "slug": "anaheim-ca"
+    },
+    {
+      "city": "Whittier",
+      "state": "CA",
+      "slug": "whittier-ca"
+    },
+    {
+      "city": "Fullerton",
+      "state": "CA",
+      "slug": "fullerton-ca"
+    },
+    {
+      "city": "Norwalk",
+      "state": "CA",
+      "slug": "norwalk-ca"
+    },
+    {
+      "city": "Corona",
+      "state": "CA",
+      "slug": "corona-ca"
+    },
+    {
+      "city": "Riverside",
+      "state": "CA",
+      "slug": "riverside-ca"
+    }
+  ],
+  "template": "restoration",
+  "blog_seed_count": 8
+}

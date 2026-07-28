@@ -100,6 +100,10 @@ SITES = {
         "bucket": "rankai-restorationxpress",
         "images_base": "https://images.restorationxpress.com",
     },
+    "mold-solutionz-24-7-llc": {
+        "bucket": "rankai-mold-solutionz-24-7-llc",
+        "images_base": "https://images.moldsolutionz247.com",
+    },
     "crew-restoration-construction": {
         "bucket": "rankai-crew-restoration-construction",
         "images_base": "https://images.crew3r.com",
