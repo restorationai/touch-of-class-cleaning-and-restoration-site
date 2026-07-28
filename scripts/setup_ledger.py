@@ -416,6 +416,12 @@ def ensure_auto_site_build(dry_run: bool, cid_to_slug: dict | None = None,
                 if r.returncode != 0:
                     tail = (r.stderr or r.stdout or "").strip().splitlines()[-1:]
                     raise RuntimeError(f"{cmdline[2]} failed: {tail}")
+            # scaffold/render leave a nested .git in the site dir — committing
+            # it to the monorepo creates an empty gitlink (2026-07-28)
+            nested = SITES_DIR / slug / ".git"
+            if nested.exists():
+                import shutil
+                shutil.rmtree(nested, ignore_errors=True)
             built += 1
             out.append(f"{slug}: AUTO-BUILT preview site ({len(svc_slugs)} services) — "
                        "NEEDS imagery pass (hero + per-service) + human once-over")
