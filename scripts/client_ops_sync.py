@@ -754,6 +754,41 @@ def ensure_setup_checklist(dry_run: bool, cid_to_slug: dict) -> list[str]:
                         yt_gap = not (ch.get("items") or [])
         except Exception:
             yt_gap = False  # verification failed — never nag on bad data
+        # LSA intent (Santino 2026-07-28): a Google-connected client with no
+        # LSA account resolved and no recorded intent gets ONE conversational
+        # ask ("is LSA something you want to do?") instead of a form field.
+        # Their answer is recorded by the escalation/backfill flow into
+        # integration_settings.lsa_intent ("yes"/"no") which permanently
+        # gates this check either way (yes -> lsa_fix pipeline takes over).
+        lsa_gap = False
+        try:
+            co_row = _sb("GET", f"/rest/v1/companies?id=eq.{cid}"
+                         "&select=integration_settings,plan",
+                         prefer="return=representation") or []
+            ints_ = (co_row[0].get("integration_settings") or {}) if co_row else {}
+            if isinstance(ints_, str):
+                ints_ = json.loads(ints_)
+            if (co_row and (co_row[0].get("plan") or "") == "Rank AI"
+                    and not ints_.get("lsa_intent")):
+                gi_ = _sb("GET", f"/rest/v1/user_integrations?client_id=eq.{cid}"
+                          "&provider=in.(google,google_ads)&select=connection_metadata",
+                          prefer="return=representation") or []
+                has_google = bool(gi_)
+                has_lsa = any((g.get("connection_metadata") or {}).get("lsa_customer_id")
+                              for g in gi_)
+                lsa_gap = has_google and not has_lsa and not lsa
+        except Exception:
+            lsa_gap = False
+        checks.append((
+            f"checklist-lsa-intent-{slug}", lsa_gap,
+            "ASK CLIENT: do they want Local Services Ads (Google Guaranteed)?",
+            "No Local Services Ads account exists for this client and we've never "
+            "asked if they want one. MONICA: ask conversationally, e.g. 'quick "
+            "question - Local Services Ads (the Google Guaranteed listings with the "
+            "green checkmark at the very top) - is that something you'd want us to "
+            "set up? They're pay-per-lead and work great for emergency calls.' "
+            "Relay their answer to the team; if yes we handle the whole setup."))
+
         checks.append((
             f"checklist-youtube-channel-{slug}", yt_gap,
             "ASK CLIENT: create their YouTube channel (account connected, no channel)",
