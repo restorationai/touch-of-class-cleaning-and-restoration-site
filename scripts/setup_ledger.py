@@ -386,14 +386,44 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                 has_number = "provisioned" in (line[0] if line else "")
             # The GBP phone SWAP is NEVER automatic (Santino 2026-07-28: "a
             # human overseeing and confirming the push live for every single
-            # client"). Provisioning is zero-touch; the swap is a per-client
-            # human action: gbp.py set-phone --slug X (app button coming).
+            # client"). The human clicks "Approve phone swap" on the client's
+            # Ops Attention card, which drops an [APPROVE-PHONE-SWAP] ops
+            # note; this executor performs the swap on the next pass and
+            # resolves the note. No approval note -> nothing happens, ever.
             swapped = bool((ct.get("gbp") or {}).get("gbp_swapped_at"))
             if has_number and not swapped:
-                attention.append(f"{slug}: tracking number "
-                                 f"{ct.get('gbp', {}).get('number', '?')} ready — "
-                                 "HUMAN STEP: verify by test call, then run "
-                                 f"gbp.py set-phone --slug {slug}")
+                approvals = _sb("GET", "/rest/v1/marketing_ops_notes"
+                                f"?company_id=eq.{cid}&status=eq.open"
+                                "&body=like.*%5BAPPROVE-PHONE-SWAP%5D*&select=id",
+                                prefer="return=representation") or []
+                if approvals and not dry_run:
+                    r = subprocess.run([sys.executable, str(ROOT / "scripts" / "gbp.py"),
+                                        "set-phone", "--slug", slug],
+                                       capture_output=True, text=True, timeout=300)
+                    line = (r.stdout or r.stderr or "").strip().splitlines()[-1:]
+                    ok = bool(line and "->" in line[0])
+                    if ok:
+                        co2 = _sb("GET", f"/rest/v1/companies?id=eq.{cid}"
+                                  "&select=integration_settings",
+                                  prefer="return=representation") or [{}]
+                        i2 = co2[0].get("integration_settings") or {}
+                        if isinstance(i2, str):
+                            i2 = json.loads(i2)
+                        i2.setdefault("call_tracking", {}).setdefault("gbp", {})[
+                            "gbp_swapped_at"] = datetime.now(timezone.utc).isoformat()
+                        _sb("PATCH", f"/rest/v1/companies?id=eq.{cid}",
+                            {"integration_settings": i2})
+                        for ap in approvals:
+                            _sb("PATCH", f"/rest/v1/marketing_ops_notes?id=eq.{ap['id']}",
+                                {"status": "resolved",
+                                 "resolved_at": datetime.now(timezone.utc).isoformat()})
+                        swapped = True
+                    attention.append(f"{slug}: APPROVED phone swap executed -> "
+                                     f"{line[0][:100] if line else 'no output'}")
+                else:
+                    attention.append(f"{slug}: tracking number "
+                                     f"{ct.get('gbp', {}).get('number', '?')} ready — "
+                                     "awaiting your 'Approve phone swap' click in Ops Attention")
             rows.append({"company_id": cid, "item_key": "call-tracking", "kind": "auto",
                          "status": "done" if has_number else "open",
                          "title": ("Call tracking live: " + ct.get("gbp", {}).get("number", "")

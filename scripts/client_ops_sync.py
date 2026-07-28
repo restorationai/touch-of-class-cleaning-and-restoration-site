@@ -1175,7 +1175,12 @@ def main() -> int:
         # by first login, never 'come back tomorrow'). Fresh slug map — the
         # bootstrap above may have just minted new clients.
         m = slug_map()
-        for fn in (ensure_gbp_first_sync, ensure_baseline_scans, ensure_ads_first_sync):
+        # ensure_ledger joins the day-one blitz (Santino 2026-07-28): a fresh
+        # signup gets citations discovery, a tracking number, and ledger rows
+        # in the SAME run the signup-alert webhook triggers — not 4h later.
+        from setup_ledger import ensure_ledger as _ledger
+        for fn in (ensure_gbp_first_sync, ensure_baseline_scans,
+                   ensure_ads_first_sync, _ledger):
             try:
                 extra = fn(args.dry_run, m)
             except Exception as e:  # noqa: BLE001 — blitz never blocks bootstrap
