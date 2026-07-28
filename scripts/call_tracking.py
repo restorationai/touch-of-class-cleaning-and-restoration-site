@@ -29,6 +29,7 @@ import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+CLIENTS_DIR = ROOT / "clients"
 sys.path.insert(0, str(ROOT / "scripts"))
 
 try:
@@ -80,13 +81,22 @@ def provision(slug: str, source: str) -> str:
         "NORTH CAROLINA": "NC", "SOUTH CAROLINA": "SC", "NEVADA": "NV",
         "MASSACHUSETTS": "MA", "PENNSYLVANIA": "PA", "NEW JERSEY": "NJ",
     }.get(state.upper(), state.upper()[:2])
-    # 1) client's own area code, 2) anywhere in their STATE — never a random
-    # state (2026-07-28: fallback bought a Louisiana number for a Florida
-    # client; a non-local number on a GBP kills trust)
+    # Locality ladder (Santino 2026-07-28: same COUNTY, not just same state):
+    # 1) client's own area code, 2) within 25 miles of their location,
+    # 3) anywhere in their state. Never out of state.
+    lat = lng = None
+    pi = CLIENTS_DIR / slug / "plan-input.json"
+    if pi.exists():
+        b = (json.loads(pi.read_text()).get("brand") or {})
+        lat, lng = b.get("lat"), b.get("lng")
     found = []
     if area:
         found = _tw("GET", "AvailablePhoneNumbers/US/Local.json",
                     {"AreaCode": area, "PageSize": 3}).get("available_phone_numbers", [])
+    if not found and lat and lng:
+        found = _tw("GET", "AvailablePhoneNumbers/US/Local.json",
+                    {"NearLatLong": f"{lat},{lng}", "Distance": 25,
+                     "PageSize": 3}).get("available_phone_numbers", [])
     if not found and st:
         found = _tw("GET", "AvailablePhoneNumbers/US/Local.json",
                     {"InRegion": st, "PageSize": 3}).get("available_phone_numbers", [])

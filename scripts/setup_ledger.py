@@ -165,8 +165,9 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
               "&select=id,name,website,services,integration_settings",
               prefer="return=representation") or []
     attention: list[str] = []
-    # per-run auto-heal budget: 2 geo-grid re-scans (DFS cost) + 3 media imports
-    _HEALS = {"geogrid": 2, "media": 3}
+    # per-run auto-heal budget: 2 geo-grid re-scans (DFS cost) + 3 media
+    # imports + 3 tracking-number provisions + 3 GBP phone swaps
+    _HEALS = {"geogrid": 2, "media": 3, "calltrack": 3, "swap": 3}
 
     for co in cos:
         cid = co["id"]
@@ -362,6 +363,57 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                                     "media-import", "--slug", slug],
                                    capture_output=True, text=True, timeout=600)
                     attention.append(f"{slug}: GBP photo library imported (Photos tab was empty)")
+        except Exception:
+            pass
+
+        # ---- CALL TRACKING (Santino 2026-07-28: "fully automated... least
+        # amount of human touch"). Auto-provisions a county-local tracking
+        # number (gbp source) for every Rank AI client that lacks one, capped
+        # per run. The GBP phone SWAP auto-runs only when AUTO_PHONE_SWAP=1
+        # (flipped on once the pilot numbers pass Santino's test call);
+        # until then the swap stays one command: gbp.py set-phone --slug X.
+        try:
+            ct = (ints.get("call_tracking") or {})
+            has_number = bool((ct.get("gbp") or {}).get("number"))
+            if not has_number and not dry_run and _HEALS.get("calltrack", 0) > 0:
+                _HEALS["calltrack"] -= 1
+                r = subprocess.run([sys.executable,
+                                    str(ROOT / "scripts" / "call_tracking.py"),
+                                    "provision", "--slug", slug, "--source", "gbp"],
+                                   capture_output=True, text=True, timeout=120)
+                line = (r.stdout or r.stderr or "").strip().splitlines()[-1:]
+                attention.append(f"{slug}: call tracking -> {line[0][:110] if line else 'no output'}")
+                has_number = "provisioned" in (line[0] if line else "")
+            swapped = bool((ct.get("gbp") or {}).get("gbp_swapped_at"))
+            if (has_number and not swapped and not dry_run
+                    and os.environ.get("AUTO_PHONE_SWAP") == "1"
+                    and _HEALS.get("swap", 0) > 0):
+                _HEALS["swap"] -= 1
+                r = subprocess.run([sys.executable, str(ROOT / "scripts" / "gbp.py"),
+                                    "set-phone", "--slug", slug],
+                                   capture_output=True, text=True, timeout=300)
+                line = (r.stdout or r.stderr or "").strip().splitlines()[-1:]
+                if line and "->" in line[0]:
+                    co2 = _sb("GET", f"/rest/v1/companies?id=eq.{cid}"
+                              "&select=integration_settings",
+                              prefer="return=representation") or [{}]
+                    i2 = co2[0].get("integration_settings") or {}
+                    if isinstance(i2, str):
+                        i2 = json.loads(i2)
+                    i2.setdefault("call_tracking", {}).setdefault("gbp", {})[
+                        "gbp_swapped_at"] = datetime.now(timezone.utc).isoformat()
+                    _sb("PATCH", f"/rest/v1/companies?id=eq.{cid}",
+                        {"integration_settings": i2})
+                attention.append(f"{slug}: GBP phone swap -> {line[0][:110] if line else 'no output'}")
+            rows.append({"company_id": cid, "item_key": "call-tracking", "kind": "auto",
+                         "status": "done" if has_number else "open",
+                         "title": ("Call tracking live: " + ct.get("gbp", {}).get("number", "")
+                                   if has_number else "Call tracking number pending"),
+                         "detail": None if has_number else
+                         "A county-local tracking number gets provisioned automatically "
+                         "on the next ops pass.",
+                         "evidence": {"gbp_number": ct.get("gbp", {}).get("number"),
+                                      "swapped": swapped}})
         except Exception:
             pass
 
