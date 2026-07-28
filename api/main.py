@@ -1069,6 +1069,13 @@ def gbp_first_sync(req: GbpFirstSyncRequest):
             print("[gbp-first-sync] face-audit:", s, tail[-1][:120] if tail else "no output")
         except Exception as e:  # noqa: BLE001
             print("[gbp-first-sync] face-audit failed:", s, str(e)[:200])
+        # Photos tab must populate on day one too (RX 2026-07-28: connected
+        # with 40 GBP photos, app said "no job photos yet")
+        try:
+            r = gbp.import_gbp_media(s)
+            print("[gbp-first-sync] media-import:", r[:120])
+        except Exception as e:  # noqa: BLE001
+            print("[gbp-first-sync] media-import failed:", s, str(e)[:200])
 
     threading.Thread(target=_run, daemon=True).start()
     return {"status": "queued", "slug": slug}

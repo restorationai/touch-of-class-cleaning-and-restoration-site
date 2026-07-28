@@ -35,7 +35,7 @@ export const brand = {
   // lets the TrustStrip show the badge before a license number is on file.
   licensedInsuredAttested: true as boolean,
   certifications: [] as string[],
-  trustBadges: ["Licensed & Insured", "24/7 Emergency Response", "Serving Broward County Since 2011", "Insurance Billing Accepted"] as string[],
+  trustBadges: ["Licensed & Insured", "24/7 Emergency Response", "Serving Broward, Palm Beach & Miami-Dade Since 2011", "Insurance Billing Accepted"] as string[],
   jobPhotos: [] as string[],
   sameAsUrls: [] as string[],
   // GBP rating fields — synced from the live Google Business Profile by

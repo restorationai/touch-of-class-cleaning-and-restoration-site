@@ -11,7 +11,8 @@
   "street_address": "4700 SW 51 ST SUIT 205 DAVIE FL33314 ",
   "postal_code": "33314",
   "theme": "light",
-  "logo_url": "/images/logo.png"
+  "logo_url": "/images/logo.png",
+  "place_id": "ChIJCzaMJr6p2YgRt87XYVAI8ek"
  },
  "template": "restoration",
  "services": [
