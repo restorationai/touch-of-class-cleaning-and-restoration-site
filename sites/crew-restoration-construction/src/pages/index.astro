@@ -9,6 +9,7 @@ import TrustStrip from "~/components/ui/TrustStrip.astro";
 import ReviewsStrip from "~/components/ui/ReviewsStrip.astro";
 import AboutSection from "~/components/ui/AboutSection.astro";
 import ServicesStrip from "~/components/ui/ServicesStrip.astro";
+import VideoEmbed from "~/components/VideoEmbed.astro";
 import ProcessSection from "~/components/ui/ProcessSection.astro";
 import BeforeAfterSection from "~/components/ui/BeforeAfterSection.astro";
 import RecentWork from "~/components/RecentWork.astro";
@@ -56,6 +57,24 @@ const services = (allServices as CollectionEntry<"services">[])
       {brand.displayName} serves {brand.primaryCity} and the surrounding {brand.primaryState} area with full-service plumbing, heating, and air conditioning. From emergency plumbing repairs, drain cleaning, and water heater service to complete AC and furnace installation, our technicians handle it all — and we answer the phone 24/7, so help is on the way the moment something goes wrong.
     </p>
   </AboutSection>
+
+  <!-- Kyle's real YouTube videos (client request 2026-07-28): the current
+       @Crew3r channel pieces — brand intro + the since-1974 story. Lite
+       embeds: nothing loads from YouTube until clicked. -->
+  <section class="bg-dark py-16 md:py-20 border-t border-white/10">
+    <div class="container-wide max-w-6xl mx-auto px-4">
+      <div class="grid md:grid-cols-2 gap-8 md:gap-10 items-start">
+        <div>
+          <h2 class="text-2xl md:text-3xl font-black uppercase tracking-tighter text-white mb-4">Watch CREW in Action</h2>
+          <VideoEmbed videoId="Lntfqh3vxPE" title="Meet Crew Restoration & Construction | 50+ Years of Serving Sioux Falls" />
+        </div>
+        <div>
+          <h2 class="text-2xl md:text-3xl font-black uppercase tracking-tighter text-white mb-4">Our Story — Since 1974</h2>
+          <VideoEmbed videoId="zW5VrLtjlJs" title="Our Story | Restoring Properties. Rebuilding Lives. Since 1974." />
+        </div>
+      </div>
+    </div>
+  </section>
 
   {services.length > 0 && <ServicesStrip services={services} />}
 

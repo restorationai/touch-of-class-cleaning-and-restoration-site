@@ -37,7 +37,7 @@ export const brand = {
   // lets the TrustStrip show the badge before a license number is on file.
   licensedInsuredAttested: true as boolean,
   certifications: ["IICRC"] as string[],
-  trustBadges: ["IICRC Certified", "Licensed & Insured", "24/7 Emergency Response", "Locally Owned Since 2015"] as string[],
+  trustBadges: ["Locally Trusted for 50+ Years", "Highly Trained, Certified Technicians", "24 Hour Emergency Service", "One Stop Shop From Start To Finish"] as string[],
   jobPhotos: [] as string[],
   sameAsUrls: [] as string[],
   // GBP rating fields — synced from the live Google Business Profile by

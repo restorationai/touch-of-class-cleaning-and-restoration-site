@@ -5,6 +5,7 @@ import CtaBanner from "~/components/CtaBanner.astro";
 import FAQSection from "~/components/FAQSection.astro";
 import InternalLinks from "~/components/InternalLinks.astro";
 import { brand } from "~/lib/brand";
+import FreeEstimateForm from "~/components/FreeEstimateForm.astro";
 import { serviceImage } from "~/lib/images";
 
 export async function getStaticPaths() {
@@ -95,6 +96,10 @@ const bestCompanyAnswer = [
       </div>
     </div>
   </section>
+
+  <!-- Estimate form on every service page (Kyle 2026-07-28: match the old
+       site's per-page contact form) -->
+  <FreeEstimateForm heading={`Request a Free ${data.service_display} Estimate`} />
 
   <CtaBanner heading={`Need ${data.service_display} now?`} subheading={`We respond 24/7 across ${brand.primaryCity} and surrounding ${brand.primaryState} cities.`} />
 

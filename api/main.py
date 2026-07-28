@@ -1006,6 +1006,71 @@ class GbpFirstSyncRequest(BaseModel):
     secret: str
 
 
+@app.post("/case-study/{slug}")
+async def case_study_intake(slug: str, request: Request):
+    """Client-submitted case studies (Kyle/Crew 2026-07-28: they send a
+    transcript or write-up to a webhook and it becomes a case-study blog
+    post). Accepts JSON ({title?, text|transcript|body, ...}) or raw text.
+    Queues a marketing_content_items row for the content engine's
+    case-study lane + drops an ops note so it shows in Ops Attention.
+    Auth: ?secret= shared webhook secret."""
+    expected = (os.environ.get("KICKOFF_PREP_SECRET")
+                or os.environ.get("LEAD_AUDIT_FUNNEL_SECRET", ""))
+    if not (expected and request.query_params.get("secret") == expected):
+        raise HTTPException(status_code=403, detail="bad secret")
+    raw = await request.body()
+    title, text = None, ""
+    try:
+        payload = json.loads(raw.decode("utf-8", "replace"))
+        if isinstance(payload, dict):
+            title = (payload.get("title") or "").strip() or None
+            text = str(payload.get("text") or payload.get("transcript")
+                       or payload.get("body") or payload.get("message") or "")
+            if not text:
+                text = json.dumps(payload)[:20000]
+        else:
+            text = str(payload)
+    except (json.JSONDecodeError, UnicodeDecodeError):
+        text = raw.decode("utf-8", "replace")
+    text = text.strip()[:50000]
+    if len(text) < 40:
+        raise HTTPException(status_code=400, detail="send the case study text/transcript in the body")
+    croot = Path(__file__).resolve().parent.parent / "clients"
+    cmap = croot / "company_map.json"
+    cid = None
+    if cmap.exists():
+        cid = json.loads(cmap.read_text()).get(slug)
+    if not cid:
+        cj = croot / f"{slug}.json"
+        if cj.exists():
+            cid = json.loads(cj.read_text()).get("company_id")
+    if not cid:
+        raise HTTPException(status_code=404, detail="unknown client slug")
+    from datetime import datetime as _dt, timezone as _tz
+    now = _dt.now(_tz.utc).isoformat()
+    item_title = title or f"Case study submitted {now[:10]}"
+    client_ = sb()
+    client_.table("marketing_content_items").insert({
+        "company_id": cid, "type": "blog", "status": "queued",
+        "title": item_title, "intent": "case_study", "priority": 1,
+        "queued_at": now,
+        "notes": ("CLIENT-SUBMITTED CASE STUDY (webhook). Write this as the "
+                  "case-study format: real job story, what happened, what the "
+                  "crew did, outcome. Use ONLY facts from the raw material in "
+                  "script_text; never invent addresses, names, or dollar "
+                  "amounts. Anonymize the homeowner unless explicitly named "
+                  "with permission."),
+        "script_text": text,
+    }).execute()
+    client_.table("marketing_ops_notes").insert({
+        "company_id": cid,
+        "body": f"Client sent a case study via webhook: \"{item_title}\" — "
+                "queued for the content engine (review before it publishes).",
+        "author": "webhook",
+    }).execute()
+    return {"status": "queued", "slug": slug, "title": item_title, "chars": len(text)}
+
+
 @app.post("/gbp-first-sync")
 def gbp_first_sync(req: GbpFirstSyncRequest):
     """Fired by the Google-connect edge functions the moment a client's GBP
