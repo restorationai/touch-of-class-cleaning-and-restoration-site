@@ -528,6 +528,50 @@ def cmd_reviews(args) -> int:
     return 0
 
 
+def set_phone(slug: str) -> str:
+    """Call-tracking phone swap (Santino 2026-07-28): tracking number becomes
+    the GBP PRIMARY phone, the real number moves to additionalPhones — the
+    Google-supported attribution pattern; citations keep the real number.
+    Reads the number from integration_settings.call_tracking.gbp (set by
+    scripts/call_tracking.py). Run ONLY after a human test call confirms
+    forwarding works."""
+    cid = company_id_for(slug)
+    co = _sb(f"companies?id=eq.{cid}&select=phone,integration_settings")
+    if not co:
+        return f"{slug}: no company row"
+    ints = co[0].get("integration_settings") or {}
+    if isinstance(ints, str):
+        ints = json.loads(ints)
+    tracking = ((ints.get("call_tracking") or {}).get("gbp") or {}).get("number")
+    real = co[0].get("phone") or ""
+    if not tracking:
+        return f"{slug}: no gbp tracking number provisioned — run call_tracking.py first"
+    brand = json.loads((ROOT / "clients" / slug / "plan-input.json").read_text()).get("brand", {})
+    place = brand.get("place_id") or _place_id_from_connection(cid)
+    token = get_access_token(cid) if cid else None
+    if not (token and place):
+        return f"{slug}: skip (no token / place_id)"
+    loc = find_location(token, place)
+    if not loc:
+        return f"{slug}: no GBP location"
+    body = {"phoneNumbers": {"primaryPhone": tracking,
+                             "additionalPhones": [real] if real else []}}
+    r = requests.patch(f"{INFO_API}/{loc['name']}?updateMask=phoneNumbers",
+                       headers={"Authorization": f"Bearer {token}",
+                                "Content-Type": "application/json"},
+                       data=json.dumps(body), timeout=60)
+    if not r.ok:
+        return f"{slug}: PATCH failed {r.status_code}: {r.text[:200]}"
+    return (f"{slug}: GBP primary phone -> {tracking} (tracking), "
+            f"real {real} moved to additional")
+
+
+def cmd_set_phone(args) -> int:
+    for slug in _clients(args):
+        print("  " + set_phone(slug))
+    return 0
+
+
 def cmd_media_import(args) -> int:
     for slug in _clients(args):
         try:
@@ -1326,7 +1370,7 @@ def main() -> int:
         return 1
     ap = argparse.ArgumentParser(description="Google Business Profile module")
     sub = ap.add_subparsers(dest="cmd", required=True)
-    for name in ("read", "reconcile", "sync", "reviews", "photos", "media-import"):
+    for name in ("read", "reconcile", "sync", "reviews", "photos", "media-import", "set-phone"):
         p = sub.add_parser(name)
         g = p.add_mutually_exclusive_group(required=True)
         g.add_argument("--slug")
@@ -1347,6 +1391,7 @@ def main() -> int:
     args = ap.parse_args()
     return {"read": cmd_read, "reconcile": cmd_reconcile, "sync": cmd_sync,
             "reviews": cmd_reviews, "photos": cmd_photos, "media-import": cmd_media_import,
+            "set-phone": cmd_set_phone,
             "add-services": cmd_add_services,
             "create-pages": cmd_create_pages, "optimize": cmd_optimize}[args.cmd](args)
 
