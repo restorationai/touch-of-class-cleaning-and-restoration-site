@@ -64,7 +64,7 @@ def provision(slug: str, source: str) -> str:
     if not cid:
         return f"{slug}: no company mapping"
     co = (_sb("GET", f"/rest/v1/companies?id=eq.{cid}"
-              "&select=phone,integration_settings", prefer="return=representation")
+              "&select=phone,state,integration_settings", prefer="return=representation")
           or [{}])[0]
     ints = co.get("integration_settings") or {}
     if isinstance(ints, str):
@@ -74,16 +74,24 @@ def provision(slug: str, source: str) -> str:
         return f"{slug}/{source}: already provisioned {ct[source]['number']}"
     real = re.sub(r"\D", "", co.get("phone") or "")
     area = real[-10:-7] if len(real) >= 10 else ""
-    # local number in the client's own area code; fall back to any local
+    state = (co.get("state") or "").strip()
+    st = state.upper()[:2] if len(state) <= 2 else {
+        "FLORIDA": "FL", "UTAH": "UT", "CALIFORNIA": "CA", "SOUTH DAKOTA": "SD",
+        "NORTH CAROLINA": "NC", "SOUTH CAROLINA": "SC", "NEVADA": "NV",
+        "MASSACHUSETTS": "MA", "PENNSYLVANIA": "PA", "NEW JERSEY": "NJ",
+    }.get(state.upper(), state.upper()[:2])
+    # 1) client's own area code, 2) anywhere in their STATE — never a random
+    # state (2026-07-28: fallback bought a Louisiana number for a Florida
+    # client; a non-local number on a GBP kills trust)
     found = []
     if area:
         found = _tw("GET", "AvailablePhoneNumbers/US/Local.json",
                     {"AreaCode": area, "PageSize": 3}).get("available_phone_numbers", [])
-    if not found:
+    if not found and st:
         found = _tw("GET", "AvailablePhoneNumbers/US/Local.json",
-                    {"InRegion": "US", "PageSize": 3}).get("available_phone_numbers", [])
+                    {"InRegion": st, "PageSize": 3}).get("available_phone_numbers", [])
     if not found:
-        return f"{slug}/{source}: no numbers available (area {area})"
+        return f"{slug}/{source}: no numbers available (area {area}, state {st}) — manual pick needed"
     number = found[0]["phone_number"]
     bought = _tw("POST", "IncomingPhoneNumbers.json", {
         "PhoneNumber": number,
