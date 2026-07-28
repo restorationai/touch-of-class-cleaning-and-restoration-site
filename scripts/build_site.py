@@ -223,6 +223,42 @@ def resolve_tokens(client: dict, plan_input: dict) -> tuple[dict, dict]:
         if bk in brand:
             string_tokens[k] = str(brand[bk])
 
+    # Full primary shade ramp derived from the client's actual color
+    # (2026-07-28: the template carried hardcoded RED 50-950 shades and only
+    # DEFAULT/600 were substituted — Mold Solutionz's lime brand shipped as a
+    # green/red patchwork). Every shade now comes from the brand hue.
+    import colorsys
+
+    def _shade(hexcol: str, l_target: float) -> str:
+        hexcol = (hexcol or "#dc2626").lstrip("#")
+        if len(hexcol) != 6:
+            hexcol = "dc2626"
+        r, g, b = (int(hexcol[i:i + 2], 16) / 255 for i in (0, 2, 4))
+        h, _l, s = colorsys.rgb_to_hls(r, g, b)
+        r2, g2, b2 = colorsys.hls_to_rgb(h, l_target, s)
+        return "#%02x%02x%02x" % (round(r2 * 255), round(g2 * 255), round(b2 * 255))
+
+    prim = string_tokens["BRAND_PRIMARY_COLOR"]
+    ramp = {50: 0.97, 100: 0.92, 200: 0.84, 300: 0.72, 400: 0.61,
+            500: 0.50, 600: 0.42, 700: 0.34, 800: 0.27, 900: 0.21, 950: 0.12}
+    for shade, l_ in ramp.items():
+        string_tokens[f"BRAND_PRIMARY_{shade}"] = _shade(prim, l_)
+    if "primary_dark" not in brand:
+        string_tokens["BRAND_PRIMARY_DARK"] = string_tokens["BRAND_PRIMARY_700"]
+    if "primary_light" not in brand:
+        string_tokens["BRAND_PRIMARY_LIGHT"] = string_tokens["BRAND_PRIMARY_200"]
+    if "accent_color" not in brand:
+        # btn-accent renders white text — a light brand color (lime, yellow,
+        # sky) fails contrast, so the accent drops to the 700 shade
+        hx = prim.lstrip("#")
+        try:
+            lum = (0.2126 * int(hx[0:2], 16) + 0.7152 * int(hx[2:4], 16)
+                   + 0.0722 * int(hx[4:6], 16)) / 255
+        except ValueError:
+            lum = 0.3
+        string_tokens["BRAND_ACCENT_COLOR"] = (
+            prim if lum < 0.45 else string_tokens["BRAND_PRIMARY_700"])
+
     json_tokens = {
         "BRAND_LICENSE_NUMBERS_JSON": json.dumps(brand.get("license_numbers", [])),
         "BRAND_CERTIFICATIONS_JSON": json.dumps(brand.get("certifications", [])),
