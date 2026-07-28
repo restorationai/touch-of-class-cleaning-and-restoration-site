@@ -1006,6 +1006,100 @@ class GbpFirstSyncRequest(BaseModel):
     secret: str
 
 
+# ---------------------------------------------------------------------------
+# Call tracking (Santino 2026-07-28): per-client Twilio numbers for GBP +
+# website. Straight-through connect (NO whisper to the business — standing
+# rule). Recording everywhere EXCEPT it requires the short caller disclosure
+# in all-party consent states; the disclosure plays only there.
+# ---------------------------------------------------------------------------
+
+ALL_PARTY_STATES = {"CA", "FL", "WA", "PA", "IL", "MA", "CT", "MD", "MT",
+                    "NH", "NV", "OR", "DE"}
+
+
+def _state_abbrev(state: str) -> str:
+    s = (state or "").strip().upper()
+    if len(s) == 2:
+        return s
+    names = {"CALIFORNIA": "CA", "FLORIDA": "FL", "WASHINGTON": "WA",
+             "PENNSYLVANIA": "PA", "ILLINOIS": "IL", "MASSACHUSETTS": "MA",
+             "CONNECTICUT": "CT", "MARYLAND": "MD", "MONTANA": "MT",
+             "NEW HAMPSHIRE": "NH", "NEVADA": "NV", "OREGON": "OR",
+             "DELAWARE": "DE"}
+    return names.get(s, s[:2])
+
+
+@app.post("/call-tracking/twiml/{company_id}/{source}")
+async def call_tracking_twiml(company_id: str, source: str, request: Request):
+    """Twilio Voice webhook: answer, (disclose where required), record, and
+    dial straight through to the client's real line."""
+    form = await request.form()
+    call_sid = str(form.get("CallSid") or "")
+    from_num = str(form.get("From") or "")
+    to_num = str(form.get("To") or "")
+    co = sb().table("companies").select("phone,state,integration_settings") \
+        .eq("id", company_id).limit(1).execute().data
+    if not co:
+        raise HTTPException(status_code=404, detail="unknown company")
+    real = re.sub(r"[^\d+]", "", co[0].get("phone") or "")
+    if real and not real.startswith("+"):
+        real = "+1" + real.lstrip("1")
+    if not real:
+        raise HTTPException(status_code=500, detail="company has no phone")
+    disclose = _state_abbrev(co[0].get("state") or "") in ALL_PARTY_STATES
+    try:
+        if call_sid:
+            sb().table("marketing_tracked_calls").upsert({
+                "company_id": company_id, "source": source,
+                "tracking_number": to_num, "from_number": from_num,
+                "to_number": real, "call_sid": call_sid, "status": "ringing",
+            }, on_conflict="call_sid").execute()
+    except Exception as e:  # noqa: BLE001 — logging must never break the call
+        print("[call-tracking] log failed:", str(e)[:120])
+    base = "https://rank-ai-api-production.up.railway.app"
+    say = ('<Say voice="Polly.Joanna">This call may be recorded.</Say>'
+           if disclose else "")
+    twiml = (
+        '<?xml version="1.0" encoding="UTF-8"?><Response>' + say +
+        f'<Dial record="record-from-answer-dual" answerOnBridge="true"'
+        f' recordingStatusCallback="{base}/call-tracking/recording/{company_id}"'
+        f' action="{base}/call-tracking/status/{company_id}" method="POST">'
+        f'{real}</Dial></Response>')
+    from fastapi.responses import Response as _Resp
+    return _Resp(content=twiml, media_type="application/xml")
+
+
+@app.post("/call-tracking/status/{company_id}")
+async def call_tracking_status(company_id: str, request: Request):
+    form = await request.form()
+    call_sid = str(form.get("CallSid") or "")
+    if call_sid:
+        try:
+            sb().table("marketing_tracked_calls").update({
+                "status": str(form.get("DialCallStatus") or form.get("CallStatus") or ""),
+                "duration_seconds": int(form.get("DialCallDuration") or 0),
+            }).eq("call_sid", call_sid).execute()
+        except Exception as e:  # noqa: BLE001
+            print("[call-tracking] status update failed:", str(e)[:120])
+    from fastapi.responses import Response as _Resp
+    return _Resp(content='<?xml version="1.0" encoding="UTF-8"?><Response/>',
+                 media_type="application/xml")
+
+
+@app.post("/call-tracking/recording/{company_id}")
+async def call_tracking_recording(company_id: str, request: Request):
+    form = await request.form()
+    call_sid = str(form.get("CallSid") or "")
+    url = str(form.get("RecordingUrl") or "")
+    if call_sid and url:
+        try:
+            sb().table("marketing_tracked_calls").update(
+                {"recording_url": url + ".mp3"}).eq("call_sid", call_sid).execute()
+        except Exception as e:  # noqa: BLE001
+            print("[call-tracking] recording update failed:", str(e)[:120])
+    return {"ok": True}
+
+
 @app.post("/case-study/{slug}")
 async def case_study_intake(slug: str, request: Request):
     """Client-submitted case studies (Kyle/Crew 2026-07-28: they send a
