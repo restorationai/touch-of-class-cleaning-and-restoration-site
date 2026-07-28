@@ -213,7 +213,8 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
         if not domain:
             rows.append({"company_id": cid, "item_key": "site-live", "kind": "us_owed",
                          "status": "blocked", "title": "Live on real domain",
-                         "detail": "No domain on file — ask the client or buy one (own-domain = launch immediately).",
+                         "detail": "This client has no domain yet. Decide: buy one for them "
+                         "(we launch the same day) or get access to one they already own.",
                          "evidence": {}})
             if built:
                 attention.append(f"{slug}: site built, NO DOMAIN on file — decide buy vs client's registrar")
@@ -221,12 +222,15 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
             d2 = None
             if not live and built:
                 if ours:
-                    d2 = "ZONE ACTIVE ON OUR CF — launch now (own-domain policy)."
+                    d2 = ("Their domain is fully under our control — nothing is blocking "
+                          "us from launching this site right now.")
                 elif zstat == "pending":
-                    d2 = ("Zone created on our CF but NS cutover pending — needs the "
-                          "registrar step (client creds/delegate access).")
+                    d2 = ("Almost there: the domain is staged on our Cloudflare, but the "
+                          "final switch happens at their registrar (GoDaddy etc.) — we "
+                          "need their login or delegate access to flip it.")
                 else:
-                    d2 = "Client-controlled domain; needs registrar/delegate access for cutover."
+                    d2 = ("Their domain lives in the client's own registrar account — we "
+                          "need access to point it at the new site.")
             rows.append({"company_id": cid, "item_key": "site-live", "kind": "us_owed",
                          "status": "done" if live else ("open" if built else "blocked"),
                          "title": "Live on real domain", "detail": d2,
@@ -240,7 +244,8 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                          "status": "open" if (built and domain and not ours and not live) else "done",
                          "title": "Registrar / domain access",
                          "detail": None if live or ours else
-                         "Monica: ask for registrar delegate access (or creds) so we can launch.",
+                         "We can't launch their site until we can log into their domain "
+                         "registrar. Monica is asking them for access (or credentials).",
                          "evidence": {"domain": domain, "zone_status": zstat or "none"}})
 
         # ---- gsc-indexnow (auto-heal once per live site) -------------------
@@ -261,22 +266,29 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                  "&provider=eq.google&select=id", prefer="return=representation") or []
         rows.append({"company_id": cid, "item_key": "google-connected", "kind": "client_owed",
                      "status": "done" if gi else "open",
-                     "title": "Google connected",
-                     "detail": None if gi else "Connect-ask pass owns the nudges "
-                     f"(short link: https://restorationai.io/connect/{slug}).",
+                     "title": "Google connected" if gi else "Google NOT connected",
+                     "detail": None if gi else
+                     "The client hasn't connected their Google account yet, so we can't "
+                     "manage their Business Profile, reviews, or rankings. Monica is "
+                     "automatically texting them this link until it's done: "
+                     f"https://restorationai.io/connect/{slug}",
                      "evidence": {}})
 
         # ---- client-asks aggregate (ladder input) ---------------------------
         asks = _sb("GET", "/rest/v1/marketing_action_plan"
                    f"?company_id=eq.{cid}&action_type=eq.client_input&status=eq.planned"
-                   "&select=action_key", prefer="return=representation") or []
+                   "&select=action_key,title", prefer="return=representation") or []
+        ask_titles = [re.sub(r"^ASK (CLIENT: )?", "", (a.get("title") or "").strip())
+                      for a in asks]
         rows.append({"company_id": cid, "item_key": "client-asks", "kind": "client_owed",
                      "status": "open" if asks else "done",
-                     "title": f"{len(asks)} open client ask(s)",
-                     "detail": ("ESCALATION CANDIDATE: 4+ open asks — Monica should propose "
-                                "a 15-minute setup call instead of more texts."
+                     "title": (f"Waiting on {len(asks)} thing(s) from the client"
+                               if asks else "Nothing outstanding from the client"),
+                     "detail": ("They've stopped answering texts on this many items — "
+                                "Monica's next message proposes a 15-minute call to knock "
+                                "them all out at once, with a checklist picture attached."
                                 if len(asks) >= 4 else None),
-                     "evidence": {"count": len(asks)}})
+                     "evidence": {"count": len(asks), "titles": ask_titles[:10]}})
         if len(asks) >= 4:
             attention.append(f"{slug}: {len(asks)} open client asks — propose a setup call (ladder)")
 
