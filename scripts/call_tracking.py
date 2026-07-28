@@ -43,8 +43,10 @@ API_BASE = "https://rank-ai-api-production.up.railway.app"
 
 
 def _tw(method: str, path: str, params: dict | None = None) -> dict:
-    sid = os.environ["TWILIO_ACCOUNT_SID"]
-    token = os.environ["TWILIO_AUTH_TOKEN"]
+    sid = (os.environ.get("TWILIO_MASTER_ACCOUNT_SID")
+           or os.environ["TWILIO_ACCOUNT_SID"])
+    token = (os.environ.get("TWILIO_MASTER_AUTH_TOKEN")
+             or os.environ["TWILIO_AUTH_TOKEN"])
     url = f"https://api.twilio.com/2010-04-01/Accounts/{sid}/{path}"
     data = urllib.parse.urlencode(params or {}).encode() if method == "POST" else None
     if method == "GET" and params:
