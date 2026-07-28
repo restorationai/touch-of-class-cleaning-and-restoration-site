@@ -727,6 +727,27 @@ def ensure_google_connect_asks(dry_run: bool, cid_to_slug: dict) -> list[str]:
         return ("https://nyscciinkhlutvqkgyvq.supabase.co/functions/v1/"
                 "connect-link-start?t=" + pb + "." + sig)
 
+    def shorten(slug, long_url):
+        """restorationai.io/connect/{slug} — KV-backed 302 on gbpphotos-proxy.
+        Raw Supabase links are unreadable and one got dropped from an SMS
+        entirely (Jeff/MCC 2026-07-25). Falls back to the long URL if the KV
+        write fails so an ask NEVER goes out linkless."""
+        import requests as _rq
+        acct = os.environ.get("CLOUDFLARE_ACCOUNT_ID")
+        ctok = os.environ.get("CLOUDFLARE_R2_API_TOKEN")
+        if not (acct and ctok):
+            return long_url
+        try:
+            r = _rq.put(
+                "https://api.cloudflare.com/client/v4/accounts/{}/storage/kv/"
+                "namespaces/404d46bf0c72404495ab66d15157c499/values/connect%3A{}".format(acct, slug),
+                headers={"Authorization": "Bearer " + ctok}, data=long_url, timeout=30)
+            if r.ok:
+                return "https://restorationai.io/connect/" + slug
+        except Exception:
+            pass
+        return long_url
+
     def listing_exists(name, city, state):
         """One DFS maps lookup — only nudge when a listing actually exists."""
         try:
@@ -810,7 +831,7 @@ def ensure_google_connect_asks(dry_run: bool, cid_to_slug: dict) -> list[str]:
                                   co[0].get("state") or ""):
                 lines.append(f"google-connect {slug}: no listing found — manual review")
                 continue
-            link = mint(cid)
+            link = shorten(slug, mint(cid))
             row = {"company_id": cid, "rank_ai_slug": slug,
                    "action_key": "google-connect-" + slug,
                    "action_type": "client_input", "status": "planned",

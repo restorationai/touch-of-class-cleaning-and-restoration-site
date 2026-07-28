@@ -146,6 +146,22 @@ export default {
         headers: { "Content-Type": "text/html; charset=utf-8", "Cache-Control": "no-store" } });
     }
 
+    // /connect/{slug} → 302 to the client's current signed Google-connect
+    // URL (KV key connect:{slug}, written when client_ops_sync mints an
+    // ask). The raw Supabase links are unreadable and got dropped from an
+    // SMS entirely (Jeff/MCC 2026-07-25); short link, full signed token at
+    // the destination.
+    const cn = url.pathname.match(/^\/connect\/([a-z0-9-]+)\/?$/i);
+    if (cn) {
+      let dest = null;
+      if (env && env.UPLOAD_MAP) {
+        try { dest = await env.UPLOAD_MAP.get("connect:" + cn[1].toLowerCase()); } catch (e) {}
+      }
+      if (dest) return Response.redirect(dest, 302);
+      return new Response("This connect link isn't active anymore. Text us and we'll send a fresh one.",
+        { status: 404 });
+    }
+
     const m = url.pathname.match(/^\/(gbpphotos|logo)\/([a-z0-9-]+)\/?$/i);
     if (!m) return new Response("Not found", { status: 404 });
     const route = ROUTES[m[1].toLowerCase()];
