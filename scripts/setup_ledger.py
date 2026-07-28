@@ -165,6 +165,8 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
               "&select=id,name,website,services,integration_settings",
               prefer="return=representation") or []
     attention: list[str] = []
+    # per-run auto-heal budget: 2 geo-grid re-scans (DFS cost) + 3 media imports
+    _HEALS = {"geogrid": 2, "media": 3}
 
     for co in cos:
         cid = co["id"]
@@ -291,6 +293,77 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                      "evidence": {"count": len(asks), "titles": ask_titles[:10]}})
         if len(asks) >= 4:
             attention.append(f"{slug}: {len(asks)} open client asks — propose a setup call (ladder)")
+
+        # ---- DATA FRESHNESS (Santino 2026-07-28: "I don't want to have to
+        # always check every day"). The tabs must stay alive on their own:
+        #   geo-grid   newest scan > 8 days old, imageless, or city config
+        #              drifted (1 city configured vs 4+ service areas) ->
+        #              AUTO re-scan (capped per run); config drift -> attention
+        #   photos     google connected but no imported GBP media -> AUTO import
+        # Heals are capped so one bad night can't burn budget.
+        try:
+            if (CLIENTS_DIR / slug / "geogrid-cities.json").exists():
+                gg_cities = json.loads(
+                    (CLIENTS_DIR / slug / "geogrid-cities.json").read_text())
+                n_areas = len(json.loads((CLIENTS_DIR / slug / "plan-input.json")
+                                         .read_text()).get("service_areas") or []) \
+                    if (CLIENTS_DIR / slug / "plan-input.json").exists() else 0
+                newest = _sb("GET", "/rest/v1/marketing_geogrid_scans"
+                             f"?company_id=eq.{cid}&select=scanned_at,image_url"
+                             "&order=scanned_at.desc&limit=1",
+                             prefer="return=representation") or []
+                age_days = 999
+                has_img = False
+                if newest:
+                    try:
+                        age_days = (datetime.now(timezone.utc) - datetime.fromisoformat(
+                            newest[0]["scanned_at"].replace("Z", "+00:00"))).days
+                    except (ValueError, KeyError):
+                        pass
+                    has_img = bool(newest[0].get("image_url"))
+                drift = len(gg_cities) <= 1 and n_areas >= 4
+                stale = age_days > 8 or not has_img
+                if drift:
+                    attention.append(f"{slug}: geo-grid config drift — {len(gg_cities)} "
+                                     f"city configured vs {n_areas} service areas (reseed the ring)")
+                if stale and not drift and not dry_run and _HEALS["geogrid"] > 0:
+                    _HEALS["geogrid"] -= 1
+                    subprocess.Popen([sys.executable,
+                                      str(ROOT / "scripts" / "geogrid_cron.py"),
+                                      "--slug", slug])
+                    attention.append(f"{slug}: geo-grid stale ({age_days}d"
+                                     + ("" if has_img else ", no image") + ") — re-scan started")
+                rows_fresh = {"company_id": cid, "item_key": "data-fresh", "kind": "auto",
+                              "status": "open" if (stale or drift) else "done",
+                              "title": "Rankings data fresh",
+                              "detail": (f"Newest map scan is {age_days} day(s) old"
+                                         + ("" if has_img else " and has no map image")
+                                         + ("; city ring needs reseeding" if drift else "")
+                                         if (stale or drift) else None),
+                              "evidence": {"age_days": age_days, "image": has_img,
+                                           "cities": len(gg_cities), "areas": n_areas}}
+                _upsert([rows_fresh], dry_run)
+        except Exception:
+            pass
+        try:
+            gi_google = bool(gi)
+            if gi_google and not dry_run and _HEALS["media"] > 0:
+                sb_url = os.environ["SUPABASE_URL"].rstrip("/")
+                sb_key = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
+                r = requests.post(f"{sb_url}/storage/v1/object/list/branding",
+                                  headers={"apikey": sb_key,
+                                           "Authorization": f"Bearer {sb_key}"},
+                                  json={"prefix": f"{cid}/job-photos/posted/",
+                                        "limit": 3}, timeout=30)
+                have_media = any(isinstance(f, dict) and f.get("id") for f in (r.json() or []))
+                if not have_media:
+                    _HEALS["media"] -= 1
+                    subprocess.run([sys.executable, str(ROOT / "scripts" / "gbp.py"),
+                                    "media-import", "--slug", slug],
+                                   capture_output=True, text=True, timeout=600)
+                    attention.append(f"{slug}: GBP photo library imported (Photos tab was empty)")
+        except Exception:
+            pass
 
         _upsert(rows, dry_run)
 
