@@ -1013,10 +1013,19 @@ async def case_study_intake(slug: str, request: Request):
     post). Accepts JSON ({title?, text|transcript|body, ...}) or raw text.
     Queues a marketing_content_items row for the content engine's
     case-study lane + drops an ops note so it shows in Ops Attention.
-    Auth: ?secret= shared webhook secret."""
-    expected = (os.environ.get("KICKOFF_PREP_SECRET")
-                or os.environ.get("LEAD_AUDIT_FUNNEL_SECRET", ""))
-    if not (expected and request.query_params.get("secret") == expected):
+    Auth: ?secret= PER-CLIENT derived token (safe to hand to the client's
+    Zapier/GHL — grants nothing beyond this client's case-study intake).
+    HMAC(CONNECT_LINK_SIGNING_SECRET, 'case-study:'+slug)[:20], no table
+    needed. The master ops secret also works for internal use."""
+    import hashlib as _hl
+    import hmac as _hm
+    master = (os.environ.get("KICKOFF_PREP_SECRET")
+              or os.environ.get("LEAD_AUDIT_FUNNEL_SECRET", ""))
+    sign = os.environ.get("CONNECT_LINK_SIGNING_SECRET", "")
+    derived = (_hm.new(sign.encode(), f"case-study:{slug}".encode(),
+                       _hl.sha256).hexdigest()[:20] if sign else None)
+    got = request.query_params.get("secret", "")
+    if not (got and (got == master or (derived and got == derived))):
         raise HTTPException(status_code=403, detail="bad secret")
     raw = await request.body()
     title, text = None, ""
