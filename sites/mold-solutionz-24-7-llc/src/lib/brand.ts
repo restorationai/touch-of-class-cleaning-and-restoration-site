@@ -37,7 +37,7 @@ export const brand = {
   // lets the TrustStrip show the badge before a license number is on file.
   licensedInsuredAttested: false as boolean,
   certifications: ["IICRC WRT #70145645"] as string[],
-  trustBadges: ["IICRC Certified (WRT #70145645)", "24/7 Emergency Response", "Serving Greater LA & Orange County Since 2017"] as string[],
+  trustBadges: ["IICRC Certified", "Serving Greater LA & Orange County Since 2017"] as string[],
   jobPhotos: [] as string[],
   sameAsUrls: [] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
@@ -46,7 +46,7 @@ export const brand = {
   gbpReviewCount: "",
   gbpReviews: [] as { author: string; rating: number; text: string; when: string }[],
   tagline: "Got mold? We have the solution.",
-  ctaLabel: "24/7 Emergency Line",
+  ctaLabel: "Talk to a Mold Specialist",
 } as const;
 
 export const entityId = `${brand.canonicalUrl}/#identity`;
