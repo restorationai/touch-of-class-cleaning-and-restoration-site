@@ -298,7 +298,7 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
 
 
 def ensure_auto_site_build(dry_run: bool, cid_to_slug: dict | None = None,
-                           cap: int = 1) -> list[str]:
+                           cap: int = 4) -> list[str]:
     """Auto-build preview sites — site builds never wait on approval (Santino
     2026-07-28: "I definitely don't want site builds to be backlogged just
     because I haven't said yes or no"). For Active Rank AI clients with NO
