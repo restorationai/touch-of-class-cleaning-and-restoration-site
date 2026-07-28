@@ -1,0 +1,63 @@
+{
+  "brand": {
+    "display_name": "Go agree Restoration of NC",
+    "lat": 35.7888369,
+    "lng": -78.2039124,
+    "phone": "(919) 906-5473",
+    "email": "gogreenrestorationofnc@gmail.com",
+    "street_address": "10805 w. NC Hwy 97 ",
+    "city": "Middlesex ",
+    "state": "NC",
+    "postal_code": "27557"
+  },
+  "services": [
+    "water-damage-restoration",
+    "mold-remediation",
+    "crawl-space-encapsulation"
+  ],
+  "service_areas": [
+    {
+      "city": "Middlesex",
+      "state": "NC",
+      "slug": "middlesex-nc",
+      "primary": true
+    },
+    {
+      "city": "Raleigh",
+      "state": "NC",
+      "slug": "raleigh-nc"
+    },
+    {
+      "city": "Durham",
+      "state": "NC",
+      "slug": "durham-nc"
+    },
+    {
+      "city": "Rocky Mount",
+      "state": "NC",
+      "slug": "rocky-mount-nc"
+    },
+    {
+      "city": "Wilson",
+      "state": "NC",
+      "slug": "wilson-nc"
+    },
+    {
+      "city": "Smithfield",
+      "state": "NC",
+      "slug": "smithfield-nc"
+    },
+    {
+      "city": "Wake Forest",
+      "state": "NC",
+      "slug": "wake-forest-nc"
+    },
+    {
+      "city": "Zebulon",
+      "state": "NC",
+      "slug": "zebulon-nc"
+    }
+  ],
+  "template": "restoration",
+  "blog_seed_count": 8
+}

@@ -2,6 +2,38 @@
  "brand": {
   "display_name": "Quality Contracting, Inc.",
   "lat": 42.1945465,
-  "lng": -71.8358095
- }
+  "lng": -71.8358095,
+  "phone": "(508) 756-8800",
+  "email": "info@qualitycontracting.us",
+  "street_address": "211 Southbridge Street",
+  "city": "Auburn",
+  "state": "MA",
+  "postal_code": "01501"
+ },
+ "services": [
+  "water-damage-restoration",
+  "storm-damage-restoration",
+  "fire-damage-restoration",
+  "mold-remediation",
+  "general-contracting",
+  "sewage-cleanup",
+  "biohazard-cleanup",
+  "asbestos-abatement",
+  "emergency-board-up-tarping",
+  "contents-restoration",
+  "air-duct-cleaning",
+  "carpet-cleaning",
+  "crawl-space-encapsulation",
+  "post-construction-cleaning"
+ ],
+ "template": "restoration",
+ "blog_seed_count": 8,
+ "service_areas": [
+  {
+   "city": "Auburn",
+   "state": "MA",
+   "slug": "auburn-ma",
+   "primary": true
+  }
+ ]
 }

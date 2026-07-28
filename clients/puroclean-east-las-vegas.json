@@ -1,32 +1,32 @@
 {
- "slug": "puroclean-east-las-vegas",
- "display_name": "PuroClean of East Las Vegas",
- "domain": "purocleaneastlasvegas.com",
- "tier": "standard",
- "vertical": "restoration",
- "contact": "eastlasvegas@puroclean.com",
- "status": "live",
- "notes": "Closed 2026-07-20 (Fathom 754188680). Phantom domain TBD. Franchise page: puroclean.com/eastlasvegas",
- "created_at": "2026-07-21T00:45:08+00:00",
- "plan_status": "planned",
- "plan": {
-  "template": "restoration",
-  "template_version": "0.3.0",
-  "url_count": 74,
-  "generated_at": "2026-07-23T06:14:51.581517+00:00"
- },
- "updated_at": "2026-07-28T04:29:24.111841+00:00",
- "build": {
-  "scaffolded_at": "2026-07-23T06:15:02.233709+00:00",
-  "github_repo": "restorationai/puroclean-east-las-vegas-site",
-  "pages_project": "rankai-puroclean-east-las-vegas",
-  "starter_version": "0.1.0",
-  "url_count": 74,
-  "pages_status": "exists",
-  "last_rendered_at": "2026-07-23T06:31:03.636344+00:00",
-  "last_pushed_staging_at": "2026-07-28T00:56:31.802458+00:00",
-  "last_pushed_main_at": "2026-07-28T04:29:24.111793+00:00"
- },
- "build_status": "pushed_main",
- "indexnow_key": "9695d271745241159fb7ca3239c78edf"
+  "slug": "puroclean-east-las-vegas",
+  "display_name": "PuroClean of East Las Vegas",
+  "domain": "purocleaneastlasvegas.com",
+  "tier": "standard",
+  "vertical": "restoration",
+  "contact": "eastlasvegas@puroclean.com",
+  "status": "live",
+  "notes": "Closed 2026-07-20 (Fathom 754188680). Phantom domain TBD. Franchise page: puroclean.com/eastlasvegas",
+  "created_at": "2026-07-21T00:45:08+00:00",
+  "plan_status": "planned",
+  "plan": {
+    "template": "restoration",
+    "template_version": "0.3.0",
+    "url_count": 74,
+    "generated_at": "2026-07-23T06:14:51.581517+00:00"
+  },
+  "updated_at": "2026-07-28T07:11:08.697544+00:00",
+  "build": {
+    "scaffolded_at": "2026-07-23T06:15:02.233709+00:00",
+    "github_repo": "restorationai/puroclean-east-las-vegas-site",
+    "pages_project": "rankai-puroclean-east-las-vegas",
+    "starter_version": "0.1.0",
+    "url_count": 74,
+    "pages_status": "exists",
+    "last_rendered_at": "2026-07-23T06:31:03.636344+00:00",
+    "last_pushed_staging_at": "2026-07-28T00:56:31.802458+00:00",
+    "last_pushed_main_at": "2026-07-28T07:11:08.697519+00:00"
+  },
+  "build_status": "pushed_main",
+  "indexnow_key": "9695d271745241159fb7ca3239c78edf"
 }

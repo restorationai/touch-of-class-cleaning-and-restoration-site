@@ -2,16 +2,18 @@
  "brand": {
   "display_name": "Go agree Restoration of NC",
   "lat": 35.7888369,
-  "lng": -78.2039124
+  "lng": -78.2039124,
+  "phone": "(919) 906-5473",
+  "email": "gogreenrestorationofnc@gmail.com",
+  "street_address": "10805 w. NC Hwy 97 ",
+  "city": "Middlesex ",
+  "state": "NC",
+  "postal_code": "27557"
  },
  "services": [
   "water-damage-restoration",
   "mold-remediation",
-  "biohazard-trauma-cleanup",
-  "air-duct-hvac-cleaning",
-  "carpet-upholstery-cleaning",
-  "crawl-space-encapsulation",
-  "odor-control-deodorization"
+  "crawl-space-encapsulation"
  ],
  "service_areas": [
   {
@@ -55,5 +57,7 @@
    "state": "NC",
    "slug": "zebulon-nc"
   }
- ]
+ ],
+ "template": "restoration",
+ "blog_seed_count": 8
 }
