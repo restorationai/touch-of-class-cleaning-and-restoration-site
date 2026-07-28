@@ -1,0 +1,50 @@
+---
+// CtaBanner — standardized compact CTA bar (narestco reference design).
+//
+// Deliberately renders NO decorative background image: the previous full-bleed
+// <img> variant showed its alt text whenever the R2 asset 404'd (homepride
+// incident, brand/hero.webp missing). Never add a decorative <img> here
+// without a build-verified src.
+import { brand } from "~/lib/brand";
+
+type Props = {
+  heading?: string;
+  subheading?: string;
+  /** Kept for call-site compatibility; intentionally unused (see note above). */
+  background_image?: string;
+  isSensitive?: boolean;
+};
+const {
+  heading = "Ready to take the next step?",
+  subheading = "Get a free quote today!",
+  isSensitive = false,
+} = Astro.props;
+---
+
+<section class="relative py-12 bg-dark-800 overflow-hidden">
+  <div class="container-wide px-6 relative z-10 flex flex-col md:flex-row items-center justify-between gap-8">
+    <div class="text-left max-w-2xl">
+      <h2 class="text-3xl md:text-4xl font-bold text-white mb-2 tracking-tight">
+        {heading}
+      </h2>
+      <p class="text-lg text-white/80">
+        {subheading}
+      </p>
+    </div>
+
+    <div class="flex flex-col sm:flex-row gap-4 shrink-0">
+      <a
+        href={`tel:${brand.phoneRaw}`}
+        class={`inline-flex items-center justify-center font-bold px-8 py-3 rounded-md transition-all text-lg shadow-lg ${isSensitive ? 'bg-dark text-white hover:bg-dark-800' : 'bg-primary-600 text-white hover:bg-primary-700'}`}
+      >
+        Call {brand.phone}
+      </a>
+      <a
+        href="/contact/#estimate"
+        class="inline-flex items-center justify-center font-bold px-8 py-3 rounded-md transition-all text-lg border-2 border-white text-white hover:bg-white/10"
+      >
+        Get a Free Estimate
+      </a>
+    </div>
+  </div>
+</section>
