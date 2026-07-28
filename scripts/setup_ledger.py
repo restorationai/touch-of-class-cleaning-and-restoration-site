@@ -340,17 +340,59 @@ def ensure_auto_site_build(dry_run: bool, cid_to_slug: dict | None = None,
             cat = json.loads(Path(verticals.resolve_template(slug, "services.json")).read_text())
             by_norm = {re.sub(r"[^a-z]", "", s["display_name"].lower()): s["slug"]
                        for s in cat["services"]}
+            cat_words = {s2["slug"]: set(re.findall(r"[a-z]+", s2["display_name"].lower()))
+                         for s2 in cat["services"]}
             svc_slugs = []
             for s in services:
                 key = re.sub(r"[^a-z]", "", s.lower())
                 hit = by_norm.get(key) or next(
                     (v for k, v in by_norm.items() if key[:12] and key[:12] in k), None)
+                if not hit:
+                    # word-overlap fallback: "Biohazard & Trauma Cleanup" ->
+                    # biohazard-cleanup even though the exact key differs
+                    words = set(re.findall(r"[a-z]+", s.lower())) - {"and", "services", "service"}
+                    best, score = None, 0.0
+                    for cslug, cw in cat_words.items():
+                        ov = len(words & cw) / max(len(words | cw), 1)
+                        if ov > score:
+                            best, score = cslug, ov
+                    if score >= 0.5:
+                        hit = best
                 if hit and hit not in svc_slugs:
                     svc_slugs.append(hit)
             if not svc_slugs:
                 out.append(f"{slug}: cannot auto-build — no services mapped to catalog")
                 continue
             pi["services"] = svc_slugs
+            # Areas: geogrid city ring (bootstrap seeds it) + company state,
+            # else the company's own city (QCI 2026-07-28: plan generate died
+            # on 'At least one service area is required')
+            if not (pi.get("service_areas") or []):
+                areas = []
+                st = (co.get("state") or "").strip()
+                gg = CLIENTS_DIR / slug / "geogrid-cities.json"
+                if gg.exists():
+                    try:
+                        for c_ in json.loads(gg.read_text()):
+                            city = (c_.get("city") or c_.get("label") or "").strip()
+                            if city:
+                                areas.append({
+                                    "city": city, "state": st,
+                                    "slug": re.sub(r"[^a-z0-9]+", "-",
+                                                   f"{city} {st}".lower()).strip("-"),
+                                    **({"primary": True} if not areas else {})})
+                    except json.JSONDecodeError:
+                        pass
+                if not areas and (co.get("city") or "").strip():
+                    city = co["city"].strip()
+                    areas = [{"city": city, "state": st,
+                              "slug": re.sub(r"[^a-z0-9]+", "-",
+                                             f"{city} {st}".lower()).strip("-"),
+                              "primary": True}]
+                if not areas:
+                    out.append(f"{slug}: cannot auto-build — no cities anywhere in the truth table")
+                    continue
+                pi["service_areas"] = areas
             pi.setdefault("template", "restoration")
             pi.setdefault("blog_seed_count", 8)
             b = pi.setdefault("brand", {})
