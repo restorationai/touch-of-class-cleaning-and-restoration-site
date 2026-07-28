@@ -124,6 +124,7 @@ def load_truth(slug: str) -> dict:
     client = json.loads(client_path.read_text()) if client_path.exists() else {}
     truth = truth_from_plan_input(plan_input, client, _read_gbp_review_count(slug))
     truth["slug"] = slug
+    truth["service_slugs"] = [str(s) for s in (plan_input.get("services") or [])]
     return truth
 
 
@@ -226,6 +227,37 @@ def lint_text(text: str, truth: dict, source: str = "", part: str = "text") -> l
                     reason = ("24-hour availability statement appears to describe a "
                               "third party (carrier/utility) — verify it is not about the brand")
             v.append(_violation("24/7", severity, reason, text, m, source, part))
+
+    # -- Service-scope family (2026-07-28: a mold-only client's homepage
+    # claimed water/fire/storm/biohazard/reconstruction). Flags mentions of
+    # service FAMILIES the client's plan-input doesn't include. Review
+    # severity: education/"we don't do X" phrasing is legitimate — a human
+    # decides; the goal is that it can never ship silently again.
+    svc_slugs = truth.get("service_slugs") or []
+    if svc_slugs:
+        blob = " ".join(svc_slugs)
+        fam_map = {
+            "water": ("water damage restoration", "water damage repair", "flood cleanup services"),
+            "fire": ("fire damage restoration", "fire and smoke damage", "smoke damage restoration"),
+            "storm": ("storm damage restoration", "storm damage and reconstruction"),
+            "biohazard": ("biohazard cleanup", "trauma scene cleanup"),
+            "reconstruction": ("structural reconstruction", "reconstruction services"),
+            "mold": ("mold remediation", "mold removal services"),
+            "sewage": ("sewage cleanup", "sewage backup cleanup"),
+            "roof": ("roofing services", "roof replacement services"),
+        }
+        for fam, phrases in fam_map.items():
+            if fam in blob:
+                continue  # client offers this family
+            for phrase in phrases:
+                for m in re.finditer(re.escape(phrase), text, re.IGNORECASE):
+                    if _in_url_token(text, m.start(), m.end()):
+                        continue
+                    v.append(_violation(
+                        "service-scope", "review",
+                        f"names the '{fam}' service family but plan-input services "
+                        f"are only: {', '.join(svc_slugs[:6])}", text, m, source, part))
+                    break  # one flag per phrase per blob is enough
 
     # -- Certification family ----------------------------------------------
     for m in CERT_RE.finditer(text):
