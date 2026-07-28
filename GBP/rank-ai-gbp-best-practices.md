@@ -99,9 +99,24 @@ better. Accuracy and focus beat a stuffed listing.
   one (allowing for synonyms). If it maps to a negative service → REMOVE. If it maps to
   nothing the client offers → NEEDS-REVIEW.
 - Prefer the client's own wording from `companies.services` for canonical/parent labels.
-- A focused listing of ~20–35 distinct, real services (parents + meaningful long-tail
-  scenarios) is healthy. The enemy is *duplicate phrasings of the same service*, not
-  specificity.
+- **VARIANT EXPANSION — propose ADDs for missing query phrasings, not just missing
+  services** (2026-07-28: services rank for their exact wording, so coverage means
+  having the phrasings customers actually type). For every confirmed service line,
+  check whether the major phrasings exist on the listing and ADD the missing ones:
+  - head-term variants: repair / restoration / cleanup / removal / remediation
+    ("Water Damage Repair" alongside "Water Damage Restoration");
+  - audience language: homeowner terms AND adjuster/insurance terms;
+  - high-intent scenarios of a confirmed line ("Burst Pipe Cleanup", "Ceiling Water
+    Damage Repair") — only when the client performs the work and it is not in
+    `negative_services`.
+  Bounds: every variant ADD must be grounded in a confirmed service line; never invent
+  a new service LINE this way. Prefer Google's predefined `job_type_id` services first
+  (strongest signal), then natural free-form labels — wording a real company would
+  print, never stuffing. Cap variant ADDs at ~12 per run, ranked by likely search
+  demand, so review stays tractable.
+- A large library of distinct, real phrasings is healthy — do not trim for tidiness.
+  The enemy is *duplicate phrasings of the same service* and junk labels, not
+  specificity or volume.
 
 ---
 
