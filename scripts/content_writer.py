@@ -231,15 +231,24 @@ def sanitize_content(obj):
 
 def gemini_generate_image(prompt: str, *, model: str = GEMINI_PRO_MODEL,
                           aspect_ratio: str = "16:9",
-                          max_retries: int = 3) -> bytes:
-    """Generate an image via the Gemini REST API. Returns PNG bytes."""
+                          max_retries: int = 3,
+                          reference_png: bytes | None = None) -> bytes:
+    """Generate an image via the Gemini REST API. Returns PNG bytes.
+    reference_png: optional brand asset (e.g. the client's logo) passed as an
+    image part so vehicle wraps / signage reproduce the REAL mark
+    (standing rule 2026-07-29: branded vans in hero/team/services)."""
     api_key = os.environ.get("GOOGLE_AI_API_KEY")
     if not api_key:
         die("Missing GOOGLE_AI_API_KEY (see rank-ai/.env).")
 
     url = f"{GEMINI_API_BASE}/{model}:generateContent?key={api_key}"
+    parts: list = [{"text": prompt}]
+    if reference_png:
+        import base64 as _b64
+        parts.append({"inline_data": {"mime_type": "image/png",
+                                      "data": _b64.b64encode(reference_png).decode()}})
     body = {
-        "contents": [{"parts": [{"text": prompt}]}],
+        "contents": [{"parts": parts}],
         "generationConfig": {
             "responseModalities": ["IMAGE"],
             "imageConfig": {"aspectRatio": aspect_ratio},

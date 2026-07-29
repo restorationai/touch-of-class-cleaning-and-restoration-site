@@ -86,22 +86,43 @@ def main() -> int:
     img_dir = ROOT / "sites" / slug / "public" / "images"
     img_dir.mkdir(parents=True, exist_ok=True)
 
+    # STANDING RULE (Santino 2026-07-29): heroes show a MULTI-VAN fleet, and
+    # the branded vans appear in the About/team and Services shots too. When
+    # the client's real logo is on disk it rides along as a reference image so
+    # the wraps carry the REAL mark; without a logo the fleet stays unmarked.
+    logo_png = None
+    for cand in ("logo-dark-bg.png", "logo.png"):
+        p = img_dir / cand
+        if p.exists():
+            logo_png = p.read_bytes()
+            break
+    if logo_png:
+        van = (f"a fleet of two-three matching service vans, each side panel "
+               f"carrying the company logo from the reference image reproduced "
+               f"faithfully at vehicle-wrap scale, with a {color} accent stripe")
+        logo_rule = ("The ONLY text allowed anywhere is the logo mark itself, "
+                     "exactly as in the reference image — no phone numbers, no "
+                     "URLs, no other lettering.")
+    else:
+        van = (f"a fleet of two-three matching clean service vans (solid "
+               f"{color} and white livery, NO readable text or logos)")
+        logo_rule = "No text anywhere in the image."
+
     SHOTS = {
         "hero-bg.webp": (
-            f"Wide cinematic photograph for a restoration company website hero background. "
-            f"A clean modern service van (solid {color} and white livery, NO readable text or "
-            f"logos on the van) parked in front of a well-kept home. {geo} "
+            f"Wide cinematic photograph for a restoration company website hero background: "
+            f"{van} parked in a staggered row in front of a well-kept property. {geo} "
             f"Golden-hour professional photography, shallow depth, photorealistic, no people's "
-            f"faces prominent, no text anywhere in the image. 16:9 composition with the left "
+            f"faces prominent. {logo_rule} 16:9 composition with the left "
             f"third visually calm for overlaid headline text."),
         "team.webp": (
             f"Photorealistic photo of a small professional restoration crew (3-4 people, mixed, "
-            f"in matching clean uniforms with NO readable logos) standing confidently by their "
-            f"service van. {geo} Natural light, friendly and trustworthy, no text in image."),
+            f"in matching clean uniforms) standing confidently in front of {van}. {geo} "
+            f"Natural light, friendly and trustworthy. {logo_rule}"),
         "services.webp": (
-            f"Photorealistic photo of professional water damage restoration equipment in action "
-            f"inside a home: air movers and a dehumidifier on a drying job, technician in the "
-            f"background working. Clean, well-lit, no readable text or logos. {geo}"),
+            f"Photorealistic photo of a technician unloading professional drying equipment "
+            f"(air movers, dehumidifier) from {van} at a job site. Clean, well-lit. "
+            f"{logo_rule} {geo}"),
     }
 
     from PIL import Image
@@ -113,7 +134,7 @@ def main() -> int:
             continue
         full_prompt = prompt + ("\n\nStyle guide notes:\n" + guide if guide else "")
         print(f"  generating {fname}...")
-        png = gemini_generate_image(full_prompt)
+        png = gemini_generate_image(full_prompt, reference_png=logo_png)
         img = Image.open(io.BytesIO(png)).convert("RGB")
         img.save(out, "WEBP", quality=84)
         made += 1
