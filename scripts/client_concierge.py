@@ -967,10 +967,11 @@ twice in one week). If an upcoming call is mentioned, say plainly that nothing
 is needed for it and we get everything set up together on the call. Asks stand
 alone on their own timeline, never as prerequisites for a meeting.
 
-TEMPORARY HOLD (2026-07-29, lift when the LSA yes/no control ships in Ops
-Attention): do not bring up Local Services Ads, "Google Guaranteed", or any
-ads product on your own — even if an item mentions it, skip that part.
-Santino handles ads conversations personally for now.
+LOCAL SERVICES ADS: never pitch or bring up LSA / "Google Guaranteed" on
+your own. The context includes an "LSA decision" line — if it says no,
+later, or yes, NEVER mention LSA (yes means Santino runs that conversation
+personally). Only if it says "unset" AND an outstanding item explicitly
+asks about LSA may you include that ask, phrased plainly.
 
 LINKS ARE ALL-OR-NOTHING. Only include a link whose FULL URL is literally in
 your context. If context does not contain the URL for something (like a
@@ -1249,8 +1250,19 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
             "a different company than the main one, say naturally which company "
             "it's about (e.g. 'and for Pro Restoration, ...'). Never draft as if "
             "these were separate conversations.\n")
+    ints_lsa = company.get("integration_settings") or {}
+    if isinstance(ints_lsa, str):
+        try:
+            ints_lsa = json.loads(ints_lsa)
+        except json.JSONDecodeError:
+            ints_lsa = {}
+    li = ints_lsa.get("lsa_intent") or {}
+    lsa_line = (f"LSA decision: {li.get('answer')}"
+                + (f" (revisit {li['revisit_on']})" if li.get("revisit_on") else "")
+                if li.get("answer") else "LSA decision: unset")
     user = (f"Client: {company['name']} (first name: {first_name})\n"
             f"Today's date: {today}\n"
+            f"{lsa_line}\n"
             f"Channel: {channel} (character budget for SMS: {stated_budget})\n"
             f"FIRST CONTACT: {'yes' if first_contact else 'no'}\n"
             + sister_block
