@@ -142,6 +142,7 @@ import json
 import os
 import re
 import sys
+import time
 import urllib.parse
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -329,24 +330,32 @@ def _loc() -> str:
 
 
 def anthropic_json(system: str, user: str, *, max_tokens: int = 4000) -> dict:
-    """One Messages call, expects a single JSON object in the reply."""
-    resp = requests.post(ANTHROPIC_API, timeout=120, headers={
-        "x-api-key": os.environ["ANTHROPIC_API_KEY"],
-        "anthropic-version": "2023-06-01",
-        "Content-Type": "application/json", "User-Agent": UA,
-    }, json={
-        "model": ANTHROPIC_MODEL, "max_tokens": max_tokens,
-        "system": system,
-        "messages": [{"role": "user", "content": user}],
-    })
-    resp.raise_for_status()
-    data = resp.json()
-    text = "".join(b.get("text", "") for b in data.get("content", [])
-                   if b.get("type") == "text").strip()
-    m = re.search(r"\{.*\}", text, re.S)
-    if not m:
-        raise RuntimeError(f"Claude returned no JSON object: {text[:200]!r}")
-    return json.loads(m.group(0))
+    """One Messages call, expects a single JSON object in the reply.
+    Retries once on an empty/non-JSON reply (2026-07-29: intermittent empty
+    responses starved whole compose passes)."""
+    last_text = ""
+    for attempt in (1, 2):
+        resp = requests.post(ANTHROPIC_API, timeout=120, headers={
+            "x-api-key": os.environ["ANTHROPIC_API_KEY"],
+            "anthropic-version": "2023-06-01",
+            "Content-Type": "application/json", "User-Agent": UA,
+        }, json={
+            "model": ANTHROPIC_MODEL, "max_tokens": max_tokens,
+            "system": system,
+            "messages": [{"role": "user", "content": user}],
+        })
+        resp.raise_for_status()
+        data = resp.json()
+        text = "".join(b.get("text", "") for b in data.get("content", [])
+                       if b.get("type") == "text").strip()
+        m = re.search(r"\{.*\}", text, re.S)
+        if m:
+            return json.loads(m.group(0))
+        last_text = text
+        if attempt == 1:
+            print(f"  [anthropic_json] empty/non-JSON reply — retrying once")
+            time.sleep(3)
+    raise RuntimeError(f"Claude returned no JSON object: {last_text[:200]!r}")
 
 
 # ---------------------------------------------------------------- state
@@ -1283,7 +1292,13 @@ def cmd_compose(args) -> int:
                 names = ", ".join((companies.get(c) or {}).get("name", c)
                                   for c in group)
                 print(f"[same-owner merge] one message covers: {names}")
-            rc = max(rc, cmd_compose(sub))
+            try:
+                rc = max(rc, cmd_compose(sub))
+            except Exception as e:  # noqa: BLE001 — one bad company must never
+                # abort the whole --all pass (2026-07-29: an empty Claude
+                # response on the first company silently starved 17 others)
+                print(f"  !! compose failed for {group[0]}: {str(e)[:160]} — continuing")
+                rc = max(rc, 1)
         return rc
     state = load_state()
     companies = fetch_companies([args.company])
@@ -1794,7 +1809,12 @@ def append_escalation(company: dict, msg: dict | None, reason: str,
     try:
         _sb("POST", "/rest/v1/concierge_escalations",
             {"company_id": company.get("id"), "company_name": company.get("name"),
-             "reason": reason, "message": msg}, prefer="return=minimal")
+             "reason": reason,
+             # msg carries datetime objects from inbound parsing — stringify
+             # or the insert 400s and escalations silently drop to a local
+             # file nobody watches (found 2026-07-29)
+             "message": json.loads(json.dumps(msg, default=str)) if msg else None},
+            prefer="return=minimal")
     except Exception as e:
         print(f"  [escalation] supabase insert failed ({e}) — falling back "
               "to local file", file=sys.stderr)
