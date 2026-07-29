@@ -472,16 +472,48 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
             n_disc = sum(1 for v in napa.values() if v.get("status") == "discrepancy")
             n_missing = sum(1 for v in napa.values() if v.get("status") == "missing")
             if napa:
+                # Split the missing listings by who can create them:
+                #   us    — Bing Places (imports from their GBP, which we hold),
+                #           Apple Maps (Business Connect agency claim), BBB (form)
+                #   client — lead marketplaces that require the OWNER's identity
+                #           / phone verification (Thumbtack, Angi, HomeAdvisor),
+                #           plus Facebook (personal account) and Yelp claiming.
+                _missing = {k for k, v in napa.items() if v.get("status") == "missing"}
+                _lbl = {"bing_places": "Bing Places", "apple_maps": "Apple Maps",
+                        "bbb": "BBB", "thumbtack": "Thumbtack", "angi": "Angi",
+                        "homeadvisor": "HomeAdvisor", "facebook": "Facebook",
+                        "yelp": "Yelp"}
+                us_create = [_lbl[k] for k in ("bing_places", "apple_maps", "bbb")
+                             if k in _missing]
+                client_create = [_lbl[k] for k in ("yelp", "facebook", "thumbtack",
+                                                   "angi", "homeadvisor")
+                                 if k in _missing]
                 rows.append({"company_id": cid, "item_key": "citations", "kind": "client_owed",
-                             "status": "open" if (n_disc or n_missing >= 5) else "done",
+                             "status": "open" if (n_disc or client_create) else "done",
                              "title": f"Directory listings: {n_found} found, "
                                       f"{n_disc} wrong phone, {n_missing} missing",
-                             "detail": ("Discrepancies get fixed against the Business "
-                                        "Information card; heavy gaps mean it's time to "
-                                        "order citations." if (n_disc or n_missing >= 5)
-                                        else None),
+                             "detail": ((f"Client-owed creates (owner identity required): "
+                                         f"{', '.join(client_create)}. " if client_create else "")
+                                        + ("Discrepancies get fixed against the Business "
+                                           "Information card. " if n_disc else "")) or None,
                              "evidence": {"found": n_found, "discrepancies": n_disc,
-                                          "missing": n_missing}})
+                                          "missing": n_missing,
+                                          "client_creates": client_create}})
+                if us_create:
+                    rows.append({"company_id": cid, "item_key": "citations-build",
+                                 "kind": "us_owed", "status": "open",
+                                 "title": f"Create listings we own: {', '.join(us_create)}",
+                                 "detail": "Bing Places imports straight from their GBP "
+                                           "(we hold access); Apple Maps via Business "
+                                           "Connect agency claim; BBB via their request "
+                                           "form. Always the Business Information card "
+                                           "NAP with the REAL phone number.",
+                                 "evidence": {"platforms": us_create}})
+                else:
+                    rows.append({"company_id": cid, "item_key": "citations-build",
+                                 "kind": "us_owed", "status": "done",
+                                 "title": "Listings we can create ourselves: all present",
+                                 "detail": None, "evidence": {}})
                 if n_disc:
                     attention.append(f"{slug}: {n_disc} directory listing(s) show a WRONG "
                                      "phone — fix against the canonical card")
