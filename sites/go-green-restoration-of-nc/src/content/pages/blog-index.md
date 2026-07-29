@@ -1,8 +1,8 @@
 ---
 archetype: "blog-index"
-title: "Restoration Blog | Go agree Restoration of NC"
+title: "Restoration Blog | Go Green Restoration of NC"
 h1: "Restoration Resources and Insights"
-meta_description: "Guides, checklists, and explainers from Go agree Restoration of NC on water, fire, mold, and storm damage restoration."
+meta_description: "Guides, checklists, and explainers from Go Green Restoration of NC on water, fire, mold, and storm damage restoration."
 primary_keyword: "restoration blog middlesex"
 secondary_keywords: ["restoration guides", "damage restoration tips", "restoration insights"]
 search_intent: "informational_browse"

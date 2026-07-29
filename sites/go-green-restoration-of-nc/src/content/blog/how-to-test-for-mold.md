@@ -82,4 +82,4 @@ In North Carolina's climate, the underlying moisture problem almost always needs
 
 ---
 
-If you've read this far and you're still unsure what you're dealing with, that uncertainty itself is a reason to call a professional. Go agree Restoration of NC handles both mold inspection and mold remediation in the Middlesex area and across the surrounding region — meaning the same team that identifies the problem can manage the fix. Reach them at **(919) 906-5473** to schedule an inspection or talk through what you're seeing.
+If you've read this far and you're still unsure what you're dealing with, that uncertainty itself is a reason to call a professional. Go Green Restoration of NC handles both mold inspection and mold remediation in the Middlesex area and across the surrounding region — meaning the same team that identifies the problem can manage the fix. Reach them at **(919) 906-5473** to schedule an inspection or talk through what you're seeing.

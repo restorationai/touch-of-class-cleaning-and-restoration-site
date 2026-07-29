@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Mold Remediation in Middlesex, NC | Go agree Restoration of NC"
+title: "Mold Remediation in Middlesex, NC | Go Green Restoration of NC"
 h1: "Mold Remediation in Middlesex"
 meta_description: "Mold remediation in Middlesex, NC. Insurance billing accepted. Call (919) 906-5473."
 primary_keyword: "mold remediation middlesex"

@@ -1,9 +1,9 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-07-28T14:43:23.120717+00:00",
+  "generated_at": "2026-07-29T15:37:46.605235+00:00",
   "input_summary": {
-    "service_count": 3,
+    "service_count": 6,
     "service_area_count": 8,
     "cross_product": true,
     "blog_seed_count": 8
@@ -13,12 +13,14 @@
       "url_path": "/",
       "archetype": "home",
       "vars_keys": [],
-      "title": "Go agree Restoration of NC | Restoration Services in Middlesex, NC",
-      "h1": "Restoration Services in Middlesex",
-      "meta_description": "Go agree Restoration of NC provides water, fire, mold, and storm damage restoration across Middlesex and surrounding areas. Call (919) 906-5473.",
+      "title": "Go Green Restoration of NC | Restoration Services in Middlesex, NC",
+      "h1": "24/7 Restoration Services in Middlesex",
+      "meta_description": "Go Green Restoration of NC provides 24/7 water, fire, mold, and storm damage restoration across Middlesex and surrounding areas. Call (919) 906-5473.",
       "primary_keyword": "restoration services middlesex",
       "secondary_keywords": [
-        "restoration company near me"
+        "restoration company near me",
+        "24/7 damage restoration",
+        "emergency restoration"
       ],
       "search_intent": "local_commercial",
       "target_word_count": 1200,
@@ -44,7 +46,10 @@
         "/about/",
         "/services/mold-remediation/",
         "/services/water-damage-restoration/",
+        "/services/air-duct-cleaning/",
         "/services/crawl-space-encapsulation/",
+        "/services/insulation-removal-installation/",
+        "/services/carpet-cleaning/",
         "/service-areas/middlesex-nc/",
         "/service-areas/durham-nc/",
         "/service-areas/raleigh-nc/",
@@ -59,9 +64,9 @@
       "url_path": "/services/",
       "archetype": "services-hub",
       "vars_keys": [],
-      "title": "Restoration Services in Middlesex | Go agree Restoration of NC",
+      "title": "Restoration Services in Middlesex | Go Green Restoration of NC",
       "h1": "Our Restoration Services",
-      "meta_description": "Full-service restoration in Middlesex: water, fire, mold, storm, biohazard, and commercial restoration. Prompt scheduling. Call (919) 906-5473.",
+      "meta_description": "Full-service restoration in Middlesex: water, fire, mold, storm, biohazard, and commercial restoration. 24/7 response. Call (919) 906-5473.",
       "primary_keyword": "restoration services middlesex",
       "secondary_keywords": [
         "damage restoration services",
@@ -87,17 +92,20 @@
         "/",
         "/services/mold-remediation/",
         "/services/water-damage-restoration/",
-        "/services/crawl-space-encapsulation/"
+        "/services/air-duct-cleaning/",
+        "/services/crawl-space-encapsulation/",
+        "/services/insulation-removal-installation/",
+        "/services/carpet-cleaning/"
       ]
     },
     {
       "url_path": "/service-areas/",
       "archetype": "service-areas-hub",
       "vars_keys": [],
-      "title": "Service Areas | Go agree Restoration of NC Restoration",
+      "title": "Service Areas | Go Green Restoration of NC Restoration",
       "h1": "Areas We Serve",
-      "meta_description": "Go agree Restoration of NC provides restoration services across Middlesex and the surrounding region. Find your city.",
-      "primary_keyword": "go agree restoration of nc service areas",
+      "meta_description": "Go Green Restoration of NC provides 24/7 restoration services across Middlesex and the surrounding region. Find your city.",
+      "primary_keyword": "go green restoration of nc service areas",
       "secondary_keywords": [
         "restoration service area",
         "cities we serve",
@@ -133,9 +141,9 @@
       "url_path": "/blog/",
       "archetype": "blog-index",
       "vars_keys": [],
-      "title": "Restoration Blog | Go agree Restoration of NC",
+      "title": "Restoration Blog | Go Green Restoration of NC",
       "h1": "Restoration Resources and Insights",
-      "meta_description": "Guides, checklists, and explainers from Go agree Restoration of NC on water, fire, mold, and storm damage restoration.",
+      "meta_description": "Guides, checklists, and explainers from Go Green Restoration of NC on water, fire, mold, and storm damage restoration.",
       "primary_keyword": "restoration blog middlesex",
       "secondary_keywords": [
         "restoration guides",
@@ -170,10 +178,10 @@
       "url_path": "/about/",
       "archetype": "about",
       "vars_keys": [],
-      "title": "About Go agree Restoration of NC | Middlesex Restoration Company",
-      "h1": "About Go agree Restoration of NC",
-      "meta_description": "Go agree Restoration of NC has served Middlesex since. Meet our restoration team. Locally owned.",
-      "primary_keyword": "go agree restoration of nc middlesex",
+      "title": "About Go Green Restoration of NC | Middlesex Restoration Company",
+      "h1": "About Go Green Restoration of NC",
+      "meta_description": "Go Green Restoration of NC has served Middlesex since. Meet our restoration team. Locally owned.",
+      "primary_keyword": "go green restoration of nc middlesex",
       "secondary_keywords": [
         "local restoration company",
         "iicrc certified restoration",
@@ -205,12 +213,14 @@
       "url_path": "/contact/",
       "archetype": "contact",
       "vars_keys": [],
-      "title": "Contact Go agree Restoration of NC | Restoration in Middlesex",
-      "h1": "Contact Go agree Restoration of NC",
-      "meta_description": "Call (919) 906-5473 for restoration services in Middlesex and surrounding areas. Free estimates. Direct insurance billing.",
-      "primary_keyword": "go agree restoration of nc contact",
+      "title": "Contact Go Green Restoration of NC | 24/7 Restoration in Middlesex",
+      "h1": "Contact Go Green Restoration of NC",
+      "meta_description": "Call (919) 906-5473 for 24/7 emergency restoration in Middlesex and surrounding areas. Free estimates. Direct insurance billing.",
+      "primary_keyword": "go green restoration of nc contact",
       "secondary_keywords": [
-        "restoration company contact"
+        "restoration company contact",
+        "24/7 restoration phone",
+        "emergency restoration near me"
       ],
       "search_intent": "navigational_action",
       "target_word_count": 400,
@@ -238,9 +248,9 @@
       "vars_keys": [
         "service"
       ],
-      "title": "Water Damage Restoration in Middlesex | Go agree Restoration of NC",
+      "title": "Water Damage Restoration in Middlesex | Go Green Restoration of NC",
       "h1": "Water Damage Restoration in Middlesex",
-      "meta_description": "Water damage restoration in Middlesex and surrounding areas. Insurance billing accepted. Call (919) 906-5473.",
+      "meta_description": "24/7 water damage restoration in Middlesex and surrounding areas. Insurance billing accepted. Call (919) 906-5473.",
       "primary_keyword": "water damage restoration middlesex",
       "secondary_keywords": [
         "water removal",
@@ -287,9 +297,9 @@
       "vars_keys": [
         "service"
       ],
-      "title": "Mold Remediation in Middlesex | Go agree Restoration of NC",
+      "title": "Mold Remediation in Middlesex | Go Green Restoration of NC",
       "h1": "Mold Remediation in Middlesex",
-      "meta_description": "Mold remediation in Middlesex and surrounding areas. Insurance billing accepted. Call (919) 906-5473.",
+      "meta_description": "24/7 mold remediation in Middlesex and surrounding areas. Insurance billing accepted. Call (919) 906-5473.",
       "primary_keyword": "mold remediation middlesex",
       "secondary_keywords": [
         "mold removal",
@@ -336,9 +346,9 @@
       "vars_keys": [
         "service"
       ],
-      "title": "Crawl Space Encapsulation in Middlesex | Go agree Restoration of NC",
+      "title": "Crawl Space Encapsulation in Middlesex | Go Green Restoration of NC",
       "h1": "Crawl Space Encapsulation in Middlesex",
-      "meta_description": "Crawl space encapsulation in Middlesex and surrounding areas. Insurance billing accepted. Call (919) 906-5473.",
+      "meta_description": "24/7 crawl space encapsulation in Middlesex and surrounding areas. Insurance billing accepted. Call (919) 906-5473.",
       "primary_keyword": "crawl space encapsulation middlesex",
       "secondary_keywords": [],
       "search_intent": "local_specialty",
@@ -371,14 +381,150 @@
       ]
     },
     {
+      "url_path": "/services/air-duct-cleaning/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Air Duct Cleaning in Middlesex | Go Green Restoration of NC",
+      "h1": "Air Duct Cleaning in Middlesex",
+      "meta_description": "24/7 air duct cleaning in Middlesex and surrounding areas. Insurance billing accepted. Call (919) 906-5473.",
+      "primary_keyword": "air duct cleaning middlesex",
+      "secondary_keywords": [
+        "duct cleaning",
+        "HVAC duct cleaning",
+        "air duct sanitization",
+        "dryer vent cleaning",
+        "residential duct cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/durham-nc/air-duct-cleaning/",
+        "/service-areas/middlesex-nc/air-duct-cleaning/",
+        "/service-areas/raleigh-nc/air-duct-cleaning/",
+        "/service-areas/rocky-mount-nc/air-duct-cleaning/",
+        "/service-areas/smithfield-nc/air-duct-cleaning/",
+        "/service-areas/wake-forest-nc/air-duct-cleaning/",
+        "/service-areas/wilson-nc/air-duct-cleaning/",
+        "/service-areas/zebulon-nc/air-duct-cleaning/"
+      ]
+    },
+    {
+      "url_path": "/services/carpet-cleaning/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Carpet Cleaning in Middlesex | Go Green Restoration of NC",
+      "h1": "Carpet Cleaning in Middlesex",
+      "meta_description": "24/7 carpet cleaning in Middlesex and surrounding areas. Insurance billing accepted. Call (919) 906-5473.",
+      "primary_keyword": "carpet cleaning middlesex",
+      "secondary_keywords": [
+        "professional carpet cleaning",
+        "deep carpet cleaning",
+        "carpet stain removal",
+        "commercial carpet cleaning",
+        "carpet sanitization"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/durham-nc/carpet-cleaning/",
+        "/service-areas/middlesex-nc/carpet-cleaning/",
+        "/service-areas/raleigh-nc/carpet-cleaning/",
+        "/service-areas/rocky-mount-nc/carpet-cleaning/",
+        "/service-areas/smithfield-nc/carpet-cleaning/",
+        "/service-areas/wake-forest-nc/carpet-cleaning/",
+        "/service-areas/wilson-nc/carpet-cleaning/",
+        "/service-areas/zebulon-nc/carpet-cleaning/"
+      ]
+    },
+    {
+      "url_path": "/services/insulation-removal-installation/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Insulation Removal & Installation in Middlesex | Go Green Restoration of NC",
+      "h1": "Insulation Removal & Installation in Middlesex",
+      "meta_description": "24/7 insulation removal & installation in Middlesex and surrounding areas. Insurance billing accepted. Call (919) 906-5473.",
+      "primary_keyword": "insulation removal & installation middlesex",
+      "secondary_keywords": [
+        "attic insulation removal",
+        "crawl space insulation replacement",
+        "blown-in insulation"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/durham-nc/insulation-removal-installation/",
+        "/service-areas/middlesex-nc/insulation-removal-installation/",
+        "/service-areas/raleigh-nc/insulation-removal-installation/",
+        "/service-areas/rocky-mount-nc/insulation-removal-installation/",
+        "/service-areas/smithfield-nc/insulation-removal-installation/",
+        "/service-areas/wake-forest-nc/insulation-removal-installation/",
+        "/service-areas/wilson-nc/insulation-removal-installation/",
+        "/service-areas/zebulon-nc/insulation-removal-installation/"
+      ]
+    },
+    {
       "url_path": "/service-areas/middlesex-nc/",
       "archetype": "service-area",
       "vars_keys": [
         "area"
       ],
-      "title": "Restoration Services in Middlesex, NC | Go agree Restoration of NC",
+      "title": "Restoration Services in Middlesex, NC | Go Green Restoration of NC",
       "h1": "Restoration Services in Middlesex",
-      "meta_description": "Serving Middlesex, NC with water, fire, mold, and storm damage restoration. Experienced team. Call (919) 906-5473.",
+      "meta_description": "Serving Middlesex, NC with 24/7 water, fire, mold, and storm damage restoration. Experienced team. Call (919) 906-5473.",
       "primary_keyword": "restoration services middlesex",
       "secondary_keywords": [
         "middlesex restoration company",
@@ -404,7 +550,10 @@
         "/contact/",
         "/service-areas/middlesex-nc/mold-remediation/",
         "/service-areas/middlesex-nc/water-damage-restoration/",
+        "/service-areas/middlesex-nc/air-duct-cleaning/",
         "/service-areas/middlesex-nc/crawl-space-encapsulation/",
+        "/service-areas/middlesex-nc/insulation-removal-installation/",
+        "/service-areas/middlesex-nc/carpet-cleaning/",
         "/service-areas/durham-nc/",
         "/service-areas/raleigh-nc/",
         "/service-areas/rocky-mount-nc/"
@@ -416,9 +565,9 @@
       "vars_keys": [
         "area"
       ],
-      "title": "Restoration Services in Raleigh, NC | Go agree Restoration of NC",
+      "title": "Restoration Services in Raleigh, NC | Go Green Restoration of NC",
       "h1": "Restoration Services in Raleigh",
-      "meta_description": "Serving Raleigh, NC with water, fire, mold, and storm damage restoration. Experienced team. Call (919) 906-5473.",
+      "meta_description": "Serving Raleigh, NC with 24/7 water, fire, mold, and storm damage restoration. Experienced team. Call (919) 906-5473.",
       "primary_keyword": "restoration services raleigh",
       "secondary_keywords": [
         "raleigh restoration company",
@@ -444,7 +593,10 @@
         "/contact/",
         "/service-areas/raleigh-nc/mold-remediation/",
         "/service-areas/raleigh-nc/water-damage-restoration/",
+        "/service-areas/raleigh-nc/air-duct-cleaning/",
         "/service-areas/raleigh-nc/crawl-space-encapsulation/",
+        "/service-areas/raleigh-nc/insulation-removal-installation/",
+        "/service-areas/raleigh-nc/carpet-cleaning/",
         "/service-areas/middlesex-nc/",
         "/service-areas/durham-nc/",
         "/service-areas/rocky-mount-nc/"
@@ -456,9 +608,9 @@
       "vars_keys": [
         "area"
       ],
-      "title": "Restoration Services in Durham, NC | Go agree Restoration of NC",
+      "title": "Restoration Services in Durham, NC | Go Green Restoration of NC",
       "h1": "Restoration Services in Durham",
-      "meta_description": "Serving Durham, NC with water, fire, mold, and storm damage restoration. Experienced team. Call (919) 906-5473.",
+      "meta_description": "Serving Durham, NC with 24/7 water, fire, mold, and storm damage restoration. Experienced team. Call (919) 906-5473.",
       "primary_keyword": "restoration services durham",
       "secondary_keywords": [
         "durham restoration company",
@@ -484,7 +636,10 @@
         "/contact/",
         "/service-areas/durham-nc/mold-remediation/",
         "/service-areas/durham-nc/water-damage-restoration/",
+        "/service-areas/durham-nc/air-duct-cleaning/",
         "/service-areas/durham-nc/crawl-space-encapsulation/",
+        "/service-areas/durham-nc/insulation-removal-installation/",
+        "/service-areas/durham-nc/carpet-cleaning/",
         "/service-areas/middlesex-nc/",
         "/service-areas/raleigh-nc/",
         "/service-areas/rocky-mount-nc/"
@@ -496,9 +651,9 @@
       "vars_keys": [
         "area"
       ],
-      "title": "Restoration Services in Rocky Mount, NC | Go agree Restoration of NC",
+      "title": "Restoration Services in Rocky Mount, NC | Go Green Restoration of NC",
       "h1": "Restoration Services in Rocky Mount",
-      "meta_description": "Serving Rocky Mount, NC with water, fire, mold, and storm damage restoration. Experienced team. Call (919) 906-5473.",
+      "meta_description": "Serving Rocky Mount, NC with 24/7 water, fire, mold, and storm damage restoration. Experienced team. Call (919) 906-5473.",
       "primary_keyword": "restoration services rocky mount",
       "secondary_keywords": [
         "rocky mount restoration company",
@@ -524,7 +679,10 @@
         "/contact/",
         "/service-areas/rocky-mount-nc/mold-remediation/",
         "/service-areas/rocky-mount-nc/water-damage-restoration/",
+        "/service-areas/rocky-mount-nc/air-duct-cleaning/",
         "/service-areas/rocky-mount-nc/crawl-space-encapsulation/",
+        "/service-areas/rocky-mount-nc/insulation-removal-installation/",
+        "/service-areas/rocky-mount-nc/carpet-cleaning/",
         "/service-areas/middlesex-nc/",
         "/service-areas/durham-nc/",
         "/service-areas/raleigh-nc/"
@@ -536,9 +694,9 @@
       "vars_keys": [
         "area"
       ],
-      "title": "Restoration Services in Wilson, NC | Go agree Restoration of NC",
+      "title": "Restoration Services in Wilson, NC | Go Green Restoration of NC",
       "h1": "Restoration Services in Wilson",
-      "meta_description": "Serving Wilson, NC with water, fire, mold, and storm damage restoration. Experienced team. Call (919) 906-5473.",
+      "meta_description": "Serving Wilson, NC with 24/7 water, fire, mold, and storm damage restoration. Experienced team. Call (919) 906-5473.",
       "primary_keyword": "restoration services wilson",
       "secondary_keywords": [
         "wilson restoration company",
@@ -564,7 +722,10 @@
         "/contact/",
         "/service-areas/wilson-nc/mold-remediation/",
         "/service-areas/wilson-nc/water-damage-restoration/",
+        "/service-areas/wilson-nc/air-duct-cleaning/",
         "/service-areas/wilson-nc/crawl-space-encapsulation/",
+        "/service-areas/wilson-nc/insulation-removal-installation/",
+        "/service-areas/wilson-nc/carpet-cleaning/",
         "/service-areas/middlesex-nc/",
         "/service-areas/durham-nc/",
         "/service-areas/raleigh-nc/"
@@ -576,9 +737,9 @@
       "vars_keys": [
         "area"
       ],
-      "title": "Restoration Services in Smithfield, NC | Go agree Restoration of NC",
+      "title": "Restoration Services in Smithfield, NC | Go Green Restoration of NC",
       "h1": "Restoration Services in Smithfield",
-      "meta_description": "Serving Smithfield, NC with water, fire, mold, and storm damage restoration. Experienced team. Call (919) 906-5473.",
+      "meta_description": "Serving Smithfield, NC with 24/7 water, fire, mold, and storm damage restoration. Experienced team. Call (919) 906-5473.",
       "primary_keyword": "restoration services smithfield",
       "secondary_keywords": [
         "smithfield restoration company",
@@ -604,7 +765,10 @@
         "/contact/",
         "/service-areas/smithfield-nc/mold-remediation/",
         "/service-areas/smithfield-nc/water-damage-restoration/",
+        "/service-areas/smithfield-nc/air-duct-cleaning/",
         "/service-areas/smithfield-nc/crawl-space-encapsulation/",
+        "/service-areas/smithfield-nc/insulation-removal-installation/",
+        "/service-areas/smithfield-nc/carpet-cleaning/",
         "/service-areas/middlesex-nc/",
         "/service-areas/durham-nc/",
         "/service-areas/raleigh-nc/"
@@ -616,9 +780,9 @@
       "vars_keys": [
         "area"
       ],
-      "title": "Restoration Services in Wake Forest, NC | Go agree Restoration of NC",
+      "title": "Restoration Services in Wake Forest, NC | Go Green Restoration of NC",
       "h1": "Restoration Services in Wake Forest",
-      "meta_description": "Serving Wake Forest, NC with water, fire, mold, and storm damage restoration. Experienced team. Call (919) 906-5473.",
+      "meta_description": "Serving Wake Forest, NC with 24/7 water, fire, mold, and storm damage restoration. Experienced team. Call (919) 906-5473.",
       "primary_keyword": "restoration services wake forest",
       "secondary_keywords": [
         "wake forest restoration company",
@@ -644,7 +808,10 @@
         "/contact/",
         "/service-areas/wake-forest-nc/mold-remediation/",
         "/service-areas/wake-forest-nc/water-damage-restoration/",
+        "/service-areas/wake-forest-nc/air-duct-cleaning/",
         "/service-areas/wake-forest-nc/crawl-space-encapsulation/",
+        "/service-areas/wake-forest-nc/insulation-removal-installation/",
+        "/service-areas/wake-forest-nc/carpet-cleaning/",
         "/service-areas/middlesex-nc/",
         "/service-areas/durham-nc/",
         "/service-areas/raleigh-nc/"
@@ -656,9 +823,9 @@
       "vars_keys": [
         "area"
       ],
-      "title": "Restoration Services in Zebulon, NC | Go agree Restoration of NC",
+      "title": "Restoration Services in Zebulon, NC | Go Green Restoration of NC",
       "h1": "Restoration Services in Zebulon",
-      "meta_description": "Serving Zebulon, NC with water, fire, mold, and storm damage restoration. Experienced team. Call (919) 906-5473.",
+      "meta_description": "Serving Zebulon, NC with 24/7 water, fire, mold, and storm damage restoration. Experienced team. Call (919) 906-5473.",
       "primary_keyword": "restoration services zebulon",
       "secondary_keywords": [
         "zebulon restoration company",
@@ -684,7 +851,10 @@
         "/contact/",
         "/service-areas/zebulon-nc/mold-remediation/",
         "/service-areas/zebulon-nc/water-damage-restoration/",
+        "/service-areas/zebulon-nc/air-duct-cleaning/",
         "/service-areas/zebulon-nc/crawl-space-encapsulation/",
+        "/service-areas/zebulon-nc/insulation-removal-installation/",
+        "/service-areas/zebulon-nc/carpet-cleaning/",
         "/service-areas/middlesex-nc/",
         "/service-areas/durham-nc/",
         "/service-areas/raleigh-nc/"
@@ -697,9 +867,9 @@
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in Middlesex, NC | Go agree Restoration of NC",
+      "title": "Water Damage Restoration in Middlesex, NC | Go Green Restoration of NC",
       "h1": "Water Damage Restoration in Middlesex",
-      "meta_description": "Water damage restoration in Middlesex, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "meta_description": "24/7 water damage restoration in Middlesex, NC. Insurance billing accepted. Call (919) 906-5473.",
       "primary_keyword": "water damage restoration middlesex",
       "secondary_keywords": [
         "water removal",
@@ -728,7 +898,7 @@
         "/services/water-damage-restoration/",
         "/service-areas/middlesex-nc/",
         "/service-areas/middlesex-nc/mold-remediation/",
-        "/service-areas/middlesex-nc/crawl-space-encapsulation/",
+        "/service-areas/middlesex-nc/air-duct-cleaning/",
         "/service-areas/durham-nc/water-damage-restoration/",
         "/service-areas/raleigh-nc/water-damage-restoration/",
         "/contact/"
@@ -741,9 +911,9 @@
         "area",
         "service"
       ],
-      "title": "Mold Remediation in Middlesex, NC | Go agree Restoration of NC",
+      "title": "Mold Remediation in Middlesex, NC | Go Green Restoration of NC",
       "h1": "Mold Remediation in Middlesex",
-      "meta_description": "Mold remediation in Middlesex, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "meta_description": "24/7 mold remediation in Middlesex, NC. Insurance billing accepted. Call (919) 906-5473.",
       "primary_keyword": "mold remediation middlesex",
       "secondary_keywords": [
         "mold removal",
@@ -772,7 +942,7 @@
         "/services/mold-remediation/",
         "/service-areas/middlesex-nc/",
         "/service-areas/middlesex-nc/water-damage-restoration/",
-        "/service-areas/middlesex-nc/crawl-space-encapsulation/",
+        "/service-areas/middlesex-nc/air-duct-cleaning/",
         "/service-areas/durham-nc/mold-remediation/",
         "/service-areas/raleigh-nc/mold-remediation/",
         "/contact/"
@@ -785,9 +955,9 @@
         "area",
         "service"
       ],
-      "title": "Crawl Space Encapsulation in Middlesex, NC | Go agree Restoration of NC",
+      "title": "Crawl Space Encapsulation in Middlesex, NC | Go Green Restoration of NC",
       "h1": "Crawl Space Encapsulation in Middlesex",
-      "meta_description": "Crawl space encapsulation in Middlesex, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "meta_description": "24/7 crawl space encapsulation in Middlesex, NC. Insurance billing accepted. Call (919) 906-5473.",
       "primary_keyword": "crawl space encapsulation middlesex",
       "secondary_keywords": [],
       "search_intent": "local_specialty",
@@ -817,15 +987,145 @@
       ]
     },
     {
+      "url_path": "/service-areas/middlesex-nc/air-duct-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Duct Cleaning in Middlesex, NC | Go Green Restoration of NC",
+      "h1": "Air Duct Cleaning in Middlesex",
+      "meta_description": "24/7 air duct cleaning in Middlesex, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "primary_keyword": "air duct cleaning middlesex",
+      "secondary_keywords": [
+        "duct cleaning",
+        "HVAC duct cleaning",
+        "air duct sanitization",
+        "dryer vent cleaning",
+        "residential duct cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/air-duct-cleaning/",
+        "/service-areas/middlesex-nc/",
+        "/service-areas/middlesex-nc/mold-remediation/",
+        "/service-areas/middlesex-nc/water-damage-restoration/",
+        "/service-areas/durham-nc/air-duct-cleaning/",
+        "/service-areas/raleigh-nc/air-duct-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/middlesex-nc/carpet-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet Cleaning in Middlesex, NC | Go Green Restoration of NC",
+      "h1": "Carpet Cleaning in Middlesex",
+      "meta_description": "24/7 carpet cleaning in Middlesex, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "primary_keyword": "carpet cleaning middlesex",
+      "secondary_keywords": [
+        "professional carpet cleaning",
+        "deep carpet cleaning",
+        "carpet stain removal",
+        "commercial carpet cleaning",
+        "carpet sanitization"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-cleaning/",
+        "/service-areas/middlesex-nc/",
+        "/service-areas/middlesex-nc/mold-remediation/",
+        "/service-areas/middlesex-nc/water-damage-restoration/",
+        "/service-areas/durham-nc/carpet-cleaning/",
+        "/service-areas/raleigh-nc/carpet-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/middlesex-nc/insulation-removal-installation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Insulation Removal & Installation in Middlesex, NC | Go Green Restoration of NC",
+      "h1": "Insulation Removal & Installation in Middlesex",
+      "meta_description": "24/7 insulation removal & installation in Middlesex, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "primary_keyword": "insulation removal & installation middlesex",
+      "secondary_keywords": [
+        "attic insulation removal",
+        "crawl space insulation replacement",
+        "blown-in insulation"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/insulation-removal-installation/",
+        "/service-areas/middlesex-nc/",
+        "/service-areas/middlesex-nc/mold-remediation/",
+        "/service-areas/middlesex-nc/water-damage-restoration/",
+        "/service-areas/durham-nc/insulation-removal-installation/",
+        "/service-areas/raleigh-nc/insulation-removal-installation/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/raleigh-nc/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in Raleigh, NC | Go agree Restoration of NC",
+      "title": "Water Damage Restoration in Raleigh, NC | Go Green Restoration of NC",
       "h1": "Water Damage Restoration in Raleigh",
-      "meta_description": "Water damage restoration in Raleigh, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "meta_description": "24/7 water damage restoration in Raleigh, NC. Insurance billing accepted. Call (919) 906-5473.",
       "primary_keyword": "water damage restoration raleigh",
       "secondary_keywords": [
         "water removal",
@@ -854,7 +1154,7 @@
         "/services/water-damage-restoration/",
         "/service-areas/raleigh-nc/",
         "/service-areas/raleigh-nc/mold-remediation/",
-        "/service-areas/raleigh-nc/crawl-space-encapsulation/",
+        "/service-areas/raleigh-nc/air-duct-cleaning/",
         "/service-areas/durham-nc/water-damage-restoration/",
         "/service-areas/middlesex-nc/water-damage-restoration/",
         "/contact/"
@@ -867,9 +1167,9 @@
         "area",
         "service"
       ],
-      "title": "Mold Remediation in Raleigh, NC | Go agree Restoration of NC",
+      "title": "Mold Remediation in Raleigh, NC | Go Green Restoration of NC",
       "h1": "Mold Remediation in Raleigh",
-      "meta_description": "Mold remediation in Raleigh, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "meta_description": "24/7 mold remediation in Raleigh, NC. Insurance billing accepted. Call (919) 906-5473.",
       "primary_keyword": "mold remediation raleigh",
       "secondary_keywords": [
         "mold removal",
@@ -898,7 +1198,7 @@
         "/services/mold-remediation/",
         "/service-areas/raleigh-nc/",
         "/service-areas/raleigh-nc/water-damage-restoration/",
-        "/service-areas/raleigh-nc/crawl-space-encapsulation/",
+        "/service-areas/raleigh-nc/air-duct-cleaning/",
         "/service-areas/durham-nc/mold-remediation/",
         "/service-areas/middlesex-nc/mold-remediation/",
         "/contact/"
@@ -911,9 +1211,9 @@
         "area",
         "service"
       ],
-      "title": "Crawl Space Encapsulation in Raleigh, NC | Go agree Restoration of NC",
+      "title": "Crawl Space Encapsulation in Raleigh, NC | Go Green Restoration of NC",
       "h1": "Crawl Space Encapsulation in Raleigh",
-      "meta_description": "Crawl space encapsulation in Raleigh, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "meta_description": "24/7 crawl space encapsulation in Raleigh, NC. Insurance billing accepted. Call (919) 906-5473.",
       "primary_keyword": "crawl space encapsulation raleigh",
       "secondary_keywords": [],
       "search_intent": "local_specialty",
@@ -943,15 +1243,145 @@
       ]
     },
     {
+      "url_path": "/service-areas/raleigh-nc/air-duct-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Duct Cleaning in Raleigh, NC | Go Green Restoration of NC",
+      "h1": "Air Duct Cleaning in Raleigh",
+      "meta_description": "24/7 air duct cleaning in Raleigh, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "primary_keyword": "air duct cleaning raleigh",
+      "secondary_keywords": [
+        "duct cleaning",
+        "HVAC duct cleaning",
+        "air duct sanitization",
+        "dryer vent cleaning",
+        "residential duct cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/air-duct-cleaning/",
+        "/service-areas/raleigh-nc/",
+        "/service-areas/raleigh-nc/mold-remediation/",
+        "/service-areas/raleigh-nc/water-damage-restoration/",
+        "/service-areas/durham-nc/air-duct-cleaning/",
+        "/service-areas/middlesex-nc/air-duct-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/raleigh-nc/carpet-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet Cleaning in Raleigh, NC | Go Green Restoration of NC",
+      "h1": "Carpet Cleaning in Raleigh",
+      "meta_description": "24/7 carpet cleaning in Raleigh, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "primary_keyword": "carpet cleaning raleigh",
+      "secondary_keywords": [
+        "professional carpet cleaning",
+        "deep carpet cleaning",
+        "carpet stain removal",
+        "commercial carpet cleaning",
+        "carpet sanitization"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-cleaning/",
+        "/service-areas/raleigh-nc/",
+        "/service-areas/raleigh-nc/mold-remediation/",
+        "/service-areas/raleigh-nc/water-damage-restoration/",
+        "/service-areas/durham-nc/carpet-cleaning/",
+        "/service-areas/middlesex-nc/carpet-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/raleigh-nc/insulation-removal-installation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Insulation Removal & Installation in Raleigh, NC | Go Green Restoration of NC",
+      "h1": "Insulation Removal & Installation in Raleigh",
+      "meta_description": "24/7 insulation removal & installation in Raleigh, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "primary_keyword": "insulation removal & installation raleigh",
+      "secondary_keywords": [
+        "attic insulation removal",
+        "crawl space insulation replacement",
+        "blown-in insulation"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/insulation-removal-installation/",
+        "/service-areas/raleigh-nc/",
+        "/service-areas/raleigh-nc/mold-remediation/",
+        "/service-areas/raleigh-nc/water-damage-restoration/",
+        "/service-areas/durham-nc/insulation-removal-installation/",
+        "/service-areas/middlesex-nc/insulation-removal-installation/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/durham-nc/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in Durham, NC | Go agree Restoration of NC",
+      "title": "Water Damage Restoration in Durham, NC | Go Green Restoration of NC",
       "h1": "Water Damage Restoration in Durham",
-      "meta_description": "Water damage restoration in Durham, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "meta_description": "24/7 water damage restoration in Durham, NC. Insurance billing accepted. Call (919) 906-5473.",
       "primary_keyword": "water damage restoration durham",
       "secondary_keywords": [
         "water removal",
@@ -980,7 +1410,7 @@
         "/services/water-damage-restoration/",
         "/service-areas/durham-nc/",
         "/service-areas/durham-nc/mold-remediation/",
-        "/service-areas/durham-nc/crawl-space-encapsulation/",
+        "/service-areas/durham-nc/air-duct-cleaning/",
         "/service-areas/middlesex-nc/water-damage-restoration/",
         "/service-areas/raleigh-nc/water-damage-restoration/",
         "/contact/"
@@ -993,9 +1423,9 @@
         "area",
         "service"
       ],
-      "title": "Mold Remediation in Durham, NC | Go agree Restoration of NC",
+      "title": "Mold Remediation in Durham, NC | Go Green Restoration of NC",
       "h1": "Mold Remediation in Durham",
-      "meta_description": "Mold remediation in Durham, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "meta_description": "24/7 mold remediation in Durham, NC. Insurance billing accepted. Call (919) 906-5473.",
       "primary_keyword": "mold remediation durham",
       "secondary_keywords": [
         "mold removal",
@@ -1024,7 +1454,7 @@
         "/services/mold-remediation/",
         "/service-areas/durham-nc/",
         "/service-areas/durham-nc/water-damage-restoration/",
-        "/service-areas/durham-nc/crawl-space-encapsulation/",
+        "/service-areas/durham-nc/air-duct-cleaning/",
         "/service-areas/middlesex-nc/mold-remediation/",
         "/service-areas/raleigh-nc/mold-remediation/",
         "/contact/"
@@ -1037,9 +1467,9 @@
         "area",
         "service"
       ],
-      "title": "Crawl Space Encapsulation in Durham, NC | Go agree Restoration of NC",
+      "title": "Crawl Space Encapsulation in Durham, NC | Go Green Restoration of NC",
       "h1": "Crawl Space Encapsulation in Durham",
-      "meta_description": "Crawl space encapsulation in Durham, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "meta_description": "24/7 crawl space encapsulation in Durham, NC. Insurance billing accepted. Call (919) 906-5473.",
       "primary_keyword": "crawl space encapsulation durham",
       "secondary_keywords": [],
       "search_intent": "local_specialty",
@@ -1069,15 +1499,145 @@
       ]
     },
     {
+      "url_path": "/service-areas/durham-nc/air-duct-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Duct Cleaning in Durham, NC | Go Green Restoration of NC",
+      "h1": "Air Duct Cleaning in Durham",
+      "meta_description": "24/7 air duct cleaning in Durham, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "primary_keyword": "air duct cleaning durham",
+      "secondary_keywords": [
+        "duct cleaning",
+        "HVAC duct cleaning",
+        "air duct sanitization",
+        "dryer vent cleaning",
+        "residential duct cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/air-duct-cleaning/",
+        "/service-areas/durham-nc/",
+        "/service-areas/durham-nc/mold-remediation/",
+        "/service-areas/durham-nc/water-damage-restoration/",
+        "/service-areas/middlesex-nc/air-duct-cleaning/",
+        "/service-areas/raleigh-nc/air-duct-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/durham-nc/carpet-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet Cleaning in Durham, NC | Go Green Restoration of NC",
+      "h1": "Carpet Cleaning in Durham",
+      "meta_description": "24/7 carpet cleaning in Durham, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "primary_keyword": "carpet cleaning durham",
+      "secondary_keywords": [
+        "professional carpet cleaning",
+        "deep carpet cleaning",
+        "carpet stain removal",
+        "commercial carpet cleaning",
+        "carpet sanitization"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-cleaning/",
+        "/service-areas/durham-nc/",
+        "/service-areas/durham-nc/mold-remediation/",
+        "/service-areas/durham-nc/water-damage-restoration/",
+        "/service-areas/middlesex-nc/carpet-cleaning/",
+        "/service-areas/raleigh-nc/carpet-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/durham-nc/insulation-removal-installation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Insulation Removal & Installation in Durham, NC | Go Green Restoration of NC",
+      "h1": "Insulation Removal & Installation in Durham",
+      "meta_description": "24/7 insulation removal & installation in Durham, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "primary_keyword": "insulation removal & installation durham",
+      "secondary_keywords": [
+        "attic insulation removal",
+        "crawl space insulation replacement",
+        "blown-in insulation"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/insulation-removal-installation/",
+        "/service-areas/durham-nc/",
+        "/service-areas/durham-nc/mold-remediation/",
+        "/service-areas/durham-nc/water-damage-restoration/",
+        "/service-areas/middlesex-nc/insulation-removal-installation/",
+        "/service-areas/raleigh-nc/insulation-removal-installation/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/rocky-mount-nc/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in Rocky Mount, NC | Go agree Restoration of NC",
+      "title": "Water Damage Restoration in Rocky Mount, NC | Go Green Restoration of NC",
       "h1": "Water Damage Restoration in Rocky Mount",
-      "meta_description": "Water damage restoration in Rocky Mount, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "meta_description": "24/7 water damage restoration in Rocky Mount, NC. Insurance billing accepted. Call (919) 906-5473.",
       "primary_keyword": "water damage restoration rocky mount",
       "secondary_keywords": [
         "water removal",
@@ -1106,7 +1666,7 @@
         "/services/water-damage-restoration/",
         "/service-areas/rocky-mount-nc/",
         "/service-areas/rocky-mount-nc/mold-remediation/",
-        "/service-areas/rocky-mount-nc/crawl-space-encapsulation/",
+        "/service-areas/rocky-mount-nc/air-duct-cleaning/",
         "/service-areas/durham-nc/water-damage-restoration/",
         "/service-areas/middlesex-nc/water-damage-restoration/",
         "/contact/"
@@ -1119,9 +1679,9 @@
         "area",
         "service"
       ],
-      "title": "Mold Remediation in Rocky Mount, NC | Go agree Restoration of NC",
+      "title": "Mold Remediation in Rocky Mount, NC | Go Green Restoration of NC",
       "h1": "Mold Remediation in Rocky Mount",
-      "meta_description": "Mold remediation in Rocky Mount, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "meta_description": "24/7 mold remediation in Rocky Mount, NC. Insurance billing accepted. Call (919) 906-5473.",
       "primary_keyword": "mold remediation rocky mount",
       "secondary_keywords": [
         "mold removal",
@@ -1150,7 +1710,7 @@
         "/services/mold-remediation/",
         "/service-areas/rocky-mount-nc/",
         "/service-areas/rocky-mount-nc/water-damage-restoration/",
-        "/service-areas/rocky-mount-nc/crawl-space-encapsulation/",
+        "/service-areas/rocky-mount-nc/air-duct-cleaning/",
         "/service-areas/durham-nc/mold-remediation/",
         "/service-areas/middlesex-nc/mold-remediation/",
         "/contact/"
@@ -1163,9 +1723,9 @@
         "area",
         "service"
       ],
-      "title": "Crawl Space Encapsulation in Rocky Mount, NC | Go agree Restoration of NC",
+      "title": "Crawl Space Encapsulation in Rocky Mount, NC | Go Green Restoration of NC",
       "h1": "Crawl Space Encapsulation in Rocky Mount",
-      "meta_description": "Crawl space encapsulation in Rocky Mount, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "meta_description": "24/7 crawl space encapsulation in Rocky Mount, NC. Insurance billing accepted. Call (919) 906-5473.",
       "primary_keyword": "crawl space encapsulation rocky mount",
       "secondary_keywords": [],
       "search_intent": "local_specialty",
@@ -1195,15 +1755,145 @@
       ]
     },
     {
+      "url_path": "/service-areas/rocky-mount-nc/air-duct-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Duct Cleaning in Rocky Mount, NC | Go Green Restoration of NC",
+      "h1": "Air Duct Cleaning in Rocky Mount",
+      "meta_description": "24/7 air duct cleaning in Rocky Mount, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "primary_keyword": "air duct cleaning rocky mount",
+      "secondary_keywords": [
+        "duct cleaning",
+        "HVAC duct cleaning",
+        "air duct sanitization",
+        "dryer vent cleaning",
+        "residential duct cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/air-duct-cleaning/",
+        "/service-areas/rocky-mount-nc/",
+        "/service-areas/rocky-mount-nc/mold-remediation/",
+        "/service-areas/rocky-mount-nc/water-damage-restoration/",
+        "/service-areas/durham-nc/air-duct-cleaning/",
+        "/service-areas/middlesex-nc/air-duct-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/rocky-mount-nc/carpet-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet Cleaning in Rocky Mount, NC | Go Green Restoration of NC",
+      "h1": "Carpet Cleaning in Rocky Mount",
+      "meta_description": "24/7 carpet cleaning in Rocky Mount, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "primary_keyword": "carpet cleaning rocky mount",
+      "secondary_keywords": [
+        "professional carpet cleaning",
+        "deep carpet cleaning",
+        "carpet stain removal",
+        "commercial carpet cleaning",
+        "carpet sanitization"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-cleaning/",
+        "/service-areas/rocky-mount-nc/",
+        "/service-areas/rocky-mount-nc/mold-remediation/",
+        "/service-areas/rocky-mount-nc/water-damage-restoration/",
+        "/service-areas/durham-nc/carpet-cleaning/",
+        "/service-areas/middlesex-nc/carpet-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/rocky-mount-nc/insulation-removal-installation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Insulation Removal & Installation in Rocky Mount, NC | Go Green Restoration of NC",
+      "h1": "Insulation Removal & Installation in Rocky Mount",
+      "meta_description": "24/7 insulation removal & installation in Rocky Mount, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "primary_keyword": "insulation removal & installation rocky mount",
+      "secondary_keywords": [
+        "attic insulation removal",
+        "crawl space insulation replacement",
+        "blown-in insulation"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/insulation-removal-installation/",
+        "/service-areas/rocky-mount-nc/",
+        "/service-areas/rocky-mount-nc/mold-remediation/",
+        "/service-areas/rocky-mount-nc/water-damage-restoration/",
+        "/service-areas/durham-nc/insulation-removal-installation/",
+        "/service-areas/middlesex-nc/insulation-removal-installation/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/wilson-nc/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in Wilson, NC | Go agree Restoration of NC",
+      "title": "Water Damage Restoration in Wilson, NC | Go Green Restoration of NC",
       "h1": "Water Damage Restoration in Wilson",
-      "meta_description": "Water damage restoration in Wilson, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "meta_description": "24/7 water damage restoration in Wilson, NC. Insurance billing accepted. Call (919) 906-5473.",
       "primary_keyword": "water damage restoration wilson",
       "secondary_keywords": [
         "water removal",
@@ -1232,7 +1922,7 @@
         "/services/water-damage-restoration/",
         "/service-areas/wilson-nc/",
         "/service-areas/wilson-nc/mold-remediation/",
-        "/service-areas/wilson-nc/crawl-space-encapsulation/",
+        "/service-areas/wilson-nc/air-duct-cleaning/",
         "/service-areas/durham-nc/water-damage-restoration/",
         "/service-areas/middlesex-nc/water-damage-restoration/",
         "/contact/"
@@ -1245,9 +1935,9 @@
         "area",
         "service"
       ],
-      "title": "Mold Remediation in Wilson, NC | Go agree Restoration of NC",
+      "title": "Mold Remediation in Wilson, NC | Go Green Restoration of NC",
       "h1": "Mold Remediation in Wilson",
-      "meta_description": "Mold remediation in Wilson, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "meta_description": "24/7 mold remediation in Wilson, NC. Insurance billing accepted. Call (919) 906-5473.",
       "primary_keyword": "mold remediation wilson",
       "secondary_keywords": [
         "mold removal",
@@ -1276,7 +1966,7 @@
         "/services/mold-remediation/",
         "/service-areas/wilson-nc/",
         "/service-areas/wilson-nc/water-damage-restoration/",
-        "/service-areas/wilson-nc/crawl-space-encapsulation/",
+        "/service-areas/wilson-nc/air-duct-cleaning/",
         "/service-areas/durham-nc/mold-remediation/",
         "/service-areas/middlesex-nc/mold-remediation/",
         "/contact/"
@@ -1289,9 +1979,9 @@
         "area",
         "service"
       ],
-      "title": "Crawl Space Encapsulation in Wilson, NC | Go agree Restoration of NC",
+      "title": "Crawl Space Encapsulation in Wilson, NC | Go Green Restoration of NC",
       "h1": "Crawl Space Encapsulation in Wilson",
-      "meta_description": "Crawl space encapsulation in Wilson, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "meta_description": "24/7 crawl space encapsulation in Wilson, NC. Insurance billing accepted. Call (919) 906-5473.",
       "primary_keyword": "crawl space encapsulation wilson",
       "secondary_keywords": [],
       "search_intent": "local_specialty",
@@ -1321,15 +2011,145 @@
       ]
     },
     {
+      "url_path": "/service-areas/wilson-nc/air-duct-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Duct Cleaning in Wilson, NC | Go Green Restoration of NC",
+      "h1": "Air Duct Cleaning in Wilson",
+      "meta_description": "24/7 air duct cleaning in Wilson, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "primary_keyword": "air duct cleaning wilson",
+      "secondary_keywords": [
+        "duct cleaning",
+        "HVAC duct cleaning",
+        "air duct sanitization",
+        "dryer vent cleaning",
+        "residential duct cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/air-duct-cleaning/",
+        "/service-areas/wilson-nc/",
+        "/service-areas/wilson-nc/mold-remediation/",
+        "/service-areas/wilson-nc/water-damage-restoration/",
+        "/service-areas/durham-nc/air-duct-cleaning/",
+        "/service-areas/middlesex-nc/air-duct-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/wilson-nc/carpet-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet Cleaning in Wilson, NC | Go Green Restoration of NC",
+      "h1": "Carpet Cleaning in Wilson",
+      "meta_description": "24/7 carpet cleaning in Wilson, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "primary_keyword": "carpet cleaning wilson",
+      "secondary_keywords": [
+        "professional carpet cleaning",
+        "deep carpet cleaning",
+        "carpet stain removal",
+        "commercial carpet cleaning",
+        "carpet sanitization"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-cleaning/",
+        "/service-areas/wilson-nc/",
+        "/service-areas/wilson-nc/mold-remediation/",
+        "/service-areas/wilson-nc/water-damage-restoration/",
+        "/service-areas/durham-nc/carpet-cleaning/",
+        "/service-areas/middlesex-nc/carpet-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/wilson-nc/insulation-removal-installation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Insulation Removal & Installation in Wilson, NC | Go Green Restoration of NC",
+      "h1": "Insulation Removal & Installation in Wilson",
+      "meta_description": "24/7 insulation removal & installation in Wilson, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "primary_keyword": "insulation removal & installation wilson",
+      "secondary_keywords": [
+        "attic insulation removal",
+        "crawl space insulation replacement",
+        "blown-in insulation"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/insulation-removal-installation/",
+        "/service-areas/wilson-nc/",
+        "/service-areas/wilson-nc/mold-remediation/",
+        "/service-areas/wilson-nc/water-damage-restoration/",
+        "/service-areas/durham-nc/insulation-removal-installation/",
+        "/service-areas/middlesex-nc/insulation-removal-installation/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/smithfield-nc/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in Smithfield, NC | Go agree Restoration of NC",
+      "title": "Water Damage Restoration in Smithfield, NC | Go Green Restoration of NC",
       "h1": "Water Damage Restoration in Smithfield",
-      "meta_description": "Water damage restoration in Smithfield, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "meta_description": "24/7 water damage restoration in Smithfield, NC. Insurance billing accepted. Call (919) 906-5473.",
       "primary_keyword": "water damage restoration smithfield",
       "secondary_keywords": [
         "water removal",
@@ -1358,7 +2178,7 @@
         "/services/water-damage-restoration/",
         "/service-areas/smithfield-nc/",
         "/service-areas/smithfield-nc/mold-remediation/",
-        "/service-areas/smithfield-nc/crawl-space-encapsulation/",
+        "/service-areas/smithfield-nc/air-duct-cleaning/",
         "/service-areas/durham-nc/water-damage-restoration/",
         "/service-areas/middlesex-nc/water-damage-restoration/",
         "/contact/"
@@ -1371,9 +2191,9 @@
         "area",
         "service"
       ],
-      "title": "Mold Remediation in Smithfield, NC | Go agree Restoration of NC",
+      "title": "Mold Remediation in Smithfield, NC | Go Green Restoration of NC",
       "h1": "Mold Remediation in Smithfield",
-      "meta_description": "Mold remediation in Smithfield, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "meta_description": "24/7 mold remediation in Smithfield, NC. Insurance billing accepted. Call (919) 906-5473.",
       "primary_keyword": "mold remediation smithfield",
       "secondary_keywords": [
         "mold removal",
@@ -1402,7 +2222,7 @@
         "/services/mold-remediation/",
         "/service-areas/smithfield-nc/",
         "/service-areas/smithfield-nc/water-damage-restoration/",
-        "/service-areas/smithfield-nc/crawl-space-encapsulation/",
+        "/service-areas/smithfield-nc/air-duct-cleaning/",
         "/service-areas/durham-nc/mold-remediation/",
         "/service-areas/middlesex-nc/mold-remediation/",
         "/contact/"
@@ -1415,9 +2235,9 @@
         "area",
         "service"
       ],
-      "title": "Crawl Space Encapsulation in Smithfield, NC | Go agree Restoration of NC",
+      "title": "Crawl Space Encapsulation in Smithfield, NC | Go Green Restoration of NC",
       "h1": "Crawl Space Encapsulation in Smithfield",
-      "meta_description": "Crawl space encapsulation in Smithfield, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "meta_description": "24/7 crawl space encapsulation in Smithfield, NC. Insurance billing accepted. Call (919) 906-5473.",
       "primary_keyword": "crawl space encapsulation smithfield",
       "secondary_keywords": [],
       "search_intent": "local_specialty",
@@ -1447,15 +2267,145 @@
       ]
     },
     {
+      "url_path": "/service-areas/smithfield-nc/air-duct-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Duct Cleaning in Smithfield, NC | Go Green Restoration of NC",
+      "h1": "Air Duct Cleaning in Smithfield",
+      "meta_description": "24/7 air duct cleaning in Smithfield, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "primary_keyword": "air duct cleaning smithfield",
+      "secondary_keywords": [
+        "duct cleaning",
+        "HVAC duct cleaning",
+        "air duct sanitization",
+        "dryer vent cleaning",
+        "residential duct cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/air-duct-cleaning/",
+        "/service-areas/smithfield-nc/",
+        "/service-areas/smithfield-nc/mold-remediation/",
+        "/service-areas/smithfield-nc/water-damage-restoration/",
+        "/service-areas/durham-nc/air-duct-cleaning/",
+        "/service-areas/middlesex-nc/air-duct-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/smithfield-nc/carpet-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet Cleaning in Smithfield, NC | Go Green Restoration of NC",
+      "h1": "Carpet Cleaning in Smithfield",
+      "meta_description": "24/7 carpet cleaning in Smithfield, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "primary_keyword": "carpet cleaning smithfield",
+      "secondary_keywords": [
+        "professional carpet cleaning",
+        "deep carpet cleaning",
+        "carpet stain removal",
+        "commercial carpet cleaning",
+        "carpet sanitization"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-cleaning/",
+        "/service-areas/smithfield-nc/",
+        "/service-areas/smithfield-nc/mold-remediation/",
+        "/service-areas/smithfield-nc/water-damage-restoration/",
+        "/service-areas/durham-nc/carpet-cleaning/",
+        "/service-areas/middlesex-nc/carpet-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/smithfield-nc/insulation-removal-installation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Insulation Removal & Installation in Smithfield, NC | Go Green Restoration of NC",
+      "h1": "Insulation Removal & Installation in Smithfield",
+      "meta_description": "24/7 insulation removal & installation in Smithfield, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "primary_keyword": "insulation removal & installation smithfield",
+      "secondary_keywords": [
+        "attic insulation removal",
+        "crawl space insulation replacement",
+        "blown-in insulation"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/insulation-removal-installation/",
+        "/service-areas/smithfield-nc/",
+        "/service-areas/smithfield-nc/mold-remediation/",
+        "/service-areas/smithfield-nc/water-damage-restoration/",
+        "/service-areas/durham-nc/insulation-removal-installation/",
+        "/service-areas/middlesex-nc/insulation-removal-installation/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/wake-forest-nc/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in Wake Forest, NC | Go agree Restoration of NC",
+      "title": "Water Damage Restoration in Wake Forest, NC | Go Green Restoration of NC",
       "h1": "Water Damage Restoration in Wake Forest",
-      "meta_description": "Water damage restoration in Wake Forest, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "meta_description": "24/7 water damage restoration in Wake Forest, NC. Insurance billing accepted. Call (919) 906-5473.",
       "primary_keyword": "water damage restoration wake forest",
       "secondary_keywords": [
         "water removal",
@@ -1484,7 +2434,7 @@
         "/services/water-damage-restoration/",
         "/service-areas/wake-forest-nc/",
         "/service-areas/wake-forest-nc/mold-remediation/",
-        "/service-areas/wake-forest-nc/crawl-space-encapsulation/",
+        "/service-areas/wake-forest-nc/air-duct-cleaning/",
         "/service-areas/durham-nc/water-damage-restoration/",
         "/service-areas/middlesex-nc/water-damage-restoration/",
         "/contact/"
@@ -1497,9 +2447,9 @@
         "area",
         "service"
       ],
-      "title": "Mold Remediation in Wake Forest, NC | Go agree Restoration of NC",
+      "title": "Mold Remediation in Wake Forest, NC | Go Green Restoration of NC",
       "h1": "Mold Remediation in Wake Forest",
-      "meta_description": "Mold remediation in Wake Forest, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "meta_description": "24/7 mold remediation in Wake Forest, NC. Insurance billing accepted. Call (919) 906-5473.",
       "primary_keyword": "mold remediation wake forest",
       "secondary_keywords": [
         "mold removal",
@@ -1528,7 +2478,7 @@
         "/services/mold-remediation/",
         "/service-areas/wake-forest-nc/",
         "/service-areas/wake-forest-nc/water-damage-restoration/",
-        "/service-areas/wake-forest-nc/crawl-space-encapsulation/",
+        "/service-areas/wake-forest-nc/air-duct-cleaning/",
         "/service-areas/durham-nc/mold-remediation/",
         "/service-areas/middlesex-nc/mold-remediation/",
         "/contact/"
@@ -1541,9 +2491,9 @@
         "area",
         "service"
       ],
-      "title": "Crawl Space Encapsulation in Wake Forest, NC | Go agree Restoration of NC",
+      "title": "Crawl Space Encapsulation in Wake Forest, NC | Go Green Restoration of NC",
       "h1": "Crawl Space Encapsulation in Wake Forest",
-      "meta_description": "Crawl space encapsulation in Wake Forest, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "meta_description": "24/7 crawl space encapsulation in Wake Forest, NC. Insurance billing accepted. Call (919) 906-5473.",
       "primary_keyword": "crawl space encapsulation wake forest",
       "secondary_keywords": [],
       "search_intent": "local_specialty",
@@ -1573,15 +2523,145 @@
       ]
     },
     {
+      "url_path": "/service-areas/wake-forest-nc/air-duct-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Duct Cleaning in Wake Forest, NC | Go Green Restoration of NC",
+      "h1": "Air Duct Cleaning in Wake Forest",
+      "meta_description": "24/7 air duct cleaning in Wake Forest, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "primary_keyword": "air duct cleaning wake forest",
+      "secondary_keywords": [
+        "duct cleaning",
+        "HVAC duct cleaning",
+        "air duct sanitization",
+        "dryer vent cleaning",
+        "residential duct cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/air-duct-cleaning/",
+        "/service-areas/wake-forest-nc/",
+        "/service-areas/wake-forest-nc/mold-remediation/",
+        "/service-areas/wake-forest-nc/water-damage-restoration/",
+        "/service-areas/durham-nc/air-duct-cleaning/",
+        "/service-areas/middlesex-nc/air-duct-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/wake-forest-nc/carpet-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet Cleaning in Wake Forest, NC | Go Green Restoration of NC",
+      "h1": "Carpet Cleaning in Wake Forest",
+      "meta_description": "24/7 carpet cleaning in Wake Forest, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "primary_keyword": "carpet cleaning wake forest",
+      "secondary_keywords": [
+        "professional carpet cleaning",
+        "deep carpet cleaning",
+        "carpet stain removal",
+        "commercial carpet cleaning",
+        "carpet sanitization"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-cleaning/",
+        "/service-areas/wake-forest-nc/",
+        "/service-areas/wake-forest-nc/mold-remediation/",
+        "/service-areas/wake-forest-nc/water-damage-restoration/",
+        "/service-areas/durham-nc/carpet-cleaning/",
+        "/service-areas/middlesex-nc/carpet-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/wake-forest-nc/insulation-removal-installation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Insulation Removal & Installation in Wake Forest, NC | Go Green Restoration of NC",
+      "h1": "Insulation Removal & Installation in Wake Forest",
+      "meta_description": "24/7 insulation removal & installation in Wake Forest, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "primary_keyword": "insulation removal & installation wake forest",
+      "secondary_keywords": [
+        "attic insulation removal",
+        "crawl space insulation replacement",
+        "blown-in insulation"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/insulation-removal-installation/",
+        "/service-areas/wake-forest-nc/",
+        "/service-areas/wake-forest-nc/mold-remediation/",
+        "/service-areas/wake-forest-nc/water-damage-restoration/",
+        "/service-areas/durham-nc/insulation-removal-installation/",
+        "/service-areas/middlesex-nc/insulation-removal-installation/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/zebulon-nc/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in Zebulon, NC | Go agree Restoration of NC",
+      "title": "Water Damage Restoration in Zebulon, NC | Go Green Restoration of NC",
       "h1": "Water Damage Restoration in Zebulon",
-      "meta_description": "Water damage restoration in Zebulon, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "meta_description": "24/7 water damage restoration in Zebulon, NC. Insurance billing accepted. Call (919) 906-5473.",
       "primary_keyword": "water damage restoration zebulon",
       "secondary_keywords": [
         "water removal",
@@ -1610,7 +2690,7 @@
         "/services/water-damage-restoration/",
         "/service-areas/zebulon-nc/",
         "/service-areas/zebulon-nc/mold-remediation/",
-        "/service-areas/zebulon-nc/crawl-space-encapsulation/",
+        "/service-areas/zebulon-nc/air-duct-cleaning/",
         "/service-areas/durham-nc/water-damage-restoration/",
         "/service-areas/middlesex-nc/water-damage-restoration/",
         "/contact/"
@@ -1623,9 +2703,9 @@
         "area",
         "service"
       ],
-      "title": "Mold Remediation in Zebulon, NC | Go agree Restoration of NC",
+      "title": "Mold Remediation in Zebulon, NC | Go Green Restoration of NC",
       "h1": "Mold Remediation in Zebulon",
-      "meta_description": "Mold remediation in Zebulon, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "meta_description": "24/7 mold remediation in Zebulon, NC. Insurance billing accepted. Call (919) 906-5473.",
       "primary_keyword": "mold remediation zebulon",
       "secondary_keywords": [
         "mold removal",
@@ -1654,7 +2734,7 @@
         "/services/mold-remediation/",
         "/service-areas/zebulon-nc/",
         "/service-areas/zebulon-nc/water-damage-restoration/",
-        "/service-areas/zebulon-nc/crawl-space-encapsulation/",
+        "/service-areas/zebulon-nc/air-duct-cleaning/",
         "/service-areas/durham-nc/mold-remediation/",
         "/service-areas/middlesex-nc/mold-remediation/",
         "/contact/"
@@ -1667,9 +2747,9 @@
         "area",
         "service"
       ],
-      "title": "Crawl Space Encapsulation in Zebulon, NC | Go agree Restoration of NC",
+      "title": "Crawl Space Encapsulation in Zebulon, NC | Go Green Restoration of NC",
       "h1": "Crawl Space Encapsulation in Zebulon",
-      "meta_description": "Crawl space encapsulation in Zebulon, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "meta_description": "24/7 crawl space encapsulation in Zebulon, NC. Insurance billing accepted. Call (919) 906-5473.",
       "primary_keyword": "crawl space encapsulation zebulon",
       "secondary_keywords": [],
       "search_intent": "local_specialty",
@@ -1695,6 +2775,136 @@
         "/service-areas/zebulon-nc/water-damage-restoration/",
         "/service-areas/durham-nc/crawl-space-encapsulation/",
         "/service-areas/middlesex-nc/crawl-space-encapsulation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/zebulon-nc/air-duct-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Duct Cleaning in Zebulon, NC | Go Green Restoration of NC",
+      "h1": "Air Duct Cleaning in Zebulon",
+      "meta_description": "24/7 air duct cleaning in Zebulon, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "primary_keyword": "air duct cleaning zebulon",
+      "secondary_keywords": [
+        "duct cleaning",
+        "HVAC duct cleaning",
+        "air duct sanitization",
+        "dryer vent cleaning",
+        "residential duct cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/air-duct-cleaning/",
+        "/service-areas/zebulon-nc/",
+        "/service-areas/zebulon-nc/mold-remediation/",
+        "/service-areas/zebulon-nc/water-damage-restoration/",
+        "/service-areas/durham-nc/air-duct-cleaning/",
+        "/service-areas/middlesex-nc/air-duct-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/zebulon-nc/carpet-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet Cleaning in Zebulon, NC | Go Green Restoration of NC",
+      "h1": "Carpet Cleaning in Zebulon",
+      "meta_description": "24/7 carpet cleaning in Zebulon, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "primary_keyword": "carpet cleaning zebulon",
+      "secondary_keywords": [
+        "professional carpet cleaning",
+        "deep carpet cleaning",
+        "carpet stain removal",
+        "commercial carpet cleaning",
+        "carpet sanitization"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-cleaning/",
+        "/service-areas/zebulon-nc/",
+        "/service-areas/zebulon-nc/mold-remediation/",
+        "/service-areas/zebulon-nc/water-damage-restoration/",
+        "/service-areas/durham-nc/carpet-cleaning/",
+        "/service-areas/middlesex-nc/carpet-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/zebulon-nc/insulation-removal-installation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Insulation Removal & Installation in Zebulon, NC | Go Green Restoration of NC",
+      "h1": "Insulation Removal & Installation in Zebulon",
+      "meta_description": "24/7 insulation removal & installation in Zebulon, NC. Insurance billing accepted. Call (919) 906-5473.",
+      "primary_keyword": "insulation removal & installation zebulon",
+      "secondary_keywords": [
+        "attic insulation removal",
+        "crawl space insulation replacement",
+        "blown-in insulation"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/insulation-removal-installation/",
+        "/service-areas/zebulon-nc/",
+        "/service-areas/zebulon-nc/mold-remediation/",
+        "/service-areas/zebulon-nc/water-damage-restoration/",
+        "/service-areas/durham-nc/insulation-removal-installation/",
+        "/service-areas/middlesex-nc/insulation-removal-installation/",
         "/contact/"
       ]
     },
@@ -1740,10 +2950,10 @@
       "vars_keys": [
         "post"
       ],
-      "title": "Burst Pipe Checklist: Step-by-Step Response",
-      "h1": "Burst Pipe Checklist: Step-by-Step Response",
+      "title": "Burst Pipe Emergency Checklist: Step-by-Step Response",
+      "h1": "Burst Pipe Emergency Checklist: Step-by-Step Response",
       "meta_description": "",
-      "primary_keyword": "burst pipe checklist stepbystep response",
+      "primary_keyword": "burst pipe emergency checklist stepbystep response",
       "secondary_keywords": [
         "water damage restoration",
         "appliance leak cleanup"
@@ -1997,10 +3207,10 @@
       "vars_keys": [
         "instance"
       ],
-      "title": "Privacy Policy | Go agree Restoration of NC",
+      "title": "Privacy Policy | Go Green Restoration of NC",
       "h1": "Privacy Policy",
       "meta_description": "Privacy Policy | {brand.display_name}.",
-      "primary_keyword": "go agree restoration of nc privacy",
+      "primary_keyword": "go green restoration of nc privacy",
       "secondary_keywords": [],
       "search_intent": "navigational_legal",
       "target_word_count": 600,
@@ -2018,10 +3228,10 @@
       "vars_keys": [
         "instance"
       ],
-      "title": "Terms of Service | Go agree Restoration of NC",
+      "title": "Terms of Service | Go Green Restoration of NC",
       "h1": "Terms of Service",
       "meta_description": "Terms of Service | {brand.display_name}.",
-      "primary_keyword": "go agree restoration of nc terms",
+      "primary_keyword": "go green restoration of nc terms",
       "secondary_keywords": [],
       "search_intent": "navigational_legal",
       "target_word_count": 600,
@@ -2039,10 +3249,10 @@
       "vars_keys": [
         "instance"
       ],
-      "title": "Accessibility Statement | Go agree Restoration of NC",
+      "title": "Accessibility Statement | Go Green Restoration of NC",
       "h1": "Accessibility Statement",
       "meta_description": "Accessibility Statement | {brand.display_name}.",
-      "primary_keyword": "go agree restoration of nc accessibility",
+      "primary_keyword": "go green restoration of nc accessibility",
       "secondary_keywords": [],
       "search_intent": "navigational_legal",
       "target_word_count": 400,

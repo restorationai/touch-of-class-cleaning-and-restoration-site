@@ -20,6 +20,7 @@ This is a LOCATION page. It must read like it was written for someone living in 
 - **At least 2 named landmarks from this list**: {area.landmarks}
 - **At least 2 ZIP codes from this list**: {area.zip_codes}
 - **A neighborhood-specific paragraph** that references the area's restoration characteristics from this context: {area.local_notes}
+- **If the neighborhood / landmark / ZIP lists above are empty**: do NOT refuse and do NOT invent specifics. Write at the city level (city, county, state routes only if provided in context) and skip the named-local requirements — empty local context is an accepted degraded mode for freshly onboarded clients. Never fabricate a neighborhood, landmark, or ZIP.
 
 # CRITICAL: UNIQUENESS
 

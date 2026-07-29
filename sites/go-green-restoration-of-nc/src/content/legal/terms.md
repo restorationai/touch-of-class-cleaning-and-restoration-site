@@ -1,6 +1,6 @@
 ---
 archetype: "legal"
-title: "Terms of Service | Go agree Restoration of NC"
+title: "Terms of Service | Go Green Restoration of NC"
 h1: "Terms of Service"
 meta_description: "Terms of Service | {brand.display_name}."
 primary_keyword: "go agree restoration of nc terms"

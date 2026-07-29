@@ -1,6 +1,6 @@
 ---
 archetype: "service-area"
-title: "Restoration Services in Wake Forest, NC | Go agree Restoration of NC"
+title: "Restoration Services in Wake Forest, NC | Go Green Restoration of NC"
 h1: "Restoration Services in Wake Forest"
 meta_description: "Serving Wake Forest, NC with water, fire, mold, and storm damage restoration. Experienced team. Call (919) 906-5473."
 primary_keyword: "restoration services wake forest"

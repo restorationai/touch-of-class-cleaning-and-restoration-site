@@ -35,7 +35,7 @@ const hasRating = clean(brand.gbpRatingValue) && clean(brand.gbpReviewCount);
 const hoursText = clean(brand.hours);
 ---
 
-<section class="section bg-navy">
+<section class="section bg-dark-50">
   <div class="container-wide">
     <div class="mb-8">
       <div class="eyebrow">Coverage</div>
@@ -79,7 +79,7 @@ const hoursText = clean(brand.hours);
       </div>
 
       <!-- Real Google Business Profile map (lazy-loaded — no LCP/CWV impact) -->
-      <div class="rounded-xl overflow-hidden border border-white/10 shadow-2xl min-h-[340px]">
+      <div class="rounded-xl overflow-hidden border border-dark/10 shadow-2xl min-h-[340px]">
         <iframe
           src={embedSrc}
           width="100%"

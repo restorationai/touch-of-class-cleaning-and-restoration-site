@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Mold Remediation in Wilson, NC | Go agree Restoration of NC"
+title: "Mold Remediation in Wilson, NC | Go Green Restoration of NC"
 h1: "Mold Remediation in Wilson"
 meta_description: "Mold remediation in Wilson, NC. Insurance billing accepted. Call (919) 906-5473."
 primary_keyword: "mold remediation wilson"

@@ -1,22 +1,22 @@
-# Site Plan Report — Go agree Restoration of NC
+# Site Plan Report — Go Green Restoration of NC
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-07-28T14:43:23.124709+00:00
+- Generated: 2026-07-29T15:37:46.611856+00:00
 - Domain: `None`
-- Services selected: 3 of 53 catalog entries
+- Services selected: 6 of 54 catalog entries
 - Service areas: 8
 - Cross-product enabled: True
-- Total URLs: **52**
-- Total internal links: 352 (avg 6.8 per page)
+- Total URLs: **79**
+- Total internal links: 580 (avg 7.3 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 24 |
+| `service-area-service` | 48 |
 | `service-area` | 8 |
 | `blog-post` | 8 |
-| `service-landing` | 3 |
+| `service-landing` | 6 |
 | `legal` | 3 |
 | `home` | 1 |
 | `services-hub` | 1 |
@@ -30,6 +30,9 @@
 - `water-damage-restoration` — Water Damage Restoration (core, priority 10)
 - `mold-remediation` — Mold Remediation (core, priority 10)
 - `crawl-space-encapsulation` — Crawl Space Encapsulation (adjacent, priority 5)
+- `air-duct-cleaning` — Air Duct Cleaning (adjacent, priority 5)
+- `carpet-cleaning` — Carpet Cleaning (adjacent, priority 4)
+- `insulation-removal-installation` — Insulation Removal & Installation (adjacent, priority 5)
 
 ## Service areas
 

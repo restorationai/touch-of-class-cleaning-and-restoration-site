@@ -1,6 +1,6 @@
 ---
 archetype: "services-hub"
-title: "Restoration Services in Middlesex | Go agree Restoration of NC"
+title: "Restoration Services in Middlesex | Go Green Restoration of NC"
 h1: "Our Restoration Services"
 meta_description: "Full-service restoration in Middlesex: water, fire, mold, storm, biohazard, and commercial restoration. Prompt scheduling. Call (919) 906-5473."
 primary_keyword: "restoration services middlesex"

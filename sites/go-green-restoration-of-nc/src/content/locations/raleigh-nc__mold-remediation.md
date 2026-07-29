@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Mold Remediation in Raleigh, NC | Go agree Restoration of NC"
+title: "Mold Remediation in Raleigh, NC | Go Green Restoration of NC"
 h1: "Mold Remediation in Raleigh"
 meta_description: "Mold remediation in Raleigh, NC. Insurance billing accepted. Call (919) 906-5473."
 primary_keyword: "mold remediation raleigh"

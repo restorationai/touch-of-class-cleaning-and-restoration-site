@@ -1,6 +1,6 @@
 ---
 archetype: "service-area"
-title: "Restoration Services in Durham, NC | Go agree Restoration of NC"
+title: "Restoration Services in Durham, NC | Go Green Restoration of NC"
 h1: "Restoration Services in Durham"
 meta_description: "Serving Durham, NC with water, fire, mold, and storm damage restoration. Experienced team. Call (919) 906-5473."
 primary_keyword: "restoration services durham"

@@ -1,4 +1,4 @@
-# Go agree Restoration of NC: Image Style Guide
+# Go Green Restoration of NC: Image Style Guide
 
 This guide is consulted by every image-generation call (Skill 3 launch images, Skill 4 blog hero images, future image regenerations). The goal: a viewer scrolling through the site should feel like one professional photographer documented one company on one continuous job. No stylistic drift from page to page.
 
@@ -66,9 +66,9 @@ Per-client brand colors take priority. The values below are substituted from `pl
 
 | Role | Source | Value for this client |
 |------|--------|----------------------|
-| Primary brand color (uniforms, vehicle, signage glimpsed in shots) | `#0d1b3e` | **#0d1b3e** |
+| Primary brand color (uniforms, vehicle, signage glimpsed in shots) | `#15803d` | **#15803d** |
 | Accent (emergency markings, CTAs that appear in promo shots) | `#f97316` | **#f97316** |
-| Logo color (if a worker's uniform back is visible) | derived from brand logo | match Go agree Restoration of NC's logo |
+| Logo color (if a worker's uniform back is visible) | derived from brand logo | match Go Green Restoration of NC's logo |
 | Skin / texture / restoration materials | natural and neutral | warm wood tones for housing stock, cool concrete grays, real surface textures |
 | Environment-specific atmospherics | regional | varies — see "Setting & Environment" below for Middlesex |
 
@@ -95,9 +95,9 @@ Per-client brand colors take priority. The values below are substituted from `pl
 Every image that depicts a person must show a worker in branded company uniform. This is non-negotiable for visual consistency and trust signaling.
 
 ### Uniform specifications
-- **Top**: Polo or work shirt in the client's primary brand color (`#0d1b3e`). For darker brand colors (navy, deep red, charcoal), use that color directly. For lighter brand colors, render as a darker navy or charcoal uniform with the brand color visible as logo embroidery, accent stripe, or branded hat.
+- **Top**: Polo or work shirt in the client's primary brand color (`#15803d`). For darker brand colors (navy, deep red, charcoal), use that color directly. For lighter brand colors, render as a darker navy or charcoal uniform with the brand color visible as logo embroidery, accent stripe, or branded hat.
 - **Bottom**: Neutral work pants (charcoal, dark navy, or khaki). Subordinate to the top.
-- **Branding**: Go agree Restoration of NC or Go agree Restoration of NC embroidered on chest or back. IICRC certification badge visible on sleeve or chest where it makes sense.
+- **Branding**: Go Green Restoration of NC or Go Green Restoration embroidered on chest or back. IICRC certification badge visible on sleeve or chest where it makes sense.
 - **PPE**: Match the service context (see service-specific notes below) — gloves always, respirators / face shields / Tyvek suits when the service warrants it.
 - **Footwear**: Sturdy work boots, never sneakers.
 
@@ -140,7 +140,7 @@ The worker's uniform stays the same; their PPE and equipment shift per service. 
 ## Setting & Environment (Middlesex / NC)
 
 - **Primary setting**: Middlesex and surrounding NC residential and commercial properties
-- **Local housing stock cues**: Other cities served: Raleigh, Durham, Rocky Mount, Wilson, Smithfield. — these details should appear in backgrounds and environmental context, NOT as the subject. They quietly anchor "this was shot in Middlesex."
+- **Local housing stock cues**: Middlesex, NC — named neighborhoods: Downtown Middlesex · landmarks: Middlesex Town Hall, US-264 corridor · Home base - fastest response times in Nash and Johnston County line communities. Other cities served: Raleigh, Durham, Rocky Mount, Wilson, Smithfield. — these details should appear in backgrounds and environmental context, NOT as the subject. They quietly anchor "this was shot in Middlesex."
 - **Regional weather / season**: Regional climate cues per primary city; adapt exterior shots to match. — affects exterior shots especially. Pacific Northwest: wet roads, evergreen silhouettes, cedar siding, low gray cloud cover for "we just arrived in the rain" shots. Adapt per client.
 - **Time of day**: Mix of golden-hour exteriors and neutral-light interiors. Reserve dusk/blue-hour for "arrival" hero shots specifically.
 
@@ -182,7 +182,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] flood-damage-restoration
 - [ ] burst-pipe-repair
 - [ ] basement-flooding-cleanup
-- [ ] (continue for each of Water Damage Restoration, Mold Remediation, Crawl Space Encapsulation)
+- [ ] (continue for each of Water Damage Restoration, Mold Remediation, Crawl Space Encapsulation, Air Duct Cleaning, Carpet Cleaning, Insulation Removal & Installation)
 
 ### Service area pages (one image per city served)
 - [ ] Middlesex hero — exterior shot, regional housing stock, evocative of the city

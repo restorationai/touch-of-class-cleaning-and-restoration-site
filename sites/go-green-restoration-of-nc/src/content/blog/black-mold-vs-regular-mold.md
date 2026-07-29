@@ -70,7 +70,7 @@ Some mold situations are genuinely DIY-appropriate. Others are not. Here's how t
 
 A qualified mold remediation contractor will contain the work area with plastic sheeting and negative air pressure, remove and bag affected materials, apply EPA-registered antimicrobials, and verify clearance with post-remediation testing. The goal isn't just to remove visible growth — it's to return the indoor spore count to a level consistent with the outdoor baseline.
 
-If you're in central North Carolina and you're not sure what you're dealing with, Go agree Restoration of NC serves the Middlesex area and can assess the situation. Their number is **(919) 906-5473**.
+If you're in central North Carolina and you're not sure what you're dealing with, Go Green Restoration of NC serves the Middlesex area and can assess the situation. Their number is **(919) 906-5473**.
 
 ## After Remediation: Preventing a Recurrence
 
@@ -85,4 +85,4 @@ Mold doesn't announce itself until it's already established. Building the habit 
 
 ---
 
-If you've found growth in your home and you're still not sure whether it's something you can handle yourself or something that needs professional attention, the safest path is a professional assessment. Go agree Restoration of NC handles mold remediation in Middlesex, NC and the surrounding area — call **(919) 906-5473** to describe what you're seeing and get a straight answer.
+If you've found growth in your home and you're still not sure whether it's something you can handle yourself or something that needs professional attention, the safest path is a professional assessment. Go Green Restoration of NC handles mold remediation in Middlesex, NC and the surrounding area — call **(919) 906-5473** to describe what you're seeing and get a straight answer.

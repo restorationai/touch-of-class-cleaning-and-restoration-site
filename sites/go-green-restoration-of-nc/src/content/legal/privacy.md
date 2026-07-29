@@ -1,6 +1,6 @@
 ---
 archetype: "legal"
-title: "Privacy Policy | Go agree Restoration of NC"
+title: "Privacy Policy | Go Green Restoration of NC"
 h1: "Privacy Policy"
 meta_description: "Privacy Policy | {brand.display_name}."
 primary_keyword: "go agree restoration of nc privacy"

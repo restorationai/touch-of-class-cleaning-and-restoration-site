@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Durham, NC | Go agree Restoration of NC"
+title: "Water Damage Restoration in Durham, NC | Go Green Restoration of NC"
 h1: "Water Damage Restoration in Durham"
 meta_description: "Water damage restoration in Durham, NC. Insurance billing accepted. Call (919) 906-5473."
 primary_keyword: "water damage restoration durham"

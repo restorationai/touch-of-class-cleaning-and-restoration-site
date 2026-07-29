@@ -76,4 +76,4 @@ In these cases, call a professional and ask your five questions while they're en
 
 The homeowners who end up with the worst outcomes aren't the ones who faced the worst damage — they're the ones who hired the first truck that showed up, signed without reading, or assumed insurance would sort out any problems later. A few hours of vetting, even in a stressful situation, is almost always worth it.
 
-If you're dealing with water intrusion, fire damage, or a mold discovery in the Middlesex area and want to talk through your situation before committing to anything, Go agree Restoration of NC is reachable at (919) 906-5473. Sometimes the most useful call is just a conversation about what you're seeing and what your options are.
+If you're dealing with water intrusion, fire damage, or a mold discovery in the Middlesex area and want to talk through your situation before committing to anything, Go Green Restoration of NC is reachable at (919) 906-5473. Sometimes the most useful call is just a conversation about what you're seeing and what your options are.

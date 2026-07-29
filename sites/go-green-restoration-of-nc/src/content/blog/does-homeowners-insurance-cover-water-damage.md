@@ -72,7 +72,7 @@ A towel and a box fan are fine for a minor splash. But if water has been sitting
 
 Professional water damage restoration involves moisture meters and thermal imaging cameras that map exactly how far the water has traveled — behind baseboards, under hardwood, inside wall cavities. Without that mapping, it's easy to dry the surface while leaving wet material inside a wall that will grow mold within the week.
 
-Go agree Restoration of NC serves homeowners in Middlesex and the surrounding communities. If you're dealing with a water loss and aren't sure whether the damage has been fully addressed — or if you need documentation to support an insurance claim — calling (919) 906-5473 is a reasonable next step. A moisture assessment gives you a factual picture of what you're working with, which is useful whether you end up filing a claim or not.
+Go Green Restoration of NC serves homeowners in Middlesex and the surrounding communities. If you're dealing with a water loss and aren't sure whether the damage has been fully addressed — or if you need documentation to support an insurance claim — calling (919) 906-5473 is a reasonable next step. A moisture assessment gives you a factual picture of what you're working with, which is useful whether you end up filing a claim or not.
 
 ---
 
@@ -86,4 +86,4 @@ Keep a dedicated folder — physical or digital — for every document related t
 
 ---
 
-Water damage moves fast, and insurance coverage questions can feel like a second emergency on top of the first one. If you're in the middle of a loss right now and need help understanding what you're looking at, Go agree Restoration of NC is available to help — reach out at **(919) 906-5473**.
+Water damage moves fast, and insurance coverage questions can feel like a second emergency on top of the first one. If you're in the middle of a loss right now and need help understanding what you're looking at, Go Green Restoration of NC is available to help — reach out at **(919) 906-5473**.

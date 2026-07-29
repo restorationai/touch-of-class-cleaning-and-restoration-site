@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Mold Remediation in Smithfield, NC | Go agree Restoration of NC"
+title: "Mold Remediation in Smithfield, NC | Go Green Restoration of NC"
 h1: "Mold Remediation in Smithfield"
 meta_description: "Mold remediation in Smithfield, NC. Insurance billing accepted. Call (919) 906-5473."
 primary_keyword: "mold remediation smithfield"

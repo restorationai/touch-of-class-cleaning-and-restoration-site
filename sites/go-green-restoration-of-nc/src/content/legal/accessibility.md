@@ -1,6 +1,6 @@
 ---
 archetype: "legal"
-title: "Accessibility Statement | Go agree Restoration of NC"
+title: "Accessibility Statement | Go Green Restoration of NC"
 h1: "Accessibility Statement"
 meta_description: "Accessibility Statement | {brand.display_name}."
 primary_keyword: "go agree restoration of nc accessibility"

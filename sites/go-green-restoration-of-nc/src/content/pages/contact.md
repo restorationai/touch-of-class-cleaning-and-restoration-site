@@ -1,7 +1,7 @@
 ---
 archetype: "contact"
-title: "Contact Go agree Restoration of NC | Restoration in Middlesex"
-h1: "Contact Go agree Restoration of NC"
+title: "Contact Go Green Restoration of NC | Restoration in Middlesex"
+h1: "Contact Go Green Restoration of NC"
 meta_description: "Call (919) 906-5473 for restoration services in Middlesex and surrounding areas. Free estimates. Direct insurance billing."
 primary_keyword: "go agree restoration of nc contact"
 secondary_keywords: ["restoration company contact"]

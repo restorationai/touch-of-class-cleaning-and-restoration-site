@@ -20,6 +20,7 @@ Write the body for a city × service combo page on **{brand.display_name}**'s we
 This {area.city} page must reference SPECIFIC LOCAL DETAILS. Use the following research-backed local context. **At least 2 of the named neighborhoods or landmarks must appear in the body. At least 1 ZIP code from the list must appear in the body or FAQs.**
 
 - **Named neighborhoods in {area.city}**: {area.neighborhoods}
+- **If the neighborhood / landmark / ZIP lists above are empty**: do NOT refuse and do NOT invent specifics. Write at the city level (city, county, state routes only if provided in context) and skip the named-local requirements — empty local context is an accepted degraded mode for freshly onboarded clients. Never fabricate a neighborhood, landmark, or ZIP.
 - **Named landmarks in {area.city}**: {area.landmarks}
 - **ZIP codes covering {area.city}**: {area.zip_codes}
 - **Local restoration context**: {area.local_notes}
