@@ -599,8 +599,26 @@ def ensure_auto_site_build(dry_run: bool, cid_to_slug: dict | None = None,
             if not (pi.get("service_areas") or []):
                 areas = []
                 st = (co.get("state") or "").strip()
+                # FIRST: the app's Site Build brief — the cities a human
+                # explicitly picked (QCI 2026-07-29: brief had 8 cities, the
+                # auto-build shipped 1 because it never read the brief).
+                ints_b = co.get("integration_settings") or {}
+                if isinstance(ints_b, str):
+                    try:
+                        ints_b = json.loads(ints_b)
+                    except json.JSONDecodeError:
+                        ints_b = {}
+                for c_ in (ints_b.get("site_brief") or {}).get("cities") or []:
+                    city = (c_.get("label") or "").strip()
+                    cst = (c_.get("state") or st).strip()
+                    if city:
+                        areas.append({
+                            "city": city, "state": cst,
+                            "slug": re.sub(r"[^a-z0-9]+", "-",
+                                           f"{city} {cst}".lower()).strip("-"),
+                            **({"primary": True} if not areas else {})})
                 gg = CLIENTS_DIR / slug / "geogrid-cities.json"
-                if gg.exists():
+                if not areas and gg.exists():
                     try:
                         for c_ in json.loads(gg.read_text()):
                             city = (c_.get("city") or c_.get("label") or "").strip()
@@ -643,7 +661,9 @@ def ensure_auto_site_build(dry_run: bool, cid_to_slug: dict | None = None,
                     ints_ = json.loads(ints_)
                 except json.JSONDecodeError:
                     ints_ = {}
-            if (ints_.get("theme") or "").strip().lower() == "light":
+            theme_pick = ((ints_.get("site_brief") or {}).get("theme")
+                          or ints_.get("theme") or "").strip().lower()
+            if theme_pick == "light":
                 b.setdefault("theme", "light")
             pi_path.write_text(json.dumps(pi, indent=1) + "\n")
             for cmdline, tmo in [

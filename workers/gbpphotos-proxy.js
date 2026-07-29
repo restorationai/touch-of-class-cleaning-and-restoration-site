@@ -54,7 +54,7 @@ input{width:100%;padding:14px;border:1px solid #cbd5e1;border-radius:12px;font-s
 <h1>${name}</h1><div class="sub">Crew hub — bookmark this page</div>
 ${reviewUrl ? `<button class="tile" onclick="document.getElementById('qr').classList.add('open')"><span class="ic">⭐</span>Show Review QR<small>Hand your phone to the customer to scan</small></button>` : ""}
 <button class="tile" onclick="document.getElementById('rr').classList.add('open')"><span class="ic">💬</span>Request a Review<small>We'll text the customer a review link for you</small></button>
-<a class="tile" href="/gbpphotos/${slug}"><span class="ic">📷</span>Upload Job Photos<small>Before &amp; after shots go to Google and the website</small></a>
+<a class="tile" href="/gbpphotos/${slug}"><span class="ic">📷</span>Upload Photos<small>Job shots, before &amp; afters, any photos &mdash; they go to Google and the website</small></a>
 <a class="tile" href="/logo/${slug}"><span class="ic">📎</span>Send Us Files<small>Logo or other files for the marketing team</small></a>
 <div id="qr"><button class="close" onclick="this.parentElement.classList.remove('open')">✕</button>
 <div class="qrcap">Scan to leave us a review</div>

@@ -35,6 +35,41 @@
    "state": "MA",
    "slug": "auburn-ma",
    "primary": true
+  },
+  {
+   "city": "Worcester",
+   "state": "MA",
+   "slug": "worcester-ma"
+  },
+  {
+   "city": "Shrewsbury",
+   "state": "MA",
+   "slug": "shrewsbury-ma"
+  },
+  {
+   "city": "Millbury",
+   "state": "MA",
+   "slug": "millbury-ma"
+  },
+  {
+   "city": "Grafton",
+   "state": "MA",
+   "slug": "grafton-ma"
+  },
+  {
+   "city": "Leicester",
+   "state": "MA",
+   "slug": "leicester-ma"
+  },
+  {
+   "city": "Oxford",
+   "state": "MA",
+   "slug": "oxford-ma"
+  },
+  {
+   "city": "Sutton",
+   "state": "MA",
+   "slug": "sutton-ma"
   }
  ]
 }
