@@ -9,7 +9,8 @@
   "city": "Auburn",
   "state": "MA",
   "postal_code": "01501",
-  "theme": "light"
+  "theme": "dark",
+  "primary_color": "#dc0a0e"
  },
  "services": [
   "water-damage-restoration",

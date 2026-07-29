@@ -18,23 +18,24 @@ const { title, subtitle, isSensitive = false, backgroundImage } = Astro.props;
 const bg = backgroundImage ? srcsetFor(backgroundImage) : {};
 ---
 
-<header class="relative overflow-hidden border-t border-dark/10 min-h-[60vh] md:min-h-[560px] md:h-[calc(100vh-188px)] flex items-center">
+<header class="relative overflow-hidden border-t border-white/10 min-h-[60vh] md:min-h-[560px] md:h-[calc(100vh-188px)] flex items-center">
   {backgroundImage ? (
     <div class="absolute inset-0 z-0">
-      <img src={backgroundImage} srcset={bg.srcset} sizes={bg.srcset ? "100vw" : undefined} alt="Background" loading="eager" fetchpriority="high" decoding="async" class="w-full h-full object-cover object-[center_25%]" />
-      <div class="absolute inset-0 bg-white/20"></div>
+      <img src={backgroundImage} srcset={bg.srcset} sizes={bg.srcset ? "100vw" : undefined} alt="Background" class="w-full h-full object-cover object-[center_25%]" loading="eager" fetchpriority="high" decoding="async" />
+      <div class="absolute inset-0 bg-dark-900/30"></div>
     </div>
   ) : (
-    <div class="absolute inset-0 bg-white z-0"></div>
+    <div class="absolute inset-0 bg-dark z-0"></div>
   )}
 
-  {/* Left-to-right scrim: strong behind the text block, light over the branded van */}
-  <div class="absolute inset-0 bg-gradient-to-r from-white/85 via-white/45 to-white/10 z-0"></div>
+  {/* Left-to-right scrim: strong behind the text block, light over the photo subject */}
+  <div class="absolute inset-0 bg-gradient-to-r from-dark-950/80 via-dark-900/45 to-dark-900/10 z-0"></div>
+  <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-white/5 to-transparent z-0"></div>
 
   <div class="container-wide relative z-10 pt-10 pb-14 md:pt-12 md:pb-16 text-left">
     <div class="max-w-2xl">
       <h1 class="mb-6 drop-shadow-lg text-4xl md:text-5xl lg:text-6xl">{title}</h1>
-      {subtitle && <p class="text-xl md:text-2xl text-dark/90 mb-10 drop-shadow-md">{subtitle}</p>}
+      {subtitle && <p class="text-xl md:text-2xl text-white/90 mb-10 drop-shadow-md">{subtitle}</p>}
       <div class="flex flex-col sm:flex-row gap-4 items-start sm:items-center flex-wrap">
         <a
           href={`tel:${brand.phoneRaw}`}

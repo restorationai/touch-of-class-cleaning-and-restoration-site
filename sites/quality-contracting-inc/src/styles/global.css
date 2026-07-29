@@ -7,7 +7,7 @@
 
 @layer base {
   :root {
-    color-scheme: light;
+    color-scheme: dark;
   }
   html {
     scroll-behavior: smooth;
@@ -15,29 +15,29 @@
     -moz-osx-font-smoothing: grayscale;
   }
   body {
-    @apply bg-white text-dark-900 font-sans;
+    @apply bg-dark text-white font-sans;
   }
   h1, h2, h3, h4 {
-    @apply font-display tracking-tight text-dark-900;
+    @apply font-display tracking-tight text-white;
   }
   h1 { @apply text-3xl md:text-5xl lg:text-6xl font-black leading-tight; }
   h2 { @apply text-2xl md:text-4xl font-bold mt-0 mb-6 leading-tight; }
   h3 { @apply text-xl md:text-2xl font-bold mt-8 mb-3; }
   h4 { @apply text-lg font-semibold mt-6 mb-2; }
   p {
-    @apply leading-relaxed mb-5 text-dark-700;
+    @apply leading-relaxed mb-5 text-white/80;
   }
   a {
-    @apply text-primary-700 underline-offset-2 hover:underline transition-colors;
+    @apply text-primary-200 underline-offset-2 hover:underline transition-colors;
   }
   ul, ol {
-    @apply mb-5 pl-6 text-dark-700;
+    @apply mb-5 pl-6 text-white/80;
   }
   ul { @apply list-disc; }
   ol { @apply list-decimal; }
-  strong { @apply text-dark-900 font-semibold; }
+  strong { @apply text-white font-semibold; }
   hr {
-    @apply border-dark/10 my-12;
+    @apply border-white/10 my-12;
   }
 }
 
@@ -49,32 +49,32 @@
     @apply inline-flex items-center justify-center gap-2 rounded-md px-6 py-3 text-sm font-bold uppercase tracking-widest transition-colors no-underline;
   }
   .btn-primary {
-    @apply btn bg-primary text-white hover:bg-dark-700;
+    @apply btn bg-primary text-white hover:bg-primary-200 hover:text-dark-900;
   }
   .btn-accent {
     @apply btn bg-accent text-white hover:opacity-90;
   }
   .btn-outline {
-    @apply btn border border-dark/30 text-dark-900 hover:bg-dark-900 hover:text-white;
+    @apply btn border border-white/30 text-white hover:bg-white hover:text-dark;
   }
 
-  .section { @apply py-24 border-t border-dark/10; }
-  .section-tight { @apply py-16 border-t border-dark/10; }
-  .section-loose { @apply py-32 border-t border-dark/10; }
-  .section-cta { @apply py-40 relative overflow-hidden border-t border-dark/10; }
+  .section { @apply py-24 border-t border-white/10; }
+  .section-tight { @apply py-16 border-t border-white/10; }
+  .section-loose { @apply py-32 border-t border-white/10; }
+  .section-cta { @apply py-40 relative overflow-hidden border-t border-white/10; }
   .section-first { @apply py-24 border-t-0; }
 
   .eyebrow {
-    @apply text-xs font-black uppercase tracking-widest text-primary-700 mb-4;
+    @apply text-xs font-black uppercase tracking-widest text-primary-200 mb-4;
   }
 
   /* Prose body for article content inside dark sections */
   .prose-body {
-    @apply max-w-content mx-auto text-dark-700;
+    @apply max-w-content mx-auto text-white/80;
   }
-  .prose-body :where(h2, h3, h4) { @apply text-dark-900; }
-  .prose-body :where(a) { @apply text-primary-700; }
-  .prose-body :where(strong) { @apply text-dark-900; }
+  .prose-body :where(h2, h3, h4) { @apply text-white; }
+  .prose-body :where(a) { @apply text-primary-200; }
+  .prose-body :where(strong) { @apply text-white; }
 }
 
 /* Mobile tap targets: footer link lists get a taller hit area (44px-ish pitch) */
