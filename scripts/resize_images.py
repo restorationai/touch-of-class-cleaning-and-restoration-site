@@ -108,6 +108,16 @@ SITES = {
         "bucket": "rankai-crew-restoration-construction",
         "images_base": "https://images.crew3r.com",
     },
+    # Auto-built previews (2026-07-29) — no domain yet; the R2 pass skips
+    # gracefully, local variants + manifest still generate.
+    "go-green-restoration-of-nc": {
+        "bucket": "rankai-go-green-restoration-of-nc",
+        "images_base": "https://images.gogreenrestorationofnc.pending",
+    },
+    "quality-contracting-inc": {
+        "bucket": "rankai-quality-contracting-inc",
+        "images_base": "https://images.qualitycontracting.pending",
+    },
 }
 
 # R2 keys every site may have; 404s are skipped gracefully.
