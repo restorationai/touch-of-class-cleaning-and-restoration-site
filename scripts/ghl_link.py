@@ -338,6 +338,61 @@ def cmd_link(args) -> int:
         else:
             skipped.append((co["id"], co["name"], verdict))
 
+    # 3. CREATE-WHEN-MISSING (Santino 2026-07-29, Isaac/Jaziel mix-up: a
+    #    preferred contact with no GHL record silently reroutes messages to
+    #    whoever IS linked). If a company has no GHL match but its preferred
+    #    contacts[] entry has a name + phone/email, upsert the contact with
+    #    FULL fields (phone AND email so search finds them either way) and
+    #    link it. Upsert dedupes by email/phone — an email-only existing
+    #    contact gets its phone added, not duplicated.
+    still_skipped = []
+    for cid, name, verdict in skipped:
+        co = by_id.get(cid) or {}
+        ints = co.get("integration_settings") or {}
+        if isinstance(ints, str):
+            try:
+                ints = json.loads(ints)
+            except json.JSONDecodeError:
+                ints = {}
+        cts = ints.get("contacts") or []
+        pref = next((c for c in cts if c.get("preferred")), cts[0] if cts else None)
+        if verdict != "missing" or not pref or not (pref.get("first_name")
+                and (pref.get("cell") or pref.get("email"))):
+            still_skipped.append((cid, name, verdict))
+            continue
+        if args.dry_run:
+            print(f"  [dry-run] would create GHL contact for {name}: "
+                  f"{pref.get('first_name')} {pref.get('last_name', '')}")
+            still_skipped.append((cid, name, "missing (would create)"))
+            continue
+        try:
+            body = {"locationId": _loc(),
+                    "firstName": pref.get("first_name"),
+                    "lastName": pref.get("last_name") or "",
+                    "companyName": co.get("name") or ""}
+            if pref.get("cell"):
+                digits = re.sub(r"\D", "", pref["cell"])
+                body["phone"] = "+1" + digits[-10:]
+            if pref.get("email"):
+                body["email"] = pref["email"]
+            resp = _ghl("POST", "/contacts/upsert", body=body) or {}
+            new_id = (resp.get("contact") or {}).get("id")
+            if new_id:
+                pref["ghl_contact_id"] = new_id
+                _sb("PATCH", f"/rest/v1/companies?id=eq.{cid}",
+                    {"integration_settings": ints}, prefer="return=minimal")
+                merge_link(co, new_id, "created (upsert from contacts[])", False)
+                linked.append((cid, name, new_id,
+                               f"{pref.get('first_name')} {pref.get('last_name', '')}",
+                               "created"))
+            else:
+                still_skipped.append((cid, name, "create failed"))
+        except Exception as e:  # noqa: BLE001
+            print(f"  WARNING: create failed for {name}: {str(e)[:120]}",
+                  file=sys.stderr)
+            still_skipped.append((cid, name, "create failed"))
+    skipped = still_skipped
+
     print(f"\n=== final mapping ({len(linked)} linked"
           f"{' — DRY RUN, nothing written' if args.dry_run else ''}) ===")
     for cid, name, contact_id, cname, via in linked:

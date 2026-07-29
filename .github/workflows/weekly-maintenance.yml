@@ -41,6 +41,15 @@ jobs:
           git config user.email "ops@restorationai.io"
           git config user.name "Rank AI Bot"
 
+      - name: Import GBP photo libraries (app Photos tab + GBP-post rotation)
+        env:
+          SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY:  ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          GOOGLE_OAUTH_CLIENT_ID:     ${{ secrets.GOOGLE_OAUTH_CLIENT_ID }}
+          GOOGLE_OAUTH_CLIENT_SECRET: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
+        run: |
+          python3 scripts/gbp.py media-import --all || echo "media-import failed (non-fatal — Photos tabs keep last import)."
+
       - name: Sync GBP ratings + review snippets into brand.ts (before content run — freshened numbers ride each content deploy)
         env:
           SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}

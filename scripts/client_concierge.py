@@ -967,9 +967,10 @@ twice in one week). If an upcoming call is mentioned, say plainly that nothing
 is needed for it and we get everything set up together on the call. Asks stand
 alone on their own timeline, never as prerequisites for a meeting.
 
-NEVER bring up Local Services Ads, "Google Guaranteed", or any ads product
-on your own — even if an item mentions it, skip that part (Santino handles
-all ads conversations personally, standing rule 2026-07-29).
+TEMPORARY HOLD (2026-07-29, lift when the LSA yes/no control ships in Ops
+Attention): do not bring up Local Services Ads, "Google Guaranteed", or any
+ads product on your own — even if an item mentions it, skip that part.
+Santino handles ads conversations personally for now.
 
 LINKS ARE ALL-OR-NOTHING. Only include a link whose FULL URL is literally in
 your context. If context does not contain the URL for something (like a
@@ -1435,13 +1436,32 @@ def cmd_compose(args) -> int:
         if appts:
             print(f"Upcoming appointments (live GHL calendar):\n{appts}")
         # MEETING-IMMINENT GATE (Santino 2026-07-29: Monica nudged Fran/QCI
-        # right before her kickoff call). A booked appointment within 7 days
-        # means the call covers the open items — no nudge this cycle.
-        if appt_soonest and (appt_soonest - datetime.now(timezone.utc)).days < 7:
-            print("[gated, no draft: appointment within 7 days "
-                  f"({appt_soonest.strftime('%Y-%m-%d %H:%M UTC')}) — the call "
-                  "covers the open items; no nudge this cycle]")
-            return 0
+        # right before her kickoff call). Check EVERY contact linked to the
+        # company, not just the one we message — Fran was a GUEST on the
+        # owner's kickoff booking, invisible on her own contact record.
+        ids = {contact["id"]}
+        ints_c = (company.get("integration_settings") or {})
+        if isinstance(ints_c, str):
+            try:
+                ints_c = json.loads(ints_c)
+            except json.JSONDecodeError:
+                ints_c = {}
+        for ct_ in ints_c.get("contacts", []) or []:
+            if ct_.get("ghl_contact_id"):
+                ids.add(ct_["ghl_contact_id"])
+        if ints_c.get("ghl_contact_id"):
+            ids.add(ints_c["ghl_contact_id"])
+        for cid_ in ids:
+            if cid_ == contact["id"]:
+                soon = appt_soonest
+            else:
+                _blk, soon = fetch_upcoming_appointments(cid_, tz_name)
+            if soon and (soon - datetime.now(timezone.utc)).days < 7:
+                print("[gated, no draft: appointment within 7 days on this "
+                      f"company's calendar ({soon.strftime('%Y-%m-%d %H:%M UTC')}"
+                      f", contact {cid_}) — the call covers the open items; "
+                      "no nudge this cycle]")
+                return 0
     # STALE-INTEL RE-ASK (Santino 2026-07-28, "reach out consistently"): All
     # Pro's Google-connect ask sat excluded for weeks because kickoff-call
     # intel said "in progress" — and nothing ever aged that out. Any item the
