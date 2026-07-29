@@ -65,7 +65,19 @@ jobs:
             ${{ github.event.inputs.dry_run == 'true' && '--dry-run' || '--send' }} \
             ${{ github.event.inputs.since && format('--since {0}', github.event.inputs.since) || '' }}
 
-      - name: Commit state, journals and digests
+      - name: Refresh Search Console data (app Reports tab)
+        env:
+          SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          GSC_AGENCY_TOKEN:          ${{ secrets.GSC_AGENCY_TOKEN }}
+        run: |
+          if [ -n "$GSC_AGENCY_TOKEN" ]; then
+            printf '%s' "$GSC_AGENCY_TOKEN" > .gsc-agency-token.json
+            python3 scripts/gsc_sync.py --all || true
+            rm -f .gsc-agency-token.json
+          else
+            echo "GSC_AGENCY_TOKEN secret not set — Reports tab keeps last-synced data."
+          fi
         run: |
           git add clients/ 2>/dev/null || true
           if git diff --cached --quiet; then
