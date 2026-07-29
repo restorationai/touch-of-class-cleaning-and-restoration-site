@@ -3,16 +3,16 @@ import { brand } from "~/lib/brand";
 const is247 = /24\s*[\/x-]?\s*7|24 ?hours/i.test(String(brand.hours || ""));
 ---
 
-<header class="bg-dark text-white sticky top-0 z-50 border-b border-white/10 shadow-md">
+<header class="bg-white text-dark-900 sticky top-0 z-50 border-b border-dark/10 shadow-md">
   <div class="container-wide flex items-center justify-between gap-3 sm:gap-6 h-20">
-    <a href="/" class="flex items-center gap-3 no-underline text-white group min-w-0">
+    <a href="/" class="flex items-center gap-3 no-underline text-dark-900 group min-w-0">
       {brand.logoUrl && (
-        <img src={brand.logoUrl} alt={`${brand.displayName} logo`} class="h-14 md:h-16 w-auto max-w-[34vw] sm:max-w-none object-contain object-left group-hover:scale-105 transition-transform" width="36" height="36" loading="eager" />
+        <img src={brand.logoUrl} alt={`${brand.displayName} logo`} class="h-14 md:h-16 w-auto max-w-[40vw] sm:max-w-none object-contain object-left group-hover:scale-105 transition-transform" width="64" height="64" loading="eager" />
       )}
     </a>
 
     <nav class="hidden lg:flex items-center gap-6 text-[11px] font-black uppercase tracking-widest h-full">
-      <a href="/emergency/" class="text-primary-400 hover:text-primary-300 no-underline transition-colors py-8">Emergency</a>
+      <a href="/emergency/" class="text-dark-900 underline decoration-[3px] underline-offset-8 hover:text-primary-500 transition-colors py-8">Emergency</a>
       <a href="/services/" class="hover:text-primary-400 no-underline transition-colors py-8">Services</a>
       <a href="/service-areas/" class="hover:text-primary-400 no-underline transition-colors py-8">Areas</a>
       <a href="/about/" class="hover:text-primary-400 no-underline transition-colors py-8">About</a>
@@ -28,7 +28,7 @@ const is247 = /24\s*[\/x-]?\s*7|24 ?hours/i.test(String(brand.hours || ""));
           <span class="font-black tracking-wide whitespace-nowrap">{brand.phone}</span>
         </span>
       </a>
-      <button id="mobile-nav-toggle" type="button" class="lg:hidden inline-flex flex-col items-center justify-center w-11 h-11 gap-[5px] rounded-md border border-white/20 text-white flex-shrink-0" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">
+      <button id="mobile-nav-toggle" type="button" class="lg:hidden inline-flex flex-col items-center justify-center w-11 h-11 gap-[5px] rounded-md border border-dark/20 text-dark-900 flex-shrink-0" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">
         <span class="block w-5 h-0.5 bg-current"></span>
         <span class="block w-5 h-0.5 bg-current"></span>
         <span class="block w-5 h-0.5 bg-current"></span>
@@ -36,13 +36,13 @@ const is247 = /24\s*[\/x-]?\s*7|24 ?hours/i.test(String(brand.hours || ""));
     </div>
   </div>
 
-  <nav id="mobile-nav" class="lg:hidden hidden border-t border-white/10 bg-dark text-white" aria-label="Mobile">
-    <a href="/emergency/" class="block px-6 py-3.5 text-sm font-black uppercase tracking-widest text-primary-400 no-underline">Emergency</a>
-    <a href="/services/" class="block px-6 py-3.5 text-sm font-black uppercase tracking-widest no-underline border-t border-white/5">Services</a>
-    <a href="/service-areas/" class="block px-6 py-3.5 text-sm font-black uppercase tracking-widest no-underline border-t border-white/5">Service Areas</a>
-    <a href="/about/" class="block px-6 py-3.5 text-sm font-black uppercase tracking-widest no-underline border-t border-white/5">About</a>
-    <a href="/blog/" class="block px-6 py-3.5 text-sm font-black uppercase tracking-widest no-underline border-t border-white/5">Blog</a>
-    <a href="/contact/" class="block px-6 py-3.5 text-sm font-black uppercase tracking-widest no-underline border-t border-white/5">Contact</a>
+  <nav id="mobile-nav" class="lg:hidden hidden border-t border-dark/10 bg-white text-dark-900" aria-label="Mobile">
+    <a href="/emergency/" class="block px-6 py-3.5 text-sm font-black uppercase tracking-widest text-primary-600 no-underline">Emergency</a>
+    <a href="/services/" class="block px-6 py-3.5 text-sm font-black uppercase tracking-widest no-underline border-t border-dark/5">Services</a>
+    <a href="/service-areas/" class="block px-6 py-3.5 text-sm font-black uppercase tracking-widest no-underline border-t border-dark/5">Service Areas</a>
+    <a href="/about/" class="block px-6 py-3.5 text-sm font-black uppercase tracking-widest no-underline border-t border-dark/5">About</a>
+    <a href="/blog/" class="block px-6 py-3.5 text-sm font-black uppercase tracking-widest no-underline border-t border-dark/5">Blog</a>
+    <a href="/contact/" class="block px-6 py-3.5 text-sm font-black uppercase tracking-widest no-underline border-t border-dark/5">Contact</a>
   </nav>
 
   <script is:inline>

@@ -8,7 +8,8 @@
   "street_address": "211 Southbridge Street",
   "city": "Auburn",
   "state": "MA",
-  "postal_code": "01501"
+  "postal_code": "01501",
+  "theme": "light"
  },
  "services": [
   "water-damage-restoration",

@@ -22,7 +22,7 @@ if (!entry) throw new Error("Missing content: pages/home.md — has Skill 3 rend
 const { Content } = await entry.render();
 const data = entry.data;
 
-const heroImage = data.hero || `${brand.imagesBase}/brand/hero.webp`;
+const heroImage = data.hero || "/images/hero-bg.webp";
 
 // Pull top 6 services by priority for the home page strip
 const allServices = await getCollection("services");
@@ -51,9 +51,9 @@ const services = (allServices as CollectionEntry<"services">[])
 
   <ReviewsStrip />
 
-  <AboutSection imageSrc="/images/team.webp" imageAlt={`${brand.displayName} Team`}>
+  <AboutSection imageSrc="/images/team.webp" imageAlt={`${brand.displayName} technician loading a branded service van`}>
     <p>
-      {brand.displayName} has been serving {brand.primaryCity} and the surrounding {brand.primaryState} area since {brand.foundedYear}. We specialize in rapid-response disaster restoration—handling everything from water and fire damage to biohazard cleanup and full reconstruction. When disaster strikes, our certified professionals are standing by 24/7 to return your property to its pre-loss condition quickly and safely.
+      {brand.displayName} serves {brand.primaryCity} and the surrounding {brand.primaryState} area with full-service plumbing, heating, and air conditioning. From emergency plumbing repairs, drain cleaning, and water heater service to complete AC and furnace installation, our technicians handle it all — and we answer the phone 24/7, so help is on the way the moment something goes wrong.
     </p>
   </AboutSection>
 
@@ -73,8 +73,8 @@ const services = (allServices as CollectionEntry<"services">[])
 
   <FAQSection faq={data.faq} />
 
-  <section class="bg-dark py-20 border-t border-white/10">
-    <div class="container-wide max-w-6xl mx-auto prose prose-xl prose-invert prose-headings:font-black prose-headings:uppercase prose-headings:tracking-tighter prose-a:text-primary-500 text-white/70">
+  <section class="bg-white py-20 border-t border-dark/10">
+    <div class="container-wide max-w-6xl mx-auto prose prose-xl prose-invert prose-headings:font-black prose-headings:uppercase prose-headings:tracking-tighter prose-a:text-primary-700 text-dark/70">
       <Content />
     </div>
   </section>

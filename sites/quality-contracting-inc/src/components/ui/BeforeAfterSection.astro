@@ -42,7 +42,7 @@ const {
 ---
 
 {pairs.length > 0 && (
-  <section class="bg-dark py-24 text-white" aria-label="Before and after project results">
+  <section class="bg-white py-24 text-dark-900" aria-label="Before and after project results">
     <div class="container-wide px-6 sm:px-10 lg:px-12">
 
       {/* Header */}
@@ -51,7 +51,7 @@ const {
           <span class="inline-block bg-black text-white px-4 py-1.5 text-xs font-black uppercase tracking-[0.3em] mb-4">{eyebrow}</span>
           <div class="flex items-center gap-6">
             <h2 class="text-5xl md:text-6xl font-black uppercase tracking-tighter">{heading}</h2>
-            <div class="hidden md:block flex-grow h-px bg-white/30 w-72"></div>
+            <div class="hidden md:block flex-grow h-px bg-dark/30 w-72"></div>
           </div>
         </div>
         {ctaHref && (
@@ -74,9 +74,9 @@ const {
           const sizes = "(min-width:768px) 50vw, 100vw";
           return (
           <div data-comparison-item>
-            <p class="text-sm font-black uppercase tracking-wider text-white/60 mb-2">{pair.label}</p>
+            <p class="text-sm font-black uppercase tracking-wider text-dark/60 mb-2">{pair.label}</p>
 
-            <div class="relative w-full aspect-video rounded-sm overflow-hidden shadow-2xl select-none border-4 border-white/10 group transition-all duration-500 hover:border-primary-500">
+            <div class="relative w-full aspect-video rounded-sm overflow-hidden shadow-2xl select-none border-4 border-dark/10 group transition-all duration-500 hover:border-primary-500">
 
               {/* Base layer: BEFORE */}
               <img
@@ -88,7 +88,7 @@ const {
                 loading="lazy"
                 decoding="async"
               />
-              <span class="absolute top-3 left-3 z-10 bg-dark-900/80 text-white text-xs font-black uppercase tracking-widest px-2.5 py-1 rounded backdrop-blur-sm pointer-events-none">
+              <span class="absolute top-3 left-3 z-10 bg-dark-100/80 text-dark-900 text-xs font-black uppercase tracking-widest px-2.5 py-1 rounded backdrop-blur-sm pointer-events-none">
                 Before
               </span>
 
