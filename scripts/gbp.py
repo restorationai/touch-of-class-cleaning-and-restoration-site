@@ -460,7 +460,9 @@ def import_gbp_media(slug: str, cap: int = 40) -> str:
     token = get_access_token(cid) if cid else None
     if not token:
         return f"{slug}: no token"
-    loc = find_location(token, brand.get("place_id", ""))
+    # same fallback sync() uses — auto-built plan-inputs have no place_id
+    place = brand.get("place_id") or _place_id_from_connection(cid)
+    loc = find_location(token, place or "")
     if not loc:
         return f"{slug}: no GBP location"
     acct = _g(f"{ACCT_API}/accounts", token)["accounts"][0]["name"]

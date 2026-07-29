@@ -881,6 +881,10 @@ def send_message(contact: dict, channel: str, body: str,
     the CONCIERGE_ALLOWLIST or this function raises SendBlocked. There is no
     override. Callers decide dry-run/--send; this function is the last line.
     """
+    if os.environ.get("CONCIERGE_PAUSED", "").strip() in ("1", "true", "yes"):
+        raise SendBlocked("CONCIERGE_PAUSED is set — Santino paused all "
+                          "concierge sending 2026-07-29. Unset it in .env / "
+                          "the workflow env to resume.")
     allow = allowed_recipients()
     if channel == "sms":
         recipient = contact.get("phone") or ""
@@ -962,6 +966,17 @@ hear homework, feel behind, and RESCHEDULE the call to buy time (it happened
 twice in one week). If an upcoming call is mentioned, say plainly that nothing
 is needed for it and we get everything set up together on the call. Asks stand
 alone on their own timeline, never as prerequisites for a meeting.
+
+NEVER bring up Local Services Ads, "Google Guaranteed", or any ads product
+on your own — even if an item mentions it, skip that part (Santino handles
+all ads conversations personally, standing rule 2026-07-29).
+
+LINKS ARE ALL-OR-NOTHING. Only include a link whose FULL URL is literally in
+your context. If context does not contain the URL for something (like a
+website preview), do NOT mention it at all — never write "your preview is up
+at" and trail off, never invent or abbreviate a URL. Every message must end
+as a complete sentence; a message ending in "at…" or mid-thought is a
+hard failure (it happened to a real client 2026-07-29).
 
 KEEP IT SMALL — the second most important rule. A text that asks for a lot,
 or asks in long dense sentences, gets ignored or scares people off.
@@ -1121,10 +1136,11 @@ def photo_upload_link(company: dict) -> str | None:
 GHL_LOCATION_TZ = "America/Los_Angeles"  # GHL returns naive local times
 
 
-def fetch_upcoming_appointments(contact_id: str, client_tz: str) -> str | None:
-    """Human-readable block of the contact's upcoming GHL appointments,
+def fetch_upcoming_appointments(contact_id: str, client_tz: str) -> tuple[str | None, datetime | None]:
+    """(block, soonest_start) of the contact's upcoming GHL appointments,
     rendered in the CLIENT's local time. Live calendar data — compose is told
-    to trust this over meeting-intel dates."""
+    to trust this over meeting-intel dates. soonest_start drives the
+    meeting-imminent nudge gate."""
     from zoneinfo import ZoneInfo
     try:
         data = _ghl("GET", f"/contacts/{contact_id}/appointments") or {}
@@ -1133,6 +1149,7 @@ def fetch_upcoming_appointments(contact_id: str, client_tz: str) -> str | None:
         return None
     now = datetime.now(timezone.utc)
     lines = []
+    soonest: datetime | None = None
     for ev in data.get("events", []) or []:
         if ev.get("deleted"):
             continue
@@ -1146,11 +1163,13 @@ def fetch_upcoming_appointments(contact_id: str, client_tz: str) -> str | None:
             continue
         if start < now or (start - now).days > 30:
             continue
+        if soonest is None or start < soonest:
+            soonest = start
         local = start.astimezone(ZoneInfo(client_tz))
         lines.append(f"- {local.strftime('%A %b %-d, %-I:%M %p')} "
                      f"(their local time): {ev.get('title', 'appointment')}"
                      f" [{status or 'booked'}]")
-    return "\n".join(lines) if lines else None
+    return ("\n".join(lines), soonest) if lines else (None, None)
 
 
 def compose_draft(company: dict, first_name: str, items: list[dict],
@@ -1245,7 +1264,17 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
     draft = anthropic_json(COMPOSE_SYSTEM, user)
     body = (draft.get("body") or "").strip()
     if channel == "sms" and len(body) > sms_budget:
-        body = body[:sms_budget - 1].rsplit(" ", 1)[0] + "…"
+        # NEVER hard-chop: the old mid-sentence cut + "…" mailed clients
+        # dangling half-thoughts and linkless "your preview is up at…"
+        # (Kenneth, Isaac, Jose — 2026-07-29). Drop whole trailing sentences
+        # instead; if even the first sentence is over budget, send it whole.
+        sentences = re.split(r"(?<=[.!?])\s+", body)
+        trimmed = ""
+        for s in sentences:
+            if trimmed and len(trimmed) + len(s) + 1 > sms_budget:
+                break
+            trimmed = (trimmed + " " + s).strip()
+        body = trimmed or body
 
     def _flags(key):
         return [f for f in (draft.get(key) or [])
@@ -1364,6 +1393,16 @@ def cmd_compose(args) -> int:
               f"{'them' if newest['direction'] == 'in' else 'us'})")
     else:
         print("History: none found")
+    # RE-INTRO GUARD (Santino 2026-07-29: Kenneth got "this is Monica…" twice).
+    # Monica-state alone misses intros sent before state tracking (or from
+    # another path) — if the actual thread already contains her intro, this
+    # is NOT a first contact regardless of what our state says.
+    if first_contact and any(
+            m.get("direction") != "in"
+            and "this is monica" in str(m.get("body") or "").lower()
+            for m in history):
+        first_contact = False
+        print("First contact OVERRIDE: thread already contains Monica's intro")
 
     # Never talk over a human: newest outbound not sent by the concierge and
     # <12h old means Santino (or someone on the team) is mid-conversation.
@@ -1392,9 +1431,17 @@ def cmd_compose(args) -> int:
     appts = None
     if contact:
         tz_name, _tz_src = resolve_timezone(company, contact)
-        appts = fetch_upcoming_appointments(contact["id"], tz_name)
+        appts, appt_soonest = fetch_upcoming_appointments(contact["id"], tz_name)
         if appts:
             print(f"Upcoming appointments (live GHL calendar):\n{appts}")
+        # MEETING-IMMINENT GATE (Santino 2026-07-29: Monica nudged Fran/QCI
+        # right before her kickoff call). A booked appointment within 7 days
+        # means the call covers the open items — no nudge this cycle.
+        if appt_soonest and (appt_soonest - datetime.now(timezone.utc)).days < 7:
+            print("[gated, no draft: appointment within 7 days "
+                  f"({appt_soonest.strftime('%Y-%m-%d %H:%M UTC')}) — the call "
+                  "covers the open items; no nudge this cycle]")
+            return 0
     # STALE-INTEL RE-ASK (Santino 2026-07-28, "reach out consistently"): All
     # Pro's Google-connect ask sat excluded for weeks because kickoff-call
     # intel said "in progress" — and nothing ever aged that out. Any item the
