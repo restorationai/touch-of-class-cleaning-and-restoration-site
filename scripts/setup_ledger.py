@@ -539,7 +539,8 @@ def ensure_auto_site_build(dry_run: bool, cid_to_slug: dict | None = None,
         return ["auto-build disabled (AUTO_SITE_BUILD=0)"]
     cid_to_slug = cid_to_slug or slug_map()
     cos = _sb("GET", "/rest/v1/companies?status=ilike.active&plan=eq.Rank%20AI"
-              "&select=id,name,phone,email,address,city,state,postal_code,services",
+              "&select=id,name,phone,email,address,city,state,postal_code,services,"
+              "integration_settings",
               prefer="return=representation") or []
     out: list[str] = []
     built = 0
@@ -631,6 +632,19 @@ def ensure_auto_site_build(dry_run: bool, cid_to_slug: dict | None = None,
             b.setdefault("city", co.get("city") or "")
             b.setdefault("state", co.get("state") or "")
             b.setdefault("postal_code", co.get("postal_code") or "")
+            # Honor the theme the client picked in the wizard (Go Green shipped
+            # dark+red against an explicit "light" intake, 2026-07-28). The
+            # primary color stays the scaffold default until a human brand pass
+            # — auto-extracting from branding uploads is unsafe (they're often
+            # photos, not clean logo files).
+            ints_ = co.get("integration_settings") or {}
+            if isinstance(ints_, str):
+                try:
+                    ints_ = json.loads(ints_)
+                except json.JSONDecodeError:
+                    ints_ = {}
+            if (ints_.get("theme") or "").strip().lower() == "light":
+                b.setdefault("theme", "light")
             pi_path.write_text(json.dumps(pi, indent=1) + "\n")
             for cmdline, tmo in [
                 ([sys.executable, str(ROOT / "scripts" / "plan_site.py"),
@@ -651,8 +665,24 @@ def ensure_auto_site_build(dry_run: bool, cid_to_slug: dict | None = None,
                 import shutil
                 shutil.rmtree(nested, ignore_errors=True)
             built += 1
+            has_brand_asset = False
+            try:
+                sb_url = os.environ.get("SUPABASE_URL", "").rstrip("/")
+                sb_key = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")
+                r_ = requests.post(f"{sb_url}/storage/v1/object/list/branding",
+                                   headers={"Authorization": f"Bearer {sb_key}",
+                                            "apikey": sb_key,
+                                            "Content-Type": "application/json"},
+                                   json={"prefix": f"{cid}/brand/", "limit": 5},
+                                   timeout=20)
+                has_brand_asset = r_.status_code == 200 and bool(r_.json())
+            except Exception:
+                pass
             out.append(f"{slug}: AUTO-BUILT preview site ({len(svc_slugs)} services) — "
-                       "NEEDS imagery pass (hero + per-service) + human once-over")
+                       "NEEDS imagery pass (hero + per-service) + human once-over"
+                       + (f"; client brand upload EXISTS (branding/{cid}/brand) — "
+                          "use it for logo + palette" if has_brand_asset else
+                          "; no brand upload yet — ask for their logo"))
         except Exception as e:
             out.append(f"{slug}: auto-build FAILED — {str(e)[:140]}")
     return out
