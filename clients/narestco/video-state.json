@@ -1,6 +1,6 @@
 {
-  "last_kind": "geo",
-  "cycle_pos": 0,
+  "last_kind": "blog",
+  "cycle_pos": 1,
   "geo_cursor": 4,
   "history": [
     {
@@ -50,6 +50,14 @@
       "service": "water-damage-restoration",
       "city": "Tacoma",
       "youtube_id": "u07uYme7yQ8"
+    },
+    {
+      "ts": "2026-07-29T17:58:58.036366+00:00",
+      "kind": "blog",
+      "post": "mold-inspection-cost-bellevue",
+      "service": null,
+      "city": null,
+      "youtube_id": "oO_x6BJHkTs"
     }
   ]
 }
