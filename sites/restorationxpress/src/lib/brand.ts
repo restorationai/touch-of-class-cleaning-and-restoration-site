@@ -41,14 +41,14 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "4.9",
-  gbpReviewCount: "129",
+  gbpReviewCount: "130",
   gbpReviews: [
+    { author: "Jonathan", rating: 5, text: "I highly recommend this restoration company! They did an outstanding job repairing and restoring my bathroom. From start to finish, the team was professional, reliable, and courteous. They kept me informed throughout the process, showed up when they said they would, and paid close attention to…", when: "July 2026" },
     { author: "Cheryl", rating: 5, text: "Shadi and Chris were professional, kind, thoughtful and patient under a very difficult circumstance. I appreciate how much they went above and beyond to be certain all was taken care in the correct way.", when: "June 2026" },
     { author: "Shmuel", rating: 5, text: "Shadi and chris did a great job", when: "June 2026" },
     { author: "Lilach", rating: 5, text: "⭐⭐⭐⭐⭐ I cannot say enough good things about Restoration Xpress, Issac, and the entire team. After we experienced water damage in our home, they handled everything from the mitigation process to the reconstruction of our kitchen and the final post-construction cleaning. The entire process was…", when: "June 2026" },
     { author: "Marilyn", rating: 5, text: "We chose Restoration Express to do our mold remediation. They are such an amazing company. They are so professional not only in their work ethic, but they communicated with me daily. They worked with me as far as pricing. they are extremely fair. they are clean. they removed every spec of mold from…", when: "June 2026" },
     { author: "Bertrand", rating: 5, text: "Shadi and Chris did an amazing job! Very knowledgeable and patient in answering all the questions I had specially as it relates to how the insurance process works. Will definitely recommend them.", when: "June 2026" },
-    { author: "Rina", rating: 5, text: "Shadi and Chris did an amazing job. They showed up on time and took care of everything in my house. I would highly recommend this company for any remediation services.", when: "May 2026" },
   ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Davie, FL.",
   ctaLabel: "24/7 Emergency Line",

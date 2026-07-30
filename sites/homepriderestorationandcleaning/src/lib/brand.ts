@@ -41,7 +41,7 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "5.0",
-  gbpReviewCount: "33",
+  gbpReviewCount: "34",
   gbpReviews: [
     { author: "Joe", rating: 5, text: "I called Home Pride Restoration and Cleaning after a burst pipe and was impressed by how quickly they responded. The team was professional, efficient, and very thorough—everything from emergency water extraction to carpet water extraction was handled smoothly. I appreciate the fast service and will…", when: "July 2026" },
     { author: "Amy", rating: 5, text: "I was nervous at first, but the staff made me feel comfortable. They arrived quickly for emergency water removal and had the water out of my home in no time. I really appreciated their fast response and professional service.", when: "July 2026" },
