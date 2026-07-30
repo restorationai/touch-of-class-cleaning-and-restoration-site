@@ -1,0 +1,29 @@
+---
+// Insurance section (Santino 2026-07-30): restoration is an insurance-pay
+// business — callers need to see their carrier is covered BEFORE they call.
+// Static names, real text in the DOM (crawlable for "does X work with
+// {carrier}" searches and AI answers). No marquee: motion adds nothing and
+// hurts readability.
+const carriers = [
+  "State Farm", "Allstate", "Farmers", "USAA", "Liberty Mutual",
+  "Travelers", "Nationwide", "Mercury", "Safeco", "AAA",
+];
+---
+
+<section class="bg-white py-16 border-t border-dark/10">
+  <div class="container-wide max-w-6xl mx-auto text-center">
+    <h2 class="text-3xl md:text-4xl font-black uppercase tracking-tighter text-dark mb-3">
+      We Work With All Insurance Carriers
+    </h2>
+    <p class="text-lg text-dark/70 max-w-2xl mx-auto mb-8">
+      We bill your insurance directly and handle the claim paperwork from the
+      first photo to the final invoice — including:
+    </p>
+    <ul class="flex flex-wrap justify-center gap-3 mb-6">
+      {carriers.map((c) => (
+        <li class="px-4 py-2 rounded-full border border-dark/15 bg-dark-50 text-dark font-bold text-sm">{c}</li>
+      ))}
+    </ul>
+    <p class="text-dark/60 font-semibold">…and every other carrier. If you have a policy, we can work with it.</p>
+  </div>
+</section>

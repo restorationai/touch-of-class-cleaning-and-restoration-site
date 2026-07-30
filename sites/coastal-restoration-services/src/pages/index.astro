@@ -11,6 +11,7 @@ import ReviewsStrip from "~/components/ui/ReviewsStrip.astro";
 import AboutSection from "~/components/ui/AboutSection.astro";
 import ServicesStrip from "~/components/ui/ServicesStrip.astro";
 import ProcessSection from "~/components/ui/ProcessSection.astro";
+import InsuranceStrip from "~/components/ui/InsuranceStrip.astro";
 import BeforeAfterSection from "~/components/ui/BeforeAfterSection.astro";
 import RecentWork from "~/components/RecentWork.astro";
 import ProudlyServing from "~/components/ui/ProudlyServing.astro";
@@ -61,6 +62,8 @@ const services = (allServices as CollectionEntry<"services">[])
   {services.length > 0 && <ServicesStrip services={services} />}
 
   <ProcessSection />
+
+  <InsuranceStrip />
 
   <BeforeAfterSection pairs={workPairs} />
 
