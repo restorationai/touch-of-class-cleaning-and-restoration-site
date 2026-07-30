@@ -2290,6 +2290,13 @@ def cmd_inbound(args) -> int:
                     else "no open item matched")
                 print(f"    ESCALATE: {reason}")
                 append_escalation(company, msg, reason, dry_run)
+                # ACKNOWLEDGE (Santino 2026-07-30: "she should always just
+                # acknowledge their answer as concisely as possible"). The
+                # matched path sends a real reply; this path used to send
+                # NOTHING — Todd's pricing question sat in silence for a day.
+                if not matched_ids and result.get("sentiment") != "negative":
+                    _maybe_send_ack(state, company, contact_id, msg,
+                                    contact_payload, args.send, dry_run)
             if matched_ids:
                 remaining = [i for i in open_items
                              if i["id"] not in matched_ids
@@ -2329,6 +2336,58 @@ def cmd_inbound(args) -> int:
     print(f"cursor -> {run_start.isoformat()}"
           + (" (not persisted — dry run)" if dry_run else ""))
     return 0
+
+
+# ------------------------------------------------------------- ack replies
+# A one-line acknowledgment so no client reply ever dead-ends (Santino
+# 2026-07-30). Rules: never ack an ack, one ack per contact per day,
+# business hours only, and the matched-item path (which sends a real reply)
+# never acks on top of it.
+_TERMINAL_ACK_RE = re.compile(
+    r"^(ok(ay)?|k+|sure|thanks?( you| u)?|thank you|got it|sounds good|"
+    r"perfect|great|awesome|no problem|np|will do|yes ?sir|yup|yep|"
+    r"👍|🙏)[.! ]*$", re.I)
+
+
+def _maybe_send_ack(state: dict, company: dict, contact_id: str, msg: dict,
+                    contact_payload: dict | None, do_send: bool,
+                    dry_run: bool) -> None:
+    body = (msg.get("body") or "").strip()
+    if not body or (_TERMINAL_ACK_RE.match(body) and len(body) <= 25):
+        print("    [ack skipped: their message is itself an acknowledgment]")
+        return
+    cs = company_state(state, company["id"])
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    acks = cs.setdefault("acks", {})
+    if acks.get(contact_id) == today:
+        print("    [ack skipped: already acknowledged this contact today]")
+        return
+    if business_hours_check(company, contact_payload):
+        print("    [ack skipped: outside their business hours]")
+        return
+    if "?" in body:
+        text = ("Good question! Let me check with the team and I'll get "
+                "right back to you.")
+    else:
+        variants = ["Got it, thank you!",
+                    "Perfect, thanks for getting back to me!",
+                    "Got it! We'll take it from here.",
+                    "Thank you! Noted on our end."]
+        text = variants[sum(ord(c) for c in (contact_id + today)) % len(variants)]
+    print(f"    ack draft: {text!r}")
+    if not do_send:
+        return
+    target = messaging_target(company)
+    contact = {"id": contact_id,
+               "phone": target.get("cell") or company.get("phone"),
+               "email": target.get("email") or company.get("email")}
+    try:
+        sent = send_message(contact, msg.get("channel") or "sms", text)
+        record_sent_message(state, sent)
+        acks[contact_id] = today
+        save_state(state, dry_run)
+    except SendBlocked as e:
+        print(f"    ACK BLOCKED: {e}")
 
 
 # ---------------------------------------------------------------- canary
