@@ -36,10 +36,10 @@
     },
     {
       "id": "2026-07-27-how-much-does-a-plumber-cost-per-hour",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-07-27T20:50:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-07-30T17:30:26Z",
+      "post_url": "https://allproplumbingheatingandair.com/blog/how-much-does-a-plumber-cost-per-hour/",
       "primary_keyword": "how much does a plumber cost per hour",
       "intent": "commercial",
       "volume": 1600,
@@ -74,7 +74,18 @@
         "https://www.cslb.ca.gov/"
       ],
       "notes": "Highest-CPC cluster in this run (service-call and per-hour terms run $8 to $28 CPC). Open with a scannable price table: service call or diagnostic fee, hourly vs flat-rate, after-hours premium, then per-job ranges (drain clearing, toilet, water heater). Brand hours are 24/7 so after-hours availability can be stated plainly. LICENSE GATE: do not call All Pro licensed, certified or bonded anywhere in this post (CSLB 960566 is held by PRO RESTORATION SERVICES INC and the DBA is unconfirmed). Explain flat-rate vs hourly generically and tell readers to verify any contractor on the CSLB lookup.",
-      "source": "rank-ai-keyword-researcher"
+      "source": "rank-ai-keyword-researcher",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/how-much-does-a-plumber-cost-per-hour.md",
+          "part": "body",
+          "family": "service-scope",
+          "severity": "review",
+          "matched": "mold remediation",
+          "context": "ys less than the drywall, flooring, and mold remediation that follows 8 hours of unchecked water",
+          "reason": "names the 'mold' service family but plan-input services are only: emergency-plumbing, burst-pipe-repair, drain-cleaning, sewer-line-repair, water-heater-repair, water-heater-installation"
+        }
+      ]
     },
     {
       "id": "2026-07-27-how-to-find-a-good-plumber",
@@ -223,6 +234,185 @@
       ],
       "notes": "Price by clog type (single fixture, branch line, main line, camera inspection, hydro jetting) rather than one number. Local hook: mature downtown tree canopy drives root-intruded laterals in Oleander, Westchester and East Bakersfield, which is why a repeat main-line clog becomes a sewer conversation. Complements the planned /blog/hydro-jetting-vs-snaking/ post: that one compares methods, this one prices them, so cross-link rather than restate.",
       "source": "rank-ai-keyword-researcher"
+    },
+    {
+      "id": "2026-07-30-air-conditioner-not-cooling",
+      "status": "queued",
+      "queued_at": "2026-07-30T17:27:39Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "air conditioner not cooling",
+      "intent": "informational",
+      "volume": 5400,
+      "kd": null,
+      "fan_out_cluster": [
+        "why is my ac running but not cooling the house",
+        "air conditioner not blowing cold air but running",
+        "air conditioner not cooling but fan is running",
+        "central air conditioner not cooling",
+        "split ac not cooling but fan is running",
+        "why is my ac blowing warm air"
+      ],
+      "suggested_slug": "air-conditioner-not-cooling",
+      "suggested_title": "Air conditioner not cooling: 9 reasons your AC runs but the house stays hot",
+      "target_word_count": 1800,
+      "internal_link_targets": [
+        "/services/ac-repair/",
+        "/services/ac-installation/",
+        "/services/ductless-mini-splits/"
+      ],
+      "service_tags": [
+        "ac-repair",
+        "ac-installation",
+        "ductless-mini-splits"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.energy.gov/energysaver/air-conditioning"
+      ],
+      "notes": "Peak-season Bakersfield hub post: 100F+ stretches make this the highest-volume AC symptom query in the bank. Lead with the fan-runs-but-no-cold-air split (thermostat, filter, breaker, capacitor, refrigerant, dirty condenser coil). Kern County dust and triple-digit heat load the condenser hard, so give outdoor-coil cleaning its own section."
+    },
+    {
+      "id": "2026-07-30-how-much-does-ac-repair-cost",
+      "status": "queued",
+      "queued_at": "2026-07-30T17:27:39Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how much does ac repair cost",
+      "intent": "informational",
+      "volume": 1000,
+      "kd": 5,
+      "fan_out_cluster": [
+        "central ac repair cost",
+        "average hvac service call cost",
+        "hvac diagnostic cost",
+        "hvac repair cost calculator",
+        "is it worth repairing a 15 year old air conditioner",
+        "should i repair or replace my air conditioner"
+      ],
+      "suggested_slug": "how-much-does-ac-repair-cost",
+      "suggested_title": "How much does AC repair cost (and when repair stops making sense)",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/ac-repair/",
+        "/services/ac-installation/",
+        "/services/heat-pump-services/"
+      ],
+      "service_tags": [
+        "ac-repair",
+        "ac-installation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.energystar.gov/products/heating_cooling"
+      ],
+      "notes": "KD 5 on a 1,000/mo informational term: best difficulty-to-volume ratio in this run. Cover diagnostic fee, common part-level costs (capacitor, contactor, fan motor, coil, compressor), then the repair-vs-replace math. Distinct from the existing /blog/how-much-does-a-new-ac-cost/ post (that one is replacement pricing) - link the two rather than repeating the equipment-cost table."
+    },
+    {
+      "id": "2026-07-30-why-is-my-ac-not-turning-on",
+      "status": "queued",
+      "queued_at": "2026-07-30T17:27:39Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "why is my ac not turning on",
+      "intent": "informational",
+      "volume": 720,
+      "kd": null,
+      "fan_out_cluster": [
+        "thermostat set to cool but ac not turning on",
+        "ac not turning on but fan works",
+        "what does an ac capacitor do when it fails",
+        "ac not blowing cold air reset",
+        "thermostat clicks but ac does not turn on"
+      ],
+      "suggested_slug": "why-is-my-ac-not-turning-on",
+      "suggested_title": "Why is my AC not turning on: the checks to run before you call",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/ac-repair/",
+        "/services/ac-installation/"
+      ],
+      "service_tags": [
+        "ac-repair"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.energy.gov/energysaver/central-air-conditioning"
+      ],
+      "notes": "Order the homeowner-safe checks first (thermostat mode/batteries, tripped breaker, condensate float switch, disconnect at the outdoor unit), then hand off to the technician-only causes. Capacitor failure is the single most common no-start in summer heat: explain the symptom (hum, no fan spin) without instructing anyone to touch it, capacitors hold charge."
+    },
+    {
+      "id": "2026-07-30-hvac-yearly-maintenance-cost",
+      "status": "queued",
+      "queued_at": "2026-07-30T17:27:39Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "hvac yearly maintenance cost",
+      "intent": "commercial",
+      "volume": 590,
+      "kd": null,
+      "fan_out_cluster": [
+        "ac tune up service",
+        "average hvac service call cost",
+        "hvac diagnostic cost",
+        "ac cleaning service",
+        "hvac yearly maintenance cost near me"
+      ],
+      "suggested_slug": "hvac-yearly-maintenance-cost",
+      "suggested_title": "HVAC yearly maintenance cost: what a tune-up runs and what it actually prevents",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/ac-repair/",
+        "/services/indoor-air-quality/",
+        "/services/ductwork/",
+        "/services/furnace-repair/"
+      ],
+      "service_tags": [
+        "ac-repair",
+        "indoor-air-quality",
+        "ductwork",
+        "furnace-repair"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.energystar.gov/products/heating_cooling/hvac_maintenance"
+      ],
+      "notes": "Decision-stage: people price maintenance plans weeks before a breakdown. Frame around Kern County reality - dust, a cooling season that runs March to October, and hard water on the plumbing side - so an annual visit is a genuinely different value proposition than in a mild climate. Do not invent plan pricing or name a maintenance-agreement tier the brand has not confirmed."
+    },
+    {
+      "id": "2026-07-30-why-is-my-ac-leaking-water-inside",
+      "status": "queued",
+      "queued_at": "2026-07-30T17:27:39Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "why is my ac leaking water inside",
+      "intent": "informational",
+      "volume": 390,
+      "kd": null,
+      "fan_out_cluster": [
+        "ac leaking water from ceiling",
+        "clogged condensate drain line symptoms",
+        "is water dripping from ac dangerous",
+        "hvac leaking water on floor",
+        "why is my ac leaking water from the bottom"
+      ],
+      "suggested_slug": "why-is-my-ac-leaking-water-inside",
+      "suggested_title": "Why is my AC leaking water inside (and how to stop it before it damages the ceiling)",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/ac-repair/",
+        "/services/leak-detection/",
+        "/services/drain-cleaning/"
+      ],
+      "service_tags": [
+        "ac-repair",
+        "leak-detection"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.energy.gov/energysaver/central-air-conditioning"
+      ],
+      "notes": "Clogged condensate drain line is the usual cause, then frozen evaporator coil and a rusted/overflowing drain pan. Keep this on the AC side: stopping the leak and clearing the drain. Do NOT drift into drying out the ceiling or water-damage cleanup, that is the restoration vertical and the sister company's turf per linking-rules.json."
     }
   ]
 }
