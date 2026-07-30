@@ -5,6 +5,7 @@ import CtaBanner from "~/components/CtaBanner.astro";
 import FAQSection from "~/components/FAQSection.astro";
 import InternalLinks from "~/components/InternalLinks.astro";
 import Hero from "~/components/ui/Hero.astro";
+import VideoEmbed from "~/components/VideoEmbed.astro";
 import TrustStrip from "~/components/ui/TrustStrip.astro";
 import ReviewsStrip from "~/components/ui/ReviewsStrip.astro";
 import AboutSection from "~/components/ui/AboutSection.astro";
@@ -53,7 +54,7 @@ const services = (allServices as CollectionEntry<"services">[])
 
   <AboutSection imageSrc="/images/team.webp" imageAlt={`${brand.displayName} technician loading a branded service van`}>
     <p>
-      {brand.displayName} serves {brand.primaryCity} and the surrounding {brand.primaryState} area with full-service plumbing, heating, and air conditioning. From emergency plumbing repairs, drain cleaning, and water heater service to complete AC and furnace installation, our technicians handle it all — and we answer the phone 24/7, so help is on the way the moment something goes wrong.
+      {brand.displayName} serves {brand.primaryCity} and the surrounding {brand.primaryState} area with full-service damage restoration. From emergency water extraction, structural drying, and mold remediation to fire and smoke cleanup, sewage removal, and crawl space encapsulation, our technicians handle it all — and we answer the phone 24/7, so help is on the way the moment something goes wrong.
     </p>
   </AboutSection>
 
@@ -64,6 +65,36 @@ const services = (allServices as CollectionEntry<"services">[])
   <BeforeAfterSection pairs={workPairs} />
 
   <RecentWork />
+
+  <!-- Dependable Service section — mirrored from their existing site at
+       Santino's request (2026-07-30), with their real office/crew photo and
+       their real client testimonial videos beneath it. -->
+  <section class="bg-dark-50 py-20 border-t border-dark/10">
+    <div class="container-wide max-w-6xl mx-auto">
+      <div class="grid md:grid-cols-2 gap-10 items-center mb-16">
+        <div>
+          <h2 class="text-3xl md:text-4xl font-black uppercase tracking-tighter text-dark mb-4">Dependable Service When It Matters Most</h2>
+          <p class="text-lg text-dark/70 leading-relaxed">
+            {brand.displayName} has built its reputation on being there when property owners
+            need help the most. We serve Santa Maria and surrounding areas with the same level
+            of commitment whether it's a weekend flood, a late-night fire, or an urgent mold
+            discovery.
+          </p>
+        </div>
+        <img src="/images/dependable-service.webp" alt="The Coastal Restoration Services team" width="975" height="650"
+          class="rounded-2xl shadow-lg w-full object-cover" loading="lazy" />
+      </div>
+      <h3 class="text-2xl font-black uppercase tracking-tighter text-dark mb-6 text-center">Hear It From Our Customers</h3>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <VideoEmbed videoId="7Hmy0a7qki4" title="David Prochaska Testimonial | Coastal Restoration Services" />
+        <VideoEmbed videoId="F2xmHkI1J2w" title="Bernie Baggarly Testimonial | Coastal Restoration Services" />
+        <VideoEmbed videoId="sfwYc4FkHsU" title="Stephanie Vega Testimonial | Coastal Restoration Services" />
+      </div>
+      <p class="text-center mt-8">
+        <a href="/case-studies/" class="inline-flex items-center justify-center rounded-xl px-8 py-3 font-black uppercase tracking-wide bg-primary-600 text-white hover:bg-primary-700 transition-colors">See All Customer Stories</a>
+      </p>
+    </div>
+  </section>
 
   <ReviewsSection />
 

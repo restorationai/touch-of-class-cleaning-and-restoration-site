@@ -1,0 +1,55 @@
+---
+import BaseLayout from "~/layouts/BaseLayout.astro";
+import VideoEmbed from "~/components/VideoEmbed.astro";
+import CtaBanner from "~/components/CtaBanner.astro";
+import { brand } from "~/lib/brand";
+import { caseStudies, type CaseStudy } from "~/data/caseStudies";
+
+export function getStaticPaths() {
+  return caseStudies.map((cs) => ({ params: { slug: cs.slug }, props: { cs } }));
+}
+const { cs } = Astro.props as { cs: CaseStudy };
+
+const videoSchema = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  name: cs.title,
+  description: cs.summary,
+  thumbnailUrl: `https://i.ytimg.com/vi/${cs.videoId}/hqdefault.jpg`,
+  embedUrl: `https://www.youtube-nocookie.com/embed/${cs.videoId}`,
+  publisher: { "@type": "Organization", name: brand.displayName },
+});
+---
+
+<BaseLayout
+  title={`${cs.title} | ${brand.displayName}`}
+  meta_description={`${cs.summary.slice(0, 150)}`}
+  schema_stubs={["organization", "website"]}
+  schema_ctx={{ archetype: "fixed" }}
+>
+  <script type="application/ld+json" set:html={videoSchema} />
+
+  <section class="bg-dark-50 py-14 border-b border-dark/10">
+    <div class="container-wide max-w-4xl mx-auto">
+      <p class="text-xs font-bold uppercase tracking-widest text-primary-700 mb-2">
+        <a href="/case-studies/" class="hover:underline">Customer Stories</a>
+      </p>
+      <h1 class="text-3xl md:text-5xl font-black uppercase tracking-tighter text-dark">{cs.title}</h1>
+    </div>
+  </section>
+
+  <section class="bg-white py-14">
+    <div class="container-wide max-w-4xl mx-auto space-y-8">
+      <VideoEmbed videoId={cs.videoId} title={cs.title} />
+      <p class="text-lg text-dark/70 leading-relaxed">{cs.summary}</p>
+      <p class="text-dark/70">
+        Jobs like this one usually start with a phone call on the worst day of someone's
+        week. If you're dealing with something similar, our
+        <a href={cs.relatedService.path} class="text-primary-700 font-semibold hover:underline">{cs.relatedService.label}</a>
+        team covers Santa Maria and the surrounding Central Coast communities, day or night.
+      </p>
+    </div>
+  </section>
+
+  <CtaBanner heading="Dealing with damage right now?" subheading={`Call ${brand.phone} — we answer 24/7 and work with your insurance.`} />
+</BaseLayout>

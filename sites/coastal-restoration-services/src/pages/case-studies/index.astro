@@ -1,0 +1,41 @@
+---
+import BaseLayout from "~/layouts/BaseLayout.astro";
+import VideoEmbed from "~/components/VideoEmbed.astro";
+import CtaBanner from "~/components/CtaBanner.astro";
+import { brand } from "~/lib/brand";
+import { caseStudies } from "~/data/caseStudies";
+---
+
+<BaseLayout
+  title={`Customer Stories & Case Studies | ${brand.displayName}`}
+  meta_description={`Real customers share their restoration experiences with ${brand.displayName}. Video testimonials from Santa Maria and the Central Coast. Call ${brand.phone}.`}
+  schema_stubs={["organization", "website"]}
+  schema_ctx={{ archetype: "fixed" }}
+>
+  <section class="bg-dark-50 py-16 border-b border-dark/10">
+    <div class="container-wide max-w-6xl mx-auto text-center">
+      <h1 class="text-4xl md:text-5xl font-black uppercase tracking-tighter text-dark mb-4">Customer Stories</h1>
+      <p class="text-lg text-dark/70 max-w-2xl mx-auto">
+        Real people, real jobs, in their own words. These are the property owners we've
+        helped across Santa Maria and the Central Coast.
+      </p>
+    </div>
+  </section>
+
+  <section class="bg-white py-16">
+    <div class="container-wide max-w-6xl mx-auto grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      {caseStudies.map((cs) => (
+        <a href={`/case-studies/${cs.slug}/`} class="group block rounded-2xl border border-dark/10 overflow-hidden hover:shadow-lg transition-shadow">
+          <img src={`https://i.ytimg.com/vi/${cs.videoId}/hqdefault.jpg`} alt={cs.title} width="480" height="360" loading="lazy"
+            class="w-full aspect-video object-cover" />
+          <div class="p-5">
+            <h2 class="font-black uppercase tracking-tight text-dark group-hover:text-primary-700 transition-colors">{cs.title}</h2>
+            <p class="text-sm text-dark/60 mt-2">{cs.summary.slice(0, 110)}…</p>
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <CtaBanner heading="Want a story like these?" subheading={`Call ${brand.phone} — we answer 24/7.`} />
+</BaseLayout>

@@ -1734,7 +1734,7 @@ def upload_to_youtube(
                   "youtube.com/verify to allow custom thumbnails)")
 
     # Upload captions — non-fatal for the same reason.
-    if srt_path.exists():
+    if srt_path and srt_path.exists():
         print("  [youtube] uploading captions...")
         try:
             caption_body = {
