@@ -1,0 +1,59 @@
+---
+import { FileText, Settings, Search, CreditCard, Users2 } from '@lucide/astro';
+
+const steps = [
+  {
+    icon: Users2,
+    label: "Free Consult",
+    description: "We visit your property, assess the scope, and answer every question — no charge, no obligation.",
+  },
+  {
+    icon: FileText,
+    label: "Estimate & Proposal",
+    description: "You receive a detailed written estimate before any work begins, so there are no surprises.",
+  },
+  {
+    icon: Settings,
+    label: "We Do the Work",
+    description: "Our crew executes the project on schedule with daily updates and consistent communication.",
+  },
+  {
+    icon: Search,
+    label: "Final Inspection",
+    description: "A walk-through confirms every item meets our quality standard before we consider it done.",
+  },
+  {
+    icon: CreditCard,
+    label: "Completion",
+    description: "Final sign-off, documentation, and warranty paperwork — handed to you before we leave.",
+  },
+];
+---
+
+<section class="bg-white py-24 text-dark-900 border-t border-dark/10">
+  <div class="container-wide px-6 sm:px-10 lg:px-12 text-center">
+    <h2 class="text-5xl md:text-6xl font-black uppercase mb-6 tracking-tighter">Our Process</h2>
+    <p class="text-xl opacity-80 mb-20 font-medium">A clear, predictable process from first call to final sign-off</p>
+
+    <div class="relative flex flex-col md:flex-row justify-between items-start gap-16 md:gap-6">
+      {steps.map((step, idx) => {
+        const Icon = step.icon;
+        return (
+          <div class="flex-1 w-full max-w-[220px] mx-auto flex flex-col items-center">
+            <div class="w-28 h-28 rounded-full border-4 border-dark/20 bg-white flex items-center justify-center text-dark mb-8 shadow-2xl relative z-10 transition-transform hover:scale-110 duration-500">
+              <Icon size={45} class="text-primary-600" />
+              {idx < steps.length - 1 && (
+                <div class="hidden md:block absolute left-full top-1/2 w-full h-1 bg-dark/20 -translate-y-1/2"></div>
+              )}
+            </div>
+            <div class="bg-white text-dark w-full py-4 px-3 font-black uppercase text-sm rounded-sm transform md:skew-x-[-15deg] shadow-2xl relative mb-4">
+              <span class="md:skew-x-[15deg] block tracking-wider">{step.label}</span>
+              <div class="absolute top-1/2 -right-2 w-5 h-5 bg-white transform rotate-45 -translate-y-1/2 hidden md:block"></div>
+            </div>
+            <p class="text-sm text-dark/60 leading-relaxed text-center px-1">{step.description}</p>
+          </div>
+        );
+      })}
+    </div>
+  </div>
+</section>

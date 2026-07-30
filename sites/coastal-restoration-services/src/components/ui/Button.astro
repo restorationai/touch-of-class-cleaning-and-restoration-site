@@ -1,0 +1,22 @@
+---
+// src/components/ui/Button.astro
+interface Props {
+  text: string;
+  href: string;
+  variant?: 'primary' | 'accent' | 'outline' | 'muted';
+  className?: string;
+}
+
+const { text, href, variant = 'primary', className = '' } = Astro.props;
+
+const variantClasses = {
+  primary: 'btn-primary',
+  accent: 'btn-accent',
+  outline: 'btn-outline',
+  muted: 'btn-muted',
+};
+---
+
+<a href={href} class={`btn ${variantClasses[variant]} ${className}`}>
+  {text}
+</a>
