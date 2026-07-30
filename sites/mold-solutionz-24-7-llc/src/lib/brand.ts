@@ -37,7 +37,7 @@ export const brand = {
   // lets the TrustStrip show the badge before a license number is on file.
   licensedInsuredAttested: false as boolean,
   certifications: ["IICRC WRT #70145645"] as string[],
-  trustBadges: ["IICRC Certified", "Serving Greater LA & Orange County Since 2017"] as string[],
+  trustBadges: ["IICRC Certified", "MICRO Certified", "Serving Greater LA & Orange County Since 2017"] as string[],
   jobPhotos: [] as string[],
   sameAsUrls: [] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
