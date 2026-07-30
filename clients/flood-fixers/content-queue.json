@@ -251,10 +251,10 @@
     },
     {
       "id": "2026-07-13-what-to-do-after-a-flood-in-your-house",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-07-13T18:01:06Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-07-30T17:52:00Z",
+      "post_url": "https://flood-fixers.com/blog/what-to-do-after-a-flood-in-your-house/",
       "primary_keyword": "what to do after a flood in your house",
       "intent": "informational",
       "volume": null,
@@ -282,7 +282,18 @@
         "https://www.ready.gov/floods",
         "https://www.cdc.gov/disasters/floods/index.html"
       ],
-      "notes": "Emergency checklist: safety (power/gas, contaminated water), document damage for insurance, stop the source, act within the 24-48h mold window, when to call a pro. Reinforces 24/7 service. No existing flood-specific blog coverage. No metrics: DataForSEO unavailable this run; queued intent-first."
+      "notes": "Emergency checklist: safety (power/gas, contaminated water), document damage for insurance, stop the source, act within the 24-48h mold window, when to call a pro. Reinforces 24/7 service. No existing flood-specific blog coverage. No metrics: DataForSEO unavailable this run; queued intent-first.",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/what-to-do-after-a-flood-in-your-house.md",
+          "part": "body",
+          "family": "service-scope",
+          "severity": "review",
+          "matched": "mold remediation",
+          "context": "er, and the cost of getting it wrong, a mold remediation job weeks later, typically far exceeds",
+          "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
+        }
+      ]
     },
     {
       "id": "2026-07-13-how-to-dry-out-a-flooded-house",
