@@ -68,11 +68,11 @@ Per-client brand colors take priority. The values below are substituted from `pl
 
 | Role | Source | Value for this client |
 |------|--------|----------------------|
-| Primary brand color (uniforms, vehicle, signage glimpsed in shots) | `#0d1b3e` | **#0d1b3e** |
+| Primary brand color (uniforms, vehicle, signage glimpsed in shots) | `#e6ac1a` | **#e6ac1a** |
 | Accent (emergency markings, CTAs that appear in promo shots) | `#f97316` | **#f97316** |
 | Logo color (if a worker's uniform back is visible) | derived from brand logo | match Coastal Restoration Services Inc's logo |
 | Skin / texture / restoration materials | natural and neutral | warm wood tones for housing stock, cool concrete grays, real surface textures |
-| Environment-specific atmospherics | regional | varies — see "Setting & Environment" below for Vandenberg Village |
+| Environment-specific atmospherics | regional | varies — see "Setting & Environment" below for Santa Maria |
 
 ### Color Treatment Rules
 
@@ -87,7 +87,7 @@ Per-client brand colors take priority. The values below are substituted from `pl
 
 - **Professional and competent**: The viewer should feel they hired the right team. No hero-shot smiles or staged enthusiasm.
 - **Calm under stress**: Restoration customers are panicked. Imagery should be the visual antidote — methodical, equipped, in-command.
-- **Authentic**: Real residential and commercial properties in Vandenberg Village and surrounding areas. Real materials. Real water damage, real soot residue, real mold containment.
+- **Authentic**: Real residential and commercial properties in Santa Maria and surrounding areas. Real materials. Real water damage, real soot residue, real mold containment.
 - **Restrained**: When depicting damage, show it honestly but not gratuitously. The viewer wants to see we can handle it, not be made queasy.
 
 ---
@@ -97,7 +97,7 @@ Per-client brand colors take priority. The values below are substituted from `pl
 Every image that depicts a person must show a worker in branded company uniform. This is non-negotiable for visual consistency and trust signaling.
 
 ### Uniform specifications
-- **Top**: Polo or work shirt in the client's primary brand color (`#0d1b3e`). For darker brand colors (navy, deep red, charcoal), use that color directly. For lighter brand colors, render as a darker navy or charcoal uniform with the brand color visible as logo embroidery, accent stripe, or branded hat.
+- **Top**: Polo or work shirt in the client's primary brand color (`#e6ac1a`). For darker brand colors (navy, deep red, charcoal), use that color directly. For lighter brand colors, render as a darker navy or charcoal uniform with the brand color visible as logo embroidery, accent stripe, or branded hat.
 - **Bottom**: Neutral work pants (charcoal, dark navy, or khaki). Subordinate to the top.
 - **Branding**: Coastal Restoration Services Inc or Coastal Restoration Services Inc embroidered on chest or back. IICRC certification badge visible on sleeve or chest where it makes sense.
 - **PPE**: Match the service context (see service-specific notes below) — gloves always, respirators / face shields / Tyvek suits when the service warrants it.
@@ -139,10 +139,10 @@ The worker's uniform stays the same; their PPE and equipment shift per service. 
 
 ---
 
-## Setting & Environment (Vandenberg Village / CA)
+## Setting & Environment (Santa Maria / CA)
 
-- **Primary setting**: Vandenberg Village and surrounding CA residential and commercial properties
-- **Local housing stock cues**: Other cities served: Santa Maria, Orcutt, Los Alamos, Lompoc, Los Olivos. — these details should appear in backgrounds and environmental context, NOT as the subject. They quietly anchor "this was shot in Vandenberg Village."
+- **Primary setting**: Santa Maria and surrounding CA residential and commercial properties
+- **Local housing stock cues**: Other cities served: Vandenberg Village, Orcutt, Los Alamos, Lompoc, Los Olivos. — these details should appear in backgrounds and environmental context, NOT as the subject. They quietly anchor "this was shot in Santa Maria."
 - **Regional weather / season**: Regional climate cues per primary city; adapt exterior shots to match. — affects exterior shots especially. Pacific Northwest: wet roads, evergreen silhouettes, cedar siding, low gray cloud cover for "we just arrived in the rain" shots. Adapt per client.
 - **Time of day**: Mix of golden-hour exteriors and neutral-light interiors. Reserve dusk/blue-hour for "arrival" hero shots specifically.
 
@@ -184,10 +184,10 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] flood-damage-restoration
 - [ ] burst-pipe-repair
 - [ ] basement-flooding-cleanup
-- [ ] (continue for each of Water Damage Restoration, Storm Damage Restoration, Fire Damage Restoration, Sewage Cleanup and Sanitization, Emergency Board-Up and Tarping, Mold Remediation, Biohazard Cleanup, Contents Restoration and Storage, Crawl Space Encapsulation, Post-Construction and Specialty Cleaning)
+- [ ] (continue for each of Water Damage Restoration, Storm Damage Restoration, Fire Damage Restoration, Sewage Cleanup and Sanitization, Emergency Board-Up and Tarping, Mold Remediation, Biohazard Cleanup, Contents Restoration and Storage, Crawl Space Encapsulation, Post-Construction and Specialty Cleaning, Odor Removal and Deodorization, Vandalism Cleanup)
 
 ### Service area pages (one image per city served)
-- [ ] Vandenberg Village hero — exterior shot, regional housing stock, evocative of the city
+- [ ] Santa Maria hero — exterior shot, regional housing stock, evocative of the city
 - [ ] Each additional service-area city — same pattern, regional cues per city
 
 ### Blog post heroes
@@ -209,11 +209,3 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 ## Style guide version
 
 This guide is generated from `templates/restoration/image-style-guide.template.md` v1.1 (2026-07-11: added Standing Brand Rules — real vehicle logos, single declared uniform color, harvest-first). When the canonical template updates, existing clients keep their pinned version unless explicitly regenerated. Bump the version + add a changelog entry when changing structural rules (e.g., adding new mandatory PPE conventions).
-
-
-## CLIENT-SPECIFIC RULES (Santino 2026-07-30)
-- Crew depiction: predominantly Latino, medium-dark skin tones (match the owner, Tony). Never an all-white crew.
-- Uniforms: navy blue polos/shirts.
-- Vans: white with NAVY BLUE lettering/stripe and the shield logo. NEVER red accents.
-- Palette: navy #14144a + gold #e6ac1a (from the logo). No red anywhere.
-- Real photos first: clients/coastal-restoration-services/harvested/ has Tony's photo + 6 site videos.

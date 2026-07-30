@@ -1,21 +1,21 @@
 # Site Plan Report — Coastal Restoration Services Inc
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-07-30T16:30:24.499100+00:00
+- Generated: 2026-07-30T23:34:34.585984+00:00
 - Domain: `None`
-- Services selected: 10 of 54 catalog entries
+- Services selected: 12 of 54 catalog entries
 - Service areas: 31
 - Cross-product enabled: True
-- Total URLs: **368**
-- Total internal links: 2926 (avg 8.0 per page)
+- Total URLs: **432**
+- Total internal links: 3454 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 310 |
+| `service-area-service` | 372 |
 | `service-area` | 31 |
-| `service-landing` | 10 |
+| `service-landing` | 12 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -37,11 +37,13 @@
 - `contents-restoration` — Contents Restoration and Storage (supporting, priority 5)
 - `crawl-space-encapsulation` — Crawl Space Encapsulation (adjacent, priority 5)
 - `post-construction-cleaning` — Post-Construction and Specialty Cleaning (supporting, priority 4)
+- `odor-removal` — Odor Removal and Deodorization (specialty, priority 7)
+- `vandalism-cleanup` — Vandalism Cleanup (specialty, priority 5)
 
 ## Service areas
 
-- `vandenberg-village-ca` — Vandenberg Village, CA *(primary)*
-- `santa-maria-ca` — Santa Maria, CA
+- `vandenberg-village-ca` — Vandenberg Village, CA
+- `santa-maria-ca` — Santa Maria, CA *(primary)*
 - `orcutt-ca` — Orcutt, CA
 - `los-alamos-ca` — Los Alamos, CA
 - `lompoc-ca` — Lompoc, CA
@@ -76,13 +78,13 @@
 
 | URL | Archetype | Priority | Primary keyword |
 | --- | --- | --- | --- |
-| `/services/fire-damage-restoration/` | `service-landing` | 9.0 | fire damage restoration vandenberg village |
-| `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation vandenberg village |
-| `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration vandenberg village |
-| `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization vandenberg village |
-| `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration vandenberg village |
-| `/service-areas/vandenberg-village-ca/` | `service-area` | 7.2 | restoration services vandenberg village |
-| `/services/biohazard-cleanup/` | `service-landing` | 7.2 | biohazard cleanup vandenberg village |
+| `/services/fire-damage-restoration/` | `service-landing` | 9.0 | fire damage restoration santa maria |
+| `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation santa maria |
+| `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration santa maria |
+| `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization santa maria |
+| `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration santa maria |
+| `/service-areas/santa-maria-ca/` | `service-area` | 7.2 | restoration services santa maria |
+| `/services/biohazard-cleanup/` | `service-landing` | 7.2 | biohazard cleanup santa maria |
 | `/service-areas/arroyo-grande-ca/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration arroyo grande |
 | `/service-areas/arroyo-grande-ca/mold-remediation/` | `service-area-service` | 7.0 | mold remediation arroyo grande |
 | `/service-areas/arroyo-grande-ca/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration arroyo grande |

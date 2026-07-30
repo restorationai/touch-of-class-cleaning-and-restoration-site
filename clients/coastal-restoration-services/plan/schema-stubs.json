@@ -158,6 +158,26 @@
     ],
     "missing_stubs": []
   },
+  "/services/odor-removal/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/vandalism-cleanup/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/vandenberg-village-ca/": {
     "archetype": "service-area",
     "stubs": [
@@ -537,6 +557,26 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/vandenberg-village-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/vandenberg-village-ca/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/santa-maria-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -628,6 +668,26 @@
     "missing_stubs": []
   },
   "/service-areas/santa-maria-ca/post-construction-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-maria-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-maria-ca/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -737,6 +797,26 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/orcutt-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/orcutt-ca/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/los-alamos-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -828,6 +908,26 @@
     "missing_stubs": []
   },
   "/service-areas/los-alamos-ca/post-construction-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/los-alamos-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/los-alamos-ca/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -937,6 +1037,26 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/lompoc-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/lompoc-ca/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/los-olivos-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1028,6 +1148,26 @@
     "missing_stubs": []
   },
   "/service-areas/los-olivos-ca/post-construction-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/los-olivos-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/los-olivos-ca/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1137,6 +1277,26 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/mission-hills-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/mission-hills-ca/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/santa-ynez-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1228,6 +1388,26 @@
     "missing_stubs": []
   },
   "/service-areas/santa-ynez-ca/post-construction-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-ynez-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-ynez-ca/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1337,6 +1517,26 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/solvang-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/solvang-ca/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/vandenberg-afb-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1428,6 +1628,26 @@
     "missing_stubs": []
   },
   "/service-areas/vandenberg-afb-ca/post-construction-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/vandenberg-afb-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/vandenberg-afb-ca/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1537,6 +1757,26 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/guadalupe-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/guadalupe-ca/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/buellton-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1628,6 +1868,26 @@
     "missing_stubs": []
   },
   "/service-areas/buellton-ca/post-construction-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/buellton-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/buellton-ca/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1737,6 +1997,26 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/ballard-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/ballard-ca/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/arroyo-grande-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1828,6 +2108,26 @@
     "missing_stubs": []
   },
   "/service-areas/arroyo-grande-ca/post-construction-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/arroyo-grande-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/arroyo-grande-ca/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1937,6 +2237,26 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/avila-beach-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/avila-beach-ca/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/cambria-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2028,6 +2348,26 @@
     "missing_stubs": []
   },
   "/service-areas/cambria-ca/post-construction-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/cambria-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/cambria-ca/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2137,6 +2477,26 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/el-paso-de-robles-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/el-paso-de-robles-ca/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/grover-beach-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2228,6 +2588,26 @@
     "missing_stubs": []
   },
   "/service-areas/grover-beach-ca/post-construction-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/grover-beach-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/grover-beach-ca/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2337,6 +2717,26 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/los-berros-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/los-berros-ca/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/nipomo-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2428,6 +2828,26 @@
     "missing_stubs": []
   },
   "/service-areas/nipomo-ca/post-construction-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/nipomo-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/nipomo-ca/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2537,6 +2957,26 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/oceano-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oceano-ca/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/san-luis-obispo-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2628,6 +3068,26 @@
     "missing_stubs": []
   },
   "/service-areas/san-luis-obispo-ca/post-construction-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-luis-obispo-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-luis-obispo-ca/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2737,6 +3197,26 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/templeton-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/templeton-ca/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/santa-margarita-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2828,6 +3308,26 @@
     "missing_stubs": []
   },
   "/service-areas/santa-margarita-ca/post-construction-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-margarita-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-margarita-ca/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2937,6 +3437,26 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/pismo-beach-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/pismo-beach-ca/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/morro-bay-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3028,6 +3548,26 @@
     "missing_stubs": []
   },
   "/service-areas/morro-bay-ca/post-construction-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/morro-bay-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/morro-bay-ca/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3137,6 +3677,26 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/los-osos-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/los-osos-ca/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/edna-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3228,6 +3788,26 @@
     "missing_stubs": []
   },
   "/service-areas/edna-ca/post-construction-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/edna-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/edna-ca/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3337,6 +3917,26 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/callender-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/callender-ca/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/blacklake-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3437,6 +4037,26 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/blacklake-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/blacklake-ca/vandalism-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/atascadero-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3528,6 +4148,26 @@
     "missing_stubs": []
   },
   "/service-areas/atascadero-ca/post-construction-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/atascadero-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/atascadero-ca/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
