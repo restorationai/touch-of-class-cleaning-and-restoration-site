@@ -566,10 +566,10 @@
     },
     {
       "id": "2026-07-09-do-i-need-a-general-contractor-for-a-remodel",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-07-09T17:54:12Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-07-30T17:46:08Z",
+      "post_url": "https://davisconstructioncontractors.com/blog/do-i-need-a-general-contractor-for-a-remodel/",
       "primary_keyword": "do i need a general contractor for a remodel",
       "intent": "informational",
       "volume": null,
