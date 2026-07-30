@@ -726,6 +726,42 @@ def ensure_auto_site_build(dry_run: bool, cid_to_slug: dict | None = None,
                           or ints_.get("theme") or "").strip().lower()
             if theme_pick == "light":
                 b.setdefault("theme", "light")
+            # Wizard licensing -> brand truth table + trust badges (Coastal's
+            # IICRC sat recorded-but-unused, 2026-07-30). Only VERIFIED claims.
+            lic = ints_.get("licensing") or {}
+            certs = [c.strip().upper() for c in
+                     str(lic.get("certifications") or "").split(",") if c.strip()]
+            if certs and "certifications" not in b:
+                names = {"IICRC": "IICRC Certified Firm",
+                         "WTR": "WRT (Water Damage Restoration Technician)",
+                         "WRT": "WRT (Water Damage Restoration Technician)",
+                         "ASD": "ASD (Applied Structural Drying)",
+                         "AMRT": "AMRT (Applied Microbial Remediation)",
+                         "FSRT": "FSRT (Fire & Smoke Restoration)"}
+                b["certifications"] = "; ".join(names.get(c, c) for c in certs)
+            if lic.get("license_number") and "license_numbers" not in b:
+                b["license_numbers"] = [str(lic["license_number"])]
+            badges = []
+            if any(c.startswith("IICRC") for c in certs):
+                badges.append("IICRC Certified Firm")
+            if lic.get("insured"):
+                badges.append("Licensed & Insured")
+            badges += ["24/7 Emergency Service", "Locally Owned & Operated"]
+            b.setdefault("trust_badges", badges)
+            # Primary area = the company's own city when it's in the list
+            # (Vandenberg Village outranked Santa Maria purely by wizard
+            # ordering, 2026-07-30).
+            home_city = (co.get("city") or "").strip().lower()
+            sa_list = pi.get("service_areas") or []
+            if home_city and sa_list and not any(
+                    a.get("primary") and a.get("city", "").strip().lower() == home_city
+                    for a in sa_list):
+                hit = next((a for a in sa_list
+                            if a.get("city", "").strip().lower() == home_city), None)
+                if hit:
+                    for a in sa_list:
+                        a.pop("primary", None)
+                    hit["primary"] = True
             pi_path.write_text(json.dumps(pi, indent=1) + "\n")
             for cmdline, tmo in [
                 ([sys.executable, str(ROOT / "scripts" / "plan_site.py"),

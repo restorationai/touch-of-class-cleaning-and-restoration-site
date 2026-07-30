@@ -14,7 +14,7 @@ export const brand = {
   email: "tony@callcrs.com",
   hours: "24/7",
   foundedYear: "",
-  primaryCity: "Vandenberg Village",
+  primaryCity: "Santa Maria",
   primaryState: "CA",
   streetAddress: "217 E Fesler St",
   postalCode: "93454",
@@ -37,7 +37,7 @@ export const brand = {
   // lets the TrustStrip show the badge before a license number is on file.
   licensedInsuredAttested: false as boolean,
   certifications: [] as string[],
-  trustBadges: [] as string[],
+  trustBadges: ["IICRC Certified Firm", "Licensed & Insured", "24/7 Emergency Service", "Locally Owned & Operated"] as string[],
   jobPhotos: [] as string[],
   sameAsUrls: [] as string[],
   // GBP rating fields — synced from the live Google Business Profile by

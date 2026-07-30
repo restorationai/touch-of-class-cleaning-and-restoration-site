@@ -1361,6 +1361,13 @@ def cmd_compose(args) -> int:
                 names = ", ".join((companies.get(c) or {}).get("name", c)
                                   for c in group)
                 print(f"[same-owner merge] one message covers: {names}")
+            if group[0] not in companies:
+                # Orphaned intake/plan rows from a deleted company (the ghost
+                # CO-1784568896815 failed the whole 07-30 run). Warn, skip,
+                # and DON'T fail the run — a stale row isn't an outage.
+                print(f"  !! skipping {group[0]}: company row no longer exists "
+                      "(orphaned items — clean them up)")
+                continue
             try:
                 rc = max(rc, cmd_compose(sub))
             except Exception as e:  # noqa: BLE001 — one bad company must never

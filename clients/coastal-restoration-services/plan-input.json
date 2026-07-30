@@ -11,7 +11,11 @@
   "state": "ca",
   "postal_code": "93454",
   "theme": "light",
-  "primary_color": "#e6ac1a"
+  "primary_color": "#e6ac1a",
+  "certifications": "IICRC Certified Firm; WRT (Water Damage Restoration Technician); ASD (Applied Structural Drying)",
+  "license_numbers": [
+   "11245226"
+  ]
  },
  "services": [
   "water-damage-restoration",
@@ -29,13 +33,13 @@
   {
    "city": "Vandenberg Village",
    "state": "CA",
-   "slug": "vandenberg-village-ca",
-   "primary": true
+   "slug": "vandenberg-village-ca"
   },
   {
    "city": "Santa Maria",
    "state": "CA",
-   "slug": "santa-maria-ca"
+   "slug": "santa-maria-ca",
+   "primary": true
   },
   {
    "city": "Orcutt",
