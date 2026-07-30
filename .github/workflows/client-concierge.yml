@@ -1,29 +1,37 @@
 name: Rank AI Client Concierge
 
-# Client Concierge (phase 1): agentic follow-up on outstanding client intake
-# items + client_input asks. MANUAL ONLY — workflow_dispatch, no cron, until
-# real-client enrollment is approved. All sends are gated at the send-function
-# level to the CONCIERGE_ALLOWLIST (default empty = nothing can be delivered).
-# See scripts/client_concierge.py docstring.
+# Monica, LIVE and headless (Santino 2026-07-30: "I would prefer her to not
+# live only on this computer"). Twice daily:
+#   16:07 UTC (~9am PT)  — main pass, mainland business hours
+#   19:37 UTC (~12:30 PT) — catches Hawaii + anything the first run held
+# Each run: 1) read the daily ledger state (client-ops-sync writes it before
+# the first run), 2) poll + answer inbound replies, 3) compose + send nudges
+# per client (all gates live in the code: allowlist, per-client cooldowns,
+# business hours, meeting-imminent, LSA-intent, sentence-trim, re-intro
+# guard). Escalations land in Ops Attention (concierge_escalations).
 on:
+  schedule:
+    - cron: '7 16 * * 1-5'
+    - cron: '37 19 * * 1-5'
   workflow_dispatch:
     inputs:
       mode:
         description: 'What to run'
         type: choice
         options:
+          - daily
           - status
           - poll
-        default: status
+        default: daily
       dry_run:
-        description: 'Dry run (no Supabase writes, no sends, cursor not persisted)'
+        description: 'Dry run (no sends)'
         type: boolean
-        default: true
+        default: false
 
 jobs:
   concierge:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 25
 
     steps:
       - name: Checkout repo
@@ -53,17 +61,27 @@ jobs:
           GHL_API_KEY:               ${{ secrets.GHL_API_KEY }}
           GHL_LOCATION_ID:           ${{ secrets.GHL_LOCATION_ID }}
           CONCIERGE_ALLOWLIST:       ${{ secrets.CONCIERGE_ALLOWLIST }}
+          CONCIERGE_FROM_NUMBER:     ${{ secrets.CONCIERGE_FROM_NUMBER }}
+          CLOUDFLARE_ACCOUNT_ID:     ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_R2_API_TOKEN:   ${{ secrets.CLOUDFLARE_R2_API_TOKEN }}
+          SENDGRID_API_KEY:          ${{ secrets.SENDGRID_API_KEY }}
         run: |
-          if [ "${{ github.event.inputs.mode }}" = "poll" ]; then
-            python3 scripts/client_concierge.py inbound --poll \
-              ${{ github.event.inputs.dry_run == 'false' && '--send' || '' }}
-          else
+          MODE="${{ github.event.inputs.mode || 'daily' }}"
+          SEND_FLAG="${{ github.event.inputs.dry_run == 'true' && '' || '--send' }}"
+          if [ "$MODE" = "status" ]; then
             python3 scripts/client_concierge.py status
+          elif [ "$MODE" = "poll" ]; then
+            python3 scripts/client_concierge.py inbound --poll $SEND_FLAG
+          else
+            # Daily routine: answer replies first, then outreach.
+            python3 scripts/client_concierge.py inbound --poll $SEND_FLAG || true
+            python3 scripts/client_concierge.py compose --all $SEND_FLAG
           fi
 
       - name: Commit state + escalations
-        if: ${{ github.event.inputs.dry_run == 'false' }}
+        if: ${{ github.event.inputs.dry_run != 'true' }}
         run: |
+          git pull --rebase origin main || true
           git add clients/_ops/ 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "Nothing to commit."
@@ -71,3 +89,12 @@ jobs:
             git commit -m "chore: client concierge $(date +%Y-%m-%d) [automated]"
             git push
           fi
+
+      - name: Alert on failure
+        if: failure()
+        env:
+          SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
+        run: |
+          python3 scripts/notify_failure.py \
+            --subject "[Rank AI] CI failure: Client Concierge run #${{ github.run_number }}" \
+            --run-url "https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}" || true
