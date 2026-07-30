@@ -522,10 +522,10 @@
     },
     {
       "id": "2026-06-24-attic-mold-removal-tacoma",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-06-24T15:47:35Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-07-30T18:02:59Z",
+      "post_url": "https://narestco.com/blog/attic-mold-removal-tacoma/",
       "primary_keyword": "attic mold removal",
       "intent": "informational",
       "volume": 2400,
