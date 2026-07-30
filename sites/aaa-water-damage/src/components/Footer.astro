@@ -12,7 +12,7 @@ const year = new Date().getFullYear();
   <div class="container-wide grid gap-12 lg:grid-cols-12">
     <div class="lg:col-span-4">
       {brand.logoUrl && (
-        <img src={brand.logoUrl} alt={`${brand.displayName} logo`} class="h-12 w-auto mb-6" width="48" height="48" loading="lazy" />
+        <img src={brand.logoUrl} alt={`${brand.displayName} logo`} class="h-16 md:h-20 w-auto mb-6" width="48" height="48" loading="lazy" />
       )}
       <div class="font-display text-2xl font-black tracking-tight text-navy-900">{brand.displayName}</div>
       <p class="mt-4 text-navy-900/70 text-sm leading-relaxed mb-0">{brand.tagline}</p>
