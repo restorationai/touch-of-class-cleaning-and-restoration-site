@@ -905,6 +905,9 @@ def send_message(contact: dict, channel: str, body: str,
             f"refusing {channel} send to contact {contact.get('id')}.")
 
     body = re.sub(r"\s*[\u2014\u2013]\s*", ", ", body)  # no em/en dashes ever
+    # No emoji/astral chars EVER: one emoji flips Twilio to UCS-2 encoding and
+    # doubles the segment cost (Santino 2026-07-30).
+    body = re.sub(r"[\U0001F000-\U0010FFFF\u2600-\u27bf\ufe0f\u200d]", "", body)
     payload: dict = {"type": "SMS" if channel == "sms" else "Email",
                      "contactId": contact["id"]}
     if channel == "sms":

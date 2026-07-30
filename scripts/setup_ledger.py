@@ -563,7 +563,7 @@ def ensure_auto_site_build(dry_run: bool, cid_to_slug: dict | None = None,
     cid_to_slug = cid_to_slug or slug_map()
     cos = _sb("GET", "/rest/v1/companies?status=ilike.active&plan=eq.Rank%20AI"
               "&select=id,name,phone,email,address,city,state,postal_code,services,"
-              "integration_settings",
+              "integration_settings,service_areas",
               prefer="return=representation") or []
     out: list[str] = []
     built = 0
@@ -640,6 +640,44 @@ def ensure_auto_site_build(dry_run: bool, cid_to_slug: dict | None = None,
                             "slug": re.sub(r"[^a-z0-9]+", "-",
                                            f"{city} {cst}".lower()).strip("-"),
                             **({"primary": True} if not areas else {})})
+                # SECOND: the onboarding wizard's territory picker writes
+                # companies.service_areas (county + cities) — the AI Dispatcher
+                # reads it, but the site build never did (Coastal + QCI both
+                # shipped with a fraction of their cities, 2026-07-30).
+                if not areas:
+                    _ST_ABBR = {"alabama": "AL", "alaska": "AK", "arizona": "AZ", "arkansas": "AR",
+                                "california": "CA", "colorado": "CO", "connecticut": "CT", "delaware": "DE",
+                                "florida": "FL", "georgia": "GA", "hawaii": "HI", "idaho": "ID",
+                                "illinois": "IL", "indiana": "IN", "iowa": "IA", "kansas": "KS",
+                                "kentucky": "KY", "louisiana": "LA", "maine": "ME", "maryland": "MD",
+                                "massachusetts": "MA", "michigan": "MI", "minnesota": "MN", "mississippi": "MS",
+                                "missouri": "MO", "montana": "MT", "nebraska": "NE", "nevada": "NV",
+                                "new hampshire": "NH", "new jersey": "NJ", "new mexico": "NM", "new york": "NY",
+                                "north carolina": "NC", "north dakota": "ND", "ohio": "OH", "oklahoma": "OK",
+                                "oregon": "OR", "pennsylvania": "PA", "rhode island": "RI", "south carolina": "SC",
+                                "south dakota": "SD", "tennessee": "TN", "texas": "TX", "utah": "UT",
+                                "vermont": "VT", "virginia": "VA", "washington": "WA", "west virginia": "WV",
+                                "wisconsin": "WI", "wyoming": "WY"}
+                    sa_raw = co.get("service_areas")
+                    if isinstance(sa_raw, str):
+                        try:
+                            sa_raw = json.loads(sa_raw)
+                        except json.JSONDecodeError:
+                            sa_raw = []
+                    for terr in sa_raw or []:
+                        tst = (terr.get("state") or st or "").strip()
+                        tst = _ST_ABBR.get(tst.lower(), tst[:2].upper() if len(tst) > 2 else tst.upper())
+                        for city in terr.get("cities") or []:
+                            city = str(city).strip()
+                            # campus/base entries aren't ranking targets
+                            if not city or len(city) > 40 or "university" in city.lower():
+                                continue
+                            city = re.sub(r"\s*\(.*\)$", "", city)  # "El Paso de Robles (Paso Robles)"
+                            areas.append({
+                                "city": city, "state": tst,
+                                "slug": re.sub(r"[^a-z0-9]+", "-",
+                                               f"{city} {tst}".lower()).strip("-"),
+                                **({"primary": True} if not areas else {})})
                 gg = CLIENTS_DIR / slug / "geogrid-cities.json"
                 if not areas and gg.exists():
                     try:
