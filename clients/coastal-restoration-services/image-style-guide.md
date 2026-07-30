@@ -209,3 +209,11 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 ## Style guide version
 
 This guide is generated from `templates/restoration/image-style-guide.template.md` v1.1 (2026-07-11: added Standing Brand Rules — real vehicle logos, single declared uniform color, harvest-first). When the canonical template updates, existing clients keep their pinned version unless explicitly regenerated. Bump the version + add a changelog entry when changing structural rules (e.g., adding new mandatory PPE conventions).
+
+
+## CLIENT-SPECIFIC RULES (Santino 2026-07-30)
+- Crew depiction: predominantly Latino, medium-dark skin tones (match the owner, Tony). Never an all-white crew.
+- Uniforms: navy blue polos/shirts.
+- Vans: white with NAVY BLUE lettering/stripe and the shield logo. NEVER red accents.
+- Palette: navy #14144a + gold #e6ac1a (from the logo). No red anywhere.
+- Real photos first: clients/coastal-restoration-services/harvested/ has Tony's photo + 6 site videos.

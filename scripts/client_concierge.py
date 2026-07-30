@@ -688,9 +688,26 @@ def gather_items(company_id: str) -> list[dict]:
                 "detail": p.get("rationale") or "", "field_type": "free_text",
                 "blocks": None}
 
-    return ([norm_intake(i) for i in blocking]
-            + [norm_plan(p) for p in asks]
-            + [norm_intake(i) for i in rest])
+    items = ([norm_intake(i) for i in blocking]
+             + [norm_plan(p) for p in asks]
+             + [norm_intake(i) for i in rest])
+
+    # BUSINESS-PRIORITY RANK (Santino 2026-07-30: "she always works on the
+    # first priority item" — All Pro got a YouTube ask while their Google
+    # account sat unconnected). Rank classes trump source ordering; ties
+    # keep the original order.
+    def _rank(it) -> int:
+        t = (it["text"] + " " + (it.get("detail") or "")).lower()
+        if "google" in t and ("connect" in t or "access" in t or "listing" in t):
+            return 0   # nothing works without the Google connection
+        if any(k in t for k in ("domain", "registrar", "godaddy", "nameserver")):
+            return 1   # launch blocker
+        if "customer list" in t or "review campaign" in t:
+            return 2   # revenue engine
+        if "logo" in t or "brand" in t:
+            return 3
+        return 5
+    return sorted(items, key=_rank)
 
 
 # ---------------------------------------------------------------- GHL contact

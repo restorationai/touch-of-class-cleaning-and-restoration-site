@@ -10,7 +10,8 @@
   "city": "Santa Maria ",
   "state": "ca",
   "postal_code": "93454",
-  "theme": "light"
+  "theme": "light",
+  "primary_color": "#e6ac1a"
  },
  "services": [
   "water-damage-restoration",
