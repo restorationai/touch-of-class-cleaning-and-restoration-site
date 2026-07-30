@@ -78,6 +78,14 @@ jobs:
             python3 scripts/client_concierge.py compose --all $SEND_FLAG
           fi
 
+      - name: Morning digest to Santino (first run only; silent when quiet)
+        if: ${{ github.event.schedule == '7 16 * * 1-5' || github.event.inputs.mode == 'daily' }}
+        env:
+          SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          SENDGRID_API_KEY:          ${{ secrets.SENDGRID_API_KEY }}
+        run: python3 scripts/concierge_digest.py || true
+
       - name: Commit state + escalations
         if: ${{ github.event.inputs.dry_run != 'true' }}
         run: |
