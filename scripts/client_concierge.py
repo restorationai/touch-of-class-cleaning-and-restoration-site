@@ -692,22 +692,29 @@ def gather_items(company_id: str) -> list[dict]:
              + [norm_plan(p) for p in asks]
              + [norm_intake(i) for i in rest])
 
-    # BUSINESS-PRIORITY RANK (Santino 2026-07-30: "she always works on the
-    # first priority item" — All Pro got a YouTube ask while their Google
-    # account sat unconnected). Rank classes trump source ordering; ties
-    # keep the original order.
-    def _rank(it) -> int:
-        t = (it["text"] + " " + (it.get("detail") or "")).lower()
-        if "google" in t and ("connect" in t or "access" in t or "listing" in t):
-            return 0   # nothing works without the Google connection
-        if any(k in t for k in ("domain", "registrar", "godaddy", "nameserver")):
-            return 1   # launch blocker
-        if "customer list" in t or "review campaign" in t:
-            return 2   # revenue engine
-        if "logo" in t or "brand" in t:
-            return 3
-        return 5
-    return sorted(items, key=_rank)
+    return sorted(items, key=ask_rank)
+
+
+# BUSINESS-PRIORITY RANK (Santino 2026-07-30: "she always works on the
+# first priority item" — All Pro got a YouTube ask while their Google
+# account sat unconnected). Rank classes trump source ordering; Python's
+# stable sort keeps the original order within a class. Module-level so the
+# same-owner merge can re-rank across companies too.
+def ask_rank(it) -> int:
+    # Rank on the item TITLE only — details are prose and full of incidental
+    # keyword matches ("sign into that Google account" on a YouTube ask).
+    t = it["text"].lower()
+    if "youtube" in t:
+        return 4   # nice-to-have, never outranks foundations
+    if "google" in t and any(k in t for k in ("connect", "access", "re-engage")):
+        return 0   # nothing works without the Google connection
+    if any(k in t for k in ("domain", "registrar", "godaddy", "nameserver")):
+        return 1   # launch blocker
+    if "customer list" in t or "review campaign" in t:
+        return 2   # revenue engine
+    if "logo" in t or "brand" in t:
+        return 3
+    return 5
 
 
 # ---------------------------------------------------------------- GHL contact
@@ -1392,6 +1399,10 @@ def cmd_compose(args) -> int:
             for it in items:
                 if not str(it.get("text", "")).startswith("["):
                     it["text"] = "[{}] {}".format(company["name"].strip(), it["text"])
+            # Re-rank ACROSS the merged pair — a sister's Google-connect must
+            # outrank the primary's nice-to-haves (All Pro sat unconnected
+            # while Angie got a YouTube ask, 2026-07-30).
+            items.sort(key=ask_rank)
     if not items:
         print(f"{company['name']}: nothing outstanding — no message needed.")
         return 0
