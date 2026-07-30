@@ -137,10 +137,10 @@
     },
     {
       "id": "2026-07-27-ceiling-water-damage-repair",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-07-27T18:39:36Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-07-30T18:18:43Z",
+      "post_url": "https://therestorationgroup.com/blog/ceiling-water-damage-repair/",
       "primary_keyword": "ceiling water damage repair",
       "intent": "transactional",
       "volume": 1900,
@@ -278,6 +278,192 @@
         "https://www.iicrc.org/page/IICRCS500"
       ],
       "notes": "KD 3 with 880/mo and CPC $20.21: the cheapest priority-1 win in this seed family. Cost pages are the top AI-assistant citation target for this vertical. Break price out by water category (1/2/3), affected square footage and equipment days, and explain that most losses run through insurance so the homeowner's real number is the deductible."
+    },
+    {
+      "id": "2026-07-30-what-does-flood-insurance-cover",
+      "status": "queued",
+      "queued_at": "2026-07-30T18:15:58Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what does flood insurance cover",
+      "intent": "informational",
+      "volume": 1300,
+      "kd": 15,
+      "fan_out_cluster": [
+        "what does flood insurance not cover",
+        "does flood insurance cover burst pipes",
+        "does flood insurance cover sewer backup",
+        "flood insurance vs homeowners insurance water damage",
+        "does flood insurance cover basement flooding",
+        "NFIP flood insurance waiting period"
+      ],
+      "suggested_slug": "what-does-flood-insurance-cover",
+      "suggested_title": "What does flood insurance cover (and what it will not) for New Jersey homeowners",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/flood-damage-restoration/",
+        "/services/basement-flooding-cleanup/",
+        "/services/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "flood-damage-restoration",
+        "basement-flooding-cleanup",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.floodsmart.gov/what-covered",
+        "https://nj.gov/dobi/division_consumers/insurance/homeowner.htm"
+      ],
+      "notes": "Highest-volume uncovered informational in the seed family. NJ angle is strong: standard homeowners policies exclude flood, and Ida (September 2021) is still the reference event across Cranford, Springfield, Elizabeth and Union. Lead with the covered-vs-excluded table, then the basement-contents limitation (NFIP pays very little below grade), then the 30-day waiting period. Do not promise coverage outcomes; point readers to their declarations page."
+    },
+    {
+      "id": "2026-07-30-does-homeowners-insurance-cover-black-mold",
+      "status": "queued",
+      "queued_at": "2026-07-30T18:15:58Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does homeowners insurance cover black mold",
+      "intent": "informational",
+      "volume": 320,
+      "kd": 11,
+      "fan_out_cluster": [
+        "what insurance companies cover mold damage",
+        "does home insurance cover mold from water damage",
+        "mold coverage limit homeowners insurance",
+        "is mold covered if caused by a burst pipe",
+        "does insurance cover mold from a slow leak",
+        "mold remediation insurance claim documentation"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-black-mold",
+      "suggested_title": "Does homeowners insurance cover black mold? When it pays and when it does not",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/services/mold-inspection-testing/",
+        "/services/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "mold-inspection-testing",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-cleanup-your-home",
+        "https://www.iicrc.org/page/IICRCS520"
+      ],
+      "notes": "Pivot point is covered peril vs neglect: mold from a sudden burst pipe is usually covered, mold from a slow leak or deferred maintenance usually is not. Most policies carry a $5,000-$10,000 mold sublimit. Cross-link the existing /blog/black-mold-vs-regular-mold/ and /blog/signs-of-hidden-mold/ posts rather than re-explaining identification. Reinforce the 24-48 hour growth window as the reason to call fast."
+    },
+    {
+      "id": "2026-07-30-should-i-file-home-insurance-claim-water-damage",
+      "status": "queued",
+      "queued_at": "2026-07-30T18:15:58Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "should i file a home insurance claim for water damage",
+      "intent": "informational",
+      "volume": 210,
+      "kd": 27,
+      "fan_out_cluster": [
+        "how to file a home insurance claim for water damage",
+        "water damage claim deductible worth it",
+        "will filing a water damage claim raise my premium",
+        "how many claims before homeowners insurance drops you",
+        "water damage claim documentation checklist",
+        "actual cash value vs replacement cost water damage"
+      ],
+      "suggested_slug": "should-i-file-home-insurance-claim-water-damage",
+      "suggested_title": "Should I file a home insurance claim for water damage? A decision guide",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/burst-pipe-repair/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "burst-pipe-repair"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://nj.gov/dobi/division_consumers/insurance/homeowner.htm"
+      ],
+      "notes": "Decision-stage, 24-48 hours before the homeowner hires anyone: exactly the window the methodology flags as highest value. Frame it as deductible vs estimated loss, CLUE-report history, and the duty-to-mitigate clause (insurers expect drying to start before the adjuster arrives). Pair with the existing /blog/storm-damage-insurance-claim-checklist/ post. Stay neutral: we document the loss, we do not advise on whether to file."
+    },
+    {
+      "id": "2026-07-30-how-to-get-insurance-to-pay-for-water-damage",
+      "status": "queued",
+      "queued_at": "2026-07-30T18:15:58Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to get insurance to pay for water damage",
+      "intent": "informational",
+      "volume": 110,
+      "kd": 27,
+      "fan_out_cluster": [
+        "water damage insurance claim denied what to do",
+        "how to document water damage for insurance",
+        "moisture readings and drying logs for insurance",
+        "what an adjuster looks for water damage",
+        "duty to mitigate water damage insurance",
+        "can I choose my own restoration contractor"
+      ],
+      "suggested_slug": "how-to-get-insurance-to-pay-for-water-damage",
+      "suggested_title": "How to get insurance to pay for water damage: documentation that holds up",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/reconstruction/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "reconstruction"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://nj.gov/dobi/division_consumers/insurance/homeowner.htm"
+      ],
+      "notes": "Natural companion to the should-I-file post: this one is the how. Our IICRC S500 moisture logs, daily drying readings and photo documentation are the actual differentiator, so this post doubles as a proof-of-process page. Answer the 'can I pick my own contractor' question directly, since in NJ the homeowner can."
+    },
+    {
+      "id": "2026-07-30-does-homeowners-insurance-cover-water-heater-leak-damage",
+      "status": "queued",
+      "queued_at": "2026-07-30T18:15:58Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does homeowners insurance cover water heater leak damage",
+      "intent": "informational",
+      "volume": 70,
+      "kd": 12,
+      "fan_out_cluster": [
+        "does insurance cover a water heater that bursts",
+        "water heater leak damage claim",
+        "does homeowners insurance cover the water heater itself",
+        "washing machine leak insurance coverage",
+        "dishwasher leak water damage insurance",
+        "how to spot a failing water heater"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-water-heater-leak-damage",
+      "suggested_title": "Does homeowners insurance cover water heater leak damage?",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/appliance-leak-cleanup/",
+        "/services/water-damage-restoration/",
+        "/services/basement-flooding-cleanup/"
+      ],
+      "service_tags": [
+        "appliance-leak-cleanup",
+        "water-damage-restoration",
+        "basement-flooding-cleanup"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Key distinction readers get wrong: policies usually pay for the resulting damage but not for replacing the failed water heater itself. Highly relevant to our Union County footprint, where 1920s-1950s housing stock on full basements puts the tank directly above finished space. Ties to the appliance-leak-cleanup service page, which currently has no blog support."
     }
   ]
 }
