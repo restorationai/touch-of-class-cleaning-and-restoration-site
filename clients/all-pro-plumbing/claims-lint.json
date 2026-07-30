@@ -1,0 +1,40 @@
+{
+  "slug": "all-pro-plumbing",
+  "generated_at": "2026-07-30T18:37:25Z",
+  "truth": {
+    "hours": "24/7",
+    "is_247": true,
+    "certifications": [],
+    "license_numbers": [
+      "960566"
+    ],
+    "licensed_ok": true,
+    "response_minutes": null,
+    "family_owned": false,
+    "founded_year": "",
+    "gbp_review_count": null,
+    "vertical": "plumbing"
+  },
+  "errors": 0,
+  "review_flags": 2,
+  "violations": [
+    {
+      "file": "src/content/blog/how-much-does-a-plumber-cost-per-hour.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "mold remediation",
+      "context": "ys less than the drywall, flooring, and mold remediation that follows 8 hours of unchecked water",
+      "reason": "names the 'mold' service family but plan-input services are only: emergency-plumbing, burst-pipe-repair, drain-cleaning, sewer-line-repair, water-heater-repair, water-heater-installation"
+    },
+    {
+      "file": "src/content/blog/low-water-pressure-causes.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "mold remediation",
+      "context": "mean significant structural damage and mold remediation on top of the plumbing repair. --- If",
+      "reason": "names the 'mold' service family but plan-input services are only: emergency-plumbing, burst-pipe-repair, drain-cleaning, sewer-line-repair, water-heater-repair, water-heater-installation"
+    }
+  ]
+}

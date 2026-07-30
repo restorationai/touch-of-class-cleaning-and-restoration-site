@@ -3,7 +3,7 @@
   "slug": "narestco",
   "site": "narestco.com",
   "origin": "https://narestco.com",
-  "generated_at": "2026-06-25T18:17:53Z",
+  "generated_at": "2026-07-30T18:06:06Z",
   "gsc_enabled": false,
   "totals": {
     "total_actions": 0,
@@ -22,7 +22,7 @@
   },
   "items": [],
   "notes": [
-    "URLs skipped because already in content-queue: 0 (no candidate was flagged for refresh)",
+    "URLs skipped because already in content-queue: 0 (none)",
     "URLs where date extraction failed: 0 (none)",
     "URLs skipped because fresh (age < 305d, no flags): 120",
     "v1 limitations: no GSC indexing flags (sitemap + page-date scoring only)"

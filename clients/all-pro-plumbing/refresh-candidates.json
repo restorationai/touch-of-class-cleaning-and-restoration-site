@@ -1,0 +1,3573 @@
+{
+  "schema_version": 1,
+  "slug": "all-pro-plumbing",
+  "origin": "https://allproplumbingheatingandair.com",
+  "origin_source": "apex",
+  "generated_at": "2026-07-30T17:42:27+00:00",
+  "stale_threshold_days": 365,
+  "aging_threshold_days": 305,
+  "gsc_enabled": false,
+  "v1_notes": [
+    "v1 = sitemap + page-level date extraction. No GSC indexing flags.",
+    "See docs/system-4-v2-activation.md for GSC v2 setup."
+  ],
+  "inspected_count": 209,
+  "fetched_html_count": 209,
+  "failed_html_count": 0,
+  "flag_counts": {},
+  "candidates": [
+    {
+      "url": "https://allproplumbingheatingandair.com/",
+      "date": "2026-07-08",
+      "date_source": "sitemap_lastmod",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:20:58.572Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/about/",
+      "date": "2026-07-08",
+      "date_source": "sitemap_lastmod",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:39:22.481Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/accessibility/",
+      "date": "2026-07-08",
+      "date_source": "sitemap_lastmod",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:39:37.844Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/blog/",
+      "date": "2026-07-08",
+      "date_source": "sitemap_lastmod",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:38:58.161Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/blog/best-emergency-plumbing-company-in-bakersfield-ca/",
+      "date": "2026-07-27",
+      "date_source": "json_ld_date_modified",
+      "age_days": 3,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-27T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-07-27",
+        "json_ld_date_modified": "2026-07-27",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/blog/drain-cleaning-diy-vs-pro/",
+      "date": "2026-06-10",
+      "date_source": "json_ld_date_modified",
+      "age_days": 50,
+      "flags": [],
+      "sitemap_lastmod": "2026-06-10T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-06-10",
+        "json_ld_date_modified": "2026-06-10",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/blog/furnace-repair-or-replace/",
+      "date": "2026-06-26",
+      "date_source": "json_ld_date_modified",
+      "age_days": 34,
+      "flags": [],
+      "sitemap_lastmod": "2026-06-26T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-06-26",
+        "json_ld_date_modified": "2026-06-26",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/blog/gas-leak-what-to-do/",
+      "date": "2026-06-19",
+      "date_source": "json_ld_date_modified",
+      "age_days": 41,
+      "flags": [],
+      "sitemap_lastmod": "2026-06-19T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-06-19",
+        "json_ld_date_modified": "2026-06-19",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/blog/heat-pump-vs-furnace/",
+      "date": "2026-06-21",
+      "date_source": "json_ld_date_modified",
+      "age_days": 39,
+      "flags": [],
+      "sitemap_lastmod": "2026-06-21T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-06-21",
+        "json_ld_date_modified": "2026-06-21",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/blog/how-much-does-a-new-ac-cost/",
+      "date": "2026-07-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 27,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-03T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-07-03",
+        "json_ld_date_modified": "2026-07-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/blog/how-much-does-a-plumber-cost-per-hour/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-07-30",
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/blog/hydro-jetting-vs-snaking/",
+      "date": "2026-06-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 37,
+      "flags": [],
+      "sitemap_lastmod": "2026-06-23T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-06-23",
+        "json_ld_date_modified": "2026-06-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/blog/low-water-pressure-causes/",
+      "date": "2026-07-02",
+      "date_source": "json_ld_date_modified",
+      "age_days": 28,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-02T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-07-02",
+        "json_ld_date_modified": "2026-07-02",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/blog/signs-of-a-slab-leak/",
+      "date": "2026-06-16",
+      "date_source": "json_ld_date_modified",
+      "age_days": 44,
+      "flags": [],
+      "sitemap_lastmod": "2026-06-16T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-06-16",
+        "json_ld_date_modified": "2026-06-16",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/blog/tankless-vs-tank-water-heater/",
+      "date": "2026-06-29",
+      "date_source": "json_ld_date_modified",
+      "age_days": 31,
+      "flags": [],
+      "sitemap_lastmod": "2026-06-29T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-06-29",
+        "json_ld_date_modified": "2026-06-29",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/blog/trenchless-sewer-repair-explained/",
+      "date": "2026-07-02",
+      "date_source": "json_ld_date_modified",
+      "age_days": 28,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-02T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-07-02",
+        "json_ld_date_modified": "2026-07-02",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/blog/water-heater-lifespan-repair-or-replace/",
+      "date": "2026-06-18",
+      "date_source": "json_ld_date_modified",
+      "age_days": 42,
+      "flags": [],
+      "sitemap_lastmod": "2026-06-18T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-06-18",
+        "json_ld_date_modified": "2026-06-18",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/blog/what-to-do-burst-pipe/",
+      "date": "2026-07-07",
+      "date_source": "json_ld_date_modified",
+      "age_days": 23,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-07T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-07-07",
+        "json_ld_date_modified": "2026-07-07",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/certifications/",
+      "date": "2026-07-30",
+      "date_source": "sitemap_lastmod",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:30:49.832Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/contact/",
+      "date": "2026-07-08",
+      "date_source": "sitemap_lastmod",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:39:21.602Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/emergency/",
+      "date": "2026-07-30",
+      "date_source": "sitemap_lastmod",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:30:49.832Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/privacy/",
+      "date": "2026-07-08",
+      "date_source": "sitemap_lastmod",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:39:31.667Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/reviews/",
+      "date": "2026-07-30",
+      "date_source": "sitemap_lastmod",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:30:49.832Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/",
+      "date": "2026-07-08",
+      "date_source": "sitemap_lastmod",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:37:44.058Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/bakersfield-ca/",
+      "date": "2026-07-08",
+      "date_source": "sitemap_lastmod",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:01:40.785Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/bakersfield-ca/ac-installation/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:09:42.846Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/bakersfield-ca/ac-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:02:43.149Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/bakersfield-ca/burst-pipe-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:08:49.806Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/bakersfield-ca/drain-cleaning/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:02:33.362Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/bakersfield-ca/ductless-mini-splits/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:22:32.844Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/bakersfield-ca/ductwork/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:32:46.524Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/bakersfield-ca/emergency-plumbing/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:02:22.237Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/bakersfield-ca/furnace-installation/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:16:45.613Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/bakersfield-ca/furnace-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:09:41.252Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/bakersfield-ca/garbage-disposal/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:38:14.625Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/bakersfield-ca/gas-line-services/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:16:12.839Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/bakersfield-ca/heat-pump-services/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:22:06.620Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/bakersfield-ca/indoor-air-quality/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:33:16.951Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/bakersfield-ca/leak-detection/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:21:16.916Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/bakersfield-ca/repiping/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:22:05.320Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/bakersfield-ca/sewer-line-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:09:05.907Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/bakersfield-ca/slab-leak-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:21:42.913Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/bakersfield-ca/sump-pumps/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:32:25.861Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/bakersfield-ca/toilet-faucet-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:22:03.693Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/bakersfield-ca/water-heater-installation/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:09:39.710Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/bakersfield-ca/water-heater-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:02:26.452Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/bakersfield-ca/water-softeners-filtration/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:32:30.063Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/delano-ca/",
+      "date": "2026-07-08",
+      "date_source": "sitemap_lastmod",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:30:34.217Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/delano-ca/ac-installation/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:13:42.130Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/delano-ca/ac-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:05:53.253Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/delano-ca/burst-pipe-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:12:57.704Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/delano-ca/drain-cleaning/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:05:33.073Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/delano-ca/ductless-mini-splits/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:27:27.763Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/delano-ca/ductwork/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:35:53.695Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/delano-ca/emergency-plumbing/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:05:29.255Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/delano-ca/furnace-installation/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:18:27.504Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/delano-ca/furnace-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:13:36.332Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/delano-ca/garbage-disposal/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:39:00.710Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/delano-ca/gas-line-services/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:17:46.900Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/delano-ca/heat-pump-services/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:26:55.039Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/delano-ca/indoor-air-quality/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:36:32.861Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/delano-ca/leak-detection/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:26:11.908Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/delano-ca/repiping/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:26:45.933Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/delano-ca/sewer-line-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:12:57.460Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/delano-ca/slab-leak-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:26:40.030Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/delano-ca/sump-pumps/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:35:44.145Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/delano-ca/toilet-faucet-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:26:49.223Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/delano-ca/water-heater-installation/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:13:39.329Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/delano-ca/water-heater-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:05:38.246Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/delano-ca/water-softeners-filtration/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:35:43.699Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/oildale-ca/",
+      "date": "2026-07-08",
+      "date_source": "sitemap_lastmod",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:29:52.561Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/oildale-ca/ac-installation/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:10:35.122Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/oildale-ca/ac-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:03:28.612Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/oildale-ca/burst-pipe-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:09:49.292Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/oildale-ca/drain-cleaning/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:03:15.742Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/oildale-ca/ductless-mini-splits/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:23:40.131Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/oildale-ca/ductwork/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:33:32.795Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/oildale-ca/emergency-plumbing/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:03:11.070Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/oildale-ca/furnace-installation/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:16:57.901Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/oildale-ca/furnace-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:10:24.783Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/oildale-ca/garbage-disposal/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:38:28.651Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/oildale-ca/gas-line-services/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:16:58.832Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/oildale-ca/heat-pump-services/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:23:36.064Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/oildale-ca/indoor-air-quality/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:34:06.329Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/oildale-ca/leak-detection/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:22:47.992Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/oildale-ca/repiping/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:22:55.609Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/oildale-ca/sewer-line-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:10:27.311Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/oildale-ca/slab-leak-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:22:53.705Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/oildale-ca/sump-pumps/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:33:17.829Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/oildale-ca/toilet-faucet-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:23:20.132Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/oildale-ca/water-heater-installation/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:10:25.529Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/oildale-ca/water-heater-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:03:18.567Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/oildale-ca/water-softeners-filtration/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:33:21.700Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/rosedale-ca/",
+      "date": "2026-07-08",
+      "date_source": "sitemap_lastmod",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:29:58.642Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/rosedale-ca/ac-installation/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:12:06.945Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/rosedale-ca/ac-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:04:18.871Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/rosedale-ca/burst-pipe-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:11:18.994Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/rosedale-ca/drain-cleaning/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:04:01.256Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/rosedale-ca/ductless-mini-splits/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:25:02.628Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/rosedale-ca/ductwork/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:34:26.451Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/rosedale-ca/emergency-plumbing/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:03:57.544Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/rosedale-ca/furnace-installation/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:17:38.137Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/rosedale-ca/furnace-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:11:21.618Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/rosedale-ca/garbage-disposal/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:38:32.428Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/rosedale-ca/gas-line-services/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:16:59.840Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/rosedale-ca/heat-pump-services/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:24:36.149Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/rosedale-ca/indoor-air-quality/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:34:55.875Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/rosedale-ca/leak-detection/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:23:50.614Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/rosedale-ca/repiping/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:24:22.778Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/rosedale-ca/sewer-line-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:11:14.966Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/rosedale-ca/slab-leak-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:24:12.895Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/rosedale-ca/sump-pumps/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:34:04.627Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/rosedale-ca/toilet-faucet-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:24:28.146Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/rosedale-ca/water-heater-installation/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:11:16.255Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/rosedale-ca/water-heater-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:04:04.324Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/rosedale-ca/water-softeners-filtration/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:34:10.323Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/shafter-ca/",
+      "date": "2026-07-08",
+      "date_source": "sitemap_lastmod",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:30:04.733Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/shafter-ca/ac-installation/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:12:50.962Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/shafter-ca/ac-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:05:08.298Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/shafter-ca/burst-pipe-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:12:05.948Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/shafter-ca/drain-cleaning/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:04:47.552Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/shafter-ca/ductless-mini-splits/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:26:01.774Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/shafter-ca/ductwork/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:35:08.798Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/shafter-ca/emergency-plumbing/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:04:42.569Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/shafter-ca/furnace-installation/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:17:44.370Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/shafter-ca/furnace-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:12:50.357Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/shafter-ca/garbage-disposal/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:38:49.650Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/shafter-ca/gas-line-services/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:17:42.259Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/shafter-ca/heat-pump-services/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:26:03.259Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/shafter-ca/indoor-air-quality/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:35:42.194Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/shafter-ca/leak-detection/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:25:11.758Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/shafter-ca/repiping/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:25:23.864Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/shafter-ca/sewer-line-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:12:09.834Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/shafter-ca/slab-leak-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:25:14.417Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/shafter-ca/sump-pumps/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:34:53.213Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/shafter-ca/toilet-faucet-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:25:49.504Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/shafter-ca/water-heater-installation/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:12:11.989Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/shafter-ca/water-heater-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:04:49.182Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/shafter-ca/water-softeners-filtration/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:34:55.802Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/taft-ca/",
+      "date": "2026-07-08",
+      "date_source": "sitemap_lastmod",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:30:38.072Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/taft-ca/ac-installation/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:14:26.837Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/taft-ca/ac-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:06:36.165Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/taft-ca/burst-pipe-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:13:43.530Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/taft-ca/drain-cleaning/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:06:16.131Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/taft-ca/ductless-mini-splits/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:28:26.166Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/taft-ca/ductwork/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:36:40.876Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/taft-ca/emergency-plumbing/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:06:13.730Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/taft-ca/furnace-installation/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:18:29.932Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/taft-ca/furnace-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:14:29.410Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/taft-ca/garbage-disposal/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:39:15.624Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/taft-ca/gas-line-services/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:18:31.175Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/taft-ca/heat-pump-services/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:28:17.934Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/taft-ca/indoor-air-quality/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:37:14.652Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/taft-ca/leak-detection/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:27:32.459Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/taft-ca/repiping/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:27:39.730Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/taft-ca/sewer-line-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:14:22.768Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/taft-ca/slab-leak-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:27:39.766Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/taft-ca/sump-pumps/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:36:29.360Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/taft-ca/toilet-faucet-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:28:14.446Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/taft-ca/water-heater-installation/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:14:26.032Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/taft-ca/water-heater-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:06:23.075Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/taft-ca/water-softeners-filtration/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:36:29.110Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/tehachapi-ca/",
+      "date": "2026-07-08",
+      "date_source": "sitemap_lastmod",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:30:43.815Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/tehachapi-ca/ac-installation/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:15:58.973Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/tehachapi-ca/ac-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:07:23.634Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/tehachapi-ca/burst-pipe-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:15:10.488Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/tehachapi-ca/drain-cleaning/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:07:00.276Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/tehachapi-ca/ductless-mini-splits/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:29:50.803Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/tehachapi-ca/ductwork/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:37:25.226Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/tehachapi-ca/emergency-plumbing/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:07:00.871Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/tehachapi-ca/furnace-installation/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:19:14.619Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/tehachapi-ca/furnace-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:15:11.699Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/tehachapi-ca/garbage-disposal/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:39:14.882Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/tehachapi-ca/gas-line-services/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:18:38.865Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/tehachapi-ca/heat-pump-services/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:29:10.799Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/tehachapi-ca/indoor-air-quality/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:38:04.623Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/tehachapi-ca/leak-detection/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:28:26.388Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/tehachapi-ca/repiping/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:29:04.808Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/tehachapi-ca/sewer-line-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:15:11.754Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/tehachapi-ca/slab-leak-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:29:03.493Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/tehachapi-ca/sump-pumps/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:37:18.683Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/tehachapi-ca/toilet-faucet-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:29:13.428Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/tehachapi-ca/water-heater-installation/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:15:21.126Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/tehachapi-ca/water-heater-repair/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:07:08.564Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/tehachapi-ca/water-softeners-filtration/",
+      "date": "2026-07-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:37:21.708Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/services/",
+      "date": "2026-07-08",
+      "date_source": "sitemap_lastmod",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:37:44.152Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/services/ac-installation/",
+      "date": "2026-07-08",
+      "date_source": "sitemap_lastmod",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:01:35.052Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/services/ac-repair/",
+      "date": "2026-07-08",
+      "date_source": "sitemap_lastmod",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T18:59:50.363Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/services/burst-pipe-repair/",
+      "date": "2026-07-08",
+      "date_source": "sitemap_lastmod",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:00:41.092Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/services/drain-cleaning/",
+      "date": "2026-07-08",
+      "date_source": "sitemap_lastmod",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T18:59:45.517Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/services/ductless-mini-splits/",
+      "date": "2026-07-08",
+      "date_source": "sitemap_lastmod",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:08:55.955Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/services/ductwork/",
+      "date": "2026-07-08",
+      "date_source": "sitemap_lastmod",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:19:30.821Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/services/emergency-plumbing/",
+      "date": "2026-07-08",
+      "date_source": "sitemap_lastmod",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T18:59:42.776Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/services/furnace-installation/",
+      "date": "2026-07-08",
+      "date_source": "sitemap_lastmod",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:01:51.098Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/services/furnace-repair/",
+      "date": "2026-07-08",
+      "date_source": "sitemap_lastmod",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:00:52.145Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/services/garbage-disposal/",
+      "date": "2026-07-08",
+      "date_source": "sitemap_lastmod",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:32:34.204Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/services/gas-line-services/",
+      "date": "2026-07-08",
+      "date_source": "sitemap_lastmod",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:01:39.666Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/services/heat-pump-services/",
+      "date": "2026-07-08",
+      "date_source": "sitemap_lastmod",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:08:55.926Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/services/indoor-air-quality/",
+      "date": "2026-07-08",
+      "date_source": "sitemap_lastmod",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:20:16.440Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/services/leak-detection/",
+      "date": "2026-07-08",
+      "date_source": "sitemap_lastmod",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:07:55.304Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/services/repiping/",
+      "date": "2026-07-08",
+      "date_source": "sitemap_lastmod",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:08:03.279Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/services/sewer-line-repair/",
+      "date": "2026-07-08",
+      "date_source": "sitemap_lastmod",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:00:52.310Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/services/slab-leak-repair/",
+      "date": "2026-07-08",
+      "date_source": "sitemap_lastmod",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:07:57.242Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/services/sump-pumps/",
+      "date": "2026-07-08",
+      "date_source": "sitemap_lastmod",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:19:32.425Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/services/toilet-faucet-repair/",
+      "date": "2026-07-08",
+      "date_source": "sitemap_lastmod",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:08:19.512Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/services/water-heater-installation/",
+      "date": "2026-07-08",
+      "date_source": "sitemap_lastmod",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:00:42.047Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/services/water-heater-repair/",
+      "date": "2026-07-08",
+      "date_source": "sitemap_lastmod",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T18:59:46.544Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/services/water-softeners-filtration/",
+      "date": "2026-07-08",
+      "date_source": "sitemap_lastmod",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:19:27.833Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/terms/",
+      "date": "2026-07-08",
+      "date_source": "sitemap_lastmod",
+      "age_days": 22,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-08T19:39:31.971Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    }
+  ]
+}

@@ -137,7 +137,7 @@
     },
     {
       "id": "2026-07-27-ceiling-water-damage-repair",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-07-27T18:39:36Z",
       "written_at": "2026-07-30T18:18:43Z",
       "post_url": "https://therestorationgroup.com/blog/ceiling-water-damage-repair/",
@@ -169,7 +169,8 @@
       "external_authority_candidates": [
         "https://www.iicrc.org/page/IICRCS500"
       ],
-      "notes": "Highest-volume uncovered term from this seed (1,900/mo, CPC $36.82). KD absent from the DataForSEO database. Lead with the collapse-risk safety call, then the patch-vs-replace decision, then cost ranges. Cover the ceiling-from-upstairs-bathroom case: that is the most common Kenilworth-area cape and colonial loss. Fold the signs cluster in as an H2 so the post also answers the diagnostic query."
+      "notes": "Highest-volume uncovered term from this seed (1,900/mo, CPC $36.82). KD absent from the DataForSEO database. Lead with the collapse-risk safety call, then the patch-vs-replace decision, then cost ranges. Cover the ceiling-from-upstairs-bathroom case: that is the most common Kenilworth-area cape and colonial loss. Fold the signs cluster in as an H2 so the post also answers the diagnostic query.",
+      "published_verified_at": "2026-07-30T18:23:23Z"
     },
     {
       "id": "2026-07-27-hardwood-floor-water-damage",

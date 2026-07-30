@@ -378,7 +378,7 @@
     },
     {
       "id": "2026-07-16-mold-remediation-cost",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-07-16T20:20:00Z",
       "written_at": "2026-07-30T17:55:42Z",
       "post_url": "https://homepriderestorationandcleaning.com/blog/mold-remediation-cost/",
@@ -411,7 +411,8 @@
       "external_authority_candidates": [
         "https://www.epa.gov/mold/mold-cleanup-your-home"
       ],
-      "notes": "No mold cost guide exists on site (vol 9900, CPC $23, KD 8). Break cost down by affected area size, mold type, and location (crawl space/attic/HVAC/drywall), plus what insurance covers. Localize price ranges to the Utah County / Wasatch market. Mirrors the queued water- and fire-damage cost guides."
+      "notes": "No mold cost guide exists on site (vol 9900, CPC $23, KD 8). Break cost down by affected area size, mold type, and location (crawl space/attic/HVAC/drywall), plus what insurance covers. Localize price ranges to the Utah County / Wasatch market. Mirrors the queued water- and fire-damage cost guides.",
+      "published_verified_at": "2026-07-30T17:57:52Z"
     },
     {
       "id": "2026-07-16-does-homeowners-insurance-cover-mold",

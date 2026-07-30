@@ -24,7 +24,7 @@
   },
   "status": "active",
   "created_at": "2026-06-15T16:36:28.124334+00:00",
-  "updated_at": "2026-07-24T18:21:27.609211+00:00",
+  "updated_at": "2026-07-30T17:59:38Z",
   "plan_status": "planned",
   "plan": {
     "template": "restoration",
@@ -40,7 +40,7 @@
     "url_count": 267,
     "pages_status": "created",
     "last_rendered_at": "2026-06-26T05:09:22.595081+00:00",
-    "last_pushed_main_at": "2026-07-24T18:21:27.609175+00:00",
+    "last_pushed_main_at": "2026-07-30T17:55:49.955720+00:00",
     "last_pushed_staging_at": "2026-06-24T05:26:54.069433+00:00"
   },
   "build_status": "pushed_main",
@@ -66,10 +66,10 @@
     "method": "cloudflare-pages-custom-domain"
   },
   "refresh": {
-    "last_run_at": "2026-06-24T16:44:27Z",
+    "last_run_at": "2026-07-30T17:59:38Z",
     "last_run_total_actions": 0,
     "last_run_top_action": "none",
-    "last_run_report_path": "clients/homepriderestorationandcleaning/refresh-runs/2026-06-24-refresh-recommender.md"
+    "last_run_report_path": "clients/homepriderestorationandcleaning/refresh-runs/2026-07-30-refresh-recommender.md"
   },
   "nap": {
     "name": "Home Pride Restoration and Cleaning",

@@ -3,7 +3,7 @@
   "slug": "homepriderestorationandcleaning",
   "origin": "https://homepriderestorationandcleaning.com",
   "origin_source": "apex",
-  "generated_at": "2026-06-24T16:43:48+00:00",
+  "generated_at": "2026-07-30T17:58:08+00:00",
   "stale_threshold_days": 365,
   "aging_threshold_days": 305,
   "gsc_enabled": false,
@@ -18,11 +18,11 @@
   "candidates": [
     {
       "url": "https://homepriderestorationandcleaning.com/",
-      "date": "2026-06-24",
+      "date": "2026-06-15",
       "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:44:03.440Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -30,15 +30,16 @@
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/about/",
-      "date": "2026-06-24",
+      "date": "2026-06-15",
       "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T19:06:26.317Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -46,15 +47,16 @@
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/accessibility/",
-      "date": "2026-06-24",
+      "date": "2026-06-15",
       "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T19:06:46.448Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -62,15 +64,16 @@
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/blog/",
-      "date": "2026-06-24",
+      "date": "2026-06-15",
       "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T19:00:14.909Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -78,15 +81,16 @@
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/blog/black-mold-vs-regular-mold/",
       "date": "2026-06-15",
       "date_source": "json_ld_date_modified",
-      "age_days": 9,
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T00:00:00.000Z",
       "html_dates": {
         "json_ld_date_published": "2026-06-15",
         "json_ld_date_modified": "2026-06-15",
@@ -94,15 +98,16 @@
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/blog/burst-pipe-emergency-checklist/",
       "date": "2026-06-15",
       "date_source": "json_ld_date_modified",
-      "age_days": 9,
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T00:00:00.000Z",
       "html_dates": {
         "json_ld_date_published": "2026-06-15",
         "json_ld_date_modified": "2026-06-15",
@@ -110,15 +115,16 @@
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/blog/choosing-a-restoration-company/",
       "date": "2026-06-15",
       "date_source": "json_ld_date_modified",
-      "age_days": 9,
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T00:00:00.000Z",
       "html_dates": {
         "json_ld_date_published": "2026-06-15",
         "json_ld_date_modified": "2026-06-15",
@@ -126,15 +132,50 @@
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://homepriderestorationandcleaning.com/blog/does-homeowners-insurance-cover-fire-damage/",
+      "date": "2026-07-27",
+      "date_source": "json_ld_date_modified",
+      "age_days": 3,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-27T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-07-27",
+        "json_ld_date_modified": "2026-07-27",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://homepriderestorationandcleaning.com/blog/does-homeowners-insurance-cover-frozen-pipes-park-city/",
+      "date": "2026-07-06",
+      "date_source": "json_ld_date_modified",
+      "age_days": 24,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-06T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-07-06",
+        "json_ld_date_modified": "2026-07-06",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/blog/does-homeowners-insurance-cover-water-damage/",
       "date": "2026-06-15",
       "date_source": "json_ld_date_modified",
-      "age_days": 9,
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T00:00:00.000Z",
       "html_dates": {
         "json_ld_date_published": "2026-06-15",
         "json_ld_date_modified": "2026-06-15",
@@ -142,15 +183,33 @@
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://homepriderestorationandcleaning.com/blog/fire-damage-restoration-cost/",
+      "date": "2026-07-20",
+      "date_source": "json_ld_date_modified",
+      "age_days": 10,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-20T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-07-20",
+        "json_ld_date_modified": "2026-07-20",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/blog/fire-damage-restoration-process/",
       "date": "2026-06-15",
       "date_source": "json_ld_date_modified",
-      "age_days": 9,
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T00:00:00.000Z",
       "html_dates": {
         "json_ld_date_published": "2026-06-15",
         "json_ld_date_modified": "2026-06-15",
@@ -158,15 +217,33 @@
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://homepriderestorationandcleaning.com/blog/frozen-pipe-damage-heber-city/",
+      "date": "2026-07-09",
+      "date_source": "json_ld_date_modified",
+      "age_days": 21,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-09T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-07-09",
+        "json_ld_date_modified": "2026-07-09",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/blog/how-long-does-water-damage-restoration-take/",
       "date": "2026-06-15",
       "date_source": "json_ld_date_modified",
-      "age_days": 9,
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T00:00:00.000Z",
       "html_dates": {
         "json_ld_date_published": "2026-06-15",
         "json_ld_date_modified": "2026-06-15",
@@ -174,15 +251,67 @@
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://homepriderestorationandcleaning.com/blog/how-to-clean-soot-off-walls/",
+      "date": "2026-07-16",
+      "date_source": "json_ld_date_modified",
+      "age_days": 14,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-16T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-07-16",
+        "json_ld_date_modified": "2026-07-16",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://homepriderestorationandcleaning.com/blog/how-to-prevent-ice-dams-heber-city/",
+      "date": "2026-06-29",
+      "date_source": "json_ld_date_modified",
+      "age_days": 31,
+      "flags": [],
+      "sitemap_lastmod": "2026-06-29T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-06-29",
+        "json_ld_date_modified": "2026-06-29",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://homepriderestorationandcleaning.com/blog/how-to-test-for-mold/",
+      "date": "2026-06-26",
+      "date_source": "json_ld_date_modified",
+      "age_days": 34,
+      "flags": [],
+      "sitemap_lastmod": "2026-06-26T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-06-26",
+        "json_ld_date_modified": "2026-06-26",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/blog/ice-dam-removal-park-city/",
       "date": "2026-06-24",
       "date_source": "json_ld_date_modified",
-      "age_days": 0,
+      "age_days": 36,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-24T00:00:00.000Z",
       "html_dates": {
         "json_ld_date_published": "2026-06-24",
         "json_ld_date_modified": "2026-06-24",
@@ -190,15 +319,16 @@
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/blog/mold-after-water-damage/",
       "date": "2026-06-15",
       "date_source": "json_ld_date_modified",
-      "age_days": 9,
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T00:00:00.000Z",
       "html_dates": {
         "json_ld_date_published": "2026-06-15",
         "json_ld_date_modified": "2026-06-15",
@@ -206,15 +336,33 @@
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://homepriderestorationandcleaning.com/blog/mold-remediation-cost/",
+      "date": "2026-07-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-07-30",
+        "json_ld_date_modified": "2026-07-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/blog/sewage-backup-health-risks/",
       "date": "2026-06-15",
       "date_source": "json_ld_date_modified",
-      "age_days": 9,
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T00:00:00.000Z",
       "html_dates": {
         "json_ld_date_published": "2026-06-15",
         "json_ld_date_modified": "2026-06-15",
@@ -222,15 +370,16 @@
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/blog/signs-of-hidden-mold/",
       "date": "2026-06-15",
       "date_source": "json_ld_date_modified",
-      "age_days": 9,
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T00:00:00.000Z",
       "html_dates": {
         "json_ld_date_published": "2026-06-15",
         "json_ld_date_modified": "2026-06-15",
@@ -238,15 +387,16 @@
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/blog/smoke-odor-removal-techniques/",
       "date": "2026-06-15",
       "date_source": "json_ld_date_modified",
-      "age_days": 9,
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T00:00:00.000Z",
       "html_dates": {
         "json_ld_date_published": "2026-06-15",
         "json_ld_date_modified": "2026-06-15",
@@ -254,15 +404,16 @@
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/blog/storm-damage-insurance-claim-checklist/",
       "date": "2026-06-15",
       "date_source": "json_ld_date_modified",
-      "age_days": 9,
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T00:00:00.000Z",
       "html_dates": {
         "json_ld_date_published": "2026-06-15",
         "json_ld_date_modified": "2026-06-15",
@@ -270,15 +421,50 @@
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://homepriderestorationandcleaning.com/blog/water-damage-restoration-cost-park-city/",
+      "date": "2026-07-13",
+      "date_source": "json_ld_date_modified",
+      "age_days": 17,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-13T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-07-13",
+        "json_ld_date_modified": "2026-07-13",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://homepriderestorationandcleaning.com/blog/what-to-do-after-a-house-fire/",
+      "date": "2026-07-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 7,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-23T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-07-23",
+        "json_ld_date_modified": "2026-07-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/blog/what-to-do-first-24-hours-water-damage/",
       "date": "2026-06-15",
       "date_source": "json_ld_date_modified",
-      "age_days": 9,
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T00:00:00.000Z",
       "html_dates": {
         "json_ld_date_published": "2026-06-15",
         "json_ld_date_modified": "2026-06-15",
@@ -286,15 +472,33 @@
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://homepriderestorationandcleaning.com/certifications/",
+      "date": "2026-07-30",
+      "date_source": "sitemap_lastmod",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:56:29.840Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/contact/",
-      "date": "2026-06-24",
+      "date": "2026-06-15",
       "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T19:06:40.539Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -302,15 +506,33 @@
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://homepriderestorationandcleaning.com/emergency/",
+      "date": "2026-07-30",
+      "date_source": "sitemap_lastmod",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:56:29.840Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/privacy/",
-      "date": "2026-06-24",
+      "date": "2026-06-15",
       "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T19:06:43.010Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -318,15 +540,33 @@
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://homepriderestorationandcleaning.com/reviews/",
+      "date": "2026-07-30",
+      "date_source": "sitemap_lastmod",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-30T17:56:29.840Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/",
-      "date": "2026-06-24",
+      "date": "2026-06-15",
       "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:56:23.602Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -334,15 +574,16 @@
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/american-fork-ut/",
-      "date": "2026-06-24",
+      "date": "2026-06-15",
       "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:50:47.045Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -350,303 +591,339 @@
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/american-fork-ut/appliance-leak-cleanup/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:54:02.801Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/american-fork-ut/basement-flooding-cleanup/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:39:21.731Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/american-fork-ut/burst-pipe-repair/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:38:52.752Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/american-fork-ut/carpet-cleaning/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T19:02:33.166Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://homepriderestorationandcleaning.com/service-areas/american-fork-ut/crawl-space-encapsulation/",
+      "date": "2026-06-26",
+      "date_source": "json_ld_date_modified",
+      "age_days": 34,
+      "flags": [],
+      "sitemap_lastmod": "2026-06-26T04:57:31.950Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-06-26",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/american-fork-ut/fabric-protection/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:58:12.100Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/american-fork-ut/fire-damage-restoration/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:25:49.963Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/american-fork-ut/frozen-pipe-restoration/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:46:15.924Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/american-fork-ut/junk-debris-removal/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:58:20.438Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/american-fork-ut/mold-inspection-testing/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:39:22.752Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/american-fork-ut/mold-remediation/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:26:19.992Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/american-fork-ut/odor-removal/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:46:46.668Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/american-fork-ut/roof-leak-repair/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:46:31.084Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/american-fork-ut/sewage-cleanup/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:32:16.579Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/american-fork-ut/smoke-damage-restoration/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:32:55.574Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/american-fork-ut/storm-damage-restoration/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:32:50.772Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/american-fork-ut/tile-grout-cleaning/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T19:03:04.858Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/american-fork-ut/upholstery-cleaning/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T19:02:49.657Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/american-fork-ut/water-damage-restoration/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:25:44.458Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/eagle-mountain-ut/",
-      "date": "2026-06-24",
+      "date": "2026-06-15",
       "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:50:45.878Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -654,303 +931,339 @@
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/eagle-mountain-ut/appliance-leak-cleanup/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:54:11.814Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/eagle-mountain-ut/basement-flooding-cleanup/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:38:37.409Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/eagle-mountain-ut/burst-pipe-repair/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:38:32.169Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/eagle-mountain-ut/carpet-cleaning/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T19:02:02.197Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://homepriderestorationandcleaning.com/service-areas/eagle-mountain-ut/crawl-space-encapsulation/",
+      "date": "2026-06-26",
+      "date_source": "json_ld_date_modified",
+      "age_days": 34,
+      "flags": [],
+      "sitemap_lastmod": "2026-06-26T04:57:29.479Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-06-26",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/eagle-mountain-ut/fabric-protection/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:57:52.426Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/eagle-mountain-ut/fire-damage-restoration/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:25:34.584Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/eagle-mountain-ut/frozen-pipe-restoration/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:45:44.176Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/eagle-mountain-ut/junk-debris-removal/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:57:49.516Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/eagle-mountain-ut/mold-inspection-testing/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:38:37.186Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/eagle-mountain-ut/mold-remediation/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:25:38.207Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/eagle-mountain-ut/odor-removal/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:45:59.713Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/eagle-mountain-ut/roof-leak-repair/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:45:59.590Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/eagle-mountain-ut/sewage-cleanup/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:32:02.018Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/eagle-mountain-ut/smoke-damage-restoration/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:32:17.583Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/eagle-mountain-ut/storm-damage-restoration/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:32:08.967Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/eagle-mountain-ut/tile-grout-cleaning/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T19:02:31.831Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/eagle-mountain-ut/upholstery-cleaning/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T19:02:15.787Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/eagle-mountain-ut/water-damage-restoration/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:24:52.924Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/heber-city-ut/",
       "date": "2026-06-24",
       "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "age_days": 36,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-24T00:39:03.968Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -958,303 +1271,339 @@
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/heber-city-ut/appliance-leak-cleanup/",
       "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date_source": "json_ld_date_modified",
+      "age_days": 36,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-24T00:39:22.823Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-24",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/heber-city-ut/basement-flooding-cleanup/",
       "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date_source": "json_ld_date_modified",
+      "age_days": 36,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-24T00:36:43.429Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-24",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/heber-city-ut/burst-pipe-repair/",
       "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date_source": "json_ld_date_modified",
+      "age_days": 36,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-24T00:36:43.920Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-24",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/heber-city-ut/carpet-cleaning/",
       "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date_source": "json_ld_date_modified",
+      "age_days": 36,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-24T00:40:49.189Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-24",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://homepriderestorationandcleaning.com/service-areas/heber-city-ut/crawl-space-encapsulation/",
+      "date": "2026-06-26",
+      "date_source": "json_ld_date_modified",
+      "age_days": 34,
+      "flags": [],
+      "sitemap_lastmod": "2026-06-26T04:59:04.255Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-06-26",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/heber-city-ut/fabric-protection/",
       "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date_source": "json_ld_date_modified",
+      "age_days": 36,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-24T00:40:00.811Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-24",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/heber-city-ut/fire-damage-restoration/",
       "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date_source": "json_ld_date_modified",
+      "age_days": 36,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-24T00:34:19.210Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-24",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/heber-city-ut/frozen-pipe-restoration/",
       "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date_source": "json_ld_date_modified",
+      "age_days": 36,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-24T00:37:41.063Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-24",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/heber-city-ut/junk-debris-removal/",
       "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date_source": "json_ld_date_modified",
+      "age_days": 36,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-24T00:40:01.608Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-24",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/heber-city-ut/mold-inspection-testing/",
       "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date_source": "json_ld_date_modified",
+      "age_days": 36,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-24T00:36:45.015Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-24",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/heber-city-ut/mold-remediation/",
       "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date_source": "json_ld_date_modified",
+      "age_days": 36,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-24T00:34:21.354Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-24",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/heber-city-ut/odor-removal/",
       "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date_source": "json_ld_date_modified",
+      "age_days": 36,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-24T00:38:21.134Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-24",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/heber-city-ut/roof-leak-repair/",
       "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date_source": "json_ld_date_modified",
+      "age_days": 36,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-24T00:38:19.917Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-24",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/heber-city-ut/sewage-cleanup/",
       "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date_source": "json_ld_date_modified",
+      "age_days": 36,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-24T00:35:05.801Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-24",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/heber-city-ut/smoke-damage-restoration/",
       "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date_source": "json_ld_date_modified",
+      "age_days": 36,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-24T00:35:55.447Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-24",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/heber-city-ut/storm-damage-restoration/",
       "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date_source": "json_ld_date_modified",
+      "age_days": 36,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-24T00:35:13.199Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-24",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/heber-city-ut/tile-grout-cleaning/",
       "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date_source": "json_ld_date_modified",
+      "age_days": 36,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-24T00:40:54.108Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-24",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/heber-city-ut/upholstery-cleaning/",
       "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date_source": "json_ld_date_modified",
+      "age_days": 36,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-24T00:40:48.978Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-24",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/heber-city-ut/water-damage-restoration/",
       "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date_source": "json_ld_date_modified",
+      "age_days": 36,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-24T00:34:21.952Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-24",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/herriman-ut/",
-      "date": "2026-06-24",
+      "date": "2026-06-15",
       "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:51:29.274Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -1262,303 +1611,339 @@
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/herriman-ut/appliance-leak-cleanup/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:55:00.763Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/herriman-ut/basement-flooding-cleanup/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:41:40.178Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/herriman-ut/burst-pipe-repair/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:41:18.598Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/herriman-ut/carpet-cleaning/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T19:04:56.530Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://homepriderestorationandcleaning.com/service-areas/herriman-ut/crawl-space-encapsulation/",
+      "date": "2026-06-26",
+      "date_source": "json_ld_date_modified",
+      "age_days": 34,
+      "flags": [],
+      "sitemap_lastmod": "2026-06-26T04:58:18.898Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-06-26",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/herriman-ut/fabric-protection/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:59:47.330Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/herriman-ut/fire-damage-restoration/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:28:15.501Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/herriman-ut/frozen-pipe-restoration/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:48:43.300Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/herriman-ut/junk-debris-removal/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:59:47.554Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/herriman-ut/mold-inspection-testing/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:41:45.358Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/herriman-ut/mold-remediation/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:28:40.012Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/herriman-ut/odor-removal/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:49:12.876Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/herriman-ut/roof-leak-repair/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:49:00.016Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/herriman-ut/sewage-cleanup/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:34:43.249Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/herriman-ut/smoke-damage-restoration/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:35:19.016Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/herriman-ut/storm-damage-restoration/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:35:19.655Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/herriman-ut/tile-grout-cleaning/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T19:05:30.448Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/herriman-ut/upholstery-cleaning/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T19:05:12.159Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/herriman-ut/water-damage-restoration/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:28:04.867Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/lehi-ut/",
-      "date": "2026-06-24",
+      "date": "2026-06-15",
       "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:50:30.108Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -1566,375 +1951,110 @@
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/lehi-ut/appliance-leak-cleanup/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:53:39.964Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/lehi-ut/basement-flooding-cleanup/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:37:51.720Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/lehi-ut/burst-pipe-repair/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:37:54.148Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/lehi-ut/carpet-cleaning/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T19:01:27.734Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://homepriderestorationandcleaning.com/service-areas/lehi-ut/crawl-space-encapsulation/",
+      "date": "2026-06-26",
+      "date_source": "json_ld_date_modified",
+      "age_days": 34,
+      "flags": [],
+      "sitemap_lastmod": "2026-06-26T04:56:42.018Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-06-26",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
     },
     {
       "url": "https://homepriderestorationandcleaning.com/service-areas/lehi-ut/fabric-protection/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
+      "date": "2026-06-15",
+      "date_source": "json_ld_date_modified",
+      "age_days": 45,
       "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
+      "sitemap_lastmod": "2026-06-15T18:57:22.511Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-06-15",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
       },
-      "gsc": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/lehi-ut/fire-damage-restoration/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/lehi-ut/frozen-pipe-restoration/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/lehi-ut/junk-debris-removal/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/lehi-ut/mold-inspection-testing/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/lehi-ut/mold-remediation/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/lehi-ut/odor-removal/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/lehi-ut/roof-leak-repair/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/lehi-ut/sewage-cleanup/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/lehi-ut/smoke-damage-restoration/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/lehi-ut/storm-damage-restoration/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/lehi-ut/tile-grout-cleaning/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/lehi-ut/upholstery-cleaning/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/lehi-ut/water-damage-restoration/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/orem-ut/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/orem-ut/appliance-leak-cleanup/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/orem-ut/basement-flooding-cleanup/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/orem-ut/burst-pipe-repair/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/orem-ut/carpet-cleaning/",
-      "date": "2026-06-24",
-      "date_source": "sitemap_lastmod",
-      "age_days": 0,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-24T05:28:37.461Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null
+      "gsc": null,
+      "search_signals": null
     }
   ]
 }

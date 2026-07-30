@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "slug": "all-pro-plumbing",
+  "site": "allproplumbingheatingandair.com",
+  "origin": "https://allproplumbingheatingandair.com",
+  "generated_at": "2026-07-30T17:43:12Z",
+  "gsc_enabled": false,
+  "totals": {
+    "total_actions": 0,
+    "by_action": {
+      "refresh": 0,
+      "audit_then_decide": 0,
+      "request_indexing": 0,
+      "fix_canonical": 0
+    },
+    "by_priority": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    }
+  },
+  "items": [],
+  "notes": [
+    "URLs skipped because already in content-queue: none. Two candidate URLs overlap content-queue items (/blog/best-emergency-plumbing-company-in-bakersfield-ca/ status=written, /blog/how-much-does-a-plumber-cost-per-hour/ status=published), but neither status is in the active set {queued, in_progress, needs_review}, and both are fresh (age 3 and 0 days). The other 9 content-queue items are still queued with post_url=null, so they have no live URL to dedupe against yet.",
+    "URLs where date extraction failed: none. All 209 inspected URLs resolved a date (168 via json_ld_date_modified, 41 via sitemap_lastmod) with zero HTML fetch failures.",
+    "v1 limitations: no GSC indexing flags. request_indexing and fix_canonical are unreachable this run because not_indexed and index_warning coverage states require the v2 GSC layer.",
+    "All 209 candidates are fresh: zero layer-1 flags and a maximum age of 50 days against a 305-day aging threshold and a 365-day stale threshold. No refresh or audit action is warranted this cycle.",
+    "Layer 1 coverage: the scorer was re-run at --max-urls 300 because its default cap of 120 left 89 of the 209 sitemap URLs uninspected, including all 22 /services/ service-landing money pages and the /services/ hub. This run covers the full sitemap.",
+    "Archetype mapping: 5 sitemap URLs are absent from plan/url-plan.json (/certifications/, /emergency/, /reviews/, plus the 2 System 2 blog posts) and were treated as non-money pages. /emergency/ in particular would likely score as a money page once mapped."
+  ]
+}

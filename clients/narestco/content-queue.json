@@ -522,7 +522,7 @@
     },
     {
       "id": "2026-06-24-attic-mold-removal-tacoma",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-06-24T15:47:35Z",
       "written_at": "2026-07-30T18:02:59Z",
       "post_url": "https://narestco.com/blog/attic-mold-removal-tacoma/",
@@ -552,7 +552,8 @@
       ],
       "city_anchor": "tacoma-wa",
       "external_authority_candidates": [],
-      "notes": "Ties mold to roof-leak service (roof leaks -> attic mold), big in rainy Tacoma. CPC $25, vol 2400."
+      "notes": "Ties mold to roof-leak service (roof leaks -> attic mold), big in rainy Tacoma. CPC $25, vol 2400.",
+      "published_verified_at": "2026-07-30T18:04:41Z"
     },
     {
       "id": "2026-06-24-does-insurance-cover-mold-remediation-everett",

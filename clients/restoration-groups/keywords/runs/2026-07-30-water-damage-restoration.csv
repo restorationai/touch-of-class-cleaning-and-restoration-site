@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+water damage restoration new jersey,transactional,320,14,17.55,2,water damage restoration,,,no
+water damage restoration nj,transactional,90,9,,2,water damage restoration,,,no
+water damage restoration near me,transactional,135000,17,44.4,3,water damage restoration,,/services/water-damage-restoration/,no
+water restoration services,transactional,135000,31,38.94,3,water damage restoration,,/services/water-damage-restoration/,no
+water damage restoration company,transactional,110000,25,57.92,3,water damage restoration,,/services/water-damage-restoration/,no
+flood damage restoration,transactional,110000,9,49.42,3,water damage restoration,,/services/flood-damage-restoration/,no
+water mitigation company,transactional,2400,19,61.53,3,water damage restoration,,/services/water-damage-restoration/,no
+water damage cleanup,transactional,1900,28,47.91,3,water damage restoration,,/services/water-damage-restoration/,no
+water extraction services,transactional,880,10,80.92,3,water damage restoration,,/services/water-damage-restoration/,no
+residential water damage restoration near me,transactional,260,31,19.83,3,water damage restoration,,/services/water-damage-restoration/,no
+24 hour water damage restoration,transactional,210,42,57.11,3,water damage restoration,,/,no
+who to call for water damage in ceiling,transactional,110,,94.63,3,water damage restoration,,/services/water-damage-restoration/,no
+water damage restoration elizabeth nj,transactional,10,,,3,water damage restoration,elizabeth-nj,/service-areas/elizabeth-nj/water-damage-restoration/,no
+emergency water damage restoration,transactional,,32,,3,water damage restoration,,/,no
+water damage restoration kenilworth nj,transactional,,,,3,water damage restoration,kenilworth-nj,/service-areas/kenilworth-nj/water-damage-restoration/,no
+water damage restoration newark nj,transactional,,,,3,water damage restoration,newark-nj,/service-areas/newark-nj/water-damage-restoration/,no
+water damage restoration jersey city nj,transactional,,,,3,water damage restoration,jersey-city-nj,/service-areas/jersey-city-nj/water-damage-restoration/,no
+emergency water damage restoration jersey city,transactional,,,,3,water damage restoration,jersey-city-nj,/service-areas/jersey-city-nj/water-damage-restoration/,no
+water damage restoration union nj,transactional,,,,3,water damage restoration,union-nj,/service-areas/union-nj/water-damage-restoration/,no
+water damage restoration union county nj,transactional,,,,3,water damage restoration,,,no
+water damage restoration cost,commercial,880,3,20.21,2,water damage restoration,,,no
+best water damage restoration near me,commercial,320,25,40.21,2,water damage restoration,,,no
+water damage restoration cost calculator,commercial,170,,,2,water damage restoration,,,no
+water damage restoration price sheet,commercial,90,1,28.74,2,water damage restoration,,,no
+water damage restoration cost per square foot,commercial,70,3,24.06,2,water damage restoration,,,no
+what does flood insurance cover,informational,1300,15,5.97,1,water damage restoration,,,yes
+does homeowners insurance cover black mold,informational,320,11,5.02,1,water damage restoration,,,yes
+should i file a home insurance claim for water damage,informational,210,27,20.96,1,water damage restoration,,,yes
+how to get insurance to pay for water damage,informational,110,27,7.96,1,water damage restoration,,,yes
+does homeowners insurance cover water heater leak damage,informational,70,12,17.22,1,water damage restoration,,,yes
+does homeowners insurance cover burst pipes from freezing,informational,50,6,,1,water damage restoration,,,no
+does homeowners insurance cover water damage from rain,informational,210,12,23.77,2,water damage restoration,,,no
+what insurance companies cover mold damage,informational,210,8,17.88,2,water damage restoration,,,no
+what does flood insurance not cover,informational,210,16,4.01,2,water damage restoration,,,no
+does home insurance cover mold from water damage,informational,110,20,26.12,2,water damage restoration,,,no
+does homeowners insurance cover water damage from roof leak,informational,110,6,19.19,2,water damage restoration,,,no
+is water dripping from ceiling dangerous,informational,110,,27.39,2,water damage restoration,,,no
+does flood insurance cover burst pipes,informational,90,9,0.88,2,water damage restoration,,,no
+does homeowners insurance cover water damage,informational,1900,10,27.32,3,water damage restoration,,/blog/does-homeowners-insurance-cover-water-damage/,no
+what does homeowners insurance not cover,informational,390,35,7.04,3,water damage restoration,,,no

@@ -1,6 +1,6 @@
 {
   "slug": "homepriderestorationandcleaning",
-  "generated_at": "2026-07-23T17:42:35Z",
+  "generated_at": "2026-07-30T18:37:26Z",
   "truth": {
     "hours": "24/7",
     "is_247": true,
@@ -14,12 +14,84 @@
     "response_minutes": null,
     "family_owned": false,
     "founded_year": "1997",
-    "gbp_review_count": 30,
+    "gbp_review_count": 34,
     "vertical": "restoration"
   },
   "errors": 0,
-  "review_flags": 2,
+  "review_flags": 13,
   "violations": [
+    {
+      "file": "src/content/pages/home.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "biohazard cleanup",
+      "context": "damage, mold remediation, storm damage, biohazard cleanup, and full reconstruction \u2014 and has been",
+      "reason": "names the 'biohazard' service family but plan-input services are only: water-damage-restoration, burst-pipe-repair, frozen-pipe-restoration, appliance-leak-cleanup, basement-flooding-cleanup, roof-leak-repair"
+    },
+    {
+      "file": "src/content/serviceAreas/american-fork-ut.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "biohazard cleanup",
+      "context": "ion following IICRC S520 protocols, and biohazard cleanup including sewage backups and unattended",
+      "reason": "names the 'biohazard' service family but plan-input services are only: water-damage-restoration, burst-pipe-repair, frozen-pipe-restoration, appliance-leak-cleanup, basement-flooding-cleanup, roof-leak-repair"
+    },
+    {
+      "file": "src/content/serviceAreas/eagle-mountain-ut.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "biohazard cleanup",
+      "context": "storation, mold remediation, sewage and biohazard cleanup, and reconstruction through the finish",
+      "reason": "names the 'biohazard' service family but plan-input services are only: water-damage-restoration, burst-pipe-repair, frozen-pipe-restoration, appliance-leak-cleanup, basement-flooding-cleanup, roof-leak-repair"
+    },
+    {
+      "file": "src/content/serviceAreas/lehi-ut.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "biohazard cleanup",
+      "context": "e cleanup, mold remediation, sewage and biohazard cleanup, and full reconstruction \\u2014 all und",
+      "reason": "names the 'biohazard' service family but plan-input services are only: water-damage-restoration, burst-pipe-repair, frozen-pipe-restoration, appliance-leak-cleanup, basement-flooding-cleanup, roof-leak-repair"
+    },
+    {
+      "file": "src/content/serviceAreas/orem-ut.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "reconstruction services",
+      "context": "biohazard and trauma cleanup, and full reconstruction services across Orem ZIP codes 84057 and 84058.",
+      "reason": "names the 'reconstruction' service family but plan-input services are only: water-damage-restoration, burst-pipe-repair, frozen-pipe-restoration, appliance-leak-cleanup, basement-flooding-cleanup, roof-leak-repair"
+    },
+    {
+      "file": "src/content/serviceAreas/park-city-ut.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "biohazard cleanup",
+      "context": "and smoke damage, mold remediation, and biohazard cleanup \u2014 for Park City property owners since 1",
+      "reason": "names the 'biohazard' service family but plan-input services are only: water-damage-restoration, burst-pipe-repair, frozen-pipe-restoration, appliance-leak-cleanup, basement-flooding-cleanup, roof-leak-repair"
+    },
+    {
+      "file": "src/content/serviceAreas/pleasant-grove-ut.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "biohazard cleanup",
+      "context": "emediation, fire and smoke restoration, biohazard cleanup, and structural reconstruction with our",
+      "reason": "names the 'biohazard' service family but plan-input services are only: water-damage-restoration, burst-pipe-repair, frozen-pipe-restoration, appliance-leak-cleanup, basement-flooding-cleanup, roof-leak-repair"
+    },
+    {
+      "file": "src/content/serviceAreas/pleasant-grove-ut.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "structural reconstruction",
+      "context": "oke restoration, biohazard cleanup, and structural reconstruction with our own crews and equipment \\u2014",
+      "reason": "names the 'reconstruction' service family but plan-input services are only: water-damage-restoration, burst-pipe-repair, frozen-pipe-restoration, appliance-leak-cleanup, basement-flooding-cleanup, roof-leak-repair"
+    },
     {
       "file": "src/content/serviceAreas/pleasant-grove-ut.md",
       "part": "frontmatter",
@@ -28,6 +100,33 @@
       "matched": "lead-safe",
       "context": "lso flag any materials that may require lead-safe or asbestos-aware handling protocols be",
       "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
+    },
+    {
+      "file": "src/content/serviceAreas/riverton-ut.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "trauma scene cleanup",
+      "context": "leanup, mold remediation, biohazard and trauma scene cleanup, and reconstruction work following any",
+      "reason": "names the 'biohazard' service family but plan-input services are only: water-damage-restoration, burst-pipe-repair, frozen-pipe-restoration, appliance-leak-cleanup, basement-flooding-cleanup, roof-leak-repair"
+    },
+    {
+      "file": "src/content/serviceAreas/south-jordan-ut.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "biohazard cleanup",
+      "context": "e damage restoration, mold remediation, biohazard cleanup, and reconstruction with our own traine",
+      "reason": "names the 'biohazard' service family but plan-input services are only: water-damage-restoration, burst-pipe-repair, frozen-pipe-restoration, appliance-leak-cleanup, basement-flooding-cleanup, roof-leak-repair"
+    },
+    {
+      "file": "src/content/serviceAreas/south-jordan-ut.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "biohazard cleanup",
+      "context": "and smoke damage, mold remediation, and biohazard cleanup \u2014 since 1997. Operating out of Saratoga",
+      "reason": "names the 'biohazard' service family but plan-input services are only: water-damage-restoration, burst-pipe-repair, frozen-pipe-restoration, appliance-leak-cleanup, basement-flooding-cleanup, roof-leak-repair"
     },
     {
       "file": "src/content/services/junk-debris-removal.md",

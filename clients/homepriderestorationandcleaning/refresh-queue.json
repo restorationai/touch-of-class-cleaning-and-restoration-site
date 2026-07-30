@@ -3,18 +3,29 @@
   "slug": "homepriderestorationandcleaning",
   "site": "homepriderestorationandcleaning.com",
   "origin": "https://homepriderestorationandcleaning.com",
-  "generated_at": "2026-06-24T16:44:27Z",
+  "generated_at": "2026-07-30T17:59:38Z",
   "gsc_enabled": false,
   "totals": {
     "total_actions": 0,
-    "by_action": { "refresh": 0, "audit_then_decide": 0, "request_indexing": 0, "fix_canonical": 0 },
-    "by_priority": { "1": 0, "2": 0, "3": 0, "4": 0 }
+    "by_action": {
+      "refresh": 0,
+      "audit_then_decide": 0,
+      "request_indexing": 0,
+      "fix_canonical": 0
+    },
+    "by_priority": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    }
   },
   "items": [],
   "notes": [
-    "URLs skipped because already in content-queue: none (the one content-queue URL that is live, /blog/ice-dam-removal-park-city/, has status 'written' and is also fresh at age 0; the remaining content-queue items are still 'queued' with no published URL yet).",
-    "URLs where date extraction failed: none (all 120 inspected URLs resolved a date via sitemap_lastmod or json_ld_date_modified).",
-    "v1 limitations: no GSC indexing flags (request_indexing and fix_canonical deferred to v2).",
-    "No actions queued: all 120 candidates are fresh (max age_days = 9, well under the 305-day aging threshold and 365-day stale threshold). Site was created 2026-06-15 and cut over 2026-06-18, so no URL has reached refresh age. Layer-1 flag_counts is empty."
+    "URLs skipped because already in content-queue: none",
+    "URLs where date extraction failed: none",
+    "URLs skipped as fresh (no flags, age below the 305-day aging threshold): 120",
+    "Oldest URL on the site is 45 days old (https://homepriderestorationandcleaning.com/), 260 days short of the aging threshold, so no URL qualifies for refresh this cycle.",
+    "v1 limitations: no GSC indexing flags, so not_indexed and index_warning cannot be detected and request_indexing / fix_canonical are unreachable. No striking-query or low-CTR demand signals on any candidate this run."
   ]
 }

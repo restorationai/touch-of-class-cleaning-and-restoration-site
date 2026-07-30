@@ -566,7 +566,7 @@
     },
     {
       "id": "2026-07-09-do-i-need-a-general-contractor-for-a-remodel",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-07-09T17:54:12Z",
       "written_at": "2026-07-30T17:46:08Z",
       "post_url": "https://davisconstructioncontractors.com/blog/do-i-need-a-general-contractor-for-a-remodel/",
@@ -601,7 +601,8 @@
         "https://www.angi.com/articles/do-i-need-general-contractor.htm"
       ],
       "metrics_pending": true,
-      "notes": "Whether-to-hire decision query. Frame by project scope: single-trade jobs vs multi-trade remodels/additions where a GC coordinates permits, subs, inspections, and schedule. Owner-builder risks. Absorbs the DIY-vs-GC and GC-vs-subcontractor angles. Metrics null (DataForSEO unavailable this run)."
+      "notes": "Whether-to-hire decision query. Frame by project scope: single-trade jobs vs multi-trade remodels/additions where a GC coordinates permits, subs, inspections, and schedule. Owner-builder risks. Absorbs the DIY-vs-GC and GC-vs-subcontractor angles. Metrics null (DataForSEO unavailable this run).",
+      "published_verified_at": "2026-07-30T17:47:20Z"
     },
     {
       "id": "2026-07-23-how-much-does-a-home-remodel-cost",

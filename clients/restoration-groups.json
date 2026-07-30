@@ -14,7 +14,7 @@
   "status": "active",
   "company_id": "CO-1783527517866",
   "created_at": "2026-07-10T00:00:00+00:00",
-  "updated_at": "2026-07-28T00:54:13.980736+00:00",
+  "updated_at": "2026-07-30T18:37:00Z",
   "nap": {
     "name": "The Restoration Group",
     "street": "500 S 31st St",
@@ -66,7 +66,7 @@
     "preview_pages_project": "the-restoration-group-preview",
     "github_repo": "restorationai/restoration-groups-site",
     "last_pushed_staging_at": "2026-07-16T17:27:43.482436+00:00",
-    "last_pushed_main_at": "2026-07-28T00:54:13.980688+00:00"
+    "last_pushed_main_at": "2026-07-30T18:18:50.072923+00:00"
   },
   "build_status": "pushed_main",
   "license_numbers": [
@@ -76,5 +76,16 @@
   "apex_cutover": {
     "completed_at": "2026-07-23T06:30:00+00:00"
   },
-  "cut_over_at": "2026-07-23T06:30:00+00:00"
+  "cut_over_at": "2026-07-23T06:30:00+00:00",
+  "audit": {
+    "last_audit_at": "2026-07-30T18:31:01Z",
+    "last_audit_verdict": "amber",
+    "last_audit_report_path": "audit-runs/2026-07-30-onsite-audit.md"
+  },
+  "refresh": {
+    "last_run_at": "2026-07-30T18:37:00Z",
+    "last_run_total_actions": 0,
+    "last_run_top_action": null,
+    "last_run_report_path": "clients/restoration-groups/refresh-runs/2026-07-30-refresh-recommender.md"
+  }
 }

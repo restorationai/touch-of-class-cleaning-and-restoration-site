@@ -1,0 +1,579 @@
+{
+  "schema_version": 1,
+  "slug": "all-pro-plumbing",
+  "site": "allproplumbingheatingandair.com",
+  "live_origin": "https://allproplumbingheatingandair.com",
+  "live_origin_source": "apex",
+  "audit_form_factor": "desktop",
+  "generated_at": "2026-07-30T17:39:11Z",
+  "environment_caveats": [
+    "Lighthouse ran DESKTOP only (cpuSlowdownMultiplier=1, throughputKbps=10240, formFactor=desktop). Mobile scores would typically run 10-20 performance points lower. Not mobile-first scoring.",
+    "Apex audited (cutover completed 2026-07-23). No x-robots-tag: noindex on any audited URL, so the staging SEO-exclusion correction does not apply and SEO counts toward the verdict.",
+    "Lighthouse 13.4.0 reports the newer *-insight audit IDs (image-delivery-insight, render-blocking-insight, lcp-discovery-insight, cache-insight, network-dependency-tree-insight) in place of the older opportunity IDs.",
+    "DataForSEO check has_micromarkup returns false on all 6 URLs; this is a false negative for JSON-LD. Schema was verified directly from the served HTML and parses as valid JSON-LD on all 6 pages."
+  ],
+  "audited_urls": [
+    {
+      "url": "https://allproplumbingheatingandair.com/",
+      "archetype": "home",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 93,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 867,
+        "CLS": 0.0174,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": 50,
+          "estimated_savings_bytes": 174445,
+          "category": "performance"
+        },
+        {
+          "id": "link-in-text-block",
+          "title": "Links rely on color to be distinguishable",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render blocking requests",
+          "severity": "medium",
+          "estimated_savings_ms": 55,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": 287,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "meta_description_length_off",
+          "title": "Meta description is 170 chars (target 70-160)",
+          "severity": "medium"
+        },
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Page has render-blocking resources",
+          "severity": "low"
+        },
+        {
+          "id": "no_image_title",
+          "title": "Images have no title attribute (informational; alt coverage is 100% and title is not an SEO requirement)",
+          "severity": "low"
+        },
+        {
+          "id": "content_below_target_word_count",
+          "title": "Word count 1173 is below the archetype target of 1200",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/services/",
+      "archetype": "services-hub",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 91,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 871,
+        "CLS": 0.0264,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": 100,
+          "estimated_savings_bytes": 323877,
+          "category": "performance"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "link-in-text-block",
+          "title": "Links rely on color to be distinguishable",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "meta_description_length_off",
+          "title": "Meta description is 173 chars (target 70-160)",
+          "severity": "medium"
+        },
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Page has render-blocking resources",
+          "severity": "low"
+        },
+        {
+          "id": "low_content_rate",
+          "title": "Low text-to-HTML ratio (image-heavy service grid markup)",
+          "severity": "low"
+        },
+        {
+          "id": "no_image_title",
+          "title": "Images have no title attribute (informational; alt coverage is 100% and title is not an SEO requirement)",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/services/emergency-plumbing/",
+      "archetype": "service-landing",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 796,
+        "CLS": 0.0541,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "render-blocking-insight",
+          "title": "Render blocking requests",
+          "severity": "high",
+          "estimated_savings_ms": 50,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": 290,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Page has render-blocking resources",
+          "severity": "low"
+        },
+        {
+          "id": "high_loading_time",
+          "title": "High loading time on the DataForSEO single-fetch probe (cold cache; Lighthouse measured 87ms server response on the same page)",
+          "severity": "low"
+        },
+        {
+          "id": "no_image_title",
+          "title": "Images have no title attribute (informational; alt coverage is 100% and title is not an SEO requirement)",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/services/drain-cleaning/",
+      "archetype": "service-landing",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 852,
+        "CLS": 0.0053,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": 50,
+          "estimated_savings_bytes": 175352,
+          "category": "performance"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": 290,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Page has render-blocking resources",
+          "severity": "low"
+        },
+        {
+          "id": "no_image_title",
+          "title": "Images have no title attribute (informational; alt coverage is 100% and title is not an SEO requirement)",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/service-areas/bakersfield-ca/",
+      "archetype": "service-area",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 807,
+        "CLS": 0.0259,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": 11843,
+          "category": "performance"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": 155706,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Page has render-blocking resources",
+          "severity": "low"
+        },
+        {
+          "id": "frame",
+          "title": "Page embeds an iframe (Google Maps)",
+          "severity": "low"
+        },
+        {
+          "id": "no_image_title",
+          "title": "Images have no title attribute (informational; alt coverage is 100% and title is not an SEO requirement)",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "url": "https://allproplumbingheatingandair.com/contact/",
+      "archetype": "contact",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 92,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 652,
+        "CLS": 0.0162,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": 100,
+          "estimated_savings_bytes": 166840,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render blocking requests",
+          "severity": "high",
+          "estimated_savings_ms": 50,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "link-in-text-block",
+          "title": "Links rely on color to be distinguishable",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Page has render-blocking resources",
+          "severity": "low"
+        },
+        {
+          "id": "no_image_title",
+          "title": "Images have no title attribute (informational; alt coverage is 100% and title is not an SEO requirement)",
+          "severity": "low"
+        }
+      ]
+    }
+  ],
+  "site_rollup": {
+    "avg_scores": {
+      "performance": 99.3,
+      "accessibility": 93.5,
+      "best_practices": 100.0,
+      "seo": 100.0
+    },
+    "verdict": "amber",
+    "url_count": 6,
+    "urls_by_verdict": {
+      "green": 4,
+      "amber": 2,
+      "red": 0,
+      "error": 0
+    },
+    "template_issues": [
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "affected_urls": 6,
+        "severity": "high"
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render blocking requests",
+        "affected_urls": 6,
+        "severity": "high"
+      },
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio",
+        "affected_urls": 5,
+        "severity": "high"
+      },
+      {
+        "id": "lcp-discovery-insight",
+        "title": "LCP request discovery",
+        "affected_urls": 5,
+        "severity": "high"
+      },
+      {
+        "id": "link-in-text-block",
+        "title": "Links rely on color to be distinguishable",
+        "affected_urls": 3,
+        "severity": "high"
+      },
+      {
+        "id": "meta_description_length_off",
+        "title": "Meta description is 170 chars (target 70-160)",
+        "affected_urls": 2,
+        "severity": "medium"
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "affected_urls": 6,
+        "severity": "low"
+      },
+      {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "affected_urls": 6,
+        "severity": "low"
+      },
+      {
+        "id": "has_render_blocking_resources",
+        "title": "Page has render-blocking resources",
+        "affected_urls": 6,
+        "severity": "low"
+      },
+      {
+        "id": "no_image_title",
+        "title": "Images have no title attribute (informational; alt coverage is 100% and title is not an SEO requirement)",
+        "affected_urls": 6,
+        "severity": "low"
+      }
+    ],
+    "money_page_alerts": [
+      {
+        "url": "https://allproplumbingheatingandair.com/",
+        "archetype": "home",
+        "verdict": "amber",
+        "main_issue": "Meta description is 170 chars (target 70-160)"
+      },
+      {
+        "url": "https://allproplumbingheatingandair.com/services/",
+        "archetype": "services-hub",
+        "verdict": "amber",
+        "main_issue": "Meta description is 173 chars (target 70-160)"
+      }
+    ]
+  },
+  "regression": {
+    "prior_run_at": null,
+    "score_deltas": null,
+    "verdict_transitions": [],
+    "new_issues": [],
+    "resolved_issues": [],
+    "note": "First audit for this client - no comparison data."
+  }
+}

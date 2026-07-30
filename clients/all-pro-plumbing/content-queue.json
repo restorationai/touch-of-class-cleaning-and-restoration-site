@@ -36,7 +36,7 @@
     },
     {
       "id": "2026-07-27-how-much-does-a-plumber-cost-per-hour",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-07-27T20:50:00Z",
       "written_at": "2026-07-30T17:30:26Z",
       "post_url": "https://allproplumbingheatingandair.com/blog/how-much-does-a-plumber-cost-per-hour/",
@@ -85,7 +85,8 @@
           "context": "ys less than the drywall, flooring, and mold remediation that follows 8 hours of unchecked water",
           "reason": "names the 'mold' service family but plan-input services are only: emergency-plumbing, burst-pipe-repair, drain-cleaning, sewer-line-repair, water-heater-repair, water-heater-installation"
         }
-      ]
+      ],
+      "published_verified_at": "2026-07-30T17:31:34Z"
     },
     {
       "id": "2026-07-27-how-to-find-a-good-plumber",

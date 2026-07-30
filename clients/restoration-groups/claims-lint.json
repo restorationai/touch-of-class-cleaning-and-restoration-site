@@ -1,0 +1,472 @@
+{
+  "slug": "restoration-groups",
+  "generated_at": "2026-07-30T18:37:28Z",
+  "truth": {
+    "hours": "24/7",
+    "is_247": true,
+    "certifications": [
+      "IICRC Certified Firm #210213"
+    ],
+    "license_numbers": [],
+    "licensed_ok": true,
+    "response_minutes": 60,
+    "family_owned": false,
+    "founded_year": "2021",
+    "gbp_review_count": null,
+    "vertical": "restoration"
+  },
+  "errors": 9,
+  "review_flags": 41,
+  "violations": [
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-kenilworth-nj.md",
+      "part": "frontmatter",
+      "family": "reviews",
+      "severity": "error",
+      "matched": "10 reviews",
+      "context": "fic work. For companies with fewer than 10 reviews, treat the rating cautiously, a small s",
+      "reason": "claims 10 reviews but no synced gbpReviewCount exists for this site"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-kenilworth-nj.md",
+      "part": "body",
+      "family": "reviews",
+      "severity": "error",
+      "matched": "83 reviews",
+      "context": ". They carry a 5.0 Google rating across 83 reviews, a meaningful sample size that reflects",
+      "reason": "claims 83 reviews but no synced gbpReviewCount exists for this site"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-kenilworth-nj.md",
+      "part": "body",
+      "family": "reviews",
+      "severity": "error",
+      "matched": "83 reviews",
+      "context": "f publication. **Google Rating:** 5.0 (83 reviews) --- ### #3, Eradicator Mold Remediat",
+      "reason": "claims 83 reviews but no synced gbpReviewCount exists for this site"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-kenilworth-nj.md",
+      "part": "body",
+      "family": "reviews",
+      "severity": "error",
+      "matched": "97 Google reviews",
+      "context": "he highest review count on this list at 97 Google reviews and a 4.9 rating, strong evidence of a",
+      "reason": "claims 97 reviews but no synced gbpReviewCount exists for this site"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-kenilworth-nj.md",
+      "part": "body",
+      "family": "reviews",
+      "severity": "error",
+      "matched": "100 reviews",
+      "context": "to a mold problem. A 4.9 across nearly 100 reviews is a credible signal. Specific availabi",
+      "reason": "claims 100 reviews but no synced gbpReviewCount exists for this site"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-kenilworth-nj.md",
+      "part": "body",
+      "family": "reviews",
+      "severity": "error",
+      "matched": "97 reviews",
+      "context": "f publication. **Google Rating:** 4.9 (97 reviews) --- ### #4, NJ Experts NJ Experts c",
+      "reason": "claims 97 reviews but no synced gbpReviewCount exists for this site"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-kenilworth-nj.md",
+      "part": "body",
+      "family": "reviews",
+      "severity": "error",
+      "matched": "6 reviews",
+      "context": "f publication. **Google Rating:** 5.0 (6 reviews) --- ### #5, Tanaka Water Repair Tan",
+      "reason": "claims 6 reviews but no synced gbpReviewCount exists for this site"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-kenilworth-nj.md",
+      "part": "body",
+      "family": "reviews",
+      "severity": "error",
+      "matched": "3 reviews",
+      "context": "r Repair holds a 5.0 Google rating with 3 reviews. The rating is perfect but the sample i",
+      "reason": "claims 3 reviews but no synced gbpReviewCount exists for this site"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-kenilworth-nj.md",
+      "part": "body",
+      "family": "reviews",
+      "severity": "error",
+      "matched": "3 reviews",
+      "context": "f publication. **Google Rating:** 5.0 (3 reviews) --- ## Comparison Table | Company |",
+      "reason": "claims 3 reviews but no synced gbpReviewCount exists for this site"
+    },
+    {
+      "file": "src/content/locations/clark-nj__general-contracting.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "review",
+      "matched": "lead-safe",
+      "context": "ation, or ceiling texture. New Jersey's lead-safe renovation rules require certified prac",
+      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
+    },
+    {
+      "file": "src/content/locations/clark-nj__general-contracting.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "lead-safe",
+      "context": "78 surface, which triggers New Jersey's lead-safe renovation rules under the NJ Division",
+      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
+    },
+    {
+      "file": "src/content/locations/east-orange-nj__general-contracting.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "review",
+      "matched": "lead-safe",
+      "context": "8 construction is prevalent, so EPA RRP lead-safe rules are a factor to plan for in any r",
+      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
+    },
+    {
+      "file": "src/content/locations/east-orange-nj__general-contracting.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "lead-safe",
+      "context": "978 buildings falls under the EPA's RRP lead-safe rules, and that requirement gets built",
+      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
+    },
+    {
+      "file": "src/content/locations/edison-nj__mold-remediation.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "review",
+      "matched": "Lead-Safe",
+      "context": "and any work in pre-1978 homes requires Lead-Safe work practices if painted surfaces are",
+      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
+    },
+    {
+      "file": "src/content/locations/fair-lawn-nj__fire-damage-restoration.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "review",
+      "matched": "lead-safe",
+      "context": "Pre-1978 painted surfaces also trigger lead-safe handling protocols during debris remova",
+      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
+    },
+    {
+      "file": "src/content/locations/fair-lawn-nj__fire-damage-restoration.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "lead-safe",
+      "context": "ent procedures planned around the EPA's lead-safe rules for homes with pre-1978 painted s",
+      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
+    },
+    {
+      "file": "src/content/locations/hackensack-nj__general-contracting.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "lead-safe",
+      "context": "eps the job compliant with New Jersey's lead-safe renovation rules. Call (855) 650-7422",
+      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
+    },
+    {
+      "file": "src/content/locations/hillside-nj__general-contracting.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "lead-safe",
+      "context": "ome was built before 1978, ask us about lead-safe work practices before demo begins \u2014 it",
+      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
+    },
+    {
+      "file": "src/content/locations/irvington-nj__reconstruction.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "review",
+      "matched": "lead-safe",
+      "context": "surfaces. Work must be performed using lead-safe practices, and documentation of complia",
+      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
+    },
+    {
+      "file": "src/content/locations/irvington-nj__reconstruction.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "lead-safe",
+      "context": "t and plaster**: Pre-1978 homes require lead-safe work practices under EPA RRP rules. Man",
+      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
+    },
+    {
+      "file": "src/content/locations/linden-nj__reconstruction.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "review",
+      "matched": "lead-safe",
+      "context": "West End \\u2014 may also fall under EPA lead-safe renovation rules before demolition begi",
+      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
+    },
+    {
+      "file": "src/content/locations/manhattan-ny__fire-damage-restoration.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "lead-safe",
+      "context": "umulated paint layers \u2014 some pre-dating lead-safe regulations \u2014 which means any surface d",
+      "reason": "certification mention looks like a regulatory reference \u2014 verify it is not a self-claim"
+    },
+    {
+      "file": "src/content/locations/morristown-nj__fire-damage-restoration.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "lead-safe",
+      "context": "ltiple layers of paint that may predate lead-safe regulations, and plaster-and-lath inter",
+      "reason": "certification mention looks like a regulatory reference \u2014 verify it is not a self-claim"
+    },
+    {
+      "file": "src/content/locations/new-brunswick-nj__general-contracting.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "review",
+      "matched": "lead-safe",
+      "context": "ted surface in pre-1978 homes to follow lead-safe work practices, including containment a",
+      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
+    },
+    {
+      "file": "src/content/locations/new-brunswick-nj__general-contracting.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "lead-safe",
+      "context": "n of Consumer Affairs, we follow proper lead-safe work practices and can walk you through",
+      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
+    },
+    {
+      "file": "src/content/locations/newark-nj__general-contracting.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "review",
+      "matched": "lead-safe",
+      "context": "painted surfaces also triggers EPA RRP lead-safe requirements, which affect how we prep",
+      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
+    },
+    {
+      "file": "src/content/locations/newark-nj__general-contracting.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "lead-safe",
+      "context": "Newark also sits within Essex County's lead-safe renovation jurisdiction, and the city's",
+      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
+    },
+    {
+      "file": "src/content/locations/paterson-nj__general-contracting.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "lead-safe",
+      "context": "s Department of Health requirements for lead-safe work practices apply to any renovation",
+      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
+    },
+    {
+      "file": "src/content/locations/union-nj__general-contracting.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "review",
+      "matched": "lead-safe",
+      "context": "in that corridor.\"}, {\"question\": \"What lead-safe requirements apply to renovation work i",
+      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
+    },
+    {
+      "file": "src/content/locations/union-nj__general-contracting.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "review",
+      "matched": "lead-safe",
+      "context": "Repair and Painting (RRP) rules require lead-safe work practices on homes built before 19",
+      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
+    },
+    {
+      "file": "src/content/locations/union-nj__general-contracting.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "lead-safe",
+      "context": "A Renovation, Repair and Painting (RRP) lead-safe protocols. - **Demolition and rough-in*",
+      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
+    },
+    {
+      "file": "src/content/locations/wayne-nj__smoke-damage-restoration.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "review",
+      "matched": "lead-safe",
+      "context": "built before 1978 triggers New Jersey's lead-safe renovation rules if painted surfaces ar",
+      "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
+    },
+    {
+      "file": "src/content/pages/home.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "biohazard cleanup",
+      "context": "damage, mold remediation, storm damage, biohazard cleanup, and full reconstruction for homeowners",
+      "reason": "names the 'biohazard' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, appliance-leak-cleanup, sewage-cleanup"
+    },
+    {
+      "file": "src/content/pages/services.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Biohazard cleanup",
+      "context": "in as soon as the structure is cleared. Biohazard cleanup \u2014 sewage backups, trauma scenes, infect",
+      "reason": "names the 'biohazard' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, appliance-leak-cleanup, sewage-cleanup"
+    },
+    {
+      "file": "src/content/serviceAreas/bloomfield-nj.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "biohazard cleanup",
+      "context": "re and smoke damage cleanup, sewage and biohazard cleanup, and reconstruction. In Bloomfield spec",
+      "reason": "names the 'biohazard' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, appliance-leak-cleanup, sewage-cleanup"
+    },
+    {
+      "file": "src/content/serviceAreas/clark-nj.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "biohazard cleanup",
+      "context": "ting or reconstruction. ### Sewage and biohazard cleanup Sewer backups \u2014 especially the combine",
+      "reason": "names the 'biohazard' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, appliance-leak-cleanup, sewage-cleanup"
+    },
+    {
+      "file": "src/content/serviceAreas/cranford-nj.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "biohazard cleanup",
+      "context": "nd smoke damage restoration, sewage and biohazard cleanup, and full reconstruction through finish",
+      "reason": "names the 'biohazard' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, appliance-leak-cleanup, sewage-cleanup"
+    },
+    {
+      "file": "src/content/serviceAreas/east-orange-nj.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "biohazard cleanup",
+      "context": "ion, fire and smoke cleanup, sewage and biohazard cleanup, and full reconstruction \\u2014 all in",
+      "reason": "names the 'biohazard' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, appliance-leak-cleanup, sewage-cleanup"
+    },
+    {
+      "file": "src/content/serviceAreas/east-orange-nj.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "biohazard cleanup",
+      "context": "fter the job is closed. ### Sewage and biohazard cleanup Sewer backups in low-lying sections of",
+      "reason": "names the 'biohazard' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, appliance-leak-cleanup, sewage-cleanup"
+    },
+    {
+      "file": "src/content/serviceAreas/elizabeth-nj.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "biohazard cleanup",
+      "context": "simple wet-floor call into a Category 3 biohazard cleanup. On the commercial side, the Port Newa",
+      "reason": "names the 'biohazard' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, appliance-leak-cleanup, sewage-cleanup"
+    },
+    {
+      "file": "src/content/serviceAreas/manhattan-ny.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "biohazard cleanup",
+      "context": "e damage restoration, mold remediation, biohazard cleanup, and reconstruction throughout Manhatta",
+      "reason": "names the 'biohazard' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, appliance-leak-cleanup, sewage-cleanup"
+    },
+    {
+      "file": "src/content/serviceAreas/new-brunswick-nj.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "biohazard cleanup",
+      "context": "ion, fire and smoke damage restoration, biohazard cleanup, and reconstruction for both residentia",
+      "reason": "names the 'biohazard' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, appliance-leak-cleanup, sewage-cleanup"
+    },
+    {
+      "file": "src/content/serviceAreas/piscataway-nj.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "biohazard cleanup",
+      "context": "and smoke damage, mold remediation, and biohazard cleanup for homeowners, landlords, and property",
+      "reason": "names the 'biohazard' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, appliance-leak-cleanup, sewage-cleanup"
+    },
+    {
+      "file": "src/content/serviceAreas/plainfield-nj.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "biohazard cleanup",
+      "context": "ion, fire and smoke cleanup, sewage and biohazard cleanup, and reconstruction. For Plainfield pro",
+      "reason": "names the 'biohazard' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, appliance-leak-cleanup, sewage-cleanup"
+    },
+    {
+      "file": "src/content/serviceAreas/springfield-nj.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "biohazard cleanup",
+      "context": "re and smoke cleanup, mold remediation, biohazard cleanup, and reconstruction through finished bu",
+      "reason": "names the 'biohazard' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, appliance-leak-cleanup, sewage-cleanup"
+    },
+    {
+      "file": "src/content/serviceAreas/summit-nj.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "biohazard cleanup",
+      "context": "amage mitigation and drying, sewage and biohazard cleanup, mold remediation, fire and smoke damag",
+      "reason": "names the 'biohazard' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, appliance-leak-cleanup, sewage-cleanup"
+    },
+    {
+      "file": "src/content/serviceAreas/teaneck-nj.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "biohazard cleanup",
+      "context": "nup, mold remediation, sewer backup and biohazard cleanup, and full structural reconstruction wit",
+      "reason": "names the 'biohazard' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, appliance-leak-cleanup, sewage-cleanup"
+    },
+    {
+      "file": "src/content/serviceAreas/teaneck-nj.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "biohazard cleanup",
+      "context": "tion work begins. ### Sewer backup and biohazard cleanup Sewer backups in the West Teaneck and",
+      "reason": "names the 'biohazard' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, appliance-leak-cleanup, sewage-cleanup"
+    },
+    {
+      "file": "src/content/serviceAreas/wayne-nj.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "biohazard cleanup",
+      "context": "diation, fire and smoke damage cleanup, biohazard cleanup, and full reconstruction \\u2014 all wit",
+      "reason": "names the 'biohazard' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, appliance-leak-cleanup, sewage-cleanup"
+    },
+    {
+      "file": "src/content/serviceAreas/woodbridge-nj.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "biohazard cleanup",
+      "context": "re and smoke cleanup, mold remediation, biohazard cleanup, and full reconstruction for both resid",
+      "reason": "names the 'biohazard' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, appliance-leak-cleanup, sewage-cleanup"
+    }
+  ]
+}

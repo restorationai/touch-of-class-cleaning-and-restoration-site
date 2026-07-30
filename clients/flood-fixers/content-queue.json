@@ -251,7 +251,7 @@
     },
     {
       "id": "2026-07-13-what-to-do-after-a-flood-in-your-house",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-07-13T18:01:06Z",
       "written_at": "2026-07-30T17:52:00Z",
       "post_url": "https://flood-fixers.com/blog/what-to-do-after-a-flood-in-your-house/",
@@ -293,7 +293,8 @@
           "context": "er, and the cost of getting it wrong, a mold remediation job weeks later, typically far exceeds",
           "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
         }
-      ]
+      ],
+      "published_verified_at": "2026-07-30T17:53:39Z"
     },
     {
       "id": "2026-07-13-how-to-dry-out-a-flooded-house",

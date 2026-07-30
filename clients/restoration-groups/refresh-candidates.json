@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "slug": "narestco",
-  "origin": "https://narestco.com",
+  "slug": "restoration-groups",
+  "origin": "https://therestorationgroup.com",
   "origin_source": "apex",
-  "generated_at": "2026-07-30T18:04:59+00:00",
+  "generated_at": "2026-07-30T18:35:01+00:00",
   "stale_threshold_days": 365,
   "aging_threshold_days": 305,
   "gsc_enabled": false,
@@ -17,12 +17,12 @@
   "flag_counts": {},
   "candidates": [
     {
-      "url": "https://narestco.com/",
-      "date": "2026-05-14",
+      "url": "https://therestorationgroup.com/",
+      "date": "2026-07-11",
       "date_source": "sitemap_lastmod",
-      "age_days": 77,
+      "age_days": 19,
       "flags": [],
-      "sitemap_lastmod": "2026-05-14T14:57:10.265Z",
+      "sitemap_lastmod": "2026-07-11T02:38:40.522Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -34,12 +34,12 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/about/",
-      "date": "2026-05-14",
+      "url": "https://therestorationgroup.com/about/",
+      "date": "2026-07-11",
       "date_source": "sitemap_lastmod",
-      "age_days": 77,
+      "age_days": 19,
       "flags": [],
-      "sitemap_lastmod": "2026-05-14T15:09:30.053Z",
+      "sitemap_lastmod": "2026-07-11T02:49:55.598Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -51,12 +51,12 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/accessibility/",
-      "date": "2026-05-14",
+      "url": "https://therestorationgroup.com/accessibility/",
+      "date": "2026-07-11",
       "date_source": "sitemap_lastmod",
-      "age_days": 77,
+      "age_days": 19,
       "flags": [],
-      "sitemap_lastmod": "2026-05-14T15:09:46.844Z",
+      "sitemap_lastmod": "2026-07-11T02:50:04.908Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -68,12 +68,12 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/blog/",
-      "date": "2026-05-14",
+      "url": "https://therestorationgroup.com/blog/",
+      "date": "2026-07-11",
       "date_source": "sitemap_lastmod",
-      "age_days": 77,
+      "age_days": 19,
       "flags": [],
-      "sitemap_lastmod": "2026-05-14T15:09:11.614Z",
+      "sitemap_lastmod": "2026-07-11T02:49:38.583Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -85,347 +85,7 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/blog/attic-mold-removal-tacoma/",
-      "date": "2026-07-30",
-      "date_source": "json_ld_date_modified",
-      "age_days": 0,
-      "flags": [],
-      "sitemap_lastmod": "2026-07-30T00:00:00.000Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-07-30",
-        "json_ld_date_modified": "2026-07-30",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://narestco.com/blog/average-insurance-payout-for-water-damage/",
-      "date": "2026-05-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 62,
-      "flags": [],
-      "sitemap_lastmod": "2026-05-29T00:00:00.000Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-05-29",
-        "json_ld_date_modified": "2026-05-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://narestco.com/blog/best-flood-damage-restoration-company-in-bellevue-wa/",
-      "date": "2026-07-06",
-      "date_source": "json_ld_date_modified",
-      "age_days": 24,
-      "flags": [],
-      "sitemap_lastmod": "2026-07-06T00:00:00.000Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-07-06",
-        "json_ld_date_modified": "2026-07-06",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://narestco.com/blog/best-water-damage-restoration-company-in-bellevue-wa/",
-      "date": "2026-07-13",
-      "date_source": "json_ld_date_modified",
-      "age_days": 17,
-      "flags": [],
-      "sitemap_lastmod": "2026-07-13T00:00:00.000Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-07-13",
-        "json_ld_date_modified": "2026-07-13",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://narestco.com/blog/black-mold-vs-regular-mold/",
-      "date": "2026-05-13",
-      "date_source": "json_ld_date_modified",
-      "age_days": 78,
-      "flags": [],
-      "sitemap_lastmod": "2026-05-13T00:00:00.000Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-05-13",
-        "json_ld_date_modified": "2026-05-13",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://narestco.com/blog/burst-pipe-emergency-checklist/",
-      "date": "2026-05-13",
-      "date_source": "json_ld_date_modified",
-      "age_days": 78,
-      "flags": [],
-      "sitemap_lastmod": "2026-05-13T00:00:00.000Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-05-13",
-        "json_ld_date_modified": "2026-05-13",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://narestco.com/blog/choosing-a-restoration-company/",
-      "date": "2026-05-13",
-      "date_source": "json_ld_date_modified",
-      "age_days": 78,
-      "flags": [],
-      "sitemap_lastmod": "2026-05-13T00:00:00.000Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-05-13",
-        "json_ld_date_modified": "2026-05-13",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://narestco.com/blog/crawl-space-mold-removal-federal-way/",
-      "date": "2026-07-02",
-      "date_source": "json_ld_date_modified",
-      "age_days": 28,
-      "flags": [],
-      "sitemap_lastmod": "2026-07-02T00:00:00.000Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-07-02",
-        "json_ld_date_modified": "2026-07-02",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://narestco.com/blog/does-homeowners-insurance-cover-biohazard-cleanup/",
-      "date": "2026-07-20",
-      "date_source": "json_ld_date_modified",
-      "age_days": 10,
-      "flags": [],
-      "sitemap_lastmod": "2026-07-20T00:00:00.000Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-07-20",
-        "json_ld_date_modified": "2026-07-20",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://narestco.com/blog/does-homeowners-insurance-cover-broken-pipes-under-foundation/",
-      "date": "2026-05-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 62,
-      "flags": [],
-      "sitemap_lastmod": "2026-05-29T00:00:00.000Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-05-29",
-        "json_ld_date_modified": "2026-05-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://narestco.com/blog/does-homeowners-insurance-cover-fire-damage/",
-      "date": "2026-06-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 45,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-15T00:00:00.000Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-06-15",
-        "json_ld_date_modified": "2026-06-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://narestco.com/blog/does-homeowners-insurance-cover-water-damage-from-rain/",
-      "date": "2026-05-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 62,
-      "flags": [],
-      "sitemap_lastmod": "2026-05-29T00:00:00.000Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-05-29",
-        "json_ld_date_modified": "2026-05-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://narestco.com/blog/does-homeowners-insurance-cover-water-damage/",
-      "date": "2026-05-17",
-      "date_source": "json_ld_date_modified",
-      "age_days": 74,
-      "flags": [],
-      "sitemap_lastmod": "2026-05-17T00:00:00.000Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-05-17",
-        "json_ld_date_modified": "2026-05-17",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://narestco.com/blog/fire-damage-restoration-cost-per-square-foot/",
-      "date": "2026-06-22",
-      "date_source": "json_ld_date_modified",
-      "age_days": 38,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-22T00:00:00.000Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-06-22",
-        "json_ld_date_modified": "2026-06-22",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://narestco.com/blog/fire-damage-restoration-cost/",
-      "date": "2026-06-04",
-      "date_source": "json_ld_date_modified",
-      "age_days": 56,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-04T00:00:00.000Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-06-04",
-        "json_ld_date_modified": "2026-06-04",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://narestco.com/blog/fire-damage-restoration-process/",
-      "date": "2026-06-08",
-      "date_source": "json_ld_date_modified",
-      "age_days": 52,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-08T00:00:00.000Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-06-08",
-        "json_ld_date_modified": "2026-06-08",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://narestco.com/blog/how-long-does-trauma-scene-cleanup-take/",
-      "date": "2026-07-23",
-      "date_source": "json_ld_date_modified",
-      "age_days": 7,
-      "flags": [],
-      "sitemap_lastmod": "2026-07-23T00:00:00.000Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-07-23",
-        "json_ld_date_modified": "2026-07-23",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://narestco.com/blog/how-long-does-water-damage-restoration-take/",
-      "date": "2026-05-13",
-      "date_source": "json_ld_date_modified",
-      "age_days": 78,
-      "flags": [],
-      "sitemap_lastmod": "2026-05-13T00:00:00.000Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-05-13",
-        "json_ld_date_modified": "2026-05-13",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://narestco.com/blog/how-to-test-for-mold/",
-      "date": "2026-06-21",
-      "date_source": "json_ld_date_modified",
-      "age_days": 39,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-21T00:00:00.000Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-06-21",
-        "json_ld_date_modified": "2026-06-21",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://narestco.com/blog/mold-after-water-damage/",
-      "date": "2026-05-13",
-      "date_source": "json_ld_date_modified",
-      "age_days": 78,
-      "flags": [],
-      "sitemap_lastmod": "2026-05-13T00:00:00.000Z",
-      "html_dates": {
-        "json_ld_date_published": "2026-05-13",
-        "json_ld_date_modified": "2026-05-13",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://narestco.com/blog/mold-inspection-cost-bellevue/",
+      "url": "https://therestorationgroup.com/blog/best-water-damage-restoration-company-in-kenilworth-nj/",
       "date": "2026-07-27",
       "date_source": "json_ld_date_modified",
       "age_days": 3,
@@ -442,15 +102,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/blog/mold-remediation-cost-seattle/",
-      "date": "2026-06-29",
+      "url": "https://therestorationgroup.com/blog/black-mold-vs-regular-mold/",
+      "date": "2026-06-27",
       "date_source": "json_ld_date_modified",
-      "age_days": 31,
+      "age_days": 33,
       "flags": [],
-      "sitemap_lastmod": "2026-06-29T00:00:00.000Z",
+      "sitemap_lastmod": "2026-06-27T00:00:00.000Z",
       "html_dates": {
-        "json_ld_date_published": "2026-06-29",
-        "json_ld_date_modified": "2026-06-29",
+        "json_ld_date_published": "2026-06-27",
+        "json_ld_date_modified": "2026-06-27",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -459,15 +119,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/blog/mold-removal/",
-      "date": "2026-07-09",
+      "url": "https://therestorationgroup.com/blog/burst-pipe-emergency-checklist/",
+      "date": "2026-06-25",
       "date_source": "json_ld_date_modified",
-      "age_days": 21,
+      "age_days": 35,
       "flags": [],
-      "sitemap_lastmod": "2026-07-09T00:00:00.000Z",
+      "sitemap_lastmod": "2026-06-25T00:00:00.000Z",
       "html_dates": {
-        "json_ld_date_published": "2026-07-09",
-        "json_ld_date_modified": "2026-07-09",
+        "json_ld_date_published": "2026-06-25",
+        "json_ld_date_modified": "2026-06-25",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -476,15 +136,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/blog/sewage-backup-health-risks/",
-      "date": "2026-05-13",
+      "url": "https://therestorationgroup.com/blog/ceiling-water-damage-repair/",
+      "date": "2026-07-30",
       "date_source": "json_ld_date_modified",
-      "age_days": 78,
+      "age_days": 0,
       "flags": [],
-      "sitemap_lastmod": "2026-05-13T00:00:00.000Z",
+      "sitemap_lastmod": "2026-07-30T00:00:00.000Z",
       "html_dates": {
-        "json_ld_date_published": "2026-05-13",
-        "json_ld_date_modified": "2026-05-13",
+        "json_ld_date_published": "2026-07-30",
+        "json_ld_date_modified": "2026-07-30",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -493,15 +153,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/blog/signs-of-hidden-mold/",
-      "date": "2026-05-13",
+      "url": "https://therestorationgroup.com/blog/choosing-a-restoration-company/",
+      "date": "2026-07-02",
       "date_source": "json_ld_date_modified",
-      "age_days": 78,
+      "age_days": 28,
       "flags": [],
-      "sitemap_lastmod": "2026-05-13T00:00:00.000Z",
+      "sitemap_lastmod": "2026-07-02T00:00:00.000Z",
       "html_dates": {
-        "json_ld_date_published": "2026-05-13",
-        "json_ld_date_modified": "2026-05-13",
+        "json_ld_date_published": "2026-07-02",
+        "json_ld_date_modified": "2026-07-02",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -510,15 +170,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/blog/smoke-odor-removal-techniques/",
-      "date": "2026-05-13",
+      "url": "https://therestorationgroup.com/blog/does-homeowners-insurance-cover-water-damage/",
+      "date": "2026-06-23",
       "date_source": "json_ld_date_modified",
-      "age_days": 78,
+      "age_days": 37,
       "flags": [],
-      "sitemap_lastmod": "2026-05-13T00:00:00.000Z",
+      "sitemap_lastmod": "2026-06-23T00:00:00.000Z",
       "html_dates": {
-        "json_ld_date_published": "2026-05-13",
-        "json_ld_date_modified": "2026-05-13",
+        "json_ld_date_published": "2026-06-23",
+        "json_ld_date_modified": "2026-06-23",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -527,15 +187,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/blog/storm-damage-insurance-claim-checklist/",
-      "date": "2026-05-13",
+      "url": "https://therestorationgroup.com/blog/fire-damage-restoration-process/",
+      "date": "2026-07-04",
       "date_source": "json_ld_date_modified",
-      "age_days": 78,
+      "age_days": 26,
       "flags": [],
-      "sitemap_lastmod": "2026-05-13T00:00:00.000Z",
+      "sitemap_lastmod": "2026-07-04T00:00:00.000Z",
       "html_dates": {
-        "json_ld_date_published": "2026-05-13",
-        "json_ld_date_modified": "2026-05-13",
+        "json_ld_date_published": "2026-07-04",
+        "json_ld_date_modified": "2026-07-04",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -544,15 +204,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/blog/water-damage-restoration-cost-wa/",
-      "date": "2026-07-23",
+      "url": "https://therestorationgroup.com/blog/how-long-does-water-damage-restoration-take/",
+      "date": "2026-06-19",
       "date_source": "json_ld_date_modified",
-      "age_days": 7,
+      "age_days": 41,
       "flags": [],
-      "sitemap_lastmod": "2026-07-23T00:00:00.000Z",
+      "sitemap_lastmod": "2026-06-19T00:00:00.000Z",
       "html_dates": {
-        "json_ld_date_published": "2026-07-23",
-        "json_ld_date_modified": "2026-07-23",
+        "json_ld_date_published": "2026-06-19",
+        "json_ld_date_modified": "2026-06-19",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -561,15 +221,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/blog/what-does-homeowners-insurance-cover-and-not-cover/",
-      "date": "2026-05-17",
+      "url": "https://therestorationgroup.com/blog/how-to-test-for-mold/",
+      "date": "2026-06-27",
       "date_source": "json_ld_date_modified",
-      "age_days": 74,
+      "age_days": 33,
       "flags": [],
-      "sitemap_lastmod": "2026-05-17T00:00:00.000Z",
+      "sitemap_lastmod": "2026-06-27T00:00:00.000Z",
       "html_dates": {
-        "json_ld_date_published": "2026-05-17",
-        "json_ld_date_modified": "2026-05-17",
+        "json_ld_date_published": "2026-06-27",
+        "json_ld_date_modified": "2026-06-27",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -578,15 +238,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/blog/what-happens-after-an-unattended-death/",
-      "date": "2026-07-23",
+      "url": "https://therestorationgroup.com/blog/mold-after-water-damage/",
+      "date": "2026-07-02",
       "date_source": "json_ld_date_modified",
-      "age_days": 7,
+      "age_days": 28,
       "flags": [],
-      "sitemap_lastmod": "2026-07-23T00:00:00.000Z",
+      "sitemap_lastmod": "2026-07-02T00:00:00.000Z",
       "html_dates": {
-        "json_ld_date_published": "2026-07-23",
-        "json_ld_date_modified": "2026-07-23",
+        "json_ld_date_published": "2026-07-02",
+        "json_ld_date_modified": "2026-07-02",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -595,15 +255,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/blog/what-to-do-after-a-house-fire/",
-      "date": "2026-06-11",
+      "url": "https://therestorationgroup.com/blog/signs-of-hidden-mold/",
+      "date": "2026-06-27",
       "date_source": "json_ld_date_modified",
-      "age_days": 49,
+      "age_days": 33,
       "flags": [],
-      "sitemap_lastmod": "2026-06-11T00:00:00.000Z",
+      "sitemap_lastmod": "2026-06-27T00:00:00.000Z",
       "html_dates": {
-        "json_ld_date_published": "2026-06-11",
-        "json_ld_date_modified": "2026-06-11",
+        "json_ld_date_published": "2026-06-27",
+        "json_ld_date_modified": "2026-06-27",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -612,15 +272,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/blog/what-to-do-first-24-hours-water-damage/",
-      "date": "2026-05-13",
+      "url": "https://therestorationgroup.com/blog/smoke-odor-removal-techniques/",
+      "date": "2026-06-26",
       "date_source": "json_ld_date_modified",
-      "age_days": 78,
+      "age_days": 34,
       "flags": [],
-      "sitemap_lastmod": "2026-05-13T00:00:00.000Z",
+      "sitemap_lastmod": "2026-06-26T00:00:00.000Z",
       "html_dates": {
-        "json_ld_date_published": "2026-05-13",
-        "json_ld_date_modified": "2026-05-13",
+        "json_ld_date_published": "2026-06-26",
+        "json_ld_date_modified": "2026-06-26",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -629,15 +289,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/blog/who-pays-for-crime-scene-cleanup-washington/",
-      "date": "2026-07-16",
+      "url": "https://therestorationgroup.com/blog/storm-damage-insurance-claim-checklist/",
+      "date": "2026-06-27",
       "date_source": "json_ld_date_modified",
-      "age_days": 14,
+      "age_days": 33,
       "flags": [],
-      "sitemap_lastmod": "2026-07-16T00:00:00.000Z",
+      "sitemap_lastmod": "2026-06-27T00:00:00.000Z",
       "html_dates": {
-        "json_ld_date_published": "2026-07-16",
-        "json_ld_date_modified": "2026-07-16",
+        "json_ld_date_published": "2026-06-27",
+        "json_ld_date_modified": "2026-06-27",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -646,12 +306,29 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/certifications/",
+      "url": "https://therestorationgroup.com/blog/what-to-do-first-24-hours-water-damage/",
+      "date": "2026-07-07",
+      "date_source": "json_ld_date_modified",
+      "age_days": 23,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-07T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-07-07",
+        "json_ld_date_modified": "2026-07-07",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/certifications/",
       "date": "2026-07-30",
       "date_source": "sitemap_lastmod",
       "age_days": 0,
       "flags": [],
-      "sitemap_lastmod": "2026-07-30T18:03:32.744Z",
+      "sitemap_lastmod": "2026-07-30T18:19:21.676Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -663,12 +340,12 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/contact/",
-      "date": "2026-05-14",
+      "url": "https://therestorationgroup.com/contact/",
+      "date": "2026-07-11",
       "date_source": "sitemap_lastmod",
-      "age_days": 77,
+      "age_days": 19,
       "flags": [],
-      "sitemap_lastmod": "2026-05-14T15:09:28.463Z",
+      "sitemap_lastmod": "2026-07-11T02:49:50.808Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -680,12 +357,12 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/emergency/",
+      "url": "https://therestorationgroup.com/emergency/",
       "date": "2026-07-30",
       "date_source": "sitemap_lastmod",
       "age_days": 0,
       "flags": [],
-      "sitemap_lastmod": "2026-07-30T18:03:32.744Z",
+      "sitemap_lastmod": "2026-07-30T18:19:21.676Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -697,12 +374,12 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/privacy/",
-      "date": "2026-05-14",
+      "url": "https://therestorationgroup.com/privacy/",
+      "date": "2026-07-11",
       "date_source": "sitemap_lastmod",
-      "age_days": 77,
+      "age_days": 19,
       "flags": [],
-      "sitemap_lastmod": "2026-05-14T15:12:10.425Z",
+      "sitemap_lastmod": "2026-07-11T02:49:55.384Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -714,12 +391,12 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/reviews/",
+      "url": "https://therestorationgroup.com/reviews/",
       "date": "2026-07-30",
       "date_source": "sitemap_lastmod",
       "age_days": 0,
       "flags": [],
-      "sitemap_lastmod": "2026-07-30T18:03:32.744Z",
+      "sitemap_lastmod": "2026-07-30T18:19:21.676Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -731,12 +408,12 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/",
-      "date": "2026-05-14",
+      "url": "https://therestorationgroup.com/service-areas/",
+      "date": "2026-07-11",
       "date_source": "sitemap_lastmod",
-      "age_days": 77,
+      "age_days": 19,
       "flags": [],
-      "sitemap_lastmod": "2026-05-14T15:09:06.300Z",
+      "sitemap_lastmod": "2026-07-11T02:49:31.807Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -748,12 +425,12 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/auburn-wa/",
-      "date": "2026-05-14",
+      "url": "https://therestorationgroup.com/service-areas/bayonne-nj/",
+      "date": "2026-07-18",
       "date_source": "sitemap_lastmod",
-      "age_days": 77,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-05-14T15:05:38.453Z",
+      "sitemap_lastmod": "2026-07-18T21:51:15.808Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -765,15 +442,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/auburn-wa/appliance-leak-cleanup/",
-      "date": "2026-05-14",
+      "url": "https://therestorationgroup.com/service-areas/bayonne-nj/appliance-leak-cleanup/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 77,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-05-14T15:08:35.174Z",
+      "sitemap_lastmod": "2026-07-18T21:57:05.603Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-05-14",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -782,15 +459,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/auburn-wa/basement-flooding-cleanup/",
-      "date": "2026-05-14",
+      "url": "https://therestorationgroup.com/service-areas/bayonne-nj/basement-flooding-cleanup/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 77,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-05-14T14:53:36.583Z",
+      "sitemap_lastmod": "2026-07-18T21:34:03.647Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-05-14",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -799,15 +476,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/auburn-wa/biohazard-cleanup/",
-      "date": "2026-05-14",
+      "url": "https://therestorationgroup.com/service-areas/bayonne-nj/burst-pipe-repair/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 77,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-05-14T14:53:53.130Z",
+      "sitemap_lastmod": "2026-07-18T21:33:52.181Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-05-14",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -816,15 +493,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/auburn-wa/burst-pipe-repair/",
-      "date": "2026-05-14",
+      "url": "https://therestorationgroup.com/service-areas/bayonne-nj/commercial-restoration/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 77,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-05-14T14:53:31.051Z",
+      "sitemap_lastmod": "2026-07-18T21:11:13.115Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-05-14",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -833,15 +510,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/auburn-wa/crime-scene-cleanup/",
-      "date": "2026-07-15",
+      "url": "https://therestorationgroup.com/service-areas/bayonne-nj/emergency-board-up-tarping/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 15,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-07-15T05:34:35.406Z",
+      "sitemap_lastmod": "2026-07-18T21:46:09.549Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-15",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -850,15 +527,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/auburn-wa/fire-damage-restoration/",
-      "date": "2026-05-14",
+      "url": "https://therestorationgroup.com/service-areas/bayonne-nj/fire-damage-restoration/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 77,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-05-14T04:12:26.315Z",
+      "sitemap_lastmod": "2026-07-18T20:36:48.265Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-05-14",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -867,15 +544,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/auburn-wa/flood-damage-restoration/",
-      "date": "2026-05-14",
+      "url": "https://therestorationgroup.com/service-areas/bayonne-nj/flood-damage-restoration/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 77,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-05-14T04:21:20.774Z",
+      "sitemap_lastmod": "2026-07-18T21:10:30.735Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-05-14",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -884,15 +561,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/auburn-wa/frozen-pipe-restoration/",
-      "date": "2026-05-14",
+      "url": "https://therestorationgroup.com/service-areas/bayonne-nj/general-contracting/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 77,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-05-14T15:02:40.067Z",
+      "sitemap_lastmod": "2026-07-18T21:34:13.466Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-05-14",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -901,15 +578,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/auburn-wa/general-contracting/",
-      "date": "2026-05-14",
+      "url": "https://therestorationgroup.com/service-areas/bayonne-nj/mold-inspection-testing/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 77,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-05-14T14:54:16.008Z",
+      "sitemap_lastmod": "2026-07-18T21:34:00.809Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-05-14",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -918,15 +595,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/auburn-wa/hoarding-cleanup/",
-      "date": "2026-07-15",
+      "url": "https://therestorationgroup.com/service-areas/bayonne-nj/mold-remediation/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 15,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-07-15T05:35:10.495Z",
+      "sitemap_lastmod": "2026-07-18T20:36:45.849Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-15",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -935,15 +612,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/auburn-wa/mold-inspection-testing/",
-      "date": "2026-05-14",
+      "url": "https://therestorationgroup.com/service-areas/bayonne-nj/odor-removal/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 77,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-05-14T14:53:55.202Z",
+      "sitemap_lastmod": "2026-07-18T21:46:01.705Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-05-14",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -952,15 +629,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/auburn-wa/mold-remediation/",
-      "date": "2026-05-14",
+      "url": "https://therestorationgroup.com/service-areas/bayonne-nj/reconstruction/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 77,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-05-14T04:12:29.030Z",
+      "sitemap_lastmod": "2026-07-18T21:11:07.483Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-05-14",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -969,15 +646,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/auburn-wa/odor-removal/",
-      "date": "2026-05-14",
+      "url": "https://therestorationgroup.com/service-areas/bayonne-nj/sewage-cleanup/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 77,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-05-14T15:03:00.750Z",
+      "sitemap_lastmod": "2026-07-18T21:10:29.752Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-05-14",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -986,15 +663,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/auburn-wa/reconstruction/",
-      "date": "2026-05-14",
+      "url": "https://therestorationgroup.com/service-areas/bayonne-nj/smoke-damage-restoration/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 77,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-05-14T04:22:05.193Z",
+      "sitemap_lastmod": "2026-07-18T21:10:52.240Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-05-14",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1003,15 +680,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/auburn-wa/roof-leak-repair/",
-      "date": "2026-05-14",
+      "url": "https://therestorationgroup.com/service-areas/bayonne-nj/storm-damage-restoration/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 77,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-05-14T15:03:03.548Z",
+      "sitemap_lastmod": "2026-07-18T21:10:54.308Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-05-14",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1020,15 +697,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/auburn-wa/sewage-cleanup/",
-      "date": "2026-05-14",
+      "url": "https://therestorationgroup.com/service-areas/bayonne-nj/water-damage-restoration/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 77,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-05-14T04:21:23.190Z",
+      "sitemap_lastmod": "2026-07-18T20:36:47.638Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-05-14",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1037,114 +714,12 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/auburn-wa/smoke-damage-restoration/",
-      "date": "2026-05-14",
-      "date_source": "json_ld_date_modified",
-      "age_days": 77,
-      "flags": [],
-      "sitemap_lastmod": "2026-05-14T04:21:24.331Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-05-14",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://narestco.com/service-areas/auburn-wa/soot-removal/",
-      "date": "2026-05-14",
-      "date_source": "json_ld_date_modified",
-      "age_days": 77,
-      "flags": [],
-      "sitemap_lastmod": "2026-05-14T15:03:00.119Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-05-14",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://narestco.com/service-areas/auburn-wa/storm-damage-restoration/",
-      "date": "2026-05-14",
-      "date_source": "json_ld_date_modified",
-      "age_days": 77,
-      "flags": [],
-      "sitemap_lastmod": "2026-05-14T04:22:05.193Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-05-14",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://narestco.com/service-areas/auburn-wa/trauma-scene-cleanup/",
-      "date": "2026-07-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 15,
-      "flags": [],
-      "sitemap_lastmod": "2026-07-15T05:29:19.053Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://narestco.com/service-areas/auburn-wa/unattended-death-cleanup/",
-      "date": "2026-07-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 15,
-      "flags": [],
-      "sitemap_lastmod": "2026-07-15T05:35:10.275Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://narestco.com/service-areas/auburn-wa/water-damage-restoration/",
-      "date": "2026-05-14",
-      "date_source": "json_ld_date_modified",
-      "age_days": 77,
-      "flags": [],
-      "sitemap_lastmod": "2026-05-14T04:12:22.628Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-05-14",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://narestco.com/service-areas/bellevue-wa/",
-      "date": "2026-05-14",
+      "url": "https://therestorationgroup.com/service-areas/bloomfield-nj/",
+      "date": "2026-07-18",
       "date_source": "sitemap_lastmod",
-      "age_days": 77,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-05-14T15:04:56.391Z",
+      "sitemap_lastmod": "2026-07-18T21:47:47.581Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -1156,15 +731,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/bellevue-wa/appliance-leak-cleanup/",
-      "date": "2026-05-14",
+      "url": "https://therestorationgroup.com/service-areas/bloomfield-nj/appliance-leak-cleanup/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 77,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-05-14T15:07:25.537Z",
+      "sitemap_lastmod": "2026-07-18T21:53:08.204Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-05-14",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1173,15 +748,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/bellevue-wa/basement-flooding-cleanup/",
-      "date": "2026-05-14",
+      "url": "https://therestorationgroup.com/service-areas/bloomfield-nj/basement-flooding-cleanup/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 77,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-05-14T14:49:00.464Z",
+      "sitemap_lastmod": "2026-07-18T21:19:17.940Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-05-14",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1190,15 +765,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/bellevue-wa/biohazard-cleanup/",
-      "date": "2026-05-14",
+      "url": "https://therestorationgroup.com/service-areas/bloomfield-nj/burst-pipe-repair/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 77,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-05-14T14:49:31.792Z",
+      "sitemap_lastmod": "2026-07-18T21:19:16.043Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-05-14",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1207,15 +782,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/bellevue-wa/burst-pipe-repair/",
-      "date": "2026-05-14",
+      "url": "https://therestorationgroup.com/service-areas/bloomfield-nj/commercial-restoration/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 77,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-05-14T14:48:53.295Z",
+      "sitemap_lastmod": "2026-07-18T20:48:40.181Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-05-14",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1224,15 +799,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/bellevue-wa/crime-scene-cleanup/",
-      "date": "2026-07-15",
+      "url": "https://therestorationgroup.com/service-areas/bloomfield-nj/emergency-board-up-tarping/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 15,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-07-15T05:32:11.064Z",
+      "sitemap_lastmod": "2026-07-18T21:38:41.448Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-15",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1241,15 +816,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/bellevue-wa/fire-damage-restoration/",
-      "date": "2026-05-14",
+      "url": "https://therestorationgroup.com/service-areas/bloomfield-nj/fire-damage-restoration/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 77,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-05-14T04:09:39.066Z",
+      "sitemap_lastmod": "2026-07-18T20:25:34.100Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-05-14",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1258,15 +833,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/bellevue-wa/flood-damage-restoration/",
-      "date": "2026-05-14",
+      "url": "https://therestorationgroup.com/service-areas/bloomfield-nj/flood-damage-restoration/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 77,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-05-14T04:16:35.166Z",
+      "sitemap_lastmod": "2026-07-18T20:48:13.011Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-05-14",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1275,15 +850,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/bellevue-wa/frozen-pipe-restoration/",
-      "date": "2026-05-14",
+      "url": "https://therestorationgroup.com/service-areas/bloomfield-nj/general-contracting/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 77,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-05-14T14:58:57.899Z",
+      "sitemap_lastmod": "2026-07-18T21:19:24.754Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-05-14",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1292,15 +867,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/bellevue-wa/general-contracting/",
-      "date": "2026-05-14",
+      "url": "https://therestorationgroup.com/service-areas/bloomfield-nj/mold-inspection-testing/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 77,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-05-14T14:49:48.348Z",
+      "sitemap_lastmod": "2026-07-18T21:19:21.081Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-05-14",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1309,15 +884,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/bellevue-wa/hoarding-cleanup/",
-      "date": "2026-07-15",
+      "url": "https://therestorationgroup.com/service-areas/bloomfield-nj/mold-remediation/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 15,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-07-15T05:32:12.998Z",
+      "sitemap_lastmod": "2026-07-18T20:25:27.679Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-15",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1326,15 +901,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/bellevue-wa/mold-inspection-testing/",
-      "date": "2026-05-14",
+      "url": "https://therestorationgroup.com/service-areas/bloomfield-nj/odor-removal/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 77,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-05-14T14:49:32.359Z",
+      "sitemap_lastmod": "2026-07-18T21:38:36.433Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-05-14",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1343,15 +918,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/bellevue-wa/mold-remediation/",
-      "date": "2026-05-14",
+      "url": "https://therestorationgroup.com/service-areas/bloomfield-nj/reconstruction/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 77,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-05-14T04:09:36.125Z",
+      "sitemap_lastmod": "2026-07-18T20:48:45.577Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-05-14",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1360,15 +935,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/bellevue-wa/odor-removal/",
-      "date": "2026-05-14",
+      "url": "https://therestorationgroup.com/service-areas/bloomfield-nj/sewage-cleanup/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 77,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-05-14T14:59:20.974Z",
+      "sitemap_lastmod": "2026-07-18T20:48:09.252Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-05-14",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1377,15 +952,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/bellevue-wa/reconstruction/",
-      "date": "2026-05-14",
+      "url": "https://therestorationgroup.com/service-areas/bloomfield-nj/smoke-damage-restoration/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 77,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-05-14T04:17:21.335Z",
+      "sitemap_lastmod": "2026-07-18T20:48:12.365Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-05-14",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1394,15 +969,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/bellevue-wa/roof-leak-repair/",
-      "date": "2026-05-14",
+      "url": "https://therestorationgroup.com/service-areas/bloomfield-nj/storm-damage-restoration/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 77,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-05-14T14:59:17.854Z",
+      "sitemap_lastmod": "2026-07-18T20:48:29.075Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-05-14",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1411,15 +986,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/bellevue-wa/sewage-cleanup/",
-      "date": "2026-05-14",
+      "url": "https://therestorationgroup.com/service-areas/bloomfield-nj/water-damage-restoration/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 77,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-05-14T04:16:55.117Z",
+      "sitemap_lastmod": "2026-07-18T20:25:33.431Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-05-14",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1428,114 +1003,12 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/bellevue-wa/smoke-damage-restoration/",
-      "date": "2026-05-14",
-      "date_source": "json_ld_date_modified",
-      "age_days": 77,
-      "flags": [],
-      "sitemap_lastmod": "2026-05-14T04:16:57.280Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-05-14",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://narestco.com/service-areas/bellevue-wa/soot-removal/",
-      "date": "2026-05-14",
-      "date_source": "json_ld_date_modified",
-      "age_days": 77,
-      "flags": [],
-      "sitemap_lastmod": "2026-05-14T14:59:20.440Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-05-14",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://narestco.com/service-areas/bellevue-wa/storm-damage-restoration/",
-      "date": "2026-05-14",
-      "date_source": "json_ld_date_modified",
-      "age_days": 77,
-      "flags": [],
-      "sitemap_lastmod": "2026-05-14T04:17:00.370Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-05-14",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://narestco.com/service-areas/bellevue-wa/trauma-scene-cleanup/",
-      "date": "2026-07-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 15,
-      "flags": [],
-      "sitemap_lastmod": "2026-07-15T05:28:30.784Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://narestco.com/service-areas/bellevue-wa/unattended-death-cleanup/",
-      "date": "2026-07-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 15,
-      "flags": [],
-      "sitemap_lastmod": "2026-07-15T05:32:11.195Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://narestco.com/service-areas/bellevue-wa/water-damage-restoration/",
-      "date": "2026-05-14",
-      "date_source": "json_ld_date_modified",
-      "age_days": 77,
-      "flags": [],
-      "sitemap_lastmod": "2026-05-14T04:09:38.274Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-05-14",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://narestco.com/service-areas/bremerton-wa/",
-      "date": "2026-07-04",
+      "url": "https://therestorationgroup.com/service-areas/bridgewater-nj/",
+      "date": "2026-07-18",
       "date_source": "sitemap_lastmod",
-      "age_days": 26,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-07-04T19:53:20.524Z",
+      "sitemap_lastmod": "2026-07-18T21:50:31.837Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -1547,15 +1020,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/bremerton-wa/appliance-leak-cleanup/",
-      "date": "2026-07-04",
+      "url": "https://therestorationgroup.com/service-areas/bridgewater-nj/appliance-leak-cleanup/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 26,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-07-04T19:53:55.443Z",
+      "sitemap_lastmod": "2026-07-18T21:56:13.573Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-04",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1564,15 +1037,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/bremerton-wa/basement-flooding-cleanup/",
-      "date": "2026-07-04",
+      "url": "https://therestorationgroup.com/service-areas/bridgewater-nj/basement-flooding-cleanup/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 26,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-07-04T19:48:31.757Z",
+      "sitemap_lastmod": "2026-07-18T21:30:48.929Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-04",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1581,15 +1054,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/bremerton-wa/biohazard-cleanup/",
-      "date": "2026-07-04",
+      "url": "https://therestorationgroup.com/service-areas/bridgewater-nj/burst-pipe-repair/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 26,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-07-04T19:48:30.281Z",
+      "sitemap_lastmod": "2026-07-18T21:30:34.616Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-04",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1598,15 +1071,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/bremerton-wa/burst-pipe-repair/",
-      "date": "2026-07-04",
+      "url": "https://therestorationgroup.com/service-areas/bridgewater-nj/commercial-restoration/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 26,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-07-04T19:48:34.311Z",
+      "sitemap_lastmod": "2026-07-18T21:06:11.968Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-04",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1615,15 +1088,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/bremerton-wa/crime-scene-cleanup/",
-      "date": "2026-07-15",
+      "url": "https://therestorationgroup.com/service-areas/bridgewater-nj/emergency-board-up-tarping/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 15,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-07-15T05:36:47.530Z",
+      "sitemap_lastmod": "2026-07-18T21:44:22.501Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-15",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1632,15 +1105,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/bremerton-wa/fire-damage-restoration/",
-      "date": "2026-07-04",
+      "url": "https://therestorationgroup.com/service-areas/bridgewater-nj/fire-damage-restoration/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 26,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-07-04T19:43:03.399Z",
+      "sitemap_lastmod": "2026-07-18T20:34:22.087Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-04",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1649,15 +1122,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/bremerton-wa/flood-damage-restoration/",
-      "date": "2026-07-04",
+      "url": "https://therestorationgroup.com/service-areas/bridgewater-nj/flood-damage-restoration/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 26,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-07-04T19:44:43.175Z",
+      "sitemap_lastmod": "2026-07-18T21:05:25.868Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-04",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1666,15 +1139,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/bremerton-wa/frozen-pipe-restoration/",
-      "date": "2026-07-04",
+      "url": "https://therestorationgroup.com/service-areas/bridgewater-nj/general-contracting/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 26,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-07-04T19:51:25.505Z",
+      "sitemap_lastmod": "2026-07-18T21:31:02.104Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-04",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1683,15 +1156,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/bremerton-wa/general-contracting/",
-      "date": "2026-07-04",
+      "url": "https://therestorationgroup.com/service-areas/bridgewater-nj/mold-inspection-testing/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 26,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-07-04T19:48:36.604Z",
+      "sitemap_lastmod": "2026-07-18T21:30:45.678Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-04",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1700,15 +1173,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/bremerton-wa/hoarding-cleanup/",
-      "date": "2026-07-15",
+      "url": "https://therestorationgroup.com/service-areas/bridgewater-nj/mold-remediation/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 15,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-07-15T05:37:25.442Z",
+      "sitemap_lastmod": "2026-07-18T20:34:23.466Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-15",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1717,15 +1190,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/bremerton-wa/mold-inspection-testing/",
-      "date": "2026-07-04",
+      "url": "https://therestorationgroup.com/service-areas/bridgewater-nj/odor-removal/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 26,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-07-04T19:48:30.877Z",
+      "sitemap_lastmod": "2026-07-18T21:44:22.590Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-04",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1734,15 +1207,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/bremerton-wa/mold-remediation/",
-      "date": "2026-07-04",
+      "url": "https://therestorationgroup.com/service-areas/bridgewater-nj/reconstruction/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 26,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-07-04T19:43:01.306Z",
+      "sitemap_lastmod": "2026-07-18T21:06:08.777Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-04",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1751,15 +1224,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/bremerton-wa/odor-removal/",
-      "date": "2026-07-04",
+      "url": "https://therestorationgroup.com/service-areas/bridgewater-nj/sewage-cleanup/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 26,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-07-04T19:52:41.738Z",
+      "sitemap_lastmod": "2026-07-18T21:05:35.085Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-04",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1768,15 +1241,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/bremerton-wa/reconstruction/",
-      "date": "2026-07-04",
+      "url": "https://therestorationgroup.com/service-areas/bridgewater-nj/smoke-damage-restoration/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 26,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-07-04T19:45:27.908Z",
+      "sitemap_lastmod": "2026-07-18T21:05:50.086Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-04",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1785,15 +1258,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/bremerton-wa/roof-leak-repair/",
-      "date": "2026-07-04",
+      "url": "https://therestorationgroup.com/service-areas/bridgewater-nj/storm-damage-restoration/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 26,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-07-04T19:51:27.557Z",
+      "sitemap_lastmod": "2026-07-18T21:05:59.121Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-04",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1802,15 +1275,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/bremerton-wa/sewage-cleanup/",
-      "date": "2026-07-04",
+      "url": "https://therestorationgroup.com/service-areas/bridgewater-nj/water-damage-restoration/",
+      "date": "2026-07-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 26,
+      "age_days": 12,
       "flags": [],
-      "sitemap_lastmod": "2026-07-04T19:45:25.684Z",
+      "sitemap_lastmod": "2026-07-18T20:34:21.366Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-04",
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1819,114 +1292,12 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/bremerton-wa/smoke-damage-restoration/",
-      "date": "2026-07-04",
-      "date_source": "json_ld_date_modified",
-      "age_days": 26,
-      "flags": [],
-      "sitemap_lastmod": "2026-07-04T19:45:32.323Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-04",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://narestco.com/service-areas/bremerton-wa/soot-removal/",
-      "date": "2026-07-04",
-      "date_source": "json_ld_date_modified",
-      "age_days": 26,
-      "flags": [],
-      "sitemap_lastmod": "2026-07-04T19:51:24.342Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-04",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://narestco.com/service-areas/bremerton-wa/storm-damage-restoration/",
-      "date": "2026-07-04",
-      "date_source": "json_ld_date_modified",
-      "age_days": 26,
-      "flags": [],
-      "sitemap_lastmod": "2026-07-04T19:45:28.255Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-04",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://narestco.com/service-areas/bremerton-wa/trauma-scene-cleanup/",
-      "date": "2026-07-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 15,
-      "flags": [],
-      "sitemap_lastmod": "2026-07-15T05:30:04.300Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://narestco.com/service-areas/bremerton-wa/unattended-death-cleanup/",
-      "date": "2026-07-15",
-      "date_source": "json_ld_date_modified",
-      "age_days": 15,
-      "flags": [],
-      "sitemap_lastmod": "2026-07-15T05:37:26.346Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-15",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://narestco.com/service-areas/bremerton-wa/water-damage-restoration/",
-      "date": "2026-07-04",
-      "date_source": "json_ld_date_modified",
-      "age_days": 26,
-      "flags": [],
-      "sitemap_lastmod": "2026-07-04T19:42:59.939Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-04",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://narestco.com/service-areas/everett-wa/",
-      "date": "2026-05-14",
+      "url": "https://therestorationgroup.com/service-areas/brooklyn-ny/",
+      "date": "2026-07-11",
       "date_source": "sitemap_lastmod",
-      "age_days": 77,
+      "age_days": 19,
       "flags": [],
-      "sitemap_lastmod": "2026-05-14T15:05:08.247Z",
+      "sitemap_lastmod": "2026-07-11T02:45:02.634Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -1938,15 +1309,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/everett-wa/appliance-leak-cleanup/",
-      "date": "2026-05-14",
+      "url": "https://therestorationgroup.com/service-areas/brooklyn-ny/appliance-leak-cleanup/",
+      "date": "2026-07-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 77,
+      "age_days": 19,
       "flags": [],
-      "sitemap_lastmod": "2026-05-14T15:07:53.176Z",
+      "sitemap_lastmod": "2026-07-11T02:49:29.769Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-05-14",
+        "json_ld_date_modified": "2026-07-11",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1955,15 +1326,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/everett-wa/basement-flooding-cleanup/",
-      "date": "2026-05-14",
+      "url": "https://therestorationgroup.com/service-areas/brooklyn-ny/basement-flooding-cleanup/",
+      "date": "2026-07-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 77,
+      "age_days": 19,
       "flags": [],
-      "sitemap_lastmod": "2026-05-14T14:51:03.017Z",
+      "sitemap_lastmod": "2026-07-11T02:36:04.500Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-05-14",
+        "json_ld_date_modified": "2026-07-11",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1972,15 +1343,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/everett-wa/biohazard-cleanup/",
-      "date": "2026-05-14",
+      "url": "https://therestorationgroup.com/service-areas/brooklyn-ny/burst-pipe-repair/",
+      "date": "2026-07-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 77,
+      "age_days": 19,
       "flags": [],
-      "sitemap_lastmod": "2026-05-14T14:51:15.171Z",
+      "sitemap_lastmod": "2026-07-11T02:36:05.210Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-05-14",
+        "json_ld_date_modified": "2026-07-11",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1989,15 +1360,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/everett-wa/burst-pipe-repair/",
-      "date": "2026-05-14",
+      "url": "https://therestorationgroup.com/service-areas/brooklyn-ny/commercial-restoration/",
+      "date": "2026-07-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 77,
+      "age_days": 19,
       "flags": [],
-      "sitemap_lastmod": "2026-05-14T14:50:51.717Z",
+      "sitemap_lastmod": "2026-07-11T02:25:40.318Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-05-14",
+        "json_ld_date_modified": "2026-07-11",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -2006,15 +1377,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/everett-wa/crime-scene-cleanup/",
-      "date": "2026-07-15",
+      "url": "https://therestorationgroup.com/service-areas/brooklyn-ny/emergency-board-up-tarping/",
+      "date": "2026-07-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 15,
+      "age_days": 19,
       "flags": [],
-      "sitemap_lastmod": "2026-07-15T05:32:59.806Z",
+      "sitemap_lastmod": "2026-07-11T02:43:15.259Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-07-15",
+        "json_ld_date_modified": "2026-07-11",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -2023,15 +1394,15 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/everett-wa/fire-damage-restoration/",
-      "date": "2026-05-14",
+      "url": "https://therestorationgroup.com/service-areas/brooklyn-ny/fire-damage-restoration/",
+      "date": "2026-07-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 77,
+      "age_days": 19,
       "flags": [],
-      "sitemap_lastmod": "2026-05-14T04:10:51.799Z",
+      "sitemap_lastmod": "2026-07-11T02:10:42.970Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-05-14",
+        "json_ld_date_modified": "2026-07-11",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -2040,15 +1411,644 @@
       "search_signals": null
     },
     {
-      "url": "https://narestco.com/service-areas/everett-wa/flood-damage-restoration/",
-      "date": "2026-05-14",
+      "url": "https://therestorationgroup.com/service-areas/brooklyn-ny/flood-damage-restoration/",
+      "date": "2026-07-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 77,
+      "age_days": 19,
       "flags": [],
-      "sitemap_lastmod": "2026-05-14T04:18:26.360Z",
+      "sitemap_lastmod": "2026-07-11T02:24:46.960Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-05-14",
+        "json_ld_date_modified": "2026-07-11",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/brooklyn-ny/general-contracting/",
+      "date": "2026-07-11",
+      "date_source": "json_ld_date_modified",
+      "age_days": 19,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-11T02:36:03.409Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-11",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/brooklyn-ny/mold-inspection-testing/",
+      "date": "2026-07-11",
+      "date_source": "json_ld_date_modified",
+      "age_days": 19,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-11T02:36:09.711Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-11",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/brooklyn-ny/mold-remediation/",
+      "date": "2026-07-11",
+      "date_source": "json_ld_date_modified",
+      "age_days": 19,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-11T02:10:36.868Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-11",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/brooklyn-ny/odor-removal/",
+      "date": "2026-07-11",
+      "date_source": "json_ld_date_modified",
+      "age_days": 19,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-11T02:42:56.624Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-11",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/brooklyn-ny/reconstruction/",
+      "date": "2026-07-11",
+      "date_source": "json_ld_date_modified",
+      "age_days": 19,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-11T02:25:41.613Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-11",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/brooklyn-ny/sewage-cleanup/",
+      "date": "2026-07-11",
+      "date_source": "json_ld_date_modified",
+      "age_days": 19,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-11T02:24:55.611Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-11",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/brooklyn-ny/smoke-damage-restoration/",
+      "date": "2026-07-11",
+      "date_source": "json_ld_date_modified",
+      "age_days": 19,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-11T02:25:38.040Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-11",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/brooklyn-ny/storm-damage-restoration/",
+      "date": "2026-07-11",
+      "date_source": "json_ld_date_modified",
+      "age_days": 19,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-11T02:25:35.606Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-11",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/brooklyn-ny/water-damage-restoration/",
+      "date": "2026-07-11",
+      "date_source": "json_ld_date_modified",
+      "age_days": 19,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-11T02:10:44.633Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-11",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/clark-nj/",
+      "date": "2026-07-18",
+      "date_source": "sitemap_lastmod",
+      "age_days": 12,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-18T21:47:05.878Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/clark-nj/appliance-leak-cleanup/",
+      "date": "2026-07-18",
+      "date_source": "json_ld_date_modified",
+      "age_days": 12,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-18T21:52:19.568Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-18",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/clark-nj/basement-flooding-cleanup/",
+      "date": "2026-07-18",
+      "date_source": "json_ld_date_modified",
+      "age_days": 12,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-18T21:16:02.995Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-18",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/clark-nj/burst-pipe-repair/",
+      "date": "2026-07-18",
+      "date_source": "json_ld_date_modified",
+      "age_days": 12,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-18T21:16:04.134Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-18",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/clark-nj/commercial-restoration/",
+      "date": "2026-07-18",
+      "date_source": "json_ld_date_modified",
+      "age_days": 12,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-18T20:43:31.738Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-18",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/clark-nj/emergency-board-up-tarping/",
+      "date": "2026-07-18",
+      "date_source": "json_ld_date_modified",
+      "age_days": 12,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-18T21:37:00.358Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-18",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/clark-nj/fire-damage-restoration/",
+      "date": "2026-07-18",
+      "date_source": "json_ld_date_modified",
+      "age_days": 12,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-18T20:23:03.755Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-18",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/clark-nj/flood-damage-restoration/",
+      "date": "2026-07-18",
+      "date_source": "json_ld_date_modified",
+      "age_days": 12,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-18T20:43:12.080Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-18",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/clark-nj/general-contracting/",
+      "date": "2026-07-18",
+      "date_source": "json_ld_date_modified",
+      "age_days": 12,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-18T21:16:09.741Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-18",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/clark-nj/mold-inspection-testing/",
+      "date": "2026-07-18",
+      "date_source": "json_ld_date_modified",
+      "age_days": 12,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-18T21:16:05.126Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-18",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/clark-nj/mold-remediation/",
+      "date": "2026-07-18",
+      "date_source": "json_ld_date_modified",
+      "age_days": 12,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-18T20:23:04.732Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-18",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/clark-nj/odor-removal/",
+      "date": "2026-07-18",
+      "date_source": "json_ld_date_modified",
+      "age_days": 12,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-18T21:36:57.322Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-18",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/clark-nj/reconstruction/",
+      "date": "2026-07-18",
+      "date_source": "json_ld_date_modified",
+      "age_days": 12,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-18T20:43:45.175Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-18",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/clark-nj/sewage-cleanup/",
+      "date": "2026-07-18",
+      "date_source": "json_ld_date_modified",
+      "age_days": 12,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-18T20:43:20.111Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-18",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/clark-nj/smoke-damage-restoration/",
+      "date": "2026-07-18",
+      "date_source": "json_ld_date_modified",
+      "age_days": 12,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-18T20:43:19.961Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-18",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/clark-nj/storm-damage-restoration/",
+      "date": "2026-07-18",
+      "date_source": "json_ld_date_modified",
+      "age_days": 12,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-18T20:43:37.090Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-18",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/clark-nj/water-damage-restoration/",
+      "date": "2026-07-18",
+      "date_source": "json_ld_date_modified",
+      "age_days": 12,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-18T20:23:03.708Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-18",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/clifton-nj/",
+      "date": "2026-07-18",
+      "date_source": "sitemap_lastmod",
+      "age_days": 12,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-18T21:50:41.204Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/clifton-nj/appliance-leak-cleanup/",
+      "date": "2026-07-18",
+      "date_source": "json_ld_date_modified",
+      "age_days": 12,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-18T21:56:29.892Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-18",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/clifton-nj/basement-flooding-cleanup/",
+      "date": "2026-07-18",
+      "date_source": "json_ld_date_modified",
+      "age_days": 12,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-18T21:31:52.744Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-18",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/clifton-nj/burst-pipe-repair/",
+      "date": "2026-07-18",
+      "date_source": "json_ld_date_modified",
+      "age_days": 12,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-18T21:31:35.492Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-18",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/clifton-nj/commercial-restoration/",
+      "date": "2026-07-18",
+      "date_source": "json_ld_date_modified",
+      "age_days": 12,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-18T21:07:57.894Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-18",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/clifton-nj/emergency-board-up-tarping/",
+      "date": "2026-07-18",
+      "date_source": "json_ld_date_modified",
+      "age_days": 12,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-18T21:44:53.708Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-18",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/clifton-nj/fire-damage-restoration/",
+      "date": "2026-07-18",
+      "date_source": "json_ld_date_modified",
+      "age_days": 12,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-18T20:35:13.116Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-18",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/clifton-nj/flood-damage-restoration/",
+      "date": "2026-07-18",
+      "date_source": "json_ld_date_modified",
+      "age_days": 12,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-18T21:07:03.829Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-18",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/clifton-nj/general-contracting/",
+      "date": "2026-07-18",
+      "date_source": "json_ld_date_modified",
+      "age_days": 12,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-18T21:32:11.520Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-18",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/clifton-nj/mold-inspection-testing/",
+      "date": "2026-07-18",
+      "date_source": "json_ld_date_modified",
+      "age_days": 12,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-18T21:31:58.045Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-18",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://therestorationgroup.com/service-areas/clifton-nj/mold-remediation/",
+      "date": "2026-07-18",
+      "date_source": "json_ld_date_modified",
+      "age_days": 12,
+      "flags": [],
+      "sitemap_lastmod": "2026-07-18T20:35:09.672Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-07-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
