@@ -520,6 +520,29 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
         except Exception:
             pass
 
+        # ---- LSA follow-THROUGH (Santino 2026-07-30): a "Yes, wants LSA"
+        # click in Ops Attention must surface the setup work, not vanish.
+        # Santino runs LSA setup personally — us_owed, never a Monica ask.
+        try:
+            li = (ints.get("lsa_intent") or {}) if isinstance(ints, dict) else {}
+            lsa_done = bool((ints.get("lsa") or {}).get("setup_done")
+                            or (ints.get("lsa") or {}).get("customer_id"))
+            if li.get("answer") == "yes" and not lsa_done:
+                rows.append({"company_id": cid, "item_key": "lsa-setup",
+                             "kind": "us_owed", "status": "open",
+                             "title": "Wants Local Services Ads — setup not started",
+                             "detail": "Santino runs this conversation personally "
+                                       f"(marked YES {str(li.get('decided_at') or '')[:10]}). "
+                                       "Mark integration_settings.lsa.setup_done when live.",
+                             "evidence": {"decided_at": li.get("decided_at")}})
+            elif li.get("answer") == "yes" and lsa_done:
+                rows.append({"company_id": cid, "item_key": "lsa-setup",
+                             "kind": "us_owed", "status": "done",
+                             "title": "Local Services Ads: set up",
+                             "detail": None, "evidence": {}})
+        except Exception:
+            pass
+
         _upsert(rows, dry_run)
 
     return attention
