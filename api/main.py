@@ -24,7 +24,7 @@ import threading
 import urllib.error
 import urllib.parse
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 from fastapi import FastAPI, HTTPException, Depends, Request
 from fastapi.middleware.cors import CORSMiddleware
@@ -883,27 +883,89 @@ def _run_lead_audit_job(job_id: str, req: "LeadAuditRequest"):
         }).eq("id", job_id).execute()
         # A silently failed lead audit = a hot lead with no report (Chris
         # Morrow sat unnoticed ~20h, 2026-07-23). Always tell the team.
+        _notify_lead_audit_failure(job_id, req, str(e)[:300])
+
+
+def _notify_lead_audit_failure(job_id: str, req: "LeadAuditRequest", error: str):
+    """Best-effort team email — the job status row remains the record."""
+    try:
+        sg = os.environ.get("SENDGRID_API_KEY", "")
+        if not sg:
+            return
+        body = json.dumps({
+            "personalizations": [{"to": [{"email": "contact@restorationai.io"}]}],
+            "from": {"email": "contact@restorationai.io"},
+            "subject": "[Rank AI] Lead audit FAILED: {} ({})".format(
+                req.name or req.business_name or "unknown", req.email),
+            "content": [{"type": "text/plain", "value":
+                "Lead audit job {} failed.\n\nLead: {} <{}> {}\n"
+                "Website: {}\nBusiness: {}\nError: {}\n\n"
+                "The lead got NO report — follow up or re-run manually.".format(
+                    job_id, req.name, req.email, req.phone,
+                    req.website or req.domain, req.business_name, error)}]})
+        urllib.request.urlopen(urllib.request.Request(
+            "https://api.sendgrid.com/v3/mail/send", method="POST",
+            data=body.encode(),
+            headers={"Authorization": "Bearer " + sg,
+                     "Content-Type": "application/json"}), timeout=20)
+    except Exception:
+        pass  # notification is best-effort
+
+
+def _recover_orphaned_lead_audits():
+    """Boot-time crash recovery (Santino 2026-07-30): a Railway deploy kills
+    in-flight audit threads, leaving jobs stuck 'queued'/'running' forever —
+    a hot lead with no report and no alert (Andrew Gomez, 2026-07-28). On
+    startup: retry each orphan once; on the second orphaning, mark failed and
+    send the existing failure email so a human follows up."""
+    import time as _t
+    _t.sleep(10)  # let the app finish booting before burning CPU on audits
+    try:
+        client = sb()
+        cutoff = (datetime.now(timezone.utc) - timedelta(hours=48)).isoformat()
+        rows = (client.table("marketing_jobs").select("id, params, status")
+                .eq("type", "lead_audit").in_("status", ["queued", "running"])
+                .gte("created_at", cutoff).execute().data) or []
+    except Exception as e:  # noqa: BLE001
+        print("[lead-audit recovery] scan failed:", str(e)[:150])
+        return
+    for row in rows:
+        p = row.get("params") or {}
+        attempts = int(p.get("attempts") or 0)
+        req = LeadAuditRequest(
+            website=p.get("domain") or "", domain=p.get("domain") or "",
+            name=p.get("name") or "", email=p.get("email") or "",
+            phone=p.get("phone") or "",
+            business_name=p.get("business_name") or "",
+            place_id=p.get("place_id") or "", cid=p.get("cid") or "",
+            source="funnel-recovery" if p.get("sales") else "", secret="")
+        if attempts >= 1:
+            print(f"[lead-audit recovery] {row['id']}: died twice — marking failed")
+            try:
+                client.table("marketing_jobs").update({
+                    "status": "failed",
+                    "completed_at": datetime.now(timezone.utc).isoformat(),
+                    "error": "orphaned by deploy twice — needs manual re-run",
+                }).eq("id", row["id"]).execute()
+            except Exception:
+                pass
+            _notify_lead_audit_failure(row["id"], req,
+                                       "audit thread killed by deploys twice")
+            continue
+        print(f"[lead-audit recovery] {row['id']}: re-running (attempt 2)")
         try:
-            sg = os.environ.get("SENDGRID_API_KEY", "")
-            if sg:
-                body = json.dumps({
-                    "personalizations": [{"to": [{"email": "contact@restorationai.io"}]}],
-                    "from": {"email": "contact@restorationai.io"},
-                    "subject": "[Rank AI] Lead audit FAILED: {} ({})".format(
-                        req.name or req.business_name or "unknown", req.email),
-                    "content": [{"type": "text/plain", "value":
-                        "Lead audit job {} failed.\n\nLead: {} <{}> {}\n"
-                        "Website: {}\nBusiness: {}\nError: {}\n\n"
-                        "The lead got NO report — follow up or re-run manually.".format(
-                            job_id, req.name, req.email, req.phone,
-                            req.website or req.domain, req.business_name, str(e)[:300])}]})
-                urllib.request.urlopen(urllib.request.Request(
-                    "https://api.sendgrid.com/v3/mail/send", method="POST",
-                    data=body.encode(),
-                    headers={"Authorization": "Bearer " + sg,
-                             "Content-Type": "application/json"}), timeout=20)
+            p["attempts"] = attempts + 1
+            client.table("marketing_jobs").update(
+                {"params": p, "status": "queued"}).eq("id", row["id"]).execute()
         except Exception:
-            pass  # notification is best-effort; the job status is the record
+            pass
+        threading.Thread(target=_run_lead_audit_job,
+                         args=(row["id"], req), daemon=True).start()
+
+
+@app.on_event("startup")
+def _lead_audit_recovery_on_boot():
+    threading.Thread(target=_recover_orphaned_lead_audits, daemon=True).start()
 
 
 @app.post("/lead-audit")
@@ -950,7 +1012,9 @@ def create_lead_audit(req: LeadAuditRequest, request: Request):
         "params": {"domain": domain, "name": req.name, "email": req.email,
                    "phone": req.phone, "ip": ip, "source": "rank.restorationai.io",
                    "business_name": req.business_name or None,
-                   "place_id": req.place_id or None, "cid": req.cid or None},
+                   "place_id": req.place_id or None, "cid": req.cid or None,
+                   # sales flag + attempt counter drive boot-time crash recovery
+                   "sales": bool(req.source), "attempts": 0},
     }).execute()
     job_id = row.data[0]["id"]
 
