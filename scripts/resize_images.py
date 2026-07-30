@@ -118,6 +118,10 @@ SITES = {
         "bucket": "rankai-quality-contracting-inc",
         "images_base": "https://images.qualitycontracting.pending",
     },
+    "coastal-restoration-services": {
+        "bucket": "rankai-coastal-restoration-services",
+        "images_base": "https://images.coastalrestoration.pending",
+    },
 }
 
 # R2 keys every site may have; 404s are skipped gracefully.

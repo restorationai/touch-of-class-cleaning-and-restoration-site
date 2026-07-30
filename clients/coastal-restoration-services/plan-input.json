@@ -3,6 +3,185 @@
   "display_name": "Coastal Restoration Services Inc",
   "place_id": "ChIJgb6Gdhxh4wYRjbzm6ELYT38",
   "lat": 34.9531295,
-  "lng": -120.435857
- }
+  "lng": -120.435857,
+  "phone": "(805) 345-7440",
+  "email": "tony@callcrs.com",
+  "street_address": "217 E Fesler St",
+  "city": "Santa Maria ",
+  "state": "ca",
+  "postal_code": "93454",
+  "theme": "light"
+ },
+ "services": [
+  "water-damage-restoration",
+  "storm-damage-restoration",
+  "fire-damage-restoration",
+  "sewage-cleanup",
+  "emergency-board-up-tarping",
+  "mold-remediation",
+  "biohazard-cleanup",
+  "contents-restoration",
+  "crawl-space-encapsulation",
+  "post-construction-cleaning"
+ ],
+ "service_areas": [
+  {
+   "city": "Vandenberg Village",
+   "state": "CA",
+   "slug": "vandenberg-village-ca",
+   "primary": true
+  },
+  {
+   "city": "Santa Maria",
+   "state": "CA",
+   "slug": "santa-maria-ca"
+  },
+  {
+   "city": "Orcutt",
+   "state": "CA",
+   "slug": "orcutt-ca"
+  },
+  {
+   "city": "Los Alamos",
+   "state": "CA",
+   "slug": "los-alamos-ca"
+  },
+  {
+   "city": "Lompoc",
+   "state": "CA",
+   "slug": "lompoc-ca"
+  },
+  {
+   "city": "Los Olivos",
+   "state": "CA",
+   "slug": "los-olivos-ca"
+  },
+  {
+   "city": "Mission Hills",
+   "state": "CA",
+   "slug": "mission-hills-ca"
+  },
+  {
+   "city": "Santa Ynez",
+   "state": "CA",
+   "slug": "santa-ynez-ca"
+  },
+  {
+   "city": "Solvang",
+   "state": "CA",
+   "slug": "solvang-ca"
+  },
+  {
+   "city": "Vandenberg AFB",
+   "state": "CA",
+   "slug": "vandenberg-afb-ca"
+  },
+  {
+   "city": "Guadalupe",
+   "state": "CA",
+   "slug": "guadalupe-ca"
+  },
+  {
+   "city": "Buellton",
+   "state": "CA",
+   "slug": "buellton-ca"
+  },
+  {
+   "city": "Ballard",
+   "state": "CA",
+   "slug": "ballard-ca"
+  },
+  {
+   "city": "Arroyo Grande",
+   "state": "CA",
+   "slug": "arroyo-grande-ca"
+  },
+  {
+   "city": "Avila Beach",
+   "state": "CA",
+   "slug": "avila-beach-ca"
+  },
+  {
+   "city": "Cambria",
+   "state": "CA",
+   "slug": "cambria-ca"
+  },
+  {
+   "city": "El Paso de Robles",
+   "state": "CA",
+   "slug": "el-paso-de-robles-ca"
+  },
+  {
+   "city": "Grover Beach",
+   "state": "CA",
+   "slug": "grover-beach-ca"
+  },
+  {
+   "city": "Los Berros",
+   "state": "CA",
+   "slug": "los-berros-ca"
+  },
+  {
+   "city": "Nipomo",
+   "state": "CA",
+   "slug": "nipomo-ca"
+  },
+  {
+   "city": "Oceano",
+   "state": "CA",
+   "slug": "oceano-ca"
+  },
+  {
+   "city": "San Luis Obispo",
+   "state": "CA",
+   "slug": "san-luis-obispo-ca"
+  },
+  {
+   "city": "Templeton",
+   "state": "CA",
+   "slug": "templeton-ca"
+  },
+  {
+   "city": "Santa Margarita",
+   "state": "CA",
+   "slug": "santa-margarita-ca"
+  },
+  {
+   "city": "Pismo Beach",
+   "state": "CA",
+   "slug": "pismo-beach-ca"
+  },
+  {
+   "city": "Morro Bay",
+   "state": "CA",
+   "slug": "morro-bay-ca"
+  },
+  {
+   "city": "Los Osos",
+   "state": "CA",
+   "slug": "los-osos-ca"
+  },
+  {
+   "city": "Edna",
+   "state": "CA",
+   "slug": "edna-ca"
+  },
+  {
+   "city": "Callender",
+   "state": "CA",
+   "slug": "callender-ca"
+  },
+  {
+   "city": "Blacklake",
+   "state": "CA",
+   "slug": "blacklake-ca"
+  },
+  {
+   "city": "Atascadero",
+   "state": "CA",
+   "slug": "atascadero-ca"
+  }
+ ],
+ "template": "restoration",
+ "blog_seed_count": 8
 }
