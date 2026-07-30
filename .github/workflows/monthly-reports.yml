@@ -39,11 +39,15 @@ jobs:
         run: |
           python3 -c "
           import json, pathlib, subprocess, sys
+          from datetime import date, timedelta
+          # Runs on the 1st — report on the month that just COMPLETED, not the
+          # nine-hour-old current month (July 2026 published as '0 posts' bug).
+          period = (date.today().replace(day=1) - timedelta(days=1)).strftime('%Y-%m')
           for p in sorted(pathlib.Path('clients').glob('*.json')):
               c = json.loads(p.read_text())
               if c.get('status') == 'active':
                   slug = c['slug']
-                  rc = subprocess.call(['python3', 'scripts/client_report.py', 'publish', '--slug', slug])
+                  rc = subprocess.call(['python3', 'scripts/client_report.py', 'publish', '--slug', slug, '--period', period])
                   if rc != 0:
                       print(f'WARNING: publish failed for {slug} (rc={rc})', file=sys.stderr)
           "
