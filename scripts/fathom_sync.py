@@ -37,8 +37,13 @@ import requests
 
 sys.path.insert(0, str(Path(__file__).parent))
 from client_concierge import (  # noqa: E402
-    ROOT, anthropic_json, fetch_companies, kv_get, kv_set, load_env,
+    ROOT, _sb, anthropic_json, fetch_companies, kv_get, kv_set, load_env,
 )
+
+
+def sb_insert_note(company_id: str, body: str) -> None:
+    _sb("POST", "/rest/v1/marketing_ops_notes",
+        body={"company_id": company_id, "body": body})
 
 STATE_PATH = ROOT / "clients" / "_ops" / "fathom-sync-state.json"
 INTEL_DIR = ROOT / "clients" / "_ops" / "meeting-intel"
@@ -68,6 +73,27 @@ Omit empty sections. No preamble. Facts only — never invent.
 Return ONLY JSON: {"intel": string, "ghl_note": string}
 ghl_note = 3-6 plain sentences for the client's CRM record (what was covered,
 what's next), no markdown, no links."""
+
+# Call -> PROPOSED work items (Santino 2026-07-30: the listener should turn
+# call content into trackable work — but auto-EXECUTION from a transcript is
+# too fragile, so it emits PROPOSALS that a human approves in the Today tab).
+EXTRACT_SYSTEM = """\
+From this meeting summary, extract ONLY concrete, explicitly-requested work
+items — things the client clearly asked us to do or we clearly committed to.
+
+Two types:
+- "dev"     = website/build changes (add a badge, change a section, add
+              pages, swap images, write specific content)
+- "santino" = things only Santino can personally do (calls, approvals,
+              account access, pricing conversations)
+
+STRICT RULES:
+- Only items EXPLICITLY requested or committed to. Ideas merely floated,
+  maybes, or things "to think about" are NOT items.
+- Each item: one sentence, concrete enough to act on, quoting the client's
+  ask where possible.
+- Max 5 items. Usually a call has 0-2. An empty list is a good answer.
+Return ONLY JSON: {"items": [{"type": "dev"|"santino", "task": string}]}"""
 
 
 def load_state() -> dict:
@@ -197,6 +223,27 @@ def cmd_sync(args) -> int:
                     print(f"    GHL note added on contact {cid}")
                 except RuntimeError as e:
                     print(f"    ! GHL note failed: {e}", file=sys.stderr)
+        # Proposed work items -> Ops Attention Today tab for one-click
+        # approval (never auto-executed; humans confirm, the dev agent acts).
+        try:
+            ext = anthropic_json(
+                EXTRACT_SYSTEM,
+                f"Client: {company.get('name')}\nMeeting: {title} on {when}\n\n"
+                f"Summary:\n{summary_md[:9000]}")
+            for item in (ext.get("items") or [])[:5]:
+                task = str(item.get("task") or "").strip()
+                if not task:
+                    continue
+                tag = "[DEV-PROPOSED]" if item.get("type") == "dev" else "[TODO-PROPOSED]"
+                body = (f"{tag} {task} (from call: {title}, {when} — "
+                        "approve or dismiss in Today)")
+                if dry_run:
+                    print(f"    [dry-run] would propose: {body[:140]}")
+                else:
+                    sb_insert_note(company["id"], body)
+                    print(f"    proposed -> {body[:110]}")
+        except Exception as e:  # noqa: BLE001 — proposals are best-effort
+            print(f"    ! task extraction failed: {str(e)[:120]}", file=sys.stderr)
         state["processed"][rid] = slug
 
     if not dry_run:
