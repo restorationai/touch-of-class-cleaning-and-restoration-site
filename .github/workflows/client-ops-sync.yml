@@ -78,6 +78,14 @@ jobs:
           # started" row flips itself. Advisory — never fails the ops run.
           python3 scripts/lsa_detect.py || true
 
+      - name: Backlink targets (seed new clients + live-link check)
+        env:
+          SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          python3 scripts/backlinks.py seed || true
+          python3 scripts/backlinks.py check || true
+
       - name: Refresh Search Console data (app Reports tab)
         env:
           SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
