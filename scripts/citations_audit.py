@@ -57,6 +57,12 @@ PLATFORMS = {
     # Free application, AI-answer-cited listicles; we apply on the client's
     # behalf (us_create in the ledger, unlike the owner-identity platforms).
     "expertise": ("expertise.com", "Expertise.com"),
+    # Round-out set (Santino 2026-07-31) — matches the app's Connect tab.
+    "nextdoor": ("nextdoor.com", "Nextdoor"),
+    "houzz": ("houzz.com", "Houzz"),
+    "porch": ("porch.com", "Porch"),
+    "homeguide": ("homeguide.com", "HomeGuide"),
+    "yellowpages": ("yellowpages.com", "YellowPages"),
 }
 
 PHONE_RE = re.compile(r"\(?\b(\d{3})\)?[-.\s]?(\d{3})[-.\s]?(\d{4})\b")

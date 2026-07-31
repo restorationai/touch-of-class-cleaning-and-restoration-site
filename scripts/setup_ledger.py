@@ -534,12 +534,18 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                         "bbb": "BBB", "thumbtack": "Thumbtack",
                         "angi": "Angi (free claim only — never Angi Ads/Leads)",
                         "facebook": "Facebook", "yelp": "Yelp",
-                        "expertise": "Expertise.com application"}
+                        "expertise": "Expertise.com application",
+                        "houzz": "Houzz", "porch": "Porch",
+                        "homeguide": "HomeGuide", "nextdoor": "Nextdoor",
+                        "yellowpages": "YellowPages"}
+                # Split mirrors the app's owner badges: us = no owner identity
+                # needed; client = owner claim / phone verification required.
                 us_create = [_lbl[k] for k in ("bing_places", "apple_maps", "bbb",
-                                               "expertise")
+                                               "expertise", "houzz", "porch",
+                                               "homeguide")
                              if k in _missing]
                 client_create = [_lbl[k] for k in ("yelp", "facebook", "thumbtack",
-                                                   "angi")
+                                                   "angi", "nextdoor", "yellowpages")
                                  if k in _missing]
                 rows.append({"company_id": cid, "item_key": "citations", "kind": "client_owed",
                              "status": "open" if (n_disc or client_create) else "done",
