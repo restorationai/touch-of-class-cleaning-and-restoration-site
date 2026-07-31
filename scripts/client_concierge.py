@@ -1914,6 +1914,54 @@ def resolve_plan_row(row_id: str, dry_run: bool) -> None:
         {"status": "resolved"}, prefer="return=minimal")
 
 
+# ---------------------------------------------------------- advice loop
+# (Santino 2026-07-30: "can Monica come to me for advice on what to say?").
+# Every escalation also TEXTS Santino; his reply (caught by the inbound
+# poll) becomes an ops note the next compose treats as instructions.
+ADVICE_CONTACT_ID = os.environ.get("OPS_ADVICE_CONTACT_ID", "MIJ5Jm4sobdzSRtnYSzU")
+ADVICE_PHONE = os.environ.get("OPS_ADVICE_PHONE", "+18089891078")
+_ADVICE_SENT_THIS_RUN = {"n": 0}
+
+ADVICE_MATCH_SYSTEM = """\
+Santino (the boss) was texted one or more open questions about clients. He
+just replied. Decide which open question his reply answers and restate his
+instruction plainly for the assistant to act on.
+Return ONLY JSON: {"index": <int index of the question answered, or null if
+his reply clearly is not an answer to any of them>, "instruction": "<his
+directive, restated as a clear instruction, keeping any links exactly>"}"""
+
+
+def _advice_requests() -> list:
+    return kv_get("advice-requests") or []
+
+
+def ask_santino_for_advice(company: dict, reason: str, dry_run: bool) -> None:
+    if _ADVICE_SENT_THIS_RUN["n"] >= 5:
+        return  # never blow up his phone in one pass
+    reqs = _advice_requests()
+    for r in reqs:
+        if (r.get("status") == "open" and r.get("company_id") == company.get("id")
+                and r.get("reason", "")[:60] == reason[:60]):
+            return  # already asked, still waiting
+    if dry_run:
+        print(f"    [dry-run] would text Santino for advice: {reason[:80]}")
+        return
+    body = (f"Monica here. Need your call on {company.get('name', '?')}: "
+            f"{reason[:300]} Reply with what to do and I'll take it from there.")
+    try:
+        send_message({"id": ADVICE_CONTACT_ID, "phone": ADVICE_PHONE}, "sms", body)
+        _ADVICE_SENT_THIS_RUN["n"] += 1
+        reqs.append({"company_id": company.get("id"),
+                     "company_name": company.get("name"),
+                     "reason": reason[:300],
+                     "asked_at": datetime.now(timezone.utc).isoformat(),
+                     "status": "open"})
+        kv_set("advice-requests", reqs)
+        print("    advice request texted to Santino")
+    except SendBlocked as e:
+        print(f"    advice SMS blocked: {e}")
+
+
 def append_escalation(company: dict, msg: dict | None, reason: str,
                       dry_run: bool, ping: bool = True) -> None:
     """Append one escalation block. msg is the triggering inbound message when
@@ -1926,6 +1974,7 @@ def append_escalation(company: dict, msg: dict | None, reason: str,
              + f"- Reason: {reason}\n")
     if ping:
         _OPS_PINGS.append((company.get("name", "?"), reason))
+        ask_santino_for_advice(company, reason, dry_run)
     if dry_run:
         print(f"    [dry-run] would append escalation:{block}")
         return
@@ -2372,6 +2421,46 @@ def cmd_inbound(args) -> int:
                         record_sent_message(state, sent)
                     except SendBlocked as e:
                         print(f"    SEND BLOCKED: {e}")
+
+    # ---- advice replies from Santino -> ops notes (the loop closes here)
+    reqs = _advice_requests()
+    open_reqs = [r for r in reqs if r.get("status") == "open"]
+    if open_reqs:
+        try:
+            adv_msgs = fetch_history(ADVICE_CONTACT_ID, max_msgs=10)
+            new_replies = [m for m in adv_msgs
+                           if m.get("direction") == "in" and m.get("when")
+                           and m["when"] > since]
+            for m in reversed(new_replies):
+                match = anthropic_json(
+                    ADVICE_MATCH_SYSTEM,
+                    "Open questions:\n" + "\n".join(
+                        f"{i}: [{r.get('company_name')}] {r.get('reason', '')[:140]}"
+                        for i, r in enumerate(open_reqs))
+                    + f"\n\nSantino's reply: {m.get('body', '')[:500]}")
+                idx = match.get("index")
+                instr = (match.get("instruction") or m.get("body") or "").strip()
+                if idx is None or not (0 <= int(idx) < len(open_reqs)) or not instr:
+                    continue
+                req = open_reqs[int(idx)]
+                print(f"  [advice] Santino answered re {req.get('company_name')}: {instr[:100]}")
+                if not dry_run:
+                    _sb("POST", "/rest/v1/marketing_ops_notes", body={
+                        "company_id": req["company_id"],
+                        "body": f"[FROM SANTINO via SMS] {instr} "
+                                f"(answering: {req.get('reason', '')[:120]})"})
+                    req["status"] = "answered"
+                    req["answered_at"] = datetime.now(timezone.utc).isoformat()
+                    kv_set("advice-requests", reqs)
+                    if args.send:
+                        try:
+                            send_message({"id": ADVICE_CONTACT_ID, "phone": ADVICE_PHONE},
+                                         "sms",
+                                         f"Got it, noted for {req.get('company_name')}. I'll handle it on my next pass.")
+                        except SendBlocked:
+                            pass
+        except Exception as e:  # noqa: BLE001 — advice loop must never break the poll
+            print(f"  [advice] reply processing failed: {str(e)[:120]}")
 
     if not handled_any:
         print("  no new inbound messages for tracked contacts.")
