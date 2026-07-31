@@ -157,6 +157,48 @@ def _gsc_heal(domain: str, slug: str) -> str:
     return " ".join(msgs)
 
 
+def _check_doc_uploads(cid: str, name: str, dry_run: bool) -> None:
+    """Client hub document uploads -> a [TODO-SANTINO] note that persists in
+    Today until dismissed (Santino 2026-07-31: Curt's Home Pride insurance
+    PDF sat unseen in storage for a day because nothing announced it).
+    Seen-state lives in ops_kv 'docs-seen' so each file alerts exactly once."""
+    sb_key = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
+    r = requests.post(f"{os.environ['SUPABASE_URL']}/storage/v1/object/list/branding",
+                      headers={"apikey": sb_key, "Authorization": f"Bearer {sb_key}",
+                               "Content-Type": "application/json"},
+                      json={"prefix": f"{cid}/docs/", "limit": 100}, timeout=30)
+    if not r.ok:
+        return
+    paths: list[str] = []
+    for folder in [f.get("name") for f in r.json() if f.get("name")]:
+        rf = requests.post(f"{os.environ['SUPABASE_URL']}/storage/v1/object/list/branding",
+                           headers={"apikey": sb_key, "Authorization": f"Bearer {sb_key}",
+                                    "Content-Type": "application/json"},
+                           json={"prefix": f"{cid}/docs/{folder}/", "limit": 100}, timeout=30)
+        if rf.ok:
+            paths += [f"{folder}/{f['name']}" for f in rf.json() if f.get("name")]
+    if not paths:
+        return
+    seen_rows = _sb("GET", "/rest/v1/ops_kv?k=eq.docs-seen&select=v") or []
+    seen = set((seen_rows[0].get("v") or []) if seen_rows else [])
+    new = [p for p in paths if f"{cid}/{p}" not in seen]
+    if not new:
+        return
+    # De-duplicate retry uploads of the same document (timestamp prefixes vary)
+    base = sorted({re.sub(r"^\d+-", "", p.split("/")[-1]) for p in new})
+    if not dry_run:
+        _sb("POST", "/rest/v1/marketing_ops_notes", [{
+            "company_id": cid,
+            "body": f"[TODO-SANTINO] {name} uploaded {len(base)} document(s) via "
+                    f"their hub link: {', '.join(base)[:200]} — stored under "
+                    f"docs/{new[0].split('/')[0]}. Review and use it, then hit Done."}])
+        seen.update(f"{cid}/{p}" for p in new)
+        _sb("POST", "/rest/v1/ops_kv?on_conflict=k",
+            {"k": "docs-seen", "v": sorted(seen)},
+            prefer="resolution=merge-duplicates,return=minimal")
+    print(f"  [{cid}] new client document upload(s): {', '.join(base)[:120]}")
+
+
 def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
     """Evaluate the ledger for every Active Rank AI client. Returns attention
     lines (us-owed gaps) for the nightly ops email."""
@@ -551,6 +593,12 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                              "kind": "us_owed", "status": "done",
                              "title": "Local Services Ads: set up",
                              "detail": None, "evidence": {}})
+        except Exception:
+            pass
+
+        # ---- Client hub document uploads -> Today (persists until Done)
+        try:
+            _check_doc_uploads(cid, co.get("name") or slug, dry_run)
         except Exception:
             pass
 
