@@ -235,6 +235,25 @@ def _sb_upsert(table: str, rows: list, on_conflict: str) -> None:
     r.raise_for_status()
 
 
+def log_change(cid: str | None, change_type: str, summary: str,
+               actor: str = "automation", meta: dict | None = None) -> None:
+    """Change-log (Santino 2026-07-31): every GBP change we make lands in
+    marketing_gbp_changes — client-visible proof of work in Reports and the
+    source for monthly summaries. Best-effort; never fails the change."""
+    if not cid:
+        return
+    try:
+        requests.post(
+            f"{SB_URL}/rest/v1/marketing_gbp_changes",
+            headers={"apikey": SB_KEY, "Authorization": f"Bearer {SB_KEY}",
+                     "Content-Type": "application/json", "Prefer": "return=minimal"},
+            data=json.dumps({"company_id": cid, "change_type": change_type,
+                             "summary": summary[:300], "actor": actor,
+                             "meta": meta or {}}), timeout=15)
+    except Exception:
+        pass
+
+
 def _sb_patch(table: str, match: str, body: dict) -> None:
     r = requests.patch(
         f"{SB_URL}/rest/v1/{table}?{match}",
@@ -564,6 +583,9 @@ def set_phone(slug: str) -> str:
                        data=json.dumps(body), timeout=60)
     if not r.ok:
         return f"{slug}: PATCH failed {r.status_code}: {r.text[:200]}"
+    log_change(cid, "phone",
+               "Call-tracking number set as primary phone on the Google listing",
+               actor="agency")
     return (f"{slug}: GBP primary phone -> {tracking} (tracking), "
             f"real {real} moved to additional")
 
@@ -686,6 +708,9 @@ def add_services(slug: str, services: list) -> str:
     now_have = {((s.get("freeFormServiceItem", {}) or {}).get("label", {}) or {}).get("displayName", "").strip().lower()
                 for s in back.get("serviceItems", []) if "freeFormServiceItem" in s}
     confirmed = [s for s in added if s.lower() in now_have]
+    for s in confirmed:
+        log_change(cid, "service_add", f"Service added to Google listing: {s}",
+                   actor="optimizer")
     return f"{slug}: added {len(confirmed)}/{len(added)} -> {confirmed} (listing now has {len(back.get('serviceItems', []))} services)"
 
 
@@ -958,6 +983,9 @@ def _suggest_description(cid: str, slug: str, loc: dict, g: dict,
         if r.status_code == 200:
             requests.patch(f"{SB_URL}/rest/v1/marketing_gbp_profiles?company_id=eq.{cid}",
                            headers=hdrs, data=json.dumps({"description": desc}), timeout=30)
+            log_change(cid, "description",
+                       f"Business description written ({len(desc)} chars — was empty)",
+                       actor="optimizer")
             print(f"   description: was empty -> wrote and pushed ({len(desc)} chars)")
         else:
             print(f"   description: auto-push failed HTTP {r.status_code}: {r.text[:120]}")

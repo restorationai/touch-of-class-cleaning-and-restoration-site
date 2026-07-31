@@ -107,6 +107,10 @@ def run_for(slug: str, limit: int, dry_run: bool) -> None:
             print(f"  ✓ uploaded + archived: {n}")
         except Exception as e:
             sys.stderr.write(f"  FAILED {n}: {str(e)[:180]}\n")
+    if posted:
+        gbp.log_change(cid, "photo",
+                       f"{posted} job photo{'s' if posted != 1 else ''} posted to the Google listing",
+                       actor="automation", meta={"count": posted})
     print(f"  posted {posted} photo(s) to GBP.")
 
 

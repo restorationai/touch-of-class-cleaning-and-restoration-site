@@ -67,6 +67,13 @@ def record_post(slug, res, topic=None, source="rank-ai-manual"):
         }], on_conflict="company_id,post_name")
     except Exception as e:
         print(f"  warn: posted OK but not recorded in marketing_gbp_posts ({e})")
+    try:
+        gbp.log_change(gbp.company_id_for(slug), "post",
+                       f"Google post published: {(topic or res.get('summary') or '')[:90]}",
+                       actor="automation" if source.startswith("rank-ai-sched") else "agency",
+                       meta={"post_name": res.get("name"), "source": source})
+    except Exception:
+        pass
 
 
 def _sb_headers():
