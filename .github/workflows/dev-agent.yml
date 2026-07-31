@@ -1,0 +1,79 @@
+name: Rank AI Dev Agent
+
+# Nightly headless Claude Code run that executes approved [DEV] website tasks
+# (Santino 2026-07-30, build #2 of the priority queue). Inbox = open
+# marketing_ops_notes starting with [DEV] (Santino's "Site build" note tag,
+# approved call proposals). Guardrails live in scripts/dev_agent.md:
+# staging-only deploys, claims lint, max 3 tasks/run, punt-when-unsure.
+# Every outcome files a [TODO-SANTINO] review row into the Today tab.
+on:
+  schedule:
+    - cron: '7 9 * * *'   # 2:07 AM PT nightly
+  workflow_dispatch: {}
+
+jobs:
+  dev-agent:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
+          fetch-depth: 0
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Set up Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Check the inbox (skip the run when empty)
+        id: inbox
+        env:
+          SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          COUNT=$(python3 scripts/dev_inbox.py count)
+          echo "count=$COUNT" >> "$GITHUB_OUTPUT"
+          echo "Open [DEV] tasks: $COUNT"
+
+      - name: Configure git identity
+        if: steps.inbox.outputs.count != '0'
+        run: |
+          git config user.email "ops@restorationai.io"
+          git config user.name "Rank AI Dev Agent"
+
+      - name: Install Claude Code
+        if: steps.inbox.outputs.count != '0'
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Run the dev agent
+        if: steps.inbox.outputs.count != '0'
+        env:
+          ANTHROPIC_API_KEY:            ${{ secrets.ANTHROPIC_API_KEY }}
+          SUPABASE_URL:                 ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY:    ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          GITHUB_PERSONAL_ACCESS_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          claude -p "$(cat scripts/dev_agent.md)" \
+            --dangerously-skip-permissions \
+            --output-format text \
+            --max-turns 120
+
+      - name: Alert on failure
+        if: failure()
+        env:
+          SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
+        run: |
+          python3 scripts/notify_failure.py \
+            --subject "[Rank AI] CI failure: Dev Agent run #${{ github.run_number }}" \
+            --run-url "https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}" || true
