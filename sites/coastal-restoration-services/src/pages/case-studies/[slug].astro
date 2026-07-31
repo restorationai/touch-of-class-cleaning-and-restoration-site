@@ -18,7 +18,14 @@ const videoSchema = JSON.stringify({
   thumbnailUrl: `https://i.ytimg.com/vi/${cs.videoId}/hqdefault.jpg`,
   embedUrl: `https://www.youtube-nocookie.com/embed/${cs.videoId}`,
   publisher: { "@type": "Organization", name: brand.displayName },
+  transcript: cs.transcript,
 });
+const transcriptParas = cs.transcript.split(/(?<=[.!?])\s+(?=[A-Z])/).reduce((acc: string[], sent: string) => {
+  const last = acc[acc.length - 1];
+  if (last && (last + " " + sent).length < 420) acc[acc.length - 1] = last + " " + sent;
+  else acc.push(sent);
+  return acc;
+}, [] as string[]);
 ---
 
 <BaseLayout
@@ -42,6 +49,14 @@ const videoSchema = JSON.stringify({
     <div class="container-wide max-w-4xl mx-auto space-y-8">
       <VideoEmbed videoId={cs.videoId} title={cs.title} />
       <p class="text-lg text-dark/70 leading-relaxed">{cs.summary}</p>
+
+      <div class="border-l-4 border-primary-600 pl-6 space-y-4">
+        <h2 class="text-2xl font-black uppercase tracking-tighter text-dark">In Their Own Words</h2>
+        <p class="text-sm font-bold text-dark/50 uppercase tracking-wider">{cs.person} — full transcript</p>
+        {transcriptParas.map((para: string) => (
+          <p class="text-dark/75 leading-relaxed">{para}</p>
+        ))}
+      </div>
       <p class="text-dark/70">
         Jobs like this one usually start with a phone call on the worst day of someone's
         week. If you're dealing with something similar, our

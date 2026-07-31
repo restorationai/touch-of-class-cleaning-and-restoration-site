@@ -34,6 +34,9 @@ type Env = {
   SUPABASE_URL?: string;
   SUPABASE_SERVICE_ROLE_KEY?: string;
   COMPANY_ID?: string;
+  FALLBACK_TWILIO_SID?: string;
+  FALLBACK_TWILIO_TOKEN?: string;
+  FALLBACK_TWILIO_FROM?: string;
   ESTIMATE_SMS_FROM?: string;
   ESTIMATE_SMS_SID?: string;
   ESTIMATE_SMS_TOKEN?: string;
@@ -144,7 +147,6 @@ async function sendSms(env: Env, lead: Record<string, string>): Promise<string> 
       `company_phone_numbers?company_id=eq.${env.COMPANY_ID}&number_type=eq.call_tracking&select=phone_number&limit=1`
     )) as { phone_number?: string }[] | null;
     fromNumber = nums?.[0]?.phone_number;
-    if (!fromNumber) return "skipped:no-call-tracking";
 
     const setup = (await sbGet(
       env,
@@ -152,7 +154,21 @@ async function sendSms(env: Env, lead: Record<string, string>): Promise<string> 
     )) as { twilio_subaccount_sid?: string; twilio_auth_token?: string }[] | null;
     sid = setup?.[0]?.twilio_subaccount_sid;
     token = setup?.[0]?.twilio_auth_token;
-    if (!sid || !token) return "skipped:no-twilio-creds";
+
+    // Agency-level fallback (Santino 2026-07-30: "we definitely want an SMS
+    // for new leads" even before the client's own number exists) — a shared
+    // toll-free on the master Twilio account, set as Pages env vars.
+    if (!fromNumber || !sid || !token) {
+      if (env.FALLBACK_TWILIO_SID && env.FALLBACK_TWILIO_TOKEN && env.FALLBACK_TWILIO_FROM) {
+        sid = env.FALLBACK_TWILIO_SID;
+        token = env.FALLBACK_TWILIO_TOKEN;
+        fromNumber = env.FALLBACK_TWILIO_FROM;
+      } else if (!fromNumber) {
+        return "skipped:no-call-tracking";
+      } else {
+        return "skipped:no-twilio-creds";
+      }
+    }
   }
 
   const r = await fetch(`https://api.twilio.com/2010-04-01/Accounts/${sid}/Messages.json`, {
