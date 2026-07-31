@@ -1939,10 +1939,23 @@ def ask_santino_for_advice(company: dict, reason: str, dry_run: bool) -> None:
     if _ADVICE_SENT_THIS_RUN["n"] >= 5:
         return  # never blow up his phone in one pass
     reqs = _advice_requests()
+    now = datetime.now(timezone.utc)
     for r in reqs:
-        if (r.get("status") == "open" and r.get("company_id") == company.get("id")
-                and r.get("reason", "")[:60] == reason[:60]):
-            return  # already asked, still waiting
+        if r.get("company_id") != company.get("id"):
+            continue
+        # ONE open ask per company — the model re-words the same underlying
+        # question every cycle, so matching on reason text is no dedupe at
+        # all (07-31: 17 near-identical All Pro texts in five hours).
+        if r.get("status") == "open":
+            return  # already asked, still waiting on Santino
+        # And even after an answer, don't re-ask about the same company for
+        # 24h — if the situation is truly new, tomorrow is soon enough.
+        try:
+            asked = datetime.fromisoformat(r.get("asked_at", ""))
+            if (now - asked) < timedelta(hours=24):
+                return
+        except ValueError:
+            pass
     if dry_run:
         print(f"    [dry-run] would text Santino for advice: {reason[:80]}")
         return
@@ -2256,171 +2269,186 @@ def cmd_inbound(args) -> int:
     companies = fetch_companies(sorted(set(tracked.values()))) if tracked else {}
     handled_any = False
     for contact_id, company_id in tracked.items():
-        if contact_id == OPS_PING_CONTACT_ID:
+        try:
+            if contact_id == OPS_PING_CONTACT_ID:
+                msgs = fetch_inbound_since(contact_id, since)
+                if msgs:
+                    handled_any = True
+                    for msg in msgs:
+                        print(f"\n[boss-feedback] ops-thread reply (not a client "
+                              f"message): {msg['body'][:200]!r}")
+                        if not dry_run:
+                            # datetime fields must be stringified or the insert
+                            # raises and KILLS the whole poll before the cursor
+                            # saves — the 07-31 every-5-min All Pro SMS storm was
+                            # exactly this crash looping. Never let it be fatal.
+                            try:
+                                _sb("POST", "/rest/v1/concierge_escalations",
+                                    {"company_id": None, "company_name": "OPS THREAD",
+                                     "reason": "boss-feedback (Santino reply on ops "
+                                               "thread — review in session)",
+                                     "message": json.loads(json.dumps(msg, default=str))},
+                                    prefer="return=minimal")
+                            except Exception as e:  # noqa: BLE001
+                                print(f"  [boss-feedback] insert failed: {str(e)[:120]}")
+                continue
+            company = companies.get(company_id, {"id": company_id, "name": company_id})
             msgs = fetch_inbound_since(contact_id, since)
-            if msgs:
+            if not msgs:
+                continue
+            open_items = gather_items(company_id)
+            # Last ~10 history messages disambiguate short replies ("yes",
+            # "the second one") against what was actually asked.
+            history = fetch_history(contact_id, max_msgs=CLASSIFY_HISTORY_MSGS)
+            history_block = (
+                f"\n\nRecent conversation history (newest first; 'them' = the "
+                f"client, 'us' = our side) — use it to disambiguate short "
+                f"replies:\n{format_history(history)}" if history else "")
+            intel = load_meeting_intel(company)
+            intel_block = (
+                f"\n\nMeeting intel (INTERNAL team notes — context only, never "
+                f"quote to the client):\n{intel}" if intel else "")
+            # Business-hours enforcement needs the contact's own timezone field.
+            contact_payload = None
+            if args.send:
+                try:
+                    data = _ghl("GET", f"/contacts/{contact_id}")
+                    contact_payload = (data or {}).get("contact") or data
+                except RuntimeError:
+                    contact_payload = None
+            cs_reset = company_state(state, company_id)
+            if cs_reset.get("nudge_count"):
+                cs_reset["nudge_count"] = 0
+                cs_reset.pop("max_nudges_escalated", None)
+                print(f"  [cadence] client replied — nudge counter reset")
+            for msg in msgs:
                 handled_any = True
-                for msg in msgs:
-                    print(f"\n[boss-feedback] ops-thread reply (not a client "
-                          f"message): {msg['body'][:200]!r}")
-                    if not dry_run:
-                        _sb("POST", "/rest/v1/concierge_escalations",
-                            {"company_id": None, "company_name": "OPS THREAD",
-                             "reason": "boss-feedback (Santino reply on ops "
-                                       "thread — review in session)",
-                             "message": msg}, prefer="return=minimal")
-            continue
-        company = companies.get(company_id, {"id": company_id, "name": company_id})
-        msgs = fetch_inbound_since(contact_id, since)
-        if not msgs:
-            continue
-        open_items = gather_items(company_id)
-        # Last ~10 history messages disambiguate short replies ("yes",
-        # "the second one") against what was actually asked.
-        history = fetch_history(contact_id, max_msgs=CLASSIFY_HISTORY_MSGS)
-        history_block = (
-            f"\n\nRecent conversation history (newest first; 'them' = the "
-            f"client, 'us' = our side) — use it to disambiguate short "
-            f"replies:\n{format_history(history)}" if history else "")
-        intel = load_meeting_intel(company)
-        intel_block = (
-            f"\n\nMeeting intel (INTERNAL team notes — context only, never "
-            f"quote to the client):\n{intel}" if intel else "")
-        # Business-hours enforcement needs the contact's own timezone field.
-        contact_payload = None
-        if args.send:
-            try:
-                data = _ghl("GET", f"/contacts/{contact_id}")
-                contact_payload = (data or {}).get("contact") or data
-            except RuntimeError:
-                contact_payload = None
-        cs_reset = company_state(state, company_id)
-        if cs_reset.get("nudge_count"):
-            cs_reset["nudge_count"] = 0
-            cs_reset.pop("max_nudges_escalated", None)
-            print(f"  [cadence] client replied — nudge counter reset")
-        for msg in msgs:
-            handled_any = True
-            print(f"\n  {company['name']}: inbound {msg['channel']} "
-                  f"{msg['ts'].strftime('%m-%d %H:%M')}: {msg['body'][:90]!r}")
-            if msg.get("attachments"):
-                media = ingest_inbound_media(company, msg, dry_run)
-                print(f"    [media] photos={media['photos']} "
-                      f"videos={media['videos']} "
-                      f"screenshots={media['screenshots']} "
-                      f"failed={media['failed']}")
-                if not msg["body"]:
-                    if media["photos"] or media["videos"]:
-                        # Give the normal reply flow something to acknowledge
-                        # (marks photo intake items answered + thanks them).
-                        n = media["photos"] + media["videos"]
-                        msg["body"] = (
-                            f"(the client texted {n} photo(s)/video(s) with no "
-                            "message — they are already saved on our side; "
-                            "treat this as them sending the photos we asked "
-                            "for and thank them briefly)")
+                print(f"\n  {company['name']}: inbound {msg['channel']} "
+                      f"{msg['ts'].strftime('%m-%d %H:%M')}: {msg['body'][:90]!r}")
+                if msg.get("attachments"):
+                    media = ingest_inbound_media(company, msg, dry_run)
+                    print(f"    [media] photos={media['photos']} "
+                          f"videos={media['videos']} "
+                          f"screenshots={media['screenshots']} "
+                          f"failed={media['failed']}")
+                    if not msg["body"]:
+                        if media["photos"] or media["videos"]:
+                            # Give the normal reply flow something to acknowledge
+                            # (marks photo intake items answered + thanks them).
+                            n = media["photos"] + media["videos"]
+                            msg["body"] = (
+                                f"(the client texted {n} photo(s)/video(s) with no "
+                                "message — they are already saved on our side; "
+                                "treat this as them sending the photos we asked "
+                                "for and thank them briefly)")
+                        else:
+                            append_escalation(
+                                company, msg,
+                                "client texted a screenshot/attachment we could "
+                                "not auto-file — check the conversation", dry_run)
+                            continue
+                contact_for_flow = contact_payload or {"id": contact_id}
+                if handle_reschedule_reply(company, contact_for_flow, msg,
+                                           state, dry_run):
+                    continue
+                item_list = "\n".join(
+                    f"- id={it['id']} kind={it['kind']} type={it['field_type']} "
+                    f"q={it['text'][:110]!r}" for it in open_items) or "(none)"
+                result = anthropic_json(
+                    CLASSIFY_SYSTEM,
+                    f"Open items for {company['name']}:\n{item_list}"
+                    f"{history_block}{intel_block}\n\n"
+                    f"Inbound reply:\n{msg['body'][:1200]}")
+                matched_ids = set()
+                for match in result.get("matches", []):
+                    it = next((i for i in open_items if i["id"] == match.get("item_id")), None)
+                    if not it:
+                        continue
+                    matched_ids.add(it["id"])
+                    print(f"    matched [{match.get('answer_type')}] "
+                          f"{it['text'][:60]!r} -> {match.get('value')!r}")
+                    if it["kind"] == "intake":
+                        apply_answer(it["id"], str(match.get("value", "")), dry_run)
                     else:
-                        append_escalation(
-                            company, msg,
-                            "client texted a screenshot/attachment we could "
-                            "not auto-file — check the conversation", dry_run)
+                        resolve_plan_row(it["id"], dry_run)
+                # Items meeting intel marks answered / in progress client-side:
+                # never re-asked in the follow-up; escalated for human backfill.
+                intel_ids = set()
+                for flag in result.get("intel_resolved") or []:
+                    it = next((i for i in open_items
+                               if i["id"] == flag.get("item_id")), None)
+                    if not it:
                         continue
-            contact_for_flow = contact_payload or {"id": contact_id}
-            if handle_reschedule_reply(company, contact_for_flow, msg,
-                                       state, dry_run):
-                continue
-            item_list = "\n".join(
-                f"- id={it['id']} kind={it['kind']} type={it['field_type']} "
-                f"q={it['text'][:110]!r}" for it in open_items) or "(none)"
-            result = anthropic_json(
-                CLASSIFY_SYSTEM,
-                f"Open items for {company['name']}:\n{item_list}"
-                f"{history_block}{intel_block}\n\n"
-                f"Inbound reply:\n{msg['body'][:1200]}")
-            matched_ids = set()
-            for match in result.get("matches", []):
-                it = next((i for i in open_items if i["id"] == match.get("item_id")), None)
-                if not it:
-                    continue
-                matched_ids.add(it["id"])
-                print(f"    matched [{match.get('answer_type')}] "
-                      f"{it['text'][:60]!r} -> {match.get('value')!r}")
-                if it["kind"] == "intake":
-                    apply_answer(it["id"], str(match.get("value", "")), dry_run)
-                else:
-                    resolve_plan_row(it["id"], dry_run)
-            # Items meeting intel marks answered / in progress client-side:
-            # never re-asked in the follow-up; escalated for human backfill.
-            intel_ids = set()
-            for flag in result.get("intel_resolved") or []:
-                it = next((i for i in open_items
-                           if i["id"] == flag.get("item_id")), None)
-                if not it:
-                    continue
-                intel_ids.add(it["id"])
-                if not intel_flag_once(state, it["id"]):
-                    continue
-                reason = (f"meeting intel says answered/in progress: "
-                          f"{it['text']} — "
-                          f"{flag.get('reason') or 'see meeting-intel notes'} "
-                          f"(excluded from follow-up nudges; verify + record "
-                          f"the answer)")
-                print(f"    INTEL: {reason}")
-                append_escalation(company, None, reason, dry_run)
-            if result.get("ack"):
-                print("    acknowledgment — no action, no escalation")
-                continue
-            resc = result.get("reschedule") or {}
-            if resc.get("requested"):
-                handle_reschedule_request(company, contact_for_flow,
-                                          resc.get("preference") or "",
-                                          state, dry_run)
-                continue
-            if (result.get("escalate") or result.get("sentiment") == "negative"
-                    or not result.get("matches")):
-                reason = result.get("escalate_reason") or (
-                    "negative sentiment" if result.get("sentiment") == "negative"
-                    else "no open item matched")
-                print(f"    ESCALATE: {reason}")
-                append_escalation(company, msg, reason, dry_run)
-                # ACKNOWLEDGE (Santino 2026-07-30: "she should always just
-                # acknowledge their answer as concisely as possible"). The
-                # matched path sends a real reply; this path used to send
-                # NOTHING — Todd's pricing question sat in silence for a day.
-                if not matched_ids and result.get("sentiment") != "negative":
-                    _maybe_send_ack(state, company, contact_id, msg,
-                                    contact_payload, args.send, dry_run)
-            if matched_ids:
-                remaining = [i for i in open_items
-                             if i["id"] not in matched_ids
-                             and i["id"] not in intel_ids]
-                nxt = (f"Next open item to ask: {remaining[0]['text']}"
-                       if remaining else "No items remain.")
-                reply = anthropic_json(
-                    REPLY_SYSTEM,
-                    f"Client first name: "
-                    f"{contact_first_name(None, company)}\n"
-                    f"They just answered: {msg['body'][:400]}\n{nxt}")
-                print(f"    reply draft: {reply.get('body', '')!r}")
-                if args.send:
-                    # Business hours enforced on EVERY send path (client's
-                    # local tz). Phase 1: refuse + flag, no queue.
-                    hours_reason = business_hours_check(company, contact_payload)
-                    if hours_reason:
-                        print(f"    SEND FLAGGED: {hours_reason} — reply not "
-                              f"sent this cycle")
-                        append_escalation(company, msg, hours_reason, dry_run)
+                    intel_ids.add(it["id"])
+                    if not intel_flag_once(state, it["id"]):
                         continue
-                    target = messaging_target(company)
-                    contact = {"id": contact_id,
-                               "phone": target.get("cell") or company.get("phone"),
-                               "email": target.get("email") or company.get("email")}
-                    try:
-                        sent = send_message(contact, msg["channel"],
-                                            reply.get("body", ""))
-                        record_sent_message(state, sent)
-                    except SendBlocked as e:
-                        print(f"    SEND BLOCKED: {e}")
+                    reason = (f"meeting intel says answered/in progress: "
+                              f"{it['text']} — "
+                              f"{flag.get('reason') or 'see meeting-intel notes'} "
+                              f"(excluded from follow-up nudges; verify + record "
+                              f"the answer)")
+                    print(f"    INTEL: {reason}")
+                    append_escalation(company, None, reason, dry_run)
+                if result.get("ack"):
+                    print("    acknowledgment — no action, no escalation")
+                    continue
+                resc = result.get("reschedule") or {}
+                if resc.get("requested"):
+                    handle_reschedule_request(company, contact_for_flow,
+                                              resc.get("preference") or "",
+                                              state, dry_run)
+                    continue
+                if (result.get("escalate") or result.get("sentiment") == "negative"
+                        or not result.get("matches")):
+                    reason = result.get("escalate_reason") or (
+                        "negative sentiment" if result.get("sentiment") == "negative"
+                        else "no open item matched")
+                    print(f"    ESCALATE: {reason}")
+                    append_escalation(company, msg, reason, dry_run)
+                    # ACKNOWLEDGE (Santino 2026-07-30: "she should always just
+                    # acknowledge their answer as concisely as possible"). The
+                    # matched path sends a real reply; this path used to send
+                    # NOTHING — Todd's pricing question sat in silence for a day.
+                    if not matched_ids and result.get("sentiment") != "negative":
+                        _maybe_send_ack(state, company, contact_id, msg,
+                                        contact_payload, args.send, dry_run)
+                if matched_ids:
+                    remaining = [i for i in open_items
+                                 if i["id"] not in matched_ids
+                                 and i["id"] not in intel_ids]
+                    nxt = (f"Next open item to ask: {remaining[0]['text']}"
+                           if remaining else "No items remain.")
+                    reply = anthropic_json(
+                        REPLY_SYSTEM,
+                        f"Client first name: "
+                        f"{contact_first_name(None, company)}\n"
+                        f"They just answered: {msg['body'][:400]}\n{nxt}")
+                    print(f"    reply draft: {reply.get('body', '')!r}")
+                    if args.send:
+                        # Business hours enforced on EVERY send path (client's
+                        # local tz). Phase 1: refuse + flag, no queue.
+                        hours_reason = business_hours_check(company, contact_payload)
+                        if hours_reason:
+                            print(f"    SEND FLAGGED: {hours_reason} — reply not "
+                                  f"sent this cycle")
+                            append_escalation(company, msg, hours_reason, dry_run)
+                            continue
+                        target = messaging_target(company)
+                        contact = {"id": contact_id,
+                                   "phone": target.get("cell") or company.get("phone"),
+                                   "email": target.get("email") or company.get("email")}
+                        try:
+                            sent = send_message(contact, msg["channel"],
+                                                reply.get("body", ""))
+                            record_sent_message(state, sent)
+                        except SendBlocked as e:
+                            print(f"    SEND BLOCKED: {e}")
+        except Exception as e:  # noqa: BLE001 — one bad thread must never
+            # kill the poll: the 07-31 storm was a single crash looping the
+            # cursor (same message re-escalated + re-texted every 5 min).
+            print(f"  [inbound] contact {contact_id} ({company_id}): "
+                  f"processing failed — {str(e)[:150]} (continuing)")
+
 
     # ---- advice replies from Santino -> ops notes (the loop closes here)
     reqs = _advice_requests()
@@ -2449,8 +2477,14 @@ def cmd_inbound(args) -> int:
                         "company_id": req["company_id"],
                         "body": f"[FROM SANTINO via SMS] {instr} "
                                 f"(answering: {req.get('reason', '')[:120]})"})
-                    req["status"] = "answered"
-                    req["answered_at"] = datetime.now(timezone.utc).isoformat()
+                    # One answer settles EVERY open ask for that company —
+                    # they're rewordings of the same underlying question.
+                    stamp_ans = datetime.now(timezone.utc).isoformat()
+                    for r in reqs:
+                        if (r.get("status") == "open"
+                                and r.get("company_id") == req["company_id"]):
+                            r["status"] = "answered"
+                            r["answered_at"] = stamp_ans
                     kv_set("advice-requests", reqs)
                     if args.send:
                         try:

@@ -91,6 +91,8 @@ jobs:
           else
             echo "GSC_AGENCY_TOKEN secret not set — Reports tab keeps last-synced data."
           fi
+
+      - name: Commit refreshed client data
         run: |
           git add clients/ 2>/dev/null || true
           if git diff --cached --quiet; then
