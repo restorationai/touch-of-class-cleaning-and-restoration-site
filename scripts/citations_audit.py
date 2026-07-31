@@ -54,6 +54,9 @@ PLATFORMS = {
     "facebook": ("facebook.com", "Facebook"),
     "apple_maps": ("maps.apple.com", "Apple Maps"),
     "bing_places": ("bing.com/maps", "Bing Places"),
+    # Free application, AI-answer-cited listicles; we apply on the client's
+    # behalf (us_create in the ledger, unlike the owner-identity platforms).
+    "expertise": ("expertise.com", "Expertise.com"),
 }
 
 PHONE_RE = re.compile(r"\(?\b(\d{3})\)?[-.\s]?(\d{3})[-.\s]?(\d{4})\b")

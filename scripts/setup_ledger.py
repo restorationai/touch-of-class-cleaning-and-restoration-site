@@ -491,8 +491,10 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                 _lbl = {"bing_places": "Bing Places", "apple_maps": "Apple Maps",
                         "bbb": "BBB", "thumbtack": "Thumbtack",
                         "angi": "Angi (free claim only — never Angi Ads/Leads)",
-                        "facebook": "Facebook", "yelp": "Yelp"}
-                us_create = [_lbl[k] for k in ("bing_places", "apple_maps", "bbb")
+                        "facebook": "Facebook", "yelp": "Yelp",
+                        "expertise": "Expertise.com application"}
+                us_create = [_lbl[k] for k in ("bing_places", "apple_maps", "bbb",
+                                               "expertise")
                              if k in _missing]
                 client_create = [_lbl[k] for k in ("yelp", "facebook", "thumbtack",
                                                    "angi")
