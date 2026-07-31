@@ -65,6 +65,19 @@ jobs:
             ${{ github.event.inputs.dry_run == 'true' && '--dry-run' || '--send' }} \
             ${{ github.event.inputs.since && format('--since {0}', github.event.inputs.since) || '' }}
 
+      - name: LSA auto-detection (queue #5, 2026-07-31)
+        env:
+          SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY:  ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          GOOGLE_OAUTH_CLIENT_ID:     ${{ secrets.GOOGLE_OAUTH_CLIENT_ID }}
+          GOOGLE_OAUTH_CLIENT_SECRET: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
+          GOOGLE_ADS_DEVELOPER_TOKEN: ${{ secrets.GOOGLE_ADS_DEVELOPER_TOKEN }}
+        run: |
+          # Finds Local Services campaigns via each client's own Google grant
+          # and stamps integration_settings.lsa so the ledger's "LSA setup not
+          # started" row flips itself. Advisory — never fails the ops run.
+          python3 scripts/lsa_detect.py || true
+
       - name: Refresh Search Console data (app Reports tab)
         env:
           SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}

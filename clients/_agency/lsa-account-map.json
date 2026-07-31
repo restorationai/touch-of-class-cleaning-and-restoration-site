@@ -1,0 +1,4 @@
+{
+  "_comment": "Manual Ads-customer-id -> company_id overrides for lsa_detect.py, for LSA accounts Google returns with a blank descriptive name. 2407662739 identified by geo targets (Bakersfield/Kern County) 2026-07-31.",
+  "2407662739": "CO-1780333664867"
+}
