@@ -970,6 +970,26 @@ def _suggest_description(cid: str, slug: str, loc: dict, g: dict,
             "confidence": 0.8, "canonical": None, "auto_safe": False, "status": "open"}
 
 
+def _suggest_247_hours(cid: str, loc: dict) -> dict | None:
+    """Open 24 hours every day, or a suggestion. Google's 24-hour-day shape is
+    openTime 00:00 (serialized as {}) -> closeTime 24:00 on the same day."""
+    periods = (loc.get("regularHours") or {}).get("periods") or []
+    allday = {p.get("openDay") for p in periods
+              if (p.get("openTime") or {}).get("hours", 0) % 24 == 0
+              and (p.get("openTime") or {}).get("minutes", 0) == 0
+              and (p.get("closeTime") or {}).get("hours", 0) == 24}
+    if len(allday) == 7:
+        return None
+    state = ("No business hours on Google" if not periods
+             else f"Only {len(allday)}/7 days are 24-hour" if allday
+             else "Hours are office-style, not 24/7")
+    return {"company_id": cid, "item": "hours-24-7", "item_type": "hours",
+            "source": "gbp", "verdict": "ADD",
+            "reason": f"{state} — emergency searches happen at 2 AM; "
+                      "show Open 24 hours all week.",
+            "confidence": 0.95, "canonical": None, "auto_safe": False, "status": "open"}
+
+
 def optimize(slug: str) -> dict:
     """Audit the live GBP against confirmed services + the best-practices ruleset.
     Returns {summary, items[]} and upserts items to marketing_gbp_suggestions."""
@@ -1109,6 +1129,15 @@ def optimize(slug: str) -> dict:
             rows.append(drow)
     except Exception as e:  # advisory pass; never blocks the audit
         print(f"   description pass failed: {str(e)[:120]}")
+
+    # Hours pass (Santino 2026-07-30): restoration is an emergency trade — a
+    # listing that isn't Open 24 hours all week loses the 2 AM "water damage
+    # near me" search. Deterministic; the app's suggestion row applies it with
+    # one Set 24/7 click. Dismissal sticks via the settled-keys filter (a
+    # client who truly keeps office hours gets dismissed once, never nagged).
+    hrow = _suggest_247_hours(cid, loc)
+    if hrow:
+        rows.append(hrow)
     if rows:
         _sb_delete("marketing_gbp_suggestions", f"company_id=eq.{cid}&status=eq.open")
         # Never resurrect suggestions a human already settled: upserting with

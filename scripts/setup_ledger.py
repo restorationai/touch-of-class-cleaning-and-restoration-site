@@ -35,6 +35,7 @@ import os
 import re
 import subprocess
 import sys
+from collections import Counter
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -539,6 +540,34 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                 rows.append({"company_id": cid, "item_key": "lsa-setup",
                              "kind": "us_owed", "status": "done",
                              "title": "Local Services Ads: set up",
+                             "detail": None, "evidence": {}})
+        except Exception:
+            pass
+
+        # ---- Open AI-optimization recommendations (Santino 2026-07-30):
+        # "open unanswered optimization recommendations should count as a
+        # to-do needed by us." Every open suggestion the optimizer parked
+        # (services/categories/pages/description/hours) stays on OUR board
+        # until it's applied or dismissed in Locations -> AI optimization.
+        # KEEP verdicts are informational ("looks good"), not to-dos.
+        try:
+            sugs = _sb("GET", f"/rest/v1/marketing_gbp_suggestions?company_id=eq.{cid}"
+                       "&status=eq.open&verdict=neq.KEEP&select=item_type") or []
+            if sugs:
+                by_type = Counter(s.get("item_type") or "?" for s in sugs)
+                breakdown = ", ".join(f"{n} {t}" for t, n in sorted(by_type.items()))
+                rows.append({"company_id": cid, "item_key": "gbp-suggestions",
+                             "kind": "us_owed", "status": "open",
+                             "title": f"{len(sugs)} AI optimization recommendation"
+                                      f"{'s' if len(sugs) != 1 else ''} awaiting your call",
+                             "detail": f"Locations -> AI optimization ({breakdown}). "
+                                       "Apply or dismiss each — open recommendations "
+                                       "are our to-do, not background noise.",
+                             "evidence": {"open": len(sugs), "by_type": dict(by_type)}})
+            else:
+                rows.append({"company_id": cid, "item_key": "gbp-suggestions",
+                             "kind": "us_owed", "status": "done",
+                             "title": "AI optimization: no open recommendations",
                              "detail": None, "evidence": {}})
         except Exception:
             pass
