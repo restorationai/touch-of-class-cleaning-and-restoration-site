@@ -53,7 +53,11 @@ DIRECTORIES = {"yelp.com", "bbb.org", "homeadvisor.com", "angi.com", "angieslist
 
 # Universal directories every restoration business should be listed on. Seeds a
 # baseline Get-Listed list even for a brand-new client with no AI-search data yet.
-CORE_DIRECTORIES = ["yelp.com", "bbb.org", "angi.com", "homeadvisor.com", "thumbtack.com",
+# HomeAdvisor is deliberately NOT here (Santino 2026-07-31): it has no free
+# listing tier — ~$300/yr membership + per-lead fees — so it's a paid lead-gen
+# decision for the client, never a baseline citation ask. (Angi's basic profile
+# claim IS free; only Angi Ads/Leads cost money.)
+CORE_DIRECTORIES = ["yelp.com", "bbb.org", "angi.com", "thumbtack.com",
                     "facebook.com", "nextdoor.com", "yellowpages.com", "mapquest.com", "houzz.com"]
 
 # Search/AI infrastructure and non-actionable domains — never a "get listed" target.
@@ -215,13 +219,13 @@ LISTICLE_HINTS = {
     "expertise.com":       "Expertise.com — free application",
     "threebestrated.com":  "ThreeBestRated — application",
     "yelp.com":            "Yelp collection — improve Yelp profile (reviews, photos, categories)",
-    "angi.com":            "Angi — claim/optimize profile",
-    "angieslist.com":      "Angi — claim/optimize profile",
+    "angi.com":            "Angi — free profile claim only (Ads/Leads cost money)",
+    "angieslist.com":      "Angi — free profile claim only (Ads/Leads cost money)",
     "bbb.org":             "BBB — accreditation + A+ profile",
     "porch.com":           "Porch — claim/complete profile",
     "thumbtack.com":       "Thumbtack — pro profile + reviews",
     "houzz.com":           "Houzz — pro profile + project photos",
-    "homeadvisor.com":     "HomeAdvisor — pro profile",
+    "homeadvisor.com":     "HomeAdvisor — PAID ONLY (~$300/yr + per-lead); client's call, not a citation",
     "yellowpages.com":     "YellowPages — claim listing",
     "nextdoor.com":        "Nextdoor — business page + neighbor recommendations",
     "birdeye.com":         "Birdeye directory — profile via reviews platform",

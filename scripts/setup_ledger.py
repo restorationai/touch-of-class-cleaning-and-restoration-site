@@ -471,23 +471,31 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
             n_found = sum(1 for v in napa.values()
                           if v.get("status") in ("found", "discrepancy"))
             n_disc = sum(1 for v in napa.values() if v.get("status") == "discrepancy")
-            n_missing = sum(1 for v in napa.values() if v.get("status") == "missing")
+            # A missing HomeAdvisor is not a gap — there's no free listing to
+            # create (paid lead-gen only). Existing ones still get NAP-checked.
+            n_missing = sum(1 for k, v in napa.items()
+                            if v.get("status") == "missing" and k != "homeadvisor")
             if napa:
                 # Split the missing listings by who can create them:
                 #   us    — Bing Places (imports from their GBP, which we hold),
                 #           Apple Maps (Business Connect agency claim), BBB (form)
-                #   client — lead marketplaces that require the OWNER's identity
-                #           / phone verification (Thumbtack, Angi, HomeAdvisor),
-                #           plus Facebook (personal account) and Yelp claiming.
+                #   client — platforms that require the OWNER's identity / phone
+                #           verification (Thumbtack, Angi free claim), plus
+                #           Facebook (personal account) and Yelp claiming.
+                # HomeAdvisor is EXCLUDED (Santino 2026-07-31): no free listing
+                # exists — it's ~$300/yr membership + $15-100/lead. Never send
+                # a client to sign up there as a "citation". Angi stays because
+                # the basic profile claim is free (Angi Ads/Leads are not — the
+                # claim ask must never morph into an Ads signup).
                 _missing = {k for k, v in napa.items() if v.get("status") == "missing"}
                 _lbl = {"bing_places": "Bing Places", "apple_maps": "Apple Maps",
-                        "bbb": "BBB", "thumbtack": "Thumbtack", "angi": "Angi",
-                        "homeadvisor": "HomeAdvisor", "facebook": "Facebook",
-                        "yelp": "Yelp"}
+                        "bbb": "BBB", "thumbtack": "Thumbtack",
+                        "angi": "Angi (free claim only — never Angi Ads/Leads)",
+                        "facebook": "Facebook", "yelp": "Yelp"}
                 us_create = [_lbl[k] for k in ("bing_places", "apple_maps", "bbb")
                              if k in _missing]
                 client_create = [_lbl[k] for k in ("yelp", "facebook", "thumbtack",
-                                                   "angi", "homeadvisor")
+                                                   "angi")
                                  if k in _missing]
                 rows.append({"company_id": cid, "item_key": "citations", "kind": "client_owed",
                              "status": "open" if (n_disc or client_create) else "done",
