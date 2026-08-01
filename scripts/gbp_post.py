@@ -31,9 +31,13 @@ def _resolve(slug):
         raise SystemExit(f"{slug}: no business.manage token (connect this client's GBP)")
     acct = gbp._g(f"{gbp.ACCT_API}/accounts", tok)["accounts"][0]["name"]
     brand = json.loads((ROOT / "clients" / slug / "plan-input.json").read_text()).get("brand", {})
-    loc = gbp.find_location(tok, brand.get("place_id", ""))
+    # Fall back to the Google connection's place_id — Flood Fixers had a
+    # month-old active connection but an empty brand.place_id, so every
+    # scheduled post run skipped them silently (found 2026-08-01).
+    place = brand.get("place_id") or gbp._place_id_from_connection(cid) or ""
+    loc = gbp.find_location(tok, place)
     if not loc:
-        raise SystemExit(f"{slug}: no GBP location for place_id {brand.get('place_id')}")
+        raise SystemExit(f"{slug}: no GBP location for place_id {place or '(none)'}")
     return tok, acct, loc["name"].split("/")[-1], loc
 
 

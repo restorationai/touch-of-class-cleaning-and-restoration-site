@@ -1,76 +1,77 @@
 {
- "brand": {
-  "display_name": "Quality Contracting, Inc.",
-  "lat": 42.1945465,
-  "lng": -71.8358095,
-  "phone": "(508) 756-8800",
-  "email": "info@qualitycontracting.us",
-  "street_address": "211 Southbridge Street",
-  "city": "Auburn",
-  "state": "MA",
-  "postal_code": "01501",
-  "theme": "dark",
-  "primary_color": "#dc0a0e"
- },
- "services": [
-  "water-damage-restoration",
-  "storm-damage-restoration",
-  "fire-damage-restoration",
-  "mold-remediation",
-  "general-contracting",
-  "sewage-cleanup",
-  "biohazard-cleanup",
-  "asbestos-abatement",
-  "emergency-board-up-tarping",
-  "contents-restoration",
-  "air-duct-cleaning",
-  "carpet-cleaning",
-  "crawl-space-encapsulation",
-  "post-construction-cleaning"
- ],
- "template": "restoration",
- "blog_seed_count": 8,
- "service_areas": [
-  {
-   "city": "Auburn",
-   "state": "MA",
-   "slug": "auburn-ma",
-   "primary": true
+  "brand": {
+    "display_name": "Quality Contracting, Inc.",
+    "lat": 42.1945465,
+    "lng": -71.8358095,
+    "phone": "(508) 756-8800",
+    "email": "info@qualitycontracting.us",
+    "street_address": "211 Southbridge Street",
+    "city": "Auburn",
+    "state": "MA",
+    "postal_code": "01501",
+    "theme": "dark",
+    "primary_color": "#dc0a0e",
+    "place_id": "ChIJ9wuzUNMF5IkR23w7vv0t_Hc"
   },
-  {
-   "city": "Worcester",
-   "state": "MA",
-   "slug": "worcester-ma"
-  },
-  {
-   "city": "Shrewsbury",
-   "state": "MA",
-   "slug": "shrewsbury-ma"
-  },
-  {
-   "city": "Millbury",
-   "state": "MA",
-   "slug": "millbury-ma"
-  },
-  {
-   "city": "Grafton",
-   "state": "MA",
-   "slug": "grafton-ma"
-  },
-  {
-   "city": "Leicester",
-   "state": "MA",
-   "slug": "leicester-ma"
-  },
-  {
-   "city": "Oxford",
-   "state": "MA",
-   "slug": "oxford-ma"
-  },
-  {
-   "city": "Sutton",
-   "state": "MA",
-   "slug": "sutton-ma"
-  }
- ]
+  "services": [
+    "water-damage-restoration",
+    "storm-damage-restoration",
+    "fire-damage-restoration",
+    "mold-remediation",
+    "general-contracting",
+    "sewage-cleanup",
+    "biohazard-cleanup",
+    "asbestos-abatement",
+    "emergency-board-up-tarping",
+    "contents-restoration",
+    "air-duct-cleaning",
+    "carpet-cleaning",
+    "crawl-space-encapsulation",
+    "post-construction-cleaning"
+  ],
+  "template": "restoration",
+  "blog_seed_count": 8,
+  "service_areas": [
+    {
+      "city": "Auburn",
+      "state": "MA",
+      "slug": "auburn-ma",
+      "primary": true
+    },
+    {
+      "city": "Worcester",
+      "state": "MA",
+      "slug": "worcester-ma"
+    },
+    {
+      "city": "Shrewsbury",
+      "state": "MA",
+      "slug": "shrewsbury-ma"
+    },
+    {
+      "city": "Millbury",
+      "state": "MA",
+      "slug": "millbury-ma"
+    },
+    {
+      "city": "Grafton",
+      "state": "MA",
+      "slug": "grafton-ma"
+    },
+    {
+      "city": "Leicester",
+      "state": "MA",
+      "slug": "leicester-ma"
+    },
+    {
+      "city": "Oxford",
+      "state": "MA",
+      "slug": "oxford-ma"
+    },
+    {
+      "city": "Sutton",
+      "state": "MA",
+      "slug": "sutton-ma"
+    }
+  ]
 }

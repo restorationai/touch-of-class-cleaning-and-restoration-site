@@ -1,194 +1,195 @@
 {
- "brand": {
-  "display_name": "Go Green Restoration of NC",
-  "lat": 35.7888369,
-  "lng": -78.2039124,
-  "phone": "(919) 906-5473",
-  "email": "gogreenrestorationofnc@gmail.com",
-  "street_address": "10805 w. NC Hwy 97",
-  "city": "Middlesex",
-  "state": "NC",
-  "postal_code": "27557",
-  "short_name": "Go Green Restoration",
-  "legal_name": "Go Green Restoration of NC",
-  "theme": "light",
-  "primary_color": "#15803d",
-  "hours": "24/7"
- },
- "services": [
-  "water-damage-restoration",
-  "mold-remediation",
-  "crawl-space-encapsulation",
-  "air-duct-cleaning",
-  "carpet-cleaning",
-  "insulation-removal-installation"
- ],
- "service_areas": [
-  {
-   "city": "Middlesex",
-   "state": "NC",
-   "slug": "middlesex-nc",
-   "primary": true,
-   "neighborhoods": [
-    "Downtown Middlesex"
-   ],
-   "landmarks": [
-    "Middlesex Town Hall",
-    "US-264 corridor"
-   ],
-   "zip_codes": [
-    "27557"
-   ],
-   "local_notes": "Home base - fastest response times in Nash and Johnston County line communities."
+  "brand": {
+    "display_name": "Go Green Restoration of NC",
+    "lat": 35.7888369,
+    "lng": -78.2039124,
+    "phone": "(919) 906-5473",
+    "email": "gogreenrestorationofnc@gmail.com",
+    "street_address": "10805 w. NC Hwy 97",
+    "city": "Middlesex",
+    "state": "NC",
+    "postal_code": "27557",
+    "short_name": "Go Green Restoration",
+    "legal_name": "Go Green Restoration of NC",
+    "theme": "light",
+    "primary_color": "#15803d",
+    "hours": "24/7",
+    "place_id": "ChIJhWCvh9tJrIkRkCEs58UBIRw"
   },
-  {
-   "city": "Raleigh",
-   "state": "NC",
-   "slug": "raleigh-nc",
-   "neighborhoods": [
-    "Five Points",
-    "North Hills",
-    "Brier Creek",
-    "Historic Oakwood"
-   ],
-   "landmarks": [
-    "NC State University",
-    "PNC Arena",
-    "Crabtree Valley Mall",
-    "William B. Umstead State Park"
-   ],
-   "zip_codes": [
-    "27601",
-    "27603",
-    "27604",
-    "27606",
-    "27607",
-    "27609",
-    "27610"
-   ],
-   "local_notes": "Largest metro in the service area; response staged from the east side via US-64."
-  },
-  {
-   "city": "Durham",
-   "state": "NC",
-   "slug": "durham-nc",
-   "neighborhoods": [
-    "Trinity Park",
-    "Hope Valley",
-    "Duke Park",
-    "Woodcroft"
-   ],
-   "landmarks": [
-    "Duke University",
-    "Durham Bulls Athletic Park",
-    "American Tobacco Campus",
-    "Research Triangle Park"
-   ],
-   "zip_codes": [
-    "27701",
-    "27703",
-    "27704",
-    "27705",
-    "27707",
-    "27713"
-   ],
-   "local_notes": "Older housing stock around Trinity Park and Duke Park brings frequent crawl space moisture calls."
-  },
-  {
-   "city": "Rocky Mount",
-   "state": "NC",
-   "slug": "rocky-mount-nc",
-   "neighborhoods": [
-    "Westridge",
-    "Englewood",
-    "Candlewood"
-   ],
-   "landmarks": [
-    "Rocky Mount Mills",
-    "City Lake Park",
-    "NC Wesleyan University"
-   ],
-   "zip_codes": [
-    "27801",
-    "27803",
-    "27804"
-   ],
-   "local_notes": "Tar River flooding history makes water mitigation and mold prevention a recurring need."
-  },
-  {
-   "city": "Wilson",
-   "state": "NC",
-   "slug": "wilson-nc",
-   "neighborhoods": [
-    "Historic Downtown Wilson",
-    "West Nash"
-   ],
-   "landmarks": [
-    "Vollis Simpson Whirligig Park",
-    "Barton College",
-    "Buckhorn Reservoir"
-   ],
-   "zip_codes": [
-    "27893",
-    "27896"
-   ],
-   "local_notes": "Mix of historic homes and newer subdivisions; humid summers drive crawl space encapsulation demand."
-  },
-  {
-   "city": "Smithfield",
-   "state": "NC",
-   "slug": "smithfield-nc",
-   "neighborhoods": [
-    "Downtown Smithfield",
-    "West Smithfield"
-   ],
-   "landmarks": [
-    "Ava Gardner Museum",
-    "Carolina Premium Outlets",
-    "Smithfield Neuse Riverwalk"
-   ],
-   "zip_codes": [
-    "27577"
-   ],
-   "local_notes": "Neuse River proximity means storm-driven water intrusions along low-lying streets."
-  },
-  {
-   "city": "Wake Forest",
-   "state": "NC",
-   "slug": "wake-forest-nc",
-   "neighborhoods": [
-    "Heritage",
-    "Traditions",
-    "Historic Downtown Wake Forest"
-   ],
-   "landmarks": [
-    "E. Carroll Joyner Park",
-    "Wake Forest Historic District",
-    "Falls Lake"
-   ],
-   "zip_codes": [
-    "27587"
-   ],
-   "local_notes": "Fast-growing subdivisions with newer builds; attic insulation and duct work are common projects."
-  },
-  {
-   "city": "Zebulon",
-   "state": "NC",
-   "slug": "zebulon-nc",
-   "neighborhoods": [
-    "Downtown Zebulon",
-    "Weavers Pond"
-   ],
-   "landmarks": [
-    "Five County Stadium",
-    "Zebulon Community Park"
-   ],
-   "zip_codes": [
-    "27597"
-   ],
-   "local_notes": "Small-town core with rural properties on the edges; well-and-crawl-space homes are typical."
-  }
- ],
- "template": "restoration",
- "blog_seed_count": 8
+  "services": [
+    "water-damage-restoration",
+    "mold-remediation",
+    "crawl-space-encapsulation",
+    "air-duct-cleaning",
+    "carpet-cleaning",
+    "insulation-removal-installation"
+  ],
+  "service_areas": [
+    {
+      "city": "Middlesex",
+      "state": "NC",
+      "slug": "middlesex-nc",
+      "primary": true,
+      "neighborhoods": [
+        "Downtown Middlesex"
+      ],
+      "landmarks": [
+        "Middlesex Town Hall",
+        "US-264 corridor"
+      ],
+      "zip_codes": [
+        "27557"
+      ],
+      "local_notes": "Home base - fastest response times in Nash and Johnston County line communities."
+    },
+    {
+      "city": "Raleigh",
+      "state": "NC",
+      "slug": "raleigh-nc",
+      "neighborhoods": [
+        "Five Points",
+        "North Hills",
+        "Brier Creek",
+        "Historic Oakwood"
+      ],
+      "landmarks": [
+        "NC State University",
+        "PNC Arena",
+        "Crabtree Valley Mall",
+        "William B. Umstead State Park"
+      ],
+      "zip_codes": [
+        "27601",
+        "27603",
+        "27604",
+        "27606",
+        "27607",
+        "27609",
+        "27610"
+      ],
+      "local_notes": "Largest metro in the service area; response staged from the east side via US-64."
+    },
+    {
+      "city": "Durham",
+      "state": "NC",
+      "slug": "durham-nc",
+      "neighborhoods": [
+        "Trinity Park",
+        "Hope Valley",
+        "Duke Park",
+        "Woodcroft"
+      ],
+      "landmarks": [
+        "Duke University",
+        "Durham Bulls Athletic Park",
+        "American Tobacco Campus",
+        "Research Triangle Park"
+      ],
+      "zip_codes": [
+        "27701",
+        "27703",
+        "27704",
+        "27705",
+        "27707",
+        "27713"
+      ],
+      "local_notes": "Older housing stock around Trinity Park and Duke Park brings frequent crawl space moisture calls."
+    },
+    {
+      "city": "Rocky Mount",
+      "state": "NC",
+      "slug": "rocky-mount-nc",
+      "neighborhoods": [
+        "Westridge",
+        "Englewood",
+        "Candlewood"
+      ],
+      "landmarks": [
+        "Rocky Mount Mills",
+        "City Lake Park",
+        "NC Wesleyan University"
+      ],
+      "zip_codes": [
+        "27801",
+        "27803",
+        "27804"
+      ],
+      "local_notes": "Tar River flooding history makes water mitigation and mold prevention a recurring need."
+    },
+    {
+      "city": "Wilson",
+      "state": "NC",
+      "slug": "wilson-nc",
+      "neighborhoods": [
+        "Historic Downtown Wilson",
+        "West Nash"
+      ],
+      "landmarks": [
+        "Vollis Simpson Whirligig Park",
+        "Barton College",
+        "Buckhorn Reservoir"
+      ],
+      "zip_codes": [
+        "27893",
+        "27896"
+      ],
+      "local_notes": "Mix of historic homes and newer subdivisions; humid summers drive crawl space encapsulation demand."
+    },
+    {
+      "city": "Smithfield",
+      "state": "NC",
+      "slug": "smithfield-nc",
+      "neighborhoods": [
+        "Downtown Smithfield",
+        "West Smithfield"
+      ],
+      "landmarks": [
+        "Ava Gardner Museum",
+        "Carolina Premium Outlets",
+        "Smithfield Neuse Riverwalk"
+      ],
+      "zip_codes": [
+        "27577"
+      ],
+      "local_notes": "Neuse River proximity means storm-driven water intrusions along low-lying streets."
+    },
+    {
+      "city": "Wake Forest",
+      "state": "NC",
+      "slug": "wake-forest-nc",
+      "neighborhoods": [
+        "Heritage",
+        "Traditions",
+        "Historic Downtown Wake Forest"
+      ],
+      "landmarks": [
+        "E. Carroll Joyner Park",
+        "Wake Forest Historic District",
+        "Falls Lake"
+      ],
+      "zip_codes": [
+        "27587"
+      ],
+      "local_notes": "Fast-growing subdivisions with newer builds; attic insulation and duct work are common projects."
+    },
+    {
+      "city": "Zebulon",
+      "state": "NC",
+      "slug": "zebulon-nc",
+      "neighborhoods": [
+        "Downtown Zebulon",
+        "Weavers Pond"
+      ],
+      "landmarks": [
+        "Five County Stadium",
+        "Zebulon Community Park"
+      ],
+      "zip_codes": [
+        "27597"
+      ],
+      "local_notes": "Small-town core with rural properties on the edges; well-and-crawl-space homes are typical."
+    }
+  ],
+  "template": "restoration",
+  "blog_seed_count": 8
 }
