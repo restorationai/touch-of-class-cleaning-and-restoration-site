@@ -97,6 +97,15 @@
       1200
     ]
   },
+  "/images/services/crime-scene-cleanup.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
   "/images/services/fire-damage-restoration.webp": {
     "width": 1024,
     "height": 1024,
@@ -129,6 +138,15 @@
     "variants": [
       480,
       768
+    ]
+  },
+  "/images/services/hoarding-cleanup.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
     ]
   },
   "/images/services/mold-inspection-testing.webp": {
@@ -208,6 +226,24 @@
     "variants": [
       480,
       768
+    ]
+  },
+  "/images/services/trauma-scene-cleanup.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/unattended-death-cleanup.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
     ]
   },
   "/images/services/water-damage-restoration.webp": {
