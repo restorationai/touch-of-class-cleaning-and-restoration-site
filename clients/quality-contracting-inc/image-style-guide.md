@@ -12,6 +12,8 @@ The values below are auto-populated from `plan-input.json` at planning time. Per
 2. **One crew uniform color per client, everywhere.** Each client's style guide declares exactly one uniform color (derived from their real-world crew wear / brand identity), and every image — hero, team, services, per-service, blog heroes — uses it. Never mix uniform colors across a client's image library.
 
 3. **If the client has an existing website, harvest its photos FIRST.** Before generating any imagery, crawl the client's existing site (e.g. wp-content/uploads on WordPress) and collect real crew / vehicle / job photos. Use real photos directly where quality allows; otherwise use them as style and livery references for generation (real fleet photos define what the vans must look like). Save the harvest to `clients//harvested/`.
+4. **Multi-van fleet, everywhere (2026-07-29).** Hero images always show MULTIPLE matching branded vans (two-three, staggered), and the branded vans also appear in the About/team photo and the Services imagery whenever the scene allows. The client's real logo rides on every van per rule 1. One van alone is the exception (tight interior shots), never the default.
+
 
 
 ## Camera & Lens Setup
@@ -66,7 +68,7 @@ Per-client brand colors take priority. The values below are substituted from `pl
 
 | Role | Source | Value for this client |
 |------|--------|----------------------|
-| Primary brand color (uniforms, vehicle, signage glimpsed in shots) | `#0d1b3e` | **#0d1b3e** |
+| Primary brand color (uniforms, vehicle, signage glimpsed in shots) | `#dc0a0e` | **#dc0a0e** |
 | Accent (emergency markings, CTAs that appear in promo shots) | `#f97316` | **#f97316** |
 | Logo color (if a worker's uniform back is visible) | derived from brand logo | match Quality Contracting, Inc.'s logo |
 | Skin / texture / restoration materials | natural and neutral | warm wood tones for housing stock, cool concrete grays, real surface textures |
@@ -95,7 +97,7 @@ Per-client brand colors take priority. The values below are substituted from `pl
 Every image that depicts a person must show a worker in branded company uniform. This is non-negotiable for visual consistency and trust signaling.
 
 ### Uniform specifications
-- **Top**: Polo or work shirt in the client's primary brand color (`#0d1b3e`). For darker brand colors (navy, deep red, charcoal), use that color directly. For lighter brand colors, render as a darker navy or charcoal uniform with the brand color visible as logo embroidery, accent stripe, or branded hat.
+- **Top**: Polo or work shirt in the client's primary brand color (`#dc0a0e`). For darker brand colors (navy, deep red, charcoal), use that color directly. For lighter brand colors, render as a darker navy or charcoal uniform with the brand color visible as logo embroidery, accent stripe, or branded hat.
 - **Bottom**: Neutral work pants (charcoal, dark navy, or khaki). Subordinate to the top.
 - **Branding**: Quality Contracting, Inc. or Quality Contracting, Inc. embroidered on chest or back. IICRC certification badge visible on sleeve or chest where it makes sense.
 - **PPE**: Match the service context (see service-specific notes below) — gloves always, respirators / face shields / Tyvek suits when the service warrants it.
@@ -140,7 +142,7 @@ The worker's uniform stays the same; their PPE and equipment shift per service. 
 ## Setting & Environment (Auburn / MA)
 
 - **Primary setting**: Auburn and surrounding MA residential and commercial properties
-- **Local housing stock cues**: Mixed regional residential and commercial properties. — these details should appear in backgrounds and environmental context, NOT as the subject. They quietly anchor "this was shot in Auburn."
+- **Local housing stock cues**: Other cities served: Worcester, Shrewsbury, Millbury, Grafton, Leicester. — these details should appear in backgrounds and environmental context, NOT as the subject. They quietly anchor "this was shot in Auburn."
 - **Regional weather / season**: Regional climate cues per primary city; adapt exterior shots to match. — affects exterior shots especially. Pacific Northwest: wet roads, evergreen silhouettes, cedar siding, low gray cloud cover for "we just arrived in the rain" shots. Adapt per client.
 - **Time of day**: Mix of golden-hour exteriors and neutral-light interiors. Reserve dusk/blue-hour for "arrival" hero shots specifically.
 

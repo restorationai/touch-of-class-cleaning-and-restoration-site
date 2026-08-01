@@ -31,7 +31,7 @@ Massachusetts also has a quirk worth knowing: the state requires a Construction 
 
 These questions work whether you're calling about a flooded basement in Auburn, a kitchen fire, or a musty smell coming from the crawlspace.
 
-**1. Are you IICRC-certified, and which technicians on your crew hold the certification?**
+**1. Which of your technicians are trained to IICRC S500 and S520 standards?**
 
 The Institute of Inspection, Cleaning and Restoration Certification sets the industry's technical standards — the S500 for water damage, the S520 for mold, the S700 for fire and smoke. A company can *say* it follows IICRC standards without holding the credential. Ask specifically which technicians are certified, not just whether the company is affiliated. The answer tells you whether the person actually touching your property knows what they're doing.
 

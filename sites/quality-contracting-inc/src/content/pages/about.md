@@ -4,7 +4,7 @@ title: "About Quality Contracting, Inc. | Auburn Restoration Company"
 h1: "About Quality Contracting, Inc."
 meta_description: "Quality Contracting, Inc. Has served Auburn since. Meet our restoration team. Locally owned."
 primary_keyword: "quality contracting, inc. auburn"
-secondary_keywords: ["local restoration company", "iicrc certified restoration", "licensed restoration contractor"]
+secondary_keywords: ["local restoration company", "restoration industry standards", "licensed restoration contractor"]
 search_intent: "navigational_trust"
 priority: 2.5
 plan_hash: "6375441d40cdf388"
@@ -25,7 +25,7 @@ The calls come from people who are stressed, sometimes displaced from their home
 
 ## Our certifications and licensure
 
-Restoration isn't a loosely regulated trade, and the certifications that matter in this industry exist for specific reasons. The IICRC — the Institute of Inspection, Cleaning and Restoration Certification — sets the technical standards that govern how water damage, fire damage, and mold remediation work is supposed to be performed. Those standards (the S500 for water, the S520 for mold) define drying targets, containment protocols, and documentation requirements. Working to those standards protects both the homeowner and the integrity of the repair.
+Restoration isn't a loosely regulated trade, and the certifications that matter in this industry exist for specific reasons. The IICRC standards — set by the Institute of Inspection, Cleaning and Restoration Certification — govern how water damage, fire damage, and mold remediation work is supposed to be performed. Those standards (the S500 for water, the S520 for mold) define drying targets, containment protocols, and documentation requirements. Working to those standards protects both the homeowner and the integrity of the repair.
 
 For any home built before 1978, lead paint is a real consideration during demolition and reconstruction. Federal law requires contractors disturbing painted surfaces in pre-1978 housing to follow EPA Renovation, Repair and Painting (RRP) protocols. Central Massachusetts has a significant stock of older housing — triple-deckers, Colonials, mill-era worker homes — so this comes up regularly.
 

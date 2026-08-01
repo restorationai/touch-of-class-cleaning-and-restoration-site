@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-07-28T14:55:27.332746+00:00",
+  "generated_at": "2026-08-01T19:48:11.088471+00:00",
   "input_summary": {
     "service_count": 14,
-    "service_area_count": 1,
+    "service_area_count": 8,
     "cross_product": true,
     "blog_seed_count": 8
   },
@@ -56,7 +56,14 @@
         "/services/crawl-space-encapsulation/",
         "/services/carpet-cleaning/",
         "/services/post-construction-cleaning/",
-        "/service-areas/auburn-ma/"
+        "/service-areas/auburn-ma/",
+        "/service-areas/grafton-ma/",
+        "/service-areas/leicester-ma/",
+        "/service-areas/millbury-ma/",
+        "/service-areas/oxford-ma/",
+        "/service-areas/shrewsbury-ma/",
+        "/service-areas/sutton-ma/",
+        "/service-areas/worcester-ma/"
       ]
     },
     {
@@ -134,7 +141,14 @@
       "status": "planned",
       "internal_links_out": [
         "/",
-        "/service-areas/auburn-ma/"
+        "/service-areas/auburn-ma/",
+        "/service-areas/grafton-ma/",
+        "/service-areas/leicester-ma/",
+        "/service-areas/millbury-ma/",
+        "/service-areas/oxford-ma/",
+        "/service-areas/shrewsbury-ma/",
+        "/service-areas/sutton-ma/",
+        "/service-areas/worcester-ma/"
       ]
     },
     {
@@ -277,6 +291,13 @@
         "/services/",
         "/contact/",
         "/service-areas/auburn-ma/water-damage-restoration/",
+        "/service-areas/grafton-ma/water-damage-restoration/",
+        "/service-areas/leicester-ma/water-damage-restoration/",
+        "/service-areas/millbury-ma/water-damage-restoration/",
+        "/service-areas/oxford-ma/water-damage-restoration/",
+        "/service-areas/shrewsbury-ma/water-damage-restoration/",
+        "/service-areas/sutton-ma/water-damage-restoration/",
+        "/service-areas/worcester-ma/water-damage-restoration/",
         "/blog/burst-pipe-emergency-checklist/",
         "/blog/what-to-do-first-24-hours-water-damage/",
         "/blog/choosing-a-restoration-company/"
@@ -318,7 +339,14 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
-        "/service-areas/auburn-ma/storm-damage-restoration/"
+        "/service-areas/auburn-ma/storm-damage-restoration/",
+        "/service-areas/grafton-ma/storm-damage-restoration/",
+        "/service-areas/leicester-ma/storm-damage-restoration/",
+        "/service-areas/millbury-ma/storm-damage-restoration/",
+        "/service-areas/oxford-ma/storm-damage-restoration/",
+        "/service-areas/shrewsbury-ma/storm-damage-restoration/",
+        "/service-areas/sutton-ma/storm-damage-restoration/",
+        "/service-areas/worcester-ma/storm-damage-restoration/"
       ]
     },
     {
@@ -358,6 +386,13 @@
         "/services/",
         "/contact/",
         "/service-areas/auburn-ma/fire-damage-restoration/",
+        "/service-areas/grafton-ma/fire-damage-restoration/",
+        "/service-areas/leicester-ma/fire-damage-restoration/",
+        "/service-areas/millbury-ma/fire-damage-restoration/",
+        "/service-areas/oxford-ma/fire-damage-restoration/",
+        "/service-areas/shrewsbury-ma/fire-damage-restoration/",
+        "/service-areas/sutton-ma/fire-damage-restoration/",
+        "/service-areas/worcester-ma/fire-damage-restoration/",
         "/blog/choosing-a-restoration-company/",
         "/blog/fire-damage-restoration-process/"
       ]
@@ -399,6 +434,13 @@
         "/services/",
         "/contact/",
         "/service-areas/auburn-ma/mold-remediation/",
+        "/service-areas/grafton-ma/mold-remediation/",
+        "/service-areas/leicester-ma/mold-remediation/",
+        "/service-areas/millbury-ma/mold-remediation/",
+        "/service-areas/oxford-ma/mold-remediation/",
+        "/service-areas/shrewsbury-ma/mold-remediation/",
+        "/service-areas/sutton-ma/mold-remediation/",
+        "/service-areas/worcester-ma/mold-remediation/",
         "/blog/choosing-a-restoration-company/",
         "/blog/how-to-test-for-mold/",
         "/blog/signs-of-hidden-mold/"
@@ -441,7 +483,14 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
-        "/service-areas/auburn-ma/general-contracting/"
+        "/service-areas/auburn-ma/general-contracting/",
+        "/service-areas/grafton-ma/general-contracting/",
+        "/service-areas/leicester-ma/general-contracting/",
+        "/service-areas/millbury-ma/general-contracting/",
+        "/service-areas/oxford-ma/general-contracting/",
+        "/service-areas/shrewsbury-ma/general-contracting/",
+        "/service-areas/sutton-ma/general-contracting/",
+        "/service-areas/worcester-ma/general-contracting/"
       ]
     },
     {
@@ -480,7 +529,14 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
-        "/service-areas/auburn-ma/sewage-cleanup/"
+        "/service-areas/auburn-ma/sewage-cleanup/",
+        "/service-areas/grafton-ma/sewage-cleanup/",
+        "/service-areas/leicester-ma/sewage-cleanup/",
+        "/service-areas/millbury-ma/sewage-cleanup/",
+        "/service-areas/oxford-ma/sewage-cleanup/",
+        "/service-areas/shrewsbury-ma/sewage-cleanup/",
+        "/service-areas/sutton-ma/sewage-cleanup/",
+        "/service-areas/worcester-ma/sewage-cleanup/"
       ]
     },
     {
@@ -519,7 +575,14 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
-        "/service-areas/auburn-ma/biohazard-cleanup/"
+        "/service-areas/auburn-ma/biohazard-cleanup/",
+        "/service-areas/grafton-ma/biohazard-cleanup/",
+        "/service-areas/leicester-ma/biohazard-cleanup/",
+        "/service-areas/millbury-ma/biohazard-cleanup/",
+        "/service-areas/oxford-ma/biohazard-cleanup/",
+        "/service-areas/shrewsbury-ma/biohazard-cleanup/",
+        "/service-areas/sutton-ma/biohazard-cleanup/",
+        "/service-areas/worcester-ma/biohazard-cleanup/"
       ]
     },
     {
@@ -558,7 +621,14 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
-        "/service-areas/auburn-ma/asbestos-abatement/"
+        "/service-areas/auburn-ma/asbestos-abatement/",
+        "/service-areas/grafton-ma/asbestos-abatement/",
+        "/service-areas/leicester-ma/asbestos-abatement/",
+        "/service-areas/millbury-ma/asbestos-abatement/",
+        "/service-areas/oxford-ma/asbestos-abatement/",
+        "/service-areas/shrewsbury-ma/asbestos-abatement/",
+        "/service-areas/sutton-ma/asbestos-abatement/",
+        "/service-areas/worcester-ma/asbestos-abatement/"
       ]
     },
     {
@@ -595,7 +665,14 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
-        "/service-areas/auburn-ma/emergency-board-up-tarping/"
+        "/service-areas/auburn-ma/emergency-board-up-tarping/",
+        "/service-areas/grafton-ma/emergency-board-up-tarping/",
+        "/service-areas/leicester-ma/emergency-board-up-tarping/",
+        "/service-areas/millbury-ma/emergency-board-up-tarping/",
+        "/service-areas/oxford-ma/emergency-board-up-tarping/",
+        "/service-areas/shrewsbury-ma/emergency-board-up-tarping/",
+        "/service-areas/sutton-ma/emergency-board-up-tarping/",
+        "/service-areas/worcester-ma/emergency-board-up-tarping/"
       ]
     },
     {
@@ -634,7 +711,14 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
-        "/service-areas/auburn-ma/contents-restoration/"
+        "/service-areas/auburn-ma/contents-restoration/",
+        "/service-areas/grafton-ma/contents-restoration/",
+        "/service-areas/leicester-ma/contents-restoration/",
+        "/service-areas/millbury-ma/contents-restoration/",
+        "/service-areas/oxford-ma/contents-restoration/",
+        "/service-areas/shrewsbury-ma/contents-restoration/",
+        "/service-areas/sutton-ma/contents-restoration/",
+        "/service-areas/worcester-ma/contents-restoration/"
       ]
     },
     {
@@ -673,7 +757,14 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
-        "/service-areas/auburn-ma/air-duct-cleaning/"
+        "/service-areas/auburn-ma/air-duct-cleaning/",
+        "/service-areas/grafton-ma/air-duct-cleaning/",
+        "/service-areas/leicester-ma/air-duct-cleaning/",
+        "/service-areas/millbury-ma/air-duct-cleaning/",
+        "/service-areas/oxford-ma/air-duct-cleaning/",
+        "/service-areas/shrewsbury-ma/air-duct-cleaning/",
+        "/service-areas/sutton-ma/air-duct-cleaning/",
+        "/service-areas/worcester-ma/air-duct-cleaning/"
       ]
     },
     {
@@ -712,7 +803,14 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
-        "/service-areas/auburn-ma/carpet-cleaning/"
+        "/service-areas/auburn-ma/carpet-cleaning/",
+        "/service-areas/grafton-ma/carpet-cleaning/",
+        "/service-areas/leicester-ma/carpet-cleaning/",
+        "/service-areas/millbury-ma/carpet-cleaning/",
+        "/service-areas/oxford-ma/carpet-cleaning/",
+        "/service-areas/shrewsbury-ma/carpet-cleaning/",
+        "/service-areas/sutton-ma/carpet-cleaning/",
+        "/service-areas/worcester-ma/carpet-cleaning/"
       ]
     },
     {
@@ -745,7 +843,14 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
-        "/service-areas/auburn-ma/crawl-space-encapsulation/"
+        "/service-areas/auburn-ma/crawl-space-encapsulation/",
+        "/service-areas/grafton-ma/crawl-space-encapsulation/",
+        "/service-areas/leicester-ma/crawl-space-encapsulation/",
+        "/service-areas/millbury-ma/crawl-space-encapsulation/",
+        "/service-areas/oxford-ma/crawl-space-encapsulation/",
+        "/service-areas/shrewsbury-ma/crawl-space-encapsulation/",
+        "/service-areas/sutton-ma/crawl-space-encapsulation/",
+        "/service-areas/worcester-ma/crawl-space-encapsulation/"
       ]
     },
     {
@@ -783,7 +888,14 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
-        "/service-areas/auburn-ma/post-construction-cleaning/"
+        "/service-areas/auburn-ma/post-construction-cleaning/",
+        "/service-areas/grafton-ma/post-construction-cleaning/",
+        "/service-areas/leicester-ma/post-construction-cleaning/",
+        "/service-areas/millbury-ma/post-construction-cleaning/",
+        "/service-areas/oxford-ma/post-construction-cleaning/",
+        "/service-areas/shrewsbury-ma/post-construction-cleaning/",
+        "/service-areas/sutton-ma/post-construction-cleaning/",
+        "/service-areas/worcester-ma/post-construction-cleaning/"
       ]
     },
     {
@@ -831,7 +943,367 @@
         "/service-areas/auburn-ma/contents-restoration/",
         "/service-areas/auburn-ma/crawl-space-encapsulation/",
         "/service-areas/auburn-ma/carpet-cleaning/",
-        "/service-areas/auburn-ma/post-construction-cleaning/"
+        "/service-areas/auburn-ma/post-construction-cleaning/",
+        "/service-areas/grafton-ma/",
+        "/service-areas/leicester-ma/",
+        "/service-areas/millbury-ma/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/worcester-ma/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Worcester, MA | Quality Contracting, Inc.",
+      "h1": "Restoration Services in Worcester",
+      "meta_description": "Serving Worcester, MA with water, fire, mold, and storm damage restoration. Experienced team. Call (508) 756-8800.",
+      "primary_keyword": "restoration services worcester",
+      "secondary_keywords": [
+        "worcester restoration company",
+        "damage restoration worcester",
+        "worcester disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/worcester-ma/fire-damage-restoration/",
+        "/service-areas/worcester-ma/mold-remediation/",
+        "/service-areas/worcester-ma/water-damage-restoration/",
+        "/service-areas/worcester-ma/sewage-cleanup/",
+        "/service-areas/worcester-ma/storm-damage-restoration/",
+        "/service-areas/worcester-ma/biohazard-cleanup/",
+        "/service-areas/worcester-ma/general-contracting/",
+        "/service-areas/worcester-ma/emergency-board-up-tarping/",
+        "/service-areas/worcester-ma/asbestos-abatement/",
+        "/service-areas/worcester-ma/air-duct-cleaning/",
+        "/service-areas/worcester-ma/contents-restoration/",
+        "/service-areas/worcester-ma/crawl-space-encapsulation/",
+        "/service-areas/worcester-ma/carpet-cleaning/",
+        "/service-areas/worcester-ma/post-construction-cleaning/",
+        "/service-areas/auburn-ma/",
+        "/service-areas/grafton-ma/",
+        "/service-areas/leicester-ma/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/shrewsbury-ma/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Shrewsbury, MA | Quality Contracting, Inc.",
+      "h1": "Restoration Services in Shrewsbury",
+      "meta_description": "Serving Shrewsbury, MA with water, fire, mold, and storm damage restoration. Experienced team. Call (508) 756-8800.",
+      "primary_keyword": "restoration services shrewsbury",
+      "secondary_keywords": [
+        "shrewsbury restoration company",
+        "damage restoration shrewsbury",
+        "shrewsbury disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/shrewsbury-ma/fire-damage-restoration/",
+        "/service-areas/shrewsbury-ma/mold-remediation/",
+        "/service-areas/shrewsbury-ma/water-damage-restoration/",
+        "/service-areas/shrewsbury-ma/sewage-cleanup/",
+        "/service-areas/shrewsbury-ma/storm-damage-restoration/",
+        "/service-areas/shrewsbury-ma/biohazard-cleanup/",
+        "/service-areas/shrewsbury-ma/general-contracting/",
+        "/service-areas/shrewsbury-ma/emergency-board-up-tarping/",
+        "/service-areas/shrewsbury-ma/asbestos-abatement/",
+        "/service-areas/shrewsbury-ma/air-duct-cleaning/",
+        "/service-areas/shrewsbury-ma/contents-restoration/",
+        "/service-areas/shrewsbury-ma/crawl-space-encapsulation/",
+        "/service-areas/shrewsbury-ma/carpet-cleaning/",
+        "/service-areas/shrewsbury-ma/post-construction-cleaning/",
+        "/service-areas/auburn-ma/",
+        "/service-areas/grafton-ma/",
+        "/service-areas/leicester-ma/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/millbury-ma/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Millbury, MA | Quality Contracting, Inc.",
+      "h1": "Restoration Services in Millbury",
+      "meta_description": "Serving Millbury, MA with water, fire, mold, and storm damage restoration. Experienced team. Call (508) 756-8800.",
+      "primary_keyword": "restoration services millbury",
+      "secondary_keywords": [
+        "millbury restoration company",
+        "damage restoration millbury",
+        "millbury disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/millbury-ma/fire-damage-restoration/",
+        "/service-areas/millbury-ma/mold-remediation/",
+        "/service-areas/millbury-ma/water-damage-restoration/",
+        "/service-areas/millbury-ma/sewage-cleanup/",
+        "/service-areas/millbury-ma/storm-damage-restoration/",
+        "/service-areas/millbury-ma/biohazard-cleanup/",
+        "/service-areas/millbury-ma/general-contracting/",
+        "/service-areas/millbury-ma/emergency-board-up-tarping/",
+        "/service-areas/millbury-ma/asbestos-abatement/",
+        "/service-areas/millbury-ma/air-duct-cleaning/",
+        "/service-areas/millbury-ma/contents-restoration/",
+        "/service-areas/millbury-ma/crawl-space-encapsulation/",
+        "/service-areas/millbury-ma/carpet-cleaning/",
+        "/service-areas/millbury-ma/post-construction-cleaning/",
+        "/service-areas/auburn-ma/",
+        "/service-areas/grafton-ma/",
+        "/service-areas/leicester-ma/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/grafton-ma/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Grafton, MA | Quality Contracting, Inc.",
+      "h1": "Restoration Services in Grafton",
+      "meta_description": "Serving Grafton, MA with water, fire, mold, and storm damage restoration. Experienced team. Call (508) 756-8800.",
+      "primary_keyword": "restoration services grafton",
+      "secondary_keywords": [
+        "grafton restoration company",
+        "damage restoration grafton",
+        "grafton disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/grafton-ma/fire-damage-restoration/",
+        "/service-areas/grafton-ma/mold-remediation/",
+        "/service-areas/grafton-ma/water-damage-restoration/",
+        "/service-areas/grafton-ma/sewage-cleanup/",
+        "/service-areas/grafton-ma/storm-damage-restoration/",
+        "/service-areas/grafton-ma/biohazard-cleanup/",
+        "/service-areas/grafton-ma/general-contracting/",
+        "/service-areas/grafton-ma/emergency-board-up-tarping/",
+        "/service-areas/grafton-ma/asbestos-abatement/",
+        "/service-areas/grafton-ma/air-duct-cleaning/",
+        "/service-areas/grafton-ma/contents-restoration/",
+        "/service-areas/grafton-ma/crawl-space-encapsulation/",
+        "/service-areas/grafton-ma/carpet-cleaning/",
+        "/service-areas/grafton-ma/post-construction-cleaning/",
+        "/service-areas/auburn-ma/",
+        "/service-areas/leicester-ma/",
+        "/service-areas/millbury-ma/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/leicester-ma/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Leicester, MA | Quality Contracting, Inc.",
+      "h1": "Restoration Services in Leicester",
+      "meta_description": "Serving Leicester, MA with water, fire, mold, and storm damage restoration. Experienced team. Call (508) 756-8800.",
+      "primary_keyword": "restoration services leicester",
+      "secondary_keywords": [
+        "leicester restoration company",
+        "damage restoration leicester",
+        "leicester disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/leicester-ma/fire-damage-restoration/",
+        "/service-areas/leicester-ma/mold-remediation/",
+        "/service-areas/leicester-ma/water-damage-restoration/",
+        "/service-areas/leicester-ma/sewage-cleanup/",
+        "/service-areas/leicester-ma/storm-damage-restoration/",
+        "/service-areas/leicester-ma/biohazard-cleanup/",
+        "/service-areas/leicester-ma/general-contracting/",
+        "/service-areas/leicester-ma/emergency-board-up-tarping/",
+        "/service-areas/leicester-ma/asbestos-abatement/",
+        "/service-areas/leicester-ma/air-duct-cleaning/",
+        "/service-areas/leicester-ma/contents-restoration/",
+        "/service-areas/leicester-ma/crawl-space-encapsulation/",
+        "/service-areas/leicester-ma/carpet-cleaning/",
+        "/service-areas/leicester-ma/post-construction-cleaning/",
+        "/service-areas/auburn-ma/",
+        "/service-areas/grafton-ma/",
+        "/service-areas/millbury-ma/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oxford-ma/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Oxford, MA | Quality Contracting, Inc.",
+      "h1": "Restoration Services in Oxford",
+      "meta_description": "Serving Oxford, MA with water, fire, mold, and storm damage restoration. Experienced team. Call (508) 756-8800.",
+      "primary_keyword": "restoration services oxford",
+      "secondary_keywords": [
+        "oxford restoration company",
+        "damage restoration oxford",
+        "oxford disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/oxford-ma/fire-damage-restoration/",
+        "/service-areas/oxford-ma/mold-remediation/",
+        "/service-areas/oxford-ma/water-damage-restoration/",
+        "/service-areas/oxford-ma/sewage-cleanup/",
+        "/service-areas/oxford-ma/storm-damage-restoration/",
+        "/service-areas/oxford-ma/biohazard-cleanup/",
+        "/service-areas/oxford-ma/general-contracting/",
+        "/service-areas/oxford-ma/emergency-board-up-tarping/",
+        "/service-areas/oxford-ma/asbestos-abatement/",
+        "/service-areas/oxford-ma/air-duct-cleaning/",
+        "/service-areas/oxford-ma/contents-restoration/",
+        "/service-areas/oxford-ma/crawl-space-encapsulation/",
+        "/service-areas/oxford-ma/carpet-cleaning/",
+        "/service-areas/oxford-ma/post-construction-cleaning/",
+        "/service-areas/auburn-ma/",
+        "/service-areas/grafton-ma/",
+        "/service-areas/leicester-ma/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sutton-ma/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Sutton, MA | Quality Contracting, Inc.",
+      "h1": "Restoration Services in Sutton",
+      "meta_description": "Serving Sutton, MA with water, fire, mold, and storm damage restoration. Experienced team. Call (508) 756-8800.",
+      "primary_keyword": "restoration services sutton",
+      "secondary_keywords": [
+        "sutton restoration company",
+        "damage restoration sutton",
+        "sutton disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/sutton-ma/fire-damage-restoration/",
+        "/service-areas/sutton-ma/mold-remediation/",
+        "/service-areas/sutton-ma/water-damage-restoration/",
+        "/service-areas/sutton-ma/sewage-cleanup/",
+        "/service-areas/sutton-ma/storm-damage-restoration/",
+        "/service-areas/sutton-ma/biohazard-cleanup/",
+        "/service-areas/sutton-ma/general-contracting/",
+        "/service-areas/sutton-ma/emergency-board-up-tarping/",
+        "/service-areas/sutton-ma/asbestos-abatement/",
+        "/service-areas/sutton-ma/air-duct-cleaning/",
+        "/service-areas/sutton-ma/contents-restoration/",
+        "/service-areas/sutton-ma/crawl-space-encapsulation/",
+        "/service-areas/sutton-ma/carpet-cleaning/",
+        "/service-areas/sutton-ma/post-construction-cleaning/",
+        "/service-areas/auburn-ma/",
+        "/service-areas/grafton-ma/",
+        "/service-areas/leicester-ma/"
       ]
     },
     {
@@ -873,6 +1345,8 @@
         "/service-areas/auburn-ma/",
         "/service-areas/auburn-ma/fire-damage-restoration/",
         "/service-areas/auburn-ma/mold-remediation/",
+        "/service-areas/grafton-ma/water-damage-restoration/",
+        "/service-areas/leicester-ma/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -915,6 +1389,8 @@
         "/service-areas/auburn-ma/",
         "/service-areas/auburn-ma/fire-damage-restoration/",
         "/service-areas/auburn-ma/mold-remediation/",
+        "/service-areas/grafton-ma/storm-damage-restoration/",
+        "/service-areas/leicester-ma/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -957,6 +1433,8 @@
         "/service-areas/auburn-ma/",
         "/service-areas/auburn-ma/mold-remediation/",
         "/service-areas/auburn-ma/water-damage-restoration/",
+        "/service-areas/grafton-ma/fire-damage-restoration/",
+        "/service-areas/leicester-ma/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -999,6 +1477,8 @@
         "/service-areas/auburn-ma/",
         "/service-areas/auburn-ma/fire-damage-restoration/",
         "/service-areas/auburn-ma/water-damage-restoration/",
+        "/service-areas/grafton-ma/mold-remediation/",
+        "/service-areas/leicester-ma/mold-remediation/",
         "/contact/"
       ]
     },
@@ -1042,6 +1522,8 @@
         "/service-areas/auburn-ma/",
         "/service-areas/auburn-ma/fire-damage-restoration/",
         "/service-areas/auburn-ma/mold-remediation/",
+        "/service-areas/grafton-ma/general-contracting/",
+        "/service-areas/leicester-ma/general-contracting/",
         "/contact/"
       ]
     },
@@ -1084,6 +1566,8 @@
         "/service-areas/auburn-ma/",
         "/service-areas/auburn-ma/fire-damage-restoration/",
         "/service-areas/auburn-ma/mold-remediation/",
+        "/service-areas/grafton-ma/sewage-cleanup/",
+        "/service-areas/leicester-ma/sewage-cleanup/",
         "/contact/"
       ]
     },
@@ -1126,6 +1610,8 @@
         "/service-areas/auburn-ma/",
         "/service-areas/auburn-ma/fire-damage-restoration/",
         "/service-areas/auburn-ma/mold-remediation/",
+        "/service-areas/grafton-ma/biohazard-cleanup/",
+        "/service-areas/leicester-ma/biohazard-cleanup/",
         "/contact/"
       ]
     },
@@ -1168,6 +1654,8 @@
         "/service-areas/auburn-ma/",
         "/service-areas/auburn-ma/fire-damage-restoration/",
         "/service-areas/auburn-ma/mold-remediation/",
+        "/service-areas/grafton-ma/asbestos-abatement/",
+        "/service-areas/leicester-ma/asbestos-abatement/",
         "/contact/"
       ]
     },
@@ -1208,6 +1696,8 @@
         "/service-areas/auburn-ma/",
         "/service-areas/auburn-ma/fire-damage-restoration/",
         "/service-areas/auburn-ma/mold-remediation/",
+        "/service-areas/grafton-ma/emergency-board-up-tarping/",
+        "/service-areas/leicester-ma/emergency-board-up-tarping/",
         "/contact/"
       ]
     },
@@ -1250,6 +1740,8 @@
         "/service-areas/auburn-ma/",
         "/service-areas/auburn-ma/fire-damage-restoration/",
         "/service-areas/auburn-ma/mold-remediation/",
+        "/service-areas/grafton-ma/contents-restoration/",
+        "/service-areas/leicester-ma/contents-restoration/",
         "/contact/"
       ]
     },
@@ -1292,6 +1784,8 @@
         "/service-areas/auburn-ma/",
         "/service-areas/auburn-ma/fire-damage-restoration/",
         "/service-areas/auburn-ma/mold-remediation/",
+        "/service-areas/grafton-ma/air-duct-cleaning/",
+        "/service-areas/leicester-ma/air-duct-cleaning/",
         "/contact/"
       ]
     },
@@ -1334,6 +1828,8 @@
         "/service-areas/auburn-ma/",
         "/service-areas/auburn-ma/fire-damage-restoration/",
         "/service-areas/auburn-ma/mold-remediation/",
+        "/service-areas/grafton-ma/carpet-cleaning/",
+        "/service-areas/leicester-ma/carpet-cleaning/",
         "/contact/"
       ]
     },
@@ -1370,6 +1866,8 @@
         "/service-areas/auburn-ma/",
         "/service-areas/auburn-ma/fire-damage-restoration/",
         "/service-areas/auburn-ma/mold-remediation/",
+        "/service-areas/grafton-ma/crawl-space-encapsulation/",
+        "/service-areas/leicester-ma/crawl-space-encapsulation/",
         "/contact/"
       ]
     },
@@ -1411,6 +1909,4264 @@
         "/service-areas/auburn-ma/",
         "/service-areas/auburn-ma/fire-damage-restoration/",
         "/service-areas/auburn-ma/mold-remediation/",
+        "/service-areas/grafton-ma/post-construction-cleaning/",
+        "/service-areas/leicester-ma/post-construction-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/worcester-ma/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Worcester, MA | Quality Contracting, Inc.",
+      "h1": "Water Damage Restoration in Worcester",
+      "meta_description": "Water damage restoration in Worcester, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "water damage restoration worcester",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/worcester-ma/",
+        "/service-areas/worcester-ma/fire-damage-restoration/",
+        "/service-areas/worcester-ma/mold-remediation/",
+        "/service-areas/auburn-ma/water-damage-restoration/",
+        "/service-areas/grafton-ma/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/worcester-ma/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Worcester, MA | Quality Contracting, Inc.",
+      "h1": "Storm Damage Restoration in Worcester",
+      "meta_description": "Storm damage restoration in Worcester, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "storm damage restoration worcester",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/worcester-ma/",
+        "/service-areas/worcester-ma/fire-damage-restoration/",
+        "/service-areas/worcester-ma/mold-remediation/",
+        "/service-areas/auburn-ma/storm-damage-restoration/",
+        "/service-areas/grafton-ma/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/worcester-ma/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Worcester, MA | Quality Contracting, Inc.",
+      "h1": "Fire Damage Restoration in Worcester",
+      "meta_description": "Fire damage restoration in Worcester, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "fire damage restoration worcester",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/worcester-ma/",
+        "/service-areas/worcester-ma/mold-remediation/",
+        "/service-areas/worcester-ma/water-damage-restoration/",
+        "/service-areas/auburn-ma/fire-damage-restoration/",
+        "/service-areas/grafton-ma/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/worcester-ma/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Worcester, MA | Quality Contracting, Inc.",
+      "h1": "Mold Remediation in Worcester",
+      "meta_description": "Mold remediation in Worcester, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "mold remediation worcester",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/worcester-ma/",
+        "/service-areas/worcester-ma/fire-damage-restoration/",
+        "/service-areas/worcester-ma/water-damage-restoration/",
+        "/service-areas/auburn-ma/mold-remediation/",
+        "/service-areas/grafton-ma/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/worcester-ma/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Worcester, MA | Quality Contracting, Inc.",
+      "h1": "Renovations, Remodels and General Contracting in Worcester",
+      "meta_description": "Renovations, remodels and general contracting in Worcester, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "renovations, remodels and general contracting worcester",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/worcester-ma/",
+        "/service-areas/worcester-ma/fire-damage-restoration/",
+        "/service-areas/worcester-ma/mold-remediation/",
+        "/service-areas/auburn-ma/general-contracting/",
+        "/service-areas/grafton-ma/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/worcester-ma/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Worcester, MA | Quality Contracting, Inc.",
+      "h1": "Sewage Cleanup and Sanitization in Worcester",
+      "meta_description": "Sewage cleanup and sanitization in Worcester, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "sewage cleanup and sanitization worcester",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/worcester-ma/",
+        "/service-areas/worcester-ma/fire-damage-restoration/",
+        "/service-areas/worcester-ma/mold-remediation/",
+        "/service-areas/auburn-ma/sewage-cleanup/",
+        "/service-areas/grafton-ma/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/worcester-ma/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Worcester, MA | Quality Contracting, Inc.",
+      "h1": "Biohazard Cleanup in Worcester",
+      "meta_description": "Biohazard cleanup in Worcester, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "biohazard cleanup worcester",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/worcester-ma/",
+        "/service-areas/worcester-ma/fire-damage-restoration/",
+        "/service-areas/worcester-ma/mold-remediation/",
+        "/service-areas/auburn-ma/biohazard-cleanup/",
+        "/service-areas/grafton-ma/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/worcester-ma/asbestos-abatement/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Asbestos Abatement in Worcester, MA | Quality Contracting, Inc.",
+      "h1": "Asbestos Abatement in Worcester",
+      "meta_description": "Asbestos abatement in Worcester, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "asbestos abatement worcester",
+      "secondary_keywords": [
+        "asbestos removal",
+        "asbestos testing",
+        "asbestos remediation",
+        "popcorn ceiling asbestos removal",
+        "asbestos inspection"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/asbestos-abatement/",
+        "/service-areas/worcester-ma/",
+        "/service-areas/worcester-ma/fire-damage-restoration/",
+        "/service-areas/worcester-ma/mold-remediation/",
+        "/service-areas/auburn-ma/asbestos-abatement/",
+        "/service-areas/grafton-ma/asbestos-abatement/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/worcester-ma/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Board-Up and Tarping in Worcester, MA | Quality Contracting, Inc.",
+      "h1": "Board-Up and Tarping in Worcester",
+      "meta_description": "Board-up and tarping in Worcester, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "emergency board-up and tarping worcester",
+      "secondary_keywords": [
+        "roof tarping",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/worcester-ma/",
+        "/service-areas/worcester-ma/fire-damage-restoration/",
+        "/service-areas/worcester-ma/mold-remediation/",
+        "/service-areas/auburn-ma/emergency-board-up-tarping/",
+        "/service-areas/grafton-ma/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/worcester-ma/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Worcester, MA | Quality Contracting, Inc.",
+      "h1": "Contents Restoration and Storage in Worcester",
+      "meta_description": "Contents restoration and storage in Worcester, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "contents restoration and storage worcester",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/worcester-ma/",
+        "/service-areas/worcester-ma/fire-damage-restoration/",
+        "/service-areas/worcester-ma/mold-remediation/",
+        "/service-areas/auburn-ma/contents-restoration/",
+        "/service-areas/grafton-ma/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/worcester-ma/air-duct-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Duct Cleaning in Worcester, MA | Quality Contracting, Inc.",
+      "h1": "Air Duct Cleaning in Worcester",
+      "meta_description": "Air duct cleaning in Worcester, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "air duct cleaning worcester",
+      "secondary_keywords": [
+        "duct cleaning",
+        "HVAC duct cleaning",
+        "air duct sanitization",
+        "dryer vent cleaning",
+        "residential duct cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/air-duct-cleaning/",
+        "/service-areas/worcester-ma/",
+        "/service-areas/worcester-ma/fire-damage-restoration/",
+        "/service-areas/worcester-ma/mold-remediation/",
+        "/service-areas/auburn-ma/air-duct-cleaning/",
+        "/service-areas/grafton-ma/air-duct-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/worcester-ma/carpet-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet Cleaning in Worcester, MA | Quality Contracting, Inc.",
+      "h1": "Carpet Cleaning in Worcester",
+      "meta_description": "Carpet cleaning in Worcester, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "carpet cleaning worcester",
+      "secondary_keywords": [
+        "professional carpet cleaning",
+        "deep carpet cleaning",
+        "carpet stain removal",
+        "commercial carpet cleaning",
+        "carpet sanitization"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-cleaning/",
+        "/service-areas/worcester-ma/",
+        "/service-areas/worcester-ma/fire-damage-restoration/",
+        "/service-areas/worcester-ma/mold-remediation/",
+        "/service-areas/auburn-ma/carpet-cleaning/",
+        "/service-areas/grafton-ma/carpet-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/worcester-ma/crawl-space-encapsulation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crawl Space Encapsulation in Worcester, MA | Quality Contracting, Inc.",
+      "h1": "Crawl Space Encapsulation in Worcester",
+      "meta_description": "Crawl space encapsulation in Worcester, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "crawl space encapsulation worcester",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crawl-space-encapsulation/",
+        "/service-areas/worcester-ma/",
+        "/service-areas/worcester-ma/fire-damage-restoration/",
+        "/service-areas/worcester-ma/mold-remediation/",
+        "/service-areas/auburn-ma/crawl-space-encapsulation/",
+        "/service-areas/grafton-ma/crawl-space-encapsulation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/worcester-ma/post-construction-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Post-Construction and Specialty Cleaning in Worcester, MA | Quality Contracting, Inc.",
+      "h1": "Post-Construction and Specialty Cleaning in Worcester",
+      "meta_description": "Post-construction and specialty cleaning in Worcester, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "post-construction and specialty cleaning worcester",
+      "secondary_keywords": [
+        "post construction cleanup",
+        "construction debris cleaning",
+        "final clean",
+        "deep cleaning after renovation"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/post-construction-cleaning/",
+        "/service-areas/worcester-ma/",
+        "/service-areas/worcester-ma/fire-damage-restoration/",
+        "/service-areas/worcester-ma/mold-remediation/",
+        "/service-areas/auburn-ma/post-construction-cleaning/",
+        "/service-areas/grafton-ma/post-construction-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/shrewsbury-ma/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Shrewsbury, MA | Quality Contracting, Inc.",
+      "h1": "Water Damage Restoration in Shrewsbury",
+      "meta_description": "Water damage restoration in Shrewsbury, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "water damage restoration shrewsbury",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/shrewsbury-ma/",
+        "/service-areas/shrewsbury-ma/fire-damage-restoration/",
+        "/service-areas/shrewsbury-ma/mold-remediation/",
+        "/service-areas/auburn-ma/water-damage-restoration/",
+        "/service-areas/grafton-ma/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/shrewsbury-ma/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Shrewsbury, MA | Quality Contracting, Inc.",
+      "h1": "Storm Damage Restoration in Shrewsbury",
+      "meta_description": "Storm damage restoration in Shrewsbury, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "storm damage restoration shrewsbury",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/shrewsbury-ma/",
+        "/service-areas/shrewsbury-ma/fire-damage-restoration/",
+        "/service-areas/shrewsbury-ma/mold-remediation/",
+        "/service-areas/auburn-ma/storm-damage-restoration/",
+        "/service-areas/grafton-ma/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/shrewsbury-ma/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Shrewsbury, MA | Quality Contracting, Inc.",
+      "h1": "Fire Damage Restoration in Shrewsbury",
+      "meta_description": "Fire damage restoration in Shrewsbury, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "fire damage restoration shrewsbury",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/shrewsbury-ma/",
+        "/service-areas/shrewsbury-ma/mold-remediation/",
+        "/service-areas/shrewsbury-ma/water-damage-restoration/",
+        "/service-areas/auburn-ma/fire-damage-restoration/",
+        "/service-areas/grafton-ma/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/shrewsbury-ma/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Shrewsbury, MA | Quality Contracting, Inc.",
+      "h1": "Mold Remediation in Shrewsbury",
+      "meta_description": "Mold remediation in Shrewsbury, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "mold remediation shrewsbury",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/shrewsbury-ma/",
+        "/service-areas/shrewsbury-ma/fire-damage-restoration/",
+        "/service-areas/shrewsbury-ma/water-damage-restoration/",
+        "/service-areas/auburn-ma/mold-remediation/",
+        "/service-areas/grafton-ma/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/shrewsbury-ma/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Shrewsbury, MA | Quality Contracting, Inc.",
+      "h1": "Renovations, Remodels and General Contracting in Shrewsbury",
+      "meta_description": "Renovations, remodels and general contracting in Shrewsbury, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "renovations, remodels and general contracting shrewsbury",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/shrewsbury-ma/",
+        "/service-areas/shrewsbury-ma/fire-damage-restoration/",
+        "/service-areas/shrewsbury-ma/mold-remediation/",
+        "/service-areas/auburn-ma/general-contracting/",
+        "/service-areas/grafton-ma/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/shrewsbury-ma/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Shrewsbury, MA | Quality Contracting, Inc.",
+      "h1": "Sewage Cleanup and Sanitization in Shrewsbury",
+      "meta_description": "Sewage cleanup and sanitization in Shrewsbury, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "sewage cleanup and sanitization shrewsbury",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/shrewsbury-ma/",
+        "/service-areas/shrewsbury-ma/fire-damage-restoration/",
+        "/service-areas/shrewsbury-ma/mold-remediation/",
+        "/service-areas/auburn-ma/sewage-cleanup/",
+        "/service-areas/grafton-ma/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/shrewsbury-ma/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Shrewsbury, MA | Quality Contracting, Inc.",
+      "h1": "Biohazard Cleanup in Shrewsbury",
+      "meta_description": "Biohazard cleanup in Shrewsbury, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "biohazard cleanup shrewsbury",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/shrewsbury-ma/",
+        "/service-areas/shrewsbury-ma/fire-damage-restoration/",
+        "/service-areas/shrewsbury-ma/mold-remediation/",
+        "/service-areas/auburn-ma/biohazard-cleanup/",
+        "/service-areas/grafton-ma/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/shrewsbury-ma/asbestos-abatement/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Asbestos Abatement in Shrewsbury, MA | Quality Contracting, Inc.",
+      "h1": "Asbestos Abatement in Shrewsbury",
+      "meta_description": "Asbestos abatement in Shrewsbury, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "asbestos abatement shrewsbury",
+      "secondary_keywords": [
+        "asbestos removal",
+        "asbestos testing",
+        "asbestos remediation",
+        "popcorn ceiling asbestos removal",
+        "asbestos inspection"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/asbestos-abatement/",
+        "/service-areas/shrewsbury-ma/",
+        "/service-areas/shrewsbury-ma/fire-damage-restoration/",
+        "/service-areas/shrewsbury-ma/mold-remediation/",
+        "/service-areas/auburn-ma/asbestos-abatement/",
+        "/service-areas/grafton-ma/asbestos-abatement/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/shrewsbury-ma/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Board-Up and Tarping in Shrewsbury, MA | Quality Contracting, Inc.",
+      "h1": "Board-Up and Tarping in Shrewsbury",
+      "meta_description": "Board-up and tarping in Shrewsbury, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "emergency board-up and tarping shrewsbury",
+      "secondary_keywords": [
+        "roof tarping",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/shrewsbury-ma/",
+        "/service-areas/shrewsbury-ma/fire-damage-restoration/",
+        "/service-areas/shrewsbury-ma/mold-remediation/",
+        "/service-areas/auburn-ma/emergency-board-up-tarping/",
+        "/service-areas/grafton-ma/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/shrewsbury-ma/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Shrewsbury, MA | Quality Contracting, Inc.",
+      "h1": "Contents Restoration and Storage in Shrewsbury",
+      "meta_description": "Contents restoration and storage in Shrewsbury, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "contents restoration and storage shrewsbury",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/shrewsbury-ma/",
+        "/service-areas/shrewsbury-ma/fire-damage-restoration/",
+        "/service-areas/shrewsbury-ma/mold-remediation/",
+        "/service-areas/auburn-ma/contents-restoration/",
+        "/service-areas/grafton-ma/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/shrewsbury-ma/air-duct-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Duct Cleaning in Shrewsbury, MA | Quality Contracting, Inc.",
+      "h1": "Air Duct Cleaning in Shrewsbury",
+      "meta_description": "Air duct cleaning in Shrewsbury, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "air duct cleaning shrewsbury",
+      "secondary_keywords": [
+        "duct cleaning",
+        "HVAC duct cleaning",
+        "air duct sanitization",
+        "dryer vent cleaning",
+        "residential duct cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/air-duct-cleaning/",
+        "/service-areas/shrewsbury-ma/",
+        "/service-areas/shrewsbury-ma/fire-damage-restoration/",
+        "/service-areas/shrewsbury-ma/mold-remediation/",
+        "/service-areas/auburn-ma/air-duct-cleaning/",
+        "/service-areas/grafton-ma/air-duct-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/shrewsbury-ma/carpet-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet Cleaning in Shrewsbury, MA | Quality Contracting, Inc.",
+      "h1": "Carpet Cleaning in Shrewsbury",
+      "meta_description": "Carpet cleaning in Shrewsbury, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "carpet cleaning shrewsbury",
+      "secondary_keywords": [
+        "professional carpet cleaning",
+        "deep carpet cleaning",
+        "carpet stain removal",
+        "commercial carpet cleaning",
+        "carpet sanitization"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-cleaning/",
+        "/service-areas/shrewsbury-ma/",
+        "/service-areas/shrewsbury-ma/fire-damage-restoration/",
+        "/service-areas/shrewsbury-ma/mold-remediation/",
+        "/service-areas/auburn-ma/carpet-cleaning/",
+        "/service-areas/grafton-ma/carpet-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/shrewsbury-ma/crawl-space-encapsulation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crawl Space Encapsulation in Shrewsbury, MA | Quality Contracting, Inc.",
+      "h1": "Crawl Space Encapsulation in Shrewsbury",
+      "meta_description": "Crawl space encapsulation in Shrewsbury, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "crawl space encapsulation shrewsbury",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crawl-space-encapsulation/",
+        "/service-areas/shrewsbury-ma/",
+        "/service-areas/shrewsbury-ma/fire-damage-restoration/",
+        "/service-areas/shrewsbury-ma/mold-remediation/",
+        "/service-areas/auburn-ma/crawl-space-encapsulation/",
+        "/service-areas/grafton-ma/crawl-space-encapsulation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/shrewsbury-ma/post-construction-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Post-Construction and Specialty Cleaning in Shrewsbury, MA | Quality Contracting, Inc.",
+      "h1": "Post-Construction and Specialty Cleaning in Shrewsbury",
+      "meta_description": "Post-construction and specialty cleaning in Shrewsbury, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "post-construction and specialty cleaning shrewsbury",
+      "secondary_keywords": [
+        "post construction cleanup",
+        "construction debris cleaning",
+        "final clean",
+        "deep cleaning after renovation"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/post-construction-cleaning/",
+        "/service-areas/shrewsbury-ma/",
+        "/service-areas/shrewsbury-ma/fire-damage-restoration/",
+        "/service-areas/shrewsbury-ma/mold-remediation/",
+        "/service-areas/auburn-ma/post-construction-cleaning/",
+        "/service-areas/grafton-ma/post-construction-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/millbury-ma/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Millbury, MA | Quality Contracting, Inc.",
+      "h1": "Water Damage Restoration in Millbury",
+      "meta_description": "Water damage restoration in Millbury, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "water damage restoration millbury",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/millbury-ma/",
+        "/service-areas/millbury-ma/fire-damage-restoration/",
+        "/service-areas/millbury-ma/mold-remediation/",
+        "/service-areas/auburn-ma/water-damage-restoration/",
+        "/service-areas/grafton-ma/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/millbury-ma/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Millbury, MA | Quality Contracting, Inc.",
+      "h1": "Storm Damage Restoration in Millbury",
+      "meta_description": "Storm damage restoration in Millbury, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "storm damage restoration millbury",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/millbury-ma/",
+        "/service-areas/millbury-ma/fire-damage-restoration/",
+        "/service-areas/millbury-ma/mold-remediation/",
+        "/service-areas/auburn-ma/storm-damage-restoration/",
+        "/service-areas/grafton-ma/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/millbury-ma/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Millbury, MA | Quality Contracting, Inc.",
+      "h1": "Fire Damage Restoration in Millbury",
+      "meta_description": "Fire damage restoration in Millbury, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "fire damage restoration millbury",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/millbury-ma/",
+        "/service-areas/millbury-ma/mold-remediation/",
+        "/service-areas/millbury-ma/water-damage-restoration/",
+        "/service-areas/auburn-ma/fire-damage-restoration/",
+        "/service-areas/grafton-ma/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/millbury-ma/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Millbury, MA | Quality Contracting, Inc.",
+      "h1": "Mold Remediation in Millbury",
+      "meta_description": "Mold remediation in Millbury, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "mold remediation millbury",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/millbury-ma/",
+        "/service-areas/millbury-ma/fire-damage-restoration/",
+        "/service-areas/millbury-ma/water-damage-restoration/",
+        "/service-areas/auburn-ma/mold-remediation/",
+        "/service-areas/grafton-ma/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/millbury-ma/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Millbury, MA | Quality Contracting, Inc.",
+      "h1": "Renovations, Remodels and General Contracting in Millbury",
+      "meta_description": "Renovations, remodels and general contracting in Millbury, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "renovations, remodels and general contracting millbury",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/millbury-ma/",
+        "/service-areas/millbury-ma/fire-damage-restoration/",
+        "/service-areas/millbury-ma/mold-remediation/",
+        "/service-areas/auburn-ma/general-contracting/",
+        "/service-areas/grafton-ma/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/millbury-ma/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Millbury, MA | Quality Contracting, Inc.",
+      "h1": "Sewage Cleanup and Sanitization in Millbury",
+      "meta_description": "Sewage cleanup and sanitization in Millbury, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "sewage cleanup and sanitization millbury",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/millbury-ma/",
+        "/service-areas/millbury-ma/fire-damage-restoration/",
+        "/service-areas/millbury-ma/mold-remediation/",
+        "/service-areas/auburn-ma/sewage-cleanup/",
+        "/service-areas/grafton-ma/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/millbury-ma/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Millbury, MA | Quality Contracting, Inc.",
+      "h1": "Biohazard Cleanup in Millbury",
+      "meta_description": "Biohazard cleanup in Millbury, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "biohazard cleanup millbury",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/millbury-ma/",
+        "/service-areas/millbury-ma/fire-damage-restoration/",
+        "/service-areas/millbury-ma/mold-remediation/",
+        "/service-areas/auburn-ma/biohazard-cleanup/",
+        "/service-areas/grafton-ma/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/millbury-ma/asbestos-abatement/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Asbestos Abatement in Millbury, MA | Quality Contracting, Inc.",
+      "h1": "Asbestos Abatement in Millbury",
+      "meta_description": "Asbestos abatement in Millbury, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "asbestos abatement millbury",
+      "secondary_keywords": [
+        "asbestos removal",
+        "asbestos testing",
+        "asbestos remediation",
+        "popcorn ceiling asbestos removal",
+        "asbestos inspection"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/asbestos-abatement/",
+        "/service-areas/millbury-ma/",
+        "/service-areas/millbury-ma/fire-damage-restoration/",
+        "/service-areas/millbury-ma/mold-remediation/",
+        "/service-areas/auburn-ma/asbestos-abatement/",
+        "/service-areas/grafton-ma/asbestos-abatement/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/millbury-ma/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Board-Up and Tarping in Millbury, MA | Quality Contracting, Inc.",
+      "h1": "Board-Up and Tarping in Millbury",
+      "meta_description": "Board-up and tarping in Millbury, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "emergency board-up and tarping millbury",
+      "secondary_keywords": [
+        "roof tarping",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/millbury-ma/",
+        "/service-areas/millbury-ma/fire-damage-restoration/",
+        "/service-areas/millbury-ma/mold-remediation/",
+        "/service-areas/auburn-ma/emergency-board-up-tarping/",
+        "/service-areas/grafton-ma/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/millbury-ma/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Millbury, MA | Quality Contracting, Inc.",
+      "h1": "Contents Restoration and Storage in Millbury",
+      "meta_description": "Contents restoration and storage in Millbury, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "contents restoration and storage millbury",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/millbury-ma/",
+        "/service-areas/millbury-ma/fire-damage-restoration/",
+        "/service-areas/millbury-ma/mold-remediation/",
+        "/service-areas/auburn-ma/contents-restoration/",
+        "/service-areas/grafton-ma/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/millbury-ma/air-duct-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Duct Cleaning in Millbury, MA | Quality Contracting, Inc.",
+      "h1": "Air Duct Cleaning in Millbury",
+      "meta_description": "Air duct cleaning in Millbury, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "air duct cleaning millbury",
+      "secondary_keywords": [
+        "duct cleaning",
+        "HVAC duct cleaning",
+        "air duct sanitization",
+        "dryer vent cleaning",
+        "residential duct cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/air-duct-cleaning/",
+        "/service-areas/millbury-ma/",
+        "/service-areas/millbury-ma/fire-damage-restoration/",
+        "/service-areas/millbury-ma/mold-remediation/",
+        "/service-areas/auburn-ma/air-duct-cleaning/",
+        "/service-areas/grafton-ma/air-duct-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/millbury-ma/carpet-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet Cleaning in Millbury, MA | Quality Contracting, Inc.",
+      "h1": "Carpet Cleaning in Millbury",
+      "meta_description": "Carpet cleaning in Millbury, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "carpet cleaning millbury",
+      "secondary_keywords": [
+        "professional carpet cleaning",
+        "deep carpet cleaning",
+        "carpet stain removal",
+        "commercial carpet cleaning",
+        "carpet sanitization"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-cleaning/",
+        "/service-areas/millbury-ma/",
+        "/service-areas/millbury-ma/fire-damage-restoration/",
+        "/service-areas/millbury-ma/mold-remediation/",
+        "/service-areas/auburn-ma/carpet-cleaning/",
+        "/service-areas/grafton-ma/carpet-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/millbury-ma/crawl-space-encapsulation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crawl Space Encapsulation in Millbury, MA | Quality Contracting, Inc.",
+      "h1": "Crawl Space Encapsulation in Millbury",
+      "meta_description": "Crawl space encapsulation in Millbury, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "crawl space encapsulation millbury",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crawl-space-encapsulation/",
+        "/service-areas/millbury-ma/",
+        "/service-areas/millbury-ma/fire-damage-restoration/",
+        "/service-areas/millbury-ma/mold-remediation/",
+        "/service-areas/auburn-ma/crawl-space-encapsulation/",
+        "/service-areas/grafton-ma/crawl-space-encapsulation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/millbury-ma/post-construction-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Post-Construction and Specialty Cleaning in Millbury, MA | Quality Contracting, Inc.",
+      "h1": "Post-Construction and Specialty Cleaning in Millbury",
+      "meta_description": "Post-construction and specialty cleaning in Millbury, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "post-construction and specialty cleaning millbury",
+      "secondary_keywords": [
+        "post construction cleanup",
+        "construction debris cleaning",
+        "final clean",
+        "deep cleaning after renovation"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/post-construction-cleaning/",
+        "/service-areas/millbury-ma/",
+        "/service-areas/millbury-ma/fire-damage-restoration/",
+        "/service-areas/millbury-ma/mold-remediation/",
+        "/service-areas/auburn-ma/post-construction-cleaning/",
+        "/service-areas/grafton-ma/post-construction-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/grafton-ma/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Grafton, MA | Quality Contracting, Inc.",
+      "h1": "Water Damage Restoration in Grafton",
+      "meta_description": "Water damage restoration in Grafton, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "water damage restoration grafton",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/grafton-ma/",
+        "/service-areas/grafton-ma/fire-damage-restoration/",
+        "/service-areas/grafton-ma/mold-remediation/",
+        "/service-areas/auburn-ma/water-damage-restoration/",
+        "/service-areas/leicester-ma/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/grafton-ma/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Grafton, MA | Quality Contracting, Inc.",
+      "h1": "Storm Damage Restoration in Grafton",
+      "meta_description": "Storm damage restoration in Grafton, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "storm damage restoration grafton",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/grafton-ma/",
+        "/service-areas/grafton-ma/fire-damage-restoration/",
+        "/service-areas/grafton-ma/mold-remediation/",
+        "/service-areas/auburn-ma/storm-damage-restoration/",
+        "/service-areas/leicester-ma/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/grafton-ma/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Grafton, MA | Quality Contracting, Inc.",
+      "h1": "Fire Damage Restoration in Grafton",
+      "meta_description": "Fire damage restoration in Grafton, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "fire damage restoration grafton",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/grafton-ma/",
+        "/service-areas/grafton-ma/mold-remediation/",
+        "/service-areas/grafton-ma/water-damage-restoration/",
+        "/service-areas/auburn-ma/fire-damage-restoration/",
+        "/service-areas/leicester-ma/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/grafton-ma/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Grafton, MA | Quality Contracting, Inc.",
+      "h1": "Mold Remediation in Grafton",
+      "meta_description": "Mold remediation in Grafton, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "mold remediation grafton",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/grafton-ma/",
+        "/service-areas/grafton-ma/fire-damage-restoration/",
+        "/service-areas/grafton-ma/water-damage-restoration/",
+        "/service-areas/auburn-ma/mold-remediation/",
+        "/service-areas/leicester-ma/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/grafton-ma/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Grafton, MA | Quality Contracting, Inc.",
+      "h1": "Renovations, Remodels and General Contracting in Grafton",
+      "meta_description": "Renovations, remodels and general contracting in Grafton, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "renovations, remodels and general contracting grafton",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/grafton-ma/",
+        "/service-areas/grafton-ma/fire-damage-restoration/",
+        "/service-areas/grafton-ma/mold-remediation/",
+        "/service-areas/auburn-ma/general-contracting/",
+        "/service-areas/leicester-ma/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/grafton-ma/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Grafton, MA | Quality Contracting, Inc.",
+      "h1": "Sewage Cleanup and Sanitization in Grafton",
+      "meta_description": "Sewage cleanup and sanitization in Grafton, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "sewage cleanup and sanitization grafton",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/grafton-ma/",
+        "/service-areas/grafton-ma/fire-damage-restoration/",
+        "/service-areas/grafton-ma/mold-remediation/",
+        "/service-areas/auburn-ma/sewage-cleanup/",
+        "/service-areas/leicester-ma/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/grafton-ma/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Grafton, MA | Quality Contracting, Inc.",
+      "h1": "Biohazard Cleanup in Grafton",
+      "meta_description": "Biohazard cleanup in Grafton, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "biohazard cleanup grafton",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/grafton-ma/",
+        "/service-areas/grafton-ma/fire-damage-restoration/",
+        "/service-areas/grafton-ma/mold-remediation/",
+        "/service-areas/auburn-ma/biohazard-cleanup/",
+        "/service-areas/leicester-ma/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/grafton-ma/asbestos-abatement/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Asbestos Abatement in Grafton, MA | Quality Contracting, Inc.",
+      "h1": "Asbestos Abatement in Grafton",
+      "meta_description": "Asbestos abatement in Grafton, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "asbestos abatement grafton",
+      "secondary_keywords": [
+        "asbestos removal",
+        "asbestos testing",
+        "asbestos remediation",
+        "popcorn ceiling asbestos removal",
+        "asbestos inspection"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/asbestos-abatement/",
+        "/service-areas/grafton-ma/",
+        "/service-areas/grafton-ma/fire-damage-restoration/",
+        "/service-areas/grafton-ma/mold-remediation/",
+        "/service-areas/auburn-ma/asbestos-abatement/",
+        "/service-areas/leicester-ma/asbestos-abatement/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/grafton-ma/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Board-Up and Tarping in Grafton, MA | Quality Contracting, Inc.",
+      "h1": "Board-Up and Tarping in Grafton",
+      "meta_description": "Board-up and tarping in Grafton, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "emergency board-up and tarping grafton",
+      "secondary_keywords": [
+        "roof tarping",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/grafton-ma/",
+        "/service-areas/grafton-ma/fire-damage-restoration/",
+        "/service-areas/grafton-ma/mold-remediation/",
+        "/service-areas/auburn-ma/emergency-board-up-tarping/",
+        "/service-areas/leicester-ma/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/grafton-ma/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Grafton, MA | Quality Contracting, Inc.",
+      "h1": "Contents Restoration and Storage in Grafton",
+      "meta_description": "Contents restoration and storage in Grafton, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "contents restoration and storage grafton",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/grafton-ma/",
+        "/service-areas/grafton-ma/fire-damage-restoration/",
+        "/service-areas/grafton-ma/mold-remediation/",
+        "/service-areas/auburn-ma/contents-restoration/",
+        "/service-areas/leicester-ma/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/grafton-ma/air-duct-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Duct Cleaning in Grafton, MA | Quality Contracting, Inc.",
+      "h1": "Air Duct Cleaning in Grafton",
+      "meta_description": "Air duct cleaning in Grafton, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "air duct cleaning grafton",
+      "secondary_keywords": [
+        "duct cleaning",
+        "HVAC duct cleaning",
+        "air duct sanitization",
+        "dryer vent cleaning",
+        "residential duct cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/air-duct-cleaning/",
+        "/service-areas/grafton-ma/",
+        "/service-areas/grafton-ma/fire-damage-restoration/",
+        "/service-areas/grafton-ma/mold-remediation/",
+        "/service-areas/auburn-ma/air-duct-cleaning/",
+        "/service-areas/leicester-ma/air-duct-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/grafton-ma/carpet-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet Cleaning in Grafton, MA | Quality Contracting, Inc.",
+      "h1": "Carpet Cleaning in Grafton",
+      "meta_description": "Carpet cleaning in Grafton, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "carpet cleaning grafton",
+      "secondary_keywords": [
+        "professional carpet cleaning",
+        "deep carpet cleaning",
+        "carpet stain removal",
+        "commercial carpet cleaning",
+        "carpet sanitization"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-cleaning/",
+        "/service-areas/grafton-ma/",
+        "/service-areas/grafton-ma/fire-damage-restoration/",
+        "/service-areas/grafton-ma/mold-remediation/",
+        "/service-areas/auburn-ma/carpet-cleaning/",
+        "/service-areas/leicester-ma/carpet-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/grafton-ma/crawl-space-encapsulation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crawl Space Encapsulation in Grafton, MA | Quality Contracting, Inc.",
+      "h1": "Crawl Space Encapsulation in Grafton",
+      "meta_description": "Crawl space encapsulation in Grafton, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "crawl space encapsulation grafton",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crawl-space-encapsulation/",
+        "/service-areas/grafton-ma/",
+        "/service-areas/grafton-ma/fire-damage-restoration/",
+        "/service-areas/grafton-ma/mold-remediation/",
+        "/service-areas/auburn-ma/crawl-space-encapsulation/",
+        "/service-areas/leicester-ma/crawl-space-encapsulation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/grafton-ma/post-construction-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Post-Construction and Specialty Cleaning in Grafton, MA | Quality Contracting, Inc.",
+      "h1": "Post-Construction and Specialty Cleaning in Grafton",
+      "meta_description": "Post-construction and specialty cleaning in Grafton, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "post-construction and specialty cleaning grafton",
+      "secondary_keywords": [
+        "post construction cleanup",
+        "construction debris cleaning",
+        "final clean",
+        "deep cleaning after renovation"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/post-construction-cleaning/",
+        "/service-areas/grafton-ma/",
+        "/service-areas/grafton-ma/fire-damage-restoration/",
+        "/service-areas/grafton-ma/mold-remediation/",
+        "/service-areas/auburn-ma/post-construction-cleaning/",
+        "/service-areas/leicester-ma/post-construction-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/leicester-ma/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Leicester, MA | Quality Contracting, Inc.",
+      "h1": "Water Damage Restoration in Leicester",
+      "meta_description": "Water damage restoration in Leicester, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "water damage restoration leicester",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/leicester-ma/",
+        "/service-areas/leicester-ma/fire-damage-restoration/",
+        "/service-areas/leicester-ma/mold-remediation/",
+        "/service-areas/auburn-ma/water-damage-restoration/",
+        "/service-areas/grafton-ma/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/leicester-ma/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Leicester, MA | Quality Contracting, Inc.",
+      "h1": "Storm Damage Restoration in Leicester",
+      "meta_description": "Storm damage restoration in Leicester, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "storm damage restoration leicester",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/leicester-ma/",
+        "/service-areas/leicester-ma/fire-damage-restoration/",
+        "/service-areas/leicester-ma/mold-remediation/",
+        "/service-areas/auburn-ma/storm-damage-restoration/",
+        "/service-areas/grafton-ma/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/leicester-ma/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Leicester, MA | Quality Contracting, Inc.",
+      "h1": "Fire Damage Restoration in Leicester",
+      "meta_description": "Fire damage restoration in Leicester, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "fire damage restoration leicester",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/leicester-ma/",
+        "/service-areas/leicester-ma/mold-remediation/",
+        "/service-areas/leicester-ma/water-damage-restoration/",
+        "/service-areas/auburn-ma/fire-damage-restoration/",
+        "/service-areas/grafton-ma/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/leicester-ma/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Leicester, MA | Quality Contracting, Inc.",
+      "h1": "Mold Remediation in Leicester",
+      "meta_description": "Mold remediation in Leicester, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "mold remediation leicester",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/leicester-ma/",
+        "/service-areas/leicester-ma/fire-damage-restoration/",
+        "/service-areas/leicester-ma/water-damage-restoration/",
+        "/service-areas/auburn-ma/mold-remediation/",
+        "/service-areas/grafton-ma/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/leicester-ma/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Leicester, MA | Quality Contracting, Inc.",
+      "h1": "Renovations, Remodels and General Contracting in Leicester",
+      "meta_description": "Renovations, remodels and general contracting in Leicester, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "renovations, remodels and general contracting leicester",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/leicester-ma/",
+        "/service-areas/leicester-ma/fire-damage-restoration/",
+        "/service-areas/leicester-ma/mold-remediation/",
+        "/service-areas/auburn-ma/general-contracting/",
+        "/service-areas/grafton-ma/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/leicester-ma/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Leicester, MA | Quality Contracting, Inc.",
+      "h1": "Sewage Cleanup and Sanitization in Leicester",
+      "meta_description": "Sewage cleanup and sanitization in Leicester, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "sewage cleanup and sanitization leicester",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/leicester-ma/",
+        "/service-areas/leicester-ma/fire-damage-restoration/",
+        "/service-areas/leicester-ma/mold-remediation/",
+        "/service-areas/auburn-ma/sewage-cleanup/",
+        "/service-areas/grafton-ma/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/leicester-ma/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Leicester, MA | Quality Contracting, Inc.",
+      "h1": "Biohazard Cleanup in Leicester",
+      "meta_description": "Biohazard cleanup in Leicester, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "biohazard cleanup leicester",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/leicester-ma/",
+        "/service-areas/leicester-ma/fire-damage-restoration/",
+        "/service-areas/leicester-ma/mold-remediation/",
+        "/service-areas/auburn-ma/biohazard-cleanup/",
+        "/service-areas/grafton-ma/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/leicester-ma/asbestos-abatement/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Asbestos Abatement in Leicester, MA | Quality Contracting, Inc.",
+      "h1": "Asbestos Abatement in Leicester",
+      "meta_description": "Asbestos abatement in Leicester, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "asbestos abatement leicester",
+      "secondary_keywords": [
+        "asbestos removal",
+        "asbestos testing",
+        "asbestos remediation",
+        "popcorn ceiling asbestos removal",
+        "asbestos inspection"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/asbestos-abatement/",
+        "/service-areas/leicester-ma/",
+        "/service-areas/leicester-ma/fire-damage-restoration/",
+        "/service-areas/leicester-ma/mold-remediation/",
+        "/service-areas/auburn-ma/asbestos-abatement/",
+        "/service-areas/grafton-ma/asbestos-abatement/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/leicester-ma/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Board-Up and Tarping in Leicester, MA | Quality Contracting, Inc.",
+      "h1": "Board-Up and Tarping in Leicester",
+      "meta_description": "Board-up and tarping in Leicester, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "emergency board-up and tarping leicester",
+      "secondary_keywords": [
+        "roof tarping",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/leicester-ma/",
+        "/service-areas/leicester-ma/fire-damage-restoration/",
+        "/service-areas/leicester-ma/mold-remediation/",
+        "/service-areas/auburn-ma/emergency-board-up-tarping/",
+        "/service-areas/grafton-ma/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/leicester-ma/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Leicester, MA | Quality Contracting, Inc.",
+      "h1": "Contents Restoration and Storage in Leicester",
+      "meta_description": "Contents restoration and storage in Leicester, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "contents restoration and storage leicester",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/leicester-ma/",
+        "/service-areas/leicester-ma/fire-damage-restoration/",
+        "/service-areas/leicester-ma/mold-remediation/",
+        "/service-areas/auburn-ma/contents-restoration/",
+        "/service-areas/grafton-ma/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/leicester-ma/air-duct-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Duct Cleaning in Leicester, MA | Quality Contracting, Inc.",
+      "h1": "Air Duct Cleaning in Leicester",
+      "meta_description": "Air duct cleaning in Leicester, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "air duct cleaning leicester",
+      "secondary_keywords": [
+        "duct cleaning",
+        "HVAC duct cleaning",
+        "air duct sanitization",
+        "dryer vent cleaning",
+        "residential duct cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/air-duct-cleaning/",
+        "/service-areas/leicester-ma/",
+        "/service-areas/leicester-ma/fire-damage-restoration/",
+        "/service-areas/leicester-ma/mold-remediation/",
+        "/service-areas/auburn-ma/air-duct-cleaning/",
+        "/service-areas/grafton-ma/air-duct-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/leicester-ma/carpet-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet Cleaning in Leicester, MA | Quality Contracting, Inc.",
+      "h1": "Carpet Cleaning in Leicester",
+      "meta_description": "Carpet cleaning in Leicester, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "carpet cleaning leicester",
+      "secondary_keywords": [
+        "professional carpet cleaning",
+        "deep carpet cleaning",
+        "carpet stain removal",
+        "commercial carpet cleaning",
+        "carpet sanitization"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-cleaning/",
+        "/service-areas/leicester-ma/",
+        "/service-areas/leicester-ma/fire-damage-restoration/",
+        "/service-areas/leicester-ma/mold-remediation/",
+        "/service-areas/auburn-ma/carpet-cleaning/",
+        "/service-areas/grafton-ma/carpet-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/leicester-ma/crawl-space-encapsulation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crawl Space Encapsulation in Leicester, MA | Quality Contracting, Inc.",
+      "h1": "Crawl Space Encapsulation in Leicester",
+      "meta_description": "Crawl space encapsulation in Leicester, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "crawl space encapsulation leicester",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crawl-space-encapsulation/",
+        "/service-areas/leicester-ma/",
+        "/service-areas/leicester-ma/fire-damage-restoration/",
+        "/service-areas/leicester-ma/mold-remediation/",
+        "/service-areas/auburn-ma/crawl-space-encapsulation/",
+        "/service-areas/grafton-ma/crawl-space-encapsulation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/leicester-ma/post-construction-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Post-Construction and Specialty Cleaning in Leicester, MA | Quality Contracting, Inc.",
+      "h1": "Post-Construction and Specialty Cleaning in Leicester",
+      "meta_description": "Post-construction and specialty cleaning in Leicester, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "post-construction and specialty cleaning leicester",
+      "secondary_keywords": [
+        "post construction cleanup",
+        "construction debris cleaning",
+        "final clean",
+        "deep cleaning after renovation"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/post-construction-cleaning/",
+        "/service-areas/leicester-ma/",
+        "/service-areas/leicester-ma/fire-damage-restoration/",
+        "/service-areas/leicester-ma/mold-remediation/",
+        "/service-areas/auburn-ma/post-construction-cleaning/",
+        "/service-areas/grafton-ma/post-construction-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oxford-ma/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Oxford, MA | Quality Contracting, Inc.",
+      "h1": "Water Damage Restoration in Oxford",
+      "meta_description": "Water damage restoration in Oxford, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "water damage restoration oxford",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/oxford-ma/",
+        "/service-areas/oxford-ma/fire-damage-restoration/",
+        "/service-areas/oxford-ma/mold-remediation/",
+        "/service-areas/auburn-ma/water-damage-restoration/",
+        "/service-areas/grafton-ma/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oxford-ma/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Oxford, MA | Quality Contracting, Inc.",
+      "h1": "Storm Damage Restoration in Oxford",
+      "meta_description": "Storm damage restoration in Oxford, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "storm damage restoration oxford",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/oxford-ma/",
+        "/service-areas/oxford-ma/fire-damage-restoration/",
+        "/service-areas/oxford-ma/mold-remediation/",
+        "/service-areas/auburn-ma/storm-damage-restoration/",
+        "/service-areas/grafton-ma/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oxford-ma/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Oxford, MA | Quality Contracting, Inc.",
+      "h1": "Fire Damage Restoration in Oxford",
+      "meta_description": "Fire damage restoration in Oxford, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "fire damage restoration oxford",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/oxford-ma/",
+        "/service-areas/oxford-ma/mold-remediation/",
+        "/service-areas/oxford-ma/water-damage-restoration/",
+        "/service-areas/auburn-ma/fire-damage-restoration/",
+        "/service-areas/grafton-ma/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oxford-ma/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Oxford, MA | Quality Contracting, Inc.",
+      "h1": "Mold Remediation in Oxford",
+      "meta_description": "Mold remediation in Oxford, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "mold remediation oxford",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/oxford-ma/",
+        "/service-areas/oxford-ma/fire-damage-restoration/",
+        "/service-areas/oxford-ma/water-damage-restoration/",
+        "/service-areas/auburn-ma/mold-remediation/",
+        "/service-areas/grafton-ma/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oxford-ma/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Oxford, MA | Quality Contracting, Inc.",
+      "h1": "Renovations, Remodels and General Contracting in Oxford",
+      "meta_description": "Renovations, remodels and general contracting in Oxford, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "renovations, remodels and general contracting oxford",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/oxford-ma/",
+        "/service-areas/oxford-ma/fire-damage-restoration/",
+        "/service-areas/oxford-ma/mold-remediation/",
+        "/service-areas/auburn-ma/general-contracting/",
+        "/service-areas/grafton-ma/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oxford-ma/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Oxford, MA | Quality Contracting, Inc.",
+      "h1": "Sewage Cleanup and Sanitization in Oxford",
+      "meta_description": "Sewage cleanup and sanitization in Oxford, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "sewage cleanup and sanitization oxford",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/oxford-ma/",
+        "/service-areas/oxford-ma/fire-damage-restoration/",
+        "/service-areas/oxford-ma/mold-remediation/",
+        "/service-areas/auburn-ma/sewage-cleanup/",
+        "/service-areas/grafton-ma/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oxford-ma/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Oxford, MA | Quality Contracting, Inc.",
+      "h1": "Biohazard Cleanup in Oxford",
+      "meta_description": "Biohazard cleanup in Oxford, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "biohazard cleanup oxford",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/oxford-ma/",
+        "/service-areas/oxford-ma/fire-damage-restoration/",
+        "/service-areas/oxford-ma/mold-remediation/",
+        "/service-areas/auburn-ma/biohazard-cleanup/",
+        "/service-areas/grafton-ma/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oxford-ma/asbestos-abatement/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Asbestos Abatement in Oxford, MA | Quality Contracting, Inc.",
+      "h1": "Asbestos Abatement in Oxford",
+      "meta_description": "Asbestos abatement in Oxford, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "asbestos abatement oxford",
+      "secondary_keywords": [
+        "asbestos removal",
+        "asbestos testing",
+        "asbestos remediation",
+        "popcorn ceiling asbestos removal",
+        "asbestos inspection"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/asbestos-abatement/",
+        "/service-areas/oxford-ma/",
+        "/service-areas/oxford-ma/fire-damage-restoration/",
+        "/service-areas/oxford-ma/mold-remediation/",
+        "/service-areas/auburn-ma/asbestos-abatement/",
+        "/service-areas/grafton-ma/asbestos-abatement/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oxford-ma/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Board-Up and Tarping in Oxford, MA | Quality Contracting, Inc.",
+      "h1": "Board-Up and Tarping in Oxford",
+      "meta_description": "Board-up and tarping in Oxford, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "emergency board-up and tarping oxford",
+      "secondary_keywords": [
+        "roof tarping",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/oxford-ma/",
+        "/service-areas/oxford-ma/fire-damage-restoration/",
+        "/service-areas/oxford-ma/mold-remediation/",
+        "/service-areas/auburn-ma/emergency-board-up-tarping/",
+        "/service-areas/grafton-ma/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oxford-ma/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Oxford, MA | Quality Contracting, Inc.",
+      "h1": "Contents Restoration and Storage in Oxford",
+      "meta_description": "Contents restoration and storage in Oxford, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "contents restoration and storage oxford",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/oxford-ma/",
+        "/service-areas/oxford-ma/fire-damage-restoration/",
+        "/service-areas/oxford-ma/mold-remediation/",
+        "/service-areas/auburn-ma/contents-restoration/",
+        "/service-areas/grafton-ma/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oxford-ma/air-duct-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Duct Cleaning in Oxford, MA | Quality Contracting, Inc.",
+      "h1": "Air Duct Cleaning in Oxford",
+      "meta_description": "Air duct cleaning in Oxford, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "air duct cleaning oxford",
+      "secondary_keywords": [
+        "duct cleaning",
+        "HVAC duct cleaning",
+        "air duct sanitization",
+        "dryer vent cleaning",
+        "residential duct cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/air-duct-cleaning/",
+        "/service-areas/oxford-ma/",
+        "/service-areas/oxford-ma/fire-damage-restoration/",
+        "/service-areas/oxford-ma/mold-remediation/",
+        "/service-areas/auburn-ma/air-duct-cleaning/",
+        "/service-areas/grafton-ma/air-duct-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oxford-ma/carpet-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet Cleaning in Oxford, MA | Quality Contracting, Inc.",
+      "h1": "Carpet Cleaning in Oxford",
+      "meta_description": "Carpet cleaning in Oxford, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "carpet cleaning oxford",
+      "secondary_keywords": [
+        "professional carpet cleaning",
+        "deep carpet cleaning",
+        "carpet stain removal",
+        "commercial carpet cleaning",
+        "carpet sanitization"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-cleaning/",
+        "/service-areas/oxford-ma/",
+        "/service-areas/oxford-ma/fire-damage-restoration/",
+        "/service-areas/oxford-ma/mold-remediation/",
+        "/service-areas/auburn-ma/carpet-cleaning/",
+        "/service-areas/grafton-ma/carpet-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oxford-ma/crawl-space-encapsulation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crawl Space Encapsulation in Oxford, MA | Quality Contracting, Inc.",
+      "h1": "Crawl Space Encapsulation in Oxford",
+      "meta_description": "Crawl space encapsulation in Oxford, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "crawl space encapsulation oxford",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crawl-space-encapsulation/",
+        "/service-areas/oxford-ma/",
+        "/service-areas/oxford-ma/fire-damage-restoration/",
+        "/service-areas/oxford-ma/mold-remediation/",
+        "/service-areas/auburn-ma/crawl-space-encapsulation/",
+        "/service-areas/grafton-ma/crawl-space-encapsulation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oxford-ma/post-construction-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Post-Construction and Specialty Cleaning in Oxford, MA | Quality Contracting, Inc.",
+      "h1": "Post-Construction and Specialty Cleaning in Oxford",
+      "meta_description": "Post-construction and specialty cleaning in Oxford, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "post-construction and specialty cleaning oxford",
+      "secondary_keywords": [
+        "post construction cleanup",
+        "construction debris cleaning",
+        "final clean",
+        "deep cleaning after renovation"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/post-construction-cleaning/",
+        "/service-areas/oxford-ma/",
+        "/service-areas/oxford-ma/fire-damage-restoration/",
+        "/service-areas/oxford-ma/mold-remediation/",
+        "/service-areas/auburn-ma/post-construction-cleaning/",
+        "/service-areas/grafton-ma/post-construction-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sutton-ma/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Sutton, MA | Quality Contracting, Inc.",
+      "h1": "Water Damage Restoration in Sutton",
+      "meta_description": "Water damage restoration in Sutton, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "water damage restoration sutton",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/sutton-ma/",
+        "/service-areas/sutton-ma/fire-damage-restoration/",
+        "/service-areas/sutton-ma/mold-remediation/",
+        "/service-areas/auburn-ma/water-damage-restoration/",
+        "/service-areas/grafton-ma/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sutton-ma/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Sutton, MA | Quality Contracting, Inc.",
+      "h1": "Storm Damage Restoration in Sutton",
+      "meta_description": "Storm damage restoration in Sutton, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "storm damage restoration sutton",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/sutton-ma/",
+        "/service-areas/sutton-ma/fire-damage-restoration/",
+        "/service-areas/sutton-ma/mold-remediation/",
+        "/service-areas/auburn-ma/storm-damage-restoration/",
+        "/service-areas/grafton-ma/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sutton-ma/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Sutton, MA | Quality Contracting, Inc.",
+      "h1": "Fire Damage Restoration in Sutton",
+      "meta_description": "Fire damage restoration in Sutton, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "fire damage restoration sutton",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/sutton-ma/",
+        "/service-areas/sutton-ma/mold-remediation/",
+        "/service-areas/sutton-ma/water-damage-restoration/",
+        "/service-areas/auburn-ma/fire-damage-restoration/",
+        "/service-areas/grafton-ma/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sutton-ma/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Sutton, MA | Quality Contracting, Inc.",
+      "h1": "Mold Remediation in Sutton",
+      "meta_description": "Mold remediation in Sutton, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "mold remediation sutton",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/sutton-ma/",
+        "/service-areas/sutton-ma/fire-damage-restoration/",
+        "/service-areas/sutton-ma/water-damage-restoration/",
+        "/service-areas/auburn-ma/mold-remediation/",
+        "/service-areas/grafton-ma/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sutton-ma/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Sutton, MA | Quality Contracting, Inc.",
+      "h1": "Renovations, Remodels and General Contracting in Sutton",
+      "meta_description": "Renovations, remodels and general contracting in Sutton, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "renovations, remodels and general contracting sutton",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/sutton-ma/",
+        "/service-areas/sutton-ma/fire-damage-restoration/",
+        "/service-areas/sutton-ma/mold-remediation/",
+        "/service-areas/auburn-ma/general-contracting/",
+        "/service-areas/grafton-ma/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sutton-ma/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Sutton, MA | Quality Contracting, Inc.",
+      "h1": "Sewage Cleanup and Sanitization in Sutton",
+      "meta_description": "Sewage cleanup and sanitization in Sutton, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "sewage cleanup and sanitization sutton",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/sutton-ma/",
+        "/service-areas/sutton-ma/fire-damage-restoration/",
+        "/service-areas/sutton-ma/mold-remediation/",
+        "/service-areas/auburn-ma/sewage-cleanup/",
+        "/service-areas/grafton-ma/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sutton-ma/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Sutton, MA | Quality Contracting, Inc.",
+      "h1": "Biohazard Cleanup in Sutton",
+      "meta_description": "Biohazard cleanup in Sutton, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "biohazard cleanup sutton",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/sutton-ma/",
+        "/service-areas/sutton-ma/fire-damage-restoration/",
+        "/service-areas/sutton-ma/mold-remediation/",
+        "/service-areas/auburn-ma/biohazard-cleanup/",
+        "/service-areas/grafton-ma/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sutton-ma/asbestos-abatement/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Asbestos Abatement in Sutton, MA | Quality Contracting, Inc.",
+      "h1": "Asbestos Abatement in Sutton",
+      "meta_description": "Asbestos abatement in Sutton, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "asbestos abatement sutton",
+      "secondary_keywords": [
+        "asbestos removal",
+        "asbestos testing",
+        "asbestos remediation",
+        "popcorn ceiling asbestos removal",
+        "asbestos inspection"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/asbestos-abatement/",
+        "/service-areas/sutton-ma/",
+        "/service-areas/sutton-ma/fire-damage-restoration/",
+        "/service-areas/sutton-ma/mold-remediation/",
+        "/service-areas/auburn-ma/asbestos-abatement/",
+        "/service-areas/grafton-ma/asbestos-abatement/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sutton-ma/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Board-Up and Tarping in Sutton, MA | Quality Contracting, Inc.",
+      "h1": "Board-Up and Tarping in Sutton",
+      "meta_description": "Board-up and tarping in Sutton, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "emergency board-up and tarping sutton",
+      "secondary_keywords": [
+        "roof tarping",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/sutton-ma/",
+        "/service-areas/sutton-ma/fire-damage-restoration/",
+        "/service-areas/sutton-ma/mold-remediation/",
+        "/service-areas/auburn-ma/emergency-board-up-tarping/",
+        "/service-areas/grafton-ma/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sutton-ma/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Sutton, MA | Quality Contracting, Inc.",
+      "h1": "Contents Restoration and Storage in Sutton",
+      "meta_description": "Contents restoration and storage in Sutton, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "contents restoration and storage sutton",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/sutton-ma/",
+        "/service-areas/sutton-ma/fire-damage-restoration/",
+        "/service-areas/sutton-ma/mold-remediation/",
+        "/service-areas/auburn-ma/contents-restoration/",
+        "/service-areas/grafton-ma/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sutton-ma/air-duct-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Duct Cleaning in Sutton, MA | Quality Contracting, Inc.",
+      "h1": "Air Duct Cleaning in Sutton",
+      "meta_description": "Air duct cleaning in Sutton, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "air duct cleaning sutton",
+      "secondary_keywords": [
+        "duct cleaning",
+        "HVAC duct cleaning",
+        "air duct sanitization",
+        "dryer vent cleaning",
+        "residential duct cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/air-duct-cleaning/",
+        "/service-areas/sutton-ma/",
+        "/service-areas/sutton-ma/fire-damage-restoration/",
+        "/service-areas/sutton-ma/mold-remediation/",
+        "/service-areas/auburn-ma/air-duct-cleaning/",
+        "/service-areas/grafton-ma/air-duct-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sutton-ma/carpet-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet Cleaning in Sutton, MA | Quality Contracting, Inc.",
+      "h1": "Carpet Cleaning in Sutton",
+      "meta_description": "Carpet cleaning in Sutton, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "carpet cleaning sutton",
+      "secondary_keywords": [
+        "professional carpet cleaning",
+        "deep carpet cleaning",
+        "carpet stain removal",
+        "commercial carpet cleaning",
+        "carpet sanitization"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-cleaning/",
+        "/service-areas/sutton-ma/",
+        "/service-areas/sutton-ma/fire-damage-restoration/",
+        "/service-areas/sutton-ma/mold-remediation/",
+        "/service-areas/auburn-ma/carpet-cleaning/",
+        "/service-areas/grafton-ma/carpet-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sutton-ma/crawl-space-encapsulation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Crawl Space Encapsulation in Sutton, MA | Quality Contracting, Inc.",
+      "h1": "Crawl Space Encapsulation in Sutton",
+      "meta_description": "Crawl space encapsulation in Sutton, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "crawl space encapsulation sutton",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/crawl-space-encapsulation/",
+        "/service-areas/sutton-ma/",
+        "/service-areas/sutton-ma/fire-damage-restoration/",
+        "/service-areas/sutton-ma/mold-remediation/",
+        "/service-areas/auburn-ma/crawl-space-encapsulation/",
+        "/service-areas/grafton-ma/crawl-space-encapsulation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sutton-ma/post-construction-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Post-Construction and Specialty Cleaning in Sutton, MA | Quality Contracting, Inc.",
+      "h1": "Post-Construction and Specialty Cleaning in Sutton",
+      "meta_description": "Post-construction and specialty cleaning in Sutton, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "post-construction and specialty cleaning sutton",
+      "secondary_keywords": [
+        "post construction cleanup",
+        "construction debris cleaning",
+        "final clean",
+        "deep cleaning after renovation"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/post-construction-cleaning/",
+        "/service-areas/sutton-ma/",
+        "/service-areas/sutton-ma/fire-damage-restoration/",
+        "/service-areas/sutton-ma/mold-remediation/",
+        "/service-areas/auburn-ma/post-construction-cleaning/",
+        "/service-areas/grafton-ma/post-construction-cleaning/",
         "/contact/"
       ]
     },

@@ -1,20 +1,21 @@
 # Site Plan Report — Quality Contracting, Inc.
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-07-28T14:55:27.336477+00:00
+- Generated: 2026-08-01T19:48:11.096564+00:00
 - Domain: `None`
-- Services selected: 14 of 53 catalog entries
-- Service areas: 1
+- Services selected: 14 of 54 catalog entries
+- Service areas: 8
 - Cross-product enabled: True
-- Total URLs: **46**
-- Total internal links: 227 (avg 4.9 per page)
+- Total URLs: **151**
+- Total internal links: 1189 (avg 7.9 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
+| `service-area-service` | 112 |
 | `service-landing` | 14 |
-| `service-area-service` | 14 |
+| `service-area` | 8 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -23,7 +24,6 @@
 | `blog-index` | 1 |
 | `about` | 1 |
 | `contact` | 1 |
-| `service-area` | 1 |
 
 ## Selected services
 
@@ -45,6 +45,13 @@
 ## Service areas
 
 - `auburn-ma` — Auburn, MA *(primary)*
+- `worcester-ma` — Worcester, MA
+- `shrewsbury-ma` — Shrewsbury, MA
+- `millbury-ma` — Millbury, MA
+- `grafton-ma` — Grafton, MA
+- `leicester-ma` — Leicester, MA
+- `oxford-ma` — Oxford, MA
+- `sutton-ma` — Sutton, MA
 
 ## Top 10 priority pages
 

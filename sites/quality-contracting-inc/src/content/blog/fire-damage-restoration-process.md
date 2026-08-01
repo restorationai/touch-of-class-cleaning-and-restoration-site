@@ -58,7 +58,7 @@ The instinct after a fire is to start cleaning immediately. That instinct is und
 
 If the fire was contained to a single burner on the stove and there is no structural involvement, a thorough cleaning with the right products may be something a careful homeowner can manage. In most other situations, professional restoration is the practical choice — not because of liability, but because the equipment and chemistry involved are genuinely specialized.
 
-A certified restoration crew brings:
+A professional restoration crew brings:
 
 - **Commercial air scrubbers and HEPA filtration** to reduce airborne particulates during the cleaning process
 - **Thermal foggers and hydroxyl generators** that neutralize odor molecules in porous materials rather than masking them
