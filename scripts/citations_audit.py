@@ -160,10 +160,25 @@ def audit(slug: str, dry_run: bool = False) -> str:
     if not cid:
         return f"{slug}: no company mapping"
     co = (_sb("GET", f"/rest/v1/companies?id=eq.{cid}"
-              "&select=name,phone,city,state,address,postal_code,website",
+              "&select=name,phone,city,state,address,postal_code,website,integration_settings",
               prefer="return=representation") or [{}])[0]
     name = (co.get("name") or "").strip()
     canon_phone = _norm_phone(co.get("phone"))
+    # OUR call-tracking numbers are valid matches too (Santino 2026-08-01:
+    # Bing syncs from the GBP, whose primary IS the tracking number — that's
+    # accepted policy, not a discrepancy).
+    import json as _json
+    _ints = co.get("integration_settings") or {}
+    if isinstance(_ints, str):
+        try:
+            _ints = _json.loads(_ints)
+        except ValueError:
+            _ints = {}
+    ok_phones = {canon_phone} | {
+        _norm_phone(v) for v in ((_ints.get("call_tracking") or {}).values()
+                                 if isinstance(_ints.get("call_tracking"), dict) else [])
+        if _norm_phone(str(v))}
+    ok_phones.discard("")
     city, state = (co.get("city") or "").strip(), (co.get("state") or "").strip()
     street_no = ((co.get("address") or "").strip().split(" ") or [""])[0]
     street_no = street_no if street_no.isdigit() else ""
@@ -214,8 +229,8 @@ def audit(slug: str, dry_run: bool = False) -> str:
             entry["website_matches"] = True
         if phone:
             entry["phone_found"] = phone
-            entry["phone_matches"] = (phone == canon_phone) if canon_phone else None
-            if canon_phone and phone != canon_phone:
+            entry["phone_matches"] = (phone in ok_phones) if canon_phone else None
+            if canon_phone and phone not in ok_phones:
                 entry["status"] = "discrepancy"
                 lines.append(f"  {label:12s} DISCREPANCY: shows {phone}, canonical {canon_phone}  {url[:60]}")
             else:
