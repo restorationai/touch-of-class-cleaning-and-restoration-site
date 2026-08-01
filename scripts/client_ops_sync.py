@@ -685,9 +685,10 @@ def ensure_setup_checklist(dry_run: bool, cid_to_slug: dict) -> list[str]:
             f"checklist-crew-photos-{slug}", crew == 0,
             "ASK CLIENT: get the crew photo link in use",
             ("No job photos have ever come in from the field crew — fresh photos feed "
-             "both the Google profile and the website. MONICA: re-share their no-login "
-             "crew upload link ({}) and suggest texting it to the crew group chat; "
-             "even 3-4 phone pics from recent jobs is plenty.").format(photos_link)))
+             "both the Google profile and the website. MONICA: re-share their CLIENT "
+             "HUB link ({}) — photos upload right there, no login — and suggest texting "
+             "it to the crew group chat; even 3-4 phone pics from recent jobs is plenty. "
+             "(hub only — the raw /gbpphotos/ link is deprecated, 2026-08-01)").format(hub)))
 
         # Photo freshness (Santino 2026-07-28): clients who HAVE uploaded before
         # but have gone 30+ days without a new photo anywhere (app upload OR
