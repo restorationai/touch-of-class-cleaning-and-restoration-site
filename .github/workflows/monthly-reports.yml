@@ -32,6 +32,17 @@ jobs:
           git config user.email "ops@restorationai.io"
           git config user.name "Rank AI Bot"
 
+      - name: Restore Ads token file (narestco reports need Ads spend data)
+        env:
+          NARESTCO_ADS_TOKEN: ${{ secrets.NARESTCO_ADS_TOKEN }}
+        run: |
+          # 08-01 failure: narestco's publish exits 1 in CI with no Ads creds
+          # (build_ads_client falls back to this per-client token file, which
+          # is gitignored). Same restore pattern as GSC_AGENCY_TOKEN.
+          if [ -n "$NARESTCO_ADS_TOKEN" ]; then
+            printf '%s' "$NARESTCO_ADS_TOKEN" > clients/narestco/.ads-token.json
+          fi
+
       - name: Generate + publish per-client reports (HTML file + Supabase for the app's Reports tab)
         env:
           SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}

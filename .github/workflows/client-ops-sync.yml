@@ -77,11 +77,18 @@ jobs:
           GOOGLE_OAUTH_CLIENT_ID:     ${{ secrets.GOOGLE_OAUTH_CLIENT_ID }}
           GOOGLE_OAUTH_CLIENT_SECRET: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
           GOOGLE_ADS_DEVELOPER_TOKEN: ${{ secrets.GOOGLE_ADS_DEVELOPER_TOKEN }}
+          GOOGLE_ADS_MCC_CUSTOMER_ID: '2018844125'
+          NARESTCO_ADS_TOKEN:         ${{ secrets.NARESTCO_ADS_TOKEN }}
         run: |
           # Finds Local Services campaigns via each client's own Google grant
           # and stamps integration_settings.lsa so the ledger's "LSA setup not
           # started" row flips itself. Advisory — never fails the ops run.
+          # Token-file restore enables the MCC-walk mode in CI too.
+          if [ -n "$NARESTCO_ADS_TOKEN" ]; then
+            printf '%s' "$NARESTCO_ADS_TOKEN" > clients/narestco/.ads-token.json
+          fi
           python3 scripts/lsa_detect.py || true
+          rm -f clients/narestco/.ads-token.json
 
       - name: Backlink targets (seed new clients + live-link check)
         env:
