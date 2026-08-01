@@ -636,6 +636,50 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
         except Exception:
             pass
 
+        # ---- Site imagery completeness (2026-07-31): per-service images
+        # were manual agent work, so unfinished sites shipped with every
+        # service card on the shared services.webp fallback (Coastal: all 12).
+        # Complete = image on disk AND registered in image-meta.json —
+        # serviceImage() only resolves registered images, so an unregistered
+        # file still renders the fallback.
+        try:
+            svc_dir = SITES_DIR / slug / "src" / "content" / "services"
+            if built and svc_dir.is_dir():
+                stems = sorted(p.stem for p in svc_dir.glob("*.md"))
+                simg_dir = SITES_DIR / slug / "public" / "images" / "services"
+                meta_p = SITES_DIR / slug / "src" / "data" / "image-meta.json"
+                try:
+                    smeta = json.loads(meta_p.read_text()) if meta_p.exists() else {}
+                except json.JSONDecodeError:
+                    smeta = {}
+                s_missing = [s for s in stems
+                             if not ((simg_dir / f"{s}.webp").exists()
+                                     and f"/images/services/{s}.webp" in smeta)]
+                if s_missing:
+                    rows.append({"company_id": cid, "item_key": "site-imagery",
+                                 "kind": "us_owed", "status": "open",
+                                 "title": f"Service imagery incomplete: {len(s_missing)} "
+                                          f"of {len(stems)} service cards on the shared "
+                                          "fallback image",
+                                 "detail": "Generate + register with: python3 scripts/"
+                                           f"gen_site_images.py --slug {slug} --services "
+                                           "(writes the base webp, the 480/768/1200w "
+                                           "variants and image-meta.json), then redeploy "
+                                           "the site.",
+                                 "evidence": {"total": len(stems),
+                                              "missing": s_missing}})
+                    attention.append(f"{slug}: {len(s_missing)}/{len(stems)} service "
+                                     "cards on the fallback image — run the imagery "
+                                     "finisher")
+                elif stems:
+                    rows.append({"company_id": cid, "item_key": "site-imagery",
+                                 "kind": "us_owed", "status": "done",
+                                 "title": f"Service imagery complete: "
+                                          f"{len(stems)} services",
+                                 "detail": None, "evidence": {"total": len(stems)}})
+        except Exception:
+            pass
+
         _upsert(rows, dry_run)
 
     return attention

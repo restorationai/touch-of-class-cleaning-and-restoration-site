@@ -16,11 +16,22 @@ Generates (skipping any that already exist — never overwrites):
                                same way every brand-image site does)
   public/images/services.webp  equipment/action shot (shared service card)
 
+--services mode (the "site imagery finisher", 2026-07-31): one photorealistic
+image per service page under src/content/services/*.md, named by the page's
+service_slug so src/lib/images.ts#serviceImage resolves it —
+  public/images/services/{service_slug}.webp  (+ -480w/-768w/-1200w variants)
+and registers each in src/data/image-meta.json (serviceImage only resolves
+REGISTERED images; an unregistered file still renders the shared fallback).
+Existing service images are NEVER overwritten, even with --force — but their
+missing variants/manifest entries are backfilled, so this is also the repair
+command for half-finished sites.
+
 Consults clients/{slug}/image-style-guide.md when present. Images are
 ILLUSTRATIVE brand imagery (same policy as blog heroes) — real job photos
 stay real (jobPhotos renders only crew-hub uploads).
 
 Usage: python3 scripts/gen_site_images.py --slug restorationxpress [--force]
+       python3 scripts/gen_site_images.py --slug restorationxpress --services
 Env:   GOOGLE_AI_API_KEY
 """
 from __future__ import annotations
@@ -28,6 +39,7 @@ from __future__ import annotations
 import argparse
 import io
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -65,10 +77,140 @@ def geo_cues(city: str, state: str) -> str:
     return f"{base}. The scene should feel like {city}, {state} without any text or signage naming it."
 
 
+# ---------------------------------------------------------------------------
+# --services mode: one image per service page (per-service card imagery)
+# ---------------------------------------------------------------------------
+
+# Scene per service_slug, mirroring the per-service worker-context table in
+# the client image-style-guides: same uniform everywhere, PPE/equipment shift
+# per service so every image is unmistakably THAT job. `{van}` (branded fleet
+# van, real logo when on disk) appears only where the scene is exterior.
+# Sensitive services follow the style-guide guardrail: full PPE in a CLEAN,
+# prepped, neutral space — never the scene itself, nothing graphic.
+_SENSITIVE_SCENE = (
+    "a technician in full PPE (Tyvek suit, respirator, double gloves) staging "
+    "sealed cleanup supplies in a clean, prepped, neutral interior space — "
+    "calm, discreet and professional, absolutely nothing graphic")
+SERVICE_SCENES = {
+    "water-damage-restoration": "a technician kneeling to hold a moisture meter against water-stained drywall while axial air movers and an LGR dehumidifier run across the wet floor behind them",
+    "flood-damage-restoration": "a technician guiding a weighted extraction wand across a flooded floor, standing water still visible, extraction hose trailing out the doorway",
+    "basement-flooding-cleanup": "a technician in rubber boots working a sump pump in a partly flooded basement, exposed framing showing a waterline",
+    "burst-pipe-repair": "a technician shutting off a water supply valve at a burst copper pipe while drying equipment sits staged behind them",
+    "appliance-leak-cleanup": "a technician examining a failed washing-machine supply line, towels down and a portable extraction unit staged nearby",
+    "frozen-pipe-restoration": "a technician wrapping insulation on an exposed copper pipe in a cold utility space, drying equipment staged on the floor",
+    "sewage-cleanup": "a technician in full PPE (Tyvek suit, gloves, respirator) running an extraction wand across a bathroom floor, containment plastic taped at the doorway — clean professional framing, nothing graphic",
+    "storm-damage-restoration": "a technician on a ladder securing a heavy tarp over a wind-damaged roof section, scattered branches below, {van} parked at the curb",
+    "roof-leak-repair": "a technician on a roof inspecting lifted shingles around a leak point, {van} parked on the street below",
+    "fire-damage-restoration": "a technician in a Tyvek suit and respirator running a HEPA air scrubber in a room with charred drywall and soot-darkened surfaces",
+    "smoke-damage-restoration": "a technician dry-sponging smoke residue off a wall, clean streaks showing against the gray film, air scrubber running behind",
+    "soot-removal": "a technician wiping matte black soot from a wall with a chemical sponge, drop cloths protecting the floor",
+    "odor-removal": "a technician setting up a hydroxyl generator in a living room with subtle smoke staining on the walls",
+    "mold-remediation": "a technician in a full Tyvek suit and respirator HEPA-vacuuming a mold-stained wall inside a poly-sheeting containment zone, air scrubber running",
+    "mold-inspection-testing": "a technician holding an air-sampling pump cassette near a suspect wall corner, moisture meter and flashlight in hand",
+    "biohazard-cleanup": _SENSITIVE_SCENE,
+    "trauma-scene-cleanup": _SENSITIVE_SCENE,
+    "crime-scene-cleanup": _SENSITIVE_SCENE,
+    "unattended-death-cleanup": _SENSITIVE_SCENE,
+    "hoarding-cleanup": "technicians in gloves carrying packed unlabeled boxes through a partly organized room, cleanup supplies staged — respectful mid-progress framing, no extreme clutter",
+    "contents-restoration": "a technician carefully wrapping household items into padded packing boxes on a folding table, shelving of packed contents behind",
+    "crawl-space-encapsulation": "a technician with a headlamp installing a bright white vapor-barrier liner across a crawl space floor and foundation walls",
+    "emergency-board-up-tarping": "a technician at dusk drilling plywood over a broken window, ladder against the wall, {van} parked with headlights on",
+    "post-construction-cleaning": "a technician HEPA-vacuuming fine dust in a freshly renovated room with new drywall and floor-protection paper down",
+    "vandalism-cleanup": "a technician pressure-cleaning abstract paint smears (no readable letters or symbols) off a masonry storefront wall, glass-repair supplies staged",
+    "general-contracting": "a carpenter in a tool belt hanging drywall in a partly rebuilt room, lumber and materials staged",
+    "reconstruction": "a technician with a nail gun framing a partially rebuilt interior wall, fresh lumber and drywall stacked nearby",
+    "asbestos-abatement": "a technician in full hooded Tyvek with a P100 respirator working inside a negative-pressure containment, flexible ducting visible",
+    "air-duct-cleaning": "a technician feeding a rotary brush line into an open ceiling duct register, HEPA vacuum unit on the floor below",
+    "carpet-cleaning": "a technician pulling a truck-mount carpet extraction wand across carpet, clean stripes visible behind the wand",
+}
+
+
+def _fm_field(md_text: str, key: str) -> str | None:
+    m = re.search(rf"""^{key}:\s*['"]?([^'"\n]+?)['"]?\s*$""", md_text, re.M)
+    return m.group(1).strip() if m else None
+
+
+def generate_service_images(*, slug: str, geo: str, guide: str,
+                            logo_png: bytes | None, van: str,
+                            logo_rule: str, img_dir: Path) -> int:
+    """One image per src/content/services/*.md page, named {service_slug}.webp
+    so serviceImage() resolves it. Existing base images are never overwritten
+    (missing variants + manifest entries are still backfilled)."""
+    from PIL import Image
+    from resize_images import VARIANT_WIDTHS, open_rgb, variant_bytes, variant_path
+
+    svc_content = ROOT / "sites" / slug / "src" / "content" / "services"
+    if not svc_content.is_dir():
+        print(f"{slug}: no src/content/services/ — nothing to do")
+        return 0
+    out_dir = img_dir / "services"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    meta_path = ROOT / "sites" / slug / "src" / "data" / "image-meta.json"
+    try:
+        meta = json.loads(meta_path.read_text()) if meta_path.exists() else {}
+    except json.JSONDecodeError:
+        meta = {}
+
+    made, failed, variants_made = 0, [], 0
+    for md in sorted(svc_content.glob("*.md")):
+        text = md.read_text(encoding="utf-8")
+        svc_slug = _fm_field(text, "service_slug") or md.stem
+        display = _fm_field(text, "service_display") or md.stem.replace("-", " ").title()
+        out = out_dir / f"{svc_slug}.webp"
+
+        if out.exists():
+            print(f"  services/{out.name}: exists — kept (never overwritten)")
+        else:
+            scene = SERVICE_SCENES.get(
+                svc_slug,
+                f"a uniformed restoration technician performing {display} work "
+                f"with professional equipment at a job site").format(van=van)
+            prompt = (
+                f"Photorealistic photograph for a restoration company website service "
+                f"card — {scene}. Professional full-frame mirrorless look, natural "
+                f"competent lighting, mid-task not posed, no faces clearly visible "
+                f"(back or side angle). {logo_rule} {geo}")
+            full_prompt = prompt + ("\n\nStyle guide notes:\n" + guide if guide else "")
+            print(f"  generating services/{out.name} ({display})...")
+            try:
+                png = gemini_generate_image(full_prompt, reference_png=logo_png)
+            except Exception as e:  # quota/API failures: keep going, flag at end
+                print(f"    FAILED: {e}")
+                failed.append(svc_slug)
+                continue
+            img = Image.open(io.BytesIO(png)).convert("RGB")
+            img.save(out, "WEBP", quality=84)
+            made += 1
+            print(f"    saved {out.relative_to(ROOT)} ({out.stat().st_size // 1024}KB)")
+
+        # variants + manifest entry — same shape resize_images.py writes, so
+        # srcsetFor/serviceImage pick the image up without a separate pass.
+        im = open_rgb(out)
+        widths = [w for w in VARIANT_WIDTHS if w < im.width]
+        for w in widths:
+            dst = variant_path(out, w)
+            if not dst.exists():
+                dst.write_bytes(variant_bytes(im, w))
+                variants_made += 1
+        meta[f"/images/services/{svc_slug}.webp"] = {
+            "width": im.width, "height": im.height, "variants": widths}
+
+    meta_path.parent.mkdir(parents=True, exist_ok=True)
+    meta_path.write_text(json.dumps(dict(sorted(meta.items())), indent=2) + "\n",
+                         encoding="utf-8")
+    print(f"  wrote  {meta_path.relative_to(ROOT)}  ({len(meta)} entries)")
+    print(f"{slug}: {made} service image(s) generated, {variants_made} variants, "
+          f"{len(failed)} failed" + (f" ({', '.join(failed)})" if failed else ""))
+    return 1 if failed else 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--slug", required=True)
     ap.add_argument("--force", action="store_true")
+    ap.add_argument("--services", action="store_true",
+                    help="generate one image per src/content/services/ page "
+                         "(existing images are never overwritten, --force included)")
     args = ap.parse_args()
     slug = args.slug
 
@@ -107,6 +249,11 @@ def main() -> int:
         van = (f"a fleet of two-three matching clean service vans (solid "
                f"{color} and white livery, NO readable text or logos)")
         logo_rule = "No text anywhere in the image."
+
+    if args.services:
+        return generate_service_images(slug=slug, geo=geo, guide=guide,
+                                       logo_png=logo_png, van=van,
+                                       logo_rule=logo_rule, img_dir=img_dir)
 
     SHOTS = {
         "hero-bg.webp": (
