@@ -876,19 +876,40 @@ def next_eligible(cs: dict) -> datetime | None:
     return last + timedelta(days=MIN_DAYS_BETWEEN_SENDS)
 
 
+def has_boss_directive(company_id: str | None) -> bool:
+    """True when an open ops note is a DIRECT order from Santino
+    ([FROM SANTINO...] advice-loop answers, [SEND-PREVIEW] approvals).
+    Acting on his order is not a nudge — it must bypass cooldown and the
+    nudge cap (2026-08-01: Angie's direct question sat two days behind the
+    cooldown gate while his answer was already on file). Business hours
+    still apply."""
+    if not company_id:
+        return False
+    try:
+        rows = _sb("GET", f"/rest/v1/marketing_ops_notes?company_id=eq.{company_id}"
+                   "&status=eq.open&select=body&limit=20") or []
+        return any(str(r.get("body", "")).startswith(("[FROM SANTINO", "[SEND-PREVIEW]"))
+                   for r in rows)
+    except Exception:
+        return False
+
+
 def cadence_check(cs: dict, company: dict, contact: dict | None = None,
-                  enforce_hours: bool = True) -> str | None:
+                  enforce_hours: bool = True, boss_override: bool = False) -> str | None:
     """Return a human-readable refusal reason, or None if a send is allowed now.
 
     Business hours run in the client's OWN timezone (resolve_timezone: GHL
     contact -> companies.timezone -> plan-input state -> default+warning) and
-    are enforced on every send path; the canary passes enforce_hours=False."""
-    if cs.get("nudge_count", 0) >= MAX_NUDGES:
-        return f"max {MAX_NUDGES} nudges reached — ESCALATE to Santino"
-    ne = next_eligible(cs)
-    now = datetime.now(timezone.utc)
-    if ne and now < ne:
-        return f"cooldown — next eligible {ne.strftime('%Y-%m-%d %H:%M UTC')}"
+    are enforced on every send path; the canary passes enforce_hours=False.
+    boss_override (an open [FROM SANTINO]/[SEND-PREVIEW] note) skips the
+    cooldown and nudge cap — never the hours or the allowlist canary."""
+    if not boss_override:
+        if cs.get("nudge_count", 0) >= MAX_NUDGES:
+            return f"max {MAX_NUDGES} nudges reached — ESCALATE to Santino"
+        ne = next_eligible(cs)
+        now = datetime.now(timezone.utc)
+        if ne and now < ne:
+            return f"cooldown — next eligible {ne.strftime('%Y-%m-%d %H:%M UTC')}"
     if enforce_hours:
         reason = business_hours_check(company, contact)
         if reason:
@@ -1475,7 +1496,8 @@ def cmd_compose(args) -> int:
               "inspection]")
 
     if args.send:
-        gate = cadence_check(cs, company, contact)
+        gate = cadence_check(cs, company, contact,
+                             boss_override=has_boss_directive(company.get("id")))
         if gate:
             print(f"[gated, no draft: {gate}]")
             if "ESCALATE" in gate and not cs.get("max_nudges_escalated"):
@@ -1615,7 +1637,8 @@ def cmd_compose(args) -> int:
         print("\n[draft only — pass --send to deliver (canary gate applies)]")
         return 0
 
-    reason = cadence_check(cs, company, contact)
+    reason = cadence_check(cs, company, contact,
+                           boss_override=has_boss_directive(company.get("id")))
     if reason:
         print(f"\nSEND REFUSED (cadence): {reason}", file=sys.stderr)
         return 0
@@ -1636,6 +1659,20 @@ def cmd_compose(args) -> int:
                "nudge_count": cs.get("nudge_count", 0) + 1,
                "last_channel": args.channel})
     save_state(state, dry_run=False)
+    # One-shot boss directives ([FROM SANTINO...], [SEND-PREVIEW]) are acted on
+    # by THIS send — resolve them so the cadence bypass they grant can't keep
+    # firing on every future compose (they'd otherwise stay open until Santino
+    # manually hit Done, re-bypassing the cooldown daily).
+    try:
+        dnotes = _sb("GET", f"/rest/v1/marketing_ops_notes?company_id=eq.{company['id']}"
+                     "&status=eq.open&select=id,body&limit=20") or []
+        for n in dnotes:
+            if str(n.get("body", "")).startswith(("[FROM SANTINO", "[SEND-PREVIEW]")):
+                _sb("PATCH", f"/rest/v1/marketing_ops_notes?id=eq.{n['id']}",
+                    {"status": "resolved", "resolved_at": now})
+                print(f"  [directive] acted on + resolved: {n['body'][:70]!r}")
+    except Exception as e:  # bookkeeping must never fail the send
+        print(f"  [directive] resolve failed: {str(e)[:100]}")
     return 0
 
 
