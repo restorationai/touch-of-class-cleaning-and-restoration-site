@@ -881,7 +881,10 @@ def ensure_auto_site_build(dry_run: bool, cid_to_slug: dict | None = None,
                          "ASD": "ASD (Applied Structural Drying)",
                          "AMRT": "AMRT (Applied Microbial Remediation)",
                          "FSRT": "FSRT (Fire & Smoke Restoration)"}
-                b["certifications"] = "; ".join(names.get(c, c) for c in certs)
+                # ARRAY, not a joined string — the scaffold casts this into
+                # brand.ts as string[] verbatim, and a string crashed
+                # HomeLyft's whole build on .some() (2026-08-01).
+                b["certifications"] = [names.get(c, c) for c in certs]
             if lic.get("license_number") and "license_numbers" not in b:
                 b["license_numbers"] = [str(lic["license_number"])]
             badges = []
