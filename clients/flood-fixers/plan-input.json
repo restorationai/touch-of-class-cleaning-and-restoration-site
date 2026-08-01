@@ -113,7 +113,11 @@
     ],
     "google_maps_api_key": "AIzaSyDrYnSuDu-hFvKHEcQCjwb-zsMebInPneU",
     "licensed_insured_attested": true,
-    "place_id": "ChIJJ3gQpF913IAR-Hs5M4WEiAs"
+    "place_id": "ChIJJ3gQpF913IAR-Hs5M4WEiAs",
+    "lat": 33.1434,
+    "lng": -117.1661,
+    "city": "San Marcos",
+    "state": "CA"
   },
   "cross_product": true,
   "keyword_strategy": "conservative",
