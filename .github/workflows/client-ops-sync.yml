@@ -24,7 +24,7 @@ on:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 60   # auto site-builds (seed->scaffold->render) blow the old 20m budget — HomeLyft's build got cancelled mid-render 2026-08-01
 
     steps:
       - name: Checkout repo
