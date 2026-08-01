@@ -308,7 +308,12 @@ def digest_markdown(date_str: str, per_client: dict[str, dict]) -> str:
 
 
 def digest_html(date_str: str, per_client: dict[str, dict]) -> str:
-    def esc(s: str) -> str:
+    def esc(s) -> str:
+        # A non-string entry (a dict slipped into a section list) crashed the
+        # WHOLE ops run on 2026-08-01 — the digest must never be fatal, so
+        # stringify anything and let the odd entry render as JSON.
+        if not isinstance(s, str):
+            s = json.dumps(s, default=str)
         return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
     parts = ['<div style="font-family:-apple-system,Segoe UI,Roboto,sans-serif;'
              'max-width:640px;margin:0 auto;color:#0f172a">',

@@ -52,6 +52,11 @@ jobs:
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           CONNECT_LINK_SIGNING_SECRET: ${{ secrets.CONNECT_LINK_SIGNING_SECRET }}
           SENDGRID_API_KEY:          ${{ secrets.SENDGRID_API_KEY }}
+          # auto site-builds push the per-client repo (2026-08-01: HomeLyft's
+          # scaffold failed here for lack of it); call-tracking heal needs Twilio
+          GITHUB_PERSONAL_ACCESS_TOKEN: ${{ secrets.GH_PAT }}
+          TWILIO_MASTER_ACCOUNT_SID: ${{ secrets.TWILIO_MASTER_ACCOUNT_SID }}
+          TWILIO_MASTER_AUTH_TOKEN:  ${{ secrets.TWILIO_MASTER_AUTH_TOKEN }}
           GOOGLE_OAUTH_CLIENT_ID:    ${{ secrets.GOOGLE_OAUTH_CLIENT_ID }}
           GOOGLE_OAUTH_CLIENT_SECRET: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
           DATAFORSEO_USERNAME:       ${{ secrets.DATAFORSEO_USERNAME }}
