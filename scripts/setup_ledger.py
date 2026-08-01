@@ -559,16 +559,19 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                                           "missing": n_missing,
                                           "client_creates": client_create}})
                 if us_create:
-                    # Santino 2026-08-01: these are queued for the browser-agent
-                    # suite — keep them OFF the active board ('na' hides in the
-                    # app) but preserve the platform list in evidence so the
-                    # agent build knows exactly what each client needs.
+                    # Santino 2026-08-01 (corrected): these STAY visible until
+                    # actually finished — the browser agent works them and marks
+                    # each done only after verified completion, so a human can
+                    # always see what's outstanding and catch breakage.
                     rows.append({"company_id": cid, "item_key": "citations-build",
-                                 "kind": "us_owed", "status": "na",
-                                 "title": f"Listings queued for the browser agent: {', '.join(us_create)}",
-                                 "detail": "Cleared from the board per Santino 08-01 — "
-                                           "the browser-agent suite (Bing/Apple/BBB "
-                                           "playbooks) owns these when it ships.",
+                                 "kind": "us_owed", "status": "open",
+                                 "title": f"Create listings we own: {', '.join(us_create)}",
+                                 "detail": "Bing Places imports straight from their GBP "
+                                           "(we hold access); Apple Maps via Business "
+                                           "Connect agency claim; BBB via their request "
+                                           "form. Always the Business Information card "
+                                           "NAP with the REAL phone number. The browser "
+                                           "agent works these; done = verified complete.",
                                  "evidence": {"platforms": us_create,
                                               "queued_for_agent": True}})
                 else:
