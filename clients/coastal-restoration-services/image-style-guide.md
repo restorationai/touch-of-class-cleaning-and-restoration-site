@@ -1,5 +1,9 @@
 # Coastal Restoration Services Inc: Image Style Guide
 
+## CLIENT OVERRIDES (Santino 2026-08-01 — BINDING on every image)
+CREW-OVERRIDE: Every crew member is a dark-skinned Latino man — Coastal's real crew and the community they serve; when an owner-figure appears he is a tall Latino man, about 6 ft 2. Never depict white crew members.
+VAN-OVERRIDE: two-three matching clean WHITE service vans carrying ONLY the navy-and-gold company logo mark from the reference image on the side panels — NO yellow or gold accent stripes, no colored body panels, no extra livery of any kind; the vans must match the ones in public/images/hero-bg.webp and public/images/services.webp exactly.
+
 This guide is consulted by every image-generation call (Skill 3 launch images, Skill 4 blog hero images, future image regenerations). The goal: a viewer scrolling through the site should feel like one professional photographer documented one company on one continuous job. No stylistic drift from page to page.
 
 The values below are auto-populated from `plan-input.json` at planning time. Per-client brand colors come from the client's logo / brand identity — NOT from the canonical starter palette. The structural conventions (camera, lens, lighting, composition) are restoration-vertical canonical and shared across all Rank AI clients.

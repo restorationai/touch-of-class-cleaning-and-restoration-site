@@ -30,6 +30,7 @@ import re
 import shutil
 import subprocess
 import sys
+import time
 import urllib.error
 import urllib.request
 from datetime import datetime, timezone
@@ -1779,6 +1780,30 @@ def indexnow_ping(slug: str) -> tuple[int, int]:
         key_file.parent.mkdir(parents=True, exist_ok=True)
         key_file.write_text(key)
         print(f"    indexnow: minted new key for {slug} (key file queued for next deploy)")
+
+    # Never ping before the key file is verifiably live — pinging in the same
+    # breath as the deploy that first ships the key races Cloudflare's build,
+    # and Bing CACHES the failed key validation (puroclean 2026-07-31: 403s
+    # persisted even after the key file was live). Poll up to ~60s; if it's
+    # still not serving, skip cleanly — the next deploy re-pings.
+    key_url = f"https://{domain}/{key}.txt"
+    key_live = False
+    for attempt in range(5):
+        try:
+            with urllib.request.urlopen(
+                    urllib.request.Request(key_url, headers={
+                        "User-Agent": "rank-ai-indexnow/1.0"}), timeout=15) as r:
+                if r.status == 200 and r.read(200).decode().strip() == key:
+                    key_live = True
+                    break
+        except Exception:
+            pass
+        if attempt < 4:
+            time.sleep(15)
+    if not key_live:
+        print(f"    indexnow: key file not live at {key_url} yet — ping SKIPPED "
+              "(avoids Bing caching a failed validation; next deploy retries)")
+        return (0, 0)
 
     try:
         urls = collect_live_urls(domain)

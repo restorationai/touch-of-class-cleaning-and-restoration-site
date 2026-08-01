@@ -132,7 +132,8 @@ def _fm_field(md_text: str, key: str) -> str | None:
 
 def generate_service_images(*, slug: str, geo: str, guide: str,
                             logo_png: bytes | None, van: str,
-                            logo_rule: str, img_dir: Path) -> int:
+                            logo_rule: str, img_dir: Path,
+                            crew: str = "") -> int:
     """One image per src/content/services/*.md page, named {service_slug}.webp
     so serviceImage() resolves it. Existing base images are never overwritten
     (missing variants + manifest entries are still backfilled)."""
@@ -169,7 +170,7 @@ def generate_service_images(*, slug: str, geo: str, guide: str,
                 f"Photorealistic photograph for a restoration company website service "
                 f"card — {scene}. Professional full-frame mirrorless look, natural "
                 f"competent lighting, mid-task not posed, no faces clearly visible "
-                f"(back or side angle). {logo_rule} {geo}")
+                f"(back or side angle). {crew}{logo_rule} {geo}")
             full_prompt = prompt + ("\n\nStyle guide notes:\n" + guide if guide else "")
             print(f"  generating services/{out.name} ({display})...")
             try:
@@ -222,7 +223,8 @@ def main() -> int:
     name = brand.get("display_name", slug)
     color = brand.get("primary_color", "#dc2626")
     guide_p = ROOT / "clients" / slug / "image-style-guide.md"
-    guide = guide_p.read_text()[:1500] if guide_p.exists() else ""
+    guide_full = guide_p.read_text() if guide_p.exists() else ""
+    guide = guide_full[:1500]
     geo = geo_cues(city, state)
 
     img_dir = ROOT / "sites" / slug / "public" / "images"
@@ -250,10 +252,21 @@ def main() -> int:
                f"{color} and white livery, NO readable text or logos)")
         logo_rule = "No text anywhere in the image."
 
+    # Per-client prompt overrides (Santino 2026-08-01, Coastal feedback: vans
+    # drifted to yellow-accented, crew must match the client's real team).
+    # Style-guide lines "VAN-OVERRIDE: ..." replace the generic fleet wording
+    # entirely; "CREW-OVERRIDE: ..." rides into every prompt as a sentence.
+    m = re.search(r"VAN-OVERRIDE:\s*(.+)", guide_full)
+    if m:
+        van = m.group(1).strip()
+    m = re.search(r"CREW-OVERRIDE:\s*(.+)", guide_full)
+    crew = (m.group(1).strip().rstrip(".") + ". ") if m else ""
+
     if args.services:
         return generate_service_images(slug=slug, geo=geo, guide=guide,
                                        logo_png=logo_png, van=van,
-                                       logo_rule=logo_rule, img_dir=img_dir)
+                                       logo_rule=logo_rule, img_dir=img_dir,
+                                       crew=crew)
 
     SHOTS = {
         "hero-bg.webp": (
