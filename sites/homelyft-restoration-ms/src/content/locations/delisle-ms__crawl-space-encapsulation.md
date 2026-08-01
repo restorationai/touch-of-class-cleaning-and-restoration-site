@@ -1,0 +1,47 @@
+---
+archetype: "service-area-service"
+title: "Crawl Space Encapsulation in DeLisle, MS | HomeLyft Restoration MS"
+h1: "Crawl Space Encapsulation in DeLisle"
+meta_description: "Crawl space encapsulation in DeLisle, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+primary_keyword: "crawl space encapsulation delisle"
+secondary_keywords: []
+search_intent: "local_specialty"
+priority: 3.5
+plan_hash: "83b74fd7fd575ce2"
+generated_at: "2026-08-01T22:32:08.721218+00:00"
+manual_override: false
+internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/delisle-ms/", "/service-areas/delisle-ms/fire-damage-restoration/", "/service-areas/delisle-ms/mold-remediation/", "/service-areas/agricola-ms/crawl-space-encapsulation/", "/service-areas/bay-st-louis-ms/crawl-space-encapsulation/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "DeLisle", "url": "/service-areas/delisle-ms/"}, {"name": "Crawl Space Encapsulation"}]
+faq: [{"question": "Does DeLisle's coastal humidity mean I need a thicker vapor barrier than homes further inland?", "answer": "Generally, yes. Harrison County's proximity to the Gulf keeps ground-level humidity elevated for more months of the year than homes in central Mississippi experience. We typically recommend a minimum 12-mil reinforced liner for DeLisle crawl spaces, and often step up to 16 or 20 mil where the soil stays visibly damp or where the crawl space has poor natural drainage. The liner thickness is one factor; pairing it with a properly sized dehumidifier matters just as much for long-term performance in this climate."}, {"question": "My DeLisle home was repaired after Katrina \u2014 does that affect how encapsulation is done?", "answer": "It can, and it's worth flagging upfront. Post-Katrina repairs in Harrison County sometimes mixed original framing with replacement lumber, which means the crawl space may have sections with different moisture histories and different susceptibility to rot or mold. Before installing any liner, we inspect the full span of floor joists and subfloor sheathing to identify areas that need remediation or structural attention first. Encapsulating over compromised wood doesn't fix the underlying problem \u2014 it just hides it."}, {"question": "Are there FEMA flood zone rules in DeLisle that affect how a crawl space can be encapsulated?", "answer": "Yes, and this is important. Some properties in coastal Harrison County fall within FEMA-designated Special Flood Hazard Areas that require operable flood vents in the foundation to allow water to equalize during a flood event. A full sealed encapsulation that eliminates those vents may not be code-compliant for those properties. We review the flood zone designation for each DeLisle address before designing the encapsulation system so the finished work meets both moisture-control goals and local regulatory requirements."}, {"question": "How long does a crawl space encapsulation typically take for a DeLisle home on a pier-and-beam foundation?", "answer": "Most single-family pier-and-beam homes in the DeLisle area can be fully encapsulated in one to two days, depending on crawl space size, access conditions, and whether any mold remediation or debris removal is needed first. Homes with very low clearance, multiple access points, or significant existing damage may run longer. We give a specific time estimate after the on-site inspection, not before \u2014 crawl space conditions vary too much to quote a reliable timeline sight unseen."}, {"question": "Will crawl space encapsulation help with the musty smell and high energy bills common in older DeLisle homes?", "answer": "Both are common complaints we hear from Harrison County homeowners, and encapsulation addresses the root cause of both. The musty odor typically comes from mold or mildew growing on damp wood in the crawl space \u2014 that air migrates up through the floor into living areas. Sealing the crawl space and controlling humidity stops that cycle. On the energy side, a damp crawl space forces HVAC systems to work harder to maintain indoor comfort; a sealed, conditioned crawl space reduces that load, which most homeowners notice in their monthly utility bills within the first cooling season."}]
+area_slug: "delisle-ms"
+service_slug: "crawl-space-encapsulation"
+city: "DeLisle"
+state: "MS"
+service_display: "Crawl Space Encapsulation"
+rendered: true
+---
+DeLisle sits in the humid coastal lowlands of Harrison County, where the Gulf of Mexico's moisture-laden air doesn't just settle on your roof — it works its way under your home. Crawl spaces here stay damp for weeks at a stretch, especially after the slow-soaking rains that roll in off the Sound between May and October. Without a proper vapor barrier and sealed encapsulation system, that persistent ground moisture feeds wood rot, attracts termites, and creates exactly the kind of dark, humid environment where mold colonizes fast — sometimes within 48 to 72 hours of a significant moisture event.
+
+## Why DeLisle Crawl Spaces Struggle With Moisture
+
+Harrison County's soil profile is a big part of the problem. The sandy loam and clay mix common throughout the DeLisle area holds water near the surface long after rain events clear. Homes built on pier-and-beam foundations — a common construction style in this part of coastal Mississippi — leave crawl spaces exposed to ground evaporation that never really stops. Add in the region's average relative humidity, which regularly climbs above 80% in summer, and an unencapsulated crawl space becomes a slow-motion moisture problem even when there's no visible leak or flooding.
+
+Older homes in the DeLisle area, many of which were built before modern moisture-control standards were codified in Mississippi's residential building code, often have nothing more than a thin sheet of plastic sheeting — or nothing at all — between the soil and the floor joists above. That's not adequate for this climate. Crawl space encapsulation replaces that patchwork approach with a continuous, sealed system: heavy-duty reinforced poly barrier across the ground, sealed at the walls and piers, combined with conditioned air or a properly sized dehumidifier to keep relative humidity in the crawl space below 55%.
+
+## Our Crawl Space Encapsulation Process in DeLisle
+
+Every encapsulation project starts with a thorough crawl space inspection — not just a quick look from the access hatch. A technician physically enters the space to assess existing moisture damage, check for mold growth on floor joists or subfloor sheathing, identify standing water or drainage issues, and document the condition of any existing vapor barrier. If mold is present, remediation happens first; encapsulation over an active mold problem only traps the issue.
+
+Once the space is clean and dry, we install a reinforced polyethylene liner — typically 12 to 20 mil thickness depending on the condition of the ground and the home's specific exposure risk. Seams are overlapped and taped, and the liner runs up the foundation walls and is mechanically fastened above the flood line. Pier columns are wrapped individually. Vents are sealed where appropriate, and a dehumidifier or conditioned air supply is integrated to maintain the encapsulated environment long-term. Before we leave, we verify that the humidity readings inside the crawl space are trending in the right direction.
+
+For homes in coastal Harrison County, we also pay close attention to flood vent requirements. Mississippi's coastal building codes and FEMA flood zone regulations in some areas require that foundation vents remain operable for flood drainage — encapsulation design in those cases has to account for that requirement rather than simply sealing everything shut.
+
+## Reaching DeLisle From Our Gulfport Location
+
+HomeLyft Restoration MS operates out of Gulfport, which puts DeLisle within a short drive via US-90 west or through the back roads along the Bay of St. Louis corridor. Scheduling is handled directly through our office — call +12282845200 to set up an inspection or get questions answered before committing to a scope of work. We can typically get an estimator on-site within a business day for non-emergency encapsulation assessments.
+
+## Local Note
+
+One thing that comes up repeatedly in DeLisle and the surrounding Harrison County coastal communities: homes that were repaired or partially rebuilt after Hurricane Katrina sometimes have a mix of old and new construction in the same crawl space. You might find original 1960s floor framing alongside post-2005 replacement joists, with different moisture histories and different wood species side by side. That inconsistency affects how we stage drying before encapsulation and how we evaluate which sections of subfloor may need reinforcement before the liner goes in. It's a detail that matters for getting the encapsulation to perform correctly over the long term, and it's something we look for specifically on every Harrison County job.
+
+If moisture is already affecting your floors, your air quality, or your energy bills, crawl space encapsulation is one of the most durable fixes available for DeLisle homes. Call HomeLyft Restoration MS at +12282845200 to schedule an inspection — the sooner the crawl space is assessed, the more options you have before wood damage or mold growth compounds the cost.

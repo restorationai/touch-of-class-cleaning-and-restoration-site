@@ -1,0 +1,90 @@
+---
+// Certifications & Licenses — 100% deterministic trust page. Every line
+// renders from brand truth data (licenses, certifications, attestations);
+// nothing here is AI-written, so nothing here can overclaim.
+import BaseLayout from "~/layouts/BaseLayout.astro";
+import CtaBanner from "~/components/CtaBanner.astro";
+import TrustStrip from "~/components/ui/TrustStrip.astro";
+import { brand } from "~/lib/brand";
+import { ShieldCheck, BadgeCheck, ExternalLink } from "@lucide/astro";
+
+const certs: string[] = Array.isArray(brand.certifications) ? brand.certifications : [];
+const licenses: string[] = Array.isArray(brand.licenseNumbers) ? brand.licenseNumbers : [];
+const lookupUrl = (brand as { licenseLookupUrl?: string }).licenseLookupUrl || "";
+const attested = (brand as { licensedInsuredAttested?: boolean }).licensedInsuredAttested === true;
+
+// What each credential family actually means — generic standards language,
+// never a claim beyond the credential's own name being on file.
+function explain(cert: string): string {
+  const t = cert.toLowerCase();
+  if (t.includes("iicrc")) return "The IICRC (Institute of Inspection, Cleaning and Restoration Certification) publishes the technical standards used across the restoration industry, including how moisture is measured, how drying progress is documented, and when a structure is verifiably dry.";
+  if (t.includes("lead") || t.includes("epa")) return "The EPA's Renovation, Repair and Painting rule governs how painted surfaces are handled in homes built before 1978, where lead-containing paint may be disturbed during demolition or repairs.";
+  if (t.includes("bbb")) return "Better Business Bureau accreditation reflects a documented history of responding to and resolving customer complaints.";
+  if (t.includes("osha")) return "OSHA training covers the safety procedures crews follow on job sites, from containment to protective equipment.";
+  return "An industry credential held on file for this company.";
+}
+
+const title = `Licenses & Certifications | ${brand.displayName}`;
+const meta = `The licenses, certifications, and standards ${brand.displayName} works under, with links to verify them directly with the issuing authority.`;
+---
+
+<BaseLayout title={title} meta_description={meta}>
+  <section class="section-first">
+    <div class="container-wide max-w-3xl mx-auto py-14">
+      <h1>Licenses &amp; Certifications</h1>
+      <p class="text-lg opacity-80 mt-4 mb-10">
+        Credentials only mean something if you can check them. Everything on
+        this page is verifiable — where a public lookup exists, the link goes
+        straight to the issuing authority.
+      </p>
+
+      {licenses.length > 0 && (
+        <div class="rounded-2xl border border-current/15 p-6 mb-6">
+          <div class="flex items-center gap-3 mb-2">
+            <ShieldCheck size={22} />
+            <h2 class="!mt-0 !mb-0 text-xl">{brand.licenseType || "Contractor License"}</h2>
+          </div>
+          {brand.licenseAuthority && <p class="opacity-80 mb-2">Issued by {brand.licenseAuthority}.</p>}
+          <p class="font-bold">
+            License {licenses.map((n) => `#${n}`).join(", ")}
+            {lookupUrl && (
+              <a href={lookupUrl} target="_blank" rel="noopener nofollow"
+                 class="inline-flex items-center gap-1 ml-3 underline decoration-dotted underline-offset-2 font-semibold">
+                Verify with the state <ExternalLink size={14} />
+              </a>
+            )}
+          </p>
+        </div>
+      )}
+
+      {attested && (
+        <div class="rounded-2xl border border-current/15 p-6 mb-6">
+          <div class="flex items-center gap-3">
+            <BadgeCheck size={22} />
+            <h2 class="!mt-0 !mb-0 text-xl">Licensed &amp; Insured</h2>
+          </div>
+          <p class="opacity-80 mt-2">Proof of insurance and licensing documentation is available on request.</p>
+        </div>
+      )}
+
+      {certs.map((cert) => (
+        <div class="rounded-2xl border border-current/15 p-6 mb-6">
+          <div class="flex items-center gap-3 mb-2">
+            <BadgeCheck size={22} />
+            <h2 class="!mt-0 !mb-0 text-xl">{cert}</h2>
+          </div>
+          <p class="opacity-80">{explain(cert)}</p>
+        </div>
+      ))}
+
+      {licenses.length === 0 && certs.length === 0 && !attested && (
+        <p class="opacity-80">
+          Licensing and insurance documentation is available on request — call
+          {" "}{brand.phone} and we will provide it directly.
+        </p>
+      )}
+    </div>
+  </section>
+  <TrustStrip />
+  <CtaBanner heading="Questions about our credentials?" subheading="We'll walk you through any of it — documentation available on request." />
+</BaseLayout>
