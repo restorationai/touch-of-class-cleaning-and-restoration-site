@@ -1677,6 +1677,26 @@ def cmd_auth(slug: str, console: bool = False) -> int:
 # ---------------------------------------------------------------------------
 
 
+def _sanitize_tags(tags: list | None) -> list[str]:
+    """YouTube rejects the ENTIRE upload over one bad tag (invalidTags, three
+    uploads failed 2026-07-31): angle brackets are forbidden, single tags cap
+    at ~100 chars, and the combined budget is ~500 (multi-word tags cost +2
+    for implicit quotes). Clamp to a safe 450 so LLM-generated tag lists can
+    never sink a video again."""
+    out: list[str] = []
+    total = 0
+    for t in tags or []:
+        t = re.sub(r"[<>]", "", str(t)).strip()[:80]
+        if not t:
+            continue
+        cost = len(t) + (2 if " " in t else 0)
+        if total + cost > 450:
+            break
+        out.append(t)
+        total += cost
+    return out
+
+
 def upload_to_youtube(
     slug: str,
     video_path: Path,
@@ -1701,7 +1721,7 @@ def upload_to_youtube(
         "snippet": {
             "title": metadata["youtube_title"],
             "description": metadata["youtube_description"],
-            "tags": metadata.get("tags", []),
+            "tags": _sanitize_tags(metadata.get("tags", [])),
             "categoryId": YOUTUBE_CATEGORY_HOWTO,
         },
         "status": {"privacyStatus": privacy},
