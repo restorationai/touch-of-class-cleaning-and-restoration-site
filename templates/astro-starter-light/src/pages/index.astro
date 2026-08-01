@@ -53,7 +53,10 @@ const services = (allServices as CollectionEntry<"services">[])
 
   <AboutSection imageSrc="/images/team.webp" imageAlt={`${brand.displayName} technician loading a branded service van`}>
     <p>
-      {brand.displayName} serves {brand.primaryCity} and the surrounding {brand.primaryState} area with full-service plumbing, heating, and air conditioning. From emergency plumbing repairs, drain cleaning, and water heater service to complete AC and furnace installation, our technicians handle it all — and we answer the phone 24/7, so help is on the way the moment something goes wrong.
+      {/* Vertical copy — never hardcode a trade phrase here (industry-bleed
+          audit 2026-07-31: this paragraph shipped All Pro's plumbing identity
+          on four restoration sites). */}
+      {brand.homeAboutBlurb}
     </p>
   </AboutSection>
 

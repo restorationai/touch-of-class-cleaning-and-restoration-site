@@ -166,6 +166,25 @@ def resolve_tokens(client: dict, plan_input: dict) -> tuple[dict, dict]:
     short_name = brand.get("short_name", display_name)
     initials = "".join(w[0].upper() for w in display_name.split()[:2]) or slug[:2].upper()
 
+    # Vertical trade-identity copy — resolved from the client's vertical
+    # (templates/{vertical}/vertical-tokens.json, fail-loud), never hardcoded
+    # in the starter (industry-bleed audit 2026-07-31: the light starter's
+    # About paragraph shipped All Pro's "plumbing, heating, and air
+    # conditioning" identity on four restoration sites, one of them live).
+    vt = load_json(verticals.resolve_template(slug, "vertical-tokens.json", client=client))
+
+    def _vertical_copy(key: str) -> str:
+        # brand block override wins (verbatim — hand-written copy may contain
+        # braces); otherwise the vertical default with {display_name}/{city}/
+        # {state} formatted in.
+        if key in brand:
+            return str(brand[key])
+        return str(vt[key]).format(
+            display_name=display_name,
+            city=primary_area.get("city", ""),
+            state=primary_area.get("state", ""),
+        )
+
     string_tokens = {
         "BRAND_SLUG": slug,
         "BRAND_DISPLAY_NAME": display_name,
@@ -197,17 +216,12 @@ def resolve_tokens(client: dict, plan_input: dict) -> tuple[dict, dict]:
         "BRAND_LICENSE_TYPE": brand.get("license_type", ""),
         "BRAND_GBP_RATING_VALUE": str(brand.get("gbp_rating_value", "")),
         "BRAND_GBP_REVIEW_COUNT": str(brand.get("gbp_review_count", "")),
-        "BRAND_TAGLINE": brand.get(
-            "tagline",
-            f"24/7 restoration services in {primary_area.get('city','')}, "
-            f"{primary_area.get('state','')}.",
-        ),
-        "BRAND_CTA_LABEL": brand.get(
-            "cta_label",
-            "Call for a Free Estimate"
-            if "construction" in plan_input.get("verticals", [])
-            else "24/7 Emergency Line",
-        ),
+        "BRAND_TAGLINE": _vertical_copy("tagline"),
+        "BRAND_CTA_LABEL": _vertical_copy("cta_label"),
+        "BRAND_TRADE_NOUN": _vertical_copy("trade_noun"),
+        "BRAND_SPECIALIST_PHRASE": _vertical_copy("specialist_phrase"),
+        "BRAND_ANNOUNCEMENT_SUFFIX": _vertical_copy("announcement_suffix"),
+        "BRAND_HOME_ABOUT_BLURB": _vertical_copy("home_about_blurb"),
         "BRAND_LOGO_URL": brand.get("logo_url", f"https://images.{domain}/brand/logo.png"),
         "BRAND_INITIALS": initials,
         "BRAND_IMAGES_BASE": f"https://images.{domain}",

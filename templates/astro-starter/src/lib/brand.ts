@@ -47,6 +47,13 @@ export const brand = {
   gbpReviews: [] as { author: string; rating: number; text: string; when: string }[],
   tagline: "{{BRAND_TAGLINE}}",
   ctaLabel: "{{BRAND_CTA_LABEL}}",
+  // Vertical trade-identity copy — resolved at scaffold time from
+  // templates/{vertical}/vertical-tokens.json (see scripts/verticals.py).
+  // Components must use these instead of hardcoding a trade phrase.
+  tradeNoun: "{{BRAND_TRADE_NOUN}}",
+  specialistPhrase: "{{BRAND_SPECIALIST_PHRASE}}",
+  announcementSuffix: "{{BRAND_ANNOUNCEMENT_SUFFIX}}",
+  homeAboutBlurb: "{{BRAND_HOME_ABOUT_BLURB}}",
 } as const;
 
 export const entityId = `${brand.canonicalUrl}/#identity`;

@@ -53,7 +53,10 @@ const services = (allServices as CollectionEntry<"services">[])
 
   <AboutSection imageSrc="/images/team.webp" imageAlt={`${brand.displayName} Team`}>
     <p>
-      {brand.displayName} has been serving {brand.primaryCity} and the surrounding {brand.primaryState} area since {brand.foundedYear}. We specialize in rapid-response disaster restoration—handling everything from water and fire damage to biohazard cleanup and full reconstruction. When disaster strikes, our certified professionals are standing by 24/7 to return your property to its pre-loss condition quickly and safely.
+      {/* Vertical copy — never hardcode a trade phrase here (industry-bleed
+          audit 2026-07-31: the light variant of this paragraph shipped All
+          Pro's plumbing identity on four restoration sites). */}
+      {brand.homeAboutBlurb}
     </p>
   </AboutSection>
 
