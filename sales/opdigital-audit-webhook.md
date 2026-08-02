@@ -40,19 +40,31 @@ Isaac Gomez's audit died on a WAF 403 before any field was written; the
 nurture SMS still fired and merged EMPTY fields — the lead received
 "It came back graded ." with an invalid media attachment.
 
-The API now tags the contact **"audit failed"** whenever a funnel audit
-fails, and the audit itself is far more resilient to bot-blocking. But the
-SMS step must ALSO be gated in the workflow:
+The API now tags the contact with exactly ONE of two mutually-exclusive
+failure tags whenever a funnel audit fails (and the audit itself is far
+more resilient to bot-blocking):
 
-1. Immediately before the report SMS step, add an If/Else condition:
-   - `audit_grade` is not empty  AND
-   - `audit_teaser_image_url` is not empty  AND
-   - contact does NOT have tag `audit failed`
-2. TRUE branch → send the existing SMS (grade + teaser image).
-3. FALSE branch → send a no-merge fallback ("Still finishing up your
-   report — I'll text it over shortly.") or simply skip + notify the team.
-   NEVER reference {{contact.audit_grade}} / the teaser URL in this branch.
+- **`website down`** — the site is GENUINELY unreachable: dead/typo'd
+  domain (NXDOMAIN) or nothing accepting connections on ports 443/80.
+  A site that answers with ANY HTTP status (even a 403 bot-block, like
+  Isaac's) can never get this tag — it is safe to tell these leads their
+  site is not up.
+- **`audit failed`** — every other failure (crawler blocked but site is
+  up, parse errors, our-side timeouts). The site may be working fine.
+
+The SMS step must be gated on these in the workflow — three branches:
+
+1. **Fields populated** (`audit_grade` is not empty AND
+   `audit_teaser_image_url` is not empty AND neither failure tag present)
+   → send the existing report SMS (grade + teaser image).
+2. **Tag `website down`** → send the dead-site message, NO merge fields:
+   "We just tried to check out your website and it's not even up and
+   running. What's going on with that?"
+3. **Anything else** (tag `audit failed`, or fields empty with no tag =
+   audit still running) → NO automated lead-facing SMS. Notify the team
+   instead. Never guess: falsely texting a lead that their working site
+   is down is worse than silence, and empty merges send "graded ." again.
 
 The team already gets a "[Rank AI] Lead audit FAILED" email on every
-failure — re-run the audit, which fills the fields, before manually
-sending the report SMS.
+failure (it names the classification) — re-run the audit, which fills the
+fields, before manually sending the report SMS.

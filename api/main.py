@@ -883,15 +883,28 @@ def _run_lead_audit_job(job_id: str, req: "LeadAuditRequest"):
         }).eq("id", job_id).execute()
         # A silently failed lead audit = a hot lead with no report (Chris
         # Morrow sat unnoticed ~20h, 2026-07-23). Always tell the team.
-        _notify_lead_audit_failure(job_id, req, str(e)[:300])
+        # lead_audit raises SiteDownError ONLY when the lead's site is
+        # genuinely unreachable (NXDOMAIN / nothing on 443+80) — checked by
+        # name so a failed `import lead_audit` can't break this handler.
+        _notify_lead_audit_failure(job_id, req, str(e)[:300],
+                                   site_down=e.__class__.__name__ == "SiteDownError")
 
 
-def _notify_lead_audit_failure(job_id: str, req: "LeadAuditRequest", error: str):
-    """Best-effort team email — the job status row remains the record."""
-    # Funnel leads: also tag the GHL contact "audit failed" so the nurture
-    # workflow can gate its report-SMS step. Without a gate, the merge fields
-    # are empty and the lead gets 'graded .' + an invalid media URL (Isaac
-    # Gomez, 2026-08-01, after his audit died on a WAF 403).
+def _notify_lead_audit_failure(job_id: str, req: "LeadAuditRequest", error: str,
+                               site_down: bool = False):
+    """Best-effort team email — the job status row remains the record.
+
+    Funnel leads also get ONE mutually-exclusive GHL tag so the nurture
+    workflow can branch (ungated merges sent 'graded .' + invalid media to
+    Isaac Gomez, 2026-08-01):
+      - "website down"  ← site_down=True: the site is GENUINELY unreachable
+        (lead_audit.SiteDownError: NXDOMAIN / nothing on 443+80). Safe for
+        the workflow's "your site isn't even up" message.
+      - "audit failed"  ← everything else (crawler blocked but site up,
+        parse errors, our-side timeouts). The workflow must send NOTHING
+        lead-facing on this tag — silence beats falsely telling a lead
+        with a working site that it is down.
+    """
     if req.source:
         try:
             import lead_audit  # scripts/ is on sys.path
@@ -904,8 +917,9 @@ def _notify_lead_audit_failure(job_id: str, req: "LeadAuditRequest", error: str)
                     contact_id = res["contacts"][0]["id"]
                     break
             if contact_id:
+                tag = "website down" if site_down else "audit failed"
                 lead_audit._ghl("POST", "/contacts/{}/tags".format(contact_id),
-                                params={}, body={"tags": ["audit failed"]})
+                                params={}, body={"tags": [tag]})
         except Exception:
             pass  # tagging is best-effort; the email below still alerts the team
     try:
@@ -919,10 +933,13 @@ def _notify_lead_audit_failure(job_id: str, req: "LeadAuditRequest", error: str)
                 req.name or req.business_name or "unknown", req.email),
             "content": [{"type": "text/plain", "value":
                 "Lead audit job {} failed.\n\nLead: {} <{}> {}\n"
-                "Website: {}\nBusiness: {}\nError: {}\n\n"
+                "Website: {}\nBusiness: {}\nError: {}\n"
+                "Classification: {}\n\n"
                 "The lead got NO report — follow up or re-run manually.".format(
                     job_id, req.name, req.email, req.phone,
-                    req.website or req.domain, req.business_name, error)}]})
+                    req.website or req.domain, req.business_name, error,
+                    "WEBSITE DOWN (lead tagged 'website down')" if site_down
+                    else "audit failed (site may be fine — lead tagged 'audit failed')")}]})
         urllib.request.urlopen(urllib.request.Request(
             "https://api.sendgrid.com/v3/mail/send", method="POST",
             data=body.encode(),

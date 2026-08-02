@@ -147,6 +147,29 @@ BROWSER_HEADERS = {
 _BLOCKED_CODES = {401, 403, 405, 406, 409, 429, 500, 503}
 
 
+class SiteDownError(RuntimeError):
+    """The lead's website is genuinely unreachable: DNS does not resolve, or
+    nothing accepts a TCP connection on 443/80. GHL messages these leads
+    'your site isn't even up' — so this must NEVER be raised when the site
+    answered with ANY HTTP status (a WAF 403 means the site is UP; falsely
+    telling a lead their working site is down would be embarrassing)."""
+
+
+def _site_is_down(domain):
+    """Definitive probe: True only when DNS fails or neither 443 nor 80
+    accepts a TCP connection. A bot-blocking WAF still accepts the TCP
+    connection, so blocked-but-alive sites always return False."""
+    import socket
+    for host in (domain, "www." + domain):
+        for port in (443, 80):
+            try:
+                with socket.create_connection((host, port), timeout=8):
+                    return False
+            except OSError:
+                continue
+    return True
+
+
 def _get_site_html(url, timeout=25):
     """Fetch a lead's page; on a blocked/refused status retry once with full
     browser headers before giving up."""
@@ -324,6 +347,16 @@ def fetch_site(domain, start_url=None):
             try:
                 pages["homepage"] = _fetch_text_via_dfs(target)[:15000]
             except Exception:
+                # Classify before giving up: an HTTPError means the site
+                # ANSWERED (it is up — Isaac Gomez's WAF 403, 2026-07-31, must
+                # stay a plain failure). Only a no-response failure PLUS a
+                # failed TCP probe on 443/80 counts as the site being down.
+                if not isinstance(e_direct, urllib.error.HTTPError) and _site_is_down(domain):
+                    raise SiteDownError(
+                        "the website {} is not reachable at all (no DNS answer or "
+                        "nothing accepting connections on 443/80) — the site looks "
+                        "genuinely down, not just blocking crawlers".format(domain)
+                    ) from e_direct
                 raise e_direct
             sys.stderr.write("  fetch_site: direct fetch blocked ({}) — used "
                              "DataForSEO crawler fallback\n".format(str(e_direct)[:100]))
@@ -1572,9 +1605,12 @@ def run_audit(website, name, email, phone, audit_id=None, email_mode="all", prog
             log("domain {} does not resolve — using email domain {} instead".format(domain, alt))
             domain = alt
         else:
-            raise ValueError(
-                "the submitted website {} does not resolve (likely a typo in "
-                "the form) and no usable email-domain fallback exists".format(domain))
+            # DNS-level dead (NXDOMAIN on domain, www + no email-domain
+            # fallback) — the strongest "website down" signal there is
+            # (Robert Gibson's content-restoration.com, 2026-07-30).
+            raise SiteDownError(
+                "the submitted website {} does not resolve (dead domain or a "
+                "typo in the form) and no usable email-domain fallback exists".format(domain))
     # franchise/shared-domain support: profile from the submitted PAGE, not
     # the domain root (puroclean.com/eastlasvegas is a business; puroclean.com
     # is a corporation with 400 locations)
