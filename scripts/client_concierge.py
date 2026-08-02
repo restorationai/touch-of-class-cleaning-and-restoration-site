@@ -88,6 +88,13 @@ Cadence guardrails (enforced in code at send time)
       step, a short meeting for non-technical clients — is owed
       immediately, and the flag is voided by ANY newer outbound so the
       thread is never advanced twice.
+    - ALWAYS THE LAST TO SEND (Santino 2026-08-02): when the client's last
+      message is substantive but needs no answer (sign-off, thank-you with
+      content, commitment), Monica still sends ONE short warm closer — the
+      batch's single outbound. Anti-loop: reaction events (Liked "...")
+      are not messages; a bare thanks/ok/emoji never gets a
+      counter-acknowledgment (one closer per wrap-up); and if our closer
+      is already newest, nothing is owed.
     - SANTINO NOTIFICATIONS (2026-08-02: "I should not be texted every time
       a client responds"): he is texted only for (a) tripped escalation
       ladders (max nudges, angry client), (b) things needing HIS action or
@@ -236,6 +243,13 @@ INBOUND_DEBOUNCE_MAX_S = 360   # never hold a reply hostage longer than this
 # double-texting the same question (Jaccard on >2-char words).
 SIMILAR_JACCARD = 0.55
 SIMILAR_RECENT_HOURS = 24
+# iMessage/Android reaction events arrive from GHL as ordinary inbound SMS
+# ('Liked "Got it, Invoice2go works great..."'). They are NOT messages —
+# never classify them, never reply to them, never treat them as a client
+# message waiting on us (Santino 2026-08-02 anti-loop rule (a)).
+_REACTION_RE = re.compile(
+    r'^(?:liked|loved|laughed at|emphasi[sz]ed|disliked|questioned)\s+["“]',
+    re.I)
 # Ops ping: every escalation also fires ONE summary SMS to Santino's cell so
 # a human hears about it without reading concierge-escalations.md. The 805
 # company number is the GHL location's own number and can't receive sends
@@ -569,9 +583,15 @@ def pending_client_message(cs: dict, history: list[dict], state: dict) -> dict |
     if history:
         newest = history[0]
         body = (newest.get("body") or "").strip()
+        # Reactions (Liked "...") are not messages; bare thanks/ok never
+        # get a counter-acknowledgment — both end the exchange with the
+        # client "last" and that is fine (anti-loop rules a + c). Anything
+        # substantive owes at least a closer: "I always want us to be the
+        # last person to send a message" (Santino 2026-08-02).
         if (newest["direction"] == "in"
                 and newest.get("channel") in ("sms", "email") and body
-                and not (_TERMINAL_ACK_RE.match(body) and len(body) <= 25)
+                and not _REACTION_RE.match(body)
+                and not _bare_ack(body)
                 and (now - newest["when"]) < timedelta(days=7)):
             return {"body": body, "kind": "message"}
     return None
@@ -1608,6 +1628,11 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
                 "meeting intel, ops notes or the items below contain the answer, "
                 "give it plainly and warmly; if they do not, say you are on it "
                 "and will get back to them shortly (never invent an answer). If "
+                "it needs no real answer at all (a sign-off, a thank-you with "
+                "substance, a commitment), the whole reply is ONE short warm "
+                "closing line pointing forward — we are always the one to "
+                "close the exchange, never leave the client's last message "
+                "hanging. If "
                 "the message is angry or a complaint, keep it short, acknowledge "
                 "it, and say Santino will reach out personally; never argue. "
                 "Do NOT add any outstanding item or extra ask to this "
@@ -2340,6 +2365,10 @@ def fetch_inbound_since(contact_id: str, since: datetime) -> list[dict]:
             # messages too (the Jeff Sibley case, 2026-07-22).
             if not body and not attachments:
                 continue
+            # Reaction events (Liked "...") are not messages — drop them
+            # here so neither the poll nor the webhook ever processes one.
+            if _REACTION_RE.match(body):
+                continue
             added = msg.get("dateAdded")
             try:
                 ts = datetime.fromisoformat(added.replace("Z", "+00:00"))
@@ -2922,12 +2951,17 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
     # everything response-worthy accumulates into `turn` for one decision.
     turn = {"bodies": [], "matched": set(), "intel": set(),
             "needs_answer": False, "needs_santino": False, "negative": False,
-            "suggested": None, "last_msg": None}
+            "suggested": None, "last_msg": None, "closer_only": False}
     for msg in msgs:
         out["processed"] += 1
         _record_handled(state, msg["id"])
         print(f"\n  {company['name']}: inbound {msg['channel']} "
               f"{msg['ts'].strftime('%m-%d %H:%M')}: {msg['body'][:90]!r}")
+        # Belt-and-suspenders: fetch_inbound_since already drops reaction
+        # events, but nothing that renders as one may ever reach a reply.
+        if _REACTION_RE.match((msg.get("body") or "").strip()):
+            print("    [reaction event — not a message, nothing to do]")
+            continue
         if msg.get("attachments"):
             media = ingest_inbound_media(company, msg, dry_run)
             print(f"    [media] photos={media['photos']} "
@@ -3009,7 +3043,22 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
         # follow-through — Monica extracted the answer and went silent. When
         # the client answered US, we owe the next step regardless.
         if (result.get("ack") or resp_need == "none") and not matched_ids:
-            print("    acknowledgment — no action, no escalation")
+            if _bare_ack(msg["body"]):
+                # Bare thanks/ok/emoji: the exchange is already closed —
+                # never counter-acknowledge (anti-loop rule c).
+                print("    bare acknowledgment — exchange closed, no "
+                      "counter-ack")
+                continue
+            # Substantive sign-off ("Sounds good, I appreciate you guys"):
+            # needs no answer, but "I always want us to be the last person
+            # to send a message" (Santino 2026-08-02) — flows to the
+            # phase-2 CLOSER: one short warm line, no ask.
+            print("    sign-off with substance — owed a closer")
+            turn["bodies"].append(msg["body"][:300])
+            turn["last_msg"] = msg
+            turn["closer_only"] = True
+            if suggested:
+                turn["suggested"] = suggested
             continue
         resc = result.get("reschedule") or {}
         if resc.get("requested"):
@@ -3129,14 +3178,18 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
                         needs_santino=turn["needs_santino"],
                         suggested=turn["suggested"])
         return out
-    # Plain statement(s): one warm ack for the whole burst (webhook path
-    # included — the compose that follows only carries owed replies, and a
-    # statement's ack IS the whole response).
+    # Plain statement(s) / substantive sign-offs: ONE warm CLOSER for the
+    # whole burst — "I always want us to be the last person to send a
+    # message" (Santino 2026-08-02). Webhook path included: the compose
+    # that follows only carries owed replies, and the closer IS the whole
+    # response. The loop can't ping-pong: a bare thanks back never gets a
+    # counter-ack, reactions aren't messages, and the duplicate guard
+    # blocks a repeat closer.
     _maybe_send_ack(state, company, contact_id,
                     {"body": combined, "channel": channel},
                     contact_payload, do_send, dry_run, history=history,
                     needs_answer=False, needs_santino=False,
-                    suggested=turn["suggested"])
+                    suggested=turn["suggested"], closer=True)
     return out
 
 
@@ -3342,6 +3395,36 @@ _TERMINAL_ACK_RE = re.compile(
     r"perfect|great|awesome|no problem|np|will do|yes ?sir|yup|yep|"
     r"👍|🙏)[.! ]*$", re.I)
 
+# Words that can appear in a message that is ONLY gratitude/agreement.
+# Anything outside this set means the message carries content and deserves
+# a response (a closer at minimum — "we are always the last to send").
+_ACK_WORDS = {
+    "thanks", "thank", "you", "u", "so", "much", "ok", "okay", "k", "kk",
+    "great", "sounds", "good", "perfect", "awesome", "got", "it", "will",
+    "do", "cool", "no", "problem", "np", "yes", "sir", "yup", "yep",
+    "yeah", "sure", "appreciate", "appreciated", "that", "works", "all",
+    "right", "alright", "roger", "bet", "10-4", "ty", "tysm"}
+
+
+def _bare_ack(body: str) -> bool:
+    """Cheap semantic-ish test: is this message ONLY thanks/agreement with
+    no content ("Thanks!", "ok great", "sounds good thank you", a bare
+    emoji)? A bare ack never gets a counter-acknowledgment — one closer per
+    wrap-up, the closer already ended the exchange (Santino 2026-08-02
+    anti-loop rule (c)). Reactions (Liked "...") are handled separately by
+    _REACTION_RE and are not messages at all."""
+    text = (body or "").strip()
+    if not text:
+        return True
+    if _TERMINAL_ACK_RE.match(text) and len(text) <= 25:
+        return True
+    if len(text) > 40:
+        return False
+    words = re.findall(r"[a-z0-9'\-]+", text.lower())
+    if not words:
+        return True   # pure emoji/punctuation
+    return all(w in _ACK_WORDS for w in words)
+
 ACK_SYSTEM = """\
 You are Monica from Santino's team at Restoration AI, texting ONE short
 holding line right after a client replied with something we can't fully
@@ -3405,19 +3488,21 @@ def _maybe_send_ack(state: dict, company: dict, contact_id: str, msg: dict,
                     dry_run: bool, history: list[dict] | None = None,
                     needs_answer: bool = False,
                     needs_santino: bool = False,
-                    suggested: str | None = None) -> None:
+                    suggested: str | None = None,
+                    closer: bool = False) -> None:
     body = (msg.get("body") or "").strip()
-    if not body or (_TERMINAL_ACK_RE.match(body) and len(body) <= 25):
+    if not body or _bare_ack(body):
         print("    [ack skipped: their message is itself an acknowledgment]")
         return
     cs = company_state(state, company["id"])
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     acks = cs.setdefault("acks", {})
-    if acks.get(contact_id) == today and not needs_answer:
+    if acks.get(contact_id) == today and not (needs_answer or closer):
         # The daily cap applies to PLAIN thank-you acks only. A question or
-        # stuck reply always gets a holding line: on 2026-08-02 the cap ate
-        # the reply to "I wonder why they suspended the listing" because a
-        # template ack four minutes earlier had already burned it.
+        # stuck reply always gets a holding line (on 2026-08-02 the cap ate
+        # the reply to "I wonder why they suspended the listing"), and a
+        # CLOSER always sends — being the last to speak is the policy, and
+        # each closer requires a fresh substantive client message anyway.
         print("    [ack skipped: already acknowledged this contact today]")
         return
     if business_hours_check(company, contact_payload):
@@ -3440,8 +3525,12 @@ def _maybe_send_ack(state: dict, company: dict, contact_id: str, msg: dict,
                 + ("Only the boss can decide this one, say you'll check with "
                    "Santino and get back to them.\n" if needs_santino else "")
                 + ("This reply needs a real answer later; write the holding "
-                   "line." if needs_answer
-                   else "This is a statement; write the short natural thanks."))
+                   "line." if needs_answer else
+                   ("This message WRAPS UP the exchange: write ONE short "
+                    "warm closing line pointing forward (no question, no "
+                    "ask, no new information). We are always the one to "
+                    "close." if closer else
+                    "This is a statement; write the short natural thanks.")))
             text = (draft.get("body") or "").strip()
         except Exception as e:  # noqa: BLE001 — a failed draft must not kill the poll
             print(f"    [ack] draft failed ({str(e)[:80]}) — using fallback")
