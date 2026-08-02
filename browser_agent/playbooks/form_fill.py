@@ -19,6 +19,14 @@ inside the persistent profile. If a portal demands per-client owner identity
 or phone verification mid-flow, that's a challenge_detected() stop — the
 platform belongs on the CLIENT-owed list, not here (mirror of setup_ledger's
 us_create/client_create split).
+
+Verified-creation write-back (2026-08-02): the LAST step of every verified
+creation is scripts/listings.record_listing(company_id, portal, public_url)
+— it puts the URL in the app's client-facing Business Listings card
+(user_integrations provider='citations', audit-shape nap_audit entry) and
+logs the client-readable work_log line IMMEDIATELY; the monthly
+citations_audit pass then merely re-verifies. Never make the client wait a
+month to see a listing we already shipped.
 """
 from __future__ import annotations
 
@@ -70,6 +78,13 @@ PORTALS = {
         # Run 3 attempt (coastal, same night): signup silently bounced to a
         #    sign-in page, no email sent — VELOCITY THROTTLE after 2 accounts
         #    from one browser/night. Pace: max 2 new accounts per day.
+        # Public verify (2026-08-02): both created profiles are LIVE — URL
+        #    shape professionals/environmental-services-and-restoration/
+        #    {name-slug}-pfvwus-pf~{id}. Read-only dedupe/verify search:
+        #    houzz.com/professionals/query/{name-dashes}/nqrwns?l={client
+        #    zip} — WITHOUT ?l= the search geo-defaults to the agent's IP
+        #    metro (50mi radius) and hides out-of-area pros. record_listing()
+        #    backfilled for narestco + flood-fixers.
         "selectors": {"supervised_runs_clean": 2},
     },
     "porch": {
@@ -193,8 +208,10 @@ def run(session: Session, portal: str) -> int:
         print(" 2. Fill from the NAP truth above (GBP-primary phone)")
         print(" 3. Decline every paid upsell (see quirks)")
         print(" 4. Submit only behind guard_live(); audit shots before/after")
-        print(" 5. On verified completion: ledger 'done'; citations_audit's")
-        print("    next pass flips the board card — never pre-clear it")
+        print(" 5. On verified completion: ledger 'done', then")
+        print("    listings.record_listing(company_id, portal, public_url) —")
+        print("    the app's Business Listings card shows the URL immediately;")
+        print("    citations_audit's next pass re-verifies (never wait for it)")
         if session.guard_live(f"create {cfg['label']} listing"):
             print("LIVE armed but selectors unpinned — refusing blind clicks.")
             ledger(session.company_id, session.playbook, f"{portal}-create",
