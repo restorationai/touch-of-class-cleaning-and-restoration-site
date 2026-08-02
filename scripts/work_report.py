@@ -22,16 +22,20 @@ never kills the whole report):
   marketing_content_items     blog posts published (status='published')
   marketing_videos            YouTube videos published
   marketing_press_releases    quarterly press releases drafted/published
+  marketing_setup_ledger      setup milestones (done_at landed 2026-08-02;
+                              _upsert stamps it only on the open->done
+                              transition, so "flipped to done in range" is
+                              finally recoverable — item_key maps to
+                              client-friendly copy, title is the fallback)
 
 Deliberately NOT aggregated:
-  marketing_setup_ledger      setup_ledger._upsert re-stamps updated_at on
-                              EVERY nightly sweep, so "flipped to done in
-                              range" is unrecoverable — done items would
-                              replay in every monthly report. If a done_at
-                              column ever lands, add it back.
   marketing_gbp_changes rows with change_type='post' — those mirror
                               marketing_gbp_posts (double write on the read
                               side).
+  marketing_setup_ledger keys client-asks / data-fresh / gbp-suggestions —
+                              those oscillate open<->done as routine state,
+                              not milestones; each flip would replay as a
+                              fake "setup completed" line.
 
 Usage:
   python3 scripts/work_report.py --slug narestco
@@ -268,10 +272,57 @@ def from_press_releases(cid: str, since: date, until: date) -> list[dict]:
     return out
 
 
+# ---- setup-ledger milestones (done_at column, 2026-08-02) ------------------
+# item_key -> client-readable milestone copy. {placeholders} fill from the
+# row's evidence jsonb; a missing placeholder value falls back to the row
+# title. Keys not listed here render their title. Oscillating status keys
+# (client-asks, data-fresh, gbp-suggestions) are excluded — routine state,
+# not milestones.
+_MILESTONE_COPY = {
+    "site-built":      "Milestone: your new website was built and staged for preview.",
+    "site-live":       "Milestone: your website went live on {domain}.",
+    "domain-access":   "Domain access confirmed, nothing blocks us from managing your domain.",
+    "gsc-indexnow":    "Google Search Console registered and search engines pinged to index your new site.",
+    "google-connected": "Your Google account was connected to our system, unlocking Business Profile, review and ranking management.",
+    "gbp-verified":    "Your Google Business Profile is verified with Google.",
+    "call-tracking":   "Call tracking activated: {gbp_number} now routes and records calls to your business line.",
+    "citations-build": "Every directory listing we create on your behalf is now in place.",
+    "lsa-setup":       "Google Local Services Ads set up for your business.",
+    "site-imagery":    "Custom photography and imagery completed for every service page on your website.",
+}
+_MILESTONE_SKIP = {"client-asks", "data-fresh", "gbp-suggestions"}
+
+
+def from_setup_ledger(cid: str, since: date, until: date) -> list[dict]:
+    out = []
+    for r in _rows(f"/rest/v1/marketing_setup_ledger?company_id=eq.{cid}"
+                   "&status=eq.done"
+                   f"&select=item_key,title,evidence,done_at{_range_filter('done_at', since, until)}"
+                   "&order=done_at.asc&limit=100"):
+        key = r.get("item_key") or ""
+        if key in _MILESTONE_SKIP:
+            continue
+        text = _MILESTONE_COPY.get(key)
+        if text:
+            try:
+                text = text.format(**{k: clean(str(v), 60) for k, v in
+                                      (r.get("evidence") or {}).items()
+                                      if isinstance(v, (str, int, float))})
+            except (KeyError, IndexError):
+                text = None  # placeholder had no evidence value -> title
+        if not text or "{" in text:
+            text = clean(r.get("title") or key.replace("-", " "), 140)
+            text = text[:1].upper() + text[1:] if text else text
+        e = ev(_parse_ts(r.get("done_at")), "setup", text)
+        if e:
+            out.append(e)
+    return out
+
+
 COLLECTORS = [from_work_log, from_gbp_posts, from_gbp_changes,
               from_browser_agent, from_backlinks,
               from_review_requests, from_content_items, from_videos,
-              from_press_releases]
+              from_press_releases, from_setup_ledger]
 
 
 def collect(cid: str, since: date, until: date) -> list[dict]:

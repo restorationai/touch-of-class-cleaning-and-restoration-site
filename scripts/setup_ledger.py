@@ -212,10 +212,44 @@ def _agent_submitted_platforms(cid: str, name: str, slug: str,
 
 
 def _upsert(rows: list[dict], dry_run: bool) -> None:
+    """Upsert ledger rows, stamping done_at ONLY on the open->done TRANSITION.
+
+    done_at (added 2026-08-02) is the milestone timestamp work_report.py
+    renders ("Your website went live on ..."). The nightly sweep re-stamps
+    updated_at on EVERY pass — that is exactly the bug that made flip times
+    unrecoverable — so done_at must be: preserved verbatim while a row stays
+    done, set to now() only when it transitions into done, cleared when a
+    row reopens. If the pre-read of current state fails, ship WITHOUT
+    done_at (never risk overwriting a real flip time with a guess)."""
     if not rows or dry_run:
         return
+    now = datetime.now(timezone.utc).isoformat()
+    try:
+        cur: dict[tuple[str, str], dict] = {}
+        for cid in {r["company_id"] for r in rows}:
+            keys = ",".join(sorted({r["item_key"] for r in rows
+                                    if r["company_id"] == cid}))
+            for c in _sb("GET", "/rest/v1/marketing_setup_ledger"
+                         f"?company_id=eq.{cid}&item_key=in.({keys})"
+                         "&select=item_key,status,done_at",
+                         prefer="return=representation") or []:
+                cur[(cid, c["item_key"])] = c
+        for r in rows:
+            prev = cur.get((r["company_id"], r["item_key"])) or {}
+            if r.get("status") == "done":
+                # already done with a stamp -> keep it (write-back of the
+                # same value, never a re-stamp); fresh transition -> now()
+                r["done_at"] = (prev.get("done_at")
+                                if prev.get("status") == "done"
+                                and prev.get("done_at") else now)
+            else:
+                r["done_at"] = None  # reopened -> the old milestone is void
+    except Exception:
+        # PostgREST bulk upsert needs uniform keys — drop done_at everywhere
+        for r in rows:
+            r.pop("done_at", None)
     for r in rows:
-        r["updated_at"] = datetime.now(timezone.utc).isoformat()
+        r["updated_at"] = now
     _sb("POST", "/rest/v1/marketing_setup_ledger?on_conflict=company_id,item_key",
         rows, prefer="resolution=merge-duplicates")
 
