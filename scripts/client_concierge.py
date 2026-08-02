@@ -1370,13 +1370,14 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
             f"\"{str(commitment.get('context', ''))[:250]}\").\n"
             "THIS message must deliver on that promise concretely: give the "
             "actual steps or the actual answer, or ask the one concrete "
-            "question that unblocks them (for a customer list: ask which "
-            "system holds their customers — QuickBooks, an invoicing app, "
-            "phone contacts, a spreadsheet — then have them EXPORT it as a "
-            "file and send it via their hub upload link; review campaigns "
-            "need the FULL list, hundreds of contacts, so NEVER suggest a "
-            "screenshot for a customer list — Santino 2026-08-02). If "
-            "it is genuinely hands-on, offer a quick call instead. Do not "
+            "question that unblocks them (for a customer list, the opener is "
+            "ONE simple question: \"Where do your previous customer contacts "
+            "live?\" — no system menus, no jargon; review campaigns need the "
+            "FULL list, hundreds of contacts, so NEVER suggest a screenshot "
+            "— Santino 2026-08-02). For a client who reads non-technical "
+            "(struggles with 'how do I' tasks), do NOT attempt a text "
+            "walkthrough: after that one question, recommend a short "
+            "meeting to do it together and propose times. Do not "
             "promise again, do not say you'll follow up later, and never "
             "make a new promise this pipeline won't deliver. The body must "
             "NOT be empty.\n")
@@ -1982,14 +1983,15 @@ suggested_reply rules — Monica's voice: warm, brief (under 300 characters),
 plain 6th-grade words, NEVER em or en dashes (use a comma or period), no
 emojis, no canned filler ("Perfect, thanks for getting back to me" is
 banned). Respond to what they SAID. When they are stuck ("I don't know how
-to..."), do the FIRST STEP of the walk-through right now: ask the one
-concrete question that unblocks them (customer list example: "which system
-has your customers in it, QuickBooks, an invoicing app, your phone, a
-spreadsheet? We'll get the export out of it together" — a review campaign
-needs the FULL list, hundreds of contacts, so never suggest a screenshot
-for a customer list; the export file goes in via their hub upload link)
-instead of promising future
-help. Only promise a follow-up when the answer genuinely needs research we
+to..."), do the FIRST STEP of the walk-through right now: ask ONE simple
+question that unblocks them (customer list example: "Where do your
+previous customer contacts live?" — plain words, no system menus; a
+review campaign needs the FULL list, hundreds of contacts, so never
+suggest a screenshot). For a non-technical client (Santino 2026-08-02:
+"someone like Todd, definitely just recommend a meeting"), the next move
+after that one question is a short meeting to do it together — propose
+times, don't text a multi-step walkthrough at them.
+Only promise a follow-up when the answer genuinely needs research we
 cannot do in this text, and say specifically what you will come back with.
 When response_needed is "answer" and the open items / history / intel
 contain the answer, give it plainly; otherwise write a specific holding
