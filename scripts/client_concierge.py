@@ -2320,6 +2320,17 @@ emoji (👍, 🙏), "ok", "sounds good", "thanks", "see you then", "perfect" —
 with no information in it, set "ack": true and nothing else. Acknowledgments
 need no reply and no human.
 
+CONTACT CARDS: a bracketed note like "(the client texted N contact
+card(s): ...)" means they shared vCards — real customer contacts, already
+parsed and filed on our side. That is SUBSTANTIVE content, never a failed
+attachment and never escalate-worthy by itself: response_needed is
+"acknowledge", and suggested_reply is a short forward ack that may name the
+person ("Got Ed's contact, thanks"). One or a few texted cards are NOT the
+full customer list — do not match a customer-list item on cards alone.
+GROUNDING: receiving a card never means a review request went out; never
+say or imply anything was sent to those people (enrolling them is a human
+decision on our side, not something to discuss with the client).
+
 If the reply asks to MOVE/RESCHEDULE/CANCEL an upcoming call or meeting
 ("can we reschedule?", "can't make it Tuesday", "push it a few days"), set
 "reschedule" with their timing preference in plain words — that is handled
@@ -2464,6 +2475,78 @@ def fetch_inbound_since(contact_id: str, since: datetime) -> list[dict]:
     return sorted(messages, key=lambda m: m["ts"])
 
 
+def _vcard_phone(raw_tel: str) -> str:
+    """Normalize a vCard TEL to +1XXXXXXXXXX when it reads as a US number
+    (iPhone exports both '(760) 505-7855' and bare '17605355181')."""
+    tel = re.sub(r"[^\d+]", "", raw_tel or "")
+    digits = tel.lstrip("+")
+    if len(digits) == 10:
+        return "+1" + digits
+    if len(digits) == 11 and digits.startswith("1"):
+        return "+" + digits
+    return tel
+
+
+def parse_vcards(raw: bytes) -> list[dict]:
+    """Tiny vCard reader for texted contact cards — no deps (iPhone shares
+    are simple VERSION:3.0 files, see Gabriel's two on 2026-08-01). Handles
+    folded lines (continuation starts with space/tab), item1.-style group
+    prefixes, ;TYPE=... params, backslash escapes, and multiple cards per
+    file. Returns [{"name","phone","email"}] — first TEL/EMAIL per card
+    wins, FN preferred over an assembled N."""
+    try:
+        text = raw.decode("utf-8")
+    except UnicodeDecodeError:
+        text = raw.decode("latin-1", errors="replace")
+    lines: list[str] = []
+    for ln in text.replace("\r\n", "\n").replace("\r", "\n").split("\n"):
+        if ln[:1] in (" ", "\t") and lines:
+            lines[-1] += ln[1:]        # unfold RFC 6350 continuation
+        else:
+            lines.append(ln)
+
+    def unesc(v: str) -> str:
+        return (v.replace("\\n", " ").replace("\\N", " ")
+                 .replace("\\,", ",").replace("\\;", ";")
+                 .replace("\\\\", "\\").strip())
+
+    cards: list[dict] = []
+    cur: dict | None = None
+    for ln in lines:
+        if ":" not in ln:
+            continue
+        prop, _, value = ln.partition(":")
+        prop = prop.split(".", 1)[-1]              # strip "item1." group
+        pname = prop.split(";", 1)[0].strip().upper()   # strip TYPE params
+        if pname == "BEGIN" and value.strip().upper() == "VCARD":
+            cur = {"name": "", "phone": "", "email": "", "_n": ""}
+        elif cur is None:
+            continue
+        elif pname == "END" and value.strip().upper() == "VCARD":
+            cur["name"] = cur["name"] or cur["_n"]
+            if cur["name"] or cur["phone"] or cur["email"]:
+                cards.append({k: v for k, v in cur.items() if k != "_n"})
+            cur = None
+        elif pname == "FN" and not cur["name"]:
+            cur["name"] = unesc(value)
+        elif pname == "N" and not cur["_n"]:
+            parts = value.split(";")
+            family = unesc(parts[0]) if parts else ""
+            given = unesc(parts[1]) if len(parts) > 1 else ""
+            cur["_n"] = " ".join(p for p in (given, family) if p)
+        elif pname == "TEL" and not cur["phone"]:
+            cur["phone"] = _vcard_phone(unesc(value))
+        elif pname == "EMAIL" and not cur["email"]:
+            cur["email"] = unesc(value)
+    return cards
+
+
+def _fmt_card(c: dict) -> str:
+    bits = " ".join(x for x in (c.get("name"), c.get("phone"),
+                                c.get("email")) if x)
+    return bits or "contact card (could not parse — raw .vcf saved)"
+
+
 def ingest_inbound_media(company: dict, msg: dict, dry_run: bool) -> dict:
     """File a client's texted photos/videos where the hub upload page puts
     them, so nothing a client sends is ever lost:
@@ -2473,8 +2556,14 @@ def ingest_inbound_media(company: dict, msg: dict, dry_run: bool) -> dict:
                       so they never get posted to Google)
       videos       -> branding/{cid}/job-videos/        (the GBP poster only
                       handles PHOTO media; keep its folder clean)
+      contacts     -> branding/{cid}/contacts/          (texted vCards — a
+                      shared customer contact used to die in "failed" and
+                      only survive if a human copied it into a note; Gabriel
+                      / Flood Fixers 2026-08-01. Raw .vcf kept + parsed
+                      name/phone/email returned in "contact_cards")
     Images are re-encoded (EXIF/GPS stripped) like the upload page does."""
-    out = {"photos": 0, "screenshots": 0, "videos": 0, "failed": 0}
+    out = {"photos": 0, "screenshots": 0, "videos": 0, "contacts": 0,
+           "failed": 0, "contact_cards": []}
     cid = company["id"]
     for url in msg.get("attachments") or []:
         try:
@@ -2485,7 +2574,8 @@ def ingest_inbound_media(company: dict, msg: dict, dry_run: bool) -> dict:
                 out["failed"] += 1
                 continue
             ctype = (r.headers.get("Content-Type") or "").lower()
-            ext = url.rsplit(".", 1)[-1].lower() if "." in url.rsplit("/", 1)[-1] else ""
+            fname = url.rsplit("/", 1)[-1].split("?", 1)[0]
+            ext = fname.rsplit(".", 1)[-1].lower() if "." in fname else ""
             stamp = "{}-{}".format(int(msg["ts"].timestamp() * 1000),
                                    hashlib.sha1(url.encode()).hexdigest()[:8])
             sb_url = os.environ["SUPABASE_URL"].rstrip("/")
@@ -2508,6 +2598,16 @@ def ingest_inbound_media(company: dict, msg: dict, dry_run: bool) -> dict:
                     path, kind = f"{cid}/job-photos/inbox/sms-{stamp}.jpg", "screenshots"
                 else:
                     path, kind = f"{cid}/job-photos/sms-{stamp}.jpg", "photos"
+            elif "vcard" in ctype or ext == "vcf":
+                # A texted contact card is CONTENT, never "failed": keep the
+                # raw .vcf and surface the parsed contact to the caller (ops
+                # note + ack). No auto-enrollment happens here or downstream
+                # — review-campaign sender gates are a human decision.
+                cards = parse_vcards(raw) or [
+                    {"name": "", "phone": "", "email": ""}]
+                out["contact_cards"].extend(cards)
+                path = f"{cid}/contacts/sms-{stamp}.vcf"
+                body, up_type, kind = raw, "text/vcard", "contacts"
             else:
                 out["failed"] += 1
                 continue
@@ -2532,6 +2632,44 @@ def ingest_inbound_media(company: dict, msg: dict, dry_run: bool) -> dict:
                   file=sys.stderr)
             out["failed"] += 1
     return out
+
+
+def file_contact_note(company: dict, cards: list[dict],
+                      open_items: list[dict], contact_payload: dict | None,
+                      dry_run: bool) -> None:
+    """ONE open ops note per inbound batch of contact cards, so shared
+    customers surface on the Ops Attention board instead of living only in
+    a hand-written note (the Ed/Steve lesson, 2026-08-01). If an open
+    intake item is about the customer list, the linkage is noted. This
+    files paperwork only — it never enrolls anyone in a review campaign."""
+    sender = contact_first_name(contact_payload, company)
+    lines = [f"[CONTACT RECEIVED] {_fmt_card(c)} — sent by {sender} via "
+             "text; likely a review-campaign customer" for c in cards]
+    body = "\n".join(lines)
+    linked = next((i for i in open_items if re.search(
+        r"customer.{0,40}(list|contact)|(list|contact).{0,40}customer"
+        r"|past customers|review.{0,30}(campaign|request)",
+        i.get("text") or "", re.I)), None)
+    if linked:
+        body += (f"\n(likely relates to open {linked['kind']} item "
+                 f"{str(linked['id'])[:8]}: {linked['text'][:120]!r})")
+    body += ("\n(raw .vcf saved to branding/{}/contacts/ — NOT enrolled in "
+             "any review campaign; sender gates are a human decision)"
+             .format(company.get("id")))
+    if dry_run:
+        print(f"    [dry-run] would file ops note:\n      "
+              + body.replace("\n", "\n      "))
+        return
+    try:
+        _sb("POST", "/rest/v1/marketing_ops_notes",
+            {"company_id": company.get("id"), "body": body,
+             "status": "open"}, prefer="return=minimal")
+        print(f"    [contacts] ops note filed ({len(cards)} contact(s))")
+    except Exception as e:  # noqa: BLE001 — never lose the contact silently
+        print(f"    [contacts] ops-note insert failed ({e}) — escalating",
+              file=sys.stderr)
+        append_escalation(company, None, "contact card(s) received but the "
+                          f"ops note failed to write: {body[:300]}", dry_run)
 
 
 def apply_answer(item_id: str, value: str, dry_run: bool) -> None:
@@ -3031,7 +3169,8 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
     # everything response-worthy accumulates into `turn` for one decision.
     turn = {"bodies": [], "matched": set(), "intel": set(),
             "needs_answer": False, "needs_santino": False, "negative": False,
-            "suggested": None, "last_msg": None, "closer_only": False}
+            "suggested": None, "last_msg": None, "closer_only": False,
+            "contact_cards": []}
     for msg in msgs:
         out["processed"] += 1
         _record_handled(state, msg["id"])
@@ -3042,12 +3181,41 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
         if _REACTION_RE.match((msg.get("body") or "").strip()):
             print("    [reaction event — not a message, nothing to do]")
             continue
+        had_cards = False
         if msg.get("attachments"):
             media = ingest_inbound_media(company, msg, dry_run)
             print(f"    [media] photos={media['photos']} "
                   f"videos={media['videos']} "
                   f"screenshots={media['screenshots']} "
+                  f"contacts={media['contacts']} "
                   f"failed={media['failed']}")
+            if media["contact_cards"]:
+                # A vCard is SUBSTANTIVE content (a customer the client is
+                # handing us, likely for the review campaign) — never the
+                # failed-media path. One ops note covers the whole batch
+                # (filed after this loop); here the analysis just gets the
+                # facts so the ack reads "Got Ed's contact, thanks", with
+                # grounding intact: receiving a card is NOT evidence any
+                # review request was sent. Gate on the PARSE result, not the
+                # upload counter — the parsed contact must survive even a
+                # storage hiccup (the .vcf upload 415'd until text/vcard was
+                # added to the branding bucket's allowed MIME types,
+                # 2026-08-02).
+                had_cards = True
+                turn["contact_cards"].extend(media["contact_cards"])
+                who = "; ".join(_fmt_card(c) for c in media["contact_cards"])
+                note = (f"the client texted "
+                        f"{len(media['contact_cards'])} contact "
+                        f"card(s): {who} — parsed and filed for the team "
+                        "as likely review-campaign customers. Nothing has "
+                        "been sent to these people and nothing may be "
+                        "claimed as sent")
+                if msg["body"]:
+                    msg["body"] += f"\n({note})"
+                else:
+                    msg["body"] = (f"({note}. Treat this as them sharing "
+                                   "customer contacts: thank them briefly, "
+                                   "forward-looking)")
             if not msg["body"]:
                 if media["photos"] or media["videos"]:
                     # Give the normal reply flow something to acknowledge
@@ -3159,8 +3327,12 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
         turn["needs_santino"] = turn["needs_santino"] or needs_santino
         if suggested:
             turn["suggested"] = suggested   # newest message's draft wins
+        # A filed contact card already surfaces on the board via its own
+        # open ops note — the mechanical "no open item matched" fallback on
+        # top of that is duplicate noise. Classify-driven escalations
+        # (negative, explicit escalate) still apply to card messages.
         if (result.get("escalate") or negative
-                or not result.get("matches")):
+                or (not result.get("matches") and not had_cards)):
             reason = result.get("escalate_reason") or (
                 "negative sentiment" if negative
                 else "no open item matched")
@@ -3171,6 +3343,13 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
             # via the morning digest (policy 2026-08-02).
             append_escalation(company, msg, reason, dry_run,
                               ping=negative or needs_santino)
+
+    # Contact cards: ONE open ops note per batch (surfaces on the Ops
+    # Attention board) — filed before any early return so the paperwork
+    # never depends on the outbound decision.
+    if turn["contact_cards"]:
+        file_contact_note(company, turn["contact_cards"], open_items,
+                          contact_payload, dry_run)
 
     # ---- phase 2: ONE outbound decision for the whole turn.
     if not turn["last_msg"]:
