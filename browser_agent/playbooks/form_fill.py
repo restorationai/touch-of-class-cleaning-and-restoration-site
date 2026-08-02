@@ -74,29 +74,87 @@ PORTALS = {
     },
     "porch": {
         "label": "Porch",
-        "search": "https://porch.com/search",
-        "create": "https://pro.porch.com/signup",
-        "notes": "Free pro profile; Porch resells leads — decline every "
-                 "paid-lead upsell screen. Service: water/fire/mold damage "
-                 "restoration.",
+        "search": "https://porch.com/pros",  # NO name search — see recon note
+        "create": "https://pro.porch.com/pro",  # landing only; signup CLOSED
+        "notes": "PARKED (recon 2026-08-02): Porch pivoted to insurance and "
+                 "self-serve pro signup is GONE — pro.porch.com/signup, "
+                 "/login, /registration, porch.com/join all 404; the pro "
+                 "landing's 'Become a Vetted Pro' is a plain <h4>, not a "
+                 "link, and its only CTAs are Log in / GET SUPPORT. Getting "
+                 "listed needs a human via Pro Support. NEVER enter "
+                 "porch.com/checkout/start (the /pros search box funnels "
+                 "straight into a homeowner LEAD-REQUEST wizard; water "
+                 "damage restoration = serviceTypeId 6324).",
+        # Pinned during read-only recon (2026-08-02, no account touched):
+        #  dedupe: on-portal name search does not exist. porch.com/pros only
+        #    autocompletes service CATEGORIES (picking one navigates to the
+        #    checkout/start lead wizard — abort). Directory browse is dead:
+        #    porch.com/near-me/{category} 301s to pro.porch.com/near-me/*
+        #    which 404s; porch.com/{city}-{st}/{category} 404s. Dedupe via
+        #    engine query site:porch.com "{business name}" (legacy profiles
+        #    end in /pp) — treat any hit as claim-path research for a human.
+        #  porch.com/signup is CUSTOMER (insurance) signup — wrong product.
         "selectors": {},
     },
     "homeguide": {
         "label": "HomeGuide",
-        "search": "https://homeguide.com/",  # search box on landing
-        "create": "https://homeguide.com/signup/pro",
-        "notes": "Free listing; lead credits are the upsell — skip. Fast "
-                 "form: name/category/zip/phone/email.",
+        # {zip} = client zip; service id is opaque — f876B6Fz is the 'Water
+        # Damage Cleanup And Restoration' category our clients live in.
+        "search": "https://homeguide.com/search?service=f876B6Fz&zipcode={zip}",
+        "create": "https://homeguide.com/pro",  # signup/pro 404s; this is live
+        "notes": "Free pro profile ('Join as a pro' header link -> /pro). "
+                 "Hero form service+zip, submit label 'Sign up for free' — "
+                 "that click STARTS account creation, so it stays behind "
+                 "guard_live(). Lead credits are the upsell (the /pro page "
+                 "shows 'X is looking for...' teaser cards that all gate on "
+                 "signup); booking software itself is free per "
+                 "/for-business/pricing. Login: homeguide.com/login.",
+        # Pinned during read-only recon (2026-08-02, no account created):
+        #  create entry: input#service (typeahead) + input#zip + submit
+        #    'Sign up for free' on homeguide.com/pro; consumer home search is
+        #    input#searchBarInput + input#main-search-zip + button#submit.
+        #  dedupe: results at /search?service={id}&zipcode={zip} are
+        #    JS-RENDERED (raw HTML is a ~6KB shell) — read the rendered DOM,
+        #    never page-source. Suggestion click auto-navigates using a
+        #    GEO-IP zip, so always goto the search URL with the client zip
+        #    explicitly. Profile URL pattern:
+        #    homeguide.com/{st}/{city}/{category}/{slug}-{id}.
+        #  2026-08-02 @98409: NaRestCo NOT in top-10; client 'Allpro
+        #    Construction' (Auburn WA) IS already listed.
         "selectors": {},
     },
     "bbb": {
         "label": "BBB",
-        "search": "https://www.bbb.org/search",
+        "search": "https://www.bbb.org/search?find_country=USA"
+                  "&find_text={name}&find_loc={city}%2C+{st}",
         "create": "https://www.bbb.org/get-listed",
-        "notes": "Request form, not an account: BBB calls/emails the BUSINESS "
-                 "to verify, so the client should expect the call — file a "
-                 "Monica heads-up note after submitting. Accreditation is a "
-                 "paid product we never opt into; the free listing is the ask.",
+        "notes": "Request form, not accreditation: dedupe lookup ON the "
+                 "get-listed page first; existing record -> 'Select' (claim "
+                 "path), else 'Add It Now' -> /get-listed/form -> 'I own a "
+                 "business' -> /get-listed/business. Final button 'Create "
+                 "Profile' creates a BBB account+profile — guard_live() "
+                 "only. BBB then verifies with the BUSINESS, so file a "
+                 "Monica heads-up note after submitting. Accreditation is "
+                 "the paid product: never opt in — leave the "
+                 "learnMoreAboutAccreditation checkbox UNCHECKED and skip "
+                 "/get-accredited & /apply links.",
+        # Pinned during read-only recon (2026-08-02, nothing submitted):
+        #  /get-listed/business form#addBusinessForm fields:
+        #    businessContactFirstName / businessContactLastName /
+        #    businessContactTitle (opt), businessName, address, address2
+        #    (opt), city, state (native <select>, 'WA - Washington' style),
+        #    postalCode, phoneNumber (tel), email, url,
+        #    addBusinessFormCategoryInput (typeahead — e.g. 'Fire and Water
+        #    Damage Restoration'), learnMoreAboutAccreditation checkbox
+        #    (default UNCHECKED — keep it that way), submit 'Create Profile'.
+        #  dedupe: /search results are SERVER-RENDERED (name + /profile/
+        #    links present in raw HTML); profile URL pattern
+        #    bbb.org/us/{st}/{city}/profile/{category}/{slug}-{bureau}-{id}.
+        #  PerimeterX (pxcelframe) is on every page — no challenge fired
+        #    logged-out, but pace requests and never retry a block.
+        #  2026-08-02: NaRestCo ALREADY EXISTS — A+ profile, Federal Way WA
+        #    98003, (844) 672-2424 -> claim path / ledger 'exists', never a
+        #    duplicate create.
         "selectors": {},
     },
     # Data aggregators (Data Axle / Localeze / Foursquare) feed hundreds of
