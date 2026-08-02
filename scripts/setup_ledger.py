@@ -129,6 +129,88 @@ def _upcoming_kickoff(ints: dict) -> str | None:
     return None
 
 
+# ---- citations-build per-platform status (Santino 2026-08-02) --------------
+# The app renders the "Create listings we own" card as a checklist straight
+# from evidence.platform_status (title stays untouched for backward compat):
+#   live              -> checked/strikethrough (NAP audit found the listing)
+#   submitted_pending -> half-state (browser agent completed the create/submit
+#                        but the directory hasn't published it / the audit
+#                        hasn't re-found it yet)
+#   todo              -> empty checkbox
+# Porch stays excluded (self-serve pro signup killed upstream, 2026-08-02).
+_US_CREATE_PLATFORMS = ("bing_places", "apple_maps", "bbb", "expertise",
+                        "houzz", "homeguide")
+_PS_LABEL = {"live": "live",
+             "submitted_pending": "created — pending publish",
+             "todo": "not started"}
+# browser_agent_actions outcomes that mean "the create actually went through"
+# (recon_done / review_needed / deferred_* / needs_* never count).
+_SUBMITTED_OUTCOMES = ("done", "done_public", "exists", "already_exists")
+
+
+def _bing_sweep_rows() -> list[dict]:
+    """Agency-account Bing sweep rows (company_id NULL). The 2026-08-01 GBP
+    import ran as ONE batch on the agency Google account, so per-client
+    attribution lives only in the row detail ('...FF, ProRestoration, RX,
+    NaRestCo, Home Pride[published]')."""
+    try:
+        return _sb("GET", "/rest/v1/browser_agent_actions"
+                   "?playbook=eq.bing-places&company_id=is.null&live=is.true"
+                   "&outcome=in.(done,done_public,exists,already_exists,"
+                   "live_write_unintended)&select=detail,meta",
+                   prefer="return=representation") or []
+    except Exception:
+        return []
+
+
+def _sweep_mentions_client(sweep_rows: list[dict], name: str, slug: str) -> bool:
+    """True when a batch sweep row's detail/meta names this client — by slug,
+    leading name words, or initials (the batch log abbreviates: FF = Flood
+    Fixers, RX = RestorationXpress)."""
+    name = (name or "").strip()
+    words = [w for w in re.split(r"[^A-Za-z0-9]+", name) if w]
+    parts: list[str] = []
+    for w in words:  # CamelCase-aware: "RestorationXpress" -> Restoration, Xpress
+        parts += re.findall(r"[A-Z][a-z0-9]*|[A-Z]+(?![a-z])", w) or [w]
+    initials = "".join(p[0].upper() for p in parts if p)
+    prefix2 = " ".join(words[:2]).lower()
+    for r_ in sweep_rows:
+        text = f"{r_.get('detail') or ''} {json.dumps(r_.get('meta') or {})}"
+        low = text.lower()
+        if slug and len(slug) >= 4 and slug in low:
+            return True
+        if len(prefix2) >= 8 and prefix2 in low:
+            return True
+        if len(initials) >= 2 and re.search(rf"\b{initials}\b", text):
+            return True
+    return False
+
+
+def _agent_submitted_platforms(cid: str, name: str, slug: str,
+                               bing_sweep: list[dict]) -> set[str]:
+    """us-create platforms where browser_agent_actions shows a completed
+    create/submit for this company (action names look like 'houzz-create',
+    'create-listing' under a platform playbook, ...). Bing additionally
+    counts when the agency-account batch sweep touched this client."""
+    subs: set[str] = set()
+    try:
+        acts = _sb("GET", f"/rest/v1/browser_agent_actions?company_id=eq.{cid}"
+                   "&live=is.true&select=playbook,action,outcome",
+                   prefer="return=representation") or []
+    except Exception:
+        acts = []
+    for a in acts:
+        if (a.get("outcome") or "") not in _SUBMITTED_OUTCOMES:
+            continue
+        blob = f"{a.get('playbook') or ''} {a.get('action') or ''}".lower()
+        for plat in _US_CREATE_PLATFORMS:
+            if plat.split("_")[0] in blob:  # bing / apple / bbb / houzz / ...
+                subs.add(plat)
+    if "bing_places" not in subs and _sweep_mentions_client(bing_sweep, name, slug):
+        subs.add("bing_places")
+    return subs
+
+
 def _upsert(rows: list[dict], dry_run: bool) -> None:
     if not rows or dry_run:
         return
@@ -211,6 +293,7 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
     # per-run auto-heal budget: 2 geo-grid re-scans (DFS cost) + 3 media
     # imports + 3 tracking-number provisions + 3 GBP phone swaps
     _HEALS = {"geogrid": 2, "media": 3, "calltrack": 3, "swap": 3, "citations": 2}
+    bing_sweep = _bing_sweep_rows()  # fetched once; reused per client
 
     for co in cos:
         cid = co["id"]
@@ -616,6 +699,26 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                 client_create = [_lbl[k] for k in ("yelp", "facebook", "thumbtack",
                                                    "angi", "nextdoor", "yellowpages")
                                  if k in _missing]
+                # Per-platform checklist state (Santino 2026-08-02): the app
+                # renders citations-build from evidence.platform_status.
+                agent_subs = _agent_submitted_platforms(
+                    cid, co.get("name") or "", slug, bing_sweep)
+                platform_status = {}
+                for plat in _US_CREATE_PLATFORMS:
+                    _pst = (napa.get(plat) or {}).get("status")
+                    if _pst in ("found", "discrepancy"):
+                        # a discrepancy listing still EXISTS — never re-create;
+                        # the wrong phone is tracked on the citations card
+                        _state = "live"
+                    elif plat in agent_subs:
+                        _state = "submitted_pending"
+                    else:
+                        _state = "todo"
+                    platform_status[plat] = {"status": _state,
+                                             "label": _PS_LABEL[_state]}
+                if dry_run:
+                    print(f"  [citations-build] {slug}: " + ", ".join(
+                        f"{k}={v['status']}" for k, v in platform_status.items()))
                 rows.append({"company_id": cid, "item_key": "citations", "kind": "client_owed",
                              "status": "open" if (n_disc or client_create) else "done",
                              "title": f"Directory listings: {n_found} found, "
@@ -642,12 +745,14 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                                            "NAP with the REAL phone number. The browser "
                                            "agent works these; done = verified complete.",
                                  "evidence": {"platforms": us_create,
-                                              "queued_for_agent": True}})
+                                              "queued_for_agent": True,
+                                              "platform_status": platform_status}})
                 else:
                     rows.append({"company_id": cid, "item_key": "citations-build",
                                  "kind": "us_owed", "status": "done",
                                  "title": "Listings we can create ourselves: all present",
-                                 "detail": None, "evidence": {}})
+                                 "detail": None,
+                                 "evidence": {"platform_status": platform_status}})
                 if n_disc:
                     attention.append(f"{slug}: {n_disc} directory listing(s) show a WRONG "
                                      "phone — fix against the canonical card")
