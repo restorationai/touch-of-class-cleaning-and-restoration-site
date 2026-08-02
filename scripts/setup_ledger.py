@@ -320,6 +320,71 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                      f"https://restorationai.io/connect/{slug}",
                      "evidence": {}})
 
+        # ---- gbp-verified (Voice of Merchant) --------------------------------
+        # Why (2026-08-01): "connected" != "verified". QCI + Paul Davis sat
+        # invisible to Bing's GBP import (and most GBP features) because their
+        # listings are unverified, and nothing surfaced it as its own card —
+        # QCI's verification video was even rejected 07-30. Go Green's
+        # suspension also shows here (complyWithGuidelines). Distinct card so
+        # verification gaps never hide inside the citations rollup.
+        try:
+            if gi:
+                import gbp as _gbp
+                _tok = _gbp.get_access_token(cid)
+                _place = _gbp._place_id_from_connection(cid)
+                _loc = _gbp.find_location(_tok, _place) if _tok and _place else None
+                if _tok and _loc:
+                    _ln = _loc["name"] if _loc["name"].startswith("locations/") \
+                        else "locations/" + _loc["name"].split("locations/")[-1]
+                    _vr = requests.get(
+                        "https://mybusinessverifications.googleapis.com/v1/"
+                        f"{_ln}/VoiceOfMerchantState",
+                        headers={"Authorization": f"Bearer {_tok}"}, timeout=30)
+                    if _vr.ok:
+                        vom = _vr.json()
+                        if vom.get("hasVoiceOfMerchant"):
+                            rows.append({"company_id": cid, "item_key": "gbp-verified",
+                                         "kind": "auto", "status": "done",
+                                         "title": "Google Business Profile verified",
+                                         "detail": None, "evidence": {}})
+                        elif "complyWithGuidelines" in vom:
+                            _why = (vom["complyWithGuidelines"] or {}).get(
+                                "recommendationReason", "SUSPENDED")
+                            rows.append({"company_id": cid, "item_key": "gbp-verified",
+                                         "kind": "us_owed", "status": "open",
+                                         "title": "GBP SUSPENDED — reinstatement "
+                                                  "appeal needed",
+                                         "detail": "Google disabled the listing "
+                                                   f"({_why}). It is NOT publicly "
+                                                   "visible; posts/photos/reviews all "
+                                                   "blocked until reinstated. Appeal at "
+                                                   "support.google.com/business — get "
+                                                   "Google's suspension email from the "
+                                                   "client first (date + violation).",
+                                         "evidence": {"reason": _why}})
+                            attention.append(f"{slug}: GBP SUSPENDED ({_why}) — "
+                                             "reinstatement appeal needed")
+                        else:
+                            _pend = bool((vom.get("verify") or {})
+                                         .get("hasPendingVerification"))
+                            rows.append({"company_id": cid, "item_key": "gbp-verified",
+                                         "kind": "client_owed", "status": "open",
+                                         "title": "GBP NOT verified"
+                                                  + (" — verification pending review"
+                                                     if _pend else ""),
+                                         "detail": "Google hasn't verified the listing, "
+                                                   "so it's invisible on Maps and to "
+                                                   "Bing's import. The OWNER completes "
+                                                   "verification (usually a video walk-"
+                                                   "through) at business.google.com — "
+                                                   "Monica can walk them through it."
+                                                   + (" A verification is already "
+                                                      "submitted and awaiting Google."
+                                                      if _pend else ""),
+                                         "evidence": {"pending": _pend}})
+        except Exception:
+            pass
+
         # ---- client-asks aggregate (ladder input) ---------------------------
         asks = _sb("GET", "/rest/v1/marketing_action_plan"
                    f"?company_id=eq.{cid}&action_type=eq.client_input&status=eq.planned"

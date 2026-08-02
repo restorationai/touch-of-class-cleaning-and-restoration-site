@@ -23,8 +23,9 @@ One chassis owns the safety machinery; each portal task is a thin playbook.
    (chmod 600, NEVER in the repo). Google agency login lives only inside the
    persistent profile — log in once via `python3 -m browser_agent login`.
 6. NAP source of truth = the client's Business Information card (companies
-   row / plan-input brand). REAL phone number always — never tracking numbers
-   on citations.
+   row / plan-input brand). Phone = the client's GBP PRIMARY number — Santino
+   2026-07-31: tracking numbers are ACCEPTED on citations (NAP consistency
+   means matching GBP); citations_audit's ok_phones mirrors this.
 
 ## First run (needs Santino at the keyboard once)
     pip install playwright && playwright install chromium
@@ -34,12 +35,18 @@ One chassis owns the safety machinery; each portal task is a thin playbook.
     python3 -m browser_agent run --playbook bing-places --slug narestco --live # gated live
 
 ## Playbooks (build order)
-1. bing_places    — create/claim Bing Places listings (imports from GBP)
-2. domain_connect — registrar NS cutover: GoDaddy delegate access (BROWSER,
+1. bing_places    — DONE 2026-08-01 (8/19 listed, weekly Google sync ON);
+                    nightly sweep.py runs the Sync click — the one earned-
+                    unattended step so far
+2. facebook_grab  — DONE 2026-08-01: Go Green harvest (50 photos -> repo +
+                    branding bucket, 2 video URLs in manifest)
+3. form_fill      — CURRENT: Houzz / Porch / HomeGuide / BBB free listings
+                    (playbooks/form_fill.py PORTALS registry; supervised
+                    until 3 clean completions EACH; aggregators parked)
+4. domain_connect — registrar NS cutover: GoDaddy delegate access (BROWSER,
                     not API — delegate email access grants no API), Bluehost
                     via client-provided creds; registrar logged per client in
                     ~/.rankai/portal-creds.json
-3. apple_maps     — Business Connect agency claims
-4. bbb            — request-form listings
-5. lsa_portal     — job-type enrollment toggles + license/insurance doc submission
-6. facebook_grab  — Go Green photo/video harvest
+5. apple_maps     — Business Connect agency claims (verification review due
+                    ~Aug 8; API worth testing once approved)
+6. lsa_portal     — job-type enrollment toggles + license/insurance doc submission
