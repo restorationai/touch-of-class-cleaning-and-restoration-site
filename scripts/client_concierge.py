@@ -82,7 +82,12 @@ Cadence guardrails (enforced in code at send time)
       having spoken last in the thread — bypasses the cooldown + nudge cap
       exactly like a boss directive; business hours, the human-defer window
       and the canary gate still apply, and the draft answers the client
-      FIRST before any outstanding item.
+      FIRST before any outstanding item. Same for a client who just
+      ANSWERED our question (awaiting_reply kind="answer", Todd's
+      "Invoices2Go" 15:48 case): the follow-through — acknowledge + next
+      step, a short meeting for non-technical clients — is owed
+      immediately, and the flag is voided by ANY newer outbound so the
+      thread is never advanced twice.
     - SANTINO NOTIFICATIONS (2026-08-02: "I should not be texted every time
       a client responds"): he is texted only for (a) tripped escalation
       ladders (max nudges, angry client), (b) things needing HIS action or
@@ -501,37 +506,51 @@ def human_conversation_deferral(history: list[dict], state: dict) -> str | None:
     return None
 
 
-def pending_client_message(cs: dict, history: list[dict], state: dict) -> str | None:
-    """The newest substantive client message still owed a real reply, or None.
+def pending_client_message(cs: dict, history: list[dict], state: dict) -> dict | None:
+    """The newest substantive client message still owed a real reply, as
+    {"body", "kind"} — or None when nothing is owed.
 
     Replying to a client who spoke last is NOT a nudge — this drives the
     compose-side cooldown/nudge-cap bypass (2026-08-02: Todd's "I wonder why
     they suspended the listing" sat unanswered behind the 3-day cooldown
     while the daily ack cap ate the holding line). Two sources:
-      (1) cs["awaiting_reply"], set by the inbound poll when a reply needed
-          a real answer and matched no item — it survives Monica's own
-          holding ack sitting newest in the thread;
+      (1) cs["awaiting_reply"], set by the inbound engine — kind "question"
+          (their reply needed a real answer and matched no item; survives
+          Monica's own holding ack sitting newest in the thread) or kind
+          "answer" (they answered OUR question — the follow-through is owed;
+          Todd's "Invoices2Go" got silence, 2026-08-02 15:48);
       (2) the live thread: the newest message is inbound sms/email, not a
-          pure acknowledgment, and < 7 days old.
-    Either is void once a HUMAN outbound (not one of ours) is newer than the
-    client's message — Santino answered it himself."""
+          pure acknowledgment, and < 7 days old (kind "message").
+    Void rules (the no-double-send property):
+      - kind "answer": ANY newer outbound voids it, ours included — once
+        something advanced the thread after their answer, never send twice;
+      - kind "question": only a newer HUMAN outbound (not one of ours) voids
+        it — Santino answered it himself; our own holding ack does not."""
     now = datetime.now(timezone.utc)
     ours = sent_message_ids(state)
 
-    def human_answered(after: datetime) -> bool:
-        return any(m["direction"] == "out" and m["when"] > after
-                   and not (m["id"] and m["id"] in ours) for m in history)
+    def outbound_after(after: datetime, human_only: bool) -> bool:
+        for m in history:
+            if m["direction"] != "out" or m["when"] <= after:
+                continue
+            if not human_only:
+                return True
+            if not (m["id"] and m["id"] in ours):
+                return True   # a human (not the concierge) wrote it
+        return False
 
     flag = cs.get("awaiting_reply") or {}
     if flag.get("body"):
+        kind = str(flag.get("kind") or "question")
         try:
             at = datetime.fromisoformat(flag["at"])
         except (KeyError, ValueError):
             at = now
-        if (now - at) > timedelta(days=7) or human_answered(at):
-            cs.pop("awaiting_reply", None)   # stale, or a human handled it
+        advanced = outbound_after(at, human_only=(kind != "answer"))
+        if (now - at) > timedelta(days=7) or advanced:
+            cs.pop("awaiting_reply", None)   # stale, or the thread moved on
         else:
-            return str(flag["body"])
+            return {"body": str(flag["body"]), "kind": kind}
     if history:
         newest = history[0]
         body = (newest.get("body") or "").strip()
@@ -539,7 +558,7 @@ def pending_client_message(cs: dict, history: list[dict], state: dict) -> str | 
                 and newest.get("channel") in ("sms", "email") and body
                 and not (_TERMINAL_ACK_RE.match(body) and len(body) <= 25)
                 and (now - newest["when"]) < timedelta(days=7)):
-            return body
+            return {"body": body, "kind": "message"}
     return None
 
 
@@ -887,10 +906,28 @@ def resolve_contact(company: dict) -> dict | None:
         contact = fetch(cid, "linked GHL contact")
         if contact:
             if target["source"] == "contacts[] preferred":
-                print(f"  WARNING: preferred contact entry has no working "
-                      f"ghl_contact_id — using the top-level linkage {cid} "
-                      f"(the OWNER's). Re-save the Contact Card in the app "
-                      f"to sync + link the preferred contact.", file=sys.stderr)
+                # Same person? (Go Green: the preferred entry IS the owner,
+                # just missing its ghl_contact_id — the top-level linkage
+                # resolves to the same phone.) Then this is log noise, not a
+                # mis-target: one quiet line, no stderr WARNING. The durable
+                # fix stays data-side: re-save the Contact Card in the app.
+                same_person = (
+                    (_norm_phone(contact.get("phone") or "")
+                     and _norm_phone(contact.get("phone") or "")
+                     == _norm_phone(target.get("cell") or ""))
+                    or (_norm_email(contact.get("email") or "")
+                        and _norm_email(contact.get("email") or "")
+                        == _norm_email(target.get("email") or "")))
+                if same_person:
+                    print(f"  [linkage] preferred contact entry lacks "
+                          f"ghl_contact_id; top-level linkage {cid} is the "
+                          f"same person (phone/email match) — using it. "
+                          f"Re-save the Contact Card to persist the link.")
+                else:
+                    print(f"  WARNING: preferred contact entry has no working "
+                          f"ghl_contact_id — using the top-level linkage {cid} "
+                          f"(the OWNER's). Re-save the Contact Card in the app "
+                          f"to sync + link the preferred contact.", file=sys.stderr)
             return contact
     queries = [target.get("email"), target.get("cell"),
                company.get("email"), company.get("phone"), company.get("name")]
@@ -1303,7 +1340,7 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
                   intel: str | None = None,
                   appointments: str | None = None,
                   sister_names: list[str] | None = None,
-                  pending_reply: str | None = None,
+                  pending_reply: dict | None = None,
                   commitment: dict | None = None) -> dict:
     chosen = items[:FIRST_CONTACT_MAX_ITEMS if first_contact
                    else MAX_ITEMS_PER_MESSAGE]
@@ -1347,21 +1384,40 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
             + appointments + "\n")
     pending_block = ""
     if pending_reply:
-        pending_block = (
-            "\nUNANSWERED CLIENT MESSAGE — the newest message in this thread "
-            "is from the client and nobody has replied yet:\n"
-            f"  \"{pending_reply[:400]}\"\n"
-            "Your FIRST job is to respond to it like a human would. If the "
-            "meeting intel, ops notes or the items below contain the answer, "
-            "give it plainly and warmly; if they do not, say you are on it "
-            "and will get back to them shortly (never invent an answer). If "
-            "the message is angry or a complaint, keep it short, acknowledge "
-            "it, and say Santino will reach out personally; never argue. "
-            "After responding you may weave in AT MOST one outstanding item, "
-            "and only if it flows naturally; skip the items entirely when "
-            "the response deserves the whole message. Because a reply is "
-            "owed, the body must NOT be empty even if every item is "
-            "excluded.\n")
+        p_body = str((pending_reply or {}).get("body", ""))[:400] \
+            if isinstance(pending_reply, dict) else str(pending_reply)[:400]
+        p_kind = (pending_reply or {}).get("kind", "message") \
+            if isinstance(pending_reply, dict) else "message"
+        if p_kind == "answer":
+            pending_block = (
+                "\nCLIENT ANSWERED OUR QUESTION — the newest client message "
+                "answers something we asked them:\n"
+                f"  \"{p_body}\"\n"
+                "Your FIRST job is the follow-through: acknowledge what they "
+                "gave us in a few words, then give the concrete NEXT STEP. "
+                "Follow the standing policy: for a non-technical client the "
+                "next step is a short meeting to do it together (recommend "
+                "it warmly and propose times), never a multi-step text "
+                "walkthrough; only give steps by text when it is genuinely "
+                "one simple action. Never re-ask what they just told you and "
+                "never leave their answer hanging. The body must NOT be "
+                "empty even if every item is excluded.\n")
+        else:
+            pending_block = (
+                "\nUNANSWERED CLIENT MESSAGE — the newest message in this thread "
+                "is from the client and nobody has replied yet:\n"
+                f"  \"{p_body}\"\n"
+                "Your FIRST job is to respond to it like a human would. If the "
+                "meeting intel, ops notes or the items below contain the answer, "
+                "give it plainly and warmly; if they do not, say you are on it "
+                "and will get back to them shortly (never invent an answer). If "
+                "the message is angry or a complaint, keep it short, acknowledge "
+                "it, and say Santino will reach out personally; never argue. "
+                "After responding you may weave in AT MOST one outstanding item, "
+                "and only if it flows naturally; skip the items entirely when "
+                "the response deserves the whole message. Because a reply is "
+                "owed, the body must NOT be empty even if every item is "
+                "excluded.\n")
     commit_block = ""
     if commitment:
         commit_block = (
@@ -1596,7 +1652,9 @@ def cmd_compose(args) -> int:
     # window and the canary still apply) and the draft answers them FIRST.
     pending = pending_client_message(cs, history, state)
     if pending:
-        print(f"Client is waiting on a reply: {pending[:90]!r} "
+        label = ("answered our question" if pending["kind"] == "answer"
+                 else "waiting on a reply")
+        print(f"Client {label}: {pending['body'][:90]!r} "
               "(cooldown/nudge-cap bypassed — this send is a reply, not a nudge)")
     # OPEN COMMITMENT (Santino 2026-08-02: "I'll walk you through it" must
     # actually happen): a promise made in an ack is owed like a reply —
@@ -2019,10 +2077,13 @@ REPLY_SYSTEM = """\
 You are Monica from Santino's team at Restoration AI, replying after a
 client answered something. Voice: warm, brief, human. NEVER use em dashes or en
 dashes; use a comma or a period instead. Thank them, confirm
-what you recorded (one clause), then ask ONE next question if any remain —
-the highest-priority open item provided. If nothing remains, close warmly
-("that's everything we needed"). SMS-length: <= 450 chars. No emojis.
-Return ONLY JSON: {"body": string}."""
+what you recorded (one clause), then advance: ask ONE next question if any
+remain — the highest-priority open item provided. When the natural next
+step after their answer is hands-on (exporting a list, account settings)
+and the client reads non-technical, propose a short call to do it together
+instead of text steps (Santino 2026-08-02). If nothing remains, close
+warmly ("that's everything we needed"). SMS-length: <= 450 chars. No
+emojis. Return ONLY JSON: {"body": string}."""
 
 
 def _tracked_contacts(state: dict) -> dict[str, str]:
@@ -2706,7 +2767,12 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
                       f"the answer)")
             print(f"    INTEL: {reason}")
             append_escalation(company, None, reason, dry_run)
-        if result.get("ack") or resp_need == "none":
+        # A "none"/ack verdict must NEVER swallow a matched answer: at 15:48
+        # on 2026-08-02 Todd answered "Invoices2Go" to our own question, the
+        # analysis said response_needed=none, and this continue skipped the
+        # follow-through — Monica extracted the answer and went silent. When
+        # the client answered US, we owe the next step regardless.
+        if (result.get("ack") or resp_need == "none") and not matched_ids:
             print("    acknowledgment — no action, no escalation")
             continue
         resc = result.get("reschedule") or {}
@@ -2756,11 +2822,36 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
                     cs_reset["awaiting_reply"] = {
                         "body": msg["body"][:400],
                         "at": msg["ts"].isoformat(),
-                        "channel": msg["channel"]}
+                        "channel": msg["channel"],
+                        "kind": "question"}
                     out["awaiting"] = True
                     print("    [awaiting_reply set — next compose "
                           "answers this, cooldown bypassed]")
         if matched_ids:
+            # ANSWER FOLLOW-THROUGH (Santino 2026-08-02: Todd's "Invoices2Go"
+            # answered OUR question and got silence): when a client answers
+            # us we owe acknowledge + the next step immediately. Flag the
+            # thread as owed BEFORE any send attempt, so the immediate
+            # webhook compose — or the next scheduled one as backstop —
+            # delivers the follow-through even if the inline reply below is
+            # skipped, hours-gated or blocked. kind="answer" flags are
+            # voided by ANY newer outbound, ours included (see
+            # pending_client_message): once something advanced the thread,
+            # never double-send.
+            cs_reset["awaiting_reply"] = {
+                "body": msg["body"][:400],
+                "at": msg["ts"].isoformat(),
+                "channel": msg["channel"],
+                "kind": "answer"}
+            out["awaiting"] = True
+            if compose_next:
+                # Webhook path: the immediate compose that follows has the
+                # full context (intel, ops notes, the meeting-not-walkthrough
+                # policy) — let it write ONE proper follow-through instead of
+                # a thin inline confirmation plus a second text seconds later.
+                print("    [inline confirmation skipped — immediate compose "
+                      "delivers the follow-through]")
+                continue
             remaining = [i for i in open_items
                          if i["id"] not in matched_ids
                          and i["id"] not in intel_ids]
