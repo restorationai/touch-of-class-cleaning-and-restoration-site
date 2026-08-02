@@ -628,6 +628,59 @@ def repeats_last_outbound(body: str, history: list[dict]) -> str | None:
     return None
 
 
+# GROUNDING GUARD (Santino 2026-08-02, LIVE failure): Monica texted Flood
+# Fixers "That review request is already out to him and Ed." — but
+# review_requests had ZERO rows for the company; she claimed a completed
+# action that never happened. The prompts now forbid ungrounded DONE-claims;
+# this is the mechanical backstop: a claim that our review/post/listing/
+# request work is DONE may only ship when the LEDGER portion of the compose
+# context (Santino's ops notes + the WORK ALREADY DONE block) mentions that
+# subject. Meeting-intel prose does not count — it speaks in plans.
+_DONE_CLAIM_RE = re.compile(
+    r"\b(?:(?:is|are|was|were|has been|have been|got|went)\s+(?:already\s+)?"
+    r"(?:sent|out|posted|live|submitted|published|done|handled)"
+    r"|already\s+(?:sent|out|posted|live|submitted|done|handled|went out)"
+    r"|we(?:'ve| have)?\s+(?:already\s+)?"
+    r"(?:sent|submitted|posted|filed|published))\b", re.I)
+_CLAIM_SUBJECTS = ("review", "post", "listing", "invite", "request",
+                   "campaign", "appeal")
+
+
+def _evidence_slice(intel: str | None) -> str:
+    """The LEDGER portion of the compose context — Santino's ops notes +
+    the WORK ALREADY DONE block. Meeting-intel prose is excluded on
+    purpose: it records intentions ("wants a review campaign"), and a
+    DONE-claim must trace to recorded work, never to a plan."""
+    if not intel:
+        return ""
+    out = []
+    for marker in ("[OPS NOTES", "[WORK ALREADY DONE"):
+        i = intel.find(marker)
+        if i >= 0:
+            j = intel.find("\n\n[", i + 1)
+            out.append(intel[i:j if j > 0 else len(intel)])
+    return "\n".join(out)
+
+
+def unsupported_done_claim(body: str, evidence: str | None) -> str | None:
+    """Refusal reason when `body` claims completed work on a tracked
+    subject (reviews/posts/listings/requests/...) that the ledger evidence
+    does not mention — else None. Callers with no ledger context (inline
+    replies, acks) pass evidence=None: for them ANY such DONE-claim is
+    unsupported by construction."""
+    ev = (evidence or "").lower()
+    for sent in re.split(r"(?<=[.!?])\s+", body or ""):
+        if not _DONE_CLAIM_RE.search(sent):
+            continue
+        subjects = [s for s in _CLAIM_SUBJECTS if s in sent.lower()]
+        if not subjects:
+            continue
+        if not any(s in ev for s in subjects):
+            return (f"claims '{subjects[0]}' work is already done but the "
+                    f"ledger context has no evidence of it: {sent[:90]!r}")
+    return None
+
+
 def _valid_tz(name: str) -> bool:
     try:
         ZoneInfo(name)
@@ -1335,6 +1388,15 @@ Rules:
 - Cover AT MOST the items given (they are already priority-ordered). Weave
   them in conversationally — short sentences or a compact list, not a form.
 - Never invent items, prices, or deadlines. Never promise work.
+- GROUNDING (hard rule — 2026-08-02: Monica told a client "that review
+  request is already out to him and Ed" when NO request existed anywhere):
+  never state that an action is DONE (sent / out / posted / live /
+  submitted / handled) unless the context EXPLICITLY shows it happened —
+  an ops note from Santino, a WORK ALREADY DONE ledger line, or an item
+  marked answered. Meeting-intel plans ("wants a review campaign") and
+  your own assumptions are NOT evidence. Without evidence, speak forward
+  in present tense ("we're getting Steve added now", "that's going out
+  shortly"), never past or perfect tense about our own work.
 - CLOSING: end the message right after the last ask. NO closing line of any
   kind — never "just reply here", never "I'll add it all in for you", never
   an email address tacked on the end. Replying is obvious. The ONLY
@@ -2027,6 +2089,12 @@ def cmd_compose(args) -> int:
     print(draft["body"])
     print("=" * 62)
     print(f"({len(draft['body'])} chars, channel={args.channel})")
+    # GROUNDING GUARD: a DONE-claim must trace to the ledger portion of the
+    # context. Better a blocked send than a lie to a client (Flood Fixers
+    # "review request is already out", 2026-08-02).
+    grounding = unsupported_done_claim(draft["body"], _evidence_slice(intel))
+    if grounding:
+        print(f"GROUNDING WARNING: {grounding}")
 
     # Items the history shows were already answered: excluded from the body
     # by the compose model; escalate so a human backfills the DB.
@@ -2075,6 +2143,12 @@ def cmd_compose(args) -> int:
     if not contact:
         print("\nSEND REFUSED: no GHL contact resolved", file=sys.stderr)
         return 1
+    if grounding:
+        print(f"\nSEND REFUSED (grounding guard): {grounding}", file=sys.stderr)
+        append_escalation(company, None,
+                          f"grounding guard blocked a send: {grounding}",
+                          False)
+        return 0
     # Hard duplicate guard (Santino 2026-08-02: two team-photo asks landed
     # one minute apart): never send a message that near-repeats our own
     # recent last outbound, whatever path drafted it.
@@ -2291,6 +2365,9 @@ Conversation rules for suggested_reply (Santino 2026-08-02):
   send those over when you get back into town" is the model).
 - If the client COMMITTED to do something later, the whole reply is that
   warm forward-pointing close, nothing else.
+- GROUNDING: never claim an action already happened (sent / out / posted /
+  live) — this reply is drafted without ledger evidence; speak forward
+  ("we're getting that set up"), never past tense about our own work.
 Only promise a follow-up when the answer genuinely needs research we
 cannot do in this text, and say specifically what you will come back with.
 When response_needed is "answer" and the open items / history / intel
@@ -2334,6 +2411,9 @@ dashes; use a comma or a period instead.
   account settings) and the client reads non-technical, propose a short
   call to do it together instead of text steps (Santino 2026-08-02).
 - If nothing remains, close warmly ("that's everything we needed").
+- GROUNDING: never claim our work is already done (sent / out / posted /
+  live). You see only the thread, not the ledger — speak forward ("we're
+  getting that set up now"), never "is already out" (2026-08-02).
 SMS-length: <= 450 chars. No emojis.
 Return ONLY JSON: {"body": string}."""
 
@@ -3129,7 +3209,18 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
             f"They just said (one burst, oldest first): {combined}\n{nxt}")
         body_out = (reply.get("body") or "").strip()
         print(f"    reply draft: {body_out!r}")
+        # Inline replies carry no ledger context: any DONE-claim about
+        # reviews/posts/requests is unsupported by construction — the
+        # compose backstop (which has the ledger) takes over instead.
+        grounding = unsupported_done_claim(body_out, None)
+        if grounding:
+            print(f"    GROUNDING WARNING: {grounding}")
         if do_send and body_out:
+            if grounding:
+                print("    SEND SKIPPED (grounding guard) — the compose "
+                      "backstop carries the follow-through with ledger "
+                      "context")
+                return out
             # Business hours enforced on EVERY send path (client's local
             # tz). Phase 1 of the rollout: refuse + flag, no queue.
             hours_reason = business_hours_check(company, contact_payload)
@@ -3451,8 +3542,10 @@ Do NOT attempt to answer the question here (you don't have the answer yet),
 do not promise dates, and only mention checking with Santino when the input
 says the boss must decide. NEVER promise anything that will not actually
 happen on its own ("I'll walk you through it" is banned unless this very
-text starts the walk-through). At most ONE question in the text. One or two
-short sentences, under 220 characters.
+text starts the walk-through), and NEVER claim something is already done
+or sent — you cannot see the ledger; speak forward ("we're on it now"),
+never "is already out" (2026-08-02). At most ONE question in the text.
+One or two short sentences, under 220 characters.
 Return ONLY JSON: {"body": string}."""
 
 # COMMITMENT FOLLOW-THROUGH (Santino 2026-08-02: the ack drafted "I'll walk
@@ -3538,6 +3631,10 @@ def _maybe_send_ack(state: dict, company: dict, contact_id: str, msg: dict,
         text = ("Let me look into that and get right back to you."
                 if needs_answer else "Got it, thank you.")
     print(f"    ack draft: {text!r}")
+    grounding = unsupported_done_claim(text, None)
+    if grounding:
+        print(f"    [ack blocked by grounding guard: {grounding}]")
+        return
     dup = repeats_last_outbound(text, history or [])
     if dup:
         print(f"    [ack skipped: {dup}]")
