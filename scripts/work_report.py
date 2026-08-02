@@ -41,8 +41,17 @@ Usage:
   python3 scripts/work_report.py --slug narestco
   python3 scripts/work_report.py --slug narestco --since 2026-07-01 --until 2026-07-31
   python3 scripts/work_report.py --all
+  python3 scripts/work_report.py --all --publish
 
 Output: clients/{slug}/reports/work-report-{since}-to-{until}.md
+
+--publish additionally upserts the report into Supabase
+marketing_work_reports (company_id, period_start, period_end, markdown,
+counts jsonb, generated_at; PK company_id+period_start; created 2026-08-02
+via the management API, same mechanism as marketing_work_log). RLS: company
+members read their own rows via get_effective_company_id(), superadmin reads
+all; service role writes. The app renders the latest row as the "Monthly
+Summary" card on Marketing -> Reports.
 """
 from __future__ import annotations
 
@@ -357,6 +366,16 @@ def plural(n: int, template: str) -> str:
     return template.replace("{s}", s).replace("{es}", es)
 
 
+def tally(events: list[dict]) -> dict[str, int]:
+    """Category -> count. Review invitations count people (row 'n'), not
+    lines. Shared by the markdown At-a-glance block and --publish (the app
+    renders the same numbers as stat chips)."""
+    counts: dict[str, int] = {}
+    for e in events:
+        counts[e["cat"]] = counts.get(e["cat"], 0) + e.get("n", 1)
+    return counts
+
+
 def render(display_name: str, since: date, until: date,
            events: list[dict]) -> str:
     lines = [f"# Work Report: {display_name}", "",
@@ -370,9 +389,7 @@ def render(display_name: str, since: date, until: date,
         return "\n".join(lines)
 
     # At-a-glance counts (review invitations count people, not lines).
-    counts: dict[str, int] = {}
-    for e in events:
-        counts[e["cat"]] = counts.get(e["cat"], 0) + e.get("n", 1)
+    counts = tally(events)
     lines += ["## At a glance", ""]
     for key, (_label, _order, noun) in sorted(CATEGORIES.items(),
                                               key=lambda kv: kv[1][1]):
@@ -411,6 +428,27 @@ def render(display_name: str, since: date, until: date,
     return "\n".join(lines)
 
 
+# ---------------------------------------------------------------- publish
+
+
+def publish_report(cid: str, since: date, until: date, md: str,
+                   events: list[dict]) -> None:
+    """Upsert the rendered report into marketing_work_reports so the app's
+    Monthly Summary card (Marketing -> Reports) can show it. One row per
+    (company_id, period_start); re-running the same window refreshes the row
+    in place. Raises on failure — run_one's caller already fail-softs."""
+    _sb("POST",
+        "/rest/v1/marketing_work_reports?on_conflict=company_id,period_start",
+        body={"company_id": cid,
+              "period_start": since.isoformat(),
+              "period_end": until.isoformat(),
+              "markdown": md,
+              "counts": tally(events),
+              "generated_at": datetime.now(timezone.utc).isoformat()},
+        prefer="resolution=merge-duplicates,return=minimal")
+    print("    published to marketing_work_reports")
+
+
 # ---------------------------------------------------------------- CLI
 
 
@@ -429,7 +467,8 @@ def active_clients() -> list[dict]:
     return out
 
 
-def run_one(slug: str, since: date, until: date) -> Path | None:
+def run_one(slug: str, since: date, until: date,
+            publish: bool = False) -> Path | None:
     cid = company_id_for_slug(slug)
     if not cid:
         print(f"{slug}: no company_id mapping — skipped")
@@ -448,6 +487,8 @@ def run_one(slug: str, since: date, until: date) -> Path | None:
     out_path = out_dir / f"work-report-{since.isoformat()}-to-{until.isoformat()}.md"
     out_path.write_text(md)
     print(f"    wrote {out_path.relative_to(ROOT)}")
+    if publish:
+        publish_report(cid, since, until, md, events)
     return out_path
 
 
@@ -458,6 +499,9 @@ def main() -> int:
                     help="Every active Rank AI client")
     ap.add_argument("--since", help="YYYY-MM-DD (default: until minus 30 days)")
     ap.add_argument("--until", help="YYYY-MM-DD (default: today)")
+    ap.add_argument("--publish", action="store_true",
+                    help="Also upsert into Supabase marketing_work_reports "
+                         "(the app's Monthly Summary card)")
     a = ap.parse_args()
     if not a.slug and not a.all:
         ap.error("pass --slug <slug> or --all")
@@ -468,7 +512,7 @@ def main() -> int:
     slugs = ([c["slug"] for c in active_clients()] if a.all else [a.slug])
     for slug in slugs:
         try:
-            run_one(slug, since, until)
+            run_one(slug, since, until, publish=a.publish)
         except Exception as e:  # noqa: BLE001 — one client never kills --all
             print(f"  FAIL {slug}: {str(e)[:160]}")
     return 0
