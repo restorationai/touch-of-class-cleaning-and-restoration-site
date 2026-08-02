@@ -76,6 +76,21 @@ CANARY GATE (hard constraint, phase 1)
 Cadence guardrails (enforced in code at send time)
     - min 3 days between sends per company (state: last_contacted)
     - max 4 total nudges, then the company is flagged "ESCALATE to Santino"
+    - REPLYING IS NOT A NUDGE (2026-08-02: Todd's "I wonder why they
+      suspended the listing" sat behind the cooldown): an unanswered client
+      message — the awaiting_reply flag set by inbound, or simply the client
+      having spoken last in the thread — bypasses the cooldown + nudge cap
+      exactly like a boss directive; business hours, the human-defer window
+      and the canary gate still apply, and the draft answers the client
+      FIRST before any outstanding item.
+    - SANTINO NOTIFICATIONS (2026-08-02: "I should not be texted every time
+      a client responds"): he is texted only for (a) tripped escalation
+      ladders (max nudges, angry client), (b) things needing HIS action or
+      decision, (c) client questions Monica can't answer herself. Everything
+      else still lands in concierge_escalations (Ops Attention) and reaches
+      him via the morning digest email (concierge_digest.py). Every
+      boss-facing SMS is rewritten to plain human copy before sending —
+      never raw system reasons ("meeting intel says answered/in progress").
     - business hours only: 9:00-18:00 in the CLIENT'S local timezone,
       resolved in order: (a) the GHL contact's timezone field, (b)
       companies.timezone, (c) inferred from the state in the client's
@@ -476,6 +491,48 @@ def human_conversation_deferral(history: list[dict], state: dict) -> str | None:
                 f"{last_out['when'].strftime('%Y-%m-%d %H:%M UTC')}, "
                 f"{age.total_seconds() / 3600:.1f}h ago, within the "
                 f"{HUMAN_DEFER_HOURS}h defer window)")
+    return None
+
+
+def pending_client_message(cs: dict, history: list[dict], state: dict) -> str | None:
+    """The newest substantive client message still owed a real reply, or None.
+
+    Replying to a client who spoke last is NOT a nudge — this drives the
+    compose-side cooldown/nudge-cap bypass (2026-08-02: Todd's "I wonder why
+    they suspended the listing" sat unanswered behind the 3-day cooldown
+    while the daily ack cap ate the holding line). Two sources:
+      (1) cs["awaiting_reply"], set by the inbound poll when a reply needed
+          a real answer and matched no item — it survives Monica's own
+          holding ack sitting newest in the thread;
+      (2) the live thread: the newest message is inbound sms/email, not a
+          pure acknowledgment, and < 7 days old.
+    Either is void once a HUMAN outbound (not one of ours) is newer than the
+    client's message — Santino answered it himself."""
+    now = datetime.now(timezone.utc)
+    ours = sent_message_ids(state)
+
+    def human_answered(after: datetime) -> bool:
+        return any(m["direction"] == "out" and m["when"] > after
+                   and not (m["id"] and m["id"] in ours) for m in history)
+
+    flag = cs.get("awaiting_reply") or {}
+    if flag.get("body"):
+        try:
+            at = datetime.fromisoformat(flag["at"])
+        except (KeyError, ValueError):
+            at = now
+        if (now - at) > timedelta(days=7) or human_answered(at):
+            cs.pop("awaiting_reply", None)   # stale, or a human handled it
+        else:
+            return str(flag["body"])
+    if history:
+        newest = history[0]
+        body = (newest.get("body") or "").strip()
+        if (newest["direction"] == "in"
+                and newest.get("channel") in ("sms", "email") and body
+                and not (_TERMINAL_ACK_RE.match(body) and len(body) <= 25)
+                and (now - newest["when"]) < timedelta(days=7)):
+            return body
     return None
 
 
@@ -895,15 +952,18 @@ def has_boss_directive(company_id: str | None) -> bool:
 
 
 def cadence_check(cs: dict, company: dict, contact: dict | None = None,
-                  enforce_hours: bool = True, boss_override: bool = False) -> str | None:
+                  enforce_hours: bool = True, boss_override: bool = False,
+                  client_waiting: bool = False) -> str | None:
     """Return a human-readable refusal reason, or None if a send is allowed now.
 
     Business hours run in the client's OWN timezone (resolve_timezone: GHL
     contact -> companies.timezone -> plan-input state -> default+warning) and
     are enforced on every send path; the canary passes enforce_hours=False.
-    boss_override (an open [FROM SANTINO]/[SEND-PREVIEW] note) skips the
-    cooldown and nudge cap — never the hours or the allowlist canary."""
-    if not boss_override:
+    boss_override (an open [FROM SANTINO]/[SEND-PREVIEW] note) and
+    client_waiting (pending_client_message: the client spoke last and nobody
+    answered — replying is not a nudge, 2026-08-02) both skip the cooldown
+    and nudge cap — never the hours or the allowlist canary."""
+    if not (boss_override or client_waiting):
         if cs.get("nudge_count", 0) >= MAX_NUDGES:
             return f"max {MAX_NUDGES} nudges reached — ESCALATE to Santino"
         ne = next_eligible(cs)
@@ -1124,7 +1184,9 @@ Return ONLY a JSON object:
 "history_answered" is [] when nothing in the history answers an item;
 "intel_resolved" is [] when no meeting intel excludes an item. If EVERY item
 ends up excluded (history + intel), return "body": "" — there is nothing
-worth nudging about this cycle.
+worth nudging about this cycle. EXCEPTION: when an "UNANSWERED CLIENT
+MESSAGE" block is present, never return an empty body — answering the
+client comes before, and regardless of, the items.
 Keep drafting deterministic: choose the most natural single phrasing, no
 alternatives or commentary."""
 
@@ -1233,7 +1295,8 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
                   history: list[dict] | None = None,
                   intel: str | None = None,
                   appointments: str | None = None,
-                  sister_names: list[str] | None = None) -> dict:
+                  sister_names: list[str] | None = None,
+                  pending_reply: str | None = None) -> dict:
     chosen = items[:FIRST_CONTACT_MAX_ITEMS if first_contact
                    else MAX_ITEMS_PER_MESSAGE]
     lines = []
@@ -1274,6 +1337,23 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
             "call/meeting date, use THESE times, not the meeting intel; "
             "phrase relative to today, e.g. 'today at 12' / 'tomorrow'):\n"
             + appointments + "\n")
+    pending_block = ""
+    if pending_reply:
+        pending_block = (
+            "\nUNANSWERED CLIENT MESSAGE — the newest message in this thread "
+            "is from the client and nobody has replied yet:\n"
+            f"  \"{pending_reply[:400]}\"\n"
+            "Your FIRST job is to respond to it like a human would. If the "
+            "meeting intel, ops notes or the items below contain the answer, "
+            "give it plainly and warmly; if they do not, say you are on it "
+            "and will get back to them shortly (never invent an answer). If "
+            "the message is angry or a complaint, keep it short, acknowledge "
+            "it, and say Santino will reach out personally; never argue. "
+            "After responding you may weave in AT MOST one outstanding item, "
+            "and only if it flows naturally; skip the items entirely when "
+            "the response deserves the whole message. Because a reply is "
+            "owed, the body must NOT be empty even if every item is "
+            "excluded.\n")
     # "Today" must be the CLIENT's calendar date — UTC rolls over at 5pm PT
     # and would make an evening compose reference "tomorrow" off by one.
     from zoneinfo import ZoneInfo
@@ -1325,6 +1405,7 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
             + history_block
             + intel_block
             + appt_block
+            + pending_block
             + photo_block
             + f"Outstanding items (priority order, cover all of these and "
             f"nothing else):\n" + "\n".join(lines))
@@ -1437,9 +1518,8 @@ def cmd_compose(args) -> int:
             # outrank the primary's nice-to-haves (All Pro sat unconnected
             # while Angie got a YouTube ask, 2026-07-30).
             items.sort(key=ask_rank)
-    if not items:
-        print(f"{company['name']}: nothing outstanding — no message needed.")
-        return 0
+    # NOTE: zero outstanding items no longer returns here — an unanswered
+    # client message (pending_client_message below) still deserves a reply.
     contact = resolve_contact(company)
     first = contact_first_name(contact, company)
     cs = company_state(state, args.company)
@@ -1482,6 +1562,18 @@ def cmd_compose(args) -> int:
         first_contact = False
         print("First contact OVERRIDE: thread already contains Monica's intro")
 
+    # CLIENT-WAITING BYPASS (Santino 2026-08-02): if the client spoke last
+    # and no human answered, this compose is a REPLY, not a nudge — it
+    # bypasses the cooldown + nudge cap (business hours, the human-defer
+    # window and the canary still apply) and the draft answers them FIRST.
+    pending = pending_client_message(cs, history, state)
+    if pending:
+        print(f"Client is waiting on a reply: {pending[:90]!r} "
+              "(cooldown/nudge-cap bypassed — this send is a reply, not a nudge)")
+    if not items and not pending:
+        print(f"{company['name']}: nothing outstanding — no message needed.")
+        return 0
+
     # Never talk over a human: newest outbound not sent by the concierge and
     # <12h old means Santino (or someone on the team) is mid-conversation.
     defer_reason = human_conversation_deferral(history, state)
@@ -1497,13 +1589,15 @@ def cmd_compose(args) -> int:
 
     if args.send:
         gate = cadence_check(cs, company, contact,
-                             boss_override=has_boss_directive(company.get("id")))
+                             boss_override=has_boss_directive(company.get("id")),
+                             client_waiting=bool(pending))
         if gate:
             print(f"[gated, no draft: {gate}]")
             if "ESCALATE" in gate and not cs.get("max_nudges_escalated"):
                 append_escalation(company, None,
                                   f"no reply after {MAX_NUDGES} nudges — "
-                                  "needs a human touch (call them?)", False)
+                                  "needs a human touch (call them?)", False,
+                                  ping=True)  # ladder tripped — text Santino
                 cs["max_nudges_escalated"] = True
                 save_state(state, dry_run=False)
             return 0
@@ -1534,7 +1628,10 @@ def cmd_compose(args) -> int:
                 soon = appt_soonest
             else:
                 _blk, soon = fetch_upcoming_appointments(cid_, tz_name)
-            if soon and (soon - datetime.now(timezone.utc)).days < 7:
+            # A pending client message disarms this gate: it only stops
+            # NUDGES before a call — answering a question is not a nudge.
+            if soon and (soon - datetime.now(timezone.utc)).days < 7 \
+                    and not pending:
                 print("[gated, no draft: appointment within 7 days on this "
                       f"company's calendar ({soon.strftime('%Y-%m-%d %H:%M UTC')}"
                       f", contact {cid_}) — the call covers the open items; "
@@ -1591,7 +1688,7 @@ def cmd_compose(args) -> int:
             print(f"[ladder] escalation active — checklist card: {card_url}")
     draft = compose_draft(company, first, items, args.channel, first_contact,
                           history=history, intel=intel, appointments=appts,
-                          sister_names=sister_names)
+                          sister_names=sister_names, pending_reply=pending)
     print("\n" + "=" * 62)
     if draft["subject"] and args.channel == "email":
         print(f"Subject: {draft['subject']}")
@@ -1638,7 +1735,8 @@ def cmd_compose(args) -> int:
         return 0
 
     reason = cadence_check(cs, company, contact,
-                           boss_override=has_boss_directive(company.get("id")))
+                           boss_override=has_boss_directive(company.get("id")),
+                           client_waiting=bool(pending))
     if reason:
         print(f"\nSEND REFUSED (cadence): {reason}", file=sys.stderr)
         return 0
@@ -1667,6 +1765,7 @@ def cmd_compose(args) -> int:
     except Exception as e:  # noqa: BLE001 — ledger must never fail the send path
         print(f"  [work-log] warn: {str(e)[:100]}")
     now = datetime.now(timezone.utc).isoformat()
+    cs.pop("awaiting_reply", None)   # this send answered the client
     cs.update({"ghl_contact_id": contact["id"],
                "last_contacted": now,
                "first_contacted": cs.get("first_contacted") or now,
@@ -1812,11 +1911,24 @@ If the reply asks to MOVE/RESCHEDULE/CANCEL an upcoming call or meeting
 "reschedule" with their timing preference in plain words — that is handled
 by a booking flow, not escalation. Do not also set escalate for this.
 
+NEEDS-ANSWER DETECTION: set "needs_answer": true whenever the reply asks us
+anything (with or without a question mark — "I wonder why they suspended
+the listing" IS a question) OR says they don't know how / can't do / are
+stuck on something we asked ("I don't know how to send all customers at
+once") — anything a good assistant must actually ANSWER or walk them
+through, not just thank them for. Additionally set "needs_santino": true
+ONLY when the boss himself must answer: pricing, billing, contracts,
+strategy, complaints about our service, cancellation talk. How-to, setup,
+status and "why did X happen" questions are needs_answer WITHOUT
+needs_santino — the assistant handles those herself.
+
 Return ONLY JSON:
 {"matches": [{"item_id": "<id from the list>", "value": "<extracted answer>",
               "answer_type": "license|yes_no|free_text|customer_list"}],
  "intel_resolved": [{"item_id": "<id from the list>", "reason": string}],
  "ack": bool,
+ "needs_answer": bool,
+ "needs_santino": bool,
  "reschedule": {"requested": bool, "preference": string}|null,
  "escalate": bool,
  "escalate_reason": string|null,
@@ -1981,12 +2093,56 @@ Return ONLY JSON: {"index": <int index of the question answered, or null if
 his reply clearly is not an answer to any of them>, "instruction": "<his
 directive, restated as a clear instruction, keeping any links exactly>"}"""
 
+# Boss-facing SMS copy (Santino 2026-08-02: "Intel says finished job photos
+# ... have been answered/in progress" reached his phone verbatim). Every
+# text to Santino is rewritten from internal system reasons into how a human
+# assistant texts her boss — the raw reason still goes to the escalations
+# table untouched, so dedupe hashes and the Ops Attention view keep the
+# stable wording.
+BOSS_SMS_SYSTEM = """\
+You are Monica, Santino's assistant, texting HIM (your boss) a short
+heads-up about his clients. The input is one or more internal system notes.
+Rewrite them the way a sharp human assistant texts her boss: plain English,
+specific, brief.
+- Name the person and company when the notes show them, e.g. "Todd from Go
+  Green replied, he doesn't know how to send the customer list. I'll walk
+  him through it."
+- Say what actually happened, then what you need from him or what you will
+  do next.
+- ABSOLUTELY no system jargon: never "intel", "escalation", "nudge",
+  "item", "classified", "answered/in progress", no ids, no slash-separated
+  statuses, no internal file or table names.
+- No em or en dashes, no emojis. One short line per client; whole text
+  under 600 characters.
+Return ONLY JSON: {"body": string}."""
+
+
+def humanize_boss_sms(raw: str, ask_for_decision: bool = False) -> str | None:
+    """Rewrite internal system notes into the SMS Santino actually reads.
+    Returns None on any failure so callers fall back to the raw text — a
+    lost alert is worse than an ugly one."""
+    try:
+        draft = anthropic_json(
+            BOSS_SMS_SYSTEM,
+            (("These need his decision — end by asking him to reply with "
+              "what to do.\n") if ask_for_decision else
+             ("These are heads-up notes — say what happened and what you'll "
+              "do about it.\n"))
+            + "Internal notes:\n" + raw[:1200])
+        text = (draft.get("body") or "").strip()
+        return text[:900] or None
+    except Exception as e:  # noqa: BLE001 — copy polish must never eat an alert
+        print(f"  [boss-sms] humanize failed ({str(e)[:80]}) — raw copy",
+              file=sys.stderr)
+        return None
+
 
 def _advice_requests() -> list:
     return kv_get("advice-requests") or []
 
 
-def ask_santino_for_advice(company: dict, reason: str, dry_run: bool) -> None:
+def ask_santino_for_advice(company: dict, reason: str, dry_run: bool,
+                           client_msg: str | None = None) -> None:
     if _ADVICE_SENT_THIS_RUN["n"] >= 5:
         return  # never blow up his phone in one pass
     reqs = _advice_requests()
@@ -2010,8 +2166,15 @@ def ask_santino_for_advice(company: dict, reason: str, dry_run: bool) -> None:
     if dry_run:
         print(f"    [dry-run] would text Santino for advice: {reason[:80]}")
         return
-    body = (f"Monica here. Need your call on {company.get('name', '?')}: "
-            f"{reason[:300]} Reply with what to do and I'll take it from there.")
+    # Human copy for his phone; the raw reason stays in the escalation row.
+    body = (humanize_boss_sms(
+                f"[{company.get('name', '?')}] {reason[:300]}"
+                + (f"\nThe client's own words: {client_msg[:200]!r}"
+                   if client_msg else ""),
+                ask_for_decision=True)
+            or (f"Monica here. Need your call on {company.get('name', '?')}: "
+                f"{reason[:300]} Reply with what to do and I'll take it "
+                f"from there."))
     try:
         send_message({"id": ADVICE_CONTACT_ID, "phone": ADVICE_PHONE}, "sms", body)
         _ADVICE_SENT_THIS_RUN["n"] += 1
@@ -2027,10 +2190,20 @@ def ask_santino_for_advice(company: dict, reason: str, dry_run: bool) -> None:
 
 
 def append_escalation(company: dict, msg: dict | None, reason: str,
-                      dry_run: bool, ping: bool = True) -> None:
+                      dry_run: bool, ping: bool = False) -> None:
     """Append one escalation block. msg is the triggering inbound message when
     there is one; compose-side escalations (history-answered items, human-
-    conversation deferrals) pass msg=None."""
+    conversation deferrals) pass msg=None.
+
+    NOTIFICATION POLICY (Santino 2026-08-02: "I should not be texted every
+    time a client responds"): ping=True texts Santino now (advice loop +
+    end-of-run summary) — reserve it for (a) a tripped escalation ladder
+    (max nudges, angry client), (b) something needing HIS action or
+    decision, (c) a client question Monica can't answer herself. The
+    default ping=False still writes concierge_escalations (the app's Ops
+    Attention view) and reaches him in the morning digest email
+    (concierge_digest.py) — bookkeeping flags and FYIs go there, never to
+    his phone mid-day."""
     stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     block = (f"\n## {stamp} — {company.get('name', '?')} ({company.get('id', '?')})\n"
              + (f"- Channel: {msg['channel']}  Message id: {msg['id']}\n"
@@ -2038,7 +2211,8 @@ def append_escalation(company: dict, msg: dict | None, reason: str,
              + f"- Reason: {reason}\n")
     if ping:
         _OPS_PINGS.append((company.get("name", "?"), reason))
-        ask_santino_for_advice(company, reason, dry_run)
+        ask_santino_for_advice(company, reason, dry_run,
+                               client_msg=(msg or {}).get("body"))
     if dry_run:
         print(f"    [dry-run] would append escalation:{block}")
         return
@@ -2117,11 +2291,16 @@ def flush_ops_pings(dry_run: bool) -> None:
             print(f"  [ops-ping] identical ping {age_h:.1f}h ago — skipping")
             return
     if dry_run:
-        print(f"  [dry-run] would ops-ping {OPS_PING_CELL}:\n{body}")
+        print(f"  [dry-run] would ops-ping {OPS_PING_CELL} (raw; humanized "
+              f"at send time):\n{body}")
         return
+    # Humanize ONLY here, after the dedupe: the hash must stay on the raw
+    # stable wording (LLM rewrites vary per run and would defeat it, the
+    # exact failure of the 07-31 advice-storm). Falls back to raw copy.
+    send_body = humanize_boss_sms("\n".join(lines)) or body
     try:
         send_message({"id": OPS_PING_CONTACT_ID, "phone": OPS_PING_CELL},
-                     "sms", body)
+                     "sms", send_body)
         state["ops_ping"] = {"hash": digest,
                              "at": datetime.now(timezone.utc).isoformat()}
         save_state(state, dry_run=False)
@@ -2220,7 +2399,8 @@ def handle_reschedule_request(company: dict, contact: dict, preference: str,
     if not appt:
         append_escalation(company, None,
                           "asked to reschedule but no upcoming appointment "
-                          "found on their contact — needs a human", dry_run)
+                          "found on their contact — needs a human", dry_run,
+                          ping=True)  # needs his action
         return
     cur = datetime.strptime(appt["startTime"], "%Y-%m-%d %H:%M:%S").replace(
         tzinfo=ZoneInfo(GHL_LOCATION_TZ)).astimezone(ZoneInfo(tz))
@@ -2229,7 +2409,8 @@ def handle_reschedule_request(company: dict, contact: dict, preference: str,
     if not offers:
         append_escalation(company, None,
                           "reschedule requested but no free slots in the next "
-                          "8 days — needs a human", dry_run)
+                          "8 days — needs a human", dry_run,
+                          ping=True)  # needs his action
         return
     labels = [_fmt_slot(o) for o in offers]
     draft = anthropic_json(RESCHEDULE_OFFER_SYSTEM,
@@ -2281,7 +2462,8 @@ def handle_reschedule_reply(company: dict, contact: dict, msg: dict,
             except RuntimeError as e:
                 append_escalation(company, msg,
                                   f"client picked {picked} but the calendar "
-                                  f"update FAILED ({e}) — fix manually", dry_run)
+                                  f"update FAILED ({e}) — fix manually", dry_run,
+                                  ping=True)  # needs his action
                 return True
             confirm = (f"You're all set, moved to {_fmt_slot(picked)}. "
                        "Talk to you then!")
@@ -2396,7 +2578,8 @@ def cmd_inbound(args) -> int:
                             append_escalation(
                                 company, msg,
                                 "client texted a screenshot/attachment we could "
-                                "not auto-file — check the conversation", dry_run)
+                                "not auto-file — check the conversation", dry_run,
+                                ping=True)  # Monica can't handle it herself
                             continue
                 contact_for_flow = contact_payload or {"id": contact_id}
                 if handle_reschedule_reply(company, contact_for_flow, msg,
@@ -2449,20 +2632,42 @@ def cmd_inbound(args) -> int:
                                               resc.get("preference") or "",
                                               state, dry_run)
                     continue
-                if (result.get("escalate") or result.get("sentiment") == "negative"
+                negative = result.get("sentiment") == "negative"
+                needs_answer = (bool(result.get("needs_answer"))
+                                or "?" in (msg["body"] or ""))
+                needs_santino = bool(result.get("needs_santino"))
+                if (result.get("escalate") or negative
                         or not result.get("matches")):
                     reason = result.get("escalate_reason") or (
-                        "negative sentiment" if result.get("sentiment") == "negative"
+                        "negative sentiment" if negative
                         else "no open item matched")
                     print(f"    ESCALATE: {reason}")
-                    append_escalation(company, msg, reason, dry_run)
+                    # Text Santino ONLY for angry clients or questions only
+                    # he can answer; routine unmatched chatter reaches him
+                    # via the morning digest (policy 2026-08-02).
+                    append_escalation(company, msg, reason, dry_run,
+                                      ping=negative or needs_santino)
                     # ACKNOWLEDGE (Santino 2026-07-30: "she should always just
                     # acknowledge their answer as concisely as possible"). The
                     # matched path sends a real reply; this path used to send
                     # NOTHING — Todd's pricing question sat in silence for a day.
-                    if not matched_ids and result.get("sentiment") != "negative":
+                    if not matched_ids and not negative:
                         _maybe_send_ack(state, company, contact_id, msg,
-                                        contact_payload, args.send, dry_run)
+                                        contact_payload, args.send, dry_run,
+                                        history=history,
+                                        needs_answer=needs_answer,
+                                        needs_santino=needs_santino)
+                        if needs_answer:
+                            # The REAL answer comes from the next compose
+                            # pass: awaiting_reply bypasses its cooldown and
+                            # survives the holding ack sitting newest in the
+                            # thread (Todd's suspension question, 2026-08-02).
+                            cs_reset["awaiting_reply"] = {
+                                "body": msg["body"][:400],
+                                "at": msg["ts"].isoformat(),
+                                "channel": msg["channel"]}
+                            print("    [awaiting_reply set — next compose "
+                                  "answers this, cooldown bypassed]")
                 if matched_ids:
                     remaining = [i for i in open_items
                                  if i["id"] not in matched_ids
@@ -2492,6 +2697,8 @@ def cmd_inbound(args) -> int:
                             sent = send_message(contact, msg["channel"],
                                                 reply.get("body", ""))
                             record_sent_message(state, sent)
+                            # a real reply went out — nothing pending anymore
+                            cs_reset.pop("awaiting_reply", None)
                         except SendBlocked as e:
                             print(f"    SEND BLOCKED: {e}")
         except Exception as e:  # noqa: BLE001 — one bad thread must never
@@ -2558,18 +2765,41 @@ def cmd_inbound(args) -> int:
 
 # ------------------------------------------------------------- ack replies
 # A one-line acknowledgment so no client reply ever dead-ends (Santino
-# 2026-07-30). Rules: never ack an ack, one ack per contact per day,
+# 2026-07-30). Rules: never ack an ack, one PLAIN ack per contact per day
+# (a reply that needs a real answer ALWAYS gets a holding line — the daily
+# cap swallowing Todd's suspension question is how 2026-08-02 happened),
 # business hours only, and the matched-item path (which sends a real reply)
-# never acks on top of it.
+# never acks on top of it. Copy is drafted from the client's actual words:
+# "Perfect, thanks for getting back to me!" after "I don't know how to send
+# all customers at once" is why the canned rotation died (2026-08-02).
 _TERMINAL_ACK_RE = re.compile(
     r"^(ok(ay)?|k+|sure|thanks?( you| u)?|thank you|got it|sounds good|"
     r"perfect|great|awesome|no problem|np|will do|yes ?sir|yup|yep|"
     r"👍|🙏)[.! ]*$", re.I)
 
+ACK_SYSTEM = """\
+You are Monica from Santino's team at Restoration AI, texting ONE short
+holding line right after a client replied with something we can't fully
+resolve this minute. NEVER use em dashes or en dashes; use a comma or a
+period. No emojis, no exclamation spam, no canned filler ("Perfect, thanks
+for getting back to me" is banned). Respond to what they actually SAID:
+- They asked something we need to look into: acknowledge the question
+  specifically and say you'll find out and get right back to them.
+- They said they don't know how to do something, or are stuck: reassure
+  them it's no problem and say you'll walk them through it shortly.
+- A plain statement or update: thank them naturally, referencing what they
+  said in a few words.
+Do NOT attempt to answer the question here (you don't have the answer yet),
+do not promise dates, and only mention checking with Santino when the input
+says the boss must decide. One or two short sentences, under 220 characters.
+Return ONLY JSON: {"body": string}."""
+
 
 def _maybe_send_ack(state: dict, company: dict, contact_id: str, msg: dict,
                     contact_payload: dict | None, do_send: bool,
-                    dry_run: bool) -> None:
+                    dry_run: bool, history: list[dict] | None = None,
+                    needs_answer: bool = False,
+                    needs_santino: bool = False) -> None:
     body = (msg.get("body") or "").strip()
     if not body or (_TERMINAL_ACK_RE.match(body) and len(body) <= 25):
         print("    [ack skipped: their message is itself an acknowledgment]")
@@ -2577,21 +2807,37 @@ def _maybe_send_ack(state: dict, company: dict, contact_id: str, msg: dict,
     cs = company_state(state, company["id"])
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     acks = cs.setdefault("acks", {})
-    if acks.get(contact_id) == today:
+    if acks.get(contact_id) == today and not needs_answer:
+        # The daily cap applies to PLAIN thank-you acks only. A question or
+        # stuck reply always gets a holding line: on 2026-08-02 the cap ate
+        # the reply to "I wonder why they suspended the listing" because a
+        # template ack four minutes earlier had already burned it.
         print("    [ack skipped: already acknowledged this contact today]")
         return
     if business_hours_check(company, contact_payload):
         print("    [ack skipped: outside their business hours]")
         return
-    if "?" in body:
-        text = ("Good question! Let me check with the team and I'll get "
-                "right back to you.")
-    else:
-        variants = ["Got it, thank you!",
-                    "Perfect, thanks for getting back to me!",
-                    "Got it! We'll take it from here.",
-                    "Thank you! Noted on our end."]
-        text = variants[sum(ord(c) for c in (contact_id + today)) % len(variants)]
+    last_out = next((m for m in (history or [])
+                     if m.get("direction") == "out"), None)
+    text = ""
+    try:
+        draft = anthropic_json(
+            ACK_SYSTEM,
+            f"Client first name: {contact_first_name(None, company)}\n"
+            + (f"Our last message to them: {last_out['body'][:200]}\n"
+               if last_out else "")
+            + f"Their reply: {body[:400]}\n"
+            + ("Only the boss can decide this one, say you'll check with "
+               "Santino and get back to them.\n" if needs_santino else "")
+            + ("This reply needs a real answer later; write the holding "
+               "line." if needs_answer
+               else "This is a statement; write the short natural thanks."))
+        text = (draft.get("body") or "").strip()
+    except Exception as e:  # noqa: BLE001 — a failed draft must not kill the poll
+        print(f"    [ack] draft failed ({str(e)[:80]}) — using fallback")
+    if not text:
+        text = ("Let me look into that and get right back to you."
+                if needs_answer else "Got it, thank you.")
     print(f"    ack draft: {text!r}")
     if not do_send:
         return

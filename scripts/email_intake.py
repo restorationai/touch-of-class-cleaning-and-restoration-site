@@ -230,7 +230,8 @@ def cmd_poll(args) -> int:
             reason = (f"email to {INTAKE_ALIAS} from unrecognized sender "
                       f"{sender} ({subject!r}) — needs a human to identify "
                       "the client")
-            append_escalation({"id": "?", "name": sender}, None, reason, dry_run)
+            append_escalation({"id": "?", "name": sender}, None, reason, dry_run,
+                              ping=True)  # Monica can't even identify the client
             if not dry_run:
                 _g_post(tok, f"/messages/{stub['id']}/modify",
                         {"addLabelIds": [label_id]})
@@ -273,16 +274,22 @@ def cmd_poll(args) -> int:
                 print(f"    ANSWER item {hit['item_id'][:8]} = {hit['value']!r}")
                 apply_answer(hit["item_id"], hit["value"], dry_run)
             if result.get("escalate"):
+                # Notification policy 2026-08-02: text Santino only when the
+                # email is angry or only he can answer it; routine ambiguous
+                # email reaches him via the morning digest.
                 append_escalation(company,
                                   {"channel": "email", "id": stub["id"],
                                    "body": f"{subject}: {body_text[:300]}"},
                                   result.get("escalate_reason") or "ambiguous email",
-                                  dry_run)
+                                  dry_run,
+                                  ping=(bool(result.get("needs_santino"))
+                                        or result.get("sentiment") == "negative"))
             if saved and not (result.get("matches") or []):
                 append_escalation(company, None,
                                   f"email attachments saved ({', '.join(saved)}) "
                                   "— need a human to file them (logo/photos/docs)",
-                                  dry_run)
+                                  dry_run,
+                                  ping=True)  # needs his action to file them
 
         if not dry_run:
             _g_post(tok, f"/messages/{stub['id']}/modify",
