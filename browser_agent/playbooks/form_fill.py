@@ -31,11 +31,33 @@ PORTALS = {
     "houzz": {
         "label": "Houzz",
         "search": "https://www.houzz.com/professionals/probr0-bo~t_11785",  # + query via UI search box
-        "create": "https://www.houzz.com/pro/join",
-        "notes": "Free pro profile. Category: 'Damage Restoration'. Houzz "
-                 "pushes a paid 'Houzz Pro' trial hard during signup — take "
-                 "the free listing path ONLY, never start a trial.",
-        "selectors": {},
+        "create": "https://www.houzz.com/",  # Sign In -> Sign Up (join URLs 404)
+        "notes": "Free pro profile. Category: 'Environmental Services & "
+                 "Restoration'. Take the free listing path ONLY — never a "
+                 "trial, demo, or ad product.",
+        # Pinned during supervised run 1 (narestco, 2026-08-01, clean):
+        #  account: email+pw signup — NEVER Google SSO (one Houzz identity per
+        #    account; we alias contact+{slug}@restorationai.io). Email code
+        #    lands in agency Gmail ('Your Confirmation Code'). Password policy
+        #    8+/digit/symbol — generator MUST guarantee all classes. React
+        #    inputs need focus()+keyboard.type (fill() leaves submit disabled;
+        #    floating labels intercept click()).
+        #  wizard (pro-onboarding-wizard): identifyProNProjectType = Contractor
+        #    + combobox 'Environmental Services & Restoration' + 'Client
+        #    project(s)'; proIntent = 'Free Business Profile' ONLY;
+        #    revenueNEmployees = 'Prefer not to say' + '2-10';
+        #    projectTimelineNBusinessTool = 'Within the next week' + 'Other
+        #    software' + required text 'Restoration AI'; hearAboutUs = 'AI
+        #    (e.g. ChatGPT)'.
+        #  pro-basic-info: businessName/businessPhone/businessWebsite/
+        #    contactFirstName/contactLastName; SMS-consent checkbox comes
+        #    PRE-TICKED — always uncheck.
+        #  pro.houzz.com/pro-onboarding: location (state = native <select>),
+        #    serviceAreas + servicesProvided accept the suggested sets,
+        #    profilePhoto = logo PNG via input[type=file] then Save. A sales
+        #    demo-scheduler modal ('good time for a demo') blocks all clicks —
+        #    close via [aria-label='Close'] / Escape before advancing.
+        "selectors": {"supervised_runs_clean": 1},
     },
     "porch": {
         "label": "Porch",
