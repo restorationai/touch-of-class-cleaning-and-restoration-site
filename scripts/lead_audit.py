@@ -40,6 +40,7 @@ import re
 import sys
 import tempfile
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 import uuid
@@ -131,6 +132,65 @@ def _http_get(url, timeout=25, headers=None):
         "User-Agent": "Mozilla/5.0 (Macintosh) RankAI-Audit/1.0 (+contact@restorationai.io)"})
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return r.read()
+
+
+# Lead-site fetches must survive WAF/bot filtering: some hosts 403 the polite
+# audit UA — or Railway's datacenter egress IP outright — while serving real
+# browsers fine (peakshieldroofing.com killed Isaac Gomez's audit in 1.2s with
+# a 403 on 2026-07-31, so his nurture SMS merged EMPTY grade/teaser fields).
+BROWSER_HEADERS = {
+    "User-Agent": ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                   "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+}
+_BLOCKED_CODES = {401, 403, 405, 406, 409, 429, 500, 503}
+
+
+def _get_site_html(url, timeout=25):
+    """Fetch a lead's page; on a blocked/refused status retry once with full
+    browser headers before giving up."""
+    try:
+        return _http_get(url, timeout=timeout).decode("utf-8", "ignore")
+    except urllib.error.HTTPError as e:
+        if e.code not in _BLOCKED_CODES:
+            raise
+    return _http_get(url, timeout=timeout, headers=BROWSER_HEADERS).decode("utf-8", "ignore")
+
+
+def _fetch_text_via_dfs(url):
+    """Last resort when the site blocks our server IP entirely (WAF / IP
+    reputation): pull the page through DataForSEO's crawler, which fetches
+    from different egress IPs. Returns PLAIN TEXT (not HTML) — enough to
+    profile the business; link discovery is skipped. Costs ~$0.0002."""
+    if not urllib.parse.urlparse(url).path:
+        url += "/"   # DFS content_parsing returns 0 items for a bare domain URL
+    items, _cost, task = _dfs(
+        "https://api.dataforseo.com/v3/on_page/content_parsing/live",
+        [{"url": url, "enable_javascript": False}], _dfs_auth(), timeout=90)
+    if task.get("status_code") and int(task["status_code"]) >= 40000:
+        raise RuntimeError("content_parsing: " + str(task.get("status_message")))
+    if not items:
+        raise RuntimeError("content_parsing returned no items for " + url)
+
+    out = []
+
+    def walk(node):
+        if isinstance(node, dict):
+            for k, v in node.items():
+                if k in ("text", "title") and isinstance(v, str):
+                    out.append(v)
+                else:
+                    walk(v)
+        elif isinstance(node, list):
+            for x in node:
+                walk(x)
+
+    walk(items[0].get("page_content") or {})
+    txt = re.sub(r"\s+", " ", " ".join(out)).strip()
+    if len(txt) < 200:
+        raise RuntimeError("content_parsing text too thin ({} chars)".format(len(txt)))
+    return txt
 
 
 def _html_to_text(raw):
@@ -248,13 +308,26 @@ def fetch_site(domain, start_url=None):
     links inside the same subtree."""
     pages = {}
     base = "https://" + domain
-    if start_url:
-        raw = _http_get(start_url).decode("utf-8", "ignore")
-    else:
-        try:
-            raw = _http_get(base).decode("utf-8", "ignore")
-        except Exception:
-            raw = _http_get("http://" + domain).decode("utf-8", "ignore")  # may raise
+    target = start_url or base
+    raw = None
+    try:
+        raw = _get_site_html(target)
+    except Exception as e_direct:
+        if not start_url:
+            try:
+                raw = _get_site_html("http://" + domain)
+            except Exception:
+                raw = None
+        if raw is None:
+            # Direct fetch blocked (WAF 403 on our server IP, etc.) — pull the
+            # text through DataForSEO's crawler so the audit still completes.
+            try:
+                pages["homepage"] = _fetch_text_via_dfs(target)[:15000]
+            except Exception:
+                raise e_direct
+            sys.stderr.write("  fetch_site: direct fetch blocked ({}) — used "
+                             "DataForSEO crawler fallback\n".format(str(e_direct)[:100]))
+            return pages
     pages["homepage"] = _html_to_text(raw)[:15000]
 
     sub_prefix = urllib.parse.urlparse(start_url).path.rstrip("/").lower() if start_url else ""
@@ -281,7 +354,7 @@ def fetch_site(domain, start_url=None):
             break
     for u in (sub_picked + kw_picked)[:4]:
         try:
-            pages[u] = _html_to_text(_http_get(u).decode("utf-8", "ignore"))[:8000]
+            pages[u] = _html_to_text(_get_site_html(u))[:8000]
         except Exception:
             continue
     return pages

@@ -888,6 +888,26 @@ def _run_lead_audit_job(job_id: str, req: "LeadAuditRequest"):
 
 def _notify_lead_audit_failure(job_id: str, req: "LeadAuditRequest", error: str):
     """Best-effort team email — the job status row remains the record."""
+    # Funnel leads: also tag the GHL contact "audit failed" so the nurture
+    # workflow can gate its report-SMS step. Without a gate, the merge fields
+    # are empty and the lead gets 'graded .' + an invalid media URL (Isaac
+    # Gomez, 2026-08-01, after his audit died on a WAF 403).
+    if req.source:
+        try:
+            import lead_audit  # scripts/ is on sys.path
+            contact_id = None
+            for q in (req.email, req.phone):
+                if not q:
+                    continue
+                res = lead_audit._ghl("GET", "/contacts/", params={"query": q})
+                if res.get("contacts"):
+                    contact_id = res["contacts"][0]["id"]
+                    break
+            if contact_id:
+                lead_audit._ghl("POST", "/contacts/{}/tags".format(contact_id),
+                                params={}, body={"tags": ["audit failed"]})
+        except Exception:
+            pass  # tagging is best-effort; the email below still alerts the team
     try:
         sg = os.environ.get("SENDGRID_API_KEY", "")
         if not sg:

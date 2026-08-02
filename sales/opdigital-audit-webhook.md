@@ -33,3 +33,26 @@ What happens automatically (~5 min later — no ops SMS; your workflow automatio
 Nurture usage: in any email/SMS step, reference
   {{contact.audit_teaser_image_url}}   ← attach/embed as the image
   {{contact.audit_report_url}}         ← NEVER send this one to the lead
+
+## REQUIRED workflow guard (add in GHL UI — incident 2026-08-01)
+
+Isaac Gomez's audit died on a WAF 403 before any field was written; the
+nurture SMS still fired and merged EMPTY fields — the lead received
+"It came back graded ." with an invalid media attachment.
+
+The API now tags the contact **"audit failed"** whenever a funnel audit
+fails, and the audit itself is far more resilient to bot-blocking. But the
+SMS step must ALSO be gated in the workflow:
+
+1. Immediately before the report SMS step, add an If/Else condition:
+   - `audit_grade` is not empty  AND
+   - `audit_teaser_image_url` is not empty  AND
+   - contact does NOT have tag `audit failed`
+2. TRUE branch → send the existing SMS (grade + teaser image).
+3. FALSE branch → send a no-merge fallback ("Still finishing up your
+   report — I'll text it over shortly.") or simply skip + notify the team.
+   NEVER reference {{contact.audit_grade}} / the teaser URL in this branch.
+
+The team already gets a "[Rank AI] Lead audit FAILED" email on every
+failure — re-run the audit, which fills the fields, before manually
+sending the report SMS.
