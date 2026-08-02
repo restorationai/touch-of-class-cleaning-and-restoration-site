@@ -211,7 +211,11 @@ INTRO_TEMPLATE_OFFICE = ("Hi {first}, this is {name} with Santino's team "
                          "finish {company}'s setup.")
 SMS_MAX_CHARS = 450
 SMS_MAX_CHARS_FIRST = 550   # first-ever message carries the intro line
-MAX_ITEMS_PER_MESSAGE = 2
+# ONE PURPOSE PER MESSAGE (Santino 2026-08-02, Todd thread review): every
+# text carries at most ONE question — the single most valuable next thing.
+# Stacked asks ("What day works? Also, any brand col...") read robotic and
+# get half-answered. Other open items wait for their own message.
+MAX_ITEMS_PER_MESSAGE = 1
 # A first text from an unknown number must feel like a person saying hi with
 # one small favor to ask — never a checklist. Follow-ups may carry two.
 FIRST_CONTACT_MAX_ITEMS = 1
@@ -221,6 +225,17 @@ CLASSIFY_HISTORY_MSGS = 10     # history context given to inbound classification
 HISTORY_EMAIL_TRIM = 500       # chars kept per email body (threads get long)
 HUMAN_DEFER_HOURS = 12         # human outbound newer than this => skip nudge
 MAX_NUDGES = 4
+# INBOUND DEBOUNCE (Santino 2026-08-02: "Blue like water" + "And white"
+# seconds apart each got their own ack+question — two near-duplicate texts
+# back to back). The webhook waits for this quiet window before composing,
+# folding rapid-fire messages into ONE conversational turn.
+INBOUND_QUIET_WINDOW_S = 100
+INBOUND_DEBOUNCE_MAX_S = 360   # never hold a reply hostage longer than this
+# Similarity guard: refuse to send an outbound that near-duplicates our own
+# last outbound when that one is recent — the last line of defense against
+# double-texting the same question (Jaccard on >2-char words).
+SIMILAR_JACCARD = 0.55
+SIMILAR_RECENT_HOURS = 24
 # Ops ping: every escalation also fires ONE summary SMS to Santino's cell so
 # a human hears about it without reading concierge-escalations.md. The 805
 # company number is the GHL location's own number and can't receive sends
@@ -563,6 +578,36 @@ def pending_client_message(cs: dict, history: list[dict], state: dict) -> dict |
 
 
 # ---------------------------------------------------------------- timezone
+def repeats_last_outbound(body: str, history: list[dict]) -> str | None:
+    """Refusal reason when `body` near-duplicates our most recent outbound
+    and that outbound is < SIMILAR_RECENT_HOURS old — else None.
+
+    The hard guard behind the no-double-question rule (Santino 2026-08-02:
+    two team-photo asks landed one minute apart). Jaccard overlap on words
+    longer than 2 chars; the recency condition keeps legitimate re-asks
+    after the 3-day cooldown from tripping it."""
+    last = next((m for m in history if m.get("direction") == "out"
+                 and (m.get("body") or "").strip()), None)
+    if not last:
+        return None
+    age_h = (datetime.now(timezone.utc) - last["when"]).total_seconds() / 3600
+    if age_h >= SIMILAR_RECENT_HOURS:
+        return None
+
+    def toks(s: str) -> set:
+        return {w for w in re.findall(r"[a-z']+", (s or "").lower())
+                if len(w) > 2}
+
+    a, b = toks(body), toks(last["body"])
+    if not a or not b:
+        return None
+    overlap = len(a & b) / len(a | b)
+    if overlap >= SIMILAR_JACCARD:
+        return (f"too similar to our last outbound ({overlap:.0%} word "
+                f"overlap, sent {age_h:.1f}h ago: {last['body'][:70]!r})")
+    return None
+
+
 def _valid_tz(name: str) -> bool:
     try:
         ZoneInfo(name)
@@ -700,6 +745,35 @@ def load_meeting_intel(company: dict) -> str | None:
                          "they override older meeting intel]\n" + lines)
     except Exception as e:
         print(f"  [intel] ops-notes fetch failed: {e}", file=sys.stderr)
+    # ALREADY-DONE CONTEXT (Santino 2026-08-02: Monica asked for job photos
+    # we harvested the day before): the recent work ledger + recently
+    # RESOLVED ops notes ride along, so compose/classify can see what we
+    # already hold and exclude those asks via the intel_resolved machinery.
+    try:
+        # date-only: an isoformat "+00:00" reads as a space in the URL (400)
+        since14 = (datetime.now(timezone.utc) - timedelta(days=14)).date().isoformat()
+        done = _sb("GET", "/rest/v1/marketing_work_log"
+                   f"?company_id=eq.{company.get('id')}"
+                   f"&ts=gte.{since14}"
+                   "&select=action,detail,ts"
+                   "&order=ts.desc&limit=12") or []
+        resolved = _sb("GET", "/rest/v1/marketing_ops_notes"
+                       f"?company_id=eq.{company.get('id')}"
+                       f"&status=eq.resolved&created_at=gte.{since14}"
+                       "&select=body,created_at&order=created_at.desc&limit=6") or []
+        lines = [f"- ({str(w.get('ts'))[:10]}) "
+                 f"{str(w.get('detail') or w.get('action'))[:160]}"
+                 for w in done]
+        lines += [f"- (resolved {str(n.get('created_at'))[:10]}) "
+                  f"{str(n.get('body'))[:160]}" for n in resolved]
+        if lines:
+            parts.append(
+                "[WORK ALREADY DONE — recent ledger + resolved notes. If an "
+                "outstanding item asks the client for something these lines "
+                "show we already have or did, EXCLUDE that item (report it "
+                "in intel_resolved) instead of asking]\n" + "\n".join(lines))
+    except Exception as e:
+        print(f"  [intel] work-done fetch failed: {e}", file=sys.stderr)
     return "\n\n".join(parts) or None
 
 
@@ -776,6 +850,90 @@ def gather_items(company_id: str) -> list[dict]:
              + [norm_intake(i) for i in rest])
 
     return sorted(items, key=ask_rank)
+
+
+# ---- already-have check (Santino 2026-08-02: Monica asked Todd for
+# "finished job photos" the day after we harvested 50 from his Facebook
+# page). Ground truth is the branding bucket itself — tool-agnostic, so it
+# closes the item on the first pass after ANY harvest (FB agent, SMS
+# intake, hub uploads), before an ask can ever be drafted.
+JOB_PHOTO_SATISFIED_AT = 8
+
+
+def _job_photo_count_storage(company_id: str) -> int:
+    """Files under branding/{cid}/job-photos/ (the inbox/ quarantine rows
+    come back in the same listing; screenshots there still count as held
+    media a human can promote — the point is we're not empty-handed)."""
+    try:
+        url = (os.environ["SUPABASE_URL"].rstrip("/")
+               + "/storage/v1/object/list/branding")
+        key = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
+        r = requests.post(url, json={"prefix": f"{company_id}/job-photos/",
+                                     "limit": 300},
+                          headers={"apikey": key,
+                                   "Authorization": f"Bearer {key}"},
+                          timeout=30)
+        r.raise_for_status()
+        return sum(1 for f in (r.json() or []) if f.get("id"))
+    except Exception as e:  # noqa: BLE001 — an asset count must never kill compose
+        print(f"  [already-have] job-photo count failed: {str(e)[:80]}",
+              file=sys.stderr)
+        return 0
+
+
+def _gbp_suspended(company_id: str) -> bool:
+    """Best signal on file: any OPEN ops note mentioning a suspension."""
+    try:
+        rows = _sb("GET", f"/rest/v1/marketing_ops_notes?company_id=eq.{company_id}"
+                   "&status=eq.open&select=body&limit=20") or []
+        return any(re.search(r"suspend", str(r.get("body", "")), re.I)
+                   for r in rows)
+    except Exception:
+        return False
+
+
+def filter_already_satisfied(company: dict, items: list[dict],
+                             dry_run: bool) -> list[dict]:
+    """Drop (and auto-close) asks for things we already hold, before any
+    message is drafted.
+
+    (a) Finished/job-photo items: when the branding bucket already holds
+        JOB_PHOTO_SATISFIED_AT+ job photos, the item is AUTO-SATISFIED —
+        answered in the DB with the evidence, not just skipped — so it can
+        never be asked again by any path.
+    (b) GBP-facing photo/post asks while the listing is SUSPENDED are
+        pointless until reinstatement: deferred (kept open, not asked)."""
+    kept: list[dict] = []
+    n_photos: int | None = None
+    suspended: bool | None = None
+    for it in items:
+        text = str(it.get("text", "")).lower()
+        if re.search(r"(finished|job)[ -]?(site )?photos?", text):
+            if n_photos is None:
+                n_photos = _job_photo_count_storage(company["id"])
+            if n_photos >= JOB_PHOTO_SATISFIED_AT:
+                val = (f"auto-satisfied {datetime.now(timezone.utc).date()}: "
+                       f"{n_photos} job photos already in the branding "
+                       "library (harvest/SMS/hub) — nothing to ask the "
+                       "client for")
+                print(f"  [already-have] {it['text'][:60]!r}: {n_photos} job "
+                      "photos on file — auto-satisfying, not asking")
+                if it.get("kind") == "intake":
+                    apply_answer(it["id"], val, dry_run)
+                else:
+                    resolve_plan_row(it["id"], dry_run)
+                continue
+        if (re.search(r"google business|business profile|\bgbp\b", text)
+                and re.search(r"photos?|posts?", text)):
+            if suspended is None:
+                suspended = _gbp_suspended(company["id"])
+            if suspended:
+                print(f"  [suspended-gate] {it['text'][:60]!r}: their Google "
+                      "listing is suspended — deferring this ask until it "
+                      "is reinstated")
+                continue
+        kept.append(it)
+    return kept
 
 
 # BUSINESS-PRIORITY RANK (Santino 2026-07-30: "she always works on the
@@ -1171,6 +1329,24 @@ Rules:
   quick things", "just checking in", "hope you're well", "touching base".
   Anchor to the real subject instead: "Hey Jack, regarding your website,
   should we say…". Slightly informal, like a competent coworker texting.
+- NAME BUDGET (Santino 2026-08-02: every message opened "Hey Todd," /
+  "Thanks, Todd," — humans don't repeat names constantly mid-thread): use
+  the first name at most ONCE per day of conversation. If any outbound in
+  today's history already used it, or you are replying mid-conversation,
+  open with content instead: "Got it...", "Sounds good...", or just the
+  answer. Never open consecutive messages with "Hey {name}" or
+  "Thanks, {name}".
+- ONE QUESTION PER MESSAGE (hard rule, Santino 2026-08-02): each message
+  has ONE purpose and at most ONE question — the single most valuable next
+  thing. Never stack a second ask ("Also, ...", "While I have you...")
+  onto a message that already asks something, proposes a meeting, or
+  closes a commitment. Every other open item WAITS for its own message.
+- ACKNOWLEDGE FORWARD, never echo: never restate what the client just told
+  you as a third-person summary ("got it, you'll grab a company photo once
+  you're back in town" is the banned pattern). Point forward instead:
+  "Thanks, definitely send those over when you get back into town." When
+  the client just COMMITTED to do something later, the entire message is
+  that warm forward-pointing close — never a new ask on top of it.
 - SMS: total body within the character budget given. If space is tight, cut
   an item, not words mid-thought. No subject, no links other than the ones
   the rules above allow.
@@ -1370,6 +1546,21 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
             "\nRecent conversation history with this person (newest first; "
             "'them' = the client, 'us' = anyone on our side):\n"
             + format_history(history) + "\n")
+    # NAME BUDGET context: the mechanical signal behind the prompt rule
+    # (first name at most once per day of thread — Santino 2026-08-02).
+    name_line = ""
+    if not first_contact and history:
+        used_today = any(
+            m["direction"] == "out"
+            and first_name.lower() in str(m.get("body") or "").lower()
+            and (datetime.now(timezone.utc) - m["when"]) < timedelta(hours=24)
+            for m in history)
+        name_line = (
+            "Name budget: their first name was ALREADY used in a message "
+            "within the last day — do NOT use it anywhere in this message; "
+            "open with content.\n" if used_today else
+            "Name budget: their first name has not been used in the last "
+            "day; you may use it once, or not at all.\n")
     intel_block = ""
     if intel:
         intel_block = (
@@ -1393,15 +1584,21 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
                 "\nCLIENT ANSWERED OUR QUESTION — the newest client message "
                 "answers something we asked them:\n"
                 f"  \"{p_body}\"\n"
-                "Your FIRST job is the follow-through: acknowledge what they "
-                "gave us in a few words, then give the concrete NEXT STEP. "
-                "Follow the standing policy: for a non-technical client the "
-                "next step is a short meeting to do it together (recommend "
-                "it warmly and propose times), never a multi-step text "
-                "walkthrough; only give steps by text when it is genuinely "
-                "one simple action. Never re-ask what they just told you and "
-                "never leave their answer hanging. The body must NOT be "
-                "empty even if every item is excluded.\n")
+                "Your ONLY job is the follow-through: acknowledge what they "
+                "gave us in a few forward-pointing words (never restate "
+                "their message back as a summary), then give the concrete "
+                "NEXT STEP. Follow the standing policy: for a non-technical "
+                "client the next step is a short meeting to do it together "
+                "(recommend it warmly and propose times), never a "
+                "multi-step text walkthrough; only give steps by text when "
+                "it is genuinely one simple action. If their message was a "
+                "COMMITMENT to do something later, the whole reply is a "
+                "warm close ('Sounds good, whenever you're back works'). "
+                "Do NOT add any outstanding item or extra ask to this "
+                "message — the follow-through is its one purpose; other "
+                "items wait for their own message. Never re-ask what they "
+                "just told you. The body must NOT be empty even if every "
+                "item is excluded.\n")
         else:
             pending_block = (
                 "\nUNANSWERED CLIENT MESSAGE — the newest message in this thread "
@@ -1413,11 +1610,10 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
                 "and will get back to them shortly (never invent an answer). If "
                 "the message is angry or a complaint, keep it short, acknowledge "
                 "it, and say Santino will reach out personally; never argue. "
-                "After responding you may weave in AT MOST one outstanding item, "
-                "and only if it flows naturally; skip the items entirely when "
-                "the response deserves the whole message. Because a reply is "
-                "owed, the body must NOT be empty even if every item is "
-                "excluded.\n")
+                "Do NOT add any outstanding item or extra ask to this "
+                "message — responding to them is its one purpose; asks wait "
+                "for their own later message. Because a reply is owed, the "
+                "body must NOT be empty even if every item is excluded.\n")
     commit_block = ""
     if commitment:
         commit_block = (
@@ -1434,9 +1630,10 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
             "(struggles with 'how do I' tasks), do NOT attempt a text "
             "walkthrough: after that one question, recommend a short "
             "meeting to do it together and propose times. Do not "
-            "promise again, do not say you'll follow up later, and never "
-            "make a new promise this pipeline won't deliver. The body must "
-            "NOT be empty.\n")
+            "promise again, do not say you'll follow up later, never make "
+            "a new promise this pipeline won't deliver, and do NOT stack "
+            "any other ask onto this message — delivering the promise is "
+            "its one purpose. The body must NOT be empty.\n")
     # "Today" must be the CLIENT's calendar date — UTC rolls over at 5pm PT
     # and would make an evening compose reference "tomorrow" off by one.
     from zoneinfo import ZoneInfo
@@ -1482,6 +1679,7 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
             f"{lsa_line}\n"
             f"Channel: {channel} (character budget for SMS: {stated_budget})\n"
             f"FIRST CONTACT: {'yes' if first_contact else 'no'}\n"
+            + name_line
             + sister_block
             + (f"Intro line to open with, exactly: \"{intro}\"\n"
                if first_contact else "")
@@ -1602,6 +1800,9 @@ def cmd_compose(args) -> int:
             # outrank the primary's nice-to-haves (All Pro sat unconnected
             # while Angie got a YouTube ask, 2026-07-30).
             items.sort(key=ask_rank)
+    # ALREADY-HAVE CHECK: auto-close asks for things the asset library
+    # already holds; defer GBP asks while the listing is suspended.
+    items = filter_already_satisfied(company, items, dry_run=not args.send)
     # NOTE: zero outstanding items no longer returns here — an unanswered
     # client message (pending_client_message below) still deserves a reply.
     contact = resolve_contact(company)
@@ -1849,6 +2050,13 @@ def cmd_compose(args) -> int:
     if not contact:
         print("\nSEND REFUSED: no GHL contact resolved", file=sys.stderr)
         return 1
+    # Hard duplicate guard (Santino 2026-08-02: two team-photo asks landed
+    # one minute apart): never send a message that near-repeats our own
+    # recent last outbound, whatever path drafted it.
+    dup = repeats_last_outbound(draft["body"], history)
+    if dup:
+        print(f"\nSEND REFUSED (duplicate guard): {dup}", file=sys.stderr)
+        return 0
     try:
         result = send_message(contact, args.channel, draft["body"],
                               draft["subject"])
@@ -2049,6 +2257,15 @@ suggest a screenshot). For a non-technical client (Santino 2026-08-02:
 "someone like Todd, definitely just recommend a meeting"), the next move
 after that one question is a short meeting to do it together — propose
 times, don't text a multi-step walkthrough at them.
+Conversation rules for suggested_reply (Santino 2026-08-02):
+- Mid-conversation, so do NOT open with their name; start with content
+  ("Got it...", "No problem..."). Names at most once per day of thread.
+- At most ONE question; never stack a second ask onto the reply.
+- ACKNOWLEDGE FORWARD, never echo their message back as a summary ("got
+  it, you'll grab a photo when you're back" is banned; "Thanks, definitely
+  send those over when you get back into town" is the model).
+- If the client COMMITTED to do something later, the whole reply is that
+  warm forward-pointing close, nothing else.
 Only promise a follow-up when the answer genuinely needs research we
 cannot do in this text, and say specifically what you will come back with.
 When response_needed is "answer" and the open items / history / intel
@@ -2076,14 +2293,24 @@ escalate true with a reason instead."""
 REPLY_SYSTEM = """\
 You are Monica from Santino's team at Restoration AI, replying after a
 client answered something. Voice: warm, brief, human. NEVER use em dashes or en
-dashes; use a comma or a period instead. Thank them, confirm
-what you recorded (one clause), then advance: ask ONE next question if any
-remain — the highest-priority open item provided. When the natural next
-step after their answer is hands-on (exporting a list, account settings)
-and the client reads non-technical, propose a short call to do it together
-instead of text steps (Santino 2026-08-02). If nothing remains, close
-warmly ("that's everything we needed"). SMS-length: <= 450 chars. No
-emojis. Return ONLY JSON: {"body": string}."""
+dashes; use a comma or a period instead.
+- This is mid-conversation: do NOT open with their name ("Hey Todd," /
+  "Thanks, Todd,") — start with content: "Got it...", "Sounds good...",
+  "Perfect..." (Santino 2026-08-02: names at most once per day).
+- ACKNOWLEDGE FORWARD, never echo: never restate what they said as a
+  summary ("got it, you'll grab a photo when you're back"). Point forward:
+  "Thanks, definitely send those over when you get back into town."
+- If they COMMITTED to do something later ("I'll get the photo when I'm
+  back"), the ENTIRE reply is that warm forward-pointing close. No next
+  question, no extra ask.
+- Otherwise advance with at most ONE next question — the single
+  highest-priority open item provided, nothing stacked on. When the
+  natural next step after their answer is hands-on (exporting a list,
+  account settings) and the client reads non-technical, propose a short
+  call to do it together instead of text steps (Santino 2026-08-02).
+- If nothing remains, close warmly ("that's everything we needed").
+SMS-length: <= 450 chars. No emojis.
+Return ONLY JSON: {"body": string}."""
 
 
 def _tracked_contacts(state: dict) -> dict[str, str]:
@@ -2644,16 +2871,20 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
     engine behind the 5-min poll (cmd_inbound) and the instant webhook
     (webhook_inbound). EVERY message gets one full classify+analysis call
     (Santino's spec 2026-08-02: does it need a response, does it need
-    escalation, what should the response be) and the ack path sends the
-    analysis's suggested reply.
+    escalation, what should the response be) — but the burst is answered as
+    ONE CONVERSATIONAL TURN: analysis + answer extraction run per message
+    (phase 1, no sends), then exactly one outbound decision covers the
+    whole batch (phase 2). Before this, "Blue like water" and "And white"
+    seconds apart each got their own ack+question — two near-duplicate
+    texts back to back (2026-08-02 16:12).
 
     compose_next=True is the webhook path: an immediate compose for this
-    company follows, so needs-answer messages skip the holding ack (the
-    real answer arrives seconds later — no "let me check" followed by the
-    answer 30 seconds after). Messages are deduped across entry points via
-    the handled-ids ledger; each id is recorded BEFORE processing so a
-    mid-message crash can never storm (the 07-31 lesson: prefer losing one
-    reply over resending forever).
+    company follows, so anything owed (answer follow-through, question) is
+    left to it — no thin inline reply plus a second text seconds later.
+    Messages are deduped across entry points via the handled-ids ledger;
+    each id is recorded BEFORE processing so a mid-message crash can never
+    storm (the 07-31 lesson: prefer losing one reply over resending
+    forever).
 
     Returns {"processed", "matched", "awaiting", "escalated"}."""
     company_id = company["id"]
@@ -2687,6 +2918,11 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
         cs_reset["nudge_count"] = 0
         cs_reset.pop("max_nudges_escalated", None)
         print(f"  [cadence] client replied — nudge counter reset")
+    # ---- phase 1: per-message analysis + answer extraction. NO sends here;
+    # everything response-worthy accumulates into `turn` for one decision.
+    turn = {"bodies": [], "matched": set(), "intel": set(),
+            "needs_answer": False, "needs_santino": False, "negative": False,
+            "suggested": None, "last_msg": None}
     for msg in msgs:
         out["processed"] += 1
         _record_handled(state, msg["id"])
@@ -2749,15 +2985,15 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
             else:
                 resolve_plan_row(it["id"], dry_run)
         out["matched"] += len(matched_ids)
+        turn["matched"] |= matched_ids
         # Items meeting intel marks answered / in progress client-side:
         # never re-asked in the follow-up; escalated for human backfill.
-        intel_ids = set()
         for flag in result.get("intel_resolved") or []:
             it = next((i for i in open_items
                        if i["id"] == flag.get("item_id")), None)
             if not it:
                 continue
-            intel_ids.add(it["id"])
+            turn["intel"].add(it["id"])
             if not intel_flag_once(state, it["id"]):
                 continue
             reason = (f"meeting intel says answered/in progress: "
@@ -2787,6 +3023,13 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
                         or "?" in (msg["body"] or ""))
         needs_santino = (bool(result.get("needs_santino"))
                          or resp_need == "answer_by_boss")
+        turn["bodies"].append(msg["body"][:300])
+        turn["last_msg"] = msg
+        turn["negative"] = turn["negative"] or negative
+        turn["needs_answer"] = turn["needs_answer"] or needs_answer
+        turn["needs_santino"] = turn["needs_santino"] or needs_santino
+        if suggested:
+            turn["suggested"] = suggested   # newest message's draft wins
         if (result.get("escalate") or negative
                 or not result.get("matches")):
             reason = result.get("escalate_reason") or (
@@ -2799,91 +3042,101 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
             # via the morning digest (policy 2026-08-02).
             append_escalation(company, msg, reason, dry_run,
                               ping=negative or needs_santino)
-            # ACKNOWLEDGE (Santino 2026-07-30: "she should always just
-            # acknowledge their answer as concisely as possible"). The
-            # matched path sends a real reply; this path used to send
-            # NOTHING — Todd's pricing question sat in silence for a day.
-            if not matched_ids and not negative:
-                if compose_next and needs_answer:
-                    print("    [holding ack skipped — immediate compose "
-                          "follows with the real answer]")
-                else:
-                    _maybe_send_ack(state, company, contact_id, msg,
-                                    contact_payload, do_send, dry_run,
-                                    history=history,
-                                    needs_answer=needs_answer,
-                                    needs_santino=needs_santino,
-                                    suggested=suggested)
-                if needs_answer:
-                    # The REAL answer comes from the next compose
-                    # pass: awaiting_reply bypasses its cooldown and
-                    # survives the holding ack sitting newest in the
-                    # thread (Todd's suspension question, 2026-08-02).
-                    cs_reset["awaiting_reply"] = {
-                        "body": msg["body"][:400],
-                        "at": msg["ts"].isoformat(),
-                        "channel": msg["channel"],
-                        "kind": "question"}
-                    out["awaiting"] = True
-                    print("    [awaiting_reply set — next compose "
-                          "answers this, cooldown bypassed]")
-        if matched_ids:
-            # ANSWER FOLLOW-THROUGH (Santino 2026-08-02: Todd's "Invoices2Go"
-            # answered OUR question and got silence): when a client answers
-            # us we owe acknowledge + the next step immediately. Flag the
-            # thread as owed BEFORE any send attempt, so the immediate
-            # webhook compose — or the next scheduled one as backstop —
-            # delivers the follow-through even if the inline reply below is
-            # skipped, hours-gated or blocked. kind="answer" flags are
-            # voided by ANY newer outbound, ours included (see
-            # pending_client_message): once something advanced the thread,
-            # never double-send.
-            cs_reset["awaiting_reply"] = {
-                "body": msg["body"][:400],
-                "at": msg["ts"].isoformat(),
-                "channel": msg["channel"],
-                "kind": "answer"}
-            out["awaiting"] = True
-            if compose_next:
-                # Webhook path: the immediate compose that follows has the
-                # full context (intel, ops notes, the meeting-not-walkthrough
-                # policy) — let it write ONE proper follow-through instead of
-                # a thin inline confirmation plus a second text seconds later.
-                print("    [inline confirmation skipped — immediate compose "
-                      "delivers the follow-through]")
-                continue
-            remaining = [i for i in open_items
-                         if i["id"] not in matched_ids
-                         and i["id"] not in intel_ids]
-            nxt = (f"Next open item to ask: {remaining[0]['text']}"
-                   if remaining else "No items remain.")
-            reply = anthropic_json(
-                REPLY_SYSTEM,
-                f"Client first name: "
-                f"{contact_first_name(None, company)}\n"
-                f"They just answered: {msg['body'][:400]}\n{nxt}")
-            print(f"    reply draft: {reply.get('body', '')!r}")
-            if do_send:
-                # Business hours enforced on EVERY send path (client's
-                # local tz). Phase 1: refuse + flag, no queue.
-                hours_reason = business_hours_check(company, contact_payload)
-                if hours_reason:
-                    print(f"    SEND FLAGGED: {hours_reason} — reply not "
-                          f"sent this cycle")
-                    append_escalation(company, msg, hours_reason, dry_run)
-                    continue
-                target = messaging_target(company)
-                contact = {"id": contact_id,
-                           "phone": target.get("cell") or company.get("phone"),
-                           "email": target.get("email") or company.get("email")}
-                try:
-                    sent = send_message(contact, msg["channel"],
-                                        reply.get("body", ""))
-                    record_sent_message(state, sent)
-                    # a real reply went out — nothing pending anymore
+
+    # ---- phase 2: ONE outbound decision for the whole turn.
+    if not turn["last_msg"]:
+        return out
+    combined = " / ".join(turn["bodies"])[:400]
+    stamp_at = turn["last_msg"]["ts"].isoformat()
+    channel = turn["last_msg"]["channel"]
+    if turn["matched"]:
+        # ANSWER FOLLOW-THROUGH (Santino 2026-08-02: Todd's "Invoices2Go"
+        # answered OUR question and got silence): when a client answers us
+        # we owe acknowledge + the next step. Flag the thread as owed BEFORE
+        # any send attempt so the immediate webhook compose — or the next
+        # scheduled one as backstop — delivers even if the inline reply is
+        # skipped, hours-gated or blocked. kind stays "question" when the
+        # burst ALSO asked something (question flags survive our own
+        # outbounds; answer flags are voided by any newer outbound).
+        kind = "question" if turn["needs_answer"] else "answer"
+        cs_reset["awaiting_reply"] = {"body": combined, "at": stamp_at,
+                                      "channel": channel, "kind": kind}
+        out["awaiting"] = True
+        if compose_next:
+            # Webhook path: the immediate compose that follows has the full
+            # context (intel, ops notes, the meeting-not-walkthrough policy)
+            # — let it write ONE proper follow-through.
+            print("    [inline confirmation skipped — immediate compose "
+                  "delivers the follow-through]")
+            return out
+        remaining = [i for i in open_items
+                     if i["id"] not in turn["matched"]
+                     and i["id"] not in turn["intel"]]
+        nxt = (f"Next open item to ask: {remaining[0]['text']}"
+               if remaining else "No items remain.")
+        reply = anthropic_json(
+            REPLY_SYSTEM,
+            f"Client first name: {contact_first_name(None, company)}\n"
+            f"They just said (one burst, oldest first): {combined}\n{nxt}")
+        body_out = (reply.get("body") or "").strip()
+        print(f"    reply draft: {body_out!r}")
+        if do_send and body_out:
+            # Business hours enforced on EVERY send path (client's local
+            # tz). Phase 1 of the rollout: refuse + flag, no queue.
+            hours_reason = business_hours_check(company, contact_payload)
+            if hours_reason:
+                print(f"    SEND FLAGGED: {hours_reason} — reply not "
+                      f"sent this cycle")
+                append_escalation(company, turn["last_msg"], hours_reason,
+                                  dry_run)
+                return out
+            dup = repeats_last_outbound(body_out, history)
+            if dup:
+                print(f"    SEND SKIPPED: {dup} — the compose backstop "
+                      "carries the follow-through")
+                return out
+            target = messaging_target(company)
+            contact = {"id": contact_id,
+                       "phone": target.get("cell") or company.get("phone"),
+                       "email": target.get("email") or company.get("email")}
+            try:
+                sent = send_message(contact, channel, body_out)
+                record_sent_message(state, sent)
+                if kind == "answer":
+                    # the follow-through went out — nothing pending. A
+                    # question in the burst keeps its flag: this thin
+                    # confirmation didn't answer it; compose will.
                     cs_reset.pop("awaiting_reply", None)
-                except SendBlocked as e:
-                    print(f"    SEND BLOCKED: {e}")
+            except SendBlocked as e:
+                print(f"    SEND BLOCKED: {e}")
+        return out
+    if turn["negative"]:
+        return out   # escalated to Santino above; a human takes it from here
+    if turn["needs_answer"]:
+        cs_reset["awaiting_reply"] = {"body": combined, "at": stamp_at,
+                                      "channel": channel, "kind": "question"}
+        out["awaiting"] = True
+        print("    [awaiting_reply set — next compose answers this, "
+              "cooldown bypassed]")
+        if compose_next:
+            print("    [holding ack skipped — immediate compose follows "
+                  "with the real answer]")
+            return out
+        _maybe_send_ack(state, company, contact_id,
+                        {"body": combined, "channel": channel},
+                        contact_payload, do_send, dry_run, history=history,
+                        needs_answer=True,
+                        needs_santino=turn["needs_santino"],
+                        suggested=turn["suggested"])
+        return out
+    # Plain statement(s): one warm ack for the whole burst (webhook path
+    # included — the compose that follows only carries owed replies, and a
+    # statement's ack IS the whole response).
+    _maybe_send_ack(state, company, contact_id,
+                    {"body": combined, "channel": channel},
+                    contact_payload, do_send, dry_run, history=history,
+                    needs_answer=False, needs_santino=False,
+                    suggested=turn["suggested"])
     return out
 
 
@@ -2917,6 +3170,28 @@ def webhook_inbound(contact_id: str, do_send: bool = True) -> dict:
         # via the API — one short retry before giving up.
         time.sleep(5)
         msgs = fetch_inbound_since(contact_id, since)
+    # DEBOUNCE (Santino 2026-08-02: "Blue like water" + "And white" seconds
+    # apart each got their own reply). People text in bursts — wait for a
+    # quiet window and fold whatever arrives into ONE conversational turn.
+    # The per-contact lock in the API serializes the burst's other webhook
+    # events; they find everything already in the handled ledger and no-op.
+    handled_now = set(state.get("handled_msg_ids") or [])
+    deadline = time.time() + INBOUND_DEBOUNCE_MAX_S
+    while msgs and time.time() < deadline:
+        fresh = [m for m in msgs if m["id"] not in handled_now]
+        if not fresh:
+            break
+        age = (datetime.now(timezone.utc)
+               - max(m["ts"] for m in fresh)).total_seconds()
+        if age >= INBOUND_QUIET_WINDOW_S:
+            break
+        wait = min(INBOUND_QUIET_WINDOW_S - age + 3, deadline - time.time())
+        if dry_run:
+            print(f"[webhook] [dry-run] would debounce {wait:.0f}s "
+                  "(burst still warm) then re-fetch")
+            break
+        time.sleep(max(wait, 1))
+        msgs = fetch_inbound_since(contact_id, since)
     print(f"[webhook] {company.get('name')}: {len(msgs)} new message(s) "
           f"since cursor{' [DRY RUN — no writes, no sends]' if dry_run else ''}")
     summary = process_inbound_messages(state, company, contact_id, msgs,
@@ -2925,7 +3200,11 @@ def webhook_inbound(contact_id: str, do_send: bool = True) -> dict:
     # must see awaiting_reply / handled ids / commitments from this pass.
     save_state(state, dry_run)
     composed = False
-    if summary["processed"]:
+    # Compose only when the turn left something OWED (answer follow-through
+    # or a question). For plain statements the single ack above IS the whole
+    # response — composing too would race the just-sent ack in the thread
+    # and risk a second text. Negative sentiment goes to a human.
+    if summary["awaiting"]:
         sub = argparse.Namespace(all=False, company=company_id,
                                  merge_with=None, channel="sms", send=do_send)
         try:
@@ -3076,14 +3355,22 @@ for getting back to me" is banned). Respond to what they actually SAID:
   that unblocks them ("where do your customers live today, phone contacts,
   a spreadsheet, an invoicing app? Even a screenshot works") instead of
   promising future help.
-- A plain statement or update: thank them naturally, referencing what they
-  said in a few words.
+- A plain statement or update: thank them naturally. ACKNOWLEDGE FORWARD,
+  never echo: never restate their message back as a summary ("got it,
+  you'll grab a photo when you're back" is banned); point at what happens
+  next ("Thanks, definitely send those over when you get back into town").
+  If they committed to do something later, that warm forward close IS the
+  whole text — never stack an ask onto it.
+This is mid-conversation: do NOT open with their name (names at most once
+per day of thread — Santino 2026-08-02); start with content ("Got it...",
+"No problem...", "Sounds good...").
 Do NOT attempt to answer the question here (you don't have the answer yet),
 do not promise dates, and only mention checking with Santino when the input
 says the boss must decide. NEVER promise anything that will not actually
 happen on its own ("I'll walk you through it" is banned unless this very
-text starts the walk-through). One or two short sentences, under 220
-characters. Return ONLY JSON: {"body": string}."""
+text starts the walk-through). At most ONE question in the text. One or two
+short sentences, under 220 characters.
+Return ONLY JSON: {"body": string}."""
 
 # COMMITMENT FOLLOW-THROUGH (Santino 2026-08-02: the ack drafted "I'll walk
 # you through it" and nobody ever walked him through anything). Any promise
@@ -3162,6 +3449,10 @@ def _maybe_send_ack(state: dict, company: dict, contact_id: str, msg: dict,
         text = ("Let me look into that and get right back to you."
                 if needs_answer else "Got it, thank you.")
     print(f"    ack draft: {text!r}")
+    dup = repeats_last_outbound(text, history or [])
+    if dup:
+        print(f"    [ack skipped: {dup}]")
+        return
     if not do_send:
         _record_commitment(cs, text, body, dry_run=True)
         return
