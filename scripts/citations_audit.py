@@ -304,8 +304,23 @@ def audit(slug: str, dry_run: bool = False) -> str:
                                             "generated_at": datetime.now(timezone.utc).isoformat()}}})
     found = sum(1 for r in results.values() if r.get("status") in ("found", "discrepancy"))
     disc = sum(1 for r in results.values() if r.get("status") == "discrepancy")
+    missing = sum(1 for r in results.values() if r.get("status") == "missing")
     lines.append(f"  -> {found}/{len(PLATFORMS)} found, {disc} discrepancy(ies)"
                  + (" [dry-run, not saved]" if dry_run else " [saved to app]"))
+    if not dry_run:
+        # Work ledger (fail-open): one audit-run line item per client.
+        from work_log import work_log
+        detail = (f"Directory listings audit across {len(PLATFORMS)} major "
+                  f"platforms: {found} listing(s) found, {missing} still to "
+                  f"build")
+        detail += (f", {disc} with mismatched details flagged for correction."
+                   if disc else ".")
+        work_log(cid, "citations", "audit-run", detail,
+                 evidence={"slug": slug, "found": found, "missing": missing,
+                           "discrepancies": disc,
+                           "platforms": {k: r.get("status")
+                                         for k, r in results.items()}},
+                 source="citations_audit.py")
     return "\n".join(lines)
 
 

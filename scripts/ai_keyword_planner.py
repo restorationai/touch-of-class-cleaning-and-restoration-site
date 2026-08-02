@@ -202,6 +202,19 @@ def build(slug: str, write: bool, sb=None) -> None:
         added += 1
     print(f"\nwrote {added} new opportunities to the Action Plan ({len(existing)} items already existed).")
 
+    # Work ledger (fail-open): one run-summary line item per client per
+    # research pass — the Action Plan rows above are recommendations, not a
+    # record that the research itself happened.
+    from work_log import work_log
+    work_log(cid, "keyword-research", "ai-demand-refresh",
+             f"Keyword research refresh: {len(opps)} keywords analyzed for AI "
+             f"search demand; {added} new high-opportunity topic(s) added to "
+             f"the marketing plan.",
+             evidence={"slug": slug, "keywords_analyzed": len(opps),
+                       "opportunities_added": added,
+                       "top_keyword": ranked[0][0] if ranked else None},
+             source="ai_keyword_planner.py")
+
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Demand-driven AI-search keyword planner")

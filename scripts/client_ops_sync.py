@@ -996,16 +996,13 @@ def run(since_override: str | None, dry_run: bool, do_send: bool) -> int:
           f"{' [DRY RUN]' if dry_run else ''}")
 
     ensure_bootstrapped(dry_run, do_send, cid_to_slug)
-    for ln in ensure_google_connect_asks(dry_run, cid_to_slug):
-        print("  " + ln)
-    for ln in ensure_gbp_first_sync(dry_run, cid_to_slug):
-        print("  " + ln)
-    for ln in ensure_baseline_scans(dry_run, cid_to_slug):
-        print("  " + ln)
-    for ln in ensure_ads_first_sync(dry_run, cid_to_slug):
-        print("  " + ln)
-    for ln in ensure_setup_checklist(dry_run, cid_to_slug):
-        print("  " + ln)
+    sweep_lines: list[str] = []   # "{slug}: what happened" from every pass
+    for fn in (ensure_google_connect_asks, ensure_gbp_first_sync,
+               ensure_baseline_scans, ensure_ads_first_sync,
+               ensure_setup_checklist):
+        for ln in fn(dry_run, cid_to_slug):
+            print("  " + ln)
+            sweep_lines.append(ln)
     # Setup ledger — the overseer: derives per-client setup state, auto-heals
     # GSC/IndexNow on live sites, and returns the us-owed attention list
     # (fed into the digest's "Needs Santino/Claude" sections below).
@@ -1017,6 +1014,40 @@ def run(since_override: str | None, dry_run: bool, do_send: bool) -> int:
         ledger_lines = [f"(ledger) errored: {str(e)[:120]}"]
     for ln in ledger_lines:
         print("  LEDGER: " + ln)
+    sweep_lines += ledger_lines
+
+    # Work ledger (fail-open): one 'routine' line item per ACTIVE client per
+    # sweep — the nightly checks are documented work even on quiet nights
+    # (Santino 2026-08-01: every movement recorded as a line item).
+    if not dry_run:
+        try:
+            from work_log import work_log
+            by_slug: dict[str, list[str]] = {}
+            for ln in sweep_lines:
+                label, _, rest = ln.partition(": ")
+                if rest:
+                    by_slug.setdefault(label.strip(), []).append(rest.strip())
+            for cid, slug in sorted(cid_to_slug.items()):
+                try:
+                    rec = json.loads((ROOT / "clients" / f"{slug}.json").read_text())
+                except Exception:
+                    rec = {}
+                if rec.get("status") != "active":
+                    continue
+                healed = by_slug.get(slug, [])
+                detail = ("Nightly account review: checked Google connection, "
+                          "business-listing sync, rank tracking, ads data, and "
+                          "the setup checklist.")
+                if healed:
+                    detail += (f" {len(healed)} item(s) automatically "
+                               "actioned or flagged.")
+                else:
+                    detail += " Everything current — no fixes needed."
+                work_log(cid, "routine", "nightly-sweep", detail,
+                         evidence={"slug": slug, "actions": healed[:12]},
+                         source="client_ops_sync.py")
+        except Exception as e:  # noqa: BLE001 — ledger never blocks the sweep
+            print(f"  [work-log] warn: {str(e)[:100]}")
 
     intake = [i for i in fetch_answered_intake(since)
               if i["id"] not in state["processed_intake_ids"]]

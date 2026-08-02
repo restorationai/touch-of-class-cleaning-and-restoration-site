@@ -40,6 +40,7 @@ import requests  # Supabase storage list (urllib is WAF-blocked on supabase.co)
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import verticals  # noqa: E402 — per-client vertical → template resolution (fail-loud)
+from work_log import company_id_for_slug, work_log  # noqa: E402 — fail-open ledger
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CLIENTS_DIR = REPO_ROOT / "clients"
@@ -1480,6 +1481,15 @@ def cmd_scaffold(args) -> int:
     client["updated_at"] = now_iso()
     save_json(CLIENTS_DIR / f"{slug}.json", client)
 
+    work_log(
+        client.get("company_id") or company_id_for_slug(slug), "site",
+        "preview-built",
+        f"Built the first working preview of the new website — "
+        f"{len(url_plan['pages'])} pages scaffolded and pushed for review.",
+        evidence={"slug": slug, "github_repo": f"{GH_OWNER}/{repo_name}",
+                  "pages_project": project_name, "url_count": len(url_plan["pages"])},
+        source="build_site.py scaffold")
+
     print()
     print("==> Scaffold complete.")
     print(f"    Local working tree: {site_dir}")
@@ -1641,6 +1651,27 @@ def cmd_sync_deploy(args) -> int:
             client["build_status"] = "pushed_staging"
         client["updated_at"] = now_iso()
         save_json(rec_path, client)
+
+    # Work ledger (fail-open). Production pushes vastly outnumber first-time
+    # launches — the detail reads correctly for both ("updated and deployed").
+    _client_rec = load_json(rec_path) if rec_path.exists() else {}
+    _cid = _client_rec.get("company_id") or company_id_for_slug(slug)
+    _domain = (_client_rec.get("domain") or "").strip()
+    if branch == "main":
+        _live = f"https://{_domain}/" if _domain else f"https://rankai-{slug}.pages.dev/"
+        work_log(_cid, "site", "production-deploy",
+                 f"Website updated and deployed to production ({_live}).",
+                 evidence={"slug": slug, "branch": branch,
+                           "github_repo": f"{GH_OWNER}/{client_repo}", "url": _live},
+                 source="build_site.py sync-deploy")
+    else:
+        work_log(_cid, "site", "staging-deploy",
+                 "Updated website pushed to the staging preview for review "
+                 "before going live.",
+                 evidence={"slug": slug, "branch": branch,
+                           "github_repo": f"{GH_OWNER}/{client_repo}",
+                           "url": f"https://staging.rankai-{slug}.pages.dev/"},
+                 source="build_site.py sync-deploy")
 
     print()
     print("==> Sync complete.")

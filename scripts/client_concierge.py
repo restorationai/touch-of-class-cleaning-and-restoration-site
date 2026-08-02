@@ -1652,6 +1652,20 @@ def cmd_compose(args) -> int:
         print(f"\nSEND BLOCKED: {e}", file=sys.stderr)
         return 1
     record_sent_message(state, result)
+    # Work ledger (fail-open): one line item per DELIVERED message — logged
+    # only after send_message() returned, never on drafts/blocked sends.
+    try:
+        from work_log import work_log
+        verb = "Texted" if args.channel == "sms" else "Emailed"
+        work_log(company["id"], "outreach",
+                 f"{args.channel}-sent",
+                 f"{verb} {first}: {draft['body'][:80]}",
+                 evidence={"channel": args.channel,
+                           "ghl_contact_id": contact["id"],
+                           "chars": len(draft["body"])},
+                 actor="monica", source="client_concierge.py compose")
+    except Exception as e:  # noqa: BLE001 — ledger must never fail the send path
+        print(f"  [work-log] warn: {str(e)[:100]}")
     now = datetime.now(timezone.utc).isoformat()
     cs.update({"ghl_contact_id": contact["id"],
                "last_contacted": now,
