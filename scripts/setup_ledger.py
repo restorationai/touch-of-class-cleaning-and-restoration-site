@@ -605,9 +605,13 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                         "yellowpages": "YellowPages"}
                 # Split mirrors the app's owner badges: us = no owner identity
                 # needed; client = owner claim / phone verification required.
+                # Porch removed from us_create 2026-08-02: recon found Porch
+                # killed self-serve pro signup entirely (insurance pivot; all
+                # signup URLs 404, listing requires contacting Pro Support) —
+                # a card must never demand an impossible action. Presence on
+                # Porch is still AUDITED; legacy listings just can't be built.
                 us_create = [_lbl[k] for k in ("bing_places", "apple_maps", "bbb",
-                                               "expertise", "houzz", "porch",
-                                               "homeguide")
+                                               "expertise", "houzz", "homeguide")
                              if k in _missing]
                 client_create = [_lbl[k] for k in ("yelp", "facebook", "thumbtack",
                                                    "angi", "nextdoor", "yellowpages")
