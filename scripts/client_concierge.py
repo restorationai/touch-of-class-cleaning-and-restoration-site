@@ -117,6 +117,13 @@ Env (rank-ai/.env or CI secrets):
                                               are not accepted on this model,
                                               so determinism is prompt-driven)
     CONCIERGE_ALLOWLIST                       canary gate (default EMPTY)
+    CONCIERGE_WEBHOOK_SECRET                  shared secret for the Railway
+                                              POST /concierge-inbound webhook
+                                              (instant inbound: GHL fires it
+                                              the moment a client responds ->
+                                              webhook_inbound() analyzes +
+                                              replies immediately; falls back
+                                              to LEAD_AUDIT_FUNNEL_SECRET)
     CONCIERGE_FROM_NUMBER                     SMS sender number. The assistant
                                               identity is the location TOLL-FREE
                                               +18556484464; the 805 local number
@@ -1296,7 +1303,8 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
                   intel: str | None = None,
                   appointments: str | None = None,
                   sister_names: list[str] | None = None,
-                  pending_reply: str | None = None) -> dict:
+                  pending_reply: str | None = None,
+                  commitment: dict | None = None) -> dict:
     chosen = items[:FIRST_CONTACT_MAX_ITEMS if first_contact
                    else MAX_ITEMS_PER_MESSAGE]
     lines = []
@@ -1354,6 +1362,21 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
             "the response deserves the whole message. Because a reply is "
             "owed, the body must NOT be empty even if every item is "
             "excluded.\n")
+    commit_block = ""
+    if commitment:
+        commit_block = (
+            "\nOPEN COMMITMENT — Monica already told this client: "
+            f"\"{str(commitment.get('promise', ''))[:250]}\" (they had said: "
+            f"\"{str(commitment.get('context', ''))[:250]}\").\n"
+            "THIS message must deliver on that promise concretely: give the "
+            "actual steps or the actual answer, or ask the one concrete "
+            "question that unblocks them (for a customer list: where do "
+            "their customers live today, phone contacts, a spreadsheet, an "
+            "invoicing app? Even a screenshot of phone contacts works). If "
+            "it is genuinely hands-on, offer a quick call instead. Do not "
+            "promise again, do not say you'll follow up later, and never "
+            "make a new promise this pipeline won't deliver. The body must "
+            "NOT be empty.\n")
     # "Today" must be the CLIENT's calendar date — UTC rolls over at 5pm PT
     # and would make an evening compose reference "tomorrow" off by one.
     from zoneinfo import ZoneInfo
@@ -1406,6 +1429,7 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
             + intel_block
             + appt_block
             + pending_block
+            + commit_block
             + photo_block
             + f"Outstanding items (priority order, cover all of these and "
             f"nothing else):\n" + "\n".join(lines))
@@ -1570,7 +1594,25 @@ def cmd_compose(args) -> int:
     if pending:
         print(f"Client is waiting on a reply: {pending[:90]!r} "
               "(cooldown/nudge-cap bypassed — this send is a reply, not a nudge)")
-    if not items and not pending:
+    # OPEN COMMITMENT (Santino 2026-08-02: "I'll walk you through it" must
+    # actually happen): a promise made in an ack is owed like a reply —
+    # same bypass, and the draft is forced to deliver it. Expires at 7 days
+    # (by then the thread has moved on; don't dredge up stale promises).
+    commitment = cs.get("pending_commitment") or None
+    if commitment:
+        try:
+            stale = (datetime.now(timezone.utc)
+                     - datetime.fromisoformat(commitment.get("at", ""))).days >= 7
+        except ValueError:
+            stale = False
+        if stale:
+            cs.pop("pending_commitment", None)
+            commitment = None
+        else:
+            print(f"Open commitment to deliver: "
+                  f"{str(commitment.get('promise', ''))[:80]!r}")
+    owed = bool(pending or commitment)
+    if not items and not owed:
         print(f"{company['name']}: nothing outstanding — no message needed.")
         return 0
 
@@ -1590,7 +1632,7 @@ def cmd_compose(args) -> int:
     if args.send:
         gate = cadence_check(cs, company, contact,
                              boss_override=has_boss_directive(company.get("id")),
-                             client_waiting=bool(pending))
+                             client_waiting=owed)
         if gate:
             print(f"[gated, no draft: {gate}]")
             if "ESCALATE" in gate and not cs.get("max_nudges_escalated"):
@@ -1628,10 +1670,11 @@ def cmd_compose(args) -> int:
                 soon = appt_soonest
             else:
                 _blk, soon = fetch_upcoming_appointments(cid_, tz_name)
-            # A pending client message disarms this gate: it only stops
-            # NUDGES before a call — answering a question is not a nudge.
+            # A pending client message / open commitment disarms this gate:
+            # it only stops NUDGES before a call — answering a question or
+            # delivering a promise is not a nudge.
             if soon and (soon - datetime.now(timezone.utc)).days < 7 \
-                    and not pending:
+                    and not owed:
                 print("[gated, no draft: appointment within 7 days on this "
                       f"company's calendar ({soon.strftime('%Y-%m-%d %H:%M UTC')}"
                       f", contact {cid_}) — the call covers the open items; "
@@ -1688,7 +1731,8 @@ def cmd_compose(args) -> int:
             print(f"[ladder] escalation active — checklist card: {card_url}")
     draft = compose_draft(company, first, items, args.channel, first_contact,
                           history=history, intel=intel, appointments=appts,
-                          sister_names=sister_names, pending_reply=pending)
+                          sister_names=sister_names, pending_reply=pending,
+                          commitment=commitment)
     print("\n" + "=" * 62)
     if draft["subject"] and args.channel == "email":
         print(f"Subject: {draft['subject']}")
@@ -1736,7 +1780,7 @@ def cmd_compose(args) -> int:
 
     reason = cadence_check(cs, company, contact,
                            boss_override=has_boss_directive(company.get("id")),
-                           client_waiting=bool(pending))
+                           client_waiting=owed)
     if reason:
         print(f"\nSEND REFUSED (cadence): {reason}", file=sys.stderr)
         return 0
@@ -1765,7 +1809,8 @@ def cmd_compose(args) -> int:
     except Exception as e:  # noqa: BLE001 — ledger must never fail the send path
         print(f"  [work-log] warn: {str(e)[:100]}")
     now = datetime.now(timezone.utc).isoformat()
-    cs.pop("awaiting_reply", None)   # this send answered the client
+    cs.pop("awaiting_reply", None)       # this send answered the client
+    cs.pop("pending_commitment", None)   # and delivered what was promised
     cs.update({"ghl_contact_id": contact["id"],
                "last_contacted": now,
                "first_contacted": cs.get("first_contacted") or now,
@@ -1922,6 +1967,28 @@ strategy, complaints about our service, cancellation talk. How-to, setup,
 status and "why did X happen" questions are needs_answer WITHOUT
 needs_santino — the assistant handles those herself.
 
+FULL ANALYSIS — required for EVERY message, even pure acknowledgments
+(the boss's spec 2026-08-02: every inbound gets analyzed — does it need a
+response, does it need escalation, and what should the response be):
+"analysis": {
+  "summary": one plain line saying what the client is saying or needs,
+  "response_needed": "none" | "acknowledge" | "answer" | "answer_by_boss",
+  "suggested_reply": the exact reply Monica should send, or null when
+                     response_needed is "none"}
+suggested_reply rules — Monica's voice: warm, brief (under 300 characters),
+plain 6th-grade words, NEVER em or en dashes (use a comma or period), no
+emojis, no canned filler ("Perfect, thanks for getting back to me" is
+banned). Respond to what they SAID. When they are stuck ("I don't know how
+to..."), do the FIRST STEP of the walk-through right now: ask the one
+concrete question that unblocks them (customer list example: "where do your
+customers live today, phone contacts, a spreadsheet, an invoicing app? Even
+a screenshot of your phone contacts works") instead of promising future
+help. Only promise a follow-up when the answer genuinely needs research we
+cannot do in this text, and say specifically what you will come back with.
+When response_needed is "answer" and the open items / history / intel
+contain the answer, give it plainly; otherwise write a specific holding
+line. NEVER promise anything that will not actually happen.
+
 Return ONLY JSON:
 {"matches": [{"item_id": "<id from the list>", "value": "<extracted answer>",
               "answer_type": "license|yes_no|free_text|customer_list"}],
@@ -1929,6 +1996,9 @@ Return ONLY JSON:
  "ack": bool,
  "needs_answer": bool,
  "needs_santino": bool,
+ "analysis": {"summary": string,
+              "response_needed": "none|acknowledge|answer|answer_by_boss",
+              "suggested_reply": string|null},
  "reschedule": {"requested": bool, "preference": string}|null,
  "escalate": bool,
  "escalate_reason": string|null,
@@ -2484,6 +2554,292 @@ def handle_reschedule_reply(company: dict, contact: dict, msg: dict,
     return False
 
 
+# Shared ledger of processed inbound message ids. The 5-min poll and the
+# instant webhook (webhook_inbound) both read the same GHL threads — this,
+# not the poll's cursor, is what stops the second entry point from
+# re-replying to a message the first already handled.
+HANDLED_IDS_MAX = 400
+
+
+def _record_handled(state: dict, msg_id: str) -> None:
+    ids = state.setdefault("handled_msg_ids", [])
+    if msg_id and msg_id not in ids:
+        ids.append(msg_id)
+        del ids[:-HANDLED_IDS_MAX]   # bound the ledger, keep the newest
+
+
+def process_inbound_messages(state: dict, company: dict, contact_id: str,
+                             msgs: list[dict], do_send: bool, dry_run: bool,
+                             compose_next: bool = False) -> dict:
+    """Analyze + act on one contact's new inbound messages — the shared
+    engine behind the 5-min poll (cmd_inbound) and the instant webhook
+    (webhook_inbound). EVERY message gets one full classify+analysis call
+    (Santino's spec 2026-08-02: does it need a response, does it need
+    escalation, what should the response be) and the ack path sends the
+    analysis's suggested reply.
+
+    compose_next=True is the webhook path: an immediate compose for this
+    company follows, so needs-answer messages skip the holding ack (the
+    real answer arrives seconds later — no "let me check" followed by the
+    answer 30 seconds after). Messages are deduped across entry points via
+    the handled-ids ledger; each id is recorded BEFORE processing so a
+    mid-message crash can never storm (the 07-31 lesson: prefer losing one
+    reply over resending forever).
+
+    Returns {"processed", "matched", "awaiting", "escalated"}."""
+    company_id = company["id"]
+    out = {"processed": 0, "matched": 0, "awaiting": False, "escalated": 0}
+    handled = set(state.get("handled_msg_ids") or [])
+    msgs = [m for m in msgs if m["id"] not in handled]
+    if not msgs:
+        return out
+    open_items = gather_items(company_id)
+    # Last ~10 history messages disambiguate short replies ("yes",
+    # "the second one") against what was actually asked.
+    history = fetch_history(contact_id, max_msgs=CLASSIFY_HISTORY_MSGS)
+    history_block = (
+        f"\n\nRecent conversation history (newest first; 'them' = the "
+        f"client, 'us' = our side) — use it to disambiguate short "
+        f"replies:\n{format_history(history)}" if history else "")
+    intel = load_meeting_intel(company)
+    intel_block = (
+        f"\n\nMeeting intel (INTERNAL team notes — context only, never "
+        f"quote to the client):\n{intel}" if intel else "")
+    # Business-hours enforcement needs the contact's own timezone field.
+    contact_payload = None
+    if do_send:
+        try:
+            data = _ghl("GET", f"/contacts/{contact_id}")
+            contact_payload = (data or {}).get("contact") or data
+        except RuntimeError:
+            contact_payload = None
+    cs_reset = company_state(state, company_id)
+    if cs_reset.get("nudge_count"):
+        cs_reset["nudge_count"] = 0
+        cs_reset.pop("max_nudges_escalated", None)
+        print(f"  [cadence] client replied — nudge counter reset")
+    for msg in msgs:
+        out["processed"] += 1
+        _record_handled(state, msg["id"])
+        print(f"\n  {company['name']}: inbound {msg['channel']} "
+              f"{msg['ts'].strftime('%m-%d %H:%M')}: {msg['body'][:90]!r}")
+        if msg.get("attachments"):
+            media = ingest_inbound_media(company, msg, dry_run)
+            print(f"    [media] photos={media['photos']} "
+                  f"videos={media['videos']} "
+                  f"screenshots={media['screenshots']} "
+                  f"failed={media['failed']}")
+            if not msg["body"]:
+                if media["photos"] or media["videos"]:
+                    # Give the normal reply flow something to acknowledge
+                    # (marks photo intake items answered + thanks them).
+                    n = media["photos"] + media["videos"]
+                    msg["body"] = (
+                        f"(the client texted {n} photo(s)/video(s) with no "
+                        "message — they are already saved on our side; "
+                        "treat this as them sending the photos we asked "
+                        "for and thank them briefly)")
+                else:
+                    append_escalation(
+                        company, msg,
+                        "client texted a screenshot/attachment we could "
+                        "not auto-file — check the conversation", dry_run,
+                        ping=True)  # Monica can't handle it herself
+                    continue
+        contact_for_flow = contact_payload or {"id": contact_id}
+        if handle_reschedule_reply(company, contact_for_flow, msg,
+                                   state, dry_run):
+            continue
+        item_list = "\n".join(
+            f"- id={it['id']} kind={it['kind']} type={it['field_type']} "
+            f"q={it['text'][:110]!r}" for it in open_items) or "(none)"
+        result = anthropic_json(
+            CLASSIFY_SYSTEM,
+            f"Open items for {company['name']}:\n{item_list}"
+            f"{history_block}{intel_block}\n\n"
+            f"Inbound reply:\n{msg['body'][:1200]}")
+        # FULL ANALYSIS (every message): the single classify call also says
+        # whether a response is needed, who should answer, and drafts it.
+        analysis = result.get("analysis") or {}
+        resp_need = str(analysis.get("response_needed") or "").strip()
+        suggested = (str(analysis.get("suggested_reply") or "").strip()
+                     or None)
+        if analysis.get("summary"):
+            print(f"    analysis: {str(analysis['summary'])[:110]} "
+                  f"[response_needed={resp_need or '?'}]")
+        matched_ids = set()
+        for match in result.get("matches", []):
+            it = next((i for i in open_items if i["id"] == match.get("item_id")), None)
+            if not it:
+                continue
+            matched_ids.add(it["id"])
+            print(f"    matched [{match.get('answer_type')}] "
+                  f"{it['text'][:60]!r} -> {match.get('value')!r}")
+            if it["kind"] == "intake":
+                apply_answer(it["id"], str(match.get("value", "")), dry_run)
+            else:
+                resolve_plan_row(it["id"], dry_run)
+        out["matched"] += len(matched_ids)
+        # Items meeting intel marks answered / in progress client-side:
+        # never re-asked in the follow-up; escalated for human backfill.
+        intel_ids = set()
+        for flag in result.get("intel_resolved") or []:
+            it = next((i for i in open_items
+                       if i["id"] == flag.get("item_id")), None)
+            if not it:
+                continue
+            intel_ids.add(it["id"])
+            if not intel_flag_once(state, it["id"]):
+                continue
+            reason = (f"meeting intel says answered/in progress: "
+                      f"{it['text']} — "
+                      f"{flag.get('reason') or 'see meeting-intel notes'} "
+                      f"(excluded from follow-up nudges; verify + record "
+                      f"the answer)")
+            print(f"    INTEL: {reason}")
+            append_escalation(company, None, reason, dry_run)
+        if result.get("ack") or resp_need == "none":
+            print("    acknowledgment — no action, no escalation")
+            continue
+        resc = result.get("reschedule") or {}
+        if resc.get("requested"):
+            handle_reschedule_request(company, contact_for_flow,
+                                      resc.get("preference") or "",
+                                      state, dry_run)
+            continue
+        negative = result.get("sentiment") == "negative"
+        needs_answer = (bool(result.get("needs_answer"))
+                        or resp_need in ("answer", "answer_by_boss")
+                        or "?" in (msg["body"] or ""))
+        needs_santino = (bool(result.get("needs_santino"))
+                         or resp_need == "answer_by_boss")
+        if (result.get("escalate") or negative
+                or not result.get("matches")):
+            reason = result.get("escalate_reason") or (
+                "negative sentiment" if negative
+                else "no open item matched")
+            print(f"    ESCALATE: {reason}")
+            out["escalated"] += 1
+            # Text Santino ONLY for angry clients or questions only
+            # he can answer; routine unmatched chatter reaches him
+            # via the morning digest (policy 2026-08-02).
+            append_escalation(company, msg, reason, dry_run,
+                              ping=negative or needs_santino)
+            # ACKNOWLEDGE (Santino 2026-07-30: "she should always just
+            # acknowledge their answer as concisely as possible"). The
+            # matched path sends a real reply; this path used to send
+            # NOTHING — Todd's pricing question sat in silence for a day.
+            if not matched_ids and not negative:
+                if compose_next and needs_answer:
+                    print("    [holding ack skipped — immediate compose "
+                          "follows with the real answer]")
+                else:
+                    _maybe_send_ack(state, company, contact_id, msg,
+                                    contact_payload, do_send, dry_run,
+                                    history=history,
+                                    needs_answer=needs_answer,
+                                    needs_santino=needs_santino,
+                                    suggested=suggested)
+                if needs_answer:
+                    # The REAL answer comes from the next compose
+                    # pass: awaiting_reply bypasses its cooldown and
+                    # survives the holding ack sitting newest in the
+                    # thread (Todd's suspension question, 2026-08-02).
+                    cs_reset["awaiting_reply"] = {
+                        "body": msg["body"][:400],
+                        "at": msg["ts"].isoformat(),
+                        "channel": msg["channel"]}
+                    out["awaiting"] = True
+                    print("    [awaiting_reply set — next compose "
+                          "answers this, cooldown bypassed]")
+        if matched_ids:
+            remaining = [i for i in open_items
+                         if i["id"] not in matched_ids
+                         and i["id"] not in intel_ids]
+            nxt = (f"Next open item to ask: {remaining[0]['text']}"
+                   if remaining else "No items remain.")
+            reply = anthropic_json(
+                REPLY_SYSTEM,
+                f"Client first name: "
+                f"{contact_first_name(None, company)}\n"
+                f"They just answered: {msg['body'][:400]}\n{nxt}")
+            print(f"    reply draft: {reply.get('body', '')!r}")
+            if do_send:
+                # Business hours enforced on EVERY send path (client's
+                # local tz). Phase 1: refuse + flag, no queue.
+                hours_reason = business_hours_check(company, contact_payload)
+                if hours_reason:
+                    print(f"    SEND FLAGGED: {hours_reason} — reply not "
+                          f"sent this cycle")
+                    append_escalation(company, msg, hours_reason, dry_run)
+                    continue
+                target = messaging_target(company)
+                contact = {"id": contact_id,
+                           "phone": target.get("cell") or company.get("phone"),
+                           "email": target.get("email") or company.get("email")}
+                try:
+                    sent = send_message(contact, msg["channel"],
+                                        reply.get("body", ""))
+                    record_sent_message(state, sent)
+                    # a real reply went out — nothing pending anymore
+                    cs_reset.pop("awaiting_reply", None)
+                except SendBlocked as e:
+                    print(f"    SEND BLOCKED: {e}")
+    return out
+
+
+def webhook_inbound(contact_id: str, do_send: bool = True) -> dict:
+    """Instant inbound for ONE contact — the Railway POST /concierge-inbound
+    webhook (Santino 2026-08-02: GHL fires the moment a client responds; no
+    more waiting on the 5-min poll + hourly compose). Same engine as
+    cmd_inbound scoped to this contact, then an IMMEDIATE compose for the
+    company so a warranted reply goes out now. Every gate still applies —
+    business hours, canary allowlist, human-defer window, PAUSE switch —
+    and the client_waiting bypass covers the cooldown since the client just
+    spoke. Unknown contacts are ignored (server-side filter, so the GHL
+    workflow can fire on every inbound message; no tag required). The
+    poll's inbound_cursor is never touched here; dedupe against the poll is
+    the handled-ids ledger."""
+    dry_run = not do_send
+    state = load_state()
+    company_id = _tracked_contacts(state).get(contact_id)
+    if not company_id:
+        print(f"[webhook] contact {contact_id} is not tracked — ignoring")
+        return {"status": "ignored",
+                "reason": "contact not tracked by the concierge"}
+    company = (fetch_companies([company_id]).get(company_id)
+               or {"id": company_id, "name": company_id})
+    cursor = state.get("inbound_cursor")
+    since = (datetime.fromisoformat(cursor) if cursor
+             else datetime.now(timezone.utc) - timedelta(hours=48))
+    msgs = fetch_inbound_since(contact_id, since)
+    if not msgs:
+        # GHL sometimes fires the webhook before the message is readable
+        # via the API — one short retry before giving up.
+        time.sleep(5)
+        msgs = fetch_inbound_since(contact_id, since)
+    print(f"[webhook] {company.get('name')}: {len(msgs)} new message(s) "
+          f"since cursor{' [DRY RUN — no writes, no sends]' if dry_run else ''}")
+    summary = process_inbound_messages(state, company, contact_id, msgs,
+                                       do_send, dry_run, compose_next=True)
+    # Persist BEFORE composing: cmd_compose loads its own state copy and
+    # must see awaiting_reply / handled ids / commitments from this pass.
+    save_state(state, dry_run)
+    composed = False
+    if summary["processed"]:
+        sub = argparse.Namespace(all=False, company=company_id,
+                                 merge_with=None, channel="sms", send=do_send)
+        try:
+            cmd_compose(sub)
+            composed = True
+        except Exception as e:  # noqa: BLE001 — webhook must return a summary
+            print(f"[webhook] compose failed: {str(e)[:150]}")
+    flush_ops_pings(dry_run)
+    return {"status": "processed", "company_id": company_id,
+            "company": company.get("name"), **summary,
+            "compose_ran": composed}
+
+
 def cmd_inbound(args) -> int:
     if not args.poll:
         print("inbound: pass --poll", file=sys.stderr)
@@ -2529,178 +2885,9 @@ def cmd_inbound(args) -> int:
             msgs = fetch_inbound_since(contact_id, since)
             if not msgs:
                 continue
-            open_items = gather_items(company_id)
-            # Last ~10 history messages disambiguate short replies ("yes",
-            # "the second one") against what was actually asked.
-            history = fetch_history(contact_id, max_msgs=CLASSIFY_HISTORY_MSGS)
-            history_block = (
-                f"\n\nRecent conversation history (newest first; 'them' = the "
-                f"client, 'us' = our side) — use it to disambiguate short "
-                f"replies:\n{format_history(history)}" if history else "")
-            intel = load_meeting_intel(company)
-            intel_block = (
-                f"\n\nMeeting intel (INTERNAL team notes — context only, never "
-                f"quote to the client):\n{intel}" if intel else "")
-            # Business-hours enforcement needs the contact's own timezone field.
-            contact_payload = None
-            if args.send:
-                try:
-                    data = _ghl("GET", f"/contacts/{contact_id}")
-                    contact_payload = (data or {}).get("contact") or data
-                except RuntimeError:
-                    contact_payload = None
-            cs_reset = company_state(state, company_id)
-            if cs_reset.get("nudge_count"):
-                cs_reset["nudge_count"] = 0
-                cs_reset.pop("max_nudges_escalated", None)
-                print(f"  [cadence] client replied — nudge counter reset")
-            for msg in msgs:
-                handled_any = True
-                print(f"\n  {company['name']}: inbound {msg['channel']} "
-                      f"{msg['ts'].strftime('%m-%d %H:%M')}: {msg['body'][:90]!r}")
-                if msg.get("attachments"):
-                    media = ingest_inbound_media(company, msg, dry_run)
-                    print(f"    [media] photos={media['photos']} "
-                          f"videos={media['videos']} "
-                          f"screenshots={media['screenshots']} "
-                          f"failed={media['failed']}")
-                    if not msg["body"]:
-                        if media["photos"] or media["videos"]:
-                            # Give the normal reply flow something to acknowledge
-                            # (marks photo intake items answered + thanks them).
-                            n = media["photos"] + media["videos"]
-                            msg["body"] = (
-                                f"(the client texted {n} photo(s)/video(s) with no "
-                                "message — they are already saved on our side; "
-                                "treat this as them sending the photos we asked "
-                                "for and thank them briefly)")
-                        else:
-                            append_escalation(
-                                company, msg,
-                                "client texted a screenshot/attachment we could "
-                                "not auto-file — check the conversation", dry_run,
-                                ping=True)  # Monica can't handle it herself
-                            continue
-                contact_for_flow = contact_payload or {"id": contact_id}
-                if handle_reschedule_reply(company, contact_for_flow, msg,
-                                           state, dry_run):
-                    continue
-                item_list = "\n".join(
-                    f"- id={it['id']} kind={it['kind']} type={it['field_type']} "
-                    f"q={it['text'][:110]!r}" for it in open_items) or "(none)"
-                result = anthropic_json(
-                    CLASSIFY_SYSTEM,
-                    f"Open items for {company['name']}:\n{item_list}"
-                    f"{history_block}{intel_block}\n\n"
-                    f"Inbound reply:\n{msg['body'][:1200]}")
-                matched_ids = set()
-                for match in result.get("matches", []):
-                    it = next((i for i in open_items if i["id"] == match.get("item_id")), None)
-                    if not it:
-                        continue
-                    matched_ids.add(it["id"])
-                    print(f"    matched [{match.get('answer_type')}] "
-                          f"{it['text'][:60]!r} -> {match.get('value')!r}")
-                    if it["kind"] == "intake":
-                        apply_answer(it["id"], str(match.get("value", "")), dry_run)
-                    else:
-                        resolve_plan_row(it["id"], dry_run)
-                # Items meeting intel marks answered / in progress client-side:
-                # never re-asked in the follow-up; escalated for human backfill.
-                intel_ids = set()
-                for flag in result.get("intel_resolved") or []:
-                    it = next((i for i in open_items
-                               if i["id"] == flag.get("item_id")), None)
-                    if not it:
-                        continue
-                    intel_ids.add(it["id"])
-                    if not intel_flag_once(state, it["id"]):
-                        continue
-                    reason = (f"meeting intel says answered/in progress: "
-                              f"{it['text']} — "
-                              f"{flag.get('reason') or 'see meeting-intel notes'} "
-                              f"(excluded from follow-up nudges; verify + record "
-                              f"the answer)")
-                    print(f"    INTEL: {reason}")
-                    append_escalation(company, None, reason, dry_run)
-                if result.get("ack"):
-                    print("    acknowledgment — no action, no escalation")
-                    continue
-                resc = result.get("reschedule") or {}
-                if resc.get("requested"):
-                    handle_reschedule_request(company, contact_for_flow,
-                                              resc.get("preference") or "",
-                                              state, dry_run)
-                    continue
-                negative = result.get("sentiment") == "negative"
-                needs_answer = (bool(result.get("needs_answer"))
-                                or "?" in (msg["body"] or ""))
-                needs_santino = bool(result.get("needs_santino"))
-                if (result.get("escalate") or negative
-                        or not result.get("matches")):
-                    reason = result.get("escalate_reason") or (
-                        "negative sentiment" if negative
-                        else "no open item matched")
-                    print(f"    ESCALATE: {reason}")
-                    # Text Santino ONLY for angry clients or questions only
-                    # he can answer; routine unmatched chatter reaches him
-                    # via the morning digest (policy 2026-08-02).
-                    append_escalation(company, msg, reason, dry_run,
-                                      ping=negative or needs_santino)
-                    # ACKNOWLEDGE (Santino 2026-07-30: "she should always just
-                    # acknowledge their answer as concisely as possible"). The
-                    # matched path sends a real reply; this path used to send
-                    # NOTHING — Todd's pricing question sat in silence for a day.
-                    if not matched_ids and not negative:
-                        _maybe_send_ack(state, company, contact_id, msg,
-                                        contact_payload, args.send, dry_run,
-                                        history=history,
-                                        needs_answer=needs_answer,
-                                        needs_santino=needs_santino)
-                        if needs_answer:
-                            # The REAL answer comes from the next compose
-                            # pass: awaiting_reply bypasses its cooldown and
-                            # survives the holding ack sitting newest in the
-                            # thread (Todd's suspension question, 2026-08-02).
-                            cs_reset["awaiting_reply"] = {
-                                "body": msg["body"][:400],
-                                "at": msg["ts"].isoformat(),
-                                "channel": msg["channel"]}
-                            print("    [awaiting_reply set — next compose "
-                                  "answers this, cooldown bypassed]")
-                if matched_ids:
-                    remaining = [i for i in open_items
-                                 if i["id"] not in matched_ids
-                                 and i["id"] not in intel_ids]
-                    nxt = (f"Next open item to ask: {remaining[0]['text']}"
-                           if remaining else "No items remain.")
-                    reply = anthropic_json(
-                        REPLY_SYSTEM,
-                        f"Client first name: "
-                        f"{contact_first_name(None, company)}\n"
-                        f"They just answered: {msg['body'][:400]}\n{nxt}")
-                    print(f"    reply draft: {reply.get('body', '')!r}")
-                    if args.send:
-                        # Business hours enforced on EVERY send path (client's
-                        # local tz). Phase 1: refuse + flag, no queue.
-                        hours_reason = business_hours_check(company, contact_payload)
-                        if hours_reason:
-                            print(f"    SEND FLAGGED: {hours_reason} — reply not "
-                                  f"sent this cycle")
-                            append_escalation(company, msg, hours_reason, dry_run)
-                            continue
-                        target = messaging_target(company)
-                        contact = {"id": contact_id,
-                                   "phone": target.get("cell") or company.get("phone"),
-                                   "email": target.get("email") or company.get("email")}
-                        try:
-                            sent = send_message(contact, msg["channel"],
-                                                reply.get("body", ""))
-                            record_sent_message(state, sent)
-                            # a real reply went out — nothing pending anymore
-                            cs_reset.pop("awaiting_reply", None)
-                        except SendBlocked as e:
-                            print(f"    SEND BLOCKED: {e}")
+            handled_any = True
+            process_inbound_messages(state, company, contact_id, msgs,
+                                     args.send, dry_run)
         except Exception as e:  # noqa: BLE001 — one bad thread must never
             # kill the poll: the 07-31 storm was a single crash looping the
             # cursor (same message re-escalated + re-texted every 5 min).
@@ -2785,21 +2972,54 @@ period. No emojis, no exclamation spam, no canned filler ("Perfect, thanks
 for getting back to me" is banned). Respond to what they actually SAID:
 - They asked something we need to look into: acknowledge the question
   specifically and say you'll find out and get right back to them.
-- They said they don't know how to do something, or are stuck: reassure
-  them it's no problem and say you'll walk them through it shortly.
+- They said they don't know how to do something, or are stuck: do the
+  FIRST STEP of the walk-through right now — ask the one concrete question
+  that unblocks them ("where do your customers live today, phone contacts,
+  a spreadsheet, an invoicing app? Even a screenshot works") instead of
+  promising future help.
 - A plain statement or update: thank them naturally, referencing what they
   said in a few words.
 Do NOT attempt to answer the question here (you don't have the answer yet),
 do not promise dates, and only mention checking with Santino when the input
-says the boss must decide. One or two short sentences, under 220 characters.
-Return ONLY JSON: {"body": string}."""
+says the boss must decide. NEVER promise anything that will not actually
+happen on its own ("I'll walk you through it" is banned unless this very
+text starts the walk-through). One or two short sentences, under 220
+characters. Return ONLY JSON: {"body": string}."""
+
+# COMMITMENT FOLLOW-THROUGH (Santino 2026-08-02: the ack drafted "I'll walk
+# you through it" and nobody ever walked him through anything). Any promise
+# that slips into a sent ack is captured here and queued as
+# cs["pending_commitment"] — the next compose MUST deliver it (see the OPEN
+# COMMITMENT block in compose_draft). General rule: never promise what the
+# pipeline won't deliver; prefer doing the first step in the ack itself.
+_PROMISE_RE = re.compile(
+    r"\bI(?:'ll| will)\s+(?:walk you|get (?:right )?back|find out|check|"
+    r"look into|send (?:you|over|it)|follow up|get you|dig|circle back|"
+    r"ask santino|talk to santino|have (?:an answer|that|it))", re.I)
+
+
+def _record_commitment(cs: dict, sent_text: str, client_msg: str,
+                       dry_run: bool) -> None:
+    """If the text we just sent PROMISES future work, queue it so the next
+    compose is forced to deliver (never a promise the pipeline drops)."""
+    m = _PROMISE_RE.search(sent_text or "")
+    if not m:
+        return
+    cs["pending_commitment"] = {
+        "promise": sent_text[:300],
+        "context": (client_msg or "")[:300],
+        "at": datetime.now(timezone.utc).isoformat()}
+    print(f"    [commitment recorded — next compose must deliver: "
+          f"{m.group(0)!r}]"
+          + (" (dry run: not persisted)" if dry_run else ""))
 
 
 def _maybe_send_ack(state: dict, company: dict, contact_id: str, msg: dict,
                     contact_payload: dict | None, do_send: bool,
                     dry_run: bool, history: list[dict] | None = None,
                     needs_answer: bool = False,
-                    needs_santino: bool = False) -> None:
+                    needs_santino: bool = False,
+                    suggested: str | None = None) -> None:
     body = (msg.get("body") or "").strip()
     if not body or (_TERMINAL_ACK_RE.match(body) and len(body) <= 25):
         print("    [ack skipped: their message is itself an acknowledgment]")
@@ -2817,29 +3037,34 @@ def _maybe_send_ack(state: dict, company: dict, contact_id: str, msg: dict,
     if business_hours_check(company, contact_payload):
         print("    [ack skipped: outside their business hours]")
         return
-    last_out = next((m for m in (history or [])
-                     if m.get("direction") == "out"), None)
-    text = ""
-    try:
-        draft = anthropic_json(
-            ACK_SYSTEM,
-            f"Client first name: {contact_first_name(None, company)}\n"
-            + (f"Our last message to them: {last_out['body'][:200]}\n"
-               if last_out else "")
-            + f"Their reply: {body[:400]}\n"
-            + ("Only the boss can decide this one, say you'll check with "
-               "Santino and get back to them.\n" if needs_santino else "")
-            + ("This reply needs a real answer later; write the holding "
-               "line." if needs_answer
-               else "This is a statement; write the short natural thanks."))
-        text = (draft.get("body") or "").strip()
-    except Exception as e:  # noqa: BLE001 — a failed draft must not kill the poll
-        print(f"    [ack] draft failed ({str(e)[:80]}) — using fallback")
+    # The full-analysis classify already drafted the reply with the whole
+    # context (open items, history, intel) — use it and save a model call.
+    # ACK_SYSTEM is the fallback when the analysis gave nothing usable.
+    text = (suggested or "").strip()[:320]
+    if not text:
+        last_out = next((m for m in (history or [])
+                         if m.get("direction") == "out"), None)
+        try:
+            draft = anthropic_json(
+                ACK_SYSTEM,
+                f"Client first name: {contact_first_name(None, company)}\n"
+                + (f"Our last message to them: {last_out['body'][:200]}\n"
+                   if last_out else "")
+                + f"Their reply: {body[:400]}\n"
+                + ("Only the boss can decide this one, say you'll check with "
+                   "Santino and get back to them.\n" if needs_santino else "")
+                + ("This reply needs a real answer later; write the holding "
+                   "line." if needs_answer
+                   else "This is a statement; write the short natural thanks."))
+            text = (draft.get("body") or "").strip()
+        except Exception as e:  # noqa: BLE001 — a failed draft must not kill the poll
+            print(f"    [ack] draft failed ({str(e)[:80]}) — using fallback")
     if not text:
         text = ("Let me look into that and get right back to you."
                 if needs_answer else "Got it, thank you.")
     print(f"    ack draft: {text!r}")
     if not do_send:
+        _record_commitment(cs, text, body, dry_run=True)
         return
     target = messaging_target(company)
     contact = {"id": contact_id,
@@ -2849,6 +3074,7 @@ def _maybe_send_ack(state: dict, company: dict, contact_id: str, msg: dict,
         sent = send_message(contact, msg.get("channel") or "sms", text)
         record_sent_message(state, sent)
         acks[contact_id] = today
+        _record_commitment(cs, text, body, dry_run)
         save_state(state, dry_run)
     except SendBlocked as e:
         print(f"    ACK BLOCKED: {e}")

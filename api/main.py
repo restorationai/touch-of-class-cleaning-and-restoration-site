@@ -1350,6 +1350,99 @@ def gbp_first_sync(req: GbpFirstSyncRequest):
     return {"status": "queued", "slug": slug}
 
 
+# ---------------------------------------------------------------------------
+# Concierge instant inbound (Monica)
+# ---------------------------------------------------------------------------
+# Per-contact locks: GHL retries webhooks and clients double-text; one
+# in-flight run per contact in this process keeps the thread readable and
+# stops duplicate replies (cross-process dedupe is the concierge's
+# handled-ids ledger in ops_kv).
+_CONCIERGE_LOCKS: dict = {}
+_CONCIERGE_LOCKS_GUARD = threading.Lock()
+
+
+def _concierge_lock(contact_id: str) -> threading.Lock:
+    with _CONCIERGE_LOCKS_GUARD:
+        return _CONCIERGE_LOCKS.setdefault(contact_id, threading.Lock())
+
+
+def _extract_contact_id(body: dict) -> str:
+    """Liberal parse: GHL workflow webhooks vary by trigger and custom-data
+    mapping — accept contact_id / contactId at the top level, nested under
+    contact / customData, or flattened as 'contact.id'."""
+    for key in ("contact_id", "contactId"):
+        v = body.get(key)
+        if isinstance(v, str) and v.strip():
+            return v.strip()
+    for parent in ("contact", "customData", "custom_data"):
+        sub = body.get(parent)
+        if isinstance(sub, dict):
+            for key in ("contact_id", "contactId", "id"):
+                v = sub.get(key)
+                if isinstance(v, str) and v.strip():
+                    return v.strip()
+    for k, v in body.items():
+        if (isinstance(v, str) and v.strip() and
+                k.lower().replace(".", "_").replace("-", "_")
+                in ("contact_id", "ghl_contact_id")):
+            return v.strip()
+    return ""
+
+
+@app.post("/concierge-inbound")
+async def concierge_inbound(request: Request):
+    """GHL webhook: a client just replied (SMS/email) — instant Monica.
+
+    Replaces waiting on the 5-min poll + hourly compose: classifies + acts
+    on the new message(s) for this ONE contact, then runs an immediate
+    compose so a warranted reply goes out now. All concierge gates apply
+    (business hours, canary allowlist, human-defer, PAUSE switch; the
+    client-waiting bypass covers the cooldown since the client just spoke).
+
+    Auth: shared secret in the x-concierge-secret header, ?secret= query
+    param, or a "secret" field in the JSON body — checked against
+    CONCIERGE_WEBHOOK_SECRET (falls back to LEAD_AUDIT_FUNNEL_SECRET).
+    Payload: liberal — any JSON carrying the GHL contact id (contact_id /
+    contactId / contact.id / customData.contact_id / ?contact_id= query).
+    Unknown contacts return "ignored": Monica only ever engages contacts
+    she is already tracking, so the GHL workflow can fire on EVERY inbound
+    message with no tag filter."""
+    expected = (os.environ.get("CONCIERGE_WEBHOOK_SECRET")
+                or os.environ.get("LEAD_AUDIT_FUNNEL_SECRET", ""))
+    try:
+        body = await request.json()
+    except Exception:
+        body = {}
+    if not isinstance(body, dict):
+        body = {}
+    secret = (request.headers.get("x-concierge-secret")
+              or request.query_params.get("secret")
+              or str(body.get("secret") or ""))
+    if not (expected and secret == expected):
+        raise HTTPException(status_code=403, detail="bad secret")
+    contact_id = (_extract_contact_id(body)
+                  or request.query_params.get("contact_id", "").strip())
+    if not contact_id or len(contact_id) < 8:
+        raise HTTPException(status_code=400,
+                            detail="contact_id not found in payload")
+
+    def _run():
+        lock = _concierge_lock(contact_id)
+        with lock:
+            try:
+                import client_concierge  # scripts/ is on sys.path (see header)
+                client_concierge.load_env()
+                out = client_concierge.webhook_inbound(contact_id, do_send=True)
+                print(f"[concierge-inbound] {contact_id}: {out}")
+            except Exception as e:  # noqa: BLE001 — webhook thread must not die loudly
+                print("[concierge-inbound] failed:", str(e)[:300])
+
+    threading.Thread(target=_run, daemon=True).start()
+    return {"status": "queued", "contact_id": contact_id,
+            "note": "Instant inbound started; any reply obeys business "
+                    "hours, the canary allowlist and cadence gates."}
+
+
 @app.post("/kickoff-prep")
 def kickoff_prep_endpoint(req: KickoffPrepRequest):
     """Fired by the GHL 'kickoff booked' workflow webhook. Spawns a thread
