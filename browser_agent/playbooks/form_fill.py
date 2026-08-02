@@ -57,7 +57,20 @@ PORTALS = {
         #    profilePhoto = logo PNG via input[type=file] then Save. A sales
         #    demo-scheduler modal ('good time for a demo') blocks all clicks —
         #    close via [aria-label='Close'] / Escape before advancing.
-        "selectors": {"supervised_runs_clean": 1},
+        # Run 2 (flood-fixers, 2026-08-01, complete): the wizard SHUFFLES —
+        #    same questions recombine across step ids (projectTypeNIntent,
+        #    revenueTimeline), so drive it as a state machine keyed on body
+        #    text (scratchpad houzz_resume.py is the reference), never a fixed
+        #    sequence. New pages seen: 'What features interest you?' custom
+        #    dropdown (options were only SaaS features — no free-profile
+        #    option in this variant; pick is cosmetic); 'Want help getting
+        #    set up?' -> 'No, thanks'; pro-onboarding-pricing (Start Free
+        #    Trial wall) -> NEVER click, goto pro.houzz.com/pro-onboarding.
+        #    Logout: /logout is 404; JS-click [data-objid="navSignOut"].
+        # Run 3 attempt (coastal, same night): signup silently bounced to a
+        #    sign-in page, no email sent — VELOCITY THROTTLE after 2 accounts
+        #    from one browser/night. Pace: max 2 new accounts per day.
+        "selectors": {"supervised_runs_clean": 2},
     },
     "porch": {
         "label": "Porch",
