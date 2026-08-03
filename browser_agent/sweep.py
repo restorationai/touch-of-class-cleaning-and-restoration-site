@@ -26,7 +26,7 @@ def bing_sync(s: Session) -> str:
     s.page.wait_for_timeout(6000)
     if "genericLogin" in s.page.url:
         try:
-            with s._ctx.expect_page(timeout=15000) as pi:
+            with s._ctx.expect_page(timeout=30000) as pi:
                 s.page.mouse.click(1174, 295)
                 s.page.wait_for_timeout(1500)
                 s.page.keyboard.press("Enter")
