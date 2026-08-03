@@ -122,6 +122,10 @@ SITES = {
         "bucket": "rankai-coastal-restoration-services",
         "images_base": "https://images.coastalrestoration.pending",
     },
+    "homelyft-restoration-ms": {
+        "bucket": "rankai-homelyft-restoration-ms",
+        "images_base": "https://images.homelyft.pending",
+    },
 }
 
 # R2 keys every site may have; 404s are skipped gracefully.
