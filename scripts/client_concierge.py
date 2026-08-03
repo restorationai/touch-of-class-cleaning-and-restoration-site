@@ -244,6 +244,26 @@ INBOUND_DEBOUNCE_MAX_S = 360   # never hold a reply hostage longer than this
 # double-texting the same question (Jaccard on >2-char words).
 SIMILAR_JACCARD = 0.55
 SIMILAR_RECENT_HOURS = 24
+# STOP-KEYWORD AWARENESS (Santino 2026-08-03: Angie texted a bare "end"
+# mid-conversation and carrier compliance flipped her to PERMANENT SMS DND
+# — the API cannot lift it; only she can, by texting START). A bare
+# stop-word inbound is escalated to Santino immediately with the ready
+# instruction, and the contact is switched to EMAIL automatically. A
+# STOP_KEYWORD/DND contact is never sent SMS again until the flag clears.
+_STOP_WORD_RE = re.compile(
+    r"^\s*(?:stop(?:all)?|unsubscribe|cancel|end|quit)\s*[.!]?\s*$", re.I)
+
+
+def _sms_dnd(contact: dict | None) -> bool:
+    """True when GHL shows SMS DND on the contact (incl. STOP_KEYWORD)."""
+    if not contact:
+        return False
+    if contact.get("dnd") is True:
+        return True
+    sms = ((contact.get("dndSettings") or {}).get("SMS") or {})
+    return str(sms.get("status", "")).lower() in ("permanent", "active")
+
+
 # iMessage/Android reaction events arrive from GHL as ordinary inbound SMS
 # ('Liked "Got it, Invoice2go works great..."'). They are NOT messages —
 # never classify them, never reply to them, never treat them as a client
@@ -1128,8 +1148,12 @@ def ask_rank(it) -> int:
     t = it["text"].lower()
     if "youtube" in t:
         return 4   # nice-to-have, never outranks foundations
-    if "google" in t and any(k in t for k in ("connect", "access", "re-engage")):
-        return 0   # nothing works without the Google connection
+    # "verify": GBP verification is a launch blocker on par with domain
+    # access (Santino 2026-08-03: top messaging priority, paired with the
+    # domain ask when both are open — the launch-blocker pair).
+    if "google" in t and any(k in t for k in ("connect", "access",
+                                              "re-engage", "verify")):
+        return 0   # nothing works without the Google connection/verification
     if any(k in t for k in ("domain", "registrar", "godaddy", "nameserver")):
         return 1   # launch blocker
     if "customer list" in t or "review campaign" in t:
@@ -1547,6 +1571,8 @@ Rules:
   thing. Never stack a second ask ("Also, ...", "While I have you...")
   onto a message that already asks something, proposes a meeting, or
   closes a commitment. Every other open item WAITS for its own message.
+  SOLE EXCEPTION: a "LAUNCH-BLOCKER PAIR" block in the context — then, and
+  only then, bundle exactly those two asks with one shared call offer.
 - ACKNOWLEDGE FORWARD, never echo: never restate what the client just told
   you as a third-person summary ("got it, you'll grab a company photo once
   you're back in town" is the banned pattern). Point forward instead:
@@ -1726,6 +1752,22 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
                   commitment: dict | None = None) -> dict:
     chosen = items[:FIRST_CONTACT_MAX_ITEMS if first_contact
                    else MAX_ITEMS_PER_MESSAGE]
+    # LAUNCH-BLOCKER PAIR (Santino 2026-08-03, his explicit design and the
+    # ONLY exception to one-question-per-message): when BOTH launch
+    # blockers are open — domain access AND Google-listing verification —
+    # Monica bundles exactly those two in ONE message with one shared
+    # 15-minute call offer. Never more than two, never pair anything else.
+    pair = None
+    if not first_contact:
+        t = lambda i: str(i.get("text", "")).lower()  # noqa: E731
+        ver = next((i for i in items
+                    if "verify" in t(i) and ("google" in t(i)
+                                             or "listing" in t(i))), None)
+        dom = next((i for i in items if "domain" in t(i)
+                    and "verify" not in t(i)), None)
+        if ver and dom:
+            pair = (ver, dom)
+            chosen = [ver, dom]   # verification leads (top priority)
     lines = []
     for i, it in enumerate(chosen, 1):
         detail = (it["detail"] or "")[:300]
@@ -1825,6 +1867,18 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
                 "message — responding to them is its one purpose; asks wait "
                 "for their own later message. Because a reply is owed, the "
                 "body must NOT be empty even if every item is excluded.\n")
+    pair_block = ""
+    if pair:
+        pair_block = (
+            "\nLAUNCH-BLOCKER PAIR (explicit exception, Santino 2026-08-03): "
+            "the two items given are the ONLY case where one message may "
+            "carry TWO asks — the site cannot launch without domain access "
+            "and the listing is invisible on Maps without verification, so "
+            "they are paired deliberately. Bundle both warmly: lead with the "
+            "Google-listing verification, then the domain, and offer ONE "
+            "shared 15-minute call to knock out both together (we guide, "
+            "they just hold the phone). Never add anything else to this "
+            "message.\n")
     commit_block = ""
     if commitment:
         commit_block = (
@@ -1917,6 +1971,7 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
             + intel_block
             + appt_block
             + pending_block
+            + pair_block
             + commit_block
             + domain_block
             + photo_block
@@ -2040,6 +2095,18 @@ def cmd_compose(args) -> int:
     first = contact_first_name(contact, company)
     cs = company_state(state, args.company)
     first_contact = not cs.get("first_contacted")
+    # STOP_KEYWORD / CRM DND (Santino 2026-08-03, Angie's accidental "end"):
+    # a DND contact is NEVER attempted by SMS — the channel preference flips
+    # to email up front (proactive twin of the reactive SendBlocked
+    # fallback below; that one stays as the belt for mid-flight DND).
+    if _sms_dnd(contact) and not cs.get("channel_override"):
+        cs["channel_override"] = "email"
+        print("SMS DND on the contact (STOP keyword / CRM) — channel "
+              "preference flipped to email")
+    if (cs.get("channel_override") == "email" and args.channel == "sms"
+            and (contact or {}).get("email")):
+        args.channel = "email"
+        print("Channel override: email (SMS is DND for this contact)")
     print(f"Company: {company['name']} ({args.company})")
     target = messaging_target(company)
     print(f"Messaging target: {target_label(company)} — via {target['source']}")
@@ -3642,6 +3709,11 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
         cs_reset["nudge_count"] = 0
         cs_reset.pop("max_nudges_escalated", None)
         print(f"  [cadence] client replied — nudge counter reset")
+    # STOP_KEYWORD / CRM DND: flip the channel preference the moment the
+    # contact record shows SMS DND, so no path ever attempts SMS again.
+    if _sms_dnd(contact_payload) and not cs_reset.get("channel_override"):
+        cs_reset["channel_override"] = "email"
+        print("  [dnd] SMS DND on contact — channel preference flipped to email")
     # ---- phase 1: per-message analysis + answer extraction. NO sends here;
     # everything response-worthy accumulates into `turn` for one decision.
     turn = {"bodies": [], "matched": set(), "intel": set(),
@@ -3657,6 +3729,25 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
         # events, but nothing that renders as one may ever reach a reply.
         if _REACTION_RE.match((msg.get("body") or "").strip()):
             print("    [reaction event — not a message, nothing to do]")
+            continue
+        # BARE STOP-WORD ("end", "stop", ...): the carrier just flipped this
+        # contact to permanent SMS DND — no classify, no reply. Escalate to
+        # Santino once with the fix in hand, switch the thread to email.
+        if (msg.get("channel") == "sms"
+                and _STOP_WORD_RE.match((msg.get("body") or "").strip())):
+            cs_reset["channel_override"] = "email"
+            print(f"    [STOP keyword {msg['body'].strip()!r} — SMS DND is "
+                  "now permanent; switching this contact to email]")
+            if not cs_reset.get("dnd_escalated"):
+                cs_reset["dnd_escalated"] = True
+                append_escalation(
+                    company, msg,
+                    f"client texted the SMS stop-word {msg['body'].strip()!r} "
+                    "(likely accidental mid-conversation) — the carrier set "
+                    "PERMANENT SMS DND which we cannot lift. Fix: have them "
+                    "text START back to our number to re-enable texting. "
+                    "Monica reaches them by email meanwhile.",
+                    dry_run, ping=True)  # needs Santino's action
             continue
         had_cards = False
         if msg.get("attachments"):
@@ -3854,6 +3945,11 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
     combined = " / ".join(turn["bodies"])[:400]
     stamp_at = turn["last_msg"]["ts"].isoformat()
     channel = turn["last_msg"]["channel"]
+    # A DND/STOP contact is never replied to by SMS — email instead
+    # (Angie's accidental "end", 2026-08-03).
+    if cs_reset.get("channel_override") == "email" and channel == "sms":
+        channel = "email"
+        print("    [dnd] reply channel switched to email (SMS DND)")
     if turn["matched"]:
         # ANSWER FOLLOW-THROUGH (Santino 2026-08-02: Todd's "Invoices2Go"
         # answered OUR question and got silence): when a client answers us

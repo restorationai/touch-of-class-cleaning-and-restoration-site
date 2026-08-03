@@ -689,6 +689,7 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
         # QCI's verification video was even rejected 07-30. Go Green's
         # suspension also shows here (complyWithGuidelines). Distinct card so
         # verification gaps never hide inside the citations rollup.
+        vom_state = None   # verified | suspended | pending | unverified
         try:
             if gi:
                 import gbp as _gbp
@@ -705,6 +706,7 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                     if _vr.ok:
                         vom = _vr.json()
                         if vom.get("hasVoiceOfMerchant"):
+                            vom_state = "verified"
                             rows.append({"company_id": cid, "item_key": "gbp-verified",
                                          "kind": "auto", "status": "done",
                                          "title": "Google Business Profile verified",
@@ -712,6 +714,7 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                         elif "complyWithGuidelines" in vom:
                             _why = (vom["complyWithGuidelines"] or {}).get(
                                 "recommendationReason", "SUSPENDED")
+                            vom_state = "suspended"
                             rows.append({"company_id": cid, "item_key": "gbp-verified",
                                          "kind": "us_owed", "status": "open",
                                          "title": "GBP SUSPENDED — reinstatement "
@@ -729,6 +732,7 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                         else:
                             _pend = bool((vom.get("verify") or {})
                                          .get("hasPendingVerification"))
+                            vom_state = "pending" if _pend else "unverified"
                             rows.append({"company_id": cid, "item_key": "gbp-verified",
                                          "kind": "client_owed", "status": "open",
                                          "title": "GBP NOT verified"
@@ -746,6 +750,91 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                                          "evidence": {"pending": _pend}})
         except Exception:
             pass
+
+        # GBP-VERIFICATION ASK (Santino 2026-08-03: top messaging priority,
+        # paired with the domain ask when both are open — the launch-blocker
+        # pair; QCI sat unverified with Monica never asking). unverified ->
+        # seed the rank-1 client_input ask; verified/suspended/pending ->
+        # retire it (suspended goes through the reinstatement appeal;
+        # pending is already with Google — nothing for the client to do).
+        try:
+            from client_ops_sync import action_key, insert_plan_row
+            vseed = f"gbp-verify-{slug}"
+            if vom_state == "unverified":
+                if insert_plan_row(
+                        cid, slug, vseed,
+                        title="ASK CLIENT: verify your Google listing — "
+                              "it's invisible on Maps until then",
+                        rationale=(
+                            "Google has NOT verified their Business Profile: "
+                            "the listing is invisible on Maps and to Bing's "
+                            "import — a LAUNCH BLOCKER on par with domain "
+                            "access (top messaging priority, Santino "
+                            "2026-08-03). The OWNER completes verification, "
+                            "usually a short video walk-through, at "
+                            "business.google.com. MONICA: plain words, no "
+                            "jargon; offer to hop on a quick 15-minute call "
+                            "and do the video walk-through together, we "
+                            "guide, they just hold the phone. When the "
+                            "domain-access ask is also open, bundle EXACTLY "
+                            "these two in one message (the launch-blocker "
+                            "pair exception) with one shared call offer."),
+                        action_type="client_input", target=None,
+                        impact="high", effort="low", dry_run=dry_run):
+                    attention.append(f"{slug}: seeded Monica ask — GBP "
+                                     "verification (launch blocker)")
+            elif vom_state in ("verified", "suspended", "pending") and not dry_run:
+                _sb("PATCH", "/rest/v1/marketing_action_plan"
+                    f"?company_id=eq.{cid}"
+                    f"&action_key=eq.{action_key(cid, vseed)}"
+                    "&status=eq.planned", {"status": "resolved"})
+        except Exception as e:  # noqa: BLE001 — seeding must never kill the ledger
+            attention.append(f"{slug}: gbp-verify ask seeding failed "
+                             f"({str(e)[:80]})")
+
+        # PREVIEW-SHARE HEAL (Santino 2026-08-03: HomeLyft's polished site
+        # sat unshared — the share seeding only lived in the site-build CI
+        # write-back, which local builds skip). preview_ready/pushed_staging
+        # + no share ask EVER + no open hold note -> seed the ask here, so
+        # this class of miss can't recur whatever built the site.
+        try:
+            _site = _sb("GET", f"/rest/v1/marketing_sites?company_id=eq.{cid}"
+                        "&select=build_status,cloudflare_pages_url&limit=1",
+                        prefer="return=representation") or []
+            _site = _site[0] if _site else {}
+            if _site.get("build_status") in ("preview_ready", "pushed_staging"):
+                fb_key = f"site-preview-feedback-{slug}"
+                _ever = _sb("GET", "/rest/v1/marketing_action_plan"
+                            f"?company_id=eq.{cid}&action_key=eq.{fb_key}"
+                            "&select=id&limit=1",
+                            prefer="return=representation") or []
+                _hold = any(
+                    re.search(r"(hold|don'?t share|defect)", str(n.get("body", "")), re.I)
+                    and re.search(r"preview|site", str(n.get("body", "")), re.I)
+                    for n in _sb("GET", "/rest/v1/marketing_ops_notes"
+                                 f"?company_id=eq.{cid}&status=eq.open"
+                                 "&select=body&limit=20",
+                                 prefer="return=representation") or [])
+                if not _ever and not _hold:
+                    _preview = (_site.get("cloudflare_pages_url")
+                                or f"https://staging.rankai-{slug}.pages.dev")
+                    if not dry_run:
+                        _sb("POST", "/rest/v1/marketing_action_plan", [{
+                            "company_id": cid, "rank_ai_slug": slug,
+                            "action_key": fb_key,
+                            "action_type": "client_input", "status": "planned",
+                            "priority": 1, "impact": "high", "effort": "low",
+                            "title": "Take a look at your new website preview "
+                                     "and tell us your thoughts",
+                            "target": _preview,
+                            "rationale": "New site build finished at " + _preview +
+                                         " — share the link with the client, ask "
+                                         "what they think, and collect any change "
+                                         "requests."}])
+                    attention.append(f"{slug}: preview ready but the share ask "
+                                     f"was never seeded — HEALED ({_preview})")
+        except Exception as e:  # noqa: BLE001 — healing must never kill the ledger
+            attention.append(f"{slug}: preview-share heal failed ({str(e)[:80]})")
 
         # ---- client-asks aggregate (ladder input) ---------------------------
         asks = _sb("GET", "/rest/v1/marketing_action_plan"
