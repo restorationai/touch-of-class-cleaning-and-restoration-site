@@ -6,9 +6,17 @@ const MAP = {
 };
 // Public intake routes sharing this worker + slug map:
 //   /gbpphotos/{slug}     → job-photos fn   (field-crew photos, EXIF-stripped JPEGs)
-//   /logo/{slug}          → logo-upload fn  (client logo, ORIGINAL bytes preserved)
+//   /logo/{slug}          → logo-upload fn  (client logo + brand kit, ORIGINAL bytes)
 //   /hub/{slug}/{token}   → crew hub: review QR, request-a-review, photo/file links
 //     (token lives in KV next to the client record — secret per company)
+//
+// LARGE FILES (2026-08-03, Greg/PuroClean 75MB brand kit): this zone is on
+// the Free plan (100MB request-body hard cap) and this worker used to buffer
+// POST bodies into memory. Big uploads therefore NEVER pass through here —
+// the /logo/{slug} page POSTs a tiny ?action=sign JSON (proxied below like
+// any POST), gets a signed upload URL scoped to one storage path, and the
+// browser PUTs the file DIRECT to Supabase storage (bucket cap 250MB).
+// Small files still proxy through; the body is now STREAMED, not buffered.
 const ROUTES = {
   gbpphotos: { fn: "https://nyscciinkhlutvqkgyvq.supabase.co/functions/v1/job-photos", kind: "jobphotos" },
   logo: { fn: "https://nyscciinkhlutvqkgyvq.supabase.co/functions/v1/logo-upload", kind: "logoupload" },
@@ -191,7 +199,10 @@ export default {
     const pb = b64url(new TextEncoder().encode(JSON.stringify(payload)));
     const token = pb + "." + (await hmac(env.SIGNING_SECRET, pb));
     const init = { method: request.method, headers: {} };
-    if (request.method === "POST") { init.body = await request.arrayBuffer(); init.headers["Content-Type"] = request.headers.get("Content-Type") || "image/jpeg"; }
+    // Stream the body through (never buffer — a buffered 75MB brand kit
+    // would eat the isolate's memory; big files bypass this path entirely
+    // via signed direct-to-storage URLs, see header comment).
+    if (request.method === "POST") { init.body = request.body; init.headers["Content-Type"] = request.headers.get("Content-Type") || "image/jpeg"; }
     // forward the page's own query params (cat/note/fn for categorized
     // uploads) alongside our signed token — previously dropped (2026-07-24)
     const fwd = new URLSearchParams(url.search);
