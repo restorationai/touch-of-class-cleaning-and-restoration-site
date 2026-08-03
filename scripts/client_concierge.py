@@ -1514,6 +1514,16 @@ at" and trail off, never invent or abbreviate a URL. Every message must end
 as a complete sentence; a message ending in "at…" or mid-thought is a
 hard failure (it happened to a real client 2026-07-29).
 
+GOOGLE-CONNECT ASKS ALWAYS CARRY THE LINK (Santino 2026-08-03). Whenever the
+message asks the client to connect (or reconnect, grant access to, sign
+into) their Google business listing, it MUST include the "Google connect
+link for THIS client" from the context, exactly as written — that link IS
+the ask ("here's the link, it takes about two minutes"). A connect ask
+without that link is a hard failure: the client has nothing to tap and the
+message wastes the touch (a real client got "here's a link" with no link
+attached, MCC 2026-07-25). This applies even when the connect ask rides
+along with other content, like sharing their website preview.
+
 KEEP IT SMALL — the second most important rule. A text that asks for a lot,
 or asks in long dense sentences, gets ignored or scares people off.
 - The character budget is a CEILING, not a target. Shorter always wins.
@@ -1701,6 +1711,60 @@ def photo_upload_link(company: dict) -> str | None:
         except ValueError:
             settings = {}
     return settings.get("hub_url") or None
+
+
+# ---- GBP-connect link rule (Santino 2026-08-03: "when we send them a
+# message to connect their gbp listing, make sure to attach their connection
+# link too"). A connect ask is only actionable WITH the client's short
+# connect link — https://restorationai.io/connect/{slug}, the KV-backed 302
+# that client_ops_sync's seeder mints. Detection is on the item TITLE, same
+# altitude as ask_rank; "verify" is excluded on purpose (postcard
+# verification of the listing has no link to tap).
+_GOOGLE_CONNECT_RE = re.compile(
+    r"\b(connect|reconnect|re-?engage|access|sign.?in)\b", re.I)
+
+
+def is_google_connect_ask(item: dict) -> bool:
+    t = str(item.get("text", "")).lower()
+    return (("google" in t or "business profile" in t)
+            and bool(_GOOGLE_CONNECT_RE.search(t))
+            and "verify" not in t)
+
+
+def google_connect_link(company: dict, items: list[dict] | None = None) -> str | None:
+    """The client's short Google-connect link, never a dead one.
+
+    1) Prefer the exact short link already written on one of the items (the
+       ops-sync seeder embeds it in the ask's rationale) — guaranteed minted.
+    2) Otherwise reconstruct from marketing_sites.rank_ai_slug and verify the
+       KV entry behind restorationai.io/connect/{slug} actually exists
+       (intake items like FireDEX's access ask predate the seeder); missing
+       and no way to check -> None, because a linkless ask beats a 404.
+    """
+    for it in items or []:
+        m = re.search(r"https://restorationai\.io/connect/[\w-]+",
+                      str(it.get("detail") or "") + " " + str(it.get("text") or ""))
+        if m:
+            return m.group(0)
+    try:
+        rows = _sb("GET", f"/rest/v1/marketing_sites?company_id=eq.{company['id']}"
+                   "&select=rank_ai_slug&limit=1") or []
+        slug = str((rows[0] if rows else {}).get("rank_ai_slug") or "").strip()
+        if not slug:
+            return None
+        acct = os.environ.get("CLOUDFLARE_ACCOUNT_ID")
+        ctok = os.environ.get("CLOUDFLARE_R2_API_TOKEN")
+        if not (acct and ctok):
+            return None
+        r = requests.get(
+            "https://api.cloudflare.com/client/v4/accounts/{}/storage/kv/"
+            "namespaces/404d46bf0c72404495ab66d15157c499/values/connect%3A{}".format(acct, slug),
+            headers={"Authorization": "Bearer " + ctok}, timeout=20)
+        if r.ok:
+            return "https://restorationai.io/connect/" + slug
+    except Exception as e:  # noqa: BLE001 — the link lookup must never kill compose
+        print(f"  [connect-link] lookup failed: {str(e)[:80]}", file=sys.stderr)
+    return None
 
 
 GHL_LOCATION_TZ = "America/Los_Angeles"  # GHL returns naive local times
@@ -1919,6 +1983,24 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
                 f"NOTE: this client's Google listing already has {n_photos} "
                 "photos we can use — do NOT ask them for photos in this "
                 "message; drop any photo request entirely.\n")
+    # GBP-CONNECT LINK RULE (Santino 2026-08-03: "when we send them a message
+    # to connect their gbp listing, make sure to attach their connection link
+    # too"): whenever a Google-connect ask is among the chosen items, compose
+    # is handed the client's short connect link with an explicit must-include
+    # instruction; the guard after the draft is the belt (the model dropped a
+    # promised link on a real client — MCC 2026-07-25).
+    connect_link = google_connect_link(company, chosen) \
+        if any(is_google_connect_ask(it) for it in chosen) else None
+    connect_block = ""
+    if connect_link:
+        connect_block = (
+            f"\nGoogle connect link for THIS client: {connect_link}\n"
+            "One of the items asks them to connect their Google business "
+            "listing. If your message makes that ask (even as a side note "
+            "next to other content), you MUST include that exact link as "
+            "the way to do it (\"here's the link, it takes about two "
+            "minutes: ...\"). Never make the connect ask without the "
+            "link.\n")
     # Domain-access forward note (2026-08-03): set by the state gate in
     # filter_already_satisfied when access is already in hand.
     domain_block = ""
@@ -1975,6 +2057,7 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
             + commit_block
             + domain_block
             + photo_block
+            + connect_block
             + f"Outstanding items (priority order, cover all of these and "
             f"nothing else):\n" + "\n".join(lines))
     draft = anthropic_json(COMPOSE_SYSTEM, user)
@@ -1991,6 +2074,33 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
                 break
             trimmed = (trimmed + " " + s).strip()
         body = trimmed or body
+
+    # GBP-CONNECT LINK GUARD (the "must not pass" half of the rule): a
+    # Google-connect ask never goes out linkless. If the draft (or the
+    # budget trim above) asks for the connection without the link, append it
+    # as its own complete sentence — the link is load-bearing, so running a
+    # little over the SMS budget beats dropping it (the stated budget already
+    # left 60 chars of headroom).
+    if connect_link and body and connect_link not in body:
+        asks_in_body = re.search(
+            r"\b(connect|reconnect|sign(?:ing)? in|log ?in|hook(?:ing)? up)\b"
+            r"[^.!?]{0,80}\b(google|listing|business profile)\b"
+            r"|\b(google|listing)\b[^.!?]{0,80}\b(connect|sign in)\b",
+            body, re.I)
+        excluded = {str(f.get("item_id"))
+                    for k in ("history_answered", "intel_resolved")
+                    for f in (draft.get(k) or []) if isinstance(f, dict)}
+        ask_live = any(is_google_connect_ask(it)
+                       and str(it.get("id")) not in excluded for it in chosen)
+        # pending-reply / commitment messages carry no asks by design — only
+        # force the link when the body actually made the ask.
+        if asks_in_body or (ask_live and not pending_reply and not commitment):
+            body = body.rstrip()
+            if body[-1:] not in ".!?":
+                body += "."
+            body += f" Here's the link to connect it: {connect_link}"
+            print("  [connect-link] draft asked for the Google connection "
+                  "without the link — appended it")
 
     def _flags(key):
         return [f for f in (draft.get(key) or [])

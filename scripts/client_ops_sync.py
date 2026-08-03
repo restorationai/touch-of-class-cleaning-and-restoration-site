@@ -971,9 +971,15 @@ def ensure_google_connect_asks(dry_run: bool, cid_to_slug: dict) -> list[str]:
                    "effort": "low",
                    "title": "Connect your Google Business Profile",
                    "target": link,
+                   # GBP-connect link rule (Santino 2026-08-03): the ask's
+                   # instruction text ALWAYS carries the link — the concierge
+                   # compose also hard-enforces it (a connect ask without the
+                   # link never passes; MCC got "here's a link" with no link
+                   # attached 2026-07-25).
                    "rationale": ("Their listing exists but the account isn't "
-                                 "connected. Send this link and tell them to sign "
-                                 "in with the Google account that manages their "
+                                 "connected. ALWAYS include this exact link in "
+                                 "the message and tell them to sign in with "
+                                 "the Google account that manages their "
                                  "business listing: " + link)}
             if dry_run:
                 lines.append(f"google-connect {slug}: WOULD seed ask")
