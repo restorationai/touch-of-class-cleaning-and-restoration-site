@@ -416,10 +416,10 @@
     },
     {
       "id": "2026-07-16-does-homeowners-insurance-cover-mold",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-07-16T20:20:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-08-03T18:19:16Z",
+      "post_url": "https://homepriderestorationandcleaning.com/blog/does-homeowners-insurance-cover-mold/",
       "primary_keyword": "does homeowners insurance cover mold",
       "intent": "informational",
       "volume": 5400,
@@ -560,6 +560,201 @@
         "https://www.epa.gov/mold/mold-cleanup-your-home"
       ],
       "notes": "GEO/AI-retrieval pillar. No mold-process blog exists (parity gap: fire has /blog/fire-damage-restoration-process/, mold does not). Null Google volume but the ChatGPT scraper decomposed the seed into exactly this six-step process (inspection, containment, HEPA air filtration, removal, drying, restoration); question-format process pages are what AI engines lift verbatim. KD 11, very winnable. Cover the six remediation steps, the EPA 10 sq ft threshold, containment/negative-air, whether occupants can stay, and remediation-vs-removal terminology. Cross-link the mold-remediation service page and the queued when-is-mold-remediation-required and mold-remediation-cost posts."
+    },
+    {
+      "id": "2026-08-03-does-homeowners-insurance-cover-storm-damage",
+      "status": "queued",
+      "queued_at": "2026-08-03T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does homeowners insurance cover storm damage",
+      "intent": "informational",
+      "volume": 70,
+      "kd": 2,
+      "fan_out_cluster": [
+        "does insurance cover roof damage from storm",
+        "storm damage insurance",
+        "what storm damage is not covered by homeowners insurance",
+        "does homeowners insurance cover ice storm damage",
+        "additional living expenses after storm damage",
+        "does homeowners insurance cover flood damage"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-storm-damage",
+      "suggested_title": "Does homeowners insurance cover storm damage? A Utah homeowner guide",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/storm-damage-restoration/",
+        "/services/roof-leak-repair/",
+        "/services/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "storm-damage-restoration",
+        "roof-leak-repair",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.allstate.com/resources/home-insurance/storm-and-wind-damage",
+        "https://content.naic.org/article/consumer_insight_after_storm_read_fine_print_avoid_signing_away_your_insurance_benefits.htm",
+        "https://insurance.utah.gov/"
+      ],
+      "notes": "Flagship storm-insurance pillar: KD 2 with an $18.39 CPC, so this is cheap organic real estate for a term with real commercial value. Lead with the covered-vs-excluded split (wind, hail, lightning, weight of snow/ice covered; rising-water flooding and wear-and-tear excluded) because that is the distinction Utah homeowners get wrong. Link out to the planned /blog/storm-damage-insurance-claim-checklist/ post rather than repeating claim-filing steps."
+    },
+    {
+      "id": "2026-08-03-does-homeowners-insurance-cover-wind-damage",
+      "status": "queued",
+      "queued_at": "2026-08-03T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does homeowners insurance cover wind damage",
+      "intent": "informational",
+      "volume": 170,
+      "kd": 19,
+      "fan_out_cluster": [
+        "does homeowners insurance cover wind damage to roof",
+        "wind damage to fence covered by insurance",
+        "does state farm homeowners insurance cover wind damage",
+        "does home insurance cover wind damage to fences",
+        "windstorm insurance",
+        "hail and wind insurance"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-wind-damage",
+      "suggested_title": "Does homeowners insurance cover wind damage? Roofs, fences, and siding",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/storm-damage-restoration/",
+        "/services/roof-leak-repair/"
+      ],
+      "service_tags": [
+        "storm-damage-restoration",
+        "roof-leak-repair"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.allstate.com/resources/home-insurance/storm-and-wind-damage",
+        "https://www.insurance.com/home-and-renters-insurance/claims/storm-damage-insurance-claims",
+        "https://insurance.utah.gov/"
+      ],
+      "notes": "Absorbs the \"wind damage to roof\" (140/mo, KD 11) and \"wind damage to fence\" (70/mo, CPC 28.69) variants as H2 sections so we do not cannibalise with three near-identical posts. Wasatch Front canyon winds are the local hook: reference real wind events rather than hurricane framing."
+    },
+    {
+      "id": "2026-08-03-does-homeowners-insurance-cover-roof-leaks-from-rain",
+      "status": "queued",
+      "queued_at": "2026-08-03T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does homeowners insurance cover roof leaks from rain",
+      "intent": "informational",
+      "volume": 170,
+      "kd": 20,
+      "fan_out_cluster": [
+        "roof leak should i call insurance",
+        "how do i make a successful roof leak insurance claim",
+        "does homeowners insurance cover roof leaks from snow",
+        "does homeowners insurance cover roof leaks from ice dams",
+        "does homeowners insurance cover roof leaks state farm",
+        "roof leak insurance claim denied"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-roof-leaks-from-rain",
+      "suggested_title": "Does homeowners insurance cover roof leaks from rain? What adjusters look for",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/roof-leak-repair/",
+        "/services/storm-damage-restoration/",
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/"
+      ],
+      "service_tags": [
+        "roof-leak-repair",
+        "storm-damage-restoration",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.insurance.com/home-and-renters-insurance/claims/storm-damage-insurance-claims",
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.allstate.com/resources/home-insurance/storm-and-wind-damage"
+      ],
+      "notes": "The sudden-and-accidental vs deferred-maintenance distinction is the whole article: that is why these claims get denied. Ties to the existing ice-dam content (bank already has \"does homeowners insurance cover roof leaks from ice dams\" territory) so cross-link to the Park City ice dam posts. Mention the 24-48 hour mold window to justify the mold-remediation link."
+    },
+    {
+      "id": "2026-08-03-does-homeowners-insurance-cover-tornado-damage",
+      "status": "queued",
+      "queued_at": "2026-08-03T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does homeowners insurance cover tornado damage",
+      "intent": "informational",
+      "volume": 590,
+      "kd": null,
+      "fan_out_cluster": [
+        "what type of insurance covers damage from a tornado",
+        "does renters insurance cover tornado damage",
+        "tornado insurance cost",
+        "is there tornado insurance",
+        "does insurance cover tornado damage house",
+        "does state farm homeowners insurance cover tornado damage"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-tornado-damage",
+      "suggested_title": "Does homeowners insurance cover tornado damage? Coverage and exclusions",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/storm-damage-restoration/",
+        "/services/junk-debris-removal/",
+        "/services/roof-leak-repair/"
+      ],
+      "service_tags": [
+        "storm-damage-restoration",
+        "junk-debris-removal",
+        "roof-leak-repair"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.allstate.com/resources/home-insurance/storm-and-wind-damage",
+        "https://www.insurance.com/home-and-renters-insurance/claims/storm-damage-insurance-claims",
+        "https://insurance.utah.gov/"
+      ],
+      "notes": "Highest volume in this run at 590/mo. Tornadoes are rare in Utah, so keep the local angle honest: frame it as high-wind and microburst events (Utah does get them) and do not imply a tornado-prone service area. Renters-insurance angle (140/mo) is a clean H2."
+    },
+    {
+      "id": "2026-08-03-what-to-do-after-storm-damage-to-your-house",
+      "status": "queued",
+      "queued_at": "2026-08-03T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what to do after storm damage to your house",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "storm damage cleanup checklist",
+        "how to tarp a roof after storm damage",
+        "how to document storm damage for insurance",
+        "should i wait for the adjuster before making repairs",
+        "emergency board up after storm",
+        "how long does storm damage restoration take"
+      ],
+      "suggested_slug": "what-to-do-after-storm-damage-to-your-house",
+      "suggested_title": "What to do after storm damage to your house (the first 24 hours)",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/storm-damage-restoration/",
+        "/services/water-damage-restoration/",
+        "/services/roof-leak-repair/",
+        "/services/junk-debris-removal/"
+      ],
+      "service_tags": [
+        "storm-damage-restoration",
+        "water-damage-restoration",
+        "roof-leak-repair"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://content.naic.org/article/consumer_insight_after_storm_read_fine_print_avoid_signing_away_your_insurance_benefits.htm",
+        "https://yourhome.fanniemae.com/get-relief/disaster/insurance-after-disaster",
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Zero measured Google volume but surfaced directly by the ChatGPT decomposition, so it is AI-retrieval fuel: write it as a numbered, liftable passage (safety, document, mitigate, call insurer, keep records). Must stay mitigation-focused and defer claim mechanics to /blog/storm-damage-insurance-claim-checklist/ to avoid duplicate content."
     }
   ]
 }
