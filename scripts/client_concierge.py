@@ -2556,11 +2556,14 @@ def ingest_inbound_media(company: dict, msg: dict, dry_run: bool) -> dict:
                       so they never get posted to Google)
       videos       -> branding/{cid}/job-videos/        (the GBP poster only
                       handles PHOTO media; keep its folder clean)
-      contacts     -> branding/{cid}/contacts/          (texted vCards — a
+      contacts     -> client-contacts/{cid}/contacts/   (texted vCards — a
                       shared customer contact used to die in "failed" and
                       only survive if a human copied it into a note; Gabriel
                       / Flood Fixers 2026-08-01. Raw .vcf kept + parsed
-                      name/phone/email returned in "contact_cards")
+                      name/phone/email returned in "contact_cards".
+                      PRIVATE bucket, service-role only: vCards carry
+                      customer names+phones, so they must never live in the
+                      public 'branding' bucket like the media does)
     Images are re-encoded (EXIF/GPS stripped) like the upload page does."""
     out = {"photos": 0, "screenshots": 0, "videos": 0, "contacts": 0,
            "failed": 0, "contact_cards": []}
@@ -2580,6 +2583,7 @@ def ingest_inbound_media(company: dict, msg: dict, dry_run: bool) -> dict:
                                    hashlib.sha1(url.encode()).hexdigest()[:8])
             sb_url = os.environ["SUPABASE_URL"].rstrip("/")
             sb_key = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
+            bucket = "branding"                 # public — media only, no PII
             if ctype.startswith("video/") or ext in ("mp4", "mpg4", "mov", "m4v"):
                 path = f"{cid}/job-videos/sms-{stamp}.mp4"
                 body, up_type, kind = raw, (ctype or "video/mp4"), "videos"
@@ -2607,15 +2611,16 @@ def ingest_inbound_media(company: dict, msg: dict, dry_run: bool) -> dict:
                     {"name": "", "phone": "", "email": ""}]
                 out["contact_cards"].extend(cards)
                 path = f"{cid}/contacts/sms-{stamp}.vcf"
+                bucket = "client-contacts"      # PRIVATE — customer PII
                 body, up_type, kind = raw, "text/vcard", "contacts"
             else:
                 out["failed"] += 1
                 continue
             if dry_run:
-                print(f"    [dry-run] would store {kind[:-1]} -> {path}")
+                print(f"    [dry-run] would store {kind[:-1]} -> {bucket}/{path}")
             else:
                 up = requests.post(
-                    f"{sb_url}/storage/v1/object/branding/{path}", data=body,
+                    f"{sb_url}/storage/v1/object/{bucket}/{path}", data=body,
                     headers={"apikey": sb_key, "Authorization": f"Bearer {sb_key}",
                              "Content-Type": up_type, "x-upsert": "false"},
                     timeout=120)
@@ -2653,9 +2658,9 @@ def file_contact_note(company: dict, cards: list[dict],
     if linked:
         body += (f"\n(likely relates to open {linked['kind']} item "
                  f"{str(linked['id'])[:8]}: {linked['text'][:120]!r})")
-    body += ("\n(raw .vcf saved to branding/{}/contacts/ — NOT enrolled in "
-             "any review campaign; sender gates are a human decision)"
-             .format(company.get("id")))
+    body += ("\n(raw .vcf saved to private client-contacts/{}/contacts/ — "
+             "NOT enrolled in any review campaign; sender gates are a human "
+             "decision)".format(company.get("id")))
     if dry_run:
         print(f"    [dry-run] would file ops note:\n      "
               + body.replace("\n", "\n      "))
