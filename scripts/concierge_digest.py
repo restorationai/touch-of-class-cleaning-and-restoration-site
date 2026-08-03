@@ -46,6 +46,20 @@ def main() -> int:
         print("digest: nothing new in 24h — no email sent")
         return 0
 
+    # ONCE PER UTC DAY (2026-08-03): the Railway ops-worker now dispatches
+    # BOTH daily concierge slots with mode=daily, which satisfies the
+    # workflow's digest condition on the 19:37 run too — without this guard
+    # Santino would get the same digest twice a day.
+    today = datetime.now(timezone.utc).date().isoformat()
+    try:
+        rows = _sb("GET", "/rest/v1/ops_kv?k=eq.concierge-digest-sent&select=v",
+                   prefer="return=representation") or []
+        if rows and rows[0].get("v") == today:
+            print("digest: already sent today — skipping")
+            return 0
+    except Exception as e:  # noqa: BLE001 — the guard must never eat the digest
+        print(f"digest: dedupe check failed ({str(e)[:80]}) — sending anyway")
+
     lines = ["Monica's overnight digest — needs a human:\n"]
     for e in esc[:15]:
         lines.append(f"• {e.get('company_name') or '?'}: {(e.get('reason') or '')[:220]}")
@@ -69,7 +83,16 @@ def main() -> int:
                             "subject": f"Monica digest — {len(esc)} escalation(s) need you",
                             "content": [{"type": "text/plain", "value": body}]})
     print("digest email:", r.status_code)
-    return 0 if r.status_code in (200, 202) else 1
+    if r.status_code in (200, 202):
+        try:
+            _sb("POST", "/rest/v1/ops_kv?on_conflict=k",
+                {"k": "concierge-digest-sent", "v": today,
+                 "updated_at": datetime.now(timezone.utc).isoformat()},
+                prefer="resolution=merge-duplicates,return=minimal")
+        except Exception as e:  # noqa: BLE001
+            print(f"digest: dedupe stamp failed ({str(e)[:80]})")
+        return 0
+    return 1
 
 
 if __name__ == "__main__":
