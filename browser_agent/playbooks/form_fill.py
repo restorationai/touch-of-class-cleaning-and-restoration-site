@@ -136,7 +136,55 @@ PORTALS = {
         #    homeguide.com/{st}/{city}/{category}/{slug}-{id}.
         #  2026-08-02 @98409: NaRestCo NOT in top-10; client 'Allpro
         #    Construction' (Auburn WA) IS already listed.
-        "selectors": {},
+        # Pinned during supervised run 1 (narestco, 2026-08-02, clean —
+        #  public URL live same night; homeguide_state_machine.py is the
+        #  reference driver):
+        #  signup: /pro hero -> zip FIRST, then #service typeahead ('Water
+        #    Damage' surfaces 'Water Damage Cleanup And Restoration' — pick
+        #    it), 'Sign up for free' opens a MODAL on the same page: 'Sign up
+        #    with email' -> email + MOBILE PHONE (tel, becomes account phone;
+        #    enter GBP primary) + password; 'enable texts for account and job
+        #    updates' checkbox PRE-TICKED -> uncheck; submit 'Sign up'. NO
+        #    email-verification gate; HomeGuide sent zero emails all run.
+        #  wizard (homeguide.com/pro/onboarding/* — body-text state machine):
+        #    more-services = additional-category PILLS are <button>s, NOT
+        #    checkboxes (Mold Inspection And Removal + General Contracting
+        #    are the useful restoration adds; Skip works);
+        #    {svc}/business-info (business-name, website; Continue validates,
+        #    Skip fine — full NAP lives in the app later);
+        #    {svc}/profile-image input[type=file] <- logo PNG -> Save;
+        #    {svc}/business-intro textarea <- description;
+        #    tutorial-aperture?aperture_id=pricing|payment = info, Continue;
+        #    services/{svc}/job-preference: job-scope checkboxes ALL
+        #    PRE-CHECKED, leave and Continue;
+        #    services/{svc}/provider/geo-preference: map, default 'by
+        #    distance 25 miles', text warns matches will AUTO-PAY -> Continue
+        #    (harmless with no card);
+        #    services/{svc}/budget -> Continue (default budget, inert w/o
+        #    card); services/{svc}/creditcard (cc-number/cc-exp/cc-csc +
+        #    Save, NO skip) = THE upsell wall -> navigate away; account and
+        #    listing survive.
+        #  app dashboard = app.homeguide.com/pros (Talo booking software,
+        #    help.talo.com). Profile: /pros/profile (overview; phones show
+        #    'Hidden from customers' — public page routes contact through
+        #    HG messaging, so phone/website absence on the public profile is
+        #    by design, not an error), /pros/profile/edit-info NAP form
+        #    (#business-name #year-founded #number-of-employees
+        #    #phone-number #company-phone-number #company-email #website
+        #    #street-address #address-suite #postal-code + payment-type
+        #    checkboxes + social/GBP/Yelp URL inputs), /edit-intro,
+        #    /edit-media. TRAPS for regex fillers: the suite input is
+        #    name='business-name' id='address-suite'; 'company-email'
+        #    matches naive /company/ patterns; #year-founded and
+        #    #number-of-employees come PREFILLED '0' (input_value truthy ->
+        #    fill-if-empty logic skips them; set explicitly).
+        #  public URL appears in /search within ~minutes of profile
+        #    completion (no review hold): narestco ->
+        #    homeguide.com/wa/federal-way/water-damage-restoration/
+        #    national-restoration-construction-A8aisT6gf. Renders name,
+        #    '22 years in business' (from year-founded), 'Serves {city},
+        #    WA', intro, specialties. record_listing() written 2026-08-02.
+        "selectors": {"supervised_runs_clean": 1},
     },
     "bbb": {
         "label": "BBB",
