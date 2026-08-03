@@ -16,13 +16,108 @@ concierge_escalations + Storage), so this container is fully disposable.
 
 from __future__ import annotations
 
+import json
+import os
 import subprocess
 import sys
 import time
-from datetime import datetime, timezone
+import urllib.error
+import urllib.request
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 HERE = Path(__file__).parent
+
+# ---------------------------------------------------------------- gh dispatch
+# GitHub's schedule trigger silently drops runs (2026-08-03: the 16:07 UTC
+# client-concierge cron never fired — workflow active, file unchanged; known
+# GitHub cron flakiness). Cron-critical workflows are therefore FIRED FROM
+# HERE via workflow_dispatch at their intended times; GitHub's own cron stays
+# on as backup. Dedupe: before dispatching we ask the GitHub API whether any
+# run of the workflow was already created at/after the slot time (GitHub's
+# cron beat us, or a previous worker process already dispatched) — if so we
+# skip. Auth: GH_PAT (same secret the FastAPI service uses) or
+# GITHUB_PERSONAL_ACCESS_TOKEN.
+GH_REPO = os.environ.get("GH_REPO", "restorationai/Rank-AI-Pipeline")
+
+WORKFLOW_DISPATCH_JOBS = [
+    # (name, workflow file, ["HH:MM", ...] UTC, weekdays_only, inputs)
+    ("concierge", "client-concierge.yml", ["16:07", "19:37"], True,
+     {"mode": "daily"}),
+]
+# How long after a slot we still fire a missed dispatch (worker restarts).
+DISPATCH_CATCHUP = timedelta(hours=3)
+
+
+def _gh_token() -> str | None:
+    return (os.environ.get("GH_PAT")
+            or os.environ.get("GITHUB_PERSONAL_ACCESS_TOKEN") or None)
+
+
+def _gh(method: str, path: str, body: dict | None = None):
+    req = urllib.request.Request(
+        "https://api.github.com" + path, method=method,
+        data=json.dumps(body).encode() if body is not None else None,
+        headers={"Authorization": "Bearer " + _gh_token(),
+                 "Accept": "application/vnd.github+json",
+                 "User-Agent": "rank-ai-ops-scheduler"})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        raw = r.read()
+        return json.loads(raw) if raw else {}
+
+
+def run_started_for_slot(workflow: str, slot: datetime) -> bool:
+    """True when GitHub shows ANY run of `workflow` created at/after `slot`
+    (minus a 2-min clock-skew grace) — GitHub's own cron fired, or another
+    dispatch already went out. This is the dedupe that makes the worker-side
+    dispatch safe to run alongside GitHub's cron."""
+    since = (slot - timedelta(minutes=2)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    data = _gh("GET", f"/repos/{GH_REPO}/actions/workflows/{workflow}/runs"
+                      f"?created=%3E%3D{since}&per_page=5")
+    return bool(data.get("workflow_runs"))
+
+
+def dispatch_workflow(name: str, workflow: str, slot: datetime,
+                      inputs: dict) -> None:
+    """Fire one workflow_dispatch for the slot unless a run already started."""
+    if not _gh_token():
+        log(f"!!! dispatch {name}: no GH_PAT/GITHUB_PERSONAL_ACCESS_TOKEN "
+            "in env — cannot dispatch (GitHub cron is the only trigger)")
+        return
+    try:
+        if run_started_for_slot(workflow, slot):
+            log(f"dispatch {name} {slot.strftime('%H:%M')}Z: a run already "
+                "started this slot (GitHub cron or earlier dispatch) — skipping")
+            return
+        _gh("POST", f"/repos/{GH_REPO}/actions/workflows/{workflow}/dispatches",
+            {"ref": "main", "inputs": inputs})
+        log(f"dispatch {name} {slot.strftime('%H:%M')}Z: workflow_dispatch "
+            f"fired ({workflow})")
+    except urllib.error.HTTPError as e:
+        log(f"!!! dispatch {name} failed: HTTP {e.code} "
+            f"{e.read().decode()[:200]}")
+    except Exception as e:  # noqa: BLE001 — the loop must survive
+        log(f"!!! dispatch {name} failed: {e!r}")
+
+
+def tick_workflow_dispatches(done: dict) -> None:
+    """Called every loop tick: fire any due (and not-yet-handled) slot.
+    `done` maps (name, date, "HH:MM") -> True for slots this process already
+    handled; across restarts the GitHub-side run check is the dedupe."""
+    now = datetime.now(timezone.utc)
+    for name, workflow, slots, weekdays_only, inputs in WORKFLOW_DISPATCH_JOBS:
+        if weekdays_only and now.weekday() >= 5:
+            continue
+        for hhmm in slots:
+            key = (name, now.date(), hhmm)
+            if done.get(key):
+                continue
+            hh, mm = (int(x) for x in hhmm.split(":"))
+            slot = now.replace(hour=hh, minute=mm, second=0, microsecond=0)
+            if now < slot or now - slot > DISPATCH_CATCHUP:
+                continue
+            done[key] = True
+            dispatch_workflow(name, workflow, slot, inputs)
 
 # Daily jobs fire once per UTC day at/after the given HH:MM.
 DAILY_JOBS = [
@@ -74,11 +169,18 @@ def log(msg: str) -> None:
 def main() -> None:
     last_run = {name: 0.0 for name, _, _ in JOBS}
     daily_done: dict = {}
+    dispatch_done: dict = {}
     log(f"ops worker up — jobs: "
-        + ", ".join(f"{n}/{iv}s" for n, iv, _ in JOBS))
+        + ", ".join(f"{n}/{iv}s" for n, iv, _ in JOBS)
+        + " | gh-dispatch: "
+        + ", ".join(f"{n}@{'/'.join(s)}Z" for n, _, s, _, _
+                    in WORKFLOW_DISPATCH_JOBS))
     while True:
         now = time.time()
         utc = datetime.now(timezone.utc)
+        # Cron-critical GitHub workflows: fire workflow_dispatch at the
+        # intended times (GitHub's own cron drops runs; it stays as backup).
+        tick_workflow_dispatches(dispatch_done)
         for name, at, argv in DAILY_JOBS:
             if daily_done.get(name) == utc.date():
                 continue

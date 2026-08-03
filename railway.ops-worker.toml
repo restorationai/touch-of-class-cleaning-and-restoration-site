@@ -25,3 +25,6 @@ restartPolicyType = "ALWAYS"
 #   FATHOM_API_KEY                            — meeting sync
 #   GOOGLE_OAUTH_CLIENT_ID / _SECRET          — Gmail token refresh
 #   GMAIL_TOKEN_JSON                          — contents of gmail_token.json
+#   GH_PAT (or GITHUB_PERSONAL_ACCESS_TOKEN)  — workflow_dispatch for
+#       cron-critical GitHub workflows (client-concierge 16:07/19:37 UTC
+#       weekdays); GitHub's own cron drops runs silently and stays as backup

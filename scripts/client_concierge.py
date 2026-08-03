@@ -402,6 +402,7 @@ def anthropic_json(system: str, user: str, *, max_tokens: int = 4000,
                    + [{"type": "text", "text": user}])
     last_text = ""
     last_stop = None
+    messages: list[dict] = [{"role": "user", "content": content}]
     for attempt in (1, 2, 3):
         resp = requests.post(ANTHROPIC_API, timeout=120, headers={
             "x-api-key": os.environ["ANTHROPIC_API_KEY"],
@@ -410,7 +411,7 @@ def anthropic_json(system: str, user: str, *, max_tokens: int = 4000,
         }, json={
             "model": ANTHROPIC_MODEL, "max_tokens": max_tokens,
             "system": system,
-            "messages": [{"role": "user", "content": content}],
+            "messages": messages,
         })
         resp.raise_for_status()
         data = resp.json()
@@ -430,6 +431,19 @@ def anthropic_json(system: str, user: str, *, max_tokens: int = 4000,
             # retrying so the text actually fits.
             if last_stop == "max_tokens":
                 max_tokens = min(max_tokens * 2, 16000)
+            elif text:
+                # NON-JSON with a normal end_turn: the model wrote the message
+                # as prose instead of the JSON envelope (Mold Solutionz
+                # compose failed 6/6 identical retries this way, 08-03).
+                # Blind retries reproduce it — a CORRECTIVE turn (same trick
+                # as gbp.py's _anthropic_json) reliably snaps it back.
+                messages = messages[:1] + [
+                    {"role": "assistant", "content": text[:3000]},
+                    {"role": "user", "content":
+                     "That was not the required format. Reply again with "
+                     "ONLY the JSON object described in the instructions — "
+                     "put your draft in its fields. The very first character "
+                     "of your reply must be '{'."}]
             print(f"  [anthropic_json] empty/non-JSON reply "
                   f"(stop_reason={last_stop}) — retrying "
                   f"(max_tokens now {max_tokens})")
@@ -479,6 +493,30 @@ def record_sent_message(state: dict, result: dict | None) -> None:
         mid = (result or {}).get(key)
         if mid and mid not in ids:
             ids.append(mid)
+    # EMAIL ID RECONCILIATION (PuroClean 2026-08-03 post-mortem): for Email
+    # sends GHL returns emailMessageId, but the message row that later shows
+    # up in the conversation carries a DIFFERENT id — so Monica's own email
+    # read as a HUMAN outbound and tripped the 12h human-defer window on
+    # every hourly compose after her 07-29 intro email to Greg. Best-effort:
+    # pull the conversation's newest outbound email id and record it too.
+    conv = (result or {}).get("conversationId")
+    if conv and (result or {}).get("emailMessageId"):
+        try:
+            data = _ghl("GET", f"/conversations/{conv}/messages",
+                        params={"limit": 10})
+            best = None
+            for msg in (data.get("messages") or {}).get("messages", []) or []:
+                if (msg.get("direction") == "inbound"
+                        or msg.get("messageType") != "TYPE_EMAIL"
+                        or not msg.get("id")):
+                    continue
+                when = msg.get("dateAdded") or ""
+                if best is None or when > best[0]:
+                    best = (when, msg["id"])
+            if best and best[1] not in ids:
+                ids.append(best[1])
+        except Exception as e:  # noqa: BLE001 — bookkeeping never fails a send
+            print(f"  [sent-ids] email reconcile failed: {str(e)[:80]}")
 
 
 # ---------------------------------------------------------------- history
@@ -2202,6 +2240,7 @@ def cmd_compose(args) -> int:
     if dup:
         print(f"\nSEND REFUSED (duplicate guard): {dup}", file=sys.stderr)
         return 0
+    channel_used = args.channel
     try:
         result = send_message(contact, args.channel, draft["body"],
                               draft["subject"])
@@ -2211,22 +2250,40 @@ def cmd_compose(args) -> int:
         # GH-Actions run on every cycle with any non-allowlisted nudge
         # target (the workflow had literally never gone green, 08-03).
         # Surface it in Ops Attention ONCE per company+channel, then move on.
-        print(f"\nSEND BLOCKED: {e}", file=sys.stderr)
-        if intel_flag_once(state, f"send-block:{args.company}:{args.channel}"):
-            append_escalation(company, None, f"send blocked: {e}",
-                              dry_run=False, ping=False)
-            save_state(state, dry_run=False)
-        return 0
+        # DND EMAIL FALLBACK (Greg/PuroClean 2026-08-03: his SMS DND sits
+        # 'permanent' from a Twilio 21614 "not a valid mobile" — SMS can
+        # never land, and he got zero outreach): when the CRM has SMS turned
+        # off but the contact has an email, the same message goes out by
+        # email instead of going silent. Every other block keeps skip+surface.
+        result = None
+        if ("DND active" in str(e) and args.channel == "sms"
+                and (contact.get("email") or "").strip()):
+            print(f"\nSMS blocked by CRM DND — falling back to email "
+                  f"({contact.get('email')})", file=sys.stderr)
+            try:
+                result = send_message(contact, "email", draft["body"],
+                                      draft["subject"])
+                channel_used = "email"
+            except SendBlocked as e2:
+                print(f"SEND BLOCKED (email fallback too): {e2}",
+                      file=sys.stderr)
+        if result is None:
+            print(f"\nSEND BLOCKED: {e}", file=sys.stderr)
+            if intel_flag_once(state, f"send-block:{args.company}:{args.channel}"):
+                append_escalation(company, None, f"send blocked: {e}",
+                                  dry_run=False, ping=False)
+                save_state(state, dry_run=False)
+            return 0
     record_sent_message(state, result)
     # Work ledger (fail-open): one line item per DELIVERED message — logged
     # only after send_message() returned, never on drafts/blocked sends.
     try:
         from work_log import work_log
-        verb = "Texted" if args.channel == "sms" else "Emailed"
+        verb = "Texted" if channel_used == "sms" else "Emailed"
         work_log(company["id"], "outreach",
-                 f"{args.channel}-sent",
+                 f"{channel_used}-sent",
                  f"{verb} {first}: {draft['body'][:80]}",
-                 evidence={"channel": args.channel,
+                 evidence={"channel": channel_used,
                            "ghl_contact_id": contact["id"],
                            "chars": len(draft["body"])},
                  actor="monica", source="client_concierge.py compose")
@@ -2239,7 +2296,7 @@ def cmd_compose(args) -> int:
                "last_contacted": now,
                "first_contacted": cs.get("first_contacted") or now,
                "nudge_count": cs.get("nudge_count", 0) + 1,
-               "last_channel": args.channel})
+               "last_channel": channel_used})
     save_state(state, dry_run=False)
     # One-shot boss directives ([FROM SANTINO...], [SEND-PREVIEW]) are acted on
     # by THIS send — resolve them so the cadence bypass they grant can't keep
@@ -2256,6 +2313,64 @@ def cmd_compose(args) -> int:
     except Exception as e:  # bookkeeping must never fail the send
         print(f"  [directive] resolve failed: {str(e)[:100]}")
     return 0
+
+
+# ---------------------------------------------------------------- preview
+def preview_compose(company_id: str, channel: str = "sms") -> dict:
+    """READ-ONLY preview of the next concierge message for one company — the
+    engine behind the Railway POST /concierge-preview endpoint (Santino
+    2026-08-03: "Is there a way to see a preview of the upcoming message in
+    the app? Or does it generate on the spot?" — it generates on the spot,
+    so the preview runs the SAME compose in dry-run). Writes NOTHING: no
+    state, no escalations, no sends, no intake/plan mutations. The real send
+    may differ slightly because it re-composes with whatever is newest in
+    the thread at send time.
+
+    Returns {company, channel, draft, subject, gate, items}:
+      gate  = why a real send would currently be refused or deferred
+              (cooldown / business hours / human-defer / max nudges), or
+              None when a send would go out now. The draft is returned
+              either way so the copy can be inspected."""
+    state = load_state()
+    company = fetch_companies([company_id]).get(company_id)
+    if not company:
+        return {"error": f"company {company_id} not found"}
+    items = gather_items(company_id)
+    items = filter_already_satisfied(company, items, dry_run=True)
+    contact = resolve_contact(company)
+    first = contact_first_name(contact, company)
+    # copy: pending_client_message may pop stale flags — never persisted here
+    cs = dict(company_state(state, company_id))
+    first_contact = not cs.get("first_contacted")
+    history = fetch_history(contact["id"]) if contact else []
+    if first_contact and any(
+            m.get("direction") != "in"
+            and "this is monica" in str(m.get("body") or "").lower()
+            for m in history):
+        first_contact = False
+    pending = pending_client_message(cs, history, state)
+    commitment = cs.get("pending_commitment") or None
+    owed = bool(pending or commitment)
+    gate = (human_conversation_deferral(history, state)
+            or cadence_check(cs, company, contact,
+                             boss_override=has_boss_directive(company_id),
+                             client_waiting=owed))
+    if not items and not owed:
+        return {"company": company.get("name"), "channel": channel,
+                "gate": "nothing outstanding — no message would be sent",
+                "draft": "", "subject": None, "items": []}
+    intel = load_meeting_intel(company)
+    appts = None
+    if contact:
+        tz_name, _src = resolve_timezone(company, contact)
+        res = fetch_upcoming_appointments(contact["id"], tz_name)
+        appts = res[0] if isinstance(res, tuple) else None
+    draft = compose_draft(company, first, items, channel, first_contact,
+                          history=history, intel=intel, appointments=appts,
+                          pending_reply=pending, commitment=commitment)
+    return {"company": company.get("name"), "channel": channel, "gate": gate,
+            "draft": draft["body"], "subject": draft.get("subject"),
+            "items": [i["text"] for i in draft.get("items", [])]}
 
 
 # ---------------------------------------------------------------- status
@@ -2792,18 +2907,20 @@ _QUALIFIER_RE = re.compile(r"\b(?:not|don'?t|except|only|no longer|stopped)\b",
 
 def route_confirmed_services(company: dict, answer: str, dry_run: bool) -> None:
     """The client answered the GBP service sanity-check ("ASK CLIENT:
-    confirm N service(s) on their Google listing"). Route it (Santino
-    2026-08-03: Curt's yes went nowhere):
+    confirm N service(s) on their Google listing"). Route it.
 
-    Clear YES -> flip the company's open NEEDS-REVIEW service/category
-    suggestions to source "confirmed" / verdict ADD — exactly the shape
-    gbp.py's optimizer treats as client-confirmed, so the EXISTING queues
-    pick them up on the nightly pass: the app's one-click "Add N confirmed
-    service(s) to your Business Profile" row and "Create N website page(s)
-    for confirmed services" (site content pipeline). No Google write and no
-    page build happens here — both stay behind the app's approval buttons.
+    Clear YES -> AUTO-APPLY (Santino 2026-08-03 policy change: "If Curt
+    says yes, why not just add it automatically? Waiting for my approval
+    doesn't seem necessary — they've already confirmed"). No approval
+    click: gbp.apply_confirmed_services() writes the confirmed services to
+    the GBP listing NOW (each add recorded in marketing_gbp_changes),
+    queues the service pages into marketing_page_requests (the site
+    content pipeline drains it), flips the board cards to done WITH the
+    evidence (visible, never hidden), and writes the work-log line items.
+    CATEGORY changes are never auto-applied — those keep the app's
+    one-click approval (highest-stakes GBP edit).
 
-    Mixed/negative ("we do X but not Y") -> never bulk-flip; escalate to
+    Mixed/negative ("we do X but not Y") -> never bulk-apply; escalate to
     the digest so a human maps which services survive."""
     cid = company.get("id")
     ans = (answer or "").strip()
@@ -2814,27 +2931,20 @@ def route_confirmed_services(company: dict, answer: str, dry_run: bool) -> None:
                           "services to keep manually in Marketing -> "
                           "Locations", dry_run)
         return
-    q = (f"/rest/v1/marketing_gbp_suggestions?company_id=eq.{cid}"
-         "&status=eq.open&verdict=eq.NEEDS-REVIEW"
-         "&item_type=in.(service,category)")
     try:
-        rows = _sb("GET", q + "&select=item") or []
-        if not rows:
-            print("    [svc-confirm] no open NEEDS-REVIEW suggestions to flip")
-            return
-        if dry_run:
-            print(f"    [dry-run] would flip {len(rows)} NEEDS-REVIEW "
-                  f"suggestion(s) -> source=confirmed verdict=ADD: "
-                  + ", ".join(str(r['item'])[:30] for r in rows[:5]))
-            return
-        _sb("PATCH", q, {"verdict": "ADD", "source": "confirmed",
-                         "reason": ("Client confirmed by SMS "
-                                    f"{datetime.now(timezone.utc).date()}: "
-                                    + ans[:140])},
-            prefer="return=minimal")
-        print(f"    [svc-confirm] {len(rows)} suggestion(s) flipped to "
-              "confirmed/ADD — nightly GBP pass queues the one-click "
-              "apply + service-page rows")
+        import gbp  # same scripts/ dir
+        res = gbp.apply_confirmed_services(cid, answer=ans, dry_run=dry_run)
+        print("    [svc-confirm] auto-apply: "
+              f"{len(res.get('added') or [])} added to the listing, "
+              f"{len(res.get('kept') or [])} confirmed-kept, "
+              f"{len(res.get('pages_queued') or [])} page(s) queued"
+              + (f", {len(res['categories_pending'])} categor(ies) left for "
+                 "one-click approval" if res.get("categories_pending") else ""))
+        for err in res.get("errors") or []:
+            print(f"    [svc-confirm] ERROR: {err}")
+            append_escalation(company, None,
+                              f"confirmed-services auto-apply hit an error: "
+                              f"{err[:200]}", dry_run)
     except Exception as e:  # noqa: BLE001 — routing must never kill the poll
         print(f"    [svc-confirm] routing failed: {str(e)[:100]}")
 

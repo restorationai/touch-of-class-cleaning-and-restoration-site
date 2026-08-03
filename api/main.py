@@ -1443,6 +1443,40 @@ async def concierge_inbound(request: Request):
                     "hours, the canary allowlist and cadence gates."}
 
 
+class ConciergePreviewRequest(BaseModel):
+    company_id: str
+    secret: str = ""
+
+
+@app.post("/concierge-preview")
+def concierge_preview(req: ConciergePreviewRequest):
+    """Preview Monica's NEXT message for one company (Santino 2026-08-03:
+    messages generate on the spot at send time, so the app's "Preview next
+    message" button runs the same compose in dry-run here). Read-only: no
+    state writes, no escalations, nothing sent. Returns {draft, subject,
+    channel, gate, company, items}; `gate` says why a real send would be
+    held right now (cooldown / business hours / human-defer), null when it
+    would go out. Slow by nature (~15-60s: GHL history + a Claude call).
+    Auth: shared secret checked against CONCIERGE_WEBHOOK_SECRET (falls
+    back to LEAD_AUDIT_FUNNEL_SECRET) — same contract as /concierge-inbound."""
+    expected = (os.environ.get("CONCIERGE_WEBHOOK_SECRET")
+                or os.environ.get("LEAD_AUDIT_FUNNEL_SECRET", ""))
+    if not (expected and req.secret == expected):
+        raise HTTPException(status_code=403, detail="bad secret")
+    if not req.company_id.startswith("CO-"):
+        raise HTTPException(status_code=400, detail="company_id must be a CO-… id")
+    try:
+        import client_concierge  # scripts/ is on sys.path (see header)
+        client_concierge.load_env()
+        out = client_concierge.preview_compose(req.company_id)
+    except Exception as e:  # noqa: BLE001 — surface, never 500 with a stack
+        raise HTTPException(status_code=502,
+                            detail="preview failed: " + str(e)[:300])
+    if out.get("error"):
+        raise HTTPException(status_code=404, detail=out["error"])
+    return out
+
+
 @app.post("/kickoff-prep")
 def kickoff_prep_endpoint(req: KickoffPrepRequest):
     """Fired by the GHL 'kickoff booked' workflow webhook. Spawns a thread

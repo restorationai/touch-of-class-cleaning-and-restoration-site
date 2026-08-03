@@ -410,6 +410,47 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                          "We can't launch their site until we can log into their domain "
                          "registrar. Monica is asking them for access (or credentials).",
                          "evidence": {"domain": domain, "zone_status": zstat or "none"}})
+            # Monica actually asks via marketing_action_plan (gather_items),
+            # NOT this ledger table — before 2026-08-03 the domain-access
+            # ledger card claimed "Monica is asking them" while no
+            # client_input row existed, so the ask never ranked anywhere
+            # (Mold Solutionz: site built, cutover pending, and Andrea's
+            # next draft led with the customer list). Seed the ask the
+            # moment the gap opens; the title contains "domain" so the
+            # concierge's ask_rank puts it at launch-blocker priority (1).
+            try:
+                from client_ops_sync import action_key, insert_plan_row
+                seed = f"domain-access-{slug}"
+                if built and domain and not ours and not live:
+                    if insert_plan_row(
+                            cid, slug, seed,
+                            title=f"ASK CLIENT: domain access — point {domain} "
+                                  "at the finished site",
+                            rationale=(
+                                f"Their new website is BUILT and ready to go live on "
+                                f"{domain}; the only thing missing is the final switch "
+                                "at the place where they bought the domain (GoDaddy or "
+                                "similar). MONICA: plain words only, never say "
+                                "'registrar' or 'nameservers'. ONE question: where did "
+                                "they buy the domain / where do they log in to manage "
+                                "it? Then recommend a quick 15-minute call to do the "
+                                "switch together on their phone or computer — we drive, "
+                                "they just sign in; the current site keeps working the "
+                                "whole time. This outranks every other ask, including "
+                                "the customer list — the site cannot launch without it."),
+                            action_type="client_input", target=domain,
+                            impact="high", effort="low", dry_run=dry_run):
+                        attention.append(f"{slug}: seeded Monica ask — domain "
+                                         f"access for {domain}")
+                elif not dry_run:
+                    # gap closed (live, or the zone is ours) — retire the ask
+                    _sb("PATCH", "/rest/v1/marketing_action_plan"
+                        f"?company_id=eq.{cid}"
+                        f"&action_key=eq.{action_key(cid, seed)}"
+                        "&status=eq.planned", {"status": "resolved"})
+            except Exception as e:  # noqa: BLE001 — seeding must never kill the ledger
+                attention.append(f"{slug}: domain-access ask seeding failed "
+                                 f"({str(e)[:80]})")
 
         # ---- gsc-indexnow (auto-heal once per live site) -------------------
         if live:

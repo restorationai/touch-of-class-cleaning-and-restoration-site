@@ -719,6 +719,205 @@ def cmd_add_services(args) -> int:
     return 0
 
 
+def _svc_label(item: str) -> str:
+    """Human display label for a suggestion item ('job_type_id:mold_removal'
+    -> 'Mold Removal'; free-form names pass through)."""
+    s = str(item or "").strip()
+    if s.startswith("job_type_id:"):
+        return s[len("job_type_id:"):].replace("_", " ").title()
+    return s
+
+
+def apply_confirmed_services(cid: str, answer: str = "",
+                             dry_run: bool = False) -> dict:
+    """A client gave a clear YES to the GBP service sanity-check — APPLY it
+    (Santino 2026-08-03 policy change: "If Curt says yes, why not just add it
+    automatically? Waiting for my approval doesn't seem necessary — they've
+    already confirmed"). No approval click. What happens:
+
+      1. Open NEEDS-REVIEW service suggestions become client-confirmed:
+         rows already ON the listing (source 'gbp') flip to KEEP + status
+         'applied' (nothing to change on Google — the client just confirmed
+         they belong); rows NOT on the listing flip to source 'confirmed'
+         verdict ADD and ride the apply below.
+      2. Every open confirmed/ADD SERVICE is written to the GBP listing NOW
+         via add_services() — which records each add in
+         marketing_gbp_changes — and its suggestion row flips to 'applied'
+         with the confirmation stamped in the reason: done-with-evidence,
+         visible on the board, never hidden. If the GBP write FAILS the rows
+         stay open (nothing is recorded that didn't happen).
+      3. Every open confirmed/ADD PAGE is queued into
+         marketing_page_requests (status 'queued'); the gbp-maintenance
+         workflow's create-pages --build drains the queue into plan-input ->
+         render -> deploy. Rows flip to 'applied' (= queued for build).
+      4. CATEGORY changes are NEVER auto-applied (highest-stakes GBP edit,
+         re-verification risk) — NEEDS-REVIEW categories flip to
+         confirmed/ADD but STAY OPEN for the app's one-click approval.
+      5. The strategist board cards ("Add N confirmed service(s)…" /
+         "Create N website page(s)…") flip to done with evidence appended,
+         and the whole movement lands in marketing_work_log.
+
+    Mixed/negative answers never reach this function — the caller
+    (client_concierge.route_confirmed_services) escalates those for manual
+    mapping. Returns a summary dict."""
+    import datetime as dt
+    import urllib.parse
+    slug = _slug_for_company(cid)
+    out: dict = {"company_id": cid, "slug": slug, "kept": [], "added": [],
+                 "pages_queued": [], "categories_pending": [], "errors": []}
+    if not slug:
+        out["errors"].append("no pipeline slug for this company")
+        return out
+    stamp = dt.date.today().isoformat()
+    confirm_note = f"Client confirmed by SMS {stamp}" + \
+        (f": {answer.strip()[:120]}" if answer.strip() else "")
+
+    # 1. NEEDS-REVIEW service/category rows -> client-confirmed shapes.
+    nr = _sb(f"marketing_gbp_suggestions?company_id=eq.{cid}"
+             "&status=eq.open&verdict=eq.NEEDS-REVIEW"
+             "&item_type=in.(service,category)&select=item,item_type,source,reason")
+    for row in nr:
+        item = row["item"]
+        enc = urllib.parse.quote(str(item), safe="")
+        match = (f"company_id=eq.{cid}&item_type=eq.{row['item_type']}"
+                 f"&item=eq.{enc}&status=eq.open")
+        if row["item_type"] == "category":
+            body = {"source": "confirmed", "verdict": "ADD",
+                    "reason": f"{confirm_note} — category changes need the "
+                              "one-click approval (never auto-applied)"}
+            out["categories_pending"].append(_svc_label(item))
+        elif row.get("source") == "gbp":
+            # already on the listing; the confirmation settles it as KEEP
+            body = {"source": "confirmed", "verdict": "KEEP",
+                    "status": "applied",
+                    "reason": f"{confirm_note} — already on the listing, kept"}
+            out["kept"].append(_svc_label(item))
+        else:
+            body = {"source": "confirmed", "verdict": "ADD",
+                    "reason": confirm_note}
+        if dry_run:
+            print(f"    [dry-run] would flip NEEDS-REVIEW {row['item_type']} "
+                  f"{item!r} -> {body}")
+        else:
+            _sb_patch("marketing_gbp_suggestions", match, body)
+
+    # 2. open confirmed/ADD services -> the GBP listing, right now.
+    adds = _sb(f"marketing_gbp_suggestions?company_id=eq.{cid}"
+               "&status=eq.open&verdict=eq.ADD&item_type=eq.service"
+               "&source=eq.confirmed&select=item,reason")
+    labels = [_svc_label(r["item"]) for r in adds]
+    if labels:
+        if dry_run:
+            print(f"    [dry-run] would add {len(labels)} service(s) to the "
+                  f"GBP: {labels}")
+            out["added"] = labels
+        else:
+            msg = add_services(slug, labels)   # logs marketing_gbp_changes
+            print(f"    [svc-apply] {msg}")
+            ok = ("added" in msg or "nothing to add" in msg)
+            if not ok:
+                out["errors"].append(f"GBP write failed — rows left open: "
+                                     f"{msg[:200]}")
+            else:
+                out["added"] = labels
+                for r in adds:
+                    enc = urllib.parse.quote(str(r["item"]), safe="")
+                    _sb_patch("marketing_gbp_suggestions",
+                              f"company_id=eq.{cid}&item_type=eq.service"
+                              f"&item=eq.{enc}&status=eq.open",
+                              {"status": "applied",
+                               "reason": f"{str(r.get('reason') or '')[:120]}"
+                                         f" — auto-applied {stamp} "
+                                         "(client confirmed)"})
+
+    # 3. open confirmed/ADD pages -> the page-build queue.
+    pages = _sb(f"marketing_gbp_suggestions?company_id=eq.{cid}"
+                "&status=eq.open&verdict=eq.ADD&item_type=eq.page"
+                "&source=eq.confirmed&select=item,reason")
+    if pages:
+        existing = _sb(f"marketing_page_requests?company_id=eq.{cid}"
+                       "&select=service,status")
+        have = {str(r.get("service", "")).strip().lower() for r in existing
+                if r.get("status") in ("queued", "building", "built")}
+        for r in pages:
+            svc = _svc_label(r["item"])
+            if svc.strip().lower() in have:
+                queued_note = "already in the page queue"
+            elif dry_run:
+                print(f"    [dry-run] would queue page request: {svc!r}")
+                out["pages_queued"].append(svc)
+                continue
+            else:
+                requests.post(
+                    f"{SB_URL}/rest/v1/marketing_page_requests",
+                    headers={"apikey": SB_KEY,
+                             "Authorization": f"Bearer {SB_KEY}",
+                             "Content-Type": "application/json",
+                             "Prefer": "return=minimal"},
+                    data=json.dumps({"company_id": cid, "service": svc,
+                                     "status": "queued"}),
+                    timeout=30).raise_for_status()
+                queued_note = f"auto-queued {stamp}"
+            out["pages_queued"].append(svc)
+            if not dry_run:
+                enc = urllib.parse.quote(str(r["item"]), safe="")
+                _sb_patch("marketing_gbp_suggestions",
+                          f"company_id=eq.{cid}&item_type=eq.page"
+                          f"&item=eq.{enc}&status=eq.open",
+                          {"status": "applied",
+                           "reason": f"{str(r.get('reason') or '')[:120]} — "
+                                     f"page {queued_note} (client confirmed)"})
+
+    # 4. board cards flip to done WITH the evidence (visible, never hidden).
+    if not dry_run and (out["added"] or out["kept"] or out["pages_queued"]):
+        try:
+            cards = _sb(f"marketing_action_plan?company_id=eq.{cid}"
+                        "&action_type=in.(gbp_add_services,gbp_create_pages)"
+                        "&status=eq.planned&select=id,action_type,rationale")
+            for card in cards:
+                if card["action_type"] == "gbp_add_services":
+                    if not out["added"]:
+                        continue
+                    ev = ("services added to the Google listing: "
+                          + ", ".join(out["added"]))
+                else:
+                    if not out["pages_queued"]:
+                        continue
+                    ev = ("pages queued for build: "
+                          + ", ".join(out["pages_queued"]))
+                _sb_patch("marketing_action_plan", f"id=eq.{card['id']}",
+                          {"status": "done",
+                           "rationale": (str(card.get("rationale") or "")
+                                         + f"\n\nAUTO-APPLIED {stamp} (client "
+                                           f"confirmed by SMS) — {ev}.")})
+        except Exception as e:  # noqa: BLE001 — bookkeeping never blocks the apply
+            out["errors"].append(f"board-card flip failed: {str(e)[:120]}")
+
+    # 5. work ledger.
+    if not dry_run:
+        try:
+            sys.path.insert(0, str(ROOT / "scripts"))
+            from work_log import work_log
+            if out["added"]:
+                work_log(cid, "gbp", "services-applied",
+                         "Added {} service(s) to the Google Business Profile "
+                         "after the owner confirmed them by text: {}.".format(
+                             len(out["added"]), ", ".join(out["added"])),
+                         evidence={"services": out["added"],
+                                   "answer": answer[:200]},
+                         actor="automation", source="gbp.py apply_confirmed_services")
+            if out["pages_queued"]:
+                work_log(cid, "site", "pages-queued",
+                         "Queued {} website page(s) for confirmed services: "
+                         "{}.".format(len(out["pages_queued"]),
+                                      ", ".join(out["pages_queued"])),
+                         evidence={"pages": out["pages_queued"]},
+                         actor="automation", source="gbp.py apply_confirmed_services")
+        except Exception as e:  # noqa: BLE001
+            print(f"    [work-log] warn: {str(e)[:100]}")
+    return out
+
+
 # --------------------------------------------------------------------------- #
 # CLI
 # --------------------------------------------------------------------------- #
