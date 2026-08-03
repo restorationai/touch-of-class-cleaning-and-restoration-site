@@ -1016,6 +1016,26 @@ def _job_photo_count_storage(company_id: str) -> int:
         return 0
 
 
+# ---- domain-access state gate (2026-08-03): asks about the client's domain
+# are STATE-DRIVEN now, not keyword-driven. setup_ledger maintains
+# marketing_sites.domain_access_status (none -> promised ->
+# delegate_granted | creds_provided -> ns_live) and seeds/retires the plan
+# rows, but ledger passes run every ~4h — this gate is the same-day belt:
+# the moment the client provides access, Monica must never ask again, even
+# if the ledger hasn't swept the plan row yet.
+_DOMAIN_ASK_RE = re.compile(r"domain|registrar|godaddy|nameserver", re.I)
+
+
+def _domain_access_status(company_id: str) -> str:
+    """Current domain_access_status from marketing_sites ('' = no site row)."""
+    try:
+        rows = _sb("GET", f"/rest/v1/marketing_sites?company_id=eq.{company_id}"
+                   "&select=domain_access_status&limit=1") or []
+        return str((rows[0] if rows else {}).get("domain_access_status") or "")
+    except Exception:
+        return ""
+
+
 def _gbp_suspended(company_id: str) -> bool:
     """Best signal on file: any OPEN ops note mentioning a suspension."""
     try:
@@ -1041,8 +1061,34 @@ def filter_already_satisfied(company: dict, items: list[dict],
     kept: list[dict] = []
     n_photos: int | None = None
     suspended: bool | None = None
+    da_status: str | None = None
     for it in items:
         text = str(it.get("text", "")).lower()
+        # (c) DOMAIN-ACCESS STATE GATE — per-state behavior:
+        #     none      -> ask normally (the ledger seeded the rank-1 ask)
+        #     promised  -> the ledger swapped the ask for a verify nudge; the
+        #                  normal cooldown paces it — nothing to do here
+        #     delegate_granted / creds_provided -> STOP asking + speak
+        #                  forward (compose gets a context note: access is in
+        #                  hand, the site is being put live)
+        #     ns_live   -> done; drop any straggler ask outright
+        if _DOMAIN_ASK_RE.search(text):
+            if da_status is None:
+                da_status = _domain_access_status(company["id"])
+            if da_status in ("delegate_granted", "creds_provided"):
+                print(f"  [domain-state] {it['text'][:60]!r}: access already "
+                      f"in hand ({da_status}) — never ask again; speaking "
+                      "forward instead")
+                company["_domain_forward_note"] = da_status
+                if it.get("kind") == "plan":
+                    resolve_plan_row(it["id"], dry_run)
+                continue
+            if da_status == "ns_live":
+                print(f"  [domain-state] {it['text'][:60]!r}: nameservers are "
+                      "live — retiring the stale ask")
+                if it.get("kind") == "plan":
+                    resolve_plan_row(it["id"], dry_run)
+                continue
         if re.search(r"(finished|job)[ -]?(site )?photos?", text):
             if n_photos is None:
                 n_photos = _job_photo_count_storage(company["id"])
@@ -1819,6 +1865,19 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
                 f"NOTE: this client's Google listing already has {n_photos} "
                 "photos we can use — do NOT ask them for photos in this "
                 "message; drop any photo request entirely.\n")
+    # Domain-access forward note (2026-08-03): set by the state gate in
+    # filter_already_satisfied when access is already in hand.
+    domain_block = ""
+    if company.get("_domain_forward_note"):
+        domain_block = (
+            "\nDOMAIN ACCESS — HANDLED: the client already gave us what we "
+            "need to put their website live on their real web address "
+            "(access is in hand). NEVER ask for domain/registrar access or "
+            "logins again in any form. If it fits naturally (especially if "
+            "they ask about it), speak forward in plain words: their new "
+            "website is being put live on their web address now and we'll "
+            "let them know the moment it's up. Do not explain the "
+            "mechanics.\n")
     sister_block = ""
     if sister_names:
         sister_block = (
@@ -1859,6 +1918,7 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
             + appt_block
             + pending_block
             + commit_block
+            + domain_block
             + photo_block
             + f"Outstanding items (priority order, cover all of these and "
             f"nothing else):\n" + "\n".join(lines))

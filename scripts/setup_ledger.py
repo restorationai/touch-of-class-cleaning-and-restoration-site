@@ -88,6 +88,102 @@ def _our_zones() -> dict[str, str]:
     return out
 
 
+# ---- domain-access state machine (Santino 2026-08-03) ----------------------
+# none -> promised -> delegate_granted | creds_provided -> ns_live
+# State lives on marketing_sites (domain_access_status + registrar/email/
+# timestamps). Writers: the app's Site tab "Provide Domain Access" card sets
+# promised (client claim) and creds_provided (encrypted creds via the
+# domain-access edge fn); THIS ledger sets delegate_granted (executing the
+# Ops Attention "Delegate access confirmed" click, marketing_ops_notes
+# pattern like APPROVE-PHONE-SWAP) and ns_live (the existing Cloudflare
+# zone check — zone active == NS point at us).
+_DA_STATES = ("none", "promised", "delegate_granted", "creds_provided", "ns_live")
+
+# NS-suffix -> registrar guess, precomputed here (not an edge fn) so the app
+# dropdown can pre-select without a live lookup. Suffix match on `dig NS`.
+_REGISTRAR_NS = {
+    "domaincontrol.com": "godaddy",
+    "registrar-servers.com": "namecheap",
+    "ionos.com": "ionos", "ionos.de": "ionos", "ui-dns.com": "ionos",
+    "ui-dns.de": "ionos", "ui-dns.org": "ionos", "ui-dns.biz": "ionos",
+    "bluehost.com": "bluehost",
+    "hostgator.com": "hostgator", "websitewelcome.com": "hostgator",
+    "squarespacedns.com": "squarespace", "googledomains.com": "squarespace",
+    "wixdns.net": "wix",
+    "cloudflare.com": "cloudflare",
+    "worldnic.com": "networksolutions", "register.com": "networksolutions",
+    "name-services.com": "enom", "enom.com": "enom",
+    "hover.com": "hover",
+    "dreamhost.com": "dreamhost",
+    "wordpress.com": "wordpress",
+    "dns-parking.com": "hostinger", "hostinger.com": "hostinger",
+    "inmotionhosting.com": "inmotion",
+    # observed in our own client fleet (2026-08-03 backfill)
+    "monikerdns.net": "moniker",              # prorestorationca.com
+    "hostmonster.com": "bluehost",            # QCI — HostMonster = Bluehost family,
+                                              # matches portal-creds "bluehost:{slug}"
+}
+
+
+def _registrar_guess(domain: str) -> str | None:
+    """Guess the registrar from the domain's live NS records (dig)."""
+    try:
+        out = subprocess.run(["dig", "+short", "NS", domain],
+                             capture_output=True, text=True, timeout=20).stdout
+    except Exception:
+        return None
+    for line in out.splitlines():
+        ns = line.strip().rstrip(".").lower()
+        if ".awsdns-" in ns:   # Route53 suffixes vary by TLD (.com/.net/.co.uk)
+            return "route53"
+        for suffix, reg in _REGISTRAR_NS.items():
+            if ns.endswith(suffix):
+                return reg
+    return None
+
+
+def _domain_access_row(cid: str) -> dict | None:
+    """The marketing_sites domain-access columns for this company (or None
+    when no marketing_sites row exists yet — nothing to track)."""
+    try:
+        rows = _sb("GET", f"/rest/v1/marketing_sites?company_id=eq.{cid}"
+                   "&select=id,domain_access_status,domain_registrar,"
+                   "domain_registrar_guess,domain_account_email,"
+                   "domain_access_domain,domain_access_promised_at,"
+                   "domain_access_granted_at,domain_ns_live_at&limit=1",
+                   prefer="return=representation") or []
+        return rows[0] if rows else None
+    except Exception:
+        return None
+
+
+# Human-readable ledger detail per state (the app renders this verbatim).
+def _da_detail(status: str, domain: str, da: dict) -> str | None:
+    reg = da.get("domain_registrar") or da.get("domain_registrar_guess") or "?"
+    email = da.get("domain_account_email") or "unknown account email"
+    if status == "none":
+        return ("We can't launch their site until we can get into their "
+                "domain registrar. Monica is asking; the app's Site tab also "
+                "shows them a 'Provide Domain Access' card "
+                f"(registrar guess: {reg}).")
+    if status == "promised":
+        return ("Client SAYS access was provided "
+                f"(registrar {reg}, account {email}) — a claim, not evidence. "
+                "Check the setup@restorationai.io inbox for the delegate "
+                "invite, then hit 'Delegate access confirmed' below. Monica "
+                "is on a gentle verify nudge meanwhile.")
+    if status == "delegate_granted":
+        return ("Delegate access CONFIRMED — nothing more from the client. "
+                f"Run the NS cutover for {domain} (browser_agent "
+                "domain_connect playbook, email-safe rule applies).")
+    if status == "creds_provided":
+        return ("Client submitted registrar credentials through the encrypted "
+                "path. Run scripts/domain_creds_sync.py on the ops Mac to "
+                "decrypt them into the browser agent's portal-creds, then do "
+                f"the NS cutover for {domain} (email-safe rule applies).")
+    return None
+
+
 def _site_serves_us(domain: str, brand_name: str) -> bool:
     """True only when the domain serves OUR build. Brand-name matching is
     useless here — the client's OLD site obviously contains their name
@@ -403,25 +499,115 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                                  + ("LAUNCH NOW (zone active)" if ours else
                                     ("NS cutover pending (zone ready)" if zstat == "pending"
                                      else "needs domain access")))
-            rows.append({"company_id": cid, "item_key": "domain-access", "kind": "client_owed",
-                         "status": "open" if (built and domain and not ours and not live) else "done",
-                         "title": "Registrar / domain access",
-                         "detail": None if live or ours else
-                         "We can't launch their site until we can log into their domain "
-                         "registrar. Monica is asking them for access (or credentials).",
-                         "evidence": {"domain": domain, "zone_status": zstat or "none"}})
+            # ---- domain-access STATE MACHINE (2026-08-03) -------------------
+            # none -> promised -> delegate_granted | creds_provided -> ns_live
+            gap_open = bool(built and domain and not ours and not live)
+            da = _domain_access_row(cid) or {}
+            da_status = da.get("domain_access_status") or "none"
+            try:
+                patch: dict = {}
+                if (ours or live) and da:
+                    # ns_live auto-detect — the zone check we already run IS
+                    # the evidence; no click, no claim, just the NS truth.
+                    if da_status != "ns_live":
+                        patch["domain_access_status"] = "ns_live"
+                        patch["domain_ns_live_at"] = datetime.now(
+                            timezone.utc).isoformat()
+                        da_status = "ns_live"
+                        attention.append(f"{slug}: domain access -> ns_live "
+                                         "(zone active / site serves us)")
+                elif gap_open and da:
+                    # precompute the registrar guess for the app's dropdown
+                    if (da.get("domain_access_domain") != domain
+                            or not da.get("domain_registrar_guess")):
+                        patch["domain_access_domain"] = domain
+                        guess = _registrar_guess(domain)
+                        if guess:
+                            patch["domain_registrar_guess"] = guess
+                    # Ops Attention "Delegate access confirmed" click executor
+                    # (marketing_ops_notes pattern, same as APPROVE-PHONE-SWAP:
+                    # no note -> nothing happens, ever).
+                    if da_status not in ("delegate_granted", "ns_live"):
+                        confirms = _sb(
+                            "GET", "/rest/v1/marketing_ops_notes"
+                            f"?company_id=eq.{cid}&status=eq.open"
+                            "&body=like.*%5BDELEGATE-ACCESS-CONFIRMED%5D*"
+                            "&select=id", prefer="return=representation") or []
+                        if confirms and not dry_run:
+                            patch["domain_access_status"] = "delegate_granted"
+                            patch["domain_access_granted_at"] = datetime.now(
+                                timezone.utc).isoformat()
+                            da_status = "delegate_granted"
+                            for cn in confirms:
+                                _sb("PATCH", "/rest/v1/marketing_ops_notes"
+                                    f"?id=eq.{cn['id']}",
+                                    {"status": "resolved",
+                                     "resolved_at": datetime.now(
+                                         timezone.utc).isoformat()})
+                            attention.append(f"{slug}: delegate access "
+                                             "CONFIRMED (Ops Attention click) "
+                                             "— ready for the NS cutover")
+                if patch and da and not dry_run:
+                    _sb("PATCH", f"/rest/v1/marketing_sites?id=eq.{da['id']}",
+                        patch)
+            except Exception as e:  # noqa: BLE001 — state upkeep must never kill the ledger
+                attention.append(f"{slug}: domain-access state update failed "
+                                 f"({str(e)[:80]})")
+            # Ledger card renders FROM the state. none/promised = the client
+            # owes us; delegate_granted/creds_provided = access is in hand and
+            # the cutover is OUR move (us_owed, red).
+            rows.append({"company_id": cid, "item_key": "domain-access",
+                         "kind": ("us_owed" if da_status in
+                                  ("delegate_granted", "creds_provided")
+                                  else "client_owed"),
+                         "status": "open" if gap_open else "done",
+                         "title": {"none": "Registrar / domain access",
+                                   "promised": "Domain access: client says it's "
+                                               "provided — verify",
+                                   "delegate_granted": "Domain access in hand "
+                                                       "(delegate) — cut over NS",
+                                   "creds_provided": "Domain access in hand "
+                                                     "(credentials) — cut over NS",
+                                   "ns_live": "Registrar / domain access",
+                                   }.get(da_status, "Registrar / domain access"),
+                         "detail": None if not gap_open else
+                         _da_detail(da_status, domain, da),
+                         "evidence": {"domain": domain,
+                                      "zone_status": zstat or "none",
+                                      "access_status": da_status,
+                                      "registrar": da.get("domain_registrar"),
+                                      "registrar_guess": da.get("domain_registrar_guess"),
+                                      "account_email": da.get("domain_account_email")}})
+            if gap_open and da_status in ("delegate_granted", "creds_provided"):
+                attention.append(
+                    f"{slug}: domain access in hand ({da_status}) — run the "
+                    f"NS cutover for {domain}")
             # Monica actually asks via marketing_action_plan (gather_items),
             # NOT this ledger table — before 2026-08-03 the domain-access
             # ledger card claimed "Monica is asking them" while no
             # client_input row existed, so the ask never ranked anywhere
             # (Mold Solutionz: site built, cutover pending, and Andrea's
-            # next draft led with the customer list). Seed the ask the
-            # moment the gap opens; the title contains "domain" so the
-            # concierge's ask_rank puts it at launch-blocker priority (1).
+            # next draft led with the customer list). Seeding is now STATE-
+            # GATED: none -> the rank-1 access ask; promised -> a verify
+            # nudge ("did the invite go to setup@?"); any access-in-hand or
+            # closed state -> both rows retired, Monica stops asking. Titles
+            # contain "domain" so the concierge's ask_rank keeps them at
+            # launch-blocker priority (1).
             try:
                 from client_ops_sync import action_key, insert_plan_row
                 seed = f"domain-access-{slug}"
-                if built and domain and not ours and not live:
+                seed_verify = f"domain-verify-{slug}"
+
+                def _retire_ask(key_seed: str) -> None:
+                    if dry_run:
+                        return
+                    _sb("PATCH", "/rest/v1/marketing_action_plan"
+                        f"?company_id=eq.{cid}"
+                        f"&action_key=eq.{action_key(cid, key_seed)}"
+                        "&status=eq.planned", {"status": "resolved"})
+
+                if gap_open and da_status == "none":
+                    _retire_ask(seed_verify)
                     if insert_plan_row(
                             cid, slug, seed,
                             title=f"ASK CLIENT: domain access — point {domain} "
@@ -442,12 +628,30 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                             impact="high", effort="low", dry_run=dry_run):
                         attention.append(f"{slug}: seeded Monica ask — domain "
                                          f"access for {domain}")
-                elif not dry_run:
-                    # gap closed (live, or the zone is ours) — retire the ask
-                    _sb("PATCH", "/rest/v1/marketing_action_plan"
-                        f"?company_id=eq.{cid}"
-                        f"&action_key=eq.{action_key(cid, seed)}"
-                        "&status=eq.planned", {"status": "resolved"})
+                elif gap_open and da_status == "promised":
+                    _retire_ask(seed)
+                    if insert_plan_row(
+                            cid, slug, seed_verify,
+                            title="ASK CLIENT: domain access follow-up — did "
+                                  "the invite reach setup@restorationai.io?",
+                            rationale=(
+                                "The client SAYS they already provided access to "
+                                f"the place that manages {domain}, but nothing has "
+                                "landed on our side yet. MONICA: this is a gentle "
+                                "verification, not a re-ask — never re-explain the "
+                                "whole thing. ONE question on normal cooldown: did "
+                                "the access invite go to setup@restorationai.io? "
+                                "If they used a different email or aren't sure, "
+                                "offer a quick 15-minute call to do it together. "
+                                "Thank them for already acting on it."),
+                            action_type="client_input", target=domain,
+                            impact="high", effort="low", dry_run=dry_run):
+                        attention.append(f"{slug}: seeded Monica VERIFY nudge — "
+                                         f"domain access claimed for {domain}")
+                else:
+                    # gap closed, or access already in hand — stop asking
+                    _retire_ask(seed)
+                    _retire_ask(seed_verify)
             except Exception as e:  # noqa: BLE001 — seeding must never kill the ledger
                 attention.append(f"{slug}: domain-access ask seeding failed "
                                  f"({str(e)[:80]})")
