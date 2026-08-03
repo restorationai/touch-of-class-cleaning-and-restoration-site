@@ -401,7 +401,8 @@ def anthropic_json(system: str, user: str, *, max_tokens: int = 4000,
                                 "data": im["data"]}} for im in images]
                    + [{"type": "text", "text": user}])
     last_text = ""
-    for attempt in (1, 2):
+    last_stop = None
+    for attempt in (1, 2, 3):
         resp = requests.post(ANTHROPIC_API, timeout=120, headers={
             "x-api-key": os.environ["ANTHROPIC_API_KEY"],
             "anthropic-version": "2023-06-01",
@@ -419,10 +420,22 @@ def anthropic_json(system: str, user: str, *, max_tokens: int = 4000,
         if m:
             return json.loads(m.group(0))
         last_text = text
-        if attempt == 1:
-            print(f"  [anthropic_json] empty/non-JSON reply — retrying once")
+        last_stop = data.get("stop_reason")
+        if attempt < 3:
+            # claude-sonnet-5 runs ADAPTIVE THINKING by default and max_tokens
+            # caps thinking + text TOGETHER — on hard prompts thinking can eat
+            # the whole budget and the reply arrives with stop_reason
+            # "max_tokens" and zero text blocks (PuroClean compose failed
+            # every GH-Actions run this way, 08-03). Double the budget before
+            # retrying so the text actually fits.
+            if last_stop == "max_tokens":
+                max_tokens = min(max_tokens * 2, 16000)
+            print(f"  [anthropic_json] empty/non-JSON reply "
+                  f"(stop_reason={last_stop}) — retrying "
+                  f"(max_tokens now {max_tokens})")
             time.sleep(3)
-    raise RuntimeError(f"Claude returned no JSON object: {last_text[:200]!r}")
+    raise RuntimeError(f"Claude returned no JSON object "
+                       f"(stop_reason={last_stop}): {last_text[:200]!r}")
 
 
 # ---------------------------------------------------------------- state
