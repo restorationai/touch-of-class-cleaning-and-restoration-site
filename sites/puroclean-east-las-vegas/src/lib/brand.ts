@@ -27,7 +27,7 @@ export const brand = {
   // Analytics — set post-scaffold (scripts/analytics_set.py / create_ga4.py); no-op if empty
   ga4MeasurementId: "",
   clarityProjectId: "",
-  logoUrl: "https://images.purocleaneastlasvegas.com/brand/logo.png",
+  logoUrl: "/images/logo.png", // real PuroClean franchise mark from branding bucket (CO-1784594708149/brand); switch to images.purocleaneastlasvegas.com/brand/logo.png once the images R2 custom domain resolves (it currently has no DNS)
   licenseNumbers: [] as string[],
   licenseAuthority: "",
   licenseType: "",

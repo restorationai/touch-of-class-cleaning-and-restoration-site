@@ -100,6 +100,13 @@ SITES = {
         "bucket": "rankai-restorationxpress",
         "images_base": "https://images.restorationxpress.com",
     },
+    # Live on purocleaneastlasvegas.com but images.{domain} has no DNS yet —
+    # the R2 pass HEAD-fails and skips gracefully; local variants + manifest
+    # still generate (logo served locally from public/images/logo.png).
+    "puroclean-east-las-vegas": {
+        "bucket": "rankai-puroclean-east-las-vegas",
+        "images_base": "https://images.purocleaneastlasvegas.com",
+    },
     "mold-solutionz-24-7-llc": {
         "bucket": "rankai-mold-solutionz-24-7-llc",
         "images_base": "https://images.moldsolutionz247.com",
