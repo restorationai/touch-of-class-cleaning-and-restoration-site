@@ -298,10 +298,10 @@
     },
     {
       "id": "2026-07-13-how-to-dry-out-a-flooded-house",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-07-13T18:01:06Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-08-03T18:07:42Z",
+      "post_url": "https://flood-fixers.com/blog/how-to-dry-out-a-flooded-house/",
       "primary_keyword": "how to dry out a flooded house",
       "intent": "informational",
       "volume": null,
@@ -502,6 +502,196 @@
         "https://www.iicrc.org/page/IICRCS500"
       ],
       "notes": "Decision-stage cost query, distinct from the queued water-damage-restoration cost post: flood water is typically category 3, driving higher remediation cost, and NFIP flood insurance (not standard homeowners) is the relevant coverage. Keep ranges general; avoid unverifiable local quotes. Commercial intent, no matching commercial page in url-plan; blog is correct home. No Google volume returned; queued intent-first, KD low."
+    },
+    {
+      "id": "2026-08-03-water-pipe-burst-inside-house",
+      "status": "queued",
+      "queued_at": "2026-08-03T18:04:59Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "water pipe burst inside house",
+      "intent": "informational",
+      "volume": 590,
+      "kd": 1,
+      "fan_out_cluster": [
+        "burst pipe water damage symptoms",
+        "how to tell if a pipe burst in the wall",
+        "what happens when a pipe bursts under your house",
+        "pipe burst in wall",
+        "how to fix burst pipe water damage",
+        "water pipe burst inside house symptoms"
+      ],
+      "suggested_slug": "water-pipe-burst-inside-house",
+      "suggested_title": "Water pipe burst inside house: the damage you can see and the damage you cannot",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/burst-pipe-repair/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/"
+      ],
+      "service_tags": [
+        "burst-pipe-repair",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.allstate.com/resources/home-insurance/burst-pipe-water-damage"
+      ],
+      "notes": "Highest-volume uncovered term from the burst pipe seed (590/mo, KD 1, $25.90 CPC). Do NOT repeat the numbered emergency steps: /blog/burst-pipe-emergency-checklist/ already owns that intent and must be linked instead. This post covers what a burst supply line actually does to drywall, insulation, subfloor and cabinetry, the 24-48 hour mold window, and how a restoration crew finds hidden moisture (meters, thermal imaging, cavity drying)."
+    },
+    {
+      "id": "2026-08-03-pipe-burst-repair-cost",
+      "status": "queued",
+      "queued_at": "2026-08-03T18:04:59Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "pipe burst repair cost",
+      "intent": "commercial",
+      "volume": 480,
+      "kd": null,
+      "fan_out_cluster": [
+        "burst water pipe outside house cost",
+        "pipe burst in house cost",
+        "copper pipe burst repair cost",
+        "pvc pipe burst repair cost",
+        "how much does it cost to fix a broken water pipe underground",
+        "burst pipe repair time"
+      ],
+      "suggested_slug": "pipe-burst-repair-cost",
+      "suggested_title": "Pipe burst repair cost: what the plumbing fix runs and what the water damage adds",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/burst-pipe-repair/",
+        "/services/water-damage-restoration/",
+        "/services/reconstruction/",
+        "/service-areas/san-diego-ca/burst-pipe-repair/"
+      ],
+      "service_tags": [
+        "burst-pipe-repair",
+        "water-damage-restoration",
+        "reconstruction"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.iii.org/article/covering-your-home-water-damage"
+      ],
+      "notes": "$34 CPC, decision-stage. The differentiator: split cost into three buckets (plumbing repair, mitigation/drying, reconstruction) because homeowners searching this only price the first one. Use San Diego County ranges and label every figure as a range, never a fixed quote. Cross-link the insurance posts since most of this cost is claimable."
+    },
+    {
+      "id": "2026-08-03-does-homeowners-insurance-cover-broken-pipes-under-foundation",
+      "status": "queued",
+      "queued_at": "2026-08-03T18:04:59Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does homeowners insurance cover broken pipes under foundation",
+      "intent": "informational",
+      "volume": 260,
+      "kd": 13,
+      "fan_out_cluster": [
+        "does homeowners insurance cover broken pipes under slab",
+        "burst pipe under concrete floor insurance",
+        "does homeowners insurance cover burst pipes in yard",
+        "does homeowners insurance cover slab leak repair",
+        "does homeowners insurance cover main water line replacement",
+        "slab leak symptoms"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-broken-pipes-under-foundation",
+      "suggested_title": "Does homeowners insurance cover broken pipes under foundation? The sudden-vs-gradual rule that decides it",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/burst-pipe-repair/",
+        "/services/water-damage-restoration/",
+        "/services/reconstruction/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ],
+      "service_tags": [
+        "burst-pipe-repair",
+        "water-damage-restoration",
+        "reconstruction"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iii.org/article/covering-your-home-water-damage",
+        "https://www.allstate.com/resources/home-insurance/burst-pipe-water-damage"
+      ],
+      "notes": "Insurance decision-stage, 24-48 hours before hiring. Keep this narrowly about pipes under the slab, foundation and yard so it does not compete with the existing generic /blog/does-homeowners-insurance-cover-water-damage/ post, which should be linked as the parent. The whole answer hinges on sudden-and-accidental versus long-term seepage, plus the fact that the resulting water damage is often covered even when the pipe itself is not. San Diego is slab-on-grade heavy, so this is a local reality, not an edge case."
+    },
+    {
+      "id": "2026-08-03-burst-pipe-insurance-claim-tips",
+      "status": "queued",
+      "queued_at": "2026-08-03T18:04:59Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "burst pipe insurance claim tips",
+      "intent": "informational",
+      "volume": 210,
+      "kd": 4,
+      "fan_out_cluster": [
+        "burst pipe insurance claim tips california",
+        "how to document burst pipe damage for insurance",
+        "who to call for burst water pipe",
+        "burst pipe water damage",
+        "water pipe burst in house what to do",
+        "does homeowners insurance cover broken pipes under foundation"
+      ],
+      "suggested_slug": "burst-pipe-insurance-claim-tips",
+      "suggested_title": "Burst pipe insurance claim tips: how to document the loss so the claim actually pays",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/burst-pipe-repair/",
+        "/services/water-damage-restoration/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "burst-pipe-repair",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.iii.org/article/how-to-file-a-homeowners-insurance-claim"
+      ],
+      "notes": "Claim-process angle only: eligibility belongs to the foundation-pipes post. Emphasize photo and video documentation before mitigation starts, keeping receipts for emergency spend, and the fact that moisture readings and daily drying logs from an IICRC-certified firm are the strongest claim evidence a homeowner can hand an adjuster. Include the California point that the policyholder chooses their own restoration contractor, not the carrier."
+    },
+    {
+      "id": "2026-08-03-how-to-tell-if-a-pipe-burst-underground",
+      "status": "queued",
+      "queued_at": "2026-08-03T18:04:59Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to tell if a pipe burst underground",
+      "intent": "informational",
+      "volume": 170,
+      "kd": null,
+      "fan_out_cluster": [
+        "water pipe burst underground",
+        "water pipe burst underground symptoms",
+        "signs of a burst pipe outside",
+        "how to tell if a pipe burst under the house",
+        "burst water pipe outside house",
+        "how to fix burst water pipe outside house"
+      ],
+      "suggested_slug": "how-to-tell-if-a-pipe-burst-underground",
+      "suggested_title": "How to tell if a pipe burst underground: the signs that show up before the water bill does",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/burst-pipe-repair/",
+        "/services/water-damage-restoration/",
+        "/service-areas/san-diego-ca/burst-pipe-repair/"
+      ],
+      "service_tags": [
+        "burst-pipe-repair",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.epa.gov/watersense/fix-leak-week",
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Diagnostic checklist, zero Google-measured KD and a strong AI-retrieval shape (the SERP already carries an AI overview plus people-also-ask). Build it as discrete signal sections: the meter test with everything shut off, an unexplained bill spike, soggy or unusually green patches in the yard, running-water sound in a silent house, warm spots on a slab floor, low pressure, sinkholes or settling. Lead with slab symptoms rather than basement symptoms: San Diego housing stock is mostly slab-on-grade."
     }
   ]
 }
