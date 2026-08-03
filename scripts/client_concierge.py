@@ -1327,7 +1327,20 @@ def send_message(contact: dict, channel: str, body: str,
     else:
         payload["subject"] = subject or f"Your {BRAND_NAME} setup"
         payload["html"] = body.replace("\n", "<br>")
-    result = _ghl("POST", "/conversations/messages", body=payload)
+    try:
+        result = _ghl("POST", "/conversations/messages", body=payload)
+    except RuntimeError as e:
+        # GHL 400 "Cannot send message as DND is active for SMS" — the client
+        # has texting turned off at the CRM level. That's their choice, not an
+        # outage: treat it as a send-block (skip + surface), never a crash
+        # (PuroClean/Gregory reddened the whole GH-Actions run this way, 08-03).
+        if "DND is active" in str(e):
+            raise SendBlocked(
+                f"GHL DND active for {channel} on contact {contact.get('id')} "
+                f"({recipient}) — client has this channel turned off in the "
+                "CRM; nothing sent. Clear DND in GHL (or switch channel) to "
+                "resume.") from e
+        raise
     print(f"  SENT {channel} to {recipient} (contact {contact['id']})")
     return result or {}
 
@@ -2193,8 +2206,17 @@ def cmd_compose(args) -> int:
         result = send_message(contact, args.channel, draft["body"],
                               draft["subject"])
     except SendBlocked as e:
+        # A tripped gate (canary allowlist, DND, paused) is the guardrail
+        # WORKING, not an outage — returning 1 here failed the whole
+        # GH-Actions run on every cycle with any non-allowlisted nudge
+        # target (the workflow had literally never gone green, 08-03).
+        # Surface it in Ops Attention ONCE per company+channel, then move on.
         print(f"\nSEND BLOCKED: {e}", file=sys.stderr)
-        return 1
+        if intel_flag_once(state, f"send-block:{args.company}:{args.channel}"):
+            append_escalation(company, None, f"send blocked: {e}",
+                              dry_run=False, ping=False)
+            save_state(state, dry_run=False)
+        return 0
     record_sent_message(state, result)
     # Work ledger (fail-open): one line item per DELIVERED message — logged
     # only after send_message() returned, never on drafts/blocked sends.
