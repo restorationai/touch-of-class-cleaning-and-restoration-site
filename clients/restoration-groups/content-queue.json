@@ -174,10 +174,10 @@
     },
     {
       "id": "2026-07-27-hardwood-floor-water-damage",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-07-27T18:39:36Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-08-03T18:27:40Z",
+      "post_url": "https://therestorationgroup.com/blog/hardwood-floor-water-damage/",
       "primary_keyword": "hardwood floor water damage",
       "intent": "transactional",
       "volume": 1600,
