@@ -43,7 +43,7 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "4.8",
-  gbpReviewCount: "489",
+  gbpReviewCount: "488",
   gbpReviews: [
     { author: "Chelsey", rating: 5, text: "We made an appointment with Victor from Crew to inspect our basement for possible mold. He arrived promptly, thoroughly examined the area, and took the time to explain his findings in detail. After his inspection, he reassured us that the only work needed was to remove a few baseboards and that…", when: "July 2026" },
     { author: "Chris", rating: 5, text: "Vic runs a stellar promo tent with swag for days", when: "July 2026" },
