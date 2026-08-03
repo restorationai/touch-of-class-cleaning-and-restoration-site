@@ -171,6 +171,7 @@ Usage examples
 from __future__ import annotations
 
 import argparse
+import base64
 import hashlib
 import json
 import os
@@ -385,10 +386,20 @@ def _loc() -> str:
     return os.environ["GHL_LOCATION_ID"]
 
 
-def anthropic_json(system: str, user: str, *, max_tokens: int = 4000) -> dict:
+def anthropic_json(system: str, user: str, *, max_tokens: int = 4000,
+                   images: list[dict] | None = None) -> dict:
     """One Messages call, expects a single JSON object in the reply.
     Retries once on an empty/non-JSON reply (2026-07-29: intermittent empty
-    responses starved whole compose passes)."""
+    responses starved whole compose passes). `images` (from _vision_blocks:
+    [{"media_type", "data"(b64)}]) ride along so inbound analysis can SEE
+    what a client texted (Angie's browser-warning screenshot, 2026-08-02)."""
+    content: list | str = user
+    if images:
+        content = ([{"type": "image",
+                     "source": {"type": "base64",
+                                "media_type": im["media_type"],
+                                "data": im["data"]}} for im in images]
+                   + [{"type": "text", "text": user}])
     last_text = ""
     for attempt in (1, 2):
         resp = requests.post(ANTHROPIC_API, timeout=120, headers={
@@ -398,7 +409,7 @@ def anthropic_json(system: str, user: str, *, max_tokens: int = 4000) -> dict:
         }, json={
             "model": ANTHROPIC_MODEL, "max_tokens": max_tokens,
             "system": system,
-            "messages": [{"role": "user", "content": user}],
+            "messages": [{"role": "user", "content": content}],
         })
         resp.raise_for_status()
         data = resp.json()
@@ -1388,6 +1399,9 @@ Rules:
 - Cover AT MOST the items given (they are already priority-ordered). Weave
   them in conversationally — short sentences or a compact list, not a form.
 - Never invent items, prices, or deadlines. Never promise work.
+- PURPOSE: when explaining WHY we ask for something, use that item's own
+  "context:" text; if it doesn't state a purpose, don't invent one
+  (2026-08-03: the supplier question got a made-up "ads setup" purpose).
 - GROUNDING (hard rule — 2026-08-02: Monica told a client "that review
   request is already out to him and Ed" when NO request existed anywhere):
   never state that an action is DONE (sent / out / posted / live /
@@ -2307,6 +2321,23 @@ A "Recent conversation history" block may be provided — use it to work out
 what a short reply ("yes", "the second one", "that works") is answering; the
 reply usually responds to the most recent thing WE asked in the thread.
 
+IMAGES: when the client's message included photos or screenshots, they are
+attached to this request — base your summary, matching and suggested_reply
+on what the image ACTUALLY shows, never on a guess. KNOWN CASE (Santino
+2026-08-02): a screenshot of a browser security interstitial hit while
+opening our connect/preview link (Chrome "Your connection is not private" /
+"the site ahead" warning page) — the fix is one step and you may give it
+directly, modeled on Santino's own wording: 'Click the advanced button and
+then the "proceed to restoration ai"'. That case is needs_answer with
+response_needed "answer" and the fix as the suggested_reply.
+
+PURPOSE QUESTIONS: when the client asks WHY we are asking something
+("what's the purpose of that question?"), the answer MUST come from that
+item's purpose= text in the list. If the item shows no purpose= text, set
+needs_answer with a holding line — NEVER invent a reason (2026-08-03:
+Monica told a client the supplier question was "for the ads setup" when
+its real purpose is the supplier/dealer listing links program).
+
 A "Meeting intel" block may be provided — our team's INTERNAL notes from
 meetings with this client. Use it as context for classification, and report
 any open item the intel marks as ANSWERED / resolved on a call, or as IN
@@ -2687,12 +2718,84 @@ def apply_answer(item_id: str, value: str, dry_run: bool) -> None:
         prefer="return=minimal")
 
 
-def resolve_plan_row(row_id: str, dry_run: bool) -> None:
+def resolve_plan_row(row_id: str, dry_run: bool,
+                     answer: str | None = None) -> None:
+    """Resolve a plan ask; the client's answer is APPENDED to the rationale
+    so it survives (Curt/Home Pride 2026-08-03: "Yes, we do these services"
+    resolved the row and the answer text vanished)."""
     if dry_run:
-        print(f"    [dry-run] would PATCH marketing_action_plan/{row_id[:8]} -> resolved")
+        print(f"    [dry-run] would PATCH marketing_action_plan/{row_id[:8]} "
+              f"-> resolved" + (f" + record answer {answer[:50]!r}"
+                                if answer else ""))
         return
+    body: dict = {"status": "resolved"}
+    if answer:
+        try:
+            rows = _sb("GET", f"/rest/v1/marketing_action_plan?id=eq.{row_id}"
+                       "&select=rationale") or []
+            old = str((rows[0] if rows else {}).get("rationale") or "")
+            stamp = datetime.now(timezone.utc).date()
+            body["rationale"] = (old + f"\n\nCLIENT ANSWERED ({stamp}): "
+                                 + answer[:300]).strip()
+        except Exception as e:  # noqa: BLE001 — bookkeeping never blocks resolve
+            print(f"    [plan-answer] rationale append failed: {str(e)[:80]}")
     _sb("PATCH", f"/rest/v1/marketing_action_plan?id=eq.{row_id}",
-        {"status": "resolved"}, prefer="return=minimal")
+        body, prefer="return=minimal")
+
+
+_AFFIRMATIVE_RE = re.compile(
+    r"^\s*(?:yes|yep|yeah|yup|correct|we do|all of|absolutely|for sure)", re.I)
+_QUALIFIER_RE = re.compile(r"\b(?:not|don'?t|except|only|no longer|stopped)\b",
+                           re.I)
+
+
+def route_confirmed_services(company: dict, answer: str, dry_run: bool) -> None:
+    """The client answered the GBP service sanity-check ("ASK CLIENT:
+    confirm N service(s) on their Google listing"). Route it (Santino
+    2026-08-03: Curt's yes went nowhere):
+
+    Clear YES -> flip the company's open NEEDS-REVIEW service/category
+    suggestions to source "confirmed" / verdict ADD — exactly the shape
+    gbp.py's optimizer treats as client-confirmed, so the EXISTING queues
+    pick them up on the nightly pass: the app's one-click "Add N confirmed
+    service(s) to your Business Profile" row and "Create N website page(s)
+    for confirmed services" (site content pipeline). No Google write and no
+    page build happens here — both stay behind the app's approval buttons.
+
+    Mixed/negative ("we do X but not Y") -> never bulk-flip; escalate to
+    the digest so a human maps which services survive."""
+    cid = company.get("id")
+    ans = (answer or "").strip()
+    if not (_AFFIRMATIVE_RE.match(ans) and not _QUALIFIER_RE.search(ans)):
+        append_escalation(company, None,
+                          "client gave a mixed or negative answer to the "
+                          f"GBP service confirm ({ans[:120]!r}) — map which "
+                          "services to keep manually in Marketing -> "
+                          "Locations", dry_run)
+        return
+    q = (f"/rest/v1/marketing_gbp_suggestions?company_id=eq.{cid}"
+         "&status=eq.open&verdict=eq.NEEDS-REVIEW"
+         "&item_type=in.(service,category)")
+    try:
+        rows = _sb("GET", q + "&select=item") or []
+        if not rows:
+            print("    [svc-confirm] no open NEEDS-REVIEW suggestions to flip")
+            return
+        if dry_run:
+            print(f"    [dry-run] would flip {len(rows)} NEEDS-REVIEW "
+                  f"suggestion(s) -> source=confirmed verdict=ADD: "
+                  + ", ".join(str(r['item'])[:30] for r in rows[:5]))
+            return
+        _sb("PATCH", q, {"verdict": "ADD", "source": "confirmed",
+                         "reason": ("Client confirmed by SMS "
+                                    f"{datetime.now(timezone.utc).date()}: "
+                                    + ans[:140])},
+            prefer="return=minimal")
+        print(f"    [svc-confirm] {len(rows)} suggestion(s) flipped to "
+              "confirmed/ADD — nightly GBP pass queues the one-click "
+              "apply + service-page rows")
+    except Exception as e:  # noqa: BLE001 — routing must never kill the poll
+        print(f"    [svc-confirm] routing failed: {str(e)[:100]}")
 
 
 # ---------------------------------------------------------- advice loop
@@ -3102,6 +3205,47 @@ def handle_reschedule_reply(company: dict, contact: dict, msg: dict,
     return False
 
 
+# Vision for inbound analysis (Santino 2026-08-02: Angie texted a
+# screenshot of a browser warning; Monica couldn't see it and Santino had
+# to answer manually). Cost guard: only the first VISION_MAX_IMAGES images
+# per message, videos/documents skipped, big images downscaled + JPEG
+# re-encoded before the base64 ride to the model.
+VISION_MAX_IMAGES = 2
+
+
+def _vision_blocks(attachments: list | None) -> list[dict]:
+    """Download up to VISION_MAX_IMAGES image attachments (GHL CDN URLs)
+    and prep them for anthropic_json(images=...). Never fatal."""
+    out: list[dict] = []
+    for url in attachments or []:
+        if len(out) >= VISION_MAX_IMAGES:
+            break
+        ext = str(url).rsplit(".", 1)[-1].lower()
+        if ext in ("mp4", "mov", "m4v", "mpg4", "avi", "vcf", "pdf", "csv"):
+            continue   # videos/documents: never sent to vision
+        try:
+            r = requests.get(url, timeout=45)
+            r.raise_for_status()
+            ctype = (r.headers.get("Content-Type") or "").lower()
+            if not (ctype.startswith("image/")
+                    or ext in ("jpg", "jpeg", "png", "webp", "heic", "gif")):
+                continue
+            from io import BytesIO
+            from PIL import Image
+            img = Image.open(BytesIO(r.content)).convert("RGB")
+            w, h = img.size
+            if max(w, h) > 1568:   # vision sweet spot; keeps payloads small
+                s = 1568 / max(w, h)
+                img = img.resize((round(w * s), round(h * s)))
+            buf = BytesIO()
+            img.save(buf, "JPEG", quality=80)
+            out.append({"media_type": "image/jpeg",
+                        "data": base64.b64encode(buf.getvalue()).decode()})
+        except Exception as e:  # noqa: BLE001 — a bad image must not kill the poll
+            print(f"    [vision] attachment skipped ({str(e)[:60]})")
+    return out
+
+
 # Shared ledger of processed inbound message ids. The 5-min poll and the
 # instant webhook (webhook_inbound) both read the same GHL threads — this,
 # not the poll's cursor, is what stops the second entry point from
@@ -3228,9 +3372,10 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
                     n = media["photos"] + media["videos"]
                     msg["body"] = (
                         f"(the client texted {n} photo(s)/video(s) with no "
-                        "message — they are already saved on our side; "
-                        "treat this as them sending the photos we asked "
-                        "for and thank them briefly)")
+                        "message — the images are attached; if they are "
+                        "job/company photos, they are already saved on our "
+                        "side, thank them briefly; if a screenshot of an "
+                        "error or a question, analyze it and answer it)")
                 else:
                     append_escalation(
                         company, msg,
@@ -3242,14 +3387,26 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
         if handle_reschedule_reply(company, contact_for_flow, msg,
                                    state, dry_run):
             continue
+        # purpose= comes from the item's help_text: WHY-questions must be
+        # answered from it, never invented (Curt/Home Pride 2026-08-03:
+        # Monica said the supplier question was "for the ads setup" when
+        # its stated purpose is the supplier/dealer listing-links program).
         item_list = "\n".join(
             f"- id={it['id']} kind={it['kind']} type={it['field_type']} "
-            f"q={it['text'][:110]!r}" for it in open_items) or "(none)"
+            f"q={it['text'][:110]!r}"
+            + (f" purpose={str(it['detail'])[:140]!r}" if it.get("detail") else "")
+            for it in open_items) or "(none)"
+        # Vision: the analysis SEES what they texted (screenshots, photos).
+        vision = (_vision_blocks(msg.get("attachments"))
+                  if msg.get("attachments") else [])
+        if vision:
+            print(f"    [vision] {len(vision)} image(s) attached to analysis")
         result = anthropic_json(
             CLASSIFY_SYSTEM,
             f"Open items for {company['name']}:\n{item_list}"
             f"{history_block}{intel_block}\n\n"
-            f"Inbound reply:\n{msg['body'][:1200]}")
+            f"Inbound reply:\n{msg['body'][:1200]}",
+            images=vision or None)
         # FULL ANALYSIS (every message): the single classify call also says
         # whether a response is needed, who should answer, and drafts it.
         analysis = result.get("analysis") or {}
@@ -3270,7 +3427,14 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
             if it["kind"] == "intake":
                 apply_answer(it["id"], str(match.get("value", "")), dry_run)
             else:
-                resolve_plan_row(it["id"], dry_run)
+                resolve_plan_row(it["id"], dry_run,
+                                 answer=str(match.get("value", "")))
+                # Confirmed GBP services route into the existing apply +
+                # site-page queues (Curt's yes went nowhere, 2026-08-03).
+                if str(it.get("text", "")).startswith("ASK CLIENT: confirm"):
+                    route_confirmed_services(company,
+                                             str(match.get("value", "")),
+                                             dry_run)
         out["matched"] += len(matched_ids)
         turn["matched"] |= matched_ids
         # Items meeting intel marks answered / in progress client-side:
