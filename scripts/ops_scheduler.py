@@ -44,6 +44,10 @@ WORKFLOW_DISPATCH_JOBS = [
     # (name, workflow file, ["HH:MM", ...] UTC, weekdays_only, inputs)
     ("concierge", "client-concierge.yml", ["16:07", "19:37"], True,
      {"mode": "daily"}),
+    # Daily ledger/checklist pass — the concierge's morning run depends on
+    # it (client-ops-sync writes the ledger state before Monica's first
+    # pass), so a dropped 14:00 cron degrades her too.
+    ("ops-sync", "client-ops-sync.yml", ["14:00"], False, {}),
 ]
 # How long after a slot we still fire a missed dispatch (worker restarts).
 DISPATCH_CATCHUP = timedelta(hours=3)
