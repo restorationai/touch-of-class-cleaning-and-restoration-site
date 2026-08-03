@@ -1477,6 +1477,38 @@ def concierge_preview(req: ConciergePreviewRequest):
     return out
 
 
+@app.post("/concierge-send-now")
+def concierge_send_now(req: ConciergePreviewRequest):
+    """One explicit human click on the previewed draft = send it (Santino
+    2026-08-03, after using the Crew preview: "Send now"). Boss-directive
+    semantics: cooldown + nudge cap bypassed (the click IS the
+    authorization, like a [FROM SANTINO] note); business hours NOT
+    hard-blocked — the response carries local_time/in_business_hours so the
+    UI confirms first. Hard safety gates KEPT: canary allowlist, CRM DND
+    (with SMS->email fallback), grounding guard, and the duplicate guard (a
+    second immediate click recomposes near-identical copy and is refused).
+    Flows through the normal send path — work_log outreach line, sent-ids
+    ledger, awaiting/commitment + directive bookkeeping — so downstream
+    sees a real Monica send. Auth: same contract as /concierge-preview.
+    Serialized per company via the concierge locks (double-click safe)."""
+    expected = (os.environ.get("CONCIERGE_WEBHOOK_SECRET")
+                or os.environ.get("LEAD_AUDIT_FUNNEL_SECRET", ""))
+    if not (expected and req.secret == expected):
+        raise HTTPException(status_code=403, detail="bad secret")
+    if not req.company_id.startswith("CO-"):
+        raise HTTPException(status_code=400, detail="company_id must be a CO-… id")
+    lock = _concierge_lock("send-now:" + req.company_id)
+    try:
+        with lock:
+            import client_concierge  # scripts/ is on sys.path (see header)
+            client_concierge.load_env()
+            out = client_concierge.send_now(req.company_id)
+    except Exception as e:  # noqa: BLE001 — surface, never 500 with a stack
+        raise HTTPException(status_code=502,
+                            detail="send-now failed: " + str(e)[:300])
+    return out
+
+
 @app.post("/kickoff-prep")
 def kickoff_prep_endpoint(req: KickoffPrepRequest):
     """Fired by the GHL 'kickoff booked' workflow webhook. Spawns a thread

@@ -2433,6 +2433,123 @@ def preview_compose(company_id: str, channel: str = "sms") -> dict:
             "items": [i["text"] for i in draft.get("items", [])]}
 
 
+# ---------------------------------------------------------------- send now
+def send_now(company_id: str, channel: str = "sms") -> dict:
+    """One explicit human click on the previewed draft = authorization
+    (Santino 2026-08-03, right after loving the Crew preview: "Send now").
+    Runs the SAME compose as the preview, then delivers — with
+    boss-directive semantics, exactly like an open [FROM SANTINO] note:
+
+      BYPASSED : cooldown + nudge cap (the click IS the authorization),
+                 business hours (NOT hard-blocked — the response carries
+                 local_time/in_business_hours so the UI confirms first).
+      KEPT     : canary allowlist (inside send_message, no override), CRM
+                 DND (with the same SMS->email fallback as compose),
+                 grounding guard, and the no-double-send duplicate guard —
+                 a second immediate click recomposes near-identical copy
+                 and is refused by repeats_last_outbound.
+
+    Flows through the normal send path so everything downstream sees a real
+    Monica send: sent-ids ledger, work_log outreach line, awaiting/
+    commitment bookkeeping, one-shot directive resolution, cadence state.
+
+    Returns {sent: bool, reason?, body?, channel_used?, company,
+             local_time, tz, in_business_hours}."""
+    state = load_state()
+    company = fetch_companies([company_id]).get(company_id)
+    if not company:
+        return {"sent": False, "reason": f"company {company_id} not found"}
+    contact = resolve_contact(company)
+    tz_key, _tz_src = resolve_timezone(company, contact)
+    local = datetime.now(timezone.utc).astimezone(ZoneInfo(tz_key))
+    base = {"company": company.get("name"), "tz": tz_key,
+            "local_time": local.strftime("%-I:%M %p"),
+            "in_business_hours":
+                BUSINESS_HOUR_START <= local.hour < BUSINESS_HOUR_END}
+    if not contact:
+        return {**base, "sent": False, "reason": "no GHL contact resolved"}
+    items = filter_already_satisfied(company, gather_items(company_id),
+                                     dry_run=False)
+    first = contact_first_name(contact, company)
+    cs = company_state(state, company_id)
+    first_contact = not cs.get("first_contacted")
+    history = fetch_history(contact["id"])
+    if first_contact and any(
+            m.get("direction") != "in"
+            and "this is monica" in str(m.get("body") or "").lower()
+            for m in history):
+        first_contact = False
+    pending = pending_client_message(cs, history, state)
+    commitment = cs.get("pending_commitment") or None
+    if not items and not (pending or commitment):
+        return {**base, "sent": False,
+                "reason": "nothing outstanding — no message to send"}
+    intel = load_meeting_intel(company)
+    appts_res = fetch_upcoming_appointments(contact["id"], tz_key)
+    appts = appts_res[0] if isinstance(appts_res, tuple) else None
+    draft = compose_draft(company, first, items, channel, first_contact,
+                          history=history, intel=intel, appointments=appts,
+                          pending_reply=pending, commitment=commitment)
+    body = draft["body"]
+    if not body:
+        return {**base, "sent": False,
+                "reason": "compose produced nothing (every item excluded "
+                          "by history/meeting intel)"}
+    grounding = unsupported_done_claim(body, _evidence_slice(intel))
+    if grounding:
+        return {**base, "sent": False, "body": body,
+                "reason": f"grounding guard: {grounding}"}
+    dup = repeats_last_outbound(body, history)
+    if dup:
+        return {**base, "sent": False, "body": body,
+                "reason": f"duplicate guard: {dup}"}
+    channel_used = channel
+    try:
+        try:
+            result = send_message(contact, channel, body, draft["subject"])
+        except SendBlocked as e:
+            # same DND fallback as the scheduled compose path
+            if ("DND active" in str(e) and channel == "sms"
+                    and (contact.get("email") or "").strip()):
+                result = send_message(contact, "email", body, draft["subject"])
+                channel_used = "email"
+            else:
+                raise
+    except SendBlocked as e:
+        return {**base, "sent": False, "body": body,
+                "reason": f"send blocked: {e}"}
+    record_sent_message(state, result)
+    try:
+        from work_log import work_log
+        verb = "Texted" if channel_used == "sms" else "Emailed"
+        work_log(company_id, "outreach", f"{channel_used}-sent",
+                 f"{verb} {first}: {body[:80]}",
+                 evidence={"channel": channel_used,
+                           "ghl_contact_id": contact["id"],
+                           "chars": len(body), "trigger": "send-now"},
+                 actor="monica", source="client_concierge.py send_now")
+    except Exception as e:  # noqa: BLE001
+        print(f"  [work-log] warn: {str(e)[:100]}")
+    now = datetime.now(timezone.utc).isoformat()
+    cs.pop("awaiting_reply", None)
+    cs.pop("pending_commitment", None)
+    cs.update({"ghl_contact_id": contact["id"], "last_contacted": now,
+               "first_contacted": cs.get("first_contacted") or now,
+               "nudge_count": cs.get("nudge_count", 0) + 1,
+               "last_channel": channel_used})
+    save_state(state, dry_run=False)
+    try:  # one-shot boss directives are satisfied by this send too
+        dnotes = _sb("GET", f"/rest/v1/marketing_ops_notes?company_id=eq.{company_id}"
+                     "&status=eq.open&select=id,body&limit=20") or []
+        for n in dnotes:
+            if str(n.get("body", "")).startswith(("[FROM SANTINO", "[SEND-PREVIEW]")):
+                _sb("PATCH", f"/rest/v1/marketing_ops_notes?id=eq.{n['id']}",
+                    {"status": "resolved", "resolved_at": now})
+    except Exception as e:  # noqa: BLE001
+        print(f"  [directive] resolve failed: {str(e)[:100]}")
+    return {**base, "sent": True, "body": body, "channel_used": channel_used}
+
+
 # ---------------------------------------------------------------- status
 def cmd_status(_args) -> int:
     state = load_state()
