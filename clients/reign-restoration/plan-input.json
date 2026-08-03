@@ -2,6 +2,85 @@
  "brand": {
   "display_name": "Reign Restoration",
   "lat": 32.9761045,
-  "lng": -96.331334
- }
+  "lng": -96.331334,
+  "phone": "(214) 304-0621",
+  "email": "jerrott@reign-restoration.com",
+  "street_address": "6691 TX- 276 STE C",
+  "city": "Royse City",
+  "state": "TX",
+  "postal_code": "75189",
+  "certifications": [
+   "IICRC WRT (WATER)",
+   "IICRC CERTIFIED FIRM",
+   "IICRC AMRT (MOLD)",
+   "IICRC FSRT (FIRE & SMOKE)"
+  ],
+  "license_numbers": [
+   "MRC2276"
+  ],
+  "trust_badges": [
+   "IICRC Certified Firm",
+   "Licensed & Insured",
+   "24/7 Emergency Service",
+   "Locally Owned & Operated"
+  ]
+ },
+ "services": [
+  "water-damage-restoration",
+  "fire-damage-restoration",
+  "mold-remediation",
+  "storm-damage-restoration",
+  "general-contracting",
+  "contents-restoration"
+ ],
+ "service_areas": [
+  {
+   "city": "Royse City",
+   "state": "TX",
+   "slug": "royse-city-tx",
+   "primary": true
+  },
+  {
+   "city": "Rockwall",
+   "state": "TX",
+   "slug": "rockwall-tx"
+  },
+  {
+   "city": "Rowlett",
+   "state": "TX",
+   "slug": "rowlett-tx"
+  },
+  {
+   "city": "Greenville",
+   "state": "TX",
+   "slug": "greenville-tx"
+  },
+  {
+   "city": "Wylie",
+   "state": "TX",
+   "slug": "wylie-tx"
+  },
+  {
+   "city": "Garland",
+   "state": "TX",
+   "slug": "garland-tx"
+  },
+  {
+   "city": "Mesquite",
+   "state": "TX",
+   "slug": "mesquite-tx"
+  },
+  {
+   "city": "Terrell",
+   "state": "TX",
+   "slug": "terrell-tx"
+  },
+  {
+   "city": "Fate",
+   "state": "TX",
+   "slug": "fate-tx"
+  }
+ ],
+ "template": "restoration",
+ "blog_seed_count": 8
 }

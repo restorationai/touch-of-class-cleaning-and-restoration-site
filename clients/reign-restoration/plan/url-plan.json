@@ -1,0 +1,3663 @@
+{
+  "template": "restoration",
+  "template_version": "0.3.0",
+  "generated_at": "2026-08-03T16:27:24.138532+00:00",
+  "input_summary": {
+    "service_count": 6,
+    "service_area_count": 9,
+    "cross_product": true,
+    "blog_seed_count": 8
+  },
+  "pages": [
+    {
+      "url_path": "/",
+      "archetype": "home",
+      "vars_keys": [],
+      "title": "Reign Restoration | Restoration Services in Royse City, TX",
+      "h1": "Restoration Services in Royse City",
+      "meta_description": "Reign Restoration provides water, fire, mold, and storm damage restoration across Royse City and surrounding areas. Licensed, insured, IICRC-certified. Call (214) 304-0621.",
+      "primary_keyword": "restoration services royse city",
+      "secondary_keywords": [
+        "restoration company near me"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 1200,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2",
+        "inline-3"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "aggregate-rating"
+      ],
+      "priority": 5.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/service-areas/",
+        "/contact/",
+        "/about/",
+        "/services/fire-damage-restoration/",
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/services/storm-damage-restoration/",
+        "/services/general-contracting/",
+        "/services/contents-restoration/",
+        "/service-areas/royse-city-tx/",
+        "/service-areas/fate-tx/",
+        "/service-areas/garland-tx/",
+        "/service-areas/greenville-tx/",
+        "/service-areas/mesquite-tx/",
+        "/service-areas/rockwall-tx/",
+        "/service-areas/rowlett-tx/",
+        "/service-areas/terrell-tx/",
+        "/service-areas/wylie-tx/"
+      ]
+    },
+    {
+      "url_path": "/services/",
+      "archetype": "services-hub",
+      "vars_keys": [],
+      "title": "Restoration Services in Royse City | Reign Restoration",
+      "h1": "Our Restoration Services",
+      "meta_description": "Full-service restoration in Royse City: water, fire, mold, storm, biohazard, and commercial restoration. Prompt scheduling. Call (214) 304-0621.",
+      "primary_keyword": "restoration services royse city",
+      "secondary_keywords": [
+        "damage restoration services",
+        "property restoration services",
+        "disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 800,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "breadcrumb-list"
+      ],
+      "priority": 4.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/services/fire-damage-restoration/",
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/services/storm-damage-restoration/",
+        "/services/general-contracting/",
+        "/services/contents-restoration/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/",
+      "archetype": "service-areas-hub",
+      "vars_keys": [],
+      "title": "Service Areas | Reign Restoration Restoration",
+      "h1": "Areas We Serve",
+      "meta_description": "Reign Restoration provides restoration services across Royse City and the surrounding region. Find your city.",
+      "primary_keyword": "reign restoration service areas",
+      "secondary_keywords": [
+        "restoration service area",
+        "cities we serve",
+        "local restoration coverage"
+      ],
+      "search_intent": "navigational_local",
+      "target_word_count": 500,
+      "image_roles": [
+        "hero",
+        "og"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/service-areas/royse-city-tx/",
+        "/service-areas/fate-tx/",
+        "/service-areas/garland-tx/",
+        "/service-areas/greenville-tx/",
+        "/service-areas/mesquite-tx/",
+        "/service-areas/rockwall-tx/",
+        "/service-areas/rowlett-tx/",
+        "/service-areas/terrell-tx/",
+        "/service-areas/wylie-tx/"
+      ]
+    },
+    {
+      "url_path": "/blog/",
+      "archetype": "blog-index",
+      "vars_keys": [],
+      "title": "Restoration Blog | Reign Restoration",
+      "h1": "Restoration Resources and Insights",
+      "meta_description": "Guides, checklists, and explainers from Reign Restoration on water, fire, mold, and storm damage restoration.",
+      "primary_keyword": "restoration blog royse city",
+      "secondary_keywords": [
+        "restoration guides",
+        "damage restoration tips",
+        "restoration insights"
+      ],
+      "search_intent": "informational_browse",
+      "target_word_count": 300,
+      "image_roles": [
+        "hero",
+        "og"
+      ],
+      "schema_stubs": [
+        "website",
+        "breadcrumb-list"
+      ],
+      "priority": 3.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/blog/fire-damage-restoration-process/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/signs-of-hidden-mold/",
+        "/blog/black-mold-vs-regular-mold/"
+      ]
+    },
+    {
+      "url_path": "/about/",
+      "archetype": "about",
+      "vars_keys": [],
+      "title": "About Reign Restoration | Royse City Restoration Company",
+      "h1": "About Reign Restoration",
+      "meta_description": "Reign Restoration has served Royse City since . Meet our IICRC-certified restoration team. Licensed, insured, locally owned.",
+      "primary_keyword": "reign restoration royse city",
+      "secondary_keywords": [
+        "local restoration company",
+        "iicrc certified restoration",
+        "licensed restoration contractor"
+      ],
+      "search_intent": "navigational_trust",
+      "target_word_count": 700,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "aggregate-rating",
+        "breadcrumb-list"
+      ],
+      "priority": 2.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/contact/",
+      "archetype": "contact",
+      "vars_keys": [],
+      "title": "Contact Reign Restoration | Restoration in Royse City",
+      "h1": "Contact Reign Restoration",
+      "meta_description": "Call (214) 304-0621 for restoration services in Royse City and surrounding areas. Free estimates. Direct insurance billing.",
+      "primary_keyword": "reign restoration contact",
+      "secondary_keywords": [
+        "restoration company contact"
+      ],
+      "search_intent": "navigational_action",
+      "target_word_count": 400,
+      "image_roles": [
+        "hero",
+        "og"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "breadcrumb-list"
+      ],
+      "priority": 2.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/services/",
+        "/service-areas/"
+      ]
+    },
+    {
+      "url_path": "/services/water-damage-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Water Damage Restoration in Royse City | Reign Restoration",
+      "h1": "Water Damage Restoration in Royse City",
+      "meta_description": "Water damage restoration in Royse City and surrounding areas. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "water damage restoration royse city",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 9.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/fate-tx/water-damage-restoration/",
+        "/service-areas/garland-tx/water-damage-restoration/",
+        "/service-areas/greenville-tx/water-damage-restoration/",
+        "/service-areas/mesquite-tx/water-damage-restoration/",
+        "/service-areas/rockwall-tx/water-damage-restoration/",
+        "/service-areas/rowlett-tx/water-damage-restoration/",
+        "/service-areas/royse-city-tx/water-damage-restoration/",
+        "/service-areas/terrell-tx/water-damage-restoration/",
+        "/service-areas/wylie-tx/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/services/fire-damage-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Royse City | Reign Restoration",
+      "h1": "Fire Damage Restoration in Royse City",
+      "meta_description": "Fire damage restoration in Royse City and surrounding areas. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "fire damage restoration royse city",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 9.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/fate-tx/fire-damage-restoration/",
+        "/service-areas/garland-tx/fire-damage-restoration/",
+        "/service-areas/greenville-tx/fire-damage-restoration/",
+        "/service-areas/mesquite-tx/fire-damage-restoration/",
+        "/service-areas/rockwall-tx/fire-damage-restoration/",
+        "/service-areas/rowlett-tx/fire-damage-restoration/",
+        "/service-areas/royse-city-tx/fire-damage-restoration/",
+        "/service-areas/terrell-tx/fire-damage-restoration/",
+        "/service-areas/wylie-tx/fire-damage-restoration/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/fire-damage-restoration-process/"
+      ]
+    },
+    {
+      "url_path": "/services/mold-remediation/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Mold Remediation in Royse City | Reign Restoration",
+      "h1": "Mold Remediation in Royse City",
+      "meta_description": "Mold remediation in Royse City and surrounding areas. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "mold remediation royse city",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 9.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/fate-tx/mold-remediation/",
+        "/service-areas/garland-tx/mold-remediation/",
+        "/service-areas/greenville-tx/mold-remediation/",
+        "/service-areas/mesquite-tx/mold-remediation/",
+        "/service-areas/rockwall-tx/mold-remediation/",
+        "/service-areas/rowlett-tx/mold-remediation/",
+        "/service-areas/royse-city-tx/mold-remediation/",
+        "/service-areas/terrell-tx/mold-remediation/",
+        "/service-areas/wylie-tx/mold-remediation/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/signs-of-hidden-mold/"
+      ]
+    },
+    {
+      "url_path": "/services/storm-damage-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Royse City | Reign Restoration",
+      "h1": "Storm Damage Restoration in Royse City",
+      "meta_description": "Storm damage restoration in Royse City and surrounding areas. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "storm damage restoration royse city",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/fate-tx/storm-damage-restoration/",
+        "/service-areas/garland-tx/storm-damage-restoration/",
+        "/service-areas/greenville-tx/storm-damage-restoration/",
+        "/service-areas/mesquite-tx/storm-damage-restoration/",
+        "/service-areas/rockwall-tx/storm-damage-restoration/",
+        "/service-areas/rowlett-tx/storm-damage-restoration/",
+        "/service-areas/royse-city-tx/storm-damage-restoration/",
+        "/service-areas/terrell-tx/storm-damage-restoration/",
+        "/service-areas/wylie-tx/storm-damage-restoration/"
+      ]
+    },
+    {
+      "url_path": "/services/general-contracting/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Royse City | Reign Restoration",
+      "h1": "Renovations, Remodels and General Contracting in Royse City",
+      "meta_description": "Renovations, remodels and general contracting in Royse City and surrounding areas. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "renovations, remodels and general contracting royse city",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/fate-tx/general-contracting/",
+        "/service-areas/garland-tx/general-contracting/",
+        "/service-areas/greenville-tx/general-contracting/",
+        "/service-areas/mesquite-tx/general-contracting/",
+        "/service-areas/rockwall-tx/general-contracting/",
+        "/service-areas/rowlett-tx/general-contracting/",
+        "/service-areas/royse-city-tx/general-contracting/",
+        "/service-areas/terrell-tx/general-contracting/",
+        "/service-areas/wylie-tx/general-contracting/"
+      ]
+    },
+    {
+      "url_path": "/services/contents-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Royse City | Reign Restoration",
+      "h1": "Contents Restoration and Storage in Royse City",
+      "meta_description": "Contents restoration and storage in Royse City and surrounding areas. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "contents restoration and storage royse city",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/fate-tx/contents-restoration/",
+        "/service-areas/garland-tx/contents-restoration/",
+        "/service-areas/greenville-tx/contents-restoration/",
+        "/service-areas/mesquite-tx/contents-restoration/",
+        "/service-areas/rockwall-tx/contents-restoration/",
+        "/service-areas/rowlett-tx/contents-restoration/",
+        "/service-areas/royse-city-tx/contents-restoration/",
+        "/service-areas/terrell-tx/contents-restoration/",
+        "/service-areas/wylie-tx/contents-restoration/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/royse-city-tx/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Royse City, TX | Reign Restoration",
+      "h1": "Restoration Services in Royse City",
+      "meta_description": "Serving Royse City, TX with water, fire, mold, and storm damage restoration. IICRC-certified team. Call (214) 304-0621.",
+      "primary_keyword": "restoration services royse city",
+      "secondary_keywords": [
+        "royse city restoration company",
+        "damage restoration royse city",
+        "royse city disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 7.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/royse-city-tx/fire-damage-restoration/",
+        "/service-areas/royse-city-tx/mold-remediation/",
+        "/service-areas/royse-city-tx/water-damage-restoration/",
+        "/service-areas/royse-city-tx/storm-damage-restoration/",
+        "/service-areas/royse-city-tx/general-contracting/",
+        "/service-areas/royse-city-tx/contents-restoration/",
+        "/service-areas/fate-tx/",
+        "/service-areas/garland-tx/",
+        "/service-areas/greenville-tx/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/rockwall-tx/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Rockwall, TX | Reign Restoration",
+      "h1": "Restoration Services in Rockwall",
+      "meta_description": "Serving Rockwall, TX with water, fire, mold, and storm damage restoration. IICRC-certified team. Call (214) 304-0621.",
+      "primary_keyword": "restoration services rockwall",
+      "secondary_keywords": [
+        "rockwall restoration company",
+        "damage restoration rockwall",
+        "rockwall disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/rockwall-tx/fire-damage-restoration/",
+        "/service-areas/rockwall-tx/mold-remediation/",
+        "/service-areas/rockwall-tx/water-damage-restoration/",
+        "/service-areas/rockwall-tx/storm-damage-restoration/",
+        "/service-areas/rockwall-tx/general-contracting/",
+        "/service-areas/rockwall-tx/contents-restoration/",
+        "/service-areas/royse-city-tx/",
+        "/service-areas/fate-tx/",
+        "/service-areas/garland-tx/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/rowlett-tx/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Rowlett, TX | Reign Restoration",
+      "h1": "Restoration Services in Rowlett",
+      "meta_description": "Serving Rowlett, TX with water, fire, mold, and storm damage restoration. IICRC-certified team. Call (214) 304-0621.",
+      "primary_keyword": "restoration services rowlett",
+      "secondary_keywords": [
+        "rowlett restoration company",
+        "damage restoration rowlett",
+        "rowlett disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/rowlett-tx/fire-damage-restoration/",
+        "/service-areas/rowlett-tx/mold-remediation/",
+        "/service-areas/rowlett-tx/water-damage-restoration/",
+        "/service-areas/rowlett-tx/storm-damage-restoration/",
+        "/service-areas/rowlett-tx/general-contracting/",
+        "/service-areas/rowlett-tx/contents-restoration/",
+        "/service-areas/royse-city-tx/",
+        "/service-areas/fate-tx/",
+        "/service-areas/garland-tx/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/greenville-tx/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Greenville, TX | Reign Restoration",
+      "h1": "Restoration Services in Greenville",
+      "meta_description": "Serving Greenville, TX with water, fire, mold, and storm damage restoration. IICRC-certified team. Call (214) 304-0621.",
+      "primary_keyword": "restoration services greenville",
+      "secondary_keywords": [
+        "greenville restoration company",
+        "damage restoration greenville",
+        "greenville disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/greenville-tx/fire-damage-restoration/",
+        "/service-areas/greenville-tx/mold-remediation/",
+        "/service-areas/greenville-tx/water-damage-restoration/",
+        "/service-areas/greenville-tx/storm-damage-restoration/",
+        "/service-areas/greenville-tx/general-contracting/",
+        "/service-areas/greenville-tx/contents-restoration/",
+        "/service-areas/royse-city-tx/",
+        "/service-areas/fate-tx/",
+        "/service-areas/garland-tx/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/wylie-tx/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Wylie, TX | Reign Restoration",
+      "h1": "Restoration Services in Wylie",
+      "meta_description": "Serving Wylie, TX with water, fire, mold, and storm damage restoration. IICRC-certified team. Call (214) 304-0621.",
+      "primary_keyword": "restoration services wylie",
+      "secondary_keywords": [
+        "wylie restoration company",
+        "damage restoration wylie",
+        "wylie disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/wylie-tx/fire-damage-restoration/",
+        "/service-areas/wylie-tx/mold-remediation/",
+        "/service-areas/wylie-tx/water-damage-restoration/",
+        "/service-areas/wylie-tx/storm-damage-restoration/",
+        "/service-areas/wylie-tx/general-contracting/",
+        "/service-areas/wylie-tx/contents-restoration/",
+        "/service-areas/royse-city-tx/",
+        "/service-areas/fate-tx/",
+        "/service-areas/garland-tx/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/garland-tx/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Garland, TX | Reign Restoration",
+      "h1": "Restoration Services in Garland",
+      "meta_description": "Serving Garland, TX with water, fire, mold, and storm damage restoration. IICRC-certified team. Call (214) 304-0621.",
+      "primary_keyword": "restoration services garland",
+      "secondary_keywords": [
+        "garland restoration company",
+        "damage restoration garland",
+        "garland disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/garland-tx/fire-damage-restoration/",
+        "/service-areas/garland-tx/mold-remediation/",
+        "/service-areas/garland-tx/water-damage-restoration/",
+        "/service-areas/garland-tx/storm-damage-restoration/",
+        "/service-areas/garland-tx/general-contracting/",
+        "/service-areas/garland-tx/contents-restoration/",
+        "/service-areas/royse-city-tx/",
+        "/service-areas/fate-tx/",
+        "/service-areas/greenville-tx/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mesquite-tx/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Mesquite, TX | Reign Restoration",
+      "h1": "Restoration Services in Mesquite",
+      "meta_description": "Serving Mesquite, TX with water, fire, mold, and storm damage restoration. IICRC-certified team. Call (214) 304-0621.",
+      "primary_keyword": "restoration services mesquite",
+      "secondary_keywords": [
+        "mesquite restoration company",
+        "damage restoration mesquite",
+        "mesquite disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/mesquite-tx/fire-damage-restoration/",
+        "/service-areas/mesquite-tx/mold-remediation/",
+        "/service-areas/mesquite-tx/water-damage-restoration/",
+        "/service-areas/mesquite-tx/storm-damage-restoration/",
+        "/service-areas/mesquite-tx/general-contracting/",
+        "/service-areas/mesquite-tx/contents-restoration/",
+        "/service-areas/royse-city-tx/",
+        "/service-areas/fate-tx/",
+        "/service-areas/garland-tx/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/terrell-tx/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Terrell, TX | Reign Restoration",
+      "h1": "Restoration Services in Terrell",
+      "meta_description": "Serving Terrell, TX with water, fire, mold, and storm damage restoration. IICRC-certified team. Call (214) 304-0621.",
+      "primary_keyword": "restoration services terrell",
+      "secondary_keywords": [
+        "terrell restoration company",
+        "damage restoration terrell",
+        "terrell disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/terrell-tx/fire-damage-restoration/",
+        "/service-areas/terrell-tx/mold-remediation/",
+        "/service-areas/terrell-tx/water-damage-restoration/",
+        "/service-areas/terrell-tx/storm-damage-restoration/",
+        "/service-areas/terrell-tx/general-contracting/",
+        "/service-areas/terrell-tx/contents-restoration/",
+        "/service-areas/royse-city-tx/",
+        "/service-areas/fate-tx/",
+        "/service-areas/garland-tx/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/fate-tx/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Fate, TX | Reign Restoration",
+      "h1": "Restoration Services in Fate",
+      "meta_description": "Serving Fate, TX with water, fire, mold, and storm damage restoration. IICRC-certified team. Call (214) 304-0621.",
+      "primary_keyword": "restoration services fate",
+      "secondary_keywords": [
+        "fate restoration company",
+        "damage restoration fate",
+        "fate disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/fate-tx/fire-damage-restoration/",
+        "/service-areas/fate-tx/mold-remediation/",
+        "/service-areas/fate-tx/water-damage-restoration/",
+        "/service-areas/fate-tx/storm-damage-restoration/",
+        "/service-areas/fate-tx/general-contracting/",
+        "/service-areas/fate-tx/contents-restoration/",
+        "/service-areas/royse-city-tx/",
+        "/service-areas/garland-tx/",
+        "/service-areas/greenville-tx/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/royse-city-tx/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Royse City, TX | Reign Restoration",
+      "h1": "Water Damage Restoration in Royse City",
+      "meta_description": "Water damage restoration in Royse City, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "water damage restoration royse city",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/royse-city-tx/",
+        "/service-areas/royse-city-tx/fire-damage-restoration/",
+        "/service-areas/royse-city-tx/mold-remediation/",
+        "/service-areas/fate-tx/water-damage-restoration/",
+        "/service-areas/garland-tx/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/royse-city-tx/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Royse City, TX | Reign Restoration",
+      "h1": "Fire Damage Restoration in Royse City",
+      "meta_description": "Fire damage restoration in Royse City, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "fire damage restoration royse city",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/royse-city-tx/",
+        "/service-areas/royse-city-tx/mold-remediation/",
+        "/service-areas/royse-city-tx/water-damage-restoration/",
+        "/service-areas/fate-tx/fire-damage-restoration/",
+        "/service-areas/garland-tx/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/royse-city-tx/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Royse City, TX | Reign Restoration",
+      "h1": "Mold Remediation in Royse City",
+      "meta_description": "Mold remediation in Royse City, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "mold remediation royse city",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/royse-city-tx/",
+        "/service-areas/royse-city-tx/fire-damage-restoration/",
+        "/service-areas/royse-city-tx/water-damage-restoration/",
+        "/service-areas/fate-tx/mold-remediation/",
+        "/service-areas/garland-tx/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/royse-city-tx/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Royse City, TX | Reign Restoration",
+      "h1": "Storm Damage Restoration in Royse City",
+      "meta_description": "Storm damage restoration in Royse City, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "storm damage restoration royse city",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/royse-city-tx/",
+        "/service-areas/royse-city-tx/fire-damage-restoration/",
+        "/service-areas/royse-city-tx/mold-remediation/",
+        "/service-areas/fate-tx/storm-damage-restoration/",
+        "/service-areas/garland-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/royse-city-tx/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Royse City, TX | Reign Restoration",
+      "h1": "Renovations, Remodels and General Contracting in Royse City",
+      "meta_description": "Renovations, remodels and general contracting in Royse City, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "renovations, remodels and general contracting royse city",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/royse-city-tx/",
+        "/service-areas/royse-city-tx/fire-damage-restoration/",
+        "/service-areas/royse-city-tx/mold-remediation/",
+        "/service-areas/fate-tx/general-contracting/",
+        "/service-areas/garland-tx/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/royse-city-tx/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Royse City, TX | Reign Restoration",
+      "h1": "Contents Restoration and Storage in Royse City",
+      "meta_description": "Contents restoration and storage in Royse City, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "contents restoration and storage royse city",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/royse-city-tx/",
+        "/service-areas/royse-city-tx/fire-damage-restoration/",
+        "/service-areas/royse-city-tx/mold-remediation/",
+        "/service-areas/fate-tx/contents-restoration/",
+        "/service-areas/garland-tx/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/rockwall-tx/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Rockwall, TX | Reign Restoration",
+      "h1": "Water Damage Restoration in Rockwall",
+      "meta_description": "Water damage restoration in Rockwall, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "water damage restoration rockwall",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/rockwall-tx/",
+        "/service-areas/rockwall-tx/fire-damage-restoration/",
+        "/service-areas/rockwall-tx/mold-remediation/",
+        "/service-areas/fate-tx/water-damage-restoration/",
+        "/service-areas/garland-tx/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/rockwall-tx/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Rockwall, TX | Reign Restoration",
+      "h1": "Fire Damage Restoration in Rockwall",
+      "meta_description": "Fire damage restoration in Rockwall, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "fire damage restoration rockwall",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/rockwall-tx/",
+        "/service-areas/rockwall-tx/mold-remediation/",
+        "/service-areas/rockwall-tx/water-damage-restoration/",
+        "/service-areas/fate-tx/fire-damage-restoration/",
+        "/service-areas/garland-tx/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/rockwall-tx/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Rockwall, TX | Reign Restoration",
+      "h1": "Mold Remediation in Rockwall",
+      "meta_description": "Mold remediation in Rockwall, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "mold remediation rockwall",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/rockwall-tx/",
+        "/service-areas/rockwall-tx/fire-damage-restoration/",
+        "/service-areas/rockwall-tx/water-damage-restoration/",
+        "/service-areas/fate-tx/mold-remediation/",
+        "/service-areas/garland-tx/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/rockwall-tx/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Rockwall, TX | Reign Restoration",
+      "h1": "Storm Damage Restoration in Rockwall",
+      "meta_description": "Storm damage restoration in Rockwall, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "storm damage restoration rockwall",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/rockwall-tx/",
+        "/service-areas/rockwall-tx/fire-damage-restoration/",
+        "/service-areas/rockwall-tx/mold-remediation/",
+        "/service-areas/fate-tx/storm-damage-restoration/",
+        "/service-areas/garland-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/rockwall-tx/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Rockwall, TX | Reign Restoration",
+      "h1": "Renovations, Remodels and General Contracting in Rockwall",
+      "meta_description": "Renovations, remodels and general contracting in Rockwall, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "renovations, remodels and general contracting rockwall",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/rockwall-tx/",
+        "/service-areas/rockwall-tx/fire-damage-restoration/",
+        "/service-areas/rockwall-tx/mold-remediation/",
+        "/service-areas/fate-tx/general-contracting/",
+        "/service-areas/garland-tx/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/rockwall-tx/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Rockwall, TX | Reign Restoration",
+      "h1": "Contents Restoration and Storage in Rockwall",
+      "meta_description": "Contents restoration and storage in Rockwall, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "contents restoration and storage rockwall",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/rockwall-tx/",
+        "/service-areas/rockwall-tx/fire-damage-restoration/",
+        "/service-areas/rockwall-tx/mold-remediation/",
+        "/service-areas/fate-tx/contents-restoration/",
+        "/service-areas/garland-tx/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/rowlett-tx/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Rowlett, TX | Reign Restoration",
+      "h1": "Water Damage Restoration in Rowlett",
+      "meta_description": "Water damage restoration in Rowlett, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "water damage restoration rowlett",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/rowlett-tx/",
+        "/service-areas/rowlett-tx/fire-damage-restoration/",
+        "/service-areas/rowlett-tx/mold-remediation/",
+        "/service-areas/fate-tx/water-damage-restoration/",
+        "/service-areas/garland-tx/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/rowlett-tx/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Rowlett, TX | Reign Restoration",
+      "h1": "Fire Damage Restoration in Rowlett",
+      "meta_description": "Fire damage restoration in Rowlett, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "fire damage restoration rowlett",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/rowlett-tx/",
+        "/service-areas/rowlett-tx/mold-remediation/",
+        "/service-areas/rowlett-tx/water-damage-restoration/",
+        "/service-areas/fate-tx/fire-damage-restoration/",
+        "/service-areas/garland-tx/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/rowlett-tx/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Rowlett, TX | Reign Restoration",
+      "h1": "Mold Remediation in Rowlett",
+      "meta_description": "Mold remediation in Rowlett, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "mold remediation rowlett",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/rowlett-tx/",
+        "/service-areas/rowlett-tx/fire-damage-restoration/",
+        "/service-areas/rowlett-tx/water-damage-restoration/",
+        "/service-areas/fate-tx/mold-remediation/",
+        "/service-areas/garland-tx/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/rowlett-tx/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Rowlett, TX | Reign Restoration",
+      "h1": "Storm Damage Restoration in Rowlett",
+      "meta_description": "Storm damage restoration in Rowlett, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "storm damage restoration rowlett",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/rowlett-tx/",
+        "/service-areas/rowlett-tx/fire-damage-restoration/",
+        "/service-areas/rowlett-tx/mold-remediation/",
+        "/service-areas/fate-tx/storm-damage-restoration/",
+        "/service-areas/garland-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/rowlett-tx/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Rowlett, TX | Reign Restoration",
+      "h1": "Renovations, Remodels and General Contracting in Rowlett",
+      "meta_description": "Renovations, remodels and general contracting in Rowlett, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "renovations, remodels and general contracting rowlett",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/rowlett-tx/",
+        "/service-areas/rowlett-tx/fire-damage-restoration/",
+        "/service-areas/rowlett-tx/mold-remediation/",
+        "/service-areas/fate-tx/general-contracting/",
+        "/service-areas/garland-tx/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/rowlett-tx/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Rowlett, TX | Reign Restoration",
+      "h1": "Contents Restoration and Storage in Rowlett",
+      "meta_description": "Contents restoration and storage in Rowlett, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "contents restoration and storage rowlett",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/rowlett-tx/",
+        "/service-areas/rowlett-tx/fire-damage-restoration/",
+        "/service-areas/rowlett-tx/mold-remediation/",
+        "/service-areas/fate-tx/contents-restoration/",
+        "/service-areas/garland-tx/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/greenville-tx/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Greenville, TX | Reign Restoration",
+      "h1": "Water Damage Restoration in Greenville",
+      "meta_description": "Water damage restoration in Greenville, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "water damage restoration greenville",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/greenville-tx/",
+        "/service-areas/greenville-tx/fire-damage-restoration/",
+        "/service-areas/greenville-tx/mold-remediation/",
+        "/service-areas/fate-tx/water-damage-restoration/",
+        "/service-areas/garland-tx/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/greenville-tx/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Greenville, TX | Reign Restoration",
+      "h1": "Fire Damage Restoration in Greenville",
+      "meta_description": "Fire damage restoration in Greenville, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "fire damage restoration greenville",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/greenville-tx/",
+        "/service-areas/greenville-tx/mold-remediation/",
+        "/service-areas/greenville-tx/water-damage-restoration/",
+        "/service-areas/fate-tx/fire-damage-restoration/",
+        "/service-areas/garland-tx/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/greenville-tx/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Greenville, TX | Reign Restoration",
+      "h1": "Mold Remediation in Greenville",
+      "meta_description": "Mold remediation in Greenville, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "mold remediation greenville",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/greenville-tx/",
+        "/service-areas/greenville-tx/fire-damage-restoration/",
+        "/service-areas/greenville-tx/water-damage-restoration/",
+        "/service-areas/fate-tx/mold-remediation/",
+        "/service-areas/garland-tx/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/greenville-tx/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Greenville, TX | Reign Restoration",
+      "h1": "Storm Damage Restoration in Greenville",
+      "meta_description": "Storm damage restoration in Greenville, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "storm damage restoration greenville",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/greenville-tx/",
+        "/service-areas/greenville-tx/fire-damage-restoration/",
+        "/service-areas/greenville-tx/mold-remediation/",
+        "/service-areas/fate-tx/storm-damage-restoration/",
+        "/service-areas/garland-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/greenville-tx/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Greenville, TX | Reign Restoration",
+      "h1": "Renovations, Remodels and General Contracting in Greenville",
+      "meta_description": "Renovations, remodels and general contracting in Greenville, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "renovations, remodels and general contracting greenville",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/greenville-tx/",
+        "/service-areas/greenville-tx/fire-damage-restoration/",
+        "/service-areas/greenville-tx/mold-remediation/",
+        "/service-areas/fate-tx/general-contracting/",
+        "/service-areas/garland-tx/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/greenville-tx/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Greenville, TX | Reign Restoration",
+      "h1": "Contents Restoration and Storage in Greenville",
+      "meta_description": "Contents restoration and storage in Greenville, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "contents restoration and storage greenville",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/greenville-tx/",
+        "/service-areas/greenville-tx/fire-damage-restoration/",
+        "/service-areas/greenville-tx/mold-remediation/",
+        "/service-areas/fate-tx/contents-restoration/",
+        "/service-areas/garland-tx/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/wylie-tx/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Wylie, TX | Reign Restoration",
+      "h1": "Water Damage Restoration in Wylie",
+      "meta_description": "Water damage restoration in Wylie, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "water damage restoration wylie",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/wylie-tx/",
+        "/service-areas/wylie-tx/fire-damage-restoration/",
+        "/service-areas/wylie-tx/mold-remediation/",
+        "/service-areas/fate-tx/water-damage-restoration/",
+        "/service-areas/garland-tx/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/wylie-tx/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Wylie, TX | Reign Restoration",
+      "h1": "Fire Damage Restoration in Wylie",
+      "meta_description": "Fire damage restoration in Wylie, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "fire damage restoration wylie",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/wylie-tx/",
+        "/service-areas/wylie-tx/mold-remediation/",
+        "/service-areas/wylie-tx/water-damage-restoration/",
+        "/service-areas/fate-tx/fire-damage-restoration/",
+        "/service-areas/garland-tx/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/wylie-tx/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Wylie, TX | Reign Restoration",
+      "h1": "Mold Remediation in Wylie",
+      "meta_description": "Mold remediation in Wylie, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "mold remediation wylie",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/wylie-tx/",
+        "/service-areas/wylie-tx/fire-damage-restoration/",
+        "/service-areas/wylie-tx/water-damage-restoration/",
+        "/service-areas/fate-tx/mold-remediation/",
+        "/service-areas/garland-tx/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/wylie-tx/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Wylie, TX | Reign Restoration",
+      "h1": "Storm Damage Restoration in Wylie",
+      "meta_description": "Storm damage restoration in Wylie, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "storm damage restoration wylie",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/wylie-tx/",
+        "/service-areas/wylie-tx/fire-damage-restoration/",
+        "/service-areas/wylie-tx/mold-remediation/",
+        "/service-areas/fate-tx/storm-damage-restoration/",
+        "/service-areas/garland-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/wylie-tx/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Wylie, TX | Reign Restoration",
+      "h1": "Renovations, Remodels and General Contracting in Wylie",
+      "meta_description": "Renovations, remodels and general contracting in Wylie, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "renovations, remodels and general contracting wylie",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/wylie-tx/",
+        "/service-areas/wylie-tx/fire-damage-restoration/",
+        "/service-areas/wylie-tx/mold-remediation/",
+        "/service-areas/fate-tx/general-contracting/",
+        "/service-areas/garland-tx/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/wylie-tx/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Wylie, TX | Reign Restoration",
+      "h1": "Contents Restoration and Storage in Wylie",
+      "meta_description": "Contents restoration and storage in Wylie, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "contents restoration and storage wylie",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/wylie-tx/",
+        "/service-areas/wylie-tx/fire-damage-restoration/",
+        "/service-areas/wylie-tx/mold-remediation/",
+        "/service-areas/fate-tx/contents-restoration/",
+        "/service-areas/garland-tx/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/garland-tx/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Garland, TX | Reign Restoration",
+      "h1": "Water Damage Restoration in Garland",
+      "meta_description": "Water damage restoration in Garland, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "water damage restoration garland",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/garland-tx/",
+        "/service-areas/garland-tx/fire-damage-restoration/",
+        "/service-areas/garland-tx/mold-remediation/",
+        "/service-areas/fate-tx/water-damage-restoration/",
+        "/service-areas/greenville-tx/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/garland-tx/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Garland, TX | Reign Restoration",
+      "h1": "Fire Damage Restoration in Garland",
+      "meta_description": "Fire damage restoration in Garland, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "fire damage restoration garland",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/garland-tx/",
+        "/service-areas/garland-tx/mold-remediation/",
+        "/service-areas/garland-tx/water-damage-restoration/",
+        "/service-areas/fate-tx/fire-damage-restoration/",
+        "/service-areas/greenville-tx/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/garland-tx/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Garland, TX | Reign Restoration",
+      "h1": "Mold Remediation in Garland",
+      "meta_description": "Mold remediation in Garland, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "mold remediation garland",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/garland-tx/",
+        "/service-areas/garland-tx/fire-damage-restoration/",
+        "/service-areas/garland-tx/water-damage-restoration/",
+        "/service-areas/fate-tx/mold-remediation/",
+        "/service-areas/greenville-tx/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/garland-tx/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Garland, TX | Reign Restoration",
+      "h1": "Storm Damage Restoration in Garland",
+      "meta_description": "Storm damage restoration in Garland, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "storm damage restoration garland",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/garland-tx/",
+        "/service-areas/garland-tx/fire-damage-restoration/",
+        "/service-areas/garland-tx/mold-remediation/",
+        "/service-areas/fate-tx/storm-damage-restoration/",
+        "/service-areas/greenville-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/garland-tx/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Garland, TX | Reign Restoration",
+      "h1": "Renovations, Remodels and General Contracting in Garland",
+      "meta_description": "Renovations, remodels and general contracting in Garland, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "renovations, remodels and general contracting garland",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/garland-tx/",
+        "/service-areas/garland-tx/fire-damage-restoration/",
+        "/service-areas/garland-tx/mold-remediation/",
+        "/service-areas/fate-tx/general-contracting/",
+        "/service-areas/greenville-tx/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/garland-tx/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Garland, TX | Reign Restoration",
+      "h1": "Contents Restoration and Storage in Garland",
+      "meta_description": "Contents restoration and storage in Garland, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "contents restoration and storage garland",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/garland-tx/",
+        "/service-areas/garland-tx/fire-damage-restoration/",
+        "/service-areas/garland-tx/mold-remediation/",
+        "/service-areas/fate-tx/contents-restoration/",
+        "/service-areas/greenville-tx/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mesquite-tx/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Mesquite, TX | Reign Restoration",
+      "h1": "Water Damage Restoration in Mesquite",
+      "meta_description": "Water damage restoration in Mesquite, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "water damage restoration mesquite",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/mesquite-tx/",
+        "/service-areas/mesquite-tx/fire-damage-restoration/",
+        "/service-areas/mesquite-tx/mold-remediation/",
+        "/service-areas/fate-tx/water-damage-restoration/",
+        "/service-areas/garland-tx/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mesquite-tx/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Mesquite, TX | Reign Restoration",
+      "h1": "Fire Damage Restoration in Mesquite",
+      "meta_description": "Fire damage restoration in Mesquite, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "fire damage restoration mesquite",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/mesquite-tx/",
+        "/service-areas/mesquite-tx/mold-remediation/",
+        "/service-areas/mesquite-tx/water-damage-restoration/",
+        "/service-areas/fate-tx/fire-damage-restoration/",
+        "/service-areas/garland-tx/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mesquite-tx/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Mesquite, TX | Reign Restoration",
+      "h1": "Mold Remediation in Mesquite",
+      "meta_description": "Mold remediation in Mesquite, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "mold remediation mesquite",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/mesquite-tx/",
+        "/service-areas/mesquite-tx/fire-damage-restoration/",
+        "/service-areas/mesquite-tx/water-damage-restoration/",
+        "/service-areas/fate-tx/mold-remediation/",
+        "/service-areas/garland-tx/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mesquite-tx/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Mesquite, TX | Reign Restoration",
+      "h1": "Storm Damage Restoration in Mesquite",
+      "meta_description": "Storm damage restoration in Mesquite, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "storm damage restoration mesquite",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/mesquite-tx/",
+        "/service-areas/mesquite-tx/fire-damage-restoration/",
+        "/service-areas/mesquite-tx/mold-remediation/",
+        "/service-areas/fate-tx/storm-damage-restoration/",
+        "/service-areas/garland-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mesquite-tx/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Mesquite, TX | Reign Restoration",
+      "h1": "Renovations, Remodels and General Contracting in Mesquite",
+      "meta_description": "Renovations, remodels and general contracting in Mesquite, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "renovations, remodels and general contracting mesquite",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/mesquite-tx/",
+        "/service-areas/mesquite-tx/fire-damage-restoration/",
+        "/service-areas/mesquite-tx/mold-remediation/",
+        "/service-areas/fate-tx/general-contracting/",
+        "/service-areas/garland-tx/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mesquite-tx/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Mesquite, TX | Reign Restoration",
+      "h1": "Contents Restoration and Storage in Mesquite",
+      "meta_description": "Contents restoration and storage in Mesquite, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "contents restoration and storage mesquite",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/mesquite-tx/",
+        "/service-areas/mesquite-tx/fire-damage-restoration/",
+        "/service-areas/mesquite-tx/mold-remediation/",
+        "/service-areas/fate-tx/contents-restoration/",
+        "/service-areas/garland-tx/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/terrell-tx/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Terrell, TX | Reign Restoration",
+      "h1": "Water Damage Restoration in Terrell",
+      "meta_description": "Water damage restoration in Terrell, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "water damage restoration terrell",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/terrell-tx/",
+        "/service-areas/terrell-tx/fire-damage-restoration/",
+        "/service-areas/terrell-tx/mold-remediation/",
+        "/service-areas/fate-tx/water-damage-restoration/",
+        "/service-areas/garland-tx/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/terrell-tx/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Terrell, TX | Reign Restoration",
+      "h1": "Fire Damage Restoration in Terrell",
+      "meta_description": "Fire damage restoration in Terrell, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "fire damage restoration terrell",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/terrell-tx/",
+        "/service-areas/terrell-tx/mold-remediation/",
+        "/service-areas/terrell-tx/water-damage-restoration/",
+        "/service-areas/fate-tx/fire-damage-restoration/",
+        "/service-areas/garland-tx/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/terrell-tx/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Terrell, TX | Reign Restoration",
+      "h1": "Mold Remediation in Terrell",
+      "meta_description": "Mold remediation in Terrell, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "mold remediation terrell",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/terrell-tx/",
+        "/service-areas/terrell-tx/fire-damage-restoration/",
+        "/service-areas/terrell-tx/water-damage-restoration/",
+        "/service-areas/fate-tx/mold-remediation/",
+        "/service-areas/garland-tx/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/terrell-tx/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Terrell, TX | Reign Restoration",
+      "h1": "Storm Damage Restoration in Terrell",
+      "meta_description": "Storm damage restoration in Terrell, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "storm damage restoration terrell",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/terrell-tx/",
+        "/service-areas/terrell-tx/fire-damage-restoration/",
+        "/service-areas/terrell-tx/mold-remediation/",
+        "/service-areas/fate-tx/storm-damage-restoration/",
+        "/service-areas/garland-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/terrell-tx/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Terrell, TX | Reign Restoration",
+      "h1": "Renovations, Remodels and General Contracting in Terrell",
+      "meta_description": "Renovations, remodels and general contracting in Terrell, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "renovations, remodels and general contracting terrell",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/terrell-tx/",
+        "/service-areas/terrell-tx/fire-damage-restoration/",
+        "/service-areas/terrell-tx/mold-remediation/",
+        "/service-areas/fate-tx/general-contracting/",
+        "/service-areas/garland-tx/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/terrell-tx/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Terrell, TX | Reign Restoration",
+      "h1": "Contents Restoration and Storage in Terrell",
+      "meta_description": "Contents restoration and storage in Terrell, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "contents restoration and storage terrell",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/terrell-tx/",
+        "/service-areas/terrell-tx/fire-damage-restoration/",
+        "/service-areas/terrell-tx/mold-remediation/",
+        "/service-areas/fate-tx/contents-restoration/",
+        "/service-areas/garland-tx/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/fate-tx/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Fate, TX | Reign Restoration",
+      "h1": "Water Damage Restoration in Fate",
+      "meta_description": "Water damage restoration in Fate, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "water damage restoration fate",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/fate-tx/",
+        "/service-areas/fate-tx/fire-damage-restoration/",
+        "/service-areas/fate-tx/mold-remediation/",
+        "/service-areas/garland-tx/water-damage-restoration/",
+        "/service-areas/greenville-tx/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/fate-tx/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Fate, TX | Reign Restoration",
+      "h1": "Fire Damage Restoration in Fate",
+      "meta_description": "Fire damage restoration in Fate, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "fire damage restoration fate",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/fate-tx/",
+        "/service-areas/fate-tx/mold-remediation/",
+        "/service-areas/fate-tx/water-damage-restoration/",
+        "/service-areas/garland-tx/fire-damage-restoration/",
+        "/service-areas/greenville-tx/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/fate-tx/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Fate, TX | Reign Restoration",
+      "h1": "Mold Remediation in Fate",
+      "meta_description": "Mold remediation in Fate, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "mold remediation fate",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/fate-tx/",
+        "/service-areas/fate-tx/fire-damage-restoration/",
+        "/service-areas/fate-tx/water-damage-restoration/",
+        "/service-areas/garland-tx/mold-remediation/",
+        "/service-areas/greenville-tx/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/fate-tx/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Fate, TX | Reign Restoration",
+      "h1": "Storm Damage Restoration in Fate",
+      "meta_description": "Storm damage restoration in Fate, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "storm damage restoration fate",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/fate-tx/",
+        "/service-areas/fate-tx/fire-damage-restoration/",
+        "/service-areas/fate-tx/mold-remediation/",
+        "/service-areas/garland-tx/storm-damage-restoration/",
+        "/service-areas/greenville-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/fate-tx/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Fate, TX | Reign Restoration",
+      "h1": "Renovations, Remodels and General Contracting in Fate",
+      "meta_description": "Renovations, remodels and general contracting in Fate, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "renovations, remodels and general contracting fate",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/fate-tx/",
+        "/service-areas/fate-tx/fire-damage-restoration/",
+        "/service-areas/fate-tx/mold-remediation/",
+        "/service-areas/garland-tx/general-contracting/",
+        "/service-areas/greenville-tx/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/fate-tx/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Fate, TX | Reign Restoration",
+      "h1": "Contents Restoration and Storage in Fate",
+      "meta_description": "Contents restoration and storage in Fate, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
+      "primary_keyword": "contents restoration and storage fate",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/fate-tx/",
+        "/service-areas/fate-tx/fire-damage-restoration/",
+        "/service-areas/fate-tx/mold-remediation/",
+        "/service-areas/garland-tx/contents-restoration/",
+        "/service-areas/greenville-tx/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/blog/what-to-do-first-24-hours-water-damage/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "What To Do in the First 24 Hours After Water Damage",
+      "h1": "What To Do in the First 24 Hours After Water Damage",
+      "meta_description": "",
+      "primary_keyword": "what to do in the first 24 hours after water damage",
+      "secondary_keywords": [
+        "water damage restoration"
+      ],
+      "search_intent": "informational_emergency",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ]
+    },
+    {
+      "url_path": "/blog/burst-pipe-emergency-checklist/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Burst Pipe Checklist: Step-by-Step Response",
+      "h1": "Burst Pipe Checklist: Step-by-Step Response",
+      "meta_description": "",
+      "primary_keyword": "burst pipe checklist stepbystep response",
+      "secondary_keywords": [
+        "water damage restoration",
+        "appliance leak cleanup"
+      ],
+      "search_intent": "informational_emergency",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ]
+    },
+    {
+      "url_path": "/blog/does-homeowners-insurance-cover-water-damage/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Does Homeowners Insurance Cover Water Damage? A Plain-English Guide",
+      "h1": "Does Homeowners Insurance Cover Water Damage? A Plain-English Guide",
+      "meta_description": "",
+      "primary_keyword": "does homeowners insurance cover water damage a plainenglish guide",
+      "secondary_keywords": [
+        "water damage restoration"
+      ],
+      "search_intent": "informational_insurance",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/blog/signs-of-hidden-mold/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "7 Signs You Have Hidden Mold (and What To Do Next)",
+      "h1": "7 Signs You Have Hidden Mold (and What To Do Next)",
+      "meta_description": "",
+      "primary_keyword": "7 signs you have hidden mold and what to do next",
+      "secondary_keywords": [
+        "mold remediation"
+      ],
+      "search_intent": "informational_health",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/mold-remediation/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/black-mold-vs-regular-mold/"
+      ]
+    },
+    {
+      "url_path": "/blog/how-to-test-for-mold/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "How To Test for Mold in Your Home (DIY Kits vs a Pro Inspection)",
+      "h1": "How To Test for Mold in Your Home (DIY Kits vs a Pro Inspection)",
+      "meta_description": "",
+      "primary_keyword": "how to test for mold in your home diy kits vs a pro inspection",
+      "secondary_keywords": [
+        "mold remediation",
+        "mold inspection and testing"
+      ],
+      "search_intent": "informational_health",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/mold-remediation/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/signs-of-hidden-mold/",
+        "/blog/black-mold-vs-regular-mold/"
+      ]
+    },
+    {
+      "url_path": "/blog/fire-damage-restoration-process/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "The Fire Damage Restoration Process, Explained",
+      "h1": "The Fire Damage Restoration Process, Explained",
+      "meta_description": "",
+      "primary_keyword": "the fire damage restoration process explained",
+      "secondary_keywords": [
+        "fire damage restoration",
+        "smoke damage restoration"
+      ],
+      "search_intent": "informational_emergency",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/fire-damage-restoration/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/blog/choosing-a-restoration-company/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "How To Choose a Restoration Company in  (Without Getting Burned)",
+      "h1": "How To Choose a Restoration Company in  (Without Getting Burned)",
+      "meta_description": "",
+      "primary_keyword": "how to choose a restoration company in  without getting burned",
+      "secondary_keywords": [
+        "water damage restoration",
+        "fire damage restoration",
+        "mold remediation"
+      ],
+      "search_intent": "commercial_decision",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/fire-damage-restoration/",
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ]
+    },
+    {
+      "url_path": "/blog/black-mold-vs-regular-mold/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Black Mold vs Regular Mold: How To Tell the Difference",
+      "h1": "Black Mold vs Regular Mold: How To Tell the Difference",
+      "meta_description": "",
+      "primary_keyword": "black mold vs regular mold how to tell the difference",
+      "secondary_keywords": [
+        "mold remediation"
+      ],
+      "search_intent": "informational_health",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/mold-remediation/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/signs-of-hidden-mold/"
+      ]
+    },
+    {
+      "url_path": "/privacy/",
+      "archetype": "legal",
+      "vars_keys": [
+        "instance"
+      ],
+      "title": "Privacy Policy | Reign Restoration",
+      "h1": "Privacy Policy",
+      "meta_description": "Privacy Policy | {brand.display_name}.",
+      "primary_keyword": "reign restoration privacy",
+      "secondary_keywords": [],
+      "search_intent": "navigational_legal",
+      "target_word_count": 600,
+      "image_roles": [
+        "og"
+      ],
+      "schema_stubs": [],
+      "priority": 1.0,
+      "status": "planned",
+      "internal_links_out": []
+    },
+    {
+      "url_path": "/terms/",
+      "archetype": "legal",
+      "vars_keys": [
+        "instance"
+      ],
+      "title": "Terms of Service | Reign Restoration",
+      "h1": "Terms of Service",
+      "meta_description": "Terms of Service | {brand.display_name}.",
+      "primary_keyword": "reign restoration terms",
+      "secondary_keywords": [],
+      "search_intent": "navigational_legal",
+      "target_word_count": 600,
+      "image_roles": [
+        "og"
+      ],
+      "schema_stubs": [],
+      "priority": 1.0,
+      "status": "planned",
+      "internal_links_out": []
+    },
+    {
+      "url_path": "/accessibility/",
+      "archetype": "legal",
+      "vars_keys": [
+        "instance"
+      ],
+      "title": "Accessibility Statement | Reign Restoration",
+      "h1": "Accessibility Statement",
+      "meta_description": "Accessibility Statement | {brand.display_name}.",
+      "primary_keyword": "reign restoration accessibility",
+      "secondary_keywords": [],
+      "search_intent": "navigational_legal",
+      "target_word_count": 400,
+      "image_roles": [
+        "og"
+      ],
+      "schema_stubs": [],
+      "priority": 1.0,
+      "status": "planned",
+      "internal_links_out": []
+    }
+  ]
+}
