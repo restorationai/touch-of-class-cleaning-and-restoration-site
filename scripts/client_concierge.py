@@ -1772,6 +1772,12 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
         except json.JSONDecodeError:
             ints_lsa = {}
     li = ints_lsa.get("lsa_intent") or {}
+    if isinstance(li, str):
+        # Legacy shape: ops recorded lsa_intent as a plain string ("yes - LSA
+        # already live..., managed by RGP") before the {answer, revisit_on}
+        # dict existed. .get() on the str crashed Crew's compose — and with
+        # rc=1 the whole GH-Actions run — every cycle 07-30..07-31.
+        li = {"answer": li}
     lsa_line = (f"LSA decision: {li.get('answer')}"
                 + (f" (revisit {li['revisit_on']})" if li.get("revisit_on") else "")
                 if li.get("answer") else "LSA decision: unset")

@@ -798,6 +798,8 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
         # Santino runs LSA setup personally — us_owed, never a Monica ask.
         try:
             li = (ints.get("lsa_intent") or {}) if isinstance(ints, dict) else {}
+            if not isinstance(li, dict):
+                li = {}   # legacy plain-string lsa_intent (e.g. Crew) — no dict fields to read
             lsa_done = bool((ints.get("lsa") or {}).get("setup_done")
                             or (ints.get("lsa") or {}).get("customer_id"))
             if li.get("answer") == "yes" and not lsa_done:
@@ -1136,6 +1138,50 @@ def ensure_auto_site_build(dry_run: bool, cid_to_slug: dict | None = None,
                 import shutil
                 shutil.rmtree(nested, ignore_errors=True)
             built += 1
+            # WRITE-BACK (2026-08-03, second occurrence: HomeLyft 08-01, Reign
+            # 08-03): builds that run OUTSIDE the site-build CI never patched
+            # marketing_sites, so the app's Site tab stayed blank. Mirror
+            # site-build.yml's "Mark preview ready" step: flip the row to
+            # preview_ready + staging URL, and seed Monica's preview-feedback
+            # plan row so the client gets shown their new site.
+            preview = f"https://staging.rankai-{slug}.pages.dev"
+            try:
+                rec_ = json.loads((CLIENTS_DIR / f"{slug}.json").read_text())
+                # upsert, not PATCH: a missing row would make PATCH a silent
+                # 0-row no-op and the tab would stay blank anyway
+                _sb("POST", "/rest/v1/marketing_sites?on_conflict=rank_ai_slug",
+                    {"rank_ai_slug": slug, "company_id": cid,
+                     "build_status": "preview_ready",
+                     "cloudflare_pages_url": preview,
+                     "github_repo": (rec_.get("build") or {}).get("github_repo"),
+                     "plan_status": rec_.get("plan_status"),
+                     "plan_template": (rec_.get("plan") or {}).get("template"),
+                     "plan_url_count": (rec_.get("plan") or {}).get("url_count"),
+                     "plan_generated_at": (rec_.get("plan") or {}).get("generated_at"),
+                     "scaffolded_at": (rec_.get("build") or {}).get("scaffolded_at"),
+                     "last_pushed_staging_at": (rec_.get("build") or {}).get("last_rendered_at"),
+                     "updated_at": rec_.get("updated_at")},
+                    prefer="resolution=merge-duplicates,return=minimal")
+                fb_row = {"company_id": cid, "rank_ai_slug": slug,
+                          "action_key": f"site-preview-feedback-{slug}",
+                          "action_type": "client_input", "status": "planned",
+                          "priority": 1, "impact": "high", "effort": "low",
+                          "title": "Take a look at your new website preview and "
+                                   "tell us your thoughts",
+                          "target": preview,
+                          "rationale": "New site build finished at " + preview +
+                                       " — share the link with the client, ask what "
+                                       "they think, and collect any change requests."}
+                # manual dedupe (table has no unique constraint on action_key)
+                dup_ = _sb("GET", "/rest/v1/marketing_action_plan"
+                           f"?company_id=eq.{cid}&action_key=eq.{fb_row['action_key']}"
+                           "&select=id", prefer="return=representation") or []
+                if not dup_:
+                    _sb("POST", "/rest/v1/marketing_action_plan", [fb_row])
+            except Exception as e_:
+                out.append(f"{slug}: built OK but marketing_sites write-back "
+                           f"FAILED — {str(e_)[:120]} (app Site tab will look "
+                           "blank until patched by hand)")
             has_brand_asset = False
             try:
                 sb_url = os.environ.get("SUPABASE_URL", "").rstrip("/")

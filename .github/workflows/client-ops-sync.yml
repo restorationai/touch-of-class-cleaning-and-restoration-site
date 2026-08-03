@@ -114,11 +114,16 @@ jobs:
 
       - name: Commit refreshed client data
         run: |
-          git add clients/ 2>/dev/null || true
+          # sites/ too: the auto-build path (setup_ledger.ensure_auto_site_build)
+          # scaffolds + renders sites/{slug} in this job — committing only
+          # clients/ threw the rendered site away and CI re-rendered it daily
+          # (Reign 2026-08-03, second-order cost: the whole render bill again).
+          git add clients/ sites/ 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "Nothing to commit."
           else
             git commit -m "chore: client ops sync $(date +%Y-%m-%d) [automated]"
+            git pull --rebase --autostash
             git push
           fi
 
