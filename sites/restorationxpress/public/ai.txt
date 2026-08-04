@@ -30,8 +30,8 @@ User-agent: Bytespider
 Disallow: /
 
 # AI training data summary
-# Site: https://None/
+# Site: https://restorationxpress.com/
 # Maintainer: RestorationXpress 
 # Contact: issac@restorationxpress.com
-# Sitemap: https://None/sitemap-index.xml
-# LLM index: https://None/llms.txt
+# Sitemap: https://restorationxpress.com/sitemap-index.xml
+# LLM index: https://restorationxpress.com/llms.txt

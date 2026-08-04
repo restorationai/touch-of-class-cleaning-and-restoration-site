@@ -1,7 +1,7 @@
 {
   "slug": "restorationxpress",
   "display_name": "RestorationXpress ",
-  "domain": null,
+  "domain": "restorationxpress.com",
   "tier": "standard",
   "vertical": "restoration",
   "contact": "issac@restorationxpress.com",
@@ -13,7 +13,7 @@
     "url_count": 90,
     "generated_at": "2026-07-27T17:34:32.863928+00:00"
   },
-  "updated_at": "2026-08-04T01:05:20.861856+00:00",
+  "updated_at": "2026-08-04T17:41:02.575623+00:00",
   "build": {
     "scaffolded_at": "2026-07-23T05:41:15.712612+00:00",
     "github_repo": "restorationai/restorationxpress-site",
@@ -25,5 +25,13 @@
     "last_pushed_staging_at": "2026-08-04T01:04:50.934938+00:00",
     "last_pushed_main_at": "2026-08-04T01:05:20.861825+00:00"
   },
-  "build_status": "pushed_main"
+  "build_status": "pushed_main",
+  "cut_over_at": "2026-08-04T17:41:02.575623+00:00",
+  "apex_cutover": {
+    "completed_at": "2026-08-04T17:41:02.575623+00:00",
+    "live_origin": "https://restorationxpress.com",
+    "method": "cloudflare-pages-custom-domain",
+    "dns_change": "A 74.208.236.247 -> CNAME rankai-restorationxpress.pages.dev (proxied), apex + www",
+    "legacy_origin": "74.208.236.247 (IONOS Apache/WordPress)"
+  }
 }

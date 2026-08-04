@@ -1,0 +1,79 @@
+{
+  "zone_id": "a0d860e42ccde35b91ecad8d3c698451",
+  "snapshot_at": "2026-08-04T01:30:00Z",
+  "purpose": "email-safe pre-flight rollback evidence before apex cutover to rankai-restorationxpress.pages.dev",
+  "records": [
+    {
+      "id": "a2404796aaaa45a8f714065805fcb7de",
+      "type": "A",
+      "name": "restorationxpress.com",
+      "content": "74.208.236.247",
+      "proxied": false,
+      "ttl": 300,
+      "priority": null
+    },
+    {
+      "id": "87f900d924a369a44a37388fb90004d6",
+      "type": "A",
+      "name": "www.restorationxpress.com",
+      "content": "74.208.236.247",
+      "proxied": false,
+      "ttl": 300,
+      "priority": null
+    },
+    {
+      "id": "b29e8bd7add071019b4292b0154a2e3c",
+      "type": "MX",
+      "name": "restorationxpress.com",
+      "content": "aspmx3.googlemail.com",
+      "proxied": false,
+      "ttl": 3600,
+      "priority": 10
+    },
+    {
+      "id": "2ea2f83b8e0168291607c20ad413bd31",
+      "type": "MX",
+      "name": "restorationxpress.com",
+      "content": "aspmx2.googlemail.com",
+      "proxied": false,
+      "ttl": 3600,
+      "priority": 10
+    },
+    {
+      "id": "968b247bc1a2aabc620ab96c3885a860",
+      "type": "MX",
+      "name": "restorationxpress.com",
+      "content": "alt2.aspmx.l.google.com",
+      "proxied": false,
+      "ttl": 3600,
+      "priority": 5
+    },
+    {
+      "id": "9ecbf646e4094e136e5fbe8bb563e7f2",
+      "type": "MX",
+      "name": "restorationxpress.com",
+      "content": "alt1.aspmx.l.google.com",
+      "proxied": false,
+      "ttl": 3600,
+      "priority": 5
+    },
+    {
+      "id": "df5ac19e234fd6b6803ad42f0a35468e",
+      "type": "MX",
+      "name": "restorationxpress.com",
+      "content": "aspmx.l.google.com",
+      "proxied": false,
+      "ttl": 3600,
+      "priority": 1
+    },
+    {
+      "id": "961ce252a066b2afa75881ce0845613d",
+      "type": "TXT",
+      "name": "restorationxpress.com",
+      "content": "v=spf1 include:_spf.google.com ~all",
+      "proxied": false,
+      "ttl": 3600,
+      "priority": null
+    }
+  ]
+}
