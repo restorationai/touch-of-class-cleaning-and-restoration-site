@@ -16,12 +16,22 @@ Phone extraction is best-effort (SERP snippet + page fetch where the
 directory allows it); platforms that block bots still get URL discovery.
 Results land in connection_metadata.nap_audit for the app to render.
 
+GOOGLE LISTING as a first-class source (Santino 2026-08-03): the client's
+own GBP NAP is audited too — nap_audit gains a 'google_listing' entry (live
+GBP API via their token, or the clients/{slug}.json gbp snapshot when not
+yet OAuth-connected). A GBP-vs-card mismatch becomes the TOP-LINE of the
+analysis text and demotes 'consistent' directory claims, because Google is
+what customers and AI assistants see first (HomeLyft incident: GBP showed
+228-325-1496 / 3200 B Ave while card+Yelp/BBB/Facebook showed 228-284-5200 /
+1311 Spring St and the analysis said 'verified and consistent').
+
 Usage: citations_audit.py --slug crew-restoration-construction
        citations_audit.py --slug X --dry-run
 """
 from __future__ import annotations
 
 import argparse
+import json
 import re
 import sys
 from datetime import datetime, timezone
@@ -98,6 +108,68 @@ def _page_scan(url: str, street_no: str, postal: str, domain: str) -> dict:
     return out
 
 
+def _google_listing_nap(slug: str, cid: str) -> dict | None:
+    """The client's GOOGLE LISTING NAP — first-class audit source (Santino
+    2026-08-03: the audit compared directories against the Business
+    Information card but never against the GBP itself; HomeLyft's GBP showed
+    228-325-1496 / 3200 B Ave while the card + Yelp/BBB/Facebook showed
+    228-284-5200 / 1311 Spring St and the analysis still said 'verified and
+    consistent'). Google is what customers and AI assistants see first, so
+    its NAP is compared like a listing — and a mismatch outranks everything.
+
+    Source order:
+      1. live GBP API via the client's own business.manage token
+         (gbp.find_location — same pattern as setup_ledger's gbp-verified
+         card) for connected clients;
+      2. clients/{slug}.json 'gbp' block (DataForSEO-checked snapshot with
+         listing_phone/listing_address) for claimed-but-not-connected
+         clients (HomeLyft's exact state);
+      3. None when we have no GBP identity at all (no entry written).
+    """
+    rec: dict = {}
+    rec_path = ROOT / "clients" / f"{slug}.json"
+    if rec_path.exists():
+        try:
+            rec = json.loads(rec_path.read_text()).get("gbp") or {}
+        except (json.JSONDecodeError, OSError):
+            rec = {}
+    try:
+        import gbp as _gbp
+        place = _gbp._place_id_from_connection(cid)
+        if not place:
+            pi = ROOT / "clients" / slug / "plan-input.json"
+            if pi.exists():
+                place = (json.loads(pi.read_text()).get("brand") or {}).get("place_id")
+        place = place or rec.get("place_id")
+        tok = _gbp.get_access_token(cid) if place else None
+        loc = _gbp.find_location(tok, place) if tok and place else None
+        if loc:
+            addr = loc.get("storefrontAddress") or {}
+            lines = [ln for ln in (addr.get("addressLines") or []) if ln]
+            street = ", ".join(lines)
+            locality = ", ".join(p for p in (addr.get("locality"),
+                                             addr.get("administrativeArea"),
+                                             addr.get("postalCode")) if p)
+            return {"source": "gbp_api",
+                    "phone": (loc.get("phoneNumbers") or {}).get("primaryPhone"),
+                    "address": ", ".join(p for p in (street, locality) if p) or None,
+                    "url": (loc.get("metadata") or {}).get("mapsUri")
+                           or rec.get("listing_url")}
+    except Exception:
+        pass  # token refresh / API hiccup -> fall through to the snapshot
+    if rec.get("listing_phone") or rec.get("listing_address"):
+        return {"source": "client_record",
+                "phone": rec.get("listing_phone"),
+                "address": rec.get("listing_address"),
+                "url": rec.get("listing_url")}
+    return None
+
+
+def _pretty(ph: str | None) -> str:
+    return (f"({ph[:3]}) {ph[3:6]}-{ph[6:]}" if ph and len(ph) == 10
+            else (ph or "a different number"))
+
+
 def _name_tokens(name: str) -> set:
     return {t for t in re.findall(r"[a-z]+", name.lower()) if len(t) > 3}
 
@@ -110,31 +182,66 @@ def _guard_ok(hay: str, toks: set) -> bool:
     return sum(1 for t in toks if t in hay) >= need
 
 
-def _summary_text(name: str, results: dict, canon_phone: str) -> str:
+def _summary_text(name: str, results: dict, canon_phone: str,
+                  canon_addr: str = "") -> str:
     """Plain-English analysis for the Connect tab: what we found, what we
-    entered, what happens next. Client-facing voice."""
+    entered, what happens next. Client-facing voice. The GOOGLE LISTING
+    verdict is the TOP-LINE whenever it disagrees with the card (Santino
+    2026-08-03) — Google is what customers and AI assistants see first, so
+    a GBP mismatch outranks every directory finding below it."""
     label = {k: v[1] for k, v in PLATFORMS.items()}
-    ok = [label[k] for k, r in results.items() if r.get("status") == "found"
+    dirs = {k: r for k, r in results.items() if k in label}
+    ok = [label[k] for k, r in dirs.items() if r.get("status") == "found"
           and r.get("phone_matches")]
-    unver = [label[k] for k, r in results.items() if r.get("status") == "found"
+    unver = [label[k] for k, r in dirs.items() if r.get("status") == "found"
              and not r.get("phone_matches")]
-    disc = [(label[k], r.get("phone_found")) for k, r in results.items()
+    disc = [(label[k], r.get("phone_found")) for k, r in dirs.items()
             if r.get("status") == "discrepancy"]
-    missing = [label[k] for k, r in results.items() if r.get("status") == "missing"]
-    extra_ok = sum(1 for r in results.values()
+    missing = [label[k] for k, r in dirs.items() if r.get("status") == "missing"]
+    extra_ok = sum(1 for r in dirs.values()
                    if r.get("address_matches") or r.get("website_matches"))
 
+    g = results.get("google_listing") or {}
+    g_mismatch = g.get("status") == "discrepancy"
+
     found_n = len(ok) + len(unver) + len(disc)
-    parts = [f"We scanned the 8 major directories for {name} and found "
-             f"{found_n} existing listing{'s' if found_n != 1 else ''}."]
+    parts = []
+    if g_mismatch:
+        g_shows = " / ".join(p for p in (
+            _pretty(g.get("phone_found")) if g.get("phone_found") else None,
+            g.get("address_found")) if p)
+        card_shows = " / ".join(p for p in (
+            _pretty(canon_phone) if canon_phone else None,
+            canon_addr or None) if p)
+        parts.append(
+            "THE FIRST THING TO FIX: your Google listing shows a different "
+            "phone/address than your other listings. Google currently shows "
+            f"{g_shows}, while your Business Information"
+            + (f" (and {', '.join(ok)})" if ok else "")
+            + f" shows {card_shows}. Google is what customers and AI "
+            "assistants see first, so this is the top priority — we'll "
+            "confirm with you which version is current, then align your "
+            "Google listing and every directory below to that one answer.")
+    elif g.get("status") == "found" and (g.get("phone_matches")
+                                         or g.get("address_matches")):
+        parts.append("Your Google listing matches your Business Information — "
+                     "the anchor customers and AI assistants see first is "
+                     "consistent.")
+    parts.append(f"We scanned the {len(PLATFORMS)} major directories for {name} "
+                 f"and found {found_n} existing "
+                 f"listing{'s' if found_n != 1 else ''}.")
     if ok:
-        parts.append("Verified and consistent: " + ", ".join(ok)
-                     + " — the phone number matches your Business Information"
-                     + (" (address/website spot-checks passed too)" if extra_ok else "") + ".")
+        line = ("Consistent with your Business Information: " + ", ".join(ok)
+                + " — the phone number matches your Business Information"
+                + (" (address/website spot-checks passed too)" if extra_ok else "") + ".")
+        if g_mismatch:
+            line += (" Note: because your Google listing shows different "
+                     "details (see above), these can't count as fully "
+                     "consistent until Google agrees.")
+        parts.append(line)
     if disc:
         for lbl, ph in disc:
-            pretty = f"({ph[:3]}) {ph[3:6]}-{ph[6:]}" if ph and len(ph) == 10 else (ph or "a different number")
-            parts.append(f"Needs a fix: {lbl} shows {pretty}, which doesn't match "
+            parts.append(f"Needs a fix: {lbl} shows {_pretty(ph)}, which doesn't match "
                          "your main number — inconsistent phone numbers dilute "
                          "your local rankings, so we'll get this corrected.")
     if unver:
@@ -167,17 +274,19 @@ def audit(slug: str, dry_run: bool = False) -> str:
     # OUR call-tracking numbers are valid matches too (Santino 2026-08-01:
     # Bing syncs from the GBP, whose primary IS the tracking number — that's
     # accepted policy, not a discrepancy).
-    import json as _json
     _ints = co.get("integration_settings") or {}
     if isinstance(_ints, str):
         try:
-            _ints = _json.loads(_ints)
+            _ints = json.loads(_ints)
         except ValueError:
             _ints = {}
-    ok_phones = {canon_phone} | {
-        _norm_phone(v) for v in ((_ints.get("call_tracking") or {}).values()
-                                 if isinstance(_ints.get("call_tracking"), dict) else [])
-        if _norm_phone(str(v))}
+    # call_tracking values are nested dicts on newer rows ({"gbp": {"number":
+    # ...}}) and bare strings on older ones — flood-fixers crashed the audit
+    # 2026-08-03 when a dict hit _norm_phone directly.
+    _ct = _ints.get("call_tracking") if isinstance(_ints.get("call_tracking"), dict) else {}
+    _ct_nums = [(v.get("number") or "") if isinstance(v, dict) else str(v or "")
+                for v in (_ct or {}).values()]
+    ok_phones = {canon_phone} | {_norm_phone(v) for v in _ct_nums if _norm_phone(v)}
     ok_phones.discard("")
     city, state = (co.get("city") or "").strip(), (co.get("state") or "").strip()
     street_no = ((co.get("address") or "").strip().split(" ") or [""])[0]
@@ -191,6 +300,41 @@ def audit(slug: str, dry_run: bool = False) -> str:
     results: dict = {}
     urls: dict = {}
     lines = [f"== {name} ({city}, {state}) — canonical phone {canon_phone or '?'}"]
+
+    # ---- GOOGLE LISTING first (first-class source, Santino 2026-08-03) ----
+    google = _google_listing_nap(slug, cid)
+    g_phone = ""
+    if google:
+        g_phone = _norm_phone(google.get("phone"))
+        g_addr = (google.get("address") or "").strip()
+        g_no = (g_addr.split(" ") or [""])[0]
+        g_no = g_no if g_no.isdigit() else ""
+        addr_matches = (g_no == street_no) if (street_no and g_no) else None
+        g_entry: dict = {"status": "found", "source": google["source"],
+                         "checked_at": datetime.now(timezone.utc).isoformat()}
+        if google.get("url"):
+            g_entry["url"] = google["url"]
+        if g_phone:
+            g_entry["phone_found"] = g_phone
+            g_entry["phone_matches"] = (g_phone in ok_phones) if canon_phone else None
+        if g_addr:
+            g_entry["address_found"] = g_addr
+        if addr_matches is not None:
+            g_entry["address_matches"] = addr_matches
+        if (canon_phone and g_phone and g_phone not in ok_phones) \
+                or addr_matches is False:
+            g_entry["status"] = "discrepancy"
+            lines.append(f"  {'Google':12s} MISMATCH: GBP shows "
+                         f"{_pretty(g_phone) if g_phone else '?'}"
+                         + (f" / {g_addr}" if g_addr else "")
+                         + f" vs card {_pretty(canon_phone)} [{google['source']}]")
+        else:
+            lines.append(f"  {'Google':12s} ok ({g_phone or 'no phone read'}) "
+                         f"[{google['source']}]")
+        results["google_listing"] = g_entry
+    else:
+        lines.append(f"  {'Google':12s} no GBP identity known (not connected, "
+                     "no gbp block) — skipped")
     for key, (site, label) in PLATFORMS.items():
         q = f'site:{site} "{name}" {city}'
         try:
@@ -239,6 +383,13 @@ def audit(slug: str, dry_run: bool = False) -> str:
             lines.append(f"  {label:12s} found (phone unverifiable)  {url[:60]}")
         results[key] = entry
 
+    # Mark which directory phones agree with the GOOGLE LISTING itself — the
+    # app can render "consistent with your card but not with Google" states.
+    if g_phone:
+        for k, r in results.items():
+            if k != "google_listing" and r.get("phone_found"):
+                r["matches_google_listing"] = (r["phone_found"] == g_phone)
+
     if not dry_run:
         rows = _sb("GET", f"/rest/v1/user_integrations?client_id=eq.{cid}"
                    "&provider=eq.citations&select=id,connection_metadata",
@@ -277,6 +428,8 @@ def audit(slug: str, dry_run: bool = False) -> str:
                 if scan["phone"]:
                     entry["phone_found"] = scan["phone"]
                     entry["phone_matches"] = (scan["phone"] == canon_phone) if canon_phone else None
+                    if g_phone:
+                        entry["matches_google_listing"] = (scan["phone"] == g_phone)
                     if canon_phone and scan["phone"] != canon_phone:
                         entry["status"] = "discrepancy"
                 if scan["address_matches"]:
@@ -289,7 +442,8 @@ def audit(slug: str, dry_run: bool = False) -> str:
             md["auto_slots"] = sorted(k for k in merged if k not in keep)
             md["nap_audit"] = results
             md["nap_audit_summary"] = {
-                "text": _summary_text(name, results, canon_phone),
+                "text": _summary_text(name, results, canon_phone,
+                                      (co.get("address") or "").strip()),
                 "generated_at": datetime.now(timezone.utc).isoformat()}
             _sb("PATCH", f"/rest/v1/user_integrations?id=eq.{rows[0]['id']}",
                 {"connection_metadata": md})
@@ -300,17 +454,24 @@ def audit(slug: str, dry_run: bool = False) -> str:
                                         "auto_slots": sorted(urls),
                                         "nap_audit": results,
                                         "nap_audit_summary": {
-                                            "text": _summary_text(name, results, canon_phone),
+                                            "text": _summary_text(
+                                                name, results, canon_phone,
+                                                (co.get("address") or "").strip()),
                                             "generated_at": datetime.now(timezone.utc).isoformat()}}})
-    found = sum(1 for r in results.values() if r.get("status") in ("found", "discrepancy"))
-    disc = sum(1 for r in results.values() if r.get("status") == "discrepancy")
-    missing = sum(1 for r in results.values() if r.get("status") == "missing")
+    dir_results = {k: r for k, r in results.items() if k != "google_listing"}
+    found = sum(1 for r in dir_results.values() if r.get("status") in ("found", "discrepancy"))
+    disc = sum(1 for r in dir_results.values() if r.get("status") == "discrepancy")
+    missing = sum(1 for r in dir_results.values() if r.get("status") == "missing")
+    g_mismatch = (results.get("google_listing") or {}).get("status") == "discrepancy"
     lines.append(f"  -> {found}/{len(PLATFORMS)} found, {disc} discrepancy(ies)"
+                 + (", GOOGLE LISTING MISMATCH (top fix)" if g_mismatch else "")
                  + (" [dry-run, not saved]" if dry_run else " [saved to app]"))
     if not dry_run:
         # Work ledger (fail-open): one audit-run line item per client.
         from work_log import work_log
-        detail = (f"Directory listings audit across {len(PLATFORMS)} major "
+        detail = (("Google listing NAP mismatch flagged as the top fix. "
+                   if g_mismatch else "")
+                  + f"Directory listings audit across {len(PLATFORMS)} major "
                   f"platforms: {found} listing(s) found, {missing} still to "
                   f"build")
         detail += (f", {disc} with mismatched details flagged for correction."

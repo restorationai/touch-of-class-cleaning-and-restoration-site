@@ -1026,13 +1026,21 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                           prefer="return=representation") or []
                 napa = ((cit[0].get("connection_metadata") or {}).get("nap_audit")
                         if cit else None) or {}
-            n_found = sum(1 for v in napa.values()
-                          if v.get("status") in ("found", "discrepancy"))
-            n_disc = sum(1 for v in napa.values() if v.get("status") == "discrepancy")
+            # 'google_listing' is the client's own GBP (first-class audit
+            # source, Santino 2026-08-03) — not a directory, so it stays out
+            # of the found/missing/wrong-phone counts; its mismatch gets its
+            # own attention line below instead.
+            n_found = sum(1 for k, v in napa.items()
+                          if v.get("status") in ("found", "discrepancy")
+                          and k != "google_listing")
+            n_disc = sum(1 for k, v in napa.items()
+                         if v.get("status") == "discrepancy"
+                         and k != "google_listing")
             # A missing HomeAdvisor is not a gap — there's no free listing to
             # create (paid lead-gen only). Existing ones still get NAP-checked.
             n_missing = sum(1 for k, v in napa.items()
-                            if v.get("status") == "missing" and k != "homeadvisor")
+                            if v.get("status") == "missing"
+                            and k not in ("homeadvisor", "google_listing"))
             if napa:
                 # Split the missing listings by who can create them:
                 #   us    — Bing Places (imports from their GBP, which we hold),
@@ -1124,6 +1132,10 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                 if n_disc:
                     attention.append(f"{slug}: {n_disc} directory listing(s) show a WRONG "
                                      "phone — fix against the canonical card")
+                if (napa.get("google_listing") or {}).get("status") == "discrepancy":
+                    attention.append(f"{slug}: GOOGLE LISTING NAP differs from the "
+                                     "Business Information card — TOP fix (the "
+                                     "citations analysis top-line has the details)")
         except Exception:
             pass
 
