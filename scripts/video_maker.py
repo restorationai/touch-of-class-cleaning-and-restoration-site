@@ -1546,6 +1546,76 @@ def youtube_integration(slug: str) -> dict | None:
     return None
 
 
+def youtube_channel_state(slug: str) -> dict:
+    """Does this client's connected YouTube account actually HAVE a channel?
+
+    "Connected" and "has a channel" are different things. A Google account can
+    complete the whole OAuth consent flow while owning NO YouTube channel — the
+    tokens are valid, every read succeeds, and only videos().insert fails, at the
+    very END of the pipeline (ProRestoration 2026-08-04: connected since setup,
+    zero videos, no error anyone saw). Every caller that is about to spend money
+    or nag a client must ask this first.
+
+    Returns:
+      {"connected": bool,          # a usable youtube integration row exists
+       "has_channel": bool|None,   # None = COULD NOT VERIFY
+       "channel_id": str|None, "channel_title": str|None,
+       "reason": str}              # short human-readable why
+
+    has_channel=None means the Google side could not be read (no OAuth client
+    env, refresh rejected, API error). Callers MUST treat None as "do nothing" —
+    never skip a client's videos and never nag them on an unverified read.
+    """
+    out = {"connected": False, "has_channel": None, "channel_id": None,
+           "channel_title": None, "reason": ""}
+    md = youtube_integration(slug)
+    if not md:
+        out["reason"] = "no connected YouTube integration"
+        return out
+    out["connected"] = True
+
+    # Fast path: the app stamps channel_id/channel_title at connect time when a
+    # channel exists. Present = settled, no API call, no quota.
+    if md.get("channel_id"):
+        out.update(has_channel=True, channel_id=md["channel_id"],
+                   channel_title=md.get("channel_title"), reason="channel_id in metadata")
+        return out
+
+    # Missing channel_id is AMBIGUOUS — it can mean "no channel" or just "the
+    # metadata backfill never ran". Only the live API can tell the two apart.
+    rt = md.get("refresh_token")
+    cid_env = os.environ.get("GOOGLE_OAUTH_CLIENT_ID")
+    sec_env = os.environ.get("GOOGLE_OAUTH_CLIENT_SECRET")
+    if not (rt and cid_env and sec_env):
+        out["reason"] = "cannot verify (no refresh token / app OAuth client env)"
+        return out
+    try:
+        import requests as _rq
+        tok = _rq.post("https://oauth2.googleapis.com/token", data={
+            "client_id": cid_env, "client_secret": sec_env,
+            "refresh_token": rt, "grant_type": "refresh_token"},
+            timeout=30).json().get("access_token")
+        if not tok:
+            out["reason"] = "cannot verify (refresh token rejected)"
+            return out
+        ch = _rq.get("https://www.googleapis.com/youtube/v3/channels?part=id,snippet&mine=true",
+                     headers={"Authorization": f"Bearer {tok}"}, timeout=30).json()
+        if ch.get("error"):
+            out["reason"] = f"cannot verify ({str(ch['error'].get('message'))[:60]})"
+            return out
+        items = ch.get("items") or []
+        if items:
+            out.update(has_channel=True, channel_id=items[0].get("id"),
+                       channel_title=(items[0].get("snippet") or {}).get("title"),
+                       reason="verified live via YouTube API")
+        else:
+            out.update(has_channel=False,
+                       reason="Google account is connected but owns NO YouTube channel")
+    except Exception as e:  # noqa: BLE001 — an unverifiable read must never act
+        out["reason"] = f"cannot verify ({str(e)[:60]})"
+    return out
+
+
 def load_youtube_credentials(slug: str):
     """Load + refresh YouTube OAuth credentials for a client.
 

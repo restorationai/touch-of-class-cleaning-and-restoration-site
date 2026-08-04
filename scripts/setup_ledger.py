@@ -28,6 +28,13 @@ Items:
                   logo / empty companies NAP auto-heals from the branding
                   bucket / GBP first; what no system holds becomes a Monica
                   ask + this amber client_owed card
+  map-rankings    the geo-grid actually populates (Santino 2026-08-04): auto-
+                  heals business identity + city-ring config + cron roster; the
+                  only cards left are real decisions — no GBP location selected,
+                  no service areas planned, or a scan that genuinely found the
+                  listing at 0 of N points
+  video-channel   YouTube connected but the Google account owns no channel, so
+                  nothing can be published (verified live against the API)
 
 Run:  python3 scripts/setup_ledger.py [--dry-run]
 Wired into client_ops_sync's nightly pass via ensure_ledger().
@@ -35,10 +42,12 @@ Wired into client_ops_sync's nightly pass via ensure_ledger().
 from __future__ import annotations
 
 import json
+import math
 import os
 import re
 import subprocess
 import sys
+import time
 from collections import Counter
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -652,6 +661,381 @@ def _citations_readiness(cid: str, slug: str, co: dict, platform_status: dict,
                      "evidence": {"blockers": [], "platforms_waiting": todo}})
 
 
+# ---------------------------------------------------------------------------
+# map-rankings health (Santino 2026-08-04: "map rankings not populating seems
+# to be the biggest issue")
+#
+# The geo-grid is the first tab a client opens, and the ONLY thing that ever
+# made an empty one visible was the "data-fresh" check below — which is gated
+# on geogrid-cities.json EXISTING. So the two loudest failure modes were also
+# the two completely invisible ones:
+#
+#   * no config files at all  -> geogrid_cron SKIPs the slug silently, forever.
+#     ProRestoration sat in the cron roster from 2026-07 to 2026-08-04 with a
+#     healthy Google connection, a place_id, 105 reviews — and zero scans ever,
+#     because nobody had run geogrid_setup for them. Nothing anywhere said so.
+#   * config written with NO business identity -> every point matches nothing,
+#     the scan bills full price, and the dashboard renders an all-red grid that
+#     looks exactly like a real ranking collapse (HomeLyft 2026-08-03).
+#
+# This item derives the whole chain — identity -> config -> roster -> scans ->
+# results — from the systems themselves, heals every link that is free to heal,
+# and cards ONLY what a human genuinely has to decide. The baseline scan itself
+# is deliberately NOT fired here: healing the config is enough for the existing
+# data-fresh heal (immediately below) to pick the client up on the same pass,
+# inside its own capped DataForSEO budget. One place spends money, not two.
+# ---------------------------------------------------------------------------
+
+_GG_MAX_CITIES = 6        # ring cap — a run costs keywords x cities x ~$0.34
+_GG_MAX_KEYWORDS = 2      # fleet pattern: the 2 head map-pack terms
+_GG_MIN_SEPARATION_MI = 9.0   # two centers closer than this scan the same ground
+_GG_MAX_GEOCODES = 18     # Nominatim is 1 req/sec — bound the wall time
+
+
+def _gg_miles_apart(a: tuple[float, float], b: tuple[float, float]) -> float:
+    lat_mi = (a[0] - b[0]) * 69.0
+    lng_mi = (a[1] - b[1]) * 69.0 * math.cos(math.radians((a[0] + b[0]) / 2))
+    return math.hypot(lat_mi, lng_mi)
+
+
+def _gg_identity(slug: str, cid: str, dry_run: bool = False) -> dict:
+    """Business identity (place_id / cid) for Maps matching, from the cheapest
+    source that has it, and backfilled where the scanner will actually look.
+
+    Order — all three are FREE, no DataForSEO spend:
+      1. clients/{slug}/plan-input.json brand   (what geogrid_scan reads)
+      2. clients/{slug}.json gbp block          (stamped at audit/onboarding)
+      3. the client's OWN google integration    (the OAuth exchange auto-selects
+         a place_id; the repo brand block can lag a connect by weeks)
+
+    Returns {"place_id", "google_cid", "source", "healed"}. When identity is
+    found outside plan-input, it is written INTO plan-input brand — that file is
+    the one geogrid_scan.load_center() matches listings on, so an un-backfilled
+    identity is the same as no identity at all.
+    """
+    out = {"place_id": None, "google_cid": None, "source": None, "healed": False}
+    p = CLIENTS_DIR / slug / "plan-input.json"
+    plan = {}
+    if p.exists():
+        try:
+            plan = json.loads(p.read_text())
+        except (json.JSONDecodeError, OSError):
+            plan = {}
+    brand = plan.get("brand") or {}
+    if brand.get("place_id") or brand.get("google_cid"):
+        return {"place_id": brand.get("place_id"), "google_cid": brand.get("google_cid"),
+                "source": "plan-input", "healed": False}
+
+    found_pid = found_cid = None
+    src = None
+    gbp = (_client_record(slug).get("gbp") or {})
+    if gbp.get("place_id") or gbp.get("google_cid") or gbp.get("cid"):
+        found_pid = gbp.get("place_id")
+        found_cid = gbp.get("google_cid") or gbp.get("cid")
+        src = "client-record"
+    else:
+        try:
+            for row in _sb("GET", f"/rest/v1/user_integrations?client_id=eq.{cid}"
+                           "&provider=eq.google&select=connection_metadata",
+                           prefer="return=representation") or []:
+                md = row.get("connection_metadata") or {}
+                if md.get("place_id"):
+                    found_pid, src = md["place_id"], "google-connection"
+                    break
+        except Exception:  # noqa: BLE001 — identity lookup must never kill the ledger
+            pass
+    if not (found_pid or found_cid):
+        return out
+
+    out.update(place_id=found_pid, google_cid=(str(found_cid) if found_cid else None),
+               source=src)
+    # Backfill plan-input brand — without this the scanner still can't see it.
+    if p.exists() and not dry_run:
+        try:
+            raw = p.read_text()
+            brand = plan.setdefault("brand", {})
+            if found_pid:
+                brand["place_id"] = found_pid
+            if found_cid:
+                brand["google_cid"] = str(found_cid)
+            # Re-emit at the file's OWN indent. These files are hand-edited and
+            # committed; rewriting a 1-space file at indent=2 turns a two-line
+            # identity backfill into a 167-line diff that buries the real change.
+            m = re.match(r"\{\r?\n( +)", raw)
+            p.write_text(json.dumps(plan, indent=len(m.group(1)) if m else 2,
+                                    ensure_ascii=False))
+            out["healed"] = True
+        except OSError:
+            pass
+    return out
+
+
+def _gg_config_state(slug: str) -> tuple[int, int]:
+    """(keyword count, city count) from the two files the cron reads. Counts, not
+    existence: AAA's geogrid-cities.json existed but held `[]`, which reads as
+    'configured' to every exists()-based check and scans nothing."""
+    d = CLIENTS_DIR / slug
+    n_kw = n_ct = 0
+    try:
+        kw = d / "geogrid-keywords.txt"
+        if kw.exists():
+            n_kw = len([ln for ln in kw.read_text().splitlines() if ln.strip()])
+    except OSError:
+        pass
+    try:
+        ct = d / "geogrid-cities.json"
+        if ct.exists():
+            n_ct = len(json.loads(ct.read_text()) or [])
+    except (OSError, json.JSONDecodeError):
+        pass
+    return n_kw, n_ct
+
+
+def _gg_ensure_roster(slug: str, cid: str) -> bool:
+    """Make sure the slug is in clients/company_map.json — the cron's roster IS
+    that file (geogrid_cron iterates COMPANY_MAP.keys()). A client can have
+    perfect config and still never be scanned if the mapping is missing."""
+    p = CLIENTS_DIR / "company_map.json"
+    try:
+        cm = json.loads(p.read_text())
+    except (OSError, json.JSONDecodeError):
+        return False
+    if cm.get(slug) == cid:
+        return False
+    cm[slug] = cid
+    try:
+        p.write_text(json.dumps(cm, indent=1) + "\n")
+        return True
+    except OSError:
+        return False
+
+
+def _gg_heal_config(slug: str) -> tuple[int, int]:
+    """Generate geogrid-keywords.txt + geogrid-cities.json from plan-input, the
+    same derivation geogrid_setup uses. Returns (keywords, cities) written.
+
+    The ring is picked for SPREAD, not plan order. Service-area lists are written
+    for site content, so they open with the neighbours nearest the shop: The
+    Restoration Group's first six (Kenilworth, Union, Elizabeth, Westfield,
+    Cranford, Springfield) all sit inside ~6 miles, and a 9.5-mile grid on each
+    would re-scan one town cluster six times over — full price — while Newark,
+    Jersey City and Manhattan went untracked. So candidates are accepted only
+    when they're at least _GG_MIN_SEPARATION_MI from every center already taken.
+
+    Geocoding is Nominatim at 1 req/sec, so candidates examined are bounded too;
+    an auto-generated ring stays deliberately small and a human can widen it.
+    """
+    import geogrid_setup as gsetup  # local sibling; heavy-ish, imported on demand
+
+    plan = json.loads((CLIENTS_DIR / slug / "plan-input.json").read_text())
+    brand = plan.get("brand") or {}
+    areas, seen = [], set()
+    for a in plan.get("service_areas") or []:
+        label = f"{a.get('city')}, {a.get('state')}"
+        if not a.get("city") or label in seen:
+            continue
+        seen.add(label)
+        areas.append(a)
+    areas.sort(key=lambda a: 0 if a.get("primary") else 1)
+
+    cities: list[dict] = []
+    geocodes = 0
+    for a in areas:
+        if len(cities) >= _GG_MAX_CITIES or geocodes >= _GG_MAX_GEOCODES:
+            break
+        label = f"{a['city']}, {a['state']}"
+        if a.get("primary") and brand.get("lat") and brand.get("lng"):
+            lat, lng = float(brand["lat"]), float(brand["lng"])
+        else:
+            geocodes += 1
+            geo = gsetup.geocode_city(a["city"], a["state"])
+            time.sleep(1.1)  # Nominatim: <=1 req/sec
+            if not geo:
+                continue
+            lat, lng = geo
+        if any(_gg_miles_apart((lat, lng), (c["lat"], c["lng"])) < _GG_MIN_SEPARATION_MI
+               for c in cities):
+            continue  # already covered by a grid we're scanning
+        cities.append({"label": label, "lat": lat, "lng": lng})
+        # Backfill the BUSINESS center off the primary city when the brand block
+        # has none. geogrid_scan.load_center hard-requires brand.lat/lng, so a
+        # config generated without it produces a client that is "configured" and
+        # still cannot be scanned — the exact half-fixed state this item exists
+        # to abolish (FireDEX/AAA/MCC/Paul Davis all had no brand center).
+        if a.get("primary") and not (brand.get("lat") and brand.get("lng")):
+            plan.setdefault("brand", {})["lat"] = lat
+            plan["brand"]["lng"] = lng
+            brand = plan["brand"]
+            raw = (CLIENTS_DIR / slug / "plan-input.json").read_text()
+            m = re.match(r"\{\r?\n( +)", raw)
+            (CLIENTS_DIR / slug / "plan-input.json").write_text(
+                json.dumps(plan, indent=len(m.group(1)) if m else 2,
+                           ensure_ascii=False))
+    if not cities:
+        return 0, 0
+    keywords = gsetup.derive_keywords(slug, _GG_MAX_KEYWORDS)
+    if not keywords:
+        return 0, 0
+    d = CLIENTS_DIR / slug
+    (d / "geogrid-keywords.txt").write_text("\n".join(keywords) + "\n")
+    (d / "geogrid-cities.json").write_text(json.dumps(cities, indent=2) + "\n")
+    return len(keywords), len(cities)
+
+
+def _map_and_video_rows(cid: str, slug: str, gi, rows: list[dict],
+                        attention: list[str], _HEALS: dict, dry_run: bool) -> None:
+    """map-rankings + video-channel cards for one client (appends to `rows`).
+
+    Split out of ensure_ledger so the two newest checks can be evaluated on
+    their own — `python3 scripts/setup_ledger.py --map-video-only` — without
+    triggering a whole nightly pass (which also provisions phone numbers and
+    imports media). Same code either way; there is no second implementation.
+    """
+    # ---- map-rankings (Santino 2026-08-04) -----------------------------
+    # Runs BEFORE data-fresh on purpose: whatever config this heals, the
+    # data-fresh block below sees on the SAME pass and schedules the first
+    # scan for, inside its own DataForSEO budget. See the module-level note.
+    try:
+        n_kw, n_ct = _gg_config_state(slug)
+        ident = _gg_identity(slug, cid, dry_run)
+        has_ident = bool(ident["place_id"] or ident["google_cid"])
+        if ident["healed"]:
+            attention.append(f"{slug}: map identity backfilled from "
+                             f"{ident['source']} — scans can match the listing now")
+        has_areas = bool((json.loads((CLIENTS_DIR / slug / "plan-input.json").read_text())
+                          .get("service_areas") or [])
+                         if (CLIENTS_DIR / slug / "plan-input.json").exists() else False)
+        google_connected = bool(gi)
+        healed_now = False
+
+        # AUTO-HEAL: identity + a service-area list is everything the
+        # generator needs. No human input exists that we are waiting on.
+        if not (n_kw and n_ct) and has_ident and has_areas \
+                and not dry_run and _HEALS.get("ggconfig", 0) > 0:
+            _HEALS["ggconfig"] -= 1
+            n_kw, n_ct = _gg_heal_config(slug)
+            healed_now = bool(n_kw and n_ct)
+            if healed_now:
+                attention.append(f"{slug}: map-rankings config GENERATED "
+                                 f"({n_kw} keywords x {n_ct} cities) — baseline scan queued")
+        if (n_kw and n_ct) and not dry_run and _gg_ensure_roster(slug, cid):
+            attention.append(f"{slug}: added to the geo-grid cron roster "
+                             "(company_map) — it was configured but never scheduled")
+
+        scans = []
+        if n_kw and n_ct:
+            scans = _sb("GET", "/rest/v1/marketing_geogrid_scans"
+                        f"?company_id=eq.{cid}&select=found_points,total_points,"
+                        "scanned_at,keyword,city_label&order=scanned_at.desc"
+                        f"&limit={min(max(n_kw * n_ct, 1), 20)}",
+                        prefer="return=representation") or []
+        found_total = sum(s.get("found_points") or 0 for s in scans)
+        pts_total = sum(s.get("total_points") or 0 for s in scans)
+
+        status, kind, title, detail = "done", "auto", "Map rankings tracked", None
+        if not (n_kw and n_ct):
+            if has_ident and has_areas:
+                # heal budget spent this pass — next run picks it up
+                status, kind = "open", "auto"
+                title = "Map rankings: setting up"
+                detail = ("Their map-rank tracking has no city grid yet. It "
+                          "generates automatically on the next overnight pass.")
+            elif google_connected and not has_ident:
+                status, kind = "open", "us_owed"
+                title = "Map rankings blocked: no Business Profile selected"
+                detail = ("Their Google account is connected, but no Business "
+                          "Profile location is attached to it — so we have no "
+                          "listing to look for in the map results and rankings "
+                          "can never populate. Pick their location on the Google "
+                          "connection (or add place_id to their client record).")
+                attention.append(f"{slug}: MAP RANKINGS BLOCKED — google connected "
+                                 "but no place_id/location selected")
+            elif not has_areas:
+                status, kind = "blocked", "us_owed"
+                title = "Map rankings blocked: no service areas planned"
+                detail = ("We track map rank per city, and this client has no "
+                          "service-area list yet — run the site plan first.")
+                attention.append(f"{slug}: map rankings blocked — no service_areas in plan-input")
+            else:
+                # No Google connection at all. The google-connected card
+                # ALREADY owns this ask; duplicating it would put the same
+                # nag in front of Santino twice.
+                status, kind = "blocked", "client_owed"
+                title = "Map rankings waiting on Google"
+                detail = ("We can't track their map rankings until their Google "
+                          "account is connected — that's the 'Google NOT "
+                          "connected' item above, no separate action needed.")
+        elif not scans:
+            status, kind = "open", "auto"
+            title = "Map rankings: first scan pending"
+            detail = (f"Tracking is configured ({n_kw} keywords x {n_ct} cities) "
+                      "but no scan has ever run. The baseline runs automatically.")
+            if not healed_now:
+                attention.append(f"{slug}: map-rankings configured but ZERO scans ever "
+                                 "— baseline queued")
+        elif pts_total and found_total == 0:
+            # THE REAL FINDING. Config is right, identity is right, the scan
+            # billed — and the listing appeared at no point on the grid. That
+            # is a genuine local-visibility problem, not a plumbing bug.
+            status, kind = "open", "us_owed"
+            title = "Not showing up in Maps anywhere in their service area"
+            detail = ("Their listing isn't surfacing in Google Maps at ANY point "
+                      f"across the last {len(scans)} map scan(s) — 0 of {pts_total} "
+                      "grid points. Worth checking their Business Profile is "
+                      "verified, categorised, and that the service area matches "
+                      "where we're scanning.")
+            attention.append(f"{slug}: 0/{pts_total} map points — listing not surfacing "
+                             "in Maps at all (check GBP verification/categories)")
+        else:
+            title = (f"Map rankings tracked: {n_kw} keywords x {n_ct} cities")
+
+        rows.append({"company_id": cid, "item_key": "map-rankings", "kind": kind,
+                     "status": status, "title": title, "detail": detail,
+                     "evidence": {"keywords": n_kw, "cities": n_ct,
+                                  "identity": has_ident,
+                                  "identity_source": ident["source"],
+                                  "scans_seen": len(scans),
+                                  "found_points": found_total,
+                                  "total_points": pts_total}})
+    except Exception as e:  # noqa: BLE001 — a health check must never kill the ledger
+        attention.append(f"{slug}: map-rankings check failed ({str(e)[:90]})")
+
+    # ---- video-channel (Santino 2026-08-04) ----------------------------
+    # "Connected" is not "publishable". A Google account can finish the
+    # whole YouTube OAuth flow while owning no channel at all — every read
+    # succeeds and only the final upload fails, after we've already paid
+    # for the script, the narration and the images (ProRestoration).
+    try:
+        import video_maker as _vm
+        yt = _vm.youtube_channel_state(slug)
+        if yt["connected"] and yt["has_channel"] is False:
+            rows.append({"company_id": cid, "item_key": "video-channel",
+                         "kind": "client_owed", "status": "open",
+                         "title": "YouTube connected but there's no channel on it",
+                         "detail": ("Their Google account is linked for video, but "
+                                    "it doesn't have a YouTube channel yet — so "
+                                    "nothing we produce can be published. Monica is "
+                                    "asking them to create one (it takes about 30 "
+                                    "seconds); video production is paused for them "
+                                    "until it exists."),
+                         "evidence": {"connected": True, "has_channel": False,
+                                      "reason": yt["reason"]}})
+            attention.append(f"{slug}: YouTube connected with NO CHANNEL — "
+                             "video pipeline is paused for them")
+        elif yt["connected"] and yt["has_channel"]:
+            rows.append({"company_id": cid, "item_key": "video-channel",
+                         "kind": "client_owed", "status": "done",
+                         "title": f"YouTube channel ready: {yt['channel_title'] or yt['channel_id']}",
+                         "detail": None,
+                         "evidence": {"connected": True, "has_channel": True,
+                                      "channel_id": yt["channel_id"],
+                                      "channel_title": yt["channel_title"]}})
+        # not connected, or has_channel is None (unverifiable) -> no card.
+        # Never assert a gap we could not actually read.
+    except Exception as e:  # noqa: BLE001
+        attention.append(f"{slug}: video-channel check failed ({str(e)[:90]})")
+
+
 def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
     """Evaluate the ledger for every Active Rank AI client. Returns attention
     lines (us-owed gaps) for the nightly ops email."""
@@ -663,8 +1047,10 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
               prefer="return=representation") or []
     attention: list[str] = []
     # per-run auto-heal budget: 2 geo-grid re-scans (DFS cost) + 3 media
-    # imports + 3 tracking-number provisions + 3 GBP phone swaps
-    _HEALS = {"geogrid": 2, "media": 3, "calltrack": 3, "swap": 3, "citations": 2}
+    # imports + 3 tracking-number provisions + 3 GBP phone swaps + 2 geo-grid
+    # config generations (free, but each geocodes a city ring at 1.1s/city)
+    _HEALS = {"geogrid": 2, "media": 3, "calltrack": 3, "swap": 3, "citations": 2,
+              "ggconfig": 2}
     bing_sweep = _bing_sweep_rows()  # fetched once; reused per client
 
     for co in cos:
@@ -1095,6 +1481,8 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                      "evidence": {"count": len(asks), "titles": ask_titles[:10]}})
         if len(asks) >= 4:
             attention.append(f"{slug}: {len(asks)} open client asks — propose a setup call (ladder)")
+
+        _map_and_video_rows(cid, slug, gi, rows, attention, _HEALS, dry_run)
 
         # ---- DATA FRESHNESS (Santino 2026-07-28: "I don't want to have to
         # always check every day"). The tabs must stay alive on their own:
@@ -1803,6 +2191,32 @@ def ensure_auto_site_build(dry_run: bool, cid_to_slug: dict | None = None,
     return out
 
 
+def ensure_map_and_video(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
+    """Evaluate ONLY map-rankings + video-channel for every active Rank AI
+    client and write those cards. Same code path ensure_ledger uses.
+
+    Exists so these two can be re-run on demand (after a geo-grid fix, after a
+    client creates their channel) without kicking off a full nightly pass —
+    which would also provision tracking numbers, import GBP media and fire
+    auto-builds. Cheap: no DataForSEO spend of its own."""
+    cid_to_slug = cid_to_slug or slug_map()
+    cos = _sb("GET", "/rest/v1/companies?status=ilike.active&plan=eq.Rank%20AI"
+              "&select=id,name", prefer="return=representation") or []
+    attention: list[str] = []
+    heals = {"ggconfig": 2}
+    for co in cos:
+        cid = co["id"]
+        slug = cid_to_slug.get(cid)
+        if not slug:
+            continue
+        gi = _sb("GET", f"/rest/v1/user_integrations?client_id=eq.{cid}"
+                 "&provider=eq.google&select=id", prefer="return=representation") or []
+        rows: list[dict] = []
+        _map_and_video_rows(cid, slug, gi, rows, attention, heals, dry_run)
+        _upsert(rows, dry_run)
+    return attention
+
+
 if __name__ == "__main__":
     dry = "--dry-run" in sys.argv
     try:
@@ -1810,6 +2224,11 @@ if __name__ == "__main__":
         load_dotenv(ROOT / ".env")
     except ImportError:
         pass
-    print(f"==> Setup ledger ({'dry-run' if dry else 'live'})")
-    for line in ensure_ledger(dry):
-        print("  ATTENTION:", line)
+    if "--map-video-only" in sys.argv:
+        print(f"==> map-rankings + video-channel ({'dry-run' if dry else 'live'})")
+        for line in ensure_map_and_video(dry):
+            print("  ATTENTION:", line)
+    else:
+        print(f"==> Setup ledger ({'dry-run' if dry else 'live'})")
+        for line in ensure_ledger(dry):
+            print("  ATTENTION:", line)

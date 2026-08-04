@@ -62,7 +62,9 @@
         "North Boundary Park",
         "Cranberry Township Municipal Center"
       ],
-      "zip_codes": ["16066"],
+      "zip_codes": [
+        "16066"
+      ],
       "local_notes": "Butler County's fastest-growing township (~33k) at the I-79/Turnpike crossroads, 20 minutes north of Pittsburgh. Nearly every home has a basement — many finished — so sump-pump failures during spring thaw and summer thunderstorms are the signature water loss, alongside frozen and burst supply lines in January polar snaps. 1960s Fernway plats carry end-of-life galvanized plumbing while 1990s-2020s two-story plans see washing-machine hose, water-heater and second-floor bathroom failures that soak finished lower levels. Heavy clay soil sends hydrostatic seepage through foundation walls in wet springs; Brush Creek drainage backs up in cloudburst storms. FireDEX's own shop sits on Marshall Rd, so Cranberry response is measured in minutes."
     },
     {
@@ -86,7 +88,9 @@
         "Wexford Pool",
         "Soergel Orchards"
       ],
-      "zip_codes": ["15090"],
+      "zip_codes": [
+        "15090"
+      ],
       "local_notes": "Affluent North Hills postal community spanning Pine and Franklin Park townships in the North Allegheny school district. Large 1990s-2010s two-story and estate homes with finished walk-out basements, wet bars and home theaters — supply-line, water-heater and sump failures here mean high-value contents losses and full lower-level rebuilds to matching finishes. Bonus rooms over garages freeze pipes in hard cold snaps, and wooded lots on well water add pressure-tank and well-line failures. Homeowners carry strong insurance and expect fast, documentation-heavy mitigation."
     },
     {
@@ -109,7 +113,9 @@
         "Route 228 corridor",
         "Mars Home for Youth"
       ],
-      "zip_codes": ["16046"],
+      "zip_codes": [
+        "16046"
+      ],
       "local_notes": "Small Butler County borough surrounded by fast-growing Adams Township along the Route 228 growth corridor. Century-old borough homes near Breakneck Creek carry original cast-iron drains and stone foundations that seep in wet springs; the creek itself puts low-lying blocks on flood alert during heavy storm cells. New tract and semi-custom plans in Adams Ridge and along Three Degree Road see builder-era appliance and supply-line failures over finished basements. A short hop from Cranberry via 228 keeps response times tight."
     },
     {
@@ -131,7 +137,9 @@
         "Zelienople Municipal Airport",
         "Route 19 / Route 68 junction"
       ],
-      "zip_codes": ["16063"],
+      "zip_codes": [
+        "16063"
+      ],
       "local_notes": "Historic borough on the Connoquenessing Creek ten minutes north of Cranberry. The creek's floodplain history is the defining local risk — heavy-rain years push water into low-lying streets and basements near the community park. Pre-war Main Street homes and storefronts have stone foundations, original galvanized supply lines and knob-era wiring, driving basement seepage, burst pipes and older-structure fire losses. Neighboring Harmony's historic district shares the same aging-building profile."
     },
     {
@@ -152,7 +160,9 @@
         "Seneca Valley school campuses",
         "Route 68 corridor"
       ],
-      "zip_codes": ["16033"],
+      "zip_codes": [
+        "16033"
+      ],
       "local_notes": "Small borough in the Breakneck Creek valley best known as the filming home of Night of the Living Dead. Creek-valley geography concentrates storm runoff — flash flooding and basement backups hit the low blocks near the creek in cloudburst summers. Housing stock is largely 1900-1950s frame homes with stone or block foundations, original drains and undersized sumps; winter freeze-thaw cycles crack aging supply lines. Surrounding Forward Township farm properties add outbuilding and well-system losses."
     },
     {
@@ -172,7 +182,9 @@
         "Route 228 corridor",
         "Cranberry Township border"
       ],
-      "zip_codes": ["16046"],
+      "zip_codes": [
+        "16046"
+      ],
       "local_notes": "One of Pennsylvania's youngest boroughs — a master-planned community built almost entirely from the late 1980s onward between Cranberry and Mars. Losses skew to appliance failures: washing-machine hoses, dishwasher lines, water heaters and refrigerator ice-maker lines flooding finished basements and first floors. Two-story plans with second-floor laundries send water through kitchen ceilings; townhome and patio-home clusters mean shared-wall losses where fast mitigation protects neighbors. Minutes from the FireDEX shop."
     },
     {
@@ -196,7 +208,11 @@
         "Connoquenessing Creek",
         "Butler County Community College"
       ],
-      "zip_codes": ["16001", "16002", "16003"],
+      "zip_codes": [
+        "16001",
+        "16002",
+        "16003"
+      ],
       "local_notes": "The county seat and FireDEX's namesake city — a classic Western-PA industrial town where most housing predates 1950. Brick foursquares and frame homes on Institute Hill and in Lyndora run original cast-iron stacks, galvanized supply lines and fuse-era electrical, producing burst pipes, sewage backups and above-average house-fire frequency. Connoquenessing Creek and its runs flood low-lying streets in heavy rain. Downtown's older commercial blocks and the hospital corridor generate commercial water and fire losses; steep hillside streets complicate winter response, which rewards a local crew that knows them."
     },
     {
@@ -218,7 +234,9 @@
         "Route 8 corridor",
         "North Park northern reaches"
       ],
-      "zip_codes": ["15044"],
+      "zip_codes": [
+        "15044"
+      ],
       "local_notes": "North Allegheny County postal area covering Richland Township and the Treesdale planned community. Upscale 1990s-2020s homes with finished basements see the classic suburban loss set — sump failures in spring, frozen bonus-room pipes in January, water-heater and supply-line floods year-round. Wooded lots off Route 8 on well and septic add well-line and ejector-pump failures, and long private drives make winter access planning part of the job. Older Bakerstown homes carry aging plumbing and chimney-fire risk."
     },
     {
@@ -240,7 +258,9 @@
         "Seventh Avenue business district",
         "Route 18 corridor"
       ],
-      "zip_codes": ["15010"],
+      "zip_codes": [
+        "15010"
+      ],
       "local_notes": "Beaver County mill town on the Beaver River, home to Geneva College — FireDEX holds a Beaver County Chamber membership and serves the county from Cranberry via Route 68/I-76 in about 25 minutes. Pre-war brick rowhomes and frame houses on College Hill and the numbered avenues run original cast-iron drains, galvanized lines and aging furnaces: burst pipes, sewage backups and space-heater fires are the recurring losses. River-valley humidity and stone foundations make chronic basement moisture and mold common, and the older commercial stock along Seventh Avenue adds sprinkler-discharge and roof-leak commercial work."
     }
   ],
@@ -272,7 +292,9 @@
     "primary_color": "#c8102e",
     "primary_dark": "#a30d25",
     "primary_light": "#f9cbd3",
-    "accent_color": "#e5304c"
+    "accent_color": "#e5304c",
+    "lat": 40.7099,
+    "lng": -80.1061
   },
   "cross_product": true,
   "keyword_strategy": "conservative",

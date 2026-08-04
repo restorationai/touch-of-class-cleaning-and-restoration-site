@@ -738,26 +738,14 @@ def ensure_setup_checklist(dry_run: bool, cid_to_slug: dict) -> list[str]:
         # NO channel on the Google account means we cannot upload videos for
         # them. Verified live against the YouTube API (channel_id missing in
         # metadata can just mean the backfill never ran) before flagging.
+        # 2026-08-04: the verification itself now lives in video_maker
+        # (youtube_channel_state) so the ask, the ledger card and the video
+        # cron's skip all read the SAME answer. has_channel is None when the
+        # Google side could not be read — never nag on that.
         yt_gap = False
         try:
-            yt = _sb("GET", f"/rest/v1/user_integrations?client_id=eq.{cid}"
-                     "&provider=eq.youtube&select=connection_metadata",
-                     prefer="return=representation") or []
-            md = (yt[0].get("connection_metadata") or {}) if yt else None
-            if md is not None and not md.get("channel_id"):
-                rt = md.get("refresh_token")
-                if rt:
-                    t = requests.post("https://oauth2.googleapis.com/token", data={
-                        "client_id": os.environ.get("GOOGLE_OAUTH_CLIENT_ID", ""),
-                        "client_secret": os.environ.get("GOOGLE_OAUTH_CLIENT_SECRET", ""),
-                        "refresh_token": rt, "grant_type": "refresh_token"},
-                        timeout=30).json().get("access_token")
-                    if t:
-                        ch = requests.get(
-                            "https://www.googleapis.com/youtube/v3/channels"
-                            "?part=id&mine=true",
-                            headers={"Authorization": f"Bearer {t}"}, timeout=30).json()
-                        yt_gap = not (ch.get("items") or [])
+            import video_maker as _vm
+            yt_gap = _vm.youtube_channel_state(slug)["has_channel"] is False
         except Exception:
             yt_gap = False  # verification failed — never nag on bad data
         # LSA intent (Santino 2026-07-28): a Google-connected client with no
@@ -809,10 +797,14 @@ def ensure_setup_checklist(dry_run: bool, cid_to_slug: dict) -> list[str]:
             f"checklist-youtube-channel-{slug}", yt_gap,
             "ASK CLIENT: create their YouTube channel (account connected, no channel)",
             "Their YouTube is connected but the Google account has no YouTube channel "
-            "yet, so we cannot post videos for them. MONICA: tell them it takes 2 "
-            "minutes — open youtube.com while signed into that Google account, click "
-            "their avatar, then 'Create a channel', use the business name. Once it "
-            "exists we handle all the video posting."))
+            "yet, so nothing we produce can be published — video production is paused "
+            "for them until it exists. MONICA: keep it light and make it feel like "
+            "nothing, e.g. 'your YouTube account is linked up on our end, but there's "
+            "no actual channel on it yet — creating one takes about 30 seconds: go to "
+            "youtube.com signed into that same Google account, click your picture "
+            "top-right, hit Create a channel, and name it after the business. Or if "
+            "it's easier, say the word and we'll hop on a quick call and do it "
+            "together.' Once it exists we handle every upload from there."))
 
         for seed, gap_open, title, rationale in checks:
             key = action_key(cid, seed)

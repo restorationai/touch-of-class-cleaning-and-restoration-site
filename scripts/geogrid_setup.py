@@ -189,7 +189,7 @@ def ensure_identity(slug: str) -> bool:
         brand["place_id"] = ident["place_id"]
     if ident.get("cid"):
         brand["google_cid"] = ident["cid"]
-    p.write_text(json.dumps(plan, indent=2))
+    p.write_text(json.dumps(plan, indent=2, ensure_ascii=False))
     print(f"  backfilled brand.place_id/google_cid into plan-input.json "
           f"from clients/{slug}.json gbp block ({ident.get('matched_title')})")
     return True
@@ -320,7 +320,7 @@ def cmd_identity(args) -> int:
             plan["brand"]["place_id"] = ident["place_id"]
         if ident.get("cid"):
             plan["brand"]["google_cid"] = ident["cid"]
-        p.write_text(json.dumps(plan, indent=2))
+        p.write_text(json.dumps(plan, indent=2, ensure_ascii=False))
         print(f"  wrote brand.place_id/google_cid into plan-input.json")
     return 0
 

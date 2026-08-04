@@ -92,7 +92,15 @@ def resolve_client(slug: str) -> dict:
     if not rec_path.exists():
         raise FileNotFoundError(f"{rec_path} not found")
     rec = json.loads(rec_path.read_text())
-    r2 = rec.get("r2", {})
+    # `or {}`, NOT get("r2", {}) — the default only fires when the key is
+    # ABSENT, and pre-onboarding records carry an explicit "r2": null. That
+    # returned None and blew up on .get() BEFORE a single point was scanned,
+    # so the whole client failed with "'NoneType' object has no attribute
+    # 'get'" and $0 spent — indistinguishable, from the dashboard, from a
+    # client nobody had configured yet (FireDEX / The Restoration Group / AAA,
+    # 2026-08-04). The R2 fallback bucket below already handles a missing
+    # bucket fine; there was never a reason to require the block.
+    r2 = rec.get("r2") or {}
     domain = rec.get("domain")
     return {
         "company_id":  company_id,
@@ -105,6 +113,30 @@ def resolve_client(slug: str) -> dict:
 # ---------------------------------------------------------------------------
 # R2 upload via Cloudflare REST API (bearer token, no node/wrangler needed)
 # ---------------------------------------------------------------------------
+
+_HOST_OK: dict[str, bool] = {}
+
+
+def _host_resolves(url: str) -> bool:
+    """Does this URL's host actually resolve? Cached per process.
+
+    Fail-OPEN on anything other than a clean NXDOMAIN-style failure would be
+    wrong here (we'd keep writing dead URLs), but a resolver hiccup shouldn't
+    demote a healthy client's images to the shared bucket forever either —
+    hence the per-run cache rather than a persisted verdict."""
+    import socket
+    from urllib.parse import urlparse
+    host = urlparse(url).netloc.split(":")[0]
+    if not host:
+        return False
+    if host not in _HOST_OK:
+        try:
+            socket.gethostbyname(host)
+            _HOST_OK[host] = True
+        except OSError:
+            _HOST_OK[host] = False
+    return _HOST_OK[host]
+
 
 def r2_put(bucket: str, key: str, data: bytes, content_type: str = "image/png") -> bool:
     """PUT an object into an R2 bucket via the Cloudflare REST API.
@@ -196,7 +228,14 @@ def persist_scan(
             render_png(points, tmp_path)
             key = f"geogrid/{_kw_slug(keyword)}/{scan_id}.png"
             data = tmp_path.read_bytes()
-            if r2_put(bucket, key, data, "image/png"):
+            # A successful PUT is not a working URL. images.{domain} only
+            # resolves AFTER the client's domain cuts over to our Cloudflare —
+            # so a client whose bucket already exists but whose site is still
+            # pre-launch got a 200 upload and an image_url on a host that
+            # NXDOMAINs, i.e. a blank map in the app with nothing logged
+            # anywhere (ProRestoration 2026-08-04). Serve those from the shared
+            # public bucket until their own domain is live.
+            if r2_put(bucket, key, data, "image/png") and _host_resolves(public_url):
                 image_url = f"{public_url}/{key}"
             elif r2_put(FALLBACK_BUCKET, key, data, "image/png"):
                 image_url = f"{FALLBACK_PUBLIC_URL}/{key}"

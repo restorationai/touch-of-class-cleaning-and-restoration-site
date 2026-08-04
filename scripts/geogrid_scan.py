@@ -71,13 +71,23 @@ def load_dfs_creds() -> tuple[str, str]:
 
 
 def load_center(slug: str) -> dict:
+    """Business center + identity for matching. Raises ValueError when the brand
+    block can't support a scan.
+
+    ValueError, NOT sys.exit (2026-08-04): this is a LIBRARY function — the
+    bi-weekly cron calls it once per client inside a loop guarded by
+    `except Exception`. sys.exit raises SystemExit, which that guard does not
+    catch, so a single client with no brand.lat killed the whole process and
+    every client after it in the roster silently went unscanned. FireDEX did
+    exactly that. One bad client must cost one scan, never the fleet."""
     p = ROOT / "clients" / slug / "plan-input.json"
     if not p.exists():
-        sys.exit(f"ERROR: {p} not found.")
+        raise ValueError(f"{p} not found.")
     b = json.loads(p.read_text()).get("brand", {})
     for k in ("lat", "lng", "display_name"):
         if not b.get(k):
-            sys.exit(f"ERROR: brand.{k} missing in plan-input.json — can't center the grid.")
+            raise ValueError(
+                f"brand.{k} missing in {slug}/plan-input.json — can't center the grid.")
     return {
         "name": b["display_name"],
         "lat": float(b["lat"]),
@@ -214,7 +224,10 @@ def main() -> int:
 
     u, p = load_dfs_creds()
     auth = base64.b64encode(f"{u}:{p}".encode()).decode()
-    biz = load_center(args.slug)
+    try:
+        biz = load_center(args.slug)
+    except ValueError as e:      # CLI keeps the old friendly one-line exit
+        sys.exit(f"ERROR: {e}")
     pts = build_grid(biz["lat"], biz["lng"], args.grid, args.miles)
     print(f"==> Geo-grid: {biz['name']} | '{args.keyword}' | {args.grid}x{args.grid} over {args.miles}x{args.miles} mi")
     print(f"    Center: {biz['lat']},{biz['lng']}  ({len(pts)} points)  matching cid={biz['cid']}")

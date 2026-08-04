@@ -138,6 +138,26 @@ def connected_company_ids() -> set[str]:
         return set()
 
 
+def has_publishable_channel(slug: str) -> bool:
+    """Can we actually publish for this client, or is the connection channelless?
+
+    A connected Google account with NO YouTube channel passes every check the
+    cron used to make, then fails at videos().insert — AFTER a full production
+    run has already been paid for (Claude script + TTS narration + Gemini scene
+    images). ProRestoration 2026-08-04 sat in exactly that state. Skip cleanly
+    instead: the ledger raises the card and Monica does the asking.
+
+    Fails OPEN — an unverifiable read (no OAuth env, API hiccup) must never
+    silently stop a paying client's videos.
+    """
+    try:
+        import video_maker as vm
+        return vm.youtube_channel_state(slug)["has_channel"] is not False
+    except Exception as e:  # noqa: BLE001
+        sys.stderr.write(f"  channel check failed for {slug}: {str(e)[:120]}\n")
+        return True
+
+
 def _frontmatter(md_text: str) -> dict:
     """Tiny frontmatter reader — enough to check published/rendered/youtube_id."""
     m = re.match(r"^---\s*\n(.*?)\n---\s*\n", md_text, re.S)
@@ -275,6 +295,10 @@ def main() -> int:
         cid = _company_id_for(slug)
         if cid not in connected:
             skipped.append((slug, "no connected YouTube"))
+            continue
+        if not has_publishable_channel(slug):
+            skipped.append((slug, "YouTube connected but the account has NO channel "
+                                  "— nothing could be published (ledger card raised)"))
             continue
         st = load_state(slug)
         plan = plan_next(slug, st)

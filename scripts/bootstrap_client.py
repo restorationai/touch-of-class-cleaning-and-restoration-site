@@ -219,10 +219,20 @@ def main():
                 d2["brand"].setdefault("lat", ll[0])
                 d2["brand"].setdefault("lng", ll[1])
                 pi.write_text(json.dumps(d2, indent=1) + "\n")
-        ct_f.write_text(json.dumps(cities, indent=1) + "\n")
+        # NEVER write an empty ring (AAA 2026-08-04). A `[]` cities file reads
+        # as "configured" to every exists()-based check in the fleet, so the
+        # client is silently skipped by the cron forever AND is invisible to
+        # the freshness watchdog — AAA sat that way from bootstrap until the
+        # map-rankings audit found it. Leaving the file ABSENT is the honest
+        # state: setup_ledger's map-rankings heal then generates a real ring
+        # from plan-input service areas on the next overnight pass.
         if cities:
+            ct_f.write_text(json.dumps(cities, indent=1) + "\n")
             subprocess.run([sys.executable, str(ROOT / "scripts" / "geogrid_cron.py"),
                             "--slug", slug])
+        else:
+            print("geo-grid: could not geocode '{}' — leaving the city ring "
+                  "UNwritten so setup_ledger seeds a real one".format(full.get("city")))
 
     # 6. GBP sync (needs place_id)
     if place_id:

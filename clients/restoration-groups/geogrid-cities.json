@@ -1,0 +1,27 @@
+[
+  {
+    "label": "Kenilworth, NJ",
+    "lat": 40.6749,
+    "lng": -74.2957
+  },
+  {
+    "label": "Jersey City, NJ",
+    "lat": 40.7216,
+    "lng": -74.0475
+  },
+  {
+    "label": "Fair Lawn, NJ",
+    "lat": 40.9358,
+    "lng": -74.1175
+  },
+  {
+    "label": "Highland Park, NJ",
+    "lat": 40.4997,
+    "lng": -74.4262
+  },
+  {
+    "label": "Staten Island, NY",
+    "lat": 40.5835,
+    "lng": -74.1496
+  }
+]

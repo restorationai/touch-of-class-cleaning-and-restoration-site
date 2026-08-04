@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "label": "Honolulu, HI",
+    "lat": 21.3045,
+    "lng": -157.8557
+  },
+  {
+    "label": "Hawaii Kai, HI",
+    "lat": 21.303,
+    "lng": -157.6984
+  },
+  {
+    "label": "Kailua, HI",
+    "lat": 19.6419,
+    "lng": -155.9969
+  },
+  {
+    "label": "Pearl City, HI",
+    "lat": 21.4001,
+    "lng": -157.9694
+  }
+]
