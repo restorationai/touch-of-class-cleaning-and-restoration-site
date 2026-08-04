@@ -1,7 +1,42 @@
 [
- {
-  "label": "Auburn",
-  "lat": 42.1945465,
-  "lng": -71.8358095
- }
+  {
+    "label": "Auburn, MA",
+    "lat": 42.1945465,
+    "lng": -71.8358095
+  },
+  {
+    "label": "Worcester, MA",
+    "lat": 42.2626,
+    "lng": -71.8019
+  },
+  {
+    "label": "Shrewsbury, MA",
+    "lat": 42.296,
+    "lng": -71.7135
+  },
+  {
+    "label": "Millbury, MA",
+    "lat": 42.1914,
+    "lng": -71.7604
+  },
+  {
+    "label": "Grafton, MA",
+    "lat": 42.2063,
+    "lng": -71.6854
+  },
+  {
+    "label": "Leicester, MA",
+    "lat": 42.2459,
+    "lng": -71.9082
+  },
+  {
+    "label": "Oxford, MA",
+    "lat": 42.117,
+    "lng": -71.8644
+  },
+  {
+    "label": "Sutton, MA",
+    "lat": 42.1499,
+    "lng": -71.763
+  }
 ]
