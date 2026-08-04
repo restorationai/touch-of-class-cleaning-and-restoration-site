@@ -224,8 +224,29 @@ INTRO_TEMPLATE = ("Hi {first}, this is {name} with Santino's team at "
 INTRO_TEMPLATE_OFFICE = ("Hi {first}, this is {name} with Santino's team "
                          "at {brand}. I help collect what's needed to "
                          "finish {company}'s setup.")
-SMS_MAX_CHARS = 450
-SMS_MAX_CHARS_FIRST = 550   # first-ever message carries the intro line
+# CONCISION IS A HARD RULE (Santino 2026-08-04, reviewing the Reign
+# Restoration thread: "I like what she said but it also seems like a quick
+# patch. I don't want her sending long messages like that. Very concise,
+# ALWAYS, don't overexplain, just ask and get the info.").
+#
+# The old numbers were 450 hard / 390 stated, and the model drafted TO the
+# stated budget every time: Jerrott got a 198-char hosting explainer and a
+# 282-char reviews acknowledgment where two short sentences would have done.
+# TARGET is what the model is told to write to; MAX is the mechanical
+# ceiling that triggers the shorten/trim loop (_fit_sms). A normal message
+# is one idea: a sentence of context at most, then the ask.
+SMS_TARGET_CHARS = 200      # what compose is told to aim for (~160-200)
+SMS_MAX_CHARS = 260         # ceiling for a normal message -> shorten loop
+# EXCEPTION 1 — first contact: the intro line ("Hi X, this is Monica with
+# Santino's team at Restoration AI. I help get everything set up for your
+# account.") is ~112 chars of required identity before the ask even starts.
+SMS_TARGET_CHARS_FIRST = 260
+SMS_MAX_CHARS_FIRST = 340
+# EXCEPTION 2 — a step-by-step the client explicitly asked for (the GoDaddy
+# "Invite to Access" walk-through is the canonical case). Still capped: tight
+# steps, no preamble around them.
+SMS_TARGET_CHARS_STEPS = 340
+SMS_MAX_CHARS_STEPS = 420
 # ONE PURPOSE PER MESSAGE (Santino 2026-08-02, Todd thread review): every
 # text carries at most ONE question — the single most valuable next thing.
 # Stacked asks ("What day works? Also, any brand col...") read robotic and
@@ -516,34 +537,74 @@ def record_sent_message(state: dict, result: dict | None) -> None:
     a human (Santino / the app's automations acting as him), not the
     concierge. Empty until the first real send by design."""
     ids = state.setdefault("sent_message_ids", [])
-    for key in ("messageId", "emailMessageId"):
-        mid = (result or {}).get(key)
-        if mid and mid not in ids:
-            ids.append(mid)
-    # EMAIL ID RECONCILIATION (PuroClean 2026-08-03 post-mortem): for Email
-    # sends GHL returns emailMessageId, but the message row that later shows
-    # up in the conversation carries a DIFFERENT id — so Monica's own email
-    # read as a HUMAN outbound and tripped the 12h human-defer window on
-    # every hourly compose after her 07-29 intro email to Greg. Best-effort:
-    # pull the conversation's newest outbound email id and record it too.
+    for key in ("messageId", "emailMessageId", "messageIds", "id"):
+        val = (result or {}).get(key)
+        for mid in (val if isinstance(val, list) else [val]):
+            if mid and isinstance(mid, str) and mid not in ids:
+                ids.append(mid)
+    # ID RECONCILIATION — ALL CHANNELS (email: PuroClean 2026-08-03; SMS:
+    # Reign 2026-08-04). GHL's send response returns one id, but the message
+    # row that later shows up in the conversation can carry a DIFFERENT one.
+    # An unrecorded id reads as a HUMAN outbound, so Monica deferred to
+    # HERSELF: seconds after her inline reply "Give me a second while I grab
+    # the correct link for you" (22:56), the next compose refused with
+    # "recent human conversation — deferred (human outbound sms at 22:56,
+    # 0.1h ago)" and she broke her own promise until Santino forced it
+    # through send-now. The email path had already been fixed this way; the
+    # inline/ack/webhook SMS path had not. Fix: after ANY send, pull the
+    # conversation's newest outbound ids and record every one written in the
+    # last few minutes, whatever channel and whatever id shape GHL used.
     conv = (result or {}).get("conversationId")
-    if conv and (result or {}).get("emailMessageId"):
-        try:
-            data = _ghl("GET", f"/conversations/{conv}/messages",
-                        params={"limit": 10})
-            best = None
-            for msg in (data.get("messages") or {}).get("messages", []) or []:
-                if (msg.get("direction") == "inbound"
-                        or msg.get("messageType") != "TYPE_EMAIL"
-                        or not msg.get("id")):
-                    continue
-                when = msg.get("dateAdded") or ""
-                if best is None or when > best[0]:
-                    best = (when, msg["id"])
-            if best and best[1] not in ids:
-                ids.append(best[1])
-        except Exception as e:  # noqa: BLE001 — bookkeeping never fails a send
-            print(f"  [sent-ids] email reconcile failed: {str(e)[:80]}")
+    if not conv:
+        _note_unrecorded_send(result)
+        return
+    try:
+        data = _ghl("GET", f"/conversations/{conv}/messages",
+                    params={"limit": 15})
+        cutoff = datetime.now(timezone.utc) - timedelta(minutes=5)
+        added = 0
+        for msg in (data.get("messages") or {}).get("messages", []) or []:
+            mid = msg.get("id")
+            if not mid or mid in ids or msg.get("direction") == "inbound":
+                continue
+            try:
+                when = datetime.fromisoformat(
+                    (msg.get("dateAdded") or "").replace("Z", "+00:00"))
+            except ValueError:
+                continue
+            if when >= cutoff:
+                ids.append(mid)
+                added += 1
+        if added:
+            print(f"  [sent-ids] reconciled {added} outbound id(s) from the "
+                  "conversation — Monica never defers to herself")
+    except Exception as e:  # noqa: BLE001 — bookkeeping never fails a send
+        print(f"  [sent-ids] reconcile failed: {str(e)[:80]}")
+    _CLIENT_SENDS["recorded"] += 1
+
+
+# REGRESSION CHECK (2026-08-04): every path that sends to a CLIENT must
+# register the id, or the human-defer window silences Monica against her own
+# message. send_message() counts; record_sent_message() clears. A mismatch is
+# printed loudly at the end of the run — a new send path that forgets to
+# record can never again go unnoticed.
+_CLIENT_SENDS = {"sent": 0, "recorded": 0, "unrecorded": []}
+
+
+def _note_unrecorded_send(result: dict | None) -> None:
+    _CLIENT_SENDS["unrecorded"].append(str((result or {}).get("messageId")
+                                           or "<no id>"))
+
+
+def sent_id_regression_check() -> None:
+    """Print (loudly) if any client send this run went unrecorded."""
+    sent, rec = _CLIENT_SENDS["sent"], _CLIENT_SENDS["recorded"]
+    if sent > rec:
+        print(f"!! SENT-ID REGRESSION: {sent} client send(s) this run but "
+              f"only {rec} recorded into sent_message_ids — the unrecorded "
+              "ones will read as HUMAN outbound and trip the 12h human-defer "
+              "against Monica herself. Every send path must call "
+              "record_sent_message(state, result).", file=sys.stderr)
 
 
 # ---------------------------------------------------------------- history
@@ -1342,24 +1403,39 @@ _PREVIEW_ASK_RE = re.compile(
 
 
 def preview_link_for(company: dict, items: list[dict]) -> str | None:
-    """The staging/preview URL for this client: the share ask's own target
-    first (marketing_action_plan.target), then marketing_sites."""
+    """The staging/preview URL for this client, VERIFIED before it is used.
+
+    Candidate order: the share ask's own target (marketing_action_plan.
+    target), a URL in its rationale, then marketing_sites. Each candidate is
+    fetched and the first one that actually serves wins — a plan row's target
+    is a snapshot from build time and goes stale when the site is rebuilt
+    under a new project name (FireDEX's Bob got the dead
+    rankai-firedex-butler.pages.dev, 2026-08-04). Returns None when nothing
+    resolves, and boost_preview_share then keeps the link out of the draft
+    entirely."""
+    candidates: list[str] = []
     for it in items:
         if _PREVIEW_ASK_RE.search(str(it.get("text", ""))):
             tgt = str(it.get("target") or "").strip()
             if tgt.startswith("http"):
-                return tgt
+                candidates.append(_clean_url(tgt))
             m = re.search(r"https?://\S+", str(it.get("detail") or ""))
             if m:
-                return m.group(0).rstrip(".,)")
-    try:
-        rows = _sb("GET", f"/rest/v1/marketing_sites?company_id=eq."
-                   f"{company.get('id')}&select=cloudflare_pages_url"
-                   "&limit=1") or []
-        url = str((rows[0] if rows else {}).get("cloudflare_pages_url") or "")
-        return url or None
-    except Exception:
-        return None
+                candidates.append(_clean_url(m.group(0)))
+    live = live_site_url(company)
+    if live:
+        candidates.append(_clean_url(live))
+    for url in dict.fromkeys(candidates):
+        if url_alive(url):
+            if candidates and url != candidates[0]:
+                print(f"  [preview-share] plan-row target was dead — using "
+                      f"the live URL {url}")
+            return url
+    if candidates:
+        print("  [preview-share] every preview URL on file is dead "
+              f"({', '.join(dict.fromkeys(candidates))}) — no link will be "
+              "mentioned; rebuild/repair the site record")
+    return None
 
 
 def boost_preview_share(company: dict, items: list[dict],
@@ -1612,22 +1688,173 @@ def next_eligible(cs: dict) -> datetime | None:
     return last + timedelta(days=MIN_DAYS_BETWEEN_SENDS)
 
 
-def has_boss_directive(company_id: str | None) -> bool:
-    """True when an open ops note is a DIRECT order from Santino
-    ([FROM SANTINO...] advice-loop answers, [SEND-PREVIEW] approvals).
-    Acting on his order is not a nudge — it must bypass cooldown and the
-    nudge cap (2026-08-01: Angie's direct question sat two days behind the
-    cooldown gate while his answer was already on file). Business hours
-    still apply."""
-    if not company_id:
+# ------------------------------------------------------------- boss directives
+# Machine-written notes that are ALWAYS a direct order to Monica:
+#   [FROM SANTINO ...]  advice-loop answers texted back by Santino
+#   [SEND-PREVIEW]      the app's Website Approve button
+#   [FOR MONICA]        explicit "for Monica" notes filed from chat/ops
+_DIRECTIVE_TAGS = ("[FROM SANTINO", "[SEND-PREVIEW]", "[FOR MONICA]")
+
+# ...and the case that had NO tag at all (Santino 2026-08-04): the app's Ops
+# Attention note composer defaults its kind dropdown to "For Monica", whose
+# option value is the EMPTY STRING (OpsAttention.tsx), so a note typed there
+# lands in marketing_ops_notes with a bare body. categorizeNote() files every
+# untagged body under the Monica category, but has_boss_directive() only ever
+# matched the literal "[FROM SANTINO" prefix — so his ProRestoration order,
+# "Reach out and set a meeting up sometime tomorrow or Thursday.", was
+# invisible to Monica all day and he ended up texting Angie himself at 22:23.
+#
+# Untagged notes are NOT all orders, though. The same box holds standing
+# CONSTRAINTS ("Do NOT mention prorestorationca.com ... off-limits for client
+# outreach") and pure context ("Greg provided his review campaign list
+# already"). Promoting those to directives would grant that company a
+# PERMANENT cooldown + human-defer bypass and Monica would text every hour
+# forever. So an untagged note counts only when it reads as an ORDER TO
+# CONTACT THE CLIENT: an action verb in the imperative, at the start of a
+# sentence (or after "Monica:", "please", a dash — how he actually writes
+# them). Everything else stays what it always was: context that rides into
+# compose with the meeting intel.
+_DIRECTIVE_IMPERATIVE_RE = re.compile(
+    r"(?:^|[.\n!?;]\s*|\bmonica\s*[:,]\s*|\bplease\s+|\s[—–-]\s*)"
+    r"(?:reach\s+(?:back\s+)?out|follow\s+up|circle\s+back|check\s+in|touch\s+base"
+    r"|get\s+in\s+touch|text|call|email|message|ping|nudge|remind|ask|tell"
+    r"|let\s+(?:them|him|her)\s+know|invite|offer|schedule|book|set\s+up|send"
+    r"|confirm|chase|push|make\s+(?:it|this|that)\s+a\s+priority"
+    r"|prioriti[sz]e|thank|congratulate|walk\s+(?:them|him|her)\s+through)\b",
+    re.I)
+# A note that OPENS with a prohibition is a standing constraint, never an
+# order to go text someone ("Do NOT ask Jose to confirm services...").
+_DIRECTIVE_PROHIBIT_RE = re.compile(
+    r"^\s*(?:do\s*n['’]?o?t|don['’]t|never|no\b|hold\s+off|wait\b"
+    r"|stop\b|pause\b|heads?\s*up\b|fyi\b)", re.I)
+# Authors that are machines, not Santino. The column DEFAULTS to 'santino'
+# (see the 20260728090000 migration), so author can only ever DISQUALIFY.
+_MACHINE_AUTHORS = ("webhook", "system", "cron", "monica", "concierge")
+
+
+def is_boss_directive(note: dict) -> bool:
+    """Does this open ops note order Monica to contact the client now?"""
+    body = str(note.get("body") or "").strip()
+    if not body:
         return False
+    if body.startswith(_DIRECTIVE_TAGS):
+        return True
+    if body.startswith("["):
+        return False          # some other machine tag: [DEV], [LSA-INTENT], ...
+    author = str(note.get("author") or "").strip().lower()
+    if any(m in author for m in _MACHINE_AUTHORS):
+        return False
+    if _DIRECTIVE_PROHIBIT_RE.match(body):
+        return False
+    return bool(_DIRECTIVE_IMPERATIVE_RE.search(body))
+
+
+def open_boss_directives(company_id: str | None) -> list[dict]:
+    """Open ops notes for this company that are DIRECT orders from Santino.
+
+    Acting on his order is not a nudge: it bypasses the cooldown, the nudge
+    cap and (2026-08-04) his own 12h human-defer — see cmd_compose. Business
+    hours and the canary allowlist always survive."""
+    if not company_id:
+        return []
+    try:
+        rows = _sb("GET", f"/rest/v1/marketing_ops_notes?company_id=eq.{company_id}"
+                   "&status=eq.open&select=id,body,author,created_at"
+                   "&order=created_at.desc&limit=20") or []
+    except Exception:
+        return []
+    return [r for r in rows if is_boss_directive(r)]
+
+
+def _companies_with_directives() -> list[str]:
+    """Every company carrying an open boss directive (one query, for --all)."""
+    try:
+        rows = _sb("GET", "/rest/v1/marketing_ops_notes?status=eq.open"
+                   "&select=company_id,body,author&limit=500") or []
+    except Exception:
+        return []
+    return sorted({r["company_id"] for r in rows
+                   if r.get("company_id") and is_boss_directive(r)})
+
+
+def resolve_directives(directives: list[dict], why: str = "acted on") -> None:
+    """One-shot: a directive Monica has now acted on is closed, so the
+    cadence bypass it grants can't keep firing on every future compose."""
+    now = datetime.now(timezone.utc).isoformat()
+    for d in directives or []:
+        try:
+            _sb("PATCH", f"/rest/v1/marketing_ops_notes?id=eq.{d['id']}",
+                {"status": "resolved", "resolved_at": now})
+            print(f"  [directive] {why} + resolved: "
+                  f"{str(d.get('body', ''))[:70]!r}")
+        except Exception as e:  # bookkeeping must never fail the send
+            print(f"  [directive] resolve failed: {str(e)[:100]}")
+
+
+def has_boss_directive(company_id: str | None) -> bool:
+    """Back-compat boolean wrapper (cadence_check's boss_override)."""
+    return bool(open_boss_directives(company_id))
+
+
+# ------------------------------------------------------------- topic bans
+# The other half of the untagged-note vocabulary: the notes that say what NOT
+# to say. "Do NOT mention prorestorationca.com, the domain, or registrar
+# access to Angie in ANY message ... off-limits for client outreach until
+# Santino says otherwise" (2026-07-30) has been open the whole time, rides
+# into compose with the intel, and the model still drafted the domain ask at
+# Angie on 2026-08-04. A prompt line is not a guarantee; this is the gate.
+# High precision on purpose: only an explicit domain/URL named in the ban
+# clause, or a topic from a small curated vocabulary, ever blocks a send —
+# a vague ban is left to the prompt.
+_BAN_CLAUSE_RE = re.compile(
+    r"\b(?:do\s*n['’]?o?t|don['’]t|never)\s+(?:ever\s+)?"
+    r"(?:mention|bring\s+up|discuss|talk\s+about|raise|ask\s+(?:\w+\s+)?"
+    r"(?:about|to|for)?)\b(?P<what>.{0,180})", re.I | re.S)
+_BAN_DOMAIN_RE = re.compile(r"\b[a-z0-9][a-z0-9-]*\.(?:com|net|org|io|co|us)\b",
+                            re.I)
+_BAN_TOPICS = {
+    "domain": r"\bdomain\b|\bregistrar\b|\bnameserver",
+    "registrar access": r"\bgodaddy\b|\bnamecheap\b|\bbluehost\b|\bmoniker\b",
+    "lsa": r"\blsa\b|local services ads|google guaranteed",
+    "pricing": r"\bpricing\b|\bprice\b|\bcost\b|\bquote\b",
+    "billing": r"\binvoice\b|\bbilling\b|\bcontract\b",
+    "review campaign": r"review campaign",
+}
+
+
+def banned_topics(company_id: str | None) -> list[tuple[str, str]]:
+    """[(label, regex)] this client must not be messaged about, read from the
+    open prohibition notes. Empty when nothing is off-limits."""
+    if not company_id:
+        return []
     try:
         rows = _sb("GET", f"/rest/v1/marketing_ops_notes?company_id=eq.{company_id}"
                    "&status=eq.open&select=body&limit=20") or []
-        return any(str(r.get("body", "")).startswith(("[FROM SANTINO", "[SEND-PREVIEW]"))
-                   for r in rows)
     except Exception:
-        return False
+        return []
+    out: dict[str, str] = {}
+    for r in rows:
+        body = str(r.get("body") or "")
+        for m in _BAN_CLAUSE_RE.finditer(body):
+            clause = m.group("what")
+            for dom in set(_BAN_DOMAIN_RE.findall(clause)) | {
+                    d for d in _BAN_DOMAIN_RE.findall(clause)}:
+                out[dom.lower()] = re.escape(dom)
+            for label, pat in _BAN_TOPICS.items():
+                if re.search(pat, clause, re.I):
+                    out[label] = pat
+    return sorted(out.items())
+
+
+def topic_ban_violation(company_id: str | None, body: str) -> str | None:
+    """Refusal reason when the draft touches an off-limits topic, else None."""
+    for label, pat in banned_topics(company_id):
+        if re.search(pat, body or "", re.I):
+            return (f"an open ops note puts '{label}' off-limits for this "
+                    "client and the draft mentions it — message held (Angie / "
+                    "prorestorationca.com, 2026-07-30 note). Resolve the note "
+                    "when the topic is allowed again.")
+    return None
 
 
 def cadence_check(cs: dict, company: dict, contact: dict | None = None,
@@ -1658,12 +1885,19 @@ def cadence_check(cs: dict, company: dict, contact: dict | None = None,
 
 # ---------------------------------------------------------------- SEND (gated)
 def send_message(contact: dict, channel: str, body: str,
-                 subject: str | None = None) -> dict:
+                 subject: str | None = None,
+                 company: dict | None = None) -> dict:
     """Deliver via GHL POST /conversations/messages. CANARY GATE lives HERE.
 
     The recipient (contact phone for SMS, contact email for Email) must be on
     the CONCIERGE_ALLOWLIST or this function raises SendBlocked. There is no
     override. Callers decide dry-run/--send; this function is the last line.
+
+    LINK GATE (2026-08-04): when `company` is given, every URL of ours in the
+    body is fetched first — a stale one is healed from marketing_sites and an
+    unhealable one raises SendBlocked rather than mailing a client a dead
+    link (FireDEX's Bob: "The link does not work"). Pass company on every
+    client-facing send; the ops pings to Santino's own cell don't need it.
     """
     if os.environ.get("CONCIERGE_PAUSED", "").strip() in ("1", "true", "yes"):
         raise SendBlocked("CONCIERGE_PAUSED is set — Santino paused all "
@@ -1692,6 +1926,15 @@ def send_message(contact: dict, channel: str, body: str,
     # No emoji/astral chars EVER: one emoji flips Twilio to UCS-2 encoding and
     # doubles the segment cost (Santino 2026-07-30).
     body = re.sub(r"[\U0001F000-\U0010FFFF\u2600-\u27bf\ufe0f\u200d]", "", body)
+    # LINK GATE \u2014 heal or refuse. Nothing of ours leaves unfetched.
+    # TOPIC BAN \u2014 an off-limits subject never leaves on any path.
+    if company is not None:
+        body, dead = verify_outbound_links(company, body)
+        if dead:
+            raise SendBlocked(dead)
+        banned = topic_ban_violation(company.get("id"), body)
+        if banned:
+            raise SendBlocked(banned)
     payload: dict = {"type": "SMS" if channel == "sms" else "Email",
                      "contactId": contact["id"]}
     if channel == "sms":
@@ -1722,6 +1965,11 @@ def send_message(contact: dict, channel: str, body: str,
                 "resume.") from e
         raise
     print(f"  SENT {channel} to {recipient} (contact {contact['id']})")
+    # Ops pings to Santino's own cell are not client threads and need no
+    # sent-id bookkeeping; everything else must be recorded (see
+    # sent_id_regression_check).
+    if contact.get("id") not in (OPS_PING_CONTACT_ID, ADVICE_CONTACT_ID):
+        _CLIENT_SENDS["sent"] += 1
     return result or {}
 
 
@@ -1836,20 +2084,63 @@ is useful to us but changes nothing: they still have to send the access.
 Never say we will contact, reach out to, go through, work with, or request
 anything from GoDaddy or any other domain company.
 
-KEEP IT SMALL — the second most important rule. A text that asks for a lot,
-or asks in long dense sentences, gets ignored or scares people off.
-- The character budget is a CEILING, not a target. Shorter always wins.
-- One short sentence of context per ask, then the ask itself. Never explain
-  our process or why our systems need something.
-- Shrink every ask to its minimum viable version and SAY that the minimum is
-  fine: "even 5 names is plenty", "a couple phone photos work great",
-  "whatever you have handy". They can always send more later.
+BE SHORT — this is a HARD RULE, not a preference (Santino 2026-08-04, after
+reading a real thread: "Very concise, ALWAYS, don't overexplain, just ask and
+get the info"). Aim for 160-200 characters. Most messages are ONE or TWO
+short sentences. The ask by itself is usually the whole message.
+- NO PREAMBLE. Don't warm up, don't set the scene, don't announce what the
+  message is about. Start at the point.
+- NO RE-EXPLAINING. If we already said it in this thread, never say it
+  again in other words. One statement of a fact, ever.
+- NO JUSTIFYING OR SELLING THE ASK. Don't explain why we need it, what we'll
+  do with it, how our system uses it, or why it matters. Ask for the thing.
+- NO CLOSING FILLER. Never "let me know if you have questions", "just reply
+  here", "happy to help", "hope that makes sense", "no rush", "thanks
+  again". End on the ask or the answer.
+- NO RESTATING THEIR WORDS. Never summarize back what they told you. Three
+  words of acknowledgment is the maximum ("Got it", "Perfect, thanks").
+- ONE IDEA PER MESSAGE. If a second thought needs a "Also" or "As for", it
+  belongs in a different message on a different day.
+- Shrink every ask to its minimum and say the minimum is fine: "even 5 names
+  is plenty", "whatever you have handy".
 - Never ask for structured data ("name, phone, email, and job type for
-  each") in a text. Ask for the simple human version ("a handful of past
-  customers who'd leave you a review, names and numbers is perfect") and let
-  us sort out the details on our side.
-- One thing per sentence. If the message reads like a to-do list or a form,
-  rewrite it.
+  each"). Ask the human version ("a few past customers, names and numbers is
+  perfect").
+- Answering a question: give the answer in one sentence and stop. Do not add
+  reassurance sentences around it.
+THE ONLY MESSAGES THAT MAY RUN LONGER:
+  (1) FIRST CONTACT — the intro line is required identity, so the message is
+      intro + one ask. Nothing else.
+  (2) A STEP-BY-STEP THE CLIENT EXPLICITLY ASKED FOR ("how do I do that?",
+      "walk me through it") — give the steps bare, numbered or comma'd, with
+      no words wrapped around them.
+Both exceptions are still tight: they earn the extra characters with content
+the client needs, never with explanation.
+
+SHORT-FORM EXAMPLES — these are real drafts Santino rejected as too long,
+with what should have gone out instead. Write like the AFTER column.
+- BEFORE (198): "Good question. Switching the domain just points
+  reign-restoration.com to the new site. It won't touch or cancel your
+  current hosting plan, that stays separate until you decide to cancel it
+  yourself."
+  AFTER (72): "It won't touch your current hosting, that stays separate
+  until you cancel it."
+- BEFORE (282): "That's great, glad you've got reviews rolling in from
+  current and past customers too, that really helps your listing. As for the
+  switch, it won't touch your paid hosting at all. We're just pointing your
+  domain name over to the new site, so nothing on your end gets canceled or
+  lost."
+  AFTER (46): "Perfect, that's a great head start on reviews."
+- BEFORE (192): "Perfect, that helps a lot. Whenever you get a chance, could
+  you pull together your customer list for the review campaign? Doesn't need
+  to be fancy, just names and emails or numbers works fine."
+  AFTER (86): "Can you send over your past customer list? Names and numbers
+  is all we need."
+- BEFORE (241): "Still grabbing the right link for you, I'll get it over
+  shortly. Also circling back on getting access to your Google business
+  listing, the site where you bought your domain like GoDaddy, and your
+  WordPress hosting, whenever you get a chance."
+  AFTER (58): "Still grabbing that link for you, I'll have it shortly."
 
 Rules:
 - Cover AT MOST the items given (they are already priority-ordered). Weave
@@ -1901,12 +2192,14 @@ Rules:
   "Thanks, definitely send those over when you get back into town." When
   the client just COMMITTED to do something later, the entire message is
   that warm forward-pointing close — never a new ask on top of it.
-- SMS: total body within the character budget given. If space is tight, cut
-  an item, not words mid-thought. No subject, no links other than the ones
-  the rules above allow.
-- Email: give a short subject (<= 60 chars) and a slightly fuller body
-  (still under ~140 words), sign off as "Monica, Santino's team at
-  Restoration AI" (no dashes).
+- SMS: the character target given is a real target, not a ceiling to fill.
+  If you are near it, you are overexplaining — cut a sentence, not words
+  mid-thought. No subject, no links other than the ones the rules above
+  allow.
+- Email: short subject (<= 60 chars) and a body that is the SAME short text
+  as the SMS would be (about 60 words, never more), then sign off as
+  "Monica, Santino's team at Restoration AI" (no dashes). Email is not
+  permission to write more.
 
 HISTORY RULES (apply when a "Recent conversation history" block is provided):
 - Match the tone and formality of the prior successful exchanges with this
@@ -1955,16 +2248,35 @@ MEETING INTEL RULES (apply when a "Meeting intel" block is provided):
   we discussed". Reference that the call happened and its tone, never what
   was privately discussed.
 
+BOSS DIRECTIVE RULES (apply when a "DIRECT ORDER FROM SANTINO" block is
+present — Santino 2026-08-04, after filing "Reach out and set a meeting up
+sometime tomorrow or Thursday" and not trusting that it would happen):
+- The order IS the message. Carry it out in this text, in the fewest words
+  that do the job. Nothing else rides along, no other item, no explanation
+  of why you're reaching out.
+- Never mention the note, "Santino asked me to", or that you were told to.
+  Just do it, the way a coworker would.
+- ALREADY DONE CHECK: if the conversation history shows this exact order was
+  already carried out by anyone on our side (Santino texted them the same
+  thing himself, the meeting is already booked), do NOT repeat it. Return
+  "body": "" and list the note in "directive_done" with a one-line reason.
+  Only a genuine match counts; a loosely related older message does not.
+
 Return ONLY a JSON object:
 {"subject": string|null, "body": string,
  "history_answered": [{"item_id": string, "evidence": string}],
- "intel_resolved": [{"item_id": string, "reason": string}]}
+ "intel_resolved": [{"item_id": string, "reason": string}],
+ "directive_done": [{"note_id": string, "reason": string}]}
+"directive_done" is [] unless a boss-directive block was given AND the thread
+already shows it carried out.
 "history_answered" is [] when nothing in the history answers an item;
 "intel_resolved" is [] when no meeting intel excludes an item. If EVERY item
 ends up excluded (history + intel), return "body": "" — there is nothing
-worth nudging about this cycle. EXCEPTION: when an "UNANSWERED CLIENT
+worth nudging about this cycle. EXCEPTIONS: when an "UNANSWERED CLIENT
 MESSAGE" block is present, never return an empty body — answering the
-client comes before, and regardless of, the items.
+client comes before, and regardless of, the items. When a "DIRECT ORDER
+FROM SANTINO" block is present, never return an empty body either, unless
+you are reporting it in "directive_done".
 Keep drafting deterministic: choose the most natural single phrasing, no
 alternatives or commentary."""
 
@@ -1973,6 +2285,220 @@ alternatives or commentary."""
 # tell a client three different stories — Santino 2026-08-04.
 COMPOSE_SYSTEM = COMPOSE_SYSTEM.replace("<<DOMAIN_ACCESS_HOWTO>>",
                                         DOMAIN_ACCESS_HOWTO)
+
+
+# ---------------------------------------------------------------- concision
+SHORTEN_SYSTEM = """\
+You cut a text message down to size. It is already correct and already
+approved in substance — your ONLY job is to make it shorter without losing
+the point.
+Rules:
+- Keep the ask (or the answer) exactly. That is the payload.
+- Delete, in this order: closing filler, justification of the ask, restated
+  versions of what the client said, re-explanations of things already said,
+  scene-setting preamble, adjectives.
+- If two sentences say the same thing, keep the shorter one.
+- Keep every URL EXACTLY as written, character for character, and keep the
+  SAME urls: never shorten one, never swap one for another, never add a link
+  that is not already in the message.
+- Keep it in the same warm, plain, human voice. No em dashes or en dashes,
+  no emojis, no exclamation spam. 6th-grade reading level.
+- Never invent anything, never add a new ask, never add a sign-off.
+- It must read as a finished message, ending on a complete sentence.
+Return ONLY JSON: {"body": string}."""
+
+
+def _sentence_trim(body: str, budget: int) -> str:
+    """Drop whole trailing sentences until the body fits `budget`.
+
+    NEVER a hard chop: the old mid-sentence cut + "…" mailed clients dangling
+    half-thoughts and linkless "your preview is up at…" (Kenneth, Isaac, Jose
+    2026-07-29). If even the first sentence is over budget, send it whole."""
+    sentences = re.split(r"(?<=[.!?])\s+", body)
+    trimmed = ""
+    for s in sentences:
+        if trimmed and len(trimmed) + len(s) + 1 > budget:
+            break
+        trimmed = (trimmed + " " + s).strip()
+    return trimmed or body
+
+
+def _fit_sms(body: str, target: int, ceiling: int,
+             keep_links: list[str] | None = None,
+             label: str = "", attempts: int = 2) -> str:
+    """Bring an SMS draft down to length: shorten (model), then trim
+    (mechanical). Santino 2026-08-04, concision is a hard rule.
+
+    The model drafts to whatever budget it is quoted, so a prompt rule alone
+    never held: this is the enforcement half. Order matters —
+      1. REGENERATE: ask the model to cut its own draft to `target`. The ask
+         usually sits in the LAST sentence, so sentence-trimming first would
+         throw away the payload and keep the preamble.
+      2. TRIM: only if the shortened draft still exceeds `ceiling`, drop
+         whole trailing sentences (_sentence_trim, the pre-existing hook).
+    Every URL already in the draft is protected through both passes, plus
+    anything named in `keep_links` that the draft actually carries; a pass
+    that drops or swaps one is rejected (Coastal 2026-08-04: told a link
+    "must survive" that was not in the draft, the shorten pass helpfully
+    substituted it for the checklist card). The downstream connect-link /
+    preview-link guards are the final belt."""
+    keep_links = [l for l in dict.fromkeys(
+        [_clean_url(u) for u in _URL_RE.findall(body)]
+        + [l for l in (keep_links or []) if l and l in body]) if l]
+    for _ in range(attempts):
+        if len(body) <= ceiling:
+            break
+        before = len(body)
+        try:
+            out = anthropic_json(
+                SHORTEN_SYSTEM,
+                f"Target: {target} characters or fewer (hard ceiling "
+                f"{ceiling}).\nCurrent length: {before}.\n"
+                + ("Links that MUST survive verbatim:\n"
+                   + "\n".join(keep_links) + "\n" if keep_links else "")
+                + f"\nMessage:\n{body}",
+                max_tokens=700)
+            cut = (out.get("body") or "").strip()
+        except Exception as e:  # noqa: BLE001 — never fail a send on the trim
+            print(f"  [concision] shorten call failed: {str(e)[:120]}")
+            break
+        if not cut or len(cut) >= before:
+            break
+        cut_links = {_clean_url(u) for u in _URL_RE.findall(cut)}
+        if any(l not in cut for l in keep_links) or cut_links - set(keep_links):
+            print("  [concision] shorten pass changed the links "
+                  f"({sorted(keep_links)} -> {sorted(cut_links)}) — rejected")
+            break
+        print(f"  [concision]{label} shortened {before} -> {len(cut)} chars "
+              f"(target {target})")
+        body = cut
+    if len(body) > ceiling:
+        before = len(body)
+        body = _sentence_trim(body, ceiling)
+        if len(body) != before:
+            print(f"  [concision]{label} sentence-trimmed {before} -> "
+                  f"{len(body)} chars (ceiling {ceiling})")
+    return body
+
+
+# A client who explicitly asks HOW to do something earns a real answer, and
+# a real answer sometimes has steps in it (the GoDaddy "Invite to Access"
+# walk-through is the case Santino named). This is the ONLY content-driven
+# length exception besides the first-contact intro.
+_STEPS_ASK_RE = re.compile(
+    r"\bhow (?:do|would|can|should|does) (?:i|we|you|that|it)\b"
+    r"|\bwhat (?:do|should) (?:i|we) do\b|\bwhat are the steps\b"
+    r"|\bwalk (?:me|us) through\b|\bwhere (?:do|would|can) (?:i|we)\b"
+    r"|\bsend (?:me |us )?(?:the )?(?:steps|instructions|directions)\b"
+    r"|\b(?:not sure|don'?t know|no idea) how\b|\bshow me how\b"
+    r"|\bstep by step\b", re.I)
+
+
+# ------------------------------------------------------------- link health
+# NEVER SEND AN UNVERIFIED LINK (Santino 2026-08-04): Monica texted FireDEX's
+# Bob https://rankai-firedex-butler.pages.dev and he replied "The link does
+# not work" within minutes. The dead URL had been frozen into the seeded plan
+# row's `target` while marketing_sites already held the corrected one, so the
+# ask carried a stale link nobody had ever fetched. Every URL WE control now
+# gets checked before it can leave the building; a dead one is healed from
+# the live source, and if nothing healthy exists the message does not go.
+_OUR_LINK_HOST_RE = re.compile(
+    r"(?:^|\.)(?:pages\.dev|r2\.dev|restorationai\.io|getrestorationai\.com)$",
+    re.I)
+_URL_RE = re.compile(r"https?://[^\s<>\"'\)\]]+")
+_LINK_HEALTH: dict[str, bool] = {}    # per-run cache; one HEAD per URL
+
+
+def _clean_url(u: str) -> str:
+    return u.rstrip(".,;:!?)]}'\"")
+
+
+def _is_our_link(url: str) -> bool:
+    try:
+        host = urllib.parse.urlsplit(url).hostname or ""
+    except ValueError:
+        return False
+    return bool(_OUR_LINK_HOST_RE.search(host))
+
+
+def url_alive(url: str) -> bool:
+    """Is this URL actually serving? HEAD, then GET for hosts that 405 a HEAD.
+
+    Cached per run. Network failures count as ALIVE (fail-open): a flaky
+    egress must never silence Monica, while a real 404 (the FireDEX case)
+    must always stop the send."""
+    url = _clean_url(url)
+    if url in _LINK_HEALTH:
+        return _LINK_HEALTH[url]
+    ok = True
+    try:
+        r = requests.head(url, timeout=8, allow_redirects=True,
+                          headers={"User-Agent": UA})
+        if r.status_code in (403, 405, 501) or r.status_code >= 500:
+            r = requests.get(url, timeout=10, allow_redirects=True,
+                             headers={"User-Agent": UA}, stream=True)
+        ok = r.status_code < 400
+        if not ok:
+            print(f"  [link-check] DEAD {url} -> HTTP {r.status_code}")
+    except requests.RequestException as e:
+        # DNS NXDOMAIN / connection refused = the site genuinely is not
+        # there; a timeout is our own network and stays fail-open.
+        msg = str(e).lower()
+        if any(k in msg for k in ("nodename", "name or service not known",
+                                  "nxdomain", "failed to resolve",
+                                  "connection refused", "no address")):
+            ok = False
+            print(f"  [link-check] DEAD {url} -> {str(e)[:90]}")
+        else:
+            print(f"  [link-check] inconclusive for {url} ({str(e)[:70]}) — "
+                  "treating as alive")
+    _LINK_HEALTH[url] = ok
+    return ok
+
+
+def live_site_url(company: dict) -> str | None:
+    """The CURRENT preview/staging URL from marketing_sites — the source of
+    truth a stale plan-row target is healed from."""
+    try:
+        rows = _sb("GET", "/rest/v1/marketing_sites?company_id=eq."
+                   f"{company.get('id')}&select=cloudflare_pages_url,domain,"
+                   "apex_live&limit=1") or []
+    except Exception as e:  # noqa: BLE001 — never break a send on a lookup
+        print(f"  [link-check] marketing_sites lookup failed: {str(e)[:90]}")
+        return None
+    row = rows[0] if rows else {}
+    # A live apex beats the staging URL once the domain has actually cut over.
+    apex = str(row.get("domain") or "").strip()
+    if row.get("apex_live") and apex:
+        return apex if apex.startswith("http") else f"https://{apex}"
+    u = str(row.get("cloudflare_pages_url") or "").strip()
+    return u if u.startswith("http") else None
+
+
+def verify_outbound_links(company: dict, body: str) -> tuple[str, str | None]:
+    """Last gate before a send: every URL of OURS in `body` must resolve.
+
+    Returns (body, refusal_reason). Healing is attempted first — a dead
+    pages.dev link is swapped for marketing_sites' current one — and only a
+    link with no healthy replacement refuses the send. Third-party URLs
+    (business.google.com, zoom, godaddy) are never probed."""
+    urls = [_clean_url(u) for u in _URL_RE.findall(body or "")]
+    ours = [u for u in dict.fromkeys(urls) if _is_our_link(u)]
+    if not ours:
+        return body, None
+    healed = live_site_url(company)
+    for u in ours:
+        if url_alive(u):
+            continue
+        if healed and healed != u and url_alive(healed):
+            body = body.replace(u, healed)
+            print(f"  [link-check] healed {u} -> {healed} "
+                  "(marketing_sites is the source of truth)")
+            continue
+        return body, (f"dead link in the draft: {u} does not resolve and no "
+                      "healthy replacement is on file — message held (Bob at "
+                      "FireDEX got a dead preview link 2026-08-04)")
+    return body, None
 
 
 def gbp_photo_count(company: dict) -> int | None:
@@ -2139,7 +2665,8 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
                   sister_names: list[str] | None = None,
                   pending_reply: dict | None = None,
                   commitment: dict | None = None,
-                  preview_url: str | None = None) -> dict:
+                  preview_url: str | None = None,
+                  directives: list[dict] | None = None) -> dict:
     chosen = items[:FIRST_CONTACT_MAX_ITEMS if first_contact
                    else MAX_ITEMS_PER_MESSAGE]
     # LAUNCH-BLOCKER PAIR (Santino 2026-08-03, his explicit design and the
@@ -2167,11 +2694,23 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
         detail = (it["detail"] or "")[:300]
         lines.append(f"{i}. id={it['id']} [{it['kind']}] {it['text']}"
                      + (f" — context: {detail}" if detail else ""))
-    sms_budget = SMS_MAX_CHARS_FIRST if first_contact else SMS_MAX_CHARS
-    # Quote the model a smaller budget than we enforce: it drafts to the
-    # ceiling, and the safety clip mid-sentence reads worse than a tighter
-    # draft. The clip at sms_budget then almost never fires.
-    stated_budget = sms_budget - 60
+    # LENGTH CLASS (Santino 2026-08-04, concision is a hard rule). Normal
+    # messages get the tight target; the two exceptions are first contact
+    # (the intro line is required identity) and a step-by-step the client
+    # explicitly asked for. The model is told the TARGET; _fit_sms enforces
+    # the ceiling afterwards.
+    steps_wanted = bool(
+        pending_reply
+        and _STEPS_ASK_RE.search(str((pending_reply or {}).get("body", ""))))
+    if first_contact:
+        stated_budget, sms_budget = SMS_TARGET_CHARS_FIRST, SMS_MAX_CHARS_FIRST
+        budget_class = "first-contact"
+    elif steps_wanted:
+        stated_budget, sms_budget = SMS_TARGET_CHARS_STEPS, SMS_MAX_CHARS_STEPS
+        budget_class = "steps-requested"
+    else:
+        stated_budget, sms_budget = SMS_TARGET_CHARS, SMS_MAX_CHARS
+        budget_class = "normal"
     # Office/day-to-day preferred contact gets the "finish {Company}'s setup"
     # intro — it's not their account, they're helping us finish the setup.
     if messaging_target(company).get("role") == "office":
@@ -2273,6 +2812,51 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
             "shared 15-minute call to knock out both together (we guide, "
             "they just hold the phone). Never add anything else to this "
             "message.\n")
+    # DIRECT ORDER FROM SANTINO (2026-08-04): an open ops note that reads as
+    # an instruction to contact this client. It outranks the outstanding
+    # items — he asked for it, so it is the message.
+    directive_block = ""
+    if directives:
+        dlines = "\n".join(
+            f"  note_id={d['id']} (filed {str(d.get('created_at'))[:16]} UTC): "
+            + str(d.get("body", "")).strip()[:600] for d in directives)
+        directive_block = (
+            "\nDIRECT ORDER FROM SANTINO — he wrote this himself in the ops "
+            "board and it is the reason this message is going out now:\n"
+            + dlines + "\n"
+            "Carry it out in THIS message. It is the whole purpose: no other "
+            "item rides along, no explanation of why you're reaching out, no "
+            "mention of the note or of being asked. Say it the way a coworker "
+            "would, in the fewest words that do the job. If the order names a "
+            "day or a time frame, use it. If the conversation history already "
+            "shows this exact thing was done by someone on our side, return "
+            "an empty body and report the note_id in \"directive_done\" "
+            "instead of repeating it.\n")
+    # OFF-LIMITS TOPICS (2026-08-04): the open prohibition notes, restated as
+    # a hard exclusion instead of hoping the model reads them inside the
+    # intel blob (it drafted the domain ask at Angie anyway). The send-time
+    # topic_ban_violation() guard is the belt.
+    ban_block = ""
+    bans = banned_topics(company.get("id"))
+    if bans:
+        ban_block = (
+            "\nOFF-LIMITS FOR THIS CLIENT — Santino has these topics banned "
+            "in an open ops note: " + ", ".join(l for l, _ in bans) + ".\n"
+            "Do not mention them, hint at them, or ask anything that touches "
+            "them, even if an outstanding item below is about one. Drop that "
+            "item silently and write about something else; if nothing else "
+            "remains, return an empty body. A message that touches a banned "
+            "topic is blocked before it sends, so it wastes the cycle.\n")
+    steps_block = ""
+    if steps_wanted:
+        steps_block = (
+            "\nTHEY ASKED HOW — the client's message asks how to do "
+            "something, so this message may carry the actual steps. Give the "
+            "steps bare and numbered, plain words, no jargon, and NOTHING "
+            "wrapped around them: no preamble, no reassurance, no closing. "
+            "If the task is genuinely hands-on for a non-technical client, "
+            "the better answer is one line offering a 15-minute call to do it "
+            "together, which is shorter still.\n")
     commit_block = ""
     if commitment:
         commit_block = (
@@ -2306,7 +2890,8 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
             f"\nPhoto upload link for THIS client: {photo_link}\n"
             "Whenever you ask for photos, include that exact link as the way "
             "to send them (\"here's a link that uploads straight from your "
-            "phone\"), and add that texting them here works too.\n")
+            "phone\"). Do not also explain that texting works, do not "
+            "describe what happens to the photos.\n")
         n_photos = gbp_photo_count(company)
         if n_photos is not None and n_photos >= 20:
             photo_block += (
@@ -2386,7 +2971,12 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
     user = (f"Client: {company['name']} (first name: {first_name})\n"
             f"Today's date: {today}\n"
             f"{lsa_line}\n"
-            f"Channel: {channel} (character budget for SMS: {stated_budget})\n"
+            f"Channel: {channel} (LENGTH TARGET: {stated_budget} characters "
+            f"or fewer, class={budget_class}"
+            + (", and the email body is the same short text plus the sign-off"
+               if channel == "email" else "")
+            + ". This is a target to come in UNDER, not a quota to fill. A "
+            "one-sentence message is a good message.)\n"
             f"FIRST CONTACT: {'yes' if first_contact else 'no'}\n"
             + name_line
             + sister_block
@@ -2395,7 +2985,10 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
             + history_block
             + intel_block
             + appt_block
+            + ban_block
+            + directive_block
             + pending_block
+            + steps_block
             + pair_block
             + commit_block
             + preview_block
@@ -2406,18 +2999,13 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
             f"nothing else):\n" + "\n".join(lines))
     draft = anthropic_json(COMPOSE_SYSTEM, user)
     body = (draft.get("body") or "").strip()
-    if channel == "sms" and len(body) > sms_budget:
-        # NEVER hard-chop: the old mid-sentence cut + "…" mailed clients
-        # dangling half-thoughts and linkless "your preview is up at…"
-        # (Kenneth, Isaac, Jose — 2026-07-29). Drop whole trailing sentences
-        # instead; if even the first sentence is over budget, send it whole.
-        sentences = re.split(r"(?<=[.!?])\s+", body)
-        trimmed = ""
-        for s in sentences:
-            if trimmed and len(trimmed) + len(s) + 1 > sms_budget:
-                break
-            trimmed = (trimmed + " " + s).strip()
-        body = trimmed or body
+    # CONCISION GUARD (Santino 2026-08-04): shorten (model) then trim
+    # (mechanical). Links stay verbatim through both passes.
+    if channel == "sms" and body:
+        body = _fit_sms(body, stated_budget, sms_budget,
+                        keep_links=[preview_url if lead_preview else "",
+                                    connect_link or "", photo_link or ""],
+                        label=f" [{budget_class}]")
 
     # GBP-CONNECT LINK GUARD (the "must not pass" half of the rule): a
     # Google-connect ask never goes out linkless. If the draft (or the
@@ -2462,14 +3050,23 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
         return [f for f in (draft.get(key) or [])
                 if isinstance(f, dict) and f.get("item_id")]
 
+    done_ids = {str(d["id"]) for d in (directives or [])}
+    directive_done = [f for f in (draft.get("directive_done") or [])
+                      if isinstance(f, dict)
+                      and str(f.get("note_id")) in done_ids]
     return {"subject": (draft.get("subject") or None), "body": body,
             "items": chosen, "history_answered": _flags("history_answered"),
-            "intel_resolved": _flags("intel_resolved")}
+            "intel_resolved": _flags("intel_resolved"),
+            "directive_done": directive_done}
 
 
 def _companies_with_items() -> list[str]:
     ids = {r["company_id"] for r in fetch_pending_intake()}
     ids |= {r["company_id"] for r in fetch_open_asks()}
+    # A boss directive is reason enough to compose even with an empty item
+    # list: Santino's "Reach out and set a meeting up" order (ProRestoration,
+    # 2026-08-04) must never depend on there happening to be an open ask.
+    ids |= set(_companies_with_directives())
     return sorted(i for i in ids if i)
 
 
@@ -2664,14 +3261,38 @@ def cmd_compose(args) -> int:
         else:
             print(f"Open commitment to deliver: "
                   f"{str(commitment.get('promise', ''))[:80]!r}")
-    owed = bool(pending or commitment)
+    # BOSS DIRECTIVES (Santino 2026-08-04): an open ops note ordering Monica
+    # to contact this client. Fetched for the primary AND any merged sister,
+    # so an order filed on either half of a same-owner pair still lands.
+    directives = open_boss_directives(args.company)
+    for scid in merge_with:
+        directives += open_boss_directives(scid)
+    if directives:
+        print(f"Boss directive(s) open: {len(directives)} — "
+              + "; ".join(str(d.get("body", ""))[:70] for d in directives))
+        print("  (cooldown, nudge cap and the human-defer window are all "
+              "bypassed — acting on his order is not a nudge)")
+    owed = bool(pending or commitment or directives)
     if not items and not owed:
         print(f"{company['name']}: nothing outstanding — no message needed.")
         return 0
 
     # Never talk over a human: newest outbound not sent by the concierge and
     # <12h old means Santino (or someone on the team) is mid-conversation.
+    # HIS OWN DIRECTIVE OVERRIDES HIS OWN DEFER (Santino 2026-08-04): he
+    # filed "Reach out and set a meeting up sometime tomorrow or Thursday"
+    # on ProRestoration at 19:58, then texted Angie himself at 22:23 — which
+    # correctly armed the 12h defer and would have buried his own order until
+    # the next morning. He asked for the outreach, so it is not an
+    # interruption. Any OTHER client's human conversation still defers
+    # exactly as before; the bypass is scoped to the company that carries the
+    # directive, and the draft is told to stand down if the thread already
+    # shows the order was carried out.
     defer_reason = human_conversation_deferral(history, state)
+    if defer_reason and directives:
+        print(f"\n[human-defer overridden by Santino's own directive: "
+              f"{defer_reason}]")
+        defer_reason = None
     if defer_reason:
         print(f"\nDEFERRED: {defer_reason}")
         append_escalation(company, None, defer_reason, dry_run=not args.send,
@@ -2684,7 +3305,7 @@ def cmd_compose(args) -> int:
 
     if args.send:
         gate = cadence_check(cs, company, contact,
-                             boss_override=has_boss_directive(company.get("id")),
+                             boss_override=bool(directives),
                              client_waiting=owed)
         if gate:
             print(f"[gated, no draft: {gate}]")
@@ -2790,7 +3411,22 @@ def cmd_compose(args) -> int:
     draft = compose_draft(company, first, items, args.channel, first_contact,
                           history=history, intel=intel, appointments=appts,
                           sister_names=sister_names, pending_reply=pending,
-                          commitment=commitment, preview_url=preview_url)
+                          commitment=commitment, preview_url=preview_url,
+                          directives=directives)
+    # A directive the thread shows was ALREADY carried out (Santino texted
+    # them the same thing himself) is closed instead of repeated.
+    if draft.get("directive_done"):
+        done_ids = {str(f.get("note_id")) for f in draft["directive_done"]}
+        already = [d for d in directives if str(d["id"]) in done_ids]
+        for f in draft["directive_done"]:
+            print(f"[directive already handled by a human: "
+                  f"{str(f.get('reason'))[:120]}]")
+        if args.send:
+            resolve_directives(already, why="already done by a human")
+        directives = [d for d in directives if str(d["id"]) not in done_ids]
+        # The bypass the directive granted dies with it: if nothing else is
+        # owed, this send goes back under the normal cooldown.
+        owed = bool(pending or commitment or directives)
     print("\n" + "=" * 62)
     if draft["subject"] and args.channel == "email":
         print(f"Subject: {draft['subject']}")
@@ -2846,7 +3482,7 @@ def cmd_compose(args) -> int:
         return 0
 
     reason = cadence_check(cs, company, contact,
-                           boss_override=has_boss_directive(company.get("id")),
+                           boss_override=bool(directives),
                            client_waiting=owed)
     if reason:
         print(f"\nSEND REFUSED (cadence): {reason}", file=sys.stderr)
@@ -2854,6 +3490,21 @@ def cmd_compose(args) -> int:
     if not contact:
         print("\nSEND REFUSED: no GHL contact resolved", file=sys.stderr)
         return 1
+    # LINK GATE (2026-08-04): heal a stale URL from marketing_sites, and
+    # never mail a client a link that does not resolve.
+    draft["body"], dead_link = verify_outbound_links(company, draft["body"])
+    if dead_link:
+        print(f"\nSEND REFUSED (link check): {dead_link}", file=sys.stderr)
+        append_escalation(company, None,
+                          f"held a message with a dead link: {dead_link}",
+                          False, ping=True)
+        return 0
+    banned = topic_ban_violation(company.get("id"), draft["body"])
+    if banned:
+        print(f"\nSEND REFUSED (topic ban): {banned}", file=sys.stderr)
+        append_escalation(company, None, f"off-limits topic in a draft: "
+                          f"{banned}", False)
+        return 0
     if grounding:
         print(f"\nSEND REFUSED (outbound guard): {grounding}", file=sys.stderr)
         append_escalation(company, None,
@@ -2870,7 +3521,7 @@ def cmd_compose(args) -> int:
     channel_used = args.channel
     try:
         result = send_message(contact, args.channel, draft["body"],
-                              draft["subject"])
+                              draft["subject"], company=company)
     except SendBlocked as e:
         # A tripped gate (canary allowlist, DND, paused) is the guardrail
         # WORKING, not an outage — returning 1 here failed the whole
@@ -2889,7 +3540,7 @@ def cmd_compose(args) -> int:
                   f"({contact.get('email')})", file=sys.stderr)
             try:
                 result = send_message(contact, "email", draft["body"],
-                                      draft["subject"])
+                                      draft["subject"], company=company)
                 channel_used = "email"
             except SendBlocked as e2:
                 print(f"SEND BLOCKED (email fallback too): {e2}",
@@ -2925,20 +3576,13 @@ def cmd_compose(args) -> int:
                "nudge_count": cs.get("nudge_count", 0) + 1,
                "last_channel": channel_used})
     save_state(state, dry_run=False)
-    # One-shot boss directives ([FROM SANTINO...], [SEND-PREVIEW]) are acted on
-    # by THIS send — resolve them so the cadence bypass they grant can't keep
-    # firing on every future compose (they'd otherwise stay open until Santino
-    # manually hit Done, re-bypassing the cooldown daily).
-    try:
-        dnotes = _sb("GET", f"/rest/v1/marketing_ops_notes?company_id=eq.{company['id']}"
-                     "&status=eq.open&select=id,body&limit=20") or []
-        for n in dnotes:
-            if str(n.get("body", "")).startswith(("[FROM SANTINO", "[SEND-PREVIEW]")):
-                _sb("PATCH", f"/rest/v1/marketing_ops_notes?id=eq.{n['id']}",
-                    {"status": "resolved", "resolved_at": now})
-                print(f"  [directive] acted on + resolved: {n['body'][:70]!r}")
-    except Exception as e:  # bookkeeping must never fail the send
-        print(f"  [directive] resolve failed: {str(e)[:100]}")
+    # One-shot boss directives are acted on by THIS send — resolve them so
+    # the cadence bypass they grant can't keep firing on every future compose
+    # (they'd otherwise stay open until Santino manually hit Done,
+    # re-bypassing the cooldown hourly). Standing CONSTRAINT notes ("Do NOT
+    # mention the domain to Angie") are never directives and are never
+    # touched here: they stay open and keep riding into compose as intel.
+    resolve_directives(directives)
     return 0
 
 
@@ -2981,10 +3625,12 @@ def preview_compose(company_id: str, channel: str = "sms") -> dict:
         first_contact = False
     pending = pending_client_message(cs, history, state)
     commitment = cs.get("pending_commitment") or None
-    owed = bool(pending or commitment)
-    gate = (human_conversation_deferral(history, state)
+    directives = open_boss_directives(company_id)
+    owed = bool(pending or commitment or directives)
+    # A boss directive overrides his own human-defer (see cmd_compose).
+    gate = ((None if directives else human_conversation_deferral(history, state))
             or cadence_check(cs, company, contact,
-                             boss_override=has_boss_directive(company_id),
+                             boss_override=bool(directives),
                              client_waiting=owed))
     if not items and not owed:
         return {"company": company.get("name"), "channel": channel,
@@ -3002,7 +3648,7 @@ def preview_compose(company_id: str, channel: str = "sms") -> dict:
     draft = compose_draft(company, first, items, channel, first_contact,
                           history=history, intel=intel, appointments=appts,
                           pending_reply=pending, commitment=commitment,
-                          preview_url=preview_url)
+                          preview_url=preview_url, directives=directives)
     return {"company": company.get("name"), "channel": channel, "gate": gate,
             "draft": draft["body"], "subject": draft.get("subject"),
             "items": [i["text"] for i in draft.get("items", [])]}
@@ -3061,7 +3707,8 @@ def send_now(company_id: str, channel: str = "sms") -> dict:
         first_contact = False
     pending = pending_client_message(cs, history, state)
     commitment = cs.get("pending_commitment") or None
-    if not items and not (pending or commitment):
+    directives = open_boss_directives(company_id)
+    if not items and not (pending or commitment or directives):
         return {**base, "sent": False,
                 "reason": "nothing outstanding — no message to send"}
     intel = load_meeting_intel(company)
@@ -3073,12 +3720,25 @@ def send_now(company_id: str, channel: str = "sms") -> dict:
     draft = compose_draft(company, first, items, channel, first_contact,
                           history=history, intel=intel, appointments=appts,
                           pending_reply=pending, commitment=commitment,
-                          preview_url=preview_url)
+                          preview_url=preview_url, directives=directives)
+    if draft.get("directive_done"):
+        done_ids = {str(f.get("note_id")) for f in draft["directive_done"]}
+        resolve_directives([d for d in directives if str(d["id"]) in done_ids],
+                           why="already done by a human")
+        directives = [d for d in directives if str(d["id"]) not in done_ids]
     body = draft["body"]
     if not body:
         return {**base, "sent": False,
                 "reason": "compose produced nothing (every item excluded "
                           "by history/meeting intel)"}
+    body, dead_link = verify_outbound_links(company, body)
+    if dead_link:
+        return {**base, "sent": False, "body": body,
+                "reason": f"link check: {dead_link}"}
+    banned = topic_ban_violation(company_id, body)
+    if banned:
+        return {**base, "sent": False, "body": body,
+                "reason": f"topic ban: {banned}"}
     grounding = outbound_guard(body, _evidence_slice(intel))
     if grounding:
         return {**base, "sent": False, "body": body,
@@ -3090,12 +3750,14 @@ def send_now(company_id: str, channel: str = "sms") -> dict:
     channel_used = channel
     try:
         try:
-            result = send_message(contact, channel, body, draft["subject"])
+            result = send_message(contact, channel, body, draft["subject"],
+                                  company=company)
         except SendBlocked as e:
             # same DND fallback as the scheduled compose path
             if ("DND active" in str(e) and channel == "sms"
                     and (contact.get("email") or "").strip()):
-                result = send_message(contact, "email", body, draft["subject"])
+                result = send_message(contact, "email", body,
+                                      draft["subject"], company=company)
                 channel_used = "email"
             else:
                 raise
@@ -3122,15 +3784,7 @@ def send_now(company_id: str, channel: str = "sms") -> dict:
                "nudge_count": cs.get("nudge_count", 0) + 1,
                "last_channel": channel_used})
     save_state(state, dry_run=False)
-    try:  # one-shot boss directives are satisfied by this send too
-        dnotes = _sb("GET", f"/rest/v1/marketing_ops_notes?company_id=eq.{company_id}"
-                     "&status=eq.open&select=id,body&limit=20") or []
-        for n in dnotes:
-            if str(n.get("body", "")).startswith(("[FROM SANTINO", "[SEND-PREVIEW]")):
-                _sb("PATCH", f"/rest/v1/marketing_ops_notes?id=eq.{n['id']}",
-                    {"status": "resolved", "resolved_at": now})
-    except Exception as e:  # noqa: BLE001
-        print(f"  [directive] resolve failed: {str(e)[:100]}")
+    resolve_directives(directives)  # one-shot: satisfied by this send
     return {**base, "sent": True, "body": body, "channel_used": channel_used}
 
 
@@ -3335,8 +3989,12 @@ response, does it need escalation, and what should the response be):
   "response_needed": "none" | "acknowledge" | "answer" | "answer_by_boss",
   "suggested_reply": the exact reply Monica should send, or null when
                      response_needed is "none"}
-suggested_reply rules — Monica's voice: warm, brief (under 300 characters),
-plain 6th-grade words, NEVER em or en dashes (use a comma or period), no
+suggested_reply rules — Monica's voice: warm, and SHORT (Santino
+2026-08-04, hard rule): aim 160-200 characters, never over 260. One or two
+short sentences. No preamble, no re-explaining what we already said, no
+justifying the ask, no closing filler, no restating their words back. The
+ask or the answer is the whole message.
+Plain 6th-grade words, NEVER em or en dashes (use a comma or period), no
 emojis, no canned filler ("Perfect, thanks for getting back to me" is
 banned). Respond to what they SAID. When they are stuck ("I don't know how
 to..."), do the FIRST STEP of the walk-through right now: ask ONE simple
@@ -3405,6 +4063,12 @@ REPLY_SYSTEM = """\
 You are Monica from Santino's team at Restoration AI, replying after a
 client answered something. Voice: warm, brief, human. NEVER use em dashes or en
 dashes; use a comma or a period instead.
+- BE SHORT — hard rule (Santino 2026-08-04). One or two short sentences,
+  160-200 characters. No preamble, no re-explaining anything already said in
+  the thread, no justifying the ask, no closing filler ("let me know if you
+  have questions", "happy to help"), no restating their words back at them.
+  Answer or ask, then stop. Example of the right size: "Got it. Can you send
+  over your past customer list? Names and numbers is all we need."
 - This is mid-conversation: do NOT open with their name ("Hey Todd," /
   "Thanks, Todd,") — start with content: "Got it...", "Sounds good...",
   "Perfect..." (Santino 2026-08-02: names at most once per day).
@@ -3433,7 +4097,7 @@ dashes; use a comma or a period instead.
   send it (GoDaddy: account.godaddy.com/access, Invite to Access, to
   <<DOMAIN_ACCESS_INVITE_EMAIL>>) or offer a 15-minute call to do it
   together.
-SMS-length: <= 450 chars. No emojis.
+SMS-length: aim 200 chars, never over 260. No emojis.
 Return ONLY JSON: {"body": string}."""
 
 # Same single-source substitution as COMPOSE_SYSTEM (2026-08-04).
@@ -4159,8 +4823,9 @@ You are Monica from Santino's team at Restoration AI, replying to a client
 who asked to move an upcoming call. Voice: warm, human, like a real scheduler.
 NEVER use em dashes or en dashes; use a comma or a period instead. Confirm moving is no problem, then offer
 the provided slot options (their local time) — lead with the first. Ask them
-to pick one or say what works better. CONCISE: 2-3 sentences, <= 320 chars,
-no emojis, no corporate filler.
+to pick one or say what works better. CONCISE (hard rule, Santino
+2026-08-04): 2 short sentences, <= 220 chars, no emojis, no corporate
+filler, no closing line.
 Return ONLY JSON: {"body": string}"""
 
 RESCHEDULE_PICK_SYSTEM = """\
@@ -4264,12 +4929,13 @@ def handle_reschedule_request(company: dict, contact: dict, preference: str,
                            f"Their current call: {_fmt_slot(cur.isoformat())}\n"
                            f"Their stated preference: {preference or 'unspecified'}\n"
                            f"Slot options (their local time): {', '.join(labels)}")
-    body = (draft.get("body") or "").strip()
-    print(f"    RESCHEDULE OFFER -> {body!r}")
+    body = _fit_sms((draft.get("body") or "").strip(), 220, 260,
+                    label=" [reschedule]")
+    print(f"    RESCHEDULE OFFER ({len(body)} chars) -> {body!r}")
     if dry_run:
         print(f"    [dry-run] offers: {labels}")
         return
-    res = send_message(contact, "sms", body)
+    res = send_message(contact, "sms", body, company=company)
     record_sent_message(state, res)
     cs = company_state(state, company["id"])
     cs["pending_reschedule"] = {
@@ -4313,7 +4979,7 @@ def handle_reschedule_reply(company: dict, contact: dict, msg: dict,
                 return True
             confirm = (f"You're all set, moved to {_fmt_slot(picked)}. "
                        "Talk to you then!")
-            res = send_message(contact, "sms", confirm)
+            res = send_message(contact, "sms", confirm, company=company)
             record_sent_message(state, res)
             cs.pop("pending_reschedule", None)
             append_escalation(company, None,
@@ -4737,7 +5403,11 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
             f"Client first name: {contact_first_name(None, company)}\n"
             f"They just said (one burst, oldest first): {combined}\n{nxt}")
         body_out = (reply.get("body") or "").strip()
-        print(f"    reply draft: {body_out!r}")
+        # Concision is a hard rule on EVERY path, not just compose
+        # (Santino 2026-08-04).
+        body_out = _fit_sms(body_out, SMS_TARGET_CHARS, SMS_MAX_CHARS,
+                            label=" [inline-reply]")
+        print(f"    reply draft ({len(body_out)} chars): {body_out!r}")
         # Inline replies carry no ledger context: any DONE-claim about
         # reviews/posts/requests is unsupported by construction — the
         # compose backstop (which has the ledger) takes over instead. The
@@ -4770,7 +5440,8 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
                        "phone": target.get("cell") or company.get("phone"),
                        "email": target.get("email") or company.get("email")}
             try:
-                sent = send_message(contact, channel, body_out)
+                sent = send_message(contact, channel, body_out,
+                                    company=company)
                 record_sent_message(state, sent)
                 if kind == "answer":
                     # the follow-through went out — nothing pending. A
@@ -5098,7 +5769,10 @@ REGISTRAR TRUTH (hard rule, 2026-08-04): we can never get access to a
 client's domain ourselves — no registrar offers that. Never say we will
 reach out to, contact or go through GoDaddy (or any domain company). The
 client sends us access, or we do it together on a short call.
-One or two short sentences, under 220 characters.
+BE SHORT — hard rule (Santino 2026-08-04): ONE short sentence is the target,
+two is the maximum, under 160 characters. No preamble, no re-explaining, no
+justifying, no closing filler, no restating their words. "Give me a second,
+grabbing the right link for you." is a complete, good text.
 Return ONLY JSON: {"body": string}."""
 
 # COMMITMENT FOLLOW-THROUGH (Santino 2026-08-02: the ack drafted "I'll walk
@@ -5183,7 +5857,9 @@ def _maybe_send_ack(state: dict, company: dict, contact_id: str, msg: dict,
     if not text:
         text = ("Let me look into that and get right back to you."
                 if needs_answer else "Got it, thank you.")
-    print(f"    ack draft: {text!r}")
+    # A holding line is the shortest message Monica ever sends: one sentence.
+    text = _fit_sms(text, 160, 200, label=" [ack]")
+    print(f"    ack draft ({len(text)} chars): {text!r}")
     grounding = outbound_guard(text, None)
     if grounding:
         print(f"    [ack blocked by outbound guard: {grounding}]")
@@ -5200,7 +5876,8 @@ def _maybe_send_ack(state: dict, company: dict, contact_id: str, msg: dict,
                "phone": target.get("cell") or company.get("phone"),
                "email": target.get("email") or company.get("email")}
     try:
-        sent = send_message(contact, msg.get("channel") or "sms", text)
+        sent = send_message(contact, msg.get("channel") or "sms", text,
+                            company=company)
         record_sent_message(state, sent)
         acks[contact_id] = today
         _record_commitment(cs, text, body, dry_run)
@@ -5303,9 +5980,97 @@ def cmd_canary(args) -> int:
 
 
 # ---------------------------------------------------------------- main
+# ---------------------------------------------------------------- selfcheck
+# Offline regression cases for the two classifiers that decide whether Monica
+# ACTS on a note and whether a message is too long. No network, no API keys —
+# `python3 scripts/client_concierge.py selfcheck` runs in a second and is the
+# fastest way to prove a prompt/regex edit did not move the boundaries.
+_DIRECTIVE_CASES: list[tuple[str, str, bool]] = [
+    # (body, author, is_directive)
+    ("Reach out and set a meeting up sometime tomorrow or Thursday.",
+     "santino", True),                       # the note that started this
+    ("Monica: ask them for the original files instead", "santino", True),
+    ("Still waiting on their YouTube connection — make it a priority",
+     "santino", True),                       # the app's own placeholder
+    ("Please follow up on the insurance certificate", "santino", True),
+    ("Need Quality Contracting's logo. Ask for a clean file via the hub.",
+     "santino", True),
+    ("[FOR MONICA] Ask TRG to add contact@restorationai.io as a MANAGER",
+     "santino", True),
+    ("[FROM SANTINO] Reply to Angie by SMS", "santino", True),
+    ("[SEND-PREVIEW] Approved by Santino: text the client their preview",
+     "santino", True),
+    # constraints and context — must NEVER grant a cadence bypass
+    ("Do NOT mention prorestorationca.com, the domain, or registrar access "
+     "to Angie in ANY message.", "santino", False),
+    ("Do NOT ask Jose to confirm services or about wanting LSA.",
+     "santino", False),
+    ("Greg provided his review campaign list already", "santino", False),
+    ("Wants to add MICRO Certified to hero section badges", "santino", False),
+    ("We have outreach to Brian regarding access to the domain and are just "
+     "waiting for his response. Called Multiple times. Have now sent an "
+     "email.", "santino", False),
+    ("FLAG (app bug, dev task): Ops Attention 'Address now' lands on a "
+     "spinner", "claude (bug report from Santino)", False),
+    # machine tags in other lanes
+    ("[LSA-INTENT] YES — set from Ops Attention.", "santino", False),
+    ("[DEV] rebuild the hero section", "santino", False),
+    ("[TODO-SANTINO] decide on the LSA cleanup", "santino", False),
+    ("[CONTACT RECEIVED] Ed Barnes, +18055551212", "santino", False),
+    ("Client sent a case study via webhook: queued for the content engine",
+     "webhook", False),
+]
+
+
+def cmd_selfcheck(_args) -> int:
+    fails = 0
+    print("directive classifier:")
+    for body, author, want in _DIRECTIVE_CASES:
+        got = is_boss_directive({"body": body, "author": author})
+        ok = got == want
+        fails += not ok
+        print(f"  {'ok  ' if ok else 'FAIL'} {str(got):<5} {body[:64]!r}")
+    print("\nlength constants:")
+    checks = [
+        ("normal target under 210", SMS_TARGET_CHARS <= 210),
+        ("normal ceiling under 280", SMS_MAX_CHARS <= 280),
+        ("first-contact leaves room for the intro",
+         SMS_TARGET_CHARS_FIRST >= len(INTRO_TEMPLATE.format(
+             first="Christopher", name=ASSISTANT_NAME, brand=BRAND_NAME)) + 60),
+        ("ceilings above targets",
+         SMS_MAX_CHARS > SMS_TARGET_CHARS
+         and SMS_MAX_CHARS_FIRST > SMS_TARGET_CHARS_FIRST
+         and SMS_MAX_CHARS_STEPS > SMS_TARGET_CHARS_STEPS),
+    ]
+    for label, ok in checks:
+        fails += not ok
+        print(f"  {'ok  ' if ok else 'FAIL'} {label}")
+    print("\nsentence trim never cuts mid-sentence:")
+    body = ("First sentence here. Second sentence is longer than the rest. "
+            "Third one trails off.")
+    trimmed = _sentence_trim(body, 40)
+    ok = trimmed.endswith(".") and len(trimmed) <= max(40, len(body.split(". ")[0]) + 1)
+    fails += not ok
+    print(f"  {'ok  ' if ok else 'FAIL'} {trimmed!r}")
+    print("\nsteps exception fires only on an explicit how-question:")
+    for text, want in [("How do I do that?", True),
+                       ("Walk me through it", True),
+                       ("I don't know how to export that", True),
+                       ("Yes its with GoDaddy", False),
+                       ("Sounds good, thanks", False)]:
+        got = bool(_STEPS_ASK_RE.search(text))
+        ok = got == want
+        fails += not ok
+        print(f"  {'ok  ' if ok else 'FAIL'} {str(got):<5} {text!r}")
+    print(f"\n{'ALL GREEN' if not fails else str(fails) + ' FAILURE(S)'}")
+    return 1 if fails else 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     sub = ap.add_subparsers(dest="cmd", required=True)
+
+    sub.add_parser("selfcheck", help="offline regression cases (no network)")
 
     sub.add_parser("status", help="table of clients with outstanding items")
 
@@ -5329,6 +6094,8 @@ def main() -> int:
     pk.add_argument("--channel", choices=("sms", "email"), default="sms")
 
     args = ap.parse_args()
+    if args.cmd == "selfcheck":
+        return cmd_selfcheck(args)      # offline: no env, no network
     load_env()
     need = ["SUPABASE_URL", "SUPABASE_SERVICE_ROLE_KEY"]
     if args.cmd != "status":
@@ -5344,9 +6111,11 @@ def main() -> int:
               "+18556484464 (the toll-free) before any real send.",
               file=sys.stderr)
     ret = {"status": cmd_status, "compose": cmd_compose,
-           "inbound": cmd_inbound, "canary": cmd_canary}[args.cmd](args)
+           "inbound": cmd_inbound, "canary": cmd_canary,
+           "selfcheck": cmd_selfcheck}[args.cmd](args)
     if args.cmd in ("compose", "inbound"):
         flush_ops_pings(dry_run=not getattr(args, "send", False))
+    sent_id_regression_check()
     return ret
 
 
