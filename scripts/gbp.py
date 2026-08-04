@@ -537,13 +537,25 @@ def import_gbp_media(slug: str, cap: int = 40) -> str:
     return f"{slug}: {imported} GBP photo(s) imported into rotation ({scanned} scanned)"
 
 
+def _stored_review_count(slug: str) -> int:
+    """review_count already on the profile row — the cheap 'reviews exist' check."""
+    cid = company_id_for(slug)
+    rows = _sb(f"marketing_gbp_profiles?company_id=eq.{cid}&select=review_count") if cid else []
+    return (rows[0].get("review_count") or 0) if rows else 0
+
+
 def cmd_reviews(args) -> int:
     for slug in _clients(args):
         try:
             out = sync_reviews_v4(slug)
         except Exception as e:
             out = f"{slug}: v4 failed ({str(e)[:100]})"
-        if "no token" in out or "v4 failed" in out:
+        # DFS fallback also covers the v4 empty-{} account quirk (ProRestoration
+        # 2026-08-04: v4 returns 200 {} on its personal-account connection while
+        # the listing really shows 4.8/105) — but only when the profile row
+        # proves reviews exist, so genuinely-zero listings never pay for a task.
+        if ("no token" in out or "v4 failed" in out
+                or ("0 reviews on GBP" in out and _stored_review_count(slug) > 0)):
             out += " -> DFS fallback: " + sync_reviews(slug)
         print("  " + out)
     return 0
@@ -642,8 +654,17 @@ def sync(slug: str) -> str:
     _sb_upsert("marketing_gbp_daily", rows, on_conflict="company_id,date")
     # Best-effort riders on the scheduled sync: fresh reviews (v4 overrides the
     # DFS aggregate written above) + any new GBP photos into the post rotation.
+    def _reviews_rider() -> str:
+        out = sync_reviews_v4(slug, token=token, loc=loc)
+        # v4 can answer 200 {} for some connections (ProRestoration 2026-08-04:
+        # personal-account token, listing really 4.8/105) — when the DFS
+        # aggregate proves reviews exist, pull them via the DFS task instead so
+        # the app's review list doesn't sit empty under a 105-review header.
+        if "0 reviews on GBP" in out and (agg.get("review_count") or 0) > 0:
+            out += " -> DFS fallback: " + sync_reviews(slug)
+        return out
     extras = []
-    for fn in (lambda: sync_reviews_v4(slug, token=token, loc=loc),
+    for fn in (_reviews_rider,
                lambda: import_gbp_media(slug)):
         try:
             extras.append(fn())
