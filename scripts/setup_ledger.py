@@ -59,7 +59,9 @@ CLIENTS_DIR = ROOT / "clients"
 SITES_DIR = ROOT / "sites"
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from client_ops_sync import _sb, slug_map  # noqa: E402
+from client_ops_sync import (  # noqa: E402
+    DOMAIN_ACCESS_ASK_GENERIC, DOMAIN_ACCESS_ASK_GODADDY,
+    DOMAIN_ACCESS_INVITE_EMAIL, DOMAIN_ACCESS_TRUTH, _sb, slug_map)
 
 
 def _norm_domain(d: str | None) -> str:
@@ -175,14 +177,20 @@ def _da_detail(status: str, domain: str, da: dict) -> str | None:
     reg = da.get("domain_registrar") or da.get("domain_registrar_guess") or "?"
     email = da.get("domain_account_email") or "unknown account email"
     if status == "none":
-        return ("We can't launch their site until we can get into their "
-                "domain registrar. Monica is asking; the app's Site tab also "
-                "shows them a 'Provide Domain Access' card "
-                f"(registrar guess: {reg}).")
+        # The card and Monica's text now render the SAME registrar truth
+        # (2026-08-04): no registrar lets us request access, so this is
+        # always the client granting it, never us fetching it.
+        return ("We can't launch their site until THE CLIENT grants access "
+                f"to their domain (registrar guess: {reg}). We cannot get it "
+                "ourselves, no registrar offers that. They send a delegate "
+                "invite (GoDaddy: account.godaddy.com/access -> Invite to "
+                f"Access -> {DOMAIN_ACCESS_INVITE_EMAIL}, Domains permission) "
+                "or hand over the login. Monica is asking; the app's Site tab "
+                "also shows them a 'Provide Domain Access' card.")
     if status == "promised":
         return ("Client SAYS access was provided "
                 f"(registrar {reg}, account {email}) — a claim, not evidence. "
-                "Check the setup@restorationai.io inbox for the delegate "
+                f"Check the {DOMAIN_ACCESS_INVITE_EMAIL} inbox for the delegate "
                 "invite, then hit 'Delegate access confirmed' below. Monica "
                 "is on a gentle verify nudge meanwhile.")
     if status == "delegate_granted":
@@ -1234,41 +1242,106 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                         f"&action_key=eq.{action_key(cid, key_seed)}"
                         "&status=eq.planned", {"status": "resolved"})
 
+                def _refresh_rationale(key_seed: str, rationale: str,
+                                       marker: str) -> None:
+                    """insert_plan_row is find-or-create, so a row seeded
+                    before a policy change keeps its old briefing forever.
+                    The registrar truth is too important for that: any OPEN
+                    row still missing it gets rewritten in place (2026-08-04).
+                    """
+                    if dry_run:
+                        return
+                    rows_ = _sb(
+                        "GET", "/rest/v1/marketing_action_plan"
+                        f"?company_id=eq.{cid}"
+                        f"&action_key=eq.{action_key(cid, key_seed)}"
+                        "&status=eq.planned&select=id,rationale",
+                        prefer="return=representation") or []
+                    for r_ in rows_:
+                        if marker in str(r_.get("rationale") or ""):
+                            continue
+                        _sb("PATCH",
+                            f"/rest/v1/marketing_action_plan?id=eq.{r_['id']}",
+                            {"rationale": rationale})
+                        attention.append(f"{slug}: refreshed the domain-access "
+                                         "ask briefing with the registrar "
+                                         "truth (we can never fetch access "
+                                         "ourselves)")
+
                 if gap_open and da_status == "none":
                     _retire_ask(seed_verify)
+                    # RE-OPEN (Santino 2026-08-04, Reign): Jerrott answered
+                    # "yes it's with GoDaddy, I've got all the information",
+                    # the classifier resolved the ask as answered, and the
+                    # thing we actually need — access — never arrived. The
+                    # state machine is the authority: while
+                    # domain_access_status is 'none' and the gap is open, the
+                    # client still owes us access, so a resolved ask goes
+                    # back to planned. Naming the registrar is not access.
+                    if not dry_run:
+                        reop = _sb(
+                            "PATCH", "/rest/v1/marketing_action_plan"
+                            f"?company_id=eq.{cid}"
+                            f"&action_key=eq.{action_key(cid, seed)}"
+                            "&status=eq.resolved", {"status": "planned"},
+                            prefer="return=representation") or []
+                        if reop:
+                            attention.append(
+                                f"{slug}: domain-access ask was resolved but "
+                                "access is still NOT in hand (status=none) — "
+                                "RE-OPENED; knowing the registrar is not "
+                                "access")
+                    ask_how = (DOMAIN_ACCESS_ASK_GODADDY
+                               if (da.get("domain_registrar")
+                                   or da.get("domain_registrar_guess")
+                                   or "") == "godaddy"
+                               else DOMAIN_ACCESS_ASK_GENERIC)
+                    _rationale = (
+                                f"Their new website is BUILT and ready to go live on "
+                                f"{domain}; the only thing missing is access to the "
+                                "place where they bought the domain. "
+                                + DOMAIN_ACCESS_TRUTH + " HOW THEY GRANT IT: "
+                                + ask_how + " MONICA: plain words only, never say "
+                                "'registrar' or 'nameservers', and NEVER tell them "
+                                "we will reach out to GoDaddy or anyone else. ONE "
+                                "question, their choice of two easy paths: they send "
+                                "us access from their domain account (about two "
+                                "minutes), or we hop on a quick 15-minute call and do "
+                                "it together while they're signed in, we drive and "
+                                "they just hold the phone. Their current site keeps "
+                                "working the whole time. Finding out WHICH company "
+                                "holds the domain is useful but does not close this "
+                                "ask, only the access does. This outranks every other "
+                                "ask except showing them their finished site — "
+                                "nothing can launch without it.")
                     if insert_plan_row(
                             cid, slug, seed,
                             title=f"ASK CLIENT: domain access — point {domain} "
                                   "at the finished site",
-                            rationale=(
-                                f"Their new website is BUILT and ready to go live on "
-                                f"{domain}; the only thing missing is the final switch "
-                                "at the place where they bought the domain (GoDaddy or "
-                                "similar). MONICA: plain words only, never say "
-                                "'registrar' or 'nameservers'. ONE question: where did "
-                                "they buy the domain / where do they log in to manage "
-                                "it? Then recommend a quick 15-minute call to do the "
-                                "switch together on their phone or computer — we drive, "
-                                "they just sign in; the current site keeps working the "
-                                "whole time. This outranks every other ask, including "
-                                "the customer list — the site cannot launch without it."),
+                            rationale=_rationale,
                             action_type="client_input", target=domain,
                             impact="high", effort="low", dry_run=dry_run):
                         attention.append(f"{slug}: seeded Monica ask — domain "
                                          f"access for {domain}")
+                    else:
+                        # Row already existed: make sure its briefing is the
+                        # CURRENT one, not whatever policy was live the day it
+                        # was seeded (2026-08-04).
+                        _refresh_rationale(seed, _rationale,
+                                           "WE CANNOT GET DOMAIN ACCESS")
                 elif gap_open and da_status == "promised":
                     _retire_ask(seed)
                     if insert_plan_row(
                             cid, slug, seed_verify,
                             title="ASK CLIENT: domain access follow-up — did "
-                                  "the invite reach setup@restorationai.io?",
+                                  f"the invite reach {DOMAIN_ACCESS_INVITE_EMAIL}?",
                             rationale=(
                                 "The client SAYS they already provided access to "
                                 f"the place that manages {domain}, but nothing has "
                                 "landed on our side yet. MONICA: this is a gentle "
                                 "verification, not a re-ask — never re-explain the "
                                 "whole thing. ONE question on normal cooldown: did "
-                                "the access invite go to setup@restorationai.io? "
+                                f"the access invite go to {DOMAIN_ACCESS_INVITE_EMAIL}? "
                                 "If they used a different email or aren't sure, "
                                 "offer a quick 15-minute call to do it together. "
                                 "Thank them for already acting on it."),
@@ -1456,9 +1529,11 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                                      "and tell us your thoughts",
                             "target": _preview,
                             "rationale": "New site build finished at " + _preview +
-                                         " — share the link with the client, ask "
-                                         "what they think, and collect any change "
-                                         "requests."}])
+                                         " — SHOW IT TO THEM. Send that exact link, "
+                                         "ask what they think, collect change "
+                                         "requests. A client who has never seen "
+                                         "their finished site gets this BEFORE any "
+                                         "other ask (Santino 2026-08-04, Reign)."}])
                     attention.append(f"{slug}: preview ready but the share ask "
                                      f"was never seeded — HEALED ({_preview})")
         except Exception as e:  # noqa: BLE001 — healing must never kill the ledger
@@ -2156,8 +2231,11 @@ def ensure_auto_site_build(dry_run: bool, cid_to_slug: dict | None = None,
                                    "tell us your thoughts",
                           "target": preview,
                           "rationale": "New site build finished at " + preview +
-                                       " — share the link with the client, ask what "
-                                       "they think, and collect any change requests."}
+                                       " — SHOW IT TO THEM. Send that exact link, ask "
+                                       "what they think, collect change requests. A "
+                                       "client who has never seen their finished site "
+                                       "gets this BEFORE any other ask (Santino "
+                                       "2026-08-04, Reign)."}
                 # manual dedupe (table has no unique constraint on action_key)
                 dup_ = _sb("GET", "/rest/v1/marketing_action_plan"
                            f"?company_id=eq.{cid}&action_key=eq.{fb_row['action_key']}"

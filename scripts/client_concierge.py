@@ -32,8 +32,9 @@ MEETING-INTEL AWARENESS
     Claude with hard rules: items the intel marks ANSWERED / in progress on
     the client's side are EXCLUDED from nudges and escalated ("meeting intel
     says answered/in progress: …") so a human backfills the DB; the intel may
-    shape phrasing naturally ("Great meeting with the team on Tuesday") but
-    private discussion details are never quoted back to the client.
+    shape phrasing naturally ("Sounds like a great call with Santino on
+    Tuesday") but private discussion details are never quoted back to the
+    client, and Monica never speaks as though SHE was there (2026-08-04).
 
 Subcommands
     status                       Table of every tracked client: pending intake
@@ -186,6 +187,12 @@ from zoneinfo import ZoneInfo
 import requests
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "scripts"))
+# Domain-access truth lives in ONE place (client_ops_sync) so the app card,
+# the setup ledger and Monica's texts can never drift apart — 2026-08-04.
+from client_ops_sync import (  # noqa: E402
+    DOMAIN_ACCESS_HOWTO, DOMAIN_ACCESS_INVITE_EMAIL, DOMAIN_ACCESS_TRUTH)
+
 OPS_DIR = ROOT / "clients" / "_ops"
 STATE_PATH = OPS_DIR / "concierge-state.json"
 ESCALATIONS_PATH = OPS_DIR / "concierge-escalations.md"
@@ -763,6 +770,172 @@ def unsupported_done_claim(body: str, evidence: str | None) -> str | None:
     return None
 
 
+# PERSONA GUARD (Santino 2026-08-04, LIVE failure): Monica opened Jerrott
+# Gray's first-day thread with "Great meeting with you yesterday!" — and the
+# HomeLyft draft carried "Great meeting with you all Thursday". Monica is a
+# non-human assistant on Santino's team. She has never been on a call, in a
+# meeting, on a site visit, or in a room with anybody, and a client who later
+# finds that out stops trusting every other word she wrote. The prompts now
+# forbid first-person attendance; this is the mechanical backstop.
+#
+# The BANNED shape is first-person experience ("great meeting you", "as we
+# discussed on the call", "when we met", "I saw"). The CORRECT shape is the
+# team in third person: "Santino mentioned...", "great call with Santino
+# yesterday", "the team went over...". A sentence that attributes to a named
+# human third-personally is exempt — that is the fix we want people writing.
+_THIRD_PERSON_ATTRIB_RE = re.compile(
+    r"\bsantino(?:'s)?\b[^.!?]{0,20}\b(?:said|mentioned|told|says|noted|"
+    r"passed along|loved|enjoyed|went over|walked|covered|shared|put)\b"
+    r"|\b(?:the|our|his) team\b[^.!?]{0,20}\b(?:said|mentioned|told|went "
+    r"over|covered|walked|noted|loved|enjoyed|shared)\b"
+    r"|\bfrom santino\b|\bwith santino\b", re.I)
+
+_PERSONA_CLAIMS: tuple[tuple[re.Pattern, str], ...] = (
+    # "Great meeting you yesterday" / "nice talking with you" / "great to
+    # meet you all" — a pleasantry only somebody who was THERE can offer.
+    # Deliberately TIGHT (only connective words may sit between the parts):
+    # a loose window turned the perfectly good "we're excited for you to see
+    # it" into a false refusal on the very first Reign draft, 2026-08-04.
+    (re.compile(r"\b(?:great|good|nice|lovely|wonderful|awesome|glad|"
+                r"pleasure|enjoyed)\b\s+(?:it\s+was\s+|to\s+|really\s+|"
+                r"so\s+)*(?:meeting|meet|talking|talk|speaking|speak|"
+                r"chatting|chat|catching\s+up|connecting|seeing|see)\s+"
+                r"(?:up\s+)?(?:with\s+|to\s+)?(?:you|y'?all|ya'?ll|"
+                r"your\s+team|the\s+team|everyone|the\s+crew)\b", re.I),
+     "greets the client as though Monica personally met or spoke with them"),
+    # "glad we could finally connect" / "great that we met"
+    (re.compile(r"\b(?:glad|great|good|nice|happy)\b[^.!?]{0,15}\bwe\s+"
+                r"(?:could\s+|finally\s+|got\s+to\s+)*(?:met|meet|connected|"
+                r"connect|spoke|speak|talked|talk)\b", re.I),
+     "celebrates a meeting Monica was supposedly part of"),
+    # "looking forward to meeting you" — she will not be there either.
+    (re.compile(r"\blook(?:ing)?\s+forward\s+to\s+(?:meeting|seeing|"
+                r"talking\s+to|speaking\s+with|chatting\s+with)\s+"
+                r"(?:you|y'?all|the\s+team)\b", re.I),
+     "promises Monica will attend something she cannot attend"),
+    # "when we met" / "since we last spoke"
+    (re.compile(r"\b(?:when|since|after|before) we (?:met|spoke|talked|"
+                r"sat down|chatted|last (?:spoke|talked|met))\b", re.I),
+     "refers to a meeting Monica was supposedly part of"),
+    # "we met Thursday" / "we spoke on the phone" / "we caught up yesterday"
+    (re.compile(r"\bwe (?:met|spoke|talked|chatted|caught up)\b[^.!?]{0,30}"
+                r"\b(?:yesterday|today|earlier|this morning|last week|"
+                r"the other day|monday|tuesday|wednesday|thursday|friday|"
+                r"on the (?:call|phone|zoom))\b", re.I),
+     "claims Monica was on a past call or meeting with the client"),
+    # "as we discussed" / "like we went over"
+    (re.compile(r"\b(?:as|like) we (?:discussed|talked about|spoke about|"
+                r"went over|covered|reviewed|agreed)\b", re.I),
+     "cites a conversation Monica was supposedly in"),
+    # "on our call" / "during our meeting" — "the call" (a future one we set
+    # up together) stays legal; "OUR call" puts Monica in the room.
+    (re.compile(r"\b(?:on|during|in|from|after|before) our (?:call|meeting|"
+                r"zoom|conversation|chat|visit|kick-?off)\b", re.I),
+     "says 'our call/meeting', which puts Monica in the room"),
+    # "...meeting with me" / "hopping on with me"
+    (re.compile(r"\b(?:meet|met|meeting|speak|spoke|speaking|talk|talked|"
+                r"talking|chat|chatted|hop(?:ped|ping)? on|sit|sat) (?:down "
+                r")?(?:with )?me\b", re.I),
+     "invites the client to meet Monica, who cannot attend anything"),
+    # First-person sensory/attendance. Reading a text or an emailed photo is
+    # something she genuinely does, so message artifacts are exempt.
+    (re.compile(r"\bI (?:saw|heard|watched|listened(?: to)?|sat in|attended|"
+                r"joined|was on|was in|met|visited|stopped by)\b"
+                r"(?!\s+(?:from\s+santino|(?:your|the|a|an|that|his|their)\s+)?"
+                r"(?:message|messages|text|texts|reply|email|note|photos?|"
+                r"pictures?|screenshot|voicemail))", re.I),
+     "makes a first-person 'I was there / I saw it' claim"),
+)
+
+
+def persona_attendance_claim(body: str) -> str | None:
+    """Refusal reason when `body` implies Monica personally attended a call,
+    meeting or visit (or met the client), else None.
+
+    Third-person team attribution is the sanctioned form and passes through:
+    "Santino mentioned...", "great call with Santino yesterday", "the team
+    went over the plan"."""
+    for sent in re.split(r"(?<=[.!?])\s+", body or ""):
+        if _THIRD_PERSON_ATTRIB_RE.search(sent):
+            continue
+        for rx, why in _PERSONA_CLAIMS:
+            m = rx.search(sent)
+            if m:
+                return (f"persona violation — {why} ({m.group(0).strip()[:50]!r}). "
+                        "Monica has never attended a call, meeting or visit; "
+                        "reference the team in third person instead "
+                        f"('Santino mentioned...'): {sent[:90]!r}")
+    return None
+
+
+# REGISTRAR-TRUTH GUARD (Santino 2026-08-04, LIVE failure): Monica told
+# Jerrott "We'll reach out through GoDaddy to get the switch made so
+# reign-restoration.com can go live." False, and worse than false — it told
+# the client the launch blocker was OURS to clear, so he did nothing and the
+# site stayed dark. No registrar exposes any way for us to request access.
+# See DOMAIN_ACCESS_TRUTH (scripts/client_ops_sync.py) for the canonical text.
+_REGISTRAR_NAMES = (r"(?:go\s?daddy|namecheap|name\s?cheap|bluehost|"
+                    r"hostgator|hostinger|wix|squarespace|network\s?solutions|"
+                    r"ionos|hover|dreamhost|enom|moniker|route\s?53|"
+                    r"(?:the|your|their) registrar|"
+                    r"(?:the|your|their) domain (?:provider|company|host|"
+                    r"registrar|people))")
+
+_FALSE_REGISTRAR_CLAIMS: tuple[tuple[re.Pattern, str], ...] = (
+    # "we'll reach out through GoDaddy" / "I'll contact your registrar"
+    (re.compile(r"\b(?:we|i)\b(?:'ll|'re| will| are| can| am)?[^.!?]{0,50}?"
+                r"\b(?:reach(?:ing)? out|contact(?:ing)?|get(?:ting)? in "
+                r"touch|call(?:ing)?|email(?:ing)?|work(?:ing)? with|"
+                r"go(?:ing)? through|talk(?:ing)? to|request(?:ing)?|"
+                r"ask(?:ing)?|coordinat(?:e|ing)|deal(?:ing)? with)\b"
+                r"[^.!?]{0,40}?\b(?:through |with |to |at |via |from )?"
+                + _REGISTRAR_NAMES, re.I),
+     "says we will contact the registrar ourselves — no registrar offers "
+     "that path"),
+    # "we'll get access" / "we'll grab the access" — the acquisition claim
+    # itself, with or without a registrar named.
+    (re.compile(r"\b(?:we|i)\b(?:'ll| will|'re going to| am going to| can)\s*"
+                r"(?:just |then |also |go ahead and )?"
+                r"(?:get|obtain|grab|pull|retrieve|secure|request|ask for|"
+                r"set up)\s+(?:the |your |their |domain |that )*access\b",
+                re.I),
+     "claims we will obtain the domain access ourselves"),
+    # "GoDaddy will give us access" / "they'll send us the access"
+    (re.compile(_REGISTRAR_NAMES + r"[^.!?]{0,40}\b(?:will|can|is going to|"
+                r"'ll)\b[^.!?]{0,25}\b(?:give|send|grant|hand|get)\b"
+                r"[^.!?]{0,15}\bus\b", re.I),
+     "claims the registrar will hand access to us"),
+)
+
+
+def false_registrar_claim(body: str) -> str | None:
+    """Refusal reason when `body` claims WE will obtain domain access from a
+    registrar, else None. Only the owner can grant it (delegate invite to
+    setup@restorationai.io, or their login) — see DOMAIN_ACCESS_TRUTH."""
+    for sent in re.split(r"(?<=[.!?])\s+", body or ""):
+        for rx, why in _FALSE_REGISTRAR_CLAIMS:
+            m = rx.search(sent)
+            if m:
+                return (f"registrar-truth violation — {why} "
+                        f"({m.group(0).strip()[:60]!r}). The CLIENT must "
+                        "grant access (GoDaddy: account.godaddy.com/access "
+                        f"-> Invite to Access -> {DOMAIN_ACCESS_INVITE_EMAIL})"
+                        f": {sent[:90]!r}")
+    return None
+
+
+def outbound_guard(body: str, evidence: str | None) -> str | None:
+    """Every mechanical refusal an outbound must survive, in one call so no
+    send path can quietly miss one. Returns the first violation, else None.
+
+    Callers with no ledger context (inline replies, acks) pass evidence=None;
+    the persona and registrar guards need no context at all — those claims are
+    wrong regardless of what the ledger says."""
+    return (unsupported_done_claim(body, evidence)
+            or persona_attendance_claim(body)
+            or false_registrar_claim(body))
+
+
 def _valid_tz(name: str) -> bool:
     try:
         ZoneInfo(name)
@@ -985,7 +1158,7 @@ def fetch_pending_intake(company_id: str | None = None) -> list[dict]:
 def fetch_open_asks(company_id: str | None = None) -> list[dict]:
     q = ("/rest/v1/marketing_action_plan?action_type=eq.client_input"
          "&status=eq.planned"
-         "&select=id,company_id,rank_ai_slug,title,rationale,priority"
+         "&select=id,company_id,rank_ai_slug,title,rationale,priority,target"
          "&order=priority.asc")
     if company_id:
         q += f"&company_id=eq.{urllib.parse.quote(company_id)}"
@@ -1016,7 +1189,7 @@ def gather_items(company_id: str) -> list[dict]:
     def norm_plan(p):
         return {"kind": "plan", "id": p["id"], "text": p["title"],
                 "detail": p.get("rationale") or "", "field_type": "free_text",
-                "blocks": None}
+                "blocks": None, "target": p.get("target") or None}
 
     items = ([norm_intake(i) for i in blocking]
              + [norm_plan(p) for p in asks]
@@ -1155,15 +1328,96 @@ def filter_already_satisfied(company: dict, items: list[dict],
     return kept
 
 
+# ---- preview-share priority (Santino 2026-08-04) ---------------------------
+# Reign Restoration's site was BUILT on 08-03 and the share ask was seeded
+# correctly the same evening (setup_ledger's preview-share heal did its job) —
+# but the concierge ranked "Take a look at your new website preview" into the
+# catch-all bucket 5, dead last, so every compose picked the domain ask and
+# then the customer list and Jerrott never once saw his own site. A client
+# whose site is finished and who has NEVER seen it gets the link first: it is
+# the single most valuable thing we can put in front of them.
+_PREVIEW_ASK_RE = re.compile(
+    r"(?:website|web ?site|site)\s+preview|preview\s+(?:of\s+)?(?:your\s+)?"
+    r"(?:new\s+)?(?:website|web ?site|site)|new website preview", re.I)
+
+
+def preview_link_for(company: dict, items: list[dict]) -> str | None:
+    """The staging/preview URL for this client: the share ask's own target
+    first (marketing_action_plan.target), then marketing_sites."""
+    for it in items:
+        if _PREVIEW_ASK_RE.search(str(it.get("text", ""))):
+            tgt = str(it.get("target") or "").strip()
+            if tgt.startswith("http"):
+                return tgt
+            m = re.search(r"https?://\S+", str(it.get("detail") or ""))
+            if m:
+                return m.group(0).rstrip(".,)")
+    try:
+        rows = _sb("GET", f"/rest/v1/marketing_sites?company_id=eq."
+                   f"{company.get('id')}&select=cloudflare_pages_url"
+                   "&limit=1") or []
+        url = str((rows[0] if rows else {}).get("cloudflare_pages_url") or "")
+        return url or None
+    except Exception:
+        return None
+
+
+def boost_preview_share(company: dict, items: list[dict],
+                        history: list[dict] | None) -> str | None:
+    """Rank the website-preview ask against the actual thread.
+
+    Never sent the link -> _rank -1, ahead of every other ask (the client has
+    not seen the thing we built for them). Already sent -> _rank 4, a normal
+    feedback nudge that must not keep outranking launch blockers.
+    Returns the preview URL when it should LEAD this message, else None."""
+    share = [it for it in items if _PREVIEW_ASK_RE.search(str(it.get("text", "")))]
+    if not share:
+        return None
+    url = preview_link_for(company, share)
+    if not url:
+        print("  [preview-share] share ask is open but no preview URL is on "
+              "file (marketing_sites.cloudflare_pages_url empty) — leaving it "
+              "at normal rank; do NOT let the draft mention a link")
+        for it in share:
+            it["_rank"] = 4
+        return None
+    # The URL may have gone out as a bare host, with or without scheme.
+    host = re.sub(r"^https?://", "", url).rstrip("/").lower()
+    sent = any(host in str(m.get("body") or "").lower()
+               for m in (history or []) if m.get("direction") != "in")
+    for it in share:
+        it["_rank"] = 4 if sent else -1
+        it["target"] = url
+    if sent:
+        print(f"  [preview-share] {url} was already sent to this client — "
+              "ranked as a normal feedback nudge")
+        return None
+    print(f"  [preview-share] this client has NEVER been sent their site "
+          f"({url}) — promoting the share ask above every other item")
+    return url
+
+
 # BUSINESS-PRIORITY RANK (Santino 2026-07-30: "she always works on the
 # first priority item" — All Pro got a YouTube ask while their Google
 # account sat unconnected). Rank classes trump source ordering; Python's
 # stable sort keeps the original order within a class. Module-level so the
 # same-owner merge can re-rank across companies too.
 def ask_rank(it) -> int:
+    # A dynamic override wins outright — set by boost_preview_share() once
+    # the thread has been read (see there).
+    if it.get("_rank") is not None:
+        return int(it["_rank"])
     # Rank on the item TITLE only — details are prose and full of incidental
     # keyword matches ("sign into that Google account" on a YouTube ask).
     t = it["text"].lower()
+    if _PREVIEW_ASK_RE.search(t):
+        # SHOW THEM THE SITE (Santino 2026-08-04, Reign Restoration): the
+        # preview-share ask used to fall into the catch-all bucket 5, so a
+        # client whose site was finished and never seen got a domain ask and
+        # a customer-list ask instead. It is a launch-tier item, and
+        # boost_preview_share() lifts it above everything when the link has
+        # never actually been sent.
+        return 1
     if "youtube" in t:
         return 4   # nice-to-have, never outranks foundations
     # "verify": GBP verification is a launch blocker on par with domain
@@ -1485,6 +1739,25 @@ use teaser-colon constructions ("Big news:", "Quick update:", "Great news:")
 asking the client for things only they can provide. Be specific and easy to
 answer by simply replying to the message.
 
+WHO YOU ARE — HARD RULE, no exceptions (Santino 2026-08-04, live failure:
+Monica opened a client's first-day thread with "Great meeting with you
+yesterday!"). You are an assistant on Santino's team who works the account
+by text and email. You have NEVER been on a call, in a meeting, on a Zoom,
+on a site visit, or in a room with this client or anyone else, and you never
+will be. Any sentence implying you were there is a hard failure, even a
+friendly throwaway one.
+BANNED (first person): "great meeting you", "great meeting with you all",
+"nice talking with you", "good speaking with you", "as we discussed on the
+call", "like we went over", "when we met", "since we last spoke", "we spoke
+yesterday", "on our call", "during our meeting", "meet with me", "hop on
+with me", "I saw", "I heard", "I sat in", "I was on".
+CORRECT (team in third person — this is how you reference anything that
+happened live): "Santino mentioned...", "great call with Santino
+yesterday", "sounds like Tuesday's call went well", "the team went over
+your service areas", "Santino wanted me to get you...". You may warmly
+acknowledge that a call happened; you may never place yourself in it. A
+meeting is always THEIR call with Santino, never "our call".
+
 PLAIN LANGUAGE — the most important rule. Clients are contractors, not tech
 people, and they do not know industry or web terms — ever. Write at a
 6th-grade reading level. Every ask must be answerable by a busy contractor on
@@ -1541,6 +1814,27 @@ without that link is a hard failure: the client has nothing to tap and the
 message wastes the touch (a real client got "here's a link" with no link
 attached, MCC 2026-07-25). This applies even when the connect ask rides
 along with other content, like sharing their website preview.
+
+WEBSITE PREVIEW LINKS (Santino 2026-08-04, Reign Restoration: his site was
+finished and he never once saw it). When the context contains a "Website
+preview link for THIS client", the client has NEVER been shown their own
+site. That link IS the message: lead with it, in plain excited words ("your
+new site is built, here's the link"), include the FULL URL exactly as given,
+and ask one open question about what they think. Never bury it under another
+ask, never describe the site without linking it.
+
+DOMAIN ACCESS — THE TRUTH ABOUT REGISTRARS (Santino 2026-08-04, live
+failure: Monica told a client "We'll reach out through GoDaddy to get the
+switch made", which is impossible, so he sat back and waited and his site
+never launched):
+<<DOMAIN_ACCESS_HOWTO>>
+So the ask is always HIM doing one thing, never us doing it for him. In
+plain words, no jargon: "you'd send us access from your GoDaddy account,
+takes about two minutes, or we hop on a quick 15 minute call and do it
+together while you're signed in". Learning WHICH company holds the domain
+is useful to us but changes nothing: they still have to send the access.
+Never say we will contact, reach out to, go through, work with, or request
+anything from GoDaddy or any other domain company.
 
 KEEP IT SMALL — the second most important rule. A text that asks for a lot,
 or asks in long dense sentences, gets ignored or scares people off.
@@ -1623,9 +1917,10 @@ HISTORY RULES (apply when a "Recent conversation history" block is provided):
   that item OUT of the message body entirely and report it in
   "history_answered" with the item id and a one-line paraphrased summary of
   the evidence (never a verbatim quote of their message).
-- Reference recent context naturally when it genuinely helps ("Great talking
-  to you last week about the site") — but never quote private history
-  verbatim and never recite details back at them.
+- Reference recent context naturally when it genuinely helps ("Sounds like
+  last week's call with Santino covered the site") — but never quote private
+  history verbatim, never recite details back at them, and never speak as
+  though YOU were on the call (see WHO YOU ARE).
 
 - RECENCY RULE — conversation history OUTRANKS meeting intel and outstanding
   item descriptions whenever they conflict, because history is newer. If a
@@ -1653,9 +1948,12 @@ MEETING INTEL RULES (apply when a "Meeting intel" block is provided):
   private discussion details back to the client.
 - Use the intel for natural phrasing context — when it shows a recent
   meeting or call with the client's team, DO acknowledge it warmly in one
-  short clause right after the greeting/intro ("Great meeting with the team
-  on Tuesday…" adjusted to the actual day). Reference that the meeting
-  happened and its tone, never what was privately discussed.
+  short clause right after the greeting/intro, ALWAYS in the third person
+  because you were not there ("Sounds like Tuesday's call with Santino went
+  great" / "Santino filled me in after your call yesterday" — adjusted to
+  the actual day). Never "great meeting you", never "our call", never "as
+  we discussed". Reference that the call happened and its tone, never what
+  was privately discussed.
 
 Return ONLY a JSON object:
 {"subject": string|null, "body": string,
@@ -1669,6 +1967,12 @@ MESSAGE" block is present, never return an empty body — answering the
 client comes before, and regardless of, the items.
 Keep drafting deterministic: choose the most natural single phrasing, no
 alternatives or commentary."""
+
+# The registrar truth is one string in one place (client_ops_sync) so the
+# app's Site-tab card, the setup-ledger detail and Monica's copy can never
+# tell a client three different stories — Santino 2026-08-04.
+COMPOSE_SYSTEM = COMPOSE_SYSTEM.replace("<<DOMAIN_ACCESS_HOWTO>>",
+                                        DOMAIN_ACCESS_HOWTO)
 
 
 def gbp_photo_count(company: dict) -> int | None:
@@ -1797,8 +2101,11 @@ def fetch_upcoming_appointments(contact_id: str, client_tz: str) -> tuple[str | 
     try:
         data = _ghl("GET", f"/contacts/{contact_id}/appointments") or {}
     except RuntimeError as e:
+        # Must stay a 2-tuple: the sister-calendar loop in cmd_compose
+        # unpacks this unguarded, and a bare None crashed PuroClean's compose
+        # every cycle (and with it the whole --all run) — 2026-08-04.
         print(f"  [appointments] fetch failed: {e}", file=sys.stderr)
-        return None
+        return (None, None)
     now = datetime.now(timezone.utc)
     lines = []
     soonest: datetime | None = None
@@ -1831,7 +2138,8 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
                   appointments: str | None = None,
                   sister_names: list[str] | None = None,
                   pending_reply: dict | None = None,
-                  commitment: dict | None = None) -> dict:
+                  commitment: dict | None = None,
+                  preview_url: str | None = None) -> dict:
     chosen = items[:FIRST_CONTACT_MAX_ITEMS if first_contact
                    else MAX_ITEMS_PER_MESSAGE]
     # LAUNCH-BLOCKER PAIR (Santino 2026-08-03, his explicit design and the
@@ -1840,7 +2148,11 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
     # Monica bundles exactly those two in ONE message with one shared
     # 15-minute call offer. Never more than two, never pair anything else.
     pair = None
-    if not first_contact:
+    # A never-seen website preview outranks even the launch-blocker pair —
+    # showing a client the site we built for them beats every ask (2026-08-04).
+    lead_preview = bool(preview_url) and any(
+        _PREVIEW_ASK_RE.search(str(i.get("text", ""))) for i in chosen)
+    if not first_contact and not lead_preview:
         t = lambda i: str(i.get("text", "")).lower()  # noqa: E731
         ver = next((i for i in items
                     if "verify" in t(i) and ("google" in t(i)
@@ -2019,6 +2331,19 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
             "the way to do it (\"here's the link, it takes about two "
             "minutes: ...\"). Never make the connect ask without the "
             "link.\n")
+    # PREVIEW-SHARE BLOCK (2026-08-04): only set when the client has NEVER
+    # been sent their site. The URL must appear literally in context or the
+    # LINKS ARE ALL-OR-NOTHING rule would (correctly) suppress it entirely.
+    preview_block = ""
+    if lead_preview:
+        preview_block = (
+            f"\nWebsite preview link for THIS client: {preview_url}\n"
+            "This client has NEVER seen their new website. That link is the "
+            "whole point of this message: lead with it, include the FULL URL "
+            "exactly as written above, sound genuinely pleased to be handing "
+            "it over, and ask ONE open question about what they think. Do "
+            "not pair it with any other ask, and do not mention the site "
+            "without including the link.\n")
     # Domain-access forward note (2026-08-03): set by the state gate in
     # filter_already_satisfied when access is already in hand.
     domain_block = ""
@@ -2073,6 +2398,7 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
             + pending_block
             + pair_block
             + commit_block
+            + preview_block
             + domain_block
             + photo_block
             + connect_block
@@ -2119,6 +2445,18 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
             body += f" Here's the link to connect it: {connect_link}"
             print("  [connect-link] draft asked for the Google connection "
                   "without the link — appended it")
+
+    # PREVIEW-LINK GUARD (2026-08-04, the belt to the prompt's brace): the
+    # whole point of this message is the client seeing their site. If the
+    # draft (or the budget trim) lost the URL, put it back as its own
+    # complete sentence — a linkless "your site is ready" wastes the touch
+    # exactly the way Reign's first week did.
+    if lead_preview and body and preview_url not in body:
+        body = body.rstrip()
+        if body[-1:] not in ".!?":
+            body += "."
+        body += f" Here it is: {preview_url}"
+        print("  [preview-share] draft dropped the preview URL — appended it")
 
     def _flags(key):
         return [f for f in (draft.get(key) or [])
@@ -2444,22 +2782,30 @@ def cmd_compose(args) -> int:
                      f"include this link to a picture of their setup checklist: {card_url} . "
                      "Keep individual asks brief; the call is the main CTA.")
             print(f"[ladder] escalation active — checklist card: {card_url}")
+    # SHOW THEM THE SITE FIRST (2026-08-04): re-rank the website-preview ask
+    # against the real thread — never sent => it leads this message.
+    preview_url = boost_preview_share(company, items, history)
+    if preview_url:
+        items.sort(key=ask_rank)
     draft = compose_draft(company, first, items, args.channel, first_contact,
                           history=history, intel=intel, appointments=appts,
                           sister_names=sister_names, pending_reply=pending,
-                          commitment=commitment)
+                          commitment=commitment, preview_url=preview_url)
     print("\n" + "=" * 62)
     if draft["subject"] and args.channel == "email":
         print(f"Subject: {draft['subject']}")
     print(draft["body"])
     print("=" * 62)
     print(f"({len(draft['body'])} chars, channel={args.channel})")
-    # GROUNDING GUARD: a DONE-claim must trace to the ledger portion of the
-    # context. Better a blocked send than a lie to a client (Flood Fixers
-    # "review request is already out", 2026-08-02).
-    grounding = unsupported_done_claim(draft["body"], _evidence_slice(intel))
+    # OUTBOUND GUARD: grounding (a DONE-claim must trace to the ledger),
+    # persona (Monica never attended anything) and registrar truth (we can
+    # never fetch domain access ourselves). Better a blocked send than a lie
+    # to a client (Flood Fixers "review request is already out" 2026-08-02;
+    # Reign "great meeting with you" + "we'll reach out through GoDaddy"
+    # 2026-08-04).
+    grounding = outbound_guard(draft["body"], _evidence_slice(intel))
     if grounding:
-        print(f"GROUNDING WARNING: {grounding}")
+        print(f"GUARD WARNING: {grounding}")
 
     # Items the history shows were already answered: excluded from the body
     # by the compose model; escalate so a human backfills the DB.
@@ -2509,9 +2855,9 @@ def cmd_compose(args) -> int:
         print("\nSEND REFUSED: no GHL contact resolved", file=sys.stderr)
         return 1
     if grounding:
-        print(f"\nSEND REFUSED (grounding guard): {grounding}", file=sys.stderr)
+        print(f"\nSEND REFUSED (outbound guard): {grounding}", file=sys.stderr)
         append_escalation(company, None,
-                          f"grounding guard blocked a send: {grounding}",
+                          f"outbound guard blocked a send: {grounding}",
                           False)
         return 0
     # Hard duplicate guard (Santino 2026-08-02: two team-photo asks landed
@@ -2650,9 +2996,13 @@ def preview_compose(company_id: str, channel: str = "sms") -> dict:
         tz_name, _src = resolve_timezone(company, contact)
         res = fetch_upcoming_appointments(contact["id"], tz_name)
         appts = res[0] if isinstance(res, tuple) else None
+    preview_url = boost_preview_share(company, items, history)
+    if preview_url:
+        items.sort(key=ask_rank)
     draft = compose_draft(company, first, items, channel, first_contact,
                           history=history, intel=intel, appointments=appts,
-                          pending_reply=pending, commitment=commitment)
+                          pending_reply=pending, commitment=commitment,
+                          preview_url=preview_url)
     return {"company": company.get("name"), "channel": channel, "gate": gate,
             "draft": draft["body"], "subject": draft.get("subject"),
             "items": [i["text"] for i in draft.get("items", [])]}
@@ -2717,18 +3067,22 @@ def send_now(company_id: str, channel: str = "sms") -> dict:
     intel = load_meeting_intel(company)
     appts_res = fetch_upcoming_appointments(contact["id"], tz_key)
     appts = appts_res[0] if isinstance(appts_res, tuple) else None
+    preview_url = boost_preview_share(company, items, history)
+    if preview_url:
+        items.sort(key=ask_rank)
     draft = compose_draft(company, first, items, channel, first_contact,
                           history=history, intel=intel, appointments=appts,
-                          pending_reply=pending, commitment=commitment)
+                          pending_reply=pending, commitment=commitment,
+                          preview_url=preview_url)
     body = draft["body"]
     if not body:
         return {**base, "sent": False,
                 "reason": "compose produced nothing (every item excluded "
                           "by history/meeting intel)"}
-    grounding = unsupported_done_claim(body, _evidence_slice(intel))
+    grounding = outbound_guard(body, _evidence_slice(intel))
     if grounding:
         return {**base, "sent": False, "body": body,
-                "reason": f"grounding guard: {grounding}"}
+                "reason": f"outbound guard: {grounding}"}
     dup = repeats_last_outbound(body, history)
     if dup:
         return {**base, "sent": False, "body": body,
@@ -2880,6 +3234,16 @@ Few-shot guide:
 - "who is this?" / "stop texting me" /
   "call me" / anything angry or unrelated      -> no match; escalate.
 
+DOMAIN ACCESS IS NOT ANSWERED BY NAMING THE REGISTRAR (Santino 2026-08-04):
+"yes it's with GoDaddy, I've got all the information" tells us WHERE the
+domain lives. It does not give us access, and the item stays open. Only a
+statement that they SENT the invite / added us / handed over the login
+("just sent the invite", "you should have access now", "added
+setup@restorationai.io") answers a domain-access item. Put the registrar
+name in "value" with a free_text match ONLY if an item actually asks which
+company holds the domain; otherwise report it in "analysis.summary" and
+leave the access item unmatched.
+
 A "Recent conversation history" block may be provided — use it to work out
 what a short reply ("yes", "the second one", "that works") is answering; the
 reply usually responds to the most recent thing WE asked in the thread.
@@ -2908,6 +3272,28 @@ PROGRESS on the client's side, in "intel_resolved" (item id + one-line
 reason) — those items must not be re-asked in any follow-up nudge. Never
 treat intel alone as the client's answer to an item (that needs a human to
 verify); intel_resolved is a flag, not a match.
+
+SATISFIED BY CONVERSATION (Santino 2026-08-04, live failure: a client
+replied "Ive already had all my customer leave reviews, even past clients
+from a previous company" and the customer-list item stayed pending, so
+Monica asked for the list anyway two messages later). When an inbound reply
+amounts to "already handled" / "not needed" / "doesn't apply to me" for an
+OPEN item, that item is answered by the conversation itself. Report it in
+"satisfied_by_conversation" with the item id, the client's own words
+verbatim in "quote", and a one-line "reason".
+STRICT — only CLEAR, PRESENT-TENSE statements qualify:
+  YES: "already did that", "we've got all of those", "everyone's already
+       left one", "we don't have any of those", "that doesn't apply to us",
+       "no need, it's handled", "we don't use one".
+  NO : "I'll get to it", "let me pull that together", "give me a few days",
+       "working on it", "I think we might have", "probably", anything that
+       promises FUTURE action or hedges. Those keep the item open — they are
+       commitments, not answers.
+An item that is genuinely answered with a VALUE (a license number, a yes/no,
+an emailed export) belongs in "matches", not here. Use
+"satisfied_by_conversation" only when the answer is that there is nothing
+for us to collect. When unsure, leave it out — a wrongly closed item is
+invisible, a re-ask is merely annoying.
 
 If the reply is a PURE ACKNOWLEDGMENT of our last outbound message — an
 emoji (👍, 🙏), "ok", "sounds good", "thanks", "see you then", "perfect" —
@@ -2973,6 +3359,19 @@ Conversation rules for suggested_reply (Santino 2026-08-02):
 - GROUNDING: never claim an action already happened (sent / out / posted /
   live) — this reply is drafted without ledger evidence; speak forward
   ("we're getting that set up"), never past tense about our own work.
+- PERSONA (hard rule, 2026-08-04): Monica is not a person and has never
+  attended a call, meeting or site visit. NEVER write "great meeting you",
+  "nice talking with you", "as we discussed on the call", "when we met",
+  "on our call", "meet with me", "I saw", "I heard". Reference the team in
+  the third person instead: "Santino mentioned...", "great call with
+  Santino yesterday", "the team went over it". A call is always THEIR call
+  with Santino, never "our call".
+- REGISTRAR TRUTH (hard rule, 2026-08-04): <<DOMAIN_ACCESS_TRUTH>>
+  If they name their domain company, that is useful but changes nothing:
+  the reply thanks them and asks THEM to send the access (GoDaddy:
+  account.godaddy.com/access, Invite to Access, send it to
+  <<DOMAIN_ACCESS_INVITE_EMAIL>>), or offers a 15-minute call to do it
+  together while they are signed in.
 Only promise a follow-up when the answer genuinely needs research we
 cannot do in this text, and say specifically what you will come back with.
 When response_needed is "answer" and the open items / history / intel
@@ -2983,6 +3382,9 @@ Return ONLY JSON:
 {"matches": [{"item_id": "<id from the list>", "value": "<extracted answer>",
               "answer_type": "license|yes_no|free_text|customer_list"}],
  "intel_resolved": [{"item_id": "<id from the list>", "reason": string}],
+ "satisfied_by_conversation": [{"item_id": "<id from the list>",
+                                "quote": "<their words, verbatim>",
+                                "reason": string}],
  "ack": bool,
  "needs_answer": bool,
  "needs_santino": bool,
@@ -2994,6 +3396,8 @@ Return ONLY JSON:
  "escalate_reason": string|null,
  "sentiment": "positive|neutral|negative"}
 "intel_resolved" is [] when no meeting intel is provided or none applies.
+"satisfied_by_conversation" is [] unless the reply clearly says an item is
+already handled or does not apply.
 Match at most the items clearly answered. When in doubt, do not match — set
 escalate true with a reason instead."""
 
@@ -3019,8 +3423,25 @@ dashes; use a comma or a period instead.
 - GROUNDING: never claim our work is already done (sent / out / posted /
   live). You see only the thread, not the ledger — speak forward ("we're
   getting that set up now"), never "is already out" (2026-08-02).
+- PERSONA (hard rule, 2026-08-04): you are not a person and have never been
+  on a call, in a meeting or on a site visit. NEVER "great meeting you",
+  "nice talking with you", "as we discussed on the call", "when we met",
+  "on our call", "meet with me", "I saw", "I heard". Say it in the third
+  person: "Santino mentioned...", "great call with Santino yesterday".
+- REGISTRAR TRUTH (hard rule, 2026-08-04): <<DOMAIN_ACCESS_TRUTH>>
+  Naming the domain company is not access. Thank them, then ask THEM to
+  send it (GoDaddy: account.godaddy.com/access, Invite to Access, to
+  <<DOMAIN_ACCESS_INVITE_EMAIL>>) or offer a 15-minute call to do it
+  together.
 SMS-length: <= 450 chars. No emojis.
 Return ONLY JSON: {"body": string}."""
+
+# Same single-source substitution as COMPOSE_SYSTEM (2026-08-04).
+for _name in ("CLASSIFY_SYSTEM", "REPLY_SYSTEM"):
+    globals()[_name] = (globals()[_name]
+                        .replace("<<DOMAIN_ACCESS_TRUTH>>", DOMAIN_ACCESS_TRUTH)
+                        .replace("<<DOMAIN_ACCESS_INVITE_EMAIL>>",
+                                 DOMAIN_ACCESS_INVITE_EMAIL))
 
 
 def _tracked_contacts(state: dict) -> dict[str, str]:
@@ -3304,6 +3725,152 @@ def resolve_plan_row(row_id: str, dry_run: bool,
             print(f"    [plan-answer] rationale append failed: {str(e)[:80]}")
     _sb("PATCH", f"/rest/v1/marketing_action_plan?id=eq.{row_id}",
         body, prefer="return=minimal")
+
+
+# ---- SATISFIED BY CONVERSATION (Santino 2026-08-04) ------------------------
+# Jerrott Gray replied "Ive already had all my customer leave reviews. Even
+# past clients from a previous company." — a complete answer to the open
+# customer-list item. Nothing recorded it, so the item stayed `pending` and
+# Monica asked him for the list anyway. General rule now: an inbound that
+# amounts to "already handled / not needed / doesn't apply" ANSWERS the item,
+# with the client's own words kept as the answer.
+#
+# Two locks, because a wrongly-closed item is invisible while a re-ask is
+# merely annoying: the classifier must nominate it AND this mechanical test
+# must agree. A future-tense commitment ("I'll get to it") fails the second
+# lock every time — that is a promise, not an answer.
+_SATISFIED_RE = re.compile(
+    r"\b(?:already\s+(?:have|had|has|got|gotten|did|done|sent|handled|"
+    r"asked|left|covered|taken care)"
+    r"|(?:we|i|they|everyone|everybody|all)\s+(?:have\s+)?already\b"
+    r"|no\s+need\b|don'?t\s+need\b|doesn'?t\s+(?:apply|matter)\b"
+    r"|not\s+applicable\b|nothing\s+to\s+(?:send|share|add)\b"
+    r"|(?:we|i)\s+don'?t\s+(?:have|use|do|offer|run|carry)\b"
+    r"|(?:that'?s|it'?s|those\s+are|we'?re)\s+(?:all\s+)?"
+    r"(?:done|handled|covered|set|good|taken\s+care\s+of)\b"
+    r"|taken\s+care\s+of\b|all\s+set\b)", re.I)
+
+# Anything that defers the thing to the future is a commitment, never an
+# answer — these veto the close outright.
+_FUTURE_COMMIT_RE = re.compile(
+    r"\b(?:i'?ll|i\s+will|we'?ll|we\s+will|going\s+to|gonna|let\s+me|"
+    r"give\s+me|working\s+on\s+it|trying\s+to|once\s+i|when\s+i\s+"
+    r"(?:get|have|can)|later|tomorrow|next\s+week|this\s+week(?:end)?|"
+    r"in\s+a\s+(?:bit|few)|shortly|soon|by\s+(?:monday|tuesday|wednesday|"
+    r"thursday|friday))\b", re.I)
+
+# Hedges — "I think we might have" is not a clear statement.
+_HEDGE_RE = re.compile(
+    r"\b(?:i\s+think|maybe|probably|might|not\s+sure|pretty\s+sure|"
+    r"i\s+guess|should\s+be|kind\s+of|sort\s+of)\b", re.I)
+
+
+def conversation_satisfies(text: str) -> tuple[bool, str]:
+    """Mechanical second lock on a satisfied-by-conversation close.
+
+    Returns (ok, why). Only a clear, present-tense "already handled / not
+    needed / doesn't apply" passes; future commitments and hedges never do."""
+    t = (text or "").strip()
+    if not t:
+        return False, "empty message"
+    if _FUTURE_COMMIT_RE.search(t):
+        m = _FUTURE_COMMIT_RE.search(t)
+        return False, (f"reads as a future commitment ({m.group(0)!r}), not a "
+                       "completed state — the item stays open")
+    if _HEDGE_RE.search(t):
+        m = _HEDGE_RE.search(t)
+        return False, f"hedged ({m.group(0)!r}) — not a clear statement"
+    m = _SATISFIED_RE.search(t)
+    if not m:
+        return False, ("no clear already-handled / not-needed / doesn't-apply "
+                       "statement in the message")
+    return True, f"clear completed-state statement ({m.group(0)!r})"
+
+
+# The review campaign is the one place where "already handled" changes
+# STRATEGY, not just status: a client whose whole back catalogue has already
+# been asked has nothing left for the reactivation drip, but the FORWARD list
+# (new customers as jobs close) is still worth having. This note lands open on
+# the Ops Attention board and rides into every later compose via the ops-notes
+# block of load_meeting_intel, so the next mention reframes instead of
+# re-asking cold.
+_REVIEW_ITEM_RE = re.compile(
+    r"customer list|past[- ]customer|review campaign|reviews?\b", re.I)
+
+
+def _review_strategy_note(company: dict, item_text: str, quote: str,
+                          who: str, dry_run: bool) -> None:
+    body = (
+        "[REVIEW-STRATEGY] Their review back-catalogue is ALREADY HARVESTED. "
+        f"{who} told us: \"{quote[:200]}\" (closing the open item "
+        f"\"{item_text[:80]}\"). What this changes: the reactivation drip has "
+        "nothing to reactivate, so do NOT enrol a past-customer list and do "
+        "NOT re-ask for one cold. The list that still has value is the "
+        "FORWARD one, new customers as jobs close, so the review request goes "
+        "out automatically from then on. MONICA: if the customer list comes "
+        "up again, reframe it that way in plain words (\"since your past "
+        "customers have already left reviews, the piece worth setting up is "
+        "the new ones as jobs wrap up\"), never as a fresh ask for the old "
+        "list.")
+    if dry_run:
+        print(f"    [dry-run] would file ops note: {body[:110]}...")
+        return
+    try:
+        _sb("POST", "/rest/v1/marketing_ops_notes",
+            {"company_id": company.get("id"), "body": body, "status": "open"},
+            prefer="return=minimal")
+        print("    [review-strategy] ops note filed — future mentions reframe "
+              "forward instead of re-asking")
+    except Exception as e:  # noqa: BLE001 — a note must never kill the poll
+        print(f"    [review-strategy] note failed: {str(e)[:90]}")
+
+
+def close_satisfied_by_conversation(company: dict, item: dict, quote: str,
+                                    reason: str, who: str, when: str,
+                                    dry_run: bool) -> bool:
+    """Record an open item as answered BY THE CONVERSATION: the client's own
+    words become the answer, with attribution and timestamp. Returns True when
+    it closed. Always logged (print + escalation digest + work log) so Santino
+    can see exactly what auto-closed and why."""
+    ok, why = conversation_satisfies(quote)
+    if not ok:
+        print(f"    [satisfied?] NOT closing {item['text'][:50]!r}: {why}")
+        append_escalation(
+            company, None,
+            f"possible answer-by-conversation on {item['text'][:70]!r} "
+            f"({quote[:100]!r}) was NOT auto-closed: {why}. Check the thread "
+            "and close it by hand if the client really meant it.",
+            dry_run, ping=False)
+        return False
+    value = (f"satisfied by conversation {when[:10]}: {who} said "
+             f"\"{quote[:220]}\" — {reason[:120]}")
+    print(f"    SATISFIED-BY-CONVERSATION {item['text'][:55]!r} <- "
+          f"{quote[:70]!r} ({why})")
+    if item["kind"] == "intake":
+        apply_answer(item["id"], value, dry_run)
+    else:
+        resolve_plan_row(item["id"], dry_run, answer=value)
+    append_escalation(
+        company, None,
+        f"AUTO-CLOSED by the client's own words: {item['text'][:80]!r} — "
+        f"{who} said \"{quote[:120]}\". Recorded as the answer; Monica will "
+        "not ask again. Reopen it in the app if that was wrong.",
+        dry_run, ping=False)
+    if not dry_run:
+        try:
+            from work_log import work_log
+            work_log(company.get("id"), "intake", "satisfied-by-conversation",
+                     f"Closed {item['text'][:60]!r} from the client's reply",
+                     evidence={"quote": quote[:300], "who": who, "when": when,
+                               "item_kind": item["kind"], "item_id": item["id"],
+                               "reason": reason[:200]},
+                     actor="monica",
+                     source="client_concierge.py satisfied_by_conversation")
+        except Exception as e:  # noqa: BLE001 — the ledger never blocks a close
+            print(f"    [work-log] warn: {str(e)[:90]}")
+    if _REVIEW_ITEM_RE.search(item["text"]):
+        _review_strategy_note(company, item["text"], quote, who, dry_run)
+    return True
 
 
 _AFFIRMATIVE_RE = re.compile(
@@ -4023,6 +4590,26 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
                     route_confirmed_services(company,
                                              str(match.get("value", "")),
                                              dry_run)
+        # SATISFIED BY CONVERSATION (2026-08-04): the reply says an open item
+        # is already handled / not needed / doesn't apply. Record the client's
+        # own words as the answer so nothing ever re-asks it, and log the
+        # close so Santino can audit (or reverse) it. Double-locked —
+        # conversation_satisfies() must agree with the classifier.
+        for flag in result.get("satisfied_by_conversation") or []:
+            it = next((i for i in open_items
+                       if i["id"] == flag.get("item_id")), None)
+            if not it or it["id"] in matched_ids:
+                continue
+            quote = str(flag.get("quote") or "").strip() or msg["body"][:300]
+            if close_satisfied_by_conversation(
+                    company, it, quote, str(flag.get("reason") or ""),
+                    who=contact_first_name(contact_payload, company),
+                    when=msg["ts"].isoformat(), dry_run=dry_run):
+                matched_ids.add(it["id"])
+                # A satisfied item is closed, not answered TO us: it must not
+                # trigger the answer-follow-through reply ("thanks for the
+                # list") — the turn's normal handling covers the response.
+                turn["intel"].add(it["id"])
         out["matched"] += len(matched_ids)
         turn["matched"] |= matched_ids
         # Items meeting intel marks answered / in progress client-side:
@@ -4089,7 +4676,8 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
         # top of that is duplicate noise. Classify-driven escalations
         # (negative, explicit escalate) still apply to card messages.
         if (result.get("escalate") or negative
-                or (not result.get("matches") and not had_cards)):
+                or (not result.get("matches") and not had_cards
+                    and not matched_ids)):
             reason = result.get("escalate_reason") or (
                 "negative sentiment" if negative
                 else "no open item matched")
@@ -4152,13 +4740,14 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
         print(f"    reply draft: {body_out!r}")
         # Inline replies carry no ledger context: any DONE-claim about
         # reviews/posts/requests is unsupported by construction — the
-        # compose backstop (which has the ledger) takes over instead.
-        grounding = unsupported_done_claim(body_out, None)
+        # compose backstop (which has the ledger) takes over instead. The
+        # persona + registrar halves of the guard need no context at all.
+        grounding = outbound_guard(body_out, None)
         if grounding:
-            print(f"    GROUNDING WARNING: {grounding}")
+            print(f"    GUARD WARNING: {grounding}")
         if do_send and body_out:
             if grounding:
-                print("    SEND SKIPPED (grounding guard) — the compose "
+                print("    SEND SKIPPED (outbound guard) — the compose "
                       "backstop carries the follow-through with ledger "
                       "context")
                 return out
@@ -4500,6 +5089,15 @@ happen on its own ("I'll walk you through it" is banned unless this very
 text starts the walk-through), and NEVER claim something is already done
 or sent — you cannot see the ledger; speak forward ("we're on it now"),
 never "is already out" (2026-08-02). At most ONE question in the text.
+PERSONA (hard rule, 2026-08-04): you are not a person and have never been on
+a call, in a meeting or on a site visit — never "great meeting you", "nice
+talking with you", "as we discussed on the call", "when we met", "on our
+call", "meet with me", "I saw", "I heard". Third person only: "Santino
+mentioned...", "great call with Santino yesterday".
+REGISTRAR TRUTH (hard rule, 2026-08-04): we can never get access to a
+client's domain ourselves — no registrar offers that. Never say we will
+reach out to, contact or go through GoDaddy (or any domain company). The
+client sends us access, or we do it together on a short call.
 One or two short sentences, under 220 characters.
 Return ONLY JSON: {"body": string}."""
 
@@ -4586,9 +5184,9 @@ def _maybe_send_ack(state: dict, company: dict, contact_id: str, msg: dict,
         text = ("Let me look into that and get right back to you."
                 if needs_answer else "Got it, thank you.")
     print(f"    ack draft: {text!r}")
-    grounding = unsupported_done_claim(text, None)
+    grounding = outbound_guard(text, None)
     if grounding:
-        print(f"    [ack blocked by grounding guard: {grounding}]")
+        print(f"    [ack blocked by outbound guard: {grounding}]")
         return
     dup = repeats_last_outbound(text, history or [])
     if dup:

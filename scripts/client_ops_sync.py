@@ -84,6 +84,55 @@ GATING_RE = re.compile(
     r"tagline|domain|DBA|disclos|consent|OK to|sister compan|registered as|confirm", re.I)
 CUSTOMER_LIST_RE = re.compile(r"customer list|past[- ]customer|export.*customer", re.I)
 
+# ---- domain access: THE registrar truth (Santino 2026-08-04) ---------------
+# LIVE failure, Jerrott Gray / Reign Restoration first-day thread: Monica told
+# him "We'll reach out through GoDaddy to get the switch made." There is no
+# such path. No registrar — GoDaddy least of all — offers an API, a support
+# route or any mechanism by which we can REQUEST access to somebody else's
+# domain. Access only ever moves one way: the owner grants it from inside
+# their own account. These strings are the single source of truth; the app's
+# Site-tab card, the setup ledger and Monica's texts all render THEM, so the
+# client hears exactly one story wherever they look.
+#
+# Address split (do not drift): registrar / delegate invites go to
+# setup@restorationai.io (the Concierge's own intake alias, see
+# scripts/email_intake.py). contact@restorationai.io is the GOOGLE-side
+# identity — Business Profile manager grants, Search Console users — and must
+# never be given out for a registrar invite.
+DOMAIN_ACCESS_INVITE_EMAIL = "setup@restorationai.io"
+DOMAIN_ACCESS_GOOGLE_EMAIL = "contact@restorationai.io"
+
+DOMAIN_ACCESS_TRUTH = (
+    "WE CANNOT GET DOMAIN ACCESS OURSELVES. No registrar lets an agency "
+    "request access to a customer's domain, and there is no API for it. The "
+    "owner has to hand it over: either they send a delegate-access invite, "
+    "or they give us the login. NEVER say or imply that we will reach out "
+    "to, contact, go through, work with or request anything from GoDaddy "
+    "(or any registrar) to get access, and never imply the switch can "
+    "happen without the client doing this one thing first.")
+
+DOMAIN_ACCESS_ASK_GODADDY = (
+    "Sign in at account.godaddy.com/access, tap Invite to Access, and send "
+    f"the invite to {DOMAIN_ACCESS_INVITE_EMAIL} with the Domains "
+    "permission. Takes about two minutes, on a phone or a computer.")
+
+DOMAIN_ACCESS_ASK_GENERIC = (
+    "Nearly every domain company has an 'invite someone' or 'delegate "
+    f"access' option in the account settings: send that invite to "
+    f"{DOMAIN_ACCESS_INVITE_EMAIL}. If theirs has no invite option, the "
+    "alternative is a quick 15-minute call where they sign in and we drive.")
+
+# What Monica is handed verbatim (compose context) and what the app card /
+# ledger renders. One text, three surfaces.
+DOMAIN_ACCESS_HOWTO = (
+    DOMAIN_ACCESS_TRUTH + "\n"
+    "HOW THE CLIENT GRANTS IT (GoDaddy, the common case): "
+    + DOMAIN_ACCESS_ASK_GODADDY + "\n"
+    "ANY OTHER DOMAIN COMPANY: " + DOMAIN_ACCESS_ASK_GENERIC + "\n"
+    f"Delegate invites go to {DOMAIN_ACCESS_INVITE_EMAIL}. "
+    f"({DOMAIN_ACCESS_GOOGLE_EMAIL} is the Google-side address for Business "
+    "Profile and Search Console access only — never for a domain invite.)")
+
 
 def load_env() -> None:
     """Fail-soft .env loader (matches master_scheduler.py) — never overrides CI env."""
