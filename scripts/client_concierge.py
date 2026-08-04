@@ -933,6 +933,24 @@ def load_meeting_intel(company: dict) -> str | None:
 
 
 # ---------------------------------------------------------------- data pulls
+def company_inactive(company: dict | None) -> str | None:
+    """Reason string when this company must NOT be messaged because the
+    account is paused/cancelled — else None.
+
+    Santino 2026-08-04 (Mold Solutionz paused after the client cancelled):
+    the pause button writes companies.status='paused', but the concierge
+    never read it — outstanding intake/plan rows would have kept Monica
+    texting Andrea. Statuses are mixed-case in prod ('Active' vs 'paused'),
+    so compare case-insensitively. Deleted accounts vanish from companies
+    entirely (delete-account fn), so 'active'-only is the safe allow-list;
+    unknown/empty statuses stay contactable (legacy rows predate status)."""
+    st = str((company or {}).get("status") or "").strip().lower()
+    if st in ("paused", "cancelled", "canceled", "churned", "inactive",
+              "archived"):
+        return f"account status is '{st}' — concierge muted for this company"
+    return None
+
+
 def fetch_companies(ids: list[str] | None = None) -> dict[str, dict]:
     q = ("/rest/v1/companies?select=id,name,timezone,phone,email,"
          "account_owner_name,status,integration_settings")
@@ -2154,6 +2172,11 @@ def cmd_compose(args) -> int:
                 print(f"  !! skipping {group[0]}: company row no longer exists "
                       "(orphaned items — clean them up)")
                 continue
+            muted = company_inactive(companies.get(group[0]))
+            if muted:
+                print(f"  skipping {companies[group[0]].get('name', group[0])}: "
+                      f"{muted}")
+                continue
             try:
                 rc = max(rc, cmd_compose(sub))
             except Exception as e:  # noqa: BLE001 — one bad company must never
@@ -2168,6 +2191,13 @@ def cmd_compose(args) -> int:
     if not company:
         print(f"ERROR: company {args.company} not found", file=sys.stderr)
         return 1
+    muted = company_inactive(company)
+    if muted:
+        # Hard mute — paused/cancelled accounts get NO drafts and NO sends,
+        # scheduled or explicit (Santino 2026-08-04, Mold Solutionz).
+        print(f"{company.get('name', args.company)}: {muted} — no draft, "
+              "no send.")
+        return 0
     items = gather_items(args.company)
     # Same-owner merge: fold sister companies' items into this compose, each
     # prefixed with its company name so the draft can attribute them.
@@ -2179,6 +2209,11 @@ def cmd_compose(args) -> int:
         for scid in merge_with:
             sco = sisters.get(scid)
             if not sco:
+                continue
+            s_muted = company_inactive(sco)
+            if s_muted:
+                print(f"  [merge] skipping sister {sco.get('name', scid)}: "
+                      f"{s_muted}")
                 continue
             s_items = gather_items(scid)
             if not s_items:
@@ -2213,6 +2248,15 @@ def cmd_compose(args) -> int:
         cs["channel_override"] = "email"
         print("SMS DND on the contact (STOP keyword / CRM) — channel "
               "preference flipped to email")
+    elif cs.get("channel_override") == "email" and contact \
+            and not _sms_dnd(contact):
+        # UN-STICK (Santino 2026-08-04, Angie/All Pro): the override is
+        # DND-derived, so when the client lifts DND themselves (texted
+        # "Start") it must clear — Angie's answers went to email she wasn't
+        # reading while her SMS thread looked ignored.
+        cs.pop("channel_override", None)
+        print("SMS DND lifted on the contact — email channel override "
+              "cleared, back to SMS")
     if (cs.get("channel_override") == "email" and args.channel == "sms"
             and (contact or {}).get("email")):
         args.channel = "email"
@@ -2572,6 +2616,10 @@ def preview_compose(company_id: str, channel: str = "sms") -> dict:
     company = fetch_companies([company_id]).get(company_id)
     if not company:
         return {"error": f"company {company_id} not found"}
+    muted = company_inactive(company)
+    if muted:
+        return {"company": company.get("name"), "channel": channel,
+                "gate": muted, "draft": "", "subject": None, "items": []}
     items = gather_items(company_id)
     items = filter_already_satisfied(company, items, dry_run=True)
     contact = resolve_contact(company)
@@ -2636,6 +2684,11 @@ def send_now(company_id: str, channel: str = "sms") -> dict:
     company = fetch_companies([company_id]).get(company_id)
     if not company:
         return {"sent": False, "reason": f"company {company_id} not found"}
+    muted = company_inactive(company)
+    if muted:
+        # Even the explicit human click refuses on a paused/cancelled
+        # account — unpause first if a send is truly intended.
+        return {"sent": False, "reason": muted, "company": company.get("name")}
     contact = resolve_contact(company)
     tz_key, _tz_src = resolve_timezone(company, contact)
     local = datetime.now(timezone.utc).astimezone(ZoneInfo(tz_key))
@@ -3824,6 +3877,12 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
     if _sms_dnd(contact_payload) and not cs_reset.get("channel_override"):
         cs_reset["channel_override"] = "email"
         print("  [dnd] SMS DND on contact — channel preference flipped to email")
+    elif (cs_reset.get("channel_override") == "email" and contact_payload
+            and not _sms_dnd(contact_payload)):
+        # Symmetric un-stick (Angie 2026-08-04: she texted "Start" to lift
+        # her own DND, but the sticky override kept every reply on email).
+        cs_reset.pop("channel_override", None)
+        print("  [dnd] SMS DND lifted — email override cleared, back to SMS")
     # ---- phase 1: per-message analysis + answer extraction. NO sends here;
     # everything response-worthy accumulates into `turn` for one decision.
     turn = {"bodies": [], "matched": set(), "intel": set(),
@@ -4187,6 +4246,13 @@ def webhook_inbound(contact_id: str, do_send: bool = True) -> dict:
                 "reason": "contact not tracked by the concierge"}
     company = (fetch_companies([company_id]).get(company_id)
                or {"id": company_id, "name": company_id})
+    muted = company_inactive(company)
+    if muted:
+        # Paused/cancelled account (Santino 2026-08-04, Mold Solutionz): no
+        # ack, no compose, no state writes — the message stays visible in
+        # GHL for a human to handle.
+        print(f"[webhook] {company.get('name')}: {muted} — no auto-reply")
+        return {"status": "ignored", "reason": muted}
     cursor = state.get("inbound_cursor")
     since = (datetime.fromisoformat(cursor) if cursor
              else datetime.now(timezone.utc) - timedelta(hours=48))
@@ -4286,6 +4352,13 @@ def cmd_inbound(args) -> int:
                                 print(f"  [boss-feedback] insert failed: {str(e)[:120]}")
                 continue
             company = companies.get(company_id, {"id": company_id, "name": company_id})
+            muted = company_inactive(company)
+            if muted:
+                # Paused/cancelled account: leave their messages for a human
+                # (Santino 2026-08-04, Mold Solutionz).
+                print(f"  [inbound] {company.get('name', company_id)}: "
+                      f"{muted} — skipped")
+                continue
             msgs = fetch_inbound_since(contact_id, since)
             if not msgs:
                 continue

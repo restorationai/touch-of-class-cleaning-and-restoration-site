@@ -208,8 +208,28 @@ def select_creation_queue() -> tuple[list[dict], list[str], list[str]]:
     cid_in = "in.(" + ",".join(f'"{c}"' for c in cand) + ")"
     cos = {c["id"]: c for c in _sb(
         "GET", f"/rest/v1/companies?id={cid_in}"
-        "&select=id,name,phone,address,city,state,postal_code,website,created_at",
+        "&select=id,name,phone,address,city,state,postal_code,website,"
+        "created_at,status",
         prefer="return=representation") or []}
+    # ACCOUNT-STATUS GATE (Santino 2026-08-04: Mold Solutionz paused after
+    # the client cancelled — its citations-build ledger row still said
+    # homeguide=todo and this queue never re-checked companies.status, so
+    # Mold was next in line for tonight's HomeGuide creation). The ledger
+    # only GATHERS active clients but never retires rows on pause, so the
+    # queue must check live status itself. Statuses are mixed-case in prod
+    # ('Active' vs 'paused') — compare lowercased; unknown/empty stays
+    # eligible (legacy rows).
+    _inactive = {"paused", "cancelled", "canceled", "churned", "inactive",
+                 "archived"}
+    for cid in list(cand):
+        st = str((cos.get(cid) or {}).get("status") or "").strip().lower()
+        if st in _inactive:
+            slug = sm.get(cid, cid)
+            print(f"  [queue] {slug}: account status '{st}' — excluded from "
+                  "creation queue")
+            cand.pop(cid, None)
+    if not cand:
+        return [], [], ["all candidates paused/cancelled"]
     # Live citations metadata beats the ledger snapshot for "already live".
     live_nap = {}
     for r in _sb("GET", f"/rest/v1/user_integrations?client_id={cid_in}"

@@ -93,7 +93,11 @@ def record_listing(company_id: str, platform: str, url: str,
 
         from client_ops_sync import _sb  # late import: keep failures inside the try
         now = datetime.now(timezone.utc).isoformat()
+        # created_at = permanent creation stamp ("Created by Rank AI on ...").
+        # checked_at gets refreshed by every citations_audit pass; created_at
+        # must survive those rewrites (audit's provenance-preservation merge).
         entry = {"status": status, "url": url, "checked_at": now,
+                 "created_at": now,
                  "source": "browser_agent", **(extra or {})}
 
         rows = _sb("GET", f"/rest/v1/user_integrations?client_id=eq.{company_id}"

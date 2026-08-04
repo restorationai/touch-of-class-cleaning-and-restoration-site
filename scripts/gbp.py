@@ -924,6 +924,22 @@ def apply_confirmed_services(cid: str, answer: str = "",
 def _clients(args) -> list[str]:
     if args.all:
         cmap = json.loads((ROOT / "clients" / "company_map.json").read_text())
+        # ACCOUNT-STATUS GATE (Santino 2026-08-04: Mold Solutionz paused —
+        # its GBP is connected, so every --all maintenance pass would have
+        # kept optimizing/posting for a cancelled client). companies.status
+        # is the pause button's source of truth (mixed-case in prod).
+        # Fail-open: if the read errors, run the full roster.
+        try:
+            inactive = {"paused", "cancelled", "canceled", "churned",
+                        "inactive", "archived"}
+            ids = ",".join(f'"{c}"' for c in cmap.values())
+            bad = {r["id"] for r in _sb(f"companies?id=in.({ids})&select=id,status")
+                   if str(r.get("status") or "").strip().lower() in inactive}
+            for slug in [s for s, c in cmap.items() if c in bad]:
+                print(f"  [{slug}] skipped — account paused/cancelled")
+                cmap.pop(slug)
+        except Exception as e:  # noqa: BLE001 — gate must never kill a cron
+            print(f"  [status-gate] check failed ({str(e)[:80]}) — full roster")
         return list(cmap.keys())
     return [args.slug]
 

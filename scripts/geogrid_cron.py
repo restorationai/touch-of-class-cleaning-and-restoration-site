@@ -81,6 +81,26 @@ def main() -> int:
     args = ap.parse_args()
 
     slugs = [args.slug] if args.slug else list(COMPANY_MAP.keys())
+    # ACCOUNT-STATUS GATE (Santino 2026-08-04: Mold Solutionz paused — it has
+    # geo-grid config + a company_map entry, so the cron would have kept
+    # burning DataForSEO spend on a cancelled client). companies.status is
+    # the pause button's single source of truth; local clients/*.json status
+    # is not updated by the app. Fail-open: if the status read errors, keep
+    # the full roster rather than silently skipping paying clients.
+    try:
+        rows = (sb_client().table("companies")
+                .select("id,status")
+                .in_("id", [COMPANY_MAP[s] for s in slugs if s in COMPANY_MAP])
+                .execute().data or [])
+        inactive = {"paused", "cancelled", "canceled", "churned", "inactive",
+                    "archived"}
+        bad = {r["id"] for r in rows
+               if str(r.get("status") or "").strip().lower() in inactive}
+        for s in [s for s in slugs if COMPANY_MAP.get(s) in bad]:
+            print(f"  [{s}] SKIP — account paused/cancelled (companies.status)")
+            slugs.remove(s)
+    except Exception as e:  # noqa: BLE001 — gate must never kill the cron
+        print(f"  [status-gate] check failed ({str(e)[:80]}) — running full roster")
     mode = "DRY RUN" if args.dry_run else "RUN"
     print(f"geogrid_cron — {mode} — {len(slugs)} client(s): {', '.join(slugs)}")
 

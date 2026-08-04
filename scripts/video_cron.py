@@ -62,6 +62,16 @@ def _load_json(p: Path):
         return None
 
 
+def _cmap_id(slug: str) -> str | None:
+    """slug -> company_id via clients/company_map.json (flood-fixers has
+    company_id null in its record but IS in the map)."""
+    try:
+        cmap = _load_json(CLIENTS_DIR / "company_map.json") or {}
+        return cmap.get(slug)
+    except Exception:
+        return None
+
+
 def active_clients() -> list[str]:
     """Slugs of every current client eligible for videos.
 
@@ -70,11 +80,32 @@ def active_clients() -> list[str]:
     siteless (franchise) clients are included from day one (2026-07-23,
     Santino). Blog-kind videos still require published posts and fall back
     to geo naturally. Only truly departed clients are excluded."""
-    DEPARTED = {"archived", "churned", "paused", "cancelled"}
+    DEPARTED = {"archived", "churned", "paused", "cancelled", "canceled",
+                "inactive"}
+    # The app's pause button writes companies.status in Supabase and NEVER
+    # touches the local clients/*.json status (Mold Solutionz 2026-08-04:
+    # local status 'onboarding', DB 'paused', YouTube connected — the cron
+    # would have kept making videos for a cancelled client). Check BOTH.
+    # Fail-open on the DB read: never skip paying clients on an API hiccup.
+    db_departed: set[str] = set()
+    try:
+        if os.environ.get("SUPABASE_URL"):
+            from supabase import create_client
+            sb = create_client(os.environ["SUPABASE_URL"],
+                               os.environ["SUPABASE_SERVICE_ROLE_KEY"])
+            rows = sb.table("companies").select("id,status").execute().data or []
+            db_departed = {r["id"] for r in rows
+                           if str(r.get("status") or "").strip().lower()
+                           in DEPARTED}
+    except Exception as e:  # noqa: BLE001
+        sys.stderr.write(f"  companies status lookup failed: {str(e)[:120]}\n")
     out = []
     for f in sorted(CLIENTS_DIR.glob("*.json")):
         rec = _load_json(f)
         if not rec or str(rec.get("status") or "").lower() in DEPARTED:
+            continue
+        if rec.get("company_id") in db_departed or \
+                _cmap_id(f.stem) in db_departed:
             continue
         try:
             plan = _load_json(CLIENTS_DIR / f.stem / "plan-input.json") or {}

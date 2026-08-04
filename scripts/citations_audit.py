@@ -397,6 +397,7 @@ def audit(slug: str, dry_run: bool = False) -> str:
         if rows:
             md = rows[0].get("connection_metadata") or {}
             existing_urls = md.get("citation_urls") or {}
+            prev_nap = md.get("nap_audit") or {}
             prev_auto = set(md.get("auto_slots") or [])
             toks = _name_tokens(name)
             keep: dict = {}
@@ -427,10 +428,14 @@ def audit(slug: str, dry_run: bool = False) -> str:
                          "checked_at": datetime.now(timezone.utc).isoformat()}
                 if scan["phone"]:
                     entry["phone_found"] = scan["phone"]
-                    entry["phone_matches"] = (scan["phone"] == canon_phone) if canon_phone else None
+                    # ok_phones (canonical + our tracking numbers), matching
+                    # the main loop — a reconciled listing showing OUR
+                    # call-tracking number is accepted policy, not a
+                    # discrepancy (same rule as the SERP path above).
+                    entry["phone_matches"] = (scan["phone"] in ok_phones) if canon_phone else None
                     if g_phone:
                         entry["matches_google_listing"] = (scan["phone"] == g_phone)
-                    if canon_phone and scan["phone"] != canon_phone:
+                    if canon_phone and scan["phone"] not in ok_phones:
                         entry["status"] = "discrepancy"
                 if scan["address_matches"]:
                     entry["address_matches"] = True
@@ -438,6 +443,30 @@ def audit(slug: str, dry_run: bool = False) -> str:
                     entry["website_matches"] = True
                 results[k] = entry
                 lines.append(f"  reconciled {k} from stored URL (search missed it)")
+            # PROVENANCE PRESERVATION (Santino 2026-08-04: the 08-03 fleet
+            # audit rewrote HomeLyft's homeguide entry via the reconcile path
+            # and DROPPED source:"browser_agent" — the app's "Created by
+            # Rank AI" label had nothing to match). Fresh audit entries carry
+            # audit facts only; creation provenance written by
+            # listings.record_listing (source, created_at) must survive every
+            # re-found/reconcile update. checked_at stays fresh (it means
+            # "last checked"); the ORIGINAL creation stamp is preserved as
+            # created_at — seeded from the prior entry's checked_at the first
+            # time a browser_agent entry is rewritten without one.
+            for k, prev in prev_nap.items():
+                if k == "google_listing" or not isinstance(prev, dict):
+                    continue  # google_listing's 'source' is per-run (gbp_api/
+                    #           client_record) — never carried forward
+                cur = results.get(k)
+                if not isinstance(cur, dict):
+                    continue
+                if prev.get("source") and not cur.get("source"):
+                    cur["source"] = prev["source"]
+                created = prev.get("created_at") or (
+                    prev.get("checked_at")
+                    if prev.get("source") == "browser_agent" else None)
+                if created and not cur.get("created_at"):
+                    cur["created_at"] = created
             md["citation_urls"] = merged
             md["auto_slots"] = sorted(k for k in merged if k not in keep)
             md["nap_audit"] = results
