@@ -29,7 +29,11 @@
     ],
     "hours": "24/7",
     "insured": true,
-    "founded_year": "2022"
+    "founded_year": "2022",
+    "lat": 30.3886736,
+    "lng": -89.0586991,
+    "place_id": "ChIJ5dJT_FQWnIgRzm4i4D1BgR4",
+    "google_cid": "2198109827142676174"
   },
   "services": [
     "water-damage-restoration",

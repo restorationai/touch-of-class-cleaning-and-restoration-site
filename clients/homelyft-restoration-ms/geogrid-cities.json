@@ -1,0 +1,32 @@
+[
+  {
+    "label": "Hattiesburg, MS",
+    "lat": 31.3271,
+    "lng": -89.2903
+  },
+  {
+    "label": "Biloxi, MS",
+    "lat": 30.4008,
+    "lng": -88.8894
+  },
+  {
+    "label": "Gulfport, MS",
+    "lat": 30.3886736,
+    "lng": -89.0586991
+  },
+  {
+    "label": "Picayune, MS",
+    "lat": 30.5255,
+    "lng": -89.6795
+  },
+  {
+    "label": "Ocean Springs, MS",
+    "lat": 30.4113,
+    "lng": -88.8279
+  },
+  {
+    "label": "Pascagoula, MS",
+    "lat": 30.3647,
+    "lng": -88.5586
+  }
+]

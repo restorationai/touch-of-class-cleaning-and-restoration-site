@@ -123,12 +123,18 @@ def geocode_city(city: str, state: str) -> tuple[float, float] | None:
 
 def derive_cities(slug: str) -> list[dict]:
     """All service-area cities, geocoded. The primary area reuses the brand lat/lng
-    (exact business location) instead of a city centroid; others geocode via OSM."""
+    (exact business location) instead of a city centroid; others geocode via OSM.
+    Deduped by label — plan-input service_areas can repeat a city across county
+    groupings (HomeLyft 2026-08-03: Picayune/Diamondhead/Nicholson each twice)."""
     plan = load_plan(slug)
     brand = plan.get("brand", {})
     out = []
+    seen: set[str] = set()
     for a in plan.get("service_areas", []):
         label = f"{a['city']}, {a['state']}"
+        if label in seen:
+            continue
+        seen.add(label)
         if a.get("primary") and brand.get("lat") and brand.get("lng"):
             lat, lng = float(brand["lat"]), float(brand["lng"])
         else:
@@ -144,6 +150,50 @@ def derive_cities(slug: str) -> list[dict]:
 # ---------------------------------------------------------------------------
 # Business listing identity (place_id / google_cid) for Maps matching
 # ---------------------------------------------------------------------------
+
+def identity_from_record(slug: str) -> dict | None:
+    """Business identity from the client record's gbp block (clients/{slug}.json),
+    already looked up at audit/onboarding time. Free — no DataForSEO spend."""
+    rec_path = ROOT / "clients" / f"{slug}.json"
+    if not rec_path.exists():
+        return None
+    gbp = json.loads(rec_path.read_text()).get("gbp") or {}
+    pid = gbp.get("place_id")
+    cid = gbp.get("google_cid") or gbp.get("cid")
+    if not (pid or cid):
+        return None
+    return {"place_id": pid, "cid": str(cid) if cid is not None else None,
+            "matched_title": gbp.get("listing_title")}
+
+
+def ensure_identity(slug: str) -> bool:
+    """Guarantee plan-input.json brand carries place_id/google_cid — the fields
+    geogrid_scan.load_center() matches listings on. Backfills from the client
+    record's gbp block when the brand block is missing them. Returns True when
+    identity is present after the attempt.
+
+    Why this exists: a config written WITHOUT identity scans fine but matches
+    nothing — every point returns not-found and money burns on an all-red grid
+    (HomeLyft 2026-08-03: 0/169 on both keywords; the name-substring fallback
+    also missed because brand.display_name had an 'MS' suffix the listing lacks).
+    """
+    p = ROOT / "clients" / slug / "plan-input.json"
+    plan = json.loads(p.read_text())
+    brand = plan.setdefault("brand", {})
+    if brand.get("place_id") or brand.get("google_cid"):
+        return True
+    ident = identity_from_record(slug)
+    if not ident:
+        return False
+    if ident.get("place_id"):
+        brand["place_id"] = ident["place_id"]
+    if ident.get("cid"):
+        brand["google_cid"] = ident["cid"]
+    p.write_text(json.dumps(plan, indent=2))
+    print(f"  backfilled brand.place_id/google_cid into plan-input.json "
+          f"from clients/{slug}.json gbp block ({ident.get('matched_title')})")
+    return True
+
 
 def lookup_business_identity(slug: str, zoom: int = 12) -> dict:
     """Find the client's Maps listing (place_id + cid) by searching its name at the
@@ -254,7 +304,11 @@ def cmd_plan(args) -> int:
 
 
 def cmd_identity(args) -> int:
-    ident = lookup_business_identity(args.slug)
+    ident = identity_from_record(args.slug)
+    if ident:
+        print(f"  source: clients/{args.slug}.json gbp block (no DFS spend)")
+    else:
+        ident = lookup_business_identity(args.slug)
     print(f"  matched: {ident.get('matched_title')}")
     print(f"  place_id: {ident.get('place_id')}")
     print(f"  cid:      {ident.get('cid')}")
@@ -290,6 +344,15 @@ def cmd_apply(args) -> int:
             sys.exit(f"ERROR: --cities not found among service areas: {sorted(missing)}")
     if not cities:
         sys.exit("ERROR: no cities selected (use --cities).")
+    # IDENTITY GATE — a config without brand.place_id/google_cid scans clean but
+    # matches nothing (0-found everywhere, still billed). Backfill from the client
+    # record; refuse to write config if identity is still absent.
+    if not ensure_identity(args.slug) and not args.allow_no_identity:
+        sys.exit(
+            f"ERROR: no business identity (brand.place_id/google_cid) for '{args.slug}' "
+            f"and none in clients/{args.slug}.json gbp block. Every scan would return "
+            f"0-found (HomeLyft 2026-08-03). Run: identity --slug {args.slug} --write, "
+            "or pass --allow-no-identity to rely on exact-name matching only.")
     write_config(args.slug, keywords, cities)
     if not resolve_company_id(args.slug):
         print("  WARNING: no company_id resolvable — the cron will SKIP this client. "
@@ -314,7 +377,10 @@ def main() -> int:
 
     p = sub.add_parser("apply"); p.add_argument("--slug", required=True)
     p.add_argument("--cities", help='semicolon-separated labels, e.g. "Federal Way, WA;Tacoma, WA"')
-    p.add_argument("--max-keywords", type=int, default=10); p.set_defaults(func=cmd_apply)
+    p.add_argument("--max-keywords", type=int, default=10)
+    p.add_argument("--allow-no-identity", action="store_true",
+                   help="write config even without place_id/google_cid (name-match only)")
+    p.set_defaults(func=cmd_apply)
 
     args = ap.parse_args()
     return args.func(args)
