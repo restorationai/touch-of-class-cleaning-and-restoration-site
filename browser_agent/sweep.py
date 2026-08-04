@@ -5,6 +5,12 @@ supervised completions). The roster as of 2026-08-03:
 
   1. BING dashboard Sync + listing verification (earned 2026-08-01) — for
      clients newly GBP-manager-accessible the dashboard import picks them up.
+     "Pending publish" is EXPECTED and is not our work item: Bing publishes
+     GBP-imported listings on its own 7-12 day queue after verification
+     completes. See the note above bing_dashboard_state() for the full
+     2026-08-04 investigation. The sweep only DETECTS the flip; the states
+     that do demand a human are "Needs review" and "Suspended", which the
+     dashboard counts separately and which now raise outcome='attention'.
   2. HOMEGUIDE listing CREATION queue (earned 2026-08-03: narestco, RX,
      HomeLyft all clean end-to-end; enrolled on Santino's call same day —
      new signups like Reign get their citations built automatically). Up to
@@ -55,7 +61,7 @@ PORTAL_NIGHTLY_CAP = 2  # velocity: max NEW accounts per portal per night
 RUN_TIMEOUT_S = 45 * 60  # one homeguide creation incl. search-index waits
 
 
-def bing_sync(s: Session) -> str:
+def bing_sync(s: Session) -> dict:
     # SSO (Bing sessions are session-scoped — every run signs in fresh)
     s.page.goto("https://www.bing.com/forbusiness/genericLogin",
                 wait_until="domcontentloaded", timeout=60000)
@@ -82,13 +88,13 @@ def bing_sync(s: Session) -> str:
                 except Exception:
                     break
         except Exception as e:
-            return f"sso failed: {str(e)[:80]}"
+            return {"error": f"sso failed: {str(e)[:80]}"}
     s.page.wait_for_timeout(6000)
     s.page.goto("https://www.bing.com/forbusiness/multipleEntities",
                 wait_until="domcontentloaded", timeout=60000)
     s.page.wait_for_timeout(8000)
     if "genericLogin" in s.page.url:
-        return "not signed in after sso"
+        return {"error": "not signed in after sso"}
     try:
         s.page.get_by_text(re.compile("^Sync$", re.I)).first.click(timeout=6000)
         s.page.wait_for_timeout(45000)
@@ -97,11 +103,77 @@ def bing_sync(s: Session) -> str:
     s.page.goto("https://www.bing.com/forbusiness/multipleEntities",
                 wait_until="domcontentloaded", timeout=60000)
     s.page.wait_for_timeout(8000)
-    body = s.page.inner_text("body")[:2000]
-    m = re.search(r"Total listings:\s*(\d+).*?Published:\s*(\d+)", body, re.S)
+    state = bing_dashboard_state(s.page)
     shot = s.audit_shot("nightly-sync")
-    return (f"listings={m.group(1)} published={m.group(2)} shot={shot}"
-            if m else f"count unparsed shot={shot}")
+    state["shot"] = shot
+    return state
+
+
+# "Pending publish" is Bing's own server-side queue — NOT our work item.
+# Investigated end-to-end 2026-08-04 (Santino asked why 6 of 8 sat pending
+# since the 08-01 GBP batch import). What the dashboard actually says:
+#   * header counts: Total listings 8 / Published 2 / Needs review 0 /
+#     Suspended 0  -> Bing has NO complaint about any listing.
+#   * on the 08-02 dashboard every pending row carried the sub-label "New
+#     import from Google" — they are exactly the 6 brought over by the 08-01
+#     import (Home Pride/Crew, already published, never carried it). Bing had
+#     dropped that label by 08-04.
+#   * each pending listing's singleEntity page states, verbatim:
+#       "Your verification is done, and now we're publishing your listing."
+#       "Publishing ETA is 7-12 days. We will notify you when your listing
+#        is published."
+# So: verification is COMPLETE, no field is missing, and there is NO publish
+# / submit / resubmit control anywhere in the UI (the only buttons on a
+# pending listing are Sync and View analytics). Home Pride + Crew are
+# published simply because they predate the batch. Nothing accelerates this;
+# do not "fix" pending listings, do not re-import (that restarts the clock),
+# and do not open a support ticket inside the stated ETA window.
+# The sweep's job is therefore DETECTION ONLY: record the queue each night so
+# the flip to Published is caught the day it happens.
+_BING_COUNTS = ("Total listings", "Published", "Needs review", "Suspended")
+
+
+def bing_dashboard_state(page) -> dict:
+    """Parse the Bing Places dashboard into {counts, rows}.
+
+    The UI renders each header stat as label-then-value on SEPARATE lines
+    ("Total listings\\n8\\nPublished\\n2"). The old regex required a colon
+    ("Total listings: 8"), which the UI stopped emitting — so every nightly
+    run since logged 'count unparsed' (ledger 08-03/08-04) and we lost the
+    published-count trail. Accept BOTH shapes.
+    """
+    body = page.inner_text("body")
+    counts: dict[str, int] = {}
+    for label in _BING_COUNTS:
+        m = re.search(rf"{re.escape(label)}\s*[:\n]\s*(\d+)", body)
+        if m:
+            counts[label] = int(m.group(1))
+
+    rows: list[dict] = []
+    try:
+        n = page.locator("[role=row]").count()
+        for i in range(n):
+            cells = page.locator("[role=row]").nth(i).inner_text().split("\n")
+            cells = [c.strip() for c in cells if c.strip()]
+            if not cells or cells[0] == "Name and address":
+                continue
+            status = next((c for c in cells if re.match(
+                r"^(Published|Pending publish|Needs review|Suspended)$", c)), None)
+            if not status:
+                continue
+            rows.append({
+                "name": cells[0],
+                "status": status,
+                # "New import from Google" marked GBP-batch imports on the
+                # 08-02 dashboard (see that day's audit shot). Bing had
+                # dropped the sub-label by 08-04, so this is best-effort and
+                # currently False everywhere — keep reading it in case the
+                # label returns, but never gate logic on it.
+                "new_import": any("New import from Google" in c for c in cells),
+            })
+    except Exception as e:
+        print(f"  [bing] row scrape failed: {str(e)[:80]}", file=sys.stderr)
+    return {"counts": counts, "rows": rows}
 
 
 # ------------------------------------------------------------------ queue
@@ -362,8 +434,34 @@ def main() -> int:
         s = Session(playbook="nightly-sweep", slug=None, live=True).start(headless=False)
         try:
             result = bing_sync(s)
-            print("bing:", result)
-            ledger(None, "nightly-sweep", "bing-sync", "done", detail=result, live=True)
+            counts = result.get("counts") or {}
+            rows = result.get("rows") or []
+            pending = [r["name"] for r in rows if r["status"] == "Pending publish"]
+            attention = [f"{r['name']}:{r['status']}" for r in rows
+                         if r["status"] in ("Needs review", "Suspended")]
+            if result.get("error"):
+                # Previously EVERY outcome was hardcoded "done" — the 08-03
+                # 05:39 ledger row says done/"sso failed", which is a lie the
+                # board can't act on.
+                outcome, detail = "failed", result["error"]
+            else:
+                outcome = "attention" if attention else "done"
+                detail = (f"listings={counts.get('Total listings')} "
+                          f"published={counts.get('Published')} "
+                          f"needs_review={counts.get('Needs review')} "
+                          f"suspended={counts.get('Suspended')} "
+                          f"pending_publish={len(pending)} shot={result.get('shot')}")
+                if attention:
+                    detail += " | ATTENTION: " + ", ".join(attention)
+            print("bing:", detail)
+            if pending:
+                # Bing-side publish queue (7-12 day ETA, verification already
+                # done). Informational — nobody should action these.
+                print("bing pending publish (Bing-side queue, no action "
+                      "available):", ", ".join(pending))
+            ledger(None, "nightly-sweep", "bing-sync", outcome, detail=detail,
+                   live=True, meta={"counts": counts, "rows": rows,
+                                    "pending_publish": pending})
         finally:
             s.stop()  # the creation drivers open their own Session — never two at once
 
