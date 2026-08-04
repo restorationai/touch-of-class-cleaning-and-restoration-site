@@ -78,6 +78,19 @@ PORTALS = {
         # Run 3 attempt (coastal, same night): signup silently bounced to a
         #    sign-in page, no email sent — VELOCITY THROTTLE after 2 accounts
         #    from one browser/night. Pace: max 2 new accounts per day.
+        # Run 5 attempt (homelyft, 2026-08-04 ~01:30 UTC): the throttle window
+        #    is ROLLING ~24h from each creation, not calendar-night — RX's
+        #    account (08-03 05:46 UTC) still inside the window blocked a new
+        #    signup 20h later. Soft-block DISGUISES as sticky form errors:
+        #    'Did you mean contact+{slug}@restorationai.in? - Ignore' under
+        #    #email plus 'Passwords need to have a mix of letters, numbers
+        #    and symbols' on a VERIFIED-correct password (same generator
+        #    narestco passed with). Two real lessons regardless: dismiss the
+        #    Did-you-mean box BEFORE typing #password (its re-render can
+        #    swallow a keystroke — attempt 2 landed 18/19 chars), and always
+        #    compare input_value() to the intended secret pre-submit. No
+        #    account/email results from a soft-blocked attempt; retry next
+        #    night (coastal succeeded on its retry).
         # Public verify (2026-08-02): both created profiles are LIVE — URL
         #    shape professionals/environmental-services-and-restoration/
         #    {name-slug}-pfvwus-pf~{id}. Read-only dedupe/verify search:
@@ -184,7 +197,18 @@ PORTALS = {
         #    national-restoration-construction-A8aisT6gf. Renders name,
         #    '22 years in business' (from year-founded), 'Serves {city},
         #    WA', intro, specialties. record_listing() written 2026-08-02.
-        "selectors": {"supervised_runs_clean": 1},
+        # Runs 2+3 (restorationxpress, homelyft-restoration-ms — both
+        #  2026-08-04 ~01:30/02:00 UTC, both clean end-to-end, public URLs
+        #  live same-run; homeguide_state_machine.py now takes a JSON
+        #  overrides arg for GBP-primary NAP when the companies row lags):
+        #    geo-preference can present TWICE — second pass has a 'Save for
+        #    this service only' button (generic advance() handles it);
+        #    business-info may re-present once after Continue (Skip clears
+        #    it; full NAP lands in /pros/profile/edit-info anyway). RX
+        #    profile: homeguide.com/fl/davie/water-damage-restoration/
+        #    restorationxpress-_VgGv-Adz; HomeLyft: homeguide.com/ms/
+        #    gulfport/water-damage-restoration/homelyft-restoration-_ZLeDzvnC.
+        "selectors": {"supervised_runs_clean": 3},
     },
     "bbb": {
         "label": "BBB",
@@ -218,7 +242,28 @@ PORTALS = {
         #  2026-08-02: NaRestCo ALREADY EXISTS — A+ profile, Federal Way WA
         #    98003, (844) 672-2424 -> claim path / ledger 'exists', never a
         #    duplicate create.
-        "selectors": {},
+        # Pinned during LIVE run 1 (restorationxpress, 2026-08-04, submitted):
+        #  dedupe traps: the get-listed on-page lookup navigates to /search
+        #    with the Near field PRE-FILLED from geo-ip — clear it before
+        #    typing or you search 'Davie, FLDavie, FL'; and never match
+        #    'Select' unanchored — the header's 'Select language' button
+        #    false-positives the claim path. 'No results for' in body =
+        #    definitively absent.
+        #  category typeahead is downshift: its open li.ta-suggestion list
+        #    OVERLAYS the Create Profile button — click a suggestion (or
+        #    Escape) before submitting. Typing 'Fire and Water Damage
+        #    Restoration' surfaces exactly that option (plus Fire/Water-only
+        #    variants); input_value() reads empty after picking (selection is
+        #    stored off-input) — that's normal.
+        #  submit -> bbb.org/get-listed/success: 'Your local BBB will review
+        #    the information you provided before the business appears in our
+        #    search directory.' NO account/password step, NO email/SMS gate —
+        #    verification is BBB-side with the business (file the Monica
+        #    heads-up). No public URL until their review clears, so
+        #    record_listing waits for the monthly citations_audit (or a
+        #    manual re-check) to find the /profile/ URL.
+        #  PerimeterX never fired across 4 headed page-loads at human pace.
+        "selectors": {"supervised_runs_clean": 1},
     },
     # Data aggregators (Data Axle / Localeze / Foursquare) feed hundreds of
     # long-tail directories. Their submission portals want business-owner

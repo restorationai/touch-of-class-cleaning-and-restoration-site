@@ -108,6 +108,12 @@ def wait_code(scratch: pathlib.Path):
 def main() -> int:
     slug = sys.argv[1]
     resume = "--resume" in sys.argv
+    # NAP overrides (added for run 2 / RX, 2026-08-03): the companies row can
+    # lag GBP — the phone entered is ALWAYS the GBP primary (form_fill.py
+    # phone policy) and the street line the clean GBP one, so callers pass a
+    # JSON arg like '{"phone": "8669435551", "address": "4700 SW 51st St",
+    # "suite": "Ste 205", "website": "https://..."}'. Mirrors houzz_run.py.
+    ov = next((json.loads(a) for a in sys.argv[2:] if not a.startswith("--")), {})
     creds = (json.loads((pathlib.Path.home() / ".rankai/portal-creds.json").read_text())
              .get("homeguide", {}).get(slug))
     if not creds:
@@ -122,6 +128,8 @@ def main() -> int:
     try:
         truth = company_truth(s.company_id)
         truth = {k: (v.strip() if isinstance(v, str) else v) for k, v in truth.items()}
+        truth.update({k: (v.strip() if isinstance(v, str) else v)
+                      for k, v in ov.items()})
         zipc = truth.get("postal_code") or brand.get("postal_code") or ""
         founded = str(brand.get("founded_year") or "")
         desc = brand.get("homeguide_intro") or (
@@ -321,7 +329,7 @@ def main() -> int:
         # NB: #address-suite has name='business-name'; #year-founded &
         # #number-of-employees come prefilled '0' — set explicitly by id.
         set_field("input#street-address", truth.get("address"))
-        set_field("input#address-suite", "")
+        set_field("input#address-suite", truth.get("suite") or "")
         set_field("input#postal-code", zipc)
         set_field("input#company-email", truth.get("email"))
         if founded:
