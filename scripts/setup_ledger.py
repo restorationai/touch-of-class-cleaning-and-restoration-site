@@ -24,6 +24,10 @@ Items:
                   (auto-heals: runs gsc_register + indexnow once, marks done)
   google-connected  reflects user_integrations state (ask pass owns nudges)
   client-asks     open client_input count + no-reply streak (ladder input)
+  citations-blocked creation-queue readiness (Santino 2026-08-03): missing
+                  logo / empty companies NAP auto-heals from the branding
+                  bucket / GBP first; what no system holds becomes a Monica
+                  ask + this amber client_owed card
 
 Run:  python3 scripts/setup_ledger.py [--dry-run]
 Wired into client_ops_sync's nightly pass via ensure_ledger().
@@ -411,13 +415,251 @@ def _check_doc_uploads(cid: str, name: str, dry_run: bool) -> None:
     print(f"  [{cid}] new client document upload(s): {', '.join(base)[:120]}")
 
 
+# ---- citations readiness (Santino 2026-08-03 follow-up) ---------------------
+# The nightly creation queue (browser_agent/sweep.py) skips clients missing a
+# logo or with an empty companies-row NAP — those skip reasons were invisible.
+# This pass makes them VISIBLE work: auto-heal what a system already holds
+# (branding-bucket logo -> sites/{slug}/public/images/; GBP connection or
+# clients-record snapshot -> empty companies NAP fields), and only what no
+# system holds becomes a Monica ask + amber client_owed card.
+
+def _pull_bucket_logo(cid: str, slug: str) -> str | None:
+    """Branding-bucket logo -> sites/{slug}/public/images/. Logos sometimes
+    already exist in the bucket (Go Green's 07-29 upload sat there while the
+    queue skipped them for 'no logo') — CHECK there before asking the client.
+    Only files that LOOK like logo files count (the hub's Send Us Files page
+    names them logo-{epoch}.{ext}); job photos/docs never match. Oversized
+    originals get downscaled via Pillow (fail-open to raw bytes for png/webp;
+    a JPEG we cannot convert is skipped — the pipelines read logo.png/webp).
+    Returns the written filename or None."""
+    sb_url = os.environ.get("SUPABASE_URL", "").rstrip("/")
+    sb_key = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")
+    hdrs = {"apikey": sb_key, "Authorization": f"Bearer {sb_key}",
+            "Content-Type": "application/json"}
+    r = requests.post(f"{sb_url}/storage/v1/object/list/branding", headers=hdrs,
+                      json={"prefix": f"{cid}/brand/", "limit": 100}, timeout=30)
+    if not r.ok:
+        return None
+    cands = [f["name"] for f in r.json() if f.get("id")
+             and re.match(r"(?i)logo.*\.(png|webp|jpe?g)$", f.get("name") or "")]
+    if not cands:
+        return None
+    name = sorted(cands)[-1]  # hub prefixes epoch ms -> lexically newest wins
+    rf = requests.get(f"{sb_url}/storage/v1/object/branding/{cid}/brand/{name}",
+                      headers=hdrs, timeout=60)
+    if not rf.ok or not rf.content:
+        return None
+    data = rf.content
+    ext = name.lower().rsplit(".", 1)[-1].replace("jpeg", "jpg")
+    out_dir = SITES_DIR / slug / "public" / "images"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    try:
+        import io
+        from PIL import Image
+        im = Image.open(io.BytesIO(data))
+        if max(im.size) > 1200:
+            im.thumbnail((1200, 1200))
+        buf = io.BytesIO()
+        if ext == "webp":
+            im.save(buf, "WEBP", quality=90)
+            out = out_dir / "logo.webp"
+        else:
+            if im.mode not in ("RGB", "RGBA", "P", "L", "LA"):
+                im = im.convert("RGBA")
+            im.save(buf, "PNG", optimize=True)
+            out = out_dir / "logo.png"
+        data = buf.getvalue()
+    except Exception:
+        if ext == "jpg":
+            return None  # can't hand a JPEG to pipelines expecting logo.png/webp
+        out = out_dir / f"logo.{ext}"
+    out.write_bytes(data)
+    return out.name
+
+
+def _nap_backfill_from_gbp(cid: str, slug: str, co: dict, dry_run: bool) -> list[str]:
+    """Fill EMPTY companies-row NAP fields from what a system already holds:
+    the GBP connection (live API) first, else the clients/{slug}.json gbp
+    snapshot (flood-fixers pattern 2026-08-03: GBP had the full address while
+    the card sat blank). NEVER overwrites a non-empty field — the card is the
+    client-facing source of truth; we only seed blanks. Mutates co in place
+    so downstream cards see the healed row. Returns patched field names."""
+    need = [f for f in ("phone", "address", "city", "state", "postal_code")
+            if not (co.get(f) or "").strip()]
+    if not need:
+        return []
+    vals: dict = {}
+    try:
+        import gbp as _gbp
+        rec = (_client_record(slug).get("gbp") or {})
+        place = _gbp._place_id_from_connection(cid)
+        if not place:
+            pi = CLIENTS_DIR / slug / "plan-input.json"
+            if pi.exists():
+                place = (json.loads(pi.read_text()).get("brand") or {}).get("place_id")
+        place = place or rec.get("place_id")
+        tok = _gbp.get_access_token(cid) if place else None
+        loc = _gbp.find_location(tok, place) if tok and place else None
+        if loc:
+            addr = loc.get("storefrontAddress") or {}
+            vals = {"phone": (loc.get("phoneNumbers") or {}).get("primaryPhone"),
+                    "address": ", ".join(addr.get("addressLines") or []) or None,
+                    "city": addr.get("locality"),
+                    "state": addr.get("administrativeArea"),
+                    "postal_code": addr.get("postalCode")}
+        elif rec.get("listing_phone") or rec.get("listing_address"):
+            vals = {"phone": rec.get("listing_phone")}
+            m = re.match(r"^(.*?),\s*([^,]+),\s*([A-Z]{2})\s+(\d{5})",
+                         rec.get("listing_address") or "")
+            if m:
+                vals.update({"address": m.group(1), "city": m.group(2),
+                             "state": m.group(3), "postal_code": m.group(4)})
+    except Exception:
+        return []
+    patch = {f: vals[f] for f in need if vals.get(f)}
+    if not patch:
+        return []
+    if not dry_run:
+        _sb("PATCH", f"/rest/v1/companies?id=eq.{cid}", patch)
+    co.update(patch)
+    return sorted(patch)
+
+
+def _citations_readiness(cid: str, slug: str, co: dict, platform_status: dict,
+                         dry_run: bool, rows: list, attention: list) -> None:
+    """Queue-readiness blockers become visible work. Only runs for clients
+    the creation queue actually wants (a platform still todo); when nothing
+    is pending the card flips done and asks retire."""
+    from client_ops_sync import action_key, insert_plan_row
+    if not platform_status:
+        return  # no citations audit yet — nothing to gate on
+    todo = sorted(k for k, v in platform_status.items()
+                  if (v or {}).get("status") == "todo")
+    logo_seed, nap_seed = f"citations-logo-{slug}", f"citations-nap-{slug}"
+
+    def _retire(seed: str) -> None:
+        if dry_run:
+            return
+        _sb("PATCH", "/rest/v1/marketing_action_plan"
+            f"?company_id=eq.{cid}&action_key=eq.{action_key(cid, seed)}"
+            "&status=eq.planned", {"status": "resolved"})
+
+    if not todo:  # every buildable platform live/submitted — stand down
+        _retire(logo_seed)
+        _retire(nap_seed)
+        rows.append({"company_id": cid, "item_key": "citations-blocked",
+                     "kind": "client_owed", "status": "done",
+                     "title": "Citations inputs complete", "detail": None,
+                     "evidence": {"blockers": []}})
+        return
+
+    imgdir = SITES_DIR / slug / "public" / "images"
+    logo_ok = (imgdir / "logo.png").exists() or (imgdir / "logo.webp").exists()
+    if not logo_ok and not dry_run:
+        pulled = None
+        try:
+            pulled = _pull_bucket_logo(cid, slug)
+        except Exception:
+            pass
+        if pulled:
+            logo_ok = True
+            attention.append(f"{slug}: logo pulled from branding bucket -> "
+                             f"sites/{slug}/public/images/{pulled} — citation "
+                             "queue unblocked (commit the file)")
+    napped: list[str] = []
+    try:
+        napped = _nap_backfill_from_gbp(cid, slug, co, dry_run)
+    except Exception:
+        pass
+    if napped:
+        attention.append(f"{slug}: companies-row NAP backfilled from GBP "
+                         f"({', '.join(napped)})")
+    phone_ok = bool((co.get("phone") or "").strip())
+    addr_ok = bool((co.get("address") or "").strip()) or bool(
+        (co.get("city") or "").strip() and (co.get("postal_code") or "").strip())
+
+    blockers: list[str] = []
+    if not logo_ok:
+        blockers.append("logo")
+        if insert_plan_row(
+                cid, slug, logo_seed,
+                title="ASK CLIENT: your logo — one clean file so we can "
+                      "finish your directory listings",
+                rationale=(
+                    "We're creating their business listings across the major "
+                    "directories (HomeGuide, Houzz, BBB, ...) and the missing "
+                    "input is their LOGO as a clean file — the original "
+                    "PNG/JPG from their designer, not a photo of a truck or "
+                    "business card. MONICA: one simple ask — email it, reply "
+                    "to this message with the file attached, or drop it at "
+                    f"https://restorationai.io/logo/{slug} (no login, works "
+                    "from a phone). We watch their uploads automatically, so "
+                    "the listings build resumes on its own once it lands."),
+                action_type="client_input",
+                target=f"https://restorationai.io/logo/{slug}",
+                impact="high", effort="low", dry_run=dry_run):
+            attention.append(f"{slug}: seeded Monica ask — logo needed for "
+                             "citations build")
+    else:
+        _retire(logo_seed)
+    if not (phone_ok and addr_ok):
+        blockers.append("nap")
+        miss = " and ".join(m for m, bad in (("phone number", not phone_ok),
+                                             ("address", not addr_ok)) if bad)
+        if insert_plan_row(
+                cid, slug, nap_seed,
+                title="ASK CLIENT: business phone + address for your "
+                      "directory listings",
+                rationale=(
+                    f"Their Business Information card is missing their {miss} "
+                    "and no system we can reach holds it (their GBP "
+                    "connection/snapshot was already checked), so their "
+                    "directory listings cannot be created. MONICA: ONE "
+                    "question, plain words — what phone number and street "
+                    "address should appear publicly on their listings? If "
+                    "they work from home and don't publish an address, city "
+                    "+ ZIP is enough — say so."),
+                action_type="client_input", target=None,
+                impact="high", effort="low", dry_run=dry_run):
+            attention.append(f"{slug}: seeded Monica ask — phone/address "
+                             "needed for citations build")
+    else:
+        _retire(nap_seed)
+
+    if blockers:
+        what = {"logo": "your logo", "nap": "your business phone + address"}
+        rows.append({
+            "company_id": cid, "item_key": "citations-blocked",
+            "kind": "client_owed", "status": "open",
+            "title": "Citations blocked: we need "
+                     + " and ".join(what[b] for b in blockers),
+            "detail": ("The nightly citation-creation queue is skipping this "
+                       "client. "
+                       + ("Logo: nothing usable in their brand uploads — "
+                          f"upload link https://restorationai.io/logo/{slug}. "
+                          if "logo" in blockers else "")
+                       + ("Phone/address: the Business Information card is "
+                          "empty and no connected system holds it. "
+                          if "nap" in blockers else "")
+                       + "Monica has the ask; the queue resumes automatically "
+                         "once this lands."),
+            "evidence": {"blockers": blockers, "platforms_waiting": todo}})
+    else:
+        rows.append({"company_id": cid, "item_key": "citations-blocked",
+                     "kind": "client_owed", "status": "done",
+                     "title": "Citations inputs complete (logo + NAP)",
+                     "detail": None,
+                     "evidence": {"blockers": [], "platforms_waiting": todo}})
+
+
 def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
     """Evaluate the ledger for every Active Rank AI client. Returns attention
     lines (us-owed gaps) for the nightly ops email."""
     cid_to_slug = cid_to_slug or slug_map()
     zones = _our_zones()
     cos = _sb("GET", "/rest/v1/companies?status=ilike.active&plan=eq.Rank%20AI"
-              "&select=id,name,website,services,integration_settings",
+              "&select=id,name,phone,address,city,state,postal_code,website,"
+              "services,integration_settings",
               prefer="return=representation") or []
     attention: list[str] = []
     # per-run auto-heal budget: 2 geo-grid re-scans (DFS cost) + 3 media
@@ -998,6 +1240,7 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
         # ---- CITATIONS discovery/NAP audit (Santino 2026-07-28, priority):
         # auto-discovers each client's directory listings, prepopulates the
         # Connect tab slots, and flags phone discrepancies. Re-audits monthly.
+        platform_status: dict = {}  # readiness pass below reads this
         try:
             cit = _sb("GET", f"/rest/v1/user_integrations?client_id=eq.{cid}"
                       "&provider=eq.citations&select=connection_metadata",
@@ -1138,6 +1381,15 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                                      "citations analysis top-line has the details)")
         except Exception:
             pass
+
+        # ---- CITATIONS READINESS (Santino 2026-08-03 follow-up): the queue's
+        # skip reasons (no logo / empty NAP) become auto-heals or visible work.
+        try:
+            _citations_readiness(cid, slug, co, platform_status, dry_run,
+                                 rows, attention)
+        except Exception as e:  # noqa: BLE001 — readiness must never kill the ledger
+            attention.append(f"{slug}: citations-readiness pass failed "
+                             f"({str(e)[:80]})")
 
         # ---- LSA follow-THROUGH (Santino 2026-07-30): a "Yes, wants LSA"
         # click in Ops Attention must surface the setup work, not vanish.
