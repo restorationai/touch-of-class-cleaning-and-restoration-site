@@ -504,33 +504,64 @@ def harvest_website(slug: str, cid: str, *, cap: int = 40,
 
 
 def register_gbp_assets(slug: str, cid: str) -> int:
-    """Fold whatever import_gbp_media has already put in the bucket into the
-    manifest. Separated from the import itself so a repo checkout can be
-    re-synced with storage without spending GBP API quota."""
+    """Fold whatever is already in the branding bucket into the manifest.
+    Separated from the GBP import itself so a repo checkout can be re-synced
+    with storage without spending GBP API quota.
+
+    Two prefixes, both real client photography:
+      job-photos/posted/  the GBP library import (import_gbp_media) plus
+                          anything gbp_photos.py has already pushed up
+      job-photos/         the crew-hub upload inbox — photos a technician took
+                          on a job this week and sent from their phone via
+                          restorationai.io/gbpphotos/{slug}. The most authentic
+                          source we have, and the one carrying real EXIF (Google
+                          strips it from its own renditions), so it is also the
+                          only source that can date and place a case study.
+    """
     m = load_manifest(slug)
     n_new = 0
-    for f in _storage_list(cid, f"{GBP_PREFIX}/"):
-        name = f["name"]
-        if not name.lower().endswith((".jpg", ".jpeg", ".png", ".webp")):
-            continue
-        base = re.sub(r"^r\d+_", "", name)       # rotation-renamed copies
-        key = f"gbp:{base.rsplit('.', 1)[0]}"
-        if key in m["assets"] and m["assets"][key].get("width"):
-            continue
-        url = _public_url(cid, GBP_PREFIX, name)
-        data = _http_get(url)
-        if not data:
-            continue
-        w, h = image_dims(data)
-        if not w:
-            continue
-        m["assets"][key] = {**m["assets"].get(key, {}), **{
-            "source": "gbp", "storage": f"{GBP_PREFIX}/{name}", "url": url,
-            "width": w, "height": h, "bytes": len(data),
-            "sha1": hashlib.sha1(data).hexdigest()[:16],
-            "exif": read_exif(data),
-        }}
-        n_new += 1
+    for prefix, src in ((GBP_PREFIX, "gbp"), ("job-photos", "crew")):
+        for f in _storage_list(cid, f"{prefix}/"):
+            name = f["name"]
+            if not name.lower().endswith((".jpg", ".jpeg", ".png", ".webp")):
+                continue
+            base = re.sub(r"^r\d+_", "", name)       # rotation-renamed copies
+            key = f"{src}:{base.rsplit('.', 1)[0]}"
+            other = f"{'crew' if src == 'gbp' else 'gbp'}:{base.rsplit('.', 1)[0]}"
+            url = _public_url(cid, prefix, name)
+            # The same filename moves job-photos/ -> job-photos/posted/ when
+            # gbp_photos.py drains it up to the listing. That is one photo, not
+            # two — and the old entry's URL is now a 404, so re-point it instead
+            # of skipping. Keeping the classification costs nothing and the
+            # alternative is a manifest full of dead links to photos we did
+            # successfully harvest.
+            if other in m["assets"]:
+                m["assets"][other].update(
+                    {"storage": f"{prefix}/{name}", "url": url, "source": src})
+                continue
+            if key in m["assets"] and m["assets"][key].get("width"):
+                m["assets"][key].update({"storage": f"{prefix}/{name}", "url": url})
+                continue
+            data = _http_get(url)
+            if not data:
+                continue
+            w, h = image_dims(data)
+            if not w:
+                continue
+            m["assets"][key] = {**m["assets"].get(key, {}), **{
+                "source": src, "storage": f"{prefix}/{name}", "url": url,
+                "width": w, "height": h, "bytes": len(data),
+                "sha1": hashlib.sha1(data).hexdigest()[:16],
+                "exif": read_exif(data),
+            }}
+            n_new += 1
+            # Checkpoint: registering a 200-photo library (ProRestoration) is
+            # 200 downloads, and saving only at the end meant a run killed
+            # part-way threw away every byte it had fetched and showed no
+            # progress while it did so.
+            if n_new % 25 == 0:
+                save_manifest(slug, m)
+                print(f"    registered {n_new} asset(s)...", flush=True)
     # cross-source dedupe: the same van shot on the GBP and the franchise page
     by_sha: dict[str, str] = {}
     for k, a in sorted(m["assets"].items()):
@@ -1258,7 +1289,13 @@ def main() -> int:
     r = sub.add_parser("run"); common(r)
     r.add_argument("--cap", type=int, default=40)
     r.add_argument("--batch", type=int, default=6)
-    r.add_argument("--limit", type=int, default=0)
+    # Bounded vision spend per client per run — `run` is what the daily and
+    # weekly crons call, and an unbounded classify over a 200-photo library
+    # (ProRestoration) is neither predictable nor necessary. Untriaged assets
+    # simply carry to the next run; the pass is incremental and resumable, so a
+    # backlog drains over successive nights instead of in one unbounded burst.
+    # Pass --limit 0 for an unbounded manual backfill.
+    r.add_argument("--limit", type=int, default=120)
     r.add_argument("--gbp-only", action="store_true")
     r.set_defaults(fn=cmd_run)
 
