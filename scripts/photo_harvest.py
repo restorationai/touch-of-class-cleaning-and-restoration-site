@@ -852,6 +852,43 @@ def _install(data: bytes, dest: Path, *, target_ratio: float | None = None,
     return im.width, im.height
 
 
+def rewrite_alt(slug: str, image_path: str, subject: str) -> list[str]:
+    """Point the alt text at the photo that is actually there now.
+
+    The templates hardcode an alt written for the image we INTENDED to generate
+    — PuroClean's read "technician loading a branded service van" while the file
+    became nine staff at a branded step-and-repeat. Swapping the pixels and
+    leaving the description is worse than either alone: it is a wrong answer to
+    a screen reader and a wrong signal to Google. The triage already produced a
+    literal one-line description of every asset, so the correct alt is sitting
+    right there in the manifest.
+
+    Returns the files changed. Only touches lines that pair imageSrc/src with
+    THIS image, so a site whose alt was hand-written for a different slot is
+    left alone."""
+    changed: list[str] = []
+    pages = ROOT / "sites" / slug / "src" / "pages"
+    if not pages.is_dir() or not subject:
+        return changed
+    # keep the house convention (brand name in the alt) without an em dash
+    txt_alt = subject.rstrip(". ") + ", ${brand.displayName}"
+    for f in sorted(pages.rglob("*.astro")):
+        src = f.read_text(encoding="utf-8")
+        out_lines, hit = [], False
+        for line in src.split("\n"):
+            if image_path in line and re.search(r"\b(imageAlt|alt)=", line):
+                new = re.sub(r"(\b(?:imageAlt|alt)=)(\{`[^`]*`\}|\{[^}]*\}|\"[^\"]*\")",
+                             lambda m: m.group(1) + "{`" + txt_alt + "`}", line, count=1)
+                if new != line:
+                    hit = True
+                    line = new
+            out_lines.append(line)
+        if hit:
+            f.write_text("\n".join(out_lines), encoding="utf-8")
+            changed.append(str(f.relative_to(ROOT)))
+    return changed
+
+
 def apply_real_photos(slug: str, *, dry_run: bool = False,
                       slots: list[str] | None = None,
                       force: bool = False, only_missing: bool = False) -> str:
@@ -923,6 +960,8 @@ def apply_real_photos(slug: str, *, dry_run: bool = False,
         }
         used.add(key)
         applied.append(f"{slot} <- {key} ({a.get('category')}) {w}x{h}")
+        for f in rewrite_alt(slug, f"/images/{fname}", a.get("subject", "")):
+            applied.append(f"    alt rewritten in {f}")
 
     if not dry_run:
         meta_path.parent.mkdir(parents=True, exist_ok=True)
