@@ -15,7 +15,7 @@
     "url_count": 74,
     "generated_at": "2026-07-23T06:14:51.581517+00:00"
   },
-  "updated_at": "2026-08-05T04:51:57.071881+00:00",
+  "updated_at": "2026-08-05T05:17:26.779854+00:00",
   "build": {
     "scaffolded_at": "2026-07-23T06:15:02.233709+00:00",
     "github_repo": "restorationai/puroclean-east-las-vegas-site",
@@ -24,16 +24,21 @@
     "url_count": 74,
     "pages_status": "exists",
     "last_rendered_at": "2026-07-23T06:31:03.636344+00:00",
-    "last_pushed_staging_at": "2026-08-05T03:31:53.339247+00:00",
-    "last_pushed_main_at": "2026-08-05T04:51:57.071837+00:00"
+    "last_pushed_staging_at": "2026-08-05T05:15:30.764005+00:00",
+    "last_pushed_main_at": "2026-08-05T05:17:25.489606+00:00"
   },
   "build_status": "pushed_main",
-  "indexnow_key": "bd22fd19c80c4d38ba4a3ca0660ab012",
+  "indexnow_key": "4ee9211aefa640b59f8a664f6e3f49ff",
   "indexnow_key_history": [
     {
       "key": "9695d271745241159fb7ca3239c78edf",
       "retired_at": "2026-08-05T04:36:24.271025+00:00",
       "reason": "manual --rotate"
+    },
+    {
+      "key": "bd22fd19c80c4d38ba4a3ca0660ab012",
+      "retired_at": "2026-08-05T05:17:26.779845+00:00",
+      "reason": "bing 403 UserForbiddedToAccessSite on purocleaneastlasvegas.com"
     }
   ]
 }
