@@ -88,9 +88,11 @@ def geo_cues(city: str, state: str) -> str:
 # Sensitive services follow the style-guide guardrail: full PPE in a CLEAN,
 # prepped, neutral space — never the scene itself, nothing graphic.
 _SENSITIVE_SCENE = (
-    "a technician in full PPE (Tyvek suit, respirator, double gloves) staging "
-    "sealed cleanup supplies in a clean, prepped, neutral interior space — "
-    "calm, discreet and professional, absolutely nothing graphic")
+    "a technician sealed inside a FULL hooded Tyvek coverall — zipper closed "
+    "to the throat, hood pulled up over the head, full-face respirator, double "
+    "gloves, wrists and ankles taped — staging sealed cleanup supplies in a "
+    "clean, prepped, neutral interior space, calm, discreet and professional, "
+    "absolutely nothing graphic")
 SERVICE_SCENES = {
     "water-damage-restoration": "a technician kneeling to hold a moisture meter against water-stained drywall while axial air movers and an LGR dehumidifier run across the wet floor behind them",
     "flood-damage-restoration": "a technician guiding a weighted extraction wand across a flooded floor, standing water still visible, extraction hose trailing out the doorway",
@@ -98,14 +100,14 @@ SERVICE_SCENES = {
     "burst-pipe-repair": "a technician shutting off a water supply valve at a burst copper pipe while drying equipment sits staged behind them",
     "appliance-leak-cleanup": "a technician examining a failed washing-machine supply line, towels down and a portable extraction unit staged nearby",
     "frozen-pipe-restoration": "a technician wrapping insulation on an exposed copper pipe in a cold utility space, drying equipment staged on the floor",
-    "sewage-cleanup": "a technician in full PPE (Tyvek suit, gloves, respirator) running an extraction wand across a bathroom floor, containment plastic taped at the doorway — clean professional framing, nothing graphic",
+    "sewage-cleanup": "a technician sealed inside a FULL hooded Tyvek coverall (zipper closed to the throat, hood up, full-face respirator, gloves, wrists and ankles taped) running an extraction wand across a bathroom floor, containment plastic taped at the doorway — clean professional framing, nothing graphic",
     "storm-damage-restoration": "a technician on a ladder securing a heavy tarp over a wind-damaged roof section, scattered branches below, {van} parked at the curb",
     "roof-leak-repair": "a technician on a roof inspecting lifted shingles around a leak point, {van} parked on the street below",
     "fire-damage-restoration": "a technician in a Tyvek suit and respirator running a HEPA air scrubber in a room with charred drywall and soot-darkened surfaces",
     "smoke-damage-restoration": "a technician dry-sponging smoke residue off a wall, clean streaks showing against the gray film, air scrubber running behind",
     "soot-removal": "a technician wiping matte black soot from a wall with a chemical sponge, drop cloths protecting the floor",
     "odor-removal": "a technician setting up a hydroxyl generator in a living room with subtle smoke staining on the walls",
-    "mold-remediation": "a technician in a full Tyvek suit and respirator HEPA-vacuuming a mold-stained wall inside a poly-sheeting containment zone, air scrubber running",
+    "mold-remediation": "a technician sealed inside a FULL hooded Tyvek coverall (zipper closed to the throat, hood up, respirator) HEPA-vacuuming a mold-stained wall inside a poly-sheeting containment zone, air scrubber running",
     "mold-inspection-testing": "a technician holding an air-sampling pump cassette near a suspect wall corner, moisture meter and flashlight in hand",
     "biohazard-cleanup": _SENSITIVE_SCENE,
     "trauma-scene-cleanup": _SENSITIVE_SCENE,
@@ -134,10 +136,15 @@ def generate_service_images(*, slug: str, geo: str, guide: str,
                             refs: list, van: str,
                             logo_rule: str, img_dir: Path,
                             crew: str = "", mood: str = "",
-                            equip: str = "") -> int:
+                            equip: str = "", redo: set | None = None) -> int:
     """One image per src/content/services/*.md page, named {service_slug}.webp
     so serviceImage() resolves it. Existing base images are never overwritten
-    (missing variants + manifest entries are still backfilled)."""
+    (missing variants + manifest entries are still backfilled) — EXCEPT the
+    service slugs named in `redo`, the client-correction path (2026-08-05,
+    PuroClean): when a client rejects a shipped image the only way to fix it
+    was to delete files by hand, so the rule now has one explicit, named
+    opt-out instead of an implicit one."""
+    redo = redo or set()
     from PIL import Image
     from resize_images import VARIANT_WIDTHS, open_rgb, variant_bytes, variant_path
 
@@ -160,9 +167,13 @@ def generate_service_images(*, slug: str, geo: str, guide: str,
         display = _fm_field(text, "service_display") or md.stem.replace("-", " ").title()
         out = out_dir / f"{svc_slug}.webp"
 
-        if out.exists():
+        if out.exists() and svc_slug not in redo:
             print(f"  services/{out.name}: exists — kept (never overwritten)")
         else:
+            if out.exists():
+                print(f"  services/{out.name}: REDO requested — regenerating")
+                for w in VARIANT_WIDTHS:
+                    variant_path(out, w).unlink(missing_ok=True)
             scene = SERVICE_SCENES.get(
                 svc_slug,
                 f"a uniformed restoration technician performing {display} work "
@@ -214,6 +225,10 @@ def main() -> int:
     ap.add_argument("--services", action="store_true",
                     help="generate one image per src/content/services/ page "
                          "(existing images are never overwritten, --force included)")
+    ap.add_argument("--redo", default="",
+                    help="comma-separated service_slugs to regenerate even "
+                         "though they exist — the client-correction path "
+                         "(e.g. --redo mold-remediation,sewage-cleanup)")
     args = ap.parse_args()
     slug = args.slug
 
@@ -283,7 +298,25 @@ def main() -> int:
         else:
             print(f"  WARNING: LIVERY-REFERENCE {lp} not found — skipping")
 
-    refs = [r for r in (*livery_pngs, logo_png) if r]
+    # PPE-REFERENCE (2026-08-05, PuroClean): same mechanism as LIVERY-REFERENCE
+    # but for what the crew WEARS. Greg Arianoff rejected the first service set
+    # because the Tyvek suits came back worn like open jackets — unzipped, hood
+    # down, one pulled down and tied around the waist over the polo ("wearing
+    # the suit around waist is frowned upon"). Words alone did not carry
+    # "sealed"; his franchise's required-attire page, which draws the sealed
+    # suit, does. Declared in the style guide as
+    #   PPE-REFERENCE: harvested/<file>
+    # relative to clients/{slug}/, and rides into every generation.
+    ppe_pngs: list[bytes] = []
+    for m_ppe in re.finditer(r"PPE-REFERENCE:\s*(\S+)", guide_full):
+        pp = ROOT / "clients" / slug / m_ppe.group(1).strip()
+        if pp.exists():
+            ppe_pngs.append(pp.read_bytes())
+            print(f"  PPE reference: {pp.relative_to(ROOT)}")
+        else:
+            print(f"  WARNING: PPE-REFERENCE {pp} not found — skipping")
+
+    refs = [r for r in (*livery_pngs, *ppe_pngs, logo_png) if r]
     if livery_pngs:
         van = (f"a fleet of two-three matching service vans wrapped in EXACTLY "
                f"the livery shown in the reference image(s) of the company's "
@@ -347,10 +380,11 @@ def main() -> int:
         print("  fleet-continuity reference: public/images/hero-bg.webp")
 
     if args.services:
-        return generate_service_images(slug=slug, geo=geo, guide=guide,
-                                       refs=refs, van=van,
-                                       logo_rule=logo_rule, img_dir=img_dir,
-                                       crew=crew, mood=mood, equip=equip)
+        return generate_service_images(
+            slug=slug, geo=geo, guide=guide, refs=refs, van=van,
+            logo_rule=logo_rule, img_dir=img_dir, crew=crew, mood=mood,
+            equip=equip,
+            redo={s.strip() for s in args.redo.split(",") if s.strip()})
 
     SHOTS = {
         "hero-bg.webp": (
