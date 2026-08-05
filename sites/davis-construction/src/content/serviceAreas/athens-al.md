@@ -49,4 +49,12 @@ Once mitigation is complete, most homeowners need more than drywall patches. Dav
 
 Our headquarters in Madison is roughly 15 miles from central Athens via US-72. Under normal traffic, that puts a crew at a Downtown Athens address in 20–25 minutes and at properties along the East Limestone Road corridor in 30–35 minutes. We target a two-hour maximum from first call to technician on-site anywhere in the 35611 and 35613 ZIP codes — including Westover Hills and Sanderfer Heights. After-hours calls go to the same dispatch line: (256) 771-0326.
 
+## Building stock, site conditions, and permits in Athens
+
+Behind that mid-century brick veneer you usually find galvanized steel or early copper supply lines and cast iron drains. Galvanized closes up with rust and fails at threaded joints; cast iron stacks crack at the hub. Houses built in the late 1980s and 1990s around Athens may still have polybutylene supply, which splits without warning and floods a slab home fast.
+
+This is limestone country. Soils sit over fractured carbonate rock, so surface water tends to disappear into the ground rather than sheet away, and drainage can behave differently from one lot to the next.
+
+Structural repair or rebuild inside the city limits is permitted through the City of Athens; addresses past the city line fall to Limestone County. Alabama enforces a statewide residential code locally, and anything touching framing, roof structure, or electrical service generally triggers a permit and inspection.
+
 If you're dealing with water, fire, smoke, or mold damage anywhere in Athens, call Davis Construction Contractors at **(256) 771-0326**. We'll tell you honestly what you're dealing with, what it will take to fix it, and how your insurance coverage applies — before any work begins.

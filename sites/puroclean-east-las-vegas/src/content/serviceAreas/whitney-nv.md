@@ -49,4 +49,12 @@ For unattended situations, sewage backups, or other biohazard events in Whitney'
 
 Our East Las Vegas base puts Whitney directly in our primary service zone. Whitney Ranch, in the southeastern portion of the 89122 ZIP code, is a straightforward run south on Pecos Road or east via Flamingo — typically a short drive under normal traffic. Winterwood and the East Tropicana corridor are similarly close via Tropicana Avenue heading east from our location. We do not publish a minute guarantee, but Whitney is not a distant suburb — it is adjacent territory, and we prioritize it accordingly. Call us at (702) 551-3040 to confirm current scheduling and availability.
 
+## Building stock, site conditions, and permits in Whitney
+
+Whitney is unincorporated Clark County, so structural repairs and rebuilds are permitted through Clark County Building and Fire Prevention rather than the City of Las Vegas or Henderson — worth knowing before anyone starts opening walls. Reframing, re-roofing, and electrical or gas work generally trigger a permit; cosmetic drywall replacement usually does not.
+
+The typical assembly here is wood frame with stucco over paper and wire lath, sitting on a slab poured over compacted desert soil with caliche often close beneath. Stucco holds water against sheathing long after the surface looks dry, so exterior walls need meter readings, not visual checks. Because there are no basements or crawlspaces, water spreads flat and wicks up into baseboards and bottom plates.
+
+Concrete tile and low-slope roofs both fail at the underlayment first, which is where UV and heat do their damage.
+
 If you're dealing with water, fire, mold, or a biohazard situation at a Whitney property right now, call PuroClean of East Las Vegas at **(702) 551-3040**. We serve the 89122, 89142, and surrounding ZIP codes and can schedule an assessment promptly.

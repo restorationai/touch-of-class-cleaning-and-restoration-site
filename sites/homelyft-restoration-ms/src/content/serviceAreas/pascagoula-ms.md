@@ -49,4 +49,10 @@ Once mitigation is complete, many property owners want a single contractor to ha
 
 HomeLyft Restoration MS is based in Gulfport, roughly 45 miles west of Pascagoula via US-90 or I-10. Both routes are well-traveled and accessible in most weather conditions, though US-90 through Bay St. Louis, Waveland, and Biloxi gives crews a direct coastal path when interstate access is clear. We serve the full Pascagoula area, including properties along the waterfront, inland residential streets, and commercial corridors near the port. Scheduling is handled during our business hours — call (228) 284-5200 to confirm availability and get a crew dispatched as quickly as our current schedule allows.
 
+## Building stock, site conditions, and permits in Pascagoula
+
+Pre-1978 homes here almost always carry lead paint, and mid-century floors often hide 9x9 vinyl-asbestos tile set in black mastic. Both change how demo is sequenced — testing first, containment second, then removal. Interior walls of that era may be plaster over gypsum lath rather than modern drywall, which holds water far longer than it looks like it should. Homes built from the late 1970s onward are typically slab-on-grade, and slabs on sandy coastal soil wick moisture up into bottom plates and baseboard long after the surface reads dry.
+
+Building permits inside the city limits come from Pascagoula; properties outside them go through Jackson County. Structural repair, roof replacement, and rebuilds generally trigger one. Because this is a coastal county, flood-zone elevation rules and the 50-percent substantial-improvement threshold can reshape a rebuild scope, so that gets checked before demo, not after.
+
 If you're dealing with water, fire, smoke, or mold damage anywhere in the Pascagoula area, call HomeLyft Restoration MS at (228) 284-5200. We'll assess the situation, explain what needs to happen, and get the work scheduled without the runaround.

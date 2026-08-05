@@ -45,4 +45,10 @@ The DFW hail corridor compounds everything. Wind and hail claims in Grand Prairi
 
 MCC Restoration and Contracting Services is based in Duncanville, which sits directly south of Grand Prairie along the 67/Cockrell Hill corridor. Reaching the north end of Grand Prairie — Dalworth, Westchester, the 75050 and 75051 ZIP codes — is a straightforward run up Highway 303 or I-30. The south end, including Grand Peninsula and Mira Lagos near Joe Pool Lake, is accessible via Lake Ridge Parkway heading southeast from Duncanville, typically a short drive under normal traffic conditions. Call us at (682) 772-9123 to reach a team member who can confirm scheduling and get a crew dispatched to your address.
 
+## Building stock, site conditions, and permits in Grand Prairie
+
+Most of Grand Prairie sits on the shrink-swell clay common to this stretch of North Texas, which moves seasonally and works against slab-on-grade foundations. Post-war homes on the north end are typically brick veneer over wood frame with plaster or early gypsum board, and some carry pier-and-beam sections — once water gets under either, the subfloor and sill areas hold moisture long after the surface looks dry. Pre-1978 finishes may involve lead paint, and pre-1980s flooring, mastic, and popcorn texture can contain asbestos, so testing comes before demolition.
+
+South-end subdivisions are newer construction on graded and filled lots with HOA architectural rules that affect exterior repairs. Structural repair and rebuild work is permitted and inspected by the City of Grand Prairie; framing, roofing, electrical, and plumbing changes generally trigger it.
+
 If you are dealing with water, fire, mold, or storm damage anywhere in Grand Prairie, call MCC Restoration and Contracting Services at **(682) 772-9123**. We will walk you through next steps, answer your insurance questions, and get a team to your property.

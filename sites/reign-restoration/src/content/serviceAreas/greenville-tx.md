@@ -49,4 +49,10 @@ Once mitigation is complete, many property owners don't want to manage a separat
 
 From Reign Restoration's home base in Royse City, the standard route to Greenville runs northeast on US-380, a straightforward drive that puts us in the city without navigating major interchange congestion. The distance is approximately 30 miles. While we don't publish a guaranteed on-site minute window, Greenville is well within our regular service corridor — not an outlier dispatch. When you call (214) 304-0621, you'll speak with someone who can give you a realistic arrival estimate based on current crew availability and where in Greenville the property is located.
 
+## Building stock, site conditions, and permits in Greenville
+
+Greenville's older core still has frame houses on pier-and-beam foundations with shiplap sheathing and, in the oldest ones, plaster over wood lath. Those crawlspaces hold humidity long after the leak is fixed, and plaster dries at a different rate than the drywall patched in beside it. Homes built before the late 1970s also warrant lead-safe practices during demo. Newer subdivisions sit on post-tensioned slabs with supply lines run through unconditioned attics — the assembly that fails during a hard North Texas freeze, dumping water down two floors at once.
+
+Structural repair, reroofing, and electrical or plumbing replacement generally require a permit from the City of Greenville, and properties near creek bottoms may face floodplain review before rebuild. We plan that step into the scope rather than discovering it mid-reconstruction.
+
 If you're dealing with water, fire, mold, or storm damage at a Greenville property, call Reign Restoration at **(214) 304-0621**. We'll assess what you're facing, walk you through the process, and get documentation started so your claim doesn't stall.

@@ -49,4 +49,12 @@ Because we handle both mitigation and rebuild, there is no handoff gap — the s
 
 The Restoration Group operates 24/7, and our Kenilworth office sits roughly 12 to 14 miles from Fair Lawn via Route 17 North or the Garden State Parkway to Route 208 — a straightforward run that keeps drive time short even in Bergen County traffic. We cover the entire borough: the historic blocks of the Radburn Historic District, the residential streets around Saddle River County Park, the commercial strip along the Broadway commercial district, and the flood-prone stretches of River Road. When you call (855) 650-7422, a live dispatcher answers and gets a crew moving — no voicemail queue, no next-business-day callback.
 
+## Building stock, site conditions, and permits in Fair Lawn
+
+Most of the borough's homes were built between the late 1920s and the mid-1950s, which means wood framing, plaster over wood lath rather than drywall, and full basements rather than slabs or crawlspaces. Plaster holds water differently than gypsum board — it can look dry at the surface while the lath and the stud cavity behind it stay wet for days, so drying here usually means controlled cavity access instead of gutting a whole wall.
+
+The ground near the Passaic and Saddle rivers is river-deposited sand and silt over glacial material, which drains unevenly and pushes groundwater against old block and stone foundations. Footings in this part of New Jersey are set below a frost line near three feet.
+
+Structural repair and rebuild permits go through Fair Lawn's construction office under the New Jersey Uniform Construction Code, with separate building, electrical, and plumbing subcode approvals. Work in a mapped flood zone brings elevation rules into the scope.
+
 If you are dealing with water, fire, mold, or storm damage anywhere in Fair Lawn — from a flooded River Road basement to smoke damage near Memorial Park — call The Restoration Group at **(855) 650-7422**. We answer every call, every hour, and we can have a crew on the road to you today.

@@ -47,4 +47,12 @@ Once mitigation is complete, the same crew coordinates the rebuild rather than h
 
 Reign Restoration is headquartered in Royse City, roughly 15 miles east of Wylie via US-80. From the HQ, the crew reaches central Wylie in a short drive — typically heading west on US-80 to the FM 544 or Ballard Avenue corridors that run through the heart of the city. Properties on Wylie's north side near Lake Lavon or along the FM 1378 corridor add a few minutes but remain well within the primary service area. Call (214) 304-0621 to confirm scheduling and get an accurate arrival estimate based on current crew location.
 
+## Building stock, site conditions, and permits in Wylie
+
+Most Wylie homes sit on slab-on-grade, and in the newer subdivisions those slabs are usually post-tensioned. That matters after a leak: you cannot cut or core a post-tension slab casually, so line location and tunneling or rerouting through the attic often replace trenching. Brick veneer over wood frame with an asphalt shingle roof is the standard wall and roof assembly here, and veneer holds moisture in the cavity long after the interior looks dry.
+
+The older housing closer to the original town center predates the growth boom, so scopes there plan for cast iron drain stacks, galvanized supply, and pre-1978 lead paint. Attic-mounted air handlers are near-universal locally, and a clogged condensate line drops water through ceilings.
+
+Structural repair and rebuild permits come from the City of Wylie; many newer neighborhoods also add HOA exterior approval.
+
 If you're dealing with water, fire, smoke, or mold damage at a Wylie property, call Reign Restoration at **(214) 304-0621**. We'll assess the damage, walk you through the process, and handle the insurance documentation so the claim moves forward without unnecessary delays.

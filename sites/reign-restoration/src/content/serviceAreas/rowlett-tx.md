@@ -49,4 +49,12 @@ Once mitigation is complete, many homeowners don't want to manage a separate gen
 
 Reign Restoration is headquartered in Royse City, roughly 15 to 18 miles east of Rowlett via I-30. That puts us closer to Rowlett than most firms dispatching from the far side of the metro. Whether a call comes from a home near the lake or a property farther north toward the Rockwall County line, we can dispatch from Royse City without fighting inbound Dallas traffic. Call us at (214) 304-0621 to confirm scheduling availability and get an honest estimate of when a crew can be on-site.
 
+## Building stock, site conditions, and permits in Rowlett
+
+Most of Rowlett is post-1980 tract housing: wood frame with brick veneer, composition shingle roofs, and slab-on-grade foundations. Basements are essentially nonexistent here, so water has nowhere to drain to — it wicks sideways into bottom plates, tack strip, and the paper face of drywall, and it travels under baseboard into rooms that look dry.
+
+Supply plumbing from that era runs the gamut: copper, some polybutylene in late-1980s and early-1990s builds, PEX in newer homes, and cast iron drain lines in the oldest stock. In North Texas, water lines are often routed through the attic, which makes hard freezes an interior-flood risk rather than just a foundation one.
+
+Structural repair, reroofing, and rebuild work is permitted through the City of Rowlett's building inspections staff. Properties in a mapped floodplain near the lake draw extra review.
+
 If you're dealing with water, fire, smoke, or mold damage anywhere in Rowlett, call Reign Restoration at **(214) 304-0621**. We'll assess the situation honestly, explain what the work involves, and get the process moving.

@@ -49,4 +49,10 @@ Rosedale homeowners carry good insurance and expect the finished product to matc
 
 ProRestoration Services operates 24/7 out of Bakersfield. Rosedale is a direct shot northwest via Rosedale Highway (CA-58 Business) or Coffee Road — typically a short drive under normal traffic conditions, closer still for calls originating near the Kern River Parkway western reaches or Froehlich Field. Neighborhoods like Westdale and Rosedale Ranch, which sit at the outer edge of the unincorporated area, add only a few minutes to the run. Because we're dispatching around the clock, there's no waiting for a crew to come on shift — whoever calls at 2 a.m. gets the same response as a midday call.
 
+## Building stock, site conditions, and permits in Rosedale
+
+Almost everything here is stucco over wood frame on a slab, with trussed attics and either concrete tile or composition shingle above. On a slab there is no crawlspace to catch a leak, so water runs flat and fast under baseboards, along the tack strip, and into the paper backing of drywall before it shows. The upside of this vintage: homes built after the early 1990s are past asbestos flooring and lead paint, so demolition scopes stay simpler than in older Bakersfield neighborhoods. Air handlers sitting in unconditioned attics are the trade-off — the leak starts overhead.
+
+Rosedale is unincorporated, so structural repair permits come from Kern County, not the City of Bakersfield. Framing, roof, electrical, and mechanical work generally triggers one; like-for-like finish replacement usually does not. Many of these tracts also carry HOA rules on exterior repairs.
+
 If you're dealing with water, fire, smoke, or mold damage anywhere in Rosedale, call ProRestoration Services at **(661) 393-9306** — we answer every hour of the day and night and can have a crew moving toward your address immediately.

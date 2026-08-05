@@ -49,4 +49,12 @@ Mitigation is only half the job. Once the structure is dry and the damaged mater
 
 Reign Restoration is headquartered in Royse City, TX, roughly 35 miles east of central Frisco via US-380 West. Because we operate 24/7, a crew can be dispatched at any hour. Frisco is a large city — the drive from the eastern edge near Plantation Resort to the western communities near Frisco Lakes and Stonebriar Centre can add meaningful time — so we route crews based on current location and job priority. When you call (214) 304-0621, our dispatcher will give you a realistic arrival estimate based on where your property sits and what crews are available at that moment.
 
+## Building stock, site conditions, and permits in Frisco
+
+Because almost nothing here predates the late 1990s, the era hazards that complicate older DFW housing — asbestos floor tile, lead paint, cast iron drains, galvanized supply — are largely absent. What you get instead is engineered post-tension slab, OSB sheathing under housewrap and brick veneer, and asphalt shingles over attics that are conditioned space in name only. Post-tension matters during a slab leak: cutting concrete to reach a line means locating tendons first, not guessing.
+
+Shallow frost depth means the freeze risk is not buried pipe but attic and exterior-wall runs during a hard North Texas cold snap, which is where uninsulated PEX splits.
+
+Structural repair and rebuild permits go through the City of Frisco, and most master-planned neighborhoods add HOA architectural review for anything visible from the street — roofing, brick, exterior paint.
+
 If you are dealing with water, fire, smoke, or mold damage anywhere in Frisco, call Reign Restoration at **(214) 304-0621** any time, day or night. We will walk you through the immediate steps, dispatch a crew, and handle the insurance documentation from the first call forward.

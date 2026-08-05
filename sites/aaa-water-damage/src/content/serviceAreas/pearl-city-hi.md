@@ -51,4 +51,10 @@ For Pearl City homeowners dealing with post-water-event carpet or simply years o
 
 From our Honolulu base, Pearl City is a straightforward run up H-1 West — roughly 12 to 15 miles depending on the specific neighborhood. We reach Pearl City Peninsula and Waiau near the harbor quickly via the lower interchange, while Pacific Palisades and Momilani higher on the hillside add a few minutes up Moanalua Road or Kaahumanu Street. Because we answer the phone 24 hours a day, seven days a week, we can dispatch the same hour you call — day or night. We serve all of 96782 and the surrounding Pearl City corridors.
 
+## Building stock, site conditions, and permits in Pearl City
+
+Much of the 1960s and 70s tract housing here was framed as single-wall construction — vertical 1x boards that serve as sheathing, structure, and interior finish all at once — or as double-wall over a concrete lower level on the terraced lots. Single-wall walls have no cavity to open up, so drying means treating the boards themselves and watching the base plate where water pools. Homes from that era also commonly hide asbestos-containing vinyl floor tile and mastic, and pre-1978 lead paint, so demolition gets planned before it starts. Original cast-iron drain lines rust from the inside and weep at joints.
+
+On Oahu there is no separate city building department. Permits for structural repair or rebuild in Pearl City come from the City and County of Honolulu's Department of Planning and Permitting, and work near the harbor can fall under FEMA flood-zone requirements.
+
 If you're dealing with water, fire, mold, or a carpet emergency anywhere in Pearl City, call AAA Water Damage Restoration & Carpet Care at **(808) 349-3407**. We're available around the clock and we know these neighborhoods — the hillside drainage patterns, the aging plumbing, the ohana units — so we can move fast and work smart from the moment we arrive.

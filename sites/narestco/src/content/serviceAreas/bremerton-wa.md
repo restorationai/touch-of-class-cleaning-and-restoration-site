@@ -55,4 +55,10 @@ Unattended situations, sewage backups, and trauma scenes require EPA-compliant h
 
 Our Federal Way headquarters puts us roughly 45 to 55 minutes from downtown Bremerton under normal conditions via SR-16 — closer to 35 minutes at off-peak hours. For most calls in **98310** and **98311**, covering Manette, Sheridan Park, and central Bremerton, a technician is on-site within 60 to 90 minutes of your call. We serve all of Bremerton's ZIP codes, including outlying areas near Kitsap Lake, and we coordinate with the Washington State Ferry schedule when crew transport via the Bremerton ferry terminal is the faster route for equipment staging.
 
+## Building stock, site conditions, and permits in Bremerton
+
+Beneath the topsoil on Kitsap's hills sits dense glacial till. Water doesn't drain through it — it perches on top and travels sideways, which is why seepage in a downhill foundation wall often has nothing to do with the plumbing inside the house. Many pre-war homes here sit on shallow cast concrete perimeter walls or post-and-pier framing with board sheathing, so wet framing and subfloor stay wet long after the source is fixed.
+
+Drain-side materials matter as much as supply: cast iron stacks that have rusted thin, and Orangeburg sewer laterals that collapse under older streets. Anything built before 1978 gets treated as lead paint, and mid-century flooring, mastic, and pipe wrap get tested for asbestos — in Kitsap County that demolition notification runs through the Puget Sound Clean Air Agency. Structural repairs and rebuilds are permitted by the City of Bremerton.
+
 If you're dealing with water, mold, fire, or structural damage anywhere in Bremerton, call National Restoration Construction at **(206) 883-0333**. We'll tell you exactly what we're seeing, what it will take to fix it, and how long it will realistically take — no pressure, no guesswork.

@@ -53,4 +53,10 @@ Sewage backups tied to aging municipal infrastructure and septic system failures
 
 HomeLyft Restoration MS is headquartered in Gulfport, roughly 45 miles west of Moss Point via US-90 or I-10 East to MS-63 South. Depending on traffic on the I-10/US-90 interchange and the MS-63 corridor through Escatawba Farms and into the city, our crews are making a straightforward coastal highway run with no significant geographic obstacles. We schedule Moss Point calls promptly and dispatch based on job urgency — contact us at (228) 284-5200 to describe what you're seeing and we'll give you a realistic arrival window at the time you call.
 
+## Building stock, site conditions, and permits in Moss Point
+
+Much of Moss Point's housing went up during the mid-century shipyard and paper-mill years, which means wood-framed walls, board or early plywood roof decking, and finishes that predate 1978. That puts lead paint on the table, along with asbestos-suspect floor tile, mastic, and textured ceiling coatings — so anything that looks like a simple flood cut gets tested or handled as presumed-positive first. Under the newer 1960s-and-later slabs, drain lines are often cast iron with clay or Orangeburg laterals out to the street, and 1980s additions can hide polybutylene.
+
+The soils here are sandy coastal-plain and river alluvium, so water moves fast and comes back up under slabs rather than staying put. Structural repairs and rebuilds are permitted through the City of Moss Point, and in mapped flood areas the substantial-improvement rules and Jackson County's wind-borne debris requirements shape what the rebuild has to look like.
+
 If you're dealing with water, fire, mold, or storm damage anywhere in Moss Point or Jackson County, call HomeLyft Restoration MS at **(228) 284-5200**. Describe what you're seeing and we'll walk you through next steps — no obligation, no pressure, just a clear picture of what the restoration process looks like from where you're standing.

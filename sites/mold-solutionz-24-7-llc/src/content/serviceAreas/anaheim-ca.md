@@ -47,4 +47,12 @@ Once mitigation is complete, most homeowners want a single contractor to carry t
 
 From our Cerritos headquarters, Anaheim is a straight shot east on the 91 freeway — roughly 12 to 15 miles depending on the destination. West Anaheim neighborhoods like Wooded Glen and the area around Knott's Berry Farm are typically the first we reach; central Anaheim near the Resort District and the Anaheim Convention Center follows close behind. The Anaheim Hills neighborhoods in the eastern part of the city add a few miles but are well within our standard service area. Because we operate 24/7, we dispatch on your call — day, night, or weekend — and our routing accounts for the 91's peak-hour congestion so we're not caught flat-footed on a weekday afternoon.
 
+## Building stock, site conditions, and permits in Anaheim
+
+Most of Anaheim's housing went up between the late 1940s and the 1970s, and almost all of it sits on slab-on-grade over Santa Ana River alluvium — sand, silt, and gravel rather than deep clay. There are no basements to speak of. That changes the work: water under a slab has nowhere to drain and travels sideways under flooring and along bottom plates, so we look for it with moisture mapping rather than assuming the wet spot is the whole story.
+
+Anything built before the early 1980s can hold asbestos in popcorn ceilings, sheet vinyl, and joint compound, and pre-1978 paint can be lead-bearing, so testing comes before demolition. Cast iron drain lines of that vintage scale and crack at the hubs.
+
+Structural repairs and rebuilds are permitted through the City of Anaheim's building division under the California Building Code.
+
 If you're dealing with water, mold, fire damage, or an unplanned reconstruction need anywhere in Anaheim, call Mold Solutionz 24/7 at (714) 409-4758. We answer every hour of every day — because restoration emergencies don't wait for business hours.

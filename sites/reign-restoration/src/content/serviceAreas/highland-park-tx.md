@@ -43,4 +43,10 @@ Fire risk here is shaped by the same older construction: knob-and-tube wiring th
 
 Reign Restoration is based in Royse City, roughly 30 miles east of Highland Park via I-30 West into downtown Dallas, then north on US-75 or the Dallas North Tollway. We run 24/7, so a call at 2 a.m. from a property manager watching water spread across a Mockingbird Lane corridor kitchen gets the same dispatch as a midday call. We serve all of Highland Park's ZIP codes — 75205, 75209, and 75219 — and we're familiar with the town's narrow residential streets and the parking constraints around the Dallas Country Club and Highland Park Town Hall areas that can affect equipment staging.
 
+## Building stock, site conditions, and permits in Highland Park
+
+The ground under Highland Park is Blackland Prairie clay, and it swells with rain and shrinks in a Dallas summer drought. That movement racks pier-and-beam foundations, opens gaps at brick and stucco, and can pull a drain line out of alignment under a house — which is why a leak here is often a soil problem wearing a plumbing costume.
+
+Material vintage drives the scope. Homes from the 1910s through the 1930s were plumbed in galvanized steel and cast iron, and where galvanized survives it scales shut and weeps at the threads. Anything built before 1978 gets treated as lead paint until testing says otherwise, and pre-war plaster, pipe wrap, and floor tile mastic warrant asbestos screening before demolition. Structural repairs and rebuilds are permitted and inspected locally at Town Hall.
+
 If you're dealing with a water, fire, mold, or storm damage emergency anywhere in Highland Park, call Reign Restoration at **(214) 304-0621** — we answer every hour of every day and can begin the documentation and stabilization process on the first visit.

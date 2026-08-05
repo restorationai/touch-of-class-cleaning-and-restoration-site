@@ -49,4 +49,12 @@ Restoration work often ends with a gut-renovated room that needs to be rebuilt �
 
 Garretson is approximately 25 miles east of our Sioux Falls headquarters, a straightforward run east on I-90 to Exit 406. From there, we're into Downtown Garretson in minutes. The Palisades area — closer to Palisades State Park on the north end of town — adds a short distance on SD-11, but it's a route we know well. For property managers overseeing rental units near Split Rock Creek, we can coordinate scheduling around tenant access and keep you updated throughout the job. Call us at (605) 965-2727 to discuss timing and get a crew scheduled.
 
+## Building stock, site conditions, and permits in Garretson
+
+Much of Garretson's housing predates modern construction: dimensional-lumber framing, plaster or early gypsum board over lath, and full basements with poured or stone-and-mortar walls. Sioux quartzite sits close to the surface through this part of the Split Rock valley, and the glacial till above it drains unevenly — so basement water often arrives at the cove joint or through a wall crack rather than up through the floor. Frost drives deep here, which keeps working those same joints season after season.
+
+On the systems side, expect galvanized supply lines and cast iron drains in the oldest houses, plus lead paint and possible asbestos in flooring, mastic, and pipe wrap on anything pre-1978 — all of which shapes how demolition is scoped.
+
+South Dakota leaves building code adoption to local government, so structural repair or rebuild inside town is permitted through the City of Garretson; properties outside the limits go through Minnehaha County.
+
 If you're dealing with damage at a Garretson property right now, call (605) 965-2727. We'll talk through what you're seeing, tell you what to expect from the process, and get a crew scheduled.

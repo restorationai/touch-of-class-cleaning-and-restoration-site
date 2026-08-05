@@ -49,4 +49,12 @@ Hail damage to roofing and siding is a near-annual event for many Brookings prop
 
 Brookings is roughly 55 miles north of our Sioux Falls headquarters via I-29 — typically about an hour's drive under normal road conditions. We serve all of Brookings's ZIP codes, including 57006, and reach every part of the city: the neighborhoods around McCrory Gardens, the rental corridors near Children's Museum of South Dakota and the SDSU campus, and the residential streets of the Sexauer Park area. We schedule promptly and keep property owners updated on arrival windows. Call (605) 965-2727 to get on the schedule.
 
+## Building stock, site conditions, and permits in Brookings
+
+Most of eastern South Dakota's frost depth requires footings well below grade, so full basements are the norm here rather than slabs — which is why so much Brookings water damage ends up below grade, in framing that sits on concrete and in finished basement rooms added years after the house was built. The ground is glacial till: mixed clay, silt, and stone that drains slowly and holds water against foundation walls after snowmelt or a heavy summer rain. Drain tile and a working sump matter more than almost anything else on the lot.
+
+Pre-war homes near downtown may still have galvanized supply lines that pinhole from the inside out. Anything built before 1978 gets treated as possible lead paint, and mid-century floor tile and pipe wrap as possible asbestos, until tested.
+
+Structural repair and rebuild work is permitted through the City of Brookings, and replacing framing, sheathing, or roof structure generally triggers one.
+
 If you're dealing with damage in Brookings right now — or trying to get ahead of a problem you suspect is worse than it looks — call Crew Restoration & Construction at **(605) 965-2727**. We'll tell you honestly what we're seeing and what it takes to fix it.

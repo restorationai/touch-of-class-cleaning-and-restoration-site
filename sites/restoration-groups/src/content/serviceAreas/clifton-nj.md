@@ -53,4 +53,10 @@ Once mitigation is complete, the same crew handles structural repairs — framin
 
 From our Kenilworth headquarters, Clifton is a straightforward run: north on Route 22 to the Garden State Parkway, or up Route 21 directly into Delawanna and Lakeview. Montclair Heights and Athenia are accessible via Bloomfield Avenue. Because we operate 24/7, we can dispatch at any hour — there's no after-hours answering service, just a live dispatcher at (855) 650-7422. Neighborhoods in ZIP codes 07012 and 07013 are well within our primary service radius, and we carry the equipment load for both residential and commercial jobs on a single dispatch.
 
+## Building stock, site conditions, and permits in Clifton
+
+Behind the postwar drywall there are era-specific hazards a scope has to plan for: asbestos in nine-inch floor tile, mastic and boiler pipe wrap, lead paint in anything painted before 1978, and buried oil tanks left over from coal-to-oil conversions, which are common across North Jersey. Botany Village's older brick buildings often have plaster over lath, which holds water in the keys long after the surface reads dry and usually has to come off in sheets rather than be dried in place.
+
+The ground here is glacial till and clay with alluvial soil along the Passaic, so water sits against foundation walls instead of draining away. Permits for structural repair or rebuild go through Clifton's construction office under the New Jersey Uniform Construction Code, and work in FEMA-mapped flood areas brings substantial-improvement limits into the conversation.
+
 If you're dealing with water, fire, mold, or structural damage anywhere in Clifton, call (855) 650-7422. We're available around the clock and can be en route before most contractors have called you back.

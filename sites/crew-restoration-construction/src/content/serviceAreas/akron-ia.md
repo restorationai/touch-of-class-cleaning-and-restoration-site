@@ -49,4 +49,12 @@ Once mitigation is complete, the structure still needs to be put back together. 
 
 Crew Restoration & Construction is based in Sioux Falls, SD, roughly 50 miles north of Akron via SD-11 south through Beresford and into Iowa on US-18. That route runs through open highway and is generally reliable year-round, though winter weather on the border corridor can add travel time. We serve the full 51001 ZIP code, including Downtown Akron, the River District, and surrounding rural Plymouth County addresses. When you call (605) 965-2727, we'll give you a straight answer on scheduling and get a crew moving as soon as possible.
 
+## Building stock, site conditions, and permits in Akron
+
+Much of Akron's housing predates World War II, with a second wave of postwar builds. That means wood frame over full basements or partial cellars, plaster and wood lath on the older walls, and dimensional lumber that holds water longer than modern framing. Wet plaster and lath has to be dried differently than drywall — it can look sound while the cavity behind it stays saturated. Western Iowa's deep loess soils over glacial till drain unevenly and settle, so foundation seepage and cracked block walls are common in this vintage.
+
+Expect galvanized supply lines and cast iron drains in the oldest homes, asbestos in old pipe wrap and floor tile, and lead paint under later coats. Frost runs deep here, so buried lines and footings matter.
+
+Permits for structural repair inside town come through the City of Akron; rural Plymouth County addresses go through the county. Work in the Big Sioux floodplain adds a review step.
+
 If you're dealing with water, fire, mold, or storm damage at a property in Akron or anywhere in Plymouth County, call Crew Restoration & Construction at **(605) 965-2727**. We'll walk through what happened, tell you what the process looks like, and get scheduled — no pressure, no runaround.

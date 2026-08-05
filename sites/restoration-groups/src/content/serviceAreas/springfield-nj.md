@@ -49,4 +49,10 @@ Once the damage is mitigated, many Springfield homeowners need more than cleanup
 
 The Restoration Group is based in Kenilworth, which puts Springfield a short drive away via Route 22 east or the Garden State Parkway. From our Kenilworth location, we can reach Springfield Center, the Baltusrol area, and neighborhoods along the Mountain Avenue corridor without navigating through congested downtown routes. Because we operate 24/7, a call at 2 a.m. after a pipe bursts or a sump pump fails gets the same response as a call at noon. We don't quote arrival times in minutes — traffic and job volume vary — but Springfield is among the closest townships we serve from our base.
 
+## Building stock, site conditions, and permits in Springfield
+
+Most Springfield houses from the 1920s through the 1950s are wood-framed with plaster over lath, sitting on masonry block or stone-and-mortar basement walls. Plaster holds water far longer than drywall, so wall cavities in those homes usually need controlled drying rather than a quick tear-out. Expect cast-iron waste stacks, galvanized supply lines in the oldest homes, steam or hot-water radiators, and in pre-war houses the possibility of knob-and-tube wiring, asbestos boiler and duct insulation, or lead paint — all of which change a demolition scope. Buried or abandoned oil tanks are common across this part of Union County.
+
+Near the Watchung slopes the ground is till over traprock, which sheds runoff toward the low spots instead of absorbing it. Structural repairs and rebuilds run through Springfield Township's construction office under New Jersey's Uniform Construction Code.
+
 If you're dealing with water, fire, mold, or structural damage anywhere in Springfield Township — from the Route 22 commercial strip to a cape cod near Jonathan Dayton High School or a home backing up to Meisel Avenue Park — call The Restoration Group at **(908) 970-8533**. We're available around the clock and ready to respond.

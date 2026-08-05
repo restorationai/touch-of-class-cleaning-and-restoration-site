@@ -51,4 +51,12 @@ Once the damage is dry and remediated, we rebuild — drywall, flooring, cabinet
 
 From our Kenilworth headquarters, Hackensack is roughly 18 miles north via the Garden State Parkway to Route 4, or through Rutherford and Teaneck on surface roads. Both routes are well-traveled and we know the traffic patterns. Because we operate 24/7, we can dispatch at any hour — whether the call comes from a property manager in the Central Business District, a landlord with a flooded unit near Foschini Park, or a homeowner in the Heights dealing with a failed water heater. We serve all of Hackensack including the Fairmount, Southside, and Prospect Avenue corridor neighborhoods.
 
+## Building stock, site conditions, and permits in Hackensack
+
+Most of Hackensack's older housing is prewar frame with plaster over wood lath, full basements, and steam or hot-water heat. Once water gets behind plaster it holds moisture far longer than drywall, so drying often means controlled removal rather than fans alone. Anything built before the late 1970s can also carry lead paint, asbestos pipe wrap or floor tile, and leftover knob-and-tube — all of which change a demolition scope before it starts.
+
+The low ground west of the river sits on fine glacial lake clays and silts that drain slowly, which is why basement walls weep for days after a storm. Frost depth in this part of North Jersey means footings and exterior water lines run well below grade.
+
+Repairs are permitted under the New Jersey Uniform Construction Code through Hackensack's construction official, with separate building, electrical, plumbing and fire subcode approvals. Structural work, panel replacement and rewiring all trigger inspections; work in a mapped flood zone brings elevation and substantial-improvement rules into play.
+
 If you're dealing with a water, fire, mold, or storm emergency anywhere in Hackensack, call The Restoration Group at **(855) 650-7422**. We answer around the clock, and we'll tell you exactly what to expect before we arrive.

@@ -49,4 +49,12 @@ Once mitigation is complete, we do not hand you a list of subcontractors and wal
 
 Crew Restoration & Construction is headquartered in Sioux Falls, roughly 40 miles southwest of Flandreau via I-90 East and SD-13 North — a straightforward drive that our crews make regularly for jobs throughout Moody County. We serve all of Flandreau's ZIP code (57028), including properties in the Big Sioux River area, Downtown Flandreau, and neighborhoods on and adjacent to the Flandreau Santee Sioux Reservation. Scheduling is handled by phone at (605) 965-2727; call us to confirm availability and get a crew dispatched as quickly as our current schedule allows.
 
+## Building stock, site conditions, and permits in Flandreau
+
+Much of Flandreau's older housing dates to the railroad and early-farm era, which usually means balloon framing, plaster over wood lath, and fieldstone or soft brick foundations laid up with lime mortar. Wet plaster holds moisture long after the drywall next to it reads dry, and open stud bays let water travel down a full wall before it shows. Mid-century ranches nearby are more likely to have poured basement walls and asbestos-bearing floor tile or pipe wrap, and anything painted before 1978 gets treated as lead until tested.
+
+Plumbing vintage matters too: galvanized supply lines rust closed from the inside and cast iron drains fail at the hub, both quietly.
+
+Structural repairs and rebuilds are permitted through the city, while work on tribal trust land can fall under tribal jurisdiction instead — worth confirming before demolition starts.
+
 If you are dealing with water, fire, smoke, or mold damage at a property in Flandreau or anywhere in Moody County, call Crew Restoration & Construction at **(605) 965-2727**. We will walk you through next steps, answer questions about the insurance process, and get a crew scheduled.

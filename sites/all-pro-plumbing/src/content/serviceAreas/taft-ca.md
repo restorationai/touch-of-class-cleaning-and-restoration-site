@@ -53,4 +53,10 @@ Wall furnace replacements, forced-air furnace service, and AC repairs are steady
 
 All Pro Plumbing Heating and Air is headquartered in Bakersfield. The drive to Taft runs roughly 35 miles southwest — typically down Highway 58 to Highway 33, or via Maricopa Highway depending on traffic and the specific neighborhood. Downtown Taft and Ford City are the first neighborhoods we reach coming in from the north; South Taft and Taft Heights add a few minutes further in. We dispatch 24 hours a day, seven days a week, so an after-hours call in 93268 goes to a live dispatcher, not a voicemail.
 
+## Building stock, site conditions, and permits in Taft
+
+Cottages from the oil-boom decades were typically wood frame with stucco or lap siding, sitting on a shallow raised perimeter with a tight crawlspace, though later infill and additions went in on slab. In a crawlspace that shallow, a supply leak soaks subfloor and joists before anyone notices the smell. Anything built before the late 1970s should be treated as possibly containing asbestos in floor tile, mastic and duct or furnace wrap, and lead paint on trim, so demolition gets tested rather than guessed at.
+
+Permits matter here because the map is split. Work inside Taft city limits goes through the city; Ford City, South Taft and Taft Heights are unincorporated, so those permits run through Kern County. California's statewide building and energy code applies either way, and seismic detailing is not optional this close to the Temblor Range faults.
+
 For plumbing, heating, or air conditioning service anywhere in Taft — Ford City, South Taft, Downtown Taft, Taft Heights, or anywhere else in 93268 — call All Pro Plumbing Heating and Air at **(661) 863-9242**. We answer around the clock and make the run from Bakersfield so you're not waiting on a short list of local options.

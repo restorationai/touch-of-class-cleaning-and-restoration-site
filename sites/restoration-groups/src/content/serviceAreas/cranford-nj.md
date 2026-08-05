@@ -43,4 +43,10 @@ The housing stock makes the damage worse than it looks on the surface. The colon
 
 Our Kenilworth headquarters sits roughly two miles from the Cranford border, with direct access via Route 28 westbound. Sunny Acres and Downtown Cranford are typically our first stops on a Cranford dispatch; Cranford West and Lincoln Park East add a few minutes along North Avenue or South Avenue. Because we operate 24/7, we can take calls and dispatch crews at any hour — a meaningful difference when a sump pump fails at 2 a.m. during a nor'easter and a finished basement is filling fast. Call us at (908) 970-8533 and we will tell you exactly where our nearest available crew is.
 
+## Building stock, site conditions, and permits in Cranford
+
+Behind the plaster in these pre-war colonials and capes you usually find wood lath, balloon-framed exterior walls with open stud bays running floor to floor, and board sheathing under the roof. That framing lets water and smoke travel vertically, so drying and demolition have to follow the cavity rather than the visible stain. Expect cast iron waste stacks, galvanized supply lines that have narrowed with scale, asbestos-bearing pipe and boiler insulation in older mechanical rooms, and lead paint on anything painted before 1978 — all of which shape the scope before a single fan runs.
+
+Soils along the Rahway River are alluvial and hold water, so foundations sit wet long after a storm passes. Structural repairs and rebuilds are permitted through Cranford Township's construction office under New Jersey's Uniform Construction Code, and work in the mapped floodplain brings substantial-improvement review into the conversation.
+
 If your home or building in Cranford has been damaged by water, fire, mold, or a sewage backup, call The Restoration Group at **(908) 970-8533** — any time, day or night. We will walk you through the immediate steps, dispatch a crew, and handle the documentation your insurance carrier needs from the first hour on-site.

@@ -49,4 +49,10 @@ After the drying and remediation work is complete, Flood Fixers can carry the pr
 
 From our San Diego headquarters, a Flood Fixers crew can reach most of La Mesa in 30 to 45 minutes under normal traffic conditions. The Village area and neighborhoods along Baltimore Drive are typically closer to the 30-minute mark. Areas in eastern La Mesa near ZIP code 91941 — including the hillside streets above Lake Murray — run closer to 40 to 50 minutes depending on the time of day and freeway conditions on the 8. We operate 24 hours a day, seven days a week, including holidays, because water doesn't wait for business hours.
 
+## Building stock, site conditions, and permits in La Mesa
+
+Housing here splits between older raised-floor bungalows near the older core and later tract homes built on slab-on-grade. That matters once water gets in: a crawlspace under a raised floor holds humidity for weeks and needs airflow and monitoring, while a slab wicks moisture sideways into bottom plates and baseboards where it is easy to miss. Drain lines of that vintage are often cast iron, which corrodes and cracks at the hub rather than bursting. Anything built before the late 1970s should be treated as potentially containing asbestos in floor tile, mastic, or textured ceilings, and lead paint on trim, so demolition gets tested first.
+
+Structural repair and rebuild permits in La Mesa are issued by the city, under the California Building Code, and reroofing or framing work generally triggers one.
+
 If you're dealing with water, fire, mold, or the aftermath of any of them, call Flood Fixers at (855) 204-1124. A live dispatcher answers around the clock, and a crew can be moving toward La Mesa within minutes of your call.

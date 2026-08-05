@@ -49,4 +49,12 @@ When remediation is complete, we can carry the project through drywall, flooring
 
 From our San Diego headquarters, a Flood Fixers crew can reach most of Carlsbad — ZIP codes 92008, 92009, 92010, and 92011 — in approximately 45 to 60 minutes under normal traffic conditions. Neighborhoods closer to Interstate 5, such as the Village area near Carlsbad State Beach, are typically on the faster end of that window. Inland areas like Bressi Ranch or the eastern portions of La Costa may add 10 to 15 minutes depending on time of day. We answer calls 24 hours a day, every day of the year; the person who picks up can dispatch a crew, not just take a message.
 
+## Building stock, site conditions, and permits in Carlsbad
+
+Most of Carlsbad is slab-on-grade: stucco over wood frame, with concrete tile or composition roofs. That matters after a leak, because water tracks sideways under vinyl, engineered wood, and tile rather than draining anywhere. Carpet tack strip and bottom plates soak first, and drying often means floor removal or injecting air beneath the assembly instead of just running fans in the room.
+
+Copper supply lines run under many of those slabs, and pinhole slab leaks are one of the more common losses across coastal north San Diego County. Homes from the mid-century era can still have cast iron drains; newer subdivisions are largely PEX.
+
+Structural repair and rebuild permits come from the City of Carlsbad's building division, under the California Building Code. Work in the coastal zone can carry additional review, and HOA architectural approval is common in the master-planned areas.
+
 If you're dealing with water, fire, or mold damage at a Carlsbad property right now, call Flood Fixers at **(855) 204-1124**. We'll tell you exactly what to do in the next 30 minutes — and we can have a crew moving toward you while we're still on the phone.

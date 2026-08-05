@@ -55,4 +55,10 @@ Once mitigation is complete, the rebuild begins. From replacing water-damaged ha
 
 MCC Restoration and Contracting Services is headquartered in Duncanville, which sits directly adjacent to Cedar Hill along the US-67 corridor. The drive to most Cedar Hill neighborhoods — Lake Ridge, High Pointe, Bear Creek area — runs roughly 10 to 15 miles depending on the exact address, with no significant traffic barriers between the two cities. We schedule promptly and will give you a realistic arrival window when you call. For non-emergency scoping and estimates, we can typically reach any Cedar Hill address the same day or next business day.
 
+## Building stock, site conditions, and permits in Cedar Hill
+
+Most of Cedar Hill's housing went up during the 1990s and 2000s boom: wood frame with masonry veneer over slab-on-grade, many of them post-tensioned slabs, which changes how a suspected under-slab leak gets located and opened. Homes from the late 1970s through the early 1990s can still have polybutylene supply lines, and nearly everything built since sits with the air handler and its condensate line in the attic — a failed pan or clogged drain there wets ceilings, insulation, and two floors of wall cavity before anyone notices.
+
+Structural repair, reroofing, and plumbing or electrical replacement are permitted through the City of Cedar Hill's building inspections staff; cosmetic drywall and paint generally are not. In the master-planned sections, an HOA architectural review often runs alongside the city's process for anything visible from the street.
+
 If you're dealing with water, fire, mold, or storm damage anywhere in Cedar Hill, call MCC Restoration and Contracting Services at **(682) 772-9123**. We'll walk you through the next steps, explain what the process looks like for your specific situation, and get a crew scheduled.

@@ -51,4 +51,12 @@ For sewage backups, which are not uncommon when aging lateral lines meet saturat
 
 Coastal Restoration Services Inc is headquartered in Vandenberg Village, roughly 20 miles northwest of Nipomo via US-101 South — a straightforward drive down the coast corridor with no significant mountain passes or detour routes. Depending on traffic through Santa Maria, travel time to Nipomo is typically under 30 minutes from dispatch. The same route serves the broader Nipomo area whether the call is coming from the mesa's western edge near Tefft Street or from properties further east toward Willow Road. Property owners and managers can reach the office at **(805) 345-7440** to schedule an assessment or discuss an active loss.
 
+## Building stock, site conditions, and permits in Nipomo
+
+Nipomo is unincorporated, so permits for structural repair, reroofing, or rebuild after a loss come from San Luis Obispo County's building division rather than a city hall. Anything past cosmetic replacement — framing, roof sheathing, moving plumbing or electrical — generally triggers a permit, and work falls under the California Residential Code and Title 24, with seismic bracing expectations that shape how walls get put back.
+
+Most homes here sit on slab-on-grade with stucco over wood frame, so a supply leak travels sideways under flooring instead of draining away. Pre-1980 houses can carry cast iron drains, asbestos in floor tile, mastic, joint compound and textured ceilings, and lead paint — all of which have to be identified before demolition starts.
+
+Much of the mesa is sandy dune soil that drains quickly, and many properties run on septic systems, which matters when a backup involves the leach field rather than the house.
+
 If you're dealing with water intrusion, smoke damage, or a mold concern anywhere in Nipomo or the surrounding San Luis Obispo County area, call Coastal Restoration Services Inc at **(805) 345-7440**. Describe what you're seeing and the team will walk you through next steps — no obligation, no pressure.

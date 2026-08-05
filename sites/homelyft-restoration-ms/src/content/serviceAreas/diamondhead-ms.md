@@ -53,4 +53,12 @@ Sewage backups, which are not uncommon when storm surge overwhelms municipal sys
 
 HomeLyft Restoration MS is based in Gulfport, roughly 25 miles east of Diamondhead via US-90 or I-10. Both routes are well-traveled corridors our crews run regularly, and Diamondhead falls well within our active service area. Call us during business hours and we will schedule a prompt response — the sooner we can assess the damage, the more material and cost we can typically save. For scheduling and questions, reach us at (228) 284-5200.
 
+## Building stock, site conditions, and permits in Diamondhead
+
+Diamondhead began as a master-planned community, so much of the housing went up in a compressed stretch of decades rather than accumulating slowly. That shows up in the plumbing: copper or CPVC supply lines, cast iron drains in the earliest houses, and polybutylene in homes built or repiped during its peak years — a material that tends to fail at the fittings with little warning. Slab-on-grade is as common here as raised construction, and a slab leak can travel under flooring for weeks before it surfaces.
+
+The sandy coastal-plain soils drain fast but sit over a high water table, which keeps crawl spaces and slab edges damp.
+
+Permits for structural repair and rebuild run through the City of Diamondhead, and the property owners association's architectural review often applies on top of that. Flood-zone elevation requirements shape substantial repairs throughout Hancock County.
+
 If you are dealing with water, fire, mold, or storm damage in Diamondhead, the window to limit secondary damage is short. Call HomeLyft Restoration MS at **(228) 284-5200** during business hours to speak with someone who can assess your situation and get a crew scheduled.

@@ -47,4 +47,10 @@ Once mitigation is complete, we handle the rebuild: framing, drywall, insulation
 
 Quality Contracting, Inc. is headquartered in Auburn, and Oxford is a direct shot south on Route 12 — roughly 6 to 8 miles depending on the neighborhood. North Oxford is the closest, sitting just across the town line. Oxford Center and Texas Village add a few minutes further south. We serve all of Oxford, including both 01540 and 01537 ZIP codes. Call us at (508) 756-8800 during business hours and we'll confirm scheduling and get a crew dispatched as quickly as possible.
 
+## Building stock, site conditions, and permits in Oxford
+
+Under the older village housing you often find rubble or fieldstone foundations with parged interiors, while the postwar builds sit on poured concrete or block. Both are unforgiving once water gets in — stone joints wick, and block cores hold moisture long after the floor looks dry. The ground here is glacial till with sandier outwash pockets down in the French River valley, and shallow ledge is common in central Massachusetts, so footing drains and regrading don't always solve a wet cellar.
+
+On anything built before 1978, lead paint is assumed until tested, and pre-1980s homes can hide asbestos in pipe wrap, floor tile, and siding — Massachusetts regulates how that's removed. Structural repair, reroofing, and rebuild work is permitted through the Town of Oxford building department under the state building code, and frost-depth footings run about four feet.
+
 If you're dealing with water, fire, mold, or storm damage anywhere in Oxford — whether you're in a North Oxford neighborhood near the Auburn line or further south toward Buffumville Lake — call Quality Contracting, Inc. at **(508) 756-8800**. We'll talk through what you're seeing, explain the process honestly, and get the right crew scheduled.

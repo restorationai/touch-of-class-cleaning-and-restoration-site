@@ -49,4 +49,12 @@ Once mitigation is complete, many property owners need more than drywall patches
 
 Reign Restoration is headquartered in Royse City, roughly 30 miles east of Richardson via US-80 West to I-635 North, or through Garland on TX-78 depending on traffic. Richardson is well within our active service area, and because we operate 24/7, a call at 2 a.m. from The Reservation or a midday call from a property manager near the University of Texas at Dallas gets the same response. We do not publish a guaranteed on-site minute figure, but Richardson is a routine dispatch for our crews — not an edge-of-territory call.
 
+## Building stock, site conditions, and permits in Richardson
+
+Most Richardson houses are brick veneer over wood frame sitting on slab-on-grade. Basements are essentially nonexistent here, so water spreads sideways into bottom plates and interior partitions instead of draining down. Supply plumbing from those decades is usually copper, with galvanized steel in the earliest blocks and polybutylene in some late-1970s and early-1980s builds; polybutylene tends to fail at the fittings with no warning. Anything built before the late 1970s should be treated as possibly containing asbestos in floor tile, mastic, or textured ceilings, and lead paint on trim, so demolition is tested before it opens up.
+
+Winter matters too: a hard North Texas freeze hits attic-run supply lines, and a burst up there comes down through ceilings.
+
+Permits come from the City of Richardson, whether the address falls on the Dallas or Collin County side. Structural framing work and plumbing or electrical changes during reconstruction generally trigger inspection.
+
 If you're dealing with water, fire, mold, or storm damage anywhere in Richardson — from 75080 to 75082 — call Reign Restoration at (214) 304-0621. We're available around the clock and ready to get to work.

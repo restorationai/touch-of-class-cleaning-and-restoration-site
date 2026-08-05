@@ -47,4 +47,10 @@ After any major loss — fire, flood, or storm — the mitigation work is only h
 
 Quality Contracting, Inc. is based in Auburn, and Sutton is a direct run south on Route 146 — roughly 10 to 12 miles depending on the neighborhood. Manchaug and Wilkinsonville in the southern part of town are a few minutes farther than Sutton Center or South Sutton, but all of Sutton falls well within our regular service area. Call us at (508) 756-8800 during business hours and we'll get a crew scheduled and moving toward your property promptly.
 
+## Building stock, site conditions, and permits in Sutton
+
+Sutton's housing splits roughly in two. The oldest stock — farmhouses along the town's center roads and the worker housing in the mill villages — often sits on fieldstone or rubble foundations where the mortar has washed out, so water arrives through the wall rather than a crack. Those homes commonly still carry cast iron drain lines, galvanized supply, remnants of knob-and-tube, and pre-1978 lead paint, plus asbestos in old pipe wrap and floor tile. Later subdivisions poured concrete on glacial till over ledge, with copper or PEX supply and full basements set below a frost depth of about four feet.
+
+Structural repair and rebuild work is permitted by the Sutton building inspector under the Massachusetts State Building Code. Septic repairs tied to a loss run through Title 5 and the Board of Health.
+
 If your Sutton property has been affected by water, fire, smoke, or mold, call Quality Contracting, Inc. at **(508) 756-8800**. We'll assess the damage, walk you through the process, and work directly with your insurance carrier to document the loss and move the claim forward.

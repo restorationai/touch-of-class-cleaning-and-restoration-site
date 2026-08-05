@@ -49,4 +49,12 @@ Once mitigation is complete, most homeowners don't want to manage a separate con
 
 Our crew is based in Saratoga Springs, which changes the math on response time. For most calls within the city — including neighborhoods like Harvest Hills, Lakeside, and the Ranches — we can have a technician on-site within 30 to 45 minutes of your call. Outlying areas near Redwood Road or the northern edge of the city toward Lehi typically see arrival in under an hour. We take calls 24 hours a day, every day of the year, including holidays. When you call (801) 995-2437, you reach someone who can dispatch immediately — not a national call center.
 
+## Building stock, site conditions, and permits in Saratoga Springs
+
+Most of what stands here is wood-frame construction on engineered trusses with OSB sheathing, vinyl or stucco cladding, and asphalt shingles — assemblies that hold water quietly. Finished basements are the norm rather than the exception in this part of Utah Valley, and a finished basement means carpet pad, framed-out furring, and insulation batts that all have to come back out before the concrete behind them will dry.
+
+The ground here is old Lake Bonneville sediment: fine silts and clays that drain slowly, so exterior water tends to sit against foundation walls instead of moving away.
+
+Structural repair, rewiring, and drain work generally need a permit from the City of Saratoga Springs building division, under Utah's statewide adopted building code. This is Wasatch Fault country, so structural rebuild is reviewed with seismic detailing in mind. Many newer subdivisions also have HOA approval for exterior work.
+
 If you're dealing with water, fire, smoke, or mold damage in Saratoga Springs right now, call (801) 995-2437. We'll tell you honestly what we're seeing and what it takes to fix it — no pressure, no upsell.

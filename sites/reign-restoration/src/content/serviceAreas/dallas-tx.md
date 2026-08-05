@@ -49,4 +49,10 @@ Once mitigation is complete, we can carry the project through full reconstructio
 
 Royse City sits roughly 30 miles east of downtown Dallas via I-30, putting us well within practical reach of the entire city. From our shop, we're on I-30 westbound toward Fair Park and Deep Ellum, or we take US-80 to reach Casa Linda and Lake Highlands before merging onto Loop 12 or Northwest Highway toward Preston Hollow and North Dallas (75230). Uptown and the Klyde Warren Park corridor are a straight shot down I-30 to I-35E north. Because we operate 24/7, a call at 2 a.m. after a pipe freeze near White Rock Lake gets the same response as a Monday morning call — a crew is dispatched, not a voicemail.
 
+## Building stock, site conditions, and permits in Dallas
+
+Prewar East Dallas homes were built with plaster over wood lath, board sheathing, and galvanized supply lines that scale shut and pinhole from the inside. Plaster holds water far longer than drywall, so drying those walls means monitoring the lath cavity, not just the surface. Postwar and 1960s houses moved to copper, then to polybutylene in the late 70s and 80s, which fails at the fittings. Anything built before 1978 gets treated for lead paint, and pre-1980 flooring, mastic, and textured ceilings get tested before demolition. Basements are essentially unheard of here.
+
+Building, plumbing, and electrical permits come from City of Dallas Development Services, and structural framing or reconstruction work triggers one. In Swiss Avenue, Winnetka Heights, and the city's conservation districts, exterior repairs also face historic review before anything is replaced.
+
 If you're dealing with water, fire, mold, or anything in between anywhere in Dallas — from a 1930s Tudor in the M Streets to a high-rise unit in Uptown — call Reign Restoration at (214) 304-0621. We answer every hour of every day.

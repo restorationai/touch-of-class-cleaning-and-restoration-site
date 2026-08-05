@@ -51,4 +51,10 @@ The Route 68 corridor and Forward Township farm properties see wind and hail dam
 
 FireDEX Butler operates 24/7 out of Cranberry Township, roughly 8 to 10 miles south of Evans City via Route 228 to Route 68 — a straightforward run under normal conditions. Evans City Borough, the Callery fringe, and the Forward Township farm roads along the Breakneck Creek valley are all within our regular service area. We dispatch day and night; call (724) 452-7400 and you'll reach a live person who can get a crew moving, not a voicemail that gets returned in the morning.
 
+## Building stock, site conditions, and permits in Evans City
+
+Behind the plaster in these older frame homes is wood lath, and it holds water far longer than drywall — drying it in place takes patience and controlled airflow rather than demolition by default. Interiors from that era also bring era-linked hazards a scope has to plan around: lead paint under later coats, asbestos in pipe wrap and old floor tile, knob-and-tube in untouched attics, and cast iron drain stacks that rust from the inside and weep at the joints. Soils across this part of Butler County run clay-heavy over shale and sandstone, so water that reaches a foundation tends to sit against it.
+
+Structural repair and rebuild work falls under Pennsylvania's Uniform Construction Code, permitted through Evans City Borough or Forward Township depending on the address. Properties in the mapped floodplain near the creek can face additional review.
+
 If you're dealing with a loss in Evans City right now — whether it's a flooded basement off Breakneck Creek, smoke damage in a century-old frame home, or storm damage on a Forward Township property — call FireDEX Butler at **(724) 452-7400**. We've been handling Butler County losses since 1981, and we're available every hour of the day to take your call.

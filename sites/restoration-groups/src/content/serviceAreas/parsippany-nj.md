@@ -53,4 +53,10 @@ Once drying and remediation are complete, we handle the rebuild — framing, dry
 
 The Restoration Group's headquarters in Kenilworth sits roughly 25 miles from Parsippany via I-78 West to I-287 North — a straightforward run that keeps us well within our service radius. We operate 24/7, so a call at any hour reaches a live dispatcher, not a voicemail. Crews can reach Lake Hiawatha, Mount Tabor, and the Waterview commercial corridor without navigating surface-road bottlenecks, and the I-80/287 interchange gives us direct access to the eastern and western ends of the township.
 
+## Building stock, site conditions, and permits in Parsippany
+
+Postwar capes and split-levels here typically sit on block foundations with a basement or partial crawl space, and their interiors are drywall over wood framing — but the Mount Tabor cottages are older, with plaster and lath that holds water far longer than drywall and has to be dried or removed differently. Anything built before the late 1970s can carry lead paint, asbestos floor tile, or asbestos pipe wrap in the basement, and the oldest houses may still have knob-and-tube in reach of a wet ceiling. The valley soils along the Whippany and Troy Brook are glacial and alluvial, so groundwater sits high and pushes back against block walls.
+
+Permits in the township are issued under the New Jersey Uniform Construction Code by the local construction office. Cosmetic replacement usually is not a permit item; framing, electrical, plumbing, and any rebuild in a mapped flood zone are.
+
 If you're dealing with water, fire, mold, or structural damage anywhere in Parsippany-Troy Hills — from a flooded basement in Lake Hiawatha to a smoke-damaged Victorian in Mount Tabor — call The Restoration Group at **(855) 650-7422**. We're available around the clock and will walk you through next steps before a crew ever arrives on site.

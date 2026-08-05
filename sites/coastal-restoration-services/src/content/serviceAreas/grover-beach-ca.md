@@ -51,4 +51,12 @@ For situations involving sewage backups, unattended deaths, or other biohazard c
 
 Coastal Restoration Services is based in Vandenberg Village, which puts Grover Beach roughly 20 to 25 miles to the southeast via US-101. The drive through Santa Maria and into San Luis Obispo County is a straightforward highway run under normal conditions, and the team services Grover Beach and the surrounding Five Cities area regularly. Call (805) 345-7440 to confirm scheduling availability and get an estimated arrival window based on current crew location and job load.
 
+## Building stock, site conditions, and permits in Grover Beach
+
+Beyond the framing era, what usually shapes a scope here is the plumbing and the finishes. Homes from the 1960s and 70s typically run copper supply with cast iron or early ABS drains; anything older may still have galvanized steel, which fails from the inside out and leaks at threaded joints rather than in one dramatic burst. Pre-1978 paint and pre-1980 sheet vinyl, mastic, joint compound, and textured ceilings all have to be treated as suspect until tested, because California requires certified abatement before that material gets disturbed.
+
+The ground near the dunes is largely sand. It drains quickly but gives up little cohesion, so a long undetected leak can undermine bedding under a slab or footing.
+
+Structural repair or rebuild is permitted through the City of Grover Beach building division under the California Building Code, with seismic detailing expected on any framing you open up.
+
 If you're dealing with water, fire, mold, or a situation you're not sure how to categorize, call (805) 345-7440. Describe what you're seeing, and Coastal Restoration Services will tell you honestly what the next step should be.

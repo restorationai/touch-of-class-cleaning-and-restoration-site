@@ -51,4 +51,10 @@ RestorationXpress operates out of Davie, which puts Miramar directly in our prim
 
 Both the rapidly growing western developments along 33029 and the established eastern neighborhoods in 33023 are within our regular coverage area. If you manage a multi-family property or a commercial building near the Miramar Cultural Center, we're familiar with the documentation and scope requirements those losses typically involve.
 
+## Building stock, site conditions, and permits in Miramar
+
+East of Palm Avenue, much of the housing is 1950s–1960s concrete block with stucco, terrazzo or thin tile over a slab, and shallow gable or low-slope roofs. Those blocks hold moisture inside the wall cavity long after the surface feels dry, and galvanized supply lines from that era fail at the threads rather than in one clean break. Western Miramar is largely 1990s-and-later block with wood truss roofs and concrete tile, sitting on engineered fill pads over the sand and limestone typical of this edge of Broward.
+
+Broward is a High-Velocity Hurricane Zone under the Florida Building Code, and the county's Board of Rules and Appeals oversees how it is administered. Permits come from the City of Miramar's building division. Drying and cleaning generally do not need one; roofing, structural framing, electrical, and drywall replacement usually do — and HOA approval is separate.
+
 If you're dealing with a water loss, fire damage, or a mold concern anywhere in Miramar, call RestorationXpress at **(954) 964-6471**. We'll walk you through what to expect before we ever arrive on site.

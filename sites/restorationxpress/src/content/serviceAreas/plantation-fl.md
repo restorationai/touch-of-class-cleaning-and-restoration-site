@@ -45,4 +45,10 @@ Plantation Acres' large lots and mature tree canopy create a specific pattern of
 
 RestorationXpress operates out of Davie, which shares a border with Plantation along University Drive and Nob Hill Road. From our facility, we can reach the 33317 and 33313 ZIP codes via Broward Boulevard in a short drive under normal traffic conditions. Plantation Preserve Golf Course and the neighborhoods east of 441 in ZIP code 33325 are similarly close — typically a straight shot west on Sunrise Boulevard or Peters Road. We serve all of Plantation, including Lauderdale West near the 33313 corridor and the communities surrounding Volunteer Park. We schedule promptly and will give you a realistic arrival window when you call.
 
+## Building stock, site conditions, and permits in Plantation
+
+Most of Plantation's older housing is concrete block with stucco over furring strips, topped by concrete tile or asphalt shingle roofs. Block does not absorb water the way wood framing does, but the furring, drywall, and baseboard against it hold moisture for a long time, and terrazzo or tile set directly on the slab hides it well. Anything from the 1960s or 1970s can also carry asbestos in floor tile mastic, textured ceilings, or old pipe wrap, so demolition scope gets decided before the saw comes out.
+
+Building permits for structural repair, reroofing, and rebuild come from the City of Plantation's building department. Broward sits in Florida's High-Velocity Hurricane Zone, so roof and opening work carries stricter attachment and product-approval requirements. Many Plantation communities also have HOA architectural review on top of the city's.
+
 If you are dealing with water, fire, mold, or storm damage anywhere in Plantation — from Plantation Acres to Plantation Isles — call RestorationXpress at **(954) 964-6471**. We will assess the situation, explain what needs to happen, and get a crew moving.

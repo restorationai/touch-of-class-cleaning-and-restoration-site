@@ -51,4 +51,10 @@ Rental turnovers near MCBH and along the Kaneohe Bay Drive corridor are a consis
 
 From our Honolulu base, Kaneohe is accessible via the H-3 freeway through the Ko'olau tunnels or the Likelike Highway — typically a straightforward drive that puts us in neighborhoods like Ahuimanu, Haiku Village, and the Kaneohe Bay Drive corridor without navigating significant surface-street delays. We also reach Kahaluu and properties near Ho'omaluhia Botanical Garden regularly. Because we operate 24/7, we can dispatch at any hour — call (808) 349-3407 and we'll confirm an arrival window when we pick up.
 
+## Building stock, site conditions, and permits in Kaneohe
+
+Kaneohe's tract housing runs to two patterns: older post-and-pier homes with single-wall or board-and-batten construction, and 1960s-70s slab-on-grade houses, many with hollow-tile (concrete block) walls and asphalt-shingle or metal roofs. Those matter differently when they get wet. Under a post-and-pier floor, wet subfloor and joists dry from below if the crawl space is opened up; a slab wicks moisture up into bottom plates and baseboards and hides it. Cast-iron drain lines of that vintage rust from the inside out, and Formosan termite damage often turns up in the same framing water has already softened.
+
+Structural repair and rebuild permits on Oahu go through the City and County of Honolulu's Department of Planning and Permitting. Pre-1978 homes can carry lead paint, and older flooring and pipe wrap can contain asbestos — both change the scope before demolition starts.
+
 If you're dealing with water, mold, fire damage, or a carpet situation at a Kaneohe property, call us at **(808) 349-3407**. We're available around the clock, and we'll walk you through next steps the moment you reach us.

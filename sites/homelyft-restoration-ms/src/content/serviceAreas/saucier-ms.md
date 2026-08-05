@@ -49,4 +49,12 @@ Once mitigation is complete, many homeowners want one contractor to handle the r
 
 HomeLyft Restoration MS is headquartered in Gulfport, roughly 20 miles south of Saucier via US-49 North. That route is a straightforward drive with no significant interchange delays under normal conditions, putting our crew in Saucier without the routing complexity that affects contractors coming from the east or west along I-10. Properties deeper into the Saucier community — farther off 49 on county roads — add modest travel time, but the same Gulfport-based crew services the full area. Call us at +12282845200 to discuss scheduling and we will give you an honest arrival window based on current crew availability.
 
+## Building stock, site conditions, and permits in Saucier
+
+Saucier is unincorporated, so the paperwork runs through Harrison County rather than a city hall. Structural repair, roof replacement, and reconstruction generally pull a county building permit, and Mississippi's coastal counties carry wind-design requirements that matter once you are re-sheathing or re-roofing. Anything in a mapped flood zone adds elevation and substantial-improvement rules on top.
+
+The ground here is mostly sandy coastal-plain soil with clay lenses underneath. It drains well until it doesn't, which is why crawlspace vapor barriers and slab perimeter grading do most of the real work. Septic systems and private wells are common on larger lots, and a saturated drainfield changes how we handle Category 3 water.
+
+Homes from the 1980s and 1990s may still have polybutylene supply lines. Older houses can hide galvanized steel and cast-iron drains, and a hard January freeze finds every uninsulated run.
+
 If your Saucier property has water damage, smoke damage, or a mold concern you have been putting off, the right time to call is before the problem grows. Reach HomeLyft Restoration MS at +12282845200 to schedule an assessment.

@@ -47,4 +47,12 @@ Delano is Kern County's second-largest city, but it remains underserved by local
 
 ProRestoration Services operates out of Bakersfield, roughly 35 miles north of Delano via Highway 99. That corridor is a straight shot, and our crews travel it regularly for both residential calls in West Delano and commercial jobs along the 99 strip. Because we run 24/7, a call at midnight gets the same dispatch priority as a call at noon. Downtown Delano, the Randolph Street corridor, and the Cecil Avenue corridor are all within our standard coverage zone — no referral to a subcontractor, no hand-off.
 
+## Building stock, site conditions, and permits in Delano
+
+Delano's older core is mostly single-story wood-frame with stucco or lap siding, plaster-and-lath or early drywall inside, and raised perimeter foundations over shallow crawlspaces. Basements are essentially nonexistent here. That crawlspace matters: a supply leak under an old bungalow soaks subfloor and joists from below, and the sill area stays damp long after the visible floor looks dry. Anything built before 1978 gets treated as lead-painted until testing says otherwise, and pre-1980 popcorn ceilings, sheet flooring, and joint compound are sampled before demolition.
+
+The ground is deep valley alluvium — fine sand and silt, quick to soften and slow to shed water once saturated. Winter tule fog keeps outdoor air humid for weeks, so drying leans on dehumidification rather than open windows.
+
+Structural repairs and rebuilds are permitted through the City of Delano's building division under the California Building Code.
+
 If you're dealing with a loss in Delano right now, call ProRestoration Services at **(661) 393-9306**. We're available around the clock, and someone who can actually dispatch a crew will answer.

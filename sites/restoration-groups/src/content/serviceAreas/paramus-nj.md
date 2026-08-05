@@ -45,4 +45,12 @@ On the commercial side, the Route 17 retail corridor and the properties anchored
 
 Kenilworth sits roughly 18 to 20 miles from Paramus via the Garden State Parkway to Route 17 or I-287 to Route 4 — a straightforward run under most conditions. We are available 24 hours a day, seven days a week, and dispatch on emergency calls at any hour. Neighborhoods like Farview and East Paramus near the borough's eastern boundary are typically the quickest to reach from that corridor; West Paramus and the streets near Bergen Community College add a few minutes depending on traffic on Route 17. When you call (855) 650-7422, we give you a realistic arrival estimate based on current conditions — not a marketing promise.
 
+## Building stock, site conditions, and permits in Paramus
+
+Homes from Paramus's postwar build-out typically use wood framing with plaster or early gypsum board, asphalt shingles over plank or plywood decking, and finished basements added years after the fact. That matters once water gets in: paneling and framed-out basement walls trap moisture behind them, and drying means opening the assembly rather than aiming fans at the surface. Anything built before the late 1970s should be treated as possible asbestos floor tile, mastic, or pipe wrap and lead paint until testing says otherwise.
+
+Northeastern Bergen County sits on glacial till and silty soils over shale bedrock, so groundwater perches and pushes at foundation walls instead of draining. Footings here are set below a frost depth of roughly three feet.
+
+Construction permits for structural repair or rebuild come from the Paramus building department under the New Jersey Uniform Construction Code, with added floodplain review near the Saddle River.
+
 If you are dealing with a loss in Paramus — whether it happened overnight or has been quietly worsening for weeks — call The Restoration Group at **(855) 650-7422**. We will walk you through next steps, help you understand what your insurance policy likely covers, and get someone on-site as quickly as the route allows.

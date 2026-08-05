@@ -49,4 +49,12 @@ Once mitigation is complete, many property owners need the damaged areas rebuilt
 
 HomeLyft Restoration MS is headquartered in Gulfport, which sits roughly 90 miles south of Soso via US-49 North. That route runs directly through the heart of Jones County and is the primary corridor the crew travels to reach properties in the Soso area. Scheduling is handled by phone at +12282845200 — callers can reach the team during business hours to arrange prompt dispatch. Property managers coordinating access for tenants or handling multiple units should mention that on the first call so logistics can be planned accordingly.
 
+## Building stock, site conditions, and permits in Soso
+
+Soso is an unincorporated community, so there is no city hall issuing permits here. Structural repair, re-roofing, and rebuild work is handled at the county level through Jones County, and rural properties often sit on private wells and septic — onsite wastewater in Mississippi falls under the state health department, which matters when a saturated drainfield is part of the picture rather than a plumbing failure inside the house.
+
+Age drives the hazards. In homes built before 1978, lead paint has to be assumed until testing says otherwise, and pre-1980 sheet flooring, floor tile, and joint compound can contain asbestos, so demolition gets tested rather than guessed at. Cast iron drain lines from that era crack and separate at the hub, leaking under floors long before anything shows above.
+
+Hard freezes are short here but real, and they break uninsulated supply lines running through open crawl spaces.
+
 If you're dealing with water intrusion, smoke damage, or a mold concern anywhere in the Soso area, call HomeLyft Restoration MS at **+12282845200**. Describe what you're seeing and the team will walk you through next steps, help you understand what documentation your insurance carrier will need, and schedule an assessment as quickly as the calendar allows.

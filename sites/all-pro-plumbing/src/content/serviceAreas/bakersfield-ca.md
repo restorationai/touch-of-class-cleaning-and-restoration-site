@@ -49,4 +49,10 @@ Then there's the summer heat. Bakersfield regularly strings together weeks above
 
 All Pro Plumbing Heating and Air is headquartered in Bakersfield, so every neighborhood in the city is a local run. Silver Creek and Seven Oaks in the southwest, Riverlakes Ranch in the northwest, East Bakersfield (93306, 93307) out toward the Kern County Museum, and everything in between — we're on the road from inside city limits. Because we dispatch 24/7, an after-midnight call from a property manager in Downtown Bakersfield or a Sunday-morning call from a homeowner near Cal State Bakersfield gets the same response as a weekday afternoon job.
 
+## Building stock, site conditions, and permits in Bakersfield
+
+Much of the city's housing went up in the postwar tract boom through the 1970s: wood frame with stucco, shallow-pitch composition shingle roofs, and heating and cooling ducts run through an unconditioned attic. That attic location matters, because a duct or condensate failure up there drips into ceiling drywall long before anyone sees it. Homes built before 1978 can carry lead paint, and pre-1980 textured ceilings and old duct wrap can contain asbestos, so opening walls in the older tracts calls for testing first.
+
+The ground here is deep valley alluvium off the Kern River — silts, sands, and clay layers that shift with moisture. Kern County sits in active seismic country, and California's building code carries the seismic and Title 24 energy provisions. Permits for structural repair inside city limits come from Bakersfield's building division; properties outside the line go through Kern County.
+
 If you're dealing with a plumbing, drain, heating, or AC problem anywhere in Bakersfield, call (661) 863-9242. We're local, we're available around the clock, and we'll give you a straight answer on what the repair involves before any work begins.

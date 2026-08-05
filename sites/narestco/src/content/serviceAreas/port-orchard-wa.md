@@ -48,4 +48,10 @@ When remediation uncovers damaged framing, subfloor, or drywall, we rebuild. Hol
 
 National Restoration Construction's headquarters is in Federal Way. Port Orchard sits roughly 35 to 45 minutes from our staging location under normal conditions via SR-16 — which means most Port Orchard calls see a technician on-site within **60 to 75 minutes** of first contact, day or night. Neighborhoods closer to the SR-16 corridor, including McCormick Woods and South Kitsap's inland areas, typically land at the shorter end of that range. The Annapolis and waterfront areas near the Port Orchard Marina may add a few minutes depending on traffic through the downtown corridor. We cover all of 98366 and 98367.
 
+## Building stock, site conditions, and permits in Port Orchard
+
+Much of the older inventory around Annapolis, Retsil, and the streets above Bay Street is mid-century or earlier: wood framing on a vented crawlspace, shallow footings, and later additions stacked on top. Full basements are uncommon here. Under a lot of South Kitsap the soil is glacial till — dense hardpan that water won't soak through, so rain travels sideways above it and shows up against foundations and in crawlspaces on sloping lots. Pre-1978 homes should be treated as lead-paint until tested, and pre-1980 flooring, mastic, and joint compound as possible asbestos, which changes how demolition is scoped.
+
+Permits matter for where you sit. Inside city limits, structural repair and rebuild permits come from the City of Port Orchard; unincorporated South Kitsap goes through Kitsap County. Everything is built to the Washington State Building Code, and Puget Sound seismic requirements apply to structural work.
+
 If you're facing a water, fire, mold, or sewage emergency in Port Orchard, don't wait to see whether it gets worse. Call National Restoration Construction at **(206) 883-0333** — we answer around the clock.

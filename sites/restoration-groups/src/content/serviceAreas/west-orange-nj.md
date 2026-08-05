@@ -53,4 +53,12 @@ Once the damage is dry and remediated, the rebuild begins. We handle carpentry, 
 
 The Restoration Group is headquartered in Kenilworth, roughly 10 miles from West Orange via Route 22 West to I-78 West to Route 10 — a straightforward run that keeps us close to every part of town, from the Redwood neighborhood near the Eagle Rock Reservation to the commercial strip along Prospect Avenue. We operate 24 hours a day, 7 days a week, so a call at 2 a.m. after a basement flood reaches a live dispatcher, not a voicemail.
 
+## Building stock, site conditions, and permits in West Orange
+
+The ridge that West Orange sits on is trap rock under a thin skin of glacial till, so basements were often blasted or cut into rock and the soil around them drains poorly. Water tends to follow the backfill down the foundation wall rather than soak away, which is why below-grade waterproofing and footing drains matter more here than in flatter parts of Essex County. Footings go below roughly a three-foot frost line.
+
+In the older houses, expect galvanized supply lines that scale shut, cast iron drains that rot at the hub, and boiler or steam-pipe insulation that can contain asbestos. Anything pre-1978 gets treated as lead paint until tested.
+
+Structural repair and rebuild work is permitted through West Orange's construction office under the New Jersey Uniform Construction Code, with separate building, plumbing, electrical and fire subcodes.
+
 If you're dealing with water, fire, mold, or storm damage anywhere in West Orange — from a finished basement in Pleasantdale to a commercial space near Turtle Back Zoo — call The Restoration Group at **(855) 650-7422**. We're available around the clock and ready to get to work.

@@ -57,4 +57,10 @@ When damage goes beyond remediation — a collapsed section of a stone foundatio
 
 FireDEX Butler's Cranberry Township headquarters puts Zelienople within easy reach via Route 19 north, a direct corridor that connects the two communities without highway interchange delays. The Four Corners area and Jackson Township are accessible from the same route, while neighborhoods closer to the Zelienople Municipal Airport or the Harmony borders are a short additional drive east or west. Because we operate 24/7, a call at 2 a.m. after a basement flood gets the same dispatch priority as a midday call — crews are staged and available around the clock.
 
+## Building stock, site conditions, and permits in Zelienople
+
+Beyond the stone-foundation cellars downtown, most Zelienople houses put a full basement under the living space, so water almost always ends up in the lowest, most finished part of the building. Pre-1978 structures should be treated as having lead paint, and pre-war and mid-century buildings often hide asbestos in floor tile, mastic, and pipe wrap — that changes how demolition gets scoped. Cast iron drain stacks and clay tile laterals of the same vintage crack and back up long before the supply side gives out. Frost depth in this part of western Pennsylvania runs to roughly three feet, so shallow lines and hose bibs are a winter risk.
+
+Building permits come from the borough for Zelienople addresses and from Jackson Township for those outside it, both working under Pennsylvania's Uniform Construction Code. Structural repair, framing replacement, and electrical or plumbing rework generally trigger one.
+
 If you're dealing with water, fire, smoke, or mold damage anywhere in the 16063 ZIP code, call FireDEX Butler at **(724) 452-7400** — day or night. The sooner the assessment begins, the more of your structure and contents we can protect.

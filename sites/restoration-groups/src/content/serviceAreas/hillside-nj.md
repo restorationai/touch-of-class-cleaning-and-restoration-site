@@ -53,4 +53,12 @@ Once the damage is dry and documented, we handle the rebuild — framing, drywal
 
 The Restoration Group is headquartered in Kenilworth, which sits directly adjacent to Hillside's western boundary. The drive from our facility to Hillside Center or the Winans neighborhood runs under three miles by way of North Michigan Avenue or Boulevard. Reaching Coe's Corner or the Conant Street area adds only a few minutes. Because we operate 24/7, a call at any hour connects you with a live dispatcher who can route a crew — not a voicemail box that gets checked in the morning. We serve the full 07205 ZIP code, including properties near Evergreen Cemetery and along the Route 22 corridor.
 
+## Building stock, site conditions, and permits in Hillside
+
+Behind the plaster in these houses you usually find wood lath, balloon or early platform framing, and cavities with little or no vapor barrier — assemblies that hold water long after the surface feels dry, so drying means opening and metering rather than guessing. Anything built before 1978 gets treated as lead-paint suspect, and pre-1980 boiler and pipe insulation, floor tile, and tile mastic are assumed asbestos-containing until tested. Older homes here also carry knob-and-tube remnants and legacy oil-tank history from coal and oil heat conversions.
+
+The ground is Piedmont clay and urban fill over shale, which drains slowly and pushes water toward foundation walls. Frost depth in this part of New Jersey means footings sit well below grade.
+
+Structural repair and rebuild permits come from Hillside Township's construction office under the New Jersey Uniform Construction Code, with separate building, plumbing, electrical, and fire subcode approvals.
+
 If you are dealing with water, fire, mold, or storm damage anywhere in Hillside, call The Restoration Group at **(855) 650-7422**. We answer around the clock, and our crew is already close.

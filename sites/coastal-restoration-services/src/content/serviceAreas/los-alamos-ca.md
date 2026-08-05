@@ -49,4 +49,10 @@ Once drying and remediation are complete, many properties need carpentry, drywal
 
 Coastal Restoration Services Inc is based in Vandenberg Village, roughly 35 miles southwest of Los Alamos via U.S. Highway 101 north to State Route 135. The drive through the Santa Ynez Valley corridor is straightforward outside of peak commute windows, and our crews are familiar with the route. We schedule prompt response for Los Alamos calls and can typically have a crew on-site the same day for active water intrusion or post-fire assessments — call (805) 345-7440 to confirm current availability and scheduling.
 
+## Building stock, site conditions, and permits in Los Alamos
+
+Los Alamos is unincorporated, so permits for structural repair, re-roofing, rewiring, or a rebuild come from Santa Barbara County Building and Safety rather than a city office. Anything past cosmetic patching — replacing framing members, moving a wall, reworking electrical or plumbing — generally pulls a permit, and the work is inspected under the California building codes the county enforces, including seismic bracing and anchorage requirements for older raised foundations.
+
+Much of the older housing sits on shallow perimeter footings or post-and-pier supports with wood floors above a low crawl space, which means saturated joists and subfloor rather than a flooded slab. Supply lines of that vintage are often galvanized steel or early copper, with cast iron drains that scale and crack. Anything built before the late 1970s also gets tested for asbestos in flooring, mastic, and joint compound and for lead paint before demolition begins.
+
 If you're dealing with damage now or want to talk through what you're seeing before committing to a service call, reach out to Coastal Restoration Services Inc at (805) 345-7440. We'll give you a straight answer about what the situation likely involves and what comes next.

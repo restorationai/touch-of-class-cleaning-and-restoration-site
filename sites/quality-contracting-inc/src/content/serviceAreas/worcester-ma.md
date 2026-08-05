@@ -49,4 +49,12 @@ After mitigation comes rebuilding. We handle the reconstruction phase in-house â
 
 Quality Contracting, Inc. is based in Auburn, which puts Worcester roughly 10 minutes away via I-290 or Route 12 under normal traffic. We serve all Worcester ZIP codes, including 01602, 01603, 01604, 01605, and 01606, and we reach neighborhoods across the city â€” from Greendale in the north to Webster Square and Grafton Hill in the south. Call us at (508) 756-8800 during business hours to schedule an assessment or discuss an active loss.
 
+## Building stock, site conditions, and permits in Worcester
+
+Behind the plaster in a Worcester triple-decker you usually find wood lath, balloon framing with open stud bays that run floor to floor, and a fieldstone or granite rubble basement wall parged with mortar. That combination matters once water gets in: plaster holds moisture long after the surface feels dry, and open bays let it travel down instead of staying put. Galvanized supply lines and old pipe insulation are common in houses of this vintage, so a scope here has to plan around asbestos-containing materials, lead paint in pre-1978 finishes, and knob-and-tube wiring before demolition starts.
+
+The ground is glacial till over shallow ledge across much of the city, which pushes water sideways toward foundations rather than down. Frost reaches well below a couple of feet here in a cold winter.
+
+Structural repair and rebuild work in Worcester is permitted through the city's building department under the Massachusetts State Building Code, and framing, roof structure, or electrical changes generally trigger one.
+
 If you're dealing with water, fire, mold, or structural damage anywhere in Worcester, call Quality Contracting, Inc. at **(508) 756-8800**. We'll assess the situation, explain what needs to happen, and get the work scheduled.

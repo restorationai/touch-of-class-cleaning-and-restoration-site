@@ -51,4 +51,12 @@ Ice dams on slate roofs, wind-driven rain through deteriorating window frames, a
 
 Our Kenilworth headquarters sits roughly 8 miles from Summit — a straightforward run up Route 82 or the Garden State Parkway to Route 124, depending on traffic. We cover all of Summit's neighborhoods: Downtown Summit, Northside, the Franklin School and Brayton School areas, and properties along the New Providence border. Because we operate 24/7, a call at 2 a.m. after a pipe bursts gets the same response as a midday call — a crew dispatched, not a voicemail.
 
+## Building stock, site conditions, and permits in Summit
+
+Behind the plaster, these houses carry their original systems. Knob-and-tube wiring, cast iron waste stacks, and asbestos-wrapped boiler pipe and duct insulation are all common in pre-war Summit, and anything built before 1978 is treated as lead-painted until testing says otherwise. That changes demolition sequencing: a wet plaster ceiling can't just be torn out. Post-war infill on the New Providence side tends toward block foundations and copper supply, which fails at pinholes rather than all at once.
+
+Summit sits on the Watchung ridge, so shallow basalt and glacial till are close to the surface. Water perches on that dense till and pushes sideways into deep basements rather than draining down.
+
+Structural repair and rebuild permits are issued by the city's construction office under New Jersey's Uniform Construction Code, with separate building, electrical, plumbing, and fire subcode approvals.
+
 If you're dealing with an active emergency or want to understand your options before a problem gets worse, call The Restoration Group at **(908) 970-8533**. We're available around the clock and can have a crew moving toward Summit while you're still on the phone.

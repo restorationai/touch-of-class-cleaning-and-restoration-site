@@ -49,4 +49,10 @@ Unattended situations, sewage backups, and other biohazard events require proper
 
 Coastal Restoration Services Inc is based in Vandenberg Village, roughly 35 to 40 miles west of Santa Ynez via U.S. 101 North to CA-246 East. The drive through Buellton and into the valley typically runs under an hour under normal conditions. Santa Ynez proper, the surrounding ranch parcels, and neighboring communities along the 246 corridor are all within our regular service area. Call us at **(805) 345-7440** and we will give you a realistic arrival window based on current crew availability and conditions on the road.
 
+## Building stock, site conditions, and permits in Santa Ynez
+
+Santa Ynez is unincorporated, so building permits for structural repair or rebuild come from Santa Barbara County rather than a city hall, under the California Building Code and Title 24. Reframing, rewiring, or replacing more than a small area of drywall usually triggers one, and the county's design review expectations for the valley can affect exterior work. Many parcels here are on septic and private wells, which matters on a sewage or supply-line loss.
+
+On the materials side, homes from the mid-century era commonly have galvanized steel supply lines that scale shut and cast iron drains that crack at the hub. Anything built before 1978 should be treated as potentially having lead paint, and pre-1980 flooring, mastic, and duct wrap as possible asbestos until tested — that decides how demolition is scoped.
+
 If you are dealing with water, fire, mold, or any other property damage in Santa Ynez, call Coastal Restoration Services Inc at **(805) 345-7440**. We will walk you through what to expect, answer your insurance questions, and get a crew moving toward the valley.

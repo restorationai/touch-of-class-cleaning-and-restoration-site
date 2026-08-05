@@ -51,4 +51,10 @@ Once the hazard is resolved and materials are dry and clean, we handle the rebui
 
 Coastal Restoration Services Inc is based in Vandenberg Village, roughly 45 miles west of Santa Margarita via US-101 North to CA-58 East. That route runs through Santa Maria and Nipomo before climbing into the Cuyama Valley foothills — drive times vary with traffic and conditions on 101 through the Santa Maria corridor, but Santa Margarita is a regular part of our San Luis Obispo County service area. Call (805) 345-7440 and we'll give you an honest arrival estimate based on current conditions and crew availability. We schedule promptly and will tell you upfront if a same-day response is possible.
 
+## Building stock, site conditions, and permits in Santa Margarita
+
+Santa Margarita is unincorporated, so building permits for structural repair, reroofing, or a rebuild come from San Luis Obispo County's planning and building department rather than a city hall. Replacing drywall in kind usually doesn't trigger a permit; altering framing, moving plumbing, or rebuilding more than a small portion of a wall assembly generally does. Work follows the California Building and Residential Codes, and this part of the county carries meaningful seismic design requirements — worth knowing before a foundation or shear wall gets opened up.
+
+The older homes in and around town tend to be wood-framed over raised perimeter foundations with crawlspaces, with lath and plaster inside. Anything built before the late 1970s should be assumed to have lead paint and possible asbestos in joint compound, floor tile, or pipe wrap until testing says otherwise. Crawlspace framing and cast-iron drain lines are where hidden moisture usually turns up.
+
 If you're dealing with water, fire, smoke, or mold damage in Santa Margarita, call Coastal Restoration Services Inc at **(805) 345-7440**. We'll assess the situation, walk you through the process, and get a crew scheduled.

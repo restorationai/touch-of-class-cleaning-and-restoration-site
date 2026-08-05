@@ -49,4 +49,12 @@ After mitigation is complete, Flood Fixers handles the rebuild — drywall, floo
 
 From Flood Fixers' San Diego headquarters, a technician can reach central El Cajon in approximately 25 to 35 minutes under normal traffic conditions — faster than most local competitors who are dispatching from farther inland. Properties near Gillespie Field or along the Fletcher Parkway corridor typically see arrival within 30 minutes. Addresses further east toward the foothills or in neighborhoods closer to the El Cajon city limits may run 35 to 45 minutes depending on time of day. The team is available 24 hours a day, every day of the year, and the truck arrives stocked with commercial-grade extractors, air movers, and dehumidifiers — no waiting for a second trip to pick up equipment.
 
+## Building stock, site conditions, and permits in El Cajon
+
+Beyond the postwar tracts, El Cajon still has older homes on raised foundations with shallow crawlspaces, and interior finishes of plaster over wood lath rather than drywall. Plaster holds water long after the surface feels dry, so drying it means monitoring the lath and framing behind it instead of trusting a surface meter. Popcorn ceilings, sheet flooring, and joint compound in anything built before the early 1980s get treated as presumed asbestos until tested, and pre-1978 paint is handled lead-safe.
+
+Plumbing vintage drives a lot of the calls: galvanized supply in the oldest houses, copper prone to pinhole leaks in mid-century homes, and cast iron drains that scale and crack.
+
+Permits for structural repair or rebuild come from the City of El Cajon; addresses in unincorporated pockets nearby go through the County instead. California's Building Code and its seismic bracing rules apply either way.
+
 If you're dealing with water, fire, or mold damage in El Cajon right now, call Flood Fixers at **(855) 204-1124**. A technician picks up — not a voicemail box — and can tell you exactly how far out the crew is before you hang up.

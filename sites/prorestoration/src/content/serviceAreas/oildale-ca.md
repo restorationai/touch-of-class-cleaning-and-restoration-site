@@ -53,4 +53,12 @@ Once mitigation is complete, we can carry the project through drywall, flooring,
 
 Oildale sits directly across the Kern River from our Bakersfield base — the drive up North Chester Avenue or across the Truxtun Avenue bridge is short under most traffic conditions. We serve every part of the 93308 ZIP code: the older residential blocks near Standard Park and North High School, the mobile home parks along the Airport Drive corridor, and the hillside streets backing up to the Kern River bluffs. Because we operate 24/7, a crew can be dispatched at any hour — call (661) 393-9306 and you will reach a live person, not an answering service.
 
+## Building stock, site conditions, and permits in Oildale
+
+Most of Oildale's cottages are small wood-frame boxes on raised foundations with shallow crawlspaces, with slab-on-grade becoming common in the later 1950s and 1960s tracts. That difference matters: a crawlspace lets water sit under joists and subfloor where nobody sees it, while a slab wicks moisture sideways into bottom plates and baseboards. Anything built before 1978 should be treated as possibly containing lead paint, and pre-1980 floor tile, mastic, textured ceilings, and joint compound get tested before demolition rather than after.
+
+The ground here is Kern River alluvium — sand and silty loam that drains fast but erodes and washes out under footings during heavy winter storms.
+
+Oildale is unincorporated, so building permits come through Kern County under the California Building Code. Mobile homes are a separate track handled by the state, not the county.
+
 If you are dealing with water, fire, mold, or sewage damage anywhere in Oildale, call ProRestoration Services at **(661) 393-9306**. We answer around the clock, and we know the housing stock, the county permit process, and the insurance workflow well enough to move fast without cutting corners.

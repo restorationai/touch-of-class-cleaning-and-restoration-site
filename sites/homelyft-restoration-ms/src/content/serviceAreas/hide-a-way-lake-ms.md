@@ -49,4 +49,12 @@ Once mitigation is complete, HomeLyft Restoration MS can carry the project throu
 
 HomeLyft Restoration MS is headquartered in Gulfport, and Hide-A-Way Lake is approximately 115 miles north via US-49 through Hattiesburg and into Scott County. That is a real drive, and we want to be straightforward about it: we schedule Hide-A-Way Lake calls promptly and dispatch as quickly as crew and equipment availability allow. For active water losses where every hour matters, call us at +12282845200 as soon as you discover the damage so we can coordinate the fastest possible arrival. We work with the community's access requirements and can coordinate entry through the gatehouse when property owners provide the necessary information in advance.
 
+## Building stock, site conditions, and permits in Hide-A-Way Lake
+
+Homes of this vintage across south Mississippi commonly hide polybutylene or early CPVC supply lines and cast-iron drains. Polybutylene tends to fail at the fittings rather than mid-run, so the leak shows up inside a wall cavity or above a ceiling long before anyone sees water. Cast iron corrodes and splits at the hubs under a pier-and-beam floor. Anything remodeled before the mid-1980s may hold asbestos in floor tile, mastic, or textured ceilings, and lead paint in older trim, so those materials get tested rather than assumed before demolition.
+
+Sandy loam over clay sheds surface water quickly but stays damp beneath a raised floor. Winter freezes are short here, but one hard night is enough to split an uninsulated crawlspace line.
+
+Because this is an unincorporated private lake community, building permits for structural repair, reroofing, or electrical work come through the county rather than a city hall, and the property owners association normally has its own architectural approval on top of that.
+
 If you're dealing with water, fire, smoke, or mold damage at a Hide-A-Way Lake property, call HomeLyft Restoration MS at +12282845200. We'll talk through what you're seeing, give you an honest assessment of next steps, and get a crew scheduled.

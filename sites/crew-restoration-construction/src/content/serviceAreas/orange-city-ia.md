@@ -49,4 +49,12 @@ Most restoration jobs leave a gap: the remediation contractor finishes and the h
 
 Crew Restoration & Construction operates out of Sioux Falls, SD, roughly 90 miles north of Orange City via I-29 South and US-75. That distance puts Orange City well within our regular service area — crews travel this corridor routinely for both emergency response and scheduled project work. Whether the call comes from a property manager near Northwestern College, a homeowner in the Windmill Park area, or a business owner in Downtown Orange City, we dispatch based on crew availability and job urgency. Call (605) 965-2727 during business hours to discuss your situation and get a crew scheduled.
 
+## Building stock, site conditions, and permits in Orange City
+
+Full basements are the norm here rather than the exception, and that shapes every loss. Loess and glacial-till soils across the Northwest Iowa Plains drain slowly, so saturated ground presses against block and poured walls long after the rain stops. Footings sit deep to clear a frost line that runs several feet down in this part of the state, which also means buried supply lines fail at the shallow, unprotected spots — crawl-space runs, garage walls, and hose bibs.
+
+In houses predating the 1960s, expect galvanized steel supply that scales shut and pinholes, with copper in the decades after. Anything built before 1978 gets treated as lead-paint suspect, and pre-1980 floor tile, mastic, and boiler pipe wrap get tested before demolition.
+
+Structural repair and rebuild permits come from the City of Orange City, and Iowa requires contractors doing this work to be state-registered.
+
 If you're dealing with a water, fire, mold, or structural loss anywhere in Orange City — ZIP 51041 — call Crew Restoration & Construction at **(605) 965-2727**. We'll talk through what you're seeing, explain the process honestly, and get the right crew moving.

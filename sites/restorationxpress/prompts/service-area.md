@@ -1,6 +1,6 @@
 ---
 name: service-area
-target_word_count: 700
+target_word_count: 820
 faq_count: 4
 ---
 
@@ -45,6 +45,44 @@ prompt. Your job is to be useful about the CITY, not to imply a track record we 
 Write shorter rather than padding. A 550-word page of true, locally specific content beats an
 800-word page carrying one invented anecdote.
 
+# CRITICAL: LOCAL DEPTH — the expertise section
+
+The page carries one section whose whole job is to prove we understand THIS city's buildings and
+THIS city's rules. Heading, exactly:
+
+`## Building stock, site conditions, and permits in {area.city}`
+
+Roughly 120 words. Draw ONLY from material you can actually stand behind for {area.city} (or, where
+a fact is genuinely regional rather than municipal, for its county / metro — say so at that level
+rather than pretending to municipal precision):
+
+- **Construction era and building stock** — when the housing here was largely built, the dominant
+  wall and roof assemblies, whether it is slab-on-grade / crawlspace / basement, and what that means
+  when water gets in.
+- **Plumbing, mechanical, and material vintage** — the supply and drain materials typical of that
+  era (galvanized, copper, polybutylene, cast iron, PEX), where those systems fail, and era-linked
+  hazards a restoration scope has to plan around (asbestos-containing materials, lead paint).
+- **Soil, drainage, and water table** — expansive clay, caliche, sand, rock, high water table,
+  fill — and how it behaves against foundations, crawlspaces, and basements.
+- **Weather and seasonal drivers** — freeze depth, monsoon or hurricane season, snow load,
+  wildfire smoke, humidity — only the ones that genuinely apply here.
+- **Code, permitting, and the AHJ** — who issues the permit for structural repair or rebuild in
+  {area.city}, what typically triggers one, and code specifics you are confident about (state code
+  edition, wind or seismic zone, flood-zone rules, HOA prevalence).
+
+Rules for this section, without exception:
+
+1. **Never invent a fact to fill the space.** No made-up ordinance numbers, permit fees, code
+   editions, dates, percentages, soil classifications, or department names. If you are not
+   confident, leave it out — a 70-word section that is true beats a 120-word section that guesses.
+2. **It is about the CITY and the WORK, never about us.** No response times, no job counts, no "we
+   have seen", no customers. Zero first-person claims about past work belong here.
+3. **Do not restate what the page already said.** This section goes deeper than
+   `## Restoration emergencies common in {area.city}` — that one is the weather-and-risk overview,
+   this one is the buildings, the ground, and the paperwork.
+4. Write it for an anxious homeowner, not an inspector. Plain sentences, no bullet lists, 2–3
+   paragraphs at most.
+
 # CRITICAL: UNIQUENESS
 
 This page MUST satisfy all of:
@@ -69,6 +107,7 @@ This page MUST satisfy all of:
 - `## Restoration emergencies common in {area.city}` — local pattern (climate, housing stock, water, etc.)
 - `## Services we provide in {area.city}` — short paragraphs per major service category, framed locally
 - `## Coverage and how fast we can get there` — specific neighborhoods or routes; minute figures ONLY if the brand block provides them
+- `## Building stock, site conditions, and permits in {area.city}` — ~120 words, per the LOCAL DEPTH section above
 - Closing CTA paragraph (no heading)
 
 Target: ~{target_word_count} words.

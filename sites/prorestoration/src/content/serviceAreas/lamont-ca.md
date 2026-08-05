@@ -51,4 +51,10 @@ Our Bakersfield headquarters is roughly ten miles northwest of Lamont via Highwa
 
 Property managers overseeing multiple Lamont rentals can reach us directly at **(661) 393-9306** to set up a standing contact relationship so there's no delay finding the right number when something goes wrong at a tenant's unit.
 
+## Building stock, site conditions, and permits in Lamont
+
+Because Lamont is unincorporated, structural repairs here run through Kern County rather than a city hall — the county's building inspection and planning staff in Bakersfield issue the permits. Reroofing, structural framing replacement, electrical panel work, and re-piping generally trigger one; like-for-like drywall and flooring usually do not. If a damaged home sits in a mapped flood zone along Caliente Creek, expect elevation and substantial-improvement questions when repair costs approach half the structure's value. HOAs are uncommon in this area.
+
+The ground is valley alluvium — sand, silt, and clay layered by past creek flows — which drains unevenly and holds moisture under slabs longer than the surface suggests. Nobody builds basements out here. On homes predating 1978, we plan for lead paint and for asbestos in floor tile, mastic, and textured ceilings before demolition starts.
+
 If you're dealing with water intrusion, smoke damage, or a mold concern anywhere in Lamont, call ProRestoration Services at **(661) 393-9306**. We're available 24/7, we know the drive, and we'll give you a straight answer about what the damage involves and what it will take to fix it.

@@ -49,4 +49,10 @@ Once mitigation is complete, we handle the rebuild — drywall, flooring, cabine
 
 HomeLyft Restoration MS is headquartered in Gulfport, roughly 15 to 18 miles from central DeLisle via US-49 North or the US-90 corridor connecting into the Pass Christian and DeLisle area. That puts DeLisle well within our primary service zone — not a distant coverage stretch. When you call during business hours, we work to schedule a same-day assessment so the drying clock does not run longer than necessary. Call us at (228) 284-5200 to confirm current scheduling availability.
 
+## Building stock, site conditions, and permits in DeLisle
+
+DeLisle is unincorporated, so permits for structural repair, reroofing, or rebuild come from Harrison County rather than a city hall. Anything beyond cosmetic finish work — framing, roof deck replacement, electrical, or mechanical changes — generally triggers one, and in a mapped flood zone the 50 percent substantial-improvement rule can pull an otherwise simple repair into elevation and compliance territory. Mississippi's coastal counties also carry high-wind and wind-borne-debris requirements that shape how a roof or wall goes back together.
+
+Material vintage matters as much as the paperwork. Mid-century homes here often still have galvanized supply and cast-iron drains that fail from the inside out, while pre-1978 layers mean lead paint and asbestos in floor tile or joint compound. Post-Katrina rebuilds run PEX and engineered lumber, which absorbs and holds water differently.
+
 If you are dealing with water, mold, fire, or storm damage at a DeLisle property, the longer the affected materials stay wet or smoke-exposed, the more the scope — and the cost — tends to grow. Call HomeLyft Restoration MS at (228) 284-5200 during business hours to schedule an assessment and get a clear picture of what the damage actually involves.

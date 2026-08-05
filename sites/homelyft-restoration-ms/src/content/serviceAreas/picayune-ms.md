@@ -49,4 +49,10 @@ Once mitigation is complete, many homeowners face a gap: the damage is documente
 
 Our Gulfport headquarters sits roughly 55 miles southeast of Picayune via I-10 West to US-11 North — a straightforward drive that keeps us in regular rotation across Pearl River County. Crews travel this corridor frequently enough that Picayune is not a distant outlier for us; it's a regular part of our service footprint. Scheduling is handled during our business hours, and we work to get an assessment on-site as promptly as the situation and drive time allow. For active water intrusion, earlier contact means a shorter drying cycle and lower overall costs — so calling as soon as you find the problem is always the right move.
 
+## Building stock, site conditions, and permits in Picayune
+
+Older Picayune homes tend to sit on pier-and-beam foundations with brick or block piers, wood floor framing, and vented crawl spaces — assemblies that hold moisture in the joists and subfloor long after the surface looks dry. Subdivision homes built from the 1970s onward are mostly slab-on-grade with brick veneer, where water wicks up through plate lines and into gypsum instead of draining away. Soils across this part of the coastal plain run sandy to sandy loam, so surface water moves fast but crawl-space grade stays damp.
+
+Plan on galvanized supply and cast-iron drains in the oldest houses, polybutylene in some mid-1980s builds, plus asbestos-containing floor tile and lead paint in anything pre-1980. Structural repair or rebuild inside the city limits is permitted through the City of Picayune; outside them, Pearl River County. Work near the Pearl River may also carry flood-elevation requirements.
+
 If you're dealing with water, mold, fire, or smoke damage anywhere in Picayune or Pearl River County, call HomeLyft Restoration MS at (228) 284-5200. We'll walk you through what to expect, answer your insurance questions, and get a crew scheduled.

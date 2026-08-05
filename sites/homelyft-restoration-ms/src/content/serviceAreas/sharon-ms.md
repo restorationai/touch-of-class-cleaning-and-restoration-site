@@ -49,4 +49,10 @@ Once mitigation is complete, the same company that dried your floors or cleaned 
 
 HomeLyft Restoration MS is headquartered in Gulfport, on the Mississippi Gulf Coast. Sharon is roughly 150 miles north, accessible via I-49 North through Hattiesburg and into the Jackson metro area, then northwest into Madison County. Depending on traffic and time of day, the drive runs approximately two and a half to three hours. For Sharon calls, we schedule prompt arrival windows and communicate clearly about timing — we don't quote minute guarantees we can't back up. Property managers with multiple Sharon-area units can arrange standing service agreements so response logistics are already in place before an emergency occurs.
 
+## Building stock, site conditions, and permits in Sharon
+
+Older Sharon houses tend toward wood frame with board sheathing, brick or wood siding, and shallow attic insulation — assemblies with no housewrap and little drying capacity once water gets behind them. Anything built before 1978 should be treated as having lead paint, and floor tile, mastic, and duct wrap from that era can contain asbestos, so demolition gets tested rather than guessed at. Supply lines run galvanized steel or copper in the older stock and polybutylene in some 1980s and early-90s builds; drains are often cast iron. Galvanized fails from the inside out, so the leak shows up long after the pipe went bad.
+
+Sharon is unincorporated, so permits and inspections for structural repair or rebuild come from Madison County, not a city hall. Framing, roof structure, and electrical or plumbing replacement generally trigger one.
+
 If you're dealing with water intrusion, smoke damage, mold, or the aftermath of a storm at a Sharon property, call HomeLyft Restoration MS at (228) 284-5200. We'll talk through what you're seeing, help you understand next steps, and schedule a crew to assess the damage before it gets worse.

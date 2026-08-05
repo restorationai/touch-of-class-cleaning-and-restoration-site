@@ -51,4 +51,12 @@ Because we carry construction capabilities alongside our restoration services, p
 
 Crew Restoration & Construction's Sioux Falls headquarters sits roughly 25 miles north of Elk Point via I-29 South — a straightforward interstate run that keeps drive time predictable outside of winter storm closures. We serve all of the 57025 ZIP code, including Downtown Elk Point, West Elk Point, and the rural Union County properties that surround the city. Call (605) 965-2727 during business hours to schedule a response; our team will confirm an estimated arrival window based on current crew availability and road conditions at the time of your call.
 
+## Building stock, site conditions, and permits in Elk Point
+
+Older homes near the courthouse square tend toward wood lath and plaster over dimensional framing, with full basements — standard in this part of southeastern South Dakota because footings have to sit below a deep frost line. Newer construction west of town runs to slab or shallow-basement ranches with drywall and fiberglass batt. Assemblies matter once water gets in: plaster holds moisture and hides it, while batt insulation in a cold rim joist stays wet for weeks without forced drying.
+
+Expect galvanized supply and cast-iron drain stacks in the oldest houses, copper mid-century, PEX in recent work. Anything built before 1978 gets treated for lead paint, and pre-1980 flooring and pipe wrap gets checked for asbestos before demolition.
+
+Structural repair and rebuild permits come from the City of Elk Point; electrical and plumbing work is permitted through the state commissions.
+
 If you're dealing with water, fire, mold, or structural damage at a property in Elk Point or anywhere in Union County, call Crew Restoration & Construction at **(605) 965-2727**. Describe what you're seeing and we'll walk you through next steps and get a crew scheduled.

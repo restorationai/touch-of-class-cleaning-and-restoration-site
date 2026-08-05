@@ -45,4 +45,12 @@ Our base is in East Las Vegas, which puts us within a direct drive of most of th
 
 For Centennial Hills (89149, 89131), we travel north on the 95 or via surface streets through the newer neighborhoods near the Springs Preserve and Red Rock Canyon National Conservation Area foothills. We schedule calls during our business hours — call +17025513040 to confirm current availability and get a crew dispatched to your address.
 
+## Building stock, site conditions, and permits in Las Vegas
+
+Most of the housing here is stucco over wood frame on slab-on-grade, with concrete tile or asphalt shingle roofs. Basements are the exception, not the rule. That matters when water gets loose: it travels along the slab under flooring and wicks up the bottom plate and the gypsum, so the wet line you can see is usually smaller than the wet area. Post-tension slabs are common in valley subdivisions from the 1980s onward, which means no one should be cutting or coring concrete without knowing where the cables run.
+
+Under the slab sits caliche — cemented desert hardpan that sheds water sideways instead of letting it soak away.
+
+Whether a structural repair permit comes from the City of Las Vegas or from Clark County depends on your address; framing, roof, and re-wire work generally trigger one, and like-for-like fixture swaps generally do not.
+
 If you're dealing with water intrusion, smoke damage, or a mold discovery anywhere in Las Vegas, call PuroClean of East Las Vegas at +17025513040. We'll assess the damage, walk you through the process, and work with your insurance carrier so the paperwork doesn't fall entirely on you.

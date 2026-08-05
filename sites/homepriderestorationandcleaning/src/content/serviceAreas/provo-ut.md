@@ -53,4 +53,12 @@ Once mitigation is complete, we can carry the project through rebuild — drywal
 
 Home Pride Restoration and Cleaning's headquarters is in Saratoga Springs, approximately 18 miles northwest of downtown Provo via US-89. Under normal traffic conditions, that puts a technician on-site in Provo within 45 to 60 minutes of your call. Neighborhoods in north Provo — including the Tree Streets area and properties near Brigham Young University — are typically reachable in under 50 minutes. South Provo addresses, including the ZIP codes 84601 and 84606, run a similar window. We aim for faster response on confirmed active flooding or fire-related calls, where every additional minute increases structural exposure.
 
+## Building stock, site conditions, and permits in Provo
+
+Much of Provo's older core is brick over wood framing with plaster-and-lath interiors and full basements rather than crawlspaces or slabs. That matters when water gets in: plaster holds moisture against the lath and the framing behind it, and a finished basement puts the wettest materials at the lowest point in the house. Unreinforced masonry is common in these older walls, so anything structural gets looked at carefully before demolition.
+
+The valley floor is old lake-bottom silt and clay, which drains slowly and keeps basement walls damp long after the surface dries. Pre-1978 homes bring lead paint, and pre-1980 materials can contain asbestos — Utah requires that be assessed before renovation or demolition disturbs it.
+
+Building permits for structural repair or rebuild come from Provo City's building division, under the Utah State Construction Code.
+
 If you're dealing with a water, fire, mold, or biohazard situation at a Provo property right now, call (801) 995-2437. We answer every hour of the day, and we'll tell you honestly what the situation requires.

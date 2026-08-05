@@ -51,4 +51,12 @@ Mitigation is only half the job. After drying or remediation is complete, we han
 
 FireDEX Butler's shop is in Cranberry Township, which shares a border with Seven Fields to the south. Seven Fields Borough, Wakefield Estates, Castlebrook, and Brandywine are all reachable in a short drive — typically via Route 228 or the local connector roads that run between the Cranberry Township border and the Seven Fields Community Center. There is no long highway run, no county-line delay. Because we operate 24/7, a call at 2 a.m. about a burst washing-machine hose gets the same response as a call at noon.
 
+## Building stock, site conditions, and permits in Seven Fields
+
+Because nearly everything here went up after the late 1980s, the hazards that complicate older Butler County rebuilds — asbestos floor tile and pipe wrap, lead paint, knob-and-tube wiring — are largely absent. Instead you get copper or PEX supply lines, PVC drains, OSB sheathing, and engineered floor trusses. Those trusses and the lightweight subfloors over them wick water fast and are unforgiving if dried slowly.
+
+Much of the borough was graded from rolling farmland, so basements sit in cut-and-fill ground with clay-rich subsoil that holds water against poured foundation walls. Footings are set below western Pennsylvania's frost depth, but perimeter seepage still shows up in finished lower levels.
+
+Structural repair and rebuild work is permitted through Seven Fields Borough under Pennsylvania's Uniform Construction Code, and HOA approval commonly applies to exterior work in these plans.
+
 If you're dealing with water, fire, smoke, or mold damage anywhere in Seven Fields Borough or the surrounding 16046 area, call FireDEX Butler at **(724) 452-7400**. We answer every hour of every day, and we're closer than you might think.

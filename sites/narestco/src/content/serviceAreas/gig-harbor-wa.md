@@ -53,4 +53,10 @@ We handle sewage backups, unattended situations, and trauma scenes with EPA-comp
 
 From our Federal Way headquarters, a technician typically reaches central Gig Harbor — Harborview, Millville, the Finholm District — in 45 to 60 minutes under normal Narrows Bridge traffic conditions. Artondale and Rosedale neighborhoods run 50 to 65 minutes. For properties in the 98329 ZIP code near Kopachuck State Park or along the Cushman Trail corridor, plan for 60 to 75 minutes. We answer live 24 hours a day at (206) 883-0333; after-hours calls are not routed to voicemail.
 
+## Building stock, site conditions, and permits in Gig Harbor
+
+Gig Harbor's building stock splits roughly in two. The older cottages near the harbor are wood-frame on post-and-beam vented crawl spaces, often with shiplap sheathing, cedar siding, and galvanized supply lines or cast iron drains that fail at the threads and the hubs. Anything built before 1978 gets treated as lead-paint suspect, and pre-1980 flooring, mastic, and pipe wrap as possible asbestos, which changes demolition sequencing. Newer Artondale and Rosedale subdivisions sit on glacial till, where water perches above dense hardpan and moves sideways into crawl spaces rather than soaking away.
+
+Inside city limits, the City of Gig Harbor issues building permits; unincorporated addresses go through Pierce County. Washington's statewide building code governs, structural repairs and rebuilds are permitted work, and shoreline properties carry added review.
+
 If you're dealing with water, fire, mold, or storm damage at a Gig Harbor property right now, call National Restoration Construction at **(206) 883-0333**. We'll tell you exactly how long it will take to reach you and what to do — or not do — before we arrive.

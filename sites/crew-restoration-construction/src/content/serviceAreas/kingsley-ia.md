@@ -51,4 +51,10 @@ Because we carry both restoration and construction capabilities, we can take a K
 
 Crew Restoration & Construction is headquartered in Sioux Falls, SD. Kingsley is roughly 60 miles southeast via I-29 South to US-20 East — a straightforward route that our crews run regularly for jobs in Plymouth County and the surrounding western Iowa region. Downtown Kingsley and the neighborhoods around Kingsley-Pierson School are all within the same service radius; there is no part of the 51028 ZIP code that requires a separate dispatch. Scheduling is handled by phone at (605) 965-2727. Because our hours are not listed as around-the-clock, we encourage property owners to call during business hours to confirm availability and get a crew on the calendar as quickly as the situation allows.
 
+## Building stock, site conditions, and permits in Kingsley
+
+Much of Kingsley's housing went up between the railroad era and the postwar decades, which means wood-frame walls with plaster and lath over a full basement is the common combination. Plaster holds water long after the surface looks dry, and a basement dug into loess puts the mechanical room at the lowest point of the house. Original supply lines in the older homes are often galvanized steel with cast-iron drains, and both fail from the inside out. Pre-1980 houses also mean asbestos-era floor tile, duct wrap, and lead paint that a demolition scope has to account for before anyone starts cutting.
+
+Footings here are set well below a frost line measured in feet, so freeze damage tends to show up in above-grade plumbing. For repairs inside the city limits the building permit comes from city hall; properties outside the corporate limits fall to Plymouth County.
+
 If your Kingsley property has taken on water, smoke, or any damage that needs professional attention, call Crew Restoration & Construction at **(605) 965-2727**. We will talk through what you are seeing, explain the next steps, and get a crew scheduled to assess the damage in person.

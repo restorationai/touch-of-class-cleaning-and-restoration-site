@@ -47,4 +47,10 @@ Once drying and remediation are complete, most homeowners want one contractor to
 
 Coastal Restoration Services Inc is headquartered in Vandenberg Village, on the Central Coast north of Santa Barbara. Mission Hills is roughly 75 to 80 miles southeast via US-101 South and I-405 South, or through the Sepulveda Pass depending on conditions. That distance means Mission Hills is a scheduled-service area rather than an immediate-dispatch zone — when you call (805) 345-7440, our team will confirm scheduling and give you an honest arrival window based on current crew availability and drive time. For active water intrusion, we'll walk you through immediate mitigation steps over the phone — shutting the supply, moving contents off wet flooring — so conditions don't worsen while you wait.
 
+## Building stock, site conditions, and permits in Mission Hills
+
+Mission Hills is inside the City of Los Angeles, so permits for structural repair, reroofing, or rebuild go through LADBS rather than a county office. Anything beyond cosmetic replacement — new framing, a rebuilt wall, electrical or mechanical work opened up during a loss — generally triggers one. For homes built before 1978, lead paint and asbestos in textured ceilings, joint compound, and old flooring have to be screened before demolition; asbestos handling in the basin falls under South Coast AQMD rules.
+
+Most of the housing here sits on slab-on-grade with wood framing and stucco. Water that spreads across a slab travels along the base plates and wicks up the drywall, so the damage line is usually wider than the stain. Older raised-foundation houses add a crawlspace that holds humidity long after the leak is fixed.
+
 If you're dealing with water, fire, smoke, or mold damage at a Mission Hills property, call Coastal Restoration Services Inc at **(805) 345-7440**. We'll assess what you're facing, explain the process plainly, and get the right crew scheduled — no pressure, no upsell, just a clear path from damage to done.

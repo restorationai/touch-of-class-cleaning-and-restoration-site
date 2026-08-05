@@ -53,4 +53,12 @@ Property managers overseeing retail, mixed-use, or multi-family buildings near t
 
 Our crews stage from a location with direct borough access, which means we are not crossing from Manhattan or routing through Brooklyn traffic to reach you. From our Kenilworth, NJ headquarters, the Goethals Bridge puts us on Staten Island's West Shore, and the Verrazzano-Narrows connects to the North Shore and neighborhoods like St. George near the Staten Island Ferry Terminal. Snug Harbor Cultural Center, Historic Richmond Town, and properties throughout ZIP codes 10301, 10312, and beyond are all within our regular service footprint. Because we operate 24/7, you can call at any hour and reach a live dispatcher who will route the nearest available crew.
 
+## Building stock, site conditions, and permits in Staten Island
+
+Staten Island's older frame houses on the North Shore were built with plaster over wood lath and balloon or early platform framing, which holds water far longer than drywall and has to be probed rather than guessed at. Anything predating the late 1970s should be treated as potentially containing asbestos in pipe wrap, joint compound, or resilient flooring, and lead paint on trim — that changes how material gets cut out, not just how it dries.
+
+The ground varies sharply. The Todt Hill spine and its ridges are glacial moraine — dense till and boulders — while the East Shore and marsh margins are sand and fill, which drains fast but sits close to the water table.
+
+Permits come from the NYC Department of Buildings. Structural alteration filings need a registered architect or engineer, plumbing work a licensed master plumber, and flood-zone repairs bring elevation rules into play.
+
 If you are dealing with water, fire, mold, or storm damage anywhere on Staten Island, call (855) 650-7422 now. The Restoration Group has been handling losses across the New York and New Jersey metro area since 2021, and our crews are available around the clock to respond when you need it most.

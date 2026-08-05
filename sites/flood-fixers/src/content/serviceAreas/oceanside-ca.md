@@ -47,4 +47,12 @@ Sewage backups along older lateral lines in central Oceanside and biohazard situ
 
 Flood Fixers is headquartered in San Diego. Under normal traffic conditions, a crew can reach central Oceanside — including neighborhoods around Mission Avenue and the blocks adjacent to Oceanside Pier — in approximately 45 to 55 minutes. Addresses in the 92057 ZIP code on the northeastern edge of the city, including communities near Camp Pendleton's southern boundary, typically add 10 to 15 minutes. We aim for a technician on-site within 60 minutes of your call, 24 hours a day, seven days a week. Call (855) 204-1124 and you will reach a live dispatcher, not a voicemail.
 
+## Building stock, site conditions, and permits in Oceanside
+
+Much of Oceanside's housing is post-war through 1980s tract construction, with newer subdivisions filling in east of the coast. Slab-on-grade is the norm and basements are rare, so water tends to travel flat — under baseboards, through bottom plates, and into the underside of cabinet toe-kicks — rather than draining somewhere you can see it. Homes built before the late 1970s can also carry asbestos-containing floor tile, mastic, or textured ceilings and lead paint, which changes how demolition has to be handled.
+
+Plumbing vintage matters here too: galvanized supply and cast-iron drains in the oldest blocks, copper from the mid-century on, with pinhole leaks and under-slab lines that hide damage for weeks.
+
+Structural repairs and rebuilds are permitted through the City of Oceanside's building division under the California Building Code, and work near the shoreline can involve coastal-zone review.
+
 If you are dealing with water, fire, mold, or sewage damage at an Oceanside property right now, the fastest next step is a phone call: **(855) 204-1124**. A dispatcher will confirm your address, ask three quick questions about what you are seeing, and have a crew moving toward you before you hang up.

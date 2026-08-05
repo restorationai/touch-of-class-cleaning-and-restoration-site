@@ -51,4 +51,12 @@ Because we handle both restoration and construction, there's no handoff gap betw
 
 Parker is roughly 35 miles southwest of our Sioux Falls headquarters, a straightforward drive south on I-29 to the Parker exit. Under normal road conditions, our crew can be loaded and moving toward Turner County Courthouse-area properties or neighborhoods near Downtown Parker promptly after a call is received. We schedule service calls during our business hours — call (605) 965-2727 to reach us directly. For properties near the Turner County Fairgrounds area on the south end of town, routing is equally direct with no significant detours. We serve the 57053 ZIP code and surrounding Turner County addresses.
 
+## Building stock, site conditions, and permits in Parker
+
+Much of Parker's older core is wood-frame houses on full basements with stone or early poured concrete foundation walls, plaster-and-lath interiors, and dimensional-lumber floor framing. Plaster holds water differently than drywall — it can look dry at the surface while the lath and the cavity behind stay wet — so drying those walls takes longer and needs meter readings, not a visual call. Pre-1978 homes also mean lead paint, and mid-century remodels often left asbestos-containing floor tile, mastic, or pipe wrap that has to be identified before demolition rather than after.
+
+Drain stacks in these houses are commonly cast iron, which rusts from the inside and weeps at the hub before it ever fails outright. Footings sit deep here because of eastern South Dakota frost depth, and the glacial soils around Turner County drain slowly, so groundwater pressure against basement walls is a year-round condition, not just a spring one.
+
+For structural repair or rebuild inside city limits, permitting goes through the City of Parker; rural Turner County addresses are handled at the county level.
+
 If you're dealing with water, fire, mold, or storm damage at a Parker property, call Crew Restoration & Construction at **(605) 965-2727**. We'll walk you through what we're seeing, what needs to happen first, and how the insurance process works — before any work begins.

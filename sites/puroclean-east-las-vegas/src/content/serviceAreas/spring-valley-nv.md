@@ -49,4 +49,10 @@ For property managers overseeing rental units in Spring Valley Ranch or Rhodes R
 
 PuroClean of East Las Vegas operates out of Las Vegas and reaches Spring Valley via US-95 westbound to Decatur Boulevard or via I-215 to Rainbow Boulevard — a straightforward run that keeps drive time short from our side of the valley. We serve all of Spring Valley's ZIP codes: **89102**, **89103**, **89117**, **89118**, **89147**, and **89148**. Whether the call comes from a property manager near Rhodes Ranch Golf Club or a homeowner in Peccole Ranch, we dispatch a crew with moisture meters, air movers, and dehumidifiers already loaded. Call **+17025513040** to schedule or to speak with someone about an active loss.
 
+## Building stock, site conditions, and permits in Spring Valley
+
+Spring Valley is unincorporated Clark County, not part of the City of Las Vegas, so permits for structural repair, reroofing, or rebuild go through Clark County's building department — and in the master-planned tracts, HOA architectural approval usually has to happen alongside it. Plan for both when a loss means rebuilding more than a drywall patch.
+
+Homes here sit on slab-on-grade over caliche and desert alluvium; basements are essentially nonexistent and crawlspaces are rare. Many 1990s and 2000s slabs are post-tensioned, which matters because you cannot cut or core one to chase a leaking supply line without an engineer's involvement. Water under a slab tends to travel along the vapor barrier and wick up into tack strip, baseboard, and the underside of tile, well past where the ceiling stain appears.
+
 If you're dealing with water, fire, mold, or a biohazard situation in Spring Valley, call PuroClean of East Las Vegas at **+17025513040**. We'll walk you through the next steps, explain what documentation your insurance carrier will need, and get a crew moving toward your address.

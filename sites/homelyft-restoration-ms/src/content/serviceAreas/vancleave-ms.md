@@ -49,4 +49,10 @@ When a storm peels back roofing or sends a tree through a wall, the priority is 
 
 HomeLyft Restoration MS is based in Gulfport, and Vancleave is a straightforward run up Highway 49 to Highway 57 — roughly 35 to 40 miles depending on the exact location of the property. Properties along the Highway 57 corridor are the most direct from our HQ. Homes further east toward the Escatawpa area or north toward the Agricola community add some drive time, but remain well within our regular service area. When you call, we'll give you an honest arrival estimate based on current crew location and conditions — not a number we can't stand behind.
 
+## Building stock, site conditions, and permits in Vancleave
+
+Vancleave is unincorporated, so there is no city hall to call — building permits, floodplain determinations, and septic-related approvals for structural repair or rebuild go through Jackson County, and in flood-mapped areas the 50-percent substantial-improvement rule can change a repair scope into an elevation conversation. Jackson County is a coastal wind zone under Mississippi's statewide code, so reframing and reroofing work carries wind-resistance and fastening expectations that inland contractors miss.
+
+Most of the housing here is wood-frame with post-1980 plumbing, but older homes still hold cast-iron drains that crack at the hub and galvanized supply that closes off with rust. Late-1980s and 1990s builds may carry polybutylene, which fails at the fittings without warning. On pre-1978 houses we treat paint as lead-bearing and sheet flooring, mastic, and pipe wrap as possible asbestos until tested.
+
 If you're dealing with water, mold, fire, or storm damage at a Vancleave property, call HomeLyft Restoration MS at (228) 284-5200. We'll tell you exactly what we're looking at and what it takes to fix it.

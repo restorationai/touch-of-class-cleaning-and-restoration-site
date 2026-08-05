@@ -47,4 +47,10 @@ Once mitigation is complete and the structure is dry and cleared, Coastal Restor
 
 Coastal Restoration Services Inc is headquartered in Vandenberg Village, roughly 35 to 40 miles northwest of Blacklake via U.S. 101 South and CA-1 or the more direct inland route through Santa Maria. Depending on traffic and time of day, the drive typically runs under an hour. Call (805) 345-7440 to reach the team directly — scheduling is handled promptly and the crew arrives with extraction and drying equipment loaded, not just for an assessment.
 
+## Building stock, site conditions, and permits in Blacklake
+
+Blacklake is unincorporated, so structural repair and rebuild permits come from San Luis Obispo County's planning and building department rather than a city hall — and the county enforces the California Residential and Building Codes, including Title 24 energy requirements that can pull an insulation or window replacement into the scope. Most of the community also sits under CC&Rs, so exterior finish and roofing changes usually need HOA sign-off alongside the county permit.
+
+The Nipomo Mesa is sandy, free-draining ground, which is kinder to foundations than the clay soils inland but lets water move sideways under slabs fast. Homes here are typically slab-on-grade with stucco over wood framing and truss roofs. Water trapped under vinyl or laminate on a slab has nowhere to evaporate, so drying means lifting flooring, not just running fans over it.
+
 If you're dealing with water, mold, fire, or smoke damage at a Blacklake property, call Coastal Restoration Services Inc at **(805) 345-7440**. The sooner mitigation begins, the smaller the repair scope tends to be — and the team can talk you through next steps before anyone even gets on the road.

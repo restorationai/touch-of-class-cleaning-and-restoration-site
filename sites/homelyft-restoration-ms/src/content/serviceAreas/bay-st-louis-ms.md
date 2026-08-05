@@ -47,4 +47,10 @@ Once mitigation is complete, we handle the rebuild — drywall, flooring, cabine
 
 HomeLyft Restoration MS is headquartered in Gulfport. Bay St. Louis is roughly 25 miles west along US-90, a route our crews travel regularly. Depending on traffic and the time of day, that corridor is a straightforward drive. We serve the broader Bay St. Louis area including communities along the waterfront and inland toward the Hancock County line. When you call, we'll give you an honest estimate of when a crew can be on-site based on current job load — we'd rather set a realistic expectation than promise a window we can't keep.
 
+## Building stock, site conditions, and permits in Bay St. Louis
+
+Bay St. Louis has two distinct building generations sitting side by side. Pre-1970s cottages often still carry plaster over wood lath, board sheathing, galvanized or early copper supply lines, and cast iron drains that rust from the inside out — so a slow leak shows up as a stained ceiling long before anyone finds the pipe. Anything built or substantially rebuilt after 2005 is usually elevated on piers or pilings with engineered connectors and modern PEX. Soils near the bay run sandy and drain fast, which is easier on framing than clay but does little to hold water away from pier footings.
+
+Structural repair or rebuild inside the city limits is permitted through the City of Bay St. Louis; work outside it goes through Hancock County. Flood-zone elevation rules and the 50-percent substantial-improvement threshold can turn a large repair into a compliance project, and pre-1978 homes need lead-safe work practices.
+
 If you're dealing with water, fire, mold, or storm damage at a Bay St. Louis property, call HomeLyft Restoration MS at (228) 284-5200. We'll assess what you're facing, explain your options plainly, and get the work scheduled.

@@ -49,4 +49,10 @@ For property managers handling tenant transitions or landlords dealing with an u
 
 Go Agree Restoration of NC operates out of Middlesex, which sits roughly 25 to 30 miles northwest of Smithfield via US-264 East. That route is a straightforward drive with no significant interchange delays under normal conditions, putting our crews on Johnston County roads without navigating Research Triangle traffic. From the US-264 corridor we can reach the downtown Smithfield area, the neighborhoods along Market Street, and properties near the Johnston County Courthouse without backtracking. Calls are scheduled promptly — contact us at (919) 906-5473 during business hours to get a crew on the calendar and stop the damage from progressing.
 
+## Building stock, site conditions, and permits in Smithfield
+
+Homes in the older parts of town were built before vinyl and PEX were options, so a repair scope has to plan for galvanized supply lines that rust closed at the threads, cast iron drains that scale and crack at the hub, and plaster or early gypsum board that holds water far longer than modern drywall. Anything predating 1978 also means assuming lead paint and possible asbestos in floor tile, mastic, or duct wrap until tested. Subdivisions from the late 1970s through the 1990s can hide polybutylene supply, which fails at the fittings without warning.
+
+Structural repair and rebuild work inside town limits is permitted through the Town of Smithfield; properties outside the limits go through Johnston County. Either way the North Carolina building code applies, and work on a structure inside the Neuse floodplain brings federal floodplain rules into the scope.
+
 If you are dealing with water, fire, mold, or a cleanup situation at a Smithfield property, call Go Agree Restoration of NC at **(919) 906-5473**. The sooner materials are assessed and drying begins, the more of the structure — and the budget — can be saved.

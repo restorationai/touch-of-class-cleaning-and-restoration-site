@@ -51,4 +51,12 @@ Once mitigation is complete, most Allen homeowners don't want to manage a separa
 
 Reign Restoration's home base is Royse City, roughly 25 miles southeast of Allen via US-75 North. That route puts us into the Star Creek and Cottonwood Bend areas near the 75013 ZIP code in well under an hour under normal traffic conditions, and into the Bethany Lakes and Suncreek neighborhoods in the 75002 corridor shortly after. Because we operate 24/7, we're dispatching at 2 a.m. the same as 2 p.m. — there's no after-hours surcharge or delayed morning response. Property managers overseeing multiple units near Watters Creek at Montgomery Farm or the Allen Premium Outlets corridor can reach us directly at (214) 304-0621 any time a tenant reports a loss.
 
+## Building stock, site conditions, and permits in Allen
+
+Homes built in Allen during the 1990s and 2000s typically sit on post-tensioned slabs with brick veneer over wood framing and OSB sheathing. Supply lines from that window are usually copper, with PEX common in the newer Star Creek and Montgomery Farm builds; drain lines in the older frame houses near Main Street can still be cast iron, which corrodes from the inside and weeps at joints. Anything predating 1978 in that older pocket should be treated as possible lead paint until tested, and asbestos is a real question in old floor tile and joint compound.
+
+Hard freezes are the seasonal driver worth planning for. Water lines routed through unconditioned attics split during a deep freeze and dump into the ceiling below.
+
+Structural repair and rebuild permits in Allen come from the city's building inspections office, and most master-planned subdivisions here add HOA approval for anything visible from the street.
+
 If you're dealing with water, fire, smoke, or mold damage anywhere in Allen — from Rivercrest Park to Montgomery Farm — call Reign Restoration at **(214) 304-0621**. We're available around the clock, we work with your insurance carrier, and we don't consider the job done until the numbers confirm the structure is dry and the space is safe to occupy again.

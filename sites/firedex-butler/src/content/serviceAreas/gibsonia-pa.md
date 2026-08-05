@@ -55,4 +55,12 @@ Once mitigation is complete, the same crew that dried your basement or boarded y
 
 FireDEX Butler's Cranberry Township headquarters is roughly 10 to 12 miles from central Gibsonia via Route 228 east to Route 8 south — a straightforward run under normal conditions. Treesdale, the Pine-Richland High School area, Richland Community Park, and the Deer Creek neighborhoods are all well within our regular service radius. For properties on private drives off Route 8, we note road conditions and equipment access on the first call so there are no surprises when the crew arrives. We operate 24 hours a day, seven days a week, so a sump alarm at 2 a.m. or a pipe burst on a holiday weekend gets the same response as a weekday morning call.
 
+## Building stock, site conditions, and permits in Gibsonia
+
+Most of the newer housing here sits on poured concrete basement walls with footings set below the regional frost line, framed with OSB sheathing and engineered lumber — I-joists and LVL beams. That matters after a lower-level flood, because a wet I-joist web and soaked subfloor adhesive behave nothing like solid dimensional lumber; they need targeted drying, not a fan pointed at the room. Supply lines in those homes are usually CPVC or PEX.
+
+Bakerstown's older houses bring block or stone foundations, plaster and lath, and pre-1978 paint layers, so demolition planning has to account for lead and possible asbestos in old floor tile or pipe wrap.
+
+Permits come from the township, not a city hall — Richland, Pine, Hampton, or West Deer, depending on your side of the line — under Pennsylvania's Uniform Construction Code. Structural framing repair and rewiring generally trigger one.
+
 If you're dealing with water, fire, smoke, or mold damage anywhere in the Gibsonia area, call FireDEX Butler at **(724) 452-7400**. We're available around the clock, and we'll tell you exactly what to expect before we arrive.

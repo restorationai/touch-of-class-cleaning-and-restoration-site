@@ -53,4 +53,10 @@ Once mitigation is complete, we can carry the project through repairs and rebuil
 
 ProRestoration Services is based in Bakersfield, roughly 25 miles southeast of Shafter via Highway 99 North or the more direct route along 7th Standard Road. Both routes are straightforward and free of significant traffic delays outside of peak commute windows. We serve all of Shafter's ZIP code 93263 — including Gossamer Grove on the city's growing northwest edge, the established neighborhoods of North Shafter, and the older commercial and residential blocks of Downtown Shafter. Because we operate 24/7, a call at 2 a.m. after a pipe failure gets the same response as a call at noon.
 
+## Building stock, site conditions, and permits in Shafter
+
+Downtown Shafter's oldest blocks date to the town's rail-and-farming years, and those houses tend to be wood frame with stucco or lap siding, raised floors over shallow crawlspaces, and cast iron drain lines that scale shut and crack at the hub. Anything built before 1978 may carry lead paint, and pre-1980s homes often have asbestos in floor tile, mastic, or wall and ceiling texture — so demolition gets tested and scoped, not just torn out. Post-war and tract-era homes here are slab-on-grade with composition shingle roofs and ductwork in unvented attics; no basements anywhere on this stretch of valley floor. Newer Gossamer Grove homes run PEX and engineered fill pads, which spread water fast under laminate and along bottom plates.
+
+Structural repair and reroofing in city limits are permitted through the City of Shafter under California's Title 24 building standards, with seismic detailing that matters once framing is replaced.
+
 If you're dealing with water, fire, or mold damage anywhere in Shafter — from a Gossamer Grove appliance failure to a commercial loss near Mannel Park — call ProRestoration Services at **(661) 393-9306**. We're available around the clock, and we'll walk you through the next steps before we even arrive on site.

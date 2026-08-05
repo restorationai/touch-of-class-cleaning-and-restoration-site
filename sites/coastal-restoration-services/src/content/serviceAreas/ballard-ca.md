@@ -47,4 +47,12 @@ Mitigation without rebuild leaves a property unfinished. Coastal Restoration Ser
 
 Coastal Restoration Services Inc is headquartered in Vandenberg Village, on the coast side of the Santa Ynez Mountains. Reaching Ballard typically means traveling east on Highway 246 through Buellton and into the valley — a route that runs roughly 30 to 35 miles depending on the specific property address. Valley roads are generally straightforward, though the Gaviota Pass corridor can slow travel during peak commute hours or after storm events close Highway 154. When you call (805) 345-7440, we will give you an honest arrival estimate based on current conditions and crew availability rather than a number we cannot stand behind.
 
+## Building stock, site conditions, and permits in Ballard
+
+Ballard is unincorporated, so there is no city building department — permits for structural repair, rebuild, re-roofing, or electrical and plumbing work go through Santa Barbara County's building and safety review, and anything beyond like-for-like mitigation generally triggers one. Work is done under the California building standards, and the valley's proximity to the Santa Ynez fault means seismic detailing matters when framing or foundation connections are opened up.
+
+The housing mix runs from early valley farmhouses and mid-century ranch homes to newer custom builds. Older houses tend to sit on raised perimeter foundations with vented crawlspaces, which is where an unnoticed supply leak collects and where drying takes longest. Expect galvanized steel supply lines and cast iron drains in the older stock, plus asbestos-containing materials and lead paint in anything pre-1980 — all of which shapes the demolition scope.
+
+Many properties here run on private wells and septic systems rather than municipal service.
+
 If you are dealing with water, fire, smoke, or mold damage at a Ballard property, call Coastal Restoration Services Inc at **(805) 345-7440**. We will assess the situation, explain the process plainly, and get mitigation started as quickly as scheduling allows.

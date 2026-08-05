@@ -51,4 +51,12 @@ Rental turnover near Schofield Barracks and throughout Mililani Mauka drives con
 
 From our Honolulu base, Mililani is accessible via H-1 West to H-2 North — a straightforward route that puts us in Mililani Town and Mililani Mauka without navigating surface-street congestion. Launani Valley and Waipio Acres are reachable along the same corridor. Because we operate 24/7, we can dispatch during off-peak hours when the H-2 runs clear, or during the day when traffic on the Waipio interchange slows things down — we account for that when we tell you we're on the way. We do not promise a specific arrival window in minutes, but we stay in contact from the moment you call to the moment equipment is running.
 
+## Building stock, site conditions, and permits in Mililani
+
+Mililani sits on the Wahiawa plateau, and the homes here are almost entirely slab-on-grade — basements are effectively nonexistent on Oahu. That means water spreads flat and fast, wicking into bottom plates, baseboards and the tack strip line rather than draining away. The red clay soils of the plateau hold moisture, so a slab stays cool and slow to release vapor once carpet pad and drywall have been wet.
+
+Framing is typically wood stud with plywood sheathing under asphalt shingle, and Formosan termite activity is a standing concern across Central Oahu — opening a wet wall sometimes reveals damage that predates the leak. In the earliest Mililani Town phases, pre-1978 paint and old vinyl tile and mastic are worth testing before demolition.
+
+Permits for structural repair come from the City and County of Honolulu's Department of Planning and Permitting, not a Mililani office.
+
 If you're dealing with water, mold, fire damage, or a carpet that needs professional attention anywhere in Mililani, call AAA Water Damage Restoration & Carpet Care at **(808) 349-3407**. We answer around the clock, and we'll walk you through next steps before we even pull out of the driveway.

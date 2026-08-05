@@ -41,4 +41,12 @@ Northwest Iowa winters also accelerate freeze-thaw cycling that cracks masonry, 
 
 Crew Restoration & Construction is based in Sioux Falls, SD, roughly 75 miles northwest of Alton via I-90 East and US-75 South. That route runs through Harrisburg and into Sioux County, putting our crews in the Alton 51003 service area with a straightforward drive on well-maintained highway. We schedule prompt response for calls received during business hours, and our dispatch team can give you a realistic arrival window when you call. East Alton and Downtown Alton are both within our standard coverage zone — no subcontractors, no referral handoffs.
 
+## Building stock, site conditions, and permits in Alton
+
+Much of Alton's housing predates World War II, with mid-century infill filling in around it. That means plaster-and-lath over dimensional framing in the oldest homes and full basements almost everywhere — footings have to go below a frost line that runs several feet down in northwest Iowa, so a basement comes cheap once the hole is dug. Silty loess-derived soil sheds water slowly against those old block and rubble foundation walls, and once a plaster wall wicks moisture it stays wet far longer than drywall.
+
+Plumbing vintage matters here: galvanized supply that rusts closed from the inside, cast iron drains that scale and crack, and clay or Orangeburg laterals on some mid-century lines. Pre-1978 homes also mean lead paint and possible asbestos in floor tile and pipe wrap, which changes how demolition is scoped.
+
+Permits for structural repair or rebuild inside the city go through Alton City Hall; work outside the limits is handled at the county level. Anything in the Floyd River's mapped floodplain also brings substantial-improvement rules into the conversation before rebuilding starts.
+
 If you're dealing with water, fire, mold, or structural damage at a property in Alton or anywhere in Sioux County, call Crew Restoration & Construction at **(605) 965-2727**. We'll talk through what you're seeing, explain the next steps, and get a crew scheduled.

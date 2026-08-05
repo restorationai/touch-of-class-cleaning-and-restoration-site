@@ -51,4 +51,10 @@ Once the drying and remediation work is complete, most Raleigh homeowners don't 
 
 Go Green Restoration of NC is headquartered in Middlesex, roughly 35 miles northeast of downtown Raleigh via US-64 West. That eastern staging point means we approach the city through the 27610 and 27604 ZIP codes first, putting us close to neighborhoods along New Bern Avenue and the eastern edge of the Beltline before reaching midtown. Five Points, North Hills, and the areas around PNC Arena are typically another 10 to 15 minutes further into the city depending on traffic on I-440. Because we operate 24/7, late-night and early-morning calls avoid peak congestion entirely, and we can dispatch immediately regardless of the hour.
 
+## Building stock, site conditions, and permits in Raleigh
+
+Much of Raleigh inside the Beltline and out toward Crabtree filled in during the postwar decades, so the dominant house is a brick-veneer or masonite-sided ranch over a vented crawlspace, with hardwood over board subfloor. That assembly dries from below only if the vapor barrier and foundation vents are intact, which is often where a scope starts. Supply lines from that era run galvanized steel or copper, and Sun Belt growth years left plenty of polybutylene behind fixture walls — it tends to fail at the crimped fittings, not the tubing. Anything built before 1978 gets treated as possible lead paint, and mid-century floor tile and mastic as possible asbestos, before demolition begins.
+
+Structural repair and build-back inside city limits is permitted through City of Raleigh development services under the North Carolina residential code; Wake County handles addresses outside the city.
+
 If you're dealing with water, fire, smoke, or mold damage anywhere in Raleigh — from Brier Creek to ZIP code 27601 — call Go Green Restoration of NC at (919) 906-5473. We answer every hour of the day.

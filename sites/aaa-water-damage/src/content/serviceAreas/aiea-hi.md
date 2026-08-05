@@ -49,4 +49,12 @@ For Aiea homeowners dealing with water-damaged carpet or simply years of Oahu re
 
 From our Honolulu base, Aiea is a straightforward run up H-1 West — typically a short drive under normal traffic conditions. We serve every corner of the 96701 ZIP code: the hillside streets of Aiea Heights and Royal Summit, the flatter residential blocks of Waimalu and Newtown, and the Halawa Valley corridor near the stadium. Because we operate 24 hours a day, seven days a week, there's no waiting until morning to call. When you reach us, we'll confirm the fastest routing based on current conditions and get equipment moving. We do not promise a specific number of minutes on-site — traffic on H-1 is real — but we dispatch without delay.
 
+## Building stock, site conditions, and permits in Aiea
+
+Much of Aiea's older housing is single-wall construction — vertical 1x12 boards serving as both structure and finish, with no stud cavity or insulation. That assembly holds water differently than framed drywall: the boards swell, cup, and hold moisture at the joints, and drying means treating the wood itself rather than opening a cavity. Many of these homes sit on post-and-pier foundations, so water finds the crawlspace; later tract and townhome construction leans on slab-on-grade. Basements are essentially nonexistent here.
+
+Pre-1978 homes bring asbestos-containing vinyl flooring and mastic plus lead paint into any demolition scope, and Formosan subterranean termites often leave framing already weakened before water arrives. On the Aiea Heights slopes, cut-and-fill lots over weathered basalt soils shed runoff onto downhill structures.
+
+Structural repair permits come from the City and County of Honolulu Department of Planning and Permitting, and condo work usually needs association approval too.
+
 If you're dealing with water, mold, fire, or carpet damage anywhere in Aiea, call AAA Water Damage Restoration & Carpet Care at **(808) 349-3407**. We answer around the clock, and we'll walk you through next steps before we even arrive.

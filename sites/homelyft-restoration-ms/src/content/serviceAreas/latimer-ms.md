@@ -47,4 +47,10 @@ Once mitigation is complete, many property owners need more than cleanup — the
 
 Our Gulfport headquarters puts us roughly 15 to 20 miles from Latimer, with straightforward access via US-49 North. Depending on time of day and traffic through the Pass Road corridor, that translates to a practical drive time that keeps us competitive with any contractor based further inland. We schedule promptly and communicate arrival windows clearly — call us at (228) 284-5200 to discuss your situation and get a crew on the calendar. Because our local context lists are being updated for Latimer, we're not going to name specific streets or subdivisions we haven't verified — but if you tell us your address when you call, we can confirm coverage immediately.
 
+## Building stock, site conditions, and permits in Latimer
+
+Latimer is unincorporated, so a permit for structural repair or rebuild comes from Harrison County rather than a city hall, and county inspection carries the job through. Swapping drywall, flooring, and finishes after a loss generally doesn't trigger one; touching framing, roof structure, electrical, or mechanical usually does. Depending on where the property sits, coastal wind and flood-elevation requirements can shape how a rebuild is detailed.
+
+The housing here runs largely to wood-frame ranch and cottage stock on slab or pier-and-beam, much of it brick-veneered. That vintage matters once we open a wall. Homes built before 1978 may have lead paint, and older sheet flooring, mastic, and textured ceilings can contain asbestos, which changes demolition. Cast iron drain lines scale and crack with age, and polybutylene supply installed in the 1980s and early '90s tends to fail at the fittings.
+
 If you're dealing with water, fire, smoke, or mold damage at a Latimer property, the right time to call is before the damage spreads further. Reach HomeLyft Restoration MS at **(228) 284-5200** — we'll assess what you're dealing with, explain the process honestly, and get the work scheduled.

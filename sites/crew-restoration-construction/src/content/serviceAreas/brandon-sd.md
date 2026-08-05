@@ -49,4 +49,10 @@ Because we handle both remediation and rebuild, Brandon property owners work wit
 
 Crew Restoration & Construction is based in Sioux Falls, and Brandon is a direct shot east on I-90 — roughly 12 miles from our office to the heart of the city. Neighborhoods like Aspen Heights and the areas near Aspen Park are typically our first stops on a Brandon run; the Split Rock area adds a few minutes heading further east. Call us at (605) 965-2727 and we'll give you an honest arrival estimate based on where we're dispatched from and current conditions.
 
+## Building stock, site conditions, and permits in Brandon
+
+The newer subdivisions get most of the attention, but the older core near Splitrock Avenue and the streets around downtown holds mid-century houses with a very different failure profile: concrete block or older poured basement walls, cast iron drain stacks, galvanized supply lines, and plaster in places. Galvanized pipe closes off with scale and then weeps at threaded joints, and cast iron rots from the inside at the base of a stack — both leak slowly into a basement wall before anyone notices. In houses of that vintage we plan for asbestos-containing floor tile, mastic, and old pipe wrap before demolition starts.
+
+Under all of it is glacial till with Sioux quartzite bedrock close to the surface in the Split Rock corridor, so footings sit deep for frost and drainage has to be pushed away rather than down. Structural repair and rebuild permits in Brandon come from the city, and reconstruction that touches framing, plumbing, or electrical generally needs one plus inspections.
+
 If you're dealing with water, fire, smoke, or mold damage at a Brandon property, call Crew Restoration & Construction at **(605) 965-2727**. We'll assess what happened, explain what needs to be done, and get to work.

@@ -43,4 +43,10 @@ North Texas weather does the rest. The region averages fewer than 20 freezing da
 
 Reign Restoration is headquartered in Royse City, roughly 30 miles east of Mesquite via US-80. That route runs almost directly into the heart of the city, making Mesquite one of our most accessible service areas. From Royse City, US-80 westbound connects to Mesquite without navigating the inner loop, which keeps travel time predictable outside of peak commute windows. We serve the full city — from neighborhoods along the I-635 corridor in the northwest to the communities near the Mesquite city limits bordering Sunnyvale and Balch Springs to the south and west. Call us at (214) 304-0621 to confirm scheduling for your specific address.
 
+## Building stock, site conditions, and permits in Mesquite
+
+Almost everything residential here sits on slab-on-grade — basements are essentially nonexistent in this part of Dallas County, and crawlspaces are rare outside the oldest cottages. The typical build is wood frame with brick veneer on the front elevation, asphalt shingles, and HVAC and ductwork stuffed into a vented attic. That matters after a loss: water from an attic line or a failed pan runs down inside wall cavities, and there is no crawlspace to inspect from below, so drying gets verified with meters rather than by eye.
+
+In homes finished before the early 1980s, expect popcorn ceilings, sheet vinyl, and mastic that need testing before demolition, plus lead paint in pre-1978 finishes. Structural repair and rebuild work is permitted through the City of Mesquite, and repiping requires a licensed plumber to pull the plumbing permit.
+
 If you're dealing with water, fire, mold, or storm damage anywhere in Mesquite, call Reign Restoration at **(214) 304-0621**. We'll assess the damage, walk you through the process, and get mitigation started as quickly as scheduling allows.

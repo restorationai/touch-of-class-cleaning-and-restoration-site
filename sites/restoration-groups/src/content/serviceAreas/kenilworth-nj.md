@@ -53,4 +53,10 @@ Once the damage is mitigated, many homeowners don't want to manage a separate ge
 
 Because our office is on S 31st Street, Kenilworth is our fastest-response territory. North Kenilworth addresses near Galloping Hill Golf Course are a short drive up the Boulevard. South Kenilworth and the Monroe Avenue corridor are minutes in the other direction. We operate 24/7, so a call at 2 a.m. after a water heater lets go reaches a live dispatcher, not a voicemail. Garden State Parkway Exit 138 puts us within easy reach of any corner of the borough, and we're equally accessible from Route 22 for commercial properties along the industrial corridor.
 
+## Building stock, site conditions, and permits in Kenilworth
+
+The prewar half of the borough is plaster and wood lath over dimensional framing, and that assembly holds water long after the surface feels dry. Plaster wicks moisture upward through the keys behind the lath, so drying a basement or first-floor wall here usually means removing base trim and drilling or venting the cavity rather than just running air across the finish. Many of these houses still have gravity-era radiators and cast-iron drain stacks, plus asbestos-suspect pipe wrap on old boiler lines and 9x9 floor tile in basements — both worth testing before demolition, along with lead paint in anything painted before the late 1970s.
+
+Structural repairs and rebuilds run through New Jersey's Uniform Construction Code, with the permit issued by the borough construction official and the rehabilitation subcode governing work in existing buildings.
+
 If you're dealing with a loss anywhere in the 07033 ZIP code — whether it's a flooded basement in North Kenilworth, smoke damage near David Brearley High School, or a commercial water event on the Monroe Avenue corridor — call The Restoration Group at **(908) 970-8533**. We answer around the clock and can dispatch from our Kenilworth headquarters any time of day or night.

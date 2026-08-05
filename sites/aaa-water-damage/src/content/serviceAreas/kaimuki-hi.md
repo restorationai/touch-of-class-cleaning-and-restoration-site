@@ -53,4 +53,10 @@ Sewer backups in Kaimuki's aging drain system are not uncommon. Category 3 water
 
 Our Honolulu base puts Kaimuki within a short drive under normal H-1 and surface-street conditions — typically via Kapiolani Boulevard or Waialae Avenue depending on time of day. ZIP code 96816 covers the core of Kaimuki including the Waialae Avenue business district, the residential streets climbing toward Wilhelmina Rise, and the Maunalani Heights area above. We answer the phone 24 hours a day, seven days a week, and dispatch equipment the same call — not the next business morning.
 
+## Building stock, site conditions, and permits in Kaimuki
+
+Most of Kaimuki's older homes sit on post-and-pier foundations — a raised wood floor on short concrete piers with an open crawlspace beneath. That gap is a blessing and a curse: it dries faster than a slab, but it also lets moisture sit against joists and sill plates where Formosan subterranean termites, a constant problem on Oahu, are already looking for damp wood. Ground here is shallow soil over hard volcanic rock, so water tends to run across the surface rather than soak away.
+
+Anything built before the late 1970s can carry lead paint, and old resilient floor tile and pipe wrap may contain asbestos, so demolition gets tested rather than guessed at. Structural repairs and rebuilds on Oahu are permitted through the City and County of Honolulu's Department of Planning and Permitting.
+
 If you're dealing with water, smoke, mold, or a sewage backup anywhere in Kaimuki — from the restaurant corridor on Waialae Avenue to the hillside homes on Wilhelmina Rise — call AAA Water Damage Restoration & Carpet Care at **(808) 349-3407**. We're available around the clock, and the sooner mitigation starts, the less damage there is to undo.

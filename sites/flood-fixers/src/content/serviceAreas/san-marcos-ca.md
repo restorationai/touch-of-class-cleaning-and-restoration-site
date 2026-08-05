@@ -55,4 +55,12 @@ Once mitigation is complete, we can carry the project through rebuild — drywal
 
 Flood Fixers is headquartered in San Diego. Under normal traffic conditions, our crews reach San Marcos in approximately 45 to 60 minutes. Neighborhoods closer to the Interstate 78 corridor — including communities near Rancho Santaluz and the commercial corridors along Twin Oaks Valley Road — are typically on the faster end of that range. We answer calls 24 hours a day, every day, and aim to have a technician on-site within the hour for active water losses.
 
+## Building stock, site conditions, and permits in San Marcos
+
+Almost everything here sits on slab-on-grade. Basements are effectively unheard of in inland San Diego County, and raised-floor crawlspaces show up mainly in the older mid-century homes near the original downtown grid. On a slab, water spreads sideways under flooring and wicks up into the bottom plates and drywall, so the damage line is usually wider than the wet spot you can see.
+
+Stucco over wood frame with tile or composition shingle roofing is the dominant assembly. Stucco holds moisture against sheathing, which is why walls get opened rather than surface-dried. Copper supply and ABS drain lines are typical of the 1980s and later builds.
+
+Many pads here are cut-and-fill hillside lots, so drainage behind retaining walls matters. Structural repairs are permitted through the City of San Marcos under the California Building Code, and HOA approval is common in the newer communities.
+
 If you're dealing with water, fire, mold, or a biohazard situation in San Marcos right now, call Flood Fixers at **(855) 204-1124**. We'll tell you exactly what to do in the next ten minutes while we're already on our way.

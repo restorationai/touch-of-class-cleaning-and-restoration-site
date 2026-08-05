@@ -51,4 +51,12 @@ Once mitigation is complete, many properties need structural repairs — drywall
 
 HomeLyft Restoration MS is headquartered in Gulfport, and Ellisville is roughly 80 miles north via US-49. That route runs straight through the heart of the Pine Belt, and our crews travel it regularly for Jones County jobs. Call us during business hours and we will get a crew scheduled and moving toward Ellisville as quickly as our current dispatch allows — we will give you an honest arrival estimate when you call rather than a number we cannot stand behind. Property managers overseeing multiple units in the Ellisville area can also arrange standing service agreements so that response logistics are already in place before an emergency happens.
 
+## Building stock, site conditions, and permits in Ellisville
+
+Much of Ellisville's older core is early-to-mid-century frame construction — plank or shiplap sheathing, brick veneer or lap siding, and hardwood over board subfloor. Post-1970s houses and additions in town are more often slab-on-grade with truss roofs. Anything built before 1978 should be treated as possible lead paint, and pre-1980s vinyl floor tile, mastic, and pipe wrap as possible asbestos, so demo has to be tested and scoped rather than swung at.
+
+Plumbing vintage matters just as much: galvanized supply and cast iron drains in the oldest houses, copper mid-century, and polybutylene in some late-1980s work. Galvanized fails from the inside out and cast iron fails at the hub.
+
+Structural repair and rebuild inside the city limits is permitted through Ellisville City Hall; work outside them goes through Jones County. Mississippi's statewide residential code sets the baseline.
+
 If you are dealing with damage at an Ellisville property — or want to get ahead of a situation before it worsens — call HomeLyft Restoration MS at (228) 284-5200. We will walk you through what to do right now and get the right crew headed your way.

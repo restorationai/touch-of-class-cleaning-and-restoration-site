@@ -49,4 +49,12 @@ After mitigation, many properties need structural repairs — subfloor replaceme
 
 From our Kenilworth, NJ headquarters, Brooklyn is a direct shot through the Staten Island Expressway and across the Verrazzano-Narrows Bridge — or through the Holland Tunnel and across Lower Manhattan depending on traffic conditions. We serve the full borough: Park Slope and Brooklyn Heights in the northwest, Bay Ridge along the waterfront, Flatbush and Canarsie in the south, and Williamsburg and Bushwick to the north. Because we operate 24/7, a call at 2 a.m. after a pipe bursts in a Prospect Park–area brownstone gets the same response as a call during business hours. We do not promise a specific arrival window in minutes — travel time depends on conditions — but we dispatch immediately and keep you updated en route.
 
+## Building stock, site conditions, and permits in Brooklyn
+
+Rowhouses here are typically brick or brownstone-faced load-bearing masonry with wood joists pocketed into the party walls, plaster on lath inside, and a flat roof — built-up or modified bitumen over a low slope that drains to interior leaders. When water gets in, it tracks down the inside face of the brick and sits at the joist ends, which is where rot shows up long after the ceiling dries.
+
+Prewar buildings still hold cast iron drain stacks, galvanized supply lines, knob-and-tube remnants, and lead paint under later coats, plus asbestos pipe insulation in cellars. Any of that changes the demolition scope. Southern Brooklyn sits largely on sandy glacial outwash with a shallow water table near the shore, so cellars take on groundwater as well as street runoff.
+
+Structural repair permits come from the NYC Department of Buildings, and exterior work in designated historic districts also answers to the Landmarks Preservation Commission.
+
 If you're dealing with a water, fire, mold, or storm emergency anywhere in Brooklyn, call The Restoration Group at **(908) 970-8533**. We answer around the clock and can walk you through next steps before a crew is even on the road.

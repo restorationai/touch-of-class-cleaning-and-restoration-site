@@ -49,4 +49,10 @@ For sewage backups — common when aging lateral lines get overwhelmed during he
 
 From our Middlesex base, Zebulon is a straightforward run — roughly 15 miles northeast via NC-97, a route our crews travel regularly. Downtown Zebulon and the neighborhoods around Five County Stadium are typically our first stops when we're dispatched to the area. Properties farther out along the rural corridors east of town take a few minutes more, but because we operate 24/7, a call at 2 a.m. gets the same dispatch response as a call at noon. We cover all of 27597 and the surrounding unincorporated Wake and Johnston County parcels that carry Zebulon mailing addresses.
 
+## Building stock, site conditions, and permits in Zebulon
+
+Downtown Zebulon's older blocks hold wood-frame farmhouses and mid-century brick-veneer ranches, while subdivisions like Weavers Pond are far newer — vinyl siding, engineered trusses, and PEX supply lines over slabs or shallow crawls. That spread matters once water gets in. Pre-1960 houses often still have galvanized supply and cast-iron drains that fail from the inside out, and homes built between the late 1970s and early 1990s can carry polybutylene, which splits at the fittings. Anything built before 1980 also means planning around possible asbestos floor tile, mastic, or textured ceilings, and pre-1978 lead paint, so demolition gets scoped carefully rather than torn out fast.
+
+Structural repair and rebuild work in North Carolina follows the state residential code, and replacing framing, wiring, or plumbing generally triggers a permit through the local inspections office — worth confirming before drywall goes back up.
+
 If you're dealing with a water, fire, mold, or biohazard situation at a Zebulon property right now, call Go Green Restoration of NC at **(919) 906-5473**. We answer around the clock, and we'll give you a straight answer about what the job involves before any work begins.

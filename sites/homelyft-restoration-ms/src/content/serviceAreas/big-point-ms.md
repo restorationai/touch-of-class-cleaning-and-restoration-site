@@ -43,4 +43,10 @@ Wildfire smoke and structure fires are a secondary but real concern in the more 
 
 HomeLyft Restoration MS operates out of Gulfport, roughly 25 to 30 miles west of Big Point via US-90 and MS-613. Jackson County's road network through this part of the county is mostly two-lane, so actual drive time depends on conditions and time of day. We schedule promptly and communicate an estimated arrival window when you call — (228) 284-5200. For property managers overseeing multiple units or rental properties in the Big Point area, we can coordinate access and documentation directly with your office.
 
+## Building stock, site conditions, and permits in Big Point
+
+Big Point is unincorporated, so there is no city hall to visit — building permits for structural repair, reroofing, and rebuilds come from Jackson County, and floodplain questions go through the county's floodplain administrator. Mississippi's coastal counties enforce wind provisions in the residential code, so roof reattachment and connection details matter on any rebuild scope.
+
+Basements are essentially nonexistent here. Much of the area is on private well and septic, and a saturated drainfield after days of rain is a different problem than a supply leak. Older homes may still carry galvanized supply, cast iron drains, and pre-1978 lead paint or asbestos-containing sheet flooring and joint compound, which changes how material gets removed. Manufactured and modular homes are common in rural Jackson County and dry differently than stick-built.
+
 If you are dealing with water, fire, mold, or storm damage at a Big Point property, call HomeLyft Restoration MS at **(228) 284-5200**. We will assess the situation, explain what needs to happen, and get the work moving.

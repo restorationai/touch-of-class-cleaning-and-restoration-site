@@ -49,4 +49,12 @@ For significant losses, we can pack out and inventory salvageable contents, stor
 
 Coastal Restoration Services Inc is headquartered in Vandenberg Village, roughly 45 miles southwest of Templeton via US-101 North. The drive runs through Santa Maria and San Luis Obispo before reaching the Templeton exit — a straightforward freeway route with no mountain passes or seasonal closures to contend with. For properties farther north toward the Templeton town center or east toward the rural parcels off Vineyard Drive, travel time from our HQ is typically under an hour under normal traffic conditions. We serve all of Templeton's ZIP codes, **93465** included, and cover the broader North County SLO corridor regularly. Call **(805) 345-7440** to confirm scheduling and get a crew moving toward your property.
 
+## Building stock, site conditions, and permits in Templeton
+
+Templeton is unincorporated, so permits for structural repair, reroofing, rebuilt framing, or electrical and plumbing work come from San Luis Obispo County Planning and Building rather than a city hall. Cosmetic drywall and paint usually don't trigger a permit; replacing sheathing, framing members, or rebuilding after fire almost always does, and California's seismic provisions shape how that framing goes back together.
+
+Assembly matters once things get wet. Stucco over wood frame holds moisture against the sheathing long after the surface feels dry, and slab-on-grade sections common in later builds wick water sideways under flooring. Homes built before the early 1980s can hide asbestos in sheet flooring, mastic, and textured ceilings, plus lead paint in pre-1978 layers, so demolition gets tested before it gets torn out.
+
+Many rural parcels here run on private septic, which limits where extracted water can go.
+
 If you're dealing with water, fire, smoke, or mold damage at a Templeton property, the next step is a phone call. Reach Coastal Restoration Services Inc at **(805) 345-7440** and describe what you're seeing — we'll tell you honestly what it sounds like and what the response looks like from here.

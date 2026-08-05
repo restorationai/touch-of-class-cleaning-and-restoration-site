@@ -47,4 +47,10 @@ After mitigation is complete and the insurance adjuster has signed off, we handl
 
 From our San Diego headquarters, Flood Fixers reaches most of Encinitas in 45 to 60 minutes under normal traffic conditions. The I-5 corridor puts ZIP codes 92024 and 92007 — covering Old Encinitas, Cardiff, and the coastal strip — within that window consistently. Leucadia, in the northern part of the city, typically adds 5 to 10 minutes. We answer calls around the clock; a technician, not a call center, picks up after hours. When you call (855) 204-1124, you can expect an honest ETA based on where our nearest crew is at that moment, not a marketing number.
 
+## Building stock, site conditions, and permits in Encinitas
+
+Beyond the postwar slab tracts, Encinitas still has older beach cottages on raised post-and-pier crawlspaces, some with lath-and-plaster walls that hold water far longer than drywall and have to be dried differently. Stucco over wood frame is the dominant exterior, and once it wicks water the sheathing behind it stays wet long after the surface looks dry. Anything built before the late 1970s gets treated as suspect for asbestos in popcorn ceilings, sheet flooring, and mastic, and for lead paint — testing comes before demolition, not after. Older homes on the coastal terrace often still drain through cast iron, which corrodes from the inside and leaks under the slab.
+
+The City of Encinitas building division issues permits. Structural framing, electrical, and re-roof work trigger one; near-bluff properties can also fall under coastal development review.
+
 If you're dealing with water, fire, mold, or storm damage anywhere in Encinitas right now, call Flood Fixers at **(855) 204-1124**. We'll tell you exactly how far out we are and what to do — or not do — until we arrive.

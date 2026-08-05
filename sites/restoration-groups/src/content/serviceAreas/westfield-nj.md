@@ -51,4 +51,12 @@ After a storm drops a limb through a roof near Tamaques Park or Mindowaskin Park
 
 The Restoration Group is headquartered in Kenilworth, roughly 4 miles northeast of Westfield via Boulevard or North Avenue. That proximity means we can reach Downtown Westfield, The Gardens, and Indian Forest quickly — and because we operate 24 hours a day, 7 days a week, a call at 2 a.m. after a sump alarm goes off reaches a live dispatcher, not a voicemail. Crews serving Manor Park and Brightwood travel the same short corridor. We carry the equipment load — truck-mounted extraction, desiccant and refrigerant dehumidifiers, air movers — to begin mitigation on arrival rather than making a preliminary visit.
 
+## Building stock, site conditions, and permits in Westfield
+
+Much of Westfield's pre-1930s housing is balloon-framed, meaning stud cavities run uninterrupted from the sill to the attic. Water entering at a roof or second-floor line can travel down inside a wall and show up two stories below, so drying here means opening and metering the full cavity height rather than the visible stain. Foundations are typically stone or brick below grade, parged on the interior, and they wick moisture long after standing water is gone.
+
+Expect era-linked hazards in any demolition scope: lead paint under later coats, and asbestos in old boiler and pipe insulation from steam and hot-water heating systems.
+
+Structural repair and reconstruction are permitted through Westfield's construction office under the New Jersey Uniform Construction Code, with the state's rehabilitation subcode governing work on existing buildings.
+
 If you're dealing with water, fire, mold, or storm damage anywhere in Westfield's 07090 ZIP code, call The Restoration Group at **(908) 970-8533** — day or night. We'll assess the damage, explain your options clearly, and get mitigation started before the loss grows.

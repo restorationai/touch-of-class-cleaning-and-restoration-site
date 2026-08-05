@@ -49,4 +49,12 @@ Once mitigation is complete, many property owners don't want to manage a separat
 
 Gulf Hills is roughly 8 to 10 miles east of our Gulfport headquarters via US-90 and MS-609. Under normal traffic conditions that's a straightforward run along the coast corridor — no significant bottlenecks outside of peak summer beach traffic on 90. We schedule service calls promptly and will give you a realistic arrival window when you call. Because our hours aren't listed as 24/7 here, we'll be direct with you: call us at (228) 284-5200 and we'll tell you exactly when we can be on-site.
 
+## Building stock, site conditions, and permits in Gulf Hills
+
+Gulf Hills is unincorporated, so building permits for structural repair or rebuild come from Jackson County rather than Ocean Springs city hall — a distinction worth knowing before demolition starts. Anything structural, plus roof and electrical work in most cases, triggers a permit, and lots near the back bays can also fall under flood-zone elevation rules that shape how far you can rebuild in place.
+
+In homes of this vintage, expect copper supply lines and cast iron drains. Cast iron corrodes from the inside and fails at joints under slabs, which is why a slab leak here often shows up as warm flooring or a musty hallway rather than a visible drip. Where polybutylene was used in early-1980s work, fittings are the weak point.
+
+Coastal wind design also governs roof-to-wall rebuilds along this stretch of the county.
+
 If you're dealing with water, fire, smoke, or mold damage in Gulf Hills, call HomeLyft Restoration MS at **(228) 284-5200**. We'll assess what's happening, explain the process plainly, and get the work scheduled without the runaround.

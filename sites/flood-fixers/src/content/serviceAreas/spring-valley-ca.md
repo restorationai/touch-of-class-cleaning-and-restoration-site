@@ -49,4 +49,12 @@ Once mitigation is complete, our in-house reconstruction team rebuilds — drywa
 
 From our San Diego headquarters, Spring Valley is roughly 12 to 15 miles via SR-94 or Interstate 8 to Spring Valley's main corridors. Under normal traffic conditions, that translates to a 45-minute average drive. During peak commute hours on the 94, we route through surface streets to avoid the backup near Lemon Grove, keeping our on-site arrival under 60 minutes for addresses throughout the 91977 and 91978 ZIP codes. Neighborhoods like Bancroft Ranch and the areas surrounding Sweetwater Road typically see our trucks in under 50 minutes. We cover all of Spring Valley — from the hillside streets above the Sweetwater Reservoir to the flatter residential blocks near Jamacha Road.
 
+## Building stock, site conditions, and permits in Spring Valley
+
+Spring Valley is unincorporated, so there is no city building department — permits for structural repair, re-roofing, or a rebuild come from San Diego County's Planning & Development Services, under the California Building Code that the state updates on a three-year cycle. Anything past cosmetic patching — replacing framing, altering walls, or reworking plumbing runs — generally needs a permit pulled before reconstruction starts.
+
+Most homes here are wood frame with stucco exterior and sit on slab-on-grade, with raised floors and crawlspaces showing up on the older hillside lots. Basements are rare. On a slab, water tracks sideways under flooring and wicks up the bottom plate, so drying means getting at the wall base rather than just pulling carpet.
+
+Anything built before 1978 also brings lead paint into the scope, which changes how demolition dust is handled.
+
 If you're dealing with water, fire, mold, or storm damage anywhere in Spring Valley, the fastest next step is a call to (855) 204-1124. We answer around the clock, we dispatch the same day, and we'll give you a straight assessment of what you're looking at before any work begins.

@@ -51,4 +51,12 @@ Once mitigation is complete, many property owners want a single contractor to ca
 
 From our Cerritos headquarters, Riverside is roughly 45 to 55 miles east via the 91 Freeway — a corridor we run regularly. We serve all of Riverside's major neighborhoods: Alessandro Heights, Canyon Crest, La Sierra, Wood Streets, Magnolia Center, Eastside, and the downtown core near the Fox Performing Arts Center and the Mission Inn. Because we operate 24/7, dispatch happens immediately when you call (714) 409-4758 — not at the next business opening. Drive time from Cerritos varies with traffic on the 91, but our team is familiar with the route and stages equipment before leaving so work can begin on arrival.
 
+## Building stock, site conditions, and permits in Riverside
+
+Riverside's older core is mostly wood-framed bungalows and early ranches on raised perimeter foundations with crawlspaces, finished in lath and plaster under stucco. Postwar and later tract housing shifts to slab-on-grade with stucco over wood frame. Basements are rare either way, so water tends to migrate sideways through bottom plates and under flooring rather than collecting somewhere you can see it. Crawlspace homes hide their leaks under the floor; slab homes hide them in the slab edge and the wall cavity above it.
+
+Pre-1950 houses often still carry galvanized supply lines and cast iron drains, both of which fail from the inside out. Anything built before the early 1980s should be treated as potentially containing asbestos in ceiling texture, joint compound, or floor tile, and lead paint before 1978, so demolition gets tested first.
+
+Structural repair and rebuild permits come from the City of Riverside's Building and Safety division under the California Building Code, and exterior work in the city's designated historic districts can draw additional review.
+
 If you're dealing with water, mold, fire damage, or an unplanned reconstruction need anywhere in Riverside, call Mold Solutionz 24/7 at **(714) 409-4758**. We're available around the clock, and the first conversation costs you nothing.

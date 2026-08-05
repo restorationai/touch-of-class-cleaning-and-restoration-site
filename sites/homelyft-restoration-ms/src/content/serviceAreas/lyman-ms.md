@@ -53,4 +53,10 @@ Once mitigation is complete, many Lyman homeowners need the damaged areas rebuil
 
 Our Gulfport headquarters puts us roughly 10 to 15 miles from Lyman via U.S. Highway 49 or I-10, depending on exactly where your property sits in Harrison County. That distance is straightforward on most days, and we prioritize Lyman calls on our dispatch schedule the same way we do calls from Gulfport itself. When you call **(228) 284-5200**, our team will confirm scheduling and give you a realistic arrival window based on current crew availability — we will not give you a time we cannot keep.
 
+## Building stock, site conditions, and permits in Lyman
+
+Lyman is unincorporated, so structural repair and rebuild permits come from Harrison County rather than a city hall — county building inspection signs off on framing, roof deck replacement, and electrical, and the substantial work that follows a bad storm usually triggers one. Coastal Mississippi work also carries high-wind fastening and, near mapped flood areas, elevation requirements, so a rebuild scope is rarely a like-for-like patch.
+
+Much of the older stock here predates 1978, which means lead paint on trim and siding, and pre-1980 houses can hide asbestos in floor tile, mastic, and duct wrap. Plan for that before demolition. Supply and drain vintages vary widely — galvanized steel, copper, cast iron, and 1980s polybutylene all show up — and each fails differently: pinholes, scale, cracked hubs, split fittings behind finished walls.
+
 If you are dealing with water, fire, smoke, mold, or storm damage at a Lyman property, the next step is a phone call. Reach HomeLyft Restoration MS at **(228) 284-5200** to describe what you are seeing and get a crew scheduled.

@@ -49,4 +49,10 @@ Once the damage is mitigated, the rebuild begins. Crew Restoration & Constructio
 
 Edgerton is approximately 90 miles northeast of our Sioux Falls headquarters, a drive that runs east on I-90 and north on US-75 through Luverne. Depending on road conditions — and southwestern Minnesota winters can close stretches of US-75 without much warning — our crew typically reaches the 56128 ZIP code within a few hours of a confirmed dispatch. We serve all areas of Edgerton, including Downtown Edgerton and West Edgerton. For scheduling, call (605) 965-2727 and a team member will confirm availability and give you a realistic arrival window based on current conditions.
 
+## Building stock, site conditions, and permits in Edgerton
+
+Southwestern Minnesota sits on glacial till, and footings here have to reach below a deep frost line, so full basements are the default rather than slabs or crawlspaces. That matters after a loss: the lowest level holds the furnace, water heater, and often the electrical panel, and a wet basement floor means dense concrete and framing sill plates drying slowly from the bottom up. Homes of this vintage also commonly ran galvanized steel supply lines before copper, and galvanized fails by rusting closed and then pinholing at threaded joints.
+
+The Minnesota State Building Code applies statewide, so structural repair and rebuild work follows the same rules here as in Luverne or Pipestone. Permits go through the City of Edgerton, with inspection often handled by a contracted building official — worth confirming before demolition, not after.
+
 If you are dealing with water, fire, mold, or structural damage anywhere in Edgerton, call Crew Restoration & Construction at **(605) 965-2727**. We will talk through what you are seeing, help you understand your next steps, and get a crew scheduled as quickly as conditions allow.

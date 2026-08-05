@@ -49,4 +49,12 @@ Once mitigation is complete, damaged materials need to be replaced — drywall, 
 
 HomeLyft Restoration MS operates out of Gulfport, roughly 90 miles south of McLain via US-49 North. The drive runs through Hattiesburg and into Greene County, a route our crews travel regularly for jobs throughout the region. McLain is a smaller community, and we want to be straightforward: scheduling lead times to McLain may be longer than for properties closer to the Gulf Coast. We encourage McLain property owners to call us as soon as a loss occurs at +12282845200 so we can give you an honest arrival estimate and, where needed, advise on immediate steps — like stopping the water source, opening windows if safe, or documenting damage with photos — while a crew is in transit.
 
+## Building stock, site conditions, and permits in McLain
+
+Homes here are mostly wood-framed and low-set, many on brick or block piers with a vented crawl space rather than a slab. Coastal-plain sandy loam over a denser clay subsoil drains fast at the surface but holds water lower down, so a crawl space can stay damp long after the yard looks dry, and pier footings can settle unevenly once that soil stays saturated.
+
+Material vintage matters in a scope. Mid-century houses often still have galvanized supply lines and cast iron drains that fail at threads and joints; 1970s and 80s work brings copper and, occasionally, polybutylene. Anything built before 1978 gets treated as lead-paint suspect, and pre-1980 floor tile, mastic, and joint compound get tested before demolition.
+
+Permitting in a small Greene County town is lighter than on the coast, but septic approval runs through state health, and work in a mapped floodplain triggers floodplain review before rebuild.
+
 If you are dealing with water, fire, mold, or structural damage at a McLain property, call HomeLyft Restoration MS at +12282845200. We will walk you through what to do right now and get a crew moving toward Greene County.

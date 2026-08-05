@@ -49,4 +49,12 @@ Once mitigation is complete, Flood Fixers handles the rebuild — drywall, floor
 
 From our San Diego headquarters, Flood Fixers reaches most of Santee in 45 to 60 minutes under normal traffic conditions. The drive east on State Route 52 or north on Interstate 15 to Mission Gorge Road puts our crews in Carlton Hills, Forrest Park, and the neighborhoods surrounding Santee Lakes Regional Preserve within that window. For properties deeper in the 92071 ZIP code along Cuyamaca Street, plan on the same range. We answer calls 24 hours a day, every day of the year — call (855) 204-1124 and a live dispatcher picks up, not a voicemail system.
 
+## Building stock, site conditions, and permits in Santee
+
+Most of Santee's tract housing is stucco over wood frame on a post-tensioned or conventional concrete slab, with shallow-pitch roofs carrying composition shingle or concrete tile. When a slab gets wet, the water wicks up into bottom plates and the paper facing of the drywall, so drying usually means removing base trim and drilling the wall cavity rather than tearing out full sheets.
+
+Drain lines in the older homes are commonly cast iron or early ABS, and cast iron corrodes from the inside long before it leaks visibly. Anything built before 1978 may have lead paint, and pre-1980 popcorn ceilings and sheet vinyl can contain asbestos — both need testing before demolition.
+
+Structural repair and rebuild permits come from the City of Santee's building division, with added floodplain review near the San Diego River.
+
 If you're dealing with water, smoke, or mold damage at a Santee property right now, the fastest next step is a phone call. Reach Flood Fixers at **(855) 204-1124** — we'll confirm your address, give you an honest ETA, and tell you exactly what to do before we arrive.

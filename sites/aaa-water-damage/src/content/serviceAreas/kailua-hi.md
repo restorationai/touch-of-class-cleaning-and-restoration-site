@@ -49,4 +49,12 @@ Salt air, sand tracked in from Kailua Beach Park, and the persistent moisture th
 
 Our Honolulu headquarters puts Kailua roughly 12 to 15 miles away via the H-3 freeway through the Ko'olau tunnel — typically the fastest route regardless of time of day. The Pali Highway is the alternate when H-3 is congested, adding a few minutes but still reaching Kailua Town and Kailua Town Center quickly. From there, neighborhoods like Lanikai, Kalama Tract, and Coconut Grove are a short drive. Because we operate 24/7, we can dispatch equipment any hour — call (808) 349-3407 and we'll confirm an arrival window based on current conditions on the road.
 
+## Building stock, site conditions, and permits in Kailua
+
+Much of Kailua's housing went up between the late 1940s and the 1960s, and a lot of it sits on post-and-pier foundations rather than slab. That raised crawlspace is a mixed blessing: it lets us dry framing from below, but with the windward water table close to the surface, the ground under the house stays damp and the cavity holds humidity long after the leak is fixed. The later Enchanted Lake and Maunawili tracts lean more toward slab-on-grade.
+
+Plumbing of that vintage means galvanized steel supply lines and cast iron drains, both of which fail from the inside out. Anything predating the late 1970s should also be assumed to have lead paint or asbestos in floor tile and mastic until tested.
+
+Permits for structural repair or rebuild come from the City and County of Honolulu's Department of Planning and Permitting — Kailua has no separate city hall — and properties near the canal and shoreline may sit in a FEMA flood zone, which changes what a rebuild has to meet.
+
 If water, fire, or mold is affecting your Kailua property right now, call AAA Water Damage Restoration & Carpet Care at **(808) 349-3407**. We answer around the clock, dispatch from Honolulu via H-3, and bring the equipment to handle what windward Oahu's climate actually throws at a home — not what a mainland restoration checklist assumes.

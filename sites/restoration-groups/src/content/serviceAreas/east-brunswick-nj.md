@@ -55,4 +55,12 @@ Once mitigation is complete, the same crew that dried your home can rebuild it �
 
 From our Kenilworth headquarters, East Brunswick is roughly 25 miles via the Garden State Parkway south to Route 9 or via Route 1 through Metuchen — a straightforward run that keeps us well within Middlesex County reach. Because we operate 24/7, a call at 2 a.m. from a property manager in the Village of the Golden Triangle or a homeowner off Old Bridge Turnpike gets the same dispatch response as a mid-afternoon call. We will give you an honest estimated arrival window when you call (855) 650-7422 — conditions on the Parkway and Route 18 vary, and we do not quote arrival times we cannot stand behind.
 
+## Building stock, site conditions, and permits in East Brunswick
+
+Homes from the early part of the postwar boom here often have plaster over rock lath rather than drywall, and that assembly holds water far longer than it looks like it should — it needs drilled cavity drying, not just fans in the room. Anything built before the late 1970s should be assumed to carry lead paint, asbestos floor tile and mastic, and asbestos insulation on old boiler and duct runs until testing says otherwise, which shapes the demolition scope.
+
+This part of Middlesex County sits on coastal plain sands and clays, so drainage varies block to block and footings are set below a roughly three-foot frost line.
+
+Repairs beyond cosmetic replacement need permits from East Brunswick Township's construction office under the New Jersey Uniform Construction Code, with separate building, plumbing, and electrical subcode approvals. In townhome and condo clusters, the association usually controls exterior and common-element work.
+
 If you are dealing with a water, fire, mold, or structural loss anywhere in East Brunswick — from a ranch off Frost Woods to a commercial bay near the Ireland Brook Conservation Area — call The Restoration Group at **(855) 650-7422**. We answer every hour of every day and can walk you through next steps before we even arrive on site.

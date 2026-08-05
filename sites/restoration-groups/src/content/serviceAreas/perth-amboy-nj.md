@@ -49,4 +49,10 @@ Once mitigation is complete, the same crew that dried or cleaned the structure c
 
 The Restoration Group is based in Kenilworth, NJ. Perth Amboy is roughly 18 miles southeast via the Garden State Parkway to Exit 127 or through Woodbridge on Route 9 — a straightforward drive in most conditions. We dispatch around the clock, so a call at midnight reaches a live person who can have a crew moving toward Downtown, the Waterfront, or Bayview Park within the hour. Traffic on the Parkway during peak hours can add time, but our dispatch team routes around it when possible and will give you an honest arrival estimate when you call.
 
+## Building stock, site conditions, and permits in Perth Amboy
+
+Homes from this era are typically balloon-framed with plaster and wood lath over full basements, many with rubble-stone or soft-mortar brick foundation walls. That matters after a loss: balloon cavities let water and smoke run floor to floor unchecked, and plaster holds moisture long after drywall would read dry, so it gets drilled, cavity-dried, and re-checked rather than guessed at. Anything predating 1978 also means lead paint, and pipe wrap, floor tile, and old boiler insulation can be asbestos-containing, which changes demolition sequencing. Knob-and-tube still turns up behind ceilings in unrenovated units.
+
+Repairs beyond cosmetic work need permits from the city construction office under the New Jersey Uniform Construction Code, with separate building, plumbing, electrical, and fire subcodes. On waterfront blocks in a mapped flood zone, substantial-improvement rules can drive elevation requirements into the rebuild.
+
 If you're dealing with water, fire, smoke, or mold damage at a Perth Amboy property right now, call The Restoration Group at **(855) 650-7422**. We're available 24 hours a day, and the first step is a conversation — not a commitment.

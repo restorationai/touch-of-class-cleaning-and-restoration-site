@@ -53,4 +53,12 @@ Business owners and property managers along East Ridgewood Avenue and near The S
 
 From our Kenilworth headquarters, Ridgewood is roughly 25 miles north via the Garden State Parkway to Route 17, or through Paramus on Route 4. We run 24/7, so a call at 2 a.m. from a Somerville-area homeowner watching water rise in a finished basement gets the same dispatch priority as a midday call. We serve all of 07450 — from the Village center near Van Neste Square out through the West Side and into the Old Country Club neighborhood — and we're familiar with the access constraints that come with Ridgewood's narrow residential streets and mature tree canopy.
 
+## Building stock, site conditions, and permits in Ridgewood
+
+Behind the finish, these houses are mostly plaster and wood lath over dimensional framing, sitting on stone or brick-and-mortar foundation walls that wick moisture rather than shed it. Drying that assembly is slower than drywall — the lath holds water and the plaster keys hide it. Pre-1978 paint layers, asbestos-bearing pipe and boiler insulation on old steam systems, and knob-and-tube runs in attics all shape how a demolition scope gets written.
+
+The ground here is glacial soil over red sandstone and shale bedrock, with alluvial deposits and a shallow water table along the brook and river corridors. Footings sit below a roughly three-foot frost line, so basements are deep and stay damp.
+
+Structural repair and rebuild permits come from the Village's construction office under New Jersey's Uniform Construction Code; work in mapped flood areas carries added elevation requirements.
+
 If you're dealing with a loss in Ridgewood right now — or want to talk through what a restoration project involves before committing — call The Restoration Group at **(855) 650-7422**. We're available around the clock and we know the village well.

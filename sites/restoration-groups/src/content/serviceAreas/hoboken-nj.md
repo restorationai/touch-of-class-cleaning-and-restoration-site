@@ -49,4 +49,12 @@ Once the damage is mitigated, the rebuild starts. We handle drywall, flooring, c
 
 From our Kenilworth headquarters, Hoboken is roughly 12 to 14 miles northeast — typically a 25-to-35-minute drive depending on traffic on the NJ Turnpike or Routes 1 and 9 through Jersey City. Because we operate 24/7, we can dispatch at 2 a.m. after a pipe burst in a Waterfront high-rise just as readily as during business hours for a mold assessment in a Castle Point brownstone. We serve all Hoboken neighborhoods — Downtown Hoboken, Uptown, Midtown, The Waterfront, Southwest Hoboken, and Castle Point — and we're familiar with the parking and building-access realities that come with working in a dense urban grid. Elysian Park-area rowhomes, the blocks near Hoboken Terminal, and the Pier A Park waterfront corridor are all within our regular service footprint.
 
+## Building stock, site conditions, and permits in Hoboken
+
+Most of the rowhomes here predate 1900: brick load-bearing walls, plaster over wood lath, and floor joists pocketed straight into the masonry. Once those joist ends and the plaster keys get wet, drying has to be slow and monitored, because heat and fast air movement crack plaster and open joints in old trim. Foundations are brick or rubble stone with no vapor barrier, so a below-grade slab or wall can hold moisture long after the standing water is gone.
+
+Expect era-linked hazards in unrenovated units: lead paint under later coats, asbestos-containing insulation on old steam piping, and knob-and-tube in walls never rewired.
+
+Structural repair and rebuild permits go through Hoboken's construction office under the New Jersey Uniform Construction Code, with separate building, plumbing, electrical and fire subcode approvals. In mapped flood zones, substantial improvements trigger stricter elevation review, and condo or co-op boards usually control access.
+
 If you're dealing with water, fire, mold, or storm damage anywhere in Hoboken, call The Restoration Group at **(855) 650-7422** — we answer every hour of every day and can have a crew moving toward you while you're still on the phone.

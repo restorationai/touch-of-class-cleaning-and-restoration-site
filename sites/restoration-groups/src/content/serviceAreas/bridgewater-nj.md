@@ -51,4 +51,12 @@ For property managers and building owners along the Route 22 corridor or at Brid
 
 From our Kenilworth headquarters, the most direct route to Bridgewater runs west on I-78 to Route 287 north — a straightforward highway run of roughly 25 miles. We can reach Green Knoll and the central township quickly via that corridor. Martinsville and the Chimney Rock area sit a few miles further west and south; Finderne is just north of the Route 22/287 interchange and is typically one of our first stops in the township. Because we operate 24/7, dispatch is available day or night — call (855) 650-7422 and a coordinator will confirm an ETA based on current crew location.
 
+## Building stock, site conditions, and permits in Bridgewater
+
+Behind the finishes, homes from the 1950s through the 1970s carry era hazards a scope has to plan around: asbestos in 9-inch floor tile and its black mastic, asbestos wrap on old boiler and duct runs, and lead paint in anything built before 1978. Pre-war houses in the older sections can still hide knob-and-tube in the joist bays a demo crew opens up.
+
+The ground here is Piedmont — red shale and sandstone close to the surface, basalt up toward the Watchung ridge, and sandy river deposits on the Raritan flats where the water table sits high against basement walls. Footings in this part of New Jersey go below a roughly 36-inch frost line.
+
+Structural repairs and rebuilds are permitted through Bridgewater Township's construction office under the New Jersey Uniform Construction Code, with separate review for work in mapped flood hazard areas.
+
 If you're dealing with a water, fire, mold, or storm loss anywhere in Bridgewater — from a flooded Finderne basement to a commercial roof leak near TD Bank Ballpark — call The Restoration Group at **(855) 650-7422**. We're available around the clock and ready to dispatch.

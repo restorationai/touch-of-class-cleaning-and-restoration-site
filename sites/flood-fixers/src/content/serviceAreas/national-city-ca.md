@@ -49,4 +49,10 @@ When mitigation uncovers structural damage — rotted subfloor from a long-runni
 
 Flood Fixers is headquartered in San Diego, and National City sits roughly 8 miles south via I-5 or SR-54. Under normal traffic conditions, a crew can be on-site in National City within 45 to 60 minutes of your call. For properties in the ZIP codes 91950 and 91951 — including areas near Sweetwater Road, the Mile of Cars corridor, and neighborhoods adjacent to Kimball Park — that window holds consistently outside of peak commute hours. We run 24-hour dispatch, so a 2 a.m. call gets the same response as a weekday afternoon.
 
+## Building stock, site conditions, and permits in National City
+
+National City is one of the county's oldest incorporated cities, so the housing runs older than much of San Diego: wood-frame bungalows with stucco or horizontal siding over board sheathing, some on raised perimeter foundations with shallow crawlspaces rather than slab. In those homes, cast iron drain lines scale shut and crack at the hub, and pre-1980 flooring, ceiling texture, and pipe wrap can contain asbestos while painted trim can carry lead — both change how a wall gets opened.
+
+Ground near the bay flats is low and soft, so crawlspaces there stay damp long after the surface dries. Structural repair, reframing, re-roofing, and rewiring are permitted through the City of National City's building division, under the California Building Standards Code and its seismic bracing requirements for this region.
+
 If you're dealing with water, fire, or mold damage in National City right now, call Flood Fixers at **(855) 204-1124**. We answer every call directly — no answering service, no callback queue — and we can have a licensed technician at your door the same day.

@@ -49,4 +49,12 @@ Once the damage is mitigated and the structure is dry and clean, most property o
 
 HomeLyft Restoration MS is based in Gulfport, and Glendale is a straightforward run up from the Coast. Depending on traffic and the specific address, crews typically travel via US-49 or connecting state routes into the area. We schedule promptly and aim to have a project manager on-site for an initial assessment as quickly as scheduling allows — call us at (228) 284-5200 to discuss timing for your specific situation. For active water intrusion, earlier contact means less secondary damage and a shorter overall drying timeline.
 
+## Building stock, site conditions, and permits in Glendale
+
+Basements are essentially absent in this part of Mississippi — the shallow frost depth means footings don't need to go deep, so you're dealing with either a vented crawl space or a slab. That matters for plumbing vintage: pre-1960 houses often still have galvanized supply lines that scale shut and cast iron drains that crack at the hubs, while late-1970s through 1990s construction may hide polybutylene, which fails at the fittings without warning.
+
+Anything built before 1980 gets treated as potentially containing asbestos in floor tile, mastic, or textured ceilings, and pre-1978 paint is handled lead-safe. Sandy topsoil over denser clay subsoil sheds surface water quickly but can perch it under a crawl space.
+
+For structural repair or rebuild beyond mitigation, confirm whether your permit comes from the county building or code enforcement office before demolition starts.
+
 If you're dealing with water, fire, smoke, or mold damage at a Glendale property, call HomeLyft Restoration MS at **(228) 284-5200**. We'll talk through what you're seeing, explain what the assessment process looks like, and get someone scheduled to your address.

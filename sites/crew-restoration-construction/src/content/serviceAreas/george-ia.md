@@ -47,4 +47,12 @@ Because we handle both mitigation and rebuild under one roof, George property ow
 
 Crew Restoration & Construction is headquartered in Sioux Falls, SD. George is roughly 90 miles southeast via I-90 East to Highway 75 South — a straightforward route that puts our crew into Lyon County without navigating complicated interchanges. From the highway, it's a short drive into Downtown George or out to North George. We schedule service calls during our business hours and will confirm your appointment window when you call. If you're a property manager overseeing multiple addresses near George City Park or along the county roads approaching the Lyon County line, we can coordinate staging and sequencing to minimize disruption across sites.
 
+## Building stock, site conditions, and permits in George
+
+A lot of what stands in George predates the mid-century houses on the north and east edges of town — farmhouses and older bungalows with balloon framing, plaster over wood lath, and fieldstone or unreinforced block basement walls. Plaster holds water differently than drywall: it can look dry on the surface while the lath and framing behind it stay wet, so those walls get metered from the inside rather than guessed at. Pre-1978 finishes mean lead paint is assumed until tested, and older basements often still have cast iron drains and asbestos-bearing pipe wrap or floor tile that change how demolition is sequenced.
+
+The ground here is glacial till and loess — heavy, slow-draining soil that holds meltwater against foundation walls. Footings in this part of Iowa sit deep to clear the frost line.
+
+Permits for structural repair or rebuild inside the corporate limits go through the City of George; work on acreages outside town is handled at the Lyon County level.
+
 If you're dealing with water, fire, mold, or storm damage at a George property, call Crew Restoration & Construction at **(605) 965-2727** during business hours. We'll assess the situation, give you a clear scope, and get the work scheduled.

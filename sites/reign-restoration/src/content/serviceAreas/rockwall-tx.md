@@ -49,4 +49,12 @@ Mitigation without rebuild capability means a second contractor, a second mobili
 
 Reign Restoration is headquartered in Royse City, which sits roughly 10 to 12 miles east of central Rockwall along I-30. That puts us closer to Rockwall than most restoration companies dispatching from across the metro. From the Royse City shop, the crew can reach properties near the Rockwall Harbor area or along the SH-205 corridor quickly without fighting inbound Dallas traffic. Properties further north toward the Lake Ray Hubbard shoreline or south near the Rockwall-Heath border are also well within our regular service area. Call (214) 304-0621 to confirm scheduling and get a crew dispatched.
 
+## Building stock, site conditions, and permits in Rockwall
+
+Most of Rockwall sits on Blackland Prairie clay, which swells when it rains and shrinks hard in a dry August. That movement is why slab-on-grade homes here crack tile, stick doors, and occasionally shear a supply line under the concrete. Drying a slab leak means dealing with wet perimeter framing and baseboard cavities, not just the surface.
+
+The supply and drain vintage matters too. Homes built through the 1990s often ran copper with cast iron drains; anything built in the last twenty years is usually PEX or CPVC, much of it routed through the attic — which is exactly what fails during a North Texas hard freeze.
+
+For structural repair or rebuild, permits come through the City of Rockwall's building inspections office, and newer subdivisions frequently add HOA approval for anything visible from the street.
+
 If you're dealing with water, fire, smoke, or mold damage at a Rockwall property, the faster the response, the less material ends up in a dumpster. Call Reign Restoration at **(214) 304-0621** to describe what you're seeing and get a crew scheduled.

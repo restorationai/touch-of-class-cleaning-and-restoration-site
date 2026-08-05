@@ -53,4 +53,12 @@ We handle sewage backups — a real risk when aging infrastructure meets heavy s
 
 Our Honolulu headquarters puts Aina Haina within straightforward reach via Kalanianaole Highway (H-1 to exit 26A). Wailupe and Hind Iuka are typically the first Aina Haina neighborhoods we reach; Aina Haina Valley and Niu Valley add only a few minutes further up the valley roads. We answer the phone around the clock — 24 hours a day, seven days a week — and dispatch equipment the same day you call. Traffic on Kalanianaole can lengthen drive times during morning and afternoon peak hours, so calling as early as possible helps us schedule the fastest available window.
 
+## Building stock, site conditions, and permits in Aina Haina
+
+Many Aina Haina homes sit on post-and-pier footings with a shallow crawlspace, while later infill and additions went in on slab-on-grade. That matters after a storm: a crawlspace under a single-wall house traps humid air for weeks, and a wet slab pushes moisture up into flooring adhesive rather than draining away.
+
+Homes of this vintage also carry cast-iron drain lines that scale and crack, plus era-linked hazards a scope has to plan for — vinyl-asbestos floor tile, asbestos-bearing ceiling texture, and lead paint in anything predating 1978. Testing comes before demolition, not after.
+
+Structural repair and rebuild permits here come from the City and County of Honolulu's Department of Planning and Permitting. Framing replacement, reroofing, and electrical or plumbing work typically trigger one, and coastal lots near the stream mouths may fall under flood-zone requirements.
+
 If you're dealing with water, mold, smoke, or carpet damage anywhere in Aina Haina — ZIP 96821 and the surrounding valley communities — call AAA Water Damage Restoration & Carpet Care at (808) 349-3407. We're available around the clock and ready to dispatch.

@@ -45,4 +45,10 @@ Summer storm season brings its own problems. Straight-line winds and hail regula
 
 Crew Restoration & Construction is headquartered in Sioux Falls, SD. Hinton is roughly 90 miles southeast via I-29 South and Highway 75 — a straightforward route with no significant routing complications in normal conditions. We schedule service calls in Hinton and can reach addresses in Downtown Hinton, the West Fork area, and neighborhoods near Hinton Community School. For urgent situations, call (605) 965-2727 during business hours to discuss scheduling and get a crew dispatched as quickly as our current workload allows. We do not overstate response windows — when you call, we'll give you an honest arrival estimate based on where our nearest available crew is that day.
 
+## Building stock, site conditions, and permits in Hinton
+
+Homes around Hinton fall into two rough groups: farmhouse-era wood framing with plaster and lath over board sheathing, and post-1990s subdivision builds with drywall, OSB and PEX supply lines. Plaster holds water long after drywall would read dry, so cavity drying and drilled access matter more than surface readings. In the older houses, expect galvanized steel supply and cast iron drain stacks that fail at threads and joints, plus asbestos-containing floor tile or pipe wrap and pre-1978 lead paint that have to be handled before demolition starts.
+
+Soils across this part of western Iowa are wind-deposited loess — silty, easily eroded, quick to channel water along footings. Permits are pulled locally: at city hall inside Hinton's limits, through Plymouth County for rural addresses. Framing changes, roof replacement, and plumbing or electrical alterations typically trigger one.
+
 If your property in the 51024 ZIP code has taken on water, smoke, or storm damage, call Crew Restoration & Construction at **(605) 965-2727**. We'll walk you through what to expect, what to document before we arrive, and how the process works with your insurance carrier.

@@ -51,4 +51,12 @@ Once mitigation is complete, our reconstruction team can rebuild what was remove
 
 From our Cerritos headquarters, the most direct route to Corona runs east on the 91 Freeway, roughly 35 to 40 miles depending on traffic. We can also reach South Corona and the Dos Lagos corridor via the 15 Freeway interchange. Because we operate 24/7, we dispatch at any hour — middle-of-the-night slab leaks in the 92879 ZIP code near the Crossings at Corona or early-morning smoke calls near the Skyline neighborhood get the same response as a daytime call. We will give you an honest estimated arrival window when you call (714) 409-4758, based on current conditions and crew location.
 
+## Building stock, site conditions, and permits in Corona
+
+Corona's older core near downtown holds mid-century and earlier houses, many on raised perimeter foundations with crawlspaces, stucco over wood frame, and some plaster interiors. Those homes are the ones where galvanized supply lines and cast iron drains are still in service, and where anything predating the late 1970s should be assumed to contain asbestos in floor tile, joint compound, or duct wrap, and lead paint, until a survey says otherwise. Under South Coast AQMD rules, that survey comes before demolition, not after.
+
+The newer master-planned tracts are slab-on-grade with engineered fill and expansive clay in the mix, so saturated soil under a slab edge matters as much as the wet flooring above it.
+
+Structural repair and rebuild permits come from the City of Corona's building division, under the California Building Code with Southern California seismic provisions. Many newer tracts also add HOA approval.
+
 If you are dealing with water, mold, fire, or any other property emergency in Corona, call Mold Solutionz 24/7 at **(714) 409-4758** — any hour, any day. We will walk you through next steps on the phone and get a crew moving toward your address.

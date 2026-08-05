@@ -53,4 +53,12 @@ Sewage backups, which happen with some regularity in Gulf Park Estates during he
 
 Our Gulfport headquarters sits roughly 5 to 8 miles west of Gulf Park Estates via US-90, the main coastal corridor. Depending on traffic and the specific street, most of the community is a straightforward drive along the beachfront highway or accessible by cutting inland on US-49 and looping east. We schedule calls promptly and dispatch based on job urgency — active flooding or a fire loss gets priority routing. If you're calling during our business hours, expect a real person to answer and a crew deployment conversation to happen on that same call, not a callback queue.
 
+## Building stock, site conditions, and permits in Gulf Park Estates
+
+Sandy coastal soils sit over a high water table here, so water moves fast through the ground but never leaves the slab edge fully dry. Slab-on-grade is the norm on the flatter lots, with pier- and piling-elevated homes near the water — those open underfloor spaces let wind-driven rain wet insulation and subfloor from below, which is easy to miss during a walkthrough.
+
+On 1960s-to-1980s houses, plan for pre-1978 lead paint and possible asbestos in vinyl floor tile, mastic, and textured ceilings, plus galvanized or early polybutylene supply lines that fail at fittings. Any of that changes how a demo scope gets written.
+
+Because this is an unincorporated community, building permits come from the county, not a city hall. Flood-zone elevation rules and coastal wind provisions in Mississippi's adopted code usually drive the rebuild.
+
 If you're dealing with water, fire, mold, or storm damage in Gulf Park Estates, call HomeLyft Restoration MS at (228) 284-5200. We'll talk through what you're seeing, tell you what to do right now to limit further damage, and get a crew moving.

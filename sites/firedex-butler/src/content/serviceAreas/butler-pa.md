@@ -51,4 +51,12 @@ Property managers and building owners in the Main Street business district and t
 
 FireDEX Butler's headquarters sits in Cranberry Township, roughly 12 miles south of the Butler County Courthouse. The standard route is I-79 North to Route 228 or PA-8 into the city — a straightforward run under normal conditions. Butler Township and Oakland Township fringe properties to the east and northeast add a few miles but remain well within our regular service area. We operate 24/7, so a call at midnight gets the same crew response as a call at noon. We don't publish a minute guarantee here because road conditions in Butler County — particularly on hillside streets in the 16001 and 16003 ZIP codes in winter — vary too much for an honest fixed number. What we can say is that we're closer than any Pittsburgh-based firm, and we're moving as soon as the phone rings.
 
+## Building stock, site conditions, and permits in Butler
+
+Almost every pre-1950 house here sits on a full basement with stone or brick foundation walls, and that changes how water behaves: it drains down and sits, wicking into rubble mortar joints, floor joist ends, and the plaster-and-lath above. Hillside lots shed runoff toward those walls, and frost depth in Western PA means buried lines and shallow basement corners stay cold well into spring.
+
+Era hazards drive the scope more than the water does. Coal-era boiler conversions often left asbestos pipe insulation in basements, plaster keys hide knob-and-tube, and anything painted before 1978 should be treated as lead until tested.
+
+Permits come from the municipality — the City of Butler inside city limits, Butler Township outside them — under Pennsylvania's Uniform Construction Code. Structural framing, electrical, and mechanical replacement typically trigger one; drying alone does not.
+
 If you're dealing with a loss in Butler right now — or want to talk through a situation before it becomes an emergency — call (724) 452-7400. We've been handling Western PA restoration work since 1981, and Butler is home territory.

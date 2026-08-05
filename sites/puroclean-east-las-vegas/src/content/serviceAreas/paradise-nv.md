@@ -47,4 +47,10 @@ Once mitigation is complete, the same team can handle the rebuild: drywall, floo
 
 PuroClean of East Las Vegas is based in Las Vegas, and Paradise is a direct neighbor — not a distant suburb. The University District and Paradise Palms are typically reachable in a short drive east on Flamingo Road or Tropicana Avenue. Properties near the Strip in the 89109 ZIP code are accessible via Koval Lane or Paradise Road with minimal routing complexity. The McCarran and 89119 corridor sits just south of the airport, straightforward from the I-215 interchange. Call +17025513040 during business hours to confirm scheduling and get a crew dispatched.
 
+## Building stock, site conditions, and permits in Paradise
+
+Paradise is unincorporated, so building permits for structural repair or rebuild come from Clark County rather than the City of Las Vegas — worth knowing before a contractor starts opening walls. Permits are generally triggered once work goes past cosmetic replacement into framing, electrical, or mechanical changes, and condo work usually needs HOA or building-management sign-off on top of that.
+
+Homes here sit on slab-on-grade; basements are rare, so water that gets under flooring spreads sideways under the slab edge and into bottom plates instead of draining away. Caliche hardpan under much of the valley sheds water rather than absorbing it, which is why monsoon runoff pools against foundations. In pre-1980 houses, assume popcorn ceilings and sheet vinyl may contain asbestos and test before demolition.
+
 If you're dealing with water, fire, smoke, or mold damage at a Paradise property, the sooner the process starts, the less material gets replaced. Call PuroClean of East Las Vegas at +17025513040 to schedule an assessment.

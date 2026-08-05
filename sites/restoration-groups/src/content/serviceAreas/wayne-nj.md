@@ -55,4 +55,12 @@ Once mitigation is complete, we handle the rebuild — drywall, flooring, cabine
 
 The Restoration Group operates out of Kenilworth, roughly 25 miles southeast of Wayne via I-287 North or Route 22 West to I-287. We're available 24/7, so a call at 2 a.m. during a Passaic River surge gets the same response as a midday pipe burst. From Kenilworth, we can reach neighborhoods like Hoffman Grove and Mountain View along the river corridor, the lake communities off Alps Road, and the commercial zones near Willowbrook Mall and the Dey Mansion historic district. We don't quote arrival times in minutes because traffic on 287 and Route 23 varies — what we can tell you is that a live dispatcher answers every call and a crew is staged and moving before you hang up.
 
+## Building stock, site conditions, and permits in Wayne
+
+Much of Wayne's housing sits on glacial lakebed and till soils left behind in the Passaic Valley — silt and clay layers that drain slowly and keep groundwater high, which is why full basements here depend so heavily on perimeter drains and pumps. Footings in this part of North Jersey are set below a roughly three-foot frost line, so winter pipe breaks tend to show up in rim joists and unheated crawl spaces rather than at the foundation.
+
+The lake neighborhoods started as seasonal cottages that were later winterized, so it's common to find plaster and lath, knob-and-tube remnants, pre-1978 lead paint, and asbestos boiler or duct wrap behind a modern finish. Those materials change the scope before demolition starts.
+
+In New Jersey, repair and rebuild permits are issued locally under the statewide Uniform Construction Code, and work in mapped flood hazard areas carries added elevation and substantial-improvement requirements.
+
 If you're dealing with a loss in Wayne right now — or want to talk through a situation before it becomes an emergency — call (855) 650-7422. We're available around the clock, and the first conversation costs nothing.

@@ -51,4 +51,12 @@ Once mitigation is complete, many restoration projects leave behind open walls, 
 
 HomeLyft Restoration MS is headquartered in Gulfport, on the Gulf Coast. Helena is in the northwest corner of the state — a meaningful drive, roughly 250 miles via US-49 North and US-61 or through Jackson on I-55 North. We're transparent about that distance: we are not a same-hour local crew. What we offer Helena property owners is a fully equipped team that makes the trip with the right drying equipment, containment materials, and documentation tools loaded and ready — so the visit is productive from the moment we arrive. For Helena calls, we coordinate scheduling promptly and communicate an honest arrival window so you're not waiting without information. Property managers overseeing multiple Helena units find the single-vendor model useful — one call, one invoice, one insurance liaison.
 
+## Building stock, site conditions, and permits in Helena
+
+Most of the older housing in this part of the Delta is wood-frame set on brick or block piers, with plaster-and-lath or early gypsum board inside and board sheathing under the siding. Those wall assemblies hold water differently than modern drywall over OSB — plaster stays wet behind an intact-looking surface, and drying it means reading moisture in the substrate, not the paint. Post-1970s ranch construction here is more often slab-on-grade with drywall and fiberglass batts.
+
+Plumbing tracks the same eras: galvanized steel supply and cast iron drains in the oldest homes, polybutylene in 1980s and early-90s work, copper and PEX after. Any home built before 1978 gets treated as lead-painted, and pre-1980s floor tile, mastic, and pipe wrap get tested rather than demolished blind.
+
+For structural repair or rebuild, the permit comes from the municipality if the address is inside city limits and from the county building office if it is not. Work in a mapped FEMA flood zone carries elevation and substantial-improvement rules on top of the ordinary permit.
+
 If you're dealing with water, fire, mold, or storm damage at a Helena property, call HomeLyft Restoration MS at (228) 284-5200. We'll talk through what you're seeing, give you an honest assessment of next steps, and get a visit scheduled.

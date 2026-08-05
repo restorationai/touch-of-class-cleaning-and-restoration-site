@@ -49,4 +49,12 @@ Once mitigation is complete, most properties need some level of rebuild — dryw
 
 Crew Restoration & Construction is based in Sioux Falls, SD, roughly 90 miles northwest of Fulda via US-18 East and MN-60. That route runs through open prairie and is generally reliable year-round, though winter conditions on US-18 can add time during blizzard season — something we account for when scheduling. We serve all of Fulda's neighborhoods, including Downtown Fulda and the Lakeside Fulda area along the shoreline. When you call (605) 965-2727, we'll give you an honest estimate of when a crew can be on-site based on current conditions and workload.
 
+## Building stock, site conditions, and permits in Fulda
+
+Much of Fulda's older housing sits on full basements, which is what a five-foot frost depth in southwest Minnesota effectively requires — footings have to go below the frost line anyway, so the space came along with it. In the oldest homes those walls are fieldstone or unreinforced block laid in lime mortar, and once water saturates the surrounding till they weep through the joints rather than through a single crack. The glacial till under this part of the county is clay-heavy and slow to drain, so backfill holds water against the wall long after the rain stops.
+
+Buried sewer laterals of that vintage are often clay tile or, in mid-century additions, Orangeburg fiber pipe — both fail by root intrusion and collapse rather than a clean break.
+
+Minnesota's building code applies statewide, and structural repair or rebuild work is permitted locally through the city, with plumbing and electrical held to the state code. Pre-1978 paint and pre-1980 assemblies mean lead and asbestos have to be ruled out before demolition starts.
+
 If your Fulda property has been affected by water, fire, mold, or storm damage, call Crew Restoration & Construction at **(605) 965-2727**. We'll talk through what you're dealing with, explain what the process looks like, and get a crew scheduled.

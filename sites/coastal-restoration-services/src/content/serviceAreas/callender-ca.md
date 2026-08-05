@@ -43,4 +43,12 @@ Wildfire smoke is a separate but equally serious concern. During regional fire e
 
 Coastal Restoration Services Inc is headquartered in Vandenberg Village, on the Santa Barbara County side of the Highway 1 corridor. Callender is reachable via US-101 North through San Luis Obispo County, a straightforward route that the crew travels regularly for jobs throughout this part of the Central Coast. Call (805) 345-7440 to confirm current scheduling and get a crew dispatched as promptly as possible.
 
+## Building stock, site conditions, and permits in Callender
+
+Callender is unincorporated, so structural repair and rebuild permits run through San Luis Obispo County's planning and building department rather than a city hall counter. The county enforces the California Building Code and Title 24 energy rules, and in practice anything past like-for-like finish replacement — reframing, moving a wall, replacing sheathing, or altering plumbing and electrical during a rebuild — is what pulls a permit into the job.
+
+On the ground, this end of the Arroyo Grande Valley is sandy alluvial soil, which drains fast but gives up little support once saturated under a footing. Older houses here tend to sit on raised perimeter foundations with vented crawlspaces; newer ones on slab. In pre-1980 construction, assume asbestos may be present in flooring, mastic, or texture until sampling says otherwise, and plan demolition around that.
+
+Coastal fog keeps humidity high most mornings, so drying often needs dehumidification rather than open windows.
+
 If you are dealing with water, fire, smoke, or mold damage at a Callender property, call Coastal Restoration Services Inc at **(805) 345-7440**. The sooner mitigation begins, the more of the structure — and the contents inside it — can be saved.

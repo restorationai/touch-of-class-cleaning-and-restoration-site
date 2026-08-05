@@ -41,4 +41,12 @@ Winter brings its own problems. South Dakota's freeze-thaw cycles are hard on su
 
 Crew Restoration & Construction operates out of Sioux Falls, roughly 10 to 12 miles northwest of Crooks via Highway 138 — a straightforward route that keeps drive time short under normal conditions. We serve all of Crooks, including properties near Renner Corner, homes throughout West Crooks, and commercial properties in Downtown Crooks (ZIP code 57020). When you call (605) 965-2727, we schedule promptly and communicate a realistic arrival window before we're on the road — no vague promises, just a clear timeline.
 
+## Building stock, site conditions, and permits in Crooks
+
+Crooks mixes two distinct vintages. Older homes near the original townsite and the surrounding farmsteads can date well before 1960, which means galvanized supply lines that scale shut and rust from the inside, cast iron drains, plaster over lath, and the era-linked hazards a scope has to plan for — asbestos in floor tile, mastic, and pipe wrap, and lead paint in anything pre-1978. Newer subdivision construction runs copper or PEX over poured concrete basement walls.
+
+Underneath is glacial till, dense and slow-draining, with Sioux Quartzite close to the surface in places northeast toward Renner. Footings in this part of the state are set below a frost depth around 42 inches.
+
+Structural repairs and rebuilds inside city limits are permitted through the City of Crooks; properties outside the limits fall to Minnehaha County.
+
 If you're dealing with damage at a property in Crooks, the sooner materials are dried or stabilized, the less there is to rebuild. Call Crew Restoration & Construction at **(605) 965-2727** and we'll walk you through next steps.

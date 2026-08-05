@@ -45,4 +45,10 @@ The other factor is water quality. Rosedale sits on private well systems and ble
 
 Our Bakersfield headquarters puts Rosedale well within our primary service area. Rosedale Highway connects directly to the core of the 93312 zip code, and from there it's a short run north into Rosedale Ranch or west toward Westdale. The Calloway/Hageman corridor and the neighborhoods near Froehlich Field are equally straightforward from our dispatch point. Because we operate 24/7, there's no overnight or weekend gap in coverage — if a pipe lets go at 2 a.m. in any of these neighborhoods, you reach a live dispatcher at **(661) 863-9242**.
 
+## Building stock, site conditions, and permits in Rosedale
+
+Almost everything here is stucco over wood frame on slab-on-grade — no basements, and crawlspaces are rare. Roofs are engineered trusses under concrete tile or composition shingle, with the air handler and ductwork sitting in the attic. That layout matters twice: a failed condensate line or attic-mounted water heater pan drains down through ceiling drywall, and a slab leak has nowhere to go but sideways into subfloor and baseboard. Because these subdivisions are post-1978, lead paint and asbestos are generally not part of the picture the way they are in older central Bakersfield.
+
+Rosedale is unincorporated, so building permits for structural repair or rebuild come from Kern County rather than the City of Bakersfield. California's statewide Title 24 rules apply, and HOA architectural approval is common on top of the county permit.
+
 If something's gone wrong at your Rosedale property — or you're ready to schedule a water heater upgrade, softener install, or HVAC tune-up before the next heat wave — call All Pro Plumbing Heating and Air at **(661) 863-9242**. We're available around the clock and we quote before we start.

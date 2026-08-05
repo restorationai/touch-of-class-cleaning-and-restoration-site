@@ -55,4 +55,10 @@ Sewage backups during heavy rain events require careful containment and disinfec
 
 From our Honolulu base, Hawaii Kai is a direct run east on the H-1 and Kalanianaole Highway — a route we know well. Neighborhoods like Portlock and Koko Kai at the far eastern end of the community are reachable without navigating surface-street congestion, and marina-area addresses near Hawaii Kai Marina are straightforward to access. Because we operate 24 hours a day, seven days a week, a call at 2 a.m. during a Kona Low flooding event gets the same dispatch response as a weekday afternoon call.
 
+## Building stock, site conditions, and permits in Hawaii Kai
+
+Much of the low-lying part of the community sits on fill placed when Kuapa Fishpond was dredged into the marina, so groundwater there is shallow and tidally influenced. That matters once a slab is wet: subgrade under the concrete stays damp, and drying runs longer than the same loss on the higher lots above Kalanianaole Highway. Cast iron drain lines from the same building era corrode from the inside out, and homes built before the late 1970s may carry asbestos in vinyl floor tile, mastic, or ceiling texture along with lead paint — both change how wet material comes out. Damp framing also invites Formosan termites.
+
+Structural repair permits on Oahu come from the City and County of Honolulu's Department of Planning and Permitting. Framing, plumbing, and electrical changes trigger review; marina-front lots in a mapped flood hazard area get an added look.
+
 If you're dealing with water, mold, fire, or a biohazard situation anywhere in Hawaii Kai — from Kalama Valley to Koko Marina — call AAA Water Damage Restoration & Carpet Care at **(808) 349-3407**. We're available around the clock and ready to dispatch.

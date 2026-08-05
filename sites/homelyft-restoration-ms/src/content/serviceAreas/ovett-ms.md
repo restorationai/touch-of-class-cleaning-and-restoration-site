@@ -49,4 +49,10 @@ Once the damage is mitigated, we can carry the project through to finished recon
 
 Ovett is roughly 90 miles northeast of our Gulfport headquarters, a drive that typically runs along US-49 North through Hattiesburg before connecting to county roads into Jones County. It is a meaningful distance, and we will be straightforward about it: we schedule Ovett calls as promptly as our current workload allows and will give you an honest arrival window when you call. For situations where immediate stabilization matters — active water intrusion, fire-exposed structure — we will tell you exactly when a crew can be on-site so you can make informed decisions. Reach us at (228) 284-5200.
 
+## Building stock, site conditions, and permits in Ovett
+
+Ovett is an unincorporated community, so there is no city hall to visit — structural repair and rebuild permitting is handled at the county level in Jones County, and septic system repairs or replacements run through the Mississippi State Department of Health rather than a building office. Reroofing, framing repair, and electrical or plumbing replacement are the usual triggers; if the property sits in a mapped FEMA flood zone, the county floodplain rules shape how the rebuild is done.
+
+Homes out here typically sit on brick or block piers, with slab-on-grade more common in later builds. Basements are essentially nonexistent. Anything built before 1978 gets treated as lead-presumed until testing says otherwise, and pre-1990 houses often hide asbestos in floor tile, mastic, and siding — that changes demolition sequencing before drying even starts.
+
 If you are dealing with water, fire, smoke, or mold damage anywhere in Ovett or the surrounding Jones County area, call HomeLyft Restoration MS at **(228) 284-5200**. We will walk you through what we are seeing, what needs to happen next, and what your insurance policy is likely to cover — no pressure, no guesswork.

@@ -47,4 +47,10 @@ Once mitigation is complete, we coordinate or perform the repair work — replac
 
 Oceano is roughly 10 to 12 miles from our Vandenberg Village headquarters, a straightforward run south on Highway 1 through Grover Beach. Depending on traffic through the Five Cities corridor, that's a short drive under most conditions. We serve all of Oceano, including properties near the Oceano Dunes State Vehicular Recreation Area, homes along the older residential streets closer to the Oceano Depot, and the rental and vacation properties that line the blocks nearest the beach. We'll give you an honest arrival estimate when you call — (805) 345-7440 — based on where our closest available crew is at that moment.
 
+## Building stock, site conditions, and permits in Oceano
+
+Because Oceano is unincorporated, building permits come from the County of San Luis Obispo's planning and building department rather than a city hall, and California's Title 24 building standards apply. Replacing framing, sheathing, or a section of roof after a loss generally triggers a permit; cosmetic finish replacement usually does not. Parts of town fall within mapped FEMA flood zones, and in those areas the county's floodplain rules can affect how much of a damaged structure you can rebuild in place.
+
+Much of the older housing here is wood-frame with stucco or wood siding over a raised floor on short cripple walls. Sandy dune soil drains fast but gives foundations little lateral hold, and vents on those crawl spaces silt in with blown sand, so a wet subfloor stays wet without forced drying.
+
 If you're dealing with water, fire, or mold damage at an Oceano property, call Coastal Restoration Services Inc at **(805) 345-7440**. We'll walk you through what we're seeing, what needs to happen next, and how the insurance process works — before any work begins.

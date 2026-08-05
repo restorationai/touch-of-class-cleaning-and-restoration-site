@@ -43,4 +43,10 @@ On the commercial side, the Livingston Mall retail corridor and the campus aroun
 
 From our Kenilworth headquarters, Livingston is a straightforward run — typically west on Route 22 to Route 527 north, or up the Garden State Parkway to Exit 142 and into town from the east side. The drive puts us into most Livingston neighborhoods without navigating the congestion that slows response into more urban Essex County addresses. Northland and Collins on the eastern side of town are the quickest reach; Riker Hill and the neighborhoods near the Livingston Town Center add only a few minutes. Because we operate 24/7, we're not waiting for a morning dispatch window — a call at 2 a.m. after a sump failure gets the same response as a call at noon.
 
+## Building stock, site conditions, and permits in Livingston
+
+Most Livingston houses from the postwar decades sit on poured concrete foundations with full basements, dug below the roughly three-and-a-half-foot frost line that northern New Jersey construction requires. Walls of that era run plaster over rock lath in the earlier homes and gypsum board in the later ones — plaster holds water far longer than drywall and often has to be dried from the cavity side rather than replaced wholesale. Anything built before the late 1970s can carry asbestos in floor tile, mastic, and pipe wrap, plus lead paint, so demolition scopes get planned around testing rather than after it.
+
+The ground here is Piedmont: shale and glacial soils, with the Watchung basalt ridge running under the Riker Hill side. Repairs are permitted through the township's construction office under the New Jersey Uniform Construction Code, and structural, electrical, and plumbing work each pull their own subcode approval.
+
 If you're dealing with water, fire, smoke, or mold damage anywhere in Livingston — 07039 or the surrounding streets — call The Restoration Group at **(855) 650-7422**. We document everything, work directly with most major insurance carriers, and stay on the job through the final walk-through.

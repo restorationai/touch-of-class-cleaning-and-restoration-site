@@ -53,4 +53,10 @@ Once mitigation is complete, many property owners want a single contractor to ca
 
 HomeLyft Restoration MS is headquartered in Gulfport, roughly 12 miles west of downtown Biloxi via US-90 or I-10. That's a straightforward drive under normal traffic conditions, and our crews are familiar with the routes into Biloxi's distinct zones — the beachfront corridor along Beach Boulevard, the neighborhoods north of I-10 closer to D'Iberville, and the Back Bay-facing streets that tend to see the most recurring moisture issues. If you call during our business hours, we'll give you a realistic arrival window based on crew availability and current job load — we'd rather be honest about timing than promise something we can't deliver.
 
+## Building stock, site conditions, and permits in Biloxi
+
+Biloxi's older housing tends to sit on brick or masonry piers with a vented crawlspace, while the postwar and later homes are mostly slab-on-grade. That split matters: a crawlspace over sandy coastal soil stays humid year-round and rots band joists and subfloor from below, while a slab traps water under flooring and pushes it into the bottom plates. Mid-century homes here commonly still have galvanized supply lines and cast iron drains, both of which fail from the inside out, and 1980s work can hide polybutylene. Anything built before 1980 may carry asbestos floor tile, mastic, or ceiling texture, and pre-1978 paint gets treated as lead until proven otherwise.
+
+Structural repair and rebuild permits come from the City of Biloxi's building department. Flood-zone rules and the substantial-improvement threshold can pull an elevation requirement into a rebuild, and coastal wind provisions govern roof and sheathing work.
+
 If you're dealing with water, fire, mold, or storm damage at a Biloxi property, call HomeLyft Restoration MS at (228) 284-5200. We'll walk you through what we're seeing, what needs to happen next, and how the insurance process works — no pressure, no guesswork.

@@ -53,4 +53,10 @@ Our headquarters is in Vandenberg Village, roughly 35 miles north of Avila Beach
 
 Call us at **(805) 345-7440** to confirm scheduling and current availability. We will give you an honest arrival window based on current crew location and job load — not a number pulled from a marketing page.
 
+## Building stock, site conditions, and permits in Avila Beach
+
+Avila Beach is unincorporated, so permits for structural repair, re-roofing, or rebuild come from San Luis Obispo County's building division rather than a city hall — and because the town sits inside California's coastal zone, exterior work that changes footprint or height can pull in a coastal development review on top of the building permit. Anything structural, or drywall and framing replacement past a minor patch, generally triggers a permit.
+
+The older cottages here are wood-frame with stucco or wood siding over raised floors, and those crawlspaces hold marine moisture long after the leak is fixed. Expect galvanized supply and cast-iron drains in that vintage, copper in mid-century work, and PEX in newer construction. Newer slab-on-grade homes hide leaks under flooring instead, so we locate before we open anything.
+
 If you are dealing with a water, fire, mold, or smoke emergency in Avila Beach, call Coastal Restoration Services Inc at **(805) 345-7440**. We will assess the situation honestly, explain what the work involves, and get the process moving.

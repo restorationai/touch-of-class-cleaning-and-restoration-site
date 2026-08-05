@@ -53,4 +53,12 @@ Once mitigation is complete, we can carry the project through structural repairs
 
 Go Agree Restoration of NC is headquartered in Middlesex, NC, which puts Rocky Mount roughly 25 to 30 miles northeast via US-264 East — a straightforward drive on a four-lane highway with no significant bottlenecks under normal conditions. We serve all of Rocky Mount, including properties in the 27801 and 27804 ZIP codes. Whether the call comes from a property near Nash Community College, a commercial building along the Sunset Avenue corridor, or a residence closer to the Edgecombe County line, we route from Middlesex and can provide scheduling based on your situation and our current dispatch. We do not make specific minute promises here — call us at (919) 906-5473 and we will give you a realistic arrival window based on current conditions.
 
+## Building stock, site conditions, and permits in Rocky Mount
+
+Much of Rocky Mount's housing splits into two groups: pre-war frame houses with plaster over wood lath, board sheathing, and brick pier or block crawlspace foundations, and postwar through 1980s brick-veneer ranches on shallow crawlspaces or slabs. Plaster and lath holds water far longer than drywall, and a brick veneer wall drains into a cavity you cannot see from either side, so drying often means opening the interior finish rather than the masonry.
+
+Supply lines in older homes here run galvanized steel or copper; drains are frequently cast iron, and 1980s and early-90s work may hide polybutylene. Coastal Plain sandy loam over clay drains fast at the surface but perches water against footings.
+
+Inside the city, permits for structural repair come from Rocky Mount; work in the surrounding county goes through the county. Everything follows the North Carolina State Building Code, and repairs in the mapped floodplain add floodplain review.
+
 If you're dealing with water, fire, mold, or any property damage emergency in Rocky Mount, call Go Agree Restoration of NC at **(919) 906-5473**. We'll tell you exactly what we're looking at, what it will take to fix it, and how we can work with your insurance carrier to manage the cost.

@@ -53,4 +53,10 @@ Once drying and remediation are complete, our reconstruction team handles drywal
 
 Our Kenilworth office sits roughly 12 miles from Highland Park via the Garden State Parkway to Route 1 or through the surface route along Route 27. Because we operate 24/7, a crew can be dispatched at any hour — whether the call comes from a property manager on Raritan Avenue or a homeowner in North Highland Park who woke up to a wet basement. The Landing Lane Bridge and Route 27 give us two reliable approaches into the borough, and our familiarity with the neighborhood grid — from the Triangle to Meadow — means we are not navigating blind when every minute of active water intrusion matters.
 
+## Building stock, site conditions, and permits in Highland Park
+
+Most of the borough's homes sit on full basements with footings set below the New Jersey frost line, which is why a supply failure two floors up tends to end in a finished lower level. Walls are usually plaster over wood lath, and lath holds water long after the paint looks dry — it has to be probed and dried, or cut, not just fanned. In houses of this vintage we plan for pre-1978 lead paint and for asbestos on old heating pipes and in resilient floor tile; New Jersey requires licensed abatement contractors for asbestos work, and that scoping happens before demolition, not during.
+
+Structural repair and rebuild permits are issued by the Highland Park construction office under the state Uniform Construction Code, with separate building, plumbing, electrical, and fire subcode approvals. Work in the mapped floodplain near the river carries additional elevation review.
+
 If you are dealing with water, fire, mold, or any property emergency in Highland Park, call The Restoration Group at **(855) 650-7422** — we answer every hour of every day and can have a crew moving toward your address while you are still on the phone.

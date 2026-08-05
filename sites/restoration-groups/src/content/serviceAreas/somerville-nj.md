@@ -53,4 +53,12 @@ Once drying and remediation are complete, we rebuild — framing, drywall, floor
 
 The Restoration Group is headquartered in Kenilworth, NJ, roughly 25 miles east of Somerville via I-78 West or Route 22 West. Both routes are direct and well-maintained, and our crews travel them regularly for calls across Somerset County. Because we operate 24/7, a call from a property manager in the Fairview neighborhood at midnight gets the same dispatch process as a mid-afternoon call from a Downtown landlord. We do not publish a specific on-site minute guarantee, but our teams are staged and equipped to move — not scheduled days out.
 
+## Building stock, site conditions, and permits in Somerville
+
+Behind the plaster and wood lath in these early-1900s frame houses you often find balloon framing — stud bays that run uninterrupted from the sill to the attic, so water and smoke travel vertically instead of staying in one room. Foundations are typically stone or brick rubble with parged interior walls, which wick moisture rather than shed it. Expect era-linked hazards in any demolition scope: lead paint in anything built before 1978, asbestos on old boiler pipe insulation and in floor tile mastic, and surviving knob-and-tube in unfinished attic and basement runs.
+
+Sitting in the Raritan valley, the ground near the river and Peters Brook is alluvial sand and silt over till, which drains fast but keeps a high seasonal water table against those old cellars. Frost depth here runs around three feet.
+
+Structural repair and rebuild work goes through the borough's construction office under the New Jersey Uniform Construction Code, with separate building, plumbing, electrical, and fire subcode permits. Rebuilding in a mapped flood zone brings additional elevation and materials requirements.
+
 If you are dealing with water, fire, mold, or storm damage anywhere in Somerville — from the Wallace House neighborhood to the West End — call The Restoration Group at **(855) 650-7422**. We answer every hour of every day, and we will tell you honestly what the damage involves and what it will take to fix it.

@@ -47,4 +47,12 @@ Once mitigation is complete, HomeLyft Restoration MS can carry the project throu
 
 HomeLyft Restoration MS is headquartered in Gulfport, and Rawls Springs is roughly 65 miles north via US-49 — a straightforward route that our crews travel regularly to serve Forrest County. US-49 is the primary corridor, and depending on traffic through Hattiesburg, drive time from our Gulfport location runs approximately 60 to 75 minutes under normal conditions. We schedule Rawls Springs calls during our business hours and dispatch the appropriate equipment load based on what you describe on the phone, so crews arrive ready to work rather than assess and return. For the most accurate scheduling window, call us directly at (228) 284-5200.
 
+## Building stock, site conditions, and permits in Rawls Springs
+
+Housing here runs mostly to one-story wood frame — later slab-on-grade construction mixed in among the older raised homes — with asphalt shingle roofs and, in anything built before the mid-1980s, plank or board sheathing rather than modern OSB. That matters because a saturated slab edge wicks moisture into bottom plates and baseboards long after the visible water is gone.
+
+Plumbing vintage drives a lot of the losses: galvanized supply and cast iron drains in the oldest houses, copper mid-century, polybutylene in late-1970s through 1990s builds, PEX after. Pre-1978 homes need lead-safe work practices, and pre-1980s flooring, mastic, and textured ceilings get treated as presumed asbestos until tested.
+
+Rawls Springs is unincorporated, so permits for structural repair or rebuild come through Forrest County rather than the City of Hattiesburg.
+
 If you're dealing with water, fire, mold, or storm damage in Rawls Springs, call HomeLyft Restoration MS at **(228) 284-5200**. We'll walk you through what to do right now and schedule a crew to get there as quickly as our calendar allows.

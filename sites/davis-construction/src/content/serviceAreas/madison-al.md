@@ -49,4 +49,12 @@ Because we hold a general contractor's license, mitigation and rebuild happen un
 
 Our shop is on the Madison side of Research Park Boulevard, which puts us within 15 minutes of most addresses in 35758 under normal traffic. For neighborhoods like Redstone Village and Blue Springs, typical on-site arrival after a call to (256) 771-0326 is 20–30 minutes. We cover all of Madison as well as the adjacent areas toward Madison Hospital and north along County Line Road into 35756. For after-hours emergencies, the same number reaches our on-call dispatcher — not a national answering service.
 
+## Building stock, site conditions, and permits in Madison
+
+Almost everything here sits on slab-on-grade or a shallow crawlspace — full basements are rare in the Tennessee Valley. That matters after a loss: slab homes hide supply leaks under concrete until flooring cups, and crawlspaces under the older ranches hold humid air long after the visible water is gone, so subfloor and band joist have to be checked, not assumed.
+
+The ground is clay-rich soil over limestone, so drainage tends to be slow and standing water lingers against foundations and crawlspace vents. Homes built before about 1980 may also carry asbestos-containing floor tile or mastic and lead paint, which changes how demolition is scoped.
+
+Structural repair and rebuild inside the city are permitted through Madison's building department, under Alabama's statewide residential code. HOA architectural approval in the newer subdivisions often runs in parallel.
+
 If you're dealing with damage now or want to talk through what a restoration project in Madison typically involves, call (256) 771-0326. We'll give you a straight answer about scope, timeline, and what to expect from your insurance carrier — no pressure, no upsell.

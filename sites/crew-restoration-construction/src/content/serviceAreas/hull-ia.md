@@ -47,4 +47,12 @@ Once mitigation is complete, the rebuild is often the part homeowners feel most 
 
 Crew Restoration & Construction is headquartered in Sioux Falls, SD, approximately 75 miles northwest of Hull via I-90 East and US-75 South — a drive that typically runs just over an hour depending on conditions. We schedule crews into the 51239 ZIP code regularly and can reach neighborhoods across Hull, including West Hull and the blocks surrounding Downtown Hull, during normal scheduling windows. We do not make minute-based response promises, but we prioritize water and fire losses for same-day or next-morning dispatch whenever possible. When you call (605) 965-2727, we'll give you a straight answer on timing based on current crew availability.
 
+## Building stock, site conditions, and permits in Hull
+
+Hull's older core is largely pre-war farmhouse and cottage construction — dimensional lumber framing, plaster and wood lath over board sheathing, and full basements with poured or block walls. Plaster holds water differently than drywall: it stays wet behind the surface long after the room feels dry, so it gets metered and often opened rather than guessed at. Newer blocks on the edges of town are ranch and split-level with drywall and truss roofs.
+
+In homes of that older vintage expect galvanized supply lines that rust closed and pinhole, cast iron drains that scale and crack at the hub, and pre-1980 materials — asbestos pipe wrap, floor tile, lead paint — that change how a rebuild is scoped.
+
+Structural repair inside city limits is permitted through the City of Hull; work outside the corporate limits goes through Sioux County.
+
 If you're dealing with water, fire, mold, or storm damage at a Hull property, call Crew Restoration & Construction at **(605) 965-2727**. We'll walk you through what needs to happen next and get a crew scheduled without the runaround.

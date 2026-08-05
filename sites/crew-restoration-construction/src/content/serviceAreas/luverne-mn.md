@@ -53,4 +53,12 @@ Once the mitigation work is complete, our construction team handles the rebuild:
 
 Crew Restoration & Construction is headquartered in Sioux Falls, SD, roughly 90 miles northwest of Luverne via I-90 East — a straightforward highway route with no significant interchange complexity. From our dispatch point, we can reach Downtown Luverne and the neighborhoods along the Bluffs area without routing through secondary roads. We schedule Luverne calls promptly; contact us at (605) 965-2727 to confirm current availability and get a crew on the calendar.
 
+## Building stock, site conditions, and permits in Luverne
+
+Much of the older construction in and around Luverne rests on foundations built from local Sioux quartzite rubble — the same pink stone quarried near Blue Mounds. Those walls are strong but porous at the mortar joints, so basement water tends to move through the joints rather than through a single crack, and drying means treating the whole wall rather than patching one spot. Soils across this part of the Coteau are glacial till with clay content that holds water against the foundation after heavy rain.
+
+Homes built before the late 1970s can carry lead paint, and mid-century flooring, mastic, and pipe insulation may contain asbestos, so demolition scopes get planned around testing rather than after it.
+
+Building permits for structural repair or rebuild inside the city come from Luverne; the Minnesota State Building Code applies statewide, and rural properties permit through Rock County.
+
 If your Luverne property has been affected by water, storm, fire, smoke, or mold, the right time to call is now — not after you have spent a week waiting to see whether the problem resolves on its own. Reach Crew Restoration & Construction at (605) 965-2727.

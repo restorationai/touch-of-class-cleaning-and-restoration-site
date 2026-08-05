@@ -43,4 +43,10 @@ The desert-edge climate around Taft cuts both ways. Low ambient humidity — dri
 
 ProRestoration Services operates 24/7 out of Bakersfield, roughly 35 miles northeast of Taft via Highway 119 and Highway 33. That route runs through Maricopa and into town from the north, and it's the fastest consistent path regardless of time of day. Downtown Taft, Ford City, and South Taft are all reachable on the same run; Taft Heights adds only a few minutes. We do not subcontract Taft calls to a third party — the crew that answers is the crew that shows up, with a fully stocked service vehicle.
 
+## Building stock, site conditions, and permits in Taft
+
+Most of the pre-1960 cottages here sit on raised foundations — short cripple walls over post-and-pier or perimeter footings — with lath-and-plaster interiors over board sheathing. That crawlspace is where water damage hides: a supply leak wets the subfloor and joists from below, and nobody sees it from inside the house. Anything built before 1978 has to be treated as containing lead paint, and pre-1980 floor tile, mastic, and pipe wrap as possible asbestos, so testing comes before demolition, not after.
+
+Permitting depends on which side of the line you're on. Inside Taft city limits, the city handles building permits; Ford City, South Taft, and Taft Heights are unincorporated Kern County, so those go through the county. Structural framing, roof, electrical, and HVAC work under California's Title 24 code typically triggers one; like-for-like drywall replacement usually doesn't.
+
 If you're dealing with water, fire, or mold damage anywhere in Taft — 93268 — call ProRestoration Services at **(661) 393-9306**. We answer around the clock, and we can walk you through next steps before we're even on the road.

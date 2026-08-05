@@ -51,4 +51,12 @@ For Ko Olina vacation properties and Kapolei Commons-area commercial spaces, car
 
 Our Honolulu headquarters puts us roughly 26 miles from central Kapolei via H-1 West. We answer calls 24 hours a day, seven days a week, and dispatch equipment immediately. Kapolei Villages, Mehana, and the Kalaeloa area near Wet'n'Wild Hawaii are all reachable on a single westbound run. Ko Olina Resort & Marina and the Makakilo hillside neighborhoods sit just minutes further. Traffic on H-1 through Pearl City can add time during morning and afternoon commute windows, so if you're calling during peak hours, let us know the access situation at your property and we'll plan accordingly. We'll give you an honest arrival estimate when you call — (808) 349-3407.
 
+## Building stock, site conditions, and permits in Kapolei
+
+Most of Kapolei went up from the 1990s onward, so the building stock is newer than almost anywhere else on Oahu: slab-on-grade foundations, wood-frame double-wall construction, asphalt shingle or tile roofs, and copper or PEX supply lines rather than the galvanized steel found in older Honolulu neighborhoods. That vintage means asbestos and lead paint are rarely part of a scope here. It also means engineered wood subfloors and paper-faced drywall on the second story, which absorb water fast and set the demolition line.
+
+The leeward Ewa plain sits on coral limestone and coralline fill, so runoff tends to move sideways along slab edges rather than pond. Kalaeloa is the exception — former Barbers Point military buildings are decades older.
+
+Building permits for structural repair come from the City and County of Honolulu's Department of Planning and Permitting, and townhome AOAOs and community design committees usually have a say in shared wall and ceiling work.
+
 If you're dealing with water, mold, fire damage, or a carpet emergency anywhere in the 96707 area — from Makakilo to Ko Olina — call AAA Water Damage Restoration & Carpet Care at **(808) 349-3407**. We're available around the clock and ready to dispatch.

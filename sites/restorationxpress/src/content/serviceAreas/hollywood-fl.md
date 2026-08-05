@@ -49,4 +49,12 @@ Once mitigation is complete, we handle the rebuild — drywall, flooring, cabine
 
 RestorationXpress is based in Davie, which puts us just a few miles northwest of Hollywood via I-595 or Griffin Road to US-1. From our Davie location, reaching neighborhoods like Emerald Hills or Highland Gardens typically takes under 20 minutes in normal traffic. Hollywood Beach, near the Broadwalk and the Anne Kolb Nature Center, adds a few minutes depending on the route — we generally come in via Sheridan Street or Hollywood Boulevard to avoid the beach corridor congestion. The Seminole Hard Rock Hotel & Casino corridor along Stirling Road is similarly accessible from our location. We cover all Hollywood ZIP codes: 33019, 33020, 33021, 33023, and 33024.
 
+## Building stock, site conditions, and permits in Hollywood
+
+Most Hollywood houses from the postwar decades are concrete block with stucco on slab-on-grade — no basements, no crawlspaces. That matters because water in a slab home travels sideways through the slab and up into base plates, terrazzo, and block walls rather than draining away. Sandy soil over limestone drains quickly, but with the water table close to grade the ground stays wet, so a saturated slab gives up moisture slowly.
+
+Plumbing vintage drives a lot of the losses: cast iron drain lines in mid-century homes corrode and belly from the inside, and galvanized supply lines fail at the threads. Pre-1978 homes can carry lead paint, and old floor tile and mastic may contain asbestos, which changes the demolition plan.
+
+Structural repairs are permitted through the City of Hollywood's building department, under the Florida Building Code with Broward's high-velocity hurricane zone provisions. Flood-zone properties also face substantial-improvement limits.
+
 If you're dealing with water, mold, fire, or storm damage at a Hollywood property, call RestorationXpress at **(954) 964-6471** during business hours. We'll assess the situation, walk you through next steps, and get a crew moving.

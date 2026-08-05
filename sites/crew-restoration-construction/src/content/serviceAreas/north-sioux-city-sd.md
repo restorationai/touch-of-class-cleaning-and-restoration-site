@@ -47,4 +47,10 @@ Many restoration companies stop at the remediation phase and hand you a list of 
 
 Our crews travel from our Sioux Falls headquarters south on I-29 to reach North Sioux City — roughly 90 miles, a straightforward interstate run that keeps drive time predictable in most weather conditions. From the highway, we can reach the McCook Lake area and Downtown North Sioux City directly, and the Dakota Dunes corridor is just minutes off the same route. We schedule promptly and will give you an honest arrival window when you call — (605) 965-2727. For neighborhoods closer to the Adams Homestead and Nature Preserve on the north end of the service area, we factor in any seasonal road conditions along the river corridor.
 
+## Building stock, site conditions, and permits in North Sioux City
+
+Because the town sits on Missouri River bottomland, much of the soil under these homes is alluvial sand and silt over a shallow water table. That drains fast but offers little resistance to hydrostatic pressure, so basements and walkout lower levels near McCook Lake lean hard on drain tile and sump pumps. Footings here go deep to clear a frost line far below what warmer states require, which is why a winter supply-line break usually shows up inside the wall rather than at the slab edge.
+
+On the paperwork side, North Sioux City issues its own building permits, while Dakota Dunes is unincorporated and runs through Union County and the Community Improvement District. Anything structural, electrical, or mechanical triggers one, and in mapped floodplain the federal 50-percent substantial-improvement rule can pull a repair into full compliance.
+
 If you are dealing with water, fire, or mold damage at a North Sioux City property, call Crew Restoration & Construction at **(605) 965-2727**. We will walk you through what to expect, answer questions about your insurance coverage, and get a crew scheduled as quickly as possible.

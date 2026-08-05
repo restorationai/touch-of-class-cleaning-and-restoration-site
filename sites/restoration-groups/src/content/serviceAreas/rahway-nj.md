@@ -55,4 +55,12 @@ Once mitigation is complete, we handle the rebuild — framing, drywall, floorin
 
 Our Kenilworth headquarters sits roughly 4 miles from central Rahway — a straightforward run down Central Avenue or via Route 28, with no significant highway interchange between us and most of the city. Neighborhoods like Hazelwood and the Clark border area are reachable in similar time. Because we operate 24/7, calls placed at 2 a.m. after a sump pump failure during a nor'easter get the same dispatch response as a Monday morning call. We stage equipment at our Kenilworth facility so crews leave loaded — no stopping to pick up gear after the call comes in.
 
+## Building stock, site conditions, and permits in Rahway
+
+Older homes near downtown were built before poured foundations were standard, so you'll find stone or brick-and-mortar walls under them, wood lath and plaster above, and stacked additions where framing types meet. Those assemblies hold water. Plaster wicks it sideways, and mortar joints let it move through the foundation instead of stopping at it. Anything built before 1978 also brings lead paint, and 1920s-era pipe wrap, boiler insulation, and postwar floor tile can be asbestos-containing, which changes how demolition gets scoped.
+
+Footing depth here follows northern New Jersey frost requirements, and with the water table sitting high on the blocks nearest the river, hydrostatic pressure against basement walls is a year-round condition, not a storm-day one.
+
+Permits come from Rahway's construction office under New Jersey's statewide Uniform Construction Code, with separate plumbing, electrical, and fire sub-code approvals. Structural repair and flood-zone rebuilds trigger review.
+
 If you're dealing with a water, fire, or mold emergency in Rahway — or you're a property manager who needs a reliable remediation contractor on call — reach The Restoration Group at **(855) 650-7422**, any hour of the day.

@@ -49,4 +49,12 @@ Vacation rental turnover, unattended properties, and sewage backups after heavy 
 
 Our headquarters is in Vandenberg Village, roughly 25 to 30 miles north of Pismo Beach via U.S. 101. Under normal traffic conditions on 101 southbound, that puts our crew in Pismo Beach in well under an hour. We do not publish a guaranteed minute figure, but Pismo Beach is well within our primary service corridor — it is not a distant edge-of-territory call for us. Property managers coordinating access for a rental unit, or homeowners who need to meet us on-site, can reach us directly at (805) 345-7440 to schedule arrival.
 
+## Building stock, site conditions, and permits in Pismo Beach
+
+Much of the older housing here is single-story wood frame with stucco or wood siding, raised on short cripple walls over a vented crawlspace, with later infill and condo work built on slab-on-grade. Those two foundations behave very differently after a loss: a crawlspace traps humid air under the floor and needs its own drying plan, while a slab wicks moisture sideways into bottom plates and flooring adhesive.
+
+Pre-1980s homes commonly hide galvanized supply, cast iron drains, and asbestos-suspect materials like sheet vinyl, joint compound, and popcorn ceilings, plus lead paint in anything before 1978 — all of which have to be tested or assumed before demolition.
+
+Permits for structural repair go through the City of Pismo Beach building division, and because the city sits inside California's coastal zone, work that goes beyond repair in kind can pull in coastal review. Condo and HOA rules add a second approval layer.
+
 If you are dealing with a water, fire, mold, or biohazard situation at a Pismo Beach property, call Coastal Restoration Services Inc at **(805) 345-7440**. We will walk you through what to expect, explain the documentation process, and get a crew moving toward you.

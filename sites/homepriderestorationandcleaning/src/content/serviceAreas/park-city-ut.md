@@ -51,4 +51,10 @@ Vacation rental turnovers, unattended deaths in second homes, and the occasional
 
 From our Saratoga Springs headquarters, we reach Park City in approximately 45–55 minutes under normal conditions via US-40 through Parley's Canyon. During peak ski season, when I-80 and UT-224 through Kimball Junction can back up, our dispatch team monitors traffic in real time and routes accordingly. For properties in Old Town (ZIP 84060) and Prospector (also 84060), expect a technician on-site within 60 minutes of your call. Properties further east toward Jordanelle Ridge or in the 84098 corridor near Kimball Junction typically see arrival within 70 minutes. We answer at (801) 995-2437 every hour of every day.
 
+## Building stock, site conditions, and permits in Park City
+
+Old Town's mining-era cottages date to the silver boom of the late 1800s, and they sit on steep lots over stone or shallow post-and-pier foundations with tight crawlspaces. Expect lath and plaster, board sheathing, and pre-1978 paint and pipe insulation, so any demolition scope has to assume lead and asbestos until testing says otherwise. Galvanized supply and cast iron drains are still in service in some of these houses; condos and homes from the 1970s and 80s build-out lean on copper, and newer construction is largely PEX.
+
+Park City Municipal issues building permits inside city limits, and Summit County handles the unincorporated Snyderville Basin. Structural repair or rebuild generally needs a permit, work in the historic district also runs through design review, and excavation in the old mining areas can trigger soil-handling requirements.
+
 If you're dealing with water, fire, mold, or a biohazard situation at a Park City property right now, call (801) 995-2437. We'll tell you exactly what to do in the next 30 minutes before we arrive.

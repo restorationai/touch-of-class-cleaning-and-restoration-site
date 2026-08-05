@@ -49,4 +49,10 @@ Once mitigation is complete, the structure still needs to be put back together. 
 
 Crew Restoration & Construction is based in Sioux Falls, SD, roughly 90 miles northwest of Worthington via I-90 East. That route is straightforward in good conditions and well-maintained year-round. We serve the full 56187 ZIP code, including Downtown Worthington, the Lake Okabena area, and the neighborhoods surrounding the Nobles County Fairgrounds and Chautauqua Park. Call us at (605) 965-2727 to discuss scheduling and get a crew dispatched to your property.
 
+## Building stock, site conditions, and permits in Worthington
+
+Worthington's older core, closer to downtown, includes homes from the early 1900s through the 1930s — balloon framing, plaster over wood lath, and full basements. Wet plaster holds moisture long after painted drywall feels dry, so those walls usually need cavity drying rather than a fan pointed at the surface. In homes of that vintage we plan around cast iron drain stacks, possible knob-and-tube remnants, lead paint on trim in anything pre-1978, and asbestos in floor tile, mastic, or duct wrap. Mid-century houses often still have clay or Orangeburg sewer laterals that collapse and back up.
+
+The ground here is prairie glacial till, dense enough that footing drains and grading do most of the work. Building permits come from the City of Worthington, and structural repair, framing replacement, or reroofing generally requires one under the Minnesota State Building Code.
+
 If you're dealing with a water, fire, mold, or structural emergency in Worthington or anywhere in Nobles County, call Crew Restoration & Construction at **(605) 965-2727**. We'll walk you through the immediate steps, get a crew scheduled, and handle the insurance coordination from the first call forward.

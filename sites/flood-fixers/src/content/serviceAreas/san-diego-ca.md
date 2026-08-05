@@ -51,4 +51,12 @@ Flood Fixers holds a California contractor's license, so we can carry a job from
 
 Our crew deploys from a facility in San Diego, which puts most of the city within a 30-to-45-minute drive under normal conditions. Neighborhoods like Mission Hills, University Heights, and South Park are typically under 20 minutes. Reaching communities further out — Mira Mesa (92126), Rancho Bernardo, or Chula Vista — generally runs 35 to 55 minutes depending on I-15 and I-805 traffic. We answer the phone 24 hours a day, and a project manager calls back within 15 minutes of initial contact to confirm ETA and walk you through what to do — and what not to touch — before the crew arrives.
 
+## Building stock, site conditions, and permits in San Diego
+
+Homes here span roughly a century. Pre-war bungalows sit on raised perimeter footings over shallow wood-framed crawlspaces, with Douglas fir and redwood framing, board sheathing, and plaster over lath — assemblies that hold water far longer than drywall and need controlled drying rather than fast demolition. Post-war and later construction is largely slab-on-grade; full basements are rare across the county, so water tends to travel sideways under flooring and into bottom plates.
+
+Ground conditions vary block to block, from sandy coastal soils to expansive clays and cut-and-fill hillside pads inland, which affects how crawlspaces drain and where slab moisture shows up.
+
+Building permits come from the City of San Diego's Development Services Department. Structural work, framing changes, and mechanical or plumbing replacement typically trigger one; California code also drives seismic detailing. Pre-1978 paint and pre-1980 materials get tested before disturbance.
+
 If you're dealing with water, fire, mold, or storm damage anywhere in San Diego, call Flood Fixers at **(855) 204-1124**. We'll tell you exactly how far out we are and what to expect — no hold music, no call centers.

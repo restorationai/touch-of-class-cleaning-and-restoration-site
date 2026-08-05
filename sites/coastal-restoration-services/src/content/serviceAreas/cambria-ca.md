@@ -49,4 +49,12 @@ Once mitigation is complete, many properties need carpentry, drywall, flooring, 
 
 Coastal Restoration Services Inc is headquartered in Vandenberg Village, roughly 55 miles south of Cambria via Highway 1 and US-101. The most direct route north runs up the 101 to San Luis Obispo, then connects to Highway 1 through Morro Bay and Cayucos before reaching Cambria — typically a 60–75 minute drive under normal Central Coast traffic conditions. Properties along the Highway 1 corridor through the West Village and the residential streets climbing toward the East Village are all within our standard service area. Call (805) 345-7440 to confirm scheduling and get a crew dispatched as promptly as conditions allow.
 
+## Building stock, site conditions, and permits in Cambria
+
+Much of Cambria's housing is wood-frame construction from the 1950s through the 1980s, built on sloping lots with raised perimeter foundations or post-and-pier crawlspaces rather than basements. On a hillside lot, that crawlspace is the low point: water from a failed supply line or a saturated uphill grade collects under the floor framing, and drying it means treating the subarea as its own containment, not just the room above.
+
+Homes of that vintage often still carry galvanized steel supply lines and cast iron drains, both of which fail from the inside out. Anything built before the late 1970s should be assumed to have asbestos-containing flooring, texture, or duct wrap and lead paint until tested.
+
+Cambria is unincorporated, so building permits come from San Luis Obispo County, and coastal zone rules apply to work beyond in-kind repair.
+
 If you're dealing with water, mold, fire, or smoke damage at a Cambria property, call Coastal Restoration Services Inc at **(805) 345-7440**. We'll walk you through the next steps, explain what the inspection involves, and give you a clear picture of what remediation will look like before any work begins.

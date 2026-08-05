@@ -49,4 +49,10 @@ Once the damage is dry and clean, the rebuild begins. We handle drywall, insulat
 
 ProRestoration Services operates out of Bakersfield, and Tehachapi sits roughly 40 miles east on CA-58 — a direct highway run with no urban traffic to fight. We reach Downtown Tehachapi and the neighborhoods along Tucker Road and Tehachapi Boulevard quickly. Bear Valley Springs and Stallion Springs add driving time on winding mountain roads, but both communities are well within our regular service area. We dispatch 24/7, so a call made at midnight near the Tehachapi Depot Railroad Museum or on the far side of Brite Lake reaches a live crew, not a voicemail.
 
+## Building stock, site conditions, and permits in Tehachapi
+
+Downtown Tehachapi holds the oldest housing — pre-war and mid-century homes with raised crawlspaces, plaster or early drywall, and paint that should be treated as lead-bearing until tested. The ridge communities came later: most of Bear Valley Springs and Stallion Springs was platted and built from the late 1960s onward, so you're mostly looking at wood-frame walls, composition-shingle roofs, and a mix of slab and vented crawlspace. Many of those parcels run on septic and well rather than city utilities, which changes how a sewage or supply loss is scoped.
+
+Permits matter here because jurisdiction splits. Inside city limits the City of Tehachapi handles building permits; Golden Hills, Bear Valley Springs, and Stallion Springs are unincorporated, so Kern County reviews structural repairs. Bear Valley Springs also has HOA architectural review on exterior work.
+
 If you're facing a water, fire, smoke, or mold emergency anywhere in the Tehachapi area, call ProRestoration Services at **(661) 393-9306**. We're available around the clock, and we know what mountain-property losses look like.

@@ -49,4 +49,12 @@ Because we handle both restoration and construction, Sibley property owners don'
 
 Sibley is approximately 90 miles northeast of our Sioux Falls headquarters, a straight shot east on I-90 and then north on US-75. That route is generally reliable year-round, though northwest Iowa winters can slow travel on US-75 north of Sheldon during active storm events. We serve all of Sibley, including Downtown Sibley, the Osceola County Fairgrounds area, and surrounding rural Osceola County addresses in the 51249 ZIP code. When you call **(605) 965-2727)**, we can give you a realistic arrival window based on current conditions and crew availability — we won't quote a time we can't keep.
 
+## Building stock, site conditions, and permits in Sibley
+
+Most in-town housing here predates the 1960s, and Iowa's frost depth means those homes sit on full basements rather than slabs — usually poured concrete, with brick, block, or stone under the oldest ones. Water that gets in soaks the rim joist and sill first, and stone or mortared block walls hold that moisture long after the floor looks dry.
+
+Era-typical plumbing is galvanized steel supply and cast iron drains, later patched with copper. Galvanized fails from the inside as scale closes it off, then it weeps at threaded joints. Anything built before 1978 should be assumed to have lead paint, and pre-war homes may have knob-and-tube wiring or asbestos duct and pipe wrap that changes how demolition is staged.
+
+Structural repair or rebuild inside city limits is permitted through the City of Sibley; rural Osceola County addresses go through the county.
+
 If you're dealing with water, fire, mold, or storm damage at a Sibley property, call Crew Restoration & Construction at **(605) 965-2727**. We'll tell you honestly what we're seeing, what it takes to fix it, and how the insurance process works — no pressure, no guesswork.

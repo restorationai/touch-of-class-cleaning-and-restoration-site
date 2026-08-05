@@ -55,4 +55,10 @@ Once the structure is dry and the hazards are cleared, we handle the rebuild: fr
 
 From our Kenilworth headquarters, Englewood is roughly 25 miles northeast — typically via the Garden State Parkway north to Route 4, or I-95 to the Palisades Parkway depending on traffic. Because we operate 24/7, we dispatch on your call regardless of the hour. Dense neighborhoods like Downtown and the Fourth Ward are straightforward to reach; East Hill's residential streets and the Englewood Cliffs border area are equally accessible. We'll confirm an estimated arrival window when you call (855) 650-7422.
 
+## Building stock, site conditions, and permits in Englewood
+
+Much of Englewood's older housing predates 1930, which means balloon or early platform framing, plaster over wood lath, and fieldstone or rubble-and-mortar basement walls. Wet plaster and lath dry slowly and unevenly, so drying that assembly usually means controlled cavity access rather than gutting a wall. Homes of that vintage often still carry steam or hot-water radiator heat, galvanized supply, and pipe insulation, floor tile, or boiler jacketing that has to be tested for asbestos before demolition; pre-1978 paint layers get the same caution. Shallow bedrock and glacial soils along the Palisades ridge push water sideways against foundations instead of down, and frost lines in this part of North Jersey run deep enough that exterior lines freeze.
+
+Structural repair and rebuild work follows the New Jersey Uniform Construction Code, with permits and subcode inspections handled through Englewood's own construction office. Work in mapped flood areas near the Overpeck corridor carries added requirements.
+
 If you're dealing with water, fire, mold, or structural damage anywhere in Englewood — from a finished basement on The East Hill to a storefront on Palisade Avenue — call The Restoration Group at **(855) 650-7422**. We're available around the clock, and we'll walk you through next steps before we even arrive on site.

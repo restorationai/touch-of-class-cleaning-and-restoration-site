@@ -53,4 +53,10 @@ Our office in Vandenberg Village sits just outside the main gate corridor, which
 
 For property managers coordinating access on base or in adjacent housing areas, we are experienced with the scheduling and documentation requirements that come with those properties. Call us at (805) 345-7440 to discuss access logistics before an emergency, not after.
 
+## Building stock, site conditions, and permits in Vandenberg AFB
+
+Much of the housing in this area is stucco over wood frame with shallow-pitched roofs, and the mid-century units often hide the era's real hazards: asbestos in sheet-vinyl flooring, mastic and joint compound, and lead paint in anything built before 1978. That changes demolition sequencing — suspect materials get tested or assumed, not torn out dry. Cast iron drain lines from the same period scale and crack below the slab, so a recurring "toilet overflow" is frequently a failed lateral.
+
+Soils on the Burton Mesa terraces run sandy, which drains well but undermines slab edges and footings when a leak or downspout runs unchecked. Permits are a two-track question here: work inside the base fence goes through base civil engineering and the housing partner, while off-base properties in this corridor fall under Santa Barbara County Building and Safety and California's seismic provisions.
+
 If you're dealing with water, fire, smoke, or mold damage at a Vandenberg AFB property, call Coastal Restoration Services Inc at **(805) 345-7440**. We'll assess the situation, explain what we're seeing, and give you a clear picture of next steps — no pressure, no upsell.

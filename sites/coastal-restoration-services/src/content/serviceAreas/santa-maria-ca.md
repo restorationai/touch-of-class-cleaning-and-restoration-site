@@ -49,4 +49,12 @@ Once mitigation is complete, damaged drywall, flooring, cabinetry, and structura
 
 Coastal Restoration Services Inc is based in Vandenberg Village, roughly 10 to 12 miles west of Santa Maria via Highway 1 to Betteravia Road or via Vandenberg Air Force Base Road connecting to the 101 corridor. The drive is typically 20 to 30 minutes depending on traffic and time of day, putting our crew well within practical range for prompt scheduling across the city. Call us at (805) 345-7440 during business hours and we'll confirm availability and get a crew dispatched.
 
+## Building stock, site conditions, and permits in Santa Maria
+
+Most of Santa Maria's homes sit on slab-on-grade or a raised perimeter foundation with a vented crawlspace — basements are rare here. On a slab, water tracks sideways under flooring and wicks up into bottom plates and drywall; in a crawlspace, it sits in valley alluvium that drains slowly and keeps the underfloor humid long after the leak is fixed. Wood-frame walls behind stucco hold that moisture rather than releasing it.
+
+Anything built before 1980 should be treated as potentially containing asbestos in floor tile, joint compound, or textured ceilings, and pre-1978 paint as lead-bearing, so demolition gets tested first. Cast iron drains in older homes scale and crack at the slab penetration.
+
+Repairs follow the California Building and Residential Codes under Title 24, and permits inside city limits come through Santa Maria's building division — structural framing, reroofing, and rewiring typically trigger one.
+
 If you're dealing with water, fire, smoke, or mold damage at a Santa Maria property, call Coastal Restoration Services Inc at **(805) 345-7440**. We'll walk you through what to expect, answer your insurance questions, and get the right crew scheduled without the runaround.

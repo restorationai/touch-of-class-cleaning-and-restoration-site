@@ -49,4 +49,12 @@ Sewage backups in Vista's older neighborhoods often trace back to root intrusion
 
 From Flood Fixers' San Diego headquarters, a technician can reach most of Vista in approximately 35 to 50 minutes under normal traffic conditions — faster during off-peak hours. The team covers all of Vista's ZIP codes: 92081, 92083, and 92084. Neighborhoods like Shadowridge, Buena Vista, and the areas near Alta Vista Gardens are all within standard response range. For calls that come in during peak commute hours on the 78, dispatch routes around surface streets through Oceanside or San Marcos to avoid adding time. The goal is equipment on-site within 60 minutes of your call to (855) 204-1124.
 
+## Building stock, site conditions, and permits in Vista
+
+Most of Vista is stucco over wood frame — three-coat stucco on paper-backed lath, with wire lath and building paper as the only real drainage plane. Once water gets behind that skin it stays there, because stucco dries slowly and inward. Slab-on-grade is the norm in tract construction from the 1980s onward; earlier homes more often sit on raised perimeter foundations, so the drying plan changes depending on which one you have.
+
+Supply lines vary by vintage: galvanized steel in the oldest houses, copper through the middle decades, polybutylene in some late-1970s and 1980s work, PEX in newer repipes. Copper pinholes and failed poly fittings are the leaks we see most.
+
+Structural repair and rebuild permits come from the City of Vista building division, under the California Building Code. Anything touching framing, drains, or electrical generally needs one. Pre-1980 materials also mean testing for asbestos and lead before demolition.
+
 If you're dealing with water, fire, mold, or sewage damage anywhere in Vista, the faster you call, the less material gets replaced rather than restored. Reach Flood Fixers at **(855) 204-1124** — technicians are available around the clock, every day of the year.

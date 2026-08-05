@@ -49,4 +49,12 @@ From sewage backups — common when Eagle Mountain's municipal lines see heavy i
 
 From our Saratoga Springs headquarters, a Home Pride crew can reach most Eagle Mountain addresses in 20 to 35 minutes under normal traffic conditions. The drive west on Redwood Road and north on Eagle Mountain Boulevard puts us at the city's core quickly; neighborhoods farther out on the city's western edge typically see us within 45 minutes. We run 24-hour dispatch at (801) 995-2437 — nights, weekends, and holidays included — because a Category 2 water loss doesn't wait for Monday morning.
 
+## Building stock, site conditions, and permits in Eagle Mountain
+
+Because almost nothing here predates 2000, the era hazards that complicate older Utah County work — asbestos floor tile and mastic, lead paint, knob-and-tube — are rarely part of the scope. What we plan around instead is depth. Most homes are built over poured concrete full basements or partial daylight basements, and many were sold unfinished and finished later. That matters: a loss on the main floor drains into a basement whose framing, insulation, and wiring may not match the original permitted plans, and undocumented finish work slows the rebuild.
+
+Roofs are typically asphalt shingle over OSB on engineered trusses, with blown-in attic insulation that mats down and holds water after a leak.
+
+Utah enforces a statewide building code, and Eagle Mountain's own building division issues permits. Structural framing, wall relocation, and electrical or mechanical changes trigger one; like-for-like drywall and flooring usually does not.
+
 If something has gone wrong in your Eagle Mountain home or property, call Home Pride Restoration and Cleaning at **(801) 995-2437**. We'll tell you exactly what we're seeing, what needs to happen, and how long it will take — before any work begins.

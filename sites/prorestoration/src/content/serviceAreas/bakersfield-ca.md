@@ -49,4 +49,12 @@ Once the damage is mitigated, we can handle the rebuild — drywall, flooring, c
 
 Our crews are based in Bakersfield, which means we are not adding a long drive to your emergency. Downtown Bakersfield (93301), Riverlakes Ranch (93314), and East Bakersfield (93306) are all routine service runs for us. We cover the full city footprint — from the Meadows Field Airport area in the north to the newer developments along the 93313 corridor in the south — and we operate 24 hours a day, seven days a week. When you call (661) 393-9306, you reach a live person who can dispatch a crew, not an answering service that logs a ticket for the morning.
 
+## Building stock, site conditions, and permits in Bakersfield
+
+Most of Bakersfield's housing went up during the postwar and 1970s–2000s tract booms: wood frame with stucco over the exterior, composition shingle on a shallow pitch, and slab-on-grade foundations. Basements are essentially absent here, so water has nowhere to go but sideways into bottom plates, baseboards, and the underside of flooring. The older pockets downtown, in Oleander/Sunset and East Bakersfield, are more likely to sit on a raised perimeter foundation with a crawlspace, where a supply leak can soak insulation and framing out of sight.
+
+Age matters for what we can legally disturb. Homes built before 1978 are treated as lead-containing, and pre-1980 popcorn ceilings, sheet flooring, and duct wrap get tested before demolition rather than after.
+
+Inside city limits, the City of Bakersfield building division issues permits; addresses in the Rosedale fringe and other unincorporated areas go through Kern County. Structural framing repairs, re-roofing, and panel or rewiring work generally trigger a permit, and everything is built to the California Building Code, which carries real seismic requirements in this part of the valley.
+
 If you are dealing with water, fire, or mold damage anywhere in Bakersfield, call ProRestoration Services at **(661) 393-9306**. We are available around the clock, we know this city's housing stock, and we will give you a straight assessment of what the damage involves and what it will take to fix it.

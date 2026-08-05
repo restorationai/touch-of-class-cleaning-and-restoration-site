@@ -51,4 +51,12 @@ Once mitigation is complete, most properties need some level of reconstruction �
 
 Reign Restoration is headquartered in Royse City, TX, roughly 25 to 30 miles east of Garland via I-30. That puts us well within practical service range for Garland and the surrounding eastern Dallas metro. Garland is a large city — it spans multiple ZIP codes and stretches from the older neighborhoods near downtown out to newer development along the northern and eastern edges — and our crew is familiar with navigating across it. Call (214) 304-0621 to schedule a response and get an honest estimate of when we can be on-site based on current crew availability.
 
+## Building stock, site conditions, and permits in Garland
+
+Almost nothing here has a basement. Garland homes sit on concrete slabs — conventionally reinforced in the older neighborhoods, post-tensioned in the newer subdivisions — under brick veneer over wood framing with composition shingle roofs. That matters during repairs: a post-tensioned slab cannot be cut for a plumbing repair without care, and brick veneer means wet wall cavities usually have to be opened from the interior side.
+
+Mid-century houses in Dallas County commonly ran cast iron drain lines, which corrode and separate at joints, and some late-70s and 80s construction used polybutylene supply. Pre-1978 paint and pre-1980 textured ceilings, floor tile, and mastic can contain lead or asbestos, so demolition scopes get tested first.
+
+Structural repair and rebuild work is permitted through the City of Garland; reframing, electrical, and plumbing changes typically trigger inspection.
+
 If you're dealing with water, fire, smoke, or mold damage at a Garland property, call Reign Restoration at **(214) 304-0621**. We'll assess the damage, walk you through the process, and handle the documentation your insurance carrier needs from the first visit forward.

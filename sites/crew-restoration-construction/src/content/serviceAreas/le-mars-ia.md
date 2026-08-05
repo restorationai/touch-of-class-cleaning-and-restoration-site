@@ -49,4 +49,10 @@ Restoration without reconstruction leaves property owners managing two separate 
 
 Crew Restoration & Construction is headquartered in Sioux Falls, SD, approximately 75 miles north of Le Mars via I-29 South and US-75. That route runs directly into Plymouth County and puts our crews within practical reach of every part of Le Mars — from the historic blocks of Downtown Le Mars and the residential streets of the Foster Park area to commercial properties along the city's main corridors. We schedule prompt responses based on current crew availability; call us at (605) 965-2727 during business hours to discuss your situation and get a realistic arrival window for your specific address in the 51031 ZIP code.
 
+## Building stock, site conditions, and permits in Le Mars
+
+Le Mars building stock splits roughly into pre-war frame houses with full basements — often limestone or unreinforced block walls parged on the inside — and post-1960s subdivisions built on poured concrete. In the older stock, expect galvanized supply lines that scale shut and rust from the inside out, and cast iron drains that fail at the hub. Both mean the leak is usually older than the stain. The ground here is deep loess over glacial till: it holds water rather than shedding it, and footings are set well below a frost line that runs several feet down in this part of Iowa.
+
+Structural repair and rebuild permits are pulled through the City of Le Mars; anything near the Floyd River corridor can also bring floodplain requirements on top of the ordinary building permit.
+
 If you're dealing with water, fire, mold, or structural damage at a Le Mars property, call Crew Restoration & Construction at **(605) 965-2727**. We'll walk through what you're seeing, explain the process honestly, and get the right crew scheduled for your situation.

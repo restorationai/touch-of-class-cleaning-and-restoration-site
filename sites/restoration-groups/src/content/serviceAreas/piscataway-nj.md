@@ -51,4 +51,10 @@ For property managers overseeing Stelton corridor retail, lab, or warehouse spac
 
 From our Kenilworth headquarters, Piscataway is roughly 25 miles via the Garden State Parkway south to Route 1, or through the US-9 and Route 27 corridor depending on traffic. We cover all of Piscataway's neighborhoods — Arbor, Possumtown, Stelton, New Market, Society Hill, and the River Road corridor — as well as the Rutgers campus zones on the Livingston and Busch sides of the township. Because we operate 24/7, a call at any hour goes to a live dispatcher who can confirm crew availability and get a team moving without waiting for a callback window.
 
+## Building stock, site conditions, and permits in Piscataway
+
+Most of the township's older tracts sit on full basements with concrete block or poured walls, which is why water here so often ends up in finished living space rather than a crawlspace. Wall assemblies from the 1950s and 60s mean thin-coat plaster or early gypsum board over wood framing, and furred-out basement walls with fiberglass batts that wick and hold water. Anything built before the late 1970s can carry lead paint, asbestos floor tile and mastic, or asbestos pipe wrap on old boiler lines, so demolition scope has to be planned around testing rather than discovered mid-tearout.
+
+Soils near the Raritan are alluvial sand and silt with a high seasonal water table, so basements take hydrostatic pressure long after the river drops. Structural repair and rebuild permits run through Piscataway's construction office under the New Jersey Uniform Construction Code, and work in the mapped floodplain brings additional elevation and substantial-improvement review.
+
 If your Piscataway property is dealing with water, fire, mold, or any other restoration emergency, call The Restoration Group at **(855) 650-7422** — any time, day or night. We'll walk you through next steps on the phone and get a crew to you as quickly as road conditions allow.

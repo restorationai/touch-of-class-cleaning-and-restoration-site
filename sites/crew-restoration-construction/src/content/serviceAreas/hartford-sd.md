@@ -49,4 +49,10 @@ Once mitigation is complete, Crew Restoration handles the rebuild. That means dr
 
 Crew Restoration & Construction is headquartered in Sioux Falls, and Hartford is a direct run west on Interstate 90 or Highway 42 — roughly 15 miles from our office to the center of Hartford. That proximity means we can reach Downtown Hartford, the Buffalo Ridge area, and properties throughout the 57033 ZIP code without the delays that come with distant dispatch. Scheduling is handled by phone at (605) 965-2727; call us to discuss timing based on your situation and our current availability.
 
+## Building stock, site conditions, and permits in Hartford
+
+Downtown Hartford's oldest houses are pre-war wood frame with plaster over wood lath, often balloon-framed so a wall cavity runs uninterrupted from the basement sill to the attic. Those homes still turn up galvanized steel supply lines and cast iron drains, plus asbestos-containing floor tile, mastic, or pipe wrap and lead paint on anything painted before 1978 — all of which changes how a wet wall gets opened rather than whether it gets opened. Plaster holds water far longer than drywall and usually needs a slower, more controlled dry.
+
+Footers here are set below a deep frost line, which is why full basements are the norm on glacial till ground rather than slabs. South Dakota leaves residential code adoption to local jurisdictions: structural repair or rebuild is permitted through the City of Hartford inside city limits, and through Minnehaha County outside them.
+
 If you are dealing with water, fire, smoke, or mold damage at a Hartford property, call Crew Restoration & Construction at **(605) 965-2727**. We will walk through what you are seeing, explain the next steps, and get a crew scheduled to your address.

@@ -53,4 +53,10 @@ Sewage backups, trauma scenes, and hoarding situations require handling that goe
 
 MCC Restoration is headquartered in Duncanville, which puts us immediately adjacent to the southern Dallas neighborhoods we serve most often. Oak Cliff, the Bishop Arts District, and Kessler Park are a short drive north on Westmoreland Road or Zang Boulevard. Red Bird and the Kiest Park area are essentially neighbors — a few minutes up Highway 67 or Camp Wisdom Road. Mountain Creek and the 75249 corridor are similarly close heading west. For property managers overseeing multifamily buildings along I-35E, we're accessible without the cross-city travel time that firms based in North Dallas or Plano face. Call us at (682) 772-9123 to confirm scheduling and get a crew on the calendar.
 
+## Building stock, site conditions, and permits in Dallas
+
+Older Oak Cliff and Kessler Park houses were largely built on pier-and-beam foundations, so water runs into a vented crawlspace and sits under wood floors and joists. Their walls are often plaster and lath over board sheathing, which holds moisture far longer than drywall and has to be dried or removed deliberately. Anything built before the late 1970s should be treated as possibly containing lead paint and asbestos in floor tile, mastic, or pipe wrap until tested. Postwar and tract homes further south sit on slabs with supply lines run through unconditioned attics — the reason a hard freeze produces ceiling collapses rather than puddles.
+
+Structural repair, reroofing, and rebuilds are permitted through the City of Dallas. Conservation and historic district rules affect exterior work in parts of Oak Cliff, and floodplain review applies near the Trinity and its creeks.
+
 If you're dealing with water, fire, mold, or storm damage anywhere in southern Dallas — from the 75211 ZIP code through 75237 and beyond — call MCC Restoration and Contracting Services at (682) 772-9123. We'll assess the situation, walk you through what needs to happen, and get the work scheduled.

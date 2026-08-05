@@ -51,4 +51,12 @@ For Ewa Beach homeowners dealing with post-flood carpet or simply the salt-air g
 
 From our Honolulu base, Ewa Beach is a direct run west on H-1 — roughly 20 to 25 miles depending on the specific neighborhood. Ocean Pointe and Hoakalei Country Club sit near the Fort Weaver Road interchange; Ewa Villages and Iroquois Point are a few minutes further along the same corridor. Because we operate 24/7, we can dispatch at any hour — there's no waiting until business hours to get equipment moving toward your address. We cover all of 96706, including the newer phases of Ewa Gentry that continue to build out toward the second city.
 
+## Building stock, site conditions, and permits in Ewa Beach
+
+Plantation-era houses in the older parts of Ewa were often built single-wall: vertical tongue-and-groove boards that serve as structure and finish at once, sitting on post-and-pier framing with a crawlspace and a corrugated metal roof. Those boards wick water along the grain and cup instead of crumbling, so drying them takes patience rather than demolition. Anything from before the late 1970s also means planning around lead paint and asbestos in floor tile, mastic, or pipe wrap before cutting.
+
+The Ewa plain sits on coralline limestone and calcareous former cane soil — porous, alkaline, and hard on buried galvanized and cast-iron lines. Termite pressure across leeward Oahu is relentless, and chronic moisture invites it.
+
+Permits for structural repair or rebuild come from the City and County of Honolulu Department of Planning and Permitting, and master-planned tracts usually add association design approval.
+
 If you're dealing with water, fire, mold, or storm damage anywhere in Ewa Beach, call AAA Water Damage Restoration & Carpet Care at **(808) 349-3407**. We answer around the clock and can walk you through immediate steps while we're on the way.

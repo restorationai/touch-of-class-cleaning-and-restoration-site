@@ -45,4 +45,12 @@ Institutions near Prudential Center and Newark Penn Station — arena-district h
 
 Kenilworth sits roughly fifteen minutes up McCarter Highway from the heart of Newark under normal traffic conditions — a straight shot that puts us close to Downtown Newark, the Ironbound along Ferry Street, and University Heights near Branch Brook Park. Weequahic and Vailsburg in the city's southwest, and neighborhoods further into ZIP codes 07107 and 07108, add a few minutes depending on the Route 22 and Garden State Parkway interchange. Because we operate 24/7, we can dispatch outside of rush-hour windows when surface streets through the city move freely. When you call (908) 970-8533, we'll give you a realistic arrival estimate based on current conditions — not a number pulled from a brochure.
 
+## Building stock, site conditions, and permits in Newark
+
+Most of Newark's housing went up before World War II, which means brick load-bearing walls or balloon-framed two- and three-families over full basements — not slabs. Basements sit low against a tidal river valley, and parts of the Ironbound rest on filled meadowland with a high water table, so foundation walls stay damp and drying a cellar takes longer than a suburban crawlspace.
+
+Inside those walls, expect galvanized supply lines that rust closed, cast-iron drains that crack at the hub, steam heat, knob-and-tube remnants, asbestos-wrapped pipe insulation, and lead paint in anything pre-1978. All of that shapes how much of a wet assembly can be opened safely.
+
+Structural repairs and rebuilds run through Newark's construction office under the New Jersey Uniform Construction Code, and work near the Passaic can trigger flood-elevation requirements.
+
 If you're dealing with water, fire, mold, or sewage damage anywhere in Newark — from NJPAC's arena district to the residential blocks of Forest Hill — call The Restoration Group at **(908) 970-8533**. We answer every hour of every day, and we'll tell you exactly what to expect before we arrive.

@@ -49,4 +49,10 @@ Unattended situations, sewage overflows, and other biohazard events require EPA-
 
 Mold Solutionz 24/7 operates out of Cerritos, roughly 3 to 5 miles from most Norwalk addresses depending on traffic. The most direct route from our Cerritos base follows Bloomfield Avenue or Pioneer Boulevard straight north into Norwalk, putting us close to the city's central neighborhoods quickly. Norwalk's street grid is straightforward — there are no major geographic barriers between Cerritos and the neighborhoods along Firestone Boulevard or near the Norwalk/Santa Fe Springs border. Because we operate 24/7, a call at 2 a.m. after a pipe failure gets the same response as a call on a Tuesday afternoon. We'll give you an honest arrival estimate when you call (714) 409-4758 based on where our nearest crew is at that moment.
 
+## Building stock, site conditions, and permits in Norwalk
+
+Most of the city's tract housing is slab-on-grade with a shallow perimeter footing, so there's no basement to pump out — the water travels sideways through the slab, into bottom plates, baseboards, and the paper facing of drywall. Drain and waste lines from that era are usually cast iron, which rusts from the inside and eventually cracks below the slab; sewer laterals of the same vintage are common. Anything built before the late 1970s should be treated as possible asbestos in popcorn ceilings, floor tile, and pipe wrap, and lead paint on trim, both of which change how demolition is staged.
+
+Permits for structural repair or rebuild come from the City of Norwalk's building division. California's Title 24 codes apply, including seismic bracing requirements, and properties near the San Gabriel River corridor may face flood-zone conditions on the rebuild.
+
 If you're dealing with water, mold, fire, or a biohazard situation in Norwalk right now, call Mold Solutionz 24/7 at **(714) 409-4758**. We're available around the clock, we document everything for insurance, and we can be on the road toward your property from Cerritos as soon as you hang up.

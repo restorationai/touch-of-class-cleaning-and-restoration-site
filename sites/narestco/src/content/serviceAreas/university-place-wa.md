@@ -49,4 +49,12 @@ Once mitigation is complete, we handle the rebuild under the same roof — frami
 
 From our Federal Way headquarters, we can reach most University Place addresses in 15 to 20 minutes under normal conditions — typically under 30 minutes even during peak commute hours via I-5 south to SR-16. Neighborhoods closer to the Fircrest border or along the Narrows View corridor are generally 20 to 25 minutes out. We answer calls 24 hours a day, and a crew with extraction equipment can be on-site within 60 minutes of your call for emergency water losses. We serve all of University Place including Day Island, Chambers Creek, Beckonridge, and Sunset Terrace.
 
+## Building stock, site conditions, and permits in University Place
+
+Under most of University Place is glacial till — dense hardpan the last ice sheet left behind. Water moves down through the looser soil above it, hits that layer, and spreads sideways, which is why footing drains and crawl-space grade matter more here than the annual rainfall total suggests. Framing from this era is 2x4 with thin or absent insulation, so a wet cavity dries slowly and unevenly.
+
+On homes built before 1980, textured ceilings, sheet vinyl and its adhesive, and joint compound may all contain asbestos, and painted trim may be lead. In this airshed the Puget Sound Clean Air Agency requires an asbestos survey before renovation or demolition work disturbs those materials, so testing comes before demolition, not after.
+
+University Place is its own incorporated city, so structural repair and rebuild permits and inspections run through the city under the Washington State Building Code.
+
 If you're dealing with water, fire, mold, or structural damage at a University Place property right now, call National Restoration Construction at **(206) 883-0333**. We're available around the clock, and we'll tell you honestly what the situation requires within minutes of arriving on-site.

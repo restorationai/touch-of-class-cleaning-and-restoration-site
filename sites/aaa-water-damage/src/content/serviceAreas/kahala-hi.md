@@ -47,4 +47,12 @@ Fine wool rugs, silk area rugs, and custom upholstered furniture are common thro
 
 Our Honolulu headquarters puts Kahala close — typically a straight shot via Kalanianaole Highway or H-1 east to the Waialae Avenue exit, depending on time of day. Kahala Avenue corridor properties, homes in Waialae Iki above the ridge, and estates near the Waialae Country Club are all within our primary service area. Because we operate 24 hours a day, seven days a week, you can call (808) 349-3407 at any hour and reach someone who can dispatch equipment — not an answering service.
 
+## Building stock, site conditions, and permits in Kahala
+
+Kahala's older housing dates largely to the 1950s and 60s — single-wall wood construction and hollow-tile (concrete block) walls, low-slope or hip roofs, and slab-on-grade floors with no crawlspace or basement to work from. In those homes, galvanized steel supply lines and cast-iron drains are still in service in places, and galvanized fails from the inside out, pinholing long before anything shows. Pre-1978 finishes can carry lead paint, and mid-century vinyl floor tile and pipe wrap can contain asbestos, so demolition gets tested rather than guessed at. Many lots have since been rebuilt as large newer estates, which changes the assembly but not the slab.
+
+Near the shoreline, sand and coral fill sit over a high water table, so slab penetrations stay damp. Formosan termites here also follow chronic moisture into framing.
+
+Structural repair and rebuild permits on Oahu come through the City and County of Honolulu's Department of Planning and Permitting, and coastal parcels can fall under flood-zone requirements.
+
 If you're managing a property in Kahala or dealing with damage right now, call (808) 349-3407. We answer around the clock and can have a crew moving toward the 96816 ZIP code the same day you call.

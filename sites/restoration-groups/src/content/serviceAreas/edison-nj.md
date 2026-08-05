@@ -51,4 +51,12 @@ For property managers and business owners along the Route 1 retail corridor or n
 
 The Restoration Group's Kenilworth headquarters sits roughly 15 miles from central Edison via the Garden State Parkway to Route 1 or through Woodbridge on Route 9. Neighborhoods in the 08820 and 08837 ZIP codes — including Menlo Park and the areas near Roosevelt Park — are typically among the first we can reach. Clara Barton, Oak Tree, and Nixon in the 08817 and 08818 corridors add a few minutes depending on traffic on Route 27. Because we operate 24/7, a call at 2 a.m. after a basement flood gets the same dispatch response as a call at noon.
 
+## Building stock, site conditions, and permits in Edison
+
+Homes built before 1978 in Edison generally carry lead paint, and pre-1980 construction often hides asbestos in floor tile, mastic, and the wrap on old heating pipes. That matters before demolition, not after — cutting out wet flooring or a boiler-room ceiling without testing turns a drying job into an abatement job. Older sections near Stelton and Clara Barton can still have plaster and lath, which holds water far longer than drywall and usually needs cavity drying rather than tear-out.
+
+Soils here are Coastal Plain sands and clays with a seasonally high water table close to the Raritan, so foundation drains and sump systems carry real load through spring.
+
+Repairs go through Edison Township's construction office under the New Jersey Uniform Construction Code, with separate building, electrical, plumbing, and fire subcode approvals on most rebuilds.
+
 If you're dealing with a water, fire, mold, or storm loss anywhere in Edison — from the Raritan floodplain to the Route 1 commercial strip — call The Restoration Group at **(855) 650-7422**. We're available around the clock, we work directly with your insurance carrier, and we've been doing this work in Central Jersey since 2021.

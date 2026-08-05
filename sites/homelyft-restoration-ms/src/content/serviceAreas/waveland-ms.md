@@ -49,4 +49,12 @@ Once mitigation is complete, the same team coordinates repairs — replacing dry
 
 HomeLyft Restoration MS is based in Gulfport, roughly 30 miles east of Waveland along U.S. Highway 90. That coastal highway is our primary route in, running through Pass Christian and Bay St. Louis before reaching Waveland. Depending on traffic and time of day, the drive typically falls in the 40-to-55-minute range — call us at (228) 284-5200 to get a realistic arrival estimate for your specific situation. We serve all areas of Waveland accessible from Highway 90 and the surface streets running north toward Interstate 10. For properties closer to the Waveland beachfront or along the lower sections of Coleman Avenue, we account for any post-storm road conditions or access restrictions when scheduling.
 
+## Building stock, site conditions, and permits in Waveland
+
+Most of what stands in Waveland today went up after 2005, and it shows in the assemblies: homes elevated on treated pilings or block piers, breakaway or lattice enclosures below the flood elevation, hurricane strapping tying roof to wall, and PEX or CPVC supply with PVC drains. Surviving older cottages are the opposite problem — wood frame, sawn lumber, and whatever plumbing vintage was left in place through the rebuild.
+
+The ground here is sandy and the water table sits close to the surface, so water under an elevated floor lingers instead of draining away, and insulation and ductwork in that open underfloor space are usually the first things lost.
+
+Structural repair and rebuild permits come through the City of Waveland. In a mapped flood zone, repairs that reach roughly half the structure's value trigger full flood-elevation compliance, and an elevation certificate becomes part of the file. Mississippi's coastal wind provisions also govern reroofing and framing work.
+
 If you're dealing with water, fire, mold, or storm damage anywhere in Waveland, call HomeLyft Restoration MS at **(228) 284-5200**. We'll walk you through what to do right now, what to document for your claim, and when we can have a crew on site.

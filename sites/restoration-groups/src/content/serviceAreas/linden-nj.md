@@ -45,4 +45,10 @@ The Route 1 & 9 industrial corridor and the Wood Avenue business district add a 
 
 The Restoration Group's Kenilworth headquarters sits roughly 3 miles from Linden's northern boundary — a straight shot down North Michigan Avenue or via Route 28 to Edgar Road. Tremley Point, the farthest southeast corner of Linden near the Arthur Kill, adds a few minutes of travel but remains well within our primary service radius. We operate 24 hours a day, seven days a week, so a call at 2 a.m. from a Sunnyside homeowner watching water rise in a finished basement gets the same dispatch priority as a midday call. We don't promise a specific arrival window in minutes — traffic on Route 1 & 9 is what it is — but Linden is one of the closest markets to our shop.
 
+## Building stock, site conditions, and permits in Linden
+
+Behind the plaster and early drywall in Linden's mid-century houses you usually find masonry block foundation walls, often parged rather than membrane-waterproofed, sitting in low coastal sediment with a water table close to the surface. That combination means block cores hold water long after the floor looks dry, so drying has to reach the cavity, not just the surface. Homes built before roughly 1950 can also carry knob-and-tube wiring and an old buried oil tank — both common across this part of Union County and both worth confirming before demolition.
+
+Structural repair and build-back in New Jersey run under the statewide Uniform Construction Code, with permits issued by Linden's construction office and inspections by the municipal subcode officials. In mapped flood areas near the Rahway River and Arthur Kill, the value of the work matters: substantial improvements trigger elevation and floodplain requirements.
+
 If you're dealing with a water, fire, mold, or structural emergency anywhere in Linden — from Tremley Point to the Roselle Park border — call The Restoration Group at **(855) 650-7422**. We're available around the clock and we know this city.

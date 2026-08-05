@@ -49,4 +49,12 @@ Hail and straight-line wind events hit the Park Cities hard several times a deca
 
 Reign Restoration is based in Royse City, TX, roughly 30 miles east of University Park via I-30 West and the Central Expressway (US-75) corridor. We dispatch around the clock, every day of the year. Depending on traffic conditions on 75 through downtown Dallas, our crews typically reach neighborhoods like Snider Plaza, Caruth Hills, and the Preston Road corridor in under an hour — though we won't quote you a specific minute window until we know what's happening on the road that day. When you call (214) 304-0621, the person who answers will give you a realistic arrival estimate based on current conditions.
 
+## Building stock, site conditions, and permits in University Park
+
+Homes from the pre-war build-out were framed in old-growth lumber with plaster and wood lath, not drywall — plaster holds water differently and often has to be dried from the cavity side rather than torn out. Expect cast iron drain lines and galvanized supply piping in anything untouched since the 1950s, plus asbestos-bearing floor tile, mastic, and pipe insulation in pre-1980 work and lead paint in pre-1978 finishes. Those all change how a demolition scope is written.
+
+The ground here is Blackland Prairie clay that swells and shrinks with the seasons. That movement stresses slabs, shifts pier-and-beam supports, and cracks buried drain lines, which is why a plumbing leak and a foundation problem so often show up together.
+
+Permits for structural repair, reroofing, and mechanical or plumbing replacement come from the city itself.
+
 If you're dealing with water, fire, mold, or storm damage at a University Park property, call Reign Restoration at **(214) 304-0621** — we answer every hour of every day and can have a crew moving toward you while you're still on the phone.

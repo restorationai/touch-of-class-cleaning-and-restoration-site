@@ -53,4 +53,10 @@ Once mitigation is complete, the same crew handles structural repairs — drywal
 
 The Restoration Group's Kenilworth headquarters is roughly four miles from central Scotch Plains via Route 28 or North Avenue — a straightforward run under most traffic conditions. Shackamaxon and the neighborhoods near Shackamaxon Country Club are reachable in minutes from that corridor. Willow Grove and the Southside, which sit closer to the Green Brook flood zone, are a short additional distance south. Because we operate 24/7, a call at 2 a.m. after a sump pump failure gets the same response as a midday call — a crew is dispatched, not a voicemail.
 
+## Building stock, site conditions, and permits in Scotch Plains
+
+Foundations here are mostly poured concrete or hollow block, and the mid-century walls above them were built with rock lath and skim-coat plaster before drywall took over. Block walls wick water through the cores, so a wet basement in Scotch Plains usually needs the cavity dried, not just the finished face. Ground at the foot of the Watchungs is silty and slow-draining over shallow rock, which keeps hydrostatic pressure on walls long after rain stops, and footings sit deep because New Jersey frost depth runs to about three feet.
+
+Plan for era hazards: 9x9 floor tile and mastic, pipe wrap, and pre-1978 lead paint all need testing before demolition. Structural, electrical, and plumbing repairs are permitted through the township construction office under the New Jersey Uniform Construction Code.
+
 If you are dealing with a water, fire, mold, or storm loss anywhere in Scotch Plains — ZIP code 07076, Downtown Scotch Plains, Ashbrook, or anywhere along the Fanwood border — call The Restoration Group at **(855) 650-7422**. We answer every hour of every day, and we can walk you through what to do right now while a crew is on the way.

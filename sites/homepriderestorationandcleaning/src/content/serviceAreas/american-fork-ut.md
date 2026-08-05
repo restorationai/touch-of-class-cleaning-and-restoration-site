@@ -49,4 +49,12 @@ Unattended deaths, sewage backups, and hoarding cleanups require both technical 
 
 From our Saratoga Springs facility, we can reach most American Fork addresses in 12 to 20 minutes under normal traffic conditions — typically faster than a crew dispatched from Provo or Salt Lake City. We serve the full 84003 and 84004 ZIP codes. Call (801) 995-2437 any hour; we answer live.
 
+## Building stock, site conditions, and permits in American Fork
+
+Older American Fork homes near the original town grid are brick over wood frame with plaster-and-lath interiors, cast iron drain stacks, and full basements — plaster holds water far longer than drywall, so drying it means opening the assembly rather than trusting a surface reading. Postwar and later homes lean on drywall, copper, then PEX, but the near-universal Utah basement still means gravity sends every leak to the lowest finished room.
+
+Bench and lakebed soils along this stretch of the Wasatch Front run silty to clay-heavy and hold water against foundation walls, which is why below-grade drying here is as much about the exterior as the interior.
+
+Structural repairs, rebuilds, and most plumbing, electrical, and mechanical work are permitted through American Fork City. Utah County sits in a high seismic design category, so removing or rebuilding bearing walls and unreinforced masonry gets scrutiny. On pre-1980 materials, an asbestos survey before demolition is standard.
+
 If you're dealing with water, fire, mold, or a biohazard situation in American Fork right now, call (801) 995-2437. We'll tell you exactly what to do in the next 10 minutes while a crew heads your way.

@@ -45,4 +45,12 @@ Once mitigation is complete, we handle the rebuild — drywall, flooring, cabine
 
 Beresford is approximately 25 miles south of our Sioux Falls headquarters via I-29 South to Exit 47. That's a straightforward drive with no significant routing complications in normal conditions. We dispatch from Sioux Falls and can reach most Beresford addresses — including properties in East Beresford and the streets surrounding Downtown Beresford — with prompt scheduling. Call us at (605) 965-2727 to confirm current availability and get a crew on the schedule.
 
+## Building stock, site conditions, and permits in Beresford
+
+Much of Beresford's older housing predates World War II, with plaster-and-lath walls, wood lap siding, and full basements under nearly everything — footings in this part of southeastern South Dakota have to sit well below frost depth, so a basement comes essentially free with the foundation. That means water almost always ends up in a below-grade assembly, and plaster holds moisture far longer than drywall does.
+
+Supply lines in those homes are often galvanized steel or early copper, and mid-century sewer laterals in small towns like this can still be Orangeburg fiber pipe, which collapses rather than cracks. Pre-1978 paint and asbestos in floor tile, mastic, and pipe wrap change the demolition scope.
+
+South Dakota leaves residential code adoption to municipalities, so structural repair and rebuild permits come from the City of Beresford.
+
 If your Beresford property has taken on water, smoke, or any damage that's getting worse by the hour, the right move is a phone call — not a wait-and-see approach. Reach Crew Restoration & Construction at **(605) 965-2727** and tell us what you're dealing with.

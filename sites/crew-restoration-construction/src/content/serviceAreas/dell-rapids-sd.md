@@ -49,4 +49,10 @@ Because we carry both restoration and general contracting capabilities, we can t
 
 Dell Rapids is roughly 25 miles northeast of our Sioux Falls headquarters — a straightforward run up SD-115 or I-90 east to SD-115 north, depending on conditions. In normal traffic and weather, that's a manageable drive. We serve every part of Dell Rapids, including properties in the Downtown Dell Rapids Historic District, lots along the Big Sioux River area, and addresses in the 57022 ZIP code. Winter road conditions on SD-115 can add time during ice events, and we'll always give you an honest arrival estimate when you call rather than a number we can't stand behind.
 
+## Building stock, site conditions, and permits in Dell Rapids
+
+Not everything in town is a century old. The edges of Dell Rapids filled in with mid-century and later ranch houses on poured or concrete-block basement walls, and those bring their own problems: galvanized supply lines that close up with rust, cast iron drains that scale and crack at the hub, and copper that pinholes. Anything built before the late 1970s should be treated as possibly containing asbestos in pipe wrap, floor tile, or joint compound, and lead paint on trim, so demolition gets tested rather than guessed at.
+
+South Dakota leaves residential code adoption largely to municipalities, so permits for structural repair or rebuild go through the city here, not the county. Work on a lot in the mapped Big Sioux floodplain adds floodplain review, and the value of the repair can trigger elevation requirements.
+
 If you're dealing with water, fire, smoke, or mold damage at a Dell Rapids property, call Crew Restoration & Construction at **(605) 965-2727**. We'll assess the situation, explain what needs to happen, and get to work.

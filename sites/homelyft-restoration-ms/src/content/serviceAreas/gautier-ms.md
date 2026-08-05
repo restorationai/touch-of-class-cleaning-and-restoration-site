@@ -45,4 +45,10 @@ HomeLyft Restoration MS is based in Gulfport. Gautier is a straightforward run e
 
 Because the local context list for specific Gautier neighborhoods was not provided at the time this page was written, we are not naming specific subdivisions here — contact us directly and we can confirm service to your address.
 
+## Building stock, site conditions, and permits in Gautier
+
+Older Gautier houses often sit low on brick piers with vented crawl spaces, and the sandy-to-silty coastal soils under them drain unevenly — water that gets under a skirted crawl space tends to sit rather than percolate away, so the joists and subfloor above it stay wet long after the yard looks dry. Homes built before 1980 can carry asbestos in floor tile, mastic, and textured ceilings, and lead paint in anything pre-1978, both of which change how we cut and contain. Supply lines from the late 70s through early 90s are sometimes polybutylene, which fails at the fittings with little warning.
+
+Structural repair and rebuild permits are pulled through the City of Gautier. Mississippi's coastal wind provisions and, in flood zones, the NFIP substantial-improvement threshold can pull a simple repair into a larger compliance scope.
+
 If you're dealing with water, fire, smoke, or mold damage at a Gautier property, call HomeLyft Restoration MS at **(228) 284-5200**. We'll walk through what you're seeing, help you understand the next steps, and get a crew scheduled to your address.

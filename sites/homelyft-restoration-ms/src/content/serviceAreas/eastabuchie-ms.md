@@ -49,4 +49,12 @@ Once mitigation is complete, the same team that dried or cleaned the structure c
 
 HomeLyft Restoration MS operates out of Gulfport on the Gulf Coast. Eastabuchie is roughly 80 miles north via US-49, a route our crews travel regularly for Jones County calls. Depending on traffic and time of day, that's a meaningful drive — we won't pretend otherwise. What we can tell you is that we dispatch promptly when a call comes in, and we arrive with a fully loaded service vehicle rather than sending someone ahead to assess before equipment follows. For scheduling and availability, call us directly at (228) 284-5200 so we can give you an honest arrival window based on current crew location.
 
+## Building stock, site conditions, and permits in Eastabuchie
+
+Eastabuchie is unincorporated, so building permits and inspections for structural repair or rebuild come through Jones County rather than a city hall — worth knowing before anyone opens a wall. In practice, replacing framing, roof structure, or electrical after a loss triggers permitting, while like-for-like drywall and flooring generally does not.
+
+Mid-century homes here often pair galvanized supply lines with cast iron drains; both fail from the inside out, so the first sign is usually a stain, not a spray. Houses built before 1980 can hold asbestos in vinyl floor tile and joint compound, and pre-1978 paint gets treated as lead-bearing until testing says otherwise.
+
+Across the Pine Belt, sandy surface soils sit over denser clay, which lets rainwater perch under a house instead of draining. Hard freezes are brief but do split exposed pipes in vented crawl spaces.
+
 If you're dealing with water, fire, mold, or storm damage at a property in Eastabuchie, call HomeLyft Restoration MS at **(228) 284-5200**. We'll tell you exactly what we can do, what the timeline looks like, and what your insurance options are — before any work begins.

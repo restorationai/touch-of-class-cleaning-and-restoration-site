@@ -49,4 +49,12 @@ Once mitigation is complete, many property owners don't want to manage a separat
 
 Petal is roughly 75 miles northeast of our Gulfport headquarters via US-49 North — a route our crews travel regularly for Forrest County calls. Depending on traffic through Hattiesburg, drive time typically runs between 75 and 90 minutes. We schedule Petal jobs with that travel window in mind and communicate arrival estimates clearly when you call. For property managers overseeing multiple units across Petal, we can coordinate multi-stop assessments on the same dispatch to reduce scheduling friction.
 
+## Building stock, site conditions, and permits in Petal
+
+Homes from Petal's 1960s–70s wave typically ran copper supply with cast iron drain lines, and a fair number of the 1980s–90s builds around here used polybutylene. Cast iron under a slab rusts from the inside and lets water into the fill long before a floor feels wet; polybutylene tends to fail at the fittings, all at once. Anything built before 1978 gets treated as lead-paint work until testing says otherwise.
+
+Sandy Pine Belt soils drain fast, which is good for a slab and bad for a pier-and-beam crawlspace — running water can scour around footings and pier pads instead of pooling where you'd see it.
+
+Permits inside the city limits come from the City of Petal; outside them, Forrest County. Framing, roof decking, and electrical or plumbing rework generally trigger one. If the address sits in a mapped FEMA floodplain, substantial-improvement rules can change the whole scope.
+
 If you're dealing with water, fire, smoke, or mold damage at a Petal property, call HomeLyft Restoration MS at (228) 284-5200. We'll walk through what you're seeing, give you an honest scope of what's involved, and get a crew scheduled.

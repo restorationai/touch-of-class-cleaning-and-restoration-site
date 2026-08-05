@@ -47,4 +47,10 @@ Once drying or remediation is complete, many Wasco homeowners need framing, dryw
 
 ProRestoration Services is headquartered in Bakersfield. The most direct route to Wasco runs north on Highway 99 to Highway 46 West — roughly 25 miles from our dispatch point to central Wasco. Downtown Wasco, Barker Park, and the neighborhoods near Wasco High School are all reachable by that corridor. Westside Wasco and addresses along the Palm Avenue corridor add only a few minutes to that drive. Because we operate 24/7, we can take your call at 2 a.m. and have a crew rolling before most homeowners have finished mopping up standing water. We do not quote arrival windows in minutes without knowing real-time conditions, but Wasco is a priority coverage area and we staff accordingly.
 
+## Building stock, site conditions, and permits in Wasco
+
+Most of Wasco's housing went up between the 1940s and the 1970s, and that era in the valley means slab-on-grade foundations with stucco over wood framing and low-slope or shallow-pitch composition roofs. Water that gets under a slab has nowhere to drain; it wicks up into bottom plates, baseboard and cabinet toe-kicks, so drying usually means pulling base and treating the slab edge rather than just running fans. Older homes near downtown are more likely to sit on a raised floor with a crawlspace, where a supply leak soaks insulation and subfloor before anyone sees a stain.
+
+Anything built before the late 1970s should be assumed to hold asbestos in floor tile, mastic, popcorn ceilings or duct wrap, and lead paint on trim, until testing says otherwise. Structural repairs and rebuild work inside city limits are permitted through the City of Wasco; addresses outside the line go to Kern County. California's statewide building and energy code applies either way.
+
 If you are dealing with water, mold, fire, or smoke damage anywhere in Wasco — whether it is a single-family home off the Palm Avenue corridor or a rental near Barker Park — call ProRestoration Services at **(661) 393-9306**. We answer every hour of every day, and we will tell you honestly what you are dealing with before any work begins.

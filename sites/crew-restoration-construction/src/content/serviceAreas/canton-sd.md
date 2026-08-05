@@ -47,4 +47,12 @@ Once mitigation is complete, many Canton homeowners need more than cleanup — t
 
 Canton is approximately 25 miles south of our Sioux Falls headquarters — a straightforward run down I-29 South to Exit 62, then a short drive into town. We can reach Downtown Canton, the Big Sioux River area, and neighborhoods near Augustana Lutheran Church and the Lincoln County Courthouse without navigating rural detours. Call us at (605) 965-2727 to confirm scheduling and availability; we will give you an honest arrival estimate based on current crew location and job load rather than a number we cannot stand behind.
 
+## Building stock, site conditions, and permits in Canton
+
+Much of Canton's housing predates the 1960s: balloon or dimensional-lumber framing, lath-and-plaster over board sheathing, and full basements dug below the deep frost line eastern South Dakota requires. Those basements are usually poured concrete or, on the oldest blocks, stone and brick, and they wick water through the wall rather than leaking at one obvious spot. Drying means getting behind plaster and into rim joists, not just running fans on the floor.
+
+Soils in the Big Sioux valley run from silty loess and glacial till on the uplands to sand and gravel closer to the river, so groundwater behavior changes street to street. Homes of this vintage also carry asbestos risk in pipe wrap and floor tile, and lead paint in anything pre-1978, both of which change a demolition scope.
+
+Structural repair and rebuild work is permitted through the City of Canton; properties in the mapped floodplain add a floodplain review on top of the building permit.
+
 If you are dealing with water intrusion, smoke damage, mold, or storm damage anywhere in the Canton area — ZIP code 57013 and surrounding Lincoln County — call Crew Restoration & Construction at **(605) 965-2727**. We will walk you through what to expect, answer your insurance questions, and get a crew scheduled.

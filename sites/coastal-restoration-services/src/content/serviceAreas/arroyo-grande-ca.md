@@ -53,4 +53,10 @@ Once mitigation is complete, the same contractor handles structural repairs — 
 
 Coastal Restoration Services Inc is based in Vandenberg Village, roughly 20 miles northwest of Arroyo Grande via Highway 1 south to Highway 101. The drive runs through Pismo Beach and into the city from the north, typically 25 to 35 minutes depending on traffic on the 101 corridor near the Five Cities area. For property managers or homeowners in the eastern parts of the city — closer to the Corbett Canyon Road corridor — routing through Los Berros Road can shave time during peak hours. Call (805) 345-7440 to confirm scheduling and get an accurate arrival estimate for your specific address.
 
+## Building stock, site conditions, and permits in Arroyo Grande
+
+Older homes in the Village and the surrounding blocks tend to be redwood-framed with lath-and-plaster interiors over raised perimeter foundations. Plaster holds water far longer than drywall and can look dry at the surface while the lath and studs behind it stay wet, so drying those walls means metering into the cavity rather than trusting a surface reading. Anything built before 1980 also has to be screened for asbestos in joint compound, textured ceilings, and sheet flooring, and for lead paint in pre-1978 finishes, before demolition starts. Cast iron drain lines under postwar houses fail from the inside out and often show up as slow subfloor saturation.
+
+Structural repairs are permitted through the City of Arroyo Grande's building division. Framing replacement, re-roofing, and electrical or plumbing alterations generally trigger a permit; California's seismic requirements for this coastal zone shape how foundation and cripple-wall work gets detailed.
+
 If you are dealing with water, fire, mold, or structural damage at a property in Arroyo Grande, call Coastal Restoration Services Inc at **(805) 345-7440**. The sooner the assessment begins, the more of the structure — and the claim — can be preserved.

@@ -53,4 +53,12 @@ For situations involving sewage backup, which is not uncommon in older Downtown 
 
 Our team is based in Honolulu, so we're not driving in from the other side of the island. Waikiki, Ala Moana, Kakaako, and Downtown Honolulu are minutes from our dispatch point under normal H-1 traffic conditions. Manoa, Moiliili, and Makiki are similarly close via surface streets. Salt Lake (ZIP 96818) and Nuuanu are straightforward runs from central Honolulu. Because we operate 24 hours a day, 7 days a week, we can dispatch at 2 a.m. when a pipe lets go in a Kakaako tower just as readily as on a Tuesday afternoon. Call us at (808) 349-3407 and we'll confirm an arrival window based on current conditions.
 
+## Building stock, site conditions, and permits in Honolulu
+
+Away from the towers, much of Honolulu's older single-family stock sits on post-and-pier framing rather than slab, so water that runs under a floor stays in a shaded, humid crawl space and feeds Formosan termites as well as mold. Mid-century houses in Salt Lake and Kapahulu-style neighborhoods often use hollow tile block walls, which hold moisture behind furring and paint long after the surface feels dry. Pre-1978 homes can carry lead paint, and pre-1980 vinyl tile and sheet flooring may contain asbestos, so demolition scope matters.
+
+Waikiki and parts of Kakaako sit on filled former wetland with a water table close to sea level, which limits how much water gravity will take away for you.
+
+Structural repairs are permitted through the City and County of Honolulu's Department of Planning and Permitting, and coastal parcels add flood-zone requirements.
+
 If you're dealing with water, mold, fire, or smoke damage anywhere in Honolulu, call (808) 349-3407. We answer day and night, and we can walk you through what to do right now while we're on the way.

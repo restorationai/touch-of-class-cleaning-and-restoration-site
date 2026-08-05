@@ -49,4 +49,10 @@ We also handle situations that fall outside standard restoration — sewage back
 
 Our team dispatches from East Las Vegas and reaches North Las Vegas via I-15 North or US-95 North depending on traffic and the specific destination. The Aliante and Sky Canyon neighborhoods near the 215 Beltway are roughly 25 to 30 miles from our base. Cheyenne Ranch, Valley View, and the neighborhoods around ZIP codes 89030 and 89031 are closer — typically 15 to 20 miles via I-15. We schedule promptly and communicate an estimated arrival window when you call. Reach us at (702) 551-3040 to get a technician moving toward your property.
 
+## Building stock, site conditions, and permits in North Las Vegas
+
+Almost everything in North Las Vegas sits on slab-on-grade — basements and crawlspaces are rare here, so a supply leak travels sideways under flooring and wicks up drywall and baseboard instead of draining away. Homes are wood-frame with stucco outside and trussed attics above, and in valley construction the water lines often run through that attic. A hard winter cold snap can split an attic line or hose bib, and that water comes down through ceiling drywall and insulation. Pre-1980 stock in the older north-of-Cheyenne neighborhoods may hold asbestos in popcorn ceilings, sheet vinyl, or joint compound, so any demolition there needs testing first.
+
+Structural repair, reroofing, and mechanical or plumbing replacement are permitted through the City of North Las Vegas building department; like-for-like drywall and flooring generally are not. In Aliante and the newer master-planned tracts, HOA approval is a separate step from the permit.
+
 If you're dealing with water, fire, mold, or a biohazard situation anywhere in North Las Vegas — from 89081 near Nellis Air Force Base to 89084 in the Aliante corridor — call PuroClean of East Las Vegas at **(702) 551-3040**. We'll assess the damage, explain the process clearly, and work directly with your insurance company so the paperwork doesn't fall on you.

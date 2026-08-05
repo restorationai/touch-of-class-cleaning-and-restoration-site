@@ -51,4 +51,12 @@ For situations that require more than standard cleaning — sewage backups, trau
 
 Crew Restoration & Construction operates out of Sioux Falls, SD. Remsen is roughly 90 miles southeast via I-90 East and US-75 South — a straightforward drive through Sioux Falls' southern suburbs and into northwest Iowa. We can reach Downtown Remsen and the St. Mary's district directly from that corridor. Because our hours aren't listed as around-the-clock, we encourage Remsen property owners to call (605) 965-2727 to schedule promptly — the sooner drying equipment is running, the less secondary damage accumulates. For active water intrusion, every hour before extraction begins matters.
 
+## Building stock, site conditions, and permits in Remsen
+
+Most of Remsen's houses sit over full basements, which is the norm across northwest Iowa because footings have to go below a deep frost line anyway. That helps in a fire but hurts in a water loss: the lowest level holds mechanicals, and older basement walls of fieldstone or unreinforced block weep at the joints once the surrounding ground is saturated. In this part of the state the ground is loess over glacial till, so it drains slowly and stays wet against the wall.
+
+Age shows up in the systems. Pre-1960 homes commonly still have galvanized steel supply lines and cast-iron drains, which fail from the inside out. Anything built before the late 1970s gets treated as possible asbestos in floor tile or pipe wrap and lead paint until tested.
+
+Structural repair or rebuild inside town is permitted through the City of Remsen; properties outside city limits go through Plymouth County.
+
 If you're dealing with water, fire, mold, or storm damage at a Remsen property, call Crew Restoration & Construction at **(605) 965-2727**. We'll assess what you're facing, walk you through the process, and get the work scheduled before the damage has more time to spread.

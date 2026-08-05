@@ -53,4 +53,12 @@ Once the damaged material is out and the structure is dry, we can carry the proj
 
 Mold Solutionz 24/7 is headquartered in Cerritos, roughly 12 miles southwest of Fullerton via the 91 Freeway or Artesia Boulevard. The drive to central Fullerton typically runs through Buena Park and into the city along Harbor Boulevard or Commonwealth Avenue. We reach properties across Fullerton — from the older bungalows near downtown and the Wilshire Square area to newer construction near the Fullerton Hills — day or night, because our dispatch runs 24/7. When you call (714) 409-4758, you reach a live person who can get a crew moving, not an answering service.
 
+## Building stock, site conditions, and permits in Fullerton
+
+Fullerton's oldest houses, the pre-war bungalows and Spanish-style cottages, generally sit on raised perimeter foundations with shallow crawlspaces, and their walls are lath and plaster under stucco. Wet plaster holds water far longer than drywall, and a crawlspace under a leaking bath traps humidity with almost no airflow. Basements are rare here, so damage tends to travel sideways through framing and floor systems instead of down.
+
+Anything built before the late 1970s can carry asbestos in popcorn ceilings, joint compound, and sheet flooring, plus lead paint. Before demolition, a survey is the norm under South Coast AQMD rules, and that changes how material gets removed.
+
+Structural repair and rebuild permits come from the City of Fullerton's Building Division, under the California Building Code with its seismic requirements.
+
 If you're dealing with water, mold, fire, or a biohazard situation anywhere in Fullerton, call Mold Solutionz 24/7 at **(714) 409-4758**. We've been responding to Orange County property emergencies since 2017, and someone is available to take your call right now.

@@ -53,4 +53,12 @@ Coastal Restoration Services Inc is headquartered in Vandenberg Village, on the 
 
 We schedule service calls for Los Olivos during our regular business hours. When you call (805) 345-7440, our team will confirm availability and give you a realistic arrival window based on current crew location and workload — we won't quote a time we can't keep.
 
+## Building stock, site conditions, and permits in Los Olivos
+
+Los Olivos is unincorporated, so building permits for structural repair or rebuild come from Santa Barbara County — not a city hall. Anything past cosmetic patching usually triggers one: replacing framing or subfloor, re-roofing, moving supply or drain lines, rewiring. Work is under the California Building and Residential Codes, with seismic bracing expectations that matter when a saturated cripple wall or post-and-pier crawlspace has to be opened up.
+
+Much of the older housing sits on a raised perimeter foundation over a crawlspace, with later additions on slab. That split changes drying entirely: crawlspace losses need the ground plane and joists addressed, slab losses wick upward into base plates. Valley soils here hold clay, so poor drainage against a foundation keeps a crawlspace damp long after the leak is fixed.
+
+On pre-1978 homes, assume lead paint and possible asbestos in joint compound, flooring, or duct wrap until testing says otherwise.
+
 If you're dealing with water, fire, smoke, or mold damage at a Los Olivos property, call Coastal Restoration Services Inc at **(805) 345-7440**. We'll walk you through what to expect, answer your insurance questions, and schedule an on-site assessment.

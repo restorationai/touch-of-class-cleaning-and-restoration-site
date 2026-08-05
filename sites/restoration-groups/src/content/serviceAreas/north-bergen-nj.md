@@ -49,4 +49,12 @@ Once mitigation is complete, we can carry the project through full reconstructio
 
 From our Kenilworth headquarters, North Bergen is roughly 18 to 20 miles northeast via the New Jersey Turnpike to Route 3 East or via Route 1/9 North through Secaucus — a drive that typically runs under 40 minutes outside peak traffic windows. Because we operate 24/7, late-night and early-morning dispatches avoid the congestion that makes Hudson County daytime travel unpredictable. We serve all of North Bergen's neighborhoods — Woodcliff, the Bergenline corridor, the Transfer Station area, the Guttenberg border, and the Fairview border — as well as commercial properties along Tonnelle Avenue and the Hudson River waterfront edge.
 
+## Building stock, site conditions, and permits in North Bergen
+
+Most of North Bergen's residential stock went up before World War II, which means wood frame with plaster and wood lath, brick party walls between attached two- and three-families, and low-slope or flat roofs carrying built-up or modified bitumen. Plaster holds water far longer than drywall, so drying a saturated wall here often means controlled removal rather than fans alone. On the ridge, basements were cut into Palisades rock and fill, so foundation seepage tends to enter at the wall-to-slab joint.
+
+Era-linked hazards shape the scope: galvanized steel supply lines that rust closed and pinhole, asbestos-containing pipe wrap and floor tile, lead paint in anything pre-1978, and surviving knob-and-tube in untouched walls.
+
+Structural repair, roof replacement, and plumbing or electrical rework are permitted through North Bergen's construction office under the New Jersey Uniform Construction Code.
+
 If you're dealing with water, fire, mold, or storm damage in North Bergen, call The Restoration Group at **(855) 650-7422** — we answer 24 hours a day and can begin the assessment and mitigation process as soon as we're on site.

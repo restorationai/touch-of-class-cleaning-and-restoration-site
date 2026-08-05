@@ -49,4 +49,10 @@ Because most Wexford losses involve finished living space, mitigation alone rare
 
 FireDEX Butler is headquartered in Cranberry Township, roughly eight miles north of Wexford via I-79 South to the Route 910 interchange. That corridor is a straight shot — no surface-road detours — and our crews are dispatched around the clock. Pine Township neighborhoods including the Village of Pine and English Farms are typically among the first North Hills communities we can reach. The Treesdale fringe and properties near the Franklin Park borders add a few minutes of local road travel from the interchange but remain well within our primary service area.
 
+## Building stock, site conditions, and permits in Wexford
+
+Most of the housing here sits on poured concrete foundation walls with walk-out lower levels cut into sloping lots, and the framing reflects its era: OSB sheathing under brick veneer or vinyl, and engineered I-joists or open-web floor trusses. That matters after a leak, because a wet I-joist loses strength through its OSB web far faster than old sawn lumber, and the joist bays have to be dried, not just the drywall below them. Supply piping runs copper in the older 1990s homes and PEX in the newer ones, with PVC drains throughout.
+
+Western Pennsylvania's clay-heavy hillside soils hold water against foundation walls and shift on graded lots, so lateral seepage is common. Structural repairs are permitted by the township — Pine or Franklin Park, depending on the address — under Pennsylvania's Uniform Construction Code.
+
 If you are dealing with a water, fire, smoke, or mold emergency in Wexford or anywhere in the 15090 ZIP code, call FireDEX Butler at **(724) 452-7400**. We answer every hour of every day, and we can have a crew moving toward your property while you are still on the phone with your insurance company.

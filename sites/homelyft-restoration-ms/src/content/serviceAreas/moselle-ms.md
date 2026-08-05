@@ -49,4 +49,12 @@ When a severe storm damages roofing, siding, or windows, water intrusion typical
 
 HomeLyft Restoration MS is headquartered in Gulfport, and Moselle sits roughly 85 miles to the north via US-49. That route runs through Hattiesburg and into Jones County, giving us a direct corridor to Moselle and the surrounding communities without navigating around major urban congestion. When you call, we'll confirm scheduling and give you a realistic arrival window based on current crew availability and job load — we'd rather give you an honest time than a number we can't keep. Property managers overseeing multiple units in the area are welcome to set up a direct contact arrangement so response coordination is faster when something comes up.
 
+## Building stock, site conditions, and permits in Moselle
+
+Almost nothing here has a basement. Homes are slab-on-grade or sit on pier-and-beam over a vented crawl space, so when water gets in it moves sideways into subfloor, sill plates, and the bottom of wall cavities rather than draining to a low point. That is where drying has to be aimed.
+
+Drain lines in older houses are often cast iron nearing the end of their life, and homes from the late 1970s through the mid-1990s can still have polybutylene supply. Anything pre-1978 gets treated as lead paint until proven otherwise, and pre-1980s vinyl floor tile and mastic are handled as possible asbestos. Frost depth is shallow, so crawl space and exterior-wall piping is lightly insulated and vulnerable in a hard freeze.
+
+Moselle is unincorporated, so structural repair and rebuild permitting runs through Jones County rather than a city hall, and septic work falls to the state health department.
+
 If you're dealing with water, fire, mold, or storm damage in Moselle, call HomeLyft Restoration MS at (228) 284-5200. We'll walk you through what we're seeing, what needs to happen next, and what it will cost — before any work begins.

@@ -47,4 +47,12 @@ Once mitigation is complete, many Leakesville properties need more than drywall 
 
 Leakesville is roughly 90 miles northeast of HomeLyft's Gulfport headquarters, accessible primarily via US-98 east through Hattiesburg and then north on MS-57 and connecting county roads into Greene County. The drive is straightforward under normal conditions. Because Leakesville is a scheduled service area rather than an immediate metro zone, we encourage property owners to call as soon as damage is discovered so we can dispatch a crew and give you an accurate arrival window based on current conditions and crew availability. We do not publish a minute-based response guarantee for Leakesville, but prompt scheduling is a priority — water damage that sits unaddressed compounds quickly in Greene County's climate.
 
+## Building stock, site conditions, and permits in Leakesville
+
+Much of Leakesville's housing is mid-century and older wood frame, often on brick or block piers over a vented crawlspace, with slab-on-grade showing up mainly in later builds. Manufactured homes are common on rural parcels around town. In a pier-and-beam house, water rarely stays where it started — it soaks the subfloor and batt insulation and stalls there, so drying means opening the crawlspace, not just the room above.
+
+Plumbing vintage matters as much as framing. Expect galvanized supply and cast iron drains in the oldest homes, copper and polybutylene in 1970s–90s work, PEX in newer repairs. Pre-1978 paint and pre-1980s floor tile and joint compound get treated as suspect before demolition.
+
+For structural repair or rebuild, confirm whether your address falls inside the town limits or under Greene County before scoping. Federal flood rules on substantial improvement can also apply near the river.
+
 If you're dealing with water, fire, or mold damage at a Leakesville property, call HomeLyft Restoration MS at (228) 284-5200. The sooner we can assess the damage, the more material and cost we can typically save — and we handle the insurance paperwork so you're not navigating that process alone.

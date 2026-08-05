@@ -41,4 +41,12 @@ South Dakota's freeze-thaw cycle hits Harrisburg hard every spring. Frost depths
 
 Crew Restoration & Construction is headquartered in Sioux Falls, roughly 15 miles north of Harrisburg via I-29 South or SD-11. Downtown Harrisburg, Freedom Elementary, and Harrisburg High School are all within a straightforward drive from our dispatch location. Willow Run and the Journey subdivision, on the southern and eastern edges of town, add only a few minutes to that route. Call us at **(605) 965-2727** during business hours and we'll confirm scheduling and an estimated arrival window for your specific address in the 57032 area.
 
+## Building stock, site conditions, and permits in Harrisburg
+
+Most of Harrisburg's housing is newer, and full basements are the norm here rather than slab or crawlspace. That means water almost always ends up at the lowest level, in finished basement drywall, carpet pad, and bottom plates, with a sump pit and perimeter drain tile as the only defense. The ground around town is glacial till with a lot of clay, which drains slowly and holds water against foundation walls after a wet stretch.
+
+Newer builds run PEX supply and PVC drains, so failures usually show up at fittings, water heaters, and appliance connections. The older houses near the original downtown core are a different scope entirely: plaster, cast iron drains, and the lead-paint and asbestos questions that come with pre-war material.
+
+Structural repair and rebuild permits come from the City of Harrisburg inside the limits, and Lincoln County outside them. Newer subdivisions often carry covenants that dictate siding and shingle match on exterior repairs.
+
 If you're dealing with water, fire, mold, or storm damage at a Harrisburg property, the sooner mitigation starts, the less material typically needs to be replaced. Call Crew Restoration & Construction at **(605) 965-2727** to speak with someone who knows the area and can walk you through next steps.

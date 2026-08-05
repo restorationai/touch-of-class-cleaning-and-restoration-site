@@ -49,4 +49,12 @@ Once mitigation is complete, many Sioux Center property owners need more than dr
 
 Crew Restoration & Construction is headquartered in Sioux Falls, SD, roughly 90 miles northeast of Sioux Center via I-90 West and US-75 South — a drive that typically runs just under two hours depending on conditions. We schedule Sioux Center calls with that travel time in mind and will give you a realistic arrival window when you call. For properties in Downtown Sioux Center, the Children's Park area, or anywhere in the 51250 ZIP code, call **(605) 965-2727** and our team will confirm scheduling and get a crew dispatched.
 
+## Building stock, site conditions, and permits in Sioux Center
+
+Most homes in and around Sioux Center sit on full basements, which is the norm across northwest Iowa because footings have to reach below a deep frost line anyway. That means water almost always ends up in a finished or partly finished lower level, soaking bottom plates, batt insulation, and framing that dries slowly. Older houses closer to downtown can still have plaster over lath, galvanized supply lines that rust closed from the inside, and cast iron drains — and anything built before the late 1970s should be treated as possible lead paint, with asbestos a real question in old floor tile and pipe wrap.
+
+The ground here is glacial till with a lot of clay, so meltwater tends to sit against foundation walls instead of draining away.
+
+Drying and cleanup generally don't need a permit. Once repairs move into framing, electrical, or mechanical work, the City of Sioux Center issues the building permit, and we pull it before reconstruction starts.
+
 If you're dealing with water, fire, mold, or storm damage anywhere in Sioux Center, call Crew Restoration & Construction at **(605) 965-2727**. We'll talk through what you're seeing, give you an honest assessment of next steps, and get a crew scheduled.

@@ -51,4 +51,12 @@ Because we carry our own construction capabilities, we don't hand off the rebuil
 
 Crew Restoration & Construction operates out of Sioux Falls, roughly 12 to 15 miles northeast of Tea via I-29 South to Exit 73 or Tea-Ellis Road. That's a straightforward drive with no significant traffic bottlenecks outside of peak commute hours. Neighborhoods like Downtown Tea and Prairie Meadows are accessible within minutes of the interchange, while Sunrise Ridge and other western subdivisions add only a short distance. Call us at (605) 965-2727 and we'll give you an honest arrival estimate based on current conditions and crew availability — we don't quote times we can't keep.
 
+## Building stock, site conditions, and permits in Tea
+
+Not all of Tea is new. The older blocks near the original town core include mid-century and earlier houses on full basements, often with cast-iron drain stacks and galvanized or early copper supply lines. Cast iron rusts from the inside out and fails at the hub; galvanized closes up and weeps at threaded joints. Homes from before the late 1970s can also carry asbestos in floor tile, mastic, or pipe wrap, which changes how a wet floor assembly comes out.
+
+Finished basements are the norm on both ends of that age range, and drywall, carpet pad, and bottom plates sitting on a concrete floor are the slowest part of any drying job here.
+
+Structural repair and rebuild work is permitted through the City of Tea; properties outside city limits fall to Lincoln County.
+
 If you're dealing with water, fire, mold, or storm damage anywhere in the 57064 area, call Crew Restoration & Construction at **(605) 965-2727**. We'll walk you through what to expect, what your insurance likely covers, and what the next steps look like — before any work begins.

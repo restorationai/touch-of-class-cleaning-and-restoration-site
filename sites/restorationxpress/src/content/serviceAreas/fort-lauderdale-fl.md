@@ -55,4 +55,12 @@ Once mitigation is complete, we can carry the project through to finished repair
 
 RestorationXpress is based in Davie, FL, which puts us roughly 8 to 12 miles from most Fort Lauderdale neighborhoods depending on traffic. From our Davie location, I-595 East connects directly to the city's core, and US-1 gives us a surface route into the eastern neighborhoods near Fort Lauderdale Beach and the 33304 and 33305 ZIP codes. Rio Vista and the Port Everglades area are accessible via I-595 to US-1 South without navigating downtown congestion. Call us at (954) 964-6471 to confirm scheduling for your specific address.
 
+## Building stock, site conditions, and permits in Fort Lauderdale
+
+Almost nothing here has a basement. Homes sit on slab-on-grade, often with terrazzo or tile bonded directly to the slab and plaster applied over block, so water that gets under a floor covering has nowhere to evaporate to and has to be drawn out through the assembly rather than off the surface.
+
+Plumbing vintage drives a lot of the calls. Pre-1975 houses commonly have cast iron drain lines that scale and channel until they leak below the slab, and 1980s condos and additions sometimes still have polybutylene supply. Older flooring mastic and textured ceilings can contain asbestos, which changes demolition sequencing.
+
+Permits for structural repair come from the City of Fort Lauderdale's building department under the Florida Building Code. Broward sits in the High-Velocity Hurricane Zone, so window, roof, and attachment work faces stricter requirements, and flood-zone rules and condo board approval often apply too.
+
 If you're dealing with water, fire, mold, or storm damage anywhere in Fort Lauderdale, call RestorationXpress at **(954) 964-6471**. We'll assess the situation, walk you through the process, and coordinate directly with your insurance carrier so you can focus on getting back to normal.

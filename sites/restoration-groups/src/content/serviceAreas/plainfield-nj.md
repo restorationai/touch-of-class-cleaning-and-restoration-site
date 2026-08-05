@@ -53,4 +53,12 @@ Once drying and remediation are complete, we rebuild — framing, drywall, floor
 
 Kenilworth sits roughly four miles from central Plainfield via Route 28 or North Avenue — a direct run with no highway interchange delays in most conditions. The Netherwood neighborhood and the streets around the Plainfield Train Station are among the closest points to our HQ; the West End and Sleepy Hollow add only a few minutes of travel. Because we operate 24/7, a call at 2 a.m. after a pipe failure gets the same dispatch response as a call at noon. We'll confirm an estimated arrival window when you call.
 
+## Building stock, site conditions, and permits in Plainfield
+
+Behind Plainfield's plaster and lath you tend to find the rest of the era's kit: galvanized supply lines that scale shut and weep at the threads, mid-century copper, asbestos-bearing pipe wrap and resilient floor tile, and lead paint in anything finished before 1978. That changes demolition sequencing on a water loss — testing and controlled removal come before aggressive tear-out.
+
+The ground here is Piedmont, with silty alluvium along the brook corridors and firmer clay-rich soil on the higher ground. Footings in this part of New Jersey are set below a roughly three-foot frost line, so deep basements are the norm and hydrostatic pressure is a year-round factor.
+
+Structural repair and rebuild permits come from Plainfield's construction office under the New Jersey Uniform Construction Code. Exterior work in the locally designated historic district can also draw preservation review, and FEMA-mapped properties near the brooks face substantial-improvement limits.
+
 If you're dealing with water, fire, mold, or any structural damage at a Plainfield property, call The Restoration Group at **(855) 650-7422**. We're available around the clock, we work directly with insurance carriers, and we know what Plainfield's housing stock demands from a restoration crew.

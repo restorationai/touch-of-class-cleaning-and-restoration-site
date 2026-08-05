@@ -51,4 +51,12 @@ After the drying or remediation scope is complete, many Irvington properties —
 
 The Restoration Group operates out of Kenilworth, roughly 6 to 8 miles from Irvington Center depending on the route. The most direct path runs via Route 22 East to the Garden State Parkway South, exiting near Union Avenue — a drive that typically takes under 20 minutes outside of peak traffic hours. Irvington Park, Civic Square, and the Springfield Avenue corridor are all well within our standard service radius, and because we operate 24/7, a call at 2 a.m. during a nor'easter gets the same crew dispatch as a weekday afternoon job.
 
+## Building stock, site conditions, and permits in Irvington
+
+Most of the housing here predates World War II: balloon- or platform-framed walls with plaster over wood lath, wood plank sheathing, and full basements under stone, brick, or early poured-concrete foundations. Plaster and lath holds water differently than drywall — it wicks upward and hides moisture in the cavity — so drying a prewar wall usually means controlled cavity access rather than gutting. Anything from that era can also carry knob-and-tube wiring, lead paint, and asbestos in pipe wrap or basement floor tile, all of which shape the demolition scope before drying starts.
+
+Footings in this part of North Jersey are set below a roughly three-foot frost line, and the underlying Piedmont shale and till drains slowly, so groundwater sits against basement walls after long rain.
+
+Structural repair and rebuild permits come from Irvington Township's construction office under the New Jersey Uniform Construction Code, with separate subcode permits for plumbing, electrical, and fire.
+
 If you're dealing with an active loss or need an assessment on damage you've already found, call The Restoration Group at (855) 650-7422. We're available around the clock and can dispatch to any Irvington neighborhood.

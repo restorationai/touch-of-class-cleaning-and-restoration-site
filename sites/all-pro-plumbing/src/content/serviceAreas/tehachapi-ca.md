@@ -51,4 +51,10 @@ If you smell gas, leave the building immediately, don't operate any switches or 
 
 All Pro Plumbing Heating and Air operates 24/7 out of Bakersfield. Tehachapi is roughly 40 miles southeast via Highway 58 — a straightforward mountain highway run that our technicians make regularly. Downtown Tehachapi and Golden Hills are the closest points; Bear Valley Springs and Stallion Springs add road time on the community's interior roads, but we make those drives. Dispatch is available around the clock, so whether it's a Saturday-morning pipe burst or a weeknight heating failure, you're calling a live line, not leaving a message.
 
+## Building stock, site conditions, and permits in Tehachapi
+
+Downtown Tehachapi holds the oldest housing — raised-perimeter foundations over vented crawl spaces, wood siding, and plaster interiors, with cast-iron drains and clay laterals under many of them. Most of what surrounds it is newer: 1970s-onward ranch homes and later custom builds on slab-on-grade or stem-wall foundations, with copper or PEX supply. In the higher tracts the ground turns rocky and granitic, which makes trenching a repair line slow work.
+
+Jurisdiction splits at the city line. Work inside Tehachapi city limits is permitted by the city; Golden Hills, Bear Valley Springs, and Stallion Springs are unincorporated and go through Kern County. Either way it's the California Building and Plumbing Code, plus Title 24. Much of the mountain acreage sits in high fire hazard territory, so rebuilds can pull in wildfire-resistant construction requirements, and seismic detailing matters here too.
+
 If you're dealing with a plumbing, heating, or cooling problem in Tehachapi — whether you're in a gated community off Highline Road or a 1970s ranch home near the Tehachapi Depot Railroad Museum — call All Pro Plumbing Heating and Air at **(661) 863-9242**. We're available around the clock and we know the drive.

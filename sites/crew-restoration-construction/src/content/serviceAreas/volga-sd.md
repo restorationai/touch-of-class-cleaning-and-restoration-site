@@ -43,4 +43,12 @@ Once mitigation is complete, Crew Restoration & Construction can carry the proje
 
 Crew Restoration & Construction is headquartered in Sioux Falls, roughly 50 miles southwest of Volga via I-29 North to Exit 133. That puts our crew on Highway 14 and into the Downtown Volga core or out toward the Oakwood area lake properties in a straightforward drive with no significant routing complications. We schedule promptly and will give you an honest arrival window when you call — (605) 965-2727 — rather than a guarantee we cannot back up. Property managers overseeing multiple units in 57071 can arrange direct-line communication with our project coordinator so you are not playing phone tag during an active loss.
 
+## Building stock, site conditions, and permits in Volga
+
+Most homes here sit over full basements, because footings in this part of eastern South Dakota have to reach well below frost depth anyway and the extra depth comes cheap. The ground is glacial till — dense clay-heavy soil over the old prairie pothole landscape — which sheds water poorly and holds it against foundation walls in spring. That shows up as seepage at the cove joint and damp block long before anything visible fails upstairs.
+
+Older frame houses near the town core can still carry galvanized supply lines, cast iron drains, and pre-1978 lead paint, with asbestos possible in floor tile, mastic, and pipe wrap. Any of that changes how a wall or floor gets opened.
+
+Inside city limits, permits for structural repair or rebuild come from the City of Volga; properties outside the limits go through Brookings County.
+
 If you are dealing with water, fire, mold, or storm damage at a Volga property, call Crew Restoration & Construction at **(605) 965-2727**. We will walk you through what to expect, answer your insurance questions on the first call, and get a crew scheduled without the runaround.

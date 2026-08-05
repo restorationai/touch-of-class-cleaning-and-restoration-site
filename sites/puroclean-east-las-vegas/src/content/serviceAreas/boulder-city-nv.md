@@ -51,4 +51,12 @@ Once mitigation is complete, our reconstruction team can restore affected areas 
 
 Our Las Vegas headquarters is roughly 25 miles from central Boulder City via US-93 South — a straightforward run with no significant traffic bottlenecks outside of peak commute windows. Lake Mountain Estates and Del Prado are both reachable from the US-93 / Nevada Way interchange within minutes of arriving in town. The Historic District, closer to the center of Boulder City, is a short drive from there. We schedule promptly and aim to have a crew on-site the same day for active water or fire losses — call **+17025513040** to confirm current availability.
 
+## Building stock, site conditions, and permits in Boulder City
+
+Boulder City's housing splits into distinct layers. The original 1930s cottages near the center sit low, often on raised wood floors over shallow crawlspaces, with plaster interiors and framing that dries slowly once wet. Postwar and later subdivisions, including the newer hillside builds, are almost all slab-on-grade with stucco over frame and tile or shingle roofs. On slab, a failed under-slab copper line or a 1980s–90s polybutylene run shows up as warm flooring and baseboard wicking long before anything pools.
+
+The ground here is caliche and rocky desert soil over bedrock in places — it sheds water sideways rather than absorbing it, so runoff tracks along foundations.
+
+Boulder City runs its own building department separate from Clark County, and structural repair or rebuild work is permitted through the city.
+
 If you're dealing with water, fire, smoke, or mold damage anywhere in Boulder City — whether you're in a 1930s Historic District craftsman or a newer build near Lake Mead National Recreation Area — call PuroClean of East Las Vegas at **+17025513040**. We'll assess the damage, explain the process plainly, and get your property moving toward restored.

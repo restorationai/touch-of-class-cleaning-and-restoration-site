@@ -51,4 +51,12 @@ Once mitigation is complete, many Roselle homeowners need a contractor who can h
 
 Kenilworth and Roselle share a border, and our crews travel the route regularly. From our HQ, we reach the Roselle Park border neighborhoods and the Fifth Avenue corridor quickly via North Michigan Avenue or Chestnut Street directly. East Roselle and the blocks near Warinanco Park are accessible via St. Georges Avenue. Because we operate 24/7, a call at 2 a.m. after a sump failure gets the same dispatch as a call on a Tuesday afternoon. We don't subcontract local jobs to unfamiliar crews — the team that answers your call is the team that shows up.
 
+## Building stock, site conditions, and permits in Roselle
+
+Behind the plaster in these houses you usually find wood lath, and in the oldest Victorians balloon framing that lets water and smoke travel from the basement to the attic through open stud bays. Plaster holds moisture long after drywall would read dry, so wall cavities have to be opened or drilled and dried rather than assumed. Pre-1978 lead paint, asbestos pipe wrap on old boiler and steam lines, and knob-and-tube left live in pre-1930 wiring all shape how a demolition scope gets written.
+
+Footings in this part of New Jersey sit below a frost depth of roughly three feet, and low ground near the Elizabeth River stays wet well after a storm passes.
+
+Structural repair, framing replacement, and rewiring are permitted through the Borough of Roselle construction office under the New Jersey Uniform Construction Code.
+
 If you're dealing with water, fire, mold, or storm damage anywhere in Roselle — 07203 — call The Restoration Group at **(855) 650-7422**. We're available around the clock, and we know the neighborhood.

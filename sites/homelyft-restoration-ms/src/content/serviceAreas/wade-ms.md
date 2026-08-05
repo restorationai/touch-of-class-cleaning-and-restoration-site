@@ -49,4 +49,10 @@ When a Gulf storm tracks north and strips shingles or pushes water through a sof
 
 HomeLyft Restoration MS operates out of Gulfport, roughly 25 to 30 miles south of Wade via US-49 North — a straightforward highway run that keeps drive time predictable outside of peak commute windows. The team covers Wade and the broader Harrison County corridor without subcontracting the field work. When you call (228) 284-5200, you will get scheduling information and a realistic arrival window based on current crew availability and your location within the service area.
 
+## Building stock, site conditions, and permits in Wade
+
+Wade is an unincorporated community, so there is no city hall counter for permits — structural repair, re-roofing, and rebuild work is permitted through the county, and elevation or flood-zone requirements can attach to the job depending on where the parcel sits. Mississippi's coastal counties also carry wind-resistance provisions that shape how a roof deck, sheathing, and fastening schedule get put back after storm damage, which matters more on a reconstruction scope than most homeowners expect.
+
+Outside the municipal utility footprint, many properties here run on private wells and septic. That changes a sewage backup or a saturated yard from a plumbing problem into a site problem. Manufactured and modular homes are common on these rural lots too, and their floor systems and belly wrap hold water very differently from stick-built framing.
+
 If you are dealing with water, mold, fire, or storm damage at a Wade property, call HomeLyft Restoration MS at (228) 284-5200 to talk through what you are seeing and get a crew scheduled.

@@ -53,4 +53,12 @@ Quality Contracting, Inc. is headquartered in Auburn, which puts us roughly 5 mi
 
 If you are a property manager overseeing multiple units in the 01527 or 01586 ZIP codes, we can set up a preferred-client arrangement so you are not starting from scratch every time a tenant reports a leak.
 
+## Building stock, site conditions, and permits in Millbury
+
+Much of the older housing here is balloon- or early platform-framed with plaster over wood lath, board sheathing, and full basements dug into glacial till and ledge — soil that drains slowly and holds water against stone and rubble foundation walls. Wet plaster and lath does not dry like drywall; the cavities run uninterrupted between floors, so moisture and smoke travel farther than the damage looks. Expect knob-and-tube remnants, galvanized supply lines, cast iron drains, and asbestos on old heating pipes in any pre-war opening-up.
+
+Frost depth in central Worcester County runs about four feet, which matters for footings and any exterior work.
+
+Structural repair and rebuild permits are issued by Millbury's building department under the Massachusetts state building code; replacing framing, sheathing, or roof structure generally triggers one, cosmetic finish work usually does not.
+
 If you are dealing with water in your basement, smoke damage after a kitchen fire, or a mold problem you have been putting off, call Quality Contracting, Inc. at **(508) 756-8800**. We serve Millbury property owners across Bramanville, West Millbury, Millbury Center, and the surrounding area — and we are close enough to get there without making you wait.

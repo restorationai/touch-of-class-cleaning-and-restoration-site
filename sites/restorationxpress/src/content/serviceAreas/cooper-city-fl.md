@@ -47,4 +47,12 @@ After mitigation is complete, we handle the rebuild — drywall, flooring, cabin
 
 RestorationXpress operates out of Davie, FL, which sits directly adjacent to Cooper City's eastern boundary. From our Davie location, the drive to Rock Creek or the neighborhoods near Brian Piccolo Park typically runs under 10 minutes via Griffin Road or Stirling Road — no highway required. Embassy Lakes and the areas near Cooper City Sports Complex and Bill Lips Park are similarly close. That proximity matters when a water loss is active: the sooner extraction equipment arrives, the less flooring and drywall ends up in a dumpster. Call us at (954) 964-6471 to confirm scheduling and current availability.
 
+## Building stock, site conditions, and permits in Cooper City
+
+Most of Cooper City is postwar suburban build-out, heaviest from the 1970s through the 2000s, and the dominant assembly is concrete block with stucco outside and drywall furred out on strips inside. There are no basements or crawlspaces here — everything sits on slab-on-grade. That matters because water tracks sideways along the slab and into the cavity behind the furring, where block stays damp long after the drywall face feels dry. Block walls need direct measurement, not a hand test.
+
+Some 1980s-era homes in this area were plumbed with polybutylene, which fails at the fittings with little warning.
+
+Broward County falls in the High-Velocity Hurricane Zone under the Florida Building Code, so roof and structural work carries stricter fastening and product-approval requirements. Cooper City's building division issues the permits, and HOA architectural approval is common on top of that.
+
 If you're dealing with water, mold, fire, or storm damage anywhere in Cooper City, call RestorationXpress at **(954) 964-6471**. We'll assess the situation, explain the process plainly, and get the right equipment to your property without unnecessary delay.

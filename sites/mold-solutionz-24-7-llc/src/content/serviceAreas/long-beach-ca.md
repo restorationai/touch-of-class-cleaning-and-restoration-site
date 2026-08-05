@@ -49,4 +49,12 @@ Unattended deaths, sewage intrusion, and hoarding remediation require handling u
 
 Our Cerritos headquarters sits roughly 12 to 15 miles northeast of Long Beach via the 91 Freeway to the 710 South — a corridor our crews run regularly. In normal traffic, that puts us in neighborhoods like North Long Beach and Zaferia in under 30 minutes, and in downtown Long Beach or the waterfront areas near the Aquarium of the Pacific in 30 to 45 minutes depending on time of day. Because we operate 24/7, middle-of-the-night calls avoid the 710 congestion entirely. We serve all Long Beach ZIP codes, including 90802, 90803, 90806, 90807, and 90813, and we're equally familiar with the tight alley access behind Belmont Shore storefronts and the underground parking structures in high-rise buildings along Ocean Boulevard.
 
+## Building stock, site conditions, and permits in Long Beach
+
+Much of Long Beach was built out between the 1920s and the 1950s, so two foundation types dominate. Pre-war bungalows usually sit on raised perimeter footings over a vented crawlspace, where standing water and damp soil feed the underside of subfloor and joists long after the surface looks dry. Postwar tracts moved to slab-on-grade, which pushes moisture up through the slab edge into baseboards and bottom plates instead.
+
+Plumbing follows the same vintage: galvanized supply that closes up and weeps at the threads, cast-iron drains that scale and crack. Anything predating the late 1970s should be assumed to hold asbestos in floor tile, mastic, or duct wrap and lead in the paint until testing says otherwise.
+
+Structural repairs are permitted through the City of Long Beach, and work in a designated historic district can draw additional review.
+
 If you're dealing with water, mold, fire, or a biohazard situation anywhere in Long Beach, call Mold Solutionz 24/7 at **(714) 409-4758**. We answer every hour of the day, we bill most major insurance carriers directly, and we've been doing this work since 2017 — long enough to know what Long Beach properties need.

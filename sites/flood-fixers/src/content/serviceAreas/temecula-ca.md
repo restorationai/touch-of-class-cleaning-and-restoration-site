@@ -49,4 +49,12 @@ Once drying and remediation are complete, most properties need some level of reb
 
 Flood Fixers is headquartered in San Diego. Under normal traffic conditions, our crews reach central Temecula — the 92590 and 92592 ZIP codes — in approximately 60 to 75 minutes from dispatch. Neighborhoods farther north like Harveston near the 79 corridor typically add 10 minutes; communities in the southern end of the valley near Redhawk Parkway are often faster. We answer calls 24 hours a day, every day of the year, and our target is a technician on your property within 90 minutes of your first call to (855) 204-1124.
 
+## Building stock, site conditions, and permits in Temecula
+
+Most of Temecula's housing is tract construction on slab-on-grade, wood-framed and finished with concrete tile roofs over trusses — attics that hold ductwork and the air handler, which is its own quiet source of water when a condensate pan overflows. Many valley slabs from that era are post-tensioned, so chasing a leak by cutting or coring the concrete isn't a casual decision; rerouting a copper line overhead is often the safer scope. Drain lines are typically ABS.
+
+Hillside pads across this part of Riverside County are cut-and-fill, and the Elsinore fault runs through the valley, so framing repairs get read with that in mind.
+
+Structural repair and rebuild permits are issued by the City of Temecula's building division. Framing, roofing, electrical, and mechanical work generally pull one; like-for-like drywall usually doesn't.
+
 If you're dealing with water, fire, mold, or storm damage anywhere in Temecula — from Paloma del Sol to Wolf Creek — call Flood Fixers at **(855) 204-1124**. A live technician answers, not a voicemail.

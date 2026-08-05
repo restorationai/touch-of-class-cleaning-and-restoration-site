@@ -49,4 +49,10 @@ Once the damage is dry and remediated, the work isn't finished. We handle the re
 
 Our Las Vegas headquarters puts us roughly 12 to 18 miles from most Henderson neighborhoods, depending on where the job is. From the east side of Las Vegas, we typically travel US-95 South to I-515, which feeds directly into Henderson's core. Green Valley and Green Valley Ranch are accessible via Sunset Road or Warm Springs Road off I-515. Anthem and Seven Hills sit further south along Eastern Avenue and Bicentennial Parkway. Lake Las Vegas and the communities near Sloan Canyon National Conservation Area are the furthest points in our coverage area, but they're well within our service range. We schedule promptly and keep you informed of arrival time when you call.
 
+## Building stock, site conditions, and permits in Henderson
+
+Henderson's oldest housing sits in the Townsite and Pittman areas near Water Street, built in the 1940s around the wartime magnesium plant — small wood-framed houses on shallow slabs, remodeled so many times that what's behind the drywall varies wall to wall. Everything built south and west of there is newer: stucco over wood frame, tile or asphalt roofs on trusses, and slab-on-grade floors. Basements are essentially nonexistent, so water that gets loose ends up in the slab, the baseplate, and the insulation rather than below grade.
+
+The ground here is desert alluvium with caliche, a cemented layer that sheds water sideways instead of absorbing it, so monsoon runoff tends to pool against foundations. Permits for structural repair and rebuild come from the City of Henderson's building department, not Clark County.
+
 If you're dealing with water, fire, smoke, or mold damage at a Henderson property, call PuroClean of East Las Vegas at (702) 551-3040. We'll assess the situation, walk you through next steps, and get the work scheduled.

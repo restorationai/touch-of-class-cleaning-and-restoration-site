@@ -51,4 +51,10 @@ Once mitigation is complete, we can carry the project through repairs and full r
 
 Kenilworth sits roughly 12 to 14 miles southeast of Montclair via the Garden State Parkway to Route 3, or through Bloomfield on Route 506. Both routes are well-traveled corridors our crews run regularly. Because we operate 24 hours a day, seven days a week, a call at 2 a.m. from a property manager near Watchung Plaza gets the same dispatch process as a midday call. Upper Montclair, the South End, Frog Hollow, and the Estate Section are all within our standard service area — no trip surcharge, no referral to a subcontractor.
 
+## Building stock, site conditions, and permits in Montclair
+
+Behind the finish, many of these houses are balloon-framed over wood lath with no sheathing membrane, so water in a wall cavity can travel floor to floor before it shows anywhere. Basements are often stone or brick rubble foundations on glacial till, with Watchung basalt close to the surface on the higher west side of town — water perches on rock and pushes through mortar joints instead of draining away. Old gravity heating systems also left asbestos pipe and boiler insulation behind, and pre-1978 paint and knob-and-tube wiring are common enough that demolition gets planned, not improvised.
+
+Construction permits come from Montclair's building department under the New Jersey Uniform Construction Code. Structural repair, rewiring, and rebuilding a finished basement generally trigger one, and a designated historic property can also require preservation review.
+
 If you're dealing with a water, fire, or mold emergency anywhere in Montclair, call The Restoration Group at **(855) 650-7422** — we answer every hour of every day and can have a crew moving toward you while you're still on the phone.

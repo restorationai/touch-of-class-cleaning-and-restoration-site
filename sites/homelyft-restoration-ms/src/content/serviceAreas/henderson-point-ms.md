@@ -49,4 +49,10 @@ After named storms and severe thunderstorms, roof tarping and board-up services 
 
 HomeLyft Restoration MS is headquartered in Gulfport, roughly 10 to 12 miles east of Henderson Point via US-90 along the Gulf Coast. The drive along the beachfront corridor is straightforward outside of storm-related road closures, and our crews are familiar with the peninsula's limited access points. We schedule prompt assessments based on current call volume and will give you a realistic arrival window when you call — we would rather set an accurate expectation than promise a time we cannot keep. For active water intrusion, calling as early as possible in the day gives us the best window to respond before conditions worsen.
 
+## Building stock, site conditions, and permits in Henderson Point
+
+Much of Henderson Point was rebuilt after Katrina, so the housing splits into two very different groups. Post-2005 construction tends to sit elevated on treated pilings with PEX or CPVC supply lines and PVC drains, which means water usually runs down through the framing and out rather than pooling — but wind-driven rain still soaks the sheathing and batt insulation behind it. The surviving older cottages are the harder scope: galvanized or copper supply, cast iron drains, and materials from an era where asbestos floor tile, mastic, and lead paint are all realistic finds, so testing comes before demolition.
+
+The soil here is sandy coastal fill and deposits over a shallow water table, which drains fast but keeps crawlspaces and ground-level slabs damp for weeks. Henderson Point is unincorporated, so structural repair and rebuild permits — and floodplain elevation review — go through Harrison County rather than a city hall.
+
 If you're dealing with water, mold, fire, or storm damage at a Henderson Point property, the right time to call is now — before secondary damage has more time to develop. Reach HomeLyft Restoration MS at **(228) 284-5200** to schedule an assessment and get a clear picture of what recovery looks like for your specific situation.

@@ -47,4 +47,12 @@ Once mitigation is complete, many properties need drywall replaced, flooring rei
 
 HomeLyft Restoration MS is headquartered in Gulfport, roughly 90 miles south of Bond via US-49 North. That's a real drive, and we won't pretend otherwise — but it's a straightforward route with no major interchange complexity, and our crews are familiar with it. When you call during business hours, we schedule promptly and give you an honest arrival window based on current crew availability and job load. For Bond and the surrounding Lawrence County area, we coordinate directly with you on timing so there are no surprises.
 
+## Building stock, site conditions, and permits in Bond
+
+Housing here reads rural south Mississippi rather than subdivision: older wood-frame homes on brick or block piers with vented crawlspaces, later slab-on-grade construction, and a fair share of HUD-code manufactured homes set on piers. Crawlspace houses hide water damage well — a supply leak wicks into floor joists and subfloor from underneath, so drying means opening and dehumidifying the crawl, not just the room above.
+
+Plumbing vintage tracks the same spread: galvanized steel and cast iron drains in the oldest stock, copper mid-century, polybutylene in 1980s and 90s work, PEX in newer builds. Pre-1978 finishes mean lead paint gets treated as present until testing says otherwise.
+
+Because Bond is unincorporated, structural repair and rebuild permits are pulled through the county rather than a city hall, and Mississippi's statewide code baseline governs the framing and roofing work.
+
 If you're dealing with water, fire, smoke, or mold damage at a Bond property, call HomeLyft Restoration MS at (228) 284-5200. We'll talk through what you're seeing, give you a clear picture of next steps, and get a crew scheduled.

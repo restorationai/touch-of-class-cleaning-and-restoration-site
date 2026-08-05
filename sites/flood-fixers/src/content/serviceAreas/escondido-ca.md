@@ -49,4 +49,12 @@ Once the damage is mitigated, most properties need some level of rebuild — dry
 
 From our San Diego headquarters, Escondido is roughly 30 miles north on I-15. Under normal traffic conditions, a crew can reach most of the city in 45 to 60 minutes. We cover all of Escondido's ZIP codes, including 92025, 92026, and 92027, and we're familiar with the access quirks of hillside properties in the older downtown-adjacent blocks as well as the gated communities in the northeastern part of the city. For after-hours calls — which is when most pipe failures actually happen — our dispatch line, (855) 204-1124, connects to a live coordinator, not a voicemail box.
 
+## Building stock, site conditions, and permits in Escondido
+
+Most Escondido homes sit on slab-on-grade with stucco over wood framing and no basement, so when water gets in it travels sideways through bottom plates, baseboards, and insulated cavities rather than draining down. Older houses near the downtown core are more likely to have raised floors over a shallow crawlspace, plus plaster and lath that holds moisture long after the drywall next door has dried. Anything built before the late 1970s should be treated as possibly containing asbestos in flooring, texture, or duct wrap, and lead paint on trim, which changes how demolition is staged.
+
+Hillside lots around the city are often cut-and-fill terraces, and the valley soils here swing between decomposed granite and clay that moves with moisture.
+
+Structural repair, reroofing, and framing replacement are permitted through the City of Escondido's building division under the California Building Code.
+
 If you're dealing with a water, fire, mold, or smoke emergency anywhere in Escondido, call Flood Fixers at **(855) 204-1124**. We'll tell you exactly who is coming, when they'll arrive, and what to do — or not do — in the meantime.

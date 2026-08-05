@@ -53,4 +53,12 @@ Once mitigation is complete, many homeowners don't want to manage a separate gen
 
 Home Pride Restoration and Cleaning's headquarters is in Saratoga Springs, roughly 10 to 15 minutes from Pleasant Grove via US-89 and State Street depending on traffic. Most Pleasant Grove addresses see a technician on-site within 45 to 60 minutes of a confirmed call. Neighborhoods closer to the US-89 corridor — including areas near Pleasant Grove High School and the business district along State Street — are typically at the shorter end of that window. More residential areas farther east toward the foothills may run closer to 60 minutes. We answer calls 24 hours a day, every day of the year.
 
+## Building stock, site conditions, and permits in Pleasant Grove
+
+Pleasant Grove has two very different housing layers. The older blocks near the original town center include early-twentieth-century brick homes — often unreinforced masonry with plaster-and-lath interiors, which hold water far longer than drywall and have to be dried rather than simply cut out. Around those, subdivisions from the 1970s onward sit on full basements, which is the Utah norm; deep frost requirements along the Wasatch Front put footings well below grade, so almost every home has conditioned or semi-finished space below the ground line for water to find.
+
+The ground here is old Lake Bonneville bench material and alluvial fan deposits washed out of the canyons — sands, silts and gravel that move water sideways through backfill toward foundation walls.
+
+Structural repair and rebuild permits come from Pleasant Grove City's building division, working under Utah's statewide adopted code. Pre-1980 homes also need asbestos screening before demolition, which Utah regulates at the state level.
+
 If you're dealing with water, fire, mold, or any other property damage in Pleasant Grove right now, call Home Pride Restoration and Cleaning at **(801) 995-2437**. We'll tell you exactly what to expect before we arrive and walk you through every step from mitigation to the final inspection.

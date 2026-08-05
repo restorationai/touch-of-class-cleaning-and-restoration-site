@@ -43,4 +43,12 @@ On the west side, the 2000s-era subdivisions near the Cecil Avenue corridor face
 
 All Pro Plumbing Heating and Air's Bakersfield headquarters puts Delano roughly 30 miles north via Highway 99 — a straightforward run up the valley. We cover all of Delano, including West Delano subdivisions, the Cecil Avenue corridor, the Randolph Street corridor, and properties near Downtown Delano. Because we operate 24/7, we can dispatch for emergencies at any hour; scheduling windows for non-emergency work are confirmed when you call so you know exactly when to expect us.
 
+## Building stock, site conditions, and permits in Delano
+
+Almost nothing in Delano sits over a basement. The older downtown bungalows are typically stucco or wood siding over wood frame with lath-and-plaster interiors, sitting on raised floors over shallow crawlspaces, while the west-side tracts are slab-on-grade. That difference decides everything after a leak: crawlspace framing and subfloor hold moisture out of sight, and a slab traps it under flooring. In homes built before the late 1970s, assume paint, floor tile, and joint compound may contain lead or asbestos, so demolition gets tested rather than guessed at.
+
+The ground here is deep valley alluvium — sandy and silty loam rather than rock — and decades of agricultural pumping have pushed groundwater well below foundation depth across this part of Kern County.
+
+Inside city limits, building and mechanical permits go through the City of Delano; unincorporated parcels outside the line are Kern County's. Repipes, sewer replacements, water heater changeouts with seismic strapping, and HVAC replacements under California's Title 24 rules all normally require one.
+
 If you're dealing with a plumbing or HVAC problem anywhere in Delano — ZIP code 93215 or 93216 — call All Pro Plumbing Heating and Air at **(661) 863-9242**. We're available around the clock, and we'll give you a straight answer on what the repair involves and what it will cost before any work begins.

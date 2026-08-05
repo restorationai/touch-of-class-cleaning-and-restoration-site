@@ -53,4 +53,10 @@ Once drying and remediation are complete, our licensed reconstruction crews hand
 
 From our San Diego headquarters, a Flood Fixers crew can reach western Chula Vista neighborhoods — Castle Park, Harborside, Otay — in approximately 30–40 minutes via I-5 or SR-54. Eastern communities like Eastlake and Otay Ranch typically see a technician on-site within 45–60 minutes, depending on traffic on Olympic Parkway. We cover all Chula Vista ZIP codes, including 91910, 91911, 91913, 91914, and 91915. We answer calls 24 hours a day, 365 days a year — including holidays, when water doesn't take a break.
 
+## Building stock, site conditions, and permits in Chula Vista
+
+Almost nothing in Chula Vista has a basement. Postwar tract homes on the west side sit on slab-on-grade or a shallow raised floor over a stem wall, so water travels sideways through bottom plates and under flooring rather than down. In those pre-1978 houses, expect cast iron drain lines and clay or fiber sewer laterals that crack and root-invade, plus asbestos-containing floor tile, mastic, and textured ceilings, and lead paint — all of which change how a wall gets opened rather than whether it should be.
+
+East of I-805, homes sit on mass-graded pads with engineered fill and the clay-heavy soils common across the South Bay, which swell when wet and hold moisture against slab edges. Structural repairs, reroofing, and rewiring are permitted through the City of Chula Vista, under the California Building Code with its seismic bracing requirements.
+
 If you're dealing with water, fire, mold, or any property emergency in Chula Vista right now, call Flood Fixers at **(855) 204-1124**. The sooner drying equipment is running, the smaller the final repair bill — and the lower the chance that a water claim turns into a mold claim.

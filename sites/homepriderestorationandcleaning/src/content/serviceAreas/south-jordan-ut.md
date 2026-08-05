@@ -49,4 +49,10 @@ Property managers overseeing rental units near the South Jordan Towne Center and
 
 From our Saratoga Springs headquarters, South Jordan is roughly 12 to 18 minutes via Redwood Road or Bangerter Highway under normal traffic conditions. We target on-site arrival within 45 to 60 minutes of your call for active water emergencies anywhere in the 84009 and 84095 ZIP codes — including Daybreak, the Bingham Creek corridor, and neighborhoods along 10400 South and South Jordan Parkway. For evening and weekend calls, our dispatch line — (801) 995-2437 — connects directly to an on-call technician, not an answering service.
 
+## Building stock, site conditions, and permits in South Jordan
+
+Structural repairs and rebuilds in South Jordan are permitted through the city's own building division rather than the county, and the inspections follow Utah's statewide construction code. In practice, tearing out and replacing drywall and flooring after a water loss usually stays under mitigation, while anything touching framing, egress windows, electrical, or gas lines pulls a permit and inspection. The Wasatch Front is a high seismic zone, so bracing and hold-downs disturbed during a basement tear-out have to go back as engineered, not improvised.
+
+Material vintage drives the scope. Homes from the 1990s typically ran copper supply with ABS drains; mid-2000s builds went to PEX behind manifolds. Anything predating the late 1970s can hide asbestos in floor tile, mastic, or textured ceilings, and Utah air-quality rules require a survey before that material is demolished.
+
 If you're dealing with water, fire, mold, or a biohazard situation in South Jordan right now, call (801) 995-2437. We'll tell you exactly what to do in the next 10 minutes while a crew heads your way.

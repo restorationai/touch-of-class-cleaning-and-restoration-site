@@ -53,4 +53,10 @@ Once mitigation is complete, the same team handles drywall, flooring, trim, and 
 
 The Restoration Group's Kenilworth headquarters sits roughly 3 miles from Clark's eastern border — a straight shot west on Central Avenue or south via Raritan Road. The Arthur L. Johnson High School area and the Raritan Road business district are typically reachable in under 10 minutes from dispatch. The Lake Avenue and Brant Lake neighborhoods, which sit closer to the Rahway River floodplain, add only a few minutes to that run. Because we operate 24 hours a day, seven days a week, there's no waiting for a morning callback — a crew can be en route the same hour you call, whether it's a Tuesday afternoon or a Saturday night during a nor'easter.
 
+## Building stock, site conditions, and permits in Clark
+
+Under the plaster or rock-lath walls in these postwar homes, wall cavities were often insulated thinly or not at all, so a wet basement ceiling can hold moisture against framing long after the finished surface looks dry. Basement floors from that era frequently carry 9x9 vinyl-asbestos tile and black mastic, and paint predating 1978 is presumed lead — both change how material gets cut out rather than whether it can be. Sewer laterals of the same vintage are sometimes Orangeburg, which deforms and collapses instead of simply cracking.
+
+Structural repair and rebuild work in the borough falls under New Jersey's Uniform Construction Code, with permits issued through Clark's construction office by subcode — building, plumbing, electrical, fire. Homes mapped in the Rahway River floodplain carry additional elevation review when repairs reach substantial-improvement thresholds.
+
 If you're dealing with water, fire, mold, or sewage damage anywhere in Clark — from the Westfield Avenue corridor to the streets along the Rahway River — call The Restoration Group at (855) 650-7422. We're available around the clock and we can be there fast.

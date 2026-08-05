@@ -53,4 +53,12 @@ Once mitigation is complete, our reconstruction team handles drywall, flooring, 
 
 HomeLyft Restoration MS is headquartered in Gulfport, and Leaf is approximately 90 miles north via US-49 — a route our crews travel regularly to serve Jones County and the surrounding Piney Woods communities. Scheduling is handled during business hours; call (228) 284-5200 to reach our team and get a crew dispatched as quickly as our current schedule allows. For active water intrusion, earlier contact means less drying time and lower overall restoration costs, so don't wait to see if the problem resolves on its own.
 
+## Building stock, site conditions, and permits in Leaf
+
+Leaf is a small unincorporated community, so the housing is mostly detached wood-frame — pier-and-beam floors on older homes, poured slabs on the newer ones. Anything built before the late 1970s can carry lead paint and asbestos in floor tile, mastic, or pipe wrap, which changes how a wall or floor gets cut out. Late-1980s and 1990s houses out here often have polybutylene supply lines and cast-iron drains that crack at the hub.
+
+Rural lots typically run on well and septic. When clay soil stays saturated, drainfields stop accepting and fixtures back up indoors, which pushes a loss from clean water into a Category 3 cleanup.
+
+With no city building department, permits for structural repair or rebuild go through the county, and county rules govern septic and setbacks.
+
 If your Leaf property has taken on water, smoke, or storm damage, the longer you wait the more material the loss typically becomes. Call HomeLyft Restoration MS at (228) 284-5200 during business hours to schedule an assessment and get a clear picture of what recovery looks like for your specific situation.

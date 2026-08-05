@@ -49,4 +49,12 @@ Once mitigation is complete, the same contractor handles the rebuild — drywall
 
 Coastal Restoration Services Inc is headquartered in Vandenberg Village, roughly 25 miles southwest of Buellton via US-101 North. Under normal traffic conditions on the 101 corridor, that's a straightforward drive through Lompoc and into the Santa Ynez Valley — no mountain passes, no significant seasonal road closures. Properties along the Avenue of Flags business district, the residential streets east toward Solvang, and the rural parcels off Highway 246 are all within the team's regular service coverage. Call (805) 345-7440 to confirm scheduling and discuss what to do in the meantime to limit further damage.
 
+## Building stock, site conditions, and permits in Buellton
+
+Much of Buellton's housing went up between the 1960s and the 1990s, with steady infill after the city incorporated in the early '90s. That means mostly single-story wood frame on slab-on-grade, with a smaller share of older ranch houses on raised foundations over shallow crawlspaces. On a slab, water tracks sideways under vinyl and laminate and wicks up into bottom plates, so drying gets planned from the floor up rather than the wall in.
+
+Supply lines are typically copper, with galvanized steel still turning up in the oldest homes and cast iron or early ABS on the drain side. Anything built before 1978 gets treated as possible lead paint, and pre-1980 ceiling texture and sheet flooring as possible asbestos, which changes demolition sequencing.
+
+Structural repairs and rebuilds are permitted through the City of Buellton under California's statewide building code, which in this seismically active part of the county means shear and hold-down details get looked at when framing is opened up.
+
 If you're dealing with water, fire, smoke, or mold damage at a Buellton property, call (805) 345-7440. Prompt action in the first hours limits how far damage spreads and how much the repair ultimately costs.

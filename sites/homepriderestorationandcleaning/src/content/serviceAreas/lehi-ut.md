@@ -51,4 +51,10 @@ Once mitigation is complete, we rebuild — drywall, flooring, cabinetry, painti
 
 Our Saratoga Springs headquarters is roughly 10 to 15 minutes from most of Lehi via Redwood Road or SR-68, depending on traffic. For the majority of calls in the 84043 and 84045 ZIP codes, we can have a technician on-site within 45 to 60 minutes of your call — often faster during off-peak hours. We cover all of Lehi's residential and commercial corridors, including the high-growth areas along the Silicon Slopes tech corridor near Thanksgiving Point, as well as established neighborhoods closer to Main Street and the older sections of the city near the Lehi Round-Up Rodeo Grounds.
 
+## Building stock, site conditions, and permits in Lehi
+
+Lehi was settled in the 1850s, and the older blocks near the town center still hold brick houses from that era — unreinforced masonry, plaster over wood lath, and shallow crawlspaces or hand-dug basements. Plaster holds water far longer than drywall and has to be dried in place or cut out deliberately. Anything built before about 1980 gets checked for asbestos in joint compound, floor tile, and pipe wrap, and pre-1978 paint is treated as lead-bearing until testing says otherwise. Mid-century homes often still drain through cast iron, which rusts thin along the bottom of the pipe and weeps behind a wall for months before it gives.
+
+Structural repair and rebuilds are permitted through Lehi City's building division under Utah's statewide construction code. Utah County sits along the Wasatch Front, so replacing shear walls or bearing framing brings seismic detailing into the scope.
+
 If you're dealing with water, fire, mold, or any other property emergency in Lehi, call Home Pride Restoration and Cleaning at (801) 995-2437. We answer around the clock, every day of the year.

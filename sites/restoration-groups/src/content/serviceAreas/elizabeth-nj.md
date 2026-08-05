@@ -57,4 +57,12 @@ For property managers overseeing multi-unit buildings in Westminster or North El
 
 From our Kenilworth headquarters, Elizabeth is a straightforward run — typically via the Garden State Parkway to Route 1/9, or through Roselle and Linden depending on traffic. Elmora and Midtown are usually our first stops off the highway; Elizabethport and Bayway require a few more minutes through the city grid. We operate 24/7, so there is no after-hours surcharge for dispatching at night, and no call goes to voicemail — a live team member answers at (908) 970-8533 at any hour.
 
+## Building stock, site conditions, and permits in Elizabeth
+
+Most of the housing here predates 1940, which means balloon-framed exterior walls, plaster and wood lath, and full basements rather than slabs. Plaster holds water differently than drywall — it stays wet behind the finish long after the surface feels dry, and balloon framing gives water an open path from a second-floor leak down to the sill. Pre-1978 paint and older pipe wrap, floor tile, and mastic mean lead and asbestos testing belongs in the scope before demolition, not after.
+
+Galvanized steel supply lines and clay or Orangeburg sewer laterals are still in the ground in parts of the older neighborhoods, and northern New Jersey's frost depth puts unheated basements and crawl spaces at real freeze risk.
+
+Structural repair and rebuild permits come from the city's construction office under the New Jersey Uniform Construction Code. In mapped flood zones, substantial-improvement rules can change what a rebuild has to meet.
+
 If you're dealing with water, fire, mold, or sewage damage anywhere in Elizabeth — from a basement in Bayway to a commercial space near Jersey Gardens — call The Restoration Group at (908) 970-8533. We answer around the clock and can have a crew moving toward you the same day.

@@ -51,4 +51,12 @@ Sewage backups — common after heavy rainfall overwhelms older municipal infras
 
 HomeLyft Restoration MS is headquartered in Gulfport, and Pass Christian is a direct run west on U.S. Highway 90 — roughly 12 miles from our office to the heart of the city. Depending on traffic and the specific address, that typically puts a crew in Pass Christian well within the first hour of a call during business hours. The beachfront areas along Scenic Drive and the residential blocks north toward Henderson Point are all within our standard service zone. If you are coordinating from a property management office or managing multiple units, we can stage equipment and communicate status updates to keep your operation informed throughout the job.
 
+## Building stock, site conditions, and permits in Pass Christian
+
+A large share of what stands in Pass Christian today was rebuilt after Katrina, and those homes are typically elevated on piers or masonry columns with an open or breakaway area underneath. That matters during a loss: the floor system, ductwork, and supply lines under the house are exposed, and a leak up top drains through the framing instead of pooling where you can see it. Surviving older houses are the opposite problem — cast iron drains and galvanized or early copper supply that fail at joints and inside walls.
+
+Soils near the shoreline run sandy over clay with a shallow water table, so below-grade drying is slow and re-wetting is common.
+
+Structural repair and rebuild permits come through the City of Pass Christian, and floodplain rules apply once repair costs approach half the structure's value.
+
 If you are dealing with water, fire, mold, or storm damage in Pass Christian, call HomeLyft Restoration MS at (228) 284-5200. We will walk you through what to expect, answer questions about your insurance coverage, and get the right crew scheduled as quickly as possible.

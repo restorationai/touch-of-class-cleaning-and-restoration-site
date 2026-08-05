@@ -53,4 +53,10 @@ Once the damage is mitigated, we handle the rebuild — drywall, flooring, cabin
 
 The Restoration Group operates out of Kenilworth, roughly 8 to 10 miles southwest of East Orange depending on the neighborhood. The most direct route runs up Route 22 East to the Garden State Parkway North, putting crews near Brick Church station and the 07017 corridor in under 20 minutes under normal traffic. Reaching Watsessing Park on the western border or properties along the Elmwood and Doddtown sections of 07018 adds only a few minutes. Because we operate 24/7, a call at any hour — including overnight pipe failures and weekend sewer backups — reaches a live dispatcher who can route the nearest available crew. We serve all East Orange ZIP codes: 07017, 07018, and 07019.
 
+## Building stock, site conditions, and permits in East Orange
+
+Most of the pre-war housing here is load-bearing brick or wood frame with plaster over wood lath, sitting on full stone or block basements rather than slabs. Plaster holds water long after the drywall next to it feels dry, so drying a wall in a 1920s walk-up means opening the cavity and metering the lath, not just running air movers in the room. Steam and hot-water heat is still common, and pipe insulation, floor tile, and paint in buildings this old should be treated as potentially asbestos-containing or lead-bearing until tested — that changes how demolition is scoped.
+
+New Jersey enforces one statewide Uniform Construction Code, so permits for structural repair and rebuild come from East Orange's own construction office under building, plumbing, electrical, and fire subcodes. Anything past like-for-like finish work generally needs one.
+
 If you are dealing with an active loss or trying to assess damage from a recent event, call (855) 650-7422. We answer around the clock, work directly with your insurance adjuster, and can have a crew moving toward East Orange as soon as you hang up.

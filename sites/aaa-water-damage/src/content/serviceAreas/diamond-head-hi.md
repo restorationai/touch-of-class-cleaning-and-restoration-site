@@ -49,4 +49,10 @@ High foot traffic from Kapiolani Park and the proximity of Waikiki mean carpets 
 
 Our Honolulu headquarters puts Diamond Head well within our primary service zone. From our dispatch point, the most direct route runs east on Kalakaua Avenue through Waikiki and into the 96815 corridor, reaching Kapiolani Park frontage and the Gold Coast high-rises quickly. Diamond Head Terrace and Black Point, slightly further along Diamond Head Road and Kahala Avenue, add only a few minutes to that run. We answer calls 24 hours a day, seven days a week, and dispatch equipment — truck-mount extractors, air movers, dehumidifiers — on the same call. We don't quote arrival minutes we can't guarantee, but we move without delay once you're on the line.
 
+## Building stock, site conditions, and permits in Diamond Head
+
+Away from the towers, much of the older housing between the crater and the shoreline is pre-war and mid-century single-wall construction — tongue-and-groove redwood or Douglas fir boards that serve as both sheathing and finish, with no stud cavity to open up. That wood wicks water lengthwise and holds it, so drying is about the boards themselves rather than pulling insulation. Many of these homes sit on post-and-pier foundations rather than slab, which helps ventilation but puts joists and girders within reach of standing water and Formosan termites. Homes finished before 1978 can carry lead paint, asbestos floor tile, or asbestos-backed sheet vinyl, and that has to be settled before demolition starts.
+
+Permits on Oahu come from the City and County of Honolulu's Department of Planning and Permitting, and work near the crater also falls under the Diamond Head Special District's design review.
+
 If you're dealing with water, smoke, mold, or storm damage anywhere in Diamond Head — from the oceanfront towers near La Pietra to the hillside homes above Diamond Head State Monument — call **(808) 349-3407** now. We're available around the clock, and we know this neighborhood.

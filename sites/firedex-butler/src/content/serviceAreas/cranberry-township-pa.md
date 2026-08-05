@@ -49,4 +49,12 @@ Severe thunderstorms along the Route 19 / Route 228 corridor can bring wind-driv
 
 FireDEX Butler's shop sits on Marshall Rd in Cranberry Township, which puts us inside the township boundary before we reach most neighborhoods. Fox Run, Park Place, and Cranberry Heights are a short drive from our door. Fernway, Glen Eden, and Ehrman Farms are equally close. Reaching the commercial corridors near Cranberry Commons or the residential streets near UPMC Lemieux Sports Complex means navigating familiar local roads, not mapping an unfamiliar route. Because we operate 24/7, a call at 2 a.m. during a January freeze or a Saturday afternoon storm gets the same dispatch process as a weekday morning call.
 
+## Building stock, site conditions, and permits in Cranberry Township
+
+The 1960s Fernway ranches were built before drywall took over completely, so you find plaster or early gypsum board over block foundation walls, cast iron drain stacks, and finishes from the lead-paint and asbestos-floor-tile era — that changes how affected material gets removed, not just how fast it dries. The 1990s-through-2020s plans use poured concrete walls, OSB sheathing, and engineered I-joists with truss roofs; a saturated I-joist or OSB subfloor loses strength quietly, so drying decisions there are structural, not cosmetic.
+
+Footings in this part of western Pennsylvania are set below a frost depth that runs near three feet, which is part of why full basements are the norm and why clay pressure has so much wall to work against.
+
+Structural repair and rebuild permits come from Cranberry Township at the Municipal Center, under Pennsylvania's Uniform Construction Code. Many newer plats also have an HOA with its own exterior approvals.
+
 If you're dealing with water, fire, mold, or storm damage anywhere in Cranberry Township — ZIP code 16066 or the surrounding communities — call FireDEX Butler at **(724) 452-7400**. We're already here.

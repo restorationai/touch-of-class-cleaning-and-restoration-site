@@ -53,4 +53,10 @@ Once mitigation is complete, most properties need some level of rebuild — dryw
 
 Coastal Restoration Services Inc is headquartered in Vandenberg Village, roughly 15 miles northwest of Guadalupe via Highway 1 south through Casmalia and into town, or via Santa Maria and Highway 166 west depending on traffic. It's a straightforward drive with no significant geographic barriers between our base and Guadalupe. We schedule promptly and aim to have a technician on-site the same day for active water damage situations. Call **(805) 345-7440** during business hours to get on the schedule.
 
+## Building stock, site conditions, and permits in Guadalupe
+
+Guadalupe's housing runs older than much of the Santa Maria Valley. A good share of the homes near the town center are pre-war and early post-war wood frame with stucco or wood siding over board sheathing, many on raised perimeter foundations with shallow crawlspaces, with slab-on-grade tracts filling in later. In that vintage, expect galvanized steel supply lines that pinhole from the inside out and cast iron drains that scale and crack, plus a real chance of asbestos in floor tile, mastic, or texture and lead paint under later coats. That changes demolition sequencing, not just drying.
+
+Sandy valley and dune-influenced soils drain quickly but wash out around footings and undermine crawlspace piers. Structural repair and rebuild work is permitted through the City of Guadalupe, under the statewide California Building Code as adopted locally.
+
 If you're dealing with water intrusion, visible mold, smoke odor, or any other property damage in Guadalupe, the right move is to call before the problem gets larger. Reach Coastal Restoration Services Inc at **(805) 345-7440**.

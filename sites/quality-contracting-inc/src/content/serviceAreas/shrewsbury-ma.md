@@ -45,4 +45,10 @@ The Route 9 commercial corridor brings its own set of challenges: retail and res
 
 Quality Contracting, Inc. is headquartered in Auburn, MA, which puts Shrewsbury roughly 10 to 12 miles away via Route 20 east or a quick run up I-290 to Route 9. The White City Shopping Center area and the Town Center are straightforward drives from our Auburn shop. Edgemere and the Lake Quinsigamond shoreline neighborhoods are accessible via Route 9 across the Kenneth F. Burns Bridge — a route our crews know well. Call us at (508) 756-8800 during business hours and we'll get a crew scheduled and on the road to your property promptly.
 
+## Building stock, site conditions, and permits in Shrewsbury
+
+Most of Shrewsbury's older stock sits on poured concrete or block foundations with full basements, and the pre-war houses closer to the Town Center often have fieldstone walls and plaster over wood or rock lath. Plaster holds water differently than drywall — it stays wet behind the finish long after the surface feels dry. Central Massachusetts sits on glacial till with ledge close to the surface in places, so groundwater tends to move sideways along the footing rather than drain straight down.
+
+Age brings hazards a scope has to plan around: asbestos in floor tile, mastic, and boiler pipe wrap, and lead paint in anything built before 1978. Massachusetts work follows the state building code, and structural repair, reframing, roofing, plumbing, and electrical work are permitted through Shrewsbury's own building department before the rebuild starts.
+
 If you're dealing with water, fire, or mold damage at a Shrewsbury property, call Quality Contracting, Inc. at **(508) 756-8800**. We'll assess the damage, walk you through the next steps, and handle the insurance coordination so you can focus on getting your property back to normal.

@@ -49,4 +49,12 @@ Once mitigation is complete, we handle the rebuild — drywall, flooring, cabine
 
 HomeLyft Restoration MS is based in Gulfport, which sits directly adjacent to Long Beach along U.S. 90. The drive from our Gulfport headquarters to the heart of Long Beach is typically under 15 minutes via U.S. 90 west, with access to neighborhoods throughout the city straightforward from that corridor. Properties north of the rail line are reached via Jeff Davis Avenue or Klondike Road. Our scheduling team can give you a realistic arrival window when you call — (228) 284-5200 — based on current crew availability and job load.
 
+## Building stock, site conditions, and permits in Long Beach
+
+Homes here run from small frame cottages with wood siding over shiplap sheathing to slab-on-grade ranches and newer elevated construction on piles or block piers. In anything built before the late 1970s, expect galvanized supply lines that rust closed from the inside, cast iron drains that scale and crack at the hub, and finishes that can carry lead paint or asbestos in tile, mastic, and joint compound — that changes how we cut and haul debris, not just how we dry.
+
+The ground is largely sand and sandy loam over a shallow water table, so water drains fast but crawlspaces stay damp and vented under-floor insulation sags once wet.
+
+Permits for structural repair or rebuild come through the City of Long Beach. Coastal Mississippi work also carries high-wind requirements, and flood-zone properties face substantial-improvement rules once repair costs climb.
+
 If you are dealing with water, fire, mold, or storm damage at a Long Beach property, call HomeLyft Restoration MS at **(228) 284-5200**. We will walk you through the next steps, help you understand what your insurance policy covers, and get a crew scheduled to your property.

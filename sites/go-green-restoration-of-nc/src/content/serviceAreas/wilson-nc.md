@@ -47,4 +47,10 @@ When a tropical system or a fast-moving thunderstorm pushes through Wilson Count
 
 Go Green Restoration of NC is headquartered in Middlesex, roughly 25 to 30 miles northwest of Wilson via US-264 East. That puts us well within practical same-day response range for calls received during business hours. We serve all of Wilson's ZIP codes, including 27893 and 27896, and regularly work throughout the city — from properties near Barton College and the Wilson Medical Center area to residential streets in established neighborhoods across the county. If you're a property manager handling multiple units, we can coordinate a site visit and scope of work without requiring you to be on-site for the full assessment.
 
+## Building stock, site conditions, and permits in Wilson
+
+Downtown Wilson and the older streets around Barton College hold a lot of pre-war frame houses: plaster over wood lath, board sheathing, and brick pier foundations. Wet plaster holds water far longer than drywall and has to be dried in place or cut back carefully, since anything painted before 1978 may carry lead and older floor tile, mastic, and pipe wrap can contain asbestos. Supply lines in those homes are often galvanized steel or early copper with cast iron drains; the 1970s-90s subdivisions can still have polybutylene, which tends to fail at the fittings without warning.
+
+Soils here are sandy loam over clay, so water spreads sideways under a house rather than draining away. Structural repair or rebuild inside the city is permitted through Wilson's inspections office under the North Carolina building code; cosmetic replacement usually is not.
+
 If you're dealing with water, fire, mold, or storm damage at a Wilson property, call Go Green Restoration of NC at (919) 906-5473 during business hours. We'll walk you through what to expect, answer questions about your insurance coverage, and get a crew scheduled to your address.

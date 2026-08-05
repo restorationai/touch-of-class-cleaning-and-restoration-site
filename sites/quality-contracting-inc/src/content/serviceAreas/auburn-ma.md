@@ -49,4 +49,12 @@ Once mitigation is complete, many property owners prefer a single contractor to 
 
 Because Quality Contracting, Inc. operates out of Auburn, getting to any part of the city means short local drives — not highway runs from a distant metro office. Properties near the Auburn Mall area along Washington Street, homes in the residential streets off Pakachoag Hill, and addresses out toward the Millbury line are all within a few minutes of our base. Route 20 and Route 12 give us direct access across the city without navigating around Worcester's grid. We schedule promptly and will give you a realistic arrival window when you call — reach us at **(508) 756-8800**.
 
+## Building stock, site conditions, and permits in Auburn
+
+Underneath the mid-century and later housing there is an older layer in Auburn: farmhouses and early-1900s homes with plaster-and-lath walls, fieldstone or rubble foundations, and knob-and-tube wiring left in place behind the finishes. Plaster holds water far longer than drywall, and it has to be drilled and dried rather than simply cut out. Anything built before 1978 also means lead paint, and pre-1980 basements often carry asbestos pipe wrap or floor tile that changes how demolition gets sequenced.
+
+The ground here is glacial till with shallow ledge in places — dense, slow-draining soil that holds water against foundation walls instead of letting it move away.
+
+Permits for structural repair and rebuild come from the Town of Auburn building department under the Massachusetts State Building Code, with separate electrical and plumbing permits from the town's inspectors.
+
 If you are dealing with water, smoke, mold, or structural damage at an Auburn property, the fastest next step is a phone call. Reach Quality Contracting, Inc. at **(508) 756-8800** to describe what you are seeing and get a clear picture of what comes next.

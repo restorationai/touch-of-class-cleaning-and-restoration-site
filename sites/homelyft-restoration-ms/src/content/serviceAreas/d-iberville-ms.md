@@ -49,4 +49,10 @@ After mitigation is complete, many D'Iberville homeowners need more than drying 
 
 From our Gulfport headquarters, D'Iberville is a straightforward run — typically east on I-10 or US-90, crossing into Harrison County and reaching the city in under 30 minutes under normal traffic conditions. We can reach properties near the Promenade retail area, neighborhoods along Sangani Boulevard, and residential streets closer to the Back Bay without the routing complications that affect more remote parts of the Coast. We schedule promptly and will give you an honest arrival window when you call — we don't make blanket minute-response promises, but D'Iberville is genuinely close and a priority part of our coverage map.
 
+## Building stock, site conditions, and permits in D'Iberville
+
+Homes here run the range from mid-century wood-frame cottages to subdivisions built through the 1990s and 2000s, so the guts vary a lot. In the older stock we plan for galvanized supply lines that rust closed from the inside, cast iron drains that scale and crack, and 1990s-era polybutylene that fails at the fittings. Anything built before 1978 gets treated as lead-painted until proven otherwise, and pre-1980 sheet flooring, mastic, and textured ceilings are handled as possible asbestos.
+
+The ground is sandy coastal-plain soil with a shallow water table near the bay, which means water leaves a slab or crawlspace slowly and vapor keeps coming back up. Structural repair and rebuild permits come from the City of D'Iberville. Flood-zone elevation rules and Mississippi's coastal wind provisions drive most of the rebuild scope.
+
 If you're facing a water, fire, mold, or storm loss in D'Iberville, call HomeLyft Restoration MS at (228) 284-5200. We'll walk you through what to expect before we arrive and keep you informed at every step of the process.

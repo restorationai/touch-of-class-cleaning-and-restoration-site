@@ -49,4 +49,10 @@ When a Gulf system tracks inland, Poplarville can see downed trees, damaged roof
 
 HomeLyft Restoration MS is headquartered in Gulfport. Poplarville is approximately 65 miles north via US-49, a direct route that runs through Hattiesburg before continuing into Pearl River County. Travel time varies with traffic and weather conditions — we will give you an honest estimated arrival when you call, not a number pulled from a marketing page. Poplarville proper, the areas surrounding Pearl River Community College, and the rural roads extending into the county are all within our service footprint. Call us at (228) 284-5200 to confirm scheduling for your specific address.
 
+## Building stock, site conditions, and permits in Poplarville
+
+Older homes here are typically wood frame with brick veneer or lap siding, asphalt shingles over plank or plywood decking, and raised pier foundations — so water that gets past the envelope ends up in the joists and subfloor rather than pooling where you can see it. Newer construction on the edges of town leans slab-on-grade, which hides leaks under the finish flooring instead. Expect galvanized or copper supply lines and cast iron drains in mid-century houses, polybutylene in some late-80s and early-90s work, and asbestos-containing floor tile, mastic, or joint compound plus lead paint in anything pre-1978. That changes how demolition is scoped.
+
+Structural repair and rebuild permits come from the City of Poplarville for addresses inside the limits and from Pearl River County outside them. Work in a mapped floodplain along the creeks adds its own review.
+
 If you are dealing with water, mold, fire, or storm damage at a Poplarville property, call HomeLyft Restoration MS at **(228) 284-5200**. We will talk through what you are seeing, help you understand the next steps, and get a crew scheduled.

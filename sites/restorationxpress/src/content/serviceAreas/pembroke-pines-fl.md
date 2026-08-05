@@ -49,4 +49,12 @@ Once mitigation is complete, many property owners in the 33024 and 33028 ZIP cod
 
 RestorationXpress is based in Davie, which puts us roughly 5 to 8 miles from most Pembroke Pines neighborhoods depending on traffic. University Drive runs directly north into the heart of the city, connecting our crew to Pembroke Lakes Mall-area properties and the subdivisions east of Flamingo Road. Pines Boulevard is the main east-west corridor we use to reach Chapel Trail and Pembroke Isles on the western edge of the city, and I-75 provides a fast route to Grand Palms and the communities near the Chapel Trail Nature Preserve. We schedule promptly and will give you a realistic arrival window when you call — (954) 964-6471.
 
+## Building stock, site conditions, and permits in Pembroke Pines
+
+East of Flamingo Road, in 33023 and 33024, much of the stock is 1960s and 1970s concrete-block-and-stucco ranch homes. Those walls hold water in the furring strips and interior drywall long after the block itself looks dry, and their original cast iron drain lines are now scaling and cracking at the slab penetration. Renovation work in that vintage also has to plan around asbestos-containing floor tile and mastic before demolition starts.
+
+The western subdivisions sit on filled and drained wetland ground laced with canals, which is why grading and swale elevations matter so much there.
+
+Permits for structural repair and rebuild come from the City of Pembroke Pines building division. Broward County falls inside the Florida Building Code's High-Velocity Hurricane Zone, so roof, window, and opening work carries stricter attachment and product-approval requirements than most of the state.
+
 If you're dealing with water, fire, mold, or storm damage anywhere in Pembroke Pines — from the 33023 corridor near the Broward-Miami-Dade line to the newer developments in 33029 — call RestorationXpress at **(954) 964-6471**. We'll assess the damage, give you a straight answer about what it will take, and get to work.

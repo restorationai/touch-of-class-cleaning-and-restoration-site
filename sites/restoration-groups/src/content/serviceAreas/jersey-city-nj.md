@@ -49,4 +49,12 @@ Combined-sewer backups are a chronic reality in parts of Jersey City, particular
 
 Kenilworth sits roughly 12 to 15 miles from Jersey City, with the most direct route running east on Route 22 to the Garden State Parkway, then north to the New Jersey Turnpike and across to the Holland Tunnel corridor or the Pulaski Skyway into Journal Square and points south. Traffic on that corridor is real — we factor it in and dispatch as soon as a call comes in, 24 hours a day. Downtown Jersey City (07302) and Newport (07310) are accessible via the Turnpike's Exit 14C. The Heights (07307) and Bergen-Lafayette (07304) typically route through Journal Square. We serve all Jersey City ZIP codes, including 07302, 07304, 07305, 07306, 07307, and 07310.
 
+## Building stock, site conditions, and permits in Jersey City
+
+The prewar rowhouses and brownstones inland are usually brick party walls with plaster over wood lath, wood-joist floors, and a full cellar behind fieldstone or brick foundation walls. Plaster holds water long after the surface feels dry, so drying means metering the lath cavity rather than trusting a dry paint face. Anything built before 1978 also raises lead paint, and pre-war buildings can still hide knob-and-tube wiring, asbestos pipe insulation, and galvanized supply lines feeding cast-iron drain stacks that rot from the inside.
+
+Ground varies sharply. The Heights sits on the hard Palisades ridge; the waterfront blocks are largely fill over old river silt, which is why cellars and below-grade garages there stay wet.
+
+In New Jersey, work is governed by the statewide Uniform Construction Code, and structural repairs, rewiring, and re-piping pull permits through Jersey City's construction code office under the relevant subcodes.
+
 If you're dealing with water, fire, mold, or sewage damage anywhere in Jersey City, call The Restoration Group at **(908) 970-8533** — we answer every hour of every day and can begin coordinating your response immediately.

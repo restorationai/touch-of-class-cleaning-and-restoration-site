@@ -51,4 +51,10 @@ After water, fire, or mold damage, many valley properties need more than cleanup
 
 Our Bakersfield headquarters puts us approximately 45 to 50 road miles from Lake Isabella via Highway 178 — a scenic drive that takes roughly an hour under normal conditions. The canyon road can slow in winter weather or during high-traffic summer weekends, so we factor route conditions into every dispatch. Because we operate 24/7, a call at 2 a.m. from a property manager in Bodfish or a homeowner in South Lake reaches a live dispatcher, not a voicemail. We serve all named communities in the valley, including Lake Isabella proper, Mountain Mesa, Bodfish, and South Lake, and we are familiar with the access roads and property types in each.
 
+## Building stock, site conditions, and permits in Lake Isabella
+
+Much of the valley's housing is mid-century and later: small wood-framed cabins, ranch houses, and a large share of manufactured homes. Cabins tend to sit on raised post-and-pier or shallow crawlspaces rather than basements, so a supply line that runs unnoticed soaks joists, subfloor, and ductwork from below. Older units commonly have galvanized steel or early plastic supply lines, and anything built before 1978 should be treated as possible lead paint, with asbestos likely in pre-1980 floor tile, texture, and joint compound until testing says otherwise. Granitic, sandy soils drain quickly but scour easily on burn-scarred slopes.
+
+Lake Isabella is unincorporated, so building permits for structural repair or rebuild come through Kern County, under the California Building Code. Rebuilds in state-responsibility wildfire areas generally trigger ignition-resistant exterior requirements.
+
 If you are dealing with water, fire, smoke, or mold damage anywhere in the Kern River Valley, call ProRestoration Services at **(661) 393-9306** — we answer every hour of the day and can begin coordinating your response immediately.

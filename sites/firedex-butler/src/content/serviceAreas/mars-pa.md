@@ -49,4 +49,10 @@ Once mitigation is complete, a separate contractor handoff adds time and coordin
 
 FireDEX Butler's Cranberry Township headquarters sits roughly 5 to 7 miles from Mars Borough via Route 228 — a direct shot that keeps drive times short under normal traffic conditions. Adams Township neighborhoods including Adams Ridge are similarly close, and the Callery and Middlesex Township fringe areas fall within the same tight service radius. Because we operate 24/7, a call at 2 a.m. after a sump pump failure during a spring storm gets the same response as a weekday afternoon call. We'll tell you honestly when to expect a crew on-site based on current conditions — we don't publish minute guarantees we can't always keep.
 
+## Building stock, site conditions, and permits in Mars
+
+Pre-war homes in the borough tend to carry plaster over wood lath, which holds water far longer than drywall and has to be probed rather than trusted by eye. In that vintage you also plan around knob-and-tube remnants, lead paint under later coats, and asbestos in old pipe wrap and floor tile — all of which change how demolition is scoped. The 1990s-and-later plans out toward Adams Township are poured-wall basements with copper or PEX supply, so the water usually travels along framing and under floating floors.
+
+Soils here are clay-heavy over shale and sandstone, so hillside lots shed water toward footings and footing depth follows western Pennsylvania frost practice. Repairs fall under the statewide Uniform Construction Code, with permits issued by the borough or township code office where the property sits.
+
 If you're dealing with a water, fire, mold, or smoke emergency anywhere in Mars, Adams Township, or the surrounding 16046 area, call FireDEX Butler at **(724) 452-7400** — we answer around the clock and can walk you through immediate steps while a crew is dispatched.

@@ -55,4 +55,12 @@ When structural repairs follow a water, fire, or mold job, we carry the work thr
 
 The Restoration Group is based in Kenilworth, which shares a border with Union Township. From our yard, crews reach Vauxhall and the Morris Avenue corridor within minutes via Route 82. Union Center, Battle Hill, and Washington are a short drive north. Putnam Ridge and Larchmont sit at the township's far edges but are still well within our primary service footprint. Because we operate 24/7, dispatch happens regardless of when the call comes in — middle of the night, holiday weekend, or rush hour on Route 22.
 
+## Building stock, site conditions, and permits in Union
+
+Below the postwar layer, Union has older housing near Liberty Hall and parts of Union Center built with plaster and wood lath over rock-lath — those walls hold water far longer than drywall and need drying from the cavity side rather than demolition by default. Mid-century homes here commonly carry asbestos-containing floor tile, tile mastic, and pipe insulation in the basement, plus lead paint on anything painted before 1978, so testing comes before demolition on a scope of any size.
+
+Foundations are mostly poured concrete or hollow block over Piedmont clay and glacial till, which drains slowly and keeps hydrostatic pressure on basement walls for days after a storm.
+
+Structural repair and rebuild work is permitted through Union Township's construction office under the New Jersey Uniform Construction Code, with separate building, plumbing, electrical, and fire subcode approvals.
+
 If you're dealing with a loss in Union right now — or want to talk through a situation before it gets worse — call **(908) 970-8533**. We answer around the clock, and our crews are close.

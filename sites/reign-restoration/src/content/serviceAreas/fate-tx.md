@@ -49,4 +49,12 @@ Mitigation is only half the job. Once the structure is dry and clean, Reign Rest
 
 Royse City and Fate share a border, and US-380 connects our HQ directly to the heart of Fate in a straightforward drive under normal traffic conditions. Whether a call comes from the established neighborhoods near Fate's original town center or from the newer subdivisions that have expanded toward the Hunt County line, we're closer than most DFW-based restoration companies that list Fate as a service area but dispatch from the far side of the metro. We schedule promptly and communicate an estimated arrival time when you call — (214) 304-0621.
 
+## Building stock, site conditions, and permits in Fate
+
+Most of Fate's homes are young enough that supply lines are PEX or CPVC rather than copper, and the failures we see reflect that: fittings at manifolds, and lines run through unconditioned attics that split during a hard North Texas freeze. Older houses near the original townsite are a different animal, with cast iron or galvanized drains that scale shut and back up into finished space.
+
+Many newer subdivisions here are built on graded pads and engineered fill, and slabs are often post-tensioned. That matters during demolition — cutting a slab to reach a leak is not a job for a saw and a guess, and tendon locations have to be identified first.
+
+Structural repair and reroofing generally require a permit from the City of Fate, and subdivisions with active HOAs often add their own approval step for exterior materials and colors.
+
 If you're dealing with water, fire, smoke, or mold damage at a Fate property, call Reign Restoration at **(214) 304-0621**. We'll assess the situation, explain what needs to happen, and get to work.

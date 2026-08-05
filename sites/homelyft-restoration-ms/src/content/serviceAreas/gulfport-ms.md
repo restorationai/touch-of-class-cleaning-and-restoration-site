@@ -45,4 +45,12 @@ Gulfport also sees a steady pattern of fire and smoke calls tied to aging electr
 
 Because HomeLyft Restoration MS operates out of Gulfport, reaching properties across the city means short drives rather than long hauls. We serve the full length of Gulfport from the beachside corridor along US-90 north through the neighborhoods that run up toward US-49. Harrison County's road grid is straightforward, and we're already positioned inside it. When you call, you're not waiting for a team to drive in from another metro — scheduling is prompt, and we work to get eyes on your property as quickly as possible during our business hours.
 
+## Building stock, site conditions, and permits in Gulfport
+
+Most Gulfport houses of the mid-century era sit on slab-on-grade with wood-frame walls and low-slope or shallow-pitch shingle roofs; older coastal cottages were often built raised on piers with a vented crawl space beneath. That difference matters once water is in the assembly — a slab wicks moisture into bottom plates and flooring adhesive, while a pier-and-beam floor traps humid air under the subfloor.
+
+Plumbing vintage tracks the same years: cast iron drains, copper supply, and polybutylene in later work. Homes predating 1978 can carry lead paint, and asbestos turns up in old floor tile, mastic, and ceiling texture, so demolition gets planned around that.
+
+The city issues building permits, and structural repair, roofing, or rebuild work generally requires one. Coastal Mississippi wind provisions and FEMA flood-zone elevation rules shape what a rebuild has to meet.
+
 If you're dealing with water, fire, mold, or any other property damage in Gulfport, call HomeLyft Restoration MS at (228) 284-5200. We'll assess the situation honestly, walk you through what the work involves, and get your property moving toward dry, clean, and repaired.

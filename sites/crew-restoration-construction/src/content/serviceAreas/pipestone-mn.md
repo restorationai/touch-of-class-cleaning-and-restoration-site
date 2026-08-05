@@ -49,4 +49,12 @@ Mitigation is only half the job. Once the structure is dry and clean, Crew Resto
 
 Crew Restoration & Construction is headquartered in Sioux Falls, SD. Pipestone is approximately 75 miles northeast of Sioux Falls via US-18 East — a straightforward drive across the state line into southwest Minnesota. We serve the full 56164 ZIP code, including the Hiawatha area, the Downtown Pipestone Historic District, and surrounding rural properties. Scheduling is handled by phone at (605) 965-2727. Because our hours were not listed at the time this page was published, we recommend calling during business hours to confirm availability and get a crew dispatched promptly.
 
+## Building stock, site conditions, and permits in Pipestone
+
+Most of Pipestone's houses date from the late 1800s through the mid-twentieth century, which means full basements under wood-frame walls, lath-and-plaster or early gypsum board inside, and little to no vapor barrier in the wall cavity. When water enters that assembly, the plaster holds moisture long after the surface feels dry, so drying is measured from inside the cavity rather than at the paint.
+
+Plumbing of that vintage is usually galvanized steel supply and cast iron drain, and both fail from the inside out — pinholes and scale rather than a clean break. Anything built before the 1980s should be treated as potentially containing asbestos or lead paint until tested. Glacial till over shallow Sioux quartzite keeps snowmelt near the surface, pressing against basement walls each spring.
+
+Structural repair and rebuild work inside city limits is permitted through the City of Pipestone under the Minnesota State Building Code; rural properties go through the county.
+
 If you're dealing with water, fire, mold, or structural damage at a Pipestone property, call Crew Restoration & Construction at **(605) 965-2727**. We'll talk through what you're seeing, explain the next steps, and get the right crew scheduled.

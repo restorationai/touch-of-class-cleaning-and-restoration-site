@@ -53,4 +53,12 @@ Some losses — a roof collapse from a fallen limb, a fire that damaged a load-b
 
 Duncanville and DeSoto share a border. From our location, the most direct route into DeSoto's core neighborhoods runs east on Belt Line Road or south on Hampton Road — both put us into Thorntree, Windmill Hill, and the Meadow Creek area without highway delays. Zeiger Park and DeSoto Town Center are similarly close. We serve the full 75115 ZIP code and schedule crews as quickly as our current dispatch allows; call (682) 772-9123 to get an accurate arrival window based on the day's workload.
 
+## Building stock, site conditions, and permits in DeSoto
+
+Almost nothing here has a basement. DeSoto homes sit on slab-on-grade over Blackland Prairie clay, with brick veneer over wood framing and HVAC equipment and ductwork in the attic. That combination shapes every water loss: a supply leak wicks under tack strip and into bottom plates rather than draining away, and an attic condensate or coil failure travels down interior walls before it shows on a ceiling.
+
+Plumbing vintage matters. Mid-1970s houses often still have cast iron drain lines that scale and crack as the clay moves, while late-1980s and early-'90s builds may carry polybutylene supply with its familiar fitting failures. Attic runs are the freeze risk in North Texas, not buried lines.
+
+Structural repair, reroofing, and rebuild work is permitted and inspected by the City of DeSoto; we pull it before framing starts.
+
 If you're dealing with water, storm, fire, or mold damage anywhere in DeSoto, call MCC Restoration and Contracting Services at **(682) 772-9123**. We'll assess the damage, walk you through the scope of work, and coordinate directly with your insurance carrier so the process moves without unnecessary delays.

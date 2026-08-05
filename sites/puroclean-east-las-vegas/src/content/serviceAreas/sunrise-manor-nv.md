@@ -51,4 +51,12 @@ We provide discreet, professional biohazard cleanup for property managers and fa
 
 Our team is based in East Las Vegas, which puts Sunrise Manor directly in our backyard. The drive from our location to neighborhoods near Sunrise Mountain and Sunrise Hospital typically runs along Flamingo Road or Boulder Highway — both direct routes with no freeway dependency. Nellis Meadows, Sunrise Vista, and the streets bordering Nellis Air Force Base are all within a short drive under normal traffic conditions. Because we're not coming from the west side of the valley, we're not fighting I-15 or the 215 interchange to reach you. Call us at (702) 551-3040 to confirm scheduling availability.
 
+## Building stock, site conditions, and permits in Sunrise Manor
+
+Sunrise Manor is unincorporated Clark County, so structural repair, reroofing, electrical, and mechanical work is permitted through the county's building and fire prevention department rather than the City of Las Vegas. Full-depth drywall replacement usually does not trigger a permit; framing changes, panel work, and rebuild scopes do.
+
+Nearly everything here sits on slab-on-grade — basements are rare across the valley — often over caliche, a cemented hardpan that sheds water sideways instead of absorbing it. That means a supply-line break travels under tile and laminate along the slab rather than draining away.
+
+Wall assemblies are typically wood frame with stucco, plus CMU block on some older single-story homes. In pre-1980 houses, expect cast iron or galvanized drain lines, and treat popcorn ceilings, joint compound, and floor mastic as possible asbestos until sampled. Pre-1978 paint gets lead-safe handling.
+
 If you're dealing with water, fire, mold, or biohazard damage anywhere in Sunrise Manor — from 89101 to 89156 — call PuroClean of East Las Vegas at **(702) 551-3040**. The sooner the drying equipment is running, the less material ends up in a dumpster.

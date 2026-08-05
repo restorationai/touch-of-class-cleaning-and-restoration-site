@@ -43,4 +43,10 @@ After mitigation is complete, many property owners in the 51038 area need a cont
 
 Crew Restoration & Construction is headquartered in Sioux Falls, SD. Merrill is roughly 75 miles southeast of Sioux Falls via I-29 South to the Le Mars area, then east on Highway 3 into Plymouth County. The route is a straightforward interstate and two-lane highway drive. Crew serves all of Merrill's neighborhoods, including Downtown Merrill and East Merrill, as well as surrounding Plymouth County properties. Because hours of availability are not listed here, we encourage property owners to call (605) 965-2727 to confirm scheduling and current response availability for your specific situation. When you call, describing the location — whether it's a riverside property near Merrill City Park or a home on the east side of town — helps the team route appropriately.
 
+## Building stock, site conditions, and permits in Merrill
+
+Older houses in town tend to have full basements or shallow crawl spaces under a wood-framed first floor, with plaster and wood lath behind the paint in the oldest ones. Plaster holds water differently than drywall — it stays wet inside the wall cavity long after the surface feels dry, so the drying plan has to reach the lath and framing rather than the finish. Homes predating the late 1970s should be treated as possibly containing lead paint, and asbestos can show up in old floor tile, mastic, and pipe insulation, so testing comes before demolition.
+
+The Floyd River valley leaves silty, easily saturated soil against foundation walls, and footings here sit well below a frost line measured in feet. Permits for structural repair or rebuild go through the city, and properties inside the mapped floodplain face additional review when repair costs are substantial.
+
 If you're dealing with water, fire, mold, or structural damage at a Merrill property, call Crew Restoration & Construction at **(605) 965-2727**. Describe what you're seeing and where the property is located, and the team will walk you through next steps and scheduling.

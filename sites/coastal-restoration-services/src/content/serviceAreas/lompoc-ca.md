@@ -51,4 +51,12 @@ Once mitigation is complete, many property owners don't want to manage a separat
 
 Our Vandenberg Village headquarters sits just a few miles east of Lompoc along Highway 1 and Purisima Road — a straightforward drive with no significant traffic corridors between us and the city. Whether a call comes from the older neighborhoods near downtown Lompoc or from properties closer to the Highway 246 corridor, our crew is not crossing a mountain range or navigating a congested freeway to reach you. Call us at **(805) 345-7440** and we'll give you a realistic arrival estimate based on current crew availability.
 
+## Building stock, site conditions, and permits in Lompoc
+
+Lompoc sits on the flat alluvial floor of the Santa Ynez River valley, so the ground under most homes is sandy river deposit rather than the expansive clay found further inland. It drains reasonably well, but the valley floor also means shallow groundwater in places, which is why full basements are essentially absent here and crawlspaces stay damp long after the winter rains end.
+
+Stucco over wood framing with composition shingle or low-slope roofing dominates. Anything built before 1980 may carry asbestos in popcorn ceilings, floor tile, or duct wrap, and pre-1978 paint should be treated as lead-bearing until tested — both change the demolition scope.
+
+For properties inside the city limits, building permits come from the City of Lompoc, not the county. Structural repair, rewiring, and reroofing typically trigger one under the California Building Code.
+
 If you're dealing with a water, fire, or mold emergency in Lompoc, call Coastal Restoration Services Inc at **(805) 345-7440**. We'll walk you through what to expect before anyone sets foot on your property.

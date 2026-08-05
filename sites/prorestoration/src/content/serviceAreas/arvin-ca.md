@@ -49,4 +49,12 @@ Once mitigation is complete, many homeowners and property managers need a single
 
 Arvin is approximately 25 miles southeast of our Bakersfield headquarters via Highway 58 east to Highway 223 south — a straightforward drive with minimal traffic outside of morning agricultural commute windows. We cover all of Arvin's 93203 ZIP code, including the Downtown Arvin area, the Bear Mountain Boulevard corridor, the Sycamore Road area, and properties along the Highway 223 corridor near Arvin High School and Di Giorgio Park. Because we operate 24/7, a call at 2 a.m. after a water heater failure gets the same dispatch process as a weekday afternoon call.
 
+## Building stock, site conditions, and permits in Arvin
+
+Much of Arvin's housing went up in the decades after World War II, and rebuilding after the 1952 Kern County earthquake — which hit this end of the valley hard — shaped a lot of what stands today. Expect stucco over wood frame, composition shingle roofs, and mostly slab-on-grade, with raised perimeter foundations and shallow crawlspaces on the oldest downtown lots. On a slab, water tracks under flooring and up into bottom plates instead of draining anywhere.
+
+Plumbing vintage matters. Galvanized supply and cast iron drains in pre-1960 homes fail from the inside out, and copper of that era pinholes. Anything built before 1978 gets treated as lead-paint suspect, and pre-1980 flooring, ceiling texture and pipe wrap as possible asbestos until tested.
+
+Structural repair and rebuild permits inside city limits go through the City of Arvin; outside them, Kern County. California Building Code and Title 24 apply, and seismic detailing is not optional here.
+
 If you're dealing with water, fire, mold, or storm damage at a property in Arvin, call ProRestoration Services at **(661) 393-9306** — we're available around the clock and we'll walk you through next steps in English or Spanish.

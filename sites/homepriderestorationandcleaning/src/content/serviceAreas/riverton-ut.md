@@ -47,4 +47,12 @@ Unattended deaths, sewage backups, and trauma scenes require personal protective
 
 From our Saratoga Springs headquarters, we reach Riverton in 20–30 minutes under normal traffic conditions — roughly the same drive time as heading up Bangerter Highway to the 12600 South corridor. Neighborhoods in the 84065 ZIP code on the western side of the city are typically on-site within 25 minutes; addresses in the 84096 ZIP code near the Mountain View Corridor are often faster. We staff emergency lines 24 hours a day, and our goal is a technician at your door — not just a callback — within 60 minutes of your call to (801) 995-2437.
 
+## Building stock, site conditions, and permits in Riverton
+
+Most Riverton homes are wood-framed two-stories over a full basement, which is the valley standard — footings go below frost depth anyway, so the basement comes nearly free. That matters after a loss, because the basement is usually finished: carpet over concrete, framed walls with insulation in the cavity, and a mechanical room. Water there soaks the bottom plate and the wicking edge of the drywall, and drying means opening the assembly rather than running fans in the room.
+
+Scattered among the subdivisions are older farm-era houses from Riverton's agricultural years. Those can bring lath, older wiring, and asbestos-containing materials into a scope, so sampling comes before demolition.
+
+Structural repair and rebuild permits come from Riverton City's building division under the state-adopted code. Utah sits in a high seismic design category along the Wasatch Front, so replacing shear walls, headers, or foundation work gets inspected — not patched quietly.
+
 If you're dealing with water, fire, mold, or any other property emergency in Riverton right now, call Home Pride Restoration and Cleaning at **(801) 995-2437**. We answer every call live, we dispatch from nearby, and we've been doing this work in the Salt Lake Valley since 1997.

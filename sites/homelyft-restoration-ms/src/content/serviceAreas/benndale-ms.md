@@ -53,4 +53,12 @@ Once mitigation is complete, HomeLyft can carry the project through to finished 
 
 Benndale is located in George County, roughly 70 miles northeast of HomeLyft's Gulfport headquarters. The primary route runs US-49 North through Hattiesburg and connects to MS-63 into George County, with the final leg on local roads into Benndale. Depending on traffic and time of day, that drive typically runs between 90 minutes and two hours. HomeLyft schedules Benndale calls with that drive time factored in and communicates realistic arrival windows when you call — we don't promise what we can't deliver. For active water intrusion, the priority is always getting extraction equipment on-site as quickly as scheduling allows.
 
+## Building stock, site conditions, and permits in Benndale
+
+Benndale is unincorporated, so there is no city hall to pull a permit from — building and electrical permitting for work here runs through George County, and it is usually the structural side that triggers it: replacing floor framing or joists, re-roofing, rebuilding walls, or reworking service and panel locations after a fire. Straight like-for-like drying and cleanup normally does not.
+
+Older wood-frame houses in this part of the pine belt were plumbed with galvanized supply and cast iron drains that rust from the inside and weep slowly under floors; polybutylene shows up in later-1970s-through-1990s work and fails at the fittings. Anything predating 1978 gets treated as lead-painted until tested, and pre-1980 floor tile, sheet-vinyl backing, and joint compound get handled as possible asbestos before demolition.
+
+Sandy coastal-plain soil drains fast at the surface but perches water over tighter clay layers, which is why crawlspaces here stay damp long after the yard looks dry. Manufactured and modular homes are common locally, and their belly wrap holds water instead of shedding it.
+
 If you're dealing with water, fire, mold, or sewage damage at a Benndale property, call HomeLyft Restoration MS at (228) 284-5200. We'll talk through what you're seeing, give you an honest assessment of next steps, and schedule a crew to get out to George County as soon as possible.

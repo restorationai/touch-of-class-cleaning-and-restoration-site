@@ -49,4 +49,10 @@ Hail and straight-line winds along the I-90 corridor can strip roofing and sidin
 
 Crew Restoration & Construction is based in Sioux Falls, and Salem is a straightforward run west on I-90 — approximately 45 miles from our office to the 57058 ZIP code. We can reach the Downtown Salem area and the McCook County Fairgrounds area without navigating secondary county roads in most conditions. Winter travel on I-90 can add time during active blizzard warnings, and we will always communicate realistic arrival windows rather than overpromise. Call us at (605) 965-2727 to schedule a prompt response or to discuss the scope of an ongoing situation.
 
+## Building stock, site conditions, and permits in Salem
+
+Salem's housing runs older than the regional average — turn-of-the-century and pre-war homes near the courthouse square, then a mid-century layer, with farm properties on the edges. Full basements are the norm here because footings have to sit below a deep eastern South Dakota frost line, so almost every water loss ends up being a basement loss. Older interiors mean plaster and wood lath over dimensional framing, which holds water far longer than drywall and often has to be removed rather than dried. Expect galvanized supply lines and cast iron drains in the oldest homes, and treat pre-1980 flooring, mastic, and painted trim as suspect until tested.
+
+South Dakota leaves residential code adoption largely to local governments, so structural repair and rebuild permits come from the city for in-town addresses and from McCook County outside them. We confirm the requirement with the local office before framing or roof work starts.
+
 If you're dealing with water, fire, mold, or storm damage in Salem or anywhere in McCook County, call Crew Restoration & Construction at **(605) 965-2727**. We'll talk through what you're seeing, explain the next steps, and get a crew scheduled.

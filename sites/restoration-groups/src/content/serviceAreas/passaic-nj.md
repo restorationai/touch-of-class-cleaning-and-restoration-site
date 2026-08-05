@@ -49,4 +49,12 @@ Property managers overseeing buildings near the Main Avenue business district or
 
 Kenilworth sits roughly 12 to 14 miles southwest of Passaic via Route 22 East and the Garden State Parkway North, or through surface roads on Bloomfield Avenue. Because we operate 24/7, a call at any hour reaches a live dispatcher who can route the nearest available crew. Downtown Passaic, the Third Ward, and Rutherford Heights are all reachable without navigating the city's more congested interior corridors — crews typically enter from the southern end of the city and can reach most addresses in 07055 without significant delay. We do not quote a guaranteed on-site minute window, but same-day response is standard for active water or fire losses.
 
+## Building stock, site conditions, and permits in Passaic
+
+Most of Passaic's housing went up between roughly 1900 and 1940, which means plaster over wood lath on the interior, brick or wood-frame exterior walls, and full basements rather than slabs. Plaster holds water long after the surface feels dry, so drying a wall here usually means treating the cavity, not just the finish. Low-slope built-up and modified bitumen roofs on the rowhomes and mixed-use blocks leak at seams and parapets instead of shedding cleanly.
+
+That era also brings galvanized supply lines that pinhole from the inside, asbestos in old pipe wrap and 9x9 floor tile, and lead paint in anything pre-1978 — all of which change a demolition scope.
+
+Structural repair and rebuild work in Passaic is permitted through the city's construction code office under the New Jersey Uniform Construction Code. In mapped flood areas, the extent of repair can trigger elevation requirements.
+
 If you're dealing with an active loss in Passaic — water, fire, mold, or sewage — call The Restoration Group at **(855) 650-7422**. We answer around the clock, and we'll tell you exactly what to expect before we arrive.

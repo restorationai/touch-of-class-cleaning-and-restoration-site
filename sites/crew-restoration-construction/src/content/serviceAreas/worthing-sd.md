@@ -43,4 +43,10 @@ South Dakota's temperature swings compound the problem. Freeze-thaw cycles betwe
 
 Our Sioux Falls headquarters sits roughly 12 miles north of Worthing via I-29 — a straightforward run south to Exit 68 with no complicated routing. From there we can reach Downtown Worthing and East Worthing quickly, and we cover the full 57077 ZIP without treating outlying addresses as secondary stops. When you call (605) 965-2727, we'll give you an honest estimate of when a crew can be on-site based on current job load and scheduling — no vague promises, just a real answer.
 
+## Building stock, site conditions, and permits in Worthing
+
+Because footings here have to sit below a frost line that runs several feet down, full basements are the default rather than the exception — so most Worthing losses are below-grade losses, into finished drywall, carpet pad, and framing that sits on a cold slab. In the older homes near the core, expect plaster or early gypsum board, galvanized supply lines that scale shut and weep at the threads, and pre-1980 materials worth testing for asbestos in floor tile, mastic, and pipe wrap before demolition starts. Subdivision homes lean on PEX and engineered floor systems, and OSB I-joists lose strength fast once wet.
+
+Building permits for structural repair or rebuild come from the City of Worthing, with Lincoln County handling addresses outside the limits. Electrical and plumbing work is licensed at the state level in South Dakota.
+
 If you're dealing with water, smoke, mold, or structural damage at a Worthing property, the right move is a quick call before the problem compounds. Reach Crew Restoration & Construction at **(605) 965-2727** — we'll walk you through what to do right now and get a crew scheduled.

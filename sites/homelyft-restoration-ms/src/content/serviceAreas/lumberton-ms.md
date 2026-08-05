@@ -51,4 +51,12 @@ Once mitigation is complete, many property owners need more than drywall patches
 
 HomeLyft Restoration MS is headquartered in Gulfport, roughly 70 miles south of Lumberton via US-49 North. That route runs directly through Hattiesburg before continuing into Lamar County, making Lumberton one of the more straightforward inland service calls from the Gulf Coast. Scheduling is handled by phone at (228) 284-5200 — call during business hours to reach a team member who can confirm availability and get a crew dispatched. For properties along the US-98 corridor or the northern edges of Lamar County, travel time is similar; we route based on current crew location and job priority.
 
+## Building stock, site conditions, and permits in Lumberton
+
+Lumberton grew up as a timber town, so a good share of the older houses inside the city are wood-frame with heart-pine framing and floors, sitting on brick or block piers. That framing dries well if you get to it early, but tongue-and-groove flooring cups and lifts once it swells. Pre-1978 homes should be treated as lead-painted until testing says otherwise, and mid-century floor tile, mastic, and duct wrap can contain asbestos — both change how demolition is scoped.
+
+Plumbing vintage matters more than age alone: galvanized supply and cast-iron drains in the oldest homes, copper mid-century, polybutylene in 1980s work. South Mississippi still gets several hard freezes a winter, and uninsulated lines in open crawl spaces are where they split.
+
+Structural repairs inside the city limits are permitted by the city; outside them, Lamar County. In mapped flood zones, federal substantial-improvement rules can pull a rebuild up to current elevation standards.
+
 If you are dealing with water, fire, smoke, or mold damage at a Lumberton property, call HomeLyft Restoration MS at **(228) 284-5200**. A team member will walk through what you are seeing, explain the process, and get the right crew scheduled — so the damage stops spreading and the recovery starts.

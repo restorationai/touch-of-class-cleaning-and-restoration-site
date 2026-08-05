@@ -47,4 +47,10 @@ Once mitigation is complete, the same crew can handle the rebuild — drywall, f
 
 Crew Restoration & Construction operates out of Sioux Falls, roughly 45 miles west of Madison via I-90 East to SD-34. That route runs directly into Downtown Madison and puts the crew within reach of the Lake Herman area with a short additional drive south on SD-19. For property managers overseeing multiple units in the 57042 ZIP code, or for Prairie Village event staff dealing with an unexpected water issue, the team can be dispatched and en route promptly — call (605) 965-2727 during business hours to confirm scheduling and get an accurate arrival estimate based on current crew location.
 
+## Building stock, site conditions, and permits in Madison
+
+Much of Madison's older core was built with balloon-framed walls, plaster and lath over wood studs, and full basements — the standard here because frost depth in eastern South Dakota forces footings well below grade. Once water reaches a plaster wall, it hides behind the lath and dries slowly, so drying that assembly takes longer than drywall and often means controlled removal rather than fans alone. Homes from that era commonly still carry galvanized supply lines and cast iron drains, both of which fail from the inside out, plus asbestos-containing floor tile and mastic and pre-1978 lead paint that a demolition scope has to account for.
+
+The ground is glacial soil with seasonally high groundwater near the lake, which keeps basement and crawlspace moisture a year-round problem. Inside city limits Madison issues the building permit for structural repair and rebuild; cabins outside the limits fall to Lake County.
+
 If you're dealing with water, fire, smoke, or mold damage at a Madison property, call Crew Restoration & Construction at **(605) 965-2727**. Describe what you're seeing and the team will walk you through next steps, coordinate directly with your insurance carrier, and get a crew scheduled to assess and begin work.

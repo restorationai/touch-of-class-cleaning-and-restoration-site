@@ -51,4 +51,10 @@ Jackson County properties take a beating during Gulf hurricane season. We board 
 
 HomeLyft Restoration MS is headquartered in Gulfport, roughly 45 to 50 miles west of Escatawpa via I-10 East. That route is straightforward and well-traveled, and our crews are familiar with it. From the interstate, we reach the Escatawpa area by taking the Highway 63 corridor north, which puts us close to residential areas along the river and the communities that sit between Escatawpa and Moss Point. Call us to confirm scheduling and get a realistic arrival window based on current crew availability — we will give you a straight answer rather than a number that sounds good.
 
+## Building stock, site conditions, and permits in Escatawpa
+
+Escatawpa is unincorporated, so building permits for structural repair or rebuild generally come through Jackson County rather than a city hall. County review is typically triggered by structural framing work, roof replacement, electrical or mechanical changes, and by anything in a mapped FEMA flood zone, where elevation and substantial-improvement rules apply. Mississippi's coastal counties also carry wind-load and wind-borne debris requirements, so reroofing and sheathing repairs are worth confirming before work starts.
+
+The ground here is coastal-plain sand and loam over a shallow water table — no basements, and slab-on-grade homes from the 1970s onward sit low to grade. Houses of that vintage often still have cast iron drains, galvanized or early copper supply, and pre-1978 paint or asbestos-containing floor tile and mastic, all of which change how a demolition scope is written.
+
 If you are dealing with water, fire, smoke, or mold damage at an Escatawpa property, call HomeLyft Restoration MS at (228) 284-5200. We will walk you through what we are seeing, what the process looks like, and what you can expect — before any work begins.

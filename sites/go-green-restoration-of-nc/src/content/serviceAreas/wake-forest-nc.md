@@ -49,4 +49,12 @@ Once mitigation is complete, many homeowners don't want to manage a separate gen
 
 Go Agree Restoration of NC is headquartered in Middlesex, NC, roughly 35 miles southeast of Wake Forest via US-264 W and US-64 W. From there, we can reach the Heritage Wake Forest area, the neighborhoods around Rogers Road, and the older streets near South White Street without navigating through the core of Raleigh traffic. For property managers overseeing multiple units in Wake Forest's growing rental corridors, we can schedule assessments and coordinate access directly. We do not publish a guaranteed on-site minute window, but we prioritize active water intrusion and post-fire calls and will give you a realistic arrival estimate when you call.
 
+## Building stock, site conditions, and permits in Wake Forest
+
+Wake Forest's housing splits cleanly. Around the historic district you find late-1800s through mid-century houses on brick-pier crawl spaces, with plaster or early gypsum over lath and wood floors that cup and delaminate once water sits in the joist bays. Pre-1978 paint and pre-1980 sheet flooring, mastic, and pipe wrap mean testing before demolition rather than after. The subdivisions built from the 1990s onward sit on slabs or shallow crawl spaces with truss roofs and veneer walls; expect copper or PEX supply, and polybutylene in some homes of that era, which fails at the fittings.
+
+Winters here are mild but produce hard freezes, and uninsulated crawl space lines and hose bibs are where they show up.
+
+The Town of Wake Forest handles building permits and inspections under the North Carolina State Building Code. Repairs that touch framing, wiring, or plumbing generally need one; cosmetic replacement usually does not.
+
 If you're dealing with water, fire, mold, or storm damage at a Wake Forest property, call Go Agree Restoration of NC at **(919) 906-5473**. We'll assess the situation, explain what the remediation process looks like, and help you move forward without the guesswork.

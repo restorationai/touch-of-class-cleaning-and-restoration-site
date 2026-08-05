@@ -49,4 +49,12 @@ Once mitigation is complete, most properties need some level of reconstruction �
 
 From our Vandenberg Village headquarters, Orcutt is a straightforward run: south on Clark Avenue to the Orcutt Road corridor puts us into the heart of the community quickly, with easy access to the areas along Bradley Road and the neighborhoods closer to Highway 135. The drive is typically under fifteen minutes under normal traffic conditions. We serve all of Orcutt and coordinate directly with property managers, HOA contacts, and insurance adjusters to keep the job moving once we're on site. Call us at **(805) 345-7440** to confirm scheduling and get a crew dispatched.
 
+## Building stock, site conditions, and permits in Orcutt
+
+Orcutt is unincorporated, so permits for structural repair or rebuild come from Santa Barbara County — not a city hall. Like-for-like drywall and flooring after a mitigation usually doesn't trigger one, but replacing framing, altering walls, or reworking electrical and gas lines generally does, and work is reviewed against the California Building Code as the county has adopted it, including its seismic provisions.
+
+Age matters for what we can safely demolish. In homes built before the late 1970s, popcorn ceilings, sheet vinyl and its mastic, and joint compound can contain asbestos, and painted trim can carry lead — both need testing before cutting, not after. Cast iron drain lines from that era corrode from the inside and leak under slabs quietly.
+
+Valley soils here drain sandy in many spots, which moves water sideways into crawl spaces fast.
+
 If you're dealing with water, fire, smoke, or mold damage at a property in Orcutt, the right move is a fast assessment — not a wait-and-see. Call Coastal Restoration Services Inc at **(805) 345-7440** to schedule an inspection and get a clear picture of what the damage involves and what it will take to fix it.

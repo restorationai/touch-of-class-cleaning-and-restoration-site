@@ -51,4 +51,12 @@ The Broad Street corridor and the college campus generate commercial losses that
 
 The Restoration Group is headquartered in Kenilworth, roughly 8 miles southwest of Bloomfield Center. The most direct route runs north on the Garden State Parkway to Route 21, then east on Bloomfield Avenue — a corridor our crews travel regularly. Watsessing and Brookdale, sitting near the western edge of town, are typically the first Bloomfield neighborhoods we reach. North Center and Brookside, toward the eastern side near Brookdale Park and Watsessing Park, add a few minutes of local surface travel. Because we operate 24/7, a call at 2 a.m. after a sump failure gets the same dispatch as a call at noon.
 
+## Building stock, site conditions, and permits in Bloomfield
+
+Behind the plaster and lath in these pre-1930 houses you often find balloon framing, which gives water and smoke an uninterrupted path from the basement to the attic. Steam heat is still common, and the old pipe and boiler insulation in Bloomfield basements can be asbestos-containing, so it gets tested rather than torn out. Knob-and-tube wiring turns up in untouched attics and wall bays too.
+
+Essex County sits on glacial soils over red shale, and basements near the Third and Second River corridors work against a high water table year-round, not just after storms. Footings here are set below a roughly three-foot frost line.
+
+Structural repair and rebuild permits in New Jersey run through the municipal construction official under the state Uniform Construction Code — in Bloomfield, the township's construction office.
+
 If you're dealing with water, fire, mold, or storm damage anywhere in Bloomfield — from a finished basement in Brookdale to a commercial space on Broad Street — call The Restoration Group at **(855) 650-7422**. We're available around the clock and ready to send a crew.

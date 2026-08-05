@@ -49,4 +49,12 @@ Once mitigation is complete, many property owners face a gap between the restora
 
 Coastal Restoration Services Inc is headquartered in Vandenberg Village, roughly 35 miles south of San Luis Obispo via US-101 North. That route is straightforward in most conditions — through Santa Maria, past Nipomo, and up through Pismo Beach and Arroyo Grande before reaching the SLO city limits. We serve the full city and surrounding unincorporated areas of San Luis Obispo County. Call us at (805) 345-7440 to confirm scheduling and get an honest arrival estimate based on current conditions and crew availability.
 
+## Building stock, site conditions, and permits in San Luis Obispo
+
+Much of the city's older housing is wood-framed with stucco or wood siding over plaster-and-lath, sitting on raised perimeter foundations with shallow crawlspaces. Those crawlspaces are the problem area: clearance is often tight, and expansive clay soils common across this part of the Central Coast hold moisture against mudsills and posts long after the leak upstairs is fixed. Post-war and later tract homes lean toward slab-on-grade, where water travels sideways under flooring instead of draining.
+
+Anything built before the late 1970s should be treated as possibly containing asbestos in joint compound, sheet flooring, and textured ceilings, and lead paint on trim, so selective demolition gets planned around testing rather than after it.
+
+Structural repair and rebuild permits come from the City of San Luis Obispo's building division, under the California Building Code, with seismic detailing that matters on hillside lots.
+
 If you're dealing with water, fire, smoke, or mold damage at a San Luis Obispo property, call (805) 345-7440 to speak with someone who can assess your situation and get the right crew scheduled.

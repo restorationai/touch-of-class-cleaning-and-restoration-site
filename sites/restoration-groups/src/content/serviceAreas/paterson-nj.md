@@ -49,4 +49,10 @@ Once mitigation is complete, we handle the rebuild — framing, drywall, floorin
 
 Kenilworth sits roughly 15 miles southeast of Paterson via Route 21 North or the Garden State Parkway to I-80 West. Both routes feed directly into Paterson's main corridors, giving us straightforward access to neighborhoods across the city — from the Totowa Section in the northwest to Lakeview near the Passaic County Community College campus, and south through the 07503 and 07504 ZIP codes toward South Paterson. Because The Restoration Group operates 24/7, a call at any hour reaches a live dispatcher who can route a crew toward the city immediately. Traffic on Route 21 through Clifton can add time during peak hours, and we account for that in our scheduling.
 
+## Building stock, site conditions, and permits in Paterson
+
+Behind the brick and clapboard, most of these houses are balloon-framed with plaster over wood lath, and many sit on rubble stone or brick foundations laid in soft lime mortar. That matters once water gets in: lath holds moisture long after the surface feels dry, and open stud bays let it travel between floors. Homes of this vintage often still carry galvanized supply lines, lead-painted trim, and asbestos-bearing pipe wrap or old floor tile, so demolition has to be planned, not improvised. North Jersey's freeze depth also means unheated basements and exterior walls are a real winter burst risk.
+
+Permits for structural repair or rebuild come from Paterson's construction office under the New Jersey Uniform Construction Code, with separate building, electrical, plumbing, and fire subcode reviews. Work in mapped flood areas brings added elevation and substantial-improvement requirements.
+
 If you're dealing with water, fire, mold, or storm damage at a Paterson property — whether it's a single-family home in Sandy Hill or a multi-unit building in the 07522 ZIP code — call The Restoration Group at **(855) 650-7422**. We answer around the clock and can begin the assessment process the same day you call.

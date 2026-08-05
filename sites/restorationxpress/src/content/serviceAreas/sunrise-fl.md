@@ -49,4 +49,10 @@ Once mitigation is complete, we handle the rebuild — drywall, flooring, cabine
 
 RestorationXpress operates out of Davie, which sits directly south of Sunrise along University Drive and Flamingo Road. The drive from our Davie headquarters to central Sunrise neighborhoods like Welleby or Sunset Strip typically runs under 15 minutes in normal traffic via University Drive north. Reaching the western edge of the city — properties near Markham Park or the Sawgrass Lakes area along Nob Hill Road — adds a few minutes but remains a straightforward route with no highway delays. For scheduling, call us at (954) 964-6471 during business hours and we'll confirm an arrival window based on current crew availability.
 
+## Building stock, site conditions, and permits in Sunrise
+
+Almost nothing here is built over a basement or crawlspace. Homes sit on slab-on-grade poured over sand and fill above shallow limestone, so water that gets in has nowhere to drain down — it wicks sideways into block walls, baseboards, and the underside of flooring. Terrazzo and tile set directly on the slab hide moisture well; carpet pad and laminate hold it. Cast iron drain lines in the older sections corrode from the inside and fail below the slab, and some 1980s builds used polybutylene supply piping that splits at the fittings.
+
+Because Broward sits in the High Velocity Hurricane Zone, roof and window replacement follows stricter attachment and product-approval rules than most of Florida. Structural repairs, reroofs, and rebuilds are permitted through the City of Sunrise building department, with flood-zone properties facing added elevation review.
+
 If you're dealing with water, fire, mold, or storm damage at a Sunrise property, call RestorationXpress at **(954) 964-6471**. We'll walk you through what to expect, confirm coverage for your area, and get a crew scheduled.

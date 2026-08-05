@@ -51,4 +51,10 @@ When structural materials can't be dried or cleaned back to pre-loss condition, 
 
 FireDEX Butler operates out of Cranberry Township and reaches Beaver Falls via Route 68 to I-76 West, a run of roughly 25 miles. We dispatch around the clock — 24 hours a day, seven days a week — so a call at 2 a.m. from a property manager in White Township or a homeowner near Geneva College gets the same response as a call at noon. Patterson Township, Eastvale, and the neighborhoods along Brady's Run Park are all within our regular service area. If you're not sure whether your address falls in our coverage zone, call (724) 452-7400 and we'll confirm immediately.
 
+## Building stock, site conditions, and permits in Beaver Falls
+
+Most of Beaver Falls was built before World War II, and that shows up in the assemblies. Brick masonry and balloon-framed walls, plaster over wood lath, and roofs that have been layered over more than once mean water travels down inside the cavity instead of showing at the surface. Basements are the norm here, often stone or early block, and hillside lots above the river shed runoff straight toward them. Anything from that era also has to be scoped for lead paint and asbestos in pipe insulation, floor tile, and old plaster patches, plus knob-and-tube wiring that may still be live in an attic.
+
+Structural repair and rebuild work in Pennsylvania falls under the statewide Uniform Construction Code, enforced locally. Permits come from the City of Beaver Falls; surrounding townships like Patterson and White issue their own, and riverfront addresses can carry floodplain requirements on top.
+
 If you're dealing with water, fire, mold, or any other property damage in Beaver Falls, call FireDEX Butler at **(724) 452-7400**. We're available 24/7, we bill insurance directly, and we've been doing this work in Beaver County since 1981.

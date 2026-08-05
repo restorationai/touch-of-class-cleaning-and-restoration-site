@@ -43,4 +43,12 @@ The Passaic Street corridor and Belmont Avenue corridor carry dense retail and s
 
 Kenilworth is roughly 12 miles from central Garfield via Route 21 north — a direct shot that keeps drive time predictable even during off-peak hours. The Garfield train station area, the Belmont neighborhood, and Plauderville are all reachable on that same corridor. Because we operate 24/7, a call at any hour reaches a live dispatcher who can route a crew immediately rather than queue you for a morning callback. We serve all of 07026, including addresses along River Drive that other contractors sometimes decline after major flood events.
 
+## Building stock, site conditions, and permits in Garfield
+
+Most of the older two- and three-families here were built with balloon-framed walls, plaster over wood lath, and multiple layers of roofing added over time. Wet plaster holds water long after drywall would read dry, and open stud bays let moisture climb from a basement toward the first floor. Expect asbestos-containing materials and lead paint in anything pre-1978 — siding shingles, pipe wrap, floor tile — which changes how a demolition scope is written. Galvanized supply lines of the same vintage pinhole and weep behind finishes.
+
+The west side sits on Passaic valley silt and clay with a high water table, so below-grade spaces stay damp between events. Frost depth in northern New Jersey means footings and exterior lines sit well down.
+
+Structural repair and rebuild permits come from Garfield's construction office under the New Jersey Uniform Construction Code, with separate building, plumbing, and electrical subcode approvals.
+
 If you are dealing with water, fire, mold, or storm damage anywhere in Garfield, call The Restoration Group at **(855) 650-7422**. We answer every hour of every day, and we will tell you plainly what the damage involves and what it takes to fix it.

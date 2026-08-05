@@ -49,4 +49,12 @@ Mitigation without reconstruction leaves a property gutted. We carry the work fr
 
 Our crew is Sioux Falls-based, which means we're not staging from a regional hub an hour away. McKennan Park, the Cathedral Historic District, and downtown properties in the 57104 corridor are minutes from our location. Prairie Green and the developing areas along the 57108 edge of the metro are a straight shot south on I-229. We serve all Sioux Falls ZIP codes — 57103, 57104, 57105, 57106, 57107, 57108, and 57110 — as well as surrounding communities. Call (605) 965-2727 to confirm scheduling and get a realistic arrival window for your address.
 
+## Building stock, site conditions, and permits in Sioux Falls
+
+Most of Sioux Falls sits on glacial till, and Sioux Quartzite bedrock comes close to the surface in the older core near the river — which is why basement depths and drain tile runs vary so much from block to block. Frost depth here is deep, so footings sit low and a winter slab or foundation crack usually traces back to freeze movement rather than settlement alone.
+
+Pre-war homes still carry galvanized supply lines that scale shut and cast-iron waste; mid-century ranches are mostly copper. Plaster, lath, and old wall insulation mean asbestos and lead-paint screening belong in a demo scope, not an afterthought.
+
+Structural repair and rebuild permits are pulled from the City of Sioux Falls building services counter, and work near the Big Sioux floodplain gets an extra look before rebuild starts.
+
 If you're dealing with water, fire, mold, or storm damage anywhere in Sioux Falls, the fastest next step is a phone call. Reach Crew Restoration & Construction at **(605) 965-2727** — describe what you're seeing, and we'll tell you exactly what comes next.

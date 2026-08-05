@@ -49,4 +49,12 @@ Hail and wind events near the Redstone Arsenal gate area and across South Huntsv
 
 Our shop is in Madison, AL — roughly 10 to 15 minutes from most Huntsville neighborhoods under normal traffic. A technician can be on-site in Downtown Huntsville or Five Points in under 20 minutes from dispatch. Hampton Cove and Monte Sano run 25 to 35 minutes depending on the time of day. For the majority of Huntsville service calls, expect a crew on your property within 60 minutes of your call. Severe weather events that generate multiple simultaneous calls may extend that window, but we triage by active water intrusion and structural risk first.
 
+## Building stock, site conditions, and permits in Huntsville
+
+Under most of Huntsville is limestone, and that matters. Water moving through fractured rock and the cherty clay above it means crawlspaces in Five Points and South Huntsville stay damp long after the rain stops, and a wet crawlspace pushes moisture up into floor joists and subfloor. Pre-war homes here tend to sit on brick pier foundations with vented crawlspaces; mid-century ranches split between crawlspace and slab; newer Hampton Cove houses are mostly slab-on-grade, where wet flooring has nowhere to drain.
+
+Plumbing vintage tracks the same eras — galvanized supply and cast iron drains in the oldest houses, copper mid-century, PEX in the newest. Anything built before the late 1970s should be assumed to have lead paint and possible asbestos in floor tile or duct wrap until tested.
+
+Structural repair and rebuild permits come from the City of Huntsville, and exterior work in Twickenham also goes through historic district review.
+
 If you're dealing with water, fire, mold, or storm damage anywhere in Huntsville, call Davis Construction Contractors at **(256) 771-0326**. We answer Monday through Friday, 8 to 5, return messages promptly, and we'll tell you honestly what the damage looks like and what it will take to fix it.

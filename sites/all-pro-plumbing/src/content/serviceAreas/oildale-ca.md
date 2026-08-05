@@ -45,4 +45,10 @@ The climate compounds the problem. Summers here match Bakersfield's triple digit
 
 Oildale sits directly north of Bakersfield, separated by the Kern River. From our Bakersfield headquarters, the drive up North Chester Avenue or across the Truxtun Avenue bridge puts us in Riverview, Highland, or the Airport Drive corridor in a matter of minutes — no freeway required. We run 24/7, so a call at 2 a.m. from a property manager in North of the River gets the same dispatch response as a midday call. We cover all of Oildale's neighborhoods and the surrounding unincorporated Kern County parcels in the 93308 ZIP.
 
+## Building stock, site conditions, and permits in Oildale
+
+Most Oildale cottages from the 1940s and 1950s sit on a raised perimeter foundation with a shallow crawlspace, with slab-on-grade becoming common in later infill. That matters for repair access: a crawlspace leak soaks subfloor and framing before anyone sees it, while a slab leak has to be located and either broken out or rerouted overhead. Interiors of that vintage often mean lath and plaster or early drywall, and anything built before 1978 should be treated as possible lead paint, with asbestos a real prospect in old floor tile, mastic, and duct wrap.
+
+Oildale is unincorporated, so building and plumbing permits come from Kern County rather than the City of Bakersfield, and work is inspected under the California codes. Mobile home parks add a separate layer, since park lots fall under state manufactured-housing rules.
+
 If you're dealing with a plumbing, heating, or air conditioning problem anywhere in Oildale — from a dripping faucet in a Highland cottage to a sewer backup at a mobile home park off Airport Drive — call All Pro Plumbing Heating and Air at **(661) 863-9242**. We're available around the clock and we're already close.

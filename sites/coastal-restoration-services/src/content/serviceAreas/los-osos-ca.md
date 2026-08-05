@@ -55,4 +55,12 @@ Once the damage is mitigated and the structure is dry and clean, rebuilding can 
 
 Coastal Restoration Services Inc is headquartered in Vandenberg Village, roughly 35 miles northwest of Los Osos via Highway 1 south through Morro Bay. Depending on time of day and whether Highway 1 is moving freely through Morro Bay, the drive typically runs under an hour. We serve all of Los Osos, including the Baywood Park waterfront area, the South Bay Boulevard corridor, and the neighborhoods along Los Osos Valley Road approaching the city's eastern edge. If you're closer to the Morro Bay boundary or out toward Cuesta-by-the-Sea, we cover those areas as well. Call **(805) 345-7440** during business hours and we'll confirm availability and give you an honest arrival estimate based on current crew location.
 
+## Building stock, site conditions, and permits in Los Osos
+
+Much of the housing here is wood-framed with stucco or wood siding over composition-shingle roofs, sitting on either slab-on-grade or a raised perimeter foundation with a shallow crawlspace. Supply lines in that vintage are usually copper, with ABS or cast iron drains, and earlier homes can still have galvanized steel. Pre-1980 finishes mean asbestos is a real possibility in floor tile, mastic, and textured ceilings, so demolition gets tested rather than guessed at.
+
+The ground is sandy across most of the community, which drains fast but gives up little resistance once a leak runs under a slab.
+
+Los Osos is unincorporated, so building permits come from San Luis Obispo County rather than a city office. Structural framing repair, re-roofing, and plumbing or electrical alterations typically trigger one, and coastal zone rules apply to parts of the community.
+
 If you're dealing with water, mold, fire damage, or a sewage backup in Los Osos, the sooner the assessment happens, the smaller the scope tends to be. Call Coastal Restoration Services Inc at **(805) 345-7440** to get a crew moving toward your property.

@@ -51,4 +51,12 @@ For property managers overseeing commercial buildings near Robert Wood Johnson U
 
 The Restoration Group's Kenilworth headquarters sits roughly 15 miles northeast of New Brunswick via the Garden State Parkway to Route 1, or through US-9 depending on traffic. We reach Downtown, Edgebrook, and Robeson Village on a consistent basis and serve the Highland Park border neighborhoods along the northeastern edge of the city. Because we operate 24/7, a call at any hour connects you directly to a dispatcher who can have a crew moving toward your address — whether that's a Rutgers Village apartment building in 08901 or a commercial property in 08903.
 
+## Building stock, site conditions, and permits in New Brunswick
+
+Much of the older housing here is wood-frame with plaster and wood lath over full basements, and balloon-framed walls that let water and smoke run from the cellar to the attic with nothing to stop them. Pre-1978 paint, asbestos pipe wrap, and old floor tile are routine in these buildings, and knob-and-tube wiring still turns up in unrenovated attics, so demolition has to be scoped before it starts. Postwar houses tend toward copper supply with cast-iron drains, and clay or Orangeburg sewer laterals that collapse under tree roots.
+
+Soils near the Raritan are alluvial sand and silt with a high water table; further from the river you hit red shale close to grade. Both push water at basement walls.
+
+Structural repair and rebuild work runs through the city construction office under New Jersey's Uniform Construction Code, with separate building, electrical, plumbing, and fire subcode approvals, and elevation rules apply in mapped flood areas.
+
 If you're dealing with a loss in New Brunswick right now, call The Restoration Group at **(855) 650-7422**. We're available around the clock, and a real person will answer.

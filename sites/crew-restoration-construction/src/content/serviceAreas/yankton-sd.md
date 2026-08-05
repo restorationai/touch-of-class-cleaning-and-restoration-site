@@ -47,4 +47,10 @@ Once the damage is mitigated, the structure still needs to be put back together.
 
 Our Sioux Falls headquarters is roughly 75 miles northwest of Yankton via US-81 South — a straightforward route that our crews travel regularly. Whether the call comes from a property manager in Downtown Yankton, a homeowner on the Riverside bluffs, or a business owner on the Westside, we dispatch from Sioux Falls and can provide prompt scheduling for both emergency and planned restoration work. We'll give you an honest arrival window when you call (605) 965-2727 rather than a number we can't stand behind.
 
+## Building stock, site conditions, and permits in Yankton
+
+Much of the housing near downtown and the older Westside blocks predates World War II — balloon-framed walls, plaster and wood lath over board sheathing, and full basements of brick, local chalkstone, or unreinforced block. Wet plaster holds water far longer than drywall, so drying those cavities usually means opening the base of the wall rather than trusting surface readings. Plumbing of that vintage runs to galvanized supply and cast iron drains, and any demolition in a pre-1978 home has to plan around lead paint and asbestos in pipe wrap or old floor tile.
+
+South Dakota leaves residential code adoption to municipalities, so the city's building official governs permits here. Structural repair, reframing, and rebuild work typically triggers one, and property inside the mapped Missouri River floodplain carries additional elevation and substantial-improvement requirements.
+
 If you're dealing with water, fire, mold, or storm damage anywhere in the 57078 ZIP code — from the lakeside properties near Lewis and Clark Lake to the older neighborhoods closer to downtown — call Crew Restoration & Construction at **(605) 965-2727**. We'll assess what happened, explain what needs to be done, and get a crew moving.

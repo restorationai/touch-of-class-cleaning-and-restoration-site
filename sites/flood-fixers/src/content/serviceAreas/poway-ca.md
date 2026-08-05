@@ -47,4 +47,12 @@ Sewage backups, trauma scenes, and hoarding situations require licensed handling
 
 Flood Fixers operates out of San Diego, and Poway sits approximately 25 miles northeast via I-15. Under normal traffic conditions, that's a 30-to-35-minute drive — meaning most Poway calls see a technician on-site within 45 to 60 minutes of the initial call. We serve the full city, including properties near Old Poway Park, neighborhoods along Poway Road, and homes in the hillside areas closer to Blue Sky Ecological Reserve. If you're calling from a more rural parcel on the eastern edge of the 92064 ZIP code, add roughly 10 minutes. We're available 24 hours a day, every day of the year — because water damage at 2 a.m. on a holiday weekend is exactly when a fast response matters most.
 
+## Building stock, site conditions, and permits in Poway
+
+Most Poway homes are single-story or two-story wood frame with stucco over building paper, sitting on slab-on-grade with concrete tile or asphalt shingle roofs. On a slab, water that escapes a supply line spreads sideways under flooring and wicks up into the bottom plates and drywall, so drying usually means pulling base trim and flooring rather than just running air movers. Older ranch homes and some hillside houses have raised floors and crawlspaces, which hold moisture much longer.
+
+Hillside lots here are cut-and-fill pads over decomposed granite and granitic rock, while valley-floor soils hold more clay and move with moisture. Pre-1978 finishes can carry lead paint, and pre-1980 texture and joint compound can contain asbestos, so both get tested before demolition.
+
+Structural repairs are permitted through the City of Poway's building division under the California Building Code.
+
 If you're dealing with water, fire, mold, or any other property emergency in Poway right now, call Flood Fixers at **(855) 204-1124**. A real person answers, and a crew can be moving toward your address within minutes.

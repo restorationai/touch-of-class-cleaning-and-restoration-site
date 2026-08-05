@@ -49,4 +49,12 @@ We are a licensed general contractor as well as a mitigation company, which mean
 
 Crew Restoration & Construction is headquartered in Sioux Falls. Dakota Dunes is roughly 20 miles south via I-29, a straightforward drive that puts our crews in the community without navigating complicated surface routes. Two Rivers and the golf community around Dakota Dunes Country Club are both accessible directly off Dakota Dunes Parkway once we exit the interstate. We schedule promptly — call (605) 965-2727 during business hours and we will confirm an arrival window the same day for non-emergency work; for active water intrusion or fire damage, we prioritize dispatch accordingly.
 
+## Building stock, site conditions, and permits in Dakota Dunes
+
+Because most of this community went up after 1980, the era hazards that complicate older Sioux Falls work — asbestos-containing materials, lead paint, knob-and-tube — are rarely the issue here. What we do plan around is polybutylene supply line in homes from the late 1980s and early 1990s, and the copper and PEX that followed it. Those lines fail at fittings, often quietly, inside a finished lower level.
+
+The ground is Missouri River bottom: sand and silt, much of it raised with fill, with a water table that sits close to the surface. Sandy soil sheds water fast but does nothing to stop hydrostatic pressure against a basement wall, and footings still have to reach below a frost depth that runs several feet in this corner of the state.
+
+Dakota Dunes is unincorporated, so building permits and inspections run through Union County rather than a city hall, and the community's covenants and architectural review add a second approval layer on exterior rebuild work.
+
 If you are dealing with water, fire, mold, or storm damage at a Dakota Dunes property, call Crew Restoration & Construction at **(605) 965-2727**. We know this community, we work with the carriers active in this market, and we handle the full scope — mitigation through reconstruction — so you are not managing multiple contractors through a stressful claim.

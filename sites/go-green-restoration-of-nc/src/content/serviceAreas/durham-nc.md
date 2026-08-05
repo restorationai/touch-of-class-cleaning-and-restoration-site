@@ -47,4 +47,12 @@ Once the damage is mitigated and materials are removed, most properties need str
 
 Go Agree Restoration of NC is based in Middlesex, NC, roughly 35 miles northeast of Durham via US-264 West and I-885. From Middlesex, we can reach central Durham neighborhoods — including the areas around Duke University, Brightleaf Square, and the ZIP codes 27701 and 27705 — on a straightforward drive that avoids most of the Triangle's peak-hour congestion when we route through Wake Forest Road rather than the I-40 corridor. Southern Durham ZIP codes like 27713, which covers the Research Triangle Park edge and Hope Valley area, add a few miles but remain well within our service range. Call us at (919) 906-5473 to confirm scheduling and get a realistic arrival window based on current conditions.
 
+## Building stock, site conditions, and permits in Durham
+
+Pre-war homes in Trinity Park and Duke Park were typically built over brick pier crawl spaces with plaster-and-lath walls and heart pine floors. Plaster holds water differently than drywall — it can look dry at the surface while the lath and framing behind it stay wet, so drying takes longer and the cavity has to be verified, not assumed. Anything painted before 1978 may carry lead, and pre-1980 floor tile, mastic, and pipe wrap can contain asbestos, which changes how affected material comes out.
+
+Mid-century ranches and the 1980s-90s subdivisions in the southern part of the county lean toward slab-on-grade; polybutylene supply lines from that era fail at the fittings.
+
+Repairs beyond like-for-like finish work are permitted through Durham City-County Inspections, under the North Carolina State Building Code.
+
 If you're dealing with water, fire, mold, or storm damage at a Durham property, call Go Agree Restoration of NC at **(919) 906-5473**. We'll assess what you're facing, walk you through next steps, and get the work scheduled.

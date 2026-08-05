@@ -53,4 +53,12 @@ We handle sewage backups, post-trauma cleanup, and other biohazard situations th
 
 Because Go Agree Restoration of NC is headquartered in Middlesex itself, response to properties in the 27557 ZIP code is as direct as it gets — no highway time from a distant metro, no dispatch relay. For properties in surrounding ZIP codes, our team travels local routes rather than routing through Raleigh. We schedule promptly and aim to have someone on-site the same day for active water or fire situations during our business hours. Property managers overseeing rental portfolios in the area can reach us directly at (919) 906-5473 to discuss priority scheduling.
 
+## Building stock, site conditions, and permits in Middlesex
+
+Much of what sits along the US-264 corridor and the farm roads around town is one-story frame construction with brick veneer, asphalt shingles over plank or plywood decking, and a vented crawl space on masonry piers. Full basements are rare out here. Manufactured and modular homes are also common on rural lots, and they dry differently — belly wrap traps water against the floor deck instead of letting it drain.
+
+Homes from the 1950s through the 1970s can hide asbestos in vinyl floor tile, mastic, and pipe wrap, and lead paint in anything painted before 1978. Later-1980s and 1990s builds sometimes still have polybutylene supply. Outside the town limits, septic and private well are the norm, which changes how sewage losses get scoped.
+
+North Carolina uses a statewide residential code, enforced locally, and structural framing, electrical, or mechanical work in a rebuild generally needs a county permit even when finishes alone would not.
+
 If you are dealing with water, fire, mold, or storm damage at a Middlesex property, call Go Agree Restoration of NC at **(919) 906-5473**. We are local, we know this area, and we can walk you through next steps without the runaround.

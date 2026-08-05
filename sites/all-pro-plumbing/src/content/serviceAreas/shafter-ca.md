@@ -55,4 +55,12 @@ Given Shafter's water quality, whole-house carbon and reverse-osmosis systems ar
 
 All Pro Plumbing Heating and Air is headquartered in Bakersfield, roughly 18 miles southeast of Shafter via Highway 99 North to 7th Standard Road — a straightforward run with no significant bottlenecks outside of peak harvest-season truck traffic. Gossamer Grove, North Shafter, and Downtown Shafter are all within the same service window. Because our dispatch operates 24/7, emergency calls go into the queue immediately regardless of time of day.
 
+## Building stock, site conditions, and permits in Shafter
+
+Most of the older core near Downtown and North Shafter is post-war and mid-century: wood frame with stucco or lap siding, composition-shingle gable roofs, and shallow footings on slab or short crawlspace. Basements are essentially nonexistent here, so a supply failure spreads sideways through baseboard, sill plate, and wall cavity rather than draining down. In homes built before the late 1970s, plan on asbestos-containing floor tile, duct wrap, or textured ceilings and on lead paint, which changes how walls and flooring get opened.
+
+The ground is valley alluvium — sandy loam over finer silt and clay — and this stretch of the western San Joaquin Valley has a long history of groundwater-related land subsidence, which shows up as hairline slab cracks and out-of-level floors.
+
+Work inside the city limits is permitted through Shafter's own building department; unincorporated ag parcels beyond the line fall to Kern County. California's Title 24 rules govern HVAC changeouts statewide, and seismic detailing applies to any structural rebuild.
+
 For plumbing, heating, or air conditioning service anywhere in Shafter — from a Gossamer Grove HVAC install to an after-hours pipe emergency in Downtown Shafter — call All Pro Plumbing Heating and Air at **(661) 863-9242**. We're available around the clock and already familiar with what Shafter's housing stock and water conditions throw at property owners.

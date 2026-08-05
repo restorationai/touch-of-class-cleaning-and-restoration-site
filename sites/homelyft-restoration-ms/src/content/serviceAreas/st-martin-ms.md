@@ -49,4 +49,10 @@ Once mitigation is complete, many property owners need the damaged areas rebuilt
 
 HomeLyft Restoration MS operates out of Gulfport, roughly 10 to 15 miles west of St. Martin via US-90 or I-10. The drive to most St. Martin addresses is straightforward — US-90 east through Biloxi connects to the residential streets off Martin Bluff Road and the neighborhoods clustered around the Back Bay shoreline without significant routing complications. For property managers or homeowners ready to schedule, call **(228) 284-5200** to confirm current availability and get a crew dispatched. Response timing depends on current job load and time of day, so calling ahead rather than waiting is always the better move.
 
+## Building stock, site conditions, and permits in St. Martin
+
+St. Martin is unincorporated, so building permits come from Jackson County rather than a city hall — the county planning and building department is the authority for structural repair, reroofing, and rebuild work here. Anything beyond like-for-like cosmetic replacement usually triggers a permit, and in mapped flood zones the substantial-improvement threshold can pull an older house into current elevation and wind requirements. Coastal Jackson County also sits in a high design-wind area, so roof and fastening details get scrutiny on rebuild.
+
+Material vintage shapes the scope. Homes from the late 1970s through the 1990s often mix copper, CPVC, and in some cases gray polybutylene supply lines, with cast iron drains under older slabs. Sandy surface soils over denser clay drain fast at grade and then hold water below.
+
 If you're dealing with water, fire, mold, or storm damage at a St. Martin property, the earlier you call, the more options you have. Waiting — even a day or two — narrows the remediation path and can turn a contained problem into a full gut job. Reach HomeLyft Restoration MS at **(228) 284-5200** to talk through what you're seeing and get the process started.

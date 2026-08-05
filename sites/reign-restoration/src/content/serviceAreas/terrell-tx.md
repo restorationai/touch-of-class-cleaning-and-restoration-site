@@ -49,4 +49,12 @@ Mitigation is only half the job. After damaged materials are removed and the str
 
 Reign Restoration is headquartered in Royse City, roughly 12 miles west of Terrell along US-80. That corridor is a straightforward drive with no significant bottlenecks outside of peak rush hours, which means our crew is not coming from a distant metro dispatch center. From Royse City, US-80 East runs directly into Terrell and connects to both the older established neighborhoods near downtown and the newer residential growth on the city's eastern and southern edges. For calls in western Terrell, the drive is shorter still. Contact us at (214) 304-0621 to confirm scheduling and get a crew dispatched to your address.
 
+## Building stock, site conditions, and permits in Terrell
+
+Terrell's older core is largely pier-and-beam: wood framing over a vented crawlspace, plank subfloor, and in the oldest houses shiplap sheathing under the siding. Water in that assembly runs sideways along joists and soaks the underside of the floor, so drying means opening the crawlspace and treating it as part of the affected area, not just the room above. Newer subdivisions on the city's edges are post-tension or conventional slab-on-grade, where a supply leak wicks up into bottom plates and baseboards before anything shows on the surface.
+
+Houses built from the late 1970s into the mid-1990s across this part of North Texas may still have polybutylene supply lines, which fail at the fittings with little warning.
+
+Structural repair and rebuild permits come from the City of Terrell; properties near creek bottoms should be checked against the mapped floodplain before build-back.
+
 If you're dealing with water, fire, smoke, or mold damage at a Terrell property, call Reign Restoration at **(214) 304-0621**. We'll assess the damage, walk you through the process, and work directly with your insurance carrier to document and bill the loss — so you're focused on getting back to normal, not managing paperwork.

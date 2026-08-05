@@ -51,4 +51,10 @@ Sewage backups, which are common in low-lying areas of Ocean Springs after heavy
 
 HomeLyft Restoration MS is headquartered in Gulfport, roughly 12 miles west of Ocean Springs via US-90 or I-10. Both routes are straightforward, and our crews are familiar with the local road network, including the causeway approaches and the surface streets through the historic district near Government Street. We serve all areas of Ocean Springs — from properties along the beachfront corridor to neighborhoods further north toward the city limits. Scheduling is handled during our business hours; call (228) 284-5200 and we will give you a realistic arrival window based on current crew availability.
 
+## Building stock, site conditions, and permits in Ocean Springs
+
+Between the older cottages downtown and the newer construction north of I-10 sits a large band of 1950s-through-1970s brick-veneer and slab-on-grade ranch homes. Those slabs were poured over sandy coastal fill that drains fast but shifts and channels water, so a supply leak under the slab tends to travel along the plumbing trench rather than pool where it started. Cast iron drain lines from that era crack at the hubs, galvanized supply pinholes from the inside out, and polybutylene shows up in additions built through the 1980s and early '90s. Anything cut into pre-1980 walls or ceilings gets treated as possible asbestos or lead until testing says otherwise.
+
+Structural repair and rebuild permits are pulled from the City of Ocean Springs. In mapped flood zones, repairs valued at half the structure's worth trigger full elevation and flood-resistant-construction requirements, and coastal wind-uplift detailing applies to any reroof or framing work.
+
 If you're dealing with water, fire, mold, or storm damage in Ocean Springs, the best first step is a phone call. Describe what you're seeing, and we'll help you understand what comes next — no obligation, no pressure. Reach HomeLyft Restoration MS at **(228) 284-5200**.

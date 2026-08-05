@@ -49,4 +49,10 @@ Once mitigation is complete, we handle the rebuild — framing, drywall, floorin
 
 Coastal Restoration Services Inc is headquartered in Vandenberg Village, roughly 35 miles south of Morro Bay via US-101 North to CA-1. The drive runs through Pismo Beach and Shell Beach before the highway meets the coast at Morro Bay's southern edge near the power plant stack — a familiar landmark for anyone who's made the trip. Depending on traffic and the time of day, that corridor is typically a straightforward run. We serve the full city, from the waterfront blocks near Morro Rock and the Embarcadero to the residential streets climbing toward Black Hill and the neighborhoods flanking Main Street. Call **(805) 345-7440** to schedule a response or get a same-day assessment.
 
+## Building stock, site conditions, and permits in Morro Bay
+
+Beyond the pier-and-beam cottages, Morro Bay also has tracts built from the late 1970s onward on slab-on-grade, usually stucco over wood frame with composition shingle or low-slope roofs. On a slab, water spreads sideways under flooring and wicks into bottom plates, so drying often means pulling base trim and cutting drywall low rather than tearing out walls. Anything built before 1980 gets tested before demolition — sheet vinyl, mastic, joint compound, and textured ceilings from that era can contain asbestos, and pre-1978 paint can contain lead.
+
+Morro Bay is its own incorporated city, so permits for structural repair or rebuild go through the city, not the county. Sandy bayfront soils, mapped flood zones near the water, coastal-zone review, and California's seismic bracing rules all shape what a rebuild scope has to include.
+
 If you're dealing with water in a crawl space, smoke damage in a rental, or a mold problem that's been growing behind a wall longer than you'd like to think about, call Coastal Restoration Services Inc at **(805) 345-7440**. We'll assess the situation honestly, give you a clear scope, and get the work done right the first time.

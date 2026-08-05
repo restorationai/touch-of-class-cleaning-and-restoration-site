@@ -55,4 +55,12 @@ Once mitigation is complete, we handle the rebuild — drywall, flooring, millwo
 
 Our Kenilworth, NJ headquarters puts us roughly 12 to 15 miles from Midtown Manhattan via the Lincoln Tunnel or George Washington Bridge, depending on the destination. The Financial District and Lower East Side are accessible via the Holland Tunnel. We serve the full borough — Upper East Side, Upper West Side, Harlem, Chelsea, Midtown, Lower East Side, and the Financial District — and because we operate 24/7, we can dispatch at any hour. Traffic and tunnel conditions affect arrival times, and we don't quote specific minute windows, but we stay in contact from the moment you call so you know exactly where the crew is.
 
+## Building stock, site conditions, and permits in Manhattan
+
+Much of Manhattan's residential stock predates 1940, and that vintage dictates the scope. Pre-war walls are plaster over wood or metal lath, often with terra cotta block partitions, and both hold water long after the surface feels dry — drilling and cavity drying usually beats demolition in a co-op. Steam heat means cast-iron radiators and risers, and the pipe insulation wrapped around old steam lines is a common asbestos concern, just as paint under 1978 layers is a lead concern. Cast-iron drain stacks and galvanized supply lines fail from the inside out.
+
+There are no crawlspaces or slabs here — buildings sit in cellars cut into schist bedrock, so groundwater and sewer backup collect at the lowest level.
+
+Structural repair and reconstruction permits come from the NYC Department of Buildings, plumbing work requires a licensed master plumber, and buildings in historic districts add Landmarks review on top of the board's alteration agreement.
+
 If you're dealing with a loss anywhere in Manhattan — whether it's a soaked ceiling in a Chelsea loft or smoke damage in a Financial District office — call The Restoration Group at (908) 970-8533. We're available around the clock and ready to work within your building's rules from the first hour on-site.

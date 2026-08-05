@@ -47,4 +47,10 @@ Once mitigation is complete, many property owners need a single contractor to ha
 
 Lucedale is roughly 65 miles northeast of HomeLyft's Gulfport headquarters. The most direct route runs US-49 north through Wiggins and into George County, with the final miles on MS-26 into downtown Lucedale. Depending on traffic and time of day, that drive typically falls in the 75-to-90-minute range. For property owners in the areas surrounding Lucedale — out along MS-98 toward the Alabama line or south toward Agricola — travel time is comparable, and we factor that into scheduling when we take your call. We will give you an honest arrival estimate when you reach us at (228) 284-5200, not a number designed to get you off the phone.
 
+## Building stock, site conditions, and permits in Lucedale
+
+Away from the older core, a lot of Lucedale's housing went up from the 1950s onward, and manufactured homes on rural lots are common around the edges of town. Age shows up in the plumbing more than anywhere else: galvanized supply lines and cast iron drains in the oldest houses, copper through the mid-century decades, polybutylene in some late-70s-through-90s work, PEX today. Galvanized fails from the inside out, so the leak is usually well behind the wall by the time it stains anything. Anything built before 1978 gets treated as lead paint until proven otherwise, and pre-1980 floor tile, mastic, and joint compound get the same caution.
+
+Structural repairs inside the city limits are permitted by the City of Lucedale; work outside them goes through George County. If the property sits in a mapped flood zone, repairs valued at half the structure's worth or more trigger the NFIP substantial-damage rules, which changes the rebuild scope entirely.
+
 If you are dealing with water, fire, smoke, or mold damage at a Lucedale property, call HomeLyft Restoration MS at **(228) 284-5200**. We will walk you through next steps, explain what the mitigation process looks like for your specific situation, and get scheduling started.

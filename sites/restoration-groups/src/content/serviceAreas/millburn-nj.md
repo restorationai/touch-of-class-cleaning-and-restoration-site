@@ -51,4 +51,12 @@ Once mitigation is complete, we handle the build-back: framing, drywall, floorin
 
 The Restoration Group is headquartered in Kenilworth, NJ, roughly seven miles from Millburn Center via Route 22 East to Springfield Avenue, or via the Garden State Parkway to Exit 140. Short Hills and Old Short Hills are reachable by continuing south on Millburn Avenue from the train station. Because we operate 24/7, a crew can be dispatched at any hour — whether the call comes from a property manager near Paper Mill Playhouse or a homeowner in Glenwood whose sump pump failed overnight. We do not publish a guaranteed on-site minute window, but Millburn is among the closest service areas to our Kenilworth base.
 
+## Building stock, site conditions, and permits in Millburn
+
+Much of the housing here predates 1940, and that shows up below grade: fieldstone and rubble-stone foundation walls, mortar joints that weep under hydrostatic pressure, and basements later finished with framing tight to that stone. Steam and hot-water heat is still common, which means old boilers, radiator supply lines, and pipe insulation that can contain asbestos — so demolition in a mechanical room gets tested before it gets opened. Pre-1978 paint layers and surviving knob-and-tube runs in attic and wall cavities also shape the scope.
+
+Ground conditions split with the terrain. The Short Hills and Old Short Hills slopes sit on glacial till over Watchung bedrock, while downtown occupies the river's alluvial valley, where the water table stays shallow.
+
+New Jersey's Uniform Construction Code governs the work, with separate building, plumbing, electrical, and fire subcode reviews. Structural framing, service changes, and re-piping trigger permits; flood-zone properties near the river carry additional elevation and substantial-improvement requirements.
+
 If you are dealing with a water, fire, mold, or structural emergency in Millburn or Short Hills, call The Restoration Group at **(855) 650-7422**. We answer around the clock, and we will tell you honestly within the first conversation what the job involves and how long it will take.

@@ -47,4 +47,10 @@ Some jobs in Adrian go beyond cleaning and drying. When water damage has comprom
 
 Crew Restoration & Construction is headquartered in Sioux Falls, SD, roughly 75 miles northwest of Adrian via I-90 — the same interstate that runs through town at Exit 26. That route is straightforward in good conditions and one our crews know well. We serve all of Adrian, including Downtown Adrian and East Adrian, and we schedule responses as promptly as our current call volume allows. When you call (605) 965-2727, we'll give you an honest arrival window based on where our nearest available crew is at that moment — not a number we can't stand behind.
 
+## Building stock, site conditions, and permits in Adrian
+
+Adrian's older core is largely pre-World War II: balloon-framed houses with plaster over wood lath, dimensional lumber framing, and deep full basements rather than slabs or crawlspaces. That basement is where most losses land. Plaster holds water far longer than drywall, and once it wicks up from a wet basement wall the lath behind it stays damp after the surface feels dry. Expect cast iron drain stacks and galvanized supply in the untouched homes, plus asbestos-containing pipe wrap or floor tile and lead paint in anything built before 1978 — all of which changes how demolition gets scoped.
+
+Southwest Minnesota sits on glacial till and heavy loam that drains slowly, and frost drives deep here, so footings and buried lines sit well down. Structural repair and rebuild work falls under the Minnesota State Building Code, with permits pulled locally in Adrian.
+
 If you're dealing with damage at a property in Adrian, call Crew Restoration & Construction at **(605) 965-2727**. We'll assess what you're facing, explain the process clearly, and get the work scheduled.

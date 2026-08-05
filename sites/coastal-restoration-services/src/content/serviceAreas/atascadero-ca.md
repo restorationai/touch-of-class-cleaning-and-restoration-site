@@ -51,4 +51,10 @@ Once mitigation is complete and the structure is dry and cleared, our reconstruc
 
 Coastal Restoration Services Inc operates out of Vandenberg Village, roughly 45 miles southwest of Atascadero via US-101 North. Under normal traffic conditions on 101, our crew can reach Atascadero — whether that's a property near the Sunken Gardens civic center, a home off Santa Rosa Road, or a commercial building along Traffic Way — without the extended delays that affect contractors coming from Los Angeles or the Bay Area. Call (805) 345-7440 during business hours to schedule an assessment; we will confirm an arrival window at the time of booking.
 
+## Building stock, site conditions, and permits in Atascadero
+
+Atascadero's housing splits roughly in two. The older Colony-era homes are raised wood-frame on perimeter foundations with vented crawlspaces, and those crawlspaces are where a supply-line failure hides longest — wet soil under the floor keeps releasing moisture into joists and subfloor after the visible water is gone. The tract and custom homes built from the 1970s onward are usually slab-on-grade, where water tracks under flooring and into bottom plates instead. Anything built before 1980 gets tested before demolition for asbestos in floor tile, mastic and texture, and pre-1978 paint is assumed to contain lead.
+
+Structural repair and rebuild permits come from the City of Atascadero's building division. This is high-seismic country — the 2003 San Simeon earthquake badly damaged the historic City Hall — so framing and shear repairs draw real plan review.
+
 If you are dealing with water, fire, or mold damage at an Atascadero property, call (805) 345-7440. We will walk through what you are seeing, explain the next steps, and get a crew scheduled.

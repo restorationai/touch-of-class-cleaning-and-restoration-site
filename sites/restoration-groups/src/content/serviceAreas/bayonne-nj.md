@@ -50,4 +50,10 @@ Once mitigation is complete, our in-house reconstruction crews handle drywall, f
 
 The Restoration Group operates out of Kenilworth, NJ, roughly 15 miles from Bayonne via the New Jersey Turnpike and Route 1&9. Because we run 24/7, a crew can be dispatched at any hour — reaching Bergen Point, Downtown Bayonne, or the Stephen R. Gregg Park corridor without the delay of waiting for business hours. Traffic on the Turnpike and the approach through Bayonne's grid can vary, but our dispatch team tracks conditions in real time and routes accordingly. The Bayonne Bridge approach and the Cape Liberty Cruise Port area near Constable Hook are familiar territory for our crews.
 
+## Building stock, site conditions, and permits in Bayonne
+
+Homes built before the 1940s here are usually plaster and wood lath over dimensional framing, often with wood-framed cellars under them. Plaster holds water differently than drywall: it can look dry on the surface while the lath and the cavity behind it stay wet for days, so drying these walls means metering behind the finish rather than trusting a wall that feels dry. In houses of that vintage we also plan for lead paint on trim, knob-and-tube remnants in attics, and asbestos-containing pipe wrap or old floor tile in the basement — all of which change how demolition is handled.
+
+Permits for structural repair, rebuild, electrical, and plumbing go through Bayonne's construction office under the New Jersey Uniform Construction Code. In mapped flood zones, extensive repairs can also trigger elevation requirements, so scope and paperwork get settled before framing starts.
+
 If you are dealing with a water, fire, mold, or storm loss anywhere in Bayonne — from the 07002 waterfront blocks to the residential streets of Uptown — call The Restoration Group at **(855) 650-7422**. We answer around the clock and can begin the documentation and mitigation process before the damage has time to deepen.

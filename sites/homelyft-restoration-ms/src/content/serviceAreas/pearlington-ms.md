@@ -51,4 +51,10 @@ Once mitigation is complete, damaged drywall, flooring, cabinetry, and structura
 
 HomeLyft Restoration MS is headquartered in Gulfport. Pearlington is approximately 45 miles west-northwest of our office, reached primarily via I-10 West to the MS-607 exit, then south through Waveland toward the Pearl River communities. Depending on traffic and time of day, that corridor is a manageable drive for a crew and equipment trailer. We schedule Pearlington calls promptly and will give you an honest arrival window when you call — we do not quote minute guarantees we cannot keep. For property managers overseeing multiple Hancock County addresses, we can coordinate sequenced site visits to cover several properties in a single dispatch.
 
+## Building stock, site conditions, and permits in Pearlington
+
+Pearlington is unincorporated, so there is no city hall here — building permits for structural repair, reroofing, or rebuild come from Hancock County, and the county also administers the floodplain rules. That matters most when repair costs approach half the structure's value: under NFIP substantial-improvement rules, the work can trigger elevation requirements rather than a simple like-for-like repair. Coastal Mississippi also carries high wind-design and windborne-debris requirements, so roof and wall fastening details are part of the rebuild scope, not an upgrade.
+
+Plumbing vintage splits sharply. Pre-storm houses still hide galvanized supply and cast-iron drains that rust and weep at joints inside walls, plus polybutylene from the eighties and nineties. Post-2005 rebuilds are mostly PEX on elevated framing, where a failed fitting drains straight down through the floor system.
+
 If you are dealing with water intrusion, smoke damage, or visible mold growth at a Pearlington property, call HomeLyft Restoration MS at (228) 284-5200. We will talk through what you are seeing, give you a realistic picture of next steps, and get a crew scheduled.

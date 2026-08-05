@@ -49,4 +49,10 @@ After a severe thunderstorm or tropical system pushes through the Kiln area, roo
 
 HomeLyft Restoration MS is headquartered in Gulfport. Kiln is roughly 35 to 40 miles northeast of the Gulfport office, accessible via U.S. Highway 49 North to Highway 603, a route our crews travel regularly for Hancock County calls. Depending on traffic and the time of day, that drive typically runs under an hour. We schedule promptly and communicate an estimated arrival window when you call — reach us at (228) 284-5200 to get a crew moving toward your property.
 
+## Building stock, site conditions, and permits in Kiln
+
+Kiln is unincorporated, so there is no city hall issuing permits here — building, electrical, and floodplain permits for structural repair or rebuild come from Hancock County, and the county floodplain administrator gets involved when a damaged home sits in a mapped flood zone. Under FEMA rules, repairs valued at half the structure's value or more push a rebuild toward current elevation and wind standards, which is worth knowing before demolition starts. Mississippi's coastal counties also enforce wind provisions, so roof and sheathing replacement is inspected work, not a handshake job.
+
+On the materials side, houses of this vintage tend to hide cast iron drain lines, galvanized or early copper supply, and sometimes polybutylene. Anything pre-1978 gets treated as lead-painted and pre-1980 sheet flooring and mastic as possible asbestos until tested.
+
 If you are dealing with water, fire, mold, or storm damage anywhere in the Kiln area, call HomeLyft Restoration MS at **(228) 284-5200**. We will talk through what you are seeing, give you honest guidance on next steps, and get a crew scheduled to your property.

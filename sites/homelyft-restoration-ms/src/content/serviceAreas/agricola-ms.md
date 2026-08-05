@@ -53,4 +53,10 @@ Septic failures and sewage backups are a real risk on rural George County proper
 
 HomeLyft Restoration MS is headquartered in Gulfport, roughly 45 to 50 miles southwest of Agricola via US-49 North through Wiggins. The drive through Stone and George counties is straightforward on a clear day, though rural two-lane segments between Wiggins and Agricola can add time during heavy rain or when farm equipment is moving. We schedule Agricola calls promptly and will give you a realistic arrival window when you call — (228) 284-5200. Property managers overseeing multiple sites in the Agricola area can arrange standing service agreements so response coordination is already in place before an emergency happens.
 
+## Building stock, site conditions, and permits in Agricola
+
+Agricola is unincorporated, so there is no city hall to visit — building permits for structural repair, reroofing, or a full rebuild go through George County, and the county also administers FEMA floodplain rules for properties near the Pascagoula and its tributaries. Substantial repairs in a mapped flood zone can trigger elevation requirements, so that question is worth answering before demolition, not after.
+
+Older homes here typically sit on masonry piers over an open or partly skirted crawlspace, with slab-on-grade more common in newer builds. On a pier foundation, water follows the joists sideways and the damage shows up rooms away from the leak. Pre-1990 plumbing often means galvanized supply and cast iron drains; some late-80s work used polybutylene, which fails at the fittings without warning.
+
 If you're dealing with water, fire, mold, or a sewage event at an Agricola property, call HomeLyft Restoration MS at **(228) 284-5200**. We'll talk through what you're seeing, give you an honest assessment of urgency, and get a crew scheduled.

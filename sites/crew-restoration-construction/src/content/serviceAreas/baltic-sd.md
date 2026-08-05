@@ -51,4 +51,12 @@ Once mitigation is complete, our construction team handles the rebuild — drywa
 
 Crew Restoration & Construction operates out of Sioux Falls, which sits roughly 15 miles west of Baltic via I-90 East. That's a straightforward drive with no significant routing complications in normal conditions. We can reach Downtown Baltic, the Big Sioux River area, and Baltic School-area neighborhoods from our Sioux Falls location without the delays that affect contractors coming from Brookings or Sioux Falls' far south side. Call us at (605) 965-2727 and we'll give you a realistic arrival window based on current conditions and crew availability.
 
+## Building stock, site conditions, and permits in Baltic
+
+Most homes here sit on full basements — the standard across eastern South Dakota, where footings go below a frost line in the neighborhood of four feet. That depth is good for stability and bad for water: a poured or block wall with saturated backfill against it will push moisture through cold joints and cove seams long after the yard dries. Near the river, the glacial and alluvial soils hold a shallow water table, so sump systems do steady work.
+
+Anything built before the late 1970s can carry lead paint, asbestos floor tile or pipe wrap, galvanized supply lines, and cast iron drains that fail at the hub. We test or presume before demolition rather than cutting blind.
+
+Structural repair and rebuild work needs permitting confirmed with the city and Minnehaha County, and homes inside the mapped Big Sioux floodplain face additional review when repair costs approach a substantial share of the structure's value.
+
 If you're dealing with water, fire, mold, or storm damage at a Baltic property, call Crew Restoration & Construction at **(605) 965-2727**. We'll walk you through what to expect, what to document before we arrive, and how the process works with your insurance carrier.

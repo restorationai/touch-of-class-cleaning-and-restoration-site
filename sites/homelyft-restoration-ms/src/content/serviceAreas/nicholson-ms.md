@@ -49,4 +49,12 @@ Once mitigation is complete, many homeowners need more than drywall patches — 
 
 HomeLyft Restoration MS is headquartered in Gulfport, roughly 50 miles south of Nicholson via U.S. 49 North to MS-43 or the I-59 corridor depending on the specific address. Travel time from our Gulfport base to Nicholson is typically under an hour in normal traffic conditions. For properties along U.S. 11 near the Louisiana state line or further north toward the Henleyfield area, routing through Poplarville adds minimal time. Call us at (228) 284-5200 to confirm scheduling and get an accurate arrival estimate based on your address and current conditions — we'll give you a straight answer, not a vague window.
 
+## Building stock, site conditions, and permits in Nicholson
+
+Housing here runs from mid-century wood-frame cottages to newer subdivisions and a fair number of manufactured homes set on piers — an assembly where belly wrap holds water against the floor decking long after the leak stops. Anything built before the late 1970s can carry lead paint and asbestos in floor tile, mastic, or siding, so demolition gets tested rather than guessed at. Plumbing vintage matters too: galvanized supply and cast-iron drains in the oldest houses, polybutylene in some 1980s and 90s work, PEX in recent builds.
+
+Soils across this part of the coastal plain are sandy over clay. Water moves down fast until it hits the clay, then sits — which is why a slab edge or pier footing can stay damp for weeks.
+
+Nicholson is unincorporated, so building permits for structural repair or rebuild come through Pearl River County, not a city hall.
+
 If you're dealing with water, fire, or mold damage at a Nicholson property, call HomeLyft Restoration MS at **(228) 284-5200**. We'll walk you through what to expect, what your insurance likely covers, and when we can be on-site — no pressure, just a clear plan.

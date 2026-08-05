@@ -55,4 +55,10 @@ Once the structure is dry, clean, and cleared, our reconstruction crews rebuild 
 
 From our Kenilworth headquarters, the most direct route to Teaneck runs north on the Garden State Parkway to Route 4, then into Bergen County — roughly 25 miles of highway-dominant driving. We reach West Englewood and the Bryant School area via Teaneck Road; the Cedar Lane district and Votee Park neighborhoods are a short turn off Route 4. Because we operate 24/7, dispatch goes out the moment you call (855) 650-7422, day or night, including weekends and holidays.
 
+## Building stock, site conditions, and permits in Teaneck
+
+Most of Teaneck's prewar houses were finished in plaster over wood lath, not drywall, and that assembly holds water very differently — it stays wet behind the surface long after the room feels dry, so drying has to be verified in the cavity rather than assumed. Tudors and colonials here often carry steam or hot-water radiator heat off a converted boiler, which means pipe and boiler insulation from that era should be treated as possible asbestos until tested, and paint in any home built before 1978 as possible lead. Knob-and-tube wiring still turns up in attics and closed walls during demolition.
+
+Repairs beyond like-for-like patching go through the township construction office under New Jersey's Uniform Construction Code, with separate electrical, plumbing, and fire subcode approvals. Work in the flood-prone lowlands near the river draws extra review.
+
 If you're dealing with a loss in Teaneck right now, call (855) 650-7422. We answer around the clock, dispatch crews from Kenilworth, and work directly with your insurance carrier so the process moves as fast as the damage allows.

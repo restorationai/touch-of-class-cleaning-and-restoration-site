@@ -51,4 +51,10 @@ Once mitigation is complete, most homeowners want one contractor to carry the pr
 
 From our Saratoga Springs headquarters, Heber City is approximately 45–55 minutes via US-189 through Provo Canyon under normal road conditions. We target on-site arrival within 90 minutes of your call for most Heber City addresses — including properties on the east bench near the Wasatch State Park boundary and vacation rentals closer to Deer Creek Reservoir. During winter when Provo Canyon sees ice or chain controls, we communicate estimated arrival honestly rather than promising a number we can't hit. For true emergencies, call **(801) 995-2437** any hour — a live person answers.
 
+## Building stock, site conditions, and permits in Heber City
+
+Heber City's housing splits roughly into two eras. The older blocks near the original townsite hold early-1900s brick and wood-frame houses, many with full basements, plaster over lath, and later additions layered on top. Homes of that vintage can still carry galvanized supply lines that scale shut and rust from the inside, cast iron drains, and asbestos-containing materials in old flooring, duct wrap, or texture — all of which change how a wall gets opened and dried. Everything built through the recent subdivision boom is typically stick-framed with copper or PEX supply and a basement or crawlspace.
+
+Footings in this valley go deep because frost does. Building permits inside city limits come from Heber City; properties on unincorporated valley land are permitted through Wasatch County. Structural repair and reconstruction generally require one.
+
 If you're dealing with water, fire, mold, or storm damage anywhere in the Heber City area — ZIP codes 84032 or 84028, or surrounding communities — call Home Pride Restoration and Cleaning at **(801) 995-2437**. We'll tell you exactly what we're seeing, what it will take to fix it, and how your insurance claim fits into the process.

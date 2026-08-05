@@ -49,4 +49,12 @@ Once mitigation is complete, we rebuild — drywall, flooring, cabinetry, trim, 
 
 Quality Contracting, Inc. is headquartered in Auburn, which puts Leicester directly on our primary service corridor. From our Auburn location, Leicester Center is a straightforward run west on Route 20 to Route 9 — typically under 15 miles depending on traffic. Rochdale and Cherry Valley sit just off Route 56 and are equally accessible. Greenville and the reservoir communities near Stiles Reservoir and Lake Sargent add a few minutes on local roads but remain well within our regular coverage area. Calls during our business hours are routed to a live dispatcher who can confirm scheduling and get a crew moving the same day for active emergencies.
 
+## Building stock, site conditions, and permits in Leicester
+
+Much of the older housing here is wood frame with plaster over wood lath, sitting on fieldstone or rubble-stone basement walls typical of 19th-century central Massachusetts villages. Those walls weep, and plaster holds water long after the surface feels dry, so drying means opening cavities rather than trusting a fan. Postwar and later homes are more often poured concrete with drywall. The ground is glacial till — rocky, slow to drain, with ledge close to the surface in places, which pushes runoff sideways against foundations instead of down.
+
+Expect period systems: cast iron drains, galvanized supply, knob-and-tube remnants, asbestos on old boiler piping, and lead paint in anything pre-1978.
+
+Building permits come from the town's building department under the Massachusetts state building code. Structural repair, reroofing, and rebuilds generally trigger one; septic work also involves the Board of Health, and work near the reservoirs can fall under Conservation Commission review.
+
 If you're dealing with water, fire, mold, or structural damage at a Leicester property in ZIP codes 01524, 01542, or 01611, call Quality Contracting, Inc. at **(508) 756-8800** during business hours. We'll assess the situation, walk you through next steps, and coordinate directly with your insurance carrier so the claims process doesn't fall on you.

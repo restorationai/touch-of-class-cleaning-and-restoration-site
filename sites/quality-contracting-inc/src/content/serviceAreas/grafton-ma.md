@@ -53,4 +53,10 @@ Because we handle both the mitigation and the rebuild, Grafton homeowners work w
 
 Quality Contracting, Inc. is headquartered in Auburn, MA, roughly 10 to 12 miles from Grafton Center via Route 20 West to Route 122. South Grafton and Fisherville are accessible from the same corridor. North Grafton and the neighborhoods near the Cummings School of Veterinary Medicine at Tufts are reachable in similar drive time heading northeast on Route 30 or 122A. Call (508) 756-8800 during business hours and we will schedule your assessment and get a crew moving toward you as promptly as routing allows.
 
+## Building stock, site conditions, and permits in Grafton
+
+Much of the pre-war stock here is balloon or post-and-beam framed with plaster over wood lath, which holds water long after the drywall era would have dried. Those cavities run uninterrupted from sill to attic, so a second-floor supply leak can show up at the fieldstone foundation. Expect galvanized supply lines, cast iron drains, and surviving knob-and-tube in older wiring, plus lead paint in anything built before 1978 and asbestos in old pipe wrap and floor tile — both change how demolition is sequenced under Massachusetts rules.
+
+The ground across this part of Worcester County is glacial till with stone and shallow ledge, which sheds water sideways toward basements rather than absorbing it. Building permits for structural repair or rebuild come from the Town of Grafton's building department under the Massachusetts State Building Code.
+
 If you're dealing with water, fire, smoke, or mold damage at a property in Grafton — whether it's a colonial on the Common, a mill-era two-family in Farnumsville, or a newer home near the commuter rail — call Quality Contracting, Inc. at **(508) 756-8800**. We'll assess the damage, explain the process clearly, and handle the paperwork with your insurer so you can focus on getting back to normal.

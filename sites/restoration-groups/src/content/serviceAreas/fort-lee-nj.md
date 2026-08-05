@@ -55,4 +55,12 @@ Once mitigation is complete, we handle the rebuild — drywall, flooring, cabine
 
 The Restoration Group's Kenilworth headquarters sits roughly 18 miles from Fort Lee via the New Jersey Turnpike and Route 3 or I-95 north. Our crews are dispatched 24/7, so whether the call comes in at 2 a.m. from a property manager in Linwood or midday from a homeowner in Palisade, we're moving. We serve all of 07024, including the high-rise corridors along the Hudson, the residential streets of Coytesville, and the commercial properties along the Main Street business district.
 
+## Building stock, site conditions, and permits in Fort Lee
+
+Fort Lee's prewar houses in Coytesville and The Hill are wood frame over stone or block foundations, with lath-and-plaster interiors, cast iron drain stacks, and galvanized supply lines that scale shut and weep at threaded joints. Anything built before 1978 should be treated as possible lead paint, and pipe wrap and old floor tile as possible asbestos, which changes how a demo scope is written.
+
+The Palisades are diabase bedrock under thin soil, so basements are often cut into rock and water finds seams rather than soaking away. Northern New Jersey frost depth means winter pipe breaks in unheated garages and exterior walls.
+
+Structural repair and rebuild permits come from the Fort Lee construction office under the New Jersey Uniform Construction Code, with separate plumbing, electrical, and fire subcodes. Condo and co-op boards usually require approval on top of that.
+
 If you're dealing with water, fire, mold, or storm damage anywhere in Fort Lee, call The Restoration Group at **(855) 650-7422**. We answer around the clock, and we bring the documentation, equipment, and coordination that Fort Lee's dense, high-stakes property landscape demands.

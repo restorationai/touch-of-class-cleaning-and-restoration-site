@@ -51,4 +51,12 @@ Once mitigation is complete, many property owners need more than cleanup — the
 
 Our Gulfport headquarters sits roughly 75 miles south of Hattiesburg via US-49 North — a straight shot up one of Mississippi's primary inland corridors. We serve Hattiesburg and surrounding Forrest County on a scheduled basis, and we work to prioritize active water-loss calls because every hour of standing water increases both the drying time and the scope of damage. When you call **(228) 284-5200**, our team will confirm current availability and give you an honest arrival window based on where our nearest crew is working that day. We do not make minute-level promises we cannot keep.
 
+## Building stock, site conditions, and permits in Hattiesburg
+
+Beyond the older pier-and-beam cores, much of Hattiesburg's postwar and later growth went up on slab-on-grade with brick veneer over wood framing and asphalt shingles. On a slab, supply lines routed under the concrete give no warning — the first clue is usually a warm spot on the floor or a water bill that jumped, and locating the break means opening the slab rather than a wall.
+
+Supply piping tracks the build date: galvanized steel in the oldest houses, copper through the middle decades, PEX in newer work. Anything built before 1978 should be treated as lead-painted until testing says otherwise, and mid-century floor tile and mastic get handled as suspect asbestos.
+
+Structural repair and rebuild inside the city are permitted through Hattiesburg's building inspection office; outside city limits, Forrest County handles it. Work in a mapped flood zone brings elevation rules into the scope.
+
 If you are dealing with water, mold, fire, or smoke damage at a Hattiesburg property, call HomeLyft Restoration MS at **(228) 284-5200**. We will walk you through what we are seeing, what needs to happen first, and what the process looks like from extraction through rebuild.

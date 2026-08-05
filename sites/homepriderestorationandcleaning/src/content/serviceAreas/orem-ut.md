@@ -53,4 +53,12 @@ Once mitigation is complete, we handle the rebuild — drywall, flooring, cabine
 
 Home Pride Restoration and Cleaning is headquartered in Saratoga Springs, roughly 15 to 20 minutes from central Orem via US-89 under normal traffic conditions. Most Orem calls see a technician on-site within 45 to 60 minutes of your call to (801) 995-2437. We serve all Orem ZIP codes, including 84057 and 84058, and our coverage extends across the full city — from the established neighborhoods near University Parkway to the newer developments south toward the Vineyard border.
 
+## Building stock, site conditions, and permits in Orem
+
+Much of Orem's housing predates 1980, which shapes what we find once walls come open: plaster or early drywall over dimensional framing, copper or galvanized supply lines, and cast iron drains that corrode from the inside before they leak. Homes from that era can also carry asbestos in popcorn ceilings, vinyl floor tile, and pipe wrap, plus lead paint — all of which have to be tested for and planned around before demolition rather than after.
+
+The valley floor here is old Lake Bonneville sediment: silts, sands, and clay layers that hold water against foundation walls and keep crawlspaces damp long after the surface dries. Groundwater sits higher toward the lake side of town.
+
+Structural repairs and rebuilds are permitted through Orem City, under the state-adopted building code and Utah's high seismic design requirements.
+
 If you're dealing with an active emergency or you found damage this morning and aren't sure what to do next, call (801) 995-2437. We'll walk you through immediate steps on the phone and get someone moving toward your property.

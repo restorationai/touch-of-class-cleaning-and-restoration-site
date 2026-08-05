@@ -47,4 +47,10 @@ Sewage backups are more common in Davie's western neighborhoods than most homeow
 
 RestorationXpress is headquartered in Davie, which makes the western ranch and equestrian neighborhoods — Shenandoah, Rolling Hills, and the acreage lots stretching toward the 33330 and 33331 ZIP codes — our fastest-response territory. There is no highway bridge to cross, no drawbridge delay, and no long haul down I-95. We reach properties near Tree Tops Park and the communities along Nob Hill Road without the routing delays that affect crews coming from Fort Lauderdale or Pembroke Pines. For properties in the 33324 and 33325 corridors closer to University Drive, travel is equally direct on surface roads we know well. Call (954) 964-6471 to reach us and confirm scheduling for your address.
 
+## Building stock, site conditions, and permits in Davie
+
+Most Davie housing sits on slab-on-grade with no basement and no crawlspace, so a supply leak has nowhere to drain — it spreads sideways under tile and inside block cells. Homes from the 1960s and 70s typically ran copper supply and cast iron drain lines; the cast iron scales and cracks at the slab penetration, and 1980s-era builds around the county sometimes still have polybutylene supply that fails at the fittings. Popcorn ceilings and old floor tile in that vintage warrant testing before demolition rather than assumptions.
+
+Structural repair and reroofing permits come from the Town of Davie's building division, under the Florida Building Code as amended for Broward's High-Velocity Hurricane Zone. That drives fastener, roof-deck, and opening-protection requirements on rebuild work. In mapped flood zones, the value of the repair can also trigger elevation review.
+
 If you are dealing with water, fire, mold, or a situation you are not sure how to categorize, call RestorationXpress at **(954) 964-6471**. We will ask the right questions, give you a straight answer about what needs to happen, and get someone to your Davie property promptly.

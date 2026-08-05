@@ -39,4 +39,10 @@ Lennox sits in the heart of Lincoln County, where the same flat, fertile ground 
 
 Crew Restoration & Construction is based in Sioux Falls, roughly 20 miles north of Lennox via I-29 South to SD-44 or via SD-115. That's a straightforward drive with no significant traffic delays outside of Sioux Falls itself, which means our crew can be loaded and rolling toward Lennox quickly once a job is scheduled. We serve the full 57039 ZIP code, including properties near Downtown Lennox, the Lennox City Park area, and the residential streets extending toward the Lincoln County farmland on the town's edges. For scheduling and availability, call us at (605) 965-2727 and we'll give you a straight answer on when we can be on-site.
 
+## Building stock, site conditions, and permits in Lennox
+
+Lennox has a core of pre-war and mid-century houses near downtown surrounded by subdivisions built from the 1990s on. Almost everything here has a full basement, because footings have to sit below a frost line measured in feet in this part of South Dakota. The older homes tend to have block or early poured concrete walls, lath and plaster above, and cast iron drain stacks that scale shut and back up long before they leak. Anything from before the late 1970s should be treated as possible lead paint, and pre-1980 furnace duct wrap and resilient floor tile get tested rather than demolished blind. Newer builds are PEX on poured walls, faster to dry but easy to hide moisture behind finished basement framing.
+
+Structural repair and rebuild work is permitted through the City of Lennox for properties inside town limits, and through Lincoln County out in the surrounding farmland.
+
 If you're dealing with water, fire, smoke, or mold damage at a Lennox property, the next step is a phone call — not a web form. Reach Crew Restoration & Construction at **(605) 965-2727** and tell us what you're looking at. We'll help you understand the scope, work with your insurance carrier, and get the work done right.

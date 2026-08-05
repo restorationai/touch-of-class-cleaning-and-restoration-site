@@ -47,4 +47,12 @@ Once mitigation is complete, most property owners don't want to manage a separat
 
 Reign Restoration is headquartered in Royse City, TX, roughly 30 miles east of central Plano via US 80 to I-635 or George Bush Turnpike (SH 190). That route puts us into eastern Plano neighborhoods like Ridgeview Ranch and Old Shepard Place efficiently, and the Bush Turnpike carries us west to Legacy West and The Shops at Willow Bend without cutting through surface streets. We serve all of Plano — ZIP codes 75023, 75024, 75025, 75074, 75075, 75093, and 75094 — and because we run 24/7 dispatch, a call at any hour gets a crew moving, not a callback scheduled for morning.
 
+## Building stock, site conditions, and permits in Plano
+
+Plano sits on Blackland Prairie clay, a soil that swells when it's wet and shrinks hard in a dry August. That movement is why almost nothing here has a basement — homes are slab-on-grade, with post-tension cable slabs common in the later builds. It also means a plumbing leak under the slab isn't just a water problem: saturating the subgrade next to soil that's already moving can show up later as sticking doors and cracked brick veneer.
+
+Because there are no basements, supply lines and HVAC live in the attic, so a hard freeze breaks pipes above the ceiling rather than below the floor.
+
+Structural repair and rebuild permits come from the City of Plano's building inspections office, and much of the city also sits under an active HOA with its own exterior approvals.
+
 If you're dealing with water, fire, smoke, or mold damage anywhere in Plano, call Reign Restoration at **(214) 304-0621**. We answer around the clock, and we can walk you through next steps before a crew even leaves the shop.

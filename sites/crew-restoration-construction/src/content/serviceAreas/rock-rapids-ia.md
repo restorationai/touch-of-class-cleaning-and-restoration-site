@@ -47,4 +47,10 @@ Some losses go beyond cleanup. When water damage has rotted subflooring near Emm
 
 Rock Rapids is roughly 90 miles northeast of our Sioux Falls headquarters, a drive that runs north on I-29 and then east on US-18 through Larchwood before reaching Lyon County. We serve all of Rock Rapids — Downtown Rock Rapids, the Rock River area, and surrounding rural addresses in the 51246 ZIP code. Scheduling is handled during business hours; call (605) 965-2727 to describe the situation and we will coordinate the fastest available dispatch. We do not promise a specific on-site window in minutes, but we treat water and fire losses as priority scheduling because every hour matters when materials are wet or smoke residue is settling.
 
+## Building stock, site conditions, and permits in Rock Rapids
+
+Most of what stands here is wood-framed with a full basement — the deep frost line in northwest Iowa pushes footings well below grade, so basements are the norm rather than slabs or crawlspaces. That is where the loss usually lands: plaster and lath or early gypsum on the main floors, and a finished basement with studwall furring tight against masonry that holds water long after the floor looks dry. Older homes commonly still have cast iron drain stacks and clay or fiber sewer laterals, and pre-1978 paint and asbestos-bearing floor tile or pipe wrap have to be planned for before demolition starts, not after.
+
+Structural repair and rebuild permits come from the City of Rock Rapids for in-town addresses and Lyon County for rural ones. Work in the mapped floodplain near the river can trigger additional floodplain review through the state.
+
 If you are dealing with water, fire, mold, or structural damage anywhere in Rock Rapids or Lyon County, call Crew Restoration & Construction at **(605) 965-2727** during business hours. Describe what you are seeing and we will walk you through next steps — including what to document for your insurance carrier before we arrive.

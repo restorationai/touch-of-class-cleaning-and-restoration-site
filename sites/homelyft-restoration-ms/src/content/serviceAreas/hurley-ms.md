@@ -53,4 +53,10 @@ Sewage backups, which are not uncommon when heavy rain overwhelms older septic s
 
 HomeLyft Restoration MS operates out of Gulfport, roughly 35 to 40 miles southwest of Hurley via US-90 East and MS-613 North. Depending on time of day and road conditions through Moss Point and Escatawpa, that translates to a drive of under an hour in most circumstances. We schedule Hurley calls with that travel window in mind and will give you a realistic arrival estimate when you call — not a number pulled from a marketing page. Call us at (228) 284-5200 to reach a team member directly.
 
+## Building stock, site conditions, and permits in Hurley
+
+Hurley is unincorporated, so there is no city hall to pull a permit from — structural repair, reroofing, and rebuild work here go through Jackson County, and septic replacement after a Category 3 loss is handled under state health department rules rather than a municipal utility. Being inland of the coast usually means less stringent wind-borne debris requirements than the beachfront, but Mississippi's statewide code still governs the rebuild, and roof tie-downs matter on any full re-deck.
+
+The housing is largely postwar and later — brick-veneer or vinyl-clad ranches on slab, plus pier-and-beam homes with vented crawl spaces. Watch the plumbing vintage: cast iron drains in the oldest houses, polybutylene supply in 1980s and early-90s builds, and copper elsewhere. Those failures usually surface as slow, hidden saturation rather than a dramatic burst.
+
 If your home or rental property in Hurley is showing signs of water intrusion, smoke damage, or mold, call HomeLyft Restoration MS at **(228) 284-5200**. We'll tell you exactly what we're looking at, what it takes to fix it, and how we work with your insurance company to keep the process moving.

@@ -49,4 +49,10 @@ Once mitigation is complete, many property owners want a single contractor to ca
 
 Because our office is located in Vandenberg Village itself, there is no significant drive time factored into our scheduling — we are not staging from Santa Barbara or San Luis Obispo. Properties throughout Vandenberg Village are a short, direct drive from our base. We schedule promptly and aim to have a crew on-site the same day for active water losses whenever our schedule allows. Call us at (805) 345-7440 to confirm current availability and get a crew dispatched.
 
+## Building stock, site conditions, and permits in Vandenberg Village
+
+Much of Vandenberg Village went up in the 1960s as housing tied to the nearby base, so the typical assembly is wood frame with stucco over building paper, shallow-pitch composition roofs, and drywall rather than plaster. Stucco holds moisture against sheathing, so wetted exterior walls usually have to be dried from the interior side. Homes of that vintage often carry asbestos-suspect materials — vinyl-asbestos floor tile and its mastic, textured ceilings, joint compound — plus lead paint on anything predating 1978, so we test before demolition instead of cutting first. Cast-iron drain lines from that era scale and crack at the hub, which is a slow, repeat leak rather than a burst.
+
+Vandenberg Village is unincorporated, so building permits for structural repair or rebuild come from Santa Barbara County, not a city hall. California's statewide code applies, and this is a high-seismic area, which matters when framing or shear panels are replaced.
+
 If you are dealing with water intrusion, smoke damage, or a mold concern anywhere in Vandenberg Village, call Coastal Restoration Services Inc at **(805) 345-7440**. We will walk you through what we are seeing, give you an honest assessment of scope, and work directly with your insurance carrier to keep the process moving.

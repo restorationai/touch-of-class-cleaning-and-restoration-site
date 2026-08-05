@@ -49,4 +49,12 @@ Once mitigation is complete, HomeLyft can carry the project through rebuild — 
 
 HomeLyft Restoration MS is headquartered in Gulfport. Reaching State Line means traveling north through the Mississippi Pine Belt — roughly following US-49 toward Hattiesburg and then east on US-98 into Greene County, a route of approximately 100 miles depending on the specific address. We serve the broader State Line area including properties along the MS–AL state line corridor. Call us at (228) 284-5200 to confirm scheduling and discuss the fastest available dispatch for your situation. We do not publish minute-based arrival guarantees, but we will give you an honest estimated arrival window when you call.
 
+## Building stock, site conditions, and permits in State Line
+
+Much of State Line's housing is modest one-story wood frame — pier-and-beam on brick or block piers with vented crawl spaces, plus slab-on-grade on the newer end. Manufactured homes on piers are common across rural Greene County. Crawl space construction matters after a leak: water sits in the joists, subfloor sheathing, and batt insulation long after the finished floor looks dry, so drying has to happen from underneath.
+
+Plumbing vintage tracks the era. Older houses run galvanized supply and cast iron drains; mid-1980s through mid-1990s work often means polybutylene, which fails at the fittings with little warning. Pre-1978 homes also raise lead paint questions during demolition.
+
+Rural Greene County has limited local building-code enforcement, so confirm permit requirements with the town and county before any structural rebuild.
+
 If you're dealing with water, fire, mold, or storm damage at a State Line property, call HomeLyft Restoration MS at **(228) 284-5200**. We'll walk through what you're seeing, explain the process, and get a crew scheduled.
