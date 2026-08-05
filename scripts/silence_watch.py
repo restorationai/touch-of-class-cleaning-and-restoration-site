@@ -60,6 +60,12 @@ sys.path.insert(0, str(ROOT / "scripts"))
 
 NOW = datetime.now(timezone.utc)
 WATCH_KEY = "silence-watch-state"
+# How far apart two "unknown" readings must be to count as two strikes. The
+# worker re-runs its whole daily roster after every deploy, and a deploy
+# switchover can leave two containers alive for a moment — on 2026-08-05 two
+# passes landed in the SAME SECOND and carded a system that had been unknown
+# once. Consecutive has to mean "on a later pass", not "twice, somehow".
+UNKNOWN_CONFIRM_HOURS = 6
 
 
 def _sb(*a, **kw):
@@ -400,9 +406,14 @@ def cmd_check(args) -> int:
         prev = state.get(v["key"]) or {}
         alarm = v["state"] in ("silent", "never")
         if v["state"] == "unknown":
-            # Two consecutive unknowns is itself an outage: we have lost the
-            # ability to tell. One is a flaky lookup.
-            alarm = prev.get("state") == "unknown"
+            # Two unknowns A PASS APART is itself an outage: we have lost the
+            # ability to tell. One is a flaky lookup, and two in the same
+            # minute are one duplicate run (see UNKNOWN_CONFIRM_HOURS).
+            prev_at = _parse(prev.get("at"))
+            gap = None if prev_at is None else (
+                (NOW - prev_at).total_seconds() / 3600)
+            alarm = (prev.get("state") == "unknown" and gap is not None
+                     and gap >= UNKNOWN_CONFIRM_HOURS)
             if alarm:
                 v["output_desc"] = ("the check itself cannot read this "
                                     "system's output twice running — "
