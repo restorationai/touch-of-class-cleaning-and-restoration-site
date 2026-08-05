@@ -1844,6 +1844,137 @@ def kickoff_recap_endpoint(req: KickoffPrepRequest):
                     "Dedupe tag: kickoff-recap-sent."}
 
 
+@app.post("/voice-ai/take-message")
+async def voice_ai_take_message(request: Request):
+    """Called mid-call by the GHL Voice AI agent on the agency's own inbound
+    toll-free (+18556484464) when it could not put the caller through.
+
+    Exists because of the 2026-08-05 Jerrott Gray incident: the agent said
+    "transferring you now" twice, had no CALL_TRANSFER action configured at
+    all, and simply looped until a two-day-old client hung up. The transfer
+    is now real, but a transfer can still legitimately fail (Santino does not
+    pick up), and the ONE thing that must never happen again is a caller
+    being left with a promise nobody kept. So: the agent takes a message and
+    this endpoint puts it on Santino's cell within seconds.
+
+    Deliberately NOT routed through client_concierge.send_message: that path
+    is gated on CONCIERGE_PAUSED and the canary allowlist, both of which are
+    client-facing safety rails. A caller who could not reach a human is an
+    ops page to Santino's own phone and must survive the concierge being
+    paused. It posts straight to GHL instead, to Santino's own contact only.
+
+    Auth: shared secret via ?secret=, the x-voice-secret header, or an
+    Authorization header (GHL Custom Actions send authenticationValue there),
+    checked against VOICE_AI_WEBHOOK_SECRET, then CONCIERGE_WEBHOOK_SECRET,
+    then LEAD_AUDIT_FUNNEL_SECRET.
+
+    Body: liberal — caller_name / callback_number / message in any casing.
+    It has to be liberal, because GHL's own API currently CANNOT store the
+    Custom Action `parameters` array: POST/PUT /voice-ai/actions returns
+    400 "Maximum call stack size exceeded" for any non-empty `parameters` or
+    `headers` list (verified 2026-08-05 against every field combination).
+    So the action is registered with no declared parameters and GHL may well
+    post an empty body. When it does, we fall back to identifying the caller
+    from GHL's own conversation history and still page Santino, because an
+    alert that names the wrong caller is recoverable and silence is not.
+    Every raw body is logged so the first live call pins down the real shape.
+    """
+    expected = (os.environ.get("VOICE_AI_WEBHOOK_SECRET")
+                or os.environ.get("CONCIERGE_WEBHOOK_SECRET")
+                or os.environ.get("LEAD_AUDIT_FUNNEL_SECRET", ""))
+    try:
+        body = await request.json()
+    except Exception:
+        body = {}
+    if not isinstance(body, dict):
+        body = {}
+    auth_hdr = (request.headers.get("authorization") or "")
+    supplied = (request.query_params.get("secret")
+                or request.headers.get("x-voice-secret")
+                or auth_hdr.replace("Bearer ", "").strip()
+                or str(body.get("secret") or ""))
+    if not (expected and supplied == expected):
+        raise HTTPException(status_code=403, detail="bad secret")
+
+    print("[voice-ai/take-message] raw body:", json.dumps(body)[:1000])
+
+    flat: dict = {}
+
+    def _flatten(obj, depth: int = 0) -> None:
+        if depth > 4 or not isinstance(obj, dict):
+            return
+        for k, v in obj.items():
+            if isinstance(v, dict):
+                _flatten(v, depth + 1)
+            elif v not in (None, "", [], {}):
+                flat.setdefault(str(k).lower().replace("-", "_"), str(v).strip())
+
+    _flatten(body)
+
+    def _pick(*names: str) -> str:
+        for n in names:
+            if flat.get(n):
+                return flat[n]
+        return ""
+
+    caller = _pick("caller_name", "callername", "full_name", "name")
+    callback = _pick("callback_number", "callbacknumber", "from", "from_number",
+                     "phone", "number")
+    note = _pick("message", "message_content", "reason", "summary", "notes")
+    urgent = _pick("urgent", "is_urgent").lower() in ("1", "true", "yes")
+
+    import client_concierge  # scripts/ is on sys.path (see header)
+    client_concierge.load_env()
+
+    # GHL cannot declare the action's parameters (see docstring), so an empty
+    # body is the expected case, not an error. Identify the caller from the
+    # most recent inbound call on this location instead of paging Santino
+    # with nothing he can act on.
+    if not (caller or callback):
+        try:
+            found = client_concierge._ghl(
+                "GET", "/conversations/search",
+                params={"locationId": os.environ["GHL_LOCATION_ID"],
+                        "sort": "desc", "sortBy": "last_message_date",
+                        "limit": 5}) or {}
+            for conv in (found.get("conversations") or []):
+                cid = conv.get("contactId")
+                if not cid:
+                    continue
+                caller = (conv.get("fullName") or conv.get("contactName")
+                          or caller)
+                callback = (conv.get("phone") or callback)
+                break
+        except Exception as e:  # noqa: BLE001 — best effort only
+            print("[voice-ai/take-message] caller lookup failed:", str(e)[:200])
+
+    lines = ["URGENT MISSED CALL on the front desk line." if urgent
+             else "MISSED CALL on the front desk line.",
+             "",
+             f"Name: {caller or 'not given'}",
+             f"Callback: {callback or 'not given'}"]
+    if note:
+        lines += ["", note]
+    lines += ["", "They called +18556484464, the front desk could not reach "
+                  "you, and it took a message. Full transcript is on the "
+                  "call in GHL."]
+    text = "\n".join(lines)
+
+    try:
+        contact_id = getattr(client_concierge, "OPS_PING_CONTACT_ID", "")
+        payload = {"type": "SMS", "contactId": contact_id, "message": text}
+        from_number = os.environ.get("CONCIERGE_FROM_NUMBER", "").strip()
+        if from_number:
+            payload["fromNumber"] = from_number
+        client_concierge._ghl("POST", "/conversations/messages", body=payload)
+    except Exception as e:  # noqa: BLE001 — the caller must never hear a stack
+        print("[voice-ai/take-message] SMS failed:", str(e)[:300])
+        return {"status": "logged",
+                "spoken": "I have your message and I am getting it to Santino."}
+    return {"status": "sent",
+            "spoken": "I have your message and Santino has it on his phone now."}
+
+
 @app.get("/lead-audit/{audit_id}")
 def get_lead_audit(audit_id: str):
     """Public: audit status. Returns only status + report URL (no contact info)."""
