@@ -297,7 +297,11 @@ def _sms_dnd(contact: dict | None) -> bool:
 # never classify them, never reply to them, never treat them as a client
 # message waiting on us (Santino 2026-08-02 anti-loop rule (a)).
 _REACTION_RE = re.compile(
-    r'^(?:liked|loved|laughed at|emphasi[sz]ed|disliked|questioned)\s+["“]',
+    # Apple/Android tapbacks: 'Liked "…"'.  GHL also relays raw emoji
+    # reactions as '<emoji> to "…"' (Greg/PuroClean 2026-08-05 sent 🤙🏽 and
+    # Monica replied to it — reactions are never messages, never answer one).
+    r'^\s*(?:(?:liked|loved|laughed at|emphasi[sz]ed|disliked|questioned)\s+["“]'
+    r'|[^\w\s,.!?]{1,8}[​️\s]*to\s+["“])',
     re.I)
 # Ops ping: every escalation also fires ONE summary SMS to Santino's cell so
 # a human hears about it without reading concierge-escalations.md. The 805
