@@ -255,6 +255,13 @@ MAX_ITEMS_PER_MESSAGE = 1
 # A first text from an unknown number must feel like a person saying hi with
 # one small favor to ask — never a checklist. Follow-ups may carry two.
 FIRST_CONTACT_MAX_ITEMS = 1
+# How long a finished site sits before we show it to a brand-new client
+# (Santino 2026-08-05). Not a delay for its own sake: every other ask goes out
+# immediately, so the client sees steady progress, and the gap doubles as the
+# QA window that would have caught DISS's broken logo before they ever saw it.
+# This gates the PROACTIVE ask only. A client who writes in asking about their
+# site is answered by the reply path, which never consults this filter.
+PREVIEW_SOAK_DAYS = 3
 MIN_DAYS_BETWEEN_SENDS = 3
 HISTORY_MAX_MSGS = 25          # default fetch_history depth for compose/status
 CLASSIFY_HISTORY_MSGS = 10     # history context given to inbound classification
@@ -406,7 +413,11 @@ def _norm_email(e: str) -> str:
     return (e or "").strip().lower()
 
 
-def allowed_recipients() -> set[str]:
+DEPARTED_STATUSES = {"archived", "churned", "paused", "cancelled", "inactive"}
+_ALLOW_CACHE: dict = {"at": None, "value": None}
+
+
+def _env_allowlist() -> set[str]:
     """CONCIERGE_ALLOWLIST env (comma-separated phones/emails). Default EMPTY."""
     out: set[str] = set()
     for tok in os.environ.get("CONCIERGE_ALLOWLIST", "").split(","):
@@ -414,6 +425,79 @@ def allowed_recipients() -> set[str]:
         if not tok:
             continue
         out.add(_norm_email(tok) if "@" in tok else _norm_phone(tok))
+    return out
+
+
+def _client_allowlist() -> tuple[set[str], list[str]]:
+    """Preferred contact of every CURRENT client, straight from the app.
+
+    Returns (recipients, labels). Fails closed: on any error the caller keeps
+    the env list alone rather than widening the gate on bad data.
+    """
+    out: set[str] = set()
+    who: list[str] = []
+    try:
+        rows = _sb("GET", "/rest/v1/companies?select=id,name,status,plan,"
+                          "integration_settings&limit=500") or []
+    except Exception as e:  # noqa: BLE001 — never widen the gate on a bad read
+        print(f"  [allowlist] client read failed ({str(e)[:70]}) — env list only")
+        return out, who
+    for c in rows:
+        if str(c.get("status") or "").strip().lower() in DEPARTED_STATUSES:
+            continue
+        pref = preferred_contact_entry(c)
+        if not pref:
+            continue          # no contact card yet: nothing to authorise
+        cell, email = pref.get("cell") or "", pref.get("email") or ""
+        added = False
+        if _norm_phone(cell):
+            out.add(_norm_phone(cell)); added = True
+        if "@" in email:
+            out.add(_norm_email(email)); added = True
+        if added:
+            name = " ".join(x for x in ((pref.get("first_name") or "").strip(),
+                                        (pref.get("last_name") or "").strip()) if x)
+            who.append(f"{c.get('name')} -> {name or '?'}")
+    return out, who
+
+
+def allowed_recipients() -> set[str]:
+    """Who Monica is allowed to message.
+
+    Two sources, unioned:
+      1. CONCIERGE_ALLOWLIST env — Santino's own numbers, canary contacts, and
+         anyone he wants reachable who is not a client contact card.
+      2. The PREFERRED CONTACT of every current client, read live from
+         integration_settings.contacts — the same card the app shows under
+         Contact info, marked with the star.
+
+    Source 2 exists because source 1 alone was silently dropping real clients
+    (Santino, 2026-08-05). The env list is hand-typed and nothing in the
+    onboarding wizard ever appended to it, so a client could finish onboarding,
+    have a complete GHL-linked contact card in the app, and still be
+    unreachable forever with the failure buried in a log line. DISS
+    (TJ Stoian), HomeLyft (josiah Viland) and AAA (Christopher Pruett) were all
+    in exactly that state, HomeLyft having already done their kickoff call.
+
+    The gate still does its job: it authorises the person the app says to
+    message, and nobody else. Departed clients drop out, a company with no
+    contact card adds nothing, and a Supabase failure falls back to the env
+    list rather than opening up.
+
+    Cached for 5 minutes so a batch compose does not re-read per send.
+    """
+    now = datetime.now(timezone.utc)
+    cached = _ALLOW_CACHE.get("value")
+    if cached is not None and _ALLOW_CACHE.get("at") \
+            and (now - _ALLOW_CACHE["at"]).total_seconds() < 300:
+        return cached
+    env = _env_allowlist()
+    derived, who = _client_allowlist()
+    if who:
+        print(f"  [allowlist] {len(env)} from env + {len(who)} client contact "
+              f"card(s) from the app")
+    out = env | derived
+    _ALLOW_CACHE.update({"at": now, "value": out})
     return out
 
 
@@ -2161,8 +2245,38 @@ def filter_already_satisfied(company: dict, items: list[dict],
     n_photos: int | None = None
     suspended: bool | None = None
     da_status: str | None = None
+    preview_ready_at: str | None = None
     for it in items:
         text = str(it.get("text", "")).lower()
+        # (d) PREVIEW SOAK — a finished site is not shown to a brand-new client
+        # the moment the build lands (Santino 2026-08-05: "I'm actually happy
+        # that we didn't send them their website so quickly. I want it to feel
+        # like we're spending time"). The site waits PREVIEW_SOAK_DAYS from the
+        # build; every OTHER ask goes out immediately, so the days read as
+        # steady progress rather than silence. The wait is also a QA window —
+        # DISS's logo was broken for its whole first day.
+        # Proactive ask only — a client who writes in asking about their site
+        # is answered by the reply path, which never reaches this filter.
+        if "preview" in text and ("site" in text or "website" in text):
+            if preview_ready_at is None:
+                try:
+                    rows = _sb("GET", "/rest/v1/marketing_sites?company_id=eq."
+                               f"{company.get('id')}&select=updated_at,build_status") or []
+                    preview_ready_at = (rows[0].get("updated_at") or "") if rows else ""
+                except Exception:  # noqa: BLE001 — unknown age: show it, don't stall
+                    preview_ready_at = ""
+            if preview_ready_at:
+                try:
+                    built = datetime.fromisoformat(
+                        preview_ready_at.replace("Z", "+00:00"))
+                    age_d = (datetime.now(timezone.utc) - built).days
+                    if age_d < PREVIEW_SOAK_DAYS:
+                        print(f"    [preview-soak] site is {age_d}d old — holding "
+                              f"the preview until day {PREVIEW_SOAK_DAYS}; other "
+                              f"asks still go out")
+                        continue
+                except ValueError:
+                    pass
         # (c) DOMAIN-ACCESS STATE GATE — per-state behavior:
         #     none      -> ask normally (the ledger seeded the rank-1 ask)
         #     promised  -> the ledger swapped the ask for a verify nudge; the
@@ -3103,6 +3217,49 @@ _BAN_TOPICS = {
 }
 
 
+# A hold is stronger than a topic ban: not "avoid this subject" but "say
+# NOTHING to this client until Santino says otherwise". It was being recorded
+# as an ops note and enforced by nothing (2026-08-05). Jerrott Gray only stayed
+# un-messaged because his number happened to be missing from the hand-typed
+# allowlist, which stopped being true the moment the allowlist started deriving
+# from client contact cards. High precision on purpose: an explicit marker, not
+# the word "hold" appearing in prose.
+# HARD-GAG is unambiguous and matches anywhere. HOLD must be the note's
+# HEADLINE — inside the first 160 characters — because ordinary notes discuss
+# holding things constantly. The loose form of this ("do not contact/text/
+# message") was tried first and immediately caught HomeLyft on a dev-agent
+# instruction reading "Do not text the client yourself", in a note whose whole
+# point was that Monica SHOULD message them. A false positive here silences a
+# client completely, which is the exact failure this file is being changed to
+# stop, so the bar is an explicit marker rather than a sentiment.
+#
+# To put a client on hold, open a note whose first line is:
+#     [TODO-SANTINO] HOLD — <why>
+_HOLD_HEADLINE = 160
+_HOLD_RE = re.compile(r"HARD-?GAG(?:GED)?|\bHOLD\b\s*[—:-]", re.I)
+
+
+def company_hold(company_id: str | None) -> str | None:
+    """Reason string when this client is under a total communication hold.
+
+    Read from the same open ops notes the rest of the gates use, so putting a
+    client on hold stays a one-line board action with no code change, and
+    resolving that note lifts it.
+    """
+    if not company_id:
+        return None
+    try:
+        rows = _sb("GET", f"/rest/v1/marketing_ops_notes?company_id=eq.{company_id}"
+                   "&status=eq.open&select=body&limit=20") or []
+    except Exception:  # noqa: BLE001 — a read failure must not unblock a hold
+        return "could not verify hold state (ops-notes read failed)"
+    for r in rows:
+        body = " ".join(str(r.get("body") or "").split())
+        if _HOLD_RE.search(body[:_HOLD_HEADLINE]):
+            return f"open note says so: {body[:150]}"
+    return None
+
+
 def banned_topics(company_id: str | None) -> list[tuple[str, str]]:
     """[(label, regex)] this client must not be messaged about, read from the
     open prohibition notes. Empty when nothing is off-limits."""
@@ -3195,6 +3352,9 @@ def send_message(contact: dict, channel: str, body: str,
         raise SendBlocked("CONCIERGE_PAUSED is set — Santino paused all "
                           "concierge sending 2026-07-29. Unset it in .env / "
                           "the workflow env to resume.")
+    held = company_hold((company or {}).get("id"))
+    if held:
+        raise SendBlocked(f"HOLD on this client — {held}")
     allow = allowed_recipients()
     if channel == "sms":
         recipient = contact.get("phone") or ""
@@ -5215,6 +5375,29 @@ def send_now(company_id: str, channel: str = "sms") -> dict:
             else:
                 raise
     except SendBlocked as e:
+        # A blocked send used to end here as a return value nobody read, which
+        # is how DISS Restoration went unmessaged from signup with a finished
+        # site waiting (Santino, 2026-08-05). A HOLD is deliberate and stays
+        # quiet; anything else means a real client is unreachable and has to
+        # reach the board. Once per company+reason, so it cannot spam.
+        reason = str(e)
+        if "HOLD on this client" not in reason:
+            try:
+                if intel_flag_once(state, f"send-block:{company_id}:{channel}"):
+                    _sb("POST", "/rest/v1/marketing_ops_notes",
+                        {"company_id": company_id, "status": "open",
+                         "body": (
+                             f"[TODO-SANTINO] CANNOT REACH "
+                             f"{company.get('name')} — a message was composed "
+                             f"and could not be delivered.\n\n{reason}\n\n"
+                             f"Monica had something to say to this client and "
+                             f"no way to say it. Until this is cleared they "
+                             f"hear nothing from us, however many items sit "
+                             f"on their board.")},
+                        prefer="return=minimal")
+            except Exception as note_err:  # noqa: BLE001 — never mask the block
+                print(f"  [send-block] could not file card: {note_err}",
+                      file=sys.stderr)
         return {**base, "sent": False, "body": body,
                 "reason": f"send blocked: {e}"}
     record_sent_message(state, result)
