@@ -702,6 +702,11 @@ class LeadAuditRequest(BaseModel):
     # team gets an ops ping. Requires the shared secret.
     source: str = ""
     secret: str = ""
+    # Known GHL contact (staff-booked appointments hand us the id outright).
+    # When set, delivery/tagging address this contact directly instead of
+    # re-searching by email/phone — which silently missed contacts with no
+    # phone and could hit the wrong duplicate.
+    ghl_contact_id: str = ""
 
 
 def _lead_norm_domain(url: str) -> str:
@@ -869,7 +874,8 @@ def _run_lead_audit_job(job_id: str, req: "LeadAuditRequest"):
                                    place_id=req.place_id or None,
                                    cid=req.cid or None,
                                    email_mode="internal" if sales else "all",
-                                   sales_mode=sales)
+                                   sales_mode=sales,
+                                   ghl_contact_id=req.ghl_contact_id or None)
         client.table("marketing_jobs").update({
             "status": "completed",
             "completed_at": datetime.now(timezone.utc).isoformat(),
@@ -908,8 +914,10 @@ def _notify_lead_audit_failure(job_id: str, req: "LeadAuditRequest", error: str,
     if req.source:
         try:
             import lead_audit  # scripts/ is on sys.path
-            contact_id = None
-            for q in (req.email, req.phone):
+            # Staff-booked appointments hand us the contact id outright; only
+            # fall back to searching when we were not given one.
+            contact_id = req.ghl_contact_id or None
+            for q in (() if contact_id else (req.email, req.phone)):
                 if not q:
                     continue
                 res = lead_audit._ghl("GET", "/contacts/", params={"query": q})
@@ -975,7 +983,8 @@ def _recover_orphaned_lead_audits():
             phone=p.get("phone") or "",
             business_name=p.get("business_name") or "",
             place_id=p.get("place_id") or "", cid=p.get("cid") or "",
-            source="funnel-recovery" if p.get("sales") else "", secret="")
+            source="funnel-recovery" if p.get("sales") else "", secret="",
+            ghl_contact_id=p.get("ghl_contact_id") or "")
         if attempts >= 1:
             print(f"[lead-audit recovery] {row['id']}: died twice — marking failed")
             try:
@@ -1050,6 +1059,7 @@ def create_lead_audit(req: LeadAuditRequest, request: Request):
                    "phone": req.phone, "ip": ip, "source": "rank.restorationai.io",
                    "business_name": req.business_name or None,
                    "place_id": req.place_id or None, "cid": req.cid or None,
+                   "ghl_contact_id": req.ghl_contact_id or None,
                    # sales flag + attempt counter drive boot-time crash recovery
                    "sales": bool(req.source), "attempts": 0},
     }).execute()
@@ -1059,6 +1069,255 @@ def create_lead_audit(req: LeadAuditRequest, request: Request):
     return {"audit_id": job_id, "status": "queued",
             "note": "Your audit is running — it takes about 5 minutes. We'll email the report to you. "
                     "You can also poll GET /lead-audit/{audit_id}."}
+
+
+# --- Staff-booked appointment → same audit, straight from GHL ---------------
+#
+# /lead-audit is fired by the OpDigital application FORM, where the lead types
+# their own website. When a team member books a reignite/sales call in GHL
+# there is no form: the contact already exists, so the webhook hands us the
+# contact and we read the website off the record. Hernany Da Silva
+# (2026-08-04) proved the gap — his appointment fired the nurture SMS with
+# empty merge fields ("It came back graded .") because no audit ever ran.
+
+GHL_APPT_MAX_PER_DOMAIN_DAY = 3   # secret-gated path; the dedupe below is the real guard
+GHL_APPT_RECENT_DAYS = 30         # a fresh audit already on the contact = don't burn another
+
+
+def _mf(v) -> str:
+    """Clean one GHL merge-field value. An unrendered merge field arrives
+    literally ('{{contact.website}}') — that is emptiness, not a website."""
+    s = str(v if v is not None else "").strip()
+    if not s or "{{" in s or s.lower() in ("null", "none", "undefined", "false"):
+        return ""
+    return s
+
+
+# Subtrees of a GHL payload that carry SOMEBODY ELSE's identity — the
+# calendar's email, the booking user's name. Flattening them would hand the
+# audit sales@… instead of the lead's address, so they are never read.
+GHL_FOREIGN_SUBTREES = {"calendar", "user", "assigneduser", "assignedto", "assigned_to",
+                        "workflow", "location", "account", "agency", "createdby"}
+
+
+def _ghl_scalars(node, out=None, depth: int = 0) -> dict:
+    """Flatten a GHL webhook body to {lowercased_leaf_key: value}.
+
+    GHL posts a big nested payload (contact / appointment / calendar /
+    customData, plus a customFields list) — take the fields we need and ignore
+    the rest, so a raw payload works with no hand-mapping. Scalars at each
+    level are claimed before recursing and the first writer of a key wins, so
+    callers seed the contact subtree first to give it top priority."""
+    if out is None:
+        out = {}
+    if depth > 4 or not isinstance(node, dict):
+        return out
+    for k, v in node.items():
+        if isinstance(v, (str, int, float)) and not isinstance(v, bool):
+            key = str(k).strip().lower().split(".")[-1]
+            if key and key not in out and _mf(v):
+                out[key] = _mf(v)
+    for k, v in node.items():
+        if str(k).strip().lower() in GHL_FOREIGN_SUBTREES:
+            continue
+        if isinstance(v, dict):
+            _ghl_scalars(v, out, depth + 1)
+        elif isinstance(v, list):
+            for item in v:
+                if not isinstance(item, dict):
+                    continue
+                # customFields entries: {key|fieldKey|name|id, value|field_value}
+                fk = str(item.get("key") or item.get("fieldKey") or item.get("name")
+                         or "").strip().lower().split(".")[-1]
+                val = item.get("value", item.get("field_value", item.get("fieldValue")))
+                if fk and fk not in out and isinstance(val, (str, int, float)) \
+                        and not isinstance(val, bool) and _mf(val):
+                    out[fk] = _mf(val)
+                # Deliberately NOT recursing into list items: a customFields
+                # entry's own keys ('id', 'value', 'name') would otherwise
+                # claim generic slots and a field label could become the
+                # lead's name.
+    return out
+
+
+def _first(d: dict, *keys) -> str:
+    for k in keys:
+        v = _mf(d.get(k))
+        if v:
+            return v
+    return ""
+
+
+def _host_resolves(host: str) -> bool:
+    import socket
+    for h in (host, "www." + host):
+        try:
+            socket.getaddrinfo(h, None)
+            return True
+        except Exception:
+            continue
+    return False
+
+
+@app.post("/lead-audit/ghl-appointment")
+async def lead_audit_ghl_appointment(request: Request):
+    """GHL 'Send Webhook' action on an appointment booking → the same audit.
+
+    Tolerant by design: accepts the raw GHL payload (or a hand-written JSON
+    body of merge fields) and picks out contact id / website / name / email /
+    phone, ignoring everything else. The secret may ride in the body, the
+    X-Rank-AI-Secret header, or ?secret=. Always answers 200 with a status so
+    GHL never retry-storms a booking."""
+    raw = await request.body()
+    payload = {}
+    try:
+        payload = json.loads(raw.decode() or "{}")
+    except Exception:
+        try:  # some GHL setups post form-encoded
+            payload = dict(urllib.parse.parse_qsl(raw.decode()))
+        except Exception:
+            payload = {}
+    if not isinstance(payload, dict):
+        payload = {}
+    # Seed from the contact subtree first so the LEAD's email/phone/website win
+    # over anything with the same key elsewhere in the payload.
+    flat = {}
+    if isinstance(payload.get("contact"), dict):
+        _ghl_scalars(payload["contact"], flat)
+    _ghl_scalars(payload, flat)
+
+    expected = os.environ.get("LEAD_AUDIT_FUNNEL_SECRET", "")
+    supplied = (_mf(request.headers.get("X-Rank-AI-Secret"))
+                or _mf(request.query_params.get("secret"))
+                or _first(flat, "secret", "rank_ai_secret"))
+    if not (expected and supplied == expected):
+        raise HTTPException(status_code=403, detail="bad secret")
+
+    contact_id = (_first(flat, "ghl_contact_id", "contact_id", "contactid")
+                  or _mf((payload.get("contact") or {}).get("id")
+                         if isinstance(payload.get("contact"), dict) else ""))
+    website = _first(flat, "website", "business_website", "website_info", "domain")
+    email = _first(flat, "email")
+    phone = _first(flat, "phone")
+    name = (_first(flat, "full_name", "fullname", "name")
+            or " ".join(x for x in (_first(flat, "first_name", "firstname"),
+                                    _first(flat, "last_name", "lastname")) if x))
+    business_name = _first(flat, "business_name", "companyname", "company_name", "company")
+    source = _first(flat, "source") or "ghl-appointment"
+
+    # The contact record is the authority — merge fields can arrive blank.
+    contact = {}
+    if contact_id:
+        try:
+            import lead_audit
+            got = lead_audit._ghl("GET", "/contacts/{}".format(contact_id)) or {}
+            contact = got.get("contact") or got or {}
+        except Exception as e:  # noqa: BLE001
+            print("[ghl-appointment] contact fetch failed:", str(e)[:150])
+    if contact:
+        cf = {}
+        try:
+            import lead_audit
+            ids = lead_audit._ghl_custom_field_ids()
+            by_id = {v: k for k, v in ids.items() if v}
+            for f in (contact.get("customFields") or []):
+                key = by_id.get(f.get("id")) or str(f.get("id") or "")
+                cf[key] = _mf(f.get("value", f.get("field_value", f.get("fieldValue"))))
+        except Exception:
+            cf = {}
+        # The live record outranks the payload: merge fields go stale, arrive
+        # unrendered, or (calendar/user subtrees) describe the wrong person.
+        website = (_mf(contact.get("website")) or cf.get("business_website", "")
+                   or cf.get("website_info", "") or website)
+        email = _mf(contact.get("email")) or email
+        phone = _mf(contact.get("phone")) or phone
+        name = " ".join(x for x in (_mf(contact.get("firstName")),
+                                    _mf(contact.get("lastName"))) if x) or name
+        business_name = _mf(contact.get("companyName")) or business_name
+        # Already audited recently? Don't burn a second one on a re-booking.
+        force = _first(flat, "force").lower() in ("1", "true", "yes")
+        if not force and cf.get("audit_grade") and cf.get("audit_teaser_image_url"):
+            dom_have = _lead_norm_domain(website)
+            try:
+                since = (datetime.now(timezone.utc)
+                         - timedelta(days=GHL_APPT_RECENT_DAYS)).isoformat()
+                prior = (sb().table("marketing_jobs").select("id", count="exact")
+                         .eq("type", "lead_audit").eq("status", "completed")
+                         .eq("params->>domain", dom_have)
+                         .gte("queued_at", since).execute().count or 0)
+            except Exception:
+                prior = 0
+            if prior:
+                return {"status": "already_audited", "contact_id": contact_id,
+                        "grade": cf.get("audit_grade"),
+                        "report_url": cf.get("audit_report_url"),
+                        "teaser_url": cf.get("audit_teaser_image_url"),
+                        "note": "fields already populated and a completed audit for {} is "
+                                "on file within {}d — send force:true to re-run".format(
+                                    dom_have, GHL_APPT_RECENT_DAYS)}
+
+    # Website resolution: contact field first, then the Google listing (Path B).
+    # A typo'd website is the same problem as a missing one — Monique Curchy's
+    # contact carried 'ww.rapidreliefrestoration.net' (2026-08-05), so a
+    # non-resolving host also falls through to the listing lookup.
+    domain = _lead_norm_domain(website)
+    valid = bool(re.match(r"^[a-z0-9.-]+\.[a-z]{2,}$", domain)) and _host_resolves(domain)
+    place_id = cid_val = ""
+    if not valid and business_name:
+        try:
+            for cand in lookup_business(business_name, limit=3):
+                cand_dom = _lead_norm_domain(cand.get("domain") or cand.get("url") or "")
+                if re.match(r"^[a-z0-9.-]+\.[a-z]{2,}$", cand_dom) and _host_resolves(cand_dom):
+                    domain, valid = cand_dom, True
+                    place_id = cand.get("place_id") or ""
+                    cid_val = cand.get("cid") or ""
+                    break
+        except Exception as e:  # noqa: BLE001
+            print("[ghl-appointment] business lookup failed:", str(e)[:150])
+
+    req = LeadAuditRequest(
+        website=domain, domain=domain, name=name, email=email or "", phone=phone or "",
+        business_name=business_name, place_id=place_id, cid=str(cid_val or ""),
+        source=source, secret=expected, ghl_contact_id=contact_id)
+
+    if not valid:
+        # Never fail silently: tag the contact so the nurture workflow's guard
+        # holds the SMS, and email the team so a human can supply the website.
+        try:
+            if contact_id:
+                import lead_audit
+                lead_audit._ghl("POST", "/contacts/{}/tags".format(contact_id), params={},
+                                body={"tags": ["audit failed", "audit needs website"]})
+        except Exception:
+            pass
+        _notify_lead_audit_failure(
+            "ghl-appointment (no job queued)", req,
+            "no usable website on the GHL contact ({}) and no Google listing match for '{}' "
+            "— add the website to the contact and re-fire".format(
+                website or "empty", business_name or "unknown"))
+        return {"status": "no_website", "contact_id": contact_id,
+                "website_seen": website, "business_name": business_name,
+                "note": "contact tagged 'audit needs website' + team emailed"}
+
+    client = sb()
+    if _lead_count_today(client, "domain", domain) >= GHL_APPT_MAX_PER_DOMAIN_DAY:
+        return {"status": "rate_limited", "domain": domain,
+                "note": "already ran {} audits for this domain today".format(
+                    GHL_APPT_MAX_PER_DOMAIN_DAY)}
+
+    row = client.table("marketing_jobs").insert({
+        "type": "lead_audit", "status": "queued",
+        "params": {"domain": domain, "name": name, "email": email, "phone": phone,
+                   "ip": "", "source": source, "business_name": business_name or None,
+                   "place_id": place_id or None, "cid": str(cid_val) or None,
+                   "ghl_contact_id": contact_id or None,
+                   "sales": True, "attempts": 0},
+    }).execute()
+    job_id = row.data[0]["id"]
+    threading.Thread(target=_run_lead_audit_job, args=(job_id, req), daemon=True).start()
+    return {"status": "queued", "audit_id": job_id, "domain": domain,
+            "contact_id": contact_id,
+            "note": "audit running (~5 min); grade + teaser + cities land on the contact"}
 
 
 class KickoffPrepRequest(BaseModel):

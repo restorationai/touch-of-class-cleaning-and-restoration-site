@@ -1477,13 +1477,16 @@ def _ghl_custom_field_ids():
 
 
 def deliver_to_ghl(name, email, phone, domain, business_name, grade,
-                   report_url, teaser_url, log, cities=None):
+                   report_url, teaser_url, log, cities=None, contact_id=None):
     """Find-or-create the lead's GHL contact; write the audit URLs + cities +
     grade to custom fields + a note. cities is a human phrase ("Memphis and
     Cincinnati") for SMS merge-field personalization. Best-effort: any failure
-    logs and moves on (the report itself is already safe on R2)."""
-    contact_id = None
-    for q in [email, phone]:
+    logs and moves on (the report itself is already safe on R2).
+
+    contact_id: when the caller already knows the GHL contact (staff-booked
+    appointment webhook), write to it directly — the email/phone search below
+    finds nothing for contacts with no phone and can hit the wrong duplicate."""
+    for q in ([] if contact_id else [email, phone]):
         if not q:
             continue
         try:
@@ -1565,13 +1568,16 @@ def _lead_email_html(prof, domain, report_url, copy):
 # ---------------------------------------------------------------------------
 
 def run_audit(website, name, email, phone, audit_id=None, email_mode="all", progress=None,
-              business_name=None, place_id=None, cid=None, sales_mode=False):
+              business_name=None, place_id=None, cid=None, sales_mode=False,
+              ghl_contact_id=None):
     """Full pipeline. email_mode: 'all' | 'internal' (notify only) | 'none'.
     business_name/place_id/cid: optional GBP identity already confirmed by the
     prospect in the stepper — used to pin the listing instead of re-guessing.
     sales_mode: funnel-triggered pre-meeting audit — generates the teaser image
     and delivers report/teaser URLs to the lead's GHL contact (custom fields +
-    note) instead of emailing the lead. Returns {report_url, grade, ...}."""
+    note) instead of emailing the lead. Returns {report_url, grade, ...}.
+    ghl_contact_id: deliver to this exact contact instead of searching by
+    email/phone (staff-booked appointment webhook already knows it)."""
     def log(msg):
         print("  [{}] {}".format(dt.datetime.now().strftime("%H:%M:%S"), msg))
         if progress:
@@ -1773,7 +1779,7 @@ def run_audit(website, name, email, phone, audit_id=None, email_mode="all", prog
                              if len(city_names) > 2 else " and ".join(city_names))
             deliver_to_ghl(name, email, phone, domain, prof["business_name"],
                            copy.get("grade"), report_url, teaser_url or report_url, log,
-                           cities=cities_phrase)
+                           cities=cities_phrase, contact_id=ghl_contact_id)
         except Exception as e:
             errors.append("ghl_delivery: " + str(e)[:150])
             log("ghl delivery FAILED: " + str(e)[:150])
