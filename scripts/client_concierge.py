@@ -833,7 +833,8 @@ def pending_client_message(cs: dict, history: list[dict], state: dict) -> dict |
     return None
 
 
-def revalidate_commitment(cs: dict, history: list[dict], state: dict) -> str | None:
+def revalidate_commitment(cs: dict, history: list[dict], state: dict,
+                          evidence: str | None = None) -> str | None:
     """Drop a pending_commitment somebody else already delivered, returning
     the audit line — else None.
 
@@ -841,7 +842,13 @@ def revalidate_commitment(cs: dict, history: list[dict], state: dict) -> str | N
     promise recorded last night is not automatically still owed this morning.
     If a HUMAN outbound (not one of ours) landed after we made the promise,
     Santino answered it himself and re-delivering would be the second time the
-    client hears it."""
+    client hears it.
+
+    A FINISHED PROMISE IS NOT AN OPEN ONE (2026-08-05, Reign): when the work
+    ledger shows the promised work shipped, the commitment is satisfied. Left
+    armed, it forces the next compose to "deliver" a promise about work that
+    is already live, which is exactly how a client hears "we'll get that
+    matched up" an hour after we told him it was matched."""
     commitment = cs.get("pending_commitment") or {}
     at = _as_utc(commitment.get("at"))
     if not commitment.get("promise") or at is None:
@@ -854,6 +861,13 @@ def revalidate_commitment(cs: dict, history: list[dict], state: dict) -> str | N
             return (f"open commitment dropped: a human answered it at "
                     f"{m['when']:%m-%d %H:%M} UTC "
                     f"({str(m.get('body'))[:60]!r}) — not delivering it twice")
+    topics = message_topics(commitment.get("promise"))
+    if topics and evidence:
+        for line in _evidence_done_lines(evidence):
+            if _WORK_DONE_RE.search(line) and (topics & message_topics(line)):
+                cs.pop("pending_commitment", None)
+                return (f"open commitment dropped: the work ledger shows it "
+                        f"shipped ({line[:70]!r}) — it is done, not owed")
     return None
 
 
@@ -885,6 +899,306 @@ def repeats_last_outbound(body: str, history: list[dict]) -> str | None:
     if overlap >= SIMILAR_JACCARD:
         return (f"too similar to our last outbound ({overlap:.0%} word "
                 f"overlap, sent {age_h:.1f}h ago: {last['body'][:70]!r})")
+    return None
+
+
+# ------------------------------------------- second-pass / contradiction guard
+# TWO MESSAGES ONE MINUTE APART THAT CONTRADICT EACH OTHER (Santino
+# 2026-08-05, LIVE on Reign Restoration). Jerrott wrote at 15:52 "I did like
+# the about photo... I just wanted the logos to match on the company
+# vehicles", and Monica answered TWICE:
+#   15:54:23  "The van logos are already matched to your real logo on the
+#              staging preview" — true, the fix shipped at 15:19
+#   15:55:23  "We'll get the vehicle logos matched up so they look
+#              consistent across all the trucks" — false, and it made the
+#              finished work sound like it had not started
+# Twenty minutes earlier the same thread took "Will do, talk soon." TWICE,
+# four seconds apart.
+#
+# ROOT CAUSE — two passes processed the same inbound and neither could see
+# the other:
+#   1. webhook_inbound() loads the state blob, then DEBOUNCES (up to 360s)
+#      before processing, and only saves at the end. The handled-message
+#      ledger therefore is not durable until the whole run finishes, so a
+#      second pass that starts inside that window sees the message as fresh,
+#      classifies it again (the 15:55:21 work-log row is a duplicate
+#      client-feedback card filed by that second pass) and answers it again.
+#   2. The API's per-contact lock is a threading.Lock — it serializes threads
+#      inside ONE Railway process and does nothing about the scheduled
+#      GitHub-Actions run, a second Railway replica, or send-now.
+#   3. repeats_last_outbound() compares against the newest message in a GHL
+#      history snapshot. GHL indexes with a lag (the 4-second pair was
+#      invisible to both runs) and the snapshot is taken before the debounce,
+#      so the guard was comparing against yesterday's thread.
+#   4. It also only ever looked at the SINGLE newest outbound and only at
+#      word overlap, so "already matched" vs "we'll get them matched" (the
+#      halves diverge) scored under the 0.55 threshold anyway.
+#
+# THE FIX, in layers, so no single failure re-opens it:
+#   - every client send is stamped into a cross-process outbox in ops_kv the
+#     instant it lands, so the next pass in ANY process sees it with no GHL
+#     lag (note_outbound / recent_outbounds)
+#   - BACK-TO-BACK RULE: we never send twice inside TOPIC_REPEAT_MINUTES
+#     unless the client spoke in between. That is the whole anti-pattern,
+#     stated once, and it needs no lexical luck.
+#   - CONTRADICTION RULE: a message that promises FUTURE work on a subject we
+#     have already reported DONE (in a recent outbound or in the ledger
+#     evidence) is refused outright, however differently it is worded.
+#   - inbound messages are CLAIMED durably before any work (claim_inbound_
+#     message), so a second pass never re-classifies or re-queues them.
+OUTBOX_KEY = "concierge-outbox"       # {company_id: [{body, at, reply_to}]}
+OUTBOX_KEEP = 6                       # entries kept per company
+OUTBOX_LOOKBACK_MIN = 180             # how far back this guard looks
+TOPIC_REPEAT_MINUTES = 15             # no two sends inside this, unless they spoke
+
+
+def note_outbound(company_id: str | None, body: str,
+                  reply_to: str | None = None) -> None:
+    """Stamp a delivered client message into the cross-process outbox.
+
+    Called from send_message, so EVERY path (compose, send-now, inline
+    reply, ack, closer, reschedule) is covered by construction. Best-effort:
+    a KV hiccup must never fail a send that already went out."""
+    if not company_id:
+        return
+    try:
+        box = kv_get(OUTBOX_KEY) or {}
+        if not isinstance(box, dict):
+            box = {}
+        now = datetime.now(timezone.utc)
+        rows = [r for r in (box.get(company_id) or []) if isinstance(r, dict)]
+        rows.append({"body": (body or "")[:400], "at": now.isoformat(),
+                     "reply_to": reply_to})
+        box[company_id] = rows[-OUTBOX_KEEP:]
+        # keep the key small: drop companies quiet for a day
+        cutoff = now - timedelta(hours=24)
+        box = {c: rs for c, rs in box.items()
+               if any((_as_utc(r.get("at")) or now) >= cutoff for r in rs)}
+        kv_set(OUTBOX_KEY, box)
+    except Exception as e:  # noqa: BLE001
+        print(f"  [outbox] stamp failed ({str(e)[:80]}) — the duplicate "
+              "guard falls back to GHL history for this send")
+
+
+def recent_outbounds(company_id: str | None,
+                     minutes: int = OUTBOX_LOOKBACK_MIN) -> list[dict]:
+    """Our own recent sends to this company, newest first, from the outbox."""
+    if not company_id:
+        return []
+    try:
+        box = kv_get(OUTBOX_KEY) or {}
+    except Exception:
+        return []
+    cutoff = datetime.now(timezone.utc) - timedelta(minutes=minutes)
+    rows = []
+    for r in (box.get(company_id) or []):
+        when = _as_utc(r.get("at"))
+        if when and when >= cutoff:
+            rows.append({"body": r.get("body") or "", "when": when,
+                         "reply_to": r.get("reply_to")})
+    return sorted(rows, key=lambda r: r["when"], reverse=True)
+
+
+CLAIMS_KEY = "concierge-claims"       # {msg_id: iso} claimed inbound messages
+CLAIM_TTL_H = 24
+
+
+def claim_inbound_message(msg_id: str, dry_run: bool) -> bool:
+    """True when THIS run owns the message and may process it.
+
+    The handled-ids ledger inside the big state blob is not durable until the
+    end of a run — and a webhook run can sleep for minutes in the debounce
+    before it ever saves. A second pass starting inside that window saw the
+    message as brand new, re-classified it, filed a DUPLICATE feedback card
+    and answered it again (Reign, 2026-08-05, 15:54 and 15:55). This claim
+    is its own small KV key, written the instant the message is picked up, so
+    the window shrinks from minutes to milliseconds and is shared across
+    processes. Fails OPEN: if the KV is unreachable, better a rare double
+    than a silent Monica."""
+    if not msg_id:
+        return True
+    try:
+        claims = kv_get(CLAIMS_KEY) or {}
+        if not isinstance(claims, dict):
+            claims = {}
+    except Exception as e:  # noqa: BLE001
+        print(f"    [claim] lookup failed ({str(e)[:70]}) — processing anyway")
+        return True
+    if msg_id in claims:
+        return False
+    if dry_run:
+        return True
+    now = datetime.now(timezone.utc)
+    cutoff = now - timedelta(hours=CLAIM_TTL_H)
+    claims = {k: v for k, v in claims.items()
+              if (_as_utc(v) or now) >= cutoff}
+    claims[msg_id] = now.isoformat()
+    try:
+        kv_set(CLAIMS_KEY, claims)
+    except Exception as e:  # noqa: BLE001
+        print(f"    [claim] write failed ({str(e)[:70]}) — the outbox guard "
+              "is the remaining net")
+    return True
+
+
+# Subject tagging for the contradiction rule. Deliberately coarse: it only
+# has to answer "are these two messages about the same thing?".
+_TOPIC_PATTERNS: tuple[tuple[str, re.Pattern], ...] = (
+    ("vehicles", re.compile(r"\b(van|vans|truck|trucks|vehicle|vehicles|"
+                            r"decal|decals|wrap|wraps|livery|fleet)\b", re.I)),
+    ("brand", re.compile(r"\b(logo|logos|gold|yellow|colou?rs?|branding|"
+                         r"palette)\b", re.I)),
+    ("imagery", re.compile(r"\b(photo|photos|picture|pictures|image|images|"
+                           r"ppe|gear|uniform|headshot)\b", re.I)),
+    ("service_area", re.compile(r"\b(service area|cities|coverage|dallas|"
+                                r"plano|frisco|mckinney)\b", re.I)),
+    ("domain", re.compile(r"\b(domain|godaddy|registrar|go live|launch)\b",
+                          re.I)),
+    ("reviews", re.compile(r"\b(review|reviews|customer list|past customers)\b",
+                           re.I)),
+    ("google_listing", re.compile(r"\b(google (?:business )?listing|"
+                                  r"business profile|maps)\b", re.I)),
+    ("scheduling", re.compile(r"\b(call|meeting|zoom|reschedule)\b", re.I)),
+)
+
+
+def message_topics(text: str | None) -> set[str]:
+    return {tag for tag, rx in _TOPIC_PATTERNS if rx.search(text or "")}
+
+
+# "already matched", "all three are fixed", "your photos are live" — we told
+# them the work is DONE.
+_WORK_DONE_RE = re.compile(
+    r"\b(?:already|now|just)\s+(?:match(?:ed|es)?|fixed|updated|changed|"
+    r"swapped|added|replaced|live|done|in place)\b"
+    r"|\b(?:is|are|all)\s+(?:fixed|updated|matched|live|done|set|"
+    r"good to go|taken care of|in)\b"
+    r"|\bfixed (?:all|them|it|those|the)\b"
+    r"|\bwe(?:'ve| have)\s+(?:fixed|updated|matched|changed|added|swapped|"
+    r"replaced)\b", re.I)
+# "we'll get the logos matched", "I'll fix that", "we're going to update it"
+_WORK_FUTURE_RE = re.compile(
+    r"\b(?:we'?ll|we will|i'?ll|i will|we(?:'re| are) going to|"
+    r"i(?:'m| am) going to|we can|we'?re gonna)\s+"
+    r"(?:go ahead and |just |also )?"
+    r"(?:get|fix|match|update|change|add|swap|redo|regenerate|make|sort|"
+    r"take care of|clean up|work on|adjust)\b", re.I)
+
+
+def _evidence_done_lines(evidence: str | None) -> list[str]:
+    """WORK ALREADY DONE / ops-note lines that report finished work."""
+    out = []
+    for line in (evidence or "").splitlines():
+        line = line.strip(" -")
+        if line and not line.startswith("["):
+            out.append(line)
+    return out
+
+
+def _reply_key(target: dict | None) -> str | None:
+    """Stable, cross-process id for the CLIENT message an outbound answers.
+
+    Prefers the timestamp, because that is the one field every path holds:
+    the armed awaiting_reply flag (compose), the ack's synthetic message and
+    the raw inbound all carry the same instant. Two passes answering the same
+    text therefore produce the same key even though only one of them ever
+    saw a GHL message id."""
+    if not target:
+        return None
+    at = target.get("at") or target.get("ts")
+    if at:
+        return f"at:{at.isoformat() if hasattr(at, 'isoformat') else at}"
+    mid = target.get("id")
+    return f"msg:{mid}" if mid else None
+
+
+def repeats_recent_outbound(company_id: str | None, body: str,
+                            history: list[dict], *,
+                            evidence: str | None = None,
+                            reply_to: str | None = None) -> str | None:
+    """Reason to hold this outbound because we ALREADY spoke, or because it
+    contradicts what we already told them — else None.
+
+    Four independent nets (Santino 2026-08-05, Reign):
+      1. word overlap with any of our last few outbounds (the original guard,
+         widened from the single newest message)
+      2. we already answered this exact client message in another pass
+      3. BACK-TO-BACK: a send inside TOPIC_REPEAT_MINUTES with nothing from
+         the client in between — the second pass stays silent
+      4. CONTRADICTION: promising FUTURE work on a subject a recent outbound
+         (or the ledger evidence) already reported DONE"""
+    now = datetime.now(timezone.utc)
+    # A phone call is not a message (fetch_history renders calls as
+    # "[phone call]"): a human dialling the client must never read as "we
+    # already texted them" — the human-defer window covers that case.
+    hist_out = [{"body": m.get("body") or "", "when": m["when"],
+                 "reply_to": None}
+                for m in (history or [])
+                if m.get("direction") == "out"
+                and m.get("channel") != "call"
+                and (m.get("body") or "").strip()
+                and (m.get("body") or "").strip() != "[phone call]"]
+    mine = recent_outbounds(company_id)
+    seen, cands = set(), []
+    for row in sorted(hist_out + mine, key=lambda r: r["when"], reverse=True):
+        key = (row["body"] or "").strip()[:120]
+        if key in seen:
+            continue
+        seen.add(key)
+        cands.append(row)
+    # 4b FIRST, because it needs no prior outbound at all: the ledger says
+    # this work shipped, so promising it forward is false whatever else the
+    # thread looks like.
+    if _WORK_FUTURE_RE.search(body or ""):
+        topics = message_topics(body)
+        for line in _evidence_done_lines(evidence):
+            if topics and (_WORK_DONE_RE.search(line)
+                           or "fix" in line.lower()) and (
+                    topics & message_topics(line)):
+                return ("CONTRADICTS the work ledger: this promises future "
+                        f"work the record shows is already done ({line[:80]!r})"
+                        " — say it is done, or say nothing")
+    if not cands:
+        return None
+    last_in = next((m["when"] for m in (history or [])
+                    if m.get("direction") == "in"), None)
+
+    def toks(s: str) -> set:
+        return {w for w in re.findall(r"[a-z']+", (s or "").lower())
+                if len(w) > 2}
+
+    new_topics = message_topics(body)
+    a = toks(body)
+    for cand in cands[:4]:
+        age_min = (now - cand["when"]).total_seconds() / 60
+        # 1. lexical near-duplicate (unchanged threshold, wider net)
+        b = toks(cand["body"])
+        if a and b and age_min < SIMILAR_RECENT_HOURS * 60:
+            overlap = len(a & b) / len(a | b)
+            if overlap >= SIMILAR_JACCARD:
+                return (f"too similar to an outbound {age_min:.0f} min ago "
+                        f"({overlap:.0%} word overlap): {cand['body'][:70]!r}")
+        # 2. another pass already answered this same client message
+        if (reply_to and cand.get("reply_to") == reply_to
+                and age_min <= OUTBOX_LOOKBACK_MIN):
+            return (f"another pass already answered this same message "
+                    f"{age_min:.0f} min ago: {cand['body'][:70]!r}")
+        # 4. contradiction: they were told it is DONE, this says we will do it
+        if (age_min <= OUTBOX_LOOKBACK_MIN
+                and _WORK_FUTURE_RE.search(body or "")
+                and _WORK_DONE_RE.search(cand["body"])
+                and (new_topics & message_topics(cand["body"]))):
+            return ("CONTRADICTS what we already told them: we reported this "
+                    f"work DONE {age_min:.0f} min ago ({cand['body'][:70]!r}) "
+                    "and this message promises it as future work")
+    # 3. back-to-back: we spoke last and the client has not answered yet
+    newest = cands[0]
+    gap_min = (now - newest["when"]).total_seconds() / 60
+    if gap_min <= TOPIC_REPEAT_MINUTES and (
+            last_in is None or newest["when"] > last_in):
+        return (f"we already sent a message {gap_min:.0f} min ago and they "
+                f"have not replied since: {newest['body'][:70]!r} (one "
+                "outbound per turn — a second pass stays silent)")
     return None
 
 
@@ -1095,16 +1409,308 @@ def false_registrar_claim(body: str) -> str | None:
     return None
 
 
+# CAPABILITY CONTRACT (Santino 2026-08-05, LIVE failure, caught 15 minutes
+# after it went out): Tony at Coastal texted "Call me when u have a minute"
+# and Monica answered "Got it, I'll give you a call shortly." She has no
+# voice line and never will. This is worse than the "I'll walk you through
+# it" class fixed on 08-02: that promise could at least be kept by the next
+# message, this one cannot be kept by anything, so the client sits waiting by
+# a phone that will never ring and every other word she wrote loses value.
+#
+# WHAT MONICA GENUINELY CAN DO (audited against this file, 2026-08-05):
+#   - send and receive SMS + email (send_message / fetch_history). A text
+#     thread is her entire body.
+#   - answer from context she actually holds: open items, thread history,
+#     meeting intel, ops notes, the WORK ALREADY DONE ledger.
+#   - record an answer (apply_answer), resolve a plan row (resolve_plan_row),
+#     close an item the conversation already satisfied.
+#   - file paperwork a human will see: ops notes (file_contact_note),
+#     escalations (append_escalation), a direct ping to Santino
+#     (ask_santino_for_advice).
+#   - share a link we already hold: website preview, Google-connect, hub
+#     upload, setup-checklist card.
+#   - MOVE AN EXISTING BOOKED CALL and offer that calendar's real free slots
+#     (handle_reschedule_request -> GHL PUT /calendars/events/appointments).
+#
+# WHAT SHE CANNOT DO — claiming any of these is a lie to a client:
+#   - make or receive a phone call. There is no voice path anywhere in this
+#     system; CONCIERGE_FROM_NUMBER is an SMS sender, nothing answers it.
+#   - BOOK A NEW MEETING. Verified 2026-08-05: the only calendar WRITE in the
+#     concierge is the reschedule PUT above. Creating an appointment (POST
+#     /calendars/events/appointments) exists solely in scripts/kickoff_prep.py
+#     and is unreachable from every concierge path — so "I'll get you on
+#     Santino's calendar" is the same false promise in a different hat. She
+#     may ask for their best window and hand it to a human. That is all.
+#   - sign into or change the client's Google / GoDaddy / Twilio / hosting
+#     accounts on her own (the registrar half is false_registrar_claim above).
+#   - be anywhere physically: no visits, no "stopping by", no "see you there".
+#   - commit a specific human's clock ("Santino will call you at 3").
+#   - commit to a deadline no scheduled system action will honor.
+#
+# THE HONEST MOVE when a client asks for a call: name the human who will
+# call, ask for their best window, and ESCALATE so a human actually dials.
+# Being asked for a call is a needs_santino event by definition.
+
+# What the drafting models are told, once, in one place (substituted into
+# COMPOSE/REPLY/ACK/CLASSIFY exactly like DOMAIN_ACCESS_TRUTH) so the prompts
+# and the mechanical guard below can never tell two different stories.
+CAPABILITY_CONTRACT = """\
+WHAT YOU CAN AND CANNOT DO — HARD RULE (Santino 2026-08-05, live failure: a
+client texted "Call me when u have a minute" and Monica answered "Got it,
+I'll give you a call shortly." She cannot make phone calls. He waited for a
+call that could never come).
+YOU CAN: send and receive texts and emails; answer from what is in your
+context; record their answers; share a link you were given; hand something to
+Santino; move a call they already have booked.
+YOU CANNOT, EVER: make or take a phone call; book a NEW meeting or put
+anything on Santino's calendar; log into or change their Google, GoDaddy,
+Twilio or hosting accounts; show up anywhere in person; promise when Santino
+(or anyone else) will be available; promise a deadline ("by end of day",
+"within the hour", "first thing tomorrow").
+BANNED, no exceptions: "I'll give you a call", "I'll call you", "let me hop
+on a call", "I'll ring you", "I'll get on the phone", "give me a call",
+"call me at", "I'll get you on his calendar", "I'll book a time", "talk to
+you then", "see you then", "I'll stop by".
+WHEN THEY ASK FOR A CALL, this is the whole reply: say SANTINO will call them
+and ask for the best time to reach them ("Got it, Santino will give you a
+call. What's the best time to reach you?"). Never a specific time, never
+yourself, never "we'll call". A human is told immediately, so this is true.
+Offering a call is fine when nobody is committed to placing it ("we can hop
+on a quick 15 minute call and do it together" is the sanctioned domain-access
+line) — but "we'll call you" without a name behind it is a promise nobody
+owns."""
+
+# The other half of "say only true things" (Santino 2026-08-05, Reign): do
+# not contradict yourself. Single-sourced into every drafting prompt beside
+# the capability contract.
+CONSISTENCY_RULE = """\
+NEVER CONTRADICT WHAT WE ALREADY TOLD THEM (Santino 2026-08-05, live on
+Reign Restoration: at 15:54 Monica wrote "the van logos are already matched
+to your real logo on the staging preview", and at 15:55 she wrote "we'll get
+the vehicle logos matched up" — the same finished work, promised as if it had
+not started). Before writing, read the last few messages in the thread and
+the WORK ALREADY DONE block:
+- Once we have told them something is done, it stays done. Never re-promise
+  it as future work.
+- If the ledger shows the work shipped, speak about it in the present or past
+  tense, or do not mention it. "We'll get that fixed" about work that landed
+  an hour ago is a lie.
+- If our own last message already answered this exact client message, there
+  is nothing to send. Return an empty body rather than a second take.
+- Internal build-queue cards ([DEV], [TODO-...]) are OUR paperwork, never a
+  promise to the client and never a reason to say we are "going to" do
+  something."""
+
+# A client asking for a phone call. Every path treats this as needs_santino:
+# nothing in this system can dial a phone, so a human has to.
+_CALL_REQUEST_RE = re.compile(
+    r"\bcall me\b|\bgive me a (?:call|ring|buzz)\b|\bgimme a call\b"
+    r"|\bcan (?:you|we|i) (?:please )?(?:give me a call|call me|talk|"
+    r"hop on a (?:quick )?call|jump on a call|get on the phone)\b"
+    r"|\b(?:let'?s|lets|wanna|want to|need to|would like to) (?:talk|"
+    r"hop on a (?:quick )?call|jump on a call|get on the phone|"
+    r"speak on the phone)\b"
+    r"|\bwhen can (?:you|we) (?:talk|call)\b"
+    r"|\bare you (?:free|available) (?:to talk|for a call)\b"
+    r"|\bgot a (?:minute|second|sec) to talk\b"
+    r"|\bwhat'?s a good time to (?:talk|call)\b"
+    r"|\bcall (?:my|the) (?:cell|office|shop)\b", re.I)
+
+
+def client_asked_for_a_call(text: str | None) -> bool:
+    """True when the client is asking for a PHONE CALL. By definition a
+    needs_santino event — no code path in this repo can dial a phone."""
+    return bool(_CALL_REQUEST_RE.search(text or ""))
+
+
+# The truthful answer to a call request. Names the human who will call (so it
+# is a promise somebody can keep), asks for the window (so he calls at a good
+# time), commits no clock. Escalated to Santino wherever it is substituted, so
+# the promise is handed to a person the same second it is made.
+CALL_HANDOFF_REPLY = ("Got it, Santino will give you a call. What's the best "
+                      "time to reach you?")
+
+# Sentences that hand the call to a NAMED HUMAN pass the call patterns —
+# "Santino will give you a call", "I'll have Santino call you", "want me to
+# find a time with Santino?" — because a person can keep that promise. The
+# availability and deadline patterns still apply to them: naming a human does
+# not let us commit his clock.
+_HUMAN_CALLER_RE = re.compile(r"\bsantino\b", re.I)
+
+_TIME_EXPR = (r"(?:at \d{1,2}(?::\d{2})?\s?(?:am|pm|a\.m\.|p\.m\.)?"
+              r"|by \d{1,2}(?::\d{2})?\s?(?:am|pm)"
+              r"|this (?:morning|afternoon|evening)|right now|in a bit"
+              r"|first thing|in (?:an hour|a few minutes|\d+ minutes)"
+              r"|tonight|later today)")
+
+_DEADLINE_EXPR = (r"(?:by (?:the )?end of (?:the )?day|by eod\b|by cob\b"
+                  r"|by tonight|by tomorrow|by (?:this )?(?:morning|afternoon|"
+                  r"evening)|within the hour|in the next (?:hour|30 minutes|"
+                  r"few minutes)|in an hour|first thing (?:tomorrow|in the "
+                  r"morning)|tomorrow morning|by (?:monday|tuesday|wednesday|"
+                  r"thursday|friday|saturday|sunday)|by \d{1,2}(?::\d{2})?\s?"
+                  r"(?:am|pm)|by noon)")
+
+# (pattern, why, human_exempt) — human_exempt=True means a sentence that names
+# a real person on our side is the sanctioned rewrite and passes.
+_CAPABILITY_CLAIMS: tuple[tuple[re.Pattern, str, bool], ...] = (
+    # THE TONY CASE. First person singular + any call verb, with or without a
+    # modal: an OFFER is as false as a promise, she can never be on a call.
+    (re.compile(r"\bi\b\s*(?:'?ll|'?m|\s?will|\s?can|\s?could|\s?would|"
+                r"\s?shall|\s?may|\s?am going to|'?m going to|\s?wanted to|"
+                r"\s?would love to|\s?am happy to|'?d be happy to)?\s*"
+                r"(?:just |quickly |go ahead and |also )?"
+                r"(?:give (?:you|him|her|them|ya) a (?:call|ring|buzz|shout)|"
+                r"call (?:you|him|her|them|ya)\b|ring (?:you|him|her|them)\b|"
+                r"phone (?:you|him|her|them)\b|"
+                r"hop on (?:a |the |our )?(?:quick |short )?"
+                r"(?:call|phone|zoom)|"
+                r"jump on (?:a |the )?(?:quick |short )?(?:call|phone|zoom)|"
+                r"get on (?:a |the )?(?:quick )?(?:call|phone)|"
+                r"reach out by phone|dial you)", re.I),
+     "promises Monica will personally be on a phone call", True),
+    # "let me give you a call" / "let me hop on a call"
+    (re.compile(r"\blet me\s+(?:just |quickly )?"
+                r"(?:give (?:you|him|her) a (?:call|ring|buzz)|"
+                r"call (?:you|him|her)\b|ring you\b|"
+                r"hop on (?:a |the )?(?:quick )?(?:call|phone|zoom)|"
+                r"jump on (?:a |the )?(?:quick )?call|"
+                r"get (?:you )?on the phone|grab you on the phone)", re.I),
+     "offers a phone call Monica cannot place", True),
+    # Inviting an INBOUND call — she cannot receive one either. The concierge
+    # number is an SMS sender; a client who dials it reaches nobody.
+    (re.compile(r"\b(?:give (?:me|us) a (?:call|ring|buzz)|"
+                r"call (?:me|us) (?:at|on|back|any ?time|directly|whenever|"
+                r"when |if )|(?:feel free to|you can|happy for you to) "
+                r"call (?:me|us)|call my (?:cell|phone|line|number)|"
+                r"reach me (?:at|by phone|on my cell))", re.I),
+     "invites the client to phone Monica, who has no line to answer", False),
+    # Team call COMMITMENT with nobody named to place it. Offers stay legal on
+    # purpose ("we can hop on a quick 15 minute call and do it together" is
+    # Santino's own domain-access copy) — only the definite future is a
+    # promise somebody has to keep.
+    (re.compile(r"\bwe\s*(?:'?ll|\s?will|\s?are going to|'?re going to)\s*"
+                r"(?:just |go ahead and )?"
+                r"(?:give (?:you|him|her|them) a (?:call|ring|buzz)|"
+                r"call (?:you|him|her|them)\b|ring (?:you|him|her|them)\b|"
+                r"phone (?:you|him|her|them)\b|"
+                r"hop on (?:a |the )?(?:quick |short )?(?:call|phone|zoom)|"
+                r"jump on (?:a |the )?(?:quick )?call|"
+                r"get on (?:a |the )?(?:quick )?(?:call|phone)|"
+                r"get you on the phone)", re.I),
+     "commits the team to placing a call with nobody named to place it",
+     True),
+    # Booking a NEW meeting. The concierge can only MOVE a call the client
+    # already has; it has no way to create one.
+    (re.compile(r"\b(?:i|we)\s*(?:'?ll|\s?will|'?m going to|'?re going to|"
+                r"\s?can|\s?could)\s*(?:just |go ahead and )?[^.!?]{0,30}?"
+                r"\b(?:on (?:the|his|her|santino'?s) calendar|on the books|"
+                r"send (?:you )?(?:a |an )?(?:calendar )?invite|"
+                r"put (?:you|it|that) (?:down|in) for)", re.I),
+     "claims we will book a meeting; the concierge can only MOVE a call the "
+     "client already has, never create one", False),
+    (re.compile(r"\b(?:i|we)\s*(?:'?ll|\s?will|'?m going to|'?re going to|"
+                r"\s?can)\s*(?:just |go ahead and )?(?:book|schedule)\b"
+                r"[^.!?]{0,25}\b(?:call|meeting|time|appointment|zoom)\b",
+                re.I),
+     "claims we will book a new meeting; nothing in the concierge can create "
+     "one", False),
+    # Promising a specific human's clock.
+    (re.compile(r"\b(?:santino|he|the boss)\b[^.!?]{0,30}?"
+                r"\b(?:will|'?ll|can|is going to|is)\b[^.!?]{0,25}?"
+                r"\b(?:call|ring|phone|reach out|get on the phone|"
+                r"be available|be free|give you a (?:call|ring))\b"
+                r"[^.!?]{0,25}?" + _TIME_EXPR, re.I),
+     "commits a specific human's clock; we cannot promise when Santino is "
+     "free", False),
+    # Deadlines no scheduled system action will honor. Vague forward language
+    # ("shortly", "soon", "we're on it") stays legal on purpose.
+    (re.compile(r"\b(?:i|we)\s*(?:'?ll|\s?will|'?m going to|'?re going to)\s+"
+                r"[^.!?]{0,60}?" + _DEADLINE_EXPR, re.I),
+     "commits to a clock deadline no scheduled system action will honor",
+     False),
+    # Physical presence.
+    (re.compile(r"\b(?:i|we)\s*(?:'?ll|\s?will|'?m going to|'?re going to|"
+                r"\s?can|\s?could)\s*(?:just )?"
+                r"(?:stop by|swing by|come by|come out|drop by|be there|"
+                r"head over|meet you (?:at|there|in person))", re.I),
+     "promises a physical visit; Monica exists only in a text thread", True),
+    # Sign-offs that put her on the call or in the room. "Talk soon" (vague,
+    # means "we'll be in touch") stays legal; "talk to you then" does not.
+    (re.compile(r"\b(?:talk|speak|chat) (?:to|with) you (?:then|tomorrow|"
+                r"(?:on )?\w+day|at \d)|\bsee you (?:then|there|tomorrow|"
+                r"(?:on )?\w+day|at \d{1,2})", re.I),
+     "signs off as though Monica will be on the call or in the room", True),
+    # Logging into the client's accounts ourselves (registrar half lives in
+    # false_registrar_claim).
+    (re.compile(r"\b(?:i|we)\s*(?:'?ll|\s?will|\s?can|'?m going to|"
+                r"'?re going to)\s*(?:just |go ahead and )?"
+                r"(?:log|sign) ?(?:in|into|in to)\b[^.!?]{0,25}"
+                r"\b(?:your|their|his|her)\b", re.I),
+     "claims we will sign into the client's own account", False),
+)
+
+
+def capability_violation(body: str) -> str | None:
+    """Refusal reason when `body` commits Monica to an action outside the
+    capability contract above — a phone call, a new booking, a visit, a
+    human's clock, a hard deadline, logging into their accounts — else None.
+
+    Sentences that name a real human on our side pass the call/visit patterns:
+    "Santino will give you a call" is the sanctioned rewrite, not the bug."""
+    for sent in re.split(r"(?<=[.!?])\s+", body or ""):
+        named_human = bool(_HUMAN_CALLER_RE.search(sent))
+        for rx, why, human_exempt in _CAPABILITY_CLAIMS:
+            if human_exempt and named_human:
+                continue
+            m = rx.search(sent)
+            if m:
+                return (f"capability violation — {why} "
+                        f"({m.group(0).strip()[:60]!r}). Monica can only text "
+                        "and email: name the human who will call, offer to "
+                        "find a time, or ask for their best window: "
+                        f"{sent[:90]!r}")
+    return None
+
+
+def honest_substitute(reason: str | None, client_msg: str | None) -> str | None:
+    """The TRUE message to send instead of a blocked one, or None when there
+    is no safe canned answer and the send must simply be refused.
+
+    Only the call class has one: a named human calls, and we ask for the
+    window. Every caller that substitutes it ALSO escalates to Santino — the
+    text is only true because a person is told the same second (2026-08-05)."""
+    if not reason or "capability violation" not in reason:
+        return None
+    if client_asked_for_a_call(client_msg) or "phone call" in reason:
+        return CALL_HANDOFF_REPLY
+    return None
+
+
+def escalate_call_request(company: dict, msg: dict | None,
+                          client_msg: str | None, dry_run: bool) -> None:
+    """A client asked for a call: text Santino NOW. This is the half that
+    makes CALL_HANDOFF_REPLY true — Monica says a human will call, and this
+    is how the human finds out. ping=True by policy: it needs HIS action."""
+    append_escalation(
+        company, msg,
+        "CALL REQUESTED — Monica has no phone. She told them Santino will "
+        "call and asked for their best window. Someone has to actually "
+        f"dial: {str(client_msg or '')[:120]!r}",
+        dry_run, ping=True)
+
+
 def outbound_guard(body: str, evidence: str | None) -> str | None:
     """Every mechanical refusal an outbound must survive, in one call so no
     send path can quietly miss one. Returns the first violation, else None.
 
     Callers with no ledger context (inline replies, acks) pass evidence=None;
-    the persona and registrar guards need no context at all — those claims are
-    wrong regardless of what the ledger says."""
+    the persona, registrar and capability guards need no context at all —
+    those claims are wrong regardless of what the ledger says."""
     return (unsupported_done_claim(body, evidence)
             or persona_attendance_claim(body)
-            or false_registrar_claim(body))
+            or false_registrar_claim(body)
+            or capability_violation(body))
 
 
 def _valid_tz(name: str) -> bool:
@@ -1295,12 +1901,39 @@ def load_meeting_intel(company: dict) -> str | None:
         notes = _sb("GET", "/rest/v1/marketing_ops_notes"
                     f"?company_id=eq.{company.get('id')}&status=eq.open"
                     "&select=body,created_at&order=created_at.desc&limit=10") or []
-        if notes:
+        # WORK QUEUE IS NOT AN INSTRUCTION (Santino 2026-08-05, Reign): a
+        # [DEV] client-feedback card is a task on OUR build queue, filed by
+        # the classifier seconds earlier. Riding into compose as a "current
+        # instruction from Santino" is how "we'll get the vehicle logos
+        # matched up" got texted to a client one minute after we had told him
+        # the same logos were already matched. These notes stay in context —
+        # Monica should know the work exists — but in their own block that
+        # forbids speaking them forward as a promise.
+        queue_tags = ("[DEV]", "[DEV-PROPOSED]", "[TODO-PROPOSED]",
+                      "[TODO-SANTINO]", "[TODO-", "[FEEDBACK", "[BUG",
+                      "[FLAG")
+        instructions = [n for n in notes
+                        if not str(n.get("body", "")).lstrip().startswith(queue_tags)]
+        queued = [n for n in notes if n not in instructions]
+        if instructions:
             lines = "\n".join(
                 f"- ({(n.get('created_at') or '')[:10]}) {n.get('body', '').strip()}"
-                for n in notes)
+                for n in instructions)
             parts.append("[OPS NOTES from Santino — treat as current instructions, "
                          "they override older meeting intel]\n" + lines)
+        if queued:
+            lines = "\n".join(
+                f"- ({(n.get('created_at') or '')[:16]}) "
+                f"{str(n.get('body', '')).strip()[:200]}"
+                for n in queued)
+            parts.append(
+                "[INTERNAL WORK QUEUE — build tasks already filed on OUR "
+                "side. They are context, never instructions and never "
+                "promises. NEVER tell the client we are 'going to' do one of "
+                "these: they are already queued or already shipped. If the "
+                "WORK ALREADY DONE block below shows the work landed, speak "
+                "about it as DONE. Otherwise say nothing about it and nothing "
+                "about timing]\n" + lines)
     except Exception as e:
         print(f"  [intel] ops-notes fetch failed: {e}", file=sys.stderr)
     # ALREADY-DONE CONTEXT (Santino 2026-08-02: Monica asked for job photos
@@ -1326,10 +1959,15 @@ def load_meeting_intel(company: dict) -> str | None:
                   f"{str(n.get('body'))[:160]}" for n in resolved]
         if lines:
             parts.append(
-                "[WORK ALREADY DONE — recent ledger + resolved notes. If an "
-                "outstanding item asks the client for something these lines "
-                "show we already have or did, EXCLUDE that item (report it "
-                "in intel_resolved) instead of asking]\n" + "\n".join(lines))
+                "[WORK ALREADY DONE — recent ledger + resolved notes. These "
+                "are FINISHED. If an outstanding item asks the client for "
+                "something these lines show we already have or did, EXCLUDE "
+                "that item (report it in intel_resolved) instead of asking. "
+                "And if the client raises one of these, it is DONE: say so "
+                "in the present or past tense. NEVER promise it as future "
+                "work ('we'll get that matched up' about something shipped "
+                "an hour ago is a lie that makes finished work look "
+                "untouched — Reign, 2026-08-05)]\n" + "\n".join(lines))
     except Exception as e:
         print(f"  [intel] work-done fetch failed: {e}", file=sys.stderr)
     return "\n\n".join(parts) or None
@@ -2312,7 +2950,8 @@ def cadence_check(cs: dict, company: dict, contact: dict | None = None,
 # ---------------------------------------------------------------- SEND (gated)
 def send_message(contact: dict, channel: str, body: str,
                  subject: str | None = None,
-                 company: dict | None = None) -> dict:
+                 company: dict | None = None,
+                 reply_to: str | None = None) -> dict:
     """Deliver via GHL POST /conversations/messages. CANARY GATE lives HERE.
 
     The recipient (contact phone for SMS, contact email for Email) must be on
@@ -2324,6 +2963,10 @@ def send_message(contact: dict, channel: str, body: str,
     unhealable one raises SendBlocked rather than mailing a client a dead
     link (FireDEX's Bob: "The link does not work"). Pass company on every
     client-facing send; the ops pings to Santino's own cell don't need it.
+
+    reply_to (2026-08-05) identifies the CLIENT message this answers. It is
+    stamped into the cross-process outbox so a second pass can tell that this
+    exact message was already answered, whatever words it would have used.
     """
     if os.environ.get("CONCIERGE_PAUSED", "").strip() in ("1", "true", "yes"):
         raise SendBlocked("CONCIERGE_PAUSED is set — Santino paused all "
@@ -2396,6 +3039,11 @@ def send_message(contact: dict, channel: str, body: str,
     # sent_id_regression_check).
     if contact.get("id") not in (OPS_PING_CONTACT_ID, ADVICE_CONTACT_ID):
         _CLIENT_SENDS["sent"] += 1
+        # CROSS-PROCESS OUTBOX (2026-08-05, Reign double-send): stamped here,
+        # the one place every client send passes through, the instant it
+        # lands — GHL's own history is minutes behind and cost Jerrott two
+        # contradicting texts.
+        note_outbound((company or {}).get("id"), body, reply_to)
     return result or {}
 
 
@@ -2431,6 +3079,9 @@ yesterday", "sounds like Tuesday's call went well", "the team went over
 your service areas", "Santino wanted me to get you...". You may warmly
 acknowledge that a call happened; you may never place yourself in it. A
 meeting is always THEIR call with Santino, never "our call".
+
+<<CAPABILITY_CONTRACT>>
+<<CONSISTENCY_RULE>>
 
 PLAIN LANGUAGE — the most important rule. Clients are contractors, not tech
 people, and they do not know industry or web terms — ever. Write at a
@@ -2504,8 +3155,9 @@ never launched):
 <<DOMAIN_ACCESS_HOWTO>>
 So the ask is always HIM doing one thing, never us doing it for him. In
 plain words, no jargon: "you'd send us access from your GoDaddy account,
-takes about two minutes, or we hop on a quick 15 minute call and do it
-together while you're signed in". Learning WHICH company holds the domain
+takes about two minutes, or Santino can hop on a quick 15 minute call with
+you and do it together while you're signed in" (the call is always SANTINO's,
+never yours — you cannot be on a call). Learning WHICH company holds the domain
 is useful to us but changes nothing: they still have to send the access.
 Never say we will contact, reach out to, go through, work with, or request
 anything from GoDaddy or any other domain company.
@@ -2708,9 +3360,13 @@ alternatives or commentary."""
 
 # The registrar truth is one string in one place (client_ops_sync) so the
 # app's Site-tab card, the setup-ledger detail and Monica's copy can never
-# tell a client three different stories — Santino 2026-08-04.
-COMPOSE_SYSTEM = COMPOSE_SYSTEM.replace("<<DOMAIN_ACCESS_HOWTO>>",
-                                        DOMAIN_ACCESS_HOWTO)
+# tell a client three different stories — Santino 2026-08-04. The capability
+# contract is single-sourced the same way (2026-08-05) so the prompt and the
+# mechanical guard can never disagree about what Monica is able to do.
+COMPOSE_SYSTEM = (COMPOSE_SYSTEM
+                  .replace("<<DOMAIN_ACCESS_HOWTO>>", DOMAIN_ACCESS_HOWTO)
+                  .replace("<<CAPABILITY_CONTRACT>>", CAPABILITY_CONTRACT)
+                  .replace("<<CONSISTENCY_RULE>>", CONSISTENCY_RULE))
 
 
 # ---------------------------------------------------------------- concision
@@ -3745,7 +4401,8 @@ def cmd_compose(args) -> int:
     # actually happen): a promise made in an ack is owed like a reply —
     # same bypass, and the draft is forced to deliver it. Expires at 7 days
     # (by then the thread has moved on; don't dredge up stale promises).
-    dropped = revalidate_commitment(cs, history, state)
+    dropped = revalidate_commitment(cs, history, state,
+                                    evidence=_evidence_slice(intel))
     if dropped:
         print(f"  [re-check] {dropped}")
     commitment = cs.get("pending_commitment") or None
@@ -3902,8 +4559,9 @@ def cmd_compose(args) -> int:
             intel = ((intel or "") +
                      f"\n\n[ESCALATION LADDER — follow this]\nThis client has {len(items)} "
                      f"open items and {consecutive_out} unanswered nudges. In THIS message: "
-                     "lead with wanting to hop on a quick 15-minute call this week to knock "
-                     "everything out together (offer 2-3 concrete times plus an easy out), and "
+                     "lead with offering a quick 15-minute call WITH SANTINO this week to knock "
+                     "everything out together (you are never on the call yourself: ask what time "
+                     "works, do not promise a specific slot), and "
                      f"include this link to a picture of their setup checklist: {card_url} . "
                      "Keep individual asks brief; the call is the main CTA.")
             print(f"[ladder] escalation active — checklist card: {card_url}")
@@ -3941,14 +4599,18 @@ def cmd_compose(args) -> int:
     print("=" * 62)
     print(f"({len(draft['body'])} chars, channel={args.channel})")
     # OUTBOUND GUARD: grounding (a DONE-claim must trace to the ledger),
-    # persona (Monica never attended anything) and registrar truth (we can
-    # never fetch domain access ourselves). Better a blocked send than a lie
-    # to a client (Flood Fixers "review request is already out" 2026-08-02;
-    # Reign "great meeting with you" + "we'll reach out through GoDaddy"
-    # 2026-08-04).
+    # persona (Monica never attended anything), registrar truth (we can
+    # never fetch domain access ourselves) and the capability contract (she
+    # cannot call, book, visit or promise a deadline). Better a blocked send
+    # than a lie to a client (Flood Fixers "review request is already out"
+    # 2026-08-02; Reign "great meeting with you" + "we'll reach out through
+    # GoDaddy" 2026-08-04; Coastal "I'll give you a call shortly" 2026-08-05).
     grounding = outbound_guard(draft["body"], _evidence_slice(intel))
     if grounding:
         print(f"GUARD WARNING: {grounding}")
+        if honest_substitute(grounding, (pending or {}).get("body")):
+            print(f"  [--send would substitute: {CALL_HANDOFF_REPLY!r} and "
+                  "ping Santino to place the call]")
 
     # Items the history shows were already answered: excluded from the body
     # by the compose model; escalate so a human backfills the DB.
@@ -4014,22 +4676,46 @@ def cmd_compose(args) -> int:
                           f"{banned}", False)
         return 0
     if grounding:
-        print(f"\nSEND REFUSED (outbound guard): {grounding}", file=sys.stderr)
-        append_escalation(company, None,
-                          f"outbound guard blocked a send: {grounding}",
-                          False)
-        return 0
+        # CAPABILITY SUBSTITUTION (2026-08-05): a blocked call promise is not
+        # just refused, it is REPLACED with the true version — a human calls,
+        # we ask for the window — and Santino is pinged so somebody dials.
+        # Silence would leave the client waiting exactly like the lie did.
+        swap = honest_substitute(grounding, (pending or {}).get("body"))
+        if swap:
+            print(f"\nGUARD SUBSTITUTION: {grounding}\n  -> {swap!r}")
+            draft["body"] = swap
+            draft["subject"] = draft.get("subject") or "Quick call"
+            escalate_call_request(company, None, (pending or {}).get("body"),
+                                  dry_run=False)
+            grounding = None
+        else:
+            print(f"\nSEND REFUSED (outbound guard): {grounding}",
+                  file=sys.stderr)
+            append_escalation(company, None,
+                              f"outbound guard blocked a send: {grounding}",
+                              False)
+            return 0
     # Hard duplicate guard (Santino 2026-08-02: two team-photo asks landed
-    # one minute apart): never send a message that near-repeats our own
-    # recent last outbound, whatever path drafted it.
-    dup = repeats_last_outbound(draft["body"], history)
+    # one minute apart; 2026-08-05: two Reign texts a minute apart that
+    # contradicted each other). Checked against the cross-process outbox AND
+    # the thread, immediately before the send, so a second pass in another
+    # process stays silent.
+    reply_key = _reply_key(pending)
+    dup = repeats_recent_outbound(company.get("id"), draft["body"], history,
+                                  evidence=_evidence_slice(intel),
+                                  reply_to=reply_key)
     if dup:
         print(f"\nSEND REFUSED (duplicate guard): {dup}", file=sys.stderr)
+        if "CONTRADICT" in dup:
+            append_escalation(company, None,
+                              f"held a message that contradicted what we "
+                              f"already told them: {dup}", False, ping=True)
         return 0
     channel_used = args.channel
     try:
         result = send_message(contact, args.channel, draft["body"],
-                              draft["subject"], company=company)
+                              draft["subject"], company=company,
+                              reply_to=reply_key)
     except SendBlocked as e:
         # A tripped gate (canary allowlist, DND, paused) is the guardrail
         # WORKING, not an outage — returning 1 here failed the whole
@@ -4168,8 +4854,14 @@ def preview_compose(company_id: str, channel: str = "sms") -> dict:
                           evening_ack=evening_ack_only(
                               company, contact,
                               reply_to=(pending or {}).get("at")))
+    # The preview shows what a REAL send would do, so it must show the guard
+    # verdict too (2026-08-05): a draft the guard would block, or replace with
+    # the call handoff, should never look clean in the app.
+    guard = outbound_guard(draft["body"], _evidence_slice(intel))
+    swap = honest_substitute(guard, (pending or {}).get("body"))
     return {"company": company.get("name"), "channel": channel, "gate": gate,
-            "draft": draft["body"], "subject": draft.get("subject"),
+            "draft": swap or draft["body"], "subject": draft.get("subject"),
+            "guard": guard, "guard_substituted": bool(swap),
             "items": [i["text"] for i in draft.get("items", [])]}
 
 
@@ -4266,9 +4958,21 @@ def send_now(company_id: str, channel: str = "sms") -> dict:
                 "reason": f"topic ban: {banned}"}
     grounding = outbound_guard(body, _evidence_slice(intel))
     if grounding:
-        return {**base, "sent": False, "body": body,
-                "reason": f"outbound guard: {grounding}"}
-    dup = repeats_last_outbound(body, history)
+        # Same substitution as the scheduled path: a blocked call promise is
+        # replaced by the true one and Santino is pinged (2026-08-05).
+        swap = honest_substitute(grounding, (pending or {}).get("body"))
+        if not swap:
+            return {**base, "sent": False, "body": body,
+                    "reason": f"outbound guard: {grounding}"}
+        print(f"  [guard substitution] {grounding}\n    -> {swap!r}")
+        body = swap
+        draft["subject"] = draft.get("subject") or "Quick call"
+        escalate_call_request(company, None, (pending or {}).get("body"),
+                              dry_run=False)
+    reply_key = _reply_key(pending)
+    dup = repeats_recent_outbound(company_id, body, history,
+                                  evidence=_evidence_slice(intel),
+                                  reply_to=reply_key)
     if dup:
         return {**base, "sent": False, "body": body,
                 "reason": f"duplicate guard: {dup}"}
@@ -4276,13 +4980,14 @@ def send_now(company_id: str, channel: str = "sms") -> dict:
     try:
         try:
             result = send_message(contact, channel, body, draft["subject"],
-                                  company=company)
+                                  company=company, reply_to=reply_key)
         except SendBlocked as e:
             # same DND fallback as the scheduled compose path
             if ("DND active" in str(e) and channel == "sms"
                     and (contact.get("email") or "").strip()):
                 result = send_message(contact, "email", body,
-                                      draft["subject"], company=company)
+                                      draft["subject"], company=company,
+                                      reply_to=reply_key)
                 channel_used = "email"
             else:
                 raise
@@ -4571,6 +5276,12 @@ ONLY when the boss himself must answer: pricing, billing, contracts,
 strategy, complaints about our service, cancellation talk. How-to, setup,
 status and "why did X happen" questions are needs_answer WITHOUT
 needs_santino — the assistant handles those herself.
+A REQUEST FOR A PHONE CALL IS ALWAYS needs_santino (Santino 2026-08-05):
+"call me", "give me a call when you get a minute", "can we talk", "when can
+you call". Monica has no phone, so a human must place that call — set
+needs_answer AND needs_santino true, and make suggested_reply the handoff:
+"Got it, Santino will give you a call. What's the best time to reach you?"
+Never a specific time, and never Monica placing the call herself.
 
 FULL ANALYSIS — required for EVERY message, even pure acknowledgments
 (the boss's spec 2026-08-02: every inbound gets analyzed — does it need a
@@ -4594,8 +5305,10 @@ previous customer contacts live?" — plain words, no system menus; a
 review campaign needs the FULL list, hundreds of contacts, so never
 suggest a screenshot). For a non-technical client (Santino 2026-08-02:
 "someone like Todd, definitely just recommend a meeting"), the next move
-after that one question is a short meeting to do it together — propose
-times, don't text a multi-step walkthrough at them.
+after that one question is a short call WITH SANTINO to do it together —
+offer it and ask what time works, don't text a multi-step walkthrough at
+them. You cannot be on that call and you cannot book it: ask for their
+window so a human sets it.
 Conversation rules for suggested_reply (Santino 2026-08-02):
 - Mid-conversation, so do NOT open with their name; start with content
   ("Got it...", "No problem..."). Names at most once per day of thread.
@@ -4619,8 +5332,10 @@ Conversation rules for suggested_reply (Santino 2026-08-02):
   If they name their domain company, that is useful but changes nothing:
   the reply thanks them and asks THEM to send the access (GoDaddy:
   account.godaddy.com/access, Invite to Access, send it to
-  <<DOMAIN_ACCESS_INVITE_EMAIL>>), or offers a 15-minute call to do it
-  together while they are signed in.
+  <<DOMAIN_ACCESS_INVITE_EMAIL>>), or offers a 15-minute call with Santino
+  to do it together while they are signed in.
+<<CAPABILITY_CONTRACT>>
+<<CONSISTENCY_RULE>>
 Only promise a follow-up when the answer genuinely needs research we
 cannot do in this text, and say specifically what you will come back with.
 When response_needed is "answer" and the open items / history / intel
@@ -4680,8 +5395,10 @@ dashes; use a comma or a period instead.
 - Otherwise advance with at most ONE next question — the single
   highest-priority open item provided, nothing stacked on. When the
   natural next step after their answer is hands-on (exporting a list,
-  account settings) and the client reads non-technical, propose a short
-  call to do it together instead of text steps (Santino 2026-08-02).
+  account settings) and the client reads non-technical, offer a short
+  call WITH SANTINO to do it together instead of text steps (Santino
+  2026-08-02). You are never on that call and you cannot book it: ask
+  what time works and a human sets it up.
 - If nothing remains, close warmly ("that's everything we needed").
 - GROUNDING: never claim our work is already done (sent / out / posted /
   live). You see only the thread, not the ledger — speak forward ("we're
@@ -4694,17 +5411,23 @@ dashes; use a comma or a period instead.
 - REGISTRAR TRUTH (hard rule, 2026-08-04): <<DOMAIN_ACCESS_TRUTH>>
   Naming the domain company is not access. Thank them, then ask THEM to
   send it (GoDaddy: account.godaddy.com/access, Invite to Access, to
-  <<DOMAIN_ACCESS_INVITE_EMAIL>>) or offer a 15-minute call to do it
-  together.
+  <<DOMAIN_ACCESS_INVITE_EMAIL>>) or offer a 15-minute call with Santino
+  to do it together.
+<<CAPABILITY_CONTRACT>>
+<<CONSISTENCY_RULE>>
 SMS-length: aim 200 chars, never over 260. No emojis.
 Return ONLY JSON: {"body": string}."""
 
-# Same single-source substitution as COMPOSE_SYSTEM (2026-08-04).
+# Same single-source substitution as COMPOSE_SYSTEM (2026-08-04 registrar
+# truth, 2026-08-05 capability contract).
 for _name in ("CLASSIFY_SYSTEM", "REPLY_SYSTEM"):
     globals()[_name] = (globals()[_name]
                         .replace("<<DOMAIN_ACCESS_TRUTH>>", DOMAIN_ACCESS_TRUTH)
                         .replace("<<DOMAIN_ACCESS_INVITE_EMAIL>>",
-                                 DOMAIN_ACCESS_INVITE_EMAIL))
+                                 DOMAIN_ACCESS_INVITE_EMAIL)
+                        .replace("<<CAPABILITY_CONTRACT>>",
+                                 CAPABILITY_CONTRACT)
+                        .replace("<<CONSISTENCY_RULE>>", CONSISTENCY_RULE))
 
 
 def _tracked_contacts(state: dict) -> dict[str, str]:
@@ -5314,9 +6037,13 @@ def append_escalation(company: dict, msg: dict | None, reason: str,
     (concierge_digest.py) — bookkeeping flags and FYIs go there, never to
     his phone mid-day."""
     stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    # .get(), not [] — the ack path builds a SYNTHETIC message for the
+    # conversational turn ({body, channel, at}, no GHL id) and a KeyError
+    # here killed the whole ack (found by the poisoned dry-run, 2026-08-05).
     block = (f"\n## {stamp} — {company.get('name', '?')} ({company.get('id', '?')})\n"
-             + (f"- Channel: {msg['channel']}  Message id: {msg['id']}\n"
-                f"- Reply: {msg['body'][:400]!r}\n" if msg else "")
+             + (f"- Channel: {msg.get('channel', '?')}  "
+                f"Message id: {msg.get('id', '-')}\n"
+                f"- Reply: {str(msg.get('body', ''))[:400]!r}\n" if msg else "")
              + f"- Reason: {reason}\n")
     if ping:
         _OPS_PINGS.append((company.get("name", "?"), reason))
@@ -5425,6 +6152,9 @@ the provided slot options (their local time) — lead with the first. Ask them
 to pick one or say what works better. CONCISE (hard rule, Santino
 2026-08-04): 2 short sentences, <= 220 chars, no emojis, no corporate
 filler, no closing line.
+You are NOT on that call and never will be (2026-08-05): move it, confirm
+it, and stop. Never "talk to you then", "see you then", or anything that
+puts you in the room. The call is theirs with Santino.
 Return ONLY JSON: {"body": string}"""
 
 RESCHEDULE_PICK_SYSTEM = """\
@@ -5531,6 +6261,18 @@ def handle_reschedule_request(company: dict, contact: dict, preference: str,
     body = _fit_sms((draft.get("body") or "").strip(), 220, 260,
                     label=" [reschedule]")
     print(f"    RESCHEDULE OFFER ({len(body)} chars) -> {body!r}")
+    # The reschedule flow is a SEND PATH like any other and was the one that
+    # never ran the guard (2026-08-05): a "talk to you then" here is the same
+    # false-attendance claim the persona guard exists to stop.
+    grounding = outbound_guard(body, None)
+    if grounding:
+        print(f"    RESCHEDULE OFFER BLOCKED (outbound guard): {grounding}")
+        append_escalation(company, None,
+                          f"reschedule offer blocked by the outbound guard "
+                          f"({grounding}) — the client asked to move their "
+                          f"call and needs a human to answer", dry_run,
+                          ping=True)
+        return
     if dry_run:
         print(f"    [dry-run] offers: {labels}")
         return
@@ -5576,8 +6318,9 @@ def handle_reschedule_reply(company: dict, contact: dict, msg: dict,
                                   f"update FAILED ({e}) — fix manually", dry_run,
                                   ping=True)  # needs his action
                 return True
-            confirm = (f"You're all set, moved to {_fmt_slot(picked)}. "
-                       "Talk to you then!")
+            # "Talk to you then!" used to ride along here — Monica is not on
+            # that call and never will be (capability contract, 2026-08-05).
+            confirm = f"You're all set, moved to {_fmt_slot(picked)}."
             res = send_message(contact, "sms", confirm, company=company)
             record_sent_message(state, res)
             cs.pop("pending_reschedule", None)
@@ -5726,6 +6469,14 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
             "suggested": None, "last_msg": None, "closer_only": False,
             "contact_cards": []}
     for msg in msgs:
+        # DURABLE CLAIM FIRST (2026-08-05): the in-memory ledger below is not
+        # written until the end of the run, so it cannot stop a second pass
+        # that starts while this one is still debouncing.
+        if not claim_inbound_message(msg["id"], dry_run):
+            print(f"    [already claimed by another pass — skipping "
+                  f"{msg['id']}]")
+            _record_handled(state, msg["id"])
+            continue
         out["processed"] += 1
         _record_handled(state, msg["id"])
         print(f"\n  {company['name']}: inbound {msg['channel']} "
@@ -5837,6 +6588,10 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
         resp_need = str(analysis.get("response_needed") or "").strip()
         suggested = (str(analysis.get("suggested_reply") or "").strip()
                      or None)
+        # Computed here, ahead of every early `continue` below: a request for
+        # a phone call must never be swallowed as an ack or a "none" verdict
+        # (2026-08-05). Monica cannot dial, so this always reaches a human.
+        call_ask = client_asked_for_a_call(msg["body"])
         if analysis.get("summary"):
             print(f"    analysis: {str(analysis['summary'])[:110]} "
                   f"[response_needed={resp_need or '?'}]")
@@ -5930,7 +6685,8 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
         # analysis said response_needed=none, and this continue skipped the
         # follow-through — Monica extracted the answer and went silent. When
         # the client answered US, we owe the next step regardless.
-        if (result.get("ack") or resp_need == "none") and not matched_ids:
+        if (result.get("ack") or resp_need == "none") and not matched_ids \
+                and not call_ask:
             if _bare_ack(msg["body"]):
                 # Bare thanks/ok/emoji: the exchange is already closed —
                 # never counter-acknowledge (anti-loop rule c).
@@ -5960,6 +6716,22 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
                         or "?" in (msg["body"] or ""))
         needs_santino = (bool(result.get("needs_santino"))
                          or resp_need == "answer_by_boss")
+        # BEING ASKED FOR A CALL IS A needs_santino EVENT BY DEFINITION
+        # (Santino 2026-08-05, Tony/Coastal: "Call me when u have a minute"
+        # classified as an ordinary question and Monica promised the call
+        # herself). Nothing in this system can dial a phone, so this never
+        # depends on the classifier noticing: the reply becomes the handoff,
+        # and Santino is texted the same second so a human actually calls.
+        if call_ask:
+            needs_answer = True
+            needs_santino = True
+            if not turn.get("call_ask_escalated"):
+                escalate_call_request(company, msg, msg["body"], dry_run)
+                turn["call_ask_escalated"] = True
+            if not (suggested and "santino" in suggested.lower()):
+                suggested = CALL_HANDOFF_REPLY
+            print("    CALL REQUEST — handing to Santino; reply is the "
+                  "handoff, never a promise to dial")
         turn["bodies"].append(msg["body"][:300])
         turn["last_msg"] = msg
         turn["negative"] = turn["negative"] or negative
@@ -6055,10 +6827,19 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
         # Inline replies carry no ledger context: any DONE-claim about
         # reviews/posts/requests is unsupported by construction — the
         # compose backstop (which has the ledger) takes over instead. The
-        # persona + registrar halves of the guard need no context at all.
+        # persona, registrar and capability halves need no context at all.
         grounding = outbound_guard(body_out, None)
         if grounding:
             print(f"    GUARD WARNING: {grounding}")
+            # A blocked CALL promise is replaced, not dropped: the client
+            # asked for a call and deserves the true answer now (2026-08-05).
+            swap = honest_substitute(grounding, combined)
+            if swap:
+                print(f"    GUARD SUBSTITUTION -> {swap!r}")
+                body_out = swap
+                escalate_call_request(company, turn["last_msg"], combined,
+                                      dry_run)
+                grounding = None
         if do_send and body_out:
             if grounding:
                 print("    SEND SKIPPED (outbound guard) — the compose "
@@ -6076,7 +6857,9 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
                 append_escalation(company, turn["last_msg"], hours_reason,
                                   dry_run)
                 return out
-            dup = repeats_last_outbound(body_out, history)
+            reply_key = _reply_key({"at": stamp_at})
+            dup = repeats_recent_outbound(company_id, body_out, history,
+                                          reply_to=reply_key)
             if dup:
                 print(f"    SEND SKIPPED: {dup} — the compose backstop "
                       "carries the follow-through")
@@ -6087,7 +6870,7 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
                        "email": target.get("email") or company.get("email")}
             try:
                 sent = send_message(contact, channel, body_out,
-                                    company=company)
+                                    company=company, reply_to=reply_key)
                 record_sent_message(state, sent)
                 if kind == "answer":
                     # the follow-through went out — nothing pending. A
@@ -6218,6 +7001,13 @@ def webhook_inbound(contact_id: str, do_send: bool = True) -> dict:
             break
         time.sleep(max(wait, 1))
         msgs = fetch_inbound_since(contact_id, since)
+        # RE-READ AFTER SLEEPING (2026-08-05): the snapshot taken before the
+        # debounce is minutes old by now, and saving it back at the end of
+        # the run would clobber whatever another pass wrote in the meantime
+        # (that lost update is half of how Jerrott got two contradicting
+        # texts). The durable claim below is the other half.
+        state.clear()
+        state.update(load_state())
     print(f"[webhook] {company.get('name')}: {len(msgs)} new message(s) "
           f"since cursor{' [DRY RUN — no writes, no sends]' if dry_run else ''}")
     summary = process_inbound_messages(state, company, contact_id, msgs,
@@ -6442,12 +7232,18 @@ mentioned...", "great call with Santino yesterday".
 REGISTRAR TRUTH (hard rule, 2026-08-04): we can never get access to a
 client's domain ourselves — no registrar offers that. Never say we will
 reach out to, contact or go through GoDaddy (or any domain company). The
-client sends us access, or we do it together on a short call.
+client sends us access, or they do it with Santino on a short call.
+<<CAPABILITY_CONTRACT>>
+<<CONSISTENCY_RULE>>
 BE SHORT — hard rule (Santino 2026-08-04): ONE short sentence is the target,
 two is the maximum, under 160 characters. No preamble, no re-explaining, no
 justifying, no closing filler, no restating their words. "Give me a second,
 grabbing the right link for you." is a complete, good text.
 Return ONLY JSON: {"body": string}."""
+
+ACK_SYSTEM = (ACK_SYSTEM
+              .replace("<<CAPABILITY_CONTRACT>>", CAPABILITY_CONTRACT)
+              .replace("<<CONSISTENCY_RULE>>", CONSISTENCY_RULE))
 
 # COMMITMENT FOLLOW-THROUGH (Santino 2026-08-02: the ack drafted "I'll walk
 # you through it" and nobody ever walked him through anything). Any promise
@@ -6549,9 +7345,21 @@ def _maybe_send_ack(state: dict, company: dict, contact_id: str, msg: dict,
     print(f"    ack draft ({len(text)} chars): {text!r}")
     grounding = outbound_guard(text, None)
     if grounding:
-        print(f"    [ack blocked by outbound guard: {grounding}]")
-        return
-    dup = repeats_last_outbound(text, history or [])
+        # THE TONY PATH (2026-08-05). His "Call me when u have a minute" came
+        # in as a needs_answer holding line and the ack drafted "Got it, I'll
+        # give you a call shortly." Blocking it silently would leave him with
+        # nothing; substitute the true version and ping Santino to dial.
+        swap = honest_substitute(grounding, body)
+        if not swap:
+            print(f"    [ack blocked by outbound guard: {grounding}]")
+            return
+        print(f"    [ack guard substitution: {grounding}]\n"
+              f"    -> {swap!r}")
+        text = swap
+        escalate_call_request(company, msg, body, dry_run)
+    reply_key = _reply_key(msg)
+    dup = repeats_recent_outbound(company.get("id"), text, history or [],
+                                  reply_to=reply_key)
     if dup:
         print(f"    [ack skipped: {dup}]")
         return
@@ -6564,7 +7372,7 @@ def _maybe_send_ack(state: dict, company: dict, contact_id: str, msg: dict,
                "email": target.get("email") or company.get("email")}
     try:
         sent = send_message(contact, msg.get("channel") or "sms", text,
-                            company=company)
+                            company=company, reply_to=reply_key)
         record_sent_message(state, sent)
         acks[contact_id] = today
         if closer:
@@ -6714,9 +7522,199 @@ _DIRECTIVE_CASES: list[tuple[str, str, bool]] = [
 ]
 
 
+# CAPABILITY CONTRACT regression cases (Santino 2026-08-05, Tony/Coastal).
+# (text, must_be_blocked). The PASS half is load-bearing: the sanctioned
+# rewrites, Santino's own domain-access copy and ordinary good drafts must
+# survive, or the guard just silences Monica instead of making her honest.
+_CAPABILITY_CASES: list[tuple[str, bool]] = [
+    # the live failure, verbatim
+    ("Got it, I'll give you a call shortly.", True),
+    ("I'll call you in a few minutes.", True),
+    ("Let me hop on a quick call with you.", True),
+    ("I'll ring you this afternoon.", True),
+    ("I'll get on the phone with you today.", True),
+    ("I can give you a call after lunch if that's easier.", True),
+    ("Give me a call when you have a minute.", True),
+    ("Feel free to call me at 855 648 4464.", True),
+    ("We'll give you a call tomorrow.", True),
+    ("I'll get you on Santino's calendar for Thursday.", True),
+    ("I'll book a call for you.", True),
+    ("I'll send you a calendar invite.", True),
+    ("Santino will call you at 3pm today.", True),
+    ("I'll have your site live by end of day.", True),
+    ("We'll have that fixed within the hour.", True),
+    ("I'll swing by the shop tomorrow.", True),
+    ("Talk to you then!", True),
+    ("See you Thursday.", True),
+    ("I'll log into your GoDaddy and get it switched.", True),
+    # the sanctioned rewrites and normal copy — never blocked
+    (CALL_HANDOFF_REPLY, False),
+    ("Santino will give you a call today, what number is best?", False),
+    ("Want me to have Santino call you? What time works?", False),
+    ("You'd send us access from your GoDaddy account, takes about two "
+     "minutes, or Santino can hop on a quick 15 minute call with you and do "
+     "it together while you're signed in.", False),
+    ("Want to grab a quick 15 minute call with Santino this week to knock "
+     "it out?", False),
+    ("Still grabbing that link for you, I'll have it shortly.", False),
+    ("Can you send over your past customer list? Names and numbers is all "
+     "we need.", False),
+    ("You're all set, moved to Thursday Aug 6 at 10:00 AM.", False),
+    ("Talk soon.", False),
+    ("I'll check on that and get right back to you.", False),
+    ("We're getting Steve added now.", False),
+    ("Your new site is built, here's the link.", False),
+    ("Sounds like Tuesday's call with Santino went great.", False),
+]
+
+# Inbound messages that ARE a request for a phone call (always needs_santino)
+# and near-misses that are not.
+_CALL_REQUEST_CASES: list[tuple[str, bool]] = [
+    ("Call me when u have a minute", True),          # Tony, verbatim
+    ("give me a call when you get a sec", True),
+    ("Can we talk?", True),
+    ("when can you call me", True),
+    ("What's a good time to talk?", True),
+    ("Can you hop on a quick call today?", True),
+    ("I'll call you later today", False),            # HE is calling US
+    ("Just got off a call with my adjuster", False),
+    ("Yes its with GoDaddy", False),
+    ("Sounds good, thanks", False),
+]
+
+
 def cmd_selfcheck(_args) -> int:
     fails = 0
-    print("directive classifier:")
+    print("capability contract (Monica cannot call, book, visit or promise "
+          "a clock):")
+    for text, want_blocked in _CAPABILITY_CASES:
+        # the FULL guard, so a sanctioned rewrite must clear persona and
+        # registrar too, not just the capability half
+        got = bool(outbound_guard(text, None)) if not want_blocked \
+            else bool(capability_violation(text))
+        ok = got == want_blocked
+        fails += not ok
+        print(f"  {'ok  ' if ok else 'FAIL'} "
+              f"{'BLOCK' if got else 'pass ':<5} {text[:62]!r}")
+    print("\ncall requests are needs_santino by definition:")
+    for text, want in _CALL_REQUEST_CASES:
+        got = client_asked_for_a_call(text)
+        ok = got == want
+        fails += not ok
+        print(f"  {'ok  ' if ok else 'FAIL'} {str(got):<5} {text[:62]!r}")
+    print("\nblocked call promise is SUBSTITUTED, not dropped:")
+    tony_reason = capability_violation("Got it, I'll give you a call shortly.")
+    subs = [
+        ("the live failure is blocked", bool(tony_reason)),
+        ("it substitutes the handoff",
+         honest_substitute(tony_reason, "Call me when u have a minute")
+         == CALL_HANDOFF_REPLY),
+        ("the handoff itself survives the full guard",
+         outbound_guard(CALL_HANDOFF_REPLY, None) is None),
+        ("the handoff fits one SMS", len(CALL_HANDOFF_REPLY) <= 160),
+        ("a non-call violation has no canned answer (refuse + escalate)",
+         honest_substitute(capability_violation(
+             "I'll have your site live by end of day."), "when will it be up?")
+         is None),
+        ("the prompt contract reaches every drafting path",
+         all("cannot make phone calls" in p.lower()
+             or "YOU CANNOT, EVER" in p
+             for p in (COMPOSE_SYSTEM, REPLY_SYSTEM, ACK_SYSTEM,
+                       CLASSIFY_SYSTEM))),
+    ]
+    for label, ok in subs:
+        fails += not ok
+        print(f"  {'ok  ' if ok else 'FAIL'} {label}")
+
+    # THE REIGN PAIR (Santino 2026-08-05): two messages a minute apart that
+    # contradicted each other, plus "Will do, talk soon." twice four seconds
+    # apart. Offline: recent_outbounds() has no KV here, so these exercise
+    # the history half of the guard — the outbox half adds the same rows from
+    # another process.
+    print("\nsecond pass never contradicts or repeats the first:")
+    now_r = datetime.now(timezone.utc)
+    said_done = ("Glad you liked the about photo. The van logos are already "
+                 "matched to your real logo on the staging preview, take "
+                 "another look when you can.")
+    promised = ("Good to hear you liked the about photo. We'll get the "
+                "vehicle logos matched up so they look consistent across "
+                "all the trucks.")
+
+    def _hist(*rows):
+        return [{"direction": d, "body": b, "id": i,
+                 "when": now_r - timedelta(minutes=mins)}
+                for d, b, i, mins in rows]
+
+    def _with_outbox(rows, fn):
+        """Run fn with the cross-process outbox stubbed (selfcheck is
+        offline; the real one reads ops_kv)."""
+        real = globals()["recent_outbounds"]
+        globals()["recent_outbounds"] = lambda *_a, **_k: rows
+        try:
+            return fn()
+        finally:
+            globals()["recent_outbounds"] = real
+
+    reign = _hist(("out", said_done, "ours-A", 1),
+                  ("in", "I did like the about photo that was made prior.",
+                   "them-1", 3))
+    spoke_between = _hist(
+        ("in", "Sounds good, what about the service area?", "them-2", 1),
+        ("out", said_done, "ours-A", 4))
+    ledger = ("- (2026-08-05) client-feedback-fix: the van logos on every "
+              "vehicle image now match the real logo, live on staging")
+    pair_cases = [
+        ("the contradicting second message is blocked",
+         "CONTRADICT" in (repeats_recent_outbound(
+             None, promised, reign) or "")),
+        ("the exact-duplicate closer is blocked",
+         bool(repeats_recent_outbound(
+             None, "Will do, talk soon.",
+             _hist(("out", "Will do, talk soon.", "ours-B", 0))))),
+        ("a second send with no client reply in between is blocked",
+         bool(repeats_recent_outbound(
+             None, "One more thing about your service area.",
+             _hist(("out", said_done, "ours-A", 2))))),
+        ("...but a reply AFTER the client spoke again goes out",
+         repeats_recent_outbound(
+             None, "Dallas, Plano and Frisco are all in there now.",
+             spoke_between) is None),
+        ("...and a normal nudge days later goes out",
+         repeats_recent_outbound(
+             None, "Can you send over your past customer list?",
+             _hist(("out", said_done, "ours-A", 3000))) is None),
+        # the OUTBOX half, with the KV stubbed: the other process's send is
+        # invisible to GHL history but still stops this one
+        ("answering the same client message twice is blocked",
+         "already answered" in (_with_outbox(
+             [{"body": said_done, "when": now_r - timedelta(minutes=1),
+               "reply_to": "at:2026-08-05T15:52:24+00:00"}],
+             lambda: repeats_recent_outbound(
+                 None, "Completely different wording, same subject entirely.",
+                 [], reply_to="at:2026-08-05T15:52:24+00:00")) or "")),
+        ("the work ledger alone blocks a future promise",
+         "CONTRADICTS the work ledger" in (repeats_recent_outbound(
+             None, promised, [], evidence=ledger) or "")),
+        ("topics match across differently worded messages",
+         bool(message_topics(said_done) & message_topics(promised))),
+        ("a finished commitment is dropped, not re-delivered",
+         bool(revalidate_commitment(
+             {"pending_commitment": {
+                 "promise": "We'll get the van logos matched up.",
+                 "at": (now_r - timedelta(hours=2)).isoformat()}},
+             [], {"sent_message_ids": []}, evidence=ledger))),
+        ("the reply key is stable across paths",
+         _reply_key({"at": "2026-08-05T15:52:24+00:00"})
+         == _reply_key({"at": "2026-08-05T15:52:24+00:00", "id": "abc"})),
+        ("build-queue cards are never spoken as instructions",
+         "OUR paperwork" in CONSISTENCY_RULE
+         and "INTERNAL WORK QUEUE" in Path(__file__).read_text()),
+    ]
+    for label, ok in pair_cases:
+        fails += not ok
+        print(f"  {'ok  ' if ok else 'FAIL'} {label}")
+
+    print("\ndirective classifier:")
     for body, author, want in _DIRECTIVE_CASES:
         got = is_boss_directive({"body": body, "author": author})
         ok = got == want
