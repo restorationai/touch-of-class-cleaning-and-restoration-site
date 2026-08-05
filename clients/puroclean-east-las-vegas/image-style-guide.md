@@ -1,8 +1,74 @@
 # PuroClean of East Las Vegas: Image Style Guide
 
-This guide is consulted by every image-generation call (Skill 3 launch images, Skill 4 blog hero images, future image regenerations). The goal: a viewer scrolling through the site should feel like one professional photographer documented one company on one continuous job. No stylistic drift from page to page.
+## CLIENT DIRECTION — NON-NEGOTIABLE (Greg Arianoff, 2026-08-04 + PuroClean BIG 2022)
 
-The values below are auto-populated from `plan-input.json` at planning time. Per-client brand colors come from the client's logo / brand identity — NOT from the canonical starter palette. The structural conventions (camera, lens, lighting, composition) are restoration-vertical canonical and shared across all Rank AI clients.
+> **This block outranks everything below the horizontal rule.** The sections under it are
+> canonical restoration boilerplate, regenerated from the template on every `plan_site.py
+> generate`, so they keep saying generic things like "neutral work pants (charcoal, dark
+> navy, or khaki)". Where they disagree with this block, THIS BLOCK WINS. Greg is a
+> PuroClean franchisee: his corporate Brand Identity Guide (BIG 2022, 40pp, uploaded
+> 2026-08-04) is the source of truth and outranks anything we guessed at plan time.
+
+1. **NO RED STRIPE ON THE VANS.** Greg, 2026-08-04, verbatim: *"This what the bottom of vans
+   have on them, not a red stripe."* The lower body panel carries the PuroClean SERVICE BAR
+   — four equal blocks, front to back: **Water #00346E navy**, **Fire #D0232A red**,
+   **Mold #323132 near-black**, **Biohazard #A7A9AC grey**, capped by a thin **black** rule.
+   A plain red or orange stripe is a REJECTED image, not a fixable one.
+2. **VANS ARE WHITE.** BIG p23: white is the only permitted vehicle colour (a coloured
+   vehicle must be wrapped white). No magnets. Every vehicle wears the identical wrap.
+3. **UNIFORM: BLACK POLO + BLACK PANTS. NO KHAKIS.** Greg, 2026-08-04: *"uniforms are black
+   polo with logo and black pants, no kakhis allowed."* BIG p25/p27 agrees and is stricter:
+   black (or red) branded polo/tee tucked in, **only black pants — NO JEANS**, black belt,
+   black safety boots (no brown), ID badge visible, no lanyards. Khaki, tan, navy, grey or
+   blue workwear anywhere in frame = REJECTED image.
+4. **EQUIPMENT IS RED AND BLACK.** Greg, 2026-08-04: *"Please ensure our equipment is
+   red/black on pictures."* Air movers, LGR dehumidifiers, air scrubbers, HEPA vacuums,
+   extractors, hoses and cases render in **PuroClean red #D12229 and black** — never the
+   stock blue, yellow, green, stainless or beige of generic rental gear.
+5. **PPE BY SERVICE (BIG p27).** Fire and mold: WHITE Tyvek. CAT-3 sewage and biohazard:
+   **YELLOW Tyvek**. Full-face respirator, nitrile gloves, black rubber safety-toe boots,
+   taped wrists and ankles. Hard hat when required is WHITE with the PuroClean logo; safety
+   vests orange, yellow or red only — never green.
+
+## THE LIVERY — one spec, copied exactly, every image
+
+The master is the artwork Greg sent (`harvested/van-bottom-livery-2026-08-04.jpeg` — the
+corrected second photo; the first, `van-ref-FIRST-WRONG-2026-08-04.png`, is the curved
+variant he retracted) plus the approved whole-vehicle wrap from his own brand guide
+(`harvested/big-approved-van-wrap-p23.png`, BIG p23). Both ride into every vehicle
+generation as references and both are the standard a generated van is judged against.
+
+LIVERY-REFERENCE: harvested/van-bottom-livery-2026-08-04.jpeg
+LIVERY-REFERENCE: harvested/big-approved-van-wrap-p23.png
+
+| Element | Spec — identical on every vehicle, every image |
+|---|---|
+| Body | WHITE. White roof, white panels. Black bumpers/trim as the vehicle ships. |
+| Logo | PuroClean logomark (black triangle + red cross + red house) left of "**Puro**" in red and "**Clean**" in black, tagline *The Paramedics of Property Damage* beneath, upper-middle of the side panel. |
+| Service bar | Along the LOWER body panel: Water (navy #00346E) / Fire (red #D0232A) / Mold (near-black #323132) / Biohazard (grey #A7A9AC), equal blocks, white condensed caps, thin black rule on top. The ONLY stripe on the vehicle. |
+| Everything else | NOTHING. Exactly ONE PuroClean mark per side (no second small decal on the driver's door — the model garbles it into "PureClean"). No extra swoosh, no second stripe, no red or orange band, no URL, no licence number, no badge. |
+
+**Scale rule.** The bar's block ORDER is fixed front-to-back: navy, red, near-black, grey.
+At fleet distance render the bar as four clean colour blocks and let the words inside it go
+too small to read — real photography does exactly that, and it is far better than invented
+lettering. "PuroClean" itself must always be spelled correctly; any garbled wordmark
+("PureClean", "Meld", "Biokszard") is an automatic reject.
+
+**Standing preference.** Real photographs of Greg's actual crew, vans and equipment beat any
+generated image and should replace these the moment he sends them (hub upload link).
+
+**On the team shot specifically.** PuroClean's own brand personality is *responsive,
+compassionate, skilled, friendly, reliable, honest* (BIG p5), so the About/team photo may
+show the crew facing camera and looking approachable. That is a deliberate exception to the
+"no smiling at camera" line in the canonical section below — it applies to jobsite and
+service imagery, where crews stay mid-task and faces stay obscured.
+
+VAN-OVERRIDE: a fleet of three matching WHITE cargo vans, every one wrapped in EXACTLY the livery in the reference photographs — the PuroClean logo on the upper side panel and, along the LOWER body panel, the four-block service bar whose blocks run navy then red then near-black then grey from front to back under a thin black rule, the words inside the blocks too small to read at this distance — reproduced identically at identical scale and position on every vehicle, carrying exactly ONE PuroClean mark per side with no second small decal on the driver's door, and with absolutely NO red or orange stripe, swoosh or band anywhere on the body
+
+CREW-OVERRIDE: every technician wears the PuroClean field uniform — a BLACK polo with the small PuroClean chest logo tucked into BLACK work pants with a black belt and black work boots, never khaki or tan or navy or grey trousers, never jeans, never a blue or coloured shirt — and where the job calls for a Tyvek coverall over that uniform it is a YELLOW Tyvek suit for CAT-3 sewage and biohazard work and a WHITE Tyvek suit for fire and mold work, never the wrong colour for the job
+
+EQUIPMENT-OVERRIDE: all restoration equipment in frame is PuroClean red and black — red-and-black air movers, red-and-black LGR dehumidifiers, red-and-black air scrubbers and HEPA vacuums, black hoses and black cases — with no blue, yellow, green, orange, stainless or beige equipment anywhere in the shot
+
 ---
 
 ## STANDING BRAND RULES (2026-07-11) — apply to EVERY image, every client

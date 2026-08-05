@@ -133,7 +133,8 @@ def _fm_field(md_text: str, key: str) -> str | None:
 def generate_service_images(*, slug: str, geo: str, guide: str,
                             refs: list, van: str,
                             logo_rule: str, img_dir: Path,
-                            crew: str = "", mood: str = "") -> int:
+                            crew: str = "", mood: str = "",
+                            equip: str = "") -> int:
     """One image per src/content/services/*.md page, named {service_slug}.webp
     so serviceImage() resolves it. Existing base images are never overwritten
     (missing variants + manifest entries are still backfilled)."""
@@ -170,7 +171,8 @@ def generate_service_images(*, slug: str, geo: str, guide: str,
                 f"Photorealistic photograph for a restoration company website service "
                 f"card — {scene}. Professional full-frame mirrorless look, "
                 f"{mood or 'natural competent lighting'}, mid-task not posed, no "
-                f"faces clearly visible (back or side angle). {crew}{logo_rule} {geo}")
+                f"faces clearly visible (back or side angle). {crew}{equip}"
+                f"{logo_rule} {geo}")
             full_prompt = prompt + ("\n\nStyle guide notes:\n" + guide if guide else "")
             print(f"  generating services/{out.name} ({display})...")
             try:
@@ -229,8 +231,17 @@ def main() -> int:
     # starts. Was a flat guide[:1500], which silently truncated mid-sentence:
     # Reign's livery table (the whole point of the 2026-08-05 revision) fell
     # off the end at char 1500 and never reached the generator.
+    # The cap is now 8000 and LOUD (2026-08-05, PuroClean): the head is by
+    # construction nothing but client direction, and quietly dropping the tail
+    # of it is the exact failure this block was written to end. PuroClean's
+    # block (Greg's three rules + the PuroClean BIG livery/PPE spec) is ~5.2k
+    # and would have lost its overrides under the old 5000 ceiling.
     _head = guide_full.split("\n---\n", 1)[0]
-    guide = _head[:5000] if len(_head) > 1500 else guide_full[:1500]
+    _CAP = 8000
+    if len(_head) > _CAP:
+        print(f"  WARNING: CLIENT DIRECTION block is {len(_head)} chars — "
+              f"truncated to {_CAP} for the prompt. Tighten it.")
+    guide = _head[:_CAP] if len(_head) > 1500 else guide_full[:1500]
     geo = geo_cues(city, state)
 
     img_dir = ROOT / "sites" / slug / "public" / "images"
@@ -257,25 +268,30 @@ def main() -> int:
     # photo to photo"). The real photo pins crest, wordmark, placement and
     # proportion to something that actually exists. It leads the reference list
     # because the last-listed image tends to dominate less.
-    livery_png = None
-    m_lv = re.search(r"LIVERY-REFERENCE:\s*(\S+)", guide_full)
-    if m_lv:
+    # MULTIPLE LIVERY-REFERENCE lines are allowed (2026-08-05, PuroClean): one
+    # asset rarely carries the whole wrap. Greg Arianoff sent the four-colour
+    # service bar that runs along the bottom of his vans, which pins the bar
+    # exactly but says nothing about where it sits on a vehicle; the approved
+    # whole-van artwork from his franchise brand guide supplies the placement.
+    # Both are needed, so every line is collected in file order.
+    livery_pngs: list[bytes] = []
+    for m_lv in re.finditer(r"LIVERY-REFERENCE:\s*(\S+)", guide_full):
         lp = ROOT / "clients" / slug / m_lv.group(1).strip()
         if lp.exists():
-            livery_png = lp.read_bytes()
+            livery_pngs.append(lp.read_bytes())
             print(f"  livery reference: {lp.relative_to(ROOT)}")
         else:
             print(f"  WARNING: LIVERY-REFERENCE {lp} not found — skipping")
 
-    refs = [r for r in (livery_png, logo_png) if r]
-    if livery_png:
+    refs = [r for r in (*livery_pngs, logo_png) if r]
+    if livery_pngs:
         van = (f"a fleet of two-three matching service vans wrapped in EXACTLY "
-               f"the livery shown in the reference photograph of the company's "
+               f"the livery shown in the reference image(s) of the company's "
                f"real vehicle — same crest, same wordmark, same colours, same "
                f"proportions, same position on the body panel — reproduced "
                f"identically on every vehicle in the frame")
-        logo_rule = ("Copy the vehicle graphics from the reference photograph "
-                     "of the real vehicle exactly; invent no new decal, no new "
+        logo_rule = ("Copy the vehicle graphics from the reference image(s) of "
+                     "the real vehicle exactly; invent no new decal, no new "
                      "stripe, no new badge and no additional lettering.")
     elif logo_png:
         van = (f"a fleet of two-three matching service vans, each side panel "
@@ -304,6 +320,14 @@ def main() -> int:
     crew = (m.group(1).strip().rstrip(".") + ". ") if m else ""
     m = re.search(r"MOOD-OVERRIDE:\s*(.+)", guide_full)
     mood = m.group(1).strip().rstrip(".") if m else ""
+    # EQUIPMENT-OVERRIDE (2026-08-05, PuroClean): Greg Arianoff — "Please
+    # ensure our equipment is red/black on pictures." Every SERVICE_SCENES
+    # entry names the gear ("axial air movers", "LGR dehumidifier", "HEPA
+    # vacuum") with no colour, so the model reached for stock blue and yellow
+    # rental units in eight of eight images. Uniform is CREW-OVERRIDE's job;
+    # what the crew is HOLDING needed its own line.
+    m = re.search(r"EQUIPMENT-OVERRIDE:\s*(.+)", guide_full)
+    equip = (m.group(1).strip().rstrip(".") + ". ") if m else ""
 
     # FLEET CONTINUITY (2026-08-05, Reign): once a fleet shot is approved it
     # becomes a reference for every later vehicle image, so the wrap carries
@@ -326,7 +350,7 @@ def main() -> int:
         return generate_service_images(slug=slug, geo=geo, guide=guide,
                                        refs=refs, van=van,
                                        logo_rule=logo_rule, img_dir=img_dir,
-                                       crew=crew, mood=mood)
+                                       crew=crew, mood=mood, equip=equip)
 
     SHOTS = {
         "hero-bg.webp": (
@@ -341,11 +365,11 @@ def main() -> int:
         "team.webp": (
             f"Photorealistic photo of a small professional restoration crew (3-4 people, mixed, "
             f"in matching clean uniforms) standing confidently in front of {van}. {geo} "
-            f"{crew}{mood or 'Natural light, friendly and trustworthy'}. {logo_rule}"),
+            f"{crew}{equip}{mood or 'Natural light, friendly and trustworthy'}. {logo_rule}"),
         "services.webp": (
             f"Photorealistic photo of a technician unloading professional drying equipment "
             f"(air movers, dehumidifier) from {van} at a job site. "
-            f"{crew}{mood or 'Clean, well-lit'}. {logo_rule} {geo}"),
+            f"{crew}{equip}{mood or 'Clean, well-lit'}. {logo_rule} {geo}"),
     }
 
     from PIL import Image

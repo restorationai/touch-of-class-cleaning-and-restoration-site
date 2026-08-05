@@ -6,13 +6,87 @@
   "lng": -115.0867,
   "gbp_name": "PuroClean of East Las Vegas",
   "short_name": "Puroclean",
-  "primary_color": "#c50a1d",
+  "primary_color": "#D12229",
   "accent_color": "#000000",
   "phone": "+17025513040",
   "email": "eastlasvegas@puroclean.com",
   "street_address": "2777 N Lamb Blvd",
   "postal_code": "89115",
-  "theme": "light"
+  "theme": "light",
+  "heading_font": "League Gothic",
+  "body_font": "Source Sans Pro",
+  "brand_kit": {
+   "source": "PuroClean Brand Identity Guide (BIG) 2022, 40pp — uploaded by Greg Arianoff 2026-08-04, branding/CO-1784594708149/docs/brand-guide-1785873690390.pdf",
+   "authority": "Franchise manual. Overrides any Rank AI guess. Colours outside this palette are 'unacceptable for use in the PuroClean identity' (BIG p18).",
+   "primary_colors": {
+    "puroclean_red": {
+     "hex": "#D12229",
+     "cmyk": "16/100/100/0",
+     "rgb": "210,35,42",
+     "pantone": "187C"
+    },
+    "puroclean_black": {
+     "hex": "#000000",
+     "cmyk": "0/0/0/100",
+     "rgb": "0,0,0",
+     "pantone": "BLACK"
+    }
+   },
+   "secondary_colors": [
+    {
+     "hex": "#e1e1de",
+     "pantone": "Cool Gray 1C"
+    },
+    {
+     "hex": "#cacac8",
+     "pantone": "Cool Gray 3C"
+    },
+    {
+     "hex": "#9a9a9c",
+     "pantone": "Cool Gray 7C"
+    },
+    {
+     "hex": "#616366",
+     "pantone": "Cool Gray 11C"
+    }
+   ],
+   "service_bar": {
+    "note": "The four-block bar that runs along the LOWER panel of every PuroClean vehicle. Greg's 2026-08-04 correction: this, NOT a red stripe. Sampled from the artwork he sent (straight/no-curve variant).",
+    "water": "#00346E",
+    "fire": "#D0232A",
+    "mold": "#323132",
+    "biohazard": "#A7A9AC",
+    "top_rule": "#000000",
+    "word_policy": "Water/Fire/Mold/Biohazard only; no word substitutions without written permission from PuroClean Marketing (BIG p21)."
+   },
+   "typography": {
+    "headings": "League Gothic (Regular or Italic only)",
+    "body": "Source Sans Pro",
+    "policy": "BIG p20 — these two families used exclusively, never distorted. Both are free Google fonts. NOT YET APPLIED to the site (still Inter)."
+   },
+   "logo_rules": [
+    "Two-colour (PuroClean red + black) is always preferred; one-colour may be red, black or white only (BIG p15).",
+    "Clear space: logo WITH tagline when wider than 1.5in, clear space equal to the height of the 'u'; logo WITHOUT tagline when narrower than 1.5in, 3/16in on all four sides (BIG p13).",
+    "Always carries the registered mark. Never recreate by scanning/tracing — pull the file from PuroDrive (BIG p7).",
+    "Never: stretched/condensed, grayscale, rotated, drop-shadowed/glowed, tiled, recoloured, logomark alone, logotype without logomark, or set inside body text (BIG p16-17)."
+   ],
+   "uniform": {
+    "client_direction": "Greg Arianoff 2026-08-04: black polo with logo + black pants, no khakis.",
+    "big_spec": "Branded polo/tee in black, red or white ONLY, tucked into black work pants (NO JEANS), black belt, black safety boots (no brown), ID badge visible at all times, no lanyards (BIG p25/p27)."
+   },
+   "ppe": {
+    "fire_and_mold": "white Tyvek suit",
+    "cat3_sewage_and_biohazard": "yellow Tyvek suit",
+    "respiratory": "full-face respirator (half-face + goggles OK on non-splash fire)",
+    "hands": "nitrile gloves",
+    "feet": "black rubber safety-toe boots",
+    "headwear": "white hard hat with PuroClean logo when required",
+    "vests": "orange, yellow or red only — never green"
+   },
+   "equipment": "Client direction (Greg, 2026-08-04): equipment reads red/black in all photography. BIG p24 requires PuroClean-branded equipment sourced via the PuroClean Products Catalog / Aramsco.",
+   "required_disclaimer": "Each PuroClean office is independently owned and operated. Some services may not be available in all offices. (BIG p8 — required on printed materials.)",
+   "open_conflict": "BIG p31 WEBSITE STANDARDS + the FDD quoted there state a franchise owner may not register or use a separate domain outside PuroClean.com without the franchisor's written approval. purocleaneastlasvegas.com is exactly that. Needs Greg to confirm written approval from PuroClean Marketing — flagged to Santino 2026-08-05, NOT actioned unilaterally."
+  }
  },
  "template": "restoration",
  "services": [
