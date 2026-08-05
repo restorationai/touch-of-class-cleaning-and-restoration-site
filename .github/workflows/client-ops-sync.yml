@@ -96,6 +96,21 @@ jobs:
           python3 scripts/lsa_detect.py || true
           rm -f clients/narestco/.ads-token.json
 
+      - name: Re-harvest new GBP photos (real-photo-first imagery, daily)
+        env:
+          SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY:  ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          GOOGLE_OAUTH_CLIENT_ID:     ${{ secrets.GOOGLE_OAUTH_CLIENT_ID }}
+          GOOGLE_OAUTH_CLIENT_SECRET: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
+          ANTHROPIC_API_KEY:          ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          # --gbp-only: the daily pass watches the one source that actually
+          # changes day to day (the client uploading a job photo to their own
+          # listing). The website re-crawl is weekly — a franchise page does not
+          # gain new vans overnight. Both halves are incremental, so a day with
+          # no new photos costs one storage list per client and no vision spend.
+          python3 scripts/photo_harvest.py run --all --gbp-only || true
+
       - name: Backlink targets (seed new clients + live-link check)
         env:
           SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}

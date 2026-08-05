@@ -54,6 +54,87 @@ except Exception:
 from content_writer import gemini_generate_image  # noqa: E402
 
 
+# ---------------------------------------------------------------------------
+# REAL PHOTOS FIRST (Santino 2026-08-05)
+# ---------------------------------------------------------------------------
+# The standing rule this file now obeys: a client's own photograph outranks
+# anything we can generate, so generation only ever fills a genuine gap. Every
+# client with a claimed GBP already has a photo library on it, and most have a
+# pre-existing or franchise website full of the same — scripts/photo_harvest.py
+# collects, classifies and installs those. Whatever it has installed is recorded
+# in clients/{slug}/photo-manifest.json under "slots", and this module treats
+# such a slot as immovable: not skipped-because-exists (which --force overrides)
+# but skipped-because-real.
+#
+# The saga this ends: every invented phone number, garbled wordmark, distorted
+# technician and unzipped Tyvek suit came out of asking a generator to reproduce
+# something that already existed as a JPEG.
+def real_slots(slug: str) -> dict:
+    """{"hero"|"team"|"services"|"service:{svc}": {...provenance}} for slots a
+    real photograph already fills. Empty dict when nothing has been harvested —
+    in which case this file behaves exactly as it did before."""
+    p = ROOT / "clients" / slug / "photo-manifest.json"
+    if not p.exists():
+        return {}
+    try:
+        return {k: v for k, v in (json.loads(p.read_text()).get("slots") or {}).items()
+                if isinstance(v, dict) and v.get("asset")}
+    except json.JSONDecodeError:
+        return {}
+
+
+def harvest_first(slug: str) -> None:
+    """Two things, in order, before a single pixel is generated for this client:
+
+      1. if nothing has ever been harvested, harvest and triage now — so
+         onboarding a client can never generate a van we could have downloaded;
+      2. install real photos into any slot that is still EMPTY.
+
+    Step 2 runs every time, not just the first time, because harvest and build
+    are separate events: bootstrap_client banks the photos on day one and the
+    site build happens days later. It fills gaps only — a slot that already
+    holds a generated image is left alone and merely reported, since swapping
+    imagery on a live site is a decision, not a side effect of a build.
+
+    Non-fatal throughout: a client with no GBP connection and no old website
+    banks nothing and falls through to generation, exactly as before."""
+    try:
+        import photo_harvest as ph
+    except Exception as e:
+        print(f"  photo_harvest unavailable ({str(e)[:80]}) — generating")
+        return
+    cid = None
+    try:
+        import gbp as _gbp
+        cid = _gbp.company_id_for(slug)
+    except Exception:
+        pass
+    if not (ROOT / "clients" / slug / "photo-manifest.json").exists():
+        print("  real-photo-first: nothing harvested yet — pulling the client's "
+              "own GBP/website photos before generating anything")
+        if not cid:
+            print("    no company_id — nothing to harvest, generating")
+            return
+        try:
+            print("    " + ph.gbp.import_gbp_media(slug, cap=40))
+        except Exception as e:
+            print(f"    GBP import skipped: {str(e)[:100]}")
+        try:
+            ph.register_gbp_assets(slug, cid)
+            got, note = ph.harvest_website(slug, cid, cap=30)
+            print(f"    web: {got} image(s) from {note}")
+        except Exception as e:
+            print(f"    web harvest skipped: {str(e)[:100]}")
+        try:
+            print("    " + ph.triage(slug))
+        except Exception as e:
+            print(f"    triage skipped: {str(e)[:100]}")
+    try:
+        print("  " + ph.apply_real_photos(slug, only_missing=True))
+    except Exception as e:
+        print(f"  real-photo install skipped: {str(e)[:100]}")
+
+
 def geo_cues(city: str, state: str) -> str:
     """Region-appropriate environmental cues so imagery feels local."""
     st = (state or "").upper()
@@ -136,7 +217,8 @@ def generate_service_images(*, slug: str, geo: str, guide: str,
                             refs: list, van: str,
                             logo_rule: str, img_dir: Path,
                             crew: str = "", mood: str = "",
-                            equip: str = "", redo: set | None = None) -> int:
+                            equip: str = "", redo: set | None = None,
+                            real: dict | None = None) -> int:
     """One image per src/content/services/*.md page, named {service_slug}.webp
     so serviceImage() resolves it. Existing base images are never overwritten
     (missing variants + manifest entries are still backfilled) — EXCEPT the
@@ -145,6 +227,7 @@ def generate_service_images(*, slug: str, geo: str, guide: str,
     was to delete files by hand, so the rule now has one explicit, named
     opt-out instead of an implicit one."""
     redo = redo or set()
+    real = real or {}
     from PIL import Image
     from resize_images import VARIANT_WIDTHS, open_rgb, variant_bytes, variant_path
 
@@ -166,6 +249,15 @@ def generate_service_images(*, slug: str, geo: str, guide: str,
         svc_slug = _fm_field(text, "service_slug") or md.stem
         display = _fm_field(text, "service_display") or md.stem.replace("-", " ").title()
         out = out_dir / f"{svc_slug}.webp"
+
+        rp = real.get(f"service:{svc_slug}")
+        if rp:
+            # A real photograph of THIS service holds the card. --redo does not
+            # reach it: the way to replace a real photo is to pick a different
+            # real photo (photo_harvest apply --force), never to generate over it.
+            print(f"  services/{out.name}: REAL PHOTO ({rp.get('source')}, "
+                  f"{rp.get('category')}) — generation skipped")
+            continue
 
         if out.exists() and svc_slug not in redo:
             print(f"  services/{out.name}: exists — kept (never overwritten)")
@@ -229,8 +321,17 @@ def main() -> int:
                     help="comma-separated service_slugs to regenerate even "
                          "though they exist — the client-correction path "
                          "(e.g. --redo mold-remediation,sewage-cleanup)")
+    ap.add_argument("--no-harvest", action="store_true",
+                    help="skip the real-photo harvest that otherwise runs "
+                         "before the first generation for a client")
     args = ap.parse_args()
     slug = args.slug
+
+    if not args.no_harvest:
+        harvest_first(slug)
+    real = real_slots(slug)
+    if real:
+        print(f"  real photos hold: {', '.join(sorted(real))}")
 
     pi = json.loads((ROOT / "clients" / slug / "plan-input.json").read_text())
     brand = pi.get("brand", {})
@@ -370,6 +471,8 @@ def main() -> int:
     # Only in --services mode: in the main pass the hero may itself be about to
     # be regenerated, and conditioning a replacement on the image it replaces
     # would carry the rejected livery straight back in.
+    # When the hero is a REAL photograph it is the strongest continuity anchor
+    # there is: the wrap in it is the wrap, not an interpretation of one.
     hero_path = img_dir / "hero-bg.webp"
     if args.services and hero_path.exists():
         import io as _io
@@ -383,7 +486,7 @@ def main() -> int:
         return generate_service_images(
             slug=slug, geo=geo, guide=guide, refs=refs, van=van,
             logo_rule=logo_rule, img_dir=img_dir, crew=crew, mood=mood,
-            equip=equip,
+            equip=equip, real=real,
             redo={s.strip() for s in args.redo.split(",") if s.strip()})
 
     SHOTS = {
@@ -408,8 +511,21 @@ def main() -> int:
 
     from PIL import Image
     made = 0
+    slot_of = {"hero-bg.webp": "hero", "team.webp": "team",
+               "services.webp": "services"}
     for fname, prompt in SHOTS.items():
         out = img_dir / fname
+        rp = real.get(slot_of[fname])
+        if rp:
+            # Deliberately checked BEFORE --force: --force means "regenerate the
+            # generated ones", never "overwrite the client's own photograph".
+            print(f"  {fname}: REAL PHOTO ({rp.get('source')}, "
+                  f"{rp.get('category')}: {rp.get('subject','')}) — generation skipped")
+            if fname == "hero-bg.webp" and out.exists():
+                buf = io.BytesIO()
+                Image.open(out).convert("RGB").save(buf, "PNG")
+                refs.append(buf.getvalue())
+            continue
         if out.exists() and not args.force:
             print(f"  {fname}: exists — skipped")
             continue

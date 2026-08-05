@@ -12,6 +12,12 @@ Everything Gregory Arianoff was missing, in one shot:
   5. Standard onboarding intake items (customer list, team photo, brand
      guide, job photos) — skipping any that already exist
   6. gbp.py sync so the app's Locations tab has data on day one
+  7. photo_harvest — the client's OWN photos (GBP library + any pre-existing or
+     franchise website) pulled, classified and banked BEFORE anything is ever
+     generated for them. A restoration company that has been trading for years
+     arrives with a photo library; generating a van for them while their real
+     one sits on their Google listing is the mistake this step exists to
+     prevent.
 
 Usage:
   python3 scripts/bootstrap_client.py --company-id CO-... [--slug my-slug]
@@ -271,6 +277,13 @@ def main():
                         "sync", "--slug", slug])
     else:
         print("no place_id on the Google integration yet — GBP sync skipped")
+
+    # 7. Real-photo harvest — day one, before any image is generated for this
+    # client. Non-fatal by design: a brand-new business with an empty listing
+    # simply banks nothing and falls through to generation later.
+    print("\nHarvesting the client's own photos (GBP + any existing website)...")
+    subprocess.run([sys.executable, str(ROOT / "scripts" / "photo_harvest.py"),
+                    "run", "--slug", slug])
 
     print("\nBootstrap complete for {} ({}).".format(co["name"], slug))
     print("Hub link (use this in all client messages): " + hub)

@@ -41,14 +41,22 @@ jobs:
           git config user.email "ops@restorationai.io"
           git config user.name "Rank AI Bot"
 
-      - name: Import GBP photo libraries (app Photos tab + GBP-post rotation)
+      - name: Harvest + triage the clients' OWN photos (real-photo-first imagery)
         env:
           SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY:  ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           GOOGLE_OAUTH_CLIENT_ID:     ${{ secrets.GOOGLE_OAUTH_CLIENT_ID }}
           GOOGLE_OAUTH_CLIENT_SECRET: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
+          ANTHROPIC_API_KEY:          ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
-          python3 scripts/gbp.py media-import --all || echo "media-import failed (non-fatal — Photos tabs keep last import)."
+          # Superset of the old `gbp.py media-import --all`, which it still calls
+          # internally — same GBP import into the app's Photos tab and the
+          # GBP-post rotation, PLUS a re-crawl of each client's pre-existing /
+          # franchise website and a vision triage of anything new. Clients add
+          # photos to their GBP over time; those are free fresh assets, they are
+          # the raw material for the case-study creator, and until this step
+          # existed nothing ever looked at them.
+          python3 scripts/photo_harvest.py run --all || echo "photo harvest failed (non-fatal — sites keep their current imagery)."
 
       - name: Sync GBP ratings + review snippets into brand.ts (before content run — freshened numbers ride each content deploy)
         env:
