@@ -117,7 +117,13 @@ DEFAULTS = {
     "BRAND_PRIMARY_CTA": "#dc2626",     # primary-600 — solid fills that carry WHITE text
     "BRAND_PRIMARY_DARK": "#b91c1c",    # primary-700 — hover state
     "BRAND_PRIMARY_LIGHT": "#fecaca",   # primary-200 — light tint
+    # cta.* — the SOLID-FILL pair (button background + the label on it),
+    # resolved together so the pair always clears AA. See resolve_tokens.
+    "BRAND_CTA_FILL": "#dc2626",        # cta.DEFAULT — every call-to-action fill
+    "BRAND_CTA_FG": "#ffffff",          # cta.fg      — the label ON that fill
+    "BRAND_CTA_HOVER": "#b91c1c",       # cta.hover
     "BRAND_ACCENT_COLOR": "#ef4444",    # accent — urgent highlights
+    "BRAND_ACCENT_FG": "#ffffff",       # accent.fg — label on the accent fill
     "BRAND_FONT_SANS": "Inter",
     "BRAND_FONT_DISPLAY": "Inter",
 }
@@ -371,10 +377,60 @@ def resolve_tokens(client: dict, plan_input: dict) -> tuple[dict, dict]:
         prev_l = l_
     if "primary_light" not in brand:
         string_tokens["BRAND_PRIMARY_LIGHT"] = string_tokens["BRAND_PRIMARY_200"]
+
+    # ---- CTA fill + label, resolved as a PAIR (2026-08-05 round 3, Reign) ---
+    # The block above darkens the FILL until WHITE can sit on it. That keeps
+    # the button legible and loses the thing the client actually cares about:
+    # Jerrott Gray looked at the shipped gold button and said it a second time
+    # — "Action to call on the website need to match golds as the logo." He is
+    # right. #976e09 is not #f2b623, and "it passes contrast" is not an answer
+    # to "that is not my colour." A button has TWO colours and we had been
+    # moving the wrong one.
+    #
+    # So: hold the fill at the client's real hex and move the LABEL instead.
+    #   dark brand  (#dc2626): fill = brand hex, label = white      (unchanged)
+    #   light brand (#f2b623): fill = brand hex, label = near-black (10.8:1,
+    #                          better than the 4.6:1 the darkened fill gave)
+    #   neither label clears AA: only then fall back to the darkened fill.
+    # primary-600/700 are LEFT ALONE — they are still correct for brand-tinted
+    # TEXT on a white surface (Hero's outline button, ProcessSection icons),
+    # which is a different problem with a different answer.
+    surface = string_tokens.get("BRAND_DARK_COLOR") or "#0a0b0e"
+    if "cta_fill" not in brand:
+        white_c, dark_c = _contrast("#ffffff", prim), _contrast(surface, prim)
+        if max(white_c, dark_c) >= 4.5:
+            string_tokens["BRAND_CTA_FILL"] = prim
+            string_tokens["BRAND_CTA_FG"] = ("#ffffff" if white_c >= dark_c
+                                             else surface)
+        else:
+            string_tokens["BRAND_CTA_FILL"] = cta
+            string_tokens["BRAND_CTA_FG"] = "#ffffff"
+    fill, fill_fg = string_tokens["BRAND_CTA_FILL"], string_tokens["BRAND_CTA_FG"]
+    if "cta_hover" not in brand:
+        if fill == cta:
+            # White-label case: the 700 rung already is this button's hover and
+            # every existing client resolves here, byte-identical to before.
+            string_tokens["BRAND_CTA_HOVER"] = string_tokens["BRAND_PRIMARY_700"]
+        else:
+            # Dark-label case: 700 is a deep brown-gold that would read as a
+            # different button on hover. Darken by one gentle step and keep the
+            # label's AA, backing off upward if the step breaks it.
+            fill_l = colorsys.rgb_to_hls(
+                *(int(fill.lstrip("#")[i:i + 2], 16) / 255 for i in (0, 2, 4)))[1]
+            hov = _shade(prim, max(fill_l - 0.07, 0.04))
+            if _contrast(fill_fg, hov) < 4.5:
+                hov = _shade(prim, min(fill_l + 0.07, 0.96))
+            string_tokens["BRAND_CTA_HOVER"] = hov
     if "accent_color" not in brand:
-        # btn-accent renders white text, so the accent uses the same
-        # contrast-safe fill the rest of the CTAs do.
-        string_tokens["BRAND_ACCENT_COLOR"] = cta
+        # btn-accent is the same kind of button as btn-primary (a phone CTA on
+        # service and service-area pages), so it carries the same fill. Was
+        # `cta`, which for a light brand left those buttons olive while the
+        # hero button went gold — one call button, two colours.
+        string_tokens["BRAND_ACCENT_COLOR"] = fill
+    acc = string_tokens["BRAND_ACCENT_COLOR"]
+    string_tokens["BRAND_ACCENT_FG"] = (
+        "#ffffff" if _contrast("#ffffff", acc) >= _contrast(surface, acc)
+        else surface)
 
     json_tokens = {
         "BRAND_LICENSE_NUMBERS_JSON": json.dumps(brand.get("license_numbers", [])),

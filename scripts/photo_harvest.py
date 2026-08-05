@@ -890,9 +890,18 @@ def eligible(a: dict, slot: str, *, service_slug: str | None = None) -> int:
     if score < MIN_SCORE[slot]:
         return 0
     if service_slug:
-        if service_slug not in (a.get("service_slugs") or []):
+        tags = a.get("service_slugs") or []
+        if service_slug not in tags:
             return 0
-        score += 5
+        # The triage lists service_slugs in RELEVANCE order, so tags[0] is what
+        # the photo is actually OF and the rest are "could also illustrate".
+        # Scoring every match the same made the per-service cards fall out in
+        # alphabetical order of the service, not photographic fit: Reign's
+        # storm card grabbed a flooded living room (water first, storm second)
+        # simply because "storm" sorts before "water", and the water card was
+        # left with a collapsed ceiling. A primary match is worth far more than
+        # a generic services score, so weight it that way.
+        score += 20 if tags[0] == service_slug else 5
     # a sharper, bigger original wins ties
     return score * 1000 + min(int(a.get("quality") or 0), 100) * 10 + min(w // 400, 9)
 
@@ -992,7 +1001,8 @@ def rewrite_alt(slug: str, image_path: str, subject: str) -> list[str]:
 
 def apply_real_photos(slug: str, *, dry_run: bool = False,
                       slots: list[str] | None = None,
-                      force: bool = False, only_missing: bool = False) -> str:
+                      force: bool = False, only_missing: bool = False,
+                      crop_bias: dict[str, float] | None = None) -> str:
     """only_missing=True fills GAPS only — a slot whose file does not exist yet.
     That is the mode gen_site_images runs in: on a brand-new site it means the
     real photo lands before a single generation, and on a site that already
@@ -1048,7 +1058,8 @@ def apply_real_photos(slug: str, *, dry_run: bool = False,
             skipped.append(f"{slot}=download failed for {key}")
             continue
         w, h = _install(data, dest, target_ratio=ratio,
-                        crop_bias=CROP_BIAS.get(a.get("category"), 0.4))
+                        crop_bias=(crop_bias or {}).get(
+                            slot, CROP_BIAS.get(a.get("category"), 0.4)))
         from resize_images import VARIANT_WIDTHS
         meta[f"/images/{fname}"] = {"width": w, "height": h,
                                     "variants": [x for x in VARIANT_WIDTHS if x < w]}
@@ -1058,6 +1069,8 @@ def apply_real_photos(slug: str, *, dry_run: bool = False,
             "category": a.get("category"), "subject": a.get("subject"),
             "installed_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
             "file": f"/images/{fname}",
+            **({"crop_bias": (crop_bias or {})[slot]}
+               if slot in (crop_bias or {}) else {}),
         }
         used.add(key)
         applied.append(f"{slot} <- {key} ({a.get('category')}) {w}x{h}")
@@ -1075,11 +1088,20 @@ def apply_real_photos(slug: str, *, dry_run: bool = False,
             + ("\n      skip: " + "; ".join(skipped) if skipped else ""))
 
 
-def apply_service_photos(slug: str, *, dry_run: bool = False) -> str:
+def apply_service_photos(slug: str, *, dry_run: bool = False,
+                         force: bool = False) -> str:
     """Per-service cards. Far more conservative than the three brand slots: a
     service card must be a photo the triage tied to THAT service by name, or the
     generator (which at least renders the right equipment for the right job)
-    stays in charge."""
+    stays in charge.
+
+    force=True is the CLIENT-CORRECTION path, the mirror of gen_site_images'
+    --redo: a shipped generated card is normally never overwritten, but when
+    the client has looked at it and rejected it, "never overwrite" is defending
+    the wrong thing. Jerrott Gray, 2026-08-05, on the fire and mold cards:
+    "Photos of employees ... need to have there PPE worn corectly ... please
+    make photos looks realistic and not AI slop." His own photographs are the
+    answer to both halves of that sentence."""
     m = load_manifest(slug)
     site = ROOT / "sites" / slug
     svc_dir = site / "src" / "content" / "services"
@@ -1100,10 +1122,13 @@ def apply_service_photos(slug: str, *, dry_run: bool = False) -> str:
         svc = (mm.group(1).strip() if mm else md.stem)
         dest = img_dir / f"{svc}.webp"
         slot_key = f"service:{svc}"
-        if dest.exists() and not (m["slots"].get(slot_key) or {}).get("asset"):
+        held = (m["slots"].get(slot_key) or {}).get("asset")
+        if held and not force:
+            continue        # a real photo already holds this card
+        if dest.exists() and not held and not force:
             continue        # generated image already shipped — never overwrite
-        if (m["slots"].get(slot_key) or {}).get("asset"):
-            continue
+        if held:
+            used.discard(held)   # re-pickable when --force re-runs the choice
         got = pick(m, "service", service_slug=svc, used=used)
         if not got:
             continue
@@ -1135,12 +1160,34 @@ def apply_service_photos(slug: str, *, dry_run: bool = False) -> str:
             f"from real photos" + ("\n      " + "\n      ".join(applied) if applied else ""))
 
 
+def _parse_crop_bias(spec: str) -> dict[str, float]:
+    out: dict[str, float] = {}
+    for part in (spec or "").split(","):
+        part = part.strip()
+        if not part:
+            continue
+        slot, _, val = part.partition("=")
+        try:
+            out[slot.strip()] = max(0.0, min(1.0, float(val)))
+        except ValueError:
+            print(f"  ignoring bad --crop-bias term {part!r}")
+    return out
+
+
 def cmd_apply(args) -> int:
+    bias = _parse_crop_bias(getattr(args, "crop_bias", ""))
+    want = [s.strip() for s in (getattr(args, "slots", "") or "").split(",")
+            if s.strip()]
     for slug in slugs_from_args(args):
-        print("  " + apply_real_photos(slug, dry_run=args.dry_run,
-                                       force=args.force))
+        if want == ["none"]:
+            print(f"  {slug}: brand slots untouched (--slots none)")
+        else:
+            print("  " + apply_real_photos(slug, dry_run=args.dry_run,
+                                           force=args.force,
+                                           slots=want or None, crop_bias=bias))
         if args.services:
-            print("  " + apply_service_photos(slug, dry_run=args.dry_run))
+            print("  " + apply_service_photos(slug, dry_run=args.dry_run,
+                                              force=args.force))
     return 0
 
 
@@ -1312,6 +1359,19 @@ def main() -> int:
                      help="also fill per-service cards from real photos")
     ap2.add_argument("--force", action="store_true",
                      help="re-pick slots that already hold a real photo")
+    ap2.add_argument("--slots", default="", metavar="hero,team,services|none",
+                     help="limit which BRAND slots are (re)filled; 'none' "
+                          "touches only the --services cards, which is what a "
+                          "second --force pass wants once the three brand "
+                          "slots are already right")
+    ap2.add_argument("--crop-bias", default="", metavar="SLOT=F[,SLOT=F]",
+                     help="override where the crop keeps the frame for a slot "
+                          "(0=top, 1=bottom), e.g. team=0.95. CROP_BIAS is "
+                          "keyed by CATEGORY because that is right on average, "
+                          "but a subject can sit anywhere in a phone portrait "
+                          "— Reign's crew shot puts both technicians in the "
+                          "bottom third of a 1920x2560 frame, where the 0.32 "
+                          "crew default cuts them in half")
     ap2.set_defaults(fn=cmd_apply)
 
     r = sub.add_parser("run"); common(r)

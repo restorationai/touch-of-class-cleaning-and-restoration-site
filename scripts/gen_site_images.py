@@ -391,7 +391,10 @@ def main() -> int:
     # whole-van artwork from his franchise brand guide supplies the placement.
     # Both are needed, so every line is collected in file order.
     livery_pngs: list[bytes] = []
-    for m_lv in re.finditer(r"LIVERY-REFERENCE:\s*(\S+)", guide_full):
+    # Path-ish token only: prose that merely NAMES the directive (a changelog
+    # entry reading "declared via `LIVERY-REFERENCE:` and passed to ...") used
+    # to match with \S+ and warn about a missing file called "`".
+    for m_lv in re.finditer(r"LIVERY-REFERENCE:\s*([\w./-]+)", guide_full):
         lp = ROOT / "clients" / slug / m_lv.group(1).strip()
         if lp.exists():
             livery_pngs.append(lp.read_bytes())
@@ -409,7 +412,7 @@ def main() -> int:
     #   PPE-REFERENCE: harvested/<file>
     # relative to clients/{slug}/, and rides into every generation.
     ppe_pngs: list[bytes] = []
-    for m_ppe in re.finditer(r"PPE-REFERENCE:\s*(\S+)", guide_full):
+    for m_ppe in re.finditer(r"PPE-REFERENCE:\s*([\w./-]+)", guide_full):
         pp = ROOT / "clients" / slug / m_ppe.group(1).strip()
         if pp.exists():
             ppe_pngs.append(pp.read_bytes())
@@ -462,6 +465,28 @@ def main() -> int:
     # what the crew is HOLDING needed its own line.
     m = re.search(r"EQUIPMENT-OVERRIDE:\s*(.+)", guide_full)
     equip = (m.group(1).strip().rstrip(".") + ". ") if m else ""
+
+    # NO-VEHICLES (2026-08-05 round 3, Reign): the escape hatch for a client
+    # whose wrap the generator cannot be trusted with. Jerrott Gray flagged
+    # mirrored crests on his hero vans after TWO rounds of livery references
+    # ("Logos on company vehicles need to match"), so for him the only correct
+    # number of generated vehicles is zero. Words alone do not do it — asked
+    # for a vehicle-free pack-out scene, with the livery photo still in the
+    # reference list, the model parked a van in the driveway anyway. The
+    # REFERENCES are the instruction the model actually obeys, so this drops
+    # them: no livery photo, no logo, and the fleet wording replaced by its
+    # negation. Real photographs of the client's fleet are untouched by this;
+    # they are exactly what it protects.
+    m = re.search(r"NO-VEHICLES:\s*(.+)", guide_full)
+    if m:
+        no_vehicle_rule = m.group(1).strip().rstrip(".") + "."
+        van = "no company vehicle in frame"
+        logo_rule = ("NO VEHICLES AND NO LOGOS: " + no_vehicle_rule
+                     + " No company wordmark, crest, decal or readable text "
+                       "anywhere in the image.")
+        livery_pngs, logo_png = [], None
+        refs = [r for r in (*livery_pngs, *ppe_pngs, logo_png) if r]
+        print("  NO-VEHICLES directive: livery/logo references dropped")
 
     # FLEET CONTINUITY (2026-08-05, Reign): once a fleet shot is approved it
     # becomes a reference for every later vehicle image, so the wrap carries

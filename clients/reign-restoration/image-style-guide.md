@@ -2,6 +2,23 @@
 
 ## CLIENT DIRECTION — NON-NEGOTIABLE (Jerrott Gray, 2026-08-04 / 2026-08-05)
 
+> **RULE 0 — REAL PHOTOGRAPHS ONLY, AND NO GENERATED VEHICLES (round 3, 2026-08-05).**
+> Jerrott: *"the two vans on the left side had the logo reversed. Logos on
+> company vehicles need to match."* / *"make photos looks realistic and not AI
+> slop."* Two rounds of livery references could not stop the generator
+> mirroring his crest and inventing lettering, so we stopped asking it to. His
+> own photographs now hold 8 of 9 slots (`photo-manifest.json`).
+>
+> * **No vehicle in ANY generated image** — not in the background, not through
+>   a doorway, not at a curb. A generated van is a REJECTED image with no
+>   fix-forward; the livery is only ever right in a real photograph.
+> * **Generation is a gap-filler, never a replacement.** A real photo of his
+>   wins the slot outright.
+> * **PPE is worn SEALED or not at all** — *"PPE worn corectly. Full PPE needs
+>   to be depicted."* Tyvek zipped to the throat, hood UP, respirator sealed,
+>   gloves on, wrists taped. Open like a jacket, hood down, or tied at the
+>   waist = REJECTED image.
+
 > **This block outranks everything below the horizontal rule.** The sections
 > under it are the canonical restoration boilerplate and are regenerated from
 > the template on every `plan_site.py generate`, so they will keep saying
@@ -39,9 +56,13 @@ The wrap, described so it can be checked without opening the file:
 
 **Standing preference.** Real photographs of Jerrott's actual fleet beat any generated vehicle, every time, and should replace these images as soon as he sends them (hub upload link).
 
+NO-VEHICLES: no vehicle of any kind anywhere in the frame — no van, truck, car or trailer, not parked at a curb, not in a driveway, not in the background and not glimpsed between objects; the scene is a FULLY ENCLOSED interior with no open garage door, no open exterior doorway and no driveway or street visible through any window, so there is nowhere for a vehicle to be
+
+**RULE 0 supersedes the VAN-OVERRIDE below.** `NO-VEHICLES:` is what `scripts/gen_site_images.py` actually reads now: it drops the livery photo and the logo from the reference list and negates the fleet wording, because with those references present the model parks a van in the shot even when the scene never asked for one. The VAN-OVERRIDE line and THE LIVERY table are kept as the acceptance standard for REAL fleet photographs when Jerrott sends them, and as the spec to restore if he ever asks for generated vehicles again.
+
 VAN-OVERRIDE: a fleet of two to three matching satin-BLACK cargo vans, black bumpers and blacked-out wheels and no white or red panels or stripes anywhere, every van wrapped in EXACTLY the livery in the reference photograph of the company's real vehicle — the silver-white shield with its gold inner border and gold crown over an interlocking silver-white RR monogram on the forward third of the side panel, with the silver-white REIGN / RESTORATION wordmark set to its right — reproduced identically and at identical scale and position on every vehicle in the frame, inventing no additional stripe, badge, swoosh or lettering of any kind
 
-CREW-OVERRIDE: the technician wears an all-black company uniform (black work shirt, black work pants) with a small gold crest embroidered on the chest, working in low-key moody light with deep shadows, never smiling at the camera and never facing it directly
+CREW-OVERRIDE: the technician wears an all-black company uniform (black work shirt, black work pants) with a small gold crest embroidered on the chest and clean fitted nitrile work gloves on BOTH hands whenever handling anything, plus the full sealed PPE the service calls for, working in low-key moody light with deep shadows, shown from behind or in three-quarter profile with the face turned away from the camera and never smiling at it
 
 MOOD-OVERRIDE: shot at blue hour or under heavy overcast in low-key cinematic light, deep shadows and near-black values, dark moody sky with no bright or blown-out highlights, graded like luxury-automotive advertising — expensive and restrained, never sunny or cheerful
 
@@ -261,4 +282,5 @@ This guide is generated from `templates/restoration/image-style-guide.template.m
 
 - **v1.2-reign (2026-08-04)** — Jerrott Gray reviewed the staging preview: *"Viewed it and it is not ready to go live."* / *"Id like the over all feel to be dark moody and expensive looking. The company vehicles need to be black."* Added the CLIENT DIRECTION block plus `VAN-OVERRIDE:` / `CREW-OVERRIDE:` / `MOOD-OVERRIDE:`, which `scripts/gen_site_images.py` reads out of this file. Full image set regenerated the same day.
 - **v1.3-reign (2026-08-05)** — Round 2: *"The yellow need to to match the logo color and the company vehicle decals need to match from photo to photo."* He also sent a photo of his ACTUAL wrapped trailer. That photo is now the livery master (`harvested/real-trailer-livery-2026-08-05.jpeg`), declared via `LIVERY-REFERENCE:` and passed to every vehicle generation as a reference image alongside the logo and the already-approved hero (fleet-continuity anchor). Added THE LIVERY spec table so the wrap can be checked without opening the file, and a precedence note making this block outrank the regenerated boilerplate below it. Brand gold corrected to the logo's true `#f2b623`. All 9 site images regenerated against the new reference chain. `plan_site.py` no longer overwrites this block on re-plan — it did, silently, on 2026-08-05, destroying the v1.2 direction during an unrelated `generate` run; recovered by hand and guarded in code.
+- **v1.4-reign (2026-08-05)** — Round 3, and the round that ends the generation argument. *"The first picture on the websites with three vans the two vans on the left side had the logo reversed."* / *"Photos of employees on fir damage restoration and mold remediation need to have there PPE worn corectly."* / *"please make photos looks realistic and not AI slop."* Round 2's reference chain still shipped a mirrored crest and invented lettering, so RULE 0 was added: no generated vehicle in any image, ever, and real photographs outrank generation for every slot. Eight of nine site images are now Jerrott's OWN photographs, harvested from his GBP and his existing site (`scripts/photo_harvest.py`, manifest at `photo-manifest.json`): hero, team, services, and the water / fire / mold / storm / general-contracting cards. Only `contents-restoration` had no qualifying real photo and stayed generated — regenerated vehicle-free under RULE 0.
 

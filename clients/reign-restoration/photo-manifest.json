@@ -875,6 +875,75 @@
       "triage_model": "claude-sonnet-4-6"
     }
   },
-  "slots": {},
+  "slots": {
+    "hero": {
+      "asset": "web:81fc5fc5de08a19f",
+      "source": "website",
+      "origin_url": "https://static.wixstatic.com/media/91ab17_cbf5bf1cde534f0f84804dfdfe018d2f~mv2.png",
+      "category": "job_progress",
+      "subject": "Crew re-roofing large luxury home aerial drone view",
+      "installed_at": "2026-08-05T15:00:08Z",
+      "file": "/images/hero-bg.webp"
+    },
+    "team": {
+      "asset": "gbp:gbp-AF1QipM_RfouGkvIPOzCu2jMNk0oAhbUoYMpUV0QGQGO",
+      "source": "gbp",
+      "origin_url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785771354136/job-photos/posted/r1785782959_gbp-AF1QipM_RfouGkvIPOzCu2jMNk0oAhbUoYMpUV0QGQGO.jpg",
+      "category": "crew",
+      "subject": "Two technicians in PPE suits remediating kitchen floor damage",
+      "installed_at": "2026-08-05T15:00:09Z",
+      "file": "/images/team.webp",
+      "crop_bias": 0.9
+    },
+    "services": {
+      "asset": "gbp:gbp-AF1QipOYaLJ5kua9IJwVtwERxXE6mIqSRei6ypGeNExI",
+      "source": "gbp",
+      "origin_url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785771354136/job-photos/posted/gbp-AF1QipOYaLJ5kua9IJwVtwERxXE6mIqSRei6ypGeNExI.jpg",
+      "category": "job_progress",
+      "subject": "Gutted room with exposed framing, drying equipment on slab",
+      "installed_at": "2026-08-05T15:03:21Z",
+      "file": "/images/services.webp"
+    },
+    "service:fire-damage-restoration": {
+      "asset": "web:a8ac3f05e8f94823",
+      "source": "website",
+      "category": "job_progress",
+      "subject": "Severely fire-damaged home garage with burnt vehicle and debris",
+      "file": "/images/services/fire-damage-restoration.webp",
+      "installed_at": "2026-08-05T15:02:38Z"
+    },
+    "service:general-contracting": {
+      "asset": "gbp:gbp-AF1QipOcyhQkX52vbw0IxY6Vbxxjrp4mAM5y9DDqRkp6",
+      "source": "gbp",
+      "category": "job_progress",
+      "subject": "Grand foyer with columns, scaffold, ceiling damage repair underway",
+      "file": "/images/services/general-contracting.webp",
+      "installed_at": "2026-08-05T15:02:38Z"
+    },
+    "service:mold-remediation": {
+      "asset": "gbp:gbp-AF1QipMoQ35HRvw_aWP1nC5AuQvSR5lIL_BVVT3fb5o7",
+      "source": "gbp",
+      "category": "equipment",
+      "subject": "Air scrubber and air movers in gutted stripped room during drying",
+      "file": "/images/services/mold-remediation.webp",
+      "installed_at": "2026-08-05T15:02:39Z"
+    },
+    "service:storm-damage-restoration": {
+      "asset": "gbp:gbp-AF1QipN0jZUMnxeBR7Xw-md2ZvOhv1gjiUk_iPZPA70B",
+      "source": "gbp",
+      "category": "job_progress",
+      "subject": "Luxury home foyer with collapsed ceiling and insulation on floor",
+      "file": "/images/services/storm-damage-restoration.webp",
+      "installed_at": "2026-08-05T15:02:40Z"
+    },
+    "service:water-damage-restoration": {
+      "asset": "gbp:gbp-AF1QipOGG2v9Ms8nvcg485kk4tzr13qL1wkeEEHhPy55",
+      "source": "gbp",
+      "category": "job_progress",
+      "subject": "Flooded luxury living room with standing water over carpet",
+      "file": "/images/services/water-damage-restoration.webp",
+      "installed_at": "2026-08-05T15:02:41Z"
+    }
+  },
   "triaged_at": "2026-08-05T07:07:17Z"
 }
