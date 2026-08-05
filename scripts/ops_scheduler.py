@@ -139,6 +139,13 @@ DAILY_JOBS = [
     # script skips any client whose last progress report is <6 days old or
     # whose baseline is <6 days old, so a daily tick yields weekly reports.
     ("progress", "15:00", [sys.executable, str(HERE / "progress_report.py"), "--all"]),
+    # Meeting-to-task watchdog: a client meeting that produced no board work,
+    # or a sync that has stopped completing runs, becomes a card. Added
+    # 2026-08-05 after "meetings aren't becoming tasks" was reported off a
+    # stale directory listing — the pipeline was alive, but nothing in the
+    # system could have said so either way.
+    ("fathom-watch", "15:10", [sys.executable, str(HERE / "fathom_sync.py"),
+                               "watch", "--send"]),
     # Daily all-systems pulse: one green/red email checking every system's
     # OUTCOME (sites up incl SSL, content/video cadence, GSC/GBP freshness,
     # worker alive, failed jobs). Built 2026-07-23 post-shipping-week.

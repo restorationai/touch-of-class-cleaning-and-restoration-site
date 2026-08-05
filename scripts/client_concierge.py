@@ -2001,6 +2001,14 @@ _LSA_ASK_RE = re.compile(
     r"(?=.*\b(?:manager|management|mcc|access)\b)"
     r"(?=.*\b(?:invite|invitation|request|link)\b)"
     r"(?=.*accept)", re.I | re.S)
+# ...and it has to be about GOOGLE. Without this clause the pattern also
+# matched Crew Restoration's [DOMAIN-ACCESS-UNVERIFIED] card (registrar
+# "access" + "invite" + "accept" in one note), which would have let the guard
+# resolve a DOMAIN item the day their Ads link went ACTIVE — an unrelated ask
+# closed by unrelated evidence. Verified 2026-08-05 against the fleet sweep.
+_LSA_CONTEXT_RE = re.compile(
+    r"\b(?:google|ads?|adwords|lsa|local services|gbp|business profile|mcc)\b",
+    re.I)
 # ...but a note CONFIRMING a link is not an ask to accept one.
 _LSA_ASK_NOT_RE = re.compile(
     r"do ?n['’]?o?t ask|don['’]t ask|no need to ask|nothing else needed"
@@ -2009,7 +2017,8 @@ _LSA_ASK_NOT_RE = re.compile(
 
 def _is_lsa_ask(text) -> bool:
     t = str(text or "")
-    return bool(_LSA_ASK_RE.search(t)) and not _LSA_ASK_NOT_RE.search(t)
+    return (bool(_LSA_ASK_RE.search(t)) and bool(_LSA_CONTEXT_RE.search(t))
+            and not _LSA_ASK_NOT_RE.search(t))
 
 
 def _fmt_acct(a: str) -> str:
@@ -2042,11 +2051,59 @@ def _mcc_links() -> dict | None:
     return _MCC_LINKS
 
 
-def lsa_link_facts(company: dict) -> dict | None:
-    """Live manager-link state for the account an invite is/was for."""
-    links = _mcc_links()
-    if links is None:
+# The link state as last WRITTEN DOWN by scripts/lsa_link_audit.py --apply,
+# in connection_metadata's own vocabulary.
+_STORED_TO_LINK = {"accepted": "ACTIVE", "invited": "PENDING",
+                   "canceled": "CANCELED", "refused": "REFUSED",
+                   "unlinked": "INACTIVE"}
+
+
+def _stored_link_facts(cm: dict, target: str, is_lsa: bool) -> dict | None:
+    """ACTIVE-only fallback for when the live Ads check cannot run.
+
+    THE GUARD WAS INERT IN PRODUCTION (Santino 2026-08-05). lsa_ask_guard was
+    built on 08-04 to stop exactly this and then, at 13:13 on 08-05, Monica
+    asked Jaziel at RestorationXpress to accept a manager invite their office
+    had already accepted the day before. The guard did not misjudge it — the
+    guard never ran. It reaches the truth only through the live Google Ads
+    API, and the Railway ops-worker that runs `compose --all --send` has no
+    Google Ads credentials at all (no GOOGLE_ADS_MCC_CUSTOMER_ID, no
+    developer token, no refresh token — verified against the service's env).
+    build_mcc_client() returned (None, None) on every pass, _mcc_links()
+    returned None, lsa_link_facts() returned None, and the ask sailed through
+    untouched. The guard had only ever fired on Santino's Mac, where a
+    client's own .ads-token.json happens to sit.
+
+    Meanwhile the answer was already in our own database: lsa_link_audit had
+    written lsa_link_status "ACTIVE" / lsa_invite_status "accepted" onto
+    RestorationXpress at 00:10 that morning, thirteen hours before the text.
+    _mcc_links() even prints "falling back to stored state" — a fallback that
+    did not exist until this function.
+
+    Deliberately narrow: ONLY a stored ACTIVE is honoured, and the only thing
+    it can do is RETIRE an ask. Stored PENDING/absent is left to the live
+    path, because writing the ask (naming the account, owning the history)
+    needs the link history that only the API has. A guard that can only ever
+    say "you already have this, do not ask" cannot invent an ask.
+    """
+    status = (str(cm.get("lsa_link_status") or "").upper()
+              or _STORED_TO_LINK.get(
+                  str(cm.get("lsa_invite_status") or "").lower(), ""))
+    if status != "ACTIVE":
         return None
+    return {"account": target, "is_lsa": is_lsa, "status": "ACTIVE",
+            "link_id": cm.get("lsa_link_id"), "prior": [], "other_active": [],
+            "source": "stored",
+            "checked_at": cm.get("lsa_link_checked_at")
+            or cm.get("lsa_invite_at")}
+
+
+def lsa_link_facts(company: dict) -> dict | None:
+    """Manager-link state for the account an invite is/was for.
+
+    Live from the agency MCC when we can reach it, from what the last audit
+    wrote down when we cannot (see _stored_link_facts)."""
+    links = _mcc_links()
     rows = _sb("GET", "/rest/v1/user_integrations"
                f"?client_id=eq.{company['id']}&provider=eq.google"
                "&select=connection_metadata") or []
@@ -2062,6 +2119,8 @@ def lsa_link_facts(company: dict) -> dict | None:
     ads_id = str(cm.get("selected_ads_customer_id")
                  or cm.get("ads_customer_id") or "").replace("-", "")
     target = lsa_id or ads_id
+    if links is None:
+        return _stored_link_facts(cm, target, bool(lsa_id) and target == lsa_id)
     if not target:
         return None
     cur = links.get(target) or []
@@ -2097,11 +2156,15 @@ def lsa_ask_guard(company: dict, items: list[dict],
     acct = _fmt_acct(f["account"])
 
     if f["status"] == "ACTIVE":
-        print(f"  [lsa-link] {acct} is already ACTIVE — retiring the accept "
-              "ask instead of sending it")
+        src = ("live Google Ads check" if f.get("source") != "stored"
+               else f"stored link state, last verified "
+                    f"{str(f.get('checked_at') or '?')[:16]}")
+        print(f"  [lsa-link] {acct or 'their Google account'} is already "
+              f"ACTIVE ({src}) — retiring the accept ask instead of sending it")
         for it in ask_items:
             val = (f"auto-satisfied {datetime.now(timezone.utc).date()}: "
-                   f"manager link ACTIVE on {acct} (link {f['link_id']})")
+                   f"manager link ACTIVE on {acct} (link {f['link_id']}, "
+                   f"{src})")
             if it.get("kind") == "intake":
                 apply_answer(it["id"], val, dry_run)
             else:

@@ -214,7 +214,15 @@ def main() -> int:
     now = datetime.now(timezone.utc).isoformat()
     if apply:
         n = 0
-        for name, acct, status, link_id, was, u, cm, _cur in rows:
+        # UNPACK BY LENGTH, NOT BY HABIT (2026-08-05). e26a8181 added a ninth
+        # column ("also linked") to every row and updated the print loop but
+        # not this one, so `--apply` had been raising ValueError on its first
+        # iteration ever since — silently, because every caller runs it with
+        # `|| true`. This is the ONLY writer of connection_metadata's link
+        # state, and the concierge's ask guard now reads that state when it
+        # cannot reach the Ads API (the Railway worker never can), so a
+        # crash here means Monica asking clients for access we already hold.
+        for name, _acct, status, link_id, was, u, cm, _cur, _other in rows:
             want = LINK_TO_INVITE.get(status)
             if not want or (was == want and cm.get("lsa_link_id") == link_id):
                 continue
@@ -225,6 +233,32 @@ def main() -> int:
             print(f"  wrote {name}: lsa_invite_status {was!r} -> {want!r}")
             n += 1
         print(f"\n{n} integration row(s) updated")
+        # The link state also belongs on the company row, where the app and
+        # the ledger read integration_settings.lsa. RestorationXpress had an
+        # ACTIVE link recorded in user_integrations and NOTHING in
+        # integration_settings, so anything reading only the company row saw
+        # an unreconciled account (Santino, 2026-08-05).
+        n2 = 0
+        for name, acct, status, link_id, _was, u, _cm, _cur, _other in rows:
+            co = cos.get(u["client_id"])
+            if not co or status == "NO INVITE":
+                continue
+            ints = _ints(co)
+            lsa = dict(ints.get("lsa") or {})
+            if (lsa.get("link_status") == status
+                    and lsa.get("link_id") == link_id):
+                continue
+            lsa.update({"customer_id": lsa.get("customer_id") or acct,
+                        "link_status": status, "link_id": link_id,
+                        "invite_status": LINK_TO_INVITE.get(status),
+                        "link_checked_at": now})
+            ints["lsa"] = lsa
+            _sb("PATCH", f"/rest/v1/companies?id=eq.{co['id']}",
+                {"integration_settings": ints})
+            print(f"  reconciled {name}: integration_settings.lsa.link_status "
+                  f"-> {status}")
+            n2 += 1
+        print(f"{n2} company row(s) reconciled")
 
     if fix_identity:
         for co, _u, stored, sel in mismatches:

@@ -398,7 +398,7 @@ def already_queued(company_id: str, quote: str) -> str | None:
 # ---------------------------------------------------------------- the router
 def route_feedback(company: dict, feedback: list[dict], *, who: str,
                    when: str | None = None, dry_run: bool = False,
-                   escalate=None) -> list[dict]:
+                   escalate=None, limit: int = 4) -> list[dict]:
     """Turn a classifier `client_feedback` block into queued work.
 
     One note per feedback item: [DEV] when the gate says auto (the nightly
@@ -423,7 +423,11 @@ def route_feedback(company: dict, feedback: list[dict], *, who: str,
         slug = None
     has_site, live, url = site_status(cid, slug)
 
-    for fb in feedback[:4]:          # a burst of corrections, not a backlog
+    # An inbound TEXT is a burst of corrections, not a backlog, so the default
+    # cap stays 4. A recorded MEETING legitimately carries more (HomeLyft
+    # asked for nine things on 2026-08-04), so fathom_sync raises it — the cap
+    # is about the plausibility of the SOURCE, not a limit on client asks.
+    for fb in feedback[:max(1, limit)]:
         try:
             if not is_actionable(fb):
                 print(f"  [feedback] skipped a malformed block: {str(fb)[:90]}")

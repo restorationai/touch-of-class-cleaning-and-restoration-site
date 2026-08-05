@@ -94,6 +94,15 @@ jobs:
             printf '%s' "$NARESTCO_ADS_TOKEN" > clients/narestco/.ads-token.json
           fi
           python3 scripts/lsa_detect.py || true
+          # Read the manager links BACK and write the result to
+          # connection_metadata (2026-08-05). This is what feeds
+          # client_concierge._stored_link_facts: the Railway ops-worker that
+          # composes Monica's messages has NO Google Ads credentials, so the
+          # live check there is always unavailable and the guard can only
+          # retire an "accept our invite" ask from what this step wrote down.
+          # Unrun for a week = Monica asking clients for access we already
+          # hold (Jaziel/RestorationXpress, 2026-08-05 13:13).
+          python3 scripts/lsa_link_audit.py --apply || true
           rm -f clients/narestco/.ads-token.json
 
       - name: Re-harvest new GBP photos (real-photo-first imagery, daily)
