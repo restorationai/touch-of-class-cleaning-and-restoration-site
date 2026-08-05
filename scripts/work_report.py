@@ -290,7 +290,6 @@ def from_press_releases(cid: str, since: date, until: date) -> list[dict]:
 _MILESTONE_COPY = {
     "site-built":      "Milestone: your new website was built and staged for preview.",
     "site-live":       "Milestone: your website went live on {domain}.",
-    "domain-access":   "Domain access confirmed, nothing blocks us from managing your domain.",
     "gsc-indexnow":    "Google Search Console registered and search engines pinged to index your new site.",
     "google-connected": "Your Google account was connected to our system, unlocking Business Profile, review and ranking management.",
     "gbp-verified":    "Your Google Business Profile is verified with Google.",
@@ -299,7 +298,10 @@ _MILESTONE_COPY = {
     "lsa-setup":       "Google Local Services Ads set up for your business.",
     "site-imagery":    "Custom photography and imagery completed for every service page on your website.",
 }
-_MILESTONE_SKIP = {"client-asks", "data-fresh", "gbp-suggestions"}
+_MILESTONE_SKIP = {"client-asks", "data-fresh", "gbp-suggestions",
+                   # the launch card (2026-08-05) — site-live already
+                   # reports the client-visible go-live milestone
+                   "domain-access"}
 
 
 def from_setup_ledger(cid: str, since: date, until: date) -> list[dict]:

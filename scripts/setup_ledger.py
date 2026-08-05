@@ -172,37 +172,238 @@ def _domain_access_row(cid: str) -> dict | None:
         return None
 
 
-# Human-readable ledger detail per state (the app renders this verbatim).
-def _da_detail(status: str, domain: str, da: dict) -> str | None:
-    reg = da.get("domain_registrar") or da.get("domain_registrar_guess") or "?"
-    email = da.get("domain_account_email") or "unknown account email"
-    if status == "none":
-        # The card and Monica's text now render the SAME registrar truth
-        # (2026-08-04): no registrar lets us request access, so this is
-        # always the client granting it, never us fetching it.
-        return ("We can't launch their site until THE CLIENT grants access "
-                f"to their domain (registrar guess: {reg}). We cannot get it "
-                "ourselves, no registrar offers that. They send a delegate "
-                "invite (GoDaddy: account.godaddy.com/access -> Invite to "
-                f"Access -> {DOMAIN_ACCESS_INVITE_EMAIL}, Domains permission) "
-                "or hand over the login. Monica is asking; the app's Site tab "
-                "also shows them a 'Provide Domain Access' card.")
-    if status == "promised":
-        return ("Client SAYS access was provided "
-                f"(registrar {reg}, account {email}) — a claim, not evidence. "
-                f"Check the {DOMAIN_ACCESS_INVITE_EMAIL} inbox for the delegate "
-                "invite, then hit 'Delegate access confirmed' below. Monica "
-                "is on a gentle verify nudge meanwhile.")
-    if status == "delegate_granted":
-        return ("Delegate access CONFIRMED — nothing more from the client. "
-                f"Run the NS cutover for {domain} (browser_agent "
-                "domain_connect playbook, email-safe rule applies).")
-    if status == "creds_provided":
-        return ("Client submitted registrar credentials through the encrypted "
-                "path. Run scripts/domain_creds_sync.py on the ops Mac to "
-                "decrypt them into the browser agent's portal-creds, then do "
-                f"the NS cutover for {domain} (email-safe rule applies).")
-    return None
+# ---- delegate-access VERIFICATION (Santino 2026-08-05) --------------------
+# The old "Delegate access confirmed ✓ (invite landed at setup@)" button
+# asserted a fact about an inbox nobody had checked — Crew Restoration went
+# green on an invite that never existed, and Monica stopped asking the one
+# person who could unblock the launch. Now a human click is recorded as
+# exactly what it is (a human assertion) and the mailbox is the evidence.
+#
+#   registrar_email   a real registrar invitation is in the agency mailbox
+#   client_creds      the client handed over credentials (no email expected)
+#   ns_truth          the nameservers already point at us — nothing to prove
+#   human_pending     a human clicked less than GRACE hours ago; still looking
+#   human_unverified  a human clicked, the mailbox reads fine, NO invite exists
+#   human_unchecked   a human clicked but the mailbox could not be read
+# human_unverified is the honest-mismatch state: the card goes red, the
+# attention list says so, access is NOT treated as in hand, and the state
+# column is rolled back to what it was before the click (so the CLIENT-facing
+# "Provide Domain Access" card stops claiming we hold something we don't).
+# The grace is short on purpose: the button means "the invite already
+# arrived", and a registrar invitation lands in the mailbox within seconds.
+_ASSERT_GRACE_HOURS = 1
+
+
+def _scan_registrar_invites(cos: list[dict], cid_to_slug: dict):
+    """(cid -> [invite...], scan_ok, error, ambiguous). Never raises."""
+    try:
+        import domain_access_email as dae
+        sites = _sb("GET", "/rest/v1/marketing_sites?select=company_id,domain,"
+                    "domain_registrar,domain_registrar_guess",
+                    prefer="return=representation") or []
+        return dae.invites_by_company(cos, cid_to_slug, {
+            s["company_id"]: {"domain": s.get("domain"),
+                              "registrar": s.get("domain_registrar"),
+                              "registrar_guess": s.get("domain_registrar_guess")}
+            for s in sites})
+    except Exception as e:  # noqa: BLE001 — a mailbox hiccup never kills the ledger
+        return {}, False, f"invite scan failed: {str(e)[:140]}", []
+
+
+def _manual_assertion(cid: str) -> dict | None:
+    """The newest human 'I confirmed access manually' click, whatever its
+    note status (the executor resolves the note; the assertion is still a
+    fact we have to keep honest about)."""
+    try:
+        rows = _sb("GET", "/rest/v1/marketing_ops_notes"
+                   f"?company_id=eq.{cid}"
+                   "&body=like.*%5BDELEGATE-ACCESS-CONFIRMED%5D*"
+                   "&select=id,body,author,created_at,status"
+                   "&order=created_at.desc&limit=1",
+                   prefer="return=representation") or []
+        return rows[0] if rows else None
+    except Exception:  # noqa: BLE001
+        return None
+
+
+def _hours_since(iso: str | None) -> float:
+    try:
+        return (datetime.now(timezone.utc) - datetime.fromisoformat(
+            str(iso).replace("Z", "+00:00"))).total_seconds() / 3600.0
+    except (ValueError, TypeError, AttributeError):
+        return 0.0
+
+
+def _delegate_verification(cid: str, da_status: str, invites: list[dict],
+                           scan_ok: bool) -> dict:
+    """How do we actually know this client's access claim is true?"""
+    inv = (invites or [None])[0]
+    if da_status == "ns_live":
+        return {"state": "ns_truth", "invite": None, "assertion": None}
+    if inv:
+        return {"state": "registrar_email",
+                "invite": {k: inv.get(k) for k in
+                           ("registrar", "inviter", "date", "subject", "to",
+                            "gmail_url", "customer_number")}
+                | {"why": (inv.get("match") or {}).get("why")},
+                "assertion": None}
+    if da_status == "creds_provided":
+        return {"state": "client_creds", "invite": None, "assertion": None}
+    note = _manual_assertion(cid)
+    if not note:
+        return {"state": None, "invite": None, "assertion": None}
+    rec = {"at": note.get("created_at"), "by": note.get("author") or "an operator",
+           "hours": round(_hours_since(note.get("created_at")), 1)}
+    if not scan_ok:
+        return {"state": "human_unchecked", "invite": None, "assertion": rec}
+    if rec["hours"] < _ASSERT_GRACE_HOURS:
+        return {"state": "human_pending", "invite": None, "assertion": rec}
+    return {"state": "human_unverified", "invite": None, "assertion": rec}
+
+
+def _verification_line(v: dict) -> str:
+    """One sentence naming the evidence (or the lack of it)."""
+    st, inv, a = v.get("state"), v.get("invite") or {}, v.get("assertion") or {}
+    if st == "registrar_email":
+        return (f"VERIFIED: a {inv.get('registrar', 'registrar')} access invite "
+                f"from {inv.get('inviter') or 'the owner'} landed at "
+                f"{inv.get('to') or DOMAIN_ACCESS_INVITE_EMAIL} on "
+                f"{str(inv.get('date') or '')[:10]}.")
+    if st == "client_creds":
+        return "VERIFIED: the client submitted their login through the encrypted form."
+    if st == "human_pending":
+        return (f"{a.get('by')} marked this confirmed by hand "
+                f"{a.get('hours')}h ago — we are still looking for the matching "
+                "invite in the agency inbox.")
+    if st == "human_unchecked":
+        return (f"{a.get('by')} marked this confirmed by hand — the agency "
+                "inbox could NOT be read this run, so nothing is verified.")
+    if st == "human_unverified":
+        return (f"NOT VERIFIED: {a.get('by')} marked this confirmed by hand "
+                f"{a.get('hours')}h ago, but no registrar access invite for "
+                "this client has EVER arrived at "
+                f"{DOMAIN_ACCESS_INVITE_EMAIL}. Treat access as not in hand.")
+    return ""
+
+
+_REGISTRAR_LABEL = {
+    "godaddy": "GoDaddy", "namecheap": "Namecheap", "bluehost": "Bluehost",
+    "hostgator": "HostGator", "squarespace": "Squarespace", "wix": "Wix",
+    "networksolutions": "Network Solutions", "name.com": "Name.com",
+    "enom": "eNom", "hover": "Hover", "dreamhost": "DreamHost",
+    "ionos": "IONOS", "hostinger": "Hostinger", "porkbun": "Porkbun",
+    "moniker": "Moniker", "inmotion": "InMotion", "cloudflare": "Cloudflare",
+    "wordpress": "WordPress.com", "route53": "AWS Route 53",
+    "domain.com": "Domain.com", "web.com": "Web.com", "shopify": "Shopify",
+}
+
+
+def _launch_card(owner: str, domain: str, built: bool, live: bool,
+                 ours: bool, zstat: str, da_status: str, da: dict,
+                 v: dict) -> tuple[str, str, str, str | None]:
+    """THE one domain/launch card (kind, status, title, detail).
+
+    Before 2026-08-05 this same story rendered as THREE separate items —
+    "Registrar / domain access", "Live on real domain", and a duplicate
+    "domain access" ask inside Waiting-on-N. One card now tells the whole
+    truth and its text changes by state: needs access -> we have access,
+    cutover pending -> live.
+    """
+    reg = da.get("domain_registrar") or da.get("domain_registrar_guess")
+    reg_txt = (f" (looks like {_REGISTRAR_LABEL.get(reg, reg.title())})"
+               if reg else "")
+    evidence = _verification_line(v)
+    if live:
+        return ("auto", "done", f"Website is live on {domain}", None)
+    if not domain:
+        return ("us_owed", "blocked",
+                "No web address on file — decide before anything can launch",
+                "Nobody has told us which web address this website should live "
+                "on. Two ways forward: use one they already own (we need "
+                "access to it), or we buy one for them and launch the same day.")
+    if not built:
+        return ("us_owed", "blocked", f"Website not built yet — {domain} waiting",
+                "Nothing to launch until the site is built.")
+    if ours:
+        return ("us_owed", "open",
+                f"Ready to launch: flip {domain} to the new site — our job, today",
+                f"{domain} already points at us, so nothing is blocking the "
+                "launch. Push the site to production and it is live.")
+    in_hand = da_status in ("delegate_granted", "creds_provided") \
+        and v.get("state") not in ("human_unverified",)
+    if in_hand:
+        how = ("their login" if da_status == "creds_provided"
+               else "access to their domain account")
+        detail = (f"We have {how}, so nothing more is needed from {owner}. "
+                  f"Our move: point {domain} at the new website (nameserver "
+                  "cutover, email-safe rule applies). " + evidence)
+        if da_status == "creds_provided":
+            detail += (" Run scripts/domain_creds_sync.py on the ops Mac first "
+                       "to decrypt the credentials into the browser agent.")
+        return ("us_owed", "open",
+                f"We have access to {domain} — our move: point it at the new site",
+                detail)
+    if v.get("state") == "human_unverified":
+        return ("us_owed", "open",
+                f"{domain} was marked confirmed by hand, but no invite ever arrived",
+                evidence + " Either forward the invite to "
+                f"{DOMAIN_ACCESS_INVITE_EMAIL} (or accept it wherever it "
+                f"landed), or {owner} still has to send it. The state has been "
+                "rolled back to where it was before the click, so the client's "
+                "own card no longer says we have access and Monica is asking "
+                "again. This stays red until real evidence shows up.")
+    if v.get("state") in ("human_pending", "human_unchecked"):
+        return ("us_owed", "open",
+                f"{domain} marked confirmed by hand — checking the inbox",
+                evidence + " If no invite turns up, this card turns red and "
+                "the ask goes back to the client.")
+    if da_status == "promised":
+        return ("client_owed", "open",
+                f"{owner} says access to {domain} was sent — nothing has arrived",
+                f"We searched every registrar email ever sent to "
+                f"{DOMAIN_ACCESS_INVITE_EMAIL}: no access invite for this "
+                f"client{reg_txt}. Monica is on a gentle 'did it go to "
+                f"{DOMAIN_ACCESS_INVITE_EMAIL}?' nudge. The moment a real "
+                "invite lands, this card flips itself.")
+    return ("client_owed", "open",
+            f"{owner} needs to send us access to {domain} — the site is built "
+            "and waiting",
+            f"The website is finished; the only thing left is access to the "
+            f"account where {domain} was bought{reg_txt}. We cannot get this "
+            "ourselves — no domain company will hand a customer's account to "
+            f"an agency. {owner} either sends an access invite to "
+            f"{DOMAIN_ACCESS_INVITE_EMAIL} (GoDaddy: account.godaddy.com/access "
+            "-> Invite to Access -> Domains permission) or gives us the login. "
+            "Monica is asking, and the app's Site tab shows him the same card."
+            + (f" {zstat.title()} zone is already staged on our Cloudflare, so "
+               "the cutover takes minutes once access arrives."
+               if zstat == "pending" else ""))
+
+
+def _owner_first_name(co: dict) -> str:
+    """The client's first name for card copy — Santino 2026-08-05: cards
+    should read 'Kyle needs to create 4 listings', not 'client-owed creates'.
+    Falls back to 'The client' when we genuinely do not know a human name."""
+    ints = co.get("integration_settings") or {}
+    if isinstance(ints, str):
+        try:
+            ints = json.loads(ints)
+        except json.JSONDecodeError:
+            ints = {}
+    contacts = [c for c in (ints.get("contacts") or []) if isinstance(c, dict)]
+    pick = (next((c for c in contacts if c.get("preferred")), None)
+            or next((c for c in contacts if c.get("role") == "owner"), None)
+            or (contacts[0] if contacts else {}))
+    first = (pick.get("first_name") or "").strip()
+    if not first and co.get("account_owner_name"):
+        first = str(co["account_owner_name"]).split()[0]
+    if not first:
+        for m in co.get("management_contacts") or []:
+            if isinstance(m, dict) and (m.get("name") or "").strip():
+                first = str(m["name"]).split()[0]
+                break
+    first = re.sub(r"[^A-Za-z'-]", "", first)
+    return first.capitalize() if len(first) > 1 else "The client"
 
 
 def _site_serves_us(domain: str, brand_name: str) -> bool:
@@ -543,7 +744,8 @@ def _nap_backfill_from_gbp(cid: str, slug: str, co: dict, dry_run: bool) -> list
 
 
 def _citations_readiness(cid: str, slug: str, co: dict, platform_status: dict,
-                         dry_run: bool, rows: list, attention: list) -> None:
+                         dry_run: bool, rows: list, attention: list,
+                         owner: str = "The client") -> None:
     """Queue-readiness blockers become visible work. Only runs for clients
     the creation queue actually wants (a platform still todo); when nothing
     is pending the card flips done and asks retire."""
@@ -566,7 +768,8 @@ def _citations_readiness(cid: str, slug: str, co: dict, platform_status: dict,
         _retire(nap_seed)
         rows.append({"company_id": cid, "item_key": "citations-blocked",
                      "kind": "client_owed", "status": "done",
-                     "title": "Citations inputs complete", "detail": None,
+                     "title": "Everything we need to build their listings is on file",
+                     "detail": None,
                      "evidence": {"blockers": []}})
         return
 
@@ -600,8 +803,8 @@ def _citations_readiness(cid: str, slug: str, co: dict, platform_status: dict,
         blockers.append("logo")
         if insert_plan_row(
                 cid, slug, logo_seed,
-                title="ASK CLIENT: your logo — one clean file so we can "
-                      "finish your directory listings",
+                title="ASK CLIENT: send their logo file so we can finish "
+                      "their directory listings",
                 rationale=(
                     "We're creating their business listings across the major "
                     "directories (HomeGuide, Houzz, BBB, ...) and the missing "
@@ -625,8 +828,8 @@ def _citations_readiness(cid: str, slug: str, co: dict, platform_status: dict,
                                              ("address", not addr_ok)) if bad)
         if insert_plan_row(
                 cid, slug, nap_seed,
-                title="ASK CLIENT: business phone + address for your "
-                      "directory listings",
+                title="ASK CLIENT: what phone number and address should show "
+                      "publicly on their directory listings?",
                 rationale=(
                     f"Their Business Information card is missing their {miss} "
                     "and no system we can reach holds it (their GBP "
@@ -644,12 +847,14 @@ def _citations_readiness(cid: str, slug: str, co: dict, platform_status: dict,
         _retire(nap_seed)
 
     if blockers:
-        what = {"logo": "your logo", "nap": "your business phone + address"}
+        what = {"logo": "their logo file",
+                "nap": "their public phone number + address"}
         rows.append({
             "company_id": cid, "item_key": "citations-blocked",
             "kind": "client_owed", "status": "open",
-            "title": "Citations blocked: we need "
-                     + " and ".join(what[b] for b in blockers),
+            "title": f"{owner} needs to send "
+                     + " and ".join(what[b] for b in blockers)
+                     + " before we can build their listings",
             "detail": ("The nightly citation-creation queue is skipping this "
                        "client. "
                        + ("Logo: nothing usable in their brand uploads — "
@@ -664,7 +869,7 @@ def _citations_readiness(cid: str, slug: str, co: dict, platform_status: dict,
     else:
         rows.append({"company_id": cid, "item_key": "citations-blocked",
                      "kind": "client_owed", "status": "done",
-                     "title": "Citations inputs complete (logo + NAP)",
+                     "title": "Everything we need to build their listings is on file",
                      "detail": None,
                      "evidence": {"blockers": [], "platforms_waiting": todo}})
 
@@ -891,7 +1096,8 @@ def _gg_heal_config(slug: str) -> tuple[int, int]:
 
 
 def _map_and_video_rows(cid: str, slug: str, gi, rows: list[dict],
-                        attention: list[str], _HEALS: dict, dry_run: bool) -> None:
+                        attention: list[str], _HEALS: dict, dry_run: bool,
+                        owner: str = "The client") -> None:
     """map-rankings + video-channel cards for one client (appends to `rows`).
 
     Split out of ensure_ledger so the two newest checks can be evaluated on
@@ -940,17 +1146,17 @@ def _map_and_video_rows(cid: str, slug: str, gi, rows: list[dict],
         found_total = sum(s.get("found_points") or 0 for s in scans)
         pts_total = sum(s.get("total_points") or 0 for s in scans)
 
-        status, kind, title, detail = "done", "auto", "Map rankings tracked", None
+        status, kind, title, detail = "done", "auto", "Map ranks are being tracked", None
         if not (n_kw and n_ct):
             if has_ident and has_areas:
                 # heal budget spent this pass — next run picks it up
                 status, kind = "open", "auto"
-                title = "Map rankings: setting up"
+                title = "Map rank tracking is being set up"
                 detail = ("Their map-rank tracking has no city grid yet. It "
                           "generates automatically on the next overnight pass.")
             elif google_connected and not has_ident:
                 status, kind = "open", "us_owed"
-                title = "Map rankings blocked: no Business Profile selected"
+                title = "Map rank tracking is stuck: nobody picked which Google listing to track"
                 detail = ("Their Google account is connected, but no Business "
                           "Profile location is attached to it — so we have no "
                           "listing to look for in the map results and rankings "
@@ -960,7 +1166,7 @@ def _map_and_video_rows(cid: str, slug: str, gi, rows: list[dict],
                                  "but no place_id/location selected")
             elif not has_areas:
                 status, kind = "blocked", "us_owed"
-                title = "Map rankings blocked: no service areas planned"
+                title = "Map rank tracking is stuck: no cities have been planned for them"
                 detail = ("We track map rank per city, and this client has no "
                           "service-area list yet — run the site plan first.")
                 attention.append(f"{slug}: map rankings blocked — no service_areas in plan-input")
@@ -969,13 +1175,13 @@ def _map_and_video_rows(cid: str, slug: str, gi, rows: list[dict],
                 # ALREADY owns this ask; duplicating it would put the same
                 # nag in front of Santino twice.
                 status, kind = "blocked", "client_owed"
-                title = "Map rankings waiting on Google"
+                title = "Map rank tracking is waiting on their Google connection"
                 detail = ("We can't track their map rankings until their Google "
                           "account is connected — that's the 'Google NOT "
                           "connected' item above, no separate action needed.")
         elif not scans:
             status, kind = "open", "auto"
-            title = "Map rankings: first scan pending"
+            title = "Map rank tracking: first scan still running"
             detail = (f"Tracking is configured ({n_kw} keywords x {n_ct} cities) "
                       "but no scan has ever run. The baseline runs automatically.")
             if not healed_now:
@@ -986,7 +1192,7 @@ def _map_and_video_rows(cid: str, slug: str, gi, rows: list[dict],
             # billed — and the listing appeared at no point on the grid. That
             # is a genuine local-visibility problem, not a plumbing bug.
             status, kind = "open", "us_owed"
-            title = "Not showing up in Maps anywhere in their service area"
+            title = "They rank NOWHERE on Google Maps across their whole service area"
             detail = ("Their listing isn't surfacing in Google Maps at ANY point "
                       f"across the last {len(scans)} map scan(s) — 0 of {pts_total} "
                       "grid points. Worth checking their Business Profile is "
@@ -995,7 +1201,7 @@ def _map_and_video_rows(cid: str, slug: str, gi, rows: list[dict],
             attention.append(f"{slug}: 0/{pts_total} map points — listing not surfacing "
                              "in Maps at all (check GBP verification/categories)")
         else:
-            title = (f"Map rankings tracked: {n_kw} keywords x {n_ct} cities")
+            title = (f"Map ranks tracked across {n_ct} cities and {n_kw} keywords")
 
         rows.append({"company_id": cid, "item_key": "map-rankings", "kind": kind,
                      "status": status, "title": title, "detail": detail,
@@ -1019,7 +1225,7 @@ def _map_and_video_rows(cid: str, slug: str, gi, rows: list[dict],
         if yt["connected"] and yt["has_channel"] is False:
             rows.append({"company_id": cid, "item_key": "video-channel",
                          "kind": "client_owed", "status": "open",
-                         "title": "YouTube connected but there's no channel on it",
+                         "title": f"{owner} needs to create a YouTube channel — we cannot post videos without one",
                          "detail": ("Their Google account is linked for video, but "
                                     "it doesn't have a YouTube channel yet — so "
                                     "nothing we produce can be published. Monica is "
@@ -1033,7 +1239,7 @@ def _map_and_video_rows(cid: str, slug: str, gi, rows: list[dict],
         elif yt["connected"] and yt["has_channel"]:
             rows.append({"company_id": cid, "item_key": "video-channel",
                          "kind": "client_owed", "status": "done",
-                         "title": f"YouTube channel ready: {yt['channel_title'] or yt['channel_id']}",
+                         "title": f"YouTube channel ready to publish to: {yt['channel_title'] or yt['channel_id']}",
                          "detail": None,
                          "evidence": {"connected": True, "has_channel": True,
                                       "channel_id": yt["channel_id"],
@@ -1051,9 +1257,26 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
     zones = _our_zones()
     cos = _sb("GET", "/rest/v1/companies?status=ilike.active&plan=eq.Rank%20AI"
               "&select=id,name,phone,address,city,state,postal_code,website,"
-              "services,integration_settings",
+              "services,integration_settings,email,account_owner_name,"
+              "management_contacts,transfer_1_name",
               prefer="return=representation") or []
     attention: list[str] = []
+    # Registrar delegate invitations, read ONCE per run from the agency
+    # mailbox (2026-08-05). This is the evidence layer behind every
+    # "delegate access" claim — see _delegate_verification().
+    invite_map, invite_scan_ok, invite_err, invite_ambiguous = _scan_registrar_invites(
+        cos, cid_to_slug)
+    if not invite_scan_ok:
+        attention.append("domain-access: agency inbox NOT readable this run "
+                         f"({invite_err}) — delegate claims stay UNVERIFIED")
+    for amb in invite_ambiguous:
+        attention.append(
+            "domain-access: a "
+            f"{amb['invite']['registrar']} access invite from "
+            f"{amb['invite']['inviter']!r} ({amb['invite']['date'][:10]}) "
+            "matches more than one client — "
+            + ", ".join(c["name"] for c in amb["candidates"])
+            + " — nobody was auto-advanced")
     # per-run auto-heal budget: 2 geo-grid re-scans (DFS cost) + 3 media
     # imports + 3 tracking-number provisions + 3 GBP phone swaps + 2 geo-grid
     # config generations (free, but each geocodes a city ring at 1.1s/city)
@@ -1074,13 +1297,14 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
             except json.JSONDecodeError:
                 ints = {}
         rows: list[dict] = []
+        owner = _owner_first_name(co)
 
         # ---- site-built --------------------------------------------------
         built = (SITES_DIR / slug / "src").exists()
         kickoff = None if built else _upcoming_kickoff(ints)
         detail = None
         if not built:
-            detail = "No preview site exists."
+            detail = f"No website has been built for {owner} yet."
             if kickoff:
                 try:
                     days = (datetime.strptime(kickoff[:19], "%Y-%m-%d %H:%M:%S")
@@ -1092,44 +1316,40 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                     pass
         rows.append({"company_id": cid, "item_key": "site-built", "kind": "us_owed",
                      "status": "done" if built else "open",
-                     "title": "Preview site built",
+                     "title": "Website built and ready to preview",
                      "detail": detail,
                      "evidence": {"kickoff": kickoff, "site_dir": built}})
         if not built:
             attention.append(f"{slug}: SITE NOT BUILT" + (f" — {detail}" if detail and "CRITICAL" in detail else ""))
 
-        # ---- site-live / domain-access ------------------------------------
+        # ---- THE LAUNCH CARD: domain access + going live, ONE truth --------
+        # Santino 2026-08-05: Crew showed THREE items telling one story —
+        # "Registrar / domain access", "Live on real domain", and a duplicate
+        # domain ask inside "Waiting on N things". They are now a single
+        # card (item_key domain-access) whose text changes by state. The
+        # site-live row survives ONLY as the milestone work_report.py reads
+        # (status 'na' while it is not live, so it never renders a card).
         domain = _norm_domain(_client_record(slug).get("domain") or co.get("website"))
         live = False
         if domain and built:
             live = _site_serves_us(domain, co.get("name") or "")
         zstat = zones.get(domain, "") if domain else ""
         ours = zstat == "active"
+        rows.append({"company_id": cid, "item_key": "site-live", "kind": "auto",
+                     "status": "done" if live else "na",
+                     "title": (f"Website is live on {domain}" if live
+                               else "Website not live yet"),
+                     "detail": None,
+                     "evidence": {"domain": domain, "zone_status": zstat or "none"}})
         if not domain:
-            rows.append({"company_id": cid, "item_key": "site-live", "kind": "us_owed",
-                         "status": "blocked", "title": "Live on real domain",
-                         "detail": "This client has no domain yet. Decide: buy one for them "
-                         "(we launch the same day) or get access to one they already own.",
-                         "evidence": {}})
+            kind, status, title, detail = _launch_card(
+                owner, "", built, False, False, "", "none", {}, {})
+            rows.append({"company_id": cid, "item_key": "domain-access",
+                         "kind": kind, "status": status, "title": title,
+                         "detail": detail, "evidence": {"domain": None}})
             if built:
                 attention.append(f"{slug}: site built, NO DOMAIN on file — decide buy vs client's registrar")
         else:
-            d2 = None
-            if not live and built:
-                if ours:
-                    d2 = ("Their domain is fully under our control — nothing is blocking "
-                          "us from launching this site right now.")
-                elif zstat == "pending":
-                    d2 = ("Almost there: the domain is staged on our Cloudflare, but the "
-                          "final switch happens at their registrar (GoDaddy etc.) — we "
-                          "need their login or delegate access to flip it.")
-                else:
-                    d2 = ("Their domain lives in the client's own registrar account — we "
-                          "need access to point it at the new site.")
-            rows.append({"company_id": cid, "item_key": "site-live", "kind": "us_owed",
-                         "status": "done" if live else ("open" if built else "blocked"),
-                         "title": "Live on real domain", "detail": d2,
-                         "evidence": {"domain": domain, "zone_status": zstat or "none"}})
             if built and not live:
                 attention.append(f"{slug}: built but NOT LIVE on {domain} — "
                                  + ("LAUNCH NOW (zone active)" if ours else
@@ -1160,10 +1380,31 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                         guess = _registrar_guess(domain)
                         if guess:
                             patch["domain_registrar_guess"] = guess
-                    # Ops Attention "Delegate access confirmed" click executor
+                    # EVIDENCE FIRST (2026-08-05): a real registrar invitation
+                    # sitting in the agency mailbox advances the state on its
+                    # own — no click, no claim, an actual email we can point
+                    # at. This is the path that should carry every client.
+                    _invs = invite_map.get(cid) or []
+                    if _invs and da_status not in ("delegate_granted", "ns_live"):
+                        patch["domain_access_status"] = "delegate_granted"
+                        patch["domain_access_granted_at"] = (
+                            _invs[0].get("date")
+                            or datetime.now(timezone.utc).isoformat())
+                        if not da.get("domain_registrar"):
+                            patch["domain_registrar"] = _invs[0].get("registrar")
+                        da_status = "delegate_granted"
+                        attention.append(
+                            f"{slug}: delegate access VERIFIED from the inbox "
+                            f"({_invs[0].get('registrar')} invite from "
+                            f"{_invs[0].get('inviter')}, "
+                            f"{str(_invs[0].get('date'))[:10]}) — ready for the "
+                            "NS cutover")
+                    # Ops Attention "I confirmed access manually" click executor
                     # (marketing_ops_notes pattern, same as APPROVE-PHONE-SWAP:
-                    # no note -> nothing happens, ever).
-                    if da_status not in ("delegate_granted", "ns_live"):
+                    # no note -> nothing happens, ever). A human assertion is
+                    # recorded as exactly that and stays distinguishable from
+                    # the verified path forever — see _delegate_verification.
+                    elif da_status not in ("delegate_granted", "ns_live"):
                         confirms = _sb(
                             "GET", "/rest/v1/marketing_ops_notes"
                             f"?company_id=eq.{cid}&status=eq.open"
@@ -1180,55 +1421,101 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                                     {"status": "resolved",
                                      "resolved_at": datetime.now(
                                          timezone.utc).isoformat()})
-                            attention.append(f"{slug}: delegate access "
-                                             "CONFIRMED (Ops Attention click) "
-                                             "— ready for the NS cutover")
+                            attention.append(f"{slug}: delegate access asserted "
+                                             "BY HAND (no invite in the inbox "
+                                             "yet) — verifying")
                 if patch and da and not dry_run:
                     _sb("PATCH", f"/rest/v1/marketing_sites?id=eq.{da['id']}",
                         patch)
             except Exception as e:  # noqa: BLE001 — state upkeep must never kill the ledger
                 attention.append(f"{slug}: domain-access state update failed "
                                  f"({str(e)[:80]})")
-            # Ledger card renders FROM the state. none/promised = the client
-            # owes us; delegate_granted/creds_provided = access is in hand and
-            # the cutover is OUR move (us_owed, red).
+            # How do we KNOW? (registrar email / client creds / a human's word)
+            verify = _delegate_verification(cid, da_status,
+                                            invite_map.get(cid) or [],
+                                            invite_scan_ok)
+            # FALSE GREEN ROLLBACK (2026-08-05): a human assertion the mailbox
+            # cannot back up is not access. Put the state column back where it
+            # was before the click — otherwise the client's own "Provide
+            # Domain Access" card in the app keeps telling THEM we hold
+            # something we never received (Crew Restoration, 2026-08-04).
+            if verify.get("state") == "human_unverified" \
+                    and da_status == "delegate_granted":
+                pre = "promised" if da.get("domain_access_promised_at") else "none"
+                if not dry_run and da.get("id"):
+                    try:
+                        _sb("PATCH", f"/rest/v1/marketing_sites?id=eq.{da['id']}",
+                            {"domain_access_status": pre,
+                             "domain_access_granted_at": None})
+                        open_flags = _sb(
+                            "GET", "/rest/v1/marketing_ops_notes"
+                            f"?company_id=eq.{cid}&status=eq.open"
+                            "&body=like.*%5BDOMAIN-ACCESS-UNVERIFIED%5D*"
+                            "&select=id", prefer="return=representation") or []
+                        if not open_flags:
+                            _sb("POST", "/rest/v1/marketing_ops_notes", [{
+                                "company_id": cid, "author": "rank-ai ledger",
+                                "status": "open",
+                                "body": ("[DOMAIN-ACCESS-UNVERIFIED] "
+                                         f"{domain} was marked 'access confirmed' "
+                                         "by hand, but no registrar access invite "
+                                         "for this client has ever reached "
+                                         f"{DOMAIN_ACCESS_INVITE_EMAIL}. Rolled "
+                                         f"the state back to '{pre}' so nothing "
+                                         "claims we hold access. If the invite "
+                                         "went somewhere else, forward or accept "
+                                         "it from that inbox; otherwise the "
+                                         "client still has to send it.")}])
+                    except Exception as e:  # noqa: BLE001
+                        attention.append(f"{slug}: false-green rollback failed "
+                                         f"({str(e)[:80]})")
+                da_status = pre
+            access_in_hand = (da_status in ("delegate_granted", "creds_provided")
+                              and verify.get("state") != "human_unverified")
+            kind, status, title, detail = _launch_card(
+                owner, domain, built, live, ours, zstat, da_status, da, verify)
+            # The card owns its own status: done ONLY when the site is
+            # actually live. gap_open is the ACCESS gap (false once the zone
+            # is ours), and using it here used to make the whole launch card
+            # vanish the moment the nameservers landed — exactly when
+            # "flip it live, today" needs to be the loudest row on the board.
             rows.append({"company_id": cid, "item_key": "domain-access",
-                         "kind": ("us_owed" if da_status in
-                                  ("delegate_granted", "creds_provided")
-                                  else "client_owed"),
-                         "status": "open" if gap_open else "done",
-                         "title": {"none": "Registrar / domain access",
-                                   "promised": "Domain access: client says it's "
-                                               "provided — verify",
-                                   "delegate_granted": "Domain access in hand "
-                                                       "(delegate) — cut over NS",
-                                   "creds_provided": "Domain access in hand "
-                                                     "(credentials) — cut over NS",
-                                   "ns_live": "Registrar / domain access",
-                                   }.get(da_status, "Registrar / domain access"),
-                         "detail": None if not gap_open else
-                         _da_detail(da_status, domain, da),
+                         "kind": kind, "status": status,
+                         "title": title, "detail": detail,
                          "evidence": {"domain": domain,
                                       "zone_status": zstat or "none",
                                       "access_status": da_status,
+                                      "verified_by": verify.get("state"),
+                                      "invite": verify.get("invite"),
+                                      "assertion": verify.get("assertion"),
+                                      "access_in_hand": access_in_hand,
+                                      "mailbox_readable": invite_scan_ok,
                                       "registrar": da.get("domain_registrar"),
                                       "registrar_guess": da.get("domain_registrar_guess"),
                                       "account_email": da.get("domain_account_email")}})
-            if gap_open and da_status in ("delegate_granted", "creds_provided"):
+            if gap_open and access_in_hand:
                 attention.append(
-                    f"{slug}: domain access in hand ({da_status}) — run the "
-                    f"NS cutover for {domain}")
+                    f"{slug}: domain access in hand ({da_status}, "
+                    f"{verify.get('state')}) — run the NS cutover for {domain}")
+            if gap_open and verify.get("state") == "human_unverified":
+                attention.append(
+                    f"{slug}: FALSE GREEN — {domain} was marked 'access "
+                    f"confirmed' by hand {(verify.get('assertion') or {}).get('hours')}h "
+                    "ago but NO registrar invite has ever reached "
+                    f"{DOMAIN_ACCESS_INVITE_EMAIL}. Access is NOT in hand; the "
+                    "client ask is back on.")
             # Monica actually asks via marketing_action_plan (gather_items),
             # NOT this ledger table — before 2026-08-03 the domain-access
             # ledger card claimed "Monica is asking them" while no
             # client_input row existed, so the ask never ranked anywhere
             # (Mold Solutionz: site built, cutover pending, and Andrea's
             # next draft led with the customer list). Seeding is now STATE-
-            # GATED: none -> the rank-1 access ask; promised -> a verify
-            # nudge ("did the invite go to setup@?"); any access-in-hand or
-            # closed state -> both rows retired, Monica stops asking. Titles
-            # contain "domain" so the concierge's ask_rank keeps them at
-            # launch-blocker priority (1).
+            # GATED: none -> the rank-1 access ask; promised (or a human
+            # assertion the mailbox cannot back up) -> a verify nudge ("did
+            # the invite go to setup@?"); access genuinely in hand -> both
+            # rows retired, Monica stops asking. Titles contain "domain" so
+            # the concierge's ask_rank keeps them at launch-blocker
+            # priority (1).
             try:
                 from client_ops_sync import action_key, insert_plan_row
                 seed = f"domain-access-{slug}"
@@ -1268,7 +1555,48 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                                          "truth (we can never fetch access "
                                          "ourselves)")
 
-                if gap_open and da_status == "none":
+                def _reopen_ask(key_seed: str) -> None:
+                    """Bring a resolved row back to planned (insert_plan_row
+                    is find-or-create and never re-opens on its own)."""
+                    if dry_run:
+                        return
+                    _sb("PATCH", "/rest/v1/marketing_action_plan"
+                        f"?company_id=eq.{cid}"
+                        f"&action_key=eq.{action_key(cid, key_seed)}"
+                        "&status=eq.resolved", {"status": "planned"})
+
+                # Inside the grace window we touch nothing: the invite may
+                # still be landing. After a false-green rollback da_status is
+                # already back at the client's real position ('promised' when
+                # they claimed to have sent it -> gentle nudge; 'none' when
+                # nobody ever claimed anything -> the full ask returns).
+                _waiting = verify.get("state") in ("human_pending",
+                                                   "human_unchecked")
+                if gap_open and _waiting:
+                    pass  # verifying — leave every ask exactly as it is
+                elif gap_open and da_status == "promised":
+                    _retire_ask(seed)
+                    _reopen_ask(seed_verify)
+                    if insert_plan_row(
+                            cid, slug, seed_verify,
+                            title="ASK CLIENT: did the domain access invite "
+                                  f"reach {DOMAIN_ACCESS_INVITE_EMAIL}?",
+                            rationale=(
+                                "Someone on our side believes access to "
+                                f"{domain} was already provided, but nothing "
+                                "has landed in our inbox. MONICA: this is a "
+                                "gentle verification, not a re-ask — never "
+                                "re-explain the whole thing. ONE question on "
+                                "normal cooldown: did the access invite go to "
+                                f"{DOMAIN_ACCESS_INVITE_EMAIL}? If they used a "
+                                "different email or aren't sure, offer a quick "
+                                "15-minute call to do it together. Thank them "
+                                "for already acting on it."),
+                            action_type="client_input", target=domain,
+                            impact="high", effort="low", dry_run=dry_run):
+                        attention.append(f"{slug}: seeded Monica VERIFY nudge — "
+                                         f"domain access claimed for {domain}")
+                elif gap_open and da_status == "none":
                     _retire_ask(seed_verify)
                     # RE-OPEN (Santino 2026-08-04, Reign): Jerrott answered
                     # "yes it's with GoDaddy, I've got all the information",
@@ -1316,8 +1644,8 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                                 "nothing can launch without it.")
                     if insert_plan_row(
                             cid, slug, seed,
-                            title=f"ASK CLIENT: domain access — point {domain} "
-                                  "at the finished site",
+                            title="ASK CLIENT: send us access to their domain "
+                                  f"({domain}) so the new site can go live",
                             rationale=_rationale,
                             action_type="client_input", target=domain,
                             impact="high", effort="low", dry_run=dry_run):
@@ -1329,26 +1657,6 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                         # was seeded (2026-08-04).
                         _refresh_rationale(seed, _rationale,
                                            "WE CANNOT GET DOMAIN ACCESS")
-                elif gap_open and da_status == "promised":
-                    _retire_ask(seed)
-                    if insert_plan_row(
-                            cid, slug, seed_verify,
-                            title="ASK CLIENT: domain access follow-up — did "
-                                  f"the invite reach {DOMAIN_ACCESS_INVITE_EMAIL}?",
-                            rationale=(
-                                "The client SAYS they already provided access to "
-                                f"the place that manages {domain}, but nothing has "
-                                "landed on our side yet. MONICA: this is a gentle "
-                                "verification, not a re-ask — never re-explain the "
-                                "whole thing. ONE question on normal cooldown: did "
-                                f"the access invite go to {DOMAIN_ACCESS_INVITE_EMAIL}? "
-                                "If they used a different email or aren't sure, "
-                                "offer a quick 15-minute call to do it together. "
-                                "Thank them for already acting on it."),
-                            action_type="client_input", target=domain,
-                            impact="high", effort="low", dry_run=dry_run):
-                        attention.append(f"{slug}: seeded Monica VERIFY nudge — "
-                                         f"domain access claimed for {domain}")
                 else:
                     # gap closed, or access already in hand — stop asking
                     _retire_ask(seed)
@@ -1366,7 +1674,7 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                 note = "dry-run" if dry_run else _gsc_heal(domain, slug)
                 rows.append({"company_id": cid, "item_key": "gsc-indexnow", "kind": "auto",
                              "status": "done" if not dry_run else "open",
-                             "title": "Search Console + IndexNow",
+                             "title": "Registered the live site with Google Search Console",
                              "detail": note, "evidence": {"domain": domain}})
                 attention.append(f"{slug}: gsc/indexnow auto-heal -> {note}")
 
@@ -1375,11 +1683,12 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                  "&provider=eq.google&select=id", prefer="return=representation") or []
         rows.append({"company_id": cid, "item_key": "google-connected", "kind": "client_owed",
                      "status": "done" if gi else "open",
-                     "title": "Google connected" if gi else "Google NOT connected",
+                     "title": ("Google account connected" if gi else
+                               f"{owner} has not connected his Google account yet"),
                      "detail": None if gi else
-                     "The client hasn't connected their Google account yet, so we can't "
-                     "manage their Business Profile, reviews, or rankings. Monica is "
-                     "automatically texting them this link until it's done: "
+                     f"Until {owner} clicks one link, we cannot touch their Google "
+                     "Business Profile, reviews or rankings. Monica is texting "
+                     "him this link until it's done: "
                      f"https://restorationai.io/connect/{slug}",
                      "evidence": {}})
 
@@ -1410,7 +1719,7 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                             vom_state = "verified"
                             rows.append({"company_id": cid, "item_key": "gbp-verified",
                                          "kind": "auto", "status": "done",
-                                         "title": "Google Business Profile verified",
+                                         "title": "Google has verified their Business Profile",
                                          "detail": None, "evidence": {}})
                         elif "complyWithGuidelines" in vom:
                             _why = (vom["complyWithGuidelines"] or {}).get(
@@ -1418,8 +1727,8 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                             vom_state = "suspended"
                             rows.append({"company_id": cid, "item_key": "gbp-verified",
                                          "kind": "us_owed", "status": "open",
-                                         "title": "GBP SUSPENDED — reinstatement "
-                                                  "appeal needed",
+                                         "title": "Google SUSPENDED their Business "
+                                                  "Profile — file the appeal",
                                          "detail": "Google disabled the listing "
                                                    f"({_why}). It is NOT publicly "
                                                    "visible; posts/photos/reviews all "
@@ -1436,9 +1745,11 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                             vom_state = "pending" if _pend else "unverified"
                             rows.append({"company_id": cid, "item_key": "gbp-verified",
                                          "kind": "client_owed", "status": "open",
-                                         "title": "GBP NOT verified"
-                                                  + (" — verification pending review"
-                                                     if _pend else ""),
+                                         "title": ("Google has not verified their "
+                                                   "listing — it is invisible on Maps"
+                                                   + (" (a verification is with "
+                                                      "Google right now)"
+                                                      if _pend else "")),
                                          "detail": "Google hasn't verified the listing, "
                                                    "so it's invisible on Maps and to "
                                                    "Bing's import. The OWNER completes "
@@ -1464,8 +1775,9 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
             if vom_state == "unverified":
                 if insert_plan_row(
                         cid, slug, vseed,
-                        title="ASK CLIENT: verify your Google listing — "
-                              "it's invisible on Maps until then",
+                        title=f"ASK CLIENT: {owner} needs to verify their "
+                              "Google listing — it is invisible on Maps "
+                              "until he does",
                         rationale=(
                             "Google has NOT verified their Business Profile: "
                             "the listing is invisible on Maps and to Bing's "
@@ -1547,8 +1859,9 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                       for a in asks]
         rows.append({"company_id": cid, "item_key": "client-asks", "kind": "client_owed",
                      "status": "open" if asks else "done",
-                     "title": (f"Waiting on {len(asks)} thing(s) from the client"
-                               if asks else "Nothing outstanding from the client"),
+                     "title": (f"Waiting on {owner} for {len(asks)} thing"
+                               f"{'s' if len(asks) != 1 else ''}" if asks
+                               else f"Nothing outstanding from {owner}"),
                      "detail": ("They've stopped answering texts on this many items — "
                                 "Monica's next message proposes a 15-minute call to knock "
                                 "them all out at once, with a checklist picture attached."
@@ -1557,7 +1870,8 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
         if len(asks) >= 4:
             attention.append(f"{slug}: {len(asks)} open client asks — propose a setup call (ladder)")
 
-        _map_and_video_rows(cid, slug, gi, rows, attention, _HEALS, dry_run)
+        _map_and_video_rows(cid, slug, gi, rows, attention, _HEALS, dry_run,
+                            owner)
 
         # ---- DATA FRESHNESS (Santino 2026-07-28: "I don't want to have to
         # always check every day"). The tabs must stay alive on their own:
@@ -1600,7 +1914,7 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                                      + ("" if has_img else ", no image") + ") — re-scan started")
                 rows_fresh = {"company_id": cid, "item_key": "data-fresh", "kind": "auto",
                               "status": "open" if (stale or drift) else "done",
-                              "title": "Rankings data fresh",
+                              "title": "Map ranking data is up to date",
                               "detail": (f"Newest map scan is {age_days} day(s) old"
                                          + ("" if has_img else " and has no map image")
                                          + ("; city ring needs reseeding" if drift else "")
@@ -1801,14 +2115,38 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                 if dry_run:
                     print(f"  [citations-build] {slug}: " + ", ".join(
                         f"{k}={v['status']}" for k, v in platform_status.items()))
+                # Say WHAT'S NEEDED, not what a scan counted (Santino
+                # 2026-08-05: "Directory listings: 3 found, 0 wrong phone, 10
+                # missing" told him nothing — the headline names the person,
+                # the action and the listings; the counts move to the detail).
+                if client_create:
+                    _c_title = (f"{owner} needs to create {len(client_create)} "
+                                f"listing{'s' if len(client_create) != 1 else ''}: "
+                                + ", ".join(client_create))
+                elif n_disc:
+                    _c_title = (f"{n_disc} directory listing"
+                                f"{'s' if n_disc != 1 else ''} show the wrong "
+                                "phone number — fix them")
+                else:
+                    _c_title = "Directory listings: nothing needed from the client"
+                _c_detail = ""
+                if client_create:
+                    _c_detail = ("Each of these needs the owner's own identity to "
+                                 "sign up (phone or email verification), so we "
+                                 f"cannot do them for {owner} — Monica has the "
+                                 "ask. ")
+                if n_disc:
+                    _c_detail += (f"{n_disc} existing listing"
+                                  f"{'s' if n_disc != 1 else ''} show a phone "
+                                  "number that doesn't match the Business "
+                                  "Information card; we fix those ourselves. ")
+                _c_detail += (f"Directory check: {n_found} listing(s) found, "
+                              f"{n_missing} still missing across the "
+                              "directories we track.")
                 rows.append({"company_id": cid, "item_key": "citations", "kind": "client_owed",
                              "status": "open" if (n_disc or client_create) else "done",
-                             "title": f"Directory listings: {n_found} found, "
-                                      f"{n_disc} wrong phone, {n_missing} missing",
-                             "detail": ((f"Client-owed creates (owner identity required): "
-                                         f"{', '.join(client_create)}. " if client_create else "")
-                                        + ("Discrepancies get fixed against the Business "
-                                           "Information card. " if n_disc else "")) or None,
+                             "title": _c_title,
+                             "detail": _c_detail or None,
                              "evidence": {"found": n_found, "discrepancies": n_disc,
                                           "missing": n_missing,
                                           "client_creates": client_create}})
@@ -1819,7 +2157,9 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                     # always see what's outstanding and catch breakage.
                     rows.append({"company_id": cid, "item_key": "citations-build",
                                  "kind": "us_owed", "status": "open",
-                                 "title": f"Create listings we own: {', '.join(us_create)}",
+                                 "title": f"We create {len(us_create)} listing"
+                                          f"{'s' if len(us_create) != 1 else ''} "
+                                          f"for them: {', '.join(us_create)}",
                                  "detail": "Bing Places imports straight from their GBP "
                                            "(we hold access); Apple Maps via Business "
                                            "Connect agency claim; BBB via their request "
@@ -1832,7 +2172,7 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                 else:
                     rows.append({"company_id": cid, "item_key": "citations-build",
                                  "kind": "us_owed", "status": "done",
-                                 "title": "Listings we can create ourselves: all present",
+                                 "title": "Every listing we create ourselves is done",
                                  "detail": None,
                                  "evidence": {"platform_status": platform_status}})
                 if n_disc:
@@ -1849,7 +2189,7 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
         # skip reasons (no logo / empty NAP) become auto-heals or visible work.
         try:
             _citations_readiness(cid, slug, co, platform_status, dry_run,
-                                 rows, attention)
+                                 rows, attention, owner)
         except Exception as e:  # noqa: BLE001 — readiness must never kill the ledger
             attention.append(f"{slug}: citations-readiness pass failed "
                              f"({str(e)[:80]})")
@@ -1866,7 +2206,7 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
             if li.get("answer") == "yes" and not lsa_done:
                 rows.append({"company_id": cid, "item_key": "lsa-setup",
                              "kind": "us_owed", "status": "open",
-                             "title": "Wants Local Services Ads — setup not started",
+                             "title": "They said yes to Local Services Ads — nobody has started the setup",
                              "detail": "Santino runs this conversation personally "
                                        f"(marked YES {str(li.get('decided_at') or '')[:10]}). "
                                        "Mark integration_settings.lsa.setup_done when live.",
@@ -1874,7 +2214,7 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
             elif li.get("answer") == "yes" and lsa_done:
                 rows.append({"company_id": cid, "item_key": "lsa-setup",
                              "kind": "us_owed", "status": "done",
-                             "title": "Local Services Ads: set up",
+                             "title": "Local Services Ads are set up",
                              "detail": None, "evidence": {}})
         except Exception:
             pass
@@ -1899,8 +2239,9 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                 breakdown = ", ".join(f"{n} {t}" for t, n in sorted(by_type.items()))
                 rows.append({"company_id": cid, "item_key": "gbp-suggestions",
                              "kind": "us_owed", "status": "open",
-                             "title": f"{len(sugs)} AI optimization recommendation"
-                                      f"{'s' if len(sugs) != 1 else ''} awaiting your call",
+                             "title": f"{len(sugs)} suggested change"
+                                      f"{'s' if len(sugs) != 1 else ''} to their Google "
+                                      "listing need your yes or no",
                              "detail": f"Locations -> AI optimization ({breakdown}). "
                                        "Apply or dismiss each — open recommendations "
                                        "are our to-do, not background noise.",
@@ -1908,7 +2249,7 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
             else:
                 rows.append({"company_id": cid, "item_key": "gbp-suggestions",
                              "kind": "us_owed", "status": "done",
-                             "title": "AI optimization: no open recommendations",
+                             "title": "No Google listing changes waiting on a decision",
                              "detail": None, "evidence": {}})
         except Exception:
             pass
@@ -1935,9 +2276,8 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                 if s_missing:
                     rows.append({"company_id": cid, "item_key": "site-imagery",
                                  "kind": "us_owed", "status": "open",
-                                 "title": f"Service imagery incomplete: {len(s_missing)} "
-                                          f"of {len(stems)} service cards on the shared "
-                                          "fallback image",
+                                 "title": f"{len(s_missing)} of {len(stems)} service pages still show "
+                                          "the generic stock photo — generate the real ones",
                                  "detail": "Generate + register with: python3 scripts/"
                                            f"gen_site_images.py --slug {slug} --services "
                                            "(writes the base webp, the 480/768/1200w "
@@ -1951,8 +2291,7 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                 elif stems:
                     rows.append({"company_id": cid, "item_key": "site-imagery",
                                  "kind": "us_owed", "status": "done",
-                                 "title": f"Service imagery complete: "
-                                          f"{len(stems)} services",
+                                 "title": f"All {len(stems)} service pages have their own photo",
                                  "detail": None, "evidence": {"total": len(stems)}})
         except Exception:
             pass

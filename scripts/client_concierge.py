@@ -1306,11 +1306,31 @@ _DOMAIN_ASK_RE = re.compile(r"domain|registrar|godaddy|nameserver", re.I)
 
 
 def _domain_access_status(company_id: str) -> str:
-    """Current domain_access_status from marketing_sites ('' = no site row)."""
+    """Current domain_access_status from marketing_sites ('' = no site row).
+
+    A state of delegate_granted that the AGENCY MAILBOX cannot back up is
+    downgraded to 'promised' here (Santino 2026-08-05, Crew Restoration): the
+    Ops Attention button used to assert an invite nobody had received, the
+    state went green, and Monica stopped asking the one person who could
+    unblock the launch. setup_ledger writes the verdict onto the domain-access
+    ledger row (evidence.access_in_hand); a human's word alone never silences
+    the ask.
+    """
     try:
         rows = _sb("GET", f"/rest/v1/marketing_sites?company_id=eq.{company_id}"
                    "&select=domain_access_status&limit=1") or []
-        return str((rows[0] if rows else {}).get("domain_access_status") or "")
+        status = str((rows[0] if rows else {}).get("domain_access_status") or "")
+        if status in ("delegate_granted", "creds_provided"):
+            led = _sb("GET", "/rest/v1/marketing_setup_ledger"
+                      f"?company_id=eq.{company_id}&item_key=eq.domain-access"
+                      "&select=evidence&limit=1") or []
+            ev = (led[0] if led else {}).get("evidence") or {}
+            if ev.get("access_in_hand") is False:
+                print(f"  [domain-state] {company_id}: '{status}' is a human "
+                      "assertion with NO registrar invite in the inbox — "
+                      "treating as 'promised', the ask stays alive")
+                return "promised"
+        return status
     except Exception:
         return ""
 

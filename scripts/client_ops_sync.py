@@ -265,12 +265,31 @@ def insert_plan_row(company_id: str, slug: str | None, key_seed: str, *,
                     title: str, rationale: str, action_type: str,
                     target: str | None, impact: str, effort: str,
                     dry_run: bool) -> bool:
-    """Find-or-create by action_key; pinned so strategist's weekly wipe skips it."""
+    """Find-or-create by action_key; pinned so strategist's weekly wipe skips it.
+
+    Find-or-create used to mean a row seeded months ago kept its ORIGINAL
+    wording forever, so rewriting an ask here changed nothing for any client
+    that already had it (Santino 2026-08-05: "get the crew photo link in use"
+    survived every rewrite because Crew's row predated them). An OPEN row now
+    has its title refreshed in place whenever the seeder's wording changes —
+    the action_key, and therefore the row's identity and history, is
+    untouched.
+    """
     key = action_key(company_id, key_seed)
     existing = _sb("GET", "/rest/v1/marketing_action_plan"
-                   f"?company_id=eq.{company_id}&action_key=eq.{key}&select=id",
-                   prefer="return=representation") or []
+                   f"?company_id=eq.{company_id}&action_key=eq.{key}"
+                   "&select=id,title,status", prefer="return=representation") or []
     if existing:
+        stale = [r for r in existing if r.get("status") == "planned"
+                 and (r.get("title") or "") != title]
+        if stale and not dry_run:
+            for r in stale:
+                _sb("PATCH",
+                    f"/rest/v1/marketing_action_plan?id=eq.{r['id']}",
+                    {"title": title})
+        elif stale:
+            print(f"    [dry-run] would retitle plan row {stale[0]['id'][:8]}: "
+                  f"{stale[0].get('title')!r} -> {title!r}")
         return False
     row = {
         "company_id": company_id, "rank_ai_slug": slug, "priority": 1,
@@ -674,7 +693,8 @@ def ensure_setup_checklist(dry_run: bool, cid_to_slug: dict) -> list[str]:
         checks: list[tuple[str, bool, str, str]] = []  # (seed, gap_open, title, rationale)
         checks.append((
             f"checklist-lsa-docs-{slug}", bool(lsa),
-            "ASK CLIENT: documents needed to unblock Local Services Ads",
+            "ASK CLIENT: send the contractor license + insurance certificate "
+            "Google needs for Local Services Ads",
             ("Google rejected or is missing verification documents on this client's "
              "Local Services Ads, so their LSA cannot serve. Blocker: {}\n\n"
              "MONICA: ask the owner to send the required documents (state contractor "
@@ -692,7 +712,8 @@ def ensure_setup_checklist(dry_run: bool, cid_to_slug: dict) -> list[str]:
         top = ", ".join(svc_label(x["item"]) for x in nr[:3])
         checks.append((
             f"checklist-svc-confirm-{slug}", bool(nr),
-            f"ASK CLIENT: confirm {len(nr)} service(s) on their Google listing",
+            (f"ASK CLIENT: confirm they actually offer {len(nr)} service"
+             f"{'s' if len(nr) != 1 else ''} listed on their Google profile"),
             ("Our Google Business Profile audit flagged {} item(s) it cannot confirm "
              "the client actually offers (top: {}). MONICA: ask conversationally, max "
              "3 per message, e.g. 'quick sanity check, do you folks handle {}? Want to "
@@ -703,7 +724,7 @@ def ensure_setup_checklist(dry_run: bool, cid_to_slug: dict) -> list[str]:
         checks.append((
             f"checklist-hours-{slug}",
             bool(prof) and prof.get("claimed") is True and prof.get("has_hours") is False,
-            "ASK CLIENT: business hours for the Google listing",
+            "ASK CLIENT: what hours should show on their Google listing?",
             "Their Google Business Profile has no hours set, which suppresses the "
             "listing for 'open now' searches. MONICA: ask what hours they want shown "
             "(24/7 emergency companies usually want Open 24 hours). We set it on "
@@ -732,7 +753,7 @@ def ensure_setup_checklist(dry_run: bool, cid_to_slug: dict) -> list[str]:
             crew = 1  # storage hiccup: assume fine, never nag on bad data
         checks.append((
             f"checklist-crew-photos-{slug}", crew == 0,
-            "ASK CLIENT: get the crew photo link in use",
+            "ASK CLIENT: send job photos from the crew — not one has ever come in",
             ("No job photos have ever come in from the field crew — fresh photos feed "
              "both the Google profile and the website. MONICA: re-share their CLIENT "
              "HUB link ({}) — photos upload right there, no login — and suggest texting "
@@ -776,7 +797,7 @@ def ensure_setup_checklist(dry_run: bool, cid_to_slug: dict) -> list[str]:
             photo_stale = not fresh
         checks.append((
             f"checklist-photo-fresh-{slug}", photo_stale,
-            "ASK CLIENT: fresh job photos (none in 30+ days)",
+            "ASK CLIENT: send a few new job photos — nothing new in 30+ days",
             ("It's been over a month since any new photo landed on their Google "
              "profile or came in from the crew — fresh photos are a real local-ranking "
              "signal and keep the listing alive. MONICA: friendly nudge, re-share the "
@@ -834,7 +855,8 @@ def ensure_setup_checklist(dry_run: bool, cid_to_slug: dict) -> list[str]:
             lsa_gap = False
         checks.append((
             f"checklist-lsa-intent-{slug}", lsa_gap,
-            "ASK CLIENT: do they want Local Services Ads (Google Guaranteed)?",
+            "ASK CLIENT: do they want Local Services Ads, the Google Guaranteed "
+            "listings at the top of search?",
             "No Local Services Ads account exists for this client and we've never "
             "asked if they want one. MONICA: ask conversationally, e.g. 'quick "
             "question - Local Services Ads (the Google Guaranteed listings with the "
@@ -844,7 +866,8 @@ def ensure_setup_checklist(dry_run: bool, cid_to_slug: dict) -> list[str]:
 
         checks.append((
             f"checklist-youtube-channel-{slug}", yt_gap,
-            "ASK CLIENT: create their YouTube channel (account connected, no channel)",
+            "ASK CLIENT: create a YouTube channel on their Google account — we "
+            "cannot publish their videos without one",
             "Their YouTube is connected but the Google account has no YouTube channel "
             "yet, so nothing we produce can be published — video production is paused "
             "for them until it exists. MONICA: keep it light and make it feel like "
@@ -860,7 +883,12 @@ def ensure_setup_checklist(dry_run: bool, cid_to_slug: dict) -> list[str]:
             existing = _sb("GET", "/rest/v1/marketing_action_plan"
                            f"?company_id=eq.{cid}&action_key=eq.{key}"
                            "&select=id,status", prefer="return=representation") or []
-            if gap_open and not existing:
+            # Always go through insert_plan_row while the gap is open: it
+            # creates the row when absent AND refreshes the wording of one
+            # that already exists (2026-08-05 — the old `not existing`
+            # short-circuit is why every rewrite of these asks was invisible
+            # to the clients who already had them).
+            if gap_open:
                 if insert_plan_row(cid, slug, seed, title=title, rationale=rationale,
                                    action_type="client_input", target=None,
                                    impact="high", effort="low", dry_run=dry_run):
@@ -957,10 +985,21 @@ def ensure_google_connect_asks(dry_run: bool, cid_to_slug: dict) -> list[str]:
                         "&action_key=eq.google-connect-{}&status=eq.planned".format(cid, slug),
                         {"status": "resolved"})
                 continue
+            CONNECT_TITLE = ("ASK CLIENT: connect their Google account so we "
+                             "can manage the Business Profile, reviews and "
+                             "rankings")
             existing = _sb("GET",
                 "/rest/v1/marketing_action_plan?company_id=eq.{}"
-                "&action_key=eq.google-connect-{}&select=id".format(cid, slug))
+                "&action_key=eq.google-connect-{}&select=id,title,status"
+                .format(cid, slug))
             if existing:
+                # keep the wording current on rows seeded before a rewrite
+                for r_ in existing:
+                    if r_.get("status") == "planned" \
+                            and (r_.get("title") or "") != CONNECT_TITLE \
+                            and not dry_run:
+                        _sb("PATCH", "/rest/v1/marketing_action_plan"
+                            f"?id=eq.{r_['id']}", {"title": CONNECT_TITLE})
                 continue
             co = _sb("GET", "/rest/v1/companies?id=eq.{}"
                      "&select=name,city,state,plan,integration_settings".format(cid))
@@ -1010,7 +1049,7 @@ def ensure_google_connect_asks(dry_run: bool, cid_to_slug: dict) -> list[str]:
                    "action_type": "client_input", "status": "planned",
                    "priority": 1, "pinned": True, "impact": "high",
                    "effort": "low",
-                   "title": "Connect your Google Business Profile",
+                   "title": CONNECT_TITLE,
                    "target": link,
                    # GBP-connect link rule (Santino 2026-08-03): the ask's
                    # instruction text ALWAYS carries the link — the concierge
