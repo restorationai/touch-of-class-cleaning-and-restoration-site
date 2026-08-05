@@ -583,7 +583,7 @@ Return ONLY a JSON array, one object per image, in the order shown:
  "subject":"<max 12 words, literal description>",
  "quality":<0-100 sharpness/exposure/composition/professionalism>,
  "slots":{"hero":<0-100>,"team":<0-100>,"services":<0-100>},
- "service_slugs":["<kebab-case service this illustrates>", ...],
+ "service_slugs":[<0-3 slugs, VERBATIM from the client's service list below>],
  "flags":["text_overlay","watermark","phone_number","logo_card","screenshot",
           "stock_photo","low_res","blurry","people_faces","competitor_brand",
           "graphic_content","indoor_clutter"],
@@ -626,9 +626,38 @@ Slot scoring:
   technician mid-task scores 55-70. No people scores 0.
 - services: a technician or equipment mid-task that reads as "this is the work".
 
+service_slugs is a CLOSED vocabulary: copy strings verbatim from the client's
+service list in the user message and return [] when none of them fit. Invented
+slugs are silently discarded — an unconstrained first pass produced
+"structural-drying", "flood-cleanup" and "water-extraction" for a client whose
+site has five service pages, none of them named that, so not one real photo
+reached a service card.
+
 Be strict. A marketing collage is never a hero. Score honestly; a site with
 three good real photos and everything else generated beats a site of mediocre
 real photos."""
+
+
+def client_service_slugs(slug: str) -> list[str]:
+    """The service pages this client actually has — the closed vocabulary the
+    triage is allowed to tag against. Prefers the built site (authoritative) and
+    falls back to plan-input for clients whose site is not scaffolded yet."""
+    out: list[str] = []
+    svc_dir = ROOT / "sites" / slug / "src" / "content" / "services"
+    if svc_dir.is_dir():
+        for md in sorted(svc_dir.glob("*.md")):
+            m = re.search(r"""^service_slug:\s*['"]?([^'"\n]+?)['"]?\s*$""",
+                          md.read_text(encoding="utf-8"), re.M)
+            out.append((m.group(1) if m else md.stem).strip())
+    if not out:
+        pi = ROOT / "clients" / slug / "plan-input.json"
+        if pi.exists():
+            try:
+                for s in json.loads(pi.read_text()).get("services") or []:
+                    out.append(s if isinstance(s, str) else str(s.get("slug", "")))
+            except Exception:
+                pass
+    return [s for s in dict.fromkeys(out) if s]
 
 
 def _vision_call(items: list[tuple[int, bytes]], context: str) -> list[dict]:
@@ -688,8 +717,11 @@ def triage(slug: str, *, batch: int = 6, limit: int = 0,
     pi = ROOT / "clients" / slug / "plan-input.json"
     if pi.exists():
         brand = json.loads(pi.read_text()).get("brand", {})
+    svc_vocab = client_service_slugs(slug)
     ctx = (f"Company: {brand.get('display_name', slug)}. "
-           f"Trade: property damage restoration / remediation. "
+           f"Trade: property damage restoration / remediation.\n"
+           f"The client's service list (the ONLY values service_slugs may "
+           f"contain): {', '.join(svc_vocab) if svc_vocab else '(none — return [])'}\n"
            f"Classify each image below.")
     done = 0
     for i in range(0, len(todo), batch):
@@ -723,14 +755,18 @@ def triage(slug: str, *, batch: int = 6, limit: int = 0,
             a["quality"] = int(row.get("quality") or 0)
             slots = row.get("slots") or {}
             a["slots"] = {s: int(slots.get(s) or 0) for s in ("hero", "team", "services")}
-            a["service_slugs"] = [str(s) for s in (row.get("service_slugs") or [])][:6]
+            # closed vocabulary enforced HERE too — the prompt asks, this makes
+            # sure, so an off-list slug can never sit in the manifest looking
+            # like a match that will never fire
+            a["service_slugs"] = [str(s) for s in (row.get("service_slugs") or [])
+                                  if str(s) in svc_vocab][:6]
             a["flags"] = [str(f) for f in (row.get("flags") or [])][:10]
             a["reason"] = str(row.get("reason", ""))[:160]
             a["triaged_at"] = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
             a["triage_model"] = VISION_MODEL
             done += 1
         save_manifest(slug, m)
-        print(f"    triaged {min(i+batch, len(todo))}/{len(todo)}")
+        print(f"    triaged {min(i+batch, len(todo))}/{len(todo)}", flush=True)
     m["triaged_at"] = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
     save_manifest(slug, m)
     return f"{slug}: {done} asset(s) classified ({len(assets)} total)"
@@ -870,8 +906,14 @@ def rewrite_alt(slug: str, image_path: str, subject: str) -> list[str]:
     pages = ROOT / "sites" / slug / "src" / "pages"
     if not pages.is_dir() or not subject:
         return changed
+    # The subject is model output going into an Astro template literal, so strip
+    # anything that could close the literal or open an interpolation. Without
+    # this a description containing a backtick silently breaks the build.
+    safe = re.sub(r"[`${}\\<>\"]", "", subject).strip().rstrip(". ")
+    if not safe:
+        return changed
     # keep the house convention (brand name in the alt) without an em dash
-    txt_alt = subject.rstrip(". ") + ", ${brand.displayName}"
+    txt_alt = safe + ", ${brand.displayName}"
     for f in sorted(pages.rglob("*.astro")):
         src = f.read_text(encoding="utf-8")
         out_lines, hit = [], False
@@ -1139,31 +1181,42 @@ def cmd_audit(args) -> int:
 
 def cmd_run(args) -> int:
     """Standing pass: harvest anything new, triage anything unclassified. Safe to
-    run nightly — both halves are incremental and no-op when nothing changed."""
+    run nightly — both halves are incremental and no-op when nothing changed.
+
+    Every step is caught per client: on a scheduled --all run one client's
+    expired token or unreachable old website must never take the other 21 down
+    with it. Output is flushed per line so a run that dies mid-fleet still says
+    where it got to — the first fleet pass buffered ~20 minutes of progress into
+    a pipe and lost all of it."""
     for slug in slugs_from_args(args):
-        cid = gbp.company_id_for(slug)
+        try:
+            cid = gbp.company_id_for(slug)
+        except Exception as e:
+            print(f"\n=== {slug} === company_id lookup failed: {str(e)[:120]}",
+                  flush=True)
+            continue
         if not cid:
             continue
-        print(f"\n=== {slug} ===")
+        print(f"\n=== {slug} ===", flush=True)
         try:
-            print("  GBP: " + gbp.import_gbp_media(slug, cap=args.cap))
+            print("  GBP: " + gbp.import_gbp_media(slug, cap=args.cap), flush=True)
         except Exception as e:
-            print(f"  GBP: ERROR {str(e)[:120]}")
+            print(f"  GBP: ERROR {str(e)[:120]}", flush=True)
         try:
             n = register_gbp_assets(slug, cid)
-            print(f"  manifest: +{n} new")
+            print(f"  manifest: +{n} new", flush=True)
         except Exception as e:
-            print(f"  manifest: ERROR {str(e)[:120]}")
+            print(f"  manifest: ERROR {str(e)[:120]}", flush=True)
         if not args.gbp_only:
             try:
                 got, note = harvest_website(slug, cid, cap=args.cap)
-                print(f"  web: {got} from {note}")
+                print(f"  web: {got} from {note}", flush=True)
             except Exception as e:
-                print(f"  web: ERROR {str(e)[:120]}")
+                print(f"  web: ERROR {str(e)[:120]}", flush=True)
         try:
-            print("  " + triage(slug, batch=args.batch, limit=args.limit))
+            print("  " + triage(slug, batch=args.batch, limit=args.limit), flush=True)
         except Exception as e:
-            print(f"  triage: ERROR {str(e)[:120]}")
+            print(f"  triage: ERROR {str(e)[:120]}", flush=True)
     return 0
 
 
