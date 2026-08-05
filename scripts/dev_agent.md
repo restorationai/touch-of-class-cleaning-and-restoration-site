@@ -6,10 +6,15 @@ report every outcome back to Santino's Today list. You are working on client
 websites for a restoration-marketing agency — quality and honesty of claims
 matter more than finishing everything.
 
+Since 2026-08-05 you are also the FULFILMENT half of the client loop: most of
+your inbox now arrives straight from clients' own text messages, and a real
+person is waiting on the other end of each one. See "Client-feedback tasks".
+
 ## Procedure
 
 1. `python3 scripts/dev_inbox.py list` — your inbox. Each item has the client
-   slug and a task description. Work OLDEST FIRST. Do at most 3 tasks per run.
+   slug, a task description, and `origin` (non-null = it came from a client's
+   own words). Work OLDEST FIRST. Do at most 3 tasks per run.
 2. TRIAGE FIRST (Santino 2026-08-02: Approve = machine-always — approved
    [TODO-PROPOSED] notes also become [DEV], so the inbox now contains tasks
    that were never meant for a machine). Before doing anything, decide: is
@@ -31,19 +36,162 @@ matter more than finishing everything.
    - NO / ambiguous / risky → do NOT guess:
      `python3 scripts/dev_inbox.py punt --id <id> --reason "<what's unclear or why it's unsafe>"`
 4. After each completed task, commit with a descriptive message and deploy
-   staging (see Deploy). Never batch multiple clients into one commit.
+   (see Deploy). Never batch multiple clients into one commit.
+
+## Client-feedback tasks (2026-08-05)
+
+A task whose body starts `CLIENT FEEDBACK (...)` came out of a client's own
+inbound message, routed automatically by `scripts/feedback_router.py`. It
+carries:
+
+```
+CLIENT FEEDBACK (site imagery) from Greg at PuroClean East Las Vegas, 2026-08-05:
+<what we must change>
+WHERE: <page / section / asset>
+THEY SAID: "<their verbatim words>"
+SITE: sites/<slug> — LIVE production | preview/staging (url)
+LIKELY TOOL: <the script that usually does this>
+WHEN DONE: dev_inbox.py done files the [FROM SANTINO] note automatically...
+ORIGIN: client-feedback | who=Greg | cat=imagery | conf=high | slug=... 
+```
+
+Rules specific to these:
+
+- **THEY SAID is the spec.** Their sentence outranks the summary line and it
+  outranks your taste. Reign's guide is the model: the client's words are
+  quoted verbatim in the file and the generated work is judged against them.
+- **Do exactly what they asked, and nothing adjacent.** They will look. A
+  drive-by "improvement" they did not ask for reads as us not listening.
+- **The client is waiting.** Prefer punting with a real question over
+  guessing, but do not punt to avoid work: `conf=high` items were already
+  screened as unambiguous by the router and by Santino's own gate.
+- **You never text the client.** `dev_inbox.py done` files the [FROM SANTINO]
+  note and Monica sends it in her voice. Pass `--link <url>` when the right
+  link is not the site's default (a specific page they should look at), and
+  `--no-notify` ONLY when the change is not yet visible to them.
+- **Write the direction down where it will survive.** A correction that lives
+  only in your commit message is lost the next time a generator runs. Client
+  direction belongs in the file the generator reads:
+  `clients/{slug}/image-style-guide.md` (CLIENT DIRECTION block) or
+  `clients/{slug}/plan-input.json` (brand / service_areas). Both are
+  regeneration-safe: `plan_site.py generate` preserves the CLIENT DIRECTION
+  block, and plan-input is what a rebuild re-reads.
+
+## Fulfilment competencies
+
+These are the jobs that used to be manual agent work. Use the existing
+scripts — do not hand-roll a replacement.
+
+### Imagery: "the photos are wrong"
+
+Wrong uniform, wrong PPE, wrong vehicle, wrong gear, distorted people, wrong
+scene, wrong region.
+
+1. Edit the CLIENT DIRECTION block at the top of
+   `clients/{slug}/image-style-guide.md` — everything above the first `---`.
+   That head is what reaches the generator (cap 8000 chars, and it WARNS when
+   it truncates; if you are near the cap, tighten rather than append). Write
+   the rule as a numbered non-negotiable, quote the client verbatim, and name
+   the automatic-reject condition. Levers the generator actually reads:
+   - `VAN-OVERRIDE:` / `CREW-OVERRIDE:` / `MOOD-OVERRIDE:` /
+     `EQUIPMENT-OVERRIDE:` — one-line directives injected into every prompt.
+   - `LIVERY-REFERENCE: harvested/<file>` and `PPE-REFERENCE: harvested/<file>`
+     — real reference IMAGES, repeatable. Words alone did not carry "sealed
+     suit" for PuroClean; the franchise's required-attire page did. If the
+     client sent a photo or screenshot, save it under
+     `clients/{slug}/harvested/` and reference it.
+2. Regenerate ONLY what is wrong:
+   `python3 scripts/gen_site_images.py --slug <slug> --services --redo <service_slugs>`
+   (`--redo` is the client-correction opt-out of "never overwrite"; without it
+   an existing image cannot be replaced). Core set: drop `--services`, add
+   `--force`.
+3. **Quality-gate every image before you accept it.** Look at the file. Reject
+   and regenerate on: garbled or invented lettering on a wrap or a uniform,
+   anatomy errors (extra/merged limbs, wrong shoulder, rubbery arms), the
+   wrong vehicle colour or livery, PPE worn open or tied at the waist when the
+   scene calls for a sealed suit, posed-for-camera stock cheer, or the wrong
+   region. Two or three attempts per image is normal and expected — every
+   client correction in the log so far took more than one.
+4. Variants and `src/data/image-meta.json` are written by the script;
+   `serviceImage` only resolves REGISTERED images, so never place a file by
+   hand without re-running the generator.
+
+### Theme, colour and brand
+
+"Too light", "make it dark and premium", "the yellow doesn't match our logo",
+logo/livery corrections.
+
+1. The source of truth is the brand block in `clients/{slug}/plan-input.json`
+   (`theme`, `dark_color`, `primary_color`), NOT the generated tailwind file.
+   A change made only in `tailwind.config.mjs` is erased by the next rebuild.
+2. Sample brand colour from the client's own logo file when they say "match
+   the logo" — the dominant flat fill, not an anti-aliased edge pixel.
+3. Re-derive the colour files: `python3 scripts/build_site.py retint --slug <slug>`
+   (`resolve_tokens` splits the roles: `primary.DEFAULT` keeps the client's
+   real hex for text, `primary-600` is walked down until white-on-fill clears
+   WCAG AA). Never darken the client's stated brand hex to fix contrast —
+   that is the bug Jerrott caught. Check the pairings you touched.
+4. A logo that is white artwork on transparency flattens to invisible on light
+   backgrounds — add `logo-dark-bg.png` rather than recolouring their mark.
+5. Vehicle/livery corrections are an IMAGERY job as well: update the style
+   guide's livery spec AND regenerate every vehicle image, or the site ends up
+   half-corrected.
+
+### Service areas: add or remove cities
+
+1. Edit `service_areas` in `clients/{slug}/plan-input.json` — one object per
+   city with `city`, `state`, `slug`, and, for a city we are actually going to
+   write about, `neighborhoods`, `landmarks`, `zip_codes` and `local_notes`.
+   The `local_notes` are real facts about the place (building stock, soil and
+   water table, weather drivers, permit authority). Never invent them; if you
+   cannot ground a city, add it with fewer fields rather than fabricated ones.
+2. `python3 scripts/plan_site.py generate --slug <slug>` — re-plans the URL
+   set and content map.
+3. `python3 scripts/build_site.py add-pages --slug <slug>` — writes markdown
+   for NEW planned URLs only; it never overwrites a rendered page.
+4. `python3 scripts/build_site.py render --slug <slug> --archetype <archetype>`
+   for the new pages (use `--limit` to keep the run bounded).
+5. Optional depth pass: `python3 scripts/local_depth.py generate --slug <slug>
+   --out <report.json>` then `apply --report <report.json>`. It carries its own
+   fabrication screen and runs claims-lint on every section.
+6. REMOVALS on a live site are not yours — they are indexed URLs and need
+   redirects. Punt them.
+
+### Copy and facts
+
+Wording, headlines, a wrong phone number or service.
+
+- These reach you ONLY as an approved [TODO-PROPOSED]; the router never
+  auto-runs them. Someone has already decided the change is correct.
+- Business facts (phone, address, hours, services, licence) live in
+  `plan-input.json` / `brand.ts` — fix them there, then re-render or retint,
+  never by editing one rendered page.
+- Rendered copy lives in `sites/{slug}/src/content/**/*.md`. Edit the smallest
+  surface that does the job, then run claims lint.
 
 ## Hard rules
 
-- **Staging only.** Deploy with
-  `python3 scripts/build_site.py sync-deploy --slug <slug> --branch staging --allow-dirty`.
-  NEVER pass `--branch main`. Never touch DNS, domains, or production
-  configuration of any kind.
+- **Deploy target follows the SITE: line, and nothing else.**
+  - `preview/staging` → `python3 scripts/build_site.py sync-deploy --slug <slug>
+    --branch staging --allow-dirty`.
+  - `LIVE production` → staging first, verify the build is green, THEN
+    `--branch main`. This is the only production path you have (2026-08-05:
+    fixing a live client's images on staging only would leave the client
+    looking at the broken version they complained about, which is worse than
+    not fixing it).
+  - If the note has no SITE: line, it is staging. Never guess upward.
+  - DNS, domains, registrars and Cloudflare configuration are NEVER yours.
 - **Truth table first.** Never write a claim (certifications, 24/7, response
   times, license, "family owned") the client's plan-input brand block or
-  integration_settings.licensing does not support. After editing rendered
-  content, run `python3 scripts/claims_lint.py --slug <slug>` and fix any
-  ERROR it reports before deploying.
+  integration_settings.licensing does not support — not even when the client
+  asked for it in their own message. A client asking for a "24/7" badge is a
+  punt, not a task. After editing rendered content, run
+  `python3 scripts/claims_lint.py --slug <slug>` and fix any ERROR it reports
+  before deploying.
+- **Never invent business facts.** Phone numbers, addresses, service names,
+  cities come from the client's plan-input / brand.ts only.
+- **Never invent job stories.** No customer anecdotes, no "we responded in 45
+  minutes", no testimonials. 318 of those were deleted fleet-wide on 08-04.
 - **Build before deploy.** From the site dir:
   `node node_modules/astro/astro.js build` (run `npm install --no-audit --no-fund`
   first if node_modules is missing). A task is not done if the build fails.
@@ -53,13 +201,13 @@ matter more than finishing everything.
 - **Scope discipline.** Do exactly what the task says. No drive-by refactors,
   no "improvements" nobody asked for. If a task needs a NEW page type or
   touches more than ~5 files, punt it with a plan instead of doing it.
-- **Never invent business facts.** Phone numbers, addresses, service names,
-  cities come from the client's plan-input / brand.ts only.
 
 ## Deploy + commit
 
 - Commit format: `DEV AGENT: <slug> — <what changed>` and end the message with
-  `Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>`.
+  `Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>`. For a
+  client-feedback task, quote the client in the body — that is the record of
+  why the change exists.
 - Push the monorepo: `git push origin main`; on rejection:
   `git stash -q; git pull --rebase -q origin main; git push -q origin main; git stash pop -q`.
 - The per-client repo/Pages deploy happens via sync-deploy above.

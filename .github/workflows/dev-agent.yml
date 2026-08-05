@@ -3,9 +3,13 @@ name: Rank AI Dev Agent
 # Nightly headless Claude Code run that executes approved [DEV] website tasks
 # (Santino 2026-07-30, build #2 of the priority queue). Inbox = open
 # marketing_ops_notes starting with [DEV] (Santino's "Site build" note tag,
-# approved call proposals). Guardrails live in scripts/dev_agent.md:
-# staging-only deploys, claims lint, max 3 tasks/run, punt-when-unsure.
-# Every outcome files a [TODO-SANTINO] review row into the Today tab.
+# approved call proposals, and — since 2026-08-05 — client feedback routed
+# straight off their own text messages by scripts/feedback_router.py).
+# Guardrails live in scripts/dev_agent.md: deploy target follows the task's
+# SITE: line, claims lint, max 3 tasks/run, punt-when-unsure.
+# Every outcome files a [TODO-SANTINO] review row into the Today tab, and a
+# client-originated task also files the [FROM SANTINO] note that has Monica
+# tell the client it is done (scripts/dev_inbox.py close_the_loop).
 on:
   schedule:
     - cron: '7 9 * * *'   # 2:07 AM PT nightly
@@ -14,7 +18,9 @@ on:
 jobs:
   dev-agent:
     runs-on: ubuntu-latest
-    timeout-minutes: 55
+    # 80, not 55 (2026-08-05): an imagery correction is 3-4 generate+inspect
+    # rounds per image, and a half-finished image task is worse than a punt.
+    timeout-minutes: 80
 
     steps:
       - name: Checkout repo
@@ -63,11 +69,20 @@ jobs:
           SUPABASE_URL:                 ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY:    ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           GITHUB_PERSONAL_ACCESS_TOKEN: ${{ secrets.GH_PAT }}
+          GH_PAT:                       ${{ secrets.GH_PAT }}
+          # FULFILMENT KEYS (2026-08-05): the inbox now carries client
+          # feedback, so the agent regenerates imagery and re-renders pages,
+          # not just edits code. Without GOOGLE_AI_API_KEY every imagery task
+          # punts; without the Cloudflare pair sync-deploy cannot ship.
+          GOOGLE_AI_API_KEY:            ${{ secrets.GOOGLE_AI_API_KEY }}
+          CLOUDFLARE_ACCOUNT_ID:        ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN:         ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_PAGES_API_TOKEN:   ${{ secrets.CLOUDFLARE_PAGES_API_TOKEN }}
         run: |
           claude -p "$(cat scripts/dev_agent.md)" \
             --dangerously-skip-permissions \
             --output-format text \
-            --max-turns 120
+            --max-turns 180
 
       - name: Alert on failure
         if: failure()

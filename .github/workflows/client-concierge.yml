@@ -53,6 +53,15 @@ jobs:
           git config user.email "ops@restorationai.io"
           git config user.name "Rank AI Bot"
 
+      # Offline gates, ~2 seconds, no keys. The feedback router decides what
+      # a client's own words are allowed to trigger unsupervised, so a
+      # regression there is a regression in what ships to a live site
+      # without a human. Fail the run before anything sends.
+      - name: Offline regression gates
+        run: |
+          python3 scripts/client_concierge.py selfcheck
+          python3 scripts/feedback_router.py selftest
+
       - name: Run concierge
         env:
           SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}

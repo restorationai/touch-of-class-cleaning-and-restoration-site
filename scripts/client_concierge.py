@@ -4412,6 +4412,71 @@ an emailed export) belongs in "matches", not here. Use
 for us to collect. When unsure, leave it out — a wrongly closed item is
 invisible, a re-ask is merely annoying.
 
+CLIENT FEEDBACK THAT IMPLIES WORK ON OUR SIDE (Santino 2026-08-05, the
+structural gap). On 08-04 Greg Arianoff sent four screenshots of our own
+service images back with PPE corrections, and Jerrott Gray said the Reign
+preview was "not ready to go live", wanted it "dark moody and expensive
+looking", and asked why the service area left out Dallas. Every one of those
+was received, classified and answered — and then went nowhere, because
+nothing in the system turns "the client said something actionable" into
+queued work. Report every such statement in "client_feedback", one entry per
+distinct change. This is a THIRD kind of thing:
+  - a QUESTION is answered with words                    -> needs_answer
+  - an ASK OF THEM is something they still owe us        -> matches / items
+  - FEEDBACK is something WE have to go change           -> client_feedback
+A message can be two at once. "Is there a reason the service area dosnt
+include dallas?" is a question AND feedback: answer them, and add the cities.
+Fields per entry:
+  "category": one of
+     imagery      an image is wrong: wrong uniform or PPE, wrong vehicle,
+                  wrong gear, distorted or obviously-AI people, wrong scene,
+                  wrong region
+     design       look and feel: too light or too dark, colours, layout,
+                  "feels cheap", "make it modern", fonts, spacing
+     brand        logo, brand colour, vehicle livery or decals, name usage
+     service_area cities or areas to add or remove
+     copy         wording on the site: headlines, body text, descriptions
+     facts        a business fact on the site is wrong: phone, address,
+                  hours, services they do or don't do, staff, licence
+     rejection    they turned the preview down without saying what to change
+     other        actionable, but none of the above
+  "what":  the change WE must make, in our words, one line, specific enough
+           that a build agent could start on it. Never "fix the images" —
+           name which images and what is wrong with them.
+  "where": which page, section or asset, or "site-wide".
+  "quote": their exact words, verbatim, typos included. Never paraphrase:
+           it is the evidence for the work AND it is read back to them when
+           the work is done.
+  "confidence": "high" when a build agent could START on it without asking
+           THEM anything else. It does not mean they were polite, complete or
+           technically precise, and working out which file to change is the
+           build agent's job, not yours. Calibrated on real messages:
+             high   "The company vehicles need to be black."
+             high   "The yellow need to to match the logo color" — their logo
+                    is on file, that is enough to start
+             high   "Is there a reason the service area dosnt include
+                    dallas?" — a question in form, a change in substance
+             high   "This guy is distorted" — they are looking at one of our
+                    images and it is wrong; regenerating it needs nothing
+                    from them
+             medium "the pictures could be better", "can you make it pop",
+                    "something feels off about the top of the page" — we
+                    would have to ask them what they mean
+             low    they gesture at dissatisfaction with no object at all
+           Anything below high is routed to a human instead of run, so the
+           cost of "medium" is a delay, not a mistake. Do not use it as
+           politeness.
+  "complaint": true when the message reads as unhappiness with US (our
+           service, the money, the relationship, cancelling), not as a
+           correction of the work. A blunt correction ("this guy is
+           distorted", "I think you went overboard") is NOT a complaint, it
+           is a client doing their job. Getting this wrong in the cautious
+           direction just means Santino reads it first.
+NOT feedback: compliments, approvals ("go ahead and launch it"), questions
+about how something works, anything about their Google listing / reviews /
+ads / billing, and anything they are going to do themselves.
+"client_feedback" is [] for the large majority of messages.
+
 If the reply is a PURE ACKNOWLEDGMENT of our last outbound message — an
 emoji (👍, 🙏), "ok", "sounds good", "thanks", "see you then", "perfect" —
 with no information in it, set "ack": true and nothing else. Acknowledgments
@@ -4506,6 +4571,12 @@ Return ONLY JSON:
  "satisfied_by_conversation": [{"item_id": "<id from the list>",
                                 "quote": "<their words, verbatim>",
                                 "reason": string}],
+ "client_feedback": [{"category": "imagery|design|brand|service_area|copy|
+                                   facts|rejection|other",
+                      "what": string, "where": string,
+                      "quote": "<their words, verbatim>",
+                      "confidence": "high|medium|low",
+                      "complaint": bool}],
  "ack": bool,
  "needs_answer": bool,
  "needs_santino": bool,
@@ -4519,6 +4590,8 @@ Return ONLY JSON:
 "intel_resolved" is [] when no meeting intel is provided or none applies.
 "satisfied_by_conversation" is [] unless the reply clearly says an item is
 already handled or does not apply.
+"client_feedback" is [] unless the reply says something WE built is wrong,
+missing or should be different.
 Match at most the items clearly answered. When in doubt, do not match — set
 escalate true with a reason instead."""
 
@@ -5536,9 +5609,11 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
     storm (the 07-31 lesson: prefer losing one reply over resending
     forever).
 
-    Returns {"processed", "matched", "awaiting", "escalated"}."""
+    Returns {"processed", "matched", "awaiting", "escalated", "queued"}
+    ("queued" = site-work tasks routed to the dev-agent inbox, 08-05)."""
     company_id = company["id"]
-    out = {"processed": 0, "matched": 0, "awaiting": False, "escalated": 0}
+    out = {"processed": 0, "matched": 0, "awaiting": False, "escalated": 0,
+           "queued": 0}
     handled = set(state.get("handled_msg_ids") or [])
     msgs = [m for m in msgs if m["id"] not in handled]
     if not msgs:
@@ -5741,6 +5816,32 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
                 turn["intel"].add(it["id"])
         out["matched"] += len(matched_ids)
         turn["matched"] |= matched_ids
+        # CLIENT FEEDBACK -> WORK (Santino 2026-08-05). The reply says
+        # something we BUILT is wrong. Route it to the dev-agent inbox now,
+        # before any of the early `continue`s below: a message can be a pure
+        # ack for reply purposes and still carry a correction, and the
+        # correction must not depend on whether we owed them a text.
+        # route_feedback decides auto ([DEV], runs tonight, no clicks) vs
+        # ask-Santino ([TODO-PROPOSED]); see scripts/feedback_router.py.
+        fbs = result.get("client_feedback") or []
+        if fbs:
+            try:
+                from feedback_router import route_feedback
+                routed = route_feedback(
+                    company, fbs,
+                    who=contact_first_name(contact_payload, company),
+                    when=msg["ts"].isoformat(), dry_run=dry_run,
+                    escalate=lambda r: append_escalation(
+                        company, msg, r, dry_run, ping=False))
+                if routed:
+                    out["queued"] = out.get("queued", 0) + len(routed)
+            except Exception as e:  # noqa: BLE001 — queuing never kills a poll
+                print(f"    [feedback] router unavailable ({str(e)[:90]}) — "
+                      "escalating so it is not lost")
+                append_escalation(
+                    company, msg,
+                    "client feedback needing site work could not be queued "
+                    f"automatically: {str(fbs)[:300]}", dry_run, ping=False)
         # Items meeting intel marks answered / in progress client-side:
         # never re-asked in the follow-up; escalated for human backfill.
         for flag in result.get("intel_resolved") or []:
