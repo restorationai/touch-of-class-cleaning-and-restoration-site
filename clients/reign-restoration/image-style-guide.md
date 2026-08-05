@@ -2,22 +2,41 @@
 
 ## CLIENT DIRECTION — NON-NEGOTIABLE (Jerrott Gray, 2026-08-04 / 2026-08-05)
 
-> **RULE 0 — REAL PHOTOGRAPHS ONLY, AND NO GENERATED VEHICLES (round 3, 2026-08-05).**
-> Jerrott: *"the two vans on the left side had the logo reversed. Logos on
-> company vehicles need to match."* / *"make photos looks realistic and not AI
-> slop."* Two rounds of livery references could not stop the generator
-> mirroring his crest and inventing lettering, so we stopped asking it to. His
-> own photographs now hold 8 of 9 slots (`photo-manifest.json`).
+> **RULE 0 — TRUE REPRESENTATION (round 4, 2026-08-05, superseded round 3 the
+> same day).** Round 3 read his SMS as "stop generating" and banned generation
+> and vehicles outright. **On the phone at 16:03 he said the opposite**, twice:
+> *"I don't mind the AI generated photos"* and *"if we're going to use AI
+> photos, let's make sure they at least represent like reality."* He also asked
+> for the generated About shot to be put BACK: *"I did like the about photo that
+> was made prior. I just wanted the logos to match on the company vehicles."*
+> Transcript: `calls/2026-08-05-jerrott.md`.
 >
-> * **No vehicle in ANY generated image** — not in the background, not through
->   a doorway, not at a curb. A generated van is a REJECTED image with no
->   fix-forward; the livery is only ever right in a real photograph.
-> * **Generation is a gap-filler, never a replacement.** A real photo of his
->   wins the slot outright.
+> The bar is **not** "real photo". The bar is **true representation** — a
+> generated frame is fine as long as nothing in it is false to how the work is
+> actually done or how his brand actually looks.
+>
+> * **Generated images are ALLOWED, and so are vehicles in them.** The round-3
+>   blanket ban is withdrawn. What is rejected is an UNTRUE frame, not a
+>   generated one.
+> * **Every vehicle in a frame wears the identical livery in the identical
+>   position on the vehicle.** This is the failure he actually reported: two
+>   vans facing opposite ways, each with the crest on the same side of the
+>   SCREEN, which puts it at the nose of one van and the tail of the other.
+>   *"one, you have the my logo and then rain restoration, and then it would
+>   flip the other way on the other vehicles ... it didn't look professional."*
+>   Mirroring the crest is the reject condition, not the vehicle itself.
+> * **No garbled lettering.** "2A HOUR EMERGENCY SERVICE" shipped in round 2.
+>   Let small text fall to natural photographic softness rather than invent
+>   substitute characters (see the Scale rule below).
+> * **A real photo of his still wins a slot outright** where one exists and
+>   suits the slot — but it does NOT get to displace a generated image he has
+>   already told us he likes.
 > * **PPE is worn SEALED or not at all** — *"PPE worn corectly. Full PPE needs
->   to be depicted."* Tyvek zipped to the throat, hood UP, respirator sealed,
->   gloves on, wrists taped. Open like a jacket, hood down, or tied at the
->   waist = REJECTED image.
+>   to be depicted."* / on the call: *"if they're in PPE, suit them and boot
+>   them fully in PPE ... the hood's up, just to make it look like realistic."*
+>   Tyvek zipped to the throat, hood UP, respirator sealed, gloves on, wrists
+>   taped. Open like a jacket, hood down, tied at the waist, or a branded
+>   T-shirt showing through an unzipped suit = REJECTED image.
 
 > **This block outranks everything below the horizontal rule.** The sections
 > under it are the canonical restoration boilerplate and are regenerated from
