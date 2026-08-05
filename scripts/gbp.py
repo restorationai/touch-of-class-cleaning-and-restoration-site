@@ -133,7 +133,17 @@ def _g(url: str, token: str) -> dict:
 
 
 def find_location(token: str, place_id: str) -> dict | None:
-    """Find the location matching the client's place_id across all managed accounts."""
+    """Find the location matching the client's place_id across all managed accounts.
+
+    A falsy place_id means the client has no Google connection of its own. It must
+    never be matched: `get_access_token` falls back to an agency token that manages
+    every client location, and a location whose metadata carries no placeId would
+    satisfy `None == None` and hand back a STRANGER's listing. Found 2026-08-05 —
+    aaa-water-damage (zero google rows) was resolving to "ProBrite Gen", a Houston
+    business, and every read and write for AAA was aimed at it.
+    """
+    if not place_id:
+        return None
     for acct in _g(f"{ACCT_API}/accounts", token).get("accounts", []):
         url = f"{INFO_API}/{acct['name']}/locations?readMask={LOC_READ_MASK}&pageSize=100"
         for loc in _g(url, token).get("locations", []):
