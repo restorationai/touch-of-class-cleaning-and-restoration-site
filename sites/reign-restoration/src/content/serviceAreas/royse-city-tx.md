@@ -51,7 +51,7 @@ Once the damage is mitigated, the rebuild still has to happen. Rather than hand 
 
 ## Coverage and how fast we can get there
 
-Being based in Royse City means we're not driving in from Garland or McKinney. We're already here. Whether a call comes from a property near downtown along SH-66, from one of the newer subdivisions off I-30 on the western edge of the city, or from a home closer to the Fate city limits, our drive is measured in minutes, not the better part of an hour. We know the local routes and we're not navigating them for the first time when you call.
+Being based in Royse City means we're not driving in from the far side of the metroplex. We're already here. Whether a call comes from a property near downtown along SH-66, from one of the newer subdivisions off I-30 on the western edge of the city, or from a home closer to the Fate city limits, our drive is measured in minutes, not the better part of an hour. We know the local routes and we're not navigating them for the first time when you call.
 
 ## A recent Royse City response
 

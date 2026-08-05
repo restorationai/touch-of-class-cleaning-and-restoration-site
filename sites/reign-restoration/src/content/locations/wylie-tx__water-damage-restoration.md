@@ -40,7 +40,7 @@ If materials cannot be dried in place — saturated drywall below the flood cut 
 
 ## Reaching Wylie from Royse City
 
-Reign Restoration is based in Royse City, which puts the crew well-positioned for Wylie calls. From the HQ, the most direct route runs west on US-80 to FM 544, then north into Wylie's core neighborhoods — a straightforward drive without the highway interchange delays that complicate access from Dallas-side contractors. Neighborhoods on Wylie's eastern edge, closer to the FM 1378 and Brown Street corridors, are particularly close to our staging point. Call (214) 304-0621 to confirm scheduling and get a technician en route.
+Reign Restoration is based in Royse City, which puts the crew well-positioned for Wylie calls. From the HQ, the most direct route runs west on US-80 to FM 544, then north into Wylie's core neighborhoods — a straightforward drive without the highway interchange delays that complicate access from across the metro. Neighborhoods on Wylie's eastern edge, closer to the FM 1378 and Brown Street corridors, are particularly close to our staging point. Call (214) 304-0621 to confirm scheduling and get a technician en route.
 
 ## Wylie Insurance Coordination
 

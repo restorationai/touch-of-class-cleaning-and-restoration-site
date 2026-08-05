@@ -40,7 +40,7 @@ For kitchen and bathroom remodels specifically, material lead times are built in
 
 ## Reaching Rowlett from Royse City
 
-Reign Restoration is based in Royse City, roughly 15 miles east of central Rowlett via I-30. That proximity makes Rowlett a natural service area for both planned renovation projects and post-damage rebuild calls. The team is familiar with the road network through the city and can coordinate site visits and material deliveries without the scheduling friction that comes with contractors based in central Dallas who are fighting inbound traffic on I-30 or the George Bush Turnpike.
+Reign Restoration is based in Royse City, roughly 15 miles east of central Rowlett via I-30. That proximity makes Rowlett a natural service area for both planned renovation projects and post-damage rebuild calls. The team is familiar with the road network through the city and can coordinate site visits and material deliveries without the scheduling friction that comes with contractors based across the metro who are fighting inbound traffic on I-30 or the George Bush Turnpike.
 
 ## Insurance and HOA Coordination for Rowlett Renovations
 

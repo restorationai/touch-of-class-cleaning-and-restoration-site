@@ -36,7 +36,7 @@ From there, the process moves through controlled demolition of unsalvageable mat
 
 ## Reaching Rockwall from Royse City
 
-Reign Restoration's Royse City base puts the crew a short drive east of Rockwall on I-30, making the city one of the closest service areas on the route. Properties near the Lake Ray Hubbard waterfront, as well as neighborhoods further north toward the Fate city limits, are all reachable without the extended drive times that come with dispatching from Dallas or Garland. When you call (214) 304-0621, the team can give you a realistic arrival window based on current conditions rather than a marketing figure.
+Reign Restoration's Royse City base puts the crew a short drive east of Rockwall on I-30, making the city one of the closest service areas on the route. Properties near the Lake Ray Hubbard waterfront, as well as neighborhoods further north toward the Fate city limits, are all reachable without the extended drive times that come with dispatching from across the metroplex. When you call (214) 304-0621, the team can give you a realistic arrival window based on current conditions rather than a marketing figure.
 
 ## Rockwall Insurance & HOA Coordination
 

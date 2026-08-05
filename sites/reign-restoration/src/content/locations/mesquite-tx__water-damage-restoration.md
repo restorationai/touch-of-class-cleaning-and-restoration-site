@@ -38,7 +38,7 @@ If affected materials — drywall, insulation, hardwood flooring — have absorb
 
 ## Reaching Mesquite from Royse City
 
-Reign Restoration is based in Royse City, roughly 25 miles east of Mesquite via US-80. That corridor is a direct shot with no major interchange delays outside of peak commute hours, which means crews can load equipment and be on the road toward Mesquite without navigating the inner loop traffic that affects contractors coming from central Dallas. For calls in the eastern portions of Mesquite near the Forney city limit, the drive is even shorter. Scheduling a prompt response through (214) 304-0621 connects you directly with the team — call to confirm current availability and get a technician dispatched to your address.
+Reign Restoration is based in Royse City, roughly 25 miles east of Mesquite via US-80. That corridor is a direct shot with no major interchange delays outside of peak commute hours, which means crews can load equipment and be on the road toward Mesquite without navigating the inner loop traffic that affects contractors coming from across the metro. For calls in the eastern portions of Mesquite near the Forney city limit, the drive is even shorter. Scheduling a prompt response through (214) 304-0621 connects you directly with the team — call to confirm current availability and get a technician dispatched to your address.
 
 ## Mesquite Insurance Coordination
 

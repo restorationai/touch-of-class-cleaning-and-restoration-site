@@ -1,20 +1,20 @@
 # Site Plan Report — Reign Restoration
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-08-03T16:27:24.143843+00:00
+- Generated: 2026-08-05T00:44:49.825242+00:00
 - Domain: `None`
 - Services selected: 6 of 54 catalog entries
-- Service areas: 9
+- Service areas: 17
 - Cross-product enabled: True
-- Total URLs: **86**
-- Total internal links: 642 (avg 7.5 per page)
+- Total URLs: **142**
+- Total internal links: 1100 (avg 7.7 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 54 |
-| `service-area` | 9 |
+| `service-area-service` | 102 |
+| `service-area` | 17 |
 | `blog-post` | 8 |
 | `service-landing` | 6 |
 | `legal` | 3 |
@@ -38,13 +38,21 @@
 
 - `royse-city-tx` — Royse City, TX *(primary)*
 - `rockwall-tx` — Rockwall, TX
+- `fate-tx` — Fate, TX
 - `rowlett-tx` — Rowlett, TX
-- `greenville-tx` — Greenville, TX
 - `wylie-tx` — Wylie, TX
 - `garland-tx` — Garland, TX
 - `mesquite-tx` — Mesquite, TX
+- `dallas-tx` — Dallas, TX
+- `richardson-tx` — Richardson, TX
+- `plano-tx` — Plano, TX
+- `allen-tx` — Allen, TX
+- `mckinney-tx` — McKinney, TX
+- `frisco-tx` — Frisco, TX
+- `highland-park-tx` — Highland Park, TX
+- `university-park-tx` — University Park, TX
+- `greenville-tx` — Greenville, TX
 - `terrell-tx` — Terrell, TX
-- `fate-tx` — Fate, TX
 
 ## Top 10 priority pages
 
@@ -56,10 +64,10 @@
 | `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration royse city |
 | `/service-areas/royse-city-tx/` | `service-area` | 7.2 | restoration services royse city |
 | `/services/general-contracting/` | `service-landing` | 7.2 | renovations, remodels and general contracting royse city |
-| `/service-areas/fate-tx/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration fate |
-| `/service-areas/fate-tx/mold-remediation/` | `service-area-service` | 7.0 | mold remediation fate |
-| `/service-areas/fate-tx/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration fate |
-| `/service-areas/garland-tx/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration garland |
+| `/service-areas/allen-tx/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration allen |
+| `/service-areas/allen-tx/mold-remediation/` | `service-area-service` | 7.0 | mold remediation allen |
+| `/service-areas/allen-tx/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration allen |
+| `/service-areas/dallas-tx/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration dallas |
 
 ## Validation
 

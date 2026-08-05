@@ -131,7 +131,7 @@ def _fm_field(md_text: str, key: str) -> str | None:
 
 
 def generate_service_images(*, slug: str, geo: str, guide: str,
-                            logo_png: bytes | None, van: str,
+                            refs: list, van: str,
                             logo_rule: str, img_dir: Path,
                             crew: str = "", mood: str = "") -> int:
     """One image per src/content/services/*.md page, named {service_slug}.webp
@@ -174,7 +174,7 @@ def generate_service_images(*, slug: str, geo: str, guide: str,
             full_prompt = prompt + ("\n\nStyle guide notes:\n" + guide if guide else "")
             print(f"  generating services/{out.name} ({display})...")
             try:
-                png = gemini_generate_image(full_prompt, reference_png=logo_png)
+                png = gemini_generate_image(full_prompt, reference_png=refs)
             except Exception as e:  # quota/API failures: keep going, flag at end
                 print(f"    FAILED: {e}")
                 failed.append(svc_slug)
@@ -224,7 +224,13 @@ def main() -> int:
     color = brand.get("primary_color", "#dc2626")
     guide_p = ROOT / "clients" / slug / "image-style-guide.md"
     guide_full = guide_p.read_text() if guide_p.exists() else ""
-    guide = guide_full[:1500]
+    # The prompt carries the CLIENT-DIRECTION block — everything above the
+    # first horizontal rule, which is where the shared canonical boilerplate
+    # starts. Was a flat guide[:1500], which silently truncated mid-sentence:
+    # Reign's livery table (the whole point of the 2026-08-05 revision) fell
+    # off the end at char 1500 and never reached the generator.
+    _head = guide_full.split("\n---\n", 1)[0]
+    guide = _head[:5000] if len(_head) > 1500 else guide_full[:1500]
     geo = geo_cues(city, state)
 
     img_dir = ROOT / "sites" / slug / "public" / "images"
@@ -240,7 +246,38 @@ def main() -> int:
         if p.exists():
             logo_png = p.read_bytes()
             break
-    if logo_png:
+
+    # LIVERY-REFERENCE (2026-08-05, Reign): a real photograph of the client's
+    # own wrapped vehicle, declared in the style guide as
+    #   LIVERY-REFERENCE: harvested/<file>
+    # relative to clients/{slug}/. A logo on white tells the model what the
+    # MARK is but nothing about how it sits on a vehicle, so every generation
+    # re-invented the wrap and the decals drifted image to image — exactly what
+    # Jerrott Gray flagged ("the company vehicle decals need to match from
+    # photo to photo"). The real photo pins crest, wordmark, placement and
+    # proportion to something that actually exists. It leads the reference list
+    # because the last-listed image tends to dominate less.
+    livery_png = None
+    m_lv = re.search(r"LIVERY-REFERENCE:\s*(\S+)", guide_full)
+    if m_lv:
+        lp = ROOT / "clients" / slug / m_lv.group(1).strip()
+        if lp.exists():
+            livery_png = lp.read_bytes()
+            print(f"  livery reference: {lp.relative_to(ROOT)}")
+        else:
+            print(f"  WARNING: LIVERY-REFERENCE {lp} not found — skipping")
+
+    refs = [r for r in (livery_png, logo_png) if r]
+    if livery_png:
+        van = (f"a fleet of two-three matching service vans wrapped in EXACTLY "
+               f"the livery shown in the reference photograph of the company's "
+               f"real vehicle — same crest, same wordmark, same colours, same "
+               f"proportions, same position on the body panel — reproduced "
+               f"identically on every vehicle in the frame")
+        logo_rule = ("Copy the vehicle graphics from the reference photograph "
+                     "of the real vehicle exactly; invent no new decal, no new "
+                     "stripe, no new badge and no additional lettering.")
+    elif logo_png:
         van = (f"a fleet of two-three matching service vans, each side panel "
                f"carrying the company logo from the reference image reproduced "
                f"faithfully at vehicle-wrap scale, with a {color} accent stripe")
@@ -268,9 +305,26 @@ def main() -> int:
     m = re.search(r"MOOD-OVERRIDE:\s*(.+)", guide_full)
     mood = m.group(1).strip().rstrip(".") if m else ""
 
+    # FLEET CONTINUITY (2026-08-05, Reign): once a fleet shot is approved it
+    # becomes a reference for every later vehicle image, so the wrap carries
+    # forward instead of being re-imagined per call. Text alone cannot hold a
+    # decal identical across independent generations; a picture of the van we
+    # already shipped can.
+    # Only in --services mode: in the main pass the hero may itself be about to
+    # be regenerated, and conditioning a replacement on the image it replaces
+    # would carry the rejected livery straight back in.
+    hero_path = img_dir / "hero-bg.webp"
+    if args.services and hero_path.exists():
+        import io as _io
+        from PIL import Image as _Image
+        buf = _io.BytesIO()
+        _Image.open(hero_path).convert("RGB").save(buf, "PNG")
+        refs.append(buf.getvalue())
+        print("  fleet-continuity reference: public/images/hero-bg.webp")
+
     if args.services:
         return generate_service_images(slug=slug, geo=geo, guide=guide,
-                                       logo_png=logo_png, van=van,
+                                       refs=refs, van=van,
                                        logo_rule=logo_rule, img_dir=img_dir,
                                        crew=crew, mood=mood)
 
@@ -281,14 +335,17 @@ def main() -> int:
             f"{mood or 'Golden-hour professional photography'}, shallow depth, photorealistic, "
             f"no people's faces prominent. {logo_rule} 16:9 composition with the left "
             f"third visually calm for overlaid headline text."),
+        # CREW-OVERRIDE reaches these two as well (2026-08-05): it was only
+        # ever applied in --services mode, so Reign's team shot came back as a
+        # smiling posed group portrait — the single thing the override forbids.
         "team.webp": (
             f"Photorealistic photo of a small professional restoration crew (3-4 people, mixed, "
             f"in matching clean uniforms) standing confidently in front of {van}. {geo} "
-            f"{mood or 'Natural light, friendly and trustworthy'}. {logo_rule}"),
+            f"{crew}{mood or 'Natural light, friendly and trustworthy'}. {logo_rule}"),
         "services.webp": (
             f"Photorealistic photo of a technician unloading professional drying equipment "
             f"(air movers, dehumidifier) from {van} at a job site. "
-            f"{mood or 'Clean, well-lit'}. {logo_rule} {geo}"),
+            f"{crew}{mood or 'Clean, well-lit'}. {logo_rule} {geo}"),
     }
 
     from PIL import Image
@@ -300,11 +357,16 @@ def main() -> int:
             continue
         full_prompt = prompt + ("\n\nStyle guide notes:\n" + guide if guide else "")
         print(f"  generating {fname}...")
-        png = gemini_generate_image(full_prompt, reference_png=logo_png)
+        png = gemini_generate_image(full_prompt, reference_png=refs)
         img = Image.open(io.BytesIO(png)).convert("RGB")
         img.save(out, "WEBP", quality=84)
         made += 1
         print(f"    saved {out.relative_to(ROOT)} ({out.stat().st_size // 1024}KB)")
+        # The hero doubles as the continuity anchor for the shots after it.
+        if fname == "hero-bg.webp":
+            buf = io.BytesIO()
+            img.save(buf, "PNG")
+            refs.append(buf.getvalue())
     print(f"{slug}: {made} image(s) generated for {city}, {state}")
     return 0
 

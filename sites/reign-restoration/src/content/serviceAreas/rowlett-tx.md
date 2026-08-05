@@ -47,7 +47,7 @@ Once mitigation is complete, many homeowners don't want to manage a separate gen
 
 ## Coverage and how fast we can get there
 
-Reign Restoration is headquartered in Royse City, roughly 15 to 18 miles east of Rowlett via I-30. That puts us closer to Rowlett than most Dallas-based firms are to the eastern suburbs. Whether a call comes from a home near the lake or a property farther north toward the Rockwall County line, we can dispatch from Royse City without fighting inbound Dallas traffic. Call us at (214) 304-0621 to confirm scheduling availability and get an honest estimate of when a crew can be on-site.
+Reign Restoration is headquartered in Royse City, roughly 15 to 18 miles east of Rowlett via I-30. That puts us closer to Rowlett than most firms dispatching from the far side of the metro. Whether a call comes from a home near the lake or a property farther north toward the Rockwall County line, we can dispatch from Royse City without fighting inbound Dallas traffic. Call us at (214) 304-0621 to confirm scheduling availability and get an honest estimate of when a crew can be on-site.
 
 ## A recent Rowlett response
 

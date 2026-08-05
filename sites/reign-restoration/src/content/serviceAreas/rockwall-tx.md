@@ -47,7 +47,7 @@ Mitigation without rebuild capability means a second contractor, a second mobili
 
 ## Coverage and how fast we can get there
 
-Reign Restoration is headquartered in Royse City, which sits roughly 10 to 12 miles east of central Rockwall along I-30. That puts us closer to Rockwall than most Dallas-based restoration companies. From the Royse City shop, the crew can reach properties near the Rockwall Harbor area or along the SH-205 corridor quickly without fighting inbound Dallas traffic. Properties further north toward the Lake Ray Hubbard shoreline or south near the Rockwall-Heath border are also well within our regular service area. Call (214) 304-0621 to confirm scheduling and get a crew dispatched.
+Reign Restoration is headquartered in Royse City, which sits roughly 10 to 12 miles east of central Rockwall along I-30. That puts us closer to Rockwall than most restoration companies dispatching from across the metro. From the Royse City shop, the crew can reach properties near the Rockwall Harbor area or along the SH-205 corridor quickly without fighting inbound Dallas traffic. Properties further north toward the Lake Ray Hubbard shoreline or south near the Rockwall-Heath border are also well within our regular service area. Call (214) 304-0621 to confirm scheduling and get a crew dispatched.
 
 ## A recent Rockwall response
 

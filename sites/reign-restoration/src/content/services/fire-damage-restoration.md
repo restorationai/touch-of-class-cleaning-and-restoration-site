@@ -67,6 +67,6 @@ North Texas heating seasons bring a predictable spike in chimney fires, space he
 
 ## Service area
 
-Reign Restoration is based in Royse City and serves the broader Dallas metro east corridor — including Rockwall, Fate, Heath, Forney, Terrell, Caddo Mills, and Greenville. Individual service-area pages cover fire damage restoration for each city in detail; this page covers the full process regardless of location.
+Reign Restoration is based in Royse City and serves the broader Dallas metro — including Rockwall, Fate, Heath, Forney, Terrell, Caddo Mills, and Greenville. Individual service-area pages cover fire damage restoration for each city in detail; this page covers the full process regardless of location.
 
 If you are standing in a fire-damaged home right now, the decisions made in the next 24 to 48 hours will determine how much of it can be saved. Call Reign Restoration at (214) 304-0621 to begin smoke and soot removal before secondary damage makes a recoverable loss into a total one.

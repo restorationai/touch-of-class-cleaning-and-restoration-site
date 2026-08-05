@@ -38,7 +38,7 @@ Storage is temperature and humidity controlled, which matters in a North Texas s
 
 ## Reaching Rockwall from Royse City
 
-Reign Restoration is based in Royse City, which sits roughly 10 miles east of Rockwall on US-80. That proximity means the crew traveling to Rockwall is not driving in from Dallas — they're coming from the same county. The US-80 corridor connects directly into central Rockwall, and SH 205 provides a straight shot into the northern residential areas. For scheduling, call (214) 304-0621 and the team will confirm availability and an estimated arrival window based on current workload.
+Reign Restoration is based in Royse City, which sits roughly 10 miles east of Rockwall on US-80. That proximity means the crew traveling to Rockwall is not crossing the metroplex to get there — they're coming from the same county. The US-80 corridor connects directly into central Rockwall, and SH 205 provides a straight shot into the northern residential areas. For scheduling, call (214) 304-0621 and the team will confirm availability and an estimated arrival window based on current workload.
 
 ## Rockwall Insurance Coordination for Contents Claims
 

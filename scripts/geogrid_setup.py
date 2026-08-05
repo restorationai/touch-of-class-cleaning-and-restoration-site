@@ -108,17 +108,48 @@ def derive_keywords(slug: str, max_keywords: int = 10) -> list[str]:
 # City derivation (service areas -> geocoded grid centers)
 # ---------------------------------------------------------------------------
 
+# Nominatim place types that are an actual populated place. `limit=1` used to
+# take whatever came back first, and for "Terrell, TX" that is Terrell COUNTY —
+# a boundary/administrative hit 400 miles west in the Big Bend, not the Kaufman
+# County city 25 minutes from Royse City (found 2026-08-05 seeding Reign's ring).
+# A grid centred there scans the wrong half of the state and silently reports
+# the client as unranked.
+_PLACE_TYPES = {"city", "town", "village", "hamlet", "municipality",
+                "suburb", "neighbourhood", "borough"}
+
+
 def geocode_city(city: str, state: str) -> tuple[float, float] | None:
-    q = urllib.parse.urlencode({"q": f"{city}, {state}, USA", "format": "json", "limit": 1})
+    q = urllib.parse.urlencode({"q": f"{city}, {state}, USA", "format": "json",
+                                "limit": 8, "addressdetails": 1})
     req = urllib.request.Request(f"{NOMINATIM}?{q}", headers=UA)
     try:
         with urllib.request.urlopen(req, timeout=20) as r:
             data = json.loads(r.read())
-        if data:
-            return round(float(data[0]["lat"]), 4), round(float(data[0]["lon"]), 4)
+        if not data:
+            return None
+        # Prefer a real populated place; fall back to the first hit only when
+        # nothing in the response is one.
+        best = next((d for d in data
+                     if (d.get("addresstype") or d.get("type") or "") in _PLACE_TYPES), None)
+        if best is None:
+            best = next((d for d in data
+                         if "county" not in (d.get("display_name") or "").split(",")[0].lower()
+                         and (d.get("type") or "") != "administrative"), data[0])
+        return round(float(best["lat"]), 4), round(float(best["lon"]), 4)
     except Exception as e:
         sys.stderr.write(f"  geocode '{city}, {state}' failed: {str(e)[:80]}\n")
     return None
+
+
+def _miles_apart(a: tuple[float, float], b: tuple[float, float]) -> float:
+    """Rough great-circle miles — only ever used as a sanity threshold."""
+    import math
+    lat1, lng1 = math.radians(a[0]), math.radians(a[1])
+    lat2, lng2 = math.radians(b[0]), math.radians(b[1])
+    d = math.acos(min(1.0, max(-1.0,
+        math.sin(lat1) * math.sin(lat2)
+        + math.cos(lat1) * math.cos(lat2) * math.cos(lng2 - lng1))))
+    return d * 3958.8
 
 
 def derive_cities(slug: str) -> list[dict]:
@@ -142,6 +173,17 @@ def derive_cities(slug: str) -> list[dict]:
             time.sleep(1.1)  # Nominatim: <=1 req/sec
             if not geo:
                 continue
+            # A service-area city is by definition drivable from the shop. A
+            # geocode hundreds of miles out is a wrong-match, not a long
+            # commute — drop it loudly rather than scan empty desert.
+            if brand.get("lat") and brand.get("lng"):
+                away = _miles_apart(geo, (float(brand["lat"]), float(brand["lng"])))
+                if away > 150:
+                    sys.stderr.write(
+                        f"  DROPPED '{label}': geocoded {away:.0f} mi from the "
+                        f"business ({geo[0]},{geo[1]}) — almost certainly the "
+                        f"wrong place. Add lat/lng to plan-input to override.\n")
+                    continue
             lat, lng = geo
         out.append({"label": label, "lat": lat, "lng": lng, "primary": bool(a.get("primary"))})
     return out

@@ -40,7 +40,7 @@ Our team holds IICRC FSRT (Fire & Smoke) and IICRC WRT (Water) certifications, w
 
 ## Reaching Terrell from Royse City
 
-Reign Restoration is based in Royse City, roughly 15 miles northwest of Terrell via US-80. That corridor is a straightforward run with no major interchange delays under normal conditions, which means we can mobilize to Terrell properties without the staging lag that affects contractors coming from the Dallas metro. For properties on the eastern side of Terrell closer to the Van Zandt County line, we route via US-80 east and can coordinate directly with your insurance adjuster on arrival timing.
+Reign Restoration is based in Royse City, roughly 15 miles northwest of Terrell via US-80. That corridor is a straightforward run with no major interchange delays under normal conditions, which means we can mobilize to Terrell properties without the staging lag that affects contractors coming from across the metro. For properties on the eastern side of Terrell closer to the Van Zandt County line, we route via US-80 east and can coordinate directly with your insurance adjuster on arrival timing.
 
 ## Terrell Insurance Coordination for Contents Claims
 

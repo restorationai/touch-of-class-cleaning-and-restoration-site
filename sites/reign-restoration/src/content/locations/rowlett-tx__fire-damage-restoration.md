@@ -43,7 +43,7 @@ From there, the process moves in a defined sequence:
 
 ## Reaching Rowlett from Royse City
 
-Reign Restoration is based in Royse City, roughly 15 miles east of Rowlett via I-30. That route runs directly into the heart of the city, making Rowlett one of the closer communities the crew serves in the eastern Dallas metro. Whether a call comes from the lakeshore communities near the Rowlett Creek Preserve corridor or from neighborhoods closer to the SH-66 and Dalrock Road corridors, the drive is straightforward without the loop traffic that complicates response from Dallas-based contractors.
+Reign Restoration is based in Royse City, roughly 15 miles east of Rowlett via I-30. That route runs directly into the heart of the city, making Rowlett one of the closer communities the crew serves in the eastern Dallas metro. Whether a call comes from the lakeshore communities near the Rowlett Creek Preserve corridor or from neighborhoods closer to the SH-66 and Dalrock Road corridors, the drive is straightforward without the loop traffic that complicates response from across the metroplex.
 
 Call (214) 304-0621 to reach the team directly and discuss scheduling.
 

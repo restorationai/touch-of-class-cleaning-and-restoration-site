@@ -44,7 +44,7 @@ For kitchen remodels and bathroom remodels specifically, we source materials wit
 
 ## Reaching Terrell from Royse City
 
-Reign Restoration is headquartered in Royse City, roughly 15 miles northwest of Terrell via US-80. That proximity means project managers and crews aren't commuting from Dallas — they're nearby, familiar with Kaufman County building departments, and able to make site visits without burning half a day in transit. For homeowners along the US-80 corridor or in the neighborhoods spreading south toward FM 148, that local presence translates to faster scheduling and more responsive communication throughout a project.
+Reign Restoration is headquartered in Royse City, roughly 15 miles northwest of Terrell via US-80. That proximity means project managers and crews aren't commuting from the far side of the metroplex — they're nearby, familiar with Kaufman County building departments, and able to make site visits without burning half a day in transit. For homeowners along the US-80 corridor or in the neighborhoods spreading south toward FM 148, that local presence translates to faster scheduling and more responsive communication throughout a project.
 
 ## Local Note
 

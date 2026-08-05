@@ -47,7 +47,7 @@ Mitigation is only half the job. After damaged materials are removed and the str
 
 ## Coverage and how fast we can get there
 
-Reign Restoration is headquartered in Royse City, roughly 12 miles west of Terrell along US-80. That corridor is a straightforward drive with no significant bottlenecks outside of peak rush hours, which means our crew is not coming from Dallas or a distant metro dispatch center. From Royse City, US-80 East runs directly into Terrell and connects to both the older established neighborhoods near downtown and the newer residential growth on the city's eastern and southern edges. For calls in western Terrell, the drive is shorter still. Contact us at (214) 304-0621 to confirm scheduling and get a crew dispatched to your address.
+Reign Restoration is headquartered in Royse City, roughly 12 miles west of Terrell along US-80. That corridor is a straightforward drive with no significant bottlenecks outside of peak rush hours, which means our crew is not coming from a distant metro dispatch center. From Royse City, US-80 East runs directly into Terrell and connects to both the older established neighborhoods near downtown and the newer residential growth on the city's eastern and southern edges. For calls in western Terrell, the drive is shorter still. Contact us at (214) 304-0621 to confirm scheduling and get a crew dispatched to your address.
 
 ## A recent Terrell response
 

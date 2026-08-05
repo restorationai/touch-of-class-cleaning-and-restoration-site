@@ -48,8 +48,11 @@
   .btn {
     @apply inline-flex items-center justify-center gap-2 rounded-md px-6 py-3 text-sm font-bold uppercase tracking-widest transition-colors no-underline;
   }
+  /* Solid fills that carry white text use primary-600 (the contrast-guaranteed
+     rung), never primary.DEFAULT — DEFAULT is the client's raw brand hex and
+     may be a light gold/lime/sky that white cannot sit on. */
   .btn-primary {
-    @apply btn bg-primary text-white hover:bg-primary-200 hover:text-dark-900;
+    @apply btn bg-primary-600 text-white hover:bg-primary-200 hover:text-dark-900;
   }
   .btn-accent {
     @apply btn bg-accent text-white hover:opacity-90;

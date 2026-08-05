@@ -40,7 +40,7 @@ Once the home is cleared and restored, items are returned in the same documented
 
 ## Reaching Rowlett from Royse City
 
-Reign Restoration is headquartered in Royse City, roughly 15 miles east of Rowlett via I-30. That proximity means we're a realistic option when Rowlett homeowners need a local crew rather than a large franchise dispatched from Dallas. We serve addresses throughout Rowlett, including properties near the lakefront and in the established subdivisions along the city's northern and southern corridors. Call (214) 304-0621 to confirm scheduling availability and get an honest estimate of when we can be on-site.
+Reign Restoration is headquartered in Royse City, roughly 15 miles east of Rowlett via I-30. That proximity means we're a realistic option when Rowlett homeowners need a local crew that knows these streets, not a rotating franchise roster. We serve addresses throughout Rowlett, including properties near the lakefront and in the established subdivisions along the city's northern and southern corridors. Call (214) 304-0621 to confirm scheduling availability and get an honest estimate of when we can be on-site.
 
 ## Rowlett Insurance Coordination for Contents Claims
 

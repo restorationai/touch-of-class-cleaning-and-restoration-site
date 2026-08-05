@@ -40,7 +40,7 @@ Documentation runs in parallel throughout: photos, moisture logs, and equipment 
 
 ## Reaching Garland from Royse City
 
-Reign Restoration is based in Royse City, roughly 25 miles east of central Garland via I-30. That puts us well-positioned to serve Garland and the surrounding communities without the dispatch delays that come with a downtown Dallas address. When you call (214) 304-0621, you reach a team that knows the I-30 corridor and can route efficiently to properties across the city. We schedule promptly and communicate an honest arrival window — no vague "we'll be there soon" when you have water spreading across your floors.
+Reign Restoration is based in Royse City, roughly 25 miles east of central Garland via I-30. That puts us well-positioned to serve Garland and the surrounding communities without a long haul across the metroplex. When you call (214) 304-0621, you reach a team that knows the I-30 corridor and can route efficiently to properties across the city. We schedule promptly and communicate an honest arrival window — no vague "we'll be there soon" when you have water spreading across your floors.
 
 ## Garland Insurance Coordination
 

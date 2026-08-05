@@ -20,7 +20,7 @@ state: "TX"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-A house fire in Wylie doesn't just burn — it leaves behind a layered mess that keeps damaging your home long after the flames are out. North Texas summers push attic temperatures past 140°F, and that heat drives smoke residue deeper into porous materials like brick veneer, OSB sheathing, and the spray foam insulation common in Wylie's newer construction. By the time the fire department clears the scene, oxidation and soot are already etching surfaces, and the clock on permanent staining has started. Reign Restoration holds IICRC FSRT (Fire & Smoke) certification and responds to fire damage calls across Wylie from our Royse City base — close enough to reach most neighborhoods without the long drive times you'd get from a Dallas-based crew.
+A house fire in Wylie doesn't just burn — it leaves behind a layered mess that keeps damaging your home long after the flames are out. North Texas summers push attic temperatures past 140°F, and that heat drives smoke residue deeper into porous materials like brick veneer, OSB sheathing, and the spray foam insulation common in Wylie's newer construction. By the time the fire department clears the scene, oxidation and soot are already etching surfaces, and the clock on permanent staining has started. Reign Restoration holds IICRC FSRT (Fire & Smoke) certification and responds to fire damage calls across Wylie from our Royse City base — close enough to reach most neighborhoods without a haul across the metroplex.
 
 ## Why Wylie Properties Face Particular Fire Damage Challenges
 
@@ -46,7 +46,7 @@ Every job starts with a structured assessment before a single piece of debris is
 
 ## Reaching Wylie from Royse City
 
-Our shop sits in Royse City, which puts us roughly 15 minutes from most of Wylie via US-80 East to FM 544 or SH 78 depending on traffic. We don't have to stage from Dallas or Plano, which means less drive time and more time on your property. When you call (214) 304-0621, you're reaching a crew that already knows the road layout and can give you a realistic arrival window rather than a vague "we're on our way."
+Our shop sits in Royse City, which puts us roughly 15 minutes from most of Wylie via US-80 East to FM 544 or SH 78 depending on traffic. We don't have to stage from the far side of the metroplex, which means less drive time and more time on your property. When you call (214) 304-0621, you're reaching a crew that already knows the road layout and can give you a realistic arrival window rather than a vague "we're on our way."
 
 ## Wylie Insurance Coordination
 

@@ -78,6 +78,6 @@ Winter ice storms, which have become more disruptive across the DFW metro in rec
 
 ## Service area
 
-Reign Restoration is based in Royse City, TX and handles contents restoration and storage throughout the surrounding area, including Rockwall, Fate, Heath, Forney, Terrell, Caddo Mills, and the broader DFW east corridor. Each city-specific page links back here for the full process detail — but the work is the same regardless of zip code.
+Reign Restoration is based in Royse City, TX and handles contents restoration and storage throughout the surrounding area, including Rockwall, Fate, Heath, Forney, Terrell, Caddo Mills, and the broader DFW metro. Each city-specific page links back here for the full process detail — but the work is the same regardless of zip code.
 
 If your belongings are sitting in a smoke- or water-damaged room right now, the clock is already running. Call Reign Restoration at (214) 304-0621 to schedule a contents assessment and pack-out — the sooner items are out of the contaminated environment, the more of them can be saved.

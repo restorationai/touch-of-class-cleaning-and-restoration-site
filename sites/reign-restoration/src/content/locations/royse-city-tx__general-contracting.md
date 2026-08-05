@@ -20,7 +20,7 @@ state: "TX"
 service_display: "Renovations, Remodels and General Contracting"
 rendered: true
 ---
-Royse City has been one of the fastest-growing towns in Rockwall County for the better part of a decade, and that growth shows up in two distinct ways on a contractor's schedule: brand-new subdivisions where buyers want to personalize builder-grade finishes before they've unpacked a single box, and older homes along the original townsite streets where decades of North Texas heat cycles and expansive clay soil have left foundations shifted, floors uneven, and kitchens that haven't seen an update since the 1990s. Reign Restoration is based here, which means we're not driving in from Dallas or Mesquite — we're pulling permits at the Royse City Building Inspection office and sourcing materials locally the same week a project kicks off.
+Royse City has been one of the fastest-growing towns in Rockwall County for the better part of a decade, and that growth shows up in two distinct ways on a contractor's schedule: brand-new subdivisions where buyers want to personalize builder-grade finishes before they've unpacked a single box, and older homes along the original townsite streets where decades of North Texas heat cycles and expansive clay soil have left foundations shifted, floors uneven, and kitchens that haven't seen an update since the 1990s. Reign Restoration is based here, which means we're not driving in from across the metroplex — we're pulling permits at the Royse City Building Inspection office and sourcing materials locally the same week a project kicks off.
 
 ## Why Royse City's Growth and Soil Conditions Shape Every Renovation
 

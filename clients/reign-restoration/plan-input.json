@@ -12,7 +12,7 @@
   "hours": "24/7",
   "theme": "dark",
   "dark_color": "#0a0b0e",
-  "primary_color": "#8c6a18",
+  "primary_color": "#f2b623",
   "certifications": [
    "IICRC WRT (WATER)",
    "IICRC CERTIFIED FIRM",
@@ -51,14 +51,14 @@
    "slug": "rockwall-tx"
   },
   {
+   "city": "Fate",
+   "state": "TX",
+   "slug": "fate-tx"
+  },
+  {
    "city": "Rowlett",
    "state": "TX",
    "slug": "rowlett-tx"
-  },
-  {
-   "city": "Greenville",
-   "state": "TX",
-   "slug": "greenville-tx"
   },
   {
    "city": "Wylie",
@@ -76,14 +76,278 @@
    "slug": "mesquite-tx"
   },
   {
+   "city": "Dallas",
+   "state": "TX",
+   "slug": "dallas-tx",
+   "neighborhoods": [
+    "Lakewood",
+    "Oak Cliff",
+    "Bishop Arts District",
+    "Preston Hollow",
+    "Lake Highlands",
+    "Deep Ellum",
+    "Uptown",
+    "Casa Linda",
+    "M Streets (Greenland Hills)"
+   ],
+   "landmarks": [
+    "Reunion Tower",
+    "Dealey Plaza",
+    "White Rock Lake",
+    "Klyde Warren Park",
+    "Fair Park",
+    "Dallas Arboretum and Botanical Garden",
+    "Margaret Hunt Hill Bridge",
+    "American Airlines Center"
+   ],
+   "zip_codes": [
+    "75201",
+    "75204",
+    "75206",
+    "75208",
+    "75214",
+    "75218",
+    "75219",
+    "75230",
+    "75238"
+   ],
+   "local_notes": "Founded at a Trinity River crossing and split by the Austin Chalk escarpment, so Oak Cliff rolls while East Dallas sits flat on Blackland clay. Lakewood, the M Streets and Swiss Avenue hold 1920s-30s Tudors on pier-and-beam with original cast-iron drains; Lake Highlands runs to 1960s slab ranches; Uptown is high-rise condo. White Rock and Five Mile creeks flash-flood in spring hail season."
+  },
+  {
+   "city": "Richardson",
+   "state": "TX",
+   "slug": "richardson-tx",
+   "neighborhoods": [
+    "Richardson Heights",
+    "Canyon Creek",
+    "Cottonwood Heights",
+    "Duck Creek",
+    "Prairie Creek",
+    "Heights Park",
+    "The Reservation",
+    "Arapaho Heights",
+    "CityLine"
+   ],
+   "landmarks": [
+    "University of Texas at Dallas",
+    "Charles W. Eisemann Center",
+    "CityLine",
+    "Galatyn Park",
+    "Breckinridge Park",
+    "Huffhines Park",
+    "Spring Creek Nature Area",
+    "Richardson Heights Village"
+   ],
+   "zip_codes": [
+    "75080",
+    "75081",
+    "75082"
+   ],
+   "local_notes": "Two-thirds Dallas County, one-third Collin, laid out along Central Expressway during the postwar push. Richardson Heights, Canyon Creek and Cottonwood Heights went up between the 1950s and early 1980s, many still on original cast-iron or clay drain lines under slab, while CityLine added mid-rise. Duck, Cottonwood, Prairie and Spring creeks thread the city through reactive Houston Black clay."
+  },
+  {
+   "city": "Plano",
+   "state": "TX",
+   "slug": "plano-tx",
+   "neighborhoods": [
+    "Willow Bend",
+    "Legacy West",
+    "Downtown Plano Arts District",
+    "Deerfield",
+    "Hunters Glen",
+    "Whiffletree",
+    "Ridgeview Ranch",
+    "Kings Ridge",
+    "Old Shepard Place"
+   ],
+   "landmarks": [
+    "The Shops at Legacy",
+    "Legacy West",
+    "Oak Point Park and Nature Preserve",
+    "Arbor Hills Nature Preserve",
+    "Bob Woodruff Park",
+    "Heritage Farmstead Museum",
+    "The Shops at Willow Bend",
+    "Downtown Plano DART Station"
+   ],
+   "zip_codes": [
+    "75023",
+    "75024",
+    "75025",
+    "75074",
+    "75075",
+    "75093",
+    "75094"
+   ],
+   "local_notes": "Plano reads by decade. The 1970s-80s slab tract build-out east of US 75 in Whiffletree and Hunters Glen is old enough that original cast-iron drain lines are failing; Willow Bend and Deerfield are 1990s two-story brick; Legacy West is recent mid-rise density. Rowlett, Spring and Pittman creeks cut the east side, and the Spring Creek drainage is paved enough that most rainfall runs straight to the channel."
+  },
+  {
+   "city": "Allen",
+   "state": "TX",
+   "slug": "allen-tx",
+   "neighborhoods": [
+    "Twin Creeks",
+    "Watters Crossing",
+    "Bethany Lakes",
+    "Star Creek",
+    "Cottonwood Bend",
+    "Montgomery Farm",
+    "Suncreek",
+    "Waterford Park",
+    "Rivercrest Park"
+   ],
+   "landmarks": [
+    "Allen Event Center",
+    "Watters Creek at Montgomery Farm",
+    "Allen Premium Outlets",
+    "Eagle Stadium",
+    "Celebration Park",
+    "Bethany Lakes Park",
+    "Allen Station Park",
+    "Connemara Meadow Nature Preserve"
+   ],
+   "zip_codes": [
+    "75002",
+    "75013"
+   ],
+   "local_notes": "Allen went from railroad town to full suburb between roughly 1990 and 2010, so most roofs here are slab-on-grade brick veneer from that window, with a pocket of older frame housing near the original town center off Main Street. The Rowlett Creek and Cottonwood Creek corridors run through Twin Creeks and Bethany Lakes, with wide drainage easements behind the 1990s subdivisions."
+  },
+  {
+   "city": "McKinney",
+   "state": "TX",
+   "slug": "mckinney-tx",
+   "neighborhoods": [
+    "Historic Downtown McKinney",
+    "Stonebridge Ranch",
+    "Craig Ranch",
+    "Adriatica Village",
+    "Trinity Falls",
+    "Tucker Hill",
+    "Painted Tree",
+    "Aster Park"
+   ],
+   "landmarks": [
+    "Old Collin County Courthouse",
+    "McKinney Performing Arts Center",
+    "Chestnut Square Historic Village",
+    "Heard Natural Science Museum and Wildlife Sanctuary",
+    "Towne Lake Park",
+    "Bonnie Wenk Park",
+    "TUPPS Brewery",
+    "McKinney National Airport"
+   ],
+   "zip_codes": [
+    "75069",
+    "75070",
+    "75071",
+    "75072"
+   ],
+   "local_notes": "The Collin County seat keeps a deep historic district around the courthouse square: 1890s-1920s Folk Victorians and Craftsman bungalows on pier-and-beam over open crawlspaces, with deep porches and drain lines predating PVC. West of US 75 it flips to master-planned slab work in Stonebridge Ranch, Craig Ranch and Trinity Falls. Wilson, Stover and Honey creeks carry mapped floodplain toward the East Fork of the Trinity."
+  },
+  {
+   "city": "Frisco",
+   "state": "TX",
+   "slug": "frisco-tx",
+   "neighborhoods": [
+    "Stonebriar",
+    "Starwood",
+    "Phillips Creek Ranch",
+    "Newman Village",
+    "Frisco Lakes",
+    "Richwoods",
+    "Hollyhock",
+    "Edgestone at Legacy",
+    "Plantation Resort"
+   ],
+   "landmarks": [
+    "The Star in Frisco",
+    "Toyota Stadium",
+    "Riders Field",
+    "Stonebriar Centre",
+    "Comerica Center",
+    "PGA of America Headquarters",
+    "Frisco Commons Park",
+    "Frisco Heritage Museum"
+   ],
+   "zip_codes": [
+    "75033",
+    "75034",
+    "75035",
+    "75036"
+   ],
+   "local_notes": "Frisco was farmland until the late 1990s, so nearly the whole city is slab-on-grade brick veneer with two-story volume ceilings, attic air handlers sitting over finished space, and PEX or copper supply runs. Stonebriar and Starwood are the older end; Phillips Creek Ranch and Hollyhock are newer. Stewart and Panther creeks drain west toward Lewisville Lake through swelling Houston Black clay."
+  },
+  {
+   "city": "Highland Park",
+   "state": "TX",
+   "slug": "highland-park-tx",
+   "neighborhoods": [
+    "Old Highland Park",
+    "Turtle Creek Acreage",
+    "Hackberry Creek Acreage",
+    "Loma Linda",
+    "Lakeside Drive",
+    "Beverly Drive",
+    "Armstrong Parkway",
+    "Preston Road corridor",
+    "Mockingbird Lane corridor"
+   ],
+   "landmarks": [
+    "Highland Park Village",
+    "Exall Lake",
+    "Lakeside Park",
+    "Highland Park Town Hall",
+    "Dallas Country Club",
+    "Highland Park Public Library",
+    "Prather Park",
+    "Flippen Park"
+   ],
+   "zip_codes": [
+    "75205",
+    "75209",
+    "75219"
+   ],
+   "local_notes": "Highland Park is its own 2.2-square-mile town, an island surrounded by Dallas and University Park, platted in 1907 and built out with Tudor Revival, Spanish Colonial and Neoclassical estates through the 1930s. Expect pier-and-beam, occasional true basements, slate and clay tile roofs, plaster walls and century-old cast-iron stacks. Turtle Creek runs through Lakeside Park into Exall Lake, its corridor in mapped floodplain."
+  },
+  {
+   "city": "University Park",
+   "state": "TX",
+   "slug": "university-park-tx",
+   "neighborhoods": [
+    "Volk Estates",
+    "Caruth Hills",
+    "The Fairway",
+    "Snider Plaza",
+    "SMU campus area",
+    "Hillcrest Avenue corridor",
+    "Lovers Lane corridor",
+    "Preston Road corridor"
+   ],
+   "landmarks": [
+    "Southern Methodist University",
+    "George W. Bush Presidential Center",
+    "Meadows Museum",
+    "Moody Coliseum",
+    "Snider Plaza",
+    "Curtis Park",
+    "Goar Park",
+    "Caruth Park"
+   ],
+   "zip_codes": [
+    "75205",
+    "75225"
+   ],
+   "local_notes": "Incorporated in 1924 around SMU and largely built out by the 1940s, a separate municipality bordered by Dallas on three sides and Highland Park to the south. Since the 1970s small original cottages have given way to two-story rebuilds, so one block mixes 1930s pier-and-beam with new slab. The storm-drain network dates to 1925-1955, partly over a buried creek, and low ground ponds in heavy rain."
+  },
+  {
+   "city": "Greenville",
+   "state": "TX",
+   "slug": "greenville-tx"
+  },
+  {
    "city": "Terrell",
    "state": "TX",
    "slug": "terrell-tx"
-  },
-  {
-   "city": "Fate",
-   "state": "TX",
-   "slug": "fate-tx"
   }
  ],
  "template": "restoration",

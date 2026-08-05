@@ -923,6 +923,26 @@ def write_image_style_guide(out_path: Path, inputs: dict, template: Template,
         "regional_climate_notes": _format_regional_climate_notes(inputs),
     }
     rendered = render(tmpl_path.read_text(), ctx)
+
+    # CLIENT DIRECTION IS NOT REGENERABLE (2026-08-05, Reign Restoration).
+    # This function used to blow the file away and re-render it from the
+    # canonical template on every `plan_site.py generate`. Any per-client
+    # direction the client themselves dictated — Reign's "vehicles must be
+    # black", the exact livery spec taken from a photo of his real truck, and
+    # the VAN-/CREW-/MOOD-OVERRIDE lines gen_site_images.py regexes out of this
+    # file — was silently destroyed by an unrelated re-plan, and the next image
+    # regeneration would quietly go back to generic. Everything above the
+    # first horizontal rule is the client's block: it is preserved verbatim and
+    # the canonical body is rebuilt underneath it.
+    _DIRECTION_MARKERS = ("CLIENT DIRECTION", "-OVERRIDE:", "LIVERY-REFERENCE:")
+    if out_path.exists():
+        existing = out_path.read_text()
+        head = existing.split("\n---\n", 1)[0]
+        if any(m in head for m in _DIRECTION_MARKERS):
+            body = rendered.split("\n", 1)[1].lstrip("\n")  # drop duplicate H1
+            rendered = head.rstrip() + "\n\n---\n\n" + body
+            print("    image-style-guide: preserved existing CLIENT DIRECTION block")
+
     out_path.write_text(rendered)
 
 

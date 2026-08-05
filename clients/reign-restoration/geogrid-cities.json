@@ -1,7 +1,17 @@
 [
- {
-  "label": "Royse City",
-  "lat": 32.9761045,
-  "lng": -96.331334
- }
+  {
+    "label": "Royse City, TX",
+    "lat": 32.9761045,
+    "lng": -96.331334
+  },
+  {
+    "label": "Rockwall, TX",
+    "lat": 32.9312,
+    "lng": -96.4597
+  },
+  {
+    "label": "Dallas, TX",
+    "lat": 32.7763,
+    "lng": -96.7969
+  }
 ]

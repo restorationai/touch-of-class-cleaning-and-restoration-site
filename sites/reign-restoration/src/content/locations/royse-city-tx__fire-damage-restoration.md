@@ -20,7 +20,7 @@ state: "TX"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
-When a fire tears through a Royse City home, the damage rarely stops where the flames do. The fast-growing residential corridors spreading out from Highway 276 and I-30 are filled with newer construction — vinyl siding, engineered lumber, open floor plans — materials that burn hot and fast, and that absorb smoke odor deep into wall cavities before the fire department has even cleared the scene. Reign Restoration is based here in Royse City, so when you call (214) 304-0621, you're not waiting on a crew to drive in from Dallas.
+When a fire tears through a Royse City home, the damage rarely stops where the flames do. The fast-growing residential corridors spreading out from Highway 276 and I-30 are filled with newer construction — vinyl siding, engineered lumber, open floor plans — materials that burn hot and fast, and that absorb smoke odor deep into wall cavities before the fire department has even cleared the scene. Reign Restoration is based here in Royse City, so when you call (214) 304-0621, you're not waiting on a crew to drive in from the far side of the metroplex.
 
 ## Why Royse City Properties Face Distinct Fire Damage Challenges
 

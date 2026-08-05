@@ -1,0 +1,118 @@
+{
+  "keywords": [
+    "water damage restoration",
+    "fire damage restoration",
+    "mold remediation",
+    "storm damage restoration",
+    "renovations, remodels",
+    "contents restoration",
+    "water damage restoration near me",
+    "fire damage restoration near me"
+  ],
+  "cities": [
+    {
+      "label": "Royse City, TX",
+      "lat": 32.9761045,
+      "lng": -96.331334,
+      "primary": true
+    },
+    {
+      "label": "Rockwall, TX",
+      "lat": 32.9312,
+      "lng": -96.4597,
+      "primary": false
+    },
+    {
+      "label": "Fate, TX",
+      "lat": 32.9414,
+      "lng": -96.3814,
+      "primary": false
+    },
+    {
+      "label": "Rowlett, TX",
+      "lat": 32.9029,
+      "lng": -96.5639,
+      "primary": false
+    },
+    {
+      "label": "Wylie, TX",
+      "lat": 33.0152,
+      "lng": -96.5388,
+      "primary": false
+    },
+    {
+      "label": "Garland, TX",
+      "lat": 32.9126,
+      "lng": -96.6389,
+      "primary": false
+    },
+    {
+      "label": "Mesquite, TX",
+      "lat": 32.7666,
+      "lng": -96.5995,
+      "primary": false
+    },
+    {
+      "label": "Dallas, TX",
+      "lat": 32.7763,
+      "lng": -96.7969,
+      "primary": false
+    },
+    {
+      "label": "Richardson, TX",
+      "lat": 32.9482,
+      "lng": -96.7297,
+      "primary": false
+    },
+    {
+      "label": "Plano, TX",
+      "lat": 33.0137,
+      "lng": -96.6925,
+      "primary": false
+    },
+    {
+      "label": "Allen, TX",
+      "lat": 33.1032,
+      "lng": -96.6706,
+      "primary": false
+    },
+    {
+      "label": "McKinney, TX",
+      "lat": 33.1976,
+      "lng": -96.6154,
+      "primary": false
+    },
+    {
+      "label": "Frisco, TX",
+      "lat": 33.1506,
+      "lng": -96.8238,
+      "primary": false
+    },
+    {
+      "label": "Highland Park, TX",
+      "lat": 32.8335,
+      "lng": -96.7919,
+      "primary": false
+    },
+    {
+      "label": "University Park, TX",
+      "lat": 32.8551,
+      "lng": -96.7919,
+      "primary": false
+    },
+    {
+      "label": "Greenville, TX",
+      "lat": 33.1384,
+      "lng": -96.1108,
+      "primary": false
+    },
+    {
+      "label": "Terrell, TX",
+      "lat": 32.736,
+      "lng": -96.2753,
+      "primary": false
+    }
+  ],
+  "company_id": "CO-1785771354136",
+  "has_identity": true
+}

@@ -113,7 +113,8 @@ DEFAULTS = {
     # Canonical palette matching the narestco visual reference (dark + red).
     # Per-client overrides flow through plan-input.json's brand block.
     "BRAND_DARK_COLOR": "#111827",      # dark.DEFAULT — dominant background (gray-900)
-    "BRAND_PRIMARY_COLOR": "#dc2626",   # primary-600 — CTA buttons, links
+    "BRAND_PRIMARY_COLOR": "#dc2626",   # primary.DEFAULT — the client's ACTUAL brand hex
+    "BRAND_PRIMARY_CTA": "#dc2626",     # primary-600 — solid fills that carry WHITE text
     "BRAND_PRIMARY_DARK": "#b91c1c",    # primary-700 — hover state
     "BRAND_PRIMARY_LIGHT": "#fecaca",   # primary-200 — light tint
     "BRAND_ACCENT_COLOR": "#ef4444",    # accent — urgent highlights
@@ -254,26 +255,88 @@ def resolve_tokens(client: dict, plan_input: dict) -> tuple[dict, dict]:
         r2, g2, b2 = colorsys.hls_to_rgb(h, l_target, s)
         return "#%02x%02x%02x" % (round(r2 * 255), round(g2 * 255), round(b2 * 255))
 
+    def _rel_lum(hexcol: str) -> float:
+        """WCAG relative luminance (sRGB, gamma-corrected)."""
+        hx = (hexcol or "").lstrip("#")
+        if len(hx) != 6:
+            return 0.0
+        out = []
+        for i in (0, 2, 4):
+            c = int(hx[i:i + 2], 16) / 255
+            out.append(c / 12.92 if c <= 0.03928 else ((c + 0.055) / 1.055) ** 2.4)
+        return 0.2126 * out[0] + 0.7152 * out[1] + 0.0722 * out[2]
+
+    def _contrast(a: str, b: str) -> float:
+        la, lb = _rel_lum(a), _rel_lum(b)
+        if la < lb:
+            la, lb = lb, la
+        return (la + 0.05) / (lb + 0.05)
+
     prim = string_tokens["BRAND_PRIMARY_COLOR"]
     ramp = {50: 0.97, 100: 0.92, 200: 0.84, 300: 0.72, 400: 0.61,
             500: 0.50, 600: 0.42, 700: 0.34, 800: 0.27, 900: 0.21, 950: 0.12}
     for shade, l_ in ramp.items():
         string_tokens[f"BRAND_PRIMARY_{shade}"] = _shade(prim, l_)
+
+    # ---- Contrast-safe CTA fill (2026-08-05, Reign Restoration) -------------
+    # The starter uses the brand color in TWO structurally different roles:
+    #   * primary.DEFAULT   -> text-primary on a dark surface  (wants the REAL
+    #                          brand hex; the client recognises this as "our
+    #                          colour")
+    #   * primary-600 / 700 -> SOLID FILLS that render WHITE text (hero CTA,
+    #                          announcement bar, mobile call bar, form submit)
+    # Both used to be the same token, so a light brand colour forced a choice
+    # between a legible button and the client's actual colour. Reign's gold is
+    # #f2b623 — white on it is 1.8:1 — so the previous pass shipped a darkened
+    # #8c6a18 as "the brand colour" and Jerrott replied "the yellow need to
+    # match the logo color." Now the roles are split: DEFAULT keeps the real
+    # hex, and the CTA fill walks down the SAME hue/saturation until white
+    # clears WCAG AA (4.5:1). No-ops for dark brands (red #dc2626 = 4.8:1,
+    # so every existing client regenerates byte-identical); fires for the
+    # light ones (lime, gold, sky) that were shipping unreadable buttons.
+    if "primary_cta" not in brand:
+        cta = prim
+        if _contrast("#ffffff", cta) < 4.5:
+            l_ = colorsys.rgb_to_hls(
+                *(int(prim.lstrip("#")[i:i + 2], 16) / 255 for i in (0, 2, 4)))[1]
+            while l_ > 0.04:
+                l_ -= 0.005
+                cand = _shade(prim, l_)
+                if _contrast("#ffffff", cand) >= 4.6:  # 0.1 of headroom
+                    cta = cand
+                    break
+            else:
+                cta = _shade(prim, 0.04)
+        string_tokens["BRAND_PRIMARY_CTA"] = cta
+    cta = string_tokens["BRAND_PRIMARY_CTA"]
+    string_tokens["BRAND_PRIMARY_600"] = cta
+
     if "primary_dark" not in brand:
-        string_tokens["BRAND_PRIMARY_DARK"] = string_tokens["BRAND_PRIMARY_700"]
+        # 700 is the CTA's hover — must stay DARKER than the fill it hovers
+        # from, which the fixed L=0.34 rung cannot guarantee once the fill has
+        # been walked down.
+        cta_l = colorsys.rgb_to_hls(
+            *(int(cta.lstrip("#")[i:i + 2], 16) / 255 for i in (0, 2, 4)))[1]
+        string_tokens["BRAND_PRIMARY_DARK"] = _shade(
+            prim, max(min(ramp[700], cta_l - 0.08), 0.04))
+    string_tokens["BRAND_PRIMARY_700"] = string_tokens["BRAND_PRIMARY_DARK"]
+    # Walking 600/700 down can leave the fixed 800/900/950 rungs LIGHTER than
+    # 700 (a gold 700 lands near L=0.24 while the 800 rung is pinned at 0.27),
+    # which would invert the ramp. Keep the tail monotonically darker.
+    prev_l = colorsys.rgb_to_hls(
+        *(int(string_tokens["BRAND_PRIMARY_700"].lstrip("#")[i:i + 2], 16) / 255
+          for i in (0, 2, 4)))[1]
+    for shade in (800, 900, 950):
+        cap = max(prev_l - 0.045, 0.02)
+        l_ = min(ramp[shade], cap)
+        string_tokens[f"BRAND_PRIMARY_{shade}"] = _shade(prim, l_)
+        prev_l = l_
     if "primary_light" not in brand:
         string_tokens["BRAND_PRIMARY_LIGHT"] = string_tokens["BRAND_PRIMARY_200"]
     if "accent_color" not in brand:
-        # btn-accent renders white text — a light brand color (lime, yellow,
-        # sky) fails contrast, so the accent drops to the 700 shade
-        hx = prim.lstrip("#")
-        try:
-            lum = (0.2126 * int(hx[0:2], 16) + 0.7152 * int(hx[2:4], 16)
-                   + 0.0722 * int(hx[4:6], 16)) / 255
-        except ValueError:
-            lum = 0.3
-        string_tokens["BRAND_ACCENT_COLOR"] = (
-            prim if lum < 0.45 else string_tokens["BRAND_PRIMARY_700"])
+        # btn-accent renders white text, so the accent uses the same
+        # contrast-safe fill the rest of the CTAs do.
+        string_tokens["BRAND_ACCENT_COLOR"] = cta
 
     json_tokens = {
         "BRAND_LICENSE_NUMBERS_JSON": json.dumps(brand.get("license_numbers", [])),

@@ -27,23 +27,28 @@ export default {
           950: "#030712",
         },
         primary: {
-          DEFAULT: "#8c6a18",
-          50: "#fdfaf2",
-          100: "#f9f1dc",
-          200: "#f3e2b9",
-          300: "#eacc85",
-          400: "#e2b955",
-          500: "#daa525",
-          600: "#8c6a18",
-          700: "#947019",
-          800: "#765914",
-          900: "#5b4510",
-          950: "#342809",
+          DEFAULT: "#f2b623",
+          50: "#fefaf1",
+          100: "#fdf2d8",
+          200: "#fae5b2",
+          300: "#f7d278",
+          400: "#f4c143",
+          500: "#f1af0e",
+          // 600 is the SOLID-FILL rung — every CTA that renders white text
+          // (hero button, announcement bar, mobile call bar, form submit) uses
+          // it, so it is the contrast-guaranteed derivative of the brand hex,
+          // NOT the raw hex. DEFAULT above keeps the client's real colour for
+          // text-primary. See build_site.resolve_tokens (BRAND_PRIMARY_CTA).
+          600: "#976e09",
+          700: "#715207",
+          800: "#5c4305",
+          900: "#463304",
+          950: "#302303",
         },
         accent: {
           // btn-accent renders WHITE text on this color — pick an accent that
           // keeps >= 4.5:1 contrast with white (WCAG AA). e.g. #dc2626 or #c2410c.
-          DEFAULT: "#8c6a18",
+          DEFAULT: "#976e09",
         },
         muted: {
           DEFAULT: "#4b5563",

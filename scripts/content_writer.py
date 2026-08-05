@@ -232,21 +232,31 @@ def sanitize_content(obj):
 def gemini_generate_image(prompt: str, *, model: str = GEMINI_PRO_MODEL,
                           aspect_ratio: str = "16:9",
                           max_retries: int = 3,
-                          reference_png: bytes | None = None) -> bytes:
+                          reference_png: bytes | list[bytes] | None = None) -> bytes:
     """Generate an image via the Gemini REST API. Returns PNG bytes.
-    reference_png: optional brand asset (e.g. the client's logo) passed as an
-    image part so vehicle wraps / signage reproduce the REAL mark
-    (standing rule 2026-07-29: branded vans in hero/team/services)."""
+    reference_png: optional brand asset(s) passed as image parts so vehicle
+    wraps / signage reproduce the REAL mark (standing rule 2026-07-29: branded
+    vans in hero/team/services). Accepts a LIST (2026-08-05, Reign): one logo
+    plus a real photo of the client's actual wrapped vehicle plus the already-
+    approved fleet shot, so the livery is anchored to reality and stays
+    identical from image to image instead of being re-invented each call."""
     api_key = os.environ.get("GOOGLE_AI_API_KEY")
     if not api_key:
         die("Missing GOOGLE_AI_API_KEY (see rank-ai/.env).")
 
     url = f"{GEMINI_API_BASE}/{model}:generateContent?key={api_key}"
     parts: list = [{"text": prompt}]
-    if reference_png:
+    refs = reference_png if isinstance(reference_png, list) else (
+        [reference_png] if reference_png else [])
+    for ref in refs:
+        if not ref:
+            continue
         import base64 as _b64
-        parts.append({"inline_data": {"mime_type": "image/png",
-                                      "data": _b64.b64encode(reference_png).decode()}})
+        # PNG and JPEG both start with a recognisable magic number; harvested
+        # client photos arrive as JPEG and must not be mislabelled.
+        mime = "image/jpeg" if ref[:3] == b"\xff\xd8\xff" else "image/png"
+        parts.append({"inline_data": {"mime_type": mime,
+                                      "data": _b64.b64encode(ref).decode()}})
     body = {
         "contents": [{"parts": parts}],
         "generationConfig": {

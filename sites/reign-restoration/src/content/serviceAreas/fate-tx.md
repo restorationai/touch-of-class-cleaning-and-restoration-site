@@ -47,7 +47,7 @@ Mitigation is only half the job. Once the structure is dry and clean, Reign Rest
 
 ## Coverage and how fast we can get there
 
-Royse City and Fate share a border, and US-380 connects our HQ directly to the heart of Fate in a straightforward drive under normal traffic conditions. Whether a call comes from the established neighborhoods near Fate's original town center or from the newer subdivisions that have expanded toward the Hunt County line, we're closer than most DFW-based restoration companies that list Fate as a service area but dispatch from Plano or Garland. We schedule promptly and communicate an estimated arrival time when you call — (214) 304-0621.
+Royse City and Fate share a border, and US-380 connects our HQ directly to the heart of Fate in a straightforward drive under normal traffic conditions. Whether a call comes from the established neighborhoods near Fate's original town center or from the newer subdivisions that have expanded toward the Hunt County line, we're closer than most DFW-based restoration companies that list Fate as a service area but dispatch from the far side of the metro. We schedule promptly and communicate an estimated arrival time when you call — (214) 304-0621.
 
 ## A recent Fate response
 

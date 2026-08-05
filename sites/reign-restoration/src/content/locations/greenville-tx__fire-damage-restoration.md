@@ -44,7 +44,7 @@ Every fire loss is different, but the sequence of decisions follows a discipline
 
 ## Reaching Greenville from Royse City
 
-Reign Restoration is headquartered in Royse City, roughly 25 miles southwest of Greenville via US-380. That corridor is a straightforward drive with no significant bottlenecks outside of peak commute windows, putting the team within practical reach of Greenville properties without the delays that affect contractors based in the Dallas metro core. If your property is on the eastern side of the city toward the I-30 interchange, or further north along US-69, call (214) 304-0621 and the team can give you a realistic arrival estimate based on current conditions.
+Reign Restoration is headquartered in Royse City, roughly 25 miles southwest of Greenville via US-380. That corridor is a straightforward drive with no significant bottlenecks outside of peak commute windows, putting the team within practical reach of Greenville properties without the delays that affect contractors based on the far side of the metro. If your property is on the eastern side of the city toward the I-30 interchange, or further north along US-69, call (214) 304-0621 and the team can give you a realistic arrival estimate based on current conditions.
 
 ## Insurance Coordination for Greenville Fire Claims
 

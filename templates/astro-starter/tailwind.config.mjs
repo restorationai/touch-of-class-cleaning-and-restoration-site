@@ -34,7 +34,12 @@ export default {
           300: "{{BRAND_PRIMARY_300}}",
           400: "{{BRAND_PRIMARY_400}}",
           500: "{{BRAND_PRIMARY_500}}",
-          600: "{{BRAND_PRIMARY_COLOR}}",
+          // 600 is the SOLID-FILL rung — every CTA that renders white text
+          // (hero button, announcement bar, mobile call bar, form submit) uses
+          // it, so it is the contrast-guaranteed derivative of the brand hex,
+          // NOT the raw hex. DEFAULT above keeps the client's real colour for
+          // text-primary. See build_site.resolve_tokens (BRAND_PRIMARY_CTA).
+          600: "{{BRAND_PRIMARY_CTA}}",
           700: "{{BRAND_PRIMARY_DARK}}",
           800: "{{BRAND_PRIMARY_800}}",
           900: "{{BRAND_PRIMARY_900}}",
