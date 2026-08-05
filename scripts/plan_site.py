@@ -272,6 +272,11 @@ def expand_inputs(template: Template, plan_input: dict, client: dict) -> dict:
     primary_area = next(a for a in areas if a.get("primary"))
     brand.setdefault("primary_city", primary_area["city"])
     brand.setdefault("primary_state", primary_area["state"])
+    # The PHYSICAL address, which is not always the primary marketing city
+    # (DISS 2026-08-05: Farrell PA office, Youngstown OH target). Only this
+    # pair is allowed in a PostalAddress / LocalBusiness schema stub.
+    brand.setdefault("address_city", (brand.get("city") or "").strip() or primary_area["city"])
+    brand.setdefault("address_state", (brand.get("state") or "").strip() or primary_area["state"])
 
     # Defaults
     inputs.setdefault("cross_product", True)
@@ -915,6 +920,8 @@ def write_image_style_guide(out_path: Path, inputs: dict, template: Template,
             "short_name": brand.get("short_name") or brand.get("display_name", ""),
             "primary_city": brand.get("primary_city") or primary.get("city", ""),
             "primary_state": brand.get("primary_state") or primary.get("state", ""),
+            "address_city": brand.get("address_city") or brand.get("city") or primary.get("city", ""),
+            "address_state": brand.get("address_state") or brand.get("state") or primary.get("state", ""),
             "primary_color": primary_color,
             "accent_color": accent_color,
             "services_selected": ", ".join(selected_services) if selected_services else "(see plan)",

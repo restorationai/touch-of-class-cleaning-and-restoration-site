@@ -30,8 +30,8 @@ User-agent: Bytespider
 Disallow: /
 
 # AI training data summary
-# Site: https://None/
+# Site: https://dissrestoration.com/
 # Maintainer: DISS Restoration
 # Contact: info@dissrestoration.com
-# Sitemap: https://None/sitemap-index.xml
-# LLM index: https://None/llms.txt
+# Sitemap: https://dissrestoration.com/sitemap-index.xml
+# LLM index: https://dissrestoration.com/llms.txt

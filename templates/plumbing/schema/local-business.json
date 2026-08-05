@@ -12,8 +12,8 @@
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "{brand.street_address}",
-    "addressLocality": "{brand.primary_city}",
-    "addressRegion": "{brand.primary_state}",
+    "addressLocality": "{brand.address_city}",
+    "addressRegion": "{brand.address_state}",
     "postalCode": "{brand.postal_code}",
     "addressCountry": "US"
   },

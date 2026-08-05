@@ -149,6 +149,34 @@ def fetch_job_photos(company_id: str, limit: int = 24) -> list[str]:
     return urls[:limit]
 
 
+_US_STATE_ABBR = {
+    "alabama": "AL", "alaska": "AK", "arizona": "AZ", "arkansas": "AR",
+    "california": "CA", "colorado": "CO", "connecticut": "CT", "delaware": "DE",
+    "florida": "FL", "georgia": "GA", "hawaii": "HI", "idaho": "ID",
+    "illinois": "IL", "indiana": "IN", "iowa": "IA", "kansas": "KS",
+    "kentucky": "KY", "louisiana": "LA", "maine": "ME", "maryland": "MD",
+    "massachusetts": "MA", "michigan": "MI", "minnesota": "MN",
+    "mississippi": "MS", "missouri": "MO", "montana": "MT", "nebraska": "NE",
+    "nevada": "NV", "new hampshire": "NH", "new jersey": "NJ",
+    "new mexico": "NM", "new york": "NY", "north carolina": "NC",
+    "north dakota": "ND", "ohio": "OH", "oklahoma": "OK", "oregon": "OR",
+    "pennsylvania": "PA", "rhode island": "RI", "south carolina": "SC",
+    "south dakota": "SD", "tennessee": "TN", "texas": "TX", "utah": "UT",
+    "vermont": "VT", "virginia": "VA", "washington": "WA",
+    "west virginia": "WV", "wisconsin": "WI", "wyoming": "WY",
+    "district of columbia": "DC",
+}
+
+
+def _state_abbr(state) -> str:
+    """'Mississippi' / ' ca ' -> 'MS' / 'CA'. The wizard writes full names and
+    the geo pickers write codes; a PostalAddress must carry the code."""
+    s = str(state or "").strip()
+    if not s:
+        return ""
+    return _US_STATE_ABBR.get(s.lower(), s.upper() if len(s) == 2 else s)
+
+
 def resolve_tokens(client: dict, plan_input: dict) -> tuple[dict, dict]:
     """Return (string_tokens, json_tokens). JSON tokens substitute as bare
     JS literals (no surrounding quotes)."""
@@ -202,6 +230,16 @@ def resolve_tokens(client: dict, plan_input: dict) -> tuple[dict, dict]:
         "BRAND_FOUNDED_YEAR": str(brand.get("founded_year", "")),
         "BRAND_PRIMARY_CITY": primary_area.get("city", ""),
         "BRAND_PRIMARY_STATE": primary_area.get("state", ""),
+        # The PHYSICAL address city/state, which is NOT the same thing as the
+        # primary MARKETING city (DISS Restoration 2026-08-05: office at 712
+        # Spearman Ave, Farrell PA 16121, primary target Youngstown OH — the
+        # PostalAddress schema composed the real street + real ZIP with the
+        # wrong locality and shipped an address that does not exist, on a
+        # fleet whose whole citations programme is NAP consistency). Falls
+        # back to the primary area so every client where the two ARE the same
+        # regenerates byte-identical.
+        "BRAND_ADDRESS_CITY": (brand.get("city") or "").strip() or primary_area.get("city", ""),
+        "BRAND_ADDRESS_STATE": _state_abbr(brand.get("state")) or primary_area.get("state", ""),
         "BRAND_STREET_ADDRESS": brand.get("street_address", ""),
         "BRAND_POSTAL_CODE": brand.get("postal_code", ""),
         "BRAND_LAT": str(brand.get("lat", "")),

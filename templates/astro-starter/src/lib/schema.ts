@@ -55,8 +55,8 @@ function localBusiness(ctx: PageSchemaContext) {
     address: {
       "@type": "PostalAddress",
       streetAddress: brand.streetAddress,
-      addressLocality: brand.primaryCity,
-      addressRegion: brand.primaryState,
+      addressLocality: brand.addressCity,
+      addressRegion: brand.addressState,
       postalCode: brand.postalCode,
       addressCountry: "US",
     },

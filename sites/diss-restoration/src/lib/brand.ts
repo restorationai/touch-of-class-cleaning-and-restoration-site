@@ -7,8 +7,8 @@ export const brand = {
   displayName: "DISS Restoration",
   shortName: "DISS Restoration",
   legalName: "DISS Restoration",
-  domain: "",
-  canonicalUrl: "https://None",
+  domain: "dissrestoration.com",
+  canonicalUrl: "https://dissrestoration.com",
   phone: "(724) 981-1441",
   phoneRaw: "+17249811441",
   email: "info@dissrestoration.com",
@@ -16,18 +16,24 @@ export const brand = {
   foundedYear: "2021",
   primaryCity: "Youngstown",
   primaryState: "OH",
+  // primaryCity/primaryState = the #1 MARKETING city (headlines, coverage
+  // copy). addressCity/addressState = where the business PHYSICALLY is.
+  // They are usually the same and often diverge (DISS: Farrell PA office,
+  // Youngstown OH target) — only the address pair may go in a PostalAddress.
+  addressCity: "Farrell",
+  addressState: "PA",
   streetAddress: "712 Spearman Avenue",
   postalCode: "16121",
   lat: "41.1035786",
   lng: "-80.6520161",
   placeId: "",
   googleCid: "",
-  imagesBase: "https://images.None",
+  imagesBase: "https://images.dissrestoration.com",
   googleMapsApiKey: "",
   // Analytics — set post-scaffold (scripts/analytics_set.py / create_ga4.py); no-op if empty
   ga4MeasurementId: "",
   clarityProjectId: "",
-  logoUrl: "https://images.None/brand/logo.png",
+  logoUrl: "https://images.dissrestoration.com/brand/logo.png",
   licenseNumbers: [] as string[],
   licenseAuthority: "",
   // State license-verification page — the footer links the license number here.

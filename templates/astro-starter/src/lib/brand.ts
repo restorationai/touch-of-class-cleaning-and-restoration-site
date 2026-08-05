@@ -16,6 +16,12 @@ export const brand = {
   foundedYear: "{{BRAND_FOUNDED_YEAR}}",
   primaryCity: "{{BRAND_PRIMARY_CITY}}",
   primaryState: "{{BRAND_PRIMARY_STATE}}",
+  // primaryCity/primaryState = the #1 MARKETING city (headlines, coverage
+  // copy). addressCity/addressState = where the business PHYSICALLY is.
+  // They are usually the same and often diverge (DISS: Farrell PA office,
+  // Youngstown OH target) — only the address pair may go in a PostalAddress.
+  addressCity: "{{BRAND_ADDRESS_CITY}}",
+  addressState: "{{BRAND_ADDRESS_STATE}}",
   streetAddress: "{{BRAND_STREET_ADDRESS}}",
   postalCode: "{{BRAND_POSTAL_CODE}}",
   lat: "{{BRAND_LAT}}",
