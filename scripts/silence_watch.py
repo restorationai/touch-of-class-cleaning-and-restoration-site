@@ -195,6 +195,29 @@ def probe_gbp_invites(_days: float):
         f"{len(memo)} client(s) in the access memo"
 
 
+def probe_ads_link_accept(_days: float):
+    """Self-approval of Google Ads / LSA manager links (nightly, Mac only).
+
+    Reads the pass's own heartbeat rather than counting accepted links: once
+    the backlog is cleared most nights legitimately accept nothing, and a
+    quiet night must not look like a dead pass. The failure this catches is
+    the one that matters — the Mac asleep, or the MCC credentials gone, which
+    the pass stamps as an error with zero inputs."""
+    try:
+        from heartbeat import read
+        hb = read("ads-link-accept") or {}
+    except Exception:  # noqa: BLE001
+        hb = {}
+    clients = _active_clients()
+    return len(clients), (f"{len(clients)} active client(s) whose manager "
+                          "links this pass can clear without asking them"), \
+        hb.get("last_run_at"), \
+        ("last error: " + str(hb.get("last_error"))[:80]
+         if hb.get("last_error")
+         else f"{(hb.get('totals') or {}).get('outputs') or 0} link(s) "
+              "accepted for clients to date")
+
+
 def probe_citation_queue(days: float):
     """authority_targets -> get_listed rows (monthly Railway cron)."""
     clients = _active_clients()
@@ -280,6 +303,16 @@ SYSTEMS: list[dict] = [
             "management; this ran manual-only for three days in August and "
             "nobody could tell",
      "fix": "python3 scripts/gbp_admin_invite.py --dry-run"},
+    {"key": "ads-link-accept", "label": "Ads/LSA manager links accepted FOR "
+                                        "the client",
+     "probe": probe_ads_link_accept, "window": 3, "quiet_days": 3,
+     "why": "a PENDING manager link used to become a text asking the client "
+            "to accept it; we can approve it ourselves with their own admin "
+            "grant, and the concierge now stays silent on the strength of "
+            "this pass running — if it stops, the links sit pending AND "
+            "nobody is asking",
+     "fix": "python3 -m browser_agent.sweep --access-only   (launchd "
+            "io.rankai.browser-agent-sweep, nightly 21:30 local)"},
     {"key": "citation-queue", "label": "citation / get-listed targets",
      "probe": probe_citation_queue, "window": 40, "quiet_days": 40,
      "why": "the monthly authority cron is the only thing filling the "

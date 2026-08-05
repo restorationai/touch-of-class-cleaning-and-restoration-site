@@ -2635,10 +2635,14 @@ def has_boss_directive(company_id: str | None) -> bool:
 #   account", which is exactly the one he had already accepted.
 # So: check the live link before asking anyone to accept it, and when the ask
 # is genuinely due, name the account and own the history.
+# "approve" belongs here as much as "accept" (2026-08-05): the text Monica
+# actually sent Jaziel said "have Isaac APPROVE Google's request to let us
+# manage their Local Services Ads", and an accept-only pattern would not have
+# recognised its own incident even once the guard could reach the truth.
 _LSA_ASK_RE = re.compile(
-    r"(?=.*\b(?:manager|management|mcc|access)\b)"
+    r"(?=.*\b(?:manager|management|mcc|access|manage)\b)"
     r"(?=.*\b(?:invite|invitation|request|link)\b)"
-    r"(?=.*accept)", re.I | re.S)
+    r"(?=.*\b(?:accept\w*|approv\w*)\b)", re.I | re.S)
 # ...and it has to be about GOOGLE. Without this clause the pattern also
 # matched Crew Restoration's [DOMAIN-ACCESS-UNVERIFIED] card (registrar
 # "access" + "invite" + "accept" in one note), which would have let the guard
@@ -2718,20 +2722,22 @@ def _stored_link_facts(cm: dict, target: str, is_lsa: bool) -> dict | None:
     _mcc_links() even prints "falling back to stored state" — a fallback that
     did not exist until this function.
 
-    Deliberately narrow: ONLY a stored ACTIVE is honoured, and the only thing
-    it can do is RETIRE an ask. Stored PENDING/absent is left to the live
-    path, because writing the ask (naming the account, owning the history)
-    needs the link history that only the API has. A guard that can only ever
-    say "you already have this, do not ask" cannot invent an ask.
+    Deliberately narrow: it can only ever SILENCE an ask, never write one.
+    A stored ACTIVE retires the ask outright. A stored PENDING is honoured
+    only in the direction of silence — see ads_link_self_serve below —
+    because writing the ask (naming the account, owning the history) needs
+    the link history that only the API has.
     """
     status = (str(cm.get("lsa_link_status") or "").upper()
               or _STORED_TO_LINK.get(
                   str(cm.get("lsa_invite_status") or "").lower(), ""))
-    if status != "ACTIVE":
+    if status not in ("ACTIVE", "PENDING"):
         return None
-    return {"account": target, "is_lsa": is_lsa, "status": "ACTIVE",
+    return {"account": target, "is_lsa": is_lsa, "status": status,
             "link_id": cm.get("lsa_link_id"), "prior": [], "other_active": [],
             "source": "stored",
+            "self_serve": cm.get("ads_link_self_serve"),
+            "self_serve_reason": cm.get("ads_link_self_serve_reason"),
             "checked_at": cm.get("lsa_link_checked_at")
             or cm.get("lsa_invite_at")}
 
@@ -2771,6 +2777,8 @@ def lsa_link_facts(company: dict) -> dict | None:
             "status": cur[-1][1] if cur else "NONE",
             "link_id": cur[-1][0] if cur else None,
             "prior": cur[:-1],
+            "self_serve": cm.get("ads_link_self_serve"),
+            "self_serve_reason": cm.get("ads_link_self_serve_reason"),
             "other_active": [o for o in other if o[1] == "ACTIVE"]}
 
 
@@ -2819,6 +2827,30 @@ def lsa_ask_guard(company: dict, items: list[dict],
         return ([i for i in items if i not in ask_items],
                 [d for d in directives if d not in ask_dirs], None)
 
+    # PENDING IS OUR JOB, NOT THEIRS (Santino 2026-08-05). A pending manager
+    # link was treated as the one thing only the client could clear, and the
+    # whole apology machinery below was built to ask for it politely. Tested
+    # on 08-05 against the real API: a client-side ADMIN can flip
+    # customer_manager_link to ACTIVE, the Google user the client granted us
+    # IS that admin (every grant carries the adwords scope), and
+    # scripts/ads_link_accept.py cleared six accounts — Ads and Local
+    # Services alike — with nobody touching a phone. So a pending link only
+    # ever justifies an ask once we have TRIED and Google refused us.
+    # ads_link_self_serve is that verdict, written by the nightly pass onto
+    # connection_metadata where the credential-less Railway worker can read
+    # it. Unknown (never attempted) stays silent on purpose: the cost of
+    # waiting one night is nothing, the cost of asking wrongly is Curt and
+    # Greg and Jaziel all answering "I already did this".
+    if f.get("self_serve") is not False:
+        why = ("we have not tried yet — the nightly pass will"
+               if f.get("self_serve") is None
+               else "we can accept it ourselves and will")
+        print(f"  [lsa-link] {acct} is PENDING but {why} approve it with the "
+              "client's own admin grant — dropping the ask (ours to do, not "
+              "theirs). scripts/ads_link_accept.py")
+        return ([i for i in items if i not in ask_items],
+                [d for d in directives if d not in ask_dirs], None)
+
     label = "Local Services Ads account" if f["is_lsa"] else "Google Ads account"
     lines = [
         "\nMANAGER-LINK ASK — NAME THE ACCOUNT (Santino 2026-08-04): the "
@@ -2851,7 +2883,198 @@ def lsa_ask_guard(company: dict, items: list[dict],
             "it, so an older Google email they may have kept no longer works "
             "— tell them to use the most recent one. Do not say they accepted "
             "before; a withdrawn invite is not proof that they did.")
+    if f.get("self_serve_reason"):
+        lines.append(
+            "WE TRIED TO DO THIS FOR THEM AND GOOGLE REFUSED "
+            f"({str(f['self_serve_reason'])[:120]}), which is the only reason "
+            "this ask exists. Do not imply they have been sitting on it.")
     return items, directives, "\n".join(lines) + "\n"
+
+
+# ------------------------------------------- Google Business Profile access
+# THE SECOND HALF OF THE SAME RULE (Santino 2026-08-05): "asking a client for
+# things we already have access to is a big no-no." On 08-05 directives went
+# out asking ProRestoration's and PuroClean's owners to add
+# contact@restorationai.io as a GBP manager, worded "we can't get on their
+# Google listing". That wording was false. We are ON both listings — the
+# audit that morning shows our grant holding MANAGER on each — and Monica had
+# been posting to them for weeks. What is actually missing is narrower: the
+# AGENCY account's own manager seat, which only Bing's and Apple's GBP import
+# need. An ask that overstates what we lack is still an ask for access we
+# already hold.
+#
+# So this guard reads the same ground truth gbp_admin_invite.py writes to
+# ops_kv 'gbp-manager-access' (Supabase — so the credential-less Railway
+# worker sees it too) and allows exactly one case through:
+#
+#   manager         we hold the seat            -> RETIRE the ask
+#   none / pending  the API can still get it    -> DROP it (ours to do)
+#   owner_must_add  Google 404s a manager       -> the ONLY fair ask, and it
+#                   adding an admin                must be worded as the Bing
+#                                                  and Apple seat, not as
+#                                                  "we can't reach your
+#                                                  listing"
+#   unknown         no location/place_id yet    -> DROP (nothing to hold)
+#
+# Verified against the fleet on 2026-08-05: 9 clients already manager, 3
+# genuinely owner_must_add (HomeLyft, ProRestoration, PuroClean East Las
+# Vegas), 8 with no GBP location connected at all.
+# An explicit GBP noun is required, never a bare "google": "accept the Google
+# Ads manager invite" would otherwise match both guards, and the Ads one owns
+# it. The negative clause keeps Ads/LSA wording out for the same reason.
+_GBP_MGR_ASK_RE = re.compile(
+    r"(?=.*\b(?:gbp|business\s*profile|business\s*listing|google\s*listing|"
+    r"business\.google\.com)\b)"
+    r"(?!.*\b(?:adwords|local\s+services|lsa|google\s+ads)\b)"
+    r"(?=.*\b(?:manager|admin|administrator|people\s+and\s+access|access)\b)"
+    r"(?=.*\b(?:add|invite|grant|give)\b)", re.I | re.S)
+# The OAuth connect ask is the same family: never ask a client to connect an
+# account they have already connected.
+_GBP_CONNECT_ASK_RE = re.compile(
+    r"(?=.*\bconnect\b)(?=.*\bgoogle\b)"
+    r"(?=.*\b(?:account|listing|business\s*profile|gbp)\b)", re.I | re.S)
+_GBP_ASK_NOT_RE = re.compile(
+    r"do ?n['’]?o?t ask|don['’]t ask|no need to ask|already (?:connected|added)"
+    r"|nothing else needed", re.I)
+
+
+def _gbp_access_state(company_id: str) -> str:
+    """Agency-seat state for this client's GBP, from the memo the daily
+    gbp_admin_invite pass re-derives from Google itself.
+
+    '' when we have never evaluated this client — treated as 'unknown'."""
+    try:
+        rows = _sb("GET", "/rest/v1/ops_kv?k=eq.gbp-manager-access&select=v") or []
+        memo = (rows[0].get("v") or {}) if rows else {}
+    except Exception:
+        return ""
+    try:
+        from client_ops_sync import slug_map
+        slug = slug_map().get(company_id)
+    except Exception:
+        slug = None
+    return str(((memo.get(slug) or {}) if slug else {}).get("state") or "")
+
+
+def _has_google_grant(company_id: str) -> bool:
+    """Does this client already have a live Google OAuth connection?"""
+    try:
+        rows = _sb("GET", "/rest/v1/user_integrations"
+                   f"?client_id=eq.{company_id}&provider=eq.google"
+                   "&select=id&limit=1") or []
+        return bool(rows)
+    except Exception:
+        return False
+
+
+def gbp_ask_guard(company: dict, items: list[dict],
+                  directives: list[dict] | None, dry_run: bool):
+    """Never ask for Google access we hold, or could take ourselves.
+
+    Same contract as lsa_ask_guard: (items, directives, note)."""
+    directives = directives or []
+
+    def _is(rx, t):
+        t = str(t or "")
+        return bool(rx.search(t)) and not _GBP_ASK_NOT_RE.search(t)
+
+    conn_items = [i for i in items if _is(_GBP_CONNECT_ASK_RE, i.get("text"))]
+    conn_dirs = [d for d in directives if _is(_GBP_CONNECT_ASK_RE, d.get("body"))]
+    mgr_items = [i for i in items if _is(_GBP_MGR_ASK_RE, i.get("text"))
+                 and i not in conn_items]
+    mgr_dirs = [d for d in directives if _is(_GBP_MGR_ASK_RE, d.get("body"))
+                and d not in conn_dirs]
+    if not (conn_items or conn_dirs or mgr_items or mgr_dirs):
+        return items, directives, None
+
+    drop_i: list[dict] = []
+    drop_d: list[dict] = []
+    note: str | None = None
+
+    if conn_items or conn_dirs:
+        if _has_google_grant(company["id"]):
+            print("  [gbp-access] their Google account is ALREADY connected "
+                  "(user_integrations holds a live grant) — retiring the "
+                  "connect ask instead of sending it")
+            for it in conn_items:
+                val = (f"auto-satisfied {datetime.now(timezone.utc).date()}: "
+                       "Google account already connected — nothing to ask")
+                if it.get("kind") == "intake":
+                    apply_answer(it["id"], val, dry_run)
+                else:
+                    resolve_plan_row(it["id"], dry_run)
+            if not dry_run:
+                resolve_directives(conn_dirs, why="Google already connected")
+            drop_i += conn_items
+            drop_d += conn_dirs
+
+    if mgr_items or mgr_dirs:
+        state = _gbp_access_state(company["id"])
+        if state == "manager":
+            print("  [gbp-access] contact@restorationai.io is ALREADY an "
+                  "accepted manager on their listing — retiring the ask "
+                  "instead of sending it")
+            for it in mgr_items:
+                val = (f"auto-satisfied {datetime.now(timezone.utc).date()}: "
+                       "agency account is already a manager on the GBP "
+                       "listing (gbp-manager-access memo)")
+                if it.get("kind") == "intake":
+                    apply_answer(it["id"], val, dry_run)
+                else:
+                    resolve_plan_row(it["id"], dry_run)
+            if not dry_run:
+                resolve_directives(mgr_dirs, why="agency is already a manager")
+            drop_i += mgr_items
+            drop_d += mgr_dirs
+        elif state == "owner_must_add":
+            note = (
+                "\nGBP MANAGER ASK — SAY WHAT IS ACTUALLY MISSING (Santino "
+                "2026-08-05): we ALREADY manage this listing; the Google user "
+                "they connected gives us that. Never say or imply we cannot "
+                "get on their listing, cannot see it, or cannot work on it — "
+                "it is false and they know it. The one thing we cannot do "
+                "through the API is add our own agency address, because "
+                "Google will not let a manager add another admin. Ask for "
+                "exactly that and give the reason honestly: adding "
+                "contact@restorationai.io as a Manager at business.google.com "
+                "(Business Profile settings, People and access, Add) is what "
+                "lets us publish their listing to Bing and Apple Maps. One "
+                "ask, no other ask in that message.\n")
+        elif not _has_google_grant(company["id"]):
+            # No OAuth grant at all: the invite API has no way in, so this is
+            # NOT ours to take and the ask stands (FireDEX, AAA, Davis, Paul
+            # Davis, DISS on 2026-08-05 — their "give us access" items are the
+            # honest kind). Left exactly as found, no note.
+            print("  [gbp-access] no Google grant on file — the API cannot "
+                  "reach this listing at all, so the access ask is genuine; "
+                  "leaving it open")
+        else:
+            # none / pending — the API path is still open to us.
+            print(f"  [gbp-access] agency seat state is {state or 'unknown'!r} "
+                  "— the invite/accept API can still get it, so this is ours "
+                  "to do, not theirs; dropping the ask "
+                  "(scripts/gbp_admin_invite.py)")
+            drop_i += mgr_items
+            drop_d += mgr_dirs
+
+    return ([i for i in items if i not in drop_i],
+            [d for d in directives if d not in drop_d], note)
+
+
+def access_ask_guard(company: dict, items: list[dict],
+                     directives: list[dict] | None, dry_run: bool):
+    """One gate over every ask for access we might already hold.
+
+    Google Ads / Local Services manager links, then Google Business Profile
+    (agency seat + OAuth connect). Kept as one call so no compose path can
+    pick up one guard and miss the other — that is exactly how the GBP ask
+    slipped out on 08-05 while the Ads guard was sitting right there."""
+    items, directives, ads_note = lsa_ask_guard(company, items, directives,
+                                                dry_run)
+    items, directives, gbp_note = gbp_ask_guard(company, items, directives,
+                                                dry_run)
+    note = "\n".join(n for n in (ads_note, gbp_note) if n)
+    return items, directives, (note or None)
 
 
 # ------------------------------------------------------------- topic bans
@@ -4424,8 +4647,8 @@ def cmd_compose(args) -> int:
     directives = open_boss_directives(args.company)
     for scid in merge_with:
         directives += open_boss_directives(scid)
-    # Never ask a client to accept a link that is already ACTIVE.
-    items, directives, lsa_note = lsa_ask_guard(
+    # Never ask a client for access we already hold, or can take ourselves.
+    items, directives, lsa_note = access_ask_guard(
         company, items, directives, dry_run=not args.send)
     if directives:
         print(f"Boss directive(s) open: {len(directives)} — "
@@ -4824,7 +5047,7 @@ def preview_compose(company_id: str, channel: str = "sms") -> dict:
     pending = pending_client_message(cs, history, state)
     commitment = cs.get("pending_commitment") or None
     directives = open_boss_directives(company_id)
-    items, directives, lsa_note = lsa_ask_guard(
+    items, directives, lsa_note = access_ask_guard(
         company, items, directives, dry_run=True)
     owed = bool(pending or commitment or directives)
     # A boss directive overrides his own human-defer (see cmd_compose).
@@ -4919,7 +5142,7 @@ def send_now(company_id: str, channel: str = "sms") -> dict:
     pending = pending_client_message(cs, history, state)
     commitment = cs.get("pending_commitment") or None
     directives = open_boss_directives(company_id)
-    items, directives, lsa_note = lsa_ask_guard(
+    items, directives, lsa_note = access_ask_guard(
         company, items, directives, dry_run=False)   # send_now is a real send
     if not items and not (pending or commitment or directives):
         return {**base, "sent": False,
@@ -7885,6 +8108,61 @@ def cmd_selfcheck(_args) -> int:
     for label, ok in recheck_cases:
         fails += not ok
         print(f"  {'ok  ' if ok else 'FAIL'} {label}")
+
+    # ---- access asks are classified to the RIGHT guard (Santino 2026-08-05)
+    # These regexes decide whether a client gets asked for access we already
+    # hold. Every incident so far — Curt, Greg, Jaziel, Angie — was a
+    # classification failure, not a judgement failure, so the vocabulary is
+    # pinned here with the real sentences that went out.
+    print("\naccess asks route to the right guard "
+          "(ads/LSA link vs GBP seat vs connect):")
+
+    def _gbp_kind(t: str) -> str:
+        if _GBP_ASK_NOT_RE.search(t):
+            return "none"
+        if _GBP_CONNECT_ASK_RE.search(t):
+            return "connect"
+        return "mgr" if _GBP_MGR_ASK_RE.search(t) else "none"
+
+    access_cases = [
+        # (text, is_ads_ask, gbp_kind)
+        ("have Isaac approve Google's request to let us manage their "
+         "Local Services Ads", True, "none"),
+        ("Can you accept the Google Ads manager access invite for account "
+         "304-178-5923?", True, "none"),
+        ("Can you have Jack add contact@restorationai.io as a Manager on "
+         "your Google Business Profile? Settings, then People and access",
+         False, "mgr"),
+        ("ASK CLIENT: connect their Google account so we can manage the "
+         "Business Profile, reviews and rankings", False, "connect"),
+        ("ASK CLIENT: confirm they actually offer 12 services listed on "
+         "their Google profile", False, "none"),
+        ("ASK CLIENT: Fran needs to verify their Google listing — it is "
+         "invisible on Maps until then", False, "none"),
+        ("ASK CLIENT: send us access to their domain (crew3r.com) so the "
+         "new site can go live", False, "none"),
+        ("[DOMAIN-ACCESS-UNVERIFIED] crew3r.com was marked 'access "
+         "confirmed' by hand, but no registrar access invite has ever "
+         "reached setup@restorationai.io", False, "none"),
+        ("Finished job photos for the Google Business Profile", False, "none"),
+        ("ASK CLIENT: do they want Local Services Ads, the Google "
+         "Guaranteed listings at the top of search?", False, "none"),
+        ("Their manager link is already ACTIVE, do not ask them to accept "
+         "the invite again", False, "none"),
+    ]
+    for text, want_ads, want_gbp in access_cases:
+        got_ads, got_gbp = _is_lsa_ask(text), _gbp_kind(text)
+        ok = (got_ads == want_ads and got_gbp == want_gbp)
+        fails += not ok
+        print(f"  {'ok  ' if ok else 'FAIL'} "
+              f"ads={str(got_ads):<5} gbp={got_gbp:<7} {text[:52]!r}")
+    # An ask can never belong to both guards — that is how one of them ends
+    # up silently undoing the other's decision.
+    both = [t for t, _a, _g in access_cases
+            if _is_lsa_ask(t) and _gbp_kind(t) != "none"]
+    fails += bool(both)
+    print(f"  {'ok  ' if not both else 'FAIL'} no ask matches both guards")
+
     print(f"\n{'ALL GREEN' if not fails else str(fails) + ' FAILURE(S)'}")
     return 1 if fails else 0
 

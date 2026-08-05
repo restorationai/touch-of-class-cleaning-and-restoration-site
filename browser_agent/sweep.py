@@ -510,13 +510,90 @@ def run_homeguide_queue(picks: list[dict]) -> None:
         print(f"   -> {outcome}", flush=True)
 
 
+def access_sweep(dry_run: bool = False) -> None:
+    """Take every scrap of Google access we can take ourselves, nightly.
+
+    Santino 2026-08-05: "asking a client for things we already have access to
+    is a big no-no" — and the strongest version of that rule is not a better
+    guard on the ask, it is having nothing left to ask for by morning.
+
+    Two passes, no browser, both idempotent:
+
+      1. ads_link_accept — PENDING Google Ads / Local Services manager links
+         approved with the CLIENT'S OWN admin grant. This is why the step
+         lives on Santino's Mac and not on Railway: reaching the MCC needs
+         GOOGLE_ADS_DEVELOPER_TOKEN + GOOGLE_ADS_MCC_CUSTOMER_ID, which the
+         Railway ops-worker has never had (the same gap that left
+         lsa_ask_guard inert in production until 08-05).
+      2. gbp_admin_invite — the agency manager seat on each GBP, invited AND
+         accepted through the invitations inbox. Runs daily on Railway too;
+         re-running here is a cheap no-op (7-day memo) and keeps the memo the
+         concierge's ask guard reads warm.
+
+    Whatever these two cannot get is exactly the list of things a human still
+    has to ask for, and both passes report it as attention lines.
+    """
+    print("\n== access sweep (no browser)", flush=True)
+    try:
+        from ads_link_accept import accept_pending_links
+        results, attention = accept_pending_links(dry_run=dry_run)
+        for r in results:
+            print(f"   ads-link {r['outcome']:14} {r['slug']:32} "
+                  f"{r['account']}  {r['detail'][:70]}")
+        if not results:
+            print("   ads-link: no pending manager links")
+        for a in attention:
+            print("   ATTENTION:", a)
+        if results and not dry_run:
+            ledger(None, "nightly-sweep", "ads-link-accept",
+                   "attention" if attention else "done",
+                   detail="; ".join(f"{r['slug']}:{r['outcome']}"
+                                    for r in results)[:380], live=True)
+    except Exception as e:  # noqa: BLE001 — never let this stop the sweep
+        print(f"   ads-link pass failed: {str(e)[:160]}")
+
+    try:
+        from gbp_admin_invite import ensure_agency_manager
+        res, attention = ensure_agency_manager(dry_run=dry_run)
+        changed = {s: v for s, v in res.items() if v.get("changed")}
+        owed = {s: v for s, v in res.items() if v["state"] == "owner_must_add"}
+        print(f"   gbp-seat: {len(res)} checked, {len(changed)} changed, "
+              f"{len(owed)} need the owner")
+        for s, v in sorted(changed.items()):
+            print(f"     * {s}: {v['state']} ({v['note']})")
+        for a in attention:
+            print("   ATTENTION:", a)
+        if changed and not dry_run:
+            ledger(None, "nightly-sweep", "gbp-manager-seat", "done",
+                   detail="; ".join(f"{s}:{v['state']}"
+                                    for s, v in changed.items())[:380],
+                   live=True)
+    except Exception as e:  # noqa: BLE001
+        print(f"   gbp-seat pass failed: {str(e)[:160]}")
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--queue-dry-run", action="store_true",
                     help="print tonight's creation-queue selection and exit "
                          "(no browser, no writes)")
     ap.add_argument("--skip-bing", action="store_true")
+    ap.add_argument("--skip-access", action="store_true",
+                    help="skip the Google access pass (Ads manager links + "
+                         "GBP agency seat)")
+    ap.add_argument("--access-only", action="store_true",
+                    help="run ONLY the Google access pass, then exit")
     a = ap.parse_args()
+
+    # The access pass is API-only, so it runs BEFORE the kill switch is
+    # consulted: the switch exists to stop unattended BROWSER automation, and
+    # nothing here drives a browser. It is also the cheapest, highest-value
+    # thing in the sweep — every link it clears is a text nobody has to send.
+    if a.access_only:
+        access_sweep(dry_run=False)
+        return 0
+    if not (a.skip_access or a.queue_dry_run):
+        access_sweep(dry_run=False)
 
     if a.queue_dry_run:
         picks, houzz_pending, notes = select_creation_queue()
