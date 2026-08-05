@@ -463,22 +463,122 @@ _PS_LABEL = {"live": "live",
              "todo": "not started"}
 # browser_agent_actions outcomes that mean "the create actually went through"
 # (recon_done / review_needed / deferred_* / needs_* never count).
-_SUBMITTED_OUTCOMES = ("done", "done_public", "exists", "already_exists")
+# 2026-08-04: the Bing dashboard investigation minted two new outcomes that
+# were never added here, so six clients Bing had ALREADY created still read
+# "not started" on the card.
+_SUBMITTED_OUTCOMES = ("done", "done_public", "exists", "already_exists",
+                       "pending_publish_bing_queue", "published")
+# ...and the subset that means the listing is actually LIVE, not merely filed.
+_LIVE_OUTCOMES = ("published", "done_public")
 
 
-def _bing_sweep_rows() -> list[dict]:
-    """Agency-account Bing sweep rows (company_id NULL). The 2026-08-01 GBP
-    import ran as ONE batch on the agency Google account, so per-client
-    attribution lives only in the row detail ('...FF, ProRestoration, RX,
-    NaRestCo, Home Pride[published]')."""
+# ---- BING: the dashboard is the truth, and it is read every night ----------
+# Four independent bugs made this card lie until 2026-08-04 (all fixed here):
+#   1. the per-client bing-publish-status rows are written live=False — they
+#      are dashboard OBSERVATIONS, and `live` records whether the RUN was
+#      permitted to write, not whether the row counts. The old query filtered
+#      live=is.true and therefore saw none of them.
+#   2. outcomes pending_publish_bing_queue / published were missing from
+#      _SUBMITTED_OUTCOMES (above).
+#   3. the only sweep row read was the 08-01 agency batch (company_id NULL),
+#      whose detail names five clients in prose — so anything Bing picked up
+#      in a LATER sync (Coastal, Mold Solutionz, and every future client)
+#      could never match, no matter how long it sat on the dashboard.
+#   4. there was no path to `live` at all: platform_status only reached
+#      "live" via nap_audit.bing_places, which reads `missing` for all 20
+#      clients because Bing Maps listings aren't discoverable the way the
+#      citations audit searches. Crew and Home Pride are PUBLISHED on Bing
+#      and still showed "not started".
+# The fix reads the nightly sweep's own dashboard snapshot (meta.rows =
+# name + status for EVERY listing), which self-updates and needs no
+# per-client bookkeeping, and treats a Published listing as live.
+_BING_STATUS_STATE = {"published": "live",
+                      "pending publish": "submitted_pending",
+                      "needs review": "submitted_pending",
+                      "suspended": "submitted_pending"}
+
+
+def _bing_name_key(name: str) -> str:
+    """Normalized business name for matching a Bing dashboard row to a client.
+
+    Bing carries the GBP title, which drifts from the app's company name by
+    legal suffix and spacing ('RestorationXpress' vs 'Restoration Xpress',
+    'Crew Restoration & Construction' vs '... Inc.')."""
+    parts: list[str] = []
+    for w in re.split(r"[^A-Za-z0-9]+", name or ""):
+        if not w:
+            continue
+        # CamelCase-aware split so RestorationXpress == Restoration Xpress
+        parts += [p.lower() for p in
+                  (re.findall(r"[A-Z][a-z0-9]*|[A-Z]+(?![a-z])|[a-z0-9]+", w) or [w])]
+    drop = {"inc", "llc", "l", "c", "co", "corp", "the", "and", "of", "ltd"}
+    return " ".join(p for p in parts if p and p not in drop)
+
+
+def _bing_snapshot() -> dict:
+    """Bing state per client, from every source, newest wins.
+
+    Returns {"by_name": {name_key: {"status", "at"}},
+             "by_company": {company_id: {"state", "url", "at"}},
+             "batch": [rows]}"""
+    out = {"by_name": {}, "by_company": {}, "batch": []}
     try:
-        return _sb("GET", "/rest/v1/browser_agent_actions"
-                   "?playbook=eq.bing-places&company_id=is.null&live=is.true"
-                   "&outcome=in.(done,done_public,exists,already_exists,"
-                   "live_write_unintended)&select=detail,meta",
-                   prefer="return=representation") or []
+        # 1. the nightly sweep's dashboard snapshot — the self-updating source
+        snaps = _sb("GET", "/rest/v1/browser_agent_actions"
+                    "?playbook=eq.nightly-sweep&action=eq.bing-sync"
+                    "&select=meta,created_at&order=created_at.desc&limit=8",
+                    prefer="return=representation") or []
+        for snap in snaps:  # newest first; older ones only fill gaps
+            for row in ((snap.get("meta") or {}).get("rows") or []):
+                key = _bing_name_key(row.get("name") or "")
+                if key and key not in out["by_name"]:
+                    out["by_name"][key] = {"status": (row.get("status") or "").lower(),
+                                           "at": snap.get("created_at")}
     except Exception:
-        return []
+        pass
+    try:
+        # 2. per-client status rows. NO live filter (bug 1) — these are reads.
+        rows = _sb("GET", "/rest/v1/browser_agent_actions"
+                   "?playbook=eq.bing-places&company_id=not.is.null"
+                   "&action=eq.bing-publish-status"
+                   "&select=company_id,outcome,detail,meta,created_at"
+                   "&order=created_at.desc&limit=200",
+                   prefer="return=representation") or []
+        for r_ in rows:
+            cid = r_.get("company_id")
+            if not cid or cid in out["by_company"]:
+                continue
+            oc = (r_.get("outcome") or "").lower()
+            out["by_company"][cid] = {
+                "state": "live" if oc in _LIVE_OUTCOMES else
+                         ("submitted_pending" if oc in _SUBMITTED_OUTCOMES else "todo"),
+                "url": (r_.get("meta") or {}).get("public_url"),
+                "at": r_.get("created_at")}
+    except Exception:
+        pass
+    try:
+        # 3. the 08-01 agency batch row, kept as the legacy fallback only
+        out["batch"] = _sb("GET", "/rest/v1/browser_agent_actions"
+                           "?playbook=eq.bing-places&company_id=is.null"
+                           "&outcome=in.(done,done_public,exists,already_exists,"
+                           "live_write_unintended)&select=detail,meta",
+                           prefer="return=representation") or []
+    except Exception:
+        pass
+    return out
+
+
+def _bing_state(cid: str, name: str, slug: str, bing: dict) -> str:
+    """'live' | 'submitted_pending' | 'todo' for one client's Bing listing."""
+    snap = (bing.get("by_name") or {}).get(_bing_name_key(name))
+    if snap:
+        return _BING_STATUS_STATE.get(snap["status"], "submitted_pending")
+    per = (bing.get("by_company") or {}).get(cid)
+    if per:
+        return per["state"]
+    if _sweep_mentions_client(bing.get("batch") or [], name, slug):
+        return "submitted_pending"
+    return "todo"
 
 
 def _sweep_mentions_client(sweep_rows: list[dict], name: str, slug: str) -> bool:
@@ -504,12 +604,14 @@ def _sweep_mentions_client(sweep_rows: list[dict], name: str, slug: str) -> bool
     return False
 
 
-def _agent_submitted_platforms(cid: str, name: str, slug: str,
-                               bing_sweep: list[dict]) -> set[str]:
+def _agent_submitted_platforms(cid: str) -> set[str]:
     """us-create platforms where browser_agent_actions shows a completed
     create/submit for this company (action names look like 'houzz-create',
-    'create-listing' under a platform playbook, ...). Bing additionally
-    counts when the agency-account batch sweep touched this client."""
+    'create-listing' under a platform playbook, ...).
+
+    live=is.true stays for these: a DRY-RUN create must never read as
+    submitted. Bing is deliberately NOT decided here — its state comes from
+    _bing_state(), which reads the dashboard rather than our own attempts."""
     subs: set[str] = set()
     try:
         acts = _sb("GET", f"/rest/v1/browser_agent_actions?company_id=eq.{cid}"
@@ -522,10 +624,10 @@ def _agent_submitted_platforms(cid: str, name: str, slug: str,
             continue
         blob = f"{a.get('playbook') or ''} {a.get('action') or ''}".lower()
         for plat in _US_CREATE_PLATFORMS:
-            if plat.split("_")[0] in blob:  # bing / apple / bbb / houzz / ...
+            if plat == "bing_places":
+                continue
+            if plat.split("_")[0] in blob:  # apple / bbb / houzz / homeguide
                 subs.add(plat)
-    if "bing_places" not in subs and _sweep_mentions_client(bing_sweep, name, slug):
-        subs.add("bing_places")
     return subs
 
 
@@ -1282,7 +1384,15 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
     # config generations (free, but each geocodes a city ring at 1.1s/city)
     _HEALS = {"geogrid": 2, "media": 3, "calltrack": 3, "swap": 3, "citations": 2,
               "ggconfig": 2}
-    bing_sweep = _bing_sweep_rows()  # fetched once; reused per client
+    bing = _bing_snapshot()  # fetched once; reused per client
+    # Clients whose GBP the agency actually manages. Bing Places imports ONLY
+    # those, so this is the honest answer to "why is Bing still not started?"
+    # (scripts/gbp_admin_invite.py keeps it current on the daily pass).
+    try:
+        from gbp_admin_invite import manager_slugs
+        _gbp_managers = manager_slugs()
+    except Exception:
+        _gbp_managers = set()
 
     for co in cos:
         cid = co["id"]
@@ -2090,16 +2200,12 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                 # signup URLs 404, listing requires contacting Pro Support) —
                 # a card must never demand an impossible action. Presence on
                 # Porch is still AUDITED; legacy listings just can't be built.
-                us_create = [_lbl[k] for k in ("bing_places", "apple_maps", "bbb",
-                                               "expertise", "houzz", "homeguide")
-                             if k in _missing]
                 client_create = [_lbl[k] for k in ("yelp", "facebook", "thumbtack",
                                                    "angi", "nextdoor", "yellowpages")
                                  if k in _missing]
                 # Per-platform checklist state (Santino 2026-08-02): the app
                 # renders citations-build from evidence.platform_status.
-                agent_subs = _agent_submitted_platforms(
-                    cid, co.get("name") or "", slug, bing_sweep)
+                agent_subs = _agent_submitted_platforms(cid)
                 platform_status = {}
                 for plat in _US_CREATE_PLATFORMS:
                     _pst = (napa.get(plat) or {}).get("status")
@@ -2107,12 +2213,26 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                         # a discrepancy listing still EXISTS — never re-create;
                         # the wrong phone is tracked on the citations card
                         _state = "live"
+                    elif plat == "bing_places":
+                        # Bing answers for itself: the nightly dashboard read
+                        # knows published vs pending vs absent, and the
+                        # citations audit never will (Bing Maps listings are
+                        # not discoverable the way it searches).
+                        _state = _bing_state(cid, co.get("name") or "", slug, bing)
                     elif plat in agent_subs:
                         _state = "submitted_pending"
                     else:
                         _state = "todo"
                     platform_status[plat] = {"status": _state,
                                              "label": _PS_LABEL[_state]}
+                # The card's outstanding list is now derived from the SAME
+                # truth as the checklist. It used to come straight from the
+                # citations audit's `missing` set, which is why Crew — live on
+                # Bing since before 08-01 — kept being told we owed them a
+                # Bing listing. Anything still todo or pending stays visible;
+                # only 'live' drops off.
+                us_create = [_lbl[k] for k in _US_CREATE_PLATFORMS
+                             if platform_status[k]["status"] != "live"]
                 if dry_run:
                     print(f"  [citations-build] {slug}: " + ", ".join(
                         f"{k}={v['status']}" for k, v in platform_status.items()))
@@ -2156,19 +2276,41 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                     # actually finished — the browser agent works them and marks
                     # each done only after verified completion, so a human can
                     # always see what's outstanding and catch breakage.
+                    _bing_st = platform_status["bing_places"]["status"]
+                    if _bing_st == "live":
+                        # Bing is done — the card must not keep explaining it.
+                        _bing_line = ""
+                    elif _bing_st == "submitted_pending":
+                        _bing_line = ("Bing Places already has their listing "
+                                      "imported from their Google profile and "
+                                      "is publishing it on its own queue "
+                                      "(7-12 days from import, nothing to "
+                                      "action); ")
+                    elif slug in _gbp_managers:
+                        _bing_line = ("Bing Places imports straight from their "
+                                      "GBP (we hold manager access); ")
+                    else:
+                        # Never claim access we do not have — this is the
+                        # actual reason a client never reaches Bing.
+                        _bing_line = ("Bing Places imports from their Google "
+                                      "profile, and we are NOT a manager on it "
+                                      "yet — the owner has to add "
+                                      "contact@restorationai.io before Bing "
+                                      "can see them; ")
                     rows.append({"company_id": cid, "item_key": "citations-build",
                                  "kind": "us_owed", "status": "open",
                                  "title": f"We create {len(us_create)} listing"
                                           f"{'s' if len(us_create) != 1 else ''} "
                                           f"for them: {', '.join(us_create)}",
-                                 "detail": "Bing Places imports straight from their GBP "
-                                           "(we hold access); Apple Maps via Business "
+                                 "detail": _bing_line
+                                           + "Apple Maps via Business "
                                            "Connect agency claim; BBB via their request "
                                            "form. Always the Business Information card "
                                            "NAP with the REAL phone number. The browser "
                                            "agent works these; done = verified complete.",
                                  "evidence": {"platforms": us_create,
                                               "queued_for_agent": True,
+                                              "gbp_manager_access": slug in _gbp_managers,
                                               "platform_status": platform_status}})
                 else:
                     rows.append({"company_id": cid, "item_key": "citations-build",

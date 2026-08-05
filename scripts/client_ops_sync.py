@@ -644,6 +644,41 @@ def ensure_gbp_first_sync(dry_run: bool, cid_to_slug: dict) -> list[str]:
     return out
 
 
+def ensure_gbp_manager_access(dry_run: bool, cid_to_slug: dict) -> list[str]:
+    """Agency MANAGER access on every client GBP — invited AND accepted daily.
+
+    Santino 2026-08-04, on finding scripts/gbp_admin_invite.py had run exactly
+    once by hand on 08-01: 'build sustainability, not one-off fixes'. Reign
+    connected Google on 08-03, nothing invited the agency account, so Reign
+    could never appear in Bing's GBP import — and every future client would
+    have failed the same way, silently. This is that script on a schedule.
+
+    Bing Places imports only the listings contact@restorationai.io directly
+    manages, so this pass is the upstream dependency of the whole Bing/
+    citations lane. Idempotent (state re-derived from Google; confirmed
+    managers re-verified weekly), and it accepts its own invitations through
+    the account-management API — no Gmail step, no browser profile."""
+    try:
+        from gbp_admin_invite import ensure_agency_manager
+    except Exception as e:  # noqa: BLE001
+        return [f"gbp-manager-access: unavailable ({str(e)[:80]})"]
+    try:
+        results, attention = ensure_agency_manager(dry_run, cid_to_slug)
+    except Exception as e:  # noqa: BLE001 — never take the sweep down
+        return [f"gbp-manager-access: pass failed ({str(e)[:100]})"]
+    out: list[str] = []
+    for slug, v in sorted(results.items()):
+        # Quiet on steady state — only transitions and real blockers speak.
+        if v.get("changed") and v["state"] == "manager":
+            out.append(f"{slug}: agency is now a MANAGER on their Google "
+                       "listing (unblocks the Bing import)")
+        elif v["state"] == "pending":
+            out.append(f"{slug}: GBP manager invite sent, not yet accepted")
+    out += [a if ":" in a.split(" ")[0] else f"(gbp-access) {a}"
+            for a in attention]
+    return out
+
+
 def ensure_setup_checklist(dry_run: bool, cid_to_slug: dict) -> list[str]:
     """Daily business-setup checklist (Santino 2026-07-25: 'this is why they
     pay US — we handle what we can'). Three buckets: auto-fix (ours, handled
@@ -1084,6 +1119,7 @@ def run(since_override: str | None, dry_run: bool, do_send: bool) -> int:
     ensure_bootstrapped(dry_run, do_send, cid_to_slug)
     sweep_lines: list[str] = []   # "{slug}: what happened" from every pass
     for fn in (ensure_google_connect_asks, ensure_gbp_first_sync,
+               ensure_gbp_manager_access,
                ensure_baseline_scans, ensure_ads_first_sync,
                ensure_setup_checklist):
         for ln in fn(dry_run, cid_to_slug):

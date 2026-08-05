@@ -68,10 +68,19 @@ def bing_sync(s: Session) -> dict:
     s.page.wait_for_timeout(6000)
     if "genericLogin" in s.page.url:
         try:
-            with s._ctx.expect_page(timeout=30000) as pi:
-                s.page.mouse.click(1174, 295)
-                s.page.wait_for_timeout(1500)
-                s.page.keyboard.press("Enter")
+            # Sign in through Google's GSI button. Click the ELEMENT inside
+            # the accounts.google.com/gsi/button iframe — the old fixed
+            # coordinate (1174, 295) is whatever the layout happened to be on
+            # 08-01 and missed entirely on 08-04 (30s timeout waiting for a
+            # popup that was never opened). Coordinates stay as the fallback.
+            gsi = next((f for f in s.page.frames if "gsi/button" in f.url), None)
+            with s._ctx.expect_page(timeout=45000) as pi:
+                if gsi:
+                    gsi.locator("div[role=button], button").first.click(timeout=15000)
+                else:
+                    s.page.mouse.click(1174, 295)
+                    s.page.wait_for_timeout(1500)
+                    s.page.keyboard.press("Enter")
             pop = pi.value
             pop.wait_for_load_state("domcontentloaded")
             pop.wait_for_timeout(4000)
@@ -174,6 +183,104 @@ def bing_dashboard_state(page) -> dict:
     except Exception as e:
         print(f"  [bing] row scrape failed: {str(e)[:80]}", file=sys.stderr)
     return {"counts": counts, "rows": rows}
+
+
+# ---- per-client attribution + the public URL of a PUBLISHED listing --------
+# Until 2026-08-04 the dashboard read produced ONE agency-account ledger row
+# whose detail named five clients in prose, so the setup ledger could only
+# ever recognise those five — Coastal and Mold Solutionz, imported by later
+# syncs, were invisible, and so was every future client. And nothing ever
+# captured the listing's PUBLIC url, so a published Bing listing had no way
+# to reach the client's Business Listings card.
+#
+# Pinned 2026-08-04 on the real dashboard: a listing's detail page carries
+#   https://www.bing.com/maps?ss=ypid.YN841719F0A3CAB26F&mkt=en-US
+# ONLY once it is Published (Crew had it; Coastal, pending, had no such link).
+# That link is therefore both the public URL and independent proof of "live".
+_BIZ_URL = "https://www.bing.com/forbusiness/singleEntity?bizid="
+_PUBLIC_RE = re.compile(r"https://www\.bing\.com/maps\?ss=ypid\.[A-Za-z0-9]+")
+
+
+def _name_key(name: str) -> str:
+    """Normalized business name — Bing carries the GBP title, which drifts
+    from the app's company name by legal suffix and spacing. Mirrors
+    setup_ledger._bing_name_key; keep the two in step."""
+    parts: list[str] = []
+    for w in re.split(r"[^A-Za-z0-9]+", name or ""):
+        if not w:
+            continue
+        parts += [p.lower() for p in
+                  (re.findall(r"[A-Z][a-z0-9]*|[A-Z]+(?![a-z])|[a-z0-9]+", w) or [w])]
+    drop = {"inc", "llc", "l", "c", "co", "corp", "the", "and", "of", "ltd"}
+    return " ".join(p for p in parts if p and p not in drop)
+
+
+def _company_by_name() -> dict:
+    """{normalized name: company_id} across every company we track (paused
+    included — Mold Solutionz is paused and still has a live Bing import)."""
+    out: dict[str, str] = {}
+    try:
+        for c in _sb("GET", "/rest/v1/companies?select=id,name",
+                     prefer="return=representation") or []:
+            key = _name_key(c.get("name") or "")
+            if key:
+                out.setdefault(key, c["id"])
+    except Exception as e:
+        print(f"  [bing] company map failed: {str(e)[:80]}", file=sys.stderr)
+    return out
+
+
+def bing_capture_listings(s, rows: list[dict]) -> list[str]:
+    """Attribute each dashboard row to a client, ledger its publish state, and
+    for PUBLISHED listings capture the public URL into the client's Business
+    Listings card via record_listing(). Read-only on Bing's side."""
+    if not rows:
+        return []
+    by_name = _company_by_name()
+    notes: list[str] = []
+    for row in rows:
+        name, status = row.get("name") or "", row.get("status") or ""
+        cid = by_name.get(_name_key(name))
+        published = status.lower() == "published"
+        public_url = None
+        if published:
+            try:
+                s.page.get_by_text(name, exact=False).first.click(timeout=15000)
+                s.page.wait_for_timeout(8000)
+                m = _PUBLIC_RE.search(" ".join(s.page.eval_on_selector_all(
+                    "a[href]", "els => els.map(e => e.href)")))
+                public_url = m.group(0) if m else None
+            except Exception as e:
+                notes.append(f"{name}: detail page unreadable ({str(e)[:60]})")
+            finally:
+                s.page.goto("https://www.bing.com/forbusiness/multipleEntities",
+                            wait_until="domcontentloaded", timeout=60000)
+                s.page.wait_for_timeout(6000)
+        if not cid:
+            notes.append(f"{name}: on Bing but matches no company we track")
+            continue
+        outcome = "published" if published else (
+            "pending_publish_bing_queue" if status.lower() == "pending publish"
+            else "attention")
+        detail = (f"Bing Places '{name}' status={status}."
+                  + (f" Public listing: {public_url}" if public_url else "")
+                  + ("" if published else
+                     " Bing-side publish queue (verification done, ETA 7-12 "
+                     "days) — nothing to action."))
+        ledger(cid, "bing-places", "bing-publish-status", outcome,
+               detail=detail, live=False,
+               meta={"status": status, "public_url": public_url,
+                     "source": "nightly-sweep"})
+        if published and public_url:
+            try:
+                from listings import record_listing
+                record_listing(cid, "bing_places", public_url, status="found")
+                notes.append(f"{name}: PUBLISHED -> {public_url}")
+            except Exception as e:
+                notes.append(f"{name}: record_listing failed ({str(e)[:60]})")
+        elif published:
+            notes.append(f"{name}: PUBLISHED but no public URL on the page")
+    return notes
 
 
 # ------------------------------------------------------------------ queue
@@ -459,6 +566,12 @@ def main() -> int:
                 # done). Informational — nobody should action these.
                 print("bing pending publish (Bing-side queue, no action "
                       "available):", ", ".join(pending))
+            if rows:
+                # Per-client attribution + public-URL capture. Without this
+                # the dashboard state stays a single agency-account blob that
+                # no client card can read (2026-08-04 fix).
+                for n in bing_capture_listings(s, rows):
+                    print("  bing listing:", n)
             ledger(None, "nightly-sweep", "bing-sync", outcome, detail=detail,
                    live=True, meta={"counts": counts, "rows": rows,
                                     "pending_publish": pending})

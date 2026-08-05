@@ -16,6 +16,12 @@ export const brand = {
   foundedYear: "",
   primaryCity: "San Diego",
   primaryState: "CA",
+  // primaryCity/primaryState = the #1 MARKETING city (headlines, coverage
+  // copy). addressCity/addressState = where the business PHYSICALLY is.
+  // They are usually the same and often diverge (DISS: Farrell PA office,
+  // Youngstown OH target) — only the address pair may go in a PostalAddress.
+  addressCity: "San Marcos",
+  addressState: "CA",
   streetAddress: "",
   postalCode: "",
   lat: "",

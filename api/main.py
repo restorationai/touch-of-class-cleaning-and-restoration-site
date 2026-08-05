@@ -1534,6 +1534,30 @@ async def case_study_intake(slug: str, request: Request):
     return {"status": "queued", "slug": slug, "title": item_title, "chars": len(text)}
 
 
+def _invite_agency_manager(company_id: str, slug: str) -> None:
+    """Add contact@restorationai.io as a MANAGER on the client's GBP — and
+    accept the invitation — the moment they connect Google.
+
+    Santino 2026-08-04: the invite used to be a manual script run (once, on
+    08-01), so Reign connected on 08-03 and simply never got one, which is
+    exactly why Reign had no Bing listing. Bing Places imports only the
+    listings the agency account directly manages, so this is the first domino
+    of the whole citations lane and it belongs in the connect moment, not in a
+    human's memory. Idempotent — an existing manager/invite is a no-op. The
+    daily ops pass (client_ops_sync.ensure_gbp_manager_access) is the
+    backstop."""
+    try:
+        from gbp_admin_invite import ensure_agency_manager
+        results, attention = ensure_agency_manager(
+            dry_run=False, only_company_ids=[company_id])
+        state = (results.get(slug) or {}).get("state", "?")
+        print(f"[gbp-first-sync] manager-access: {slug} -> {state}")
+        for a in attention:
+            print(f"[gbp-first-sync] manager-access ATTENTION: {a}")
+    except Exception as e:  # noqa: BLE001 — never break the connect flow
+        print("[gbp-first-sync] manager-access failed:", slug, str(e)[:200])
+
+
 @app.post("/gbp-first-sync")
 def gbp_first_sync(req: GbpFirstSyncRequest):
     """Fired by the Google-connect edge functions the moment a client's GBP
@@ -1568,12 +1592,21 @@ def gbp_first_sync(req: GbpFirstSyncRequest):
     rows = sb().table("marketing_gbp_profiles").select("company_id") \
         .eq("company_id", req.company_id).execute()
     if rows.data:
-        return {"status": "skipped", "note": "already synced"}
+        # Already synced, but the manager invite is a SEPARATE fact and may
+        # still be missing (Reign 2026-08-03: connected, synced, never
+        # invited, therefore never on Bing). Fire just that half.
+        threading.Thread(target=_invite_agency_manager,
+                         args=(req.company_id, slug), daemon=True).start()
+        return {"status": "queued", "slug": slug, "note": "already synced — "
+                "agency manager invite only"}
 
     def _run(s=slug):
         # Full day-one blitz (Santino 2026-07-26: Kyle's follow-up call hit
         # empty tabs): sync -> AI optimizer suggestions -> face-score audit.
         # Each step best-effort; nightly ops-sync backstops all of them.
+        # Manager access goes FIRST — it is the only step whose absence is
+        # invisible (no empty tab, just a client who never reaches Bing).
+        _invite_agency_manager(req.company_id, s)
         try:
             import gbp  # scripts/ is on sys.path
             print("[gbp-first-sync]", gbp.sync(s))
