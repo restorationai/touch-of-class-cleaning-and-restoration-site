@@ -1,5 +1,5 @@
 {
-  "cursor": "2026-08-04T16:12:26Z",
+  "cursor": "2026-08-05T14:01:14Z",
   "processed_intake_ids": [
     "fc44dd89-d909-44f9-93f6-794f847caf15",
     "6b16a3b8-90f1-4cdc-bb25-93335099c603",
@@ -27,7 +27,10 @@
     "0b27eec7-048a-4cd1-8e3a-58481f25184b",
     "3227d671-b755-45e9-a05e-8ff0bbfd799e",
     "b52f0c65-273a-4e13-bdab-d0e2a3387e64",
-    "819e2bb4-41c2-4966-b534-26bf180322c0"
+    "819e2bb4-41c2-4966-b534-26bf180322c0",
+    "55fbba7a-3586-492f-b29d-f45ba40b9fef",
+    "3b4307e9-63f2-459e-bd92-e85e74ca78ac",
+    "a6f4859d-c3a1-4b7c-9e2c-d2483ea2af2c"
   ],
   "processed_plan_events": [
     "80fd3777-f57b-4a61-9cf4-dc4e7d243cd1:done",
@@ -63,7 +66,8 @@
     "f56215e8-24e5-4e7e-8194-1908bddbd89f:approved",
     "eaf0ce71-4688-4e70-b68b-7d50de76f291:resolved",
     "09f60561-74e3-4d0e-afcc-0e370826b105:resolved",
-    "f221cd09-a9e5-4708-8834-cbf67e8e2d20:resolved"
+    "f221cd09-a9e5-4708-8834-cbf67e8e2d20:resolved",
+    "8ebdaf96-48d6-48a8-b14b-4f478f25aa5c:done"
   ],
-  "last_run_at": "2026-08-04T16:12:26.122854+00:00"
+  "last_run_at": "2026-08-05T14:01:14.742602+00:00"
 }
