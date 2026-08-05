@@ -186,6 +186,17 @@ def run_checks() -> list[tuple[str, bool, str]]:
     else:
         checks.append(("deploy checks", True, "skipped (no CF env)"))
 
+    # 7b. the watchdog's own pulse (2026-08-05). silence_watch.py is what
+    # turns every other system's silence into a card, so its own silence is
+    # the one failure nothing else would ever report.
+    try:
+        rows = sb("/rest/v1/ops_kv?k=eq.heartbeat/silence-watch&select=v,updated_at")
+        ts = rows[0].get("updated_at", "") if rows else ""
+        checks.append(("silence watchdog", ts >= iso_z(NOW - timedelta(hours=26)),
+                       f"last ran {ts[:16]}" if ts else "NEVER RAN"))
+    except Exception as e:
+        checks.append(("silence watchdog", False, str(e)[:60]))
+
     # 8. failed jobs last 24h
     try:
         rows = sb(f"/rest/v1/marketing_jobs?status=eq.failed&queued_at=gte.{iso_z(NOW - timedelta(days=1))}&select=id,type,error")

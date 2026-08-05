@@ -5672,11 +5672,13 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
     storm (the 07-31 lesson: prefer losing one reply over resending
     forever).
 
-    Returns {"processed", "matched", "awaiting", "escalated", "queued"}
-    ("queued" = site-work tasks routed to the dev-agent inbox, 08-05)."""
+    Returns {"processed", "matched", "awaiting", "escalated", "queued",
+    "feedback_seen"} ("queued" = site-work tasks routed to the dev-agent
+    inbox, "feedback_seen" = client_feedback blocks the classifier found;
+    both 08-05, and both are what the heartbeat records)."""
     company_id = company["id"]
     out = {"processed": 0, "matched": 0, "awaiting": False, "escalated": 0,
-           "queued": 0}
+           "queued": 0, "feedback_seen": 0}
     handled = set(state.get("handled_msg_ids") or [])
     msgs = [m for m in msgs if m["id"] not in handled]
     if not msgs:
@@ -5887,6 +5889,7 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
         # route_feedback decides auto ([DEV], runs tonight, no clicks) vs
         # ask-Santino ([TODO-PROPOSED]); see scripts/feedback_router.py.
         fbs = result.get("client_feedback") or []
+        out["feedback_seen"] = out.get("feedback_seen", 0) + len(fbs)
         if fbs:
             try:
                 from feedback_router import route_feedback
@@ -5988,6 +5991,20 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
     if turn["contact_cards"]:
         file_contact_note(company, turn["contact_cards"], open_items,
                           contact_payload, dry_run)
+
+    # PROOF OF LIFE for the classify stage (2026-08-05). Stamped here, after
+    # phase 1 and before any of phase 2's early returns, so it records what
+    # we SAW regardless of what we decided to send. `inputs` = messages
+    # classified, `outputs` = feedback blocks the classifier found in them:
+    # a run of inbound messages that never yields a single feedback block is
+    # how a broken classifier would look, and silence_watch cards it.
+    try:
+        from heartbeat import stamp
+        stamp("inbound-classify", inputs=out["processed"],
+              outputs=out.get("feedback_seen", 0), dry_run=dry_run,
+              queued=out.get("queued", 0), company=company.get("name"))
+    except Exception as e:  # noqa: BLE001 — bookkeeping never blocks a reply
+        print(f"    [heartbeat] warn: {str(e)[:90]}")
 
     # ---- phase 2: ONE outbound decision for the whole turn.
     if not turn["last_msg"]:

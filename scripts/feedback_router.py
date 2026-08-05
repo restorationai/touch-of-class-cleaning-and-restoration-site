@@ -38,10 +38,18 @@ DESIGN NOTES
   client. Everything else in the note is written for a human to read.
 * Fail-open by contract, like work_log: routing must never break the 5-minute
   inbound poll. Every entry point swallows its own exceptions.
+* SILENCE IS REPORTED, not inferred (2026-08-05). Every pass stamps a
+  heartbeat (scripts/heartbeat.py) with what it saw and what it filed, so
+  "no tasks in the inbox" and "the router is dead" are different, checkable
+  states — `feedback_router.py status` answers it in one command, and
+  scripts/silence_watch.py cards the gap daily. This module was declared dead
+  on the day it started working because an inbox listing was checked two
+  minutes before the write landed, and nothing could say otherwise.
 
 CLI:
   python3 scripts/feedback_router.py selftest          # offline, no keys
   python3 scripts/feedback_router.py replay            # the two 08-04 cases
+  python3 scripts/feedback_router.py status            # is the loop ALIVE?
   python3 scripts/feedback_router.py queue --slug X --category imagery \\
       --what "..." --quote "..." [--where "..."] [--who Greg] [--dry-run]
   python3 scripts/feedback_router.py list [--slug X]   # queued feedback tasks
@@ -350,18 +358,32 @@ def site_status(company_id: str, slug: str | None) -> tuple[bool, bool, str | No
     return has_site, live, url
 
 
+_NOTES_PAGE = 500
+
+
 def _recent_notes(company_id: str, days: int = 21) -> list[dict]:
     # "Z", not isoformat()'s "+00:00": a bare + in a PostgREST query string is
     # decoded as a space and the whole filter 400s. The dedupe check then
     # fails open and the same task is filed twice (caught in the 08-05 canary
     # run, which queued Greg's sewage fix two nights in a row).
+    #
+    # ORDERED, and loud when the page fills (2026-08-05). An unordered LIMIT
+    # is the server's choice of rows, so a client with a busy three weeks
+    # could have its NEWEST notes fall off the page — and a dedupe that
+    # cannot see the note it should match files a duplicate, silently.
     since = (datetime.now(timezone.utc) - timedelta(days=days)
              ).strftime("%Y-%m-%dT%H:%M:%SZ")
     try:
-        return _sb("GET", "/rest/v1/marketing_ops_notes?company_id=eq."
+        rows = _sb("GET", "/rest/v1/marketing_ops_notes?company_id=eq."
                    f"{company_id}&created_at=gte.{since}"
-                   "&select=id,body,status,created_at&limit=300",
+                   "&select=id,body,status,created_at"
+                   f"&order=created_at.desc&limit={_NOTES_PAGE}",
                    prefer="return=representation") or []
+        if len(rows) >= _NOTES_PAGE:
+            print(f"  [feedback] WARNING: {company_id} has {_NOTES_PAGE}+ notes "
+                  f"in {days}d — the dedupe window is truncated, raise "
+                  "_NOTES_PAGE")
+        return rows
     except Exception as e:  # noqa: BLE001
         # Fails OPEN (returns []), so a lookup outage means a possible
         # duplicate task, never a lost one. Loud, because a silent dedupe
@@ -375,22 +397,68 @@ def _norm(s: str) -> str:
     return re.sub(r"[^a-z0-9 ]+", " ", (s or "").lower())
 
 
-def already_queued(company_id: str, quote: str) -> str | None:
-    """Has this exact feedback already been filed? The 5-minute poll, the
-    webhook and a re-run of the same batch must not stack three copies of the
-    same task (and a client who repeats themselves must not either).
+# Every marker that means "this note is queued work off something a client
+# said" — the feedback trailer AND fathom_sync's meeting-commitment trailer.
+# Dedupe has to see both: the ops lane checked its cards against the feedback
+# mark only, which no ops card ever carries, so the check could never match
+# and meeting commitments were never actually deduped (2026-08-05).
+ORIGIN_MARKS = (ORIGIN_MARK, "ORIGIN: meeting-commitment")
 
-    Matching is on a normalised 40-char window of their own words, checked
-    against BOTH open and resolved notes from the last three weeks — a task
-    the dev agent already finished must not be re-queued by a later poll."""
-    needle = _norm(quote)[:40].strip()
-    if len(needle) < 12:
+
+def ask_key(quote: str, what: str | None = None) -> tuple[str, str]:
+    """The identity of an ask: (their words window, our change window).
+
+    Both are normalised 40-char windows. `what` is the load-bearing half —
+    see note_matches_ask."""
+    return _norm(quote)[:40].strip(), _norm(what or "")[:40].strip()
+
+
+def note_matches_ask(body: str, qn: str, wn: str) -> bool:
+    """Is `body` already the card for this ask? Pure, so the selftest can
+    replay it offline.
+
+    THE CHANGE IS THE IDENTITY, NOT THE QUOTE (2026-08-05). Matching on the
+    quote alone was wrong in both directions:
+
+      * ONE message routinely carries SEVERAL asks. Jerrott's 08-05 text
+        produced three, and DISS's call produced three ops cards off one
+        compound Fathom action item. When two items share a quote, the first
+        one filed made the rest look "already queued" and they were dropped
+        without a trace — losing a client's request, the worst failure this
+        module has.
+      * A client who re-words the same complaint ("the gold still isn't
+        right") gets a second card, which is fine: a duplicate card is
+        visible and costs one dismissal, a dropped request costs the client.
+
+    So when we know what we intend to change, THAT window alone decides: two
+    cards are the same card when they do the same thing. The client saying it
+    twice in different words hits the same `what` and is correctly suppressed;
+    two different changes never collide just because one quote covered both.
+    Quote-only matching survives for callers with no `what` (and for cards
+    filed before this trailer existed)."""
+    nb = _norm(body)
+    if len(wn) >= 12:
+        return wn in nb
+    return len(qn) >= 12 and qn in nb
+
+
+def already_queued(company_id: str, quote: str,
+                   what: str | None = None) -> str | None:
+    """Has this exact ask already been filed? The 5-minute poll, the webhook,
+    a re-run of the same batch and a re-mined meeting must not stack copies of
+    one task (and a client who repeats themselves must not either).
+
+    Checked against BOTH open and resolved notes from the last three weeks —
+    a task the dev agent already finished must not be re-queued by a later
+    poll — and against every ORIGIN marker, not just this module's."""
+    qn, wn = ask_key(quote, what)
+    if len(qn) < 12 and len(wn) < 12:
         return None
     for n in _recent_notes(company_id):
         b = n.get("body") or ""
-        if ORIGIN_MARK not in b:
+        if not any(mk in b for mk in ORIGIN_MARKS):
             continue
-        if needle in _norm(b):
+        if note_matches_ask(b, qn, wn):
             return str(n.get("id"))
     return None
 
@@ -415,6 +483,8 @@ def route_feedback(company: dict, feedback: list[dict], *, who: str,
     cid = company.get("id")
     if not cid or not feedback:
         return out
+    dupes = 0
+    errors: list[str] = []
     when = when or datetime.now(timezone.utc).isoformat()
     try:
         from client_concierge import company_slug
@@ -427,14 +497,32 @@ def route_feedback(company: dict, feedback: list[dict], *, who: str,
     # cap stays 4. A recorded MEETING legitimately carries more (HomeLyft
     # asked for nine things on 2026-08-04), so fathom_sync raises it — the cap
     # is about the plausibility of the SOURCE, not a limit on client asks.
+    #
+    # THE CAP NOW ANNOUNCES ITSELF (2026-08-05). It used to slice the list and
+    # say nothing, so a client who asked for six things got four and no one
+    # anywhere learned that two had been thrown away. A cap is a safety valve
+    # against a hallucinating classifier, not a licence to lose a request.
+    if len(feedback) > max(1, limit):
+        dropped = feedback[max(1, limit):]
+        msg = (f"{who} sent {len(feedback)} separate change requests in one "
+               f"message and only the first {max(1, limit)} were queued. NOT "
+               "queued: "
+               + "; ".join(str(f.get("what"))[:90] for f in dropped)[:400])
+        print(f"  [feedback] OVER CAP: {msg}")
+        if escalate:
+            try:
+                escalate(msg)
+            except Exception:  # noqa: BLE001
+                pass
     for fb in feedback[:max(1, limit)]:
         try:
             if not is_actionable(fb):
                 print(f"  [feedback] skipped a malformed block: {str(fb)[:90]}")
                 continue
             quote = str(fb.get("quote") or "").strip()
-            dupe = already_queued(cid, quote)
+            dupe = already_queued(cid, quote, str(fb.get("what") or ""))
             if dupe:
+                dupes += 1
                 print(f"  [feedback] already queued as note {str(dupe)[:8]} — "
                       f"not filing again ({quote[:50]!r})")
                 continue
@@ -488,8 +576,21 @@ def route_feedback(company: dict, feedback: list[dict], *, who: str,
             out.append({"tag": tag, "why": why, "note_id": note_id,
                         "category": fb.get("category")})
         except Exception as e:  # noqa: BLE001 — never break the poll
+            errors.append(str(e)[:120])
             print(f"  [feedback] routing failed ({str(e)[:120]}) — the "
                   "message still reached the escalation digest")
+    # PROOF OF LIFE (2026-08-05). Without this, "no tasks in the inbox" and
+    # "the router is dead" are the same observation — which is exactly how an
+    # inbox check two minutes ahead of the write got read as a total failure.
+    # scripts/silence_watch.py compares inputs against outputs and cards the
+    # gap; `feedback_router.py status` prints it on demand.
+    try:
+        from heartbeat import stamp
+        stamp("feedback-router", inputs=len(feedback), outputs=len(out),
+              dry_run=dry_run, dupes=dupes, company=company.get("name"),
+              error="; ".join(errors)[:200] or None)
+    except Exception as e:  # noqa: BLE001
+        print(f"  [feedback] heartbeat warn: {str(e)[:90]}")
     return out
 
 
@@ -634,6 +735,48 @@ def _selftest() -> int:
         fails += not ok
         print(f"  {'ok  ' if ok else 'FAIL'} {str(fb)[:60]}")
 
+    print("\ndedupe keys on the CHANGE, not the quote alone:")
+    # The 08-05 shape: one text, three asks. The classifier can hand back the
+    # same verbatim line for more than one of them (fathom's compound action
+    # items always do — DISS filed three ops cards off one quote). Under
+    # quote-only matching, asks 2 and 3 were dropped as "already queued".
+    shared = "Logos on company vehicles need to match."
+    filed = compose_task_note(
+        {"category": "brand", "what": "resample the brand gold from the logo",
+         "where": "site-wide", "quote": shared, "confidence": "high"},
+        tag="[DEV]", company_name="Reign", slug="reign-restoration",
+        who="Jerrott", site_live=False, site_url=None, verdict_why="ok",
+        when="2026-08-05T00:00:00Z")
+    dedupe_cases = [
+        ("the SAME ask again is suppressed", shared,
+         "resample the brand gold from the logo", True),
+        ("a DIFFERENT ask sharing the quote still files", shared,
+         "flip the mirrored van decal in the hero image", False),
+        ("a re-worded quote for the same change is suppressed",
+         "the golds still dont match", "resample the brand gold from the logo",
+         True),
+        ("an unrelated ask files", "the phone number is wrong",
+         "update the phone number in the header", False),
+    ]
+    for label, q, w, want in dedupe_cases:
+        qn, wn = ask_key(q, w)
+        got = note_matches_ask(filed, qn, wn)
+        ok = got == want
+        fails += not ok
+        print(f"  {'ok  ' if ok else 'FAIL'} match={got!s:<5} (want {want!s:<5}) "
+              f"{label}")
+    # Legacy / quote-only callers keep the old behaviour.
+    qn, wn = ask_key(shared, None)
+    ok = note_matches_ask(filed, qn, wn)
+    fails += not ok
+    print(f"  {'ok  ' if ok else 'FAIL'} quote-only matching still works when "
+          "the caller has no `what`")
+    # A meeting-commitment card is dedupe-visible too (it never was before).
+    ok = "ORIGIN: meeting-commitment" in ORIGIN_MARKS and ORIGIN_MARK in ORIGIN_MARKS
+    fails += not ok
+    print(f"  {'ok  ' if ok else 'FAIL'} both origin markers are in scope: "
+          f"{ORIGIN_MARKS}")
+
     print("\nORIGIN trailer survives a round trip (the Approve-button hinge):")
     fb = REPLAYS[0][1]
     dev = compose_task_note(fb, tag="[DEV]", company_name="PuroClean East LV",
@@ -758,11 +901,47 @@ def _cmd_list(a) -> int:
     return 0
 
 
+def _cmd_status(_a) -> int:
+    """Is the loop ALIVE? (2026-08-05: an empty inbox was read as a dead
+    pipeline because nothing could answer this.) Inputs seen vs work filed."""
+    from client_concierge import load_env
+    load_env()
+    from heartbeat import age_hours, read
+    for system, label in (("inbound-classify", "concierge inbound (classify)"),
+                          ("feedback-router", "feedback router (queue)")):
+        hb = read(system)
+        if not hb:
+            print(f"{label}: NO HEARTBEAT YET — nothing has run since this "
+                  "was deployed")
+            continue
+        t = hb.get("totals") or {}
+        run_age = age_hours(hb.get("last_run_at"))
+        out_age = age_hours(hb.get("last_output_at"))
+        print(f"{label}:")
+        print(f"  last ran      {str(hb.get('last_run_at'))[:16]}"
+              + (f"  ({run_age:.1f}h ago)" if run_age is not None else ""))
+        print(f"  last produced {str(hb.get('last_output_at'))[:16]}"
+              + (f"  ({out_age:.1f}h ago)" if out_age is not None else
+                 "  (never)"))
+        print(f"  lifetime      {t.get('runs', 0)} run(s), "
+              f"{t.get('inputs', 0)} input(s), {t.get('outputs', 0)} output(s)"
+              + (f", last error: {str(hb.get('last_error'))[:70]}"
+                 if hb.get("last_error") else ""))
+        for r in (hb.get("runs") or [])[-5:]:
+            print(f"    {str(r.get('at'))[:16]}  in={r.get('inputs')} "
+                  f"out={r.get('outputs')}"
+                  + (f" dupes={r['dupes']}" if r.get("dupes") else "")
+                  + (f" {r.get('company')}" if r.get("company") else "")
+                  + (f"  ERROR {str(r['error'])[:60]}" if r.get("error") else ""))
+    return 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     sub = ap.add_subparsers(dest="cmd", required=True)
     sub.add_parser("selftest")
     sub.add_parser("replay")
+    sub.add_parser("status")
     q = sub.add_parser("queue")
     q.add_argument("--slug", required=True)
     q.add_argument("--company", default="")
@@ -782,6 +961,8 @@ def main() -> int:
         return _selftest()
     if a.cmd == "replay":
         return _replay()
+    if a.cmd == "status":
+        return _cmd_status(a)
     if a.cmd == "queue":
         return _cmd_queue(a)
     return _cmd_list(a)

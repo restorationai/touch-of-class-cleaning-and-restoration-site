@@ -374,8 +374,15 @@ def route_meeting_work(company: dict, slug: str, m: dict, *, title: str,
             tally["skipped"] += 1
             continue
         try:
+            # `what` is what makes this dedupe work at all: Fathom's action
+            # items are frequently compound, so one verbatim quote can back
+            # three separate commitments (DISS, 2026-08-04). Quote-only
+            # matching would have filed the first and swallowed the rest —
+            # and, because ops cards carry the MEETING marker rather than the
+            # feedback one, the check never matched anything either way.
             from feedback_router import already_queued
-            dupe = already_queued(company["id"], str(item.get("quote") or what))
+            dupe = already_queued(company["id"],
+                                  str(item.get("quote") or what), what)
         except Exception:  # noqa: BLE001
             dupe = None
         if dupe:

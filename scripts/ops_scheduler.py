@@ -146,6 +146,14 @@ DAILY_JOBS = [
     # system could have said so either way.
     ("fathom-watch", "15:10", [sys.executable, str(HERE / "fathom_sync.py"),
                                "watch", "--send"]),
+    # ALL-SYSTEMS silence watchdog: for every automation that is supposed to
+    # produce something (feedback queue, meeting sync, GBP invites, citation
+    # queue, geo-grid, Bing sweep, review dispatcher, dev agent), does its
+    # OUTPUT still appear while its INPUTS exist? Silence with live inputs
+    # becomes one [TODO-SANTINO] card per system per day. Added 2026-08-05
+    # after the third built-and-wired-but-silently-dead system in a week.
+    ("silence-watch", "15:20", [sys.executable, str(HERE / "silence_watch.py"),
+                                "check", "--send"]),
     # Daily all-systems pulse: one green/red email checking every system's
     # OUTCOME (sites up incl SSL, content/video cadence, GSC/GBP freshness,
     # worker alive, failed jobs). Built 2026-07-23 post-shipping-week.

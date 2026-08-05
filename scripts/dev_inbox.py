@@ -54,9 +54,23 @@ from feedback_router import (compose_done_directive, parse_origin,  # noqa: E402
                              site_status)
 
 
+INBOX_PAGE = 1000
+
+
 def open_devs() -> list[dict]:
+    # EXPLICIT page + a loud warning when it fills (2026-08-05). The query
+    # had no limit, so it inherited PostgREST's server cap — and with
+    # created_at.asc the rows that fall off the end are the NEWEST ones, i.e.
+    # a client's just-queued task would go missing from the inbox while
+    # sitting perfectly well in the table. "Queued but invisible" is the same
+    # failure as "never queued" to everyone downstream.
     notes = _sb("GET", "/rest/v1/marketing_ops_notes?status=eq.open"
-                "&select=id,company_id,body,created_at&order=created_at.asc") or []
+                "&select=id,company_id,body,created_at"
+                f"&order=created_at.asc&limit={INBOX_PAGE}") or []
+    if len(notes) >= INBOX_PAGE:
+        print(f"WARNING: {INBOX_PAGE}+ open ops notes — the inbox page is "
+              "full and the newest tasks may be cut off. Raise INBOX_PAGE.",
+              file=sys.stderr)
     smap = slug_map()
     out = []
     for n in notes:
