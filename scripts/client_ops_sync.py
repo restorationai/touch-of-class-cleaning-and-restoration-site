@@ -766,6 +766,7 @@ def ensure_setup_checklist(dry_run: bool, cid_to_slug: dict) -> list[str]:
             "Google for them."))
 
         crew = 0
+        have_already = 0     # photos we ALREADY hold from any source (GBP, website)
         newest_upload = ""  # newest field-crew upload created_at (ISO)
         try:
             sb_url = os.environ["SUPABASE_URL"].rstrip("/")
@@ -781,18 +782,36 @@ def ensure_setup_checklist(dry_run: bool, cid_to_slug: dict) -> list[str]:
                     if not isinstance(f, dict) or not f.get("id"):
                         continue
                     base = re.sub(r"^r\d+_", "", f["name"])
-                    if not base.startswith("gbp-"):
+                    if base.startswith("gbp-"):
+                        have_already += 1
+                    else:
                         crew += 1
                         newest_upload = max(newest_upload, f.get("created_at") or "")
         except Exception:
             crew = 1  # storage hiccup: assume fine, never nag on bad data
+        # Anything we harvested off their own Google profile or website counts too.
+        try:
+            _mf = ROOT / "clients" / slug / "photo-manifest.json"
+            if _mf.exists():
+                _a = json.loads(_mf.read_text()).get("assets")
+                have_already += len(_a) if isinstance(_a, (list, dict)) else 0
+        except Exception:
+            pass
+        # NEVER ASK FOR WHAT WE ALREADY HAVE (Santino 2026-08-05). This fired on
+        # crew == 0 alone, which counts ONLY uploads through the hub link and
+        # skips every gbp- file by name. ProRestoration was being asked to "send
+        # job photos, not one has ever come in" while we sat on 231 of theirs,
+        # 200 pulled straight off their own Google profile. The ask is for
+        # clients we genuinely have nothing usable for, not for clients who
+        # simply have not used the upload link.
         checks.append((
-            f"checklist-crew-photos-{slug}", crew == 0,
-            "ASK CLIENT: send job photos from the crew — not one has ever come in",
-            ("No job photos have ever come in from the field crew — fresh photos feed "
-             "both the Google profile and the website. MONICA: re-share their CLIENT "
-             "HUB link ({}) — photos upload right there, no login — and suggest texting "
-             "it to the crew group chat; even 3-4 phone pics from recent jobs is plenty. "
+            f"checklist-crew-photos-{slug}", crew == 0 and have_already < 6,
+            "ASK CLIENT: send job photos from the crew — we have none from any source",
+            ("We hold no usable job photos for this client from ANY source: nothing "
+             "uploaded through the hub, nothing on their Google profile, nothing "
+             "harvested from their site. MONICA: re-share their CLIENT HUB link ({}) "
+             "— photos upload right there, no login — and suggest texting it to the "
+             "crew group chat; even 3-4 phone pics from recent jobs is plenty. "
              "(hub only — the raw /gbpphotos/ link is deprecated, 2026-08-01)").format(hub)))
 
         # Photo freshness (Santino 2026-07-28): clients who HAVE uploaded before
