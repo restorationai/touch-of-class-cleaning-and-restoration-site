@@ -84,13 +84,22 @@ AVG_TICKET = {"water": 4500, "fire": 15000, "mold": 3500, "storm": 6000,
               "biohazard": 4000, "reconstruction": 12000,
               # non-restoration verticals audited for competitive intel — keep
               # tickets honest per trade or the one-job floor overstates
-              "plumbing": 650}
+              "plumbing": 650,
+              # decks, fences, patios, outdoor structures. The paid funnel
+              # takes home-services leads who are not restoration at all
+              # (Jose Mendoza / Ed's Construction Services, 2026-08-04), and
+              # forcing them onto "reconstruction" made the report tell a deck
+              # builder his upside was "one full insured loss per month,
+              # mitigation plus rebuild and contents". Ticket is grounded in
+              # his own published pricing: $22-32/sq ft, so a 300-400 sq ft
+              # deck runs roughly $6,600-$12,800.
+              "carpentry": 9000}
 DEFAULT_TICKET = 4500
 # Floor for the shown revenue range on restoration audits (Santino 2026-07-28:
 # "minimum of 14,500 to 19,000 per month" — one full water-loss project/month,
 # mitigation + rebuild + contents). Non-restoration trades floor at one job.
 RESTORATION_FLOOR = (14500, 19000)
-NON_RESTORATION_VERTICALS = {"plumbing"}
+NON_RESTORATION_VERTICALS = {"plumbing", "carpentry"}
 
 # organic CTR curve (share of clicks by position; Backlinko/AWR-style curve)
 CTR = {1: 0.28, 2: 0.15, 3: 0.11, 4: 0.08, 5: 0.07,
@@ -181,16 +190,21 @@ def _get_site_html(url, timeout=25):
     return _http_get(url, timeout=timeout, headers=BROWSER_HEADERS).decode("utf-8", "ignore")
 
 
-def _fetch_text_via_dfs(url):
+def _fetch_text_via_dfs(url, js=False):
     """Last resort when the site blocks our server IP entirely (WAF / IP
     reputation): pull the page through DataForSEO's crawler, which fetches
     from different egress IPs. Returns PLAIN TEXT (not HTML) — enough to
-    profile the business; link discovery is skipped. Costs ~$0.0002."""
+    profile the business; link discovery is skipped. Costs ~$0.0002.
+
+    js=True renders the page in a real browser first (~$0.0015, ~20s). Needed
+    for client-side-rendered sites whose server HTML is an empty app shell —
+    see the ProfileIncompleteError recovery in run_audit."""
     if not urllib.parse.urlparse(url).path:
         url += "/"   # DFS content_parsing returns 0 items for a bare domain URL
     items, _cost, task = _dfs(
         "https://api.dataforseo.com/v3/on_page/content_parsing/live",
-        [{"url": url, "enable_javascript": False}], _dfs_auth(), timeout=90)
+        [{"url": url, "enable_javascript": bool(js)}], _dfs_auth(),
+        timeout=180 if js else 90)
     if task.get("status_code") and int(task["status_code"]) >= 40000:
         raise RuntimeError("content_parsing: " + str(task.get("status_message")))
     if not items:
@@ -221,6 +235,41 @@ def _html_to_text(raw):
     txt = re.sub(r"(?s)<[^>]+>", " ", txt)
     txt = html_mod.unescape(txt)
     return re.sub(r"\s+", " ", txt).strip()
+
+
+class ProfileIncompleteError(RuntimeError):
+    """The site text we fetched carries no services or no service cities, so
+    Claude could not build a profile without inventing facts. Raised so the
+    caller can escalate to a JavaScript-rendered re-crawl (see fetch_site)."""
+
+
+# "Restoration 1 of Hartland" / "PuroClean of East Las Vegas" — the funnel
+# captures the lead's OWN franchise name even when they submit the corporate
+# root as their website. The root is a national brand with hundreds of
+# locations and names no single city, so the profiler fails with no cities
+# (restoration1.com killed Russ Burley's audit 2026-08-04; puroclean.com killed
+# Gregory Arianoff's 2026-07-19). Their own page usually lives at
+# /{locality-slug} on the same domain, which the start_url mechanism already
+# knows how to profile.
+_FRANCHISE_OF = re.compile(r"(?i)\bof\s+(?:the\s+)?(.+)$")
+
+
+def franchise_start_urls(domain, business_name):
+    """Candidate franchise-location page URLs derived from the lead's business
+    name. Returns [] when the name carries no ' of {locality}' suffix."""
+    m = _FRANCHISE_OF.search((business_name or "").strip())
+    if not m:
+        return []
+    locality = m.group(1).strip()
+    if not locality or len(locality) > 40:
+        return []
+    slug = re.sub(r"[^a-z0-9]+", "-", locality.lower()).strip("-")
+    if not slug:
+        return []
+    out = ["https://{}/{}".format(domain, slug)]
+    if "-" in slug:
+        out.append("https://{}/{}".format(domain, slug.replace("-", "")))
+    return out
 
 
 def _dfs_auth():
@@ -322,16 +371,24 @@ def _claude_cost(usages):
 # Step 1 — fetch + profile the site
 # ---------------------------------------------------------------------------
 
-def fetch_site(domain, start_url=None):
+def fetch_site(domain, start_url=None, force_js=False):
     """Homepage + up to 4 about/service pages, as plain text.
 
     start_url: when the lead submitted a PAGE on a shared domain (franchise
     sites like puroclean.com/eastlasvegas), profile from THAT page — the
     domain root is the corporate brand, not their business — and prefer
-    links inside the same subtree."""
+    links inside the same subtree.
+
+    force_js: skip the raw fetch and render the page in a real browser via
+    DataForSEO. Used only as a retry after the raw HTML profiled empty."""
     pages = {}
     base = "https://" + domain
     target = start_url or base
+    if force_js:
+        pages["homepage"] = _fetch_text_via_dfs(target, js=True)[:15000]
+        # Links in a client-rendered app are in-app routes with no server HTML
+        # worth fetching; the rendered homepage carries the content.
+        return pages
     raw = None
     try:
         raw = _get_site_html(target)
@@ -345,7 +402,11 @@ def fetch_site(domain, start_url=None):
             # Direct fetch blocked (WAF 403 on our server IP, etc.) — pull the
             # text through DataForSEO's crawler so the audit still completes.
             try:
-                pages["homepage"] = _fetch_text_via_dfs(target)[:15000]
+                try:
+                    pages["homepage"] = _fetch_text_via_dfs(target)[:15000]
+                except Exception:
+                    # blocked AND client-rendered: render it in a browser
+                    pages["homepage"] = _fetch_text_via_dfs(target, js=True)[:15000]
             except Exception:
                 # Classify before giving up: an HTTPError means the site
                 # ANSWERED (it is up — Isaac Gomez's WAF 403, 2026-07-31, must
@@ -398,7 +459,12 @@ Return ONLY a JSON object (no prose, no markdown fences) with exactly these keys
 {
  "business_name": str,           // the customer-facing brand name
  "phone": str|null,
- "vertical": str,                // one of: water, fire, mold, storm, biohazard, reconstruction
+ "vertical": str,                // one of: water, fire, mold, storm, biohazard, reconstruction,
+                                 // plumbing, carpentry. Pick the RESTORATION vertical only when
+                                 // the business actually does damage restoration. A deck/fence or
+                                 // general outdoor-construction contractor is "carpentry"; a
+                                 // plumber is "plumbing". Never force a non-restoration trade
+                                 // onto a restoration vertical.
  "services": [str],              // 2-5 plain-English service labels, most important first,
                                  // e.g. "water damage restoration"
  "cities": [{"city": str, "state": str}],  // up to 4 cities actually served, most important
@@ -415,7 +481,8 @@ PROFILE_SCHEMA = {
         "business_name": {"type": "string"},
         "phone": {"type": ["string", "null"]},
         "vertical": {"type": "string",
-                     "enum": ["water", "fire", "mold", "storm", "biohazard", "reconstruction"]},
+                     "enum": ["water", "fire", "mold", "storm", "biohazard", "reconstruction",
+                              "plumbing", "carpentry"]},
         "services": {"type": "array", "items": {"type": "string"}},
         "cities": {"type": "array", "items": {
             "type": "object", "additionalProperties": False,
@@ -435,7 +502,7 @@ def profile_site(client, domain, pages):
     prof["services"] = [s.strip().lower() for s in prof.get("services") or [] if s.strip()][:5]
     prof["cities"] = (prof.get("cities") or [])[:4]
     if not prof.get("services") or not prof.get("cities"):
-        raise RuntimeError("profile incomplete: services/cities missing")
+        raise ProfileIncompleteError("profile incomplete: services/cities missing")
     return prof, usage
 
 
@@ -788,19 +855,22 @@ def revenue_math(rankings, vols, vertical):
         floor_low, floor_high = ticket, ticket * 2
         floor_note = ("winning just ONE additional {} job per month at an average ticket "
                       "of ${:,}").format(vertical, ticket)
+        # A deck builder has no insured losses, so the six-figure fire-loss
+        # caveat below would be nonsense on his report.
+        tail = " Real tickets vary widely with job size and materials."
     else:
         floor_low = max(ticket, RESTORATION_FLOOR[0])
         floor_high = max(ticket * 2, RESTORATION_FLOOR[1])
         floor_note = ("winning roughly one full {} loss per month, mitigation plus rebuild "
                       "and contents, which for insured losses routinely runs well into five "
                       "figures").format(vertical)
+        tail = (" Real tickets vary widely, and a single large fire loss can exceed $100,000.")
     if tracked == 0 or mid < 200:
         return {"low": floor_low, "high": floor_high, "ticket": ticket,
                 "missed_clicks": int(round(missed_clicks)),
                 "methodology": ("Tracked search volume in this market is too thin for click-by-click math, "
                                 "so this range shows the most conservative yardstick instead: the value of "
-                                + floor_note + ". Real tickets vary widely, and a single large fire loss "
-                                "can exceed $100,000.")}
+                                + floor_note + "." + tail)}
     low = int(round(mid * 0.6, -2))
     high = int(round(mid * 1.4, -2))
     methodology = ("Estimate = monthly Google search volume for the {} tracked keywords x the standard "
@@ -1633,7 +1703,40 @@ def run_audit(website, name, email, phone, audit_id=None, email_mode="all", prog
 
     # 1. site -> profile
     pages = fetch_site(domain, start_url)
-    prof, u = profile_site(client, start_url or domain, pages)
+    try:
+        prof, u = profile_site(client, start_url or domain, pages)
+    except ProfileIncompleteError:
+        # The raw server HTML held no services or no cities. Two known causes,
+        # each with its own cheap recovery; both run only on this failure path.
+        prof = None
+        # Recovery 1 — franchise root: the lead submitted the corporate domain
+        # but the funnel knows their location ("Restoration 1 of Hartland"),
+        # whose own page is /hartland on the same domain.
+        if not start_url:
+            for cand in franchise_start_urls(domain, business_name):
+                try:
+                    cand_pages = fetch_site(domain, cand)
+                    prof, u = profile_site(client, cand, cand_pages)
+                except Exception:
+                    continue
+                start_url, pages = cand, cand_pages
+                log("franchise-root recovery: profiled {} instead of the corporate root".format(cand))
+                break
+        # Recovery 2 — client-rendered site: the fetch returned a clean 200 but
+        # every word of business content is painted by JavaScript, so the
+        # blocked-site fallback never fires and the profiler only ever sees the
+        # builder's app shell. Jose Mendoza's eds-construction-services.com
+        # (2026-08-04) is a Base44 app whose shell still carried the STARTER
+        # TEMPLATE's name ("Deck & Fence Pro manages 2 data types including
+        # leads", repeated once per route): 1,229 chars of real prose that says
+        # nothing about his business, so no length threshold can spot it.
+        # Render it in a browser and profile that (~$0.0015, failure path only).
+        if prof is None:
+            log("profile came back empty from the raw HTML — retrying with a "
+                "JavaScript-rendered crawl (client-side-rendered site?)")
+            pages = fetch_site(domain, start_url, force_js=True)
+            prof, u = profile_site(client, start_url or domain, pages)
+            log("JS-rendered retry succeeded ({} chars)".format(len(pages.get("homepage") or "")))
     usages.append(u)
     service = prof["services"][0]
     cities = prof["cities"]
