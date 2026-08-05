@@ -27,7 +27,9 @@ export const brand = {
   // Analytics — set post-scaffold (scripts/analytics_set.py / create_ga4.py); no-op if empty
   ga4MeasurementId: "",
   clarityProjectId: "",
-  logoUrl: "https://images.None/brand/logo.png",
+  // local file until the client's domain + R2 bucket exist; switch to
+  // images.{domain}/brand/logo.png at production cutover
+  logoUrl: "/images/logo.png",
   licenseNumbers: [] as string[],
   licenseAuthority: "",
   // State license-verification page — the footer links the license number here.

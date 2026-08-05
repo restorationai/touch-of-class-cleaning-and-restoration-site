@@ -261,7 +261,12 @@ def main():
             out = ROOT / "sites" / slug / "public" / "images" / f"logo{ext}"
             out.parent.mkdir(parents=True, exist_ok=True)
             out.write_bytes(raw)
-            brand.setdefault("logo_url", f"/images/logo{ext}")
+            # Assign, do NOT setdefault: a stale cross-domain logo_url already in
+            # the brand block would win and the pulled file would sit unused. That
+            # is how diss-restoration shipped pointing at images.dissrestoration.com
+            # (no DNS) and go-green at the literal images.None — both with a perfectly
+            # good logo.png already on disk. A local path works on every host.
+            brand["logo_url"] = f"/images/logo{ext}"
             print(f"  logo: pulled {img['name']} -> public/images/logo{ext}")
     except Exception as e:
         print(f"  logo pull skipped: {str(e)[:100]}")
