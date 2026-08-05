@@ -1796,6 +1796,174 @@ def has_boss_directive(company_id: str | None) -> bool:
     return bool(open_boss_directives(company_id))
 
 
+# ------------------------------------------- Google manager-link (LSA) asks
+# TWO CLIENTS IN ONE HOUR (Santino 2026-08-04). Monica asked Greg Arianoff and
+# Curt Eddy to accept a Google manager invite; both replied that they already
+# had, and both were right.
+#   Greg's link had gone ACTIVE that evening — we asked off a stale flag,
+#   because nothing ever read the link back (see scripts/lsa_link_audit.py).
+#   Curt had accepted the invite for Home Pride's GOOGLE ADS account
+#   (2347693633, ACTIVE since ~May). The one still pending is their separate
+#   LOCAL SERVICES account (2957729882) — and the text he got said "your ads
+#   account", which is exactly the one he had already accepted.
+# So: check the live link before asking anyone to accept it, and when the ask
+# is genuinely due, name the account and own the history.
+_LSA_ASK_RE = re.compile(
+    r"(?=.*\b(?:manager|management|mcc|access)\b)"
+    r"(?=.*\b(?:invite|invitation|request|link)\b)"
+    r"(?=.*accept)", re.I | re.S)
+# ...but a note CONFIRMING a link is not an ask to accept one.
+_LSA_ASK_NOT_RE = re.compile(
+    r"do ?n['’]?o?t ask|don['’]t ask|no need to ask|nothing else needed"
+    r"|already (?:accepted|linked|active)|ask is (?:done|retired)", re.I)
+
+
+def _is_lsa_ask(text) -> bool:
+    t = str(text or "")
+    return bool(_LSA_ASK_RE.search(t)) and not _LSA_ASK_NOT_RE.search(t)
+
+
+def _fmt_acct(a: str) -> str:
+    a = str(a or "")
+    return f"{a[:3]}-{a[3:6]}-{a[6:]}" if len(a) == 10 and a.isdigit() else a
+
+
+_MCC_LINKS: dict | None | bool = False   # False = not attempted yet
+
+
+def _mcc_links() -> dict | None:
+    """{account_id: [(link_id, status), ...]} on the agency MCC, or None.
+
+    Fail-open by design: with no Ads credentials (CI) this returns None and
+    every caller behaves exactly as it did before.
+    """
+    global _MCC_LINKS
+    if _MCC_LINKS is not False:
+        return _MCC_LINKS
+    _MCC_LINKS = None
+    try:
+        from lsa_detect import build_mcc_client
+        from lsa_link_audit import link_states
+        client, mcc = build_mcc_client()
+        if client:
+            _MCC_LINKS = link_states(client, mcc)
+    except Exception as e:
+        print(f"  [lsa-link] live check unavailable ({str(e)[:70]}) — "
+              "falling back to stored state")
+    return _MCC_LINKS
+
+
+def lsa_link_facts(company: dict) -> dict | None:
+    """Live manager-link state for the account an invite is/was for."""
+    links = _mcc_links()
+    if links is None:
+        return None
+    rows = _sb("GET", "/rest/v1/user_integrations"
+               f"?client_id=eq.{company['id']}&provider=eq.google"
+               "&select=connection_metadata") or []
+    cm = (rows[0].get("connection_metadata") or {}) if rows else {}
+    ints = company.get("integration_settings") or {}
+    if isinstance(ints, str):
+        try:
+            ints = json.loads(ints)
+        except (json.JSONDecodeError, TypeError):
+            ints = {}
+    lsa_id = str((ints.get("lsa") or {}).get("customer_id")
+                 or cm.get("lsa_customer_id") or "").replace("-", "")
+    ads_id = str(cm.get("selected_ads_customer_id")
+                 or cm.get("ads_customer_id") or "").replace("-", "")
+    target = lsa_id or ads_id
+    if not target:
+        return None
+    cur = links.get(target) or []
+    other = [(ads_id, links[ads_id][-1][1],
+              cm.get("selected_ads_account_name") or "their Google Ads account")
+             for _ in (0,)
+             if ads_id and ads_id != target and ads_id in links]
+    return {"account": target,
+            "is_lsa": bool(lsa_id) and target == lsa_id,
+            "status": cur[-1][1] if cur else "NONE",
+            "link_id": cur[-1][0] if cur else None,
+            "prior": cur[:-1],
+            "other_active": [o for o in other if o[1] == "ACTIVE"]}
+
+
+def lsa_ask_guard(company: dict, items: list[dict],
+                  directives: list[dict] | None, dry_run: bool):
+    """Check the link BEFORE asking anyone to accept it.
+
+    Returns (items, directives, note). The ask is dropped when the link is
+    already ACTIVE (rows closed — it is done) or when no invite is actually
+    outstanding (rows kept open — that one is OUR job, not theirs). When the
+    ask is genuinely due, `note` tells compose exactly how to word it.
+    """
+    directives = directives or []
+    ask_items = [i for i in items if _is_lsa_ask(i.get("text"))]
+    ask_dirs = [d for d in directives if _is_lsa_ask(d.get("body"))]
+    if not (ask_items or ask_dirs):
+        return items, directives, None
+    f = lsa_link_facts(company)
+    if not f:
+        return items, directives, None
+    acct = _fmt_acct(f["account"])
+
+    if f["status"] == "ACTIVE":
+        print(f"  [lsa-link] {acct} is already ACTIVE — retiring the accept "
+              "ask instead of sending it")
+        for it in ask_items:
+            val = (f"auto-satisfied {datetime.now(timezone.utc).date()}: "
+                   f"manager link ACTIVE on {acct} (link {f['link_id']})")
+            if it.get("kind") == "intake":
+                apply_answer(it["id"], val, dry_run)
+            else:
+                resolve_plan_row(it["id"], dry_run)
+        if not dry_run:
+            resolve_directives(ask_dirs, why="manager link already ACTIVE")
+        return ([i for i in items if i not in ask_items],
+                [d for d in directives if d not in ask_dirs], None)
+
+    if f["status"] != "PENDING":
+        print(f"  [lsa-link] nothing outstanding on {acct} "
+              f"(status {f['status']}) — there is no invite for them to "
+              "accept; holding the ask (we owe the invite, not them)")
+        return ([i for i in items if i not in ask_items],
+                [d for d in directives if d not in ask_dirs], None)
+
+    label = "Local Services Ads account" if f["is_lsa"] else "Google Ads account"
+    lines = [
+        "\nMANAGER-LINK ASK — NAME THE ACCOUNT (Santino 2026-08-04): the "
+        f"invite is for their {label} {acct}. Say WHICH account. Two clients "
+        "in one hour answered \"I already did this\" because the text just "
+        "said \"your ads account\", which for one of them was a different "
+        "account he really had accepted. Accepting lets us manage that "
+        "account for them — one short clause on why, no more.",
+    ]
+    if f["other_active"]:
+        a, _st, nm = f["other_active"][0]
+        lines.append(
+            "THEY ARE NOT MISREMEMBERING — our records show they already "
+            f"accepted the invite for {nm} ({_fmt_acct(a)}). Lead with that: "
+            "they did accept one, this is a second, separate account. Never "
+            "imply they forgot.")
+    elif any(s == "INACTIVE" for _i, s in f["prior"]):
+        # INACTIVE = a link that was live and later came apart. CANCELED is
+        # different: a resend WITHDRAWS the old pending invite, so a CANCELED
+        # predecessor proves only that an older email went dead — never that
+        # they accepted it. Do not apologise for the wrong thing.
+        lines.append(
+            "THEY DID ACCEPT ONE BEFORE on this same account and the link "
+            "later came apart on our side. Own that first (\"you did accept "
+            "one, it dropped on our end, sorry for the runaround\") and then "
+            "ask.")
+    elif f["prior"]:
+        lines.append(
+            "AN EARLIER INVITE TO THIS ACCOUNT WAS WITHDRAWN when we re-sent "
+            "it, so an older Google email they may have kept no longer works "
+            "— tell them to use the most recent one. Do not say they accepted "
+            "before; a withdrawn invite is not proof that they did.")
+    return items, directives, "\n".join(lines) + "\n"
+
+
 # ------------------------------------------------------------- topic bans
 # The other half of the untagged-note vocabulary: the notes that say what NOT
 # to say. "Do NOT mention prorestorationca.com, the domain, or registrar
@@ -2666,7 +2834,8 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
                   pending_reply: dict | None = None,
                   commitment: dict | None = None,
                   preview_url: str | None = None,
-                  directives: list[dict] | None = None) -> dict:
+                  directives: list[dict] | None = None,
+                  lsa_note: str | None = None) -> dict:
     chosen = items[:FIRST_CONTACT_MAX_ITEMS if first_contact
                    else MAX_ITEMS_PER_MESSAGE]
     # LAUNCH-BLOCKER PAIR (Santino 2026-08-03, his explicit design and the
@@ -2987,6 +3156,7 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
             + appt_block
             + ban_block
             + directive_block
+            + (lsa_note or "")
             + pending_block
             + steps_block
             + pair_block
@@ -3267,6 +3437,9 @@ def cmd_compose(args) -> int:
     directives = open_boss_directives(args.company)
     for scid in merge_with:
         directives += open_boss_directives(scid)
+    # Never ask a client to accept a link that is already ACTIVE.
+    items, directives, lsa_note = lsa_ask_guard(
+        company, items, directives, dry_run=not args.send)
     if directives:
         print(f"Boss directive(s) open: {len(directives)} — "
               + "; ".join(str(d.get("body", ""))[:70] for d in directives))
@@ -3412,7 +3585,7 @@ def cmd_compose(args) -> int:
                           history=history, intel=intel, appointments=appts,
                           sister_names=sister_names, pending_reply=pending,
                           commitment=commitment, preview_url=preview_url,
-                          directives=directives)
+                          directives=directives, lsa_note=lsa_note)
     # A directive the thread shows was ALREADY carried out (Santino texted
     # them the same thing himself) is closed instead of repeated.
     if draft.get("directive_done"):
@@ -3626,6 +3799,8 @@ def preview_compose(company_id: str, channel: str = "sms") -> dict:
     pending = pending_client_message(cs, history, state)
     commitment = cs.get("pending_commitment") or None
     directives = open_boss_directives(company_id)
+    items, directives, lsa_note = lsa_ask_guard(
+        company, items, directives, dry_run=True)
     owed = bool(pending or commitment or directives)
     # A boss directive overrides his own human-defer (see cmd_compose).
     gate = ((None if directives else human_conversation_deferral(history, state))
@@ -3648,7 +3823,8 @@ def preview_compose(company_id: str, channel: str = "sms") -> dict:
     draft = compose_draft(company, first, items, channel, first_contact,
                           history=history, intel=intel, appointments=appts,
                           pending_reply=pending, commitment=commitment,
-                          preview_url=preview_url, directives=directives)
+                          preview_url=preview_url, directives=directives,
+                          lsa_note=lsa_note)
     return {"company": company.get("name"), "channel": channel, "gate": gate,
             "draft": draft["body"], "subject": draft.get("subject"),
             "items": [i["text"] for i in draft.get("items", [])]}
@@ -3708,6 +3884,8 @@ def send_now(company_id: str, channel: str = "sms") -> dict:
     pending = pending_client_message(cs, history, state)
     commitment = cs.get("pending_commitment") or None
     directives = open_boss_directives(company_id)
+    items, directives, lsa_note = lsa_ask_guard(
+        company, items, directives, dry_run=False)   # send_now is a real send
     if not items and not (pending or commitment or directives):
         return {**base, "sent": False,
                 "reason": "nothing outstanding — no message to send"}
@@ -3720,7 +3898,8 @@ def send_now(company_id: str, channel: str = "sms") -> dict:
     draft = compose_draft(company, first, items, channel, first_contact,
                           history=history, intel=intel, appointments=appts,
                           pending_reply=pending, commitment=commitment,
-                          preview_url=preview_url, directives=directives)
+                          preview_url=preview_url, directives=directives,
+                          lsa_note=lsa_note)
     if draft.get("directive_done"):
         done_ids = {str(f.get("note_id")) for f in draft["directive_done"]}
         resolve_directives([d for d in directives if str(d["id"]) in done_ids],

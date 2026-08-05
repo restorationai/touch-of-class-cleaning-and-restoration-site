@@ -15,8 +15,14 @@ Ground truth is `customer_client_link` on the manager account:
     ACTIVE    accepted, we can manage the account    -> retire the ask
     CANCELED  withdrawn (every resend cancels the    -> superseded by the
               old pending link before re-creating)      newer link id
+    INACTIVE  was accepted, later came apart         -> they DID accept once
     REFUSED   client declined
     (absent)  no invite was ever sent from our MCC
+
+CANCELED and INACTIVE are not interchangeable and the difference decides the
+tone of the ask: a CANCELED predecessor only means an old invite email went
+dead, while INACTIVE means they really did accept once. Telling a client
+"you accepted before, sorry" off a CANCELED row would be a false apology.
 
 Per company we check the two account ids we might care about: the one the
 client picked during the connect flow (connection_metadata
@@ -33,7 +39,6 @@ Usage:
 """
 from __future__ import annotations
 
-import json
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -53,7 +58,8 @@ from lsa_detect import build_mcc_client, _ints  # noqa: E402
 # invite_status vocabulary already in connection_metadata ("invited",
 # "accepted" — see National Restoration Construction) kept as-is.
 LINK_TO_INVITE = {"ACTIVE": "accepted", "PENDING": "invited",
-                  "CANCELED": "canceled", "REFUSED": "refused"}
+                  "CANCELED": "canceled", "REFUSED": "refused",
+                  "INACTIVE": "unlinked"}
 
 
 def link_states(client, mcc: str) -> dict[str, list[tuple[int, str]]]:
@@ -73,6 +79,48 @@ def link_states(client, mcc: str) -> dict[str, list[tuple[int, str]]]:
         out.setdefault(li.client_customer.split("/")[-1], []).append(
             (int(li.manager_link_id), li.status.name))
     return {k: sorted(v) for k, v in out.items()}
+
+
+def fmt_acct(a: str) -> str:
+    return f"{a[:3]}-{a[3:6]}-{a[6:]}" if len(a) == 10 and a.isdigit() else (a or "-")
+
+
+def _ts(s) -> float | None:
+    try:
+        return datetime.fromisoformat(str(s).replace("Z", "+00:00")).timestamp()
+    except (TypeError, ValueError):
+        return None
+
+
+def created_estimator(anchors: list[tuple[int, float]]):
+    """link_id -> approximate creation date.
+
+    customer_client_link carries no timestamp, but manager_link_id is issued
+    roughly sequentially Google-wide, so our own recorded lsa_invite_at values
+    calibrate a line through it. Rates observed 21k-32k ids/hour, so treat the
+    output as +/- a couple of days — enough to tell "he accepted that one
+    months ago" from "that went out last night", which is the whole question
+    when a client says "I already did this".
+    """
+    if len(anchors) < 2:
+        return lambda _lid: None
+    n = len(anchors)
+    sx = sum(a for a, _ in anchors)
+    sy = sum(t for _, t in anchors)
+    sxx = sum(a * a for a, _ in anchors)
+    sxy = sum(a * t for a, t in anchors)
+    den = n * sxx - sx * sx
+    if not den:
+        return lambda _lid: None
+    m = (n * sxy - sx * sy) / den
+    b = (sy - m * sx) / n
+
+    def est(lid: int):
+        try:
+            return datetime.fromtimestamp(m * lid + b, timezone.utc)
+        except (OverflowError, OSError, ValueError):
+            return None
+    return est
 
 
 def main() -> int:
@@ -111,16 +159,50 @@ def main() -> int:
         cur = links.get(target)
         status = cur[-1][1] if cur else "NO INVITE"
         link_id = cur[-1][0] if cur else None
+        # OTHER accounts of theirs that we are ALSO linked to. This is the
+        # column that decides apology vs nudge: Curt Eddy answered "I think I
+        # already did this a long time ago" because he HAD — for Home Pride's
+        # Google Ads account (2347693633, ACTIVE since ~May), while the
+        # pending invite is for their separate Local Services account.
+        other = [(a, links[a][-1][1], nm) for a, nm in
+                 ((sel, cm.get("selected_ads_account_name") or "Google Ads"),)
+                 if a and a != target and a in links]
         rows.append((co["name"], target, status, link_id,
-                     cm.get("lsa_invite_status"), u, cm, cur))
+                     cm.get("lsa_invite_status"), u, cm, cur, other))
+
+    # Calibrate link-id -> date from the invites whose send time we recorded.
+    # Only accounts with exactly ONE link are trustworthy anchors: a resend
+    # creates a second link but the app never restamps lsa_invite_at, so on a
+    # resent account that timestamp describes the CANCELED predecessor.
+    anchors = []
+    for _n, _a, status, link_id, _w, _u, cm, cur, _o in rows:
+        t = _ts(cm.get("lsa_invite_at"))
+        if link_id and t and status == "PENDING" and len(cur or []) == 1:
+            anchors.append((link_id, t))
+    est = created_estimator(sorted(set(anchors)))
+
+    def created(link_id, cm, exact_ok) -> str:
+        if not link_id:
+            return "-"
+        t = _ts(cm.get("lsa_invite_at"))
+        if exact_ok and t:
+            return datetime.fromtimestamp(t, timezone.utc).strftime("%Y-%m-%d")
+        d = est(link_id)
+        return f"~{d:%Y-%m-%d}" if d else "?"
 
     w = max((len(r[0]) for r in rows), default=10)
-    print(f"{'client':{w}}  {'lsa account':>12}  {'MCC LINK':<10} "
-          f"{'link id':<11} stored status  history")
-    for name, acct, status, link_id, was, _u, _cm, cur in sorted(rows):
-        hist = " ".join(f"{i}:{s}" for i, s in (cur or [])) or "-"
-        print(f"{name:{w}}  {acct or '-':>12}  {status:<10} "
-              f"{str(link_id or '-'):<11} {str(was or '-'):<14} {hist}")
+    print(f"{'client':{w}}  {'lsa account':>14}  {'MCC LINK':<10} "
+          f"{'created':<11} {'prior link on this account':<28} also linked")
+    for name, acct, status, link_id, _was, _u, cm, cur, other in sorted(rows):
+        exact = len(cur or []) == 1 and status == "PENDING"
+        prior = " ".join(f"{s}" for _i, s in (cur or [])[:-1]) or "—"
+        if prior != "—":
+            prior += f" (~{est((cur or [])[0][0]):%Y-%m-%d})" if est((cur or [])[0][0]) else ""
+        also = ", ".join(f"{fmt_acct(a)} {st} ({nm})" for a, st, nm in other) or "—"
+        print(f"{name:{w}}  {fmt_acct(acct):>14}  {status:<10} "
+              f"{created(link_id, cm, exact):<11} {prior:<28} {also}")
+    print("\ncreated: exact where we recorded the send; ~ = interpolated from "
+          "the manager_link_id sequence (+/- a couple of days).")
 
     if mismatches:
         print("\nIDENTITY MISMATCH — detection stored an account we were "
