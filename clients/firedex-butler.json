@@ -10,7 +10,7 @@
   "r2": null,
   "status": "pending",
   "created_at": "2026-07-08T22:00:00+00:00",
-  "updated_at": "2026-07-28T00:55:54.365400+00:00",
+  "updated_at": "2026-08-05T04:07:30.838412+00:00",
   "company_id": "CO-1783443032282",
   "nap": {
     "name": "FireDEX Butler, Inc.",
@@ -58,7 +58,7 @@
     "pages_status": "local-only",
     "last_rendered_at": "2026-07-09T16:05:12.200516+00:00",
     "github_repo": "restorationai/firedex-butler-site",
-    "last_pushed_staging_at": "2026-07-28T00:55:54.365349+00:00",
+    "last_pushed_staging_at": "2026-08-05T04:07:30.838360+00:00",
     "preview_url": "https://firedex-butler-preview.pages.dev"
   },
   "build_status": "pushed_staging"
