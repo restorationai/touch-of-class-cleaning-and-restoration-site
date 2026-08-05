@@ -20,7 +20,12 @@ on:
 jobs:
   bootstrap:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    # 60, not 25: the day-one blitz now includes ONE auto site build
+    # (plan -> scaffold -> render). DISS Restoration signed up 2026-08-04
+    # 18:36 UTC, bootstrapped here 13 minutes later, and then had no site for
+    # ~19 hours because the build only ever ran in the once-daily ops sync.
+    # Same budget the ops-sync job uses for the same work.
+    timeout-minutes: 60
 
     steps:
       - name: Checkout repo
@@ -57,13 +62,24 @@ jobs:
           GOOGLE_OAUTH_CLIENT_SECRET:  ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
           GOOGLE_ADS_DEVELOPER_TOKEN:  ${{ secrets.GOOGLE_ADS_DEVELOPER_TOKEN }}
           CLOUDFLARE_API_TOKEN:        ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          # The auto site build in the day-one blitz pushes the per-client
+          # GitHub repo (HomeLyft's scaffold died for want of this token,
+          # 2026-08-01) and provisions the call-tracking number.
+          GITHUB_PERSONAL_ACCESS_TOKEN: ${{ secrets.GH_PAT }}
+          TWILIO_MASTER_ACCOUNT_SID:   ${{ secrets.TWILIO_MASTER_ACCOUNT_SID }}
+          TWILIO_MASTER_AUTH_TOKEN:    ${{ secrets.TWILIO_MASTER_AUTH_TOKEN }}
+          GOOGLE_AI_API_KEY:           ${{ secrets.GOOGLE_AI_API_KEY }}
         run: |
           python3 scripts/client_ops_sync.py --bootstrap-only \
             ${{ github.event.inputs.dry_run == 'true' && '--dry-run' || '--send' }}
 
       - name: Commit new client files
         run: |
-          git add clients/ 2>/dev/null || true
+          # sites/ too — the day-one blitz's auto build scaffolds + renders
+          # sites/{slug} in this job; committing only clients/ would throw the
+          # rendered site away and make the next run re-render it from scratch
+          # (same lesson as the ops-sync job, Reign 2026-08-03).
+          git add clients/ sites/ 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "Nothing to commit."
           else

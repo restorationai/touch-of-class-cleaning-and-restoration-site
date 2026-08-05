@@ -67,12 +67,18 @@ def main() -> int:
         loc_name = loc["name"] if loc["name"].startswith("locations/") \
             else "locations/" + loc["name"].split("locations/")[-1]
 
-        # Already an admin? (invitations show up here too once accepted)
+        # Already an admin? NOTE (2026-08-05): this only catches the PENDING
+        # case. Google returns the invitee's EMAIL in `admin` while an
+        # invitation is outstanding, and swaps it for the DISPLAY NAME once
+        # accepted — so an accepted agency manager reads as "Santino Velci"
+        # and never matches AGENCY_EMAIL. Those clients fall through to the
+        # POST below and land in the ALREADY_EXISTS branch, which is why that
+        # branch must not claim the invite is merely "pending".
         r = requests.get(f"{ACCT_MGMT}/{loc_name}/admins",
                          headers={"Authorization": f"Bearer {tok}"}, timeout=30)
         if r.ok and any(AGENCY_EMAIL in json.dumps(a).lower()
                         for a in (r.json().get("admins") or [])):
-            skipped.append((slug, "already admin"))
+            skipped.append((slug, "invite pending (agency has not accepted yet)"))
             continue
 
         if dry:
@@ -86,7 +92,12 @@ def main() -> int:
         if r.ok:
             invited.append((slug, "invited"))
         elif "ALREADY_EXISTS" in r.text or r.status_code == 409:
-            skipped.append((slug, "invite already pending"))
+            # Google returns ALREADY_EXISTS for BOTH "invite outstanding" and
+            # "already an accepted manager", and the admins list above cannot
+            # tell them apart once accepted. Say what we actually know.
+            skipped.append((slug, "already has access OR invite outstanding "
+                                  "(Google reports ALREADY_EXISTS for both) — "
+                                  "confirm at business.google.com"))
         else:
             skipped.append((slug, f"HTTP {r.status_code}: {r.text[:80]}"))
     print(f"\nINVITED ({len(invited)}):")

@@ -1092,12 +1092,22 @@ def run(since_override: str | None, dry_run: bool, do_send: bool) -> int:
     # Setup ledger — the overseer: derives per-client setup state, auto-heals
     # GSC/IndexNow on live sites, and returns the us-owed attention list
     # (fed into the digest's "Needs Santino/Claude" sections below).
+    # INDEPENDENT try/excepts, not one shared block (DISS 2026-08-04 audit):
+    # a single wrapper meant any ensure_ledger raise silently took the
+    # auto-build down with it — the site build would just never happen and the
+    # only trace was one "(ledger) errored" line. Site builds never wait on the
+    # ledger's health.
+    ledger_lines: list[str] = []
     try:
-        from setup_ledger import ensure_auto_site_build, ensure_ledger
-        ledger_lines = ensure_ledger(dry_run, cid_to_slug)
+        from setup_ledger import ensure_ledger
+        ledger_lines += ensure_ledger(dry_run, cid_to_slug)
+    except Exception as e:
+        ledger_lines.append(f"(ledger) errored: {str(e)[:120]}")
+    try:
+        from setup_ledger import ensure_auto_site_build
         ledger_lines += ensure_auto_site_build(dry_run, cid_to_slug)
     except Exception as e:
-        ledger_lines = [f"(ledger) errored: {str(e)[:120]}"]
+        ledger_lines.append(f"(auto-site-build) errored: {str(e)[:120]}")
     for ln in ledger_lines:
         print("  LEDGER: " + ln)
     sweep_lines += ledger_lines
@@ -1301,9 +1311,25 @@ def main() -> int:
         # ensure_ledger joins the day-one blitz (Santino 2026-07-28): a fresh
         # signup gets citations discovery, a tracking number, and ledger rows
         # in the SAME run the signup-alert webhook triggers — not 4h later.
+        #
+        # ensure_auto_site_build joins it too (DISS Restoration 2026-08-04):
+        # the auto-build lived ONLY in the once-daily 14:00 UTC ops sync, so a
+        # client who signed up at 18:36 got the full bootstrap (client files,
+        # geo-grid, tracking number, ledger rows) within 13 minutes and then
+        # sat at build_status=pending for ~19 hours with no site — a silent
+        # gap nobody was paged about. This job already runs every 2 hours and
+        # is the thing that mints the client, so the build belongs here.
+        # cap=1: bounds the 2-hourly job to a single render (the daily sync
+        # keeps its cap of 4 for backlog catch-up).
+        from setup_ledger import ensure_auto_site_build as _autobuild
         from setup_ledger import ensure_ledger as _ledger
+
+        def _autobuild_capped(dry, mapping):
+            return _autobuild(dry, mapping, cap=1)
+        _autobuild_capped.__name__ = "ensure_auto_site_build"
+
         for fn in (ensure_gbp_first_sync, ensure_baseline_scans,
-                   ensure_ads_first_sync, _ledger):
+                   ensure_ads_first_sync, _ledger, _autobuild_capped):
             try:
                 extra = fn(args.dry_run, m)
             except Exception as e:  # noqa: BLE001 — blitz never blocks bootstrap

@@ -1,9 +1,28 @@
 {
- "slug": "diss-restoration",
- "display_name": "DISS Restoration",
- "domain": null,
- "tier": "standard",
- "vertical": "restoration",
- "contact": "jbrady@dissrestoration.com",
- "status": "onboarding"
+  "slug": "diss-restoration",
+  "display_name": "DISS Restoration",
+  "domain": null,
+  "tier": "standard",
+  "vertical": "restoration",
+  "contact": "jbrady@dissrestoration.com",
+  "status": "onboarding",
+  "plan_status": "planned",
+  "plan": {
+    "template": "restoration",
+    "template_version": "0.3.0",
+    "url_count": 156,
+    "generated_at": "2026-08-05T05:08:05.790425+00:00"
+  },
+  "updated_at": "2026-08-05T05:08:20.354161+00:00",
+  "indexnow_key": "09d356f474404007b1215fd518504373",
+  "build": {
+    "scaffolded_at": "2026-08-05T05:08:20.353616+00:00",
+    "github_repo": "restorationai/diss-restoration-site",
+    "pages_project": "rankai-diss-restoration",
+    "starter_version": "0.1.0",
+    "url_count": 156,
+    "pages_status": "created",
+    "last_rendered_at": "2026-08-05T05:40:00.922536+00:00"
+  },
+  "build_status": "content_rendered"
 }

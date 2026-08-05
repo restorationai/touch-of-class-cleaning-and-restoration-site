@@ -61,6 +61,28 @@ def slugify(name):
     return re.sub(r"-{2,}", "-", s) or "client"
 
 
+def domain_from_website(website):
+    """companies.website -> bare apex domain, or None.
+
+    Only accepts a domain the client actually owns: free site builders and
+    social profiles (wixsite.com, facebook.com/..., a GBP-generated
+    business.site page) are NOT a domain we can ever cut over, so they stay
+    unset rather than becoming a fake apex the ledger then chases."""
+    host = (website or "").strip()
+    if not host:
+        return None
+    host = re.sub(r"^https?://", "", host, flags=re.I).split("/")[0].split("?")[0]
+    host = re.sub(r"^www\.", "", host.strip().lower()).strip(".")
+    if not host or "." not in host or " " in host:
+        return None
+    NOT_OURS = ("wixsite.com", "squarespace.com", "weebly.com", "business.site",
+                "godaddysites.com", "myshopify.com", "facebook.com", "wordpress.com",
+                "blogspot.com", "webflow.io", "netlify.app", "pages.dev", "sites.google.com")
+    if any(host == d or host.endswith("." + d) for d in NOT_OURS):
+        return None
+    return host
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--company-id", required=True)
@@ -69,11 +91,20 @@ def main():
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
 
-    rows = sb("GET", "/rest/v1/companies?id=eq.{}&select=id,name,email,status".format(args.company_id))
+    rows = sb("GET", "/rest/v1/companies?id=eq.{}&select=id,name,email,status,website".format(args.company_id))
     if not rows:
         sys.exit("company not found: " + args.company_id)
     co = rows[0]
     slug = args.slug or slugify(co["name"])
+    # The automated path (client_ops_sync --bootstrap-only) never passes
+    # --domain, so every auto-bootstrapped client used to be stamped
+    # "{slug}.invalid" even when companies.website held their real site —
+    # DISS Restoration shipped with domain "diss-restoration.invalid" while
+    # the onboarding wizard had dissrestoration.com on file the whole time
+    # (2026-08-04). The wizard answer is the truth; --domain still overrides.
+    args.domain = args.domain or domain_from_website(co.get("website"))
+    if args.domain:
+        print("domain: {}".format(args.domain))
     print("company: {} ({}) -> slug {}".format(co["name"], co["id"], slug))
     if args.dry_run:
         print("dry run — stopping before writes")

@@ -2302,6 +2302,31 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
     return attention
 
 
+def _seed_build_blocker_ask(cid: str, slug: str, dry_run: bool, key: str,
+                            title: str, rationale: str) -> None:
+    """One client_input plan row per reason a site build is BLOCKED on data
+    only the client can give us. Rank 1 — nothing else we could ask for is
+    worth more than the thing standing between them and a website. Deduped by
+    action_key (the table has no unique constraint), so this is safe to call
+    on every sweep; the row retires itself when the build finally runs."""
+    if dry_run:
+        return
+    action_key = f"site-build-blocked-{key}-{slug}"
+    try:
+        dup = _sb("GET", "/rest/v1/marketing_action_plan"
+                  f"?company_id=eq.{cid}&action_key=eq.{action_key}&select=id",
+                  prefer="return=representation") or []
+        if dup:
+            return
+        _sb("POST", "/rest/v1/marketing_action_plan", [{
+            "company_id": cid, "rank_ai_slug": slug, "action_key": action_key,
+            "action_type": "client_input", "status": "planned", "priority": 1,
+            "impact": "high", "effort": "low", "title": title,
+            "rationale": rationale}])
+    except Exception:
+        pass
+
+
 def ensure_auto_site_build(dry_run: bool, cid_to_slug: dict | None = None,
                            cap: int = 4) -> list[str]:
     """Auto-build preview sites — site builds never wait on approval (Santino
@@ -2317,7 +2342,7 @@ def ensure_auto_site_build(dry_run: bool, cid_to_slug: dict | None = None,
     cid_to_slug = cid_to_slug or slug_map()
     cos = _sb("GET", "/rest/v1/companies?status=ilike.active&plan=eq.Rank%20AI"
               "&select=id,name,phone,email,address,city,state,postal_code,services,"
-              "integration_settings,service_areas",
+              "integration_settings,service_areas,website",
               prefer="return=representation") or []
     out: list[str] = []
     built = 0
@@ -2329,7 +2354,22 @@ def ensure_auto_site_build(dry_run: bool, cid_to_slug: dict | None = None,
             continue
         services = [s for s in (co.get("services") or []) if s]
         if not services:
-            out.append(f"{slug}: cannot auto-build — no confirmed services in truth table")
+            # An UNESCALATED blocker is the same as no blocker. Paul Davis
+            # Charleston signed up 2026-07-07 with services=[] and this line
+            # printed into the ops digest every single night for four weeks
+            # while no one ever asked Kenneth for his service list, because
+            # nothing turned it into a client-facing ask (found 2026-08-05).
+            out.append(f"{slug}: cannot auto-build — no confirmed services in "
+                       "truth table (ask seeded for Monica)")
+            _seed_build_blocker_ask(
+                cid, slug, dry_run, "services",
+                "Confirm the services you want on your new website",
+                "Their Services list in the app is EMPTY, which is the ONLY "
+                "thing stopping their website from being built — the build is "
+                "otherwise fully automatic. Ask which services they actually "
+                "sell (water, fire, mold, reconstruction, ...) and tick them "
+                "in the app. Do NOT guess on their behalf; a wrong service "
+                "list ships wrong pages.")
             continue
         pi_path = CLIENTS_DIR / slug / "plan-input.json"
         if not pi_path.exists():
@@ -2498,12 +2538,35 @@ def ensure_auto_site_build(dry_run: bool, cid_to_slug: dict | None = None,
                 b["certifications"] = [names.get(c, c) for c in certs]
             if lic.get("license_number") and "license_numbers" not in b:
                 b["license_numbers"] = [str(lic["license_number"])]
+            # The wizard's licensing.trust_badges is the client's OWN attested
+            # checklist — the same intake object we already trust for
+            # certifications and the license number. Reading it fills the two
+            # truth-table fields claims_lint gates on, so the renderer is
+            # allowed to say what the client actually attested instead of
+            # being neutralized into vagueness (DISS 2026-08-04: attested
+            # "24/7 Emergency Service" + insured, but brand.hours was empty so
+            # every availability sentence would have linted as an error).
+            # Nothing here is inferred — an unchecked badge stays unclaimed.
+            attested = [str(t) for t in (lic.get("trust_badges") or []) if t]
+            att_blob = " | ".join(attested).lower()
+            is_247 = "24/7" in att_blob or "24-7" in att_blob
+            if is_247 and "hours" not in b:
+                b["hours"] = "24/7"
+            if lic.get("insured") and "licensed_insured_attested" not in b:
+                b["licensed_insured_attested"] = True
+            if lic.get("founded_year") and "founded_year" not in b:
+                b["founded_year"] = str(lic["founded_year"])
             badges = []
             if any(c.startswith("IICRC") for c in certs):
                 badges.append("IICRC Certified Firm")
             if lic.get("insured"):
                 badges.append("Licensed & Insured")
-            badges += ["24/7 Emergency Service", "Locally Owned & Operated"]
+            # 24/7 is a CLAIM, not a default — only badge it when the client
+            # ticked it in the wizard (it was previously appended for every
+            # client regardless of what they attested).
+            if is_247:
+                badges.append("24/7 Emergency Service")
+            badges.append("Locally Owned & Operated")
             b.setdefault("trust_badges", badges)
             # Primary area = the company's own city when it's in the list
             # (Vandenberg Village outranked Santa Maria purely by wizard
@@ -2538,6 +2601,17 @@ def ensure_auto_site_build(dry_run: bool, cid_to_slug: dict | None = None,
             if nested.exists():
                 import shutil
                 shutil.rmtree(nested, ignore_errors=True)
+            # Re-pull the logo: the ledger drops the branding-bucket logo into
+            # sites/{slug}/public/images/ on the FIRST sweep, and the scaffold
+            # above then replaces public/ wholesale — so by the time anyone
+            # runs the imagery pass the client's real mark is gone and every
+            # generated van wears nothing (DISS 2026-08-04). Cheap and
+            # idempotent; ordering is the whole fix.
+            try:
+                if _pull_bucket_logo(cid, slug):
+                    out.append(f"{slug}: brand logo restored after scaffold")
+            except Exception:
+                pass
             built += 1
             # WRITE-BACK (2026-08-03, second occurrence: HomeLyft 08-01, Reign
             # 08-03): builds that run OUTSIDE the site-build CI never patched
@@ -2606,6 +2680,113 @@ def ensure_auto_site_build(dry_run: bool, cid_to_slug: dict | None = None,
                           "; no brand upload yet — ask for their logo"))
         except Exception as e:
             out.append(f"{slug}: auto-build FAILED — {str(e)[:140]}")
+    out += _reconcile_marketing_sites(dry_run, cos, cid_to_slug)
+    return out
+
+
+def _reconcile_marketing_sites(dry_run: bool, cos: list[dict],
+                               cid_to_slug: dict) -> list[str]:
+    """Heal marketing_sites rows that are BEHIND the repo (AAA 2026-08-05).
+
+    The write-back above only fires on the run that builds a site. Anything
+    built before that patch shipped — or built by hand, or by a CI run that
+    died after rendering — keeps a build_status='pending' row forever, and the
+    app's Site tab shows the client nothing while a finished site sits in the
+    monorepo. AAA Water Damage was 'pending' from 2026-07-28 to 2026-08-05
+    with a rendered 174-URL site on disk.
+
+    Conservative by construction:
+      * only ever fills fields the DB has as NULL/'pending' — never downgrades
+        a row that is further along than the repo record,
+      * only writes cloudflare_pages_url when the repo says a Cloudflare Pages
+        project actually EXISTS (build.pages_status != 'local-only'), so a
+        site that was never deployed does not get a URL that 404s.
+    """
+    out: list[str] = []
+    _AHEAD = {"pending": 0, "scaffolded": 1, "preview_ready": 2,
+              "pushed_staging": 2, "preview_live": 3, "pushed_main": 4}
+    try:
+        from bootstrap_client import domain_from_website
+    except Exception:
+        domain_from_website = lambda _w: None  # noqa: E731
+    for co in cos:
+        cid = co["id"]
+        slug = cid_to_slug.get(cid)
+        if not slug:
+            continue
+        # The domain heal runs even for clients with no site yet: the
+        # "{slug}.invalid" placeholder outlives bootstrap whenever the wizard
+        # DID capture a website (4 clients on 2026-08-05), and every
+        # domain-access / NS-cutover line downstream reads this column.
+        try:
+            real_domain = domain_from_website(co.get("website"))
+            if real_domain:
+                rows_ = _sb("GET", f"/rest/v1/marketing_sites?rank_ai_slug=eq.{slug}"
+                            "&select=id,domain", prefer="return=representation") or []
+                if rows_ and str(rows_[0].get("domain") or "").endswith(".invalid"):
+                    if dry_run:
+                        out.append(f"{slug}: WOULD set domain "
+                                   f"{rows_[0]['domain']} -> {real_domain}")
+                    else:
+                        _sb("PATCH", f"/rest/v1/marketing_sites?id=eq.{rows_[0]['id']}",
+                            {"domain": real_domain}, prefer="return=minimal")
+                        out.append(f"{slug}: domain placeholder replaced with the "
+                                   f"real one on file — {real_domain}")
+        except Exception as e:
+            out.append(f"{slug}: domain heal failed — {str(e)[:100]}")
+        if not (SITES_DIR / slug / "src").exists():
+            continue
+        rec_p = CLIENTS_DIR / f"{slug}.json"
+        if not rec_p.exists():
+            continue
+        try:
+            rec = json.loads(rec_p.read_text())
+            bld = rec.get("build") or {}
+            repo_status = rec.get("build_status")
+            if not repo_status:
+                continue
+            rows = _sb("GET", f"/rest/v1/marketing_sites?rank_ai_slug=eq.{slug}"
+                       "&select=id,build_status,plan_status,cloudflare_pages_url,"
+                       "github_repo,plan_url_count", prefer="return=representation") or []
+            if not rows:
+                continue
+            row = rows[0]
+            db_status = row.get("build_status") or "pending"
+            patch: dict = {}
+            if _AHEAD.get(repo_status, 0) > _AHEAD.get(db_status, 0):
+                patch["build_status"] = repo_status
+            if not row.get("plan_status") or row["plan_status"] == "pending":
+                if rec.get("plan_status"):
+                    patch["plan_status"] = rec["plan_status"]
+                    patch["plan_template"] = (rec.get("plan") or {}).get("template")
+                    patch["plan_url_count"] = (rec.get("plan") or {}).get("url_count")
+                    patch["plan_generated_at"] = (rec.get("plan") or {}).get("generated_at")
+            if not row.get("github_repo") and bld.get("github_repo"):
+                patch["github_repo"] = bld["github_repo"]
+            if not row.get("cloudflare_pages_url"):
+                proj = bld.get("pages_project")
+                if proj and bld.get("pages_status") != "local-only":
+                    patch["cloudflare_pages_url"] = (
+                        f"https://{proj}.pages.dev" if repo_status == "pushed_main"
+                        else f"https://staging.{proj}.pages.dev")
+            if not patch:
+                continue
+            if dry_run:
+                out.append(f"{slug}: WOULD heal stale marketing_sites row "
+                           f"({db_status} -> {patch.get('build_status', db_status)})")
+                continue
+            patch["scaffolded_at"] = bld.get("scaffolded_at")
+            patch["last_pushed_staging_at"] = (bld.get("last_pushed_staging_at")
+                                               or bld.get("last_rendered_at"))
+            patch["updated_at"] = datetime.now(timezone.utc).isoformat()
+            _sb("PATCH", f"/rest/v1/marketing_sites?id=eq.{row['id']}", patch,
+                prefer="return=minimal")
+            out.append(f"{slug}: marketing_sites row was STALE — healed "
+                       f"{db_status} -> {patch.get('build_status', db_status)}"
+                       + ("" if patch.get("cloudflare_pages_url") else
+                          " (no Pages URL: site has never been deployed)"))
+        except Exception as e:
+            out.append(f"{slug}: marketing_sites reconcile failed — {str(e)[:100]}")
     return out
 
 

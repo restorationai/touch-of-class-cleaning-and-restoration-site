@@ -1,0 +1,64 @@
+{
+  "slug": "diss-restoration",
+  "generated_at": "2026-08-05T05:40:05Z",
+  "truth": {
+    "hours": "24/7",
+    "is_247": true,
+    "certifications": [
+      "IICRC CERTIFIED FIRM",
+      "IICRC WRT (WATER)",
+      "IICRC FSRT (FIRE & SMOKE)",
+      "IICRC AMRT (MOLD)",
+      "EPA LEAD-SAFE CERTIFIED",
+      "OSHA TRAINED",
+      "IICRC ASD (STRUCTURAL DRYING)"
+    ],
+    "license_numbers": [],
+    "licensed_ok": true,
+    "response_minutes": null,
+    "family_owned": false,
+    "founded_year": "2021",
+    "gbp_review_count": null,
+    "vertical": "restoration"
+  },
+  "errors": 0,
+  "review_flags": 4,
+  "violations": [
+    {
+      "file": "src/content/serviceAreas/hubbard-oh.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "reconstruction services",
+      "context": "age cleanup, mold remediation, and full reconstruction services to Hubbard residential and commercial p",
+      "reason": "names the 'reconstruction' service family but plan-input services are only: water-damage-restoration, fire-damage-restoration, mold-remediation, storm-damage-restoration, general-contracting, sewage-cleanup"
+    },
+    {
+      "file": "src/content/serviceAreas/niles-oh.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "structural reconstruction",
+      "context": "old remediation, biohazard cleanup, and structural reconstruction. ## Restoration emergencies common in",
+      "reason": "names the 'reconstruction' service family but plan-input services are only: water-damage-restoration, fire-damage-restoration, mold-remediation, storm-damage-restoration, general-contracting, sewage-cleanup"
+    },
+    {
+      "file": "src/content/serviceAreas/struthers-oh.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "structural reconstruction",
+      "context": "e damage cleanup, mold remediation, and structural reconstruction for both residential and commercial pro",
+      "reason": "names the 'reconstruction' service family but plan-input services are only: water-damage-restoration, fire-damage-restoration, mold-remediation, storm-damage-restoration, general-contracting, sewage-cleanup"
+    },
+    {
+      "file": "src/content/serviceAreas/warren-oh.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "structural reconstruction",
+      "context": "mage restoration, mold remediation, and structural reconstruction for both residential and commercial pro",
+      "reason": "names the 'reconstruction' service family but plan-input services are only: water-damage-restoration, fire-damage-restoration, mold-remediation, storm-damage-restoration, general-contracting, sewage-cleanup"
+    }
+  ]
+}
