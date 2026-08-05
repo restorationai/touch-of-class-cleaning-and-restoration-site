@@ -426,7 +426,12 @@ def main() -> int:
                f"the livery shown in the reference image(s) of the company's "
                f"real vehicle — same crest, same wordmark, same colours, same "
                f"proportions, same position on the body panel — reproduced "
-               f"identically on every vehicle in the frame")
+               f"identically on every vehicle in the frame. EVERY VEHICLE FACES "
+               f"THE SAME DIRECTION and is photographed from the same side, so "
+               f"the wrap reads identically across all of them: the crest sits "
+               f"at the same end of every van relative to its own nose. Vans "
+               f"facing opposite ways put the crest at the nose of one and the "
+               f"tail of another, which reads as a mirrored, unprofessional wrap")
         logo_rule = ("Copy the vehicle graphics from the reference image(s) of "
                      "the real vehicle exactly; invent no new decal, no new "
                      "stripe, no new badge and no additional lettering.")

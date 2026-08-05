@@ -875,7 +875,9 @@
       "triage_model": "claude-sonnet-4-6"
     }
   },
-  "slots": {
+  "slots": {},
+  "triaged_at": "2026-08-05T07:07:17Z",
+  "retired_slots": {
     "hero": {
       "asset": "web:81fc5fc5de08a19f",
       "source": "website",
@@ -945,5 +947,6 @@
       "installed_at": "2026-08-05T15:02:41Z"
     }
   },
-  "triaged_at": "2026-08-05T07:07:17Z"
+  "slots_retired_at": "2026-08-05T19:59:35.513556+00:00",
+  "slots_retired_why": "Jerrott Gray, 2026-08-05 phone call: these are photographs harvested from his GBP and website that he never sent us, and seeing them on his site is what triggered the call ('holy shit, how does he gain access to that?'). He said plainly that he does not mind generated images. Slots cleared so the generated set holds them; assets kept in retired_slots and NOT deleted, so they can be restored the moment he tells us he is comfortable with us using his own photos."
 }
