@@ -5781,10 +5781,16 @@ Return ONLY JSON: {"body": string}."""
 # cs["pending_commitment"] — the next compose MUST deliver it (see the OPEN
 # COMMITMENT block in compose_draft). General rule: never promise what the
 # pipeline won't deliver; prefer doing the first step in the ack itself.
+#
+# "WE" COUNTS TOO (Santino 2026-08-04): the pattern only ever matched "I'll",
+# but Monica speaks for the team — she told Greg Arianoff "we'll take a look
+# and make sure it's showing linked on our end too" and nothing was recorded,
+# so the promise evaporated exactly the way this block exists to prevent.
 _PROMISE_RE = re.compile(
-    r"\bI(?:'ll| will)\s+(?:walk you|get (?:right )?back|find out|check|"
-    r"look into|send (?:you|over|it)|follow up|get you|dig|circle back|"
-    r"ask santino|talk to santino|have (?:an answer|that|it))", re.I)
+    r"\b(?:i|we)(?:['’]ll| will)\s+(?:walk you|get (?:right )?back|find out|"
+    r"check|look into|take a look|make sure|send (?:you|over|it)|follow up|"
+    r"get you|dig|circle back|ask santino|talk to santino|"
+    r"have (?:an answer|that|it))", re.I)
 
 
 def _record_commitment(cs: dict, sent_text: str, client_msg: str,

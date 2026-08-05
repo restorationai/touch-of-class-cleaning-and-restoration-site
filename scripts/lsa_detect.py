@@ -42,7 +42,7 @@ except ImportError:
     pass
 
 from client_ops_sync import _sb, slug_map  # noqa: E402
-from ads_manager import build_ads_client, gaql  # noqa: E402
+from ads_manager import build_ads_client, gaql, token_path  # noqa: E402
 
 LSA_Q = """SELECT campaign.id, campaign.name, campaign.status FROM campaign
            WHERE campaign.advertising_channel_type = 'LOCAL_SERVICES'
@@ -89,7 +89,16 @@ def write_lsa(cos: list, company_id: str, acid: str, campaigns: list[dict],
     ints = _ints(co)
     lsa = ints.get("lsa") or {}
     enabled = any(cp["status"] == "ENABLED" for cp in campaigns)
-    changed = str(lsa.get("customer_id") or "") != acid or not lsa.get("detected")
+    # Compare the whole block, not just the id (Santino 2026-08-04): the
+    # id-only test meant campaign drift NEVER got written once an account was
+    # known — after lsa_link_audit corrected PuroClean's customer_id, the
+    # next run still matched on id and left another franchise's campaign list
+    # sitting in the record.
+    changed = (str(lsa.get("customer_id") or "") != acid
+               or not lsa.get("detected")
+               or lsa.get("campaigns") != campaigns[:5]
+               or lsa.get("campaign_status") != (
+                   "ENABLED" if enabled else campaigns[0]["status"]))
     lsa.update({"customer_id": acid, "detected": True,
                 "detected_at": datetime.now(timezone.utc).isoformat(),
                 "campaign_status": "ENABLED" if enabled else campaigns[0]["status"],
@@ -102,18 +111,35 @@ def write_lsa(cos: list, company_id: str, acid: str, campaigns: list[dict],
             {"integration_settings": ints})
 
 
-def detect_via_mcc(cos: list, dry: bool, results: list, done: set) -> None:
-    try:
-        client = build_ads_client("_mcc", login_as_mcc=True)
-    except SystemExit:
-        tok = next(iter(sorted((ROOT / "clients").glob("*/.ads-token.json"))), None)
-        if not tok:
-            print("MCC mode: no creds (env or token file) — skipped")
-            return
-        client = build_ads_client(tok.parent.name, login_as_mcc=True)
+def build_mcc_client():
+    """A GoogleAdsClient logged in as the agency MCC, or (None, None).
+
+    The one place that knows how to reach the manager account. Order:
+    clients/_mcc/.ads-token.json -> GOOGLE_OAUTH_*/GOOGLE_ADS_REFRESH_TOKEN env
+    (both handled by build_ads_client) -> any client's own .ads-token.json,
+    which works because every one of those grants is an MCC-admin Google user.
+    Shared with lsa_link_audit.py so both walk the MCC the same way.
+    """
     mcc = (os.environ.get("GOOGLE_ADS_MCC_CUSTOMER_ID") or "").replace("-", "")
     if not mcc:
         print("MCC mode: GOOGLE_ADS_MCC_CUSTOMER_ID not set — skipped")
+        return None, None
+    if (token_path("_mcc").exists()
+            or os.environ.get("GOOGLE_ADS_REFRESH_TOKEN")):
+        try:
+            return build_ads_client("_mcc", login_as_mcc=True), mcc
+        except SystemExit:
+            pass
+    tok = next(iter(sorted((ROOT / "clients").glob("*/.ads-token.json"))), None)
+    if not tok:
+        print("MCC mode: no creds (env or token file) — skipped")
+        return None, None
+    return build_ads_client(tok.parent.name, login_as_mcc=True), mcc
+
+
+def detect_via_mcc(cos: list, dry: bool, results: list, done: set) -> None:
+    client, mcc = build_mcc_client()
+    if not client:
         return
 
     kids = gaql(client, mcc, """
@@ -136,10 +162,14 @@ def detect_via_mcc(cos: list, dry: bool, results: list, done: set) -> None:
               "&select=client_id,connection_metadata") or []
     ads_id_to_company = {}
     for u in uis:
-        acid = str((u.get("connection_metadata") or {}).get("ads_customer_id")
-                   or "").replace("-", "")
-        if acid:
-            ads_id_to_company[acid] = u["client_id"]
+        # selected_ads_customer_id is what the connect flow actually writes
+        # (the account the CLIENT picked as theirs); ads_customer_id is the
+        # older key. Either one is a hard, client-asserted identity match.
+        for key in ("ads_customer_id", "selected_ads_customer_id"):
+            acid = str((u.get("connection_metadata") or {}).get(key)
+                       or "").replace("-", "")
+            if acid:
+                ads_id_to_company[acid] = u["client_id"]
 
     unmatched = []
     for acid, name in subs:
@@ -224,16 +254,46 @@ def detect_via_company_tokens(cos: list, dry: bool, results: list, done: set) ->
                           for rn in svc.list_accessible_customers().resource_names][:10]
         except Exception:
             continue  # stale grant / not an Ads user — fine
-        for acid in accessible:
+        # WHOSE ACCOUNT IS IT (Santino 2026-08-04). A client's Google login
+        # routinely reaches OTHER businesses' Ads accounts — Greg Arianoff's
+        # also reaches "PuroClean of The Big Island" (a different franchise),
+        # The Restoration Group's reaches "LSA: 911 Restoration of Manhattan".
+        # First-LSA-account-wins claimed both as theirs on 07-31, so the
+        # ledger tracked a stranger's LSA account. Two guards now:
+        #   1. the account the CLIENT picked in the connect flow
+        #      (selected_ads_customer_id) is checked FIRST, and
+        #   2. any other account must share a name token with the company
+        #      before we claim it. Nameless accounts (Google returns "" for
+        #      plenty of LSA accounts) still pass — that is the common case.
+        cm = u.get("connection_metadata") or {}
+        sel = str(cm.get("selected_ads_customer_id")
+                  or cm.get("ads_customer_id") or "").replace("-", "")
+        ordered = ([sel] if sel in accessible else []) \
+            + [a for a in accessible if a != sel]
+        co = next((c for c in cos if c["id"] == company_id), None)
+        want = _tokens((co or {}).get("name", ""))
+        for acid in ordered:
             try:
                 rows = gaql(cl, acid, LSA_Q)
             except Exception:
                 continue  # manager accounts 400 on metrics-free queries too
-            if rows:
-                write_lsa(cos, company_id, acid, _campaigns(rows),
-                          "own token", dry, results)
-                done.add(company_id)
-                break
+            if not rows:
+                continue
+            if acid != sel and want:
+                try:
+                    nr = gaql(cl, acid, "SELECT customer.descriptive_name FROM customer")
+                    nm = (nr[0].customer.descriptive_name or "") if nr else ""
+                except Exception:
+                    nm = ""
+                if _tokens(nm) and not (_tokens(nm) & want):
+                    print(f"  skip {acid} '{nm[:44]}' for "
+                          f"{(co or {}).get('name', company_id)}: LSA account "
+                          "name matches no part of this client's name")
+                    continue
+            write_lsa(cos, company_id, acid, _campaigns(rows),
+                      "own token", dry, results)
+            done.add(company_id)
+            break
 
 
 def main() -> int:
