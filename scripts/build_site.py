@@ -1600,32 +1600,49 @@ def cmd_retint(args) -> int:
 
     targets = [("tailwind.config.mjs", STARTER_DIR / "tailwind.config.mjs"),
                ("public/favicon.svg", STARTER_DIR / "public" / "favicon.svg")]
-    changed = []
+
+    def _mask(text: str) -> set[str]:
+        """Lines with colour values blanked, so only STRUCTURE compares."""
+        return {re.sub(r"#[0-9a-fA-F]{3,8}\b", "#", l.strip())
+                for l in text.splitlines() if l.strip()}
+
+    pending = []
+    blocked = []
     for rel, src in targets:
         if not src.exists():
             continue
         dst = site_dir / rel
-        template = src.read_text()
-        # Refuse to silently discard hand-tuning. Several sites carry contrast
-        # rationale a human worked out (TRG's AA-checked blue, flood-fixers'
-        # logo palette); those are worth more than a regenerated ramp.
-        if dst.exists() and not args.force:
-            tmpl_comments = {l.strip() for l in template.splitlines()
-                             if l.strip().startswith(("//", "/*", "*"))}
-            extra = [l.strip() for l in dst.read_text().splitlines()
-                     if l.strip().startswith(("//", "/*", "*"))
-                     and l.strip() not in tmpl_comments]
-            if extra:
-                print(f"    SKIP {rel}: hand-tuned ({len(extra)} comment line(s) not in the "
-                      f"starter, e.g. {extra[0][:70]!r}). Re-run with --force to overwrite.")
-                continue
-        new, leftover = substitute_text(template, tokens)
+        new, leftover = substitute_text(src.read_text(), tokens)
         if leftover:
             print(f"    WARNING {rel}: unsubstituted {sorted(leftover)}")
+        # Refuse to discard hand-tuning. Anything the CURRENT file has that the
+        # regenerated output does not is human work — TRG's AA-contrast
+        # rationale, their three-element hand-drawn favicon. The reverse
+        # (generated has lines the site lacks) just means the starter moved on
+        # since the site was scaffolded, which is exactly what retint is for.
+        if dst.exists() and not args.force:
+            extra = sorted(_mask(dst.read_text()) - _mask(new))
+            if extra:
+                blocked.append((rel, extra))
+                continue
         if not dst.exists() or dst.read_text() != new:
-            dst.parent.mkdir(parents=True, exist_ok=True)
-            dst.write_text(new)
-            changed.append(rel)
+            pending.append((rel, dst, new))
+
+    # All or nothing: a site with a regenerated favicon but a hand-tuned
+    # tailwind would paint two different brand colours.
+    if blocked:
+        for rel, extra in blocked:
+            print(f"    SKIP {rel}: hand-tuned — {len(extra)} line(s) not in the "
+                  f"regenerated output, e.g. {extra[0][:70]!r}")
+        print(f"    Nothing rewritten for {slug} (retint is all-or-nothing so the "
+              f"colour surface stays coherent). Re-run with --force to overwrite.")
+        return 1
+
+    changed = []
+    for rel, dst, new in pending:
+        dst.parent.mkdir(parents=True, exist_ok=True)
+        dst.write_text(new)
+        changed.append(rel)
 
     print(f"==> retint {slug}: primary={tokens.get('BRAND_PRIMARY_COLOR')} "
           f"cta={tokens.get('BRAND_PRIMARY_CTA')} accent={tokens.get('BRAND_ACCENT_COLOR')} "
