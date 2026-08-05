@@ -47,8 +47,4 @@ Once mitigation is complete, many properties need drywall replaced, flooring rei
 
 HomeLyft Restoration MS is headquartered in Gulfport, roughly 90 miles south of Bond via US-49 North. That's a real drive, and we won't pretend otherwise — but it's a straightforward route with no major interchange complexity, and our crews are familiar with it. When you call during business hours, we schedule promptly and give you an honest arrival window based on current crew availability and job load. For Bond and the surrounding Lawrence County area, we coordinate directly with you on timing so there are no surprises.
 
-## A recent Bond response
-
-A property manager overseeing a rental home in the Bond area called after a tenant reported water pooling near the back wall of the kitchen — what turned out to be a slow leak behind the dishwasher that had been wicking into the subfloor for several weeks. By the time HomeLyft arrived, the plywood beneath the vinyl flooring had begun to delaminate and a section of the adjacent cabinet base was showing early mold colonization. We extracted the damaged materials, set drying equipment, and documented the full scope for the owner's insurance carrier. The property was back in rentable condition without the owner having to manage multiple vendors or chase down paperwork. This scenario is representative of the calls we receive from Bond-area property managers — not attributed to any specific individual.
-
 If you're dealing with water, fire, smoke, or mold damage at a Bond property, call HomeLyft Restoration MS at (228) 284-5200. We'll talk through what you're seeing, give you a clear picture of next steps, and get a crew scheduled.

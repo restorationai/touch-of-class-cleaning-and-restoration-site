@@ -51,8 +51,4 @@ Once the damage is dry and remediated, we rebuild — drywall, flooring, cabinet
 
 From our Kenilworth headquarters, Hackensack is roughly 18 miles north via the Garden State Parkway to Route 4, or through Rutherford and Teaneck on surface roads. Both routes are well-traveled and we know the traffic patterns. Because we operate 24/7, we can dispatch at any hour — whether the call comes from a property manager in the Central Business District, a landlord with a flooded unit near Foschini Park, or a homeowner in the Heights dealing with a failed water heater. We serve all of Hackensack including the Fairmount, Southside, and Prospect Avenue corridor neighborhoods.
 
-## A recent Hackensack response
-
-A property manager overseeing a six-story apartment building on the Prospect Avenue corridor called after a supply line failed on the fifth floor during a weekend night. By the time building staff located the shutoff, water had tracked down through two units below. Our crew arrived, extracted water from three affected apartments, set drying equipment, and provided the manager with moisture documentation by the following morning — the kind of paper trail that kept the insurance claim moving without delays. *(This scenario is representative of the work we do; it is not attributed to a specific named client.)*
-
 If you're dealing with a water, fire, mold, or storm emergency anywhere in Hackensack, call The Restoration Group at **(855) 650-7422**. We answer around the clock, and we'll tell you exactly what to expect before we arrive.

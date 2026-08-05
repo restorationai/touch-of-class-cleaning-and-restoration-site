@@ -51,8 +51,4 @@ Once mitigation is complete, most homeowners want one contractor to carry the pr
 
 From our Saratoga Springs headquarters, Heber City is approximately 45–55 minutes via US-189 through Provo Canyon under normal road conditions. We target on-site arrival within 90 minutes of your call for most Heber City addresses — including properties on the east bench near the Wasatch State Park boundary and vacation rentals closer to Deer Creek Reservoir. During winter when Provo Canyon sees ice or chain controls, we communicate estimated arrival honestly rather than promising a number we can't hit. For true emergencies, call **(801) 995-2437** any hour — a live person answers.
 
-## A recent Heber City response
-
-Earlier this year, a property manager overseeing a vacation rental near the Heber Valley Historic Railroad depot called us on a Sunday morning after a guest reported water pooling on the main-level hardwood floors. A slow supply-line failure behind the refrigerator had been running for an estimated 18–24 hours. Our crew arrived within 85 minutes, extracted the standing water, pulled the affected baseboards, and set a drying system before noon. The property was back to pre-loss condition — and re-rented — within six days. *(Representative scenario; details reflect the type of work we regularly perform in Heber City.)*
-
 If you're dealing with water, fire, mold, or storm damage anywhere in the Heber City area — ZIP codes 84032 or 84028, or surrounding communities — call Home Pride Restoration and Cleaning at **(801) 995-2437**. We'll tell you exactly what we're seeing, what it will take to fix it, and how your insurance claim fits into the process.

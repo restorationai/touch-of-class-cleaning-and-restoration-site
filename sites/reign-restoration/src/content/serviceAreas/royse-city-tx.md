@@ -53,8 +53,4 @@ Once the damage is mitigated, the rebuild still has to happen. Rather than hand 
 
 Being based in Royse City means we're not driving in from the far side of the metroplex. We're already here. Whether a call comes from a property near downtown along SH-66, from one of the newer subdivisions off I-30 on the western edge of the city, or from a home closer to the Fate city limits, our drive is measured in minutes, not the better part of an hour. We know the local routes and we're not navigating them for the first time when you call.
 
-## A recent Royse City response
-
-Earlier this year, a property manager overseeing a rental home in a newer Royse City subdivision called us after a supply line behind the refrigerator failed overnight. By the time anyone noticed, water had spread across the kitchen tile and wicked into the adjacent living room's engineered hardwood. We arrived, extracted the standing water, pulled the affected flooring to expose the subfloor, and set drying equipment. Moisture readings were back in acceptable range within four days, and we handled all documentation for the insurance claim directly — the property manager said the tenant was back to normal before the end of the week. This scenario is representative of the calls we receive; details will vary.
-
 If you're dealing with water, fire, mold, or storm damage anywhere in Royse City, call Reign Restoration at **(214) 304-0621**. We're local, we know this area, and we'll give you a straight answer about what needs to happen next.

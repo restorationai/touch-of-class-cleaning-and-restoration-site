@@ -47,8 +47,4 @@ Once mitigation is complete, many Canton homeowners need more than cleanup — t
 
 Canton is approximately 25 miles south of our Sioux Falls headquarters — a straightforward run down I-29 South to Exit 62, then a short drive into town. We can reach Downtown Canton, the Big Sioux River area, and neighborhoods near Augustana Lutheran Church and the Lincoln County Courthouse without navigating rural detours. Call us at (605) 965-2727 to confirm scheduling and availability; we will give you an honest arrival estimate based on current crew location and job load rather than a number we cannot stand behind.
 
-## A recent Canton response
-
-A property manager overseeing a rental near Downtown Canton contacted us after a tenant reported water pooling in the basement following several days of heavy rain and snowmelt. By the time we arrived, standing water had reached the base of the finished drywall on two walls. We extracted the water, removed the lower sections of saturated drywall, set drying equipment, and provided the property manager with a full moisture-log report within 24 hours — the documentation needed to file promptly with their insurance carrier and get the unit back on the market. This scenario is representative of the calls we receive from Canton landlords and homeowners each spring.
-
 If you are dealing with water intrusion, smoke damage, mold, or storm damage anywhere in the Canton area — ZIP code 57013 and surrounding Lincoln County — call Crew Restoration & Construction at **(605) 965-2727**. We will walk you through what to expect, answer your insurance questions, and get a crew scheduled.

@@ -53,8 +53,4 @@ Once the mitigation work is complete, our construction team handles the rebuild:
 
 Crew Restoration & Construction is headquartered in Sioux Falls, SD, roughly 90 miles northwest of Luverne via I-90 East — a straightforward highway route with no significant interchange complexity. From our dispatch point, we can reach Downtown Luverne and the neighborhoods along the Bluffs area without routing through secondary roads. We schedule Luverne calls promptly; contact us at (605) 965-2727 to confirm current availability and get a crew on the calendar.
 
-## A recent Luverne response
-
-A property manager overseeing a rental near Downtown Luverne called after a tenant reported water pooling on the basement floor following a heavy spring rain. By the time we arrived, the water had wicked into the base of two finished walls and the subfloor beneath a carpeted area. We extracted the standing water, removed the saturated carpet and pad, opened the wall cavities for airflow, and set drying equipment running on a monitored schedule. The structure reached dry standard within four days, and we provided the property manager with a full moisture log and photo documentation for the insurance file. This scenario is representative of the calls we receive — details vary by property.
-
 If your Luverne property has been affected by water, storm, fire, smoke, or mold, the right time to call is now — not after you have spent a week waiting to see whether the problem resolves on its own. Reach Crew Restoration & Construction at (605) 965-2727.

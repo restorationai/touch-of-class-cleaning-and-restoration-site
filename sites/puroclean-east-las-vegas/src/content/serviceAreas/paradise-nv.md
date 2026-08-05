@@ -47,8 +47,4 @@ Once mitigation is complete, the same team can handle the rebuild: drywall, floo
 
 PuroClean of East Las Vegas is based in Las Vegas, and Paradise is a direct neighbor — not a distant suburb. The University District and Paradise Palms are typically reachable in a short drive east on Flamingo Road or Tropicana Avenue. Properties near the Strip in the 89109 ZIP code are accessible via Koval Lane or Paradise Road with minimal routing complexity. The McCarran and 89119 corridor sits just south of the airport, straightforward from the I-215 interchange. Call +17025513040 during business hours to confirm scheduling and get a crew dispatched.
 
-## A recent Paradise response
-
-A property manager overseeing a mid-rise rental complex near the University of Nevada Las Vegas called after a second-floor washing machine supply hose failed overnight, sending water through the subfloor and into the unit below. The crew arrived, mapped moisture through both units using thermal imaging, extracted standing water, and set drying equipment across the affected rooms. Daily monitoring over the following days confirmed the structure reached dry standard before any mold had taken hold — and the full documentation package was handed off directly to the insurance adjuster. This scenario is representative of the calls we receive from Paradise property managers; details will vary.
-
 If you're dealing with water, fire, smoke, or mold damage at a Paradise property, the sooner the process starts, the less material gets replaced. Call PuroClean of East Las Vegas at +17025513040 to schedule an assessment.

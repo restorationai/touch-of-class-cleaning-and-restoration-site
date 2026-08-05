@@ -41,8 +41,4 @@ Northwest Iowa winters also accelerate freeze-thaw cycling that cracks masonry, 
 
 Crew Restoration & Construction is based in Sioux Falls, SD, roughly 75 miles northwest of Alton via I-90 East and US-75 South. That route runs through Harrisburg and into Sioux County, putting our crews in the Alton 51003 service area with a straightforward drive on well-maintained highway. We schedule prompt response for calls received during business hours, and our dispatch team can give you a realistic arrival window when you call. East Alton and Downtown Alton are both within our standard coverage zone — no subcontractors, no referral handoffs.
 
-## A recent Alton response
-
-A property manager overseeing a rental home near St. Mary's Catholic Church called us after a tenant reported water pooling on the basement floor following three days of heavy rain. By the time we arrived, the finished portion of the basement had absorbed enough moisture to buckle the laminate flooring and soak the lower 18 inches of drywall along two walls. We extracted the standing water, removed the damaged flooring and wallboard, set commercial drying equipment, and documented the full scope for the owner's insurance carrier. Reconstruction was completed within the same project — one point of contact from the first call to the final walkthrough. *(This scenario is representative of the type of work we perform in Alton; it is not attributed to a specific named client.)*
-
 If you're dealing with water, fire, mold, or structural damage at a property in Alton or anywhere in Sioux County, call Crew Restoration & Construction at **(605) 965-2727**. We'll talk through what you're seeing, explain the next steps, and get a crew scheduled.

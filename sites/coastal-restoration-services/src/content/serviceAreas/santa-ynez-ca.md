@@ -49,8 +49,4 @@ Unattended situations, sewage backups, and other biohazard events require proper
 
 Coastal Restoration Services Inc is based in Vandenberg Village, roughly 35 to 40 miles west of Santa Ynez via U.S. 101 North to CA-246 East. The drive through Buellton and into the valley typically runs under an hour under normal conditions. Santa Ynez proper, the surrounding ranch parcels, and neighboring communities along the 246 corridor are all within our regular service area. Call us at **(805) 345-7440** and we will give you a realistic arrival window based on current crew availability and conditions on the road.
 
-## A recent Santa Ynez response
-
-A property manager overseeing a vacation rental near the center of Santa Ynez contacted us after guests reported a musty smell and soft flooring near the master bath. When our crew arrived, we found that a slow leak at the toilet supply valve had been wicking into the subfloor for an estimated two to three weeks — long enough to create elevated moisture readings in the adjacent bedroom wall as well. We extracted the damaged subfloor sections, set drying equipment, and treated the affected framing before the property manager's insurance adjuster completed the scope. The rental was back in service within the agreed timeline. *(Scenario is representative of the type of work we handle; details are not attributed to any specific individual.)*
-
 If you are dealing with water, fire, mold, or any other property damage in Santa Ynez, call Coastal Restoration Services Inc at **(805) 345-7440**. We will walk you through what to expect, answer your insurance questions, and get a crew moving toward the valley.

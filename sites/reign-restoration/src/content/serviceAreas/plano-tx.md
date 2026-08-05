@@ -47,8 +47,4 @@ Once mitigation is complete, most property owners don't want to manage a separat
 
 Reign Restoration is headquartered in Royse City, TX, roughly 30 miles east of central Plano via US 80 to I-635 or George Bush Turnpike (SH 190). That route puts us into eastern Plano neighborhoods like Ridgeview Ranch and Old Shepard Place efficiently, and the Bush Turnpike carries us west to Legacy West and The Shops at Willow Bend without cutting through surface streets. We serve all of Plano — ZIP codes 75023, 75024, 75025, 75074, 75075, 75093, and 75094 — and because we run 24/7 dispatch, a call at any hour gets a crew moving, not a callback scheduled for morning.
 
-## A recent Plano response
-
-A property manager overseeing a rental near Oak Point Park and Nature Preserve called after a tenant reported water coming through the kitchen ceiling on a Sunday evening. By the time the crew arrived, the source — a failed supply line to an upstairs bathroom — had been running long enough to saturate the subfloor above and buckle the kitchen ceiling drywall below. Reign Restoration extracted the standing water, opened the ceiling and wall cavities for airflow, and set drying equipment that ran through the week. The property manager received daily moisture logs to share with the insurance adjuster, and reconstruction was completed before the next tenant's move-in date. *This scenario is representative of the calls we receive; details have been generalized.*
-
 If you're dealing with water, fire, smoke, or mold damage anywhere in Plano, call Reign Restoration at **(214) 304-0621**. We answer around the clock, and we can walk you through next steps before a crew even leaves the shop.

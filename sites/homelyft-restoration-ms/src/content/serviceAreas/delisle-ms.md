@@ -49,8 +49,4 @@ Once mitigation is complete, we handle the rebuild — drywall, flooring, cabine
 
 HomeLyft Restoration MS is headquartered in Gulfport, roughly 15 to 18 miles from central DeLisle via US-49 North or the US-90 corridor connecting into the Pass Christian and DeLisle area. That puts DeLisle well within our primary service zone — not a distant coverage stretch. When you call during business hours, we work to schedule a same-day assessment so the drying clock does not run longer than necessary. Call us at (228) 284-5200 to confirm current scheduling availability.
 
-## A recent DeLisle response
-
-A property manager overseeing a rental home near the DeLisle community reached out after a tenant reported soft flooring in the hallway following several days of heavy rain. By the time HomeLyft arrived, moisture readings confirmed the subfloor and lower wall framing had been wet for long enough that mold was already beginning to establish. The team mapped the moisture boundary with thermal imaging, contained the affected section, removed compromised subfloor material, treated the framing, and set drying equipment — providing daily moisture logs the property manager forwarded directly to the insurance carrier. This scenario is representative of the calls we receive from this area; details will vary by property.
-
 If you are dealing with water, mold, fire, or storm damage at a DeLisle property, the longer the affected materials stay wet or smoke-exposed, the more the scope — and the cost — tends to grow. Call HomeLyft Restoration MS at (228) 284-5200 during business hours to schedule an assessment and get a clear picture of what the damage actually involves.

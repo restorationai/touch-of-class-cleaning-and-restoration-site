@@ -49,8 +49,4 @@ Once mitigation is complete, Flood Fixers handles the rebuild — drywall, floor
 
 From our San Diego headquarters, Flood Fixers reaches most of Santee in 45 to 60 minutes under normal traffic conditions. The drive east on State Route 52 or north on Interstate 15 to Mission Gorge Road puts our crews in Carlton Hills, Forrest Park, and the neighborhoods surrounding Santee Lakes Regional Preserve within that window. For properties deeper in the 92071 ZIP code along Cuyamaca Street, plan on the same range. We answer calls 24 hours a day, every day of the year — call (855) 204-1124 and a live dispatcher picks up, not a voicemail system.
 
-## A recent Santee response
-
-A property manager overseeing a fourplex near Forrest Park called on a Saturday evening after a tenant reported water coming through a bedroom ceiling. By the time our crew arrived — roughly 50 minutes after the call — the upstairs bathroom supply line had been leaking long enough to saturate the subfloor and the ceiling drywall below. We extracted standing water, set containment to protect the adjacent unit, and had commercial drying equipment running before midnight. The property manager had a moisture log and a preliminary scope ready for the insurance adjuster by Monday morning. This scenario is representative of the calls we handle regularly in Santee; specific details will vary.
-
 If you're dealing with water, smoke, or mold damage at a Santee property right now, the fastest next step is a phone call. Reach Flood Fixers at **(855) 204-1124** — we'll confirm your address, give you an honest ETA, and tell you exactly what to do before we arrive.

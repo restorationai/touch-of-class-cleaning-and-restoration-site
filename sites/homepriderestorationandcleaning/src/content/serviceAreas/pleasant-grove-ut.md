@@ -53,8 +53,4 @@ Once mitigation is complete, many homeowners don't want to manage a separate gen
 
 Home Pride Restoration and Cleaning's headquarters is in Saratoga Springs, roughly 10 to 15 minutes from Pleasant Grove via US-89 and State Street depending on traffic. Most Pleasant Grove addresses see a technician on-site within 45 to 60 minutes of a confirmed call. Neighborhoods closer to the US-89 corridor — including areas near Pleasant Grove High School and the business district along State Street — are typically at the shorter end of that window. More residential areas farther east toward the foothills may run closer to 60 minutes. We answer calls 24 hours a day, every day of the year.
 
-## A recent Pleasant Grove response
-
-A property manager overseeing a rental near the 84062 zip code called on a Tuesday morning after tenants reported water coming up through the basement carpet. By the time our crew arrived — approximately 50 minutes after the initial call — the water heater had been leaking slowly for an estimated 36 hours, saturating the subfloor and wicking into the lower 12 inches of the surrounding drywall. We extracted, set drying equipment, and had a moisture map ready for the insurance adjuster's inspection the following morning. The tenant was back in the space within four days. This scenario is representative of the calls we handle regularly across Pleasant Grove.
-
 If you're dealing with water, fire, mold, or any other property damage in Pleasant Grove right now, call Home Pride Restoration and Cleaning at **(801) 995-2437**. We'll tell you exactly what to expect before we arrive and walk you through every step from mitigation to the final inspection.

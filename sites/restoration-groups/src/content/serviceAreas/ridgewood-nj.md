@@ -53,8 +53,4 @@ Business owners and property managers along East Ridgewood Avenue and near The S
 
 From our Kenilworth headquarters, Ridgewood is roughly 25 miles north via the Garden State Parkway to Route 17, or through Paramus on Route 4. We run 24/7, so a call at 2 a.m. from a Somerville-area homeowner watching water rise in a finished basement gets the same dispatch priority as a midday call. We serve all of 07450 — from the Village center near Van Neste Square out through the West Side and into the Old Country Club neighborhood — and we're familiar with the access constraints that come with Ridgewood's narrow residential streets and mature tree canopy.
 
-## A recent Ridgewood response
-
-A property manager overseeing a multi-unit building near the East Ridgewood Avenue corridor called us after a second-floor supply line failed overnight and water had been running into a finished first-floor commercial space for several hours. We arrived, extracted standing water, identified that moisture had wicked into the subfloor and lower wall cavities, and set a drying system before business hours the following morning. Documentation was turned over to the carrier within 24 hours of our arrival. This scenario is representative of the commercial calls we handle in Ridgewood — the details vary, but the need for fast, documented response does not.
-
 If you're dealing with a loss in Ridgewood right now — or want to talk through what a restoration project involves before committing — call The Restoration Group at **(855) 650-7422**. We're available around the clock and we know the village well.

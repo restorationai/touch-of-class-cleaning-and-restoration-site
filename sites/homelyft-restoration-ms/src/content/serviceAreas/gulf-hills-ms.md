@@ -49,8 +49,4 @@ Once mitigation is complete, many property owners don't want to manage a separat
 
 Gulf Hills is roughly 8 to 10 miles east of our Gulfport headquarters via US-90 and MS-609. Under normal traffic conditions that's a straightforward run along the coast corridor — no significant bottlenecks outside of peak summer beach traffic on 90. We schedule service calls promptly and will give you a realistic arrival window when you call. Because our hours aren't listed as 24/7 here, we'll be direct with you: call us at (228) 284-5200 and we'll tell you exactly when we can be on-site.
 
-## A recent Gulf Hills response
-
-A property manager overseeing a rental home in the Gulf Hills area contacted us after a slow roof leak — undetected for what appeared to be several weeks — had saturated insulation in a bedroom ceiling and spread moisture into the top plate of an interior wall. By the time the tenant noticed the staining, mold was already visible on the drywall face. We were on-site the following morning, removed the affected ceiling and wall sections, dried the framing over four days with dehumidification and airflow equipment, and completed the drywall and paint restoration within the same week. The property manager had documentation ready for the insurance adjuster before the tenant's next rent cycle. This scenario is representative of the calls we receive — details will vary.
-
 If you're dealing with water, fire, smoke, or mold damage in Gulf Hills, call HomeLyft Restoration MS at **(228) 284-5200**. We'll assess what's happening, explain the process plainly, and get the work scheduled without the runaround.

@@ -53,8 +53,4 @@ Weston Hills, Savanna, The Ridges, and most other neighborhoods here are governe
 
 RestorationXpress is based in Davie, which sits directly east of Weston along I-595 and Griffin Road. The drive from our Davie location to Weston Town Center runs roughly 8 to 10 miles depending on the route — Griffin Road west to Bonaventure Boulevard puts us in the heart of the city quickly, and I-75 south from 595 reaches the 33332 ZIP code covering Weston Hills and the southern communities. Properties in the 33326 and 33327 corridors near Markham Park and Peace Mound Park are similarly close. We do not publish a minute guarantee, but the proximity means we are among the nearest full-service restoration contractors to Weston when scheduling allows.
 
-## A recent Weston response
-
-A property manager overseeing a home in Savanna contacted us after a second-floor bathroom supply line failed overnight and water had been running into the first-floor ceiling for several hours by the time it was discovered. We arrived, extracted standing water from the downstairs living area, removed saturated drywall and insulation, and set drying equipment within the same day. We coordinated directly with the homeowner's insurance adjuster and provided the moisture logs and photo documentation the carrier required. The home was dried to standard within four days and reconstruction was completed shortly after — representative of how these calls typically unfold when mitigation starts promptly.
-
 If you are dealing with water, fire, mold, or storm damage anywhere in Weston — from the 33331 corridor near Cleveland Clinic Florida to the western edges of 33332 — call RestorationXpress at **(954) 964-6471**. We will assess the situation, explain the process clearly, and get the work moving.

@@ -49,8 +49,4 @@ After mitigation comes rebuilding. We handle the reconstruction phase in-house �
 
 Quality Contracting, Inc. is based in Auburn, which puts Worcester roughly 10 minutes away via I-290 or Route 12 under normal traffic. We serve all Worcester ZIP codes, including 01602, 01603, 01604, 01605, and 01606, and we reach neighborhoods across the city — from Greendale in the north to Webster Square and Grafton Hill in the south. Call us at (508) 756-8800 during business hours to schedule an assessment or discuss an active loss.
 
-## A recent Worcester response
-
-A property manager overseeing a six-unit triple-decker in Main South called after a cast-iron drain stack failed on the second floor over a holiday weekend, sending water through two finished ceilings and into a ground-floor unit. We arrived, assessed all three affected floors, set containment to protect undamaged units, and began extraction and drying. We documented each affected unit separately to support the insurance claims process, and the property was back to pre-loss condition within two weeks. This scenario is representative of the multi-unit water losses we handle regularly in Worcester — not attributed to any specific individual.
-
 If you're dealing with water, fire, mold, or structural damage anywhere in Worcester, call Quality Contracting, Inc. at **(508) 756-8800**. We'll assess the situation, explain what needs to happen, and get the work scheduled.

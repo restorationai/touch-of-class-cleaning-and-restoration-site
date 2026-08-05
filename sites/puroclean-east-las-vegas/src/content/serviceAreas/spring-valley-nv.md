@@ -49,8 +49,4 @@ For property managers overseeing rental units in Spring Valley Ranch or Rhodes R
 
 PuroClean of East Las Vegas operates out of Las Vegas and reaches Spring Valley via US-95 westbound to Decatur Boulevard or via I-215 to Rainbow Boulevard — a straightforward run that keeps drive time short from our side of the valley. We serve all of Spring Valley's ZIP codes: **89102**, **89103**, **89117**, **89118**, **89147**, and **89148**. Whether the call comes from a property manager near Rhodes Ranch Golf Club or a homeowner in Peccole Ranch, we dispatch a crew with moisture meters, air movers, and dehumidifiers already loaded. Call **+17025513040** to schedule or to speak with someone about an active loss.
 
-## A recent Spring Valley response
-
-A property manager overseeing a six-unit building in the Chinatown corridor called after a second-floor tenant reported water dripping through a light fixture — a classic sign of an overflowing HVAC condensate pan. When our crew arrived, thermal imaging revealed that moisture had tracked laterally through the subfloor and was already affecting the unit next door. We extracted standing water, set drying equipment across both units, and produced a moisture-log report the property manager used to file with the building's commercial carrier the same afternoon. The units were dry and cleared within four days. *This scenario is representative of the calls we receive in Spring Valley; identifying details have been changed.*
-
 If you're dealing with water, fire, mold, or a biohazard situation in Spring Valley, call PuroClean of East Las Vegas at **+17025513040**. We'll walk you through the next steps, explain what documentation your insurance carrier will need, and get a crew moving toward your address.

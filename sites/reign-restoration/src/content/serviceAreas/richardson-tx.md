@@ -49,8 +49,4 @@ Once mitigation is complete, many property owners need more than drywall patches
 
 Reign Restoration is headquartered in Royse City, roughly 30 miles east of Richardson via US-80 West to I-635 North, or through Garland on TX-78 depending on traffic. Richardson is well within our active service area, and because we operate 24/7, a call at 2 a.m. from The Reservation or a midday call from a property manager near the University of Texas at Dallas gets the same response. We do not publish a guaranteed on-site minute figure, but Richardson is a routine dispatch for our crews — not an edge-of-territory call.
 
-## A recent Richardson response
-
-A property manager overseeing a rental in Duck Creek called after a tenant reported water seeping up through the laminate flooring following two days of heavy rain. By the time our crew arrived, moisture readings under the subfloor were elevated across roughly 400 square feet, and the adjacent drywall had begun to wick. We extracted, set drying equipment, and returned for monitoring checks over the following days. The property manager received a complete moisture log and photo documentation before we submitted to the carrier — the unit was back in rentable condition within the week. This scenario is representative of the calls we receive; details vary by property.
-
 If you're dealing with water, fire, mold, or storm damage anywhere in Richardson — from 75080 to 75082 — call Reign Restoration at (214) 304-0621. We're available around the clock and ready to get to work.

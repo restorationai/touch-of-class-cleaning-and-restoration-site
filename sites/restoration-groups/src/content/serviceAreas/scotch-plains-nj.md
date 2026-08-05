@@ -53,8 +53,4 @@ Once mitigation is complete, the same crew handles structural repairs — drywal
 
 The Restoration Group's Kenilworth headquarters is roughly four miles from central Scotch Plains via Route 28 or North Avenue — a straightforward run under most traffic conditions. Shackamaxon and the neighborhoods near Shackamaxon Country Club are reachable in minutes from that corridor. Willow Grove and the Southside, which sit closer to the Green Brook flood zone, are a short additional distance south. Because we operate 24/7, a call at 2 a.m. after a sump pump failure gets the same response as a midday call — a crew is dispatched, not a voicemail.
 
-## A recent Scotch Plains response
-
-A property manager overseeing a six-unit building near the Fanwood border called us after a supply line failed on the second floor over a holiday weekend, sending water through the ceiling into a first-floor unit below. By the time we arrived, both units had wet drywall and saturated hardwood flooring. We extracted the standing water, opened the ceiling cavity to dry the structural members, and documented the full scope with photographs and moisture logs for the carrier. The adjuster received our report within 48 hours, and both units were back to habitable condition before the end of the following week. *(Illustrative scenario representative of the work we do; not attributed to a specific named client.)*
-
 If you are dealing with a water, fire, mold, or storm loss anywhere in Scotch Plains — ZIP code 07076, Downtown Scotch Plains, Ashbrook, or anywhere along the Fanwood border — call The Restoration Group at **(855) 650-7422**. We answer every hour of every day, and we can walk you through what to do right now while a crew is on the way.

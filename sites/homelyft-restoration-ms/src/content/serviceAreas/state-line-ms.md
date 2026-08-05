@@ -49,8 +49,4 @@ Once mitigation is complete, HomeLyft can carry the project through rebuild — 
 
 HomeLyft Restoration MS is headquartered in Gulfport. Reaching State Line means traveling north through the Mississippi Pine Belt — roughly following US-49 toward Hattiesburg and then east on US-98 into Greene County, a route of approximately 100 miles depending on the specific address. We serve the broader State Line area including properties along the MS–AL state line corridor. Call us at (228) 284-5200 to confirm scheduling and discuss the fastest available dispatch for your situation. We do not publish minute-based arrival guarantees, but we will give you an honest estimated arrival window when you call.
 
-## A recent State Line response
-
-A property manager overseeing a rental home near the State Line area contacted HomeLyft after a tenant reported water pooling in the hallway following an overnight pipe failure in the bathroom wall. By the time we arrived, the water had tracked under the vinyl plank flooring into the adjacent bedroom and down into the crawl space below. We extracted the standing water, pulled the affected flooring, set drying equipment in both the living space and the crawl space, and provided the property manager with daily moisture logs to share with the insurance adjuster. The home was fully dried and ready for flooring reinstallation within the carrier's expected drying window. This scenario is representative of the calls we receive — specific details will vary.
-
 If you're dealing with water, fire, mold, or storm damage at a State Line property, call HomeLyft Restoration MS at **(228) 284-5200**. We'll walk through what you're seeing, explain the process, and get a crew scheduled.

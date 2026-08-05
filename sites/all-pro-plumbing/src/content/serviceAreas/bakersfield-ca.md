@@ -49,8 +49,4 @@ Then there's the summer heat. Bakersfield regularly strings together weeks above
 
 All Pro Plumbing Heating and Air is headquartered in Bakersfield, so every neighborhood in the city is a local run. Silver Creek and Seven Oaks in the southwest, Riverlakes Ranch in the northwest, East Bakersfield (93306, 93307) out toward the Kern County Museum, and everything in between — we're on the road from inside city limits. Because we dispatch 24/7, an after-midnight call from a property manager in Downtown Bakersfield or a Sunday-morning call from a homeowner near Cal State Bakersfield gets the same response as a weekday afternoon job.
 
-## A recent Bakersfield response
-
-A property manager overseeing a rental duplex in the Oleander/Sunset area called after a tenant reported water seeping up through the bathroom tile — a classic sign of a pressurized slab leak. We arrived, used electronic detection equipment to locate the leak under the slab without guesswork, confirmed the source in a galvanized supply line that had finally corroded through, and completed a targeted concrete cut and copper repipe of that section. The repair was finished the same day, and the property manager had documentation for the insurance carrier before the week was out. This scenario is representative of the calls we handle regularly in older Bakersfield neighborhoods — individual details vary.
-
 If you're dealing with a plumbing, drain, heating, or AC problem anywhere in Bakersfield, call (661) 863-9242. We're local, we're available around the clock, and we'll give you a straight answer on what the repair involves before any work begins.

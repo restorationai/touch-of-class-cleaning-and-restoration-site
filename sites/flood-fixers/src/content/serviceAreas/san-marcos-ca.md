@@ -55,8 +55,4 @@ Once mitigation is complete, we can carry the project through rebuild — drywal
 
 Flood Fixers is headquartered in San Diego. Under normal traffic conditions, our crews reach San Marcos in approximately 45 to 60 minutes. Neighborhoods closer to the Interstate 78 corridor — including communities near Rancho Santaluz and the commercial corridors along Twin Oaks Valley Road — are typically on the faster end of that range. We answer calls 24 hours a day, every day, and aim to have a technician on-site within the hour for active water losses.
 
-## A recent San Marcos response
-
-A property manager overseeing a four-unit townhome complex in the 92078 ZIP code called Flood Fixers on a Tuesday morning after a tenant reported water coming through the ceiling of a ground-floor bedroom. By the time our crew arrived — roughly 50 minutes after the call — the upstairs bathroom supply line had been shut off, but saturation had already reached the subfloor, the shared wall cavity, and the ceiling assembly below. We extracted standing water, placed drying equipment across both affected units, documented the moisture readings for the HOA's insurance carrier, and had the structure back to dry standard within four days. The property manager received daily written moisture logs throughout the process.
-
 If you're dealing with water, fire, mold, or a biohazard situation in San Marcos right now, call Flood Fixers at **(855) 204-1124**. We'll tell you exactly what to do in the next ten minutes while we're already on our way.

@@ -49,8 +49,4 @@ Once mitigation is complete, many homeowners face a gap: the damage is documente
 
 Our Gulfport headquarters sits roughly 55 miles southeast of Picayune via I-10 West to US-11 North — a straightforward drive that keeps us in regular rotation across Pearl River County. Crews travel this corridor frequently enough that Picayune is not a distant outlier for us; it's a regular part of our service footprint. Scheduling is handled during our business hours, and we work to get an assessment on-site as promptly as the situation and drive time allow. For active water intrusion, earlier contact means a shorter drying cycle and lower overall costs — so calling as soon as you find the problem is always the right move.
 
-## A recent Picayune response
-
-Earlier this year, a property manager overseeing a rental home in Picayune contacted us after a tenant reported a musty smell that had been building for several weeks. When our crew arrived, thermal imaging revealed a slow leak behind the washing machine hookup that had saturated the wall cavity and subfloor across roughly 40 square feet — none of it visible from the surface. We extracted the damaged materials, dried the structure over four days, and completed mold remediation before handing off to our reconstruction team to restore the wall and flooring. The property manager had the unit back on the rental market within three weeks of the initial call. *(Scenario is representative of the type of work we perform; details are not attributed to a specific individual.)*
-
 If you're dealing with water, mold, fire, or smoke damage anywhere in Picayune or Pearl River County, call HomeLyft Restoration MS at (228) 284-5200. We'll walk you through what to expect, answer your insurance questions, and get a crew scheduled.

@@ -49,8 +49,4 @@ When remediation is complete, we can carry the project through drywall, flooring
 
 From our San Diego headquarters, a Flood Fixers crew can reach most of Carlsbad — ZIP codes 92008, 92009, 92010, and 92011 — in approximately 45 to 60 minutes under normal traffic conditions. Neighborhoods closer to Interstate 5, such as the Village area near Carlsbad State Beach, are typically on the faster end of that window. Inland areas like Bressi Ranch or the eastern portions of La Costa may add 10 to 15 minutes depending on time of day. We answer calls 24 hours a day, every day of the year; the person who picks up can dispatch a crew, not just take a message.
 
-## A recent Carlsbad response
-
-A property manager overseeing a small HOA in La Costa called Flood Fixers on a Tuesday morning after a second-floor unit's water heater pan drain had been blocked for an unknown period of time — the subfloor, the ceiling of the unit below, and portions of a shared wall were all saturated. Our crew arrived within 55 minutes, performed a full moisture assessment across both units, established drying chambers to protect unaffected areas, and had a preliminary scope to the property manager's insurance adjuster by end of day. Drying was confirmed complete on day four. This scenario is representative of the multi-unit water losses we handle regularly in Carlsbad's HOA communities.
-
 If you're dealing with water, fire, or mold damage at a Carlsbad property right now, call Flood Fixers at **(855) 204-1124**. We'll tell you exactly what to do in the next 30 minutes — and we can have a crew moving toward you while we're still on the phone.

@@ -51,8 +51,4 @@ After the drying or remediation scope is complete, many Irvington properties —
 
 The Restoration Group operates out of Kenilworth, roughly 6 to 8 miles from Irvington Center depending on the route. The most direct path runs via Route 22 East to the Garden State Parkway South, exiting near Union Avenue — a drive that typically takes under 20 minutes outside of peak traffic hours. Irvington Park, Civic Square, and the Springfield Avenue corridor are all well within our standard service radius, and because we operate 24/7, a call at 2 a.m. during a nor'easter gets the same crew dispatch as a weekday afternoon job.
 
-## A recent Irvington response
-
-A property manager overseeing a three-unit rowhouse near Irvington Center called after a tenant reported water coming through the first-floor ceiling late on a weeknight. By the time our crew arrived, a corroded galvanized supply line in the second-floor bathroom had been leaking into the wall cavity long enough to saturate the subfloor above and the ceiling assembly below. We isolated the source, extracted the water, opened the wall and ceiling to expose wet framing, and had commercial drying equipment running before midnight. Moisture readings were back to normal range within four days, and we coordinated directly with the property manager's insurance adjuster throughout — a scenario representative of the calls we receive regularly from Irvington landlords managing aging multifamily stock.
-
 If you're dealing with an active loss or need an assessment on damage you've already found, call The Restoration Group at (855) 650-7422. We're available around the clock and can dispatch to any Irvington neighborhood.

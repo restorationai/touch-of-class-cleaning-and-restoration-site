@@ -45,8 +45,4 @@ Our base is in East Las Vegas, which puts us within a direct drive of most of th
 
 For Centennial Hills (89149, 89131), we travel north on the 95 or via surface streets through the newer neighborhoods near the Springs Preserve and Red Rock Canyon National Conservation Area foothills. We schedule calls during our business hours — call +17025513040 to confirm current availability and get a crew dispatched to your address.
 
-## A recent Las Vegas response
-
-A property manager overseeing a fourplex near Rancho Charleston contacted us after a tenant reported water staining on a bedroom ceiling that had been growing for what looked like several weeks. When our technicians arrived, thermal imaging revealed a slow leak from a second-floor bathroom supply line that had saturated two wall cavities and the subfloor below. We extracted the damaged material, set drying equipment across both units, and coordinated directly with the property manager's insurance adjuster throughout the documentation process. The building was dry and ready for reconstruction within the carrier's approved timeline. *(This scenario is representative of the type of work we handle; it is not attributed to a specific named client.)*
-
 If you're dealing with water intrusion, smoke damage, or a mold discovery anywhere in Las Vegas, call PuroClean of East Las Vegas at +17025513040. We'll assess the damage, walk you through the process, and work with your insurance carrier so the paperwork doesn't fall entirely on you.

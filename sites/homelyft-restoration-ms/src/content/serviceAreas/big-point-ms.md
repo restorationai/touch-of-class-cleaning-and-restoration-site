@@ -43,8 +43,4 @@ Wildfire smoke and structure fires are a secondary but real concern in the more 
 
 HomeLyft Restoration MS operates out of Gulfport, roughly 25 to 30 miles west of Big Point via US-90 and MS-613. Jackson County's road network through this part of the county is mostly two-lane, so actual drive time depends on conditions and time of day. We schedule promptly and communicate an estimated arrival window when you call — (228) 284-5200. For property managers overseeing multiple units or rental properties in the Big Point area, we can coordinate access and documentation directly with your office.
 
-## A recent Big Point response
-
-A property manager overseeing a rental home near the Big Point community contacted us after a slow roof leak — undetected through most of the spring — was discovered when a tenant reported a soft spot in the ceiling. By the time we arrived, moisture readings in the attic framing and the bedroom ceiling cavity were significantly elevated, and early mold growth was visible on the OSB sheathing. We contained the attic space, removed the affected materials, dried the structure over several days, and coordinated the scope documentation directly with the property owner's insurance adjuster. The home was back in rentable condition without the owner needing to manage the back-and-forth with the carrier. This scenario is representative of the kind of work we handle regularly — not a specific attributed account.
-
 If you are dealing with water, fire, mold, or storm damage at a Big Point property, call HomeLyft Restoration MS at **(228) 284-5200**. We will assess the situation, explain what needs to happen, and get the work moving.

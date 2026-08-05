@@ -53,8 +53,4 @@ Septic failures and sewage backups are a real risk on rural George County proper
 
 HomeLyft Restoration MS is headquartered in Gulfport, roughly 45 to 50 miles southwest of Agricola via US-49 North through Wiggins. The drive through Stone and George counties is straightforward on a clear day, though rural two-lane segments between Wiggins and Agricola can add time during heavy rain or when farm equipment is moving. We schedule Agricola calls promptly and will give you a realistic arrival window when you call — (228) 284-5200. Property managers overseeing multiple sites in the Agricola area can arrange standing service agreements so response coordination is already in place before an emergency happens.
 
-## A recent Agricola response
-
-A homeowner in the Agricola area contacted HomeLyft after discovering standing water in their crawl space following several days of heavy rain — the vapor barrier had failed and moisture had been wicking into the floor joists for what appeared to be weeks. This is a representative scenario, not a named client account. Our crew arrived, extracted the pooled water, removed the compromised vapor barrier, set commercial dehumidifiers, and monitored moisture levels over several return visits until the framing reached acceptable readings. The homeowner's insurance carrier received a full photo-documented moisture log, and the claim moved forward without a dispute over scope.
-
 If you're dealing with water, fire, mold, or a sewage event at an Agricola property, call HomeLyft Restoration MS at **(228) 284-5200**. We'll talk through what you're seeing, give you an honest assessment of urgency, and get a crew scheduled.

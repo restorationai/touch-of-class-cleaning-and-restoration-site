@@ -49,8 +49,4 @@ Salt air, sand tracked in from Kailua Beach Park, and the persistent moisture th
 
 Our Honolulu headquarters puts Kailua roughly 12 to 15 miles away via the H-3 freeway through the Ko'olau tunnel — typically the fastest route regardless of time of day. The Pali Highway is the alternate when H-3 is congested, adding a few minutes but still reaching Kailua Town and Kailua Town Center quickly. From there, neighborhoods like Lanikai, Kalama Tract, and Coconut Grove are a short drive. Because we operate 24/7, we can dispatch equipment any hour — call (808) 349-3407 and we'll confirm an arrival window based on current conditions on the road.
 
-## A recent Kailua response
-
-A property manager overseeing a vacation rental in Kalama Tract called us after a guest reported a musty smell and soft flooring near the kitchen — the owners were on the mainland and had no idea how long the dishwasher supply line had been seeping. When we arrived, thermal imaging showed moisture had tracked six feet along the subfloor and into the base of a shared wall. We extracted, set drying equipment, and provided the property manager with daily moisture logs they could forward directly to the owners and their insurer. The unit was dry and cleared for re-occupancy within the week. *This scenario is representative of the calls we receive from Kailua property managers; details have been generalized.*
-
 If water, fire, or mold is affecting your Kailua property right now, call AAA Water Damage Restoration & Carpet Care at **(808) 349-3407**. We answer around the clock, dispatch from Honolulu via H-3, and bring the equipment to handle what windward Oahu's climate actually throws at a home — not what a mainland restoration checklist assumes.

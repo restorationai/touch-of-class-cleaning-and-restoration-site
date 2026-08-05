@@ -55,10 +55,4 @@ Once mitigation is complete, we handle the rebuild — framing, drywall, floorin
 
 Our Kenilworth headquarters sits roughly 4 miles from central Rahway — a straightforward run down Central Avenue or via Route 28, with no significant highway interchange between us and most of the city. Neighborhoods like Hazelwood and the Clark border area are reachable in similar time. Because we operate 24/7, calls placed at 2 a.m. after a sump pump failure during a nor'easter get the same dispatch response as a Monday morning call. We stage equipment at our Kenilworth facility so crews leave loaded — no stopping to pick up gear after the call comes in.
 
-## A recent Rahway response
-
-A property manager overseeing a six-unit building two blocks from Rahway Train Station called after a second-floor supply line failed overnight and water migrated through the floor assembly into a first-floor unit below. By the time the call came in, both units had saturated subfloor and the hallway drywall was visibly wicking. We arrived, extracted standing water, set drying equipment across both units, and produced a room-by-room moisture map for the carrier's adjuster within the first visit — allowing the manager to move the affected tenants back in on a documented timeline rather than an open-ended estimate. *(This scenario is representative of the type of work we perform; it is not attributed to a specific named client.)*
-
----
-
 If you're dealing with a water, fire, or mold emergency in Rahway — or you're a property manager who needs a reliable remediation contractor on call — reach The Restoration Group at **(855) 650-7422**, any hour of the day.

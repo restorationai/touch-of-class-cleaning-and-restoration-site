@@ -53,8 +53,4 @@ Once mitigation is complete, we can carry the project through rebuild — drywal
 
 Home Pride Restoration and Cleaning's headquarters is in Saratoga Springs, approximately 18 miles northwest of downtown Provo via US-89. Under normal traffic conditions, that puts a technician on-site in Provo within 45 to 60 minutes of your call. Neighborhoods in north Provo — including the Tree Streets area and properties near Brigham Young University — are typically reachable in under 50 minutes. South Provo addresses, including the ZIP codes 84601 and 84606, run a similar window. We aim for faster response on confirmed active flooding or fire-related calls, where every additional minute increases structural exposure.
 
-## A recent Provo response
-
-A property manager overseeing a four-unit rental in the Joaquin neighborhood called on a Tuesday morning after a tenant reported water coming through the ceiling of a ground-floor unit. By the time our crew arrived — roughly 55 minutes after the call — a supply line failure in the upstairs bathroom had pushed water through the subfloor and into the ceiling cavity below. We extracted standing water, removed saturated drywall and insulation, set drying equipment across both units, and had a full moisture log ready for the insurance adjuster's visit two days later. The units were back to pre-loss condition within ten days.
-
 If you're dealing with a water, fire, mold, or biohazard situation at a Provo property right now, call (801) 995-2437. We answer every hour of the day, and we'll tell you honestly what the situation requires.

@@ -51,8 +51,4 @@ Sewage backups, which are common in low-lying areas of Ocean Springs after heavy
 
 HomeLyft Restoration MS is headquartered in Gulfport, roughly 12 miles west of Ocean Springs via US-90 or I-10. Both routes are straightforward, and our crews are familiar with the local road network, including the causeway approaches and the surface streets through the historic district near Government Street. We serve all areas of Ocean Springs — from properties along the beachfront corridor to neighborhoods further north toward the city limits. Scheduling is handled during our business hours; call (228) 284-5200 and we will give you a realistic arrival window based on current crew availability.
 
-## A recent Ocean Springs response
-
-A property manager overseeing a rental home near the Back Bay area contacted us after tenants reported a musty smell that had developed over several weeks following a slow leak under the kitchen sink. When our crew arrived, thermal imaging revealed moisture had tracked along the subfloor into an adjacent hallway — an area that looked completely dry to the eye. We extracted the affected flooring, dried the subfloor assembly over several days, and documented the full scope with photographs and moisture logs for the owner's insurance carrier. The property was back in rentable condition without the owner needing to manage the insurance paperwork directly. *(This scenario is representative of the type of work we handle; it is not attributed to a specific named client.)*
-
 If you're dealing with water, fire, mold, or storm damage in Ocean Springs, the best first step is a phone call. Describe what you're seeing, and we'll help you understand what comes next — no obligation, no pressure. Reach HomeLyft Restoration MS at **(228) 284-5200**.

@@ -53,8 +53,4 @@ Once drying and remediation are complete, we rebuild — framing, drywall, floor
 
 The Restoration Group is headquartered in Kenilworth, NJ, roughly 25 miles east of Somerville via I-78 West or Route 22 West. Both routes are direct and well-maintained, and our crews travel them regularly for calls across Somerset County. Because we operate 24/7, a call from a property manager in the Fairview neighborhood at midnight gets the same dispatch process as a mid-afternoon call from a Downtown landlord. We do not publish a specific on-site minute guarantee, but our teams are staged and equipped to move — not scheduled days out.
 
-## A recent Somerville response
-
-A property manager overseeing a six-unit building near East Main called us on a Sunday evening after a second-floor supply line failed and water migrated through the floor assembly into a finished first-floor unit below. By the time the water main was shut off, both units had standing water and the ceiling drywall in the lower unit had begun to sag. We arrived, extracted standing water, opened the ceiling to expose saturated framing, and established a drying chamber across both units. The manager had photos, a moisture log, and a written scope to send to the carrier by the following morning. *This scenario is representative of the calls we receive in Somerville; it is not attributed to a specific named client.*
-
 If you are dealing with water, fire, mold, or storm damage anywhere in Somerville — from the Wallace House neighborhood to the West End — call The Restoration Group at **(855) 650-7422**. We answer every hour of every day, and we will tell you honestly what the damage involves and what it will take to fix it.

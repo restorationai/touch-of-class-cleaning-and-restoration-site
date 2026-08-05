@@ -47,8 +47,4 @@ After mitigation is complete and the insurance adjuster has signed off, we handl
 
 From our San Diego headquarters, Flood Fixers reaches most of Encinitas in 45 to 60 minutes under normal traffic conditions. The I-5 corridor puts ZIP codes 92024 and 92007 — covering Old Encinitas, Cardiff, and the coastal strip — within that window consistently. Leucadia, in the northern part of the city, typically adds 5 to 10 minutes. We answer calls around the clock; a technician, not a call center, picks up after hours. When you call (855) 204-1124, you can expect an honest ETA based on where our nearest crew is at that moment, not a marketing number.
 
-## A recent Encinitas response
-
-A property manager overseeing a four-unit building near Moonlight Beach called on a Sunday morning after a tenant reported water coming up through the bathroom floor. By the time our crew arrived — roughly 55 minutes after the call — the slab leak had pushed water under two units. We extracted standing water, mapped moisture through the shared wall cavity with a thermal camera, and had drying equipment running before noon. The property manager had an insurance adjuster on-site by Tuesday; we provided the moisture documentation and scope of work that moved the claim forward without a dispute. That scenario plays out regularly in Encinitas's older coastal buildings, and the documentation we generate on day one is often what keeps a claim from stalling.
-
 If you're dealing with water, fire, mold, or storm damage anywhere in Encinitas right now, call Flood Fixers at **(855) 204-1124**. We'll tell you exactly how far out we are and what to do — or not do — until we arrive.

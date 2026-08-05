@@ -53,8 +53,4 @@ Once drying and remediation are complete, our licensed reconstruction crews hand
 
 From our San Diego headquarters, a Flood Fixers crew can reach western Chula Vista neighborhoods — Castle Park, Harborside, Otay — in approximately 30–40 minutes via I-5 or SR-54. Eastern communities like Eastlake and Otay Ranch typically see a technician on-site within 45–60 minutes, depending on traffic on Olympic Parkway. We cover all Chula Vista ZIP codes, including 91910, 91911, 91913, 91914, and 91915. We answer calls 24 hours a day, 365 days a year — including holidays, when water doesn't take a break.
 
-## A recent Chula Vista response
-
-A property manager overseeing a 24-unit complex in Otay Ranch contacted Flood Fixers on a Sunday evening after a second-floor supply line failed and water traveled through the subfloor into three ground-level units. Our crew arrived within 50 minutes, extracted standing water from affected units, placed desiccant dehumidifiers and air movers, and had a moisture-mapping report ready for the insurance adjuster by the following morning. Drying was confirmed complete on day four, and reconstruction began the same week. *(Scenario is representative of the type of work we perform; details have been generalized.)*
-
 If you're dealing with water, fire, mold, or any property emergency in Chula Vista right now, call Flood Fixers at **(855) 204-1124**. The sooner drying equipment is running, the smaller the final repair bill — and the lower the chance that a water claim turns into a mold claim.

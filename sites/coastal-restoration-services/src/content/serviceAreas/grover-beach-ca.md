@@ -51,8 +51,4 @@ For situations involving sewage backups, unattended deaths, or other biohazard c
 
 Coastal Restoration Services is based in Vandenberg Village, which puts Grover Beach roughly 20 to 25 miles to the southeast via US-101. The drive through Santa Maria and into San Luis Obispo County is a straightforward highway run under normal conditions, and the team services Grover Beach and the surrounding Five Cities area regularly. Call (805) 345-7440 to confirm scheduling availability and get an estimated arrival window based on current crew location and job load.
 
-## A recent Grover Beach response
-
-A property manager overseeing a small rental near the west side of Grover Beach called after a tenant reported water pooling on the bathroom floor — what looked like a minor leak turned out to be a slow drain-line failure that had been saturating the subfloor for weeks. By the time Coastal Restoration Services arrived, moisture readings showed the damage had wicked into two adjacent wall cavities and the crawl space below. The crew extracted standing water, set drying equipment, and provided the property manager with daily moisture logs and photo documentation to submit directly to the insurance carrier. The subfloor was replaced and the unit was back in rentable condition within the documented drying period.
-
 If you're dealing with water, fire, mold, or a situation you're not sure how to categorize, call (805) 345-7440. Describe what you're seeing, and Coastal Restoration Services will tell you honestly what the next step should be.

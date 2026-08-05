@@ -49,8 +49,4 @@ Once mitigation is complete, most homeowners need more than drywall patches. Dav
 
 Our headquarters in Madison is roughly 15 miles from central Athens via US-72. Under normal traffic, that puts a crew at a Downtown Athens address in 20–25 minutes and at properties along the East Limestone Road corridor in 30–35 minutes. We target a two-hour maximum from first call to technician on-site anywhere in the 35611 and 35613 ZIP codes — including Westover Hills and Sanderfer Heights. After-hours calls go to the same dispatch line: (256) 771-0326.
 
-## A recent Athens response
-
-A property manager overseeing a rental on the east side of Athens called us on a Tuesday morning after a tenant reported water pooling on the kitchen floor. By the time our crew arrived, the dishwasher supply line had been leaking slowly for long enough that the subfloor under the vinyl plank was saturated and the lower cabinet face frames had begun to swell. We extracted moisture, set drying equipment, and had a written scope for the insurance carrier the same afternoon. Drying was complete in four days; the rebuilt kitchen was finished two weeks later. *(This scenario is representative of the calls we receive; it does not reflect a specific attributed client.)*
-
 If you're dealing with water, fire, smoke, or mold damage anywhere in Athens, call Davis Construction Contractors at **(256) 771-0326**. We'll tell you honestly what you're dealing with, what it will take to fix it, and how your insurance coverage applies — before any work begins.

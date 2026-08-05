@@ -53,10 +53,4 @@ Once drying and remediation are complete, we rebuild — framing, drywall, floor
 
 Kenilworth sits roughly four miles from central Plainfield via Route 28 or North Avenue — a direct run with no highway interchange delays in most conditions. The Netherwood neighborhood and the streets around the Plainfield Train Station are among the closest points to our HQ; the West End and Sleepy Hollow add only a few minutes of travel. Because we operate 24/7, a call at 2 a.m. after a pipe failure gets the same dispatch response as a call at noon. We'll confirm an estimated arrival window when you call.
 
-## A recent Plainfield response
-
-A property manager overseeing a multi-unit building near the East Front Street corridor called after a cast-iron drain stack failed overnight, sending water through two floors and into the finished basement common area. By the time the call came in, carpet and drywall on the lower level had been wet for roughly six hours. Our crew arrived, extracted standing water, opened affected wall cavities to expose wet framing, and set a drying system across all three impacted floors. We photographed and documented the loss in real time, submitted the moisture logs directly to the carrier, and completed reconstruction — new drywall, paint, and flooring — within two weeks. *(Scenario is representative of the type of work we perform; details are not attributed to a specific named client.)*
-
----
-
 If you're dealing with water, fire, mold, or any structural damage at a Plainfield property, call The Restoration Group at **(855) 650-7422**. We're available around the clock, we work directly with insurance carriers, and we know what Plainfield's housing stock demands from a restoration crew.

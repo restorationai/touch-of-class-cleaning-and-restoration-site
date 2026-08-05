@@ -49,8 +49,4 @@ Hail and straight-line wind events hit the Park Cities hard several times a deca
 
 Reign Restoration is based in Royse City, TX, roughly 30 miles east of University Park via I-30 West and the Central Expressway (US-75) corridor. We dispatch around the clock, every day of the year. Depending on traffic conditions on 75 through downtown Dallas, our crews typically reach neighborhoods like Snider Plaza, Caruth Hills, and the Preston Road corridor in under an hour — though we won't quote you a specific minute window until we know what's happening on the road that day. When you call (214) 304-0621, the person who answers will give you a realistic arrival estimate based on current conditions.
 
-## A recent University Park response
-
-A property manager overseeing a rental home in the Caruth Hills area called us on a Sunday evening after a tenant reported water pooling across the first floor. A supply line to an upstairs bathroom had been seeping inside the wall for what appeared to be several days. By the time we arrived, moisture readings showed saturation in the subfloor, the wall cavity, and the lower section of drywall on two sides of the bathroom. We extracted the visible water, opened the wall to expose the wet framing, and set drying equipment that ran through the week. The property manager had documentation for the insurance claim by the following morning. *This scenario is representative of the calls we receive; details have been generalized.*
-
 If you're dealing with water, fire, mold, or storm damage at a University Park property, call Reign Restoration at **(214) 304-0621** — we answer every hour of every day and can have a crew moving toward you while you're still on the phone.

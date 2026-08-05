@@ -53,10 +53,4 @@ Once drying and remediation are complete, we handle the rebuild — framing, dry
 
 The Restoration Group's headquarters in Kenilworth sits roughly 25 miles from Parsippany via I-78 West to I-287 North — a straightforward run that keeps us well within our service radius. We operate 24/7, so a call at any hour reaches a live dispatcher, not a voicemail. Crews can reach Lake Hiawatha, Mount Tabor, and the Waterview commercial corridor without navigating surface-road bottlenecks, and the I-80/287 interchange gives us direct access to the eastern and western ends of the township.
 
-## A recent Parsippany response
-
-A property manager overseeing a mid-size office building near the Waterview commercial district contacted us after a rooftop HVAC unit leaked overnight, saturating a drop-ceiling grid and the carpet below across roughly 1,800 square feet of open office space. This is a representative scenario, not an attributed account. Our crew arrived, extracted moisture from the subfloor, removed the compromised ceiling tiles, set drying equipment, and provided the property manager with daily moisture readings and photo documentation — the kind of paper trail that keeps a commercial insurance claim moving without disputes over scope.
-
----
-
 If you're dealing with water, fire, mold, or structural damage anywhere in Parsippany-Troy Hills — from a flooded basement in Lake Hiawatha to a smoke-damaged Victorian in Mount Tabor — call The Restoration Group at **(855) 650-7422**. We're available around the clock and will walk you through next steps before a crew ever arrives on site.

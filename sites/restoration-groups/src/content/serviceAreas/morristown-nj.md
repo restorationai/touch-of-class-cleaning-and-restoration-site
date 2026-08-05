@@ -49,8 +49,4 @@ Restaurants and retail around Morristown Green, medical office suites near Morri
 
 The Restoration Group is based in Kenilworth, NJ, roughly 18 miles east of Morristown via I-78 West or Route 24 West. Both routes feed directly into the 07960 ZIP code, putting our crews close to the Historic District, The Green, and the Speedwell corridor without navigating through downtown congestion. The Vail Mansion and Ford Mansion neighborhoods in the 07963 ZIP are accessible via Route 202 South from the same approach. Because we operate 24 hours a day, 7 days a week, a call at any hour connects to a live dispatcher who can have a crew en route — not a voicemail.
 
-## A recent Morristown response
-
-A property manager overseeing a six-unit building near the Morristown Green called us after a supply line on the third floor failed overnight and water had traveled through two floors by the time a tenant noticed it in the morning. This scenario is representative of the multi-unit losses we handle regularly in Morristown. Our crew arrived, identified all affected units using thermal imaging, extracted water from three floors, and set up drying equipment across the building the same day — coordinating documentation directly with the property manager's insurance adjuster so the claim moved without delays.
-
 If you're dealing with an active loss or trying to get ahead of damage you've already found, call The Restoration Group at **(855) 650-7422**. We're available around the clock and can dispatch to any Morristown neighborhood — 07960 or 07963 — day or night.

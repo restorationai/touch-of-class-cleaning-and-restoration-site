@@ -49,8 +49,4 @@ Once the damage is mitigated and the structure is dry and clean, most property o
 
 HomeLyft Restoration MS is based in Gulfport, and Glendale is a straightforward run up from the Coast. Depending on traffic and the specific address, crews typically travel via US-49 or connecting state routes into the area. We schedule promptly and aim to have a project manager on-site for an initial assessment as quickly as scheduling allows — call us at (228) 284-5200 to discuss timing for your specific situation. For active water intrusion, earlier contact means less secondary damage and a shorter overall drying timeline.
 
-## A recent Glendale response
-
-A property manager overseeing a rental home in the Glendale area contacted us after a tenant reported water staining on the ceiling of a back bedroom. What looked like a minor roof leak turned out to be a slow supply line drip inside the wall that had been wicking into the ceiling assembly for several weeks. We extracted standing moisture from the wall cavity, set drying equipment across two rooms, and documented the moisture readings over a four-day drying cycle. The property manager was able to submit a complete photo and moisture log to the carrier without going back and forth for additional documentation. This scenario is representative of the calls we receive — not every emergency announces itself loudly.
-
 If you're dealing with water, fire, smoke, or mold damage at a Glendale property, call HomeLyft Restoration MS at **(228) 284-5200**. We'll talk through what you're seeing, explain what the assessment process looks like, and get someone scheduled to your address.

@@ -53,8 +53,4 @@ Our headquarters is in Vandenberg Village, roughly 35 miles north of Avila Beach
 
 Call us at **(805) 345-7440** to confirm scheduling and current availability. We will give you an honest arrival window based on current crew location and job load — not a number pulled from a marketing page.
 
-## A recent Avila Beach response
-
-A property manager overseeing a short-term rental near the Avila Beach pier contacted us after a guest reported water coming up through the bathroom floor during a late-winter stay. By the time we arrived, the subfloor in two rooms had absorbed significant moisture and the crawl space showed early-stage microbial growth consistent with a slow leak that had likely been running for weeks. We extracted standing water from the crawl space, dried the subfloor assembly, performed targeted mold remediation, and replaced the damaged flooring — documenting every step for the property owner's insurance claim. The unit was back in rental rotation within the agreed timeline. This scenario is representative of the calls we receive from Avila Beach vacation-rental owners each winter season.
-
 If you are dealing with a water, fire, mold, or smoke emergency in Avila Beach, call Coastal Restoration Services Inc at **(805) 345-7440**. We will assess the situation honestly, explain what the work involves, and get the process moving.

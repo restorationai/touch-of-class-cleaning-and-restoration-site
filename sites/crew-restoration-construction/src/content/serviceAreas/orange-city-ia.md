@@ -49,8 +49,4 @@ Most restoration jobs leave a gap: the remediation contractor finishes and the h
 
 Crew Restoration & Construction operates out of Sioux Falls, SD, roughly 90 miles north of Orange City via I-29 South and US-75. That distance puts Orange City well within our regular service area — crews travel this corridor routinely for both emergency response and scheduled project work. Whether the call comes from a property manager near Northwestern College, a homeowner in the Windmill Park area, or a business owner in Downtown Orange City, we dispatch based on crew availability and job urgency. Call (605) 965-2727 during business hours to discuss your situation and get a crew scheduled.
 
-## A recent Orange City response
-
-A property manager overseeing several rental units near the Tulip Festival grounds called after a tenant reported water coming up through the basement floor drain following a heavy March rain — a classic spring-melt backup event. Crew arrived, extracted the standing water, identified that the source was a partially blocked municipal lateral compounded by hydrostatic pressure, and set drying equipment throughout the affected unit. We photographed every affected surface, logged moisture readings across three days of drying, and produced a loss report the property manager submitted directly to the insurance carrier. The unit was back to rentable condition within the week.
-
 If you're dealing with a water, fire, mold, or structural loss anywhere in Orange City — ZIP 51041 — call Crew Restoration & Construction at **(605) 965-2727**. We'll talk through what you're seeing, explain the process honestly, and get the right crew moving.

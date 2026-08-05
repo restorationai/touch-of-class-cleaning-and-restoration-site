@@ -53,8 +53,4 @@ Once mitigation is complete, the same crew handles structural repairs — framin
 
 From our Kenilworth headquarters, Clifton is a straightforward run: north on Route 22 to the Garden State Parkway, or up Route 21 directly into Delawanna and Lakeview. Montclair Heights and Athenia are accessible via Bloomfield Avenue. Because we operate 24/7, we can dispatch at any hour — there's no after-hours answering service, just a live dispatcher at (855) 650-7422. Neighborhoods in ZIP codes 07012 and 07013 are well within our primary service radius, and we carry the equipment load for both residential and commercial jobs on a single dispatch.
 
-## A recent Clifton response
-
-A property manager overseeing a six-unit rental in Botany Village called after a second-floor supply line failed overnight and water migrated through the floor assembly into two first-floor units. By the time the call came in, both ceilings were saturated and one had partially collapsed. We arrived, extracted standing water from both units, opened the ceiling cavity to expose wet framing, and set drying equipment across all three affected floors. The manager received a full photo-documented moisture log within 24 hours — the format her carrier required to open the claim without a separate adjuster inspection.
-
 If you're dealing with water, fire, mold, or structural damage anywhere in Clifton, call (855) 650-7422. We're available around the clock and can be en route before most contractors have called you back.

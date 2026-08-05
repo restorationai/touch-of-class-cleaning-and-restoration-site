@@ -55,8 +55,4 @@ Once mitigation is complete, we handle the rebuild — drywall, flooring, millwo
 
 Our Kenilworth, NJ headquarters puts us roughly 12 to 15 miles from Midtown Manhattan via the Lincoln Tunnel or George Washington Bridge, depending on the destination. The Financial District and Lower East Side are accessible via the Holland Tunnel. We serve the full borough — Upper East Side, Upper West Side, Harlem, Chelsea, Midtown, Lower East Side, and the Financial District — and because we operate 24/7, we can dispatch at any hour. Traffic and tunnel conditions affect arrival times, and we don't quote specific minute windows, but we stay in contact from the moment you call so you know exactly where the crew is.
 
-## A recent Manhattan response
-
-A property manager at a pre-war co-op building in the Upper West Side (ZIP 10025) contacted us after a supply line failed behind a washing machine on the 11th floor, saturating ceilings in three units below before the water was shut off. We arrived, coordinated freight-elevator access with the building's superintendent, and began extraction and drying the same evening. Moisture logs were delivered to the managing agent daily, and the board received a full written scope before any reconstruction work began. The three affected units were dried to standard within five days.
-
 If you're dealing with a loss anywhere in Manhattan — whether it's a soaked ceiling in a Chelsea loft or smoke damage in a Financial District office — call The Restoration Group at (908) 970-8533. We're available around the clock and ready to work within your building's rules from the first hour on-site.

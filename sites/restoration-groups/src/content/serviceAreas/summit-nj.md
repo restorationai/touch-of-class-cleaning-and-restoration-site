@@ -51,8 +51,4 @@ Ice dams on slate roofs, wind-driven rain through deteriorating window frames, a
 
 Our Kenilworth headquarters sits roughly 8 miles from Summit — a straightforward run up Route 82 or the Garden State Parkway to Route 124, depending on traffic. We cover all of Summit's neighborhoods: Downtown Summit, Northside, the Franklin School and Brayton School areas, and properties along the New Providence border. Because we operate 24/7, a call at 2 a.m. after a pipe bursts gets the same response as a midday call — a crew dispatched, not a voicemail.
 
-## A recent Summit response
-
-A property manager overseeing a large Colonial in the Brayton School area called us after a clay lateral backed up during a heavy rain, sending sewage across roughly 400 square feet of finished basement — carpet, baseboards, and a built-in bar that had been in the house since the 1950s. We arrived, assessed the contamination category, established containment, and began extraction the same evening. The built-in was carefully disassembled, documented, and stored so a finish carpenter could restore it to match the original profile. The property manager had an insurance-ready loss report within 48 hours. This scenario is representative of the work we do in Summit — not every job, but a common one.
-
 If you're dealing with an active emergency or want to understand your options before a problem gets worse, call The Restoration Group at **(908) 970-8533**. We're available around the clock and can have a crew moving toward Summit while you're still on the phone.

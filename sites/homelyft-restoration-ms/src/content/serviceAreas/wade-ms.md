@@ -49,8 +49,4 @@ When a Gulf storm tracks north and strips shingles or pushes water through a sof
 
 HomeLyft Restoration MS operates out of Gulfport, roughly 25 to 30 miles south of Wade via US-49 North — a straightforward highway run that keeps drive time predictable outside of peak commute windows. The team covers Wade and the broader Harrison County corridor without subcontracting the field work. When you call (228) 284-5200, you will get scheduling information and a realistic arrival window based on current crew availability and your location within the service area.
 
-## A recent Wade response
-
-A property manager overseeing a small rental portfolio in the Wade area contacted HomeLyft after a tenant reported a musty smell and soft spots in the bathroom floor — classic signs of a slow supply-line leak that had been wicking into the subfloor for weeks. The crew arrived, pulled moisture readings across the floor system, confirmed active saturation extending under two adjacent rooms, and set up a drying system the same day. The property manager received daily moisture logs throughout the drying period, which the insurance carrier accepted without a supplemental inspection request. The subfloor was replaced and the bathroom restored to pre-loss condition within the agreed project timeline. This scenario is representative of the calls we receive from Wade-area property owners and managers — not every job looks the same, but the process does.
-
 If you are dealing with water, mold, fire, or storm damage at a Wade property, call HomeLyft Restoration MS at (228) 284-5200 to talk through what you are seeing and get a crew scheduled.

@@ -49,8 +49,4 @@ Once the damage is mitigated, we can handle the rebuild — drywall, flooring, c
 
 Our crews are based in Bakersfield, which means we are not adding a long drive to your emergency. Downtown Bakersfield (93301), Riverlakes Ranch (93314), and East Bakersfield (93306) are all routine service runs for us. We cover the full city footprint — from the Meadows Field Airport area in the north to the newer developments along the 93313 corridor in the south — and we operate 24 hours a day, seven days a week. When you call (661) 393-9306, you reach a live person who can dispatch a crew, not an answering service that logs a ticket for the morning.
 
-## A recent Bakersfield response
-
-A property manager overseeing a fourplex in the Oleander/Sunset area called us after a tenant reported water coming up through the bathroom floor late on a weeknight. Our crew arrived, confirmed a slab leak under the main supply line, extracted the standing water, and had drying equipment running before midnight. We coordinated directly with the owner's insurance adjuster the following morning, provided moisture logs and photographs, and completed the slab repair coordination and drywall replacement within the week — keeping two of the four units occupied throughout. *This scenario is representative of the calls we receive; details vary by property and situation.*
-
 If you are dealing with water, fire, or mold damage anywhere in Bakersfield, call ProRestoration Services at **(661) 393-9306**. We are available around the clock, we know this city's housing stock, and we will give you a straight assessment of what the damage involves and what it will take to fix it.

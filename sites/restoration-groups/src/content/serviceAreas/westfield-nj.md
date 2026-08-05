@@ -51,8 +51,4 @@ After a storm drops a limb through a roof near Tamaques Park or Mindowaskin Park
 
 The Restoration Group is headquartered in Kenilworth, roughly 4 miles northeast of Westfield via Boulevard or North Avenue. That proximity means we can reach Downtown Westfield, The Gardens, and Indian Forest quickly — and because we operate 24 hours a day, 7 days a week, a call at 2 a.m. after a sump alarm goes off reaches a live dispatcher, not a voicemail. Crews serving Manor Park and Brightwood travel the same short corridor. We carry the equipment load — truck-mounted extraction, desiccant and refrigerant dehumidifiers, air movers — to begin mitigation on arrival rather than making a preliminary visit.
 
-## A recent Westfield response
-
-A property manager overseeing a Tudor-style home in Wychwood contacted us after a slow leak behind a first-floor bathroom wall went undetected long enough to saturate the subfloor and reach the finished basement ceiling below. We arrived, performed a moisture survey of the wall cavity and floor assembly, set containment to protect the adjacent original hardwood, and began structural drying. The affected plaster and subfloor sections were removed, dried, and rebuilt to match the surrounding finish — the kind of meticulous scope this neighborhood expects. *(This scenario is representative of the work we do; it is not attributed to a specific named client.)*
-
 If you're dealing with water, fire, mold, or storm damage anywhere in Westfield's 07090 ZIP code, call The Restoration Group at **(908) 970-8533** — day or night. We'll assess the damage, explain your options clearly, and get mitigation started before the loss grows.

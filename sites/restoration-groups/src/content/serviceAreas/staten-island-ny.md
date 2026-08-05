@@ -53,8 +53,4 @@ Property managers overseeing retail, mixed-use, or multi-family buildings near t
 
 Our crews stage from a location with direct borough access, which means we are not crossing from Manhattan or routing through Brooklyn traffic to reach you. From our Kenilworth, NJ headquarters, the Goethals Bridge puts us on Staten Island's West Shore, and the Verrazzano-Narrows connects to the North Shore and neighborhoods like St. George near the Staten Island Ferry Terminal. Snug Harbor Cultural Center, Historic Richmond Town, and properties throughout ZIP codes 10301, 10312, and beyond are all within our regular service footprint. Because we operate 24/7, you can call at any hour and reach a live dispatcher who will route the nearest available crew.
 
-## A recent Staten Island response
-
-A property manager overseeing a six-unit building in New Dorp called us after a cast-iron drain stack failed on the second floor during a weekend, sending water through the floor assembly and into a first-floor unit below. By the time our crew arrived, standing water had reached the subfloor and the ceiling drywall below was sagging. We extracted the water, removed the compromised ceiling and flooring materials, set drying equipment across both units, and provided the manager with daily moisture readings and photographs to support the insurance claim. The structure was dry and cleared for reconstruction within four days.
-
 If you are dealing with water, fire, mold, or storm damage anywhere on Staten Island, call (855) 650-7422 now. The Restoration Group has been handling losses across the New York and New Jersey metro area since 2021, and our crews are available around the clock to respond when you need it most.

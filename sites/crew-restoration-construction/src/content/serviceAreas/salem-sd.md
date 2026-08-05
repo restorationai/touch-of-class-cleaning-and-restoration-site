@@ -49,8 +49,4 @@ Hail and straight-line winds along the I-90 corridor can strip roofing and sidin
 
 Crew Restoration & Construction is based in Sioux Falls, and Salem is a straightforward run west on I-90 — approximately 45 miles from our office to the 57058 ZIP code. We can reach the Downtown Salem area and the McCook County Fairgrounds area without navigating secondary county roads in most conditions. Winter travel on I-90 can add time during active blizzard warnings, and we will always communicate realistic arrival windows rather than overpromise. Call us at (605) 965-2727 to schedule a prompt response or to discuss the scope of an ongoing situation.
 
-## A recent Salem response
-
-A property manager overseeing a rental near the McCook County Courthouse called after a tenant reported water pooling in the basement following three days of heavy rain. By the time we arrived, standing water had reached the bottom two feet of drywall and soaked into the concrete block wall cavities. We extracted the water, removed the damaged drywall and insulation, and set drying equipment that ran for four days before moisture readings stabilized. The property manager received daily moisture logs to share with the insurance adjuster, and reconstruction was completed before the unit needed to be re-leased. This scenario is representative of the calls we receive from Salem-area property managers — your situation may differ, and we assess every loss individually.
-
 If you're dealing with water, fire, mold, or storm damage in Salem or anywhere in McCook County, call Crew Restoration & Construction at **(605) 965-2727**. We'll talk through what you're seeing, explain the next steps, and get a crew scheduled.

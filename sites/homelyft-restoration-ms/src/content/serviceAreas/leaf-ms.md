@@ -53,8 +53,4 @@ Once mitigation is complete, our reconstruction team handles drywall, flooring, 
 
 HomeLyft Restoration MS is headquartered in Gulfport, and Leaf is approximately 90 miles north via US-49 — a route our crews travel regularly to serve Jones County and the surrounding Piney Woods communities. Scheduling is handled during business hours; call (228) 284-5200 to reach our team and get a crew dispatched as quickly as our current schedule allows. For active water intrusion, earlier contact means less drying time and lower overall restoration costs, so don't wait to see if the problem resolves on its own.
 
-## A recent Leaf response
-
-A property manager overseeing a rental home in the Leaf area contacted HomeLyft after a tenant reported discolored ceilings and a musty smell that had developed over several weeks following a slow roof leak. By the time our team arrived, moisture readings in the attic sheathing and the bedroom ceiling cavity were well above the threshold for active mold growth. We contained the affected areas, removed compromised insulation and drywall, treated the structural framing, and coordinated with the property manager's insurance carrier on documentation. The home was cleared for re-occupancy within two weeks of our first site visit. This scenario is representative of the calls we receive — not a named client account.
-
 If your Leaf property has taken on water, smoke, or storm damage, the longer you wait the more material the loss typically becomes. Call HomeLyft Restoration MS at (228) 284-5200 during business hours to schedule an assessment and get a clear picture of what recovery looks like for your specific situation.

@@ -51,8 +51,4 @@ Flood Fixers holds a California contractor's license, so we can carry a job from
 
 Our crew deploys from a facility in San Diego, which puts most of the city within a 30-to-45-minute drive under normal conditions. Neighborhoods like Mission Hills, University Heights, and South Park are typically under 20 minutes. Reaching communities further out — Mira Mesa (92126), Rancho Bernardo, or Chula Vista — generally runs 35 to 55 minutes depending on I-15 and I-805 traffic. We answer the phone 24 hours a day, and a project manager calls back within 15 minutes of initial contact to confirm ETA and walk you through what to do — and what not to touch — before the crew arrives.
 
-## A recent San Diego response
-
-A property manager overseeing a six-unit building near Balboa Park called on a Sunday evening after a second-floor supply line failed and water had been running into the units below for roughly two hours. A Flood Fixers team was on-site within 40 minutes, extracted standing water from two units, and had drying equipment running before midnight. Moisture readings confirmed the water had reached the subfloor in one unit; targeted demolition the following morning prevented what would have been a significantly larger mold remediation scope. The claim was filed with the building's carrier that same evening using our on-site documentation.
-
 If you're dealing with water, fire, mold, or storm damage anywhere in San Diego, call Flood Fixers at **(855) 204-1124**. We'll tell you exactly how far out we are and what to expect — no hold music, no call centers.

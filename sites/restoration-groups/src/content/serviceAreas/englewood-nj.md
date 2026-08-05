@@ -55,8 +55,4 @@ Once the structure is dry and the hazards are cleared, we handle the rebuild: fr
 
 From our Kenilworth headquarters, Englewood is roughly 25 miles northeast — typically via the Garden State Parkway north to Route 4, or I-95 to the Palisades Parkway depending on traffic. Because we operate 24/7, we dispatch on your call regardless of the hour. Dense neighborhoods like Downtown and the Fourth Ward are straightforward to reach; East Hill's residential streets and the Englewood Cliffs border area are equally accessible. We'll confirm an estimated arrival window when you call (855) 650-7422.
 
-## A recent Englewood response
-
-A property manager overseeing a six-unit building in the Fourth Ward called after a second-floor supply line failed overnight and water had been running for several hours. By the time we arrived, the first-floor ceiling had partially collapsed and standing water had reached the building's electrical room. We extracted the standing water, removed the compromised ceiling assembly, set drying equipment across three affected units, and coordinated directly with the building's insurance carrier on documentation and scope — allowing the manager to focus on tenant communication rather than adjustor calls. This scenario is representative of the multi-unit losses we handle regularly in Englewood.
-
 If you're dealing with water, fire, mold, or structural damage anywhere in Englewood — from a finished basement on The East Hill to a storefront on Palisade Avenue — call The Restoration Group at **(855) 650-7422**. We're available around the clock, and we'll walk you through next steps before we even arrive on site.

@@ -49,8 +49,4 @@ After the drying and remediation work is complete, Flood Fixers can carry the pr
 
 From our San Diego headquarters, a Flood Fixers crew can reach most of La Mesa in 30 to 45 minutes under normal traffic conditions. The Village area and neighborhoods along Baltimore Drive are typically closer to the 30-minute mark. Areas in eastern La Mesa near ZIP code 91941 — including the hillside streets above Lake Murray — run closer to 40 to 50 minutes depending on the time of day and freeway conditions on the 8. We operate 24 hours a day, seven days a week, including holidays, because water doesn't wait for business hours.
 
-## A recent La Mesa response
-
-A property manager overseeing a fourplex near the La Mesa Village called Flood Fixers on a Sunday evening after a tenant reported water coming up through the bathroom floor. By the time the crew arrived — roughly 38 minutes after the call — standing water had spread into the hallway and was wicking into the baseboards of an adjacent unit. The team extracted the water, set drying equipment across both affected units, and had a full moisture report to the property manager's insurance adjuster by the following morning. The tenant was back in the unit within four days. This scenario is representative of the calls we receive; specific details vary by property.
-
 If you're dealing with water, fire, mold, or the aftermath of any of them, call Flood Fixers at (855) 204-1124. A live dispatcher answers around the clock, and a crew can be moving toward La Mesa within minutes of your call.

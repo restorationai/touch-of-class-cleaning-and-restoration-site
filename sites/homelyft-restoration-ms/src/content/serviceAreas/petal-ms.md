@@ -49,8 +49,4 @@ Once mitigation is complete, many property owners don't want to manage a separat
 
 Petal is roughly 75 miles northeast of our Gulfport headquarters via US-49 North — a route our crews travel regularly for Forrest County calls. Depending on traffic through Hattiesburg, drive time typically runs between 75 and 90 minutes. We schedule Petal jobs with that travel window in mind and communicate arrival estimates clearly when you call. For property managers overseeing multiple units across Petal, we can coordinate multi-stop assessments on the same dispatch to reduce scheduling friction.
 
-## A recent Petal response
-
-A property manager overseeing a rental home in Petal contacted us after a tenant reported discoloration along the base of several interior walls. What looked like a cosmetic issue turned out to be a slow leak from a corroded supply line inside the wall — one that had been wicking moisture into the bottom plate and subfloor for an estimated several weeks. We extracted standing water from the crawl space, set drying equipment, and documented the moisture readings daily for the insurance claim. The adjuster received a complete drying log and photo record, and the property was back in rentable condition within two weeks. This scenario is representative of the calls we receive from Petal landlords and homeowners; specific details will vary.
-
 If you're dealing with water, fire, smoke, or mold damage at a Petal property, call HomeLyft Restoration MS at (228) 284-5200. We'll walk through what you're seeing, give you an honest scope of what's involved, and get a crew scheduled.

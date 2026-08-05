@@ -49,8 +49,4 @@ After mitigation is complete, many D'Iberville homeowners need more than drying 
 
 From our Gulfport headquarters, D'Iberville is a straightforward run — typically east on I-10 or US-90, crossing into Harrison County and reaching the city in under 30 minutes under normal traffic conditions. We can reach properties near the Promenade retail area, neighborhoods along Sangani Boulevard, and residential streets closer to the Back Bay without the routing complications that affect more remote parts of the Coast. We schedule promptly and will give you an honest arrival window when you call — we don't make blanket minute-response promises, but D'Iberville is genuinely close and a priority part of our coverage map.
 
-## A recent D'Iberville response
-
-A property manager overseeing a small apartment complex in D'Iberville contacted us after a second-floor washing machine supply line failed overnight, saturating the subfloor and wicking into the ceiling of the unit below. By the time the call came in, both units had visible water damage and the downstairs tenant reported a musty smell already developing. We arrived, mapped moisture across both units with thermal imaging, extracted standing water, and had drying equipment running the same day. The property manager coordinated directly with the insurance adjuster using our photo documentation and moisture logs, which streamlined the claim and got the tenants back in their units faster than they expected.
-
 If you're facing a water, fire, mold, or storm loss in D'Iberville, call HomeLyft Restoration MS at (228) 284-5200. We'll walk you through what to expect before we arrive and keep you informed at every step of the process.

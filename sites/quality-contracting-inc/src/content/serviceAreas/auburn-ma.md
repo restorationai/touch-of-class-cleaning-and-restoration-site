@@ -49,8 +49,4 @@ Once mitigation is complete, many property owners prefer a single contractor to 
 
 Because Quality Contracting, Inc. operates out of Auburn, getting to any part of the city means short local drives — not highway runs from a distant metro office. Properties near the Auburn Mall area along Washington Street, homes in the residential streets off Pakachoag Hill, and addresses out toward the Millbury line are all within a few minutes of our base. Route 20 and Route 12 give us direct access across the city without navigating around Worcester's grid. We schedule promptly and will give you a realistic arrival window when you call — reach us at **(508) 756-8800**.
 
-## A recent Auburn response
-
-A property manager overseeing a multi-unit rental near the Route 20 corridor called after a washing machine supply line failed on the second floor overnight, saturating the subfloor and pushing water into the unit below. By the time the call came in, both units had wet drywall and the downstairs tenant reported a musty odor already developing. We arrived, extracted residual water, mapped moisture readings across both floors with a thermal camera, and had drying equipment running the same day. The property manager received a full photo-documented report to submit to the carrier, and both units were back to pre-loss condition within the week. *(Scenario is representative of the type of work we perform; details are illustrative.)*
-
 If you are dealing with water, smoke, mold, or structural damage at an Auburn property, the fastest next step is a phone call. Reach Quality Contracting, Inc. at **(508) 756-8800** to describe what you are seeing and get a clear picture of what comes next.

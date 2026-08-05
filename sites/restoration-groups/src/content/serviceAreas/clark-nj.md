@@ -53,8 +53,4 @@ Once mitigation is complete, the same team handles drywall, flooring, trim, and 
 
 The Restoration Group's Kenilworth headquarters sits roughly 3 miles from Clark's eastern border — a straight shot west on Central Avenue or south via Raritan Road. The Arthur L. Johnson High School area and the Raritan Road business district are typically reachable in under 10 minutes from dispatch. The Lake Avenue and Brant Lake neighborhoods, which sit closer to the Rahway River floodplain, add only a few minutes to that run. Because we operate 24 hours a day, seven days a week, there's no waiting for a morning callback — a crew can be en route the same hour you call, whether it's a Tuesday afternoon or a Saturday night during a nor'easter.
 
-## A recent Clark response
-
-A property manager overseeing a multi-unit building in the Robert Wood Johnson area called us on a Sunday evening after a water heater supply line failed and flooded two finished basement units. By the time our crew arrived, standing water had reached the base of the drywall on three walls. We extracted the water, removed the saturated flooring and lower drywall sections, set drying equipment, and had a full moisture log to the property manager's insurance adjuster by Monday morning — keeping the claim on track and the tenants informed throughout. *(Representative scenario; details reflect the types of calls we receive in Clark.)*
-
 If you're dealing with water, fire, mold, or sewage damage anywhere in Clark — from the Westfield Avenue corridor to the streets along the Rahway River — call The Restoration Group at (855) 650-7422. We're available around the clock and we can be there fast.

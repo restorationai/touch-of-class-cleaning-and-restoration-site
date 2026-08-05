@@ -51,8 +51,4 @@ For situations that require more than standard cleaning — sewage backups, trau
 
 Crew Restoration & Construction operates out of Sioux Falls, SD. Remsen is roughly 90 miles southeast via I-90 East and US-75 South — a straightforward drive through Sioux Falls' southern suburbs and into northwest Iowa. We can reach Downtown Remsen and the St. Mary's district directly from that corridor. Because our hours aren't listed as around-the-clock, we encourage Remsen property owners to call (605) 965-2727 to schedule promptly — the sooner drying equipment is running, the less secondary damage accumulates. For active water intrusion, every hour before extraction begins matters.
 
-## A recent Remsen response
-
-A property manager overseeing a rental home in the St. Mary's district contacted us after a tenant reported water pooling in the basement following a heavy spring rain — the sump pump had failed overnight and standing water had been sitting on the concrete floor for roughly 18 hours by the time we were called. This scenario is representative of what we see regularly in Remsen. We extracted the water, set drying equipment, identified that moisture had wicked into the base of the drywall along the east wall, and removed the affected section before mold had a chance to establish. The property manager received documentation for the insurance claim the same day.
-
 If you're dealing with water, fire, mold, or storm damage at a Remsen property, call Crew Restoration & Construction at **(605) 965-2727**. We'll assess what you're facing, walk you through the process, and get the work scheduled before the damage has more time to spread.

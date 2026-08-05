@@ -1,0 +1,17 @@
+{
+  "_readme": "REAL case studies only. Never write these with a model, and never publish a job the client has not confirmed. An entry appears on /service-areas/{area_slug}/ as 'Recent work in {City}'. Leave case_studies empty and the section simply does not render. Run scripts/case_studies_sync.py after editing. See docs/case-studies.md.",
+  "_consent": "case studies describe a real job; confirm the client is OK with it being public",
+  "_schema": {
+    "area_slug": "matches sites/{slug}/src/content/serviceAreas/{area_slug}.md (omit = company-wide)",
+    "service_slug": "optional; restricts the entry to one city x service page",
+    "title": "short, factual, no superlatives — e.g. 'Burst supply line, two-story rental'",
+    "summary": "2-4 sentences in plain language: what happened, what we did, outcome. Only facts the client confirmed.",
+    "performed_on": "YYYY-MM or YYYY-MM-DD",
+    "photos": [
+      "https://<supabase>/storage/v1/object/public/branding/{company_id}/case-studies/<file>"
+    ],
+    "published": "false keeps it staged but unrendered"
+  },
+  "slug": "prorestoration",
+  "case_studies": []
+}

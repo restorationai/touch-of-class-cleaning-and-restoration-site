@@ -43,8 +43,4 @@ The housing stock makes the damage worse than it looks on the surface. The colon
 
 Our Kenilworth headquarters sits roughly two miles from the Cranford border, with direct access via Route 28 westbound. Sunny Acres and Downtown Cranford are typically our first stops on a Cranford dispatch; Cranford West and Lincoln Park East add a few minutes along North Avenue or South Avenue. Because we operate 24/7, we can take calls and dispatch crews at any hour — a meaningful difference when a sump pump fails at 2 a.m. during a nor'easter and a finished basement is filling fast. Call us at (908) 970-8533 and we will tell you exactly where our nearest available crew is.
 
-## A recent Cranford response
-
-A property manager overseeing a rental colonial near the Rahway River Parkway called us the morning after Ida's remnants moved through in September 2021. The basement had taken on roughly three feet of standing water overnight, and the finished lower level — drywall, carpet, a dropped ceiling — was fully saturated. We arrived, pumped the standing water, removed the damaged materials, and set up a drying system across two days. Because the owner carried an NFIP policy, we prepared a detailed photo and moisture-log package that the adjuster used to process the claim. This scenario is representative of the calls we receive regularly from Cranford property owners after significant rain events.
-
 If your home or building in Cranford has been damaged by water, fire, mold, or a sewage backup, call The Restoration Group at **(908) 970-8533** — any time, day or night. We will walk you through the immediate steps, dispatch a crew, and handle the documentation your insurance carrier needs from the first hour on-site.

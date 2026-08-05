@@ -49,8 +49,4 @@ From sewage backups — common when Eagle Mountain's municipal lines see heavy i
 
 From our Saratoga Springs headquarters, a Home Pride crew can reach most Eagle Mountain addresses in 20 to 35 minutes under normal traffic conditions. The drive west on Redwood Road and north on Eagle Mountain Boulevard puts us at the city's core quickly; neighborhoods farther out on the city's western edge typically see us within 45 minutes. We run 24-hour dispatch at (801) 995-2437 — nights, weekends, and holidays included — because a Category 2 water loss doesn't wait for Monday morning.
 
-## A recent Eagle Mountain response
-
-A property manager overseeing a rental home called us on a Saturday evening after a tenant reported water coming up through the laminate flooring in the main living area. A supply line to the refrigerator had been leaking inside the wall cavity for an estimated three to four days. We were on-site within 30 minutes, extracted standing water, opened the wall to expose saturated insulation and framing, and had drying equipment running before midnight. Moisture readings were back to baseline within four days, and we submitted the full photo and data package directly to the homeowner's insurance carrier. The tenant was back in a fully restored home within two weeks. This scenario is representative of the calls we receive regularly — not attributed to any specific individual.
-
 If something has gone wrong in your Eagle Mountain home or property, call Home Pride Restoration and Cleaning at **(801) 995-2437**. We'll tell you exactly what we're seeing, what needs to happen, and how long it will take — before any work begins.

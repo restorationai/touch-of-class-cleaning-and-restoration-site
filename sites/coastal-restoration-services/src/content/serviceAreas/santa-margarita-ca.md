@@ -51,8 +51,4 @@ Once the hazard is resolved and materials are dry and clean, we handle the rebui
 
 Coastal Restoration Services Inc is based in Vandenberg Village, roughly 45 miles west of Santa Margarita via US-101 North to CA-58 East. That route runs through Santa Maria and Nipomo before climbing into the Cuyama Valley foothills — drive times vary with traffic and conditions on 101 through the Santa Maria corridor, but Santa Margarita is a regular part of our San Luis Obispo County service area. Call (805) 345-7440 and we'll give you an honest arrival estimate based on current conditions and crew availability. We schedule promptly and will tell you upfront if a same-day response is possible.
 
-## A recent Santa Margarita response
-
-A property manager overseeing a rental on the rural outskirts of Santa Margarita contacted us after a tenant reported discolored water stains spreading across the living room ceiling following a week of heavy January rain. By the time we arrived, the ceiling drywall had begun to sag and moisture readings in the attic framing were significantly elevated. We extracted standing water from the attic space, removed the saturated insulation and ceiling drywall, set drying equipment, and coordinated directly with the owner's insurance adjuster throughout the documentation process. The property was dried, tested, and ready for reconstruction within the carrier's approved scope — the tenant was back in the unit within two weeks.
-
 If you're dealing with water, fire, smoke, or mold damage in Santa Margarita, call Coastal Restoration Services Inc at **(805) 345-7440**. We'll assess the situation, walk you through the process, and get a crew scheduled.

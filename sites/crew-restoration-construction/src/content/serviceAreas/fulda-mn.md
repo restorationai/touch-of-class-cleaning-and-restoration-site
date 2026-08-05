@@ -49,8 +49,4 @@ Once mitigation is complete, most properties need some level of rebuild — dryw
 
 Crew Restoration & Construction is based in Sioux Falls, SD, roughly 90 miles northwest of Fulda via US-18 East and MN-60. That route runs through open prairie and is generally reliable year-round, though winter conditions on US-18 can add time during blizzard season — something we account for when scheduling. We serve all of Fulda's neighborhoods, including Downtown Fulda and the Lakeside Fulda area along the shoreline. When you call (605) 965-2727, we'll give you an honest estimate of when a crew can be on-site based on current conditions and workload.
 
-## A recent Fulda response
-
-A property manager overseeing a rental home in the Lakeside Fulda area contacted us after a tenant reported water pooling in the basement following several days of heavy spring rain. By the time we arrived, the water had reached the base of the finished drywall on two walls and soaked into the carpet pad. We extracted the standing water, removed the affected drywall and flooring to the extent necessary to expose the framing, and set up a drying system that ran for several days. We documented the moisture readings throughout the process and worked directly with the property owner's insurance carrier to submit the claim. *(This scenario is representative of the work we do in Fulda; it is not attributed to a specific individual.)*
-
 If your Fulda property has been affected by water, fire, mold, or storm damage, call Crew Restoration & Construction at **(605) 965-2727**. We'll talk through what you're dealing with, explain what the process looks like, and get a crew scheduled.

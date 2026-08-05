@@ -49,8 +49,4 @@ Hail damage to roofing and siding is a near-annual event for many Brookings prop
 
 Brookings is roughly 55 miles north of our Sioux Falls headquarters via I-29 — typically about an hour's drive under normal road conditions. We serve all of Brookings's ZIP codes, including 57006, and reach every part of the city: the neighborhoods around McCrory Gardens, the rental corridors near Children's Museum of South Dakota and the SDSU campus, and the residential streets of the Sexauer Park area. We schedule promptly and keep property owners updated on arrival windows. Call (605) 965-2727 to get on the schedule.
 
-## A recent Brookings response
-
-A property manager overseeing several rental units near the SDSU campus called us after a second-floor bathroom supply line failed overnight and pushed water through the subfloor into the unit below. Both units were occupied. We coordinated directly with the property manager on access, extracted the standing water, set drying equipment across both floors, and provided daily moisture logs for the insurance adjuster. The units were dried to standard and ready for reconstruction scoping within the week. This scenario is representative of the calls we regularly handle for Brookings rental properties — the details vary, but the need for fast, documented response doesn't.
-
 If you're dealing with damage in Brookings right now — or trying to get ahead of a problem you suspect is worse than it looks — call Crew Restoration & Construction at **(605) 965-2727**. We'll tell you honestly what we're seeing and what it takes to fix it.

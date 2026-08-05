@@ -51,10 +51,4 @@ After mitigation is complete, many Maplewood properties need carpentry, drywall,
 
 Our headquarters is in Kenilworth, NJ, roughly six miles from Maplewood Village. The most direct route runs west on Route 22 to Springfield Avenue, which feeds directly into the heart of Maplewood. During normal traffic conditions that's a straightforward drive; we dispatch around the clock so middle-of-the-night calls avoid the Route 22 congestion that can slow daytime response. Crews can reach neighborhoods across the 07040 ZIP code — from the streets closest to South Mountain Reservation down to the lower-lying blocks near the Rahway River floodplain — without navigating through multiple townships.
 
-## A recent Maplewood response
-
-A property manager overseeing a rental colonial in the Tuscan neighborhood called us on a Sunday morning after the tenant reported water coming up through the basement floor drain following an overnight storm. By the time our crew arrived, approximately two inches of standing water covered the finished basement floor. We extracted the water, pulled the saturated carpet and pad, set drying equipment, and had moisture readings documented within the first few hours of arrival. The property manager received a full photo log and scope of loss the same day to submit to the insurance carrier. *(This scenario is representative of the types of calls we receive in Maplewood; it is not attributed to a specific named client.)*
-
----
-
 If you're dealing with water, fire, mold, or storm damage anywhere in Maplewood — whether it's a single-family home in Jefferson, a commercial property near the Maplewood Village shopping district, or anything in between — call The Restoration Group at **(855) 650-7422**. We answer every hour of every day and can walk you through next steps before a crew even arrives.

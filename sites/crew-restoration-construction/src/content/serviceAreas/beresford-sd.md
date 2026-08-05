@@ -45,8 +45,4 @@ Once mitigation is complete, we handle the rebuild — drywall, flooring, cabine
 
 Beresford is approximately 25 miles south of our Sioux Falls headquarters via I-29 South to Exit 47. That's a straightforward drive with no significant routing complications in normal conditions. We dispatch from Sioux Falls and can reach most Beresford addresses — including properties in East Beresford and the streets surrounding Downtown Beresford — with prompt scheduling. Call us at (605) 965-2727 to confirm current availability and get a crew on the schedule.
 
-## A recent Beresford response
-
-A property manager overseeing a rental home near Downtown Beresford contacted us after a tenant reported water pooling in the basement following three consecutive days of heavy rain. When our crew arrived, we found that the window well drain had failed and water had been wicking into the lower section of the finished wall for longer than the tenant realized — the drywall behind a storage shelf showed early-stage mold growth that wasn't visible from the room. We extracted the standing water, removed the compromised drywall, set drying equipment, and provided the property manager with a full moisture log and photo documentation for the insurance claim. This scenario is representative of the calls we receive; specific details will vary.
-
 If your Beresford property has taken on water, smoke, or any damage that's getting worse by the hour, the right move is a phone call — not a wait-and-see approach. Reach Crew Restoration & Construction at **(605) 965-2727** and tell us what you're dealing with.

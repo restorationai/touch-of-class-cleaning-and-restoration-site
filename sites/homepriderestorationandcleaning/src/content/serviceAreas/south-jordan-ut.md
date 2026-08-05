@@ -49,8 +49,4 @@ Property managers overseeing rental units near the South Jordan Towne Center and
 
 From our Saratoga Springs headquarters, South Jordan is roughly 12 to 18 minutes via Redwood Road or Bangerter Highway under normal traffic conditions. We target on-site arrival within 45 to 60 minutes of your call for active water emergencies anywhere in the 84009 and 84095 ZIP codes — including Daybreak, the Bingham Creek corridor, and neighborhoods along 10400 South and South Jordan Parkway. For evening and weekend calls, our dispatch line — (801) 995-2437 — connects directly to an on-call technician, not an answering service.
 
-## A recent South Jordan response
-
-A property manager overseeing a rental home near the South Jordan Parkway corridor called us on a Tuesday evening after a tenant reported water coming through the first-floor ceiling. By the time our crew arrived — 52 minutes after the initial call — the upstairs bathroom supply line had been leaking inside the wall for an estimated 18 to 24 hours. Thermal imaging showed moisture had tracked laterally across 340 square feet of subfloor and into two adjacent bedroom walls. We opened the affected cavities that night, established drying equipment, and had a written moisture log ready for the property manager's insurance adjuster by the following morning. *(This scenario is representative of the type of calls we receive in South Jordan. It is not attributed to a specific named individual.)*
-
 If you're dealing with water, fire, mold, or a biohazard situation in South Jordan right now, call (801) 995-2437. We'll tell you exactly what to do in the next 10 minutes while a crew heads your way.

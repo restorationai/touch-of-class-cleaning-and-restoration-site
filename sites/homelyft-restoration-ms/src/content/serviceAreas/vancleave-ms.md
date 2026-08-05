@@ -49,8 +49,4 @@ When a storm peels back roofing or sends a tree through a wall, the priority is 
 
 HomeLyft Restoration MS is based in Gulfport, and Vancleave is a straightforward run up Highway 49 to Highway 57 — roughly 35 to 40 miles depending on the exact location of the property. Properties along the Highway 57 corridor are the most direct from our HQ. Homes further east toward the Escatawpa area or north toward the Agricola community add some drive time, but remain well within our regular service area. When you call, we'll give you an honest arrival estimate based on current crew location and conditions — not a number we can't stand behind.
 
-## A recent Vancleave response
-
-A property manager overseeing a rental home in a wooded area off Highway 57 contacted HomeLyft after a tenant reported discolored ceiling tiles and a persistent musty odor following several weeks of heavy rain. When our crew arrived, moisture readings confirmed active saturation in the attic framing and the top plates of two exterior walls — the result of a slow flashing failure that had gone undetected through the wet season. We contained the affected areas, removed the damaged insulation and drywall, dried the framing to target moisture levels, and provided full photo documentation for the property owner's insurance claim. The scenario above is representative of the calls we receive from Vancleave — not attributed to a specific named individual.
-
 If you're dealing with water, mold, fire, or storm damage at a Vancleave property, call HomeLyft Restoration MS at (228) 284-5200. We'll tell you exactly what we're looking at and what it takes to fix it.

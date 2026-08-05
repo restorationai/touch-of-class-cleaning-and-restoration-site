@@ -47,8 +47,4 @@ Fine wool rugs, silk area rugs, and custom upholstered furniture are common thro
 
 Our Honolulu headquarters puts Kahala close — typically a straight shot via Kalanianaole Highway or H-1 east to the Waialae Avenue exit, depending on time of day. Kahala Avenue corridor properties, homes in Waialae Iki above the ridge, and estates near the Waialae Country Club are all within our primary service area. Because we operate 24 hours a day, seven days a week, you can call (808) 349-3407 at any hour and reach someone who can dispatch equipment — not an answering service.
 
-## A recent Kahala response
-
-A property manager overseeing an executive rental on the Kahala Avenue corridor contacted us after a tenant reported a musty smell that had developed over several weeks. When our crew arrived, thermal imaging revealed a pressurized supply line had been weeping inside a slab chase beneath the primary bathroom — moisture had tracked nearly eighteen feet into the adjacent bedroom. We isolated the source, extracted moisture from the affected flooring assembly, set a drying system, and provided daily documentation the property manager forwarded directly to the building's HOA. The scenario above is representative of the calls we receive from Kahala; names and specific addresses are kept confidential.
-
 If you're managing a property in Kahala or dealing with damage right now, call (808) 349-3407. We answer around the clock and can have a crew moving toward the 96816 ZIP code the same day you call.

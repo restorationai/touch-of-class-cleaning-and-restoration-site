@@ -49,8 +49,4 @@ Restoration work often ends with a gut-renovated room that needs to be rebuilt �
 
 Garretson is approximately 25 miles east of our Sioux Falls headquarters, a straightforward run east on I-90 to Exit 406. From there, we're into Downtown Garretson in minutes. The Palisades area — closer to Palisades State Park on the north end of town — adds a short distance on SD-11, but it's a route we know well. For property managers overseeing rental units near Split Rock Creek, we can coordinate scheduling around tenant access and keep you updated throughout the job. Call us at (605) 965-2727 to discuss timing and get a crew scheduled.
 
-## A recent Garretson response
-
-A property manager overseeing a rental home near Downtown Garretson contacted us after a tenant reported water coming up through the basement floor following several days of heavy rain and saturated ground. By the time we arrived, there was standing water across roughly 400 square feet of unfinished basement. We extracted the water, identified that moisture had wicked into the base of the framing walls, set drying equipment, and returned over the following days to verify readings before clearing the space. The manager had documentation in hand for the insurance adjuster before the drying phase was complete. This scenario is representative of the calls we receive — your situation will have its own details, and we'll assess it accordingly.
-
 If you're dealing with damage at a Garretson property right now, call (605) 965-2727. We'll talk through what you're seeing, tell you what to expect from the process, and get a crew scheduled.

@@ -51,8 +51,4 @@ Once mitigation is complete and the structure is dry and cleared, our reconstruc
 
 Coastal Restoration Services Inc operates out of Vandenberg Village, roughly 45 miles southwest of Atascadero via US-101 North. Under normal traffic conditions on 101, our crew can reach Atascadero — whether that's a property near the Sunken Gardens civic center, a home off Santa Rosa Road, or a commercial building along Traffic Way — without the extended delays that affect contractors coming from Los Angeles or the Bay Area. Call (805) 345-7440 during business hours to schedule an assessment; we will confirm an arrival window at the time of booking.
 
-## A recent Atascadero response
-
-A property manager overseeing a small multi-unit building near the intersection of El Camino Real and Rosario Avenue called after a second-floor bathroom supply line failed over a holiday weekend. By the time the tenant noticed, water had traveled through the subfloor into the unit below, saturating drywall and the ceiling cavity. Coastal Restoration Services Inc arrived, extracted standing water, set containment, and placed drying equipment across both units. Moisture readings were logged twice daily, and the structure reached target drywall moisture levels within four days — ahead of the insurance adjuster's scheduled inspection. *(Scenario is representative of the type of work we perform; details are not attributed to a specific client.)*
-
 If you are dealing with water, fire, or mold damage at an Atascadero property, call (805) 345-7440. We will walk through what you are seeing, explain the next steps, and get a crew scheduled.

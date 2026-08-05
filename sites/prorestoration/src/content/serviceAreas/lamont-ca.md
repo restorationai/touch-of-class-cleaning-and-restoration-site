@@ -51,8 +51,4 @@ Our Bakersfield headquarters is roughly ten miles northwest of Lamont via Highwa
 
 Property managers overseeing multiple Lamont rentals can reach us directly at **(661) 393-9306** to set up a standing contact relationship so there's no delay finding the right number when something goes wrong at a tenant's unit.
 
-## A recent Lamont response
-
-A property manager responsible for a small block of rentals near the Main Street corridor called us after a slow slab leak went undetected long enough to saturate the subfloor and push moisture into the lower wall cavities of two adjacent units. By the time the damage was visible — buckled vinyl flooring and a musty smell tenants had been reporting for weeks — mold had begun establishing in the wall framing. We extracted the damaged flooring, dried the slab, removed and replaced the affected drywall sections, and provided the documentation the property owner needed to file with their insurance carrier. *(This scenario is representative of the type of work we handle in Lamont; it is not attributed to a specific named client.)*
-
 If you're dealing with water intrusion, smoke damage, or a mold concern anywhere in Lamont, call ProRestoration Services at **(661) 393-9306**. We're available 24/7, we know the drive, and we'll give you a straight answer about what the damage involves and what it will take to fix it.

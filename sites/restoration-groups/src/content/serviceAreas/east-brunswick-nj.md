@@ -55,8 +55,4 @@ Once mitigation is complete, the same crew that dried your home can rebuild it �
 
 From our Kenilworth headquarters, East Brunswick is roughly 25 miles via the Garden State Parkway south to Route 9 or via Route 1 through Metuchen — a straightforward run that keeps us well within Middlesex County reach. Because we operate 24/7, a call at 2 a.m. from a property manager in the Village of the Golden Triangle or a homeowner off Old Bridge Turnpike gets the same dispatch response as a mid-afternoon call. We will give you an honest estimated arrival window when you call (855) 650-7422 — conditions on the Parkway and Route 18 vary, and we do not quote arrival times we cannot stand behind.
 
-## A recent East Brunswick response
-
-A property manager overseeing a townhome cluster near Tanglewood called us after a second-floor washing-machine supply hose failed overnight and water had been running into the finished first floor and the unit below for several hours by the time a resident noticed. We arrived, extracted standing water from both units, set drying equipment across the shared floor-ceiling assembly, and coordinated directly with the HOA's commercial carrier — producing the moisture-log documentation the adjuster needed to approve the full scope within 48 hours. This scenario is representative of the multi-unit losses we handle regularly in East Brunswick's condo and townhome communities.
-
 If you are dealing with a water, fire, mold, or structural loss anywhere in East Brunswick — from a ranch off Frost Woods to a commercial bay near the Ireland Brook Conservation Area — call The Restoration Group at **(855) 650-7422**. We answer every hour of every day and can walk you through next steps before we even arrive on site.

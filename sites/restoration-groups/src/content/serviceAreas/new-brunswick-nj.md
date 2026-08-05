@@ -51,8 +51,4 @@ For property managers overseeing commercial buildings near Robert Wood Johnson U
 
 The Restoration Group's Kenilworth headquarters sits roughly 15 miles northeast of New Brunswick via the Garden State Parkway to Route 1, or through US-9 depending on traffic. We reach Downtown, Edgebrook, and Robeson Village on a consistent basis and serve the Highland Park border neighborhoods along the northeastern edge of the city. Because we operate 24/7, a call at any hour connects you directly to a dispatcher who can have a crew moving toward your address — whether that's a Rutgers Village apartment building in 08901 or a commercial property in 08903.
 
-## A recent New Brunswick response
-
-A property manager overseeing a multifamily building near the Highland Park border called us after a second-floor bathroom supply line failed overnight and water migrated through the subfloor into a first-floor unit below. By the time the manager arrived in the morning, ceiling drywall in the lower unit had begun to sag. We arrived, extracted standing water, used thermal imaging to trace moisture into the wall cavities on both floors, and set drying equipment across both units simultaneously — coordinating access with two separate tenants and providing the documentation the property's insurance carrier needed to open the claim. This scenario is representative of the calls we receive regularly in New Brunswick multifamily properties.
-
 If you're dealing with a loss in New Brunswick right now, call The Restoration Group at **(855) 650-7422**. We're available around the clock, and a real person will answer.

@@ -51,8 +51,4 @@ Because we handle both restoration and construction, there's no handoff gap betw
 
 Parker is roughly 35 miles southwest of our Sioux Falls headquarters, a straightforward drive south on I-29 to the Parker exit. Under normal road conditions, our crew can be loaded and moving toward Turner County Courthouse-area properties or neighborhoods near Downtown Parker promptly after a call is received. We schedule service calls during our business hours — call (605) 965-2727 to reach us directly. For properties near the Turner County Fairgrounds area on the south end of town, routing is equally direct with no significant detours. We serve the 57053 ZIP code and surrounding Turner County addresses.
 
-## A recent Parker response
-
-A property manager overseeing a rental home near Downtown Parker called after a tenant reported water pooling on the basement floor following two consecutive days of heavy rain. By the time we arrived, the water had wicked several inches up the drywall along the south foundation wall and begun to soften the subfloor at the base of the stairs. We extracted the standing water, removed the damaged drywall and insulation to the stud line, and set a drying system that ran for four days before readings confirmed the framing was dry. The property manager coordinated directly with the insurance adjuster using our photo documentation, and the basement was rebuilt and re-rented within three weeks. *(Representative scenario — not attributed to a specific individual.)*
-
 If you're dealing with water, fire, mold, or storm damage at a Parker property, call Crew Restoration & Construction at **(605) 965-2727**. We'll walk you through what we're seeing, what needs to happen first, and how the insurance process works — before any work begins.

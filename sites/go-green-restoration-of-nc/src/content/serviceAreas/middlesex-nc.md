@@ -53,8 +53,4 @@ We handle sewage backups, post-trauma cleanup, and other biohazard situations th
 
 Because Go Agree Restoration of NC is headquartered in Middlesex itself, response to properties in the 27557 ZIP code is as direct as it gets — no highway time from a distant metro, no dispatch relay. For properties in surrounding ZIP codes, our team travels local routes rather than routing through Raleigh. We schedule promptly and aim to have someone on-site the same day for active water or fire situations during our business hours. Property managers overseeing rental portfolios in the area can reach us directly at (919) 906-5473 to discuss priority scheduling.
 
-## A recent Middlesex response
-
-A property manager overseeing a single-family rental in the 27557 area called after a tenant reported a musty smell that had developed over several weeks following a slow leak under the kitchen sink. By the time we arrived, moisture readings in the adjacent cabinet wall and subfloor were well above acceptable thresholds and early mold colonization was visible on the back of the base cabinet. We documented the damage with photos and moisture logs for the insurance carrier, removed the affected materials under containment, dried the structural cavity, and completed the repair so the unit could be re-occupied on schedule. The property manager noted the insurance documentation package made the adjuster review straightforward. *(Scenario is representative of the type of work we handle; details are not attributed to a specific named client.)*
-
 If you are dealing with water, fire, mold, or storm damage at a Middlesex property, call Go Agree Restoration of NC at **(919) 906-5473**. We are local, we know this area, and we can walk you through next steps without the runaround.

@@ -53,8 +53,4 @@ Once mitigation is complete, we can handle the rebuild — drywall, flooring, ca
 
 Home Pride Restoration and Cleaning is headquartered in Saratoga Springs, roughly 15 minutes from most Herriman addresses under normal traffic conditions. For most calls, a technician is on-site within 60 to 90 minutes of your call — often faster for addresses in the northern Herriman corridor near Bangerter Highway. We maintain 24/7 dispatch, so a 2 a.m. pipe burst gets the same response as a weekday afternoon call. Our crews are familiar with the road grid throughout Herriman and can reach addresses across the city without the navigation delays that affect contractors coming from Salt Lake City proper.
 
-## A recent Herriman response
-
-A property manager overseeing a rental home in a newer Herriman subdivision called us on a Sunday evening after a tenant reported water pooling across the main floor. A water heater supply line had failed sometime that morning, and by the time anyone noticed, the engineered hardwood throughout the open-plan living and kitchen area had already begun to buckle. Our crew arrived within 75 minutes, extracted the standing water, pulled the affected flooring sections, and had three industrial dehumidifiers running before midnight. Moisture readings were within normal range by day four, and the rebuild was complete before the end of the following week. *(Representative scenario — not attributed to a specific individual.)*
-
 If you're dealing with damage right now — or want to talk through what you're seeing before committing to anything — call (801) 995-2437. Home Pride Restoration and Cleaning has been doing this work since 1997, and we'll give you a straight answer about what needs to happen next.

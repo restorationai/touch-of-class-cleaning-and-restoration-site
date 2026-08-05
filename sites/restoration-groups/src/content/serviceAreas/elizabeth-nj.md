@@ -57,8 +57,4 @@ For property managers overseeing multi-unit buildings in Westminster or North El
 
 From our Kenilworth headquarters, Elizabeth is a straightforward run — typically via the Garden State Parkway to Route 1/9, or through Roselle and Linden depending on traffic. Elmora and Midtown are usually our first stops off the highway; Elizabethport and Bayway require a few more minutes through the city grid. We operate 24/7, so there is no after-hours surcharge for dispatching at night, and no call goes to voicemail — a live team member answers at (908) 970-8533 at any hour.
 
-## A recent Elizabeth response
-
-A property manager overseeing a three-family home in Peterstown called after a second-floor supply line failed overnight and water ran through the floor into the first-floor unit. By the time she reached the building, both kitchens and a shared stairwell were saturated. We arrived, set containment between the two units to keep the scope separate for each tenant's insurance claim, extracted standing water, and had structural drying equipment running before noon. The drying log we provided gave both carriers exactly what they needed to process the claims without a back-and-forth over what was wet and when.
-
 If you're dealing with water, fire, mold, or sewage damage anywhere in Elizabeth — from a basement in Bayway to a commercial space near Jersey Gardens — call The Restoration Group at (908) 970-8533. We answer around the clock and can have a crew moving toward you the same day.

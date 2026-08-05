@@ -47,8 +47,4 @@ After any major loss — fire, flood, or storm — the mitigation work is only h
 
 Quality Contracting, Inc. is based in Auburn, and Sutton is a direct run south on Route 146 — roughly 10 to 12 miles depending on the neighborhood. Manchaug and Wilkinsonville in the southern part of town are a few minutes farther than Sutton Center or South Sutton, but all of Sutton falls well within our regular service area. Call us at (508) 756-8800 during business hours and we'll get a crew scheduled and moving toward your property promptly.
 
-## A recent Sutton response
-
-A property owner in Wilkinsonville called after discovering standing water in the basement of a 1920s mill-era rental — a sump pump had failed overnight during a spring storm, and roughly two inches of water had covered the concrete floor and wicked into the base of the wood-framed walls. We arrived, extracted the water, removed the saturated lower sections of drywall to expose the framing for drying, and set dehumidifiers and air movers. Moisture readings were back in acceptable range within four days, and we patched and painted before the tenant returned. This scenario is representative of the calls we receive in older Sutton neighborhoods each spring.
-
 If your Sutton property has been affected by water, fire, smoke, or mold, call Quality Contracting, Inc. at **(508) 756-8800**. We'll assess the damage, walk you through the process, and work directly with your insurance carrier to document the loss and move the claim forward.

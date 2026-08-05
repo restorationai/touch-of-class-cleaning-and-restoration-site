@@ -49,8 +49,4 @@ Once mitigation is complete, many Sioux Center property owners need more than dr
 
 Crew Restoration & Construction is headquartered in Sioux Falls, SD, roughly 90 miles northeast of Sioux Center via I-90 West and US-75 South — a drive that typically runs just under two hours depending on conditions. We schedule Sioux Center calls with that travel time in mind and will give you a realistic arrival window when you call. For properties in Downtown Sioux Center, the Children's Park area, or anywhere in the 51250 ZIP code, call **(605) 965-2727** and our team will confirm scheduling and get a crew dispatched.
 
-## A recent Sioux Center response
-
-A property manager overseeing several rental units near Dordt University contacted us after a tenant reported a musty smell that had persisted through two months of winter. When our crew arrived, we found a slow leak at a supply line fitting inside a bathroom wall — the cavity had been wet long enough for mold to colonize the backside of the drywall and part of the adjacent framing. We contained the affected area, removed the damaged materials, dried the framing to acceptable moisture content, and completed the drywall repair so the unit could be re-rented. The property manager coordinated the insurance claim with our documentation, which covered the majority of the remediation cost. *(This scenario is representative of the type of work we do in Sioux Center. Real testimonials will appear here as we collect them.)*
-
 If you're dealing with water, fire, mold, or storm damage anywhere in Sioux Center, call Crew Restoration & Construction at **(605) 965-2727**. We'll talk through what you're seeing, give you an honest assessment of next steps, and get a crew scheduled.

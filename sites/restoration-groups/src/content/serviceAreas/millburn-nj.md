@@ -51,8 +51,4 @@ Once mitigation is complete, we handle the build-back: framing, drywall, floorin
 
 The Restoration Group is headquartered in Kenilworth, NJ, roughly seven miles from Millburn Center via Route 22 East to Springfield Avenue, or via the Garden State Parkway to Exit 140. Short Hills and Old Short Hills are reachable by continuing south on Millburn Avenue from the train station. Because we operate 24/7, a crew can be dispatched at any hour — whether the call comes from a property manager near Paper Mill Playhouse or a homeowner in Glenwood whose sump pump failed overnight. We do not publish a guaranteed on-site minute window, but Millburn is among the closest service areas to our Kenilworth base.
 
-## A recent Millburn response
-
-A property manager overseeing a multi-unit building near the Millburn train station called after a supply line failure on an upper floor sent water through two finished units below. By the time our crew arrived, the hardwood floors in both units had begun to cup and one ceiling had partially collapsed. We extracted standing water, set drying equipment across all three affected floors, and provided the carrier with a same-day scope of loss. Reconstruction on both units was completed within three weeks. This scenario is representative of the calls we receive from Millburn property managers — it is not attributed to a specific named individual.
-
 If you are dealing with a water, fire, mold, or structural emergency in Millburn or Short Hills, call The Restoration Group at **(855) 650-7422**. We answer around the clock, and we will tell you honestly within the first conversation what the job involves and how long it will take.

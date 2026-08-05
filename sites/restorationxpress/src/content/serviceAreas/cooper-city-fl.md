@@ -47,8 +47,4 @@ After mitigation is complete, we handle the rebuild — drywall, flooring, cabin
 
 RestorationXpress operates out of Davie, FL, which sits directly adjacent to Cooper City's eastern boundary. From our Davie location, the drive to Rock Creek or the neighborhoods near Brian Piccolo Park typically runs under 10 minutes via Griffin Road or Stirling Road — no highway required. Embassy Lakes and the areas near Cooper City Sports Complex and Bill Lips Park are similarly close. That proximity matters when a water loss is active: the sooner extraction equipment arrives, the less flooring and drywall ends up in a dumpster. Call us at (954) 964-6471 to confirm scheduling and current availability.
 
-## A recent Cooper City response
-
-A property manager overseeing a cluster of townhomes near Embassy Lakes contacted us after a second-floor washing machine supply hose failed over a weekend, sending water through the subfloor and into the unit below. Both units were occupied. We arrived, extracted standing water from both levels, set containment to protect the downstairs tenant's belongings, and had drying equipment running the same day. The property manager received a full moisture log and photo documentation to submit to the HOA's insurance carrier — a process that helped avoid a dispute over the scope of damage. This scenario is representative of the calls we receive from Cooper City property managers; details vary by situation.
-
 If you're dealing with water, mold, fire, or storm damage anywhere in Cooper City, call RestorationXpress at **(954) 964-6471**. We'll assess the situation, explain the process plainly, and get the right equipment to your property without unnecessary delay.

@@ -50,10 +50,4 @@ Once mitigation is complete, our in-house reconstruction crews handle drywall, f
 
 The Restoration Group operates out of Kenilworth, NJ, roughly 15 miles from Bayonne via the New Jersey Turnpike and Route 1&9. Because we run 24/7, a crew can be dispatched at any hour — reaching Bergen Point, Downtown Bayonne, or the Stephen R. Gregg Park corridor without the delay of waiting for business hours. Traffic on the Turnpike and the approach through Bayonne's grid can vary, but our dispatch team tracks conditions in real time and routes accordingly. The Bayonne Bridge approach and the Cape Liberty Cruise Port area near Constable Hook are familiar territory for our crews.
 
-## A recent Bayonne response
-
-A property manager overseeing a three-unit frame home in Midtown called us after a second-floor tenant reported water dripping through a kitchen ceiling on a Sunday evening. By the time our crew arrived, the source — a corroded supply stub-out behind the bathroom vanity above — had been leaking slowly for what appeared to be several days. We extracted water from the bathroom floor and the ceiling cavity below, set drying equipment across both units, and identified early-stage mold growth on the subfloor sheathing before it could spread further. The manager had a full moisture log and photo documentation in hand for the insurance adjuster by the following morning. *(Scenario is representative of the type of work we perform in Bayonne; not attributed to a specific individual.)*
-
----
-
 If you are dealing with a water, fire, mold, or storm loss anywhere in Bayonne — from the 07002 waterfront blocks to the residential streets of Uptown — call The Restoration Group at **(855) 650-7422**. We answer around the clock and can begin the documentation and mitigation process before the damage has time to deepen.

@@ -49,8 +49,4 @@ Hail and wind events near the Redstone Arsenal gate area and across South Huntsv
 
 Our shop is in Madison, AL — roughly 10 to 15 minutes from most Huntsville neighborhoods under normal traffic. A technician can be on-site in Downtown Huntsville or Five Points in under 20 minutes from dispatch. Hampton Cove and Monte Sano run 25 to 35 minutes depending on the time of day. For the majority of Huntsville service calls, expect a crew on your property within 60 minutes of your call. Severe weather events that generate multiple simultaneous calls may extend that window, but we triage by active water intrusion and structural risk first.
 
-## A recent Huntsville response
-
-A property manager overseeing a multi-unit building in the 35801 ZIP code called us on a Tuesday morning after a tenant reported water dripping from a second-floor ceiling. By the time our crew arrived — 18 minutes after the call — a supply line failure had pushed water through the subfloor into the unit below. We extracted standing water from both units, set drying equipment across three rooms, and had a full moisture map to the property manager and their insurance adjuster by end of day. Drying was complete in four days; reconstruction of the affected drywall and flooring followed the week after. *(Scenario is representative of the type of work we handle; identifying details are not from a single client.)*
-
 If you're dealing with water, fire, mold, or storm damage anywhere in Huntsville, call Davis Construction Contractors at **(256) 771-0326**. We answer Monday through Friday, 8 to 5, return messages promptly, and we'll tell you honestly what the damage looks like and what it will take to fix it.

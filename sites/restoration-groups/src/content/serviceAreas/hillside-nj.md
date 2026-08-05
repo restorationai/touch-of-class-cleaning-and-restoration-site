@@ -53,8 +53,4 @@ Once the damage is dry and documented, we handle the rebuild — framing, drywal
 
 The Restoration Group is headquartered in Kenilworth, which sits directly adjacent to Hillside's western boundary. The drive from our facility to Hillside Center or the Winans neighborhood runs under three miles by way of North Michigan Avenue or Boulevard. Reaching Coe's Corner or the Conant Street area adds only a few minutes. Because we operate 24/7, a call at any hour connects you with a live dispatcher who can route a crew — not a voicemail box that gets checked in the morning. We serve the full 07205 ZIP code, including properties near Evergreen Cemetery and along the Route 22 corridor.
 
-## A recent Hillside response
-
-A property manager overseeing a six-unit building near Hillside Center called after a basement sump pump failed during an overnight storm — by morning, roughly four inches of standing water covered the entire lower level, and two ground-floor units were showing moisture at the baseboard. This is representative of the calls we handle regularly. We extracted the water, set drying equipment across both affected floors, and had a moisture report ready for the carrier's adjuster within 48 hours of arrival, keeping the claim moving without the tenants displaced longer than necessary.
-
 If you are dealing with water, fire, mold, or storm damage anywhere in Hillside, call The Restoration Group at **(855) 650-7422**. We answer around the clock, and our crew is already close.

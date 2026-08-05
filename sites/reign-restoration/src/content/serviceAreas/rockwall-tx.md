@@ -49,10 +49,4 @@ Mitigation without rebuild capability means a second contractor, a second mobili
 
 Reign Restoration is headquartered in Royse City, which sits roughly 10 to 12 miles east of central Rockwall along I-30. That puts us closer to Rockwall than most restoration companies dispatching from across the metro. From the Royse City shop, the crew can reach properties near the Rockwall Harbor area or along the SH-205 corridor quickly without fighting inbound Dallas traffic. Properties further north toward the Lake Ray Hubbard shoreline or south near the Rockwall-Heath border are also well within our regular service area. Call (214) 304-0621 to confirm scheduling and get a crew dispatched.
 
-## A recent Rockwall response
-
-A property manager overseeing a lakeside home in the Rockwall Harbor district contacted Reign Restoration after discovering that a slow leak behind a second-floor bathroom vanity had been wicking into the wall cavity and subfloor for what appeared to be several weeks. By the time it was found, the moisture had traveled down into the first-floor ceiling. Reign Restoration arrived, mapped the moisture boundary with thermal imaging, opened the affected cavities, placed drying equipment, and had a full photo-documented drying log ready for the homeowner's insurance adjuster within the first 24 hours. Reconstruction of the vanity wall and first-floor ceiling followed once the structure met dry standard. *(Scenario is representative of the work we do in Rockwall — not attributed to a specific named client.)*
-
----
-
 If you're dealing with water, fire, smoke, or mold damage at a Rockwall property, the faster the response, the less material ends up in a dumpster. Call Reign Restoration at **(214) 304-0621** to describe what you're seeing and get a crew scheduled.

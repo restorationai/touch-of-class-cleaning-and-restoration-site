@@ -55,8 +55,4 @@ Once the structure is dry, clean, and cleared, our reconstruction crews rebuild 
 
 From our Kenilworth headquarters, the most direct route to Teaneck runs north on the Garden State Parkway to Route 4, then into Bergen County — roughly 25 miles of highway-dominant driving. We reach West Englewood and the Bryant School area via Teaneck Road; the Cedar Lane district and Votee Park neighborhoods are a short turn off Route 4. Because we operate 24/7, dispatch goes out the moment you call (855) 650-7422, day or night, including weekends and holidays.
 
-## A recent Teaneck response
-
-A property manager overseeing a six-unit rental on the west side of the Cedar Lane district called us on a Sunday evening after a cast-iron stack connection failed and backed sewage into two ground-floor units. By the time our crew arrived, standing water had reached the baseboards in both kitchens. We extracted the contaminated water, removed flooring and lower drywall sections, applied antimicrobial treatment, and set drying equipment — documenting every step for the owner's insurance carrier. Both units were cleared for reconstruction within four days. *(Representative scenario — not attributed to a specific individual.)*
-
 If you're dealing with a loss in Teaneck right now, call (855) 650-7422. We answer around the clock, dispatch crews from Kenilworth, and work directly with your insurance carrier so the process moves as fast as the damage allows.

@@ -53,8 +53,4 @@ Once mitigation is complete, many property owners want a single contractor to ca
 
 HomeLyft Restoration MS is headquartered in Gulfport, roughly 12 miles west of downtown Biloxi via US-90 or I-10. That's a straightforward drive under normal traffic conditions, and our crews are familiar with the routes into Biloxi's distinct zones — the beachfront corridor along Beach Boulevard, the neighborhoods north of I-10 closer to D'Iberville, and the Back Bay-facing streets that tend to see the most recurring moisture issues. If you call during our business hours, we'll give you a realistic arrival window based on crew availability and current job load — we'd rather be honest about timing than promise something we can't deliver.
 
-## A recent Biloxi response
-
-Earlier this year, a property manager overseeing a small multi-unit building near the Back Bay contacted us after a tenant reported soft flooring in a ground-floor unit. By the time we arrived, moisture readings under the vinyl plank showed the subfloor had been wet for an estimated two to three weeks — likely from a slow supply-line drip behind the washing machine. We extracted residual moisture, removed the damaged subfloor section, set drying equipment, and provided the property manager with a full photo-documented report her insurance carrier accepted without a supplemental inspection. *(Scenario is representative of the type of work we handle in Biloxi; details have been generalized.)*
-
 If you're dealing with water, fire, mold, or storm damage at a Biloxi property, call HomeLyft Restoration MS at (228) 284-5200. We'll walk you through what we're seeing, what needs to happen next, and how the insurance process works — no pressure, no guesswork.

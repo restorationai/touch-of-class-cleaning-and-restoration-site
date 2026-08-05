@@ -53,8 +53,4 @@ Sewage backups, which are not uncommon when heavy rain overwhelms older septic s
 
 HomeLyft Restoration MS operates out of Gulfport, roughly 35 to 40 miles southwest of Hurley via US-90 East and MS-613 North. Depending on time of day and road conditions through Moss Point and Escatawpa, that translates to a drive of under an hour in most circumstances. We schedule Hurley calls with that travel window in mind and will give you a realistic arrival estimate when you call — not a number pulled from a marketing page. Call us at (228) 284-5200 to reach a team member directly.
 
-## A recent Hurley response
-
-A property manager overseeing a rental home in the Hurley area called after discovering standing water in the crawl space following several days of heavy rain — the vapor barrier had failed and water had wicked up into the subfloor. This is a representative scenario, not a named client account. The crew arrived, confirmed the moisture readings with a meter, set up a drying system under the structure, and coordinated documentation directly with the property owner's insurance carrier. The subfloor dried within the projected window and no mold growth was found at post-drying inspection.
-
 If your home or rental property in Hurley is showing signs of water intrusion, smoke damage, or mold, call HomeLyft Restoration MS at **(228) 284-5200**. We'll tell you exactly what we're looking at, what it takes to fix it, and how we work with your insurance company to keep the process moving.

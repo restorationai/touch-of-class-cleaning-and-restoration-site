@@ -49,8 +49,4 @@ Mitigation is only half the job. Once the structure is dry and clean, Reign Rest
 
 Royse City and Fate share a border, and US-380 connects our HQ directly to the heart of Fate in a straightforward drive under normal traffic conditions. Whether a call comes from the established neighborhoods near Fate's original town center or from the newer subdivisions that have expanded toward the Hunt County line, we're closer than most DFW-based restoration companies that list Fate as a service area but dispatch from the far side of the metro. We schedule promptly and communicate an estimated arrival time when you call — (214) 304-0621.
 
-## A recent Fate response
-
-A property manager overseeing a rental home in Fate contacted us after a tenant reported water pooling near the base of the kitchen cabinets. What looked like a minor leak turned out to be a slow failure in the dishwasher supply line that had been saturating the subfloor for an estimated two to three weeks. We extracted standing water, removed the affected cabinetry and flooring, and set drying equipment to bring the subfloor assembly back to acceptable moisture levels before mold had a chance to establish. The property manager was able to coordinate directly with her insurance carrier using the documentation we provided — photos, moisture readings, and a written scope — and the home was back on the rental market within the agreed timeline. This scenario is representative of the calls we receive; details vary by property.
-
 If you're dealing with water, fire, smoke, or mold damage at a Fate property, call Reign Restoration at **(214) 304-0621**. We'll assess the situation, explain what needs to happen, and get to work.

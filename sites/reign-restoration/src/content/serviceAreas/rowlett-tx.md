@@ -49,8 +49,4 @@ Once mitigation is complete, many homeowners don't want to manage a separate gen
 
 Reign Restoration is headquartered in Royse City, roughly 15 to 18 miles east of Rowlett via I-30. That puts us closer to Rowlett than most firms dispatching from the far side of the metro. Whether a call comes from a home near the lake or a property farther north toward the Rockwall County line, we can dispatch from Royse City without fighting inbound Dallas traffic. Call us at (214) 304-0621 to confirm scheduling availability and get an honest estimate of when a crew can be on-site.
 
-## A recent Rowlett response
-
-A property manager overseeing a single-family rental near the Lake Ray Hubbard shoreline contacted us after a tenant reported discolored water pooling at the base of a kitchen cabinet. What looked like a minor supply-line drip had been running slowly for long enough that moisture had wicked up into the lower cabinet framing and spread laterally beneath the vinyl plank flooring into the adjacent dining area. We mapped the full moisture boundary, extracted the water, removed the affected flooring and cabinet base, and set a drying system. The property manager received daily moisture logs to share with the insurance adjuster, and the unit was back in rentable condition without the extended vacancy the owner had feared. *This scenario is representative of the calls we receive and is not attributed to a specific individual.*
-
 If you're dealing with water, fire, smoke, or mold damage anywhere in Rowlett, call Reign Restoration at **(214) 304-0621**. We'll assess the situation honestly, explain what the work involves, and get the process moving.

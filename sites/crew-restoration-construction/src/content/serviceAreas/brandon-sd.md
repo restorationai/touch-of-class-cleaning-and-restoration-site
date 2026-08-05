@@ -49,8 +49,4 @@ Because we handle both remediation and rebuild, Brandon property owners work wit
 
 Crew Restoration & Construction is based in Sioux Falls, and Brandon is a direct shot east on I-90 — roughly 12 miles from our office to the heart of the city. Neighborhoods like Aspen Heights and the areas near Aspen Park are typically our first stops on a Brandon run; the Split Rock area adds a few minutes heading further east. Call us at (605) 965-2727 and we'll give you an honest arrival estimate based on where we're dispatched from and current conditions.
 
-## A recent Brandon response
-
-A property manager overseeing a rental home in the Brandon Valley subdivision contacted us after a tenant reported water pooling near the laundry room — what looked like a minor spill turned out to be a slow leak from a washing machine supply hose that had been wicking into the subfloor for several weeks. We arrived, extracted the standing water, pulled back the vinyl plank flooring to expose saturated OSB underneath, and set a drying system across two affected rooms. The subfloor dried within the target window, avoided replacement, and the property manager had moisture readings and photo documentation ready for the insurance claim the same day. This scenario is representative of the calls we receive from Brandon rental properties — not attributed to a specific individual.
-
 If you're dealing with water, fire, smoke, or mold damage at a Brandon property, call Crew Restoration & Construction at **(605) 965-2727**. We'll assess what happened, explain what needs to be done, and get to work.

@@ -49,8 +49,4 @@ Once the damage is mitigated, we can carry the project through to finished recon
 
 Ovett is roughly 90 miles northeast of our Gulfport headquarters, a drive that typically runs along US-49 North through Hattiesburg before connecting to county roads into Jones County. It is a meaningful distance, and we will be straightforward about it: we schedule Ovett calls as promptly as our current workload allows and will give you an honest arrival window when you call. For situations where immediate stabilization matters — active water intrusion, fire-exposed structure — we will tell you exactly when a crew can be on-site so you can make informed decisions. Reach us at (228) 284-5200.
 
-## A recent Ovett response
-
-The following is a representative scenario based on the type of work we perform in rural Jones County — not attributed to any specific individual. A property owner in the Ovett area discovered standing water in their crawlspace after three consecutive days of heavy rain; by the time they called, the moisture had wicked into the floor joists and subfloor above. Our crew arrived, extracted the standing water, set drying equipment targeting the framing cavity, and documented moisture readings daily until the structure reached acceptable levels. The homeowner's insurance carrier received a complete photo and moisture-log package, which moved the claim forward without a second inspection request.
-
 If you are dealing with water, fire, smoke, or mold damage anywhere in Ovett or the surrounding Jones County area, call HomeLyft Restoration MS at **(228) 284-5200**. We will walk you through what we are seeing, what needs to happen next, and what your insurance policy is likely to cover — no pressure, no guesswork.

@@ -47,8 +47,4 @@ Some jobs in Adrian go beyond cleaning and drying. When water damage has comprom
 
 Crew Restoration & Construction is headquartered in Sioux Falls, SD, roughly 75 miles northwest of Adrian via I-90 — the same interstate that runs through town at Exit 26. That route is straightforward in good conditions and one our crews know well. We serve all of Adrian, including Downtown Adrian and East Adrian, and we schedule responses as promptly as our current call volume allows. When you call (605) 965-2727, we'll give you an honest arrival window based on where our nearest available crew is at that moment — not a number we can't stand behind.
 
-## A recent Adrian response
-
-A property manager overseeing a rental near Downtown Adrian contacted us after discovering standing water in the basement following a late-spring storm — the sump pump had failed overnight and water had been sitting for roughly 18 hours by the time it was found. Our crew arrived, extracted the standing water, pulled saturated carpet and pad, and set drying equipment to address moisture that had wicked into the lower portion of the drywall. We documented conditions throughout for the insurance claim and completed the rebuild — new subfloor section, drywall, and paint — within the timeline the property manager needed to re-rent the unit. This scenario is representative of the calls we receive from Adrian landlords and homeowners each spring.
-
 If you're dealing with damage at a property in Adrian, call Crew Restoration & Construction at **(605) 965-2727**. We'll assess what you're facing, explain the process clearly, and get the work scheduled.

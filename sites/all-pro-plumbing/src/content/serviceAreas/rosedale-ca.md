@@ -45,8 +45,4 @@ The other factor is water quality. Rosedale sits on private well systems and ble
 
 Our Bakersfield headquarters puts Rosedale well within our primary service area. Rosedale Highway connects directly to the core of the 93312 zip code, and from there it's a short run north into Rosedale Ranch or west toward Westdale. The Calloway/Hageman corridor and the neighborhoods near Froehlich Field are equally straightforward from our dispatch point. Because we operate 24/7, there's no overnight or weekend gap in coverage — if a pipe lets go at 2 a.m. in any of these neighborhoods, you reach a live dispatcher at **(661) 863-9242**.
 
-## A recent Rosedale response
-
-A property manager overseeing a group of HOA homes near the Riverlakes Ranch Golf Course called after a tenant reported no hot water and a faint rumbling sound from the garage. When our technician arrived, the tank — original to the 2003 build — had a failed lower element and heavy sediment accumulation consistent with years of hard-water use. We quoted the replacement before touching anything, installed a new 50-gallon unit the same visit, and hauled the old tank. The property manager had documentation for the HOA file before the end of the afternoon. *This scenario is representative of the calls we handle in Rosedale; names and identifying details are not attributed to any specific individual.*
-
 If something's gone wrong at your Rosedale property — or you're ready to schedule a water heater upgrade, softener install, or HVAC tune-up before the next heat wave — call All Pro Plumbing Heating and Air at **(661) 863-9242**. We're available around the clock and we quote before we start.

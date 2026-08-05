@@ -47,8 +47,4 @@ Once mitigation is complete, the rebuild is often the part homeowners feel most 
 
 Crew Restoration & Construction is headquartered in Sioux Falls, SD, approximately 75 miles northwest of Hull via I-90 East and US-75 South — a drive that typically runs just over an hour depending on conditions. We schedule crews into the 51239 ZIP code regularly and can reach neighborhoods across Hull, including West Hull and the blocks surrounding Downtown Hull, during normal scheduling windows. We do not make minute-based response promises, but we prioritize water and fire losses for same-day or next-morning dispatch whenever possible. When you call (605) 965-2727, we'll give you a straight answer on timing based on current crew availability.
 
-## A recent Hull response
-
-A property manager overseeing a rental near Hull City Park contacted us after a tenant reported water pooling in the basement following a multi-day rain event in late spring. By the time we arrived, the water had wicked into the lower 18 inches of drywall along two walls and the subfloor near the utility room was showing elevated moisture readings. We extracted the standing water, removed the affected drywall and insulation, and ran drying equipment for four days until the framing reached acceptable levels. The property manager worked with their carrier; we provided the full photo documentation and moisture logs needed to process the claim without a dispute.
-
 If you're dealing with water, fire, mold, or storm damage at a Hull property, call Crew Restoration & Construction at **(605) 965-2727**. We'll walk you through what needs to happen next and get a crew scheduled without the runaround.

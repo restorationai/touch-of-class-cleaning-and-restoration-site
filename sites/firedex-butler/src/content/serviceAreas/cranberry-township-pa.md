@@ -49,8 +49,4 @@ Severe thunderstorms along the Route 19 / Route 228 corridor can bring wind-driv
 
 FireDEX Butler's shop sits on Marshall Rd in Cranberry Township, which puts us inside the township boundary before we reach most neighborhoods. Fox Run, Park Place, and Cranberry Heights are a short drive from our door. Fernway, Glen Eden, and Ehrman Farms are equally close. Reaching the commercial corridors near Cranberry Commons or the residential streets near UPMC Lemieux Sports Complex means navigating familiar local roads, not mapping an unfamiliar route. Because we operate 24/7, a call at 2 a.m. during a January freeze or a Saturday afternoon storm gets the same dispatch process as a weekday morning call.
 
-## A recent Cranberry Township response
-
-A property manager overseeing a rental home near Graham Park called us on a Sunday morning after the tenant reported water coming up through the basement carpet. By the time the crew arrived, the finished lower level had several inches of standing water — a sump pump had failed overnight during a heavy rain event. We extracted the water, pulled the saturated carpet and pad, set drying equipment, and provided the property manager with a full photo-documented moisture report the same day. The insurance claim was filed with that documentation, and the basement was back to dry standard within the drying window. *(Scenario is representative of the type of calls we receive; identifying details are not drawn from a single named client.)*
-
 If you're dealing with water, fire, mold, or storm damage anywhere in Cranberry Township — ZIP code 16066 or the surrounding communities — call FireDEX Butler at **(724) 452-7400**. We're already here.

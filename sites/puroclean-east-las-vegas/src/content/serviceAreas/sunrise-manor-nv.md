@@ -51,8 +51,4 @@ We provide discreet, professional biohazard cleanup for property managers and fa
 
 Our team is based in East Las Vegas, which puts Sunrise Manor directly in our backyard. The drive from our location to neighborhoods near Sunrise Mountain and Sunrise Hospital typically runs along Flamingo Road or Boulder Highway — both direct routes with no freeway dependency. Nellis Meadows, Sunrise Vista, and the streets bordering Nellis Air Force Base are all within a short drive under normal traffic conditions. Because we're not coming from the west side of the valley, we're not fighting I-15 or the 215 interchange to reach you. Call us at (702) 551-3040 to confirm scheduling availability.
 
-## A recent Sunrise Manor response
-
-A property manager overseeing a fourplex near the Winchester Dondero Cultural Center called after a tenant reported a wet ceiling in a second-floor unit. By the time we arrived, moisture had wicked into the ceiling drywall and the top of the wall cavity below a slow-leaking supply line. We isolated the source, extracted saturated insulation, set drying equipment across two units, and provided the property manager with a full moisture log and photo documentation within 24 hours of the initial call — the kind of paper trail that keeps an insurance claim moving. *This scenario is representative of the calls we receive; details are not attributed to any specific individual.*
-
 If you're dealing with water, fire, mold, or biohazard damage anywhere in Sunrise Manor — from 89101 to 89156 — call PuroClean of East Las Vegas at **(702) 551-3040**. The sooner the drying equipment is running, the less material ends up in a dumpster.

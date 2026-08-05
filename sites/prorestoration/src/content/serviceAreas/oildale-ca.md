@@ -53,8 +53,4 @@ Once mitigation is complete, we can carry the project through drywall, flooring,
 
 Oildale sits directly across the Kern River from our Bakersfield base — the drive up North Chester Avenue or across the Truxtun Avenue bridge is short under most traffic conditions. We serve every part of the 93308 ZIP code: the older residential blocks near Standard Park and North High School, the mobile home parks along the Airport Drive corridor, and the hillside streets backing up to the Kern River bluffs. Because we operate 24/7, a crew can be dispatched at any hour — call (661) 393-9306 and you will reach a live person, not an answering service.
 
-## A recent Oildale response
-
-A property manager overseeing a small rental block in the Highland neighborhood called after a tenant reported water coming up through the bathroom floor on a Sunday evening. By the time our crew arrived, the Orangeburg lateral had backed sewage into two units. We extracted the contaminated water, removed the affected flooring and subfloor sections, set drying equipment, and had a written scope to the insurance carrier by Monday morning — keeping the displacement period for both tenants as short as possible. *(This scenario is representative of the work we do; details have been generalized.)*
-
 If you are dealing with water, fire, mold, or sewage damage anywhere in Oildale, call ProRestoration Services at **(661) 393-9306**. We answer around the clock, and we know the housing stock, the county permit process, and the insurance workflow well enough to move fast without cutting corners.

@@ -51,10 +51,4 @@ For sewage backups, which are not uncommon when aging lateral lines meet saturat
 
 Coastal Restoration Services Inc is headquartered in Vandenberg Village, roughly 20 miles northwest of Nipomo via US-101 South — a straightforward drive down the coast corridor with no significant mountain passes or detour routes. Depending on traffic through Santa Maria, travel time to Nipomo is typically under 30 minutes from dispatch. The same route serves the broader Nipomo area whether the call is coming from the mesa's western edge near Tefft Street or from properties further east toward Willow Road. Property owners and managers can reach the office at **(805) 345-7440** to schedule an assessment or discuss an active loss.
 
-## A recent Nipomo response
-
-A property manager overseeing a single-family rental in Nipomo contacted Coastal Restoration Services after a tenant reported soft spots in the bathroom floor. When the crew arrived, they found a slow wax ring failure had been saturating the subfloor assembly for an estimated several weeks — long enough that moisture had wicked into the adjacent hallway framing. The team opened the floor, extracted the damaged subfloor material, set drying equipment across two rooms, and provided the property manager with daily moisture logs and photographs that supported the insurance claim from the first notice of loss through final documentation. The repair scope was completed without the tenant needing to relocate.
-
----
-
 If you're dealing with water intrusion, smoke damage, or a mold concern anywhere in Nipomo or the surrounding San Luis Obispo County area, call Coastal Restoration Services Inc at **(805) 345-7440**. Describe what you're seeing and the team will walk you through next steps — no obligation, no pressure.

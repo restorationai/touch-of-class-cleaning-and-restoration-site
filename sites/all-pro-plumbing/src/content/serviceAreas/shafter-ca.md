@@ -55,8 +55,4 @@ Given Shafter's water quality, whole-house carbon and reverse-osmosis systems ar
 
 All Pro Plumbing Heating and Air is headquartered in Bakersfield, roughly 18 miles southeast of Shafter via Highway 99 North to 7th Standard Road — a straightforward run with no significant bottlenecks outside of peak harvest-season truck traffic. Gossamer Grove, North Shafter, and Downtown Shafter are all within the same service window. Because our dispatch operates 24/7, emergency calls go into the queue immediately regardless of time of day.
 
-## A recent Shafter response
-
-A property manager overseeing a rental near Mannel Park called after a tenant reported water seeping up through the hallway tile on a Saturday evening. The slab leak had been slow enough that the flooring absorbed the moisture for days before it became visible. Our crew arrived, confirmed the leak location with electronic detection, isolated the affected section, and rerouted the supply line through the wall cavity to avoid a full concrete pour — completing the repair the same night so the unit stayed occupied. If water had spread into the subfloor or drywall, our sister company [All Pro Water Damage Restoration](https://allprowaterdamage.com) handles the drying and rebuild side of that kind of loss.
-
 For plumbing, heating, or air conditioning service anywhere in Shafter — from a Gossamer Grove HVAC install to an after-hours pipe emergency in Downtown Shafter — call All Pro Plumbing Heating and Air at **(661) 863-9242**. We're available around the clock and already familiar with what Shafter's housing stock and water conditions throw at property owners.

@@ -49,10 +49,4 @@ Once mitigation is complete, we handle the rebuild — framing, drywall, floorin
 
 Coastal Restoration Services Inc is headquartered in Vandenberg Village, roughly 35 miles south of Morro Bay via US-101 North to CA-1. The drive runs through Pismo Beach and Shell Beach before the highway meets the coast at Morro Bay's southern edge near the power plant stack — a familiar landmark for anyone who's made the trip. Depending on traffic and the time of day, that corridor is typically a straightforward run. We serve the full city, from the waterfront blocks near Morro Rock and the Embarcadero to the residential streets climbing toward Black Hill and the neighborhoods flanking Main Street. Call **(805) 345-7440** to schedule a response or get a same-day assessment.
 
-## A recent Morro Bay response
-
-A property manager overseeing a multi-unit rental near the Embarcadero contacted us after a tenant reported water coming up through the bathroom floor following a slow drain backup that had gone unnoticed for several days. By the time we arrived, moisture readings in the subfloor assembly were elevated across two adjacent units. We extracted the standing water, opened the floor system to expose the affected framing, and ran drying equipment for four days while documenting conditions for the owner's insurance carrier. The subfloor was replaced and the units were back in service without a protracted gap in rental income. *(Scenario is representative of the type of work we perform; details are not attributed to a specific named client.)*
-
----
-
 If you're dealing with water in a crawl space, smoke damage in a rental, or a mold problem that's been growing behind a wall longer than you'd like to think about, call Coastal Restoration Services Inc at **(805) 345-7440**. We'll assess the situation honestly, give you a clear scope, and get the work done right the first time.

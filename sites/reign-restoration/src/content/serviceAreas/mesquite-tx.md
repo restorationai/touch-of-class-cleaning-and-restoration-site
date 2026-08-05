@@ -43,8 +43,4 @@ North Texas weather does the rest. The region averages fewer than 20 freezing da
 
 Reign Restoration is headquartered in Royse City, roughly 30 miles east of Mesquite via US-80. That route runs almost directly into the heart of the city, making Mesquite one of our most accessible service areas. From Royse City, US-80 westbound connects to Mesquite without navigating the inner loop, which keeps travel time predictable outside of peak commute windows. We serve the full city — from neighborhoods along the I-635 corridor in the northwest to the communities near the Mesquite city limits bordering Sunnyvale and Balch Springs to the south and west. Call us at (214) 304-0621 to confirm scheduling for your specific address.
 
-## A recent Mesquite response
-
-A property manager overseeing a rental home in Mesquite contacted us after a tenant reported water staining on the living room ceiling following several days of heavy rain. By the time we arrived, the ceiling drywall had softened and a section had begun to sag. Moisture readings confirmed water had tracked from a compromised roof penetration along a rafter bay and pooled above the ceiling plane. We extracted the standing water, removed the saturated drywall, set drying equipment, and coordinated directly with the property owner's insurance adjuster to document the loss. The tenant was able to remain in the home throughout the drying process.
-
 If you're dealing with water, fire, mold, or storm damage anywhere in Mesquite, call Reign Restoration at **(214) 304-0621**. We'll assess the damage, walk you through the process, and get mitigation started as quickly as scheduling allows.

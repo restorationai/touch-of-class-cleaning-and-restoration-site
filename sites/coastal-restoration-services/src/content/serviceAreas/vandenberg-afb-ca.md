@@ -53,8 +53,4 @@ Our office in Vandenberg Village sits just outside the main gate corridor, which
 
 For property managers coordinating access on base or in adjacent housing areas, we are experienced with the scheduling and documentation requirements that come with those properties. Call us at (805) 345-7440 to discuss access logistics before an emergency, not after.
 
-## A recent Vandenberg AFB response
-
-A property manager responsible for a cluster of off-base rental homes near Vandenberg AFB contacted us after a tenant reported water coming up through the bathroom floor following a heavy rain event. What looked like a drainage backup turned out to be a combination of a failed wax ring and saturated subfloor extending under two adjacent rooms. We extracted standing water, mapped the moisture spread with thermal imaging, set drying equipment, and had the subfloor moisture readings back within normal range before the scheduled re-inspection. The property manager had documentation in hand for the insurance adjuster within 48 hours of the initial call. *This scenario is representative of the type of work we do; it is not attributed to a specific named client.*
-
 If you're dealing with water, fire, smoke, or mold damage at a Vandenberg AFB property, call Coastal Restoration Services Inc at **(805) 345-7440**. We'll assess the situation, explain what we're seeing, and give you a clear picture of next steps — no pressure, no upsell.

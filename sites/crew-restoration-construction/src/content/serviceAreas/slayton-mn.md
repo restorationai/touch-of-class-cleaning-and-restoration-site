@@ -49,8 +49,4 @@ Because we handle both restoration and construction, we can take a Slayton prope
 
 Crew Restoration & Construction is headquartered in Sioux Falls, SD. Slayton is roughly 90 miles northeast of Sioux Falls via US-14, a straightforward route across open prairie that our crews travel regularly. The Lake Sarah area and Downtown Slayton are both well within our standard coverage zone for Murray County. We schedule promptly and will give you a realistic arrival window when you call — (605) 965-2727.
 
-## A recent Slayton response
-
-A property manager overseeing a rental near the Lake Sarah area called after a tenant reported water pooling in the basement following a rapid spring thaw. By the time our crew arrived, the water had wicked into the lower section of drywall along two walls and the carpet pad was fully saturated. We extracted the standing water, removed the affected drywall and flooring materials, set drying equipment, and provided the property manager with daily moisture readings and photo documentation for the insurance claim. The unit was dry and ready for reconstruction within the standard drying window, and the carrier received a complete damage report without the property manager having to compile it themselves.
-
 If you are dealing with water, fire, or mold damage at a Slayton property in ZIP code 56172 or the surrounding Murray County area, call Crew Restoration & Construction at **(605) 965-2727**. We will walk you through what needs to happen next, help you understand what your insurance should cover, and get a crew scheduled without the runaround.

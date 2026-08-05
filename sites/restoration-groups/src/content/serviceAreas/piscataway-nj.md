@@ -51,8 +51,4 @@ For property managers overseeing Stelton corridor retail, lab, or warehouse spac
 
 From our Kenilworth headquarters, Piscataway is roughly 25 miles via the Garden State Parkway south to Route 1, or through the US-9 and Route 27 corridor depending on traffic. We cover all of Piscataway's neighborhoods — Arbor, Possumtown, Stelton, New Market, Society Hill, and the River Road corridor — as well as the Rutgers campus zones on the Livingston and Busch sides of the township. Because we operate 24/7, a call at any hour goes to a live dispatcher who can confirm crew availability and get a team moving without waiting for a callback window.
 
-## A recent Piscataway response
-
-A property manager overseeing a Society Hill townhome association called us after a second-floor supply line failed overnight and water tracked down through the subfloor into the unit below. By the time residents discovered it in the morning, two finished ceilings had absorbed several hours of saturation. We arrived, scoped both units with moisture meters and a thermal camera, opened the ceiling assemblies to confirm the spread, and had commercial drying equipment running the same day. We coordinated directly with the association's insurance carrier on the multi-unit claim — a situation that's representative of what shared-wall properties in Piscataway regularly face.
-
 If your Piscataway property is dealing with water, fire, mold, or any other restoration emergency, call The Restoration Group at **(855) 650-7422** — any time, day or night. We'll walk you through next steps on the phone and get a crew to you as quickly as road conditions allow.

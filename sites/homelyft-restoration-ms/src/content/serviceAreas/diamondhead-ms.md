@@ -53,8 +53,4 @@ Sewage backups, which are not uncommon when storm surge overwhelms municipal sys
 
 HomeLyft Restoration MS is based in Gulfport, roughly 25 miles east of Diamondhead via US-90 or I-10. Both routes are well-traveled corridors our crews run regularly, and Diamondhead falls well within our active service area. Call us during business hours and we will schedule a prompt response — the sooner we can assess the damage, the more material and cost we can typically save. For scheduling and questions, reach us at (228) 284-5200.
 
-## A recent Diamondhead response
-
-A homeowner in Diamondhead contacted us after returning from a weekend trip to find standing water in the hallway and two adjacent bedrooms — a supply line to the guest bathroom had failed sometime Friday evening and ran unattended for nearly 48 hours. By the time we arrived, the laminate flooring had buckled, the drywall along the base of two walls had wicked moisture up roughly 18 inches, and the crawl space beneath showed elevated humidity readings. We extracted the standing water, removed the damaged flooring and drywall sections, set drying equipment, and produced a full photo and moisture-log report the homeowner submitted to their carrier. This scenario is representative of the calls we receive regularly from Diamondhead properties.
-
 If you are dealing with water, fire, mold, or storm damage in Diamondhead, the window to limit secondary damage is short. Call HomeLyft Restoration MS at **(228) 284-5200** during business hours to speak with someone who can assess your situation and get a crew scheduled.

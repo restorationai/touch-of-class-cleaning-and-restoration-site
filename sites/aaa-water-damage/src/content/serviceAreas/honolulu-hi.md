@@ -53,8 +53,4 @@ For situations involving sewage backup, which is not uncommon in older Downtown 
 
 Our team is based in Honolulu, so we're not driving in from the other side of the island. Waikiki, Ala Moana, Kakaako, and Downtown Honolulu are minutes from our dispatch point under normal H-1 traffic conditions. Manoa, Moiliili, and Makiki are similarly close via surface streets. Salt Lake (ZIP 96818) and Nuuanu are straightforward runs from central Honolulu. Because we operate 24 hours a day, 7 days a week, we can dispatch at 2 a.m. when a pipe lets go in a Kakaako tower just as readily as on a Tuesday afternoon. Call us at (808) 349-3407 and we'll confirm an arrival window based on current conditions.
 
-## A recent Honolulu response
-
-A property manager overseeing a mid-rise in Ala Moana (ZIP 96814) called after a water heater on the eighth floor failed overnight, sending water through the unit below and into the corridor. By the time the building's maintenance team shut off the supply, three units had wet ceilings and saturated carpet. We arrived, set up containment to protect unaffected units, extracted standing water, and had drying equipment running across all three units the same morning. Moisture readings confirmed dry-standard conditions within three days — before the AOAO's adjuster completed their walk-through. *(This scenario is representative of the work we do; details are illustrative, not attributed to a specific client.)*
-
 If you're dealing with water, mold, fire, or smoke damage anywhere in Honolulu, call (808) 349-3407. We answer day and night, and we can walk you through what to do right now while we're on the way.

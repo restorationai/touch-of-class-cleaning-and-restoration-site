@@ -49,8 +49,4 @@ Once mitigation is complete, the same contractor handles the rebuild — drywall
 
 Coastal Restoration Services Inc is headquartered in Vandenberg Village, roughly 25 miles southwest of Buellton via US-101 North. Under normal traffic conditions on the 101 corridor, that's a straightforward drive through Lompoc and into the Santa Ynez Valley — no mountain passes, no significant seasonal road closures. Properties along the Avenue of Flags business district, the residential streets east toward Solvang, and the rural parcels off Highway 246 are all within the team's regular service coverage. Call (805) 345-7440 to confirm scheduling and discuss what to do in the meantime to limit further damage.
 
-## A recent Buellton response
-
-A property manager overseeing a short-term rental near the Highway 246 and 101 interchange called after guests checked out and reported a wet smell in the primary bedroom. When the crew arrived, thermal imaging showed a slow leak from a supply line inside the wall had been running for an estimated three to four days — long enough to saturate the bottom plate and lower 18 inches of drywall on two walls. Flooring was lifted, drying equipment was staged, and a documented moisture log was started the same day for the insurance claim. The property was back in rentable condition within the carrier's approved timeline.
-
 If you're dealing with water, fire, smoke, or mold damage at a Buellton property, call (805) 345-7440. Prompt action in the first hours limits how far damage spreads and how much the repair ultimately costs.

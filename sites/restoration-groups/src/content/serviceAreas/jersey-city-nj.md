@@ -49,8 +49,4 @@ Combined-sewer backups are a chronic reality in parts of Jersey City, particular
 
 Kenilworth sits roughly 12 to 15 miles from Jersey City, with the most direct route running east on Route 22 to the Garden State Parkway, then north to the New Jersey Turnpike and across to the Holland Tunnel corridor or the Pulaski Skyway into Journal Square and points south. Traffic on that corridor is real — we factor it in and dispatch as soon as a call comes in, 24 hours a day. Downtown Jersey City (07302) and Newport (07310) are accessible via the Turnpike's Exit 14C. The Heights (07307) and Bergen-Lafayette (07304) typically route through Journal Square. We serve all Jersey City ZIP codes, including 07302, 07304, 07305, 07306, 07307, and 07310.
 
-## A recent Jersey City response
-
-A property manager overseeing a 24-unit building near the Grove Street PATH plaza called after a second-floor supply line failed overnight and water had been running into the units below for several hours. When our crew arrived, three units showed active standing water and two more had elevated moisture readings behind walls with no visible damage yet. We extracted standing water, deployed drying equipment across all five affected units simultaneously, and produced a unit-by-unit moisture log within 24 hours — the format the building's insurer required before authorizing repairs. Dryout was complete within four days. *(This scenario is representative of the type of work we do; it is not attributed to a specific named client.)*
-
 If you're dealing with water, fire, mold, or sewage damage anywhere in Jersey City, call The Restoration Group at **(908) 970-8533** — we answer every hour of every day and can begin coordinating your response immediately.

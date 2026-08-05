@@ -49,8 +49,4 @@ Aging municipal and private sewer laterals in older Solvang neighborhoods can ba
 
 Coastal Restoration Services Inc is headquartered in Vandenberg Village, roughly 40 miles southwest of Solvang via US-101 North to CA-246 East. The drive through Buellton and into the Santa Ynez Valley typically runs under an hour in normal traffic conditions, making Solvang a fully serviceable part of our Santa Barbara County coverage area. Call (805) 345-7440 to reach our team and confirm scheduling for your property.
 
-## A recent Solvang response
-
-A property manager overseeing a vacation rental near the village center contacted Coastal Restoration after guests reported a musty smell and soft spots in the bathroom floor — signs that a slow supply-line leak had been running inside the wall for weeks. The team arrived, used moisture meters and a thermal camera to map the full extent of saturation behind the tile surround and into the subfloor, and set up a contained drying system to protect adjacent finished spaces. Full drying logs were provided to the property manager's insurance carrier, and the job was documented from first contact through final clearance readings. *(Representative scenario — not attributed to a specific individual.)*
-
 If you're dealing with water, fire, mold, or sewage damage at a Solvang property, call Coastal Restoration Services Inc at **(805) 345-7440**. We'll walk you through next steps, answer questions about insurance documentation, and get a crew scheduled to assess the damage.

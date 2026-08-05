@@ -49,8 +49,4 @@ Once mitigation is complete, the structure still needs to be put back together. 
 
 Crew Restoration & Construction is based in Sioux Falls, SD, roughly 90 miles northwest of Worthington via I-90 East. That route is straightforward in good conditions and well-maintained year-round. We serve the full 56187 ZIP code, including Downtown Worthington, the Lake Okabena area, and the neighborhoods surrounding the Nobles County Fairgrounds and Chautauqua Park. Call us at (605) 965-2727 to discuss scheduling and get a crew dispatched to your property.
 
-## A recent Worthington response
-
-A property manager overseeing a multi-unit rental near Downtown Worthington contacted us after a second-floor bathroom supply line failed overnight and water had migrated through the subfloor into the unit below. By the time it was discovered, both units had saturated flooring and wet drywall along shared walls. We mobilized a crew, extracted the standing water, opened the wall cavities to allow airflow, and set drying equipment across both units simultaneously. The property manager received daily moisture logs to share with the insurance adjuster, and reconstruction on both units was completed under a single project scope. This scenario is representative of the multi-unit water losses we handle regularly in Worthington.
-
 If you're dealing with a water, fire, mold, or structural emergency in Worthington or anywhere in Nobles County, call Crew Restoration & Construction at **(605) 965-2727**. We'll walk you through the immediate steps, get a crew scheduled, and handle the insurance coordination from the first call forward.

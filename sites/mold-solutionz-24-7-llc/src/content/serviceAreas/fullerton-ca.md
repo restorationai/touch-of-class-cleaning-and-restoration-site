@@ -53,8 +53,4 @@ Once the damaged material is out and the structure is dry, we can carry the proj
 
 Mold Solutionz 24/7 is headquartered in Cerritos, roughly 12 miles southwest of Fullerton via the 91 Freeway or Artesia Boulevard. The drive to central Fullerton typically runs through Buena Park and into the city along Harbor Boulevard or Commonwealth Avenue. We reach properties across Fullerton — from the older bungalows near downtown and the Wilshire Square area to newer construction near the Fullerton Hills — day or night, because our dispatch runs 24/7. When you call (714) 409-4758, you reach a live person who can get a crew moving, not an answering service.
 
-## A recent Fullerton response
-
-A property manager overseeing a four-unit building near downtown Fullerton called after a second-floor tenant reported water dripping through a light fixture. By the time we arrived, the ceiling drywall in the unit below had already softened and the subfloor above was saturated — a supply line to an upstairs washing machine had been seeping inside the wall for what the staining suggested was several weeks. We extracted the water, opened the wall cavities to dry the framing, and documented the moisture readings across all four units so the property manager had a complete record for the insurance claim. Reconstruction was coordinated directly with the carrier.
-
 If you're dealing with water, mold, fire, or a biohazard situation anywhere in Fullerton, call Mold Solutionz 24/7 at **(714) 409-4758**. We've been responding to Orange County property emergencies since 2017, and someone is available to take your call right now.

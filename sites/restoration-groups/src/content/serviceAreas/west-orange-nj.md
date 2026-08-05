@@ -53,8 +53,4 @@ Once the damage is dry and remediated, the rebuild begins. We handle carpentry, 
 
 The Restoration Group is headquartered in Kenilworth, roughly 10 miles from West Orange via Route 22 West to I-78 West to Route 10 — a straightforward run that keeps us close to every part of town, from the Redwood neighborhood near the Eagle Rock Reservation to the commercial strip along Prospect Avenue. We operate 24 hours a day, 7 days a week, so a call at 2 a.m. after a basement flood reaches a live dispatcher, not a voicemail.
 
-## A recent West Orange response
-
-A property manager overseeing a six-unit building in the Gregory neighborhood called after a second-floor supply line failed overnight, sending water through two finished floors and into the basement utility space. By the time the first tenant noticed, the subfloor on the second level had begun to delaminate and the basement drywall was saturated. Our crew extracted standing water, opened wall cavities to allow airflow, set drying equipment across all three affected levels, and produced a full photo-documented moisture log that the property manager submitted directly to the insurance carrier. The building was dry within four days and reconstruction was complete within three weeks. *(Illustrative scenario representing the type of work we perform in West Orange; not attributed to a specific client.)*
-
 If you're dealing with water, fire, mold, or storm damage anywhere in West Orange — from a finished basement in Pleasantdale to a commercial space near Turtle Back Zoo — call The Restoration Group at **(855) 650-7422**. We're available around the clock and ready to get to work.

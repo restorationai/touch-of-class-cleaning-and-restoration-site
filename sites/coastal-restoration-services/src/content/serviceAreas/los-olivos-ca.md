@@ -53,8 +53,4 @@ Coastal Restoration Services Inc is headquartered in Vandenberg Village, on the 
 
 We schedule service calls for Los Olivos during our regular business hours. When you call (805) 345-7440, our team will confirm availability and give you a realistic arrival window based on current crew location and workload — we won't quote a time we can't keep.
 
-## A recent Los Olivos response
-
-A property manager overseeing a vacation rental on a rural parcel outside Los Olivos contacted us after guests reported a musty smell and soft spots in the bathroom floor. When our crew arrived, thermal imaging revealed a slow leak behind the shower valve that had been wicking into the subfloor assembly for what appeared to be several weeks. We extracted the damaged subfloor, dried the framing and crawlspace below, and documented the full scope for the property owner's insurance carrier before beginning the rebuild. The property was back in rental rotation within three weeks. *(Representative scenario — not attributed to a specific client.)*
-
 If you're dealing with water, fire, smoke, or mold damage at a Los Olivos property, call Coastal Restoration Services Inc at **(805) 345-7440**. We'll walk you through what to expect, answer your insurance questions, and schedule an on-site assessment.

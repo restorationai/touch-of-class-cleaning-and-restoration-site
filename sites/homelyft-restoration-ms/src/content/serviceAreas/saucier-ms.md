@@ -49,8 +49,4 @@ Once mitigation is complete, many homeowners want one contractor to handle the r
 
 HomeLyft Restoration MS is headquartered in Gulfport, roughly 20 miles south of Saucier via US-49 North. That route is a straightforward drive with no significant interchange delays under normal conditions, putting our crew in Saucier without the routing complexity that affects contractors coming from the east or west along I-10. Properties deeper into the Saucier community — farther off 49 on county roads — add modest travel time, but the same Gulfport-based crew services the full area. Call us at +12282845200 to discuss scheduling and we will give you an honest arrival window based on current crew availability.
 
-## A recent Saucier response
-
-A homeowner in the Saucier area called HomeLyft after discovering that a slow roof leak above an interior bedroom closet had been feeding moisture into the wall for what appeared to be several months — the drywall had softened, and a visible mold colony had established itself on the back wall of the closet and was beginning to spread to adjacent framing. This is a representative scenario, not a named client account. Our crew performed containment, removed the affected drywall and insulation, treated the framing, and documented the full scope for the homeowner's insurance carrier. The roof penetration was identified and sealed before interior reconstruction began.
-
 If your Saucier property has water damage, smoke damage, or a mold concern you have been putting off, the right time to call is before the problem grows. Reach HomeLyft Restoration MS at +12282845200 to schedule an assessment.

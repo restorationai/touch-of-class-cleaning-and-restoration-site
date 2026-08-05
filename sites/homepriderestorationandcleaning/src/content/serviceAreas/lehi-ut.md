@@ -51,8 +51,4 @@ Once mitigation is complete, we rebuild — drywall, flooring, cabinetry, painti
 
 Our Saratoga Springs headquarters is roughly 10 to 15 minutes from most of Lehi via Redwood Road or SR-68, depending on traffic. For the majority of calls in the 84043 and 84045 ZIP codes, we can have a technician on-site within 45 to 60 minutes of your call — often faster during off-peak hours. We cover all of Lehi's residential and commercial corridors, including the high-growth areas along the Silicon Slopes tech corridor near Thanksgiving Point, as well as established neighborhoods closer to Main Street and the older sections of the city near the Lehi Round-Up Rodeo Grounds.
 
-## A recent Lehi response
-
-A property manager overseeing a rental home near Thanksgiving Point called us on a Tuesday morning after tenants reported water coming up through the basement carpet overnight — a water heater supply line had failed while the family was asleep. We arrived within 50 minutes, extracted roughly 200 gallons of standing water, pulled the saturated carpet and pad, and had three commercial drying units running before noon. The adjuster received our moisture documentation the same afternoon, and the tenant was back in a fully dried and restored basement within six days. This scenario is representative of the calls we handle regularly; details will vary.
-
 If you're dealing with water, fire, mold, or any other property emergency in Lehi, call Home Pride Restoration and Cleaning at (801) 995-2437. We answer around the clock, every day of the year.

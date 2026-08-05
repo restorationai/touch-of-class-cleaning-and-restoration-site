@@ -49,8 +49,4 @@ Because MCC handles both restoration and contracting, we can take a Duncanville 
 
 Our crew is based in Duncanville, so reaching any part of the city means short, familiar drives — not a long haul from a distant suburb. Swan Ridge, Cedar Ridge, the Wheatland Road corridor, and the neighborhoods surrounding Duncanville High School and Armstrong Park are all within a few minutes of our base. For properties in 75138 or along the southern edges of the city near Joe Pool Lake vicinity, travel time is still well within what you'd expect from a local contractor. We schedule promptly and give you a realistic arrival window when you call (682) 772-9123.
 
-## A recent Duncanville response
-
-A property manager overseeing a rental home in the Red Bird area contacted us after a tenant reported water pooling near the hallway baseboards. The source turned out to be a slow slab leak that had been wicking moisture into the subfloor for several weeks without triggering an obvious water bill spike. We located the leak with thermal imaging, coordinated with the plumber on the pipe repair, extracted moisture from the affected flooring, and dried the slab and subfloor assembly before mold had a chance to establish. The property manager had a documented drying log and photos ready for the insurance adjuster before the week was out. *(Representative scenario — not attributed to a specific individual.)*
-
 If you're dealing with water, fire, or mold damage anywhere in Duncanville, call MCC Restoration and Contracting Services at **(682) 772-9123**. We'll assess the situation, walk you through the process, and get your property moving toward restored.

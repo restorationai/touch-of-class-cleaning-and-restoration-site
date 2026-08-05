@@ -45,8 +45,4 @@ Plantation Acres' large lots and mature tree canopy create a specific pattern of
 
 RestorationXpress operates out of Davie, which shares a border with Plantation along University Drive and Nob Hill Road. From our facility, we can reach the 33317 and 33313 ZIP codes via Broward Boulevard in a short drive under normal traffic conditions. Plantation Preserve Golf Course and the neighborhoods east of 441 in ZIP code 33325 are similarly close — typically a straight shot west on Sunrise Boulevard or Peters Road. We serve all of Plantation, including Lauderdale West near the 33313 corridor and the communities surrounding Volunteer Park. We schedule promptly and will give you a realistic arrival window when you call.
 
-## A recent Plantation response
-
-A property manager overseeing a four-unit townhome complex near Jacaranda called after a second-floor washing machine supply line failed overnight, sending water through the subfloor and into the unit below. By the time the damage was discovered the next morning, both units had saturated drywall and buckled laminate flooring. We arrived the same day, extracted standing water, set drying equipment across both units, and produced a single insurance package covering both claims — which simplified the adjuster's review and kept the repair timeline from dragging across two separate work orders. This scenario is representative of the calls we receive from Plantation property managers; details will vary.
-
 If you are dealing with water, fire, mold, or storm damage anywhere in Plantation — from Plantation Acres to Plantation Isles — call RestorationXpress at **(954) 964-6471**. We will assess the situation, explain what needs to happen, and get a crew moving.

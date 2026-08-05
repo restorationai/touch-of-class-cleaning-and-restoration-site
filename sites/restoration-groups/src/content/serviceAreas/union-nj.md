@@ -55,8 +55,4 @@ When structural repairs follow a water, fire, or mold job, we carry the work thr
 
 The Restoration Group is based in Kenilworth, which shares a border with Union Township. From our yard, crews reach Vauxhall and the Morris Avenue corridor within minutes via Route 82. Union Center, Battle Hill, and Washington are a short drive north. Putnam Ridge and Larchmont sit at the township's far edges but are still well within our primary service footprint. Because we operate 24/7, dispatch happens regardless of when the call comes in — middle of the night, holiday weekend, or rush hour on Route 22.
 
-## A recent Union response
-
-A property manager overseeing a six-unit building near the Union Center business district called after a second-floor washing machine supply line failed overnight. By the time the first tenant noticed water coming through a light fixture on the floor below, two units had standing water and a third had wet drywall. Our crew arrived, extracted water from both affected units, set drying equipment across all three floors, and provided the manager with a written moisture log and photo documentation within the first day — the format her carrier required to open the claim without delay. The building was dry and ready for repairs within the standard drying window.
-
 If you're dealing with a loss in Union right now — or want to talk through a situation before it gets worse — call **(908) 970-8533**. We answer around the clock, and our crews are close.

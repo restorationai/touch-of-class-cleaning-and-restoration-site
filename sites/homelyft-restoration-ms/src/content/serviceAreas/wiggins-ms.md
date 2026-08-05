@@ -47,8 +47,4 @@ Once mitigation is complete, damaged drywall, flooring, cabinetry, and framing n
 
 HomeLyft Restoration MS is headquartered in Gulfport, roughly 50 miles south of Wiggins via US-49 North. That route runs straight through the heart of Stone County and is the primary corridor our crews travel when responding to calls in the Wiggins area. Scheduling is handled by phone at (228) 284-5200 — call to discuss your situation and we will confirm availability and an estimated arrival window based on current crew deployment. We serve the full Wiggins area including properties along the US-49 corridor, rural routes throughout Stone County, and surrounding communities.
 
-## A recent Wiggins response
-
-A homeowner in the Wiggins area called after noticing soft spots in their living room floor following a week of heavy rain. By the time they reached us, the crawl space had been holding standing water for several days and the subfloor sheathing had begun to delaminate. HomeLyft crews extracted the standing water, set drying equipment under the floor, and documented moisture readings daily until the structure reached acceptable levels. The homeowner's insurance carrier received a complete drying log and photo record, and build-back on the damaged subfloor sections was completed within the same claim. This scenario is representative of the calls we receive from Stone County property owners — not attributed to a specific individual.
-
 If you are dealing with water, fire, or mold damage at a Wiggins property, call HomeLyft Restoration MS at **(228) 284-5200** to speak with someone who can walk you through next steps and get a crew scheduled.

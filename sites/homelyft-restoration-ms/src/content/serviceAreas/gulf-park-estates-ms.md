@@ -53,8 +53,4 @@ Sewage backups, which happen with some regularity in Gulf Park Estates during he
 
 Our Gulfport headquarters sits roughly 5 to 8 miles west of Gulf Park Estates via US-90, the main coastal corridor. Depending on traffic and the specific street, most of the community is a straightforward drive along the beachfront highway or accessible by cutting inland on US-49 and looping east. We schedule calls promptly and dispatch based on job urgency — active flooding or a fire loss gets priority routing. If you're calling during our business hours, expect a real person to answer and a crew deployment conversation to happen on that same call, not a callback queue.
 
-## A recent Gulf Park Estates response
-
-A property manager overseeing a rental home near the eastern end of Gulf Park Estates contacted us after a slow roof leak went unnoticed for several weeks during a tenant turnover. By the time the new tenant moved in and reported a musty smell, mold had colonized the OSB sheathing behind the master bedroom wall and spread into the adjacent closet. We arrived, confirmed the extent with moisture mapping, set up containment to isolate the work area from the occupied portions of the home, and removed the affected materials over two days. The property manager had the remediation report in hand before the end of the week — useful documentation for both the insurance claim and the future tenant file. This scenario is representative of the calls we receive; details vary by property.
-
 If you're dealing with water, fire, mold, or storm damage in Gulf Park Estates, call HomeLyft Restoration MS at (228) 284-5200. We'll talk through what you're seeing, tell you what to do right now to limit further damage, and get a crew moving.

@@ -49,8 +49,4 @@ Once the damage is mitigated, most properties need some level of rebuild — dry
 
 From our San Diego headquarters, Escondido is roughly 30 miles north on I-15. Under normal traffic conditions, a crew can reach most of the city in 45 to 60 minutes. We cover all of Escondido's ZIP codes, including 92025, 92026, and 92027, and we're familiar with the access quirks of hillside properties in the older downtown-adjacent blocks as well as the gated communities in the northeastern part of the city. For after-hours calls — which is when most pipe failures actually happen — our dispatch line, (855) 204-1124, connects to a live coordinator, not a voicemail box.
 
-## A recent Escondido response
-
-Earlier this year, a property manager overseeing a 12-unit complex in the 92025 ZIP code called us on a Sunday morning after a second-floor water heater pan drain had backed up and soaked through to the unit below. By the time the tenant noticed the ceiling bubbling, the subfloor above had been wet for several hours. A Flood Fixers crew arrived within 70 minutes, extracted standing water from both units, and set drying equipment before noon. The property manager had an adjuster-ready moisture report by end of day — a detail that meaningfully shortened the claims cycle. This scenario is representative of the multi-unit water losses we respond to regularly across Escondido.
-
 If you're dealing with a water, fire, mold, or smoke emergency anywhere in Escondido, call Flood Fixers at **(855) 204-1124**. We'll tell you exactly who is coming, when they'll arrive, and what to do — or not do — in the meantime.

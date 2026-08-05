@@ -43,8 +43,4 @@ South Dakota's temperature swings compound the problem. Freeze-thaw cycles betwe
 
 Our Sioux Falls headquarters sits roughly 12 miles north of Worthing via I-29 — a straightforward run south to Exit 68 with no complicated routing. From there we can reach Downtown Worthing and East Worthing quickly, and we cover the full 57077 ZIP without treating outlying addresses as secondary stops. When you call (605) 965-2727, we'll give you an honest estimate of when a crew can be on-site based on current job load and scheduling — no vague promises, just a real answer.
 
-## A recent Worthing response
-
-A property manager overseeing a rental home near Worthing City Park called after a tenant reported water pooling on the basement floor following two days of heavy rain. By the time we arrived, standing water had reached the base of the drywall on two walls and the carpet pad was fully saturated. We extracted the water, removed the damaged flooring and lower sections of drywall, set up a drying system, and coordinated directly with the property owner's insurance carrier throughout the documentation process. The basement was dry, treated, and ready for reconstruction within the week. *(Representative scenario — not attributed to a specific individual.)*
-
 If you're dealing with water, smoke, mold, or structural damage at a Worthing property, the right move is a quick call before the problem compounds. Reach Crew Restoration & Construction at **(605) 965-2727** — we'll walk you through what to do right now and get a crew scheduled.

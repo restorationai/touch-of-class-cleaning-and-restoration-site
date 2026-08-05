@@ -53,8 +53,4 @@ Once mitigation is complete, we can carry the project through repairs and rebuil
 
 ProRestoration Services is based in Bakersfield, roughly 25 miles southeast of Shafter via Highway 99 North or the more direct route along 7th Standard Road. Both routes are straightforward and free of significant traffic delays outside of peak commute windows. We serve all of Shafter's ZIP code 93263 — including Gossamer Grove on the city's growing northwest edge, the established neighborhoods of North Shafter, and the older commercial and residential blocks of Downtown Shafter. Because we operate 24/7, a call at 2 a.m. after a pipe failure gets the same response as a call at noon.
 
-## A recent Shafter response
-
-A property manager overseeing a rental home in North Shafter called after a tenant reported water coming up through the bathroom floor late on a weeknight. When the crew arrived, they found a slow slab leak that had been saturating the subfloor for an estimated several days — the kind of loss that looks minor from the surface but has already reached the wall framing. Moisture mapping confirmed the damage extended into an adjacent bedroom. The team extracted standing water, set drying equipment, and coordinated directly with the owner's insurance adjuster, providing photo documentation and a moisture log that moved the claim forward without delays.
-
 If you're dealing with water, fire, or mold damage anywhere in Shafter — from a Gossamer Grove appliance failure to a commercial loss near Mannel Park — call ProRestoration Services at **(661) 393-9306**. We're available around the clock, and we'll walk you through the next steps before we even arrive on site.

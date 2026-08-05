@@ -57,10 +57,4 @@ When damage goes beyond remediation — a collapsed section of a stone foundatio
 
 FireDEX Butler's Cranberry Township headquarters puts Zelienople within easy reach via Route 19 north, a direct corridor that connects the two communities without highway interchange delays. The Four Corners area and Jackson Township are accessible from the same route, while neighborhoods closer to the Zelienople Municipal Airport or the Harmony borders are a short additional drive east or west. Because we operate 24/7, a call at 2 a.m. after a basement flood gets the same dispatch priority as a midday call — crews are staged and available around the clock.
 
-## A recent Zelienople response
-
-A property manager overseeing a two-unit rental on a low-lying street near Zelienople Community Park called us after a sustained rain event pushed several inches of water into both ground-floor units. By the time our crew arrived, the water had receded but saturated the subfloor and lower wall cavities. We extracted residual moisture, set drying equipment, and used thermal imaging to confirm the extent of saturation behind the baseboard trim — findings that proved critical when the property manager submitted the insurance claim. Drying was complete within the carrier's documentation window, and reconstruction of the damaged flooring followed without a separate mobilization. *(This scenario is representative of the type of work we perform in Zelienople; specific details have been generalized.)*
-
----
-
 If you're dealing with water, fire, smoke, or mold damage anywhere in the 16063 ZIP code, call FireDEX Butler at **(724) 452-7400** — day or night. The sooner the assessment begins, the more of your structure and contents we can protect.

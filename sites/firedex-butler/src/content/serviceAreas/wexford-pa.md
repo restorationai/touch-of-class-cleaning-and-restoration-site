@@ -49,8 +49,4 @@ Because most Wexford losses involve finished living space, mitigation alone rare
 
 FireDEX Butler is headquartered in Cranberry Township, roughly eight miles north of Wexford via I-79 South to the Route 910 interchange. That corridor is a straight shot — no surface-road detours — and our crews are dispatched around the clock. Pine Township neighborhoods including the Village of Pine and English Farms are typically among the first North Hills communities we can reach. The Treesdale fringe and properties near the Franklin Park borders add a few minutes of local road travel from the interchange but remain well within our primary service area.
 
-## A recent Wexford response
-
-A homeowner in the English Farms area called us on a Sunday morning after discovering their finished basement had flooded overnight — the water heater had been slow-leaking behind a built-in bar cabinet for long enough to saturate the subfloor and wick several inches up the drywall. Because this was a 24/7 call, a crew was on-site the same morning. We removed the cabinet, extracted the water, and had drying equipment running before noon. The full moisture map and photo documentation were uploaded to the carrier's portal that afternoon. This scenario is representative of the lower-level water losses we handle regularly in Wexford — the specifics vary, but the response process does not.
-
 If you are dealing with a water, fire, smoke, or mold emergency in Wexford or anywhere in the 15090 ZIP code, call FireDEX Butler at **(724) 452-7400**. We answer every hour of every day, and we can have a crew moving toward your property while you are still on the phone with your insurance company.

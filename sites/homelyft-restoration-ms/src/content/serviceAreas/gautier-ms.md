@@ -45,8 +45,4 @@ HomeLyft Restoration MS is based in Gulfport. Gautier is a straightforward run e
 
 Because the local context list for specific Gautier neighborhoods was not provided at the time this page was written, we are not naming specific subdivisions here — contact us directly and we can confirm service to your address.
 
-## A recent Gautier response
-
-A property manager overseeing a rental home in eastern Gautier contacted us after a slow supply-line leak behind a bathroom wall went undetected for several weeks. By the time the tenant noticed soft flooring near the vanity, moisture had wicked into the adjacent bedroom wall cavity and the subfloor beneath the tile. We arrived, performed a full moisture mapping of the affected zone, removed the compromised drywall and subfloor sections, and ran drying equipment for four days until readings returned to baseline. The property manager's carrier received a complete photo log and moisture documentation, which helped move the claim forward without a supplemental dispute. The scenario above is representative of the type of work we perform — not attributed to a specific named individual.
-
 If you're dealing with water, fire, smoke, or mold damage at a Gautier property, call HomeLyft Restoration MS at **(228) 284-5200**. We'll walk through what you're seeing, help you understand the next steps, and get a crew scheduled to your address.

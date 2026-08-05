@@ -49,8 +49,4 @@ Once mitigation is complete, most homeowners don't want to manage a separate con
 
 Our crew is based in Saratoga Springs, which changes the math on response time. For most calls within the city — including neighborhoods like Harvest Hills, Lakeside, and the Ranches — we can have a technician on-site within 30 to 45 minutes of your call. Outlying areas near Redwood Road or the northern edge of the city toward Lehi typically see arrival in under an hour. We take calls 24 hours a day, every day of the year, including holidays. When you call (801) 995-2437, you reach someone who can dispatch immediately — not a national call center.
 
-## A recent Saratoga Springs response
-
-This scenario is representative of the calls we receive regularly. A property manager overseeing a rental home in the Lakeside area called on a Sunday evening after tenants reported water pooling in the hallway. A supply line to an upstairs bathroom toilet had failed slowly over several days, and by the time it was discovered, the subfloor and the ceiling of the room below were both saturated. We arrived within 35 minutes, extracted the standing water, opened the walls to expose wet framing, and had drying equipment running before midnight. We handled all documentation for the owner's insurance claim and completed reconstruction within two weeks — the tenants were displaced for only four nights.
-
 If you're dealing with water, fire, smoke, or mold damage in Saratoga Springs right now, call (801) 995-2437. We'll tell you honestly what we're seeing and what it takes to fix it — no pressure, no upsell.

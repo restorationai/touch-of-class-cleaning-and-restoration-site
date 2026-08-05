@@ -49,8 +49,4 @@ Once drying and remediation are complete, many properties need carpentry, drywal
 
 Coastal Restoration Services Inc is based in Vandenberg Village, roughly 35 miles southwest of Los Alamos via U.S. Highway 101 north to State Route 135. The drive through the Santa Ynez Valley corridor is straightforward outside of peak commute windows, and our crews are familiar with the route. We schedule prompt response for Los Alamos calls and can typically have a crew on-site the same day for active water intrusion or post-fire assessments — call (805) 345-7440 to confirm current availability and scheduling.
 
-## A recent Los Alamos response
-
-A property manager overseeing a rental on a quiet street in central Los Alamos called after a tenant reported water pooling near the base of an interior wall. By the time the crew arrived, moisture readings confirmed that a slow leak from a corroded galvanized supply line had been wicking into the wall cavity for weeks. The team extracted the water, opened the wall to expose saturated framing, and ran drying equipment for four days while documenting daily readings. The property manager forwarded the report packet directly to the insurance carrier, and reconstruction — new drywall, paint, and baseboard — was finished before the next tenant moved in. This scenario is representative of the calls we receive; details vary by property.
-
 If you're dealing with damage now or want to talk through what you're seeing before committing to a service call, reach out to Coastal Restoration Services Inc at (805) 345-7440. We'll give you a straight answer about what the situation likely involves and what comes next.

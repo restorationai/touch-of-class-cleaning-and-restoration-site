@@ -51,8 +51,4 @@ Vacation rental turnovers, unattended deaths in second homes, and the occasional
 
 From our Saratoga Springs headquarters, we reach Park City in approximately 45–55 minutes under normal conditions via US-40 through Parley's Canyon. During peak ski season, when I-80 and UT-224 through Kimball Junction can back up, our dispatch team monitors traffic in real time and routes accordingly. For properties in Old Town (ZIP 84060) and Prospector (also 84060), expect a technician on-site within 60 minutes of your call. Properties further east toward Jordanelle Ridge or in the 84098 corridor near Kimball Junction typically see arrival within 70 minutes. We answer at (801) 995-2437 every hour of every day.
 
-## A recent Park City response
-
-A property manager overseeing a short-term rental condo in Prospector called us on a Sunday morning after a guest reported water dripping from a light fixture — a sign that a supply line connection above the bathroom had been weeping slowly, possibly for the entire three-day stay. By the time our crew arrived, roughly 55 minutes after the call, moisture readings showed saturation in two wall assemblies and the subfloor beneath the tile. We extracted, dried, and documented the full scope within 72 hours so the property manager could file with their commercial carrier and rebook the unit with minimal lost revenue. This scenario is representative of the calls we receive from rental properties in Park City; specific details vary.
-
 If you're dealing with water, fire, mold, or a biohazard situation at a Park City property right now, call (801) 995-2437. We'll tell you exactly what to do in the next 30 minutes before we arrive.

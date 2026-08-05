@@ -49,8 +49,4 @@ Once mitigation is complete, we can carry the project through full reconstructio
 
 From our Kenilworth headquarters, North Bergen is roughly 18 to 20 miles northeast via the New Jersey Turnpike to Route 3 East or via Route 1/9 North through Secaucus — a drive that typically runs under 40 minutes outside peak traffic windows. Because we operate 24/7, late-night and early-morning dispatches avoid the congestion that makes Hudson County daytime travel unpredictable. We serve all of North Bergen's neighborhoods — Woodcliff, the Bergenline corridor, the Transfer Station area, the Guttenberg border, and the Fairview border — as well as commercial properties along Tonnelle Avenue and the Hudson River waterfront edge.
 
-## A recent North Bergen response
-
-A property manager overseeing a three-family walkup near the Bergenline Avenue business district called us after a second-floor supply line failed overnight and water ran through the floor into the first-floor unit's kitchen ceiling. By the time we arrived, the ceiling drywall had begun to sag. We extracted water from both units, opened the ceiling assembly to expose saturated joists, and set drying equipment across both floors simultaneously — documenting moisture readings at each visit so the property manager had a complete record when the building's carrier sent an adjuster. Reconstruction of the ceiling and affected cabinetry followed once the structure reached dry standard. This scenario is representative of the multi-unit water losses we handle regularly in North Bergen.
-
 If you're dealing with water, fire, mold, or storm damage in North Bergen, call The Restoration Group at **(855) 650-7422** — we answer 24 hours a day and can begin the assessment and mitigation process as soon as we're on site.

@@ -55,8 +55,4 @@ Once mitigation is complete, we handle the rebuild — drywall, flooring, cabine
 
 The Restoration Group's Kenilworth headquarters sits roughly 18 miles from Fort Lee via the New Jersey Turnpike and Route 3 or I-95 north. Our crews are dispatched 24/7, so whether the call comes in at 2 a.m. from a property manager in Linwood or midday from a homeowner in Palisade, we're moving. We serve all of 07024, including the high-rise corridors along the Hudson, the residential streets of Coytesville, and the commercial properties along the Main Street business district.
 
-## A recent Fort Lee response
-
-A property manager overseeing a mid-rise condominium in Central Fort Lee called us after a supply line failed inside a 12th-floor unit over a holiday weekend, pushing water into three units below before the building's shut-off was located. We arrived, confirmed moisture boundaries with thermal imaging, extracted standing water from all four units, and had drying equipment running before midnight. The property manager had a written moisture log and photo documentation ready for the insurance adjuster by the following morning — a timeline that kept the claim moving and the tenants informed.
-
 If you're dealing with water, fire, mold, or storm damage anywhere in Fort Lee, call The Restoration Group at **(855) 650-7422**. We answer around the clock, and we bring the documentation, equipment, and coordination that Fort Lee's dense, high-stakes property landscape demands.

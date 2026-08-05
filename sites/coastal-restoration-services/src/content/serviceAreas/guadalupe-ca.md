@@ -53,8 +53,4 @@ Once mitigation is complete, most properties need some level of rebuild — dryw
 
 Coastal Restoration Services Inc is headquartered in Vandenberg Village, roughly 15 miles northwest of Guadalupe via Highway 1 south through Casmalia and into town, or via Santa Maria and Highway 166 west depending on traffic. It's a straightforward drive with no significant geographic barriers between our base and Guadalupe. We schedule promptly and aim to have a technician on-site the same day for active water damage situations. Call **(805) 345-7440** during business hours to get on the schedule.
 
-## A recent Guadalupe response
-
-A property manager overseeing a small rental on the west side of Guadalupe called after a tenant reported soft flooring near the bathroom. When our technician arrived, thermal imaging showed moisture had tracked from a slow wax ring failure outward under the subfloor into the adjacent hallway — an area that looked and felt dry from the surface. We extracted the standing moisture in the crawl space, set drying equipment under the subfloor assembly, and documented the affected square footage with daily readings for the insurance claim. The subfloor was dry and within acceptable range within four days. *(Representative scenario — not attributed to a specific individual.)*
-
 If you're dealing with water intrusion, visible mold, smoke odor, or any other property damage in Guadalupe, the right move is to call before the problem gets larger. Reach Coastal Restoration Services Inc at **(805) 345-7440**.

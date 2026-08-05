@@ -49,8 +49,4 @@ For situations involving sewage backup, undiscovered loss events, or other bioha
 
 Coastal Restoration Services operates out of Vandenberg Village, roughly 25 to 30 miles northwest of Los Berros via US-101 South and the Los Berros Road corridor. That route is straightforward outside of peak commute windows on the 101 through Arroyo Grande. For property managers coordinating access or homeowners scheduling an assessment, call (805) 345-7440 during business hours to confirm scheduling and get a technician on the calendar. We do not overstate response windows — you'll get an honest estimate of when we can be on-site when you call.
 
-## A recent Los Berros response
-
-A property manager overseeing a rental home near the Los Berros Road corridor called after a tenant reported a musty smell that had developed over several weeks following a slow leak under the kitchen sink. By the time Coastal Restoration Services arrived for the assessment, moisture readings in the adjacent cabinet base and the subfloor below it were well above the threshold for mold-safe materials. The team removed the affected cabinetry and subfloor section, ran drying equipment for four days with daily moisture checks, and provided the property manager with a full photo-documented report for the insurance claim. The unit was back in rentable condition within two weeks. *This scenario is representative of the work we do; it is not attributed to a specific named client.*
-
 If you're dealing with water, fire, mold, or a related emergency at a Los Berros property, the clearest next step is a phone call. Reach Coastal Restoration Services Inc at **(805) 345-7440** — a technician can walk you through what to expect before anyone sets foot on your property.

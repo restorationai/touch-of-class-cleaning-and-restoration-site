@@ -49,8 +49,4 @@ Once mitigation is complete, the same company that dried your floors or cleaned 
 
 HomeLyft Restoration MS is headquartered in Gulfport, on the Mississippi Gulf Coast. Sharon is roughly 150 miles north, accessible via I-49 North through Hattiesburg and into the Jackson metro area, then northwest into Madison County. Depending on traffic and time of day, the drive runs approximately two and a half to three hours. For Sharon calls, we schedule prompt arrival windows and communicate clearly about timing — we don't quote minute guarantees we can't back up. Property managers with multiple Sharon-area units can arrange standing service agreements so response logistics are already in place before an emergency occurs.
 
-## A recent Sharon response
-
-A property manager overseeing a rental home in the Sharon area contacted HomeLyft after a tenant reported water pooling in the hallway following a heavy overnight storm. When the crew arrived, they found that water had entered through a compromised roof penetration, traveled down an interior wall, and saturated the subfloor across two rooms — damage that wasn't visible from the surface. The team extracted standing water, set drying equipment, and provided the property manager with a written moisture log and photo documentation the same day, which the insurance adjuster used to process the claim without a supplemental inspection. Representative scenario — not attributed to a specific individual.
-
 If you're dealing with water intrusion, smoke damage, mold, or the aftermath of a storm at a Sharon property, call HomeLyft Restoration MS at (228) 284-5200. We'll talk through what you're seeing, help you understand next steps, and schedule a crew to assess the damage before it gets worse.

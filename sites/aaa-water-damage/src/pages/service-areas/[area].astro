@@ -3,6 +3,7 @@ import { getCollection } from "astro:content";
 import BaseLayout from "~/layouts/BaseLayout.astro";
 import CtaBanner from "~/components/CtaBanner.astro";
 import FAQSection from "~/components/FAQSection.astro";
+import CaseStudies from "~/components/CaseStudies.astro";
 import InternalLinks from "~/components/InternalLinks.astro";
 import GoogleMap from "~/components/GoogleMap.astro";
 import { brand } from "~/lib/brand";
@@ -112,6 +113,7 @@ const otherLocs = locations.filter((l) => l !== primaryLoc);
     </section>
   )}
 
+  <CaseStudies areaSlug={data.area_slug} city={data.city} state={data.state} />
   <FAQSection faq={data.faq} eyebrow={`${data.city}, ${data.state}`} />
 
   <CtaBanner

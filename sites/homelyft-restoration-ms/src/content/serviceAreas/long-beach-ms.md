@@ -49,8 +49,4 @@ Once mitigation is complete, we handle the rebuild — drywall, flooring, cabine
 
 HomeLyft Restoration MS is based in Gulfport, which sits directly adjacent to Long Beach along U.S. 90. The drive from our Gulfport headquarters to the heart of Long Beach is typically under 15 minutes via U.S. 90 west, with access to neighborhoods throughout the city straightforward from that corridor. Properties north of the rail line are reached via Jeff Davis Avenue or Klondike Road. Our scheduling team can give you a realistic arrival window when you call — (228) 284-5200 — based on current crew availability and job load.
 
-## A recent Long Beach response
-
-A property manager overseeing a rental home near the Long Beach Harbor area contacted us after a tenant reported a musty smell that had been present for several weeks. When our crew arrived, moisture mapping revealed that a slow leak from a corroded supply line inside the wall had been saturating the bottom plate and lower drywall for an extended period — enough time for visible mold growth to establish behind the baseboard. We contained the area, removed the affected materials, dried the wall cavity, and provided the property manager with a full photo-documented report that supported the insurance claim. The unit was back on the rental market within two weeks.
-
 If you are dealing with water, fire, mold, or storm damage at a Long Beach property, call HomeLyft Restoration MS at **(228) 284-5200**. We will walk you through the next steps, help you understand what your insurance policy covers, and get a crew scheduled to your property.

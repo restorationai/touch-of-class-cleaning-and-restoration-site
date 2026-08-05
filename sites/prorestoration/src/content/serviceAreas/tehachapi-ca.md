@@ -49,8 +49,4 @@ Once the damage is dry and clean, the rebuild begins. We handle drywall, insulat
 
 ProRestoration Services operates out of Bakersfield, and Tehachapi sits roughly 40 miles east on CA-58 — a direct highway run with no urban traffic to fight. We reach Downtown Tehachapi and the neighborhoods along Tucker Road and Tehachapi Boulevard quickly. Bear Valley Springs and Stallion Springs add driving time on winding mountain roads, but both communities are well within our regular service area. We dispatch 24/7, so a call made at midnight near the Tehachapi Depot Railroad Museum or on the far side of Brite Lake reaches a live crew, not a voicemail.
 
-## A recent Tehachapi response
-
-A property manager overseeing a vacation rental near the Tehachapi Pass wind farms called us on a January morning after a tenant reported water coming through the kitchen ceiling. The owner was out of state. We arrived, located a split supply line in the attic that had frozen and thawed during an overnight temperature swing, extracted the water, and had drying equipment running before noon. We sent daily moisture readings to the property manager and coordinated directly with the insurance adjuster — the owner never had to fly in to manage the process. *(Representative scenario — not attributed to a specific individual.)*
-
 If you're facing a water, fire, smoke, or mold emergency anywhere in the Tehachapi area, call ProRestoration Services at **(661) 393-9306**. We're available around the clock, and we know what mountain-property losses look like.

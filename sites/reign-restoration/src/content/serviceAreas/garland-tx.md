@@ -51,8 +51,4 @@ Once mitigation is complete, most properties need some level of reconstruction �
 
 Reign Restoration is headquartered in Royse City, TX, roughly 25 to 30 miles east of Garland via I-30. That puts us well within practical service range for Garland and the surrounding eastern Dallas metro. Garland is a large city — it spans multiple ZIP codes and stretches from the older neighborhoods near downtown out to newer development along the northern and eastern edges — and our crew is familiar with navigating across it. Call (214) 304-0621 to schedule a response and get an honest estimate of when we can be on-site based on current crew availability.
 
-## A recent Garland response
-
-A property manager overseeing a rental home in Garland contacted Reign Restoration after a tenant reported water pooling near the base of an interior wall. What looked like a minor plumbing drip turned out to be a slow supply-line leak that had been running inside the wall cavity long enough to saturate the bottom plate and subfloor. Reign Restoration mapped the moisture spread, removed the damaged drywall and flooring, set drying equipment, and coordinated directly with the property owner's insurance adjuster to document the loss — keeping the property manager out of the middle of the claims process.
-
 If you're dealing with water, fire, smoke, or mold damage at a Garland property, call Reign Restoration at **(214) 304-0621**. We'll assess the damage, walk you through the process, and handle the documentation your insurance carrier needs from the first visit forward.

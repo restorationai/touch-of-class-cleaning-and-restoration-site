@@ -49,8 +49,4 @@ Once mitigation is complete, damaged materials need to be replaced — drywall, 
 
 HomeLyft Restoration MS operates out of Gulfport, roughly 90 miles south of McLain via US-49 North. The drive runs through Hattiesburg and into Greene County, a route our crews travel regularly for jobs throughout the region. McLain is a smaller community, and we want to be straightforward: scheduling lead times to McLain may be longer than for properties closer to the Gulf Coast. We encourage McLain property owners to call us as soon as a loss occurs at +12282845200 so we can give you an honest arrival estimate and, where needed, advise on immediate steps — like stopping the water source, opening windows if safe, or documenting damage with photos — while a crew is in transit.
 
-## A recent McLain response
-
-A property manager overseeing a rental home in the McLain area contacted HomeLyft after a tenant reported water pooling in two rooms following a severe overnight storm. By the time the manager reached the property the next morning, the subfloor in one bedroom had already begun to feel spongy underfoot. HomeLyft dispatched a crew, extracted the standing water, pulled back the affected flooring to expose saturated subfloor sheathing, and set a drying system that ran for several days under daily moisture monitoring. The manager received a complete photo and moisture-log report to submit to the insurance carrier. This scenario is representative of the calls we receive from Greene County property owners — not attributed to any specific individual.
-
 If you are dealing with water, fire, mold, or structural damage at a McLain property, call HomeLyft Restoration MS at +12282845200. We will walk you through what to do right now and get a crew moving toward Greene County.

@@ -55,8 +55,4 @@ Once mitigation is complete, we handle the rebuild — drywall, flooring, cabine
 
 The Restoration Group operates out of Kenilworth, roughly 25 miles southeast of Wayne via I-287 North or Route 22 West to I-287. We're available 24/7, so a call at 2 a.m. during a Passaic River surge gets the same response as a midday pipe burst. From Kenilworth, we can reach neighborhoods like Hoffman Grove and Mountain View along the river corridor, the lake communities off Alps Road, and the commercial zones near Willowbrook Mall and the Dey Mansion historic district. We don't quote arrival times in minutes because traffic on 287 and Route 23 varies — what we can tell you is that a live dispatcher answers every call and a crew is staged and moving before you hang up.
 
-## A recent Wayne response
-
-A property manager overseeing a small apartment building near the Packanack Lake area called us on a Sunday evening after a second-floor supply line failed and water had been running into the unit below for several hours. By the time we arrived, two ceilings were saturated and the subfloor was holding water. We extracted, set drying equipment across both units, documented the loss with photos and moisture readings for the carrier, and had the space dried within four days — the tenant was displaced for less than a week. *This scenario is representative of the type of calls we handle; details have been generalized.*
-
 If you're dealing with a loss in Wayne right now — or want to talk through a situation before it becomes an emergency — call (855) 650-7422. We're available around the clock, and the first conversation costs nothing.

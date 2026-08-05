@@ -45,8 +45,4 @@ Sioux County winters also drive freeze-thaw damage. A single hard cold snap — 
 
 Crew Restoration & Construction is headquartered in Sioux Falls, SD. Hawarden is roughly 45 miles southeast of Sioux Falls via SD-11 South into Iowa — a straightforward drive that puts our crew on the ground in Sioux County without routing through major metro congestion. We serve all of Hawarden's 51023 ZIP code, including the Central Avenue district, Downtown Hawarden, and the river-adjacent properties near the Big Sioux and Calliope Village. Call (605) 965-2727 to schedule a prompt assessment; our team will confirm an arrival window when you call.
 
-## A recent Hawarden response
-
-A property manager overseeing a rental near the Central Avenue district contacted us after a slow drain leak inside a bathroom wall went undetected through most of a winter — the kind of loss that only surfaces when a tenant notices soft flooring and a faint musty smell. By the time we arrived, moisture had wicked into the subfloor and the lower six inches of two adjacent wall cavities. We extracted the damaged materials, ran drying equipment for several days with daily moisture checks, and completed the reconstruction before the unit needed to be re-leased. The property manager coordinated with their carrier; we provided the photo documentation and scope they needed to move the claim forward. *(Scenario is representative of the type of work we perform in Hawarden — not attributed to a specific individual.)*
-
 If you're dealing with water, fire, mold, or structural damage anywhere in Hawarden, call Crew Restoration & Construction at **(605) 965-2727**. We'll assess the damage, walk you through the process, and get the work scheduled — no pressure, no guesswork.

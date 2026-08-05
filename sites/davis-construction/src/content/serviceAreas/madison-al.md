@@ -49,8 +49,4 @@ Because we hold a general contractor's license, mitigation and rebuild happen un
 
 Our shop is on the Madison side of Research Park Boulevard, which puts us within 15 minutes of most addresses in 35758 under normal traffic. For neighborhoods like Redstone Village and Blue Springs, typical on-site arrival after a call to (256) 771-0326 is 20–30 minutes. We cover all of Madison as well as the adjacent areas toward Madison Hospital and north along County Line Road into 35756. For after-hours emergencies, the same number reaches our on-call dispatcher — not a national answering service.
 
-## A recent Madison response
-
-A property manager overseeing a rental home near Bradford Creek Park called on a Tuesday morning after a tenant reported water pooling under the kitchen cabinets. By the time our technician arrived — roughly 25 minutes after the call — the subfloor beneath the dishwasher had already absorbed enough moisture to register at saturation on the meter. We extracted standing water, set containment to protect the adjoining hardwood, and had drying equipment running before noon. The property manager's carrier received our moisture documentation the same afternoon, and the subfloor replacement was scheduled within the adjuster's approval window. The tenant was back in a dry, repaired kitchen in under two weeks. This scenario is representative of the calls we handle regularly — specifics vary, but the process doesn't.
-
 If you're dealing with damage now or want to talk through what a restoration project in Madison typically involves, call (256) 771-0326. We'll give you a straight answer about scope, timeline, and what to expect from your insurance carrier — no pressure, no upsell.

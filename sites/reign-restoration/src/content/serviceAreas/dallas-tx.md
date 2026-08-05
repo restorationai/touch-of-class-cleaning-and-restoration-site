@@ -49,8 +49,4 @@ Once mitigation is complete, we can carry the project through full reconstructio
 
 Royse City sits roughly 30 miles east of downtown Dallas via I-30, putting us well within practical reach of the entire city. From our shop, we're on I-30 westbound toward Fair Park and Deep Ellum, or we take US-80 to reach Casa Linda and Lake Highlands before merging onto Loop 12 or Northwest Highway toward Preston Hollow and North Dallas (75230). Uptown and the Klyde Warren Park corridor are a straight shot down I-30 to I-35E north. Because we operate 24/7, a call at 2 a.m. after a pipe freeze near White Rock Lake gets the same response as a Monday morning call — a crew is dispatched, not a voicemail.
 
-## A recent Dallas response
-
-A property manager overseeing a fourplex near Fair Park (75210) called on a Sunday evening after a tenant reported water coming through a first-floor ceiling. By the time our crew arrived, the second-floor bathroom supply line had been leaking into the subfloor long enough to saturate the ceiling drywall below and begin wicking into two adjacent walls. We extracted, set drying equipment across both units, and had a moisture report ready for the insurance adjuster by the following morning — keeping the uninvolved units occupied and the claim moving. *This scenario is representative of the type of work we do; details have been generalized.*
-
 If you're dealing with water, fire, mold, or anything in between anywhere in Dallas — from a 1930s Tudor in the M Streets to a high-rise unit in Uptown — call Reign Restoration at (214) 304-0621. We answer every hour of every day.

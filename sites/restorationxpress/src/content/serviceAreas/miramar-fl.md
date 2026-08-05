@@ -51,8 +51,4 @@ RestorationXpress operates out of Davie, which puts Miramar directly in our prim
 
 Both the rapidly growing western developments along 33029 and the established eastern neighborhoods in 33023 are within our regular coverage area. If you manage a multi-family property or a commercial building near the Miramar Cultural Center, we're familiar with the documentation and scope requirements those losses typically involve.
 
-## A recent Miramar response
-
-A property manager overseeing a townhome community in Vizcaya called after a second-floor washing machine supply line failed overnight and water had traveled through the subfloor into the unit below. By the time the tenant noticed, both units had wet drywall and saturated carpet. We arrived, mapped the moisture spread with thermal imaging, extracted the water, and set a drying system across both units. We documented the loss photographically and provided the scope report the property manager needed to open the insurance claim the same day. This scenario is representative of the calls we receive from Miramar HOA communities — not a specific attributed account.
-
 If you're dealing with a water loss, fire damage, or a mold concern anywhere in Miramar, call RestorationXpress at **(954) 964-6471**. We'll walk you through what to expect before we ever arrive on site.

@@ -49,8 +49,4 @@ Rosedale homeowners carry good insurance and expect the finished product to matc
 
 ProRestoration Services operates 24/7 out of Bakersfield. Rosedale is a direct shot northwest via Rosedale Highway (CA-58 Business) or Coffee Road — typically a short drive under normal traffic conditions, closer still for calls originating near the Kern River Parkway western reaches or Froehlich Field. Neighborhoods like Westdale and Rosedale Ranch, which sit at the outer edge of the unincorporated area, add only a few minutes to the run. Because we're dispatching around the clock, there's no waiting for a crew to come on shift — whoever calls at 2 a.m. gets the same response as a midday call.
 
-## A recent Rosedale response
-
-A property manager overseeing a rental home in the Calloway/Hageman corridor called after a tenant reported water coming through the first-floor ceiling — an upstairs bathroom supply line had been weeping inside the wall for what turned out to be several days. ProRestoration Services arrived, opened the wall cavity, extracted saturated insulation, and set drying equipment across two floors. Moisture mapping confirmed the spread extended into the adjacent bedroom. The full drying and mold-prevention protocol was completed within the insurance carrier's documented timeline, and reconstruction — including texture and paint matched to the existing walls — was finished before the tenant's next lease period began. This scenario is representative of the calls we receive regularly in Rosedale.
-
 If you're dealing with water, fire, smoke, or mold damage anywhere in Rosedale, call ProRestoration Services at **(661) 393-9306** — we answer every hour of the day and night and can have a crew moving toward your address immediately.

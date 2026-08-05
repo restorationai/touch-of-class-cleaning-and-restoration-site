@@ -49,8 +49,4 @@ Unattended deaths, sewage backups, and hoarding cleanups require both technical 
 
 From our Saratoga Springs facility, we can reach most American Fork addresses in 12 to 20 minutes under normal traffic conditions — typically faster than a crew dispatched from Provo or Salt Lake City. We serve the full 84003 and 84004 ZIP codes. Call (801) 995-2437 any hour; we answer live.
 
-## A recent American Fork response
-
-A property manager overseeing a rental home received a tenant call on a January morning: the kitchen ceiling had started dripping overnight, and by the time anyone noticed, water had tracked down an interior wall into the finished basement below. Home Pride Restoration and Cleaning had a crew on-site within 18 minutes of the call. Thermal imaging identified moisture behind approximately 40 linear feet of drywall that showed no visible staining. Drying equipment was placed the same morning, and the property manager had a written moisture log to submit to the insurance adjuster by the end of the day. *(This scenario is representative of the calls we receive; it is not attributed to a specific named client.)*
-
 If you're dealing with water, fire, mold, or a biohazard situation in American Fork right now, call (801) 995-2437. We'll tell you exactly what to do in the next 10 minutes while a crew heads your way.

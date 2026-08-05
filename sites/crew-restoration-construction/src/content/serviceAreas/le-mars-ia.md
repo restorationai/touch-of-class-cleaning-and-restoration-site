@@ -49,8 +49,4 @@ Restoration without reconstruction leaves property owners managing two separate 
 
 Crew Restoration & Construction is headquartered in Sioux Falls, SD, approximately 75 miles north of Le Mars via I-29 South and US-75. That route runs directly into Plymouth County and puts our crews within practical reach of every part of Le Mars — from the historic blocks of Downtown Le Mars and the residential streets of the Foster Park area to commercial properties along the city's main corridors. We schedule prompt responses based on current crew availability; call us at (605) 965-2727 during business hours to discuss your situation and get a realistic arrival window for your specific address in the 51031 ZIP code.
 
-## A recent Le Mars response
-
-A property manager overseeing a rental home in the Foster Park area contacted us after a tenant reported a musty smell that had been building for several weeks. When our crew arrived, moisture mapping revealed that a slow drip from a supply line inside the bathroom wall had been saturating the adjacent bedroom's subfloor and lower wall cavity — conditions that had allowed mold to colonize roughly 40 square feet of material. We contained the area, removed the damaged subfloor and drywall, treated the framing, and completed the rebuild within the timeline the property manager needed to re-lease the unit. This scenario is representative of the calls we receive regularly from Le Mars rental property owners.
-
 If you're dealing with water, fire, mold, or structural damage at a Le Mars property, call Crew Restoration & Construction at **(605) 965-2727**. We'll walk through what you're seeing, explain the process honestly, and get the right crew scheduled for your situation.

@@ -51,8 +51,4 @@ If you smell gas, leave the building immediately, don't operate any switches or 
 
 All Pro Plumbing Heating and Air operates 24/7 out of Bakersfield. Tehachapi is roughly 40 miles southeast via Highway 58 — a straightforward mountain highway run that our technicians make regularly. Downtown Tehachapi and Golden Hills are the closest points; Bear Valley Springs and Stallion Springs add road time on the community's interior roads, but we make those drives. Dispatch is available around the clock, so whether it's a Saturday-morning pipe burst or a weeknight heating failure, you're calling a live line, not leaving a message.
 
-## A recent Tehachapi response
-
-A property manager overseeing a rental home in Golden Hills called us after a tenant reported no hot water and a wet spot spreading across the utility-room floor — a tank water heater had failed and been leaking slowly for long enough to saturate the subfloor. We arrived, shut off the supply, removed the failed unit, and had a new 50-gallon gas water heater installed and inspected the same day. The property manager was able to notify the tenant that hot water was restored before evening. This scenario is representative of the calls we receive; specifics vary by property and timing.
-
 If you're dealing with a plumbing, heating, or cooling problem in Tehachapi — whether you're in a gated community off Highline Road or a 1970s ranch home near the Tehachapi Depot Railroad Museum — call All Pro Plumbing Heating and Air at **(661) 863-9242**. We're available around the clock and we know the drive.

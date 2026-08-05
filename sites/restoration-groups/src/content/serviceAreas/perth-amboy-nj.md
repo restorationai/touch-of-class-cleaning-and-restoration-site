@@ -49,8 +49,4 @@ Once mitigation is complete, the same crew that dried or cleaned the structure c
 
 The Restoration Group is based in Kenilworth, NJ. Perth Amboy is roughly 18 miles southeast via the Garden State Parkway to Exit 127 or through Woodbridge on Route 9 — a straightforward drive in most conditions. We dispatch around the clock, so a call at midnight reaches a live person who can have a crew moving toward Downtown, the Waterfront, or Bayview Park within the hour. Traffic on the Parkway during peak hours can add time, but our dispatch team routes around it when possible and will give you an honest arrival estimate when you call.
 
-## A recent Perth Amboy response
-
-A property manager overseeing a six-unit building near Chase Avenue called us on a weekday morning after a second-floor supply line failed overnight and water had been running into the first-floor unit for several hours. By the time we arrived, there was standing water in two units and moisture readings in the shared wall assembly between them. We extracted the water, set drying equipment across both affected units, and documented the loss with photographs and moisture logs for the property's insurance carrier. Drying was complete within four days; reconstruction of the damaged ceiling and flooring followed without a separate contractor handoff. *This scenario is representative of the type of work we do in Perth Amboy multifamily buildings and will be replaced with a verified customer account.*
-
 If you're dealing with water, fire, smoke, or mold damage at a Perth Amboy property right now, call The Restoration Group at **(855) 650-7422**. We're available 24 hours a day, and the first step is a conversation — not a commitment.

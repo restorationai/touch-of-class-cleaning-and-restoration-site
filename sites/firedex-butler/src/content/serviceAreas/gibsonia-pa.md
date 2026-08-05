@@ -55,8 +55,4 @@ Once mitigation is complete, the same crew that dried your basement or boarded y
 
 FireDEX Butler's Cranberry Township headquarters is roughly 10 to 12 miles from central Gibsonia via Route 228 east to Route 8 south — a straightforward run under normal conditions. Treesdale, the Pine-Richland High School area, Richland Community Park, and the Deer Creek neighborhoods are all well within our regular service radius. For properties on private drives off Route 8, we note road conditions and equipment access on the first call so there are no surprises when the crew arrives. We operate 24 hours a day, seven days a week, so a sump alarm at 2 a.m. or a pipe burst on a holiday weekend gets the same response as a weekday morning call.
 
-## A recent Gibsonia response
-
-A property manager overseeing a home in the Treesdale community contacted us after a water heater supply line failed over a long weekend, leaving standing water across a finished lower level and wicking up into the framing of a home theater room. We arrived, extracted the water, and set a drying system that monitored moisture levels continuously over the following days. The manager received daily moisture readings by text, the carrier received a full photo and documentation package, and the homeowner returned from travel to a dry, documented loss ready for build-back — rather than a mold problem in progress. *This scenario is representative of the calls we receive; it is not attributed to a specific named client.*
-
 If you're dealing with water, fire, smoke, or mold damage anywhere in the Gibsonia area, call FireDEX Butler at **(724) 452-7400**. We're available around the clock, and we'll tell you exactly what to expect before we arrive.

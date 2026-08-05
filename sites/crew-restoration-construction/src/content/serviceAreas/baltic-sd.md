@@ -51,8 +51,4 @@ Once mitigation is complete, our construction team handles the rebuild — drywa
 
 Crew Restoration & Construction operates out of Sioux Falls, which sits roughly 15 miles west of Baltic via I-90 East. That's a straightforward drive with no significant routing complications in normal conditions. We can reach Downtown Baltic, the Big Sioux River area, and Baltic School-area neighborhoods from our Sioux Falls location without the delays that affect contractors coming from Brookings or Sioux Falls' far south side. Call us at (605) 965-2727 and we'll give you a realistic arrival window based on current conditions and crew availability.
 
-## A recent Baltic response
-
-A property manager overseeing a rental near the Big Sioux River area called us after a tenant reported water seeping under a basement door following three consecutive days of heavy rain. By the time we arrived, roughly two inches of water had spread across the basement floor and was beginning to wick into the lower courses of drywall. We extracted the standing water, removed the affected drywall to the flood cut line, set drying equipment, and provided the property manager with daily moisture readings and photos — the kind of documentation that made the insurance claim straightforward. This scenario is representative of the calls we receive from Baltic-area property owners; details will vary.
-
 If you're dealing with water, fire, mold, or storm damage at a Baltic property, call Crew Restoration & Construction at **(605) 965-2727**. We'll walk you through what to expect, what to document before we arrive, and how the process works with your insurance carrier.

@@ -53,8 +53,4 @@ Once drying and remediation are complete, our reconstruction team handles drywal
 
 Our Kenilworth office sits roughly 12 miles from Highland Park via the Garden State Parkway to Route 1 or through the surface route along Route 27. Because we operate 24/7, a crew can be dispatched at any hour — whether the call comes from a property manager on Raritan Avenue or a homeowner in North Highland Park who woke up to a wet basement. The Landing Lane Bridge and Route 27 give us two reliable approaches into the borough, and our familiarity with the neighborhood grid — from the Triangle to Meadow — means we are not navigating blind when every minute of active water intrusion matters.
 
-## A recent Highland Park response
-
-A property manager overseeing a two-family rental near the Raritan Avenue business district called us after a cast-iron drain stack failed inside a first-floor wall, saturating the finished basement apartment below. We arrived, extracted standing water, and mapped moisture through the wall assembly and into the subfloor using thermal imaging — damage that would not have been visible to a standard inspection. Drying equipment ran for four days, affected drywall and flooring were removed, and we submitted the full documentation package directly to the carrier. The tenant was displaced for less than two weeks. *This scenario is representative of the work we do; details are not attributed to any specific individual.*
-
 If you are dealing with water, fire, mold, or any property emergency in Highland Park, call The Restoration Group at **(855) 650-7422** — we answer every hour of every day and can have a crew moving toward your address while you are still on the phone.

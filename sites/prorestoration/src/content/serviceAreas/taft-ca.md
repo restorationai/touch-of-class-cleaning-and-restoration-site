@@ -43,8 +43,4 @@ The desert-edge climate around Taft cuts both ways. Low ambient humidity — dri
 
 ProRestoration Services operates 24/7 out of Bakersfield, roughly 35 miles northeast of Taft via Highway 119 and Highway 33. That route runs through Maricopa and into town from the north, and it's the fastest consistent path regardless of time of day. Downtown Taft, Ford City, and South Taft are all reachable on the same run; Taft Heights adds only a few minutes. We do not subcontract Taft calls to a third party — the crew that answers is the crew that shows up, with a fully stocked service vehicle.
 
-## A recent Taft response
-
-A property manager overseeing several rental units near Franklin Field called us on a Sunday evening after a tenant reported water coming up through the bathroom floor. When our technician arrived, a corroded galvanized drain line had separated at a coupling beneath the slab, saturating the subfloor and wicking into the base of two interior walls. We extracted the standing water, opened the affected walls for airflow, and placed drying equipment that evening. Moisture readings were within acceptable range by day four — faster than typical because of Taft's dry air — and we had the property documented and a scope submitted to the carrier before the end of the week. This scenario is representative of the calls we receive from Taft property managers.
-
 If you're dealing with water, fire, or mold damage anywhere in Taft — 93268 — call ProRestoration Services at **(661) 393-9306**. We answer around the clock, and we can walk you through next steps before we're even on the road.

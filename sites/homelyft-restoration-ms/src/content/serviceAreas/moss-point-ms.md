@@ -53,8 +53,4 @@ Sewage backups tied to aging municipal infrastructure and septic system failures
 
 HomeLyft Restoration MS is headquartered in Gulfport, roughly 45 miles west of Moss Point via US-90 or I-10 East to MS-63 South. Depending on traffic on the I-10/US-90 interchange and the MS-63 corridor through Escatawba Farms and into the city, our crews are making a straightforward coastal highway run with no significant geographic obstacles. We schedule Moss Point calls promptly and dispatch based on job urgency — contact us at (228) 284-5200 to describe what you're seeing and we'll give you a realistic arrival window at the time you call.
 
-## A recent Moss Point response
-
-A property manager overseeing a small rental portfolio called us after a tenant reported water pooling on the kitchen floor of a 1960s-era home. What looked like a supply line drip turned out to be a slow leak that had been running inside the wall cavity for an estimated three to four weeks — long enough to saturate the subfloor, the bottom plate, and the lower six inches of drywall on two walls. We extracted, set drying equipment, and provided the property manager with daily moisture logs she could forward directly to the insurance adjuster. The unit was back in rentable condition without the mold remediation scope that would have followed another week of undetected moisture.
-
 If you're dealing with water, fire, mold, or storm damage anywhere in Moss Point or Jackson County, call HomeLyft Restoration MS at **(228) 284-5200**. Describe what you're seeing and we'll walk you through next steps — no obligation, no pressure, just a clear picture of what the restoration process looks like from where you're standing.

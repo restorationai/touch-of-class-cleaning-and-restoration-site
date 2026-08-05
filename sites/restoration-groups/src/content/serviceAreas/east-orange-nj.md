@@ -53,8 +53,4 @@ Once the damage is mitigated, we handle the rebuild — drywall, flooring, cabin
 
 The Restoration Group operates out of Kenilworth, roughly 8 to 10 miles southwest of East Orange depending on the neighborhood. The most direct route runs up Route 22 East to the Garden State Parkway North, putting crews near Brick Church station and the 07017 corridor in under 20 minutes under normal traffic. Reaching Watsessing Park on the western border or properties along the Elmwood and Doddtown sections of 07018 adds only a few minutes. Because we operate 24/7, a call at any hour — including overnight pipe failures and weekend sewer backups — reaches a live dispatcher who can route the nearest available crew. We serve all East Orange ZIP codes: 07017, 07018, and 07019.
 
-## A recent East Orange response
-
-A property manager overseeing a 12-unit brick walk-up near the Cicely Tyson School called after a corroded galvanized riser failed on the third floor late on a weeknight, sending water through two units below before the building's shutoff was located. The Restoration Group arrived, extracted standing water from all three affected units, set drying equipment, and used thermal imaging to identify saturation inside a shared wall cavity that would not have been visible otherwise. A full moisture log was provided to the carrier within 48 hours, and reconstruction on the two most heavily damaged units was completed within two weeks — keeping vacancy time to a minimum for the owner.
-
 If you are dealing with an active loss or trying to assess damage from a recent event, call (855) 650-7422. We answer around the clock, work directly with your insurance adjuster, and can have a crew moving toward East Orange as soon as you hang up.

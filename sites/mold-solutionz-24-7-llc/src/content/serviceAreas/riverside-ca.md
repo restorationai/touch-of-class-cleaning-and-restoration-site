@@ -51,8 +51,4 @@ Once mitigation is complete, many property owners want a single contractor to ca
 
 From our Cerritos headquarters, Riverside is roughly 45 to 55 miles east via the 91 Freeway — a corridor we run regularly. We serve all of Riverside's major neighborhoods: Alessandro Heights, Canyon Crest, La Sierra, Wood Streets, Magnolia Center, Eastside, and the downtown core near the Fox Performing Arts Center and the Mission Inn. Because we operate 24/7, dispatch happens immediately when you call (714) 409-4758 — not at the next business opening. Drive time from Cerritos varies with traffic on the 91, but our team is familiar with the route and stages equipment before leaving so work can begin on arrival.
 
-## A recent Riverside response
-
-A property manager overseeing a fourplex near the corner of Magnolia Avenue and Arlington, in the 92506 ZIP code, called us after a second-floor toilet supply line failed overnight and water migrated through the subfloor into the unit below. By the time tenants noticed the ceiling bubbling, both units had sustained damage. We arrived, extracted water from both levels, set drying equipment across four rooms, and coordinated directly with the property owner's insurance adjuster — providing photo documentation and a moisture log that supported the claim. Tenants were back in the lower unit within eight days. *This scenario is representative of the calls we receive; details have been generalized.*
-
 If you're dealing with water, mold, fire damage, or an unplanned reconstruction need anywhere in Riverside, call Mold Solutionz 24/7 at **(714) 409-4758**. We're available around the clock, and the first conversation costs you nothing.

@@ -51,8 +51,4 @@ For Ewa Beach homeowners dealing with post-flood carpet or simply the salt-air g
 
 From our Honolulu base, Ewa Beach is a direct run west on H-1 — roughly 20 to 25 miles depending on the specific neighborhood. Ocean Pointe and Hoakalei Country Club sit near the Fort Weaver Road interchange; Ewa Villages and Iroquois Point are a few minutes further along the same corridor. Because we operate 24/7, we can dispatch at any hour — there's no waiting until business hours to get equipment moving toward your address. We cover all of 96706, including the newer phases of Ewa Gentry that continue to build out toward the second city.
 
-## A recent Ewa Beach response
-
-A property manager overseeing a rental home near Ewa Gentry called after the upstairs bathroom supply line failed while the tenants were traveling. By the time anyone noticed, water had traveled down through the subfloor into the first-floor ceiling. Our crew arrived, extracted the standing water, opened the ceiling to expose the wet framing, and set drying equipment running on both floors simultaneously. Daily moisture checks confirmed the structure was dry within the target window — the tenants returned to a home that was structurally sound and had no detectable mold growth. *(Scenario is representative of the type of calls we receive in Ewa Beach — not attributed to a specific individual.)*
-
 If you're dealing with water, fire, mold, or storm damage anywhere in Ewa Beach, call AAA Water Damage Restoration & Carpet Care at **(808) 349-3407**. We answer around the clock and can walk you through immediate steps while we're on the way.

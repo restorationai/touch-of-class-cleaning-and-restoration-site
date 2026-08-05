@@ -49,8 +49,4 @@ Once mitigation is complete, many homeowners and property managers need a single
 
 Arvin is approximately 25 miles southeast of our Bakersfield headquarters via Highway 58 east to Highway 223 south — a straightforward drive with minimal traffic outside of morning agricultural commute windows. We cover all of Arvin's 93203 ZIP code, including the Downtown Arvin area, the Bear Mountain Boulevard corridor, the Sycamore Road area, and properties along the Highway 223 corridor near Arvin High School and Di Giorgio Park. Because we operate 24/7, a call at 2 a.m. after a water heater failure gets the same dispatch process as a weekday afternoon call.
 
-## A recent Arvin response
-
-A property manager overseeing a rental fourplex in the Downtown Arvin area called after a tenant reported water coming through the ceiling of a ground-floor unit. By the time we arrived, the source — a slow-failing supply line in the upstairs bathroom — had saturated two walls and the subfloor between units. We extracted the water, set drying equipment across both affected units, and documented the moisture readings daily for the insurance carrier. The property manager received a complete scope of loss within 48 hours and the units were back to pre-loss condition before the end of the month. This scenario is representative of the multi-unit calls we handle regularly in Arvin.
-
 If you're dealing with water, fire, mold, or storm damage at a property in Arvin, call ProRestoration Services at **(661) 393-9306** — we're available around the clock and we'll walk you through next steps in English or Spanish.

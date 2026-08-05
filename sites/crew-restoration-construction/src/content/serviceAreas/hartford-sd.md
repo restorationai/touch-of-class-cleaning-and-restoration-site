@@ -49,8 +49,4 @@ Once mitigation is complete, Crew Restoration handles the rebuild. That means dr
 
 Crew Restoration & Construction is headquartered in Sioux Falls, and Hartford is a direct run west on Interstate 90 or Highway 42 — roughly 15 miles from our office to the center of Hartford. That proximity means we can reach Downtown Hartford, the Buffalo Ridge area, and properties throughout the 57033 ZIP code without the delays that come with distant dispatch. Scheduling is handled by phone at (605) 965-2727; call us to discuss timing based on your situation and our current availability.
 
-## A recent Hartford response
-
-A property manager overseeing a rental near Downtown Hartford called after a tenant reported water pooling in the basement following three days of heavy rain. By the time Crew Restoration arrived, standing water had reached the bottom two feet of drywall along the north foundation wall. We extracted the water, removed the damaged drywall and insulation, set drying equipment, and provided the property manager with daily moisture logs to share with the insurance carrier. The basement was dried, treated, and ready for reconstruction within the standard drying window — and the carrier processed the claim without dispute because the documentation was complete from day one.
-
 If you are dealing with water, fire, smoke, or mold damage at a Hartford property, call Crew Restoration & Construction at **(605) 965-2727**. We will walk through what you are seeing, explain the next steps, and get a crew scheduled to your address.

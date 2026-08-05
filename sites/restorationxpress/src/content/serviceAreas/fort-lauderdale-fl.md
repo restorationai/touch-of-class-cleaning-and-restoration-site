@@ -55,8 +55,4 @@ Once mitigation is complete, we can carry the project through to finished repair
 
 RestorationXpress is based in Davie, FL, which puts us roughly 8 to 12 miles from most Fort Lauderdale neighborhoods depending on traffic. From our Davie location, I-595 East connects directly to the city's core, and US-1 gives us a surface route into the eastern neighborhoods near Fort Lauderdale Beach and the 33304 and 33305 ZIP codes. Rio Vista and the Port Everglades area are accessible via I-595 to US-1 South without navigating downtown congestion. Call us at (954) 964-6471 to confirm scheduling for your specific address.
 
-## A recent Fort Lauderdale response
-
-A property manager overseeing a rental home in Coral Ridge called after a slow roof leak — unnoticed for several weeks while the tenant was traveling — had saturated the master bedroom ceiling and the top of an interior wall. By the time we arrived, the drywall had begun to delaminate and a musty odor was already present. We mapped the moisture with thermal imaging, set containment, and began drying the structural framing while simultaneously documenting the loss for the homeowner's carrier. The project moved from initial extraction through mold clearance and drywall replacement without the owner needing to manage multiple contractors. This scenario is representative of the calls we receive; it is not attributed to a specific named client.
-
 If you're dealing with water, fire, mold, or storm damage anywhere in Fort Lauderdale, call RestorationXpress at **(954) 964-6471**. We'll assess the situation, walk you through the process, and coordinate directly with your insurance carrier so you can focus on getting back to normal.

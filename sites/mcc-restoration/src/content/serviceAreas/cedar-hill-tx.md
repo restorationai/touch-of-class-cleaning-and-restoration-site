@@ -55,8 +55,4 @@ Once mitigation is complete, the rebuild begins. From replacing water-damaged ha
 
 MCC Restoration and Contracting Services is headquartered in Duncanville, which sits directly adjacent to Cedar Hill along the US-67 corridor. The drive to most Cedar Hill neighborhoods — Lake Ridge, High Pointe, Bear Creek area — runs roughly 10 to 15 miles depending on the exact address, with no significant traffic barriers between the two cities. We schedule promptly and will give you a realistic arrival window when you call. For non-emergency scoping and estimates, we can typically reach any Cedar Hill address the same day or next business day.
 
-## A recent Cedar Hill response
-
-A property manager overseeing a rental home in the Lake Ridge community contacted us after a heavy overnight rain event left the lower level with several inches of standing water — the result of drainage overwhelmed by the sloped lot and a foundation crack that had gone unnoticed. We arrived, extracted the water, pulled saturated flooring and baseboards, and set drying equipment. The moisture mapping revealed the water had wicked further into the wall framing than was visible, which we documented for the insurance claim. The home was dry, repaired, and re-occupied within two weeks. *(This scenario is representative of the type of work we perform in Cedar Hill; it is not attributed to a specific named client.)*
-
 If you're dealing with water, fire, mold, or storm damage anywhere in Cedar Hill, call MCC Restoration and Contracting Services at **(682) 772-9123**. We'll walk you through the next steps, explain what the process looks like for your specific situation, and get a crew scheduled.

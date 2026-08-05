@@ -43,8 +43,4 @@ Wildfire smoke is a separate but equally serious concern. During regional fire e
 
 Coastal Restoration Services Inc is headquartered in Vandenberg Village, on the Santa Barbara County side of the Highway 1 corridor. Callender is reachable via US-101 North through San Luis Obispo County, a straightforward route that the crew travels regularly for jobs throughout this part of the Central Coast. Call (805) 345-7440 to confirm current scheduling and get a crew dispatched as promptly as possible.
 
-## A recent Callender response
-
-A property manager overseeing a single-family rental in the Callender area contacted Coastal Restoration Services Inc after a tenant reported water pooling in the hallway — the source turned out to be a slow failure in a water heater supply line inside a utility closet. By the time it was discovered, moisture had wicked into the adjacent bedroom wall and under approximately 200 square feet of laminate flooring. The crew extracted the water, removed the flooring and baseboards, set drying equipment, and provided the property manager with daily moisture logs and photographs for the insurance claim. The structure reached dry standard within four days. *(This scenario is representative of the type of work we handle and is not attributed to a specific named client.)*
-
 If you are dealing with water, fire, smoke, or mold damage at a Callender property, call Coastal Restoration Services Inc at **(805) 345-7440**. The sooner mitigation begins, the more of the structure — and the contents inside it — can be saved.

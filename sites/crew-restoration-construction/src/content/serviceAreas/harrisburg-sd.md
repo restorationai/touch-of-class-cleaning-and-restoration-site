@@ -41,8 +41,4 @@ South Dakota's freeze-thaw cycle hits Harrisburg hard every spring. Frost depths
 
 Crew Restoration & Construction is headquartered in Sioux Falls, roughly 15 miles north of Harrisburg via I-29 South or SD-11. Downtown Harrisburg, Freedom Elementary, and Harrisburg High School are all within a straightforward drive from our dispatch location. Willow Run and the Journey subdivision, on the southern and eastern edges of town, add only a few minutes to that route. Call us at **(605) 965-2727** during business hours and we'll confirm scheduling and an estimated arrival window for your specific address in the 57032 area.
 
-## A recent Harrisburg response
-
-A property manager overseeing a rental home near Willow Creek called us after a tenant reported water staining on the ceiling of the main bedroom. By the time we arrived, the source turned out to be a slow roof leak that had been saturating the attic insulation for weeks — long enough for mold to begin forming on the sheathing. We removed the compromised insulation, treated the affected wood surfaces, dried the structure, and coordinated with the property owner's insurance carrier on documentation before patching the roof penetration and replacing the drywall. The home was back on the rental market within three weeks. *(Scenario is representative of the type of work we perform in Harrisburg — not attributed to a specific individual.)*
-
 If you're dealing with water, fire, mold, or storm damage at a Harrisburg property, the sooner mitigation starts, the less material typically needs to be replaced. Call Crew Restoration & Construction at **(605) 965-2727** to speak with someone who knows the area and can walk you through next steps.

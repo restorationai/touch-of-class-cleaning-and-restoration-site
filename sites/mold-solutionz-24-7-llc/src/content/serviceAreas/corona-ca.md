@@ -51,8 +51,4 @@ Once mitigation is complete, our reconstruction team can rebuild what was remove
 
 From our Cerritos headquarters, the most direct route to Corona runs east on the 91 Freeway, roughly 35 to 40 miles depending on traffic. We can also reach South Corona and the Dos Lagos corridor via the 15 Freeway interchange. Because we operate 24/7, we dispatch at any hour — middle-of-the-night slab leaks in the 92879 ZIP code near the Crossings at Corona or early-morning smoke calls near the Skyline neighborhood get the same response as a daytime call. We will give you an honest estimated arrival window when you call (714) 409-4758, based on current conditions and crew location.
 
-## A recent Corona response
-
-A property manager overseeing a small rental portfolio near the Dos Lagos shopping area called us after a tenant reported water pooling on the kitchen floor. By the time we arrived, the leak — a failed supply line under the dishwasher — had been running long enough to saturate the subfloor and wick up into the adjacent drywall. We extracted standing water, set drying equipment, and used a moisture map to show the property manager exactly what was wet and what was not. The documentation we provided was submitted directly to the carrier, and reconstruction of the damaged subfloor and lower cabinet run was completed before the next tenant moved in. This scenario is representative of the calls we handle regularly in Corona.
-
 If you are dealing with water, mold, fire, or any other property emergency in Corona, call Mold Solutionz 24/7 at **(714) 409-4758** — any hour, any day. We will walk you through next steps on the phone and get a crew moving toward your address.

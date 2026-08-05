@@ -53,8 +53,4 @@ Sewer backups in Kaimuki's aging drain system are not uncommon. Category 3 water
 
 Our Honolulu base puts Kaimuki within a short drive under normal H-1 and surface-street conditions — typically via Kapiolani Boulevard or Waialae Avenue depending on time of day. ZIP code 96816 covers the core of Kaimuki including the Waialae Avenue business district, the residential streets climbing toward Wilhelmina Rise, and the Maunalani Heights area above. We answer the phone 24 hours a day, seven days a week, and dispatch equipment the same call — not the next business morning.
 
-## A recent Kaimuki response
-
-A property manager overseeing a multifamily home near the Palolo Valley fringe called us after a supply line under a second-floor bathroom sink failed overnight. By the time the downstairs ohana unit tenant noticed water dripping through the ceiling, the subfloor had been saturated for several hours. We arrived, extracted standing water from both levels, identified moisture in the wall cavity between units using thermal imaging, and set drying equipment that ran for four days — keeping both units occupied throughout the process. This scenario is representative of the type of call we receive regularly in Kaimuki.
-
 If you're dealing with water, smoke, mold, or a sewage backup anywhere in Kaimuki — from the restaurant corridor on Waialae Avenue to the hillside homes on Wilhelmina Rise — call AAA Water Damage Restoration & Carpet Care at **(808) 349-3407**. We're available around the clock, and the sooner mitigation starts, the less damage there is to undo.

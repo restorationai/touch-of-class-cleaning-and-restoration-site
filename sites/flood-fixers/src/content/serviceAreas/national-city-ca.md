@@ -49,8 +49,4 @@ When mitigation uncovers structural damage — rotted subfloor from a long-runni
 
 Flood Fixers is headquartered in San Diego, and National City sits roughly 8 miles south via I-5 or SR-54. Under normal traffic conditions, a crew can be on-site in National City within 45 to 60 minutes of your call. For properties in the ZIP codes 91950 and 91951 — including areas near Sweetwater Road, the Mile of Cars corridor, and neighborhoods adjacent to Kimball Park — that window holds consistently outside of peak commute hours. We run 24-hour dispatch, so a 2 a.m. call gets the same response as a weekday afternoon.
 
-## A recent National City response
-
-A property manager overseeing a 12-unit building near Highland Avenue called us on a Tuesday evening after a tenant reported water coming up through the bathroom floor. By the time our crew arrived — 52 minutes after the call — two ground-floor units had standing water from a failed slab supply line. We extracted standing water, set drying equipment across both units, and had a moisture map and preliminary scope to the property manager's insurance adjuster by the following morning. Drying was complete in four days; reconstruction of the affected bathroom and hallway finished the following week. This scenario is representative of the multi-unit slab-leak calls we handle regularly in National City.
-
 If you're dealing with water, fire, or mold damage in National City right now, call Flood Fixers at **(855) 204-1124**. We answer every call directly — no answering service, no callback queue — and we can have a licensed technician at your door the same day.

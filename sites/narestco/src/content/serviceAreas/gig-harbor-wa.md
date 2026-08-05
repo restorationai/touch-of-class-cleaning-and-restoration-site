@@ -53,8 +53,4 @@ We handle sewage backups, unattended situations, and trauma scenes with EPA-comp
 
 From our Federal Way headquarters, a technician typically reaches central Gig Harbor — Harborview, Millville, the Finholm District — in 45 to 60 minutes under normal Narrows Bridge traffic conditions. Artondale and Rosedale neighborhoods run 50 to 65 minutes. For properties in the 98329 ZIP code near Kopachuck State Park or along the Cushman Trail corridor, plan for 60 to 75 minutes. We answer live 24 hours a day at (206) 883-0333; after-hours calls are not routed to voicemail.
 
-## A recent Gig Harbor response
-
-A property manager overseeing a rental cottage near Skansie Brothers Park called on a Sunday evening after tenants reported water pooling on the living room floor. When our crew arrived, they found a slow-leaking supply line had been saturating the vented crawl space for an estimated four to six days — long enough for visible fungal growth to appear on the rim joist. We extracted standing water from the crawl space, set drying equipment, and had a mold remediation scope to the property manager's insurance adjuster by Tuesday morning. The tenant remained in the unit throughout; we isolated the crawl space work area to avoid disrupting occupancy. *(This scenario is representative of the calls we receive; it does not identify a specific client.)*
-
 If you're dealing with water, fire, mold, or storm damage at a Gig Harbor property right now, call National Restoration Construction at **(206) 883-0333**. We'll tell you exactly how long it will take to reach you and what to do — or not do — before we arrive.

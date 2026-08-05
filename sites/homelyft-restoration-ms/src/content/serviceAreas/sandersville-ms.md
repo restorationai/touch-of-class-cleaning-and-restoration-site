@@ -49,8 +49,4 @@ Once drying or remediation is complete, many Sandersville properties need framin
 
 HomeLyft Restoration MS is headquartered in Gulfport and serves Sandersville as part of our broader Jones County coverage area. The most direct route runs north on US-49 through Hattiesburg and into Laurel before continuing toward Sandersville — roughly 90 miles depending on the specific address. Scheduling is handled promptly; call +12282845200 during business hours to reach a team member who can confirm availability and get a crew dispatched. For properties on the eastern side of Jones County, travel time is similar. We do not promise a specific on-site window in minutes, but we prioritize active-damage calls and communicate arrival estimates clearly when you call.
 
-## A recent Sandersville response
-
-A property manager overseeing a rental home in the Sandersville area contacted HomeLyft after a tenant reported soft spots in the bathroom floor and a persistent musty smell that had developed over several weeks. When the crew arrived, moisture readings confirmed that a slow leak at the toilet flange had been saturating the subfloor and traveling into the adjacent hallway — an area that looked and felt dry from above. The affected subfloor was removed, the framing dried and treated, and the bathroom was rebuilt to match the existing finish. The property manager received a full photo documentation package to submit with the insurance claim.
-
 If you're dealing with water, fire, mold, or storm damage at a Sandersville property, call HomeLyft Restoration MS at +12282845200. A real team member will walk through what you're seeing, explain the next steps, and get the right crew scheduled.

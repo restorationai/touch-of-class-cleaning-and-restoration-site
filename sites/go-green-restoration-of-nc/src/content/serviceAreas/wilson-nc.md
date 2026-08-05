@@ -47,8 +47,4 @@ When a tropical system or a fast-moving thunderstorm pushes through Wilson Count
 
 Go Green Restoration of NC is headquartered in Middlesex, roughly 25 to 30 miles northwest of Wilson via US-264 East. That puts us well within practical same-day response range for calls received during business hours. We serve all of Wilson's ZIP codes, including 27893 and 27896, and regularly work throughout the city — from properties near Barton College and the Wilson Medical Center area to residential streets in established neighborhoods across the county. If you're a property manager handling multiple units, we can coordinate a site visit and scope of work without requiring you to be on-site for the full assessment.
 
-## A recent Wilson response
-
-A property manager overseeing a rental home in Wilson contacted us after a tenant reported water pooling on the kitchen floor following several days of heavy rain. When our crew arrived, thermal imaging revealed that water had tracked behind the base cabinets and into the adjacent wall cavity — moisture that would have been invisible to a visual inspection alone. We extracted the standing water, removed the affected drywall and insulation, set drying equipment, and provided the property manager with a written moisture log and photo documentation the same day — exactly what her insurance adjuster needed to move the claim forward without delays.
-
 If you're dealing with water, fire, mold, or storm damage at a Wilson property, call Go Green Restoration of NC at (919) 906-5473 during business hours. We'll walk you through what to expect, answer questions about your insurance coverage, and get a crew scheduled to your address.

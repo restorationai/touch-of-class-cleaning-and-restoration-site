@@ -47,8 +47,4 @@ Unattended deaths, sewage backups, and trauma scenes require personal protective
 
 From our Saratoga Springs headquarters, we reach Riverton in 20–30 minutes under normal traffic conditions — roughly the same drive time as heading up Bangerter Highway to the 12600 South corridor. Neighborhoods in the 84065 ZIP code on the western side of the city are typically on-site within 25 minutes; addresses in the 84096 ZIP code near the Mountain View Corridor are often faster. We staff emergency lines 24 hours a day, and our goal is a technician at your door — not just a callback — within 60 minutes of your call to (801) 995-2437.
 
-## A recent Riverton response
-
-A property manager overseeing a rental near the Riverton City Park area called us on a Tuesday evening after tenants reported water pooling on the main-level hardwood floors. A supply line to the upstairs bathroom had been weeping inside the wall for what turned out to be several weeks. We arrived within 28 minutes, identified two additional wet cavities the visible damage hadn't revealed, set up containment and drying equipment that evening, and had a moisture log ready for the insurance adjuster's inspection by the following morning. The floors were saved; the claim closed without dispute. *(Representative scenario — not attributed to a specific client.)*
-
 If you're dealing with water, fire, mold, or any other property emergency in Riverton right now, call Home Pride Restoration and Cleaning at **(801) 995-2437**. We answer every call live, we dispatch from nearby, and we've been doing this work in the Salt Lake Valley since 1997.

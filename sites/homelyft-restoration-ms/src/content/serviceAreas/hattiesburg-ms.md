@@ -51,8 +51,4 @@ Once mitigation is complete, many property owners need more than cleanup — the
 
 Our Gulfport headquarters sits roughly 75 miles south of Hattiesburg via US-49 North — a straight shot up one of Mississippi's primary inland corridors. We serve Hattiesburg and surrounding Forrest County on a scheduled basis, and we work to prioritize active water-loss calls because every hour of standing water increases both the drying time and the scope of damage. When you call **(228) 284-5200**, our team will confirm current availability and give you an honest arrival window based on where our nearest crew is working that day. We do not make minute-level promises we cannot keep.
 
-## A recent Hattiesburg response
-
-A property manager overseeing a rental home in Hattiesburg contacted us after a tenant reported water coming up through the bathroom floor following several days of heavy rain. By the time we arrived, the subfloor under the tile had absorbed significant moisture and the crawl space below showed standing water along one wall. We extracted the crawl space water, established a drying system under the floor and inside the bathroom, and provided the property manager with daily moisture logs she could share directly with the insurance carrier. The subfloor was saved; only the tile and a section of damaged vapor barrier required replacement. *This scenario is representative of the calls we receive and is not attributed to a specific named client.*
-
 If you are dealing with water, mold, fire, or smoke damage at a Hattiesburg property, call HomeLyft Restoration MS at **(228) 284-5200**. We will walk you through what we are seeing, what needs to happen first, and what the process looks like from extraction through rebuild.

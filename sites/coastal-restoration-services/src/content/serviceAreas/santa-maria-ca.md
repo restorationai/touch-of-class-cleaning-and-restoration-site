@@ -49,8 +49,4 @@ Once mitigation is complete, damaged drywall, flooring, cabinetry, and structura
 
 Coastal Restoration Services Inc is based in Vandenberg Village, roughly 10 to 12 miles west of Santa Maria via Highway 1 to Betteravia Road or via Vandenberg Air Force Base Road connecting to the 101 corridor. The drive is typically 20 to 30 minutes depending on traffic and time of day, putting our crew well within practical range for prompt scheduling across the city. Call us at (805) 345-7440 during business hours and we'll confirm availability and get a crew dispatched.
 
-## A recent Santa Maria response
-
-A property manager overseeing a rental home in a residential neighborhood near the Santa Maria Town Center called after a tenant reported water pooling on the kitchen floor. By the time the manager arrived, the water had wicked under the laminate flooring and into the adjacent hallway subfloor. Our crew arrived, identified a failed dishwasher supply line as the source, extracted the standing water, pulled the affected flooring, and set drying equipment the same day. We documented moisture readings throughout the drying period and submitted the scope directly to the property owner's insurance carrier — this scenario is representative of the calls we handle regularly for property managers throughout the area.
-
 If you're dealing with water, fire, smoke, or mold damage at a Santa Maria property, call Coastal Restoration Services Inc at **(805) 345-7440**. We'll walk you through what to expect, answer your insurance questions, and get the right crew scheduled without the runaround.

@@ -49,8 +49,4 @@ Once mitigation is complete, many property owners want a single contractor to ha
 
 HomeLyft Restoration MS is based in Gulfport, roughly 45 miles west of Pascagoula via US-90 or I-10. Both routes are well-traveled and accessible in most weather conditions, though US-90 through Bay St. Louis, Waveland, and Biloxi gives crews a direct coastal path when interstate access is clear. We serve the full Pascagoula area, including properties along the waterfront, inland residential streets, and commercial corridors near the port. Scheduling is handled during our business hours — call (228) 284-5200 to confirm availability and get a crew dispatched as quickly as our current schedule allows.
 
-## A recent Pascagoula response
-
-A property manager overseeing a rental home in Pascagoula contacted us after a tenant reported soft spots in the bathroom floor and a persistent mildew smell that had developed over several weeks. When our crew arrived, thermal imaging revealed moisture that had wicked up from a slow supply line leak under the slab and spread laterally beneath the vinyl flooring into an adjacent bedroom — an area roughly three times larger than the visible damage suggested. We extracted the flooring, dried the slab and lower wall cavities, and coordinated directly with the property manager's insurance adjuster throughout the documentation process. This scenario is representative of the hidden-moisture calls we receive regularly in Pascagoula's older housing stock.
-
 If you're dealing with water, fire, smoke, or mold damage anywhere in the Pascagoula area, call HomeLyft Restoration MS at (228) 284-5200. We'll assess the situation, explain what needs to happen, and get the work scheduled without the runaround.

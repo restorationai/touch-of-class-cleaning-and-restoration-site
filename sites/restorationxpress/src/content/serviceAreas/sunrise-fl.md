@@ -49,10 +49,4 @@ Once mitigation is complete, we handle the rebuild — drywall, flooring, cabine
 
 RestorationXpress operates out of Davie, which sits directly south of Sunrise along University Drive and Flamingo Road. The drive from our Davie headquarters to central Sunrise neighborhoods like Welleby or Sunset Strip typically runs under 15 minutes in normal traffic via University Drive north. Reaching the western edge of the city — properties near Markham Park or the Sawgrass Lakes area along Nob Hill Road — adds a few minutes but remains a straightforward route with no highway delays. For scheduling, call us at (954) 964-6471 during business hours and we'll confirm an arrival window based on current crew availability.
 
-## A recent Sunrise response
-
-A property manager overseeing a rental home in Sawgrass Lakes contacted us after a water heater supply line failed overnight, leaving several inches of standing water across the laundry room and into an adjacent bedroom. We arrived, extracted the water, removed saturated baseboards and flooring, and set up a drying system that ran for four days. We communicated directly with the property owner's insurance carrier throughout, providing the moisture documentation they required to process the claim. The tenant was back in the space within the week. *(This scenario is representative of the type of work we handle in Sunrise and is not attributed to a specific named individual.)*
-
----
-
 If you're dealing with water, fire, mold, or storm damage at a Sunrise property, call RestorationXpress at **(954) 964-6471**. We'll walk you through what to expect, confirm coverage for your area, and get a crew scheduled.

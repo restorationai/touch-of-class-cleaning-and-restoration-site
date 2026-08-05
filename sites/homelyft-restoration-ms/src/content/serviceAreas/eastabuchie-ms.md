@@ -49,8 +49,4 @@ Once mitigation is complete, the same team that dried or cleaned the structure c
 
 HomeLyft Restoration MS operates out of Gulfport on the Gulf Coast. Eastabuchie is roughly 80 miles north via US-49, a route our crews travel regularly for Jones County calls. Depending on traffic and time of day, that's a meaningful drive — we won't pretend otherwise. What we can tell you is that we dispatch promptly when a call comes in, and we arrive with a fully loaded service vehicle rather than sending someone ahead to assess before equipment follows. For scheduling and availability, call us directly at (228) 284-5200 so we can give you an honest arrival window based on current crew location.
 
-## A recent Eastabuchie response
-
-A homeowner in the Eastabuchie area contacted HomeLyft after discovering standing water in their crawl space following several days of heavy rain — water that had been sitting long enough to begin wicking into the floor joists above. This is a representative example of the calls we receive from this part of Jones County. We arrived with extraction equipment and moisture mapping tools, identified that the saturation extended further than the visible water line, and set a drying configuration that addressed the subfloor assembly rather than just the crawl space floor. The homeowner's insurance carrier received our documentation directly, which moved the claim forward without the homeowner having to chase records.
-
 If you're dealing with water, fire, mold, or storm damage at a property in Eastabuchie, call HomeLyft Restoration MS at **(228) 284-5200**. We'll tell you exactly what we can do, what the timeline looks like, and what your insurance options are — before any work begins.

@@ -43,8 +43,4 @@ On the west side, the 2000s-era subdivisions near the Cecil Avenue corridor face
 
 All Pro Plumbing Heating and Air's Bakersfield headquarters puts Delano roughly 30 miles north via Highway 99 — a straightforward run up the valley. We cover all of Delano, including West Delano subdivisions, the Cecil Avenue corridor, the Randolph Street corridor, and properties near Downtown Delano. Because we operate 24/7, we can dispatch for emergencies at any hour; scheduling windows for non-emergency work are confirmed when you call so you know exactly when to expect us.
 
-## A recent Delano response
-
-A property manager overseeing a rental fourplex near the Randolph Street corridor called after a tenant reported water pooling in the hallway overnight — no visible broken pipe, just a steadily climbing water meter. The crew arrived, ran an electronic leak detection sweep, and located a pinhole failure in a corroded galvanized line running beneath the slab. The line was rerouted through the wall cavity, eliminating the need to break the full floor, and the repair was completed the same day. The property manager was advised to document the water intrusion for the insurance carrier before any flooring work began. *This scenario is representative of the calls we handle; details are illustrative and not attributed to a specific individual.*
-
 If you're dealing with a plumbing or HVAC problem anywhere in Delano — ZIP code 93215 or 93216 — call All Pro Plumbing Heating and Air at **(661) 863-9242**. We're available around the clock, and we'll give you a straight answer on what the repair involves and what it will cost before any work begins.

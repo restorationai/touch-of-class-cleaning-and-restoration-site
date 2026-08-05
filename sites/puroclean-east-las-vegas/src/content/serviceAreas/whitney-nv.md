@@ -49,8 +49,4 @@ For unattended situations, sewage backups, or other biohazard events in Whitney'
 
 Our East Las Vegas base puts Whitney directly in our primary service zone. Whitney Ranch, in the southeastern portion of the 89122 ZIP code, is a straightforward run south on Pecos Road or east via Flamingo — typically a short drive under normal traffic. Winterwood and the East Tropicana corridor are similarly close via Tropicana Avenue heading east from our location. We do not publish a minute guarantee, but Whitney is not a distant suburb — it is adjacent territory, and we prioritize it accordingly. Call us at (702) 551-3040 to confirm current scheduling and availability.
 
-## A recent Whitney response
-
-A property manager overseeing a fourplex near Whitney Mesa Recreation Area called after a second-floor water heater failed overnight, sending water through the subfloor into the unit below. Both units were occupied. We arrived, extracted standing water from the lower unit, opened the ceiling cavity to assess structural saturation, and set a drying system that allowed both tenants to remain in place through the process. The manager had documentation ready for the carrier within 48 hours of our first visit. This scenario is representative of the multi-unit calls we handle in Whitney — the details will vary, but the approach does not.
-
 If you're dealing with water, fire, mold, or a biohazard situation at a Whitney property right now, call PuroClean of East Las Vegas at **(702) 551-3040**. We serve the 89122, 89142, and surrounding ZIP codes and can schedule an assessment promptly.

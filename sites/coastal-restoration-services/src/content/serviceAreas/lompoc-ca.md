@@ -51,8 +51,4 @@ Once mitigation is complete, many property owners don't want to manage a separat
 
 Our Vandenberg Village headquarters sits just a few miles east of Lompoc along Highway 1 and Purisima Road — a straightforward drive with no significant traffic corridors between us and the city. Whether a call comes from the older neighborhoods near downtown Lompoc or from properties closer to the Highway 246 corridor, our crew is not crossing a mountain range or navigating a congested freeway to reach you. Call us at **(805) 345-7440** and we'll give you a realistic arrival estimate based on current crew availability.
 
-## A recent Lompoc response
-
-A property manager overseeing a small rental on the west side of Lompoc called after a tenant reported water pooling near the base of the kitchen cabinets. What looked like a slow drain leak turned out to be a pinhole failure in a copper supply line running under the slab — the kind of failure common in homes of that era. By the time we arrived, moisture had wicked up into the toe-kick boards and the lower six inches of drywall along two walls. We mapped the full moisture boundary, set containment, and had drying equipment running the same day. The property manager had documentation ready for the insurance adjuster before the end of the week. *(Representative scenario — not attributed to a specific individual.)*
-
 If you're dealing with a water, fire, or mold emergency in Lompoc, call Coastal Restoration Services Inc at **(805) 345-7440**. We'll walk you through what to expect before anyone sets foot on your property.

@@ -53,8 +53,4 @@ Once mitigation is complete, we handle the rebuild — drywall, flooring, cabine
 
 Home Pride Restoration and Cleaning is headquartered in Saratoga Springs, roughly 15 to 20 minutes from central Orem via US-89 under normal traffic conditions. Most Orem calls see a technician on-site within 45 to 60 minutes of your call to (801) 995-2437. We serve all Orem ZIP codes, including 84057 and 84058, and our coverage extends across the full city — from the established neighborhoods near University Parkway to the newer developments south toward the Vineyard border.
 
-## A recent Orem response
-
-A property manager overseeing a multi-unit building near the University Mall area called us on a Tuesday morning after a second-floor washing machine supply line failed overnight. By the time the leak was discovered, water had saturated the subfloor, migrated into the first-floor ceiling cavity, and begun wicking into the drywall on both levels. Our crew arrived within 55 minutes, extracted standing water, opened the wall and ceiling assemblies to expose the wet framing, and had commercial air movers and dehumidifiers running before noon. We documented moisture readings at every stage and submitted the photo log directly to the property's insurance carrier. This scenario is representative of the calls we handle regularly — not attributed to a specific individual.
-
 If you're dealing with an active emergency or you found damage this morning and aren't sure what to do next, call (801) 995-2437. We'll walk you through immediate steps on the phone and get someone moving toward your property.

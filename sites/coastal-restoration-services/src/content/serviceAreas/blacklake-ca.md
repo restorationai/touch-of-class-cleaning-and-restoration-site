@@ -47,8 +47,4 @@ Once mitigation is complete and the structure is dry and cleared, Coastal Restor
 
 Coastal Restoration Services Inc is headquartered in Vandenberg Village, roughly 35 to 40 miles northwest of Blacklake via U.S. 101 South and CA-1 or the more direct inland route through Santa Maria. Depending on traffic and time of day, the drive typically runs under an hour. Call (805) 345-7440 to reach the team directly — scheduling is handled promptly and the crew arrives with extraction and drying equipment loaded, not just for an assessment.
 
-## A recent Blacklake response
-
-A homeowner near the Blacklake Golf Resort area called after noticing a soft spot in their hallway floor following a week of heavy rain. What looked like a localized subfloor issue turned out to be a failed roof-to-wall flashing joint that had been channeling water into the wall cavity and down into the floor system for several days. Coastal Restoration Services Inc mapped the moisture intrusion with thermal imaging, extracted standing water from the crawl space, set drying equipment, and documented the full scope for the homeowner's insurance adjuster — keeping the claim process moving while the structure dried. *(This scenario is representative of the type of work we do in the area; it is not attributed to a specific named client.)*
-
 If you're dealing with water, mold, fire, or smoke damage at a Blacklake property, call Coastal Restoration Services Inc at **(805) 345-7440**. The sooner mitigation begins, the smaller the repair scope tends to be — and the team can talk you through next steps before anyone even gets on the road.

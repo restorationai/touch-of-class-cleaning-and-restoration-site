@@ -51,8 +51,4 @@ Rental turnovers near MCBH and along the Kaneohe Bay Drive corridor are a consis
 
 From our Honolulu base, Kaneohe is accessible via the H-3 freeway through the Ko'olau tunnels or the Likelike Highway — typically a straightforward drive that puts us in neighborhoods like Ahuimanu, Haiku Village, and the Kaneohe Bay Drive corridor without navigating significant surface-street delays. We also reach Kahaluu and properties near Ho'omaluhia Botanical Garden regularly. Because we operate 24/7, we can dispatch at any hour — call (808) 349-3407 and we'll confirm an arrival window when we pick up.
 
-## A recent Kaneohe response
-
-A property manager overseeing a rental home in Ahuimanu called us after a weekend storm sent hillside runoff under the back door and across the kitchen and hallway floors. By the time she reached us, the water had been sitting long enough to wick into the baseboards and subfloor. We extracted standing water, set drying equipment across the affected rooms, and used a moisture meter to confirm the subfloor had returned to acceptable levels before we pulled equipment — giving her the documentation she needed to photograph for her insurance claim file and move forward with repairs.
-
 If you're dealing with water, mold, fire damage, or a carpet situation at a Kaneohe property, call us at **(808) 349-3407**. We're available around the clock, and we'll walk you through next steps the moment you reach us.

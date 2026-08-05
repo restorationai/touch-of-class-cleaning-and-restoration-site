@@ -49,10 +49,4 @@ Because we handle both mitigation and rebuild, there is no handoff gap — the s
 
 The Restoration Group operates 24/7, and our Kenilworth office sits roughly 12 to 14 miles from Fair Lawn via Route 17 North or the Garden State Parkway to Route 208 — a straightforward run that keeps drive time short even in Bergen County traffic. We cover the entire borough: the historic blocks of the Radburn Historic District, the residential streets around Saddle River County Park, the commercial strip along the Broadway commercial district, and the flood-prone stretches of River Road. When you call (855) 650-7422, a live dispatcher answers and gets a crew moving — no voicemail queue, no next-business-day callback.
 
-## A recent Fair Lawn response
-
-A property manager overseeing a six-unit building near the Fair Lawn Community Center called us on a Sunday evening after a second-floor supply line failed and water had been running into the walls for several hours before a tenant noticed. Our crew arrived, extracted water from two units, opened wall cavities to expose saturated framing, and had commercial drying equipment running before midnight. We coordinated directly with the property's insurance adjuster throughout the week-long dry-out, providing daily moisture readings and a photo log that supported the claim without the property manager having to chase documentation.
-
----
-
 If you are dealing with water, fire, mold, or storm damage anywhere in Fair Lawn — from a flooded River Road basement to smoke damage near Memorial Park — call The Restoration Group at **(855) 650-7422**. We answer every call, every hour, and we can have a crew on the road to you today.

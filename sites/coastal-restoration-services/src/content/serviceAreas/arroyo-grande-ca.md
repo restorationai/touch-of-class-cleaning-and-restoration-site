@@ -53,8 +53,4 @@ Once mitigation is complete, the same contractor handles structural repairs — 
 
 Coastal Restoration Services Inc is based in Vandenberg Village, roughly 20 miles northwest of Arroyo Grande via Highway 1 south to Highway 101. The drive runs through Pismo Beach and into the city from the north, typically 25 to 35 minutes depending on traffic on the 101 corridor near the Five Cities area. For property managers or homeowners in the eastern parts of the city — closer to the Corbett Canyon Road corridor — routing through Los Berros Road can shave time during peak hours. Call (805) 345-7440 to confirm scheduling and get an accurate arrival estimate for your specific address.
 
-## A recent Arroyo Grande response
-
-A property manager overseeing a rental home near the historic Village district contacted the team after a tenant reported a slow drain that had, over several weeks, allowed water to seep beneath the bathroom tile and into the subfloor. By the time it was discovered, the moisture had migrated into an adjacent bedroom wall. Thermal imaging confirmed the full extent of the saturation — roughly twice what was visible to the eye. The team dried the structure in place where possible, replaced the compromised subfloor section and lower wall cavity, and provided the property manager with a photo-documented moisture log that supported the insurance claim without dispute.
-
 If you are dealing with water, fire, mold, or structural damage at a property in Arroyo Grande, call Coastal Restoration Services Inc at **(805) 345-7440**. The sooner the assessment begins, the more of the structure — and the claim — can be preserved.

@@ -53,8 +53,4 @@ Once mitigation is complete, many Lyman homeowners need the damaged areas rebuil
 
 Our Gulfport headquarters puts us roughly 10 to 15 miles from Lyman via U.S. Highway 49 or I-10, depending on exactly where your property sits in Harrison County. That distance is straightforward on most days, and we prioritize Lyman calls on our dispatch schedule the same way we do calls from Gulfport itself. When you call **(228) 284-5200**, our team will confirm scheduling and give you a realistic arrival window based on current crew availability — we will not give you a time we cannot keep.
 
-## A recent Lyman response
-
-A property manager overseeing a rental home in the Lyman area contacted us after a slow leak behind a bathroom wall went undetected for several weeks while the unit was between tenants. By the time it was discovered, moisture had spread into the adjacent bedroom wall and the subfloor beneath the tile. We arrived, mapped the moisture with thermal imaging, removed the affected drywall and flooring, dried the structure over several days with commercial dehumidifiers and air movers, and provided the documentation the property manager needed to file with the owner's insurance carrier. The unit was back in rentable condition without the mold remediation escalation that would have followed another week of delay. *This scenario is representative of the type of work we handle — not attributed to a specific individual.*
-
 If you are dealing with water, fire, smoke, mold, or storm damage at a Lyman property, the next step is a phone call. Reach HomeLyft Restoration MS at **(228) 284-5200** to describe what you are seeing and get a crew scheduled.

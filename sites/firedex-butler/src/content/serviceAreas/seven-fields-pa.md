@@ -51,8 +51,4 @@ Mitigation is only half the job. After drying or remediation is complete, we han
 
 FireDEX Butler's shop is in Cranberry Township, which shares a border with Seven Fields to the south. Seven Fields Borough, Wakefield Estates, Castlebrook, and Brandywine are all reachable in a short drive — typically via Route 228 or the local connector roads that run between the Cranberry Township border and the Seven Fields Community Center. There is no long highway run, no county-line delay. Because we operate 24/7, a call at 2 a.m. about a burst washing-machine hose gets the same response as a call at noon.
 
-## A recent Seven Fields response
-
-A property manager overseeing a patio-home cluster in Brandywine called after a tenant reported water dripping from a first-floor ceiling — the source turned out to be a failed supply line on a second-floor washing machine that had been running slowly for several days. By the time we arrived, moisture had saturated the subfloor above, the ceiling drywall below, and had begun tracking toward the shared wall with the adjacent unit. We extracted the standing water, opened the ceiling to allow airflow, set drying equipment in both affected units, and kept the property manager updated with daily moisture readings until the structure reached dry standard. This scenario is representative of the calls we receive from Seven Fields — not attributed to any specific individual.
-
 If you're dealing with water, fire, smoke, or mold damage anywhere in Seven Fields Borough or the surrounding 16046 area, call FireDEX Butler at **(724) 452-7400**. We answer every hour of every day, and we're closer than you might think.

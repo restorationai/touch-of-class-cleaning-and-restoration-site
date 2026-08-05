@@ -49,8 +49,4 @@ After mitigation, many properties need structural repairs — subfloor replaceme
 
 From our Kenilworth, NJ headquarters, Brooklyn is a direct shot through the Staten Island Expressway and across the Verrazzano-Narrows Bridge — or through the Holland Tunnel and across Lower Manhattan depending on traffic conditions. We serve the full borough: Park Slope and Brooklyn Heights in the northwest, Bay Ridge along the waterfront, Flatbush and Canarsie in the south, and Williamsburg and Bushwick to the north. Because we operate 24/7, a call at 2 a.m. after a pipe bursts in a Prospect Park–area brownstone gets the same response as a call during business hours. We do not promise a specific arrival window in minutes — travel time depends on conditions — but we dispatch immediately and keep you updated en route.
 
-## A recent Brooklyn response
-
-A property manager overseeing a six-unit brownstone near Barclays Center called us after a supply line failed in a third-floor unit over a holiday weekend. Water had already migrated through the subfloor into the unit below. We arrived, extracted the standing water, and set drying equipment across both units. Moisture mapping showed the party wall between the affected unit and the neighboring building had absorbed water as well — we documented that finding for the insurer before any drying equipment was moved. The property manager had a full loss report within 48 hours, and both units were dry and cleared within the standard drying window.
-
 If you're dealing with a water, fire, mold, or storm emergency anywhere in Brooklyn, call The Restoration Group at **(908) 970-8533**. We answer around the clock and can walk you through next steps before a crew is even on the road.

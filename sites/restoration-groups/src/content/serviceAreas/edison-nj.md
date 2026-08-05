@@ -51,8 +51,4 @@ For property managers and business owners along the Route 1 retail corridor or n
 
 The Restoration Group's Kenilworth headquarters sits roughly 15 miles from central Edison via the Garden State Parkway to Route 1 or through Woodbridge on Route 9. Neighborhoods in the 08820 and 08837 ZIP codes — including Menlo Park and the areas near Roosevelt Park — are typically among the first we can reach. Clara Barton, Oak Tree, and Nixon in the 08817 and 08818 corridors add a few minutes depending on traffic on Route 27. Because we operate 24/7, a call at 2 a.m. after a basement flood gets the same dispatch response as a call at noon.
 
-## A recent Edison response
-
-A property manager overseeing a 40-unit complex in North Edison called after a third-floor supply line failed over a holiday weekend, sending water through two floors of finished ceilings and into ground-level storage units. The Restoration Group arrived, extracted water from affected units, opened ceiling cavities to expose saturated framing, and set a drying system across four units simultaneously — all while coordinating daily with the property manager and their carrier's adjuster so the claim documentation stayed current and the drying timeline matched what the insurer needed to approve the scope.
-
 If you're dealing with a water, fire, mold, or storm loss anywhere in Edison — from the Raritan floodplain to the Route 1 commercial strip — call The Restoration Group at **(855) 650-7422**. We're available around the clock, we work directly with your insurance carrier, and we've been doing this work in Central Jersey since 2021.

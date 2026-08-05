@@ -43,8 +43,4 @@ On the commercial side, the Livingston Mall retail corridor and the campus aroun
 
 From our Kenilworth headquarters, Livingston is a straightforward run — typically west on Route 22 to Route 527 north, or up the Garden State Parkway to Exit 142 and into town from the east side. The drive puts us into most Livingston neighborhoods without navigating the congestion that slows response into more urban Essex County addresses. Northland and Collins on the eastern side of town are the quickest reach; Riker Hill and the neighborhoods near the Livingston Town Center add only a few minutes. Because we operate 24/7, we're not waiting for a morning dispatch window — a call at 2 a.m. after a sump failure gets the same response as a call at noon.
 
-## A recent Livingston response
-
-A property manager overseeing a rental colonial in the Collins neighborhood called after a slow drain backup went unnoticed over a long weekend and saturated the finished basement — carpet, drywall, and a drop ceiling across roughly 900 square feet. The Restoration Group arrived, extracted the remaining water, removed the damaged materials, set drying equipment, and produced a full photo and moisture-log package that the property manager's insurance carrier accepted without a supplemental inspection. Framing was dry and cleared within four days; build-back was completed the following week.
-
 If you're dealing with water, fire, smoke, or mold damage anywhere in Livingston — 07039 or the surrounding streets — call The Restoration Group at **(855) 650-7422**. We document everything, work directly with most major insurance carriers, and stay on the job through the final walk-through.

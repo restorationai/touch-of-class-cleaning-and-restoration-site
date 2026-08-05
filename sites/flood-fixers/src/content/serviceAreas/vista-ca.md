@@ -49,8 +49,4 @@ Sewage backups in Vista's older neighborhoods often trace back to root intrusion
 
 From Flood Fixers' San Diego headquarters, a technician can reach most of Vista in approximately 35 to 50 minutes under normal traffic conditions — faster during off-peak hours. The team covers all of Vista's ZIP codes: 92081, 92083, and 92084. Neighborhoods like Shadowridge, Buena Vista, and the areas near Alta Vista Gardens are all within standard response range. For calls that come in during peak commute hours on the 78, dispatch routes around surface streets through Oceanside or San Marcos to avoid adding time. The goal is equipment on-site within 60 minutes of your call to (855) 204-1124.
 
-## A recent Vista response
-
-A property manager overseeing a fourplex near the Buena Vista Creek corridor called Flood Fixers on a Tuesday morning after a tenant reported water coming up through the bathroom floor — a sewage lateral had backed up overnight. Flood Fixers had a crew on-site within 45 minutes, contained the affected unit, documented the damage with photos and moisture readings for the insurance carrier, and completed the initial extraction and disinfection the same day. The property manager had a preliminary scope of work in hand before end of business for the adjuster's review.
-
 If you're dealing with water, fire, mold, or sewage damage anywhere in Vista, the faster you call, the less material gets replaced rather than restored. Reach Flood Fixers at **(855) 204-1124** — technicians are available around the clock, every day of the year.

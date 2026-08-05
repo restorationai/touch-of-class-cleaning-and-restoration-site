@@ -53,10 +53,4 @@ Quality Contracting, Inc. is headquartered in Auburn, which puts us roughly 5 mi
 
 If you are a property manager overseeing multiple units in the 01527 or 01586 ZIP codes, we can set up a preferred-client arrangement so you are not starting from scratch every time a tenant reports a leak.
 
-## A recent Millbury response
-
-A property manager overseeing a multi-family rental near Millbury Center contacted us after a slow roof leak went undetected through the winter and revealed itself as a significant mold problem in a second-floor bedroom ceiling. The tenant had already vacated. We were on-site the following business morning, contained the affected area to prevent cross-contamination to the adjacent unit, removed the deteriorated drywall and insulation, and treated the roof sheathing before the reconstruction crew closed everything back up. The unit was re-occupied within the lease window the property manager needed. *(This scenario is representative of the type of work we perform; it is not attributed to a specific named client.)*
-
----
-
 If you are dealing with water in your basement, smoke damage after a kitchen fire, or a mold problem you have been putting off, call Quality Contracting, Inc. at **(508) 756-8800**. We serve Millbury property owners across Bramanville, West Millbury, Millbury Center, and the surrounding area — and we are close enough to get there without making you wait.

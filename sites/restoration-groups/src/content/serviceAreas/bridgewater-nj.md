@@ -51,8 +51,4 @@ For property managers and building owners along the Route 22 corridor or at Brid
 
 From our Kenilworth headquarters, the most direct route to Bridgewater runs west on I-78 to Route 287 north — a straightforward highway run of roughly 25 miles. We can reach Green Knoll and the central township quickly via that corridor. Martinsville and the Chimney Rock area sit a few miles further west and south; Finderne is just north of the Route 22/287 interchange and is typically one of our first stops in the township. Because we operate 24/7, dispatch is available day or night — call (855) 650-7422 and a coordinator will confirm an ETA based on current crew location.
 
-## A recent Bridgewater response
-
-A property manager overseeing a townhome complex in Milltown called after a second-floor washing machine supply line failed while a unit was unoccupied over a long weekend. By the time anyone noticed, water had traveled through the subfloor into the unit below, saturating drywall ceilings and soaking carpet across two levels. We arrived, extracted the standing water, opened the affected wall and ceiling cavities, and set a drying system across both units. Daily moisture monitoring over the following days confirmed the structure was dry before any reconstruction began — keeping the insurance claim clean and the timeline predictable. *(This scenario is representative of the types of losses we respond to; it is not attributed to a specific individual.)*
-
 If you're dealing with a water, fire, mold, or storm loss anywhere in Bridgewater — from a flooded Finderne basement to a commercial roof leak near TD Bank Ballpark — call The Restoration Group at **(855) 650-7422**. We're available around the clock and ready to dispatch.

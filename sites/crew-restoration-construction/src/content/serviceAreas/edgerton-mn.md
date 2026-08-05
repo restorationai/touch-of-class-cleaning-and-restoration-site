@@ -49,8 +49,4 @@ Once the damage is mitigated, the rebuild begins. Crew Restoration & Constructio
 
 Edgerton is approximately 90 miles northeast of our Sioux Falls headquarters, a drive that runs east on I-90 and north on US-75 through Luverne. Depending on road conditions — and southwestern Minnesota winters can close stretches of US-75 without much warning — our crew typically reaches the 56128 ZIP code within a few hours of a confirmed dispatch. We serve all areas of Edgerton, including Downtown Edgerton and West Edgerton. For scheduling, call (605) 965-2727 and a team member will confirm availability and give you a realistic arrival window based on current conditions.
 
-## A recent Edgerton response
-
-A property manager overseeing a rental home in West Edgerton called after a tenant reported water pooling in the basement following three days of heavy rain and snowmelt. By the time our crew arrived, the water had wicked into the lower section of the drywall along two walls and the carpet pad was saturated. We extracted the standing water, removed the affected drywall and carpet, set up commercial drying equipment, and documented the moisture readings daily for the insurance claim. The structure was dry within four days, and reconstruction was completed the following week. This scenario is representative of the calls we receive in Edgerton — not attributed to a specific individual.
-
 If you are dealing with water, fire, mold, or structural damage anywhere in Edgerton, call Crew Restoration & Construction at **(605) 965-2727**. We will talk through what you are seeing, help you understand your next steps, and get a crew scheduled as quickly as conditions allow.

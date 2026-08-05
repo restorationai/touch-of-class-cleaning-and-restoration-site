@@ -51,8 +51,4 @@ When structural materials can't be dried or cleaned back to pre-loss condition, 
 
 FireDEX Butler operates out of Cranberry Township and reaches Beaver Falls via Route 68 to I-76 West, a run of roughly 25 miles. We dispatch around the clock — 24 hours a day, seven days a week — so a call at 2 a.m. from a property manager in White Township or a homeowner near Geneva College gets the same response as a call at noon. Patterson Township, Eastvale, and the neighborhoods along Brady's Run Park are all within our regular service area. If you're not sure whether your address falls in our coverage zone, call (724) 452-7400 and we'll confirm immediately.
 
-## A recent Beaver Falls response
-
-A property manager overseeing a four-unit rowhouse on one of the numbered avenues near Downtown called after a tenant reported water coming through a first-floor ceiling. By the time we arrived, the cast-iron drain stack on the second floor had been leaking inside the wall long enough to saturate two wall cavities and the subfloor above the basement. We mapped the moisture with thermal imaging, established drying chambers in both affected units, and had the structure back within normal moisture readings before the end of the week — with documentation ready for the property owner's insurance adjuster. *This scenario is representative of the work we do in Beaver Falls; it is not attributed to a specific named customer.*
-
 If you're dealing with water, fire, mold, or any other property damage in Beaver Falls, call FireDEX Butler at **(724) 452-7400**. We're available 24/7, we bill insurance directly, and we've been doing this work in Beaver County since 1981.

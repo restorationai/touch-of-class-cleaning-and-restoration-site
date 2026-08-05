@@ -51,8 +51,4 @@ Once mitigation is complete, many Roselle homeowners need a contractor who can h
 
 Kenilworth and Roselle share a border, and our crews travel the route regularly. From our HQ, we reach the Roselle Park border neighborhoods and the Fifth Avenue corridor quickly via North Michigan Avenue or Chestnut Street directly. East Roselle and the blocks near Warinanco Park are accessible via St. Georges Avenue. Because we operate 24/7, a call at 2 a.m. after a sump failure gets the same dispatch as a call on a Tuesday afternoon. We don't subcontract local jobs to unfamiliar crews — the team that answers your call is the team that shows up.
 
-## A recent Roselle response
-
-A property manager overseeing a two-family rental near the Warinanco Park area called us on a Sunday morning after a tenant reported water coming up through the basement floor drain during an overnight storm. By the time our crew arrived, roughly four inches of standing water covered the finished basement. We extracted the water, pulled saturated carpet and drywall to the flood cut, set drying equipment, and documented the loss with photographs and moisture readings for the property owner's insurance carrier — turning what could have been a weeks-long ordeal into a manageable, documented claim. *(This scenario is representative of the calls we receive; details have been generalized.)*
-
 If you're dealing with water, fire, mold, or storm damage anywhere in Roselle — 07203 — call The Restoration Group at **(855) 650-7422**. We're available around the clock, and we know the neighborhood.

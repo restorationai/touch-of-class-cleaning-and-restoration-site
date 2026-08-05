@@ -51,8 +51,4 @@ The Broad Street corridor and the college campus generate commercial losses that
 
 The Restoration Group is headquartered in Kenilworth, roughly 8 miles southwest of Bloomfield Center. The most direct route runs north on the Garden State Parkway to Route 21, then east on Bloomfield Avenue — a corridor our crews travel regularly. Watsessing and Brookdale, sitting near the western edge of town, are typically the first Bloomfield neighborhoods we reach. North Center and Brookside, toward the eastern side near Brookdale Park and Watsessing Park, add a few minutes of local surface travel. Because we operate 24/7, a call at 2 a.m. after a sump failure gets the same dispatch as a call at noon.
 
-## A recent Bloomfield response
-
-A property manager overseeing a two-family rental near Watsessing Park called after the ground-floor tenant reported water rising through the basement floor drain during a heavy overnight storm — a scenario consistent with the sewer backups that have affected that corridor since Ida. The Restoration Group arrived, extracted the Category 3 water, removed contaminated drywall and flooring to the flood cut, applied antimicrobial treatment, and set drying equipment. Full documentation was packaged for the owner's insurance carrier the same day. *This scenario is representative of the calls we receive in this area and is not attributed to a specific client.*
-
 If you're dealing with water, fire, mold, or storm damage anywhere in Bloomfield — from a finished basement in Brookdale to a commercial space on Broad Street — call The Restoration Group at **(855) 650-7422**. We're available around the clock and ready to send a crew.

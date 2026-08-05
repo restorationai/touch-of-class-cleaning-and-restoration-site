@@ -49,8 +49,4 @@ After a severe thunderstorm or tropical system pushes through the Kiln area, roo
 
 HomeLyft Restoration MS is headquartered in Gulfport. Kiln is roughly 35 to 40 miles northeast of the Gulfport office, accessible via U.S. Highway 49 North to Highway 603, a route our crews travel regularly for Hancock County calls. Depending on traffic and the time of day, that drive typically runs under an hour. We schedule promptly and communicate an estimated arrival window when you call — reach us at (228) 284-5200 to get a crew moving toward your property.
 
-## A recent Kiln response
-
-Earlier this year, a property manager overseeing a rental home in the Kiln area contacted HomeLyft after a tenant reported discoloration spreading across a bedroom ceiling following several weeks of intermittent roof leaks. By the time HomeLyft arrived, moisture readings in the attic framing were well above safe thresholds and mold growth had begun on the OSB decking. The crew contained the attic space, removed affected materials, dried the framing, and documented the full scope with photographs for the property owner's insurance carrier. The home was cleared for re-occupancy within two weeks of the initial call. This scenario is representative of the calls we receive — every job has its own details, but the pattern of delayed discovery and compressed timelines is common in Kiln.
-
 If you are dealing with water, fire, mold, or storm damage anywhere in the Kiln area, call HomeLyft Restoration MS at **(228) 284-5200**. We will talk through what you are seeing, give you honest guidance on next steps, and get a crew scheduled to your property.

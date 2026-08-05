@@ -51,8 +51,4 @@ Once mitigation is complete, a separate contractor handoff creates delays and ga
 
 Crew Restoration & Construction is headquartered in Sioux Falls, SD. Rock Valley sits roughly 75 miles southeast via I-90 East and US-75 South — a straightforward drive through Lyon and Sioux County. We serve all of Rock Valley's ZIP code 51247, including properties in the Downtown Rock Valley core, the Rock River area, and neighborhoods near Rock Valley City Park and Hospers Park. Scheduling is handled through our main line at (605) 965-2727. We'll give you a clear arrival window when you call so you're not waiting without information.
 
-## A recent Rock Valley response
-
-A property manager overseeing a rental near the Rock River area contacted us after a spring thaw pushed groundwater into the lower level of a 1960s-era home — standing water across roughly 400 square feet of finished basement, with carpet, drywall, and a furnace all affected. We scheduled an assessment promptly, extracted the water, removed the saturated materials, and set drying equipment. The scope was documented photographically and submitted to the carrier. Reconstruction — new drywall, flooring, and trim — was completed under the same contract. This scenario is representative of the calls we receive from Rock Valley; details vary by property.
-
 If you're dealing with a loss in Rock Valley right now, call Crew Restoration & Construction at **(605) 965-2727**. We'll walk you through what comes next, confirm coverage logistics with your insurance carrier, and get a crew scheduled to your property in 51247.

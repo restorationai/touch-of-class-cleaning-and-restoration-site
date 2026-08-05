@@ -49,8 +49,4 @@ Mitigation without reconstruction leaves a property gutted. We carry the work fr
 
 Our crew is Sioux Falls-based, which means we're not staging from a regional hub an hour away. McKennan Park, the Cathedral Historic District, and downtown properties in the 57104 corridor are minutes from our location. Prairie Green and the developing areas along the 57108 edge of the metro are a straight shot south on I-229. We serve all Sioux Falls ZIP codes — 57103, 57104, 57105, 57106, 57107, 57108, and 57110 — as well as surrounding communities. Call (605) 965-2727 to confirm scheduling and get a realistic arrival window for your address.
 
-## A recent Sioux Falls response
-
-A property manager overseeing a four-unit rental in the Whittier neighborhood called after a tenant reported water coming up through the basement floor drain during a heavy rain event. By the time we arrived, roughly two inches of standing water had reached the water heater and furnace. We extracted the water, set drying equipment across the lower level, and documented the loss with photographs and moisture logs for the owner's insurance carrier. Reconstruction of the affected drywall and flooring was completed before the next tenant move-in date. *(This scenario is representative of the calls we receive; details have been generalized.)*
-
 If you're dealing with water, fire, mold, or storm damage anywhere in Sioux Falls, the fastest next step is a phone call. Reach Crew Restoration & Construction at **(605) 965-2727** — describe what you're seeing, and we'll tell you exactly what comes next.

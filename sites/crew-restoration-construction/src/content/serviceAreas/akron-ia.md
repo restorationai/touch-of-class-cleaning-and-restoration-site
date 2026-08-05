@@ -49,10 +49,4 @@ Once mitigation is complete, the structure still needs to be put back together. 
 
 Crew Restoration & Construction is based in Sioux Falls, SD, roughly 50 miles north of Akron via SD-11 south through Beresford and into Iowa on US-18. That route runs through open highway and is generally reliable year-round, though winter weather on the border corridor can add travel time. We serve the full 51001 ZIP code, including Downtown Akron, the River District, and surrounding rural Plymouth County addresses. When you call (605) 965-2727, we'll give you a straight answer on scheduling and get a crew moving as soon as possible.
 
-## A recent Akron response
-
-A property manager overseeing a rental near the River District contacted us after a water heater failed overnight and soaked the utility room and an adjacent bedroom. By the time the tenant noticed, the subfloor had been wet for several hours. We arrived, extracted the standing water, pulled the saturated flooring, and set up a drying system across both rooms. We handled the scope documentation and communicated directly with the property manager's insurance adjuster throughout the process — a scenario we work through regularly in Akron's older rental housing stock. *(This scenario is representative of the type of work we do in Akron; it is not attributed to a specific named client.)*
-
----
-
 If you're dealing with water, fire, mold, or storm damage at a property in Akron or anywhere in Plymouth County, call Crew Restoration & Construction at **(605) 965-2727**. We'll walk through what happened, tell you what the process looks like, and get scheduled — no pressure, no runaround.

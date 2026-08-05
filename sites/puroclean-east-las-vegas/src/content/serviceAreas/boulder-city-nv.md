@@ -51,8 +51,4 @@ Once mitigation is complete, our reconstruction team can restore affected areas 
 
 Our Las Vegas headquarters is roughly 25 miles from central Boulder City via US-93 South — a straightforward run with no significant traffic bottlenecks outside of peak commute windows. Lake Mountain Estates and Del Prado are both reachable from the US-93 / Nevada Way interchange within minutes of arriving in town. The Historic District, closer to the center of Boulder City, is a short drive from there. We schedule promptly and aim to have a crew on-site the same day for active water or fire losses — call **+17025513040** to confirm current availability.
 
-## A recent Boulder City response
-
-A property manager overseeing a rental home in the Del Prado neighborhood contacted us after a tenant reported water staining on the living room ceiling following an unusually heavy monsoon storm. What looked like a minor roof leak had actually been tracking along a rafter for several feet before dropping through the ceiling drywall. Our crew arrived, mapped the moisture with thermal imaging, identified secondary damage inside the wall cavity, and coordinated a full drying and reconstruction scope with the owner's insurance carrier — all documented with photo evidence at each stage. The tenant was back in a fully restored home within two weeks.
-
 If you're dealing with water, fire, smoke, or mold damage anywhere in Boulder City — whether you're in a 1930s Historic District craftsman or a newer build near Lake Mead National Recreation Area — call PuroClean of East Las Vegas at **+17025513040**. We'll assess the damage, explain the process plainly, and get your property moving toward restored.

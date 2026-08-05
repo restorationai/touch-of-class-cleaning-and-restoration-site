@@ -53,8 +53,4 @@ We handle sewage backups — a real risk when aging infrastructure meets heavy s
 
 Our Honolulu headquarters puts Aina Haina within straightforward reach via Kalanianaole Highway (H-1 to exit 26A). Wailupe and Hind Iuka are typically the first Aina Haina neighborhoods we reach; Aina Haina Valley and Niu Valley add only a few minutes further up the valley roads. We answer the phone around the clock — 24 hours a day, seven days a week — and dispatch equipment the same day you call. Traffic on Kalanianaole can lengthen drive times during morning and afternoon peak hours, so calling as early as possible helps us schedule the fastest available window.
 
-## A recent Aina Haina response
-
-A homeowner in Hind Iuka called after noticing a soft spot in their hallway floor following a week of heavy Kona-storm rain. When our crew arrived, moisture readings confirmed that water had been wicking up through the slab and into the redwood subfloor — likely through a low point in the garage threshold. We extracted residual moisture, set drying equipment across the affected hallway and adjacent bedroom, and monitored the cavity wall adjacent to the bathroom where early mold indicators were present. Within several days of continuous drying, readings returned to acceptable levels and the homeowner was able to proceed with flooring repair. This scenario is representative of the calls we receive in this neighborhood — not attributed to a specific named individual.
-
 If you're dealing with water, mold, smoke, or carpet damage anywhere in Aina Haina — ZIP 96821 and the surrounding valley communities — call AAA Water Damage Restoration & Carpet Care at (808) 349-3407. We're available around the clock and ready to dispatch.

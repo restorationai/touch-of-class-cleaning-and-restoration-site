@@ -55,8 +55,4 @@ Sewage backups during heavy rain events require careful containment and disinfec
 
 From our Honolulu base, Hawaii Kai is a direct run east on the H-1 and Kalanianaole Highway — a route we know well. Neighborhoods like Portlock and Koko Kai at the far eastern end of the community are reachable without navigating surface-street congestion, and marina-area addresses near Hawaii Kai Marina are straightforward to access. Because we operate 24 hours a day, seven days a week, a call at 2 a.m. during a Kona Low flooding event gets the same dispatch response as a weekday afternoon call.
 
-## A recent Hawaii Kai response
-
-A property manager overseeing a townhome complex in West Marina called after a second-floor washing machine hose failed overnight, pushing water through the subfloor into the unit below. By the time the downstairs owner noticed the ceiling bubbling, both units had measurable moisture in shared wall cavities. We coordinated access with both owners, mapped the moisture migration with thermal imaging, and set drying equipment across both units simultaneously — reducing the total dry-out time and simplifying the documentation process for both insurance claims. This scenario is representative of the multi-unit coordination work we handle regularly in Hawaii Kai's HOA communities.
-
 If you're dealing with water, mold, fire, or a biohazard situation anywhere in Hawaii Kai — from Kalama Valley to Koko Marina — call AAA Water Damage Restoration & Carpet Care at **(808) 349-3407**. We're available around the clock and ready to dispatch.

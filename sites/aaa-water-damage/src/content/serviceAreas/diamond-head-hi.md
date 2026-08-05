@@ -49,8 +49,4 @@ High foot traffic from Kapiolani Park and the proximity of Waikiki mean carpets 
 
 Our Honolulu headquarters puts Diamond Head well within our primary service zone. From our dispatch point, the most direct route runs east on Kalakaua Avenue through Waikiki and into the 96815 corridor, reaching Kapiolani Park frontage and the Gold Coast high-rises quickly. Diamond Head Terrace and Black Point, slightly further along Diamond Head Road and Kahala Avenue, add only a few minutes to that run. We answer calls 24 hours a day, seven days a week, and dispatch equipment — truck-mount extractors, air movers, dehumidifiers — on the same call. We don't quote arrival minutes we can't guarantee, but we move without delay once you're on the line.
 
-## A recent Diamond Head response
-
-A resident manager at a Gold Coast co-op building called us after a corroded supply riser failed overnight, soaking ceilings across four units on three floors. We arrived before sunrise, set up containment to prevent cross-contamination between units, and began extraction and drying while simultaneously photographing every affected surface for the association's insurer. By the time the board convened that morning, we had a room-by-room moisture log and a preliminary scope ready for their adjuster. The building was back to dry standard within the week. This scenario is representative of the multi-unit water losses we handle in these buildings regularly.
-
 If you're dealing with water, smoke, mold, or storm damage anywhere in Diamond Head — from the oceanfront towers near La Pietra to the hillside homes above Diamond Head State Monument — call **(808) 349-3407** now. We're available around the clock, and we know this neighborhood.

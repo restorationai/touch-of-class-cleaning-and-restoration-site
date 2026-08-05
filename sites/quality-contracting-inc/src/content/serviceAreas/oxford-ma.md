@@ -47,8 +47,4 @@ Once mitigation is complete, we handle the rebuild: framing, drywall, insulation
 
 Quality Contracting, Inc. is headquartered in Auburn, and Oxford is a direct shot south on Route 12 — roughly 6 to 8 miles depending on the neighborhood. North Oxford is the closest, sitting just across the town line. Oxford Center and Texas Village add a few minutes further south. We serve all of Oxford, including both 01540 and 01537 ZIP codes. Call us at (508) 756-8800 during business hours and we'll confirm scheduling and get a crew dispatched as quickly as possible.
 
-## A recent Oxford response
-
-A property manager overseeing a two-family rental in Oxford Center contacted us after a tenant reported water coming up through the basement floor during a heavy rain event — a classic sign of hydrostatic pressure overwhelming an aging drainage system. By the time we arrived, there was roughly two inches of standing water across the full basement footprint. We extracted the water, set drying equipment, identified a compromised section of the foundation drainage tile, and documented the full loss for the owner's insurance claim. The unit was back to dry, habitable condition within the week. This scenario is representative of the calls we receive from Oxford rental properties; specific details will vary.
-
 If you're dealing with water, fire, mold, or storm damage anywhere in Oxford — whether you're in a North Oxford neighborhood near the Auburn line or further south toward Buffumville Lake — call Quality Contracting, Inc. at **(508) 756-8800**. We'll talk through what you're seeing, explain the process honestly, and get the right crew scheduled.

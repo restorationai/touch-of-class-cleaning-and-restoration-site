@@ -51,8 +51,4 @@ Once mitigation is complete, we can carry the project through repairs and full r
 
 Kenilworth sits roughly 12 to 14 miles southeast of Montclair via the Garden State Parkway to Route 3, or through Bloomfield on Route 506. Both routes are well-traveled corridors our crews run regularly. Because we operate 24 hours a day, seven days a week, a call at 2 a.m. from a property manager near Watchung Plaza gets the same dispatch process as a midday call. Upper Montclair, the South End, Frog Hollow, and the Estate Section are all within our standard service area — no trip surcharge, no referral to a subcontractor.
 
-## A recent Montclair response
-
-A property manager overseeing a multi-unit Victorian near the South End contacted us after a cast-iron drain stack cracked inside a shared wall during a cold snap, releasing water into two finished units below. By the time the leak was identified, water had tracked through original plaster and into subfloor framing. We arrived, confirmed the moisture boundaries with thermal imaging, isolated the affected units, and began extraction and drying the same night — coordinating directly with the building's insurance carrier so the property manager wasn't fielding adjuster calls while also managing displaced tenants. This scenario is representative of the calls we receive; specific details vary.
-
 If you're dealing with a water, fire, or mold emergency anywhere in Montclair, call The Restoration Group at **(855) 650-7422** — we answer every hour of every day and can have a crew moving toward you while you're still on the phone.

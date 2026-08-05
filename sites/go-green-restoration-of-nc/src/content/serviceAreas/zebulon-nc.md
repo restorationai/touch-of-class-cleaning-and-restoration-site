@@ -49,8 +49,4 @@ For sewage backups — common when aging lateral lines get overwhelmed during he
 
 From our Middlesex base, Zebulon is a straightforward run — roughly 15 miles northeast via NC-97, a route our crews travel regularly. Downtown Zebulon and the neighborhoods around Five County Stadium are typically our first stops when we're dispatched to the area. Properties farther out along the rural corridors east of town take a few minutes more, but because we operate 24/7, a call at 2 a.m. gets the same dispatch response as a call at noon. We cover all of 27597 and the surrounding unincorporated Wake and Johnston County parcels that carry Zebulon mailing addresses.
 
-## A recent Zebulon response
-
-A property manager overseeing a rental near Weavers Pond called us on a Tuesday morning after a tenant reported a musty smell that had been building for several weeks. When our crew arrived, we found a slow drip from a supply line fitting inside the crawl space — nothing dramatic, but enough to saturate the insulation and the lower two inches of several floor joists over time. We extracted the damaged insulation, dried the framing assembly over three days of monitored drying cycles, and provided the property manager with a full moisture log and photo documentation for the insurance carrier. The tenant was back to normal within the week. *(Representative scenario — not attributed to a specific individual.)*
-
 If you're dealing with a water, fire, mold, or biohazard situation at a Zebulon property right now, call Go Green Restoration of NC at **(919) 906-5473**. We answer around the clock, and we'll give you a straight answer about what the job involves before any work begins.

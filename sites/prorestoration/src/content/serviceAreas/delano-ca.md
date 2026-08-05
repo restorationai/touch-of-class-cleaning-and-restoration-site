@@ -47,8 +47,4 @@ Delano is Kern County's second-largest city, but it remains underserved by local
 
 ProRestoration Services operates out of Bakersfield, roughly 35 miles north of Delano via Highway 99. That corridor is a straight shot, and our crews travel it regularly for both residential calls in West Delano and commercial jobs along the 99 strip. Because we run 24/7, a call at midnight gets the same dispatch priority as a call at noon. Downtown Delano, the Randolph Street corridor, and the Cecil Avenue corridor are all within our standard coverage zone — no referral to a subcontractor, no hand-off.
 
-## A recent Delano response
-
-A property manager overseeing a four-unit building near the Randolph Street corridor called us after a water heater failed overnight and flooded two ground-floor units. By the time tenants noticed standing water in the morning, it had already wicked into the shared wall between units. We arrived, extracted the standing water, set containment to protect the unaffected units, and had drying equipment running the same day. The property manager received a full photo-documented moisture log for the insurance adjuster, and both units were back to habitable condition within the week. This scenario is representative of the calls we receive from Delano landlords — not a specific attributed account.
-
 If you're dealing with a loss in Delano right now, call ProRestoration Services at **(661) 393-9306**. We're available around the clock, and someone who can actually dispatch a crew will answer.

@@ -49,8 +49,4 @@ Once drying and remediation are complete, most properties need some level of reb
 
 Flood Fixers is headquartered in San Diego. Under normal traffic conditions, our crews reach central Temecula — the 92590 and 92592 ZIP codes — in approximately 60 to 75 minutes from dispatch. Neighborhoods farther north like Harveston near the 79 corridor typically add 10 minutes; communities in the southern end of the valley near Redhawk Parkway are often faster. We answer calls 24 hours a day, every day of the year, and our target is a technician on your property within 90 minutes of your first call to (855) 204-1124.
 
-## A recent Temecula response
-
-A property manager overseeing a rental home in the Redhawk community called Flood Fixers on a Sunday morning after tenants reported water seeping up through the living room floor. By the time our crew arrived — 68 minutes after the call — the slab leak had saturated roughly 400 square feet of LVP flooring and wicked into the base of two interior walls. We extracted standing water, set six drying units, documented moisture readings for the insurance claim, and had a preliminary scope to the adjuster by end of business Monday. Flooring and drywall repairs were completed within the week. This scenario is representative of the calls we receive from Temecula property managers; details vary by property.
-
 If you're dealing with water, fire, mold, or storm damage anywhere in Temecula — from Paloma del Sol to Wolf Creek — call Flood Fixers at **(855) 204-1124**. A live technician answers, not a voicemail.

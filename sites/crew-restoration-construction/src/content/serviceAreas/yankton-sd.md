@@ -47,8 +47,4 @@ Once the damage is mitigated, the structure still needs to be put back together.
 
 Our Sioux Falls headquarters is roughly 75 miles northwest of Yankton via US-81 South — a straightforward route that our crews travel regularly. Whether the call comes from a property manager in Downtown Yankton, a homeowner on the Riverside bluffs, or a business owner on the Westside, we dispatch from Sioux Falls and can provide prompt scheduling for both emergency and planned restoration work. We'll give you an honest arrival window when you call (605) 965-2727 rather than a number we can't stand behind.
 
-## A recent Yankton response
-
-A property manager overseeing a rental near Riverside Park contacted us after a tenant reported water pooling on the basement floor following two consecutive days of heavy rain. By the time we arrived, the finished portion of the basement had several inches of standing water and the drywall along the exterior wall was visibly saturated. We extracted the water, removed the damaged drywall and insulation to expose the block foundation, ran drying equipment for several days with daily moisture checks, and then rebuilt the wall assembly once readings confirmed the structure was dry. The property manager had a single invoice to submit to the carrier and a basement that was back in rentable condition within three weeks.
-
 If you're dealing with water, fire, mold, or storm damage anywhere in the 57078 ZIP code — from the lakeside properties near Lewis and Clark Lake to the older neighborhoods closer to downtown — call Crew Restoration & Construction at **(605) 965-2727**. We'll assess what happened, explain what needs to be done, and get a crew moving.

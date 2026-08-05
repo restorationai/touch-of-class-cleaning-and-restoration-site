@@ -51,8 +51,4 @@ For Pearl City homeowners dealing with post-water-event carpet or simply years o
 
 From our Honolulu base, Pearl City is a straightforward run up H-1 West — roughly 12 to 15 miles depending on the specific neighborhood. We reach Pearl City Peninsula and Waiau near the harbor quickly via the lower interchange, while Pacific Palisades and Momilani higher on the hillside add a few minutes up Moanalua Road or Kaahumanu Street. Because we answer the phone 24 hours a day, seven days a week, we can dispatch the same hour you call — day or night. We serve all of 96782 and the surrounding Pearl City corridors.
 
-## A recent Pearl City response
-
-A property manager overseeing a home in Manana called one evening after a tenant reported water seeping under the baseboards in the main bedroom — a slow supply-line leak behind the vanity that had been running undetected for at least three days. By the time we arrived, moisture had wicked into the subfloor and the adjacent closet wall. We extracted the visible water, mapped the full moisture boundary with a thermal camera, and had drying equipment running that same night. The subfloor was saved, and the tenants — a family of five — were able to stay in the home throughout the dry-out. This scenario is representative of the calls we receive regularly from Pearl City households.
-
 If you're dealing with water, fire, mold, or a carpet emergency anywhere in Pearl City, call AAA Water Damage Restoration & Carpet Care at **(808) 349-3407**. We're available around the clock and we know these neighborhoods — the hillside drainage patterns, the aging plumbing, the ohana units — so we can move fast and work smart from the moment we arrive.

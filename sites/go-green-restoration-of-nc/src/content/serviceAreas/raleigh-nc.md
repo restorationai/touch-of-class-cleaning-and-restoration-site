@@ -51,8 +51,4 @@ Once the drying and remediation work is complete, most Raleigh homeowners don't 
 
 Go Green Restoration of NC is headquartered in Middlesex, roughly 35 miles northeast of downtown Raleigh via US-64 West. That eastern staging point means we approach the city through the 27610 and 27604 ZIP codes first, putting us close to neighborhoods along New Bern Avenue and the eastern edge of the Beltline before reaching midtown. Five Points, North Hills, and the areas around PNC Arena are typically another 10 to 15 minutes further into the city depending on traffic on I-440. Because we operate 24/7, late-night and early-morning calls avoid peak congestion entirely, and we can dispatch immediately regardless of the hour.
 
-## A recent Raleigh response
-
-A property manager overseeing a six-unit building near Historic Oakwood called us on a Sunday evening after a tenant reported water coming through a first-floor ceiling. By the time our crew arrived, the source — a failed supply line on the second floor — had been shut off, but water had tracked through the subfloor and into the wall cavities below. We extracted the standing water, opened the affected wall sections to allow airflow, and set drying equipment that ran over the following three days. Moisture readings confirmed the structure was dry before we closed the walls, and we coordinated the scope documentation directly with the property manager's insurance adjuster to keep the claim moving.
-
 If you're dealing with water, fire, smoke, or mold damage anywhere in Raleigh — from Brier Creek to ZIP code 27601 — call Go Green Restoration of NC at (919) 906-5473. We answer every hour of the day.

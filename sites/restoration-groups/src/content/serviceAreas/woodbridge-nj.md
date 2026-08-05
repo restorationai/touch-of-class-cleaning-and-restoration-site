@@ -53,8 +53,4 @@ Once mitigation is complete, our in-house reconstruction team handles drywall, f
 
 The Restoration Group is based in Kenilworth, NJ, roughly 10 to 12 miles from central Woodbridge via the Garden State Parkway or Route 1 & 9. Woodbridge Proper and Colonia are typically the quickest to reach; Sewaren and Port Reading in the eastern sections of the township add a few miles. Because we operate 24/7, a call at any hour connects you to a live dispatcher who can route the nearest available crew. We serve all of Woodbridge Township's ZIP codes — 07095, 07064, 07067, 07001, and 08863 among them.
 
-## A recent Woodbridge response
-
-A property manager overseeing a small apartment building near the Woodbridge train station called after a second-floor washing machine supply hose failed overnight, sending water through the subfloor and into the unit below. By the time the call came in, both units had wet drywall and the ground-floor tenant reported a musty smell already developing. We arrived, extracted standing water, removed saturated baseboards and drywall to the flood cut line, set drying equipment across both units, and had moisture readings back to normal range within four days — minimizing tenant displacement and giving the property manager the documentation needed to file the insurance claim the same week. *(Scenario is representative of the type of work we perform in Woodbridge; identifying details have been changed.)*
-
 If you're dealing with water, fire, mold, or storm damage anywhere in Woodbridge Township, call The Restoration Group at **(855) 650-7422** — we're available around the clock and can have a crew en route the same day.

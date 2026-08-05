@@ -45,8 +45,4 @@ The Route 9 commercial corridor brings its own set of challenges: retail and res
 
 Quality Contracting, Inc. is headquartered in Auburn, MA, which puts Shrewsbury roughly 10 to 12 miles away via Route 20 east or a quick run up I-290 to Route 9. The White City Shopping Center area and the Town Center are straightforward drives from our Auburn shop. Edgemere and the Lake Quinsigamond shoreline neighborhoods are accessible via Route 9 across the Kenneth F. Burns Bridge — a route our crews know well. Call us at (508) 756-8800 during business hours and we'll get a crew scheduled and on the road to your property promptly.
 
-## A recent Shrewsbury response
-
-A property manager overseeing a rental home near the Lake Quinsigamond shoreline contacted us after a water heater failed overnight and saturated the finished basement. By the time anyone noticed, the carpet, drywall, and lower wall framing had been wet for roughly 18 hours. Our crew arrived, extracted the standing water, pulled the affected flooring and drywall to the moisture line, and set commercial drying equipment. We documented the loss with photos and moisture readings throughout the process and submitted the documentation package directly to the property owner's carrier. The basement was back to a dry, rebuildable condition within the standard drying window — this scenario is representative of the calls we handle regularly in Shrewsbury.
-
 If you're dealing with water, fire, or mold damage at a Shrewsbury property, call Quality Contracting, Inc. at **(508) 756-8800**. We'll assess the damage, walk you through the next steps, and handle the insurance coordination so you can focus on getting your property back to normal.

@@ -45,8 +45,4 @@ The Route 1 & 9 industrial corridor and the Wood Avenue business district add a 
 
 The Restoration Group's Kenilworth headquarters sits roughly 3 miles from Linden's northern boundary — a straight shot down North Michigan Avenue or via Route 28 to Edgar Road. Tremley Point, the farthest southeast corner of Linden near the Arthur Kill, adds a few minutes of travel but remains well within our primary service radius. We operate 24 hours a day, seven days a week, so a call at 2 a.m. from a Sunnyside homeowner watching water rise in a finished basement gets the same dispatch priority as a midday call. We don't promise a specific arrival window in minutes — traffic on Route 1 & 9 is what it is — but Linden is one of the closest markets to our shop.
 
-## A recent Linden response
-
-A property manager overseeing a six-unit building near the Wood Avenue business district called us after a second-floor supply line failed overnight and water migrated through the subfloor into a first-floor unit. By the time the call came in, drywall on two walls had already begun to separate at the seams. We arrived, extracted residual water, opened the wall cavities to confirm the extent of saturation, and placed drying equipment across both units. The full moisture log and photo documentation were ready for the adjuster's review within 24 hours of our arrival. The scenario is representative of the multi-unit water losses we handle regularly in Linden's older rental stock.
-
 If you're dealing with a water, fire, mold, or structural emergency anywhere in Linden — from Tremley Point to the Roselle Park border — call The Restoration Group at **(855) 650-7422**. We're available around the clock and we know this city.

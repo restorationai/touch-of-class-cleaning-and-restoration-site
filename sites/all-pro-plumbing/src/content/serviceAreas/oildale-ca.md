@@ -45,10 +45,4 @@ The climate compounds the problem. Summers here match Bakersfield's triple digit
 
 Oildale sits directly north of Bakersfield, separated by the Kern River. From our Bakersfield headquarters, the drive up North Chester Avenue or across the Truxtun Avenue bridge puts us in Riverview, Highland, or the Airport Drive corridor in a matter of minutes — no freeway required. We run 24/7, so a call at 2 a.m. from a property manager in North of the River gets the same dispatch response as a midday call. We cover all of Oildale's neighborhoods and the surrounding unincorporated Kern County parcels in the 93308 ZIP.
 
-## A recent Oildale response
-
-A property manager overseeing a small rental block near Standard Park called us on a weekday evening after a tenant reported no hot water and a spreading wet spot under the utility closet. The water heater — a 12-year-old tank unit sitting on a concrete pad — had developed a slow leak at the drain valve that finally let go. We arrived, confirmed the unit was at end of life, and replaced it the same night with a new 40-gallon unit. The tenant had hot water before midnight, and the manager had a written record of the permit pulled for the replacement. *(This scenario is representative of the type of work we do in Oildale; it is not attributed to a specific named customer.)*
-
----
-
 If you're dealing with a plumbing, heating, or air conditioning problem anywhere in Oildale — from a dripping faucet in a Highland cottage to a sewer backup at a mobile home park off Airport Drive — call All Pro Plumbing Heating and Air at **(661) 863-9242**. We're available around the clock and we're already close.

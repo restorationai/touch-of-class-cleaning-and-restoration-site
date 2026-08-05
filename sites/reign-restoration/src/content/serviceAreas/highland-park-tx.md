@@ -43,8 +43,4 @@ Fire risk here is shaped by the same older construction: knob-and-tube wiring th
 
 Reign Restoration is based in Royse City, roughly 30 miles east of Highland Park via I-30 West into downtown Dallas, then north on US-75 or the Dallas North Tollway. We run 24/7, so a call at 2 a.m. from a property manager watching water spread across a Mockingbird Lane corridor kitchen gets the same dispatch as a midday call. We serve all of Highland Park's ZIP codes — 75205, 75209, and 75219 — and we're familiar with the town's narrow residential streets and the parking constraints around the Dallas Country Club and Highland Park Town Hall areas that can affect equipment staging.
 
-## A recent Highland Park response
-
-A property manager overseeing a rental estate near Turtle Creek Acreage called us after a cast-iron stack failed behind a first-floor bathroom wall — sewage had been seeping into the pier-and-beam cavity for an unknown period before the odor became unmistakable. We arrived, contained the affected area, coordinated with a licensed plumber on the stack repair, and handled the contaminated-water extraction and structural drying. The moisture mapping showed the damage had reached two adjacent bays of the subfloor; we replaced the compromised framing and subfloor decking and had the space dried and cleared within the week. *This scenario is representative of the work we do; it is not attributed to a specific named client.*
-
 If you're dealing with a water, fire, mold, or storm damage emergency anywhere in Highland Park, call Reign Restoration at **(214) 304-0621** — we answer every hour of every day and can begin the documentation and stabilization process on the first visit.

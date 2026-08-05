@@ -48,8 +48,4 @@ When remediation uncovers damaged framing, subfloor, or drywall, we rebuild. Hol
 
 National Restoration Construction's headquarters is in Federal Way. Port Orchard sits roughly 35 to 45 minutes from our staging location under normal conditions via SR-16 — which means most Port Orchard calls see a technician on-site within **60 to 75 minutes** of first contact, day or night. Neighborhoods closer to the SR-16 corridor, including McCormick Woods and South Kitsap's inland areas, typically land at the shorter end of that range. The Annapolis and waterfront areas near the Port Orchard Marina may add a few minutes depending on traffic through the downtown corridor. We cover all of 98366 and 98367.
 
-## A recent Port Orchard response
-
-A property manager overseeing a rental home near the Annapolis waterfront called us on a January evening after a tenant reported water coming up through the bathroom floor. By the time our crew arrived, the crawl space had roughly four inches of standing water from a failed cleanout cap on the septic lateral — raw sewage mixed with groundwater. We extracted the contaminated water, removed saturated insulation and vapor barrier, treated the structural framing, and had the space dried and cleared within three days, with full documentation submitted to the property owner's insurance carrier before the week was out. This scenario is representative of the calls we receive; details vary by property.
-
 If you're facing a water, fire, mold, or sewage emergency in Port Orchard, don't wait to see whether it gets worse. Call National Restoration Construction at **(206) 883-0333** — we answer around the clock.

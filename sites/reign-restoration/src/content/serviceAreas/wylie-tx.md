@@ -47,8 +47,4 @@ Once mitigation is complete, the same crew coordinates the rebuild rather than h
 
 Reign Restoration is headquartered in Royse City, roughly 15 miles east of Wylie via US-80. From the HQ, the crew reaches central Wylie in a short drive — typically heading west on US-80 to the FM 544 or Ballard Avenue corridors that run through the heart of the city. Properties on Wylie's north side near Lake Lavon or along the FM 1378 corridor add a few minutes but remain well within the primary service area. Call (214) 304-0621 to confirm scheduling and get an accurate arrival estimate based on current crew location.
 
-## A recent Wylie response
-
-A property manager overseeing a rental home in a newer subdivision on Wylie's west side contacted Reign Restoration after a tenant reported water staining on the ceiling of a first-floor bedroom. What looked like a minor roof leak turned out to be a slow failure in an upstairs bathroom supply line that had been seeping into the wall cavity for several weeks. Reign's crew performed moisture mapping across the affected wall and subfloor, identified secondary migration into an adjacent closet that wasn't visually obvious, and coordinated the full drying and drywall replacement directly with the property manager's insurance carrier — keeping the tenant in place throughout the process with contained work areas.
-
 If you're dealing with water, fire, smoke, or mold damage at a Wylie property, call Reign Restoration at **(214) 304-0621**. We'll assess the damage, walk you through the process, and handle the insurance documentation so the claim moves forward without unnecessary delays.

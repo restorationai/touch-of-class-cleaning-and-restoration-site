@@ -51,8 +51,4 @@ Once mitigation is complete, we handle the rebuild — drywall, flooring, cabine
 
 Reign Restoration is based in Royse City, roughly 25 miles southeast of McKinney via US 380 West or SH 5 North to US 75 North. That puts us well within range for any neighborhood in McKinney — from Painted Tree and Aster Park in the northern ZIP codes (75071) to the established streets of 75069 and 75070 closer to downtown. Because we operate 24/7, a call at 2 a.m. from a property manager in Stonebridge Ranch gets the same response as a call at noon. We'll give you an honest estimated arrival time when you call — (214) 304-0621.
 
-## A recent McKinney response
-
-A property manager overseeing a rental home in Tucker Hill contacted us after a washing machine supply line failed overnight and soaked the laundry room, hallway, and an adjacent bedroom — roughly 400 square feet of LVP flooring over slab. We arrived, extracted the standing water, pulled the affected flooring to expose the slab, and set a drying system that brought moisture readings to acceptable levels within four days. The property manager's insurance carrier received our photo documentation and moisture logs directly, and the tenant was back in the bedroom before the end of the week. This scenario is representative of the calls we handle regularly across McKinney.
-
 If you're dealing with water, fire, mold, or storm damage anywhere in McKinney — ZIP codes 75069, 75070, 75071, or 75072 — call Reign Restoration at **(214) 304-0621**. We're available around the clock, and we'll walk you through next steps before we even arrive on site.

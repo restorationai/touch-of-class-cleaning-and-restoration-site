@@ -47,8 +47,4 @@ Once mitigation is complete, we handle the rebuild — drywall, flooring, cabine
 
 HomeLyft Restoration MS is headquartered in Gulfport. Bay St. Louis is roughly 25 miles west along US-90, a route our crews travel regularly. Depending on traffic and the time of day, that corridor is a straightforward drive. We serve the broader Bay St. Louis area including communities along the waterfront and inland toward the Hancock County line. When you call, we'll give you an honest estimate of when a crew can be on-site based on current job load — we'd rather set a realistic expectation than promise a window we can't keep.
 
-## A recent Bay St. Louis response
-
-A property manager overseeing a rental cottage near the bay called after a slow leak behind the washing machine connection went unnoticed for several weeks between tenant turnovers. By the time the new tenant moved in and reported the smell, mold had established itself across the lower portion of the laundry room wall and into the adjacent bedroom closet. Our team arrived, contained the affected area, removed the damaged drywall and flooring, treated the framing, and documented the full scope for the property owner's landlord insurance policy. The unit was back in rentable condition within two weeks. *(Scenario is representative of the type of work we do in Bay St. Louis; details are not attributed to any specific individual.)*
-
 If you're dealing with water, fire, mold, or storm damage at a Bay St. Louis property, call HomeLyft Restoration MS at (228) 284-5200. We'll assess what you're facing, explain your options plainly, and get the work scheduled.

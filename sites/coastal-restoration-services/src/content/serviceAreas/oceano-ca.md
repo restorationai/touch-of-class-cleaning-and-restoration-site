@@ -47,8 +47,4 @@ Once mitigation is complete, we coordinate or perform the repair work — replac
 
 Oceano is roughly 10 to 12 miles from our Vandenberg Village headquarters, a straightforward run south on Highway 1 through Grover Beach. Depending on traffic through the Five Cities corridor, that's a short drive under most conditions. We serve all of Oceano, including properties near the Oceano Dunes State Vehicular Recreation Area, homes along the older residential streets closer to the Oceano Depot, and the rental and vacation properties that line the blocks nearest the beach. We'll give you an honest arrival estimate when you call — (805) 345-7440 — based on where our closest available crew is at that moment.
 
-## A recent Oceano response
-
-A property manager overseeing a rental home near the dunes called us after tenants reported a musty smell and soft spots in the bathroom floor. When our crew arrived, moisture readings confirmed that a slow leak at the toilet flange had been wicking into the subfloor for weeks — long enough that mold had begun colonizing the underside of the sheathing and the bottom plate of an adjacent wall. We contained the bathroom, removed the affected subfloor and wall section, treated the framing, and provided full photo documentation for the owner's insurance claim. The property was back in rentable condition within two weeks. *(This scenario is representative of the type of work we perform in Oceano; it is not attributed to a specific named client.)*
-
 If you're dealing with water, fire, or mold damage at an Oceano property, call Coastal Restoration Services Inc at **(805) 345-7440**. We'll walk you through what we're seeing, what needs to happen next, and how the insurance process works — before any work begins.

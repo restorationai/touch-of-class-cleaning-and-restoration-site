@@ -49,8 +49,4 @@ Once mitigation is complete, many property owners don't want to manage a separat
 
 From Reign Restoration's home base in Royse City, the standard route to Greenville runs northeast on US-380, a straightforward drive that puts us in the city without navigating major interchange congestion. The distance is approximately 30 miles. While we don't publish a guaranteed on-site minute window, Greenville is well within our regular service corridor — not an outlier dispatch. When you call (214) 304-0621, you'll speak with someone who can give you a realistic arrival estimate based on current crew availability and where in Greenville the property is located.
 
-## A recent Greenville response
-
-A property manager overseeing a rental home in Greenville contacted us after a tenant reported water pooling near the base of an interior wall. By the time we arrived, the moisture meter was reading saturation several feet up the drywall on both sides — a slow slab leak that had been feeding the wall cavity for what appeared to be several weeks. We extracted the affected drywall, set a drying system, coordinated the plumber's access window, and provided the property manager with daily moisture logs to submit alongside the insurance claim. The structure reached dry standard within five days.
-
 If you're dealing with water, fire, mold, or storm damage at a Greenville property, call Reign Restoration at **(214) 304-0621**. We'll assess what you're facing, walk you through the process, and get documentation started so your claim doesn't stall.

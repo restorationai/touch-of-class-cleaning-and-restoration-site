@@ -49,8 +49,4 @@ Mitigation is only half the job. Once the structure is dry and the damaged mater
 
 Reign Restoration is headquartered in Royse City, TX, roughly 35 miles east of central Frisco via US-380 West. Because we operate 24/7, a crew can be dispatched at any hour. Frisco is a large city — the drive from the eastern edge near Plantation Resort to the western communities near Frisco Lakes and Stonebriar Centre can add meaningful time — so we route crews based on current location and job priority. When you call (214) 304-0621, our dispatcher will give you a realistic arrival estimate based on where your property sits and what crews are available at that moment.
 
-## A recent Frisco response
-
-A property manager overseeing a home in Starwood called us on a Sunday evening after a tenant reported water dripping from a second-floor ceiling. By the time our crew arrived, the source turned out to be a failed washing machine supply hose on the second floor — water had traveled through the subfloor, saturated the insulation cavity, and was wicking into the drywall ceiling below. We extracted standing water, set drying equipment across both floors, and had moisture readings back to normal range within four days. The property manager coordinated directly with the insurance carrier using our photo documentation and moisture logs, and the home was back to pre-loss condition before the next tenant moved in. *(Representative scenario — not attributed to a specific individual.)*
-
 If you are dealing with water, fire, smoke, or mold damage anywhere in Frisco, call Reign Restoration at **(214) 304-0621** any time, day or night. We will walk you through the immediate steps, dispatch a crew, and handle the insurance documentation from the first call forward.
