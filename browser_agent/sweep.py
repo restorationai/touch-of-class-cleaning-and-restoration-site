@@ -197,7 +197,6 @@ def bing_dashboard_state(page) -> dict:
 #   https://www.bing.com/maps?ss=ypid.YN841719F0A3CAB26F&mkt=en-US
 # ONLY once it is Published (Crew had it; Coastal, pending, had no such link).
 # That link is therefore both the public URL and independent proof of "live".
-_BIZ_URL = "https://www.bing.com/forbusiness/singleEntity?bizid="
 _PUBLIC_RE = re.compile(r"https://www\.bing\.com/maps\?ss=ypid\.[A-Za-z0-9]+")
 
 

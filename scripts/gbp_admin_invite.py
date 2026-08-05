@@ -235,7 +235,7 @@ def _save_memo(memo: dict, dry_run: bool) -> None:
     if dry_run:
         return
     try:
-        _sb("POST", f"/rest/v1/ops_kv?on_conflict=k", {"k": KV_KEY, "v": memo},
+        _sb("POST", "/rest/v1/ops_kv?on_conflict=k", {"k": KV_KEY, "v": memo},
             prefer="resolution=merge-duplicates")
     except Exception as e:  # noqa: BLE001
         print(f"  [gbp-manager] memo write failed: {str(e)[:80]}")
