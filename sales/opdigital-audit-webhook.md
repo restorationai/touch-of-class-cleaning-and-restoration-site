@@ -179,6 +179,14 @@ The SMS step must be gated on these in the workflow — three branches:
    instead. Never guess: falsely texting a lead that their working site
    is down is worse than silence, and empty merges send "graded ." again.
 
+**Branch 3 must stay the catch-all — a missing tag is NOT a pass.** Failure
+tagging is best-effort and has proven intermittent: of the failed audits since
+07-30, Robert Gibson got `website down` and Jose Mendoza got `audit failed`,
+but Russ Burley, Timothy Cota, Tim Creasey and Monique Curchy all failed and
+were never tagged at all. The tag write itself is fine (verified live
+2026-08-05), so something upstream is skipping it — until that is diagnosed,
+gate branch 1 on the FIELDS being populated, never on the absence of a tag.
+
 This guard is what makes the staff-booked flow safe too: the audit takes ~5
 minutes, so a booking-triggered SMS sent immediately will ALWAYS merge empty
 fields. Either delay the SMS step past the audit or gate it on branch 1.
