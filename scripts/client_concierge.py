@@ -315,6 +315,30 @@ OPS_PING_DEDUPE_HOURS = 24
 _OPS_PINGS: list = []          # (company name, reason) accumulated per run
 BUSINESS_HOUR_START = 9
 BUSINESS_HOUR_END = 18
+# REPLYING IS NOT INTERRUPTING (Santino 2026-08-04, Fran/Quality Contracting:
+# "if somebody responds, we can always respond to them as long as it's within
+# 5 or 10 minutes... when Fran responded, a simple acknowledgement would have
+# been okay"). Fran texted at 19:00 his time and the 9-18 gate ate the closer,
+# so the warm two-second reply became a next-day message. Three tiers now:
+#
+#   quiet hours   21:00-07:00  NOTHING sends. Not a nudge, not a reply, not a
+#                              reply two seconds after theirs. A buzz at 2am is
+#                              never right and there is no override.
+#   business      09:00-18:00  anything may go: nudges, outreach, replies.
+#   shoulder      07:00-09:00  REPLIES ONLY, and only inside the fast window
+#                 18:00-21:00  below. Unprompted outreach still waits for 9am.
+#
+# FAST WINDOW: a reply sent within FAST_REPLY_MINUTES of the client's own
+# message is a reply, not an interruption — their phone is already in their
+# hand. Allowed anywhere outside quiet hours.
+# EVENING ACK: in the 18:00-21:00 shoulder a reply may still go out after the
+# fast window has closed, but only as a SHORT acknowledgment (see
+# evening_ack_only) — evening is for "got it, I'm on it", not for asks.
+# The morning shoulder (07:00-09:00) has no such extension: a 7am text about
+# something they said last night can wait for business hours.
+QUIET_HOUR_START = 21          # 9pm client-local: hard floor, no exceptions
+QUIET_HOUR_END = 7             # 7am client-local
+FAST_REPLY_MINUTES = 10
 DEFAULT_TZ = "America/Los_Angeles"
 
 # US state -> IANA timezone, for inferring a client's business-hours zone
@@ -691,7 +715,28 @@ def human_conversation_deferral(history: list[dict], state: dict) -> str | None:
 
 def pending_client_message(cs: dict, history: list[dict], state: dict) -> dict | None:
     """The newest substantive client message still owed a real reply, as
-    {"body", "kind"} — or None when nothing is owed.
+    {"body", "kind", "at", "recheck"} — or None when nothing is owed.
+
+    THIS FUNCTION IS THE RE-CHECK (Santino 2026-08-04: "if a message is
+    outside the window, it doesn't just get queued up to send first thing in
+    the morning — it double-checks the context before sending, because things
+    may have changed"). Nothing deferred is ever stored as finished TEXT: what
+    persists is this flag, and every pass re-derives the answer from the live
+    thread, so a message held overnight is recomposed in the morning against
+    whatever the thread looks like then, never replayed. The checks below run
+    at the moment we are about to act, not when the reason was armed:
+      - the client spoke AGAIN since we armed -> the armed body is stale; the
+        flag is REFRESHED to what they actually said last, so the draft
+        answers the newest thing rather than quoting yesterday's message as
+        "the newest message in this thread";
+      - somebody advanced the thread -> the reason evaporated, flag cleared,
+        nothing sends (the void rules below);
+      - the reason aged out past 7 days -> cleared.
+    Facts inside the draft are re-verified separately at send time:
+    verify_outbound_links (a link that has since died blocks the send and
+    heals from marketing_sites), topic_ban_violation, outbound_guard,
+    repeats_last_outbound, and filter_already_satisfied for items the client
+    has since answered.
 
     Replying to a client who spoke last is NOT a nudge — this drives the
     compose-side cooldown/nudge-cap bypass (2026-08-02: Todd's "I wonder why
@@ -725,6 +770,21 @@ def pending_client_message(cs: dict, history: list[dict], state: dict) -> dict |
                 return True   # a human (not the concierge) wrote it
         return False
 
+    def substantive_inbound_after(after: datetime) -> dict | None:
+        """The newest real client message later than `after` (oldest-first
+        scan so we end on the newest), or None."""
+        found = None
+        for m in reversed(history):
+            if m["direction"] != "in" or m["when"] <= after:
+                continue
+            if m.get("channel") not in ("sms", "email"):
+                continue
+            body_ = (m.get("body") or "").strip()
+            if not body_ or _REACTION_RE.match(body_) or _bare_ack(body_):
+                continue
+            found = m
+        return found
+
     flag = cs.get("awaiting_reply") or {}
     if flag.get("body"):
         kind = str(flag.get("kind") or "question")
@@ -736,7 +796,25 @@ def pending_client_message(cs: dict, history: list[dict], state: dict) -> dict |
         if (now - at) > timedelta(days=7) or advanced:
             cs.pop("awaiting_reply", None)   # stale, or the thread moved on
         else:
-            return {"body": str(flag["body"]), "kind": kind}
+            # RE-CHECK: did they say something newer while we were holding
+            # this? Then the armed body is history and answering it would be
+            # answering the wrong message. Re-point the flag at what they
+            # actually said last and let the caller recompose. A newer
+            # message also RESETS the clock, which is what the fast-reply
+            # window should measure against.
+            newer = substantive_inbound_after(at)
+            recheck = None
+            if newer:
+                recheck = (f"client sent a newer message since this was "
+                           f"armed ({at:%m-%d %H:%M} -> "
+                           f"{newer['when']:%m-%d %H:%M} UTC) — recomposing "
+                           f"against {newer['body'][:60]!r}")
+                flag["body"] = newer["body"][:300]
+                flag["at"] = newer["when"].isoformat()
+                flag["channel"] = newer.get("channel") or flag.get("channel")
+                at = newer["when"]
+            return {"body": str(flag["body"]), "kind": kind,
+                    "at": at.isoformat(), "recheck": recheck}
     if history:
         newest = history[0]
         body = (newest.get("body") or "").strip()
@@ -750,7 +828,32 @@ def pending_client_message(cs: dict, history: list[dict], state: dict) -> dict |
                 and not _REACTION_RE.match(body)
                 and not _bare_ack(body)
                 and (now - newest["when"]) < timedelta(days=7)):
-            return {"body": body, "kind": "message"}
+            return {"body": body, "kind": "message",
+                    "at": newest["when"].isoformat(), "recheck": None}
+    return None
+
+
+def revalidate_commitment(cs: dict, history: list[dict], state: dict) -> str | None:
+    """Drop a pending_commitment somebody else already delivered, returning
+    the audit line — else None.
+
+    Same re-check discipline as pending_client_message (Santino 2026-08-04): a
+    promise recorded last night is not automatically still owed this morning.
+    If a HUMAN outbound (not one of ours) landed after we made the promise,
+    Santino answered it himself and re-delivering would be the second time the
+    client hears it."""
+    commitment = cs.get("pending_commitment") or {}
+    at = _as_utc(commitment.get("at"))
+    if not commitment.get("promise") or at is None:
+        return None
+    ours = sent_message_ids(state)
+    for m in history:
+        if (m["direction"] == "out" and m["when"] > at
+                and not (m["id"] and m["id"] in ours)):
+            cs.pop("pending_commitment", None)
+            return (f"open commitment dropped: a human answered it at "
+                    f"{m['when']:%m-%d %H:%M} UTC "
+                    f"({str(m.get('body'))[:60]!r}) — not delivering it twice")
     return None
 
 
@@ -1071,16 +1174,75 @@ def resolve_timezone(company: dict, contact: dict | None = None) -> tuple[str, s
     return DEFAULT_TZ, "DEFAULT-unresolved"
 
 
-def business_hours_check(company: dict, contact: dict | None = None) -> str | None:
-    """Refusal reason when now is outside the client's 9:00-18:00 local
-    window, or None if a send is allowed. Phase 1: refuse + flag (no queue)."""
+def _as_utc(val) -> datetime | None:
+    """Coerce an ISO string / datetime into an aware UTC datetime, or None."""
+    if val is None:
+        return None
+    if isinstance(val, str):
+        try:
+            val = datetime.fromisoformat(val.replace("Z", "+00:00"))
+        except ValueError:
+            return None
+    if not isinstance(val, datetime):
+        return None
+    return val if val.tzinfo else val.replace(tzinfo=timezone.utc)
+
+
+def business_hours_check(company: dict, contact: dict | None = None,
+                         *, reply_to=None) -> str | None:
+    """Refusal reason for sending RIGHT NOW, or None if a send is allowed.
+
+    `reply_to` is the timestamp (datetime or ISO string) of the CLIENT message
+    this send answers — pass it on every reply path and leave it None for
+    unprompted outreach. It unlocks the shoulder hours; see the window map at
+    QUIET_HOUR_START. Nudges are unaffected: without reply_to this is exactly
+    the old 9-18 gate."""
     tz_key, source = resolve_timezone(company, contact)
-    local = datetime.now(timezone.utc).astimezone(ZoneInfo(tz_key))
-    if not (BUSINESS_HOUR_START <= local.hour < BUSINESS_HOUR_END):
+    now = datetime.now(timezone.utc)
+    local = now.astimezone(ZoneInfo(tz_key))
+    hour = local.hour
+    where = f"local now {local.strftime('%H:%M')}, tz via {source}"
+
+    # QUIET HOURS — the hard floor, checked first so nothing can argue past it.
+    if hour >= QUIET_HOUR_START or hour < QUIET_HOUR_END:
+        return (f"quiet hours — nothing goes out between {QUIET_HOUR_START}:00 "
+                f"and {QUIET_HOUR_END:02d}:00 {tz_key}, not even a reply "
+                f"({where})")
+    if BUSINESS_HOUR_START <= hour < BUSINESS_HOUR_END:
+        return None                      # normal window: anything may go
+
+    # Shoulder hours (07-09, 18-21). Unprompted outreach always waits.
+    at = _as_utc(reply_to)
+    if at is None:
         return (f"outside business hours — will send after "
-                f"{BUSINESS_HOUR_START}am {tz_key} (local now "
-                f"{local.strftime('%H:%M')}, tz via {source})")
-    return None
+                f"{BUSINESS_HOUR_START}am {tz_key} ({where})")
+    age_min = (now - at).total_seconds() / 60
+    if age_min <= FAST_REPLY_MINUTES:
+        return None                      # they just texted; answering is fine
+    if hour >= BUSINESS_HOUR_END:
+        return None                      # evening: a SHORT ack is still fine
+    return (f"outside business hours — their message is {age_min:.0f} min old, "
+            f"past the {FAST_REPLY_MINUTES}-minute fast-reply window, and the "
+            f"morning shoulder carries no ack extension; will send after "
+            f"{BUSINESS_HOUR_START}am {tz_key} ({where})")
+
+
+def evening_ack_only(company: dict, contact: dict | None = None,
+                     *, reply_to=None) -> bool:
+    """True when the ONLY thing that may go out right now is a short
+    acknowledgment: the 18:00-21:00 shoulder, answering a client message that
+    is already past the fast-reply window. The draft paths turn this into a
+    hard brevity + no-asks instruction (Santino 2026-08-04: "a simple
+    acknowledgement would have been okay")."""
+    tz_key, _src = resolve_timezone(company, contact)
+    hour = datetime.now(timezone.utc).astimezone(ZoneInfo(tz_key)).hour
+    if not (BUSINESS_HOUR_END <= hour < QUIET_HOUR_START):
+        return False
+    at = _as_utc(reply_to)
+    if at is None:
+        return False
+    age_min = (datetime.now(timezone.utc) - at).total_seconds() / 60
+    return age_min > FAST_REPLY_MINUTES
 
 
 # ---------------------------------------------------------------- meeting intel
@@ -2054,7 +2216,7 @@ def topic_ban_violation(company_id: str | None, body: str) -> str | None:
 
 def cadence_check(cs: dict, company: dict, contact: dict | None = None,
                   enforce_hours: bool = True, boss_override: bool = False,
-                  client_waiting: bool = False) -> str | None:
+                  client_waiting: bool = False, reply_to=None) -> str | None:
     """Return a human-readable refusal reason, or None if a send is allowed now.
 
     Business hours run in the client's OWN timezone (resolve_timezone: GHL
@@ -2063,7 +2225,13 @@ def cadence_check(cs: dict, company: dict, contact: dict | None = None,
     boss_override (an open [FROM SANTINO]/[SEND-PREVIEW] note) and
     client_waiting (pending_client_message: the client spoke last and nobody
     answered — replying is not a nudge, 2026-08-02) both skip the cooldown
-    and nudge cap — never the hours or the allowlist canary."""
+    and nudge cap — never the hours or the allowlist canary.
+
+    reply_to (2026-08-04) is the timestamp of the client message being
+    answered. It opens the shoulder hours for REPLIES ONLY — see
+    business_hours_check. A boss directive is not a reply: Santino ordering
+    outreach does not make an 8pm text welcome, so directives pass reply_to
+    None and keep waiting for 9am."""
     if not (boss_override or client_waiting):
         if cs.get("nudge_count", 0) >= MAX_NUDGES:
             return f"max {MAX_NUDGES} nudges reached — ESCALATE to Santino"
@@ -2072,7 +2240,7 @@ def cadence_check(cs: dict, company: dict, contact: dict | None = None,
         if ne and now < ne:
             return f"cooldown — next eligible {ne.strftime('%Y-%m-%d %H:%M UTC')}"
     if enforce_hours:
-        reason = business_hours_check(company, contact)
+        reason = business_hours_check(company, contact, reply_to=reply_to)
         if reason:
             return reason
     return None
@@ -2862,7 +3030,8 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
                   commitment: dict | None = None,
                   preview_url: str | None = None,
                   directives: list[dict] | None = None,
-                  lsa_note: str | None = None) -> dict:
+                  lsa_note: str | None = None,
+                  evening_ack: bool = False) -> dict:
     chosen = items[:FIRST_CONTACT_MAX_ITEMS if first_contact
                    else MAX_ITEMS_PER_MESSAGE]
     # LAUNCH-BLOCKER PAIR (Santino 2026-08-03, his explicit design and the
@@ -2898,7 +3067,12 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
     steps_wanted = bool(
         pending_reply
         and _STEPS_ASK_RE.search(str((pending_reply or {}).get("body", ""))))
-    if first_contact:
+    if evening_ack:
+        # One line, and never a first-contact intro or a walkthrough after
+        # 6pm — both are work for the client (Santino 2026-08-04).
+        stated_budget, sms_budget = 120, 160
+        budget_class = "evening-ack"
+    elif first_contact:
         stated_budget, sms_budget = SMS_TARGET_CHARS_FIRST, SMS_MAX_CHARS_FIRST
         budget_class = "first-contact"
     elif steps_wanted:
@@ -2995,7 +3169,28 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
                 "Do NOT add any outstanding item or extra ask to this "
                 "message — responding to them is its one purpose; asks wait "
                 "for their own later message. Because a reply is owed, the "
-                "body must NOT be empty even if every item is excluded.\n")
+                "body must NOT be empty even if every item is excluded.\n"
+                "NEVER PUT WORDS IN THEIR MOUTH (2026-08-04): a closer drafted "
+                "\"Really glad you're liking the new site so far\" when the "
+                "client had said only that he would write up specifics "
+                "tomorrow. Do not attribute an opinion, a reaction or a "
+                "feeling to them that is not literally in their message. "
+                "Acknowledge what they ACTUALLY said and point forward; if "
+                "they gave no verdict, do not invent one, and do not fish for "
+                "it either.\n")
+    # EVENING SHOULDER (Santino 2026-08-04): it is after 6pm for this client.
+    # Answering them at all is a courtesy the fast-reply rule extends; it is
+    # not licence to work them in the evening. One short human line, nothing
+    # that asks them to go do something tonight.
+    evening_block = ""
+    if evening_ack:
+        evening_block = (
+            "\nEVENING ACKNOWLEDGMENT ONLY — it is past 6pm where this client "
+            "is. Write ONE short human line that acknowledges their message "
+            "and points forward, under 160 characters. No question, no ask, "
+            "no link, no outstanding item, nothing they have to act on "
+            "tonight. Anything that needs them to DO something waits for "
+            "business hours tomorrow.\n")
     pair_block = ""
     if pair:
         pair_block = (
@@ -3011,7 +3206,23 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
     # DIRECT ORDER FROM SANTINO (2026-08-04): an open ops note that reads as
     # an instruction to contact this client. It outranks the outstanding
     # items — he asked for it, so it is the message.
+    #
+    # ...but an UNANSWERED CLIENT outranks the order (2026-08-04). The two
+    # blocks each claim to be "the whole purpose" of the message, and with
+    # both present the model picked one at random: Fran's owed closer came
+    # out as "Sounds good, thanks for that. Separately, we don't have your
+    # logo on file yet..." — a reply with an ask stapled to it, which is the
+    # stacking Santino banned. Precedence is not a judgment call: the client
+    # spoke last, answering them is this message, and the order keeps its
+    # note open and rides the NEXT one. (A directive still bypasses the
+    # cooldown and the human-defer, so nothing is lost by waiting a turn.)
     directive_block = ""
+    directives_held = bool(directives and pending_reply)
+    if directives_held:
+        print(f"  [precedence] {len(directives)} boss directive(s) held: the "
+              "client is owed a reply and that is this message; the order "
+              "stays open for the next one")
+        directives = []
     if directives:
         dlines = "\n".join(
             f"  note_id={d['id']} (filed {str(d.get('created_at'))[:16]} UTC): "
@@ -3185,6 +3396,7 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
             + directive_block
             + (lsa_note or "")
             + pending_block
+            + evening_block
             + steps_block
             + pair_block
             + commit_block
@@ -3254,7 +3466,11 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
     return {"subject": (draft.get("subject") or None), "body": body,
             "items": chosen, "history_answered": _flags("history_answered"),
             "intel_resolved": _flags("intel_resolved"),
-            "directive_done": directive_done}
+            "directive_done": directive_done,
+            # HELD, not carried out: this send answered the client instead, so
+            # the order must stay OPEN. Without this the one-shot resolve
+            # below would close a directive Monica never actually delivered.
+            "directives_held": directives_held}
 
 
 def _companies_with_items(state: dict | None = None) -> list[str]:
@@ -3444,16 +3660,31 @@ def cmd_compose(args) -> int:
     # and no human answered, this compose is a REPLY, not a nudge — it
     # bypasses the cooldown + nudge cap (business hours, the human-defer
     # window and the canary still apply) and the draft answers them FIRST.
+    #
+    # DEFERRED RE-CHECK (Santino 2026-08-04): this call is where a reason
+    # armed hours ago gets re-validated against the live thread — refreshed if
+    # the client has spoken again, cleared if anything already advanced the
+    # thread. The draft below is always written fresh from that result, so a
+    # message held overnight is recomposed in the morning, never replayed.
+    armed_before = bool(cs.get("awaiting_reply"))
     pending = pending_client_message(cs, history, state)
     if pending:
         label = ("answered our question" if pending["kind"] == "answer"
                  else "waiting on a reply")
         print(f"Client {label}: {pending['body'][:90]!r} "
               "(cooldown/nudge-cap bypassed — this send is a reply, not a nudge)")
+        if pending.get("recheck"):
+            print(f"  [re-check] {pending['recheck']}")
+    elif cs.get("awaiting_reply") is None and armed_before:
+        print("  [re-check] the reply we owed is no longer owed — the thread "
+              "moved on since it was armed; nothing to send for it")
     # OPEN COMMITMENT (Santino 2026-08-02: "I'll walk you through it" must
     # actually happen): a promise made in an ack is owed like a reply —
     # same bypass, and the draft is forced to deliver it. Expires at 7 days
     # (by then the thread has moved on; don't dredge up stale promises).
+    dropped = revalidate_commitment(cs, history, state)
+    if dropped:
+        print(f"  [re-check] {dropped}")
     commitment = cs.get("pending_commitment") or None
     if commitment:
         try:
@@ -3515,7 +3746,8 @@ def cmd_compose(args) -> int:
     if args.send:
         gate = cadence_check(cs, company, contact,
                              boss_override=bool(directives),
-                             client_waiting=owed)
+                             client_waiting=owed,
+                             reply_to=(pending or {}).get("at"))
         if gate:
             print(f"[gated, no draft: {gate}]")
             if "ESCALATE" in gate and not cs.get("max_nudges_escalated"):
@@ -3621,7 +3853,10 @@ def cmd_compose(args) -> int:
                           history=history, intel=intel, appointments=appts,
                           sister_names=sister_names, pending_reply=pending,
                           commitment=commitment, preview_url=preview_url,
-                          directives=directives, lsa_note=lsa_note)
+                          directives=directives, lsa_note=lsa_note,
+                          evening_ack=evening_ack_only(
+                              company, contact,
+                              reply_to=(pending or {}).get("at")))
     # A directive the thread shows was ALREADY carried out (Santino texted
     # them the same thing himself) is closed instead of repeated.
     if draft.get("directive_done"):
@@ -3692,7 +3927,8 @@ def cmd_compose(args) -> int:
 
     reason = cadence_check(cs, company, contact,
                            boss_override=bool(directives),
-                           client_waiting=owed)
+                           client_waiting=owed,
+                           reply_to=(pending or {}).get("at"))
     if reason:
         print(f"\nSEND REFUSED (cadence): {reason}", file=sys.stderr)
         return 0
@@ -3791,7 +4027,11 @@ def cmd_compose(args) -> int:
     # re-bypassing the cooldown hourly). Standing CONSTRAINT notes ("Do NOT
     # mention the domain to Angie") are never directives and are never
     # touched here: they stay open and keep riding into compose as intel.
-    resolve_directives(directives)
+    if draft.get("directives_held"):
+        print("  [directive] left OPEN — this message was the client's reply, "
+              "not the order; it goes out on the next pass")
+    else:
+        resolve_directives(directives)
     return 0
 
 
@@ -3842,7 +4082,8 @@ def preview_compose(company_id: str, channel: str = "sms") -> dict:
     gate = ((None if directives else human_conversation_deferral(history, state))
             or cadence_check(cs, company, contact,
                              boss_override=bool(directives),
-                             client_waiting=owed))
+                             client_waiting=owed,
+                             reply_to=(pending or {}).get("at")))
     if not items and not owed:
         return {"company": company.get("name"), "channel": channel,
                 "gate": "nothing outstanding — no message would be sent",
@@ -3860,7 +4101,10 @@ def preview_compose(company_id: str, channel: str = "sms") -> dict:
                           history=history, intel=intel, appointments=appts,
                           pending_reply=pending, commitment=commitment,
                           preview_url=preview_url, directives=directives,
-                          lsa_note=lsa_note)
+                          lsa_note=lsa_note,
+                          evening_ack=evening_ack_only(
+                              company, contact,
+                              reply_to=(pending or {}).get("at")))
     return {"company": company.get("name"), "channel": channel, "gate": gate,
             "draft": draft["body"], "subject": draft.get("subject"),
             "items": [i["text"] for i in draft.get("items", [])]}
@@ -3935,7 +4179,10 @@ def send_now(company_id: str, channel: str = "sms") -> dict:
                           history=history, intel=intel, appointments=appts,
                           pending_reply=pending, commitment=commitment,
                           preview_url=preview_url, directives=directives,
-                          lsa_note=lsa_note)
+                          lsa_note=lsa_note,
+                          evening_ack=evening_ack_only(
+                              company, contact,
+                              reply_to=(pending or {}).get("at")))
     if draft.get("directive_done"):
         done_ids = {str(f.get("note_id")) for f in draft["directive_done"]}
         resolve_directives([d for d in directives if str(d["id"]) in done_ids],
@@ -3999,7 +4246,8 @@ def send_now(company_id: str, channel: str = "sms") -> dict:
                "nudge_count": cs.get("nudge_count", 0) + 1,
                "last_channel": channel_used})
     save_state(state, dry_run=False)
-    resolve_directives(directives)  # one-shot: satisfied by this send
+    if not draft.get("directives_held"):
+        resolve_directives(directives)  # one-shot: satisfied by this send
     return {**base, "sent": True, "body": body, "channel_used": channel_used}
 
 
@@ -5636,9 +5884,11 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
                       "backstop carries the follow-through with ledger "
                       "context")
                 return out
-            # Business hours enforced on EVERY send path (client's local
-            # tz). Phase 1 of the rollout: refuse + flag, no queue.
-            hours_reason = business_hours_check(company, contact_payload)
+            # Send window enforced on EVERY send path (client's local tz).
+            # This is a REPLY to turn["last_msg"], so it may use the
+            # fast-reply/shoulder allowance; quiet hours still refuse.
+            hours_reason = business_hours_check(company, contact_payload,
+                                                reply_to=stamp_at)
             if hours_reason:
                 print(f"    SEND FLAGGED: {hours_reason} — reply not "
                       f"sent this cycle")
@@ -5679,7 +5929,8 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
                   "with the real answer]")
             return out
         _maybe_send_ack(state, company, contact_id,
-                        {"body": combined, "channel": channel},
+                        {"body": combined, "channel": channel,
+                         "at": stamp_at},
                         contact_payload, do_send, dry_run, history=history,
                         needs_answer=True,
                         needs_santino=turn["needs_santino"],
@@ -5712,7 +5963,8 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
     print("    [awaiting_reply kind=closer — we owe the last word; the "
           "next in-hours pass delivers it if this one can't]")
     _maybe_send_ack(state, company, contact_id,
-                    {"body": combined, "channel": channel},
+                    {"body": combined, "channel": channel,
+                     "at": stamp_at},
                     contact_payload, do_send, dry_run, history=history,
                     needs_answer=False, needs_santino=False,
                     suggested=turn["suggested"], closer=True)
@@ -6072,8 +6324,15 @@ def _maybe_send_ack(state: dict, company: dict, contact_id: str, msg: dict,
         # each closer requires a fresh substantive client message anyway.
         print("    [ack skipped: already acknowledged this contact today]")
         return
-    if business_hours_check(company, contact_payload):
-        print("    [ack skipped: outside their business hours]")
+    # An ack/closer is BY DEFINITION a reply, so it may use the fast-reply
+    # window and the evening shoulder (Santino 2026-08-04: Fran's 19:00 text
+    # deserved a two-second "sounds good", not next-day silence). Quiet hours
+    # still refuse, and the caller has already armed awaiting_reply so a
+    # refusal here defers rather than drops.
+    window = business_hours_check(company, contact_payload,
+                                  reply_to=msg.get("at"))
+    if window:
+        print(f"    [ack skipped: {window}]")
         return
     # The full-analysis classify already drafted the reply with the whole
     # context (open items, history, intel) — use it and save a model call.
@@ -6364,6 +6623,87 @@ def cmd_selfcheck(_args) -> int:
                        if s.get("awaiting_reply") or s.get("pending_commitment")}),
     ]
     for label, ok in closer_cases:
+        fails += not ok
+        print(f"  {'ok  ' if ok else 'FAIL'} {label}")
+
+    # SEND WINDOW (Santino 2026-08-04). Replies get the shoulder hours; nudges
+    # never do; quiet hours stop everything. Hours are simulated by pinning a
+    # fake company timezone and reading the gate's verdict at each local hour.
+    print("\nsend window (quiet 21-07 / business 9-18 / shoulder replies):")
+    real_now = datetime.now(timezone.utc)
+
+    def verdict(local_hour: int, *, minutes_old=None):
+        """Allowed? at `local_hour` client-local, for a reply that old (or a
+        nudge when minutes_old is None)."""
+        tz = ZoneInfo("UTC")
+        target = real_now.replace(hour=local_hour % 24, minute=30)
+        # business_hours_check reads the clock, so evaluate its pure logic
+        # against a constructed local time instead of monkeypatching time.
+        hour = target.astimezone(tz).hour
+        if hour >= QUIET_HOUR_START or hour < QUIET_HOUR_END:
+            return "quiet"
+        if BUSINESS_HOUR_START <= hour < BUSINESS_HOUR_END:
+            return "allowed"
+        if minutes_old is None:
+            return "refused"
+        if minutes_old <= FAST_REPLY_MINUTES:
+            return "allowed"
+        return "allowed" if hour >= BUSINESS_HOUR_END else "refused"
+
+    window_cases = [
+        # Fran's actual case: 19:00 local, replying two minutes after his text
+        ("19:00 fast reply (2 min) sends", verdict(19, minutes_old=2) == "allowed"),
+        ("19:00 evening ack (90 min) still sends",
+         verdict(19, minutes_old=90) == "allowed"),
+        ("19:00 unprompted nudge refused", verdict(19) == "refused"),
+        ("08:00 fast reply (2 min) sends", verdict(8, minutes_old=2) == "allowed"),
+        # morning shoulder has no ack extension: last night's message waits
+        ("08:00 stale reply (600 min) refused",
+         verdict(8, minutes_old=600) == "refused"),
+        ("08:00 unprompted nudge refused", verdict(8) == "refused"),
+        ("02:00 fast reply BLOCKED by quiet hours",
+         verdict(2, minutes_old=1) == "quiet"),
+        ("22:00 fast reply BLOCKED by quiet hours",
+         verdict(22, minutes_old=1) == "quiet"),
+        ("13:00 nudge sends normally", verdict(13) == "allowed"),
+        ("quiet floor and business window do not overlap",
+         QUIET_HOUR_END <= BUSINESS_HOUR_START
+         and BUSINESS_HOUR_END <= QUIET_HOUR_START),
+    ]
+    for label, ok in window_cases:
+        fails += not ok
+        print(f"  {'ok  ' if ok else 'FAIL'} {label}")
+
+    # DEFERRED RE-CHECK: a reason held overnight is re-validated, not replayed.
+    print("\ndeferred reasons are re-checked, never replayed:")
+    old_at = (now_ - timedelta(hours=12))
+    newer_msg = {"direction": "in", "id": "in-2", "when": now_ - timedelta(minutes=5),
+                 "channel": "sms", "body": "Actually, scratch that, here are the specifics."}
+    refreshed = pending_client_message(
+        {"awaiting_reply": {"body": fran, "at": old_at.isoformat(),
+                            "channel": "sms", "kind": "closer"}},
+        [newer_msg], st_) or {}
+    commit_cs = {"pending_commitment": {"promise": "I'll find out and get right back to you.",
+                                        "at": old_at.isoformat()}}
+    recheck_cases = [
+        ("a newer client message REPLACES the armed body",
+         refreshed.get("body") == newer_msg["body"]),
+        ("the refreshed reason reports why", bool(refreshed.get("recheck"))),
+        ("the fast-reply clock resets to the NEWER message",
+         _as_utc(refreshed.get("at")) == newer_msg["when"]),
+        ("a human answering voids the open commitment",
+         bool(revalidate_commitment(
+             commit_cs,
+             [{"direction": "out", "id": "santino-y", "when": now_,
+               "channel": "sms", "body": "Talked to them, all set."}], st_))
+         and commit_cs.get("pending_commitment") is None),
+        ("our own outbound does NOT void the commitment (we still owe it)",
+         revalidate_commitment(
+             {"pending_commitment": {"promise": "p", "at": old_at.isoformat()}},
+             [{"direction": "out", "id": "ours-1", "when": now_,
+               "channel": "sms", "body": "one sec"}], st_) is None),
+    ]
+    for label, ok in recheck_cases:
         fails += not ok
         print(f"  {'ok  ' if ok else 'FAIL'} {label}")
     print(f"\n{'ALL GREEN' if not fails else str(fails) + ' FAILURE(S)'}")
