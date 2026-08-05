@@ -10,9 +10,10 @@ scripts/claims_lint.py — a draft that fails lint is never saved).
 
 Flow:
   1. Monthly authority cron runs `draft --all` (railway.authority-cron.toml).
-     The script no-ops unless it's the first month of a quarter OR the current
-     quarter has no row yet (catch-up), so quarterly cadence emerges from the
-     monthly cron.
+     It runs every month and quarterly cadence emerges PER CLIENT from the
+     row-exists skip below: a client who already has a release for the current
+     quarter is skipped, and a client who joined mid-quarter is drafted in
+     their first month rather than waiting for the next quarter to open.
   2. Draft is upserted to marketing_press_releases (status=draft) and written
      to clients/{slug}/press/{quarter}.md.
   3. Operator reviews in the app (Marketing → Reports → Press Releases card):
@@ -140,16 +141,6 @@ def sb_upsert_draft(company_id: str, quarter: str, title: str, body: str) -> Non
             "updated_at": now_iso(),
         }]), timeout=30)
     r.raise_for_status()
-
-
-def sb_quarter_row_count(quarter: str) -> int:
-    """How many press-release rows exist for this quarter (any client)."""
-    r = requests.get(
-        f"{SB_URL}/rest/v1/{TABLE}",
-        params={"quarter": f"eq.{quarter}", "select": "company_id"},
-        headers=_sb_headers(), timeout=30)
-    r.raise_for_status()
-    return len(r.json())
 
 
 # ----------------------------------------------------------------------------
@@ -432,14 +423,23 @@ def cmd_draft(args: argparse.Namespace) -> int:
     now = datetime.now(timezone.utc)
     quarter = args.quarter or quarter_of(now)
 
-    # Quarterly gate for the monthly cron: run in the first month of a quarter,
-    # or in months 2-3 ONLY as catch-up when the quarter has no rows yet
-    # (e.g. the first-month run failed). --quarter / --force bypass the gate.
-    if not args.quarter and not args.force:
-        if not is_first_month_of_quarter(now) and sb_quarter_row_count(quarter) > 0:
-            print(f"Gate: {now:%Y-%m} is not the first month of {quarter} and "
-                  f"{quarter} already has releases — no-op (quarterly cadence).")
-            return 0
+    # Quarterly cadence is enforced PER CLIENT by draft_one's row-exists skip,
+    # never globally.
+    #
+    # This used to no-op the entire run in months 2-3 whenever the quarter had
+    # any rows at all — a fleet-wide count. Q3's first-month run drafted the 13
+    # clients who existed in July, which then switched the gate off for August
+    # and September, so every client who signed up mid-quarter got nothing and
+    # would have waited until October. Found 2026-08-05 with 8 clients already
+    # in company_map and silently skipped (Reign, DISS, Coastal, Crew, Go Green,
+    # HomeLyft, QCI, AAA).
+    #
+    # Running --all every month is cheap and correct: existing clients hit the
+    # idempotent skip, and anyone new gets their release in their first month.
+    if not args.quarter and not args.force and not is_first_month_of_quarter(now):
+        print(f"Catch-up pass: {now:%Y-%m} is mid-{quarter}. Clients that already "
+              f"have a {quarter} release are skipped individually; anyone who "
+              f"joined since the first-month run gets drafted now.")
 
     if args.all:
         targets = active_slugs()
