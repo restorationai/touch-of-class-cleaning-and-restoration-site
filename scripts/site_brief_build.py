@@ -17,8 +17,9 @@ from __future__ import annotations
 
 import argparse
 import json
-import re
-import sys
+import os          # the logo-pull block below uses os.environ inside a bare
+import re          # try/except — without this import the NameError was
+import sys         # swallowed and the client's logo silently never downloaded
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -148,18 +149,59 @@ def main():
     # brand: brief/kit values fill gaps; existing hand-set keys win
     brand.setdefault("display_name", co["name"].strip())
     brand.setdefault("short_name", co["name"].strip().split()[0])
-    if brand_kit.get("primary_color"):
-        brand.setdefault("primary_color", brand_kit["primary_color"])
-    sec = (brand_kit.get("secondary_color") or "").lstrip("#")
-    # A near-white accent on a light theme renders invisible elements — skip
-    # it and let the template derive an accent from the primary instead.
-    def _too_light(h):
+    # ---- brand colours -----------------------------------------------------
+    # The app's Site Build card is where a CLIENT picks colours, so an app value
+    # normally WINS over whatever plan-input already holds — under the old
+    # blanket setdefault, a client changing their colour in the UI was silently
+    # dropped on every rebuild and the picker was decorative.
+    #
+    # The exception is a LOCKED colour: one held on documented authority, e.g.
+    # PuroClean's #D12229 from the franchise Brand Identity Guide. Those are set
+    # by scripts/brand_colors_sync.py, which also pushes them back OUT to the
+    # app, so the two ends agree instead of fighting.
+    locked = bool(brand.get("color_locked"))
+    app_primary = (brand_kit.get("primary_color") or "").strip()
+    cur_primary = (brand.get("primary_color") or "").strip()
+    if app_primary and locked and app_primary.lower() != cur_primary.lower():
+        print(f"  brand: app primary {app_primary} IGNORED — plan-input is colour-locked to "
+              f"{cur_primary} ({brand.get('color_source') or 'brand guide'})")
+    elif app_primary:
+        if cur_primary and cur_primary.lower() != app_primary.lower():
+            print(f"  brand: primary {cur_primary} -> {app_primary} (app pick wins)")
+        brand["primary_color"] = app_primary
+        brand.setdefault("color_source", "app")
+
+    sec = (brand_kit.get("secondary_color") or "").strip().lstrip("#")
+
+    def _rgb(h):
+        return (int(h[0:2], 16), int(h[2:4], 16), int(h[4:6], 16))
+
+    def _invisible(h: str) -> bool:
+        """An accent that melts into the page background is worse than none —
+        with the key absent the template derives a contrast-safe accent from
+        the primary instead. Guards BOTH themes: near-white on a light page
+        (the original 2026-07 fix) and near-background on a dark page, which
+        the light-only test missed — Reign's second brand colour is #0a0b0e
+        and their page background is also #0a0b0e."""
         try:
-            return (int(h[0:2], 16) + int(h[2:4], 16) + int(h[4:6], 16)) > 690
+            r, g, b = _rgb(h)
         except Exception:
             return False
-    if sec and not (theme == "light" and _too_light(sec)):
+        if theme == "light":
+            return r + g + b > 690
+        try:
+            br, bg, bb = _rgb((brand.get("dark_color") or "#111827").lstrip("#"))
+        except Exception:
+            br, bg, bb = (17, 24, 39)
+        return abs(r - br) + abs(g - bg) + abs(b - bb) < 60
+
+    if sec and _invisible(sec):
+        print(f"  brand: accent #{sec} dropped — invisible against the {theme} page "
+              f"background; template will derive one from the primary")
+    elif sec and locked:
         brand.setdefault("accent_color", "#" + sec)
+    elif sec:
+        brand["accent_color"] = "#" + sec
     if brand_kit.get("heading_font"):
         brand.setdefault("heading_font", brand_kit["heading_font"])
     if brand_kit.get("body_font"):

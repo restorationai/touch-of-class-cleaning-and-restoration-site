@@ -85,8 +85,18 @@
    },
    "equipment": "Client direction (Greg, 2026-08-04): equipment reads red/black in all photography. BIG p24 requires PuroClean-branded equipment sourced via the PuroClean Products Catalog / Aramsco.",
    "required_disclaimer": "Each PuroClean office is independently owned and operated. Some services may not be available in all offices. (BIG p8 — required on printed materials.)",
-   "open_conflict": "BIG p31 WEBSITE STANDARDS + the FDD quoted there state a franchise owner may not register or use a separate domain outside PuroClean.com without the franchisor's written approval. purocleaneastlasvegas.com is exactly that. Needs Greg to confirm written approval from PuroClean Marketing — flagged to Santino 2026-08-05, NOT actioned unilaterally."
-  }
+   "resolved_conflict": {
+    "status": "resolved",
+    "issue": "BIG p31 WEBSITE STANDARDS + the FDD quoted there state a franchise owner may not register or use a separate domain outside PuroClean.com without the franchisor's written approval. purocleaneastlasvegas.com is exactly that.",
+    "resolution": "Written approval confirmed by Santino 2026-08-05, seen directly — Greg Arianoff showed him PuroClean Marketing's written approval for the separate domain. Cleared to keep running purocleaneastlasvegas.com; no further action needed and this must not be re-raised as an open conflict.",
+    "attested_by": "Santino",
+    "attested_at": "2026-08-05",
+    "evidence_held": "none on file — Santino viewed the approval directly; the document itself was not sent to us. If PuroClean Marketing ever challenges the domain, ask Greg for the copy before responding.",
+    "raised_at": "2026-08-05"
+   }
+  },
+  "color_locked": true,
+  "color_source": "brand-kit"
  },
  "template": "restoration",
  "services": [

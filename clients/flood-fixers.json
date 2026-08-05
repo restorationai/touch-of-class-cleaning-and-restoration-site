@@ -23,7 +23,7 @@
   "status": "active",
   "video_publish_mode": "public",
   "created_at": "2026-06-29T20:08:03.446673+00:00",
-  "updated_at": "2026-08-05T04:02:54.504213+00:00",
+  "updated_at": "2026-08-05T04:36:24.142621+00:00",
   "plan_status": "planned",
   "plan": {
     "template": "restoration",
@@ -43,7 +43,7 @@
     "last_pushed_main_at": "2026-08-05T04:02:54.504170+00:00"
   },
   "build_status": "pushed_main",
-  "indexnow_key": "cfd049710bd5477b8ba4bfd8bef5ad3f",
+  "indexnow_key": "7ba7475fb4a24ee48bb843392ddc71a8",
   "cloudflare": {
     "zone_id": "0e9dec42e9729ffd6424b2472144d4b4"
   },
@@ -63,5 +63,12 @@
     "last_run_total_actions": 0,
     "last_run_top_action": "none",
     "last_run_report_path": "clients/flood-fixers/refresh-runs/2026-07-06-refresh-recommender.md"
-  }
+  },
+  "indexnow_key_history": [
+    {
+      "key": "cfd049710bd5477b8ba4bfd8bef5ad3f",
+      "retired_at": "2026-08-05T04:36:24.142432+00:00",
+      "reason": "manual --rotate"
+    }
+  ]
 }

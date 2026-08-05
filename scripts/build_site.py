@@ -1470,6 +1470,12 @@ def cmd_scaffold(args) -> int:
         print(f"      WARNING: {len(leftover)} unsubstituted tokens: {sorted(leftover)}")
     print(f"      Files modified: {files_changed}")
 
+    # IndexNow proof-of-ownership file, minted HERE so it is part of the very
+    # first push. Bing caches its verdict on the (host, key) pair forever, so a
+    # key must never be pinged before its file is serving — see THE 403 TRAP.
+    # `client` is mutated in place and saved at step 6 below.
+    ensure_indexnow_key(slug, client)
+
     # Step 2: Generate content collection markdown
     print(f"[2/5] Generating {len(url_plan['pages'])} content collection entries...")
     # Make sure src/content has fresh subdirectories
@@ -1568,6 +1574,66 @@ def cmd_scaffold(args) -> int:
 # ----------------------------------------------------------------------------
 # Subcommand: status
 # ----------------------------------------------------------------------------
+
+
+def cmd_retint(args) -> int:
+    """Re-derive the colour files from plan-input without a full re-scaffold.
+
+    Only two files in a built site carry brand colour — tailwind.config.mjs and
+    public/favicon.svg — and both are pure token substitutions of the starter.
+    When a client's real palette arrives after the build (a brand guide, a logo
+    sample), re-running scaffold would re-render every page and cost real money;
+    this rewrites just the colour surface.
+
+    It also repairs sites scaffolded before the full 50→950 ramp generator
+    landed, which carry stock Tailwind rungs around a correct DEFAULT — e.g.
+    PuroClean's primary-700 hover was generic #b91c1c instead of a darkened
+    #D12229."""
+    slug = args.slug
+    site_dir = SITES_DIR / slug
+    if not site_dir.exists():
+        die(f"No site at {site_dir}")
+    client = load_json(CLIENTS_DIR / f"{slug}.json")
+    plan_input = load_json(CLIENTS_DIR / slug / "plan-input.json")
+    string_tokens, json_tokens = resolve_tokens(client, plan_input)
+    tokens = {**string_tokens, **json_tokens}
+
+    targets = [("tailwind.config.mjs", STARTER_DIR / "tailwind.config.mjs"),
+               ("public/favicon.svg", STARTER_DIR / "public" / "favicon.svg")]
+    changed = []
+    for rel, src in targets:
+        if not src.exists():
+            continue
+        dst = site_dir / rel
+        template = src.read_text()
+        # Refuse to silently discard hand-tuning. Several sites carry contrast
+        # rationale a human worked out (TRG's AA-checked blue, flood-fixers'
+        # logo palette); those are worth more than a regenerated ramp.
+        if dst.exists() and not args.force:
+            tmpl_comments = {l.strip() for l in template.splitlines()
+                             if l.strip().startswith(("//", "/*", "*"))}
+            extra = [l.strip() for l in dst.read_text().splitlines()
+                     if l.strip().startswith(("//", "/*", "*"))
+                     and l.strip() not in tmpl_comments]
+            if extra:
+                print(f"    SKIP {rel}: hand-tuned ({len(extra)} comment line(s) not in the "
+                      f"starter, e.g. {extra[0][:70]!r}). Re-run with --force to overwrite.")
+                continue
+        new, leftover = substitute_text(template, tokens)
+        if leftover:
+            print(f"    WARNING {rel}: unsubstituted {sorted(leftover)}")
+        if not dst.exists() or dst.read_text() != new:
+            dst.parent.mkdir(parents=True, exist_ok=True)
+            dst.write_text(new)
+            changed.append(rel)
+
+    print(f"==> retint {slug}: primary={tokens.get('BRAND_PRIMARY_COLOR')} "
+          f"cta={tokens.get('BRAND_PRIMARY_CTA')} accent={tokens.get('BRAND_ACCENT_COLOR')} "
+          f"dark={tokens.get('BRAND_DARK_COLOR')}")
+    print(f"    rewrote: {', '.join(changed) if changed else '(nothing — already current)'}")
+    if changed:
+        print("    Next: sync-deploy --branch main to ship it.")
+    return 0
 
 
 def cmd_status(args) -> int:
@@ -1745,6 +1811,19 @@ def cmd_sync_deploy(args) -> int:
     else:
         print(f"    Preview URL:    https://staging.rankai-{slug}.pages.dev/")
 
+    # Publish the colours this build just painted back to the app, so the Site
+    # Build card's swatches and the chat widget show the client's real brand
+    # instead of the factory red. Non-fatal: a deploy must never fail over a
+    # cosmetic sync. See scripts/brand_colors_sync.py for the precedence rules.
+    try:
+        from brand_colors_sync import push_colors
+        _bc = push_colors(slug, apply=True)
+        if _bc.get("applied"):
+            print("    brand colors:   " + ", ".join(
+                f"{k}->{new}" for k, _o, new, _w in _bc["actions"]))
+    except Exception as e:
+        print(f"    brand colors:   sync skipped ({str(e)[:120]})")
+
     # IndexNow ping on production deploys — entirely non-fatal (deploy already
     # succeeded; a failed ping just means Bing finds the pages the slow way).
     # See the IndexNow section above for the ~2 min Cloudflare build-lag note.
@@ -1811,9 +1890,41 @@ def cmd_sync_deploy_all(args) -> int:
 # fine, URLs are stable and IndexNow only needs the URL list, not the content.
 # If the live sitemap can't be fetched (staging domain, site not yet live), we
 # fall back to pinging just the homepage.
+#
+# ---------------------------------------------------------------------------
+# THE 403 TRAP (diagnosed 2026-08-05 — davis / flood-fixers / puroclean)
+# ---------------------------------------------------------------------------
+# Bing's IndexNow binds a VERDICT to the (host, key) pair the first time it
+# tries to validate, and it does NOT re-validate afterwards. If the very first
+# ping for a host happens before https://{host}/{key}.txt is actually serving
+# — which is exactly what a ping racing the Cloudflare Pages build does — the
+# pair is marked bad permanently and every later ping returns:
+#
+#     HTTP 403 {"errorCode":"UserForbiddedToAccessSite", ...}
+#
+# even after the key file has been live and byte-correct for weeks. Proof it
+# is a stale verdict and not a real ownership problem: the identical host +
+# key + keyLocation payload is accepted by Yandex (HTTP 202) while Bing and
+# api.indexnow.org (same backend) both 403.
+#
+# There is no cache-bust API. The ONLY remedy is to retire the poisoned key
+# and validate a fresh one: mint a new key, ship {newkey}.txt, then ping with
+# the new key. That is what rotate_indexnow_key() does, and indexnow_ping()
+# triggers it automatically the moment Bing returns UserForbiddedToAccessSite
+# against a key file we have verified is live.
+#
+# Prevention (so a new launch can never poison itself): ensure_indexnow_key()
+# now runs at SCAFFOLD time, so {key}.txt is committed with the site's very
+# first push and is already serving before any ping is possible. The old
+# behaviour — minting the key lazily inside the first ping — guaranteed that
+# the first ping for every client raced its own key file.
 
 INDEXNOW_ENDPOINT = "https://www.bing.com/indexnow"  # bing endpoint: api.indexnow.org caches premature 403s (davis/FF hit this); bing accepts the same protocol
 INDEXNOW_URL_CAP = 500
+# Bing's error code for "this (host,key) pair is blacklisted" — the stale
+# verdict described above. Distinct from a genuinely missing key file, which we
+# rule out ourselves before ever sending the ping.
+INDEXNOW_STALE_VERDICT = "UserForbiddedToAccessSite"
 
 
 def _http_get(url: str, timeout: int = 30) -> str:
@@ -1851,29 +1962,93 @@ def collect_live_urls(domain: str, cap: int = INDEXNOW_URL_CAP) -> list[str]:
     return out[:cap]
 
 
-def indexnow_ping(slug: str) -> tuple[int, int]:
+def _write_key_file(slug: str, key: str) -> Path:
+    """Drop sites/{slug}/public/{key}.txt (content == key, no trailing newline).
+    Astro copies public/ verbatim to the site root, so this serves at
+    https://{domain}/{key}.txt — the IndexNow proof of ownership."""
+    key_file = SITES_DIR / slug / "public" / f"{key}.txt"
+    key_file.parent.mkdir(parents=True, exist_ok=True)
+    current = key_file.read_text().strip() if key_file.exists() else None
+    if current != key:
+        key_file.write_text(key)
+    return key_file
+
+
+def ensure_indexnow_key(slug: str, client: dict | None = None) -> str:
+    """Guarantee the client has an IndexNow key AND that its proof file exists
+    on disk, so the key ships with the site's next (or first) push.
+
+    Called at SCAFFOLD time — that is the whole point. Minting the key lazily
+    inside the first ping meant every client's first ping raced its own key
+    file to Cloudflare and lost, poisoning the (host, key) pair with Bing
+    forever. See THE 403 TRAP above.
+
+    Idempotent: existing keys are never rotated here, only backfilled with a
+    missing key file. Persists the client record only when something changed."""
+    path = CLIENTS_DIR / f"{slug}.json"
+    rec = client if client is not None else load_json(path)
+    key = (rec.get("indexnow_key") or "").strip()
+    minted = False
+    if not key:
+        import uuid
+        key = uuid.uuid4().hex
+        rec["indexnow_key"] = key
+        minted = True
+    key_file = SITES_DIR / slug / "public" / f"{key}.txt"
+    had_file = key_file.exists() and key_file.read_text().strip() == key
+    _write_key_file(slug, key)
+    if minted:
+        # Only persist when we own the record load; a caller passing `client`
+        # in is mid-edit and will save it itself.
+        if client is None:
+            save_json(path, rec)
+        print(f"    indexnow: minted key for {slug} + wrote {key}.txt (ships with next deploy)")
+    elif not had_file:
+        print(f"    indexnow: restored missing key file {key}.txt for {slug}")
+    return key
+
+
+def rotate_indexnow_key(slug: str, reason: str = "") -> str:
+    """Retire a key Bing has permanently rejected and mint a fresh one.
+
+    Bing binds a pass/fail verdict to the (host, key) pair on first validation
+    and never re-checks, so a key that was pinged before its file was live is
+    dead forever — no amount of re-pinging revives it. A NEW key is a new pair
+    with no verdict, which is the only way back to a 200. The old key file is
+    deliberately LEFT in place: it is 32 bytes, it is still a valid ownership
+    proof, and deleting it could invalidate submissions already in Bing's
+    queue."""
+    path = CLIENTS_DIR / f"{slug}.json"
+    rec = load_json(path)
+    old = (rec.get("indexnow_key") or "").strip()
+    import uuid
+    new = uuid.uuid4().hex
+    rec["indexnow_key"] = new
+    if old:
+        hist = rec.setdefault("indexnow_key_history", [])
+        hist.append({"key": old, "retired_at": now_iso(),
+                     "reason": reason or "bing stale verdict (UserForbiddedToAccessSite)"})
+    rec["updated_at"] = now_iso()
+    save_json(path, rec)
+    _write_key_file(slug, new)
+    print(f"    indexnow: ROTATED {slug} {old or '(none)'} → {new}")
+    print(f"              wrote sites/{slug}/public/{new}.txt — deploy to main, "
+          f"then re-ping with the new key")
+    return new
+
+
+def indexnow_ping(slug: str, *, auto_rotate: bool = True) -> tuple[int, int]:
     """POST the client's live URLs to IndexNow. Returns (http_status, url_count).
     200/202 = accepted. Raises on missing key/domain or network failure of the
     ping itself (sitemap failure just degrades to a homepage-only ping)."""
     client = load_json(CLIENTS_DIR / f"{slug}.json")
     domain = (client.get("domain") or "").strip().rstrip("/")
-    key = (client.get("indexnow_key") or "").strip()
     if not domain:
         raise RuntimeError(f"{slug}: no 'domain' in client record")
-    if not key:
-        # Self-provision for new clients: mint a key, persist it, and drop the
-        # proof-of-ownership file into public/ so the NEXT deploy serves it.
-        # (This ping will 403 until that file is live; the deploy hook retries
-        # on every subsequent deploy, so it self-heals without operator action.)
-        import uuid
-        key = uuid.uuid4().hex
-        client["indexnow_key"] = key
-        client_path = CLIENTS_DIR / f"{slug}.json"
-        client_path.write_text(json.dumps(client, indent=2) + "\n")
-        key_file = SITES_DIR / slug / "public" / f"{key}.txt"
-        key_file.parent.mkdir(parents=True, exist_ok=True)
-        key_file.write_text(key)
-        print(f"    indexnow: minted new key for {slug} (key file queued for next deploy)")
+    # Mints the key + writes the proof file if either is missing. This ping
+    # will correctly SKIP below (file not live yet) and the next deploy
+    # re-pings — which is exactly the race we must not lose.
+    key = ensure_indexnow_key(slug)
 
     # Never ping before the key file is verifiably live — pinging in the same
     # breath as the deploy that first ships the key races Cloudflare's build,
@@ -1919,16 +2094,39 @@ def indexnow_ping(slug: str) -> tuple[int, int]:
         method="POST",
         headers={"Content-Type": "application/json; charset=utf-8"},
     )
+    body = ""
     try:
         with urllib.request.urlopen(req, timeout=30) as r:
             status = r.status
     except urllib.error.HTTPError as e:
         status = e.code
+        try:
+            body = e.read().decode("utf-8", "replace")[:400]
+        except Exception:
+            body = ""
+
+    # Stale-verdict self-heal. We only get here having PROVEN the key file is
+    # live and byte-correct (the poll above), so a 403 cannot mean "we don't
+    # own the domain" — it means Bing is replaying a verdict it cached when
+    # this key raced its own deploy. Rotate to a fresh key now; the file is
+    # written immediately and the next production deploy ships + re-pings it.
+    if status == 403 and INDEXNOW_STALE_VERDICT in body and auto_rotate:
+        print(f"    indexnow: Bing replayed a stale rejection for this key "
+              f"({INDEXNOW_STALE_VERDICT}) even though {key_url} serves the "
+              f"correct value — the key is burned, rotating.")
+        rotate_indexnow_key(slug, reason=f"bing 403 {INDEXNOW_STALE_VERDICT} on {domain}")
+    elif status not in (200, 202) and body:
+        print(f"    indexnow: HTTP {status} — {body}")
     return status, len(urls)
 
 
 def cmd_indexnow(args) -> int:
-    status, n = indexnow_ping(args.slug)
+    if getattr(args, "rotate", False):
+        rotate_indexnow_key(args.slug, reason="manual --rotate")
+        print("Key rotated. Deploy to main (sync-deploy --branch main) so the new "
+              "key file goes live, then re-run indexnow.")
+        return 0
+    status, n = indexnow_ping(args.slug, auto_rotate=not getattr(args, "no_rotate", False))
     ok = status in (200, 202)
     print(f"IndexNow ping for {args.slug}: HTTP {status} "
           f"({'accepted' if ok else 'NOT accepted'}), {n} URL(s) submitted")
@@ -2008,6 +2206,17 @@ def build_parser() -> argparse.ArgumentParser:
                     help="Commit and push to staging after rendering")
     pr.set_defaults(func=cmd_render)
 
+    # retint: re-derive tailwind + favicon colours from plan-input
+    prt = sub.add_parser(
+        "retint",
+        help="Regenerate the site's colour files (tailwind.config.mjs, favicon.svg) "
+             "from plan-input brand colours — no re-render, no LLM cost",
+    )
+    prt.add_argument("--slug", required=True)
+    prt.add_argument("--force", action="store_true",
+                     help="Overwrite even if the file looks hand-tuned")
+    prt.set_defaults(func=cmd_retint)
+
     # sync-deploy: monorepo subtree → per-client GitHub repo
     psd = sub.add_parser(
         "sync-deploy",
@@ -2038,6 +2247,13 @@ def build_parser() -> argparse.ArgumentParser:
         help="Ping api.indexnow.org with the client's live sitemap URLs (Bing fast-indexing)",
     )
     pin.add_argument("--slug", required=True)
+    pin.add_argument("--rotate", action="store_true",
+                     help="Retire the current key and mint a fresh one WITHOUT pinging. "
+                          "Use when Bing has cached a rejection for the current key "
+                          "(HTTP 403 UserForbiddedToAccessSite despite a live key file). "
+                          "Deploy to main afterwards, then ping.")
+    pin.add_argument("--no-rotate", action="store_true",
+                     help="Do not auto-rotate the key if Bing replays a stale 403.")
     pin.set_defaults(func=cmd_indexnow)
 
     return p
