@@ -1,0 +1,301 @@
+{
+  "slug": "flood-fixers",
+  "assets": {
+    "gbp:gbp-AF1QipMIp4ABAe9vsARUtGYdWl66EIyptuQUVp8Emc0": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMIp4ABAe9vsARUtGYdWl66EIyptuQUVp8Emc0.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1775605259504/job-photos/posted/gbp-AF1QipMIp4ABAe9vsARUtGYdWl66EIyptuQUVp8Emc0.jpg",
+      "width": 1024,
+      "height": 768,
+      "bytes": 62924,
+      "sha1": "f7ccde9b23855a5d",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Newly installed herringbone hardwood floor hallway and room",
+      "quality": 72,
+      "slots": {
+        "hero": 35,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "reconstruction",
+        "general-contracting"
+      ],
+      "flags": [],
+      "reason": "Decent after shot showing flooring reconstruction work; no crew or damage visible.",
+      "triaged_at": "2026-08-05T06:08:10Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMUpUTnWxFkRf3ciCnYDZeK9Ljip7TTz57b1Ik": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMUpUTnWxFkRf3ciCnYDZeK9Ljip7TTz57b1Ik.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1775605259504/job-photos/posted/gbp-AF1QipMUpUTnWxFkRf3ciCnYDZeK9Ljip7TTz57b1Ik.jpg",
+      "width": 1024,
+      "height": 768,
+      "bytes": 75763,
+      "sha1": "88d15c19dcc8c3ac",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Completed herringbone hardwood floor in empty room",
+      "quality": 75,
+      "slots": {
+        "hero": 30,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "reconstruction",
+        "general-contracting"
+      ],
+      "flags": [],
+      "reason": "Clean after shot of flooring work; good detail but limited hero potential.",
+      "triaged_at": "2026-08-05T06:08:10Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNOjln6HpG9jhGoLYFuzx6US2qDxLQWG6rjYHg": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNOjln6HpG9jhGoLYFuzx6US2qDxLQWG6rjYHg.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1775605259504/job-photos/posted/gbp-AF1QipNOjln6HpG9jhGoLYFuzx6US2qDxLQWG6rjYHg.jpg",
+      "width": 1024,
+      "height": 768,
+      "bytes": 94384,
+      "sha1": "d690406506587211",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Living room with damaged carpet marked with pink spray paint",
+      "quality": 68,
+      "slots": {
+        "hero": 25,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "flood-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Pink spray marks indicate water damage mapping; useful services context shot.",
+      "triaged_at": "2026-08-05T06:08:10Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNdPcDHCFUyqhJ0SFGS_zH5Z2vuIkGkvonRRpE": {
+      "source": "gbp",
+      "storage": "job-photos/posted/r1785609790_gbp-AF1QipNdPcDHCFUyqhJ0SFGS_zH5Z2vuIkGkvonRRpE.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1775605259504/job-photos/posted/r1785609790_gbp-AF1QipNdPcDHCFUyqhJ0SFGS_zH5Z2vuIkGkvonRRpE.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 1075874,
+      "sha1": "fd739c2160944719",
+      "exif": {
+        "taken_at": "2025:10:10 12:02:55"
+      },
+      "category": "job_progress",
+      "subject": "Close-up of warped or buckled wood floor edge near wall",
+      "quality": 45,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 35
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "flood-damage-restoration"
+      ],
+      "flags": [
+        "low_res"
+      ],
+      "reason": "Too close and poorly composed; shows damage detail but not usable professionally.",
+      "triaged_at": "2026-08-05T06:08:10Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipO8EJqEYuJ5Hw65sFDMbvdHjMLHuS6xYjRbTck": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipO8EJqEYuJ5Hw65sFDMbvdHjMLHuS6xYjRbTck.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1775605259504/job-photos/posted/gbp-AF1QipO8EJqEYuJ5Hw65sFDMbvdHjMLHuS6xYjRbTck.jpg",
+      "width": 1024,
+      "height": 768,
+      "bytes": 85991,
+      "sha1": "bc81c2999c0be7da",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Open-plan kitchen with damaged subfloor marked pink spray paint",
+      "quality": 72,
+      "slots": {
+        "hero": 30,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "flood-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Pink spray mapping on subfloor clearly shows water damage assessment in progress.",
+      "triaged_at": "2026-08-05T06:08:10Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOGu07-1nvbtfyRYAl93EN9JrD6G1Y2iaARcCk": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOGu07-1nvbtfyRYAl93EN9JrD6G1Y2iaARcCk.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1775605259504/job-photos/posted/gbp-AF1QipOGu07-1nvbtfyRYAl93EN9JrD6G1Y2iaARcCk.jpg",
+      "width": 1147,
+      "height": 990,
+      "bytes": 965306,
+      "sha1": "dd5ba551ec1b549c",
+      "exif": {},
+      "category": "building",
+      "subject": "Flood Fixers office exterior with white truck parked outside",
+      "quality": 78,
+      "slots": {
+        "hero": 60,
+        "team": 0,
+        "services": 20
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Real signage on building facade; good brand presence shot for hero or about page.",
+      "triaged_at": "2026-08-05T06:08:10Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOHtOGargnIhVsUJLPtFTVBjiXB9-3ipuTMV7w": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOHtOGargnIhVsUJLPtFTVBjiXB9-3ipuTMV7w.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1775605259504/job-photos/posted/gbp-AF1QipOHtOGargnIhVsUJLPtFTVBjiXB9-3ipuTMV7w.jpg",
+      "width": 1024,
+      "height": 768,
+      "bytes": 85326,
+      "sha1": "9643ef409208504e",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Renovated living room with new light hardwood floors installed",
+      "quality": 72,
+      "slots": {
+        "hero": 55,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "reconstruction",
+        "flood-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Clean after-state interior; good composition but portrait crop limits hero use.",
+      "triaged_at": "2026-08-05T06:08:23Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOPGwTC3cdL7w0lpQlcLQHWsSYQgej5DgNuWfM": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOPGwTC3cdL7w0lpQlcLQHWsSYQgej5DgNuWfM.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1775605259504/job-photos/posted/gbp-AF1QipOPGwTC3cdL7w0lpQlcLQHWsSYQgej5DgNuWfM.jpg",
+      "width": 1024,
+      "height": 768,
+      "bytes": 87379,
+      "sha1": "228b661ebc20ce08",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Renovated open-plan kitchen with new hardwood flooring installed",
+      "quality": 76,
+      "slots": {
+        "hero": 62,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "reconstruction",
+        "flood-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Wide room, good light; best reconstruction after-result image in the set.",
+      "triaged_at": "2026-08-05T06:08:23Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOe4gfzjeI6GqErM7Lfo8Np03phtPmK3yCZmnw": {
+      "source": "gbp",
+      "storage": "job-photos/posted/r1785782815_gbp-AF1QipOe4gfzjeI6GqErM7Lfo8Np03phtPmK3yCZmnw.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1775605259504/job-photos/posted/r1785782815_gbp-AF1QipOe4gfzjeI6GqErM7Lfo8Np03phtPmK3yCZmnw.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 862847,
+      "sha1": "264c3f7ba59df776",
+      "exif": {
+        "taken_at": "2025:10:10 11:29:48"
+      },
+      "category": "job_progress",
+      "subject": "Completed luxury bathroom remodel with marble tile and freestanding tub",
+      "quality": 74,
+      "slots": {
+        "hero": 40,
+        "team": 0,
+        "services": 58
+      },
+      "service_slugs": [
+        "reconstruction",
+        "general-contracting"
+      ],
+      "flags": [],
+      "reason": "Polished finished-state bathroom; portrait crop and tight space limit hero score.",
+      "triaged_at": "2026-08-05T06:08:23Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOxZVXxJhH0D1FZ_f9snl5U3HklcSi6DhS6QiM": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOxZVXxJhH0D1FZ_f9snl5U3HklcSi6DhS6QiM.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1775605259504/job-photos/posted/gbp-AF1QipOxZVXxJhH0D1FZ_f9snl5U3HklcSi6DhS6QiM.jpg",
+      "width": 1440,
+      "height": 2560,
+      "bytes": 787078,
+      "sha1": "fc29db4800b89788",
+      "exif": {
+        "taken_at": "2025:01:15 11:35:51"
+      },
+      "category": "job_progress",
+      "subject": "Cluttered garage staging area with flooring materials and power tools",
+      "quality": 45,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 30
+      },
+      "service_slugs": [
+        "reconstruction",
+        "general-contracting"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Disorganised staging scene; low visual appeal, unsuitable for hero or team slots.",
+      "triaged_at": "2026-08-05T06:08:23Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPas_umCA57ivC00ADV8e96GcyUV3U6Pjbs0iU": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPas_umCA57ivC00ADV8e96GcyUV3U6Pjbs0iU.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1775605259504/job-photos/posted/gbp-AF1QipPas_umCA57ivC00ADV8e96GcyUV3U6Pjbs0iU.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 816490,
+      "sha1": "173e7115a777c0b0",
+      "exif": {
+        "taken_at": "2025:10:10 12:02:47"
+      },
+      "category": "job_progress",
+      "subject": "Close-up of freshly installed light wood plank flooring",
+      "quality": 50,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 35
+      },
+      "service_slugs": [
+        "reconstruction"
+      ],
+      "flags": [],
+      "reason": "Extreme close-up lacks context; limited use beyond a small detail/texture card.",
+      "triaged_at": "2026-08-05T06:08:23Z",
+      "triage_model": "claude-sonnet-4-6"
+    }
+  },
+  "slots": {},
+  "triaged_at": "2026-08-05T06:08:23Z"
+}

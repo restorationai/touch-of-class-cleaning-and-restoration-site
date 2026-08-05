@@ -1,0 +1,473 @@
+{
+  "slug": "mcc-restoration",
+  "assets": {
+    "crew:sms-1784753122481-027fac4a": {
+      "source": "crew",
+      "storage": "job-photos/sms-1784753122481-027fac4a.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783376797396/job-photos/sms-1784753122481-027fac4a.jpg",
+      "width": 848,
+      "height": 1131,
+      "bytes": 136772,
+      "sha1": "7ca1c6439d1876c9",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Two air movers deployed on kitchen tile floor",
+      "quality": 55,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "flood-damage-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Angled phone shot, cluttered counters; equipment clearly reads as drying job.",
+      "triaged_at": "2026-08-05T06:53:41Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:sms-1784753122481-074d8587": {
+      "source": "crew",
+      "storage": "job-photos/sms-1784753122481-074d8587.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783376797396/job-photos/sms-1784753122481-074d8587.jpg",
+      "width": 599,
+      "height": 799,
+      "bytes": 104916,
+      "sha1": "e897dd33e2af8180",
+      "exif": {},
+      "category": "fleet",
+      "subject": "MCC branded white van parked near tow truck and cars",
+      "quality": 52,
+      "slots": {
+        "hero": 35,
+        "team": 0,
+        "services": 15
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Van wrap visible but scene is chaotic and irrelevant tow truck dominates frame.",
+      "triaged_at": "2026-08-05T06:53:41Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:sms-1784753122481-348ba4bf": {
+      "source": "crew",
+      "storage": "job-photos/sms-1784753122481-348ba4bf.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783376797396/job-photos/sms-1784753122481-348ba4bf.jpg",
+      "width": 848,
+      "height": 1131,
+      "bytes": 128411,
+      "sha1": "85203315413f8326",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Flood-damaged living room with stripped floors and air scrubber",
+      "quality": 45,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 50
+      },
+      "service_slugs": [
+        "flood-damage-restoration",
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Dark, cluttered interior but shows real remediation work in progress with HEPA scrubber.",
+      "triaged_at": "2026-08-05T06:53:41Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:sms-1784753122481-39348edf": {
+      "source": "crew",
+      "storage": "job-photos/sms-1784753122481-39348edf.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783376797396/job-photos/sms-1784753122481-39348edf.jpg",
+      "width": 848,
+      "height": 1131,
+      "bytes": 84196,
+      "sha1": "b8373b0b5587f609",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Hand holding thermal imaging camera showing moisture reading",
+      "quality": 60,
+      "slots": {
+        "hero": 10,
+        "team": 20,
+        "services": 65
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Unique diagnostic shot; strong services card candidate despite tight portrait crop.",
+      "triaged_at": "2026-08-05T06:53:41Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:sms-1784753122481-40825677": {
+      "source": "crew",
+      "storage": "job-photos/sms-1784753122481-40825677.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783376797396/job-photos/sms-1784753122481-40825677.jpg",
+      "width": 599,
+      "height": 799,
+      "bytes": 116656,
+      "sha1": "c93da704d344247a",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Excavation trench along brick house exterior for pipe repair",
+      "quality": 58,
+      "slots": {
+        "hero": 30,
+        "team": 10,
+        "services": 65
+      },
+      "service_slugs": [
+        "burst-pipe-repair",
+        "general-contracting"
+      ],
+      "flags": [],
+      "reason": "Clear exterior trench work; good service illustration for pipe repair page.",
+      "triaged_at": "2026-08-05T06:53:41Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:sms-1784753122481-989ca478": {
+      "source": "crew",
+      "storage": "job-photos/sms-1784753122481-989ca478.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783376797396/job-photos/sms-1784753122481-989ca478.jpg",
+      "width": 599,
+      "height": 799,
+      "bytes": 114499,
+      "sha1": "7f60e1cb20b22e16",
+      "exif": {},
+      "category": "fleet",
+      "subject": "MCC branded box truck parked in cluttered yard from distance",
+      "quality": 30,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 5
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Truck too distant, yard messy, hoses in foreground; poor composition and low quality.",
+      "triaged_at": "2026-08-05T06:53:41Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:sms-1784753122481-a8934724": {
+      "source": "crew",
+      "storage": "job-photos/sms-1784753122481-a8934724.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783376797396/job-photos/sms-1784753122481-a8934724.jpg",
+      "width": 599,
+      "height": 799,
+      "bytes": 98419,
+      "sha1": "d0988e3f00e065b0",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Hand holding American Express business credit card with ID visible",
+      "quality": 30,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "graphic_content"
+      ],
+      "reason": "Personal financial card and ID exposed; completely unrelated to restoration services.",
+      "triaged_at": "2026-08-05T06:53:55Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:sms-1784753122481-bbdfca56": {
+      "source": "crew",
+      "storage": "job-photos/sms-1784753122481-bbdfca56.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783376797396/job-photos/sms-1784753122481-bbdfca56.jpg",
+      "width": 769,
+      "height": 799,
+      "bytes": 137693,
+      "sha1": "12048552ef2421e0",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Two company trucks parked at night outside retail store",
+      "quality": 28,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "screenshot"
+      ],
+      "reason": "Screenshot of phone gallery UI with dark, low-quality nighttime exposure; unusable.",
+      "triaged_at": "2026-08-05T06:53:55Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:sms-1784753122481-d88f75e1": {
+      "source": "crew",
+      "storage": "job-photos/sms-1784753122481-d88f75e1.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783376797396/job-photos/sms-1784753122481-d88f75e1.jpg",
+      "width": 769,
+      "height": 799,
+      "bytes": 90169,
+      "sha1": "d80e3fd777e4c412",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Flooring boxes stacked in truck bed near storage units",
+      "quality": 22,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "screenshot"
+      ],
+      "reason": "Screenshot of private text conversation; chat UI and personal messages visible throughout.",
+      "triaged_at": "2026-08-05T06:53:55Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:sms-1784753122481-dc79e2d9": {
+      "source": "crew",
+      "storage": "job-photos/sms-1784753122481-dc79e2d9.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783376797396/job-photos/sms-1784753122481-dc79e2d9.jpg",
+      "width": 848,
+      "height": 1131,
+      "bytes": 132797,
+      "sha1": "7002c32f237f7959",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Air scrubber and drill on wet tile floor during drying",
+      "quality": 42,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Overhead angle, poor lighting, feet in frame; shows drying equipment on site adequately.",
+      "triaged_at": "2026-08-05T06:53:55Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:sms-1784753237484-067d18bc": {
+      "source": "crew",
+      "storage": "job-photos/sms-1784753237484-067d18bc.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783376797396/job-photos/sms-1784753237484-067d18bc.jpg",
+      "width": 432,
+      "height": 683,
+      "bytes": 45431,
+      "sha1": "9aa709dd4dbcb2f9",
+      "exif": {},
+      "category": "building",
+      "subject": "Person reviewing tablet inside cluttered warehouse with shelving",
+      "quality": 38,
+      "slots": {
+        "hero": 5,
+        "team": 20,
+        "services": 10
+      },
+      "service_slugs": [
+        "general-contracting"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Cluttered warehouse interior, poor composition and lighting; minimal marketing value.",
+      "triaged_at": "2026-08-05T06:53:55Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:sms-1784753237484-0ee8e70c": {
+      "source": "crew",
+      "storage": "job-photos/sms-1784753237484-0ee8e70c.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783376797396/job-photos/sms-1784753237484-0ee8e70c.jpg",
+      "width": 338,
+      "height": 451,
+      "bytes": 50731,
+      "sha1": "7ca07467e073522a",
+      "exif": {},
+      "category": "building",
+      "subject": "Cluttered warehouse aisle with rugs, shelving, and blue hose",
+      "quality": 35,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 15
+      },
+      "service_slugs": [
+        "general-contracting"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Disorganized storage warehouse interior; no clear restoration work context visible.",
+      "triaged_at": "2026-08-05T06:53:55Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:sms-1784753237484-1190acc4": {
+      "source": "crew",
+      "storage": "job-photos/sms-1784753237484-1190acc4.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783376797396/job-photos/sms-1784753237484-1190acc4.jpg",
+      "width": 599,
+      "height": 799,
+      "bytes": 78731,
+      "sha1": "85834172baa7520f",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Cluttered basement interior with boxes and male worker",
+      "quality": 28,
+      "slots": {
+        "hero": 5,
+        "team": 20,
+        "services": 15
+      },
+      "service_slugs": [],
+      "flags": [
+        "blurry",
+        "indoor_clutter"
+      ],
+      "reason": "Blurry, poorly lit, cluttered scene with no clear restoration context.",
+      "triaged_at": "2026-08-05T06:54:09Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:sms-1784753237484-7271be9a": {
+      "source": "crew",
+      "storage": "job-photos/sms-1784753237484-7271be9a.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783376797396/job-photos/sms-1784753237484-7271be9a.jpg",
+      "width": 848,
+      "height": 1131,
+      "bytes": 130824,
+      "sha1": "228ffd54a6d84f21",
+      "exif": {},
+      "category": "building",
+      "subject": "Dark warehouse shelving with tiles and pallet jack",
+      "quality": 22,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 5
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Poorly lit warehouse interior; no restoration work visible or readable.",
+      "triaged_at": "2026-08-05T06:54:09Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:sms-1784753237484-a6c03025": {
+      "source": "crew",
+      "storage": "job-photos/sms-1784753237484-a6c03025.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783376797396/job-photos/sms-1784753237484-a6c03025.jpg",
+      "width": 799,
+      "height": 799,
+      "bytes": 119173,
+      "sha1": "c0fae6dac0bd7205",
+      "exif": {},
+      "category": "building",
+      "subject": "Warehouse shelving stacked with rolls of colored tape",
+      "quality": 38,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 8
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Supply shelving shot; unrelated to restoration service visuals for marketing.",
+      "triaged_at": "2026-08-05T06:54:09Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:sms-1784753237484-b02dbda7": {
+      "source": "crew",
+      "storage": "job-photos/sms-1784753237484-b02dbda7.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783376797396/job-photos/sms-1784753237484-b02dbda7.jpg",
+      "width": 599,
+      "height": 799,
+      "bytes": 130744,
+      "sha1": "efe6f5e067a8b9f3",
+      "exif": {},
+      "category": "building",
+      "subject": "Cluttered warehouse interior with mezzanine and HVAC ducting",
+      "quality": 35,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 10
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Disorganised warehouse; does not communicate restoration services clearly.",
+      "triaged_at": "2026-08-05T06:54:09Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:sms-1784753237484-dc859da5": {
+      "source": "crew",
+      "storage": "job-photos/sms-1784753237484-dc859da5.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783376797396/job-photos/sms-1784753237484-dc859da5.jpg",
+      "width": 848,
+      "height": 1131,
+      "bytes": 210048,
+      "sha1": "3e8ef149e5b1893c",
+      "exif": {},
+      "category": "building",
+      "subject": "Busy warehouse workshop floor with tools and shelving",
+      "quality": 40,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 10
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Cluttered workshop interior; screenshot watermark present, low marketing value.",
+      "triaged_at": "2026-08-05T06:54:09Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:sms-1784753237484-e811d9ff": {
+      "source": "crew",
+      "storage": "job-photos/sms-1784753237484-e811d9ff.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783376797396/job-photos/sms-1784753237484-e811d9ff.jpg",
+      "width": 799,
+      "height": 799,
+      "bytes": 145227,
+      "sha1": "0db591a4c75e72ec",
+      "exif": {},
+      "category": "building",
+      "subject": "Warehouse interior with green staircase and supply shelving",
+      "quality": 38,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 8
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Dimly lit cluttered warehouse; no restoration activity or crew visible.",
+      "triaged_at": "2026-08-05T06:54:09Z",
+      "triage_model": "claude-sonnet-4-6"
+    }
+  },
+  "slots": {},
+  "triaged_at": "2026-08-05T06:54:09Z"
+}

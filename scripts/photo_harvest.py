@@ -356,6 +356,33 @@ _JUNK_RE = re.compile(
     r"app-?store|star|rating|flag)", re.I)
 
 
+def original_image_url(url: str) -> str:
+    """Strip a CDN's on-the-fly resize so we fetch the ORIGINAL upload.
+
+    Wix (and Squarespace, and every builder that ships responsive images) serves
+    a transformed derivative at the src the page actually references. DISS
+    Restoration's homepage yielded 48 image candidates and not one survived the
+    600px gate, because every one of them was a 147x98 blurred AVIF placeholder:
+
+      .../media/{id}~mv2.jpg/v1/fill/w_147,h_98,...,blur_2,enc_avif,.../{id}~mv2.jpg
+
+    The client's actual photograph is the path before /v1/. Reading the tiny
+    derivative and concluding "this client has no usable photos" is exactly the
+    wrong answer — they have plenty, behind one path segment."""
+    # Wix / wixstatic: everything from /v1/ onward is the transform
+    m = re.match(r"^(https?://static\.wixstatic\.com/media/[^/]+)/v1/", url)
+    if m:
+        return m.group(1)
+    # Squarespace: ?format=NNNw controls the rendition; drop it for the original
+    if "squarespace-cdn.com" in url:
+        return url.split("?")[0]
+    # WordPress: name-1024x585.jpg is a generated size, name.jpg is the upload
+    m = re.match(r"^(.*)-\d{3,4}x\d{3,4}(\.(?:jpe?g|png|webp))$", url, re.I)
+    if m and "/wp-content/uploads/" in url:
+        return m.group(1) + m.group(2)
+    return url
+
+
 def _abs(base: str, u: str) -> str | None:
     if not u or u.startswith("data:"):
         return None
@@ -433,7 +460,8 @@ def crawl_site_images(start_url: str, *, max_pages: int = 10,
                 continue
             if _JUNK_RE.search(urllib.parse.urlparse(u).path):
                 continue
-            found.setdefault(u.split("?")[0], page)
+            u = original_image_url(u.split("?")[0])
+            found.setdefault(u, page)
             if len(found) >= max_images:
                 break
         # only follow links that stay on-host and under the start path

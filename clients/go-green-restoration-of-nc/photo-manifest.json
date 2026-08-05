@@ -1,0 +1,2173 @@
+{
+  "slug": "go-green-restoration-of-nc",
+  "assets": {
+    "crew:fb-10": {
+      "source": "crew",
+      "storage": "job-photos/fb-10.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-10.jpg",
+      "width": 1536,
+      "height": 2048,
+      "bytes": 604396,
+      "sha1": "fdeb76dda4cb6029",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Stacked AttiCat insulation bags and blower machine outside brick home",
+      "quality": 72,
+      "slots": {
+        "hero": 55,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "insulation-removal-installation"
+      ],
+      "flags": [],
+      "reason": "Good natural light, brick home backdrop, clear insulation job context; no crew visible.",
+      "triaged_at": "2026-08-05T06:55:15Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:fb-11": {
+      "source": "crew",
+      "storage": "job-photos/fb-11.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-11.jpg",
+      "width": 1536,
+      "height": 2048,
+      "bytes": 708438,
+      "sha1": "dd49c481a65c9f2d",
+      "exif": {},
+      "category": "crew",
+      "subject": "PPE-suited technician loading AttiCat blown-in insulation blower machine",
+      "quality": 74,
+      "slots": {
+        "hero": 35,
+        "team": 62,
+        "services": 78
+      },
+      "service_slugs": [
+        "insulation-removal-installation"
+      ],
+      "flags": [],
+      "reason": "Technician in full PPE actively working; portrait crop limits hero use but strong services shot.",
+      "triaged_at": "2026-08-05T06:55:15Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:fb-12": {
+      "source": "crew",
+      "storage": "job-photos/fb-12.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-12.jpg",
+      "width": 2048,
+      "height": 1536,
+      "bytes": 484360,
+      "sha1": "336413b1597cd2c1",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Bare attic rafters with plastic sheeting and stored clutter below",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [
+        "insulation-removal-installation"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Cluttered attic interior, awkward angle; limited marketing appeal but shows insulation removal stage.",
+      "triaged_at": "2026-08-05T06:55:15Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:fb-13": {
+      "source": "crew",
+      "storage": "job-photos/fb-13.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-13.jpg",
+      "width": 1536,
+      "height": 2048,
+      "bytes": 369626,
+      "sha1": "247cb9fffb24f54b",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Pink blown-in insulation covering attic floor with hose in foreground",
+      "quality": 60,
+      "slots": {
+        "hero": 12,
+        "team": 0,
+        "services": 58
+      },
+      "service_slugs": [
+        "insulation-removal-installation"
+      ],
+      "flags": [],
+      "reason": "Clear insulation installation result; tight dark space limits hero use but readable as services image.",
+      "triaged_at": "2026-08-05T06:55:15Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:fb-14": {
+      "source": "crew",
+      "storage": "job-photos/fb-14.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-14.jpg",
+      "width": 1536,
+      "height": 2048,
+      "bytes": 582190,
+      "sha1": "0d40b98a00bff7b1",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Attic interior fully lined with reflective foil radiant barrier insulation",
+      "quality": 65,
+      "slots": {
+        "hero": 18,
+        "team": 0,
+        "services": 62
+      },
+      "service_slugs": [
+        "insulation-removal-installation"
+      ],
+      "flags": [],
+      "reason": "Visually striking foil installation result; portrait interior limits hero but works for services card.",
+      "triaged_at": "2026-08-05T06:55:15Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:fb-15": {
+      "source": "crew",
+      "storage": "job-photos/fb-15.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-15.jpg",
+      "width": 1536,
+      "height": 2048,
+      "bytes": 386816,
+      "sha1": "6e5a98930e46f5da",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Bare attic rafters stripped of insulation with ductwork visible below",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [
+        "insulation-removal-installation"
+      ],
+      "flags": [],
+      "reason": "Shows insulation removal clearly; dark, angled composition reduces marketing utility significantly.",
+      "triaged_at": "2026-08-05T06:55:15Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:fb-16": {
+      "source": "crew",
+      "storage": "job-photos/fb-16.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-16.jpg",
+      "width": 1536,
+      "height": 2048,
+      "bytes": 237745,
+      "sha1": "47ce303974689460",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Opened wall cavity exposing wiring and damaged wood stud",
+      "quality": 42,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 35
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Close-up of opened wall cavity; useful as damage evidence but not polished.",
+      "triaged_at": "2026-08-05T06:55:31Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:fb-17": {
+      "source": "crew",
+      "storage": "job-photos/fb-17.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-17.jpg",
+      "width": 839,
+      "height": 1797,
+      "bytes": 247320,
+      "sha1": "e9baca5f7edc909f",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Stripped subfloor with heavy mold contamination and cords",
+      "quality": 38,
+      "slots": {
+        "hero": 4,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Heavily contaminated subfloor visible; compelling damage evidence but cluttered.",
+      "triaged_at": "2026-08-05T06:55:31Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:fb-18": {
+      "source": "crew",
+      "storage": "job-photos/fb-18.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-18.jpg",
+      "width": 1536,
+      "height": 2048,
+      "bytes": 445980,
+      "sha1": "c3b80ec44d67d4a3",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Demolished wall revealing damaged insulation and contaminated framing",
+      "quality": 44,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 48
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "insulation-removal-installation",
+        "mold-remediation"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Good damage evidence showing insulation and structural damage; too chaotic for hero.",
+      "triaged_at": "2026-08-05T06:55:31Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:fb-19": {
+      "source": "crew",
+      "storage": "job-photos/fb-19.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-19.jpg",
+      "width": 1536,
+      "height": 2048,
+      "bytes": 155175,
+      "sha1": "1c019f2b3ae4f1af",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "White plastic containment barrier erected in residential dining room",
+      "quality": 62,
+      "slots": {
+        "hero": 28,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Clean containment setup reads as professional process; decent composition for services card.",
+      "triaged_at": "2026-08-05T06:55:31Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:fb-20": {
+      "source": "crew",
+      "storage": "job-photos/fb-20.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-20.jpg",
+      "width": 1536,
+      "height": 2048,
+      "bytes": 346880,
+      "sha1": "be9507c95cfd40a6",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Floor corner showing visible black mold on drywall and subfloor",
+      "quality": 40,
+      "slots": {
+        "hero": 3,
+        "team": 0,
+        "services": 42
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Clear mold damage evidence; too close and cluttered for anything beyond documentation.",
+      "triaged_at": "2026-08-05T06:55:31Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:fb-21": {
+      "source": "crew",
+      "storage": "job-photos/fb-21.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-21.jpg",
+      "width": 1536,
+      "height": 2048,
+      "bytes": 277245,
+      "sha1": "45f9f600041c1350",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Technician boots at edge of mold-covered air duct opening",
+      "quality": 50,
+      "slots": {
+        "hero": 8,
+        "team": 15,
+        "services": 55
+      },
+      "service_slugs": [
+        "air-duct-cleaning",
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "POV shot of mold-contaminated duct; serviceable for air-duct or mold service card.",
+      "triaged_at": "2026-08-05T06:55:31Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:fb-22": {
+      "source": "crew",
+      "storage": "job-photos/fb-22.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-22.jpg",
+      "width": 1536,
+      "height": 2048,
+      "bytes": 274018,
+      "sha1": "b75336b56b57c826",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician in Tyvek suit and respirator working on wall",
+      "quality": 72,
+      "slots": {
+        "hero": 25,
+        "team": 68,
+        "services": 75
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Good authentic crew shot in PPE; portrait crop limits hero use.",
+      "triaged_at": "2026-08-05T06:55:47Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:fb-23": {
+      "source": "crew",
+      "storage": "job-photos/fb-23.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-23.jpg",
+      "width": 2048,
+      "height": 1536,
+      "bytes": 304862,
+      "sha1": "9e7de15e5f92153e",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Kitchen with drywall removed exposing studs and drying equipment",
+      "quality": 68,
+      "slots": {
+        "hero": 35,
+        "team": 0,
+        "services": 72
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Clear water-damage remediation scene; decent composition, no crew.",
+      "triaged_at": "2026-08-05T06:55:47Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:fb-24": {
+      "source": "crew",
+      "storage": "job-photos/fb-24.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-24.jpg",
+      "width": 1536,
+      "height": 2048,
+      "bytes": 312898,
+      "sha1": "c3afb3fab169ef0a",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Mold and water staining on OSB sheathing between wall studs",
+      "quality": 48,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "low_res"
+      ],
+      "reason": "Dim, slightly blurry close-up; strong evidence shot for mold service page.",
+      "triaged_at": "2026-08-05T06:55:47Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:fb-25": {
+      "source": "crew",
+      "storage": "job-photos/fb-25.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-25.jpg",
+      "width": 2048,
+      "height": 1536,
+      "bytes": 219807,
+      "sha1": "d6512b1b8c4a7dab",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Crawl space floor joists with mold spots visible underside",
+      "quality": 50,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 48
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "crawl-space-encapsulation"
+      ],
+      "flags": [
+        "low_res"
+      ],
+      "reason": "Dark cramped angle; useful as evidence but low production value.",
+      "triaged_at": "2026-08-05T06:55:47Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:fb-26": {
+      "source": "crew",
+      "storage": "job-photos/fb-26.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-26.jpg",
+      "width": 1536,
+      "height": 2048,
+      "bytes": 212758,
+      "sha1": "eee8d3d5a4362fcc",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Encapsulated crawl space with white liner and vapor barrier installed",
+      "quality": 60,
+      "slots": {
+        "hero": 30,
+        "team": 0,
+        "services": 68
+      },
+      "service_slugs": [
+        "crawl-space-encapsulation"
+      ],
+      "flags": [],
+      "reason": "Shows completed encapsulation well; dark exposure limits hero potential.",
+      "triaged_at": "2026-08-05T06:55:47Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:fb-27": {
+      "source": "crew",
+      "storage": "job-photos/fb-27.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-27.jpg",
+      "width": 2048,
+      "height": 1536,
+      "bytes": 265950,
+      "sha1": "2eeee6e1da932db6",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Crawl space floor joists and HVAC ducts with partial vapor barrier",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "crawl-space-encapsulation",
+        "insulation-removal-installation"
+      ],
+      "flags": [],
+      "reason": "Authentic under-floor scene; low light and tight angle reduce usability.",
+      "triaged_at": "2026-08-05T06:55:47Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:fb-28": {
+      "source": "crew",
+      "storage": "job-photos/fb-28.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-28.jpg",
+      "width": 2048,
+      "height": 1536,
+      "bytes": 346284,
+      "sha1": "62af1dc37876881c",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Dark cluttered crawl space with ductwork and dirt floor",
+      "quality": 28,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 30
+      },
+      "service_slugs": [
+        "crawl-space-encapsulation"
+      ],
+      "flags": [
+        "indoor_clutter",
+        "low_res"
+      ],
+      "reason": "Very dark, cluttered before-state crawl space; poor exposure and composition.",
+      "triaged_at": "2026-08-05T06:56:05Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:fb-29": {
+      "source": "crew",
+      "storage": "job-photos/fb-29.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-29.jpg",
+      "width": 1536,
+      "height": 2048,
+      "bytes": 295488,
+      "sha1": "3195ecb04927efbf",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Crawl space with white vapor barrier liner partially installed",
+      "quality": 52,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "crawl-space-encapsulation"
+      ],
+      "flags": [],
+      "reason": "Decent in-progress encapsulation shot; adequate light but tight portrait crop.",
+      "triaged_at": "2026-08-05T06:56:05Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:fb-30": {
+      "source": "crew",
+      "storage": "job-photos/fb-30.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-30.jpg",
+      "width": 1536,
+      "height": 2048,
+      "bytes": 286433,
+      "sha1": "cdf8c787b48ac47a",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Santa Fe dehumidifier with flex duct in crawl space",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 58
+      },
+      "service_slugs": [
+        "crawl-space-encapsulation"
+      ],
+      "flags": [],
+      "reason": "Clear equipment detail but very tight frame; competitor brand visible on unit.",
+      "triaged_at": "2026-08-05T06:56:05Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:fb-31": {
+      "source": "crew",
+      "storage": "job-photos/fb-31.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-31.jpg",
+      "width": 1536,
+      "height": 2048,
+      "bytes": 327026,
+      "sha1": "3b42069fac0066da",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "New lumber joists and OSB subfloor in crawl space",
+      "quality": 42,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 35
+      },
+      "service_slugs": [
+        "crawl-space-encapsulation"
+      ],
+      "flags": [],
+      "reason": "Awkward upward angle, limited context; hard to read as a service result.",
+      "triaged_at": "2026-08-05T06:56:05Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:fb-32": {
+      "source": "crew",
+      "storage": "job-photos/fb-32.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-32.jpg",
+      "width": 1536,
+      "height": 2048,
+      "bytes": 268045,
+      "sha1": "18f0f059a36f2158",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Santa Fe dehumidifier installed on clean encapsulated crawl space",
+      "quality": 68,
+      "slots": {
+        "hero": 30,
+        "team": 0,
+        "services": 72
+      },
+      "service_slugs": [
+        "crawl-space-encapsulation"
+      ],
+      "flags": [],
+      "reason": "Best of the set; clean white liner, centred unit, good exposure; usable services card.",
+      "triaged_at": "2026-08-05T06:56:05Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:fb-33": {
+      "source": "crew",
+      "storage": "job-photos/fb-33.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-33.jpg",
+      "width": 2048,
+      "height": 1536,
+      "bytes": 330776,
+      "sha1": "8cf803d407ea7834",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "New lumber joists and OSB subfloor viewed from below",
+      "quality": 40,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 32
+      },
+      "service_slugs": [
+        "crawl-space-encapsulation"
+      ],
+      "flags": [],
+      "reason": "Near-duplicate of image 3; same awkward upward angle, limited marketing value.",
+      "triaged_at": "2026-08-05T06:56:05Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:fb-34": {
+      "source": "crew",
+      "storage": "job-photos/fb-34.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-34.jpg",
+      "width": 2048,
+      "height": 1536,
+      "bytes": 239102,
+      "sha1": "68876b2e4e9595fe",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Crawl space interior showing vapor barrier and red pipe",
+      "quality": 42,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 35
+      },
+      "service_slugs": [
+        "crawl-space-encapsulation"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Dark, cramped crawl space angle; limited composition value for marketing.",
+      "triaged_at": "2026-08-05T06:56:21Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:fb-35": {
+      "source": "crew",
+      "storage": "job-photos/fb-35.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-35.jpg",
+      "width": 1536,
+      "height": 2048,
+      "bytes": 216396,
+      "sha1": "2927641799546dea",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Santa Fe dehumidifier installed in encapsulated crawl space",
+      "quality": 62,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "crawl-space-encapsulation"
+      ],
+      "flags": [],
+      "reason": "Clear equipment shot in finished crawl space; decent services card candidate.",
+      "triaged_at": "2026-08-05T06:56:21Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:fb-36": {
+      "source": "crew",
+      "storage": "job-photos/fb-36.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-36.jpg",
+      "width": 1536,
+      "height": 2048,
+      "bytes": 430342,
+      "sha1": "6bd46bb47a8bf270",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Cluttered dirty crawl space before remediation work begins",
+      "quality": 35,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 30
+      },
+      "service_slugs": [
+        "crawl-space-encapsulation"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Very dark, chaotic composition; useful only as a before-state reference.",
+      "triaged_at": "2026-08-05T06:56:21Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:fb-37": {
+      "source": "crew",
+      "storage": "job-photos/fb-37.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-37.jpg",
+      "width": 1536,
+      "height": 2048,
+      "bytes": 405254,
+      "sha1": "3015c79a3fa4a3ea",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "OSB wall with dark mold staining and water damage",
+      "quality": 40,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Useful mold-damage documentation but poor lighting and framing.",
+      "triaged_at": "2026-08-05T06:56:21Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:fb-38": {
+      "source": "crew",
+      "storage": "job-photos/fb-38.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-38.jpg",
+      "width": 1536,
+      "height": 2048,
+      "bytes": 299067,
+      "sha1": "7f07f1fe65324d22",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Clean crawl space subfloor after remediation with ductwork below",
+      "quality": 52,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 48
+      },
+      "service_slugs": [
+        "crawl-space-encapsulation"
+      ],
+      "flags": [],
+      "reason": "Shows after-state subfloor but awkward upward angle limits appeal.",
+      "triaged_at": "2026-08-05T06:56:21Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:fb-39": {
+      "source": "crew",
+      "storage": "job-photos/fb-39.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-39.jpg",
+      "width": 2048,
+      "height": 1536,
+      "bytes": 297877,
+      "sha1": "59c0b51230477d6f",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Crawl space subfloor insulation partially installed between joists",
+      "quality": 45,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 42
+      },
+      "service_slugs": [
+        "insulation-removal-installation",
+        "crawl-space-encapsulation"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Low light and cluttered frame; marginal services use only.",
+      "triaged_at": "2026-08-05T06:56:21Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:fb-40": {
+      "source": "crew",
+      "storage": "job-photos/fb-40.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-40.jpg",
+      "width": 2048,
+      "height": 1536,
+      "bytes": 254561,
+      "sha1": "31e91e597eee3831",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "New lumber framing installed beneath subfloor in crawl space",
+      "quality": 42,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 35
+      },
+      "service_slugs": [
+        "crawl-space-encapsulation"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Dark, awkward angle; shows repair work in progress but poor composition.",
+      "triaged_at": "2026-08-05T06:56:37Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:fb-41": {
+      "source": "crew",
+      "storage": "job-photos/fb-41.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-41.jpg",
+      "width": 2048,
+      "height": 1536,
+      "bytes": 313419,
+      "sha1": "c0b74aa1143ed004",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Unencapsulated crawl space with ductwork and debris on dirt floor",
+      "quality": 45,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [
+        "crawl-space-encapsulation"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Useful before-state crawl space shot; dark and cluttered but reads clearly.",
+      "triaged_at": "2026-08-05T06:56:37Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:fb-42": {
+      "source": "crew",
+      "storage": "job-photos/fb-42.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-42.jpg",
+      "width": 1536,
+      "height": 2048,
+      "bytes": 496547,
+      "sha1": "7c2971e04ec67a8c",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "OSB subfloor panel with dark mold staining visible up close",
+      "quality": 38,
+      "slots": {
+        "hero": 3,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [
+        "mold-remediation"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Close-up of mold-stained wood; low quality, dark, limited context.",
+      "triaged_at": "2026-08-05T06:56:37Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:fb-43": {
+      "source": "crew",
+      "storage": "job-photos/fb-43.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-43.jpg",
+      "width": 2048,
+      "height": 1536,
+      "bytes": 230123,
+      "sha1": "7dc3041bd5a8ae85",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Insulated ductwork and pipes visible inside dark crawl space",
+      "quality": 35,
+      "slots": {
+        "hero": 4,
+        "team": 0,
+        "services": 30
+      },
+      "service_slugs": [
+        "crawl-space-encapsulation"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Very dark, cramped angle; limited usability for any marketing slot.",
+      "triaged_at": "2026-08-05T06:56:37Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:fb-44": {
+      "source": "crew",
+      "storage": "job-photos/fb-44.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-44.jpg",
+      "width": 2048,
+      "height": 1536,
+      "bytes": 348962,
+      "sha1": "90b36294e88c2cc3",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Chaotic crawl space with HVAC unit, ductwork, and dirt floor",
+      "quality": 38,
+      "slots": {
+        "hero": 4,
+        "team": 0,
+        "services": 33
+      },
+      "service_slugs": [
+        "crawl-space-encapsulation"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Dark and cluttered crawl space before remediation; poor composition.",
+      "triaged_at": "2026-08-05T06:56:37Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:fb-45": {
+      "source": "crew",
+      "storage": "job-photos/fb-45.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-45.jpg",
+      "width": 2048,
+      "height": 1536,
+      "bytes": 130800,
+      "sha1": "f34bf357568079d4",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Large collapsed ceiling hole exposing lathing and structural damage",
+      "quality": 58,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 62
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Clear dramatic damage documentation; good for services page, not hero.",
+      "triaged_at": "2026-08-05T06:56:37Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:fb-46": {
+      "source": "crew",
+      "storage": "job-photos/fb-46.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-46.jpg",
+      "width": 2048,
+      "height": 1536,
+      "bytes": 205108,
+      "sha1": "e13a4b6ab316dab9",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Collapsed ceiling revealing mold-covered wood lath above",
+      "quality": 62,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Clear mold and water damage evidence; good services card but not hero-worthy.",
+      "triaged_at": "2026-08-05T06:56:54Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:fb-47": {
+      "source": "crew",
+      "storage": "job-photos/fb-47.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-47.jpg",
+      "width": 2048,
+      "height": 1536,
+      "bytes": 311957,
+      "sha1": "61d367cdc23c09b7",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Large hole in ceiling exposing deteriorated wood lath structure",
+      "quality": 58,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Dramatic damage visible but awkward upward angle limits usability.",
+      "triaged_at": "2026-08-05T06:56:54Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:fb-48": {
+      "source": "crew",
+      "storage": "job-photos/fb-48.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-48.jpg",
+      "width": 2048,
+      "height": 1536,
+      "bytes": 133002,
+      "sha1": "6d7f5097393b3bb0",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Severely damaged dark mold-covered ceiling with exposed rafters",
+      "quality": 45,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 50
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "blurry"
+      ],
+      "reason": "Poor exposure and awkward angle; dark and difficult to read clearly.",
+      "triaged_at": "2026-08-05T06:56:54Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:fb-49": {
+      "source": "crew",
+      "storage": "job-photos/fb-49.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-49.jpg",
+      "width": 2048,
+      "height": 1536,
+      "bytes": 229243,
+      "sha1": "6fed811b4a4f2062",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Fallen ceiling plaster revealing mold-laden wood lath above",
+      "quality": 65,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 68
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Best of the ceiling damage series; clear mold and damage evidence.",
+      "triaged_at": "2026-08-05T06:56:54Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:fb-5": {
+      "source": "crew",
+      "storage": "job-photos/fb-5.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-5.jpg",
+      "width": 1536,
+      "height": 2048,
+      "bytes": 377483,
+      "sha1": "0ff13e34cc563f2d",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Crawl space dehumidifier unit installed on encapsulation liner",
+      "quality": 72,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 75
+      },
+      "service_slugs": [
+        "crawl-space-encapsulation"
+      ],
+      "flags": [],
+      "reason": "Sharp, well-lit equipment shot clearly showing crawl space dehumidifier installation.",
+      "triaged_at": "2026-08-05T06:56:54Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:fb-50": {
+      "source": "crew",
+      "storage": "job-photos/fb-50.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-50.jpg",
+      "width": 1536,
+      "height": 2048,
+      "bytes": 195299,
+      "sha1": "741683225c38c748",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Close-up of mold spots on torn ceiling drywall paper",
+      "quality": 40,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [
+        "mold-remediation"
+      ],
+      "flags": [
+        "blurry"
+      ],
+      "reason": "Extreme macro crop is underlit and too abstract; limited marketing value.",
+      "triaged_at": "2026-08-05T06:56:54Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:fb-6": {
+      "source": "crew",
+      "storage": "job-photos/fb-6.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-6.jpg",
+      "width": 1536,
+      "height": 2048,
+      "bytes": 211387,
+      "sha1": "34db281efcbf17db",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Encapsulated crawl space with vapor barrier and insulation",
+      "quality": 52,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "crawl-space-encapsulation"
+      ],
+      "flags": [],
+      "reason": "Decent crawl space after-state shot; dark and cramped but serviceable for service card.",
+      "triaged_at": "2026-08-05T06:57:09Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:fb-7": {
+      "source": "crew",
+      "storage": "job-photos/fb-7.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-7.jpg",
+      "width": 1536,
+      "height": 2048,
+      "bytes": 202744,
+      "sha1": "bf2c34191733e2a4",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Dark crawl space interior with vapor barrier and ducts",
+      "quality": 38,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 35
+      },
+      "service_slugs": [
+        "crawl-space-encapsulation"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Too dark and low angle; limited utility beyond context reference.",
+      "triaged_at": "2026-08-05T06:57:09Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:fb-8": {
+      "source": "crew",
+      "storage": "job-photos/fb-8.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-8.jpg",
+      "width": 1536,
+      "height": 2048,
+      "bytes": 325878,
+      "sha1": "0d4189d3889054e1",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Dehumidifier unit installed in encapsulated crawl space",
+      "quality": 68,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 72
+      },
+      "service_slugs": [
+        "crawl-space-encapsulation"
+      ],
+      "flags": [],
+      "reason": "Well-lit, clear equipment shot showing completed encapsulation; good for services card.",
+      "triaged_at": "2026-08-05T06:57:09Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:fb-9": {
+      "source": "crew",
+      "storage": "job-photos/fb-9.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-9.jpg",
+      "width": 1536,
+      "height": 2048,
+      "bytes": 495336,
+      "sha1": "f9ff8228d9915f69",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Bright encapsulated crawl space with reflective vapor barrier floor",
+      "quality": 63,
+      "slots": {
+        "hero": 25,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "crawl-space-encapsulation"
+      ],
+      "flags": [],
+      "reason": "Good lighting and depth show finished encapsulation effectively; usable for service page.",
+      "triaged_at": "2026-08-05T06:57:09Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:sms-1785686927375-186d90ca": {
+      "source": "crew",
+      "storage": "job-photos/sms-1785686927375-186d90ca.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/sms-1785686927375-186d90ca.jpg",
+      "width": 1057,
+      "height": 1065,
+      "bytes": 41505,
+      "sha1": "d5ec863efab8f717",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Plain solid green circle on white background",
+      "quality": 10,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Abstract graphic shape with no restoration content; unusable for any site slot.",
+      "triaged_at": "2026-08-05T06:57:09Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:sms-1785686927375-76bcc2d8": {
+      "source": "crew",
+      "storage": "job-photos/sms-1785686927375-76bcc2d8.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/sms-1785686927375-76bcc2d8.jpg",
+      "width": 1320,
+      "height": 1945,
+      "bytes": 57315,
+      "sha1": "67b21e5fb308188a",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Screenshot of black screen with word black in white text",
+      "quality": 0,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "screenshot"
+      ],
+      "reason": "Screenshot of an app UI with no photographic or restoration content whatsoever.",
+      "triaged_at": "2026-08-05T06:57:09Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:1785342555836-f611f340": {
+      "source": "gbp",
+      "storage": "job-photos/posted/1785342555836-f611f340.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/posted/1785342555836-f611f340.jpg",
+      "width": 923,
+      "height": 2000,
+      "bytes": 348901,
+      "sha1": "74a8e15da897dabf",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Go Green Restorations van photographed via phone screenshot gallery",
+      "quality": 28,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 5
+      },
+      "service_slugs": [],
+      "flags": [
+        "screenshot"
+      ],
+      "reason": "Screenshot of phone gallery UI frames the van; phone chrome and thumbnails unusable.",
+      "triaged_at": "2026-08-05T06:32:00Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:fb-1": {
+      "source": "gbp",
+      "storage": "job-photos/posted/fb-1.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/posted/fb-1.jpg",
+      "width": 1536,
+      "height": 2048,
+      "bytes": 301972,
+      "sha1": "ebdef0a6cef726b9",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Encapsulated crawl space with insulated ducts and vapor barrier",
+      "quality": 62,
+      "slots": {
+        "hero": 18,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "crawl-space-encapsulation"
+      ],
+      "flags": [],
+      "reason": "Clean after-state crawl space; good services card but dark and confined.",
+      "triaged_at": "2026-08-05T06:32:00Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:fb-2": {
+      "source": "gbp",
+      "storage": "job-photos/posted/fb-2.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/posted/fb-2.jpg",
+      "width": 1536,
+      "height": 2048,
+      "bytes": 235424,
+      "sha1": "02ae4a802fedf73d",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Crawl space with reflective wall insulation and vapor barrier floor",
+      "quality": 55,
+      "slots": {
+        "hero": 12,
+        "team": 0,
+        "services": 58
+      },
+      "service_slugs": [
+        "crawl-space-encapsulation"
+      ],
+      "flags": [],
+      "reason": "Darker exposure and limited depth; serviceable services card image.",
+      "triaged_at": "2026-08-05T06:32:00Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:fb-3": {
+      "source": "gbp",
+      "storage": "job-photos/posted/fb-3.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/posted/fb-3.jpg",
+      "width": 1536,
+      "height": 2048,
+      "bytes": 409715,
+      "sha1": "d4ecc1c8add40cdd",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Encapsulated crawl space interior with reflective liner and duct",
+      "quality": 60,
+      "slots": {
+        "hero": 14,
+        "team": 0,
+        "services": 63
+      },
+      "service_slugs": [
+        "crawl-space-encapsulation"
+      ],
+      "flags": [],
+      "reason": "Good tunnel perspective shows full encapsulation; low-light limits quality.",
+      "triaged_at": "2026-08-05T06:32:00Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:fb-4": {
+      "source": "gbp",
+      "storage": "job-photos/posted/fb-4.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/posted/fb-4.jpg",
+      "width": 1536,
+      "height": 2048,
+      "bytes": 300257,
+      "sha1": "2c8e91cc0aa91615",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Finished crawl space encapsulation showing liner and insulated ducts",
+      "quality": 58,
+      "slots": {
+        "hero": 12,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "crawl-space-encapsulation"
+      ],
+      "flags": [],
+      "reason": "Similar angle to image 1; slightly darker; redundant but usable for services.",
+      "triaged_at": "2026-08-05T06:32:00Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipM0K4Jf8uluBEPodzocWrhaD2hQ9U0JIE1bXtVk": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipM0K4Jf8uluBEPodzocWrhaD2hQ9U0JIE1bXtVk.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/posted/gbp-AF1QipM0K4Jf8uluBEPodzocWrhaD2hQ9U0JIE1bXtVk.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 779158,
+      "sha1": "1cf154601343cba5",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Unfinished crawl space with poly sheeting, exposed joists and tanks",
+      "quality": 52,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 50
+      },
+      "service_slugs": [
+        "crawl-space-encapsulation"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Before or mid-progress state; cluttered and dim but relevant to service.",
+      "triaged_at": "2026-08-05T06:32:00Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipM5VYdkrd6dJm5M7Ddm9CYnM5HHLb7hu0B9dhK5": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipM5VYdkrd6dJm5M7Ddm9CYnM5HHLb7hu0B9dhK5.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/posted/gbp-AF1QipM5VYdkrd6dJm5M7Ddm9CYnM5HHLb7hu0B9dhK5.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 665229,
+      "sha1": "bb35b728c1f4c17b",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Encapsulated crawl space with vapor barrier and ductwork",
+      "quality": 52,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "crawl-space-encapsulation"
+      ],
+      "flags": [],
+      "reason": "Decent after-state crawl space shot; low light limits hero and team use.",
+      "triaged_at": "2026-08-05T06:32:16Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMda_4iNbA5F5JViqlScP-g8rFzVqbhHHo08oNZ": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMda_4iNbA5F5JViqlScP-g8rFzVqbhHHo08oNZ.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/posted/gbp-AF1QipMda_4iNbA5F5JViqlScP-g8rFzVqbhHHo08oNZ.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 1267209,
+      "sha1": "f21736cb33051a5d",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Air mover and dehumidifier deployed in gutted interior room",
+      "quality": 45,
+      "slots": {
+        "hero": 10,
+        "team": 25,
+        "services": 55
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Cluttered scene with equipment and partial crew; useful for services card only.",
+      "triaged_at": "2026-08-05T06:32:16Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMe92UwSp0ndgxRuDE7Aa0uA5I688j8ejIMuTvi": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMe92UwSp0ndgxRuDE7Aa0uA5I688j8ejIMuTvi.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/posted/gbp-AF1QipMe92UwSp0ndgxRuDE7Aa0uA5I688j8ejIMuTvi.jpg",
+      "width": 2560,
+      "height": 1920,
+      "bytes": 917369,
+      "sha1": "1f80d93bb4ba9e12",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Mold-stained floor joists beneath pink fiberglass insulation",
+      "quality": 50,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "insulation-removal-installation"
+      ],
+      "flags": [],
+      "reason": "Clear evidence of mold damage; strong services visual but not hero material.",
+      "triaged_at": "2026-08-05T06:32:16Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMpBwWglbp9Z9iuyyk1afQ87cz4xEbCD2MdiSnf": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMpBwWglbp9Z9iuyyk1afQ87cz4xEbCD2MdiSnf.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/posted/gbp-AF1QipMpBwWglbp9Z9iuyyk1afQ87cz4xEbCD2MdiSnf.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 751090,
+      "sha1": "ca80ff9b30d2a741",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Crawl space with vapor barrier, piers, and water heater visible",
+      "quality": 48,
+      "slots": {
+        "hero": 12,
+        "team": 0,
+        "services": 50
+      },
+      "service_slugs": [
+        "crawl-space-encapsulation"
+      ],
+      "flags": [],
+      "reason": "Adequate crawl space encapsulation progress shot; poor lighting limits quality.",
+      "triaged_at": "2026-08-05T06:32:16Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMscI8fs70XFstKwh9fUkLAJdahS0MqGP_TFn9l": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMscI8fs70XFstKwh9fUkLAJdahS0MqGP_TFn9l.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/posted/gbp-AF1QipMscI8fs70XFstKwh9fUkLAJdahS0MqGP_TFn9l.jpg",
+      "width": 2560,
+      "height": 1920,
+      "bytes": 708401,
+      "sha1": "d128973c617d0d56",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Demolished bathroom shower pan with exposed subfloor and plumbing",
+      "quality": 58,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Clear water damage demolition progress; too tight and interior for hero use.",
+      "triaged_at": "2026-08-05T06:32:16Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMtc-4kz-She5vqp0uYiGK3sbPXZdo-ooSpJONN": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMtc-4kz-She5vqp0uYiGK3sbPXZdo-ooSpJONN.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/posted/gbp-AF1QipMtc-4kz-She5vqp0uYiGK3sbPXZdo-ooSpJONN.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 659372,
+      "sha1": "9b2efed0f9bb933f",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Heavily soiled mold-covered HVAC duct opening in ceiling cavity",
+      "quality": 42,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 58
+      },
+      "service_slugs": [
+        "air-duct-cleaning",
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Graphic mold evidence on duct; useful for services but very tight and dark.",
+      "triaged_at": "2026-08-05T06:32:16Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipN0_dRGvdT-J5_59zc0R4JSCPiMicgnOBmcIz4I": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipN0_dRGvdT-J5_59zc0R4JSCPiMicgnOBmcIz4I.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/posted/gbp-AF1QipN0_dRGvdT-J5_59zc0R4JSCPiMicgnOBmcIz4I.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 651453,
+      "sha1": "4dcacae43db13e0f",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Encapsulated crawl space with vapor barrier and utilities",
+      "quality": 52,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "crawl-space-encapsulation"
+      ],
+      "flags": [],
+      "reason": "Decent crawl-space after shot; dark corners and portrait crop limit hero use.",
+      "triaged_at": "2026-08-05T06:32:32Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNCP7bhcvjNTo6fyJ7BLAJihUHDhp2tXXqwwRVO": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNCP7bhcvjNTo6fyJ7BLAJihUHDhp2tXXqwwRVO.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/posted/gbp-AF1QipNCP7bhcvjNTo6fyJ7BLAJihUHDhp2tXXqwwRVO.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 437060,
+      "sha1": "0c42be7b62c3117a",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Containment barrier taped across interior hallway doorway",
+      "quality": 55,
+      "slots": {
+        "hero": 18,
+        "team": 0,
+        "services": 58
+      },
+      "service_slugs": [
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Clear containment setup signals mold or remediation work; narrow corridor limits hero.",
+      "triaged_at": "2026-08-05T06:32:32Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNFWseSdBPa2QxQmcCgX3XcrSX9Us_E98Lj0CCj": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNFWseSdBPa2QxQmcCgX3XcrSX9Us_E98Lj0CCj.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/posted/gbp-AF1QipNFWseSdBPa2QxQmcCgX3XcrSX9Us_E98Lj0CCj.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 419240,
+      "sha1": "f1755dcbba7d9f43",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Dark crawl space interior with vapor barrier and work light",
+      "quality": 30,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 25
+      },
+      "service_slugs": [
+        "crawl-space-encapsulation"
+      ],
+      "flags": [
+        "low_res",
+        "blurry"
+      ],
+      "reason": "Severely underexposed and awkward angle; barely usable even for services card.",
+      "triaged_at": "2026-08-05T06:32:32Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNOMj1h-ne1pzvKSbHT_G3JwipkiVA9bPA7uTiO": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNOMj1h-ne1pzvKSbHT_G3JwipkiVA9bPA7uTiO.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/posted/gbp-AF1QipNOMj1h-ne1pzvKSbHT_G3JwipkiVA9bPA7uTiO.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 590093,
+      "sha1": "af814f05ecd01e76",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Santa Fe Compact70 dehumidifier installed in encapsulated crawl space",
+      "quality": 60,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "crawl-space-encapsulation"
+      ],
+      "flags": [],
+      "reason": "Recognisable branded equipment in context; good services card but too dark for hero.",
+      "triaged_at": "2026-08-05T06:32:32Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNQs2xyRb6PFeIpZjRVuCngBdxF9NcJVK9x9d6t": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNQs2xyRb6PFeIpZjRVuCngBdxF9NcJVK9x9d6t.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/posted/gbp-AF1QipNQs2xyRb6PFeIpZjRVuCngBdxF9NcJVK9x9d6t.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 648411,
+      "sha1": "e89ac9133dc29d19",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Blue air scrubber on hardwood floor beside office desk",
+      "quality": 68,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 70
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Clean, well-lit equipment shot; readable as remediation work; portrait crop hurts hero.",
+      "triaged_at": "2026-08-05T06:32:32Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNijteheSciSfr-Xdpj2Y2WqdUsRmYDdVQCGwsp": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNijteheSciSfr-Xdpj2Y2WqdUsRmYDdVQCGwsp.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/posted/gbp-AF1QipNijteheSciSfr-Xdpj2Y2WqdUsRmYDdVQCGwsp.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 529102,
+      "sha1": "41319b01ba66a4a1",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Extensive black mold growth on attic roof sheathing and rafters",
+      "quality": 38,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [
+        "mold-remediation"
+      ],
+      "flags": [
+        "blurry"
+      ],
+      "reason": "Compelling before-state evidence but soft focus and dark exposure limit marketing use.",
+      "triaged_at": "2026-08-05T06:32:32Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipO-OaTxKjTpmx4i3i3uE5JgZK3gkI7qrPw7KmVk": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipO-OaTxKjTpmx4i3i3uE5JgZK3gkI7qrPw7KmVk.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/posted/gbp-AF1QipO-OaTxKjTpmx4i3i3uE5JgZK3gkI7qrPw7KmVk.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 573954,
+      "sha1": "3eb61127e04536be",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Crawl space with vapor barrier and pink insulation overhead",
+      "quality": 52,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "crawl-space-encapsulation",
+        "insulation-removal-installation"
+      ],
+      "flags": [],
+      "reason": "Decent crawl space shot showing encapsulation work; dark but usable for services card.",
+      "triaged_at": "2026-08-05T06:32:51Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOGGn_cpJFKXAwGs9Xao0ZbjIq2mnz5wwS0yAjA": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOGGn_cpJFKXAwGs9Xao0ZbjIq2mnz5wwS0yAjA.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/posted/gbp-AF1QipOGGn_cpJFKXAwGs9Xao0ZbjIq2mnz5wwS0yAjA.jpg",
+      "width": 1183,
+      "height": 2560,
+      "bytes": 1239445,
+      "sha1": "0387a57e621142a8",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Phone screenshot of pipe through damaged wall cavity",
+      "quality": 18,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 10
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "screenshot"
+      ],
+      "reason": "Phone UI chrome visible; low quality screenshot, unsuitable for professional marketing.",
+      "triaged_at": "2026-08-05T06:32:51Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOKvvXCzw9ZL2BIETBjTDlk1weRfuob4_wUjR4W": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOKvvXCzw9ZL2BIETBjTDlk1weRfuob4_wUjR4W.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/posted/gbp-AF1QipOKvvXCzw9ZL2BIETBjTDlk1weRfuob4_wUjR4W.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 722850,
+      "sha1": "1cb049b68768e6a2",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Mold-stained wood ceiling with pipe and fallen insulation",
+      "quality": 44,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "insulation-removal-installation"
+      ],
+      "flags": [],
+      "reason": "Shows mold damage clearly but cramped composition and mediocre exposure limit usefulness.",
+      "triaged_at": "2026-08-05T06:32:51Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOYLKysdehJcguc8F0XSRSFLMPyT_B-FsgCc9hV": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOYLKysdehJcguc8F0XSRSFLMPyT_B-FsgCc9hV.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/posted/gbp-AF1QipOYLKysdehJcguc8F0XSRSFLMPyT_B-FsgCc9hV.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 411919,
+      "sha1": "6b7764d47244157f",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician in Tyvek suit working under water-damaged kitchen cabinet",
+      "quality": 55,
+      "slots": {
+        "hero": 18,
+        "team": 55,
+        "services": 65
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Good action shot of tech in PPE; awkward angle but reads as real remediation work.",
+      "triaged_at": "2026-08-05T06:32:51Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOf456pVXfw7aakGljjW94cgGHTrVPFKfd1OOE8": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOf456pVXfw7aakGljjW94cgGHTrVPFKfd1OOE8.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/posted/gbp-AF1QipOf456pVXfw7aakGljjW94cgGHTrVPFKfd1OOE8.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 367789,
+      "sha1": "9b29113a4bfc5d46",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Dark crawl space interior with vapor barrier and utility tanks",
+      "quality": 35,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 30
+      },
+      "service_slugs": [
+        "crawl-space-encapsulation"
+      ],
+      "flags": [],
+      "reason": "Too dark and cluttered; marginal quality limits marketing use beyond filler.",
+      "triaged_at": "2026-08-05T06:32:51Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOhdTDQmKo9WpY345XanRSLxFP4kyjCZBolowDY": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOhdTDQmKo9WpY345XanRSLxFP4kyjCZBolowDY.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/posted/gbp-AF1QipOhdTDQmKo9WpY345XanRSLxFP4kyjCZBolowDY.jpg",
+      "width": 1242,
+      "height": 835,
+      "bytes": 1095195,
+      "sha1": "624d323e810d048c",
+      "exif": {},
+      "category": "fleet",
+      "subject": "Go Green Restorations branded Transit van parked outdoors sunny day",
+      "quality": 78,
+      "slots": {
+        "hero": 82,
+        "team": 0,
+        "services": 35
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation",
+        "crawl-space-encapsulation"
+      ],
+      "flags": [],
+      "reason": "Clean well-lit fleet photo with full branding wrap; strong hero candidate.",
+      "triaged_at": "2026-08-05T06:32:51Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOiJIRhAIicorPfw3v3DqIbN9N042zyMx32Upmv": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOiJIRhAIicorPfw3v3DqIbN9N042zyMx32Upmv.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/posted/gbp-AF1QipOiJIRhAIicorPfw3v3DqIbN9N042zyMx32Upmv.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 783979,
+      "sha1": "d8eb02595c1f9e9f",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Water-damaged ceiling with hole and mold staining",
+      "quality": 52,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Clear damage documentation; dark, portrait crop limits hero use.",
+      "triaged_at": "2026-08-05T06:33:09Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOpKs22DDsizYx55ENIrk4R-em3ymPtB2P6aMb3": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOpKs22DDsizYx55ENIrk4R-em3ymPtB2P6aMb3.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/posted/gbp-AF1QipOpKs22DDsizYx55ENIrk4R-em3ymPtB2P6aMb3.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 761907,
+      "sha1": "bbd39a6b6e5d521d",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Interior staircase foyer with protective paper floor covering",
+      "quality": 60,
+      "slots": {
+        "hero": 18,
+        "team": 0,
+        "services": 50
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Decent composition showing job prep; no crew or distinct damage visible.",
+      "triaged_at": "2026-08-05T06:33:09Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipP1zkaJBBOTmDz8E8OsKn5nSJV4cSPsGG17rS8o": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipP1zkaJBBOTmDz8E8OsKn5nSJV4cSPsGG17rS8o.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/posted/gbp-AF1QipP1zkaJBBOTmDz8E8OsKn5nSJV4cSPsGG17rS8o.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 512763,
+      "sha1": "c970370557ba3587",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "PVC pipe in dark crawl space with pink insulation and moisture",
+      "quality": 40,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [
+        "crawl-space-encapsulation",
+        "insulation-removal-installation"
+      ],
+      "flags": [
+        "blurry"
+      ],
+      "reason": "Dark, slightly blurry, tight crop; limited professional marketing use.",
+      "triaged_at": "2026-08-05T06:33:09Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipP2MbNg48fOplUoOt1Fx95eT_tbHpaU6HESxei2": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipP2MbNg48fOplUoOt1Fx95eT_tbHpaU6HESxei2.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/posted/gbp-AF1QipP2MbNg48fOplUoOt1Fx95eT_tbHpaU6HESxei2.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 882189,
+      "sha1": "e2d52ca8b65cf4d5",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Crew working in gutted basement with air movers and containment plastic",
+      "quality": 48,
+      "slots": {
+        "hero": 12,
+        "team": 35,
+        "services": 55
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Low light, cluttered scene; shows real work in progress with crew visible.",
+      "triaged_at": "2026-08-05T06:33:09Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPN-QCbms1WliO6ElZr5GugLZQUzNCmrJTwVfEe": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPN-QCbms1WliO6ElZr5GugLZQUzNCmrJTwVfEe.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/posted/gbp-AF1QipPN-QCbms1WliO6ElZr5GugLZQUzNCmrJTwVfEe.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 730854,
+      "sha1": "7457571170fcdf5c",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Blue air mover on hardwood floor in residential room",
+      "quality": 65,
+      "slots": {
+        "hero": 30,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Clean, well-lit equipment shot; readable as drying service, no crew present.",
+      "triaged_at": "2026-08-05T06:33:09Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPRGgJj3PXXfPREuwND9ivGVlusveRaMuSHXcAp": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPRGgJj3PXXfPREuwND9ivGVlusveRaMuSHXcAp.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/posted/gbp-AF1QipPRGgJj3PXXfPREuwND9ivGVlusveRaMuSHXcAp.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 668463,
+      "sha1": "09eaaf82dd4477b9",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Crawl space with vapor barrier, tanks, wiring and pink insulation above",
+      "quality": 55,
+      "slots": {
+        "hero": 12,
+        "team": 0,
+        "services": 58
+      },
+      "service_slugs": [
+        "crawl-space-encapsulation",
+        "insulation-removal-installation"
+      ],
+      "flags": [],
+      "reason": "Good documentation of crawl space state; low ambient light limits quality.",
+      "triaged_at": "2026-08-05T06:33:09Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPgYolNLFXR3x7Q93lDppLlJy5cLWqrMXAUspej": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPgYolNLFXR3x7Q93lDppLlJy5cLWqrMXAUspej.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/posted/gbp-AF1QipPgYolNLFXR3x7Q93lDppLlJy5cLWqrMXAUspej.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 555340,
+      "sha1": "1ace39681243ee19",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Crawl space with white vapor barrier liner installed",
+      "quality": 42,
+      "slots": {
+        "hero": 18,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [
+        "crawl-space-encapsulation"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Dark, low-angle crawl space shot; serviceable for encapsulation page but not hero.",
+      "triaged_at": "2026-08-05T06:33:23Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPkPxXlFvb5M1AICb62ORFLnaSrhYtCkEQ_3llW": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPkPxXlFvb5M1AICb62ORFLnaSrhYtCkEQ_3llW.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/posted/gbp-AF1QipPkPxXlFvb5M1AICb62ORFLnaSrhYtCkEQ_3llW.jpg",
+      "width": 1242,
+      "height": 1271,
+      "bytes": 1137916,
+      "sha1": "923a326b11856fda",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Marketing card with hurricane satellite image and company name",
+      "quality": 30,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "text_overlay",
+        "logo_card"
+      ],
+      "reason": "Designed marketing collage with large burnt-in text; not a usable photo.",
+      "triaged_at": "2026-08-05T06:33:23Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPpuk8I5lPU4zV-bUk4hibXtzL_GNKogR_w-6nb": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPpuk8I5lPU4zV-bUk4hibXtzL_GNKogR_w-6nb.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/posted/gbp-AF1QipPpuk8I5lPU4zV-bUk4hibXtzL_GNKogR_w-6nb.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 932561,
+      "sha1": "874558a7c175f4cc",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Dri-Az dehumidifier and air mover in gutted room",
+      "quality": 72,
+      "slots": {
+        "hero": 35,
+        "team": 0,
+        "services": 78
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Clear, well-lit equipment shot in damaged room; strong services card image.",
+      "triaged_at": "2026-08-05T06:33:23Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPt64dwX6BuKthfyKMk-MPAE2_NinK2w0KXwQ-b": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPt64dwX6BuKthfyKMk-MPAE2_NinK2w0KXwQ-b.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/posted/gbp-AF1QipPt64dwX6BuKthfyKMk-MPAE2_NinK2w0KXwQ-b.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 655098,
+      "sha1": "bf33d9d8208422ea",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Santa Fe dehumidifier suspended in encapsulated crawl space",
+      "quality": 50,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "crawl-space-encapsulation"
+      ],
+      "flags": [],
+      "reason": "Useful crawl space dehumidifier detail; dark and cramped limits hero appeal.",
+      "triaged_at": "2026-08-05T06:33:23Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPuG7mVUizNf54ye-D8WggyW8lm2vu-21xiwRjR": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPuG7mVUizNf54ye-D8WggyW8lm2vu-21xiwRjR.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/posted/gbp-AF1QipPuG7mVUizNf54ye-D8WggyW8lm2vu-21xiwRjR.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 1366861,
+      "sha1": "10133bf287ea41e0",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Demolished debris pile with insulation and broken tiles on floor",
+      "quality": 38,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 30
+      },
+      "service_slugs": [
+        "insulation-removal-installation"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Chaotic debris scene; too messy and dark for professional marketing use.",
+      "triaged_at": "2026-08-05T06:33:23Z",
+      "triage_model": "claude-sonnet-4-6"
+    }
+  },
+  "slots": {},
+  "triaged_at": "2026-08-05T06:57:09Z"
+}

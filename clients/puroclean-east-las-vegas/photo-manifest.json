@@ -1939,6 +1939,33 @@
       "triaged_at": "2026-08-05T05:50:21Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "web:25653b28311e501d": {
+      "source": "website",
+      "storage": "site-assets/web/web-25653b28311e501d.png",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784594708149/site-assets/web/web-25653b28311e501d.png",
+      "origin_url": "https://www.puroclean.com/las-vegas-nv-puroclean-east-las-vegas/wp-content/themes/puroclean-tw/assets/img/commercial-services-default-tabbed.png",
+      "found_on": "https://www.puroclean.com/las-vegas-nv-puroclean-east-las-vegas/services/",
+      "width": 726,
+      "height": 540,
+      "bytes": 541885,
+      "sha1": "25653b28311e501d",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Generic commercial office building exterior at dusk",
+      "quality": 78,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Too polished and generic; no PuroClean branding, likely stock or developer photo.",
+      "triaged_at": "2026-08-05T06:25:00Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "web:2908aac718b1885e": {
       "source": "website",
       "storage": "site-assets/web/web-2908aac718b1885e.jpg",
@@ -2297,5 +2324,5 @@
       "file": "/images/services.webp"
     }
   },
-  "triaged_at": "2026-08-05T05:50:37Z"
+  "triaged_at": "2026-08-05T06:25:00Z"
 }

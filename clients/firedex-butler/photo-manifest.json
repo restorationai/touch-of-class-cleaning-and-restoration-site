@@ -1,0 +1,606 @@
+{
+  "slug": "firedex-butler",
+  "assets": {
+    "web:04312d8cfd65ab65": {
+      "source": "website",
+      "storage": "site-assets/web/web-04312d8cfd65ab65.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783443032282/site-assets/web/web-04312d8cfd65ab65.jpg",
+      "origin_url": "https://www.firedex.net/wp-content/uploads/2020/08/service-banner.jpg",
+      "found_on": "https://www.firedex.net/commercial-services/",
+      "width": 1800,
+      "height": 1101,
+      "bytes": 920897,
+      "sha1": "04312d8cfd65ab65",
+      "exif": {},
+      "category": "unusable",
+      "subject": "High-rise building engulfed in flames with heavy smoke",
+      "quality": 72,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 15
+      },
+      "service_slugs": [
+        "fire-damage-restoration"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Licensed news or stock photo of active fire; not this contractor's own work.",
+      "triaged_at": "2026-08-05T06:23:54Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:073e666791b1b49a": {
+      "source": "website",
+      "storage": "site-assets/web/web-073e666791b1b49a.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783443032282/site-assets/web/web-073e666791b1b49a.jpg",
+      "origin_url": "https://www.firedex.net/wp-content/uploads/2020/09/home-banner.jpg",
+      "found_on": "https://www.firedex.net/",
+      "width": 1920,
+      "height": 850,
+      "bytes": 936775,
+      "sha1": "073e666791b1b49a",
+      "exif": {},
+      "category": "unusable",
+      "subject": "High-rise building on fire with smoke billowing upward",
+      "quality": 70,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 10
+      },
+      "service_slugs": [
+        "fire-damage-restoration"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Same stock/news fire scene, different crop; not client's own imagery.",
+      "triaged_at": "2026-08-05T06:23:54Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:079a71a1fd14e4ef": {
+      "source": "website",
+      "storage": "site-assets/web/web-079a71a1fd14e4ef.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783443032282/site-assets/web/web-079a71a1fd14e4ef.jpg",
+      "origin_url": "https://www.firedex.net/wp-content/uploads/2020/09/water-storm-damage-2.jpg",
+      "found_on": "https://www.firedex.net/commercial-services/water-and-storm-damage/",
+      "width": 885,
+      "height": 470,
+      "bytes": 373433,
+      "sha1": "079a71a1fd14e4ef",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Blue air mover fan placed against water-damaged wall",
+      "quality": 72,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "flood-damage-restoration"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Clean equipment shot but appears stock; mold-stained drywall backdrop adds context.",
+      "triaged_at": "2026-08-05T06:23:54Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:08c4b00ada68c8bd": {
+      "source": "website",
+      "storage": "site-assets/web/web-08c4b00ada68c8bd.png",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783443032282/site-assets/web/web-08c4b00ada68c8bd.png",
+      "origin_url": "https://www.firedex.net/wp-content/uploads/2020/09/team-member.png",
+      "found_on": "https://www.firedex.net/our-team/",
+      "width": 1260,
+      "height": 823,
+      "bytes": 1483879,
+      "sha1": "08c4b00ada68c8bd",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Three construction workers reviewing blueprints on white background",
+      "quality": 65,
+      "slots": {
+        "hero": 5,
+        "team": 20,
+        "services": 5
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo",
+        "people_faces"
+      ],
+      "reason": "Obvious cutout stock photo; not this company's real crew or jobsite.",
+      "triaged_at": "2026-08-05T06:23:54Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:0af9b618aaf70c9a": {
+      "source": "website",
+      "storage": "site-assets/web/web-0af9b618aaf70c9a.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783443032282/site-assets/web/web-0af9b618aaf70c9a.jpg",
+      "origin_url": "https://www.firedex.net/wp-content/uploads/2020/09/statement.jpg",
+      "found_on": "https://www.firedex.net/about/",
+      "width": 847,
+      "height": 565,
+      "bytes": 312105,
+      "sha1": "0af9b618aaf70c9a",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Smiling diverse construction crew group portrait outdoors",
+      "quality": 68,
+      "slots": {
+        "hero": 15,
+        "team": 30,
+        "services": 5
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo",
+        "people_faces"
+      ],
+      "reason": "Generic stock crew photo; too polished and art-directed to be client's own team.",
+      "triaged_at": "2026-08-05T06:23:54Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:1499cb0cb604da28": {
+      "source": "website",
+      "storage": "site-assets/web/web-1499cb0cb604da28.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783443032282/site-assets/web/web-1499cb0cb604da28.jpg",
+      "origin_url": "https://www.firedex.net/wp-content/uploads/2020/10/About-banner-e1602519786365.jpg",
+      "found_on": "https://www.firedex.net/our-team/",
+      "width": 1800,
+      "height": 688,
+      "bytes": 171967,
+      "sha1": "1499cb0cb604da28",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Close-up handshake with yellow work glove between two workers",
+      "quality": 60,
+      "slots": {
+        "hero": 18,
+        "team": 10,
+        "services": 5
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Generic stock handshake concept image; no restoration trade relevance shown.",
+      "triaged_at": "2026-08-05T06:23:54Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:1706910aaf0b7d9a": {
+      "source": "website",
+      "storage": "site-assets/web/web-1706910aaf0b7d9a.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783443032282/site-assets/web/web-1706910aaf0b7d9a.jpg",
+      "origin_url": "https://www.firedex.net/wp-content/uploads/2020/09/home-order-out-1.jpg",
+      "found_on": "https://www.firedex.net/",
+      "width": 1000,
+      "height": 664,
+      "bytes": 587266,
+      "sha1": "1706910aaf0b7d9a",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Large commercial building engulfed in fire at night",
+      "quality": 72,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 15
+      },
+      "service_slugs": [
+        "fire-damage-restoration",
+        "commercial-restoration"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Dramatic stock photo of active fire; too extreme and not contractor's own work.",
+      "triaged_at": "2026-08-05T06:24:12Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:18fbe9535500f95f": {
+      "source": "website",
+      "storage": "site-assets/web/web-18fbe9535500f95f.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783443032282/site-assets/web/web-18fbe9535500f95f.jpg",
+      "origin_url": "https://www.firedex.net/wp-content/uploads/2020/09/biohazard-cleanup-2.jpg",
+      "found_on": "https://www.firedex.net/commercial-services/trauma-and-biohazard-cleanup/",
+      "width": 885,
+      "height": 470,
+      "bytes": 168476,
+      "sha1": "18fbe9535500f95f",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Gloved hand wiping blood near biohazard container on surface",
+      "quality": 60,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 10
+      },
+      "service_slugs": [
+        "biohazard-cleanup"
+      ],
+      "flags": [
+        "stock_photo",
+        "graphic_content"
+      ],
+      "reason": "Stock photo with graphic blood content; unsuitable for professional marketing site.",
+      "triaged_at": "2026-08-05T06:24:12Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:1bd8129645d4e871": {
+      "source": "website",
+      "storage": "site-assets/web/web-1bd8129645d4e871.png",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783443032282/site-assets/web/web-1bd8129645d4e871.png",
+      "origin_url": "https://www.firedex.net/wp-content/uploads/2020/09/why-choose-banner.png",
+      "found_on": "https://www.firedex.net/why-choose-us/",
+      "width": 1800,
+      "height": 515,
+      "bytes": 1100521,
+      "sha1": "1bd8129645d4e871",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Young woman in hard hat holding blueprints at construction site",
+      "quality": 65,
+      "slots": {
+        "hero": 20,
+        "team": 15,
+        "services": 10
+      },
+      "service_slugs": [
+        "general-contracting",
+        "reconstruction"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Obviously generic stock photo; not this contractor's crew or location.",
+      "triaged_at": "2026-08-05T06:24:12Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:3717680caf1605e6": {
+      "source": "website",
+      "storage": "site-assets/web/web-3717680caf1605e6.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783443032282/site-assets/web/web-3717680caf1605e6.jpg",
+      "origin_url": "https://www.firedex.net/wp-content/uploads/2020/08/home-services-left.jpg",
+      "found_on": "https://www.firedex.net/",
+      "width": 1170,
+      "height": 1086,
+      "bytes": 521851,
+      "sha1": "3717680caf1605e6",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Smoke billowing from upper floors of high-rise apartment building",
+      "quality": 68,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 25
+      },
+      "service_slugs": [
+        "fire-damage-restoration",
+        "smoke-damage-restoration",
+        "commercial-restoration"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Likely stock or news photo of active fire; no crew or contractor context present.",
+      "triaged_at": "2026-08-05T06:24:12Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:3db5a6fbcc407d98": {
+      "source": "website",
+      "storage": "site-assets/web/web-3db5a6fbcc407d98.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783443032282/site-assets/web/web-3db5a6fbcc407d98.jpg",
+      "origin_url": "https://www.firedex.net/wp-content/uploads/2020/09/water-storn-main-banner.jpg",
+      "found_on": "https://www.firedex.net/commercial-services/water-and-storm-damage/",
+      "width": 1791,
+      "height": 765,
+      "bytes": 362636,
+      "sha1": "3db5a6fbcc407d98",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Flooded living room with sofa and floating furniture indoors",
+      "quality": 70,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 20
+      },
+      "service_slugs": [
+        "flood-damage-restoration",
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "CGI render or polished stock scene; not a real job photo from this contractor.",
+      "triaged_at": "2026-08-05T06:24:12Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:43c468a1228cdd72": {
+      "source": "website",
+      "storage": "site-assets/web/web-43c468a1228cdd72.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783443032282/site-assets/web/web-43c468a1228cdd72.jpg",
+      "origin_url": "https://www.firedex.net/wp-content/uploads/2020/09/modal-removal-remediation-banner.jpg",
+      "found_on": "https://www.firedex.net/commercial-services/mold-removal-and-remediation/",
+      "width": 1800,
+      "height": 1106,
+      "bytes": 659109,
+      "sha1": "43c468a1228cdd72",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Technician in hazmat suit spraying chemical in warehouse interior",
+      "quality": 74,
+      "slots": {
+        "hero": 25,
+        "team": 40,
+        "services": 35
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "biohazard-cleanup",
+        "odor-removal"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Well-lit but clearly stock; generic model and setting, not this contractor's crew.",
+      "triaged_at": "2026-08-05T06:24:12Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:4605b5113634e6c8": {
+      "source": "website",
+      "storage": "site-assets/web/web-4605b5113634e6c8.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783443032282/site-assets/web/web-4605b5113634e6c8.jpg",
+      "origin_url": "https://www.firedex.net/wp-content/uploads/2020/09/smoke-banner.jpg",
+      "found_on": "https://www.firedex.net/commercial-services/fire-and-smoke-damage/",
+      "width": 1800,
+      "height": 1172,
+      "bytes": 811398,
+      "sha1": "4605b5113634e6c8",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Large multi-story building engulfed in fire with fire trucks",
+      "quality": 55,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 5
+      },
+      "service_slugs": [
+        "fire-damage-restoration"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "News/stock photo of active fire; not this company's crew or job.",
+      "triaged_at": "2026-08-05T06:24:31Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:5ae85d27ac9d652d": {
+      "source": "website",
+      "storage": "site-assets/web/web-5ae85d27ac9d652d.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783443032282/site-assets/web/web-5ae85d27ac9d652d.jpg",
+      "origin_url": "https://www.firedex.net/wp-content/uploads/2020/09/content.jpg",
+      "found_on": "https://www.firedex.net/commercial-services/fire-and-smoke-damage/",
+      "width": 885,
+      "height": 470,
+      "bytes": 354220,
+      "sha1": "5ae85d27ac9d652d",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Soot-blackened ceiling with fire-damaged light fixture",
+      "quality": 72,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "fire-damage-restoration",
+        "smoke-damage-restoration",
+        "soot-removal"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Likely stock; clean composition but no company crew or branding visible.",
+      "triaged_at": "2026-08-05T06:24:31Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:6c18da38df18d8e5": {
+      "source": "website",
+      "storage": "site-assets/web/web-6c18da38df18d8e5.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783443032282/site-assets/web/web-6c18da38df18d8e5.jpg",
+      "origin_url": "https://www.firedex.net/wp-content/uploads/2020/09/trauma-biohazard-cleanup-banner-1.jpg",
+      "found_on": "https://www.firedex.net/commercial-services/trauma-and-biohazard-cleanup/",
+      "width": 1800,
+      "height": 1116,
+      "bytes": 810631,
+      "sha1": "6c18da38df18d8e5",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician in hazmat suit fogging stairwell with mist machine",
+      "quality": 78,
+      "slots": {
+        "hero": 35,
+        "team": 60,
+        "services": 72
+      },
+      "service_slugs": [
+        "biohazard-cleanup",
+        "odor-removal",
+        "mold-remediation"
+      ],
+      "flags": [
+        "stock_photo",
+        "people_faces"
+      ],
+      "reason": "Well-lit stock photo; too polished and art-directed for real contractor job.",
+      "triaged_at": "2026-08-05T06:24:31Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:b592274fcd01ae0d": {
+      "source": "website",
+      "storage": "site-assets/web/web-b592274fcd01ae0d.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783443032282/site-assets/web/web-b592274fcd01ae0d.jpg",
+      "origin_url": "https://www.firedex.net/wp-content/uploads/2020/08/home-order-out-2.jpg",
+      "found_on": "https://www.firedex.net/",
+      "width": 1000,
+      "height": 664,
+      "bytes": 4300103,
+      "sha1": "b592274fcd01ae0d",
+      "exif": {
+        "taken_at": "2020:08:07 14:15:44"
+      },
+      "category": "job_progress",
+      "subject": "Residential house gable with severe fire and burn damage",
+      "quality": 78,
+      "slots": {
+        "hero": 30,
+        "team": 0,
+        "services": 68
+      },
+      "service_slugs": [
+        "fire-damage-restoration",
+        "reconstruction",
+        "storm-damage-restoration"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Clean stock-style exterior fire damage photo; no company attribution.",
+      "triaged_at": "2026-08-05T06:24:31Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:d55234f64bc65521": {
+      "source": "website",
+      "storage": "site-assets/web/web-d55234f64bc65521.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783443032282/site-assets/web/web-d55234f64bc65521.jpg",
+      "origin_url": "https://www.firedex.net/wp-content/uploads/2020/09/home-restoration-services-bg.jpg",
+      "found_on": "https://www.firedex.net/",
+      "width": 1800,
+      "height": 907,
+      "bytes": 508009,
+      "sha1": "d55234f64bc65521",
+      "exif": {},
+      "category": "crew",
+      "subject": "Two workers in hard hats inspecting damaged ceiling with clipboard",
+      "quality": 62,
+      "slots": {
+        "hero": 15,
+        "team": 45,
+        "services": 50
+      },
+      "service_slugs": [
+        "mold-inspection-testing",
+        "water-damage-restoration",
+        "general-contracting"
+      ],
+      "flags": [
+        "stock_photo",
+        "people_faces"
+      ],
+      "reason": "Obvious stock composite with blown-out white edge; not client's actual crew.",
+      "triaged_at": "2026-08-05T06:24:31Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:dd912ae0e302f25e": {
+      "source": "website",
+      "storage": "site-assets/web/web-dd912ae0e302f25e.png",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783443032282/site-assets/web/web-dd912ae0e302f25e.png",
+      "origin_url": "https://www.firedex.net/wp-content/uploads/2020/09/Our-Process-banner.png",
+      "found_on": "https://www.firedex.net/our-process/",
+      "width": 1800,
+      "height": 515,
+      "bytes": 1462589,
+      "sha1": "dd912ae0e302f25e",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Two firefighters in gear reviewing tablet in front of fire truck",
+      "quality": 65,
+      "slots": {
+        "hero": 10,
+        "team": 20,
+        "services": 5
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo",
+        "people_faces"
+      ],
+      "reason": "Stock photo of firefighters, not restoration crew; irrelevant to remediation services.",
+      "triaged_at": "2026-08-05T06:24:31Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:e0446a0f76ed45d4": {
+      "source": "website",
+      "storage": "site-assets/web/web-e0446a0f76ed45d4.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783443032282/site-assets/web/web-e0446a0f76ed45d4.jpg",
+      "origin_url": "https://www.firedex.net/wp-content/uploads/2020/09/remediation-1-2.jpg",
+      "found_on": "https://www.firedex.net/commercial-services/mold-removal-and-remediation/",
+      "width": 885,
+      "height": 470,
+      "bytes": 265699,
+      "sha1": "e0446a0f76ed45d4",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Black mold growth on white wall corner near outlets",
+      "quality": 62,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "mold-inspection-testing"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "European outlets reveal this is licensed stock, not client's own job site.",
+      "triaged_at": "2026-08-05T06:24:38Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:ee4baf9baf13500a": {
+      "source": "website",
+      "storage": "site-assets/web/web-ee4baf9baf13500a.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783443032282/site-assets/web/web-ee4baf9baf13500a.jpg",
+      "origin_url": "https://www.firedex.net/wp-content/uploads/2020/08/company-profile.jpg",
+      "found_on": "https://www.firedex.net/about/",
+      "width": 620,
+      "height": 411,
+      "bytes": 128456,
+      "sha1": "ee4baf9baf13500a",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Three construction workers in hard hats shaking hands indoors",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 20,
+        "services": 10
+      },
+      "service_slugs": [
+        "general-contracting",
+        "reconstruction"
+      ],
+      "flags": [
+        "stock_photo",
+        "people_faces"
+      ],
+      "reason": "Clearly staged stock photo; not client's own crew or job site.",
+      "triaged_at": "2026-08-05T06:24:38Z",
+      "triage_model": "claude-sonnet-4-6"
+    }
+  },
+  "slots": {},
+  "triaged_at": "2026-08-05T06:24:38Z"
+}

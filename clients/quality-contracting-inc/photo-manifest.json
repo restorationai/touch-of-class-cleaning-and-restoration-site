@@ -1,0 +1,55 @@
+{
+  "slug": "quality-contracting-inc",
+  "assets": {
+    "gbp:gbp-AF1QipP_p1uc76KgQ_e_r5cWTb9_xiLVg11kKmv8wix7": {
+      "source": "gbp",
+      "storage": "job-photos/posted/r1785782925_gbp-AF1QipP_p1uc76KgQ_e_r5cWTb9_xiLVg11kKmv8wix7.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785180744028/job-photos/posted/r1785782925_gbp-AF1QipP_p1uc76KgQ_e_r5cWTb9_xiLVg11kKmv8wix7.jpg",
+      "width": 2420,
+      "height": 1816,
+      "bytes": 2856886,
+      "sha1": "788d7e9e041de33d",
+      "exif": {},
+      "category": "fleet",
+      "subject": "Full company fleet parked outside two-storey office building",
+      "quality": 78,
+      "slots": {
+        "hero": 82,
+        "team": 0,
+        "services": 10
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Wide exterior shot with full fleet and building; excellent hero candidate.",
+      "triaged_at": "2026-08-05T06:39:56Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:sms-1785358224564-5c715e96": {
+      "source": "gbp",
+      "storage": "job-photos/posted/sms-1785358224564-5c715e96.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785180744028/job-photos/posted/sms-1785358224564-5c715e96.jpg",
+      "width": 1500,
+      "height": 2000,
+      "bytes": 455939,
+      "sha1": "ecfd0009a3c96a82",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Two men and Patriots mascot at trade show booth",
+      "quality": 55,
+      "slots": {
+        "hero": 5,
+        "team": 20,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Trade show event photo with mascot; unrelated to restoration work on site.",
+      "triaged_at": "2026-08-05T06:39:56Z",
+      "triage_model": "claude-sonnet-4-6"
+    }
+  },
+  "slots": {},
+  "triaged_at": "2026-08-05T06:39:56Z"
+}

@@ -1,0 +1,1073 @@
+{
+  "slug": "mold-solutionz-24-7-llc",
+  "assets": {
+    "gbp:gbp-AF1QipM4f9qWxJPPZpq-795JbPEu6l_1VnDoQwpueEf1": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipM4f9qWxJPPZpq-795JbPEu6l_1VnDoQwpueEf1.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/job-photos/posted/gbp-AF1QipM4f9qWxJPPZpq-795JbPEu6l_1VnDoQwpueEf1.jpg",
+      "width": 443,
+      "height": 292,
+      "bytes": 118233,
+      "sha1": "381d3e4c15efe9e6",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Black mold growing in white window corner close-up",
+      "quality": 72,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 35
+      },
+      "service_slugs": [
+        "black-mold-removal",
+        "mold-remediation"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Too polished and generic; almost certainly licensed stock imagery.",
+      "triaged_at": "2026-08-05T06:34:49Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMG1VIVaAmCb1tH1iH5xpOCEeImg3i1Fdrukx9L": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMG1VIVaAmCb1tH1iH5xpOCEeImg3i1Fdrukx9L.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/job-photos/posted/gbp-AF1QipMG1VIVaAmCb1tH1iH5xpOCEeImg3i1Fdrukx9L.jpg",
+      "width": 692,
+      "height": 456,
+      "bytes": 211869,
+      "sha1": "e0185f945c1e6dd6",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Black mold spreading across white window corner wall",
+      "quality": 70,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 33
+      },
+      "service_slugs": [
+        "black-mold-removal",
+        "mold-remediation"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Identical scene to image 0; strongly appears to be licensed stock.",
+      "triaged_at": "2026-08-05T06:34:49Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMGI_RAmmkGBKOrU1_JSuAW03JRPUpYw8EO8rbC": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMGI_RAmmkGBKOrU1_JSuAW03JRPUpYw8EO8rbC.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/job-photos/posted/gbp-AF1QipMGI_RAmmkGBKOrU1_JSuAW03JRPUpYw8EO8rbC.jpg",
+      "width": 721,
+      "height": 456,
+      "bytes": 331885,
+      "sha1": "1859e3cc8b3bbd6d",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Technician in Tyvek suit spraying mold-covered wall",
+      "quality": 65,
+      "slots": {
+        "hero": 20,
+        "team": 40,
+        "services": 55
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "black-mold-removal"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Generic, art-directed studio feel; not identifiably this company's crew.",
+      "triaged_at": "2026-08-05T06:34:49Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMg2DUPqrsopNQ_qdGyp6KrlPJwhzX82HYNUO5t": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMg2DUPqrsopNQ_qdGyp6KrlPJwhzX82HYNUO5t.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/job-photos/posted/gbp-AF1QipMg2DUPqrsopNQ_qdGyp6KrlPJwhzX82HYNUO5t.jpg",
+      "width": 708,
+      "height": 456,
+      "bytes": 206656,
+      "sha1": "fe2f36e0ad6bfdf7",
+      "exif": {},
+      "category": "before_after",
+      "subject": "Before and after ceiling mold remediation stairwell",
+      "quality": 48,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "black-mold-removal"
+      ],
+      "flags": [
+        "text_overlay"
+      ],
+      "reason": "Real job result but burnt-in Before/After labels and poor low-light quality.",
+      "triaged_at": "2026-08-05T06:34:49Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMgH-NmRoV2eq8_-CVKPJvg9t35By-jDZzes_gZ": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMgH-NmRoV2eq8_-CVKPJvg9t35By-jDZzes_gZ.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/job-photos/posted/gbp-AF1QipMgH-NmRoV2eq8_-CVKPJvg9t35By-jDZzes_gZ.jpg",
+      "width": 395,
+      "height": 391,
+      "bytes": 158594,
+      "sha1": "dee30735b001ad46",
+      "exif": {},
+      "category": "before_after",
+      "subject": "Side-by-side bathroom wall mold removal before and after",
+      "quality": 58,
+      "slots": {
+        "hero": 18,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "black-mold-removal"
+      ],
+      "flags": [],
+      "reason": "Authentic real-job before/after; decent clarity, good services evidence.",
+      "triaged_at": "2026-08-05T06:34:49Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMwlrb3Min6RWMDfFocrd-7jT3eaRGqo5MHMP7W": {
+      "source": "gbp",
+      "storage": "job-photos/posted/r1785609820_gbp-AF1QipMwlrb3Min6RWMDfFocrd-7jT3eaRGqo5MHMP7W.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/job-photos/posted/r1785609820_gbp-AF1QipMwlrb3Min6RWMDfFocrd-7jT3eaRGqo5MHMP7W.jpg",
+      "width": 2560,
+      "height": 1913,
+      "bytes": 518195,
+      "sha1": "789af2b2bb757518",
+      "exif": {},
+      "category": "crew",
+      "subject": "Woman in Mold Solutionz 24/7 branded polo shirt portrait",
+      "quality": 82,
+      "slots": {
+        "hero": 28,
+        "team": 78,
+        "services": 10
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Clean branded portrait; strong team slot, no job activity visible.",
+      "triaged_at": "2026-08-05T06:34:49Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipN65UDvArMoW2mhBkZwepAoKEuVbmKdNRsKfM64": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipN65UDvArMoW2mhBkZwepAoKEuVbmKdNRsKfM64.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/job-photos/posted/gbp-AF1QipN65UDvArMoW2mhBkZwepAoKEuVbmKdNRsKfM64.jpg",
+      "width": 1081,
+      "height": 455,
+      "bytes": 408666,
+      "sha1": "32548e1e2980414d",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician in Tyvek suit scrubbing mold from attic rafters",
+      "quality": 62,
+      "slots": {
+        "hero": 35,
+        "team": 60,
+        "services": 78
+      },
+      "service_slugs": [
+        "attic-mold-removal",
+        "mold-remediation"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Good action shot of remediation work in attic; slightly soft and low contrast.",
+      "triaged_at": "2026-08-05T06:35:06Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNHkovBsmH0Ws5HUacrhLEMOtIkFv9jdh_VlONs": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNHkovBsmH0Ws5HUacrhLEMOtIkFv9jdh_VlONs.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/job-photos/posted/gbp-AF1QipNHkovBsmH0Ws5HUacrhLEMOtIkFv9jdh_VlONs.jpg",
+      "width": 2560,
+      "height": 1920,
+      "bytes": 631793,
+      "sha1": "b2533bedf950eee1",
+      "exif": {
+        "taken_at": "2025:03:18 14:33:28"
+      },
+      "category": "crew",
+      "subject": "Masked technician inspecting mold damage at floor level close-up",
+      "quality": 42,
+      "slots": {
+        "hero": 10,
+        "team": 40,
+        "services": 45
+      },
+      "service_slugs": [
+        "mold-inspection-testing",
+        "mold-remediation"
+      ],
+      "flags": [
+        "people_faces",
+        "indoor_clutter"
+      ],
+      "reason": "Awkward low angle, cluttered foreground; limited marketing utility.",
+      "triaged_at": "2026-08-05T06:35:06Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNKymB_j3oYcWYxjERD8CmLsUheKH76Hpyydegi": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNKymB_j3oYcWYxjERD8CmLsUheKH76Hpyydegi.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/job-photos/posted/gbp-AF1QipNKymB_j3oYcWYxjERD8CmLsUheKH76Hpyydegi.jpg",
+      "width": 1459,
+      "height": 1094,
+      "bytes": 100581,
+      "sha1": "83029d2942b28fc4",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Heavy black mold growth on wall framing behind removed drywall",
+      "quality": 60,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "black-mold-removal",
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Clear damage documentation; decent exposure, good services card use.",
+      "triaged_at": "2026-08-05T06:35:06Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNRPlKZ2VtfWXIbGgfgpjwtvSPcRFLplpnQ_gai": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNRPlKZ2VtfWXIbGgfgpjwtvSPcRFLplpnQ_gai.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/job-photos/posted/gbp-AF1QipNRPlKZ2VtfWXIbGgfgpjwtvSPcRFLplpnQ_gai.jpg",
+      "width": 456,
+      "height": 451,
+      "bytes": 185754,
+      "sha1": "2b447081d03c3b3b",
+      "exif": {},
+      "category": "before_after",
+      "subject": "Bathroom wall black mold before and clean white tile after",
+      "quality": 55,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "black-mold-removal",
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Side-by-side real before/after; no burnt-in labels, decent clarity.",
+      "triaged_at": "2026-08-05T06:35:06Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNVrcBB6CNXuCqFt5i8Bb6ecLLVytO1FTXK1Fb-": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNVrcBB6CNXuCqFt5i8Bb6ecLLVytO1FTXK1Fb-.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/job-photos/posted/gbp-AF1QipNVrcBB6CNXuCqFt5i8Bb6ecLLVytO1FTXK1Fb-.jpg",
+      "width": 972,
+      "height": 456,
+      "bytes": 240862,
+      "sha1": "d3a4ce86d458c84b",
+      "exif": {},
+      "category": "before_after",
+      "subject": "Room corner heavy mold before and clean painted wall after",
+      "quality": 38,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 35
+      },
+      "service_slugs": [
+        "black-mold-removal",
+        "mold-remediation"
+      ],
+      "flags": [
+        "text_overlay"
+      ],
+      "reason": "BEFORE/AFTER speech-bubble labels composited over image; low quality collage.",
+      "triaged_at": "2026-08-05T06:35:06Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNqlY9GQGigbHwzXcFM2MUKXlHAfCdYvJUt9_Fx": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNqlY9GQGigbHwzXcFM2MUKXlHAfCdYvJUt9_Fx.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/job-photos/posted/gbp-AF1QipNqlY9GQGigbHwzXcFM2MUKXlHAfCdYvJUt9_Fx.jpg",
+      "width": 1459,
+      "height": 1094,
+      "bytes": 100581,
+      "sha1": "83029d2942b28fc4",
+      "exif": {},
+      "duplicate_of": "gbp:gbp-AF1QipNKymB_j3oYcWYxjERD8CmLsUheKH76Hpyydegi"
+    },
+    "gbp:gbp-AF1QipONjSNVqaLHnVZwjvk-CengLXyhV_SilL45iNnU": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipONjSNVqaLHnVZwjvk-CengLXyhV_SilL45iNnU.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/job-photos/posted/gbp-AF1QipONjSNVqaLHnVZwjvk-CengLXyhV_SilL45iNnU.jpg",
+      "width": 1024,
+      "height": 683,
+      "bytes": 73143,
+      "sha1": "ddd2943ccbf35409",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Peeling bubbling ceiling paint from water leak damage",
+      "quality": 72,
+      "slots": {
+        "hero": 18,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "mold-inspection-testing"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Clean, well-lit but appears stock; no clear mold or company context.",
+      "triaged_at": "2026-08-05T06:35:06Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOToLVunjdq-Ez1_gMVLescTFDv_lKVGUKXOL71": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOToLVunjdq-Ez1_gMVLescTFDv_lKVGUKXOL71.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/job-photos/posted/gbp-AF1QipOToLVunjdq-Ez1_gMVLescTFDv_lKVGUKXOL71.jpg",
+      "width": 1459,
+      "height": 1094,
+      "bytes": 91659,
+      "sha1": "fa6eabcb368684a8",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Dark mold spots on white drywall near wooden beam",
+      "quality": 42,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [
+        "black-mold-removal",
+        "mold-remediation"
+      ],
+      "flags": [
+        "low_res",
+        "blurry"
+      ],
+      "reason": "Dim, slightly blurry close-up; useful for services but not hero quality.",
+      "triaged_at": "2026-08-05T06:35:34Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOU_SPm9am7dD3dODYJyMr02TzKaGbq-4qQPDMw": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOU_SPm9am7dD3dODYJyMr02TzKaGbq-4qQPDMw.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/job-photos/posted/gbp-AF1QipOU_SPm9am7dD3dODYJyMr02TzKaGbq-4qQPDMw.jpg",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 457459,
+      "sha1": "620323fa65c3da99",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Air movers and hoses on wood floor with overlaid text logo",
+      "quality": 55,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 20
+      },
+      "service_slugs": [
+        "mold-remediation"
+      ],
+      "flags": [
+        "text_overlay",
+        "logo_card",
+        "stock_photo"
+      ],
+      "reason": "Marketing text and logo pasted over what appears to be stock equipment photo.",
+      "triaged_at": "2026-08-05T06:35:34Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOj48sKJ6GUChJkoHfLZ_prq8bFG3RjlTCCqSal": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOj48sKJ6GUChJkoHfLZ_prq8bFG3RjlTCCqSal.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/job-photos/posted/gbp-AF1QipOj48sKJ6GUChJkoHfLZ_prq8bFG3RjlTCCqSal.jpg",
+      "width": 2560,
+      "height": 1707,
+      "bytes": 663804,
+      "sha1": "b480d1b365c9775e",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Mold Solutionz 24/7 logo lockup on dark textured background",
+      "quality": 80,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "logo_card"
+      ],
+      "reason": "Pure logo render; no photographic content, unsuitable for any content slot.",
+      "triaged_at": "2026-08-05T06:35:34Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOlsckNlp6TT_qMIhIn2ucvSujurVRaiuLCVOqF": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOlsckNlp6TT_qMIhIn2ucvSujurVRaiuLCVOqF.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/job-photos/posted/gbp-AF1QipOlsckNlp6TT_qMIhIn2ucvSujurVRaiuLCVOqF.jpg",
+      "width": 768,
+      "height": 1024,
+      "bytes": 69815,
+      "sha1": "6a4f7157925efecc",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Stripped kitchen cabinet frame exposing plumbing and tools",
+      "quality": 38,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 30
+      },
+      "service_slugs": [
+        "mold-remediation"
+      ],
+      "flags": [
+        "indoor_clutter",
+        "low_res"
+      ],
+      "reason": "Cluttered, low-quality snapshot; ambiguous trade relevance, weak for any slot.",
+      "triaged_at": "2026-08-05T06:35:34Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPvykDdmrdd8BPsY0NGSLkeD6A_H4sLYp1WGGx7": {
+      "source": "gbp",
+      "storage": "job-photos/posted/r1785782905_gbp-AF1QipPvykDdmrdd8BPsY0NGSLkeD6A_H4sLYp1WGGx7.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/job-photos/posted/r1785782905_gbp-AF1QipPvykDdmrdd8BPsY0NGSLkeD6A_H4sLYp1WGGx7.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 832222,
+      "sha1": "70198b6d41013056",
+      "exif": {
+        "taken_at": "2025:07:24 14:22:28"
+      },
+      "category": "job_progress",
+      "subject": "Torn drywall revealing heavy mold growth on backing",
+      "quality": 52,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "black-mold-removal",
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Clear mold evidence on demolished wall; good for services card despite low quality.",
+      "triaged_at": "2026-08-05T06:35:34Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:0538a773f13a70e7": {
+      "source": "website",
+      "storage": "site-assets/web/web-0538a773f13a70e7.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/site-assets/web/web-0538a773f13a70e7.jpg",
+      "origin_url": "https://moldsolutionz247.com/wp-content/uploads/2024/09/Mold-Remediation-7.jpg",
+      "found_on": "https://moldsolutionz247.com/mold-testing/",
+      "width": 1024,
+      "height": 768,
+      "bytes": 308569,
+      "sha1": "0538a773f13a70e7",
+      "exif": {},
+      "category": "crew",
+      "subject": "Two technicians in Tyvek suits treating mold-damaged ceiling",
+      "quality": 58,
+      "slots": {
+        "hero": 35,
+        "team": 72,
+        "services": 75
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "black-mold-removal"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Authentic crew-at-work shot; good for team and services despite older image quality.",
+      "triaged_at": "2026-08-05T06:35:34Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:18586731b31e61d4": {
+      "source": "website",
+      "storage": "site-assets/web/web-18586731b31e61d4.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/site-assets/web/web-18586731b31e61d4.jpg",
+      "origin_url": "https://moldsolutionz247.com/wp-content/uploads/2025/01/Fire-Damage-Restoration-1.webp",
+      "found_on": "https://moldsolutionz247.com/services/",
+      "width": 1024,
+      "height": 768,
+      "bytes": 198770,
+      "sha1": "18586731b31e61d4",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Severely fire-damaged building interior charred debris collapse",
+      "quality": 55,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 5
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Fire damage unrelated to mold/remediation services; no applicable service slug.",
+      "triaged_at": "2026-08-05T06:35:52Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:270d298f65ee5fc6": {
+      "source": "website",
+      "storage": "site-assets/web/web-270d298f65ee5fc6.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/site-assets/web/web-270d298f65ee5fc6.jpg",
+      "origin_url": "https://moldsolutionz247.com/wp-content/uploads/2024/09/Mold-Detector-2.jpg",
+      "found_on": "https://moldsolutionz247.com/",
+      "width": 1024,
+      "height": 768,
+      "bytes": 31351,
+      "sha1": "270d298f65ee5fc6",
+      "exif": {},
+      "category": "crew",
+      "subject": "Two Tyvek-suited technicians swabbing and spraying indoor surface",
+      "quality": 62,
+      "slots": {
+        "hero": 30,
+        "team": 55,
+        "services": 65
+      },
+      "service_slugs": [
+        "mold-inspection-testing",
+        "mold-remediation"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Well-composed but clearly stock; too polished and generic for this contractor.",
+      "triaged_at": "2026-08-05T06:35:52Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:468ab5d15c27572b": {
+      "source": "website",
+      "storage": "site-assets/web/web-468ab5d15c27572b.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/site-assets/web/web-468ab5d15c27572b.jpg",
+      "origin_url": "https://moldsolutionz247.com/wp-content/uploads/2024/09/schimmel_wohnung_1024x768.jpg",
+      "found_on": "https://moldsolutionz247.com/mold-testing-in-long-beach-ca/",
+      "width": 1024,
+      "height": 768,
+      "bytes": 35453,
+      "sha1": "468ab5d15c27572b",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Gloved hand pointing at black mold on white wall corner",
+      "quality": 72,
+      "slots": {
+        "hero": 15,
+        "team": 10,
+        "services": 60
+      },
+      "service_slugs": [
+        "black-mold-removal",
+        "mold-remediation"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Classic stock composition; not the client's own crew or property.",
+      "triaged_at": "2026-08-05T06:35:52Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:562027f2403869d0": {
+      "source": "website",
+      "storage": "site-assets/web/web-562027f2403869d0.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/site-assets/web/web-562027f2403869d0.jpg",
+      "origin_url": "https://moldsolutionz247.com/wp-content/uploads/2024/09/Mold-Remediation-3.jpg",
+      "found_on": "https://moldsolutionz247.com/",
+      "width": 1024,
+      "height": 768,
+      "bytes": 58112,
+      "sha1": "562027f2403869d0",
+      "exif": {},
+      "category": "crew",
+      "subject": "PPE-suited technician treating black mold patches on ceiling",
+      "quality": 74,
+      "slots": {
+        "hero": 35,
+        "team": 55,
+        "services": 75
+      },
+      "service_slugs": [
+        "black-mold-removal",
+        "mold-remediation"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Strong mold-remediation action shot but clearly licensed stock imagery.",
+      "triaged_at": "2026-08-05T06:35:52Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:5ce96538d3ae796b": {
+      "source": "website",
+      "storage": "site-assets/web/web-5ce96538d3ae796b.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/site-assets/web/web-5ce96538d3ae796b.jpg",
+      "origin_url": "https://moldsolutionz247.com/wp-content/uploads/2024/09/Mold-Remediation-5.jpg",
+      "found_on": "https://moldsolutionz247.com/mold-testing/",
+      "width": 1024,
+      "height": 768,
+      "bytes": 410190,
+      "sha1": "5ce96538d3ae796b",
+      "exif": {},
+      "category": "crew",
+      "subject": "Respirator-masked technician vacuuming mold from concrete wall",
+      "quality": 76,
+      "slots": {
+        "hero": 30,
+        "team": 60,
+        "services": 78
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "black-mold-removal"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Effective services image but overly art-directed; appears to be stock photography.",
+      "triaged_at": "2026-08-05T06:35:52Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:5d70fab5da9f47a7": {
+      "source": "website",
+      "storage": "site-assets/web/web-5d70fab5da9f47a7.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/site-assets/web/web-5d70fab5da9f47a7.jpg",
+      "origin_url": "https://moldsolutionz247.com/wp-content/uploads/2024/09/6-2.jpg",
+      "found_on": "https://moldsolutionz247.com/services/",
+      "width": 1024,
+      "height": 768,
+      "bytes": 79037,
+      "sha1": "5d70fab5da9f47a7",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Yellow-gloved hands scrubbing and spraying heavy black mold wall",
+      "quality": 70,
+      "slots": {
+        "hero": 15,
+        "team": 15,
+        "services": 65
+      },
+      "service_slugs": [
+        "black-mold-removal",
+        "mold-remediation"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Useful mold-removal visual but generic stock; no identifiable crew or branding.",
+      "triaged_at": "2026-08-05T06:35:52Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:6850b8b04bda99e2": {
+      "source": "website",
+      "storage": "site-assets/web/web-6850b8b04bda99e2.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/site-assets/web/web-6850b8b04bda99e2.jpg",
+      "origin_url": "https://moldsolutionz247.com/wp-content/uploads/2024/09/Laguna-Beach-CA-1.jpg",
+      "found_on": "https://moldsolutionz247.com/",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 162290,
+      "sha1": "6850b8b04bda99e2",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Gloved hands scrubbing green mold off white wall",
+      "quality": 62,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 30
+      },
+      "service_slugs": [
+        "mold-remediation"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Overly polished, art-directed library shot; not this contractor's own work.",
+      "triaged_at": "2026-08-05T06:36:21Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:7d4c67198741ba28": {
+      "source": "website",
+      "storage": "site-assets/web/web-7d4c67198741ba28.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/site-assets/web/web-7d4c67198741ba28.jpg",
+      "origin_url": "https://moldsolutionz247.com/wp-content/uploads/2025/05/Mold-Removal.jpg",
+      "found_on": "https://moldsolutionz247.com/mold-removal/",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 117826,
+      "sha1": "7d4c67198741ba28",
+      "exif": {},
+      "category": "unusable",
+      "subject": "PPE-suited technician scrubbing black mold off white wall",
+      "quality": 72,
+      "slots": {
+        "hero": 20,
+        "team": 35,
+        "services": 45
+      },
+      "service_slugs": [
+        "black-mold-removal",
+        "mold-remediation"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Classic stock-library mold-remediation scene; too polished to be this crew.",
+      "triaged_at": "2026-08-05T06:36:21Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:8ce986957ac27e39": {
+      "source": "website",
+      "storage": "site-assets/web/web-8ce986957ac27e39.png",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/site-assets/web/web-8ce986957ac27e39.png",
+      "origin_url": "https://moldsolutionz247.com/wp-content/uploads/2025/03/mold-detection.png",
+      "found_on": "https://moldsolutionz247.com/mold-treatment/",
+      "width": 800,
+      "height": 533,
+      "bytes": 233600,
+      "sha1": "8ce986957ac27e39",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Gloved hand holding meter device in front of moldy wall",
+      "quality": 65,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 30
+      },
+      "service_slugs": [
+        "mold-inspection-testing"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Generic stock photo; art-directed lighting and composition, not a real job site.",
+      "triaged_at": "2026-08-05T06:36:21Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:aa156b1c16cde662": {
+      "source": "website",
+      "storage": "site-assets/web/web-aa156b1c16cde662.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/site-assets/web/web-aa156b1c16cde662.jpg",
+      "origin_url": "https://moldsolutionz247.com/wp-content/uploads/2024/09/diploma-2.webp",
+      "found_on": "https://moldsolutionz247.com/long-beach-ca/",
+      "width": 1500,
+      "height": 901,
+      "bytes": 164236,
+      "sha1": "aa156b1c16cde662",
+      "exif": {},
+      "category": "unusable",
+      "subject": "PPE-suited technician spraying mold on interior wall",
+      "quality": 75,
+      "slots": {
+        "hero": 20,
+        "team": 40,
+        "services": 50
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "black-mold-removal"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Highly polished, well-lit stock scene; not identifiable as this contractor's work.",
+      "triaged_at": "2026-08-05T06:36:21Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:b1e1ffa33d76a305": {
+      "source": "website",
+      "storage": "site-assets/web/web-b1e1ffa33d76a305.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/site-assets/web/web-b1e1ffa33d76a305.jpg",
+      "origin_url": "https://moldsolutionz247.com/wp-content/uploads/2025/05/20250318_143328-scaled.jpg",
+      "found_on": "https://moldsolutionz247.com/",
+      "width": 2560,
+      "height": 1920,
+      "bytes": 453209,
+      "sha1": "b1e1ffa33d76a305",
+      "exif": {
+        "taken_at": "2025:03:18 14:33:28",
+        "camera": "samsung Galaxy Z Fold6"
+      },
+      "category": "crew",
+      "subject": "Masked technician inspecting damaged wall cavity at floor level",
+      "quality": 42,
+      "slots": {
+        "hero": 8,
+        "team": 40,
+        "services": 38
+      },
+      "service_slugs": [
+        "mold-inspection-testing",
+        "mold-remediation"
+      ],
+      "flags": [
+        "people_faces",
+        "low_res"
+      ],
+      "reason": "Awkward floor-level angle, cluttered foreground; authentic but poorly composed shot.",
+      "triaged_at": "2026-08-05T06:36:21Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:bdb9d81bc00e6216": {
+      "source": "website",
+      "storage": "site-assets/web/web-bdb9d81bc00e6216.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/site-assets/web/web-bdb9d81bc00e6216.jpg",
+      "origin_url": "https://moldsolutionz247.com/wp-content/uploads/2024/09/1-3.jpg",
+      "found_on": "https://moldsolutionz247.com/",
+      "width": 1024,
+      "height": 768,
+      "bytes": 67431,
+      "sha1": "bdb9d81bc00e6216",
+      "exif": {},
+      "category": "crew",
+      "subject": "Suited technician spraying treatment in attic insulation space",
+      "quality": 58,
+      "slots": {
+        "hero": 22,
+        "team": 60,
+        "services": 68
+      },
+      "service_slugs": [
+        "attic-mold-removal",
+        "mold-remediation"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Authentic attic remediation shot; dark but readable; good service context.",
+      "triaged_at": "2026-08-05T06:36:21Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:d692dc9f297e1fc9": {
+      "source": "website",
+      "storage": "site-assets/web/web-d692dc9f297e1fc9.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/site-assets/web/web-d692dc9f297e1fc9.jpg",
+      "origin_url": "https://moldsolutionz247.com/wp-content/uploads/2024/09/8-2.jpg",
+      "found_on": "https://moldsolutionz247.com/services/",
+      "width": 1024,
+      "height": 768,
+      "bytes": 162979,
+      "sha1": "d692dc9f297e1fc9",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician in Tyvek suit removing mold-covered drywall",
+      "quality": 62,
+      "slots": {
+        "hero": 25,
+        "team": 55,
+        "services": 72
+      },
+      "service_slugs": [
+        "black-mold-removal",
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Real job photo, suited tech working, strong mold evidence, indoor clutter lowers hero score.",
+      "triaged_at": "2026-08-05T06:36:40Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:dcba1cf936eb23c9": {
+      "source": "website",
+      "storage": "site-assets/web/web-dcba1cf936eb23c9.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/site-assets/web/web-dcba1cf936eb23c9.jpg",
+      "origin_url": "https://moldsolutionz247.com/wp-content/uploads/2025/01/Mold-Treatment.webp",
+      "found_on": "https://moldsolutionz247.com/long-beach-ca/",
+      "width": 1500,
+      "height": 1000,
+      "bytes": 148320,
+      "sha1": "dcba1cf936eb23c9",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Gloved hand spraying mold on wall with cleaning products",
+      "quality": 78,
+      "slots": {
+        "hero": 10,
+        "team": 15,
+        "services": 30
+      },
+      "service_slugs": [
+        "mold-remediation"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Overly art-directed studio shot; generic stock, not this contractor's crew or job site.",
+      "triaged_at": "2026-08-05T06:36:40Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:dcbc42eb527ae881": {
+      "source": "website",
+      "storage": "site-assets/web/web-dcbc42eb527ae881.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/site-assets/web/web-dcbc42eb527ae881.jpg",
+      "origin_url": "https://moldsolutionz247.com/wp-content/uploads/2024/09/Huntington-Beach-CA.jpg",
+      "found_on": "https://moldsolutionz247.com/",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 265283,
+      "sha1": "dcbc42eb527ae881",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Black mold growth on interior corner walls near floor",
+      "quality": 72,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 20
+      },
+      "service_slugs": [
+        "black-mold-removal"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Clean, generic stock-style damage photo; no crew, no branding, too polished to be real job.",
+      "triaged_at": "2026-08-05T06:36:40Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:ea72a9dd0df05df2": {
+      "source": "website",
+      "storage": "site-assets/web/web-ea72a9dd0df05df2.png",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/site-assets/web/web-ea72a9dd0df05df2.png",
+      "origin_url": "https://moldsolutionz247.com/wp-content/uploads/2024/09/1.png",
+      "found_on": "https://moldsolutionz247.com/services/",
+      "width": 1948,
+      "height": 1458,
+      "bytes": 1503064,
+      "sha1": "ea72a9dd0df05df2",
+      "exif": {},
+      "category": "crew",
+      "subject": "Suited technician scraping heavy mold from concrete wall",
+      "quality": 60,
+      "slots": {
+        "hero": 22,
+        "team": 60,
+        "services": 75
+      },
+      "service_slugs": [
+        "black-mold-removal",
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Authentic job-site crew photo, full PPE, heavy mold context; low res and clutter limit hero use.",
+      "triaged_at": "2026-08-05T06:36:40Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:f11f28a921d15c4c": {
+      "source": "website",
+      "storage": "site-assets/web/web-f11f28a921d15c4c.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/site-assets/web/web-f11f28a921d15c4c.jpg",
+      "origin_url": "https://moldsolutionz247.com/wp-content/uploads/2025/05/20250318_143328-1024x768.jpg",
+      "found_on": "https://moldsolutionz247.com/about-us/",
+      "width": 1024,
+      "height": 768,
+      "bytes": 32123,
+      "sha1": "f11f28a921d15c4c",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Technician photographing mold damage behind cabinet at floor level",
+      "quality": 42,
+      "slots": {
+        "hero": 5,
+        "team": 30,
+        "services": 35
+      },
+      "service_slugs": [
+        "mold-inspection-testing",
+        "mold-remediation"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Awkward low angle, cluttered foreground, poor composition; face partially visible reduces usability.",
+      "triaged_at": "2026-08-05T06:36:40Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:f2e9842fe46c036b": {
+      "source": "website",
+      "storage": "site-assets/web/web-f2e9842fe46c036b.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/site-assets/web/web-f2e9842fe46c036b.jpg",
+      "origin_url": "https://moldsolutionz247.com/wp-content/uploads/2024/12/Mold-Remediation.webp",
+      "found_on": "https://moldsolutionz247.com/",
+      "width": 1280,
+      "height": 720,
+      "bytes": 41418,
+      "sha1": "f2e9842fe46c036b",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Spray bottle and yellow gloves staged next to black mold corner",
+      "quality": 75,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 15
+      },
+      "service_slugs": [
+        "black-mold-removal"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Clearly staged stock imagery; perfectly lit, prop-styled, not a real contractor job photo.",
+      "triaged_at": "2026-08-05T06:36:40Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "web:ffccc708cc0895a2": {
+      "source": "website",
+      "storage": "site-assets/web/web-ffccc708cc0895a2.png",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784998809642/site-assets/web/web-ffccc708cc0895a2.png",
+      "origin_url": "https://moldsolutionz247.com/wp-content/uploads/2024/10/New-Project-1.png",
+      "found_on": "https://moldsolutionz247.com/",
+      "width": 1800,
+      "height": 800,
+      "bytes": 584787,
+      "sha1": "ffccc708cc0895a2",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Mold Solutionz 24/7 company logo on dark background",
+      "quality": 72,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "logo_card"
+      ],
+      "reason": "Pure logo lockup graphic; no photographic content suitable for page slots.",
+      "triaged_at": "2026-08-05T06:36:45Z",
+      "triage_model": "claude-sonnet-4-6"
+    }
+  },
+  "slots": {},
+  "triaged_at": "2026-08-05T06:36:45Z"
+}
