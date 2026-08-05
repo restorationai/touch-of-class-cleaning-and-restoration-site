@@ -13,7 +13,7 @@ export default {
     extend: {
       colors: {
         dark: {
-          DEFAULT: "#111827",
+          DEFAULT: "#0a0b0e",
           50: "#f9fafb",
           100: "#f3f4f6",
           200: "#e5e7eb",
@@ -27,23 +27,23 @@ export default {
           950: "#030712",
         },
         primary: {
-          DEFAULT: "#dc2626",
-          50: "#fdf2f2",
-          100: "#f9dcdc",
-          200: "#f4b9b9",
-          300: "#eb8484",
-          400: "#e35454",
-          500: "#dc2323",
-          600: "#dc2626",
-          700: "#951818",
-          800: "#771313",
-          900: "#5c0f0f",
-          950: "#350808",
+          DEFAULT: "#8c6a18",
+          50: "#fdfaf2",
+          100: "#f9f1dc",
+          200: "#f3e2b9",
+          300: "#eacc85",
+          400: "#e2b955",
+          500: "#daa525",
+          600: "#8c6a18",
+          700: "#947019",
+          800: "#765914",
+          900: "#5b4510",
+          950: "#342809",
         },
         accent: {
           // btn-accent renders WHITE text on this color — pick an accent that
           // keeps >= 4.5:1 contrast with white (WCAG AA). e.g. #dc2626 or #c2410c.
-          DEFAULT: "#dc2626",
+          DEFAULT: "#8c6a18",
         },
         muted: {
           DEFAULT: "#4b5563",

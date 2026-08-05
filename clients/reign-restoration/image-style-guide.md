@@ -1,5 +1,19 @@
 # Reign Restoration: Image Style Guide
 
+## CLIENT DIRECTION — NON-NEGOTIABLE (Jerrott Gray, 2026-08-04)
+
+1. **COMPANY VEHICLES ARE BLACK.** Satin-black cargo vans — black body, black bumpers, black wheels, black trim. NO white vans, NO red vans, NO red or white stripe, panel or swoosh anywhere. The only livery is Reign's gold crown-shield crest and at most one thin gold pinstripe. A non-black vehicle is a REJECTED image, not a fixable one.
+2. **DARK, MOODY, EXPENSIVE.** Low-key lighting, deep shadows, near-black values. Blue hour, overcast, twilight, or dim interiors lit by practical work lights — never bright midday sun, never a bright open sky, never a cheerful golden-hour postcard. Blacks and charcoals dominate the frame; warm gold is the ONLY accent colour. Luxury-automotive advertising applied to a restoration company: restrained, high-contrast, expensive.
+3. **NO STOCK-PHOTO CHEER.** Nobody smiles at the camera, nobody lines up for a posed group portrait. Crew wear all-black uniforms with a small gold chest mark.
+
+VAN-OVERRIDE: a fleet of two to three matching satin-BLACK cargo vans — black body, black bumpers, blacked-out wheels, absolutely no white or red panels, stripes or swooshes anywhere — each side panel carrying ONLY the gold crown-and-shield crest from the reference image (the crest mark by itself, reproduced faithfully at vehicle-wrap scale, with NO wordmark and no lettering of any kind anywhere on the vehicle), plus at most one thin gold pinstripe
+
+CREW-OVERRIDE: the technician wears an all-black company uniform (black work shirt, black work pants) with a small gold crest embroidered on the chest, working in low-key moody light with deep shadows, never smiling at the camera and never facing it directly
+
+MOOD-OVERRIDE: shot at blue hour or under heavy overcast in low-key cinematic light, deep shadows and near-black values, dark moody sky with no bright or blown-out highlights, graded like luxury-automotive advertising — expensive and restrained, never sunny or cheerful
+
+---
+
 This guide is consulted by every image-generation call (Skill 3 launch images, Skill 4 blog hero images, future image regenerations). The goal: a viewer scrolling through the site should feel like one professional photographer documented one company on one continuous job. No stylistic drift from page to page.
 
 The values below are auto-populated from `plan-input.json` at planning time. Per-client brand colors come from the client's logo / brand identity — NOT from the canonical starter palette. The structural conventions (camera, lens, lighting, composition) are restoration-vertical canonical and shared across all Rank AI clients.
@@ -68,23 +82,25 @@ Per-client brand colors take priority. The values below are substituted from `pl
 
 | Role | Source | Value for this client |
 |------|--------|----------------------|
-| Primary brand color (uniforms, vehicle, signage glimpsed in shots) | `#0d1b3e` | **#0d1b3e** |
-| Accent (emergency markings, CTAs that appear in promo shots) | `#f97316` | **#f97316** |
-| Logo color (if a worker's uniform back is visible) | derived from brand logo | match Reign Restoration's logo |
+| Primary brand color (uniforms, vehicle bodies, signage glimpsed in shots) | client logo + site theme | **#0a0b0e near-black** — vans, uniforms, equipment cases |
+| Accent (crest, pinstripe, embroidery, any warm highlight) | client logo crown-shield | **#f2b623 gold** — the ONLY accent colour in the frame |
+| Logo color (if a worker's uniform back is visible) | derived from brand logo | gold crown-shield crest on black, matching `public/images/logo.png` |
 | Skin / texture / restoration materials | natural and neutral | warm wood tones for housing stock, cool concrete grays, real surface textures |
 | Environment-specific atmospherics | regional | varies — see "Setting & Environment" below for Royse City |
 
 ### Color Treatment Rules
 
 - True-to-life, not pumped up. Restoration scenes are not Instagram travel content.
-- Slight warmth on golden-hour exteriors (white balance ~5800-6200K); neutral white balance for interior damage shots (~5000-5500K)
-- The client's primary brand color should appear at least once per worker shot (on a uniform polo, hat, vehicle wrap, or equipment case label). NOT garish — just present.
+- **Low-key grade (client direction).** Crush the shadows, protect the highlights, keep the overall exposure a stop or two under. Deep blacks, muted midtones, minimal colour outside the gold. Cool blue-grey ambient (~4800-5400K) with warm practical lights as the only warmth.
+- Vehicles are black — never rendered as dark grey, gunmetal, navy, or "almost black". Black.
+- The gold crest should appear at least once per worker shot (uniform chest, hat, vehicle side, equipment case). One small mark, never garish.
 - No oversaturation. Real damaged drywall is not vivid. Real soot is matte black-gray. Real wet wood is dull.
 
 ---
 
 ## Mood & Atmosphere
 
+- **Dark, moody, expensive (client direction, 2026-08-04)**: This is the governing mood for Reign and it outranks any generic instruction below. Low light, deep shadow, black fleet, gold crest. The feeling is a high-end operator arriving after dark, not a franchise crew on a sunny morning.
 - **Professional and competent**: The viewer should feel they hired the right team. No hero-shot smiles or staged enthusiasm.
 - **Calm under stress**: Restoration customers are panicked. Imagery should be the visual antidote — methodical, equipped, in-command.
 - **Authentic**: Real residential and commercial properties in Royse City and surrounding areas. Real materials. Real water damage, real soot residue, real mold containment.
@@ -97,8 +113,8 @@ Per-client brand colors take priority. The values below are substituted from `pl
 Every image that depicts a person must show a worker in branded company uniform. This is non-negotiable for visual consistency and trust signaling.
 
 ### Uniform specifications
-- **Top**: Polo or work shirt in the client's primary brand color (`#0d1b3e`). For darker brand colors (navy, deep red, charcoal), use that color directly. For lighter brand colors, render as a darker navy or charcoal uniform with the brand color visible as logo embroidery, accent stripe, or branded hat.
-- **Bottom**: Neutral work pants (charcoal, dark navy, or khaki). Subordinate to the top.
+- **Top**: BLACK polo or work shirt. Reign's declared uniform colour is black — never navy, never grey, never a light shirt. The gold crown-shield crest is embroidered small on the left chest.
+- **Bottom**: Black work pants. Matching, not contrasting.
 - **Branding**: Reign Restoration or Reign Restoration embroidered on chest or back. IICRC certification badge visible on sleeve or chest where it makes sense.
 - **PPE**: Match the service context (see service-specific notes below) — gloves always, respirators / face shields / Tyvek suits when the service warrants it.
 - **Footwear**: Sturdy work boots, never sneakers.
@@ -144,7 +160,7 @@ The worker's uniform stays the same; their PPE and equipment shift per service. 
 - **Primary setting**: Royse City and surrounding TX residential and commercial properties
 - **Local housing stock cues**: Other cities served: Rockwall, Rowlett, Greenville, Wylie, Garland. — these details should appear in backgrounds and environmental context, NOT as the subject. They quietly anchor "this was shot in Royse City."
 - **Regional weather / season**: Regional climate cues per primary city; adapt exterior shots to match. — affects exterior shots especially. Pacific Northwest: wet roads, evergreen silhouettes, cedar siding, low gray cloud cover for "we just arrived in the rain" shots. Adapt per client.
-- **Time of day**: Mix of golden-hour exteriors and neutral-light interiors. Reserve dusk/blue-hour for "arrival" hero shots specifically.
+- **Time of day**: For Reign, default to blue hour, dusk, night, or heavy overcast on ALL exteriors. Golden-hour postcard light is explicitly off the table (client direction). Interiors stay dim and practical-lit.
 
 ### Specifically AVOID
 - **Tropical or non-regional vegetation**. Match the client's actual region.
@@ -175,7 +191,7 @@ The worker's uniform stays the same; their PPE and equipment shift per service. 
 This list drives the image generation plan. Skill 3 (initial scaffold) generates the hero. Skill 4 (blog routine) generates blog hero + inline images per post. Service and area images are filled in over time.
 
 ### Brand-level
-- [ ] Homepage hero — **DEFAULT: branded small-fleet scene.** A matched fleet of 3-5 company vehicles (Transit-style cargo vans and/or box trucks) in one identical livery built from the client's brand colors (primary color panel/wrap + accent swoosh), parked in a staggered line on a residential street matching the client's region, golden-hour light, editorial-photography look. Livery rules: one small stylized brand mark/wordmark per vehicle only — NO phone numbers, NO website URLs, NO certification badges, NO other readable text (AI-rendered text artifacts fail review). Composition: fleet in the center/right two-thirds; LEFT THIRD calm (open street/sky) for headline overlay. Alternative if the operator prefers: the "arrival at dusk" single-van composition (worker + branded van + lit property).
+- [ ] Homepage hero — **DEFAULT: branded small-fleet scene.** A matched fleet of 2-3 SATIN-BLACK company vans in one identical livery (black body, gold crown-shield crest, at most one thin gold pinstripe), parked in a staggered line on a residential street matching the client's region, blue-hour / dusk light with headlights and practical lighting, editorial-photography look. Livery rules: one small stylized brand mark/wordmark per vehicle only — NO phone numbers, NO website URLs, NO certification badges, NO other readable text (AI-rendered text artifacts fail review). Composition: fleet in the center/right two-thirds; LEFT THIRD calm (open street/sky) for headline overlay. Alternative if the operator prefers: the "arrival at dusk" single-van composition (worker + branded van + lit property).
 - [ ] Logo placement test image (no actual logo — narrative shot with brand color in worker uniform)
 - [ ] OG / social-share card (1200×630) — usually a crop or variant of the hero
 
@@ -209,3 +225,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 ## Style guide version
 
 This guide is generated from `templates/restoration/image-style-guide.template.md` v1.1 (2026-07-11: added Standing Brand Rules — real vehicle logos, single declared uniform color, harvest-first). When the canonical template updates, existing clients keep their pinned version unless explicitly regenerated. Bump the version + add a changelog entry when changing structural rules (e.g., adding new mandatory PPE conventions).
+
+### Changelog
+
+- **v1.2-reign (2026-08-04)** — Jerrott Gray reviewed the staging preview and said: *"Viewed it and it is not ready to go live."* / *"Id like the over all feel to be dark moody and expensive looking. The company vehicles need to be black."* Added the CLIENT DIRECTION block at the top of the file (the generator only feeds the first 1500 characters of this guide into each prompt, so the direction has to lead), plus `VAN-OVERRIDE:` (satin-black fleet, gold crest, no white/red) and `CREW-OVERRIDE:` (all-black uniform, low-key light) which `scripts/gen_site_images.py` reads from the full file. Retuned the colour palette to near-black + gold #f2b623, the uniform to black, the grade to low-key, and exteriors to blue hour/dusk. Full image set regenerated the same day. **Any future regeneration must keep vehicles black — this is a hard client constraint, not a preference.**

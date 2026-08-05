@@ -133,7 +133,7 @@ def _fm_field(md_text: str, key: str) -> str | None:
 def generate_service_images(*, slug: str, geo: str, guide: str,
                             logo_png: bytes | None, van: str,
                             logo_rule: str, img_dir: Path,
-                            crew: str = "") -> int:
+                            crew: str = "", mood: str = "") -> int:
     """One image per src/content/services/*.md page, named {service_slug}.webp
     so serviceImage() resolves it. Existing base images are never overwritten
     (missing variants + manifest entries are still backfilled)."""
@@ -168,9 +168,9 @@ def generate_service_images(*, slug: str, geo: str, guide: str,
                 f"with professional equipment at a job site").format(van=van)
             prompt = (
                 f"Photorealistic photograph for a restoration company website service "
-                f"card — {scene}. Professional full-frame mirrorless look, natural "
-                f"competent lighting, mid-task not posed, no faces clearly visible "
-                f"(back or side angle). {crew}{logo_rule} {geo}")
+                f"card — {scene}. Professional full-frame mirrorless look, "
+                f"{mood or 'natural competent lighting'}, mid-task not posed, no "
+                f"faces clearly visible (back or side angle). {crew}{logo_rule} {geo}")
             full_prompt = prompt + ("\n\nStyle guide notes:\n" + guide if guide else "")
             print(f"  generating services/{out.name} ({display})...")
             try:
@@ -256,33 +256,39 @@ def main() -> int:
     # drifted to yellow-accented, crew must match the client's real team).
     # Style-guide lines "VAN-OVERRIDE: ..." replace the generic fleet wording
     # entirely; "CREW-OVERRIDE: ..." rides into every prompt as a sentence.
+    # "MOOD-OVERRIDE: ..." replaces the hardcoded lighting clause in every shot
+    # (Reign feedback 2026-08-04: the guide said dark and moody but the hero
+    # prompt's baked-in "Golden-hour" won, and the client got a bright sunny
+    # hero back — the style guide could not reach the lighting at all).
     m = re.search(r"VAN-OVERRIDE:\s*(.+)", guide_full)
     if m:
         van = m.group(1).strip()
     m = re.search(r"CREW-OVERRIDE:\s*(.+)", guide_full)
     crew = (m.group(1).strip().rstrip(".") + ". ") if m else ""
+    m = re.search(r"MOOD-OVERRIDE:\s*(.+)", guide_full)
+    mood = m.group(1).strip().rstrip(".") if m else ""
 
     if args.services:
         return generate_service_images(slug=slug, geo=geo, guide=guide,
                                        logo_png=logo_png, van=van,
                                        logo_rule=logo_rule, img_dir=img_dir,
-                                       crew=crew)
+                                       crew=crew, mood=mood)
 
     SHOTS = {
         "hero-bg.webp": (
             f"Wide cinematic photograph for a restoration company website hero background: "
             f"{van} parked in a staggered row in front of a well-kept property. {geo} "
-            f"Golden-hour professional photography, shallow depth, photorealistic, no people's "
-            f"faces prominent. {logo_rule} 16:9 composition with the left "
+            f"{mood or 'Golden-hour professional photography'}, shallow depth, photorealistic, "
+            f"no people's faces prominent. {logo_rule} 16:9 composition with the left "
             f"third visually calm for overlaid headline text."),
         "team.webp": (
             f"Photorealistic photo of a small professional restoration crew (3-4 people, mixed, "
             f"in matching clean uniforms) standing confidently in front of {van}. {geo} "
-            f"Natural light, friendly and trustworthy. {logo_rule}"),
+            f"{mood or 'Natural light, friendly and trustworthy'}. {logo_rule}"),
         "services.webp": (
             f"Photorealistic photo of a technician unloading professional drying equipment "
-            f"(air movers, dehumidifier) from {van} at a job site. Clean, well-lit. "
-            f"{logo_rule} {geo}"),
+            f"(air movers, dehumidifier) from {van} at a job site. "
+            f"{mood or 'Clean, well-lit'}. {logo_rule} {geo}"),
     }
 
     from PIL import Image

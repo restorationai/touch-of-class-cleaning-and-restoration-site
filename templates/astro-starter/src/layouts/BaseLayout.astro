@@ -174,8 +174,8 @@ const ctx: PageSchemaContext = {
   <body class="min-h-screen flex flex-col">
     <div class="hidden md:block bg-primary-600 text-white text-xs md:text-sm font-bold text-center py-2 px-4 tracking-wider">
       {isLicensed
-        ? <>Licensed &amp; Insured &mdash; {brand.primaryCity}, {brand.primaryState} {brand.specialistPhrase}</>
-        : <>{brand.primaryCity}, {brand.primaryState} {brand.specialistPhrase} &mdash; {brand.announcementSuffix}</>}
+        ? <>Licensed &amp; Insured &mdash; {brand.primaryCity}, {brand.primaryState}{" "}{brand.specialistPhrase}</>
+        : <>{brand.primaryCity}, {brand.primaryState}{" "}{brand.specialistPhrase} &mdash; {brand.announcementSuffix}</>}
     </div>
     <Header />
     <Breadcrumb trail={breadcrumb} />
@@ -183,7 +183,7 @@ const ctx: PageSchemaContext = {
       <slot />
     </main>
     <Footer />
-    <a href={`tel:${brand.phoneRaw}`} class="fixed bottom-0 inset-x-0 z-40 md:hidden flex items-center justify-center gap-3 bg-primary-600 text-white font-black py-4 text-base shadow-[0_-4px_24px_rgba(220,38,38,0.35)] border-t border-primary-700">
+    <a href={`tel:${brand.phoneRaw}`} class="fixed bottom-0 inset-x-0 z-40 md:hidden flex items-center justify-center gap-3 bg-primary-600 text-white font-black py-4 text-base shadow-[0_-4px_24px_theme(colors.primary.600/35%)] border-t border-primary-700">
       <Phone size={18} strokeWidth={3} />
       Call Now: {brand.phone}
     </a>

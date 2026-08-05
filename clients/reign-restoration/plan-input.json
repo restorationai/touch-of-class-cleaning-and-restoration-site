@@ -9,6 +9,10 @@
   "city": "Royse City",
   "state": "TX",
   "postal_code": "75189",
+  "hours": "24/7",
+  "theme": "dark",
+  "dark_color": "#0a0b0e",
+  "primary_color": "#8c6a18",
   "certifications": [
    "IICRC WRT (WATER)",
    "IICRC CERTIFIED FIRM",
