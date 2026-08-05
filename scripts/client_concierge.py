@@ -699,14 +699,17 @@ def pending_client_message(cs: dict, history: list[dict], state: dict) -> dict |
     while the daily ack cap ate the holding line). Two sources:
       (1) cs["awaiting_reply"], set by the inbound engine — kind "question"
           (their reply needed a real answer and matched no item; survives
-          Monica's own holding ack sitting newest in the thread) or kind
+          Monica's own holding ack sitting newest in the thread), kind
           "answer" (they answered OUR question — the follow-through is owed;
-          Todd's "Invoices2Go" got silence, 2026-08-02 15:48);
+          Todd's "Invoices2Go" got silence, 2026-08-02 15:48), or kind
+          "closer" (substantive but needs no answer — we still owe the last
+          word; Fran/QCI 2026-08-04, see the closer branch in cmd_inbound);
       (2) the live thread: the newest message is inbound sms/email, not a
           pure acknowledgment, and < 7 days old (kind "message").
     Void rules (the no-double-send property):
-      - kind "answer": ANY newer outbound voids it, ours included — once
-        something advanced the thread after their answer, never send twice;
+      - kind "answer" / "closer": ANY newer outbound voids it, ours included
+        — once something advanced the thread after their message we already
+        have the last word, never send twice;
       - kind "question": only a newer HUMAN outbound (not one of ours) voids
         it — Santino answered it himself; our own holding ack does not."""
     now = datetime.now(timezone.utc)
@@ -729,7 +732,7 @@ def pending_client_message(cs: dict, history: list[dict], state: dict) -> dict |
             at = datetime.fromisoformat(flag["at"])
         except (KeyError, ValueError):
             at = now
-        advanced = outbound_after(at, human_only=(kind != "answer"))
+        advanced = outbound_after(at, human_only=(kind == "question"))
         if (now - at) > timedelta(days=7) or advanced:
             cs.pop("awaiting_reply", None)   # stale, or the thread moved on
         else:
@@ -3234,13 +3237,22 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
             "directive_done": directive_done}
 
 
-def _companies_with_items() -> list[str]:
+def _companies_with_items(state: dict | None = None) -> list[str]:
     ids = {r["company_id"] for r in fetch_pending_intake()}
     ids |= {r["company_id"] for r in fetch_open_asks()}
     # A boss directive is reason enough to compose even with an empty item
     # list: Santino's "Reach out and set a meeting up" order (ProRestoration,
     # 2026-08-04) must never depend on there happening to be an open ask.
     ids |= set(_companies_with_directives())
+    # ...and so is an OWED REPLY (2026-08-04). This roster is the entire input
+    # to the `compose --all` pass, so a client we owe a message but have no
+    # open ask for was invisible to the backstop: the inbound engine would arm
+    # awaiting_reply and nothing would ever come read it. That is the "always
+    # the last message" rule silently failing on exactly the clients who are
+    # furthest along — the ones with nothing left to ask.
+    for cid, cs in (state or {}).get("companies", {}).items():
+        if cs.get("awaiting_reply") or cs.get("pending_commitment"):
+            ids.add(cid)
     return sorted(i for i in ids if i)
 
 
@@ -3250,7 +3262,7 @@ def cmd_compose(args) -> int:
         # one owner (Jack, one phone, one GHL contact) — composing per company
         # would text the same person twice back-to-back. Group companies by
         # their resolved messaging target; one merged message per human.
-        cids = _companies_with_items()
+        cids = _companies_with_items(load_state())
         companies = fetch_companies(cids)
         groups: dict[str, list[str]] = {}
         for cid in cids:
@@ -5660,11 +5672,37 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
     # response. The loop can't ping-pong: a bare thanks back never gets a
     # counter-ack, reactions aren't messages, and the duplicate guard
     # blocks a repeat closer.
+    #
+    # THE CLOSER IS OWED, NOT ATTEMPTED (Santino 2026-08-04, Fran/Quality
+    # Contracting): at 19:00 his time he wrote "I'll take time tomorrow to
+    # write up specifics. Thank you" — substantive, no answer needed, so it
+    # landed here. _maybe_send_ack then refused on business hours (9-18
+    # America/New_York) and returned having written NOTHING: no flag, no
+    # escalation, no trace. Every other owed-reply path arms
+    # awaiting_reply BEFORE it tries to send; this one did not, so the only
+    # thing standing between Fran and silence was pending_client_message's
+    # live-thread fallback — which any later outbound (a workflow blast,
+    # Santino's own text, a review-campaign SMS) would have voided, losing
+    # the last word for good. Arm the flag FIRST, exactly like the
+    # needs_answer path: kind "closer" is voided by any newer outbound
+    # (ours included — then we already closed), so this can never
+    # double-send, and the next in-hours compose delivers it.
+    cs_reset["awaiting_reply"] = {"body": combined, "at": stamp_at,
+                                  "channel": channel, "kind": "closer"}
+    print("    [awaiting_reply kind=closer — we owe the last word; the "
+          "next in-hours pass delivers it if this one can't]")
     _maybe_send_ack(state, company, contact_id,
                     {"body": combined, "channel": channel},
                     contact_payload, do_send, dry_run, history=history,
                     needs_answer=False, needs_santino=False,
                     suggested=turn["suggested"], closer=True)
+    # A DELIVERED closer pops its own flag (see _maybe_send_ack) — then
+    # nothing is owed and the webhook must NOT compose on top of it, which
+    # is exactly the race the old code avoided by never setting the flag at
+    # all. A flag that SURVIVED means the closer was refused (business
+    # hours, guard, duplicate) and the reply is still owed: let the
+    # immediate compose try, and the scheduled passes keep trying after.
+    out["awaiting"] = bool(cs_reset.get("awaiting_reply"))
     return out
 
 
@@ -6069,6 +6107,11 @@ def _maybe_send_ack(state: dict, company: dict, contact_id: str, msg: dict,
                             company=company)
         record_sent_message(state, sent)
         acks[contact_id] = today
+        if closer:
+            # The last word just went out — disarm the owed-closer flag the
+            # caller armed, so no compose re-closes an exchange we already
+            # closed (2026-08-04).
+            cs.pop("awaiting_reply", None)
         _record_commitment(cs, text, body, dry_run)
         save_state(state, dry_run)
     except SendBlocked as e:
@@ -6251,6 +6294,58 @@ def cmd_selfcheck(_args) -> int:
         ok = got == want
         fails += not ok
         print(f"  {'ok  ' if ok else 'FAIL'} {str(got):<5} {text!r}")
+
+    # OWED CLOSER SURVIVES (Santino 2026-08-04, Fran/Quality Contracting).
+    # "I'll take time tomorrow to write up specifics. Thank you" arrived at
+    # 19:00 his time; the closer was refused on business hours and vanished
+    # without a trace. It must now be an armed flag that a later pass finds,
+    # while still being impossible to double-send.
+    print("\nowed closer survives an out-of-hours refusal:")
+    fran = "I'll take time tomorrow to write up specifics.  Thank you"
+    now_ = datetime.now(timezone.utc)
+    stamp = (now_ - timedelta(hours=2)).isoformat()
+    st_ = {"sent_message_ids": ["ours-1"]}
+
+    def _closer_cs():
+        return {"awaiting_reply": {"body": fran, "at": stamp,
+                                   "channel": "sms", "kind": "closer"}}
+
+    closer_cases = [
+        ("substantive sign-off is not a bare ack", not _bare_ack(fran)),
+        ("armed flag is still owed when nothing followed",
+         (pending_client_message(_closer_cs(), [], st_) or {}).get("kind")
+         == "closer"),
+        # ours voids it — we already got the last word, never send twice
+        ("OUR OWN newer outbound voids it",
+         pending_client_message(
+             _closer_cs(),
+             [{"direction": "out", "id": "ours-1", "when": now_,
+               "channel": "sms", "body": "Sounds good, whenever you're ready."}],
+             st_) is None),
+        ("a HUMAN newer outbound voids it too",
+         pending_client_message(
+             _closer_cs(),
+             [{"direction": "out", "id": "santino-x", "when": now_,
+               "channel": "sms", "body": "Talk tomorrow."}], st_) is None),
+        # a question flag must KEEP the old asymmetry: our holding ack is not
+        # the answer, so it may not void the flag
+        ("question flag still survives our own holding ack",
+         (pending_client_message(
+             {"awaiting_reply": {"body": "why is it suspended?", "at": stamp,
+                                 "channel": "sms", "kind": "question"}},
+             [{"direction": "out", "id": "ours-1", "when": now_,
+               "channel": "sms", "body": "Let me look into that."}],
+             st_) or {}).get("kind") == "question"),
+        # the compose --all roster must SEE a company we owe a reply to even
+        # when it has no open ask left
+        ("owed reply puts a company on the compose roster",
+         "CO-owed" in {c for c, s in
+                       {"CO-owed": _closer_cs(), "CO-quiet": {}}.items()
+                       if s.get("awaiting_reply") or s.get("pending_commitment")}),
+    ]
+    for label, ok in closer_cases:
+        fails += not ok
+        print(f"  {'ok  ' if ok else 'FAIL'} {label}")
     print(f"\n{'ALL GREEN' if not fails else str(fails) + ' FAILURE(S)'}")
     return 1 if fails else 0
 

@@ -60,12 +60,30 @@ def sync_sites(client, slug: str, company_id: str, dry_run: bool) -> None:
 
     apex_live = bool(rec.get("cut_over_at") or (rec.get("apex_cutover") or {}).get("completed_at"))
 
+    # PREVIEW URL: the naming convention is NOT universal (Santino 2026-08-04,
+    # FireDEX). Clients whose apex still runs a live legacy site never get a
+    # Cloudflare zone, so their build lands on a standalone `{slug}-preview`
+    # Pages project instead of `rankai-{slug}` — and this line used to
+    # hardcode the convention, so every sync overwrote the real URL with a
+    # host that does not resolve. Monica then texted Bob Randig a dead link
+    # ("The link does not work") and the app's Site tab iframed the same
+    # nothing. Three clients were wrong at once: firedex-butler,
+    # mcc-restoration and prorestoration.
+    # `build.preview_url` in clients/{slug}.json is the explicit override and
+    # wins whenever the site is not yet on its apex — that is exactly when the
+    # Pages URL is what the client and the app actually see. Once apex_live is
+    # true the app renders https://{domain} and `rankai-{slug}` is the real
+    # production project, so the convention stays correct there.
+    preview_override = str((rec.get("build") or {}).get("preview_url") or "").strip()
+    pages_url = (preview_override if preview_override and not apex_live
+                 else f"https://rankai-{slug}.pages.dev")
+
     row = {
         "rank_ai_slug":          slug,
         "company_id":            company_id,
         "domain":                rec.get("domain"),
         "apex_live":             apex_live,
-        "cloudflare_pages_url":  f"https://rankai-{slug}.pages.dev",
+        "cloudflare_pages_url":  pages_url,
         "build_status":          rec.get("build_status"),
         "plan_status":           rec.get("plan_status"),
         "tier":                  rec.get("tier"),
