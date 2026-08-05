@@ -1470,7 +1470,8 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                         attention.append(f"{slug}: false-green rollback failed "
                                          f"({str(e)[:80]})")
                 da_status = pre
-            access_in_hand = (da_status in ("delegate_granted", "creds_provided")
+            access_in_hand = (da_status in ("delegate_granted", "creds_provided",
+                                            "ns_live")
                               and verify.get("state") != "human_unverified")
             kind, status, title, detail = _launch_card(
                 owner, domain, built, live, ours, zstat, da_status, da, verify)
@@ -1777,7 +1778,7 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                         cid, slug, vseed,
                         title=f"ASK CLIENT: {owner} needs to verify their "
                               "Google listing — it is invisible on Maps "
-                              "until he does",
+                              "until then",
                         rationale=(
                             "Google has NOT verified their Business Profile: "
                             "the listing is invisible on Maps and to Bing's "
