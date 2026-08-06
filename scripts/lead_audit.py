@@ -1676,6 +1676,21 @@ def run_audit(website, name, email, phone, audit_id=None, email_mode="all", prog
                   "outlook.com", "icloud.com", "msn.com", "live.com",
                   "att.net", "comcast.net", "protonmail.com", "me.com"}
     if not _resolves(domain) and not _resolves("www." + domain):
+        # Repair a mangled "www" label BEFORE falling back to the email domain.
+        # Monique Curchy typed ww.rapidreliefrestoration.net (2026-08-05) — one
+        # missing w. The old order tried only `ww.…` and `www.ww.…`, both dead,
+        # then reached for the email domain, which was gmail.com and therefore
+        # unusable, so a lead whose site was UP and returning 200 got tagged
+        # "website down" and received no report at all. Strip a first label that
+        # is just a run of w's (ww, wwww, w) and retry the real domain.
+        parts = domain.split(".")
+        if len(parts) > 2 and re.match(r"^w{1,4}$", parts[0]):
+            repaired = ".".join(parts[1:])
+            if _resolves(repaired) or _resolves("www." + repaired):
+                log("domain {} looks like a mistyped www — using {} instead".format(domain, repaired))
+                domain = repaired
+
+    if not _resolves(domain) and not _resolves("www." + domain):
         alt = (email or "").rsplit("@", 1)[-1].strip().lower() if "@" in (email or "") else ""
         if alt and alt not in _FREE_MAIL and alt != domain and _resolves(alt):
             log("domain {} does not resolve — using email domain {} instead".format(domain, alt))
