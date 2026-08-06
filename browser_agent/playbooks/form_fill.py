@@ -265,6 +265,112 @@ PORTALS = {
         #  PerimeterX never fired across 4 headed page-loads at human pace.
         "selectors": {"supervised_runs_clean": 1},
     },
+    # ---------------------------------------------------------------- 08-05
+    # Santino asked why Thumbtack / Nextdoor / YellowPages sat on the CLIENT
+    # side of the ledger. Honest answer: nobody had ever checked. The split
+    # was a one-line assumption ("owner claim / phone verification required")
+    # written when the card was built, never recon'd the way Porch was. These
+    # three entries are that recon. Thumbtack stays off the list on purpose —
+    # it is a lead-BUYING marketplace (background check + card on file +
+    # per-lead charges), so creating one commits the client to a commercial
+    # relationship we have no business entering for them.
+    "yellowpages": {
+        "label": "YellowPages",
+        "search": ("https://www.yellowpages.com/search?search_terms={name}"
+                   "&geo_location_terms={city}%2C+{state}"),
+        "create": "https://www.yellowpages.com/claim-your-listing",
+        "notes": "Free basic listing; paid ad packages are the upsell and are "
+                 "DECLINED. Accounts at accounts.yellowpages.com/login.\n"
+                 "BLOCKER, read before scheduling this one: YP verifies "
+                 "ownership with an AUTOMATED PHONE CALL to the number "
+                 "already on the listing, and the claimer types the spoken "
+                 "code back. That call lands wherever the listing's number "
+                 "points. For a client whose citation phone is their own "
+                 "line, the CLIENT hears the code and has to relay it, which "
+                 "makes this semi-attended at best. For a client on one of "
+                 "our Twilio tracking numbers the call is ours to answer, but "
+                 "wiring that up touches call routing and Santino has that "
+                 "parked (2026-08-05) — do not build it without asking.\n"
+                 "Check during recon whether the CREATE-new-listing path "
+                 "(distinct from claiming an existing one) skips the call; if "
+                 "it does, this becomes fully unattended for clients with no "
+                 "YP presence, which is 18 of 23.",
+        # Recon 2026-08-05 (HTTP only, no browser session yet):
+        #  /about/advertise/claim-your-listing returns 403 to a plain fetch —
+        #  bot protection is present, so this is browser/CDP only, same as
+        #  GoDaddy. Flow per YP's own claim page: search business + city ->
+        #  'Claim This Business' / 'Own This Business?' in the left sidebar ->
+        #  create account on a business email -> automated verification call
+        #  -> enter code -> edit NAP/hours/category. Claim approval can take
+        #  minutes to a couple of days.
+        "selectors": {"supervised_runs_clean": 0},
+    },
+    "nextdoor": {
+        "label": "Nextdoor",
+        "search": "https://nextdoor.com/search/?query={name}",
+        "create": "https://business.nextdoor.com/local",
+        "notes": "Free Business Page. Worth real effort: Santino heard from a "
+                 "business owner on 2026-08-05 that Nextdoor is where ChatGPT "
+                 "is citing him, which is exactly the AI-answer surface the "
+                 "citations program exists to win.\n"
+                 "ELIGIBILITY: Nextdoor requires the claimer to be 'an owner, "
+                 "employee, or other authorized representative'. We are the "
+                 "client's marketing agency acting on their instruction, "
+                 "which fits the third category — but that is an attestation "
+                 "made in the client's name, so it is SANTINO'S call to make "
+                 "once, in writing, before the first run. Do not tick it on "
+                 "your own judgement.\n"
+                 "VERIFICATION, and this is the good news: a claimed page "
+                 "with a phone on file can verify by CALL OR TEXT. A text to "
+                 "a number we control is capturable, unlike YP's spoken code. "
+                 "Failing that, Nextdoor accepts documents — EIN letter from "
+                 "the IRS, government business license, business bank "
+                 "statement, business credit report. We already hold EINs "
+                 "(companies.ein) and license numbers for part of the fleet, "
+                 "so the document path is real rather than theoretical.\n"
+                 "The document requirement is written for 'casual goods or "
+                 "services' (dog walking, babysitting); a licensed restoration "
+                 "contractor should not hit it, but verification is still what "
+                 "unlocks posting to the neighbourhood newsfeed.",
+        # Recon 2026-08-05 (published docs only, no browser session yet):
+        #  entry 'Sign up for Free' / 'Claim Your Free Business Page' at
+        #  business.nextdoor.com/local. Unverified pages can still exist; the
+        #  verified state is what earns newsfeed posting.
+        "selectors": {"supervised_runs_clean": 0},
+    },
+    "expertise": {
+        "label": "Expertise.com",
+        "search": "https://www.expertise.com/search?q={name}",
+        "create": "https://www.expertise.com/review-me",
+        "notes": "This one is an APPLICATION, not a listing we create, and the "
+                 "ledger must say so. Expertise picks almost everyone it lists "
+                 "through its own research; it accepts requests only in two "
+                 "categories, and Home Improvement is one of them, which is "
+                 "where restoration sits. So we can apply for every client, "
+                 "and being listed is THEIR decision on THEIR timeline. A run "
+                 "that submits cleanly is 'submitted_pending', never 'live' — "
+                 "the citations audit finds the public URL later or it never "
+                 "appears.\n"
+                 "Free. No payment step. There is a free Provider Portal for "
+                 "managing listings once a client is actually listed.\n"
+                 "WHY THIS ENTRY EXISTS: expertise has been on the "
+                 "_US_CREATE_PLATFORMS list the whole time, shows on client "
+                 "cards as something we owe them, and had NO automation behind "
+                 "it. 0 of 23 clients have one (Santino, 2026-08-05). It was "
+                 "the only platform we claimed and had never once attempted.",
+        # Recon 2026-08-05 (HTTP only): /get-listed is a 404; the live form is
+        #  /review-me and it is JS-rendered in four steps — 'Business Info',
+        #  'Contact Info', 'Your Objective', 'Verify'. Read the rendered DOM,
+        #  never page source. Company contact if a run gets stuck:
+        #  info@expertise.com, (818) 862-3740.
+        "selectors": {"supervised_runs_clean": 0},
+    },
+    # Thumbtack: deliberately NOT here. It is a lead marketplace, not a
+    # directory — pro signup means a background check, a card on file and
+    # per-lead billing. Even where it is technically automatable, enrolling a
+    # client into a paid lead relationship is not ours to do. Revisit only on
+    # an explicit per-client instruction from the owner.
+    #
     # Data aggregators (Data Axle / Localeze / Foursquare) feed hundreds of
     # long-tail directories. Their submission portals want business-owner
     # attestations and some charge; parked until the four above are earned.

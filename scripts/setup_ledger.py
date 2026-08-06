@@ -461,6 +461,22 @@ _US_CREATE_PLATFORMS = ("bing_places", "apple_maps", "bbb", "expertise",
 _PS_LABEL = {"live": "live",
              "submitted_pending": "created — pending publish",
              "todo": "not started"}
+# Expertise.com is not a listing we create, it is an APPLICATION we file.
+# Expertise picks almost everyone it lists through its own editorial research
+# and only accepts requests in two categories, Home Improvement being the one
+# restoration sits in. Whether a client is listed is their decision on their
+# timeline, so "created — pending publish" would be a claim we cannot back
+# (Santino 2026-08-05, the same standard the concierge guards enforce on
+# Monica's copy: never report work as done that is not done).
+_PS_LABEL_BY_PLATFORM = {
+    "expertise": {"submitted_pending": "applied — awaiting their editorial review",
+                  "todo": "not applied yet"},
+}
+
+
+def _ps_label(platform: str, state: str) -> str:
+    return (_PS_LABEL_BY_PLATFORM.get(platform, {}).get(state)
+            or _PS_LABEL[state])
 # browser_agent_actions outcomes that mean "the create actually went through"
 # (recon_done / review_needed / deferred_* / needs_* never count).
 # 2026-08-04: the Bing dashboard investigation minted two new outcomes that
@@ -2224,7 +2240,7 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                     else:
                         _state = "todo"
                     platform_status[plat] = {"status": _state,
-                                             "label": _PS_LABEL[_state]}
+                                             "label": _ps_label(plat, _state)}
                 # The card's outstanding list is now derived from the SAME
                 # truth as the checklist. It used to come straight from the
                 # citations audit's `missing` set, which is why Crew — live on
