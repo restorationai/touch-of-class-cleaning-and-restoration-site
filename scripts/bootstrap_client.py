@@ -224,6 +224,16 @@ def main():
         ("Customer list for the review campaign", "Any format works: Excel, CSV, or a contact export", 10),
         ("Team photo for review outreach + Google profile",
          "Upload at " + hub + " (no login needed)", 20),
+        # Added 2026-08-06: there was no logo item at all. Jerrott (Reign) was
+        # asked for a new logo in conversation, but nothing durable recorded
+        # that we were waiting on it, so Monica had no open item to chase and
+        # no way to know when it arrived. Carries the hub link for the same
+        # reason the photo asks do: an emailed attachment only lands in an ops
+        # row that needs a human to file it, whereas a hub upload goes straight
+        # to storage and pins itself.
+        ("Company logo (high-resolution or vector)",
+         "Upload at " + hub + " (no login needed) — PNG, SVG, AI or EPS. "
+         "Used on the website, Google profile and monthly reports", 25),
         ("Brand guide or brand preferences (fonts, colors, hex codes)",
          "Franchise HQ usually provides this as a PDF; independents can just tell us preferences", 30),
         ("Finished job photos for the Google Business Profile",
