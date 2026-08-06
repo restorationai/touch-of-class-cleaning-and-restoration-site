@@ -17,6 +17,7 @@ faq: [{"question": "Does homeowners insurance cover mold?", "answer": "Standard 
 published_at: "2026-08-03"
 services: ["mold-remediation", "mold-inspection-testing"]
 rendered: true
+youtube_id: "Oj4i3GA8QuE"
 ---
 **TL;DR:** Homeowners insurance does not automatically cover mold. Most standard policies exclude mold as a standalone peril. However, if mold results directly from a covered sudden-and-accidental water event, a burst pipe, an appliance failure, a roof leak from a storm, your insurer may cover remediation up to a sublimit, often $5,000 to $10,000. Gradual leaks, flooding, and neglected moisture problems are almost always denied. Documentation is everything.
 

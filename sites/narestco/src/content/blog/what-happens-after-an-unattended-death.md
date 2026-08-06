@@ -17,6 +17,7 @@ faq: [{"question": "Who do you call after an unattended death is discovered?", "
 published_at: "2026-07-23"
 services: ["unattended-death-cleanup", "trauma-scene-cleanup"]
 rendered: true
+youtube_id: "4ghA9PLFFDk"
 ---
 **TL;DR:** When an unattended death is discovered, law enforcement responds first, then the medical examiner's office takes over. Once authorities release the scene, a licensed biohazard remediation company handles cleanup, not the family, not a general cleaning crew. Most homeowners insurance policies cover unattended death cleanup under the dwelling or additional coverages section. The process is discreet, handled with protective equipment, and typically completed within one to three days depending on the extent of decomposition.
 

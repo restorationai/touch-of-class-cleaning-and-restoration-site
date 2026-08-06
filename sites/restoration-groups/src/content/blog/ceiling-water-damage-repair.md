@@ -17,6 +17,7 @@ faq: [{"question": "Can a water damaged ceiling collapse?", "answer": "Yes. Wate
 published_at: "2026-07-30"
 services: ["water-damage-restoration", "reconstruction"]
 rendered: true
+youtube_id: "vmHG76O4nrs"
 ---
 **TL;DR:** Ceiling water damage ranges from a cosmetic stain you can patch for a few hundred dollars to a saturated, sagging section that can collapse and must be replaced immediately. The deciding factors are whether the source is fixed, how long the water sat, and whether the drywall or plaster has lost structural integrity. A sagging ceiling is a safety emergency, clear the room and call a restoration professional before touching it.
 

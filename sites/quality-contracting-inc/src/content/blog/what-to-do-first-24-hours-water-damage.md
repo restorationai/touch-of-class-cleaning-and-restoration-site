@@ -16,6 +16,7 @@ faq: [{"question": "How long does it actually take for mold to grow after water 
 published_at: "2026-07-25"
 services: ["water-damage-restoration"]
 rendered: true
+youtube_id: "4QxlDOfdeVY"
 ---
 If water is actively spreading through your home right now, stop reading and do three things: shut off the main water supply, cut power to any flooded rooms at the breaker, and move anything irreplaceable off the floor. Once those three things are done, come back. The decisions you make in the next 24 hours will determine whether you're dealing with a straightforward cleanup or a months-long mold and structural repair — and the difference often comes down to how fast moisture gets controlled.
 

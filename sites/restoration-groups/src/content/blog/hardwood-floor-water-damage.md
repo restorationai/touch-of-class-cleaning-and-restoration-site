@@ -17,6 +17,7 @@ faq: [{"question": "Can water-damaged hardwood floors be saved without replacing
 published_at: "2026-08-03"
 services: ["water-damage-restoration", "reconstruction"]
 rendered: true
+youtube_id: "wbONrj8eCjw"
 ---
 **TL;DR:** Hardwood floors can often be dried in place if water exposure lasted less than 48-72 hours, the source was clean water, and moisture readings are caught early. Cupping (edges raised) is a sign the wood absorbed moisture but hasn't failed yet, it's the best-case scenario for in-place drying. Crowning and buckling mean the damage has progressed further and tear-out becomes more likely. A moisture meter reading, not a visual check, is what determines the call.
 

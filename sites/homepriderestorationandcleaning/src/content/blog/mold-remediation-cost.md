@@ -17,6 +17,7 @@ faq: [{"question": "How much does mold remediation cost in Utah?", "answer": "Mo
 published_at: "2026-07-30"
 services: ["mold-remediation", "mold-inspection-testing"]
 rendered: true
+youtube_id: "ucW9j8YsDnE"
 ---
 **TL;DR:** Mold remediation in Utah typically costs $1,500 to $6,500 for most residential jobs. Small, contained areas (under 10 square feet) can run $500 to $1,500. Large infestations covering crawl spaces, attics, or HVAC systems push costs to $8,000 or more. The biggest price drivers are how far the mold has spread, where it is in the house, and whether structural materials need to come out. Most standard homeowners policies don't cover mold unless it resulted directly from a covered water event.
 

@@ -171,11 +171,76 @@ def _frontmatter(md_text: str) -> dict:
     return fm
 
 
+class LedgerUnavailable(RuntimeError):
+    """marketing_videos could not be read, so we cannot prove a post is unused."""
+
+
+def _ledger_rows(slug: str) -> list:
+    """Every marketing_videos row for this client. Raises LedgerUnavailable."""
+    if not os.environ.get("SUPABASE_URL"):
+        return []             # local/dev with no DB: fall back to frontmatter
+    try:
+        from supabase import create_client
+        sb = create_client(os.environ["SUPABASE_URL"],
+                           os.environ["SUPABASE_SERVICE_ROLE_KEY"])
+        cid = _company_id_for(slug)
+        if not cid:
+            return []
+        r = (sb.table("marketing_videos").select("post_slug,service,city,kind")
+             .eq("company_id", cid).execute())
+        return r.data or []
+    except Exception as e:  # noqa: BLE001
+        raise LedgerUnavailable(str(e)[:160]) from e
+
+
+def videoed_geo_pairs(slug: str) -> set:
+    """(service, city) pairs this client already has a geo video for.
+
+    The geo lane duplicated for a DIFFERENT reason than the blog lane: its
+    cursor lives in clients/{slug}/video-state.json, and only 6 of 14 clients
+    have that file — the rest reset to cursor 0 every run and remake the first
+    pair forever. PuroClean and MCC each hold 6 videos covering 2 topics.
+    Same cure: ask the ledger, which records service+city per row.
+    """
+    return {(str(r.get("service") or "").strip().lower(),
+             str(r.get("city") or "").strip().lower())
+            for r in _ledger_rows(slug)
+            if r.get("service") and r.get("city")}
+
+
+def videoed_post_slugs(slug: str) -> set:
+    """post_slugs this client ALREADY has a video for, straight from the ledger.
+
+    Why the ledger and not the blog frontmatter (2026-08-06): frontmatter was
+    the only dedupe key, and it is stamped AFTER the expensive work and AFTER
+    the upload — so any failure in between leaves the post looking untouched
+    and the next cron run rebuilds the whole video. Crew Restoration shipped
+    the SAME video four times (07-27, 07-31, 08-03, 08-05); its post has one
+    commit ever and never carried a youtube_id. The last successful
+    'video automation' commit was 07-29, yet three uploads happened after it.
+    Fleet-wide that is 25 duplicate productions across 11 of 14 clients, each
+    one a paid Claude script + ElevenLabs narration + Gemini image set, and
+    every one of them publicly visible on the client's channel.
+
+    marketing_videos.post_slug is written by record_video BEFORE that failure
+    point and cannot be lost to a git problem, so it is the honest source.
+    """
+    # Deliberately NOT fail-open, unlike has_publishable_channel above. That
+    # check asks "can we publish at all"; this one asks "have we already made
+    # this exact video". Guessing wrong there costs one skipped run on a
+    # Mon/Wed/Fri cadence — nothing. Guessing wrong here costs a paid duplicate
+    # and a client's channel showing the same video twice.
+    return {r["post_slug"] for r in _ledger_rows(slug) if r.get("post_slug")}
+
+
 def next_video_post(slug: str) -> str | None:
-    """The next published blog post (oldest first) that has no youtube_id yet."""
+    """The next published blog post that has no video yet — per the ledger."""
     blog_dir = ROOT / "sites" / slug / "src" / "content" / "blog"
     if not blog_dir.exists():
         return None
+    # Authoritative "already has a video" set. Raises LedgerUnavailable rather
+    # than guessing — the caller skips this client for the run.
+    already = videoed_post_slugs(slug)
     candidates = []
     for md in blog_dir.glob("*.md"):
         fm = _frontmatter(md.read_text())
@@ -183,7 +248,9 @@ def next_video_post(slug: str) -> str | None:
             continue
         if not fm.get("published_at"):
             continue
-        if fm.get("youtube_id"):          # already has a video
+        if fm.get("youtube_id"):          # stamped in frontmatter
+            continue
+        if md.stem in already:            # ...or recorded in the ledger
             continue
         # Highest-value first: frontmatter priority (bigger = more valuable
         # keyword), then newest — a fresh high-intent post gets its video while
@@ -244,9 +311,19 @@ def plan_next(slug: str, st: dict) -> dict | None:
     matrix = geo_matrix(slug)
     if not matrix:
         return None
-    service, city = matrix[st["geo_cursor"] % len(matrix)]
-    return {"kind": "geo", "service": service, "city": city,
-            "cursor": st["geo_cursor"] % len(matrix), "of": len(matrix)}
+    # Skip pairs already on the ledger. The cursor alone cannot be trusted:
+    # it lives in clients/{slug}/video-state.json and only 6 of 14 clients
+    # have that file, so the rest restart at 0 every run.
+    done = videoed_geo_pairs(slug)
+    start = st["geo_cursor"] % len(matrix)
+    for step in range(len(matrix)):
+        service, city = matrix[(start + step) % len(matrix)]
+        if (service.strip().lower(), city.strip().lower()) in done:
+            continue
+        return {"kind": "geo", "service": service, "city": city,
+                "cursor": (start + step) % len(matrix), "of": len(matrix)}
+    print(f"  {slug}: every geo pair already has a video ({len(matrix)} pairs) — nothing to make")
+    return None
 
 
 # ---------------------------------------------------------------------------
@@ -301,7 +378,15 @@ def main() -> int:
                                   "— nothing could be published (ledger card raised)"))
             continue
         st = load_state(slug)
-        plan = plan_next(slug, st)
+        try:
+            plan = plan_next(slug, st)
+        except LedgerUnavailable as e:
+            # Cannot prove this client has no video for the candidate, so do
+            # not spend money finding out. One missed Mon/Wed/Fri slot is
+            # cheap; a duplicate on their public channel is not.
+            skipped.append((slug, f"video ledger unreadable ({e}) — skipped rather "
+                                  f"than risk a duplicate"))
+            continue
         if not plan:
             skipped.append((slug, "nothing to produce (no posts, empty geo matrix)"))
             continue
