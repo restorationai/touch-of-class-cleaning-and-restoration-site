@@ -63,7 +63,14 @@ PLATFORMS: dict[str, tuple[str, tuple[str, ...]]] = {
     "houzz": ("Houzz", ("houzz.com",)),
     "porch": ("Porch", ("porch.com",)),
     "homeguide": ("HomeGuide", ("homeguide.com",)),
-    "yellowpages": ("YellowPages", ("yellowpages.com",)),
+    # Two unrelated companies share the Yellow Pages name. yellowpages.com is
+    # Thryv's (its claim flow is a sales funnel, e11a81a6 — we never create
+    # those); yellowpagesdirectory.com is "Yellow Pages Directory Inc.", where
+    # Life Savers Restoration holds a real listing with correct NAP that this
+    # check was rejecting (Santino 2026-08-06). NOTE: citations_audit still
+    # DISCOVERS via `site:yellowpages.com` only, so a yellowpagesdirectory
+    # listing has to be entered by hand rather than found automatically.
+    "yellowpages": ("YellowPages", ("yellowpages.com", "yellowpagesdirectory.com")),
 }
 
 
