@@ -799,8 +799,15 @@ def ensure_setup_checklist(dry_run: bool, cid_to_slug: dict) -> list[str]:
             ("the year you started", _lic.get("founded_year")),
             ("your EIN", co.get("ein")),
         ) if not str(val or "").strip()]
+        # HELD until the app has somewhere to put the answer (Santino
+        # 2026-08-06: "lets make sure its in the app first"). Asking a client
+        # for an EIN before the wizard and Connect tab can store it means the
+        # reply lands on the board and nowhere durable. Flip to True once the
+        # EIN field ships in the app.
+        _ASK_FOR_VERIFICATION_DOCS = False
         checks.append((
-            f"checklist-verification-docs-{slug}", len(_missing_docs) >= 2,
+            f"checklist-verification-docs-{slug}",
+            _ASK_FOR_VERIFICATION_DOCS and len(_missing_docs) >= 2,
             "ASK CLIENT: license number, year founded, EIN — needed to verify "
             "their directory listings",
             ("Missing: {}. These are what directories accept as PROOF the "
