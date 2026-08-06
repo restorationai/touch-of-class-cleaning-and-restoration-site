@@ -700,7 +700,10 @@ def ensure_setup_checklist(dry_run: bool, cid_to_slug: dict) -> list[str]:
     from upload_links_sync import hub_token
 
     out: list[str] = []
-    active = _sb("GET", "/rest/v1/companies?status=ilike.active&select=id,name",
+    # ein + integration_settings ride along for the verification-evidence check
+    # below; without them every client reads as "missing everything".
+    active = _sb("GET", "/rest/v1/companies?status=ilike.active"
+                 "&select=id,name,ein,integration_settings",
                  prefer="return=representation") or []
     svc_label = (lambda s: s[len("job_type_id:"):].replace("_", " ").capitalize()
                  if str(s).startswith("job_type_id:") else str(s))
@@ -755,6 +758,60 @@ def ensure_setup_checklist(dry_run: bool, cid_to_slug: dict) -> list[str]:
              "make sure your Google listing only shows what you actually do.' Relay "
              "answers back; our team applies the changes — the client does nothing in "
              "Google.").format(len(nr), top or "n/a", top or "these")))
+
+        # VERIFICATION EVIDENCE (Santino 2026-08-06). Directories do not just
+        # want a name and address; the ones worth having make you PROVE the
+        # business is real before the listing counts. Nextdoor accepts an EIN
+        # letter or a government business licence in place of a phone code,
+        # and that document route is what lets us verify a page without a code
+        # landing on an owner's phone mid-job. HomeGuide and others ask for
+        # year founded outright.
+        #
+        # The wizard has collected licence/certifications/founded year into
+        # integration_settings.licensing since 2026-07-26, but almost nobody
+        # filled them: across 23 active clients it was 4, 6 and 6 respectively,
+        # and EIN was 1. Invisible fields do not get filled, so this asks.
+        #
+        # ONE ask covering the set, not three: MAX_ITEMS_PER_MESSAGE is 1 and
+        # three separate checklist rows would queue three separate texts about
+        # paperwork.
+        _lic = ((co.get("integration_settings") or {}).get("licensing") or {})
+        # NEVER ASK FOR WHAT WE ALREADY HOLD. The wizard's licensing block is
+        # not the only place a licence lives: TRG's NJ HIC 13VH05488600 was
+        # confirmed on a call and written into clients/{slug}.json, and asking
+        # him for it again is the same mistake we made asking ProRestoration
+        # for photos we already had 231 of. Treat a licence recorded anywhere
+        # in the client record as present.
+        _lic_known = bool(str(_lic.get("license_number") or "").strip())
+        if not _lic_known:
+            try:
+                _rec = (CLIENTS_DIR / f"{slug}.json")
+                if _rec.exists():
+                    _blob = json.loads(_rec.read_text())
+                    _nums = ((_blob.get("nap") or {}).get("license_numbers")
+                             or (_blob.get("brand") or {}).get("license_numbers")
+                             or _blob.get("license_numbers") or [])
+                    _lic_known = bool([x for x in _nums if str(x).strip()])
+            except Exception:
+                pass
+        _missing_docs = [lbl for lbl, val in (
+            ("your license number", "known" if _lic_known else ""),
+            ("the year you started", _lic.get("founded_year")),
+            ("your EIN", co.get("ein")),
+        ) if not str(val or "").strip()]
+        checks.append((
+            f"checklist-verification-docs-{slug}", len(_missing_docs) >= 2,
+            "ASK CLIENT: license number, year founded, EIN — needed to verify "
+            "their directory listings",
+            ("Missing: {}. These are what directories accept as PROOF the "
+             "business is real — Nextdoor takes an EIN letter or a state "
+             "license instead of texting a verification code to the owner, and "
+             "an unverified page cannot post. MONICA: ask plainly and in one "
+             "message, e.g. 'to get your listings verified I need a couple of "
+             "things off your paperwork: your {} — whenever you get a minute.' "
+             "Say what it is FOR. An owner asked for a tax ID with no reason "
+             "given will assume the worst, and they would be right to."
+             ).format(", ".join(_missing_docs), " and your ".join(_missing_docs))))
 
         checks.append((
             f"checklist-hours-{slug}",
