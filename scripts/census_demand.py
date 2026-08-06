@@ -90,6 +90,33 @@ def place_for(lat: float, lng: float) -> dict | None:
     return {"state": p["STATE"], "place": p["PLACE"], "name": p.get("NAME")}
 
 
+def key_status() -> tuple:
+    """('ok'|'missing'|'invalid'|'unreachable', human explanation).
+
+    A key that is present but REJECTED must not look the same as no key at all.
+    Census emails a key and it stays inert until the activation link in that
+    email is clicked, so "I pasted the key and nothing happened" is the normal
+    first experience — worth naming rather than silently showing blank columns.
+    """
+    key = os.environ.get("CENSUS_API_KEY")
+    if not key:
+        return ("missing", "CENSUS_API_KEY is not set — get one free at "
+                           "api.census.gov/data/key_signup.html")
+    probe = f"{ACS}?get=NAME&for=state:06&key={urllib.parse.quote(key)}"
+    try:
+        with urllib.request.urlopen(probe, timeout=20) as r:
+            body = r.read(400).decode("utf-8", "replace")
+    except Exception as e:
+        return ("unreachable", f"could not reach the Census API ({str(e)[:80]})")
+    if body.lstrip().startswith("["):
+        return ("ok", "Census key is live")
+    if "Invalid Key" in body:
+        return ("invalid", "Census rejected the key. A new key stays INACTIVE "
+                           "until you click the activation link Census emails "
+                           "you — check the inbox you signed up with.")
+    return ("invalid", "Census did not return data for this key")
+
+
 def demographics(lat: float, lng: float) -> dict | None:
     """The five signals for the place containing this point, or None."""
     key = os.environ.get("CENSUS_API_KEY")

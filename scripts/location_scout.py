@@ -51,7 +51,7 @@ import urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from census_demand import demographics, demand_score  # noqa: E402
+from census_demand import demographics, demand_score, key_status  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 CLIENTS_DIR = ROOT / "clients"
@@ -261,10 +261,12 @@ def render(res: dict, top_n: int = DEFAULT_TOP_N) -> None:
     print(f"\nLOCATION SCOUT — {res['slug']}")
     print(f"  current pin: {pin.get('city')}, {pin.get('state')}  ({pin['lat']:.4f}, {pin['lng']:.4f})")
     print(f"  ranking reach in use: {res['effective_reach_mi']} mi  [{res['reach_source']}]")
-    if not os.environ.get("CENSUS_API_KEY"):
-        print("  demand data: OFF — set CENSUS_API_KEY (free, ~1 min at "
-              "api.census.gov/data/key_signup.html) to rank by population, "
-              "income, owner-occupancy, home value and housing age")
+    state, why = key_status()
+    if state == "ok":
+        print("  demand data: ON  (population, income, owner-occupancy, home value, housing age)")
+    else:
+        print(f"  demand data: OFF [{state}] — {why}")
+        print("               ranking below is geometry only until that is fixed")
     if res["measured_reach"]:
         print("\n  MEASURED TODAY")
         for kw, m in res["measured_reach"].items():
