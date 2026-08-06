@@ -152,7 +152,16 @@ def load_client(slug: str) -> dict:
 def scout(slug: str, with_census: bool = True) -> dict:
     data = load_client(slug)
     brand = data["plan"].get("brand") or {}
+    # clients/{slug}.json often has no company_id — clients/company_map.json is
+    # the fallback the rest of the repo uses (gbp.company_id_for).
     company_id = data["rec"].get("company_id") or brand.get("company_id")
+    if not company_id:
+        cmap = CLIENTS_DIR / "company_map.json"
+        if cmap.exists():
+            try:
+                company_id = json.loads(cmap.read_text()).get(slug)
+            except Exception:
+                pass
     pin = (brand.get("lat"), brand.get("lng"))
     if not pin[0]:
         raise SystemExit(f"{slug}: no brand.lat/lng in plan-input.json — cannot scout without a pin")
@@ -265,6 +274,64 @@ def scout(slug: str, with_census: bool = True) -> dict:
             "orphans": [r["city"] for r in uncovered if r["city"] not in claimed]}
 
 
+def save(res: dict) -> int:
+    """Replace this company's shortlist in marketing_location_scout.
+
+    The app cannot run this script — it needs geo-grid points, Nominatim and the
+    Census ACS — so the CLI writes the result and the Locations tab reads it.
+    Same split the geo-grid already uses. Replace rather than append: the table
+    holds the CURRENT shortlist, not a history nobody opens.
+    """
+    cid = res.get("company_id")
+    if not cid:
+        print("  not saved: no company_id on the client record")
+        return 0
+    url = os.environ.get("SUPABASE_URL", "").rstrip("/")
+    key = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")
+    if not url or not key:
+        print("  not saved: SUPABASE_URL / SUPABASE_SERVICE_ROLE_KEY not set")
+        return 0
+    H = {"apikey": key, "Authorization": f"Bearer {key}",
+         "Content-Type": "application/json", "Prefer": "return=minimal"}
+    req = urllib.request.Request(
+        f"{url}/rest/v1/marketing_location_scout?company_id=eq.{cid}",
+        headers=H, method="DELETE")
+    try:
+        urllib.request.urlopen(req, timeout=30)
+    except Exception as e:
+        print(f"  not saved: could not clear previous run ({str(e)[:90]})")
+        return 0
+    rows = []
+    for i, s_ in enumerate(res.get("recommended_offices") or [], 1):
+        rows.append({
+            "company_id": cid, "rank": i,
+            "seat_city": s_["seat_city"], "state": s_.get("state"),
+            "lat": s_.get("lat"), "lng": s_.get("lng"),
+            "distance_from_pin_mi": s_.get("distance_from_pin_mi"),
+            "covers_count": s_.get("covers_count"),
+            "would_cover": s_.get("would_cover") or [],
+            "avg_demand": s_.get("avg_demand"),
+            "cluster_population": s_.get("cluster_population"),
+            "cluster_median_income": s_.get("cluster_median_income"),
+            "seat_demographics": s_.get("seat_demographics"),
+            "effective_reach_mi": res.get("effective_reach_mi"),
+            "reach_source": res.get("reach_source"),
+        })
+    if not rows:
+        print("  saved: 0 recommendations (nothing outside the current reach)")
+        return 0
+    req = urllib.request.Request(f"{url}/rest/v1/marketing_location_scout",
+                                 data=json.dumps(rows).encode(), headers=H, method="POST")
+    try:
+        urllib.request.urlopen(req, timeout=30)
+        print(f"  saved {len(rows)} recommendation(s) to marketing_location_scout")
+        return len(rows)
+    except Exception as e:
+        body = e.read().decode()[:200] if hasattr(e, "read") else str(e)[:200]
+        print(f"  not saved: {body}")
+        return 0
+
+
 def render(res: dict, top_n: int = DEFAULT_TOP_N) -> None:
     pin = res["pin"]
     print(f"\nLOCATION SCOUT — {res['slug']}")
@@ -332,12 +399,15 @@ def main() -> int:
     ap.add_argument("--json", action="store_true")
     ap.add_argument("--top", type=int, default=DEFAULT_TOP_N, help="how many offices to shortlist")
     ap.add_argument("--no-census", action="store_true", help="geometry only, skip demographics")
+    ap.add_argument("--save", action="store_true", help="write the shortlist to marketing_location_scout for the app")
     a = ap.parse_args()
     res = scout(a.slug, with_census=not a.no_census)
     if a.json:
         print(json.dumps(res, indent=2))
     else:
         render(res, a.top)
+    if a.save:
+        save(res)
     return 0
 
 
