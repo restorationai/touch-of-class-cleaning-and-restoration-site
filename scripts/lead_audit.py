@@ -1750,8 +1750,29 @@ def run_audit(website, name, email, phone, audit_id=None, email_mode="all", prog
             log("profile came back empty from the raw HTML — retrying with a "
                 "JavaScript-rendered crawl (client-side-rendered site?)")
             pages = fetch_site(domain, start_url, force_js=True)
-            prof, u = profile_site(client, start_url or domain, pages)
-            log("JS-rendered retry succeeded ({} chars)".format(len(pages.get("homepage") or "")))
+            try:
+                prof, u = profile_site(client, start_url or domain, pages)
+                log("JS-rendered retry succeeded ({} chars)".format(len(pages.get("homepage") or "")))
+            except ProfileIncompleteError:
+                # Both recoveries exhausted. Before 2026-08-06 this re-raised
+                # straight out of the except block and the audit died with a
+                # traceback, so the team email said "audit failed" with a stack
+                # trace instead of something a human could act on.
+                #
+                # A site that serves a clean 200 but names no service and no
+                # city after a full JS render is a PARKED/PLACEHOLDER page, not
+                # a crawl failure — Monique Curchy's rapidreliefrestoration.net
+                # (2026-08-06) is GoDaddy's "Launching Soon" splash, 842 visible
+                # characters whose <title> is just the bare domain. That is the
+                # honest "your site isn't even up" case, so classify it as
+                # SiteDownError: it earns the 'website down' tag whose nurture
+                # branch says exactly that, and it is TRUE. Reporting it as a
+                # parse failure would tell a lead with no website that our
+                # crawler broke.
+                raise SiteDownError(
+                    "{} resolves and returns 200 but is a placeholder/parked page "
+                    "(no services, no cities after a JavaScript render) — the lead "
+                    "has no real website yet".format(domain))
     usages.append(u)
     service = prof["services"][0]
     cities = prof["cities"]
