@@ -1,6 +1,32 @@
 {
   "slug": "puroclean-east-las-vegas",
   "assets": {
+    "crew:sms-1785949040816-605c116d": {
+      "source": "crew",
+      "storage": "job-photos/sms-1785949040816-605c116d.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784594708149/job-photos/sms-1785949040816-605c116d.jpg",
+      "width": 1200,
+      "height": 1600,
+      "bytes": 245344,
+      "sha1": "2332bacd2635f8fa",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Screenshot of Google Business Profile Manager on laptop screen",
+      "quality": 10,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "screenshot",
+        "low_res"
+      ],
+      "reason": "Screenshot of admin dashboard; no marketing or restoration content whatsoever.",
+      "triaged_at": "2026-08-06T14:04:25Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipM4tHZNVU4p3G3FzaNRZbmdF9Qdsx1YP1O-DPoS": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipM4tHZNVU4p3G3FzaNRZbmdF9Qdsx1YP1O-DPoS.jpg",
@@ -2324,5 +2350,5 @@
       "file": "/images/services.webp"
     }
   },
-  "triaged_at": "2026-08-05T06:25:00Z"
+  "triaged_at": "2026-08-06T14:04:25Z"
 }

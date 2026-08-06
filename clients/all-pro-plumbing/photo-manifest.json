@@ -25,8 +25,33 @@
       "reason": "Phone screenshot of a Google security warning; zero marketing value.",
       "triaged_at": "2026-08-05T06:53:04Z",
       "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:sms-1785951485244-e2068a1c": {
+      "source": "crew",
+      "storage": "job-photos/sms-1785951485244-e2068a1c.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783380243102/job-photos/sms-1785951485244-e2068a1c.jpg",
+      "width": 768,
+      "height": 1024,
+      "bytes": 186650,
+      "sha1": "05ae2666ecad6372",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Screenshot of Google Business Profile people and access settings",
+      "quality": 10,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "screenshot"
+      ],
+      "reason": "Admin settings screenshot; no visual content usable on a marketing site.",
+      "triaged_at": "2026-08-06T14:04:13Z",
+      "triage_model": "claude-sonnet-4-6"
     }
   },
   "slots": {},
-  "triaged_at": "2026-08-05T06:53:04Z"
+  "triaged_at": "2026-08-06T14:04:13Z"
 }
