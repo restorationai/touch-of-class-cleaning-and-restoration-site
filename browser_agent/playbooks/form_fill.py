@@ -335,10 +335,31 @@ PORTALS = {
                  "services' (dog walking, babysitting); a licensed restoration "
                  "contractor should not hit it, but verification is still what "
                  "unlocks posting to the neighbourhood newsfeed.",
-        # Recon 2026-08-05 (published docs only, no browser session yet):
-        #  entry 'Sign up for Free' / 'Claim Your Free Business Page' at
-        #  business.nextdoor.com/local. Unverified pages can still exist; the
-        #  verified state is what earns newsfeed posting.
+        # BROWSER RECON 2026-08-06, and this is the one of the three that is
+        # actually what it says it is. Expertise ends in a Calendly sales call
+        # and YellowPages ends in a Thryv advisor; Nextdoor just creates an
+        # account.
+        #  business.nextdoor.com/local redirects to /en-us/small-business and
+        #    repeats "Claim your free Business Page" / "Create an online
+        #    presence with a free Business Page" / "Engage neighbors locally
+        #    with free Business Posts". Ads are a SEPARATE, clearly-labelled
+        #    upsell ("Grow your business with Ads"), not the thing being
+        #    signed up for. No pricing language anywhere in the free path.
+        #  ENTRY POINTS, pinned:
+        #    nextdoor.com/choose_address/  = the PERSONAL neighbour signup
+        #      ("Create an account to join your neighborhood"). NOT our path —
+        #      this is the one that wants a residential address.
+        #    nextdoor.com/create-business  = "Create a business account".
+        #      Separate flow, reached from "Have a business? Get started".
+        #      Email + password, or Google/Facebook/Apple SSO. No address
+        #      demanded at signup, no cost language on the page at all.
+        #  NEXT RUN starts at /create-business with a plus-alias email and a
+        #  generated password into ~/.rankai/portal-creds.json, exactly like
+        #  Houzz. Take the email+password path, NEVER SSO: one Nextdoor
+        #  identity per account and SSO ties it to an agency Google login we
+        #  do not want bound to a client's business page.
+        #  Still unwalked: what the business page asks for after signup, and
+        #  which verification it offers (text vs EIN letter vs licence).
         "selectors": {"supervised_runs_clean": 0},
     },
     "expertise": {

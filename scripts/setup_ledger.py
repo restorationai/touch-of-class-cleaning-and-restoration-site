@@ -456,7 +456,14 @@ def _upcoming_kickoff(ints: dict) -> str | None:
 #                        hasn't re-found it yet)
 #   todo              -> empty checkbox
 # Porch stays excluded (self-serve pro signup killed upstream, 2026-08-02).
-_US_CREATE_PLATFORMS = ("bing_places", "apple_maps", "bbb", "expertise",
+# expertise removed 2026-08-06, same reasoning that removed Porch: a card must
+# never demand work we cannot actually do. Walking the whole /review-me flow
+# showed it is not a listing we create — step 4 is a Calendly booking for a
+# sales call with Expertise, their editorial team decides listings on their own
+# timeline, and their booking widget was broken besides. It sat on this list
+# claiming work we owed 23 clients while 0 of 23 had one. Presence is still
+# AUDITED (citations_audit keeps the platform), we just stop promising it.
+_US_CREATE_PLATFORMS = ("bing_places", "apple_maps", "bbb",
                         "houzz", "homeguide")
 _PS_LABEL = {"live": "live",
              "submitted_pending": "created — pending publish",
