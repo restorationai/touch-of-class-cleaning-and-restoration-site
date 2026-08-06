@@ -278,23 +278,24 @@ PORTALS = {
         "label": "YellowPages",
         "search": ("https://www.yellowpages.com/search?search_terms={name}"
                    "&geo_location_terms={city}%2C+{state}"),
-        "create": "https://www.yellowpages.com/claim-your-listing",
-        "notes": "Free basic listing; paid ad packages are the upsell and are "
+        "create": "https://adsolutions.yp.com/listings/basic",
+        "notes": "FREE basic listing. The signup page is deliberately hard to "
+                 "find; adsolutions.yp.com/listings/basic is it, not the "
+                 "consumer site. Paid ad packages are the upsell and are "
                  "DECLINED. Accounts at accounts.yellowpages.com/login.\n"
-                 "BLOCKER, read before scheduling this one: YP verifies "
-                 "ownership with an AUTOMATED PHONE CALL to the number "
-                 "already on the listing, and the claimer types the spoken "
-                 "code back. That call lands wherever the listing's number "
-                 "points. For a client whose citation phone is their own "
-                 "line, the CLIENT hears the code and has to relay it, which "
-                 "makes this semi-attended at best. For a client on one of "
-                 "our Twilio tracking numbers the call is ours to answer, but "
-                 "wiring that up touches call routing and Santino has that "
-                 "parked (2026-08-05) — do not build it without asking.\n"
-                 "Check during recon whether the CREATE-new-listing path "
-                 "(distinct from claiming an existing one) skips the call; if "
-                 "it does, this becomes fully unattended for clients with no "
-                 "YP presence, which is 18 of 23.",
+                 "VERIFICATION, answered 2026-08-05: creating a NEW listing "
+                 "does NOT skip it — every listing is verified before YP "
+                 "publishes. But there are THREE methods, not one: automated "
+                 "phone call, TEXT MESSAGE, or a postcard to the business "
+                 "address. Phone and text complete instantly; the postcard "
+                 "does not. ALWAYS TAKE THE TEXT. A spoken code down a "
+                 "robocall is the thing that made this look semi-attended; a "
+                 "texted code to a number we already receive SMS on is not. "
+                 "Where the citation phone is the client's own line the code "
+                 "reaches THEM, so the run pauses and Monica asks them to "
+                 "read it back — one short exchange, not a blocker.\n"
+                 "Flow is four steps: name/address/phone, then verify, then "
+                 "live in about four hours.",
         # Recon 2026-08-05 (HTTP only, no browser session yet):
         #  /about/advertise/claim-your-listing returns 403 to a plain fetch —
         #  bot protection is present, so this is browser/CDP only, same as
@@ -313,13 +314,15 @@ PORTALS = {
                  "business owner on 2026-08-05 that Nextdoor is where ChatGPT "
                  "is citing him, which is exactly the AI-answer surface the "
                  "citations program exists to win.\n"
-                 "ELIGIBILITY: Nextdoor requires the claimer to be 'an owner, "
-                 "employee, or other authorized representative'. We are the "
-                 "client's marketing agency acting on their instruction, "
-                 "which fits the third category — but that is an attestation "
-                 "made in the client's name, so it is SANTINO'S call to make "
-                 "once, in writing, before the first run. Do not tick it on "
-                 "your own judgement.\n"
+                 "ELIGIBILITY — SETTLED 2026-08-05, Santino: 'yes we are "
+                 "definitely an authorized representative so this shouldn't "
+                 "be a problem for nextdoor.' Nextdoor asks the claimer to be "
+                 "an owner, employee, or other authorized representative; we "
+                 "are the client's marketing agency acting on their "
+                 "instruction and Santino has made that attestation on the "
+                 "record. Proceed on it. It does NOT extend to any other "
+                 "platform, and it does not cover asserting anything else in "
+                 "a client's name — a new attestation is a new decision.\n"
                  "VERIFICATION, and this is the good news: a claimed page "
                  "with a phone on file can verify by CALL OR TEXT. A text to "
                  "a number we control is capturable, unlike YP's spoken code. "
@@ -358,18 +361,66 @@ PORTALS = {
                  "cards as something we owe them, and had NO automation behind "
                  "it. 0 of 23 clients have one (Santino, 2026-08-05). It was "
                  "the only platform we claimed and had never once attempted.",
-        # Recon 2026-08-05 (HTTP only): /get-listed is a 404; the live form is
-        #  /review-me and it is JS-rendered in four steps — 'Business Info',
-        #  'Contact Info', 'Your Objective', 'Verify'. Read the rendered DOM,
-        #  never page source. Company contact if a run gets stuck:
-        #  info@expertise.com, (818) 862-3740.
+        # Recon 2026-08-05 (HTTP): /get-listed is a 404; the live form is
+        #  /review-me, JS-rendered in four steps — 'Business Info', 'Contact
+        #  Info', 'Your Objective', 'Verify'. Read the rendered DOM, never
+        #  page source. Stuck-run contact: info@expertise.com, (818) 862-3740.
+        # READ-ONLY BROWSER RECON, same night, nothing submitted:
+        #  ELIGIBILITY IS CONFIRMED, and this was the open question. The
+        #  category typeahead carries our exact verticals:
+        #      'restoration' -> Fire Damage Restoration, Water Damage Restoration
+        #      'mold'        -> Mold Remediation
+        #      'fire'        -> Fire Damage Restoration
+        #  So every restoration client is eligible to request a review. Their
+        #  FAQ, verbatim: "only service professionals who pass our research &
+        #  review process can be published" and "we do allow professionals in
+        #  certain business categories to request a review" — which is why a
+        #  clean submit is 'applied', never 'listed'.
+        #  STEP 1 PINNED (it is a Salesforce web-to-lead form, hence the
+        #  opaque field name):
+        #      input[name='company']            Business Name      REQUIRED
+        #      input[name='00N3i00000DEQ9d']    Business Website   REQUIRED
+        #      input[name='Zip_Code__c']        Zip Code           REQUIRED
+        #      input[name='vertical_name']      category typeahead (Downshift)
+        #      button 'Let's get started!'      submits step 1
+        #  TYPEAHEAD TRAP: the suggestion list is a Downshift listbox at
+        #  id = <input id>.replace('-input','-menu'). A generic
+        #  "li, [role=option]" selector matches the SITE NAV instead and
+        #  silently returns Legal/Home Improvement/Finance/Insurance as if
+        #  they were suggestions — that is a header menu, not the dropdown.
+        #  Scope to the menu id or ul[role=listbox].
+        #  STEPS 2-4 still unpinned. 'Your Objective' sits next to a 'Become a
+        #  Featured Partner' pitch, so treat it as the paid-funnel boundary:
+        #  screenshot and stop at anything mentioning cost, and never accept a
+        #  partner/advertising option. Getting listed is free.
         "selectors": {"supervised_runs_clean": 0},
     },
-    # Thumbtack: deliberately NOT here. It is a lead marketplace, not a
-    # directory — pro signup means a background check, a card on file and
-    # per-lead billing. Even where it is technically automatable, enrolling a
-    # client into a paid lead relationship is not ours to do. Revisit only on
-    # an explicit per-client instruction from the owner.
+    "thumbtack": {
+        "label": "Thumbtack",
+        "search": "https://www.thumbtack.com/instant-results/?category_pk=&zip_code={zip}",
+        "create": "https://www.thumbtack.com/pro/",
+        "notes": "CORRECTION to the 2026-08-05 morning read, which said pro "
+                 "signup means a card on file and per-lead billing and that "
+                 "we therefore should not touch it. Profile creation is FREE "
+                 "with no monthly fee and no obligation to buy anything: "
+                 "Thumbtack monetises per LEAD, at roughly $15-80 each, and "
+                 "that is a decision the client makes later, not something "
+                 "signup commits them to. As a citation it is a legitimate "
+                 "free entity page.\n"
+                 "THE REAL QUESTION for recon, which is different: many "
+                 "Thumbtack categories gate a pro profile behind a BACKGROUND "
+                 "CHECK on the individual, which wants personal identity data "
+                 "(DOB, SSN) that we must never hold or enter on a client's "
+                 "behalf. If restoration is one of those categories, this "
+                 "stops there and goes back to the client-owed column with a "
+                 "real reason attached instead of an assumed one. Find out "
+                 "before filling anything: walk to the point where the check "
+                 "is demanded, screenshot it, and stop.\n"
+                 "Never enable lead purchasing, never store a card, never "
+                 "accept a promotional lead credit that converts to billing.",
+        # Recon 2026-08-05: published sources only, no session yet.
+        "selectors": {"supervised_runs_clean": 0},
+    },
     #
     # Data aggregators (Data Axle / Localeze / Foursquare) feed hundreds of
     # long-tail directories. Their submission portals want business-owner
