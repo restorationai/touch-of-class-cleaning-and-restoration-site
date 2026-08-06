@@ -6341,9 +6341,23 @@ ADVICE_MATCH_SYSTEM = """\
 Santino (the boss) was texted one or more open questions about clients. He
 just replied. Decide which open question his reply answers and restate his
 instruction plainly for the assistant to act on.
+
+DO NOT GUESS BETWEEN CLIENTS. Several open questions are often near-identical
+("the client wants a call", "no reply after N nudges"), and a generic answer
+like "tell them I'm in and out of meetings and will call as soon as I can"
+fits all of them equally. Picking one at random sends a real client a message
+about someone else's situation. Set "ambiguous": true whenever the reply could
+plausibly answer more than one of the open questions AND does not identify
+which client it is about (by company name, person's name, or an unmistakable
+detail from that question). When you set it, "index" is ignored.
+
+Only pick an index when the reply is tied to ONE question — because he named
+the client, named the person, or answered something only that question asked.
+
 Return ONLY JSON: {"index": <int index of the question answered, or null if
-his reply clearly is not an answer to any of them>, "instruction": "<his
-directive, restated as a clear instruction, keeping any links exactly>"}"""
+his reply clearly is not an answer to any of them>, "ambiguous": <true|false>,
+"instruction": "<his directive, restated as a clear instruction, keeping any
+links exactly>"}"""
 
 # Boss-facing SMS copy (Santino 2026-08-02: "Intel says finished job photos
 # ... have been answered/in progress" reached his phone verbatim). Every
@@ -7534,6 +7548,26 @@ def cmd_inbound(args) -> int:
                     + f"\n\nSantino's reply: {m.get('body', '')[:500]}")
                 idx = match.get("index")
                 instr = (match.get("instruction") or m.get("body") or "").strip()
+                # AMBIGUOUS: ask, never guess (Santino 2026-08-06). Three asks
+                # were open within five minutes — AAA Carpet Care ("CALL
+                # REQUESTED"), MCC/Jeff Sibley ("no reply after 4 nudges") and
+                # Quality Contracting/Fran. His "I'm in and out of meetings,
+                # will call as soon as I can" was meant for FRAN, but it fits
+                # all three word-for-word, so the matcher handed it to AAA and
+                # then MCC. Jeff Sibley got told Santino would return a message
+                # he never sent, and Fran never got the one thing he was owed.
+                # A wrong client is worse than a second question.
+                if match.get("ambiguous") and len(open_reqs) > 1:
+                    names = ", ".join(str(r.get("company_name") or "?") for r in open_reqs)
+                    print(f"  [advice] AMBIGUOUS reply — not guessing between: {names}")
+                    if not dry_run and args.send:
+                        try:
+                            send_message({"id": ADVICE_CONTACT_ID, "phone": ADVICE_PHONE}, "sms",
+                                         "Which one is that for? I have open questions on: "
+                                         f"{names}. Reply with the name and I'll take it from there.")
+                        except SendBlocked as e:
+                            print(f"    ambiguity check-back blocked: {e}")
+                    continue
                 if idx is None or not (0 <= int(idx) < len(open_reqs)) or not instr:
                     continue
                 req = open_reqs[int(idx)]
