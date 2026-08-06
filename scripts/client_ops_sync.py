@@ -799,12 +799,13 @@ def ensure_setup_checklist(dry_run: bool, cid_to_slug: dict) -> list[str]:
             ("the year you started", _lic.get("founded_year")),
             ("your EIN", co.get("ein")),
         ) if not str(val or "").strip()]
-        # HELD until the app has somewhere to put the answer (Santino
-        # 2026-08-06: "lets make sure its in the app first"). Asking a client
-        # for an EIN before the wizard and Connect tab can store it means the
-        # reply lands on the board and nowhere durable. Flip to True once the
-        # EIN field ships in the app.
-        _ASK_FOR_VERIFICATION_DOCS = False
+        # RELEASED 2026-08-06. The hold was "lets make sure its in the app
+        # first" (Santino) — asking for an EIN before the app could store it
+        # would land the reply on the board and nowhere durable. That shipped:
+        # wizard step 4 writes companies.ein, and Marketing > Connect has the
+        # Business Verification card beside Business Information. Verified live
+        # in the deployed bundle at app.restorationai.io, not just merged.
+        _ASK_FOR_VERIFICATION_DOCS = True
         checks.append((
             f"checklist-verification-docs-{slug}",
             _ASK_FOR_VERIFICATION_DOCS and len(_missing_docs) >= 2,
