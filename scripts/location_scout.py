@@ -237,6 +237,13 @@ def scout(slug: str, with_census: bool = True) -> dict:
             claimed.add(o["city"])
         seat_demand = [(o.get("demand") or {}).get("score") for o in covers]
         seat_demand = [x for x in seat_demand if x is not None]
+        # The SEAT's own demographics understate the market badly when the seat
+        # is a hamlet serving bigger neighbours — Ballard has 796 residents but
+        # covers Solvang, Santa Ynez and Los Olivos. Sum the cluster.
+        pops = [(o.get("demographics") or {}).get("population") for o in covers]
+        pops = [p for p in pops if p]
+        incs = [(o.get("demographics") or {}).get("median_household_income") for o in covers]
+        incs = [i for i in incs if i]
         seats.append({"seat_city": cand["city"], "state": cand["state"],
                       "lat": cand["lat"], "lng": cand["lng"],
                       "distance_from_pin_mi": cand["distance_mi"],
@@ -244,6 +251,8 @@ def scout(slug: str, with_census: bool = True) -> dict:
                       "demand_weighted": round(best[0][0], 2),
                       "avg_demand": round(sum(seat_demand) / len(seat_demand), 1) if seat_demand else None,
                       "seat_demographics": cand.get("demographics"),
+                      "cluster_population": int(sum(pops)) if pops else None,
+                      "cluster_median_income": int(sum(incs) / len(incs)) if incs else None,
                       "would_cover": sorted(o["city"] for o in covers)})
 
     return {"slug": slug, "company_id": company_id,
@@ -296,13 +305,18 @@ def render(res: dict, top_n: int = DEFAULT_TOP_N) -> None:
               f"({s['distance_from_pin_mi']}mi out) — covers {s['covers_count']} target town(s){dem}")
         print(f"       {', '.join(s['would_cover'])}")
         g = s.get("seat_demographics") or {}
+        def f(v, pre="", suf=""):
+            return f"{pre}{v:,.0f}{suf}" if isinstance(v, (int, float)) else "n/a"
+        if s.get("cluster_population") is not None:
+            print(f"       cluster: {f(s['cluster_population'])} people across "
+                  f"{s['covers_count']} town(s), avg income {f(s.get('cluster_median_income'), '$')}")
         if g:
-            def f(v, pre="", suf=""):
-                return f"{pre}{v:,.0f}{suf}" if isinstance(v, (int, float)) else "n/a"
-            print(f"       pop {f(g.get('population'))} | income {f(g.get('median_household_income'), '$')}"
+            yr = g.get("median_year_built")
+            print(f"       seat {s['seat_city']}: pop {f(g.get('population'))}"
+                  f" | income {f(g.get('median_household_income'), '$')}"
                   f" | owner-occ {g.get('owner_occupied_pct') if g.get('owner_occupied_pct') is not None else 'n/a'}%"
                   f" | home {f(g.get('median_home_value'), '$')}"
-                  f" | built {f(g.get('median_year_built'))}")
+                  f" | built {int(yr) if yr else 'n/a'}")
     rest = res["recommended_offices"][top_n:]
     if rest:
         print(f"\n    also viable, lower coverage: "

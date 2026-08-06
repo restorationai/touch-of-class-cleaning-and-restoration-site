@@ -41,6 +41,7 @@ from __future__ import annotations
 
 import json
 import os
+import time
 import urllib.parse
 import urllib.request
 
@@ -90,6 +91,32 @@ def place_for(lat: float, lng: float) -> dict | None:
     return {"state": p["STATE"], "place": p["PLACE"], "name": p.get("NAME")}
 
 
+# Census answers a THROTTLED request with the same "Invalid Key" page it uses
+# for a genuinely bad key (2026-08-06). Santino's key returned real Santa Maria
+# data on one call and "Invalid Key" on the next six, which is impossible for an
+# inactive key — an inactive key cannot return data at all. So treat the page as
+# retryable and only call it fatal after backoff has been exhausted.
+_CACHE: dict = {}
+
+
+def _acs_get(url: str, tries: int = 4):
+    """GET an ACS URL, retrying the misleading Invalid-Key throttle page."""
+    for i in range(tries):
+        try:
+            with urllib.request.urlopen(url, timeout=30) as r:
+                body = r.read().decode("utf-8", "replace")
+        except Exception:
+            body = ""
+        if body.lstrip().startswith("["):
+            try:
+                return json.loads(body)
+            except Exception:
+                return None
+        if i < tries - 1:
+            time.sleep(1.5 * (2 ** i))          # 1.5s, 3s, 6s
+    return None
+
+
 def key_status() -> tuple:
     """('ok'|'missing'|'invalid'|'unreachable', human explanation).
 
@@ -102,19 +129,15 @@ def key_status() -> tuple:
     if not key:
         return ("missing", "CENSUS_API_KEY is not set — get one free at "
                            "api.census.gov/data/key_signup.html")
-    probe = f"{ACS}?get=NAME&for=state:06&key={urllib.parse.quote(key)}"
-    try:
-        with urllib.request.urlopen(probe, timeout=20) as r:
-            body = r.read(400).decode("utf-8", "replace")
-    except Exception as e:
-        return ("unreachable", f"could not reach the Census API ({str(e)[:80]})")
-    if body.lstrip().startswith("["):
+    probe = (f"{ACS}?get=NAME,B01003_001E&for=place:69196&in=state:06"
+             f"&key={urllib.parse.quote(key)}")
+    if _acs_get(probe) is not None:
         return ("ok", "Census key is live")
-    if "Invalid Key" in body:
-        return ("invalid", "Census rejected the key. A new key stays INACTIVE "
-                           "until you click the activation link Census emails "
-                           "you — check the inbox you signed up with.")
-    return ("invalid", "Census did not return data for this key")
+    return ("throttled_or_invalid",
+            "Census returned its Invalid-Key page on every retry. It sends that "
+            "same page when THROTTLING, so this is usually rate limiting rather "
+            "than a bad key — wait a few minutes and re-run. If it never clears, "
+            "the key needs the activation link Census emailed you.")
 
 
 def demographics(lat: float, lng: float) -> dict | None:
@@ -131,11 +154,13 @@ def demographics(lat: float, lng: float) -> dict | None:
         "in": f"state:{pl['state']}",
         "key": key,
     })
-    try:
-        with urllib.request.urlopen(f"{ACS}?{q}", timeout=30) as r:
-            rows = json.load(r)
-    except Exception:
-        return None
+    ck = (pl["state"], pl["place"])
+    if ck in _CACHE:
+        rows = _CACHE[ck]
+    else:
+        rows = _acs_get(f"{ACS}?{q}")
+        if rows:
+            _CACHE[ck] = rows          # 31 towns per run, many repeats across runs
     if not rows or len(rows) < 2:
         return None
     head, vals = rows[0], rows[1]
