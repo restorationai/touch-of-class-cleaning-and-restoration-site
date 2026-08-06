@@ -50,6 +50,9 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from census_demand import demographics, demand_score  # noqa: E402
+
 ROOT = Path(__file__).resolve().parents[1]
 CLIENTS_DIR = ROOT / "clients"
 
@@ -146,7 +149,7 @@ def load_client(slug: str) -> dict:
     return {"plan": plan, "rec": rec}
 
 
-def scout(slug: str) -> dict:
+def scout(slug: str, with_census: bool = True) -> dict:
     data = load_client(slug)
     brand = data["plan"].get("brand") or {}
     company_id = data["rec"].get("company_id") or brand.get("company_id")
@@ -181,10 +184,15 @@ def scout(slug: str) -> dict:
                          "distance_mi": None, "covered": None,
                          "note": f"geocoded {int(d)}mi away — wrong match, ignored"})
             continue
+        # Phase 2: is this town worth serving, not just reachable? Silently None
+        # without CENSUS_API_KEY, and the whole report falls back to geometry.
+        demo = demographics(ll[0], ll[1]) if with_census else None
         rows.append({"city": city, "state": state, "lat": ll[0], "lng": ll[1],
                      "distance_mi": round(d, 1),
                      "covered": d <= effective_reach,
-                     "primary": bool(a.get("primary"))})
+                     "primary": bool(a.get("primary")),
+                     "demographics": demo,
+                     "demand": demand_score(demo)})
 
     # Cluster the uncovered towns into offices. HIGHEST-COVERAGE first, not
     # farthest first: an office is worth its lease by how many target towns it
@@ -212,7 +220,14 @@ def scout(slug: str) -> dict:
             covers = [o for o in uncovered
                       if o["city"] not in claimed
                       and haversine_mi(cand["lat"], cand["lng"], o["lat"], o["lng"]) <= effective_reach]
-            score = (len(covers), -cand["distance_mi"])
+            # Demand-weighted coverage: an office reaching three affluent towns
+            # of 1950s housing is worth more than one reaching five towns of
+            # new-build rentals. Each covered town counts as 1 + demand/100, so
+            # coverage still leads and demand breaks the ties. With no census
+            # key every town scores the same and this collapses to plain count.
+            weight = sum(1 + ((o.get("demand") or {}).get("score") or 0) / 100.0
+                         for o in covers)
+            score = (round(weight, 3), -cand["distance_mi"])
             if best is None or score > best[0]:
                 best = (score, cand, covers)
         if not best:
@@ -220,10 +235,15 @@ def scout(slug: str) -> dict:
         _, cand, covers = best
         for o in covers:
             claimed.add(o["city"])
+        seat_demand = [(o.get("demand") or {}).get("score") for o in covers]
+        seat_demand = [x for x in seat_demand if x is not None]
         seats.append({"seat_city": cand["city"], "state": cand["state"],
                       "lat": cand["lat"], "lng": cand["lng"],
                       "distance_from_pin_mi": cand["distance_mi"],
                       "covers_count": len(covers),
+                      "demand_weighted": round(best[0][0], 2),
+                      "avg_demand": round(sum(seat_demand) / len(seat_demand), 1) if seat_demand else None,
+                      "seat_demographics": cand.get("demographics"),
                       "would_cover": sorted(o["city"] for o in covers)})
 
     return {"slug": slug, "company_id": company_id,
@@ -241,6 +261,10 @@ def render(res: dict, top_n: int = DEFAULT_TOP_N) -> None:
     print(f"\nLOCATION SCOUT — {res['slug']}")
     print(f"  current pin: {pin.get('city')}, {pin.get('state')}  ({pin['lat']:.4f}, {pin['lng']:.4f})")
     print(f"  ranking reach in use: {res['effective_reach_mi']} mi  [{res['reach_source']}]")
+    if not os.environ.get("CENSUS_API_KEY"):
+        print("  demand data: OFF — set CENSUS_API_KEY (free, ~1 min at "
+              "api.census.gov/data/key_signup.html) to rank by population, "
+              "income, owner-occupancy, home value and housing age")
     if res["measured_reach"]:
         print("\n  MEASURED TODAY")
         for kw, m in res["measured_reach"].items():
@@ -265,9 +289,18 @@ def render(res: dict, top_n: int = DEFAULT_TOP_N) -> None:
     if not shortlist:
         print("    none — every target area is already inside the current pin's reach")
     for i, s in enumerate(shortlist, 1):
+        dem = f", demand {s['avg_demand']}/100" if s.get("avg_demand") is not None else ""
         print(f"    {i}. {s['seat_city']}, {s['state']}  "
-              f"({s['distance_from_pin_mi']}mi out) — covers {s['covers_count']} target town(s)")
+              f"({s['distance_from_pin_mi']}mi out) — covers {s['covers_count']} target town(s){dem}")
         print(f"       {', '.join(s['would_cover'])}")
+        g = s.get("seat_demographics") or {}
+        if g:
+            def f(v, pre="", suf=""):
+                return f"{pre}{v:,.0f}{suf}" if isinstance(v, (int, float)) else "n/a"
+            print(f"       pop {f(g.get('population'))} | income {f(g.get('median_household_income'), '$')}"
+                  f" | owner-occ {g.get('owner_occupied_pct') if g.get('owner_occupied_pct') is not None else 'n/a'}%"
+                  f" | home {f(g.get('median_home_value'), '$')}"
+                  f" | built {f(g.get('median_year_built'))}")
     rest = res["recommended_offices"][top_n:]
     if rest:
         print(f"\n    also viable, lower coverage: "
@@ -282,8 +315,9 @@ def main() -> int:
     ap.add_argument("--slug", required=True)
     ap.add_argument("--json", action="store_true")
     ap.add_argument("--top", type=int, default=DEFAULT_TOP_N, help="how many offices to shortlist")
+    ap.add_argument("--no-census", action="store_true", help="geometry only, skip demographics")
     a = ap.parse_args()
-    res = scout(a.slug)
+    res = scout(a.slug, with_census=not a.no_census)
     if a.json:
         print(json.dumps(res, indent=2))
     else:
