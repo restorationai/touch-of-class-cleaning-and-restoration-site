@@ -14,6 +14,8 @@
 //      row with number_type=call_tracking, creds in company_phone_setup). Non-fatal.
 //   4. Insert a CRM contact row into Supabase `contacts` (the app's contact/job
 //      pipeline table; client_id = COMPANY_ID). Non-fatal.
+//   5. POST the lead to the client's GoHighLevel inbound webhook, when
+//      GHL_WEBHOOK_URL is set for that Pages project. Non-fatal.
 //
 // Env (Cloudflare Pages project settings — see rank-ai repo, set via API):
 //   SENDGRID_API_KEY           secret  — SendGrid mail send
@@ -24,6 +26,9 @@
 //                                        purchased + verified; unset = client tracking number)
 //   ESTIMATE_SMS_SID           secret  — OPTIONAL agency Twilio subaccount SID (set with FROM)
 //   ESTIMATE_SMS_TOKEN         secret  — OPTIONAL agency Twilio subaccount auth token (set with FROM)
+//   GHL_WEBHOOK_URL            secret  — OPTIONAL GoHighLevel inbound webhook trigger.
+//                                        Per-client, so this file stays identical
+//                                        across sites; unset = step 5 is skipped.
 //
 // Brand identity (client email, phone, domain) is imported from the site's own
 // brand.ts so this file is identical across client sites.
@@ -37,6 +42,7 @@ type Env = {
   ESTIMATE_SMS_FROM?: string;
   ESTIMATE_SMS_SID?: string;
   ESTIMATE_SMS_TOKEN?: string;
+  GHL_WEBHOOK_URL?: string;
 };
 
 const FROM_EMAIL = "no-reply@restorationai.io"; // verified SendGrid sender (same as rank-ai scripts)
@@ -196,6 +202,35 @@ async function insertContact(env: Env, lead: Record<string, string>): Promise<st
   return `error:${r.status}:${(await r.text()).slice(0, 200)}`;
 }
 
+// GoHighLevel inbound webhook trigger. Sends ONLY the five lead fields.
+//
+// The honeypot (`company_website`) and the render-time token (`fets`) are
+// deliberately never forwarded: `fets` is meaningless outside this handler,
+// and forwarding the honeypot would put a field named "company website" on the
+// contact record — a value that is only ever non-empty for a bot we already
+// dropped above. Empty optional fields are omitted rather than sent as "",
+// so GHL does not overwrite an existing contact's email with a blank.
+async function postToGhl(env: Env, lead: Record<string, string>): Promise<string> {
+  const url = (env.GHL_WEBHOOK_URL || "").trim();
+  if (!url) return "skipped:no-webhook-url";
+
+  const payload: Record<string, string> = {
+    name: lead.name,
+    phone: lead.phone,
+    city: lead.city,
+  };
+  if (lead.email) payload.email = lead.email;
+  if (lead.description) payload.description = lead.description;
+
+  const r = await fetch(url, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(payload),
+  });
+  if (r.ok) return "sent";
+  return `error:${r.status}:${(await r.text()).slice(0, 200)}`;
+}
+
 export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
   let data: Record<string, unknown>;
   try {
@@ -222,15 +257,18 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
 
   const toEmail = await resolveRecipient(env).catch(() => (brand.email || "").trim());
 
-  const [email, sms, db] = await Promise.all([
+  const [email, sms, db, ghl] = await Promise.all([
     sendEmail(env, lead, toEmail).catch((e) => `error:${String(e).slice(0, 200)}`),
     sendSms(env, lead).catch((e) => `error:${String(e).slice(0, 200)}`),
     insertContact(env, lead).catch((e) => `error:${String(e).slice(0, 200)}`),
+    postToGhl(env, lead).catch((e) => `error:${String(e).slice(0, 200)}`),
   ]);
 
-  // Email is the primary delivery channel; SMS + DB are best-effort extras.
+  // Email is the primary delivery channel; SMS, DB and GHL are best-effort
+  // extras — a GHL outage must never cost us the lead or show the homeowner
+  // an error when the email already landed.
   const ok = email === "sent";
-  const body: Record<string, unknown> = { ok, email, sms, db };
+  const body: Record<string, unknown> = { ok, email, sms, db, ghl };
   // Diagnostic only: expose the resolved recipient on explicit TEST submissions
   // so re-tests can verify routing. Never included on real leads.
   if (lead.description.includes("TEST")) body.to = toEmail;
