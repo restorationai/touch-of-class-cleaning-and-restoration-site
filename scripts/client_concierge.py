@@ -4965,8 +4965,16 @@ def cmd_compose(args) -> int:
     # SHOW THEM THE SITE FIRST (2026-08-04): re-rank the website-preview ask
     # against the real thread — never sent => it leads this message.
     preview_url = boost_preview_share(company, items, history)
-    if preview_url:
-        items.sort(key=ask_rank)
+    # ALWAYS sort (Santino 2026-08-06). boost_preview_share returns None once
+    # the link has already been sent — but it still stamps _rank 4 on the share
+    # ask to demote it. Sorting only when it returned a URL meant that demotion
+    # was never applied: items kept source order and the already-seen "take a
+    # look at your preview" nudge beat the domain ask, which ranks 1 as a launch
+    # blocker. HomeLyft sat at build_status=preview_ready with
+    # domain_access_status=none, having already been sent the link, and the next
+    # message queued was another preview nudge instead of the one thing standing
+    # between them and going live. Affects every client past the preview share.
+    items.sort(key=ask_rank)
     draft = compose_draft(company, first, items, args.channel, first_contact,
                           history=history, intel=intel, appointments=appts,
                           sister_names=sister_names, pending_reply=pending,
@@ -5241,8 +5249,16 @@ def preview_compose(company_id: str, channel: str = "sms") -> dict:
         res = fetch_upcoming_appointments(contact["id"], tz_name)
         appts = res[0] if isinstance(res, tuple) else None
     preview_url = boost_preview_share(company, items, history)
-    if preview_url:
-        items.sort(key=ask_rank)
+    # ALWAYS sort (Santino 2026-08-06). boost_preview_share returns None once
+    # the link has already been sent — but it still stamps _rank 4 on the share
+    # ask to demote it. Sorting only when it returned a URL meant that demotion
+    # was never applied: items kept source order and the already-seen "take a
+    # look at your preview" nudge beat the domain ask, which ranks 1 as a launch
+    # blocker. HomeLyft sat at build_status=preview_ready with
+    # domain_access_status=none, having already been sent the link, and the next
+    # message queued was another preview nudge instead of the one thing standing
+    # between them and going live. Affects every client past the preview share.
+    items.sort(key=ask_rank)
     draft = compose_draft(company, first, items, channel, first_contact,
                           history=history, intel=intel, appointments=appts,
                           pending_reply=pending, commitment=commitment,
@@ -5325,8 +5341,16 @@ def send_now(company_id: str, channel: str = "sms") -> dict:
     appts_res = fetch_upcoming_appointments(contact["id"], tz_key)
     appts = appts_res[0] if isinstance(appts_res, tuple) else None
     preview_url = boost_preview_share(company, items, history)
-    if preview_url:
-        items.sort(key=ask_rank)
+    # ALWAYS sort (Santino 2026-08-06). boost_preview_share returns None once
+    # the link has already been sent — but it still stamps _rank 4 on the share
+    # ask to demote it. Sorting only when it returned a URL meant that demotion
+    # was never applied: items kept source order and the already-seen "take a
+    # look at your preview" nudge beat the domain ask, which ranks 1 as a launch
+    # blocker. HomeLyft sat at build_status=preview_ready with
+    # domain_access_status=none, having already been sent the link, and the next
+    # message queued was another preview nudge instead of the one thing standing
+    # between them and going live. Affects every client past the preview share.
+    items.sort(key=ask_rank)
     draft = compose_draft(company, first, items, channel, first_contact,
                           history=history, intel=intel, appointments=appts,
                           pending_reply=pending, commitment=commitment,
