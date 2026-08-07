@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Fire Damage Restoration in Davie | RestorationXpress "
 h1: "Fire Damage Restoration in Davie"
-meta_description: "Fire damage restoration in Davie and surrounding areas. Insurance billing accepted. Call (954) 964-6471."
+meta_description: "Fire damage restoration in Davie and surrounding areas. Insurance billing accepted. Call (954) 932-5420."
 primary_keyword: "fire damage restoration davie"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -70,4 +70,4 @@ Dry-season fires (roughly November through April) often involve lower ambient hu
 
 RestorationXpress is based in Davie, FL and serves fire damage restoration clients throughout Broward County and the surrounding region — including Fort Lauderdale, Hollywood, Pembroke Pines, Miramar, Weston, Cooper City, Plantation, and Sunrise. The city-specific pages linked from this site go deeper on local housing stock and neighborhood considerations for each area.
 
-If you're standing in a smoke-damaged home and trying to figure out what to do next, call (954) 964-6471. The sooner soot is characterized and contained, the more of your home — and your contents — can be saved. **Call now to begin smoke and soot removal.**
+If you're standing in a smoke-damaged home and trying to figure out what to do next, call (954) 932-5420. The sooner soot is characterized and contained, the more of your home — and your contents — can be saved. **Call now to begin smoke and soot removal.**

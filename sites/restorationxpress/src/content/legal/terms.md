@@ -42,7 +42,7 @@ We retain customer records — including project documentation and communication
 
 If you are a California resident, you have rights under the California Consumer Privacy Act (CCPA), including the right to know what personal information we hold about you, the right to request deletion, and the right to opt out of any sale of your data (we do not sell data). Visitors from the European Union may have additional rights under GDPR; because our services are limited to Florida, GDPR applicability is unlikely, but we will honor reasonable data access or deletion requests regardless of location.
 
-For any privacy questions, contact us at issac@restorationxpress.com or by phone at (954) 964-6471.
+For any privacy questions, contact us at issac@restorationxpress.com or by phone at (954) 932-5420.
 
 ---
 
@@ -74,7 +74,7 @@ RestorationXpress operates as a licensed contractor under Florida state regulati
 
 ### Dispute Resolution
 
-If a dispute arises from services we have performed, we ask that you contact us first at issac@restorationxpress.com or (954) 964-6471 so we have the opportunity to resolve it directly. If a resolution cannot be reached, disputes will be governed by the laws of the State of Florida, with venue in Broward County.
+If a dispute arises from services we have performed, we ask that you contact us first at issac@restorationxpress.com or (954) 932-5420 so we have the opportunity to resolve it directly. If a resolution cannot be reached, disputes will be governed by the laws of the State of Florida, with venue in Broward County.
 
 ---
 
@@ -82,4 +82,4 @@ If a dispute arises from services we have performed, we ask that you contact us 
 
 RestorationXpress is committed to making our website usable by everyone, including visitors who rely on assistive technologies. We aim to meet the Web Content Accessibility Guidelines (WCAG) 2.1 Level AA, and our site is built to be compatible with screen readers and keyboard navigation.
 
-If you encounter a barrier — a page that is difficult to navigate, an image without a description, a form that does not work with your assistive device — please let us know. You can reach us at issac@restorationxpress.com or by calling (954) 964-6471. We are committed to reviewing and addressing reported accessibility issues within a reasonable timeframe. Your feedback helps us improve the experience for every visitor.
+If you encounter a barrier — a page that is difficult to navigate, an image without a description, a form that does not work with your assistive device — please let us know. You can reach us at issac@restorationxpress.com or by calling (954) 932-5420. We are committed to reviewing and addressing reported accessibility issues within a reasonable timeframe. Your feedback helps us improve the experience for every visitor.

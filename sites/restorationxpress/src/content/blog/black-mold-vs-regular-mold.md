@@ -92,4 +92,4 @@ Professional mold remediation involves containment of the affected area, removal
 
 If you're staring at a dark stain and wondering whether it's dangerous, the honest answer is: you probably can't tell without testing. What you *can* assess is the moisture history of the area, the extent of growth, and whether anyone in the home is symptomatic. Those factors matter more than color.
 
-If the situation fits any of the "call a professional" criteria above, RestorationXpress serves Davie and the surrounding area — reach them at **(954) 964-6471** to discuss what you're seeing before deciding on next steps.
+If the situation fits any of the "call a professional" criteria above, RestorationXpress serves Davie and the surrounding area — reach them at **(954) 932-5420** to discuss what you're seeing before deciding on next steps.

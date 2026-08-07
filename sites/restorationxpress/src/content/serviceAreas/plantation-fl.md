@@ -2,7 +2,7 @@
 archetype: "service-area"
 title: "Restoration Services in Plantation, FL | RestorationXpress "
 h1: "Restoration Services in Plantation"
-meta_description: "Serving Plantation, FL with water, fire, mold, and storm damage restoration. Experienced team. Call (954) 964-6471."
+meta_description: "Serving Plantation, FL with water, fire, mold, and storm damage restoration. Experienced team. Call (954) 932-5420."
 primary_keyword: "restoration services plantation"
 secondary_keywords: ["plantation restoration company", "damage restoration plantation", "plantation disaster restoration"]
 search_intent: "local_commercial"
@@ -51,4 +51,4 @@ Most of Plantation's older housing is concrete block with stucco over furring st
 
 Building permits for structural repair, reroofing, and rebuild come from the City of Plantation's building department. Broward sits in Florida's High-Velocity Hurricane Zone, so roof and opening work carries stricter attachment and product-approval requirements. Many Plantation communities also have HOA architectural review on top of the city's.
 
-If you are dealing with water, fire, mold, or storm damage anywhere in Plantation — from Plantation Acres to Plantation Isles — call RestorationXpress at **(954) 964-6471**. We will assess the situation, explain what needs to happen, and get a crew moving.
+If you are dealing with water, fire, mold, or storm damage anywhere in Plantation — from Plantation Acres to Plantation Isles — call RestorationXpress at **(954) 932-5420**. We will assess the situation, explain what needs to happen, and get a crew moving.

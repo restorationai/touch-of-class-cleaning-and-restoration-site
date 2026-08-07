@@ -80,4 +80,4 @@ Understanding the legitimate process helps you recognize when something is off.
 
 ## When You're Ready to Make a Decision
 
-If you've done the homework above and you're looking for a restoration company serving Davie and the surrounding Broward County area, RestorationXpress is worth a call. Reach them at **(954) 964-6471**. Ask the questions in this post — any company worth hiring will welcome them. The ones who get defensive when you ask for a license number or a written estimate are telling you something important.
+If you've done the homework above and you're looking for a restoration company serving Davie and the surrounding Broward County area, RestorationXpress is worth a call. Reach them at **(954) 932-5420**. Ask the questions in this post — any company worth hiring will welcome them. The ones who get defensive when you ask for a license number or a written estimate are telling you something important.

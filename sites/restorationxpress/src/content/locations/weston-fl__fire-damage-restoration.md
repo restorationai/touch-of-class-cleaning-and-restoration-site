@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Fire Damage Restoration in Weston, FL | RestorationXpress "
 h1: "Fire Damage Restoration in Weston"
-meta_description: "Fire damage restoration in Weston, FL. Insurance billing accepted. Call (954) 964-6471."
+meta_description: "Fire damage restoration in Weston, FL. Insurance billing accepted. Call (954) 932-5420."
 primary_keyword: "fire damage restoration weston"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -48,4 +48,4 @@ Most fire losses in Weston involve two parallel processes: the homeowner's insur
 
 Weston's HOA communities built after 1995 frequently specify particular exterior paint colors, roofing materials, and even window frame finishes in their CC&Rs. After a fire that affects the exterior — fascia, soffits, stucco, or roofline — the replacement materials must match the HOA's approved palette, not just the original builder spec. We've seen homeowners receive violation notices after restoration because a contractor used a slightly off-spec stucco texture or a paint color that was one shade outside the approved range. Before any exterior work begins, we cross-reference the community's architectural guidelines so the finished repair passes the HOA review on the first submission.
 
-If your home or investment property in Weston has sustained fire or smoke damage, call RestorationXpress at (954) 964-6471. The sooner the scope is documented and the cleaning sequence begins, the more of your home's original materials and finishes can be saved rather than replaced.
+If your home or investment property in Weston has sustained fire or smoke damage, call RestorationXpress at (954) 932-5420. The sooner the scope is documented and the cleaning sequence begins, the more of your home's original materials and finishes can be saved rather than replaced.

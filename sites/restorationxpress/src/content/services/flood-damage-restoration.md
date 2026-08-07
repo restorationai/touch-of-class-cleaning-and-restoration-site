@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Flood Damage Restoration in Davie | RestorationXpress "
 h1: "Flood Damage Restoration in Davie"
-meta_description: "Flood damage restoration in Davie and surrounding areas. Insurance billing accepted. Call (954) 964-6471."
+meta_description: "Flood damage restoration in Davie and surrounding areas. Insurance billing accepted. Call (954) 932-5420."
 primary_keyword: "flood damage restoration davie"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -72,4 +72,4 @@ The combination of high ambient humidity and warm year-round temperatures means 
 
 RestorationXpress is based in Davie and provides flood damage restoration throughout Broward County, including Fort Lauderdale, Hollywood, Pembroke Pines, Miramar, Cooper City, Weston, Plantation, and Sunrise. The city-specific pages linked from this one cover local considerations for each area — housing stock, common flood sources, and typical insurance carrier relationships in that market.
 
-If your property has standing water or you're seeing the early signs of flood damage — soft flooring, damp baseboards, a musty smell that wasn't there before the last rain — call RestorationXpress at **(954) 964-6471** to schedule your moisture assessment and get a written scope before the damage has time to compound.
+If your property has standing water or you're seeing the early signs of flood damage — soft flooring, damp baseboards, a musty smell that wasn't there before the last rain — call RestorationXpress at **(954) 932-5420** to schedule your moisture assessment and get a written scope before the damage has time to compound.

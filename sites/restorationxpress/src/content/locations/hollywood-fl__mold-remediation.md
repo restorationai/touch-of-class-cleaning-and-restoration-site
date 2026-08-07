@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Remediation in Hollywood, FL | RestorationXpress "
 h1: "Mold Remediation in Hollywood"
-meta_description: "Mold remediation in Hollywood, FL. Insurance billing accepted. Call (954) 964-6471."
+meta_description: "Mold remediation in Hollywood, FL. Insurance billing accepted. Call (954) 932-5420."
 primary_keyword: "mold remediation hollywood"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
@@ -48,4 +48,4 @@ For condominium owners in Hollywood Beach high-rises and townhome communities, H
 
 One pattern that comes up repeatedly on Hollywood jobs near the Anne Kolb Nature Center and the western edges of Hollywood Lakes: homes backing up to canal-adjacent lots sit on fill soil that stays saturated well into the dry season. When those slabs develop hairline cracks — common in South Florida's expansive soil — groundwater wicks up through the crack and into the flooring assembly above. Homeowners often assume the moisture is condensation from the AC system and treat it with a dehumidifier, which masks the symptom without addressing the source. By the time mold is visible at baseboards, the subfloor and lower wall cavity have often been wet for months. If your home is on a canal lot or backs to a retention area, a slab moisture test is worth adding to any mold inspection.
 
-If you are dealing with a musty smell, visible discoloration, or a recent water event in your Hollywood home or commercial property, call RestorationXpress at (954) 964-6471. We serve Hollywood from our Broward County base and can schedule an inspection to assess what is actually happening inside your walls before the problem grows any further.
+If you are dealing with a musty smell, visible discoloration, or a recent water event in your Hollywood home or commercial property, call RestorationXpress at (954) 932-5420. We serve Hollywood from our Broward County base and can schedule an inspection to assess what is actually happening inside your walls before the problem grows any further.

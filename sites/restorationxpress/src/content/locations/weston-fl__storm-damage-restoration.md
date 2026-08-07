@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Storm Damage Restoration in Weston, FL | RestorationXpress "
 h1: "Storm Damage Restoration in Weston"
-meta_description: "Storm damage restoration in Weston, FL. Insurance billing accepted. Call (954) 964-6471."
+meta_description: "Storm damage restoration in Weston, FL. Insurance billing accepted. Call (954) 932-5420."
 primary_keyword: "storm damage restoration weston"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -51,4 +51,4 @@ For HOA communities, we're familiar with the distinction between what the associ
 
 One pattern we see repeatedly in Weston's newer gated subdivisions: barrel tile roofs that look intact from the street have lost their mortar-set hip and ridge caps in high-wind events. The field tiles stay in place, so there's no obvious missing-tile signal, but the unsealed ridgelines allow wind-driven rain to enter the attic cavity during the next storm. Homeowners near Markham Park and along the Bonaventure corridor who experienced gusts above 60 mph should have ridge and hip mortar inspected even if the roof looks fine from the driveway — the failure is invisible until the next rain event turns it into a ceiling stain.
 
-If your property in Weston has taken storm damage — whether it's a tree through a screen enclosure, a flooded garage slab, or a wind-compromised roof — call RestorationXpress at (954) 964-6471. We'll assess the damage, document it properly for your insurer and HOA, and get the work moving before the South Florida humidity turns a repair into a remediation.
+If your property in Weston has taken storm damage — whether it's a tree through a screen enclosure, a flooded garage slab, or a wind-compromised roof — call RestorationXpress at (954) 932-5420. We'll assess the damage, document it properly for your insurer and HOA, and get the work moving before the South Florida humidity turns a repair into a remediation.

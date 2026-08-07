@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Remediation in Pembroke Pines, FL | RestorationXpress "
 h1: "Mold Remediation in Pembroke Pines"
-meta_description: "Mold remediation in Pembroke Pines, FL. Insurance billing accepted. Call (954) 964-6471."
+meta_description: "Mold remediation in Pembroke Pines, FL. Insurance billing accepted. Call (954) 932-5420."
 primary_keyword: "mold remediation pembroke pines"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
@@ -36,7 +36,7 @@ Once the scope is confirmed, we establish negative-air containment using 6-mil p
 
 ## Reaching Pembroke Pines from Davie
 
-RestorationXpress is based in Davie, which puts the team a short drive from most Pembroke Pines ZIP codes via I-595 or Stirling Road. The western communities — ZIP codes 33028 and 33029, covering Grand Palms and Chapel Trail — add a few minutes compared to the eastern side of the city, but the route is straightforward and avoids the congestion that builds on US-27 during peak hours. When you call (954) 964-6471, the team can give you a realistic arrival window based on current conditions.
+RestorationXpress is based in Davie, which puts the team a short drive from most Pembroke Pines ZIP codes via I-595 or Stirling Road. The western communities — ZIP codes 33028 and 33029, covering Grand Palms and Chapel Trail — add a few minutes compared to the eastern side of the city, but the route is straightforward and avoids the congestion that builds on US-27 during peak hours. When you call (954) 932-5420, the team can give you a realistic arrival window based on current conditions.
 
 ## Pembroke Pines Insurance and HOA Coordination
 
@@ -48,4 +48,4 @@ HOA involvement is common in Pembroke Pines, particularly in master-planned comm
 
 Homes built in Pembroke Pines during the early 1990s construction boom frequently used a paper-faced drywall product that performs poorly when exposed to South Florida's humidity levels — it delaminates faster than modern moisture-resistant board and provides an especially hospitable surface for mold growth. If your home was built between roughly 1988 and 1998 and has experienced any water intrusion near the C.B. Smith Park corridor or along the older sections of Chapel Trail, it's worth having the wall cavities inspected even if surface finishes look intact. The paper facing can harbor active growth while the painted surface shows nothing.
 
-If you've noticed a persistent musty odor, visible discoloration on walls or ceilings, or recently dealt with flooding or a plumbing leak anywhere in Pembroke Pines, don't wait for the problem to spread. Call RestorationXpress at (954) 964-6471 to schedule an inspection and get a clear picture of what's actually happening inside your walls.
+If you've noticed a persistent musty odor, visible discoloration on walls or ceilings, or recently dealt with flooding or a plumbing leak anywhere in Pembroke Pines, don't wait for the problem to spread. Call RestorationXpress at (954) 932-5420 to schedule an inspection and get a clear picture of what's actually happening inside your walls.

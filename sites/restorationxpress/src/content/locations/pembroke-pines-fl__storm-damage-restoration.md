@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Storm Damage Restoration in Pembroke Pines, FL | RestorationXpress "
 h1: "Storm Damage Restoration in Pembroke Pines"
-meta_description: "Storm damage restoration in Pembroke Pines, FL. Insurance billing accepted. Call (954) 964-6471."
+meta_description: "Storm damage restoration in Pembroke Pines, FL. Insurance billing accepted. Call (954) 932-5420."
 primary_keyword: "storm damage restoration pembroke pines"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -46,10 +46,10 @@ We document losses in the format most major carriers request — scope of damage
 
 ## Reaching Pembroke Pines from Davie
 
-RestorationXpress operates out of Davie, which sits directly east of Pembroke Pines along the Stirling Road and Pines Boulevard corridors. Depending on where in the city your property is located — whether that's closer to C.B. Smith Park on the north end or out near the Chapel Trail Nature Preserve on the western edge — travel time from the Davie office is typically short. Call (954) 964-6471 to schedule an assessment and we'll give you a realistic arrival window based on current conditions.
+RestorationXpress operates out of Davie, which sits directly east of Pembroke Pines along the Stirling Road and Pines Boulevard corridors. Depending on where in the city your property is located — whether that's closer to C.B. Smith Park on the north end or out near the Chapel Trail Nature Preserve on the western edge — travel time from the Davie office is typically short. Call (954) 932-5420 to schedule an assessment and we'll give you a realistic arrival window based on current conditions.
 
 ## Local Note
 
 Homes backing up to the lake systems in SilverLakes and Pembroke Isles face a specific post-storm hazard that's easy to overlook: when lake levels rise rapidly during heavy rain events, the ground between the lake bank and the home's slab can become saturated faster than surface flooding suggests. That saturated soil can wick moisture laterally into slab edges and stem walls, showing up as efflorescence or interior humidity spikes well after the standing water outside has receded. We probe those transition zones specifically on lakefront properties rather than treating them the same as interior lots.
 
-If your Pembroke Pines home or commercial property sustained storm damage — whether it's a damaged roof, wind-driven water intrusion, or a tree that came through a wall — call RestorationXpress at (954) 964-6471. We'll assess the damage, document it thoroughly, and walk you through a clear plan to get the property back to pre-storm condition.
+If your Pembroke Pines home or commercial property sustained storm damage — whether it's a damaged roof, wind-driven water intrusion, or a tree that came through a wall — call RestorationXpress at (954) 932-5420. We'll assess the damage, document it thoroughly, and walk you through a clear plan to get the property back to pre-storm condition.

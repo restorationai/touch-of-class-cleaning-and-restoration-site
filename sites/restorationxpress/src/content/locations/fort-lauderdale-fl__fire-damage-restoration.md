@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Fire Damage Restoration in Fort Lauderdale, FL | RestorationXpress "
 h1: "Fire Damage Restoration in Fort Lauderdale"
-meta_description: "Fire damage restoration in Fort Lauderdale, FL. Insurance billing accepted. Call (954) 964-6471."
+meta_description: "Fire damage restoration in Fort Lauderdale, FL. Insurance billing accepted. Call (954) 932-5420."
 primary_keyword: "fire damage restoration fort lauderdale"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -50,4 +50,4 @@ If your property falls under an HOA, many Fort Lauderdale associations require a
 
 In Fort Lauderdale's older CBS neighborhoods — particularly the blocks between Federal Highway and the Intracoastal in ZIP code 33301 — original terrazzo floors are common. After a fire, terrazzo is often salvageable even when the surrounding structure is not, but aggressive water application during firefighting can cause grout line cracking and staining that looks worse than it is. We assess terrazzo separately before any floor-level debris removal begins, because restoration is almost always less expensive than replacement and preserves a feature that adds real value in this market.
 
-If your home or investment property in Fort Lauderdale has been damaged by fire, call RestorationXpress at (954) 964-6471. We'll assess the damage, walk you through the restoration process, and coordinate with your insurance carrier so you're not managing this alone.
+If your home or investment property in Fort Lauderdale has been damaged by fire, call RestorationXpress at (954) 932-5420. We'll assess the damage, walk you through the restoration process, and coordinate with your insurance carrier so you're not managing this alone.

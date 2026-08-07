@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Fire Damage Restoration in Miramar, FL | RestorationXpress "
 h1: "Fire Damage Restoration in Miramar"
-meta_description: "Fire damage restoration in Miramar, FL. Insurance billing accepted. Call (954) 964-6471."
+meta_description: "Fire damage restoration in Miramar, FL. Insurance billing accepted. Call (954) 932-5420."
 primary_keyword: "fire damage restoration miramar"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -36,7 +36,7 @@ Once the scope is documented with photographs and moisture readings, the work mo
 
 ## Reaching Miramar from Davie
 
-RestorationXpress is based in Davie, which puts the team in a practical position to reach most of Miramar's neighborhoods without navigating the congestion that affects crews coming from further north or east. From the Davie office, the route to the Riviera Isles area and the communities along Miramar Parkway typically runs via I-595 or University Drive depending on time of day. The western ZIP codes — 33027 and 33029 — are accessible via Pines Boulevard or Miramar Parkway west of I-75. For scheduling and routing questions, call (954) 964-6471 directly.
+RestorationXpress is based in Davie, which puts the team in a practical position to reach most of Miramar's neighborhoods without navigating the congestion that affects crews coming from further north or east. From the Davie office, the route to the Riviera Isles area and the communities along Miramar Parkway typically runs via I-595 or University Drive depending on time of day. The western ZIP codes — 33027 and 33029 — are accessible via Pines Boulevard or Miramar Parkway west of I-75. For scheduling and routing questions, call (954) 932-5420 directly.
 
 ## Miramar Insurance and HOA Coordination
 
@@ -46,4 +46,4 @@ Fire claims in Miramar frequently involve both a homeowner's insurance carrier a
 
 One pattern that comes up specifically in Miramar's older eastern neighborhoods: homes built in the late 1960s and early 1970s frequently have terrazzo floors throughout the main living areas. Terrazzo is highly durable and doesn't burn, but it absorbs smoke odor into its porous surface and can hold residue in the grout lines. Standard mopping doesn't address this — terrazzo in a fire-affected home typically requires a multi-step chemical treatment and mechanical scrubbing process before it's considered clean. Crews unfamiliar with this flooring type sometimes sign off on a job that still has a persistent odor source sitting at floor level.
 
-If your home or investment property in Miramar has been affected by fire, smoke, or the water used to suppress it, call RestorationXpress at (954) 964-6471 to schedule an assessment. The sooner the scope is documented, the more options remain open — both for salvaging materials and for supporting your insurance claim.
+If your home or investment property in Miramar has been affected by fire, smoke, or the water used to suppress it, call RestorationXpress at (954) 932-5420 to schedule an assessment. The sooner the scope is documented, the more options remain open — both for salvaging materials and for supporting your insurance claim.

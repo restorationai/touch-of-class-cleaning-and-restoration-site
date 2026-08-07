@@ -87,4 +87,4 @@ If your home had pre-existing conditions uncovered during the work — old plumb
 
 ---
 
-If you're in the Davie area and working through the aftermath of a fire — whether it happened last night or a few days ago and you're still figuring out next steps — RestorationXpress handles both the fire damage and smoke damage sides of recovery. Reach out at **(954) 964-6471** to talk through what you're seeing and what the process looks like for your specific situation.
+If you're in the Davie area and working through the aftermath of a fire — whether it happened last night or a few days ago and you're still figuring out next steps — RestorationXpress handles both the fire damage and smoke damage sides of recovery. Reach out at **(954) 932-5420** to talk through what you're seeing and what the process looks like for your specific situation.

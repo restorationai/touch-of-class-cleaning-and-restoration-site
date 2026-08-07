@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Water Damage Restoration in Davie | RestorationXpress "
 h1: "Water Damage Restoration in Davie"
-meta_description: "Water damage restoration in Davie and surrounding areas. Insurance billing accepted. Call (954) 964-6471."
+meta_description: "Water damage restoration in Davie and surrounding areas. Insurance billing accepted. Call (954) 932-5420."
 primary_keyword: "water damage restoration davie"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -59,4 +59,4 @@ RestorationXpress serves Davie and the surrounding Broward County area, includin
 
 ---
 
-If you're seeing wet flooring, discolored ceilings, or reading this because you just found standing water somewhere in your home, the most useful next step is a moisture assessment — not a guess about whether it will dry on its own. Call RestorationXpress at (954) 964-6471 to schedule your moisture assessment and get a clear picture of what's wet, how wet, and what it takes to bring it back to dry.
+If you're seeing wet flooring, discolored ceilings, or reading this because you just found standing water somewhere in your home, the most useful next step is a moisture assessment — not a guess about whether it will dry on its own. Call RestorationXpress at (954) 932-5420 to schedule your moisture assessment and get a clear picture of what's wet, how wet, and what it takes to bring it back to dry.

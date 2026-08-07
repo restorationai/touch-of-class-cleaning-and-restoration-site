@@ -2,7 +2,7 @@
 archetype: "service-area"
 title: "Restoration Services in Miramar, FL | RestorationXpress "
 h1: "Restoration Services in Miramar"
-meta_description: "Serving Miramar, FL with water, fire, mold, and storm damage restoration. Experienced team. Call (954) 964-6471."
+meta_description: "Serving Miramar, FL with water, fire, mold, and storm damage restoration. Experienced team. Call (954) 932-5420."
 primary_keyword: "restoration services miramar"
 secondary_keywords: ["miramar restoration company", "damage restoration miramar", "miramar disaster restoration"]
 search_intent: "local_commercial"
@@ -57,4 +57,4 @@ East of Palm Avenue, much of the housing is 1950s–1960s concrete block with st
 
 Broward is a High-Velocity Hurricane Zone under the Florida Building Code, and the county's Board of Rules and Appeals oversees how it is administered. Permits come from the City of Miramar's building division. Drying and cleaning generally do not need one; roofing, structural framing, electrical, and drywall replacement usually do — and HOA approval is separate.
 
-If you're dealing with a water loss, fire damage, or a mold concern anywhere in Miramar, call RestorationXpress at **(954) 964-6471**. We'll walk you through what to expect before we ever arrive on site.
+If you're dealing with a water loss, fire damage, or a mold concern anywhere in Miramar, call RestorationXpress at **(954) 932-5420**. We'll walk you through what to expect before we ever arrive on site.

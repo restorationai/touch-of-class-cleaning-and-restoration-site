@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Storm Damage Restoration in Hollywood, FL | RestorationXpress "
 h1: "Storm Damage Restoration in Hollywood"
-meta_description: "Storm damage restoration in Hollywood, FL. Insurance billing accepted. Call (954) 964-6471."
+meta_description: "Storm damage restoration in Hollywood, FL. Insurance billing accepted. Call (954) 932-5420."
 primary_keyword: "storm damage restoration hollywood"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -36,7 +36,7 @@ Water extraction and structural drying follow the IICRC S500 standard, with desi
 
 ## Reaching Hollywood from Davie
 
-RestorationXpress is based in Davie, which puts the team a short drive from most of Hollywood via I-595 East to I-95 South, or along Stirling Road and Sheridan Street depending on traffic. Hollywood Lakes, Emerald Hills, and the neighborhoods surrounding ArtsPark at Young Circle are all reachable without navigating the congestion that builds on US-1 during peak hours. For properties near the beach corridor or south toward the Hallandale line, the team uses Hollywood Boulevard as the primary east-west approach. Scheduling is handled by phone at (954) 964-6471.
+RestorationXpress is based in Davie, which puts the team a short drive from most of Hollywood via I-595 East to I-95 South, or along Stirling Road and Sheridan Street depending on traffic. Hollywood Lakes, Emerald Hills, and the neighborhoods surrounding ArtsPark at Young Circle are all reachable without navigating the congestion that builds on US-1 during peak hours. For properties near the beach corridor or south toward the Hallandale line, the team uses Hollywood Boulevard as the primary east-west approach. Scheduling is handled by phone at (954) 932-5420.
 
 ## Hollywood Insurance and HOA Coordination
 
@@ -46,4 +46,4 @@ Storm damage claims in Hollywood frequently involve Citizens Property Insurance 
 
 Hollywood's older beachside neighborhoods carry a specific risk that does not show up on a standard storm damage checklist: the combination of original jalousie windows and wood-framed interior walls means that even a moderate storm with wind-driven rain can push water horizontally through window gaps and saturate wall insulation without leaving obvious exterior damage. On properties near the Anne Kolb Nature Center and the Intracoastal, the team routinely checks those window frames and the wall cavities directly behind them as a first step — not because the roof failed, but because that is where the water actually went.
 
-If your Hollywood property took a hit from a recent storm, the damage assessment is the place to start. Call RestorationXpress at (954) 964-6471 to schedule an inspection and get a clear picture of what the storm left behind before secondary damage has time to develop.
+If your Hollywood property took a hit from a recent storm, the damage assessment is the place to start. Call RestorationXpress at (954) 932-5420 to schedule an inspection and get a clear picture of what the storm left behind before secondary damage has time to develop.

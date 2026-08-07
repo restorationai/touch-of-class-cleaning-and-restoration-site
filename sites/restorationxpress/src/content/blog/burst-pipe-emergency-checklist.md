@@ -79,4 +79,4 @@ If your water damage originated from an appliance rather than a supply line in t
 
 ## Take the Next Step
 
-If you've worked through this checklist and the damage is more than a small, contained area — or if you're not confident the space is drying adequately — it's worth having a professional assess it. Moisture left behind in walls or under flooring doesn't resolve on its own; it just becomes a mold problem a few weeks later. RestorationXpress serves Davie and the surrounding Broward County area and can help you understand the full scope of what you're dealing with. Call (954) 964-6471 to schedule an assessment.
+If you've worked through this checklist and the damage is more than a small, contained area — or if you're not confident the space is drying adequately — it's worth having a professional assess it. Moisture left behind in walls or under flooring doesn't resolve on its own; it just becomes a mold problem a few weeks later. RestorationXpress serves Davie and the surrounding Broward County area and can help you understand the full scope of what you're dealing with. Call (954) 932-5420 to schedule an assessment.

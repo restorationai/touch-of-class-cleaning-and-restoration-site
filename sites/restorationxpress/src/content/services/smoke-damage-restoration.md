@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Smoke Damage Restoration in Davie | RestorationXpress "
 h1: "Smoke Damage Restoration in Davie"
-meta_description: "Smoke damage restoration in Davie and surrounding areas. Insurance billing accepted. Call (954) 964-6471."
+meta_description: "Smoke damage restoration in Davie and surrounding areas. Insurance billing accepted. Call (954) 932-5420."
 primary_keyword: "smoke damage restoration davie"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -73,4 +73,4 @@ Wildfire smoke is a growing concern even in South Florida. When regional wildfir
 
 RestorationXpress is based in Davie and handles smoke damage restoration throughout Broward County and the surrounding region, including Fort Lauderdale, Hollywood, Pembroke Pines, Miramar, Weston, Cooper City, Plantation, and Sunrise. City-specific pages with local details are linked from each area's service page.
 
-If you're looking at smoke staining on your walls, smelling residue that won't clear with ventilation, or dealing with the aftermath of a kitchen fire or structure fire anywhere in the area, call RestorationXpress at (954) 964-6471 to schedule your smoke and soot assessment and get a written scope before any work begins.
+If you're looking at smoke staining on your walls, smelling residue that won't clear with ventilation, or dealing with the aftermath of a kitchen fire or structure fire anywhere in the area, call RestorationXpress at (954) 932-5420 to schedule your smoke and soot assessment and get a written scope before any work begins.

@@ -78,4 +78,4 @@ Proper mold remediation involves containing the affected area to prevent cross-c
 
 The remediation contractor and the inspector should ideally be separate companies — this is sometimes called the "separation of testing and remediation" and it protects you from a conflict of interest where the company finding the problem is also the one billing to fix it.
 
-RestorationXpress handles mold remediation and can coordinate with independent testing professionals in the Davie area. If you've already received an inspection report and need a remediation scope reviewed, or if you're not sure where to start, call (954) 964-6471 and describe what you've found — the team can help you understand your next step without any pressure to commit to a project on the spot.
+RestorationXpress handles mold remediation and can coordinate with independent testing professionals in the Davie area. If you've already received an inspection report and need a remediation scope reviewed, or if you're not sure where to start, call (954) 932-5420 and describe what you've found — the team can help you understand your next step without any pressure to commit to a project on the spot.

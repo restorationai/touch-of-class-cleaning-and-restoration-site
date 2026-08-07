@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Smoke Damage Restoration in Hollywood, FL | RestorationXpress "
 h1: "Smoke Damage Restoration in Hollywood"
-meta_description: "Smoke damage restoration in Hollywood, FL. Insurance billing accepted. Call (954) 964-6471."
+meta_description: "Smoke damage restoration in Hollywood, FL. Insurance billing accepted. Call (954) 932-5420."
 primary_keyword: "smoke damage restoration hollywood"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -48,7 +48,7 @@ Here's how the work unfolds on a typical Hollywood property:
 
 ## Reaching Hollywood from Davie
 
-RestorationXpress is based in Davie, FL, which puts Hollywood well within our primary service area. From our location, we can reach Hollywood neighborhoods via I-595 East to I-95 South, or via Stirling Road directly into the heart of the city. Highland Gardens and the areas around ArtsPark at Young Circle are typically accessible in under 20 minutes during off-peak hours. When you call (954) 964-6471, we'll give you a straight answer on current drive time based on conditions that day — not a marketing promise.
+RestorationXpress is based in Davie, FL, which puts Hollywood well within our primary service area. From our location, we can reach Hollywood neighborhoods via I-595 East to I-95 South, or via Stirling Road directly into the heart of the city. Highland Gardens and the areas around ArtsPark at Young Circle are typically accessible in under 20 minutes during off-peak hours. When you call (954) 932-5420, we'll give you a straight answer on current drive time based on conditions that day — not a marketing promise.
 
 ## Hollywood Insurance Coordination
 
@@ -60,4 +60,4 @@ If your policy includes an HOA master policy layer — common in Hollywood's con
 
 One thing that catches homeowners off guard in older Hollywood beachside properties: jalousie windows — those louvered glass panels common in mid-century Florida construction — don't seal against smoke the way modern double-pane windows do. During a fire, smoke infiltrates adjacent rooms through jalousie gaps even when the windows appear closed. We've seen homes near the Anne Kolb Nature Center where the room of origin had moderate smoke damage, but a bedroom two doors down with jalousie windows had heavy soot coating on every horizontal surface. If your home has jalousie windows, tell us when you call — it changes how we scope the assessment.
 
-If your Hollywood home or business has smoke damage from a fire — whether a contained kitchen incident or something more extensive — call RestorationXpress at (954) 964-6471. We'll assess the full scope of smoke migration, document everything your insurer needs, and work through the restoration systematically so residual odor and hidden soot don't become a problem six months from now.
+If your Hollywood home or business has smoke damage from a fire — whether a contained kitchen incident or something more extensive — call RestorationXpress at (954) 932-5420. We'll assess the full scope of smoke migration, document everything your insurer needs, and work through the restoration systematically so residual odor and hidden soot don't become a problem six months from now.

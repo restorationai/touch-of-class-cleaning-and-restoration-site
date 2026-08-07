@@ -2,7 +2,7 @@
 archetype: "services-hub"
 title: "Restoration Services in Davie | RestorationXpress "
 h1: "Our Restoration Services"
-meta_description: "Full-service restoration in Davie: water, fire, mold, storm, biohazard, and commercial restoration. Prompt scheduling. Call (954) 964-6471."
+meta_description: "Full-service restoration in Davie: water, fire, mold, storm, biohazard, and commercial restoration. Prompt scheduling. Call (954) 932-5420."
 primary_keyword: "restoration services davie"
 secondary_keywords: ["damage restoration services", "property restoration services", "disaster restoration"]
 search_intent: "local_commercial"
@@ -31,4 +31,4 @@ Not every call is an active emergency. Mold inspection and remediation services 
 
 ## One call, start to finish
 
-The biggest source of stress after property damage isn't the damage itself — it's managing the process. When mitigation and reconstruction are handled by the same company, the documentation, the drying logs, the material specs, and the insurance communication all stay in one place. Call RestorationXpress at **(954) 964-6471** to describe what you're dealing with, and we'll tell you exactly what the next step looks like.
+The biggest source of stress after property damage isn't the damage itself — it's managing the process. When mitigation and reconstruction are handled by the same company, the documentation, the drying logs, the material specs, and the insurance communication all stay in one place. Call RestorationXpress at **(954) 932-5420** to describe what you're dealing with, and we'll tell you exactly what the next step looks like.

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Water Damage Restoration in Miramar, FL | RestorationXpress "
 h1: "Water Damage Restoration in Miramar"
-meta_description: "Water damage restoration in Miramar, FL. Insurance billing accepted. Call (954) 964-6471."
+meta_description: "Water damage restoration in Miramar, FL. Insurance billing accepted. Call (954) 932-5420."
 primary_keyword: "water damage restoration miramar"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -50,4 +50,4 @@ Most standard homeowners policies in Florida cover sudden and accidental water d
 
 In Miramar's western planned communities, many HOAs maintain shared lake and retention pond systems — including the lakes throughout Vizcaya Lakes — that are managed by the South Florida Water Management District. During heavy rain events, those retention systems can reach capacity and back-flow into the lowest-lying lots in the development. Homeowners in these areas sometimes assume the water entered through a plumbing failure when it actually entered through a foundation weep screed or a low door threshold. The source matters for your insurance claim, and it changes the extraction approach, so we always trace the water path before we start pulling equipment off the truck.
 
-If you're dealing with water in your Miramar home or commercial property right now, call RestorationXpress at (954) 964-6471. We'll assess the damage, start extraction, and give you a clear picture of what the drying process looks like before we ask you to sign anything.
+If you're dealing with water in your Miramar home or commercial property right now, call RestorationXpress at (954) 932-5420. We'll assess the damage, start extraction, and give you a clear picture of what the drying process looks like before we ask you to sign anything.

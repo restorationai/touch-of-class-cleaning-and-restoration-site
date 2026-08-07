@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Mold Remediation in Davie | RestorationXpress "
 h1: "Mold Remediation in Davie"
-meta_description: "Mold remediation in Davie and surrounding areas. Insurance billing accepted. Call (954) 964-6471."
+meta_description: "Mold remediation in Davie and surrounding areas. Insurance billing accepted. Call (954) 932-5420."
 primary_keyword: "mold remediation davie"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
@@ -59,4 +59,4 @@ Hurricane season introduces another layer of risk. Roof damage, window intrusion
 
 RestorationXpress serves Davie and the surrounding communities throughout Broward County, including Fort Lauderdale, Hollywood, Pembroke Pines, Miramar, Cooper City, Weston, Plantation, and Sunrise. The city combo pages for each area link back to this page for full process detail.
 
-If you're seeing discoloration on walls, smelling musty odors that don't clear with ventilation, or dealing with the aftermath of a water event that wasn't fully dried, call RestorationXpress at **(954) 964-6471** to request an air quality assessment and moisture inspection. The sooner the moisture source and colony extent are mapped, the more contained — and less costly — the remediation scope tends to be.
+If you're seeing discoloration on walls, smelling musty odors that don't clear with ventilation, or dealing with the aftermath of a water event that wasn't fully dried, call RestorationXpress at **(954) 932-5420** to request an air quality assessment and moisture inspection. The sooner the moisture source and colony extent are mapped, the more contained — and less costly — the remediation scope tends to be.

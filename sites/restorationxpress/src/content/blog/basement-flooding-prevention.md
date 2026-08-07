@@ -59,4 +59,4 @@ Even with all eight of these measures in place, a severe storm or unexpected plu
 
 If the water is more than a surface puddle, if it's touched drywall or insulation, or if you're not sure where it came from, it's worth calling a water damage restoration professional before you start tearing anything out. Restoration teams use moisture meters and thermal cameras to find water that's hidden inside walls and under flooring — the kind you can't see but that causes the most damage over time.
 
-RestorationXpress serves Davie and the surrounding Broward County area. If a prevention measure failed and you're dealing with water in your home, call **(954) 964-6471** to talk through what you're seeing and whether a professional assessment makes sense.
+RestorationXpress serves Davie and the surrounding Broward County area. If a prevention measure failed and you're dealing with water in your home, call **(954) 932-5420** to talk through what you're seeing and whether a professional assessment makes sense.

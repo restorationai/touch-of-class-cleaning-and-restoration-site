@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Fire Damage Restoration in Hollywood, FL | RestorationXpress "
 h1: "Fire Damage Restoration in Hollywood"
-meta_description: "Fire damage restoration in Hollywood, FL. Insurance billing accepted. Call (954) 964-6471."
+meta_description: "Fire damage restoration in Hollywood, FL. Insurance billing accepted. Call (954) 932-5420."
 primary_keyword: "fire damage restoration hollywood"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -42,7 +42,7 @@ From there, the process moves through these concrete phases:
 
 ## Reaching Hollywood from Davie
 
-RestorationXpress operates out of Davie, which puts Hollywood well within our regular service area. From our Davie location, the most direct routes into Hollywood run east on Griffin Road or Stirling Road, connecting quickly to US-1 and I-95 for access across the city — from the inland neighborhoods near Highland Gardens to the beachside streets closest to the Hollywood Beach Broadwalk. Call us at (954) 964-6471 to schedule an assessment or discuss an active loss.
+RestorationXpress operates out of Davie, which puts Hollywood well within our regular service area. From our Davie location, the most direct routes into Hollywood run east on Griffin Road or Stirling Road, connecting quickly to US-1 and I-95 for access across the city — from the inland neighborhoods near Highland Gardens to the beachside streets closest to the Hollywood Beach Broadwalk. Call us at (954) 932-5420 to schedule an assessment or discuss an active loss.
 
 ## Hollywood Insurance Coordination
 
@@ -54,4 +54,4 @@ If your property is part of a homeowner's association, we can communicate direct
 
 In Hollywood's older beachside bungalows — particularly the wood-frame cottages that sit within a few blocks of the Anne Kolb Nature Center and the Intracoastal — we've found that post-fire mold remediation is almost always necessary even when the fire itself was contained quickly. The combination of suppression water, pre-existing coastal humidity, and crawl-space construction means moisture hides in places that don't show up in a surface inspection. We run moisture mapping on these properties as a standard part of fire scope, not an add-on, because discovering active mold growth after reconstruction is far more disruptive than addressing it during the initial restoration.
 
-If your Hollywood property has been damaged by fire, the sooner the assessment begins, the more material and structure can be saved. Call RestorationXpress at (954) 964-6471 to schedule your fire damage evaluation — we serve Hollywood and surrounding Broward County communities and understand what South Florida's climate demands from a fire restoration job.
+If your Hollywood property has been damaged by fire, the sooner the assessment begins, the more material and structure can be saved. Call RestorationXpress at (954) 932-5420 to schedule your fire damage evaluation — we serve Hollywood and surrounding Broward County communities and understand what South Florida's climate demands from a fire restoration job.

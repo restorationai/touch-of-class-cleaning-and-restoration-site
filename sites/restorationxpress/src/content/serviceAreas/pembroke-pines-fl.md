@@ -2,7 +2,7 @@
 archetype: "service-area"
 title: "Restoration Services in Pembroke Pines, FL | RestorationXpress "
 h1: "Restoration Services in Pembroke Pines"
-meta_description: "Serving Pembroke Pines, FL with water, fire, mold, and storm damage restoration. Experienced team. Call (954) 964-6471."
+meta_description: "Serving Pembroke Pines, FL with water, fire, mold, and storm damage restoration. Experienced team. Call (954) 932-5420."
 primary_keyword: "restoration services pembroke pines"
 secondary_keywords: ["pembroke pines restoration company", "damage restoration pembroke pines", "pembroke pines disaster restoration"]
 search_intent: "local_commercial"
@@ -47,7 +47,7 @@ Once mitigation is complete, many property owners in the 33024 and 33028 ZIP cod
 
 ## Coverage and how fast we can get there
 
-RestorationXpress is based in Davie, which puts us roughly 5 to 8 miles from most Pembroke Pines neighborhoods depending on traffic. University Drive runs directly north into the heart of the city, connecting our crew to Pembroke Lakes Mall-area properties and the subdivisions east of Flamingo Road. Pines Boulevard is the main east-west corridor we use to reach Chapel Trail and Pembroke Isles on the western edge of the city, and I-75 provides a fast route to Grand Palms and the communities near the Chapel Trail Nature Preserve. We schedule promptly and will give you a realistic arrival window when you call — (954) 964-6471.
+RestorationXpress is based in Davie, which puts us roughly 5 to 8 miles from most Pembroke Pines neighborhoods depending on traffic. University Drive runs directly north into the heart of the city, connecting our crew to Pembroke Lakes Mall-area properties and the subdivisions east of Flamingo Road. Pines Boulevard is the main east-west corridor we use to reach Chapel Trail and Pembroke Isles on the western edge of the city, and I-75 provides a fast route to Grand Palms and the communities near the Chapel Trail Nature Preserve. We schedule promptly and will give you a realistic arrival window when you call — (954) 932-5420.
 
 ## Building stock, site conditions, and permits in Pembroke Pines
 
@@ -57,4 +57,4 @@ The western subdivisions sit on filled and drained wetland ground laced with can
 
 Permits for structural repair and rebuild come from the City of Pembroke Pines building division. Broward County falls inside the Florida Building Code's High-Velocity Hurricane Zone, so roof, window, and opening work carries stricter attachment and product-approval requirements than most of the state.
 
-If you're dealing with water, fire, mold, or storm damage anywhere in Pembroke Pines — from the 33023 corridor near the Broward-Miami-Dade line to the newer developments in 33029 — call RestorationXpress at **(954) 964-6471**. We'll assess the damage, give you a straight answer about what it will take, and get to work.
+If you're dealing with water, fire, mold, or storm damage anywhere in Pembroke Pines — from the 33023 corridor near the Broward-Miami-Dade line to the newer developments in 33029 — call RestorationXpress at **(954) 932-5420**. We'll assess the damage, give you a straight answer about what it will take, and get to work.

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Storm Damage Restoration in Fort Lauderdale, FL | RestorationXpress "
 h1: "Storm Damage Restoration in Fort Lauderdale"
-meta_description: "Storm damage restoration in Fort Lauderdale, FL. Insurance billing accepted. Call (954) 964-6471."
+meta_description: "Storm damage restoration in Fort Lauderdale, FL. Insurance billing accepted. Call (954) 932-5420."
 primary_keyword: "storm damage restoration fort lauderdale"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -50,10 +50,10 @@ For properties in HOA-governed communities, we're familiar with the additional a
 
 ## Reaching Fort Lauderdale from Davie
 
-RestorationXpress is based in Davie, which puts us a short drive from most Fort Lauderdale neighborhoods via I-595 east or Griffin Road to US-1. Neighborhoods like Colee Hammock and Victoria Park are typically reachable without navigating the heavier traffic corridors that slow response from more distant providers. Call (954) 964-6471 to confirm scheduling and get a crew en route.
+RestorationXpress is based in Davie, which puts us a short drive from most Fort Lauderdale neighborhoods via I-595 east or Griffin Road to US-1. Neighborhoods like Colee Hammock and Victoria Park are typically reachable without navigating the heavier traffic corridors that slow response from more distant providers. Call (954) 932-5420 to confirm scheduling and get a crew en route.
 
 ## Local Note
 
 One thing that catches out-of-area contractors working Fort Lauderdale storm jobs: the city's canal-laced street grid means some waterfront properties on the isles and finger canals — particularly in Las Olas Isles — have very limited staging space for equipment trucks and dumpsters. Narrow lot frontages and seawall setbacks can make it impossible to position a large roll-off container without blocking the only access point. We account for this during the initial site visit, sometimes coordinating with the city's right-of-way permitting office before equipment arrives, so the job doesn't stall on day one over a logistics problem that was predictable from the address.
 
-If your Fort Lauderdale home or commercial property took storm damage, call RestorationXpress at (954) 964-6471. We serve properties across Broward County and understand the specific conditions — the soil, the housing stock, the insurance landscape — that make storm recovery here its own discipline.
+If your Fort Lauderdale home or commercial property took storm damage, call RestorationXpress at (954) 932-5420. We serve properties across Broward County and understand the specific conditions — the soil, the housing stock, the insurance landscape — that make storm recovery here its own discipline.

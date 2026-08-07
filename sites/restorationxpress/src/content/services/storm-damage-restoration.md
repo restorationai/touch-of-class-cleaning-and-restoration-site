@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Storm Damage Restoration in Davie | RestorationXpress "
 h1: "Storm Damage Restoration in Davie"
-meta_description: "Storm damage restoration in Davie and surrounding areas. Insurance billing accepted. Call (954) 964-6471."
+meta_description: "Storm damage restoration in Davie and surrounding areas. Insurance billing accepted. Call (954) 932-5420."
 primary_keyword: "storm damage restoration davie"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -77,4 +77,4 @@ Davie's housing stock also matters. The area has a high concentration of single-
 
 RestorationXpress is based in Davie and serves homeowners and property managers throughout Broward County, including Fort Lauderdale, Hollywood, Pembroke Pines, Miramar, Cooper City, Weston, Plantation, and Sunrise. Individual service-area pages cover hurricane damage cleanup, tornado damage cleanup, and storm cleanup services for each city — all backed by the same process described here.
 
-If your property took storm damage, call RestorationXpress at **(954) 964-6471** to schedule your storm damage assessment and get a written scope before any work begins.
+If your property took storm damage, call RestorationXpress at **(954) 932-5420** to schedule your storm damage assessment and get a written scope before any work begins.

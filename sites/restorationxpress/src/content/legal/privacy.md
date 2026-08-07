@@ -18,7 +18,7 @@ rendered: true
 ---
 ## What This Policy Covers
 
-This privacy policy explains how RestorationXpress collects, uses, and protects information submitted through this website. It applies to visitors who contact us through our inquiry forms, request estimates, or browse our pages. If you have questions about anything here, you can reach us directly at issac@restorationxpress.com or by calling (954) 964-6471.
+This privacy policy explains how RestorationXpress collects, uses, and protects information submitted through this website. It applies to visitors who contact us through our inquiry forms, request estimates, or browse our pages. If you have questions about anything here, you can reach us directly at issac@restorationxpress.com or by calling (954) 932-5420.
 
 ## Information We Collect
 
@@ -45,7 +45,7 @@ If you are a California resident, the California Consumer Privacy Act (CCPA) giv
 RestorationXpress 
 4700 SW 51st Street, Suite 205 
 Davie, FL 33314 
-Phone: (954) 964-6471 
+Phone: (954) 932-5420 
 Email: issac@restorationxpress.com
 
 If you believe your privacy rights have not been honored, you also have the right to lodge a complaint with the relevant supervisory authority in your jurisdiction.

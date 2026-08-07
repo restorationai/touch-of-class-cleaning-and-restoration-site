@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Water Damage Restoration in Hollywood, FL | RestorationXpress "
 h1: "Water Damage Restoration in Hollywood"
-meta_description: "Water damage restoration in Hollywood, FL. Insurance billing accepted. Call (954) 964-6471."
+meta_description: "Water damage restoration in Hollywood, FL. Insurance billing accepted. Call (954) 932-5420."
 primary_keyword: "water damage restoration hollywood"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -46,4 +46,4 @@ Highland Gardens and the neighborhoods west of I-95 are accessible via the 441 c
 
 Homes built in Hollywood Lakes and along the streets nearest Anne Kolb Nature Center in the 1950s and 1960s frequently have original plaster walls over metal lath rather than modern drywall. Plaster absorbs water more slowly than drywall but releases it more slowly too — a plaster wall that reads wet on a moisture meter on day one may still be releasing measurable vapor on day five or six. We account for this when setting drying timelines and don't pull equipment based on a calendar estimate. Pulling dehumidifiers too early in a plaster-wall home is one of the most common reasons secondary mold growth appears weeks after a job is "finished" by another crew.
 
-If you're dealing with water damage in a Hollywood property — whether it's a flooded garage near the Seminole Hard Rock corridor or a slow leak discovered behind kitchen cabinets in a beachside rental — call RestorationXpress at (954) 964-6471. We'll assess the damage honestly, document everything for your insurer, and dry the structure to standard — not just until it looks dry.
+If you're dealing with water damage in a Hollywood property — whether it's a flooded garage near the Seminole Hard Rock corridor or a slow leak discovered behind kitchen cabinets in a beachside rental — call RestorationXpress at (954) 932-5420. We'll assess the damage honestly, document everything for your insurer, and dry the structure to standard — not just until it looks dry.

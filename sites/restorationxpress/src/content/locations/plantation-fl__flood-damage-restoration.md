@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Flood Damage Restoration in Plantation, FL | RestorationXpress "
 h1: "Flood Damage Restoration in Plantation"
-meta_description: "Flood damage restoration in Plantation, FL. Insurance billing accepted. Call (954) 964-6471."
+meta_description: "Flood damage restoration in Plantation, FL. Insurance billing accepted. Call (954) 932-5420."
 primary_keyword: "flood damage restoration plantation"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -50,4 +50,4 @@ If your property sits within a Plantation HOA that requires pre-approval for ext
 
 In Plantation's older CBS (concrete block and stucco) homes — common throughout the 33313 and 33324 corridors — the stucco exterior acts as a moisture reservoir after a flood event. Water absorbed into the stucco can continue migrating inward toward interior drywall for days after the visible flooding is gone, which means a moisture reading taken on day one will often look better than the actual drying situation. Experienced technicians account for this by placing sensors on both interior and exterior wall faces and extending the drying phase until both sides reach equilibrium — not just the side that's easier to measure.
 
-If you're dealing with flood damage at a property in Plantation — whether it's a single-family home in Jacaranda, a larger estate lot in Plantation Acres, or a townhome near the Plantation Preserve Golf Course — call RestorationXpress at (954) 964-6471 to schedule an assessment. The sooner moisture levels are documented and extraction begins, the more of your home's original materials and structure can be preserved.
+If you're dealing with flood damage at a property in Plantation — whether it's a single-family home in Jacaranda, a larger estate lot in Plantation Acres, or a townhome near the Plantation Preserve Golf Course — call RestorationXpress at (954) 932-5420 to schedule an assessment. The sooner moisture levels are documented and extraction begins, the more of your home's original materials and structure can be preserved.

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Remediation in Cooper City, FL | RestorationXpress "
 h1: "Mold Remediation in Cooper City"
-meta_description: "Mold remediation in Cooper City, FL. Insurance billing accepted. Call (954) 964-6471."
+meta_description: "Mold remediation in Cooper City, FL. Insurance billing accepted. Call (954) 932-5420."
 primary_keyword: "mold remediation cooper city"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
@@ -38,7 +38,7 @@ Contaminated drywall, insulation, and porous materials are removed, bagged, and 
 
 ## Reaching Cooper City from Davie
 
-RestorationXpress is headquartered in Davie, which places us just a few minutes west of Cooper City via Stirling Road or Griffin Road. For properties near Brian Piccolo Park or the Cooper City Sports Complex, we can typically reach the address quickly without navigating through Pembroke Pines traffic. Scheduling is straightforward — call (954) 964-6471 and our team will confirm an arrival window and walk you through what to do (and not do) before we arrive.
+RestorationXpress is headquartered in Davie, which places us just a few minutes west of Cooper City via Stirling Road or Griffin Road. For properties near Brian Piccolo Park or the Cooper City Sports Complex, we can typically reach the address quickly without navigating through Pembroke Pines traffic. Scheduling is straightforward — call (954) 932-5420 and our team will confirm an arrival window and walk you through what to do (and not do) before we arrive.
 
 ## Cooper City Insurance and HOA Coordination
 
@@ -48,4 +48,4 @@ Mold remediation claims in Cooper City typically originate from a covered water 
 
 One pattern we see repeatedly in Cooper City's 1980s-era single-family homes: the original builders ran HVAC supply ducts through interior slab chases — channels cut directly into the concrete floor. When those ducts develop condensation issues or small cracks, they deposit moisture into the slab and the surrounding flooring assembly. Homeowners often attribute the musty smell to a bathroom or laundry room nearby, but the actual mold growth is occurring beneath tile or hardwood in a hallway or living room. If you have noticed a persistent odor in a Cooper City home that doesn't trace back to an obvious water source, that duct-in-slab configuration is worth investigating before assuming the problem is cosmetic.
 
-If you are dealing with visible mold growth, a persistent musty odor, or a recent water loss in Cooper City, call RestorationXpress at (954) 964-6471. We will assess the situation honestly, explain the scope in plain language, and get remediation started before the problem reaches the next wall cavity.
+If you are dealing with visible mold growth, a persistent musty odor, or a recent water loss in Cooper City, call RestorationXpress at (954) 932-5420. We will assess the situation honestly, explain the scope in plain language, and get remediation started before the problem reaches the next wall cavity.

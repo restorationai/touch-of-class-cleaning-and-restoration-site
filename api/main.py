@@ -1401,12 +1401,36 @@ async def call_tracking_twiml(company_id: str, source: str, request: Request):
         .eq("id", company_id).limit(1).execute().data
     if not co:
         raise HTTPException(status_code=404, detail="unknown company")
-    real = re.sub(r"[^\d+]", "", co[0].get("phone") or "")
+    _ints = co[0].get("integration_settings") or {}
+    if isinstance(_ints, str):
+        try:
+            _ints = json.loads(_ints)
+        except Exception:
+            _ints = {}
+    _ct = (_ints.get("call_tracking") or {}).get(source) or {}
+
+    # PER-CLIENT FORWARD TARGET (Santino 2026-08-07, RestorationXpress).
+    # Default is companies.phone, but Roy's site number rings a multi-level IP
+    # phone menu; he asked for the tracked line to reach Isaac's cell directly.
+    # forward_to on the call_tracking entry overrides, so one client's routing
+    # never becomes everyone's.
+    real = re.sub(r"[^\d+]", "", _ct.get("forward_to") or co[0].get("phone") or "")
     if real and not real.startswith("+"):
         real = "+1" + real.lstrip("1")
     if not real:
         raise HTTPException(status_code=500, detail="company has no phone")
     disclose = _state_abbrev(co[0].get("state") or "") in ALL_PARTY_STATES
+
+    # WHISPER — OFF BY DEFAULT, AND THAT STAYS THE RULE.
+    # The standing policy is no whisper: calls connect straight through, because
+    # a whisper delays the bridge and an owner who is used to picking up hears
+    # dead air. Roy asked for one explicitly on his 2026-08-04 follow-up call so
+    # Isaac can tell a campaign lead from a normal call and screen out ones he
+    # would otherwise pay for. That is a per-client OPT-IN written on the
+    # call_tracking entry (whisper: "Call from Restoration AI"), never a default,
+    # and it is spoken only to the ANSWERING party via the Number verb's `url`,
+    # so the caller never hears it.
+    _whisper = str(_ct.get("whisper") or "").strip()
     try:
         if call_sid:
             sb().table("marketing_tracked_calls").upsert({
@@ -1419,14 +1443,36 @@ async def call_tracking_twiml(company_id: str, source: str, request: Request):
     base = "https://rank-ai-api-production.up.railway.app"
     say = ('<Say voice="Polly.Joanna">This call may be recorded.</Say>'
            if disclose else "")
+    if _whisper:
+        _wurl = (f"{base}/call-tracking/whisper?text="
+                 + urllib.parse.quote(_whisper[:120]))
+        _dial_target = f'<Number url="{_wurl}">{real}</Number>'
+    else:
+        _dial_target = real
     twiml = (
         '<?xml version="1.0" encoding="UTF-8"?><Response>' + say +
         f'<Dial record="record-from-answer-dual" answerOnBridge="true"'
         f' recordingStatusCallback="{base}/call-tracking/recording/{company_id}"'
         f' action="{base}/call-tracking/status/{company_id}" method="POST">'
-        f'{real}</Dial></Response>')
+        f'{_dial_target}</Dial></Response>')
     from fastapi.responses import Response as _Resp
     return _Resp(content=twiml, media_type="application/xml")
+
+
+@app.api_route("/call-tracking/whisper", methods=["GET", "POST"])
+async def call_tracking_whisper(text: str = "Call from Restoration AI"):
+    """Spoken to the ANSWERING party only, before the legs bridge.
+
+    Twilio fetches this from the <Number url="..."> attribute, so the caller
+    hears ringing throughout and never hears this. Opt-in per client — see the
+    whisper note in call_tracking_twiml.
+    """
+    from fastapi.responses import Response as _Resp
+    safe = (text or "")[:120].replace("&", "and").replace("<", "").replace(">", "")
+    return _Resp(
+        content=('<?xml version="1.0" encoding="UTF-8"?><Response>'
+                 f'<Say voice="Polly.Joanna">{safe}</Say></Response>'),
+        media_type="application/xml")
 
 
 @app.post("/call-tracking/status/{company_id}")

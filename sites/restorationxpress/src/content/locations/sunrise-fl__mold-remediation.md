@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Remediation in Sunrise, FL | RestorationXpress "
 h1: "Mold Remediation in Sunrise"
-meta_description: "Mold remediation in Sunrise, FL. Insurance billing accepted. Call (954) 964-6471."
+meta_description: "Mold remediation in Sunrise, FL. Insurance billing accepted. Call (954) 932-5420."
 primary_keyword: "mold remediation sunrise"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
@@ -38,7 +38,7 @@ Demolition of unsalvageable material — saturated drywall, compromised insulati
 
 ## Reaching Sunrise from Davie
 
-The RestorationXpress shop is in Davie, which puts Sunrise roughly 10 to 20 minutes away depending on traffic and which part of the city needs service. The fastest route to eastern Sunrise ZIP codes like 33313 runs north on University Drive or Pine Island Road. For properties near Sawgrass Mills or the western 33326 and 33323 corridors, Flamingo Road north from Griffin Road is typically the cleaner shot, avoiding the congestion that builds on I-595 during peak hours. Scheduling is handled by phone at (954) 964-6471 — call to confirm availability and get a technician routed to your address.
+The RestorationXpress shop is in Davie, which puts Sunrise roughly 10 to 20 minutes away depending on traffic and which part of the city needs service. The fastest route to eastern Sunrise ZIP codes like 33313 runs north on University Drive or Pine Island Road. For properties near Sawgrass Mills or the western 33326 and 33323 corridors, Flamingo Road north from Griffin Road is typically the cleaner shot, avoiding the congestion that builds on I-595 during peak hours. Scheduling is handled by phone at (954) 932-5420 — call to confirm availability and get a technician routed to your address.
 
 ## Sunrise Insurance & HOA Coordination
 
@@ -50,4 +50,4 @@ For homeowners in HOA-governed communities — which cover a significant portion
 
 One pattern that comes up repeatedly in Sunrise's 1970s-era concrete block homes: the original stucco finish on interior walls was sometimes applied directly over unpainted block with no moisture barrier between them. When those walls get wet from a plumbing leak or window intrusion, the block absorbs water slowly and releases it even more slowly — drying times can run 40 to 50 percent longer than a comparable framed drywall assembly. If your home in Welleby or a similar neighborhood of that vintage has had a slow leak, don't assume the wall is dry just because the surface feels dry to the touch. A moisture meter reading at depth tells a different story.
 
-If you're seeing discoloration on walls or ceilings, catching a musty smell that doesn't clear when you run the AC, or dealing with the aftermath of a roof leak or plumbing failure anywhere in Sunrise, call RestorationXpress at (954) 964-6471. We'll assess the scope, explain what needs to happen, and get the work done so you're not living with an air quality problem that compounds every day it sits.
+If you're seeing discoloration on walls or ceilings, catching a musty smell that doesn't clear when you run the AC, or dealing with the aftermath of a roof leak or plumbing failure anywhere in Sunrise, call RestorationXpress at (954) 932-5420. We'll assess the scope, explain what needs to happen, and get the work done so you're not living with an air quality problem that compounds every day it sits.

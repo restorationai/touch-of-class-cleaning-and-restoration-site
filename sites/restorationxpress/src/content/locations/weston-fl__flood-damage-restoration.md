@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Flood Damage Restoration in Weston, FL | RestorationXpress "
 h1: "Flood Damage Restoration in Weston"
-meta_description: "Flood damage restoration in Weston, FL. Insurance billing accepted. Call (954) 964-6471."
+meta_description: "Flood damage restoration in Weston, FL. Insurance billing accepted. Call (954) 932-5420."
 primary_keyword: "flood damage restoration weston"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -46,4 +46,4 @@ On the insurance side, we document losses in the format most carriers expect —
 
 One thing that catches homeowners off guard in Weston's planned communities: many HOAs require that any contractor performing restoration work carry a specific minimum liability coverage threshold and, in some communities, be pre-approved on a vendor list before work can begin. We've navigated this process across multiple Weston HOAs and recommend that homeowners call their association management office within the first few hours of a loss — not after mitigation is underway — to confirm contractor requirements. Getting that step wrong can create disputes about coverage and repair authorization that delay reconstruction by weeks.
 
-If your home is near Markham Park or in one of the communities along Weston Road, call RestorationXpress at (954) 964-6471. We'll assess the damage, walk you through the documentation process, and coordinate with your HOA and insurance carrier so the restoration moves forward without unnecessary delays.
+If your home is near Markham Park or in one of the communities along Weston Road, call RestorationXpress at (954) 932-5420. We'll assess the damage, walk you through the documentation process, and coordinate with your HOA and insurance carrier so the restoration moves forward without unnecessary delays.

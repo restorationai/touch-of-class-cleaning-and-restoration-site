@@ -80,4 +80,4 @@ Insurance typically covers smoke damage remediation as part of a fire loss. Thor
 
 ---
 
-If you're dealing with smoke odor in a home or commercial property in the Davie area and want a professional assessment, RestorationXpress can walk through the affected space, explain exactly what's going on, and outline what remediation would involve. Call (954) 964-6471 — even if you're not ready to commit to anything, understanding the scope of the problem is always the right first step.
+If you're dealing with smoke odor in a home or commercial property in the Davie area and want a professional assessment, RestorationXpress can walk through the affected space, explain exactly what's going on, and outline what remediation would involve. Call (954) 932-5420 — even if you're not ready to commit to anything, understanding the scope of the problem is always the right first step.

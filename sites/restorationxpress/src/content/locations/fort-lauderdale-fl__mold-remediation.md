@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Remediation in Fort Lauderdale, FL | RestorationXpress "
 h1: "Mold Remediation in Fort Lauderdale"
-meta_description: "Mold remediation in Fort Lauderdale, FL. Insurance billing accepted. Call (954) 964-6471."
+meta_description: "Mold remediation in Fort Lauderdale, FL. Insurance billing accepted. Call (954) 932-5420."
 primary_keyword: "mold remediation fort lauderdale"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
@@ -48,10 +48,10 @@ If your property falls under an HOA — common in the condo towers along Fort La
 
 ## Reaching Fort Lauderdale from Davie
 
-RestorationXpress is based in Davie, which puts the team a short drive from most Fort Lauderdale neighborhoods via I-595 East or Griffin Road to US-1. Coral Ridge, Colee Hammock, and the barrier island communities near ZIP code 33308 are all reachable without navigating the heaviest downtown congestion. When you call (954) 964-6471, we'll give you a realistic arrival window based on current traffic and crew availability — no vague promises.
+RestorationXpress is based in Davie, which puts the team a short drive from most Fort Lauderdale neighborhoods via I-595 East or Griffin Road to US-1. Coral Ridge, Colee Hammock, and the barrier island communities near ZIP code 33308 are all reachable without navigating the heaviest downtown congestion. When you call (954) 932-5420, we'll give you a realistic arrival window based on current traffic and crew availability — no vague promises.
 
 ## Local Note
 
 One pattern that comes up repeatedly in Fort Lauderdale's older waterfront neighborhoods: homes built on fill lots in the 1950s and 1960s often have concrete block construction with no interior stud wall — the block IS the wall. When mold grows on the interior face of a concrete block, surface treatment alone isn't sufficient. The block is porous, and the remediation approach has to account for that porosity, including extended drying times and, in severe cases, application of encapsulants rated for masonry. It's a detail that matters specifically here and one that a crew unfamiliar with South Florida's coastal building stock might overlook.
 
-If you're dealing with visible mold growth, an unexplained musty odor, or a recent water intrusion in your Fort Lauderdale home or commercial property, call RestorationXpress at **(954) 964-6471**. We'll assess the scope honestly, explain your options clearly, and get the remediation moving before the problem spreads further into your structure.
+If you're dealing with visible mold growth, an unexplained musty odor, or a recent water intrusion in your Fort Lauderdale home or commercial property, call RestorationXpress at **(954) 932-5420**. We'll assess the scope honestly, explain your options clearly, and get the remediation moving before the problem spreads further into your structure.

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Storm Damage Restoration in Miramar, FL | RestorationXpress "
 h1: "Storm Damage Restoration in Miramar"
-meta_description: "Storm damage restoration in Miramar, FL. Insurance billing accepted. Call (954) 964-6471."
+meta_description: "Storm damage restoration in Miramar, FL. Insurance billing accepted. Call (954) 932-5420."
 primary_keyword: "storm damage restoration miramar"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -48,4 +48,4 @@ On the insurance side, Broward County storm claims move faster when documentatio
 
 Homes in the Silver Lakes and Sunset Lakes communities were built on land that was historically part of the Everglades drainage basin — the soil beneath the slab is often a mix of fill material and marl that retains moisture at depth long after surface water recedes. After a significant storm event, we've seen slabs in these neighborhoods show elevated moisture readings for two to three weeks after the visible flooding is gone. If you're in one of these western communities and a restoration crew tells you the job is done after surface drying, it's worth asking for a slab moisture reading before any new flooring goes down.
 
-If you're dealing with storm damage anywhere in Miramar — whether it's a tree through the roof in Historic Miramar or wind-driven water intrusion in a Riviera Isles townhome — call RestorationXpress at (954) 964-6471. We'll assess the damage, secure the structure, and walk you through every step from extraction to reconstruction.
+If you're dealing with storm damage anywhere in Miramar — whether it's a tree through the roof in Historic Miramar or wind-driven water intrusion in a Riviera Isles townhome — call RestorationXpress at (954) 932-5420. We'll assess the damage, secure the structure, and walk you through every step from extraction to reconstruction.
