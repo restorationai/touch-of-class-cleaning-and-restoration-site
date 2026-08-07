@@ -167,9 +167,18 @@ def scout(slug: str, with_census: bool = True) -> dict:
                 company_id = json.loads(cmap.read_text()).get(slug)
             except Exception:
                 pass
-    pin = (brand.get("lat"), brand.get("lng"))
-    if not pin[0]:
-        raise SystemExit(f"{slug}: no brand.lat/lng in plan-input.json — cannot scout without a pin")
+    # plan-input.json is hand-and-machine written, so the pin arrives as either
+    # numbers or strings — narestco and restoration-groups both store "47.337"
+    # and the haversine blew up with "must be real number, not str" (2026-08-06).
+    def _f(v):
+        try:
+            return float(v)
+        except (TypeError, ValueError):
+            return None
+    pin = (_f(brand.get("lat")), _f(brand.get("lng")))
+    if pin[0] is None or pin[1] is None:
+        raise SystemExit(f"{slug}: no usable brand.lat/lng in plan-input.json "
+                         f"(got {brand.get('lat')!r}/{brand.get('lng')!r}) — cannot scout without a pin")
 
     reach = measured_reach(company_id) if company_id else {}
     # Use the best MEASURED top-3 reach when we have one; otherwise the default.
