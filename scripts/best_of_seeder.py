@@ -243,7 +243,11 @@ def main() -> int:
         return 0
     pi = json.loads(pi_path.read_text())
     brand = pi.get("brand", {})
-    services = pi.get("services") or []
+    # The client's stated goals lead the rotation (2026-08-06). Without this the
+    # hero service was just whatever sat first in plan-input.json, a file no
+    # client can see — so "we want more water damage work" had nowhere to land.
+    from content_focus import prioritise
+    services = prioritise(slug, pi.get("services") or [])
     areas = pi.get("service_areas") or []
     client_name = brand.get("display_name") or slug
 

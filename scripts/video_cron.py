@@ -295,7 +295,11 @@ def geo_matrix(slug: str) -> list[tuple[str, str]]:
     """(service, city) combos: top plan-input services x every service-area city.
     Primary service blankets the whole service area first, then the next service."""
     plan = _load_json(CLIENTS_DIR / slug / "plan-input.json") or {}
-    services = (plan.get("services") or [])[:TOP_SERVICES]
+    # Prioritise BEFORE the top-N slice (2026-08-06): the client's stated goals
+    # decide which services get videos at all, so cutting first would discard a
+    # focus service before it was ever considered.
+    from content_focus import prioritise
+    services = prioritise(slug, plan.get("services") or [])[:TOP_SERVICES]
     cities = [a["city"] for a in plan.get("service_areas", []) if a.get("city")]
     return [(svc, city) for svc in services for city in cities]
 
