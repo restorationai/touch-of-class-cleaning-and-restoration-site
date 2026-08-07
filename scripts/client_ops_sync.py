@@ -679,6 +679,26 @@ def ensure_gbp_manager_access(dry_run: bool, cid_to_slug: dict) -> list[str]:
     return out
 
 
+# Asks we have WITHDRAWN. Deleting an entry from `checks` is not enough and is
+# the trap worth naming: rows are only ever closed by the gap_open==False
+# branch at the bottom of ensure_setup_checklist, so a check that no longer
+# exists can never close the rows it already seeded. They stay `planned` — on
+# the board, in the ask ranking, and speakable by Monica — forever. Seeds
+# listed here get their open rows closed on the next pass and cost one no-op
+# query per client after that.
+#
+# {slug} is substituted per client.
+RETIRED_ASK_SEEDS = (
+    # Santino 2026-08-07: a human vets the service list now. Two failures, not
+    # one. (1) The ask itself was unreasonable — Rudy got "confirm all 13
+    # services on your Google profile". (2) Monica spoke the INTERNAL HEADLINE
+    # instead of the MONICA: script in the rationale, which said max 3 and
+    # conversational and "the client does nothing in Google". The headline is
+    # written for the ops board, never for a client.
+    "checklist-svc-confirm-{slug}",
+)
+
+
 def ensure_setup_checklist(dry_run: bool, cid_to_slug: dict) -> list[str]:
     """Daily business-setup checklist (Santino 2026-07-25: 'this is why they
     pay US — we handle what we can'). Three buckets: auto-fix (ours, handled
@@ -691,11 +711,11 @@ def ensure_setup_checklist(dry_run: bool, cid_to_slug: dict) -> list[str]:
 
     v1 checks:
       lsa-docs     an open lsa_fix plan row -> ask for the real docs w/ links
-      svc-confirm  NEEDS-REVIEW service/category suggestions -> batched
-                   'do you actually offer these?' ask (top 3, humanized)
       hours        GBP claimed but no business hours set
       crew-photos  zero crew-uploaded job photos ever (gbp- imports and
                    posted/ recycles don't count)
+
+    RETIRED: svc-confirm (see RETIRED_ASK_SEEDS).
     """
     from upload_links_sync import hub_token
 
@@ -705,8 +725,6 @@ def ensure_setup_checklist(dry_run: bool, cid_to_slug: dict) -> list[str]:
     active = _sb("GET", "/rest/v1/companies?status=ilike.active"
                  "&select=id,name,ein,integration_settings",
                  prefer="return=representation") or []
-    svc_label = (lambda s: s[len("job_type_id:"):].replace("_", " ").capitalize()
-                 if str(s).startswith("job_type_id:") else str(s))
 
     for co in active:
         cid = co["id"]
@@ -743,21 +761,11 @@ def ensure_setup_checklist(dry_run: bool, cid_to_slug: dict) -> list[str]:
              "for our team automatically.").format(
                 (lsa[0]["title"] if lsa else ""), hub)))
 
-        nr = _sb("GET", "/rest/v1/marketing_gbp_suggestions"
-                 f"?company_id=eq.{cid}&status=eq.open&verdict=eq.NEEDS-REVIEW"
-                 "&item_type=in.(service,category)&select=item,reason",
-                 prefer="return=representation") or []
-        top = ", ".join(svc_label(x["item"]) for x in nr[:3])
-        checks.append((
-            f"checklist-svc-confirm-{slug}", bool(nr),
-            (f"ASK CLIENT: confirm they actually offer {len(nr)} service"
-             f"{'s' if len(nr) != 1 else ''} listed on their Google profile"),
-            ("Our Google Business Profile audit flagged {} item(s) it cannot confirm "
-             "the client actually offers (top: {}). MONICA: ask conversationally, max "
-             "3 per message, e.g. 'quick sanity check, do you folks handle {}? Want to "
-             "make sure your Google listing only shows what you actually do.' Relay "
-             "answers back; our team applies the changes — the client does nothing in "
-             "Google.").format(len(nr), top or "n/a", top or "these")))
+        # svc-confirm REMOVED 2026-08-07 (Santino). A human vets the service
+        # list now. It went out to Rudy as "confirm all 13 services on your
+        # Google profile" — thirteen is not a question, it is homework, and it
+        # is our job. The seed is retired below, not merely deleted; see
+        # RETIRED_ASK_SEEDS for why that distinction matters.
 
         # VERIFICATION EVIDENCE (Santino 2026-08-06). Directories do not just
         # want a name and address; the ones worth having make you PROVE the
@@ -1018,6 +1026,21 @@ def ensure_setup_checklist(dry_run: bool, cid_to_slug: dict) -> list[str]:
                         f"?company_id=eq.{cid}&action_key=eq.{key}",
                         {"status": "done"})
                 out.append(f"{slug}: gap cleared — resolved '{title}'")
+
+        # Close anything we have since withdrawn (see RETIRED_ASK_SEEDS).
+        for tmpl in RETIRED_ASK_SEEDS:
+            seed = tmpl.format(slug=slug)
+            key = action_key(cid, seed)
+            stale = _sb("GET", "/rest/v1/marketing_action_plan"
+                        f"?company_id=eq.{cid}&action_key=eq.{key}"
+                        "&status=eq.planned&select=id",
+                        prefer="return=representation") or []
+            if stale:
+                if not dry_run:
+                    _sb("PATCH", "/rest/v1/marketing_action_plan"
+                        f"?company_id=eq.{cid}&action_key=eq.{key}",
+                        {"status": "done"})
+                out.append(f"{slug}: retired ask — {seed}")
     return out
 
 
