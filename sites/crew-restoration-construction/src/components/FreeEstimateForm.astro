@@ -11,6 +11,18 @@
 //
 // Phone stays the primary conversion path: the "fastest: call" line renders
 // above the form on both variants.
+//
+// LAYOUT (Santino 2026-08-07): this used to be a full-bleed bg-dark-900 band
+// with bg-white/5 inputs. Against the site's other dark bands (CtaBanner is
+// bg-dark-800, the footer is darker still) it read as background, not as a
+// form — and 5%-white inputs on near-black have almost no affordance. It is
+// now a CONTAINED card: light section behind it, dark card raised off that
+// with a ring + shadow and a red accent rail, and plain WHITE inputs. The card
+// edge is what separates it from whatever section sits behind it, so this
+// holds up on the light contact page and next to the dark CtaBanner alike.
+//
+// scroll-mt clears the sticky h-20 header — /contact/#estimate (CtaBanner)
+// used to land with the heading tucked underneath it.
 import { brand } from "~/lib/brand";
 import { Phone } from "@lucide/astro";
 
@@ -23,11 +35,20 @@ const {
   compact = false,
   heading = compact ? "Or Request a Free Estimate" : "Request Your Free Estimate",
 } = Astro.props;
+
+// One field style, five fields. Solid white reads as fillable on the dark
+// card; the previous bg-white/5 on bg-dark-900 was a ~4% luminance step and
+// disappeared into the panel.
+const field =
+  "w-full rounded-lg border border-dark-300 bg-white px-4 py-3 text-base font-normal normal-case tracking-normal text-dark-900 placeholder-dark-400 focus:border-primary-600 focus:ring-2 focus:ring-primary-600/30 focus:outline-none";
 ---
 
-<section id="estimate" class={`bg-dark-900 border-y border-white/10 ${compact ? "py-14" : "py-20"}`}>
+<section id="estimate" class={`scroll-mt-24 bg-dark-50 border-y border-dark/10 ${compact ? "py-12" : "py-16 md:py-20"}`}>
   <div class="container-wide px-6">
     <div class={`mx-auto ${compact ? "max-w-xl" : "max-w-2xl"}`}>
+     <div class="rounded-2xl bg-dark-900 ring-1 ring-dark-900/10 shadow-2xl shadow-dark-900/30 overflow-hidden">
+      <div class="h-1.5 bg-primary-600"></div>
+      <div class={compact ? "p-6 sm:p-8" : "p-7 sm:p-10"}>
       <div class={`text-center ${compact ? "mb-6" : "mb-8"}`}>
         <h2 class={`font-black uppercase tracking-tighter text-white ${compact ? "text-2xl md:text-3xl" : "text-3xl md:text-4xl"} mb-3`}>
           {heading}
@@ -51,7 +72,7 @@ const {
             Name *
             <input
               type="text" name="name" required autocomplete="name" maxlength="120"
-              class="rounded-md border border-white/15 bg-white/5 px-4 py-3 text-base font-normal normal-case tracking-normal text-white placeholder-white/40 focus:border-white/50 focus:outline-none"
+              class={field}
               placeholder="Your name"
             />
           </label>
@@ -59,7 +80,7 @@ const {
             Phone *
             <input
               type="tel" name="phone" required autocomplete="tel" maxlength="30"
-              class="rounded-md border border-white/15 bg-white/5 px-4 py-3 text-base font-normal normal-case tracking-normal text-white placeholder-white/40 focus:border-white/50 focus:outline-none"
+              class={field}
               placeholder="(555) 555-5555"
             />
           </label>
@@ -69,7 +90,7 @@ const {
             City / ZIP *
             <input
               type="text" name="city" required autocomplete="postal-code" maxlength="80"
-              class="rounded-md border border-white/15 bg-white/5 px-4 py-3 text-base font-normal normal-case tracking-normal text-white placeholder-white/40 focus:border-white/50 focus:outline-none"
+              class={field}
               placeholder={`${brand.primaryCity} or ZIP`}
             />
           </label>
@@ -77,7 +98,7 @@ const {
             Email <span class="normal-case font-normal tracking-normal text-white/60">(optional)</span>
             <input
               type="email" name="email" autocomplete="email" maxlength="160"
-              class="rounded-md border border-white/15 bg-white/5 px-4 py-3 text-base font-normal normal-case tracking-normal text-white placeholder-white/40 focus:border-white/50 focus:outline-none"
+              class={field}
               placeholder="you@example.com"
             />
           </label>
@@ -86,7 +107,7 @@ const {
           What happened?
           <textarea
             name="description" rows={compact ? 3 : 4} maxlength="2000"
-            class="rounded-md border border-white/15 bg-white/5 px-4 py-3 text-base font-normal normal-case tracking-normal text-white placeholder-white/40 focus:border-white/50 focus:outline-none resize-y"
+            class={`${field} resize-y`}
             placeholder="Briefly describe the damage — e.g. burst pipe in the kitchen, standing water in the basement…"
           ></textarea>
         </label>
@@ -103,13 +124,15 @@ const {
 
         <button
           type="submit"
-          class="inline-flex items-center justify-center font-bold px-8 py-4 rounded-md transition-all text-lg shadow-lg bg-primary-600 text-white hover:bg-primary-700 disabled:opacity-60 disabled:cursor-not-allowed"
+          class="w-full inline-flex items-center justify-center font-black uppercase tracking-wide px-8 py-4 rounded-lg transition-all text-lg shadow-lg bg-primary-600 text-white hover:bg-primary-700 disabled:opacity-60 disabled:cursor-not-allowed"
         >
           Get My Free Estimate
         </button>
 
         <p data-estimate-status class="hidden m-0 rounded-md px-4 py-3 text-base font-medium" role="status" aria-live="polite"></p>
       </form>
+      </div>
+     </div>
     </div>
   </div>
 </section>
