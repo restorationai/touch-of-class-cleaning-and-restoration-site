@@ -2436,7 +2436,7 @@ def ask_rank(it) -> int:
         # never actually been sent.
         return 1
     if "youtube" in t:
-        return 4   # nice-to-have, never outranks foundations
+        return 5   # nice-to-have, never outranks foundations or revenue
     # "verify": GBP verification is a launch blocker on par with domain
     # access (Santino 2026-08-03: top messaging priority, paired with the
     # domain ask when both are open — the launch-blocker pair).
@@ -2445,11 +2445,20 @@ def ask_rank(it) -> int:
         return 0   # nothing works without the Google connection/verification
     if any(k in t for k in ("domain", "registrar", "godaddy", "nameserver")):
         return 1   # launch blocker
+    # LOCAL SERVICES ADS (Santino 2026-08-06: "Google Business Profile, domain
+    # and ads are the three most important"). LSA was falling into the catch-all
+    # bucket 5 behind the logo and the customer list, which is wrong twice over:
+    # it is Google-Guaranteed placement above the map pack, and it is the only
+    # ask on the board that turns on new revenue rather than tidying what exists.
+    # It sits behind the Google connection and the domain because neither ads
+    # nor anything else can run without those.
+    if "local services" in t or "lsa" in t or "google guaranteed" in t:
+        return 2
     if "customer list" in t or "review campaign" in t:
-        return 2   # revenue engine
+        return 3   # revenue engine
     if "logo" in t or "brand" in t:
-        return 3
-    return 5
+        return 4
+    return 6
 
 
 # ---------------------------------------------------------------- GHL contact

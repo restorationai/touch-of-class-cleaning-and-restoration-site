@@ -51,7 +51,7 @@ import urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from census_demand import demographics, demand_score, key_status  # noqa: E402
+from census_demand import demographics, demand_score, key_status, opportunity  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 CLIENTS_DIR = ROOT / "clients"
@@ -61,9 +61,14 @@ CLIENTS_DIR = ROOT / "clients"
 # expensive mistake, recommending one slightly too far is not.
 DEFAULT_REACH_MI = 4.0
 
-# Two offices closer than this cannibalise each other. Kept a touch above the
-# reach so the radii tile rather than stack.
-MIN_SEPARATION_MI = 6.0
+# Two offices closer than this cannibalise each other. It MUST equal the reach,
+# not exceed it (fixed 2026-08-06). A fixed 6mi against a 4mi reach created a
+# dead zone: any town 4-6mi from an accepted seat was too far to be covered by
+# it and too close to be its own seat, so it vanished from the report entirely.
+# Templeton sits 4.6mi from Paso Robles and 5.2mi from Atascadero, so taking
+# Templeton silently deleted both — the two biggest markets in that corner.
+# Circles exactly one reach apart are tangent: no overlap, no gap.
+MIN_SEPARATION_MI = 6.0   # fallback only; the run uses the measured reach
 
 # A "service area" further than this from the pin is a bad geocode, not a real
 # target. Nominatim returned a Blacklake 2,421 miles from Santa Maria.
@@ -214,6 +219,7 @@ def scout(slug: str, with_census: bool = True) -> dict:
     # cheaper to run and easier to staff. Then take seats greedily, skipping any
     # that sit within MIN_SEPARATION_MI of the existing pin or an accepted seat.
     uncovered = [r for r in rows if r.get("covered") is False]
+    separation = effective_reach          # tangent, so nothing falls in a gap
     seats: list = []
     claimed: set = set()
     while True:
@@ -221,21 +227,23 @@ def scout(slug: str, with_census: bool = True) -> dict:
         for cand in uncovered:
             if cand["city"] in claimed:
                 continue
-            if haversine_mi(pin[0], pin[1], cand["lat"], cand["lng"]) < MIN_SEPARATION_MI:
+            if haversine_mi(pin[0], pin[1], cand["lat"], cand["lng"]) < separation:
                 continue                      # too close to the office they have
-            if any(haversine_mi(s["lat"], s["lng"], cand["lat"], cand["lng"]) < MIN_SEPARATION_MI
+            if any(haversine_mi(s["lat"], s["lng"], cand["lat"], cand["lng"]) < separation
                    for s in seats):
                 continue                      # too close to a seat already taken
             covers = [o for o in uncovered
                       if o["city"] not in claimed
                       and haversine_mi(cand["lat"], cand["lng"], o["lat"], o["lng"]) <= effective_reach]
-            # Demand-weighted coverage: an office reaching three affluent towns
-            # of 1950s housing is worth more than one reaching five towns of
-            # new-build rentals. Each covered town counts as 1 + demand/100, so
-            # coverage still leads and demand breaks the ties. With no census
-            # key every town scores the same and this collapses to plain count.
-            weight = sum(1 + ((o.get("demand") or {}).get("score") or 0) / 100.0
-                         for o in covers)
+            # Rank by EXPECTED VALUE, not town-count (2026-08-06). Counting
+            # towns and nudging with a quality score let Avila Beach — 1,365
+            # people — outrank Orcutt at 31,284, and let Templeton (8,608)
+            # take a seat that then blocked Paso Robles and Atascadero. An
+            # office is worth its lease by the addressable market it reaches:
+            # population x per-household quality, summed. Falls back to plain
+            # town-count when there is no census data at all.
+            opp = sum(opportunity(o.get("demographics")) for o in covers)
+            weight = opp if opp > 0 else float(len(covers))
             score = (round(weight, 3), -cand["distance_mi"])
             if best is None or score > best[0]:
                 best = (score, cand, covers)
@@ -259,6 +267,7 @@ def scout(slug: str, with_census: bool = True) -> dict:
                       "covers_count": len(covers),
                       "demand_weighted": round(best[0][0], 2),
                       "avg_demand": round(sum(seat_demand) / len(seat_demand), 1) if seat_demand else None,
+                      "opportunity": round(sum(opportunity(o.get("demographics")) for o in covers), 1),
                       "seat_demographics": cand.get("demographics"),
                       "cluster_population": int(sum(pops)) if pops else None,
                       "cluster_median_income": int(sum(incs) / len(incs)) if incs else None,
@@ -363,11 +372,12 @@ def render(res: dict, top_n: int = DEFAULT_TOP_N) -> None:
         print(f"    {r['city'][:21]:<22} {d:>7}  {verdict}{star}")
     shortlist = res["recommended_offices"][:top_n]
     print(f"\n  RECOMMENDED OFFICES — top {len(shortlist)} of {len(res['recommended_offices'])} viable"
-          f"  [>= {MIN_SEPARATION_MI}mi apart, no overlap]")
+          f"  [>= {res['effective_reach_mi']}mi apart, no overlap, ranked by addressable market]")
     if not shortlist:
         print("    none — every target area is already inside the current pin's reach")
     for i, s in enumerate(shortlist, 1):
-        dem = f", demand {s['avg_demand']}/100" if s.get("avg_demand") is not None else ""
+        dem = (f", market {int(s['opportunity']):,}" if s.get("opportunity") else "") + \
+              (f", quality {s['avg_demand']}/100" if s.get("avg_demand") is not None else "")
         print(f"    {i}. {s['seat_city']}, {s['state']}  "
               f"({s['distance_from_pin_mi']}mi out) — covers {s['covers_count']} target town(s){dem}")
         print(f"       {', '.join(s['would_cover'])}")

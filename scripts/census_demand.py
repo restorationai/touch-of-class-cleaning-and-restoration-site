@@ -174,7 +174,20 @@ def demographics(lat: float, lng: float) -> dict | None:
 
 
 def demand_score(d: dict | None) -> dict:
-    """Blend the five signals into one 0-100 score with its reasoning kept.
+    """Per-HOUSEHOLD quality 0-100, plus the population that scales it.
+
+    CORRECTED 2026-08-06 (Santino: "Why would Avila Beach be rated when it has
+    only 1,365 people?"). Population used to be one of five equally-weighted
+    components, so a tiny wealthy town could out-score a real market: Avila
+    Beach, population 1,365, scored 62.2 on the strength of $185k median income
+    and beat Orcutt at 31,284 people. That is backwards. Population is not a
+    quality signal you average in — it is the MULTIPLIER on everything else.
+    A town of 1,365 cannot generate enough emergency water work to justify a
+    lease however wealthy it is.
+
+    So this now scores only what a single job is worth and how often one
+    happens — income, owner-occupancy, home value, housing age — and returns
+    population separately. The caller multiplies. See opportunity().
 
     Deliberately transparent rather than clever: each component is scored
     independently against a plain restoration-market yardstick and averaged over
@@ -185,10 +198,6 @@ def demand_score(d: dict | None) -> dict:
     if not d:
         return {"score": None, "parts": {}, "note": "no census match"}
     parts: dict = {}
-
-    pop = d.get("population")
-    if pop is not None:                      # 5k -> 0, 100k+ -> 100
-        parts["population"] = max(0.0, min(100.0, (pop - 5000) / 95000 * 100))
 
     inc = d.get("median_household_income")
     if inc is not None:                      # $45k -> 0, $150k+ -> 100
@@ -210,7 +219,25 @@ def demand_score(d: dict | None) -> dict:
         return {"score": None, "parts": {}, "note": "no usable census values"}
     return {"score": round(sum(parts.values()) / len(parts), 1),
             "parts": {k: round(v, 1) for k, v in parts.items()},
-            "note": f"{len(parts)}/5 signals present"}
+            "population": d.get("population"),
+            "note": f"{len(parts)}/4 quality signals present"}
+
+
+def opportunity(d: dict | None) -> float:
+    """Expected addressable value of a town: population x per-household quality.
+
+    The number that actually decides whether an office pays for itself. A town
+    of 31,284 at quality 54 (Orcutt -> 16,893) is worth roughly twenty times one
+    of 1,365 at quality 78 (Avila Beach -> 1,065), which is the correct answer
+    and the opposite of what averaging produced.
+    """
+    if not d:
+        return 0.0
+    q = demand_score(d).get("score")
+    pop = d.get("population")
+    if q is None or not pop:
+        return 0.0
+    return round(pop * q / 100.0, 1)
 
 
 if __name__ == "__main__":
