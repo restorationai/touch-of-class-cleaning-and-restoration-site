@@ -25,7 +25,7 @@ const {
 } = Astro.props;
 ---
 
-<section id="estimate" class={`bg-dark-50 border-y border-dark/10 ${compact ? "py-14" : "py-20"}`}>
+<section id="estimate" class={`scroll-mt-24 bg-dark-50 border-y border-dark/10 ${compact ? "py-14" : "py-20"}`}>
   <div class="container-wide px-6">
     <div class={`mx-auto ${compact ? "max-w-xl" : "max-w-6xl"} flex flex-col lg:flex-row gap-8 items-start`}>
     <div class={`flex-1 w-full bg-dark-900 rounded-2xl shadow-xl border border-dark/10 ${compact ? "p-6 sm:p-8" : "p-8 sm:p-10"}`}>
@@ -151,6 +151,7 @@ const {
         <a href={`tel:${brand.phoneRaw}`} class="mt-7 flex items-center justify-center w-full rounded-xl bg-white text-dark-950 font-black uppercase tracking-wide py-3.5 no-underline hover:bg-white/90 transition-colors">Call Now</a>
       </aside>
     )}
+    </div>
   </div>
 </section>
 
