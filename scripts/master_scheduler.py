@@ -134,11 +134,55 @@ QUEUE_ALERT_THRESHOLD = 2
 # -----------------------------------------------------------------------------
 
 
+# Statuses that mean "stop working for them". Everything else is a client we
+# are delivering to (2026-08-06).
+#
+# WHY THIS CHANGED: load_clients required the literal string "active", and only
+# 6 of 22 client records carry it. The rest sat at "onboarding" (9), "pending"
+# (4) or "live" (1) — including PuroClean, whose status is literally `live`, and
+# nine clients with a built site and 8+ published posts. Every one of them was
+# silently excluded from ALL FIVE systems: no content, no keyword research, no
+# audits, no refresh. That is what "17 clients with zero AI-citation posts"
+# actually meant — not an idle System 0, an empty client list.
+#
+# Same shape video_cron.active_clients() already uses, and the same reason: the
+# app's pause button writes companies.status in Supabase and never touches the
+# local file, so the DB is authoritative for departure and the local status is
+# only a hint. Fail OPEN on the DB read — never stop a paying client's systems
+# because of an API hiccup.
+DEPARTED = {"archived", "churned", "paused", "cancelled", "canceled", "inactive"}
+
+
+def _db_departed_ids() -> set:
+    try:
+        if not os.environ.get("SUPABASE_URL"):
+            return set()
+        from supabase import create_client
+        sb = create_client(os.environ["SUPABASE_URL"],
+                           os.environ["SUPABASE_SERVICE_ROLE_KEY"])
+        rows = sb.table("companies").select("id,status").execute().data or []
+        return {r["id"] for r in rows
+                if str(r.get("status") or "").strip().lower() in DEPARTED}
+    except Exception as e:  # noqa: BLE001
+        sys.stderr.write(f"  companies status lookup failed: {str(e)[:120]}\n")
+        return set()
+
+
 def load_clients(slug_filter: str | None = None) -> list[dict]:
     out = []
+    db_departed = _db_departed_ids()
+    cmap = {}
+    try:
+        cmap = json.loads((ROOT / "clients" / "company_map.json").read_text())
+    except Exception:
+        pass
     for path in sorted((ROOT / "clients").glob("*.json")):
+        if path.stem == "company_map":
+            continue
         c = json.loads(path.read_text())
-        if c.get("status") != "active":
+        if str(c.get("status") or "").strip().lower() in DEPARTED:
+            continue
+        if (c.get("company_id") or cmap.get(path.stem)) in db_departed:
             continue
         if slug_filter and c.get("slug") != slug_filter:
             continue
