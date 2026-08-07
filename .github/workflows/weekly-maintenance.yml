@@ -208,6 +208,17 @@ jobs:
             echo "GSC_AGENCY_TOKEN secret not set — skipping GSC sync (strategist uses last-synced data)."
           fi
 
+      - name: Location Scout (weekly — where a second office would have to go)
+        env:
+          SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY:  ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          CENSUS_API_KEY:             ${{ secrets.CENSUS_API_KEY }}
+        # Free to run: Nominatim, the Census ACS and the Supabase reads all
+        # cost nothing, so the only budget is ~1-2 min per client of
+        # rate-limit courtesy. Non-fatal — a bad plan-input on one client must
+        # never take down the maintenance run.
+        run: python3 scripts/location_scout.py --all || echo "location scout failed (non-fatal)"
+
       - name: Refresh strategist action plans (System 0)
         env:
           SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}

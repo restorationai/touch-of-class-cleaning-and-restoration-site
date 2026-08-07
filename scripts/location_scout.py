@@ -405,12 +405,37 @@ def render(res: dict, top_n: int = DEFAULT_TOP_N) -> None:
 
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--slug", required=True)
+    ap.add_argument("--slug", help="one client (omit with --all)")
+    ap.add_argument("--all", action="store_true",
+                    help="every client with a plan-input.json; implies --save")
     ap.add_argument("--json", action="store_true")
     ap.add_argument("--top", type=int, default=DEFAULT_TOP_N, help="how many offices to shortlist")
     ap.add_argument("--no-census", action="store_true", help="geometry only, skip demographics")
     ap.add_argument("--save", action="store_true", help="write the shortlist to marketing_location_scout for the app")
     a = ap.parse_args()
+    if a.all:
+        # Fleet run. Costs nothing but time: Nominatim, the Census ACS and the
+        # Supabase reads are all free, so this is safe to schedule weekly. Each
+        # client is isolated — one bad plan-input must not stop the rest.
+        slugs = sorted(p.parent.name for p in CLIENTS_DIR.glob("*/plan-input.json"))
+        print(f"location scout: {len(slugs)} client(s)\n")
+        ok = fail = 0
+        for slug in slugs:
+            try:
+                r = scout(slug, with_census=not a.no_census)
+                n = save(r)
+                print(f"  {slug:<38} {n} recommendation(s)")
+                ok += 1
+            except SystemExit as e:
+                print(f"  {slug:<38} skipped — {str(e)[:70]}")
+                fail += 1
+            except Exception as e:  # noqa: BLE001
+                print(f"  {slug:<38} FAILED — {type(e).__name__}: {str(e)[:60]}")
+                fail += 1
+        print(f"\ndone: {ok} scouted, {fail} skipped/failed")
+        return 0
+    if not a.slug:
+        ap.error("--slug is required unless --all is given")
     res = scout(a.slug, with_census=not a.no_census)
     if a.json:
         print(json.dumps(res, indent=2))
