@@ -2189,6 +2189,47 @@ def _job_photo_count_storage(company_id: str) -> int:
 _DOMAIN_ASK_RE = re.compile(r"domain|registrar|godaddy|nameserver", re.I)
 
 
+# A seeded ask carries TWO audiences in one row. The title is a work order for
+# the ops board ("ASK CLIENT: confirm they actually offer 13 services listed on
+# their Google profile"); the rationale often ends with a `MONICA:` segment
+# that is the actual script — what to say, how much to raise at once, and what
+# the client must NOT be made to do. Both were reaching the model, but
+# lopsidedly: the title went in verbatim and in full while the rationale was
+# sliced at 300 chars, which cut the script mid-sentence and dropped its
+# constraints entirely. Rudy got asked to "confirm all 13 services" when the
+# script beneath it said max 3, conversational, client does nothing in Google.
+#
+# Where a script exists it IS the instruction, and the headline is not spoken
+# at all (Santino 2026-08-07).
+_MONICA_SCRIPT_RE = re.compile(r"\bMONICA\s*:\s*", re.I)
+
+
+def split_monica_script(rationale) -> tuple[str, str]:
+    """(purpose_for_the_board, script_for_the_client). Script is "" when the
+    row has no MONICA: segment, which is the common case."""
+    text = str(rationale or "").strip()
+    m = _MONICA_SCRIPT_RE.search(text)
+    if not m:
+        return text, ""
+    return text[:m.start()].strip(), text[m.end():].strip()
+
+
+def _clip(text: str, limit: int) -> str:
+    """Truncate on a sentence boundary, else a word boundary. A script cut
+    mid-word ("...do you folks handle Water damage restoration? Want t") reads
+    as noise to the model and loses whatever followed."""
+    text = str(text or "").strip()
+    if len(text) <= limit:
+        return text
+    head = text[:limit]
+    for sep in (". ", "! ", "? "):
+        cut = head.rfind(sep)
+        if cut > limit * 0.5:
+            return head[:cut + 1]
+    cut = head.rfind(" ")
+    return (head[:cut] if cut > limit * 0.5 else head).rstrip() + "…"
+
+
 def _domain_access_status(company_id: str) -> str:
     """Current domain_access_status from marketing_sites ('' = no site row).
 
@@ -3633,6 +3674,11 @@ Rules:
 - PURPOSE: when explaining WHY we ask for something, use that item's own
   "context:" text; if it doesn't state a purpose, don't invent one
   (2026-08-03: the supplier question got a made-up "ads setup" purpose).
+- SCRIPT: an item prefixed "SCRIPT —" was written for the CLIENT to hear.
+  Follow it, including any limit it sets on how much to raise at once and
+  anything it says the client must NOT have to do. Its "why we need it:"
+  clause is board context, not something to read out. No internal headline
+  is supplied for these items, and you must not reconstruct one.
 - GROUNDING (hard rule — 2026-08-02: Monica told a client "that review
   request is already out to him and Ed" when NO request existed anywhere):
   never state that an action is DONE (sent / out / posted / live /
@@ -4181,9 +4227,20 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
             chosen = [ver, dom]   # verification leads (top priority)
     lines = []
     for i, it in enumerate(chosen, 1):
-        detail = (it["detail"] or "")[:300]
-        lines.append(f"{i}. id={it['id']} [{it['kind']}] {it['text']}"
-                     + (f" — context: {detail}" if detail else ""))
+        purpose, script = split_monica_script(it["detail"])
+        if script:
+            # Script wins and the internal headline is withheld entirely — see
+            # split_monica_script. Budget goes to the script, not the prose
+            # written for the ops board.
+            lines.append(
+                f"{i}. id={it['id']} [{it['kind']}] SCRIPT — say this, in your "
+                f"own words; do NOT restate any internal headline: "
+                + _clip(script, 600)
+                + (f" — why we need it: {_clip(purpose, 180)}" if purpose else ""))
+        else:
+            detail = _clip(purpose, 300)
+            lines.append(f"{i}. id={it['id']} [{it['kind']}] {it['text']}"
+                         + (f" — context: {detail}" if detail else ""))
     # LENGTH CLASS (Santino 2026-08-04, concision is a hard rule). Normal
     # messages get the tight target; the two exceptions are first contact
     # (the intro line is required identity) and a step-by-step the client
@@ -7033,11 +7090,20 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
         # answered from it, never invented (Curt/Home Pride 2026-08-03:
         # Monica said the supplier question was "for the ads setup" when
         # its stated purpose is the supplier/dealer listing-links program).
-        item_list = "\n".join(
-            f"- id={it['id']} kind={it['kind']} type={it['field_type']} "
-            f"q={it['text'][:110]!r}"
-            + (f" purpose={str(it['detail'])[:140]!r}" if it.get("detail") else "")
-            for it in open_items) or "(none)"
+        # A MONICA: script replaces the internal headline here too — at 110/140
+        # chars the script was always cut off entirely, so a re-ask on this
+        # path spoke the ops-board wording every time.
+        def _item_line(it):
+            purpose, script = split_monica_script(it.get("detail"))
+            head = (f"- id={it['id']} kind={it['kind']} "
+                    f"type={it['field_type']} ")
+            if script:
+                return (head + f"script={_clip(script, 320)!r}"
+                        + (f" purpose={_clip(purpose, 120)!r}" if purpose else ""))
+            return (head + f"q={_clip(it['text'], 110)!r}"
+                    + (f" purpose={_clip(purpose, 140)!r}" if purpose else ""))
+
+        item_list = "\n".join(_item_line(it) for it in open_items) or "(none)"
         # Vision: the analysis SEES what they texted (screenshots, photos).
         vision = (_vision_blocks(msg.get("attachments"))
                   if msg.get("attachments") else [])

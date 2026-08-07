@@ -699,6 +699,29 @@ RETIRED_ASK_SEEDS = (
 )
 
 
+def retire_withdrawn_asks(cid: str, slug: str, dry_run: bool) -> list[str]:
+    """Close any still-open row seeded by an ask we have since withdrawn.
+
+    Deliberately gate-free: called for every active client, not only the ones
+    that currently qualify for checklist nags.
+    """
+    out: list[str] = []
+    for tmpl in RETIRED_ASK_SEEDS:
+        seed = tmpl.format(slug=slug)
+        key = action_key(cid, seed)
+        stale = _sb("GET", "/rest/v1/marketing_action_plan"
+                    f"?company_id=eq.{cid}&action_key=eq.{key}"
+                    "&status=eq.planned&select=id",
+                    prefer="return=representation") or []
+        if stale:
+            if not dry_run:
+                _sb("PATCH", "/rest/v1/marketing_action_plan"
+                    f"?company_id=eq.{cid}&action_key=eq.{key}",
+                    {"status": "done"})
+            out.append(f"{slug}: retired ask — {seed}")
+    return out
+
+
 def ensure_setup_checklist(dry_run: bool, cid_to_slug: dict) -> list[str]:
     """Daily business-setup checklist (Santino 2026-07-25: 'this is why they
     pay US — we handle what we can'). Three buckets: auto-fix (ours, handled
@@ -725,6 +748,17 @@ def ensure_setup_checklist(dry_run: bool, cid_to_slug: dict) -> list[str]:
     active = _sb("GET", "/rest/v1/companies?status=ilike.active"
                  "&select=id,name,ein,integration_settings",
                  prefer="return=representation") or []
+
+    # Withdrawals run FIRST and UNCONDITIONALLY, over EVERY mapped client —
+    # not `active`, and ahead of the gates below (no slug; no GBP profile and
+    # no LSA blocker). None of those conditions have anything to do with
+    # whether an ask we have withdrawn should still be open on someone's
+    # board. Both exclusions were real: mold-solutionz is status=paused, so
+    # the active-only query never saw it, and the sweep originally sat at the
+    # bottom of the loop behind two continues. A paused client is the worst
+    # case to skip, because the stale ask simply reanimates on unpause.
+    for _cid, _slug in cid_to_slug.items():
+        out += retire_withdrawn_asks(_cid, _slug, dry_run)
 
     for co in active:
         cid = co["id"]
@@ -1026,21 +1060,6 @@ def ensure_setup_checklist(dry_run: bool, cid_to_slug: dict) -> list[str]:
                         f"?company_id=eq.{cid}&action_key=eq.{key}",
                         {"status": "done"})
                 out.append(f"{slug}: gap cleared — resolved '{title}'")
-
-        # Close anything we have since withdrawn (see RETIRED_ASK_SEEDS).
-        for tmpl in RETIRED_ASK_SEEDS:
-            seed = tmpl.format(slug=slug)
-            key = action_key(cid, seed)
-            stale = _sb("GET", "/rest/v1/marketing_action_plan"
-                        f"?company_id=eq.{cid}&action_key=eq.{key}"
-                        "&status=eq.planned&select=id",
-                        prefer="return=representation") or []
-            if stale:
-                if not dry_run:
-                    _sb("PATCH", "/rest/v1/marketing_action_plan"
-                        f"?company_id=eq.{cid}&action_key=eq.{key}",
-                        {"status": "done"})
-                out.append(f"{slug}: retired ask — {seed}")
     return out
 
 
