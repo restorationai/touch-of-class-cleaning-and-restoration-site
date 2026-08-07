@@ -1,5 +1,5 @@
 {
-  "cursor": "2026-08-06T14:01:00Z",
+  "cursor": "2026-08-07T14:01:10Z",
   "processed_intake_ids": [
     "fc44dd89-d909-44f9-93f6-794f847caf15",
     "6b16a3b8-90f1-4cdc-bb25-93335099c603",
@@ -30,7 +30,8 @@
     "819e2bb4-41c2-4966-b534-26bf180322c0",
     "55fbba7a-3586-492f-b29d-f45ba40b9fef",
     "3b4307e9-63f2-459e-bd92-e85e74ca78ac",
-    "a6f4859d-c3a1-4b7c-9e2c-d2483ea2af2c"
+    "a6f4859d-c3a1-4b7c-9e2c-d2483ea2af2c",
+    "fa0cd922-e8f9-4aa8-8f49-0fe78d3bb2aa"
   ],
   "processed_plan_events": [
     "80fd3777-f57b-4a61-9cf4-dc4e7d243cd1:done",
@@ -67,7 +68,10 @@
     "eaf0ce71-4688-4e70-b68b-7d50de76f291:resolved",
     "09f60561-74e3-4d0e-afcc-0e370826b105:resolved",
     "f221cd09-a9e5-4708-8834-cbf67e8e2d20:resolved",
-    "8ebdaf96-48d6-48a8-b14b-4f478f25aa5c:done"
+    "8ebdaf96-48d6-48a8-b14b-4f478f25aa5c:done",
+    "71d5e72a-0314-455d-92a6-660023d97630:approved",
+    "f62753d1-5a75-4f9e-9c02-947f57478fda:approved",
+    "498916ef-e8f7-46fa-8041-68c052d8c415:approved"
   ],
-  "last_run_at": "2026-08-06T14:01:00.242706+00:00"
+  "last_run_at": "2026-08-07T14:01:10.861464+00:00"
 }
