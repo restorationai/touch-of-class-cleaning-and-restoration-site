@@ -233,7 +233,10 @@
       "url": "https://prorestorationca.com",
       "relationship": "sister company"
     },
-    "google_maps_api_key": "AIzaSyDrYnSuDu-hFvKHEcQCjwb-zsMebInPneU"
+    "google_maps_api_key": "AIzaSyDrYnSuDu-hFvKHEcQCjwb-zsMebInPneU",
+    "place_id": "ChIJYX-sGVdD6oARZNr_2oUREuM",
+    "lat": 35.3739,
+    "lng": -119.0195
   },
   "cross_product": true,
   "keyword_strategy": "conservative",
