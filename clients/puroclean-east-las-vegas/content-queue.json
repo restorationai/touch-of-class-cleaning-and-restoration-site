@@ -1,0 +1,54 @@
+{
+ "items": [
+  {
+   "id": "2026-08-07-best-mold-remediation-in-las-vegas-nv",
+   "status": "queued",
+   "queued_at": "2026-08-07T03:43:51Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "best_of_comparison",
+   "combo_key": "best-mold-remediation-in-las-vegas-nv",
+   "primary_keyword": "best mold remediation company in Las Vegas, NV",
+   "intent": "commercial",
+   "target_word_count": 1600,
+   "city_anchor": "las-vegas-nv",
+   "best_of": {
+    "service": "mold-remediation",
+    "service_pretty": "Mold Remediation",
+    "city": "Las Vegas",
+    "state": "NV",
+    "competitors": [
+     {
+      "name": "WFM Restoration LLC",
+      "google_rating": 4.9,
+      "review_count": 1065
+     },
+     {
+      "name": "RemediationX",
+      "google_rating": 4.9,
+      "review_count": 35
+     },
+     {
+      "name": "Vortex Restoration",
+      "google_rating": 5,
+      "review_count": 25
+     },
+     {
+      "name": "Elevate Restore",
+      "google_rating": 4.9,
+      "review_count": 184
+     }
+    ]
+   },
+   "fan_out_cluster": [
+    "best mold remediation companies Las Vegas",
+    "top rated mold remediation Las Vegas NV",
+    "who is the best mold remediation company in Las Vegas",
+    "mold removal Las Vegas",
+    "black mold removal Las Vegas",
+    "mold cleanup Las Vegas"
+   ],
+   "source": "best-of-seeder"
+  }
+ ]
+}

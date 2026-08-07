@@ -1,0 +1,54 @@
+{
+ "items": [
+  {
+   "id": "2026-08-07-best-water-damage-restoration-in-henderson-nv",
+   "status": "queued",
+   "queued_at": "2026-08-07T03:43:28Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "best_of_comparison",
+   "combo_key": "best-water-damage-restoration-in-henderson-nv",
+   "primary_keyword": "best water damage restoration company in Henderson, NV",
+   "intent": "commercial",
+   "target_word_count": 1600,
+   "city_anchor": "henderson-nv",
+   "best_of": {
+    "service": "water-damage-restoration",
+    "service_pretty": "Water Damage Restoration",
+    "city": "Henderson",
+    "state": "NV",
+    "competitors": [
+     {
+      "name": "SERVPRO of Henderson/Boulder City",
+      "google_rating": 4.9,
+      "review_count": 364
+     },
+     {
+      "name": "Quality 1st Restorations",
+      "google_rating": 5,
+      "review_count": 10
+     },
+     {
+      "name": "Water Damage Professionals",
+      "google_rating": 5,
+      "review_count": 49
+     },
+     {
+      "name": "1-800 Water Damage of SE Las Vegas and Henderson",
+      "google_rating": 5,
+      "review_count": 7
+     }
+    ]
+   },
+   "fan_out_cluster": [
+    "best water damage restoration companies Henderson",
+    "top rated water damage restoration Henderson NV",
+    "who is the best water damage restoration company in Henderson",
+    "water damage cleanup Henderson",
+    "water cleanup Henderson",
+    "water damage repair Henderson"
+   ],
+   "source": "best-of-seeder"
+  }
+ ]
+}

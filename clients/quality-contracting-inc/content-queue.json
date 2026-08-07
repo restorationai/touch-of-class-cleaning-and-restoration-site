@@ -1,0 +1,39 @@
+{
+ "items": [
+  {
+   "id": "2026-08-07-best-water-damage-restoration-in-auburn-ma",
+   "status": "queued",
+   "queued_at": "2026-08-07T03:44:04Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "best_of_comparison",
+   "combo_key": "best-water-damage-restoration-in-auburn-ma",
+   "primary_keyword": "best water damage restoration company in Auburn, MA",
+   "intent": "commercial",
+   "target_word_count": 1600,
+   "city_anchor": "auburn-ma",
+   "best_of": {
+    "service": "water-damage-restoration",
+    "service_pretty": "Water Damage Restoration",
+    "city": "Auburn",
+    "state": "MA",
+    "competitors": [
+     {
+      "name": "PuroClean Certified Restoration Specialists",
+      "google_rating": 4.9,
+      "review_count": 192
+     }
+    ]
+   },
+   "fan_out_cluster": [
+    "best water damage restoration companies Auburn",
+    "top rated water damage restoration Auburn MA",
+    "who is the best water damage restoration company in Auburn",
+    "water removal Auburn",
+    "water damage repair Auburn",
+    "water damage cleanup Auburn"
+   ],
+   "source": "best-of-seeder"
+  }
+ ]
+}

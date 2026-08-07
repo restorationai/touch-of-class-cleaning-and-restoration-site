@@ -1,0 +1,54 @@
+{
+ "items": [
+  {
+   "id": "2026-08-07-best-water-damage-restoration-in-youngstown-oh",
+   "status": "queued",
+   "queued_at": "2026-08-07T03:42:28Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "best_of_comparison",
+   "combo_key": "best-water-damage-restoration-in-youngstown-oh",
+   "primary_keyword": "best water damage restoration company in Youngstown, OH",
+   "intent": "commercial",
+   "target_word_count": 1600,
+   "city_anchor": "youngstown-oh",
+   "best_of": {
+    "service": "water-damage-restoration",
+    "service_pretty": "Water Damage Restoration",
+    "city": "Youngstown",
+    "state": "OH",
+    "competitors": [
+     {
+      "name": "National Fire & Water Repair",
+      "google_rating": 4.4,
+      "review_count": 76
+     },
+     {
+      "name": "Paul Davis of Eastern Ohio",
+      "google_rating": 4.8,
+      "review_count": 75
+     },
+     {
+      "name": "SPT Mold Remediation Youngstown",
+      "google_rating": 5,
+      "review_count": 12
+     },
+     {
+      "name": "SERVPRO of Mahoning and North Columbiana Counties",
+      "google_rating": 4.6,
+      "review_count": 111
+     }
+    ]
+   },
+   "fan_out_cluster": [
+    "best water damage restoration companies Youngstown",
+    "top rated water damage restoration Youngstown OH",
+    "who is the best water damage restoration company in Youngstown",
+    "water damage repair Youngstown",
+    "water damage cleanup Youngstown",
+    "water cleanup Youngstown"
+   ],
+   "source": "best-of-seeder"
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "items": [
+  {
+   "id": "2026-08-07-best-water-damage-restoration-in-honolulu-hi",
+   "status": "queued",
+   "queued_at": "2026-08-07T03:41:42Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "best_of_comparison",
+   "combo_key": "best-water-damage-restoration-in-honolulu-hi",
+   "primary_keyword": "best water damage restoration company in Honolulu, HI",
+   "intent": "commercial",
+   "target_word_count": 1600,
+   "city_anchor": "honolulu-hi",
+   "best_of": {
+    "service": "water-damage-restoration",
+    "service_pretty": "Water Damage Restoration",
+    "city": "Honolulu",
+    "state": "HI",
+    "competitors": [
+     {
+      "name": "NuFinishPro of San Diego",
+      "google_rating": 5,
+      "review_count": 259
+     },
+     {
+      "name": "Servpro Industries LLC",
+      "google_rating": 2.4,
+      "review_count": 60
+     }
+    ]
+   },
+   "fan_out_cluster": [
+    "best water damage restoration companies Honolulu",
+    "top rated water damage restoration Honolulu HI",
+    "who is the best water damage restoration company in Honolulu",
+    "water removal Honolulu",
+    "water damage cleanup Honolulu",
+    "water cleanup Honolulu"
+   ],
+   "source": "best-of-seeder"
+  }
+ ]
+}

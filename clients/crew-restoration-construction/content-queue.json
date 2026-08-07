@@ -1,0 +1,54 @@
+{
+ "items": [
+  {
+   "id": "2026-08-07-best-water-damage-restoration-in-sioux-falls-sd",
+   "status": "queued",
+   "queued_at": "2026-08-07T03:42:17Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "best_of_comparison",
+   "combo_key": "best-water-damage-restoration-in-sioux-falls-sd",
+   "primary_keyword": "best water damage restoration company in Sioux Falls, SD",
+   "intent": "commercial",
+   "target_word_count": 1600,
+   "city_anchor": "sioux-falls-sd",
+   "best_of": {
+    "service": "water-damage-restoration",
+    "service_pretty": "Water Damage Restoration",
+    "city": "Sioux Falls",
+    "state": "SD",
+    "competitors": [
+     {
+      "name": "SERVPRO of Sioux Falls",
+      "google_rating": 4.7,
+      "review_count": 151
+     },
+     {
+      "name": "Mustang Disaster CleanUp",
+      "google_rating": 4.5,
+      "review_count": 62
+     },
+     {
+      "name": "FloorTec",
+      "google_rating": 5,
+      "review_count": 6
+     },
+     {
+      "name": "Mold Testing Services, LLC",
+      "google_rating": 5,
+      "review_count": 11
+     }
+    ]
+   },
+   "fan_out_cluster": [
+    "best water damage restoration companies Sioux Falls",
+    "top rated water damage restoration Sioux Falls SD",
+    "who is the best water damage restoration company in Sioux Falls",
+    "water damage cleanup Sioux Falls",
+    "water cleanup Sioux Falls",
+    "water removal Sioux Falls"
+   ],
+   "source": "best-of-seeder"
+  }
+ ]
+}

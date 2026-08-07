@@ -1,0 +1,54 @@
+{
+ "items": [
+  {
+   "id": "2026-08-07-best-mold-remediation-in-middlesex-nc",
+   "status": "queued",
+   "queued_at": "2026-08-07T03:42:52Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "best_of_comparison",
+   "combo_key": "best-mold-remediation-in-middlesex-nc",
+   "primary_keyword": "best mold remediation company in Middlesex, NC",
+   "intent": "commercial",
+   "target_word_count": 1600,
+   "city_anchor": "middlesex-nc",
+   "best_of": {
+    "service": "mold-remediation",
+    "service_pretty": "Mold Remediation",
+    "city": "Middlesex",
+    "state": "NC",
+    "competitors": [
+     {
+      "name": "Carolina Mold & Air",
+      "google_rating": 5,
+      "review_count": 11
+     },
+     {
+      "name": "NC Water And Mold",
+      "google_rating": 5,
+      "review_count": 66
+     },
+     {
+      "name": "Mold Free NC",
+      "google_rating": 5,
+      "review_count": 136
+     },
+     {
+      "name": "Glover Environmental Mold Removal",
+      "google_rating": 5,
+      "review_count": 30
+     }
+    ]
+   },
+   "fan_out_cluster": [
+    "best mold remediation companies Middlesex",
+    "top rated mold remediation Middlesex NC",
+    "who is the best mold remediation company in Middlesex",
+    "mold removal Middlesex",
+    "mold cleanup Middlesex",
+    "black mold removal Middlesex"
+   ],
+   "source": "best-of-seeder"
+  }
+ ]
+}

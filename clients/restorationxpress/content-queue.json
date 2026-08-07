@@ -1,0 +1,54 @@
+{
+ "items": [
+  {
+   "id": "2026-08-07-best-water-damage-restoration-in-davie-fl",
+   "status": "queued",
+   "queued_at": "2026-08-07T03:44:52Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "best_of_comparison",
+   "combo_key": "best-water-damage-restoration-in-davie-fl",
+   "primary_keyword": "best water damage restoration company in Davie, FL",
+   "intent": "commercial",
+   "target_word_count": 1600,
+   "city_anchor": "davie-fl",
+   "best_of": {
+    "service": "water-damage-restoration",
+    "service_pretty": "Water Damage Restoration",
+    "city": "Davie",
+    "state": "FL",
+    "competitors": [
+     {
+      "name": "PuroClean of Davie",
+      "google_rating": 5,
+      "review_count": 52
+     },
+     {
+      "name": "SERVPRO of East Davie/Cooper City",
+      "google_rating": 4.9,
+      "review_count": 89
+     },
+     {
+      "name": "Restoration Xpress",
+      "google_rating": 4.9,
+      "review_count": 132
+     },
+     {
+      "name": "Inovec Restoration & Construction",
+      "google_rating": 5,
+      "review_count": 53
+     }
+    ]
+   },
+   "fan_out_cluster": [
+    "best water damage restoration companies Davie",
+    "top rated water damage restoration Davie FL",
+    "who is the best water damage restoration company in Davie",
+    "water damage repair Davie",
+    "water damage cleanup Davie",
+    "water cleanup Davie"
+   ],
+   "source": "best-of-seeder"
+  }
+ ]
+}

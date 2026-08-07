@@ -1,0 +1,54 @@
+{
+ "items": [
+  {
+   "id": "2026-08-07-best-water-damage-restoration-in-cranberry-township-pa",
+   "status": "queued",
+   "queued_at": "2026-08-07T03:42:43Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "best_of_comparison",
+   "combo_key": "best-water-damage-restoration-in-cranberry-township-pa",
+   "primary_keyword": "best water damage restoration company in Cranberry Township, PA",
+   "intent": "commercial",
+   "target_word_count": 1600,
+   "city_anchor": "cranberry-township-pa",
+   "best_of": {
+    "service": "water-damage-restoration",
+    "service_pretty": "Water Damage Restoration",
+    "city": "Cranberry Township",
+    "state": "PA",
+    "competitors": [
+     {
+      "name": "Restore It",
+      "google_rating": 5,
+      "review_count": 67
+     },
+     {
+      "name": "G.S. Jones Restoration Consulting",
+      "google_rating": 4.4,
+      "review_count": 56
+     },
+     {
+      "name": "Pennsylvania Water and Fire",
+      "google_rating": 5,
+      "review_count": 735
+     },
+     {
+      "name": "Un-Flood-It Emergency Water Removal",
+      "google_rating": 5,
+      "review_count": 80
+     }
+    ]
+   },
+   "fan_out_cluster": [
+    "best water damage restoration companies Cranberry Township",
+    "top rated water damage restoration Cranberry Township PA",
+    "who is the best water damage restoration company in Cranberry Township",
+    "water damage cleanup Cranberry Township",
+    "water cleanup Cranberry Township",
+    "water removal Cranberry Township"
+   ],
+   "source": "best-of-seeder"
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "items": [
+  {
+   "id": "2026-08-07-best-water-damage-restoration-in-santa-maria-ca",
+   "status": "queued",
+   "queued_at": "2026-08-07T03:42:01Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "best_of_comparison",
+   "combo_key": "best-water-damage-restoration-in-santa-maria-ca",
+   "primary_keyword": "best water damage restoration company in Santa Maria, CA",
+   "intent": "commercial",
+   "target_word_count": 1600,
+   "city_anchor": "santa-maria-ca",
+   "best_of": {
+    "service": "water-damage-restoration",
+    "service_pretty": "Water Damage Restoration",
+    "city": "Santa Maria",
+    "state": "CA",
+    "competitors": [
+     {
+      "name": "Fire & Water Damage Santa Maria",
+      "google_rating": 4.9,
+      "review_count": 56
+     },
+     {
+      "name": "SERVPRO of Santa Maria",
+      "google_rating": 4.8,
+      "review_count": 80
+     },
+     {
+      "name": "Fire Damage Santa Maria",
+      "google_rating": 4.9,
+      "review_count": 55
+     },
+     {
+      "name": "PuroClean of Santa Maria",
+      "google_rating": 5,
+      "review_count": 24
+     }
+    ]
+   },
+   "fan_out_cluster": [
+    "best water damage restoration companies Santa Maria",
+    "top rated water damage restoration Santa Maria CA",
+    "who is the best water damage restoration company in Santa Maria",
+    "water damage cleanup Santa Maria",
+    "water cleanup Santa Maria",
+    "water removal Santa Maria"
+   ],
+   "source": "best-of-seeder"
+  }
+ ]
+}

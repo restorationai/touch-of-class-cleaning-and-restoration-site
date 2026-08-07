@@ -1,0 +1,49 @@
+{
+ "items": [
+  {
+   "id": "2026-08-07-best-water-damage-restoration-in-royse-city-tx",
+   "status": "queued",
+   "queued_at": "2026-08-07T03:44:36Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "best_of_comparison",
+   "combo_key": "best-water-damage-restoration-in-royse-city-tx",
+   "primary_keyword": "best water damage restoration company in Royse City, TX",
+   "intent": "commercial",
+   "target_word_count": 1600,
+   "city_anchor": "royse-city-tx",
+   "best_of": {
+    "service": "water-damage-restoration",
+    "service_pretty": "Water Damage Restoration",
+    "city": "Royse City",
+    "state": "TX",
+    "competitors": [
+     {
+      "name": "Paul Davis Emergency Services of Rockwall",
+      "google_rating": 4.9,
+      "review_count": 85
+     },
+     {
+      "name": "PuroClean of Rockwall",
+      "google_rating": 5,
+      "review_count": 30
+     },
+     {
+      "name": "SERVPRO of Northeast Collin County/Greenville",
+      "google_rating": 4.9,
+      "review_count": 172
+     }
+    ]
+   },
+   "fan_out_cluster": [
+    "best water damage restoration companies Royse City",
+    "top rated water damage restoration Royse City TX",
+    "who is the best water damage restoration company in Royse City",
+    "water damage cleanup Royse City",
+    "water cleanup Royse City",
+    "water removal Royse City"
+   ],
+   "source": "best-of-seeder"
+  }
+ ]
+}
