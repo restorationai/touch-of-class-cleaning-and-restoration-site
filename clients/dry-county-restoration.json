@@ -11,18 +11,18 @@
     "template": "restoration",
     "template_version": "0.3.0",
     "url_count": 136,
-    "generated_at": "2026-08-08T16:05:41.108325+00:00"
+    "generated_at": "2026-08-08T16:58:53.943591+00:00"
   },
-  "updated_at": "2026-08-08T16:05:47.936071+00:00",
+  "updated_at": "2026-08-08T16:58:57.833246+00:00",
   "indexnow_key": "899685c92b08481ebe32ce5b9e39fe67",
   "build": {
-    "scaffolded_at": "2026-08-08T16:05:47.935946+00:00",
+    "scaffolded_at": "2026-08-08T16:58:57.833127+00:00",
     "github_repo": "restorationai/dry-county-restoration-site",
     "pages_project": "rankai-dry-county-restoration",
     "starter_version": "0.1.0",
     "url_count": 136,
-    "pages_status": "created",
-    "last_rendered_at": "2026-08-08T16:32:04.838230+00:00"
+    "pages_status": "exists",
+    "last_rendered_at": "2026-08-08T17:25:27.056215+00:00"
   },
   "build_status": "content_partial"
 }

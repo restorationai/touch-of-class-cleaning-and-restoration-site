@@ -1,7 +1,7 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-08-08T16:05:41.100168+00:00",
+  "generated_at": "2026-08-08T16:58:53.937175+00:00",
   "input_summary": {
     "service_count": 11,
     "service_area_count": 9,
@@ -14,11 +14,13 @@
       "archetype": "home",
       "vars_keys": [],
       "title": "Dry County Restoration | Restoration Services in Corona, CA",
-      "h1": "Restoration Services in Corona",
-      "meta_description": "Dry County Restoration provides water, fire, mold, and storm damage restoration across Corona and surrounding areas. Licensed, insured. Call (951) 667-9910.",
+      "h1": "24/7 Restoration Services in Corona",
+      "meta_description": "Dry County Restoration provides 24/7 water, fire, mold, and storm damage restoration across Corona and surrounding areas. Licensed, insured, IICRC-certified. Call (951) 667-9910.",
       "primary_keyword": "restoration services corona",
       "secondary_keywords": [
-        "restoration company near me"
+        "restoration company near me",
+        "24/7 damage restoration",
+        "emergency restoration"
       ],
       "search_intent": "local_commercial",
       "target_word_count": 1200,
@@ -70,7 +72,7 @@
       "vars_keys": [],
       "title": "Restoration Services in Corona | Dry County Restoration",
       "h1": "Our Restoration Services",
-      "meta_description": "Full-service restoration in Corona: water, fire, mold, storm, biohazard, and commercial restoration. Prompt scheduling. Call (951) 667-9910.",
+      "meta_description": "Full-service restoration in Corona: water, fire, mold, storm, biohazard, and commercial restoration. 24/7 response. Call (951) 667-9910.",
       "primary_keyword": "restoration services corona",
       "secondary_keywords": [
         "damage restoration services",
@@ -113,7 +115,7 @@
       "vars_keys": [],
       "title": "Service Areas | Dry County Restoration Restoration",
       "h1": "Areas We Serve",
-      "meta_description": "Dry County Restoration provides restoration services across Corona and the surrounding region. Find your city.",
+      "meta_description": "Dry County Restoration provides 24/7 restoration services across Corona and the surrounding region. Find your city.",
       "primary_keyword": "dry county restoration service areas",
       "secondary_keywords": [
         "restoration service area",
@@ -190,7 +192,7 @@
       "vars_keys": [],
       "title": "About Dry County Restoration | Corona Restoration Company",
       "h1": "About Dry County Restoration",
-      "meta_description": "Dry County Restoration has served Corona since 2020. Meet our restoration team. Licensed, insured, locally owned.",
+      "meta_description": "Dry County Restoration has served Corona since 2020. Meet our IICRC-certified restoration team. Licensed, insured, locally owned.",
       "primary_keyword": "dry county restoration corona",
       "secondary_keywords": [
         "local restoration company",
@@ -223,12 +225,14 @@
       "url_path": "/contact/",
       "archetype": "contact",
       "vars_keys": [],
-      "title": "Contact Dry County Restoration | Restoration in Corona",
+      "title": "Contact Dry County Restoration | 24/7 Restoration in Corona",
       "h1": "Contact Dry County Restoration",
-      "meta_description": "Call (951) 667-9910 for restoration services in Corona and surrounding areas. Free estimates. Direct insurance billing.",
+      "meta_description": "Call (951) 667-9910 for 24/7 emergency restoration in Corona and surrounding areas. Free estimates. Direct insurance billing.",
       "primary_keyword": "dry county restoration contact",
       "secondary_keywords": [
-        "restoration company contact"
+        "restoration company contact",
+        "24/7 restoration phone",
+        "emergency restoration near me"
       ],
       "search_intent": "navigational_action",
       "target_word_count": 400,
@@ -258,7 +262,7 @@
       ],
       "title": "Water Damage Restoration in Corona | Dry County Restoration",
       "h1": "Water Damage Restoration in Corona",
-      "meta_description": "Water damage restoration in Corona and surrounding areas. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 water damage restoration in Corona and surrounding areas. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "water damage restoration corona",
       "secondary_keywords": [
         "water removal",
@@ -308,7 +312,7 @@
       ],
       "title": "Fire Damage Restoration in Corona | Dry County Restoration",
       "h1": "Fire Damage Restoration in Corona",
-      "meta_description": "Fire damage restoration in Corona and surrounding areas. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 fire damage restoration in Corona and surrounding areas. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "fire damage restoration corona",
       "secondary_keywords": [
         "fire cleanup",
@@ -357,7 +361,7 @@
       ],
       "title": "Mold Remediation in Corona | Dry County Restoration",
       "h1": "Mold Remediation in Corona",
-      "meta_description": "Mold remediation in Corona and surrounding areas. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 mold remediation in Corona and surrounding areas. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "mold remediation corona",
       "secondary_keywords": [
         "mold removal",
@@ -407,7 +411,7 @@
       ],
       "title": "Renovations, Remodels and General Contracting in Corona | Dry County Restoration",
       "h1": "Renovations, Remodels and General Contracting in Corona",
-      "meta_description": "Renovations, remodels and general contracting in Corona and surrounding areas. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 renovations, remodels and general contracting in Corona and surrounding areas. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "renovations, remodels and general contracting corona",
       "secondary_keywords": [
         "general contractor",
@@ -455,7 +459,7 @@
       ],
       "title": "Storm Damage Restoration in Corona | Dry County Restoration",
       "h1": "Storm Damage Restoration in Corona",
-      "meta_description": "Storm damage restoration in Corona and surrounding areas. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 storm damage restoration in Corona and surrounding areas. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "storm damage restoration corona",
       "secondary_keywords": [
         "hurricane damage cleanup",
@@ -502,7 +506,7 @@
       ],
       "title": "Sewage Cleanup and Sanitization in Corona | Dry County Restoration",
       "h1": "Sewage Cleanup and Sanitization in Corona",
-      "meta_description": "Sewage cleanup and sanitization in Corona and surrounding areas. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 sewage cleanup and sanitization in Corona and surrounding areas. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "sewage cleanup and sanitization corona",
       "secondary_keywords": [
         "sewage backup cleanup",
@@ -547,12 +551,14 @@
       "vars_keys": [
         "service"
       ],
-      "title": "Board-Up and Tarping in Corona | Dry County Restoration",
-      "h1": "Board-Up and Tarping in Corona",
-      "meta_description": "Board-up and tarping in Corona and surrounding areas. Insurance billing accepted. Call (951) 667-9910.",
+      "title": "Emergency Board-Up and Tarping in Corona | Dry County Restoration",
+      "h1": "Emergency Board-Up and Tarping in Corona",
+      "meta_description": "24/7 emergency board-up and tarping in Corona and surrounding areas. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "emergency board-up and tarping corona",
       "secondary_keywords": [
+        "emergency board up",
         "roof tarping",
+        "emergency tarping service",
         "fire damage board up",
         "broken window board up"
       ],
@@ -594,7 +600,7 @@
       ],
       "title": "Contents Restoration and Storage in Corona | Dry County Restoration",
       "h1": "Contents Restoration and Storage in Corona",
-      "meta_description": "Contents restoration and storage in Corona and surrounding areas. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 contents restoration and storage in Corona and surrounding areas. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "contents restoration and storage corona",
       "secondary_keywords": [
         "contents pack-out",
@@ -641,7 +647,7 @@
       ],
       "title": "Air Duct Cleaning in Corona | Dry County Restoration",
       "h1": "Air Duct Cleaning in Corona",
-      "meta_description": "Air duct cleaning in Corona and surrounding areas. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 air duct cleaning in Corona and surrounding areas. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "air duct cleaning corona",
       "secondary_keywords": [
         "duct cleaning",
@@ -688,7 +694,7 @@
       ],
       "title": "Carpet Cleaning in Corona | Dry County Restoration",
       "h1": "Carpet Cleaning in Corona",
-      "meta_description": "Carpet cleaning in Corona and surrounding areas. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 carpet cleaning in Corona and surrounding areas. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "carpet cleaning corona",
       "secondary_keywords": [
         "professional carpet cleaning",
@@ -735,7 +741,7 @@
       ],
       "title": "Post-Construction and Specialty Cleaning in Corona | Dry County Restoration",
       "h1": "Post-Construction and Specialty Cleaning in Corona",
-      "meta_description": "Post-construction and specialty cleaning in Corona and surrounding areas. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 post-construction and specialty cleaning in Corona and surrounding areas. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "post-construction and specialty cleaning corona",
       "secondary_keywords": [
         "post construction cleanup",
@@ -781,7 +787,7 @@
       ],
       "title": "Restoration Services in Corona, CA | Dry County Restoration",
       "h1": "Restoration Services in Corona",
-      "meta_description": "Serving Corona, CA with water, fire, mold, and storm damage restoration. Experienced team. Call (951) 667-9910.",
+      "meta_description": "Serving Corona, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (951) 667-9910.",
       "primary_keyword": "restoration services corona",
       "secondary_keywords": [
         "corona restoration company",
@@ -829,7 +835,7 @@
       ],
       "title": "Restoration Services in Riverside, CA | Dry County Restoration",
       "h1": "Restoration Services in Riverside",
-      "meta_description": "Serving Riverside, CA with water, fire, mold, and storm damage restoration. Experienced team. Call (951) 667-9910.",
+      "meta_description": "Serving Riverside, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (951) 667-9910.",
       "primary_keyword": "restoration services riverside",
       "secondary_keywords": [
         "riverside restoration company",
@@ -877,7 +883,7 @@
       ],
       "title": "Restoration Services in Anaheim, CA | Dry County Restoration",
       "h1": "Restoration Services in Anaheim",
-      "meta_description": "Serving Anaheim, CA with water, fire, mold, and storm damage restoration. Experienced team. Call (951) 667-9910.",
+      "meta_description": "Serving Anaheim, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (951) 667-9910.",
       "primary_keyword": "restoration services anaheim",
       "secondary_keywords": [
         "anaheim restoration company",
@@ -925,7 +931,7 @@
       ],
       "title": "Restoration Services in Santa Ana, CA | Dry County Restoration",
       "h1": "Restoration Services in Santa Ana",
-      "meta_description": "Serving Santa Ana, CA with water, fire, mold, and storm damage restoration. Experienced team. Call (951) 667-9910.",
+      "meta_description": "Serving Santa Ana, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (951) 667-9910.",
       "primary_keyword": "restoration services santa ana",
       "secondary_keywords": [
         "santa ana restoration company",
@@ -973,7 +979,7 @@
       ],
       "title": "Restoration Services in Ontario, CA | Dry County Restoration",
       "h1": "Restoration Services in Ontario",
-      "meta_description": "Serving Ontario, CA with water, fire, mold, and storm damage restoration. Experienced team. Call (951) 667-9910.",
+      "meta_description": "Serving Ontario, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (951) 667-9910.",
       "primary_keyword": "restoration services ontario",
       "secondary_keywords": [
         "ontario restoration company",
@@ -1021,7 +1027,7 @@
       ],
       "title": "Restoration Services in Fullerton, CA | Dry County Restoration",
       "h1": "Restoration Services in Fullerton",
-      "meta_description": "Serving Fullerton, CA with water, fire, mold, and storm damage restoration. Experienced team. Call (951) 667-9910.",
+      "meta_description": "Serving Fullerton, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (951) 667-9910.",
       "primary_keyword": "restoration services fullerton",
       "secondary_keywords": [
         "fullerton restoration company",
@@ -1069,7 +1075,7 @@
       ],
       "title": "Restoration Services in Norco, CA | Dry County Restoration",
       "h1": "Restoration Services in Norco",
-      "meta_description": "Serving Norco, CA with water, fire, mold, and storm damage restoration. Experienced team. Call (951) 667-9910.",
+      "meta_description": "Serving Norco, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (951) 667-9910.",
       "primary_keyword": "restoration services norco",
       "secondary_keywords": [
         "norco restoration company",
@@ -1117,7 +1123,7 @@
       ],
       "title": "Restoration Services in Chino, CA | Dry County Restoration",
       "h1": "Restoration Services in Chino",
-      "meta_description": "Serving Chino, CA with water, fire, mold, and storm damage restoration. Experienced team. Call (951) 667-9910.",
+      "meta_description": "Serving Chino, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (951) 667-9910.",
       "primary_keyword": "restoration services chino",
       "secondary_keywords": [
         "chino restoration company",
@@ -1165,7 +1171,7 @@
       ],
       "title": "Restoration Services in Chino Hills, CA | Dry County Restoration",
       "h1": "Restoration Services in Chino Hills",
-      "meta_description": "Serving Chino Hills, CA with water, fire, mold, and storm damage restoration. Experienced team. Call (951) 667-9910.",
+      "meta_description": "Serving Chino Hills, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (951) 667-9910.",
       "primary_keyword": "restoration services chino hills",
       "secondary_keywords": [
         "chino hills restoration company",
@@ -1214,7 +1220,7 @@
       ],
       "title": "Water Damage Restoration in Corona, CA | Dry County Restoration",
       "h1": "Water Damage Restoration in Corona",
-      "meta_description": "Water damage restoration in Corona, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 water damage restoration in Corona, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "water damage restoration corona",
       "secondary_keywords": [
         "water removal",
@@ -1258,7 +1264,7 @@
       ],
       "title": "Fire Damage Restoration in Corona, CA | Dry County Restoration",
       "h1": "Fire Damage Restoration in Corona",
-      "meta_description": "Fire damage restoration in Corona, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 fire damage restoration in Corona, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "fire damage restoration corona",
       "secondary_keywords": [
         "fire cleanup",
@@ -1302,7 +1308,7 @@
       ],
       "title": "Mold Remediation in Corona, CA | Dry County Restoration",
       "h1": "Mold Remediation in Corona",
-      "meta_description": "Mold remediation in Corona, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 mold remediation in Corona, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "mold remediation corona",
       "secondary_keywords": [
         "mold removal",
@@ -1346,7 +1352,7 @@
       ],
       "title": "Renovations, Remodels and General Contracting in Corona, CA | Dry County Restoration",
       "h1": "Renovations, Remodels and General Contracting in Corona",
-      "meta_description": "Renovations, remodels and general contracting in Corona, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 renovations, remodels and general contracting in Corona, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "renovations, remodels and general contracting corona",
       "secondary_keywords": [
         "general contractor",
@@ -1391,7 +1397,7 @@
       ],
       "title": "Storm Damage Restoration in Corona, CA | Dry County Restoration",
       "h1": "Storm Damage Restoration in Corona",
-      "meta_description": "Storm damage restoration in Corona, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 storm damage restoration in Corona, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "storm damage restoration corona",
       "secondary_keywords": [
         "hurricane damage cleanup",
@@ -1435,7 +1441,7 @@
       ],
       "title": "Sewage Cleanup and Sanitization in Corona, CA | Dry County Restoration",
       "h1": "Sewage Cleanup and Sanitization in Corona",
-      "meta_description": "Sewage cleanup and sanitization in Corona, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 sewage cleanup and sanitization in Corona, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "sewage cleanup and sanitization corona",
       "secondary_keywords": [
         "sewage backup cleanup",
@@ -1477,12 +1483,14 @@
         "area",
         "service"
       ],
-      "title": "Board-Up and Tarping in Corona, CA | Dry County Restoration",
-      "h1": "Board-Up and Tarping in Corona",
-      "meta_description": "Board-up and tarping in Corona, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "title": "Emergency Board-Up and Tarping in Corona, CA | Dry County Restoration",
+      "h1": "Emergency Board-Up and Tarping in Corona",
+      "meta_description": "24/7 emergency board-up and tarping in Corona, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "emergency board-up and tarping corona",
       "secondary_keywords": [
+        "emergency board up",
         "roof tarping",
+        "emergency tarping service",
         "fire damage board up",
         "broken window board up"
       ],
@@ -1521,7 +1529,7 @@
       ],
       "title": "Contents Restoration and Storage in Corona, CA | Dry County Restoration",
       "h1": "Contents Restoration and Storage in Corona",
-      "meta_description": "Contents restoration and storage in Corona, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 contents restoration and storage in Corona, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "contents restoration and storage corona",
       "secondary_keywords": [
         "contents pack-out",
@@ -1565,7 +1573,7 @@
       ],
       "title": "Air Duct Cleaning in Corona, CA | Dry County Restoration",
       "h1": "Air Duct Cleaning in Corona",
-      "meta_description": "Air duct cleaning in Corona, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 air duct cleaning in Corona, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "air duct cleaning corona",
       "secondary_keywords": [
         "duct cleaning",
@@ -1609,7 +1617,7 @@
       ],
       "title": "Carpet Cleaning in Corona, CA | Dry County Restoration",
       "h1": "Carpet Cleaning in Corona",
-      "meta_description": "Carpet cleaning in Corona, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 carpet cleaning in Corona, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "carpet cleaning corona",
       "secondary_keywords": [
         "professional carpet cleaning",
@@ -1653,7 +1661,7 @@
       ],
       "title": "Post-Construction and Specialty Cleaning in Corona, CA | Dry County Restoration",
       "h1": "Post-Construction and Specialty Cleaning in Corona",
-      "meta_description": "Post-construction and specialty cleaning in Corona, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 post-construction and specialty cleaning in Corona, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "post-construction and specialty cleaning corona",
       "secondary_keywords": [
         "post construction cleanup",
@@ -1696,7 +1704,7 @@
       ],
       "title": "Water Damage Restoration in Riverside, CA | Dry County Restoration",
       "h1": "Water Damage Restoration in Riverside",
-      "meta_description": "Water damage restoration in Riverside, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 water damage restoration in Riverside, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "water damage restoration riverside",
       "secondary_keywords": [
         "water removal",
@@ -1740,7 +1748,7 @@
       ],
       "title": "Fire Damage Restoration in Riverside, CA | Dry County Restoration",
       "h1": "Fire Damage Restoration in Riverside",
-      "meta_description": "Fire damage restoration in Riverside, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 fire damage restoration in Riverside, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "fire damage restoration riverside",
       "secondary_keywords": [
         "fire cleanup",
@@ -1784,7 +1792,7 @@
       ],
       "title": "Mold Remediation in Riverside, CA | Dry County Restoration",
       "h1": "Mold Remediation in Riverside",
-      "meta_description": "Mold remediation in Riverside, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 mold remediation in Riverside, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "mold remediation riverside",
       "secondary_keywords": [
         "mold removal",
@@ -1828,7 +1836,7 @@
       ],
       "title": "Renovations, Remodels and General Contracting in Riverside, CA | Dry County Restoration",
       "h1": "Renovations, Remodels and General Contracting in Riverside",
-      "meta_description": "Renovations, remodels and general contracting in Riverside, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 renovations, remodels and general contracting in Riverside, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "renovations, remodels and general contracting riverside",
       "secondary_keywords": [
         "general contractor",
@@ -1873,7 +1881,7 @@
       ],
       "title": "Storm Damage Restoration in Riverside, CA | Dry County Restoration",
       "h1": "Storm Damage Restoration in Riverside",
-      "meta_description": "Storm damage restoration in Riverside, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 storm damage restoration in Riverside, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "storm damage restoration riverside",
       "secondary_keywords": [
         "hurricane damage cleanup",
@@ -1917,7 +1925,7 @@
       ],
       "title": "Sewage Cleanup and Sanitization in Riverside, CA | Dry County Restoration",
       "h1": "Sewage Cleanup and Sanitization in Riverside",
-      "meta_description": "Sewage cleanup and sanitization in Riverside, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 sewage cleanup and sanitization in Riverside, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "sewage cleanup and sanitization riverside",
       "secondary_keywords": [
         "sewage backup cleanup",
@@ -1959,12 +1967,14 @@
         "area",
         "service"
       ],
-      "title": "Board-Up and Tarping in Riverside, CA | Dry County Restoration",
-      "h1": "Board-Up and Tarping in Riverside",
-      "meta_description": "Board-up and tarping in Riverside, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "title": "Emergency Board-Up and Tarping in Riverside, CA | Dry County Restoration",
+      "h1": "Emergency Board-Up and Tarping in Riverside",
+      "meta_description": "24/7 emergency board-up and tarping in Riverside, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "emergency board-up and tarping riverside",
       "secondary_keywords": [
+        "emergency board up",
         "roof tarping",
+        "emergency tarping service",
         "fire damage board up",
         "broken window board up"
       ],
@@ -2003,7 +2013,7 @@
       ],
       "title": "Contents Restoration and Storage in Riverside, CA | Dry County Restoration",
       "h1": "Contents Restoration and Storage in Riverside",
-      "meta_description": "Contents restoration and storage in Riverside, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 contents restoration and storage in Riverside, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "contents restoration and storage riverside",
       "secondary_keywords": [
         "contents pack-out",
@@ -2047,7 +2057,7 @@
       ],
       "title": "Air Duct Cleaning in Riverside, CA | Dry County Restoration",
       "h1": "Air Duct Cleaning in Riverside",
-      "meta_description": "Air duct cleaning in Riverside, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 air duct cleaning in Riverside, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "air duct cleaning riverside",
       "secondary_keywords": [
         "duct cleaning",
@@ -2091,7 +2101,7 @@
       ],
       "title": "Carpet Cleaning in Riverside, CA | Dry County Restoration",
       "h1": "Carpet Cleaning in Riverside",
-      "meta_description": "Carpet cleaning in Riverside, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 carpet cleaning in Riverside, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "carpet cleaning riverside",
       "secondary_keywords": [
         "professional carpet cleaning",
@@ -2135,7 +2145,7 @@
       ],
       "title": "Post-Construction and Specialty Cleaning in Riverside, CA | Dry County Restoration",
       "h1": "Post-Construction and Specialty Cleaning in Riverside",
-      "meta_description": "Post-construction and specialty cleaning in Riverside, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 post-construction and specialty cleaning in Riverside, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "post-construction and specialty cleaning riverside",
       "secondary_keywords": [
         "post construction cleanup",
@@ -2178,7 +2188,7 @@
       ],
       "title": "Water Damage Restoration in Anaheim, CA | Dry County Restoration",
       "h1": "Water Damage Restoration in Anaheim",
-      "meta_description": "Water damage restoration in Anaheim, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 water damage restoration in Anaheim, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "water damage restoration anaheim",
       "secondary_keywords": [
         "water removal",
@@ -2222,7 +2232,7 @@
       ],
       "title": "Fire Damage Restoration in Anaheim, CA | Dry County Restoration",
       "h1": "Fire Damage Restoration in Anaheim",
-      "meta_description": "Fire damage restoration in Anaheim, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 fire damage restoration in Anaheim, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "fire damage restoration anaheim",
       "secondary_keywords": [
         "fire cleanup",
@@ -2266,7 +2276,7 @@
       ],
       "title": "Mold Remediation in Anaheim, CA | Dry County Restoration",
       "h1": "Mold Remediation in Anaheim",
-      "meta_description": "Mold remediation in Anaheim, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 mold remediation in Anaheim, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "mold remediation anaheim",
       "secondary_keywords": [
         "mold removal",
@@ -2310,7 +2320,7 @@
       ],
       "title": "Renovations, Remodels and General Contracting in Anaheim, CA | Dry County Restoration",
       "h1": "Renovations, Remodels and General Contracting in Anaheim",
-      "meta_description": "Renovations, remodels and general contracting in Anaheim, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 renovations, remodels and general contracting in Anaheim, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "renovations, remodels and general contracting anaheim",
       "secondary_keywords": [
         "general contractor",
@@ -2355,7 +2365,7 @@
       ],
       "title": "Storm Damage Restoration in Anaheim, CA | Dry County Restoration",
       "h1": "Storm Damage Restoration in Anaheim",
-      "meta_description": "Storm damage restoration in Anaheim, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 storm damage restoration in Anaheim, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "storm damage restoration anaheim",
       "secondary_keywords": [
         "hurricane damage cleanup",
@@ -2399,7 +2409,7 @@
       ],
       "title": "Sewage Cleanup and Sanitization in Anaheim, CA | Dry County Restoration",
       "h1": "Sewage Cleanup and Sanitization in Anaheim",
-      "meta_description": "Sewage cleanup and sanitization in Anaheim, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 sewage cleanup and sanitization in Anaheim, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "sewage cleanup and sanitization anaheim",
       "secondary_keywords": [
         "sewage backup cleanup",
@@ -2441,12 +2451,14 @@
         "area",
         "service"
       ],
-      "title": "Board-Up and Tarping in Anaheim, CA | Dry County Restoration",
-      "h1": "Board-Up and Tarping in Anaheim",
-      "meta_description": "Board-up and tarping in Anaheim, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "title": "Emergency Board-Up and Tarping in Anaheim, CA | Dry County Restoration",
+      "h1": "Emergency Board-Up and Tarping in Anaheim",
+      "meta_description": "24/7 emergency board-up and tarping in Anaheim, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "emergency board-up and tarping anaheim",
       "secondary_keywords": [
+        "emergency board up",
         "roof tarping",
+        "emergency tarping service",
         "fire damage board up",
         "broken window board up"
       ],
@@ -2485,7 +2497,7 @@
       ],
       "title": "Contents Restoration and Storage in Anaheim, CA | Dry County Restoration",
       "h1": "Contents Restoration and Storage in Anaheim",
-      "meta_description": "Contents restoration and storage in Anaheim, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 contents restoration and storage in Anaheim, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "contents restoration and storage anaheim",
       "secondary_keywords": [
         "contents pack-out",
@@ -2529,7 +2541,7 @@
       ],
       "title": "Air Duct Cleaning in Anaheim, CA | Dry County Restoration",
       "h1": "Air Duct Cleaning in Anaheim",
-      "meta_description": "Air duct cleaning in Anaheim, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 air duct cleaning in Anaheim, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "air duct cleaning anaheim",
       "secondary_keywords": [
         "duct cleaning",
@@ -2573,7 +2585,7 @@
       ],
       "title": "Carpet Cleaning in Anaheim, CA | Dry County Restoration",
       "h1": "Carpet Cleaning in Anaheim",
-      "meta_description": "Carpet cleaning in Anaheim, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 carpet cleaning in Anaheim, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "carpet cleaning anaheim",
       "secondary_keywords": [
         "professional carpet cleaning",
@@ -2617,7 +2629,7 @@
       ],
       "title": "Post-Construction and Specialty Cleaning in Anaheim, CA | Dry County Restoration",
       "h1": "Post-Construction and Specialty Cleaning in Anaheim",
-      "meta_description": "Post-construction and specialty cleaning in Anaheim, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 post-construction and specialty cleaning in Anaheim, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "post-construction and specialty cleaning anaheim",
       "secondary_keywords": [
         "post construction cleanup",
@@ -2660,7 +2672,7 @@
       ],
       "title": "Water Damage Restoration in Santa Ana, CA | Dry County Restoration",
       "h1": "Water Damage Restoration in Santa Ana",
-      "meta_description": "Water damage restoration in Santa Ana, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 water damage restoration in Santa Ana, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "water damage restoration santa ana",
       "secondary_keywords": [
         "water removal",
@@ -2704,7 +2716,7 @@
       ],
       "title": "Fire Damage Restoration in Santa Ana, CA | Dry County Restoration",
       "h1": "Fire Damage Restoration in Santa Ana",
-      "meta_description": "Fire damage restoration in Santa Ana, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 fire damage restoration in Santa Ana, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "fire damage restoration santa ana",
       "secondary_keywords": [
         "fire cleanup",
@@ -2748,7 +2760,7 @@
       ],
       "title": "Mold Remediation in Santa Ana, CA | Dry County Restoration",
       "h1": "Mold Remediation in Santa Ana",
-      "meta_description": "Mold remediation in Santa Ana, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 mold remediation in Santa Ana, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "mold remediation santa ana",
       "secondary_keywords": [
         "mold removal",
@@ -2792,7 +2804,7 @@
       ],
       "title": "Renovations, Remodels and General Contracting in Santa Ana, CA | Dry County Restoration",
       "h1": "Renovations, Remodels and General Contracting in Santa Ana",
-      "meta_description": "Renovations, remodels and general contracting in Santa Ana, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 renovations, remodels and general contracting in Santa Ana, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "renovations, remodels and general contracting santa ana",
       "secondary_keywords": [
         "general contractor",
@@ -2837,7 +2849,7 @@
       ],
       "title": "Storm Damage Restoration in Santa Ana, CA | Dry County Restoration",
       "h1": "Storm Damage Restoration in Santa Ana",
-      "meta_description": "Storm damage restoration in Santa Ana, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 storm damage restoration in Santa Ana, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "storm damage restoration santa ana",
       "secondary_keywords": [
         "hurricane damage cleanup",
@@ -2881,7 +2893,7 @@
       ],
       "title": "Sewage Cleanup and Sanitization in Santa Ana, CA | Dry County Restoration",
       "h1": "Sewage Cleanup and Sanitization in Santa Ana",
-      "meta_description": "Sewage cleanup and sanitization in Santa Ana, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 sewage cleanup and sanitization in Santa Ana, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "sewage cleanup and sanitization santa ana",
       "secondary_keywords": [
         "sewage backup cleanup",
@@ -2923,12 +2935,14 @@
         "area",
         "service"
       ],
-      "title": "Board-Up and Tarping in Santa Ana, CA | Dry County Restoration",
-      "h1": "Board-Up and Tarping in Santa Ana",
-      "meta_description": "Board-up and tarping in Santa Ana, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "title": "Emergency Board-Up and Tarping in Santa Ana, CA | Dry County Restoration",
+      "h1": "Emergency Board-Up and Tarping in Santa Ana",
+      "meta_description": "24/7 emergency board-up and tarping in Santa Ana, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "emergency board-up and tarping santa ana",
       "secondary_keywords": [
+        "emergency board up",
         "roof tarping",
+        "emergency tarping service",
         "fire damage board up",
         "broken window board up"
       ],
@@ -2967,7 +2981,7 @@
       ],
       "title": "Contents Restoration and Storage in Santa Ana, CA | Dry County Restoration",
       "h1": "Contents Restoration and Storage in Santa Ana",
-      "meta_description": "Contents restoration and storage in Santa Ana, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 contents restoration and storage in Santa Ana, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "contents restoration and storage santa ana",
       "secondary_keywords": [
         "contents pack-out",
@@ -3011,7 +3025,7 @@
       ],
       "title": "Air Duct Cleaning in Santa Ana, CA | Dry County Restoration",
       "h1": "Air Duct Cleaning in Santa Ana",
-      "meta_description": "Air duct cleaning in Santa Ana, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 air duct cleaning in Santa Ana, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "air duct cleaning santa ana",
       "secondary_keywords": [
         "duct cleaning",
@@ -3055,7 +3069,7 @@
       ],
       "title": "Carpet Cleaning in Santa Ana, CA | Dry County Restoration",
       "h1": "Carpet Cleaning in Santa Ana",
-      "meta_description": "Carpet cleaning in Santa Ana, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 carpet cleaning in Santa Ana, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "carpet cleaning santa ana",
       "secondary_keywords": [
         "professional carpet cleaning",
@@ -3099,7 +3113,7 @@
       ],
       "title": "Post-Construction and Specialty Cleaning in Santa Ana, CA | Dry County Restoration",
       "h1": "Post-Construction and Specialty Cleaning in Santa Ana",
-      "meta_description": "Post-construction and specialty cleaning in Santa Ana, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 post-construction and specialty cleaning in Santa Ana, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "post-construction and specialty cleaning santa ana",
       "secondary_keywords": [
         "post construction cleanup",
@@ -3142,7 +3156,7 @@
       ],
       "title": "Water Damage Restoration in Ontario, CA | Dry County Restoration",
       "h1": "Water Damage Restoration in Ontario",
-      "meta_description": "Water damage restoration in Ontario, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 water damage restoration in Ontario, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "water damage restoration ontario",
       "secondary_keywords": [
         "water removal",
@@ -3186,7 +3200,7 @@
       ],
       "title": "Fire Damage Restoration in Ontario, CA | Dry County Restoration",
       "h1": "Fire Damage Restoration in Ontario",
-      "meta_description": "Fire damage restoration in Ontario, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 fire damage restoration in Ontario, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "fire damage restoration ontario",
       "secondary_keywords": [
         "fire cleanup",
@@ -3230,7 +3244,7 @@
       ],
       "title": "Mold Remediation in Ontario, CA | Dry County Restoration",
       "h1": "Mold Remediation in Ontario",
-      "meta_description": "Mold remediation in Ontario, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 mold remediation in Ontario, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "mold remediation ontario",
       "secondary_keywords": [
         "mold removal",
@@ -3274,7 +3288,7 @@
       ],
       "title": "Renovations, Remodels and General Contracting in Ontario, CA | Dry County Restoration",
       "h1": "Renovations, Remodels and General Contracting in Ontario",
-      "meta_description": "Renovations, remodels and general contracting in Ontario, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 renovations, remodels and general contracting in Ontario, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "renovations, remodels and general contracting ontario",
       "secondary_keywords": [
         "general contractor",
@@ -3319,7 +3333,7 @@
       ],
       "title": "Storm Damage Restoration in Ontario, CA | Dry County Restoration",
       "h1": "Storm Damage Restoration in Ontario",
-      "meta_description": "Storm damage restoration in Ontario, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 storm damage restoration in Ontario, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "storm damage restoration ontario",
       "secondary_keywords": [
         "hurricane damage cleanup",
@@ -3363,7 +3377,7 @@
       ],
       "title": "Sewage Cleanup and Sanitization in Ontario, CA | Dry County Restoration",
       "h1": "Sewage Cleanup and Sanitization in Ontario",
-      "meta_description": "Sewage cleanup and sanitization in Ontario, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 sewage cleanup and sanitization in Ontario, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "sewage cleanup and sanitization ontario",
       "secondary_keywords": [
         "sewage backup cleanup",
@@ -3405,12 +3419,14 @@
         "area",
         "service"
       ],
-      "title": "Board-Up and Tarping in Ontario, CA | Dry County Restoration",
-      "h1": "Board-Up and Tarping in Ontario",
-      "meta_description": "Board-up and tarping in Ontario, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "title": "Emergency Board-Up and Tarping in Ontario, CA | Dry County Restoration",
+      "h1": "Emergency Board-Up and Tarping in Ontario",
+      "meta_description": "24/7 emergency board-up and tarping in Ontario, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "emergency board-up and tarping ontario",
       "secondary_keywords": [
+        "emergency board up",
         "roof tarping",
+        "emergency tarping service",
         "fire damage board up",
         "broken window board up"
       ],
@@ -3449,7 +3465,7 @@
       ],
       "title": "Contents Restoration and Storage in Ontario, CA | Dry County Restoration",
       "h1": "Contents Restoration and Storage in Ontario",
-      "meta_description": "Contents restoration and storage in Ontario, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 contents restoration and storage in Ontario, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "contents restoration and storage ontario",
       "secondary_keywords": [
         "contents pack-out",
@@ -3493,7 +3509,7 @@
       ],
       "title": "Air Duct Cleaning in Ontario, CA | Dry County Restoration",
       "h1": "Air Duct Cleaning in Ontario",
-      "meta_description": "Air duct cleaning in Ontario, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 air duct cleaning in Ontario, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "air duct cleaning ontario",
       "secondary_keywords": [
         "duct cleaning",
@@ -3537,7 +3553,7 @@
       ],
       "title": "Carpet Cleaning in Ontario, CA | Dry County Restoration",
       "h1": "Carpet Cleaning in Ontario",
-      "meta_description": "Carpet cleaning in Ontario, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 carpet cleaning in Ontario, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "carpet cleaning ontario",
       "secondary_keywords": [
         "professional carpet cleaning",
@@ -3581,7 +3597,7 @@
       ],
       "title": "Post-Construction and Specialty Cleaning in Ontario, CA | Dry County Restoration",
       "h1": "Post-Construction and Specialty Cleaning in Ontario",
-      "meta_description": "Post-construction and specialty cleaning in Ontario, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 post-construction and specialty cleaning in Ontario, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "post-construction and specialty cleaning ontario",
       "secondary_keywords": [
         "post construction cleanup",
@@ -3624,7 +3640,7 @@
       ],
       "title": "Water Damage Restoration in Fullerton, CA | Dry County Restoration",
       "h1": "Water Damage Restoration in Fullerton",
-      "meta_description": "Water damage restoration in Fullerton, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 water damage restoration in Fullerton, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "water damage restoration fullerton",
       "secondary_keywords": [
         "water removal",
@@ -3668,7 +3684,7 @@
       ],
       "title": "Fire Damage Restoration in Fullerton, CA | Dry County Restoration",
       "h1": "Fire Damage Restoration in Fullerton",
-      "meta_description": "Fire damage restoration in Fullerton, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 fire damage restoration in Fullerton, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "fire damage restoration fullerton",
       "secondary_keywords": [
         "fire cleanup",
@@ -3712,7 +3728,7 @@
       ],
       "title": "Mold Remediation in Fullerton, CA | Dry County Restoration",
       "h1": "Mold Remediation in Fullerton",
-      "meta_description": "Mold remediation in Fullerton, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 mold remediation in Fullerton, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "mold remediation fullerton",
       "secondary_keywords": [
         "mold removal",
@@ -3756,7 +3772,7 @@
       ],
       "title": "Renovations, Remodels and General Contracting in Fullerton, CA | Dry County Restoration",
       "h1": "Renovations, Remodels and General Contracting in Fullerton",
-      "meta_description": "Renovations, remodels and general contracting in Fullerton, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 renovations, remodels and general contracting in Fullerton, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "renovations, remodels and general contracting fullerton",
       "secondary_keywords": [
         "general contractor",
@@ -3801,7 +3817,7 @@
       ],
       "title": "Storm Damage Restoration in Fullerton, CA | Dry County Restoration",
       "h1": "Storm Damage Restoration in Fullerton",
-      "meta_description": "Storm damage restoration in Fullerton, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 storm damage restoration in Fullerton, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "storm damage restoration fullerton",
       "secondary_keywords": [
         "hurricane damage cleanup",
@@ -3845,7 +3861,7 @@
       ],
       "title": "Sewage Cleanup and Sanitization in Fullerton, CA | Dry County Restoration",
       "h1": "Sewage Cleanup and Sanitization in Fullerton",
-      "meta_description": "Sewage cleanup and sanitization in Fullerton, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 sewage cleanup and sanitization in Fullerton, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "sewage cleanup and sanitization fullerton",
       "secondary_keywords": [
         "sewage backup cleanup",
@@ -3887,12 +3903,14 @@
         "area",
         "service"
       ],
-      "title": "Board-Up and Tarping in Fullerton, CA | Dry County Restoration",
-      "h1": "Board-Up and Tarping in Fullerton",
-      "meta_description": "Board-up and tarping in Fullerton, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "title": "Emergency Board-Up and Tarping in Fullerton, CA | Dry County Restoration",
+      "h1": "Emergency Board-Up and Tarping in Fullerton",
+      "meta_description": "24/7 emergency board-up and tarping in Fullerton, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "emergency board-up and tarping fullerton",
       "secondary_keywords": [
+        "emergency board up",
         "roof tarping",
+        "emergency tarping service",
         "fire damage board up",
         "broken window board up"
       ],
@@ -3931,7 +3949,7 @@
       ],
       "title": "Contents Restoration and Storage in Fullerton, CA | Dry County Restoration",
       "h1": "Contents Restoration and Storage in Fullerton",
-      "meta_description": "Contents restoration and storage in Fullerton, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 contents restoration and storage in Fullerton, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "contents restoration and storage fullerton",
       "secondary_keywords": [
         "contents pack-out",
@@ -3975,7 +3993,7 @@
       ],
       "title": "Air Duct Cleaning in Fullerton, CA | Dry County Restoration",
       "h1": "Air Duct Cleaning in Fullerton",
-      "meta_description": "Air duct cleaning in Fullerton, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 air duct cleaning in Fullerton, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "air duct cleaning fullerton",
       "secondary_keywords": [
         "duct cleaning",
@@ -4019,7 +4037,7 @@
       ],
       "title": "Carpet Cleaning in Fullerton, CA | Dry County Restoration",
       "h1": "Carpet Cleaning in Fullerton",
-      "meta_description": "Carpet cleaning in Fullerton, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 carpet cleaning in Fullerton, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "carpet cleaning fullerton",
       "secondary_keywords": [
         "professional carpet cleaning",
@@ -4063,7 +4081,7 @@
       ],
       "title": "Post-Construction and Specialty Cleaning in Fullerton, CA | Dry County Restoration",
       "h1": "Post-Construction and Specialty Cleaning in Fullerton",
-      "meta_description": "Post-construction and specialty cleaning in Fullerton, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 post-construction and specialty cleaning in Fullerton, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "post-construction and specialty cleaning fullerton",
       "secondary_keywords": [
         "post construction cleanup",
@@ -4106,7 +4124,7 @@
       ],
       "title": "Water Damage Restoration in Norco, CA | Dry County Restoration",
       "h1": "Water Damage Restoration in Norco",
-      "meta_description": "Water damage restoration in Norco, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 water damage restoration in Norco, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "water damage restoration norco",
       "secondary_keywords": [
         "water removal",
@@ -4150,7 +4168,7 @@
       ],
       "title": "Fire Damage Restoration in Norco, CA | Dry County Restoration",
       "h1": "Fire Damage Restoration in Norco",
-      "meta_description": "Fire damage restoration in Norco, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 fire damage restoration in Norco, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "fire damage restoration norco",
       "secondary_keywords": [
         "fire cleanup",
@@ -4194,7 +4212,7 @@
       ],
       "title": "Mold Remediation in Norco, CA | Dry County Restoration",
       "h1": "Mold Remediation in Norco",
-      "meta_description": "Mold remediation in Norco, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 mold remediation in Norco, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "mold remediation norco",
       "secondary_keywords": [
         "mold removal",
@@ -4238,7 +4256,7 @@
       ],
       "title": "Renovations, Remodels and General Contracting in Norco, CA | Dry County Restoration",
       "h1": "Renovations, Remodels and General Contracting in Norco",
-      "meta_description": "Renovations, remodels and general contracting in Norco, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 renovations, remodels and general contracting in Norco, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "renovations, remodels and general contracting norco",
       "secondary_keywords": [
         "general contractor",
@@ -4283,7 +4301,7 @@
       ],
       "title": "Storm Damage Restoration in Norco, CA | Dry County Restoration",
       "h1": "Storm Damage Restoration in Norco",
-      "meta_description": "Storm damage restoration in Norco, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 storm damage restoration in Norco, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "storm damage restoration norco",
       "secondary_keywords": [
         "hurricane damage cleanup",
@@ -4327,7 +4345,7 @@
       ],
       "title": "Sewage Cleanup and Sanitization in Norco, CA | Dry County Restoration",
       "h1": "Sewage Cleanup and Sanitization in Norco",
-      "meta_description": "Sewage cleanup and sanitization in Norco, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 sewage cleanup and sanitization in Norco, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "sewage cleanup and sanitization norco",
       "secondary_keywords": [
         "sewage backup cleanup",
@@ -4369,12 +4387,14 @@
         "area",
         "service"
       ],
-      "title": "Board-Up and Tarping in Norco, CA | Dry County Restoration",
-      "h1": "Board-Up and Tarping in Norco",
-      "meta_description": "Board-up and tarping in Norco, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "title": "Emergency Board-Up and Tarping in Norco, CA | Dry County Restoration",
+      "h1": "Emergency Board-Up and Tarping in Norco",
+      "meta_description": "24/7 emergency board-up and tarping in Norco, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "emergency board-up and tarping norco",
       "secondary_keywords": [
+        "emergency board up",
         "roof tarping",
+        "emergency tarping service",
         "fire damage board up",
         "broken window board up"
       ],
@@ -4413,7 +4433,7 @@
       ],
       "title": "Contents Restoration and Storage in Norco, CA | Dry County Restoration",
       "h1": "Contents Restoration and Storage in Norco",
-      "meta_description": "Contents restoration and storage in Norco, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 contents restoration and storage in Norco, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "contents restoration and storage norco",
       "secondary_keywords": [
         "contents pack-out",
@@ -4457,7 +4477,7 @@
       ],
       "title": "Air Duct Cleaning in Norco, CA | Dry County Restoration",
       "h1": "Air Duct Cleaning in Norco",
-      "meta_description": "Air duct cleaning in Norco, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 air duct cleaning in Norco, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "air duct cleaning norco",
       "secondary_keywords": [
         "duct cleaning",
@@ -4501,7 +4521,7 @@
       ],
       "title": "Carpet Cleaning in Norco, CA | Dry County Restoration",
       "h1": "Carpet Cleaning in Norco",
-      "meta_description": "Carpet cleaning in Norco, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 carpet cleaning in Norco, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "carpet cleaning norco",
       "secondary_keywords": [
         "professional carpet cleaning",
@@ -4545,7 +4565,7 @@
       ],
       "title": "Post-Construction and Specialty Cleaning in Norco, CA | Dry County Restoration",
       "h1": "Post-Construction and Specialty Cleaning in Norco",
-      "meta_description": "Post-construction and specialty cleaning in Norco, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 post-construction and specialty cleaning in Norco, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "post-construction and specialty cleaning norco",
       "secondary_keywords": [
         "post construction cleanup",
@@ -4588,7 +4608,7 @@
       ],
       "title": "Water Damage Restoration in Chino, CA | Dry County Restoration",
       "h1": "Water Damage Restoration in Chino",
-      "meta_description": "Water damage restoration in Chino, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 water damage restoration in Chino, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "water damage restoration chino",
       "secondary_keywords": [
         "water removal",
@@ -4632,7 +4652,7 @@
       ],
       "title": "Fire Damage Restoration in Chino, CA | Dry County Restoration",
       "h1": "Fire Damage Restoration in Chino",
-      "meta_description": "Fire damage restoration in Chino, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 fire damage restoration in Chino, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "fire damage restoration chino",
       "secondary_keywords": [
         "fire cleanup",
@@ -4676,7 +4696,7 @@
       ],
       "title": "Mold Remediation in Chino, CA | Dry County Restoration",
       "h1": "Mold Remediation in Chino",
-      "meta_description": "Mold remediation in Chino, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 mold remediation in Chino, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "mold remediation chino",
       "secondary_keywords": [
         "mold removal",
@@ -4720,7 +4740,7 @@
       ],
       "title": "Renovations, Remodels and General Contracting in Chino, CA | Dry County Restoration",
       "h1": "Renovations, Remodels and General Contracting in Chino",
-      "meta_description": "Renovations, remodels and general contracting in Chino, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 renovations, remodels and general contracting in Chino, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "renovations, remodels and general contracting chino",
       "secondary_keywords": [
         "general contractor",
@@ -4765,7 +4785,7 @@
       ],
       "title": "Storm Damage Restoration in Chino, CA | Dry County Restoration",
       "h1": "Storm Damage Restoration in Chino",
-      "meta_description": "Storm damage restoration in Chino, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 storm damage restoration in Chino, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "storm damage restoration chino",
       "secondary_keywords": [
         "hurricane damage cleanup",
@@ -4809,7 +4829,7 @@
       ],
       "title": "Sewage Cleanup and Sanitization in Chino, CA | Dry County Restoration",
       "h1": "Sewage Cleanup and Sanitization in Chino",
-      "meta_description": "Sewage cleanup and sanitization in Chino, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 sewage cleanup and sanitization in Chino, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "sewage cleanup and sanitization chino",
       "secondary_keywords": [
         "sewage backup cleanup",
@@ -4851,12 +4871,14 @@
         "area",
         "service"
       ],
-      "title": "Board-Up and Tarping in Chino, CA | Dry County Restoration",
-      "h1": "Board-Up and Tarping in Chino",
-      "meta_description": "Board-up and tarping in Chino, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "title": "Emergency Board-Up and Tarping in Chino, CA | Dry County Restoration",
+      "h1": "Emergency Board-Up and Tarping in Chino",
+      "meta_description": "24/7 emergency board-up and tarping in Chino, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "emergency board-up and tarping chino",
       "secondary_keywords": [
+        "emergency board up",
         "roof tarping",
+        "emergency tarping service",
         "fire damage board up",
         "broken window board up"
       ],
@@ -4895,7 +4917,7 @@
       ],
       "title": "Contents Restoration and Storage in Chino, CA | Dry County Restoration",
       "h1": "Contents Restoration and Storage in Chino",
-      "meta_description": "Contents restoration and storage in Chino, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 contents restoration and storage in Chino, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "contents restoration and storage chino",
       "secondary_keywords": [
         "contents pack-out",
@@ -4939,7 +4961,7 @@
       ],
       "title": "Air Duct Cleaning in Chino, CA | Dry County Restoration",
       "h1": "Air Duct Cleaning in Chino",
-      "meta_description": "Air duct cleaning in Chino, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 air duct cleaning in Chino, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "air duct cleaning chino",
       "secondary_keywords": [
         "duct cleaning",
@@ -4983,7 +5005,7 @@
       ],
       "title": "Carpet Cleaning in Chino, CA | Dry County Restoration",
       "h1": "Carpet Cleaning in Chino",
-      "meta_description": "Carpet cleaning in Chino, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 carpet cleaning in Chino, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "carpet cleaning chino",
       "secondary_keywords": [
         "professional carpet cleaning",
@@ -5027,7 +5049,7 @@
       ],
       "title": "Post-Construction and Specialty Cleaning in Chino, CA | Dry County Restoration",
       "h1": "Post-Construction and Specialty Cleaning in Chino",
-      "meta_description": "Post-construction and specialty cleaning in Chino, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 post-construction and specialty cleaning in Chino, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "post-construction and specialty cleaning chino",
       "secondary_keywords": [
         "post construction cleanup",
@@ -5070,7 +5092,7 @@
       ],
       "title": "Water Damage Restoration in Chino Hills, CA | Dry County Restoration",
       "h1": "Water Damage Restoration in Chino Hills",
-      "meta_description": "Water damage restoration in Chino Hills, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 water damage restoration in Chino Hills, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "water damage restoration chino hills",
       "secondary_keywords": [
         "water removal",
@@ -5114,7 +5136,7 @@
       ],
       "title": "Fire Damage Restoration in Chino Hills, CA | Dry County Restoration",
       "h1": "Fire Damage Restoration in Chino Hills",
-      "meta_description": "Fire damage restoration in Chino Hills, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 fire damage restoration in Chino Hills, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "fire damage restoration chino hills",
       "secondary_keywords": [
         "fire cleanup",
@@ -5158,7 +5180,7 @@
       ],
       "title": "Mold Remediation in Chino Hills, CA | Dry County Restoration",
       "h1": "Mold Remediation in Chino Hills",
-      "meta_description": "Mold remediation in Chino Hills, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 mold remediation in Chino Hills, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "mold remediation chino hills",
       "secondary_keywords": [
         "mold removal",
@@ -5202,7 +5224,7 @@
       ],
       "title": "Renovations, Remodels and General Contracting in Chino Hills, CA | Dry County Restoration",
       "h1": "Renovations, Remodels and General Contracting in Chino Hills",
-      "meta_description": "Renovations, remodels and general contracting in Chino Hills, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 renovations, remodels and general contracting in Chino Hills, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "renovations, remodels and general contracting chino hills",
       "secondary_keywords": [
         "general contractor",
@@ -5247,7 +5269,7 @@
       ],
       "title": "Storm Damage Restoration in Chino Hills, CA | Dry County Restoration",
       "h1": "Storm Damage Restoration in Chino Hills",
-      "meta_description": "Storm damage restoration in Chino Hills, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 storm damage restoration in Chino Hills, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "storm damage restoration chino hills",
       "secondary_keywords": [
         "hurricane damage cleanup",
@@ -5291,7 +5313,7 @@
       ],
       "title": "Sewage Cleanup and Sanitization in Chino Hills, CA | Dry County Restoration",
       "h1": "Sewage Cleanup and Sanitization in Chino Hills",
-      "meta_description": "Sewage cleanup and sanitization in Chino Hills, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 sewage cleanup and sanitization in Chino Hills, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "sewage cleanup and sanitization chino hills",
       "secondary_keywords": [
         "sewage backup cleanup",
@@ -5333,12 +5355,14 @@
         "area",
         "service"
       ],
-      "title": "Board-Up and Tarping in Chino Hills, CA | Dry County Restoration",
-      "h1": "Board-Up and Tarping in Chino Hills",
-      "meta_description": "Board-up and tarping in Chino Hills, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "title": "Emergency Board-Up and Tarping in Chino Hills, CA | Dry County Restoration",
+      "h1": "Emergency Board-Up and Tarping in Chino Hills",
+      "meta_description": "24/7 emergency board-up and tarping in Chino Hills, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "emergency board-up and tarping chino hills",
       "secondary_keywords": [
+        "emergency board up",
         "roof tarping",
+        "emergency tarping service",
         "fire damage board up",
         "broken window board up"
       ],
@@ -5377,7 +5401,7 @@
       ],
       "title": "Contents Restoration and Storage in Chino Hills, CA | Dry County Restoration",
       "h1": "Contents Restoration and Storage in Chino Hills",
-      "meta_description": "Contents restoration and storage in Chino Hills, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 contents restoration and storage in Chino Hills, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "contents restoration and storage chino hills",
       "secondary_keywords": [
         "contents pack-out",
@@ -5421,7 +5445,7 @@
       ],
       "title": "Air Duct Cleaning in Chino Hills, CA | Dry County Restoration",
       "h1": "Air Duct Cleaning in Chino Hills",
-      "meta_description": "Air duct cleaning in Chino Hills, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 air duct cleaning in Chino Hills, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "air duct cleaning chino hills",
       "secondary_keywords": [
         "duct cleaning",
@@ -5465,7 +5489,7 @@
       ],
       "title": "Carpet Cleaning in Chino Hills, CA | Dry County Restoration",
       "h1": "Carpet Cleaning in Chino Hills",
-      "meta_description": "Carpet cleaning in Chino Hills, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 carpet cleaning in Chino Hills, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "carpet cleaning chino hills",
       "secondary_keywords": [
         "professional carpet cleaning",
@@ -5509,7 +5533,7 @@
       ],
       "title": "Post-Construction and Specialty Cleaning in Chino Hills, CA | Dry County Restoration",
       "h1": "Post-Construction and Specialty Cleaning in Chino Hills",
-      "meta_description": "Post-construction and specialty cleaning in Chino Hills, CA. Insurance billing accepted. Call (951) 667-9910.",
+      "meta_description": "24/7 post-construction and specialty cleaning in Chino Hills, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
       "primary_keyword": "post-construction and specialty cleaning chino hills",
       "secondary_keywords": [
         "post construction cleanup",
@@ -5585,10 +5609,10 @@
       "vars_keys": [
         "post"
       ],
-      "title": "Burst Pipe Checklist: Step-by-Step Response",
-      "h1": "Burst Pipe Checklist: Step-by-Step Response",
+      "title": "Burst Pipe Emergency Checklist: Step-by-Step Response",
+      "h1": "Burst Pipe Emergency Checklist: Step-by-Step Response",
       "meta_description": "",
-      "primary_keyword": "burst pipe checklist stepbystep response",
+      "primary_keyword": "burst pipe emergency checklist stepbystep response",
       "secondary_keywords": [
         "water damage restoration",
         "appliance leak cleanup"
