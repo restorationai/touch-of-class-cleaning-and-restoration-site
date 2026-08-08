@@ -137,12 +137,12 @@ Env (rank-ai/.env or CI secrets):
                                               webhook_inbound() analyzes +
                                               replies immediately; falls back
                                               to LEAD_AUDIT_FUNNEL_SECRET)
-    CONCIERGE_FROM_NUMBER                     SMS sender number. The assistant
-                                              identity is the location TOLL-FREE
-                                              +18556484464; the 805 local number
-                                              (+18053293449) stays Santino's
-                                              personal thread — never send
-                                              concierge SMS from it. Unset =>
+    CONCIERGE_FROM_NUMBER                     SMS sender number. Monica sends
+                                              ONLY from the 805 local number
+                                              +18053293449 (Santino 2026-08-07,
+                                              reversing the earlier toll-free
+                                              policy: the toll-free is no longer
+                                              a concierge sender). Unset =>
                                               loud startup warning and GHL picks
                                               its default number (the 805!).
 
@@ -3446,8 +3446,8 @@ def send_message(contact: dict, channel: str, body: str,
             payload["fromNumber"] = from_number
         else:
             print("  WARNING: CONCIERGE_FROM_NUMBER unset — GHL will pick the "
-                  "location default (the 805 local, Santino's personal "
-                  "thread). Set it to the toll-free +18556484464.",
+                  "location default, which is not guaranteed to be the "
+                  "concierge sender. Set it to +18053293449.",
                   file=sys.stderr)
     else:
         payload["subject"] = subject or f"Your {BRAND_NAME} setup"
@@ -8088,7 +8088,7 @@ _CAPABILITY_CASES: list[tuple[str, bool]] = [
     ("I'll get on the phone with you today.", True),
     ("I can give you a call after lunch if that's easier.", True),
     ("Give me a call when you have a minute.", True),
-    ("Feel free to call me at 855 648 4464.", True),
+    ("Feel free to call me at 805 329 3449.", True),
     ("We'll give you a call tomorrow.", True),
     ("I'll get you on Santino's calendar for Thursday.", True),
     ("I'll book a call for you.", True),
@@ -8537,9 +8537,9 @@ def main() -> int:
         return 1
     if args.cmd != "status" and not os.environ.get("CONCIERGE_FROM_NUMBER", "").strip():
         print("!! WARNING: CONCIERGE_FROM_NUMBER is not set. SMS sends would "
-              "go out on GHL's default number — the 805 local, which is "
-              "Santino's personal thread. Set CONCIERGE_FROM_NUMBER="
-              "+18556484464 (the toll-free) before any real send.",
+              "go out on GHL's location default, which is not guaranteed to "
+              "be the concierge sender. Set CONCIERGE_FROM_NUMBER="
+              "+18053293449 before any real send.",
               file=sys.stderr)
     ret = {"status": cmd_status, "compose": cmd_compose,
            "inbound": cmd_inbound, "canary": cmd_canary,
