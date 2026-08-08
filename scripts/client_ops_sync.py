@@ -1154,6 +1154,76 @@ def ensure_setup_checklist(dry_run: bool, cid_to_slug: dict) -> list[str]:
     return out
 
 
+def ensure_ads_mcc_access(dry_run: bool, cid_to_slug: dict) -> list[str]:
+    """Invite ourselves onto every client Ads/LSA account we know about.
+
+    GBP has had this since 2026-08-04 (ensure_gbp_manager_access invites AND
+    self-accepts, daily). Ads never did: the MCC invite was only ever created
+    by a human clicking the app's lsa-request-access button, which is why five
+    clients had no invite at all on 2026-08-08. Santino: make it automatic on
+    connect, for both.
+
+    This is the CREATE half. The accept half already exists and is proven —
+    ads_link_accept.accept_pending_links() clears a PENDING link using the
+    client's own grant, no client action. Together they close the loop.
+
+    Only fires where we actually know the Ads customer id. An account we have
+    never discovered cannot be linked, and guessing is not an option, so those
+    are reported for lsa_detect to find rather than silently skipped.
+    """
+    out: list[str] = []
+    try:
+        sys.path.insert(0, str(Path(__file__).parent))
+        from lsa_detect import build_mcc_client
+    except Exception as e:  # noqa: BLE001
+        return [f"ads-mcc-access: unavailable ({str(e)[:80]})"]
+    cl, mcc = build_mcc_client()
+    if not cl:
+        return ["ads-mcc-access: no MCC credentials on this host — skipped"]
+
+    # Everything the manager account is already linked to, whatever the state.
+    linked: dict[str, str] = {}
+    try:
+        from ads_manager import gaql
+        for r in gaql(cl, mcc, "SELECT customer_client_link.client_customer, "
+                               "customer_client_link.status FROM customer_client_link"):
+            linked[r.customer_client_link.client_customer.split("/")[-1]] = \
+                r.customer_client_link.status.name
+    except Exception as e:  # noqa: BLE001
+        return [f"ads-mcc-access: could not read manager links ({str(e)[:90]})"]
+
+    for cid, slug in sorted(cid_to_slug.items(), key=lambda kv: kv[1]):
+        co = _sb("GET", f"/rest/v1/companies?id=eq.{cid}&select=integration_settings",
+                 prefer="return=representation") or []
+        ints = (co[0].get("integration_settings") or {}) if co else {}
+        if isinstance(ints, str):
+            try:
+                ints = json.loads(ints)
+            except json.JSONDecodeError:
+                ints = {}
+        acct = str(((ints.get("lsa") or {}).get("customer_id") or "")).replace("-", "")
+        if not acct:
+            continue                      # nothing discovered yet — lsa_detect's job
+        state = linked.get(acct)
+        if state in ("ACTIVE", "PENDING"):
+            continue                      # already invited or already ours
+        if dry_run:
+            out.append(f"{slug}: [dry-run] would invite MCC onto Ads account {acct}")
+            continue
+        try:
+            svc = cl.get_service("CustomerClientLinkService")
+            op = cl.get_type("CustomerClientLinkOperation")
+            link = op.create
+            link.client_customer = f"customers/{acct}"
+            link.status = cl.enums.ManagerLinkStatusEnum.PENDING
+            svc.mutate_customer_client_link(customer_id=mcc, operation=op)
+            out.append(f"{slug}: MCC invite created on Ads account {acct} "
+                       "(ads_link_accept clears it on the nightly sweep)")
+        except Exception as e:  # noqa: BLE001 — one bad account never stops the pass
+            out.append(f"{slug}: MCC invite FAILED on {acct} — {str(e)[:110]}")
+    return out
+
+
 def ensure_internal_launch_tasks(dry_run: bool, cid_to_slug: dict) -> list[str]:
     """Seed the work that is OURS: a built site we can launch but haven't.
 
@@ -1448,7 +1518,7 @@ def run(since_override: str | None, dry_run: bool, do_send: bool) -> int:
     ensure_bootstrapped(dry_run, do_send, cid_to_slug)
     sweep_lines: list[str] = []   # "{slug}: what happened" from every pass
     for fn in (ensure_google_connect_asks, ensure_gbp_first_sync,
-               ensure_gbp_manager_access,
+               ensure_gbp_manager_access, ensure_ads_mcc_access,
                ensure_baseline_scans, ensure_ads_first_sync,
                ensure_internal_launch_tasks,
                ensure_setup_checklist):
