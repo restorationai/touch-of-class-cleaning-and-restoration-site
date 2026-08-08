@@ -2425,8 +2425,10 @@ def boost_preview_share(company: dict, items: list[dict],
     """Rank the website-preview ask against the actual thread.
 
     Never sent the link -> _rank -1, ahead of every other ask (the client has
-    not seen the thing we built for them). Already sent -> _rank 4, a normal
-    feedback nudge that must not keep outranking launch blockers.
+    not seen the thing we built for them). Already sent -> _rank 11, its normal
+    slot inside the Website tier: a feedback nudge that must not keep
+    outranking launch blockers. (Was 4, which after the Phase 2 renumbering
+    would have placed a stale nudge ABOVE the brand-assets ask at 10.)
     Returns the preview URL when it should LEAD this message, else None."""
     share = [it for it in items if _PREVIEW_ASK_RE.search(str(it.get("text", "")))]
     if not share:
@@ -2437,14 +2439,14 @@ def boost_preview_share(company: dict, items: list[dict],
               "file (marketing_sites.cloudflare_pages_url empty) — leaving it "
               "at normal rank; do NOT let the draft mention a link")
         for it in share:
-            it["_rank"] = 4
+            it["_rank"] = 11
         return None
     # The URL may have gone out as a bare host, with or without scheme.
     host = re.sub(r"^https?://", "", url).rstrip("/").lower()
     sent = any(host in str(m.get("body") or "").lower()
                for m in (history or []) if m.get("direction") != "in")
     for it in share:
-        it["_rank"] = 4 if sent else -1
+        it["_rank"] = 11 if sent else -1
         it["target"] = url
     if sent:
         print(f"  [preview-share] {url} was already sent to this client — "
@@ -2460,6 +2462,43 @@ def boost_preview_share(company: dict, items: list[dict],
 # account sat unconnected). Rank classes trump source ordering; Python's
 # stable sort keeps the original order within a class. Module-level so the
 # same-owner merge can re-rank across companies too.
+# PHASE 2 — NESTED PRIORITY FRAMEWORK (Santino 2026-08-08). The old ranking was
+# a flat list of six buckets, so "domain access" and "preview confirmed" fought
+# each other at the same rank instead of reading as two steps of one goal, and
+# anything worded unexpectedly fell into the catch-all: 59 of ~116 open asks
+# were sitting in bucket 6, including every photo, EIN and licence question.
+#
+# Tiers are now spaced by 10 so sub-steps sort WITHIN a tier and can be inserted
+# later without renumbering. Lower wins.
+#
+#   0   GBP connection            nothing works without it
+#   10  Website / brand assets    logo + colours FIRST: the van, uniform and
+#                                 crew imagery is generated FROM them, and
+#                                 regenerating a finished site is far more
+#                                 expensive than waiting for a logo
+#   11  Website / preview + feedback
+#   12  Website / domain access
+#   13  Website / PUSH IT LIVE    ours, not theirs (see INTERNAL below)
+#   20  Ads / does the client want LSA
+#   21  Ads / connect LSA
+#   22  Ads / grant ourselves MCC access      ours
+#   23  Ads / documents needed for LSA
+#   24  Ads / upload those documents          ours
+#   30  Reviews / customer list
+#   31  Reviews / team photo
+#   40  YouTube
+#   50  Everything else (EIN, licence, citations, meeting-derived tasks)
+#
+# INTERNAL steps (13, 22, 24) are the ones that had no representation at all.
+# They are why Go Green sat dark from 2026-07-24: we owned the domain, the
+# client owed us nothing, and because every rank described something to ASK a
+# client, "we have not launched this yet" was invisible on every board.
+_INTERNAL_RE = re.compile(
+    r"\b(push (the )?site live|go.?live|launch (the )?site|cut ?over|"
+    r"mcc access|manager access|grant ourselves|upload (the )?(lsa )?documents)\b",
+    re.I)
+
+
 def ask_rank(it) -> int:
     # A dynamic override wins outright — set by boost_preview_share() once
     # the thread has been read (see there).
@@ -2468,38 +2507,51 @@ def ask_rank(it) -> int:
     # Rank on the item TITLE only — details are prose and full of incidental
     # keyword matches ("sign into that Google account" on a YouTube ask).
     t = it["text"].lower()
+
+    # --- Tier 1: the Google connection, above everything -------------------
+    # "verify" belongs here too (Santino 2026-08-03): a suspended or
+    # unverified profile is invisible, which is the same outcome as unconnected.
+    if "google" in t and any(k in t for k in ("connect", "access", "re-engage",
+                                              "verify", "suspend", "reinstat")):
+        return 0
+
+    # --- Tier 2: Website ----------------------------------------------------
     if _PREVIEW_ASK_RE.search(t):
-        # SHOW THEM THE SITE (Santino 2026-08-04, Reign Restoration): the
-        # preview-share ask used to fall into the catch-all bucket 5, so a
-        # client whose site was finished and never seen got a domain ask and
-        # a customer-list ask instead. It is a launch-tier item, and
-        # boost_preview_share() lifts it above everything when the link has
-        # never actually been sent.
-        return 1
-    if "youtube" in t:
-        return 5   # nice-to-have, never outranks foundations or revenue
-    # "verify": GBP verification is a launch blocker on par with domain
-    # access (Santino 2026-08-03: top messaging priority, paired with the
-    # domain ask when both are open — the launch-blocker pair).
-    if "google" in t and any(k in t for k in ("connect", "access",
-                                              "re-engage", "verify")):
-        return 0   # nothing works without the Google connection/verification
+        # SHOW THEM THE SITE (Santino 2026-08-04, Reign). boost_preview_share()
+        # promotes this to -1 when the link was never actually sent: once a site
+        # exists, showing it beats collecting brand assets for it.
+        return 11
     if any(k in t for k in ("domain", "registrar", "godaddy", "nameserver")):
-        return 1   # launch blocker
-    # LOCAL SERVICES ADS (Santino 2026-08-06: "Google Business Profile, domain
-    # and ads are the three most important"). LSA was falling into the catch-all
-    # bucket 5 behind the logo and the customer list, which is wrong twice over:
-    # it is Google-Guaranteed placement above the map pack, and it is the only
-    # ask on the board that turns on new revenue rather than tidying what exists.
-    # It sits behind the Google connection and the domain because neither ads
-    # nor anything else can run without those.
-    if "local services" in t or "lsa" in t or "google guaranteed" in t:
-        return 2
-    if "customer list" in t or "review campaign" in t:
-        return 3   # revenue engine
+        return 12
+    if _INTERNAL_RE.search(t) and any(k in t for k in ("site", "live", "launch",
+                                                       "cutover", "cut over")):
+        return 13
     if "logo" in t or "brand" in t:
-        return 4
-    return 6
+        return 10
+
+    # --- Tier 3: Ads / LSA --------------------------------------------------
+    if "local services" in t or "lsa" in t or "google guaranteed" in t:
+        if _INTERNAL_RE.search(t):
+            return 22 if "access" in t else 24
+        if any(k in t for k in ("document", "licence", "license", "insurance",
+                                "coi", "verification")):
+            return 23
+        if "connect" in t or "link" in t:
+            return 21
+        return 20
+    if _INTERNAL_RE.search(t) and ("mcc" in t or "manager access" in t):
+        return 22
+
+    # --- Tier 4: Reviews ----------------------------------------------------
+    if "customer list" in t or "review campaign" in t:
+        return 30
+    if "team photo" in t:
+        return 31
+
+    # --- Tier 5 / 6 ---------------------------------------------------------
+    if "youtube" in t:
+        return 40
+    return 50
 
 
 # ---------------------------------------------------------------- GHL contact
