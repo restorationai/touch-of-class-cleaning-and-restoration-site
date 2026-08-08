@@ -187,7 +187,20 @@ def resolve_tokens(client: dict, plan_input: dict) -> tuple[dict, dict]:
     """Return (string_tokens, json_tokens). JSON tokens substitute as bare
     JS literals (no surrounding quotes)."""
     brand = plan_input.get("brand", {})
-    domain = client["domain"]
+    # SAME BUG, WIDER BLAST RADIUS than llms.txt (see build_llms_substitutions).
+    # A null domain f-strings into "https://None" and lands in every token that
+    # embeds it — most damagingly BRAND_CANONICAL_URL, which the starter writes
+    # into public/robots.txt as the Sitemap: directive. Eight sites shipped
+    # "Sitemap: https://None/sitemap-index.xml", including crew3r.com after it
+    # went live, so every crawler and AI agent was pointed at a host that does
+    # not exist. Refuse rather than stringify.
+    domain = (client.get("domain") or "").strip()
+    if not domain or domain.endswith(".invalid"):
+        raise ValueError(
+            f"scaffold tokens for {slug}: domain is {client.get('domain')!r}. "
+            "Set the real domain on the client record first — a null domain "
+            "silently becomes 'https://None' in robots.txt, canonicals and "
+            "schema.")
     slug = client["slug"]
 
     # Resolve primary area for derived city/state

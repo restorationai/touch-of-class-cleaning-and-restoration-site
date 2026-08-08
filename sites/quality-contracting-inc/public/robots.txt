@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://None/sitemap-index.xml
+Sitemap: https://qualitycontracting.us/sitemap-index.xml
