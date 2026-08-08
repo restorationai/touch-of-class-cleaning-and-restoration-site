@@ -2121,12 +2121,40 @@ def fetch_open_asks(company_id: str | None = None) -> list[dict]:
             if not (r.get("title") or "").startswith("Client answered")]
 
 
+# WORK THAT IS OURS, surfaced to Monica READ-ONLY (Santino 2026-08-08).
+#
+# These action types are internal: a site we can launch, an MCC invite we owe
+# ourselves. They must NEVER become an ask — there is nothing to request from
+# the client — but Monica being blind to them is its own failure. Go Green is
+# the case: his domain resolved to nothing for two weeks while his queue was
+# empty, so his state read "all caught up" when the truth was "we owe this
+# client a website". Worse, with no visibility she would happily ask him for
+# domain access on a domain WE ALREADY OWN.
+#
+# Read-only means exactly that: they inform tone and stop wrong asks, and the
+# outbound guard below refuses any draft that mentions them.
+INTERNAL_ACTION_TYPES = ("site_launch", "mcc_access")
+
+
+def fetch_internal_work(company_id: str) -> list[dict]:
+    types = ",".join(INTERNAL_ACTION_TYPES)
+    q = (f"/rest/v1/marketing_action_plan?action_type=in.({types})"
+         "&status=eq.planned&select=id,title,action_type,target"
+         f"&company_id=eq.{urllib.parse.quote(company_id)}")
+    try:
+        return _sb("GET", q) or []
+    except Exception:  # noqa: BLE001 — never take compose down for context
+        return []
+
+
 def gather_items(company_id: str) -> list[dict]:
     """Outstanding items, highest priority first.
 
     Ordering: blocking intake items, then plan asks by priority, then the
     remaining intake items by sort. Each entry is normalized to
     {kind: intake|plan, id, text, detail, field_type}.
+
+    Internal work is deliberately NOT here — see fetch_internal_work.
     """
     intake = fetch_pending_intake(company_id)
     asks = fetch_open_asks(company_id)
@@ -3397,6 +3425,44 @@ def topic_ban_violation(company_id: str | None, body: str) -> str | None:
     return None
 
 
+# INTERNAL WORK MUST NOT LEAK INTO A CLIENT MESSAGE (Santino 2026-08-08).
+#
+# Internal items are given to the composer as read-only context so Monica stops
+# treating a client as "all caught up" while we owe them a launch, and so she
+# never asks for domain access on a domain we already own. But anything in a
+# prompt can come back out of it — that is exactly how "I'll get that
+# screenshot over to you" reached Rudy. An instruction in the system prompt is
+# a preference; this is the enforcement.
+#
+# Deliberately narrow. It fires on the language of OUR pipeline, not on
+# ordinary words a client message may legitimately contain ("your site is
+# live" is fine and true; "pushing your site live tonight" is a commitment
+# nobody authorised).
+_INTERNAL_LEAK_RE = re.compile(
+    r"\b(push(ing)? (your |the )?site live|cut ?over|nameserver|"
+    r"cloudflare|pages\.dev|mcc|manager link|customer_client_link|"
+    r"action[- ]plan row|ops board|internal task)\b", re.I)
+
+
+def internal_leak_violation(body: str, internal: list[dict] | None) -> str | None:
+    """Refusal reason when a draft leaks internal work, else None.
+
+    Only armed when this client actually HAS internal work in play — the same
+    words in an unrelated message are not evidence of a leak, and a guard that
+    fires on everything gets switched off.
+    """
+    if not internal:
+        return None
+    m = _INTERNAL_LEAK_RE.search(body or "")
+    if not m:
+        return None
+    return (f"draft mentions internal work ({m.group(0)!r}) while "
+            f"{len(internal)} internal task(s) are open for this client. "
+            "Internal items are read-only context: they exist to stop wrong "
+            "asks and to inform tone, never to be described or promised to a "
+            "client. Message held.")
+
+
 def cadence_check(cs: dict, company: dict, contact: dict | None = None,
                   enforce_hours: bool = True, boss_override: bool = False,
                   client_waiting: bool = False, reply_to=None) -> str | None:
@@ -3489,6 +3555,10 @@ def send_message(contact: dict, channel: str, body: str,
         banned = topic_ban_violation(company.get("id"), body)
         if banned:
             raise SendBlocked(banned)
+        # INTERNAL LEAK — last line, same standing as the topic ban.
+        leak = internal_leak_violation(body, fetch_internal_work(company["id"]))
+        if leak:
+            raise SendBlocked(leak)
     payload: dict = {"type": "SMS" if channel == "sms" else "Email",
                      "contactId": contact["id"]}
     if channel == "sms":
@@ -4545,6 +4615,23 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
     # is handed the client's short connect link with an explicit must-include
     # instruction; the guard after the draft is the belt (the model dropped a
     # promised link on a real client — MCC 2026-07-25).
+    # INTERNAL WORK — read-only context. Never an ask, never spoken. Its whole
+    # job is to stop Monica treating a client as "all caught up" while we owe
+    # them a launch, and to stop her asking for something we already hold (Go
+    # Green: we own his domain outright and she would have asked him for it).
+    _internal = fetch_internal_work(company["id"])
+    internal_block = ""
+    if _internal:
+        internal_block = (
+            "\nWORK WE OWE THIS CLIENT (INTERNAL — CONTEXT ONLY):\n"
+            + "\n".join(f"  - {i.get('title')}" for i in _internal)
+            + "\nThese are OURS, already in hand, and the client has nothing "
+              "to do about them. NEVER mention them, never describe them, "
+              "never promise a date, and never ask for anything they cover "
+              "(if it says we can already launch the site, do NOT ask for "
+              "domain access). Let them make you warmer and less pushy: this "
+              "client is waiting on US, not the other way round. A send that "
+              "mentions this work is blocked outright.\n")
     connect_link = google_connect_link(company, chosen) \
         if any(is_google_connect_ask(it) for it in chosen) else None
     connect_block = ""
@@ -4637,6 +4724,7 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
             + preview_block
             + domain_block
             + photo_block
+            + internal_block
             + connect_block
             + f"Outstanding items (priority order, cover all of these and "
             f"nothing else):\n" + "\n".join(lines))
@@ -8544,6 +8632,28 @@ def cmd_selfcheck(_args) -> int:
             if _is_lsa_ask(t) and _gbp_kind(t) != "none"]
     fails += bool(both)
     print(f"  {'ok  ' if not both else 'FAIL'} no ask matches both guards")
+
+    # ---- internal work never leaks into a client message ------------------
+    print("\ninternal work is read-only — a draft that describes it is held:")
+    _open = [{"title": "PUSH THE SITE LIVE: gogreenrestorationofnc.com"}]
+    leak_cases = [
+        # (draft, internal work open?, should be blocked)
+        ("We're pushing your site live tonight.", True, True),
+        ("Your nameservers are already pointing at Cloudflare.", True, True),
+        ("I'll get the MCC access sorted.", True, True),
+        # ...the same words with NO internal work open are not evidence.
+        ("We're pushing your site live tonight.", False, False),
+        # ...and ordinary, true client language must still go out.
+        ("Your new site is live at https://crew3r.com.", True, False),
+        ("Thanks Todd, we'll take a look at those photos.", True, False),
+        ("Can you send your logo when you get a minute?", True, False),
+    ]
+    for draft, has_work, want_block in leak_cases:
+        got = internal_leak_violation(draft, _open if has_work else [])
+        ok = bool(got) == want_block
+        fails += (not ok)
+        print(f"  {'ok  ' if ok else 'FAIL'} internal={str(has_work):<5} "
+              f"blocked={str(bool(got)):<5} {draft[:52]!r}")
 
     print(f"\n{'ALL GREEN' if not fails else str(fails) + ' FAILURE(S)'}")
     return 1 if fails else 0
