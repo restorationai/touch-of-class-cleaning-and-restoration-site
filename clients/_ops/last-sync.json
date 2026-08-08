@@ -1,5 +1,5 @@
 {
-  "cursor": "2026-08-07T14:52:16Z",
+  "cursor": "2026-08-08T14:01:06Z",
   "processed_intake_ids": [
     "fc44dd89-d909-44f9-93f6-794f847caf15",
     "6b16a3b8-90f1-4cdc-bb25-93335099c603",
@@ -31,7 +31,8 @@
     "55fbba7a-3586-492f-b29d-f45ba40b9fef",
     "3b4307e9-63f2-459e-bd92-e85e74ca78ac",
     "a6f4859d-c3a1-4b7c-9e2c-d2483ea2af2c",
-    "fa0cd922-e8f9-4aa8-8f49-0fe78d3bb2aa"
+    "fa0cd922-e8f9-4aa8-8f49-0fe78d3bb2aa",
+    "77aefa24-e483-4370-84af-ea545987d362"
   ],
   "processed_plan_events": [
     "80fd3777-f57b-4a61-9cf4-dc4e7d243cd1:done",
@@ -73,5 +74,5 @@
     "f62753d1-5a75-4f9e-9c02-947f57478fda:approved",
     "498916ef-e8f7-46fa-8041-68c052d8c415:approved"
   ],
-  "last_run_at": "2026-08-07T14:52:16.734955+00:00"
+  "last_run_at": "2026-08-08T14:01:06.006296+00:00"
 }

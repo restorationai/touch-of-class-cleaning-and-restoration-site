@@ -1,6 +1,56 @@
 {
   "slug": "flood-fixers",
   "assets": {
+    "crew:sms-1786127124446-08409720": {
+      "source": "crew",
+      "storage": "job-photos/sms-1786127124446-08409720.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1775605259504/job-photos/sms-1786127124446-08409720.jpg",
+      "width": 1320,
+      "height": 1661,
+      "bytes": 224806,
+      "sha1": "b9a36fdcfa78459c",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Screenshot of bank transaction list with handwritten circles",
+      "quality": 5,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "screenshot"
+      ],
+      "reason": "Bank account screenshot; completely unrelated to restoration work.",
+      "triaged_at": "2026-08-08T14:05:27Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:sms-1786127174783-14060b74": {
+      "source": "crew",
+      "storage": "job-photos/sms-1786127174783-14060b74.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1775605259504/job-photos/sms-1786127174783-14060b74.jpg",
+      "width": 1320,
+      "height": 992,
+      "bytes": 99825,
+      "sha1": "e39c889f2889dc22",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Screenshot of overdrawn business bank account balance",
+      "quality": 5,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "screenshot"
+      ],
+      "reason": "Bank overdraft screenshot; no restoration content whatsoever.",
+      "triaged_at": "2026-08-08T14:05:27Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipMIp4ABAe9vsARUtGYdWl66EIyptuQUVp8Emc0": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipMIp4ABAe9vsARUtGYdWl66EIyptuQUVp8Emc0.jpg",
@@ -297,5 +347,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-08-05T06:08:23Z"
+  "triaged_at": "2026-08-08T14:05:27Z"
 }
