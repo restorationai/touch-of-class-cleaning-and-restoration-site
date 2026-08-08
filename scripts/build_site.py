@@ -446,7 +446,18 @@ def resolve_tokens(client: dict, plan_input: dict) -> tuple[dict, dict]:
 
 def build_llms_substitutions(plan_input: dict, client: dict) -> dict:
     """Computed llms.txt fields — services list, areas list, etc."""
-    domain = client["domain"]
+    # A null domain used to render straight into the file as "https://None/..."
+    # because an f-string will happily stringify None. Eight sites shipped that
+    # way (259 dead URLs), including one that went live — and llms.txt is the
+    # file AI crawlers read, so every citation path we build was pointing at a
+    # host that does not exist. Fail loudly instead: a scaffold that cannot name
+    # the site has no business writing its AI index.
+    domain = (client.get("domain") or "").strip()
+    if not domain or domain.endswith(".invalid"):
+        raise ValueError(
+            f"llms.txt for {client.get('slug')}: domain is {client.get('domain')!r}. "
+            "Set the real domain on the client record before scaffolding, or the "
+            "AI index ships with unreachable URLs.")
     services = plan_input.get("services", [])
     areas = plan_input.get("service_areas", [])
     certs = plan_input.get("brand", {}).get("certifications", [])

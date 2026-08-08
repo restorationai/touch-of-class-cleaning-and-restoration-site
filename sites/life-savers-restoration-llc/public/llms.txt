@@ -6,33 +6,33 @@ Life Savers Restoration LLC (Life Savers Restoration LLC) is a professional rest
 
 ## Site index
 
-This file is intended for AI assistants and language models to efficiently ingest the structure and content of this website. The full list of pages is in the sitemap at https://None/sitemap-index.xml.
+This file is intended for AI assistants and language models to efficiently ingest the structure and content of this website. The full list of pages is in the sitemap at https://lifesaversrestoration.com/sitemap-index.xml.
 
 ### Core service pages
-- [Water Damage Restoration](https://None/services/water-damage-restoration/)
-- [Mold Remediation](https://None/services/mold-remediation/)
-- [Fire Damage Restoration](https://None/services/fire-damage-restoration/)
-- [Storm Damage Restoration](https://None/services/storm-damage-restoration/)
-- [Sewage Cleanup and Sanitization](https://None/services/sewage-cleanup/)
-- [Biohazard Cleanup](https://None/services/biohazard-cleanup/)
-- [Contents Restoration and Storage](https://None/services/contents-restoration/)
+- [Water Damage Restoration](https://lifesaversrestoration.com/services/water-damage-restoration/)
+- [Mold Remediation](https://lifesaversrestoration.com/services/mold-remediation/)
+- [Fire Damage Restoration](https://lifesaversrestoration.com/services/fire-damage-restoration/)
+- [Storm Damage Restoration](https://lifesaversrestoration.com/services/storm-damage-restoration/)
+- [Sewage Cleanup and Sanitization](https://lifesaversrestoration.com/services/sewage-cleanup/)
+- [Biohazard Cleanup](https://lifesaversrestoration.com/services/biohazard-cleanup/)
+- [Contents Restoration and Storage](https://lifesaversrestoration.com/services/contents-restoration/)
 
 ### Service area pages
-- [Henderson, NV](https://None/service-areas/henderson-nv/)
-- [Las Vegas, NV](https://None/service-areas/las-vegas-nv/)
-- [North Las Vegas, NV](https://None/service-areas/north-las-vegas-nv/)
-- [Paradise, NV](https://None/service-areas/paradise-nv/)
-- [Spring Valley, NV](https://None/service-areas/spring-valley-nv/)
-- [Enterprise, NV](https://None/service-areas/enterprise-nv/)
-- [Sunrise Manor, NV](https://None/service-areas/sunrise-manor-nv/)
-- [Boulder City, NV](https://None/service-areas/boulder-city-nv/)
-- [Whitney, NV](https://None/service-areas/whitney-nv/)
+- [Henderson, NV](https://lifesaversrestoration.com/service-areas/henderson-nv/)
+- [Las Vegas, NV](https://lifesaversrestoration.com/service-areas/las-vegas-nv/)
+- [North Las Vegas, NV](https://lifesaversrestoration.com/service-areas/north-las-vegas-nv/)
+- [Paradise, NV](https://lifesaversrestoration.com/service-areas/paradise-nv/)
+- [Spring Valley, NV](https://lifesaversrestoration.com/service-areas/spring-valley-nv/)
+- [Enterprise, NV](https://lifesaversrestoration.com/service-areas/enterprise-nv/)
+- [Sunrise Manor, NV](https://lifesaversrestoration.com/service-areas/sunrise-manor-nv/)
+- [Boulder City, NV](https://lifesaversrestoration.com/service-areas/boulder-city-nv/)
+- [Whitney, NV](https://lifesaversrestoration.com/service-areas/whitney-nv/)
 
 ### Resources
-- [Blog](https://None/blog/): Restoration guides and local resources
-- [About](https://None/about/): Company background and credentials
-- [Contact](https://None/contact/): Phone, email, and service request form
-- [Emergency](https://None/emergency/): 24/7 emergency water damage response
+- [Blog](https://lifesaversrestoration.com/blog/): Restoration guides and local resources
+- [About](https://lifesaversrestoration.com/about/): Company background and credentials
+- [Contact](https://lifesaversrestoration.com/contact/): Phone, email, and service request form
+- [Emergency](https://lifesaversrestoration.com/emergency/): 24/7 emergency water damage response
 
 ## Key facts
 

@@ -6,51 +6,51 @@ Crew Restoration & Construction (Crew Restoration & Construction) is a professio
 
 ## Site index
 
-This file is intended for AI assistants and language models to efficiently ingest the structure and content of this website. The full list of pages is in the sitemap at https://None/sitemap-index.xml.
+This file is intended for AI assistants and language models to efficiently ingest the structure and content of this website. The full list of pages is in the sitemap at https://crew3r.com/sitemap-index.xml.
 
 ### Core service pages
-- [Water Damage Restoration](https://None/services/water-damage-restoration/)
-- [Fire Damage Restoration](https://None/services/fire-damage-restoration/)
-- [Mold Remediation](https://None/services/mold-remediation/)
-- [Storm Damage Restoration](https://None/services/storm-damage-restoration/)
-- [Renovations, Remodels and General Contracting](https://None/services/general-contracting/)
-- [Roofing Installation and Replacement](https://None/services/roofing/)
-- [Sewage Cleanup and Sanitization](https://None/services/sewage-cleanup/)
-- [Biohazard Cleanup](https://None/services/biohazard-cleanup/)
-- [Asbestos Abatement](https://None/services/asbestos-abatement/)
+- [Water Damage Restoration](https://crew3r.com/services/water-damage-restoration/)
+- [Fire Damage Restoration](https://crew3r.com/services/fire-damage-restoration/)
+- [Mold Remediation](https://crew3r.com/services/mold-remediation/)
+- [Storm Damage Restoration](https://crew3r.com/services/storm-damage-restoration/)
+- [Renovations, Remodels and General Contracting](https://crew3r.com/services/general-contracting/)
+- [Roofing Installation and Replacement](https://crew3r.com/services/roofing/)
+- [Sewage Cleanup and Sanitization](https://crew3r.com/services/sewage-cleanup/)
+- [Biohazard Cleanup](https://crew3r.com/services/biohazard-cleanup/)
+- [Asbestos Abatement](https://crew3r.com/services/asbestos-abatement/)
 
 ### Service area pages
-- [Sioux Falls, SD](https://None/service-areas/sioux-falls-sd/)
-- [Brookings, SD](https://None/service-areas/brookings-sd/)
-- [Yankton, SD](https://None/service-areas/yankton-sd/)
-- [Worthington, MN](https://None/service-areas/worthington-mn/)
-- [Brandon, SD](https://None/service-areas/brandon-sd/)
-- [Le Mars, IA](https://None/service-areas/le-mars-ia/)
-- [Sioux Center, IA](https://None/service-areas/sioux-center-ia/)
-- [Harrisburg, SD](https://None/service-areas/harrisburg-sd/)
-- [Madison, SD](https://None/service-areas/madison-sd/)
-- [Tea, SD](https://None/service-areas/tea-sd/)
-- [Orange City, IA](https://None/service-areas/orange-city-ia/)
-- [Luverne, MN](https://None/service-areas/luverne-mn/)
-- [Pipestone, MN](https://None/service-areas/pipestone-mn/)
-- [Rock Valley, IA](https://None/service-areas/rock-valley-ia/)
-- [Dell Rapids, SD](https://None/service-areas/dell-rapids-sd/)
-- [Hartford, SD](https://None/service-areas/hartford-sd/)
-- [Canton, SD](https://None/service-areas/canton-sd/)
-- [North Sioux City, SD](https://None/service-areas/north-sioux-city-sd/)
-- [Sibley, IA](https://None/service-areas/sibley-ia/)
-- [Rock Rapids, IA](https://None/service-areas/rock-rapids-ia/)
-- [Lennox, SD](https://None/service-areas/lennox-sd/)
-- [Flandreau, SD](https://None/service-areas/flandreau-sd/)
-- [Parker, SD](https://None/service-areas/parker-sd/)
-- [Salem, SD](https://None/service-areas/salem-sd/)
-- [Slayton, MN](https://None/service-areas/slayton-mn/)
+- [Sioux Falls, SD](https://crew3r.com/service-areas/sioux-falls-sd/)
+- [Brookings, SD](https://crew3r.com/service-areas/brookings-sd/)
+- [Yankton, SD](https://crew3r.com/service-areas/yankton-sd/)
+- [Worthington, MN](https://crew3r.com/service-areas/worthington-mn/)
+- [Brandon, SD](https://crew3r.com/service-areas/brandon-sd/)
+- [Le Mars, IA](https://crew3r.com/service-areas/le-mars-ia/)
+- [Sioux Center, IA](https://crew3r.com/service-areas/sioux-center-ia/)
+- [Harrisburg, SD](https://crew3r.com/service-areas/harrisburg-sd/)
+- [Madison, SD](https://crew3r.com/service-areas/madison-sd/)
+- [Tea, SD](https://crew3r.com/service-areas/tea-sd/)
+- [Orange City, IA](https://crew3r.com/service-areas/orange-city-ia/)
+- [Luverne, MN](https://crew3r.com/service-areas/luverne-mn/)
+- [Pipestone, MN](https://crew3r.com/service-areas/pipestone-mn/)
+- [Rock Valley, IA](https://crew3r.com/service-areas/rock-valley-ia/)
+- [Dell Rapids, SD](https://crew3r.com/service-areas/dell-rapids-sd/)
+- [Hartford, SD](https://crew3r.com/service-areas/hartford-sd/)
+- [Canton, SD](https://crew3r.com/service-areas/canton-sd/)
+- [North Sioux City, SD](https://crew3r.com/service-areas/north-sioux-city-sd/)
+- [Sibley, IA](https://crew3r.com/service-areas/sibley-ia/)
+- [Rock Rapids, IA](https://crew3r.com/service-areas/rock-rapids-ia/)
+- [Lennox, SD](https://crew3r.com/service-areas/lennox-sd/)
+- [Flandreau, SD](https://crew3r.com/service-areas/flandreau-sd/)
+- [Parker, SD](https://crew3r.com/service-areas/parker-sd/)
+- [Salem, SD](https://crew3r.com/service-areas/salem-sd/)
+- [Slayton, MN](https://crew3r.com/service-areas/slayton-mn/)
 
 ### Resources
-- [Blog](https://None/blog/): Restoration guides and local resources
-- [About](https://None/about/): Company background and credentials
-- [Contact](https://None/contact/): Phone, email, and service request form
-- [Emergency](https://None/emergency/): 24/7 emergency water damage response
+- [Blog](https://crew3r.com/blog/): Restoration guides and local resources
+- [About](https://crew3r.com/about/): Company background and credentials
+- [Contact](https://crew3r.com/contact/): Phone, email, and service request form
+- [Emergency](https://crew3r.com/emergency/): 24/7 emergency water damage response
 
 ## Key facts
 

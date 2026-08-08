@@ -13,7 +13,11 @@ export const brand = {
   phoneRaw: "+15087568800",
   email: "info@qualitycontracting.us",
   hours: "24/7",
-  foundedYear: "",
+  // Fran 2026-08-05: "We started almost 30 years ago and incorporated in 2001."
+  // Using the INCORPORATION year, which is the documented, verifiable one. The
+  // ~30-year figure is his recollection and is not something we can evidence,
+  // so it does not go on the site as a claim.
+  foundedYear: "2001",
   primaryCity: "Auburn",
   primaryState: "MA",
   streetAddress: "211 Southbridge Street",

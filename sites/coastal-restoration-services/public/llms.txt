@@ -6,58 +6,58 @@ Coastal Restoration Services Inc (Coastal Restoration Services Inc) is a profess
 
 ## Site index
 
-This file is intended for AI assistants and language models to efficiently ingest the structure and content of this website. The full list of pages is in the sitemap at https://None/sitemap-index.xml.
+This file is intended for AI assistants and language models to efficiently ingest the structure and content of this website. The full list of pages is in the sitemap at https://callcrs.com/sitemap-index.xml.
 
 ### Core service pages
-- [Water Damage Restoration](https://None/services/water-damage-restoration/)
-- [Storm Damage Restoration](https://None/services/storm-damage-restoration/)
-- [Fire Damage Restoration](https://None/services/fire-damage-restoration/)
-- [Sewage Cleanup and Sanitization](https://None/services/sewage-cleanup/)
-- [Emergency Board-Up and Tarping](https://None/services/emergency-board-up-tarping/)
-- [Mold Remediation](https://None/services/mold-remediation/)
-- [Biohazard Cleanup](https://None/services/biohazard-cleanup/)
-- [Contents Restoration and Storage](https://None/services/contents-restoration/)
-- [Crawl Space Encapsulation](https://None/services/crawl-space-encapsulation/)
-- [Post-Construction and Specialty Cleaning](https://None/services/post-construction-cleaning/)
+- [Water Damage Restoration](https://callcrs.com/services/water-damage-restoration/)
+- [Storm Damage Restoration](https://callcrs.com/services/storm-damage-restoration/)
+- [Fire Damage Restoration](https://callcrs.com/services/fire-damage-restoration/)
+- [Sewage Cleanup and Sanitization](https://callcrs.com/services/sewage-cleanup/)
+- [Emergency Board-Up and Tarping](https://callcrs.com/services/emergency-board-up-tarping/)
+- [Mold Remediation](https://callcrs.com/services/mold-remediation/)
+- [Biohazard Cleanup](https://callcrs.com/services/biohazard-cleanup/)
+- [Contents Restoration and Storage](https://callcrs.com/services/contents-restoration/)
+- [Crawl Space Encapsulation](https://callcrs.com/services/crawl-space-encapsulation/)
+- [Post-Construction and Specialty Cleaning](https://callcrs.com/services/post-construction-cleaning/)
 
 ### Service area pages
-- [Vandenberg Village, CA](https://None/service-areas/vandenberg-village-ca/)
-- [Santa Maria, CA](https://None/service-areas/santa-maria-ca/)
-- [Orcutt, CA](https://None/service-areas/orcutt-ca/)
-- [Los Alamos, CA](https://None/service-areas/los-alamos-ca/)
-- [Lompoc, CA](https://None/service-areas/lompoc-ca/)
-- [Los Olivos, CA](https://None/service-areas/los-olivos-ca/)
-- [Mission Hills, CA](https://None/service-areas/mission-hills-ca/)
-- [Santa Ynez, CA](https://None/service-areas/santa-ynez-ca/)
-- [Solvang, CA](https://None/service-areas/solvang-ca/)
-- [Vandenberg AFB, CA](https://None/service-areas/vandenberg-afb-ca/)
-- [Guadalupe, CA](https://None/service-areas/guadalupe-ca/)
-- [Buellton, CA](https://None/service-areas/buellton-ca/)
-- [Ballard, CA](https://None/service-areas/ballard-ca/)
-- [Arroyo Grande, CA](https://None/service-areas/arroyo-grande-ca/)
-- [Avila Beach, CA](https://None/service-areas/avila-beach-ca/)
-- [Cambria, CA](https://None/service-areas/cambria-ca/)
-- [El Paso de Robles, CA](https://None/service-areas/el-paso-de-robles-ca/)
-- [Grover Beach, CA](https://None/service-areas/grover-beach-ca/)
-- [Los Berros, CA](https://None/service-areas/los-berros-ca/)
-- [Nipomo, CA](https://None/service-areas/nipomo-ca/)
-- [Oceano, CA](https://None/service-areas/oceano-ca/)
-- [San Luis Obispo, CA](https://None/service-areas/san-luis-obispo-ca/)
-- [Templeton, CA](https://None/service-areas/templeton-ca/)
-- [Santa Margarita, CA](https://None/service-areas/santa-margarita-ca/)
-- [Pismo Beach, CA](https://None/service-areas/pismo-beach-ca/)
-- [Morro Bay, CA](https://None/service-areas/morro-bay-ca/)
-- [Los Osos, CA](https://None/service-areas/los-osos-ca/)
-- [Edna, CA](https://None/service-areas/edna-ca/)
-- [Callender, CA](https://None/service-areas/callender-ca/)
-- [Blacklake, CA](https://None/service-areas/blacklake-ca/)
-- [Atascadero, CA](https://None/service-areas/atascadero-ca/)
+- [Vandenberg Village, CA](https://callcrs.com/service-areas/vandenberg-village-ca/)
+- [Santa Maria, CA](https://callcrs.com/service-areas/santa-maria-ca/)
+- [Orcutt, CA](https://callcrs.com/service-areas/orcutt-ca/)
+- [Los Alamos, CA](https://callcrs.com/service-areas/los-alamos-ca/)
+- [Lompoc, CA](https://callcrs.com/service-areas/lompoc-ca/)
+- [Los Olivos, CA](https://callcrs.com/service-areas/los-olivos-ca/)
+- [Mission Hills, CA](https://callcrs.com/service-areas/mission-hills-ca/)
+- [Santa Ynez, CA](https://callcrs.com/service-areas/santa-ynez-ca/)
+- [Solvang, CA](https://callcrs.com/service-areas/solvang-ca/)
+- [Vandenberg AFB, CA](https://callcrs.com/service-areas/vandenberg-afb-ca/)
+- [Guadalupe, CA](https://callcrs.com/service-areas/guadalupe-ca/)
+- [Buellton, CA](https://callcrs.com/service-areas/buellton-ca/)
+- [Ballard, CA](https://callcrs.com/service-areas/ballard-ca/)
+- [Arroyo Grande, CA](https://callcrs.com/service-areas/arroyo-grande-ca/)
+- [Avila Beach, CA](https://callcrs.com/service-areas/avila-beach-ca/)
+- [Cambria, CA](https://callcrs.com/service-areas/cambria-ca/)
+- [El Paso de Robles, CA](https://callcrs.com/service-areas/el-paso-de-robles-ca/)
+- [Grover Beach, CA](https://callcrs.com/service-areas/grover-beach-ca/)
+- [Los Berros, CA](https://callcrs.com/service-areas/los-berros-ca/)
+- [Nipomo, CA](https://callcrs.com/service-areas/nipomo-ca/)
+- [Oceano, CA](https://callcrs.com/service-areas/oceano-ca/)
+- [San Luis Obispo, CA](https://callcrs.com/service-areas/san-luis-obispo-ca/)
+- [Templeton, CA](https://callcrs.com/service-areas/templeton-ca/)
+- [Santa Margarita, CA](https://callcrs.com/service-areas/santa-margarita-ca/)
+- [Pismo Beach, CA](https://callcrs.com/service-areas/pismo-beach-ca/)
+- [Morro Bay, CA](https://callcrs.com/service-areas/morro-bay-ca/)
+- [Los Osos, CA](https://callcrs.com/service-areas/los-osos-ca/)
+- [Edna, CA](https://callcrs.com/service-areas/edna-ca/)
+- [Callender, CA](https://callcrs.com/service-areas/callender-ca/)
+- [Blacklake, CA](https://callcrs.com/service-areas/blacklake-ca/)
+- [Atascadero, CA](https://callcrs.com/service-areas/atascadero-ca/)
 
 ### Resources
-- [Blog](https://None/blog/): Restoration guides and local resources
-- [About](https://None/about/): Company background and credentials
-- [Contact](https://None/contact/): Phone, email, and service request form
-- [Emergency](https://None/emergency/): 24/7 emergency water damage response
+- [Blog](https://callcrs.com/blog/): Restoration guides and local resources
+- [About](https://callcrs.com/about/): Company background and credentials
+- [Contact](https://callcrs.com/contact/): Phone, email, and service request form
+- [Emergency](https://callcrs.com/emergency/): 24/7 emergency water damage response
 
 ## Key facts
 

@@ -6,32 +6,32 @@ Reign Restoration (Reign Restoration) is a professional restoration contractor s
 
 ## Site index
 
-This file is intended for AI assistants and language models to efficiently ingest the structure and content of this website. The full list of pages is in the sitemap at https://None/sitemap-index.xml.
+This file is intended for AI assistants and language models to efficiently ingest the structure and content of this website. The full list of pages is in the sitemap at https://reign-restoration.com/sitemap-index.xml.
 
 ### Core service pages
-- [Water Damage Restoration](https://None/services/water-damage-restoration/)
-- [Fire Damage Restoration](https://None/services/fire-damage-restoration/)
-- [Mold Remediation](https://None/services/mold-remediation/)
-- [Storm Damage Restoration](https://None/services/storm-damage-restoration/)
-- [Renovations, Remodels and General Contracting](https://None/services/general-contracting/)
-- [Contents Restoration and Storage](https://None/services/contents-restoration/)
+- [Water Damage Restoration](https://reign-restoration.com/services/water-damage-restoration/)
+- [Fire Damage Restoration](https://reign-restoration.com/services/fire-damage-restoration/)
+- [Mold Remediation](https://reign-restoration.com/services/mold-remediation/)
+- [Storm Damage Restoration](https://reign-restoration.com/services/storm-damage-restoration/)
+- [Renovations, Remodels and General Contracting](https://reign-restoration.com/services/general-contracting/)
+- [Contents Restoration and Storage](https://reign-restoration.com/services/contents-restoration/)
 
 ### Service area pages
-- [Royse City, TX](https://None/service-areas/royse-city-tx/)
-- [Rockwall, TX](https://None/service-areas/rockwall-tx/)
-- [Rowlett, TX](https://None/service-areas/rowlett-tx/)
-- [Greenville, TX](https://None/service-areas/greenville-tx/)
-- [Wylie, TX](https://None/service-areas/wylie-tx/)
-- [Garland, TX](https://None/service-areas/garland-tx/)
-- [Mesquite, TX](https://None/service-areas/mesquite-tx/)
-- [Terrell, TX](https://None/service-areas/terrell-tx/)
-- [Fate, TX](https://None/service-areas/fate-tx/)
+- [Royse City, TX](https://reign-restoration.com/service-areas/royse-city-tx/)
+- [Rockwall, TX](https://reign-restoration.com/service-areas/rockwall-tx/)
+- [Rowlett, TX](https://reign-restoration.com/service-areas/rowlett-tx/)
+- [Greenville, TX](https://reign-restoration.com/service-areas/greenville-tx/)
+- [Wylie, TX](https://reign-restoration.com/service-areas/wylie-tx/)
+- [Garland, TX](https://reign-restoration.com/service-areas/garland-tx/)
+- [Mesquite, TX](https://reign-restoration.com/service-areas/mesquite-tx/)
+- [Terrell, TX](https://reign-restoration.com/service-areas/terrell-tx/)
+- [Fate, TX](https://reign-restoration.com/service-areas/fate-tx/)
 
 ### Resources
-- [Blog](https://None/blog/): Restoration guides and local resources
-- [About](https://None/about/): Company background and credentials
-- [Contact](https://None/contact/): Phone, email, and service request form
-- [Emergency](https://None/emergency/): 24/7 emergency water damage response
+- [Blog](https://reign-restoration.com/blog/): Restoration guides and local resources
+- [About](https://reign-restoration.com/about/): Company background and credentials
+- [Contact](https://reign-restoration.com/contact/): Phone, email, and service request form
+- [Emergency](https://reign-restoration.com/emergency/): 24/7 emergency water damage response
 
 ## Key facts
 

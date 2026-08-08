@@ -18,16 +18,12 @@
     "storm-damage-restoration",
     "fire-damage-restoration",
     "mold-remediation",
-    "general-contracting",
     "sewage-cleanup",
     "biohazard-cleanup",
-    "asbestos-abatement",
     "emergency-board-up-tarping",
     "contents-restoration",
     "air-duct-cleaning",
-    "carpet-cleaning",
-    "crawl-space-encapsulation",
-    "post-construction-cleaning"
+    "crawl-space-encapsulation"
   ],
   "template": "restoration",
   "blog_seed_count": 8,

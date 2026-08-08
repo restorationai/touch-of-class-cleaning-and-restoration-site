@@ -2,36 +2,32 @@
 
 > 24/7 restoration services in Auburn, MA.
 
-Quality Contracting, Inc. (Quality Contracting, Inc.) is a professional restoration contractor serving Auburn, MA and surrounding areas since . We provide 24/7 emergency response for water, fire, mold, storm, biohazard, and reconstruction services. Phone: (508) 756-8800 · Email: info@qualitycontracting.us.
+Quality Contracting, Inc. (Quality Contracting, Inc.) is a professional restoration contractor serving Auburn, MA and surrounding areas since 2001. We provide 24/7 emergency response for water, fire, mold, storm, biohazard, and reconstruction services. Phone: (508) 756-8800 · Email: info@qualitycontracting.us.
 
 ## Site index
 
-This file is intended for AI assistants and language models to efficiently ingest the structure and content of this website. The full list of pages is in the sitemap at https://None/sitemap-index.xml.
+This file is intended for AI assistants and language models to efficiently ingest the structure and content of this website. The full list of pages is in the sitemap at https://qualitycontracting.us/sitemap-index.xml.
 
 ### Core service pages
-- [Water Damage Restoration](https://None/services/water-damage-restoration/)
-- [Storm Damage Restoration](https://None/services/storm-damage-restoration/)
-- [Fire Damage Restoration](https://None/services/fire-damage-restoration/)
-- [Mold Remediation](https://None/services/mold-remediation/)
-- [Renovations, Remodels and General Contracting](https://None/services/general-contracting/)
-- [Sewage Cleanup and Sanitization](https://None/services/sewage-cleanup/)
-- [Biohazard Cleanup](https://None/services/biohazard-cleanup/)
-- [Asbestos Abatement](https://None/services/asbestos-abatement/)
-- [Emergency Board-Up and Tarping](https://None/services/emergency-board-up-tarping/)
-- [Contents Restoration and Storage](https://None/services/contents-restoration/)
-- [Air Duct Cleaning](https://None/services/air-duct-cleaning/)
-- [Carpet Cleaning](https://None/services/carpet-cleaning/)
-- [Crawl Space Encapsulation](https://None/services/crawl-space-encapsulation/)
-- [Post-Construction and Specialty Cleaning](https://None/services/post-construction-cleaning/)
+- [Water Damage Restoration](https://qualitycontracting.us/services/water-damage-restoration/)
+- [Storm Damage Restoration](https://qualitycontracting.us/services/storm-damage-restoration/)
+- [Fire Damage Restoration](https://qualitycontracting.us/services/fire-damage-restoration/)
+- [Mold Remediation](https://qualitycontracting.us/services/mold-remediation/)
+- [Sewage Cleanup and Sanitization](https://qualitycontracting.us/services/sewage-cleanup/)
+- [Biohazard Cleanup](https://qualitycontracting.us/services/biohazard-cleanup/)
+- [Emergency Board-Up and Tarping](https://qualitycontracting.us/services/emergency-board-up-tarping/)
+- [Contents Restoration and Storage](https://qualitycontracting.us/services/contents-restoration/)
+- [Air Duct Cleaning](https://qualitycontracting.us/services/air-duct-cleaning/)
+- [Crawl Space Encapsulation](https://qualitycontracting.us/services/crawl-space-encapsulation/)
 
 ### Service area pages
-- [Auburn, MA](https://None/service-areas/auburn-ma/)
+- [Auburn, MA](https://qualitycontracting.us/service-areas/auburn-ma/)
 
 ### Resources
-- [Blog](https://None/blog/): Restoration guides and local resources
-- [About](https://None/about/): Company background and credentials
-- [Contact](https://None/contact/): Phone, email, and service request form
-- [Emergency](https://None/emergency/): 24/7 emergency water damage response
+- [Blog](https://qualitycontracting.us/blog/): Restoration guides and local resources
+- [About](https://qualitycontracting.us/about/): Company background and credentials
+- [Contact](https://qualitycontracting.us/contact/): Phone, email, and service request form
+- [Emergency](https://qualitycontracting.us/emergency/): 24/7 emergency water damage response
 
 ## Key facts
 

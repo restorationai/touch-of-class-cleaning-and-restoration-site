@@ -6,28 +6,28 @@ Go agree Restoration of NC (Go agree Restoration of NC) is a professional restor
 
 ## Site index
 
-This file is intended for AI assistants and language models to efficiently ingest the structure and content of this website. The full list of pages is in the sitemap at https://None/sitemap-index.xml.
+This file is intended for AI assistants and language models to efficiently ingest the structure and content of this website. The full list of pages is in the sitemap at https://gogreenrestorationofnc.com/sitemap-index.xml.
 
 ### Core service pages
-- [Water Damage Restoration](https://None/services/water-damage-restoration/)
-- [Mold Remediation](https://None/services/mold-remediation/)
-- [Crawl Space Encapsulation](https://None/services/crawl-space-encapsulation/)
+- [Water Damage Restoration](https://gogreenrestorationofnc.com/services/water-damage-restoration/)
+- [Mold Remediation](https://gogreenrestorationofnc.com/services/mold-remediation/)
+- [Crawl Space Encapsulation](https://gogreenrestorationofnc.com/services/crawl-space-encapsulation/)
 
 ### Service area pages
-- [Middlesex, NC](https://None/service-areas/middlesex-nc/)
-- [Raleigh, NC](https://None/service-areas/raleigh-nc/)
-- [Durham, NC](https://None/service-areas/durham-nc/)
-- [Rocky Mount, NC](https://None/service-areas/rocky-mount-nc/)
-- [Wilson, NC](https://None/service-areas/wilson-nc/)
-- [Smithfield, NC](https://None/service-areas/smithfield-nc/)
-- [Wake Forest, NC](https://None/service-areas/wake-forest-nc/)
-- [Zebulon, NC](https://None/service-areas/zebulon-nc/)
+- [Middlesex, NC](https://gogreenrestorationofnc.com/service-areas/middlesex-nc/)
+- [Raleigh, NC](https://gogreenrestorationofnc.com/service-areas/raleigh-nc/)
+- [Durham, NC](https://gogreenrestorationofnc.com/service-areas/durham-nc/)
+- [Rocky Mount, NC](https://gogreenrestorationofnc.com/service-areas/rocky-mount-nc/)
+- [Wilson, NC](https://gogreenrestorationofnc.com/service-areas/wilson-nc/)
+- [Smithfield, NC](https://gogreenrestorationofnc.com/service-areas/smithfield-nc/)
+- [Wake Forest, NC](https://gogreenrestorationofnc.com/service-areas/wake-forest-nc/)
+- [Zebulon, NC](https://gogreenrestorationofnc.com/service-areas/zebulon-nc/)
 
 ### Resources
-- [Blog](https://None/blog/): Restoration guides and local resources
-- [About](https://None/about/): Company background and credentials
-- [Contact](https://None/contact/): Phone, email, and service request form
-- [Emergency](https://None/emergency/): 24/7 emergency water damage response
+- [Blog](https://gogreenrestorationofnc.com/blog/): Restoration guides and local resources
+- [About](https://gogreenrestorationofnc.com/about/): Company background and credentials
+- [Contact](https://gogreenrestorationofnc.com/contact/): Phone, email, and service request form
+- [Emergency](https://gogreenrestorationofnc.com/emergency/): 24/7 emergency water damage response
 
 ## Key facts
 
