@@ -766,6 +766,25 @@ def _check_doc_uploads(cid: str, name: str, dry_run: bool) -> None:
 # clients-record snapshot -> empty companies NAP fields), and only what no
 # system holds becomes a Monica ask + amber client_owed card.
 
+def _bucket_logo_files(cid: str) -> list[str]:
+    """Logo-looking filenames in branding/{cid}/brand/. Read-only and safe on a
+    dry run, which is the point: knowing whether we HOLD a logo must not depend
+    on whether we are also allowed to write one into the repo."""
+    sb_url = os.environ.get("SUPABASE_URL", "").rstrip("/")
+    sb_key = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")
+    if not (sb_url and sb_key):
+        return []
+    r = requests.post(f"{sb_url}/storage/v1/object/list/branding",
+                      headers={"apikey": sb_key,
+                               "Authorization": f"Bearer {sb_key}",
+                               "Content-Type": "application/json"},
+                      json={"prefix": f"{cid}/brand/", "limit": 100}, timeout=30)
+    if not r.ok:
+        return []
+    return [f["name"] for f in r.json() if f.get("id")
+            and re.match(r"(?i)logo.*\.(png|webp|jpe?g|svg|ai|eps)$", f.get("name") or "")]
+
+
 def _pull_bucket_logo(cid: str, slug: str) -> str | None:
     """Branding-bucket logo -> sites/{slug}/public/images/. Logos sometimes
     already exist in the bucket (Go Green's 07-29 upload sat there while the
@@ -900,6 +919,17 @@ def _citations_readiness(cid: str, slug: str, co: dict, platform_status: dict,
 
     imgdir = SITES_DIR / slug / "public" / "images"
     logo_ok = (imgdir / "logo.png").exists() or (imgdir / "logo.webp").exists()
+    # HOLDING IT COUNTS, even before it has been pulled into the repo (Santino
+    # 2026-08-08). Curt (Home Pride) was asked to "send their logo file" while
+    # FIVE logos sat in his branding bucket and his live site was already
+    # serving one: logo_ok only looked at sites/{slug}/public/images, and the
+    # bucket pull below is skipped entirely on a dry run, so a reporting pass
+    # would re-seed the ask every time. Never ask for what we already have.
+    if not logo_ok:
+        try:
+            logo_ok = bool(_bucket_logo_files(cid))
+        except Exception:
+            pass
     if not logo_ok and not dry_run:
         pulled = None
         try:
@@ -935,10 +965,14 @@ def _citations_readiness(cid: str, slug: str, co: dict, platform_status: dict,
                     "directories (HomeGuide, Houzz, BBB, ...) and the missing "
                     "input is their LOGO as a clean file — the original "
                     "PNG/JPG from their designer, not a photo of a truck or "
-                    "business card. MONICA: one simple ask — email it, reply "
-                    "to this message with the file attached, or drop it at "
+                    "business card. MONICA: send the HUB LINK and nothing "
+                    "else — "
                     f"https://restorationai.io/logo/{slug} (no login, works "
-                    "from a phone). We watch their uploads automatically, so "
+                    "from a phone). NEVER offer email or 'reply with the file "
+                    "attached' (Santino 2026-08-08): an emailed attachment "
+                    "only lands in an ops row that needs a human to file it, "
+                    "whereas a hub upload goes straight to storage and pins "
+                    "its own task. We watch their uploads automatically, so "
                     "the listings build resumes on its own once it lands."),
                 action_type="client_input",
                 target=f"https://restorationai.io/logo/{slug}",

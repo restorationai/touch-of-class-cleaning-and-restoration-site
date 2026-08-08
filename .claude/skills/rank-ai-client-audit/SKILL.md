@@ -79,8 +79,11 @@ Reference examples of the finished product:
    site_build/review_campaign, `source: 'rank-ai'`). Skip questions already
    seeded. ALWAYS seed one item per social platform separately (Facebook link,
    Instagram link — never one combined "social links" ask), and ALWAYS seed
-   the two authority-links inputs: "Which equipment suppliers/distributors do
-   you buy from?" and "What is your IICRC firm/certification number?".
+   the authority-links input "What is your IICRC firm/certification number?".
+   DO NOT seed an equipment-supplier question (Santino 2026-08-08: "I actually
+   want to stop sending the message of asking what equipment they use. It's not
+   necessary."). The dealer-locator backlink is still worth chasing in 3b, but
+   we research the supplier ourselves rather than making the owner do it.
 3b. **Authority-links sprint row** — every audit seeds ONE
    `marketing_action_plan` row (action_type `authority_links`, effort low,
    impact high): get the client listed on the IICRC firm locator, their

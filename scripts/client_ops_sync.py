@@ -696,7 +696,97 @@ RETIRED_ASK_SEEDS = (
     # conversational and "the client does nothing in Google". The headline is
     # written for the ops board, never for a client.
     "checklist-svc-confirm-{slug}",
+    # Santino 2026-08-08: every client goes to Open 24 hours regardless of
+    # industry, because the AI receptionist answers and books after hours.
+    # Setting it is our job; asking the owner only invited a narrower answer
+    # than the truth.
+    "checklist-hours-{slug}",
 )
+
+
+MIN_GBP_PHOTOS = 15   # Santino 2026-08-08: only ask for photos below this.
+
+
+def _utcnow() -> str:
+    return datetime.now(timezone.utc).isoformat()
+
+
+def _branding_files(cid: str, prefix: str, limit: int = 400) -> list[dict]:
+    """List objects under branding/{cid}/{prefix}. [] on any failure — a
+    storage hiccup must never make us ask for something we hold."""
+    try:
+        sb_url = os.environ["SUPABASE_URL"].rstrip("/")
+        sb_key = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
+        r = requests.post(f"{sb_url}/storage/v1/object/list/branding",
+                          headers={"apikey": sb_key,
+                                   "Authorization": f"Bearer {sb_key}",
+                                   "Content-Type": "application/json"},
+                          json={"prefix": f"{cid}/{prefix}", "limit": limit},
+                          timeout=30)
+        return [f for f in (r.json() or []) if isinstance(f, dict) and f.get("id")]
+    except Exception:
+        return []
+
+
+def close_satisfied_intake_items(cid: str, slug: str, dry_run: bool) -> list[str]:
+    """Close wizard intake items whose artefact we ALREADY HOLD.
+
+    The standing rule is "never ask a client for something we already have",
+    and it was being broken constantly because the guards only ever protected
+    the setup-checklist PLAN rows. The wizard's `client_intake_items` are a
+    separate table fed by a separate system, and nothing ever closed them: a
+    hub upload lands in storage and pins an ops row, but the item that asked
+    for it stays `pending` forever.
+
+    Two live examples on 2026-08-08. Rudy (Life Savers) uploaded his customer
+    list on 08-06 and the item was still open two days later. Curt (Home Pride)
+    was asked for his logo while we held FIVE logo files and his live site was
+    already serving one.
+
+    Each rule below must be able to point at the artefact. When we cannot prove
+    we hold it, the item stays open — this closes items, it never invents an
+    answer.
+    """
+    out: list[str] = []
+    items = _sb("GET", "/rest/v1/client_intake_items"
+                f"?company_id=eq.{cid}&status=eq.pending"
+                "&select=id,question", prefer="return=representation") or []
+    if not items:
+        return out
+
+    photos = _branding_files(cid, "job-photos") + _branding_files(cid, "job-photos/posted")
+    gbp_photos = len([f for f in photos if re.sub(r"^r\d+_", "", f["name"]).startswith("gbp-")])
+    logos = [f for f in _branding_files(cid, "brand") if "logo" in f["name"].lower()]
+    docs = _branding_files(cid, "docs/other") + _branding_files(cid, "docs")
+    cust = [f for f in docs if re.search(r"customer|client.?list", f["name"], re.I)]
+
+    for it in items:
+        q = (it.get("question") or "").lower()
+        why = None
+        if "logo" in q and logos:
+            why = f"we already hold {len(logos)} logo file(s) in storage"
+        elif "job photos" in q and gbp_photos >= MIN_GBP_PHOTOS:
+            why = (f"their Google profile already has {gbp_photos} photos "
+                   f"(threshold {MIN_GBP_PHOTOS})")
+        elif "team photo" in q:
+            # Santino 2026-08-08: a team photo is ONLY for the review-request
+            # campaign. Asking every client for one as general onboarding is
+            # friction with no consumer.
+            why = "team photos are only asked for the review-request campaign"
+        elif "equipment supplier" in q or "distributors do you buy" in q:
+            why = "withdrawn 2026-08-08 — we research the supplier ourselves"
+        elif "customer list" in q and cust:
+            why = f"already uploaded: {cust[0]['name']}"
+        if not why:
+            continue
+        if not dry_run:
+            _sb("PATCH", "/rest/v1/client_intake_items"
+                f"?id=eq.{it['id']}",
+                {"status": "answered",
+                 "answer": f"Closed automatically {_utcnow()[:10]}: {why}.",
+                 "answered_at": _utcnow()})
+        out.append(f"{slug}: closed intake — {it['question'][:52]} ({why})")
+    return out
 
 
 def retire_withdrawn_asks(cid: str, slug: str, dry_run: bool) -> list[str]:
@@ -759,6 +849,7 @@ def ensure_setup_checklist(dry_run: bool, cid_to_slug: dict) -> list[str]:
     # case to skip, because the stale ask simply reanimates on unpause.
     for _cid, _slug in cid_to_slug.items():
         out += retire_withdrawn_asks(_cid, _slug, dry_run)
+        out += close_satisfied_intake_items(_cid, _slug, dry_run)
 
     for co in active:
         cid = co["id"]
@@ -863,14 +954,14 @@ def ensure_setup_checklist(dry_run: bool, cid_to_slug: dict) -> list[str]:
              "given will assume the worst, and they would be right to."
              ).format(", ".join(_missing_docs), " and your ".join(_missing_docs))))
 
-        checks.append((
-            f"checklist-hours-{slug}",
-            bool(prof) and prof.get("claimed") is True and prof.get("has_hours") is False,
-            "ASK CLIENT: what hours should show on their Google listing?",
-            "Their Google Business Profile has no hours set, which suppresses the "
-            "listing for 'open now' searches. MONICA: ask what hours they want shown "
-            "(24/7 emergency companies usually want Open 24 hours). We set it on "
-            "Google for them."))
+        # HOURS ARE NO LONGER A QUESTION (Santino 2026-08-08): every client is
+        # set to Open 24 hours regardless of industry, because the AI
+        # receptionist answers and books after hours, so the listing is
+        # genuinely reachable around the clock. Asking the owner what hours to
+        # show invited a narrower answer than the truth and suppressed the
+        # listing for "open now" searches in the meantime. This is now our job,
+        # not theirs — the ask is retired (see RETIRED_ASK_SEEDS) and the 24/7
+        # write belongs to the GBP maintenance pass.
 
         crew = 0
         have_already = 0     # photos we ALREADY hold from any source (GBP, website)
