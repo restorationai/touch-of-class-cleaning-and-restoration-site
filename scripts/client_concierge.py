@@ -6767,6 +6767,23 @@ def propose_call_tasks(dry_run: bool, per_run: int = PROPOSALS_PER_RUN) -> list[
                          "sms", body)
             seen[cid] = list(already | {str(n["id"]) for n in fresh})
             kv_set("proposal-batches", seen)
+            # REGISTER WITH THE ADVICE LOOP, or his reply lands nowhere.
+            # Santino 2026-08-08: "if it sends me three messages at a time,
+            # how will it discern which one I'm responding to?" The matcher
+            # already answers that — it ties a reply to one open question by
+            # company name, person or an unmistakable detail, and marks it
+            # AMBIGUOUS rather than guessing when it cannot tell (a wrong
+            # guess sends a real client someone else's answer). But it can
+            # only match against questions it knows about, so a proposal has
+            # to be one of them.
+            reqs = _advice_requests()
+            reqs.append({"company_id": cid, "company_name": name,
+                         "reason": f"proposed {len(tasks)} task(s) from the "
+                                   f"call: {'; '.join(tasks)[:240]}",
+                         "kind": "task-proposal",
+                         "asked_at": datetime.now(timezone.utc).isoformat(),
+                         "status": "open"})
+            kv_set("advice-requests", reqs)
             out.append(f"{name}: proposed {len(tasks)} task(s) to Santino")
             sent += 1
         except SendBlocked as e:

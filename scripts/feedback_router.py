@@ -28,10 +28,14 @@ DESIGN NOTES
 * The risk gate is a PURE FUNCTION (`risk_verdict`) with no network calls, so
   `python3 scripts/feedback_router.py selftest` can replay real client messages
   offline in a second. Both 08-04 cases are in the regression set.
-* Auto-run is deliberately narrow. Pixels and paint auto-run; WORDS do not.
-  A client dictating copy, facts, claims or pricing onto a LIVE production site
-  is exactly the failure mode that gets an agency sued, so those always stop at
-  Santino's Approve button. Ambiguity resolves toward the human.
+* Auto-run covers pixels, paint AND WORDS (Santino 2026-08-08 — previously
+  words were excluded). Rewording at the OWNER'S request is overseen by the
+  person who matters most, and the AI wrote the copy in the first place. What
+  still stops at his Approve button is TRUTH and CONTRACTS, not phrasing:
+  business facts, claims (24/7, certified, licensed, since YYYY), money,
+  deletions from an indexed site, complaints, and legal pages. Those are the
+  failure mode that gets an agency sued. Ambiguity still resolves toward the
+  human.
 * The queued note carries an ORIGIN trailer (`ORIGIN: client-feedback | ...`).
   That is what survives the app's Approve button (which rewrites the tag but
   keeps the body) and what dev_inbox.py reads to close the loop back to the
@@ -79,7 +83,21 @@ CATEGORIES: dict[str, tuple[str, bool, str]] = {
                      "brand colours / logo / livery in the style guide"),
     "service_area": ("service areas", True,
                      "plan-input service_areas + plan_site + build_site add-pages"),
-    "copy":         ("site copy", False,
+    # COPY IS AUTO NOW (Santino 2026-08-08, on Greg asking to change "free
+    # estimate" to "free assessment"): "it's fine to reword something if the
+    # client asks, because the client will be checking. It almost is being
+    # overseen by a human, who is the client himself. In fact the entire AI
+    # writes the website in the first place."
+    #
+    # That is the right reading. The old rule treated every wording change as
+    # agency liability, but the liability case is about a MACHINE DECIDING to
+    # reword something. Applying the exact words the owner asked for is a
+    # different act, and the owner is the authority on their own site's words.
+    #
+    # The risk regexes below still override: money, claims, removals,
+    # complaints and legal pages stop at Santino no matter who asked. Those
+    # are about truth and contracts, not phrasing.
+    "copy":         ("site copy", True,
                      "rendered markdown under sites/{slug}/src/content"),
     "facts":        ("business facts on the site", False,
                      "plan-input brand block (the truth table)"),
@@ -92,8 +110,6 @@ AUTO_CATEGORIES = {k for k, (_, ok, _) in CATEGORIES.items() if ok}
 # Why each never-auto category stops at Santino, in words that make sense on
 # his phone at 11pm. This text is what the [TODO-PROPOSED] card shows him.
 _NEVER_AUTO_WHY: dict[str, str] = {
-    "copy":      ("changing the words on a client's site is the agency's "
-                  "liability, not a machine's"),
     "facts":     ("a business fact has to be confirmed true by a human "
                   "before it goes on their site"),
     "rejection": ("they turned it down without saying what to change, so "
@@ -653,16 +669,32 @@ REPLAYS: list[tuple[str, dict, bool, str]] = [
       "confidence": "high", "complaint": False},
      False, "propose"),
     # --- the stops -------------------------------------------------------
-    ("copy change on a LIVE site",
+    # COPY IS AUTO SINCE 2026-08-08. These two used to assert the opposite;
+    # the assertions moved, the risk cases below did NOT. The owner asking for
+    # different words is not the failure mode the gate exists for.
+    ("owner-requested reword on a LIVE site now runs",
      {"category": "copy", "what": "reword the homepage headline",
       "where": "homepage hero", "quote": "Can you change the headline to say "
       "water damage specialists instead", "confidence": "high"},
-     True, "propose"),
-    ("copy change on a PREVIEW site is still a human's call",
+     True, "auto"),
+    ("owner-requested reword on a PREVIEW site runs",
      {"category": "copy", "what": "reword the homepage headline",
       "where": "homepage hero", "quote": "Change the headline please",
       "confidence": "high"},
-     False, "propose"),
+     False, "auto"),
+    # ...but a reword that carries a CLAIM still stops, because the gate is
+    # about truth, not phrasing (Greg's "free estimate" -> "free assessment"
+    # is fine; "add 24/7" is not, whoever asked for it).
+    ("a reword that smuggles in a claim still stops",
+     {"category": "copy", "what": "reword the hero line",
+      "where": "hero", "quote": "Change it to say 24/7 emergency response",
+      "confidence": "high"},
+     True, "propose"),
+    ("a reword about pricing still stops",
+     {"category": "copy", "what": "reword the pricing note",
+      "where": "services", "quote": "Change the wording about our rates",
+      "confidence": "high"},
+     True, "propose"),
     ("client dictates a claim",
      {"category": "design", "what": "add a 24/7 badge to the hero",
       "where": "hero", "quote": "Put 24/7 emergency service in the header",
