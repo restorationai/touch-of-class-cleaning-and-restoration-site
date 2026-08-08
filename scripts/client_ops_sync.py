@@ -1154,6 +1154,118 @@ def ensure_setup_checklist(dry_run: bool, cid_to_slug: dict) -> list[str]:
     return out
 
 
+def ensure_internal_launch_tasks(dry_run: bool, cid_to_slug: dict) -> list[str]:
+    """Seed the work that is OURS: a built site we can launch but haven't.
+
+    Every other check in this file asks a CLIENT for something, which is
+    exactly why Go Green sat dark from 2026-07-24. We registered
+    gogreenrestorationofnc.com ourselves, pointed the nameservers at a
+    Cloudflare zone, and never populated it. The client owed us nothing, so no
+    ask existed, so no board anywhere showed the domain resolving to nothing
+    for two weeks. "Waiting on us" had no representation in the system.
+
+    Fires when a site is BUILT, is NOT live, and we can already act:
+      - the domain's nameservers point at Cloudflare (we control DNS), or
+      - domain access is granted / credentials provided.
+
+    Deliberately action_type "site_launch", NOT client_input: this must land on
+    the ops board and must never become a message to the client. There is
+    nothing to ask them for.
+    """
+    import subprocess
+    out: list[str] = []
+    BUILT = {"preview_ready", "preview_live", "pushed_staging", "pushed_main"}
+    READY_ACCESS = {"granted", "creds_provided", "ns_live", "delegate_granted"}
+
+    rows = _sb("GET", "/rest/v1/marketing_sites"
+               "?select=rank_ai_slug,company_id,domain,build_status,apex_live,"
+               "domain_access_status", prefer="return=representation") or []
+    for r in rows:
+        slug = r.get("rank_ai_slug")
+        cid = r.get("company_id")
+        dom = (r.get("domain") or "").strip()
+        if not (slug and cid and dom) or dom.endswith(".invalid"):
+            continue
+        if r.get("apex_live") is True or r.get("build_status") not in BUILT:
+            continue
+
+        # apex_live IS NOT TRUSTWORTHY. PuroClean reads False while
+        # purocleaneastlasvegas.com has been serving our site for days, so the
+        # flag alone would raise a launch task for a site that is already live.
+        # Probe the real thing (the same lesson as the Crew go-live check: the
+        # DNS/flag state and what a visitor actually gets are different facts).
+        # The marker is /llms.txt, not a phrase on the homepage. "Call Us Now"
+        # matched homelyft.net, which is still the CLIENT'S OWN old site — a
+        # string match would have flipped apex_live to true on a site we have
+        # never launched. Every site we build ships llms.txt; theirs do not.
+        # ...and a 200 is not enough either. prorestorationca.com serves a SOFT
+        # 404: every path returns 200 with their homepage HTML, which mentions
+        # their own domain 151 times, so both the status check and a substring
+        # check pass on a site we have never launched. Require the body to be
+        # our actual llms.txt: plain text starting with a markdown heading.
+        try:
+            resp = requests.get(f"https://{dom}/llms.txt", timeout=12,
+                                allow_redirects=True)
+            body = (resp.text or "").lstrip()
+            if (resp.ok and body.startswith("#") and not body.startswith("<")
+                    and f"https://{dom}/" in body):
+                out.append(f"{slug}: already live at {dom} — apex_live flag is "
+                           "stale, not seeding a launch task")
+                if not dry_run:
+                    _sb("PATCH", "/rest/v1/marketing_sites"
+                        f"?rank_ai_slug=eq.{slug}", {"apex_live": True})
+                continue
+        except Exception:
+            pass   # unreachable: fall through, a launch task is the right call
+
+        # THE CLIENT HAS TO HAVE SIGNED OFF. Quality Contracting is
+        # creds_provided and built, but Fran sent 17 pages of change requests
+        # on 2026-08-05 — "we can launch it" is not "we should". Only seed once
+        # the preview ask is actually resolved.
+        preview = _sb("GET", "/rest/v1/marketing_action_plan"
+                      f"?company_id=eq.{cid}&action_type=eq.client_input"
+                      "&title=ilike.*preview*&select=status",
+                      prefer="return=representation") or []
+        if preview and not any((p.get("status") or "") in ("resolved", "done")
+                               for p in preview):
+            continue
+
+        why = None
+        if str(r.get("domain_access_status") or "") in READY_ACCESS:
+            why = f"domain access is {r['domain_access_status']}"
+        else:
+            # We may already control DNS without any access ever being
+            # "granted" — the Go Green case, where we bought the domain.
+            try:
+                ns = subprocess.run(["dig", "+short", "NS", dom],
+                                    capture_output=True, text=True,
+                                    timeout=15).stdout.lower()
+                if "ns.cloudflare.com" in ns:
+                    why = "nameservers already point at our Cloudflare zone"
+            except Exception:
+                pass
+        if not why:
+            continue   # genuinely waiting on the client — rank 12 covers it
+
+        if insert_plan_row(
+                cid, slug, f"internal-push-live-{slug}",
+                title=f"PUSH THE SITE LIVE: {dom} is built and we can launch it",
+                rationale=(
+                    f"{dom} is built ({r['build_status']}) and NOT live, and we "
+                    f"can already act: {why}. This is OURS, not the client's — "
+                    "there is nothing to ask them for, so nothing was ever "
+                    "surfacing it. INTERNAL: do not message the client about "
+                    "this item. Launch checklist: mirror any existing DNS into "
+                    "the zone FIRST (an empty zone plus delegated nameservers "
+                    "takes their email down), attach the Pages custom domain, "
+                    "point apex + www, verify apex AND www return 200 with a "
+                    "valid certificate, then confirm MX still resolves."),
+                action_type="site_launch", target=f"https://{dom}",
+                impact="high", effort="low", dry_run=dry_run):
+            out.append(f"{slug}: seeded INTERNAL launch task — {dom} ({why})")
+    return out
+
+
 def ensure_google_connect_asks(dry_run: bool, cid_to_slug: dict) -> list[str]:
     """Clients with a real Google Business Profile but NO Google connection in
     the app get a signed connect link seeded as a Monica ask (delivered to the
@@ -1338,6 +1450,7 @@ def run(since_override: str | None, dry_run: bool, do_send: bool) -> int:
     for fn in (ensure_google_connect_asks, ensure_gbp_first_sync,
                ensure_gbp_manager_access,
                ensure_baseline_scans, ensure_ads_first_sync,
+               ensure_internal_launch_tasks,
                ensure_setup_checklist):
         for ln in fn(dry_run, cid_to_slug):
             print("  " + ln)
