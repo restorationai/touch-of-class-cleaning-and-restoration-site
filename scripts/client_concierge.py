@@ -6685,6 +6685,95 @@ def ask_santino_for_advice(company: dict, reason: str, dry_run: bool,
         print(f"    advice SMS blocked: {e}")
 
 
+# PHASE 3 — PROPOSE, THEN ACT (Santino 2026-08-08).
+#
+# "Once she creates those tasks she should put them in the app, then reach out
+# to me to ask if she should start on them. She can list out all the tasks she
+# created in a single message for a single client and keep it concise."
+#
+# The extraction half already worked: Bob Olson's 2026-08-08 call produced NINE
+# [TODO-PROPOSED] notes within a second of each other. What did not exist was
+# anyone telling Santino. Nine rows appeared on a board he had no reason to
+# open, and the gate that was supposed to hold them ("Approve = machine") is
+# only a gate if he knows there is something to approve.
+#
+# ONE text per client, listing what was captured, asking whether to start.
+# Nothing is executed by this function: [TODO-PROPOSED] still requires his
+# Approve click to become [DEV], which is the existing, proven gate. This adds
+# the missing half, notification, rather than a parallel mechanism.
+_PROPOSAL_TAG = "[TODO-PROPOSED]"
+
+
+PROPOSALS_PER_RUN = 3       # never turn a backlog into a text storm
+
+
+def propose_call_tasks(dry_run: bool, per_run: int = PROPOSALS_PER_RUN) -> list[str]:
+    """Text Santino one summary per client with unannounced proposed tasks.
+
+    CAPPED, because the first dry run found 44 unannounced tasks across TEN
+    clients — every call we have ever transcribed. Uncapped this would have
+    sent ten texts in one burst, which is how an alerting channel gets muted,
+    and a muted channel is worse than no channel. Oldest client first so the
+    backlog drains in order instead of the newest call always winning.
+    """
+    out: list[str] = []
+    seen = kv_get("proposal-batches") or {}
+    rows = _sb("GET", "/rest/v1/marketing_ops_notes?status=eq.open"
+               "&select=id,company_id,body,created_at"
+               "&order=created_at.desc&limit=300") or []
+    by_co: dict[str, list[dict]] = {}
+    for r in rows:
+        if str(r.get("body") or "").startswith(_PROPOSAL_TAG):
+            by_co.setdefault(r["company_id"], []).append(r)
+
+    sent = 0
+    # Oldest call first: a client waiting since last week outranks today's.
+    for cid, notes in sorted(by_co.items(),
+                             key=lambda kv: min(n["created_at"] for n in kv[1])):
+        if sent >= per_run:
+            out.append(f"(capped at {per_run} proposals this run; "
+                       f"{len(by_co) - sent} client(s) still queued)")
+            break
+        already = set(seen.get(cid, []))
+        fresh = [n for n in notes if str(n["id"]) not in already]
+        if not fresh:
+            continue
+        co = (_sb("GET", f"/rest/v1/companies?id=eq.{cid}&select=id,name") or [{}])[0]
+        name = co.get("name") or cid
+
+        # First line of each note after the tag+header is the task itself.
+        def _task(body: str) -> str:
+            for ln in str(body).splitlines():
+                ln = ln.strip()
+                if ln and not ln.startswith(_PROPOSAL_TAG) and "THEY SAID" not in ln:
+                    return ln
+            return ""
+        # Truncate each task: Reign's is a full paragraph of internal
+        # directive text, and one long note would eat the whole SMS budget.
+        tasks = [t[:110] for t in (_task(n["body"]) for n in fresh) if t][:8]
+        if not tasks:
+            continue
+        raw = (f"[{name}] I captured {len(tasks)} task(s) from the call and put "
+               "them in the app. Should I start on them?\n"
+               + "\n".join(f"- {t}" for t in tasks))
+        if dry_run:
+            out.append(f"{name}: [dry-run] would propose {len(tasks)} task(s)")
+            out.append("    " + raw.replace("\n", "\n    "))
+            sent += 1          # the cap must be visible in a dry run too,
+            continue           # or the preview lies about what a real run does
+        body = humanize_boss_sms(raw, ask_for_decision=True) or raw[:900]
+        try:
+            send_message({"id": ADVICE_CONTACT_ID, "phone": ADVICE_PHONE},
+                         "sms", body)
+            seen[cid] = list(already | {str(n["id"]) for n in fresh})
+            kv_set("proposal-batches", seen)
+            out.append(f"{name}: proposed {len(tasks)} task(s) to Santino")
+            sent += 1
+        except SendBlocked as e:
+            out.append(f"{name}: proposal SMS blocked: {e}")
+    return out
+
+
 def append_escalation(company: dict, msg: dict | None, reason: str,
                       dry_run: bool, ping: bool = False) -> None:
     """Append one escalation block. msg is the triggering inbound message when
