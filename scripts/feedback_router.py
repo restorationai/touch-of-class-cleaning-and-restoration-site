@@ -101,8 +101,16 @@ CATEGORIES: dict[str, tuple[str, bool, str]] = {
     # are about truth and contracts, not phrasing.
     "copy":         ("site copy", True,
                      "rendered markdown under sites/{slug}/src/content"),
-    "facts":        ("business facts on the site", False,
+    # FACTS AND LEGAL RUN TOO (Santino 2026-08-09). "Business facts does not
+    # need my approval." The owner is the authority on his own founding year,
+    # address and hours, exactly as he is on his own certifications.
+    "facts":        ("business facts on the site", True,
                      "plan-input brand block (the truth table)"),
+    # A bare rejection still cannot auto-run, but NOT because it needs
+    # Santino: there is genuinely nothing to execute. Santino 2026-08-09:
+    # "why not just have Monica ask, 'Is there anything specific you'd like us
+    # to do, or would you like our team to just handle it?'" That is a
+    # CONVERSATION, so it routes to Monica rather than to his approve queue.
     "rejection":    ("preview rejected", False, "depends on what they meant"),
     "other":        ("unclassified", False, "n/a"),
 }
@@ -115,7 +123,8 @@ _NEVER_AUTO_WHY: dict[str, str] = {
     "facts":     ("a business fact has to be confirmed true by a human "
                   "before it goes on their site"),
     "rejection": ("they turned it down without saying what to change, so "
-                  "somebody has to ask them what they meant"),
+                  "Monica asks them: anything specific you want, or shall our "
+                  "team just handle it? If they say handle it, she does"),
     "other":     ("no category with a known safe procedure fits this"),
 }
 
@@ -222,7 +231,11 @@ def risk_verdict(fb: dict, *, site_live: bool, has_site: bool) -> tuple[str, str
     # record, which is a better test than a keyword match on a text message.
     if _MONEY_RE.search(blob) and cat not in AUTO_CATEGORIES:
         return "propose", "touches pricing, billing or the contract"
-    if _LEGAL_RE.search(blob):
+    # LEGAL PAGES NO LONGER STOP (Santino 2026-08-09): "if somebody says to
+    # update our privacy policy, Monica just needs to tell them to provide what
+    # they want it updated to." The client supplies the wording; we apply it.
+    # We are not drafting policy, we are typing what their lawyer wrote.
+    if False and _LEGAL_RE.search(blob):
         return "propose", "touches a legal or policy page"
 
     # --- category-level stops --------------------------------------------
@@ -753,11 +766,14 @@ REPLAYS: list[tuple[str, dict, bool, str]] = [
       "quote": "Drop the Henderson page before this goes live",
       "confidence": "high"},
      False, "auto"),
-    ("legal page",
+    # Santino 2026-08-09: legal pages run too. Monica asks them for the wording
+    # they want; we apply it. We are typing what their lawyer wrote, not
+    # drafting policy.
+    ("legal page runs once the client supplies the wording",
      {"category": "copy", "what": "update the privacy policy",
       "where": "privacy policy", "quote": "Our privacy policy needs updating",
       "confidence": "high"},
-     False, "propose"),
+     False, "auto"),
     ("no site to change yet",
      {"category": "imagery", "what": "change the hero image",
       "where": "homepage", "quote": "the hero image should be a house",
