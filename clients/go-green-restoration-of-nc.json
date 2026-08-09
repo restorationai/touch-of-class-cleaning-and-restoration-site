@@ -1,7 +1,7 @@
 {
   "slug": "go-green-restoration-of-nc",
   "display_name": "Go agree Restoration of NC",
-  "domain": null,
+  "domain": "gogreenrestorationofnc.com",
   "tier": "standard",
   "vertical": "restoration",
   "contact": "gogreenrestorationofnc@gmail.com",
@@ -13,7 +13,7 @@
     "url_count": 79,
     "generated_at": "2026-07-29T15:37:46.612426+00:00"
   },
-  "updated_at": "2026-08-09T09:59:10.771133+00:00",
+  "updated_at": "2026-08-09T21:45:03.598291+00:00",
   "build": {
     "scaffolded_at": "2026-07-28T14:43:39.456791+00:00",
     "github_repo": "restorationai/go-green-restoration-of-nc-site",
@@ -22,7 +22,9 @@
     "url_count": 52,
     "pages_status": "created",
     "last_rendered_at": "2026-07-29T15:49:51.266505+00:00",
-    "last_pushed_staging_at": "2026-08-09T09:59:10.771113+00:00"
+    "last_pushed_staging_at": "2026-08-09T09:59:10.771113+00:00",
+    "last_pushed_main_at": "2026-08-09T21:44:10.242096+00:00"
   },
-  "build_status": "pushed_staging"
+  "build_status": "pushed_main",
+  "indexnow_key": "0d9ae4ea880949d1a41785e0da098e5a"
 }
