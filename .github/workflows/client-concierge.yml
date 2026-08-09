@@ -11,8 +11,13 @@ name: Rank AI Client Concierge
 # guard). Escalations land in Ops Attention (concierge_escalations).
 on:
   schedule:
-    - cron: '7 16 * * 1-5'
-    - cron: '37 19 * * 1-5'
+    # EVERY DAY, not weekdays (Santino 2026-08-09). DISS Restoration's
+    # preview ask cleared its 3-day soak on Friday 08-08; Saturday and
+    # Sunday had no runs, so a finished site sat unsent all weekend and
+    # the client would have waited until Monday. Restoration work does
+    # not stop at the weekend and neither should the follow-up.
+    - cron: '7 16 * * *'
+    - cron: '37 19 * * *'
   workflow_dispatch:
     inputs:
       mode:
@@ -88,7 +93,7 @@ jobs:
           fi
 
       - name: Morning digest to Santino (first run only; silent when quiet)
-        if: ${{ github.event.schedule == '7 16 * * 1-5' || github.event.inputs.mode == 'daily' }}
+        if: ${{ github.event.schedule == '7 16 * * *' || github.event.inputs.mode == 'daily' }}
         env:
           SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
