@@ -878,12 +878,15 @@ def ensure_setup_checklist(dry_run: bool, cid_to_slug: dict) -> list[str]:
             "Google needs for Local Services Ads",
             ("Google rejected or is missing verification documents on this client's "
              "Local Services Ads, so their LSA cannot serve. Blocker: {}\n\n"
-             "MONICA: ask the owner to send the required documents (state contractor "
-             "license, current certificate of insurance). They can reply with a photo, "
-             "email contact@restorationai.io, or use their private upload link: {} "
-             "(pick the License / Insurance category). We resubmit to Google for them "
-             "— they should NOT have to log into anything. Their upload pins a task "
-             "for our team automatically.").format(
+             "MONICA: ask the owner for the required documents (state contractor "
+             "license, current certificate of insurance). Give the HUB LINK and "
+             "nothing else: {} (pick the License / Insurance category). NEVER offer "
+             "email and never say 'reply with a photo' (Santino 2026-08-09, after "
+             "Josiah was told to email his customer list to setup@) — an emailed "
+             "attachment only lands in an ops row needing a human to file it, while "
+             "a hub upload goes straight to storage and pins its own task. Do not "
+             "assume a device: it works from a phone or a computer. We resubmit to "
+             "Google for them, they should NOT have to log into anything.").format(
                 (lsa[0]["title"] if lsa else ""), hub)))
 
         # svc-confirm REMOVED 2026-08-07 (Santino). A human vets the service
@@ -1008,8 +1011,9 @@ def ensure_setup_checklist(dry_run: bool, cid_to_slug: dict) -> list[str]:
             ("We hold no usable job photos for this client from ANY source: nothing "
              "uploaded through the hub, nothing on their Google profile, nothing "
              "harvested from their site. MONICA: re-share their CLIENT HUB link ({}) "
-             "— photos upload right there, no login — and suggest texting it to the "
-             "crew group chat; even 3-4 phone pics from recent jobs is plenty. "
+             "— photos upload right there, no login, from a phone OR a computer. "
+             "Texting it to the crew group chat is one good option, not the only "
+             "one; even 3-4 pics from recent jobs is plenty. "
              "(hub only — the raw /gbpphotos/ link is deprecated, 2026-08-01)").format(hub)))
 
         # Photo freshness (Santino 2026-07-28): clients who HAVE uploaded before

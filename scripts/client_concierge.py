@@ -3444,6 +3444,58 @@ _INTERNAL_LEAK_RE = re.compile(
     r"action[- ]plan row|ops board|internal task)\b", re.I)
 
 
+# FILE REQUESTS ARE HUB-LINK-ONLY, AND DEVICE-NEUTRAL (Santino 2026-08-09).
+#
+# Two live failures on the same day. Josiah Viland was told to EMAIL his
+# customer list and playbook to setup@restorationai.io, and Bob Olson was told
+# to "tap Upload Photos and add it from your phone" for a customer list he was
+# always going to send from a desk.
+#
+# Both are the same root cause: the wording lives in several places and nothing
+# enforced the rule across them. Fixing the instructions is necessary and not
+# sufficient — the previous fix corrected the logo ask and the LSA-docs ask
+# kept saying "email contact@restorationai.io" for another two days. This is
+# the enforcement.
+#
+# WHY IT MATTERS beyond tidiness: an emailed attachment lands in an ops row
+# that needs a human to file it, so the client has done the work and we still
+# have not received it. A hub upload goes straight to storage and pins its own
+# task.
+_EMAIL_A_FILE_RE = re.compile(
+    r"(email|e-mail|send)\s+(it|them|that|these|those|the\s+\w+)?\s*"
+    r"(to\s+)?(us\s+)?(at\s+)?[\w.+-]*@[\w.-]+\.\w+"
+    r"|reply\s+(to\s+this\s+)?(message\s+)?with\s+the\s+(file|photo|list|attach)"
+    r"|attach\s+(it|them|the\s+\w+)\s+to\s+(an?\s+)?(email|reply)", re.I)
+_DEVICE_ASSUMED_RE = re.compile(
+    r"\b(from|on)\s+your\s+phone\b|\btap\s+(the\s+)?\w+\b|\bon\s+your\s+cell\b",
+    re.I)
+
+
+def file_request_violation(body: str) -> str | None:
+    """Refusal reason when a draft asks a client to email a file, else None.
+
+    Device wording is corrected, not blocked: "tap" instead of "click" is a
+    poor guess, not a broken instruction, and holding a whole message over one
+    verb would cost more than it saves.
+    """
+    m = _EMAIL_A_FILE_RE.search(body or "")
+    if m:
+        return (f"draft tells the client to email us a file ({m.group(0)!r}). "
+                "File requests are HUB-LINK-ONLY: an emailed attachment lands "
+                "in an ops row needing a human to file it, so the client does "
+                "the work and we still do not have it. Send the hub link "
+                "instead. Message held.")
+    return None
+
+
+def soften_device_assumption(body: str) -> str:
+    """Rewrite phone-only phrasing so a desktop client is not told to 'tap'."""
+    out = re.sub(r"\b[Tt]ap\b", "Click", body or "")
+    out = re.sub(r"\b(from|on) your phone\b", r"\1 your phone or computer", out,
+                 flags=re.I)
+    return out
+
+
 def internal_leak_violation(body: str, internal: list[dict] | None) -> str | None:
     """Refusal reason when a draft leaks internal work, else None.
 
@@ -3559,6 +3611,13 @@ def send_message(contact: dict, channel: str, body: str,
         leak = internal_leak_violation(body, fetch_internal_work(company["id"]))
         if leak:
             raise SendBlocked(leak)
+        # FILE REQUESTS — hub link only, never email.
+        filereq = file_request_violation(body)
+        if filereq:
+            raise SendBlocked(filereq)
+    # Device wording is fixed in place rather than blocked (see
+    # soften_device_assumption): a desktop client should not be told to "tap".
+    body = soften_device_assumption(body)
     payload: dict = {"type": "SMS" if channel == "sms" else "Email",
                      "contactId": contact["id"]}
     if channel == "sms":
@@ -8767,6 +8826,31 @@ def cmd_selfcheck(_args) -> int:
         fails += (not ok)
         print(f"  {'ok  ' if ok else 'FAIL'} internal={str(has_work):<5} "
               f"blocked={str(bool(got)):<5} {draft[:52]!r}")
+
+    # ---- file requests are hub-link-only and device-neutral ---------------
+    print("\nfile requests: never email, never assume a phone:")
+    file_cases = [
+        ("Just email it to setup@restorationai.io when you get a chance.", True),
+        ("Send the list to contact@restorationai.io", True),
+        ("Reply to this message with the file attached", True),
+        # ...the hub link is the whole point and must always pass.
+        ("Upload it here, no login needed: https://restorationai.io/hub/x/y", False),
+        ("Can you send your logo when you get a minute?", False),
+    ]
+    for draft, want_block in file_cases:
+        got = file_request_violation(draft)
+        ok = bool(got) == want_block
+        fails += (not ok)
+        print(f"  {'ok  ' if ok else 'FAIL'} blocked={str(bool(got)):<5} {draft[:56]!r}")
+    softened = [
+        ("Tap Upload Photos and add it from your phone.",
+         "Click Upload Photos and add it from your phone or computer."),
+    ]
+    for raw, want in softened:
+        got = soften_device_assumption(raw)
+        ok = got == want
+        fails += (not ok)
+        print(f"  {'ok  ' if ok else 'FAIL'} softened -> {got!r}")
 
     print(f"\n{'ALL GREEN' if not fails else str(fails) + ' FAILURE(S)'}")
     return 1 if fails else 0
