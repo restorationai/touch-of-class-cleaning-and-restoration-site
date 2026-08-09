@@ -21,3 +21,16 @@
   the junk at the top. Hardening fetch_job_photos to honour the per-client
   photo-manifest triage is a fleet-wide change I did not make in a headless run
   (couldn't verify it across other clients) — flagging it for a human decision.
+
+## 2026-08-09 — logo + hero replaced (Santino's direct instruction)
+- The site "logo" was an iPhone SCREENSHOT from Todd's camera roll (status bar,
+  "June 16, 2021", photo-app chrome all baked in) — he never had a real logo file.
+- Generated a brand-matched logo from his actual van wrap: NC state silhouette
+  split fire-into-water with a lightning bolt at the seam, GO GREEN /
+  RESTORATION OF NC in green caps. public/images/logo.png (863x159, white bg).
+- Promoted his REAL wrapped Transit (lead job-photo) to hero-bg.webp (16:9
+  center crop), replacing the generated green-and-white van scene.
+- ⚠️ NAME DISCREPANCY for Santino/Todd: the van wrap reads "GO GREEN
+  RESTORATIONS OF NC" (plural) — every record we hold (plan-input, GBP, site)
+  says "Go Green Restoration of NC" (singular). Logo follows our records;
+  confirm with Todd which is legally right.
