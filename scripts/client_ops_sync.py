@@ -448,7 +448,18 @@ def ensure_bootstrapped(dry_run: bool, do_send: bool,
             continue
         if co["id"] in have and _repo_bootstrapped(co["id"]):
             continue
-        pipeline_slug = (cid_to_slug or {}).get(co["id"])
+        pipeline_slug = ((cid_to_slug or {}).get(co["id"])
+                         # A slug this company ALREADY OWNS on its
+                         # marketing_sites row is its identity too. Without
+                         # this, a client whose DB row exists but whose repo
+                         # files do not sees its own slug in `taken` and mints
+                         # a duplicate: Burley would have become
+                         # burley-industries-of-hartland-2, splitting one
+                         # client across two identities in a job that commits
+                         # to main unattended.
+                         or next((r.get("rank_ai_slug") for r in sites
+                                  if r.get("company_id") == co["id"]
+                                  and r.get("rank_ai_slug")), None))
         if pipeline_slug:
             slug = pipeline_slug        # existing pipeline identity wins
         else:
