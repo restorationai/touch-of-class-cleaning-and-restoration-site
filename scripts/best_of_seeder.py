@@ -42,6 +42,7 @@ from __future__ import annotations
 import argparse
 import base64
 import json
+import pathlib
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -149,14 +150,25 @@ def fetch_competitors(service: str, city: str, state: str,
     return out
 
 
-def variant_fanout(service: str, place: str) -> list[str]:
+def variant_fanout(service: str, place: str, slug: str | None = None) -> list[str]:
     """Customer-language variants for this service, best-volume first.
 
     "water cleanup Federal Way" style phrasings from keyword-variants.json,
     volume-ranked via DataForSEO when reachable (falls back to file order).
     Titles keep the canonical phrasing; these ride as secondary keywords."""
     try:
-        vmap = json.loads((ROOT / "templates" / "restoration" / "keyword-variants.json").read_text())
+        # RESOLVE THE VERTICAL, do not hardcode restoration (Santino
+        # 2026-08-09, plumbing template pass). This read
+        # templates/restoration/keyword-variants.json for every client, so a
+        # plumbing client either got restoration phrasings ("water cleanup
+        # Federal Way") or, more usually, silently got none at all because
+        # their service slugs are absent from that file. Same class of bug as
+        # bootstrap hardcoding vertical="restoration": it fails quietly and
+        # looks like the feature simply has nothing to add.
+        import verticals
+        path = (verticals.resolve_template(slug, "keyword-variants.json")
+                if slug else ROOT / "templates" / "restoration" / "keyword-variants.json")
+        vmap = json.loads(pathlib.Path(path).read_text())
     except Exception:
         return []
     variants = [v for v in vmap.get(service, []) if isinstance(v, str)][:7]
@@ -358,7 +370,7 @@ def main() -> int:
         ]
 
     fan_out = (fan_out + variant_fanout(
-        service, city if fmt != "cost_guide" else st))[:6]
+        service, city if fmt != "cost_guide" else st, slug))[:6]
 
     item = {
         "id": f"{datetime.now(timezone.utc).strftime('%Y-%m-%d')}-{key}",
