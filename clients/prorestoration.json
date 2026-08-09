@@ -69,5 +69,6 @@
     "last_pushed_staging_at": "2026-08-05T04:10:04.436461+00:00",
     "preview_url": "https://prorestoration-preview.pages.dev"
   },
-  "build_status": "pushed_staging"
+  "build_status": "pushed_staging",
+  "indexnow_key": "b99138573e514e8cb2f3258a532103fd"
 }
