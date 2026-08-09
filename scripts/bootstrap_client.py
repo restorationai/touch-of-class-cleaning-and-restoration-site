@@ -89,6 +89,46 @@ def domain_from_website(website):
     return host
 
 
+
+# VERTICAL IS DERIVED, NOT ASSUMED (Santino 2026-08-09). This was hardcoded to
+# "restoration" for EVERY new client. RT Olson Plumbing signed up on 08-08 with
+# industry ["Plumbing"] and services Plumbing / Leak Detection / HVAC, and the
+# geo-grid promptly scanned him for "water damage restoration": 0 of 169 points
+# found, avg_rank null, $0.34 spent proving a plumber does not rank for
+# restoration. His dashboard has been blank ever since.
+#
+# The same hardcode is what the davis-construction incident was about, where a
+# construction client silently received restoration prompts. verticals.py was
+# written to stop implicit cross-vertical borrowing; this is the other end of
+# the same problem, a client being ASSIGNED the wrong vertical at birth.
+#
+# Falls back to restoration only when nothing matches, because that is what the
+# fleet mostly is — but it says so out loud rather than silently.
+_VERTICAL_KEYWORDS = (
+    ("plumbing",     ("plumb", "drain", "sewer line", "water heater", "leak detection")),
+    ("construction", ("construct", "remodel", "renovation", "general contract",
+                      "roofing", "builder")),
+    ("restoration",  ("restoration", "water damage", "fire damage", "mold",
+                      "biohazard", "mitigation", "cleanup")),
+)
+
+
+def derive_vertical(co: dict) -> str:
+    """Pick the vertical from the company's own industry/services text."""
+    blob = " ".join([
+        " ".join(co.get("industry") or []) if isinstance(co.get("industry"), list)
+        else str(co.get("industry") or ""),
+        " ".join(co.get("services") or []) if isinstance(co.get("services"), list)
+        else str(co.get("services") or ""),
+        str(co.get("name") or ""),
+    ]).lower()
+    for vertical, words in _VERTICAL_KEYWORDS:
+        if any(w in blob for w in words):
+            return vertical
+    print("vertical: nothing matched for {!r} — defaulting to restoration"
+          .format(co.get("name")))
+    return "restoration"
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--company-id", required=True)
@@ -147,7 +187,7 @@ def main():
         reg.write_text(json.dumps({
             "slug": slug, "display_name": co["name"],
             "domain": args.domain, "tier": "standard",
-            "vertical": "restoration", "contact": co.get("email"),
+            "vertical": derive_vertical(co), "contact": co.get("email"),
             "status": "onboarding",
         }, indent=1) + "\n")
 
