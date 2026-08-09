@@ -31,11 +31,13 @@ DESIGN NOTES
 * Auto-run covers pixels, paint AND WORDS (Santino 2026-08-08 — previously
   words were excluded). Rewording at the OWNER'S request is overseen by the
   person who matters most, and the AI wrote the copy in the first place. What
-  still stops at his Approve button is TRUTH and CONTRACTS, not phrasing:
-  business facts, claims (24/7, certified, licensed, since YYYY), money,
-  deletions from an indexed site, complaints, and legal pages. Those are the
-  failure mode that gets an agency sued. Ambiguity still resolves toward the
-  human.
+  still stops at his Approve button, after the 2026-08-08 widening: business
+  facts, unclassified feedback, a bare rejection, deletions from an indexed
+  site, complaints about our service, and legal pages. CLAIMS AND RATES NO
+  LONGER STOP — the client is the source of truth about their own
+  certifications, hours and prices, and claims_lint checks the BUILT site
+  against their truth table, which is a better test than a keyword match on a
+  text message. Ambiguity still resolves toward the human.
 * The queued note carries an ORIGIN trailer (`ORIGIN: client-feedback | ...`).
   That is what survives the app's Approve button (which rewrites the tag but
   keeps the body) and what dev_inbox.py reads to close the loop back to the
@@ -132,6 +134,9 @@ _MONEY_RE = re.compile(
 # ("quote" is deliberately absent: on a restoration site "request a quote" is
 #  a CTA, not money talk, and it would block every form change.)
 
+# NOTE (2026-08-08): _CLAIM_RE no longer gates client-requested changes — see
+# risk_verdict. It is kept because other callers and claims_lint reason about
+# the same vocabulary. Historical rationale below.
 # Claims are the one thing a client can ASK for that we still may not publish
 # without checking: certifications, 24/7, licences, response times, awards,
 # "family owned", years in business, star ratings. claims_lint.py exists
@@ -201,12 +206,22 @@ def risk_verdict(fb: dict, *, site_live: bool, has_site: bool) -> tuple[str, str
     if fb.get("complaint") or _COMPLAINT_RE.search(blob):
         return "propose", ("reads as a complaint about our service, not a "
                            "correction, so a human answers it first")
-    if _MONEY_RE.search(blob):
+    # CLAIMS AND RATES NO LONGER STOP A CLIENT-REQUESTED CHANGE (Santino
+    # 2026-08-08): "even if a word smuggles in something like 24-7 or IICRC
+    # certified or talks about rates, we still want that to run itself without
+    # going through me."
+    #
+    # The reasoning that makes this safe rather than reckless: the client is
+    # the source of truth about their own certifications, hours and pricing.
+    # Us refusing to publish "IICRC certified" for a firm that IS IICRC
+    # certified was never protecting anyone; it just made the owner wait.
+    #
+    # The real backstop is downstream and stays: claims_lint runs at BUILD
+    # time against the client's truth table, so a claim we have no evidence
+    # for still fails there rather than shipping. That is a check against the
+    # record, which is a better test than a keyword match on a text message.
+    if _MONEY_RE.search(blob) and cat not in AUTO_CATEGORIES:
         return "propose", "touches pricing, billing or the contract"
-    if _CLAIM_RE.search(blob):
-        return "propose", ("would put a certification, availability, licence "
-                           "or superlative claim on the site, and only a "
-                           "human may certify a claim is true")
     if _LEGAL_RE.search(blob):
         return "propose", "touches a legal or policy page"
 
@@ -682,34 +697,37 @@ REPLAYS: list[tuple[str, dict, bool, str]] = [
       "where": "homepage hero", "quote": "Change the headline please",
       "confidence": "high"},
      False, "auto"),
-    # ...but a reword that carries a CLAIM still stops, because the gate is
-    # about truth, not phrasing (Greg's "free estimate" -> "free assessment"
-    # is fine; "add 24/7" is not, whoever asked for it).
-    ("a reword that smuggles in a claim still stops",
+    # CLAIMS AND RATES RUN TOO (Santino 2026-08-08). These five asserted the
+    # opposite until today. The client is the source of truth about their own
+    # certifications, hours and prices, and claims_lint still checks the built
+    # site against their truth table, so an unevidenced claim fails there
+    # rather than shipping. A keyword match on a text message was never the
+    # thing keeping us honest.
+    ("a reword carrying a claim runs",
      {"category": "copy", "what": "reword the hero line",
       "where": "hero", "quote": "Change it to say 24/7 emergency response",
       "confidence": "high"},
-     True, "propose"),
-    ("a reword about pricing still stops",
+     True, "auto"),
+    ("a reword about rates runs",
      {"category": "copy", "what": "reword the pricing note",
       "where": "services", "quote": "Change the wording about our rates",
       "confidence": "high"},
-     True, "propose"),
+     True, "auto"),
     ("client dictates a claim",
      {"category": "design", "what": "add a 24/7 badge to the hero",
       "where": "hero", "quote": "Put 24/7 emergency service in the header",
       "confidence": "high"},
-     False, "propose"),
+     False, "auto"),
     ("client dictates a certification",
      {"category": "brand", "what": "add the IICRC badge to the footer",
       "where": "footer", "quote": "We want the IICRC certified logo on there",
       "confidence": "high"},
-     False, "propose"),
+     False, "auto"),
     ("pricing on the site",
      {"category": "copy", "what": "publish the new service pricing",
       "where": "services page", "quote": "Update the pricing to $299 minimum",
       "confidence": "high"},
-     False, "propose"),
+     False, "auto"),
     ("an actual complaint",
      {"category": "design", "what": "make the site look better",
       "where": "site-wide",

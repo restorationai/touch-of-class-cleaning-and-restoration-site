@@ -6753,15 +6753,22 @@ def propose_call_tasks(dry_run: bool, per_run: int = PROPOSALS_PER_RUN) -> list[
         tasks = [t[:110] for t in (_task(n["body"]) for n in fresh) if t][:8]
         if not tasks:
             continue
-        raw = (f"[{name}] I captured {len(tasks)} task(s) from the call and put "
-               "them in the app. Should I start on them?\n"
-               + "\n".join(f"- {t}" for t in tasks))
+        # PLAIN STRUCTURED TEXT, NOT PROSE (Santino 2026-08-08, on seeing the
+        # first batch land as run-on paragraphs on his phone). humanize_boss_sms
+        # is written to rewrite notes INTO prose, one line per client, which is
+        # right for a heads-up and exactly wrong for a checklist he has to read
+        # and answer item by item. A list is already human — it does not need
+        # rewriting, and rewriting it destroyed the only thing that made it
+        # scannable.
+        raw = (f"{name}: {len(tasks)} task(s) from the call, logged in the app.\n\n"
+               + "\n".join(f"- {t}" for t in tasks)
+               + "\n\nWant me to start on these?")
         if dry_run:
             out.append(f"{name}: [dry-run] would propose {len(tasks)} task(s)")
             out.append("    " + raw.replace("\n", "\n    "))
             sent += 1          # the cap must be visible in a dry run too,
             continue           # or the preview lies about what a real run does
-        body = humanize_boss_sms(raw, ask_for_decision=True) or raw[:900]
+        body = raw[:1200]   # sent verbatim; see the note above
         try:
             send_message({"id": ADVICE_CONTACT_ID, "phone": ADVICE_PHONE},
                          "sms", body)
