@@ -54,6 +54,31 @@
       "triaged_at": "2026-08-09T14:08:57Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipM4n4WKVGFuKUn1MVKplys60ZQgSNpxF2H2YMav": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipM4n4WKVGFuKUn1MVKplys60ZQgSNpxF2H2YMav.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786204636937/job-photos/posted/gbp-AF1QipM4n4WKVGFuKUn1MVKplys60ZQgSNpxF2H2YMav.jpg",
+      "width": 510,
+      "height": 338,
+      "bytes": 39879,
+      "sha1": "cf95191fb96e2b83",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Water-damaged room with exposed framing and wet flooring",
+      "quality": 62,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Clear water damage scene; useful for services card, not hero-worthy.",
+      "triaged_at": "2026-08-09T14:43:44Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipM667nOT4JBPn3EiDEuIiGqmb2LE80Hnk9WDsOM": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipM667nOT4JBPn3EiDEuIiGqmb2LE80Hnk9WDsOM.jpg",
@@ -184,6 +209,31 @@
       "flags": [],
       "reason": "Good close-up of moisture detection in action; portrait crop limits hero use.",
       "triaged_at": "2026-08-09T14:09:12Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMC0RgJ8DZxou9fv0cqcjxKJ_mZbTWXESM_wXPt": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMC0RgJ8DZxou9fv0cqcjxKJ_mZbTWXESM_wXPt.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786204636937/job-photos/posted/gbp-AF1QipMC0RgJ8DZxou9fv0cqcjxKJ_mZbTWXESM_wXPt.jpg",
+      "width": 510,
+      "height": 326,
+      "bytes": 31598,
+      "sha1": "a667de077cbefdec",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Ceiling with peeling paint and water stain damage",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 58
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Dated film-like quality; shows damage clearly but low production value.",
+      "triaged_at": "2026-08-09T14:43:44Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipMFA7Xjy8e3-A7UEFlipkLMeAXNOoUmf3J-alEl": {
@@ -1268,6 +1318,34 @@
       "triaged_at": "2026-08-09T14:10:48Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipOWtQ-0D5pBPMWqFB23_pG8Urqtm_34OvqN4LJw": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOWtQ-0D5pBPMWqFB23_pG8Urqtm_34OvqN4LJw.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786204636937/job-photos/posted/gbp-AF1QipOWtQ-0D5pBPMWqFB23_pG8Urqtm_34OvqN4LJw.jpg",
+      "width": 511,
+      "height": 340,
+      "bytes": 24618,
+      "sha1": "b1d0a628ce1d404d",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Collapsed ceiling with mold and water damage visible",
+      "quality": 68,
+      "slots": {
+        "hero": 12,
+        "team": 0,
+        "services": 72
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Clean, well-lit damage photo; slightly too polished, likely stock imagery.",
+      "triaged_at": "2026-08-09T14:43:44Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipOWtyvoAQLwEuVBPB7H48t9O1omTHdiI_kVyi8D": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipOWtyvoAQLwEuVBPB7H48t9O1omTHdiI_kVyi8D.jpg",
@@ -1505,6 +1583,33 @@
       "flags": [],
       "reason": "Clean finished cabinet detail; too tight a crop for hero, adequate for general contracting.",
       "triaged_at": "2026-08-09T14:11:19Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOmbdU74iUC8aEwBaMYulE1eFu6mClEPUCWMVFV": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOmbdU74iUC8aEwBaMYulE1eFu6mClEPUCWMVFV.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786204636937/job-photos/posted/gbp-AF1QipOmbdU74iUC8aEwBaMYulE1eFu6mClEPUCWMVFV.jpg",
+      "width": 510,
+      "height": 340,
+      "bytes": 34600,
+      "sha1": "bb732f4c69cda299",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Black air mover fan on hardwood floor near refrigerator",
+      "quality": 75,
+      "slots": {
+        "hero": 25,
+        "team": 0,
+        "services": 68
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Well-composed equipment shot; generic setting suggests stock photography.",
+      "triaged_at": "2026-08-09T14:43:44Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipOu6XEPxhfTXwsbVI7cH4nXhIAbeEiBaQriJucM": {
@@ -1776,6 +1881,33 @@
       ],
       "reason": "Action shot of worker mid-task; portrait crop limits hero use.",
       "triaged_at": "2026-08-09T14:11:33Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPNRnm7b2DeZkXufSIA3kx4UVBJnNQ9AzMx6o-7": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPNRnm7b2DeZkXufSIA3kx4UVBJnNQ9AzMx6o-7.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786204636937/job-photos/posted/gbp-AF1QipPNRnm7b2DeZkXufSIA3kx4UVBJnNQ9AzMx6o-7.jpg",
+      "width": 510,
+      "height": 340,
+      "bytes": 39959,
+      "sha1": "6db3903f3328c752",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Blue air mover placed against water-damaged baseboard wall",
+      "quality": 70,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 72
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Good equipment-in-context shot; clean composition suggests stock origin.",
+      "triaged_at": "2026-08-09T14:43:44Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipPRuEMEPUdR3G3xt-ajnI_sRGc_NRvAvfK34lUV": {
@@ -2150,5 +2282,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-08-09T14:12:12Z"
+  "triaged_at": "2026-08-09T14:43:44Z"
 }
