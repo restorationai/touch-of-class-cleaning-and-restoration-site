@@ -6857,6 +6857,74 @@ def propose_call_tasks(dry_run: bool, per_run: int = PROPOSALS_PER_RUN) -> list[
     return out
 
 
+# REPLY-TO-APPROVE (Santino 2026-08-09).
+#
+# Until now a reply was ACKNOWLEDGED but never IMPLEMENTED. He texted "Yes add
+# fire to go greens site", Monica said "Got it", filed a [FROM SANTINO] note,
+# marked it resolved — and the actual task stayed [TODO-PROPOSED], so nothing
+# built it. Acknowledged and implemented are different things and only the
+# first was wired.
+#
+# THE HARD CASE IS THE PARTIAL REPLY, which is why this is not a blanket flip.
+# His Go Green answer was a clean yes. His HomeLyft answer approved most of
+# seven tasks while cancelling one ("we're already past August 5th so we don't
+# need to send the AI reception set-up"). Flipping everything on that reply
+# would have approved the very task he had just cancelled.
+#
+# So: flip ALL only on an unmistakable blanket yes with no carve-out anywhere
+# in the sentence. Anything else stays put and comes back for itemising. The
+# cost of asking twice is a text; the cost of guessing is doing work the boss
+# just told us not to do.
+_APPROVE_ALL_RE = re.compile(
+    r"^\s*(yes|yep|yeah|yup|ok|okay|sure|approved?|go ahead|do it|do them|"
+    r"do them all|start|start on (them|these)|all good|sounds good|"
+    r"please do|go for it)\b", re.I)
+_CARVE_OUT_RE = re.compile(
+    r"\b(except|but not|don'?t|do not|skip|hold off|not the|no need|"
+    r"leave|other than|besides|apart from|instead|already)\b", re.I)
+
+
+def approval_verdict(reply: str) -> str:
+    """'all' | 'partial' | 'none' — what a reply authorises."""
+    r = (reply or "").strip()
+    if not r:
+        return "none"
+    if _CARVE_OUT_RE.search(r):
+        return "partial"          # something is being excluded; itemise it
+    if _APPROVE_ALL_RE.search(r):
+        return "all"
+    return "none"
+
+
+def apply_task_approval(company_id: str, reply: str, dry_run: bool) -> list[str]:
+    """Flip a company's [TODO-PROPOSED] notes to [DEV] when the reply says so."""
+    out: list[str] = []
+    verdict = approval_verdict(reply)
+    rows = _sb("GET", "/rest/v1/marketing_ops_notes?status=eq.open"
+               f"&company_id=eq.{urllib.parse.quote(company_id)}"
+               "&select=id,body") or []
+    proposed = [r for r in rows
+                if str(r.get("body") or "").startswith("[TODO-PROPOSED]")]
+    if not proposed:
+        return out
+    if verdict != "all":
+        out.append(f"{company_id}: reply is {verdict!r} — {len(proposed)} "
+                   "task(s) left proposed; needs itemising, not a blanket flip")
+        return out
+    for r in proposed:
+        body = str(r["body"]).replace("[TODO-PROPOSED]", "[DEV]", 1)
+        # The stale "WHY THIS NEEDS YOUR OK" block argues against the approval
+        # to whichever agent reads the note next. Strip it on conversion.
+        body = re.sub(r"WHY THIS NEEDS YOUR OK:.*?(?=\nORIGIN:)", "", body,
+                      flags=re.S)
+        if not dry_run:
+            _sb("PATCH", f"/rest/v1/marketing_ops_notes?id=eq.{r['id']}",
+                {"body": body})
+        out.append(f"{company_id}: approved -> [DEV]: "
+                   f"{body.splitlines()[1][:60] if len(body.splitlines())>1 else ''}")
+    return out
+
+
 def append_escalation(company: dict, msg: dict | None, reason: str,
                       dry_run: bool, ping: bool = False) -> None:
     """Append one escalation block. msg is the triggering inbound message when
@@ -7988,6 +8056,16 @@ def cmd_inbound(args) -> int:
                         "company_id": req["company_id"],
                         "body": f"[FROM SANTINO via SMS] {instr} "
                                 f"(answering: {req.get('reason', '')[:120]})"})
+                    # REPLY-TO-APPROVE. Filing the directive is not the same as
+                    # doing the work: his "Yes add fire to go greens site" was
+                    # acknowledged and the task stayed [TODO-PROPOSED], so
+                    # nothing built it. Convert on a blanket yes; a partial
+                    # reply is reported and left alone rather than approving
+                    # the task he just cancelled.
+                    if req.get("kind") == "task-proposal":
+                        for ln in apply_task_approval(
+                                req["company_id"], m.get("body", ""), dry_run=False):
+                            print(f"    [approve] {ln}")
                     # One answer settles EVERY open ask for that company —
                     # they're rewordings of the same underlying question.
                     stamp_ans = datetime.now(timezone.utc).isoformat()
@@ -8842,6 +8920,29 @@ def cmd_selfcheck(_args) -> int:
         ok = bool(got) == want_block
         fails += (not ok)
         print(f"  {'ok  ' if ok else 'FAIL'} blocked={str(bool(got)):<5} {draft[:56]!r}")
+    # ---- reply-to-approve: a blanket yes converts, a partial one does not --
+    print("\nreply-to-approve: only an unmistakable yes flips the tasks:")
+    approve_cases = [
+        ("Yes add fire to go greens site", "all"),
+        ("yes", "all"),
+        ("Go ahead", "all"),
+        ("do them all", "all"),
+        # ...the HomeLyft reply. Approves most, cancels one. A blanket flip
+        # here would have approved the exact task he just cancelled.
+        ("We're already past August 5th so we don't need to send the AI "
+         "reception set-up to Josiah.", "partial"),
+        ("Yes but not the customer list one", "partial"),
+        ("Do these except the last one", "partial"),
+        # ...and a question is not an approval at all.
+        ("What was the date that the calendar invite is supposed to be for?", "none"),
+        ("", "none"),
+    ]
+    for reply, want in approve_cases:
+        got = approval_verdict(reply)
+        ok = got == want
+        fails += (not ok)
+        print(f"  {'ok  ' if ok else 'FAIL'} {got:<8} (want {want:<8}) {reply[:46]!r}")
+
     softened = [
         ("Tap Upload Photos and add it from your phone.",
          "Click Upload Photos and add it from your phone or computer."),
