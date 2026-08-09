@@ -37,177 +37,58 @@
     {
       "city": "Worcester",
       "state": "MA",
-      "slug": "worcester-ma",
-      "neighborhoods": [
-        "Main South",
-        "Tatnuck",
-        "Greendale",
-        "Burncoat",
-        "Quinsigamond Village",
-        "Vernon Hill",
-        "Grafton Hill",
-        "Webster Square",
-        "Canal District"
-      ],
-      "landmarks": [
-        "Polar Park",
-        "DCU Center",
-        "Worcester Common",
-        "Union Station",
-        "Elm Park",
-        "Green Hill Park",
-        "Lake Quinsigamond",
-        "Kelley Square"
-      ],
-      "zip_codes": [
-        "01602",
-        "01603",
-        "01604",
-        "01605",
-        "01606",
-        "01607",
-        "01608",
-        "01609",
-        "01610"
-      ],
-      "local_notes": "Second-largest city in New England, ten minutes up Route 12/I-290 from Auburn. Dense triple-decker housing stock from the 1890s-1920s with flat roofs, aging cast-iron drains, and multi-unit plumbing risers; mill-conversion lofts in the Canal District; steep hills and hard freezes drive burst-pipe and ice-dam calls; low-lying blocks near the Middle River and Quinsigamond Village see groundwater in basements."
+      "slug": "worcester-ma"
     },
     {
       "city": "Shrewsbury",
       "state": "MA",
-      "slug": "shrewsbury-ma",
-      "neighborhoods": [
-        "Edgemere",
-        "White City area",
-        "Town Center",
-        "Lake Quinsigamond shoreline"
-      ],
-      "landmarks": [
-        "Lake Quinsigamond",
-        "White City Shopping Center",
-        "Dean Park",
-        "Route 9 corridor"
-      ],
-      "zip_codes": [
-        "01545",
-        "01546"
-      ],
-      "local_notes": "Across Lake Quinsigamond from Worcester via the Route 9 Kenneth F. Burns bridge. Postwar capes and ranches plus newer subdivisions; lakefront homes with walk-out basements close to the water table; heavy Route 9 commercial corridor; town runs its own electric utility (SELCO)."
+      "slug": "shrewsbury-ma"
     },
     {
-      "city": "Millbury",
+      "city": "Westborough",
       "state": "MA",
-      "slug": "millbury-ma",
-      "neighborhoods": [
-        "Bramanville",
-        "West Millbury",
-        "Millbury Center"
-      ],
-      "landmarks": [
-        "The Shoppes at Blackstone Valley",
-        "Asa Waters Mansion",
-        "Blackstone River",
-        "Lake Singletary"
-      ],
-      "zip_codes": [
-        "01527",
-        "01586"
-      ],
-      "local_notes": "Directly east of Auburn on Route 20/146. Nineteenth-century mill town on the Blackstone River; older wood-frame homes near the river and canal with stone foundations that seep during spring runoff; newer retail growth around Route 146 and The Shoppes at Blackstone Valley; lake homes on Singletary."
+      "slug": "westborough-ma"
     },
     {
-      "city": "Grafton",
+      "city": "Southborough",
       "state": "MA",
-      "slug": "grafton-ma",
-      "neighborhoods": [
-        "North Grafton",
-        "South Grafton",
-        "Grafton Center",
-        "Fisherville",
-        "Farnumsville"
-      ],
-      "landmarks": [
-        "Grafton Common",
-        "Cummings School of Veterinary Medicine at Tufts",
-        "Grafton MBTA commuter rail station",
-        "Willard House and Clock Museum",
-        "Blackstone River"
-      ],
-      "zip_codes": [
-        "01519",
-        "01536",
-        "01560"
-      ],
-      "local_notes": "Three villages (Grafton Center, North Grafton, South Grafton) with distinct housing: 18th and 19th-century homes around the Common with fieldstone foundations, mill-village stock in Fisherville and Farnumsville along the Quinsigamond and Blackstone rivers, and newer commuter subdivisions near the MBTA station."
+      "slug": "southborough-ma"
     },
     {
-      "city": "Leicester",
+      "city": "Hopkinton",
       "state": "MA",
-      "slug": "leicester-ma",
-      "neighborhoods": [
-        "Cherry Valley",
-        "Rochdale",
-        "Greenville",
-        "Leicester Center"
-      ],
-      "landmarks": [
-        "Leicester Town Common",
-        "Stiles Reservoir",
-        "Lake Sargent",
-        "Route 9"
-      ],
-      "zip_codes": [
-        "01524",
-        "01542",
-        "01611"
-      ],
-      "local_notes": "Hilltop town directly west of Worcester on Route 9, sitting near 1,000 feet elevation - freezes come earlier and run deeper than in the valley. Village housing in Cherry Valley and Rochdale grew around 19th-century mill sites; seasonal and year-round homes ring Stiles Reservoir and Lake Sargent; many properties on private wells and septic."
+      "slug": "hopkinton-ma"
     },
     {
-      "city": "Oxford",
+      "city": "Framingham",
       "state": "MA",
-      "slug": "oxford-ma",
-      "neighborhoods": [
-        "North Oxford",
-        "Oxford Center",
-        "Texas Village"
-      ],
-      "landmarks": [
-        "Hodges Village Dam",
-        "Buffumville Lake",
-        "Clara Barton Birthplace Museum",
-        "French River",
-        "I-395 and Route 12 corridor"
-      ],
-      "zip_codes": [
-        "01540",
-        "01537"
-      ],
-      "local_notes": "South of Auburn along Route 12 and I-395. The French River runs the length of town - the Hodges Village and Buffumville flood-control dams exist because this valley historically flooded, and low-lying homes near the river still fight wet basements; housing mix of postwar capes, village two-families, and newer subdivisions."
+      "slug": "framingham-ma"
     },
     {
-      "city": "Sutton",
+      "city": "Natick",
       "state": "MA",
-      "slug": "sutton-ma",
-      "neighborhoods": [
-        "Manchaug",
-        "Wilkinsonville",
-        "West Sutton",
-        "South Sutton",
-        "Sutton Center"
-      ],
-      "landmarks": [
-        "Purgatory Chasm State Reservation",
-        "Lake Singletary",
-        "Manchaug Pond",
-        "Route 146",
-        "Pleasant Valley Country Club"
-      ],
-      "zip_codes": [
-        "01590",
-        "01526"
-      ],
-      "local_notes": "Rural town southeast of Auburn off Route 146, built over the same granite ledge exposed at Purgatory Chasm - foundations poured against ledge shed water into basements and sump systems work hard in spring. Lake homes on Singletary and Manchaug Pond, historic mill village housing in Manchaug and Wilkinsonville, and most of town on private wells and septic."
+      "slug": "natick-ma"
+    },
+    {
+      "city": "Wellesley",
+      "state": "MA",
+      "slug": "wellesley-ma"
+    },
+    {
+      "city": "Needham",
+      "state": "MA",
+      "slug": "needham-ma"
+    },
+    {
+      "city": "Newton",
+      "state": "MA",
+      "slug": "newton-ma"
+    },
+    {
+      "city": "Weston",
+      "state": "MA",
+      "slug": "weston-ma"
     }
-  ]
+  ],
+  "service_radius_description": "Southern New England, with crews responding across a 50 mile radius of Auburn"
 }
