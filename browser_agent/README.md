@@ -50,3 +50,26 @@ One chassis owns the safety machinery; each portal task is a thin playbook.
 5. apple_maps     — Business Connect agency claims (verification review due
                     ~Aug 8; API worth testing once approved)
 6. lsa_portal     — job-type enrollment toggles + license/insurance doc submission
+7. onlinejobs_ph  — hiring: screens applicants on a job post and answers them.
+                    Reads via the SPA's own JSON API (the UI list is virtualized
+                    and walking it costs ~30s per stale row); writes through the
+                    real Trix editor + SEND MESSAGE button. Rubric and copy live
+                    in playbooks/onlinejobs_ph_config.json, never in the .py.
+
+## onlinejobs_ph notes
+- Session host is `v2.onlinejobs.ph`. `www.onlinejobs.ph` is a separate,
+  logged-out origin; a link followed onto www lands on the login page.
+- Login is done ONCE by a human into the persistent profile. Automated form
+  submission was silently rejected (POST to /authenticate bounced back to
+  /login with no error), so do not build a login path here.
+- Dedupe is ground truth, not bookkeeping: a thread's messages carry their
+  sender, and our contact id is `thread.contacts` minus the applicant's. If the
+  thread already holds a message from us, the applicant is skipped, which also
+  covers replies Santino sent by hand.
+- The API rate-limits under a fast loop. 429s are retried with backoff; an
+  applicant that still cannot be read is NAMED in a warning, never silently
+  dropped, because a dropped applicant is one who never gets contacted.
+
+    python3 -m browser_agent.playbooks.onlinejobs_ph --harvest-only   # scrape only
+    python3 -m browser_agent.playbooks.onlinejobs_ph                  # score, write review
+    python3 -m browser_agent.playbooks.onlinejobs_ph --live --only shortlist

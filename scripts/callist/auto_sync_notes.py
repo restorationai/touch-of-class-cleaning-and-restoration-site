@@ -17,7 +17,7 @@ import os, re, json, requests
 from _http import HTTP
 from datetime import date, datetime
 
-BASE_DIR  = os.path.expanduser("~/restoration-ai")
+BASE_DIR  = os.environ.get("RAI_BASE") or os.path.expanduser("~/restoration-ai")
 LOG_FILE  = os.path.join(BASE_DIR, "auto_sync_notes.log")
 PAGE_FILE = os.path.join(BASE_DIR, "notion_page_id.txt")
 SYNC_FILE = os.path.join(BASE_DIR, "synced_notes.json")
@@ -41,22 +41,17 @@ GHL_HEADERS     = {
 }
 
 def _notion_token():
-    # Single source of truth: the token embedded in the daily-call-list script,
-    # with a fallback to the rank-ai repo .env.
-    try:
-        src = open(os.path.join(BASE_DIR, "workflows", "auto_daily_call_list.py"), encoding="utf-8").read()
-        m = re.search(r'NOTION_TOKEN\s*=\s*"(ntn_[A-Za-z0-9]+)"', src)
-        if m:
-            return m.group(1)
-    except Exception:
-        pass
-    try:
-        for line in open("/Users/santino/restoration-ai/.env", encoding="utf-8"):
-            if line.strip().startswith("NOTION_TOKEN="):
-                return line.strip().split("=", 1)[1]
-    except Exception:
-        pass
-    return ""
+    """Single source of truth: auto_daily_call_list.NOTION_TOKEN (env first, then
+    the embedded literal).
+
+    This used to scrape the token out of `{BASE_DIR}/workflows/auto_daily_call_list.py`
+    on disk. That path only ever existed on Santino's Mac, so after the Railway
+    migration this returned "" and EVERY Notion read 401'd — the note sync and
+    apply_moves silently did nothing while the morning repaint still wiped the
+    page, destroying every note written that day (found 2026-08-04).
+    """
+    from auto_daily_call_list import NOTION_TOKEN as _tok
+    return _tok
 
 NOTION_TOKEN   = _notion_token()
 NOTION_HEADERS = {

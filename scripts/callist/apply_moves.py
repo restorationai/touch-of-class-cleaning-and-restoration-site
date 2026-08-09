@@ -34,13 +34,16 @@ def log(msg):
     with open(LOG_FILE, "a") as f: f.write(line + "\n")
 
 def notion_token():
-    try:
-        src = open(os.path.join(BASE_DIR, "workflows", "auto_daily_call_list.py"), encoding="utf-8").read()
-        m = re.search(r'NOTION_TOKEN\s*=\s*"(ntn_[A-Za-z0-9]+)"', src)
-        if m: return m.group(1)
-    except Exception:
-        pass
-    return ""
+    """Single source of truth: auto_daily_call_list.NOTION_TOKEN (env first, then
+    the embedded literal).
+
+    This used to scrape the token out of `{BASE_DIR}/workflows/auto_daily_call_list.py`
+    on disk — a path that only existed on Santino's Mac. On Railway it returned ""
+    and every Notion read 401'd, so NO written "✍️ Your call" decision was ever
+    applied; the morning repaint then wiped them (found 2026-08-04).
+    """
+    from auto_daily_call_list import NOTION_TOKEN as _tok
+    return _tok
 NOTION_HEADERS = {"Authorization": f"Bearer {notion_token()}", "Notion-Version": "2022-06-28",
                   "Content-Type": "application/json"}
 

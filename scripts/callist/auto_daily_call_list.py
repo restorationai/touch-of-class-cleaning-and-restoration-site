@@ -117,10 +117,30 @@ def next_weekday_on_or_after(ref_date, weekday_idx):
         days_ahead += 7
     return ref_date + timedelta(days=days_ahead)
 
+# Words that mean "I intend to contact them then". A date is only treated as a
+# follow-up date when it sits in a sentence that ALSO shows contact intent.
+INTENT_RE = (r'\b(call|text|follow|reach|try|ring|schedule|re-?schedul\w*|meet|talk|demo|'
+             r'book\w*|appointment|revisit|touch base|check in)\w*\b')
+# ...and never when the date is plainly about something else. A note reading
+# "Domain expires November 1, 2026" hid Jack Bispo (an ACTIVE client) from the
+# call list for three months (found 2026-08-04).
+NOT_A_FOLLOWUP_RE = re.compile(
+    r'\b(expire\w*|renew\w*|due|contract|license|licence|insurance|invoice|'
+    r'billing|paid|payment|warrant\w*|registered|registration)\b', re.IGNORECASE)
+
+
 def parse_target_date(note_body, note_date_str, today):
     body = note_body.lower()
     for month_name, month_num in MONTHS_MAP.items():
-        m = re.search(rf'\b{month_name}\s+(\d{{1,2}})(?:st|nd|rd|th)?\b', body)
+        m = None
+        for sentence in re.split(r'[.!?\n]', body):
+            hit = re.search(rf'\b{month_name}\s+(\d{{1,2}})(?:st|nd|rd|th)?\b', sentence)
+            # Same rule the weekday branch below already uses: a bare date is a
+            # PAST/incidental reference; only a date in a sentence that shows
+            # intent to reach out defers the contact.
+            if hit and re.search(INTENT_RE, sentence) and not NOT_A_FOLLOWUP_RE.search(sentence):
+                m = hit
+                break
         if m:
             day = int(m.group(1))
             try:
@@ -142,14 +162,14 @@ def parse_target_date(note_body, note_date_str, today):
             return date.fromisoformat(note_date_str) + timedelta(days=1)
         except ValueError:
             pass
-    INTENT_RE = r'\b(call|text|follow|reach|try|ring|schedule|meet|talk|demo|touch base|check in)\w*\b'
     for i, day_name in enumerate(WEEKDAYS):
         if note_date_str:
             for sentence in re.split(r'[.!?\n]', body):
                 # A bare weekday ("was unavailable on Monday") is a PAST
                 # reference; only defer when the same sentence shows intent
                 # to reach out that day ("call him back Tuesday").
-                if re.search(rf'\b{day_name}\b', sentence) and re.search(INTENT_RE, sentence):
+                if (re.search(rf'\b{day_name}\b', sentence) and re.search(INTENT_RE, sentence)
+                        and not NOT_A_FOLLOWUP_RE.search(sentence)):
                     try:
                         note_date = date.fromisoformat(note_date_str)
                         return next_weekday_on_or_after(note_date + timedelta(days=1), i)
@@ -256,6 +276,11 @@ def call_decision(contact, today):
         return False, "removed (do-not-call list)"
     if is_removed(contact.get('notes', '')):
         return False, "removed (do-not-call note)"
+    # Already signed: never put a paying client on the SALES call list just because
+    # their old Sales-pipeline opp was never closed out.
+    if contact.get('_section') != 'Secured Clients' \
+            and contact.get('contact_id') in secured_client_ids():
+        return False, "already a client (open deal in Secured Clients — close the sales opp)"
     note_body = contact.get('latest_note_body', '')
     note_date = contact.get('latest_note_date', '')
     if not note_body:
@@ -299,18 +324,34 @@ def should_call_today(contact, today):
 HIDDEN_TODAY = []   # (name, company, reason) collected by filter_for_today
 EXTRA_HIDDEN = []   # (name, company, reason) injected by the pipeline (e.g. Waiting-stage
                     # contacts with NO follow-up date — otherwise invisible forever)
+DUPE_NAMES   = []   # (name, [contact_ids]) — same person under two GHL contact records.
+                    # Not suppressed (two people CAN share a name); flagged so the
+                    # duplicate gets merged in the CRM instead of called twice.
 
 def filter_for_today(results, today):
     HIDDEN_TODAY.clear()
     HIDDEN_TODAY.extend(EXTRA_HIDDEN)
     filtered = {}
-    for label, stages in results.items():
+    seen_cids = set()   # one card per PERSON — Virgil Jensen was printed twice
+                        # (duplicate GHL opps in New Leads + Ready For Follow Up)
+    for label in LABEL_ORDER:
+        stages = results.get(label)
+        if not stages:
+            continue
         filtered_stages = {}
         for stage_name, contacts in stages.items():
             kept = []
             for c in contacts:
+                cid = c.get('contact_id')
+                if cid and cid in seen_cids:
+                    HIDDEN_TODAY.append((c.get('name', '?'), c.get('company', ''),
+                                         f"duplicate card (already listed above) — merge the "
+                                         f"extra {label} opp in GHL"))
+                    continue
                 ok, why = call_decision(c, today)
                 if ok:
+                    if cid:
+                        seen_cids.add(cid)
                     kept.append(c)
                 elif why and "removed" not in why:
                     HIDDEN_TODAY.append((c.get('name', '?'), c.get('company', ''), why))
@@ -318,13 +359,68 @@ def filter_for_today(results, today):
                 filtered_stages[stage_name] = kept
         if filtered_stages:
             filtered[label] = filtered_stages
+
+    # Same person under two different GHL contact records (Virgil Jensen was on
+    # the list twice under a typo'd phone AND a typo'd email, 2026-08-04).
+    DUPE_NAMES.clear()
+    by_name = {}
+    for stages in filtered.values():
+        for cs in stages.values():
+            for c in cs:
+                by_name.setdefault((c.get('name') or '').strip().lower(), []).append(c)
+    for nm, cs in by_name.items():
+        if nm and len(cs) > 1:
+            DUPE_NAMES.append((cs[0].get('name', '?'),
+                               [c.get('contact_id') for c in cs]))
     return filtered
 
 def get_opps(pipeline_id, stage_id):
-    params = {'location_id': GHL_LOCATION_ID, 'pipeline_id': pipeline_id, 'status': 'open', 'limit': 50}
-    if stage_id: params['pipeline_stage_id'] = stage_id
-    r = HTTP.get(f'{GHL_BASE_URL}/opportunities/search', headers=GHL_HEADERS, params=params)
-    return r.json().get('opportunities', [])
+    """All open opps in a stage. Paginates — the old single limit=50 call silently
+    dropped everyone past the 50th person in a stage once it grew."""
+    out, page = [], 1
+    while True:
+        params = {'location_id': GHL_LOCATION_ID, 'pipeline_id': pipeline_id,
+                  'status': 'open', 'limit': 100, 'page': page}
+        if stage_id: params['pipeline_stage_id'] = stage_id
+        r = HTTP.get(f'{GHL_BASE_URL}/opportunities/search', headers=GHL_HEADERS, params=params)
+        if r.status_code != 200:
+            break
+        batch = r.json().get('opportunities', [])
+        out += batch
+        if len(batch) < 100:
+            break
+        page += 1
+    return out
+
+
+SECURED_PIPELINE_ID = "OP4aWjh91AfikmEYKDHk"
+# The one Secured-Clients stage that is legitimately a CALL stage (its own section
+# on the page). Everything else in that pipeline means "already a paying client".
+SECURED_CALL_STAGE_ID = "892dfc0e-cec3-4b43-8a6e-0805348ee723"
+
+_SECURED_CIDS = None
+
+def secured_client_ids():
+    """Contact ids with an OPEN opportunity anywhere in the Secured Clients
+    pipeline other than its own call stage — i.e. people who already signed.
+
+    They were showing up on the sales sections of the call list because their
+    OLD Sales-pipeline opp was never closed when they signed (Michael Oren and
+    Jack Bispo both sat in Sales/Closing while live clients, 2026-08-04)."""
+    global _SECURED_CIDS
+    if _SECURED_CIDS is None:
+        ids = set()
+        try:
+            for opp in get_opps(SECURED_PIPELINE_ID, None):
+                if opp.get('pipelineStageId') == SECURED_CALL_STAGE_ID:
+                    continue
+                cid = (opp.get('contact') or {}).get('id')
+                if cid:
+                    ids.add(cid)
+        except Exception as e:
+            log(f"[secured-guard] lookup failed, not filtering: {e}")
+        _SECURED_CIDS = ids
+    return _SECURED_CIDS
 
 def get_notes(contact_id):
     r = HTTP.get(f'{GHL_BASE_URL}/contacts/{contact_id}/notes', headers=GHL_HEADERS)
@@ -407,6 +503,7 @@ def pull_contacts():
             tz = get_tz(c)
             contacts.append({
                 'name':             c.get('name', 'No name'),
+                '_section':         stage['label'],
                 'company':          c.get('companyName') or opp.get('name', ''),
                 'phone':            c.get('phone', 'No phone'),
                 'contact_id':       cid,
@@ -708,6 +805,12 @@ def suggestion_blocks(today_str_key):
     if not sugg:
         return []
     PRI = {"high": "🔴", "medium": "🟡", "low": "🔵"}
+    # Existing paying clients get their own block. Two thirds of the suggestion
+    # list was live clients mixed in with sales leads, which is why the page read
+    # as "my call list is full of people who already signed" (2026-08-04).
+    secured = secured_client_ids()
+    client_sugg = [s for s in sugg if s.get("contact_id") in secured]
+    sugg   = [s for s in sugg if s.get("contact_id") not in secured]
     follow = [s for s in sugg if s.get("action") != "cooloff"]   # 🔴/🟡 — need a real decision
     cool   = [s for s in sugg if s.get("action") == "cooloff"]   # 🔵 — dead-air, bulk-park
 
@@ -760,6 +863,33 @@ def suggestion_blocks(today_str_key):
         blocks.append({"object": "block", "type": "toggle", "toggle": {
             "rich_text": [{"type": "text", "text": {"content":
                 f"🔵 Cool-off suggestions ({len(cool)}) — expand to park or call each"}}],
+            "children": children}})
+
+    # 👤 Existing clients — account housekeeping, never sales. Kept in their own
+    # collapsed block so the sales sections above stay pure prospects.
+    if client_sugg:
+        CAP = 18
+        children = [make_text_block('These are people who ALREADY SIGNED. Nothing here is a sales '
+                    'call — it is account housekeeping (kickoff not booked, gone quiet in trial). '
+                    'Write your call under each: "approve" · "remove from list" · "drop him".',
+                    color="gray")]
+        for s in client_sugg[:CAP]:
+            head = f"👤 {s.get('name','?')}"
+            if s.get("company"): head += f" · {s['company']}"
+            children.append(make_text_block(f"move-ref:{s.get('opp_id','')}", color="gray"))
+            children.append({"object": "block", "type": "paragraph", "paragraph": {"rich_text": [
+                {"type": "text", "text": {"content": head}, "annotations": {"bold": True}}]}})
+            children.append(make_text_block(
+                f"{s.get('current_pipeline')} / {s.get('current_stage')}  ·  {s.get('reason','')}",
+                color="gray"))
+            children.append({"object": "block", "type": "paragraph", "paragraph": {"rich_text": [
+                {"type": "text", "text": {"content": "✍️ Your call: "}, "annotations": {"bold": True}}]}})
+            children.append(make_text_block(""))
+        if len(client_sugg) > CAP:
+            children.append(make_text_block(f"+{len(client_sugg)-CAP} more.", color="gray"))
+        blocks.append({"object": "block", "type": "toggle", "toggle": {
+            "rich_text": [{"type": "text", "text": {"content":
+                f"👤 Existing clients ({len(client_sugg)}) — account housekeeping, NOT sales calls"}}],
             "children": children}})
     blocks.append(make_divider())
     return blocks
@@ -843,6 +973,13 @@ def build_blocks(results, today_str_display, total):
         for nm, co, why in HIDDEN_TODAY[:25]:
             label_txt = f"{nm}" + (f" ({co})" if co else "") + f" — {why}"
             blocks.append(make_text_block(label_txt, color="gray"))
+    if DUPE_NAMES:
+        blocks.append(make_heading(f"👯 Duplicate contacts ({len(DUPE_NAMES)}) — merge these in GHL", level=2))
+        for nm, cids in DUPE_NAMES[:15]:
+            blocks.append(make_text_block(
+                f"{nm} appears on today's list {len(cids)}x under separate contact records "
+                f"({', '.join(c or '?' for c in cids)}). Merge them in GHL so they stop being "
+                f"called twice.", color="gray"))
     monica = monica_activity_blocks()
     if monica:
         blocks.append(make_heading(f"🤖 Monica (client concierge) — last 24h", level=2))

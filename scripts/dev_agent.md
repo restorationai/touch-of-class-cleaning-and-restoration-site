@@ -14,7 +14,12 @@ person is waiting on the other end of each one. See "Client-feedback tasks".
 
 1. `python3 scripts/dev_inbox.py list` — your inbox. Each item has the client
    slug, a task description, and `origin` (non-null = it came from a client's
-   own words). Work OLDEST FIRST. Do at most 3 tasks per run.
+   own words). Work OLDEST FIRST. Do at most 5 tasks PER CLIENT per run.
+   (Santino 2026-08-09, raised from 3 GLOBAL. The old cap was a total
+   across the whole fleet, so on 08-08 five tasks were queued, three ran,
+   and Greg's zipper fix plus Jerrott's sky waited a second night behind
+   two Go Green items. Per-client means one busy client can no longer
+   starve everyone else.)
 2. TRIAGE FIRST (Santino 2026-08-02: Approve = machine-always — approved
    [TODO-PROPOSED] notes also become [DEV], so the inbox now contains tasks
    that were never meant for a machine). Before doing anything, decide: is
