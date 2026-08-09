@@ -22,6 +22,23 @@ Source: GHL call recording (not Fathom, this was a cell call). 367s.
 - **Gold is CLOSED**: *"the colors definitely look better. They definitely
   match a lot better."* `#f2b623` accepted.
 - **Go-live is gated on his explicit sign-off.**
+
+## 2026-08-09 — dev agent — white-background logo corrected (client feedback: Jerrott)
+- Jerrott (client feedback, conf=high): "The logo on the white still needs to
+  be corrected. I emailed the logo for a white back round."
+- Root cause: the footer is `bg-white` but rendered `brand.logoUrl`
+  (/images/logo.png = gold shield + WHITE wordmark on transparent), so the
+  wordmark was invisible on white and only the shield showed. Header, About and
+  the LP layout are all dark/navy backgrounds, where logo.png reads correctly —
+  they were left untouched.
+- Fix: pulled the file he emailed (email-intake bucket
+  CO-1785771354136/19fd8a28680b3544/"Reign Restoration - Icon - White- BG.jpg"),
+  trimmed the empty white canvas, saved faithfully (no recolour) as
+  `public/images/logo-light-bg.png`, and pointed the Footer <img> at it.
+- REGEN NOTE: this is a per-site component edit (Footer.astro) + a static asset;
+  a full re-scaffold (copy_starter) would overwrite Footer.astro and revert the
+  swap. If the starter footer ever needs the light-bg logo by default, that is a
+  starter-template change, not a per-client one.
 - Monica stays gagged. Jerrott's EMAIL was still on `CONCIERGE_ALLOWLIST` even
   though his phone had been removed; removed locally. The GitHub Actions
   secret still needs the same edit — see the report.

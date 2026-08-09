@@ -11,9 +11,10 @@ const year = new Date().getFullYear();
 <footer class="bg-white text-navy-900 pt-24 pb-12 mt-0">
   <div class="container-wide grid gap-12 lg:grid-cols-12">
     <div class="lg:col-span-4">
-      {brand.logoUrl && (
-        <img src={brand.logoUrl} alt={`${brand.displayName} logo`} class="h-16 md:h-20 w-auto mb-6" width="48" height="48" loading="lazy" />
-      )}
+      {/* Footer sits on bg-white; brand.logoUrl is the white-wordmark mark built
+          for the dark header and vanishes on white. Use the white-background icon
+          Jerrott emailed (2026-08-08). */}
+      <img src="/images/logo-light-bg.png" alt={`${brand.displayName} logo`} class="h-16 md:h-20 w-auto mb-6" width="69" height="80" loading="lazy" />
       <div class="font-display text-2xl font-black tracking-tight text-navy-900">{brand.displayName}</div>
       <p class="mt-4 text-navy-900/70 text-sm leading-relaxed mb-0">{brand.tagline}</p>
       <address class="not-italic mt-6 text-sm text-navy-900/80 leading-relaxed">
