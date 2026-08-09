@@ -5,10 +5,10 @@
 export const brand = {
   slug: "go-green-restoration-of-nc",
   displayName: "Go Green Restoration of NC",
-  shortName: "Go Green Restoration of NC",
+  shortName: "Go Green Restoration",
   legalName: "Go Green Restoration of NC",
-  domain: "",
-  canonicalUrl: "https://None",
+  domain: "gogreenrestorationofnc.com",
+  canonicalUrl: "https://gogreenrestorationofnc.com",
   phone: "(919) 906-5473",
   phoneRaw: "+19199065473",
   email: "gogreenrestorationofnc@gmail.com",

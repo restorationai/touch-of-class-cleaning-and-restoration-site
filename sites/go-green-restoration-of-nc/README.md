@@ -25,9 +25,9 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | Token | Source | Example |
 | --- | --- | --- |
 | `go-green-restoration-of-nc` | client record `slug` | `narestco` |
-| `Go agree Restoration of NC` | plan-input `brand.display_name` | `National Restoration Construction` |
-| `Go agree Restoration of NC` | plan-input `brand.short_name` | `NARESTCO` |
-| `Go agree Restoration of NC` | plan-input `brand.legal_name` | `National Restoration Construction LLC` |
+| `Go Green Restoration of NC` | plan-input `brand.display_name` | `National Restoration Construction` |
+| `Go Green Restoration of NC` | plan-input `brand.short_name` | `NARESTCO` |
+| `Go Green Restoration of NC` | plan-input `brand.legal_name` | `National Restoration Construction LLC` |
 | `` | client record `domain` | `narestco.com` |
 | `https://None` | derived | `https://narestco.com` |
 | `(919) 906-5473` / `+19199065473` | brand.phone | `(206) 883-0333` / `+12068830333` |

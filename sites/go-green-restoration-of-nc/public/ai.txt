@@ -30,8 +30,8 @@ User-agent: Bytespider
 Disallow: /
 
 # AI training data summary
-# Site: https://None/
-# Maintainer: Go agree Restoration of NC
+# Site: https://gogreenrestorationofnc.com/
+# Maintainer: Go Green Restoration of NC
 # Contact: gogreenrestorationofnc@gmail.com
-# Sitemap: https://None/sitemap-index.xml
-# LLM index: https://None/llms.txt
+# Sitemap: https://gogreenrestorationofnc.com/sitemap-index.xml
+# LLM index: https://gogreenrestorationofnc.com/llms.txt

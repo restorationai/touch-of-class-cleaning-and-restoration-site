@@ -30,8 +30,8 @@ User-agent: Bytespider
 Disallow: /
 
 # AI training data summary
-# Site: https://None/
+# Site: https://crew3r.com/
 # Maintainer: Crew Restoration & Construction
 # Contact: estimates@crewthatcares.com
-# Sitemap: https://None/sitemap-index.xml
-# LLM index: https://None/llms.txt
+# Sitemap: https://crew3r.com/sitemap-index.xml
+# LLM index: https://crew3r.com/llms.txt
