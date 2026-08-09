@@ -40,7 +40,26 @@ export const brand = {
   licensedInsuredAttested: false as boolean,
   certifications: [] as string[],
   trustBadges: [] as string[],
-  jobPhotos: [] as string[],
+  // Real job photos for the "Recent Work" gallery, curated from the client's
+  // own uploads (branding/{cid}/job-photos) via the photo-manifest.json triage:
+  // quality>=55, junk categories (unusable/graphic/logo/document) and flags
+  // (screenshot/duplicate/blurry) excluded, ranked best-first. See ops-journal
+  // 2026-08-09 — the raw newest-first supabase feed led with a black-screen
+  // screenshot + a plain green-circle graphic, so this list is curated.
+  jobPhotos: [
+    "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/posted/gbp-AF1QipOhdTDQmKo9WpY345XanRSLxFP4kyjCZBolowDY.jpg",
+    "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-11.jpg",
+    "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-10.jpg",
+    "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-22.jpg",
+    "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-5.jpg",
+    "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/posted/gbp-AF1QipPpuk8I5lPU4zV-bUk4hibXtzL_GNKogR_w-6nb.jpg",
+    "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-23.jpg",
+    "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-32.jpg",
+    "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-8.jpg",
+    "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/posted/gbp-AF1QipNQs2xyRb6PFeIpZjRVuCngBdxF9NcJVK9x9d6t.jpg",
+    "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-14.jpg",
+    "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-49.jpg",
+  ] as string[],
   sameAsUrls: [] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
