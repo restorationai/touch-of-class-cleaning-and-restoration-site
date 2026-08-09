@@ -2,7 +2,7 @@
 archetype: "contact"
 title: "Contact PuroClean of East Las Vegas | Restoration in Las Vegas"
 h1: "Contact PuroClean of East Las Vegas"
-meta_description: "Call +17025513040 for restoration services in Las Vegas and surrounding areas. Free estimates. Direct insurance billing."
+meta_description: "Call +17025513040 for restoration services in Las Vegas and surrounding areas. Free assessments. Direct insurance billing."
 primary_keyword: "puroclean of east las vegas contact"
 secondary_keywords: ["restoration company contact"]
 search_intent: "navigational_action"
