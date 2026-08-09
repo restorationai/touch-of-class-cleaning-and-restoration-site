@@ -1,5 +1,5 @@
 {
-  "cursor": "2026-08-08T14:31:12Z",
+  "cursor": "2026-08-09T14:00:57Z",
   "processed_intake_ids": [
     "fc44dd89-d909-44f9-93f6-794f847caf15",
     "6b16a3b8-90f1-4cdc-bb25-93335099c603",
@@ -32,7 +32,35 @@
     "3b4307e9-63f2-459e-bd92-e85e74ca78ac",
     "a6f4859d-c3a1-4b7c-9e2c-d2483ea2af2c",
     "fa0cd922-e8f9-4aa8-8f49-0fe78d3bb2aa",
-    "77aefa24-e483-4370-84af-ea545987d362"
+    "77aefa24-e483-4370-84af-ea545987d362",
+    "274171a5-18d1-46f7-82ac-7f7e38c78e83",
+    "90093b98-53fe-463a-83f4-1fcb10205b2f",
+    "46b7a430-02f5-4b67-b6bc-377a36ebf587",
+    "0a553725-930f-4f09-90a6-0e158b4493be",
+    "e55db27e-de94-4a6d-84ea-a524475ef2b5",
+    "ec6cd660-02ff-465d-adc5-d4409c3e184d",
+    "beaf6942-430a-41f2-ada9-7a9373bc46a7",
+    "69d3c799-6152-4e52-b3aa-786c17c06a10",
+    "99fafa3d-a3e7-4189-b9e6-04d9bb877c80",
+    "a965f7bb-60d0-43b6-ba17-93f1280984d6",
+    "b4c2c5c1-31fa-42c5-a610-d66b42b969c5",
+    "d4e6cb47-0a5e-4f21-a300-cfdcba63bcb9",
+    "c46a3b3f-d188-4e1f-8cc8-293d751509f2",
+    "882239b9-ed0d-455d-98a5-71971675534f",
+    "c72aaab1-7843-48f6-b08b-29c775f04a68",
+    "ecce10c2-3093-47ca-839c-0de2c7982107",
+    "2ce60dd6-e00c-4901-90c1-acd53718b86f",
+    "4d487d87-6afd-42e6-b093-1f1b554b854e",
+    "7a89e3dd-dd50-4e80-9b5c-dc355d655acf",
+    "6cfc7525-cca9-47c4-b51e-541e5377f112",
+    "188aa9e3-e6ef-463b-9e21-71dbb660c8bc",
+    "56269833-2c13-435c-9ffc-13b3a02d06fc",
+    "9b953d99-59eb-4a3c-8d0f-694594a414a8",
+    "bf2186fe-ee2d-42b4-ae10-db8d002d9a48",
+    "c9176c07-0549-476c-bb50-ba99ba5a19d0",
+    "e74ac437-b4f1-41cd-86a2-8ac98a75a0eb",
+    "1cf8e5d7-546c-40a9-8d97-802d9a076b29",
+    "d6d98d41-7f1a-4053-8787-d65f35dcd0b2"
   ],
   "processed_plan_events": [
     "80fd3777-f57b-4a61-9cf4-dc4e7d243cd1:done",
@@ -72,7 +100,8 @@
     "8ebdaf96-48d6-48a8-b14b-4f478f25aa5c:done",
     "71d5e72a-0314-455d-92a6-660023d97630:approved",
     "f62753d1-5a75-4f9e-9c02-947f57478fda:approved",
-    "498916ef-e8f7-46fa-8041-68c052d8c415:approved"
+    "498916ef-e8f7-46fa-8041-68c052d8c415:approved",
+    "37deb1fc-1c6a-4202-a48b-179dbb837e83:resolved"
   ],
-  "last_run_at": "2026-08-08T14:31:12.340829+00:00"
+  "last_run_at": "2026-08-09T14:00:57.937435+00:00"
 }

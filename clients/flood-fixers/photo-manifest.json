@@ -51,6 +51,129 @@
       "triaged_at": "2026-08-08T14:05:27Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "crew:sms-1786207630073-1f9a7972": {
+      "source": "crew",
+      "storage": "job-photos/sms-1786207630073-1f9a7972.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1775605259504/job-photos/sms-1786207630073-1f9a7972.jpg",
+      "width": 1320,
+      "height": 1627,
+      "bytes": 155017,
+      "sha1": "a9500ec894121b26",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Fictitious business name registration kiosk confirmation screen",
+      "quality": 10,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "screenshot"
+      ],
+      "reason": "Government registration form screenshot; zero marketing value.",
+      "triaged_at": "2026-08-09T14:04:23Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:sms-1786207630073-28853bda": {
+      "source": "crew",
+      "storage": "job-photos/sms-1786207630073-28853bda.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1775605259504/job-photos/sms-1786207630073-28853bda.jpg",
+      "width": 1320,
+      "height": 1630,
+      "bytes": 251591,
+      "sha1": "eea40c5580898d49",
+      "exif": {},
+      "category": "unusable",
+      "subject": "California Secretary of State LLC articles of organization document",
+      "quality": 10,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "screenshot"
+      ],
+      "reason": "Legal filing document; no visual or marketing relevance.",
+      "triaged_at": "2026-08-09T14:04:23Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:sms-1786207630073-cb82391f": {
+      "source": "crew",
+      "storage": "job-photos/sms-1786207630073-cb82391f.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1775605259504/job-photos/sms-1786207630073-cb82391f.jpg",
+      "width": 1320,
+      "height": 1579,
+      "bytes": 148084,
+      "sha1": "f40dcd09cbc78605",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Flood Fixers fictitious business name registration confirmation screen",
+      "quality": 10,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "screenshot"
+      ],
+      "reason": "Government registration screenshot; no marketing use.",
+      "triaged_at": "2026-08-09T14:04:23Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:sms-1786207630073-e457f14e": {
+      "source": "crew",
+      "storage": "job-photos/sms-1786207630073-e457f14e.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1775605259504/job-photos/sms-1786207630073-e457f14e.jpg",
+      "width": 1038,
+      "height": 1280,
+      "bytes": 268146,
+      "sha1": "6f407c4febf2709b",
+      "exif": {},
+      "category": "unusable",
+      "subject": "IRS Form 2553 S-corporation election tax document",
+      "quality": 10,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "screenshot"
+      ],
+      "reason": "IRS tax form; entirely irrelevant to marketing website.",
+      "triaged_at": "2026-08-09T14:04:23Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:sms-1786207971601-5ece9fc5": {
+      "source": "crew",
+      "storage": "job-photos/sms-1786207971601-5ece9fc5.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1775605259504/job-photos/sms-1786207971601-5ece9fc5.jpg",
+      "width": 1320,
+      "height": 1042,
+      "bytes": 215956,
+      "sha1": "40f95e4b3cee9266",
+      "exif": {},
+      "category": "unusable",
+      "subject": "California Contractors State License Board certificate on dark background",
+      "quality": 35,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Credential document photo; not suitable as a marketing image slot.",
+      "triaged_at": "2026-08-09T14:04:23Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipMIp4ABAe9vsARUtGYdWl66EIyptuQUVp8Emc0": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipMIp4ABAe9vsARUtGYdWl66EIyptuQUVp8Emc0.jpg",
@@ -347,5 +470,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-08-08T14:05:27Z"
+  "triaged_at": "2026-08-09T14:04:23Z"
 }
