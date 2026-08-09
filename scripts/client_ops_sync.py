@@ -426,8 +426,27 @@ def ensure_bootstrapped(dry_run: bool, do_send: bool,
     have = {r["company_id"] for r in sites}
     taken = {r.get("rank_ai_slug") for r in sites if r.get("rank_ai_slug")}
     lines: list[str] = []
+    # A marketing_sites ROW IS NOT PROOF THE CLIENT IS BOOTSTRAPPED.
+    #
+    # This pass creates that row itself, but the REPO half (clients/{slug}.json,
+    # plan-input, the company_map entry) is written by bootstrap_client.py. So
+    # the first run created the row, every run afterwards saw the row and
+    # skipped, and the repo half was never written by the one job that has
+    # commit rights. RT Olson signed up 2026-08-08 and was still missing from
+    # company_map a day later — invisible to every ensure_* pass, because they
+    # all key off that map. Dry County is in the same state right now.
+    #
+    # Completion is now judged on the REPO artefact, which is the thing that
+    # was actually missing (Santino 2026-08-09: "we don't want a manual human
+    # to have to approve anything").
+    def _repo_bootstrapped(cid: str) -> bool:
+        slug = (cid_to_slug or {}).get(cid)
+        return bool(slug and (ROOT / "clients" / f"{slug}.json").exists())
+
     for co in cos:
-        if co["id"] in have or "test" in (co.get("name") or "").lower():
+        if "test" in (co.get("name") or "").lower():
+            continue
+        if co["id"] in have and _repo_bootstrapped(co["id"]):
             continue
         pipeline_slug = (cid_to_slug or {}).get(co["id"])
         if pipeline_slug:
