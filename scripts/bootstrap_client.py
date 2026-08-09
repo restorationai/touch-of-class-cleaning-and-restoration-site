@@ -105,26 +105,42 @@ def domain_from_website(website):
 # Falls back to restoration only when nothing matches, because that is what the
 # fleet mostly is — but it says so out loud rather than silently.
 _VERTICAL_KEYWORDS = (
-    ("plumbing",     ("plumb", "drain", "sewer line", "water heater", "leak detection")),
-    ("construction", ("construct", "remodel", "renovation", "general contract",
-                      "roofing", "builder")),
-    ("restoration",  ("restoration", "water damage", "fire damage", "mold",
-                      "biohazard", "mitigation", "cleanup")),
+    ("plumbing",     ("plumb",)),
+    ("construction", ("construct", "remodel", "renovation", "builder")),
+    ("restoration",  ("restoration", "restore", "mitigation", "damage")),
 )
 
 
 def derive_vertical(co: dict) -> str:
-    """Pick the vertical from the company's own industry/services text."""
-    blob = " ".join([
-        " ".join(co.get("industry") or []) if isinstance(co.get("industry"), list)
-        else str(co.get("industry") or ""),
-        " ".join(co.get("services") or []) if isinstance(co.get("services"), list)
-        else str(co.get("services") or ""),
-        str(co.get("name") or ""),
-    ]).lower()
-    for vertical, words in _VERTICAL_KEYWORDS:
-        if any(w in blob for w in words):
-            return vertical
+    """Pick the vertical from the company's INDUSTRY, then its name.
+
+    DELIBERATELY NOT the services list. The first version of this matched a
+    blob of industry + services + name, and it was wrong for half the fleet:
+    Davis Construction came out "plumbing" and Coastal Restoration came out
+    "construction", because restoration firms sell drain cleaning and leak
+    detection, and the plumbing keywords hit those first. Services describe
+    what a company DOES; the vertical is what a company IS, and only industry
+    and the trading name speak to that.
+
+    Order matters too: restoration is checked LAST, because "Crew Restoration
+    & Construction" and "Quality Contracting" are restoration firms whose
+    names contain construction words. Anything genuinely ambiguous should land
+    on restoration, which is what the fleet mostly is.
+    """
+    industry = co.get("industry")
+    industry = " ".join(industry) if isinstance(industry, list) else str(industry or "")
+    for source in (industry.lower(), str(co.get("name") or "").lower()):
+        if not source.strip():
+            continue
+        # Restoration WINS when the name carries both, e.g. "National
+        # Restoration Construction" and "Crew Restoration & Construction" are
+        # restoration firms. Only fall through to the others when restoration
+        # is absent.
+        if any(w in source for w in dict(_VERTICAL_KEYWORDS)["restoration"]):
+            return "restoration"
+        for vertical, words in _VERTICAL_KEYWORDS:
+            if any(w in source for w in words):
+                return vertical
     print("vertical: nothing matched for {!r} — defaulting to restoration"
           .format(co.get("name")))
     return "restoration"

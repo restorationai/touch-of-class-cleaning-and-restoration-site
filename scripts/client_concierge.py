@@ -4563,9 +4563,15 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
             "and the listing is invisible on Maps without verification, so "
             "they are paired deliberately. Bundle both warmly: lead with the "
             "Google-listing verification, then the domain, and offer ONE "
-            "shared 15-minute call to knock out both together (we guide, "
-            "they just hold the phone). Never add anything else to this "
-            "message.\n")
+            "shared 15-minute VIDEO call to knock out both together. NEVER "
+            "imply anyone is coming to them or is nearby: Santino is on the "
+            "other side of the country and Google's video verification is "
+            "done remotely, with the client walking their own premises on "
+            "video while we watch and guide. Say 'video call' or 'we hop on "
+            "a video call and walk you through it', never 'he walks you "
+            "through it' or anything that sounds like an in-person visit "
+            "(Santino 2026-08-09, after Fran was offered exactly that). "
+            "Never add anything else to this message.\n")
     # DIRECT ORDER FROM SANTINO (2026-08-04): an open ops note that reads as
     # an instruction to contact this client. It outranks the outstanding
     # items — he asked for it, so it is the message.

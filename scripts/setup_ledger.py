@@ -1804,7 +1804,7 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                                 "us access from their domain account (about two "
                                 "minutes), or we hop on a quick 15-minute call and do "
                                 "it together while they're signed in, we drive and "
-                                "they just hold the phone. Their current site keeps "
+                                "they hold their own phone on a VIDEO call, nobody visits them. Their current site keeps "
                                 "working the whole time. Finding out WHICH company "
                                 "holds the domain is useful but does not close this "
                                 "ask, only the access does. This outranks every other "
@@ -1956,7 +1956,7 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                             "business.google.com. MONICA: plain words, no "
                             "jargon; offer to hop on a quick 15-minute call "
                             "and do the video walk-through together, we "
-                            "guide, they just hold the phone. When the "
+                            "guide, they hold their own phone on a VIDEO call, nobody visits them. When the "
                             "domain-access ask is also open, bundle EXACTLY "
                             "these two in one message (the launch-blocker "
                             "pair exception) with one shared call offer."),
