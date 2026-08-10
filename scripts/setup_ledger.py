@@ -1833,6 +1833,48 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                 attention.append(f"{slug}: domain-access ask seeding failed "
                                  f"({str(e)[:80]})")
 
+        # ---- two stage-blocker watchdogs (2026-08-10, Build Stages board) --
+        # Both are "board column with no ask generator" gaps the Kanban
+        # exposed. Visibility only — the fulfilment is agent/human work.
+        #
+        # (1) Customer list received but never LOADED into review_requests:
+        # Rudy uploaded LSR_CUSTOMER_LIST.csv on 08-03 and nothing ingested it
+        # — the reviews pipeline read as "no list" while the client had done
+        # their part. Same invisibility class as the unlaunched-site gap.
+        try:
+            docs_notes = _sb("GET", "/rest/v1/marketing_ops_notes"
+                             f"?company_id=eq.{cid}&body=ilike.*CUSTOMER?LIST*"
+                             "&select=id&limit=1") or []
+            if docs_notes:
+                reqs = _sb("GET", "/rest/v1/review_requests"
+                           f"?company_id=eq.{cid}&select=id&limit=1") or []
+                if not reqs:
+                    attention.append(
+                        f"{slug}: customer list UPLOADED but never loaded into "
+                        "review_requests — ingest it and launch the reactivation "
+                        "campaign (sender per 08-03 policy)")
+        except Exception:  # noqa: BLE001
+            pass
+        #
+        # (2) Google connected but NO listing synced (TRG: account holds two
+        # listings, none selected; MCC: account holds zero). Every GBP system
+        # silently skips these clients.
+        try:
+            g_active = _sb("GET", "/rest/v1/user_integrations"
+                           f"?client_id=eq.{cid}&provider=eq.google&status=eq.active"
+                           "&select=id&limit=1") or []
+            if g_active:
+                gprof = _sb("GET", "/rest/v1/marketing_gbp_profiles"
+                            f"?company_id=eq.{cid}&select=id&limit=1") or []
+                if not gprof:
+                    attention.append(
+                        f"{slug}: Google CONNECTED but no GBP listing synced — "
+                        "account has either zero listings (create+verify one) or "
+                        "several (a selection is needed); every GBP system is "
+                        "skipping this client meanwhile")
+        except Exception:  # noqa: BLE001
+            pass
+
         # ---- gsc-indexnow (auto-heal once per live site) -------------------
         if live:
             existing = _sb("GET", "/rest/v1/marketing_setup_ledger"
