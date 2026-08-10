@@ -1,7 +1,7 @@
 {
   "/images/hero-bg.webp": {
-    "width": 2000,
-    "height": 1125,
+    "width": 1376,
+    "height": 768,
     "variants": [
       480,
       768,
@@ -9,8 +9,8 @@
     ]
   },
   "/images/services.webp": {
-    "width": 1920,
-    "height": 1280,
+    "width": 1376,
+    "height": 768,
     "variants": [
       480,
       768,
@@ -18,8 +18,8 @@
     ]
   },
   "/images/services/biohazard-cleanup.webp": {
-    "width": 1920,
-    "height": 1280,
+    "width": 1376,
+    "height": 768,
     "variants": [
       480,
       768,
@@ -27,8 +27,8 @@
     ]
   },
   "/images/services/contents-restoration.webp": {
-    "width": 2000,
-    "height": 1333,
+    "width": 1376,
+    "height": 768,
     "variants": [
       480,
       768,
@@ -36,8 +36,8 @@
     ]
   },
   "/images/services/fire-damage-restoration.webp": {
-    "width": 1920,
-    "height": 1280,
+    "width": 1376,
+    "height": 768,
     "variants": [
       480,
       768,
@@ -45,8 +45,8 @@
     ]
   },
   "/images/services/mold-remediation.webp": {
-    "width": 2000,
-    "height": 1333,
+    "width": 1376,
+    "height": 768,
     "variants": [
       480,
       768,
@@ -54,8 +54,8 @@
     ]
   },
   "/images/services/sewage-cleanup.webp": {
-    "width": 1920,
-    "height": 1280,
+    "width": 1376,
+    "height": 768,
     "variants": [
       480,
       768,
@@ -63,8 +63,8 @@
     ]
   },
   "/images/services/storm-damage-restoration.webp": {
-    "width": 2000,
-    "height": 1333,
+    "width": 1376,
+    "height": 768,
     "variants": [
       480,
       768,
@@ -72,8 +72,8 @@
     ]
   },
   "/images/services/water-damage-restoration.webp": {
-    "width": 1920,
-    "height": 1280,
+    "width": 1376,
+    "height": 768,
     "variants": [
       480,
       768,
@@ -81,8 +81,8 @@
     ]
   },
   "/images/team.webp": {
-    "width": 1920,
-    "height": 1280,
+    "width": 1376,
+    "height": 768,
     "variants": [
       480,
       768,

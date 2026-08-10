@@ -10903,93 +10903,97 @@
       "triage_model": "claude-sonnet-4-6"
     }
   },
-  "slots": {
-    "team": {
-      "asset": "gbp:gbp-AF1QipPVSuRdg01LZVooGYOy7WWI1i0YyVbVvwtpUdwZ",
-      "source": "gbp",
-      "origin_url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipPVSuRdg01LZVooGYOy7WWI1i0YyVbVvwtpUdwZ.jpg",
-      "category": "crew",
-      "subject": "Three technicians in white Tyvek suits spraying outdoor area",
-      "installed_at": "2026-08-10T19:51:23Z",
-      "file": "/images/team.webp"
-    },
-    "services": {
-      "asset": "gbp:gbp-AF1QipPGOqCeyrR-BtNt24D_zEVcOKUwDG1h5Ab3LjcF",
-      "source": "gbp",
-      "origin_url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipPGOqCeyrR-BtNt24D_zEVcOKUwDG1h5Ab3LjcF.jpg",
-      "category": "equipment",
-      "subject": "Two LSR air movers and blue air scrubber inside containment tent",
-      "installed_at": "2026-08-10T19:51:25Z",
-      "file": "/images/services.webp"
-    },
-    "service:biohazard-cleanup": {
-      "asset": "gbp:gbp-AF1QipNTd6pZetaQVfCMtalT-eBQ-TjA48g_Ex1j9Oyr",
-      "source": "gbp",
-      "category": "crew",
-      "subject": "Two technicians in Tyvek suits pressure-washing outdoor area",
-      "file": "/images/services/biohazard-cleanup.webp",
-      "installed_at": "2026-08-10T19:51:26Z"
-    },
-    "service:contents-restoration": {
-      "asset": "gbp:gbp-AF1QipMGrXqoFnDaTO68k3J8bjIgkvEPGVHAgcF2oyc4",
-      "source": "gbp",
-      "category": "equipment",
-      "subject": "Air mover and plastic-wrapped furniture in upscale home",
-      "file": "/images/services/contents-restoration.webp",
-      "installed_at": "2026-08-10T19:51:27Z"
-    },
-    "service:fire-damage-restoration": {
-      "asset": "gbp:gbp-AF1QipM8yPyB6BqKb9L_WpfPd19Er2509IDPgwHdsqcQ",
-      "source": "gbp",
-      "category": "job_progress",
-      "subject": "Fire-destroyed room with exposed burned rafters and missing roof sections",
-      "file": "/images/services/fire-damage-restoration.webp",
-      "installed_at": "2026-08-10T19:51:28Z"
-    },
-    "service:mold-remediation": {
-      "asset": "gbp:gbp-AF1QipO9CWGdOsGgRx9zVAXjZFWjEk360M-p8vCCNVW1",
-      "source": "gbp",
-      "category": "job_progress",
-      "subject": "Opened wall cavity revealing black mold on drywall",
-      "file": "/images/services/mold-remediation.webp",
-      "installed_at": "2026-08-10T19:55:35Z",
-      "note": "manual pin 2026-08-10 (visual pass): score-based pick was the 'severe mold and fire damage' devastation shot (services 78) \u2014 honest but gratuitous for a service card. This flood-cut/exposed-studs mid-remediation shot (75) shows the WORK. apply --force would re-pick the other one; keep this pin."
-    },
-    "service:sewage-cleanup": {
-      "asset": "gbp:gbp-AF1QipN8h3ttHt2Uqypu8XAGjdPp0KmEYtFOo48nOwq1",
-      "source": "gbp",
-      "category": "job_progress",
-      "subject": "Sewage-flooded bathroom with black contaminated floor debris",
-      "file": "/images/services/sewage-cleanup.webp",
-      "installed_at": "2026-08-10T19:51:31Z"
-    },
-    "service:storm-damage-restoration": {
-      "asset": "gbp:gbp-AF1QipMj8m8ceb5Yma-6JHFsgkMHQD8nxSlx7ySevK6N",
-      "source": "gbp",
-      "category": "job_progress",
-      "subject": "Storm-damaged house exterior with boarded windows and tarped roof",
-      "file": "/images/services/storm-damage-restoration.webp",
-      "installed_at": "2026-08-10T19:51:33Z"
-    },
-    "service:water-damage-restoration": {
-      "asset": "gbp:gbp-AF1QipMF3sd_J9k0XPz2EDLReAlKNa5TO2_ZHXZkcMa0",
-      "source": "gbp",
-      "category": "job_progress",
-      "subject": "Standing water pooled on hardwood and carpet flooring indoors",
-      "file": "/images/services/water-damage-restoration.webp",
-      "installed_at": "2026-08-10T19:51:35Z"
-    },
-    "hero": {
-      "asset": "gbp:gbp-AF1QipNgFTLpFsQBd4k15pMVHTKa4sHdZoys_jTYZJwt",
-      "source": "gbp",
-      "origin_url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipNgFTLpFsQBd4k15pMVHTKa4sHdZoys_jTYZJwt.jpg",
-      "category": "fleet",
-      "subject": "LSR box truck and van parked outside luxury home",
-      "installed_at": "2026-08-10T19:53:56Z",
-      "file": "/images/hero-bg.webp",
-      "crop_bias": 0.5,
-      "note": "manual promotion 2026-08-10: eligible() rejects square originals for the 16:9 hero (w/h<1.25), but this 2048x2048 fleet shot (q88, hero 92) crops cleanly at bias 0.5 \u2014 both branded vehicles + property retained, verified visually. Same pattern as go-green's real-Transit hero promotion."
+  "slots": {},
+  "triaged_at": "2026-08-10T15:12:13Z",
+  "slots_retired_2026-08-10": {
+    "note": "AI-FIRST doctrine (Santino 2026-08-10, scripts/dev_agent.md Imagery doctrine): slot pins cleared so gen_site_images generates the polished AI look for every launch slot. The real photos archived below remain harvested assets and serve as livery/PPE/equipment REFERENCES only (see image-style-guide.md CLIENT DIRECTION). Do not re-pin via photo_harvest apply without a new decision. Santino specifically rejected the team.webp pick (two guys pressure washing does not read as a team).",
+    "slots": {
+      "team": {
+        "asset": "gbp:gbp-AF1QipPVSuRdg01LZVooGYOy7WWI1i0YyVbVvwtpUdwZ",
+        "source": "gbp",
+        "origin_url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipPVSuRdg01LZVooGYOy7WWI1i0YyVbVvwtpUdwZ.jpg",
+        "category": "crew",
+        "subject": "Three technicians in white Tyvek suits spraying outdoor area",
+        "installed_at": "2026-08-10T19:51:23Z",
+        "file": "/images/team.webp"
+      },
+      "services": {
+        "asset": "gbp:gbp-AF1QipPGOqCeyrR-BtNt24D_zEVcOKUwDG1h5Ab3LjcF",
+        "source": "gbp",
+        "origin_url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipPGOqCeyrR-BtNt24D_zEVcOKUwDG1h5Ab3LjcF.jpg",
+        "category": "equipment",
+        "subject": "Two LSR air movers and blue air scrubber inside containment tent",
+        "installed_at": "2026-08-10T19:51:25Z",
+        "file": "/images/services.webp"
+      },
+      "service:biohazard-cleanup": {
+        "asset": "gbp:gbp-AF1QipNTd6pZetaQVfCMtalT-eBQ-TjA48g_Ex1j9Oyr",
+        "source": "gbp",
+        "category": "crew",
+        "subject": "Two technicians in Tyvek suits pressure-washing outdoor area",
+        "file": "/images/services/biohazard-cleanup.webp",
+        "installed_at": "2026-08-10T19:51:26Z"
+      },
+      "service:contents-restoration": {
+        "asset": "gbp:gbp-AF1QipMGrXqoFnDaTO68k3J8bjIgkvEPGVHAgcF2oyc4",
+        "source": "gbp",
+        "category": "equipment",
+        "subject": "Air mover and plastic-wrapped furniture in upscale home",
+        "file": "/images/services/contents-restoration.webp",
+        "installed_at": "2026-08-10T19:51:27Z"
+      },
+      "service:fire-damage-restoration": {
+        "asset": "gbp:gbp-AF1QipM8yPyB6BqKb9L_WpfPd19Er2509IDPgwHdsqcQ",
+        "source": "gbp",
+        "category": "job_progress",
+        "subject": "Fire-destroyed room with exposed burned rafters and missing roof sections",
+        "file": "/images/services/fire-damage-restoration.webp",
+        "installed_at": "2026-08-10T19:51:28Z"
+      },
+      "service:mold-remediation": {
+        "asset": "gbp:gbp-AF1QipO9CWGdOsGgRx9zVAXjZFWjEk360M-p8vCCNVW1",
+        "source": "gbp",
+        "category": "job_progress",
+        "subject": "Opened wall cavity revealing black mold on drywall",
+        "file": "/images/services/mold-remediation.webp",
+        "installed_at": "2026-08-10T19:55:35Z",
+        "note": "manual pin 2026-08-10 (visual pass): score-based pick was the 'severe mold and fire damage' devastation shot (services 78) \u2014 honest but gratuitous for a service card. This flood-cut/exposed-studs mid-remediation shot (75) shows the WORK. apply --force would re-pick the other one; keep this pin."
+      },
+      "service:sewage-cleanup": {
+        "asset": "gbp:gbp-AF1QipN8h3ttHt2Uqypu8XAGjdPp0KmEYtFOo48nOwq1",
+        "source": "gbp",
+        "category": "job_progress",
+        "subject": "Sewage-flooded bathroom with black contaminated floor debris",
+        "file": "/images/services/sewage-cleanup.webp",
+        "installed_at": "2026-08-10T19:51:31Z"
+      },
+      "service:storm-damage-restoration": {
+        "asset": "gbp:gbp-AF1QipMj8m8ceb5Yma-6JHFsgkMHQD8nxSlx7ySevK6N",
+        "source": "gbp",
+        "category": "job_progress",
+        "subject": "Storm-damaged house exterior with boarded windows and tarped roof",
+        "file": "/images/services/storm-damage-restoration.webp",
+        "installed_at": "2026-08-10T19:51:33Z"
+      },
+      "service:water-damage-restoration": {
+        "asset": "gbp:gbp-AF1QipMF3sd_J9k0XPz2EDLReAlKNa5TO2_ZHXZkcMa0",
+        "source": "gbp",
+        "category": "job_progress",
+        "subject": "Standing water pooled on hardwood and carpet flooring indoors",
+        "file": "/images/services/water-damage-restoration.webp",
+        "installed_at": "2026-08-10T19:51:35Z"
+      },
+      "hero": {
+        "asset": "gbp:gbp-AF1QipNgFTLpFsQBd4k15pMVHTKa4sHdZoys_jTYZJwt",
+        "source": "gbp",
+        "origin_url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipNgFTLpFsQBd4k15pMVHTKa4sHdZoys_jTYZJwt.jpg",
+        "category": "fleet",
+        "subject": "LSR box truck and van parked outside luxury home",
+        "installed_at": "2026-08-10T19:53:56Z",
+        "file": "/images/hero-bg.webp",
+        "crop_bias": 0.5,
+        "note": "manual promotion 2026-08-10: eligible() rejects square originals for the 16:9 hero (w/h<1.25), but this 2048x2048 fleet shot (q88, hero 92) crops cleanly at bias 0.5 \u2014 both branded vehicles + property retained, verified visually. Same pattern as go-green's real-Transit hero promotion."
+      }
     }
-  },
-  "triaged_at": "2026-08-10T15:12:13Z"
+  }
 }

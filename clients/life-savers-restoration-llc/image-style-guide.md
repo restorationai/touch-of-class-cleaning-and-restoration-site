@@ -1,13 +1,18 @@
 # Life Savers Restoration LLC: Image Style Guide
 
-## CLIENT DIRECTION — REAL-PHOTO-FIRST (visual pass 2026-08-10)
+## CLIENT DIRECTION — AI-FIRST POLISHED LOOK (doctrine 2026-08-10)
 
-**Every launch slot on this site is a REAL photograph** from Rudy's own GBP
-library (hero, team, services, and all 7 service cards — see
-`photo-manifest.json` slots). Generation exists here only for FUTURE gaps:
-blog heroes, new service pages, refreshes. When generating, nothing in the
-frame may be false to what his real photos document. The facts below are
-established by those photos; do not drift from them.
+**Fleet-wide imagery doctrine (Santino 2026-08-10, see scripts/dev_agent.md
+"Imagery doctrine"): AI-FIRST.** Every launch slot on this site (hero, team,
+services, all 7 service cards) carries the polished AI-generated look. Rudy's
+REAL photos are REFERENCES only: the harvested fleet photo pins the livery,
+the PPE photo pins the sealed suit, and his GBP library establishes the facts
+below. A real photo holds a slot only when it is exceptional or the client
+asks for real (the prior all-real pass was reversed after Santino rejected
+the team pick: two guys pressure washing does not read as a team). The target
+is bright, polished, professional imagery, and nothing in a generated frame
+may be false to what his real photos document. Do not drift from the facts
+below.
 
 1. **THE SITE IS LIGHT: WHITE + GOLD.** Theme is light/white with warm gold
    `#a07828` accents, taken from his Best of Las Vegas GOLD WINNER award
@@ -23,14 +28,16 @@ established by those photos; do not drift from them.
    lettering and a red accent banner with the phone number. NEVER generate a
    gold, navy, red or any non-white company vehicle, and never invent a
    different wrap.
-3. **PREFER NO-VEHICLE COMPOSITIONS IN GENERATED FRAMES.** His wrap is
-   text-heavy (phone number, service list) and generators garble exactly
-   that. The real fleet already owns the hero and team slots, so a generated
-   blog/service frame should normally be an interior or work-detail scene
-   with NO company vehicle. If a scene truly demands one, use VAN-OVERRIDE +
-   the LIVERY-REFERENCE photo: white van, the diamond-cluster mark small or
-   naturally soft, ZERO readable lettering or digits — a garbled wordmark or
-   invented phone number is an AUTOMATIC REJECT.
+3. **GENERATED VEHICLES FOLLOW THE REAL WRAP, WITH ZERO READABLE TEXT.**
+   His real wrap is text-heavy (phone number, service list) and generators
+   garble exactly that, so a generated vehicle carries ONLY the white body
+   plus the multicolor diamond-cluster mark from the LIVERY-REFERENCE photo,
+   small and naturally soft; every other wrap element falls to natural
+   photographic softness. ZERO readable lettering or digits anywhere on a
+   vehicle: a garbled wordmark or invented phone number is an AUTOMATIC
+   REJECT. Branded vehicles DO appear where the composition calls for them
+   (hero fleet, team shot behind the crew, exterior arrival scenes); tight
+   interior and work-detail frames stay vehicle-free.
 4. **CREW WEAR SEALED WHITE TYVEK OR NEUTRAL WORKWEAR.** His photos document
    crews in full white Tyvek coveralls (see PPE reference). No branded polo,
    hat or uniform color is documented ANYWHERE — so never invent one. Where
@@ -51,9 +58,9 @@ established by those photos; do not drift from them.
 LIVERY-REFERENCE: harvested/real-fleet-livery-2026-08-10.jpg
 PPE-REFERENCE: harvested/real-ppe-sealed-2026-08-10.jpg
 
-VAN-OVERRIDE: a single clean white Ford Transit-style cargo van matching the reference photograph of the company's real vehicle — white body, the multicolor diamond-cluster company logo small on the side panel exactly as in the reference, every other decal element falling to natural photographic softness, with NO readable lettering, numbers or phone digits anywhere on the vehicle, no invented stripes, badges or swooshes — and only when the scene genuinely demands a vehicle at all; otherwise compose the frame with no company vehicle in it
+VAN-OVERRIDE: a matched clean white company fleet exactly like the reference photograph of the company's real vehicles (a white GMC-style box truck and a white Ford Transit-style cargo van), white bodies carrying the multicolor diamond-cluster company logo small on the side panel exactly as in the reference, every other decal element falling to natural photographic softness, with NO readable lettering, numbers or phone digits anywhere on any vehicle, no invented stripes, badges or swooshes, all vehicles facing the same direction and photographed from the same side so the mark reads identically on each
 
-CREW-OVERRIDE: the technician wears a FULL sealed white Tyvek coverall exactly as in the PPE reference photograph — zipped to the throat, hood UP over the head, respirator sealed to the face, nitrile gloves on both hands, boot covers — whenever the scene shows remediation work; in non-PPE scenes plain neutral charcoal workwear with no visible company branding on the clothing (no branded polo or hat exists in evidence, so none may be invented); shown from behind or three-quarter profile, face never clearly visible, never smiling at the camera
+CREW-OVERRIDE: technicians wear FULL sealed white Tyvek coveralls exactly as in the PPE reference photograph (zipped to the throat, hood UP over the head, respirator sealed to the face, nitrile gloves on both hands, boot covers) whenever the scene shows remediation work; in non-PPE scenes plain neutral charcoal workwear with no visible company branding on the clothing (no branded polo or hat exists in evidence, so none may be invented); work shots frame from behind or three-quarter profile with no face crisply visible; the team photo shows 3-4 crew standing together confidently at a modest camera distance in front of the branded fleet, calm professional bearing, faces softly rendered not crisp, no stock-photo grins, no thumbs-up
 
 MOOD-OVERRIDE: bright, clean, high-key Mojave desert daylight with warm golden-hour warmth in the highlights — light, airy and premium to match a white-and-gold light-theme site; interiors neutral, clean and well-lit by daylight or work lights; never dark, moody, stormy or ominous
 
@@ -276,4 +283,5 @@ This guide is generated from `templates/restoration/image-style-guide.template.m
 
 ### Changelog
 
+- **v1.3-lsr (2026-08-10)** — AI-FIRST doctrine reversal (Santino 2026-08-10, fleet-wide, see `scripts/dev_agent.md` Imagery doctrine). All 10 launch slots regenerated to the polished AI look; `photo-manifest.json` slot pins cleared (archived under `slots_retired_2026-08-10`), real photos now REFERENCES only (`LIVERY-REFERENCE:` / `PPE-REFERENCE:` unchanged). Trigger: Santino rejected the real team.webp pick (two guys pressure washing does not read as a team). Rule 3 rewritten from prefer-no-vehicle to vehicles-follow-the-real-wrap-zero-readable-text; `VAN-OVERRIDE:` now describes the matched white fleet (box truck + Transit) instead of a single reluctant van; `CREW-OVERRIDE:` now specifies the 3-4 person team composition. All client FACTS (white fleet, multicolor LSR diamond wrap, sealed white Tyvek, white + gold `#a07828` light look, Las Vegas Valley) unchanged.
 - **v1.2-lsr (2026-08-10)** — Visual pass. Added the CLIENT DIRECTION block: light white+gold `#a07828` direction from his real Best of Las Vegas gold badges, real WHITE fleet facts (GMC box truck + Transit van, multicolor LSR diamond wrap — reference photo pinned via `LIVERY-REFERENCE:`), sealed-white-Tyvek crew facts (`PPE-REFERENCE:`), Las Vegas Valley setting, and `VAN-OVERRIDE:` / `CREW-OVERRIDE:` / `MOOD-OVERRIDE:` for `scripts/gen_site_images.py`. All 10 launch slots (hero, team, services, 7 service cards) filled with his REAL GBP photographs via `photo_harvest.py apply`; hero manually promoted (square original, hand-checked 16:9 crop — see `photo-manifest.json` slot note); mold card manually pinned to the flood-cut shot over the higher-scoring devastation shot. Corrected the mis-populated navy `#0d1b3e` boilerplate values to the shipped gold.
