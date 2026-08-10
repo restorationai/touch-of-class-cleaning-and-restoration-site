@@ -2638,6 +2638,41 @@ def ensure_auto_site_build(dry_run: bool, cid_to_slug: dict | None = None,
         if not pi_path.exists():
             out.append(f"{slug}: cannot auto-build — no plan-input.json (bootstrap missing)")
             continue
+
+        # LOGO SOAK (Santino 2026-08-10): wait up to 7 days for the client's
+        # real logo before building — every image on the site is generated
+        # FROM the brand assets, and Go Green + Dry County both shipped
+        # without their uploaded logo. After 7 days from signup, build
+        # anyway (a placeholder logo beats an invisible client).
+        try:
+            import requests as _rq
+            _r = _rq.post(
+                os.environ["SUPABASE_URL"].rstrip("/") + "/storage/v1/object/list/branding",
+                headers={"Authorization": "Bearer " + os.environ["SUPABASE_SERVICE_ROLE_KEY"],
+                         "apikey": os.environ["SUPABASE_SERVICE_ROLE_KEY"],
+                         "Content-Type": "application/json"},
+                json={"prefix": f"{cid}/brand/", "limit": 5}, timeout=15)
+            has_logo = bool(_r.ok and _r.json())
+        except Exception:  # noqa: BLE001 — a storage hiccup must not stall builds
+            has_logo = True
+        if not has_logo:
+            created = str(co.get("created_at") or "")[:10]
+            import datetime as _dt
+            try:
+                age_d = (_dt.date.today() - _dt.date.fromisoformat(created)).days
+            except ValueError:
+                age_d = 99
+            if age_d < 7:
+                out.append(f"{slug}: build waiting on their logo "
+                           f"(day {age_d} of 7 — builds anyway after a week)")
+                _seed_build_blocker_ask(
+                    cid, slug, dry_run, "logo",
+                    "Send over your logo so we can build your website around it",
+                    "Their website build is being held for their real logo "
+                    "(all site imagery is generated from the brand assets). "
+                    "Ask them to upload the logo via their hub link. If a "
+                    "week passes with no logo, the build starts anyway.")
+                continue
         if dry_run:
             out.append(f"{slug}: WOULD auto-build preview site ({len(services)} services)")
             built += 1
