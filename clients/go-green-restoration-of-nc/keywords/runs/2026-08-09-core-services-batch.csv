@@ -1,0 +1,74 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+crawl space encapsulation,transactional,40500,12,33.15,3,crawl space encapsulation,,/services/crawl-space-encapsulation/,no
+crawl space encapsulation near me,transactional,9900,,47.12,3,crawl space encapsulation,,/services/crawl-space-encapsulation/,no
+crawl space repair,transactional,6600,,44.33,3,crawl space encapsulation,,,no
+carpet cleaning raleigh,transactional,1600,,13.99,3,carpet cleaning,Raleigh,/service-areas/raleigh-nc/carpet-cleaning/,no
+mold removal raleigh nc,transactional,880,2,12.19,3,mold remediation,Raleigh,/service-areas/raleigh-nc/mold-remediation/,no
+air duct cleaning raleigh nc,transactional,480,,21.61,3,air duct cleaning,Raleigh,/service-areas/raleigh-nc/air-duct-cleaning/,no
+mold remediation durham nc,transactional,320,,26.4,3,mold remediation,Durham,/service-areas/durham-nc/mold-remediation/,no
+water damage restoration raleigh nc,transactional,260,10,132.76,3,water damage restoration,Raleigh,/service-areas/raleigh-nc/water-damage-restoration/,no
+mold remediation raleigh,transactional,260,3,11.8,3,mold remediation,Raleigh,/service-areas/raleigh-nc/mold-remediation/,no
+water damage raleigh,transactional,170,,13.97,3,water damage restoration,Raleigh,/service-areas/raleigh-nc/water-damage-restoration/,no
+crawl space encapsulation raleigh,transactional,110,,29.89,3,crawl space encapsulation,Raleigh,/service-areas/raleigh-nc/crawl-space-encapsulation/,no
+crawl space encapsulation durham,transactional,50,,80.47,3,crawl space encapsulation,Durham,/service-areas/durham-nc/crawl-space-encapsulation/,no
+water damage restoration durham nc,transactional,40,,15.93,3,water damage restoration,Durham,/service-areas/durham-nc/water-damage-restoration/,no
+water damage restoration rocky mount nc,transactional,10,,,3,water damage restoration,Rocky Mount,/service-areas/rocky-mount-nc/water-damage-restoration/,no
+insulation removal raleigh,transactional,,,,3,insulation removal,Raleigh,/service-areas/raleigh-nc/insulation-removal-installation/,no
+mold remediation wilson nc,transactional,,,,3,mold remediation,Wilson,/service-areas/wilson-nc/mold-remediation/,no
+crawl space encapsulation wake forest nc,transactional,,,,3,crawl space encapsulation,Wake Forest,/service-areas/wake-forest-nc/crawl-space-encapsulation/,no
+water damage restoration smithfield nc,transactional,,,,3,water damage restoration,Smithfield,/service-areas/smithfield-nc/water-damage-restoration/,no
+air duct cleaning zebulon nc,transactional,,,,3,air duct cleaning,Zebulon,/service-areas/zebulon-nc/air-duct-cleaning/,no
+crawl space encapsulation cost,commercial,9900,,24.35,1,crawl space encapsulation,,,yes
+mold remediation cost,commercial,9900,3,23.03,1,mold remediation,,,yes
+air duct cleaning cost,commercial,9900,,13.13,1,air duct cleaning,,,yes
+attic insulation cost,commercial,9900,,10.23,1,insulation removal,,,yes
+mold inspection cost,commercial,5400,,14.14,1,mold inspection,,,yes
+carpet cleaning cost,commercial,5400,,7.58,1,carpet cleaning,,,yes
+water damage restoration cost,commercial,880,3,20.21,1,water damage restoration,,,yes
+crawl space dehumidifier,commercial,40500,6,5.66,2,crawl space encapsulation,,,no
+vapor barrier for crawl space,commercial,14800,,10.97,2,crawl space encapsulation,,,no
+blown in insulation cost,commercial,5400,,7.85,2,insulation removal,,,no
+sump pump for crawl space,commercial,2900,,5.64,2,crawl space drying,,,no
+how much does it cost to encapsulate a crawl space,commercial,1000,,11.83,2,crawl space encapsulation,,,no
+crawl space vapor barrier cost,commercial,720,,21.78,2,crawl space encapsulation,,,no
+crawl space encapsulation cost calculator,commercial,590,,8.17,2,crawl space encapsulation,,,no
+insulation removal cost,commercial,390,,14.44,2,insulation removal,,,no
+negatives to crawl space encapsulation,commercial,320,,15.54,2,crawl space encapsulation,,,no
+crawl space dehumidifier cost,commercial,260,,7.99,2,crawl space encapsulation,,,no
+crawl space encapsulation cost per square foot,commercial,210,14,13.85,2,crawl space encapsulation,,,no
+alternatives to crawl space encapsulation,commercial,140,,75.47,2,crawl space encapsulation,,,no
+5 crawl space encapsulation mistakes,commercial,30,,16.89,2,crawl space encapsulation,,,no
+crawl space encapsulation materials,commercial,1000,2,4.19,3,crawl space encapsulation,,,no
+crawl space encapsulation cost raleigh,commercial,,,,3,crawl space encapsulation,Raleigh,/service-areas/raleigh-nc/crawl-space-encapsulation/,no
+how to lower humidity in house,informational,8100,11,0.73,1,crawl space encapsulation,,,yes
+does homeowners insurance cover mold,informational,5400,11,12.57,1,mold remediation,,,yes
+mold in air ducts,informational,3600,2,20.69,1,air duct cleaning,,,yes
+mold in crawl space,informational,1300,,19.76,1,crawl space encapsulation,,,yes
+how often should air ducts be cleaned,informational,1000,4,8.1,1,air duct cleaning,,,no
+how long does carpet take to dry after cleaning,informational,590,,7.28,1,carpet cleaning,,,no
+what should crawl space humidity be,informational,260,,6.61,1,crawl space encapsulation,,,no
+water in crawl space after heavy rain,informational,170,,21.86,1,crawl space encapsulation,,,yes
+is crawl space encapsulation worth it,informational,140,,22.35,1,crawl space encapsulation,,,yes
+how fast does mold grow after water damage,informational,110,1,7.11,1,water damage restoration,,,yes
+when to replace attic insulation,informational,110,,5.7,1,insulation removal,,,no
+what should indoor humidity be,informational,2900,29,0.44,2,crawl space encapsulation,,,no
+black mold in air vents,informational,1300,,18.79,2,air duct cleaning,,,no
+does homeowners insurance cover mold remediation,informational,1000,26,14.25,2,mold remediation,,,no
+why is my house so humid,informational,1000,,1.83,2,crawl space encapsulation,,,no
+how to get rid of mold in crawl space,informational,390,,5.37,2,mold remediation,,,no
+musty smell in crawl space,informational,260,,11.98,2,crawl space encapsulation,,,no
+how to dry out a crawl space,informational,140,,14.3,2,crawl space drying,,,no
+how to get rid of moisture in crawl space,informational,70,,17.64,2,crawl space encapsulation,,,no
+how often should carpets be professionally cleaned,informational,50,,,2,carpet cleaning,,,no
+does duct cleaning help with allergies,informational,40,,0.01,2,air duct cleaning,,,no
+does wet insulation need to be replaced,informational,40,,,2,insulation removal,,,no
+why is my house humid with ac on,informational,30,,,2,crawl space encapsulation,,,no
+signs your air ducts need cleaning,informational,30,,,2,air duct cleaning,,,no
+why is my crawl space wet,informational,20,,32.98,2,crawl space encapsulation,,,no
+how to prevent mold after flooding,informational,20,,,2,mold remediation,,,no
+should crawl space vents be closed,informational,10,,,2,crawl space encapsulation,,,no
+can mold in crawl space affect upstairs,informational,,,,2,mold remediation,,,no
+signs you need new insulation,informational,,,,2,insulation removal,,,no
+crawl space encapsulation diy,informational,1300,,3.65,3,crawl space encapsulation,,,no
+what to do if your house floods,informational,140,,48.6,3,flood damage cleanup,,/blog/what-to-do-first-24-hours-water-damage/,no
+how to prepare your house for a hurricane,informational,90,,,3,storm damage restoration,,,no
