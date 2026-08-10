@@ -1846,6 +1846,28 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                              "detail": note, "evidence": {"domain": domain}})
                 attention.append(f"{slug}: gsc/indexnow auto-heal -> {note}")
 
+        # ---- content-queue watchdog (visibility only, 2026-08-09) ----------
+        # Crew went LIVE with 1 seed item in content-queue.json and nobody
+        # noticed until Santino asked; 13 clients were in the same state.
+        # Queue-filling is agent work (rank-ai-keyword-researcher), so this
+        # never auto-heals — it makes the gap impossible to miss in the
+        # digest's attention list for LIVE sites only.
+        if live:
+            try:
+                import json as _json
+                qp = ROOT / "clients" / slug / "content-queue.json"
+                q = _json.loads(qp.read_text()) if qp.exists() else []
+                items = q if isinstance(q, list) else (q.get("items") or [])
+                unwritten = [i for i in items if not (
+                    i.get("written") or str(i.get("status")) == "written")]
+                if len(unwritten) <= 1:
+                    attention.append(
+                        f"{slug}: LIVE with an empty content queue "
+                        f"({len(unwritten)} unwritten) — run the keyword "
+                        f"researcher (System 1) to fill it")
+            except Exception:  # noqa: BLE001 — watchdog never kills the ledger
+                pass
+
         # ---- google-connected (reflect only) -------------------------------
         gi = _sb("GET", f"/rest/v1/user_integrations?client_id=eq.{cid}"
                  "&provider=eq.google&select=id", prefer="return=representation") or []
