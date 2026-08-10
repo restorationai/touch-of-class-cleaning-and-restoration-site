@@ -1582,6 +1582,19 @@ def run(since_override: str | None, dry_run: bool, do_send: bool) -> int:
         print("  LEDGER: " + ln)
     sweep_lines += ledger_lines
 
+    # Inbound client email -> Monica's notes (email-blindness fix 2026-08-09:
+    # Fran's site feedback sat unread 3 days, Jeff's screenshot got a blind
+    # ack, Kenny's customer list got a promise with no retrieval). Same
+    # independent try/except as the ledger — a Gmail hiccup must never take
+    # the sweep down. Read-only on the mailbox; state in ops_kv.
+    try:
+        from email_inbox_sync import sync_inbox
+        for ln in sync_inbox(dry_run, cid_to_slug):
+            print("  EMAIL: " + ln)
+            sweep_lines.append(ln)
+    except Exception as e:  # noqa: BLE001
+        print(f"  EMAIL: inbox sync errored: {str(e)[:120]}")
+
     # Work ledger (fail-open): one 'routine' line item per ACTIVE client per
     # sweep — the nightly checks are documented work even on quiet nights
     # (Santino 2026-08-01: every movement recorded as a line item).
