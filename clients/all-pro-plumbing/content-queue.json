@@ -129,10 +129,10 @@
     },
     {
       "id": "2026-07-27-toilet-replacement-cost",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-07-27T20:50:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-08-10T17:33:30Z",
+      "post_url": "https://allproplumbingheatingandair.com/blog/toilet-replacement-cost/",
       "primary_keyword": "toilet replacement cost",
       "intent": "commercial",
       "volume": 5400,
