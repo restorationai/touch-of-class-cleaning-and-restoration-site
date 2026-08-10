@@ -1,0 +1,68 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+unattended death cleanup,transactional,480,,110.25,1,biohazard cleanup,,,yes
+mold remediation las vegas,transactional,480,2,66.74,3,mold remediation,Las Vegas,/service-areas/las-vegas-nv/mold-remediation/,no
+mold removal las vegas,transactional,480,,66.74,3,mold remediation,Las Vegas,/service-areas/las-vegas-nv/mold-remediation/,no
+water damage restoration las vegas,transactional,320,6,20.99,3,water damage restoration,Las Vegas,/service-areas/las-vegas-nv/water-damage-restoration/,no
+water restoration las vegas,transactional,320,22,20.99,3,water damage restoration,Las Vegas,/service-areas/las-vegas-nv/water-damage-restoration/,no
+water damage las vegas,transactional,90,,14.12,3,water damage restoration,Las Vegas,/service-areas/las-vegas-nv/water-damage-restoration/,no
+fire damage restoration las vegas,transactional,70,,,3,fire damage restoration,Las Vegas,/service-areas/las-vegas-nv/fire-damage-restoration/,no
+biohazard cleanup las vegas,transactional,50,,116.88,3,biohazard cleanup,Las Vegas,/service-areas/las-vegas-nv/biohazard-cleanup/,no
+water damage restoration henderson nv,transactional,20,,,3,water damage restoration,Henderson,/service-areas/henderson-nv/water-damage-restoration/,no
+water damage restoration north las vegas,transactional,20,,,3,water damage restoration,North Las Vegas,/service-areas/north-las-vegas-nv/water-damage-restoration/,no
+black mold removal las vegas,transactional,10,,,3,mold remediation,Las Vegas,/service-areas/las-vegas-nv/mold-remediation/,no
+sewage cleanup las vegas,transactional,10,,422.4,3,sewage cleanup,Las Vegas,/service-areas/las-vegas-nv/sewage-cleanup/,no
+flood damage cleanup las vegas,transactional,10,,,3,flood damage cleanup,Las Vegas,/service-areas/las-vegas-nv/water-damage-restoration/,no
+mold remediation henderson nv,transactional,10,,,3,mold remediation,Henderson,/service-areas/henderson-nv/mold-remediation/,no
+emergency water damage repair las vegas,transactional,,,,3,water damage restoration,Las Vegas,/service-areas/las-vegas-nv/water-damage-restoration/,no
+water damage restoration boulder city nv,transactional,,,,3,water damage restoration,Boulder City,/service-areas/boulder-city-nv/water-damage-restoration/,no
+mold remediation cost,commercial,9900,3,23.03,1,mold remediation,,,yes
+mold inspection cost,commercial,5400,,14.14,1,mold inspection,,,yes
+slab leak repair cost,commercial,1300,1,28.07,1,burst pipe repair,,,yes
+water damage restoration cost,commercial,880,3,20.21,1,water damage restoration,,,yes
+fire damage restoration cost,commercial,260,,,1,fire damage restoration,,,yes
+sewage backup cleanup cost,commercial,260,,46.2,1,sewage cleanup,,,yes
+crime scene cleanup cost,commercial,90,9,23.66,1,biohazard cleanup,,,no
+biohazard cleanup cost,commercial,70,,54.84,1,biohazard cleanup,,,no
+water damage restoration company,commercial,110000,25,57.92,2,water damage restoration,,,no
+flood damage restoration,commercial,110000,9,49.42,2,flood damage cleanup,,,no
+mold removal cost,commercial,9900,18,23.03,2,mold remediation,,,no
+fire damage restoration companies,commercial,2900,2,61.84,2,fire damage restoration,,,no
+water damage repair cost,commercial,390,8,51.5,2,water damage restoration,,,no
+water damage restoration companies las vegas,commercial,320,,20.99,2,water damage restoration,Las Vegas,,no
+restoration companies las vegas,commercial,210,14,31.08,2,water damage restoration,Las Vegas,,no
+how much does it cost to fix a slab leak,commercial,140,1,11.81,2,burst pipe repair,,,no
+sewage cleanup cost,commercial,70,,6.65,2,sewage cleanup,,,no
+water damage restoration cost las vegas,commercial,,,,2,water damage restoration,Las Vegas,,no
+mold remediation cost las vegas,commercial,,,,2,mold remediation,Las Vegas,,no
+smoke damage cleanup cost,commercial,10,,,3,fire damage restoration,,,no
+flood cleanup cost,commercial,10,,,3,flood damage cleanup,,,no
+mold inspection cost las vegas,commercial,10,,,3,mold inspection,Las Vegas,,no
+diy mold remediation,informational,1900,9,3.45,1,mold remediation,,,yes
+does renters insurance cover water damage,informational,1000,9,9.06,1,does homeowners insurance cover water damage,,,yes
+what is a slab leak,informational,880,4,11.36,1,burst pipe repair,,,yes
+mold remediation process,informational,720,16,10.56,1,mold remediation,,,no
+water stains on stucco,informational,390,,,1,water damage restoration,,,yes
+what to do after a house fire,informational,260,,2.78,1,fire damage restoration,,,no
+does homeowners insurance cover flood damage,informational,210,44,6.29,1,does homeowners insurance cover water damage,,,yes
+who cleans up crime scenes,informational,210,29,26.99,1,biohazard cleanup,,,no
+what to do when your house floods,informational,140,,69.39,1,flood damage cleanup,,,yes
+does homeowners insurance cover slab leaks,informational,140,,8.3,1,burst pipe repair,,,no
+swamp cooler mold,informational,70,,,1,mold remediation,,,yes
+signs of a slab leak,informational,390,,19.82,2,burst pipe repair,,,no
+stucco water damage,informational,140,,31.13,2,water damage restoration,,,no
+evaporative cooler mold,informational,70,,,2,mold remediation,,,no
+how to detect a slab leak,informational,70,,12.08,2,burst pipe repair,,,no
+flood insurance vs homeowners insurance,informational,40,17,46.52,2,does homeowners insurance cover water damage,,,no
+ac leaking water through ceiling,informational,30,,42.15,2,water damage restoration,,,no
+does insurance cover sewage backup,informational,20,43,13.67,2,sewage cleanup,,,no
+how to dry out walls after water damage,informational,20,34,40.42,2,water damage restoration,,,no
+does insurance cover flash flooding,informational,10,,,2,does homeowners insurance cover water damage,,,no
+can you stay in your house during mold remediation,informational,10,,,2,mold remediation,,,no
+can a swamp cooler cause mold,informational,,,,2,mold remediation,,,no
+can mold grow in the desert,informational,,,,2,mold remediation,,,no
+what to do if your house floods during a monsoon,informational,,,,2,flood damage cleanup,,,no
+monsoon water damage,informational,,,,2,flood damage cleanup,,,no
+who is responsible for sewer backup,informational,10,43,,3,sewage cleanup,,,no
+house fire checklist,informational,10,,,3,fire damage restoration,,,no
+water heater leak damage,informational,10,31,43.75,3,water damage restoration,,,no
+what to throw away after a sewage backup,informational,,,,3,sewage cleanup,,,no
