@@ -664,10 +664,10 @@
     },
     {
       "id": "2026-07-23-how-much-does-a-home-remodel-cost",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-07-23T17:18:06Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-08-10T18:26:57Z",
+      "post_url": "https://davisconstructioncontractors.com/blog/how-much-does-a-home-remodel-cost/",
       "primary_keyword": "how much does a home remodel cost",
       "intent": "informational",
       "volume": null,
@@ -803,6 +803,187 @@
         "https://www.houzz.com/"
       ],
       "notes": "Walk through budgeting, design, permits, contractor selection, and timeline. Frame around a homeowner checklist and tie to Davis's design-build process. Local note: HOA architectural review in newer Madison and Hampton Cove subdivisions."
+    },
+    {
+      "id": "2026-08-10-how-much-does-a-home-addition-cost",
+      "status": "queued",
+      "queued_at": "2026-08-10T18:25:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how much does a home addition cost",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "home addition cost per sq ft",
+        "400 sq ft master suite addition cost",
+        "500 sq ft addition cost",
+        "how much does it cost to add a room to a house",
+        "20x20 room addition cost",
+        "bedroom and bathroom addition cost"
+      ],
+      "suggested_slug": "how-much-does-a-home-addition-cost",
+      "suggested_title": "How much does a home addition cost in North Alabama",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/home-remodeling/",
+        "/services/new-construction/",
+        "/service-areas/madison-al/home-remodeling/"
+      ],
+      "service_tags": [
+        "home-remodeling",
+        "new-construction"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.nahb.org/",
+        "https://www.huntsvilleal.gov/"
+      ],
+      "notes": "Lead with a cost table by finished square footage (200 / 400 / 600 / 1000 sq ft) and note that a bare price per square foot hides scope. Break out what drives the number in Madison and Huntsville: foundation type, tie-in to existing roof and HVAC, plumbing for a bath, and finish level. Include a 10 to 15 percent contingency line. Keep ranges as planning ranges, not quotes."
+    },
+    {
+      "id": "2026-08-10-do-i-need-a-permit-for-a-home-addition-in-alabama",
+      "status": "queued",
+      "queued_at": "2026-08-10T18:25:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "do i need a permit for a home addition in alabama",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "home addition permit Huntsville",
+        "Madison County building permit addition",
+        "who pulls the permit contractor or homeowner",
+        "home addition inspections Alabama",
+        "addition plan review Huntsville",
+        "building permit cost Alabama addition"
+      ],
+      "suggested_slug": "do-i-need-a-permit-for-a-home-addition-in-alabama",
+      "suggested_title": "Do I need a permit for a home addition in Alabama (Madison, Huntsville and Athens)",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/home-remodeling/",
+        "/services/new-construction/",
+        "/service-areas/huntsville-al/home-remodeling/"
+      ],
+      "service_tags": [
+        "home-remodeling",
+        "new-construction"
+      ],
+      "city_anchor": "madison-al",
+      "external_authority_candidates": [
+        "https://www.huntsvilleal.gov/",
+        "https://planreview.huntsvilleal.gov/planreview"
+      ],
+      "notes": "Highest-value local angle from the ChatGPT decomposition. Cover the city-limits versus unincorporated-county distinction (Huntsville city vs Madison County vs Limestone County for Athens), the online plan review step, and the inspection milestones. State plainly that the contractor should pull the permit, and that a contractor asking the homeowner to pull it is a red flag."
+    },
+    {
+      "id": "2026-08-10-how-long-does-a-home-addition-take",
+      "status": "queued",
+      "queued_at": "2026-08-10T18:25:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how long does a home addition take",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "home addition timeline start to finish",
+        "how long does permitting take for an addition",
+        "how long does a second story addition take",
+        "design phase for a home addition",
+        "can you live in the house during an addition",
+        "what delays a home addition"
+      ],
+      "suggested_slug": "how-long-does-a-home-addition-take",
+      "suggested_title": "How long does a home addition take from first call to final inspection",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/home-remodeling/",
+        "/services/new-construction/"
+      ],
+      "service_tags": [
+        "home-remodeling",
+        "new-construction"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.nahb.org/"
+      ],
+      "notes": "Split the timeline into design and planning, permitting and plan review, then construction, and make clear that a quoted build time usually excludes the first two. Give a week-by-week phase table. Address living in the house during the work, since that is the question homeowners actually mean."
+    },
+    {
+      "id": "2026-08-10-is-it-cheaper-to-build-up-or-out",
+      "status": "queued",
+      "queued_at": "2026-08-10T18:25:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "is it cheaper to build up or out",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "second story addition vs ground floor addition cost",
+        "how much does a second story addition cost",
+        "do I need a structural engineer for a second story",
+        "lot setbacks and building out",
+        "bump out addition cost",
+        "second story addition on a ranch"
+      ],
+      "suggested_slug": "is-it-cheaper-to-build-up-or-out",
+      "suggested_title": "Is it cheaper to build up or out on a home addition",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/home-remodeling/",
+        "/services/new-construction/",
+        "/services/roofing/"
+      ],
+      "service_tags": [
+        "home-remodeling",
+        "new-construction",
+        "roofing"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.nahb.org/"
+      ],
+      "notes": "Real decision content: building out adds foundation and roof but keeps the house intact; building up adds structural reinforcement, stair space and a full roof tear-off. Tie to local conditions: many Madison and Athens ranch homes on generous lots favor building out, while older Huntsville lots with setback limits push people up. Mention when a structural engineer is required."
+    },
+    {
+      "id": "2026-08-10-does-a-home-addition-add-value-to-your-home",
+      "status": "queued",
+      "queued_at": "2026-08-10T18:25:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does a home addition add value to your home",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "home addition return on investment",
+        "master suite addition resale value",
+        "in law suite addition value",
+        "does adding a bathroom add value",
+        "home addition vs moving",
+        "which additions add the most value"
+      ],
+      "suggested_slug": "does-a-home-addition-add-value-to-your-home",
+      "suggested_title": "Does a home addition add value to your home (and which ones pay back)",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/home-remodeling/",
+        "/services/new-construction/"
+      ],
+      "service_tags": [
+        "home-remodeling",
+        "new-construction"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.nahb.org/"
+      ],
+      "notes": "Compare payback by addition type and set expectations that resale recovery is rarely 100 percent, so the real case is usable space versus the cost of moving. Reference the Huntsville area market: aerospace and Redstone Arsenal families often add space rather than relocate."
     }
   ]
 }
