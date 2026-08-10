@@ -168,11 +168,6 @@
       "slug": "bay-st-louis-ms"
     },
     {
-      "city": "Diamondhead",
-      "state": "MS",
-      "slug": "diamondhead-ms"
-    },
-    {
       "city": "Kiln",
       "state": "MS",
       "slug": "kiln-ms"
@@ -198,11 +193,6 @@
       "slug": "waveland-ms"
     },
     {
-      "city": "Bond",
-      "state": "MS",
-      "slug": "bond-ms"
-    },
-    {
       "city": "Wiggins",
       "state": "MS",
       "slug": "wiggins-ms"
@@ -218,16 +208,6 @@
       "slug": "lumberton-ms"
     },
     {
-      "city": "Nicholson",
-      "state": "MS",
-      "slug": "nicholson-ms"
-    },
-    {
-      "city": "Picayune",
-      "state": "MS",
-      "slug": "picayune-ms"
-    },
-    {
       "city": "Poplarville",
       "state": "MS",
       "slug": "poplarville-ms"
@@ -236,16 +216,6 @@
       "city": "Big Point",
       "state": "MS",
       "slug": "big-point-ms"
-    },
-    {
-      "city": "Biloxi",
-      "state": "MS",
-      "slug": "biloxi-ms"
-    },
-    {
-      "city": "D'Iberville",
-      "state": "MS",
-      "slug": "d-iberville-ms"
     },
     {
       "city": "Escatawpa",
@@ -278,11 +248,6 @@
       "slug": "hurley-ms"
     },
     {
-      "city": "Latimer",
-      "state": "MS",
-      "slug": "latimer-ms"
-    },
-    {
       "city": "Moss Point",
       "state": "MS",
       "slug": "moss-point-ms"
@@ -296,11 +261,6 @@
       "city": "Pascagoula",
       "state": "MS",
       "slug": "pascagoula-ms"
-    },
-    {
-      "city": "St. Martin",
-      "state": "MS",
-      "slug": "st-martin-ms"
     },
     {
       "city": "Vancleave",
@@ -326,11 +286,6 @@
       "city": "Lucedale",
       "state": "MS",
       "slug": "lucedale-ms"
-    },
-    {
-      "city": "Eastabuchie",
-      "state": "MS",
-      "slug": "eastabuchie-ms"
     },
     {
       "city": "Ellisville",

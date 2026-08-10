@@ -261,6 +261,21 @@ def expand_inputs(template: Template, plan_input: dict, client: dict) -> dict:
 
     # Service areas
     areas = [normalize_service_area(dict(a)) for a in (plan_input.get("service_areas") or [])]
+    # DEDUPE BY SLUG (HomeLyft 2026-08-09): the app's select-counties intake
+    # lists the same town once per county it belongs to, so plan-input arrived
+    # with 63 entries / 54 unique. Same-slug pages silently overwrite on disk,
+    # but every list built from service_areas double-counted. Keep the FIRST
+    # occurrence (earlier entries carry the richer hand-authored fields).
+    seen: set = set()
+    deduped = []
+    for a in areas:
+        if a["slug"] in seen:
+            print(f"    WARN: duplicate service area '{a['slug']}' dropped "
+                  f"(same town selected via multiple counties)")
+            continue
+        seen.add(a["slug"])
+        deduped.append(a)
+    areas = deduped
     if not areas:
         die("At least one service area is required.")
     # Mark the primary area if not flagged
