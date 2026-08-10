@@ -97,10 +97,23 @@ def sync_sites(client, slug: str, company_id: str, dry_run: bool) -> None:
     pages_url = (preview_override if preview_override and not apex_live
                  else f"https://rankai-{slug}.pages.dev")
 
+    # marketing_sites.domain is NOT NULL. Pre-cutover records carry domain:
+    # null, which aborted the whole upsert (2026-08-10: Reign's corrected
+    # build_status never landed because of this). Keep whatever the existing
+    # row has, else the established .invalid placeholder.
+    domain = rec.get("domain")
+    if not domain:
+        try:
+            existing = (client.table("marketing_sites").select("domain")
+                        .eq("rank_ai_slug", slug).limit(1).execute().data or [])
+            domain = (existing[0].get("domain") if existing else None) or f"{slug}.invalid"
+        except Exception:
+            domain = f"{slug}.invalid"
+
     row = {
         "rank_ai_slug":          slug,
         "company_id":            company_id,
-        "domain":                rec.get("domain"),
+        "domain":                domain,
         "apex_live":             apex_live,
         "cloudflare_pages_url":  pages_url,
         "build_status":          derived_status,
