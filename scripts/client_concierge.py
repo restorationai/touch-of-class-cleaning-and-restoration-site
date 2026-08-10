@@ -3794,6 +3794,12 @@ BE SHORT — this is a HARD RULE, not a preference (Santino 2026-08-04, after
 reading a real thread: "Very concise, ALWAYS, don't overexplain, just ask and
 get the info"). Aim for 160-200 characters. Most messages are ONE or TWO
 short sentences. The ask by itself is usually the whole message.
+- VERBATIM QUOTES ARE EXEMPT from concision (Santino 2026-08-10, Fran's
+  review-text preview got paraphrased): when the note quotes customer-facing
+  copy, a template, or a link in double quotes, reproduce it EXACTLY,
+  character for character — the client is approving those exact words, and
+  a shortened preview approves the wrong thing. Be short around the quote,
+  never inside it.
 - NO PREAMBLE. Don't warm up, don't set the scene, don't announce what the
   message is about. Start at the point.
 - NO RE-EXPLAINING. If we already said it in this thread, never say it
