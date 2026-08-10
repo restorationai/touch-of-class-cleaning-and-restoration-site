@@ -756,18 +756,27 @@ REPLAYS: list[tuple[str, dict, bool, str]] = [
       "quote": "Honestly I am really unhappy with this, I am thinking about "
                "cancelling", "confidence": "high"},
      False, "propose"),
-    ("classifier was unsure",
+    # Policy flip 2026-08-10 (Santino, HomeLyft postmortem): medium
+    # confidence now RUNS; only "low" (genuinely unclear) proposes.
+    ("classifier was unsure (medium runs now)",
      {"category": "imagery", "what": "maybe change the hero photo",
       "where": "homepage", "quote": "the picture is a bit odd",
       "confidence": "medium"},
+     False, "auto"),
+    ("classifier genuinely lost still proposes",
+     {"category": "imagery", "what": "something about photos maybe",
+      "where": "", "quote": "hm not sure about these",
+      "confidence": "low"},
      False, "propose"),
-    ("removal from a LIVE site",
+    # Policy flip 2026-08-10: client-requested removals auto-run; the
+    # mandatory-301 execution rules moved into dev_agent.md.
+    ("removal from a LIVE site (client-requested, runs with redirects)",
      {"category": "service_area",
       "what": "remove the Henderson and Boulder City pages",
       "where": "service-area pages",
       "quote": "Take down the Henderson and Boulder City pages, we dont go "
                "there anymore", "confidence": "high"},
-     True, "propose"),
+     True, "auto"),
     ("removal from a PREVIEW site is cheap and reversible",
      {"category": "service_area",
       "what": "remove the Henderson page before we launch",
