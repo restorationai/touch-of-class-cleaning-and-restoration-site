@@ -48,9 +48,16 @@ export const brand = {
   sameAsUrls: [] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
-  gbpRatingValue: "",
-  gbpReviewCount: "",
-  gbpReviews: [] as { author: string; rating: number; text: string; when: string }[],
+  gbpRatingValue: "5.0",
+  gbpReviewCount: "68",
+  gbpReviews: [
+    { author: "Donna", rating: 5, text: "Bob did a great job getting help with insurance coverage, thank you", when: "June 2026" },
+    { author: "Mateki", rating: 5, text: "Easy to communicate with and service is top tier!", when: "December 2025" },
+    { author: "Lily", rating: 5, text: "Stephen was a breeze to work with!! Responded promptly and got the job done!! 10/10 recommend!", when: "November 2025" },
+    { author: "Mitch", rating: 5, text: "Stephen and his crew were great! Not only did they do a professional job, they helped us deal with the insurance company and achieve a much more reasonable resolution of our claim than what insurance initially offered. Thank you for all the great advice! Hot tip: Hire Dry County Restoration and…", when: "October 2025" },
+    { author: "Evi", rating: 5, text: "Stephen and did a wonderful job for us! He was very informed and responsive, and they got out to take a look at what was going on the very next morning. Thankfully they didn't find anything serious in terms of water damage, and were extremely up front about the fact that there wouldn't need to be…", when: "October 2025" },
+    { author: "Christopher", rating: 5, text: "I was searching for a reputable company to assist my client with a quote for mold remediation and came across Steve with Dry County Restoration. He picked up my call immediately. I was very impressed at how fast I was able to go from 1st conversation to in person estimate within a day. As time is…", when: "October 2025" },
+  ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Corona, CA.",
   ctaLabel: "24/7 Emergency Line",
   // Vertical trade-identity copy — resolved at scaffold time from

@@ -40,9 +40,14 @@ export const brand = {
   sameAsUrls: ["https://www.google.com/maps?cid=14805396469301132499"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
-  gbpRatingValue: "",
-  gbpReviewCount: "",
-  gbpReviews: [] as { author: string; rating: number; text: string; when: string }[],
+  gbpRatingValue: "3.6",
+  gbpReviewCount: "12",
+  gbpReviews: [
+    { author: "Sue", rating: 5, text: "I had a great experience with FireDEX. They were great to work with. Quick to get me a quote and to schedule the repairs. The job they did turned out fantastic and I would call them again if the need arises. Hands Down Solid 5 Star!!", when: "August 2025" },
+    { author: "Jim", rating: 5, text: "Good company, their work speaks for itself,their team of professionals are friendly and knowledgeable.", when: "September 2023" },
+    { author: "Matt", rating: 5, text: "FireDex of Butler has always been there when I needed them. From restoration to construction, they have professionally performed several jobs for me. I would highly recommend this company for their service, expertise, and value.", when: "April 2020" },
+    { author: "Michael", rating: 5, text: "Big stone job underway when the mason crew discovered one of the biggest components of the job - our chimney - was decayed and structurally to weak to support the additional weight of stone veneer. Time is money and our stone masons needed to keep working. Fire Dex of Butler came in and…", when: "April 2019" },
+  ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "Water • Fire • Storm Restoration — 24/7 emergency response across Cranberry Township, Butler County and the Pittsburgh North suburbs since 1981.",
   ctaLabel: "24/7 Emergency Hotline",
 } as const;

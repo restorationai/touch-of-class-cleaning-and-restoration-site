@@ -48,9 +48,16 @@ export const brand = {
   sameAsUrls: [] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
-  gbpRatingValue: "",
-  gbpReviewCount: "",
-  gbpReviews: [] as { author: string; rating: number; text: string; when: string }[],
+  gbpRatingValue: "4.8",
+  gbpReviewCount: "244",
+  gbpReviews: [
+    { author: "Marcia", rating: 5, text: "I highly recommend Rudy and Life Savers Restoration! I had sudden water damage emergency at my townhome while living out of town, and Rudy came through on very short notice after being recommended by a friend. He kept me informed every step of the way, did an excellent job, and took the time to…", when: "July 2026" },
+    { author: "Martin", rating: 5, text: "The Life Savers team took care of our water damage and was done quickly, with as little disruption as possible. The team was professional. Rudy helped us through the process with the insurance company from start to finish.", when: "June 2026" },
+    { author: "Cindy", rating: 5, text: "Rudy was very helpful and informative. Made this process less stressful and was always available to answer any questions. His team was professional and very informative. Thank you all for making this process easier to navigate through, we appreciate you all.", when: "May 2026" },
+    { author: "Shelley", rating: 5, text: "We had a sewer line break and had sewage backed up in two bathrooms. Before we could fix the main line we had to get rid of the black water business. Called Life Savers and they went out to look at, quote , and do the clean up the same day! Very impressed! Very professional! If I ever need…", when: "May 2026" },
+    { author: "Larosha", rating: 5, text: "I highly recommend Life Savers, LLC! Their team is caring, dependable, and truly committed to providing outstanding service. From the very beginning, they have shown professionalism, kindness, and genuine compassion. It’s rare to find a company that consistently goes the extra mile, but Life…", when: "May 2026" },
+    { author: "Roy", rating: 5, text: "Had a water valve failure. Life Savers were prompt and cleaned up the mess so that restoration could begin. Great service. Great people. Would not hesitate to recommend or use again (hopefully I won't need them)", when: "March 2026" },
+  ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Henderson, NV.",
   ctaLabel: "24/7 Emergency Line",
   // Vertical trade-identity copy — resolved at scaffold time from

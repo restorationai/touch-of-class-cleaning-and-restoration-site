@@ -42,9 +42,16 @@ export const brand = {
   sameAsUrls: [] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
-  gbpRatingValue: "",
-  gbpReviewCount: "",
-  gbpReviews: [] as { author: string; rating: number; text: string; when: string }[],
+  gbpRatingValue: "5.0",
+  gbpReviewCount: "51",
+  gbpReviews: [
+    { author: "Tamera", rating: 5, text: "I highly recommend HomeLyft Restoration. When I first found them online, I was honestly a little nervous because I had never heard of them before. Hiring a company to restore your home after water damage is a big decision, and I wasn’t sure what to expect. I wondered if they would show up when they…", when: "July 2026" },
+    { author: "Virginia", rating: 5, text: "We had a major flooding issue at a family home, and Homelyft arrived within 30 minutes of our call, and immediately started the cleanup! They were incredibly knowledgeable, professional, and easy to work with every step of the way, and truly rescued us. We offer our highest recommendation. Thank…", when: "June 2026" },
+    { author: "Tyler", rating: 5, text: "Made an appointment and they were we at my house the next day, extremely professional and efficient! They were able to answer any question or concerns i had. Highly recommend this company!", when: "June 2026" },
+    { author: "Missy", rating: 5, text: "Josiah was very efficient and the crew was amazing. Good work!", when: "June 2026" },
+    { author: "Lindsay", rating: 5, text: "We can’t say enough great things about Homelyft Restoration. As a plumbing company, we encounter water damage situations regularly, and having a trusted, reliable restoration partner is essential. The Homelyft team consistently delivers prompt response times, clear communication, and high-quality…", when: "April 2026" },
+    { author: "Laura", rating: 5, text: "HomeLyft did a phenomenal job repairing and restoring a roof leak and the damage it caused. I would definitely recommend this locally owned and family operated company!😃", when: "March 2026" },
+  ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Gulfport, MS.",
   ctaLabel: "24/7 Emergency Line",
   // Vertical trade-identity copy — resolved at scaffold time from
