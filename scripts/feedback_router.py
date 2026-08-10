@@ -241,8 +241,14 @@ def risk_verdict(fb: dict, *, site_live: bool, has_site: bool) -> tuple[str, str
     # --- category-level stops --------------------------------------------
     if cat not in AUTO_CATEGORIES:
         return "propose", _NEVER_AUTO_WHY.get(cat, _NEVER_AUTO_WHY["other"])
-    if conf != "high":
-        return "propose", f"classifier confidence was {conf}, not high"
+    # BULLISH AUTO-RUN (Santino 2026-08-09, HomeLyft postmortem: Terry's
+    # verbatim headline swap sat 5 days as a proposal): medium confidence
+    # runs too. Only genuine uncertainty stops — "low" means the classifier
+    # could not really tell what they want, so a human still reads it. The
+    # risk regexes above (money, claims, removals, complaints) still stop
+    # everything regardless of confidence.
+    if conf not in ("high", "medium"):
+        return "propose", f"classifier confidence was {conf} — genuinely unclear what they want"
 
     # --- live-production stops -------------------------------------------
     if site_live:
