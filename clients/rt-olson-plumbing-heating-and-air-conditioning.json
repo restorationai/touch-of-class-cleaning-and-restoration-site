@@ -1,9 +1,17 @@
 {
- "slug": "rt-olson-plumbing-heating-and-air-conditioning",
- "display_name": "RT Olson Plumbing, Heating and Air Conditioning",
- "domain": "rtolsonplumbing.com",
- "tier": "standard",
- "vertical": "plumbing",
- "contact": "office@rtoplumbing.com",
- "status": "onboarding"
+  "slug": "rt-olson-plumbing-heating-and-air-conditioning",
+  "display_name": "RT Olson Plumbing, Heating and Air Conditioning",
+  "domain": "rtolsonplumbing.com",
+  "tier": "standard",
+  "vertical": "plumbing",
+  "contact": "office@rtoplumbing.com",
+  "status": "onboarding",
+  "plan_status": "planned",
+  "plan": {
+    "template": "plumbing",
+    "template_version": "0.1.0",
+    "url_count": 41,
+    "generated_at": "2026-08-10T03:41:21.110293+00:00"
+  },
+  "updated_at": "2026-08-10T03:41:21.110296+00:00"
 }

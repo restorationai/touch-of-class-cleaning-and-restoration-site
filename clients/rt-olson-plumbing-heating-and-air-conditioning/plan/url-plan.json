@@ -1,0 +1,1624 @@
+{
+  "template": "plumbing",
+  "template_version": "0.1.0",
+  "generated_at": "2026-08-10T03:41:21.106301+00:00",
+  "input_summary": {
+    "service_count": 2,
+    "service_area_count": 9,
+    "cross_product": true,
+    "blog_seed_count": 8
+  },
+  "pages": [
+    {
+      "url_path": "/",
+      "archetype": "home",
+      "vars_keys": [],
+      "title": "RT Olson Plumbing, Heating and Air Conditioning | Plumbing, Heating & Air in Corona, CA",
+      "h1": "24/7 Plumbing, Heating and Air in Corona",
+      "meta_description": "RT Olson Plumbing, Heating and Air Conditioning provides 24/7 emergency plumbing plus heating and air conditioning service across Corona and surrounding areas. Licensed and insured. Call (951) 344-5596.",
+      "primary_keyword": "plumber corona",
+      "secondary_keywords": [
+        "plumber near me",
+        "emergency plumber corona",
+        "hvac company corona"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 1200,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2",
+        "inline-3"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "aggregate-rating"
+      ],
+      "priority": 5.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/service-areas/",
+        "/contact/",
+        "/about/",
+        "/services/emergency-plumbing/",
+        "/services/leak-detection/",
+        "/service-areas/corona-ca/",
+        "/service-areas/anaheim-ca/",
+        "/service-areas/chino-ca/",
+        "/service-areas/fullerton-ca/",
+        "/service-areas/norco-ca/",
+        "/service-areas/ontario-ca/",
+        "/service-areas/riverside-ca/",
+        "/service-areas/santa-ana-ca/",
+        "/service-areas/yorba-linda-ca/"
+      ]
+    },
+    {
+      "url_path": "/services/",
+      "archetype": "services-hub",
+      "vars_keys": [],
+      "title": "Plumbing, Heating & Air Services in Corona | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Our Plumbing, Heating and Air Services",
+      "meta_description": "Full-service plumbing and HVAC in Corona: drains, water heaters, sewer lines, gas lines, furnaces, and air conditioning. Call (951) 344-5596 for 24/7 emergency service.",
+      "primary_keyword": "plumbing services corona",
+      "secondary_keywords": [
+        "plumbing services",
+        "hvac services",
+        "heating and cooling services"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 800,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "breadcrumb-list"
+      ],
+      "priority": 4.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/services/emergency-plumbing/",
+        "/services/leak-detection/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/",
+      "archetype": "service-areas-hub",
+      "vars_keys": [],
+      "title": "Service Areas | RT Olson Plumbing, Heating and Air Conditioning Plumbing, Heating & Air",
+      "h1": "Areas We Serve",
+      "meta_description": "RT Olson Plumbing, Heating and Air Conditioning provides plumbing, heating, and air conditioning service across Corona and the surrounding region. Find your city.",
+      "primary_keyword": "rt olson plumbing, heating and air conditioning service areas",
+      "secondary_keywords": [
+        "plumber service area",
+        "cities we serve",
+        "local hvac coverage"
+      ],
+      "search_intent": "navigational_local",
+      "target_word_count": 500,
+      "image_roles": [
+        "hero",
+        "og"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/service-areas/corona-ca/",
+        "/service-areas/anaheim-ca/",
+        "/service-areas/chino-ca/",
+        "/service-areas/fullerton-ca/",
+        "/service-areas/norco-ca/",
+        "/service-areas/ontario-ca/",
+        "/service-areas/riverside-ca/",
+        "/service-areas/santa-ana-ca/",
+        "/service-areas/yorba-linda-ca/"
+      ]
+    },
+    {
+      "url_path": "/blog/",
+      "archetype": "blog-index",
+      "vars_keys": [],
+      "title": "Plumbing & HVAC Blog | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Plumbing, Heating and Air Resources",
+      "meta_description": "Guides, checklists, and explainers from RT Olson Plumbing, Heating and Air Conditioning on plumbing, water heaters, drains, heating, and air conditioning.",
+      "primary_keyword": "plumbing blog corona",
+      "secondary_keywords": [
+        "plumbing guides",
+        "water heater tips",
+        "hvac maintenance insights"
+      ],
+      "search_intent": "informational_browse",
+      "target_word_count": 300,
+      "image_roles": [
+        "hero",
+        "og"
+      ],
+      "schema_stubs": [
+        "website",
+        "breadcrumb-list"
+      ],
+      "priority": 3.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/blog/what-to-do-burst-pipe/",
+        "/blog/low-water-pressure-causes/",
+        "/blog/signs-of-a-slab-leak/"
+      ]
+    },
+    {
+      "url_path": "/about/",
+      "archetype": "about",
+      "vars_keys": [],
+      "title": "About RT Olson Plumbing, Heating and Air Conditioning | Corona Plumbing & HVAC Company",
+      "h1": "About RT Olson Plumbing, Heating and Air Conditioning",
+      "meta_description": "RT Olson Plumbing, Heating and Air Conditioning has served Corona since 2014. Meet our licensed plumbing and HVAC team. Licensed, insured, locally owned.",
+      "primary_keyword": "rt olson plumbing, heating and air conditioning corona",
+      "secondary_keywords": [
+        "local plumbing company",
+        "licensed plumbing contractor",
+        "insured hvac contractor"
+      ],
+      "search_intent": "navigational_trust",
+      "target_word_count": 700,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "aggregate-rating",
+        "breadcrumb-list"
+      ],
+      "priority": 2.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/contact/",
+      "archetype": "contact",
+      "vars_keys": [],
+      "title": "Contact RT Olson Plumbing, Heating and Air Conditioning | 24/7 Plumbing & HVAC in Corona",
+      "h1": "Contact RT Olson Plumbing, Heating and Air Conditioning",
+      "meta_description": "Call (951) 344-5596 for 24/7 emergency plumbing or to schedule heating and air service in Corona and surrounding areas. Free estimates. Licensed and insured.",
+      "primary_keyword": "rt olson plumbing, heating and air conditioning contact",
+      "secondary_keywords": [
+        "plumbing company contact",
+        "emergency plumber phone",
+        "hvac service near me"
+      ],
+      "search_intent": "navigational_action",
+      "target_word_count": 400,
+      "image_roles": [
+        "hero",
+        "og"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "breadcrumb-list"
+      ],
+      "priority": 2.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/services/",
+        "/service-areas/"
+      ]
+    },
+    {
+      "url_path": "/services/emergency-plumbing/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Emergency Plumbing in Corona | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Emergency Plumbing in Corona",
+      "meta_description": "Trusted emergency plumbing in Corona and surrounding areas. Licensed and insured plumbing and HVAC pros, upfront pricing, free estimates. Call (951) 344-5596.",
+      "primary_keyword": "emergency plumbing corona",
+      "secondary_keywords": [
+        "emergency plumber",
+        "24 hour plumber",
+        "after hours plumber",
+        "plumber near me now",
+        "same day plumbing repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 9.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/anaheim-ca/emergency-plumbing/",
+        "/service-areas/chino-ca/emergency-plumbing/",
+        "/service-areas/corona-ca/emergency-plumbing/",
+        "/service-areas/fullerton-ca/emergency-plumbing/",
+        "/service-areas/norco-ca/emergency-plumbing/",
+        "/service-areas/ontario-ca/emergency-plumbing/",
+        "/service-areas/riverside-ca/emergency-plumbing/",
+        "/service-areas/santa-ana-ca/emergency-plumbing/",
+        "/service-areas/yorba-linda-ca/emergency-plumbing/",
+        "/blog/what-to-do-burst-pipe/"
+      ]
+    },
+    {
+      "url_path": "/services/leak-detection/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Leak Detection in Corona | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Leak Detection in Corona",
+      "meta_description": "Trusted leak detection in Corona and surrounding areas. Licensed and insured plumbing and HVAC pros, upfront pricing, free estimates. Call (951) 344-5596.",
+      "primary_keyword": "leak detection corona",
+      "secondary_keywords": [
+        "water leak detection",
+        "electronic leak detection",
+        "hidden leak detection",
+        "high water bill leak",
+        "underground water leak detection"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/anaheim-ca/leak-detection/",
+        "/service-areas/chino-ca/leak-detection/",
+        "/service-areas/corona-ca/leak-detection/",
+        "/service-areas/fullerton-ca/leak-detection/",
+        "/service-areas/norco-ca/leak-detection/",
+        "/service-areas/ontario-ca/leak-detection/",
+        "/service-areas/riverside-ca/leak-detection/",
+        "/service-areas/santa-ana-ca/leak-detection/",
+        "/service-areas/yorba-linda-ca/leak-detection/",
+        "/blog/low-water-pressure-causes/",
+        "/blog/signs-of-a-slab-leak/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/corona-ca/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Plumbing, Heating & Air in Corona, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Plumbing, Heating and Air in Corona",
+      "meta_description": "Serving Corona, CA with 24/7 emergency plumbing plus heating and air conditioning service. Licensed and insured. Call (951) 344-5596.",
+      "primary_keyword": "plumber corona",
+      "secondary_keywords": [
+        "corona plumbing company",
+        "emergency plumber corona",
+        "corona hvac company"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 7.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/corona-ca/emergency-plumbing/",
+        "/service-areas/corona-ca/leak-detection/",
+        "/service-areas/anaheim-ca/",
+        "/service-areas/chino-ca/",
+        "/service-areas/fullerton-ca/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/riverside-ca/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Plumbing, Heating & Air in Riverside, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Plumbing, Heating and Air in Riverside",
+      "meta_description": "Serving Riverside, CA with 24/7 emergency plumbing plus heating and air conditioning service. Licensed and insured. Call (951) 344-5596.",
+      "primary_keyword": "plumber riverside",
+      "secondary_keywords": [
+        "riverside plumbing company",
+        "emergency plumber riverside",
+        "riverside hvac company"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/riverside-ca/emergency-plumbing/",
+        "/service-areas/riverside-ca/leak-detection/",
+        "/service-areas/corona-ca/",
+        "/service-areas/anaheim-ca/",
+        "/service-areas/chino-ca/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/anaheim-ca/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Plumbing, Heating & Air in Anaheim, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Plumbing, Heating and Air in Anaheim",
+      "meta_description": "Serving Anaheim, CA with 24/7 emergency plumbing plus heating and air conditioning service. Licensed and insured. Call (951) 344-5596.",
+      "primary_keyword": "plumber anaheim",
+      "secondary_keywords": [
+        "anaheim plumbing company",
+        "emergency plumber anaheim",
+        "anaheim hvac company"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/anaheim-ca/emergency-plumbing/",
+        "/service-areas/anaheim-ca/leak-detection/",
+        "/service-areas/corona-ca/",
+        "/service-areas/chino-ca/",
+        "/service-areas/fullerton-ca/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/santa-ana-ca/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Plumbing, Heating & Air in Santa Ana, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Plumbing, Heating and Air in Santa Ana",
+      "meta_description": "Serving Santa Ana, CA with 24/7 emergency plumbing plus heating and air conditioning service. Licensed and insured. Call (951) 344-5596.",
+      "primary_keyword": "plumber santa ana",
+      "secondary_keywords": [
+        "santa ana plumbing company",
+        "emergency plumber santa ana",
+        "santa ana hvac company"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/santa-ana-ca/emergency-plumbing/",
+        "/service-areas/santa-ana-ca/leak-detection/",
+        "/service-areas/corona-ca/",
+        "/service-areas/anaheim-ca/",
+        "/service-areas/chino-ca/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/fullerton-ca/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Plumbing, Heating & Air in Fullerton, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Plumbing, Heating and Air in Fullerton",
+      "meta_description": "Serving Fullerton, CA with 24/7 emergency plumbing plus heating and air conditioning service. Licensed and insured. Call (951) 344-5596.",
+      "primary_keyword": "plumber fullerton",
+      "secondary_keywords": [
+        "fullerton plumbing company",
+        "emergency plumber fullerton",
+        "fullerton hvac company"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/fullerton-ca/emergency-plumbing/",
+        "/service-areas/fullerton-ca/leak-detection/",
+        "/service-areas/corona-ca/",
+        "/service-areas/anaheim-ca/",
+        "/service-areas/chino-ca/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ontario-ca/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Plumbing, Heating & Air in Ontario, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Plumbing, Heating and Air in Ontario",
+      "meta_description": "Serving Ontario, CA with 24/7 emergency plumbing plus heating and air conditioning service. Licensed and insured. Call (951) 344-5596.",
+      "primary_keyword": "plumber ontario",
+      "secondary_keywords": [
+        "ontario plumbing company",
+        "emergency plumber ontario",
+        "ontario hvac company"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/ontario-ca/emergency-plumbing/",
+        "/service-areas/ontario-ca/leak-detection/",
+        "/service-areas/corona-ca/",
+        "/service-areas/anaheim-ca/",
+        "/service-areas/chino-ca/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/chino-ca/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Plumbing, Heating & Air in Chino, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Plumbing, Heating and Air in Chino",
+      "meta_description": "Serving Chino, CA with 24/7 emergency plumbing plus heating and air conditioning service. Licensed and insured. Call (951) 344-5596.",
+      "primary_keyword": "plumber chino",
+      "secondary_keywords": [
+        "chino plumbing company",
+        "emergency plumber chino",
+        "chino hvac company"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/chino-ca/emergency-plumbing/",
+        "/service-areas/chino-ca/leak-detection/",
+        "/service-areas/corona-ca/",
+        "/service-areas/anaheim-ca/",
+        "/service-areas/fullerton-ca/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/norco-ca/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Plumbing, Heating & Air in Norco, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Plumbing, Heating and Air in Norco",
+      "meta_description": "Serving Norco, CA with 24/7 emergency plumbing plus heating and air conditioning service. Licensed and insured. Call (951) 344-5596.",
+      "primary_keyword": "plumber norco",
+      "secondary_keywords": [
+        "norco plumbing company",
+        "emergency plumber norco",
+        "norco hvac company"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/norco-ca/emergency-plumbing/",
+        "/service-areas/norco-ca/leak-detection/",
+        "/service-areas/corona-ca/",
+        "/service-areas/anaheim-ca/",
+        "/service-areas/chino-ca/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/yorba-linda-ca/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Plumbing, Heating & Air in Yorba Linda, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Plumbing, Heating and Air in Yorba Linda",
+      "meta_description": "Serving Yorba Linda, CA with 24/7 emergency plumbing plus heating and air conditioning service. Licensed and insured. Call (951) 344-5596.",
+      "primary_keyword": "plumber yorba linda",
+      "secondary_keywords": [
+        "yorba linda plumbing company",
+        "emergency plumber yorba linda",
+        "yorba linda hvac company"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/yorba-linda-ca/emergency-plumbing/",
+        "/service-areas/yorba-linda-ca/leak-detection/",
+        "/service-areas/corona-ca/",
+        "/service-areas/anaheim-ca/",
+        "/service-areas/chino-ca/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/corona-ca/emergency-plumbing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Plumbing in Corona, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Emergency Plumbing in Corona",
+      "meta_description": "Trusted emergency plumbing in Corona, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "emergency plumbing corona",
+      "secondary_keywords": [
+        "emergency plumber",
+        "24 hour plumber",
+        "after hours plumber",
+        "plumber near me now",
+        "same day plumbing repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-plumbing/",
+        "/service-areas/corona-ca/",
+        "/service-areas/corona-ca/leak-detection/",
+        "/service-areas/anaheim-ca/emergency-plumbing/",
+        "/service-areas/chino-ca/emergency-plumbing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/corona-ca/leak-detection/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Leak Detection in Corona, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Leak Detection in Corona",
+      "meta_description": "Trusted leak detection in Corona, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "leak detection corona",
+      "secondary_keywords": [
+        "water leak detection",
+        "electronic leak detection",
+        "hidden leak detection",
+        "high water bill leak",
+        "underground water leak detection"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/leak-detection/",
+        "/service-areas/corona-ca/",
+        "/service-areas/corona-ca/emergency-plumbing/",
+        "/service-areas/anaheim-ca/leak-detection/",
+        "/service-areas/chino-ca/leak-detection/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/riverside-ca/emergency-plumbing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Plumbing in Riverside, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Emergency Plumbing in Riverside",
+      "meta_description": "Trusted emergency plumbing in Riverside, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "emergency plumbing riverside",
+      "secondary_keywords": [
+        "emergency plumber",
+        "24 hour plumber",
+        "after hours plumber",
+        "plumber near me now",
+        "same day plumbing repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-plumbing/",
+        "/service-areas/riverside-ca/",
+        "/service-areas/riverside-ca/leak-detection/",
+        "/service-areas/anaheim-ca/emergency-plumbing/",
+        "/service-areas/chino-ca/emergency-plumbing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/riverside-ca/leak-detection/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Leak Detection in Riverside, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Leak Detection in Riverside",
+      "meta_description": "Trusted leak detection in Riverside, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "leak detection riverside",
+      "secondary_keywords": [
+        "water leak detection",
+        "electronic leak detection",
+        "hidden leak detection",
+        "high water bill leak",
+        "underground water leak detection"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/leak-detection/",
+        "/service-areas/riverside-ca/",
+        "/service-areas/riverside-ca/emergency-plumbing/",
+        "/service-areas/anaheim-ca/leak-detection/",
+        "/service-areas/chino-ca/leak-detection/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/anaheim-ca/emergency-plumbing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Plumbing in Anaheim, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Emergency Plumbing in Anaheim",
+      "meta_description": "Trusted emergency plumbing in Anaheim, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "emergency plumbing anaheim",
+      "secondary_keywords": [
+        "emergency plumber",
+        "24 hour plumber",
+        "after hours plumber",
+        "plumber near me now",
+        "same day plumbing repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-plumbing/",
+        "/service-areas/anaheim-ca/",
+        "/service-areas/anaheim-ca/leak-detection/",
+        "/service-areas/chino-ca/emergency-plumbing/",
+        "/service-areas/corona-ca/emergency-plumbing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/anaheim-ca/leak-detection/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Leak Detection in Anaheim, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Leak Detection in Anaheim",
+      "meta_description": "Trusted leak detection in Anaheim, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "leak detection anaheim",
+      "secondary_keywords": [
+        "water leak detection",
+        "electronic leak detection",
+        "hidden leak detection",
+        "high water bill leak",
+        "underground water leak detection"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/leak-detection/",
+        "/service-areas/anaheim-ca/",
+        "/service-areas/anaheim-ca/emergency-plumbing/",
+        "/service-areas/chino-ca/leak-detection/",
+        "/service-areas/corona-ca/leak-detection/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/santa-ana-ca/emergency-plumbing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Plumbing in Santa Ana, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Emergency Plumbing in Santa Ana",
+      "meta_description": "Trusted emergency plumbing in Santa Ana, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "emergency plumbing santa ana",
+      "secondary_keywords": [
+        "emergency plumber",
+        "24 hour plumber",
+        "after hours plumber",
+        "plumber near me now",
+        "same day plumbing repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-plumbing/",
+        "/service-areas/santa-ana-ca/",
+        "/service-areas/santa-ana-ca/leak-detection/",
+        "/service-areas/anaheim-ca/emergency-plumbing/",
+        "/service-areas/chino-ca/emergency-plumbing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/santa-ana-ca/leak-detection/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Leak Detection in Santa Ana, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Leak Detection in Santa Ana",
+      "meta_description": "Trusted leak detection in Santa Ana, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "leak detection santa ana",
+      "secondary_keywords": [
+        "water leak detection",
+        "electronic leak detection",
+        "hidden leak detection",
+        "high water bill leak",
+        "underground water leak detection"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/leak-detection/",
+        "/service-areas/santa-ana-ca/",
+        "/service-areas/santa-ana-ca/emergency-plumbing/",
+        "/service-areas/anaheim-ca/leak-detection/",
+        "/service-areas/chino-ca/leak-detection/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/fullerton-ca/emergency-plumbing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Plumbing in Fullerton, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Emergency Plumbing in Fullerton",
+      "meta_description": "Trusted emergency plumbing in Fullerton, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "emergency plumbing fullerton",
+      "secondary_keywords": [
+        "emergency plumber",
+        "24 hour plumber",
+        "after hours plumber",
+        "plumber near me now",
+        "same day plumbing repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-plumbing/",
+        "/service-areas/fullerton-ca/",
+        "/service-areas/fullerton-ca/leak-detection/",
+        "/service-areas/anaheim-ca/emergency-plumbing/",
+        "/service-areas/chino-ca/emergency-plumbing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/fullerton-ca/leak-detection/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Leak Detection in Fullerton, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Leak Detection in Fullerton",
+      "meta_description": "Trusted leak detection in Fullerton, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "leak detection fullerton",
+      "secondary_keywords": [
+        "water leak detection",
+        "electronic leak detection",
+        "hidden leak detection",
+        "high water bill leak",
+        "underground water leak detection"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/leak-detection/",
+        "/service-areas/fullerton-ca/",
+        "/service-areas/fullerton-ca/emergency-plumbing/",
+        "/service-areas/anaheim-ca/leak-detection/",
+        "/service-areas/chino-ca/leak-detection/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ontario-ca/emergency-plumbing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Plumbing in Ontario, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Emergency Plumbing in Ontario",
+      "meta_description": "Trusted emergency plumbing in Ontario, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "emergency plumbing ontario",
+      "secondary_keywords": [
+        "emergency plumber",
+        "24 hour plumber",
+        "after hours plumber",
+        "plumber near me now",
+        "same day plumbing repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-plumbing/",
+        "/service-areas/ontario-ca/",
+        "/service-areas/ontario-ca/leak-detection/",
+        "/service-areas/anaheim-ca/emergency-plumbing/",
+        "/service-areas/chino-ca/emergency-plumbing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ontario-ca/leak-detection/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Leak Detection in Ontario, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Leak Detection in Ontario",
+      "meta_description": "Trusted leak detection in Ontario, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "leak detection ontario",
+      "secondary_keywords": [
+        "water leak detection",
+        "electronic leak detection",
+        "hidden leak detection",
+        "high water bill leak",
+        "underground water leak detection"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/leak-detection/",
+        "/service-areas/ontario-ca/",
+        "/service-areas/ontario-ca/emergency-plumbing/",
+        "/service-areas/anaheim-ca/leak-detection/",
+        "/service-areas/chino-ca/leak-detection/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/chino-ca/emergency-plumbing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Plumbing in Chino, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Emergency Plumbing in Chino",
+      "meta_description": "Trusted emergency plumbing in Chino, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "emergency plumbing chino",
+      "secondary_keywords": [
+        "emergency plumber",
+        "24 hour plumber",
+        "after hours plumber",
+        "plumber near me now",
+        "same day plumbing repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-plumbing/",
+        "/service-areas/chino-ca/",
+        "/service-areas/chino-ca/leak-detection/",
+        "/service-areas/anaheim-ca/emergency-plumbing/",
+        "/service-areas/corona-ca/emergency-plumbing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/chino-ca/leak-detection/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Leak Detection in Chino, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Leak Detection in Chino",
+      "meta_description": "Trusted leak detection in Chino, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "leak detection chino",
+      "secondary_keywords": [
+        "water leak detection",
+        "electronic leak detection",
+        "hidden leak detection",
+        "high water bill leak",
+        "underground water leak detection"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/leak-detection/",
+        "/service-areas/chino-ca/",
+        "/service-areas/chino-ca/emergency-plumbing/",
+        "/service-areas/anaheim-ca/leak-detection/",
+        "/service-areas/corona-ca/leak-detection/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/norco-ca/emergency-plumbing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Plumbing in Norco, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Emergency Plumbing in Norco",
+      "meta_description": "Trusted emergency plumbing in Norco, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "emergency plumbing norco",
+      "secondary_keywords": [
+        "emergency plumber",
+        "24 hour plumber",
+        "after hours plumber",
+        "plumber near me now",
+        "same day plumbing repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-plumbing/",
+        "/service-areas/norco-ca/",
+        "/service-areas/norco-ca/leak-detection/",
+        "/service-areas/anaheim-ca/emergency-plumbing/",
+        "/service-areas/chino-ca/emergency-plumbing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/norco-ca/leak-detection/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Leak Detection in Norco, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Leak Detection in Norco",
+      "meta_description": "Trusted leak detection in Norco, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "leak detection norco",
+      "secondary_keywords": [
+        "water leak detection",
+        "electronic leak detection",
+        "hidden leak detection",
+        "high water bill leak",
+        "underground water leak detection"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/leak-detection/",
+        "/service-areas/norco-ca/",
+        "/service-areas/norco-ca/emergency-plumbing/",
+        "/service-areas/anaheim-ca/leak-detection/",
+        "/service-areas/chino-ca/leak-detection/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/yorba-linda-ca/emergency-plumbing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Plumbing in Yorba Linda, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Emergency Plumbing in Yorba Linda",
+      "meta_description": "Trusted emergency plumbing in Yorba Linda, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "emergency plumbing yorba linda",
+      "secondary_keywords": [
+        "emergency plumber",
+        "24 hour plumber",
+        "after hours plumber",
+        "plumber near me now",
+        "same day plumbing repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-plumbing/",
+        "/service-areas/yorba-linda-ca/",
+        "/service-areas/yorba-linda-ca/leak-detection/",
+        "/service-areas/anaheim-ca/emergency-plumbing/",
+        "/service-areas/chino-ca/emergency-plumbing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/yorba-linda-ca/leak-detection/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Leak Detection in Yorba Linda, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Leak Detection in Yorba Linda",
+      "meta_description": "Trusted leak detection in Yorba Linda, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "leak detection yorba linda",
+      "secondary_keywords": [
+        "water leak detection",
+        "electronic leak detection",
+        "hidden leak detection",
+        "high water bill leak",
+        "underground water leak detection"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/leak-detection/",
+        "/service-areas/yorba-linda-ca/",
+        "/service-areas/yorba-linda-ca/emergency-plumbing/",
+        "/service-areas/anaheim-ca/leak-detection/",
+        "/service-areas/chino-ca/leak-detection/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/blog/what-to-do-burst-pipe/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Pipe Burst? What To Do in the First 10 Minutes",
+      "h1": "Pipe Burst? What To Do in the First 10 Minutes",
+      "meta_description": "",
+      "primary_keyword": "pipe burst what to do in the first 10 minutes",
+      "secondary_keywords": [
+        "burst and leaking pipe repair",
+        "emergency plumbing"
+      ],
+      "search_intent": "informational_emergency",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/emergency-plumbing/"
+      ]
+    },
+    {
+      "url_path": "/blog/signs-of-a-slab-leak/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "7 Warning Signs of a Slab Leak (and What To Do About Them)",
+      "h1": "7 Warning Signs of a Slab Leak (and What To Do About Them)",
+      "meta_description": "",
+      "primary_keyword": "7 warning signs of a slab leak and what to do about them",
+      "secondary_keywords": [
+        "slab leak repair",
+        "leak detection"
+      ],
+      "search_intent": "informational_symptom",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/leak-detection/",
+        "/blog/low-water-pressure-causes/"
+      ]
+    },
+    {
+      "url_path": "/blog/low-water-pressure-causes/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Low Water Pressure in Your House? Here Are the Usual Suspects",
+      "h1": "Low Water Pressure in Your House? Here Are the Usual Suspects",
+      "meta_description": "",
+      "primary_keyword": "low water pressure in your house here are the usual suspects",
+      "secondary_keywords": [
+        "whole-house repiping",
+        "leak detection"
+      ],
+      "search_intent": "informational_symptom",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/leak-detection/",
+        "/blog/signs-of-a-slab-leak/"
+      ]
+    },
+    {
+      "url_path": "/privacy/",
+      "archetype": "legal",
+      "vars_keys": [
+        "instance"
+      ],
+      "title": "Privacy Policy | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Privacy Policy",
+      "meta_description": "Privacy Policy | {brand.display_name}.",
+      "primary_keyword": "rt olson plumbing, heating and air conditioning privacy",
+      "secondary_keywords": [],
+      "search_intent": "navigational_legal",
+      "target_word_count": 600,
+      "image_roles": [
+        "og"
+      ],
+      "schema_stubs": [],
+      "priority": 1.0,
+      "status": "planned",
+      "internal_links_out": []
+    },
+    {
+      "url_path": "/terms/",
+      "archetype": "legal",
+      "vars_keys": [
+        "instance"
+      ],
+      "title": "Terms of Service | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Terms of Service",
+      "meta_description": "Terms of Service | {brand.display_name}.",
+      "primary_keyword": "rt olson plumbing, heating and air conditioning terms",
+      "secondary_keywords": [],
+      "search_intent": "navigational_legal",
+      "target_word_count": 600,
+      "image_roles": [
+        "og"
+      ],
+      "schema_stubs": [],
+      "priority": 1.0,
+      "status": "planned",
+      "internal_links_out": []
+    },
+    {
+      "url_path": "/accessibility/",
+      "archetype": "legal",
+      "vars_keys": [
+        "instance"
+      ],
+      "title": "Accessibility Statement | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Accessibility Statement",
+      "meta_description": "Accessibility Statement | {brand.display_name}.",
+      "primary_keyword": "rt olson plumbing, heating and air conditioning accessibility",
+      "secondary_keywords": [],
+      "search_intent": "navigational_legal",
+      "target_word_count": 400,
+      "image_roles": [
+        "og"
+      ],
+      "schema_stubs": [],
+      "priority": 1.0,
+      "status": "planned",
+      "internal_links_out": []
+    }
+  ]
+}
