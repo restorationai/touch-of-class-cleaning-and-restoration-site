@@ -87,6 +87,14 @@ Rules specific to these:
 These are the jobs that used to be manual agent work. Use the existing
 scripts — do not hand-roll a replacement.
 
+### Imagery doctrine (REVERSED 2026-08-10, Santino): AI-FIRST fleet-wide.
+Default to the polished AI-generated look for ~90% of site imagery (hero,
+team, services, service cards). The client's REAL photos serve as livery,
+PPE and equipment REFERENCES for generation, and hold a slot outright only
+when the photo is exceptional or the client asks for real. (Rudy's About
+photo — two guys pressure washing standing in for a "team" — is why:
+mediocre real beats nothing, but polished AI beats mediocre real.)
+
 ### Imagery: "the photos are wrong"
 
 Wrong uniform, wrong PPE, wrong vehicle, wrong gear, distorted people, wrong
