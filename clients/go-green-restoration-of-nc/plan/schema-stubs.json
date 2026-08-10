@@ -68,6 +68,16 @@
     ],
     "missing_stubs": []
   },
+  "/services/fire-damage-restoration/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/services/mold-remediation/": {
     "archetype": "service-landing",
     "stubs": [
@@ -200,6 +210,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/middlesex-nc/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/middlesex-nc/mold-remediation/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -251,6 +271,16 @@
     "missing_stubs": []
   },
   "/service-areas/raleigh-nc/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/raleigh-nc/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -320,6 +350,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/durham-nc/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/durham-nc/mold-remediation/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -371,6 +411,16 @@
     "missing_stubs": []
   },
   "/service-areas/rocky-mount-nc/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/rocky-mount-nc/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -440,6 +490,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/wilson-nc/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/wilson-nc/mold-remediation/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -491,6 +551,16 @@
     "missing_stubs": []
   },
   "/service-areas/smithfield-nc/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/smithfield-nc/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -560,6 +630,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/wake-forest-nc/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/wake-forest-nc/mold-remediation/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -611,6 +691,16 @@
     "missing_stubs": []
   },
   "/service-areas/zebulon-nc/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/zebulon-nc/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -715,6 +805,15 @@
     ],
     "missing_stubs": []
   },
+  "/blog/fire-damage-restoration-process/": {
+    "archetype": "blog-post",
+    "stubs": [
+      "blog-posting",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/blog/choosing-a-restoration-company/": {
     "archetype": "blog-post",
     "stubs": [
@@ -725,15 +824,6 @@
     "missing_stubs": []
   },
   "/blog/black-mold-vs-regular-mold/": {
-    "archetype": "blog-post",
-    "stubs": [
-      "blog-posting",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/blog/how-long-does-water-damage-restoration-take/": {
     "archetype": "blog-post",
     "stubs": [
       "blog-posting",

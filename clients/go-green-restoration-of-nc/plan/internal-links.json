@@ -4,6 +4,7 @@
     "/service-areas/",
     "/contact/",
     "/about/",
+    "/services/fire-damage-restoration/",
     "/services/mold-remediation/",
     "/services/water-damage-restoration/",
     "/services/air-duct-cleaning/",
@@ -21,6 +22,7 @@
   ],
   "/services/": [
     "/",
+    "/services/fire-damage-restoration/",
     "/services/mold-remediation/",
     "/services/water-damage-restoration/",
     "/services/air-duct-cleaning/",
@@ -45,10 +47,10 @@
     "/blog/what-to-do-first-24-hours-water-damage/",
     "/blog/choosing-a-restoration-company/",
     "/blog/does-homeowners-insurance-cover-water-damage/",
+    "/blog/fire-damage-restoration-process/",
     "/blog/how-to-test-for-mold/",
     "/blog/signs-of-hidden-mold/",
-    "/blog/black-mold-vs-regular-mold/",
-    "/blog/how-long-does-water-damage-restoration-take/"
+    "/blog/black-mold-vs-regular-mold/"
   ],
   "/about/": [
     "/",
@@ -74,6 +76,20 @@
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
     "/blog/choosing-a-restoration-company/"
+  ],
+  "/services/fire-damage-restoration/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/durham-nc/fire-damage-restoration/",
+    "/service-areas/middlesex-nc/fire-damage-restoration/",
+    "/service-areas/raleigh-nc/fire-damage-restoration/",
+    "/service-areas/rocky-mount-nc/fire-damage-restoration/",
+    "/service-areas/smithfield-nc/fire-damage-restoration/",
+    "/service-areas/wake-forest-nc/fire-damage-restoration/",
+    "/service-areas/wilson-nc/fire-damage-restoration/",
+    "/service-areas/zebulon-nc/fire-damage-restoration/",
+    "/blog/choosing-a-restoration-company/",
+    "/blog/fire-damage-restoration-process/"
   ],
   "/services/mold-remediation/": [
     "/services/",
@@ -141,6 +157,7 @@
   "/service-areas/middlesex-nc/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/middlesex-nc/fire-damage-restoration/",
     "/service-areas/middlesex-nc/mold-remediation/",
     "/service-areas/middlesex-nc/water-damage-restoration/",
     "/service-areas/middlesex-nc/air-duct-cleaning/",
@@ -154,6 +171,7 @@
   "/service-areas/raleigh-nc/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/raleigh-nc/fire-damage-restoration/",
     "/service-areas/raleigh-nc/mold-remediation/",
     "/service-areas/raleigh-nc/water-damage-restoration/",
     "/service-areas/raleigh-nc/air-duct-cleaning/",
@@ -167,6 +185,7 @@
   "/service-areas/durham-nc/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/durham-nc/fire-damage-restoration/",
     "/service-areas/durham-nc/mold-remediation/",
     "/service-areas/durham-nc/water-damage-restoration/",
     "/service-areas/durham-nc/air-duct-cleaning/",
@@ -180,6 +199,7 @@
   "/service-areas/rocky-mount-nc/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/rocky-mount-nc/fire-damage-restoration/",
     "/service-areas/rocky-mount-nc/mold-remediation/",
     "/service-areas/rocky-mount-nc/water-damage-restoration/",
     "/service-areas/rocky-mount-nc/air-duct-cleaning/",
@@ -193,6 +213,7 @@
   "/service-areas/wilson-nc/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/wilson-nc/fire-damage-restoration/",
     "/service-areas/wilson-nc/mold-remediation/",
     "/service-areas/wilson-nc/water-damage-restoration/",
     "/service-areas/wilson-nc/air-duct-cleaning/",
@@ -206,6 +227,7 @@
   "/service-areas/smithfield-nc/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/smithfield-nc/fire-damage-restoration/",
     "/service-areas/smithfield-nc/mold-remediation/",
     "/service-areas/smithfield-nc/water-damage-restoration/",
     "/service-areas/smithfield-nc/air-duct-cleaning/",
@@ -219,6 +241,7 @@
   "/service-areas/wake-forest-nc/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/wake-forest-nc/fire-damage-restoration/",
     "/service-areas/wake-forest-nc/mold-remediation/",
     "/service-areas/wake-forest-nc/water-damage-restoration/",
     "/service-areas/wake-forest-nc/air-duct-cleaning/",
@@ -232,6 +255,7 @@
   "/service-areas/zebulon-nc/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/zebulon-nc/fire-damage-restoration/",
     "/service-areas/zebulon-nc/mold-remediation/",
     "/service-areas/zebulon-nc/water-damage-restoration/",
     "/service-areas/zebulon-nc/air-duct-cleaning/",
@@ -245,17 +269,26 @@
   "/service-areas/middlesex-nc/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/middlesex-nc/",
+    "/service-areas/middlesex-nc/fire-damage-restoration/",
     "/service-areas/middlesex-nc/mold-remediation/",
-    "/service-areas/middlesex-nc/air-duct-cleaning/",
     "/service-areas/durham-nc/water-damage-restoration/",
     "/service-areas/raleigh-nc/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/middlesex-nc/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/middlesex-nc/",
+    "/service-areas/middlesex-nc/mold-remediation/",
+    "/service-areas/middlesex-nc/water-damage-restoration/",
+    "/service-areas/durham-nc/fire-damage-restoration/",
+    "/service-areas/raleigh-nc/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/middlesex-nc/mold-remediation/": [
     "/services/mold-remediation/",
     "/service-areas/middlesex-nc/",
+    "/service-areas/middlesex-nc/fire-damage-restoration/",
     "/service-areas/middlesex-nc/water-damage-restoration/",
-    "/service-areas/middlesex-nc/air-duct-cleaning/",
     "/service-areas/durham-nc/mold-remediation/",
     "/service-areas/raleigh-nc/mold-remediation/",
     "/contact/"
@@ -263,8 +296,8 @@
   "/service-areas/middlesex-nc/crawl-space-encapsulation/": [
     "/services/crawl-space-encapsulation/",
     "/service-areas/middlesex-nc/",
+    "/service-areas/middlesex-nc/fire-damage-restoration/",
     "/service-areas/middlesex-nc/mold-remediation/",
-    "/service-areas/middlesex-nc/water-damage-restoration/",
     "/service-areas/durham-nc/crawl-space-encapsulation/",
     "/service-areas/raleigh-nc/crawl-space-encapsulation/",
     "/contact/"
@@ -272,8 +305,8 @@
   "/service-areas/middlesex-nc/air-duct-cleaning/": [
     "/services/air-duct-cleaning/",
     "/service-areas/middlesex-nc/",
+    "/service-areas/middlesex-nc/fire-damage-restoration/",
     "/service-areas/middlesex-nc/mold-remediation/",
-    "/service-areas/middlesex-nc/water-damage-restoration/",
     "/service-areas/durham-nc/air-duct-cleaning/",
     "/service-areas/raleigh-nc/air-duct-cleaning/",
     "/contact/"
@@ -281,8 +314,8 @@
   "/service-areas/middlesex-nc/carpet-cleaning/": [
     "/services/carpet-cleaning/",
     "/service-areas/middlesex-nc/",
+    "/service-areas/middlesex-nc/fire-damage-restoration/",
     "/service-areas/middlesex-nc/mold-remediation/",
-    "/service-areas/middlesex-nc/water-damage-restoration/",
     "/service-areas/durham-nc/carpet-cleaning/",
     "/service-areas/raleigh-nc/carpet-cleaning/",
     "/contact/"
@@ -290,8 +323,8 @@
   "/service-areas/middlesex-nc/insulation-removal-installation/": [
     "/services/insulation-removal-installation/",
     "/service-areas/middlesex-nc/",
+    "/service-areas/middlesex-nc/fire-damage-restoration/",
     "/service-areas/middlesex-nc/mold-remediation/",
-    "/service-areas/middlesex-nc/water-damage-restoration/",
     "/service-areas/durham-nc/insulation-removal-installation/",
     "/service-areas/raleigh-nc/insulation-removal-installation/",
     "/contact/"
@@ -299,17 +332,26 @@
   "/service-areas/raleigh-nc/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/raleigh-nc/",
+    "/service-areas/raleigh-nc/fire-damage-restoration/",
     "/service-areas/raleigh-nc/mold-remediation/",
-    "/service-areas/raleigh-nc/air-duct-cleaning/",
     "/service-areas/durham-nc/water-damage-restoration/",
     "/service-areas/middlesex-nc/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/raleigh-nc/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/raleigh-nc/",
+    "/service-areas/raleigh-nc/mold-remediation/",
+    "/service-areas/raleigh-nc/water-damage-restoration/",
+    "/service-areas/durham-nc/fire-damage-restoration/",
+    "/service-areas/middlesex-nc/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/raleigh-nc/mold-remediation/": [
     "/services/mold-remediation/",
     "/service-areas/raleigh-nc/",
+    "/service-areas/raleigh-nc/fire-damage-restoration/",
     "/service-areas/raleigh-nc/water-damage-restoration/",
-    "/service-areas/raleigh-nc/air-duct-cleaning/",
     "/service-areas/durham-nc/mold-remediation/",
     "/service-areas/middlesex-nc/mold-remediation/",
     "/contact/"
@@ -317,8 +359,8 @@
   "/service-areas/raleigh-nc/crawl-space-encapsulation/": [
     "/services/crawl-space-encapsulation/",
     "/service-areas/raleigh-nc/",
+    "/service-areas/raleigh-nc/fire-damage-restoration/",
     "/service-areas/raleigh-nc/mold-remediation/",
-    "/service-areas/raleigh-nc/water-damage-restoration/",
     "/service-areas/durham-nc/crawl-space-encapsulation/",
     "/service-areas/middlesex-nc/crawl-space-encapsulation/",
     "/contact/"
@@ -326,8 +368,8 @@
   "/service-areas/raleigh-nc/air-duct-cleaning/": [
     "/services/air-duct-cleaning/",
     "/service-areas/raleigh-nc/",
+    "/service-areas/raleigh-nc/fire-damage-restoration/",
     "/service-areas/raleigh-nc/mold-remediation/",
-    "/service-areas/raleigh-nc/water-damage-restoration/",
     "/service-areas/durham-nc/air-duct-cleaning/",
     "/service-areas/middlesex-nc/air-duct-cleaning/",
     "/contact/"
@@ -335,8 +377,8 @@
   "/service-areas/raleigh-nc/carpet-cleaning/": [
     "/services/carpet-cleaning/",
     "/service-areas/raleigh-nc/",
+    "/service-areas/raleigh-nc/fire-damage-restoration/",
     "/service-areas/raleigh-nc/mold-remediation/",
-    "/service-areas/raleigh-nc/water-damage-restoration/",
     "/service-areas/durham-nc/carpet-cleaning/",
     "/service-areas/middlesex-nc/carpet-cleaning/",
     "/contact/"
@@ -344,8 +386,8 @@
   "/service-areas/raleigh-nc/insulation-removal-installation/": [
     "/services/insulation-removal-installation/",
     "/service-areas/raleigh-nc/",
+    "/service-areas/raleigh-nc/fire-damage-restoration/",
     "/service-areas/raleigh-nc/mold-remediation/",
-    "/service-areas/raleigh-nc/water-damage-restoration/",
     "/service-areas/durham-nc/insulation-removal-installation/",
     "/service-areas/middlesex-nc/insulation-removal-installation/",
     "/contact/"
@@ -353,17 +395,26 @@
   "/service-areas/durham-nc/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/durham-nc/",
+    "/service-areas/durham-nc/fire-damage-restoration/",
     "/service-areas/durham-nc/mold-remediation/",
-    "/service-areas/durham-nc/air-duct-cleaning/",
     "/service-areas/middlesex-nc/water-damage-restoration/",
     "/service-areas/raleigh-nc/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/durham-nc/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/durham-nc/",
+    "/service-areas/durham-nc/mold-remediation/",
+    "/service-areas/durham-nc/water-damage-restoration/",
+    "/service-areas/middlesex-nc/fire-damage-restoration/",
+    "/service-areas/raleigh-nc/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/durham-nc/mold-remediation/": [
     "/services/mold-remediation/",
     "/service-areas/durham-nc/",
+    "/service-areas/durham-nc/fire-damage-restoration/",
     "/service-areas/durham-nc/water-damage-restoration/",
-    "/service-areas/durham-nc/air-duct-cleaning/",
     "/service-areas/middlesex-nc/mold-remediation/",
     "/service-areas/raleigh-nc/mold-remediation/",
     "/contact/"
@@ -371,8 +422,8 @@
   "/service-areas/durham-nc/crawl-space-encapsulation/": [
     "/services/crawl-space-encapsulation/",
     "/service-areas/durham-nc/",
+    "/service-areas/durham-nc/fire-damage-restoration/",
     "/service-areas/durham-nc/mold-remediation/",
-    "/service-areas/durham-nc/water-damage-restoration/",
     "/service-areas/middlesex-nc/crawl-space-encapsulation/",
     "/service-areas/raleigh-nc/crawl-space-encapsulation/",
     "/contact/"
@@ -380,8 +431,8 @@
   "/service-areas/durham-nc/air-duct-cleaning/": [
     "/services/air-duct-cleaning/",
     "/service-areas/durham-nc/",
+    "/service-areas/durham-nc/fire-damage-restoration/",
     "/service-areas/durham-nc/mold-remediation/",
-    "/service-areas/durham-nc/water-damage-restoration/",
     "/service-areas/middlesex-nc/air-duct-cleaning/",
     "/service-areas/raleigh-nc/air-duct-cleaning/",
     "/contact/"
@@ -389,8 +440,8 @@
   "/service-areas/durham-nc/carpet-cleaning/": [
     "/services/carpet-cleaning/",
     "/service-areas/durham-nc/",
+    "/service-areas/durham-nc/fire-damage-restoration/",
     "/service-areas/durham-nc/mold-remediation/",
-    "/service-areas/durham-nc/water-damage-restoration/",
     "/service-areas/middlesex-nc/carpet-cleaning/",
     "/service-areas/raleigh-nc/carpet-cleaning/",
     "/contact/"
@@ -398,8 +449,8 @@
   "/service-areas/durham-nc/insulation-removal-installation/": [
     "/services/insulation-removal-installation/",
     "/service-areas/durham-nc/",
+    "/service-areas/durham-nc/fire-damage-restoration/",
     "/service-areas/durham-nc/mold-remediation/",
-    "/service-areas/durham-nc/water-damage-restoration/",
     "/service-areas/middlesex-nc/insulation-removal-installation/",
     "/service-areas/raleigh-nc/insulation-removal-installation/",
     "/contact/"
@@ -407,17 +458,26 @@
   "/service-areas/rocky-mount-nc/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/rocky-mount-nc/",
+    "/service-areas/rocky-mount-nc/fire-damage-restoration/",
     "/service-areas/rocky-mount-nc/mold-remediation/",
-    "/service-areas/rocky-mount-nc/air-duct-cleaning/",
     "/service-areas/durham-nc/water-damage-restoration/",
     "/service-areas/middlesex-nc/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/rocky-mount-nc/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/rocky-mount-nc/",
+    "/service-areas/rocky-mount-nc/mold-remediation/",
+    "/service-areas/rocky-mount-nc/water-damage-restoration/",
+    "/service-areas/durham-nc/fire-damage-restoration/",
+    "/service-areas/middlesex-nc/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/rocky-mount-nc/mold-remediation/": [
     "/services/mold-remediation/",
     "/service-areas/rocky-mount-nc/",
+    "/service-areas/rocky-mount-nc/fire-damage-restoration/",
     "/service-areas/rocky-mount-nc/water-damage-restoration/",
-    "/service-areas/rocky-mount-nc/air-duct-cleaning/",
     "/service-areas/durham-nc/mold-remediation/",
     "/service-areas/middlesex-nc/mold-remediation/",
     "/contact/"
@@ -425,8 +485,8 @@
   "/service-areas/rocky-mount-nc/crawl-space-encapsulation/": [
     "/services/crawl-space-encapsulation/",
     "/service-areas/rocky-mount-nc/",
+    "/service-areas/rocky-mount-nc/fire-damage-restoration/",
     "/service-areas/rocky-mount-nc/mold-remediation/",
-    "/service-areas/rocky-mount-nc/water-damage-restoration/",
     "/service-areas/durham-nc/crawl-space-encapsulation/",
     "/service-areas/middlesex-nc/crawl-space-encapsulation/",
     "/contact/"
@@ -434,8 +494,8 @@
   "/service-areas/rocky-mount-nc/air-duct-cleaning/": [
     "/services/air-duct-cleaning/",
     "/service-areas/rocky-mount-nc/",
+    "/service-areas/rocky-mount-nc/fire-damage-restoration/",
     "/service-areas/rocky-mount-nc/mold-remediation/",
-    "/service-areas/rocky-mount-nc/water-damage-restoration/",
     "/service-areas/durham-nc/air-duct-cleaning/",
     "/service-areas/middlesex-nc/air-duct-cleaning/",
     "/contact/"
@@ -443,8 +503,8 @@
   "/service-areas/rocky-mount-nc/carpet-cleaning/": [
     "/services/carpet-cleaning/",
     "/service-areas/rocky-mount-nc/",
+    "/service-areas/rocky-mount-nc/fire-damage-restoration/",
     "/service-areas/rocky-mount-nc/mold-remediation/",
-    "/service-areas/rocky-mount-nc/water-damage-restoration/",
     "/service-areas/durham-nc/carpet-cleaning/",
     "/service-areas/middlesex-nc/carpet-cleaning/",
     "/contact/"
@@ -452,8 +512,8 @@
   "/service-areas/rocky-mount-nc/insulation-removal-installation/": [
     "/services/insulation-removal-installation/",
     "/service-areas/rocky-mount-nc/",
+    "/service-areas/rocky-mount-nc/fire-damage-restoration/",
     "/service-areas/rocky-mount-nc/mold-remediation/",
-    "/service-areas/rocky-mount-nc/water-damage-restoration/",
     "/service-areas/durham-nc/insulation-removal-installation/",
     "/service-areas/middlesex-nc/insulation-removal-installation/",
     "/contact/"
@@ -461,17 +521,26 @@
   "/service-areas/wilson-nc/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/wilson-nc/",
+    "/service-areas/wilson-nc/fire-damage-restoration/",
     "/service-areas/wilson-nc/mold-remediation/",
-    "/service-areas/wilson-nc/air-duct-cleaning/",
     "/service-areas/durham-nc/water-damage-restoration/",
     "/service-areas/middlesex-nc/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/wilson-nc/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/wilson-nc/",
+    "/service-areas/wilson-nc/mold-remediation/",
+    "/service-areas/wilson-nc/water-damage-restoration/",
+    "/service-areas/durham-nc/fire-damage-restoration/",
+    "/service-areas/middlesex-nc/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/wilson-nc/mold-remediation/": [
     "/services/mold-remediation/",
     "/service-areas/wilson-nc/",
+    "/service-areas/wilson-nc/fire-damage-restoration/",
     "/service-areas/wilson-nc/water-damage-restoration/",
-    "/service-areas/wilson-nc/air-duct-cleaning/",
     "/service-areas/durham-nc/mold-remediation/",
     "/service-areas/middlesex-nc/mold-remediation/",
     "/contact/"
@@ -479,8 +548,8 @@
   "/service-areas/wilson-nc/crawl-space-encapsulation/": [
     "/services/crawl-space-encapsulation/",
     "/service-areas/wilson-nc/",
+    "/service-areas/wilson-nc/fire-damage-restoration/",
     "/service-areas/wilson-nc/mold-remediation/",
-    "/service-areas/wilson-nc/water-damage-restoration/",
     "/service-areas/durham-nc/crawl-space-encapsulation/",
     "/service-areas/middlesex-nc/crawl-space-encapsulation/",
     "/contact/"
@@ -488,8 +557,8 @@
   "/service-areas/wilson-nc/air-duct-cleaning/": [
     "/services/air-duct-cleaning/",
     "/service-areas/wilson-nc/",
+    "/service-areas/wilson-nc/fire-damage-restoration/",
     "/service-areas/wilson-nc/mold-remediation/",
-    "/service-areas/wilson-nc/water-damage-restoration/",
     "/service-areas/durham-nc/air-duct-cleaning/",
     "/service-areas/middlesex-nc/air-duct-cleaning/",
     "/contact/"
@@ -497,8 +566,8 @@
   "/service-areas/wilson-nc/carpet-cleaning/": [
     "/services/carpet-cleaning/",
     "/service-areas/wilson-nc/",
+    "/service-areas/wilson-nc/fire-damage-restoration/",
     "/service-areas/wilson-nc/mold-remediation/",
-    "/service-areas/wilson-nc/water-damage-restoration/",
     "/service-areas/durham-nc/carpet-cleaning/",
     "/service-areas/middlesex-nc/carpet-cleaning/",
     "/contact/"
@@ -506,8 +575,8 @@
   "/service-areas/wilson-nc/insulation-removal-installation/": [
     "/services/insulation-removal-installation/",
     "/service-areas/wilson-nc/",
+    "/service-areas/wilson-nc/fire-damage-restoration/",
     "/service-areas/wilson-nc/mold-remediation/",
-    "/service-areas/wilson-nc/water-damage-restoration/",
     "/service-areas/durham-nc/insulation-removal-installation/",
     "/service-areas/middlesex-nc/insulation-removal-installation/",
     "/contact/"
@@ -515,17 +584,26 @@
   "/service-areas/smithfield-nc/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/smithfield-nc/",
+    "/service-areas/smithfield-nc/fire-damage-restoration/",
     "/service-areas/smithfield-nc/mold-remediation/",
-    "/service-areas/smithfield-nc/air-duct-cleaning/",
     "/service-areas/durham-nc/water-damage-restoration/",
     "/service-areas/middlesex-nc/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/smithfield-nc/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/smithfield-nc/",
+    "/service-areas/smithfield-nc/mold-remediation/",
+    "/service-areas/smithfield-nc/water-damage-restoration/",
+    "/service-areas/durham-nc/fire-damage-restoration/",
+    "/service-areas/middlesex-nc/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/smithfield-nc/mold-remediation/": [
     "/services/mold-remediation/",
     "/service-areas/smithfield-nc/",
+    "/service-areas/smithfield-nc/fire-damage-restoration/",
     "/service-areas/smithfield-nc/water-damage-restoration/",
-    "/service-areas/smithfield-nc/air-duct-cleaning/",
     "/service-areas/durham-nc/mold-remediation/",
     "/service-areas/middlesex-nc/mold-remediation/",
     "/contact/"
@@ -533,8 +611,8 @@
   "/service-areas/smithfield-nc/crawl-space-encapsulation/": [
     "/services/crawl-space-encapsulation/",
     "/service-areas/smithfield-nc/",
+    "/service-areas/smithfield-nc/fire-damage-restoration/",
     "/service-areas/smithfield-nc/mold-remediation/",
-    "/service-areas/smithfield-nc/water-damage-restoration/",
     "/service-areas/durham-nc/crawl-space-encapsulation/",
     "/service-areas/middlesex-nc/crawl-space-encapsulation/",
     "/contact/"
@@ -542,8 +620,8 @@
   "/service-areas/smithfield-nc/air-duct-cleaning/": [
     "/services/air-duct-cleaning/",
     "/service-areas/smithfield-nc/",
+    "/service-areas/smithfield-nc/fire-damage-restoration/",
     "/service-areas/smithfield-nc/mold-remediation/",
-    "/service-areas/smithfield-nc/water-damage-restoration/",
     "/service-areas/durham-nc/air-duct-cleaning/",
     "/service-areas/middlesex-nc/air-duct-cleaning/",
     "/contact/"
@@ -551,8 +629,8 @@
   "/service-areas/smithfield-nc/carpet-cleaning/": [
     "/services/carpet-cleaning/",
     "/service-areas/smithfield-nc/",
+    "/service-areas/smithfield-nc/fire-damage-restoration/",
     "/service-areas/smithfield-nc/mold-remediation/",
-    "/service-areas/smithfield-nc/water-damage-restoration/",
     "/service-areas/durham-nc/carpet-cleaning/",
     "/service-areas/middlesex-nc/carpet-cleaning/",
     "/contact/"
@@ -560,8 +638,8 @@
   "/service-areas/smithfield-nc/insulation-removal-installation/": [
     "/services/insulation-removal-installation/",
     "/service-areas/smithfield-nc/",
+    "/service-areas/smithfield-nc/fire-damage-restoration/",
     "/service-areas/smithfield-nc/mold-remediation/",
-    "/service-areas/smithfield-nc/water-damage-restoration/",
     "/service-areas/durham-nc/insulation-removal-installation/",
     "/service-areas/middlesex-nc/insulation-removal-installation/",
     "/contact/"
@@ -569,17 +647,26 @@
   "/service-areas/wake-forest-nc/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/wake-forest-nc/",
+    "/service-areas/wake-forest-nc/fire-damage-restoration/",
     "/service-areas/wake-forest-nc/mold-remediation/",
-    "/service-areas/wake-forest-nc/air-duct-cleaning/",
     "/service-areas/durham-nc/water-damage-restoration/",
     "/service-areas/middlesex-nc/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/wake-forest-nc/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/wake-forest-nc/",
+    "/service-areas/wake-forest-nc/mold-remediation/",
+    "/service-areas/wake-forest-nc/water-damage-restoration/",
+    "/service-areas/durham-nc/fire-damage-restoration/",
+    "/service-areas/middlesex-nc/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/wake-forest-nc/mold-remediation/": [
     "/services/mold-remediation/",
     "/service-areas/wake-forest-nc/",
+    "/service-areas/wake-forest-nc/fire-damage-restoration/",
     "/service-areas/wake-forest-nc/water-damage-restoration/",
-    "/service-areas/wake-forest-nc/air-duct-cleaning/",
     "/service-areas/durham-nc/mold-remediation/",
     "/service-areas/middlesex-nc/mold-remediation/",
     "/contact/"
@@ -587,8 +674,8 @@
   "/service-areas/wake-forest-nc/crawl-space-encapsulation/": [
     "/services/crawl-space-encapsulation/",
     "/service-areas/wake-forest-nc/",
+    "/service-areas/wake-forest-nc/fire-damage-restoration/",
     "/service-areas/wake-forest-nc/mold-remediation/",
-    "/service-areas/wake-forest-nc/water-damage-restoration/",
     "/service-areas/durham-nc/crawl-space-encapsulation/",
     "/service-areas/middlesex-nc/crawl-space-encapsulation/",
     "/contact/"
@@ -596,8 +683,8 @@
   "/service-areas/wake-forest-nc/air-duct-cleaning/": [
     "/services/air-duct-cleaning/",
     "/service-areas/wake-forest-nc/",
+    "/service-areas/wake-forest-nc/fire-damage-restoration/",
     "/service-areas/wake-forest-nc/mold-remediation/",
-    "/service-areas/wake-forest-nc/water-damage-restoration/",
     "/service-areas/durham-nc/air-duct-cleaning/",
     "/service-areas/middlesex-nc/air-duct-cleaning/",
     "/contact/"
@@ -605,8 +692,8 @@
   "/service-areas/wake-forest-nc/carpet-cleaning/": [
     "/services/carpet-cleaning/",
     "/service-areas/wake-forest-nc/",
+    "/service-areas/wake-forest-nc/fire-damage-restoration/",
     "/service-areas/wake-forest-nc/mold-remediation/",
-    "/service-areas/wake-forest-nc/water-damage-restoration/",
     "/service-areas/durham-nc/carpet-cleaning/",
     "/service-areas/middlesex-nc/carpet-cleaning/",
     "/contact/"
@@ -614,8 +701,8 @@
   "/service-areas/wake-forest-nc/insulation-removal-installation/": [
     "/services/insulation-removal-installation/",
     "/service-areas/wake-forest-nc/",
+    "/service-areas/wake-forest-nc/fire-damage-restoration/",
     "/service-areas/wake-forest-nc/mold-remediation/",
-    "/service-areas/wake-forest-nc/water-damage-restoration/",
     "/service-areas/durham-nc/insulation-removal-installation/",
     "/service-areas/middlesex-nc/insulation-removal-installation/",
     "/contact/"
@@ -623,17 +710,26 @@
   "/service-areas/zebulon-nc/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/zebulon-nc/",
+    "/service-areas/zebulon-nc/fire-damage-restoration/",
     "/service-areas/zebulon-nc/mold-remediation/",
-    "/service-areas/zebulon-nc/air-duct-cleaning/",
     "/service-areas/durham-nc/water-damage-restoration/",
     "/service-areas/middlesex-nc/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/zebulon-nc/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/zebulon-nc/",
+    "/service-areas/zebulon-nc/mold-remediation/",
+    "/service-areas/zebulon-nc/water-damage-restoration/",
+    "/service-areas/durham-nc/fire-damage-restoration/",
+    "/service-areas/middlesex-nc/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/zebulon-nc/mold-remediation/": [
     "/services/mold-remediation/",
     "/service-areas/zebulon-nc/",
+    "/service-areas/zebulon-nc/fire-damage-restoration/",
     "/service-areas/zebulon-nc/water-damage-restoration/",
-    "/service-areas/zebulon-nc/air-duct-cleaning/",
     "/service-areas/durham-nc/mold-remediation/",
     "/service-areas/middlesex-nc/mold-remediation/",
     "/contact/"
@@ -641,8 +737,8 @@
   "/service-areas/zebulon-nc/crawl-space-encapsulation/": [
     "/services/crawl-space-encapsulation/",
     "/service-areas/zebulon-nc/",
+    "/service-areas/zebulon-nc/fire-damage-restoration/",
     "/service-areas/zebulon-nc/mold-remediation/",
-    "/service-areas/zebulon-nc/water-damage-restoration/",
     "/service-areas/durham-nc/crawl-space-encapsulation/",
     "/service-areas/middlesex-nc/crawl-space-encapsulation/",
     "/contact/"
@@ -650,8 +746,8 @@
   "/service-areas/zebulon-nc/air-duct-cleaning/": [
     "/services/air-duct-cleaning/",
     "/service-areas/zebulon-nc/",
+    "/service-areas/zebulon-nc/fire-damage-restoration/",
     "/service-areas/zebulon-nc/mold-remediation/",
-    "/service-areas/zebulon-nc/water-damage-restoration/",
     "/service-areas/durham-nc/air-duct-cleaning/",
     "/service-areas/middlesex-nc/air-duct-cleaning/",
     "/contact/"
@@ -659,8 +755,8 @@
   "/service-areas/zebulon-nc/carpet-cleaning/": [
     "/services/carpet-cleaning/",
     "/service-areas/zebulon-nc/",
+    "/service-areas/zebulon-nc/fire-damage-restoration/",
     "/service-areas/zebulon-nc/mold-remediation/",
-    "/service-areas/zebulon-nc/water-damage-restoration/",
     "/service-areas/durham-nc/carpet-cleaning/",
     "/service-areas/middlesex-nc/carpet-cleaning/",
     "/contact/"
@@ -668,8 +764,8 @@
   "/service-areas/zebulon-nc/insulation-removal-installation/": [
     "/services/insulation-removal-installation/",
     "/service-areas/zebulon-nc/",
+    "/service-areas/zebulon-nc/fire-damage-restoration/",
     "/service-areas/zebulon-nc/mold-remediation/",
-    "/service-areas/zebulon-nc/water-damage-restoration/",
     "/service-areas/durham-nc/insulation-removal-installation/",
     "/service-areas/middlesex-nc/insulation-removal-installation/",
     "/contact/"
@@ -709,8 +805,14 @@
     "/blog/signs-of-hidden-mold/",
     "/blog/black-mold-vs-regular-mold/"
   ],
+  "/blog/fire-damage-restoration-process/": [
+    "/blog/",
+    "/services/fire-damage-restoration/",
+    "/blog/choosing-a-restoration-company/"
+  ],
   "/blog/choosing-a-restoration-company/": [
     "/blog/",
+    "/services/fire-damage-restoration/",
     "/services/mold-remediation/",
     "/services/water-damage-restoration/",
     "/blog/burst-pipe-emergency-checklist/",
@@ -723,13 +825,6 @@
     "/blog/choosing-a-restoration-company/",
     "/blog/how-to-test-for-mold/",
     "/blog/signs-of-hidden-mold/"
-  ],
-  "/blog/how-long-does-water-damage-restoration-take/": [
-    "/blog/",
-    "/services/water-damage-restoration/",
-    "/blog/burst-pipe-emergency-checklist/",
-    "/blog/what-to-do-first-24-hours-water-damage/",
-    "/blog/choosing-a-restoration-company/"
   ],
   "/privacy/": [],
   "/terms/": [],

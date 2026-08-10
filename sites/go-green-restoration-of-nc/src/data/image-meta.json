@@ -44,6 +44,15 @@
       1200
     ]
   },
+  "/images/services/fire-damage-restoration.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
   "/images/services/insulation-removal-installation.webp": {
     "width": 1376,
     "height": 768,

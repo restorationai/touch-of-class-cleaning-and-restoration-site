@@ -13,10 +13,12 @@
     "legal_name": "Go Green Restoration of NC",
     "theme": "light",
     "primary_color": "#15803d",
-    "hours": "24/7"
+    "hours": "24/7",
+    "place_id": "ChIJhWCvh9tJrIkRkCEs58UBIRw"
   },
   "services": [
     "water-damage-restoration",
+    "fire-damage-restoration",
     "mold-remediation",
     "crawl-space-encapsulation",
     "air-duct-cleaning",
