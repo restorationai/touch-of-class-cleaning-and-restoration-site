@@ -60,6 +60,25 @@ def sync_sites(client, slug: str, company_id: str, dry_run: bool) -> None:
 
     apex_live = bool(rec.get("cut_over_at") or (rec.get("apex_cutover") or {}).get("completed_at"))
 
+    # BUILD STATUS IS DERIVED, NOT COPIED (Santino 2026-08-10, Build Stages
+    # board): the record's build_status string goes stale — Reign had three
+    # staging pushes in one day while it still said "preview_ready", and
+    # Life Savers said "pending" with ns_live domain access. The deploy
+    # timestamps in the build block are written by sync-deploy itself, so
+    # they are the truth; the stored string is only the fallback for
+    # records that predate the timestamps.
+    b = rec.get("build") or {}
+    if apex_live or b.get("last_pushed_main_at"):
+        derived_status = "pushed_main"
+    elif b.get("last_pushed_staging_at"):
+        derived_status = "pushed_staging"
+    elif b.get("last_rendered_at"):
+        derived_status = "preview_ready"
+    elif b.get("scaffolded_at"):
+        derived_status = "scaffolded"
+    else:
+        derived_status = rec.get("build_status") or "pending"
+
     # PREVIEW URL: the naming convention is NOT universal (Santino 2026-08-04,
     # FireDEX). Clients whose apex still runs a live legacy site never get a
     # Cloudflare zone, so their build lands on a standalone `{slug}-preview`
@@ -84,7 +103,7 @@ def sync_sites(client, slug: str, company_id: str, dry_run: bool) -> None:
         "domain":                rec.get("domain"),
         "apex_live":             apex_live,
         "cloudflare_pages_url":  pages_url,
-        "build_status":          rec.get("build_status"),
+        "build_status":          derived_status,
         "plan_status":           rec.get("plan_status"),
         "tier":                  rec.get("tier"),
         "cf_zone_id":            (rec.get("zone") or {}).get("id"),
