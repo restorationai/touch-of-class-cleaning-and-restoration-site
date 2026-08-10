@@ -466,8 +466,33 @@
       "reason": "Dimly lit cluttered warehouse; no restoration activity or crew visible.",
       "triaged_at": "2026-08-05T06:54:09Z",
       "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:sms-1786296070633-71cf7cc8": {
+      "source": "crew",
+      "storage": "job-photos/sms-1786296070633-71cf7cc8.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783376797396/job-photos/sms-1786296070633-71cf7cc8.jpg",
+      "width": 1539,
+      "height": 1600,
+      "bytes": 126987,
+      "sha1": "84f52a591eb585b0",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Screenshot of Restoration AI web app login page",
+      "quality": 10,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "screenshot"
+      ],
+      "reason": "Mobile screenshot of a third-party software login page; zero marketing value.",
+      "triaged_at": "2026-08-10T14:12:21Z",
+      "triage_model": "claude-sonnet-4-6"
     }
   },
   "slots": {},
-  "triaged_at": "2026-08-05T06:54:09Z"
+  "triaged_at": "2026-08-10T14:12:21Z"
 }

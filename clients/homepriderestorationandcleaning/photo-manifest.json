@@ -1165,6 +1165,35 @@
       "triaged_at": "2026-08-05T06:01:29Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipMYrSw1cu8DWceu70Oex00xnekdOQ0d62QzanhS": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMYrSw1cu8DWceu70Oex00xnekdOQ0d62QzanhS.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1780333664867/job-photos/posted/gbp-AF1QipMYrSw1cu8DWceu70Oex00xnekdOQ0d62QzanhS.jpg",
+      "width": 1440,
+      "height": 1079,
+      "bytes": 741166,
+      "sha1": "3a1772f43809b470",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Basement room with removed drywall and exposed framing after water damage",
+      "quality": 52,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "basement-flooding-cleanup",
+        "mold-remediation"
+      ],
+      "flags": [
+        "low_res"
+      ],
+      "reason": "Decent damage documentation but low resolution and no crew or equipment visible.",
+      "triaged_at": "2026-08-10T14:12:10Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipMZeK1VEqDqb02_9nxC7P57ocncVavaZyxgIP-K": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipMZeK1VEqDqb02_9nxC7P57ocncVavaZyxgIP-K.jpg",
@@ -1835,7 +1864,8 @@
       ],
       "reason": "Low-res but authentic damage documentation; useful for services page remediation context.",
       "triaged_at": "2026-08-05T06:02:22Z",
-      "triage_model": "claude-sonnet-4-6"
+      "triage_model": "claude-sonnet-4-6",
+      "duplicate_of": "gbp:gbp-AF1QipMYrSw1cu8DWceu70Oex00xnekdOQ0d62QzanhS"
     },
     "gbp:gbp-AF1QipN5THDaWklMm8QYaW4t5bN6766x_UJiNi8c0s-h": {
       "source": "gbp",
@@ -3600,7 +3630,7 @@
       "bytes": 741166,
       "sha1": "3a1772f43809b470",
       "exif": {},
-      "duplicate_of": "gbp:gbp-AF1QipN3NFl6odVT3FkWv6mk8ILbzqlvuSfato0Iqq3R"
+      "duplicate_of": "gbp:gbp-AF1QipMYrSw1cu8DWceu70Oex00xnekdOQ0d62QzanhS"
     },
     "gbp:gbp-AF1QipOrv3bp-SHxoFj8ncyROLx7rGrIEFv8mXbjvjec": {
       "source": "gbp",
@@ -4508,5 +4538,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-08-07T14:05:48Z"
+  "triaged_at": "2026-08-10T14:12:10Z"
 }

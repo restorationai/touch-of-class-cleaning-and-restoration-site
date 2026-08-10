@@ -1,6 +1,32 @@
 {
   "slug": "life-savers-restoration-llc",
   "assets": {
+    "gbp:gbp-AF1QipM-1PZGhGMqYq6pQgC-GEaANMZALVkb2jMXM5fY": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipM-1PZGhGMqYq6pQgC-GEaANMZALVkb2jMXM5fY.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipM-1PZGhGMqYq6pQgC-GEaANMZALVkb2jMXM5fY.jpg",
+      "width": 1080,
+      "height": 1440,
+      "bytes": 468856,
+      "sha1": "328756c7339d108b",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Clean beige carpet in residential bedroom after restoration",
+      "quality": 52,
+      "slots": {
+        "hero": 18,
+        "team": 0,
+        "services": 35
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "contents-restoration"
+      ],
+      "flags": [],
+      "reason": "Ambiguous after-state carpet shot; no damage or crew visible, limited context.",
+      "triaged_at": "2026-08-10T14:14:08Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipM-P_-Gudr2Z93B9r_I_rE3-6tABB0sKThHNawt": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipM-P_-Gudr2Z93B9r_I_rE3-6tABB0sKThHNawt.jpg",
@@ -28,6 +54,35 @@
       ],
       "reason": "Strong fire damage evidence; too dark and cluttered for hero use.",
       "triaged_at": "2026-08-07T14:09:46Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipM-gh1hbT4pdmN2xh-96rceON4eImkbKPJSTcwa": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipM-gh1hbT4pdmN2xh-96rceON4eImkbKPJSTcwa.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipM-gh1hbT4pdmN2xh-96rceON4eImkbKPJSTcwa.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 1244609,
+      "sha1": "747c8218873cee0b",
+      "exif": {
+        "taken_at": "2025:08:21 17:31:00"
+      },
+      "category": "job_progress",
+      "subject": "Water pooling on garage concrete floor near stacked boxes",
+      "quality": 50,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Cluttered scene with standing water; reads as water damage evidence but messy.",
+      "triaged_at": "2026-08-10T14:14:08Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipM1qUpsMs66cFxmIxfu9JXhs0HTraiwSNGZIJht": {
@@ -58,6 +113,35 @@
       ],
       "reason": "Extreme close-up, poor composition and context; limited usability.",
       "triaged_at": "2026-08-07T14:09:46Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipM24dXKKzWYA-aQo3T1SkP21GqzPwxBJtwSc2EG": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipM24dXKKzWYA-aQo3T1SkP21GqzPwxBJtwSc2EG.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipM24dXKKzWYA-aQo3T1SkP21GqzPwxBJtwSc2EG.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 257865,
+      "sha1": "b0014d6ed27378e8",
+      "exif": {
+        "taken_at": "2025:08:21 16:35:56"
+      },
+      "category": "job_progress",
+      "subject": "Mold growth on bathroom ceiling and upper wall corner",
+      "quality": 38,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [
+        "mold-remediation"
+      ],
+      "flags": [
+        "blurry"
+      ],
+      "reason": "Blurry, poorly lit; mold subject is clear but image quality is too low.",
+      "triaged_at": "2026-08-10T14:14:08Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipM2CWTiTm3At8EyPhxQEPZfOxFU36oBOyTZXq76": {
@@ -144,6 +228,34 @@
       "triaged_at": "2026-08-08T14:07:51Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipM3-jbZozovjl7xHyeCoIpiPFkOPBtKLOA5kow-": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipM3-jbZozovjl7xHyeCoIpiPFkOPBtKLOA5kow-.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipM3-jbZozovjl7xHyeCoIpiPFkOPBtKLOA5kow-.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 971128,
+      "sha1": "c1d9335bc3c3a502",
+      "exif": {
+        "taken_at": "2025:08:21 09:06:41"
+      },
+      "category": "equipment",
+      "subject": "Technician hand holding thermal imaging camera showing moisture scan",
+      "quality": 68,
+      "slots": {
+        "hero": 22,
+        "team": 20,
+        "services": 65
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Useful equipment-in-use shot; thermal camera reading adds professional credibility.",
+      "triaged_at": "2026-08-10T14:14:08Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipM39W9frIgfnEBTALgk7UUmqOE_Ncl7YpWcmVj4": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipM39W9frIgfnEBTALgk7UUmqOE_Ncl7YpWcmVj4.jpg",
@@ -169,6 +281,33 @@
       "flags": [],
       "reason": "Dramatic low-angle flood shot clearly communicates water damage service.",
       "triaged_at": "2026-08-09T14:41:57Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipM3SMqNuLpraZOwXZJwVhJptMRJSDzI4cA6QqH9": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipM3SMqNuLpraZOwXZJwVhJptMRJSDzI4cA6QqH9.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipM3SMqNuLpraZOwXZJwVhJptMRJSDzI4cA6QqH9.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 826638,
+      "sha1": "020700b53ca6a624",
+      "exif": {
+        "taken_at": "2025:08:15 11:12:08"
+      },
+      "category": "job_progress",
+      "subject": "Water damaged warped dark hardwood floor with standing water",
+      "quality": 72,
+      "slots": {
+        "hero": 25,
+        "team": 0,
+        "services": 70
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Clear, well-lit water damage evidence; strong visual for services page.",
+      "triaged_at": "2026-08-10T14:14:08Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipM40zE6WpuTxhmS84l5u8UZTIn30xP-6KtSHw5D": {
@@ -369,6 +508,34 @@
       "triaged_at": "2026-08-07T14:09:46Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipM8h9yscpxJkY3OWPYXBWreakILAds5V79WtPNX": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipM8h9yscpxJkY3OWPYXBWreakILAds5V79WtPNX.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipM8h9yscpxJkY3OWPYXBWreakILAds5V79WtPNX.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 697355,
+      "sha1": "824463bee1dd9ed9",
+      "exif": {
+        "taken_at": "2025:08:21 16:35:57"
+      },
+      "category": "job_progress",
+      "subject": "Water stained ceiling with dirty exhaust vent in room",
+      "quality": 42,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 35
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Low-angle, dim shot of ceiling damage; context unclear, limited marketing value.",
+      "triaged_at": "2026-08-10T14:14:08Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipM9P1lxE0aDs8EpqpSzfFrhMAM3tANy8SBVNpMk": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipM9P1lxE0aDs8EpqpSzfFrhMAM3tANy8SBVNpMk.jpg",
@@ -425,6 +592,33 @@
       "triaged_at": "2026-08-08T14:07:51Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipMCmThhNxNbTNMVntuk0dp4_QvLC-Q_lujv-Gy4": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMCmThhNxNbTNMVntuk0dp4_QvLC-Q_lujv-Gy4.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipMCmThhNxNbTNMVntuk0dp4_QvLC-Q_lujv-Gy4.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 805994,
+      "sha1": "e4d6aab992bab3b6",
+      "exif": {
+        "taken_at": "2025:08:21 17:40:31"
+      },
+      "category": "equipment",
+      "subject": "wet extraction hoses and valve on restoration truck",
+      "quality": 52,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Close-up of wet equipment hoses; useful for services but too tight for hero.",
+      "triaged_at": "2026-08-10T14:14:25Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipMCyvL5CvGFPllUl1e6Fuvpwywo0JEm2mYpQxWN": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipMCyvL5CvGFPllUl1e6Fuvpwywo0JEm2mYpQxWN.jpg",
@@ -477,6 +671,34 @@
       "flags": [],
       "reason": "Clear damage documentation but dark, tight crop limits marketing appeal.",
       "triaged_at": "2026-08-09T14:41:57Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipME8VfkvGVFqGwgo0afRHlgpds3IU5q8kynP3Kj": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipME8VfkvGVFqGwgo0afRHlgpds3IU5q8kynP3Kj.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipME8VfkvGVFqGwgo0afRHlgpds3IU5q8kynP3Kj.jpg",
+      "width": 2560,
+      "height": 1920,
+      "bytes": 818252,
+      "sha1": "5a8c1f49557f2365",
+      "exif": {
+        "taken_at": "2025:08:27 10:31:50"
+      },
+      "category": "job_progress",
+      "subject": "severely mold-damaged ceiling with drain pipe hole",
+      "quality": 48,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Clear mold damage evidence; low hero value, decent services card proof shot.",
+      "triaged_at": "2026-08-10T14:14:25Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipMF3sd_J9k0XPz2EDLReAlKNa5TO2_ZHXZkcMa0": {
@@ -644,6 +866,34 @@
       ],
       "reason": "Useful diagnostic tool shot but poorly framed, dark background, cluttered context.",
       "triaged_at": "2026-08-07T14:10:01Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMKbnUd0tKfPSk98JrHeKYBMXXi1Jht84oawr4y": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMKbnUd0tKfPSk98JrHeKYBMXXi1Jht84oawr4y.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipMKbnUd0tKfPSk98JrHeKYBMXXi1Jht84oawr4y.jpg",
+      "width": 2560,
+      "height": 1920,
+      "bytes": 858545,
+      "sha1": "5d260d4b8d46c2c8",
+      "exif": {
+        "taken_at": "2025:08:20 11:06:41"
+      },
+      "category": "job_progress",
+      "subject": "mold and water staining along wall-floor junction",
+      "quality": 40,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Dark, low angle, marginal composition; serviceable as damage evidence only.",
+      "triaged_at": "2026-08-10T14:14:25Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipMKgiEW4p15ZPEXUUJ8KaxahaFz7d-Pf55PSHWI": {
@@ -904,6 +1154,34 @@
       "triaged_at": "2026-08-08T14:37:21Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipMRlUD6g_WnhAc7eCaOz9BDqsNePsMJSIcr1rRw": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMRlUD6g_WnhAc7eCaOz9BDqsNePsMJSIcr1rRw.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipMRlUD6g_WnhAc7eCaOz9BDqsNePsMJSIcr1rRw.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 630257,
+      "sha1": "149f5ccb144a1067",
+      "exif": {
+        "taken_at": "2025:08:21 09:15:05"
+      },
+      "category": "job_progress",
+      "subject": "water-damaged drywall corner with mold and staining",
+      "quality": 44,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 50
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Shows clear water damage and mold; adequate for services card, weak composition.",
+      "triaged_at": "2026-08-10T14:14:25Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipMRmtZie2wXG1f4kbRrA42WZO5FD2UK2-UbQ1IU": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipMRmtZie2wXG1f4kbRrA42WZO5FD2UK2-UbQ1IU.jpg",
@@ -1075,6 +1353,33 @@
       "triaged_at": "2026-08-09T14:42:13Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipMWOm7JSbu8aYiwIXg7LfFreyoR14gVij09iHc9": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMWOm7JSbu8aYiwIXg7LfFreyoR14gVij09iHc9.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipMWOm7JSbu8aYiwIXg7LfFreyoR14gVij09iHc9.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 614327,
+      "sha1": "88cd558b8fbf9e69",
+      "exif": {
+        "taken_at": "2025:08:26 15:11:30"
+      },
+      "category": "job_progress",
+      "subject": "two burst holes in white residential ceiling drywall",
+      "quality": 55,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 58
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Clean bright image of ceiling damage; readable as water loss but portrait crop limits hero use.",
+      "triaged_at": "2026-08-10T14:14:25Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipMWbiaRyNwCM55uZa3ILtVn9NYcOh8iQyhXZ1Gl": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipMWbiaRyNwCM55uZa3ILtVn9NYcOh8iQyhXZ1Gl.jpg",
@@ -1184,6 +1489,33 @@
       "triaged_at": "2026-08-07T14:10:16Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipMZCjaT8VfGeeK10dAY93FL7xWPICi14kz9H53i": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMZCjaT8VfGeeK10dAY93FL7xWPICi14kz9H53i.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipMZCjaT8VfGeeK10dAY93FL7xWPICi14kz9H53i.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 962618,
+      "sha1": "eb56583cfe0aa1d8",
+      "exif": {
+        "taken_at": "2025:08:21 11:41:59"
+      },
+      "category": "job_progress",
+      "subject": "burned metal bed frame and charred wall after fire",
+      "quality": 62,
+      "slots": {
+        "hero": 18,
+        "team": 0,
+        "services": 68
+      },
+      "service_slugs": [
+        "fire-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Well-lit, clear fire damage scene; strong services card for fire restoration page.",
+      "triaged_at": "2026-08-10T14:14:25Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipM_O49XvzQFa43omaph-ZVaQi-v3Qn51BRwVJWT": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipM_O49XvzQFa43omaph-ZVaQi-v3Qn51BRwVJWT.jpg",
@@ -1212,6 +1544,33 @@
       ],
       "reason": "Extreme close-up, dark, limited context; usable only as damage detail.",
       "triaged_at": "2026-08-09T14:06:30Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMaJD9JVHF3G8H9YJs2o9_Zxzji0H7tzHtGlQhm": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMaJD9JVHF3G8H9YJs2o9_Zxzji0H7tzHtGlQhm.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipMaJD9JVHF3G8H9YJs2o9_Zxzji0H7tzHtGlQhm.jpg",
+      "width": 1183,
+      "height": 2560,
+      "bytes": 1785952,
+      "sha1": "772ed82eab90cccb",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Tattooed hand holding corroded pipe fitting near wall hookup",
+      "quality": 52,
+      "slots": {
+        "hero": 5,
+        "team": 20,
+        "services": 45
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Close-up of failed fitting is diagnostic but cluttered; portrait crop kills hero use.",
+      "triaged_at": "2026-08-10T14:14:41Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipMbnAe3U9A0ae0yEGefAQ41irE41FtVfIV8JmA4": {
@@ -1296,6 +1655,34 @@
       "flags": [],
       "reason": "Dark nighttime shot, poor exposure and composition; marginal usability.",
       "triaged_at": "2026-08-09T14:06:30Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMdJ3Z1G4NOLABkBH6xHQyCYdJEfdohG2wpVjPV": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMdJ3Z1G4NOLABkBH6xHQyCYdJEfdohG2wpVjPV.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipMdJ3Z1G4NOLABkBH6xHQyCYdJEfdohG2wpVjPV.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 862967,
+      "sha1": "7a17b867b80df4ed",
+      "exif": {
+        "taken_at": "2025:08:27 10:30:33"
+      },
+      "category": "job_progress",
+      "subject": "Severely water-damaged rotted subfloor in bathroom corner",
+      "quality": 60,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 62
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "sewage-cleanup"
+      ],
+      "flags": [],
+      "reason": "Clear damage evidence; good for services card but too grim for hero.",
+      "triaged_at": "2026-08-10T14:14:41Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipMdML8fdoc7m0cY-m1I29pmpdR9vkUvf4wSW67j": {
@@ -1660,6 +2047,35 @@
       "triaged_at": "2026-08-09T14:06:30Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipMlPrcCxr6pqjIXOq3YgCw_gx1--ERiecdWsBuM": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMlPrcCxr6pqjIXOq3YgCw_gx1--ERiecdWsBuM.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipMlPrcCxr6pqjIXOq3YgCw_gx1--ERiecdWsBuM.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 503942,
+      "sha1": "c6c9e39224159746",
+      "exif": {
+        "taken_at": "2025:08:21 17:39:35"
+      },
+      "category": "job_progress",
+      "subject": "Water heater in dark utility closet showing damage area",
+      "quality": 35,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 25
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Poor lighting, low quality; barely usable for any marketing slot.",
+      "triaged_at": "2026-08-10T14:14:41Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipMnFyxH045J1Sdz1Jr8dBajla22e9lCTb9hTHiL": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipMnFyxH045J1Sdz1Jr8dBajla22e9lCTb9hTHiL.jpg",
@@ -1972,6 +2388,63 @@
       "triaged_at": "2026-08-07T14:59:21Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipMvE6gGJZf5gJfoVOqA_vulmyAxxHmx0ObXmFpv": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMvE6gGJZf5gJfoVOqA_vulmyAxxHmx0ObXmFpv.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipMvE6gGJZf5gJfoVOqA_vulmyAxxHmx0ObXmFpv.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 361161,
+      "sha1": "f7b4d501ccca4cd7",
+      "exif": {
+        "taken_at": "2025:08:21 09:15:38"
+      },
+      "category": "equipment",
+      "subject": "Thermal imaging camera screen showing moisture detection scan",
+      "quality": 30,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 28
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "low_res"
+      ],
+      "reason": "Screenshot of device screen in darkness; too dark and indirect to be effective.",
+      "triaged_at": "2026-08-10T14:14:41Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMvVDbLOf1ikRbcgpYRdLVtsTTE0-LDs2u6VhOb": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMvVDbLOf1ikRbcgpYRdLVtsTTE0-LDs2u6VhOb.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipMvVDbLOf1ikRbcgpYRdLVtsTTE0-LDs2u6VhOb.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 814337,
+      "sha1": "8f54e9d29117e26b",
+      "exif": {
+        "taken_at": "2025:08:20 11:12:37"
+      },
+      "category": "job_progress",
+      "subject": "Corroded deteriorated pipe junction in crawl space",
+      "quality": 55,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 48
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Sharp close-up of pipe damage; useful diagnostic image but limited marketing appeal.",
+      "triaged_at": "2026-08-10T14:14:41Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipMvgClXEe51SFKUW3ercgcAz9OznZvTLE8VwtRf": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipMvgClXEe51SFKUW3ercgcAz9OznZvTLE8VwtRf.jpg",
@@ -2162,6 +2635,32 @@
       ],
       "reason": "Severely out of focus; mold damage visible but image too blurry to use professionally.",
       "triaged_at": "2026-08-07T14:10:47Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMzBJ54rGQCpM3ma4lFmJwimfYvHS28dik9JHYW": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMzBJ54rGQCpM3ma4lFmJwimfYvHS28dik9JHYW.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipMzBJ54rGQCpM3ma4lFmJwimfYvHS28dik9JHYW.jpg",
+      "width": 1080,
+      "height": 1440,
+      "bytes": 86356,
+      "sha1": "d39521a88fc6ff47",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Clean white carpet on staircase landing after restoration",
+      "quality": 55,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "contents-restoration"
+      ],
+      "flags": [],
+      "reason": "Decent after-state image but plain and low contrast; serviceable for services card only.",
+      "triaged_at": "2026-08-10T14:14:41Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipN-q7i3_sKU70cGMHjpLdzhMEkaI-F6506tJtvG": {
@@ -2613,6 +3112,36 @@
       "triaged_at": "2026-08-07T14:11:02Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipNDoobluxPNY_MppbA3wynZ0W8t5j-zMLjmlwfN": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNDoobluxPNY_MppbA3wynZ0W8t5j-zMLjmlwfN.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipNDoobluxPNY_MppbA3wynZ0W8t5j-zMLjmlwfN.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 364137,
+      "sha1": "49e06363e1b5efad",
+      "exif": {
+        "taken_at": "2025:08:21 09:15:34"
+      },
+      "category": "equipment",
+      "subject": "Thermal camera screen showing moisture scan in darkness",
+      "quality": 22,
+      "slots": {
+        "hero": 2,
+        "team": 0,
+        "services": 18
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [
+        "low_res"
+      ],
+      "reason": "Nearly all black frame; only camera screen visible, very poor composition.",
+      "triaged_at": "2026-08-10T14:14:56Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipNFQCvKwYIRWxYPUUcCetG7pD77rTNqf3YHuzcw": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipNFQCvKwYIRWxYPUUcCetG7pD77rTNqf3YHuzcw.jpg",
@@ -2705,6 +3234,34 @@
       "flags": [],
       "reason": "Clear, well-lit mold damage photo; strong services card for mold-remediation page.",
       "triaged_at": "2026-08-07T14:11:02Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNJugh8LCtdqbHDusskGjDOLPo_3llBDiZdFOM2": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNJugh8LCtdqbHDusskGjDOLPo_3llBDiZdFOM2.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipNJugh8LCtdqbHDusskGjDOLPo_3llBDiZdFOM2.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 1063532,
+      "sha1": "d420ebdd6987b9ad",
+      "exif": {
+        "taken_at": "2025:08:21 09:08:20"
+      },
+      "category": "equipment",
+      "subject": "Handheld thermal camera displaying heat map of structure",
+      "quality": 32,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 28
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Dark background limits usability; readable camera screen but poorly lit scene.",
+      "triaged_at": "2026-08-10T14:14:56Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipNKAFm1ks9XfFPKiONVNXfr7hp-qRbVPkEhLidB": {
@@ -2836,6 +3393,34 @@
       },
       "duplicate_of": "gbp:gbp-AF1QipMeOro6TjcrXKsw4p3_P7BlDgYi4gNCxLPkuGZQ"
     },
+    "gbp:gbp-AF1QipNMrdzk-x5I55tDqsZewGlPUYG3OvDPdx9LSGbr": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNMrdzk-x5I55tDqsZewGlPUYG3OvDPdx9LSGbr.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipNMrdzk-x5I55tDqsZewGlPUYG3OvDPdx9LSGbr.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 482011,
+      "sha1": "305084ee99412f9a",
+      "exif": {
+        "taken_at": "2025:08:21 17:28:54"
+      },
+      "category": "equipment",
+      "subject": "Hand holding thermal camera showing moisture detection scan",
+      "quality": 48,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 42
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Better lit than others; camera and screen clear but tight crop limits utility.",
+      "triaged_at": "2026-08-10T14:14:56Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipNMzDY2nJF0M9nWUSOqJLlU5OED84x_gNBpD_Xl": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipNMzDY2nJF0M9nWUSOqJLlU5OED84x_gNBpD_Xl.jpg",
@@ -2886,6 +3471,34 @@
       "flags": [],
       "reason": "Clear mold damage evidence; useful for mold service page, not hero-worthy.",
       "triaged_at": "2026-08-08T14:37:52Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNNZB6XkcFvKHkxi16BbdBZOlvbDnvaBMExrF_B": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNNZB6XkcFvKHkxi16BbdBZOlvbDnvaBMExrF_B.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipNNZB6XkcFvKHkxi16BbdBZOlvbDnvaBMExrF_B.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 991590,
+      "sha1": "fe188d0dd6786e80",
+      "exif": {
+        "taken_at": "2025:08:21 17:26:17"
+      },
+      "category": "equipment",
+      "subject": "Technician holding thermal camera in garage utility area",
+      "quality": 52,
+      "slots": {
+        "hero": 12,
+        "team": 20,
+        "services": 48
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Best context of the thermal series; background shows real job environment.",
+      "triaged_at": "2026-08-10T14:14:56Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipNNaR-RD94280Zw9n22ZOLAR0UBZZAkP_mYZAkt": {
@@ -2970,6 +3583,34 @@
       "flags": [],
       "reason": "Clear water damage scene; portrait crop limits hero use but strong services card.",
       "triaged_at": "2026-08-07T14:11:17Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNTBmNXHeT_M6FJasPyBSm02rU8ly7ZfYClnPIE": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNTBmNXHeT_M6FJasPyBSm02rU8ly7ZfYClnPIE.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipNTBmNXHeT_M6FJasPyBSm02rU8ly7ZfYClnPIE.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 941352,
+      "sha1": "26f5f9779733891b",
+      "exif": {
+        "taken_at": "2025:08:21 09:06:57"
+      },
+      "category": "equipment",
+      "subject": "Thermal camera held up showing wall scan outdoors",
+      "quality": 45,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 38
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Outdoor context visible but awkward composition; camera dominates frame.",
+      "triaged_at": "2026-08-10T14:14:56Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipNTd6pZetaQVfCMtalT-eBQ-TjA48g_Ex1j9Oyr": {
@@ -3751,6 +4392,31 @@
       "triaged_at": "2026-08-07T14:11:33Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipNjxgyajanSL4rjC5NzQGBZAPwPWDBAlX2WnJ0O": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNjxgyajanSL4rjC5NzQGBZAPwPWDBAlX2WnJ0O.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipNjxgyajanSL4rjC5NzQGBZAPwPWDBAlX2WnJ0O.jpg",
+      "width": 1080,
+      "height": 1440,
+      "bytes": 67010,
+      "sha1": "b5a1cbb569ad90c7",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Empty white room with bare wet carpet being dried",
+      "quality": 38,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 30
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Flat, overexposed, empty room; lacks context or equipment to tell a clear story.",
+      "triaged_at": "2026-08-10T14:14:56Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipNklV1mNtiBQi9MbuWoKNc-2VWmm2Vq6qmhCZ3p": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipNklV1mNtiBQi9MbuWoKNc-2VWmm2Vq6qmhCZ3p.jpg",
@@ -3976,6 +4642,35 @@
       ],
       "reason": "Very dark, low quality, disturbing content; limited usability even on service pages.",
       "triaged_at": "2026-08-08T14:37:52Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNrdytBifV0NnZ4q7D7PV9ijPnp_YNPwhkTWK-G": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNrdytBifV0NnZ4q7D7PV9ijPnp_YNPwhkTWK-G.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipNrdytBifV0NnZ4q7D7PV9ijPnp_YNPwhkTWK-G.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 562443,
+      "sha1": "bf67b90e77d309ea",
+      "exif": {
+        "taken_at": "2025:08:21 17:40:50"
+      },
+      "category": "job_progress",
+      "subject": "wet pump hoses and valves leaking water close-up",
+      "quality": 42,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 35
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Extreme close-up of plumbing hardware; dark, cluttered, low composition value.",
+      "triaged_at": "2026-08-10T14:15:13Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipNsIi8_V3oo1Y5ImTtB8WZNfj9yGy0OqZgz1b3w": {
@@ -4288,6 +4983,33 @@
       ],
       "reason": "Blurry, poorly lit, angled shot of flood damage; limited marketing value.",
       "triaged_at": "2026-08-07T14:59:53Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipO0qJytdjsnNmlxf--9cP4k853y5J4glRhCHC4D": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipO0qJytdjsnNmlxf--9cP4k853y5J4glRhCHC4D.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipO0qJytdjsnNmlxf--9cP4k853y5J4glRhCHC4D.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 608915,
+      "sha1": "7b11d3f814f3a988",
+      "exif": {
+        "taken_at": "2025:08:19 09:24:26"
+      },
+      "category": "job_progress",
+      "subject": "cut-out hole in drywall ceiling revealing OSB substrate",
+      "quality": 52,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Clear demolition evidence but portrait crop and dark void limit appeal.",
+      "triaged_at": "2026-08-10T14:15:13Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipO3QKadF40_R8Eq5TykOV7-C1PAv0TIJfZWGCG-": {
@@ -4787,6 +5509,33 @@
       },
       "duplicate_of": "gbp:gbp-AF1QipMisNxscN57ycqoB9tZaCDSdCBy4oyBBWN9vmGD"
     },
+    "gbp:gbp-AF1QipOG4Z7UxT7JoEUXAx3jUbljOjNXP6s82ii2Uq1n": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOG4Z7UxT7JoEUXAx3jUbljOjNXP6s82ii2Uq1n.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipOG4Z7UxT7JoEUXAx3jUbljOjNXP6s82ii2Uq1n.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 1196945,
+      "sha1": "05b672665984f51d",
+      "exif": {
+        "taken_at": "2025:08:21 11:41:58"
+      },
+      "category": "job_progress",
+      "subject": "burned metal bed frame and charred debris on patio",
+      "quality": 62,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "fire-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Well-lit fire damage scene; good context but no technician or clean composition.",
+      "triaged_at": "2026-08-10T14:15:13Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipOH9BwombnOuH7usBNlwPHyh1svnaY6rQrqw4Ut": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipOH9BwombnOuH7usBNlwPHyh1svnaY6rQrqw4Ut.jpg",
@@ -4812,6 +5561,33 @@
       "flags": [],
       "reason": "Dark angled shot similar to image 2; limited use but documents fire damage.",
       "triaged_at": "2026-08-09T14:07:00Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOH_HB7VHFq37A20IA_TvzsU-dRA5Q619RQq9cU": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOH_HB7VHFq37A20IA_TvzsU-dRA5Q619RQq9cU.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipOH_HB7VHFq37A20IA_TvzsU-dRA5Q619RQq9cU.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 1190860,
+      "sha1": "452219e902c4a575",
+      "exif": {
+        "taken_at": "2025:08:21 11:41:30"
+      },
+      "category": "job_progress",
+      "subject": "burned metal frame and ash on floor from photographer's perspective",
+      "quality": 35,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 25
+      },
+      "service_slugs": [
+        "fire-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Feet in frame, awkward overhead angle; unprofessional composition kills usability.",
+      "triaged_at": "2026-08-10T14:15:13Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipOHsfGYUBZOTwFVgHswf-K4cCgQbsyVzdhMJT5h": {
@@ -4895,6 +5671,34 @@
       "flags": [],
       "reason": "Clear, in-focus mold evidence photo; strong services card candidate.",
       "triaged_at": "2026-08-07T14:12:21Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOJDGXPhSiX5Tyn__axcCmOSiMqZGa5Jklsf5cZ": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOJDGXPhSiX5Tyn__axcCmOSiMqZGa5Jklsf5cZ.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipOJDGXPhSiX5Tyn__axcCmOSiMqZGa5Jklsf5cZ.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 678934,
+      "sha1": "30c13e77c6fd3dc5",
+      "exif": {
+        "taken_at": "2025:08:21 09:14:57"
+      },
+      "category": "job_progress",
+      "subject": "water-stained wall with mold growth and stripped flooring",
+      "quality": 48,
+      "slots": {
+        "hero": 8,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Relevant damage visible but dark, low-angle, and grainy; usable only for services.",
+      "triaged_at": "2026-08-10T14:15:13Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipOJbSICul6COe50tdzIiIYT6ImB1yiMQv17eKNn": {
@@ -5786,6 +6590,60 @@
       "triaged_at": "2026-08-08T14:38:22Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipOepnIZaEtai4b9-LW22IfDXC_3HIdDVNHW_El_": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOepnIZaEtai4b9-LW22IfDXC_3HIdDVNHW_El_.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipOepnIZaEtai4b9-LW22IfDXC_3HIdDVNHW_El_.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 517257,
+      "sha1": "0f0b28844f154918",
+      "exif": {
+        "taken_at": "2025:08:19 09:23:49"
+      },
+      "category": "job_progress",
+      "subject": "collapsed water-damaged ceiling above bathroom vanity area",
+      "quality": 55,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 58
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Clear ceiling collapse damage; warm light and decent framing, serviceable for services slot.",
+      "triaged_at": "2026-08-10T14:15:13Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOfC51xc-r_V0E005B9QJkVHoGosvLbpgMTvWF_": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOfC51xc-r_V0E005B9QJkVHoGosvLbpgMTvWF_.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipOfC51xc-r_V0E005B9QJkVHoGosvLbpgMTvWF_.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 1343303,
+      "sha1": "44f655f73c102566",
+      "exif": {
+        "taken_at": "2025:08:21 11:41:41"
+      },
+      "category": "job_progress",
+      "subject": "Heavy mold growth on underside of patio roof panels",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Clear mold damage documentation; awkward upward angle limits hero use.",
+      "triaged_at": "2026-08-10T14:15:29Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipOfiJ0EoA6Mwf2XQw1W4y5O461iPnQs0T9xx9IW": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipOfiJ0EoA6Mwf2XQw1W4y5O461iPnQs0T9xx9IW.jpg",
@@ -5924,6 +6782,35 @@
       "flags": [],
       "reason": "Diagnostic tool in use; low composition quality, dark frame around screen.",
       "triaged_at": "2026-08-07T14:13:06Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOgwaR3nh0gdvym1LTMXs38r9dTFygJSTD-rJNH": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOgwaR3nh0gdvym1LTMXs38r9dTFygJSTD-rJNH.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipOgwaR3nh0gdvym1LTMXs38r9dTFygJSTD-rJNH.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 906523,
+      "sha1": "057e818b1fba5bae",
+      "exif": {
+        "taken_at": "2025:08:20 11:12:33"
+      },
+      "category": "job_progress",
+      "subject": "Mold and debris inside dirty HVAC duct interior",
+      "quality": 40,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [
+        "mold-remediation"
+      ],
+      "flags": [
+        "low_res"
+      ],
+      "reason": "Dark, poorly lit duct interior; limited composition value but shows damage.",
+      "triaged_at": "2026-08-10T14:15:29Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipOh-lf7tOBicXU44eSlZtqgOI5w2GMc1aviODnf": {
@@ -6690,6 +7577,35 @@
       "triaged_at": "2026-08-09T14:07:36Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipP1bzZvr0yUYswllfmh7_571v8kigZqr_V2VGlE": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipP1bzZvr0yUYswllfmh7_571v8kigZqr_V2VGlE.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipP1bzZvr0yUYswllfmh7_571v8kigZqr_V2VGlE.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 467978,
+      "sha1": "fb677c2ce1759603",
+      "exif": {
+        "taken_at": "2025:08:21 17:29:01"
+      },
+      "category": "equipment",
+      "subject": "Technician holding thermal imaging camera during water inspection",
+      "quality": 45,
+      "slots": {
+        "hero": 10,
+        "team": 30,
+        "services": 50
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Interesting diagnostic tool shown but poor focus and cluttered composition.",
+      "triaged_at": "2026-08-10T14:15:29Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipP28qlqSvkxLNudIXaWPRZ7oVEeN7mA90iDQhzD": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipP28qlqSvkxLNudIXaWPRZ7oVEeN7mA90iDQhzD.jpg",
@@ -6718,6 +7634,31 @@
       "triaged_at": "2026-08-07T14:13:36Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipP2LmgoARuSh0knsbMY9OhpjnaKm8wRna0yy2_0": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipP2LmgoARuSh0knsbMY9OhpjnaKm8wRna0yy2_0.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipP2LmgoARuSh0knsbMY9OhpjnaKm8wRna0yy2_0.jpg",
+      "width": 1080,
+      "height": 1440,
+      "bytes": 193861,
+      "sha1": "cfb5f7bc822dc1d3",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Living room carpet being dried with large extraction hose",
+      "quality": 45,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Shows water extraction work in progress but dark and low-angle composition.",
+      "triaged_at": "2026-08-10T14:15:29Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipP2j0J9PCj4hyhXp8IE4ZglFiXx3zPgqzGWztCN": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipP2j0J9PCj4hyhXp8IE4ZglFiXx3zPgqzGWztCN.jpg",
@@ -6730,6 +7671,33 @@
         "taken_at": "2025:10:18 12:44:09"
       },
       "duplicate_of": "gbp:gbp-AF1QipOEN5ocQd8ApC_L2oZAfDoHtGXjoARU-mJeFV7q"
+    },
+    "gbp:gbp-AF1QipP3cPud41yuYRHyUAWjWm2dqg7sk8at7sS3a6zD": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipP3cPud41yuYRHyUAWjWm2dqg7sk8at7sS3a6zD.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipP3cPud41yuYRHyUAWjWm2dqg7sk8at7sS3a6zD.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 598049,
+      "sha1": "4c1669722bf226f7",
+      "exif": {
+        "taken_at": "2025:08:26 15:11:29"
+      },
+      "category": "job_progress",
+      "subject": "Interior ceiling with multiple water damage holes and cracks",
+      "quality": 60,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 62
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Clean exposure shows water damage well; good services card candidate.",
+      "triaged_at": "2026-08-10T14:15:29Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipP5HyowdTg0WHgZuAakd4sMG5ijIiZtPVTCJj4K": {
       "source": "gbp",
@@ -7190,6 +8158,35 @@
       "triaged_at": "2026-08-09T14:43:15Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipPN6IeV9WcbOYDVuUEdtIsHZ7mQqcSi7SWo24o4": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPN6IeV9WcbOYDVuUEdtIsHZ7mQqcSi7SWo24o4.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipPN6IeV9WcbOYDVuUEdtIsHZ7mQqcSi7SWo24o4.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 528188,
+      "sha1": "23fa34e5448a8b41",
+      "exif": {
+        "taken_at": "2025:08:21 17:26:25"
+      },
+      "category": "equipment",
+      "subject": "Technician holding thermal camera scanning wall for moisture",
+      "quality": 60,
+      "slots": {
+        "hero": 15,
+        "team": 35,
+        "services": 65
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Better lit than image 2; clearly shows diagnostic process in action.",
+      "triaged_at": "2026-08-10T14:15:29Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipPOCCA-rDOr9MSOHVXJVY1ggTbnYuKH6owsixPf": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipPOCCA-rDOr9MSOHVXJVY1ggTbnYuKH6owsixPf.jpg",
@@ -7544,6 +8541,33 @@
       ],
       "reason": "Close-up of grimy cabinet floor; poor composition, low professional value.",
       "triaged_at": "2026-08-07T14:14:09Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPSlElGWTY2HYzgQq40jLIJXwgl2OooqobG30Ih": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPSlElGWTY2HYzgQq40jLIJXwgl2OooqobG30Ih.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipPSlElGWTY2HYzgQq40jLIJXwgl2OooqobG30Ih.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 713031,
+      "sha1": "f2ef86fa701a4cc2",
+      "exif": {
+        "taken_at": "2025:08:21 16:36:11"
+      },
+      "category": "job_progress",
+      "subject": "Mold spots on ceiling and wall corner interior",
+      "quality": 42,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Dark, upward-angled phone shot; useful as mold damage evidence only.",
+      "triaged_at": "2026-08-10T14:15:39Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipPTD-YPmeO4HzK85hNmXp3Z1T6cVkr2XfvdhpCo": {
@@ -7942,6 +8966,34 @@
       "triaged_at": "2026-08-08T14:38:38Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipPcYpthiDIHrZEVxSROvF-OxUQtsR-T-eKlI5ad": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPcYpthiDIHrZEVxSROvF-OxUQtsR-T-eKlI5ad.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipPcYpthiDIHrZEVxSROvF-OxUQtsR-T-eKlI5ad.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 703192,
+      "sha1": "13fa6a1681db8745",
+      "exif": {
+        "taken_at": "2025:08:21 09:15:14"
+      },
+      "category": "job_progress",
+      "subject": "Heavy mold growth on wall corner and bare floor",
+      "quality": 52,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Clear mold damage documentation; good for services card, not hero.",
+      "triaged_at": "2026-08-10T14:15:39Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipPccUvkFZis7kzewQdNqmZ4SKQifx7GpvZlvvZe": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipPccUvkFZis7kzewQdNqmZ4SKQifx7GpvZlvvZe.jpg",
@@ -8267,6 +9319,32 @@
       "triaged_at": "2026-08-07T14:14:25Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipPoK2V_j9nlU9RDmBdYvVPpqR858A98EX6zAQlb": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPoK2V_j9nlU9RDmBdYvVPpqR858A98EX6zAQlb.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipPoK2V_j9nlU9RDmBdYvVPpqR858A98EX6zAQlb.jpg",
+      "width": 1080,
+      "height": 1440,
+      "bytes": 252091,
+      "sha1": "fdb979c3fe5f7914",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Clean carpeted curved staircase with ornate iron railing",
+      "quality": 72,
+      "slots": {
+        "hero": 30,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [
+        "contents-restoration",
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Well-lit after-state staircase; ambiguous context limits service utility.",
+      "triaged_at": "2026-08-10T14:15:39Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipPotWOyyrMpob0KNw3OgjJ4UW_zmWzPiIcTdscE": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipPotWOyyrMpob0KNw3OgjJ4UW_zmWzPiIcTdscE.jpg",
@@ -8432,6 +9510,31 @@
         "taken_at": "2025:09:29 14:49:49"
       },
       "duplicate_of": "gbp:gbp-AF1QipMxxO2TvC1_C6w7q_gnZflcaNzkWAMAd4tQDGfm"
+    },
+    "gbp:gbp-AF1QipPqlvQfYMIg_kDySTtbMkxAtipbI8UhRkNl3ra9": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPqlvQfYMIg_kDySTtbMkxAtipbI8UhRkNl3ra9.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipPqlvQfYMIg_kDySTtbMkxAtipbI8UhRkNl3ra9.jpg",
+      "width": 1080,
+      "height": 1440,
+      "bytes": 356166,
+      "sha1": "70815d05e0090f98",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Clean beige carpet room showing drying tread marks",
+      "quality": 48,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Angled, unremarkable carpet shot; minimal storytelling for services slot.",
+      "triaged_at": "2026-08-10T14:15:39Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipPqxJ4BD38nX4bndxpDAJ3xgQmhtQanFoTYS-_F": {
       "source": "gbp",
@@ -8685,5 +9788,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-08-09T14:43:22Z"
+  "triaged_at": "2026-08-10T14:15:39Z"
 }
