@@ -1,80 +1,80 @@
 {
- "brand": {
-  "display_name": "RT Olson Plumbing, Heating and Air Conditioning",
-  "place_id": "ChIJEXHd9pfR3IARQ_LumANTVG8",
-  "lat": 33.8752945,
-  "lng": -117.566444,
-  "phone": "(951) 344-5596",
-  "email": "office@rtoplumbing.com",
-  "street_address": "9064 Pulsar Ct. Suite J",
-  "city": "Corona ",
-  "state": "CA",
-  "postal_code": "92883",
-  "theme": "light",
-  "license_numbers": [
-   "997337"
+  "brand": {
+    "display_name": "RT Olson Plumbing, Heating and Air Conditioning",
+    "place_id": "ChIJEXHd9pfR3IARQ_LumANTVG8",
+    "lat": 33.8752945,
+    "lng": -117.566444,
+    "phone": "(951) 344-5596",
+    "email": "office@rtoplumbing.com",
+    "street_address": "9064 Pulsar Ct. Suite J",
+    "city": "Corona ",
+    "state": "CA",
+    "postal_code": "92883",
+    "theme": "light",
+    "license_numbers": [
+      "997337"
+    ],
+    "hours": "24/7",
+    "licensed_insured_attested": true,
+    "founded_year": "2014",
+    "trust_badges": [
+      "Licensed & Insured",
+      "24/7 Emergency Service",
+      "Locally Owned & Operated"
+    ]
+  },
+  "services": [
+    "emergency-plumbing",
+    "leak-detection"
   ],
-  "hours": "24/7",
-  "licensed_insured_attested": true,
-  "founded_year": "2014",
-  "trust_badges": [
-   "Licensed & Insured",
-   "24/7 Emergency Service",
-   "Locally Owned & Operated"
-  ]
- },
- "services": [
-  "emergency-plumbing",
-  "leak-detection"
- ],
- "service_areas": [
-  {
-   "city": "Corona",
-   "state": "CA",
-   "slug": "corona-ca",
-   "primary": true
-  },
-  {
-   "city": "Riverside",
-   "state": "CA",
-   "slug": "riverside-ca"
-  },
-  {
-   "city": "Anaheim",
-   "state": "CA",
-   "slug": "anaheim-ca"
-  },
-  {
-   "city": "Santa Ana",
-   "state": "CA",
-   "slug": "santa-ana-ca"
-  },
-  {
-   "city": "Fullerton",
-   "state": "CA",
-   "slug": "fullerton-ca"
-  },
-  {
-   "city": "Ontario",
-   "state": "CA",
-   "slug": "ontario-ca"
-  },
-  {
-   "city": "Chino",
-   "state": "CA",
-   "slug": "chino-ca"
-  },
-  {
-   "city": "Norco",
-   "state": "CA",
-   "slug": "norco-ca"
-  },
-  {
-   "city": "Yorba Linda",
-   "state": "CA",
-   "slug": "yorba-linda-ca"
-  }
- ],
- "template": "restoration",
- "blog_seed_count": 8
+  "service_areas": [
+    {
+      "city": "Corona",
+      "state": "CA",
+      "slug": "corona-ca",
+      "primary": true
+    },
+    {
+      "city": "Riverside",
+      "state": "CA",
+      "slug": "riverside-ca"
+    },
+    {
+      "city": "Anaheim",
+      "state": "CA",
+      "slug": "anaheim-ca"
+    },
+    {
+      "city": "Santa Ana",
+      "state": "CA",
+      "slug": "santa-ana-ca"
+    },
+    {
+      "city": "Fullerton",
+      "state": "CA",
+      "slug": "fullerton-ca"
+    },
+    {
+      "city": "Ontario",
+      "state": "CA",
+      "slug": "ontario-ca"
+    },
+    {
+      "city": "Chino",
+      "state": "CA",
+      "slug": "chino-ca"
+    },
+    {
+      "city": "Norco",
+      "state": "CA",
+      "slug": "norco-ca"
+    },
+    {
+      "city": "Yorba Linda",
+      "state": "CA",
+      "slug": "yorba-linda-ca"
+    }
+  ],
+  "template": "plumbing",
+  "blog_seed_count": 8
 }
