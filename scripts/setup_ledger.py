@@ -1843,7 +1843,7 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
         # their part. Same invisibility class as the unlaunched-site gap.
         try:
             docs_notes = _sb("GET", "/rest/v1/marketing_ops_notes"
-                             f"?company_id=eq.{cid}&body=ilike.*CUSTOMER?LIST*"
+                             f"?company_id=eq.{cid}&body=ilike.*customer*list*"
                              "&select=id&limit=1") or []
             if docs_notes:
                 reqs = _sb("GET", "/rest/v1/review_requests"
