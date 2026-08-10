@@ -183,7 +183,7 @@ def _state_abbr(state) -> str:
     return _US_STATE_ABBR.get(s.lower(), s.upper() if len(s) == 2 else s)
 
 
-def resolve_tokens(client: dict, plan_input: dict) -> tuple[dict, dict]:
+def resolve_tokens(client: dict, plan_input: dict, allow_missing_domain: bool = False) -> tuple[dict, dict]:
     """Return (string_tokens, json_tokens). JSON tokens substitute as bare
     JS literals (no surrounding quotes)."""
     brand = plan_input.get("brand", {})
@@ -194,14 +194,22 @@ def resolve_tokens(client: dict, plan_input: dict) -> tuple[dict, dict]:
     # "Sitemap: https://None/sitemap-index.xml", including crew3r.com after it
     # went live, so every crawler and AI agent was pointed at a host that does
     # not exist. Refuse rather than stringify.
+    slug = client["slug"]
     domain = (client.get("domain") or "").strip()
     if not domain or domain.endswith(".invalid"):
-        raise ValueError(
-            f"scaffold tokens for {slug}: domain is {client.get('domain')!r}. "
-            "Set the real domain on the client record first — a null domain "
-            "silently becomes 'https://None' in robots.txt, canonicals and "
-            "schema.")
-    slug = client["slug"]
+        if allow_missing_domain:
+            # Colour-only callers (retint) never write URL tokens; a loud
+            # placeholder keeps the guard's spirit without blocking pre-domain
+            # clients from colour fixes (Life Savers 2026-08-10). Anything
+            # that DOES write this into a page would be caught by the normal
+            # scaffold path, which still refuses.
+            domain = f"{slug}.invalid"
+        else:
+            raise ValueError(
+                f"scaffold tokens for {slug}: domain is {client.get('domain')!r}. "
+                "Set the real domain on the client record first — a null domain "
+                "silently becomes 'https://None' in robots.txt, canonicals and "
+                "schema.")
 
     # Resolve primary area for derived city/state
     areas = plan_input.get("service_areas", [])
@@ -1713,7 +1721,8 @@ def cmd_retint(args) -> int:
         die(f"No site at {site_dir}")
     client = load_json(CLIENTS_DIR / f"{slug}.json")
     plan_input = load_json(CLIENTS_DIR / slug / "plan-input.json")
-    string_tokens, json_tokens = resolve_tokens(client, plan_input)
+    string_tokens, json_tokens = resolve_tokens(client, plan_input,
+                                                allow_missing_domain=True)
     tokens = {**string_tokens, **json_tokens}
 
     targets = [("tailwind.config.mjs", STARTER_DIR / "tailwind.config.mjs"),
