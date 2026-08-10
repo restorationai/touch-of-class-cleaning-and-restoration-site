@@ -159,8 +159,18 @@ logo/livery corrections.
 5. Optional depth pass: `python3 scripts/local_depth.py generate --slug <slug>
    --out <report.json>` then `apply --report <report.json>`. It carries its own
    fabrication screen and runs claims-lint on every section.
-6. REMOVALS on a live site are not yours — they are indexed URLs and need
-   redirects. Punt them.
+6. REMOVALS are YOURS when the client asked for them (Santino 2026-08-10;
+   the old punt-everything rule made HomeLyft's own request wait four days).
+   Non-negotiable execution requirements, every time:
+   - a 301 redirect for EVERY deleted URL to the nearest surviving page
+     (the hub above it, or the matching service page) — an indexed URL
+     never just vanishes;
+   - remove the entries from plan-input (service_areas / services) so the
+     pages cannot regenerate;
+   - scrub internal links, frontmatter area lists, and geogrid-cities.json;
+   - rebuild the sitemap, run claims-lint, deploy per the SITE line.
+   Punt ONLY a removal nobody asked for, or one whose redirect target you
+   genuinely cannot determine.
 
 ### Copy and facts
 

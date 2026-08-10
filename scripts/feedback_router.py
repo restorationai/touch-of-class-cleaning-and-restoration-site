@@ -252,10 +252,13 @@ def risk_verdict(fb: dict, *, site_live: bool, has_site: bool) -> tuple[str, str
 
     # --- live-production stops -------------------------------------------
     if site_live:
+        # REMOVALS AUTO-RUN NOW (Santino 2026-08-10, HomeLyft's six-town
+        # removal waited four days on his approval: "it should be executed
+        # automatically"). The danger was never the deletion, it was deleting
+        # an indexed URL without a redirect — so the redirect became a hard
+        # execution requirement in dev_agent.md instead of a human gate here.
         if _REMOVAL_RE.search(blob):
-            return "propose", ("asks to remove something from a LIVE site, "
-                               "and deletions on an indexed site are not "
-                               "reversible on their own")
+            pass  # falls through to the normal category/confidence gates
     return "auto", (f"{CATEGORIES[cat][0]} change, stated plainly, on a "
                     f"{'live' if site_live else 'preview'} site")
 
