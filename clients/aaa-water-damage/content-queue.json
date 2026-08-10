@@ -1,44 +1,257 @@
 {
- "items": [
-  {
-   "id": "2026-08-07-best-water-damage-restoration-in-honolulu-hi",
-   "status": "queued",
-   "queued_at": "2026-08-07T03:41:42Z",
-   "priority": 1,
-   "prioritized": true,
-   "content_type": "best_of_comparison",
-   "combo_key": "best-water-damage-restoration-in-honolulu-hi",
-   "primary_keyword": "best water damage restoration company in Honolulu, HI",
-   "intent": "commercial",
-   "target_word_count": 1600,
-   "city_anchor": "honolulu-hi",
-   "best_of": {
-    "service": "water-damage-restoration",
-    "service_pretty": "Water Damage Restoration",
-    "city": "Honolulu",
-    "state": "HI",
-    "competitors": [
-     {
-      "name": "NuFinishPro of San Diego",
-      "google_rating": 5,
-      "review_count": 259
-     },
-     {
-      "name": "Servpro Industries LLC",
-      "google_rating": 2.4,
-      "review_count": 60
-     }
-    ]
-   },
-   "fan_out_cluster": [
-    "best water damage restoration companies Honolulu",
-    "top rated water damage restoration Honolulu HI",
-    "who is the best water damage restoration company in Honolulu",
-    "water removal Honolulu",
-    "water damage cleanup Honolulu",
-    "water cleanup Honolulu"
-   ],
-   "source": "best-of-seeder"
-  }
- ]
+  "items": [
+    {
+      "id": "2026-08-07-best-water-damage-restoration-in-honolulu-hi",
+      "status": "written",
+      "queued_at": "2026-08-07T03:41:42Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "best_of_comparison",
+      "combo_key": "best-water-damage-restoration-in-honolulu-hi",
+      "primary_keyword": "best water damage restoration company in Honolulu, HI",
+      "intent": "commercial",
+      "target_word_count": 1600,
+      "city_anchor": "honolulu-hi",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Honolulu",
+        "state": "HI",
+        "competitors": [
+          {
+            "name": "NuFinishPro of San Diego",
+            "google_rating": 5,
+            "review_count": 259
+          },
+          {
+            "name": "Servpro Industries LLC",
+            "google_rating": 2.4,
+            "review_count": 60
+          }
+        ]
+      },
+      "fan_out_cluster": [
+        "best water damage restoration companies Honolulu",
+        "top rated water damage restoration Honolulu HI",
+        "who is the best water damage restoration company in Honolulu",
+        "water removal Honolulu",
+        "water damage cleanup Honolulu",
+        "water cleanup Honolulu"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-08-10T17:14:27Z",
+      "post_url": "https://aaawaterdamagehawaii.com/blog/best-water-damage-restoration-company-in-honolulu-hi/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-honolulu-hi.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "259 reviews",
+          "context": "Diego holds a 5.0 Google rating across 259 reviews, which is a strong signal of consistent",
+          "reason": "claims 259 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-honolulu-hi.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "60 reviews",
+          "context": "ting carries a 2.4 Google rating across 60 reviews. As with any franchise, service quality",
+          "reason": "claims 60 reviews but no synced gbpReviewCount exists for this site"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-10-hawaii-water-damage-restoration",
+      "status": "queued",
+      "queued_at": "2026-08-10T17:12:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "hawaii water damage restoration",
+      "intent": "transactional",
+      "volume": 210,
+      "kd": 20,
+      "fan_out_cluster": [
+        "water damage restoration oahu",
+        "water damage restoration honolulu",
+        "emergency water extraction honolulu",
+        "24 hour water damage restoration honolulu",
+        "water damage cleanup honolulu",
+        "residential water damage restoration near me"
+      ],
+      "suggested_slug": "hawaii-water-damage-restoration-island-guide",
+      "suggested_title": "Hawaii water damage restoration: what island homeowners need to know before they call",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/flood-damage-restoration/",
+        "/service-areas/honolulu-hi/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "flood-damage-restoration"
+      ],
+      "city_anchor": "honolulu-hi",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Island-wide gap: the url-plan covers water damage restoration per-city but has no Oahu or Hawaii-wide page, and 'hawaii water damage restoration' pulls 210/mo at KD 20 with a $21 CPC. Frame around what makes island losses different from mainland losses: year-round humidity collapsing the 24-48 hour mold window, salt-air corrosion on valves and angle stops, single-wall construction that wicks water, high-rise riser failures that cascade through units. Route readers to the per-city pages. Truth gate: no IICRC or license claims, no specific founding year, 'over 25 years' phrasing only.",
+      "source": "keyword-researcher",
+      "seed": "water damage restoration"
+    },
+    {
+      "id": "2026-08-10-water-damage-restoration-cost",
+      "status": "queued",
+      "queued_at": "2026-08-10T17:12:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "water damage restoration cost",
+      "intent": "informational",
+      "volume": 880,
+      "kd": 3,
+      "fan_out_cluster": [
+        "how much does water damage restoration cost",
+        "water damage restoration cost per square foot",
+        "water damage restoration cost calculator",
+        "water damage restoration cost honolulu",
+        "water damage restoration price sheet",
+        "what affects water damage restoration pricing"
+      ],
+      "suggested_slug": "water-damage-restoration-cost",
+      "suggested_title": "Water damage restoration cost: what drives the number (and what it looks like on Oahu)",
+      "target_word_count": 1800,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/flood-equipment-rental/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "flood-equipment-rental"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Highest-value uncovered informational term in the seed family: 880/mo at KD 3, and none of the 12 planned blog posts touch price. Break cost down by driver (water category, affected square footage, materials removed, drying days, equipment count) rather than publishing a flat price list. Explain mitigation billing vs reconstruction billing separately. Do not publish a fixed price sheet or a guaranteed quote range.",
+      "source": "keyword-researcher",
+      "seed": "water damage restoration"
+    },
+    {
+      "id": "2026-08-10-who-is-responsible-for-water-damage-in-a-condo",
+      "status": "queued",
+      "queued_at": "2026-08-10T17:12:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "who is responsible for water damage in a condo",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "condo water damage honolulu",
+        "ceiling leak from the unit upstairs",
+        "AOAO vs owner responsibility for water damage",
+        "who pays for water damage in a high rise",
+        "condo water damage insurance claim",
+        "what to do when a neighbor's leak floods your unit"
+      ],
+      "suggested_slug": "who-is-responsible-water-damage-condo",
+      "suggested_title": "Who is responsible for water damage in a condo: owner, neighbor, or the AOAO?",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/commercial-restoration/",
+        "/service-areas/honolulu-hi/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "commercial-restoration"
+      ],
+      "city_anchor": "honolulu-hi",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Highest local-fit question in the whole fan-out. Urban Honolulu is condo country (Waikiki, Kakaako, Ala Moana, the Diamond Head Gold Coast co-ops) where one failed riser or supply line soaks the units below and pulls in AOAO coverage alongside the owner's HO-6. Explain the split between association master policy and unit-owner policy in general terms, and what documentation the association's insurer will expect. Keep it educational: state plainly this is not legal or insurance advice and that the governing documents control.",
+      "source": "keyword-researcher",
+      "seed": "water damage restoration"
+    },
+    {
+      "id": "2026-08-10-water-mitigation-vs-water-restoration",
+      "status": "queued",
+      "queued_at": "2026-08-10T17:12:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what is the difference between water mitigation and water restoration",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "water mitigation vs restoration",
+        "what does water mitigation include",
+        "does mitigation include putting my house back together",
+        "who does the reconstruction after water damage",
+        "mitigation vs reconstruction insurance billing",
+        "what is moisture mapping"
+      ],
+      "suggested_slug": "water-mitigation-vs-water-restoration",
+      "suggested_title": "What is the difference between water mitigation and water restoration (and why your bill has two halves)",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/flood-equipment-rental/",
+        "/blog/how-long-does-water-damage-restoration-take/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "flood-equipment-rental"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "ChatGPT's decomposition of the seed named this distinction as extremely important and no planned page covers it. Lay out mitigation (extraction, air movers, dehumidifiers, moisture mapping, controlled demolition, monitoring, documentation) against reconstruction (drywall, flooring, cabinets, trim, paint). Important truth-gate note for this client: drywall, painting and remodel service pages were deliberately omitted pending an HI contractor license number, so the post must describe reconstruction generically and must not offer or imply the client performs licensed reconstruction work.",
+      "source": "keyword-researcher",
+      "seed": "water damage restoration"
+    },
+    {
+      "id": "2026-08-10-how-do-i-know-if-my-house-is-dry-after-water-damage",
+      "status": "queued",
+      "queued_at": "2026-08-10T17:12:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how do i know if my house is dry after water damage",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "moisture meter readings after water damage",
+        "what is a dry standard in restoration",
+        "how many days should air movers run",
+        "can drywall look dry but still be wet",
+        "should i get drying documentation",
+        "thermal imaging for hidden moisture"
+      ],
+      "suggested_slug": "how-to-know-house-is-dry-after-water-damage",
+      "suggested_title": "How do I know if my house is dry after water damage? The readings to ask for",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-inspection-testing/",
+        "/blog/mold-after-water-damage/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-inspection-testing"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-cleanup-your-home",
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "ChatGPT called this the single best question a homeowner can ask, and the planned blog only covers how long restoration takes, not how dryness is verified. Give the reader the exact list to ask for: baseline readings, affected materials, daily readings, target dry standard, where readings were taken, and a copy of the drying log. Tie it to Oahu's ambient humidity, which makes 'it feels dry' meaningless year-round.",
+      "source": "keyword-researcher",
+      "seed": "water damage restoration"
+    }
+  ]
 }
