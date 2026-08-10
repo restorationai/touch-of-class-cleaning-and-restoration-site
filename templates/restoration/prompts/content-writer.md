@@ -32,6 +32,12 @@ The orchestrator will use these fields to build the markdown frontmatter, genera
 
 ---
 
+## Title convention (Santino 2026-08-09)
+
+- COST GUIDES put the client's primary city in the title: "Mold Remediation Cost in {City}: What {State} Homeowners Pay" — cost is where local numbers differ and where AI answers cite local sources, and the hybrid form still ranks for the national query.
+- QUESTION POSTS keep the national keyword as the title (that is the query people type) and anchor the city in the opening paragraph, at least one H2 or example, and the FAQ.
+- Either way the primary keyword must appear intact in the title.
+
 ## Writing principles (apply to every post)
 
 - NEVER use an em dash (the — character) anywhere: not in the title, body, meta description, or FAQ. Use a comma, a period, a colon, or a plain hyphen instead. (The orchestrator strips any that slip through, but write without them.)
