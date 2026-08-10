@@ -1,0 +1,80 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+flood damage restoration,transactional,110000,9,49.42,3,flood damage cleanup,,/services/flood-damage-restoration/,no
+water damage cleanup,transactional,1900,31,47.91,3,water damage restoration,,/services/water-damage-restoration/,no
+mold remediation fort lauderdale,transactional,720,6,75.02,3,mold remediation,Fort Lauderdale,/service-areas/fort-lauderdale-fl/mold-remediation/,no
+water damage restoration fort lauderdale,transactional,320,,17.41,3,water damage restoration,Fort Lauderdale,/service-areas/fort-lauderdale-fl/water-damage-restoration/,no
+mold removal fort lauderdale,transactional,70,2,51.09,3,mold remediation,Fort Lauderdale,/service-areas/fort-lauderdale-fl/mold-remediation/,no
+mold remediation hollywood fl,transactional,20,,30.46,3,mold remediation,Hollywood,/service-areas/hollywood-fl/mold-remediation/,no
+water damage restoration hollywood fl,transactional,10,,,3,water damage restoration,Hollywood,/service-areas/hollywood-fl/water-damage-restoration/,no
+water damage restoration weston fl,transactional,10,,,3,water damage restoration,Weston,/service-areas/weston-fl/water-damage-restoration/,no
+water damage restoration davie fl,transactional,,,,3,water damage restoration,Davie,/service-areas/davie-fl/water-damage-restoration/,no
+water damage restoration pembroke pines fl,transactional,,,,3,water damage restoration,Pembroke Pines,/service-areas/pembroke-pines-fl/water-damage-restoration/,no
+water damage restoration plantation fl,transactional,,,,3,water damage restoration,Plantation,/service-areas/plantation-fl/water-damage-restoration/,no
+mold remediation davie fl,transactional,,,,3,mold remediation,Davie,/service-areas/davie-fl/mold-remediation/,no
+fire damage restoration fort lauderdale,transactional,,,,3,fire damage restoration,Fort Lauderdale,/service-areas/fort-lauderdale-fl/fire-damage-restoration/,no
+flood damage restoration fort lauderdale,transactional,,,,3,flood damage cleanup,Fort Lauderdale,/service-areas/fort-lauderdale-fl/flood-damage-restoration/,no
+water damage company fort lauderdale,transactional,,,,3,water damage restoration,Fort Lauderdale,/service-areas/fort-lauderdale-fl/water-damage-restoration/,no
+hurricane damage repair fort lauderdale,transactional,,,,3,storm damage restoration,Fort Lauderdale,/service-areas/fort-lauderdale-fl/storm-damage-restoration/,no
+mold remediation cost,commercial,9900,3,23.03,1,mold remediation,,,yes
+mold inspection cost,commercial,5400,,14.14,1,mold inspection,,,yes
+water damage restoration cost,commercial,880,3,20.21,1,water damage restoration,,,yes
+fire damage restoration cost,commercial,260,,,1,fire damage restoration,,,yes
+hurricane damage repair cost,commercial,,,,1,storm damage restoration,,,yes
+mold removal cost,commercial,9900,18,23.03,2,mold remediation,,,no
+ceiling water damage repair,commercial,1900,,36.82,2,water damage restoration,,,no
+average cost of mold remediation,commercial,880,5,12.92,2,mold remediation,,,no
+ceiling water damage repair cost,commercial,720,9,31.08,2,water damage restoration,,,no
+water damage repair cost,commercial,390,8,51.5,2,water damage restoration,,,no
+water mitigation cost,commercial,110,,38.45,2,water damage restoration,,,no
+water damage restoration cost per square foot,commercial,70,3,24.06,2,water damage restoration,,,no
+sewage cleanup cost,commercial,70,,6.65,2,sewage cleanup,,,no
+smoke damage restoration cost,commercial,50,9,41.76,2,smoke damage restoration,,,no
+fire damage repair cost,commercial,20,4,,2,fire damage restoration,,,no
+flood damage repair cost,commercial,20,12,30.13,2,flood damage cleanup,,,no
+flood damage restoration cost,commercial,20,18,,2,flood damage cleanup,,,no
+smoke damage cleanup cost,commercial,10,14,,2,smoke damage restoration,,,no
+flood cleanup cost,commercial,10,,,2,flood damage cleanup,,,no
+storm damage repair cost,commercial,10,,,2,storm damage restoration,,,no
+water damage restoration company,commercial,110000,25,57.92,3,water damage restoration,,/services/water-damage-restoration/,no
+professional mold remediation,commercial,40500,26,21.11,3,mold remediation,,/services/mold-remediation/,no
+fire damage restoration companies,commercial,2900,2,61.84,3,fire damage restoration,,/services/fire-damage-restoration/,no
+water damage cleanup company,commercial,1300,24,73.21,3,water damage restoration,,/services/water-damage-restoration/,no
+mold damage restoration,commercial,1000,15,49.91,3,mold remediation,,/services/mold-remediation/,no
+flood damage restoration companies,commercial,880,16,115.67,3,flood damage cleanup,,/services/flood-damage-restoration/,no
+residential water damage restoration,commercial,210,10,41.79,3,water damage restoration,,/services/water-damage-restoration/,no
+hurricane damage repair,commercial,110,,,3,storm damage restoration,,/services/storm-damage-restoration/,no
+musty smell in house,informational,6600,4,5.55,1,mold remediation,,,yes
+does homeowners insurance cover mold,informational,5400,11,12.57,1,mold remediation,,,yes
+mold in ac unit,informational,5400,,10.22,1,mold remediation,,,yes
+why is my ac leaking water,informational,4400,,6.04,1,water damage restoration,,,yes
+water stain on ceiling,informational,3600,18,17.37,1,water damage restoration,,,yes
+what does flood insurance cover,informational,1300,19,5.97,1,flood damage cleanup,,,yes
+how to prevent mold in house,informational,1000,37,6.32,1,mold remediation,,,no
+mold remediation process,informational,720,16,10.56,1,mold remediation,,,yes
+sewage backup in house,informational,260,20,31.8,1,sewage cleanup,,,yes
+does homeowners insurance cover hurricane damage,informational,210,10,3.26,1,storm damage restoration,,,yes
+does wet drywall need to be replaced,informational,70,,12.08,1,water damage restoration,,,no
+who pays for water damage in a condo,informational,40,,,1,water damage restoration,,,yes
+ac drain line clogged,informational,4400,1,16.47,2,water damage restoration,,,no
+mold in air ducts,informational,3600,2,20.69,2,mold remediation,,,no
+does homeowners insurance cover mold remediation,informational,1000,26,14.25,2,mold remediation,,,no
+does homeowners insurance cover roof leaks,informational,1000,1,13.21,2,storm damage restoration,,,no
+ac leaking water inside house,informational,720,2,23.08,2,water damage restoration,,,no
+what to do after a hurricane,informational,480,28,19.2,2,storm damage restoration,,,no
+mold in ac unit symptoms,informational,480,7,3.38,2,mold remediation,,,no
+how to prepare your house for a hurricane,informational,90,21,,2,storm damage restoration,,,no
+hurricane deductible florida,informational,70,,59.7,2,storm damage restoration,,,no
+what is a hurricane deductible,informational,50,2,,2,storm damage restoration,,,no
+does flood insurance cover storm surge,informational,30,,7.82,2,flood damage cleanup,,,no
+does flood insurance cover mold,informational,20,3,,2,flood damage cleanup,,,no
+how to dry out walls after water damage,informational,20,34,40.42,2,water damage restoration,,,no
+what to do when sewage backs up,informational,10,,44.3,2,sewage cleanup,,,no
+does homeowners insurance cover storm surge,informational,10,,,2,storm damage restoration,,,no
+what to do after hurricane damage,informational,10,26,,2,storm damage restoration,,,no
+water damage from ac leak,informational,10,42,,2,water damage restoration,,,no
+how to prevent mold in florida,informational,10,,,2,mold remediation,,,no
+can you stay in your house during mold remediation,informational,10,,,2,mold remediation,,,no
+does insurance cover water damage from ac leak,informational,,,,2,water damage restoration,,,no
+water leak from upstairs condo who pays,informational,,,,2,water damage restoration,,,no
+condo water damage responsibility,informational,,,,2,water damage restoration,,,no
+best humidity level to prevent mold,informational,,,,2,mold remediation,,,no
