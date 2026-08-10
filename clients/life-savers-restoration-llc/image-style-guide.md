@@ -1,5 +1,69 @@
 # Life Savers Restoration LLC: Image Style Guide
 
+## CLIENT DIRECTION — REAL-PHOTO-FIRST (visual pass 2026-08-10)
+
+**Every launch slot on this site is a REAL photograph** from Rudy's own GBP
+library (hero, team, services, and all 7 service cards — see
+`photo-manifest.json` slots). Generation exists here only for FUTURE gaps:
+blog heroes, new service pages, refreshes. When generating, nothing in the
+frame may be false to what his real photos document. The facts below are
+established by those photos; do not drift from them.
+
+1. **THE SITE IS LIGHT: WHITE + GOLD.** Theme is light/white with warm gold
+   `#a07828` accents, taken from his Best of Las Vegas GOLD WINNER award
+   badges (2023, 2024, 2025 — real files in `public/images/badges/`).
+   Generated frames read bright, clean and premium under hard Mojave
+   daylight — never dark, moody or desaturated. Gold appears in the GRADE
+   (warm highlights, golden-hour warmth), not as invented gold-painted
+   objects or gold uniforms.
+2. **THE REAL FLEET IS WHITE.** His actual vehicles (reference photo below):
+   a white GMC box truck and a white Ford Transit cargo van, both carrying
+   the multicolor LSR diamond-cluster logo (cyan water drop / red flame /
+   green mold / lime biohazard diamonds), dark "LIFE SAVERS RESTORATION"
+   lettering and a red accent banner with the phone number. NEVER generate a
+   gold, navy, red or any non-white company vehicle, and never invent a
+   different wrap.
+3. **PREFER NO-VEHICLE COMPOSITIONS IN GENERATED FRAMES.** His wrap is
+   text-heavy (phone number, service list) and generators garble exactly
+   that. The real fleet already owns the hero and team slots, so a generated
+   blog/service frame should normally be an interior or work-detail scene
+   with NO company vehicle. If a scene truly demands one, use VAN-OVERRIDE +
+   the LIVERY-REFERENCE photo: white van, the diamond-cluster mark small or
+   naturally soft, ZERO readable lettering or digits — a garbled wordmark or
+   invented phone number is an AUTOMATIC REJECT.
+4. **CREW WEAR SEALED WHITE TYVEK OR NEUTRAL WORKWEAR.** His photos document
+   crews in full white Tyvek coveralls (see PPE reference). No branded polo,
+   hat or uniform color is documented ANYWHERE — so never invent one. Where
+   the service warrants PPE: white Tyvek zipped to the throat, hood UP,
+   respirator sealed, gloves on — worn open, hood down, or tied at the waist
+   is a REJECT. Where PPE is not warranted: plain neutral charcoal/gray
+   workwear with NO company branding on the clothing.
+5. **LAS VEGAS VALLEY, ALWAYS.** Tan and cream stucco homes, Spanish tile
+   roofs, palm trees, rock/gravel yards, hard dry sunlight, distant tan
+   mountains, cloudless or near-cloudless sky. His real hero shows exactly
+   this. No lush lawns, no evergreens, no colonial housing stock.
+6. **QUALITY GATES (every generated image, before install):** no garbled or
+   invented lettering anywhere; correct hand/limb anatomy; no recognizable
+   faces; equipment that actually exists (his real gear: red air movers
+   stenciled "LSR", blue air scrubbers); damage honest but never gratuitous.
+   Two or three attempts per image is normal — reject, don't rationalize.
+
+LIVERY-REFERENCE: harvested/real-fleet-livery-2026-08-10.jpg
+PPE-REFERENCE: harvested/real-ppe-sealed-2026-08-10.jpg
+
+VAN-OVERRIDE: a single clean white Ford Transit-style cargo van matching the reference photograph of the company's real vehicle — white body, the multicolor diamond-cluster company logo small on the side panel exactly as in the reference, every other decal element falling to natural photographic softness, with NO readable lettering, numbers or phone digits anywhere on the vehicle, no invented stripes, badges or swooshes — and only when the scene genuinely demands a vehicle at all; otherwise compose the frame with no company vehicle in it
+
+CREW-OVERRIDE: the technician wears a FULL sealed white Tyvek coverall exactly as in the PPE reference photograph — zipped to the throat, hood UP over the head, respirator sealed to the face, nitrile gloves on both hands, boot covers — whenever the scene shows remediation work; in non-PPE scenes plain neutral charcoal workwear with no visible company branding on the clothing (no branded polo or hat exists in evidence, so none may be invented); shown from behind or three-quarter profile, face never clearly visible, never smiling at the camera
+
+MOOD-OVERRIDE: bright, clean, high-key Mojave desert daylight with warm golden-hour warmth in the highlights — light, airy and premium to match a white-and-gold light-theme site; interiors neutral, clean and well-lit by daylight or work lights; never dark, moody, stormy or ominous
+
+**This block outranks everything below the horizontal rule.** The sections
+below are canonical restoration boilerplate regenerated from the template;
+where they disagree with this block (they still say "polo in the primary
+brand color" and mention navy `#0d1b3e`), this block wins.
+
+---
+
 This guide is consulted by every image-generation call (Skill 3 launch images, Skill 4 blog hero images, future image regenerations). The goal: a viewer scrolling through the site should feel like one professional photographer documented one company on one continuous job. No stylistic drift from page to page.
 
 The values below are auto-populated from `plan-input.json` at planning time. Per-client brand colors come from the client's logo / brand identity — NOT from the canonical starter palette. The structural conventions (camera, lens, lighting, composition) are restoration-vertical canonical and shared across all Rank AI clients.
@@ -68,8 +132,8 @@ Per-client brand colors take priority. The values below are substituted from `pl
 
 | Role | Source | Value for this client |
 |------|--------|----------------------|
-| Primary brand color (uniforms, vehicle, signage glimpsed in shots) | `#0d1b3e` | **#0d1b3e** |
-| Accent (emergency markings, CTAs that appear in promo shots) | `#f97316` | **#f97316** |
+| Primary brand color (site accents; in scenes as warm gold GRADE, not gold objects) | `#a07828` | **#a07828** (from his Best of Las Vegas gold badges) |
+| Accent (only on the REAL fleet wrap: red banner/phone; never invented elsewhere) | real wrap | red, per LIVERY-REFERENCE photo only |
 | Logo color (if a worker's uniform back is visible) | derived from brand logo | match Life Savers Restoration LLC's logo |
 | Skin / texture / restoration materials | natural and neutral | warm wood tones for housing stock, cool concrete grays, real surface textures |
 | Environment-specific atmospherics | regional | varies — see "Setting & Environment" below for Henderson |
@@ -97,7 +161,7 @@ Per-client brand colors take priority. The values below are substituted from `pl
 Every image that depicts a person must show a worker in branded company uniform. This is non-negotiable for visual consistency and trust signaling.
 
 ### Uniform specifications
-- **Top**: Polo or work shirt in the client's primary brand color (`#0d1b3e`). For darker brand colors (navy, deep red, charcoal), use that color directly. For lighter brand colors, render as a darker navy or charcoal uniform with the brand color visible as logo embroidery, accent stripe, or branded hat.
+- **Top**: SUPERSEDED by CREW-OVERRIDE above — no branded uniform is documented for this client; sealed white Tyvek where PPE is warranted, otherwise plain neutral charcoal workwear with no invented branding.
 - **Bottom**: Neutral work pants (charcoal, dark navy, or khaki). Subordinate to the top.
 - **Branding**: Life Savers Restoration LLC or Life Savers Restoration LLC embroidered on chest or back. IICRC certification badge visible on sleeve or chest where it makes sense.
 - **PPE**: Match the service context (see service-specific notes below) — gloves always, respirators / face shields / Tyvek suits when the service warrants it.
@@ -209,3 +273,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 ## Style guide version
 
 This guide is generated from `templates/restoration/image-style-guide.template.md` v1.1 (2026-07-11: added Standing Brand Rules — real vehicle logos, single declared uniform color, harvest-first). When the canonical template updates, existing clients keep their pinned version unless explicitly regenerated. Bump the version + add a changelog entry when changing structural rules (e.g., adding new mandatory PPE conventions).
+
+### Changelog
+
+- **v1.2-lsr (2026-08-10)** — Visual pass. Added the CLIENT DIRECTION block: light white+gold `#a07828` direction from his real Best of Las Vegas gold badges, real WHITE fleet facts (GMC box truck + Transit van, multicolor LSR diamond wrap — reference photo pinned via `LIVERY-REFERENCE:`), sealed-white-Tyvek crew facts (`PPE-REFERENCE:`), Las Vegas Valley setting, and `VAN-OVERRIDE:` / `CREW-OVERRIDE:` / `MOOD-OVERRIDE:` for `scripts/gen_site_images.py`. All 10 launch slots (hero, team, services, 7 service cards) filled with his REAL GBP photographs via `photo_harvest.py apply`; hero manually promoted (square original, hand-checked 16:9 crop — see `photo-manifest.json` slot note); mold card manually pinned to the flood-cut shot over the higher-scoring devastation shot. Corrected the mis-populated navy `#0d1b3e` boilerplate values to the shipped gold.

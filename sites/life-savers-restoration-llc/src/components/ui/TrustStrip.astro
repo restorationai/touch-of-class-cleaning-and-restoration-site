@@ -42,6 +42,19 @@ function iconFor(label: string) {
 }
 
 const items = badges.slice(0, 6).map((label) => ({ icon: iconFor(label), label }));
+
+// Real award/certification badge art (visual pass 2026-08-10): the client's
+// ACTUAL Best of Las Vegas gold-winner badges (Las Vegas Review-Journal,
+// 2023-2025), IICRC Certified Firm and USFCR Verified Vendor, harvested from
+// their brand folder into public/images/badges/. Rendered on white chips
+// because the badge art is dark-on-transparent and this band is dark.
+const awardBadges = [
+  { src: "/images/badges/best-of-las-vegas-2023.png", alt: "Best of Las Vegas Gold Winner 2023, Las Vegas Review-Journal" },
+  { src: "/images/badges/best-of-las-vegas-2024.png", alt: "Best of Las Vegas Gold Winner 2024, Las Vegas Review-Journal" },
+  { src: "/images/badges/best-of-las-vegas-2025.png", alt: "Best of Las Vegas Gold Winner 2025, Las Vegas Review-Journal" },
+  { src: "/images/badges/iicrc-certified-firm.png", alt: "IICRC Certified Firm" },
+  { src: "/images/badges/usfcr-verified-vendor.png", alt: "USFCR Verified Vendor" },
+];
 ---
 
 <section class="bg-dark py-10 md:py-8 text-white border-y border-white/10">
@@ -78,6 +91,15 @@ const items = badges.slice(0, 6).map((label) => ({ icon: iconFor(label), label }
           </div>
         );
       })}
+    </div>
+
+    {/* Real awards row — his Best of Las Vegas gold badges + certifications. */}
+    <div class="mt-8 flex flex-wrap items-center justify-center gap-4 md:gap-6">
+      {awardBadges.map((b) => (
+        <div class="bg-white rounded-xl p-2.5 shadow-md flex items-center justify-center">
+          <img src={b.src} alt={b.alt} class="h-14 md:h-16 w-auto" loading="lazy" decoding="async" />
+        </div>
+      ))}
     </div>
 
   </div>

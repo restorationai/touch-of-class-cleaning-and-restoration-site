@@ -1,1 +1,92 @@
-{}
+{
+  "/images/hero-bg.webp": {
+    "width": 2000,
+    "height": 1125,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services.webp": {
+    "width": 1920,
+    "height": 1280,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/biohazard-cleanup.webp": {
+    "width": 1920,
+    "height": 1280,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/contents-restoration.webp": {
+    "width": 2000,
+    "height": 1333,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/fire-damage-restoration.webp": {
+    "width": 1920,
+    "height": 1280,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/mold-remediation.webp": {
+    "width": 2000,
+    "height": 1333,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/sewage-cleanup.webp": {
+    "width": 1920,
+    "height": 1280,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/storm-damage-restoration.webp": {
+    "width": 2000,
+    "height": 1333,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/water-damage-restoration.webp": {
+    "width": 1920,
+    "height": 1280,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/team.webp": {
+    "width": 1920,
+    "height": 1280,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  }
+}
