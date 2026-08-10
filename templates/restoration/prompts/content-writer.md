@@ -34,6 +34,8 @@ The orchestrator will use these fields to build the markdown frontmatter, genera
 
 ## Writing principles (apply to every post)
 
+- NEVER use an em dash (the — character) anywhere: not in the title, body, meta description, or FAQ. Use a comma, a period, a colon, or a plain hyphen instead. (The orchestrator strips any that slip through, but write without them.)
+
 You are writing for a stressed homeowner or property manager who searched the primary keyword. They're not looking for a treatise. They want:
 - The answer in the first 80 words
 - Concrete steps

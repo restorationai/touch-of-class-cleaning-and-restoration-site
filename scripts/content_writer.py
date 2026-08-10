@@ -476,6 +476,15 @@ def build_prompt_inputs(slug: str, item: dict) -> tuple[str, str]:
 # ----------------------------------------------------------------------------
 
 
+def strip_em_dashes(text: str) -> str:
+    """LAW (Santino, standing since 08-05, extended to blog output 08-09):
+    no em dashes in anything we publish. The model is told, but a prompt
+    line is not a guarantee — this is the gate. Spaced em dashes read as
+    a clause break (comma); tight ones as a joiner (hyphen)."""
+    text = text.replace(" — ", ", ").replace(" —", ",").replace("— ", ", ")
+    return text.replace("—", "-")
+
+
 def write_markdown(slug: str, item: dict, content: dict, hero_url: str) -> Path:
     """Write the post markdown to sites/{slug}/src/content/blog/{post-slug}.md.
     Returns the file path."""
@@ -512,6 +521,19 @@ def write_markdown(slug: str, item: dict, content: dict, hero_url: str) -> Path:
         "services": item.get("service_tags", []),
         "rendered": True,
     }
+
+    # No em dashes anywhere in the published post — title, description,
+    # FAQ answers, body. Deterministic gate on top of the prompt rule.
+    def _clean(v):
+        if isinstance(v, str):
+            return strip_em_dashes(v)
+        if isinstance(v, list):
+            return [_clean(x) for x in v]
+        if isinstance(v, dict):
+            return {k: _clean(x) for k, x in v.items()}
+        return v
+    fm = _clean(fm)
+    content["body_markdown"] = strip_em_dashes(content["body_markdown"])
 
     # YAML-shaped frontmatter using JSON for arrays/objects/bools
     lines = ["---"]
