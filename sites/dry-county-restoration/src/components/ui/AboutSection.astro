@@ -1,0 +1,51 @@
+---
+import { brand } from "~/lib/brand";
+import { srcsetFor } from "~/lib/images";
+
+interface Props {
+  imageSrc?: string;
+  imageAlt?: string;
+}
+
+const { imageSrc = brand.logoUrl, imageAlt = `${brand.displayName} Logo` } = Astro.props;
+
+// Determine if it's the logo or a photo based on URL or path. Assuming if it's not the logo it's a photo.
+const isLogo = imageSrc === brand.logoUrl;
+
+// Responsive variants for the team/photo case only — logo rendering untouched.
+const img = srcsetFor(isLogo ? "" : imageSrc);
+---
+
+<section class="bg-white py-24 text-dark-900 overflow-hidden relative">
+  <div class="container-wide px-6 sm:px-10 lg:px-12">
+    <div class="grid lg:grid-cols-2 gap-20 items-center">
+      <div>
+        <div class="flex items-center gap-6 mb-8">
+          <h2 class="text-5xl md:text-6xl font-black uppercase tracking-tighter">About Us</h2>
+          <div class="flex-grow h-px bg-dark/30"></div>
+        </div>
+        
+        <div class="prose-body text-xl opacity-90 leading-relaxed mb-10 font-medium">
+          <slot />
+        </div>
+      </div>
+
+      <div class="relative flex justify-center items-center">
+         <img
+           src={imageSrc}
+           srcset={img.srcset}
+           sizes={img.srcset ? "(min-width:1024px) 50vw, 100vw" : undefined}
+           width={img.width}
+           height={img.height}
+           alt={imageAlt}
+           loading="lazy"
+           decoding="async"
+           class={isLogo 
+             ? "w-full max-w-[280px] md:max-w-[400px] h-auto object-contain drop-shadow-[0_20px_20px_rgba(0,0,0,0.4)] opacity-100"
+             : "w-full h-auto rounded-xl shadow-2xl object-cover aspect-video lg:aspect-square"
+           }
+         />
+      </div>
+    </div>
+  </div>
+</section>
