@@ -3622,13 +3622,17 @@ def send_message(contact: dict, channel: str, body: str,
                      "contactId": contact["id"]}
     if channel == "sms":
         payload["message"] = body
-        from_number = os.environ.get("CONCIERGE_FROM_NUMBER", "").strip()
-        if from_number:
-            payload["fromNumber"] = from_number
-        else:
-            print("  WARNING: CONCIERGE_FROM_NUMBER unset — GHL will pick the "
-                  "location default, which is not guaranteed to be the "
-                  "concierge sender. Set it to +18053293449.",
+        # THE 805 IS THE SENDER, HARDCODED (Santino 2026-08-10: "just have
+        # her only send from the 805 from now on"). The env-var approach
+        # burned us twice in one day: the GitHub secret held the pre-reversal
+        # toll-free for 3 days of sends, and the Railway worker's env held it
+        # even after the secret was fixed (Kyle's 855 reply). One sender,
+        # one place, no environment can quietly disagree.
+        payload["fromNumber"] = "+18053293449"
+        env_from = os.environ.get("CONCIERGE_FROM_NUMBER", "").strip()
+        if env_from and env_from != "+18053293449":
+            print(f"  NOTE: CONCIERGE_FROM_NUMBER={env_from} ignored — "
+                  "the 805 is hardcoded per Santino 2026-08-10.",
                   file=sys.stderr)
     else:
         payload["subject"] = subject or f"Your {BRAND_NAME} setup"
