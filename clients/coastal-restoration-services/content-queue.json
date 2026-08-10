@@ -1,54 +1,292 @@
 {
- "items": [
-  {
-   "id": "2026-08-07-best-water-damage-restoration-in-santa-maria-ca",
-   "status": "queued",
-   "queued_at": "2026-08-07T03:42:01Z",
-   "priority": 1,
-   "prioritized": true,
-   "content_type": "best_of_comparison",
-   "combo_key": "best-water-damage-restoration-in-santa-maria-ca",
-   "primary_keyword": "best water damage restoration company in Santa Maria, CA",
-   "intent": "commercial",
-   "target_word_count": 1600,
-   "city_anchor": "santa-maria-ca",
-   "best_of": {
-    "service": "water-damage-restoration",
-    "service_pretty": "Water Damage Restoration",
-    "city": "Santa Maria",
-    "state": "CA",
-    "competitors": [
-     {
-      "name": "Fire & Water Damage Santa Maria",
-      "google_rating": 4.9,
-      "review_count": 56
-     },
-     {
-      "name": "SERVPRO of Santa Maria",
-      "google_rating": 4.8,
-      "review_count": 80
-     },
-     {
-      "name": "Fire Damage Santa Maria",
-      "google_rating": 4.9,
-      "review_count": 55
-     },
-     {
-      "name": "PuroClean of Santa Maria",
-      "google_rating": 5,
-      "review_count": 24
-     }
-    ]
-   },
-   "fan_out_cluster": [
-    "best water damage restoration companies Santa Maria",
-    "top rated water damage restoration Santa Maria CA",
-    "who is the best water damage restoration company in Santa Maria",
-    "water damage cleanup Santa Maria",
-    "water cleanup Santa Maria",
-    "water removal Santa Maria"
-   ],
-   "source": "best-of-seeder"
-  }
- ]
+  "items": [
+    {
+      "id": "2026-08-07-best-water-damage-restoration-in-santa-maria-ca",
+      "status": "written",
+      "queued_at": "2026-08-07T03:42:01Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "best_of_comparison",
+      "combo_key": "best-water-damage-restoration-in-santa-maria-ca",
+      "primary_keyword": "best water damage restoration company in Santa Maria, CA",
+      "intent": "commercial",
+      "target_word_count": 1600,
+      "city_anchor": "santa-maria-ca",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Santa Maria",
+        "state": "CA",
+        "competitors": [
+          {
+            "name": "Fire & Water Damage Santa Maria",
+            "google_rating": 4.9,
+            "review_count": 56
+          },
+          {
+            "name": "SERVPRO of Santa Maria",
+            "google_rating": 4.8,
+            "review_count": 80
+          },
+          {
+            "name": "Fire Damage Santa Maria",
+            "google_rating": 4.9,
+            "review_count": 55
+          },
+          {
+            "name": "PuroClean of Santa Maria",
+            "google_rating": 5,
+            "review_count": 24
+          }
+        ]
+      },
+      "fan_out_cluster": [
+        "best water damage restoration companies Santa Maria",
+        "top rated water damage restoration Santa Maria CA",
+        "who is the best water damage restoration company in Santa Maria",
+        "water damage cleanup Santa Maria",
+        "water cleanup Santa Maria",
+        "water removal Santa Maria"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-08-10T17:48:52Z",
+      "post_url": "https://None/blog/best-water-damage-restoration-company-in-santa-maria-ca/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-santa-maria-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "56 reviews",
+          "context": "a holds a 4.9-star Google rating across 56 reviews, making them one of the better-reviewed",
+          "reason": "claims 56 reviews but synced gbpReviewCount is 29 (allowed \u00b120%: 23-34)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-santa-maria-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "56 reviews",
+          "context": "d losses in the Santa Maria area. With 56 reviews at 4.9 stars, they have a consistent tr",
+          "reason": "claims 56 reviews but synced gbpReviewCount is 29 (allowed \u00b120%: 23-34)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-santa-maria-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "80 Google reviews",
+          "context": "twork, holding a 4.8-star rating across 80 Google reviews, the highest review count of any compan",
+          "reason": "claims 80 reviews but synced gbpReviewCount is 29 (allowed \u00b120%: 23-34)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-santa-maria-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "55 reviews",
+          "context": "ta Maria holds a 4.9-star rating across 55 reviews. Their name suggests a primary focus on",
+          "reason": "claims 55 reviews but synced gbpReviewCount is 29 (allowed \u00b120%: 23-34)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-santa-maria-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "55 reviews",
+          "context": "suppression and water intrusion. With 55 reviews at 4.9 stars, they have a strong local",
+          "reason": "claims 55 reviews but synced gbpReviewCount is 29 (allowed \u00b120%: 23-34)"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-10-water-damage-restoration-cost",
+      "status": "queued",
+      "queued_at": "2026-08-10T17:42:32Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "water damage restoration cost",
+      "intent": "commercial",
+      "volume": 880,
+      "kd": 3,
+      "fan_out_cluster": [
+        "water damage restoration cost per square foot",
+        "water damage restoration cost calculator",
+        "how much does water damage restoration cost",
+        "water damage restoration price sheet",
+        "average insurance payout for water damage",
+        "what does a water damage restoration company do"
+      ],
+      "suggested_slug": "water-damage-restoration-cost",
+      "suggested_title": "Water damage restoration cost: what Central Coast homeowners actually pay in 2026",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/service-areas/santa-maria-ca/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.cslb.ca.gov/"
+      ],
+      "notes": "Highest-volume uncovered term from this seed (880/mo, KD 3, CPC $20.21) and the url-plan has no cost page in the commercial partition. Break cost out by category 1/2/3 water and by square footage, and give a real Santa Maria / San Luis Obispo range rather than a national average. Close on the deductible-vs-out-of-pocket question: the ChatGPT decomposition shows homeowners asking what they personally owe regardless of what insurance pays.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-08-10-roof-leaks-in-heavy-rain",
+      "status": "queued",
+      "queued_at": "2026-08-10T17:42:32Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "roof leaks in heavy rain",
+      "intent": "informational",
+      "volume": 720,
+      "kd": null,
+      "fan_out_cluster": [
+        "does homeowners insurance cover water damage from rain",
+        "does homeowners insurance cover water damage from roof leak",
+        "does homeowners insurance cover water damage from a leaking roof",
+        "how do i make a successful roof leak insurance claim",
+        "does home insurance cover mold from water damage",
+        "how long does it take to dry out water damage"
+      ],
+      "suggested_slug": "roof-leaks-in-heavy-rain",
+      "suggested_title": "Roof leaks in heavy rain: what to do in the first hours (and what your insurance covers)",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/storm-damage-restoration/",
+        "/services/emergency-board-up-tarping/",
+        "/services/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "storm-damage-restoration",
+        "emergency-board-up-tarping",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.insurance.ca.gov/01-consumers/105-type/95-guides/03-res/res-prop-claim.cfm",
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "SCOPE GUARD: Coastal does not sell roof replacement (roof-leak-repair is not in plan-input services). The post covers emergency tarping, water extraction, and drying of the interior damage, and refers roof repair itself out to a roofer. Do not promise roof repair. Anchor to Central Coast winter storm season.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-08-10-water-damage-insurance-claim-tips",
+      "status": "queued",
+      "queued_at": "2026-08-10T17:42:32Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "water damage insurance claim tips",
+      "intent": "informational",
+      "volume": 590,
+      "kd": null,
+      "fan_out_cluster": [
+        "water damage insurance claim list",
+        "how to file a home insurance claim for water damage",
+        "what is an assignment of benefits in a water damage claim",
+        "do i have to use my insurance company's preferred restoration contractor",
+        "does homeowners insurance cover additional living expenses water damage",
+        "what questions to ask a water damage restoration company",
+        "does homeowners insurance cover water damage in california"
+      ],
+      "suggested_slug": "water-damage-insurance-claim-tips",
+      "suggested_title": "Water damage insurance claim tips: 12 things to do before anyone tears out drywall",
+      "target_word_count": 1800,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.insurance.ca.gov/01-consumers/105-type/95-guides/03-res/res-prop-claim.cfm",
+        "https://www.cslb.ca.gov/"
+      ],
+      "notes": "Strongest GEO/AI-retrieval target in this run: ChatGPT's own decomposition of this topic returns a question checklist, so a question-structured page is what gets lifted verbatim. Include the assignment-of-benefits warning and the 'you can choose your own licensed contractor' point, and cite CA Dept of Insurance directly. Coastal is IICRC/WRT/ASD certified with CSLB license 11245226: use that as the trust proof.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-08-10-average-insurance-payout-for-water-damage",
+      "status": "queued",
+      "queued_at": "2026-08-10T17:42:32Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "average insurance payout for water damage",
+      "intent": "informational",
+      "volume": 260,
+      "kd": 44,
+      "fan_out_cluster": [
+        "should i file a home insurance claim for water damage",
+        "water damage restoration cost",
+        "does homeowners insurance cover water damage from plumbing",
+        "does homeowners insurance cover a slow leak",
+        "what does homeowners insurance cover and not cover",
+        "does home insurance cover mold from water damage"
+      ],
+      "suggested_slug": "average-insurance-payout-for-water-damage",
+      "suggested_title": "Average insurance payout for water damage (and why yours may come in lower)",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/sewage-cleanup/",
+        "/services/mold-remediation/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "sewage-cleanup",
+        "mold-remediation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.insurance.ca.gov/01-consumers/105-type/95-guides/03-res/res-ins-guide.cfm"
+      ],
+      "notes": "KD 44 is the highest in this queue batch but still inside the priority-1 band. The angle that wins: payout varies by cause of loss (sudden burst pipe vs slow seepage), and mold sublimits cap the number. Explain replacement cost vs actual cash value in plain English.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-08-10-should-i-file-a-home-insurance-claim-for-water-damage",
+      "status": "queued",
+      "queued_at": "2026-08-10T17:42:32Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "should i file a home insurance claim for water damage",
+      "intent": "informational",
+      "volume": 210,
+      "kd": 27,
+      "fan_out_cluster": [
+        "how to file a home insurance claim for water damage",
+        "average insurance payout for water damage",
+        "does homeowners insurance cover water damage from appliances",
+        "does homeowners insurance cover water damage in california",
+        "water damage restoration cost",
+        "what moisture level is considered dry after water damage"
+      ],
+      "suggested_slug": "should-i-file-a-home-insurance-claim-for-water-damage",
+      "suggested_title": "Should I file a home insurance claim for water damage? A decision guide",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.insurance.ca.gov/01-consumers/105-type/95-guides/03-res/res-prop-claim.cfm"
+      ],
+      "notes": "Decision-stage: this reader is 24 to 48 hours from hiring someone. Frame it as deductible vs likely repair cost vs premium impact, and note that CA Dept of Insurance recommends reporting promptly even when undecided. Offer a no-charge moisture assessment as the CTA.",
+      "source": "keyword-researcher"
+    }
+  ]
 }
