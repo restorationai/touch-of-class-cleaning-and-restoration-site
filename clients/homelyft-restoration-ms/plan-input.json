@@ -52,19 +52,9 @@
   ],
   "service_areas": [
     {
-      "city": "Bond",
-      "state": "MS",
-      "slug": "bond-ms"
-    },
-    {
       "city": "Eastabuchie",
       "state": "MS",
       "slug": "eastabuchie-ms"
-    },
-    {
-      "city": "Glendale",
-      "state": "MS",
-      "slug": "glendale-ms"
     },
     {
       "city": "Hattiesburg",
@@ -80,11 +70,6 @@
       "city": "Rawls Springs",
       "state": "MS",
       "slug": "rawls-springs-ms"
-    },
-    {
-      "city": "Leaf",
-      "state": "MS",
-      "slug": "leaf-ms"
     },
     {
       "city": "Leakesville",
@@ -171,11 +156,6 @@
       "city": "Kiln",
       "state": "MS",
       "slug": "kiln-ms"
-    },
-    {
-      "city": "Nicholson",
-      "state": "MS",
-      "slug": "nicholson-ms"
     },
     {
       "city": "Pearlington",
@@ -311,16 +291,6 @@
       "city": "Sandersville",
       "state": "MS",
       "slug": "sandersville-ms"
-    },
-    {
-      "city": "Sharon",
-      "state": "MS",
-      "slug": "sharon-ms"
-    },
-    {
-      "city": "Soso",
-      "state": "MS",
-      "slug": "soso-ms"
     }
   ],
   "template": "restoration",

@@ -142,7 +142,7 @@ The worker's uniform stays the same; their PPE and equipment shift per service. 
 ## Setting & Environment (Gulfport / MS)
 
 - **Primary setting**: Gulfport and surrounding MS residential and commercial properties
-- **Local housing stock cues**: Other cities served: Bond, Eastabuchie, Glendale, Hattiesburg, Petal. — these details should appear in backgrounds and environmental context, NOT as the subject. They quietly anchor "this was shot in Gulfport."
+- **Local housing stock cues**: Other cities served: Eastabuchie, Hattiesburg, Petal, Rawls Springs, Leakesville. — these details should appear in backgrounds and environmental context, NOT as the subject. They quietly anchor "this was shot in Gulfport."
 - **Regional weather / season**: Regional climate cues per primary city; adapt exterior shots to match. — affects exterior shots especially. Pacific Northwest: wet roads, evergreen silhouettes, cedar siding, low gray cloud cover for "we just arrived in the rain" shots. Adapt per client.
 - **Time of day**: Mix of golden-hour exteriors and neutral-light interiors. Reserve dusk/blue-hour for "arrival" hero shots specifically.
 

@@ -29,7 +29,11 @@
     ],
     "hours": "24/7",
     "insured": true,
-    "founded_year": "2022"
+    "founded_year": "2022",
+    "lat": 30.3886736,
+    "lng": -89.0586991,
+    "place_id": "ChIJ5dJT_FQWnIgRzm4i4D1BgR4",
+    "google_cid": "2198109827142676174"
   },
   "services": [
     "water-damage-restoration",
@@ -48,19 +52,9 @@
   ],
   "service_areas": [
     {
-      "city": "Bond",
-      "state": "MS",
-      "slug": "bond-ms"
-    },
-    {
       "city": "Eastabuchie",
       "state": "MS",
       "slug": "eastabuchie-ms"
-    },
-    {
-      "city": "Glendale",
-      "state": "MS",
-      "slug": "glendale-ms"
     },
     {
       "city": "Hattiesburg",
@@ -76,11 +70,6 @@
       "city": "Rawls Springs",
       "state": "MS",
       "slug": "rawls-springs-ms"
-    },
-    {
-      "city": "Leaf",
-      "state": "MS",
-      "slug": "leaf-ms"
     },
     {
       "city": "Leakesville",
@@ -164,19 +153,9 @@
       "slug": "bay-st-louis-ms"
     },
     {
-      "city": "Diamondhead",
-      "state": "MS",
-      "slug": "diamondhead-ms"
-    },
-    {
       "city": "Kiln",
       "state": "MS",
       "slug": "kiln-ms"
-    },
-    {
-      "city": "Nicholson",
-      "state": "MS",
-      "slug": "nicholson-ms"
     },
     {
       "city": "Pearlington",
@@ -194,11 +173,6 @@
       "slug": "waveland-ms"
     },
     {
-      "city": "Bond",
-      "state": "MS",
-      "slug": "bond-ms"
-    },
-    {
       "city": "Wiggins",
       "state": "MS",
       "slug": "wiggins-ms"
@@ -214,16 +188,6 @@
       "slug": "lumberton-ms"
     },
     {
-      "city": "Nicholson",
-      "state": "MS",
-      "slug": "nicholson-ms"
-    },
-    {
-      "city": "Picayune",
-      "state": "MS",
-      "slug": "picayune-ms"
-    },
-    {
       "city": "Poplarville",
       "state": "MS",
       "slug": "poplarville-ms"
@@ -232,16 +196,6 @@
       "city": "Big Point",
       "state": "MS",
       "slug": "big-point-ms"
-    },
-    {
-      "city": "Biloxi",
-      "state": "MS",
-      "slug": "biloxi-ms"
-    },
-    {
-      "city": "D'Iberville",
-      "state": "MS",
-      "slug": "d-iberville-ms"
     },
     {
       "city": "Escatawpa",
@@ -274,11 +228,6 @@
       "slug": "hurley-ms"
     },
     {
-      "city": "Latimer",
-      "state": "MS",
-      "slug": "latimer-ms"
-    },
-    {
       "city": "Moss Point",
       "state": "MS",
       "slug": "moss-point-ms"
@@ -292,11 +241,6 @@
       "city": "Pascagoula",
       "state": "MS",
       "slug": "pascagoula-ms"
-    },
-    {
-      "city": "St. Martin",
-      "state": "MS",
-      "slug": "st-martin-ms"
     },
     {
       "city": "Vancleave",
@@ -324,11 +268,6 @@
       "slug": "lucedale-ms"
     },
     {
-      "city": "Eastabuchie",
-      "state": "MS",
-      "slug": "eastabuchie-ms"
-    },
-    {
       "city": "Ellisville",
       "state": "MS",
       "slug": "ellisville-ms"
@@ -352,16 +291,6 @@
       "city": "Sandersville",
       "state": "MS",
       "slug": "sandersville-ms"
-    },
-    {
-      "city": "Sharon",
-      "state": "MS",
-      "slug": "sharon-ms"
-    },
-    {
-      "city": "Soso",
-      "state": "MS",
-      "slug": "soso-ms"
     }
   ],
   "template": "restoration",
