@@ -15,7 +15,7 @@
     "url_count": 74,
     "generated_at": "2026-07-23T06:14:51.581517+00:00"
   },
-  "updated_at": "2026-08-09T22:08:21.747484+00:00",
+  "updated_at": "2026-08-10T02:00:37.381790+00:00",
   "build": {
     "scaffolded_at": "2026-07-23T06:15:02.233709+00:00",
     "github_repo": "restorationai/puroclean-east-las-vegas-site",
@@ -40,5 +40,7 @@
       "retired_at": "2026-08-05T05:17:26.779845+00:00",
       "reason": "bing 403 UserForbiddedToAccessSite on purocleaneastlasvegas.com"
     }
-  ]
+  ],
+  "cut_over_at": "2026-07-23T00:00:00+00:00",
+  "cut_over_note": "live in prod since ~07-23 (PuroClean deploys MAIN note)"
 }
