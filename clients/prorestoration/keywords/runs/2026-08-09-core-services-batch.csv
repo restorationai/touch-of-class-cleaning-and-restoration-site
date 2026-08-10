@@ -1,0 +1,56 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+carpet cleaning bakersfield,transactional,880,5,9.65,3,carpet cleaning,Bakersfield,/service-areas/bakersfield-ca/carpet-cleaning/,no
+sewer backup cleanup,transactional,320,17,29.33,3,sewage cleanup,,/services/sewage-cleanup/,no
+water damage restoration bakersfield,transactional,70,4,120.52,3,water damage restoration,Bakersfield,/service-areas/bakersfield-ca/water-damage-restoration/,no
+water damage restoration bakersfield ca,transactional,70,,120.52,3,water damage restoration,Bakersfield,/service-areas/bakersfield-ca/water-damage-restoration/,no
+mold remediation bakersfield,transactional,50,,79.69,3,mold remediation,Bakersfield,/service-areas/bakersfield-ca/mold-remediation/,no
+mold removal bakersfield,transactional,50,,79.69,3,mold remediation,Bakersfield,/service-areas/bakersfield-ca/mold-remediation/,no
+fire damage restoration bakersfield,transactional,10,,,3,fire damage restoration,Bakersfield,/service-areas/bakersfield-ca/fire-damage-restoration/,no
+flood cleanup bakersfield,transactional,10,,,3,flood damage cleanup,Bakersfield,/service-areas/bakersfield-ca/flood-damage-restoration/,no
+water damage restoration tehachapi ca,transactional,10,,,3,water damage restoration,Tehachapi,/service-areas/tehachapi-ca/water-damage-restoration/,no
+sewage cleanup bakersfield,transactional,,,,3,sewage cleanup,Bakersfield,/service-areas/bakersfield-ca/sewage-cleanup/,no
+slab leak repair bakersfield,transactional,,,,3,burst pipe repair,Bakersfield,/service-areas/bakersfield-ca/burst-pipe-repair/,no
+burst pipe repair bakersfield,transactional,,,,3,burst pipe repair,Bakersfield,/service-areas/bakersfield-ca/burst-pipe-repair/,no
+water damage restoration delano ca,transactional,,,,3,water damage restoration,Delano,/service-areas/delano-ca/water-damage-restoration/,no
+emergency water damage repair bakersfield,transactional,,,,3,water damage restoration,Bakersfield,/service-areas/bakersfield-ca/water-damage-restoration/,no
+smoke damage restoration bakersfield,transactional,,,,3,smoke damage restoration,Bakersfield,/service-areas/bakersfield-ca/smoke-damage-restoration/,no
+mold remediation cost,commercial,9900,3,23.03,1,mold remediation,,,yes
+mold inspection cost,commercial,5400,,14.14,1,mold inspection,,,yes
+carpet cleaning cost,commercial,5400,,7.58,1,carpet cleaning,,,yes
+slab leak repair cost,commercial,1300,1,28.07,1,burst pipe repair,,,yes
+water damage restoration cost,commercial,880,3,20.21,1,water damage restoration,,,yes
+fire damage restoration cost,commercial,260,,,1,fire damage restoration,,,yes
+mold removal cost,commercial,9900,18,23.03,2,mold remediation,,,no
+how much does carpet cleaning cost,commercial,1600,,4.54,2,carpet cleaning,,,no
+smoke damage cleaning,commercial,720,19,49.46,2,smoke damage restoration,,,no
+water damage repair cost,commercial,390,8,51.5,2,water damage restoration,,,no
+sewage cleanup cost,commercial,70,,6.65,2,sewage cleanup,,,no
+fire damage repair cost,commercial,20,,,2,fire damage restoration,,,no
+odor removal cost,commercial,10,,,3,odor removal,,,no
+restoration companies bakersfield,commercial,,,,3,water damage restoration,Bakersfield,,no
+how to prevent pipes from freezing,informational,14800,31,0.67,1,frozen pipe damage,,,no
+does homeowners insurance cover mold,informational,5400,11,12.57,1,mold remediation,,,yes
+sewage smell in house,informational,3600,,16.55,1,sewage cleanup,,,yes
+water stain on ceiling,informational,3600,18,17.37,1,roof leak repair,,,yes
+does renters insurance cover water damage,informational,1000,9,9.06,1,water damage restoration,,,yes
+how long does mold remediation take,informational,720,,13.96,1,mold remediation,,,yes
+signs of a slab leak,informational,390,,19.82,1,burst pipe repair,,,yes
+category 3 water damage,informational,390,,13.73,1,water damage restoration,,,no
+sewage backup in house,informational,260,20,31.8,1,sewage cleanup,,,yes
+what to do after a house fire,informational,260,,2.78,1,fire damage restoration,,,yes
+does homeowners insurance cover fire damage,informational,210,7,,1,fire damage restoration,,,no
+water heater leaking what to do,informational,210,10,16.33,1,appliance leak cleanup,,,no
+swamp cooler leaking water,informational,50,,3.0,1,appliance leak cleanup,,,yes
+what to do if pipes freeze,informational,4400,8,,2,frozen pipe damage,,,no
+why is my water bill so high,informational,1600,,3.99,2,burst pipe repair,,,no
+does homeowners insurance cover slab leaks,informational,140,,8.3,2,burst pipe repair,,,no
+how to detect a slab leak,informational,70,,12.08,2,burst pipe repair,,,no
+swamp cooler mold,informational,70,,,2,mold remediation,,,no
+evaporative cooler leaking water,informational,50,,3.0,2,appliance leak cleanup,,,no
+does insurance cover sewer backup,informational,40,4,10.8,2,sewage cleanup,,,no
+what is category 3 water damage,informational,40,,,2,water damage restoration,,,no
+wildfire smoke damage cleanup,informational,,,,2,smoke damage restoration,,,no
+washing machine overflowed what to do,informational,,,,2,appliance leak cleanup,,,no
+how to get wildfire smoke smell out of house,informational,10,,,3,smoke damage restoration,,/blog/smoke-odor-removal-techniques/,no
+frozen pipe burst what to do,informational,,,,3,frozen pipe damage,,/blog/burst-pipe-emergency-checklist/,no
+cleaning ash after wildfire,informational,,,,3,smoke damage restoration,,,no
