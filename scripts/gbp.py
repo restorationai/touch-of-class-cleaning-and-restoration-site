@@ -1053,9 +1053,78 @@ def _desc_allowed_claims(truth: dict) -> list[str]:
     return claims
 
 
-def service_descriptions(slug: str, apply: bool = False) -> str:
+def _city_pool(areas: list) -> tuple[str, list[str]]:
+    """Primary city + up to 6 rotation cities from service_areas. plan-input
+    carries no population figures, so zip-code/neighborhood counts are the
+    size proxy (Seattle's 8 zips outrank Kirkland's 2) — the heavier metro
+    areas lead the rotation."""
+    primary = next((a for a in areas if a.get("primary")), areas[0] if areas else {})
+    others = [a for a in areas if a.get("city") and a is not primary]
+    others.sort(key=lambda a: (len(a.get("zip_codes") or []),
+                               len(a.get("neighborhoods") or [])), reverse=True)
+    return (primary.get("city") or "", [a["city"] for a in others[:6]])
+
+
+def _city_rotation(n: int, primary: str, others: list[str]) -> list[list[str]]:
+    """Deterministic 1-2 city assignment per service: the primary city stays
+    the most frequent, the big nearby cities spread evenly across the set,
+    no description ever gets more than 2 cities, and no two ADJACENT services
+    carry the same city set (repetition reads as boilerplate/stuffing)."""
+    if not primary:
+        return [[] for _ in range(n)]
+    if not others:
+        return [[primary] for _ in range(n)]
+    if len(others) == 1:
+        pats = [[primary, others[0]], [others[0]], [primary]]
+        return [pats[j % 3] for j in range(n)]
+    k = 0
+
+    def draw() -> str:
+        nonlocal k
+        c = others[k % len(others)]
+        k += 1
+        return c
+
+    out: list[list[str]] = []
+    for j in range(n):
+        r = j % 4
+        if r == 0 or r == 3:
+            out.append([primary, draw()])
+        elif r == 1:
+            out.append([draw(), draw()])
+        else:
+            out.append([draw()])
+    return out
+
+
+def _recent_desc_names(cid: str | None, hours: float) -> set[str]:
+    """Lowercased service names whose descriptions WE wrote in the last
+    `hours`, per the marketing_gbp_changes evidence trail (actor optimizer,
+    change_type service_description). The refresh path may ONLY ever touch
+    these — client-authored or pre-existing text is off limits."""
+    import datetime as dt
+    if not cid:
+        return set()
+    since = (dt.datetime.now(dt.timezone.utc)
+             - dt.timedelta(hours=hours)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    rows = _sb(f"marketing_gbp_changes?company_id=eq.{cid}"
+               "&change_type=eq.service_description&actor=eq.optimizer"
+               f"&changed_at=gte.{since}&select=meta")
+    names: set[str] = set()
+    for row in rows:
+        for n in ((row.get("meta") or {}).get("services") or []):
+            names.add(str(n).strip().lower())
+    return names
+
+
+def service_descriptions(slug: str, apply: bool = False,
+                         refresh_recent: float | None = None) -> str:
     """Generate (and with apply=True, PATCH) descriptions for every service
-    item on the listing that is missing one. ONE model call per client."""
+    item on the listing that is missing one. ONE model call per client.
+    refresh_recent=N instead re-generates ONLY items whose description WE
+    wrote within the last N hours (marketing_gbp_changes is the evidence) —
+    a narrow rewrite path so a prompt upgrade can reach our own fresh copy
+    without ever touching client-authored or long-standing text."""
     cid = company_id_for(slug)
     pi = json.loads((ROOT / "clients" / slug / "plan-input.json").read_text())
     brand = pi.get("brand", {})
@@ -1069,21 +1138,36 @@ def service_descriptions(slug: str, apply: bool = False) -> str:
     items = loc.get("serviceItems", [])
     if not items:
         return f"{slug}: no service items on the listing"
-    missing = [(i, it) for i, it in enumerate(items) if not _item_desc(it)]
-    if not missing:
-        return f"{slug}: all {len(items)} service descriptions already set"
+    if refresh_recent:
+        ours = _recent_desc_names(cid, refresh_recent)
+        targets = [(i, it) for i, it in enumerate(items)
+                   if _item_desc(it) and _item_name(it).strip().lower() in ours]
+        if not targets:
+            return (f"{slug}: no descriptions of ours from the last "
+                    f"{refresh_recent:g}h — nothing to refresh")
+    else:
+        targets = [(i, it) for i, it in enumerate(items) if not _item_desc(it)]
+        if not targets:
+            return f"{slug}: all {len(items)} service descriptions already set"
 
     truth = claims_lint.load_truth(slug)
     intros = _page_intros(slug)
     areas = pi.get("service_areas", [])
-    primary = next((a for a in areas if a.get("primary")), areas[0] if areas else {})
+    primary_city, other_cities = _city_pool(areas)
+    rotation = _city_rotation(len(targets), primary_city, other_cities)
     claims = _desc_allowed_claims(truth)
     sysmsg = (
         "You write per-service descriptions for a local company's Google "
         "Business Profile services list. Hard rules for EVERY description:\n"
         f"- Maximum {DESC_MAX_CHARS} characters; aim for 180 to 280. One to two "
         "sentences of plain, confident language.\n"
-        "- Name the service naturally and mention the city or region.\n"
+        "- Name the service naturally. Each service carries its own `cities` "
+        "list (1 or 2 cities): weave EXACTLY those city names into the copy so "
+        "it reads naturally, e.g. 'serving Tacoma and Federal Way homeowners'. "
+        "Never mention cities that are not in that service's list, and never "
+        "write a bare comma-run of city names (Google treats city stuffing as "
+        "spam). Loose regional phrases (the state, 'the surrounding area') are "
+        "fine as color.\n"
         "- No em dashes, no emoji, no ALL CAPS, no keyword stuffing, no "
         "superlative spam (best, #1, top-rated).\n"
         "- NEVER claim licenses, certifications (IICRC, EPA, ...), insurance "
@@ -1097,25 +1181,33 @@ def service_descriptions(slug: str, apply: bool = False) -> str:
         "with one entry per service key.")
     user = json.dumps({
         "business": loc.get("title") or brand.get("display_name") or slug,
-        "primary_city": f"{primary.get('city', '')}, {primary.get('state', '')}".strip(", "),
-        "nearby_cities": [a.get("city") for a in areas
-                          if a.get("city") and not a.get("primary")][:4],
+        "state": next((a.get("state") for a in areas if a.get("state")), ""),
         "allowed_claims": claims,
         "services": [{"key": str(i), "name": _item_name(it),
+                      "cities": rotation[j],
                       "page_intro": _intro_for(_item_name(it), intros)}
-                     for i, it in missing],
+                     for j, (i, it) in enumerate(targets)],
     }, indent=1)
     out = _anthropic_json(sysmsg, "Write the descriptions.\n\nDATA:\n" + user,
                           model=DESC_MODEL)
     raw = {str(k): v for k, v in (out.get("descriptions") or {}).items()}
 
-    mode = "apply" if apply else "dry-run"
+    mode = ("refresh" if refresh_recent else "apply") if apply else "dry-run"
+    pool = [c for c in [primary_city] + other_cities if c]
     accepted: dict[int, str] = {}
-    for i, it in missing:
+    for j, (i, it) in enumerate(targets):
         name = _item_name(it)
         desc = _fit_desc(raw.get(str(i), ""))
         if len(desc) < 40:
             print(f"     [skip] {name}: model returned no usable description")
+            continue
+        # City-stuffing guard: a description naming more than 2 metro cities
+        # never ships, no matter what the model did with its assignment.
+        mentioned = [c for c in pool
+                     if re.search(rf"\b{re.escape(c)}\b", desc, re.I)]
+        if len(mentioned) > 2:
+            print(f"     [skip] {name}: {len(mentioned)} cities mentioned "
+                  f"(max 2) — dropped")
             continue
         # Truth gate: an error-severity claims violation never ships. Try the
         # deterministic sanitizer once, then drop the description entirely.
@@ -1126,11 +1218,12 @@ def service_descriptions(slug: str, apply: bool = False) -> str:
             print(f"     [skip] {name}: unbacked claim survived sanitizing — dropped")
             continue
         accepted[i] = desc
-        print(f"     [{mode}] {name} ({len(desc)} ch): {desc}")
+        print(f"     [{mode}] {name} ({len(desc)} ch) "
+              f"[{' + '.join(rotation[j]) or 'no city'}]: {desc}")
     if not accepted:
-        return f"{slug}: 0/{len(missing)} descriptions generated ({len(items)} items)"
+        return f"{slug}: 0/{len(targets)} descriptions generated ({len(items)} items)"
     if not apply:
-        return (f"{slug}: DRY RUN — {len(accepted)}/{len(missing)} missing "
+        return (f"{slug}: DRY RUN — {len(accepted)}/{len(targets)} "
                 f"descriptions ready ({len(items)} items total). Re-run with --apply.")
 
     # PATCH: same list, same order, only description fields added.
@@ -1146,12 +1239,17 @@ def service_descriptions(slug: str, apply: bool = False) -> str:
     back = find_location(token, place) or {}
     back_items = back.get("serviceItems", [])
     still = sum(1 for it in back_items if not _item_desc(it))
+    verb = "rewritten (city rotation)" if refresh_recent else "written"
     log_change(cid, "service_description",
-               f"Descriptions written for {len(accepted)} service(s) on the Google listing",
+               f"Descriptions {verb} for {len(accepted)} service(s) on the Google listing",
                actor="optimizer",
                meta={"services": [_item_name(items[i]) for i in accepted]})
-    return (f"{slug}: descriptions added to {len(accepted)}/{len(missing)} service(s) "
-            f"— missing before {len(missing)}, after {still} "
+    if refresh_recent:
+        return (f"{slug}: descriptions refreshed for {len(accepted)}/{len(targets)} "
+                f"recently-written service(s) ({still} of {len(back_items)} "
+                f"items still missing any description)")
+    return (f"{slug}: descriptions added to {len(accepted)}/{len(targets)} service(s) "
+            f"— missing before {len(targets)}, after {still} "
             f"(listing has {len(back_items)} services)")
 
 
@@ -1159,7 +1257,8 @@ def cmd_descriptions(args) -> int:
     failures = 0
     for slug in _clients(args):
         try:
-            print("  " + service_descriptions(slug, apply=args.apply))
+            print("  " + service_descriptions(slug, apply=args.apply,
+                                              refresh_recent=args.refresh_recent))
         except Exception as e:  # one client must never abort a scheduled --all run
             failures += 1
             print(f"  {slug}: ERROR ({type(e).__name__}: {str(e)[:200]}) — skipped")
@@ -1918,6 +2017,10 @@ def main() -> int:
     gd.add_argument("--all", action="store_true")
     pdsc.add_argument("--apply", action="store_true",
                       help="PATCH the listing (default: dry-run print of proposed descriptions)")
+    pdsc.add_argument("--refresh-recent", type=float, metavar="HOURS", default=None,
+                      help="Re-generate ONLY descriptions we ourselves wrote in the last "
+                           "N hours (per marketing_gbp_changes) — never touches "
+                           "client-authored or pre-existing text")
     args = ap.parse_args()
     return {"read": cmd_read, "reconcile": cmd_reconcile, "sync": cmd_sync,
             "reviews": cmd_reviews, "photos": cmd_photos, "media-import": cmd_media_import,
