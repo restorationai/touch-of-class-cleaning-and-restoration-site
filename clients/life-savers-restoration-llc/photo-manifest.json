@@ -649,6 +649,18 @@
       "triaged_at": "2026-08-07T14:09:46Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipM7QjDlr9a01IsttHn0snIuDzOcw1sixII2m6eF": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipM7QjDlr9a01IsttHn0snIuDzOcw1sixII2m6eF.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipM7QjDlr9a01IsttHn0snIuDzOcw1sixII2m6eF.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 545965,
+      "sha1": "8b7dae3c17a0b8be",
+      "exif": {
+        "taken_at": "2025:05:22 10:02:01"
+      }
+    },
     "gbp:gbp-AF1QipM7mCVwwqwPVFkIAVPTPQZEDUFXk8Zri_KHPpdV": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipM7mCVwwqwPVFkIAVPTPQZEDUFXk8Zri_KHPpdV.jpg",
@@ -1009,6 +1021,18 @@
       "triaged_at": "2026-08-07T14:09:46Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipMGLleXYnT6GjlSpZx8MR2zd036PMHWu1avHeQ2": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMGLleXYnT6GjlSpZx8MR2zd036PMHWu1avHeQ2.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipMGLleXYnT6GjlSpZx8MR2zd036PMHWu1avHeQ2.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 722632,
+      "sha1": "0eec656bf8c5dbab",
+      "exif": {
+        "taken_at": "2025:05:18 12:30:22"
+      }
+    },
     "gbp:gbp-AF1QipMGkefGS_bx3RBAcMsSly0ynHB7ee-GRVS1Y4K9": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipMGkefGS_bx3RBAcMsSly0ynHB7ee-GRVS1Y4K9.jpg",
@@ -1176,6 +1200,18 @@
       "reason": "Useful diagnostic tool shot but poorly framed, dark background, cluttered context.",
       "triaged_at": "2026-08-07T14:10:01Z",
       "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMK35Ht4Yq5tKrmdUpoOM59RgZKTw22jnIa7MAA": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMK35Ht4Yq5tKrmdUpoOM59RgZKTw22jnIa7MAA.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipMK35Ht4Yq5tKrmdUpoOM59RgZKTw22jnIa7MAA.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 300559,
+      "sha1": "73a151f26acc8621",
+      "exif": {
+        "taken_at": "2025:05:26 09:23:59"
+      }
     },
     "gbp:gbp-AF1QipMKDVGTIhCxVh6JJLeBHnHpv56Z3FIpyTLEtgXZ": {
       "source": "gbp",
@@ -1964,6 +2000,18 @@
       "triaged_at": "2026-08-09T14:06:30Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipMYIjlT6lDZQdBMhxAqrmLNZRQy-bkA3BbJlu8Y": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMYIjlT6lDZQdBMhxAqrmLNZRQy-bkA3BbJlu8Y.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipMYIjlT6lDZQdBMhxAqrmLNZRQy-bkA3BbJlu8Y.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 844564,
+      "sha1": "ff412825c41f0e16",
+      "exif": {
+        "taken_at": "2025:05:18 14:04:46"
+      }
+    },
     "gbp:gbp-AF1QipMYtamAsQuCW5DQt9CV21WXAwZbTyg848OG5sax": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipMYtamAsQuCW5DQt9CV21WXAwZbTyg848OG5sax.jpg",
@@ -2132,6 +2180,18 @@
       "reason": "Close-up of failed fitting is diagnostic but cluttered; portrait crop kills hero use.",
       "triaged_at": "2026-08-10T14:14:41Z",
       "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMavIWmDfn4EY6yHTybeupuIIQ3zJS-_PCAMRvb": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMavIWmDfn4EY6yHTybeupuIIQ3zJS-_PCAMRvb.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipMavIWmDfn4EY6yHTybeupuIIQ3zJS-_PCAMRvb.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 972624,
+      "sha1": "7a6942cabe683343",
+      "exif": {
+        "taken_at": "2025:02:23 10:23:32"
+      }
     },
     "gbp:gbp-AF1QipMbnAe3U9A0ae0yEGefAQ41irE41FtVfIV8JmA4": {
       "source": "gbp",
@@ -2355,6 +2415,18 @@
       "triaged_at": "2026-08-07T14:10:16Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipMfPUg8bZqgU9_gb0znBmLK733Q-NqQg3g41_Bt": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMfPUg8bZqgU9_gb0znBmLK733Q-NqQg3g41_Bt.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipMfPUg8bZqgU9_gb0znBmLK733Q-NqQg3g41_Bt.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 702942,
+      "sha1": "c2445f6b1d53c28c",
+      "exif": {
+        "taken_at": "2025:05:24 12:55:16"
+      }
+    },
     "gbp:gbp-AF1QipMfVS_yoMO5wNLrGaBqeqAFhPKjz_sCh2f-bnDX": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipMfVS_yoMO5wNLrGaBqeqAFhPKjz_sCh2f-bnDX.jpg",
@@ -2411,6 +2483,30 @@
       "reason": "Decent sharpness, clear evidence of water damage on flooring; portrait crop limits hero use.",
       "triaged_at": "2026-08-08T14:37:36Z",
       "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMhfWpQObIAdiGxhRxlj9Lz0uwMEtWJhBMHlvMH": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMhfWpQObIAdiGxhRxlj9Lz0uwMEtWJhBMHlvMH.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipMhfWpQObIAdiGxhRxlj9Lz0uwMEtWJhBMHlvMH.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 1020556,
+      "sha1": "b5ed82f6f9c913f2",
+      "exif": {
+        "taken_at": "2025:05:27 13:11:44"
+      }
+    },
+    "gbp:gbp-AF1QipMim4pLggYN8TTYxH6GkSnAI31ecVu7ko7vcQlz": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMim4pLggYN8TTYxH6GkSnAI31ecVu7ko7vcQlz.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipMim4pLggYN8TTYxH6GkSnAI31ecVu7ko7vcQlz.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 810285,
+      "sha1": "3f1b9b0bc2a4258c",
+      "exif": {
+        "taken_at": "2025:05:18 13:16:37"
+      }
     },
     "gbp:gbp-AF1QipMisNxscN57ycqoB9tZaCDSdCBy4oyBBWN9vmGD": {
       "source": "gbp",
@@ -2831,6 +2927,30 @@
       "triaged_at": "2026-08-07T14:10:31Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipMoy9vk96xNKkdCXXSMxahXsFYXqitSdUdJ0UQ_": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMoy9vk96xNKkdCXXSMxahXsFYXqitSdUdJ0UQ_.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipMoy9vk96xNKkdCXXSMxahXsFYXqitSdUdJ0UQ_.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 862671,
+      "sha1": "fc92b4c5ea16aad4",
+      "exif": {
+        "taken_at": "2025:05:18 12:29:27"
+      }
+    },
+    "gbp:gbp-AF1QipMqEUeGR7_y1NlwvyZYdDGgBrHOalKteo614314": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMqEUeGR7_y1NlwvyZYdDGgBrHOalKteo614314.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipMqEUeGR7_y1NlwvyZYdDGgBrHOalKteo614314.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 1074155,
+      "sha1": "d31ccd134ae481c1",
+      "exif": {
+        "taken_at": "2025:05:16 10:45:43"
+      }
+    },
     "gbp:gbp-AF1QipMrbFlmqYQCMdQWJNTIyQroyvBxNH7pLKlqJSQJ": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipMrbFlmqYQCMdQWJNTIyQroyvBxNH7pLKlqJSQJ.jpg",
@@ -3143,6 +3263,18 @@
       "triaged_at": "2026-08-07T14:59:21Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipMwURsfWs9KKP3sxERNCnm4TTng8wqjt9q8K0Nu": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMwURsfWs9KKP3sxERNCnm4TTng8wqjt9q8K0Nu.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipMwURsfWs9KKP3sxERNCnm4TTng8wqjt9q8K0Nu.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 714627,
+      "sha1": "ffc6ad7e3f7685ee",
+      "exif": {
+        "taken_at": "2025:04:11 08:47:19"
+      }
+    },
     "gbp:gbp-AF1QipMwqve8PPpQOEc61G0qDJJK0C-hOJoX0ZsUC_pC": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipMwqve8PPpQOEc61G0qDJJK0C-hOJoX0ZsUC_pC.jpg",
@@ -3165,6 +3297,18 @@
       "reason": "Strong fleet hero; clear branding, attractive home backdrop, good light.",
       "triaged_at": "2026-08-08T14:08:07Z",
       "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMx610b-fSZgCFyv_ykYNsaeHRWPR6NwREcBsd6": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMx610b-fSZgCFyv_ykYNsaeHRWPR6NwREcBsd6.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipMx610b-fSZgCFyv_ykYNsaeHRWPR6NwREcBsd6.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 721330,
+      "sha1": "a7516b4450cb6f8d",
+      "exif": {
+        "taken_at": "2025:05:18 12:30:22"
+      }
     },
     "gbp:gbp-AF1QipMxiAWGapFkUupAPBNpzzrZVZgUZqTcaN3OoIcP": {
       "source": "gbp",
@@ -3336,6 +3480,18 @@
       "triaged_at": "2026-08-07T14:10:47Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipN1JYEw4ErtAoctBokgvcTengOrvCTjmBOkIkwu": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipN1JYEw4ErtAoctBokgvcTengOrvCTjmBOkIkwu.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipN1JYEw4ErtAoctBokgvcTengOrvCTjmBOkIkwu.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 489239,
+      "sha1": "2c3302a48226484b",
+      "exif": {
+        "taken_at": "2025:02:23 10:27:33"
+      }
+    },
     "gbp:gbp-AF1QipN1Xz7-rZJ-5VduB6-qpckrW5cq943dCkM9rDCf": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipN1Xz7-rZJ-5VduB6-qpckrW5cq943dCkM9rDCf.jpg",
@@ -3363,6 +3519,18 @@
       "reason": "Close-up detail of damaged wall; low composition quality, limited context.",
       "triaged_at": "2026-08-08T14:08:07Z",
       "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipN21QXQMBmqf7P1dAtjr7EZR1sfC5bigd1AWVEH": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipN21QXQMBmqf7P1dAtjr7EZR1sfC5bigd1AWVEH.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipN21QXQMBmqf7P1dAtjr7EZR1sfC5bigd1AWVEH.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 750999,
+      "sha1": "995edc501b8ccdf1",
+      "exif": {
+        "taken_at": "2025:05:18 14:03:43"
+      }
     },
     "gbp:gbp-AF1QipN25HP6xntYos-ijRVPqoYxRK6vHHCpXFhHrxhP": {
       "source": "gbp",
@@ -3841,6 +4009,18 @@
       "triaged_at": "2026-08-10T14:14:56Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipNE6dVIHVExv-Duk6CQ8YYGrkmoYqjhex14EQaD": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNE6dVIHVExv-Duk6CQ8YYGrkmoYqjhex14EQaD.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipNE6dVIHVExv-Duk6CQ8YYGrkmoYqjhex14EQaD.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 831126,
+      "sha1": "1ad1afe94d77bfcc",
+      "exif": {
+        "taken_at": "2025:05:18 14:04:12"
+      }
+    },
     "gbp:gbp-AF1QipNF8a7W-LyEbAm9cJyHR9hDRBVmDabBrTAHLPi2": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipNF8a7W-LyEbAm9cJyHR9hDRBVmDabBrTAHLPi2.jpg",
@@ -3992,6 +4172,18 @@
       "reason": "Partial foot in frame, awkward angle; shows demolition progress adequately.",
       "triaged_at": "2026-08-10T15:10:57Z",
       "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNHjJrIO78aD6MXi1D2QiGdfS7kTXN8lGmf0OWP": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNHjJrIO78aD6MXi1D2QiGdfS7kTXN8lGmf0OWP.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipNHjJrIO78aD6MXi1D2QiGdfS7kTXN8lGmf0OWP.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 811026,
+      "sha1": "90056ba16e1da526",
+      "exif": {
+        "taken_at": "2025:05:22 10:00:28"
+      }
     },
     "gbp:gbp-AF1QipNItqtw8eSswGMKAO8TwtFVOJAK6fL3MVv7BjUD": {
       "source": "gbp",
@@ -5718,6 +5910,18 @@
       "triaged_at": "2026-08-07T14:11:33Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipNlp2UW0RCt6SOW-ryVEwoGfS3_FCdYT1jc5Ssl": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNlp2UW0RCt6SOW-ryVEwoGfS3_FCdYT1jc5Ssl.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipNlp2UW0RCt6SOW-ryVEwoGfS3_FCdYT1jc5Ssl.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 516712,
+      "sha1": "ae19ec96a83c3b6d",
+      "exif": {
+        "taken_at": "2025:03:10 16:06:10"
+      }
+    },
     "gbp:gbp-AF1QipNltytOkYjjDoAW4Q4vBJwn9gksDKzXHEjn8KCf": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipNltytOkYjjDoAW4Q4vBJwn9gksDKzXHEjn8KCf.jpg",
@@ -5745,6 +5949,18 @@
       "reason": "Decent mold and water damage documentation; narrow corridor limits hero appeal.",
       "triaged_at": "2026-08-07T14:11:33Z",
       "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNlyJPdiG8Zg8wo1BiEiooksnwbOYCladxKECxA": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNlyJPdiG8Zg8wo1BiEiooksnwbOYCladxKECxA.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipNlyJPdiG8Zg8wo1BiEiooksnwbOYCladxKECxA.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 783584,
+      "sha1": "d00fcb9edc49b013",
+      "exif": {
+        "taken_at": "2025:05:18 12:28:53"
+      }
     },
     "gbp:gbp-AF1QipNmrXf-usYzLl90-8-IutFV2iBu1SEyKqoMZo84": {
       "source": "gbp",
@@ -6083,6 +6299,18 @@
       "triaged_at": "2026-08-10T14:15:13Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipNryGtkPQHV8YFZDteHLld_f3T8sZdCm8UlP_nU": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNryGtkPQHV8YFZDteHLld_f3T8sZdCm8UlP_nU.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipNryGtkPQHV8YFZDteHLld_f3T8sZdCm8UlP_nU.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 506176,
+      "sha1": "28518a5d6a562f0f",
+      "exif": {
+        "taken_at": "2025:05:18 12:30:15"
+      }
+    },
     "gbp:gbp-AF1QipNsIi8_V3oo1Y5ImTtB8WZNfj9yGy0OqZgz1b3w": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipNsIi8_V3oo1Y5ImTtB8WZNfj9yGy0OqZgz1b3w.jpg",
@@ -6113,6 +6341,18 @@
       "reason": "Blurry, low angle, cluttered; insufficient quality for professional marketing.",
       "triaged_at": "2026-08-07T14:59:37Z",
       "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNsXqRcps09BLcrBatoiDPSY3bvoXILgxEMKAQ1": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNsXqRcps09BLcrBatoiDPSY3bvoXILgxEMKAQ1.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipNsXqRcps09BLcrBatoiDPSY3bvoXILgxEMKAQ1.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 579024,
+      "sha1": "6428469665a85464",
+      "exif": {
+        "taken_at": "2025:05:22 09:58:35"
+      }
     },
     "gbp:gbp-AF1QipNsfL0I8as5GuzvnKw89DUxVHUs6b_mRaYJK4XU": {
       "source": "gbp",
@@ -6437,6 +6677,18 @@
       "triaged_at": "2026-08-11T00:45:05Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipNxpjjd4rrKhRgRK4AqoTmku0-w6wakoGbCY9_E": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNxpjjd4rrKhRgRK4AqoTmku0-w6wakoGbCY9_E.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipNxpjjd4rrKhRgRK4AqoTmku0-w6wakoGbCY9_E.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 766878,
+      "sha1": "d6118f15419cfd9e",
+      "exif": {
+        "taken_at": "2025:05:22 09:58:32"
+      }
+    },
     "gbp:gbp-AF1QipNxsLg7NErwrpCqOJQCIo5ybm4UqrtlWzKYpqIk": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipNxsLg7NErwrpCqOJQCIo5ybm4UqrtlWzKYpqIk.jpg",
@@ -6490,6 +6742,18 @@
       "reason": "Useful diagnostic tool shot; low hero appeal, small team presence.",
       "triaged_at": "2026-08-09T14:42:44Z",
       "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNzOZa2pSR5AhbXCC5VSDF2LbAxcuHFsmbpUwX9": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNzOZa2pSR5AhbXCC5VSDF2LbAxcuHFsmbpUwX9.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipNzOZa2pSR5AhbXCC5VSDF2LbAxcuHFsmbpUwX9.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 1058677,
+      "sha1": "abd0ad37d560cafa",
+      "exif": {
+        "taken_at": "2025:05:27 13:11:41"
+      }
     },
     "gbp:gbp-AF1QipNza6mziw0CzeyNxy5QpJ3bLFFnjb6Bt8DWhPet": {
       "source": "gbp",
@@ -6558,6 +6822,18 @@
         "taken_at": "2025:10:23 15:08:22"
       },
       "duplicate_of": "gbp:gbp-AF1QipMB4wZgw9k1CSF5KPvli7qEdNx_1M8px1cERCt2"
+    },
+    "gbp:gbp-AF1QipO-xk_9FEIZM6ivmiAqfbReH3EFXuWEu2hmAuT8": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipO-xk_9FEIZM6ivmiAqfbReH3EFXuWEu2hmAuT8.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipO-xk_9FEIZM6ivmiAqfbReH3EFXuWEu2hmAuT8.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 608626,
+      "sha1": "51570be269c13e7e",
+      "exif": {
+        "taken_at": "2025:04:11 08:52:03"
+      }
     },
     "gbp:gbp-AF1QipO-zL-4VNOWqwoE6PFJHJChUCxjN9gFwgTjgrib": {
       "source": "gbp",
@@ -6696,6 +6972,18 @@
       "reason": "Clear water damage evidence on ceiling; unusual red wall is distracting but readable.",
       "triaged_at": "2026-08-08T14:08:22Z",
       "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipO3vKvy8TsoUgksu6bbwTjkUvRj1LiV7oiwzg7T": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipO3vKvy8TsoUgksu6bbwTjkUvRj1LiV7oiwzg7T.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipO3vKvy8TsoUgksu6bbwTjkUvRj1LiV7oiwzg7T.jpg",
+      "width": 2560,
+      "height": 1920,
+      "bytes": 585668,
+      "sha1": "031086521989a2cb",
+      "exif": {
+        "taken_at": "2025:05:19 11:14:24"
+      }
     },
     "gbp:gbp-AF1QipO471fVHan2NlCzZjg3TjyKay1PWmG5tZ-aB6d4": {
       "source": "gbp",
@@ -6837,6 +7125,18 @@
       "reason": "Clear dramatic mold damage evidence; good services card candidate.",
       "triaged_at": "2026-08-07T14:12:06Z",
       "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipO7Q-s8AXeMfawkqa0cp2He2WmfIIYgjx8xrlka": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipO7Q-s8AXeMfawkqa0cp2He2WmfIIYgjx8xrlka.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipO7Q-s8AXeMfawkqa0cp2He2WmfIIYgjx8xrlka.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 806792,
+      "sha1": "a999dbb9c8370f99",
+      "exif": {
+        "taken_at": "2025:05:29 09:22:18"
+      }
     },
     "gbp:gbp-AF1QipO7YiRMElcTk4tUMckiwiRUNDxLkrzpwdWMarJi": {
       "source": "gbp",
@@ -7008,6 +7308,18 @@
       "reason": "Clear demolition progress shot; decent for services but not hero material.",
       "triaged_at": "2026-08-09T14:07:00Z",
       "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOAiVWkVuDg7o53_ueO3U1UUvo4Ua_rcwnyqPmS": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOAiVWkVuDg7o53_ueO3U1UUvo4Ua_rcwnyqPmS.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipOAiVWkVuDg7o53_ueO3U1UUvo4Ua_rcwnyqPmS.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 1073809,
+      "sha1": "d856e9fc1274d185",
+      "exif": {
+        "taken_at": "2025:05:16 10:45:43"
+      }
     },
     "gbp:gbp-AF1QipOBkNpO8544C-02XPhJgJOmENVzr7nUkZOgQDHE": {
       "source": "gbp",
@@ -8311,6 +8623,18 @@
       "triaged_at": "2026-08-07T14:12:51Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipOX8PZMoJW9lUG1eWlMtEYW4gjyKIP3P54GLbHI": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOX8PZMoJW9lUG1eWlMtEYW4gjyKIP3P54GLbHI.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipOX8PZMoJW9lUG1eWlMtEYW4gjyKIP3P54GLbHI.jpg",
+      "width": 2560,
+      "height": 1920,
+      "bytes": 882728,
+      "sha1": "ff92456f09cbcb00",
+      "exif": {
+        "taken_at": "2025:05:19 11:14:29"
+      }
+    },
     "gbp:gbp-AF1QipOXTc3Ik2fFeOODAi2l1Bn83H-v1e1ZrCtzjgVM": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipOXTc3Ik2fFeOODAi2l1Bn83H-v1e1ZrCtzjgVM.jpg",
@@ -8340,6 +8664,18 @@
       "reason": "Dark, angled, feet in frame; low quality limits professional site use.",
       "triaged_at": "2026-08-08T14:08:37Z",
       "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOXpWL_xZGJkXfqnqDZJDYtPG5onPVcWJgC0pLj": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOXpWL_xZGJkXfqnqDZJDYtPG5onPVcWJgC0pLj.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipOXpWL_xZGJkXfqnqDZJDYtPG5onPVcWJgC0pLj.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 793475,
+      "sha1": "3ddb91de6be9fd59",
+      "exif": {
+        "taken_at": "2025:05:27 13:11:37"
+      }
     },
     "gbp:gbp-AF1QipOZNv1POt_6kwYqcfsgXsHDGLsY70Thvn-BKRbw": {
       "source": "gbp",
@@ -8523,6 +8859,18 @@
       "reason": "Dark, off-centre thermal camera shot; partial person visible background.",
       "triaged_at": "2026-08-09T14:42:44Z",
       "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOcCuYXJcdjz7lKpnNg6DDPaCo0FPpwEGFRxCpF": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOcCuYXJcdjz7lKpnNg6DDPaCo0FPpwEGFRxCpF.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipOcCuYXJcdjz7lKpnNg6DDPaCo0FPpwEGFRxCpF.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 915486,
+      "sha1": "158efe8d8ea1a250",
+      "exif": {
+        "taken_at": "2025:03:10 16:10:14"
+      }
     },
     "gbp:gbp-AF1QipOcfZOddmKrVamvOjDqQxIvz0J3xFrNYCaaoFhf": {
       "source": "gbp",
@@ -9215,6 +9563,18 @@
       "reason": "Low-angle close-up of stained floor; limited context, poor composition.",
       "triaged_at": "2026-08-07T14:13:21Z",
       "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOjODOWlGfpqJzmgtyaBByTSspgjIz7H__Cb2Sj": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOjODOWlGfpqJzmgtyaBByTSspgjIz7H__Cb2Sj.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipOjODOWlGfpqJzmgtyaBByTSspgjIz7H__Cb2Sj.jpg",
+      "width": 2560,
+      "height": 1920,
+      "bytes": 714811,
+      "sha1": "b80c8aba8f3ede0d",
+      "exif": {
+        "taken_at": "2025:06:12 13:21:19"
+      }
     },
     "gbp:gbp-AF1QipOlHgClQ0X92GhZW7fQjSYENB6oK3veHjBw-48M": {
       "source": "gbp",
@@ -9920,6 +10280,19 @@
       "triaged_at": "2026-08-07T14:59:53Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipP0rzSgpK_ZgP-I-HbyvNWxzvqkMJt8bBOvOxbN": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipP0rzSgpK_ZgP-I-HbyvNWxzvqkMJt8bBOvOxbN.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipP0rzSgpK_ZgP-I-HbyvNWxzvqkMJt8bBOvOxbN.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 862671,
+      "sha1": "fc92b4c5ea16aad4",
+      "exif": {
+        "taken_at": "2025:05:18 12:29:27"
+      },
+      "duplicate_of": "gbp:gbp-AF1QipMoy9vk96xNKkdCXXSMxahXsFYXqitSdUdJ0UQ_"
+    },
     "gbp:gbp-AF1QipP1Ex3BPtddDax_PS86tmD8H8C8-f_XFr39Wecu": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipP1Ex3BPtddDax_PS86tmD8H8C8-f_XFr39Wecu.jpg",
@@ -10005,6 +10378,18 @@
       "reason": "Interesting diagnostic tool shown but poor focus and cluttered composition.",
       "triaged_at": "2026-08-10T14:15:29Z",
       "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipP222MOFgD2E6oZub3zhnpLyZfB-IYHBZ2qVXW4": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipP222MOFgD2E6oZub3zhnpLyZfB-IYHBZ2qVXW4.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipP222MOFgD2E6oZub3zhnpLyZfB-IYHBZ2qVXW4.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 418483,
+      "sha1": "415043d2a7ad58c9",
+      "exif": {
+        "taken_at": "2025:05:29 09:21:59"
+      }
     },
     "gbp:gbp-AF1QipP28qlqSvkxLNudIXaWPRZ7oVEeN7mA90iDQhzD": {
       "source": "gbp",
@@ -10362,6 +10747,18 @@
       "reason": "Unclear subject, poor framing, no identifiable restoration context; not usable.",
       "triaged_at": "2026-08-10T15:11:45Z",
       "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPDJqDN3oOdTu4TudUkEylmDhmvU-jHzRAl58zn": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPDJqDN3oOdTu4TudUkEylmDhmvU-jHzRAl58zn.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipPDJqDN3oOdTu4TudUkEylmDhmvU-jHzRAl58zn.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 943476,
+      "sha1": "7b5f6e8d256b9c43",
+      "exif": {
+        "taken_at": "2025:05:13 08:09:58"
+      }
     },
     "gbp:gbp-AF1QipPDOeO9hxZJbbVF_UL4iFIw7cmLYST4zm1gZ84l": {
       "source": "gbp",
@@ -10799,6 +11196,18 @@
       "reason": "Stark mold damage clearly readable; good services card image.",
       "triaged_at": "2026-08-11T00:46:09Z",
       "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPKJ8uJxr_JBBEwcaWCwtRThs7e-bAbKvJ-aroR": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPKJ8uJxr_JBBEwcaWCwtRThs7e-bAbKvJ-aroR.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipPKJ8uJxr_JBBEwcaWCwtRThs7e-bAbKvJ-aroR.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 305678,
+      "sha1": "1d3756395b1d85e4",
+      "exif": {
+        "taken_at": "2025:03:18 18:25:26"
+      }
     },
     "gbp:gbp-AF1QipPL7T6D7IgZCogaLvJPxVr0ODzgGFszt4OxD5jz": {
       "source": "gbp",
@@ -11383,6 +11792,18 @@
       "triaged_at": "2026-08-11T00:46:09Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipPT28vmgNCl2OISBIY2WpSsKBZxdZaCciEggdUK": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPT28vmgNCl2OISBIY2WpSsKBZxdZaCciEggdUK.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipPT28vmgNCl2OISBIY2WpSsKBZxdZaCciEggdUK.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 355461,
+      "sha1": "ff4808daaa9cbfe1",
+      "exif": {
+        "taken_at": "2025:05:27 13:12:30"
+      }
+    },
     "gbp:gbp-AF1QipPTD-YPmeO4HzK85hNmXp3Z1T6cVkr2XfvdhpCo": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipPTD-YPmeO4HzK85hNmXp3Z1T6cVkr2XfvdhpCo.jpg",
@@ -11480,6 +11901,19 @@
       "reason": "Clear remediation progress shot; good for services but unpolished composition.",
       "triaged_at": "2026-08-08T14:08:46Z",
       "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPUppvcBVve0YXyFxb9HijmJKEuD9fAbAWhHKtL": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPUppvcBVve0YXyFxb9HijmJKEuD9fAbAWhHKtL.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipPUppvcBVve0YXyFxb9HijmJKEuD9fAbAWhHKtL.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 783584,
+      "sha1": "d00fcb9edc49b013",
+      "exif": {
+        "taken_at": "2025:05:18 12:28:53"
+      },
+      "duplicate_of": "gbp:gbp-AF1QipNlyJPdiG8Zg8wo1BiEiooksnwbOYCladxKECxA"
     },
     "gbp:gbp-AF1QipPUsLyADle7TSPVnTlTBjK0ONzEtiurvkUXDSTq": {
       "source": "gbp",
@@ -11857,6 +12291,18 @@
       "triaged_at": "2026-08-09T14:43:15Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipPaBF6JqxXuacOGjMTWlUWm2dWkFiLzKIghTm8V": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPaBF6JqxXuacOGjMTWlUWm2dWkFiLzKIghTm8V.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipPaBF6JqxXuacOGjMTWlUWm2dWkFiLzKIghTm8V.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 584510,
+      "sha1": "bdc9ac1a06612411",
+      "exif": {
+        "taken_at": "2025:04:11 08:47:50"
+      }
+    },
     "gbp:gbp-AF1QipPaQWDO-80CkGAreLeiyC9MnuFPM7z4U_pItHVi": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipPaQWDO-80CkGAreLeiyC9MnuFPM7z4U_pItHVi.jpg",
@@ -12149,6 +12595,18 @@
       "triage_model": "claude-sonnet-4-6",
       "duplicate_of": "gbp:gbp-AF1QipPU4sR2qCZPx1JGEDc4B_GwM657EKHGcs1dPyif"
     },
+    "gbp:gbp-AF1QipPgDlSYiT8ogiFDLuBOUhx5A5h-y_af-NJDA8iu": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPgDlSYiT8ogiFDLuBOUhx5A5h-y_af-NJDA8iu.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipPgDlSYiT8ogiFDLuBOUhx5A5h-y_af-NJDA8iu.jpg",
+      "width": 2560,
+      "height": 1920,
+      "bytes": 546370,
+      "sha1": "77d8938d3e12a646",
+      "exif": {
+        "taken_at": "2025:05:27 13:14:42"
+      }
+    },
     "gbp:gbp-AF1QipPgSQ0I8N4r55fhKTYv-jkU8n836JPAOedXcxmD": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipPgSQ0I8N4r55fhKTYv-jkU8n836JPAOedXcxmD.jpg",
@@ -12205,6 +12663,18 @@
       "reason": "Compelling mold and water damage evidence; cluttered background limits hero use.",
       "triaged_at": "2026-08-07T14:14:25Z",
       "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPiDgdfV9ngVe1nhE8to81Uh8oMaq3QBXyGnJKk": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPiDgdfV9ngVe1nhE8to81Uh8oMaq3QBXyGnJKk.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipPiDgdfV9ngVe1nhE8to81Uh8oMaq3QBXyGnJKk.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 790655,
+      "sha1": "f5299bfa181e6da7",
+      "exif": {
+        "taken_at": "2025:03:18 18:20:03"
+      }
     },
     "gbp:gbp-AF1QipPiV-z8f9mDYct3m-bRunT10aD3mG4TcMgymaJ2": {
       "source": "gbp",
@@ -12563,6 +13033,19 @@
         "taken_at": "2025:10:18 12:47:27"
       },
       "duplicate_of": "gbp:gbp-AF1QipPnvjEfv6UYBCf1RHbQH8VwJ-YJtPKkuE2gwxrY"
+    },
+    "gbp:gbp-AF1QipPposjdQTbuIaVagaE3OKxqAvsryKR3rPz6giF6": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPposjdQTbuIaVagaE3OKxqAvsryKR3rPz6giF6.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipPposjdQTbuIaVagaE3OKxqAvsryKR3rPz6giF6.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 506176,
+      "sha1": "28518a5d6a562f0f",
+      "exif": {
+        "taken_at": "2025:05:18 12:30:15"
+      },
+      "duplicate_of": "gbp:gbp-AF1QipNryGtkPQHV8YFZDteHLld_f3T8sZdCm8UlP_nU"
     },
     "gbp:gbp-AF1QipPqEEcB6J4FH5bJSW7LBV_u3w6o2DZSb5jKH-gL": {
       "source": "gbp",
@@ -13025,7 +13508,7 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-08-11T00:46:32Z",
+  "triaged_at": "2026-08-11T14:13:02Z",
   "slots_retired_2026-08-10": {
     "note": "AI-FIRST doctrine (Santino 2026-08-10, scripts/dev_agent.md Imagery doctrine): slot pins cleared so gen_site_images generates the polished AI look for every launch slot. The real photos archived below remain harvested assets and serve as livery/PPE/equipment REFERENCES only (see image-style-guide.md CLIENT DIRECTION). Do not re-pin via photo_harvest apply without a new decision. Santino specifically rejected the team.webp pick (two guys pressure washing does not read as a team).",
     "slots": {

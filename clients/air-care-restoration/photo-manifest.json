@@ -1,5 +1,67 @@
 {
   "slug": "air-care-restoration",
-  "assets": {},
-  "slots": {}
+  "assets": {
+    "gbp:gbp-AF1QipM5g7LkdMgKLO2IZA3BsqeNWfUuzhxejNIme7dx": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipM5g7LkdMgKLO2IZA3BsqeNWfUuzhxejNIme7dx.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786411719310/job-photos/posted/gbp-AF1QipM5g7LkdMgKLO2IZA3BsqeNWfUuzhxejNIme7dx.jpg",
+      "width": 480,
+      "height": 640,
+      "bytes": 64541,
+      "sha1": "7643ecbabf83c389",
+      "exif": {}
+    },
+    "gbp:gbp-AF1QipN7vI8cnjonfNt5EX06UwbTAKdIFnt1wkH9NVaE": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipN7vI8cnjonfNt5EX06UwbTAKdIFnt1wkH9NVaE.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786411719310/job-photos/posted/gbp-AF1QipN7vI8cnjonfNt5EX06UwbTAKdIFnt1wkH9NVaE.jpg",
+      "width": 487,
+      "height": 640,
+      "bytes": 96883,
+      "sha1": "d399f0133f3fb8c4",
+      "exif": {}
+    },
+    "gbp:gbp-AF1QipNK3seSDDi1TAxDqpgVBp9Yibqbtx4lEMYySt1T": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNK3seSDDi1TAxDqpgVBp9Yibqbtx4lEMYySt1T.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786411719310/job-photos/posted/gbp-AF1QipNK3seSDDi1TAxDqpgVBp9Yibqbtx4lEMYySt1T.jpg",
+      "width": 640,
+      "height": 480,
+      "bytes": 128972,
+      "sha1": "13c9311911f0607e",
+      "exif": {}
+    },
+    "gbp:gbp-AF1QipNNmr9-AsHgR3aJyUe11fY4A37LTN6LQmO8Mn0X": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNNmr9-AsHgR3aJyUe11fY4A37LTN6LQmO8Mn0X.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786411719310/job-photos/posted/gbp-AF1QipNNmr9-AsHgR3aJyUe11fY4A37LTN6LQmO8Mn0X.jpg",
+      "width": 480,
+      "height": 640,
+      "bytes": 88542,
+      "sha1": "574a87ffedc77b2d",
+      "exif": {}
+    },
+    "gbp:gbp-AF1QipO4kLEQv9Pus_WqkCLWUinYp5t2cvWdrUI2BXLx": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipO4kLEQv9Pus_WqkCLWUinYp5t2cvWdrUI2BXLx.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786411719310/job-photos/posted/gbp-AF1QipO4kLEQv9Pus_WqkCLWUinYp5t2cvWdrUI2BXLx.jpg",
+      "width": 2560,
+      "height": 1920,
+      "bytes": 1250120,
+      "sha1": "de652a01960b5bfe",
+      "exif": {}
+    },
+    "gbp:gbp-AF1QipOpvLYXGvleEMC6iyBV5k3k6BRhEO4pAaijFtga": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOpvLYXGvleEMC6iyBV5k3k6BRhEO4pAaijFtga.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786411719310/job-photos/posted/gbp-AF1QipOpvLYXGvleEMC6iyBV5k3k6BRhEO4pAaijFtga.jpg",
+      "width": 480,
+      "height": 640,
+      "bytes": 65507,
+      "sha1": "9888aeb4ecfd2475",
+      "exif": {}
+    }
+  },
+  "slots": {},
+  "triaged_at": "2026-08-11T14:13:37Z"
 }
