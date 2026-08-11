@@ -3487,6 +3487,15 @@ def file_request_violation(body: str) -> str | None:
     verb would cost more than it saves.
     """
     m = _EMAIL_A_FILE_RE.search(body or "")
+    # ACCESS INVITES ARE NOT FILES (Jerrott 2026-08-11): "send the invite to
+    # setup@restorationai.io" is the CORRECT GoDaddy/registrar delegate-access
+    # instruction — the invite must go to an email address by design, nothing
+    # lands in an inbox needing hand-filing. Two passes drafted the right
+    # answer and this guard shredded both while he waited on "What do you
+    # need?". Only the file case stays blocked.
+    if m and re.search(r"\b(invite|delegate|access)\b",
+                       (body or "")[max(0, m.start() - 40):m.end() + 40], re.I):
+        m = None
     if m:
         return (f"draft tells the client to email us a file ({m.group(0)!r}). "
                 "File requests are HUB-LINK-ONLY: an emailed attachment lands "
@@ -8984,6 +8993,11 @@ def cmd_selfcheck(_args) -> int:
         # ...the hub link is the whole point and must always pass.
         ("Upload it here, no login needed: https://restorationai.io/hub/x/y", False),
         ("Can you send your logo when you get a minute?", False),
+        # ...and a registrar ACCESS INVITE goes to an email BY DESIGN
+        # (Jerrott 2026-08-11: the GoDaddy answer was shredded twice).
+        ("Sign in at account.godaddy.com/access, click Invite to Access, and "
+         "send the invite to setup@restorationai.io", False),
+        ("In GoDaddy, add delegate access for setup@restorationai.io", False),
     ]
     for draft, want_block in file_cases:
         got = file_request_violation(draft)
