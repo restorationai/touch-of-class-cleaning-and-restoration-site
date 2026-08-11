@@ -1,0 +1,125 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "~/layouts/BaseLayout.astro";
+import CtaBanner from "~/components/CtaBanner.astro";
+import FAQSection from "~/components/FAQSection.astro";
+import InternalLinks from "~/components/InternalLinks.astro";
+import GoogleMap from "~/components/GoogleMap.astro";
+import { brand } from "~/lib/brand";
+import { is247 } from "~/lib/dispatch";
+
+export async function getStaticPaths() {
+  const areas = await getCollection("serviceAreas");
+  return areas.map((a) => ({ params: { area: a.data.area_slug }, props: { entry: a } }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+const data = entry.data;
+const heroImage = data.hero || "/images/hero-bg.webp" /* preview: switch to `${brand.imagesBase}/brand/...` at production cutover */;
+
+// Sister cross-product pages for this area, sorted by priority
+const locations = (await getCollection("locations"))
+  .filter((l) => l.data.area_slug === data.area_slug)
+  .sort((a, b) => (b.data.priority || 0) - (a.data.priority || 0));
+
+// Money-page internal-link priority: the primary service (water damage
+// restoration when the site offers it, else the highest-priority location)
+// gets the featured CTA with fully descriptive anchor text so the city×service
+// money pages — not this hub — accumulate internal relevance for service queries.
+const primaryLoc =
+  locations.find((l) => l.data.service_slug === "water-damage-restoration") ?? locations[0];
+const otherLocs = locations.filter((l) => l !== primaryLoc);
+---
+
+<BaseLayout
+  title={data.title}
+  meta_description={data.meta_description}
+  hero_image_url={heroImage}
+  schema_stubs={["local-business", "service", "breadcrumb-list"]}
+  schema_ctx={{
+    archetype: "service-area",
+    city: data.city,
+    state: data.state,
+  }}
+  breadcrumb={data.breadcrumb}
+>
+  <!-- HERO -->
+  <section class="relative min-h-[500px] flex items-center overflow-hidden bg-white border-b border-dark/10">
+    <div class="absolute inset-0 z-0">
+      <img src={heroImage} alt={data.h1} class="w-full h-full object-cover" loading="eager" />
+      <div class="absolute inset-0 bg-gradient-to-r from-white/95 via-white/80 to-white/25"></div>
+    </div>
+    <div class="container-wide relative z-10 py-20">
+      <div class="max-w-2xl">
+        <div class="eyebrow">Service Area</div>
+        <h1 class="mb-6">{data.h1}</h1>
+        <p class="text-lg text-dark/85 mb-8 leading-relaxed">{data.meta_description}</p>
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a href={`tel:${brand.phoneRaw}`} class="btn-accent">📞 Call {brand.phone}</a>
+          <a href="/contact/" class="btn-outline">Get a Free Estimate</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BODY -->
+  <section class="section-first bg-white">
+    <div class="container-wide">
+      <div class="prose-body">
+        <Content />
+      </div>
+    </div>
+  </section>
+
+  <GoogleMap city={data.city} state={data.state} />
+
+  <!-- Services in this area -->
+  {locations.length > 0 && (
+    <section class="section bg-dark-50">
+      <div class="container-wide">
+        <div class="text-center mb-12">
+          <div class="eyebrow">{data.city}, {data.state}</div>
+          <h2>Services We Provide in {data.city}</h2>
+        </div>
+        {primaryLoc && (
+          <a
+            href={`/service-areas/${primaryLoc.data.area_slug}/${primaryLoc.data.service_slug}/`}
+            class="group block max-w-3xl mx-auto mb-10 p-8 rounded-lg border-2 border-primary/50 bg-white shadow-md hover:border-primary transition-all no-underline text-center"
+          >
+            <div class="eyebrow">Most Requested</div>
+            <div class="text-2xl md:text-3xl font-black text-dark-900 mb-3">
+              {primaryLoc.data.service_display} in {primaryLoc.data.city}, {primaryLoc.data.state}
+            </div>
+            <p class="text-sm text-dark/65 mb-6">{primaryLoc.data.meta_description.slice(0, 140)}…</p>
+            <span class="btn-accent">
+              {primaryLoc.data.service_display} in {primaryLoc.data.city}, {primaryLoc.data.state} →
+            </span>
+          </a>
+        )}
+        <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {otherLocs.map((l) => (
+            <a href={`/service-areas/${l.data.area_slug}/${l.data.service_slug}/`} class="group block p-6 rounded-lg border border-dark/10 bg-dark/5 hover:bg-dark/10 hover:border-primary/40 transition-all no-underline">
+              <div class="text-lg font-bold text-dark-900 mb-2">{l.data.service_display}</div>
+              <p class="text-sm text-dark/65 mb-4">{l.data.meta_description.slice(0, 100)}…</p>
+              <span class="text-xs font-black uppercase tracking-widest text-primary-700 group-hover:text-dark-900 transition-colors">
+                {l.data.service_display} in {l.data.city}, {l.data.state} →
+              </span>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <FAQSection faq={data.faq} eyebrow={`${data.city}, ${data.state}`} />
+
+  <CtaBanner
+    heading={is247 ? `Restoration emergency in ${data.city}?` : `Planning a project in ${data.city}?`}
+    subheading={is247
+      ? `Our team is based nearby. Call now for fast response.`
+      : `Our ${brand.primaryCity} team serves ${data.city}. Call for a free estimate.`}
+  />
+
+  <InternalLinks paths={data.internal_links} heading="More Service Areas" eyebrow="Nearby Coverage" />
+</BaseLayout>

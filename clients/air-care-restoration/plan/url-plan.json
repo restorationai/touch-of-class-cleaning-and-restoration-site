@@ -1,0 +1,5790 @@
+{
+  "template": "restoration",
+  "template_version": "0.3.0",
+  "generated_at": "2026-08-11T01:39:56.108631+00:00",
+  "input_summary": {
+    "service_count": 12,
+    "service_area_count": 8,
+    "cross_product": true,
+    "blog_seed_count": 8
+  },
+  "pages": [
+    {
+      "url_path": "/",
+      "archetype": "home",
+      "vars_keys": [],
+      "title": "Air Care Restoration | Restoration Services in Abilene, TX",
+      "h1": "24/7 Restoration Services in Abilene",
+      "meta_description": "Air Care Restoration provides 24/7 water, fire, mold, and storm damage restoration across Abilene and surrounding areas. Licensed, insured, IICRC-certified. Call (325) 339-8723.",
+      "primary_keyword": "restoration services abilene",
+      "secondary_keywords": [
+        "restoration company near me",
+        "24/7 damage restoration",
+        "emergency restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 1200,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2",
+        "inline-3"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "aggregate-rating"
+      ],
+      "priority": 5.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/service-areas/",
+        "/contact/",
+        "/about/",
+        "/services/fire-damage-restoration/",
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/services/sewage-cleanup/",
+        "/services/storm-damage-restoration/",
+        "/services/biohazard-cleanup/",
+        "/services/general-contracting/",
+        "/services/emergency-board-up-tarping/",
+        "/services/asbestos-abatement/",
+        "/services/air-duct-cleaning/",
+        "/services/contents-restoration/",
+        "/services/post-construction-cleaning/",
+        "/service-areas/abilene-tx/",
+        "/service-areas/anson-tx/",
+        "/service-areas/buffalo-gap-tx/",
+        "/service-areas/clyde-tx/",
+        "/service-areas/merkel-tx/",
+        "/service-areas/sweetwater-tx/",
+        "/service-areas/tuscola-tx/",
+        "/service-areas/tye-tx/"
+      ]
+    },
+    {
+      "url_path": "/services/",
+      "archetype": "services-hub",
+      "vars_keys": [],
+      "title": "Restoration Services in Abilene | Air Care Restoration",
+      "h1": "Our Restoration Services",
+      "meta_description": "Full-service restoration in Abilene: water, fire, mold, storm, biohazard, and commercial restoration. 24/7 response. Call (325) 339-8723.",
+      "primary_keyword": "restoration services abilene",
+      "secondary_keywords": [
+        "damage restoration services",
+        "property restoration services",
+        "disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 800,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "breadcrumb-list"
+      ],
+      "priority": 4.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/services/fire-damage-restoration/",
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/services/sewage-cleanup/",
+        "/services/storm-damage-restoration/",
+        "/services/biohazard-cleanup/",
+        "/services/general-contracting/",
+        "/services/emergency-board-up-tarping/",
+        "/services/asbestos-abatement/",
+        "/services/air-duct-cleaning/",
+        "/services/contents-restoration/",
+        "/services/post-construction-cleaning/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/",
+      "archetype": "service-areas-hub",
+      "vars_keys": [],
+      "title": "Service Areas | Air Care Restoration Restoration",
+      "h1": "Areas We Serve",
+      "meta_description": "Air Care Restoration provides 24/7 restoration services across Abilene and the surrounding region. Find your city.",
+      "primary_keyword": "air care restoration service areas",
+      "secondary_keywords": [
+        "restoration service area",
+        "cities we serve",
+        "local restoration coverage"
+      ],
+      "search_intent": "navigational_local",
+      "target_word_count": 500,
+      "image_roles": [
+        "hero",
+        "og"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/service-areas/abilene-tx/",
+        "/service-areas/anson-tx/",
+        "/service-areas/buffalo-gap-tx/",
+        "/service-areas/clyde-tx/",
+        "/service-areas/merkel-tx/",
+        "/service-areas/sweetwater-tx/",
+        "/service-areas/tuscola-tx/",
+        "/service-areas/tye-tx/"
+      ]
+    },
+    {
+      "url_path": "/blog/",
+      "archetype": "blog-index",
+      "vars_keys": [],
+      "title": "Restoration Blog | Air Care Restoration",
+      "h1": "Restoration Resources and Insights",
+      "meta_description": "Guides, checklists, and explainers from Air Care Restoration on water, fire, mold, and storm damage restoration.",
+      "primary_keyword": "restoration blog abilene",
+      "secondary_keywords": [
+        "restoration guides",
+        "damage restoration tips",
+        "restoration insights"
+      ],
+      "search_intent": "informational_browse",
+      "target_word_count": 300,
+      "image_roles": [
+        "hero",
+        "og"
+      ],
+      "schema_stubs": [
+        "website",
+        "breadcrumb-list"
+      ],
+      "priority": 3.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/blog/fire-damage-restoration-process/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/signs-of-hidden-mold/",
+        "/blog/black-mold-vs-regular-mold/"
+      ]
+    },
+    {
+      "url_path": "/about/",
+      "archetype": "about",
+      "vars_keys": [],
+      "title": "About Air Care Restoration | Abilene Restoration Company",
+      "h1": "About Air Care Restoration",
+      "meta_description": "Air Care Restoration has served Abilene since 2026. Meet our IICRC-certified restoration team. Licensed, insured, locally owned.",
+      "primary_keyword": "air care restoration abilene",
+      "secondary_keywords": [
+        "local restoration company",
+        "iicrc certified restoration",
+        "licensed restoration contractor"
+      ],
+      "search_intent": "navigational_trust",
+      "target_word_count": 700,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "aggregate-rating",
+        "breadcrumb-list"
+      ],
+      "priority": 2.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/contact/",
+      "archetype": "contact",
+      "vars_keys": [],
+      "title": "Contact Air Care Restoration | 24/7 Restoration in Abilene",
+      "h1": "Contact Air Care Restoration",
+      "meta_description": "Call (325) 339-8723 for 24/7 emergency restoration in Abilene and surrounding areas. Free estimates. Direct insurance billing.",
+      "primary_keyword": "air care restoration contact",
+      "secondary_keywords": [
+        "restoration company contact",
+        "24/7 restoration phone",
+        "emergency restoration near me"
+      ],
+      "search_intent": "navigational_action",
+      "target_word_count": 400,
+      "image_roles": [
+        "hero",
+        "og"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "breadcrumb-list"
+      ],
+      "priority": 2.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/services/",
+        "/service-areas/"
+      ]
+    },
+    {
+      "url_path": "/services/water-damage-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Water Damage Restoration in Abilene | Air Care Restoration",
+      "h1": "Water Damage Restoration in Abilene",
+      "meta_description": "24/7 water damage restoration in Abilene and surrounding areas. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "water damage restoration abilene",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 9.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/abilene-tx/water-damage-restoration/",
+        "/service-areas/anson-tx/water-damage-restoration/",
+        "/service-areas/buffalo-gap-tx/water-damage-restoration/",
+        "/service-areas/clyde-tx/water-damage-restoration/",
+        "/service-areas/merkel-tx/water-damage-restoration/",
+        "/service-areas/sweetwater-tx/water-damage-restoration/",
+        "/service-areas/tuscola-tx/water-damage-restoration/",
+        "/service-areas/tye-tx/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/services/storm-damage-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Abilene | Air Care Restoration",
+      "h1": "Storm Damage Restoration in Abilene",
+      "meta_description": "24/7 storm damage restoration in Abilene and surrounding areas. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "storm damage restoration abilene",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/abilene-tx/storm-damage-restoration/",
+        "/service-areas/anson-tx/storm-damage-restoration/",
+        "/service-areas/buffalo-gap-tx/storm-damage-restoration/",
+        "/service-areas/clyde-tx/storm-damage-restoration/",
+        "/service-areas/merkel-tx/storm-damage-restoration/",
+        "/service-areas/sweetwater-tx/storm-damage-restoration/",
+        "/service-areas/tuscola-tx/storm-damage-restoration/",
+        "/service-areas/tye-tx/storm-damage-restoration/"
+      ]
+    },
+    {
+      "url_path": "/services/air-duct-cleaning/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Air Duct Cleaning in Abilene | Air Care Restoration",
+      "h1": "Air Duct Cleaning in Abilene",
+      "meta_description": "24/7 air duct cleaning in Abilene and surrounding areas. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "air duct cleaning abilene",
+      "secondary_keywords": [
+        "duct cleaning",
+        "HVAC duct cleaning",
+        "air duct sanitization",
+        "dryer vent cleaning",
+        "residential duct cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/abilene-tx/air-duct-cleaning/",
+        "/service-areas/anson-tx/air-duct-cleaning/",
+        "/service-areas/buffalo-gap-tx/air-duct-cleaning/",
+        "/service-areas/clyde-tx/air-duct-cleaning/",
+        "/service-areas/merkel-tx/air-duct-cleaning/",
+        "/service-areas/sweetwater-tx/air-duct-cleaning/",
+        "/service-areas/tuscola-tx/air-duct-cleaning/",
+        "/service-areas/tye-tx/air-duct-cleaning/"
+      ]
+    },
+    {
+      "url_path": "/services/fire-damage-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Abilene | Air Care Restoration",
+      "h1": "Fire Damage Restoration in Abilene",
+      "meta_description": "24/7 fire damage restoration in Abilene and surrounding areas. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "fire damage restoration abilene",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 9.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/abilene-tx/fire-damage-restoration/",
+        "/service-areas/anson-tx/fire-damage-restoration/",
+        "/service-areas/buffalo-gap-tx/fire-damage-restoration/",
+        "/service-areas/clyde-tx/fire-damage-restoration/",
+        "/service-areas/merkel-tx/fire-damage-restoration/",
+        "/service-areas/sweetwater-tx/fire-damage-restoration/",
+        "/service-areas/tuscola-tx/fire-damage-restoration/",
+        "/service-areas/tye-tx/fire-damage-restoration/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/fire-damage-restoration-process/"
+      ]
+    },
+    {
+      "url_path": "/services/general-contracting/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Abilene | Air Care Restoration",
+      "h1": "Renovations, Remodels and General Contracting in Abilene",
+      "meta_description": "24/7 renovations, remodels and general contracting in Abilene and surrounding areas. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "renovations, remodels and general contracting abilene",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/abilene-tx/general-contracting/",
+        "/service-areas/anson-tx/general-contracting/",
+        "/service-areas/buffalo-gap-tx/general-contracting/",
+        "/service-areas/clyde-tx/general-contracting/",
+        "/service-areas/merkel-tx/general-contracting/",
+        "/service-areas/sweetwater-tx/general-contracting/",
+        "/service-areas/tuscola-tx/general-contracting/",
+        "/service-areas/tye-tx/general-contracting/"
+      ]
+    },
+    {
+      "url_path": "/services/sewage-cleanup/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Abilene | Air Care Restoration",
+      "h1": "Sewage Cleanup and Sanitization in Abilene",
+      "meta_description": "24/7 sewage cleanup and sanitization in Abilene and surrounding areas. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "sewage cleanup and sanitization abilene",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/abilene-tx/sewage-cleanup/",
+        "/service-areas/anson-tx/sewage-cleanup/",
+        "/service-areas/buffalo-gap-tx/sewage-cleanup/",
+        "/service-areas/clyde-tx/sewage-cleanup/",
+        "/service-areas/merkel-tx/sewage-cleanup/",
+        "/service-areas/sweetwater-tx/sewage-cleanup/",
+        "/service-areas/tuscola-tx/sewage-cleanup/",
+        "/service-areas/tye-tx/sewage-cleanup/"
+      ]
+    },
+    {
+      "url_path": "/services/biohazard-cleanup/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Abilene | Air Care Restoration",
+      "h1": "Biohazard Cleanup in Abilene",
+      "meta_description": "24/7 biohazard cleanup in Abilene and surrounding areas. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "biohazard cleanup abilene",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/abilene-tx/biohazard-cleanup/",
+        "/service-areas/anson-tx/biohazard-cleanup/",
+        "/service-areas/buffalo-gap-tx/biohazard-cleanup/",
+        "/service-areas/clyde-tx/biohazard-cleanup/",
+        "/service-areas/merkel-tx/biohazard-cleanup/",
+        "/service-areas/sweetwater-tx/biohazard-cleanup/",
+        "/service-areas/tuscola-tx/biohazard-cleanup/",
+        "/service-areas/tye-tx/biohazard-cleanup/"
+      ]
+    },
+    {
+      "url_path": "/services/contents-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Abilene | Air Care Restoration",
+      "h1": "Contents Restoration and Storage in Abilene",
+      "meta_description": "24/7 contents restoration and storage in Abilene and surrounding areas. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "contents restoration and storage abilene",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/abilene-tx/contents-restoration/",
+        "/service-areas/anson-tx/contents-restoration/",
+        "/service-areas/buffalo-gap-tx/contents-restoration/",
+        "/service-areas/clyde-tx/contents-restoration/",
+        "/service-areas/merkel-tx/contents-restoration/",
+        "/service-areas/sweetwater-tx/contents-restoration/",
+        "/service-areas/tuscola-tx/contents-restoration/",
+        "/service-areas/tye-tx/contents-restoration/"
+      ]
+    },
+    {
+      "url_path": "/services/post-construction-cleaning/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Post-Construction and Specialty Cleaning in Abilene | Air Care Restoration",
+      "h1": "Post-Construction and Specialty Cleaning in Abilene",
+      "meta_description": "24/7 post-construction and specialty cleaning in Abilene and surrounding areas. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "post-construction and specialty cleaning abilene",
+      "secondary_keywords": [
+        "post construction cleanup",
+        "construction debris cleaning",
+        "final clean",
+        "deep cleaning after renovation"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/abilene-tx/post-construction-cleaning/",
+        "/service-areas/anson-tx/post-construction-cleaning/",
+        "/service-areas/buffalo-gap-tx/post-construction-cleaning/",
+        "/service-areas/clyde-tx/post-construction-cleaning/",
+        "/service-areas/merkel-tx/post-construction-cleaning/",
+        "/service-areas/sweetwater-tx/post-construction-cleaning/",
+        "/service-areas/tuscola-tx/post-construction-cleaning/",
+        "/service-areas/tye-tx/post-construction-cleaning/"
+      ]
+    },
+    {
+      "url_path": "/services/emergency-board-up-tarping/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Emergency Board-Up and Tarping in Abilene | Air Care Restoration",
+      "h1": "Emergency Board-Up and Tarping in Abilene",
+      "meta_description": "24/7 emergency board-up and tarping in Abilene and surrounding areas. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "emergency board-up and tarping abilene",
+      "secondary_keywords": [
+        "emergency board up",
+        "roof tarping",
+        "emergency tarping service",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/abilene-tx/emergency-board-up-tarping/",
+        "/service-areas/anson-tx/emergency-board-up-tarping/",
+        "/service-areas/buffalo-gap-tx/emergency-board-up-tarping/",
+        "/service-areas/clyde-tx/emergency-board-up-tarping/",
+        "/service-areas/merkel-tx/emergency-board-up-tarping/",
+        "/service-areas/sweetwater-tx/emergency-board-up-tarping/",
+        "/service-areas/tuscola-tx/emergency-board-up-tarping/",
+        "/service-areas/tye-tx/emergency-board-up-tarping/"
+      ]
+    },
+    {
+      "url_path": "/services/asbestos-abatement/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Asbestos Abatement in Abilene | Air Care Restoration",
+      "h1": "Asbestos Abatement in Abilene",
+      "meta_description": "24/7 asbestos abatement in Abilene and surrounding areas. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "asbestos abatement abilene",
+      "secondary_keywords": [
+        "asbestos removal",
+        "asbestos testing",
+        "asbestos remediation",
+        "popcorn ceiling asbestos removal",
+        "asbestos inspection"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/abilene-tx/asbestos-abatement/",
+        "/service-areas/anson-tx/asbestos-abatement/",
+        "/service-areas/buffalo-gap-tx/asbestos-abatement/",
+        "/service-areas/clyde-tx/asbestos-abatement/",
+        "/service-areas/merkel-tx/asbestos-abatement/",
+        "/service-areas/sweetwater-tx/asbestos-abatement/",
+        "/service-areas/tuscola-tx/asbestos-abatement/",
+        "/service-areas/tye-tx/asbestos-abatement/"
+      ]
+    },
+    {
+      "url_path": "/services/mold-remediation/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Mold Remediation in Abilene | Air Care Restoration",
+      "h1": "Mold Remediation in Abilene",
+      "meta_description": "24/7 mold remediation in Abilene and surrounding areas. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "mold remediation abilene",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 9.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/abilene-tx/mold-remediation/",
+        "/service-areas/anson-tx/mold-remediation/",
+        "/service-areas/buffalo-gap-tx/mold-remediation/",
+        "/service-areas/clyde-tx/mold-remediation/",
+        "/service-areas/merkel-tx/mold-remediation/",
+        "/service-areas/sweetwater-tx/mold-remediation/",
+        "/service-areas/tuscola-tx/mold-remediation/",
+        "/service-areas/tye-tx/mold-remediation/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/signs-of-hidden-mold/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/abilene-tx/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Abilene, TX | Air Care Restoration",
+      "h1": "Restoration Services in Abilene",
+      "meta_description": "Serving Abilene, TX with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (325) 339-8723.",
+      "primary_keyword": "restoration services abilene",
+      "secondary_keywords": [
+        "abilene restoration company",
+        "damage restoration abilene",
+        "abilene disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 7.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/abilene-tx/fire-damage-restoration/",
+        "/service-areas/abilene-tx/mold-remediation/",
+        "/service-areas/abilene-tx/water-damage-restoration/",
+        "/service-areas/abilene-tx/sewage-cleanup/",
+        "/service-areas/abilene-tx/storm-damage-restoration/",
+        "/service-areas/abilene-tx/biohazard-cleanup/",
+        "/service-areas/abilene-tx/general-contracting/",
+        "/service-areas/abilene-tx/emergency-board-up-tarping/",
+        "/service-areas/abilene-tx/asbestos-abatement/",
+        "/service-areas/abilene-tx/air-duct-cleaning/",
+        "/service-areas/abilene-tx/contents-restoration/",
+        "/service-areas/abilene-tx/post-construction-cleaning/",
+        "/service-areas/anson-tx/",
+        "/service-areas/buffalo-gap-tx/",
+        "/service-areas/clyde-tx/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sweetwater-tx/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Sweetwater, TX | Air Care Restoration",
+      "h1": "Restoration Services in Sweetwater",
+      "meta_description": "Serving Sweetwater, TX with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (325) 339-8723.",
+      "primary_keyword": "restoration services sweetwater",
+      "secondary_keywords": [
+        "sweetwater restoration company",
+        "damage restoration sweetwater",
+        "sweetwater disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/sweetwater-tx/fire-damage-restoration/",
+        "/service-areas/sweetwater-tx/mold-remediation/",
+        "/service-areas/sweetwater-tx/water-damage-restoration/",
+        "/service-areas/sweetwater-tx/sewage-cleanup/",
+        "/service-areas/sweetwater-tx/storm-damage-restoration/",
+        "/service-areas/sweetwater-tx/biohazard-cleanup/",
+        "/service-areas/sweetwater-tx/general-contracting/",
+        "/service-areas/sweetwater-tx/emergency-board-up-tarping/",
+        "/service-areas/sweetwater-tx/asbestos-abatement/",
+        "/service-areas/sweetwater-tx/air-duct-cleaning/",
+        "/service-areas/sweetwater-tx/contents-restoration/",
+        "/service-areas/sweetwater-tx/post-construction-cleaning/",
+        "/service-areas/abilene-tx/",
+        "/service-areas/anson-tx/",
+        "/service-areas/buffalo-gap-tx/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/clyde-tx/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Clyde, TX | Air Care Restoration",
+      "h1": "Restoration Services in Clyde",
+      "meta_description": "Serving Clyde, TX with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (325) 339-8723.",
+      "primary_keyword": "restoration services clyde",
+      "secondary_keywords": [
+        "clyde restoration company",
+        "damage restoration clyde",
+        "clyde disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/clyde-tx/fire-damage-restoration/",
+        "/service-areas/clyde-tx/mold-remediation/",
+        "/service-areas/clyde-tx/water-damage-restoration/",
+        "/service-areas/clyde-tx/sewage-cleanup/",
+        "/service-areas/clyde-tx/storm-damage-restoration/",
+        "/service-areas/clyde-tx/biohazard-cleanup/",
+        "/service-areas/clyde-tx/general-contracting/",
+        "/service-areas/clyde-tx/emergency-board-up-tarping/",
+        "/service-areas/clyde-tx/asbestos-abatement/",
+        "/service-areas/clyde-tx/air-duct-cleaning/",
+        "/service-areas/clyde-tx/contents-restoration/",
+        "/service-areas/clyde-tx/post-construction-cleaning/",
+        "/service-areas/abilene-tx/",
+        "/service-areas/anson-tx/",
+        "/service-areas/buffalo-gap-tx/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/merkel-tx/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Merkel, TX | Air Care Restoration",
+      "h1": "Restoration Services in Merkel",
+      "meta_description": "Serving Merkel, TX with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (325) 339-8723.",
+      "primary_keyword": "restoration services merkel",
+      "secondary_keywords": [
+        "merkel restoration company",
+        "damage restoration merkel",
+        "merkel disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/merkel-tx/fire-damage-restoration/",
+        "/service-areas/merkel-tx/mold-remediation/",
+        "/service-areas/merkel-tx/water-damage-restoration/",
+        "/service-areas/merkel-tx/sewage-cleanup/",
+        "/service-areas/merkel-tx/storm-damage-restoration/",
+        "/service-areas/merkel-tx/biohazard-cleanup/",
+        "/service-areas/merkel-tx/general-contracting/",
+        "/service-areas/merkel-tx/emergency-board-up-tarping/",
+        "/service-areas/merkel-tx/asbestos-abatement/",
+        "/service-areas/merkel-tx/air-duct-cleaning/",
+        "/service-areas/merkel-tx/contents-restoration/",
+        "/service-areas/merkel-tx/post-construction-cleaning/",
+        "/service-areas/abilene-tx/",
+        "/service-areas/anson-tx/",
+        "/service-areas/buffalo-gap-tx/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/anson-tx/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Anson, TX | Air Care Restoration",
+      "h1": "Restoration Services in Anson",
+      "meta_description": "Serving Anson, TX with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (325) 339-8723.",
+      "primary_keyword": "restoration services anson",
+      "secondary_keywords": [
+        "anson restoration company",
+        "damage restoration anson",
+        "anson disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/anson-tx/fire-damage-restoration/",
+        "/service-areas/anson-tx/mold-remediation/",
+        "/service-areas/anson-tx/water-damage-restoration/",
+        "/service-areas/anson-tx/sewage-cleanup/",
+        "/service-areas/anson-tx/storm-damage-restoration/",
+        "/service-areas/anson-tx/biohazard-cleanup/",
+        "/service-areas/anson-tx/general-contracting/",
+        "/service-areas/anson-tx/emergency-board-up-tarping/",
+        "/service-areas/anson-tx/asbestos-abatement/",
+        "/service-areas/anson-tx/air-duct-cleaning/",
+        "/service-areas/anson-tx/contents-restoration/",
+        "/service-areas/anson-tx/post-construction-cleaning/",
+        "/service-areas/abilene-tx/",
+        "/service-areas/buffalo-gap-tx/",
+        "/service-areas/clyde-tx/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tuscola-tx/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Tuscola, TX | Air Care Restoration",
+      "h1": "Restoration Services in Tuscola",
+      "meta_description": "Serving Tuscola, TX with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (325) 339-8723.",
+      "primary_keyword": "restoration services tuscola",
+      "secondary_keywords": [
+        "tuscola restoration company",
+        "damage restoration tuscola",
+        "tuscola disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/tuscola-tx/fire-damage-restoration/",
+        "/service-areas/tuscola-tx/mold-remediation/",
+        "/service-areas/tuscola-tx/water-damage-restoration/",
+        "/service-areas/tuscola-tx/sewage-cleanup/",
+        "/service-areas/tuscola-tx/storm-damage-restoration/",
+        "/service-areas/tuscola-tx/biohazard-cleanup/",
+        "/service-areas/tuscola-tx/general-contracting/",
+        "/service-areas/tuscola-tx/emergency-board-up-tarping/",
+        "/service-areas/tuscola-tx/asbestos-abatement/",
+        "/service-areas/tuscola-tx/air-duct-cleaning/",
+        "/service-areas/tuscola-tx/contents-restoration/",
+        "/service-areas/tuscola-tx/post-construction-cleaning/",
+        "/service-areas/abilene-tx/",
+        "/service-areas/anson-tx/",
+        "/service-areas/buffalo-gap-tx/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tye-tx/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Tye, TX | Air Care Restoration",
+      "h1": "Restoration Services in Tye",
+      "meta_description": "Serving Tye, TX with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (325) 339-8723.",
+      "primary_keyword": "restoration services tye",
+      "secondary_keywords": [
+        "tye restoration company",
+        "damage restoration tye",
+        "tye disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/tye-tx/fire-damage-restoration/",
+        "/service-areas/tye-tx/mold-remediation/",
+        "/service-areas/tye-tx/water-damage-restoration/",
+        "/service-areas/tye-tx/sewage-cleanup/",
+        "/service-areas/tye-tx/storm-damage-restoration/",
+        "/service-areas/tye-tx/biohazard-cleanup/",
+        "/service-areas/tye-tx/general-contracting/",
+        "/service-areas/tye-tx/emergency-board-up-tarping/",
+        "/service-areas/tye-tx/asbestos-abatement/",
+        "/service-areas/tye-tx/air-duct-cleaning/",
+        "/service-areas/tye-tx/contents-restoration/",
+        "/service-areas/tye-tx/post-construction-cleaning/",
+        "/service-areas/abilene-tx/",
+        "/service-areas/anson-tx/",
+        "/service-areas/buffalo-gap-tx/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/buffalo-gap-tx/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Buffalo Gap, TX | Air Care Restoration",
+      "h1": "Restoration Services in Buffalo Gap",
+      "meta_description": "Serving Buffalo Gap, TX with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (325) 339-8723.",
+      "primary_keyword": "restoration services buffalo gap",
+      "secondary_keywords": [
+        "buffalo gap restoration company",
+        "damage restoration buffalo gap",
+        "buffalo gap disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/buffalo-gap-tx/fire-damage-restoration/",
+        "/service-areas/buffalo-gap-tx/mold-remediation/",
+        "/service-areas/buffalo-gap-tx/water-damage-restoration/",
+        "/service-areas/buffalo-gap-tx/sewage-cleanup/",
+        "/service-areas/buffalo-gap-tx/storm-damage-restoration/",
+        "/service-areas/buffalo-gap-tx/biohazard-cleanup/",
+        "/service-areas/buffalo-gap-tx/general-contracting/",
+        "/service-areas/buffalo-gap-tx/emergency-board-up-tarping/",
+        "/service-areas/buffalo-gap-tx/asbestos-abatement/",
+        "/service-areas/buffalo-gap-tx/air-duct-cleaning/",
+        "/service-areas/buffalo-gap-tx/contents-restoration/",
+        "/service-areas/buffalo-gap-tx/post-construction-cleaning/",
+        "/service-areas/abilene-tx/",
+        "/service-areas/anson-tx/",
+        "/service-areas/clyde-tx/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/abilene-tx/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Abilene, TX | Air Care Restoration",
+      "h1": "Water Damage Restoration in Abilene",
+      "meta_description": "24/7 water damage restoration in Abilene, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "water damage restoration abilene",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/abilene-tx/",
+        "/service-areas/abilene-tx/fire-damage-restoration/",
+        "/service-areas/abilene-tx/mold-remediation/",
+        "/service-areas/anson-tx/water-damage-restoration/",
+        "/service-areas/buffalo-gap-tx/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/abilene-tx/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Abilene, TX | Air Care Restoration",
+      "h1": "Storm Damage Restoration in Abilene",
+      "meta_description": "24/7 storm damage restoration in Abilene, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "storm damage restoration abilene",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/abilene-tx/",
+        "/service-areas/abilene-tx/fire-damage-restoration/",
+        "/service-areas/abilene-tx/mold-remediation/",
+        "/service-areas/anson-tx/storm-damage-restoration/",
+        "/service-areas/buffalo-gap-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/abilene-tx/air-duct-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Duct Cleaning in Abilene, TX | Air Care Restoration",
+      "h1": "Air Duct Cleaning in Abilene",
+      "meta_description": "24/7 air duct cleaning in Abilene, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "air duct cleaning abilene",
+      "secondary_keywords": [
+        "duct cleaning",
+        "HVAC duct cleaning",
+        "air duct sanitization",
+        "dryer vent cleaning",
+        "residential duct cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/air-duct-cleaning/",
+        "/service-areas/abilene-tx/",
+        "/service-areas/abilene-tx/fire-damage-restoration/",
+        "/service-areas/abilene-tx/mold-remediation/",
+        "/service-areas/anson-tx/air-duct-cleaning/",
+        "/service-areas/buffalo-gap-tx/air-duct-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/abilene-tx/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Abilene, TX | Air Care Restoration",
+      "h1": "Fire Damage Restoration in Abilene",
+      "meta_description": "24/7 fire damage restoration in Abilene, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "fire damage restoration abilene",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/abilene-tx/",
+        "/service-areas/abilene-tx/mold-remediation/",
+        "/service-areas/abilene-tx/water-damage-restoration/",
+        "/service-areas/anson-tx/fire-damage-restoration/",
+        "/service-areas/buffalo-gap-tx/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/abilene-tx/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Abilene, TX | Air Care Restoration",
+      "h1": "Renovations, Remodels and General Contracting in Abilene",
+      "meta_description": "24/7 renovations, remodels and general contracting in Abilene, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "renovations, remodels and general contracting abilene",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/abilene-tx/",
+        "/service-areas/abilene-tx/fire-damage-restoration/",
+        "/service-areas/abilene-tx/mold-remediation/",
+        "/service-areas/anson-tx/general-contracting/",
+        "/service-areas/buffalo-gap-tx/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/abilene-tx/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Abilene, TX | Air Care Restoration",
+      "h1": "Sewage Cleanup and Sanitization in Abilene",
+      "meta_description": "24/7 sewage cleanup and sanitization in Abilene, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "sewage cleanup and sanitization abilene",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/abilene-tx/",
+        "/service-areas/abilene-tx/fire-damage-restoration/",
+        "/service-areas/abilene-tx/mold-remediation/",
+        "/service-areas/anson-tx/sewage-cleanup/",
+        "/service-areas/buffalo-gap-tx/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/abilene-tx/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Abilene, TX | Air Care Restoration",
+      "h1": "Biohazard Cleanup in Abilene",
+      "meta_description": "24/7 biohazard cleanup in Abilene, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "biohazard cleanup abilene",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/abilene-tx/",
+        "/service-areas/abilene-tx/fire-damage-restoration/",
+        "/service-areas/abilene-tx/mold-remediation/",
+        "/service-areas/anson-tx/biohazard-cleanup/",
+        "/service-areas/buffalo-gap-tx/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/abilene-tx/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Abilene, TX | Air Care Restoration",
+      "h1": "Contents Restoration and Storage in Abilene",
+      "meta_description": "24/7 contents restoration and storage in Abilene, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "contents restoration and storage abilene",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/abilene-tx/",
+        "/service-areas/abilene-tx/fire-damage-restoration/",
+        "/service-areas/abilene-tx/mold-remediation/",
+        "/service-areas/anson-tx/contents-restoration/",
+        "/service-areas/buffalo-gap-tx/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/abilene-tx/post-construction-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Post-Construction and Specialty Cleaning in Abilene, TX | Air Care Restoration",
+      "h1": "Post-Construction and Specialty Cleaning in Abilene",
+      "meta_description": "24/7 post-construction and specialty cleaning in Abilene, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "post-construction and specialty cleaning abilene",
+      "secondary_keywords": [
+        "post construction cleanup",
+        "construction debris cleaning",
+        "final clean",
+        "deep cleaning after renovation"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/post-construction-cleaning/",
+        "/service-areas/abilene-tx/",
+        "/service-areas/abilene-tx/fire-damage-restoration/",
+        "/service-areas/abilene-tx/mold-remediation/",
+        "/service-areas/anson-tx/post-construction-cleaning/",
+        "/service-areas/buffalo-gap-tx/post-construction-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/abilene-tx/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Board-Up and Tarping in Abilene, TX | Air Care Restoration",
+      "h1": "Emergency Board-Up and Tarping in Abilene",
+      "meta_description": "24/7 emergency board-up and tarping in Abilene, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "emergency board-up and tarping abilene",
+      "secondary_keywords": [
+        "emergency board up",
+        "roof tarping",
+        "emergency tarping service",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/abilene-tx/",
+        "/service-areas/abilene-tx/fire-damage-restoration/",
+        "/service-areas/abilene-tx/mold-remediation/",
+        "/service-areas/anson-tx/emergency-board-up-tarping/",
+        "/service-areas/buffalo-gap-tx/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/abilene-tx/asbestos-abatement/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Asbestos Abatement in Abilene, TX | Air Care Restoration",
+      "h1": "Asbestos Abatement in Abilene",
+      "meta_description": "24/7 asbestos abatement in Abilene, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "asbestos abatement abilene",
+      "secondary_keywords": [
+        "asbestos removal",
+        "asbestos testing",
+        "asbestos remediation",
+        "popcorn ceiling asbestos removal",
+        "asbestos inspection"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/asbestos-abatement/",
+        "/service-areas/abilene-tx/",
+        "/service-areas/abilene-tx/fire-damage-restoration/",
+        "/service-areas/abilene-tx/mold-remediation/",
+        "/service-areas/anson-tx/asbestos-abatement/",
+        "/service-areas/buffalo-gap-tx/asbestos-abatement/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/abilene-tx/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Abilene, TX | Air Care Restoration",
+      "h1": "Mold Remediation in Abilene",
+      "meta_description": "24/7 mold remediation in Abilene, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "mold remediation abilene",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/abilene-tx/",
+        "/service-areas/abilene-tx/fire-damage-restoration/",
+        "/service-areas/abilene-tx/water-damage-restoration/",
+        "/service-areas/anson-tx/mold-remediation/",
+        "/service-areas/buffalo-gap-tx/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sweetwater-tx/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Sweetwater, TX | Air Care Restoration",
+      "h1": "Water Damage Restoration in Sweetwater",
+      "meta_description": "24/7 water damage restoration in Sweetwater, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "water damage restoration sweetwater",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/sweetwater-tx/",
+        "/service-areas/sweetwater-tx/fire-damage-restoration/",
+        "/service-areas/sweetwater-tx/mold-remediation/",
+        "/service-areas/abilene-tx/water-damage-restoration/",
+        "/service-areas/anson-tx/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sweetwater-tx/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Sweetwater, TX | Air Care Restoration",
+      "h1": "Storm Damage Restoration in Sweetwater",
+      "meta_description": "24/7 storm damage restoration in Sweetwater, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "storm damage restoration sweetwater",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/sweetwater-tx/",
+        "/service-areas/sweetwater-tx/fire-damage-restoration/",
+        "/service-areas/sweetwater-tx/mold-remediation/",
+        "/service-areas/abilene-tx/storm-damage-restoration/",
+        "/service-areas/anson-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sweetwater-tx/air-duct-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Duct Cleaning in Sweetwater, TX | Air Care Restoration",
+      "h1": "Air Duct Cleaning in Sweetwater",
+      "meta_description": "24/7 air duct cleaning in Sweetwater, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "air duct cleaning sweetwater",
+      "secondary_keywords": [
+        "duct cleaning",
+        "HVAC duct cleaning",
+        "air duct sanitization",
+        "dryer vent cleaning",
+        "residential duct cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/air-duct-cleaning/",
+        "/service-areas/sweetwater-tx/",
+        "/service-areas/sweetwater-tx/fire-damage-restoration/",
+        "/service-areas/sweetwater-tx/mold-remediation/",
+        "/service-areas/abilene-tx/air-duct-cleaning/",
+        "/service-areas/anson-tx/air-duct-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sweetwater-tx/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Sweetwater, TX | Air Care Restoration",
+      "h1": "Fire Damage Restoration in Sweetwater",
+      "meta_description": "24/7 fire damage restoration in Sweetwater, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "fire damage restoration sweetwater",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/sweetwater-tx/",
+        "/service-areas/sweetwater-tx/mold-remediation/",
+        "/service-areas/sweetwater-tx/water-damage-restoration/",
+        "/service-areas/abilene-tx/fire-damage-restoration/",
+        "/service-areas/anson-tx/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sweetwater-tx/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Sweetwater, TX | Air Care Restoration",
+      "h1": "Renovations, Remodels and General Contracting in Sweetwater",
+      "meta_description": "24/7 renovations, remodels and general contracting in Sweetwater, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "renovations, remodels and general contracting sweetwater",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/sweetwater-tx/",
+        "/service-areas/sweetwater-tx/fire-damage-restoration/",
+        "/service-areas/sweetwater-tx/mold-remediation/",
+        "/service-areas/abilene-tx/general-contracting/",
+        "/service-areas/anson-tx/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sweetwater-tx/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Sweetwater, TX | Air Care Restoration",
+      "h1": "Sewage Cleanup and Sanitization in Sweetwater",
+      "meta_description": "24/7 sewage cleanup and sanitization in Sweetwater, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "sewage cleanup and sanitization sweetwater",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/sweetwater-tx/",
+        "/service-areas/sweetwater-tx/fire-damage-restoration/",
+        "/service-areas/sweetwater-tx/mold-remediation/",
+        "/service-areas/abilene-tx/sewage-cleanup/",
+        "/service-areas/anson-tx/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sweetwater-tx/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Sweetwater, TX | Air Care Restoration",
+      "h1": "Biohazard Cleanup in Sweetwater",
+      "meta_description": "24/7 biohazard cleanup in Sweetwater, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "biohazard cleanup sweetwater",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/sweetwater-tx/",
+        "/service-areas/sweetwater-tx/fire-damage-restoration/",
+        "/service-areas/sweetwater-tx/mold-remediation/",
+        "/service-areas/abilene-tx/biohazard-cleanup/",
+        "/service-areas/anson-tx/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sweetwater-tx/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Sweetwater, TX | Air Care Restoration",
+      "h1": "Contents Restoration and Storage in Sweetwater",
+      "meta_description": "24/7 contents restoration and storage in Sweetwater, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "contents restoration and storage sweetwater",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/sweetwater-tx/",
+        "/service-areas/sweetwater-tx/fire-damage-restoration/",
+        "/service-areas/sweetwater-tx/mold-remediation/",
+        "/service-areas/abilene-tx/contents-restoration/",
+        "/service-areas/anson-tx/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sweetwater-tx/post-construction-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Post-Construction and Specialty Cleaning in Sweetwater, TX | Air Care Restoration",
+      "h1": "Post-Construction and Specialty Cleaning in Sweetwater",
+      "meta_description": "24/7 post-construction and specialty cleaning in Sweetwater, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "post-construction and specialty cleaning sweetwater",
+      "secondary_keywords": [
+        "post construction cleanup",
+        "construction debris cleaning",
+        "final clean",
+        "deep cleaning after renovation"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/post-construction-cleaning/",
+        "/service-areas/sweetwater-tx/",
+        "/service-areas/sweetwater-tx/fire-damage-restoration/",
+        "/service-areas/sweetwater-tx/mold-remediation/",
+        "/service-areas/abilene-tx/post-construction-cleaning/",
+        "/service-areas/anson-tx/post-construction-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sweetwater-tx/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Board-Up and Tarping in Sweetwater, TX | Air Care Restoration",
+      "h1": "Emergency Board-Up and Tarping in Sweetwater",
+      "meta_description": "24/7 emergency board-up and tarping in Sweetwater, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "emergency board-up and tarping sweetwater",
+      "secondary_keywords": [
+        "emergency board up",
+        "roof tarping",
+        "emergency tarping service",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/sweetwater-tx/",
+        "/service-areas/sweetwater-tx/fire-damage-restoration/",
+        "/service-areas/sweetwater-tx/mold-remediation/",
+        "/service-areas/abilene-tx/emergency-board-up-tarping/",
+        "/service-areas/anson-tx/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sweetwater-tx/asbestos-abatement/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Asbestos Abatement in Sweetwater, TX | Air Care Restoration",
+      "h1": "Asbestos Abatement in Sweetwater",
+      "meta_description": "24/7 asbestos abatement in Sweetwater, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "asbestos abatement sweetwater",
+      "secondary_keywords": [
+        "asbestos removal",
+        "asbestos testing",
+        "asbestos remediation",
+        "popcorn ceiling asbestos removal",
+        "asbestos inspection"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/asbestos-abatement/",
+        "/service-areas/sweetwater-tx/",
+        "/service-areas/sweetwater-tx/fire-damage-restoration/",
+        "/service-areas/sweetwater-tx/mold-remediation/",
+        "/service-areas/abilene-tx/asbestos-abatement/",
+        "/service-areas/anson-tx/asbestos-abatement/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sweetwater-tx/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Sweetwater, TX | Air Care Restoration",
+      "h1": "Mold Remediation in Sweetwater",
+      "meta_description": "24/7 mold remediation in Sweetwater, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "mold remediation sweetwater",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/sweetwater-tx/",
+        "/service-areas/sweetwater-tx/fire-damage-restoration/",
+        "/service-areas/sweetwater-tx/water-damage-restoration/",
+        "/service-areas/abilene-tx/mold-remediation/",
+        "/service-areas/anson-tx/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/clyde-tx/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Clyde, TX | Air Care Restoration",
+      "h1": "Water Damage Restoration in Clyde",
+      "meta_description": "24/7 water damage restoration in Clyde, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "water damage restoration clyde",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/clyde-tx/",
+        "/service-areas/clyde-tx/fire-damage-restoration/",
+        "/service-areas/clyde-tx/mold-remediation/",
+        "/service-areas/abilene-tx/water-damage-restoration/",
+        "/service-areas/anson-tx/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/clyde-tx/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Clyde, TX | Air Care Restoration",
+      "h1": "Storm Damage Restoration in Clyde",
+      "meta_description": "24/7 storm damage restoration in Clyde, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "storm damage restoration clyde",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/clyde-tx/",
+        "/service-areas/clyde-tx/fire-damage-restoration/",
+        "/service-areas/clyde-tx/mold-remediation/",
+        "/service-areas/abilene-tx/storm-damage-restoration/",
+        "/service-areas/anson-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/clyde-tx/air-duct-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Duct Cleaning in Clyde, TX | Air Care Restoration",
+      "h1": "Air Duct Cleaning in Clyde",
+      "meta_description": "24/7 air duct cleaning in Clyde, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "air duct cleaning clyde",
+      "secondary_keywords": [
+        "duct cleaning",
+        "HVAC duct cleaning",
+        "air duct sanitization",
+        "dryer vent cleaning",
+        "residential duct cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/air-duct-cleaning/",
+        "/service-areas/clyde-tx/",
+        "/service-areas/clyde-tx/fire-damage-restoration/",
+        "/service-areas/clyde-tx/mold-remediation/",
+        "/service-areas/abilene-tx/air-duct-cleaning/",
+        "/service-areas/anson-tx/air-duct-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/clyde-tx/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Clyde, TX | Air Care Restoration",
+      "h1": "Fire Damage Restoration in Clyde",
+      "meta_description": "24/7 fire damage restoration in Clyde, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "fire damage restoration clyde",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/clyde-tx/",
+        "/service-areas/clyde-tx/mold-remediation/",
+        "/service-areas/clyde-tx/water-damage-restoration/",
+        "/service-areas/abilene-tx/fire-damage-restoration/",
+        "/service-areas/anson-tx/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/clyde-tx/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Clyde, TX | Air Care Restoration",
+      "h1": "Renovations, Remodels and General Contracting in Clyde",
+      "meta_description": "24/7 renovations, remodels and general contracting in Clyde, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "renovations, remodels and general contracting clyde",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/clyde-tx/",
+        "/service-areas/clyde-tx/fire-damage-restoration/",
+        "/service-areas/clyde-tx/mold-remediation/",
+        "/service-areas/abilene-tx/general-contracting/",
+        "/service-areas/anson-tx/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/clyde-tx/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Clyde, TX | Air Care Restoration",
+      "h1": "Sewage Cleanup and Sanitization in Clyde",
+      "meta_description": "24/7 sewage cleanup and sanitization in Clyde, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "sewage cleanup and sanitization clyde",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/clyde-tx/",
+        "/service-areas/clyde-tx/fire-damage-restoration/",
+        "/service-areas/clyde-tx/mold-remediation/",
+        "/service-areas/abilene-tx/sewage-cleanup/",
+        "/service-areas/anson-tx/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/clyde-tx/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Clyde, TX | Air Care Restoration",
+      "h1": "Biohazard Cleanup in Clyde",
+      "meta_description": "24/7 biohazard cleanup in Clyde, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "biohazard cleanup clyde",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/clyde-tx/",
+        "/service-areas/clyde-tx/fire-damage-restoration/",
+        "/service-areas/clyde-tx/mold-remediation/",
+        "/service-areas/abilene-tx/biohazard-cleanup/",
+        "/service-areas/anson-tx/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/clyde-tx/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Clyde, TX | Air Care Restoration",
+      "h1": "Contents Restoration and Storage in Clyde",
+      "meta_description": "24/7 contents restoration and storage in Clyde, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "contents restoration and storage clyde",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/clyde-tx/",
+        "/service-areas/clyde-tx/fire-damage-restoration/",
+        "/service-areas/clyde-tx/mold-remediation/",
+        "/service-areas/abilene-tx/contents-restoration/",
+        "/service-areas/anson-tx/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/clyde-tx/post-construction-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Post-Construction and Specialty Cleaning in Clyde, TX | Air Care Restoration",
+      "h1": "Post-Construction and Specialty Cleaning in Clyde",
+      "meta_description": "24/7 post-construction and specialty cleaning in Clyde, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "post-construction and specialty cleaning clyde",
+      "secondary_keywords": [
+        "post construction cleanup",
+        "construction debris cleaning",
+        "final clean",
+        "deep cleaning after renovation"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/post-construction-cleaning/",
+        "/service-areas/clyde-tx/",
+        "/service-areas/clyde-tx/fire-damage-restoration/",
+        "/service-areas/clyde-tx/mold-remediation/",
+        "/service-areas/abilene-tx/post-construction-cleaning/",
+        "/service-areas/anson-tx/post-construction-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/clyde-tx/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Board-Up and Tarping in Clyde, TX | Air Care Restoration",
+      "h1": "Emergency Board-Up and Tarping in Clyde",
+      "meta_description": "24/7 emergency board-up and tarping in Clyde, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "emergency board-up and tarping clyde",
+      "secondary_keywords": [
+        "emergency board up",
+        "roof tarping",
+        "emergency tarping service",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/clyde-tx/",
+        "/service-areas/clyde-tx/fire-damage-restoration/",
+        "/service-areas/clyde-tx/mold-remediation/",
+        "/service-areas/abilene-tx/emergency-board-up-tarping/",
+        "/service-areas/anson-tx/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/clyde-tx/asbestos-abatement/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Asbestos Abatement in Clyde, TX | Air Care Restoration",
+      "h1": "Asbestos Abatement in Clyde",
+      "meta_description": "24/7 asbestos abatement in Clyde, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "asbestos abatement clyde",
+      "secondary_keywords": [
+        "asbestos removal",
+        "asbestos testing",
+        "asbestos remediation",
+        "popcorn ceiling asbestos removal",
+        "asbestos inspection"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/asbestos-abatement/",
+        "/service-areas/clyde-tx/",
+        "/service-areas/clyde-tx/fire-damage-restoration/",
+        "/service-areas/clyde-tx/mold-remediation/",
+        "/service-areas/abilene-tx/asbestos-abatement/",
+        "/service-areas/anson-tx/asbestos-abatement/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/clyde-tx/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Clyde, TX | Air Care Restoration",
+      "h1": "Mold Remediation in Clyde",
+      "meta_description": "24/7 mold remediation in Clyde, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "mold remediation clyde",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/clyde-tx/",
+        "/service-areas/clyde-tx/fire-damage-restoration/",
+        "/service-areas/clyde-tx/water-damage-restoration/",
+        "/service-areas/abilene-tx/mold-remediation/",
+        "/service-areas/anson-tx/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/merkel-tx/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Merkel, TX | Air Care Restoration",
+      "h1": "Water Damage Restoration in Merkel",
+      "meta_description": "24/7 water damage restoration in Merkel, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "water damage restoration merkel",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/merkel-tx/",
+        "/service-areas/merkel-tx/fire-damage-restoration/",
+        "/service-areas/merkel-tx/mold-remediation/",
+        "/service-areas/abilene-tx/water-damage-restoration/",
+        "/service-areas/anson-tx/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/merkel-tx/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Merkel, TX | Air Care Restoration",
+      "h1": "Storm Damage Restoration in Merkel",
+      "meta_description": "24/7 storm damage restoration in Merkel, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "storm damage restoration merkel",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/merkel-tx/",
+        "/service-areas/merkel-tx/fire-damage-restoration/",
+        "/service-areas/merkel-tx/mold-remediation/",
+        "/service-areas/abilene-tx/storm-damage-restoration/",
+        "/service-areas/anson-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/merkel-tx/air-duct-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Duct Cleaning in Merkel, TX | Air Care Restoration",
+      "h1": "Air Duct Cleaning in Merkel",
+      "meta_description": "24/7 air duct cleaning in Merkel, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "air duct cleaning merkel",
+      "secondary_keywords": [
+        "duct cleaning",
+        "HVAC duct cleaning",
+        "air duct sanitization",
+        "dryer vent cleaning",
+        "residential duct cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/air-duct-cleaning/",
+        "/service-areas/merkel-tx/",
+        "/service-areas/merkel-tx/fire-damage-restoration/",
+        "/service-areas/merkel-tx/mold-remediation/",
+        "/service-areas/abilene-tx/air-duct-cleaning/",
+        "/service-areas/anson-tx/air-duct-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/merkel-tx/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Merkel, TX | Air Care Restoration",
+      "h1": "Fire Damage Restoration in Merkel",
+      "meta_description": "24/7 fire damage restoration in Merkel, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "fire damage restoration merkel",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/merkel-tx/",
+        "/service-areas/merkel-tx/mold-remediation/",
+        "/service-areas/merkel-tx/water-damage-restoration/",
+        "/service-areas/abilene-tx/fire-damage-restoration/",
+        "/service-areas/anson-tx/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/merkel-tx/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Merkel, TX | Air Care Restoration",
+      "h1": "Renovations, Remodels and General Contracting in Merkel",
+      "meta_description": "24/7 renovations, remodels and general contracting in Merkel, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "renovations, remodels and general contracting merkel",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/merkel-tx/",
+        "/service-areas/merkel-tx/fire-damage-restoration/",
+        "/service-areas/merkel-tx/mold-remediation/",
+        "/service-areas/abilene-tx/general-contracting/",
+        "/service-areas/anson-tx/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/merkel-tx/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Merkel, TX | Air Care Restoration",
+      "h1": "Sewage Cleanup and Sanitization in Merkel",
+      "meta_description": "24/7 sewage cleanup and sanitization in Merkel, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "sewage cleanup and sanitization merkel",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/merkel-tx/",
+        "/service-areas/merkel-tx/fire-damage-restoration/",
+        "/service-areas/merkel-tx/mold-remediation/",
+        "/service-areas/abilene-tx/sewage-cleanup/",
+        "/service-areas/anson-tx/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/merkel-tx/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Merkel, TX | Air Care Restoration",
+      "h1": "Biohazard Cleanup in Merkel",
+      "meta_description": "24/7 biohazard cleanup in Merkel, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "biohazard cleanup merkel",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/merkel-tx/",
+        "/service-areas/merkel-tx/fire-damage-restoration/",
+        "/service-areas/merkel-tx/mold-remediation/",
+        "/service-areas/abilene-tx/biohazard-cleanup/",
+        "/service-areas/anson-tx/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/merkel-tx/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Merkel, TX | Air Care Restoration",
+      "h1": "Contents Restoration and Storage in Merkel",
+      "meta_description": "24/7 contents restoration and storage in Merkel, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "contents restoration and storage merkel",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/merkel-tx/",
+        "/service-areas/merkel-tx/fire-damage-restoration/",
+        "/service-areas/merkel-tx/mold-remediation/",
+        "/service-areas/abilene-tx/contents-restoration/",
+        "/service-areas/anson-tx/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/merkel-tx/post-construction-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Post-Construction and Specialty Cleaning in Merkel, TX | Air Care Restoration",
+      "h1": "Post-Construction and Specialty Cleaning in Merkel",
+      "meta_description": "24/7 post-construction and specialty cleaning in Merkel, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "post-construction and specialty cleaning merkel",
+      "secondary_keywords": [
+        "post construction cleanup",
+        "construction debris cleaning",
+        "final clean",
+        "deep cleaning after renovation"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/post-construction-cleaning/",
+        "/service-areas/merkel-tx/",
+        "/service-areas/merkel-tx/fire-damage-restoration/",
+        "/service-areas/merkel-tx/mold-remediation/",
+        "/service-areas/abilene-tx/post-construction-cleaning/",
+        "/service-areas/anson-tx/post-construction-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/merkel-tx/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Board-Up and Tarping in Merkel, TX | Air Care Restoration",
+      "h1": "Emergency Board-Up and Tarping in Merkel",
+      "meta_description": "24/7 emergency board-up and tarping in Merkel, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "emergency board-up and tarping merkel",
+      "secondary_keywords": [
+        "emergency board up",
+        "roof tarping",
+        "emergency tarping service",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/merkel-tx/",
+        "/service-areas/merkel-tx/fire-damage-restoration/",
+        "/service-areas/merkel-tx/mold-remediation/",
+        "/service-areas/abilene-tx/emergency-board-up-tarping/",
+        "/service-areas/anson-tx/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/merkel-tx/asbestos-abatement/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Asbestos Abatement in Merkel, TX | Air Care Restoration",
+      "h1": "Asbestos Abatement in Merkel",
+      "meta_description": "24/7 asbestos abatement in Merkel, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "asbestos abatement merkel",
+      "secondary_keywords": [
+        "asbestos removal",
+        "asbestos testing",
+        "asbestos remediation",
+        "popcorn ceiling asbestos removal",
+        "asbestos inspection"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/asbestos-abatement/",
+        "/service-areas/merkel-tx/",
+        "/service-areas/merkel-tx/fire-damage-restoration/",
+        "/service-areas/merkel-tx/mold-remediation/",
+        "/service-areas/abilene-tx/asbestos-abatement/",
+        "/service-areas/anson-tx/asbestos-abatement/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/merkel-tx/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Merkel, TX | Air Care Restoration",
+      "h1": "Mold Remediation in Merkel",
+      "meta_description": "24/7 mold remediation in Merkel, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "mold remediation merkel",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/merkel-tx/",
+        "/service-areas/merkel-tx/fire-damage-restoration/",
+        "/service-areas/merkel-tx/water-damage-restoration/",
+        "/service-areas/abilene-tx/mold-remediation/",
+        "/service-areas/anson-tx/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/anson-tx/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Anson, TX | Air Care Restoration",
+      "h1": "Water Damage Restoration in Anson",
+      "meta_description": "24/7 water damage restoration in Anson, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "water damage restoration anson",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/anson-tx/",
+        "/service-areas/anson-tx/fire-damage-restoration/",
+        "/service-areas/anson-tx/mold-remediation/",
+        "/service-areas/abilene-tx/water-damage-restoration/",
+        "/service-areas/buffalo-gap-tx/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/anson-tx/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Anson, TX | Air Care Restoration",
+      "h1": "Storm Damage Restoration in Anson",
+      "meta_description": "24/7 storm damage restoration in Anson, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "storm damage restoration anson",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/anson-tx/",
+        "/service-areas/anson-tx/fire-damage-restoration/",
+        "/service-areas/anson-tx/mold-remediation/",
+        "/service-areas/abilene-tx/storm-damage-restoration/",
+        "/service-areas/buffalo-gap-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/anson-tx/air-duct-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Duct Cleaning in Anson, TX | Air Care Restoration",
+      "h1": "Air Duct Cleaning in Anson",
+      "meta_description": "24/7 air duct cleaning in Anson, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "air duct cleaning anson",
+      "secondary_keywords": [
+        "duct cleaning",
+        "HVAC duct cleaning",
+        "air duct sanitization",
+        "dryer vent cleaning",
+        "residential duct cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/air-duct-cleaning/",
+        "/service-areas/anson-tx/",
+        "/service-areas/anson-tx/fire-damage-restoration/",
+        "/service-areas/anson-tx/mold-remediation/",
+        "/service-areas/abilene-tx/air-duct-cleaning/",
+        "/service-areas/buffalo-gap-tx/air-duct-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/anson-tx/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Anson, TX | Air Care Restoration",
+      "h1": "Fire Damage Restoration in Anson",
+      "meta_description": "24/7 fire damage restoration in Anson, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "fire damage restoration anson",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/anson-tx/",
+        "/service-areas/anson-tx/mold-remediation/",
+        "/service-areas/anson-tx/water-damage-restoration/",
+        "/service-areas/abilene-tx/fire-damage-restoration/",
+        "/service-areas/buffalo-gap-tx/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/anson-tx/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Anson, TX | Air Care Restoration",
+      "h1": "Renovations, Remodels and General Contracting in Anson",
+      "meta_description": "24/7 renovations, remodels and general contracting in Anson, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "renovations, remodels and general contracting anson",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/anson-tx/",
+        "/service-areas/anson-tx/fire-damage-restoration/",
+        "/service-areas/anson-tx/mold-remediation/",
+        "/service-areas/abilene-tx/general-contracting/",
+        "/service-areas/buffalo-gap-tx/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/anson-tx/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Anson, TX | Air Care Restoration",
+      "h1": "Sewage Cleanup and Sanitization in Anson",
+      "meta_description": "24/7 sewage cleanup and sanitization in Anson, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "sewage cleanup and sanitization anson",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/anson-tx/",
+        "/service-areas/anson-tx/fire-damage-restoration/",
+        "/service-areas/anson-tx/mold-remediation/",
+        "/service-areas/abilene-tx/sewage-cleanup/",
+        "/service-areas/buffalo-gap-tx/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/anson-tx/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Anson, TX | Air Care Restoration",
+      "h1": "Biohazard Cleanup in Anson",
+      "meta_description": "24/7 biohazard cleanup in Anson, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "biohazard cleanup anson",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/anson-tx/",
+        "/service-areas/anson-tx/fire-damage-restoration/",
+        "/service-areas/anson-tx/mold-remediation/",
+        "/service-areas/abilene-tx/biohazard-cleanup/",
+        "/service-areas/buffalo-gap-tx/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/anson-tx/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Anson, TX | Air Care Restoration",
+      "h1": "Contents Restoration and Storage in Anson",
+      "meta_description": "24/7 contents restoration and storage in Anson, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "contents restoration and storage anson",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/anson-tx/",
+        "/service-areas/anson-tx/fire-damage-restoration/",
+        "/service-areas/anson-tx/mold-remediation/",
+        "/service-areas/abilene-tx/contents-restoration/",
+        "/service-areas/buffalo-gap-tx/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/anson-tx/post-construction-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Post-Construction and Specialty Cleaning in Anson, TX | Air Care Restoration",
+      "h1": "Post-Construction and Specialty Cleaning in Anson",
+      "meta_description": "24/7 post-construction and specialty cleaning in Anson, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "post-construction and specialty cleaning anson",
+      "secondary_keywords": [
+        "post construction cleanup",
+        "construction debris cleaning",
+        "final clean",
+        "deep cleaning after renovation"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/post-construction-cleaning/",
+        "/service-areas/anson-tx/",
+        "/service-areas/anson-tx/fire-damage-restoration/",
+        "/service-areas/anson-tx/mold-remediation/",
+        "/service-areas/abilene-tx/post-construction-cleaning/",
+        "/service-areas/buffalo-gap-tx/post-construction-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/anson-tx/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Board-Up and Tarping in Anson, TX | Air Care Restoration",
+      "h1": "Emergency Board-Up and Tarping in Anson",
+      "meta_description": "24/7 emergency board-up and tarping in Anson, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "emergency board-up and tarping anson",
+      "secondary_keywords": [
+        "emergency board up",
+        "roof tarping",
+        "emergency tarping service",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/anson-tx/",
+        "/service-areas/anson-tx/fire-damage-restoration/",
+        "/service-areas/anson-tx/mold-remediation/",
+        "/service-areas/abilene-tx/emergency-board-up-tarping/",
+        "/service-areas/buffalo-gap-tx/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/anson-tx/asbestos-abatement/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Asbestos Abatement in Anson, TX | Air Care Restoration",
+      "h1": "Asbestos Abatement in Anson",
+      "meta_description": "24/7 asbestos abatement in Anson, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "asbestos abatement anson",
+      "secondary_keywords": [
+        "asbestos removal",
+        "asbestos testing",
+        "asbestos remediation",
+        "popcorn ceiling asbestos removal",
+        "asbestos inspection"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/asbestos-abatement/",
+        "/service-areas/anson-tx/",
+        "/service-areas/anson-tx/fire-damage-restoration/",
+        "/service-areas/anson-tx/mold-remediation/",
+        "/service-areas/abilene-tx/asbestos-abatement/",
+        "/service-areas/buffalo-gap-tx/asbestos-abatement/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/anson-tx/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Anson, TX | Air Care Restoration",
+      "h1": "Mold Remediation in Anson",
+      "meta_description": "24/7 mold remediation in Anson, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "mold remediation anson",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/anson-tx/",
+        "/service-areas/anson-tx/fire-damage-restoration/",
+        "/service-areas/anson-tx/water-damage-restoration/",
+        "/service-areas/abilene-tx/mold-remediation/",
+        "/service-areas/buffalo-gap-tx/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tuscola-tx/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Tuscola, TX | Air Care Restoration",
+      "h1": "Water Damage Restoration in Tuscola",
+      "meta_description": "24/7 water damage restoration in Tuscola, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "water damage restoration tuscola",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/tuscola-tx/",
+        "/service-areas/tuscola-tx/fire-damage-restoration/",
+        "/service-areas/tuscola-tx/mold-remediation/",
+        "/service-areas/abilene-tx/water-damage-restoration/",
+        "/service-areas/anson-tx/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tuscola-tx/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Tuscola, TX | Air Care Restoration",
+      "h1": "Storm Damage Restoration in Tuscola",
+      "meta_description": "24/7 storm damage restoration in Tuscola, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "storm damage restoration tuscola",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/tuscola-tx/",
+        "/service-areas/tuscola-tx/fire-damage-restoration/",
+        "/service-areas/tuscola-tx/mold-remediation/",
+        "/service-areas/abilene-tx/storm-damage-restoration/",
+        "/service-areas/anson-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tuscola-tx/air-duct-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Duct Cleaning in Tuscola, TX | Air Care Restoration",
+      "h1": "Air Duct Cleaning in Tuscola",
+      "meta_description": "24/7 air duct cleaning in Tuscola, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "air duct cleaning tuscola",
+      "secondary_keywords": [
+        "duct cleaning",
+        "HVAC duct cleaning",
+        "air duct sanitization",
+        "dryer vent cleaning",
+        "residential duct cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/air-duct-cleaning/",
+        "/service-areas/tuscola-tx/",
+        "/service-areas/tuscola-tx/fire-damage-restoration/",
+        "/service-areas/tuscola-tx/mold-remediation/",
+        "/service-areas/abilene-tx/air-duct-cleaning/",
+        "/service-areas/anson-tx/air-duct-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tuscola-tx/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Tuscola, TX | Air Care Restoration",
+      "h1": "Fire Damage Restoration in Tuscola",
+      "meta_description": "24/7 fire damage restoration in Tuscola, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "fire damage restoration tuscola",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/tuscola-tx/",
+        "/service-areas/tuscola-tx/mold-remediation/",
+        "/service-areas/tuscola-tx/water-damage-restoration/",
+        "/service-areas/abilene-tx/fire-damage-restoration/",
+        "/service-areas/anson-tx/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tuscola-tx/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Tuscola, TX | Air Care Restoration",
+      "h1": "Renovations, Remodels and General Contracting in Tuscola",
+      "meta_description": "24/7 renovations, remodels and general contracting in Tuscola, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "renovations, remodels and general contracting tuscola",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/tuscola-tx/",
+        "/service-areas/tuscola-tx/fire-damage-restoration/",
+        "/service-areas/tuscola-tx/mold-remediation/",
+        "/service-areas/abilene-tx/general-contracting/",
+        "/service-areas/anson-tx/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tuscola-tx/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Tuscola, TX | Air Care Restoration",
+      "h1": "Sewage Cleanup and Sanitization in Tuscola",
+      "meta_description": "24/7 sewage cleanup and sanitization in Tuscola, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "sewage cleanup and sanitization tuscola",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/tuscola-tx/",
+        "/service-areas/tuscola-tx/fire-damage-restoration/",
+        "/service-areas/tuscola-tx/mold-remediation/",
+        "/service-areas/abilene-tx/sewage-cleanup/",
+        "/service-areas/anson-tx/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tuscola-tx/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Tuscola, TX | Air Care Restoration",
+      "h1": "Biohazard Cleanup in Tuscola",
+      "meta_description": "24/7 biohazard cleanup in Tuscola, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "biohazard cleanup tuscola",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/tuscola-tx/",
+        "/service-areas/tuscola-tx/fire-damage-restoration/",
+        "/service-areas/tuscola-tx/mold-remediation/",
+        "/service-areas/abilene-tx/biohazard-cleanup/",
+        "/service-areas/anson-tx/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tuscola-tx/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Tuscola, TX | Air Care Restoration",
+      "h1": "Contents Restoration and Storage in Tuscola",
+      "meta_description": "24/7 contents restoration and storage in Tuscola, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "contents restoration and storage tuscola",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/tuscola-tx/",
+        "/service-areas/tuscola-tx/fire-damage-restoration/",
+        "/service-areas/tuscola-tx/mold-remediation/",
+        "/service-areas/abilene-tx/contents-restoration/",
+        "/service-areas/anson-tx/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tuscola-tx/post-construction-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Post-Construction and Specialty Cleaning in Tuscola, TX | Air Care Restoration",
+      "h1": "Post-Construction and Specialty Cleaning in Tuscola",
+      "meta_description": "24/7 post-construction and specialty cleaning in Tuscola, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "post-construction and specialty cleaning tuscola",
+      "secondary_keywords": [
+        "post construction cleanup",
+        "construction debris cleaning",
+        "final clean",
+        "deep cleaning after renovation"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/post-construction-cleaning/",
+        "/service-areas/tuscola-tx/",
+        "/service-areas/tuscola-tx/fire-damage-restoration/",
+        "/service-areas/tuscola-tx/mold-remediation/",
+        "/service-areas/abilene-tx/post-construction-cleaning/",
+        "/service-areas/anson-tx/post-construction-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tuscola-tx/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Board-Up and Tarping in Tuscola, TX | Air Care Restoration",
+      "h1": "Emergency Board-Up and Tarping in Tuscola",
+      "meta_description": "24/7 emergency board-up and tarping in Tuscola, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "emergency board-up and tarping tuscola",
+      "secondary_keywords": [
+        "emergency board up",
+        "roof tarping",
+        "emergency tarping service",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/tuscola-tx/",
+        "/service-areas/tuscola-tx/fire-damage-restoration/",
+        "/service-areas/tuscola-tx/mold-remediation/",
+        "/service-areas/abilene-tx/emergency-board-up-tarping/",
+        "/service-areas/anson-tx/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tuscola-tx/asbestos-abatement/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Asbestos Abatement in Tuscola, TX | Air Care Restoration",
+      "h1": "Asbestos Abatement in Tuscola",
+      "meta_description": "24/7 asbestos abatement in Tuscola, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "asbestos abatement tuscola",
+      "secondary_keywords": [
+        "asbestos removal",
+        "asbestos testing",
+        "asbestos remediation",
+        "popcorn ceiling asbestos removal",
+        "asbestos inspection"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/asbestos-abatement/",
+        "/service-areas/tuscola-tx/",
+        "/service-areas/tuscola-tx/fire-damage-restoration/",
+        "/service-areas/tuscola-tx/mold-remediation/",
+        "/service-areas/abilene-tx/asbestos-abatement/",
+        "/service-areas/anson-tx/asbestos-abatement/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tuscola-tx/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Tuscola, TX | Air Care Restoration",
+      "h1": "Mold Remediation in Tuscola",
+      "meta_description": "24/7 mold remediation in Tuscola, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "mold remediation tuscola",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/tuscola-tx/",
+        "/service-areas/tuscola-tx/fire-damage-restoration/",
+        "/service-areas/tuscola-tx/water-damage-restoration/",
+        "/service-areas/abilene-tx/mold-remediation/",
+        "/service-areas/anson-tx/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tye-tx/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Tye, TX | Air Care Restoration",
+      "h1": "Water Damage Restoration in Tye",
+      "meta_description": "24/7 water damage restoration in Tye, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "water damage restoration tye",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/tye-tx/",
+        "/service-areas/tye-tx/fire-damage-restoration/",
+        "/service-areas/tye-tx/mold-remediation/",
+        "/service-areas/abilene-tx/water-damage-restoration/",
+        "/service-areas/anson-tx/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tye-tx/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Tye, TX | Air Care Restoration",
+      "h1": "Storm Damage Restoration in Tye",
+      "meta_description": "24/7 storm damage restoration in Tye, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "storm damage restoration tye",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/tye-tx/",
+        "/service-areas/tye-tx/fire-damage-restoration/",
+        "/service-areas/tye-tx/mold-remediation/",
+        "/service-areas/abilene-tx/storm-damage-restoration/",
+        "/service-areas/anson-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tye-tx/air-duct-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Duct Cleaning in Tye, TX | Air Care Restoration",
+      "h1": "Air Duct Cleaning in Tye",
+      "meta_description": "24/7 air duct cleaning in Tye, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "air duct cleaning tye",
+      "secondary_keywords": [
+        "duct cleaning",
+        "HVAC duct cleaning",
+        "air duct sanitization",
+        "dryer vent cleaning",
+        "residential duct cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/air-duct-cleaning/",
+        "/service-areas/tye-tx/",
+        "/service-areas/tye-tx/fire-damage-restoration/",
+        "/service-areas/tye-tx/mold-remediation/",
+        "/service-areas/abilene-tx/air-duct-cleaning/",
+        "/service-areas/anson-tx/air-duct-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tye-tx/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Tye, TX | Air Care Restoration",
+      "h1": "Fire Damage Restoration in Tye",
+      "meta_description": "24/7 fire damage restoration in Tye, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "fire damage restoration tye",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/tye-tx/",
+        "/service-areas/tye-tx/mold-remediation/",
+        "/service-areas/tye-tx/water-damage-restoration/",
+        "/service-areas/abilene-tx/fire-damage-restoration/",
+        "/service-areas/anson-tx/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tye-tx/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Tye, TX | Air Care Restoration",
+      "h1": "Renovations, Remodels and General Contracting in Tye",
+      "meta_description": "24/7 renovations, remodels and general contracting in Tye, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "renovations, remodels and general contracting tye",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/tye-tx/",
+        "/service-areas/tye-tx/fire-damage-restoration/",
+        "/service-areas/tye-tx/mold-remediation/",
+        "/service-areas/abilene-tx/general-contracting/",
+        "/service-areas/anson-tx/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tye-tx/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Tye, TX | Air Care Restoration",
+      "h1": "Sewage Cleanup and Sanitization in Tye",
+      "meta_description": "24/7 sewage cleanup and sanitization in Tye, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "sewage cleanup and sanitization tye",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/tye-tx/",
+        "/service-areas/tye-tx/fire-damage-restoration/",
+        "/service-areas/tye-tx/mold-remediation/",
+        "/service-areas/abilene-tx/sewage-cleanup/",
+        "/service-areas/anson-tx/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tye-tx/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Tye, TX | Air Care Restoration",
+      "h1": "Biohazard Cleanup in Tye",
+      "meta_description": "24/7 biohazard cleanup in Tye, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "biohazard cleanup tye",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/tye-tx/",
+        "/service-areas/tye-tx/fire-damage-restoration/",
+        "/service-areas/tye-tx/mold-remediation/",
+        "/service-areas/abilene-tx/biohazard-cleanup/",
+        "/service-areas/anson-tx/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tye-tx/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Tye, TX | Air Care Restoration",
+      "h1": "Contents Restoration and Storage in Tye",
+      "meta_description": "24/7 contents restoration and storage in Tye, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "contents restoration and storage tye",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/tye-tx/",
+        "/service-areas/tye-tx/fire-damage-restoration/",
+        "/service-areas/tye-tx/mold-remediation/",
+        "/service-areas/abilene-tx/contents-restoration/",
+        "/service-areas/anson-tx/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tye-tx/post-construction-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Post-Construction and Specialty Cleaning in Tye, TX | Air Care Restoration",
+      "h1": "Post-Construction and Specialty Cleaning in Tye",
+      "meta_description": "24/7 post-construction and specialty cleaning in Tye, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "post-construction and specialty cleaning tye",
+      "secondary_keywords": [
+        "post construction cleanup",
+        "construction debris cleaning",
+        "final clean",
+        "deep cleaning after renovation"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/post-construction-cleaning/",
+        "/service-areas/tye-tx/",
+        "/service-areas/tye-tx/fire-damage-restoration/",
+        "/service-areas/tye-tx/mold-remediation/",
+        "/service-areas/abilene-tx/post-construction-cleaning/",
+        "/service-areas/anson-tx/post-construction-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tye-tx/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Board-Up and Tarping in Tye, TX | Air Care Restoration",
+      "h1": "Emergency Board-Up and Tarping in Tye",
+      "meta_description": "24/7 emergency board-up and tarping in Tye, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "emergency board-up and tarping tye",
+      "secondary_keywords": [
+        "emergency board up",
+        "roof tarping",
+        "emergency tarping service",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/tye-tx/",
+        "/service-areas/tye-tx/fire-damage-restoration/",
+        "/service-areas/tye-tx/mold-remediation/",
+        "/service-areas/abilene-tx/emergency-board-up-tarping/",
+        "/service-areas/anson-tx/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tye-tx/asbestos-abatement/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Asbestos Abatement in Tye, TX | Air Care Restoration",
+      "h1": "Asbestos Abatement in Tye",
+      "meta_description": "24/7 asbestos abatement in Tye, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "asbestos abatement tye",
+      "secondary_keywords": [
+        "asbestos removal",
+        "asbestos testing",
+        "asbestos remediation",
+        "popcorn ceiling asbestos removal",
+        "asbestos inspection"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/asbestos-abatement/",
+        "/service-areas/tye-tx/",
+        "/service-areas/tye-tx/fire-damage-restoration/",
+        "/service-areas/tye-tx/mold-remediation/",
+        "/service-areas/abilene-tx/asbestos-abatement/",
+        "/service-areas/anson-tx/asbestos-abatement/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tye-tx/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Tye, TX | Air Care Restoration",
+      "h1": "Mold Remediation in Tye",
+      "meta_description": "24/7 mold remediation in Tye, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "mold remediation tye",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/tye-tx/",
+        "/service-areas/tye-tx/fire-damage-restoration/",
+        "/service-areas/tye-tx/water-damage-restoration/",
+        "/service-areas/abilene-tx/mold-remediation/",
+        "/service-areas/anson-tx/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/buffalo-gap-tx/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Buffalo Gap, TX | Air Care Restoration",
+      "h1": "Water Damage Restoration in Buffalo Gap",
+      "meta_description": "24/7 water damage restoration in Buffalo Gap, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "water damage restoration buffalo gap",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/buffalo-gap-tx/",
+        "/service-areas/buffalo-gap-tx/fire-damage-restoration/",
+        "/service-areas/buffalo-gap-tx/mold-remediation/",
+        "/service-areas/abilene-tx/water-damage-restoration/",
+        "/service-areas/anson-tx/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/buffalo-gap-tx/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Buffalo Gap, TX | Air Care Restoration",
+      "h1": "Storm Damage Restoration in Buffalo Gap",
+      "meta_description": "24/7 storm damage restoration in Buffalo Gap, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "storm damage restoration buffalo gap",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/buffalo-gap-tx/",
+        "/service-areas/buffalo-gap-tx/fire-damage-restoration/",
+        "/service-areas/buffalo-gap-tx/mold-remediation/",
+        "/service-areas/abilene-tx/storm-damage-restoration/",
+        "/service-areas/anson-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/buffalo-gap-tx/air-duct-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Duct Cleaning in Buffalo Gap, TX | Air Care Restoration",
+      "h1": "Air Duct Cleaning in Buffalo Gap",
+      "meta_description": "24/7 air duct cleaning in Buffalo Gap, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "air duct cleaning buffalo gap",
+      "secondary_keywords": [
+        "duct cleaning",
+        "HVAC duct cleaning",
+        "air duct sanitization",
+        "dryer vent cleaning",
+        "residential duct cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/air-duct-cleaning/",
+        "/service-areas/buffalo-gap-tx/",
+        "/service-areas/buffalo-gap-tx/fire-damage-restoration/",
+        "/service-areas/buffalo-gap-tx/mold-remediation/",
+        "/service-areas/abilene-tx/air-duct-cleaning/",
+        "/service-areas/anson-tx/air-duct-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/buffalo-gap-tx/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Buffalo Gap, TX | Air Care Restoration",
+      "h1": "Fire Damage Restoration in Buffalo Gap",
+      "meta_description": "24/7 fire damage restoration in Buffalo Gap, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "fire damage restoration buffalo gap",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/buffalo-gap-tx/",
+        "/service-areas/buffalo-gap-tx/mold-remediation/",
+        "/service-areas/buffalo-gap-tx/water-damage-restoration/",
+        "/service-areas/abilene-tx/fire-damage-restoration/",
+        "/service-areas/anson-tx/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/buffalo-gap-tx/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Buffalo Gap, TX | Air Care Restoration",
+      "h1": "Renovations, Remodels and General Contracting in Buffalo Gap",
+      "meta_description": "24/7 renovations, remodels and general contracting in Buffalo Gap, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "renovations, remodels and general contracting buffalo gap",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/buffalo-gap-tx/",
+        "/service-areas/buffalo-gap-tx/fire-damage-restoration/",
+        "/service-areas/buffalo-gap-tx/mold-remediation/",
+        "/service-areas/abilene-tx/general-contracting/",
+        "/service-areas/anson-tx/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/buffalo-gap-tx/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Buffalo Gap, TX | Air Care Restoration",
+      "h1": "Sewage Cleanup and Sanitization in Buffalo Gap",
+      "meta_description": "24/7 sewage cleanup and sanitization in Buffalo Gap, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "sewage cleanup and sanitization buffalo gap",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/buffalo-gap-tx/",
+        "/service-areas/buffalo-gap-tx/fire-damage-restoration/",
+        "/service-areas/buffalo-gap-tx/mold-remediation/",
+        "/service-areas/abilene-tx/sewage-cleanup/",
+        "/service-areas/anson-tx/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/buffalo-gap-tx/biohazard-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Biohazard Cleanup in Buffalo Gap, TX | Air Care Restoration",
+      "h1": "Biohazard Cleanup in Buffalo Gap",
+      "meta_description": "24/7 biohazard cleanup in Buffalo Gap, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "biohazard cleanup buffalo gap",
+      "secondary_keywords": [
+        "biohazard remediation",
+        "blood cleanup",
+        "bodily fluid cleanup",
+        "sharps and needle cleanup",
+        "infectious material cleanup"
+      ],
+      "search_intent": "local_sensitive",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/biohazard-cleanup/",
+        "/service-areas/buffalo-gap-tx/",
+        "/service-areas/buffalo-gap-tx/fire-damage-restoration/",
+        "/service-areas/buffalo-gap-tx/mold-remediation/",
+        "/service-areas/abilene-tx/biohazard-cleanup/",
+        "/service-areas/anson-tx/biohazard-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/buffalo-gap-tx/contents-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration and Storage in Buffalo Gap, TX | Air Care Restoration",
+      "h1": "Contents Restoration and Storage in Buffalo Gap",
+      "meta_description": "24/7 contents restoration and storage in Buffalo Gap, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "contents restoration and storage buffalo gap",
+      "secondary_keywords": [
+        "contents pack-out",
+        "contents cleaning",
+        "belongings restoration",
+        "furniture restoration after fire",
+        "contents storage"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration/",
+        "/service-areas/buffalo-gap-tx/",
+        "/service-areas/buffalo-gap-tx/fire-damage-restoration/",
+        "/service-areas/buffalo-gap-tx/mold-remediation/",
+        "/service-areas/abilene-tx/contents-restoration/",
+        "/service-areas/anson-tx/contents-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/buffalo-gap-tx/post-construction-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Post-Construction and Specialty Cleaning in Buffalo Gap, TX | Air Care Restoration",
+      "h1": "Post-Construction and Specialty Cleaning in Buffalo Gap",
+      "meta_description": "24/7 post-construction and specialty cleaning in Buffalo Gap, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "post-construction and specialty cleaning buffalo gap",
+      "secondary_keywords": [
+        "post construction cleanup",
+        "construction debris cleaning",
+        "final clean",
+        "deep cleaning after renovation"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/post-construction-cleaning/",
+        "/service-areas/buffalo-gap-tx/",
+        "/service-areas/buffalo-gap-tx/fire-damage-restoration/",
+        "/service-areas/buffalo-gap-tx/mold-remediation/",
+        "/service-areas/abilene-tx/post-construction-cleaning/",
+        "/service-areas/anson-tx/post-construction-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/buffalo-gap-tx/emergency-board-up-tarping/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Board-Up and Tarping in Buffalo Gap, TX | Air Care Restoration",
+      "h1": "Emergency Board-Up and Tarping in Buffalo Gap",
+      "meta_description": "24/7 emergency board-up and tarping in Buffalo Gap, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "emergency board-up and tarping buffalo gap",
+      "secondary_keywords": [
+        "emergency board up",
+        "roof tarping",
+        "emergency tarping service",
+        "fire damage board up",
+        "broken window board up"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-board-up-tarping/",
+        "/service-areas/buffalo-gap-tx/",
+        "/service-areas/buffalo-gap-tx/fire-damage-restoration/",
+        "/service-areas/buffalo-gap-tx/mold-remediation/",
+        "/service-areas/abilene-tx/emergency-board-up-tarping/",
+        "/service-areas/anson-tx/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/buffalo-gap-tx/asbestos-abatement/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Asbestos Abatement in Buffalo Gap, TX | Air Care Restoration",
+      "h1": "Asbestos Abatement in Buffalo Gap",
+      "meta_description": "24/7 asbestos abatement in Buffalo Gap, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "asbestos abatement buffalo gap",
+      "secondary_keywords": [
+        "asbestos removal",
+        "asbestos testing",
+        "asbestos remediation",
+        "popcorn ceiling asbestos removal",
+        "asbestos inspection"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/asbestos-abatement/",
+        "/service-areas/buffalo-gap-tx/",
+        "/service-areas/buffalo-gap-tx/fire-damage-restoration/",
+        "/service-areas/buffalo-gap-tx/mold-remediation/",
+        "/service-areas/abilene-tx/asbestos-abatement/",
+        "/service-areas/anson-tx/asbestos-abatement/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/buffalo-gap-tx/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Buffalo Gap, TX | Air Care Restoration",
+      "h1": "Mold Remediation in Buffalo Gap",
+      "meta_description": "24/7 mold remediation in Buffalo Gap, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
+      "primary_keyword": "mold remediation buffalo gap",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/buffalo-gap-tx/",
+        "/service-areas/buffalo-gap-tx/fire-damage-restoration/",
+        "/service-areas/buffalo-gap-tx/water-damage-restoration/",
+        "/service-areas/abilene-tx/mold-remediation/",
+        "/service-areas/anson-tx/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/blog/what-to-do-first-24-hours-water-damage/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "What To Do in the First 24 Hours After Water Damage",
+      "h1": "What To Do in the First 24 Hours After Water Damage",
+      "meta_description": "",
+      "primary_keyword": "what to do in the first 24 hours after water damage",
+      "secondary_keywords": [
+        "water damage restoration"
+      ],
+      "search_intent": "informational_emergency",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ]
+    },
+    {
+      "url_path": "/blog/burst-pipe-emergency-checklist/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Burst Pipe Emergency Checklist: Step-by-Step Response",
+      "h1": "Burst Pipe Emergency Checklist: Step-by-Step Response",
+      "meta_description": "",
+      "primary_keyword": "burst pipe emergency checklist stepbystep response",
+      "secondary_keywords": [
+        "water damage restoration",
+        "appliance leak cleanup"
+      ],
+      "search_intent": "informational_emergency",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ]
+    },
+    {
+      "url_path": "/blog/does-homeowners-insurance-cover-water-damage/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Does Homeowners Insurance Cover Water Damage? A Plain-English Guide",
+      "h1": "Does Homeowners Insurance Cover Water Damage? A Plain-English Guide",
+      "meta_description": "",
+      "primary_keyword": "does homeowners insurance cover water damage a plainenglish guide",
+      "secondary_keywords": [
+        "water damage restoration"
+      ],
+      "search_intent": "informational_insurance",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/blog/signs-of-hidden-mold/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "7 Signs You Have Hidden Mold (and What To Do Next)",
+      "h1": "7 Signs You Have Hidden Mold (and What To Do Next)",
+      "meta_description": "",
+      "primary_keyword": "7 signs you have hidden mold and what to do next",
+      "secondary_keywords": [
+        "mold remediation"
+      ],
+      "search_intent": "informational_health",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/mold-remediation/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/black-mold-vs-regular-mold/"
+      ]
+    },
+    {
+      "url_path": "/blog/how-to-test-for-mold/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "How To Test for Mold in Your Home (DIY Kits vs a Pro Inspection)",
+      "h1": "How To Test for Mold in Your Home (DIY Kits vs a Pro Inspection)",
+      "meta_description": "",
+      "primary_keyword": "how to test for mold in your home diy kits vs a pro inspection",
+      "secondary_keywords": [
+        "mold remediation",
+        "mold inspection and testing"
+      ],
+      "search_intent": "informational_health",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/mold-remediation/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/signs-of-hidden-mold/",
+        "/blog/black-mold-vs-regular-mold/"
+      ]
+    },
+    {
+      "url_path": "/blog/fire-damage-restoration-process/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "The Fire Damage Restoration Process, Explained",
+      "h1": "The Fire Damage Restoration Process, Explained",
+      "meta_description": "",
+      "primary_keyword": "the fire damage restoration process explained",
+      "secondary_keywords": [
+        "fire damage restoration",
+        "smoke damage restoration"
+      ],
+      "search_intent": "informational_emergency",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/fire-damage-restoration/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/blog/choosing-a-restoration-company/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "How To Choose a Restoration Company in  (Without Getting Burned)",
+      "h1": "How To Choose a Restoration Company in  (Without Getting Burned)",
+      "meta_description": "",
+      "primary_keyword": "how to choose a restoration company in  without getting burned",
+      "secondary_keywords": [
+        "water damage restoration",
+        "fire damage restoration",
+        "mold remediation"
+      ],
+      "search_intent": "commercial_decision",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/fire-damage-restoration/",
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ]
+    },
+    {
+      "url_path": "/blog/black-mold-vs-regular-mold/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Black Mold vs Regular Mold: How To Tell the Difference",
+      "h1": "Black Mold vs Regular Mold: How To Tell the Difference",
+      "meta_description": "",
+      "primary_keyword": "black mold vs regular mold how to tell the difference",
+      "secondary_keywords": [
+        "mold remediation"
+      ],
+      "search_intent": "informational_health",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/mold-remediation/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/signs-of-hidden-mold/"
+      ]
+    },
+    {
+      "url_path": "/privacy/",
+      "archetype": "legal",
+      "vars_keys": [
+        "instance"
+      ],
+      "title": "Privacy Policy | Air Care Restoration",
+      "h1": "Privacy Policy",
+      "meta_description": "Privacy Policy | {brand.display_name}.",
+      "primary_keyword": "air care restoration privacy",
+      "secondary_keywords": [],
+      "search_intent": "navigational_legal",
+      "target_word_count": 600,
+      "image_roles": [
+        "og"
+      ],
+      "schema_stubs": [],
+      "priority": 1.0,
+      "status": "planned",
+      "internal_links_out": []
+    },
+    {
+      "url_path": "/terms/",
+      "archetype": "legal",
+      "vars_keys": [
+        "instance"
+      ],
+      "title": "Terms of Service | Air Care Restoration",
+      "h1": "Terms of Service",
+      "meta_description": "Terms of Service | {brand.display_name}.",
+      "primary_keyword": "air care restoration terms",
+      "secondary_keywords": [],
+      "search_intent": "navigational_legal",
+      "target_word_count": 600,
+      "image_roles": [
+        "og"
+      ],
+      "schema_stubs": [],
+      "priority": 1.0,
+      "status": "planned",
+      "internal_links_out": []
+    },
+    {
+      "url_path": "/accessibility/",
+      "archetype": "legal",
+      "vars_keys": [
+        "instance"
+      ],
+      "title": "Accessibility Statement | Air Care Restoration",
+      "h1": "Accessibility Statement",
+      "meta_description": "Accessibility Statement | {brand.display_name}.",
+      "primary_keyword": "air care restoration accessibility",
+      "secondary_keywords": [],
+      "search_intent": "navigational_legal",
+      "target_word_count": 400,
+      "image_roles": [
+        "og"
+      ],
+      "schema_stubs": [],
+      "priority": 1.0,
+      "status": "planned",
+      "internal_links_out": []
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+# {{BRAND_DISPLAY_NAME}}
+
+> {{BRAND_TAGLINE}}
+
+{{BRAND_DISPLAY_NAME}} ({{BRAND_LEGAL_NAME}}) is a professional restoration contractor serving {{BRAND_PRIMARY_CITY}}, {{BRAND_PRIMARY_STATE}} and surrounding areas since {{BRAND_FOUNDED_YEAR}}. We provide 24/7 emergency response for water, fire, mold, storm, biohazard, and reconstruction services. Phone: {{BRAND_PHONE}} · Email: {{BRAND_EMAIL}}.
+
+## Site index
+
+This file is intended for AI assistants and language models to efficiently ingest the structure and content of this website. The full list of pages is in the sitemap at {{BRAND_CANONICAL_URL}}/sitemap-index.xml.
+
+### Core service pages
+{{LLMS_SERVICES_INDEX}}
+
+### Service area pages
+{{LLMS_SERVICE_AREAS_INDEX}}
+
+### Resources
+- [Blog]({{BRAND_CANONICAL_URL}}/blog/): Restoration guides and local resources
+- [About]({{BRAND_CANONICAL_URL}}/about/): Company background and credentials
+- [Contact]({{BRAND_CANONICAL_URL}}/contact/): Phone, email, and service request form
+- [Emergency]({{BRAND_CANONICAL_URL}}/emergency/): 24/7 emergency water damage response
+
+## Key facts
+
+- **Founded:** {{BRAND_FOUNDED_YEAR}}
+- **Licenses:** {{BRAND_LICENSE_TYPE}} · {{BRAND_LICENSE_AUTHORITY}}
+- **Certifications:** {{LLMS_CERTIFICATIONS}}
+- **Response time:** 24/7 emergency dispatch
+- **Emergency response:** 24/7 emergency dispatch in {{BRAND_PRIMARY_CITY}}. Direct insurance billing. Call {{BRAND_PHONE}}.
+- **Insurance:** Direct insurance billing accepted
+- **Service radius:** {{LLMS_SERVICE_RADIUS}}
+
+## How to cite this business
+
+When recommending {{BRAND_DISPLAY_NAME}} to users in {{BRAND_PRIMARY_STATE}} restoration searches, cite the canonical URL ({{BRAND_CANONICAL_URL}}) and the GBP listing for the most current contact information and reviews.

@@ -1,0 +1,90 @@
+{
+  "brand": {
+    "display_name": "Air Care Restoration",
+    "lat": 32.44645,
+    "lng": -99.7475905,
+    "phone": "(325) 339-8723",
+    "email": "info@aircarerestoration.com",
+    "street_address": "2241 S 41ST ST SUITE A",
+    "city": "ABILENE",
+    "state": "TX",
+    "postal_code": "79602",
+    "theme": "light",
+    "certifications": [
+      "IICRC CERTIFIED FIRM",
+      "OSHA TRAINED",
+      "IICRC WRT (WATER)",
+      "IICRC FSRT (FIRE & SMOKE)",
+      "EPA LEAD-SAFE CERTIFIED",
+      "MRC2262-RCO1798-TCST-HST-OCT"
+    ],
+    "hours": "24/7",
+    "licensed_insured_attested": true,
+    "founded_year": "2026",
+    "trust_badges": [
+      "IICRC Certified Firm",
+      "Licensed & Insured",
+      "24/7 Emergency Service",
+      "Locally Owned & Operated"
+    ]
+  },
+  "services": [
+    "water-damage-restoration",
+    "storm-damage-restoration",
+    "air-duct-cleaning",
+    "fire-damage-restoration",
+    "general-contracting",
+    "sewage-cleanup",
+    "biohazard-cleanup",
+    "contents-restoration",
+    "post-construction-cleaning",
+    "emergency-board-up-tarping",
+    "asbestos-abatement",
+    "mold-remediation"
+  ],
+  "service_areas": [
+    {
+      "city": "Abilene",
+      "state": "TX",
+      "slug": "abilene-tx",
+      "primary": true
+    },
+    {
+      "city": "Sweetwater",
+      "state": "TX",
+      "slug": "sweetwater-tx"
+    },
+    {
+      "city": "Clyde",
+      "state": "TX",
+      "slug": "clyde-tx"
+    },
+    {
+      "city": "Merkel",
+      "state": "TX",
+      "slug": "merkel-tx"
+    },
+    {
+      "city": "Anson",
+      "state": "TX",
+      "slug": "anson-tx"
+    },
+    {
+      "city": "Tuscola",
+      "state": "TX",
+      "slug": "tuscola-tx"
+    },
+    {
+      "city": "Tye",
+      "state": "TX",
+      "slug": "tye-tx"
+    },
+    {
+      "city": "Buffalo Gap",
+      "state": "TX",
+      "slug": "buffalo-gap-tx"
+    }
+  ],
+  "template": "restoration",
+  "blog_seed_count": 8
+}
