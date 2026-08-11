@@ -1595,6 +1595,20 @@ def run(since_override: str | None, dry_run: bool, do_send: bool) -> int:
     except Exception as e:  # noqa: BLE001
         print(f"  EMAIL: inbox sync errored: {str(e)[:120]}")
 
+    # Stage-dwell checker (Santino 2026-08-10): derive every client's website
+    # stage EXACTLY like the app's Build Stages board, track dwell time in
+    # ops_kv 'stage-history', and route each unmet exit item to the system
+    # that already owns it (auto-build asks, ledger domain ask, launch seeder,
+    # [DEV] inbox for the imagery pass). Same independent try/except as the
+    # ledger and email passes — a checker raise must never take the sweep down.
+    try:
+        from stage_checker import check_stages
+        for ln in check_stages(dry_run, cid_to_slug):
+            print("  STAGE: " + ln)
+            sweep_lines.append(ln)
+    except Exception as e:  # noqa: BLE001
+        print(f"  STAGE: stage checker errored: {str(e)[:120]}")
+
     # Work ledger (fail-open): one 'routine' line item per ACTIVE client per
     # sweep — the nightly checks are documented work even on quiet nights
     # (Santino 2026-08-01: every movement recorded as a line item).
