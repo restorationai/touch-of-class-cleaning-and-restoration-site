@@ -84,6 +84,54 @@
    "city": "Buffalo Gap",
    "state": "TX",
    "slug": "buffalo-gap-tx"
+  },
+  {
+   "city": "Brownwood",
+   "state": "TX",
+   "slug": "brownwood-tx",
+   "primary": false
+  },
+  {
+   "city": "Early",
+   "state": "TX",
+   "slug": "early-tx",
+   "primary": false
+  },
+  {
+   "city": "Roby",
+   "state": "TX",
+   "slug": "roby-tx",
+   "primary": false
+  },
+  {
+   "city": "Rotan",
+   "state": "TX",
+   "slug": "rotan-tx",
+   "primary": false
+  },
+  {
+   "city": "Robert Lee",
+   "state": "TX",
+   "slug": "robert-lee-tx",
+   "primary": false
+  },
+  {
+   "city": "Bronte",
+   "state": "TX",
+   "slug": "bronte-tx",
+   "primary": false
+  },
+  {
+   "city": "Eden",
+   "state": "TX",
+   "slug": "eden-tx",
+   "primary": false
+  },
+  {
+   "city": "Paint Rock",
+   "state": "TX",
+   "slug": "paint-rock-tx",
+   "primary": false
   }
  ],
  "template": "restoration",
