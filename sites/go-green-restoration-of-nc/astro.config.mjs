@@ -57,7 +57,7 @@ function contentLastmodMap() {
 const LASTMOD_BY_PATH = contentLastmodMap();
 
 export default defineConfig({
-  site: "https://None",
+  site: "https://gogreenrestorationofnc.com",
   output: "static",
   trailingSlash: "always",
   integrations: [
