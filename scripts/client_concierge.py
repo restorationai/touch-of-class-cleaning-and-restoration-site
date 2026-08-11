@@ -4200,6 +4200,26 @@ def live_site_url(company: dict) -> str | None:
     return u if u.startswith("http") else None
 
 
+def site_live_fact(company: dict) -> str | None:
+    """The client's LIVE apex URL, or None while still preview/staging.
+
+    Exists because of Todd 2026-08-11: he asked "Are we going live soon"
+    two days AFTER gogreenrestorationofnc.com launched and Monica answered
+    "almost there" — the composer is never told launch status, so on status
+    questions the model improvises a safe-sounding stall. This feeds a
+    standing FACT line into every compose context."""
+    try:
+        rows = _sb("GET", "/rest/v1/marketing_sites?company_id=eq."
+                   f"{company.get('id')}&select=domain,apex_live&limit=1") or []
+    except Exception:  # noqa: BLE001 — never break a send on a lookup
+        return None
+    row = rows[0] if rows else {}
+    apex = str(row.get("domain") or "").strip()
+    if row.get("apex_live") and apex and "none" not in apex.lower():
+        return apex if apex.startswith("http") else f"https://{apex}"
+    return None
+
+
 def verify_outbound_links(company: dict, body: str) -> tuple[str, str | None]:
     """Last gate before a send: every URL of OURS in `body` must resolve.
 
@@ -4722,6 +4742,19 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
     # PREVIEW-SHARE BLOCK (2026-08-04): only set when the client has NEVER
     # been sent their site. The URL must appear literally in context or the
     # LINKS ARE ALL-OR-NOTHING rule would (correctly) suppress it entirely.
+    # SITE-STATUS FACT (2026-08-11, Todd): launch status must be in EVERY
+    # compose context, not just the one-time preview share — otherwise a
+    # "when do we go live?" gets an improvised stall two days post-launch.
+    live_url = site_live_fact(company)
+    status_block = ""
+    if live_url:
+        status_block = (
+            f"\nFACT: this client's website is ALREADY LIVE at {live_url} "
+            "(their real domain, launched). If they ask when they go live, "
+            "about site status, or anything similar: tell them it is live, "
+            "include that exact URL, and name what is still in progress from "
+            "the items instead of vague reassurance. Never say the site is "
+            "coming soon, almost there, or being finished.\n")
     preview_block = ""
     if lead_preview:
         preview_block = (
@@ -4797,6 +4830,7 @@ def compose_draft(company: dict, first_name: str, items: list[dict],
             + pair_block
             + commit_block
             + preview_block
+            + status_block
             + domain_block
             + photo_block
             + internal_block
