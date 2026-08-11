@@ -6344,8 +6344,19 @@ def ingest_inbound_media(company: dict, msg: dict, dry_run: bool) -> dict:
                       public 'branding' bucket like the media does)
     Images are re-encoded (EXIF/GPS stripped) like the upload page does."""
     out = {"photos": 0, "screenshots": 0, "videos": 0, "contacts": 0,
-           "failed": 0, "contact_cards": []}
+           "failed": 0, "contact_cards": [], "brand_refs": 0}
     cid = company["id"]
+    # BRAND CONTEXT (Sarha / Air Care 2026-08-11): she texted 8 color-picker
+    # screenshots saying "these specific colors and fonts" — they were filed
+    # as JOB PHOTOS (portrait-shaped, so the screenshot net missed them), fed
+    # the GBP poster, and NO brand record existed anywhere; the site would
+    # have built in default colors, Todd's colors incident all over again.
+    # When the accompanying words are about brand/colors/fonts/logo, every
+    # image in the burst goes to brand/refs/ and a [DEV] extraction task is
+    # filed so the nightly agent writes the actual values into plan-input.
+    brand_context = bool(re.search(
+        r"\bcolou?rs?\b|\bfonts?\b|\blogo\b|\bbrand(ing)?\b|\bbusiness\s+cards?\b",
+        (msg.get("body") or ""), re.I))
     for url in msg.get("attachments") or []:
         try:
             r = requests.get(url, timeout=60)
@@ -6376,7 +6387,9 @@ def ingest_inbound_media(company: dict, msg: dict, dry_run: bool) -> dict:
                 buf = BytesIO()
                 img.save(buf, "JPEG", quality=85)   # re-encode = EXIF/GPS gone
                 body, up_type = buf.getvalue(), "image/jpeg"
-                if h and w / h < 0.5:               # screenshot-shaped
+                if brand_context:
+                    path, kind = f"{cid}/brand/refs/sms-{stamp}.jpg", "brand_refs"
+                elif h and w / h < 0.5:             # screenshot-shaped
                     path, kind = f"{cid}/job-photos/inbox/sms-{stamp}.jpg", "screenshots"
                 else:
                     path, kind = f"{cid}/job-photos/sms-{stamp}.jpg", "photos"
@@ -6414,6 +6427,21 @@ def ingest_inbound_media(company: dict, msg: dict, dry_run: bool) -> dict:
             print(f"    [media] ingest failed for {url[-40:]}: {e}",
                   file=sys.stderr)
             out["failed"] += 1
+    if out["brand_refs"] and not dry_run:
+        try:
+            slug = company_slug(cid) or company.get("name") or cid
+            _sb("POST", "/rest/v1/marketing_ops_notes", {
+                "company_id": cid, "author": "concierge", "status": "open",
+                "body": (f"[DEV] BRAND REFS from client text ({slug}), "
+                         f"{out['brand_refs']} image(s) in branding/{cid}/brand/refs/ "
+                         f"— client's words: {(msg.get('body') or '')[:200]!r}. "
+                         "TASK: read the images, extract the exact brand "
+                         "colors (hex) and font names, write them into "
+                         f"clients/{slug}/plan-input.json brand.colors / "
+                         "brand.fonts with a source note. Do NOT guess from "
+                         "memory; the images are the truth.")})
+        except Exception as e:  # noqa: BLE001 — the files are safe either way
+            print(f"    [media] brand-refs task not filed: {e}", file=sys.stderr)
     return out
 
 
