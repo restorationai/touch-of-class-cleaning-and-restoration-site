@@ -972,6 +972,36 @@ def ensure_setup_checklist(dry_run: bool, cid_to_slug: dict) -> list[str]:
         # Business Verification card beside Business Information. Verified live
         # in the deployed bundle at app.restorationai.io, not just merged.
         _ASK_FOR_VERIFICATION_DOCS = True
+        # ACKNOWLEDGE WHAT THEY ALREADY SENT (Curt 2026-08-11): he uploaded
+        # his insurance certificate FOUR times, then got a cold "I need a few
+        # things off your paperwork" and answered "I have provided that to
+        # you guys at least three or four times. What are you doing with the
+        # information?" The COI genuinely lacks license/EIN/year, but an ask
+        # that ignores documents we hold reads as us losing his paperwork.
+        _docs_held: list[str] = []
+        try:
+            _sb_url = os.environ.get("SUPABASE_URL", "").rstrip("/")
+            _sb_key = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")
+            if _sb_url and _sb_key:
+                _dr = requests.post(
+                    f"{_sb_url}/storage/v1/object/list/branding",
+                    headers={"apikey": _sb_key,
+                             "Authorization": f"Bearer {_sb_key}",
+                             "Content-Type": "application/json"},
+                    json={"prefix": f"{cid}/docs/", "limit": 20}, timeout=20)
+                if _dr.ok:
+                    _docs_held = sorted({f.get("name") or "" for f in _dr.json()
+                                         if f.get("name")})
+        except Exception:
+            pass
+        _ack = ""
+        if _docs_held:
+            _ack = ("They have ALREADY sent us documents ({}) — OPEN by "
+                    "acknowledging that those are received and on file, and "
+                    "make clear these three items are the only things their "
+                    "paperwork so far does not show. NEVER imply we are "
+                    "missing what they already sent. ".format(
+                        ", ".join(_docs_held[:4])))
         checks.append((
             f"checklist-verification-docs-{slug}",
             _ASK_FOR_VERIFICATION_DOCS and len(_missing_docs) >= 2,
@@ -980,12 +1010,13 @@ def ensure_setup_checklist(dry_run: bool, cid_to_slug: dict) -> list[str]:
             ("Missing: {}. These are what directories accept as PROOF the "
              "business is real — Nextdoor takes an EIN letter or a state "
              "license instead of texting a verification code to the owner, and "
-             "an unverified page cannot post. MONICA: ask plainly and in one "
+             "an unverified page cannot post. MONICA: {}ask plainly and in one "
              "message, e.g. 'to get your listings verified I need a couple of "
              "things off your paperwork: your {} — whenever you get a minute.' "
              "Say what it is FOR. An owner asked for a tax ID with no reason "
              "given will assume the worst, and they would be right to."
-             ).format(", ".join(_missing_docs), " and your ".join(_missing_docs))))
+             ).format(", ".join(_missing_docs), _ack,
+                      " and your ".join(_missing_docs))))
 
         # HOURS ARE NO LONGER A QUESTION (Santino 2026-08-08): every client is
         # set to Open 24 hours regardless of industry, because the AI
