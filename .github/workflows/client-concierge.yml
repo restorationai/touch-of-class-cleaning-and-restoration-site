@@ -33,6 +33,15 @@ on:
         type: boolean
         default: false
 
+# One Monica at a time: 2026-08-11 the 16:07 slot ran three times (early
+# Railway dispatch, on-time dispatch, then GitHub's cron arriving an hour
+# late) and clients got the same ask worded three ways. The concurrency
+# group stops overlap; the runlock step below stops the delayed-cron case
+# where a second full pass starts after the first already finished.
+concurrency:
+  group: client-concierge
+  cancel-in-progress: false
+
 jobs:
   concierge:
     runs-on: ubuntu-latest
@@ -67,7 +76,26 @@ jobs:
           python3 scripts/client_concierge.py selfcheck
           python3 scripts/feedback_router.py selftest
 
+      # A second pass inside the same slot (delayed cron, double dispatch)
+      # exits here instead of re-texting every client. Dry runs skip the
+      # lock (they send nothing and must stay inspectable on demand).
+      - name: Acquire slot lock
+        id: runlock
+        env:
+          SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          if [ "${{ github.event_name }}" != "schedule" ] && [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            echo "acquired=true" >> "$GITHUB_OUTPUT"   # dry runs never block
+          elif python3 scripts/client_concierge.py runlock; then
+            echo "acquired=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "acquired=false" >> "$GITHUB_OUTPUT"
+            echo "Another Monica ran this slot — skipping sends."
+          fi
+
       - name: Run concierge
+        if: ${{ steps.runlock.outputs.acquired == 'true' }}
         env:
           SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
@@ -93,7 +121,7 @@ jobs:
           fi
 
       - name: Morning digest to Santino (first run only; silent when quiet)
-        if: ${{ github.event.schedule == '7 16 * * *' || github.event.inputs.mode == 'daily' }}
+        if: ${{ steps.runlock.outputs.acquired == 'true' && (github.event.schedule == '7 16 * * *' || github.event.inputs.mode == 'daily') }}
         env:
           SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}

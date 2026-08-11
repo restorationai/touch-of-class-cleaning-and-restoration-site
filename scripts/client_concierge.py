@@ -1199,7 +1199,8 @@ def _reply_key(target: dict | None) -> str | None:
 def repeats_recent_outbound(company_id: str | None, body: str,
                             history: list[dict], *,
                             evidence: str | None = None,
-                            reply_to: str | None = None) -> str | None:
+                            reply_to: str | None = None,
+                            boss_directive: bool = False) -> str | None:
     """Reason to hold this outbound because we ALREADY spoke, or because it
     contradicts what we already told them — else None.
 
@@ -1233,7 +1234,13 @@ def repeats_recent_outbound(company_id: str | None, body: str,
     # 4b FIRST, because it needs no prior outbound at all: the ledger says
     # this work shipped, so promising it forward is false whatever else the
     # thread looks like.
-    if _WORK_FUTURE_RE.search(body or ""):
+    # BOSS-DIRECTIVE BYPASS (Todd 2026-08-11): nets 4/4b are skipped when the
+    # draft carries Santino's exact words. His correction "site is live AND
+    # we're working the reinstatement" held twice: topic matching is message-
+    # level, so a draft that truthfully pairs done work with in-progress work
+    # trips against the done line. A verbatim order is human-adjudicated;
+    # the dedupe nets (1-3) still apply to it in full.
+    if not boss_directive and _WORK_FUTURE_RE.search(body or ""):
         topics = message_topics(body)
         for line in _evidence_done_lines(evidence):
             if topics and (_WORK_DONE_RE.search(line)
@@ -1268,7 +1275,8 @@ def repeats_recent_outbound(company_id: str | None, body: str,
             return (f"another pass already answered this same message "
                     f"{age_min:.0f} min ago: {cand['body'][:70]!r}")
         # 4. contradiction: they were told it is DONE, this says we will do it
-        if (age_min <= OUTBOX_LOOKBACK_MIN
+        if (not boss_directive
+                and age_min <= OUTBOX_LOOKBACK_MIN
                 and _WORK_FUTURE_RE.search(body or "")
                 and _WORK_DONE_RE.search(cand["body"])
                 and (new_topics & message_topics(cand["body"]))):
@@ -5423,7 +5431,8 @@ def cmd_compose(args) -> int:
     reply_key = _reply_key(pending)
     dup = repeats_recent_outbound(company.get("id"), draft["body"], history,
                                   evidence=_evidence_slice(intel),
-                                  reply_to=reply_key)
+                                  reply_to=reply_key,
+                                  boss_directive=bool(directives))
     if dup:
         print(f"\nSEND REFUSED (duplicate guard): {dup}", file=sys.stderr)
         if "CONTRADICT" in dup:
@@ -8688,6 +8697,17 @@ def cmd_selfcheck(_args) -> int:
         ("the work ledger alone blocks a future promise",
          "CONTRADICTS the work ledger" in (repeats_recent_outbound(
              None, promised, [], evidence=ledger) or "")),
+        # BOSS-DIRECTIVE BYPASS (Todd 2026-08-11): Santino's exact words may
+        # pair done work with future work; only the contradiction nets yield.
+        ("a boss directive sails past the contradiction nets",
+         repeats_recent_outbound(
+             None, promised, [], evidence=ledger,
+             boss_directive=True) is None),
+        ("...but a boss directive still cannot double-send verbatim",
+         bool(repeats_recent_outbound(
+             None, "Will do, talk soon.",
+             _hist(("out", "Will do, talk soon.", "ours-B", 0)),
+             boss_directive=True))),
         ("topics match across differently worded messages",
          bool(message_topics(said_done) & message_topics(promised))),
         ("a finished commitment is dropped, not re-delivered",
@@ -9034,7 +9054,36 @@ def main() -> int:
     pk.add_argument("--email", required=True)
     pk.add_argument("--channel", choices=("sms", "email"), default="sms")
 
+    # ONE MONICA PER SLOT (Santino 2026-08-11, "there are two Monicas"): the
+    # 16:07 slot fired three times — Railway dispatch at 15:55 and 16:07,
+    # then GitHub's own cron an hour late at 17:07 — and every client with an
+    # open ask got each pass's independently-worded copy of the same text.
+    # The runs-API dedupe on the Railway side can't see a cron that arrives
+    # late, so the lock lives here, across ALL trigger sources: exit 0 =
+    # acquired (run may proceed), exit 1 = another Monica ran too recently.
+    pl = sub.add_parser("runlock", help="acquire the daily-pass slot lock")
+    pl.add_argument("--window-minutes", type=int, default=100,
+                    help="skip if a pass started within this many minutes "
+                         "(default 100 — under the 3.5h slot spacing)")
+
     args = ap.parse_args()
+
+    if args.cmd == "runlock":
+        now = datetime.now(timezone.utc)
+        held = kv_get("concierge-run-lock") or {}
+        try:
+            started = datetime.fromisoformat(str(held.get("started_at")))
+        except (TypeError, ValueError):
+            started = None
+        if started:
+            age_min = (now - started).total_seconds() / 60
+            if age_min < args.window_minutes:
+                print(f"runlock: NOT acquired — a pass started {age_min:.0f} "
+                      f"min ago (window {args.window_minutes})")
+                return 1
+        kv_set("concierge-run-lock", {"started_at": now.isoformat()})
+        print("runlock: acquired")
+        return 0
     if args.cmd == "selfcheck":
         return cmd_selfcheck(args)      # offline: no env, no network
     load_env()
