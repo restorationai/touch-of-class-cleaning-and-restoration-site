@@ -1,7 +1,7 @@
 # Site Plan Report — RT Olson Plumbing, Heating and Air Conditioning
 
 - Template: `plumbing` v0.1.0
-- Generated: 2026-08-11T19:22:51.333528+00:00
+- Generated: 2026-08-11T21:06:32.076290+00:00
 - Domain: `rtolsonplumbing.com`
 - Services selected: 2 of 22 catalog entries
 - Service areas: 9
