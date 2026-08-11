@@ -14,9 +14,10 @@ account manages all client locations, so any business.manage token can read them
 we match the right location by the client's brand.place_id.
 
 Commands:
-    python3 scripts/gbp.py read       --slug narestco
-    python3 scripts/gbp.py reconcile  --slug narestco
-    python3 scripts/gbp.py reconcile  --all
+    python3 scripts/gbp.py read          --slug narestco
+    python3 scripts/gbp.py reconcile     --slug narestco
+    python3 scripts/gbp.py reconcile     --all
+    python3 scripts/gbp.py descriptions  --slug narestco [--apply]   # per-service descriptions
 
 Read-only for now (no writes). Update operations + strategist wiring come next.
 Env (rank-ai/.env): SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, GOOGLE_OAUTH_CLIENT_ID,
@@ -35,6 +36,7 @@ import requests
 from dotenv import load_dotenv
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+import claims_lint  # noqa: E402 — brand-truth gate for generated copy
 import verticals  # noqa: E402 — per-client vertical → template resolution (fail-loud)
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -950,6 +952,223 @@ def apply_confirmed_services(cid: str, answer: str = "",
 
 
 # --------------------------------------------------------------------------- #
+# Per-service DESCRIPTIONS — every service item on the listing gets a short
+# claims-safe description (max 300 chars, Google's cap). Field shapes verified
+# against the live API 2026-08-11 (narestco read):
+#   structuredServiceItem.description        (sibling of serviceTypeId)
+#   freeFormServiceItem.label.description    (sibling of displayName)
+# Copy is grounded in the client's OWN service pages when one exists, and the
+# claims_lint truth table gates every credential/availability claim (davis
+# once shipped "IICRC-certified 24/7" copy it had no right to — never again).
+# Existing descriptions are NEVER overwritten; items are never dropped or
+# reordered; categories are never touched.
+# --------------------------------------------------------------------------- #
+DESC_MODEL = "claude-sonnet-5"
+DESC_MAX_CHARS = 300  # Business Information API cap on service descriptions
+
+
+def _item_desc(item: dict) -> str:
+    if "structuredServiceItem" in item:
+        return (item["structuredServiceItem"].get("description") or "").strip()
+    return (((item.get("freeFormServiceItem") or {}).get("label") or {})
+            .get("description") or "").strip()
+
+
+def _item_name(item: dict) -> str:
+    if "structuredServiceItem" in item:
+        return _svc_label(item["structuredServiceItem"].get("serviceTypeId", ""))
+    return (((item.get("freeFormServiceItem") or {}).get("label") or {})
+            .get("displayName") or "")
+
+
+def _set_item_desc(item: dict, desc: str) -> None:
+    if "structuredServiceItem" in item:
+        item["structuredServiceItem"]["description"] = desc
+    else:
+        item["freeFormServiceItem"]["label"]["description"] = desc
+
+
+def _fit_desc(text: str) -> str:
+    """Normalize a generated description: no em/en dashes, no emoji/exotic
+    glyphs, single-spaced, hard-capped at DESC_MAX_CHARS on a clean boundary."""
+    t = re.sub(r"\s*[—–]\s*", ", ", str(text or ""))
+    t = (t.replace("“", '"').replace("”", '"')
+          .replace("‘", "'").replace("’", "'"))
+    t = t.encode("ascii", "ignore").decode()  # emoji and friends drop out
+    t = re.sub(r"\s+", " ", t).strip()
+    if len(t) > DESC_MAX_CHARS:
+        cut = t[:DESC_MAX_CHARS]
+        stop = max(cut.rfind(". "), cut.rfind("! "), cut.rfind("? "))
+        if stop > 150:
+            t = cut[:stop + 1]
+        else:
+            t = cut[:cut.rfind(" ")].rstrip(",;:. ") + "."
+    return t
+
+
+def _page_intros(slug: str) -> dict:
+    """{_norm(page stem): intro paragraph} from the client's rendered service
+    pages — the grounding source for description copy."""
+    d = ROOT / "sites" / slug / "src" / "content" / "services"
+    out: dict = {}
+    if not d.exists():
+        return out
+    for md in sorted(d.glob("*.md")):
+        try:
+            _, body = claims_lint.split_frontmatter(md.read_text())
+        except Exception:
+            continue
+        para = next((p.strip() for p in body.split("\n\n")
+                     if p.strip() and not p.strip().startswith(("#", "-", "*", "!"))), "")
+        key = _norm(md.stem.replace("-", " "))
+        if para and key:
+            out[key] = re.sub(r"\s+", " ", para)[:600]
+    return out
+
+
+def _intro_for(name: str, intros: dict) -> str | None:
+    n = _norm(name)
+    if not n:
+        return None
+    if n in intros:
+        return intros[n]
+    best = max((k for k in intros if k in n or n in k), key=len, default=None)
+    return intros[best] if best else None
+
+
+def _desc_allowed_claims(truth: dict) -> list[str]:
+    """Only claims the brand truth table backs may appear in copy."""
+    claims = []
+    if truth["is_247"]:
+        claims.append("24/7 / emergency availability")
+    claims += [f"certification: {c}" for c in truth["certifications"]]
+    if truth["licensed_ok"]:
+        claims.append("licensed and insured")
+    if truth["family_owned"]:
+        claims.append("family owned")
+    if truth["founded_year"]:
+        claims.append(f"in business since {truth['founded_year']}")
+    if truth["response_minutes"]:
+        claims.append(f"{truth['response_minutes']}-minute response")
+    return claims
+
+
+def service_descriptions(slug: str, apply: bool = False) -> str:
+    """Generate (and with apply=True, PATCH) descriptions for every service
+    item on the listing that is missing one. ONE model call per client."""
+    cid = company_id_for(slug)
+    pi = json.loads((ROOT / "clients" / slug / "plan-input.json").read_text())
+    brand = pi.get("brand", {})
+    token = get_access_token(cid) if cid else None
+    place = brand.get("place_id") or _place_id_from_connection(cid)
+    if not (token and place):
+        return f"{slug}: skip (no token / place_id)"
+    loc = find_location(token, place)
+    if not loc:
+        return f"{slug}: skip (no GBP location)"
+    items = loc.get("serviceItems", [])
+    if not items:
+        return f"{slug}: no service items on the listing"
+    missing = [(i, it) for i, it in enumerate(items) if not _item_desc(it)]
+    if not missing:
+        return f"{slug}: all {len(items)} service descriptions already set"
+
+    truth = claims_lint.load_truth(slug)
+    intros = _page_intros(slug)
+    areas = pi.get("service_areas", [])
+    primary = next((a for a in areas if a.get("primary")), areas[0] if areas else {})
+    claims = _desc_allowed_claims(truth)
+    sysmsg = (
+        "You write per-service descriptions for a local company's Google "
+        "Business Profile services list. Hard rules for EVERY description:\n"
+        f"- Maximum {DESC_MAX_CHARS} characters; aim for 180 to 280. One to two "
+        "sentences of plain, confident language.\n"
+        "- Name the service naturally and mention the city or region.\n"
+        "- No em dashes, no emoji, no ALL CAPS, no keyword stuffing, no "
+        "superlative spam (best, #1, top-rated).\n"
+        "- NEVER claim licenses, certifications (IICRC, EPA, ...), insurance "
+        "status, 24/7 or emergency availability, response times, years in "
+        "business, awards, or guarantees unless the claim appears in "
+        "allowed_claims. When allowed_claims is empty, make no such claims at all.\n"
+        "- Google policy: no URLs, no phone numbers, no prices or promotions.\n"
+        "- When page_intro is given, ground the description in it; never invent "
+        "capabilities beyond the service name.\n"
+        'Return ONLY JSON: {"descriptions": {"<key>": "<description>", ...}} '
+        "with one entry per service key.")
+    user = json.dumps({
+        "business": loc.get("title") or brand.get("display_name") or slug,
+        "primary_city": f"{primary.get('city', '')}, {primary.get('state', '')}".strip(", "),
+        "nearby_cities": [a.get("city") for a in areas
+                          if a.get("city") and not a.get("primary")][:4],
+        "allowed_claims": claims,
+        "services": [{"key": str(i), "name": _item_name(it),
+                      "page_intro": _intro_for(_item_name(it), intros)}
+                     for i, it in missing],
+    }, indent=1)
+    out = _anthropic_json(sysmsg, "Write the descriptions.\n\nDATA:\n" + user,
+                          model=DESC_MODEL)
+    raw = {str(k): v for k, v in (out.get("descriptions") or {}).items()}
+
+    mode = "apply" if apply else "dry-run"
+    accepted: dict[int, str] = {}
+    for i, it in missing:
+        name = _item_name(it)
+        desc = _fit_desc(raw.get(str(i), ""))
+        if len(desc) < 40:
+            print(f"     [skip] {name}: model returned no usable description")
+            continue
+        # Truth gate: an error-severity claims violation never ships. Try the
+        # deterministic sanitizer once, then drop the description entirely.
+        if any(v["severity"] == "error" for v in claims_lint.lint_text(desc, truth)):
+            desc = _fit_desc(claims_lint.sanitize_claims_text(desc, truth))
+        if len(desc) < 40 or any(v["severity"] == "error"
+                                 for v in claims_lint.lint_text(desc, truth)):
+            print(f"     [skip] {name}: unbacked claim survived sanitizing — dropped")
+            continue
+        accepted[i] = desc
+        print(f"     [{mode}] {name} ({len(desc)} ch): {desc}")
+    if not accepted:
+        return f"{slug}: 0/{len(missing)} descriptions generated ({len(items)} items)"
+    if not apply:
+        return (f"{slug}: DRY RUN — {len(accepted)}/{len(missing)} missing "
+                f"descriptions ready ({len(items)} items total). Re-run with --apply.")
+
+    # PATCH: same list, same order, only description fields added.
+    new_list = json.loads(json.dumps(items))
+    for i, desc in accepted.items():
+        _set_item_desc(new_list[i], desc)
+    r = requests.patch(f"{INFO_API}/{loc['name']}?updateMask=serviceItems",
+                       headers={"Authorization": f"Bearer {token}",
+                                "Content-Type": "application/json"},
+                       data=json.dumps({"serviceItems": new_list}), timeout=60)
+    if not r.ok:
+        return f"{slug}: PATCH failed {r.status_code}: {r.text[:200]}"
+    back = find_location(token, place) or {}
+    back_items = back.get("serviceItems", [])
+    still = sum(1 for it in back_items if not _item_desc(it))
+    log_change(cid, "service_description",
+               f"Descriptions written for {len(accepted)} service(s) on the Google listing",
+               actor="optimizer",
+               meta={"services": [_item_name(items[i]) for i in accepted]})
+    return (f"{slug}: descriptions added to {len(accepted)}/{len(missing)} service(s) "
+            f"— missing before {len(missing)}, after {still} "
+            f"(listing has {len(back_items)} services)")
+
+
+def cmd_descriptions(args) -> int:
+    failures = 0
+    for slug in _clients(args):
+        try:
+            print("  " + service_descriptions(slug, apply=args.apply))
+        except Exception as e:  # one client must never abort a scheduled --all run
+            failures += 1
+            print(f"  {slug}: ERROR ({type(e).__name__}: {str(e)[:200]}) — skipped")
+    if failures:
+        print(f"  ({failures} client(s) errored and were skipped — see above)")
+    return 0  # non-fatal: a client error shouldn't fail the scheduled run
+
+
+# --------------------------------------------------------------------------- #
 # CLI
 # --------------------------------------------------------------------------- #
 def _clients(args) -> list[str]:
@@ -1030,7 +1249,7 @@ def declared_services(cid: str) -> tuple[list, list]:
     return (r.get("services") or []), (r.get("negative_services") or [])
 
 
-def _anthropic_json(system: str, user: str) -> dict:
+def _anthropic_json(system: str, user: str, model: str | None = None) -> dict:
     key = os.environ.get("ANTHROPIC_API_KEY")
     if not key:
         raise RuntimeError("Missing ANTHROPIC_API_KEY in rank-ai/.env")
@@ -1043,7 +1262,7 @@ def _anthropic_json(system: str, user: str) -> dict:
     for attempt in (1, 2, 3):
         r = requests.post(ANTHROPIC_API, headers={
             "x-api-key": key, "anthropic-version": "2023-06-01", "Content-Type": "application/json"},
-            data=json.dumps({"model": ANTHROPIC_MODEL, "max_tokens": 16384,
+            data=json.dumps({"model": model or ANTHROPIC_MODEL, "max_tokens": 16384,
                              "system": system, "messages": messages}))
         if r.status_code in (429, 500, 503, 529):  # overloaded/rate-limited — retry
             last = f"HTTP {r.status_code}"
@@ -1693,12 +1912,19 @@ def main() -> int:
     go = po.add_mutually_exclusive_group(required=True)
     go.add_argument("--slug")
     go.add_argument("--all", action="store_true")
+    pdsc = sub.add_parser("descriptions")
+    gd = pdsc.add_mutually_exclusive_group(required=True)
+    gd.add_argument("--slug")
+    gd.add_argument("--all", action="store_true")
+    pdsc.add_argument("--apply", action="store_true",
+                      help="PATCH the listing (default: dry-run print of proposed descriptions)")
     args = ap.parse_args()
     return {"read": cmd_read, "reconcile": cmd_reconcile, "sync": cmd_sync,
             "reviews": cmd_reviews, "photos": cmd_photos, "media-import": cmd_media_import,
             "set-phone": cmd_set_phone,
             "add-services": cmd_add_services,
-            "create-pages": cmd_create_pages, "optimize": cmd_optimize}[args.cmd](args)
+            "create-pages": cmd_create_pages, "optimize": cmd_optimize,
+            "descriptions": cmd_descriptions}[args.cmd](args)
 
 
 if __name__ == "__main__":

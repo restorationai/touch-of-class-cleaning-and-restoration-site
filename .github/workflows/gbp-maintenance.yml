@@ -63,6 +63,19 @@ jobs:
           DATAFORSEO_PASSWORD:        ${{ secrets.DATAFORSEO_PASSWORD }}
         run: python3 scripts/gbp.py optimize --all
 
+      - name: Add missing per-service descriptions (descriptions --all --apply)
+        # Idempotent: only service items MISSING a description get one (existing
+        # text is never overwritten), so the weekly pass converges to a no-op
+        # per client and only picks up newly-added services. Claims-gated via
+        # claims_lint truth tables; verified on narestco 2026-08-11 (20/20).
+        env:
+          SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY:  ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          GOOGLE_OAUTH_CLIENT_ID:     ${{ secrets.GOOGLE_OAUTH_CLIENT_ID }}
+          GOOGLE_OAUTH_CLIENT_SECRET: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
+          ANTHROPIC_API_KEY:          ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python3 scripts/gbp.py descriptions --all --apply
+
       - name: Drain page-build queue and deploy (create-pages --build)
         if: ${{ github.event.inputs.build_pages != 'false' }}
         env:
