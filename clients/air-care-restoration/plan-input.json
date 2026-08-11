@@ -27,7 +27,27 @@
    "24/7 Emergency Service",
    "Locally Owned & Operated"
   ],
-  "place_id": "ChIJAbX4Kjsyg2IRF9RgElzgJXk"
+  "place_id": "ChIJAbX4Kjsyg2IRF9RgElzgJXk",
+  "colors": {
+   "primary": "#02255d",
+   "secondary": "#2a70c0",
+   "accent": "#ff6901",
+   "palette": [
+    "#02255d",
+    "#2a70c0",
+    "#59b7ec",
+    "#3a9edc",
+    "#c3e8fb",
+    "#a3e2f6",
+    "#ff6901"
+   ],
+   "source": "Sarha's color-picker screenshots texted 2026-08-11 18:34 UTC (exact hex codes from her logo/business-card design)"
+  },
+  "fonts": {
+   "heading": "Anton",
+   "body": "Poppins",
+   "source": "same screenshots; Poppins selected in her font list, Anton in the mix"
+  }
  },
  "services": [
   "water-damage-restoration",
