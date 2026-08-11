@@ -72,6 +72,6 @@ Auburn's humidity profile through July and August also matters. If the evaporato
 
 ## Service area
 
-Quality Contracting, Inc. is based in Auburn, MA and serves homeowners and property managers throughout Worcester County and the surrounding region, including Worcester, Shrewsbury, Millbury, Oxford, Grafton, Northborough, and Southborough. Individual city and town service pages link back here for full process detail.
+Quality Contracting, Inc. is based in Auburn, MA and serves homeowners, property managers, and commercial building owners across Southern New England, with crews responding across a 50 mile radius of Auburn — including Worcester, Shrewsbury, Westborough, Southborough, Hopkinton, Framingham, Natick, Wellesley, Needham, Newton, and Weston. Individual city and town service pages link back here for full process detail.
 
 If your registers are dusty hours after cleaning, your system smells musty on startup, or you haven't had the ducts inspected since your last renovation — call (508) 756-8800 to schedule your duct cleaning assessment.

@@ -15,28 +15,48 @@
     "lng": -71.7135
   },
   {
-    "label": "Millbury, MA",
-    "lat": 42.1914,
-    "lng": -71.7604
+    "label": "Westborough, MA",
+    "lat": 42.2694,
+    "lng": -71.613
   },
   {
-    "label": "Grafton, MA",
-    "lat": 42.2063,
-    "lng": -71.6854
+    "label": "Southborough, MA",
+    "lat": 42.3057,
+    "lng": -71.5245
   },
   {
-    "label": "Leicester, MA",
-    "lat": 42.2459,
-    "lng": -71.9082
+    "label": "Hopkinton, MA",
+    "lat": 42.2289,
+    "lng": -71.5196
   },
   {
-    "label": "Oxford, MA",
-    "lat": 42.117,
-    "lng": -71.8644
+    "label": "Framingham, MA",
+    "lat": 42.2773,
+    "lng": -71.4166
   },
   {
-    "label": "Sutton, MA",
-    "lat": 42.1499,
-    "lng": -71.763
+    "label": "Natick, MA",
+    "lat": 42.2836,
+    "lng": -71.347
+  },
+  {
+    "label": "Wellesley, MA",
+    "lat": 42.2965,
+    "lng": -71.2926
+  },
+  {
+    "label": "Needham, MA",
+    "lat": 42.2803,
+    "lng": -71.2361
+  },
+  {
+    "label": "Newton, MA",
+    "lat": 42.33,
+    "lng": -71.1949
+  },
+  {
+    "label": "Weston, MA",
+    "lat": 42.3668,
+    "lng": -71.3031
   }
 ]

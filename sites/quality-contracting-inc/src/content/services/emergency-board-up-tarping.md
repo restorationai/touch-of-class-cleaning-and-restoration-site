@@ -68,6 +68,6 @@ Central Massachusetts sees conditions that stress board-up and tarping work in w
 
 ## Service area
 
-Quality Contracting, Inc. is based in Auburn and serves property owners throughout Worcester County and the surrounding region, including Worcester, Shrewsbury, Millbury, Oxford, Sutton, Grafton, and Northborough. Individual service-area pages for each city link back to this page for full service details.
+Quality Contracting, Inc. is based in Auburn and serves property owners across Southern New England, with crews responding across a 50 mile radius of Auburn — including Worcester, Shrewsbury, Westborough, Southborough, Hopkinton, Framingham, Natick, Wellesley, Needham, Newton, and Weston. Individual service-area pages for each city link back to this page for full service details.
 
 If your property has an opening that shouldn't be there — a broken window, a damaged door, a roof section that's exposed to the sky — call (508) 756-8800 to get a board-up crew scheduled and stop the loss from growing.

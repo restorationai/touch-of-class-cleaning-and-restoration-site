@@ -64,13 +64,13 @@ Every loss is different, and Quality Contracting, Inc. provides a written scope 
 
 ## Seasonal and regional considerations
 
-Central Massachusetts has a specific water damage calendar. Freeze-thaw cycles from January through March are the leading cause of pipe bursts in the region — older homes in Auburn, Millbury, and Leicester with uninsulated exterior walls or pipes running through unconditioned garage spaces are especially vulnerable. Ice damming along rooflines is a separate but related problem: meltwater backs up under shingles and enters wall and ceiling assemblies, often without any visible exterior sign until the interior is already saturated.
+Central Massachusetts has a specific water damage calendar. Freeze-thaw cycles from January through March are the leading cause of pipe bursts in the region — older homes in Auburn and Worcester with uninsulated exterior walls or pipes running through unconditioned garage spaces are especially vulnerable. Ice damming along rooflines is a separate but related problem: meltwater backs up under shingles and enters wall and ceiling assemblies, often without any visible exterior sign until the interior is already saturated.
 
 Spring snowmelt and heavy April rains push groundwater against foundation walls throughout Worcester County, making sump pump failures and basement seepage a recurring issue from March through May. Summer brings its own risk — humid air conditioning systems, condensate line backups, and the occasional severe storm. Knowing the regional pattern helps set realistic expectations for scheduling and drying times, since high ambient humidity in summer slows structural drying and may require additional dehumidification capacity.
 
 ## Service area
 
-Quality Contracting, Inc. is based in Auburn, MA and serves communities throughout central Massachusetts, including Worcester, Millbury, Shrewsbury, Grafton, Sutton, Leicester, Oxford, and surrounding towns. The city-specific pages for each community link back here for a full description of the water damage restoration process.
+Quality Contracting, Inc. is based in Auburn, MA and serves communities across Southern New England, with crews responding across a 50 mile radius of Auburn — including Worcester, Shrewsbury, Westborough, Southborough, Hopkinton, Framingham, Natick, Wellesley, Needham, Newton, and Weston. The city-specific pages for each community link back here for a full description of the water damage restoration process.
 
 ---
 

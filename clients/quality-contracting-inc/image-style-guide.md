@@ -142,7 +142,7 @@ The worker's uniform stays the same; their PPE and equipment shift per service. 
 ## Setting & Environment (Auburn / MA)
 
 - **Primary setting**: Auburn and surrounding MA residential and commercial properties
-- **Local housing stock cues**: Other cities served: Worcester, Shrewsbury, Millbury, Grafton, Leicester. — these details should appear in backgrounds and environmental context, NOT as the subject. They quietly anchor "this was shot in Auburn."
+- **Local housing stock cues**: Other cities served: Worcester, Shrewsbury, Westborough, Southborough, Hopkinton. — these details should appear in backgrounds and environmental context, NOT as the subject. They quietly anchor "this was shot in Auburn."
 - **Regional weather / season**: Regional climate cues per primary city; adapt exterior shots to match. — affects exterior shots especially. Pacific Northwest: wet roads, evergreen silhouettes, cedar siding, low gray cloud cover for "we just arrived in the rain" shots. Adapt per client.
 - **Time of day**: Mix of golden-hour exteriors and neutral-light interiors. Reserve dusk/blue-hour for "arrival" hero shots specifically.
 
@@ -184,7 +184,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] flood-damage-restoration
 - [ ] burst-pipe-repair
 - [ ] basement-flooding-cleanup
-- [ ] (continue for each of Water Damage Restoration, Storm Damage Restoration, Fire Damage Restoration, Mold Remediation, Renovations, Remodels and General Contracting, Sewage Cleanup and Sanitization, Biohazard Cleanup, Asbestos Abatement, Emergency Board-Up and Tarping, Contents Restoration and Storage, Air Duct Cleaning, Carpet Cleaning, Crawl Space Encapsulation, Post-Construction and Specialty Cleaning)
+- [ ] (continue for each of Water Damage Restoration, Storm Damage Restoration, Fire Damage Restoration, Mold Remediation, Sewage Cleanup and Sanitization, Biohazard Cleanup, Emergency Board-Up and Tarping, Contents Restoration and Storage, Air Duct Cleaning, Crawl Space Encapsulation)
 
 ### Service area pages (one image per city served)
 - [ ] Auburn hero — exterior shot, regional housing stock, evocative of the city

@@ -66,11 +66,11 @@ Every loss is different, and Quality Contracting, Inc. provides a written scope 
 
 Central Massachusetts sees storm damage year-round, but the risk profile shifts by season. Late summer and fall bring the remnants of Atlantic hurricanes and tropical storms that can dump several inches of rain in a few hours. Winter nor'easters combine heavy wet snow loads with ice damming — a condition where ice builds at the roof edge and forces meltwater back under shingles and into wall assemblies. Spring brings rapid snowmelt and severe thunderstorm lines capable of producing straight-line winds that rival tornado-strength gusts.
 
-Older homes in Auburn, Millbury, Grafton, and the surrounding towns often have roof pitches and gutter configurations that weren't designed for the ice dam conditions central Massachusetts now sees regularly. If your home has had ice dam leaks in past winters, that history is relevant information when scoping a storm damage claim — prior water intrusion can mean existing moisture damage that a new storm event reactivates.
+Older homes in Auburn, Worcester, and the surrounding towns often have roof pitches and gutter configurations that weren't designed for the ice dam conditions central Massachusetts now sees regularly. If your home has had ice dam leaks in past winters, that history is relevant information when scoping a storm damage claim — prior water intrusion can mean existing moisture damage that a new storm event reactivates.
 
 ## Service area
 
-Quality Contracting, Inc. is based in Auburn, MA and serves homeowners and property managers throughout Worcester County and the surrounding region, including Millbury, Grafton, Shrewsbury, Northborough, Sutton, Oxford, Leicester, and Worcester. Individual service-area pages cover storm damage restoration details specific to each community.
+Quality Contracting, Inc. is based in Auburn, MA and serves homeowners, property managers, and commercial building owners across Southern New England, with crews responding across a 50 mile radius of Auburn — including Worcester, Shrewsbury, Westborough, Southborough, Hopkinton, Framingham, Natick, Wellesley, Needham, Newton, and Weston. Individual service-area pages cover storm damage restoration details specific to each community.
 
 ---
 

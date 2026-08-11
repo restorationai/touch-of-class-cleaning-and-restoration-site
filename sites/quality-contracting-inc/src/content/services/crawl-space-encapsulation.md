@@ -74,7 +74,7 @@ The practical implication: encapsulation scheduled in late spring often catches 
 
 ## Service area
 
-Quality Contracting, Inc. is based in Auburn, MA and serves crawl space encapsulation customers throughout Worcester County and the surrounding region, including Worcester, Millbury, Sutton, Grafton, Northborough, Shrewsbury, Leicester, and Spencer. Individual city and town service pages link back here for full process details.
+Quality Contracting, Inc. is based in Auburn, MA and serves crawl space encapsulation customers across Southern New England, with crews responding across a 50 mile radius of Auburn — including Worcester, Shrewsbury, Westborough, Southborough, Hopkinton, Framingham, Natick, Wellesley, Needham, Newton, and Weston. Individual city and town service pages link back here for full process details.
 
 ---
 

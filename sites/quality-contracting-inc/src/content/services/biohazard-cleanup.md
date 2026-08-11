@@ -66,6 +66,6 @@ Every loss is different, and Quality Contracting, Inc. provides a written scope 
 
 ## Service area
 
-Quality Contracting, Inc. is based in Auburn, MA and serves communities throughout central Massachusetts, including Worcester, Millbury, Sutton, Grafton, Shrewsbury, Northborough, and surrounding towns. Individual service-area pages link back here for full process and pricing detail.
+Quality Contracting, Inc. is based in Auburn, MA and serves communities across Southern New England, with crews responding across a 50 mile radius of Auburn — including Worcester, Shrewsbury, Westborough, Southborough, Hopkinton, Framingham, Natick, Wellesley, Needham, Newton, and Weston. Individual service-area pages link back here for full process and pricing detail.
 
 When you're ready to move forward — or just need to understand what the process looks like before making any decisions — call Quality Contracting, Inc. at **(508) 756-8800**. The conversation is confidential, and the response is handled with the discretion this kind of work requires.

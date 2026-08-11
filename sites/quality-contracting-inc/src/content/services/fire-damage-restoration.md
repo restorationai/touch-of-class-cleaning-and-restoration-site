@@ -70,7 +70,7 @@ Winter fire losses also introduce a secondary risk: water damage from firefighti
 
 ## Service area
 
-Quality Contracting, Inc. is based in Auburn, MA and provides fire damage restoration throughout Worcester County and the surrounding region, including Worcester, Shrewsbury, Millbury, Oxford, Sutton, Grafton, Northborough, and Westborough. The city and town pages in this section link to service-specific information for each community.
+Quality Contracting, Inc. is based in Auburn, MA and provides fire damage restoration across Southern New England, with crews responding across a 50 mile radius of Auburn — including Worcester, Shrewsbury, Westborough, Southborough, Hopkinton, Framingham, Natick, Wellesley, Needham, Newton, and Weston. The city and town pages in this section link to service-specific information for each community.
 
 ---
 

@@ -65,6 +65,6 @@ In central Massachusetts, two seasonal patterns drive sewage backup calls. Sprin
 
 ## Service area
 
-Quality Contracting, Inc. is based in Auburn, MA and serves communities throughout Worcester County and the greater central Massachusetts region, including Worcester, Shrewsbury, Millbury, Grafton, Northborough, Westborough, Oxford, and surrounding towns. The city-specific pages for each community link back here for full service details.
+Quality Contracting, Inc. is based in Auburn, MA and serves communities across Southern New England, with crews responding across a 50 mile radius of Auburn — including Worcester, Shrewsbury, Westborough, Southborough, Hopkinton, Framingham, Natick, Wellesley, Needham, Newton, and Weston. The city-specific pages for each community link back here for full service details.
 
 If you're standing in a basement that smells like a sewer line, call (508) 756-8800 to speak with someone about beginning sewage removal and sanitization.

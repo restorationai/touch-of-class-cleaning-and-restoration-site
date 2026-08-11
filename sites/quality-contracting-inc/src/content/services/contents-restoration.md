@@ -76,6 +76,6 @@ Older housing stock in Auburn and the surrounding communities — much of it bui
 
 ## Service area
 
-Quality Contracting, Inc. is based in Auburn, MA and provides contents restoration and storage services throughout central Massachusetts, including Worcester, Shrewsbury, Millbury, Leicester, Oxford, Grafton, Northborough, and surrounding communities. Individual city and town pages link back to this page for full service details.
+Quality Contracting, Inc. is based in Auburn, MA and provides contents restoration and storage services across Southern New England, with crews responding across a 50 mile radius of Auburn — including Worcester, Shrewsbury, Westborough, Southborough, Hopkinton, Framingham, Natick, Wellesley, Needham, Newton, and Weston. Individual city and town pages link back to this page for full service details.
 
 If your belongings have been affected by fire, water, or another loss event, call **(508) 756-8800** to schedule an on-site contents assessment and get a written scope before anything is moved.
