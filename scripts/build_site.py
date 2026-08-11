@@ -1830,6 +1830,54 @@ def _ensure_remote(name: str, url: str, cwd: Path) -> None:
         git(["remote", "add", name, url], cwd)
 
 
+_REHYDRATE_TARGETS = (
+    "src/lib/brand.ts",
+    "astro.config.mjs",
+    "public/llms.txt",
+    "public/ai.txt",
+    "public/robots.txt",
+    "public/_redirects",
+)
+
+
+def _rehydrate_domain(slug: str, site_dir: Path, mono: Path) -> None:
+    """Heal every `https://None` a domain-attached-after-scaffold left behind.
+
+    Scaffold hydrates brand.ts / astro.config.mjs / llms.txt from the client
+    record at scaffold time; a client whose domain arrives later ships
+    `https://None` in canonicals, schema, and the ENTIRE sitemap (crew3r.com
+    served 668 sitemap URLs on host 'none' for 3 days, 2026-08-11). Every
+    deploy now re-reads the record and heals the known carriers, committing
+    just those files so the fix rides the push it precedes."""
+    client_path = CLIENTS_DIR / f"{slug}.json"
+    if not client_path.exists():
+        return
+    domain = str(json.loads(client_path.read_text()).get("domain") or "").strip()
+    if not domain or domain.lower() == "none" or domain.endswith(".invalid"):
+        return
+    changed = []
+    for rel in _REHYDRATE_TARGETS:
+        p = site_dir / rel
+        if not p.exists():
+            continue
+        s = p.read_text()
+        healed = (s.replace("https://None", f"https://{domain}")
+                   .replace("https://none/", f"https://{domain}/")
+                   .replace('domain: "None"', f'domain: "{domain}"'))
+        if healed != s:
+            p.write_text(healed)
+            changed.append(rel)
+    if changed:
+        rels = [f"sites/{slug}/{c}" for c in changed]
+        git(["add", *rels], mono)
+        git(["commit", "-m",
+             f"{slug}: rehydrate https://None -> https://{domain} "
+             f"(domain attached after scaffold; auto-healed at deploy)",
+             "--", *rels], mono)
+        print(f"    [rehydrate] healed https://None -> https://{domain} in: "
+              + ", ".join(changed))
+
+
 def cmd_sync_deploy(args) -> int:
     slug = args.slug
     branch = args.branch
@@ -1863,6 +1911,11 @@ def cmd_sync_deploy(args) -> int:
     print(f"    Target branch: {branch}")
     print(f"    Monorepo: {mono}")
     print()
+
+    # LAUNCH-PATH REHYDRATION GUARD (2026-08-11): heal stale https://None
+    # before anything ships. Runs on every branch — staging previews with a
+    # known domain deserve correct canonicals too.
+    _rehydrate_domain(slug, site_dir, mono)
 
     # Step 1: Working tree must be clean for subtree split to work cleanly
     status = git(["status", "--porcelain"], mono)
