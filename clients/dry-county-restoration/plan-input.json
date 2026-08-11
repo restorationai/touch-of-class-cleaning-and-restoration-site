@@ -10,6 +10,8 @@
   "state": "CA",
   "postal_code": "92883",
   "theme": "light",
+  "primary_color": "#007fb2",
+  "accent_color": "#fe0000",
   "licensed_insured_attested": true,
   "founded_year": "2020",
   "trust_badges": [

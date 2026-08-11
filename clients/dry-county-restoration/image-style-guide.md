@@ -1,5 +1,74 @@
 # Dry County Restoration: Image Style Guide
 
+## CLIENT DIRECTION — AI-FIRST POLISHED LOOK (doctrine 2026-08-10)
+
+**Fleet-wide imagery doctrine (Santino 2026-08-10, see scripts/dev_agent.md
+"Imagery doctrine"): AI-FIRST.** Launch slots on this site carry the polished
+AI-generated look. Dry County's REAL photos serve as REFERENCES: two PPE
+photos pin the sealed suit, the drying-equipment photo pins the gear, and
+their GBP/website library establishes the facts below. Exactly ONE real photo
+is exceptional and holds its slot outright: the blue-cabinet kitchen remodel
+holds the general-contracting card (pinned in `photo-manifest.json`). Nothing
+in a generated frame may be false to what the real photos document.
+
+1. **THE SITE IS LIGHT: WHITE + LOGO BLUE.** Theme is light/white with primary
+   blue `#007fb2`, sampled from the wordmark of the real logo
+   (`public/images/logo.png`); red `#fe0000` is the logo's tagline accent and
+   appears in site chrome only, NEVER as invented red-painted objects, red
+   uniforms or red vehicles in scenes. Generated frames read bright, clean and
+   premium under dry Southern California light. Never dark, moody or
+   desaturated.
+2. **NO COMPANY VEHICLE MAY BE GENERATED, EVER.** Their photo library contains
+   ZERO photographs of a company vehicle, so there is no livery to reproduce
+   and none may be invented. Compositions are vehicle-free: crew, equipment
+   and the property carry the frame. A generated frame containing a branded,
+   wrapped or lettered vehicle is an AUTOMATIC REJECT.
+3. **THE MASCOT STAYS ON THE LOGO.** The cartoon cowboy water-drop mascot
+   exists only in the logo file. Never render the mascot, a cowboy-hat motif,
+   or any cartoon element inside a photographic scene.
+4. **CREW WEAR SEALED WHITE TYVEK OR NEUTRAL WORKWEAR.** Real job photos
+   document full white Tyvek coveralls, hood UP, zipped to the throat, 3M
+   respirators with MAGENTA/pink P100 cartridges, black gloves, boot covers
+   (see PPE references). Where the service warrants PPE: exactly that, sealed;
+   worn open, hood down, or tied at the waist is a REJECT. No branded polo,
+   hat or uniform color is documented ANYWHERE (the black/orange
+   leak-detection and blue-shirt photos in the harvest are website stock, not
+   their crew), so never invent one: non-PPE scenes use plain neutral
+   charcoal/gray workwear with no company branding on the clothing.
+5. **EQUIPMENT MATCHES THEIR REAL GEAR.** Documented in their own job photos:
+   BLUE axial air movers, blue-and-gray LGR dehumidifiers (staged in a black
+   condensate tray on finished floors), poly containment sheeting taped with
+   TEAL painter's tape, zippered containment doorways, red extraction hose,
+   thermal imaging camera, moisture meters. No invented brand labels and no
+   readable text on any unit. (Human reference, not auto-injected:
+   `harvested/real-equipment-drying-2026-08-10.jpg`.)
+6. **CORONA / INLAND EMPIRE CA, ALWAYS.** Tan and cream stucco homes, Spanish
+   tile roofs, palms, dry golden light, brown foothills in the distance. No
+   lush eastern lawns, no evergreens, no colonial housing stock, no rain.
+7. **QUALITY GATES (every generated image, before install):** zero readable or
+   garbled lettering anywhere; correct hand/limb anatomy; no crisp
+   recognizable faces; equipment per rule 5; damage honest but never
+   gratuitous; no stock-photo grins or thumbs-up. Two or three attempts per
+   image is normal. Reject, don't rationalize.
+
+PPE-REFERENCE: harvested/real-ppe-sealed-2026-08-10.jpg
+PPE-REFERENCE: harvested/real-ppe-containment-2026-08-10.jpg
+
+NO-VEHICLES: no photograph of a company vehicle exists in their library, so NO vehicle of any kind may appear in any generated frame — no van, no pickup truck, no box truck, no trailer, branded OR unbranded; equipment is carried by hand or staged on the ground, never loaded into or out of a vehicle; compose every scene without vehicles entirely (crew, equipment and the property carry it)
+
+CREW-OVERRIDE: technicians wear FULL sealed white Tyvek coveralls exactly as in the PPE reference photographs (zipped to the throat, hood UP over the head, respirator sealed to the face with magenta P100 cartridges, black nitrile gloves, boot covers) whenever the scene shows remediation, demolition, mold, sewage or fire work; in non-PPE scenes plain neutral charcoal workwear with no visible company branding on the clothing (no branded polo or hat exists in evidence, so none may be invented); work shots frame from behind or three-quarter profile with no face crisply visible; the team photo shows 3-4 crew standing together confidently at a modest camera distance in front of a Corona-style tan stucco home with blue drying equipment staged beside them, calm professional bearing, faces softly rendered not crisp, no stock-photo grins, no thumbs-up
+
+MOOD-OVERRIDE: bright, clean, high-key dry Southern California daylight, light, airy and premium to match a white-and-blue light-theme site; interiors neutral, clean and well-lit by daylight or work lights; never dark, moody, stormy or ominous
+
+EQUIPMENT-OVERRIDE: drying and remediation gear matches the company's real equipment photographs: BLUE axial air movers, blue-and-gray LGR dehumidifiers staged in a black condensate tray when on finished flooring, poly containment sheeting taped with teal painter's tape and zippered containment doorways; equipment carries no readable brand text
+
+**This block outranks everything below the horizontal rule.** The sections
+below are canonical restoration boilerplate regenerated from the template;
+where they disagree with this block (branded polos, vehicle logos, multi-van
+fleets), this block wins.
+
+---
+
 This guide is consulted by every image-generation call (Skill 3 launch images, Skill 4 blog hero images, future image regenerations). The goal: a viewer scrolling through the site should feel like one professional photographer documented one company on one continuous job. No stylistic drift from page to page.
 
 The values below are auto-populated from `plan-input.json` at planning time. Per-client brand colors come from the client's logo / brand identity — NOT from the canonical starter palette. The structural conventions (camera, lens, lighting, composition) are restoration-vertical canonical and shared across all Rank AI clients.
@@ -209,3 +278,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 ## Style guide version
 
 This guide is generated from `templates/restoration/image-style-guide.template.md` v1.1 (2026-07-11: added Standing Brand Rules — real vehicle logos, single declared uniform color, harvest-first). When the canonical template updates, existing clients keep their pinned version unless explicitly regenerated. Bump the version + add a changelog entry when changing structural rules (e.g., adding new mandatory PPE conventions).
+
+### Changelog
+
+- **v1.2-dcr (2026-08-10)** — Full visual pass under the AI-FIRST doctrine (Santino 2026-08-10, see `scripts/dev_agent.md` Imagery doctrine). Added the CLIENT DIRECTION block: light white + blue `#007fb2` direction sampled from the real logo's wordmark (red `#fe0000` tagline accent, site chrome only), `NO-VEHICLES:` because their 85-asset harvest contains zero vehicle photographs (never invent livery), sealed-white-Tyvek crew facts with magenta-P100-cartridge respirators pinned via two `PPE-REFERENCE:` photos, real-equipment facts (blue air movers, blue-gray LGR dehumidifiers, teal-taped poly containment) as `EQUIPMENT-OVERRIDE:`, Corona / Inland Empire CA setting, and mascot-stays-on-the-logo rule. The black/orange and blue-shirt "uniform" photos in the harvest were judged website stock and explicitly excluded from crew facts. One real-photo exception per doctrine: the blue-cabinet kitchen remodel (q=82, their best asset) holds the general-contracting card, pinned in `photo-manifest.json`.

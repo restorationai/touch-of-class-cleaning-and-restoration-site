@@ -2281,6 +2281,16 @@
       "triage_model": "claude-sonnet-4-6"
     }
   },
-  "slots": {},
+  "slots": {
+    "service:general-contracting": {
+      "asset": "gbp:gbp-AF1QipP-spkeyBLsyxFzkLjwYVbvGn_NmdI9jCODNPLN",
+      "source": "gbp",
+      "category": "job_progress",
+      "subject": "Renovated kitchen with blue cabinets and white countertops",
+      "file": "/images/services/general-contracting.webp",
+      "installed_at": "2026-08-10T23:54:58Z",
+      "note": "AI-FIRST doctrine exception: exceptional real photo (q=82, their best asset) holds this card; pinned by hand during the 2026-08-10 visual pass."
+    }
+  },
   "triaged_at": "2026-08-09T14:43:44Z"
 }
