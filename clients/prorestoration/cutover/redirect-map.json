@@ -1,0 +1,127 @@
+{
+ "generated_at": "2026-08-12T15:40:45+00:00",
+ "domain": "prorestorationca.com",
+ "routes": 227,
+ "map": {
+  "/about-us": {
+   "target": "/about/",
+   "how": "heuristic"
+  },
+  "/carpet-cleaning": {
+   "target": "/services/carpet-cleaning/",
+   "how": "claude"
+  },
+  "/emergency-water-removal": {
+   "target": "/services/water-damage-restoration/",
+   "how": "claude"
+  },
+  "/fire-damage": {
+   "target": "/services/fire-damage-restoration/",
+   "how": "claude"
+  },
+  "/how-activepure-works": {
+   "target": "/",
+   "how": "claude"
+  },
+  "/mold-remediation": {
+   "target": "/services/mold-remediation/",
+   "how": "claude"
+  },
+  "/restoration": {
+   "target": "/services/",
+   "how": "claude"
+  },
+  "/sewage-cleanup": {
+   "target": "/services/sewage-cleanup/",
+   "how": "claude"
+  },
+  "/sitemap": {
+   "target": "/",
+   "how": "heuristic"
+  },
+  "/utm_campaign=gmb": {
+   "target": "/",
+   "how": "claude"
+  },
+  "/water-damage": {
+   "target": "/services/water-damage-restoration/",
+   "how": "claude"
+  },
+  "/water-damage-arvin": {
+   "target": "/service-areas/arvin-ca/water-damage-restoration/",
+   "how": "claude"
+  },
+  "/water-damage-bear-valley-springs": {
+   "target": "/service-areas/tehachapi-ca/water-damage-restoration/",
+   "how": "claude"
+  },
+  "/water-damage-conner": {
+   "target": "/service-areas/lake-isabella-ca/water-damage-restoration/",
+   "how": "claude"
+  },
+  "/water-damage-delano": {
+   "target": "/service-areas/delano-ca/water-damage-restoration/",
+   "how": "claude"
+  },
+  "/water-damage-frazier-park": {
+   "target": "/service-areas/tehachapi-ca/water-damage-restoration/",
+   "how": "claude"
+  },
+  "/water-damage-keene": {
+   "target": "/service-areas/tehachapi-ca/water-damage-restoration/",
+   "how": "claude"
+  },
+  "/water-damage-lake-isabella": {
+   "target": "/service-areas/lake-isabella-ca/water-damage-restoration/",
+   "how": "claude"
+  },
+  "/water-damage-lamont": {
+   "target": "/service-areas/lamont-ca/water-damage-restoration/",
+   "how": "claude"
+  },
+  "/water-damage-lebec": {
+   "target": "/service-areas/tehachapi-ca/water-damage-restoration/",
+   "how": "claude"
+  },
+  "/water-damage-oildale": {
+   "target": "/service-areas/oildale-ca/water-damage-restoration/",
+   "how": "claude"
+  },
+  "/water-damage-panama": {
+   "target": "/service-areas/bakersfield-ca/water-damage-restoration/",
+   "how": "claude"
+  },
+  "/water-damage-rosedale": {
+   "target": "/service-areas/rosedale-ca/water-damage-restoration/",
+   "how": "claude"
+  },
+  "/water-damage-shafter": {
+   "target": "/service-areas/shafter-ca/water-damage-restoration/",
+   "how": "claude"
+  },
+  "/water-damage-taft": {
+   "target": "/service-areas/taft-ca/water-damage-restoration/",
+   "how": "claude"
+  },
+  "/water-damage-tehachapi": {
+   "target": "/service-areas/tehachapi-ca/water-damage-restoration/",
+   "how": "claude"
+  },
+  "/water-damage-valley-acres": {
+   "target": "/service-areas/bakersfield-ca/water-damage-restoration/",
+   "how": "claude"
+  },
+  "/water-damage-wasco": {
+   "target": "/service-areas/wasco-ca/water-damage-restoration/",
+   "how": "claude"
+  },
+  "/water-damage-weedpatch": {
+   "target": "/service-areas/lamont-ca/water-damage-restoration/",
+   "how": "claude"
+  },
+  "/water-damage-wible-orchard": {
+   "target": "/service-areas/bakersfield-ca/water-damage-restoration/",
+   "how": "claude"
+  }
+ }
+}
