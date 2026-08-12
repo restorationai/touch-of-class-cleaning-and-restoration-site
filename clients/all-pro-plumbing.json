@@ -78,5 +78,13 @@
     "last_run_total_actions": 0,
     "last_run_top_action": null,
     "last_run_report_path": "clients/all-pro-plumbing/refresh-runs/2026-07-30-refresh-recommender.md"
+  },
+  "cutover_prep": {
+    "domain": "allproplumbingheatingandair.com",
+    "harvested_at": "2026-08-12T15:41:38+00:00",
+    "url_count": 212,
+    "backlinked_count": 2,
+    "redirects_added": 1,
+    "mapped_at": "2026-08-12T15:41:41+00:00"
   }
 }
