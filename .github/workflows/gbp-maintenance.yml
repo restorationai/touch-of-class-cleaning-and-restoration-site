@@ -76,6 +76,20 @@ jobs:
           ANTHROPIC_API_KEY:          ${{ secrets.ANTHROPIC_API_KEY }}
         run: python3 scripts/gbp.py descriptions --all --apply
 
+      - name: Fill missing About-section profile fields (enrich --all --apply)
+        # Add-only enrichment: opening date, social profile links, the on-site
+        # service option, service areas, onboarding-selected services. An
+        # existing value is NEVER overwritten, so the weekly pass converges to
+        # a no-op per client and only picks up new gaps. Every applied change
+        # lands in marketing_gbp_changes and feeds the monthly summary.
+        # Verified fleet-wide 2026-08-11.
+        env:
+          SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY:  ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          GOOGLE_OAUTH_CLIENT_ID:     ${{ secrets.GOOGLE_OAUTH_CLIENT_ID }}
+          GOOGLE_OAUTH_CLIENT_SECRET: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
+        run: python3 scripts/gbp.py enrich --all --apply
+
       - name: Drain page-build queue and deploy (create-pages --build)
         if: ${{ github.event.inputs.build_pages != 'false' }}
         env:

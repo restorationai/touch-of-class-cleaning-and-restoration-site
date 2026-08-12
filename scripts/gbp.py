@@ -18,6 +18,7 @@ Commands:
     python3 scripts/gbp.py reconcile     --slug narestco
     python3 scripts/gbp.py reconcile     --all
     python3 scripts/gbp.py descriptions  --slug narestco [--apply]   # per-service descriptions
+    python3 scripts/gbp.py enrich        --all [--apply]             # About-section fill-in
 
 Read-only for now (no writes). Update operations + strategist wiring come next.
 Env (rank-ai/.env): SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, GOOGLE_OAUTH_CLIENT_ID,
@@ -731,13 +732,51 @@ def add_services(slug: str, services: list) -> str:
         added.append(svc.strip())
     if not added:
         return f"{slug}: nothing to add (all already on the listing)"
+    # HEAL STALE CATEGORIES (mirrors the gbp-add-service edge function, Crew
+    # 2026-08-09): Google validates EVERY item in the PATCHed list against the
+    # location's CURRENT categories, so one leftover item tagged to a removed
+    # category 400s adds that never touched it. Remap those items' category
+    # tag to the primary — labels and everything else stay untouched.
+    loc_cats = {primary_cat} | {c.get("name") for c in
+                                (loc.get("categories", {}).get("additionalCategories") or [])}
+    for item in new_list:
+        ffs = item.get("freeFormServiceItem")
+        if ffs and ffs.get("category") and ffs["category"] not in loc_cats:
+            ffs["category"] = primary_cat
+    hdrs = {"Authorization": f"Bearer {token}", "Content-Type": "application/json"}
+
+    def _validate(lst: list):
+        return requests.patch(
+            f"{INFO_API}/{loc['name']}?updateMask=serviceItems&validateOnly=true",
+            headers=hdrs, data=json.dumps({"serviceItems": lst}), timeout=60)
+
+    # 100-ITEMS-PER-CATEGORY CAP (dry-county 2026-08-11: primary already sat
+    # at ~99, so an 11-service batch 400ed while single adds passed). Validate
+    # first; on a cap rejection, spill the NEW items together into the next
+    # listing category with room (restoration-flavored categories first —
+    # grouping is cosmetic, not adding the services is not). Existing items
+    # are never re-homed by this loop.
+    new_items = new_list[len(existing):]
+    spill = [primary_cat] + sorted(
+        (c.get("name") for c in (loc.get("categories", {}).get("additionalCategories") or [])
+         if c.get("name")),
+        key=lambda n: ("restoration" not in n, n))
+    r = _validate(new_list)
+    ci = 0
+    while not r.ok and "exceed 100 per category" in r.text and ci + 1 < len(spill):
+        ci += 1
+        for item in new_items:
+            item["freeFormServiceItem"]["category"] = spill[ci]
+        r = _validate(new_list)
+    if not r.ok:
+        return f"{slug}: PATCH failed (validation) {r.status_code}: {r.text[:200]}"
     r = requests.patch(f"{INFO_API}/{loc['name']}?updateMask=serviceItems",
-                       headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json"},
-                       data=json.dumps({"serviceItems": new_list}))
+                       headers=hdrs, data=json.dumps({"serviceItems": new_list}))
     if not r.ok:
         return f"{slug}: PATCH failed {r.status_code}: {r.text[:200]}"
-    # read back to confirm
-    back = find_location(token, brand["place_id"])
+    # read back to confirm (place, not brand["place_id"] — auto-built
+    # plan-inputs may carry no place_id and resolve via the connection)
+    back = find_location(token, place)
     now_have = {((s.get("freeFormServiceItem", {}) or {}).get("label", {}) or {}).get("displayName", "").strip().lower()
                 for s in back.get("serviceItems", []) if "freeFormServiceItem" in s}
     confirmed = [s for s in added if s.lower() in now_have]
@@ -1268,6 +1307,471 @@ def cmd_descriptions(args) -> int:
 
 
 # --------------------------------------------------------------------------- #
+# PROFILE ENRICHMENT — the About-section fields nobody fills because no human
+# opens each account (Santino approved auto-applying 2026-08-11): opening
+# date, social profile links, the on-site service option, service areas, and
+# the services the client picked in the onboarding wizard. Fill what is
+# MISSING only — an existing value is NEVER overwritten — and log every write
+# to marketing_gbp_changes so it lands in the client's monthly summary.
+# Field shapes verified against the live API 2026-08-11 (narestco read):
+#   openInfo.openingDate                     (needs {year, month} — a bare
+#                                             {year} is rejected as invalid)
+#   locations/{id}/attributes                (current values; url_* / BOOL)
+#   attributes?parent=locations/{id}         (which attrs the category allows)
+#   serviceArea.places.placeInfos            (placeName-only PATCH validates —
+#                                             Google resolves the place ids)
+# --------------------------------------------------------------------------- #
+_SOCIAL_HOST_ATTR = [  # host -> GBP social-link attribute id
+    ("facebook.com", "url_facebook"), ("instagram.com", "url_instagram"),
+    ("linkedin.com", "url_linkedin"), ("youtube.com", "url_youtube"),
+    ("youtu.be", "url_youtube"), ("pinterest.com", "url_pinterest"),
+    ("tiktok.com", "url_tiktok"), ("twitter.com", "url_twitter"),
+    ("x.com", "url_twitter"),
+]
+_SOCIAL_LABEL = {"url_facebook": "Facebook", "url_instagram": "Instagram",
+                 "url_linkedin": "LinkedIn", "url_youtube": "YouTube",
+                 "url_pinterest": "Pinterest", "url_tiktok": "TikTok",
+                 "url_twitter": "X (Twitter)"}
+# A post/permalink is never a profile page (citations_sync learned this the
+# hard way: narestco's facebook slot held ANOTHER company's post, 2026-08-11).
+_SOCIAL_POST_BITS = ("/posts/", "/photos/", "/videos/", "/reel", "/watch",
+                     "/permalink", "/story.php", "/status/", "/shorts/",
+                     "/pin/", "/video/", "/events/", "/groups/", "/p/",
+                     "/share/", "/hashtag/")
+_BRAND_STOP = {"the", "and", "of", "inc", "llc", "corp", "company"}
+
+
+def _social_attr_for(url: str) -> str | None:
+    from urllib.parse import urlsplit
+    host = urlsplit(url).netloc.lower()
+    for pre in ("www.", "m."):
+        if host.startswith(pre):
+            host = host[len(pre):]
+    for dom, attr in _SOCIAL_HOST_ATTR:
+        if host == dom or host.endswith("." + dom):
+            return attr
+    return None
+
+
+def _social_handle(url: str) -> str:
+    """First meaningful path segment — the profile handle. Container segments
+    (facebook /people/, linkedin /company/, youtube /channel|/c|/user) are
+    skipped so the name-bearing segment behind them is what gets guarded."""
+    from urllib.parse import parse_qs, urlsplit
+    parts = urlsplit(url)
+    segs = [s for s in parts.path.split("/") if s]
+    skip = {"pg", "people", "company", "school", "channel", "c", "user", "biz"}
+    for seg in segs:
+        low = seg.lower()
+        if low in skip:
+            continue
+        if low == "profile.php":
+            return (parse_qs(parts.query).get("id") or [""])[0]
+        return seg.lstrip("@")
+    return ""
+
+
+def _social_identity(slug: str, pi: dict, loc: dict) -> dict:
+    """Everything a matching handle could plausibly spell: the business
+    name's significant tokens, its brand token (first significant word), and
+    compressed strong forms (domain stem, slug, whole name) — handles are
+    usually the domain ('narestco' never contains a single name token)."""
+    name = (loc.get("title") or (pi.get("brand") or {}).get("display_name")
+            or slug.replace("-", " "))
+    toks = {t for t in re.findall(r"[a-z]+", name.lower()) if len(t) > 3}
+    brand_tok = next((t for t in re.findall(r"[a-z0-9]+", name.lower())
+                      if len(t) >= 3 and t not in _BRAND_STOP), "")
+    strong = {re.sub(r"[^a-z0-9]", "", slug),
+              re.sub(r"[^a-z0-9]", "", name.lower())}
+    rec = ROOT / "clients" / f"{slug}.json"
+    if rec.exists():
+        try:
+            domain = json.loads(rec.read_text()).get("domain") or ""
+            strong.add(re.sub(r"[^a-z0-9]", "", domain.rsplit(".", 1)[0].lower()))
+        except (json.JSONDecodeError, OSError):
+            pass
+    return {"tokens": toks, "brand_tok": brand_tok,
+            "strong": {s for s in strong if len(s) >= 5}}
+
+
+def _social_ok(url: str, attr: str, ident: dict) -> tuple[bool, str]:
+    """Identity caution (same spirit as citations_sync): only URLs whose
+    handle plausibly matches the business go on the listing — a wrong sameAs
+    is worse than a missing one. Opaque numeric/channel ids pass: they were
+    name-guarded at citations-audit time or operator-entered in plan-input."""
+    from urllib.parse import urlsplit
+    path = urlsplit(url).path.lower()
+    if any(b in path for b in _SOCIAL_POST_BITS):
+        return False, "post/permalink, not a profile"
+    if attr == "url_linkedin" and "/company/" not in path:
+        return False, "not a company page"
+    handle = _social_handle(url).lower()
+    if not handle:
+        return False, "no handle in the URL"
+    if handle.isdigit():
+        return True, ""  # opaque id — verified at its source
+    if attr == "url_youtube" and handle.startswith("uc") and len(handle) >= 20:
+        return True, ""  # channel id
+    hc = re.sub(r"[^a-z0-9]", "", handle)
+    if len(hc) >= 5 and any(hc in s or s in hc for s in ident["strong"]):
+        return True, ""
+    if ident["brand_tok"] and ident["brand_tok"] in hc:
+        return True, ""
+    hits = sum(1 for t in ident["tokens"] if t in hc)
+    if hits >= min(2, len(ident["tokens"]) or 1):
+        return True, ""
+    return False, f"handle '{handle}' does not match the business"
+
+
+def _social_candidates(cid: str | None, pi: dict) -> list[tuple[str, str]]:
+    """(url, source) candidates, plan-input first (operator-recorded beats
+    audit-discovered when both name the same platform)."""
+    out = [(u, "plan-input") for u in ((pi.get("brand") or {}).get("same_as_urls") or []) if u]
+    if cid:
+        rows = _sb("user_integrations?provider=eq.citations"
+                   f"&client_id=eq.{cid}&select=connection_metadata")
+        for row in rows or []:
+            md = row.get("connection_metadata") or {}
+            for key, e in (md.get("nap_audit") or {}).items():
+                if isinstance(e, dict) and e.get("url") \
+                        and e.get("status") in ("found", "discrepancy"):
+                    out.append((e["url"], f"citations audit {key}"))
+            for key, u in (md.get("citation_urls") or {}).items():
+                if u:
+                    out.append((str(u), f"citations {key}"))
+    return out
+
+
+def _attr_metadata(token: str, loc: dict) -> dict[str, str]:
+    """{attribute id: valueType} the location's primary category supports —
+    the gate that decides which url_*/BOOL attributes may be written."""
+    out: dict[str, str] = {}
+    page = ""
+    while True:
+        url = f"{INFO_API}/attributes?parent={loc['name']}&pageSize=200" + \
+              (f"&pageToken={page}" if page else "")
+        d = _g(url, token)
+        for a in d.get("attributeMetadata", []):
+            aid = str(a.get("parent") or "").split("/")[-1]
+            if aid:
+                out[aid] = a.get("valueType") or ""
+        page = d.get("nextPageToken") or ""
+        if not page:
+            break
+    return out
+
+
+def _current_attr_ids(token: str, loc: dict) -> set[str]:
+    d = _g(f"{INFO_API}/{loc['name']}/attributes", token)
+    return {str(a.get("name") or "").split("/")[-1] for a in d.get("attributes", [])}
+
+
+def _patch_attributes(token: str, loc: dict, attrs: list[dict]) -> tuple[bool, str]:
+    """PATCH locations/{id}/attributes for exactly the attributes given.
+    attributeMask uses the attributes/{id} form; falls back to bare ids once
+    if Google rejects the mask shape."""
+    body = json.dumps({"name": f"{loc['name']}/attributes", "attributes": attrs})
+    hdrs = {"Authorization": f"Bearer {token}", "Content-Type": "application/json"}
+    masks = (",".join(a["name"] for a in attrs),
+             ",".join(a["name"].split("/")[-1] for a in attrs))
+    err = ""
+    for mask in masks:
+        r = requests.patch(f"{INFO_API}/{loc['name']}/attributes?attributeMask={mask}",
+                           headers=hdrs, data=body, timeout=60)
+        if r.ok:
+            return True, ""
+        err = f"HTTP {r.status_code}: {r.text[:200]}"
+        if r.status_code != 400 or "mask" not in r.text.lower():
+            break
+    return False, err
+
+
+def _founded_year(slug: str, cid: str | None, pi: dict) -> tuple[int | None, str]:
+    """Founded year from wherever we hold it, first plausible one wins.
+    Values are free-typed ('2001', 2016, '3') — only a real 4-digit year in
+    range counts (Reign's licensing holds literally '3')."""
+    import datetime as dt
+
+    def _year(v):
+        m = re.search(r"\b(1[89]\d\d|20\d\d)\b", str(v or ""))
+        if m and 1800 <= int(m.group()) <= dt.date.today().year:
+            return int(m.group())
+        return None
+
+    brand = pi.get("brand") or {}
+    lic = pi.get("licensing") if isinstance(pi.get("licensing"), dict) else {}
+    for val, src in ((brand.get("founded_year"), "plan-input brand"),
+                     (lic.get("founded_year") or lic.get("founded"), "plan-input licensing")):
+        y = _year(val)
+        if y:
+            return y, src
+    rec = ROOT / "clients" / f"{slug}.json"
+    if rec.exists():
+        try:
+            y = _year((json.loads(rec.read_text()).get("brand") or {}).get("founded_year"))
+            if y:
+                return y, "client record"
+        except (json.JSONDecodeError, OSError):
+            pass
+    if cid:
+        rows = _sb(f"companies?id=eq.{cid}&select=integration_settings")
+        ints = (rows[0].get("integration_settings") or {}) if rows else {}
+        if isinstance(ints, str):
+            ints = json.loads(ints)
+        y = _year((ints.get("licensing") or {}).get("founded_year"))
+        if y:
+            return y, "onboarding licensing settings"
+    return None, ""
+
+
+def _ordered_service_areas(pi: dict) -> list[str]:
+    """plan-input service_areas as 'City, ST, USA' placeNames: primary city
+    first, then the largest metros (zip/neighborhood counts are the size
+    proxy, same as the description rotation), capped at Google's 20."""
+    areas = [a for a in (pi.get("service_areas") or []) if a.get("city") and a.get("state")]
+    areas.sort(key=lambda a: (not a.get("primary"),
+                              -len(a.get("zip_codes") or []),
+                              -len(a.get("neighborhoods") or [])))
+    seen, names = set(), []
+    for a in areas:
+        key = (a["city"].strip().lower(), a["state"].strip().upper())
+        if key in seen:
+            continue
+        seen.add(key)
+        names.append(f"{a['city'].strip()}, {a['state'].strip().upper()}, USA")
+        if len(names) >= 20:
+            break
+    return names
+
+
+def enrich_profile(slug: str, apply: bool = False) -> dict:
+    """Fill the missing About-section fields on one client's listing. Returns
+    a dict with per-field results; prints one detail line per proposed write
+    (the dry-run report Santino reviews before --apply)."""
+    mode = "apply" if apply else "dry-run"
+    out = {"slug": slug, "opening_date": None, "socials": [], "onsite": False,
+           "service_areas": 0, "services_added": [], "unsupported": [],
+           "notes": []}
+    cid = company_id_for(slug)
+    pi_path = ROOT / "clients" / slug / "plan-input.json"
+    pi = json.loads(pi_path.read_text()) if pi_path.exists() else {}
+    token = get_access_token(cid) if cid else None
+    place = (pi.get("brand") or {}).get("place_id") or _place_id_from_connection(cid)
+    if not (token and place):
+        out["skip"] = "no token / place_id"
+        return out
+    loc = find_location(token, place)
+    if not loc:
+        out["skip"] = "no GBP location"
+        return out
+    extra = _g(f"{INFO_API}/{loc['name']}?readMask=openInfo,serviceArea,storefrontAddress", token)
+    hdrs = {"Authorization": f"Bearer {token}", "Content-Type": "application/json"}
+
+    # 1. opening date — the API rejects a year-only date ("Invalid date",
+    # verified 2026-08-11) even though the GBP UI allows one, so the month
+    # defaults to January the way the fleet's existing records are stored
+    # (FireDEX 1981-01, prorestoration 2004-12). Skip when we hold no year.
+    if not ((extra.get("openInfo") or {}).get("openingDate")):
+        year, src = _founded_year(slug, cid, pi)
+        if year:
+            print(f"     [{mode}] opening date -> {year} (from {src})")
+            ok = True
+            if apply:
+                r = requests.patch(
+                    f"{INFO_API}/{loc['name']}?updateMask=openInfo.openingDate",
+                    headers=hdrs,
+                    data=json.dumps({"openInfo": {"openingDate": {"year": year, "month": 1}}}),
+                    timeout=60)
+                ok = r.ok
+                if ok:
+                    log_change(cid, "profile_opening_date",
+                               f"Added the year the business opened ({year}) to the Google listing",
+                               actor="optimizer",
+                               meta={"year": year, "source": src,
+                                     "month_defaulted": True})
+                else:
+                    out["notes"].append(f"opening date PATCH failed {r.status_code}: {r.text[:150]}")
+            if ok:
+                out["opening_date"] = year
+
+    # Attribute gates: what the category supports + what already has a value.
+    avail = _attr_metadata(token, loc)
+    current = _current_attr_ids(token, loc)
+
+    # 2. social profile links — identity-guarded, metadata-gated, add-only.
+    ident = _social_identity(slug, pi, loc)
+    want: dict[str, tuple[str, str]] = {}
+    for url, src in _social_candidates(cid, pi):
+        attr = _social_attr_for(url)
+        if not attr or attr in want or attr in current:
+            continue  # not a social / already chosen / already set on Google
+        ok, why = _social_ok(url, attr, ident)
+        if not ok:
+            out["notes"].append(f"skip {attr}: {why} ({url[:70]})")
+            continue
+        if attr not in avail:
+            out["unsupported"].append(attr)
+            out["notes"].append(f"{attr} not offered for this category (metadata)")
+            continue
+        want[attr] = (url, src)
+    if want:
+        for attr, (url, src) in want.items():
+            print(f"     [{mode}] {attr} -> {url} (from {src})")
+        rows = [{"name": f"attributes/{a}", "valueType": "URL",
+                 "uriValues": [{"uri": u}]} for a, (u, _) in want.items()]
+        ok = True
+        if apply:
+            ok, err = _patch_attributes(token, loc, rows)
+            if ok:
+                log_change(cid, "profile_social_links",
+                           "Added social profile links to the Google listing: "
+                           + ", ".join(_SOCIAL_LABEL[a] for a in want),
+                           actor="optimizer",
+                           meta={"links": {a: u for a, (u, _) in want.items()}})
+            else:
+                out["notes"].append(f"social links PATCH failed: {err}")
+        if ok:
+            out["socials"] = list(want)
+
+    # 3. on-site service — restoration/plumbing crews go to the customer, so
+    # this is TRUE fleet-wide. The id is VERIFIED against the metadata (never
+    # guessed); online-estimates/offers stay untouched (only true per-client).
+    onsite = "has_onsite_services" if avail.get("has_onsite_services") == "BOOL" else \
+        next((a for a, vt in avail.items()
+              if "onsite" in a and "service" in a and vt == "BOOL"), None)
+    if onsite and onsite not in current:
+        print(f"     [{mode}] {onsite} -> true")
+        ok = True
+        if apply:
+            ok, err = _patch_attributes(
+                token, loc, [{"name": f"attributes/{onsite}",
+                              "valueType": "BOOL", "values": [True]}])
+            if ok:
+                log_change(cid, "profile_attributes",
+                           "Marked the business as providing on-site service on the Google listing (crews come to the customer)",
+                           actor="optimizer", meta={"attribute": onsite})
+            else:
+                out["notes"].append(f"on-site attribute PATCH failed: {err}")
+        if ok:
+            out["onsite"] = True
+    elif not onsite and "has_onsite_services" not in current:
+        out["notes"].append("no on-site service attribute for this category (metadata)")
+
+    # 4. service areas — ONLY when the listing has none (a client-curated
+    # area list is an existing value; never touch it). placeName-only
+    # entries validate: Google resolves the place ids itself.
+    sa = extra.get("serviceArea") or {}
+    places = (sa.get("places") or {}).get("placeInfos") or []
+    names = _ordered_service_areas(pi)
+    if not places and names:
+        btype = sa.get("businessType") or (
+            "CUSTOMER_AND_BUSINESS_LOCATION" if extra.get("storefrontAddress")
+            else "CUSTOMER_LOCATION_ONLY")
+        print(f"     [{mode}] service areas ({len(names)}, {btype}): "
+              + "; ".join(n.rsplit(", USA", 1)[0] for n in names))
+        ok = True
+        if apply:
+            body = {"serviceArea": {"businessType": btype, "places": {
+                "placeInfos": [{"placeName": n} for n in names]}}}
+            r = requests.patch(f"{INFO_API}/{loc['name']}?updateMask=serviceArea",
+                               headers=hdrs, data=json.dumps(body), timeout=60)
+            ok = r.ok
+            if ok:
+                short = [n.rsplit(", USA", 1)[0] for n in names]
+                lead = "; ".join(short[:3])
+                more = f" and {len(short) - 3} more" if len(short) > 3 else ""
+                log_change(cid, "profile_service_areas",
+                           f"Added {len(short)} service areas to the Google listing: {lead}{more}",
+                           actor="optimizer", meta={"areas": short})
+            else:
+                out["notes"].append(f"service areas PATCH failed {r.status_code}: {r.text[:150]}")
+        if ok:
+            out["service_areas"] = len(names)
+
+    # 5. onboarding-selected services missing from the listing — the wizard's
+    # picks live in companies.services (the app's Services & Area tab, the
+    # same ground truth the optimizer audits against). Adds only, free-form
+    # under the primary category via add_services (which logs each add);
+    # categories and existing items are never touched. Whole-phrase equality
+    # after dropping filler words ('Biohazard & Trauma Cleanup' IS 'Biohazard
+    # and Trauma Cleanup'); distinct phrasings stay distinct on purpose —
+    # services rank for their exact wording (see the MERGE guardrail).
+    do, dont = declared_services(cid) if cid else ([], [])
+    have = {_svc_key(_item_name(it)) for it in loc.get("serviceItems", [])}
+    have.discard("")
+    missing = []
+    for svc in do:
+        label = str(svc or "").strip().rstrip(" .")
+        n = _svc_key(label)
+        if not label or len(label) > 100 or not n or n in have:
+            continue
+        if _matches_exact(label, dont):
+            continue
+        missing.append(label)
+        have.add(n)
+    if missing:
+        print(f"     [{mode}] services to add ({len(missing)}): " + "; ".join(missing))
+        if apply:
+            msg = add_services(slug, missing)
+            print(f"     [svc-apply] {msg}")
+            if "added" in msg or "nothing to add" in msg:
+                out["services_added"] = missing
+            else:
+                out["notes"].append(f"service adds failed: {msg[:200]}")
+        else:
+            out["services_added"] = missing
+    return out
+
+
+def cmd_enrich(args) -> int:
+    apply = args.apply
+    failures = 0
+    totals = {"opening_date": 0, "socials": 0, "social_links": 0, "onsite": 0,
+              "service_areas": 0, "services": 0, "services_added": 0}
+    for slug in _clients(args):
+        try:
+            r = enrich_profile(slug, apply=apply)
+        except Exception as e:  # one client must never abort a scheduled --all run
+            failures += 1
+            print(f"  {slug}: ERROR ({type(e).__name__}: {str(e)[:200]}) — skipped")
+            continue
+        for note in r["notes"]:
+            print(f"     [note] {note}")
+        if r.get("skip"):
+            print(f"  {slug}: skip ({r['skip']})")
+            continue
+        bits = []
+        if r["opening_date"]:
+            totals["opening_date"] += 1
+            bits.append(f"opening date {r['opening_date']}")
+        if r["socials"]:
+            totals["socials"] += 1
+            totals["social_links"] += len(r["socials"])
+            bits.append(f"{len(r['socials'])} social link(s)")
+        if r["onsite"]:
+            totals["onsite"] += 1
+            bits.append("on-site service")
+        if r["service_areas"]:
+            totals["service_areas"] += 1
+            bits.append(f"{r['service_areas']} service area(s)")
+        if r["services_added"]:
+            totals["services"] += 1
+            totals["services_added"] += len(r["services_added"])
+            bits.append(f"{len(r['services_added'])} service(s)")
+        verb = "enriched" if apply else "would enrich"
+        print(f"  {slug}: {verb} " + (", ".join(bits) if bits else "nothing (all set)"))
+    print(f"\n  FLEET {'APPLIED' if apply else 'DRY-RUN'}: "
+          f"opening date {totals['opening_date']} | "
+          f"socials {totals['socials']} client(s) / {totals['social_links']} link(s) | "
+          f"on-site {totals['onsite']} | "
+          f"service areas {totals['service_areas']} | "
+          f"services {totals['services']} client(s) / {totals['services_added']} add(s)")
+    if failures:
+        print(f"  ({failures} client(s) errored and were skipped — see above)")
+    return 0  # non-fatal: a client error shouldn't fail the scheduled run
+
+
+# --------------------------------------------------------------------------- #
 # CLI
 # --------------------------------------------------------------------------- #
 def _clients(args) -> list[str]:
@@ -1411,6 +1915,16 @@ def _matches_exact(term: str, pool: list) -> bool:
     Leak Water Cleanup') are too loose to auto-act on."""
     n = _norm_service(term)
     return bool(n) and any(n == _norm_service(p) for p in pool)
+
+
+_SVC_STOP = {"and", "the", "of", "for", "a", "in"}
+
+
+def _svc_key(term: str) -> str:
+    """Dedupe key for service phrases: _norm_service minus filler words, so
+    'Biohazard & Trauma Cleanup' == 'Biohazard and Trauma Cleanup' while
+    genuinely distinct phrasings keep distinct keys."""
+    return " ".join(t for t in _norm_service(term).split() if t not in _SVC_STOP)
 
 
 def _geogrid_summary(cid: str) -> list:
@@ -2021,13 +2535,20 @@ def main() -> int:
                       help="Re-generate ONLY descriptions we ourselves wrote in the last "
                            "N hours (per marketing_gbp_changes) — never touches "
                            "client-authored or pre-existing text")
+    pen = sub.add_parser("enrich")
+    ge = pen.add_mutually_exclusive_group(required=True)
+    ge.add_argument("--slug")
+    ge.add_argument("--all", action="store_true")
+    pen.add_argument("--apply", action="store_true",
+                     help="Write the missing About-section fields to the listing "
+                          "(default: dry-run print of every proposed write)")
     args = ap.parse_args()
     return {"read": cmd_read, "reconcile": cmd_reconcile, "sync": cmd_sync,
             "reviews": cmd_reviews, "photos": cmd_photos, "media-import": cmd_media_import,
             "set-phone": cmd_set_phone,
             "add-services": cmd_add_services,
             "create-pages": cmd_create_pages, "optimize": cmd_optimize,
-            "descriptions": cmd_descriptions}[args.cmd](args)
+            "descriptions": cmd_descriptions, "enrich": cmd_enrich}[args.cmd](args)
 
 
 if __name__ == "__main__":
