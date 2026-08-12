@@ -111,5 +111,13 @@
   "gbp": {
     "place_id": "ChIJ8URpSkf_UaURDg_hVb9wMrQ",
     "google_review_url": "https://search.google.com/local/writereview?placeid=ChIJ8URpSkf_UaURDg_hVb9wMrQ"
+  },
+  "cutover_prep": {
+    "domain": "narestco.com",
+    "harvested_at": "2026-08-12T15:42:35+00:00",
+    "url_count": 391,
+    "backlinked_count": 1,
+    "redirects_added": 1,
+    "mapped_at": "2026-08-12T15:42:35+00:00"
   }
 }
