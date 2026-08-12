@@ -137,6 +137,33 @@ def _execute_job(job_id: str, slug: str, system: int,
                 return
             _update_job(job_id, status="completed", completed_at=_now(), log=log[-8000:])
 
+        elif system == "cutover":
+            # ONE-CLICK CUTOVER: phased domain launch (zone + email-safe DNS
+            # capture -> nameserver gate -> Pages attach -> stamp/GSC/IndexNow
+            # -> outside verification -> baseline). Idempotent; exit 3 means
+            # it stopped cleanly at the nameserver gate (the expected
+            # mid-state the app's readiness panel keeps polling), which is a
+            # successful run, not a failure. The script commits its own
+            # stamps back to the monorepo and PATCHes marketing_sites, then
+            # supabase_sync reconciles the rest.
+            rc, log = _run_subprocess([
+                "python3", str(ROOT / "scripts" / "cutover_execute.py"),
+                "run", "--slug", slug, "--apply",
+            ])
+            _run_sync(slug)  # partial progress (zone/domain stamp) should surface either way
+            if rc == 0:
+                _update_job(job_id, status="completed", completed_at=_now(), log=log[-8000:],
+                            result={"state": "live"})
+            elif rc == 3:
+                _update_job(job_id, status="completed", completed_at=_now(), log=log[-8000:],
+                            result={"state": "waiting_on_nameservers",
+                                    "note": "Zone + email records staged. Waiting on the "
+                                            "registrar nameserver transfer — re-run after "
+                                            "it propagates."})
+            else:
+                _update_job(job_id, status="failed", completed_at=_now(),
+                            error=f"cutover_execute exited {rc}", log=log[-8000:])
+
         elif system == 4:
             # Layer 1 runs directly; Layer 2 is agent-driven (dispatched to CI)
             rc, log = _run_subprocess([
@@ -171,7 +198,8 @@ def create_and_run_job(slug: str, system, photo_url: str | None = None) -> str:
         raise ValueError(f"Unknown slug: {slug}")
 
     system_names = {1: "keyword_research", 2: "write_post", 3: "audit", 4: "refresh",
-                    "gbp_face": "gbp_face_fix", "gbp_set_cover": "gbp_set_cover"}
+                    "gbp_face": "gbp_face_fix", "gbp_set_cover": "gbp_set_cover",
+                    "cutover": "cutover"}
     params = {"slug": slug, "system": system}
     if photo_url:
         params["photo_url"] = photo_url

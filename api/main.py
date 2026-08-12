@@ -74,6 +74,7 @@ SYSTEM_LABELS = {
     4: "Refresh Recommender (S4)",
     "gbp_face": "GBP Face Fix",
     "gbp_set_cover": "GBP Set Cover Photo",
+    "cutover": "One-Click Domain Cutover",
 }
 
 # ---------------------------------------------------------------------------
@@ -540,9 +541,9 @@ def run_job(req: RunJobRequest):
     """Trigger a system run for a client. Returns job_id immediately; runs in background."""
     if req.slug not in COMPANY_MAP:
         raise HTTPException(status_code=404, detail=f"Unknown slug: {req.slug}")
-    if req.system not in (1, 2, 3, 4, "gbp_face", "gbp_set_cover"):
+    if req.system not in (1, 2, 3, 4, "gbp_face", "gbp_set_cover", "cutover"):
         raise HTTPException(status_code=400,
-                            detail="system must be 1, 2, 3, 4, 'gbp_face', or 'gbp_set_cover'")
+                            detail="system must be 1, 2, 3, 4, 'gbp_face', 'gbp_set_cover', or 'cutover'")
     if req.system == "gbp_set_cover" and not (req.photo_url or "").startswith("https://"):
         raise HTTPException(status_code=400, detail="gbp_set_cover requires an https photo_url")
 
@@ -600,6 +601,34 @@ def complete_job(job_id: str, req: CompleteJobRequest):
         )
 
     return {"ok": True}
+
+
+# ---------------------------------------------------------------------------
+# One-click cutover: phase readiness for the app's launch panel. Read-only
+# and fast enough to run inline (DoH + a few Cloudflare GETs + the llms.txt
+# probe) — the mutating counterpart is POST /jobs/run {system: "cutover"},
+# which follows gbp_set_cover's subprocess-job pattern in api/runner.py.
+# ---------------------------------------------------------------------------
+
+@app.get("/cutover/status", dependencies=[Depends(auth)])
+def cutover_status(slug: str):
+    if slug not in COMPANY_MAP:
+        raise HTTPException(status_code=404, detail=f"Unknown slug: {slug}")
+    import subprocess
+    try:
+        result = subprocess.run(
+            ["python3", str(ROOT / "scripts" / "cutover_execute.py"),
+             "status", "--slug", slug],
+            cwd=str(ROOT), capture_output=True, text=True, timeout=120)
+    except subprocess.TimeoutExpired:
+        raise HTTPException(status_code=504, detail="cutover status timed out")
+    try:
+        return json.loads(result.stdout)
+    except ValueError:
+        raise HTTPException(
+            status_code=502,
+            detail="cutover status failed: "
+                   + (result.stderr or result.stdout or "no output")[-300:])
 
 
 # ---------------------------------------------------------------------------
