@@ -39,5 +39,13 @@
     "property_url": "sc-domain:restorationxpress.com",
     "verified_at": "2026-08-04T17:46:12.245604+00:00",
     "sitemap_url": "https://restorationxpress.com/sitemap-index.xml"
+  },
+  "cutover_prep": {
+    "domain": "restorationxpress.com",
+    "harvested_at": "2026-08-12T15:43:01+00:00",
+    "url_count": 98,
+    "backlinked_count": 5,
+    "redirects_added": 4,
+    "mapped_at": "2026-08-12T15:43:07+00:00"
   }
 }

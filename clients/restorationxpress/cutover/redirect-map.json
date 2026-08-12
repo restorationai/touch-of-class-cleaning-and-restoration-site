@@ -1,0 +1,23 @@
+{
+ "generated_at": "2026-08-12T15:43:07+00:00",
+ "domain": "restorationxpress.com",
+ "routes": 94,
+ "map": {
+  "/%3Futm_source%3Domg-gbp%26utm_medium%3Dwebclick": {
+   "target": "/",
+   "how": "claude"
+  },
+  "/about_us": {
+   "target": "/about/",
+   "how": "claude"
+  },
+  "/contact-2": {
+   "target": "/contact/",
+   "how": "claude"
+  },
+  "/www": {
+   "target": "/",
+   "how": "claude"
+  }
+ }
+}
