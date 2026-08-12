@@ -8,7 +8,7 @@ export const brand = {
   shortName: "Reign Restoration",
   legalName: "Reign Restoration",
   domain: "",
-  canonicalUrl: "https://None",
+  canonicalUrl: "https://reign-restoration.com",
   phone: "(214) 304-0621",
   phoneRaw: "+12143040621",
   email: "jerrott@reign-restoration.com",

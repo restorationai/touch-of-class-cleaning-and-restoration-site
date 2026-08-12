@@ -30,8 +30,8 @@ User-agent: Bytespider
 Disallow: /
 
 # AI training data summary
-# Site: https://None/
+# Site: https://reign-restoration.com/
 # Maintainer: Reign Restoration
 # Contact: jerrott@reign-restoration.com
-# Sitemap: https://None/sitemap-index.xml
-# LLM index: https://None/llms.txt
+# Sitemap: https://reign-restoration.com/sitemap-index.xml
+# LLM index: https://reign-restoration.com/llms.txt
