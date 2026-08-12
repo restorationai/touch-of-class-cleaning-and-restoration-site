@@ -1,0 +1,85 @@
+{
+ "domain": "reign-restoration.com",
+ "harvested_at": "2026-08-12T02:15:42+00:00",
+ "counts": {
+  "total": 8,
+  "sitemap": 8,
+  "crawl": 0,
+  "backlinked": 2,
+  "gsc": 0
+ },
+ "urls": [
+  {
+   "url": "https://reign-restoration.com/",
+   "path": "/",
+   "title": "",
+   "backlinks": 24,
+   "referring_domains": 22,
+   "gsc_clicks": 0,
+   "source": "sitemap,backlinks"
+  },
+  {
+   "url": "https://reign-restoration.com/fire-damage-restoration",
+   "path": "/fire-damage-restoration",
+   "title": "Fire Damage Restoration | Reign Restoration",
+   "backlinks": 5,
+   "referring_domains": 1,
+   "gsc_clicks": 0,
+   "source": "sitemap,backlinks"
+  },
+  {
+   "url": "https://reign-restoration.com/contact",
+   "path": "/contact",
+   "title": "Contact | Reign Restoration",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://reign-restoration.com/content-restoration",
+   "path": "/content-restoration",
+   "title": "Content Restoration | Reign Restoration",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://reign-restoration.com/joinourteam",
+   "path": "/joinourteam",
+   "title": "Careers | Reign Restoration",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://reign-restoration.com/residential-roofing",
+   "path": "/residential-roofing",
+   "title": "Residential Roofing | Reign Restoration",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://reign-restoration.com/reviews",
+   "path": "/reviews",
+   "title": "Reviews | Reign Restoration",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://reign-restoration.com/water-damage-restoration",
+   "path": "/water-damage-restoration",
+   "title": "Water Damage Restoration | Reign Restoration",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  }
+ ]
+}
