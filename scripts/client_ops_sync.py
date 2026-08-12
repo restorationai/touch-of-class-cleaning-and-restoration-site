@@ -1338,12 +1338,28 @@ def ensure_internal_launch_tasks(dry_run: bool, cid_to_slug: dict) -> list[str]:
         # their own domain 151 times, so both the status check and a substring
         # check pass on a site we have never launched. Require the body to be
         # our actual llms.txt: plain text starting with a markdown heading.
+        # 2026-08-11 hardening (cutover_harvest found both failure modes live):
+        # Wix/builder sites now AUTO-GENERATE llms.txt naming their own domain
+        # (reign/diss/transformation old sites all pass the heuristic below —
+        # we'd stamp apex_live on sites we never launched), and TRG's real
+        # deployed llms.txt names its pre-cutover domain (fails the domain
+        # check on a site that IS ours). When our repo holds the site's own
+        # llms.txt, compare first lines — that's identity, not vibes.
         try:
             resp = requests.get(f"https://{dom}/llms.txt", timeout=12,
                                 allow_redirects=True)
             body = (resp.text or "").lstrip()
-            if (resp.ok and body.startswith("#") and not body.startswith("<")
-                    and f"https://{dom}/" in body):
+            repo_llms = ROOT / "sites" / slug / "public" / "llms.txt"
+            if repo_llms.exists():
+                ours_line = repo_llms.read_text().lstrip().splitlines()[:1]
+                served_line = body.splitlines()[:1]
+                is_ours = bool(resp.ok and ours_line
+                               and served_line == ours_line)
+            else:
+                is_ours = bool(resp.ok and body.startswith("#")
+                               and not body.startswith("<")
+                               and f"https://{dom}/" in body)
+            if is_ours:
                 out.append(f"{slug}: already live at {dom} — apex_live flag is "
                            "stale, not seeding a launch task")
                 if not dry_run:
