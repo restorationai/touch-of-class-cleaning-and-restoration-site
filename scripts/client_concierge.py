@@ -2406,6 +2406,30 @@ def filter_already_satisfied(company: dict, items: list[dict],
                       "listing is suspended — deferring this ask until it "
                       "is reinstated")
                 continue
+        # (e) SEND-TIME REVALIDATION (2026-08-12): the ledger seeds asks from
+        # derived checks and retires them the same way, but it sweeps every
+        # ~4h — an ask can sit satisfied-but-open between passes (the logo
+        # lands in the bucket, the NAP gets backfilled, the domain goes
+        # live). ask_revalidate.ask_still_valid re-runs the EXACT check that
+        # seeded the row (setup_ledger's own helpers, imported not copied):
+        # False = stale -> auto-resolve with the reason and never draft it;
+        # True/None (still needed / not a seed it knows) keep the item. Runs
+        # LAST so the richer gates above (domain forward-note, photo
+        # auto-satisfy) keep their behavior. Fail-open: a revalidation error
+        # must never kill compose.
+        if it.get("kind") == "plan":
+            try:
+                import ask_revalidate
+                if ask_revalidate.ask_still_valid(company["id"], it) is False:
+                    why = (it.get("_stale_reason")
+                           or "the condition that seeded it is satisfied")
+                    print(f"  [revalidate] {it['text'][:60]!r}: {why} — "
+                          "auto-resolving, not asking")
+                    ask_revalidate.resolve_stale(it["id"], why, dry_run)
+                    continue
+            except Exception as e:  # noqa: BLE001
+                print(f"  [revalidate] check failed ({str(e)[:80]}) — "
+                      "keeping the ask")
         kept.append(it)
     return kept
 
@@ -9067,6 +9091,76 @@ def cmd_selfcheck(_args) -> int:
         ok = got == want
         fails += (not ok)
         print(f"  {'ok  ' if ok else 'FAIL'} softened -> {got!r}")
+
+    # ---- send-time revalidation (2026-08-12): a seeded ask whose derived
+    # check is already satisfied is dropped + auto-resolved at compose time;
+    # anything the checker doesn't recognize is kept. Seed matching is a pure
+    # function; the filter behavior runs with the checker stubbed (selfcheck
+    # is offline — the real checks hit Supabase/storage).
+    print("\nsend-time revalidation: seed matching + the compose filter:")
+    import ask_revalidate as _ar
+    from client_ops_sync import action_key as _akey
+    _cid, _slug = "CO-SELFCHECK", "acme-restoration"
+    reval_cases = [
+        ("logo seed matches",
+         _ar.seed_kind(_cid, _slug,
+                       _akey(_cid, f"citations-logo-{_slug}")) == "logo"),
+        ("nap seed matches",
+         _ar.seed_kind(_cid, _slug,
+                       _akey(_cid, f"citations-nap-{_slug}")) == "nap"),
+        ("preview seed matches (the one LITERAL action_key)",
+         _ar.seed_kind(_cid, _slug,
+                       f"site-preview-feedback-{_slug}") == "preview"),
+        ("domain-access seed matches",
+         _ar.seed_kind(_cid, _slug,
+                       _akey(_cid, f"domain-access-{_slug}")) == "domain"),
+        ("domain-verify seed matches",
+         _ar.seed_kind(_cid, _slug,
+                       _akey(_cid, f"domain-verify-{_slug}")) == "domain"),
+        ("an unrelated seed is nobody's",
+         _ar.seed_kind(_cid, _slug,
+                       _akey(_cid, f"gbp-verify-{_slug}")) is None),
+        ("no slug means no opinion",
+         _ar.seed_kind(_cid, None, "site-preview-feedback-x") is None),
+        ("ask_still_valid has no opinion on an unknown seed",
+         _ar.ask_still_valid(_cid, {"id": "x", "action_key": "not-a-seed",
+                                    "rank_ai_slug": _slug}) is None),
+    ]
+
+    def _stub_valid(cid, row):
+        if row["id"] == "stale-1":
+            row["_stale_reason"] = "stubbed: already satisfied"
+            return False
+        return None
+
+    _resolved: list = []
+    _real_valid, _real_resolve = _ar.ask_still_valid, _ar.resolve_stale
+    _ar.ask_still_valid = _stub_valid
+    _ar.resolve_stale = lambda row_id, why, dry: _resolved.append(row_id)
+    try:
+        _kept = filter_already_satisfied(
+            {"id": _cid},
+            [{"kind": "plan", "id": "stale-1",
+              "text": "Confirm the crew roster"},
+             {"kind": "plan", "id": "fresh-1",
+              "text": "Confirm the crew roster"},
+             {"kind": "intake", "id": "int-1",
+              "text": "Confirm the crew roster"}],
+            dry_run=True)
+    finally:
+        _ar.ask_still_valid, _ar.resolve_stale = _real_valid, _real_resolve
+    reval_cases += [
+        ("a stale plan ask is dropped from compose",
+         all(i["id"] != "stale-1" for i in _kept)),
+        ("...and auto-resolved with the reason", _resolved == ["stale-1"]),
+        ("an unknown-seed plan ask is kept",
+         any(i["id"] == "fresh-1" for i in _kept)),
+        ("intake items are never revalidated here",
+         any(i["id"] == "int-1" for i in _kept)),
+    ]
+    for label, ok in reval_cases:
+        fails += not ok
+        print(f"  {'ok  ' if ok else 'FAIL'} {label}")
 
     print(f"\n{'ALL GREEN' if not fails else str(fails) + ' FAILURE(S)'}")
     return 1 if fails else 0
