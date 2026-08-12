@@ -12,9 +12,14 @@ asks, the ledger's domain ask, ops-sync's launch seeder, the [DEV] inbox) or
 is reported with its owner.
 
 STAGE DERIVATION is an exact replica of the app's Build Stages board
-(app-work/components/BuildStagesBoard.tsx + its build-stages edge function,
-which supplies the raw rows) — stages are DERIVED from verifiable signals,
-never from a manual field. Company scope matches the board exactly:
+(app-work/components/BuildStagesBoard.tsx v9 — its build-stages edge
+function only supplies raw rows, all derivation lives in the component and
+is mirrored here) — stages are DERIVED from verifiable signals, never from
+a manual field. v9 (2026-08-12): LSA "running" requires campaign ENABLED
+AND affirmative serve-ability (lsa.serving flag or a verification note with
+no FAILED / NO_SUBMISSION / blocked PENDING) — Google auto-creates an
+ENABLED SystemGenerated campaign for every LSA account, so ENABLED alone
+proves nothing. Company scope matches the board exactly:
 plan = 'Rank AI' (case-insensitive), status not in the excluded set, minus
 the internal canary account. Per-board sources:
 
@@ -226,15 +231,36 @@ def _lsa_intent_answer(intent) -> tuple[str | None, str | None]:
     return None, None
 
 
+def _lsa_serveable(lsa: dict) -> bool:
+    """EXACT replica of BuildStagesBoard.tsx lsaServeable() (v9):
+    affirmative evidence the ENABLED campaign can actually serve — an
+    explicit serving flag, or a verification note (lsa_detect.py, nightly)
+    containing no FAILED / NO_SUBMISSION / BLOCKED / SUSPENDED and no
+    blocking PENDING. An 'mcc invite PENDING' clause is OUR access, not
+    their eligibility, so it never blocks; a license / background /
+    insurance PENDING does. Missing or 'unchecked' verification = NOT
+    serve-able: unknown must read as not-running, never as running."""
+    if lsa.get("serving") is True:
+        return True
+    v = str(lsa.get("verification") or "").strip().upper()
+    if not v or re.search(r"FAILED|NO_SUBMISSION|BLOCKED|SUSPENDED|UNCHECKED", v):
+        return False
+    return all("PENDING" not in seg or "MCC" in seg or "INVITE" in seg
+               for seg in re.split(r"[;,]", v))
+
+
 def lsa_stage(lsa, intent) -> str:
-    """EXACT replica of BuildStagesBoard.tsx lsaStage(). Precedence: an
-    ENABLED campaign is running whatever anyone said; an explicit
-    no/unexpired-later parks the client even if an old paused account
-    exists; a detected account that isn't enabled = setup pending; an
-    expired 'later' falls back to unknown (revisit date honoured)."""
+    """EXACT replica of BuildStagesBoard.tsx lsaStage() (v9 serve-ability
+    gate). Precedence: an ENABLED campaign outranks intent — running only
+    when affirmatively serve-able, otherwise Setup + verification pending
+    whatever anyone said (Google auto-creates an ENABLED SystemGenerated
+    campaign for every LSA account, so ENABLED alone proves nothing); an
+    explicit no/unexpired-later parks the client even if an old paused
+    account exists; a detected account that isn't enabled = setup pending;
+    an expired 'later' falls back to unknown (revisit date honoured)."""
     lsa = lsa if isinstance(lsa, dict) else {}
     if str(lsa.get("campaign_status") or "").upper() == "ENABLED":
-        return "running"
+        return "running" if _lsa_serveable(lsa) else "pending"
     answer, revisit = _lsa_intent_answer(intent)
     if answer == "no":
         return "parked"
@@ -630,6 +656,14 @@ def _board_blocker(board: str, stage: str, ctx: dict) -> str:
                     "provisioning/linking is our move (mcc_link/lsa flow)")
         if stage == "pending":
             note = str(ctx.get("verification") or "").strip()
+            if str(ctx.get("campaign_status") or "").upper() == "ENABLED":
+                # v9: Google auto-creates an ENABLED SystemGenerated campaign
+                # for every LSA account — ENABLED here is NOT evidence of
+                # serving, the verification note is what blocks the exit.
+                return ("LSA campaign ENABLED but NOT serve-able — "
+                        + (f"verification: {note}" if note else
+                           "verification never checked (lsa_detect.py "
+                           "populates it nightly)"))
             return ("LSA account linked but the campaign is not ENABLED — "
                     + (f"verification: {note}" if note else
                        "verification/budget still pending in the portal"))
@@ -793,10 +827,11 @@ def check_stages(dry_run: bool, cid_to_slug: dict | None = None,
                                                fleet["has_calls"].get(cid, False)),
         }
         # Per-board context the blocker/condition text draws on.
+        lsa_info = co.get("lsa") if isinstance(co.get("lsa"), dict) else {}
         ctx = {
             "gbp": {"profile": fleet["profiles"].get(cid)},
-            "lsa": {"verification": (co.get("lsa") or {}).get("verification")
-                    if isinstance(co.get("lsa"), dict) else None},
+            "lsa": {"verification": lsa_info.get("verification"),
+                    "campaign_status": lsa_info.get("campaign_status")},
             "reviews": {"reqs": reqs,
                         "pin_only": bool(fleet["pins"].get(cid)) and not reqs},
             "citations": {"nap_audit": nap_audit},

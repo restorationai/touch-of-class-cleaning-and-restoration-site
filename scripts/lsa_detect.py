@@ -18,9 +18,23 @@ two detection modes, both writing the same lsa block:
      (no matching heuristics needed).
 
 Matched + campaign found -> integration_settings.lsa gains
-  {customer_id, detected, detected_at, campaign_status, campaigns}
+  {customer_id, detected, detected_at, campaign_status, campaigns,
+   verification, verification_checked_at}
 setup_ledger treats a customer_id as setup-done, so the ledger row flips on
 the next sweep. Detection only ever FILLS the lsa block — never clears one.
+
+VERIFICATION (2026-08-12, the Build Stages fake-Running bug): Google
+AUTO-CREATES an ENABLED SystemGenerated LSA campaign the moment an LSA
+account exists, so campaign_status alone cannot distinguish a serving
+client from a never-verified shell (Go Green) or a license-FAILED account
+(Home Pride). Every detected account therefore also gets lsa.verification —
+a token-parseable summary of local_services_verification_artifact
+(submission history, best status per type: the same collapse the app's
+lsa-status edge fn does) with customer.local_services_settings granular
+license/insurance statuses as the fallback for types with no artifact rows.
+Accounts whose artifacts can't be read get the explicit sentinel
+"unchecked" — the board and stage_checker treat missing/unchecked as NOT
+serve-able, so unknown never renders as Running.
 
 Usage: python3 scripts/lsa_detect.py [--dry-run]
 """
@@ -47,8 +61,86 @@ from ads_manager import build_ads_client, gaql, token_path  # noqa: E402
 LSA_Q = """SELECT campaign.id, campaign.name, campaign.status FROM campaign
            WHERE campaign.advertising_channel_type = 'LOCAL_SERVICES'
              AND campaign.status != 'REMOVED'"""
+VERIF_ART_Q = """SELECT local_services_verification_artifact.artifact_type,
+                        local_services_verification_artifact.status
+                 FROM local_services_verification_artifact"""
+VERIF_GRAN_Q = """SELECT customer.local_services_settings.granular_license_statuses,
+                         customer.local_services_settings.granular_insurance_statuses
+                  FROM customer"""
+# Artifact-history collapse rank — identical to the app's lsa-status edge fn.
+VERIF_RANK = ("PASSED", "PENDING", "FAILED", "CANCELLED", "NO_SUBMISSION")
+VERIF_UNCHECKED = "unchecked"
 STOP = {"llc", "inc", "restoration", "construction", "services", "service",
         "the", "of", "and", "co", "company", "24/7", "247"}
+
+
+def _artifact_best(statuses: list) -> str | None:
+    """Best status per artifact type. Artifacts are submission HISTORY, so a
+    FAILED attempt superseded by a PASSED resubmission collapses to PASSED
+    (verified live: Dry County's insurance shows CANCELLED+FAILED+PASSED and
+    the account serves)."""
+    for want in VERIF_RANK:
+        if want in statuses:
+            return want
+    return statuses[0] if statuses else None
+
+
+def _granular_best(statuses: list) -> str | None:
+    """Requirement state per geo+category, used only for types with NO
+    artifact rows. Any PASSED means the account can serve somewhere; only
+    then do failures / pendings / no-submissions block. All-NOT_APPLICABLE
+    (HomeLyft's license) means Google requires nothing — not a blocker."""
+    s = set(statuses)
+    if not s:
+        return None
+    for want in ("PASSED", "FAILED", "PENDING", "NEEDS_REVIEW", "NO_SUBMISSION"):
+        if want in s:
+            return want
+    return "NOT_APPLICABLE" if s == {"NOT_APPLICABLE"} else sorted(s)[0]
+
+
+def fetch_verification(client, acid: str) -> str:
+    """One token-parseable line per LSA account: 'background check PASSED;
+    license FAILED (resubmit in portal); insurance PASSED'. The format is
+    load-bearing — BuildStagesBoard.lsaServeable() and stage_checker's
+    replica read it token-wise (FAILED / NO_SUBMISSION / a non-MCC PENDING
+    = not serve-able), and the FAILED annotation matches the hand-written
+    note this replaces (Home Pride). An account with NO artifact and NO
+    granular rows (Go Green's never-verified shell) collapses to
+    NO_SUBMISSION on every type. Unreadable account -> the explicit
+    'unchecked' sentinel, never null: the derivation must see
+    not-serve-able, not unknown."""
+    try:
+        arts: dict[str, list] = {}
+        for r in gaql(client, acid, VERIF_ART_Q):
+            a = r.local_services_verification_artifact
+            arts.setdefault(a.artifact_type.name, []).append(a.status.name)
+        gran_lic: list = []
+        gran_ins: list = []
+        rows = gaql(client, acid, VERIF_GRAN_Q)
+        if rows:
+            st = rows[0].customer.local_services_settings
+            gran_lic = [g.verification_status.name
+                        for g in st.granular_license_statuses]
+            gran_ins = [g.verification_status.name
+                        for g in st.granular_insurance_statuses]
+    except Exception as e:  # noqa: BLE001 — unlinked / permission / API hiccup
+        print(f"    verification unreadable for {acid}: {str(e)[:90]}")
+        return VERIF_UNCHECKED
+    parts = []
+    for label, art_type, gran in (
+            ("background check", "BACKGROUND_CHECK", []),
+            ("license", "LICENSE", gran_lic),
+            ("insurance", "INSURANCE", gran_ins)):
+        best = (_artifact_best(arts.get(art_type, []))
+                or _granular_best(gran) or "NO_SUBMISSION")
+        parts.append(f"{label} {best}"
+                     + (" (resubmit in portal)" if best == "FAILED" else ""))
+    # Future artifact types (e.g. BUSINESS_REGISTRATION_CHECK) ride along so
+    # a new blocking status is never silently dropped.
+    for t in sorted(set(arts) - {"BACKGROUND_CHECK", "LICENSE", "INSURANCE"}):
+        parts.append(f"{t.lower().replace('_', ' ')} {_artifact_best(arts[t])}")
+    return "; ".join(parts)
 
 
 def _tokens(name: str) -> set:
@@ -75,7 +167,8 @@ USED_ACCOUNTS: set = set()  # one LSA account belongs to exactly one business
 
 
 def write_lsa(cos: list, company_id: str, acid: str, campaigns: list[dict],
-              how: str, dry: bool, results: list) -> None:
+              how: str, dry: bool, results: list,
+              verification: str | None = None) -> None:
     if acid in USED_ACCOUNTS:
         # A shared agency Google grant can "see" another client's LSA account
         # (ProRestoration listed Home Pride's 2407662739 on the first run) —
@@ -89,6 +182,11 @@ def write_lsa(cos: list, company_id: str, acid: str, campaigns: list[dict],
     ints = _ints(co)
     lsa = ints.get("lsa") or {}
     enabled = any(cp["status"] == "ENABLED" for cp in campaigns)
+    # 'unchecked' never overwrites a real note: a one-night API hiccup must
+    # not demote a known-verified client to not-serve-able. It only fills a
+    # hole so null can't read as unknown.
+    if verification == VERIF_UNCHECKED and lsa.get("verification"):
+        verification = None
     # Compare the whole block, not just the id (Santino 2026-08-04): the
     # id-only test meant campaign drift NEVER got written once an account was
     # known — after lsa_link_audit corrected PuroClean's customer_id, the
@@ -98,14 +196,21 @@ def write_lsa(cos: list, company_id: str, acid: str, campaigns: list[dict],
                or not lsa.get("detected")
                or lsa.get("campaigns") != campaigns[:5]
                or lsa.get("campaign_status") != (
-                   "ENABLED" if enabled else campaigns[0]["status"]))
+                   "ENABLED" if enabled else campaigns[0]["status"])
+               or (verification is not None
+                   and lsa.get("verification") != verification))
     lsa.update({"customer_id": acid, "detected": True,
                 "detected_at": datetime.now(timezone.utc).isoformat(),
                 "campaign_status": "ENABLED" if enabled else campaigns[0]["status"],
                 "campaigns": campaigns[:5]})
+    if verification is not None:
+        lsa.update({"verification": verification,
+                    "verification_checked_at":
+                        datetime.now(timezone.utc).isoformat()})
     ints["lsa"] = lsa
     co["integration_settings"] = ints  # keep the in-memory copy current
-    results.append((company_id, co.get("name", "?"), acid, how, enabled))
+    results.append((company_id, co.get("name", "?"), acid, how, enabled,
+                    lsa.get("verification")))
     if not dry and changed:
         _sb("PATCH", f"/rest/v1/companies?id=eq.{company_id}",
             {"integration_settings": ints})
@@ -215,7 +320,8 @@ def detect_via_mcc(cos: list, dry: bool, results: list, done: set) -> None:
             unmatched.append((acid, name, _campaigns(rows)))
             continue
         if company_id not in done:
-            write_lsa(cos, company_id, acid, _campaigns(rows), how, dry, results)
+            write_lsa(cos, company_id, acid, _campaigns(rows), how, dry,
+                      results, verification=fetch_verification(client, acid))
             done.add(company_id)
 
     for acid, name, camps in unmatched:
@@ -291,7 +397,8 @@ def detect_via_company_tokens(cos: list, dry: bool, results: list, done: set) ->
                           "name matches no part of this client's name")
                     continue
             write_lsa(cos, company_id, acid, _campaigns(rows),
-                      "own token", dry, results)
+                      "own token", dry, results,
+                      verification=fetch_verification(cl, acid))
             done.add(company_id)
             break
 
@@ -305,9 +412,10 @@ def main() -> int:
     detect_via_mcc(cos, dry, results, done)
     detect_via_company_tokens(cos, dry, results, done)
     print(f"\nDetected LSA for {len(results)} client(s):")
-    for company_id, name, acid, how, enabled in results:
+    for company_id, name, acid, how, enabled, verif in results:
         print(f"  {name[:36]:38} <- ads {acid} [{how}] "
               f"{'ENABLED' if enabled else 'not enabled'}"
+              f" | verif: {(verif or '-')[:70]}"
               f"{' (dry-run: not written)' if dry else ''}")
     return 0
 
