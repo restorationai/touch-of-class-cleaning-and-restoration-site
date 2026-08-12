@@ -49,6 +49,7 @@ import argparse
 import hashlib
 import io
 import json
+import os
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -368,6 +369,25 @@ def set_cover_photo(slug: str, company_id: str, meta: dict, photo_url: str) -> N
         name = upload_photo_bytes(token, acct, location_id, jpeg.content,
                                   category="COVER")
     print(f"  {slug}: cover photo set ({name})")
+    # CHANGE-LOG (Santino 2026-08-12: he set Go Green's cover from the app
+    # and it never reached marketing_gbp_changes — every client-visible GBP
+    # change must land there; it feeds the Monthly Summary). Best-effort,
+    # never blocks the change itself.
+    try:
+        sb_url = os.environ["SUPABASE_URL"].rstrip("/")
+        sb_key = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
+        requests.post(
+            f"{sb_url}/rest/v1/marketing_gbp_changes",
+            headers={"apikey": sb_key, "Authorization": f"Bearer {sb_key}",
+                     "Content-Type": "application/json"},
+            json={"company_id": company_id,
+                  "change_type": "profile_cover_photo",
+                  "summary": "New cover photo set on the Google listing",
+                  "actor": "app",
+                  "meta": {"media_name": name, "photo_url": photo_url[:300]}},
+            timeout=20).raise_for_status()
+    except Exception as e:  # noqa: BLE001
+        print(f"  [log] cover change-log failed (non-blocking): {str(e)[:80]}")
 
 
 def r2_hosted_jpeg(slug: str, path: Path, jpeg: bytes) -> str | None:
