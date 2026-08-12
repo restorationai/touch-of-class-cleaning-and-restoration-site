@@ -1,68 +1,69 @@
 #!/usr/bin/env python3
-"""Stage-dwell checker, phase 1: websites (Santino's design, 2026-08-10).
+"""Stage-dwell checker for ALL seven Build Stages boards (Santino's design,
+2026-08-10 website-only; extended to the full board set 2026-08-12).
 
-The self-driving customer-success loop: every night, know what WEBSITE stage
-every active Rank AI client is in, how long they have been there, what exactly
-blocks their exit, and TRIGGER the existing action for each blocker. Nothing
-here invents new outreach or new builds — every unmet exit item routes to the
-system that already owns it (auto-build's blocker asks, the ledger's domain
-ask, ops-sync's launch seeder, the [DEV] inbox) or is reported with its owner.
+The self-driving customer-success loop: every night, know what stage every
+active Rank AI client is in ON EVERY BOARD the app renders — Website, GBP,
+LSA, Reviews, YouTube, Citations, AI Receptionist — how long they have been
+there, what exactly blocks their exit, and TRIGGER the existing action for
+each blocker. Nothing here invents new outreach or new builds — every unmet
+exit item routes to the system that already owns it (auto-build's blocker
+asks, the ledger's domain ask, ops-sync's launch seeder, the [DEV] inbox) or
+is reported with its owner.
 
 STAGE DERIVATION is an exact replica of the app's Build Stages board
-(app-work/components/BuildStagesBoard.tsx websiteStage()) — stages are DERIVED
-from verifiable signals, never from a manual field:
+(app-work/components/BuildStagesBoard.tsx + its build-stages edge function,
+which supplies the raw rows) — stages are DERIVED from verifiable signals,
+never from a manual field. Company scope matches the board exactly:
+plan = 'Rank AI' (case-insensitive), status not in the excluded set, minus
+the internal canary account. Per-board sources:
 
-    no marketing_sites row              -> building
-    apex_live is true                   -> live      (wins everything)
-    build_status pushed_main            -> ready
-    build_status pushed_staging         -> staging
-    build_status preview_ready|_live    -> preview
-    anything else (pending/scaffolded/
-      rendering/unknown)                -> building  (never guess rightward)
+    website      marketing_sites (build_status / apex_live)     websiteStage()
+    gbp          user_integrations provider=google status=active
+                 + marketing_gbp_profiles                       gbpStage()
+    receptionist company_phone_numbers (neq call_tracking)
+                 + call_metadata presence                       rStage inline
+    lsa          companies.integration_settings lsa + lsa_intent  lsaStage()
+    reviews      review_requests + the hub's customer-list pin  vStage inline
+    youtube      user_integrations provider=youtube             inline
+    citations    user_integrations provider=citations
+                 connection_metadata.nap_audit                  cStage inline
 
-STAGE HISTORY lives in ops_kv key 'stage-history' as
-{company_id: {board, stage, entered_at}} — updated on change only, seeded
-entered_at=now on first sight (the first run notes this; dwell counts start
-that day). ops_kv over a new table: zero schema risk, same pattern as
+STAGE HISTORY lives in ops_kv key 'stage-history'. Backward compatible with
+the phase-1 (website-only) shape: the website entry stays FLAT
+({company_id: {board:'website', stage, entered_at}}); the six other boards
+live under {company_id: {..., boards: {gbp: {stage, entered_at}, ...}}}.
+Updated on change only, entered_at=now seeded on first sight (dwell counts
+start that day). ops_kv over a new table: zero schema risk, same pattern as
 docs-seen and the email-sync cursor.
 
-EXIT CHECKLIST per stage (each unmet item -> existing action or owner):
-  building  services empty            -> auto-build's Monica ask covers it
-            logo missing              -> soak clock (auto-build builds anyway
-                                         after 7 days; its ask covers Monica)
-            plan/scaffold/render gap  -> auto-build owns it (capped per run —
-                                         never duplicated here)
-  preview   imagery missing           -> ONE open [DEV] marketing_ops_notes
-            (hero-bg.webp absent OR      task: "run the full visual pass per
-             image-meta.json < 3)        the AI-first doctrine" — but ONLY
-                                         once a logo exists (all imagery is
-                                         generated FROM brand assets; a
-                                         logoless visual pass ships wrong
-                                         branding, the Go Green lesson)
-            preview never sent        -> report (no client_input preview ask)
-  staging   no client sign-off        -> report "awaiting readiness answer"
-            domain access not granted -> report (ledger already seeds the ask)
-            imagery missing           -> same [DEV] gate as preview. The
-                                         board's "preview" is preview_ready
-                                         only, but clients on staging are in
-                                         the same client-review window
-                                         (Santino's 2026-08-10 list of
-                                         imagery-suspect clients was all
-                                         pushed_staging), so the visual-pass
-                                         gate runs in both pre-launch stages.
-  ready     launch task               -> ops-sync's ensure_internal_launch_
-                                         tasks owns seeding; report seeded /
-                                         gated-on-what
-  live      terminal — no checklist, no dwell alarm.
+DWELL ALERTS are per-board, per-stage (DWELL_DAYS below — the semantics of a
+stage decide its threshold; None = a stage that legitimately dwells forever
+never alarms). An alert is a digest line AND a plain-English
+marketing_ops_notes row — one per condition per client, deduped against open
+notes by its [STAGE:board:tag] marker (the same open-note dedupe the
+phase-1 [DEV] imagery task uses) plus a per-episode flag in the history so a
+human resolving the note isn't re-nagged nightly while the stage is unchanged.
 
-DWELL ALERTS: same stage > 7 days ->
-    "{slug}: STUCK {days}d in {stage}: {top blocker} -> {owner}"
-Returned with the rest of the lines so the nightly digest picks them up like
-every other sweep pass.
+EXIT CHECKLISTS where a cheap derived check exists:
+  website   unchanged from phase 1 (services/logo/plan gaps -> auto-build,
+            imagery -> the [DEV] visual-pass task, launch -> ops-sync seeder).
+  gbp       'synced' must actually be OPTIMIZED: services + description +
+            business hours present on marketing_gbp_profiles. (GBP attributes
+            are never persisted to Supabase — gbp.py reads them live — so
+            has_hours is the closest stored completeness signal.)
+  reviews   'active' must actually be SENDING: newest last_sent_at within
+            REVIEWS_STALL_DAYS — catches the pace_capped-style silent stall
+            (2026-08-11). 'received' with rows scheduled but ZERO ever
+            dispatched past a grace = the dispatcher never started.
+  citations 'complete' (the board's built claim) requires the nap_audit
+            found-count to clear CITATIONS_FOUND_FLOOR — an audit that found
+            2 platforms is not 'core listings complete'.
 
 Runs inside client_ops_sync.run() (same independent try/except as the setup
 ledger and email_inbox_sync — a checker raise must never take the sweep down).
-CLI for manual runs (prints the full per-client stage+dwell table):
+CLI for manual runs (prints the full per-client stage table + fleet
+distribution per board):
 
     python3 scripts/stage_checker.py --dry-run     # derive + print, write nothing
     python3 scripts/stage_checker.py               # live
@@ -73,7 +74,9 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
+from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -86,8 +89,9 @@ from client_ops_sync import _sb, action_key, load_env, slug_map  # noqa: E402
 from client_concierge import kv_get, kv_set  # noqa: E402
 
 HISTORY_KEY = "stage-history"
-BOARD = "website"
-DWELL_ALERT_DAYS = 7
+BOARD = "website"           # phase-1 name; the website history entry stays flat
+BOARDS = ("website", "gbp", "lsa", "reviews", "youtube", "citations",
+          "receptionist")
 LOGO_SOAK_DAYS = 7          # mirror of setup_ledger.ensure_auto_site_build
 MIN_IMAGE_META_ENTRIES = 3
 # Mirror of client_ops_sync.ensure_internal_launch_tasks READY_ACCESS — the
@@ -98,7 +102,71 @@ READY_ACCESS = {"granted", "creds_provided", "ns_live", "delegate_granted"}
 # phrase means the task is already in the dev inbox; never file a second.
 VISUAL_PASS_MARKER = "full visual pass"
 
+# Company scope — EXACT replica of BuildStagesBoard.tsx's roster filter:
+# EXCLUDED_COMPANY_STATUSES (case-insensitive; prod holds 'Active',
+# 'Inactive' AND 'paused'), EXCLUDED_COMPANY_IDS (the "Test (Rank AI)"
+# canary, on the plan so the plan filter can't drop it), RANK_AI_PLAN
+# compared trimmed/lowered.
+EXCLUDED_COMPANY_STATUSES = {"paused", "cancelled", "churned", "inactive",
+                             "archived"}
+EXCLUDED_COMPANY_IDS = {"CO-1782880883337"}  # Test (Rank AI)
+RANK_AI_PLAN = "rank ai"
 
+# ---------------------------------------------------------------- thresholds
+# Per-board, per-stage dwell thresholds in DAYS (alert when dwell EXCEEDS the
+# number). None = never alarm: terminal stages, and stages whose whole point
+# is to dwell (a parked LSA, a mid-drip review campaign). The numbers come
+# from the SEMANTICS of each stage, not one global constant:
+#
+# website  7 everywhere (Santino's phase-1 design): a build pipeline stage
+#          that hasn't moved in a week is stuck, whoever owns the blocker.
+# gbp      none=14 (connecting Google is a client action; the rank-0 connect
+#          ask nags — two silent weeks is escalation-worthy)
+#          connected=10 (no listing synced is OUR selection/creation work;
+#          the ledger watchdog reports it, ten days stuck deserves a card)
+#          synced=None (terminal; the optimized exit-check below still runs)
+# lsa      unknown=21 (a client DECISION — Yes/No/Later buttons +
+#          lsa_intent_check's ask own the nag; decisions dwell longer before
+#          we alarm), wants=10 (they said yes; account linking is our move),
+#          pending=30 (Google LSA verification — background check, license,
+#          insurance — routinely takes weeks; alarm only when a month passes),
+#          running/parked=None (terminal; an expired 'later' re-derives to
+#          unknown on its own).
+# reviews  none=None (plenty of clients legitimately have no list yet; the
+#          rank-30 customer-list ask owns that nag — alarming here would page
+#          on every new client), received=7 (a list arrived / rows staged and
+#          nothing dispatches: the Rudy case, THE silent-stall column),
+#          active=None (a mid-drip campaign is not stuck — the send-freshness
+#          exit-check catches real stalls instead), complete=None.
+# youtube  none=None (a rank-40 nice-to-have, client-paced; nearly the whole
+#          fleet connects eventually and alarming would flood), connected=None.
+# citations none=30 (the NAP audit is a monthly pipeline; a client with no
+#          audit after a month fell out of the loop), gaps=None (gaps are the
+#          normal working state while the creation queue grinds — the
+#          found-floor exit-check guards the built claim), complete=None.
+# receptionist none=None (the receptionist is optional per client;
+#          provisioning is sales-driven), provisioned=14 (a line exists but
+#          zero calls handled in two weeks: routing never finished or the
+#          number is unused), live=None.
+DWELL_DAYS: dict[str, dict[str, int | None]] = {
+    "website": {"building": 7, "preview": 7, "staging": 7, "ready": 7,
+                "live": None},
+    "gbp": {"none": 14, "connected": 10, "synced": None},
+    "lsa": {"unknown": 21, "wants": 10, "pending": 30, "running": None,
+            "parked": None},
+    "reviews": {"none": None, "received": 7, "active": None, "complete": None},
+    "youtube": {"none": None, "connected": None},
+    "citations": {"none": 30, "gaps": None, "complete": None},
+    "receptionist": {"none": None, "provisioned": 14, "live": None},
+}
+REVIEWS_STALL_DAYS = 7          # 'active' with no send in a week = stalled
+REVIEWS_NEVER_STARTED_DAYS = 2  # rows scheduled, zero EVER sent, oldest due
+                                # date this far past = dispatcher never started
+CITATIONS_FOUND_FLOOR = 3       # 'complete' with fewer platforms found than
+                                # this is a thin audit, not built listings
+
+
+# ---------------------------------------------------------------- derivations
 def website_stage(site: dict | None) -> str:
     """EXACT replica of BuildStagesBoard.tsx websiteStage(). Do not 'improve':
     the board and the checker must never disagree about what stage a client
@@ -115,6 +183,108 @@ def website_stage(site: dict | None) -> str:
     if bs in ("preview_ready", "preview_live"):
         return "preview"
     return "building"       # pending | scaffolded | rendering | unknown
+
+
+def gbp_stage(has_google: bool, profile: dict | None) -> str:
+    """EXACT replica of BuildStagesBoard.tsx gbpStage(): a
+    marketing_gbp_profiles row is the verifiable 'listing synced' signal —
+    it only exists when gbp.py actually pulled the listing, and it wins even
+    if the OAuth row later went inactive."""
+    return "synced" if profile else ("connected" if has_google else "none")
+
+
+def receptionist_stage(line: dict | None, has_calls: bool) -> str:
+    """EXACT replica of BuildStagesBoard.tsx's receptionist derivation:
+    an ai_agent-ish line row (the edge fn excludes number_type=
+    'call_tracking' — those are Ads tracking numbers) = provisioned;
+    call_metadata evidence the agent actually handled calls = live."""
+    if not line:
+        return "none"
+    return "live" if has_calls else "provisioned"
+
+
+def _lsa_intent_answer(intent) -> tuple[str | None, str | None]:
+    """EXACT replica of BuildStagesBoard.tsx lsaIntentAnswer(): dict
+    {answer, revisit_on} from OpsAttention / the board / lsa_intent_check,
+    or a legacy free-text string ('yes - LSA already live..., managed by
+    RGP'). Returns (answer, revisit_on)."""
+    if not intent:
+        return None, None
+    if isinstance(intent, str):
+        s = intent.strip().lower()
+        if s.startswith("yes"):
+            return "yes", None
+        if s.startswith("no"):
+            return "no", None
+        if s.startswith("later"):
+            m = re.search(r"\d{4}-\d{2}-\d{2}", intent)
+            return "later", (m.group(0) if m else None)
+        return None, None
+    a = str((intent.get("answer") if isinstance(intent, dict) else "") or "").lower()
+    if a in ("yes", "no", "later"):
+        return a, (intent.get("revisit_on") if isinstance(intent, dict) else None)
+    return None, None
+
+
+def lsa_stage(lsa, intent) -> str:
+    """EXACT replica of BuildStagesBoard.tsx lsaStage(). Precedence: an
+    ENABLED campaign is running whatever anyone said; an explicit
+    no/unexpired-later parks the client even if an old paused account
+    exists; a detected account that isn't enabled = setup pending; an
+    expired 'later' falls back to unknown (revisit date honoured)."""
+    lsa = lsa if isinstance(lsa, dict) else {}
+    if str(lsa.get("campaign_status") or "").upper() == "ENABLED":
+        return "running"
+    answer, revisit = _lsa_intent_answer(intent)
+    if answer == "no":
+        return "parked"
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    if answer == "later" and (not revisit or str(revisit) >= today):
+        return "parked"
+    if lsa.get("customer_id"):
+        return "pending"
+    if answer == "yes":
+        return "wants"
+    return "unknown"
+
+
+def reviews_stage(reqs: list[dict], pin: dict | None) -> str:
+    """EXACT replica of BuildStagesBoard.tsx's reviews derivation (vStage):
+    live row = could still be dispatched; dispatch evidence = some row
+    actually went out; the hub's customer-list pin counts as 'received'
+    before anything is loaded into review_requests."""
+    live = [r for r in reqs
+            if (r.get("status") or "").lower() in ("pending", "sent")
+            and not r.get("opted_out") and r.get("next_send_at") is not None]
+    dispatched = sum(1 for r in reqs if r.get("last_sent_at") is not None)
+    terminal = sum(1 for r in reqs if (r.get("status") or "").lower() in
+                   ("completed", "clicked", "reviewed", "feedback_given",
+                    "unsubscribed"))
+    if not reqs and not pin:
+        return "none"
+    if live and dispatched > 0:
+        return "active"
+    if reqs and not live and (dispatched > 0 or terminal > 0):
+        return "complete"
+    return "received"   # rows staged/parked, or a list uploaded but not loaded
+
+
+def youtube_stage(yt: dict | None) -> str:
+    """EXACT replica of BuildStagesBoard.tsx's YouTube derivation: an
+    integration row with status connected/active = connected."""
+    return ("connected" if yt and (yt.get("status") or "").lower()
+            in ("connected", "active") else "none")
+
+
+def citations_stage(nap_audit: dict | None) -> str:
+    """EXACT replica of BuildStagesBoard.tsx's citations derivation (cStage):
+    nap_audit = {platform: {status: found|discrepancy|missing}} written by
+    the monthly NAP-audit pipeline into the citations integration."""
+    entries = list((nap_audit or {}).values())
+    if not entries:
+        return "none"
+    missing = sum(1 for p in entries if ((p or {}).get("status") or "") == "missing")
+    return "gaps" if missing > 0 else "complete"
 
 
 # ---------------------------------------------------------------- signals
@@ -193,12 +363,156 @@ def _age_days(iso: str | None) -> int:
         return 0
 
 
-# ---------------------------------------------------------------- checklist
+# ---------------------------------------------------------------- ops notes
+def _open_note_bodies(cid: str, cache: dict) -> list[str] | None:
+    """Open marketing_ops_notes bodies for dedupe, cached per company per
+    run. None = the notes could not be read; the caller must NOT file (a
+    read hiccup would otherwise duplicate every open alert)."""
+    if cid not in cache:
+        try:
+            rows = _sb("GET", "/rest/v1/marketing_ops_notes"
+                       f"?company_id=eq.{cid}&status=eq.open&select=body",
+                       prefer="return=representation") or []
+            cache[cid] = [str(n.get("body") or "") for n in rows]
+        except Exception:  # noqa: BLE001
+            cache[cid] = None
+    return cache[cid]
+
+
+def _file_alert_note(cid: str, label: str, board: str, tag: str, text: str,
+                     dry_run: bool, cache: dict) -> str | None:
+    """ONE plain-English marketing_ops_notes row per condition per client,
+    deduped against open notes by the [STAGE:board:tag] marker — the same
+    open-note dedupe pattern as the phase-1 [DEV] imagery task. Returns a
+    sweep-line fragment when a note was (or would be) filed, else None."""
+    marker = f"[STAGE:{board}:{tag}]"
+    bodies = _open_note_bodies(cid, cache)
+    if bodies is None or any(marker in b for b in bodies):
+        return None
+    body = f"{marker} {label}: {text} Filed by stage_checker.py."
+    if dry_run:
+        return f"[dry-run] would file ops note {marker}"
+    _sb("POST", "/rest/v1/marketing_ops_notes",
+        [{"company_id": cid, "body": body}])
+    cache[cid].append(body)
+    return f"filed ops note {marker}"
+
+
+# ---------------------------------------------------------------- fleet data
+def _fetch_paged(path_base: str, page: int = 1000) -> list[dict]:
+    """GET all rows past the PostgREST default cap. The app board tolerates
+    the 1000-row truncation (supabase-js default); the checker paginates
+    because the reviews stall math needs the REAL newest last_sent_at."""
+    out: list[dict] = []
+    offset = 0
+    while True:
+        rows = _sb("GET", f"{path_base}&limit={page}&offset={offset}",
+                   prefer="return=representation") or []
+        out.extend(rows)
+        if len(rows) < page:
+            return out
+        offset += page
+
+
+def _fetch_fleet() -> dict:
+    """Every table read the app's build-stages edge function performs, with
+    the board's own roster filter applied. One dict of per-board maps."""
+    cos = _sb("GET", "/rest/v1/companies?plan=ilike.rank%20ai"
+              "&select=id,name,status,plan,services,created_at,"
+              "lsa:integration_settings->lsa,"
+              "lsa_intent:integration_settings->lsa_intent",
+              prefer="return=representation") or []
+    cos = [c for c in cos
+           if (c.get("status") or "").strip().lower() not in EXCLUDED_COMPANY_STATUSES
+           and c["id"] not in EXCLUDED_COMPANY_IDS]
+    ids = {c["id"] for c in cos}
+
+    sites = _sb("GET", "/rest/v1/marketing_sites?select=company_id,"
+                "rank_ai_slug,domain,build_status,apex_live,"
+                "domain_access_status", prefer="return=representation") or []
+
+    google = _sb("GET", "/rest/v1/user_integrations?provider=eq.google"
+                 "&status=eq.active&select=client_id",
+                 prefer="return=representation") or []
+    has_google = {r["client_id"] for r in google if r.get("client_id")}
+
+    profiles = _sb("GET", "/rest/v1/marketing_gbp_profiles?select=company_id,"
+                   "title,synced_at,services,description,has_hours",
+                   prefer="return=representation") or []
+    profile_by_cid = {p["company_id"]: p for p in profiles if p.get("company_id")}
+
+    # Receptionist lines — the edge fn excludes number_type='call_tracking'
+    # (Ads tracking numbers); one line per company, primary preferred, else
+    # oldest (rows ordered created_at asc, first-seen wins).
+    plines = _sb("GET", "/rest/v1/company_phone_numbers"
+                 "?number_type=neq.call_tracking&select=company_id,"
+                 "phone_number,is_primary,created_at&order=created_at.asc",
+                 prefer="return=representation") or []
+    line_by_cid: dict[str, dict] = {}
+    for l in plines:
+        cid = l.get("company_id")
+        if not cid or cid not in ids:
+            continue
+        if cid not in line_by_cid or (l.get("is_primary")
+                                      and not line_by_cid[cid].get("is_primary")):
+            line_by_cid[cid] = l
+    # "Live" evidence = the agent actually handled calls. The board head-
+    # counts call_metadata; the stage only needs existence, so probe one row
+    # per line-owning company.
+    has_calls: dict[str, bool] = {}
+    for cid in line_by_cid:
+        try:
+            rows = _sb("GET", f"/rest/v1/call_metadata?company_id=eq.{cid}"
+                       "&select=id&limit=1", prefer="return=representation") or []
+            has_calls[cid] = bool(rows)
+        except Exception:  # noqa: BLE001 — an unreadable count reads as 0
+            has_calls[cid] = False
+
+    yt_rows = _sb("GET", "/rest/v1/user_integrations?provider=eq.youtube"
+                  "&select=client_id,status", prefer="return=representation") or []
+    yt_by_cid = {y["client_id"]: y for y in yt_rows if y.get("client_id")}
+
+    cit_rows = _sb("GET", "/rest/v1/user_integrations?provider=eq.citations"
+                   "&select=client_id,nap_audit:connection_metadata->nap_audit",
+                   prefer="return=representation") or []
+    cit_by_cid: dict[str, dict] = {}
+    for r in cit_rows:
+        cid = r.get("client_id")
+        if not cid:
+            continue
+        # Prefer a row that actually carries an audit if duplicates exist
+        # (same rule as the board's citMap fill).
+        if cid not in cit_by_cid or (r.get("nap_audit")
+                                     and not cit_by_cid[cid].get("nap_audit")):
+            cit_by_cid[cid] = r
+
+    reqs = _fetch_paged("/rest/v1/review_requests?select=company_id,status,"
+                        "opted_out,next_send_at,last_sent_at&order=id.asc")
+    reqs_by_cid: dict[str, list[dict]] = {}
+    for r in reqs:
+        reqs_by_cid.setdefault(r.get("company_id"), []).append(r)
+
+    # The hub upload flow's "Customer list uploaded — load into the review
+    # campaign" pin: evidence a list arrived before anyone loaded it.
+    pins = _sb("GET", "/rest/v1/marketing_action_plan?pinned=eq.true"
+               "&title=ilike.Customer%20list%20uploaded*"
+               "&select=company_id,status", prefer="return=representation") or []
+    pin_by_cid = {p["company_id"]: p for p in pins if p.get("company_id")}
+
+    return {"companies": cos, "sites": sites, "has_google": has_google,
+            "profiles": profile_by_cid, "lines": line_by_cid,
+            "has_calls": has_calls, "youtube": yt_by_cid,
+            "citations": cit_by_cid, "reviews": reqs_by_cid,
+            "pins": pin_by_cid}
+
+
+# ---------------------------------------------------------------- checklists
 def _blockers(co: dict, slug: str | None, site: dict | None, stage: str,
               dry_run: bool) -> list[tuple[str, str]]:
-    """Unmet exit items for this stage, ordered most-blocking first. Each is
-    (what/action, owner). Filing side effects (the [DEV] task) happen here;
-    everything else is routed by reporting the system that already owns it."""
+    """WEBSITE exit checklist (unchanged phase-1 logic): unmet exit items for
+    this stage, ordered most-blocking first. Each is (what/action, owner).
+    Filing side effects (the [DEV] task) happen here; everything else is
+    routed by reporting the system that already owns it."""
     cid = co["id"]
     out: list[tuple[str, str]] = []
 
@@ -293,30 +607,168 @@ def _blockers(co: dict, slug: str | None, site: dict | None, stage: str,
     return out
 
 
+def _board_blocker(board: str, stage: str, ctx: dict) -> str:
+    """One-line 'what blocks the exit and who owns it' per non-website board
+    stage — the dwell-note body and the digest STUCK line share it. Cheap
+    derived text only; each blocker names the system that already owns it."""
+    if board == "gbp":
+        if stage == "none":
+            return ("no active Google connection — ops-sync's connect ask "
+                    "(rank 0) owns the nag; escalate to a call if it stays "
+                    "silent")
+        if stage == "connected":
+            return ("Google connected but NO GBP listing synced — the account "
+                    "holds zero listings (create+verify one) or several (a "
+                    "selection is needed); every GBP system skips this client "
+                    "meanwhile (ledger watchdog also reports it)")
+    if board == "lsa":
+        if stage == "unknown":
+            return ("no LSA decision recorded — lsa_intent_check's ask and "
+                    "the board's Yes/No/Later buttons own the capture")
+        if stage == "wants":
+            return ("client said YES to LSA but no LSA account is linked — "
+                    "provisioning/linking is our move (mcc_link/lsa flow)")
+        if stage == "pending":
+            note = str(ctx.get("verification") or "").strip()
+            return ("LSA account linked but the campaign is not ENABLED — "
+                    + (f"verification: {note}" if note else
+                       "verification/budget still pending in the portal"))
+    if board == "reviews" and stage == "received":
+        if ctx.get("pin_only"):
+            return ("customer list UPLOADED but never loaded into "
+                    "review_requests — ingest it and launch the reactivation "
+                    "campaign (sender per the 08-03 policy)")
+        return ("review rows staged but the campaign never dispatches — "
+                "check the dispatcher schedule / sender for this client")
+    if board == "citations" and stage == "none":
+        return ("no NAP audit on file — the monthly citations audit pass "
+                "(citations_audit) skipped this client")
+    if board == "receptionist" and stage == "provisioned":
+        return (f"receptionist line {ctx.get('phone', '?')} provisioned but "
+                "ZERO calls handled — routing never finished or the number "
+                "is unused")
+    return "no blocker derived — needs review"
+
+
+def _board_conditions(board: str, stage: str, ctx: dict) -> list[tuple[str, str]]:
+    """EXIT-CHECKLIST alert conditions with cheap derived checks, per board.
+    Returns (tag, plain-English text) pairs; each becomes one deduped
+    marketing_ops_notes row. Website is handled by _blockers() (phase 1)."""
+    out: list[tuple[str, str]] = []
+
+    # GBP: "synced" must actually be optimized — services + description +
+    # hours present on the profile row gbp.py wrote. (Attributes are read
+    # live from the API and never persisted, so has_hours stands in as the
+    # stored completeness signal.)
+    if board == "gbp" and stage == "synced":
+        prof = ctx.get("profile") or {}
+        gaps = []
+        svcs = prof.get("services")
+        if not (svcs if isinstance(svcs, list) else []):
+            gaps.append("no services")
+        if not str(prof.get("description") or "").strip():
+            gaps.append("no business description")
+        if prof.get("has_hours") is not True:
+            gaps.append("no business hours")
+        if gaps:
+            out.append(("unoptimized",
+                        "their Google listing is synced but not optimized: "
+                        + ", ".join(gaps) + " on the profile — run the GBP "
+                        "optimizer (gbp.py) for this client."))
+
+    # Reviews: "active" must actually be SENDING — the pace_capped-style
+    # silent stall (2026-08-11): rows read live/pending while the dispatcher
+    # quietly stopped. Newest real send older than REVIEWS_STALL_DAYS = alert.
+    if board == "reviews" and stage == "active":
+        newest = max((r.get("last_sent_at") for r in ctx.get("reqs", [])
+                      if r.get("last_sent_at")), default=None)
+        idle = _age_days(newest) if newest else None
+        if idle is not None and idle > REVIEWS_STALL_DAYS:
+            out.append(("stalled",
+                        f"their review campaign reads ACTIVE but nothing has "
+                        f"actually sent in {idle} days (last send "
+                        f"{str(newest)[:10]}) — check the dispatcher pace "
+                        "cap, sender compliance and the send schedule."))
+
+    # Reviews: rows scheduled, ZERO ever dispatched, and the oldest due date
+    # is well past — the campaign never started at all.
+    if board == "reviews" and stage == "received":
+        reqs = ctx.get("reqs", [])
+        live = [r for r in reqs
+                if (r.get("status") or "").lower() in ("pending", "sent")
+                and not r.get("opted_out") and r.get("next_send_at")]
+        ever_sent = any(r.get("last_sent_at") for r in reqs)
+        if live and not ever_sent:
+            oldest_due = min(r["next_send_at"] for r in live)
+            if _age_days(oldest_due) > REVIEWS_NEVER_STARTED_DAYS:
+                out.append(("never-started",
+                            f"{len(live)} review requests are scheduled "
+                            f"(oldest due {str(oldest_due)[:10]}) but ZERO "
+                            "have ever dispatched — the campaign never "
+                            "started; check the dispatcher and sender."))
+
+    # Citations: the board's "complete" is a BUILT claim — it must clear the
+    # found-count floor, or the audit was just thin.
+    if board == "citations" and stage == "complete":
+        entries = list((ctx.get("nap_audit") or {}).values())
+        found = sum(1 for p in entries
+                    if ((p or {}).get("status") or "") == "found")
+        if found < CITATIONS_FOUND_FLOOR:
+            out.append(("thin",
+                        f"citations read 'complete' but the NAP audit only "
+                        f"found {found} platform(s) (floor "
+                        f"{CITATIONS_FOUND_FLOOR}) — the audit scope is too "
+                        "thin to call the listings built; re-audit."))
+    return out
+
+
+# ---------------------------------------------------------------- history
+def _hist_entry(history: dict, cid: str, board: str) -> dict | None:
+    """Read one board's history entry. Backward compatible: website is the
+    phase-1 FLAT entry ({board,stage,entered_at} right on history[cid]);
+    other boards live under history[cid]['boards'][board]."""
+    h = history.get(cid)
+    if not isinstance(h, dict):
+        return None
+    if board == BOARD:
+        return h if h.get("board") == BOARD else None
+    b = h.get("boards")
+    return b.get(board) if isinstance(b, dict) else None
+
+
+def _hist_write(history: dict, cid: str, board: str, entry: dict) -> None:
+    if board == BOARD:
+        boards = (history.get(cid) or {}).get("boards")
+        history[cid] = {"board": BOARD, **entry}
+        if isinstance(boards, dict):
+            history[cid]["boards"] = boards
+        return
+    h = history.setdefault(cid, {})
+    h.setdefault("boards", {})[board] = entry
+
+
 # ---------------------------------------------------------------- main pass
 def check_stages(dry_run: bool, cid_to_slug: dict | None = None,
                  verbose: bool = False) -> list[str]:
-    """One pass over every ACTIVE Rank AI client. Returns '{slug}: ...' lines
-    for the sweep log / daily digest. History write is the only mutation
-    besides the (idempotent) [DEV] imagery task."""
+    """One pass over every board for every client the app's Build Stages
+    board shows. Returns '{slug}: ...' lines for the sweep log / daily
+    digest. Mutations: the history write, the (idempotent) [DEV] imagery
+    task, and the deduped [STAGE:*] alert notes."""
     cid_to_slug = cid_to_slug or slug_map()
-    now = datetime.now(timezone.utc)
-    now_iso = now.strftime("%Y-%m-%dT%H:%M:%SZ")
+    now_iso = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
-    cos = _sb("GET", "/rest/v1/companies?status=ilike.active"
-              "&plan=eq.Rank%20AI&select=id,name,services,created_at",
-              prefer="return=representation") or []
-    sites = _sb("GET", "/rest/v1/marketing_sites?select=company_id,"
-                "rank_ai_slug,domain,build_status,apex_live,"
-                "domain_access_status", prefer="return=representation") or []
-    by_cid = {s["company_id"]: s for s in sites if s.get("company_id")}
-    by_slug = {s["rank_ai_slug"]: s for s in sites if s.get("rank_ai_slug")}
+    fleet = _fetch_fleet()
+    cos = fleet["companies"]
+    by_cid = {s["company_id"]: s for s in fleet["sites"] if s.get("company_id")}
+    by_slug = {s["rank_ai_slug"]: s for s in fleet["sites"] if s.get("rank_ai_slug")}
 
     history = kv_get(HISTORY_KEY) or {}
     if not isinstance(history, dict):
         history = {}
     out: list[str] = []
-    table: list[tuple[str, str, int, str]] = []
+    table: list[tuple[str, dict[str, str], str]] = []
+    dist: dict[str, Counter] = {b: Counter() for b in BOARDS}
+    note_cache: dict = {}
     seeded = 0
     dirty = False
 
@@ -325,46 +777,127 @@ def check_stages(dry_run: bool, cid_to_slug: dict | None = None,
         slug = cid_to_slug.get(cid)
         label = slug or co.get("name") or cid
         site = by_cid.get(cid) or (by_slug.get(slug) if slug else None)
-        stage = website_stage(site)
+        line = fleet["lines"].get(cid)
+        reqs = fleet["reviews"].get(cid, [])
+        nap_audit = (fleet["citations"].get(cid) or {}).get("nap_audit")
 
-        h = history.get(cid)
-        if not isinstance(h, dict) or h.get("board") != BOARD:
-            h = None
-        if h is None:
-            history[cid] = {"board": BOARD, "stage": stage,
-                            "entered_at": now_iso}
-            seeded += 1
-            dirty = True
-        elif h.get("stage") != stage:
-            out.append(f"{label}: stage {h.get('stage')} -> {stage}")
-            history[cid] = {"board": BOARD, "stage": stage,
-                            "entered_at": now_iso}
-            dirty = True
-        dwell = _age_days(history[cid]["entered_at"])
+        stages = {
+            "website": website_stage(site),
+            "gbp": gbp_stage(cid in fleet["has_google"],
+                             fleet["profiles"].get(cid)),
+            "lsa": lsa_stage(co.get("lsa"), co.get("lsa_intent")),
+            "reviews": reviews_stage(reqs, fleet["pins"].get(cid)),
+            "youtube": youtube_stage(fleet["youtube"].get(cid)),
+            "citations": citations_stage(nap_audit),
+            "receptionist": receptionist_stage(line,
+                                               fleet["has_calls"].get(cid, False)),
+        }
+        # Per-board context the blocker/condition text draws on.
+        ctx = {
+            "gbp": {"profile": fleet["profiles"].get(cid)},
+            "lsa": {"verification": (co.get("lsa") or {}).get("verification")
+                    if isinstance(co.get("lsa"), dict) else None},
+            "reviews": {"reqs": reqs,
+                        "pin_only": bool(fleet["pins"].get(cid)) and not reqs},
+            "citations": {"nap_audit": nap_audit},
+            "receptionist": {"phone": (line or {}).get("phone_number")},
+        }
 
-        blockers = _blockers(co, slug, site, stage, dry_run)
-        summary = "; ".join(b[0] for b in blockers) or "-"
-        table.append((label, stage, dwell, summary))
+        website_summary = "-"
+        for board in BOARDS:
+            stage = stages[board]
+            dist[board][stage] += 1
 
-        if stage == "live":
-            continue   # terminal — no exit checklist, no dwell alarm
-        if dwell > DWELL_ALERT_DAYS:
-            top, owner = blockers[0] if blockers else (
-                "no blocker derived — needs review", "Santino")
-            out.append(f"{label}: STUCK {dwell}d in {stage}: {top} -> {owner}")
-        elif blockers:
-            out.append(f"{label}: {stage} ({dwell}d) — {summary}")
+            ent = _hist_entry(history, cid, board)
+            if ent is None or ent.get("stage") is None:
+                _hist_write(history, cid, board,
+                            {"stage": stage, "entered_at": now_iso})
+                seeded += 1
+                dirty = True
+            elif ent.get("stage") != stage:
+                if board == BOARD:
+                    out.append(f"{label}: stage {ent.get('stage')} -> {stage}")
+                else:
+                    out.append(f"{label}: [{board}] {ent.get('stage')} "
+                               f"-> {stage}")
+                _hist_write(history, cid, board,
+                            {"stage": stage, "entered_at": now_iso})
+                dirty = True
+            ent = _hist_entry(history, cid, board) or {}
+            dwell = _age_days(ent.get("entered_at"))
+
+            # ---- website keeps its phase-1 checklist + line formats -------
+            if board == BOARD:
+                blockers = _blockers(co, slug, site, stage, dry_run)
+                website_summary = "; ".join(b[0] for b in blockers) or "-"
+                if stage == "live":
+                    continue   # terminal — no exit checklist, no dwell alarm
+                threshold = DWELL_DAYS[BOARD].get(stage)
+                if threshold is not None and dwell > threshold:
+                    top, owner = blockers[0] if blockers else (
+                        "no blocker derived — needs review", "Santino")
+                    out.append(f"{label}: STUCK {dwell}d in {stage}: {top} "
+                               f"-> {owner}")
+                    if not ent.get("dwell_noted"):
+                        did = _file_alert_note(
+                            cid, label, BOARD, f"dwell-{stage}",
+                            f"stuck {dwell} days in website stage '{stage}'. "
+                            f"Top blocker: {top} (owner: {owner}).",
+                            dry_run, note_cache)
+                        if did:
+                            ent["dwell_noted"] = True
+                            dirty = True
+                            out.append(f"{label}: {did}")
+                elif blockers:
+                    out.append(f"{label}: {stage} ({dwell}d) — "
+                               f"{website_summary}")
+                continue
+
+            # ---- the six new boards ---------------------------------------
+            threshold = DWELL_DAYS[board].get(stage)
+            if threshold is not None and dwell > threshold:
+                blocker = _board_blocker(board, stage, ctx.get(board, {}))
+                out.append(f"{label}: [{board}] STUCK {dwell}d in {stage}: "
+                           f"{blocker}")
+                if not ent.get("dwell_noted"):
+                    did = _file_alert_note(
+                        cid, label, board, f"dwell-{stage}",
+                        f"stuck {dwell} days in {board} stage '{stage}'. "
+                        f"{blocker}.", dry_run, note_cache)
+                    if did:
+                        ent["dwell_noted"] = True
+                        dirty = True
+                        out.append(f"{label}: {did}")
+
+            for tag, text in _board_conditions(board, stage, ctx.get(board, {})):
+                did = _file_alert_note(cid, label, board, tag, text,
+                                       dry_run, note_cache)
+                out.append(f"{label}: [{board}] {text}"
+                           + (f" ({did})" if did else " (note already open)"))
+
+        table.append((label, stages, website_summary))
 
     if seeded:
         out.insert(0, f"(stage-history) seeded entered_at=now for {seeded} "
-                      "client(s) — dwell counts start today")
+                      "board entr(ies) — dwell counts start today")
     if dirty and not dry_run:
         kv_set(HISTORY_KEY, history)
 
     if verbose:
-        print(f"\n  {'client':44s} {'stage':9s} {'dwell':>5s}  blockers")
-        for label, stage, dwell, summary in table:
-            print(f"  {label:44s} {stage:9s} {dwell:4d}d  {summary[:110]}")
+        cols = ("website", "gbp", "lsa", "reviews", "youtube", "citations",
+                "receptionist")
+        print(f"\n  {'client':44s} " + " ".join(f"{c[:10]:>11s}" for c in cols))
+        for label, stages, _summary in table:
+            print(f"  {label:44s} "
+                  + " ".join(f"{stages[c][:11]:>11s}" for c in cols))
+        print("\n  fleet distribution per board:")
+        for b in BOARDS:
+            parts = ", ".join(f"{s}={n}" for s, n in dist[b].most_common())
+            print(f"    {b:13s} {parts}")
+        print("\n  website blockers:")
+        for label, stages, summary in table:
+            if summary != "-":
+                print(f"    {label:42s} {summary[:120]}")
         print()
     return out
 
@@ -381,7 +914,7 @@ def main() -> int:
         print("ERROR: SUPABASE_URL + SUPABASE_SERVICE_ROLE_KEY required.",
               file=sys.stderr)
         return 2
-    print(f"stage checker ({BOARD} board)"
+    print(f"stage checker ({len(BOARDS)} boards)"
           f"{' [DRY RUN]' if args.dry_run else ''}")
     for ln in check_stages(args.dry_run, slug_map(), verbose=True):
         print("  " + ln)
