@@ -741,6 +741,40 @@ def audit_client(slug: str, company_id: str, meta: dict, apply: bool,
             print(f"   -> {f}")
         if not fixes:
             print("   -> no auto-fixes needed")
+        # CHANGE-LOG (2026-08-12, same gap as set_cover_photo): applied fixes
+        # must reach marketing_gbp_changes or they never show in the client's
+        # Monthly Summary. One plain row per applied fix line; dry runs and
+        # WOULD/skipped lines never log.
+        if apply:
+            _CHANGE_LINES = {
+                "photos": ("profile_photos",
+                           "New photos uploaded to the Google listing"),
+                "description": ("profile_description",
+                                "Business description updated on the Google listing"),
+                "services": ("service_add",
+                             "Services added to the Google listing"),
+            }
+            for f in fixes:
+                kind = f.split(":", 1)[0].strip()
+                low = f.lower()
+                if kind not in _CHANGE_LINES or "would" in low or "skipped" in low \
+                        or "left unchanged" in low or "no v4" in low:
+                    continue
+                ctype, summary = _CHANGE_LINES[kind]
+                try:
+                    sb_url = os.environ["SUPABASE_URL"].rstrip("/")
+                    sb_key = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
+                    requests.post(
+                        f"{sb_url}/rest/v1/marketing_gbp_changes",
+                        headers={"apikey": sb_key,
+                                 "Authorization": f"Bearer {sb_key}",
+                                 "Content-Type": "application/json"},
+                        json={"company_id": company_id, "change_type": ctype,
+                              "summary": summary, "actor": "optimizer",
+                              "meta": {"detail": f[:300]}},
+                        timeout=20).raise_for_status()
+                except Exception as e:  # noqa: BLE001
+                    print(f"   [log] change-log failed (non-blocking): {str(e)[:80]}")
     items = plan_items(p, score)
     if location and (location.get("title") or "").strip():
         # Secondary listing: tag plan items so they don't collide with the
