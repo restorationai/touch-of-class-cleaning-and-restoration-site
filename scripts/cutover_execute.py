@@ -189,13 +189,55 @@ def sb_patch(path: str, body: dict) -> None:
         raise RuntimeError(f"supabase PATCH {path} -> {r.status_code} {r.text[:200]}")
 
 
+def _pinned_fetch_py(domain: str, ip: str, path: str) -> tuple[int, str]:
+    """curl --resolve without curl: raw TLS to the pinned IP with SNI set to
+    the domain (Railway's Nixpacks image doesn't guarantee a curl binary)."""
+    import socket
+    import ssl
+    ctx = ssl.create_default_context()
+    with socket.create_connection((ip, 443), timeout=CURL_TIMEOUT) as sock:
+        with ctx.wrap_socket(sock, server_hostname=domain) as tls:
+            tls.sendall((f"GET {path} HTTP/1.1\r\nHost: {domain}\r\n"
+                         f"User-Agent: {UA['User-Agent']}\r\n"
+                         "Accept: */*\r\nConnection: close\r\n\r\n").encode())
+            raw = b""
+            while len(raw) < 2_000_000:
+                chunk = tls.recv(65536)
+                if not chunk:
+                    break
+                raw += chunk
+    head, _, body = raw.partition(b"\r\n\r\n")
+    lines = head.decode("latin-1").splitlines()
+    code = int(lines[0].split()[1]) if lines and len(lines[0].split()) > 1 else 0
+    if any(l.lower() == "transfer-encoding: chunked" for l in lines):
+        out, rest = b"", body
+        while rest:
+            size_line, _, rest = rest.partition(b"\r\n")
+            try:
+                n = int(size_line.strip() or b"0", 16)
+            except ValueError:
+                break
+            if n == 0:
+                break
+            out += rest[:n]
+            rest = rest[n + 2:]
+        body = out
+    return code, body.decode("utf-8", "replace")
+
+
 def curl_resolve(domain: str, ip: str, path: str) -> tuple[int, str]:
     """HTTPS fetch pinned to a specific IP (the outside-verification trick:
     DNS answers come from DoH, the request goes straight at that answer)."""
-    out = subprocess.run(
-        ["curl", "-sS", "--max-time", str(CURL_TIMEOUT), "-w", "\n%{http_code}",
-         "--resolve", f"{domain}:443:{ip}", f"https://{domain}{path}"],
-        capture_output=True, text=True, timeout=CURL_TIMEOUT + 10)
+    try:
+        out = subprocess.run(
+            ["curl", "-sS", "--max-time", str(CURL_TIMEOUT), "-w", "\n%{http_code}",
+             "--resolve", f"{domain}:443:{ip}", f"https://{domain}{path}"],
+            capture_output=True, text=True, timeout=CURL_TIMEOUT + 10)
+    except FileNotFoundError:
+        try:
+            return _pinned_fetch_py(domain, ip, path)
+        except Exception:
+            return 0, ""
     body, _, code = out.stdout.rpartition("\n")
     try:
         return int(code or 0), body
