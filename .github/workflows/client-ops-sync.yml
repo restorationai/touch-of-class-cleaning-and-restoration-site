@@ -128,6 +128,20 @@ jobs:
           python3 scripts/backlinks.py seed || true
           python3 scripts/backlinks.py check || true
 
+      - name: Citations -> site schema sameAs reconciliation
+        env:
+          SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          # sync-deploy pushes the per-client repo for sites live on main
+          GITHUB_PERSONAL_ACCESS_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          # Declares each client's live directory listings (nap_audit source
+          # of truth) as schema.org sameAs URLs in brand.ts. Citations trickle
+          # in for weeks after launch — this keeps the JSON-LD in step.
+          # Live-on-main sites commit + sync-deploy themselves; preview-only
+          # edits ride the commit step below. Idempotent, quiet when in sync.
+          python3 scripts/citations_sync.py || true
+
       - name: Refresh Search Console data (app Reports tab)
         env:
           SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
