@@ -315,9 +315,12 @@ _REACTION_RE = re.compile(
 # company number is the GHL location's own number and can't receive sends
 # from its own location — the ping goes to the ops cell via the toll-free,
 # which still lands the thread in GHL where the team can see it.
-OPS_PING_CELL = os.environ.get("CONCIERGE_OPS_CELL", "+18089891078")
+# TRAVEL SWITCH (Santino 2026-08-11): his 808 cell cannot receive SMS abroad;
+# ops pings go to his 805 until he is back. REVERT on his return:
+# cell +18089891078, contact MIJ5Jm4sobdzSRtnYSzU.
+OPS_PING_CELL = os.environ.get("CONCIERGE_OPS_CELL", "+18055392313")
 OPS_PING_CONTACT_ID = os.environ.get("CONCIERGE_OPS_CONTACT_ID",
-                                     "MIJ5Jm4sobdzSRtnYSzU")  # Santino Velci
+                                     "Ib2kYCeRf02fIJEgKgF3")  # Santino (805)
 OPS_PING_DEDUPE_HOURS = 24
 _OPS_PINGS: list = []          # (company name, reason) accumulated per run
 BUSINESS_HOUR_START = 9
