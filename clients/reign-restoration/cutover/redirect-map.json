@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-12T02:16:22+00:00",
+ "generated_at": "2026-08-12T02:26:06+00:00",
  "domain": "reign-restoration.com",
  "routes": 145,
  "map": {
@@ -12,11 +12,11 @@
    "how": "claude"
   },
   "/joinourteam": {
-   "target": "/",
+   "target": "/about/",
    "how": "claude"
   },
   "/residential-roofing": {
-   "target": "/services/general-contracting/",
+   "target": "/services/storm-damage-restoration/",
    "how": "claude"
   },
   "/water-damage-restoration": {

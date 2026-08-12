@@ -142,6 +142,31 @@ jobs:
           # edits ride the commit step below. Idempotent, quiet when in sync.
           python3 scripts/citations_sync.py || true
 
+      - name: Cutover harvest (301 maps staged before any domain cutover)
+        env:
+          ANTHROPIC_API_KEY:    ${{ secrets.ANTHROPIC_API_KEY }}
+          DATAFORSEO_USERNAME:  ${{ secrets.DATAFORSEO_USERNAME }}
+          DATAFORSEO_PASSWORD:  ${{ secrets.DATAFORSEO_PASSWORD }}
+          GSC_AGENCY_TOKEN:     ${{ secrets.GSC_AGENCY_TOKEN }}
+        run: |
+          # Clients whose real domain still serves their OLD site (probe:
+          # /llms.txt vs the repo's own sites/{slug}/public/llms.txt) get the
+          # old site's URL inventory harvested and a 301 map merged into
+          # sites/{slug}/public/_redirects while the old site is still alive
+          # — TRG/Crew had these hand-built; everyone else was going to lose
+          # their old rankings/backlinks at cutover. Redirects on a preview
+          # site are harmless and ride the next normal deploy (no sync-deploy
+          # here). Freshness-gated (>30d) so the paid DataForSEO backlinks
+          # call runs at most ~monthly per client; cap 3 clients/run.
+          # --no-commit: files ride the commit step below (a mid-job commit
+          # would be stranded unpushed when that step finds nothing new).
+          if [ -n "$GSC_AGENCY_TOKEN" ]; then
+            printf '%s' "$GSC_AGENCY_TOKEN" > .gsc-agency-token.json
+          fi
+          python3 scripts/cutover_harvest.py check --all || true
+          python3 scripts/cutover_harvest.py auto --limit 3 --no-commit || true
+          rm -f .gsc-agency-token.json
+
       - name: Refresh Search Console data (app Reports tab)
         env:
           SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
