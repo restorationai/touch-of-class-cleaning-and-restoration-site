@@ -87,5 +87,13 @@
     "last_run_total_actions": 0,
     "last_run_top_action": null,
     "last_run_report_path": "clients/restoration-groups/refresh-runs/2026-07-30-refresh-recommender.md"
+  },
+  "cutover_prep": {
+    "domain": "therestorationgroup.com",
+    "harvested_at": "2026-08-12T15:39:48+00:00",
+    "url_count": 965,
+    "backlinked_count": 18,
+    "redirects_added": 21,
+    "mapped_at": "2026-08-12T15:39:57+00:00"
   }
 }
