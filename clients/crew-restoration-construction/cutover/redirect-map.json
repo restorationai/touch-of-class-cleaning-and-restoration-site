@@ -1,0 +1,95 @@
+{
+ "generated_at": "2026-08-12T15:34:49+00:00",
+ "domain": "crew3r.com",
+ "routes": 668,
+ "map": {
+  "/3-categories-of-water-damage": {
+   "target": "/blog/what-to-do-first-24-hours-water-damage/",
+   "how": "claude"
+  },
+  "/careers": {
+   "target": "/about/",
+   "how": "claude"
+  },
+  "/construction-services": {
+   "target": "/services/general-contracting/",
+   "how": "claude"
+  },
+  "/constructionservices/residential-remodel": {
+   "target": "/services/general-contracting/",
+   "how": "claude"
+  },
+  "/constructionservices/shingle-roof-repair": {
+   "target": "/services/roofing/",
+   "how": "claude"
+  },
+  "/contact-us": {
+   "target": "/contact/",
+   "how": "heuristic"
+  },
+  "/customize-your-closet-space": {
+   "target": "/",
+   "how": "claude"
+  },
+  "/financing": {
+   "target": "/",
+   "how": "claude"
+  },
+  "/free-estimate": {
+   "target": "/contact/",
+   "how": "claude"
+  },
+  "/how-to-safely-use-a-roof-rake": {
+   "target": "/services/roofing/",
+   "how": "claude"
+  },
+  "/inspecting-your-property-after-a-neighbors-fire-loss": {
+   "target": "/blog/fire-damage-restoration-process/",
+   "how": "claude"
+  },
+  "/keep-your-basement-warm-during-winter": {
+   "target": "/",
+   "how": "claude"
+  },
+  "/mold-remediation.html": {
+   "target": "/services/mold-remediation/",
+   "how": "claude"
+  },
+  "/nuda-sd": {
+   "target": "/",
+   "how": "claude"
+  },
+  "/restoration-services": {
+   "target": "/services/",
+   "how": "claude"
+  },
+  "/restoration-services/water-damage": {
+   "target": "/services/water-damage-restoration/",
+   "how": "claude"
+  },
+  "/restorationservices/fire-restoration": {
+   "target": "/services/fire-damage-restoration/",
+   "how": "claude"
+  },
+  "/restorationservices/mold-removal": {
+   "target": "/services/mold-remediation/",
+   "how": "claude"
+  },
+  "/restorationservices/water-damage": {
+   "target": "/services/water-damage-restoration/",
+   "how": "claude"
+  },
+  "/sioux-cityia": {
+   "target": "/service-areas/",
+   "how": "claude"
+  },
+  "/sioux-falls-sd": {
+   "target": "/service-areas/sioux-falls-sd/",
+   "how": "heuristic"
+  },
+  "/soot-damage": {
+   "target": "/services/fire-damage-restoration/",
+   "how": "claude"
+  }
+ }
+}
