@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-12T15:40:45+00:00",
+ "generated_at": "2026-08-12T15:45:02+00:00",
  "domain": "prorestorationca.com",
  "routes": 227,
  "map": {
@@ -56,7 +56,7 @@
    "how": "claude"
   },
   "/water-damage-conner": {
-   "target": "/service-areas/lake-isabella-ca/water-damage-restoration/",
+   "target": "/services/water-damage-restoration/",
    "how": "claude"
   },
   "/water-damage-delano": {
@@ -64,7 +64,7 @@
    "how": "claude"
   },
   "/water-damage-frazier-park": {
-   "target": "/service-areas/tehachapi-ca/water-damage-restoration/",
+   "target": "/services/water-damage-restoration/",
    "how": "claude"
   },
   "/water-damage-keene": {
@@ -80,7 +80,7 @@
    "how": "claude"
   },
   "/water-damage-lebec": {
-   "target": "/service-areas/tehachapi-ca/water-damage-restoration/",
+   "target": "/services/water-damage-restoration/",
    "how": "claude"
   },
   "/water-damage-oildale": {
