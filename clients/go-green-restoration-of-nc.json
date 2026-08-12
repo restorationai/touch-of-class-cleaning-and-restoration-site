@@ -28,5 +28,11 @@
   "build_status": "pushed_main",
   "indexnow_key": "0d9ae4ea880949d1a41785e0da098e5a",
   "cut_over_at": "2026-08-09T00:00:00+00:00",
-  "cut_over_note": "522 cleared + verified live 08-09"
+  "cut_over_note": "522 cleared + verified live 08-09",
+  "cutover_prep": {
+    "domain": "gogreenrestorationofnc.com",
+    "harvested_at": "2026-08-12T15:41:59+00:00",
+    "url_count": 92,
+    "backlinked_count": 1
+  }
 }

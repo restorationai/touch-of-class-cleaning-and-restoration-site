@@ -52,5 +52,11 @@
     "last_pushed_main_at": "2026-07-29T17:49:04.564204+00:00"
   },
   "build_status": "pushed_staging",
-  "indexnow_key": "5b317787d26c4a309960c17bbf6fc9e9"
+  "indexnow_key": "5b317787d26c4a309960c17bbf6fc9e9",
+  "cutover_prep": {
+    "domain": "mccrestoration.com",
+    "harvested_at": "2026-08-12T15:44:05+00:00",
+    "url_count": 1,
+    "backlinked_count": 1
+  }
 }

@@ -42,5 +42,11 @@
     }
   ],
   "cut_over_at": "2026-07-23T00:00:00+00:00",
-  "cut_over_note": "live in prod since ~07-23 (PuroClean deploys MAIN note)"
+  "cut_over_note": "live in prod since ~07-23 (PuroClean deploys MAIN note)",
+  "cutover_prep": {
+    "domain": "purocleaneastlasvegas.com",
+    "harvested_at": "2026-08-12T15:41:05+00:00",
+    "url_count": 77,
+    "backlinked_count": 1
+  }
 }

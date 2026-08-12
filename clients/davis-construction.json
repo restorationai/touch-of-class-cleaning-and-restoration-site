@@ -77,5 +77,11 @@
       "retired_at": "2026-08-05T04:36:24.011283+00:00",
       "reason": "manual --rotate"
     }
-  ]
+  ],
+  "cutover_prep": {
+    "domain": "davisconstructioncontractors.com",
+    "harvested_at": "2026-08-12T15:44:00+00:00",
+    "url_count": 79,
+    "backlinked_count": 1
+  }
 }

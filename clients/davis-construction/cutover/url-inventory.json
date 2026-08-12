@@ -1,0 +1,724 @@
+{
+ "domain": "davisconstructioncontractors.com",
+ "harvested_at": "2026-08-12T15:44:00+00:00",
+ "counts": {
+  "total": 79,
+  "sitemap": 79,
+  "crawl": 0,
+  "backlinked": 1,
+  "gsc": 8
+ },
+ "urls": [
+  {
+   "url": "https://davisconstructioncontractors.com/",
+   "path": "/",
+   "title": "",
+   "backlinks": 16,
+   "referring_domains": 16,
+   "gsc_clicks": 46,
+   "source": "sitemap,backlinks,gsc"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/about",
+   "path": "/about",
+   "title": "About Davis Construction Contractors",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 4,
+   "source": "sitemap,gsc"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/blog/fire-damage-restoration-process",
+   "path": "/blog/fire-damage-restoration-process",
+   "title": "The Fire Damage Restoration Process: What Happens After the Fire",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 1,
+   "source": "sitemap,gsc"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/blog/mold-inspection-cost-huntsville",
+   "path": "/blog/mold-inspection-cost-huntsville",
+   "title": "Mold Inspection Cost in Huntsville, AL: What to Expect",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 1,
+   "source": "sitemap,gsc"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/blog/mold-remediation-cost-madison",
+   "path": "/blog/mold-remediation-cost-madison",
+   "title": "Mold Remediation Cost in Madison, AL: 2026 Price Guide",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 1,
+   "source": "sitemap,gsc"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/contact",
+   "path": "/contact",
+   "title": "Contact Davis Construction Contractors",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 1,
+   "source": "sitemap,gsc"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/service-areas/athens-al/home-remodeling",
+   "path": "/service-areas/athens-al/home-remodeling",
+   "title": "Home Remodeling in Athens, AL | Davis Construction Contractors",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 1,
+   "source": "sitemap,gsc"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/services",
+   "path": "/services",
+   "title": "Restoration Services in Madison | Davis Construction Contractors",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 1,
+   "source": "sitemap,gsc"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/accessibility",
+   "path": "/accessibility",
+   "title": "Accessibility Statement | Davis Construction Contractors",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/blog",
+   "path": "/blog",
+   "title": "Restoration Blog | Davis Construction Contractors",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/blog/attic-mold-removal-athens",
+   "path": "/blog/attic-mold-removal-athens",
+   "title": "Attic Mold Removal in Athens, AL: Causes, Cost, and Prevention",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/blog/basement-flooding-prevention",
+   "path": "/blog/basement-flooding-prevention",
+   "title": "8 Ways To Prevent Basement Flooding This Season",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/blog/best-home-remodeling-company-in-madison-al",
+   "path": "/blog/best-home-remodeling-company-in-madison-al",
+   "title": "Best Home Remodeling Companies in Madison, AL (2026 Comparison)",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/blog/black-mold-vs-regular-mold",
+   "path": "/blog/black-mold-vs-regular-mold",
+   "title": "Black Mold vs Regular Mold: How To Tell the Difference",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/blog/burst-pipe-emergency-checklist",
+   "path": "/blog/burst-pipe-emergency-checklist",
+   "title": "Burst Pipe Emergency Checklist: Step-by-Step Response",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/blog/choosing-a-restoration-company",
+   "path": "/blog/choosing-a-restoration-company",
+   "title": "How To Choose a Restoration Company in (Without Getting Burned)",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/blog/commercial-water-damage-business-continuity",
+   "path": "/blog/commercial-water-damage-business-continuity",
+   "title": "Commercial Water Damage: Protecting Business Continuity After a",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/blog/crawl-space-mold-removal-madison",
+   "path": "/blog/crawl-space-mold-removal-madison",
+   "title": "Crawl Space Mold Removal in Madison, AL: Why Humidity Is the",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/blog/do-i-need-a-general-contractor-for-a-remodel",
+   "path": "/blog/do-i-need-a-general-contractor-for-a-remodel",
+   "title": "Do I Need a General Contractor for My Remodel? (When to Hire One",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/blog/does-homeowners-insurance-cover-fire-damage",
+   "path": "/blog/does-homeowners-insurance-cover-fire-damage",
+   "title": "Does Homeowners Insurance Cover Fire Damage? (What Your Policy",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/blog/does-homeowners-insurance-cover-water-damage",
+   "path": "/blog/does-homeowners-insurance-cover-water-damage",
+   "title": "Does Homeowners Insurance Cover Water Damage? A Plain-English",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/blog/does-insurance-cover-mold-remediation-huntsville",
+   "path": "/blog/does-insurance-cover-mold-remediation-huntsville",
+   "title": "Does Insurance Cover Mold Remediation? A Huntsville, AL",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/blog/fire-damage-restoration-cost",
+   "path": "/blog/fire-damage-restoration-cost",
+   "title": "Fire Damage Restoration Cost: What Homeowners in Alabama Actually",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/blog/how-long-does-water-damage-restoration-take",
+   "path": "/blog/how-long-does-water-damage-restoration-take",
+   "title": "How Long Does Water Damage Restoration Actually Take?",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/blog/how-much-does-a-general-contractor-cost",
+   "path": "/blog/how-much-does-a-general-contractor-cost",
+   "title": "How Much Does a General Contractor Cost in Alabama? (Fees,",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/blog/how-much-does-a-home-remodel-cost",
+   "path": "/blog/how-much-does-a-home-remodel-cost",
+   "title": "How Much Does a Home Remodel Cost in Alabama? (2026 Price",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/blog/how-to-choose-a-general-contractor",
+   "path": "/blog/how-to-choose-a-general-contractor",
+   "title": "How to Choose a General Contractor: A Homeowner's Checklist (What",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/blog/iicrc-certification-explained",
+   "path": "/blog/iicrc-certification-explained",
+   "title": "Restoration Industry Standards Explained (and Why They Matter",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/blog/licensed-vs-unlicensed-contractor-alabama",
+   "path": "/blog/licensed-vs-unlicensed-contractor-alabama",
+   "title": "Licensed vs Unlicensed Contractor in Alabama: Why It Matters (and",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/blog/mold-after-water-damage",
+   "path": "/blog/mold-after-water-damage",
+   "title": "How Quickly Does Mold Grow After Water Damage?",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/blog/residential-fire-damage-restoration",
+   "path": "/blog/residential-fire-damage-restoration",
+   "title": "Residential Fire Damage Restoration in Madison and Huntsville AL",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/blog/signs-of-hidden-mold",
+   "path": "/blog/signs-of-hidden-mold",
+   "title": "7 Signs You Have Hidden Mold (and What To Do Next)",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/blog/storm-damage-insurance-claim-checklist",
+   "path": "/blog/storm-damage-insurance-claim-checklist",
+   "title": "Storm Damage Insurance Claim Checklist (Use This Before You Call",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/blog/water-damage-restoration-cost-guide",
+   "path": "/blog/water-damage-restoration-cost-guide",
+   "title": "Water Damage Restoration Cost: What to Expect (and What You'll",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/blog/what-to-do-after-a-house-fire",
+   "path": "/blog/what-to-do-after-a-house-fire",
+   "title": "What to Do After a House Fire: The First 24-48 Hours",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/blog/what-to-do-first-24-hours-water-damage",
+   "path": "/blog/what-to-do-first-24-hours-water-damage",
+   "title": "What To Do in the First 24 Hours After Water Damage",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/certifications",
+   "path": "/certifications",
+   "title": "Licenses & Certifications | Davis Construction Contractors",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/privacy",
+   "path": "/privacy",
+   "title": "Privacy Policy | Davis Construction Contractors",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/reviews",
+   "path": "/reviews",
+   "title": "Reviews | Davis Construction Contractors",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/service-areas",
+   "path": "/service-areas",
+   "title": "Service Areas | Davis Construction Contractors Restoration",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/service-areas/athens-al",
+   "path": "/service-areas/athens-al",
+   "title": "Restoration Services in Athens, AL",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/service-areas/athens-al/decks-pergolas-fences",
+   "path": "/service-areas/athens-al/decks-pergolas-fences",
+   "title": "Decks, Pergolas and Fences in Athens, AL",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/service-areas/athens-al/mold-remediation",
+   "path": "/service-areas/athens-al/mold-remediation",
+   "title": "Mold Remediation in Athens, AL | Davis Construction Contractors",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/service-areas/athens-al/new-construction",
+   "path": "/service-areas/athens-al/new-construction",
+   "title": "New Home Construction in Athens, AL",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/service-areas/athens-al/painting-trim",
+   "path": "/service-areas/athens-al/painting-trim",
+   "title": "Painting and Trim in Athens, AL | Davis Construction Contractors",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/service-areas/athens-al/roofing",
+   "path": "/service-areas/athens-al/roofing",
+   "title": "Roofing Installation and Replacement in Athens, AL",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/service-areas/athens-al/siding-gutters",
+   "path": "/service-areas/athens-al/siding-gutters",
+   "title": "Siding and Gutters in Athens, AL | Davis Construction Contractors",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/service-areas/athens-al/storm-damage-restoration",
+   "path": "/service-areas/athens-al/storm-damage-restoration",
+   "title": "Storm Damage Restoration in Athens, AL",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/service-areas/athens-al/water-damage-restoration",
+   "path": "/service-areas/athens-al/water-damage-restoration",
+   "title": "Water Damage Restoration in Athens, AL",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/service-areas/huntsville-al",
+   "path": "/service-areas/huntsville-al",
+   "title": "Restoration Services in Huntsville, AL",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/service-areas/huntsville-al/decks-pergolas-fences",
+   "path": "/service-areas/huntsville-al/decks-pergolas-fences",
+   "title": "Decks, Pergolas and Fences in Huntsville, AL",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/service-areas/huntsville-al/home-remodeling",
+   "path": "/service-areas/huntsville-al/home-remodeling",
+   "title": "Home Remodeling in Huntsville, AL",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/service-areas/huntsville-al/mold-remediation",
+   "path": "/service-areas/huntsville-al/mold-remediation",
+   "title": "Mold Remediation in Huntsville, AL",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/service-areas/huntsville-al/new-construction",
+   "path": "/service-areas/huntsville-al/new-construction",
+   "title": "New Home Construction in Huntsville, AL",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/service-areas/huntsville-al/painting-trim",
+   "path": "/service-areas/huntsville-al/painting-trim",
+   "title": "Painting and Trim in Huntsville, AL",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/service-areas/huntsville-al/roofing",
+   "path": "/service-areas/huntsville-al/roofing",
+   "title": "Roofing Installation and Replacement in Huntsville, AL",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/service-areas/huntsville-al/siding-gutters",
+   "path": "/service-areas/huntsville-al/siding-gutters",
+   "title": "Siding and Gutters in Huntsville, AL",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/service-areas/huntsville-al/storm-damage-restoration",
+   "path": "/service-areas/huntsville-al/storm-damage-restoration",
+   "title": "Storm Damage Restoration in Huntsville, AL",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/service-areas/huntsville-al/water-damage-restoration",
+   "path": "/service-areas/huntsville-al/water-damage-restoration",
+   "title": "Water Damage Restoration in Huntsville, AL",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/service-areas/madison-al",
+   "path": "/service-areas/madison-al",
+   "title": "Restoration Services in Madison, AL",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/service-areas/madison-al/decks-pergolas-fences",
+   "path": "/service-areas/madison-al/decks-pergolas-fences",
+   "title": "Decks, Pergolas and Fences in Madison, AL",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/service-areas/madison-al/home-remodeling",
+   "path": "/service-areas/madison-al/home-remodeling",
+   "title": "Home Remodeling in Madison, AL | Davis Construction Contractors",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/service-areas/madison-al/mold-remediation",
+   "path": "/service-areas/madison-al/mold-remediation",
+   "title": "Mold Remediation in Madison, AL | Davis Construction Contractors",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/service-areas/madison-al/new-construction",
+   "path": "/service-areas/madison-al/new-construction",
+   "title": "New Home Construction in Madison, AL",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/service-areas/madison-al/painting-trim",
+   "path": "/service-areas/madison-al/painting-trim",
+   "title": "Painting and Trim in Madison, AL | Davis Construction Contractors",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/service-areas/madison-al/roofing",
+   "path": "/service-areas/madison-al/roofing",
+   "title": "Roofing Installation and Replacement in Madison, AL",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/service-areas/madison-al/siding-gutters",
+   "path": "/service-areas/madison-al/siding-gutters",
+   "title": "Siding and Gutters in Madison, AL",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/service-areas/madison-al/storm-damage-restoration",
+   "path": "/service-areas/madison-al/storm-damage-restoration",
+   "title": "Storm Damage Restoration in Madison, AL",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/service-areas/madison-al/water-damage-restoration",
+   "path": "/service-areas/madison-al/water-damage-restoration",
+   "title": "Water Damage Restoration in Madison, AL",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/services/decks-pergolas-fences",
+   "path": "/services/decks-pergolas-fences",
+   "title": "Decks, Pergolas and Fences in Madison",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/services/home-remodeling",
+   "path": "/services/home-remodeling",
+   "title": "Home Remodeling in Madison | Davis Construction Contractors",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/services/mold-remediation",
+   "path": "/services/mold-remediation",
+   "title": "Mold Remediation in Madison | Davis Construction Contractors",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/services/new-construction",
+   "path": "/services/new-construction",
+   "title": "New Home Construction in Madison | Davis Construction Contractors",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/services/painting-trim",
+   "path": "/services/painting-trim",
+   "title": "Painting and Trim in Madison | Davis Construction Contractors",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/services/roofing",
+   "path": "/services/roofing",
+   "title": "Roofing Installation and Replacement in Madison",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/services/siding-gutters",
+   "path": "/services/siding-gutters",
+   "title": "Siding and Gutters in Madison | Davis Construction Contractors",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/services/storm-damage-restoration",
+   "path": "/services/storm-damage-restoration",
+   "title": "Storm Damage Restoration in Madison",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/services/water-damage-restoration",
+   "path": "/services/water-damage-restoration",
+   "title": "Water Damage Restoration in Madison",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://davisconstructioncontractors.com/terms",
+   "path": "/terms",
+   "title": "Terms of Service | Davis Construction Contractors",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  }
+ ]
+}
