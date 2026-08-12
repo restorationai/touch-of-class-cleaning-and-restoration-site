@@ -37,9 +37,16 @@ person is waiting on the other end of each one. See "Client-feedback tasks".
      demand a human decision, punt with the answer in the reason.
 3. For each machine-doable task, decide: is it a concrete site change you can verify?
    - YES → execute it (rules below), then
-     `python3 scripts/dev_inbox.py done --id <id> --summary "<one sentence of what changed>"`
+     `python3 scripts/dev_inbox.py done --id <id> --summary "<one sentence of what changed>" --client-line "<the same fact in words the CLIENT reads>"`
    - NO / ambiguous / risky → do NOT guess:
      `python3 scripts/dev_inbox.py punt --id <id> --reason "<what's unclear or why it's unsafe>"`
+   ALWAYS pass `--client-line`. It lands verbatim in the client's Monthly
+   Summary tab in the app, so write it for the business owner, not for
+   Santino: no file names, no component or script names, no jargon, no em
+   dashes. `--summary "LpLayoutV2: fixed CLS on the hero by reserving image
+   height"` pairs with `--client-line "Fixed the page jump on your homepage
+   so it loads smoothly on phones"`. Omitting it falls back to a mechanical
+   cleanup of --summary, which reads worse than what you would write.
 4. After each completed task, commit with a descriptive message and deploy
    (see Deploy). Never batch multiple clients into one commit.
 
