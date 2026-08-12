@@ -460,11 +460,14 @@ def cmd_harvest(slug: str, domain_override: str | None) -> int:
             add(p, "crawl", title)
         print(f"  crawl: {len(crawled)} URL(s) (no sitemap found)")
 
-    # (c) DataForSEO backlinks top pages
+    # (c) DataForSEO backlinks top pages. add() drops asset paths (a
+    # backlinked .jpg has no page to 301 to), so guard the enrichment —
+    # crew's dead-site harvest crashed here on a wp-content image.
     for p, bl in harvest_backlinks(domain).items():
         add(p, "backlinks")
-        entries[p]["backlinks"] = bl["backlinks"]
-        entries[p]["referring_domains"] = bl["referring_domains"]
+        if p in entries:
+            entries[p]["backlinks"] = bl["backlinks"]
+            entries[p]["referring_domains"] = bl["referring_domains"]
 
     # (d) GSC top pages
     for p, clicks in harvest_gsc(slug, domain).items():
