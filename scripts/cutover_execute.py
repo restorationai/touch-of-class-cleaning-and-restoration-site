@@ -775,8 +775,10 @@ def phase_verify(slug: str, domain: str, apply: bool) -> Phase:
         rec = ch.client_record(slug)
         stamp = now_iso()
         rec["cut_over_at"] = rec.get("cut_over_at") or stamp
-        rec.setdefault("apex_cutover", {})["completed_at"] = \
-            rec["apex_cutover"].get("completed_at") or stamp
+        # setdefault must run before the read: Python evaluates the right
+        # side first, so the one-liner KeyError'd on first-time cutovers.
+        apex = rec.setdefault("apex_cutover", {})
+        apex["completed_at"] = apex.get("completed_at") or stamp
         rec["updated_at"] = stamp
         ch.save_client_record(slug, rec)
         try:
