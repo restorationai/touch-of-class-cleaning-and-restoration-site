@@ -1,5 +1,5 @@
 {
-  "version": "0.3.1",
+  "version": "0.3.2",
   "note": "Canonical service catalog for restoration and construction verticals. The template is a superset; each client selects the subset they offer. tier values: 'core' = standard restoration services most clients should offer; 'specialty' = distinct service some clients offer; 'adjacent' = related cleaning/maintenance services a minority offer; 'construction' = construction/GC services for dual-vertical clients. content_guardrails='sensitive' triggers Skill 3's sensitive-content rules at generation time.",
   "tiers": [
     "core",
@@ -22,6 +22,21 @@
       ],
       "tier": "core",
       "priority": 10
+    },
+    {
+      "slug": "water-cleanup",
+      "display_name": "Water Cleanup",
+      "short_name": "Water Cleanup",
+      "primary_intent": "local_emergency",
+      "secondary_keywords": [
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "tier": "core",
+      "priority": 9
     },
     {
       "slug": "flood-damage-restoration",
