@@ -76,6 +76,20 @@ jobs:
             ${{ github.event.inputs.dry_run == 'true' && '--dry-run' || '--send' }} \
             ${{ github.event.inputs.since && format('--since {0}', github.event.inputs.since) || '' }}
 
+      - name: Location launch checklists -> Monica asks
+        env:
+          SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          # Second-office program (2026-08-13): every company_locations row
+          # not yet 'live' carries a launch checklist (app LocationsPanel
+          # writes it). Seeds ONE marketing_action_plan client ask per
+          # location for the earliest undone step that needs the CLIENT
+          # (DBA photo -> address -> Google verification) and retires it the
+          # sweep after the step completes. Monica picks the asks up
+          # natively. Advisory — never fails the ops run.
+          python3 scripts/location_checklist_sync.py || true
+
       - name: LSA auto-detection (queue #5, 2026-07-31)
         env:
           SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}
