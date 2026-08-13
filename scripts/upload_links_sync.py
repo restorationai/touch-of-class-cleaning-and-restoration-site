@@ -44,8 +44,16 @@ def client_name(slug: str) -> str:
 
 def review_url(slug: str):
     p = ROOT / "clients" / f"{slug}.json"
-    if p.exists():
-        return (json.loads(p.read_text()).get("gbp") or {}).get("google_review_url")
+    if not p.exists():
+        return None
+    g = json.loads(p.read_text()).get("gbp") or {}
+    # 2026-08-13 (Santino, Reign's hub had no QR): the review URL is fully
+    # derivable from place_id, so a recorded place_id must ALWAYS yield the
+    # QR card — hand-filled google_review_url was an early-client artifact.
+    if g.get("google_review_url"):
+        return g["google_review_url"]
+    if g.get("place_id"):
+        return f"https://search.google.com/local/writereview?placeid={g['place_id']}"
     return None
 
 
