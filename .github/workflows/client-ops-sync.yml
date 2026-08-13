@@ -87,7 +87,13 @@ jobs:
           # location for the earliest undone step that needs the CLIENT
           # (DBA photo -> address -> Google verification) and retires it the
           # sweep after the step completes. Monica picks the asks up
-          # natively. Advisory — never fails the ops run.
+          # natively. Also the STATE REGISTRY WATCHER: locations with a dba
+          # filing in flight get their state's public business registry
+          # checked (Iowa first); on approval the dba step flips itself with
+          # the registered names + file number, the client gets the good
+          # news via Monica, and a naming decision card is seeded if no
+          # city-suffixed trade name was approved. Advisory — never fails
+          # the ops run.
           python3 scripts/location_checklist_sync.py || true
 
       - name: LSA auto-detection (queue #5, 2026-07-31)

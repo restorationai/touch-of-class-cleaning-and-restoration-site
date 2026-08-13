@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
-"""Stage-dwell checker for ALL seven Build Stages boards (Santino's design,
-2026-08-10 website-only; extended to the full board set 2026-08-12).
+"""Stage-dwell checker for ALL eight Build Stages boards (Santino's design,
+2026-08-10 website-only; extended to the full board set 2026-08-12; the
+per-location Locations board joined 2026-08-13).
 
 The self-driving customer-success loop: every night, know what stage every
 active Rank AI client is in ON EVERY BOARD the app renders — Website, GBP,
-LSA, Reviews, YouTube, Citations, AI Receptionist — how long they have been
-there, what exactly blocks their exit, and TRIGGER the existing action for
-each blocker. Nothing here invents new outreach or new builds — every unmet
+LSA, Reviews, YouTube, Citations, AI Receptionist, Locations — how long they
+have been there, what exactly blocks their exit, and TRIGGER the existing
+action for each blocker. Nothing here invents new outreach or new builds — every unmet
 exit item routes to the system that already owns it (auto-build's blocker
 asks, the ledger's domain ask, ops-sync's launch seeder, the [DEV] inbox) or
 is reported with its owner.
@@ -33,14 +34,23 @@ the internal canary account. Per-board sources:
     youtube      user_integrations provider=youtube             inline
     citations    user_integrations provider=citations
                  connection_metadata.nap_audit                  cStage inline
+    locations    company_locations expansion rows (is_primary=
+                 false) + their launch checklist jsonb          locations_stage()
+
+The LOCATIONS board (8th, 2026-08-13) is per-LOCATION, not per-company: one
+card per expansion company_locations row, so a client launching two offices
+holds two cards. Stage derives from row status + the launch checklist
+(20260813200000), sharing _step_done() with location_checklist_sync so the
+board, the ask seeder and this checker can never disagree about a step.
 
 STAGE HISTORY lives in ops_kv key 'stage-history'. Backward compatible with
 the phase-1 (website-only) shape: the website entry stays FLAT
 ({company_id: {board:'website', stage, entered_at}}); the six other boards
 live under {company_id: {..., boards: {gbp: {stage, entered_at}, ...}}}.
-Updated on change only, entered_at=now seeded on first sight (dwell counts
-start that day). ops_kv over a new table: zero schema risk, same pattern as
-docs-seen and the email-sync cursor.
+Location entries also live under boards{}, keyed 'locations:{location_id}'
+because a company can hold several. Updated on change only, entered_at=now
+seeded on first sight (dwell counts start that day). ops_kv over a new
+table: zero schema risk, same pattern as docs-seen and the email-sync cursor.
 
 DWELL ALERTS are per-board, per-stage (DWELL_DAYS below — the semantics of a
 stage decide its threshold; None = a stage that legitimately dwells forever
@@ -92,11 +102,16 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 from client_ops_sync import _sb, action_key, load_env, slug_map  # noqa: E402
 from client_concierge import kv_get, kv_set  # noqa: E402
+# The ONE shared step-truth helper — the ask seeder, the app board and this
+# checker must never disagree about whether a checklist step is done.
+from location_checklist_sync import _step_done  # noqa: E402
 
 HISTORY_KEY = "stage-history"
 BOARD = "website"           # phase-1 name; the website history entry stays flat
 BOARDS = ("website", "gbp", "lsa", "reviews", "youtube", "citations",
           "receptionist")
+LOC_BOARD = "locations"     # 8th board — per-location cards, handled after
+                            # the per-company loop (a company can hold 0..n)
 LOGO_SOAK_DAYS = 7          # mirror of setup_ledger.ensure_auto_site_build
 MIN_IMAGE_META_ENTRIES = 3
 # Mirror of client_ops_sync.ensure_internal_launch_tasks READY_ACCESS — the
@@ -153,6 +168,21 @@ RANK_AI_PLAN = "rank ai"
 #          provisioning is sales-driven), provisioned=14 (a line exists but
 #          zero calls handled in two weeks: routing never finished or the
 #          number is unused), live=None.
+# locations (8th board, per-location):
+#          planned=None (a saved scout recommendation is a parked idea until
+#          paperwork starts; the nightly dba ask owns the client nag —
+#          alarming here would page on every "Save as planned" click),
+#          paperwork=21 (STATE APPROVALS ARE SLOW — an Iowa filing routinely
+#          takes weeks and the registry watcher checks nightly; only three
+#          silent weeks earns a card),
+#          profile=30 (GBP exists, verification untouched — verification is
+#          a client action with its own nightly ask; a month of silence is
+#          escalation-worthy),
+#          verifying=14 (Google's postcard runs ~5-14 days and codes EXPIRE;
+#          two weeks stuck means re-request or switch method),
+#          live=30 (amplification — site pages, citations, hub — is OUR
+#          work; a live listing left un-amplified for a month is our miss),
+#          amplified=None (terminal).
 DWELL_DAYS: dict[str, dict[str, int | None]] = {
     "website": {"building": 7, "preview": 7, "staging": 7, "ready": 7,
                 "live": None},
@@ -163,6 +193,8 @@ DWELL_DAYS: dict[str, dict[str, int | None]] = {
     "youtube": {"none": None, "connected": None},
     "citations": {"none": 30, "gaps": None, "complete": None},
     "receptionist": {"none": None, "provisioned": 14, "live": None},
+    "locations": {"planned": None, "paperwork": 21, "profile": 30,
+                  "verifying": 14, "live": 30, "amplified": None},
 }
 REVIEWS_STALL_DAYS = 7          # 'active' with no send in a week = stalled
 REVIEWS_NEVER_STARTED_DAYS = 2  # rows scheduled, zero EVER sent, oldest due
@@ -311,6 +343,100 @@ def citations_stage(nap_audit: dict | None) -> str:
         return "none"
     missing = sum(1 for p in entries if ((p or {}).get("status") or "") == "missing")
     return "gaps" if missing > 0 else "complete"
+
+
+# The 8 launch steps in order — mirrors LocationsPanel CHECKLIST_STEPS and
+# location_checklist_sync STEP_ORDER; the short chips match the app cards.
+LOC_STEPS = (("dba", "DBA"), ("address", "Addr"), ("gbp_created", "GBP"),
+             ("verification", "Verify"), ("live", "Live"),
+             ("site_pages", "Pages"), ("citations", "Cites"), ("hub", "Hub"))
+
+
+def _loc_step_started(loc: dict, step: str) -> bool:
+    """EXACT replica of BuildStagesBoard.tsx locStepStarted(): the step is
+    done, OR carries any recorded fact (a filing date, a photo, a note) —
+    evidence somebody started it. Step-done truth is the SHARED
+    location_checklist_sync._step_done (checklist first, then column-derived:
+    address/gbp_location_id/status-live)."""
+    if _step_done(loc, step):
+        return True
+    st = (loc.get("checklist") or {}).get(step)
+    if not st:
+        return False
+    return any(k != "done" and not (v is None or v == "" or v is False)
+               for k, v in st.items())
+
+
+def locations_stage(loc: dict) -> str:
+    """EXACT replica of BuildStagesBoard.tsx locationStage(). Do not
+    'improve' one side without the other — most-launched first:
+      amplified  site_pages + citations + hub ALL done
+      live       row status live, or the live step done
+      verifying  row status verifying, or verification in progress (a done
+                 verification with the listing not yet live also sits here)
+      profile    gbp_created done, verification untouched
+      paperwork  dba or address in progress (both done but no GBP yet also
+                 reads paperwork — waiting on us)
+      planned    nothing started"""
+    if (_step_done(loc, "site_pages") and _step_done(loc, "citations")
+            and _step_done(loc, "hub")):
+        return "amplified"
+    if loc.get("status") == "live" or _step_done(loc, "live"):
+        return "live"
+    if loc.get("status") == "verifying" or _loc_step_started(loc, "verification"):
+        return "verifying"
+    if _step_done(loc, "gbp_created"):
+        return "profile"
+    if _loc_step_started(loc, "dba") or _loc_step_started(loc, "address"):
+        return "paperwork"
+    return "planned"
+
+
+def _loc_blocker(stage: str, loc: dict) -> str:
+    """One-line 'what blocks the exit and who owns it' per locations stage.
+    Every blocker names the system that already owns it — the registry
+    watcher, the checklist sync's asks, or us."""
+    checklist = loc.get("checklist") or {}
+    if stage == "paperwork":
+        gaps = []
+        dba = checklist.get("dba") or {}
+        if not _step_done(loc, "dba"):
+            watch = dba.get("watch") or {}
+            if watch.get("status") == "needs-browser-agent":
+                gaps.append("dba filing pending but the state registry "
+                            "blocks server-side reads — needs-browser-agent "
+                            "(see checklist.dba.watch)")
+            elif watch:
+                gaps.append(f"dba awaiting {watch.get('state', '?')} approval "
+                            "— the registry watcher checks nightly and flips "
+                            "the step itself")
+            else:
+                gaps.append("dba not filed — the checklist sync's dba ask "
+                            "owns the client nag")
+        if not _step_done(loc, "address"):
+            gaps.append("address unconfirmed — the checklist sync's address "
+                        "ask owns the client nag")
+        if not gaps:
+            gaps.append("paperwork done but no GBP created yet — creating "
+                        "the profile is OUR move (gbp.py)")
+        return "; ".join(gaps)
+    if stage == "profile":
+        return ("GBP profile exists but Google verification has not started "
+                "— the checklist sync's verification ask owns the client nag")
+    if stage == "verifying":
+        if _step_done(loc, "verification"):
+            return ("verification done but the listing is not marked live — "
+                    "check the listing and record the live step")
+        return ("Google verification in flight — postcard codes expire; "
+                "re-request or switch method if it stays silent")
+    if stage == "live":
+        gaps = [chip for key, chip in LOC_STEPS
+                if key in ("site_pages", "citations", "hub")
+                and not _step_done(loc, key)]
+        return ("listing live but amplification incomplete "
+                f"({', '.join(gaps) or '?'}) — location pages, citations and "
+                "the crew hub are OUR work")
+    return "no blocker derived — needs review"
 
 
 # ---------------------------------------------------------------- signals
@@ -525,11 +651,24 @@ def _fetch_fleet() -> dict:
                "&select=company_id,status", prefer="return=representation") or []
     pin_by_cid = {p["company_id"]: p for p in pins if p.get("company_id")}
 
+    # Locations board (2026-08-13): EXPANSION rows only, same scope the
+    # build-stages edge fn serves (is_primary=false — the 65 backfilled
+    # primaries never went through the launch pipeline and their empty
+    # checklists would read as "live but never amplified" fleet-wide).
+    locs = _sb("GET", "/rest/v1/company_locations?is_primary=eq.false"
+               "&select=id,company_id,label,city,state,address,status,"
+               "is_primary,dba_name,gbp_location_id,checklist"
+               "&order=company_id", prefer="return=representation") or []
+    locs_by_cid: dict[str, list[dict]] = {}
+    for l in locs:
+        if l.get("company_id") in ids:
+            locs_by_cid.setdefault(l["company_id"], []).append(l)
+
     return {"companies": cos, "sites": sites, "has_google": has_google,
             "profiles": profile_by_cid, "lines": line_by_cid,
             "has_calls": has_calls, "youtube": yt_by_cid,
             "citations": cit_by_cid, "reviews": reqs_by_cid,
-            "pins": pin_by_cid}
+            "pins": pin_by_cid, "locations": locs_by_cid}
 
 
 # ---------------------------------------------------------------- checklists
@@ -801,7 +940,8 @@ def check_stages(dry_run: bool, cid_to_slug: dict | None = None,
         history = {}
     out: list[str] = []
     table: list[tuple[str, dict[str, str], str]] = []
-    dist: dict[str, Counter] = {b: Counter() for b in BOARDS}
+    loc_table: list[tuple[str, str, str, int, str]] = []  # label, loc, stage, dwell, chips
+    dist: dict[str, Counter] = {b: Counter() for b in BOARDS + (LOC_BOARD,)}
     note_cache: dict = {}
     seeded = 0
     dirty = False
@@ -910,6 +1050,51 @@ def check_stages(dry_run: bool, cid_to_slug: dict | None = None,
                 out.append(f"{label}: [{board}] {text}"
                            + (f" ({did})" if did else " (note already open)"))
 
+        # ---- the locations board (8th, 2026-08-13) --------------------
+        # Per-LOCATION cards: history keys 'locations:{location_id}' under
+        # boards{}, dwell notes tagged per location so two stuck launches
+        # at one company each get their own (deduped) card.
+        for loc in fleet["locations"].get(cid, []):
+            loc_label = (loc.get("label") or loc.get("city") or loc["id"][:8])
+            stage = locations_stage(loc)
+            dist[LOC_BOARD][stage] += 1
+            hkey = f"locations:{loc['id']}"
+
+            ent = _hist_entry(history, cid, hkey)
+            if ent is None or ent.get("stage") is None:
+                _hist_write(history, cid, hkey,
+                            {"stage": stage, "entered_at": now_iso})
+                seeded += 1
+                dirty = True
+            elif ent.get("stage") != stage:
+                out.append(f"{label}: [locations:{loc_label}] "
+                           f"{ent.get('stage')} -> {stage}")
+                _hist_write(history, cid, hkey,
+                            {"stage": stage, "entered_at": now_iso})
+                dirty = True
+            ent = _hist_entry(history, cid, hkey) or {}
+            dwell = _age_days(ent.get("entered_at"))
+            chips = " ".join(
+                (chip if _step_done(loc, key) else chip.lower() + "·")
+                for key, chip in LOC_STEPS)
+            loc_table.append((label, loc_label, stage, dwell, chips))
+
+            threshold = DWELL_DAYS[LOC_BOARD].get(stage)
+            if threshold is not None and dwell > threshold:
+                blocker = _loc_blocker(stage, loc)
+                out.append(f"{label}: [locations:{loc_label}] STUCK {dwell}d "
+                           f"in {stage}: {blocker}")
+                if not ent.get("dwell_noted"):
+                    did = _file_alert_note(
+                        cid, f"{label} ({loc_label})", LOC_BOARD,
+                        f"dwell-{stage}-{loc['id'][:8]}",
+                        f"the {loc_label} location is stuck {dwell} days in "
+                        f"stage '{stage}'. {blocker}.", dry_run, note_cache)
+                    if did:
+                        ent["dwell_noted"] = True
+                        dirty = True
+                        out.append(f"{label}: {did}")
+
         table.append((label, stages, website_summary))
 
     if seeded:
@@ -926,9 +1111,16 @@ def check_stages(dry_run: bool, cid_to_slug: dict | None = None,
             print(f"  {label:44s} "
                   + " ".join(f"{stages[c][:11]:>11s}" for c in cols))
         print("\n  fleet distribution per board:")
-        for b in BOARDS:
+        for b in BOARDS + (LOC_BOARD,):
             parts = ", ".join(f"{s}={n}" for s, n in dist[b].most_common())
-            print(f"    {b:13s} {parts}")
+            print(f"    {b:13s} {parts or '(no cards)'}")
+        if loc_table:
+            # Per-location cards (a company can hold several) — chips echo
+            # the app card's done-row: UPPER = done, lower· = not yet.
+            print("\n  locations board (one card per expansion location):")
+            for label, loc_label, stage, dwell, chips in loc_table:
+                print(f"    {label:32s} {loc_label:16s} {stage:10s} "
+                      f"{dwell:3d}d  {chips}")
         print("\n  website blockers:")
         for label, stages, summary in table:
             if summary != "-":
@@ -949,7 +1141,7 @@ def main() -> int:
         print("ERROR: SUPABASE_URL + SUPABASE_SERVICE_ROLE_KEY required.",
               file=sys.stderr)
         return 2
-    print(f"stage checker ({len(BOARDS)} boards)"
+    print(f"stage checker ({len(BOARDS) + 1} boards)"
           f"{' [DRY RUN]' if args.dry_run else ''}")
     for ln in check_stages(args.dry_run, slug_map(), verbose=True):
         print("  " + ln)
