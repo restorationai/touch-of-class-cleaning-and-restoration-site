@@ -40,5 +40,13 @@
   "gbp": {
     "place_id": "ChIJ62IxEgm2jocRJj94-dsO6Nw",
     "google_review_url": "https://search.google.com/local/writereview?placeid=ChIJ62IxEgm2jocRJj94-dsO6Nw"
+  },
+  "locations_expansion": {
+    "sioux_city": {
+      "status": "dba_filed",
+      "dba_filed_at": "2026-08-12",
+      "evidence": "branding/CO-1785003272145/docs/dba/sioux-city-dba-filing-2026-08-12.jpg (Kyle's texted photo, refiled from job-photos)",
+      "next": "address confirm -> GBP listing create via API -> owner does Google verification (video/postcard) -> site location section + citations"
+    }
   }
 }
