@@ -1,6 +1,6 @@
 {
  "domain": "reign-restoration.com",
- "captured_at": "2026-08-12T18:42:18+00:00",
+ "captured_at": "2026-08-13T14:17:37+00:00",
  "authoritative": {
   "ns": [
    "ns4.wixdns.net",
@@ -8,36 +8,36 @@
   ],
   "mx": [
    {
-    "priority": 20,
-    "exchange": "alt1.aspmx.l.google.com"
-   },
-   {
-    "priority": 10,
-    "exchange": "aspmx.l.google.com"
+    "priority": 30,
+    "exchange": "alt2.aspmx.l.google.com"
    },
    {
     "priority": 40,
     "exchange": "alt3.aspmx.l.google.com"
    },
    {
+    "priority": 20,
+    "exchange": "alt1.aspmx.l.google.com"
+   },
+   {
     "priority": 50,
     "exchange": "alt4.aspmx.l.google.com"
    },
    {
-    "priority": 30,
-    "exchange": "alt2.aspmx.l.google.com"
+    "priority": 10,
+    "exchange": "aspmx.l.google.com"
    }
   ],
   "apex_txt": [
-   "v=spf1 include:_spf.google.com ~all",
-   "google-site-verification=FEOFmwxWH7uElOWUmAn31y9uNkC7Jpmm3B6isPRpQMk"
+   "google-site-verification=FEOFmwxWH7uElOWUmAn31y9uNkC7Jpmm3B6isPRpQMk",
+   "v=spf1 include:_spf.google.com ~all"
   ],
   "dmarc_txt": [],
   "dkim": {},
   "apex_a": [
    "185.230.63.171",
-   "185.230.63.186",
-   "185.230.63.107"
+   "185.230.63.107",
+   "185.230.63.186"
   ],
   "apex_cname": [],
   "www_cname": [
@@ -45,8 +45,11 @@
   ]
  },
  "cf_zone": {
-  "zone_id": null,
-  "name_servers": [],
+  "zone_id": "e72b0d3b2dc5ce892851eb983cb9b2a0",
+  "name_servers": [
+   "amos.ns.cloudflare.com",
+   "anastasia.ns.cloudflare.com"
+  ],
   "records": []
  }
 }
