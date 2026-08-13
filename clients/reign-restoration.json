@@ -13,7 +13,7 @@
     "url_count": 142,
     "generated_at": "2026-08-05T00:44:49.825503+00:00"
   },
-  "updated_at": "2026-08-12T18:53:14.237423+00:00",
+  "updated_at": "2026-08-13T19:05:35+00:00",
   "build": {
     "scaffolded_at": "2026-08-03T16:27:31.440951+00:00",
     "github_repo": "restorationai/reign-restoration-site",
@@ -34,5 +34,19 @@
     "redirects_added": 5,
     "mapped_at": "2026-08-12T02:26:06+00:00"
   },
-  "indexnow_key": "429d029088eb4ecbbce180dbf66b8a39"
+  "indexnow_key": "429d029088eb4ecbbce180dbf66b8a39",
+  "zone": {
+    "id": "e72b0d3b2dc5ce892851eb983cb9b2a0",
+    "name": "reign-restoration.com",
+    "status": "active",
+    "name_servers": [
+      "amos.ns.cloudflare.com",
+      "anastasia.ns.cloudflare.com"
+    ]
+  },
+  "apex_cutover": {
+    "legacy_origin": "172.67.140.249",
+    "completed_at": "2026-08-13T19:05:35+00:00"
+  },
+  "cut_over_at": "2026-08-13T19:05:35+00:00"
 }

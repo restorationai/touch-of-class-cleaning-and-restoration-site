@@ -1,12 +1,20 @@
 {
  "domain": "reign-restoration.com",
- "captured_at": "2026-08-13T14:17:37+00:00",
+ "captured_at": "2026-08-13T19:04:24+00:00",
  "authoritative": {
   "ns": [
-   "ns4.wixdns.net",
-   "ns5.wixdns.net"
+   "amos.ns.cloudflare.com",
+   "anastasia.ns.cloudflare.com"
   ],
   "mx": [
+   {
+    "priority": 10,
+    "exchange": "aspmx.l.google.com"
+   },
+   {
+    "priority": 20,
+    "exchange": "alt1.aspmx.l.google.com"
+   },
    {
     "priority": 30,
     "exchange": "alt2.aspmx.l.google.com"
@@ -16,33 +24,23 @@
     "exchange": "alt3.aspmx.l.google.com"
    },
    {
-    "priority": 20,
-    "exchange": "alt1.aspmx.l.google.com"
-   },
-   {
     "priority": 50,
     "exchange": "alt4.aspmx.l.google.com"
-   },
-   {
-    "priority": 10,
-    "exchange": "aspmx.l.google.com"
    }
   ],
   "apex_txt": [
+   "google-site-verification=WGVKW6FtmH1wZB4QU69193DQbSZGyhs8wVB72DgghVw",
    "google-site-verification=FEOFmwxWH7uElOWUmAn31y9uNkC7Jpmm3B6isPRpQMk",
    "v=spf1 include:_spf.google.com ~all"
   ],
   "dmarc_txt": [],
   "dkim": {},
   "apex_a": [
-   "185.230.63.171",
-   "185.230.63.107",
-   "185.230.63.186"
+   "172.67.140.249",
+   "104.21.89.112"
   ],
   "apex_cname": [],
-  "www_cname": [
-   "cdn3.wixdns.net"
-  ]
+  "www_cname": []
  },
  "cf_zone": {
   "zone_id": "e72b0d3b2dc5ce892851eb983cb9b2a0",
@@ -50,6 +48,87 @@
    "amos.ns.cloudflare.com",
    "anastasia.ns.cloudflare.com"
   ],
-  "records": []
+  "records": [
+   {
+    "id": "2dd3cc832228c77df0fc2891009ef5b3",
+    "type": "CNAME",
+    "name": "reign-restoration.com",
+    "content": "rankai-reign-restoration.pages.dev",
+    "priority": null,
+    "proxied": true
+   },
+   {
+    "id": "7843f2a108deb31923327dcad03eba96",
+    "type": "CNAME",
+    "name": "www.reign-restoration.com",
+    "content": "rankai-reign-restoration.pages.dev",
+    "priority": null,
+    "proxied": true
+   },
+   {
+    "id": "9537aa75b58395ce6578b24edafa7962",
+    "type": "MX",
+    "name": "reign-restoration.com",
+    "content": "aspmx.l.google.com",
+    "priority": 10,
+    "proxied": false
+   },
+   {
+    "id": "9b94cb4443adc80f94186358f519fd8b",
+    "type": "MX",
+    "name": "reign-restoration.com",
+    "content": "alt4.aspmx.l.google.com",
+    "priority": 50,
+    "proxied": false
+   },
+   {
+    "id": "7ebdf3326be3f050a297a0f054b3f4ff",
+    "type": "MX",
+    "name": "reign-restoration.com",
+    "content": "alt1.aspmx.l.google.com",
+    "priority": 20,
+    "proxied": false
+   },
+   {
+    "id": "fd8d9cfc7552a6ca11d3191e61bc3c94",
+    "type": "MX",
+    "name": "reign-restoration.com",
+    "content": "alt3.aspmx.l.google.com",
+    "priority": 40,
+    "proxied": false
+   },
+   {
+    "id": "b6d5b5b8785e9facf027b34d7e4b3699",
+    "type": "MX",
+    "name": "reign-restoration.com",
+    "content": "alt2.aspmx.l.google.com",
+    "priority": 30,
+    "proxied": false
+   },
+   {
+    "id": "4a825a4a2fc54399637a4ba026307a56",
+    "type": "TXT",
+    "name": "reign-restoration.com",
+    "content": "google-site-verification=WGVKW6FtmH1wZB4QU69193DQbSZGyhs8wVB72DgghVw",
+    "priority": null,
+    "proxied": false
+   },
+   {
+    "id": "0d04c1ad234139ac42ad254bb20c9a96",
+    "type": "TXT",
+    "name": "reign-restoration.com",
+    "content": "v=spf1 include:_spf.google.com ~all",
+    "priority": null,
+    "proxied": false
+   },
+   {
+    "id": "d5189cd6f12ea8f94d03ae1a0f69d0c0",
+    "type": "TXT",
+    "name": "reign-restoration.com",
+    "content": "google-site-verification=FEOFmwxWH7uElOWUmAn31y9uNkC7Jpmm3B6isPRpQMk",
+    "priority": null,
+    "proxied": false
+   }
+  ]
  }
 }
