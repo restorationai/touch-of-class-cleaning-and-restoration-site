@@ -90,6 +90,24 @@ jobs:
           GOOGLE_OAUTH_CLIENT_SECRET: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
         run: python3 scripts/gbp.py enrich --all --apply
 
+      - name: GBP-site parity check (gbp_site_parity --all --apply)
+        # Santino's thesis: a GBP service backed by a matching site page ranks;
+        # a bare label doesn't. Both directions per client: GBP services with no
+        # page get classified (one sonnet call/client, DataForSEO metro volumes)
+        # -- worth_a_page queues into marketing_page_requests (deduped, cap 10/
+        # client/run, highest volume first; drained by the step below), junk
+        # seeds ONE consolidated suggestion card (never auto-removed), phrasing
+        # variants are report-only. One work_log line per client run.
+        env:
+          SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY:  ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          GOOGLE_OAUTH_CLIENT_ID:     ${{ secrets.GOOGLE_OAUTH_CLIENT_ID }}
+          GOOGLE_OAUTH_CLIENT_SECRET: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
+          ANTHROPIC_API_KEY:          ${{ secrets.ANTHROPIC_API_KEY }}
+          DATAFORSEO_USERNAME:        ${{ secrets.DATAFORSEO_USERNAME }}
+          DATAFORSEO_PASSWORD:        ${{ secrets.DATAFORSEO_PASSWORD }}
+        run: python3 scripts/gbp_site_parity.py --all --apply
+
       - name: Drain page-build queue and deploy (create-pages --build)
         if: ${{ github.event.inputs.build_pages != 'false' }}
         env:
