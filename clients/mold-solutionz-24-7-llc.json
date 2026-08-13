@@ -21,5 +21,9 @@
     "github_repo": "restorationai/mold-solutionz-24-7-llc-site",
     "last_pushed_staging_at": "2026-08-05T04:09:35.403760+00:00"
   },
-  "build_status": "pushed_staging"
+  "build_status": "pushed_staging",
+  "gbp": {
+    "place_id": "ChIJMQYzez0t3YAR0myoMTDL5Jk",
+    "google_review_url": "https://search.google.com/local/writereview?placeid=ChIJMQYzez0t3YAR0myoMTDL5Jk"
+  }
 }

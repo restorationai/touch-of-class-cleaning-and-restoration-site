@@ -26,5 +26,9 @@
     "last_pushed_main_at": "2026-08-11T17:52:24.882537+00:00"
   },
   "build_status": "pushed_main",
-  "company_id": "CO-1785180744028"
+  "company_id": "CO-1785180744028",
+  "gbp": {
+    "place_id": "ChIJ9wuzUNMF5IkR23w7vv0t_Hc",
+    "google_review_url": "https://search.google.com/local/writereview?placeid=ChIJ9wuzUNMF5IkR23w7vv0t_Hc"
+  }
 }

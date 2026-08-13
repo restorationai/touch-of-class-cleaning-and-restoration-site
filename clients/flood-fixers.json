@@ -70,5 +70,9 @@
       "retired_at": "2026-08-05T04:36:24.142432+00:00",
       "reason": "manual --rotate"
     }
-  ]
+  ],
+  "gbp": {
+    "place_id": "ChIJJ3gQpF913IAR-Hs5M4WEiAs",
+    "google_review_url": "https://search.google.com/local/writereview?placeid=ChIJJ3gQpF913IAR-Hs5M4WEiAs"
+  }
 }
