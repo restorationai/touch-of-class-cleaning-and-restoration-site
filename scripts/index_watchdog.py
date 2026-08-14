@@ -4,14 +4,28 @@
 A page we built but Google refuses to index is work the client pays for and
 nobody can find. This script samples each LIVE client's most valuable URLs
 through the GSC URL Inspection API, stores a per-client coverage trend in
-ops_kv, and (with --apply) fires the cheap remediation ladder:
+ops_kv, and (with --apply) fires the remediation ladder — automation first,
+a human only where policy demands one (Santino 2026-08-15):
 
   1. re-submit the sitemap index via the Search Console API (always safe),
   2. IndexNow-ping the specific not-indexed URLs (Bing feeds ChatGPT retrieval),
   3. for URLs Google reports "Crawled - currently not indexed" on 2+
-     CONSECUTIVE runs, seed ONE consolidated SUGGESTION card per client via
-     client_ops_sync.insert_plan_row (idempotent seed key "index-watchdog") —
-     chronic refusal is a content-quality signal, not a plumbing problem.
+     CONSECUTIVE runs, file ONE [DEV] INDEX RESCUE task per client batch into
+     marketing_ops_notes — the nightly dev agent's inbox (dev_inbox.py) —
+     instructing it to deepen/differentiate each page, add internal links to
+     it from indexed siblings, and redeploy. Chronic refusal is a
+     content-quality signal, and content work is machine work under the
+     dev-agent doctrine (scripts/dev_agent.md), so nobody waits on a human
+     click. rescued_at per URL is tracked in the ops_kv entry (State below).
+  4. LAST RESORT: a URL rescue-enriched 14+ days ago that STILL shows
+     crawled-not-indexed seeds ONE consolidated SUGGESTION card via
+     client_ops_sync.insert_plan_row (idempotent seed key "index-watchdog").
+     At that point the remaining fixes are consolidation or removal, and
+     REMOVALS STAY HUMAN by policy — the card asks, it never deletes.
+
+  "Discovered - currently not indexed" deliberately never climbs past step
+  2: Google has not even fetched those pages yet, so it is a patience case,
+  not a content problem.
 
   We deliberately do NOT use Google's Indexing API: it is scoped to JobPosting
   / BroadcastEvent pages only, and hammering it with regular pages is exactly
@@ -36,8 +50,11 @@ Candidate URLs, priority order (capped at --cap, default 50):
       pages (/service-areas/{city}/ or /locations/{city}/) in sitemap order.
 
 State: ops_kv key 'index-watch:{slug}' — latest run fields (checked_at,
-sampled, indexed, rate, not_indexed with verdicts) plus a compact `history`
-of the last 8 runs for trend + chronic detection.
+sampled, indexed, rate, not_indexed with verdicts), a compact `history`
+of the last 8 runs for trend + chronic detection, and a `rescue` map
+({url: rescued_at ISO}) recording when each chronic URL was queued for
+dev-agent enrichment. Rescue entries are pruned when a URL comes back
+indexed (the rescue worked; a later relapse earns a fresh rescue).
 
 Ledger: one client-readable marketing_work_log line per client per run
 (category 'routine') — feeds the monthly report automatically.
@@ -79,6 +96,12 @@ RECENT_DAYS = 60
 HISTORY_KEEP = 8
 KV_PREFIX = "index-watch:"
 CARD_SEED = "index-watchdog"
+RESCUE_GRACE_DAYS = 14    # enrichment gets this long to take before a card
+RESCUE_BATCH_CAP = 10     # URLs per [DEV] rescue note — keeps one night's task reviewable
+# Idempotency marker (mirrors stage_checker's visual-pass pattern): an OPEN
+# [DEV] note containing this phrase means a rescue batch is already in the
+# dev inbox — never stack a second while it is pending.
+RESCUE_MARKER = "INDEX RESCUE for"
 
 # Not-indexed verdict buckets (from URL Inspection coverageState strings).
 CRAWLED = "crawled_not_indexed"        # "Crawled - currently not indexed"
@@ -112,6 +135,18 @@ def _sb(method: str, path: str, body=None, prefer: str = "return=representation"
 
 def _now_iso() -> str:
     return datetime.now(timezone.utc).isoformat(timespec="seconds")
+
+
+def _days_since(iso: str) -> float:
+    """Age of an ISO timestamp in days; 0.0 on garbage (treats a corrupt
+    rescued_at as freshly rescued — waits rather than spamming cards)."""
+    try:
+        d = datetime.fromisoformat(str(iso).replace("Z", "+00:00"))
+        if d.tzinfo is None:
+            d = d.replace(tzinfo=timezone.utc)
+        return (datetime.now(timezone.utc) - d).total_seconds() / 86400
+    except (ValueError, TypeError):
+        return 0.0
 
 
 # --------------------------------------------------------------------- fleet
@@ -288,10 +323,12 @@ def kv_put(key: str, value) -> None:
         prefer="resolution=merge-duplicates,return=minimal")
 
 
-def store_run(slug: str, sampled: int, indexed: int,
-              not_indexed: list[dict]) -> list[dict]:
-    """Append this run to 'index-watch:{slug}'. Returns the PRIOR runs
-    (newest last) so the caller can do chronic detection."""
+def store_run(slug: str, sampled: int, indexed: int, not_indexed: list[dict],
+              now_indexed: set[str]) -> tuple[list[dict], dict]:
+    """Append this run to 'index-watch:{slug}'. Returns (prior_runs, value):
+    the PRIOR runs (newest last) for chronic detection, plus the kv value as
+    written — including the carried-forward `rescue` map — so the caller can
+    record rescued_at stamps without a re-read."""
     key = KV_PREFIX + slug
     prev = None
     try:
@@ -300,6 +337,12 @@ def store_run(slug: str, sampled: int, indexed: int,
         print(f"  warn: ops_kv read failed ({str(e)[:80]})")
     hist = list((prev or {}).get("history") or [])
     prior = hist[:]
+    # Rescue state survives run rewrites. Prune only URLs that came back
+    # INDEXED this run (the rescue worked; a later relapse earns a fresh
+    # rescue). A URL merely not sampled this run keeps its entry — unknown
+    # is not fixed.
+    rescue = {u: t for u, t in ((prev or {}).get("rescue") or {}).items()
+              if u not in now_indexed}
     entry = {
         "checked_at": _now_iso(),
         "sampled": sampled,
@@ -315,13 +358,14 @@ def store_run(slug: str, sampled: int, indexed: int,
         "checked_at": entry["checked_at"], "sampled": sampled,
         "indexed": indexed, "rate": entry["rate"],
         "not_indexed": not_indexed,  # full detail (verdict + coverage state)
+        "rescue": rescue,            # {url: rescued_at ISO} — enrichment ledger
         "history": hist,
     }
     try:
         kv_put(key, value)
     except Exception as e:  # noqa: BLE001 — state loss must not kill the sweep
         print(f"  warn: ops_kv write failed ({str(e)[:80]})")
-    return prior
+    return prior, value
 
 
 def chronic_urls(current: list[dict], prior_runs: list[dict]) -> list[str]:
@@ -388,28 +432,104 @@ def indexnow_ping_urls(slug: str, rec: dict, urls: list[str]) -> tuple[int, int]
         return (0, 0)
 
 
-def seed_chronic_card(slug: str, cid: str, chronic: list[str],
-                      by_url_state: dict[str, str], apply: bool) -> bool:
+def file_rescue_task(slug: str, rec: dict, cid: str, urls: list[str],
+                     by_url_state: dict[str, str], held_back: int,
+                     apply: bool) -> tuple[bool, str]:
+    """File the ONE [DEV] INDEX RESCUE batch for this client into
+    marketing_ops_notes — the nightly dev agent's inbox (dev_inbox.py).
+    Content enrichment is auto-run machine work under the dev-agent doctrine
+    (scripts/dev_agent.md), so the note instructs content + internal links +
+    redeploy and NEVER a removal. The SITE: line pins the deploy target —
+    this watchdog's fleet is LIVE by definition (live_slugs), so the agent
+    goes staging-then-main per its doctrine. Dedupe mirrors stage_checker's
+    visual-pass task: one OPEN rescue note per client, ever; chronic URLs
+    that arrive while a batch is pending simply wait for it to land.
+    Returns (filed, status_line_for_the_sweep)."""
+    try:
+        notes = _sb("GET", "/rest/v1/marketing_ops_notes"
+                    f"?company_id=eq.{cid}&status=eq.open&select=id,body") or []
+    except Exception as e:  # noqa: BLE001 — dedupe unknowable => don't file blind
+        return False, f"rescue dedupe check failed ({str(e)[:80]})"
+    if any(n.get("body", "").startswith("[DEV]")
+           and RESCUE_MARKER in n.get("body", "") for n in notes):
+        return False, ("rescue task already open — new chronic URLs wait "
+                       "for it to land")
+    domain = rec["domain"].strip().rstrip("/")
+    listing = "\n".join(
+        f"- {u} ({by_url_state.get(u) or 'Crawled - currently not indexed'})"
+        for u in urls)
+    if held_back:
+        listing += (f"\n(+{held_back} more chronic URL(s) held back to keep "
+                    "this batch one night's work — they queue on a later run)")
+    body = (
+        f"[DEV] {RESCUE_MARKER} {slug}: {len(urls)} page(s) Google crawled "
+        "but refuses to index.\n"
+        "Each URL below has shown 'Crawled - currently not indexed' on 2+ "
+        "consecutive weekly checks — Google has SEEN these pages and is "
+        "declining them. Sitemap re-submission and IndexNow pings already "
+        "fired automatically; re-pinging cannot fix this. The content has to "
+        "earn the spot.\n"
+        f"{listing}\n"
+        "FOR EACH page listed:\n"
+        "1. Deepen and differentiate the content: expand the unique local "
+        f"detail with grounded facts from clients/{slug}/plan-input.json "
+        "(neighborhoods, landmarks, building stock, local_notes — never "
+        "invented), and add an FAQ section if the page is thin. Make sure "
+        "the page is NOT a near-duplicate of a sibling page: shared "
+        "boilerplate with only the place name swapped is exactly what "
+        "Google refuses.\n"
+        "2. Add 2-3 internal links TO the page from related pages that ARE "
+        "indexed (the matching service page, the services hub, a "
+        "neighboring city page) so it stops being an orphan in the site's "
+        "link graph.\n"
+        "3. Run claims lint, build, and redeploy per the SITE line.\n"
+        "Do NOT remove, merge, redirect or noindex any page in this task — "
+        "removals stay a human call by policy. If you judge a page a "
+        "consolidation candidate, enrich it anyway and name it in your done "
+        "summary.\n"
+        f"SITE: sites/{slug} — LIVE production (https://{domain})\n"
+        "WHEN DONE: the watchdog re-checks these URLs weekly; any page "
+        f"still refused {RESCUE_GRACE_DAYS}+ days after this rescue "
+        "escalates to Santino automatically as a consolidation-or-removal "
+        "suggestion card.\n"
+        "Filed by index_watchdog.py.")
+    if not apply:
+        print("  [dry-run] would file [DEV] rescue note:\n    "
+              + body.replace("\n", "\n    "))
+        return True, f"[dry-run] rescue task ({len(urls)} URL(s))"
+    try:
+        _sb("POST", "/rest/v1/marketing_ops_notes",
+            {"company_id": cid, "body": body, "status": "open"})
+    except Exception as e:  # noqa: BLE001 — filing failure must not sink the sweep
+        return False, f"rescue task filing FAILED ({str(e)[:80]})"
+    return True, f"[DEV] rescue task filed ({len(urls)} URL(s))"
+
+
+def seed_lastresort_card(slug: str, cid: str, refused: list[str],
+                         by_url_state: dict[str, str], apply: bool) -> bool:
+    """LAST RESORT — the only human hand-off left on this ladder. Every URL
+    here was rescue-enriched by the dev agent RESCUE_GRACE_DAYS+ ago and
+    Google still refuses it, so the remaining fixes are consolidation or
+    removal. Removals stay human by policy: the card asks, nothing deletes."""
     from client_ops_sync import action_key, insert_plan_row  # noqa: PLC0415
     from client_ops_sync import _sb as ops_sb  # noqa: PLC0415
     lines = "\n".join(f"- {u} ({by_url_state.get(u, 'crawled, not indexed')})"
-                      for u in chronic[:20])
-    if len(chronic) > 20:
-        lines += f"\n- …and {len(chronic) - 20} more (full list in ops_kv 'index-watch:{slug}')"
-    title = f"SUGGESTION: {len(chronic)} page(s) Google refuses to index"
+                      for u in refused[:20])
+    if len(refused) > 20:
+        lines += f"\n- …and {len(refused) - 20} more (full list in ops_kv 'index-watch:{slug}')"
+    title = (f"SUGGESTION: {len(refused)} page(s) still refused after "
+             "automatic enrichment")
     rationale = (
-        f"The indexing watchdog found these URLs reported 'Crawled - "
-        f"currently not indexed' on 2+ consecutive weekly checks — Google has "
-        f"SEEN them and is choosing not to index them, so re-pinging will not "
-        f"fix it:\n{lines}\n\n"
-        "Likely causes, in order of frequency on our template sites: THIN or "
-        "near-duplicate content (city pages sharing boilerplate with only the "
-        "place name swapped), ORPHANED pages (too few internal links pointing "
-        "at them), or low perceived value for the query space. Fix by "
-        "differentiating the copy (local proof points, photos, reviews, "
-        "case-study links), adding internal links from indexed money pages, "
-        "or consolidating overlapping pages into one stronger URL. Sitemap "
-        "re-submission + IndexNow pings already fired automatically.")
+        f"Automation already did everything it is allowed to do for these "
+        f"URLs: flagged 'Crawled - currently not indexed' on consecutive "
+        f"weekly checks, sitemap re-submitted, IndexNow pinged, and the dev "
+        f"agent enriched each page (deeper local copy, FAQ, internal links "
+        f"from indexed siblings) {RESCUE_GRACE_DAYS}+ days ago — and Google "
+        f"STILL refuses to index them:\n{lines}\n\n"
+        "That makes them likely candidates for consolidation into one "
+        "stronger sibling URL, or for removal with 301s — a human call by "
+        "policy, which is why this card exists instead of an automatic "
+        f"delete. rescued_at stamps live in ops_kv 'index-watch:{slug}'.")
     created = insert_plan_row(
         cid, slug, CARD_SEED, title=title, rationale=rationale,
         action_type="technical_fix", target=f"site:{slug}",
@@ -457,7 +577,9 @@ def run_client(slug: str, apply: bool, cap: int) -> dict:
         out[{CRAWLED: "crawled", DISCOVERED: "discovered",
              UNKNOWN: "unknown", EXCLUDED: "excluded"}[r["verdict"]]] += 1
 
-    prior_runs = store_run(slug, out["sampled"], out["indexed"], not_indexed)
+    prior_runs, kv_value = store_run(
+        slug, out["sampled"], out["indexed"], not_indexed,
+        {r["url"] for r in graded if r["verdict"] == "indexed"})
 
     # ---- remediation (only URLs Google could plausibly still pick up:
     # excluded-by-design states like noindex/redirect are not re-pushed)
@@ -472,26 +594,66 @@ def run_client(slug: str, apply: bool, cap: int) -> dict:
         elif n:
             out["remediation"].append(f"IndexNow ping HTTP {status} (not accepted)")
 
+    # ---- escalation ladder for chronic "Crawled - currently not indexed":
+    # automation first (dev-agent content enrichment), the human card ONLY
+    # after enrichment has had RESCUE_GRACE_DAYS to take. Chronic URLs
+    # rescued more recently than the grace window get deliberately nothing —
+    # Google digestion time.
     chronic = chronic_urls(not_indexed, prior_runs)
+    out["chronic"] = len(chronic)
+    queued: list[str] = []
+    stale: list[str] = []
     if chronic and cid:
         states = {r["url"]: r["state"] for r in not_indexed}
-        if seed_chronic_card(slug, cid, chronic, states, apply):
-            out["remediation"].append(f"card seeded ({len(chronic)} chronic)")
-        else:
-            out["remediation"].append(f"card already open ({len(chronic)} chronic)")
-    out["chronic"] = len(chronic)
+        rescue = kv_value.get("rescue") or {}
+        fresh = [u for u in chronic if u not in rescue]
+        stale = [u for u in chronic
+                 if u in rescue and _days_since(rescue[u]) >= RESCUE_GRACE_DAYS]
+        if fresh:
+            batch = fresh[:RESCUE_BATCH_CAP]
+            filed, status = file_rescue_task(
+                slug, rec, cid, batch, states, len(fresh) - len(batch), apply)
+            out["remediation"].append(status)
+            if filed:
+                queued = batch
+                if apply:
+                    # rescued_at = FILING time. The dev agent runs nightly, so
+                    # filing-to-enrichment is well inside the grace window; a
+                    # punted batch surfaces via its own [TODO-SANTINO] row.
+                    stamp = _now_iso()
+                    kv_value.setdefault("rescue", {}).update(
+                        {u: stamp for u in batch})
+                    try:
+                        kv_put(KV_PREFIX + slug, kv_value)
+                    except Exception as e:  # noqa: BLE001
+                        print(f"  warn: rescue-state write failed ({str(e)[:80]})")
+        if stale:
+            if seed_lastresort_card(slug, cid, stale, states, apply):
+                out["remediation"].append(
+                    f"card seeded ({len(stale)} refused after enrichment)")
+            else:
+                out["remediation"].append(
+                    f"card already open ({len(stale)} refused after enrichment)")
 
-    # ---- one client-readable ledger line per run
+    # ---- one client-readable ledger line per run — honest about what FIRED
+    # (dry-run claims nothing; a rescue only shows once actually filed)
     if cid and out["sampled"]:
         detail = (f"Checked Google's index coverage: {out['indexed']} of "
                   f"{out['sampled']} sampled pages indexed")
         if apply and actionable:
             detail += (f"; re-submitted the sitemap and asked search engines "
                        f"to re-crawl {len(actionable)} page(s)")
+        if apply and queued:
+            detail += (f"; {len(queued)} stubborn page(s) queued for "
+                       "automatic content enrichment")
+        if apply and stale:
+            detail += (f"; {len(stale)} page(s) flagged for a human decision "
+                       "after enrichment did not stick")
         detail += "."
         work_log(cid, "routine", "index-watch", detail,
                  evidence={"sampled": out["sampled"], "indexed": out["indexed"],
                            "rate": out["rate"], "sitemap_urls": sitemap_n,
+                           "chronic": out["chronic"],
                            "remediation": out["remediation"]},
                  source="index_watchdog")
     return out
@@ -508,7 +670,8 @@ def main() -> int:
     g.add_argument("--slug")
     g.add_argument("--all", action="store_true")
     ap.add_argument("--apply", action="store_true",
-                    help="fire remediation (sitemap resubmit + IndexNow + chronic cards)")
+                    help="fire remediation (sitemap resubmit + IndexNow + "
+                         "[DEV] rescue tasks + last-resort cards)")
     ap.add_argument("--cap", type=int, default=DEFAULT_CAP,
                     help=f"max URL inspections per client (default {DEFAULT_CAP})")
     args = ap.parse_args()
