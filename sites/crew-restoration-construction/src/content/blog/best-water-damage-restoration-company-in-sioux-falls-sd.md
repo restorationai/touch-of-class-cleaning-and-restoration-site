@@ -7,8 +7,8 @@ primary_keyword: "best water damage restoration company in Sioux Falls, SD"
 secondary_keywords: ["best water damage restoration companies Sioux Falls", "top rated water damage restoration Sioux Falls SD", "who is the best water damage restoration company in Sioux Falls", "water damage cleanup Sioux Falls", "water cleanup Sioux Falls", "water removal Sioux Falls"]
 search_intent: "commercial"
 priority: 7
-hero: "https://images.crew3r.com/brand/hero.webp"
-og: "https://images.crew3r.com/brand/hero.webp"
+hero: ""
+og: ""
 generated_at: "2026-08-10T18:04:16Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/mold-remediation/", "/services/sewage-cleanup/", "/contact/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/mold-after-water-damage/", "/blog/what-to-do-first-24-hours-water-damage/"]

@@ -204,6 +204,8 @@ Return ONLY one valid JSON object, no code fences, no prose:
   "image_prompt": "...",
   "internal_link_suggestions": ["/services/{service-slug}/", "/contact/"]
 }
+body_markdown starts with the opening paragraph and contains NO H1 (the
+page layout renders the H1 from the title); section headings use ##.
 internal_link_suggestions may only use paths that exist in the client
 context (services_selected -> /services/{slug}/, /contact/, /about/,
 /service-areas/{area-slug}/)."""
@@ -250,6 +252,51 @@ def fabrication_hit(text: str) -> str | None:
         if re.search(pat, text or "", re.I | re.M):
             return pat
     return None
+
+
+def kv_save(key: str, value) -> bool:
+    """kv_set with retries. A transient Supabase blip must not kill a batch
+    that already rendered pages (2026-08-14: a 30s read timeout in kv_set
+    crashed the Crew recovery after 14 renders, stranding every page
+    uncommitted). Returns False when state could not be saved."""
+    for attempt in (1, 2, 3):
+        try:
+            kv_set(key, value)
+            return True
+        except Exception as e:  # noqa: BLE001
+            print(f"    [warn] kv save {key} attempt {attempt}: {str(e)[:90]}")
+            time.sleep(5 * attempt)
+    return False
+
+
+def orphan_pages(slug: str) -> list[dict]:
+    """Rendered-but-uncommitted case-study pages from a crashed earlier run
+    (untracked in git). They rejoin the batch so the commit / work-log /
+    Monica finishers still cover them."""
+    out = subprocess.run(
+        ["git", "status", "--porcelain",
+         f"sites/{slug}/src/content/blog/"],
+        cwd=str(REPO_ROOT), capture_output=True, text=True).stdout
+    domain = cw.load_json(CLIENTS_DIR / f"{slug}.json")["domain"]
+    orphans = []
+    for line in out.splitlines():
+        if not line.startswith("??"):
+            continue
+        p = REPO_ROOT / line[3:].strip()
+        if not (p.name.startswith("case-study") and p.suffix == ".md"):
+            continue
+        title = p.stem
+        for ln in p.read_text().splitlines()[:8]:
+            if ln.startswith("title:"):
+                title = ln.split(":", 1)[1].strip().strip('"')
+                break
+        orphans.append({"status": "published", "path": p, "title": title,
+                        "url": f"https://{domain}/blog/{p.stem}/", "flags": []})
+    return orphans
+
+
+def live_case_study_count(slug: str) -> int:
+    return len(list(blog_dir(slug).glob("case-study*.md")))
 
 
 def client_context(slug: str) -> dict:
@@ -329,6 +376,10 @@ def render_study(slug: str, sub: dict) -> dict:
     for k in ("title", "meta_description", "body_markdown"):
         if not (content.get(k) or "").strip():
             raise RuntimeError(f"renderer returned empty {k!r}")
+    # The blog layout renders the H1 from frontmatter; a body-level H1 would
+    # double it. Deterministic strip, prompt notwithstanding.
+    content["body_markdown"] = re.sub(r"^#\s+[^\n]+\n+", "",
+                                      content["body_markdown"].lstrip())
     return content
 
 
@@ -409,11 +460,14 @@ def publish_study(slug: str, sub: dict, *, photos: list[tuple[str, bytes]],
                 f"{item['primary_keyword']}. No text or logos.")
         except Exception as e:  # noqa: BLE001
             print(f"      [warn] hero generation failed: {str(e)[:100]}")
-            client = cw.load_json(CLIENTS_DIR / f"{slug}.json")
-            hero_url = f"https://images.{client['domain']}/brand/hero.webp"
+            hero_url = ""
     else:
-        client = cw.load_json(CLIENTS_DIR / f"{slug}.json")
-        hero_url = f"https://images.{client['domain']}/brand/hero.webp"
+        # Empty hero: the blog layout renders its LOCAL fallback
+        # (/images/hero-bg.webp). Never point at images.{domain} blindly —
+        # not every client has the R2 bucket + custom domain provisioned
+        # (crew 2026-08-14: images.crew3r.com was NXDOMAIN and 13 existing
+        # posts carried dead hero URLs because of exactly this assumption).
+        hero_url = ""
 
     path = cw.write_markdown(slug, item, content, hero_url)
     if preserved_date:
@@ -507,7 +561,9 @@ def finish_batch(slug: str, published: list[dict], branch: str, lane: str) -> No
             f"{len(published)} case stud{'y is' if len(published) == 1 else 'ies are'} "
             f"now live on {client.get('domain')}, {origin}. Links:\n{links}\n"
             f"Any new case study they email to contact@restorationai.io will "
-            f"publish automatically going forward.")
+            f"publish automatically going forward. MONICA: share the links in "
+            f"plain words. This is a share, not an ask. Do not ask them for "
+            f"anything in this message.")
     _sb("POST", "/rest/v1/marketing_ops_notes",
         body={"company_id": cid, "body": note}, prefer="return=minimal")
     print(f"    [FOR MONICA] note filed ({len(published)} link(s))")
@@ -678,6 +734,7 @@ def cmd_ingest(args) -> int:
                 print(f"      HELD: {res['why'][:160]}")
             batch_done.append(nid)
 
+        published.extend(orphan_pages(slug) if apply else [])
         if apply and published:
             commit_and_deploy(slug, [p["path"] for p in published],
                               site_branch(slug), "ingest")
@@ -686,7 +743,7 @@ def cmd_ingest(args) -> int:
         if apply and batch_done:
             processed = (processed + batch_done)[-PROCESSED_CAP:]
             processed_set = set(processed)
-            kv_set(PROCESSED_KEY, processed)
+            kv_save(PROCESSED_KEY, processed)
     print(f"\n==> ingest done: {total_pub} page(s) published")
     return 0
 
@@ -703,13 +760,33 @@ HUB_LAST_SEG_RE = re.compile(r"^(?:all-projects|job-completed|projects?|"
 
 def cdx_case_candidates(domain: str) -> list[dict]:
     """Archived, HTML, 200-status case-study-looking URLs, deduped by last
-    path segment (same story often lives at /X and /all-projects/X)."""
-    r = requests.get(CDX_API, params={
-        "url": f"{domain}*", "output": "json", "collapse": "urlkey",
-        "fl": "timestamp,original,statuscode,mimetype",
-        "filter": "statuscode:200", "limit": "8000"}, timeout=120)
-    r.raise_for_status()
-    rows = r.json()[1:]
+    path segment (same story often lives at /X and /all-projects/X).
+    The live CDX response is cached; when web.archive.org is unreachable
+    (flaky networks, rate limits) the last good index carries the run."""
+    CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    cache = CACHE_DIR / f"cdx-{domain}.json"
+    rows, last_err = None, None
+    for attempt in (1, 2, 3):
+        try:
+            r = requests.get(CDX_API, params={
+                "url": f"{domain}*", "output": "json", "collapse": "urlkey",
+                "fl": "timestamp,original,statuscode,mimetype",
+                "filter": "statuscode:200", "limit": "8000"}, timeout=120)
+            r.raise_for_status()
+            rows = r.json()
+            cache.write_text(json.dumps(rows))
+            break
+        except Exception as e:  # noqa: BLE001
+            last_err = e
+            time.sleep(8 * attempt)
+    if rows is None:
+        if cache.exists():
+            print("    (live CDX unavailable; using the cached index from a "
+                  "previous run)")
+            rows = json.loads(cache.read_text())
+        else:
+            raise RuntimeError(f"CDX unavailable and no cached index: {last_err}")
+    rows = rows[1:]
     best: dict[str, dict] = {}
     for ts, orig, _st, mt in rows:
         if "html" not in (mt or ""):
@@ -737,17 +814,17 @@ def fetch_archived_page(cand: dict) -> str | None:
     url = WAYBACK_PAGE.format(ts=cand["ts"], url=cand["url"])
     for attempt in (1, 2):
         try:
-            r = requests.get(url, timeout=90,
+            r = requests.get(url, timeout=45,
                              headers={"User-Agent": "rank-ai-recovery/1.0"})
             if r.status_code == 200 and len(r.text) > 2000:
                 cache.write_text(r.text)
                 return r.text
             if r.status_code in (429, 503):
-                time.sleep(8 * attempt)
+                time.sleep(6 * attempt)
                 continue
             return None
         except requests.RequestException:
-            time.sleep(5 * attempt)
+            time.sleep(3 * attempt)
     return None
 
 
@@ -829,8 +906,14 @@ def extract_case_study(html: str, cand: dict) -> dict | None:
                            r"([A-Z][A-Za-z .'-]+?)\s+Customer Problem", flat)
             if hm:
                 service = service or hm.group(1).strip().lower()
-                loc = loc or hm.group(2).strip()
-                title = f"Case Study: {hm.group(1).strip()} in {loc}"
+                heading_city = hm.group(2).strip()
+                # The Zapier template sometimes emits its placeholder
+                # ("Service Area") where the city belongs — not a place.
+                if heading_city.lower() in {"service area", "usa", "the area"}:
+                    heading_city = ""
+                loc = loc or heading_city
+                title = (f"Case Study: {hm.group(1).strip()} in {loc}"
+                         if loc else f"Case Study: {hm.group(1).strip()}")
             nf = re.match(r"\s*([A-Z][a-z]+)\s+[A-Z]", bm.group("problem"))
             if nf:
                 first = first or nf.group(1)
@@ -908,11 +991,34 @@ def cmd_recover(args) -> int:
     print(f"    {len(fresh)} not yet recovered "
           f"({len(cands) - len(fresh)} already published)")
 
-    extracted, thin = [], 0
+    # Priority order decides which candidates get the bounded fetch budget:
+    # named customer stories, then project-section pages, then the numbered
+    # Zapier series oldest-first (the archive holds 500+ of those for Crew;
+    # fetching every one per run would take hours against Wayback's pace).
+    def order_key(c: dict):
+        seg = c["seg"].lower()
+        num = re.search(r"-(\d+)$", seg)
+        if "-for-" in seg:
+            tier = 0
+        elif "all-projects/" in c["path"] or seg.startswith("job-completed"):
+            tier = 1
+        elif seg.startswith("case-study"):
+            tier = 2
+        else:
+            tier = 3
+        return (tier, int(num.group(1)) if num else 0, seg)
+
+    fresh.sort(key=order_key)
+    budget = args.fetch_limit
+    extracted, thin, fetched, failed = [], 0, 0, 0
     for c in fresh:
+        if fetched >= budget or len(extracted) >= args.cap * 2:
+            break
         html = fetch_archived_page(c)
+        fetched += 1
         time.sleep(ARCHIVE_FETCH_SLEEP_S)
         if not html:
+            failed += 1
             print(f"    ! no usable snapshot: {c['path']}")
             continue
         sub = extract_case_study(html, c)
@@ -920,14 +1026,22 @@ def cmd_recover(args) -> int:
             thin += 1
             continue
         extracted.append(sub)
-    print(f"    extracted {len(extracted)} real case stud(ies), "
-          f"{thin} stub(s) skipped")
+    print(f"    fetched {fetched} of {len(fresh)} candidate page(s) "
+          f"(budget {budget}): {len(extracted)} real case stud(ies), "
+          f"{thin} stub(s), {failed} unfetchable")
+    if fetched < len(fresh):
+        print(f"    ({len(fresh) - fetched} archived candidates remain; "
+              f"later runs continue where this one stopped)")
 
     # Named customer stories first (the substantial ones), then by length.
     extracted.sort(key=lambda s: (0 if s["customer_first_name"] else 1,
                                   -len(s["narrative"])))
-    cap = args.cap
+    # The cap is TOTAL recovered studies live for this client, not per run.
+    cap = max(0, args.cap - live_case_study_count(slug))
     take = extracted[:cap]
+    if cap < args.cap:
+        print(f"    ({live_case_study_count(slug)} case-study page(s) already "
+              f"on the site; room for {cap} more under the cap of {args.cap})")
 
     print(f"\n    {'#':>3}  {'date':10}  {'ph':>2}  {'chars':>5}  title")
     for i, s in enumerate(take, 1):
@@ -941,37 +1055,44 @@ def cmd_recover(args) -> int:
         return 0
 
     branch = site_branch(slug)
-    published: list[dict] = []
-    for s in take:
-        cand = s.pop("_cand")
-        photo_urls = s.pop("_photos_urls")
-        photos: list[tuple[str, bytes]] = []
-        for u in photo_urls[:MAX_PHOTOS_PER_STUDY]:
-            data = fetch_archive_photo(cand["ts"], u)
-            time.sleep(0.5)
-            if data:
-                photos.append((u.rsplit("/", 1)[-1], data))
-        print(f"\n    rendering: {s['title'][:70]} ({len(photos)} photo(s) re-hosted)")
-        try:
-            res = publish_study(slug, s, photos=photos,
-                                preserved_date=s["performed_on"],
-                                allow_generated_hero=False)
-        except Exception as e:  # noqa: BLE001
-            print(f"      ! publish failed: {str(e)[:140]}")
-            continue
-        if res["status"] == "published":
-            print(f"      -> {res['url']}")
-            published.append(res)
-            done.append(cand["path"])
-            kv_set(kv_key, done)
-        else:
-            print(f"      HELD: {res['why'][:160]}")
-            done.append(cand["path"])   # held = looked at; do not re-render nightly
-            kv_set(kv_key, done)
-
+    published: list[dict] = orphan_pages(slug)
     if published:
-        commit_and_deploy(slug, [p["path"] for p in published], branch, "recover")
-        finish_batch(slug, published, branch, "recover")
+        print(f"    resuming {len(published)} rendered-but-uncommitted page(s) "
+              f"from an earlier run")
+    try:
+        for s in take:
+            cand = s.pop("_cand")
+            photo_urls = s.pop("_photos_urls")
+            photos: list[tuple[str, bytes]] = []
+            for u in photo_urls[:MAX_PHOTOS_PER_STUDY]:
+                data = fetch_archive_photo(cand["ts"], u)
+                time.sleep(0.5)
+                if data:
+                    photos.append((u.rsplit("/", 1)[-1], data))
+            print(f"\n    rendering: {s['title'][:70]} ({len(photos)} photo(s) re-hosted)")
+            try:
+                res = publish_study(slug, s, photos=photos,
+                                    preserved_date=s["performed_on"],
+                                    allow_generated_hero=False)
+            except Exception as e:  # noqa: BLE001
+                print(f"      ! publish failed: {str(e)[:140]}")
+                continue
+            done.append(cand["path"])   # held = looked at; never re-render nightly
+            if res["status"] == "published":
+                print(f"      -> {res['url']}")
+                published.append(res)
+            else:
+                print(f"      HELD: {res['why'][:160]}")
+            if not kv_save(kv_key, done):
+                print("    ! state save failing; stopping the batch early "
+                      "(what's published still commits + deploys)")
+                break
+    finally:
+        # Whatever happens mid-batch, rendered pages must never strand
+        # uncommitted again — commit, deploy, work-log, tell Monica.
+        if published:
+            commit_and_deploy(slug, [p["path"] for p in published], branch, "recover")
+            finish_batch(slug, published, branch, "recover")
     print(f"\n==> recovery done: {len(published)} page(s) published")
     return 0
 
@@ -1002,6 +1123,9 @@ def main() -> int:
     pr.add_argument("--apply", action="store_true",
                     help="publish + deploy (default: report what the archive holds)")
     pr.add_argument("--cap", type=int, default=RECOVER_CAP_DEFAULT)
+    pr.add_argument("--fetch-limit", type=int, default=RECOVER_CAP_DEFAULT * 3,
+                    help="max archived pages fetched per run (Wayback is slow; "
+                         "snapshots cache locally, so reruns resume cheaply)")
     pr.set_defaults(func=cmd_recover)
 
     args = p.parse_args()
