@@ -137,6 +137,35 @@ def _execute_job(job_id: str, slug: str, system: int,
                 return
             _update_job(job_id, status="completed", completed_at=_now(), log=log[-8000:])
 
+        elif system == "ads_account_create":
+            # One-click Google Ads account creation under the agency MCC
+            # (LSA board button). The script carries its own refusal guards
+            # (existing ads/lsa customer_id on any surface) and stamps
+            # integration_settings.ads + a work_log line itself. Credential
+            # note: Railway has no token files, so the script uses the
+            # GOOGLE_ADS_REFRESH_TOKEN env fallback and exits with a clear
+            # one-manual-step error if it is unset.
+            company_id = COMPANY_MAP.get(slug, "")
+            rc, log = _run_subprocess([
+                "python3", str(ROOT / "scripts" / "ads_account_create.py"),
+                "--company", company_id, "--apply",
+            ])
+            if rc != 0:
+                _update_job(job_id, status="failed", completed_at=_now(),
+                            error=f"ads_account_create exited {rc}", log=log[-8000:])
+                return
+            # The script's last line is machine-readable: RESULT {"customer_id": ...}
+            result = None
+            for line in reversed(log.splitlines()):
+                if line.startswith("RESULT "):
+                    try:
+                        result = json.loads(line[len("RESULT "):])
+                    except json.JSONDecodeError:
+                        pass
+                    break
+            _update_job(job_id, status="completed", completed_at=_now(),
+                        log=log[-8000:], result=result)
+
         elif system == "cutover":
             # ONE-CLICK CUTOVER: phased domain launch (zone + email-safe DNS
             # capture -> nameserver gate -> Pages attach -> stamp/GSC/IndexNow
@@ -199,7 +228,7 @@ def create_and_run_job(slug: str, system, photo_url: str | None = None) -> str:
 
     system_names = {1: "keyword_research", 2: "write_post", 3: "audit", 4: "refresh",
                     "gbp_face": "gbp_face_fix", "gbp_set_cover": "gbp_set_cover",
-                    "cutover": "cutover"}
+                    "cutover": "cutover", "ads_account_create": "ads_account_create"}
     params = {"slug": slug, "system": system}
     if photo_url:
         params["photo_url"] = photo_url

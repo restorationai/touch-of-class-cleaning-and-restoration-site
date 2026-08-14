@@ -75,6 +75,7 @@ SYSTEM_LABELS = {
     "gbp_face": "GBP Face Fix",
     "gbp_set_cover": "GBP Set Cover Photo",
     "cutover": "One-Click Domain Cutover",
+    "ads_account_create": "Create Google Ads Account",
 }
 
 # ---------------------------------------------------------------------------
@@ -84,7 +85,8 @@ SYSTEM_LABELS = {
 class RunJobRequest(BaseModel):
     slug: str
     system: int | str  # 1, 2, 3, 4 — or "gbp_face" (GBP front-face audit + safe
-                       # auto-fixes) / "gbp_set_cover" (needs photo_url)
+                       # auto-fixes) / "gbp_set_cover" (needs photo_url) /
+                       # "cutover" / "ads_account_create" (LSA board button)
     photo_url: str | None = None  # gbp_set_cover: the photo to set as COVER
 
 
@@ -541,9 +543,11 @@ def run_job(req: RunJobRequest):
     """Trigger a system run for a client. Returns job_id immediately; runs in background."""
     if req.slug not in COMPANY_MAP:
         raise HTTPException(status_code=404, detail=f"Unknown slug: {req.slug}")
-    if req.system not in (1, 2, 3, 4, "gbp_face", "gbp_set_cover", "cutover"):
+    if req.system not in (1, 2, 3, 4, "gbp_face", "gbp_set_cover", "cutover",
+                          "ads_account_create"):
         raise HTTPException(status_code=400,
-                            detail="system must be 1, 2, 3, 4, 'gbp_face', 'gbp_set_cover', or 'cutover'")
+                            detail="system must be 1, 2, 3, 4, 'gbp_face', 'gbp_set_cover', "
+                                   "'cutover', or 'ads_account_create'")
     if req.system == "gbp_set_cover" and not (req.photo_url or "").startswith("https://"):
         raise HTTPException(status_code=400, detail="gbp_set_cover requires an https photo_url")
 
