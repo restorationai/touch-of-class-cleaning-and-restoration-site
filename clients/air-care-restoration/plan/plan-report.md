@@ -1,21 +1,21 @@
 # Site Plan Report — Air Care Restoration
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-08-11T01:39:56.116750+00:00
-- Domain: `None`
-- Services selected: 12 of 54 catalog entries
-- Service areas: 8
+- Generated: 2026-08-14T05:45:20.325076+00:00
+- Domain: `aircarerestoration.com`
+- Services selected: 13 of 55 catalog entries
+- Service areas: 16
 - Cross-product enabled: True
-- Total URLs: **133**
-- Total internal links: 1037 (avg 7.8 per page)
+- Total URLs: **254**
+- Total internal links: 2053 (avg 8.1 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 96 |
-| `service-landing` | 12 |
-| `service-area` | 8 |
+| `service-area-service` | 208 |
+| `service-area` | 16 |
+| `service-landing` | 13 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -28,6 +28,7 @@
 ## Selected services
 
 - `water-damage-restoration` — Water Damage Restoration (core, priority 10)
+- `water-cleanup` — Water Cleanup (core, priority 9)
 - `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
 - `air-duct-cleaning` — Air Duct Cleaning (adjacent, priority 5)
 - `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
@@ -50,6 +51,14 @@
 - `tuscola-tx` — Tuscola, TX
 - `tye-tx` — Tye, TX
 - `buffalo-gap-tx` — Buffalo Gap, TX
+- `brownwood-tx` — Brownwood, TX
+- `early-tx` — Early, TX
+- `roby-tx` — Roby, TX
+- `rotan-tx` — Rotan, TX
+- `robert-lee-tx` — Robert Lee, TX
+- `bronte-tx` — Bronte, TX
+- `eden-tx` — Eden, TX
+- `paint-rock-tx` — Paint Rock, TX
 
 ## Top 10 priority pages
 
@@ -60,11 +69,11 @@
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration abilene |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization abilene |
 | `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration abilene |
+| `/services/water-cleanup/` | `service-landing` | 8.1 | water cleanup abilene |
 | `/service-areas/abilene-tx/` | `service-area` | 7.2 | restoration services abilene |
 | `/services/biohazard-cleanup/` | `service-landing` | 7.2 | biohazard cleanup abilene |
 | `/services/general-contracting/` | `service-landing` | 7.2 | renovations, remodels and general contracting abilene |
 | `/service-areas/abilene-tx/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration abilene |
-| `/service-areas/abilene-tx/mold-remediation/` | `service-area-service` | 7.0 | mold remediation abilene |
 
 ## Validation
 

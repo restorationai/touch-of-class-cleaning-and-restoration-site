@@ -1,0 +1,24 @@
+---
+archetype: "service-area-service"
+title: "Contents Restoration and Storage in Paint Rock, TX | Air Care Restoration"
+h1: "Contents Restoration and Storage in Paint Rock"
+meta_description: "24/7 contents restoration and storage in Paint Rock, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
+primary_keyword: "contents restoration and storage paint rock"
+secondary_keywords: ["contents pack-out", "contents cleaning", "belongings restoration", "furniture restoration after fire", "contents storage"]
+search_intent: "local_service"
+priority: 3.5
+plan_hash: "2037afcfabaa3174"
+generated_at: "2026-08-14T05:47:51.813153+00:00"
+manual_override: false
+internal_links: ["/services/contents-restoration/", "/service-areas/paint-rock-tx/", "/service-areas/paint-rock-tx/fire-damage-restoration/", "/service-areas/paint-rock-tx/mold-remediation/", "/service-areas/abilene-tx/contents-restoration/", "/service-areas/anson-tx/contents-restoration/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Paint Rock", "url": "/service-areas/paint-rock-tx/"}, {"name": "Contents Restoration and Storage"}]
+faq: []
+area_slug: "paint-rock-tx"
+service_slug: "contents-restoration"
+city: "Paint Rock"
+state: "TX"
+service_display: "Contents Restoration and Storage"
+---
+<!-- Page body not yet generated. Run `build_site.py render --slug air-care-restoration` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+
+Placeholder content for Contents Restoration and Storage in Paint Rock.

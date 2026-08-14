@@ -24,31 +24,58 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 
 | Token | Source | Example |
 | --- | --- | --- |
-| `{{BRAND_SLUG}}` | client record `slug` | `narestco` |
-| `{{BRAND_DISPLAY_NAME}}` | plan-input `brand.display_name` | `National Restoration Construction` |
-| `{{BRAND_SHORT_NAME}}` | plan-input `brand.short_name` | `NARESTCO` |
-| `{{BRAND_LEGAL_NAME}}` | plan-input `brand.legal_name` | `National Restoration Construction LLC` |
-| `{{BRAND_DOMAIN}}` | client record `domain` | `narestco.com` |
-| `{{BRAND_CANONICAL_URL}}` | derived | `https://narestco.com` |
-| `{{BRAND_PHONE}}` / `{{BRAND_PHONE_RAW}}` | brand.phone | `(206) 883-0333` / `+12068830333` |
-| `{{BRAND_EMAIL}}` | brand.email | `info@narestco.com` |
-| `{{BRAND_HOURS}}` | brand.hours | `24/7` |
-| `{{BRAND_FOUNDED_YEAR}}` | brand.founded_year | `2004` |
-| `{{BRAND_PRIMARY_CITY}}` / `{{BRAND_PRIMARY_STATE}}` | derived from primary area | `Federal Way` / `WA` |
-| `{{BRAND_STREET_ADDRESS}}` / `{{BRAND_POSTAL_CODE}}` | brand.street_address / brand.postal_code | |
-| `{{BRAND_LAT}}` / `{{BRAND_LNG}}` | brand.lat / brand.lng | from GBP |
-| `{{BRAND_PLACE_ID}}` / `{{BRAND_GOOGLE_CID}}` | brand.place_id / brand.google_cid | from GBP |
-| `{{BRAND_LICENSE_NUMBERS_JSON}}` | brand.license_numbers (JSON-encoded array) | `["NATIORC792M6"]` |
-| `{{BRAND_LICENSE_AUTHORITY}}` / `{{BRAND_LICENSE_TYPE}}` | brand.license_authority / brand.license_type | |
-| `{{BRAND_CERTIFICATIONS_JSON}}` | brand.certifications (JSON-encoded array) | `["IICRC", "BBB Accredited"]` |
-| `{{BRAND_SAME_AS_URLS_JSON}}` | brand.same_as_urls (JSON-encoded array) | |
-| `{{BRAND_GBP_RATING_VALUE}}` / `{{BRAND_GBP_REVIEW_COUNT}}` | from GBP | `5.0` / `31` |
-| `{{BRAND_TAGLINE}}` | brand.tagline | short marketing line |
-| `{{BRAND_PRIMARY_COLOR}}` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
-| `{{BRAND_FONT_SANS}}` / `{{BRAND_FONT_DISPLAY}}` | brand.fonts | `Inter` / `Inter` |
-| `{{BRAND_LOGO_URL}}` / `{{BRAND_INITIALS}}` | derived; logo lives on the per-client R2 bucket | |
-| `{{BRAND_IMAGES_BASE}}` | `https://images.{domain}` | |
-| `{{LLMS_SERVICES_INDEX}}` / `{{LLMS_SERVICE_AREAS_INDEX}}` / `{{LLMS_CERTIFICATIONS}}` / `{{LLMS_SERVICE_RADIUS}}` | computed at scaffold from plan + brand | |
+| `air-care-restoration` | client record `slug` | `narestco` |
+| `Air Care Restoration` | plan-input `brand.display_name` | `National Restoration Construction` |
+| `Air Care Restoration` | plan-input `brand.short_name` | `NARESTCO` |
+| `Air Care Restoration` | plan-input `brand.legal_name` | `National Restoration Construction LLC` |
+| `aircarerestoration.com` | client record `domain` | `narestco.com` |
+| `https://aircarerestoration.com` | derived | `https://narestco.com` |
+| `(325) 339-8723` / `+13253398723` | brand.phone | `(206) 883-0333` / `+12068830333` |
+| `info@aircarerestoration.com` | brand.email | `info@narestco.com` |
+| `24/7` | brand.hours | `24/7` |
+| `2026` | brand.founded_year | `2004` |
+| `Abilene` / `TX` | derived from primary area | `Federal Way` / `WA` |
+| `2241 S 41ST ST SUITE A` / `79602` | brand.street_address / brand.postal_code | |
+| `32.44645` / `-99.7475905` | brand.lat / brand.lng | from GBP |
+| `ChIJAbX4Kjsyg2IRF9RgElzgJXk` / `` | brand.place_id / brand.google_cid | from GBP |
+| `[]` | brand.license_numbers (JSON-encoded array) | `["NATIORC792M6"]` |
+| `` / `` | brand.license_authority / brand.license_type | |
+| `["IICRC CERTIFIED FIRM", "OSHA TRAINED", "IICRC WRT (WATER)", "IICRC FSRT (FIRE & SMOKE)", "EPA LEAD-SAFE CERTIFIED", "MRC2262-RCO1798-TCST-HST-OCT"]` | brand.certifications (JSON-encoded array) | `["IICRC", "BBB Accredited"]` |
+| `[]` | brand.same_as_urls (JSON-encoded array) | |
+| `` / `` | from GBP | `5.0` / `31` |
+| `24/7 restoration services in Abilene, TX.` | brand.tagline | short marketing line |
+| `#02255d` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
+| `Poppins` / `Anton` | brand.fonts | `Inter` / `Inter` |
+| `/images/logo.png` / `AC` | derived; logo lives on the per-client R2 bucket | |
+| `https://images.aircarerestoration.com` | `https://images.{domain}` | |
+| `- [Water Damage Restoration](https://aircarerestoration.com/services/water-damage-restoration/)
+- [Water Cleanup](https://aircarerestoration.com/services/water-cleanup/)
+- [Storm Damage Restoration](https://aircarerestoration.com/services/storm-damage-restoration/)
+- [Air Duct Cleaning](https://aircarerestoration.com/services/air-duct-cleaning/)
+- [Fire Damage Restoration](https://aircarerestoration.com/services/fire-damage-restoration/)
+- [Renovations, Remodels and General Contracting](https://aircarerestoration.com/services/general-contracting/)
+- [Sewage Cleanup and Sanitization](https://aircarerestoration.com/services/sewage-cleanup/)
+- [Biohazard Cleanup](https://aircarerestoration.com/services/biohazard-cleanup/)
+- [Contents Restoration and Storage](https://aircarerestoration.com/services/contents-restoration/)
+- [Post-Construction and Specialty Cleaning](https://aircarerestoration.com/services/post-construction-cleaning/)
+- [Emergency Board-Up and Tarping](https://aircarerestoration.com/services/emergency-board-up-tarping/)
+- [Asbestos Abatement](https://aircarerestoration.com/services/asbestos-abatement/)
+- [Mold Remediation](https://aircarerestoration.com/services/mold-remediation/)` / `- [Abilene, TX](https://aircarerestoration.com/service-areas/abilene-tx/)
+- [Sweetwater, TX](https://aircarerestoration.com/service-areas/sweetwater-tx/)
+- [Clyde, TX](https://aircarerestoration.com/service-areas/clyde-tx/)
+- [Merkel, TX](https://aircarerestoration.com/service-areas/merkel-tx/)
+- [Anson, TX](https://aircarerestoration.com/service-areas/anson-tx/)
+- [Tuscola, TX](https://aircarerestoration.com/service-areas/tuscola-tx/)
+- [Tye, TX](https://aircarerestoration.com/service-areas/tye-tx/)
+- [Buffalo Gap, TX](https://aircarerestoration.com/service-areas/buffalo-gap-tx/)
+- [Brownwood, TX](https://aircarerestoration.com/service-areas/brownwood-tx/)
+- [Early, TX](https://aircarerestoration.com/service-areas/early-tx/)
+- [Roby, TX](https://aircarerestoration.com/service-areas/roby-tx/)
+- [Rotan, TX](https://aircarerestoration.com/service-areas/rotan-tx/)
+- [Robert Lee, TX](https://aircarerestoration.com/service-areas/robert-lee-tx/)
+- [Bronte, TX](https://aircarerestoration.com/service-areas/bronte-tx/)
+- [Eden, TX](https://aircarerestoration.com/service-areas/eden-tx/)
+- [Paint Rock, TX](https://aircarerestoration.com/service-areas/paint-rock-tx/)` / `IICRC CERTIFIED FIRM, OSHA TRAINED, IICRC WRT (WATER), IICRC FSRT (FIRE & SMOKE), EPA LEAD-SAFE CERTIFIED, MRC2262-RCO1798-TCST-HST-OCT` / `Greater Abilene region` | computed at scaffold from plan + brand | |
 
 ## File layout
 

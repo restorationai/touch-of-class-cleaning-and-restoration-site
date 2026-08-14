@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: {{BRAND_CANONICAL_URL}}/sitemap-index.xml
+Sitemap: https://aircarerestoration.com/sitemap-index.xml

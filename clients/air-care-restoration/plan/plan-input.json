@@ -26,10 +26,32 @@
       "Licensed & Insured",
       "24/7 Emergency Service",
       "Locally Owned & Operated"
-    ]
+    ],
+    "place_id": "ChIJAbX4Kjsyg2IRF9RgElzgJXk",
+    "colors": {
+      "primary": "#02255d",
+      "secondary": "#2a70c0",
+      "accent": "#ff6901",
+      "palette": [
+        "#02255d",
+        "#2a70c0",
+        "#59b7ec",
+        "#3a9edc",
+        "#c3e8fb",
+        "#a3e2f6",
+        "#ff6901"
+      ],
+      "source": "Sarha's color-picker screenshots texted 2026-08-11 18:34 UTC (exact hex codes from her logo/business-card design)"
+    },
+    "fonts": {
+      "heading": "Anton",
+      "body": "Poppins",
+      "source": "same screenshots; Poppins selected in her font list, Anton in the mix"
+    }
   },
   "services": [
     "water-damage-restoration",
+    "water-cleanup",
     "storm-damage-restoration",
     "air-duct-cleaning",
     "fire-damage-restoration",
@@ -83,6 +105,54 @@
       "city": "Buffalo Gap",
       "state": "TX",
       "slug": "buffalo-gap-tx"
+    },
+    {
+      "city": "Brownwood",
+      "state": "TX",
+      "slug": "brownwood-tx",
+      "primary": false
+    },
+    {
+      "city": "Early",
+      "state": "TX",
+      "slug": "early-tx",
+      "primary": false
+    },
+    {
+      "city": "Roby",
+      "state": "TX",
+      "slug": "roby-tx",
+      "primary": false
+    },
+    {
+      "city": "Rotan",
+      "state": "TX",
+      "slug": "rotan-tx",
+      "primary": false
+    },
+    {
+      "city": "Robert Lee",
+      "state": "TX",
+      "slug": "robert-lee-tx",
+      "primary": false
+    },
+    {
+      "city": "Bronte",
+      "state": "TX",
+      "slug": "bronte-tx",
+      "primary": false
+    },
+    {
+      "city": "Eden",
+      "state": "TX",
+      "slug": "eden-tx",
+      "primary": false
+    },
+    {
+      "city": "Paint Rock",
+      "state": "TX",
+      "slug": "paint-rock-tx",
+      "primary": false
     }
   ],
   "template": "restoration",

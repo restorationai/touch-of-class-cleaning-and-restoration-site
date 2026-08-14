@@ -30,8 +30,8 @@ User-agent: Bytespider
 Disallow: /
 
 # AI training data summary
-# Site: {{BRAND_CANONICAL_URL}}/
-# Maintainer: {{BRAND_DISPLAY_NAME}}
-# Contact: {{BRAND_EMAIL}}
-# Sitemap: {{BRAND_CANONICAL_URL}}/sitemap-index.xml
-# LLM index: {{BRAND_CANONICAL_URL}}/llms.txt
+# Site: https://aircarerestoration.com/
+# Maintainer: Air Care Restoration
+# Contact: info@aircarerestoration.com
+# Sitemap: https://aircarerestoration.com/sitemap-index.xml
+# LLM index: https://aircarerestoration.com/llms.txt

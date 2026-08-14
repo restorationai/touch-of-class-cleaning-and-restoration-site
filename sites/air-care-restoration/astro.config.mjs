@@ -57,7 +57,7 @@ function contentLastmodMap() {
 const LASTMOD_BY_PATH = contentLastmodMap();
 
 export default defineConfig({
-  site: "{{BRAND_CANONICAL_URL}}",
+  site: "https://aircarerestoration.com",
   output: "static",
   trailingSlash: "always",
   integrations: [
@@ -70,7 +70,7 @@ export default defineConfig({
       changefreq: "weekly",
       serialize(item) {
         if (item.url.endsWith("/")) {
-          item.priority = item.url === "{{BRAND_CANONICAL_URL}}/" ? 1.0 : 0.7;
+          item.priority = item.url === "https://aircarerestoration.com/" ? 1.0 : 0.7;
         }
         const urlPath = new URL(item.url).pathname;
         item.lastmod = (LASTMOD_BY_PATH.get(urlPath) ?? BUILD_DATE).toISOString();

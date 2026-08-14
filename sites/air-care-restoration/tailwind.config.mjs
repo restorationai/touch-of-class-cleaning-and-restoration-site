@@ -13,7 +13,7 @@ export default {
     extend: {
       colors: {
         dark: {
-          DEFAULT: "{{BRAND_DARK_COLOR}}",
+          DEFAULT: "#02255d",
           50: "#f9fafb",
           100: "#f3f4f6",
           200: "#e5e7eb",
@@ -27,21 +27,21 @@ export default {
           950: "#030712",
         },
         primary: {
-          DEFAULT: "{{BRAND_PRIMARY_COLOR}}",
-          50: "{{BRAND_PRIMARY_50}}",
-          100: "{{BRAND_PRIMARY_100}}",
-          200: "{{BRAND_PRIMARY_200}}",
-          300: "{{BRAND_PRIMARY_300}}",
-          400: "{{BRAND_PRIMARY_400}}",
-          500: "{{BRAND_PRIMARY_500}}",
+          DEFAULT: "#02255d",
+          50: "#f0f6ff",
+          100: "#d7e6fe",
+          200: "#afcdfd",
+          300: "#73a8fc",
+          400: "#3c86fb",
+          500: "#0563fa",
           // 600/700 are the DARKENED rungs — brand-tinted TEXT on a white or
           // light surface (Hero's outline button, ProcessSection icons). They
           // are NOT the button fill; that is `cta` below.
-          600: "{{BRAND_PRIMARY_CTA}}",
-          700: "{{BRAND_PRIMARY_DARK}}",
-          800: "{{BRAND_PRIMARY_800}}",
-          900: "{{BRAND_PRIMARY_900}}",
-          950: "{{BRAND_PRIMARY_950}}",
+          600: "#02255d",
+          700: "#011535",
+          800: "#010c1e",
+          900: "#00040a",
+          950: "#00040a",
         },
         /* cta — the SOLID-FILL pair: `bg-cta` is every call-to-action's
            background and `text-cta-fg` is the label that sits on it. They are
@@ -52,14 +52,14 @@ export default {
            2026-08-05: "Action to call on the website need to match golds as
            the logo" — the fill is the logo gold now, the label moved instead. */
         cta: {
-          DEFAULT: "{{BRAND_CTA_FILL}}",
-          hover: "{{BRAND_CTA_HOVER}}",
-          fg: "{{BRAND_CTA_FG}}",
+          DEFAULT: "#02255d",
+          hover: "#011535",
+          fg: "#ffffff",
         },
         accent: {
           // Same pair rule as cta — btn-accent renders text-accent-fg on this.
-          DEFAULT: "{{BRAND_ACCENT_COLOR}}",
-          fg: "{{BRAND_ACCENT_FG}}",
+          DEFAULT: "#ff6901",
+          fg: "#02255d",
         },
         muted: {
           DEFAULT: "#4b5563",
@@ -85,8 +85,8 @@ export default {
         },
       },
       fontFamily: {
-        sans: ["{{BRAND_FONT_SANS}}", "system-ui", "sans-serif"],
-        display: ["{{BRAND_FONT_DISPLAY}}", "system-ui", "sans-serif"],
+        sans: ["Poppins", "system-ui", "sans-serif"],
+        display: ["Anton", "system-ui", "sans-serif"],
       },
       maxWidth: {
         content: "72ch",
