@@ -58,12 +58,19 @@ form{width:100%;max-width:340px;display:flex;flex-direction:column;gap:10px}
 input{width:100%;padding:14px;border:1px solid #cbd5e1;border-radius:12px;font-size:16px}
 .btn{background:#2563eb;color:#fff;border:none;border-radius:12px;padding:15px;font-size:16px;font-weight:700;cursor:pointer}
 .msg{font-size:14px;text-align:center;min-height:18px}.ok{color:#059669}.err{color:#dc2626}
+#js{display:none;position:fixed;inset:0;background:#fff;z-index:50;padding:56px 16px 32px;overflow:auto}
+#js.open{display:flex;flex-direction:column;align-items:center;gap:12px}
+textarea{width:100%;padding:14px;border:1px solid #cbd5e1;border-radius:12px;font-size:16px;font-family:inherit;min-height:96px;resize:vertical}
+.lbl{width:100%;font-size:13px;font-weight:600;color:#64748b;display:flex;flex-direction:column;gap:6px}
+.pick{width:100%;display:flex;flex-direction:column;align-items:center;gap:4px;border:2px dashed #cbd5e1;border-radius:12px;padding:16px;text-align:center;cursor:pointer;font-size:15px;font-weight:700;color:#334155}
+.pick span{font-weight:500;color:#64748b;font-size:12px}.pick input{display:none}
 </style></head><body><div class="wrap">
 <h1>${name}</h1><div class="sub">Crew hub — bookmark this page</div>
 ${reviewUrl ? `<button class="tile" onclick="document.getElementById('qr').classList.add('open')"><span class="ic">⭐</span>Show Review QR<small>Hand your phone to the customer to scan</small></button>` : ""}
 <button class="tile" onclick="document.getElementById('rr').classList.add('open')"><span class="ic">💬</span>Request a Review<small>We'll text the customer a review link for you</small></button>
 <a class="tile" href="/gbpphotos/${slug}"><span class="ic">📷</span>Upload Photos<small>Job shots, before &amp; afters, any photos &mdash; they go to Google and the website</small></a>
 <a class="tile" href="/logo/${slug}"><span class="ic">📎</span>Send Us Files<small>Logo or other files for the marketing team</small></a>
+<button class="tile" onclick="document.getElementById('js').classList.add('open')"><span class="ic">📝</span>Add a Job Story<small>Tell us about a job you just finished, we turn it into a website story</small></button>
 <div id="qr"><button class="close" onclick="this.parentElement.classList.remove('open')">✕</button>
 <div class="qrcap">Scan to leave us a review</div>
 ${qrImg ? `<img src="${qrImg}" alt="Review QR code">` : ""}
@@ -74,6 +81,17 @@ ${qrImg ? `<img src="${qrImg}" alt="Review QR code">` : ""}
 <form id="rrf"><input name="name" placeholder="Customer name" required autocomplete="off">
 <input name="phone" placeholder="Cell number" type="tel" required autocomplete="off">
 <button class="btn" type="submit">Send review request</button><div class="msg" id="rrmsg"></div></form></div>
+<div id="js"><button class="close" onclick="this.parentElement.classList.remove('open')">✕</button>
+<div class="qrcap">Add a job story</div>
+<div class="qrsub">A couple of quick questions while the job is fresh. We turn your answers into a story on the website.</div>
+<form id="jsf">
+<textarea name="what" placeholder="What happened? (what you found when you got there)" required minlength="60" maxlength="4000"></textarea>
+<textarea name="how" placeholder="How did you fix it? (what the crew did on this job)" required minlength="60" maxlength="4000"></textarea>
+<input name="city" placeholder="City or neighborhood" required maxlength="120" autocomplete="off">
+<input name="customer" placeholder="Customer first name (optional)" maxlength="60" autocomplete="off">
+<label class="lbl">Rough date of the job<input name="performed_on" type="date"></label>
+<label class="pick">＋ Add photos (optional)<span id="jscount">Job shots from your camera roll</span><input id="jsphotos" type="file" accept="image/*" multiple></label>
+<button class="btn" type="submit" id="jsbtn">Send job story</button><div class="msg" id="jsmsg"></div></form></div>
 <script>
 document.getElementById('rrf').addEventListener('submit', async (e) => {
   e.preventDefault();
@@ -86,6 +104,60 @@ document.getElementById('rrf').addEventListener('submit', async (e) => {
     if (d.ok) { m.className='msg ok'; m.textContent='Done! ' + (d.note || 'Review request queued.'); f.reset(); }
     else { m.className='msg err'; m.textContent = d.error || 'Something went wrong.'; }
   } catch (err) { m.className='msg err'; m.textContent='Network error, try again.'; }
+});
+// --- Add a Job Story ---
+var jsPhotos = [];
+var jsHint = 'Job shots from your camera roll';
+document.getElementById('jsphotos').addEventListener('change', function (e) {
+  jsPhotos = Array.from(e.target.files || []).filter(function (f) { return f.type.indexOf('image/') === 0; }).slice(0, 8);
+  document.getElementById('jscount').textContent =
+    jsPhotos.length ? jsPhotos.length + ' photo' + (jsPhotos.length > 1 ? 's' : '') + ' ready' : jsHint;
+});
+var jsDate = document.querySelector('#jsf [name=performed_on]');
+function jsToday() { return new Date(Date.now() - new Date().getTimezoneOffset() * 60000).toISOString().slice(0, 10); }
+if (jsDate) jsDate.value = jsToday();
+// Same mechanics as the Upload Photos page: canvas re-encode (EXIF/GPS gone), longest edge 2000px, JPEG.
+function jsStrip(file) {
+  return new Promise(function (resolve, reject) {
+    var img = new Image();
+    img.onload = function () {
+      var w = img.width, h = img.height, MAX = 2000;
+      if (Math.max(w, h) > MAX) { var s = MAX / Math.max(w, h); w = Math.round(w * s); h = Math.round(h * s); }
+      var c = document.createElement('canvas'); c.width = w; c.height = h;
+      c.getContext('2d').drawImage(img, 0, 0, w, h);
+      c.toBlob(function (b) { b ? resolve(b) : reject(new Error('encode')); }, 'image/jpeg', 0.85);
+    };
+    img.onerror = reject;
+    img.src = URL.createObjectURL(file);
+  });
+}
+document.getElementById('jsf').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  var f = e.target, m = document.getElementById('jsmsg'), b = document.getElementById('jsbtn');
+  b.disabled = true; m.className = 'msg';
+  var names = [];
+  try {
+    for (var i = 0; i < jsPhotos.length; i++) {
+      m.textContent = 'Uploading photo ' + (i + 1) + ' of ' + jsPhotos.length + '...';
+      try {
+        var clean = await jsStrip(jsPhotos[i]);
+        var up = await fetch('/gbpphotos/${slug}?cat=job&note=' + encodeURIComponent('job story: ' + f.city.value.slice(0, 80)),
+          { method: 'POST', headers: { 'Content-Type': 'image/jpeg' }, body: clean });
+        if (up.ok) { var ud = await up.json(); if (ud && ud.path) names.push(String(ud.path).split('/').pop()); }
+      } catch (perr) {}
+    }
+    m.textContent = 'Sending your story...';
+    var r = await fetch(location.pathname, { method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ action: 'job-story', what: f.what.value, how: f.how.value, city: f.city.value,
+        customer: f.customer.value, performed_on: f.performed_on.value, photos: names }) });
+    var d = await r.json();
+    if (d.ok) {
+      m.className = 'msg ok'; m.textContent = 'Got it! ' + (d.note || 'Story received.');
+      f.reset(); jsPhotos = []; document.getElementById('jscount').textContent = jsHint;
+      if (jsDate) jsDate.value = jsToday();
+    } else { m.className = 'msg err'; m.textContent = d.error || 'Something went wrong.'; }
+  } catch (err) { m.className = 'msg err'; m.textContent = 'Network error, try again.'; }
+  b.disabled = false;
 });
 </script></div></body></html>`;
 }
@@ -130,6 +202,40 @@ async function handleReviewRequest(client, body, env) {
   return { ok: true, note: "The marketing team has it from here." };
 }
 
+// "Add a Job Story": structured submission -> one [JOB STORY] ops note.
+// case_study_intake.py's [JOB STORY] lane parses the JSON block verbatim,
+// skips classification (it is a case study by construction) and publishes it
+// through the same claims gates as every other case study.
+async function handleJobStory(client, slug, body, env) {
+  const clip = (v, n) => String(v || "").trim().slice(0, n);
+  const what = clip(body.what, 4000), how = clip(body.how, 4000), city = clip(body.city, 120);
+  if (!what || !how || !city) {
+    return { ok: false, error: "Tell us what happened, how you fixed it, and the city." };
+  }
+  // first names only, always (site pages never carry surnames)
+  const customer = clip(body.customer, 60).split(/\s+/)[0] || "";
+  let performedOn = clip(body.performed_on, 10);
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(performedOn)) performedOn = new Date().toISOString().slice(0, 10);
+  // photo filenames as returned by the /gbpphotos upload path (branding/{cid}/job-photos/)
+  const photos = (Array.isArray(body.photos) ? body.photos : []).slice(0, 12)
+    .map((p) => String(p).split("/").pop().replace(/[^\w.-]/g, "")).filter(Boolean);
+  const story = {
+    what_happened: what, how_fixed: how, city,
+    customer_first_name: customer, performed_on: performedOn,
+    photos, submitted_at: new Date().toISOString(),
+  };
+  const note = "[JOB STORY] " + slug + " submitted from the crew hub:\n" +
+    JSON.stringify(story, null, 2);
+  const r = await fetch(SB_URL + "/rest/v1/marketing_ops_notes", {
+    method: "POST",
+    headers: { apikey: env.SB_SERVICE_KEY, Authorization: "Bearer " + env.SB_SERVICE_KEY,
+               "Content-Type": "application/json", Prefer: "return=minimal" },
+    body: JSON.stringify({ company_id: client.cid, body: note, author: "hub", status: "open" }),
+  });
+  if (!r.ok) return { ok: false, error: "Could not save the story. Please try again." };
+  return { ok: true, note: "Story received. Watch for it on the website." };
+}
+
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
@@ -144,10 +250,11 @@ export default {
       if (request.method === "POST") {
         let body = {};
         try { body = await request.json(); } catch (e) {}
-        if (body.action !== "review-request") {
+        if (body.action !== "review-request" && body.action !== "job-story") {
           return Response.json({ ok: false, error: "Unknown action." }, { status: 400 });
         }
         if (!env.SB_SERVICE_KEY) return Response.json({ ok: false, error: "Hub not fully configured." }, { status: 500 });
+        if (body.action === "job-story") return Response.json(await handleJobStory(client, slug, body, env));
         return Response.json(await handleReviewRequest(client, body, env));
       }
       return new Response(hubPage(slug, hub[2], client), {
