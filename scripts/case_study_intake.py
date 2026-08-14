@@ -22,6 +22,17 @@ Two lanes, one publisher:
            client's blog collection. Processed note ids live in ops_kv so
            reruns are no-ops.
 
+           The same lane also drains [JOB STORY] notes: STRUCTURED
+           submissions from the crew hub's "Add a Job Story" card
+           (workers/gbpphotos-proxy.js handleJobStory). Those skip the
+           is-it-a-case-study classifier entirely (they are case studies
+           by construction: guided what/how/city answers as JSON), map
+           straight into the submission contract with the crew's words
+           verbatim, run the SAME fabrication + claims_lint gates, and the
+           note flips to status=resolved once its page publishes. Photos
+           ride along as branding/{cid}/job-photos/ filenames captured by
+           the hub form from the upload responses.
+
   recover  Wayback Machine recovery of a client's OLD site's case studies
            (Crew pilot: crew3r.com /job-completed-* and /all-projects/*).
            CDX API finds the archived URLs, we fetch snapshots, extract
@@ -556,12 +567,13 @@ def finish_batch(slug: str, published: list[dict], branch: str, lane: str) -> No
                  source="case_study_intake")
     links = "\n".join(f"- {p['title']}: {p['url']}" for p in published)
     origin = ("recovered from their old website"
-              if lane == "recover" else "from the write-ups they emailed us")
+              if lane == "recover" else "from the job write-ups their team sent us")
     note = (f"[FOR MONICA] Good news to pass along to {client.get('display_name', slug)}: "
             f"{len(published)} case stud{'y is' if len(published) == 1 else 'ies are'} "
             f"now live on {client.get('domain')}, {origin}. Links:\n{links}\n"
-            f"Any new case study they email to contact@restorationai.io will "
-            f"publish automatically going forward. MONICA: share the links in "
+            f"Any new case study they email to contact@restorationai.io, or add "
+            f"through the crew hub's Add a Job Story page, will publish "
+            f"automatically going forward. MONICA: share the links in "
             f"plain words. This is a share, not an ask. Do not ask them for "
             f"anything in this message.")
     _sb("POST", "/rest/v1/marketing_ops_notes",
@@ -603,6 +615,92 @@ def _download_doc(cid: str, filename: str) -> bytes | None:
     if r.status_code != 200 or len(r.content) > MAX_ATTACH_BYTES:
         return None
     return r.content
+
+
+# --- [JOB STORY] notes: structured submissions from the crew hub card -------
+
+JOB_STORY_PREFIX = "[JOB STORY]"
+
+
+def parse_job_story_note(body: str) -> dict | None:
+    """'[JOB STORY] {slug} submitted from the crew hub:\\n{json}' -> the
+    structured story dict, or None when the JSON block is missing/broken."""
+    if not (body or "").startswith(JOB_STORY_PREFIX):
+        return None
+    i, j = body.find("{"), body.rfind("}")
+    if i < 0 or j <= i:
+        return None
+    try:
+        story = json.loads(body[i:j + 1])
+    except ValueError:
+        return None
+    if not isinstance(story, dict):
+        return None
+    if not (str(story.get("what_happened") or "").strip()
+            and str(story.get("how_fixed") or "").strip()):
+        return None
+    return story
+
+
+def job_story_submission(slug: str, story: dict) -> tuple[dict, list[str]]:
+    """Map the guided hub answers onto the submission contract publish_study
+    eats. The crew's own words go in VERBATIM (the renderer may quote them,
+    never extend them); the only derived fields are the working title and a
+    service guess matched against the site's own service slugs."""
+    what = str(story.get("what_happened") or "").strip()
+    how = str(story.get("how_fixed") or "").strip()
+    narrative = f"What happened: {what}\n\nHow we fixed it: {how}"
+    city = str(story.get("city") or "").strip()
+    services = cw.load_json(CLIENTS_DIR / slug / "plan-input.json").get("services", [])
+    svc_slug = match_service_slug(f"{what} {how}", services)
+    service = (svc_slug or "").replace("-", " ")
+    first_raw = str(story.get("customer_first_name") or "").strip()
+    first = first_raw.split()[0] if first_raw else ""      # first names only, always
+    performed = str(story.get("performed_on") or "").strip()
+    if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", performed):
+        performed = str(story.get("submitted_at") or "")[:10]
+        if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", performed):
+            performed = ""
+    title = f"{service or 'restoration'} job"
+    if first:
+        title += f" for {first}"
+    if city:
+        title += f" in {city}"
+    sub = {"title": title, "city": city, "service": service,
+           "narrative": narrative, "outcome": "",
+           "performed_on": performed, "customer_first_name": first,
+           "source": f"crew hub job story {str(story.get('submitted_at') or '')[:10]}".strip()}
+    photos = [str(p).rsplit("/", 1)[-1] for p in (story.get("photos") or [])
+              if str(p).strip()]
+    return sub, photos
+
+
+def _download_job_photo(cid: str, filename: str) -> bytes | None:
+    """branding/{cid}/job-photos/{fn} (where the hub upload path lands
+    files); the weekly GBP poster may have moved it to posted/ by the time
+    the nightly runs, so check both spots."""
+    import os
+    base = os.environ["SUPABASE_URL"].rstrip("/")
+    key = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
+    for sub in ("job-photos", "job-photos/posted"):
+        path = urllib.parse.quote(f"{cid}/{sub}/{filename}")
+        r = requests.get(f"{base}/storage/v1/object/branding/{path}",
+                         headers={"Authorization": f"Bearer {key}"}, timeout=120)
+        if r.status_code == 200 and len(r.content) <= MAX_ATTACH_BYTES:
+            return r.content
+    return None
+
+
+def resolve_note(note_id: str) -> None:
+    """Flip a [JOB STORY] note to resolved once its page published (or was
+    definitively rejected) so the nightly never re-drains it. Non-fatal:
+    the processed-ids KV is the backstop when this PATCH fails."""
+    try:
+        _sb("PATCH", f"/rest/v1/marketing_ops_notes?id=eq.{note_id}",
+            body={"status": "resolved", "resolved_at": now_iso()},
+            prefer="return=minimal")
+    except Exception as e:  # noqa: BLE001
+        print(f"    [warn] could not resolve note {note_id}: {str(e)[:80]}")
 
 
 def _attachment_text(name: str, data: bytes) -> str:
@@ -657,11 +755,75 @@ def cmd_ingest(args) -> int:
                     f"&body=like.{pat}&select=id,body,created_at"
                     "&order=created_at.asc&limit=200") or []
         fresh = [n for n in notes if str(n.get("id")) not in processed_set]
-        if not fresh:
+        js_pat = urllib.parse.quote(f"{JOB_STORY_PREFIX}*", safe="*")
+        stories = _sb("GET", f"/rest/v1/marketing_ops_notes?company_id=eq.{cid}"
+                      f"&body=like.{js_pat}&status=eq.open"
+                      "&select=id,body,created_at"
+                      "&order=created_at.asc&limit=100") or []
+        stories = [n for n in stories if str(n.get("id")) not in processed_set]
+        if not fresh and not stories:
             continue
-        print(f"\n  {slug}: {len(fresh)} unprocessed client email(s)")
+        print(f"\n  {slug}: {len(fresh)} unprocessed client email(s), "
+              f"{len(stories)} open job stor{'y' if len(stories) == 1 else 'ies'}")
         published: list[dict] = []
         batch_done: list[str] = []
+
+        # Structured hub submissions first: no classifier (they are case
+        # studies by construction), same fabrication + claims gates.
+        for n in stories:
+            nid = str(n.get("id"))
+            story = parse_job_story_note(n.get("body", ""))
+            if not story:
+                # Broken JSON block: never publishable, never parseable —
+                # stop re-scanning it (KV), but leave status=open so a
+                # human still sees it in the app.
+                print(f"    note {nid}: [JOB STORY] body unparseable, skipping")
+                batch_done.append(nid)
+                continue
+            sub, photo_names = job_story_submission(slug, story)
+            raw_len = len(str(story.get("what_happened") or "")
+                          + str(story.get("how_fixed") or ""))
+            print(f"    note {nid}: JOB STORY {sub['title'][:60]!r} "
+                  f"({raw_len} chars, {len(photo_names)} photo(s))")
+            if raw_len < MIN_NARRATIVE_CHARS:
+                print(f"      story too thin ({raw_len} chars) — skipped")
+                if apply:
+                    resolve_note(nid)
+                batch_done.append(nid)
+                continue
+            hit = fabrication_hit(sub["narrative"])
+            if hit:
+                print(f"      rejected: fabrication tell /{hit}/")
+                if apply:
+                    resolve_note(nid)
+                batch_done.append(nid)
+                continue
+            if not apply:
+                print(f"      would publish: {sub['title']!r} "
+                      f"({len(photo_names)} photo(s))")
+                continue
+            photos = []
+            for fname in photo_names:
+                data = _download_job_photo(cid, fname)
+                if data is None:
+                    print(f"    ! could not fetch job photo {fname}")
+                    continue
+                photos.append((fname, data))
+            try:
+                res = publish_study(slug, sub, photos=photos,
+                                    preserved_date=sub["performed_on"] or None,
+                                    allow_generated_hero=True)
+            except Exception as e:  # noqa: BLE001
+                print(f"      ! publish failed: {str(e)[:140]} (will retry next run)")
+                continue
+            if res["status"] == "published":
+                print(f"      published -> {res['url']}")
+                published.append(res)
+            else:
+                print(f"      HELD: {res['why'][:160]}")
+            resolve_note(nid)
+            batch_done.append(nid)
+
         for n in fresh:
             nid = str(n.get("id"))
             meta = parse_client_email_note(n.get("body", ""))
