@@ -183,10 +183,40 @@ def _state_abbr(state) -> str:
     return _US_STATE_ABBR.get(s.lower(), s.upper() if len(s) == 2 else s)
 
 
+def _mirror_nested_brand(brand: dict) -> None:
+    """Derive the FLAT brand keys resolve_tokens reads from the NESTED blocks
+    intake extraction writes.
+
+    plan-input.json now carries brand.colors {primary, secondary, accent,
+    palette} and brand.fonts {heading, body}, but token resolution historically
+    read only the flat mirrors (primary_color, dark_color, accent_color,
+    font_sans, font_display) — so every nested-only client scaffolded in the
+    default red/Inter until someone hand-wrote the mirrors (Air Care
+    2026-08-14: Sarha's exact hexes sat in brand.colors while the scaffold
+    shipped the canonical red). The nested blocks stay the source of truth;
+    the flat keys are derived here and nobody hand-writes them again.
+    setdefault means an explicit flat key still wins, so legacy flat-key
+    plan-inputs resolve byte-identically."""
+    colors = brand.get("colors")
+    if isinstance(colors, dict):
+        if colors.get("primary"):
+            brand.setdefault("primary_color", colors["primary"])
+            brand.setdefault("dark_color", colors["primary"])
+        if colors.get("accent"):
+            brand.setdefault("accent_color", colors["accent"])
+    fonts = brand.get("fonts")
+    if isinstance(fonts, dict):
+        if fonts.get("body"):
+            brand.setdefault("font_sans", fonts["body"])
+        if fonts.get("heading"):
+            brand.setdefault("font_display", fonts["heading"])
+
+
 def resolve_tokens(client: dict, plan_input: dict, allow_missing_domain: bool = False) -> tuple[dict, dict]:
     """Return (string_tokens, json_tokens). JSON tokens substitute as bare
     JS literals (no surrounding quotes)."""
-    brand = plan_input.get("brand", {})
+    brand = dict(plan_input.get("brand", {}) or {})
+    _mirror_nested_brand(brand)  # nested brand.colors/fonts -> flat mirrors
     # SAME BUG, WIDER BLAST RADIUS than llms.txt (see build_llms_substitutions).
     # A null domain f-strings into "https://None" and lands in every token that
     # embeds it — most damagingly BRAND_CANONICAL_URL, which the starter writes
@@ -304,6 +334,28 @@ def resolve_tokens(client: dict, plan_input: dict, allow_missing_domain: bool = 
         bk = k.replace("BRAND_", "").lower()
         if bk in brand:
             string_tokens[k] = str(brand[bk])
+
+    # ---- Google Fonts stylesheet URL (Air Care 2026-08-14) ------------------
+    # BaseLayout hardcoded the Inter URL, so choosing Anton/Poppins changed the
+    # tailwind families but never LOADED them — the browser silently fell back
+    # and every non-Inter build got hand-edited. The starter (dark + light)
+    # now carries {{BRAND_GOOGLE_FONTS_URL}}; resolve it from the chosen
+    # families. Shape matches the Air Care hand-fix: the display face loads
+    # bare (Anton ships one weight), the body face carries the full weight
+    # ramp the starter's utilities use. Inter/Inter — the default — resolves
+    # to the exact URL the template used to hardcode, so every legacy client
+    # scaffolds byte-identically. brand.google_fonts_url wins for anything
+    # fancier (multi-weight display faces, italics).
+    if brand.get("google_fonts_url"):
+        string_tokens["BRAND_GOOGLE_FONTS_URL"] = str(brand["google_fonts_url"])
+    else:
+        sans = (string_tokens["BRAND_FONT_SANS"] or "Inter").strip()
+        disp = (string_tokens["BRAND_FONT_DISPLAY"] or sans).strip()
+        wght = ":wght@400;500;600;700;800;900"
+        fams = ([f"family={disp.replace(' ', '+')}"] if disp != sans else [])
+        fams.append(f"family={sans.replace(' ', '+')}{wght}")
+        string_tokens["BRAND_GOOGLE_FONTS_URL"] = (
+            "https://fonts.googleapis.com/css2?" + "&".join(fams) + "&display=swap")
 
     # Full primary shade ramp derived from the client's actual color
     # (2026-07-28: the template carried hardcoded RED 50-950 shades and only
@@ -465,7 +517,8 @@ def resolve_tokens(client: dict, plan_input: dict, allow_missing_domain: bool = 
     return string_tokens, json_tokens
 
 
-def build_llms_substitutions(plan_input: dict, client: dict) -> dict:
+def build_llms_substitutions(plan_input: dict, client: dict,
+                             allow_placeholder: bool = False) -> dict:
     """Computed llms.txt fields — services list, areas list, etc."""
     # A null domain used to render straight into the file as "https://None/..."
     # because an f-string will happily stringify None. Eight sites shipped that
@@ -473,12 +526,20 @@ def build_llms_substitutions(plan_input: dict, client: dict) -> dict:
     # file AI crawlers read, so every citation path we build was pointing at a
     # host that does not exist. Fail loudly instead: a scaffold that cannot name
     # the site has no business writing its AI index.
+    #
+    # allow_placeholder is the scaffold's EXPLICIT no-domain-anywhere path
+    # (2026-08-14): the caller has already checked the client record AND the
+    # app company record, warned loudly, and the {slug}.invalid placeholder is
+    # healed by sync-deploy's rehydration guard the moment a real domain lands.
     domain = (client.get("domain") or "").strip()
     if not domain or domain.endswith(".invalid"):
-        raise ValueError(
-            f"llms.txt for {client.get('slug')}: domain is {client.get('domain')!r}. "
-            "Set the real domain on the client record before scaffolding, or the "
-            "AI index ships with unreachable URLs.")
+        if allow_placeholder:
+            domain = f"{client.get('slug') or plan_input.get('_slug')}.invalid"
+        else:
+            raise ValueError(
+                f"llms.txt for {client.get('slug')}: domain is {client.get('domain')!r}. "
+                "Set the real domain on the client record before scaffolding, or the "
+                "AI index ships with unreachable URLs.")
     services = plan_input.get("services", [])
     areas = plan_input.get("service_areas", [])
     certs = plan_input.get("brand", {}).get("certifications", [])
@@ -1558,6 +1619,38 @@ def cmd_render(args) -> int:
 # ----------------------------------------------------------------------------
 
 
+def _company_domain_from_app(cid: str | None) -> tuple[str | None, str | None]:
+    """The app's record of the client's domain: companies.website first, then
+    marketing_sites.domain (Air Care 2026-08-14: clients/{slug}.json had
+    domain null while the company card said www.aircarerestoration.com all
+    along — the build agent hand-stamped it). Returns (bare_host, source) or
+    (None, None); 'https://www.foo.com/x' normalizes to 'foo.com'."""
+    sb_url = os.environ.get("SUPABASE_URL", "").rstrip("/")
+    sb_key = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")
+    if not (cid and sb_url and sb_key):
+        return None, None
+    hdr = {"apikey": sb_key, "Authorization": f"Bearer {sb_key}"}
+
+    def _norm(d) -> str:
+        d = re.sub(r"^https?://", "", str(d or "").strip().lower()).split("/")[0]
+        return d[4:] if d.startswith("www.") else d
+
+    for path, field, src in (
+            (f"/rest/v1/companies?id=eq.{cid}&select=website",
+             "website", "companies.website"),
+            (f"/rest/v1/marketing_sites?company_id=eq.{cid}&select=domain",
+             "domain", "marketing_sites.domain")):
+        try:
+            r = requests.get(f"{sb_url}{path}", headers=hdr, timeout=20)
+            for row in (r.json() if r.ok else []):
+                dom = _norm(row.get(field))
+                if dom and "." in dom and not dom.endswith((".invalid", ".pages.dev")):
+                    return dom, src
+        except Exception:
+            continue
+    return None, None
+
+
 def cmd_scaffold(args) -> int:
     slug = args.slug
     client = load_json(CLIENTS_DIR / f"{slug}.json")
@@ -1566,6 +1659,32 @@ def cmd_scaffold(args) -> int:
         die(f"Missing plan input at {plan_input_path}. Run rank-ai-plan-site first.")
     plan_input = load_json(plan_input_path)
     plan_input["_slug"] = slug   # carry slug for placeholder body
+    cid = client.get("company_id") or company_id_for_slug(slug)
+
+    # Domain pre-check (2026-08-14): the client record missing a domain used to
+    # hard-refuse at token time even when the app already knew it. Heal from
+    # the app company record before hydration; only a domain truly known
+    # NOWHERE proceeds — loudly — on the {slug}.invalid placeholder, which
+    # sync-deploy's rehydration guard heals once the real domain lands.
+    allow_placeholder = False
+    _dom = str(client.get("domain") or "").strip()
+    if not _dom or _dom.lower() == "none":
+        app_domain, dom_src = _company_domain_from_app(cid)
+        if app_domain:
+            client["domain"] = app_domain
+            client["updated_at"] = now_iso()
+            save_json(CLIENTS_DIR / f"{slug}.json", client)
+            print(f"    domain: {app_domain} stamped onto clients/{slug}.json "
+                  f"from the app ({dom_src}) — record had none")
+        else:
+            allow_placeholder = True
+            print(f"    WARNING: no domain anywhere — clients/{slug}.json AND the app "
+                  "company record are both empty.")
+            print(f"             Scaffolding on the {slug}.invalid placeholder; canonicals, "
+                  "robots.txt and llms.txt")
+            print("             carry it until a real domain lands (sync-deploy rehydrates "
+                  "them automatically).")
+            print("             Do NOT cut this site over before that.")
 
     url_plan_path = CLIENTS_DIR / slug / "plan" / "url-plan.json"
     internal_links_path = CLIENTS_DIR / slug / "plan" / "internal-links.json"
@@ -1588,8 +1707,36 @@ def cmd_scaffold(args) -> int:
     if (plan_input.get("brand", {}) or {}).get("theme") == "light":
         n = apply_light_overlay(site_dir)
         print(f"      light theme: {n} overlay file(s) applied")
-    string_tokens, json_tokens = resolve_tokens(client, plan_input)
-    llms_tokens = build_llms_substitutions(plan_input, client)
+
+    # Client's uploaded logo from the branding bucket (Air Care 2026-08-14:
+    # the ledger's nightly pass pulls these, the scaffold did not — every
+    # build whose client had already uploaded a logo got hand-fixed). Same
+    # helper the ledger uses; must run AFTER copy_starter (which resets
+    # public/) and BEFORE token resolution (logoUrl points at the local file).
+    brand_block = plan_input.setdefault("brand", {})
+    pulled_logo = None
+    if cid:
+        try:
+            from brand_assets import pull_bucket_logo
+            pulled_logo = pull_bucket_logo(cid, slug)
+        except Exception as e:
+            print(f"      logo: bucket pull errored ({str(e)[:120]}) — keeping default")
+    if pulled_logo:
+        # In-memory only — plan-input.json on disk stays as intake wrote it.
+        # An explicit brand.logo_url still wins.
+        brand_block.setdefault("logo_url", f"/images/{pulled_logo}")
+        print(f"      logo: pulled from branding bucket -> public/images/{pulled_logo} "
+              f"(logoUrl {brand_block['logo_url']})")
+    else:
+        print(f"      NOTE: no logo in branding bucket for {cid or slug} — scaffolding "
+              "with the default logoUrl.")
+        print("            (Client uploads land via the hub's Send Us Files page; "
+              "re-run scaffold or setup_ledger to pull later.)")
+
+    string_tokens, json_tokens = resolve_tokens(
+        client, plan_input, allow_missing_domain=allow_placeholder)
+    llms_tokens = build_llms_substitutions(
+        plan_input, client, allow_placeholder=allow_placeholder)
     all_tokens = {**string_tokens, **json_tokens, **llms_tokens}
     files_changed, leftover = substitute_in_tree(site_dir, all_tokens)
     if leftover:
@@ -1848,7 +1995,11 @@ def _rehydrate_domain(slug: str, site_dir: Path, mono: Path) -> None:
     `https://None` in canonicals, schema, and the ENTIRE sitemap (crew3r.com
     served 668 sitemap URLs on host 'none' for 3 days, 2026-08-11). Every
     deploy now re-reads the record and heals the known carriers, committing
-    just those files so the fix rides the push it precedes."""
+    just those files so the fix rides the push it precedes.
+
+    Also heals `{slug}.invalid` (2026-08-14): scaffold's explicit no-domain-
+    anywhere path stamps that placeholder instead of crashing, on the promise
+    that this guard swaps in the real domain at the next deploy."""
     client_path = CLIENTS_DIR / f"{slug}.json"
     if not client_path.exists():
         return
@@ -1863,7 +2014,8 @@ def _rehydrate_domain(slug: str, site_dir: Path, mono: Path) -> None:
         s = p.read_text()
         healed = (s.replace("https://None", f"https://{domain}")
                    .replace("https://none/", f"https://{domain}/")
-                   .replace('domain: "None"', f'domain: "{domain}"'))
+                   .replace('domain: "None"', f'domain: "{domain}"')
+                   .replace(f"{slug}.invalid", domain))
         if healed != s:
             p.write_text(healed)
             changed.append(rel)
@@ -1871,10 +2023,10 @@ def _rehydrate_domain(slug: str, site_dir: Path, mono: Path) -> None:
         rels = [f"sites/{slug}/{c}" for c in changed]
         git(["add", *rels], mono)
         git(["commit", "-m",
-             f"{slug}: rehydrate https://None -> https://{domain} "
-             f"(domain attached after scaffold; auto-healed at deploy)",
+             f"{slug}: rehydrate stale host (https://None / {slug}.invalid) -> "
+             f"https://{domain} (domain attached after scaffold; auto-healed at deploy)",
              "--", *rels], mono)
-        print(f"    [rehydrate] healed https://None -> https://{domain} in: "
+        print(f"    [rehydrate] healed stale host -> https://{domain} in: "
               + ", ".join(changed))
 
 
