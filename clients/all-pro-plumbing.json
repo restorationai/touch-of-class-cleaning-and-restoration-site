@@ -29,7 +29,11 @@
     "city": "Bakersfield",
     "state": "CA",
     "phone": "(661) 863-9242",
-    "website": "https://allproplumbingheatingandair.com"
+    "website": "https://allproplumbingheatingandair.com",
+    "license_numbers": [
+      "CSL #960566"
+    ],
+    "license_source": "Jack's own marketing flyers texted 2026-08-14 (state 'Insured, Bonded, CSL#960566'); CSLB verify before external submission"
   },
   "onboarding_notes": {
     "dns_mirrored_at": "2026-07-08T16:15:42.345948+00:00",
