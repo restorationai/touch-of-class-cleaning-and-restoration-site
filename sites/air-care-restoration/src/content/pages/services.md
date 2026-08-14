@@ -8,12 +8,25 @@ secondary_keywords: ["damage restoration services", "property restoration servic
 search_intent: "local_commercial"
 priority: 4.0
 plan_hash: "d5ccddaaf6881cf0"
-generated_at: "2026-08-14T05:47:51.776393+00:00"
+generated_at: "2026-08-14T06:29:55.137235+00:00"
 manual_override: false
 internal_links: ["/", "/services/fire-damage-restoration/", "/services/mold-remediation/", "/services/water-damage-restoration/", "/services/sewage-cleanup/", "/services/storm-damage-restoration/", "/services/water-cleanup/", "/services/biohazard-cleanup/", "/services/general-contracting/", "/services/emergency-board-up-tarping/", "/services/asbestos-abatement/", "/services/air-duct-cleaning/", "/services/contents-restoration/", "/services/post-construction-cleaning/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services"}]
-faq: []
+faq: [{"question": "Do you work with both residential and commercial properties?", "answer": "Yes. Air Care Restoration responds to single-family homes, commercial buildings, and multi-family properties including apartment complexes. The equipment, crew size, and documentation approach scale to the property type \u2014 a commercial loss often requires after-hours work to minimize business disruption, while a multi-family loss may involve coordinating access across multiple units."}, {"question": "What's the difference between mitigation and reconstruction?", "answer": "Mitigation is everything done to stop ongoing damage and stabilize the property: water extraction, structural drying, debris removal, smoke neutralization, or biohazard containment. Reconstruction is the rebuild that follows \u2014 replacing drywall, flooring, cabinetry, and any structural elements removed during mitigation. Insurance policies typically cover both phases, but they are often documented as separate line items in the claim."}, {"question": "Do you handle insurance claims for all of your services?", "answer": "Yes. Whether the loss involves water, fire, mold, storm, or biohazard, the documentation process \u2014 moisture logs, photo evidence, scope of work, and material line items \u2014 is built to support a carrier's review from the start. Working with a single company across mitigation and reconstruction also simplifies the adjuster's job, since the full loss record lives in one place rather than being split between separate contractors."}]
+rendered: true
 ---
-<!-- Page body not yet generated. Run `build_site.py render --slug air-care-restoration` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+From a burst pipe at 2 a.m. to a kitchen fire that's left smoke odor in every room, property damage rarely arrives on a convenient schedule. Air Care Restoration handles the full range of water, fire, mold, biohazard, and storm losses for homeowners, commercial property owners, and multi-family managers across Abilene and the surrounding Big Country. One call connects you to an IICRC Certified Firm that carries the work from emergency response all the way through finished reconstruction.
 
-Placeholder content for Our Restoration Services.
+## Emergency restoration services
+
+When water is still moving or smoke is still settling, the first priority is stopping the loss from getting worse. Water damage response means extracting standing water, mapping moisture with calibrated meters, and setting drying equipment before saturation migrates into wall cavities and subfloors — because in West Texas's older housing stock, plaster and wood-frame construction can hold moisture long after the surface reads dry. Fire and smoke restoration goes beyond what's visibly charred: IICRC FSRT-certified technicians address soot deposits, protein residue, and the acidic off-gassing that continues to etch surfaces after the flames are out. Storm damage response — hail, wind, and the flash flooding that Abilene's clay-heavy soils can produce after a hard rain — requires fast structural assessment and weatherproofing to prevent secondary water intrusion. Biohazard and trauma cleanup rounds out the emergency side, handled under OSHA-trained protocols and EPA Lead-Safe practices where older materials are involved.
+
+## Reconstruction and renovation
+
+Mitigation stabilizes a property; reconstruction returns it to livable condition. Once drying goals are met and damaged materials are removed, the rebuild phase begins — drywall, flooring, cabinetry, painting, and structural framing as needed. Because Air Care Restoration holds general contracting capability alongside its restoration certifications, there is no handoff to a second company and no gap in accountability between the crew that dried the space and the crew that rebuilds it. This matters for insurance documentation: scope, photos, and material specs flow through a single point of contact from day one.
+
+## Specialty services
+
+Not every call is an emergency. Mold inspection and remediation, odor removal (including persistent smoke and pet odor embedded in HVAC systems and building materials), board-up and tarping after a break-in or storm, and content pack-out for items that need off-site cleaning or storage are all available as standalone services. EPA Lead-Safe certification means pre-1978 homes in Abilene's established neighborhoods can be addressed without cutting corners on containment.
+
+The clearest advantage of working with a single restoration contractor from first response through final walk-through is that nothing falls through the cracks between phases. Scope doesn't get lost in translation, timelines stay coordinated, and your insurance adjuster works with one documented record of the entire loss. If you're looking at damage right now — or want to understand your options before filing a claim — call (325) 339-8723 any time.
