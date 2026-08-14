@@ -247,7 +247,17 @@ def expand_inputs(template: Template, plan_input: dict, client: dict) -> dict:
     inputs["brand"] = brand
 
     # Resolve services from slugs to full service objects
-    selected_slugs = plan_input.get("services") or []
+    selected_slugs = list(plan_input.get("services") or [])
+    # WATER CLEANUP IS A DEFAULT, not a checkbox (Santino 2026-08-13, the
+    # Roto-Rooter signal): it is the colloquial term homeowners actually
+    # search for the same work, so every client doing water damage
+    # restoration gets the water-cleanup page automatically. Air Care's
+    # build proved the gap — the fleet GBP rollout added the service to
+    # listings but no plan carried the page.
+    if ("water-damage-restoration" in selected_slugs
+            and "water-cleanup" not in selected_slugs
+            and "water-cleanup" in template.services_by_slug):
+        selected_slugs.append("water-cleanup")
     services = []
     missing = []
     for slug in selected_slugs:
