@@ -187,6 +187,26 @@ jobs:
           python3 scripts/cutover_harvest.py auto --limit 3 --no-commit || true
           rm -f .gsc-agency-token.json
 
+      - name: Case-study intake (client-emailed job stories -> site pages)
+        env:
+          SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          ANTHROPIC_API_KEY:         ${{ secrets.ANTHROPIC_API_KEY }}
+          GOOGLE_AI_API_KEY:         ${{ secrets.GOOGLE_AI_API_KEY }}
+          CLOUDFLARE_R2_API_TOKEN:   ${{ secrets.CLOUDFLARE_R2_API_TOKEN }}
+          GITHUB_PERSONAL_ACCESS_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          # Clients email case-study write-ups to contact@restorationai.io
+          # (Crew's ask, 2026-08-14). email_inbox_sync files them as
+          # [CLIENT EMAIL] notes; this step classifies the unprocessed ones,
+          # renders real submissions through the content engine's case-study
+          # conventions (claims_lint errors BLOCK the page), publishes to the
+          # branch each site lives on, work-logs every study, and files one
+          # [FOR MONICA] note with the live links. Idempotent via ops_kv
+          # processed-ids. Commits + sync-deploys its own pages. Advisory —
+          # never fails the ops run.
+          python3 scripts/case_study_intake.py ingest --all --apply || true
+
       - name: Refresh Search Console data (app Reports tab)
         env:
           SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
