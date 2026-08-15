@@ -47,25 +47,30 @@ One chassis owns the safety machinery; each portal task is a thin playbook.
                     not API — delegate email access grants no API), Bluehost
                     via client-provided creds; registrar logged per client in
                     ~/.rankai/portal-creds.json
-5. apple_maps     — IN PROGRESS, supervised run 1/3 (2026-08-16). Apple
-                    Business Connect agency APPROVED ~08-15 (portal rebranded
-                    to "Apple Business", business.apple.com). Playbook built
-                    (playbooks/apple_maps.py) + chassis CDP session-reuse
-                    support (Session.start(cdp_url=...), `run --cdp URL`).
-                    Run 1 BLOCKED on Apple login before any create: the
-                    portal is signed out in the suite profile and a fresh
-                    login 2FA-pushes to Santino's devices (rule 2 — never
-                    bypassed). CDP reuse of Santino's live Chrome (his
-                    authorized suggestion) does NOT work here: Chrome 136+
-                    refuses --remote-debugging-port on the default profile,
-                    and a copied cookie jar won't decrypt in a scratch
-                    user-data-dir on Chrome 151 (app-bound encryption). One
-                    [TODO-SANTINO] filed; 3 test clients staged with verified
-                    NAP (narestco, crew-restoration-construction,
-                    restorationxpress). NEXT: Santino does the supervised
-                    login once, then re-run dry to pin selectors + probe the
-                    portal API tab (Service Account minting). NOT in the
-                    nightly sweep (3-supervised-runs rule).
+5. apple_maps     — IN PROGRESS, supervised run 1/3 DONE 2026-08-16. Agency
+                    account approved ~08-15 (portal rebranded to "Apple
+                    Business", business.apple.com). Run 1: supervised login
+                    completed (Santino relayed the SMS 2FA code live), THREE
+                    locations created and sitting in Apple's "In Review"
+                    queue (up to 5 days, publishes on approval, no
+                    verification step demanded): narestco, restorationxpress,
+                    homepriderestorationandcleaning — each under its own
+                    brand, category "Damage Restoration Service", 24/7 hours,
+                    GBP-primary phones. crew-restoration-construction HELD on
+                    a zip discrepancy (GBP 57105 vs companies row 57110 —
+                    note filed). API access REQUESTED from the portal the
+                    same session (staged pipeline: integration -> data
+                    qualification -> production; decision arrives by email).
+                    Full wizard selectors + traps pinned in the playbook's
+                    run-1 notes. Chassis gained CDP attach
+                    (Session.start(cdp_url=...), `run --cdp URL`). Apple
+                    sessions do NOT survive browser restart (2FA
+                    re-challenges even after Trust) — every run starts with
+                    a supervised login + held-open browser (pattern in the
+                    playbook). NEXT RUN: login (code relayed live), check the
+                    In Review three -> record_listing on publish, create crew
+                    once the zip answer lands. NOT in the nightly sweep
+                    (3-supervised-runs rule).
 6. lsa_portal     — job-type enrollment toggles + license/insurance doc submission
 7. onlinejobs_ph  — hiring: screens applicants on a job post and answers them.
                     Reads via the SPA's own JSON API (the UI list is virtualized

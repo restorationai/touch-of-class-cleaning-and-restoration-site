@@ -13,21 +13,33 @@ API-FIRST PROBE (Santino: "API worth testing once approved") — findings:
     (Support -> API Documentation). So the API probe is a portal step: on
     each run, check whether the API tab will mint credentials; record the
     state below. Until keys exist, creation goes through the browser flow.
-  * PROBE RESULT 2026-08-16 (run 1): BLOCKED BEFORE THE TAB — see SESSION
-    note below; re-probe on the next supervised run.
+  * PROBE RESULT 2026-08-16 (run 1): access request SENT from the portal
+    (Settings -> Integrations -> API -> Request API Access; services =
+    Listing management + Marketing; "work directly with all" owners;
+    Business or Location Data, total count 30). Portal confirms "requestor
+    will receive an email with next steps". Even once granted, production
+    is a staged pipeline (Integration tests -> Data Qualification ->
+    Production), so browser creation stays the path for now. In-portal API
+    docs: https://business.apple.com/docs (login required). Webhooks and
+    OAuth Apps both gate on API access.
 
-SESSION / LOGIN (the hard part — read before running):
-  * Apple logins 2FA on ~every new browser identity. Safety rule 2: NEVER
-    bypass — challenge_detected() pauses and files the [TODO-SANTINO].
-  * AUTHORIZED workaround (Santino, 2026-08-16): reuse HIS live Chrome
-    session by relaunching his Chrome with --remote-debugging-port=9222 and
-    connecting Playwright over CDP (Session.start(cdp_url=...), --cdp flag).
-    Be surgical: work in a NEW tab, never touch his tabs; stop() closes only
-    our tab. NOTE Chrome 136+ REFUSES the debug port on the default
-    user-data-dir — see run-1 notes at the bottom for what actually worked.
-  * The suite's own persistent profile has NO Apple session; typing the
-    stored creds there triggers a fresh 2FA push to Santino's devices —
-    don't burn those while he's away; prefer the CDP path.
+SESSION / LOGIN (measured 2026-08-16, run 1):
+  * The Apple Business session does NOT survive a browser restart: the
+    session cookies are session-scoped, and a fresh login re-challenges
+    2FA even after "Trust" was clicked the login before. So EVERY run
+    starts with one supervised login: email + stored password, then the
+    6-digit SMS code Apple texts to the account phone ending 49 — the
+    code MUST be relayed live by Santino/the coordinator (it lands on the
+    company's CRM-managed number; it is NOT in our Twilio fleet). Never a
+    code that wasn't relayed for THIS login (safety rule 2).
+  * WORKING RUN PATTERN (what run 1 did): background process launches the
+    suite profile with --remote-debugging-port=9223 (allowed on a
+    NON-default user-data-dir), walks to the 2FA prompt, HOLDS the browser
+    open; the code is typed in over CDP when relayed; every subsequent
+    step runs over CDP from short-lived scripts against the held browser.
+    Do the whole run inside that one held session.
+  * CDP reuse of Santino's own Chrome does NOT work on Chrome 151 — see
+    run-1 notes at the bottom.
 
 NAP TRUTH (README rule 6 + fleet policy) — see nap_truth():
   name/address = companies row (Business Information card). phone = GBP
@@ -52,12 +64,22 @@ shape is https://maps.apple.com/place?place-id=... (seen on the two
 hand-filled fleet rows).
 
 STATUS SEMANTICS (mirror bing_places: pin what each state MEANS before
-anyone "fixes" a pending listing — fill in as observed):
-  submitted_pending  Apple-side review queue. Not actionable by us.
-  live               Public place URL exists -> record_listing + ledger.
+anyone "fixes" a pending listing):
+  In Review          Portal's own state after create. Verbatim banner:
+                     "Your location verification is in review. Reviews can
+                     take up to 5 days to complete. Updates will be
+                     published once approved." NOT actionable — no button,
+                     no verification step offered or demanded. Ledger
+                     'submitted_pending' and wait; do NOT resubmit.
+  (published)        Expected terminal success — public place URL appears;
+                     then listings.record_listing(cid,'apple_maps',url) +
+                     ledger 'done'. Not yet observed (run 1 was today).
   blocked            Portal demanded something only Santino/the client has.
 
-Supervised until THREE clean completions (run 1: 2026-08-16, see notes).
+Supervised until THREE clean completions. Run 1 (2026-08-16): narestco +
+restorationxpress + homepriderestorationandcleaning all created In Review
+same night; crew HELD on the zip question. Run 2 should also CHECK the run-1
+listings' states and record_listing any that published.
 """
 from __future__ import annotations
 
@@ -66,7 +88,10 @@ import re
 from ..chassis import Session, company_truth, ledger, portal_creds
 from ..chassis import _sb  # chassis re-exports client_ops_sync._sb
 
-PORTAL = "https://business.apple.com/"  # businessconnect.apple.com redirects
+# The authenticated home. The marketing root (business.apple.com/) shows a
+# "Sign In" button even WITH a live session, so never use it for signed-out
+# detection — /main/home redirects to /login only when the session is gone.
+PORTAL = "https://business.apple.com/main/home"
 CREDS_KEY = "apple_business_connect"
 
 
@@ -156,7 +181,7 @@ def run(session: Session) -> int:
         return 1
     page = session.page
     page.goto(PORTAL, wait_until="domcontentloaded")
-    page.wait_for_timeout(3000)
+    page.wait_for_timeout(6000)  # SPA settles / login redirect happens
     session.audit_shot("portal-landing")
 
     # Signed-out detection: business.apple.com/login (rebranded from
@@ -169,24 +194,17 @@ def run(session: Session) -> int:
     # wall reached AFTER a supervised password entry is the harder stop:
     # session.challenge_detected().
     url = page.url
-    if ("idmsa.apple.com" in url or "/login" in url.lower()
-            or page.locator("text=Sign in using your business email").count() > 0
-            or page.locator("text=Sign In").count() > 0):
+    if "idmsa.apple.com" in url or "/login" in url.lower():
         creds = portal_creds(CREDS_KEY)  # presence check only — never typed here
         have = "creds present" if creds else "NO CREDS"
         login_needed(
             session, "apple-signin",
-            "Apple Business (business.apple.com) needs a supervised login "
-            f"before the apple_maps playbook can create listings ({have}). "
-            "Chrome 136+ blocks --remote-debugging-port on your default "
-            "profile, and a copied cookie jar will not decrypt in a scratch "
-            "user-data-dir on Chrome 151 (app-bound encryption), so CDP "
-            "session-reuse did not carry your live Apple session. Next time "
-            "you are at the keyboard: sign into business.apple.com in the "
-            "suite profile via `python3 -m browser_agent login` (Apple will "
-            "text/prompt a 6-digit code to your device — enter it), then "
-            "re-run `python3 -m browser_agent run --playbook apple-maps "
-            "--slug narestco` (dry-run) to pin the create-flow selectors.")
+            "Apple Business session DROPPED (business.apple.com/main/home "
+            f"redirected to login; {have}). Re-login supervised: `python3 -m "
+            "browser_agent login`, sign in at business.apple.com as the "
+            "agency account, enter the SMS 2FA code Apple texts to the "
+            "account phone (..49), click Trust, close the window. Then "
+            "re-run the playbook.")
 
     print(f"Apple Business for {truth.get('name')} — "
           f"{truth.get('city')}, {truth.get('state')}")
@@ -216,35 +234,76 @@ def run(session: Session) -> int:
 
 
 # --------------------------------------------------------------------- run 1
-# 2026-08-16, supervised (Fable driving, Santino away — CDP reuse authorized
-# in the mission brief). Pinned observations:
+# 2026-08-16, supervised. Santino relayed the SMS 2FA code live mid-run.
+# THREE locations created, all "In Review": narestco (apple location id
+# 1536142091978017843), restorationxpress (1540645688291887667), homepride
+# (1549652888091888240). API access request sent the same session.
 #
+# LOGIN / SESSION MECHANICS (pinned):
 #  * Chrome 151 IGNORES --remote-debugging-port on the DEFAULT user-data-dir
-#    (Chrome 136+ security change). Relaunching Santino's Chrome with the
-#    flag brings his session back but opens NO CDP listener (curl :9222 dead).
-#  * The copy-to-scratch workaround does NOT carry the session either:
-#    copying Local State + a profile's Cookies to a scratch user-data-dir and
-#    launching it with --remote-debugging-port DOES open a live CDP listener,
-#    but the transplanted cookie jar will NOT decrypt on Chrome 151. Proven
-#    both ways: Santino's Google session ALSO failed to carry (redirected to
-#    the logged-out marketing page), and only 3 unencrypted apple cookies
-#    (dslang/site/geo) were visible to the context — the encrypted session
-#    cookies silently dropped. The per-cookie prefix reads "v10", but Chrome
-#    151's app-bound key wrapping (Local State os_crypt) ties decryption to
-#    the original install/path, so a copied jar is inert. Tried Default,
-#    Profile 1 (Santino/velcisantino@gmail.com), Profile 2
-#    (restorationai.io) — all signed out through CDP.
-#  * NET: there is no no-2FA path to Santino's live Apple session on this
-#    Chrome version. The only way in is a supervised login (he enters the
-#    6-digit code). Filed the [TODO-SANTINO]; did NOT type the stored
-#    password (would 2FA-push to his devices while away) and did NOT trip the
-#    global kill switch (bing sweep stays live). Scratch cookie jars deleted.
-#  * chassis Session.start(cdp_url=...) + `run --cdp URL` were still added and
-#    verified working (connect_over_cdp, new tab, surgical stop) — ready to
-#    reuse the moment a logged-in CDP endpoint exists (e.g. a future Chrome
-#    where the debug port is available, or Santino starts one himself).
-#  * NEXT RUN starts at the API probe: once logged in, open the portal API
-#    tab and see if a Service Account / OAuth App can be minted (prefer API
-#    for the actual location creation), then pin the browser create-flow
-#    selectors as fallback. Dedupe first via maps.apple.com + the add-location
-#    search; the citations audit already flags all 3 test clients "missing".
+#    (Chrome 136+ change), and a cookie jar copied to a scratch dir will NOT
+#    decrypt (app-bound key wrapping; even the Google session failed to
+#    carry) — reusing Santino's own Chrome over CDP is a dead end on this
+#    Chrome. What DOES work: launch the SUITE profile with
+#    --remote-debugging-port=9223 (non-default dir = allowed), hold it open
+#    from a background process, and drive each step over CDP
+#    (connect_over_cdp) from short-lived scripts. Login: business.apple.com
+#    /login -> email (input[type=text/email]) -> Continue -> password
+#    (input[type=password]) -> SMS code to the account phone (..49) -> six
+#    one-box inputs (input[aria-label*='igit'], type the whole code into the
+#    first) -> button 'Trust' -> session persists in the profile.
+#
+# ADD-LOCATION WIZARD (business.apple.com -> Brands -> Locations -> Add a
+# Location; /companies/{org}/maps/locations/new; 4 steps, 5 with new brand):
+#  * Apple custom elements (apl-*): labels/footers intercept pointer events,
+#    so click() often fails — el.focus() + page.keyboard.insert_text() is
+#    the reliable fill; Playwright locators DO pierce the shadow DOM but
+#    page.evaluate(querySelectorAll) does NOT.
+#  * Step 1 (details): aria-labels = Display Name / Primary Category /
+#    Phone Number / Location Website (Optional) / Partner's Location ID
+#    (use our slug). CATEGORY TAXONOMY: typing 'water damage' surfaces
+#    exactly one option, "Damage Restoration Service" — that is Apple's
+#    category for the whole fleet. Phone accepts bare digits, renders
+#    +1 (xxx) xxx-xxxx.
+#  * Step 2 (address): aria-labels Street / Unit, Suite, etc. (Optional) /
+#    City / Zip Code; State is role=combobox (click, then click the full
+#    state name; search box optional). TRAP: the Street field pops an
+#    address-AUTOSUGGEST list (apl-option-list, automation id
+#    full-thoroughfare__input__list) that OVERLAYS the State control and
+#    Escape does NOT close it — two clicks on neutral ground (the page
+#    heading area) dismiss it. TRAP 2: 'text=State'-style loose clicks hit
+#    the Country/Region dropdown or day toggles; scope by role+name.
+#    Step2->3 can hang on a spinner; goto .../locations/welcome and click
+#    Add a Location — the wizard RESUMES at step 2 with step 1 preserved
+#    (step 2 fields must be refilled).
+#  * Step 3 (hours): 'Add Hours' seeds M-F 9-5 + a Sun/Sat 'Closed' row.
+#    Day circles are role=button name=Sunday..Saturday (FIRST occurrence =
+#    row 1). 24/7 = add Sunday+Saturday to row 1, click the Opens input
+#    (the input whose value is '9:00 AM') and pick the '24 Hours' option
+#    (Closes disables), then Remove the leftover Closed row. Place-card
+#    preview should read 'Every Day, Open 24 Hours'.
+#  * Step 4 (brand): FIRST brand in the org = a plain form (Brand Name +
+#    Brand Website (Optional)) and the submit is 'Done'. Once any brand
+#    exists it becomes a PICKER — input[type=radio][value=NEW_BRAND] (the
+#    radio itself intercepts clicks on the card text), then Next -> brand
+#    form (wizard shows 'Step 4 of 5'). Every client gets ITS OWN brand.
+#  * Submit lands on /locations/{id}/info (grab the id from the URL) or on
+#    the /locations list — click the row for the id. Info page banner =
+#    the In Review semantics quoted above; no verification step demanded.
+#  * Working driver for the whole flow: scratchpad apple_create.py from this
+#    run (config-per-client JSON) — port into this playbook as the
+#    unattended path once the 3 supervised runs are clean.
+#
+# SESSION EPILOGUE, measured after the run: closing the held browser ended
+# the session — /main/home redirects to /login on the next launch, and a
+# password re-login re-challenged SMS 2FA despite the earlier Trust. So the
+# login + hold-open pattern above is the per-run cost until the API lands.
+# The marketing root (business.apple.com/) shows "Sign In" even when logged
+# in — only the /main/home redirect is a valid signed-out signal.
+#
+# NEXT RUN: (0) supervised login first (code relayed live); (1) check the
+# three In Review listings — on publish, fetch the public maps.apple.com
+# URL and record_listing(); (2) create crew once the 57105-vs-57110 zip
+# answer lands; (3) watch email for the API-access decision; keys, if
+# granted, get stored as apple_business_connect_api in
+# ~/.rankai/portal-creds.json (never the repo).
