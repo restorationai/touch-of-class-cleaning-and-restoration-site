@@ -650,7 +650,7 @@ def run_client(slug: str, apply: bool, cap: int) -> dict:
             detail += (f"; {len(stale)} page(s) flagged for a human decision "
                        "after enrichment did not stick")
         detail += "."
-        work_log(cid, "routine", "index-watch", detail,
+        work_log(cid, "site", "index-watch", detail,
                  evidence={"sampled": out["sampled"], "indexed": out["indexed"],
                            "rate": out["rate"], "sitemap_urls": sitemap_n,
                            "chronic": out["chronic"],
@@ -675,6 +675,16 @@ def main() -> int:
     ap.add_argument("--cap", type=int, default=DEFAULT_CAP,
                     help=f"max URL inspections per client (default {DEFAULT_CAP})")
     args = ap.parse_args()
+
+    # MONTHLY FULL SWEEP (Santino 2026-08-15, "why only 50?"): the Inspection
+    # API is strictly one-call-per-URL — there is no bulk endpoint — so a full
+    # sweep of a 900-page site costs 900 calls at ~0.35s each. The weekly 50
+    # keeps Monday runs fast and focused on fresh pages; on the FIRST Monday
+    # of each month the cap rises to 1500 (still under the 2,000/day
+    # per-property quota) so every page gets inspected at least monthly.
+    if args.cap == DEFAULT_CAP and datetime.now(timezone.utc).day <= 7:
+        args.cap = 1500
+        print("first-week-of-month run: full-sweep cap 1500/client")
 
     slugs = live_slugs() if args.all else [args.slug]
     print(f"index watchdog — {len(slugs)} live client(s), cap {args.cap}/client, "
