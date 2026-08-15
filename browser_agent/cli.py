@@ -7,6 +7,7 @@ import importlib
 from .chassis import PROFILE_DIR, Session, paused, set_paused
 
 PLAYBOOKS = {
+    "apple-maps": "browser_agent.playbooks.apple_maps",
     "bing-places": "browser_agent.playbooks.bing_places",
     "domain-connect": "browser_agent.playbooks.domain_connect",
 }
@@ -23,6 +24,10 @@ def main() -> int:
     pr.add_argument("--registrar")
     pr.add_argument("--live", action="store_true")
     pr.add_argument("--headless", action="store_true")
+    pr.add_argument("--cdp", metavar="URL", default=None,
+                    help="attach to a logged-in human Chrome over CDP "
+                         "(e.g. http://localhost:9222) instead of the "
+                         "persistent profile — authorized session reuse")
     pp = sub.add_parser("pause", help="engage the kill switch")
     pp.add_argument("--reason", default="manual pause")
     sub.add_parser("resume", help="release the kill switch")
@@ -57,7 +62,8 @@ def main() -> int:
 
     # run
     mod = importlib.import_module(PLAYBOOKS[a.playbook])
-    s = Session(playbook=a.playbook, slug=a.slug, live=a.live).start(headless=a.headless)
+    s = Session(playbook=a.playbook, slug=a.slug, live=a.live).start(
+        headless=a.headless, cdp_url=a.cdp)
     try:
         kwargs = {}
         if a.playbook == "domain-connect":

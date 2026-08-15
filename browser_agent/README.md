@@ -47,8 +47,25 @@ One chassis owns the safety machinery; each portal task is a thin playbook.
                     not API — delegate email access grants no API), Bluehost
                     via client-provided creds; registrar logged per client in
                     ~/.rankai/portal-creds.json
-5. apple_maps     — Business Connect agency claims (verification review due
-                    ~Aug 8; API worth testing once approved)
+5. apple_maps     — IN PROGRESS, supervised run 1/3 (2026-08-16). Apple
+                    Business Connect agency APPROVED ~08-15 (portal rebranded
+                    to "Apple Business", business.apple.com). Playbook built
+                    (playbooks/apple_maps.py) + chassis CDP session-reuse
+                    support (Session.start(cdp_url=...), `run --cdp URL`).
+                    Run 1 BLOCKED on Apple login before any create: the
+                    portal is signed out in the suite profile and a fresh
+                    login 2FA-pushes to Santino's devices (rule 2 — never
+                    bypassed). CDP reuse of Santino's live Chrome (his
+                    authorized suggestion) does NOT work here: Chrome 136+
+                    refuses --remote-debugging-port on the default profile,
+                    and a copied cookie jar won't decrypt in a scratch
+                    user-data-dir on Chrome 151 (app-bound encryption). One
+                    [TODO-SANTINO] filed; 3 test clients staged with verified
+                    NAP (narestco, crew-restoration-construction,
+                    restorationxpress). NEXT: Santino does the supervised
+                    login once, then re-run dry to pin selectors + probe the
+                    portal API tab (Service Account minting). NOT in the
+                    nightly sweep (3-supervised-runs rule).
 6. lsa_portal     — job-type enrollment toggles + license/insurance doc submission
 7. onlinejobs_ph  — hiring: screens applicants on a job post and answers them.
                     Reads via the SPA's own JSON API (the UI list is virtualized

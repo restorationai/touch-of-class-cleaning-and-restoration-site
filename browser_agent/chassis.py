@@ -84,6 +84,7 @@ class Session:
     company_id: str | None = None
     _pw: object = field(default=None, repr=False)
     _ctx: object = field(default=None, repr=False)
+    _cdp_browser: object = field(default=None, repr=False)
     page: object = field(default=None, repr=False)
 
     def __post_init__(self):
@@ -91,11 +92,19 @@ class Session:
             rev = {v: k for k, v in slug_map().items()}
             self.company_id = rev.get(self.slug)
 
-    def start(self, headless: bool = False):
+    def start(self, headless: bool = False, cdp_url: str | None = None):
         from playwright.sync_api import sync_playwright
         PROFILE_DIR.mkdir(parents=True, exist_ok=True)
         AUDIT_DIR.mkdir(parents=True, exist_ok=True)
         self._pw = sync_playwright().start()
+        if cdp_url:
+            # Attach to an ALREADY-LOGGED-IN human Chrome (authorized session
+            # reuse, e.g. apple_maps 2026-08-16). Surgical contract: work in
+            # a NEW tab, never touch existing tabs; stop() closes only ours.
+            self._cdp_browser = self._pw.chromium.connect_over_cdp(cdp_url)
+            self._ctx = self._cdp_browser.contexts[0]
+            self.page = self._ctx.new_page()
+            return self
         # Persistent context = the logged-in identity. Headed by default —
         # these are high-stakes portals and watchability beats speed.
         # channel="chrome" + automation flags off: GoDaddy's WAF pre-emptively
@@ -117,7 +126,11 @@ class Session:
 
     def stop(self):
         try:
-            if self._ctx:
+            if self._cdp_browser:  # only OUR tab + the connection — never
+                if self.page:      # the human's browser or his tabs
+                    self.page.close()
+                self._cdp_browser.close()
+            elif self._ctx:
                 self._ctx.close()
             if self._pw:
                 self._pw.stop()
