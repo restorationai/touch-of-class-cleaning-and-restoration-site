@@ -159,6 +159,60 @@
    "state": "TX",
    "slug": "paint-rock-tx",
    "primary": false
+  },
+  {
+   "city": "San Angelo",
+   "state": "TX",
+   "slug": "san-angelo-tx",
+   "primary": false
+  },
+  {
+   "city": "Snyder",
+   "state": "TX",
+   "slug": "snyder-tx",
+   "primary": false
+  },
+  {
+   "city": "Coleman",
+   "state": "TX",
+   "slug": "coleman-tx",
+   "primary": false
+  },
+  {
+   "city": "Ballinger",
+   "state": "TX",
+   "slug": "ballinger-tx",
+   "primary": false
+  },
+  {
+   "city": "Haskell",
+   "state": "TX",
+   "slug": "haskell-tx",
+   "primary": false
+  },
+  {
+   "city": "Albany",
+   "state": "TX",
+   "slug": "albany-tx",
+   "primary": false
+  },
+  {
+   "city": "Eastland",
+   "state": "TX",
+   "slug": "eastland-tx",
+   "primary": false
+  },
+  {
+   "city": "Colorado City",
+   "state": "TX",
+   "slug": "colorado-city-tx",
+   "primary": false
+  },
+  {
+   "city": "Comanche",
+   "state": "TX",
+   "slug": "comanche-tx",
+   "primary": false
   }
  ],
  "template": "restoration",

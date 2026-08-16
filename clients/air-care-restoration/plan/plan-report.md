@@ -1,20 +1,20 @@
 # Site Plan Report — Air Care Restoration
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-08-14T05:45:20.325076+00:00
+- Generated: 2026-08-16T09:42:03.064060+00:00
 - Domain: `aircarerestoration.com`
 - Services selected: 13 of 55 catalog entries
-- Service areas: 16
+- Service areas: 25
 - Cross-product enabled: True
-- Total URLs: **254**
-- Total internal links: 2053 (avg 8.1 per page)
+- Total URLs: **380**
+- Total internal links: 3052 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 208 |
-| `service-area` | 16 |
+| `service-area-service` | 325 |
+| `service-area` | 25 |
 | `service-landing` | 13 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -59,6 +59,15 @@
 - `bronte-tx` — Bronte, TX
 - `eden-tx` — Eden, TX
 - `paint-rock-tx` — Paint Rock, TX
+- `san-angelo-tx` — San Angelo, TX
+- `snyder-tx` — Snyder, TX
+- `coleman-tx` — Coleman, TX
+- `ballinger-tx` — Ballinger, TX
+- `haskell-tx` — Haskell, TX
+- `albany-tx` — Albany, TX
+- `eastland-tx` — Eastland, TX
+- `colorado-city-tx` — Colorado City, TX
+- `comanche-tx` — Comanche, TX
 
 ## Top 10 priority pages
 
