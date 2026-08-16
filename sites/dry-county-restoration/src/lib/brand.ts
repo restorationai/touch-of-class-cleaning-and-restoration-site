@@ -45,7 +45,7 @@ export const brand = {
   certifications: ["IICRC CERTIFIED FIRM", "IICRC WRT (WATER)", "IICRC ASD (STRUCTURAL DRYING)", "IICRC AMRT (MOLD)", "OSHA TRAINED"] as string[],
   trustBadges: ["Licensed & Insured", "Locally Owned & Operated"] as string[],
   jobPhotos: [] as string[],
-  sameAsUrls: [] as string[],
+  sameAsUrls: ["https://www.yelp.com/biz/dry-county-restoration-corona", "https://www.bbb.org/us/ca/corona/profile/fire-water-damage-restoration/dry-county-restoration-llc-1126-850080328", "https://www.angi.com/companylist/us/ca/corona/dry-county-restoration-llc-reviews-1.htm", "https://www.homeadvisor.com/rated.drycountyrestoration.121062102.html", "https://www.facebook.com/drycountyrestoration/", "https://nextdoor.com/pages/dry-county-restoration-llc-corona-ca/"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "5.0",
