@@ -1405,6 +1405,271 @@ async def lead_audit_ghl_appointment(request: Request):
             "note": "audit running (~5 min); grade + teaser + cities land on the contact"}
 
 
+# --- Booking backstop: a booked sales call must never reach call day unaudited
+#
+# Proven gap (Virgil Santa, 2026-08-14): leads can BOOK a sales call through
+# paths that fire neither /lead-audit (the funnel form) nor
+# /lead-audit/ghl-appointment (the staff-booked webhook), so they reach call
+# day with empty audit fields and the nurture messaging misfires. Poll-based
+# by design — zero GoHighLevel configuration: a pg_cron job ('booking-
+# backstop', every 30 min) hits this endpoint, which scans the sales
+# calendars' next 72h of appointments and queues the standard lead audit for
+# any contact that has none. Audits are client-message-free (sales mode
+# writes GHL custom fields + a note; the nurture workflow reacting to the
+# fields appearing is the point).
+
+BACKSTOP_WINDOW_HOURS = 72
+BACKSTOP_RETRY_DAYS = 7            # one audit attempt per contact per week
+BACKSTOP_KV_KEY = "booking-backstop"   # ops_kv ledger {contact_id: attempted_at}
+BACKSTOP_KV_PRUNE_DAYS = 45
+BACKSTOP_FOLLOWUP_CALENDAR = "uZ7whcPD6NFDqcSu0hCf"  # existing clients — never audit
+
+# Calendar triage by name (discovered 2026-08-17). The funnel books demo /
+# strategy calendars; kickoff, follow-up, support, go-live and hiring
+# calendars serve people who already signed (or aren't prospects at all).
+BACKSTOP_CAL_INCLUDE = ("guarantee", "strategy call", "strategy session", "demo")
+BACKSTOP_CAL_EXCLUDE = ("follow up", "follow-up", "kickoff", "kick off", "kick-off",
+                        "support", "go-live", "golive", "go live", "integration",
+                        "hiring", "onboarding")
+
+_BACKSTOP_LOCK = threading.Lock()   # 30-min cadence never overlaps a slow scan
+
+
+def _backstop_client_contact_ids() -> set:
+    """Every GHL contact id linked to a CURRENT client (companies.
+    integration_settings top-level ghl_contact_id + each contacts[] entry's
+    own id). One cheap fetch per run — booked CLIENTS must never be audited
+    like prospects."""
+    ids = set()
+    try:
+        rows = (sb().table("companies").select("id,integration_settings")
+                .execute().data or [])
+    except Exception as e:  # noqa: BLE001
+        print("[booking-backstop] companies fetch failed:", str(e)[:150])
+        return ids
+    for r in rows:
+        s = r.get("integration_settings") or {}
+        if s.get("ghl_contact_id"):
+            ids.add(s["ghl_contact_id"])
+        for c in (s.get("contacts") or []):
+            if isinstance(c, dict) and c.get("ghl_contact_id"):
+                ids.add(c["ghl_contact_id"])
+    return ids
+
+
+@app.post("/booking-backstop")
+def booking_backstop(request: Request):
+    """Scan upcoming sales appointments; queue the standard lead audit for any
+    contact with no audit on file. Auth: X-Rank-AI-Secret header or ?secret=
+    against LEAD_AUDIT_FUNNEL_SECRET (same contract as /lead-audit/
+    ghl-appointment). ?dry_run=1 reports what would be queued without queuing."""
+    expected = os.environ.get("LEAD_AUDIT_FUNNEL_SECRET", "")
+    supplied = (_mf(request.headers.get("X-Rank-AI-Secret"))
+                or _mf(request.query_params.get("secret")))
+    if not (expected and supplied == expected):
+        raise HTTPException(status_code=403, detail="bad secret")
+    dry_run = (request.query_params.get("dry_run") or "").lower() in ("1", "true", "yes")
+    if not _BACKSTOP_LOCK.acquire(blocking=False):
+        return {"status": "already_running"}
+    try:
+        return _booking_backstop_run(dry_run)
+    finally:
+        _BACKSTOP_LOCK.release()
+
+
+def _booking_backstop_run(dry_run: bool) -> dict:
+    import lead_audit  # scripts/ is on sys.path (see header)
+
+    now = datetime.now(timezone.utc)
+    horizon = now + timedelta(hours=BACKSTOP_WINDOW_HOURS)
+
+    # 1. Discover calendars; select the sales-facing ones by name.
+    selected, excluded_cals = [], []
+    for c in (lead_audit._ghl("GET", "/calendars/") or {}).get("calendars") or []:
+        cal_id, cal_name = c.get("id") or "", (c.get("name") or "").strip()
+        low = cal_name.lower()
+        why = None
+        if cal_id == BACKSTOP_FOLLOWUP_CALENDAR:
+            why = "client follow-up calendar"
+        elif not c.get("isActive", True):
+            why = "inactive"
+        elif (c.get("calendarType") or "") == "personal":
+            why = "personal calendar"
+        elif any(t in low for t in BACKSTOP_CAL_EXCLUDE):
+            why = "post-sale/internal name"
+        elif not any(t in low for t in BACKSTOP_CAL_INCLUDE):
+            why = "not sales-facing"
+        if why:
+            excluded_cals.append({"id": cal_id, "name": cal_name, "why": why})
+        else:
+            selected.append({"id": cal_id, "name": cal_name})
+
+    # 2. Upcoming appointments in the window (the API leaks events outside
+    # the requested range, so re-filter by start time here).
+    start_ms, end_ms = int(now.timestamp() * 1000), int(horizon.timestamp() * 1000)
+    appts = []
+    for cal in selected:
+        try:
+            evs = (lead_audit._ghl("GET", "/calendars/events",
+                                   params={"calendarId": cal["id"],
+                                           "startTime": start_ms, "endTime": end_ms})
+                   or {}).get("events") or []
+        except Exception as e:  # noqa: BLE001
+            print("[booking-backstop] events fetch failed for {} ({}): {}".format(
+                cal["name"], cal["id"], str(e)[:120]))
+            continue
+        for ev in evs:
+            if ev.get("deleted") or not ev.get("contactId"):
+                continue
+            if (ev.get("appointmentStatus") or "").lower() in ("cancelled", "noshow", "invalid"):
+                continue
+            try:
+                st = datetime.fromisoformat(ev.get("startTime") or "")
+                if st.tzinfo is None:
+                    st = st.replace(tzinfo=timezone.utc)
+            except ValueError:
+                continue
+            if not (now <= st <= horizon):
+                continue
+            appts.append({"ev": ev, "cal": cal, "start": st})
+    appts.sort(key=lambda a: a["start"])  # nearest call gets its audit first
+
+    client_ids = _backstop_client_contact_ids()
+
+    # 3. Dedupe ledger: one attempt per contact per BACKSTOP_RETRY_DAYS.
+    kv = {}
+    try:
+        rows = sb().table("ops_kv").select("v").eq("k", BACKSTOP_KV_KEY).execute().data
+        kv = dict((rows[0].get("v") if rows else None) or {})
+    except Exception as e:  # noqa: BLE001
+        print("[booking-backstop] ops_kv read failed:", str(e)[:150])
+
+    field_by_id = {}
+    try:
+        field_by_id = {v: k for k, v in lead_audit._ghl_custom_field_ids().items() if v}
+    except Exception as e:  # noqa: BLE001
+        print("[booking-backstop] custom-field map failed:", str(e)[:150])
+
+    freemail = set(lead_audit._FREE_MAIL) | {"proton.me", "pm.me", "protonmail.com",
+                                             "googlemail.com", "ymail.com"}
+
+    # 4. Per contact: skip clients / already-audited / recent attempts, then
+    # queue the exact same job the funnel form queues (sales mode: fields +
+    # teaser land on the GHL contact, no lead-facing email).
+    contacts_out, seen = [], set()
+    queued = 0
+    kv_dirty = False
+    for a in appts:
+        contact_id = a["ev"]["contactId"]
+        if contact_id in seen:
+            continue
+        seen.add(contact_id)
+        row = {"contact_id": contact_id, "start": a["start"].isoformat(),
+               "calendar": a["cal"]["name"], "title": (a["ev"].get("title") or "")[:80]}
+        contacts_out.append(row)
+        if contact_id in client_ids:
+            row["action"] = "skip: existing client"
+            continue
+        prev = kv.get(contact_id)
+        if prev:
+            try:
+                if now - datetime.fromisoformat(prev) < timedelta(days=BACKSTOP_RETRY_DAYS):
+                    row["action"] = "skip: attempted {}".format(prev)
+                    continue
+            except ValueError:
+                pass
+        try:
+            got = lead_audit._ghl("GET", "/contacts/{}".format(contact_id)) or {}
+            contact = got.get("contact") or got or {}
+        except Exception as e:  # noqa: BLE001
+            row["action"] = "skip: contact fetch failed ({})".format(str(e)[:80])
+            continue
+        cf = {}
+        for f in (contact.get("customFields") or []):
+            key = field_by_id.get(f.get("id"))
+            if key:
+                cf[key] = _mf(f.get("value", f.get("field_value", f.get("fieldValue"))))
+        if cf.get("audit_status") or cf.get("audit_report_url"):
+            row["action"] = "skip: audit already on file (status={}, report={})".format(
+                cf.get("audit_status") or "-", "yes" if cf.get("audit_report_url") else "no")
+            continue
+
+        email = _mf(contact.get("email"))
+        website = (_mf(contact.get("website")) or cf.get("business_website", "")
+                   or cf.get("website_info", ""))
+        domain = _lead_norm_domain(website)
+        if not re.match(r"^[a-z0-9.-]+\.[a-z]{2,}$", domain):
+            edom = email.rsplit("@", 1)[-1].lower() if "@" in email else ""
+            if edom and edom not in freemail and re.match(r"^[a-z0-9.-]+\.[a-z]{2,}$", edom):
+                domain = edom
+            else:
+                # NEVER fabricate a plausible domain from the company name — a
+                # lookalike .com can be a real stranger's live site and would
+                # produce a WRONG report. The RFC 2606 reserved `.invalid`
+                # sentinel routes lead_audit onto its honest no-website
+                # degraded path (listing/form profiling, degraded_no_website).
+                domain = "no-website.invalid"
+        row["domain"] = domain
+        if domain != "no-website.invalid" and \
+                _lead_count_today(sb(), "domain", domain) >= GHL_APPT_MAX_PER_DOMAIN_DAY:
+            row["action"] = "skip: {} audits for this domain today".format(GHL_APPT_MAX_PER_DOMAIN_DAY)
+            continue
+        name = " ".join(x for x in (_mf(contact.get("firstName")),
+                                    _mf(contact.get("lastName"))) if x)
+        business_name = _mf(contact.get("companyName"))
+        if dry_run:
+            row["action"] = "would queue audit"
+            continue
+
+        req = LeadAuditRequest(
+            website=domain, domain=domain, name=name, email=email, phone=_mf(contact.get("phone")),
+            business_name=business_name, source="booking-backstop",
+            secret=os.environ.get("LEAD_AUDIT_FUNNEL_SECRET", ""), ghl_contact_id=contact_id)
+        jrow = sb().table("marketing_jobs").insert({
+            "type": "lead_audit", "status": "queued",
+            "params": {"domain": domain, "name": name, "email": email, "phone": req.phone,
+                       "ip": "", "source": "booking-backstop",
+                       "business_name": business_name or None,
+                       "place_id": None, "cid": None,
+                       "ghl_contact_id": contact_id,
+                       "sales": True, "attempts": 0},
+        }).execute()
+        job_id = jrow.data[0]["id"]
+        threading.Thread(target=_run_lead_audit_job, args=(job_id, req), daemon=True).start()
+        kv[contact_id] = now.isoformat()
+        kv_dirty = True
+        queued += 1
+        row["action"] = "queued audit {}".format(job_id)
+
+    # Prune + persist the ledger (marketing_work_log needs a company_id, which
+    # lead audits don't have — the print line + this response ARE the log).
+    stale = [k for k, v in kv.items()
+             if not isinstance(v, str)
+             or (now - datetime.fromisoformat(v)) > timedelta(days=BACKSTOP_KV_PRUNE_DAYS)]
+    if kv_dirty or stale:
+        for k in stale:
+            kv.pop(k, None)
+        try:
+            sb().table("ops_kv").upsert(
+                {"k": BACKSTOP_KV_KEY, "v": kv, "updated_at": now.isoformat()},
+                on_conflict="k").execute()
+        except Exception as e:  # noqa: BLE001
+            print("[booking-backstop] ops_kv write failed:", str(e)[:150])
+
+    actions = [r.get("action", "") for r in contacts_out]
+    print("[booking-backstop] {}: {} cal selected / {} excluded; {} appts in {}h; "
+          "{} contacts -> {} queued, {} client-skips, {} already-audited, {} deduped".format(
+              "DRY RUN" if dry_run else "live", len(selected), len(excluded_cals),
+              len(appts), BACKSTOP_WINDOW_HOURS, len(contacts_out), queued,
+              sum(1 for x in actions if "existing client" in x),
+              sum(1 for x in actions if "already on file" in x),
+              sum(1 for x in actions if x.startswith("skip: attempted"))))
+    return {"status": "ok", "dry_run": dry_run,
+            "calendars": {"selected": selected, "excluded": excluded_cals},
+            "appointments_scanned": len(appts),
+            "contacts": contacts_out, "queued": queued}
+
+
 class KickoffPrepRequest(BaseModel):
     contact_id: str
     secret: str = ""

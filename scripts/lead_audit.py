@@ -2393,7 +2393,14 @@ def _run_audit(website, name, email, phone, audit_id=None, email_mode="all", pro
     audit_id = audit_id or uuid.uuid4().hex[:12]
     domain = _norm_domain(website)
     site_status, site_note = "ok", None   # ok | unreadable | no_website
-    if not re.match(r"^[a-z0-9.-]+\.[a-z]{2,}$", domain):
+    # `.invalid` is the RFC 2606 reserved TLD the booking backstop submits as
+    # a sentinel when a booked lead has NO website on file (we never guess a
+    # plausible domain from the company name: a lookalike .com can be a
+    # stranger's live site and would produce a WRONG report). Treat it as "no
+    # website submitted" outright so the report leads with "No website was on
+    # file", not "no-website.invalid does not resolve", and no ranking checks
+    # are burned on a domain that cannot exist.
+    if not re.match(r"^[a-z0-9.-]+\.[a-z]{2,}$", domain) or domain.endswith(".invalid"):
         domain = ""
         site_status = "no_website"
         site_note = "no usable website address was submitted"
