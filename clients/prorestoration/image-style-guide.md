@@ -4,6 +4,20 @@ This guide is consulted by every image-generation call (Skill 3 launch images, S
 
 The values below are auto-populated from `plan-input.json` at planning time. Per-client brand colors come from the client's logo / brand identity — NOT from the canonical starter palette. The structural conventions (camera, lens, lighting, composition) are restoration-vertical canonical and shared across all Rank AI clients.
 
+## CLIENT DIRECTION (2026-08-16) — homepage hero fleet
+
+1. **The homepage hero shows EXACTLY THREE vans — never four or more.** The
+   client reviewed the hero and asked for three vans, not four.
+   AUTOMATIC REJECT: any hero with four or more vehicles in frame.
+2. **Every van's logo must read crisply — never blurred, faded, or smeared.**
+   The full ProRestoration wordmark + blue water-swoosh must be sharp and
+   legible on every van in the hero, including the ones set further back. Keep
+   the three vans close together in the staggered row so none recedes far
+   enough to lose its mark. AUTOMATIC REJECT: any van whose logo is blurred,
+   melted, or unreadable.
+
+VAN-OVERRIDE: a fleet of EXACTLY THREE matching white service vans, parked in a gently staggered row with clear space between them so each van's side panel and logo stay visible, all facing the same direction, each side panel carrying ONLY the company logo mark from the reference image reproduced faithfully at vehicle-wrap scale with a subtle red accent stripe and no other small text or decals — the logo sharp, crisp and clearly legible on every van, never blurred or faded
+
 ---
 
 ## STANDING BRAND RULES (Santino, 2026-07-11) — apply to EVERY image
