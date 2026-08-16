@@ -45,7 +45,7 @@ export const brand = {
   certifications: ["IICRC CERTIFIED FIRM", "IICRC WRT (WATER)", "IICRC ASD (STRUCTURAL DRYING)", "IICRC AMRT (MOLD)", "IICRC FSRT (FIRE & SMOKE)", "EPA LEAD-SAFE CERTIFIED", "OSHA TRAINED"] as string[],
   trustBadges: ["IICRC Certified Firm", "Licensed & Insured", "24/7 Emergency Service", "Locally Owned & Operated"] as string[],
   jobPhotos: [] as string[],
-  sameAsUrls: [] as string[],
+  sameAsUrls: ["https://www.yelp.com/biz/life-savers-restoration-henderson", "https://www.bbb.org/us/nv/henderson/profile/fire-water-damage-restoration/life-savers-restoration-llc-1086-90068182", "https://www.thumbtack.com/nv/henderson/water-damage/life-savers-restoration-llc/service/504561398295216134", "https://www.facebook.com/LifeSaversResto/", "https://nextdoor.com/pages/life-savers-restoration-henderson-nv-1/", "https://homeguide.com/nv/henderson/water-damage-restoration/life-savers-restoration-llc-UlP_1GhU4", "https://www.yellowpagesdirectory.com/Henderson-NV/Life+Savers+Restoration+LLC/75688"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "4.8",
