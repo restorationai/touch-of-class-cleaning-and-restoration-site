@@ -37,7 +37,7 @@ export const brand = {
   licensedInsuredAttested: false,
   certifications: ["IICRC Certified"] as string[],
   trustBadges: [] as string[],
-  sameAsUrls: [] as string[],
+  sameAsUrls: ["https://maps.google.com/maps?cid=6708102771096353237", "https://www.yelp.com/biz/home-pride-restoration-and-cleaning-saratoga-springs", "https://www.facebook.com/Homepride247/", "https://www.bing.com/maps?ss=ypid.YN9C857D065FF121E9"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "5.0",
