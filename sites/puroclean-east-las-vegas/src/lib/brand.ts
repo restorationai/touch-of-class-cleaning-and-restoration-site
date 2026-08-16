@@ -37,7 +37,7 @@ export const brand = {
   certifications: [] as string[],
   trustBadges: [] as string[],
   jobPhotos: [] as string[],
-  sameAsUrls: [] as string[],
+  sameAsUrls: ["https://maps.google.com/maps?cid=12377495150996713443", "https://www.yelp.com/biz/puroclean-las-vegas-3", "https://www.bbb.org/us/nv/las-vegas/profile/fire-water-damage-restoration/puroclean-of-east-las-vegas-1086-90047396", "https://www.angi.com/companylist/us/nv/las-vegas/puroclean-of-east-las-vegas-reviews-39103085.htm", "https://www.facebook.com/PuroCleanofEastLasVegas/", "https://homeguide.com/nv/north-las-vegas/water-damage-restoration/puroclean-of-east-las-vegas-DiJz7ulvU", "https://www.yellowpages.com/las-vegas-nv/mip/puroclean-of-east-las-vegas-546037018"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "4.8",
