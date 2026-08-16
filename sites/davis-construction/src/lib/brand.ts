@@ -40,7 +40,7 @@ export const brand = {
   // licensed & insured — license number pending; add it to licenseNumbers when
   // received so footer/llms.txt can cite it.
   trustBadges: ["Family-Owned & Operated", "Licensed & Insured", "Locally Owned", "Since 2008"] as string[],
-  sameAsUrls: [] as string[],
+  sameAsUrls: ["https://pro.porch.com/huntsville-al/remodeling-contractors/davis-remodeling-164537953/pp", "https://homeguide.com/al/madison/water-damage-restoration/davis-construction-contractors-IqEW3eGSB"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   // Empty for this client: no GBP profile row yet, so no AggregateRating is
