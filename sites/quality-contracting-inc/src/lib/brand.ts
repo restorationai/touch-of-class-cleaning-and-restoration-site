@@ -43,7 +43,7 @@ export const brand = {
   certifications: [] as string[],
   trustBadges: ["24/7 Emergency Response", "25+ Years of Experience", "Commercial & Residential", "Serving MA, CT & RI"] as string[],
   jobPhotos: [] as string[],
-  sameAsUrls: [] as string[],
+  sameAsUrls: ["https://maps.google.com/maps?cid=8645835952486055131", "https://www.yelp.com/biz/quality-contracting-auburn", "https://www.bbb.org/us/ma/auburn/profile/fire-water-damage-restoration/quality-contracting-inc-0261-103855", "https://www.angi.com/companylist/us/ma/auburn/quality-contracting-inc-reviews-164220227.htm", "https://www.facebook.com/qualcontracting/", "https://www.houzz.com/professionals/general-contractors/quality-contracting-inc-pfvwus-pf~815837747"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "4.5",
