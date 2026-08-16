@@ -37,7 +37,7 @@ export const brand = {
   certifications: ["IICRC Certified", "EPA Lead-Safe Certified Firm", "BBB Accredited"] as string[],
   trustBadges: [] as string[],
   jobPhotos: [] as string[],
-  sameAsUrls: ["https://www.google.com/maps?cid=13005947795120549086"] as string[],
+  sameAsUrls: ["https://www.google.com/maps?cid=13005947795120549086", "https://www.yelp.com/biz/prorestoration-services-bakersfield-3", "https://www.homeadvisor.com/rated.ProRestorationServices.16241626.html", "https://www.facebook.com/prorestorationservices/"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "4.8",
