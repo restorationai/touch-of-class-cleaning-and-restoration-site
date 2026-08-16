@@ -61,5 +61,13 @@
     "last_pushed_staging_at": "2026-08-05T04:07:30.838360+00:00",
     "preview_url": "https://firedex-butler-preview.pages.dev"
   },
-  "build_status": "pushed_staging"
+  "build_status": "pushed_staging",
+  "cutover_prep": {
+    "domain": "firedex.net",
+    "harvested_at": "2026-08-16T14:25:21+00:00",
+    "url_count": 25,
+    "backlinked_count": 14,
+    "redirects_added": 22,
+    "mapped_at": "2026-08-16T14:25:29+00:00"
+  }
 }

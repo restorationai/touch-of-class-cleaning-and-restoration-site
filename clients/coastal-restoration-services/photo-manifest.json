@@ -1,6 +1,183 @@
 {
   "slug": "coastal-restoration-services",
   "assets": {
+    "crew:sms-1786730070515-5a919436": {
+      "source": "crew",
+      "storage": "job-photos/sms-1786730070515-5a919436.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785186518304/job-photos/sms-1786730070515-5a919436.jpg",
+      "width": 320,
+      "height": 180,
+      "bytes": 17404,
+      "sha1": "f5d0d1d02465f5ab",
+      "exif": {},
+      "category": "crew",
+      "subject": "Single technician posing in front of Coastal Restoration van",
+      "quality": 72,
+      "slots": {
+        "hero": 25,
+        "team": 65,
+        "services": 30
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Good portrait of uniformed tech beside branded van; portrait crop limits hero use.",
+      "triaged_at": "2026-08-16T14:13:08Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:sms-1786730070515-5b846818": {
+      "source": "crew",
+      "storage": "job-photos/sms-1786730070515-5b846818.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785186518304/job-photos/sms-1786730070515-5b846818.jpg",
+      "width": 800,
+      "height": 450,
+      "bytes": 98385,
+      "sha1": "b269b5ac464f460a",
+      "exif": {},
+      "category": "fleet",
+      "subject": "Coastal Restoration branded white van parked outdoors",
+      "quality": 82,
+      "slots": {
+        "hero": 72,
+        "team": 0,
+        "services": 35
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation",
+        "sewage-cleanup"
+      ],
+      "flags": [],
+      "reason": "Clean side-on fleet shot with full wrap visible; good hero candidate.",
+      "triaged_at": "2026-08-16T14:13:08Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:sms-1786730070515-6da86e87": {
+      "source": "crew",
+      "storage": "job-photos/sms-1786730070515-6da86e87.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785186518304/job-photos/sms-1786730070515-6da86e87.jpg",
+      "width": 320,
+      "height": 180,
+      "bytes": 18385,
+      "sha1": "a78b39eff469faae",
+      "exif": {},
+      "category": "crew",
+      "subject": "Single technician in uniform posing before company van",
+      "quality": 70,
+      "slots": {
+        "hero": 22,
+        "team": 63,
+        "services": 28
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Solid uniformed crew portrait; portrait crop and partial van reduce hero score.",
+      "triaged_at": "2026-08-16T14:13:08Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:sms-1786730070515-a6c7c13d": {
+      "source": "crew",
+      "storage": "job-photos/sms-1786730070515-a6c7c13d.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785186518304/job-photos/sms-1786730070515-a6c7c13d.jpg",
+      "width": 1280,
+      "height": 720,
+      "bytes": 112460,
+      "sha1": "b7329438cb0839a1",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician in Coastal Restoration cap and shirt before van",
+      "quality": 78,
+      "slots": {
+        "hero": 28,
+        "team": 72,
+        "services": 30
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Well-lit, sharp portrait in full branded uniform; best individual crew shot.",
+      "triaged_at": "2026-08-16T14:13:08Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:sms-1786730070515-ad788fc3": {
+      "source": "crew",
+      "storage": "job-photos/sms-1786730070515-ad788fc3.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785186518304/job-photos/sms-1786730070515-ad788fc3.jpg",
+      "width": 800,
+      "height": 450,
+      "bytes": 100960,
+      "sha1": "f1a3d720404e4fdc",
+      "exif": {},
+      "category": "crew",
+      "subject": "Five-person Coastal Restoration team posed beside company van",
+      "quality": 76,
+      "slots": {
+        "hero": 55,
+        "team": 88,
+        "services": 25
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Full team group shot with branded van; strong team-page hero, slightly busy background.",
+      "triaged_at": "2026-08-16T14:13:08Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:sms-1786730070515-c120e78b": {
+      "source": "crew",
+      "storage": "job-photos/sms-1786730070515-c120e78b.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785186518304/job-photos/sms-1786730070515-c120e78b.jpg",
+      "width": 320,
+      "height": 180,
+      "bytes": 18723,
+      "sha1": "0da076291acc08bb",
+      "exif": {},
+      "category": "crew",
+      "subject": "Single smiling technician in branded shirt before company van",
+      "quality": 71,
+      "slots": {
+        "hero": 22,
+        "team": 62,
+        "services": 25
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Friendly crew portrait; casual tee slightly less professional than uniform shirts.",
+      "triaged_at": "2026-08-16T14:13:08Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:sms-1786730070515-dc15cce7": {
+      "source": "crew",
+      "storage": "job-photos/sms-1786730070515-dc15cce7.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785186518304/job-photos/sms-1786730070515-dc15cce7.jpg",
+      "width": 320,
+      "height": 180,
+      "bytes": 19381,
+      "sha1": "f14a9a5430f7f859",
+      "exif": {},
+      "category": "crew",
+      "subject": "Woman standing in front of branded Coastal Restoration van",
+      "quality": 62,
+      "slots": {
+        "hero": 30,
+        "team": 65,
+        "services": 20
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Portrait crop, decent light; van wrap readable but person dominates composition.",
+      "triaged_at": "2026-08-16T14:13:12Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipMb_EdOYXekeii4MXaIhcOkuJgQ1jy86BISqXR_": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipMb_EdOYXekeii4MXaIhcOkuJgQ1jy86BISqXR_.jpg",
@@ -927,5 +1104,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-08-05T06:42:31Z"
+  "triaged_at": "2026-08-16T14:13:12Z"
 }

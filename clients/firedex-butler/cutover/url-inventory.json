@@ -1,0 +1,238 @@
+{
+ "domain": "firedex.net",
+ "harvested_at": "2026-08-16T14:25:21+00:00",
+ "counts": {
+  "total": 25,
+  "sitemap": 23,
+  "crawl": 0,
+  "backlinked": 14,
+  "gsc": 0
+ },
+ "urls": [
+  {
+   "url": "https://firedex.net/",
+   "path": "/",
+   "title": "",
+   "backlinks": 115,
+   "referring_domains": 29,
+   "gsc_clicks": 0,
+   "source": "sitemap,backlinks"
+  },
+  {
+   "url": "https://firedex.net/contact",
+   "path": "/contact",
+   "title": "Restoration Contractor | Contact Us | Western Pennsylvania | FireDexRestoration Contractor | Contact Us | Western Pennsylvania | FireDex",
+   "backlinks": 3,
+   "referring_domains": 3,
+   "gsc_clicks": 0,
+   "source": "sitemap,backlinks"
+  },
+  {
+   "url": "https://firedex.net/about",
+   "path": "/about",
+   "title": "Restoration Contractor | About Us | Cranberry Township, PA | FireDex ButlerRestoration Contractor | About Us | Cranberry Township, PA | FireDex Butler",
+   "backlinks": 1,
+   "referring_domains": 1,
+   "gsc_clicks": 0,
+   "source": "sitemap,backlinks"
+  },
+  {
+   "url": "https://firedex.net/commercial-services",
+   "path": "/commercial-services",
+   "title": "Commercial Services - FireDEX ButlerCommercial Services - FireDEX Butler",
+   "backlinks": 1,
+   "referring_domains": 1,
+   "gsc_clicks": 0,
+   "source": "sitemap,backlinks"
+  },
+  {
+   "url": "https://firedex.net/commercial-services/fire-and-smoke-damage",
+   "path": "/commercial-services/fire-and-smoke-damage",
+   "title": "Fire & Smoke Damage - FireDEX ButlerFire & Smoke Damage - FireDEX Butler",
+   "backlinks": 1,
+   "referring_domains": 1,
+   "gsc_clicks": 0,
+   "source": "sitemap,backlinks"
+  },
+  {
+   "url": "https://firedex.net/commercial-services/mold-removal-and-remediation",
+   "path": "/commercial-services/mold-removal-and-remediation",
+   "title": "Mold | FireDex ButlerMold | FireDex Butler",
+   "backlinks": 1,
+   "referring_domains": 1,
+   "gsc_clicks": 0,
+   "source": "sitemap,backlinks"
+  },
+  {
+   "url": "https://firedex.net/commercial-services/water-and-storm-damage",
+   "path": "/commercial-services/water-and-storm-damage",
+   "title": "Water & Storm Damage - FireDEX ButlerWater & Storm Damage - FireDEX Butler",
+   "backlinks": 1,
+   "referring_domains": 1,
+   "gsc_clicks": 0,
+   "source": "sitemap,backlinks"
+  },
+  {
+   "url": "https://firedex.net/contactus.asp",
+   "path": "/contactus.asp",
+   "title": "",
+   "backlinks": 1,
+   "referring_domains": 1,
+   "gsc_clicks": 0,
+   "source": "backlinks"
+  },
+  {
+   "url": "https://firedex.net/fire-and-smoke-damage-residential",
+   "path": "/fire-and-smoke-damage-residential",
+   "title": "Fire & Smoke Damage - FireDEX ButlerFire & Smoke Damage - FireDEX Butler",
+   "backlinks": 1,
+   "referring_domains": 1,
+   "gsc_clicks": 0,
+   "source": "sitemap,backlinks"
+  },
+  {
+   "url": "https://firedex.net/general-contracting-services",
+   "path": "/general-contracting-services",
+   "title": "General Contracting Services - FireDEX ButlerGeneral Contracting Services - FireDEX Butler",
+   "backlinks": 1,
+   "referring_domains": 1,
+   "gsc_clicks": 0,
+   "source": "sitemap,backlinks"
+  },
+  {
+   "url": "https://firedex.net/mold-removal-and-remediation-services",
+   "path": "/mold-removal-and-remediation-services",
+   "title": "Mold Removal & Remediation Services - FireDEX ButlerMold Removal & Remediation Services - FireDEX Butler",
+   "backlinks": 1,
+   "referring_domains": 1,
+   "gsc_clicks": 0,
+   "source": "sitemap,backlinks"
+  },
+  {
+   "url": "https://firedex.net/residential-services",
+   "path": "/residential-services",
+   "title": "Residential Services - FireDEX ButlerResidential Services - FireDEX Butler",
+   "backlinks": 1,
+   "referring_domains": 1,
+   "gsc_clicks": 0,
+   "source": "sitemap,backlinks"
+  },
+  {
+   "url": "https://firedex.net/water_damage_mccandless_township.asp",
+   "path": "/water_damage_mccandless_township.asp",
+   "title": "",
+   "backlinks": 1,
+   "referring_domains": 1,
+   "gsc_clicks": 0,
+   "source": "backlinks"
+  },
+  {
+   "url": "https://firedex.net/why-choose-us",
+   "path": "/why-choose-us",
+   "title": "Why Choose Us - FireDEX ButlerWhy Choose Us - FireDEX Butler",
+   "backlinks": 1,
+   "referring_domains": 1,
+   "gsc_clicks": 0,
+   "source": "sitemap,backlinks"
+  },
+  {
+   "url": "https://firedex.net/commercial-services/covid-19-disinfection",
+   "path": "/commercial-services/covid-19-disinfection",
+   "title": "COVID-19 Disinfection - FireDEX ButlerCOVID-19 Disinfection - FireDEX Butler",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://firedex.net/commercial-services/trauma-and-biohazard-cleanup",
+   "path": "/commercial-services/trauma-and-biohazard-cleanup",
+   "title": "Trauma & Biohazard Cleanup - FireDEX ButlerTrauma & Biohazard Cleanup - FireDEX Butler",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://firedex.net/covid-19-disinfection-residential",
+   "path": "/covid-19-disinfection-residential",
+   "title": "COVID-19 Disinfection - FireDEX ButlerCOVID-19 Disinfection - FireDEX Butler",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://firedex.net/employment-application",
+   "path": "/employment-application",
+   "title": "Employment Application - FireDEX ButlerEmployment Application - FireDEX Butler",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://firedex.net/employment-opportunities",
+   "path": "/employment-opportunities",
+   "title": "Employment Opportunities - FireDEX ButlerEmployment Opportunities - FireDEX Butler",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://firedex.net/employment-opportunities-demo",
+   "path": "/employment-opportunities-demo",
+   "title": "Employment Opportunities demo - FireDEX ButlerEmployment Opportunities demo - FireDEX Butler",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://firedex.net/faq",
+   "path": "/faq",
+   "title": "FAQ - FireDEX ButlerFAQ - FireDEX Butler",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://firedex.net/our-process",
+   "path": "/our-process",
+   "title": "Our Process - FireDEX ButlerOur Process - FireDEX Butler",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://firedex.net/our-team",
+   "path": "/our-team",
+   "title": "Restoration Company | Our Team | Western Pennsylvania | FireDexRestoration Company | Our Team | Western Pennsylvania | FireDex",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://firedex.net/trauma-and-biohazard-cleanup-residential",
+   "path": "/trauma-and-biohazard-cleanup-residential",
+   "title": "Trauma & Biohazard Cleanup - FireDEX ButlerTrauma & Biohazard Cleanup - FireDEX Butler",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  },
+  {
+   "url": "https://firedex.net/water-storm-flood-clean-up-and-restoration",
+   "path": "/water-storm-flood-clean-up-and-restoration",
+   "title": "Water, Storm, Flood Clean up & Restoration - FireDEX ButlerWater, Storm, Flood Clean up & Restoration - FireDEX Butler",
+   "backlinks": 0,
+   "referring_domains": 0,
+   "gsc_clicks": 0,
+   "source": "sitemap"
+  }
+ ]
+}

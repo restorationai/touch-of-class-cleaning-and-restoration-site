@@ -39,7 +39,7 @@ export const brand = {
   certifications: [] as string[],
   trustBadges: ["IICRC Certified Firm", "Licensed & Insured", "24/7 Emergency Service", "Locally Owned & Operated"] as string[],
   jobPhotos: [] as string[],
-  sameAsUrls: [] as string[],
+  sameAsUrls: ["https://maps.google.com/maps?cid=9173788747863866509", "https://www.yelp.com/biz/coastal-restoration-services-inc-santa-maria", "https://www.bbb.org/us/ca/santa-maria/profile/fire-water-damage-restoration/coastal-restoration-services-inc-1236-92090387", "https://www.angi.com/companylist/us/ca/santa-maria/coastal-restoration-services-inc-reviews-1.htm", "https://www.bing.com/maps?ss=ypid.YN63B35A1F1F185968"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "5.0",

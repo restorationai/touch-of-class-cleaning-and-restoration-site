@@ -1,6 +1,34 @@
 {
   "slug": "air-care-restoration",
   "assets": {
+    "crew:sms-1786473629282-24ba1093": {
+      "source": "crew",
+      "storage": "job-photos/sms-1786473629282-24ba1093.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786411719310/job-photos/sms-1786473629282-24ba1093.jpg",
+      "width": 1333,
+      "height": 2000,
+      "bytes": 444232,
+      "sha1": "d0ed32ded6b6479f",
+      "exif": {},
+      "category": "crew",
+      "subject": "Female technician in Air Care Restoration polo holding moisture meter",
+      "quality": 88,
+      "slots": {
+        "hero": 22,
+        "team": 82,
+        "services": 55
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Professional studio portrait, strong team photo, portrait crop limits hero use.",
+      "triaged_at": "2026-08-16T14:20:23Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipM5g7LkdMgKLO2IZA3BsqeNWfUuzhxejNIme7dx": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipM5g7LkdMgKLO2IZA3BsqeNWfUuzhxejNIme7dx.jpg",
@@ -9,7 +37,22 @@
       "height": 640,
       "bytes": 64541,
       "sha1": "7643ecbabf83c389",
-      "exif": {}
+      "exif": {},
+      "category": "equipment",
+      "subject": "Rotobrush duct cleaning machine with red hose coiled, branded sticker",
+      "quality": 74,
+      "slots": {
+        "hero": 18,
+        "team": 0,
+        "services": 72
+      },
+      "service_slugs": [
+        "air-duct-cleaning"
+      ],
+      "flags": [],
+      "reason": "Clear equipment shot for air duct cleaning; background slightly cluttered but usable.",
+      "triaged_at": "2026-08-16T14:20:23Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipN7vI8cnjonfNt5EX06UwbTAKdIFnt1wkH9NVaE": {
       "source": "gbp",
@@ -19,7 +62,24 @@
       "height": 640,
       "bytes": 96883,
       "sha1": "d399f0133f3fb8c4",
-      "exif": {}
+      "exif": {},
+      "category": "equipment",
+      "subject": "Tramex MEX5 moisture meter reading 30% MC at damaged wall cavity",
+      "quality": 68,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup",
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Authentic on-site moisture reading; tight crop, adequate for services card use.",
+      "triaged_at": "2026-08-16T14:20:23Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipNK3seSDDi1TAxDqpgVBp9Yibqbtx4lEMYySt1T": {
       "source": "gbp",
@@ -29,7 +89,23 @@
       "height": 480,
       "bytes": 128972,
       "sha1": "13c9311911f0607e",
-      "exif": {}
+      "exif": {},
+      "category": "equipment",
+      "subject": "Air Care branded dehumidifier unit parked outside trailer on concrete",
+      "quality": 70,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [],
+      "reason": "Real branded equipment, decent composition; low angle limits hero potential.",
+      "triaged_at": "2026-08-16T14:20:23Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipNNmr9-AsHgR3aJyUe11fY4A37LTN6LQmO8Mn0X": {
       "source": "gbp",
@@ -39,7 +115,25 @@
       "height": 640,
       "bytes": 88542,
       "sha1": "574a87ffedc77b2d",
-      "exif": {}
+      "exif": {},
+      "category": "equipment",
+      "subject": "Stack of six NIKRO air movers stored in warehouse",
+      "quality": 72,
+      "slots": {
+        "hero": 22,
+        "team": 0,
+        "services": 68
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Good gear-volume impression; warehouse clutter in background reduces hero suitability.",
+      "triaged_at": "2026-08-16T14:20:23Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipO4kLEQv9Pus_WqkCLWUinYp5t2cvWdrUI2BXLx": {
       "source": "gbp",
@@ -49,7 +143,20 @@
       "height": 1920,
       "bytes": 1250120,
       "sha1": "de652a01960b5bfe",
-      "exif": {}
+      "exif": {},
+      "category": "fleet",
+      "subject": "Black Toyota Tacoma TRD with Air Care Restoration magnetic door sign",
+      "quality": 75,
+      "slots": {
+        "hero": 62,
+        "team": 0,
+        "services": 30
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Clean fleet shot in front of office; magnetic sign rather than full wrap, solid hero candidate.",
+      "triaged_at": "2026-08-16T14:20:23Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipOpvLYXGvleEMC6iyBV5k3k6BRhEO4pAaijFtga": {
       "source": "gbp",
@@ -59,9 +166,22 @@
       "height": 640,
       "bytes": 65507,
       "sha1": "9888aeb4ecfd2475",
-      "exif": {}
+      "exif": {},
+      "category": "fleet",
+      "subject": "Grey and white enclosed cargo trailer parked on concrete",
+      "quality": 52,
+      "slots": {
+        "hero": 28,
+        "team": 0,
+        "services": 15
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Unbranded third-party trailer, cluttered background, overcast flat light.",
+      "triaged_at": "2026-08-16T14:20:27Z",
+      "triage_model": "claude-sonnet-4-6"
     }
   },
   "slots": {},
-  "triaged_at": "2026-08-11T15:11:23Z"
+  "triaged_at": "2026-08-16T14:20:27Z"
 }

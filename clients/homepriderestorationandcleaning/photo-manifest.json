@@ -791,6 +791,33 @@
       "triaged_at": "2026-08-05T06:00:37Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipMFgJN0uENul7mCRFMfBeUMhEOZToDBN9BDW_lF": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMFgJN0uENul7mCRFMfBeUMhEOZToDBN9BDW_lF.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1780333664867/job-photos/posted/gbp-AF1QipMFgJN0uENul7mCRFMfBeUMhEOZToDBN9BDW_lF.jpg",
+      "width": 1200,
+      "height": 900,
+      "bytes": 82374,
+      "sha1": "f33442b7a55df399",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Two air movers running on tile floor in utility room",
+      "quality": 52,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Decent equipment shot but dark borders, cluttered edges, low composition quality.",
+      "triaged_at": "2026-08-16T14:12:20Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipMGVp1hkwj2-VQj0VndS6iw9qD0aQQ2tyLZc042": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipMGVp1hkwj2-VQj0VndS6iw9qD0aQQ2tyLZc042.jpg",
@@ -931,7 +958,23 @@
       "height": 1440,
       "bytes": 934331,
       "sha1": "d145c0f6031c7a1e",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Stripped wall framing with drying equipment in damaged room",
+      "quality": 60,
+      "slots": {
+        "hero": 25,
+        "team": 0,
+        "services": 70
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "storm-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Strong visual story of structural drying in progress; good composition and lighting.",
+      "triaged_at": "2026-08-16T14:12:20Z",
+      "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipMN--n75ikf-S72q7a8apB4x96UTBqvGZp2vqnX": {
       "source": "gbp",
@@ -1011,6 +1054,33 @@
       "flags": [],
       "reason": "Clean wide shot of drying equipment array; good services illustration, modest hero potential.",
       "triaged_at": "2026-08-05T06:01:12Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMRoI_6rwAjqu6DK3TddH7icGw6TnBeNr-xl0pi": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMRoI_6rwAjqu6DK3TddH7icGw6TnBeNr-xl0pi.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1780333664867/job-photos/posted/gbp-AF1QipMRoI_6rwAjqu6DK3TddH7icGw6TnBeNr-xl0pi.jpg",
+      "width": 1080,
+      "height": 1925,
+      "bytes": 726188,
+      "sha1": "0e7c6d2445e55394",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Dehumidifiers with plastic containment tubes in basement room",
+      "quality": 62,
+      "slots": {
+        "hero": 35,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation",
+        "basement-flooding-cleanup"
+      ],
+      "flags": [],
+      "reason": "Company logo physically on equipment is real signage; clean wide shot, decent light.",
+      "triaged_at": "2026-08-16T14:12:20Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipMTCUWU-moldQPoY5Tx3wCibrNKyT4pzy98z-za": {
@@ -1590,6 +1660,17 @@
       "reason": "AI-generated or licensed vector illustration; not a real company photograph.",
       "triaged_at": "2026-08-05T06:02:05Z",
       "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMxjxJWk6rOW9f9RsHXJVF4v52xQKxqD8hA9HDV": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMxjxJWk6rOW9f9RsHXJVF4v52xQKxqD8hA9HDV.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1780333664867/job-photos/posted/gbp-AF1QipMxjxJWk6rOW9f9RsHXJVF4v52xQKxqD8hA9HDV.jpg",
+      "width": 1080,
+      "height": 1925,
+      "bytes": 725359,
+      "sha1": "bc345753a7627149",
+      "exif": {},
+      "duplicate_of": "gbp:gbp-AF1QipMZeK1VEqDqb02_9nxC7P57ocncVavaZyxgIP-K"
     },
     "gbp:gbp-AF1QipMywiuK8j2Xa35o3a5nLcuBhhkBDy8u2bbDZFwX": {
       "source": "gbp",
@@ -2789,6 +2870,34 @@
       ],
       "reason": "Company logo on white background; graphic asset only, not usable as a photo slot.",
       "triaged_at": "2026-08-05T06:05:05Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipO4aZgndAecprmQAnScEee36lCusoxEFnnsqqyL": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipO4aZgndAecprmQAnScEee36lCusoxEFnnsqqyL.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1780333664867/job-photos/posted/gbp-AF1QipO4aZgndAecprmQAnScEee36lCusoxEFnnsqqyL.jpg",
+      "width": 1200,
+      "height": 900,
+      "bytes": 83816,
+      "sha1": "4624de217e493a3e",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Dehumidifiers and air movers with containment tubes in bedroom",
+      "quality": 58,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 62
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Moody exposure, cluttered closet visible; equipment clearly shows active drying work.",
+      "triaged_at": "2026-08-16T14:12:20Z",
       "triage_model": "claude-sonnet-4-6"
     },
     "gbp:gbp-AF1QipO5iJjT_9Q4lJIxUyT2buQEvGS9JSjT5kMETi1D": {
@@ -4329,6 +4438,32 @@
       "triaged_at": "2026-08-05T06:07:36Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipPj5nYOs4GNvpuINHSTySxdvfuf-zoM0WGH6aZM": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPj5nYOs4GNvpuINHSTySxdvfuf-zoM0WGH6aZM.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1780333664867/job-photos/posted/gbp-AF1QipPj5nYOs4GNvpuINHSTySxdvfuf-zoM0WGH6aZM.jpg",
+      "width": 1347,
+      "height": 1080,
+      "bytes": 1599068,
+      "sha1": "50ccc7165ff3e98b",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Injectidry floor-drying mats and yellow hoses on hardwood",
+      "quality": 70,
+      "slots": {
+        "hero": 22,
+        "team": 0,
+        "services": 75
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "burst-pipe-repair"
+      ],
+      "flags": [],
+      "reason": "Sharp, well-lit specialist equipment detail; strong services card but too busy for hero.",
+      "triaged_at": "2026-08-16T14:12:20Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipPkBR6dwSdJDJov8yHzu22nnO7Jpa-gBenLCM0w": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipPkBR6dwSdJDJov8yHzu22nnO7Jpa-gBenLCM0w.jpg",
@@ -4549,5 +4684,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-08-11T15:03:26Z"
+  "triaged_at": "2026-08-16T14:12:20Z"
 }

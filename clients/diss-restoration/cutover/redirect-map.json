@@ -1,0 +1,19 @@
+{
+ "generated_at": "2026-08-16T14:25:13+00:00",
+ "domain": "dissrestoration.com",
+ "routes": 160,
+ "map": {
+  "/about-us": {
+   "target": "/about/",
+   "how": "heuristic"
+  },
+  "/careers": {
+   "target": "/",
+   "how": "claude"
+  },
+  "/projects": {
+   "target": "/",
+   "how": "claude"
+  }
+ }
+}

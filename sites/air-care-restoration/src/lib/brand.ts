@@ -45,7 +45,7 @@ export const brand = {
   certifications: ["IICRC CERTIFIED FIRM", "OSHA TRAINED", "IICRC WRT (WATER)", "IICRC FSRT (FIRE & SMOKE)", "EPA LEAD-SAFE CERTIFIED", "MRC2262-RCO1798-TCST-HST-OCT"] as string[],
   trustBadges: ["IICRC Certified Firm", "Licensed & Insured", "24/7 Emergency Service", "Locally Owned & Operated"] as string[],
   jobPhotos: [] as string[],
-  sameAsUrls: [] as string[],
+  sameAsUrls: ["https://www.yelp.com/biz/RjvrqMiPOqSCv-PxuabE1w", "https://www.bbb.org/us/tx/abilene/profile/flood-emergency/air-care-restoration-llc-0795-48105", "https://www.facebook.com/aircarerestorationtx/"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "",

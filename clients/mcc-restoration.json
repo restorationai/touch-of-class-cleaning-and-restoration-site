@@ -11,7 +11,7 @@
   "status": "pending",
   "company_id": "CO-1783376797396",
   "created_at": "2026-07-08T16:15:42.345948+00:00",
-  "updated_at": "2026-08-05T04:08:59.448050+00:00",
+  "updated_at": "2026-08-16T14:21:51.983859+00:00",
   "nap": {
     "name": "MCC Restoration and Contracting Services",
     "city": "Duncanville",
@@ -49,9 +49,9 @@
     "preview_pages_project": "mcc-restoration-preview",
     "github_repo": "restorationai/mcc-restoration-site",
     "last_pushed_staging_at": "2026-08-05T04:08:59.447998+00:00",
-    "last_pushed_main_at": "2026-07-29T17:49:04.564204+00:00"
+    "last_pushed_main_at": "2026-08-16T14:21:51.983842+00:00"
   },
-  "build_status": "pushed_staging",
+  "build_status": "pushed_main",
   "indexnow_key": "5b317787d26c4a309960c17bbf6fc9e9",
   "cutover_prep": {
     "domain": "mccrestoration.com",

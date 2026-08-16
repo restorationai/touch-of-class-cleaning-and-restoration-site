@@ -1259,6 +1259,54 @@
       "triaged_at": "2026-08-05T06:57:09Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "crew:sms-1786480497449-0c3a3450": {
+      "source": "crew",
+      "storage": "job-photos/sms-1786480497449-0c3a3450.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/sms-1786480497449-0c3a3450.jpg",
+      "width": 810,
+      "height": 1056,
+      "bytes": 195328,
+      "sha1": "738f9bfbf44bf1f5",
+      "exif": {},
+      "category": "unusable",
+      "subject": "IRS W-9 tax form with personal signature and EIN visible",
+      "quality": 30,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "graphic_content"
+      ],
+      "reason": "Sensitive government tax document with personal financial data; no marketing value.",
+      "triaged_at": "2026-08-16T14:12:44Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:sms-1786735914536-8c5a390e": {
+      "source": "crew",
+      "storage": "job-photos/sms-1786735914536-8c5a390e.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/sms-1786735914536-8c5a390e.jpg",
+      "width": 1200,
+      "height": 1600,
+      "bytes": 441768,
+      "sha1": "cd48275a3e08fdc0",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Erie Insurance envelope addressed to Go Green Restoration of NC",
+      "quality": 25,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Insurance envelope photo; irrelevant to marketing, no visual or service value.",
+      "triaged_at": "2026-08-16T14:12:44Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:1785342555836-f611f340": {
       "source": "gbp",
       "storage": "job-photos/posted/1785342555836-f611f340.jpg",
@@ -2169,5 +2217,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-08-05T06:57:09Z"
+  "triaged_at": "2026-08-16T14:12:44Z"
 }

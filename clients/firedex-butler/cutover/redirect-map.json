@@ -1,0 +1,95 @@
+{
+ "generated_at": "2026-08-16T14:25:29+00:00",
+ "domain": "firedex.net",
+ "routes": 203,
+ "map": {
+  "/commercial-services": {
+   "target": "/services/commercial-restoration/",
+   "how": "claude"
+  },
+  "/commercial-services/covid-19-disinfection": {
+   "target": "/services/biohazard-cleanup/",
+   "how": "claude"
+  },
+  "/commercial-services/fire-and-smoke-damage": {
+   "target": "/services/fire-damage-restoration/",
+   "how": "claude"
+  },
+  "/commercial-services/mold-removal-and-remediation": {
+   "target": "/services/mold-remediation/",
+   "how": "claude"
+  },
+  "/commercial-services/trauma-and-biohazard-cleanup": {
+   "target": "/services/biohazard-cleanup/",
+   "how": "claude"
+  },
+  "/commercial-services/water-and-storm-damage": {
+   "target": "/services/water-damage-restoration/",
+   "how": "claude"
+  },
+  "/contactus.asp": {
+   "target": "/contact/",
+   "how": "heuristic"
+  },
+  "/covid-19-disinfection-residential": {
+   "target": "/services/biohazard-cleanup/",
+   "how": "claude"
+  },
+  "/employment-application": {
+   "target": "/",
+   "how": "claude"
+  },
+  "/employment-opportunities": {
+   "target": "/",
+   "how": "claude"
+  },
+  "/employment-opportunities-demo": {
+   "target": "/",
+   "how": "claude"
+  },
+  "/faq": {
+   "target": "/",
+   "how": "heuristic"
+  },
+  "/fire-and-smoke-damage-residential": {
+   "target": "/services/fire-damage-restoration/",
+   "how": "claude"
+  },
+  "/general-contracting-services": {
+   "target": "/services/general-contracting/",
+   "how": "claude"
+  },
+  "/mold-removal-and-remediation-services": {
+   "target": "/services/mold-remediation/",
+   "how": "claude"
+  },
+  "/our-process": {
+   "target": "/about/",
+   "how": "claude"
+  },
+  "/our-team": {
+   "target": "/about/",
+   "how": "heuristic"
+  },
+  "/residential-services": {
+   "target": "/services/",
+   "how": "claude"
+  },
+  "/trauma-and-biohazard-cleanup-residential": {
+   "target": "/services/biohazard-cleanup/",
+   "how": "claude"
+  },
+  "/water-storm-flood-clean-up-and-restoration": {
+   "target": "/services/water-damage-restoration/",
+   "how": "claude"
+  },
+  "/water_damage_mccandless_township.asp": {
+   "target": "/services/water-damage-restoration/",
+   "how": "claude"
+  },
+  "/why-choose-us": {
+   "target": "/about/",
+   "how": "claude"
+  }
+ }
+}
