@@ -961,6 +961,19 @@ def _notify_lead_audit_failure(job_id: str, req: "LeadAuditRequest", error: str,
                 tag = "website down" if site_down else "audit failed"
                 lead_audit._ghl("POST", "/contacts/{}/tags".format(contact_id),
                                 params={}, body={"tags": [tag]})
+                # The GHL workflow branches its messaging on the audit_status
+                # custom field — write 'failed' so the field is never left
+                # empty on ANY outcome (empty merges sent Virgil Santa an SMS
+                # with blank fields, 2026-08-14).
+                try:
+                    ids = lead_audit._ghl_custom_field_ids()
+                    if ids.get("audit_status"):
+                        lead_audit._ghl(
+                            "PUT", "/contacts/{}".format(contact_id), params={},
+                            body={"customFields": [
+                                {"id": ids["audit_status"], "field_value": "failed"}]})
+                except Exception:
+                    pass
         except Exception:
             pass  # tagging is best-effort; the email below still alerts the team
     try:

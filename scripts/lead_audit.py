@@ -237,6 +237,37 @@ def _html_to_text(raw):
     return re.sub(r"\s+", " ", txt).strip()
 
 
+# Domain-parking landers are "no real website", not a crawl failure. GoDaddy's
+# parking app (proservrestoration.com, Virgil Santa 2026-08-14) serves a
+# 114-byte shell that JS-bounces / -> /lander, and the lander itself is a JS
+# app with ZERO extractable text — even DataForSEO's browser render returns
+# no items, so no length threshold or JS retry can save it.
+_PARKED_MARKERS = ("parking-lander", 'ap:"parking"', "lander_system",
+                   "wsimg.com/parking", "sedoparking", "parkingcrew",
+                   "this domain is for sale", "domain is parked",
+                   "hugedomains.com", "dan.com/buy-domain", "afternic.com",
+                   "godaddy.com/forsale", "launching soon")
+
+
+def _parked_page(raw):
+    low = (raw or "").lower()
+    return any(m in low for m in _PARKED_MARKERS)
+
+
+def _js_redirect_target(raw, base_url):
+    """Redirect target of a tiny JS/meta bounce page (same host only)."""
+    if not raw or len(raw) > 4000:
+        return None
+    m = (re.search(r'window\.location(?:\.href)?\s*=\s*["\']([^"\']+)["\']', raw)
+         or re.search(r'(?i)http-equiv=["\']refresh["\'][^>]*url=([^"\'>\s]+)', raw))
+    if not m:
+        return None
+    nxt = urllib.parse.urljoin(base_url, m.group(1).strip())
+    if _norm_domain(nxt) != _norm_domain(base_url):
+        return None
+    return nxt
+
+
 class ProfileIncompleteError(RuntimeError):
     """The site text we fetched carries no services or no service cities, so
     Claude could not build a profile without inventing facts. Raised so the
@@ -422,7 +453,24 @@ def fetch_site(domain, start_url=None, force_js=False):
             sys.stderr.write("  fetch_site: direct fetch blocked ({}) — used "
                              "DataForSEO crawler fallback\n".format(str(e_direct)[:100]))
             return pages
-    pages["homepage"] = _html_to_text(raw)[:15000]
+    txt = _html_to_text(raw)
+    if len(txt) < 300:
+        # Tiny shell page: follow ONE same-host JS/meta redirect. GoDaddy
+        # parked domains serve a near-empty shell that bounces / -> /lander.
+        nxt = _js_redirect_target(raw, target)
+        if nxt:
+            try:
+                raw2 = _get_site_html(nxt)
+                if _parked_page(raw2) or len(_html_to_text(raw2)) > len(txt):
+                    raw = raw2
+                    txt = _html_to_text(raw)
+            except Exception:
+                pass
+    if _parked_page(raw) and len(txt) < 400:
+        raise SiteDownError(
+            "{} serves a domain-parking/placeholder page, not a real "
+            "website".format(domain))
+    pages["homepage"] = txt[:15000]
 
     sub_prefix = urllib.parse.urlparse(start_url).path.rstrip("/").lower() if start_url else ""
     hrefs = re.findall(r'href=["\']([^"\'#]+)', raw)
@@ -640,6 +688,416 @@ def gbp_by_id(auth, place_id=None, cid=None):
             "address": it.get("address"),
         }, cost
     return {"found": False}, cost
+
+
+# ---------------------------------------------------------------------------
+# Step 1c — profile fallback chain (tier b: Google listing, tier c: form data)
+# The audit must ALWAYS complete: when the lead's site can't be profiled
+# (parked domain, JS app the crawlers extract nothing from, WAF, SSL breakage)
+# we profile the business from its own Google listing, and as a last resort
+# from nothing but the form fields. Virgil Santa (proservrestoration.com,
+# 2026-08-14): parked GoDaddy domain killed the audit and his nurture SMS
+# merged empty fields.
+# ---------------------------------------------------------------------------
+
+_FREE_MAIL = {"gmail.com", "yahoo.com", "aol.com", "hotmail.com",
+              "outlook.com", "icloud.com", "msn.com", "live.com",
+              "att.net", "comcast.net", "protonmail.com", "me.com"}
+
+_US_STATES = {
+    "AL": "Alabama", "AK": "Alaska", "AZ": "Arizona", "AR": "Arkansas",
+    "CA": "California", "CO": "Colorado", "CT": "Connecticut", "DE": "Delaware",
+    "DC": "District of Columbia", "FL": "Florida", "GA": "Georgia", "HI": "Hawaii",
+    "ID": "Idaho", "IL": "Illinois", "IN": "Indiana", "IA": "Iowa",
+    "KS": "Kansas", "KY": "Kentucky", "LA": "Louisiana", "ME": "Maine",
+    "MD": "Maryland", "MA": "Massachusetts", "MI": "Michigan", "MN": "Minnesota",
+    "MS": "Mississippi", "MO": "Missouri", "MT": "Montana", "NE": "Nebraska",
+    "NV": "Nevada", "NH": "New Hampshire", "NJ": "New Jersey", "NM": "New Mexico",
+    "NY": "New York", "NC": "North Carolina", "ND": "North Dakota", "OH": "Ohio",
+    "OK": "Oklahoma", "OR": "Oregon", "PA": "Pennsylvania", "RI": "Rhode Island",
+    "SC": "South Carolina", "SD": "South Dakota", "TN": "Tennessee", "TX": "Texas",
+    "UT": "Utah", "VT": "Vermont", "VA": "Virginia", "WA": "Washington",
+    "WV": "West Virginia", "WI": "Wisconsin", "WY": "Wyoming",
+}
+
+# NANP area code -> (principal city, full state). Fallback geography only —
+# close-enough beats nothing when the form is all we have.
+_AREA_CODES = {
+    "205": ("Birmingham", "Alabama"), "251": ("Mobile", "Alabama"), "256": ("Huntsville", "Alabama"),
+    "334": ("Montgomery", "Alabama"), "659": ("Birmingham", "Alabama"), "938": ("Huntsville", "Alabama"),
+    "907": ("Anchorage", "Alaska"),
+    "480": ("Mesa", "Arizona"), "520": ("Tucson", "Arizona"), "602": ("Phoenix", "Arizona"),
+    "623": ("Phoenix", "Arizona"), "928": ("Flagstaff", "Arizona"),
+    "479": ("Fort Smith", "Arkansas"), "501": ("Little Rock", "Arkansas"), "870": ("Jonesboro", "Arkansas"),
+    "209": ("Stockton", "California"), "213": ("Los Angeles", "California"), "279": ("Sacramento", "California"),
+    "310": ("Los Angeles", "California"), "323": ("Los Angeles", "California"), "341": ("Oakland", "California"),
+    "408": ("San Jose", "California"), "415": ("San Francisco", "California"), "424": ("Los Angeles", "California"),
+    "442": ("Oceanside", "California"), "510": ("Oakland", "California"), "530": ("Redding", "California"),
+    "559": ("Fresno", "California"), "562": ("Long Beach", "California"), "619": ("San Diego", "California"),
+    "626": ("Pasadena", "California"), "628": ("San Francisco", "California"), "650": ("San Mateo", "California"),
+    "657": ("Anaheim", "California"), "661": ("Bakersfield", "California"), "669": ("San Jose", "California"),
+    "707": ("Santa Rosa", "California"), "714": ("Anaheim", "California"), "747": ("Burbank", "California"),
+    "760": ("Oceanside", "California"), "805": ("Ventura", "California"), "818": ("Burbank", "California"),
+    "820": ("Ventura", "California"), "831": ("Salinas", "California"), "840": ("San Bernardino", "California"),
+    "858": ("San Diego", "California"), "909": ("San Bernardino", "California"), "916": ("Sacramento", "California"),
+    "925": ("Concord", "California"), "949": ("Irvine", "California"), "951": ("Riverside", "California"),
+    "303": ("Denver", "Colorado"), "719": ("Colorado Springs", "Colorado"), "720": ("Denver", "Colorado"),
+    "970": ("Fort Collins", "Colorado"), "983": ("Denver", "Colorado"),
+    "203": ("Bridgeport", "Connecticut"), "475": ("Bridgeport", "Connecticut"),
+    "860": ("Hartford", "Connecticut"), "959": ("Hartford", "Connecticut"),
+    "302": ("Wilmington", "Delaware"),
+    "202": ("Washington", "District of Columbia"), "771": ("Washington", "District of Columbia"),
+    "239": ("Fort Myers", "Florida"), "305": ("Miami", "Florida"), "321": ("Orlando", "Florida"),
+    "352": ("Gainesville", "Florida"), "386": ("Daytona Beach", "Florida"), "407": ("Orlando", "Florida"),
+    "448": ("Pensacola", "Florida"), "561": ("West Palm Beach", "Florida"), "656": ("Orlando", "Florida"),
+    "689": ("Orlando", "Florida"), "727": ("St. Petersburg", "Florida"), "754": ("Fort Lauderdale", "Florida"),
+    "772": ("Port St. Lucie", "Florida"), "786": ("Miami", "Florida"), "813": ("Tampa", "Florida"),
+    "850": ("Tallahassee", "Florida"), "863": ("Lakeland", "Florida"), "904": ("Jacksonville", "Florida"),
+    "941": ("Sarasota", "Florida"), "954": ("Fort Lauderdale", "Florida"),
+    "229": ("Albany", "Georgia"), "404": ("Atlanta", "Georgia"), "470": ("Atlanta", "Georgia"),
+    "478": ("Macon", "Georgia"), "678": ("Atlanta", "Georgia"), "706": ("Augusta", "Georgia"),
+    "762": ("Augusta", "Georgia"), "770": ("Atlanta", "Georgia"), "912": ("Savannah", "Georgia"),
+    "943": ("Atlanta", "Georgia"),
+    "808": ("Honolulu", "Hawaii"),
+    "208": ("Boise", "Idaho"), "986": ("Boise", "Idaho"),
+    "217": ("Springfield", "Illinois"), "224": ("Elgin", "Illinois"), "309": ("Peoria", "Illinois"),
+    "312": ("Chicago", "Illinois"), "331": ("Aurora", "Illinois"), "618": ("Belleville", "Illinois"),
+    "630": ("Aurora", "Illinois"), "708": ("Cicero", "Illinois"), "773": ("Chicago", "Illinois"),
+    "779": ("Rockford", "Illinois"), "815": ("Rockford", "Illinois"), "847": ("Elgin", "Illinois"),
+    "872": ("Chicago", "Illinois"),
+    "219": ("Hammond", "Indiana"), "260": ("Fort Wayne", "Indiana"), "317": ("Indianapolis", "Indiana"),
+    "463": ("Indianapolis", "Indiana"), "574": ("South Bend", "Indiana"), "765": ("Muncie", "Indiana"),
+    "812": ("Evansville", "Indiana"), "930": ("Evansville", "Indiana"),
+    "319": ("Cedar Rapids", "Iowa"), "515": ("Des Moines", "Iowa"), "563": ("Davenport", "Iowa"),
+    "641": ("Mason City", "Iowa"), "712": ("Sioux City", "Iowa"),
+    "316": ("Wichita", "Kansas"), "620": ("Dodge City", "Kansas"), "785": ("Topeka", "Kansas"),
+    "913": ("Kansas City", "Kansas"),
+    "270": ("Bowling Green", "Kentucky"), "364": ("Bowling Green", "Kentucky"), "502": ("Louisville", "Kentucky"),
+    "606": ("Ashland", "Kentucky"), "859": ("Lexington", "Kentucky"),
+    "225": ("Baton Rouge", "Louisiana"), "318": ("Shreveport", "Louisiana"), "337": ("Lafayette", "Louisiana"),
+    "504": ("New Orleans", "Louisiana"), "985": ("Houma", "Louisiana"),
+    "207": ("Portland", "Maine"),
+    "240": ("Rockville", "Maryland"), "301": ("Silver Spring", "Maryland"), "410": ("Baltimore", "Maryland"),
+    "443": ("Baltimore", "Maryland"), "667": ("Baltimore", "Maryland"),
+    "339": ("Boston", "Massachusetts"), "351": ("Lowell", "Massachusetts"), "413": ("Springfield", "Massachusetts"),
+    "508": ("Worcester", "Massachusetts"), "617": ("Boston", "Massachusetts"), "774": ("Worcester", "Massachusetts"),
+    "781": ("Boston", "Massachusetts"), "857": ("Boston", "Massachusetts"), "978": ("Lowell", "Massachusetts"),
+    "231": ("Muskegon", "Michigan"), "248": ("Troy", "Michigan"), "269": ("Kalamazoo", "Michigan"),
+    "313": ("Detroit", "Michigan"), "517": ("Lansing", "Michigan"), "586": ("Warren", "Michigan"),
+    "616": ("Grand Rapids", "Michigan"), "679": ("Detroit", "Michigan"), "734": ("Ann Arbor", "Michigan"),
+    "810": ("Flint", "Michigan"), "906": ("Marquette", "Michigan"), "947": ("Troy", "Michigan"),
+    "989": ("Saginaw", "Michigan"),
+    "218": ("Duluth", "Minnesota"), "320": ("St. Cloud", "Minnesota"), "507": ("Rochester", "Minnesota"),
+    "612": ("Minneapolis", "Minnesota"), "651": ("St. Paul", "Minnesota"), "763": ("Brooklyn Park", "Minnesota"),
+    "952": ("Bloomington", "Minnesota"),
+    "228": ("Gulfport", "Mississippi"), "601": ("Jackson", "Mississippi"), "662": ("Tupelo", "Mississippi"),
+    "769": ("Jackson", "Mississippi"),
+    "314": ("St. Louis", "Missouri"), "417": ("Springfield", "Missouri"), "557": ("St. Louis", "Missouri"),
+    "573": ("Columbia", "Missouri"), "636": ("O'Fallon", "Missouri"), "660": ("Sedalia", "Missouri"),
+    "816": ("Kansas City", "Missouri"),
+    "406": ("Billings", "Montana"),
+    "308": ("Grand Island", "Nebraska"), "402": ("Omaha", "Nebraska"), "531": ("Omaha", "Nebraska"),
+    "702": ("Las Vegas", "Nevada"), "725": ("Las Vegas", "Nevada"), "775": ("Reno", "Nevada"),
+    "603": ("Manchester", "New Hampshire"),
+    "201": ("Jersey City", "New Jersey"), "551": ("Jersey City", "New Jersey"), "609": ("Trenton", "New Jersey"),
+    "640": ("Trenton", "New Jersey"), "732": ("New Brunswick", "New Jersey"), "848": ("New Brunswick", "New Jersey"),
+    "856": ("Camden", "New Jersey"), "862": ("Newark", "New Jersey"), "908": ("Elizabeth", "New Jersey"),
+    "973": ("Newark", "New Jersey"),
+    "505": ("Albuquerque", "New Mexico"), "575": ("Las Cruces", "New Mexico"),
+    "212": ("New York", "New York"), "315": ("Syracuse", "New York"), "332": ("New York", "New York"),
+    "347": ("New York", "New York"), "516": ("Hempstead", "New York"), "518": ("Albany", "New York"),
+    "585": ("Rochester", "New York"), "607": ("Binghamton", "New York"), "631": ("Islip", "New York"),
+    "646": ("New York", "New York"), "680": ("Syracuse", "New York"), "716": ("Buffalo", "New York"),
+    "718": ("New York", "New York"), "838": ("Albany", "New York"), "845": ("Poughkeepsie", "New York"),
+    "914": ("Yonkers", "New York"), "917": ("New York", "New York"), "929": ("New York", "New York"),
+    "934": ("Islip", "New York"),
+    "252": ("Greenville", "North Carolina"), "336": ("Greensboro", "North Carolina"),
+    "704": ("Charlotte", "North Carolina"), "743": ("Greensboro", "North Carolina"),
+    "828": ("Asheville", "North Carolina"), "910": ("Fayetteville", "North Carolina"),
+    "919": ("Raleigh", "North Carolina"), "980": ("Charlotte", "North Carolina"),
+    "984": ("Raleigh", "North Carolina"),
+    "701": ("Fargo", "North Dakota"),
+    "216": ("Cleveland", "Ohio"), "220": ("Newark", "Ohio"), "234": ("Akron", "Ohio"),
+    "283": ("Cincinnati", "Ohio"), "326": ("Dayton", "Ohio"), "330": ("Akron", "Ohio"),
+    "380": ("Columbus", "Ohio"), "419": ("Toledo", "Ohio"), "440": ("Parma", "Ohio"),
+    "513": ("Cincinnati", "Ohio"), "567": ("Toledo", "Ohio"), "614": ("Columbus", "Ohio"),
+    "740": ("Newark", "Ohio"), "937": ("Dayton", "Ohio"),
+    "405": ("Oklahoma City", "Oklahoma"), "539": ("Tulsa", "Oklahoma"), "572": ("Oklahoma City", "Oklahoma"),
+    "580": ("Lawton", "Oklahoma"), "918": ("Tulsa", "Oklahoma"),
+    "458": ("Eugene", "Oregon"), "503": ("Portland", "Oregon"), "541": ("Eugene", "Oregon"),
+    "971": ("Portland", "Oregon"),
+    "215": ("Philadelphia", "Pennsylvania"), "223": ("Lancaster", "Pennsylvania"),
+    "267": ("Philadelphia", "Pennsylvania"), "272": ("Scranton", "Pennsylvania"),
+    "412": ("Pittsburgh", "Pennsylvania"), "445": ("Philadelphia", "Pennsylvania"),
+    "484": ("Allentown", "Pennsylvania"), "570": ("Scranton", "Pennsylvania"),
+    "610": ("Allentown", "Pennsylvania"), "717": ("Lancaster", "Pennsylvania"),
+    "724": ("Pittsburgh", "Pennsylvania"), "814": ("Erie", "Pennsylvania"),
+    "878": ("Pittsburgh", "Pennsylvania"),
+    "401": ("Providence", "Rhode Island"),
+    "803": ("Columbia", "South Carolina"), "839": ("Columbia", "South Carolina"),
+    "843": ("Charleston", "South Carolina"), "854": ("Charleston", "South Carolina"),
+    "864": ("Greenville", "South Carolina"),
+    "605": ("Sioux Falls", "South Dakota"),
+    "423": ("Chattanooga", "Tennessee"), "615": ("Nashville", "Tennessee"), "629": ("Nashville", "Tennessee"),
+    "731": ("Jackson", "Tennessee"), "865": ("Knoxville", "Tennessee"), "901": ("Memphis", "Tennessee"),
+    "931": ("Clarksville", "Tennessee"),
+    "210": ("San Antonio", "Texas"), "214": ("Dallas", "Texas"), "254": ("Killeen", "Texas"),
+    "281": ("Houston", "Texas"), "325": ("Abilene", "Texas"), "346": ("Houston", "Texas"),
+    "361": ("Corpus Christi", "Texas"), "409": ("Beaumont", "Texas"), "430": ("Tyler", "Texas"),
+    "432": ("Midland", "Texas"), "469": ("Dallas", "Texas"), "512": ("Austin", "Texas"),
+    "682": ("Fort Worth", "Texas"), "713": ("Houston", "Texas"), "726": ("San Antonio", "Texas"),
+    "737": ("Austin", "Texas"), "806": ("Lubbock", "Texas"), "817": ("Fort Worth", "Texas"),
+    "830": ("New Braunfels", "Texas"), "832": ("Houston", "Texas"), "903": ("Tyler", "Texas"),
+    "915": ("El Paso", "Texas"), "936": ("Conroe", "Texas"), "940": ("Denton", "Texas"),
+    "945": ("Dallas", "Texas"), "956": ("Laredo", "Texas"), "972": ("Dallas", "Texas"),
+    "979": ("College Station", "Texas"),
+    "385": ("Salt Lake City", "Utah"), "435": ("St. George", "Utah"), "801": ("Salt Lake City", "Utah"),
+    "802": ("Burlington", "Vermont"),
+    "276": ("Bristol", "Virginia"), "434": ("Lynchburg", "Virginia"), "540": ("Roanoke", "Virginia"),
+    "571": ("Arlington", "Virginia"), "703": ("Arlington", "Virginia"), "757": ("Virginia Beach", "Virginia"),
+    "804": ("Richmond", "Virginia"),
+    "206": ("Seattle", "Washington"), "253": ("Tacoma", "Washington"), "360": ("Vancouver", "Washington"),
+    "425": ("Bellevue", "Washington"), "509": ("Spokane", "Washington"), "564": ("Vancouver", "Washington"),
+    "304": ("Charleston", "West Virginia"), "681": ("Charleston", "West Virginia"),
+    "262": ("Waukesha", "Wisconsin"), "274": ("Milwaukee", "Wisconsin"), "414": ("Milwaukee", "Wisconsin"),
+    "534": ("Eau Claire", "Wisconsin"), "608": ("Madison", "Wisconsin"), "715": ("Eau Claire", "Wisconsin"),
+    "920": ("Green Bay", "Wisconsin"),
+    "307": ("Cheyenne", "Wyoming"),
+}
+
+
+def _digits10(phone):
+    d = re.sub(r"\D", "", phone or "")
+    if len(d) == 11 and d.startswith("1"):
+        d = d[1:]
+    return d if len(d) == 10 else ""
+
+
+def _area_from_phone(phone):
+    """(city, full state) for the lead's phone area code, or None."""
+    d = _digits10(phone)
+    return _AREA_CODES.get(d[:3]) if d else None
+
+
+def reverse_geocode(lat, lng):
+    """(city, state) for a coordinate — Maps SERP items sometimes carry only
+    lat/lng (no address_info) for small listings."""
+    url = ("https://nominatim.openstreetmap.org/reverse?format=json&zoom=10"
+           "&lat={}&lon={}".format(lat, lng))
+    try:
+        d = json.loads(_http_get(url, timeout=20))
+        a = d.get("address") or {}
+        city = a.get("city") or a.get("town") or a.get("village") or a.get("county")
+        state = a.get("state")
+        if city and state:
+            return str(city), str(state)
+    except Exception:
+        pass
+    return None
+
+
+# longest-first greedy segmentation vocabulary for smashed-together domains
+# ("proservrestoration" -> "pro serv restoration")
+_DOMAIN_VOCAB = sorted(
+    ["restoration", "restorations", "remediation", "reconstruction", "construction",
+     "contracting", "contractors", "contractor", "waterproofing", "mitigation",
+     "emergency", "cleaning", "cleanup", "plumbing", "roofing", "services",
+     "service", "restore", "masters", "master", "damage", "water", "flood",
+     "storm", "house", "home", "mold", "fire", "tech", "serv", "pro", "dry",
+     "llc", "inc", "the", "and", "usa"],
+    key=len, reverse=True)
+
+
+def _domain_words(domain):
+    """Best-effort human name from a domain label: 'proservrestoration.com'
+    -> 'pro serv restoration'. Hyphens split for free; concatenated labels are
+    segmented greedily against a small industry vocabulary; unknown runs of
+    characters are kept as-is."""
+    label = (domain or "").split(".")[0]
+    label = re.sub(r"[^a-z0-9-]", "", label.lower())
+    parts = []
+    for chunk in label.split("-"):
+        i, buf = 0, ""
+        while i < len(chunk):
+            hit = next((w for w in _DOMAIN_VOCAB if chunk.startswith(w, i)), None)
+            if hit:
+                if buf:
+                    parts.append(buf)
+                    buf = ""
+                parts.append(hit)
+                i += len(hit)
+            else:
+                buf += chunk[i]
+                i += 1
+        if buf:
+            parts.append(buf)
+    return " ".join(p for p in parts if p and p not in ("www",))
+
+
+DEFAULT_RESTO_SERVICES = ["water damage restoration", "fire damage restoration",
+                          "mold remediation"]
+
+_CAT_SERVICES = [
+    ("water damage", "water damage restoration", "water"),
+    ("fire damage", "fire damage restoration", "fire"),
+    ("mold", "mold remediation", "mold"),
+    ("storm", "storm damage restoration", "storm"),
+    ("biohazard", "biohazard cleanup", "biohazard"),
+    ("crime victim", "biohazard cleanup", "biohazard"),
+    ("building restoration", "damage restoration", "water"),
+    ("waterproof", "waterproofing", "water"),
+    ("plumb", "plumbing", "plumbing"),
+    ("carpet clean", "carpet cleaning", "water"),
+    ("general contractor", "general contracting", "reconstruction"),
+    ("remodel", "remodeling", "reconstruction"),
+    ("roof", "roofing", "carpentry"),
+    ("deck", "deck building", "carpentry"),
+    ("fence", "fence building", "carpentry"),
+]
+
+
+def _services_from_categories(cats, name_hint=""):
+    """(services, vertical) from GBP categories. When the business NAME says
+    restoration but the categories don't (miscategorized GBP — itself a
+    finding), lead with the standard restoration set so the ranking checks
+    track the searches that actually bring this business jobs."""
+    services, vertical = [], None
+    for cat in cats:
+        cl = (cat or "").lower()
+        for pat, svc, vert in _CAT_SERVICES:
+            if pat in cl and svc not in services:
+                services.append(svc)
+                vertical = vertical or vert
+    hint = (name_hint or "").lower()
+    resto_hint = any(w in hint for w in ("restor", "water damage", "flood", "mitigat"))
+    if resto_hint and vertical not in ("water", "fire", "mold", "storm"):
+        services = DEFAULT_RESTO_SERVICES + [s for s in services if s not in DEFAULT_RESTO_SERVICES]
+        vertical = "water"
+    if not services:
+        primary = (cats[0] or "").lower().replace(" service", "").strip() if cats else ""
+        services = [primary] if primary else list(DEFAULT_RESTO_SERVICES)
+        vertical = vertical or "water"
+    return services[:5], vertical or "water"
+
+
+def profile_from_listing(auth, domain, business_name, lead_phone, area_hint):
+    """Tier-b profiler: build the profile from the business's own Google
+    listing when the website can't be profiled. Identity bar is deliberately
+    high — a candidate is accepted only when its listing links the audited
+    domain, matches the lead's phone, or matches the searched name almost
+    exactly (never profile a stranger: the Coastal Treetenders lesson,
+    2026-07-26). area_hint = (city, state) from the phone's area code biases
+    the Maps query toward the lead's real market — a US-wide name search for
+    'Pro Serv Restoration' surfaces same-named companies in other states.
+
+    Returns (prof, gbp_dict, dfs_cost); raises when no confident match."""
+    cost = 0.0
+    names = []
+    if (business_name or "").strip():
+        names.append(business_name.strip())
+    dw = _domain_words(domain)
+    if dw and len(dw) >= 6 and dw.lower() not in [n.lower() for n in names]:
+        names.append(dw)
+    if not names:
+        raise RuntimeError("no business-name candidate (no form business name, no domain words)")
+    want_dom = (domain or "").lower()
+    want_dom = want_dom[4:] if want_dom.startswith("www.") else want_dom
+    lead_digits = _digits10(lead_phone)
+
+    queries = []
+    for nm in names[:2]:
+        if area_hint:
+            queries.append("{} {} {}".format(nm, area_hint[0], area_hint[1])[:200])
+        queries.append(nm[:200])
+    best, best_score = None, 0.0
+    for kw in queries:
+        try:
+            items, c, _ = _dfs(DFS_MAPS, [{"keyword": kw, "location_code": 2840,
+                                           "language_code": "en", "device": "desktop"}], auth)
+            cost += c
+        except Exception as e:
+            sys.stderr.write("  listing query '{}': {}\n".format(kw[:40], str(e)[:120]))
+            continue
+        for it in items:
+            if not isinstance(it, dict) or not it.get("title"):
+                continue
+            it_dom = str(it.get("domain") or "").lower()
+            it_dom = it_dom[4:] if it_dom.startswith("www.") else it_dom
+            if want_dom and it_dom == want_dom:
+                s = 1.0
+            elif lead_digits and _digits10(it.get("phone")) == lead_digits:
+                s = 1.0
+            else:
+                s = max(_name_match(n, it.get("title")) for n in names)
+                if it_dom and want_dom and it_dom != want_dom:
+                    s -= 0.35
+                region = ((it.get("address_info") or {}).get("region") or "")
+                if area_hint and region and region.lower() == area_hint[1].lower():
+                    s += 0.05
+            if s > best_score:
+                best, best_score = it, s
+        if best_score >= 0.9:
+            break
+    if not best or best_score < 0.75:
+        raise RuntimeError("no confident Google-listing match for {!r} (best score {:.2f})".format(
+            names[0], best_score))
+
+    ainfo = best.get("address_info") or {}
+    city, state = ainfo.get("city"), ainfo.get("region")
+    if not (city and state):
+        m = re.search(r",\s*([A-Za-z .'-]+),\s*([A-Z]{2})\b", best.get("address") or "")
+        if m:
+            city, state = m.group(1).strip(), m.group(2)
+    if not (city and state) and best.get("latitude") and best.get("longitude"):
+        got = reverse_geocode(best["latitude"], best["longitude"])
+        if got:
+            city, state = got
+    if not (city and state) and area_hint:
+        city, state = area_hint
+    if not (city and state):
+        raise RuntimeError("listing matched but no city/state could be determined")
+    if len(str(state)) == 2:
+        state = _US_STATES.get(str(state).upper(), str(state))
+
+    cats = [best.get("category") or ""] + list(best.get("additional_categories") or [])
+    services, vertical = _services_from_categories(
+        cats, "{} {}".format(best.get("title") or "", domain or ""))
+    rd = best.get("rating") or {}
+    gbp = {"found": True, "title": best.get("title"),
+           "place_id": best.get("place_id"),
+           "cid": str(best.get("cid")) if best.get("cid") is not None else None,
+           "rating": rd.get("value"), "reviews": rd.get("votes_count"),
+           "address": best.get("address")}
+    prof = {"business_name": best.get("title"), "phone": best.get("phone"),
+            "vertical": vertical, "services": services,
+            "cities": [{"city": str(city), "state": str(state)}],
+            "gbp_query": best.get("title")}
+    return prof, gbp, cost
+
+
+def profile_from_form(domain, name, email, phone, business_name=None):
+    """Tier-c profiler (last resort): nothing but the form fields. Business
+    name from the form / email domain / site domain words; city from the
+    phone's area code; default restoration service set."""
+    bn = (business_name or "").strip()
+    if not bn:
+        edom = (email or "").rsplit("@", 1)[-1].strip().lower() if "@" in (email or "") else ""
+        src = edom if (edom and edom not in _FREE_MAIL) else (domain or edom)
+        words = _domain_words(src)
+        if words:
+            bn = " ".join(w.upper() if w in ("llc", "usa", "inc") else w.capitalize()
+                          for w in words.split())
+    if not bn:
+        raise RuntimeError("no business name derivable from the form data")
+    area = _area_from_phone(phone)
+    if not area:
+        raise RuntimeError("no service city derivable (unknown phone area code: {})".format(
+            phone or "no phone"))
+    city, state = area
+    return {"business_name": bn, "phone": phone or None, "vertical": "water",
+            "services": list(DEFAULT_RESTO_SERVICES),
+            "cities": [{"city": city, "state": state}],
+            "gbp_query": "{} {}".format(bn, city)}
 
 
 # ---------------------------------------------------------------------------
@@ -908,6 +1366,16 @@ HARD RULES — these are non-negotiable:
    (map-pack competitor titles or AI answer excerpts).
 6. NEVER use an em dash (—) or a spaced en dash anywhere. Use a comma, a colon, or
    two sentences instead.
+7. The audit data may include "website_status". When its "status" is "no_website" or
+   "unreadable", the website itself is the single most important finding: lead the verdict
+   and summary with it in plain language ("no_website" = there is no real working website at
+   their address, only a parked or placeholder page, or nothing answering at all;
+   "unreadable" = the site loads for a person but the automated readers Google and AI
+   assistants use get nothing from it). Make game_plan step 1 about launching or fixing a
+   website those tools can read, and let the grade reflect it: no better than D when status
+   is "no_website" and no better than C when "unreadable", lower when rankings and map
+   visibility are also weak. Do not describe HOW this audit was compiled (the report template
+   explains that). When status is "ok", never mention website readability at all.
 
 Return ONLY a JSON object (no fences) with exactly these keys:
 {
@@ -982,9 +1450,47 @@ def _pos_cell(pos):
     return '<span class="pos {}">#{}</span>'.format(cls, pos)
 
 
-def build_html(audit_id, prof, domain, copy, rankings, geogrid, ai_results, mappack, money):
+def _website_alert_section(domain, site_status, site_note=None):
+    """Prominent first section for degraded audits: the lead's website is
+    unreachable or unreadable by the automated tools Google and AI use. Plain
+    language, sales-honest, no em dashes (house rule)."""
+    dom = _esc(domain) if domain else "your business"
+    note = (site_note or "").lower()
+    if site_status == "no_website":
+        h2 = "There is no working website for Google or AI to read"
+        if not domain:
+            p1 = ("No website was on file for your business, so the automated readers "
+                  "Google and AI assistants rely on have nothing to read at all.")
+        elif "resolve" in note or "reachable" in note or "connections" in note:
+            p1 = ("We checked {} the same way Google and the AI assistants do, with "
+                  "automated readers. The address did not answer at all: it does not "
+                  "load a website for anyone, human or robot.").format(dom)
+        else:
+            p1 = ("We checked {} the same way Google and the AI assistants do, with "
+                  "automated readers. They did not find a real website there: the address "
+                  "serves a parked or placeholder page with no services, no cities, and no "
+                  "way to tell what your business does.").format(dom)
+    else:
+        h2 = "Your website is unreadable to the tools Google and AI use"
+        p1 = ("{} loads for a human visitor, but the automated readers Google and AI "
+              "assistants rely on came back with nothing they could use: no services and "
+              "no cities. A site those tools cannot read cannot rank for the searches "
+              "that bring jobs, and AI assistants cannot quote or recommend it.").format(dom)
+    p2 = ("This is the number one finding in this report. Every result below was measured "
+          "from your Google Business Profile and live Google results, which do not depend "
+          "on your website.")
+    return ('<section><div class="kicker">Your Website</div>\n<h2>{}</h2>\n'
+            '<p>{}</p>\n<p>{}</p></section>'.format(_esc(h2), p1, p2))
+
+
+def build_html(audit_id, prof, domain, copy, rankings, geogrid, ai_results, mappack, money,
+               site_status="ok", site_note=None, skipped=None):
     tpl = TEMPLATE.read_text()
     S = []
+
+    # Degraded-website alert leads the report — it is the #1 finding
+    if site_status in ("no_website", "unreadable"):
+        S.append(_website_alert_section(domain, site_status, site_note))
 
     # Rankings section
     if rankings:
@@ -1085,12 +1591,20 @@ Cited in {} of {} AI answers.</p></section>""".format(
 <h2>The 5-step game plan to fix this</h2>{}
 <p style="margin-top:18px;font-weight:600;color:var(--ink)">{}</p></section>""".format(blocks, coi))
 
+    # Checks that could not run report themselves as such instead of vanishing
+    if skipped:
+        S.append('<section><div class="kicker">Coverage</div>'
+                 '<h2>Checks we could not run this time</h2>'
+                 '<p>Some automated checks could not be completed for this audit: {}. '
+                 'They are left out above rather than guessed at.</p></section>'.format(
+                     _esc(", ".join(skipped))))
+
     grade = (copy.get("grade") or "C").upper()[:1]
     gclass = "g-good" if grade in ("A", "B") else ("g-warn" if grade == "C" else "g-bad")
     today = dt.datetime.now(dt.timezone.utc).strftime("%B %d, %Y")
     out = (tpl.replace("{{TITLE}}", _esc("{} — AI Visibility Audit".format(prof["business_name"])))
               .replace("{{BUSINESS_NAME}}", _esc(prof["business_name"]))
-              .replace("{{DOMAIN}}", _esc(domain))
+              .replace("{{DOMAIN}}", _esc(domain or "no website on file"))
               .replace("{{GRADE_CLASS}}", gclass)
               .replace("{{GRADE}}", _esc(grade))
               .replace("{{VERDICT}}", _esc(copy.get("verdict")))
@@ -1532,7 +2046,11 @@ def _ghl_custom_field_ids():
     loc = os.environ.get("GHL_LOCATION_ID")
     want = {"audit_report_url": None, "audit_teaser_image_url": None,
             "audit_cities": None, "audit_grade": None,
-            "visibility_grade": None}   # alias: Santino's SMS templates use this key
+            "visibility_grade": None,   # alias: Santino's SMS templates use this key
+            # complete | degraded_no_website | degraded_unreadable_website | failed
+            # — the GHL workflow branches its messaging on this field, so it is
+            # written on EVERY outcome (the failure path writes 'failed').
+            "audit_status": None}
     existing = _ghl("GET", "/locations/{}/customFields".format(loc), params={}) or {}
     for f in existing.get("customFields", []):
         k = (f.get("fieldKey") or f.get("name") or "").split(".")[-1].lower()
@@ -1547,7 +2065,8 @@ def _ghl_custom_field_ids():
 
 
 def deliver_to_ghl(name, email, phone, domain, business_name, grade,
-                   report_url, teaser_url, log, cities=None, contact_id=None):
+                   report_url, teaser_url, log, cities=None, contact_id=None,
+                   audit_status=None):
     """Find-or-create the lead's GHL contact; write the audit URLs + cities +
     grade to custom fields + a note. cities is a human phrase ("Memphis and
     Cincinnati") for SMS merge-field personalization. Best-effort: any failure
@@ -1576,6 +2095,8 @@ def deliver_to_ghl(name, email, phone, domain, business_name, grade,
     if grade:
         payload_fields.append({"id": fields["audit_grade"], "field_value": str(grade)})
         payload_fields.append({"id": fields["visibility_grade"], "field_value": str(grade)})
+    if audit_status:
+        payload_fields.append({"id": fields["audit_status"], "field_value": str(audit_status)})
     if contact_id:
         _ghl("PUT", "/contacts/{}".format(contact_id), params={},
              body={"customFields": payload_fields})
@@ -1591,8 +2112,9 @@ def deliver_to_ghl(name, email, phone, domain, business_name, grade,
         contact_id = (made.get("contact") or {}).get("id")
     if contact_id:
         _ghl("POST", "/contacts/{}/notes".format(contact_id), params={},
-             body={"body": "AUDIT READY (grade {g}) for {d}\nReport: {r}\nTeaser image: {t}".format(
-                 g=grade, d=domain, r=report_url, t=teaser_url)})
+             body={"body": "AUDIT READY (grade {g}, status {s}) for {d}\nReport: {r}\nTeaser image: {t}".format(
+                 g=grade, s=audit_status or "complete", d=domain or "no website",
+                 r=report_url, t=teaser_url)})
     # (No ops SMS by design — the GHL workflow automation owns notifications;
     # the internal SendGrid notify email still fires via email_mode='internal'.)
     log("ghl delivery done (contact {})".format(contact_id or "NOT FOUND/CREATED"))
@@ -1637,9 +2159,9 @@ def _lead_email_html(prof, domain, report_url, copy):
 # Orchestrator
 # ---------------------------------------------------------------------------
 
-def run_audit(website, name, email, phone, audit_id=None, email_mode="all", progress=None,
-              business_name=None, place_id=None, cid=None, sales_mode=False,
-              ghl_contact_id=None):
+def _run_audit(website, name, email, phone, audit_id=None, email_mode="all", progress=None,
+               business_name=None, place_id=None, cid=None, sales_mode=False,
+               ghl_contact_id=None):
     """Full pipeline. email_mode: 'all' | 'internal' (notify only) | 'none'.
     business_name/place_id/cid: optional GBP identity already confirmed by the
     prospect in the stepper — used to pin the listing instead of re-guessing.
@@ -1647,7 +2169,14 @@ def run_audit(website, name, email, phone, audit_id=None, email_mode="all", prog
     and delivers report/teaser URLs to the lead's GHL contact (custom fields +
     note) instead of emailing the lead. Returns {report_url, grade, ...}.
     ghl_contact_id: deliver to this exact contact instead of searching by
-    email/phone (staff-booked appointment webhook already knows it)."""
+    email/phone (staff-booked appointment webhook already knows it).
+
+    GRACEFUL DEGRADATION (2026-08-16): an audit must ALWAYS complete. Site
+    problems never crash the run; profiling falls back site text -> Google
+    listing -> form data, the report leads with the website problem, and
+    audit_status records the outcome: 'complete', 'degraded_no_website'
+    (dead/parked/no site), or 'degraded_unreadable_website' (site up but the
+    automated readers extract nothing)."""
     def log(msg):
         print("  [{}] {}".format(dt.datetime.now().strftime("%H:%M:%S"), msg))
         if progress:
@@ -1658,8 +2187,11 @@ def run_audit(website, name, email, phone, audit_id=None, email_mode="all", prog
 
     audit_id = audit_id or uuid.uuid4().hex[:12]
     domain = _norm_domain(website)
+    site_status, site_note = "ok", None   # ok | unreadable | no_website
     if not re.match(r"^[a-z0-9.-]+\.[a-z]{2,}$", domain):
-        raise ValueError("invalid website: " + str(website))
+        domain = ""
+        site_status = "no_website"
+        site_note = "no usable website address was submitted"
 
     # Leads typo their own domain in the form (ameritibe.com for
     # ameritribe.com, 2026-07-22) — a dead hostname must not kill the audit.
@@ -1672,10 +2204,7 @@ def run_audit(website, name, email, phone, audit_id=None, email_mode="all", prog
         except OSError:
             return False
 
-    _FREE_MAIL = {"gmail.com", "yahoo.com", "aol.com", "hotmail.com",
-                  "outlook.com", "icloud.com", "msn.com", "live.com",
-                  "att.net", "comcast.net", "protonmail.com", "me.com"}
-    if not _resolves(domain) and not _resolves("www." + domain):
+    if domain and not _resolves(domain) and not _resolves("www." + domain):
         # Repair a mangled "www" label BEFORE falling back to the email domain.
         # Monique Curchy typed ww.rapidreliefrestoration.net (2026-08-05) — one
         # missing w. The old order tried only `ww.…` and `www.ww.…`, both dead,
@@ -1690,7 +2219,7 @@ def run_audit(website, name, email, phone, audit_id=None, email_mode="all", prog
                 log("domain {} looks like a mistyped www — using {} instead".format(domain, repaired))
                 domain = repaired
 
-    if not _resolves(domain) and not _resolves("www." + domain):
+    if domain and not _resolves(domain) and not _resolves("www." + domain):
         alt = (email or "").rsplit("@", 1)[-1].strip().lower() if "@" in (email or "") else ""
         if alt and alt not in _FREE_MAIL and alt != domain and _resolves(alt):
             log("domain {} does not resolve — using email domain {} instead".format(domain, alt))
@@ -1698,10 +2227,12 @@ def run_audit(website, name, email, phone, audit_id=None, email_mode="all", prog
         else:
             # DNS-level dead (NXDOMAIN on domain, www + no email-domain
             # fallback) — the strongest "website down" signal there is
-            # (Robert Gibson's content-restoration.com, 2026-07-30).
-            raise SiteDownError(
-                "the submitted website {} does not resolve (dead domain or a "
-                "typo in the form) and no usable email-domain fallback exists".format(domain))
+            # (Robert Gibson's content-restoration.com, 2026-07-30). No longer
+            # fatal: the audit continues from the Google listing / form data.
+            site_status = "no_website"
+            site_note = ("the submitted website {} does not resolve (dead domain "
+                         "or a typo in the form)".format(domain))
+            log("site: " + site_note)
     # franchise/shared-domain support: profile from the submitted PAGE, not
     # the domain root (puroclean.com/eastlasvegas is a business; puroclean.com
     # is a corporation with 400 locations)
@@ -1714,66 +2245,108 @@ def run_audit(website, name, email, phone, audit_id=None, email_mode="all", prog
     auth = _dfs_auth()
     client = _claude()
 
-    log("audit {} for {} started".format(audit_id, domain))
+    log("audit {} for {} started".format(audit_id, domain or "(no website)"))
 
-    # 1. site -> profile
-    pages = fetch_site(domain, start_url)
-    try:
-        prof, u = profile_site(client, start_url or domain, pages)
-    except ProfileIncompleteError:
-        # The raw server HTML held no services or no cities. Two known causes,
-        # each with its own cheap recovery; both run only on this failure path.
-        prof = None
-        # Recovery 1 — franchise root: the lead submitted the corporate domain
-        # but the funnel knows their location ("Restoration 1 of Hartland"),
-        # whose own page is /hartland on the same domain.
-        if not start_url:
-            for cand in franchise_start_urls(domain, business_name):
+    # 1. site -> profile (tier a), with graceful degradation: site problems
+    # classify the run instead of crashing it.
+    prof, u, gbp_seed = None, None, None
+    profile_source = "site"
+    pages = {}
+    if domain and site_status == "ok":
+        try:
+            pages = fetch_site(domain, start_url)
+        except SiteDownError as e:
+            site_status, site_note = "no_website", str(e)
+            log("site: " + site_note)
+        except Exception as e:
+            # WAF-blocked, SSL breakage, timeouts — the site may be fine for
+            # humans but our readers (and Google's) get nothing.
+            site_status, site_note = "unreadable", str(e)[:200]
+            log("site fetch failed ({}) — continuing without site text".format(str(e)[:120]))
+    if pages:
+        try:
+            prof, u = profile_site(client, start_url or domain, pages)
+        except ProfileIncompleteError:
+            # The raw server HTML held no services or no cities. Two known
+            # causes, each with its own cheap recovery, both failure-path only.
+            # Recovery 1 — franchise root: the lead submitted the corporate
+            # domain but the funnel knows their location ("Restoration 1 of
+            # Hartland"), whose own page is /hartland on the same domain.
+            if not start_url:
+                for cand in franchise_start_urls(domain, business_name):
+                    try:
+                        cand_pages = fetch_site(domain, cand)
+                        prof, u = profile_site(client, cand, cand_pages)
+                    except Exception:
+                        continue
+                    start_url, pages = cand, cand_pages
+                    log("franchise-root recovery: profiled {} instead of the corporate root".format(cand))
+                    break
+            # Recovery 2 — client-rendered site: a clean 200 whose every word
+            # of business content is painted by JavaScript (Jose Mendoza's
+            # eds-construction-services.com, 2026-08-04). Render in a browser
+            # and profile that (~$0.0015). The render itself can also fail —
+            # "content_parsing returned no items" killed Virgil Santa's audit
+            # on 2026-08-14 because this fetch was OUTSIDE the try.
+            if prof is None:
+                log("profile came back empty from the raw HTML — retrying with a "
+                    "JavaScript-rendered crawl (client-side-rendered site?)")
                 try:
-                    cand_pages = fetch_site(domain, cand)
-                    prof, u = profile_site(client, cand, cand_pages)
-                except Exception:
-                    continue
-                start_url, pages = cand, cand_pages
-                log("franchise-root recovery: profiled {} instead of the corporate root".format(cand))
-                break
-        # Recovery 2 — client-rendered site: the fetch returned a clean 200 but
-        # every word of business content is painted by JavaScript, so the
-        # blocked-site fallback never fires and the profiler only ever sees the
-        # builder's app shell. Jose Mendoza's eds-construction-services.com
-        # (2026-08-04) is a Base44 app whose shell still carried the STARTER
-        # TEMPLATE's name ("Deck & Fence Pro manages 2 data types including
-        # leads", repeated once per route): 1,229 chars of real prose that says
-        # nothing about his business, so no length threshold can spot it.
-        # Render it in a browser and profile that (~$0.0015, failure path only).
-        if prof is None:
-            log("profile came back empty from the raw HTML — retrying with a "
-                "JavaScript-rendered crawl (client-side-rendered site?)")
-            pages = fetch_site(domain, start_url, force_js=True)
-            try:
-                prof, u = profile_site(client, start_url or domain, pages)
-                log("JS-rendered retry succeeded ({} chars)".format(len(pages.get("homepage") or "")))
-            except ProfileIncompleteError:
-                # Both recoveries exhausted. Before 2026-08-06 this re-raised
-                # straight out of the except block and the audit died with a
-                # traceback, so the team email said "audit failed" with a stack
-                # trace instead of something a human could act on.
-                #
-                # A site that serves a clean 200 but names no service and no
-                # city after a full JS render is a PARKED/PLACEHOLDER page, not
-                # a crawl failure — Monique Curchy's rapidreliefrestoration.net
-                # (2026-08-06) is GoDaddy's "Launching Soon" splash, 842 visible
-                # characters whose <title> is just the bare domain. That is the
-                # honest "your site isn't even up" case, so classify it as
-                # SiteDownError: it earns the 'website down' tag whose nurture
-                # branch says exactly that, and it is TRUE. Reporting it as a
-                # parse failure would tell a lead with no website that our
-                # crawler broke.
-                raise SiteDownError(
-                    "{} resolves and returns 200 but is a placeholder/parked page "
-                    "(no services, no cities after a JavaScript render) — the lead "
-                    "has no real website yet".format(domain))
-    usages.append(u)
+                    pages = fetch_site(domain, start_url, force_js=True)
+                    prof, u = profile_site(client, start_url or domain, pages)
+                    log("JS-rendered retry succeeded ({} chars)".format(len(pages.get("homepage") or "")))
+                except ProfileIncompleteError:
+                    # A clean 200 that names no service and no city after a
+                    # full JS render is a PARKED/PLACEHOLDER page (Monique
+                    # Curchy's rapidreliefrestoration.net, 2026-08-06): the
+                    # honest "no real website yet" case.
+                    site_status = "no_website"
+                    site_note = ("{} resolves and returns 200 but is a placeholder/parked "
+                                 "page (no services, no cities after a JavaScript render)"
+                                 ).format(domain)
+                    log("site: " + site_note)
+                except SiteDownError as e:
+                    site_status, site_note = "no_website", str(e)
+                    log("site: " + site_note)
+                except Exception as e:
+                    site_status, site_note = "unreadable", str(e)[:200]
+                    log("JS-rendered retry failed ({}) — site is unreadable to "
+                        "automated readers".format(str(e)[:120]))
+        except Exception as e:
+            # Non-site failure (e.g. a model hiccup) — fall through to the
+            # listing profiler rather than dying; site_status stays as-is.
+            log("site profiling failed ({}) — falling back to the Google "
+                "listing".format(str(e)[:120]))
+    # Tier b — the business's own Google listing (name+area biased, identity
+    # verified by domain/phone/near-exact name).
+    if prof is None:
+        try:
+            prof, gbp_seed, c = profile_from_listing(
+                auth, domain, business_name, phone, _area_from_phone(phone))
+            costs["dataforseo"] += c
+            profile_source = "gbp_listing"
+            log("profiled from the Google listing: {} | {} | {}".format(
+                prof["business_name"], prof["services"][0],
+                ["{}, {}".format(c0["city"], c0["state"]) for c0 in prof["cities"]]))
+        except Exception as e:
+            errors.append("profile_listing: " + str(e)[:150])
+            log("listing profiling failed: " + str(e)[:150])
+    # Tier c — form data alone (business name from form/email/domain words,
+    # city from the phone's area code, default restoration services).
+    if prof is None:
+        try:
+            prof = profile_from_form(domain, name, email, phone, business_name)
+            profile_source = "form"
+            log("profiled from form data alone: {} in {}, {}".format(
+                prof["business_name"], prof["cities"][0]["city"], prof["cities"][0]["state"]))
+        except Exception as e:
+            errors.append("profile_form: " + str(e)[:120])
+    if prof is None:
+        raise RuntimeError(
+            "could not profile the business from its site, its Google listing, or the "
+            "form data" + (" (site: {})".format(site_note) if site_note else ""))
+    if u:
+        usages.append(u)
     service = prof["services"][0]
     cities = prof["cities"]
     log("profile: {} | {} | cities {}".format(
@@ -1804,6 +2377,10 @@ def run_audit(website, name, email, phone, audit_id=None, email_mode="all", prog
                    "place_id": place_id, "cid": str(cid) if cid else None,
                    "rating": None, "reviews": None, "address": None}
             log("gbp: listings lookup missed; pinning ids from stepper selection")
+    if not gbp.get("found") and gbp_seed:
+        # tier-b profiling already identity-matched the listing — reuse it
+        gbp = gbp_seed
+        log("gbp: seeded from the tier-b listing match: {}".format(gbp.get("title")))
     if not gbp.get("found"):
         try:
             gbp, c = gbp_confirm(auth, business_name or prof.get("gbp_query") or prof["business_name"],
@@ -1817,13 +2394,16 @@ def run_audit(website, name, email, phone, audit_id=None, email_mode="all", prog
 
     # 2. organic rankings
     rankings = []
-    try:
-        rankings, c = run_rankings(auth, domain, service, cities)
-        costs["dataforseo"] += c
-        log("rankings: {} queries, {} ranked".format(
-            len(rankings), sum(1 for r in rankings if r["position"])))
-    except Exception as e:
-        errors.append("rankings: " + str(e)[:150])
+    if domain:
+        try:
+            rankings, c = run_rankings(auth, domain, service, cities)
+            costs["dataforseo"] += c
+            log("rankings: {} queries, {} ranked".format(
+                len(rankings), sum(1 for r in rankings if r["position"])))
+        except Exception as e:
+            errors.append("rankings: " + str(e)[:150])
+    else:
+        errors.append("rankings skipped: no website to rank")
 
     # 3. mini geo-grid (needs a found GBP to match the listing)
     geogrid = []
@@ -1871,14 +2451,33 @@ def run_audit(website, name, email, phone, audit_id=None, email_mode="all", prog
         errors.append("volumes: " + str(e)[:150])
 
     # 7. report copy + HTML
+    audit_status = {"ok": "complete",
+                    "unreadable": "degraded_unreadable_website",
+                    "no_website": "degraded_no_website"}[site_status]
+    skipped = []
+    if not rankings:
+        skipped.append("Google search ranking checks")
+    if not [g for g in geogrid if g.get("image_url")]:
+        skipped.append("the Google Maps heat map")
+    if not [r for r in ai_results if r.get("engine") == "chatgpt"]:
+        skipped.append("AI assistant answer checks")
+    if not ([p for p in mappack if p.get("competitors")] and gbp.get("found")):
+        skipped.append("the review comparison")
+    if not money:
+        skipped.append("the revenue estimate")
     data = {"business": {k: prof.get(k) for k in
                          ("business_name", "phone", "vertical", "services", "cities")},
-            "domain": domain, "gbp": gbp, "rankings": rankings, "geogrid": geogrid,
+            "domain": domain or None, "gbp": gbp, "rankings": rankings, "geogrid": geogrid,
             "ai_search": ai_results, "map_pack": mappack, "revenue_estimate": money,
             "search_volumes": vols}
+    if site_status != "ok":
+        data["website_status"] = {"status": site_status, "note": site_note,
+                                  "profiled_from": profile_source}
     copy, u = generate_report_copy(client, data)
     usages.append(u)
-    html_out = build_html(audit_id, prof, domain, copy, rankings, geogrid, ai_results, mappack, money)
+    html_out = build_html(audit_id, prof, domain, copy, rankings, geogrid, ai_results,
+                          mappack, money, site_status=site_status, site_note=site_note,
+                          skipped=skipped)
 
     # 8. host on R2
     report_key = "{}/{}/report.html".format(PREFIX, audit_id)
@@ -1889,6 +2488,7 @@ def run_audit(website, name, email, phone, audit_id=None, email_mode="all", prog
     r2_put(PRIVATE_BUCKET, "{}/{}/audit.json".format(PREFIX, audit_id),
            json.dumps({"audit_id": audit_id, "requested_by": {"name": name, "email": email, "phone": phone},
                        "data": data, "copy": copy, "costs": costs, "errors": errors,
+                       "audit_status": audit_status, "profile_source": profile_source,
                        "created_at": _now_iso()}, indent=1).encode(),
            "application/json")
     log("report: " + report_url)
@@ -1918,7 +2518,8 @@ def run_audit(website, name, email, phone, audit_id=None, email_mode="all", prog
                              if len(city_names) > 2 else " and ".join(city_names))
             deliver_to_ghl(name, email, phone, domain, prof["business_name"],
                            copy.get("grade"), report_url, teaser_url or report_url, log,
-                           cities=cities_phrase, contact_id=ghl_contact_id)
+                           cities=cities_phrase, contact_id=ghl_contact_id,
+                           audit_status=audit_status)
         except Exception as e:
             errors.append("ghl_delivery: " + str(e)[:150])
             log("ghl delivery FAILED: " + str(e)[:150])
@@ -1934,10 +2535,11 @@ def run_audit(website, name, email, phone, audit_id=None, email_mode="all", prog
         notif = """<div style="font-family:monospace;font-size:13px">
 <b>NEW LEAD — free audit requested</b><br><br>
 Name: {n}<br>Email: {e}<br>Phone: {p}<br>Website: {d}<br>
-Business: {b}<br>Grade: {g}<br>Report: <a href="{u}">{u}</a><br>
+Business: {b}<br>Grade: {g}<br>Status: {st}<br>Report: <a href="{u}">{u}</a><br>
 Costs: DFS ${dc:.2f} + Claude ${cc:.2f}<br>Errors: {err}</div>""".format(
-            n=_esc(name), e=_esc(email), p=_esc(phone), d=_esc(domain),
+            n=_esc(name), e=_esc(email), p=_esc(phone), d=_esc(domain or "(no website)"),
             b=_esc(prof["business_name"]), g=_esc(copy.get("grade")), u=report_url,
+            st=_esc(audit_status),
             dc=costs["dataforseo"], cc=costs["claude"], err=_esc("; ".join(errors) or "none"))
         send_email(NOTIFY_EMAIL, "[Rank AI lead] {} — audit {}".format(domain, copy.get("grade")), notif)
 
@@ -1946,14 +2548,43 @@ Costs: DFS ${dc:.2f} + Claude ${cc:.2f}<br>Errors: {err}</div>""".format(
         append_lead_jsonl({"audit_id": audit_id, "created_at": _now_iso(), "name": name,
                            "email": email, "phone": phone, "domain": domain,
                            "business_name": prof["business_name"], "grade": copy.get("grade"),
-                           "report_url": report_url})
+                           "report_url": report_url, "audit_status": audit_status,
+                           "profile_source": profile_source})
     except Exception as e:
         errors.append("lead_log: " + str(e)[:120])
 
     return {"audit_id": audit_id, "report_url": report_url, "grade": copy.get("grade"),
             "teaser_url": teaser_url,
             "business_name": prof["business_name"], "domain": domain,
+            "audit_status": audit_status, "profile_source": profile_source,
             "costs": costs, "errors": errors}
+
+
+def run_audit(website, name, email, phone, audit_id=None, email_mode="all", progress=None,
+              business_name=None, place_id=None, cid=None, sales_mode=False,
+              ghl_contact_id=None):
+    """Public entry point: _run_audit plus the guarantee that EVERY attempt
+    lands in leads.jsonl. Virgil Santa's crashed audit (2026-08-14) left no
+    trace in the lead log because the log write sat at the end of the happy
+    path; now a failure appends its own row (audit_status='failed') before
+    re-raising so the caller's failure handling still runs."""
+    audit_id = audit_id or uuid.uuid4().hex[:12]
+    try:
+        return _run_audit(website, name, email, phone, audit_id=audit_id,
+                          email_mode=email_mode, progress=progress,
+                          business_name=business_name, place_id=place_id, cid=cid,
+                          sales_mode=sales_mode, ghl_contact_id=ghl_contact_id)
+    except Exception as e:
+        try:
+            append_lead_jsonl({"audit_id": audit_id, "created_at": _now_iso(),
+                               "name": name, "email": email, "phone": phone,
+                               "domain": _norm_domain(website),
+                               "business_name": business_name, "grade": None,
+                               "report_url": None, "audit_status": "failed",
+                               "error": str(e)[:300]})
+        except Exception:
+            pass
+        raise
 
 
 # ---------------------------------------------------------------------------
@@ -1962,16 +2593,23 @@ Costs: DFS ${dc:.2f} + Claude ${cc:.2f}<br>Errors: {err}</div>""".format(
 
 def main():
     ap = argparse.ArgumentParser(description="Rank AI free-audit pipeline")
-    ap.add_argument("--url", required=True)
+    ap.add_argument("--url", default="", help="lead's website (may be omitted: no-website audit)")
     ap.add_argument("--name", default="")
     ap.add_argument("--email", required=True)
     ap.add_argument("--phone", default="")
     ap.add_argument("--audit-id")
     ap.add_argument("--email-mode", choices=["all", "internal", "none"], default="all")
+    ap.add_argument("--business-name", default="")
+    ap.add_argument("--ghl-contact-id", default="")
+    ap.add_argument("--sales-mode", action="store_true",
+                    help="funnel mode: teaser image + GHL field delivery, no lead email")
     args = ap.parse_args()
     t0 = time.time()
     res = run_audit(args.url, args.name, args.email, args.phone,
-                    audit_id=args.audit_id, email_mode=args.email_mode)
+                    audit_id=args.audit_id, email_mode=args.email_mode,
+                    business_name=args.business_name or None,
+                    sales_mode=args.sales_mode,
+                    ghl_contact_id=args.ghl_contact_id or None)
     print("\n== DONE in {:.0f}s ==".format(time.time() - t0))
     print(json.dumps(res, indent=2))
     return 0
