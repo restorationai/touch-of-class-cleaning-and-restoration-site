@@ -2020,6 +2020,211 @@ def make_teaser_image(business_name, issues_count, grade=None, money=None,
     return buf.getvalue()
 
 
+def render_invisibility_card(business_name, city=None):
+    """Failure-path media (Santino 2026-08-16): when an audit FAILS the nurture
+    SMS still merges audit_teaser_image_url, so the failed branch needs valid,
+    personalized media. This card sells the finding itself: a mock Google
+    results frame ("water damage restoration near me" in a search bar), three
+    greyed redacted competitor rows, then the lead's business struck through
+    and marked "Not found in search results", plus a bold verdict. Same brand
+    look as make_teaser_image (petrol blue, Poppins, white card, yellow name
+    highlight, Restoration AI footer). Pure PIL, deterministic, bundled fonts:
+    renders anywhere the API runs, with ONLY a business name (city optional).
+    No em dashes anywhere on the card."""
+    from PIL import Image, ImageDraw, ImageFont
+    RED = (220, 38, 38)
+    RED_DK = (185, 28, 28)
+    S = 2
+    W, H = 1080 * S, 1350 * S
+    img = Image.new("RGB", (W, H), (241, 245, 249))
+    d = ImageDraw.Draw(img)
+
+    CX0, CY0 = 36 * S, 36 * S
+    CX1, CY1 = W - 36 * S, H - 94 * S
+    CARD_W, CARD_H = CX1 - CX0, CY1 - CY0
+    d.rounded_rectangle([CX0 + 4 * S, CY0 + 7 * S, CX1 + 4 * S, CY1 + 7 * S],
+                        radius=26 * S, fill=(203, 213, 225))
+    card = Image.new("RGB", (CARD_W, CARD_H), (255, 255, 255))
+    dc = ImageDraw.Draw(card)
+    dc.rectangle([0, 0, CARD_W, 12 * S], fill=BLUE)   # top accent bar
+
+    FB = str(ROOT / "assets" / "fonts" / "Poppins-Bold.ttf")
+    FS = str(ROOT / "assets" / "fonts" / "Poppins-SemiBold.ttf")
+    FM = str(ROOT / "assets" / "fonts" / "Poppins-Medium.ttf")
+    FR = str(ROOT / "assets" / "fonts" / "Poppins-Regular.ttf")
+
+    def fit(text, font_path, start, floor, max_w):
+        size = start
+        while size > floor:
+            f = ImageFont.truetype(font_path, size * S)
+            if dc.textlength(text, font=f) <= max_w:
+                return f
+            size -= 2
+        return ImageFont.truetype(font_path, floor * S)
+
+    def wrap(text, font, max_w):
+        words, lines, cur = text.split(), [], ""
+        for w in words:
+            t = (cur + " " + w).strip()
+            if dc.textlength(t, font=font) <= max_w:
+                cur = t
+            else:
+                if cur:
+                    lines.append(cur)
+                cur = w
+        if cur:
+            lines.append(cur)
+        return lines
+
+    def kicker(y, text, size=21):
+        f = ImageFont.truetype(FB, size * S)
+        x = LX
+        for ch in text:
+            dc.text((x, y), ch, font=f, fill=BLUE)
+            x += dc.textlength(ch, font=f) + 3 * S
+        return y + 34 * S
+
+    LX = 52 * S
+    RX = CARD_W - 52 * S
+    CW = RX - LX
+
+    # ---- header: report-style title + THEIR name on the yellow highlight ----
+    name = _strip_dashes((business_name or "Your Business").strip())
+    title_w = CW - 170 * S              # clear the badge column top right
+    f_title = fit("ONLINE VISIBILITY CHECK", FB, 46, 30, title_w)
+    dc.text((LX, 54 * S), "ONLINE VISIBILITY CHECK", font=f_title, fill=INK)
+    f_name = fit(name, FB, 36, 25, title_w - 32 * S)
+    nmw = dc.textlength(name, font=f_name)
+    dc.rounded_rectangle([LX - 6 * S, 128 * S, LX + nmw + 22 * S, 186 * S],
+                         radius=10 * S, fill=(254, 246, 189))
+    dc.text((LX + 8 * S, 135 * S), name, font=f_name, fill=INK)
+    dc.line([LX, 214 * S, RX, 214 * S], fill=(226, 232, 240), width=S)
+
+    # ---- badge top right (the teaser's grade badge slot): a red "?" ----
+    bs = 136 * S
+    bx0, by0 = RX - bs, 44 * S
+    dc.rounded_rectangle([bx0, by0, bx0 + bs, by0 + bs], radius=22 * S,
+                         fill=(254, 242, 242), outline=RED, width=4 * S)
+    f_q = ImageFont.truetype(FB, 84 * S)
+    qw = dc.textlength("?", font=f_q)
+    dc.text((bx0 + (bs - qw) / 2, by0 + 10 * S), "?", font=f_q, fill=RED)
+    f_lab = ImageFont.truetype(FS, 13 * S)
+    lab = "NOT FOUND"
+    lw = dc.textlength(lab, font=f_lab)
+    dc.text((bx0 + (bs - lw) / 2, by0 + bs + 13 * S), lab, font=f_lab, fill=MUTED)
+
+    # ---- verdict block is anchored to the card bottom; measure it first ----
+    head = "We couldn't find your business online"
+    f_vh = ImageFont.truetype(FB, 36 * S)
+    vh_lines = wrap(head, f_vh, CW)[:2]
+    where = "in {} ".format(city.strip()) if (city or "").strip() else ""
+    sub = ("When homeowners {}search for water damage help, "
+           "your competitors get the call.").format(where)
+    f_vs = ImageFont.truetype(FR, 23 * S)
+    vs_lines = wrap(_strip_dashes(sub), f_vs, CW)[:3]
+    vh = 34 * S + len(vh_lines) * 48 * S + 10 * S + len(vs_lines) * 32 * S
+    verdict_top = CARD_H - 40 * S - vh
+
+    # ---- the mock search-results frame fills everything in between ----
+    y = kicker(214 * S + 38 * S, "WHAT HOMEOWNERS SEE")
+    fy0, fy1 = y, verdict_top - 38 * S
+    dc.rounded_rectangle([LX, fy0, RX, fy1], radius=18 * S,
+                         fill=(248, 250, 252), outline=(226, 232, 240), width=2 * S)
+    pad = 28 * S
+    ix0, ix1 = LX + pad, RX - pad
+
+    # search bar: pill, magnifier glass, the query
+    ph = 56 * S
+    py = fy0 + pad
+    dc.rounded_rectangle([ix0, py, ix1, py + ph], radius=ph // 2,
+                         fill=(255, 255, 255), outline=(203, 213, 225), width=2 * S)
+    mcx, mcy, mr = ix0 + 30 * S, py + ph // 2 - 3 * S, 10 * S
+    dc.ellipse([mcx - mr, mcy - mr, mcx + mr, mcy + mr],
+               outline=(100, 116, 139), width=3 * S)
+    dc.line([mcx + mr - 2 * S, mcy + mr - 2 * S, mcx + mr + 7 * S, mcy + mr + 7 * S],
+            fill=(100, 116, 139), width=3 * S)
+    query = "water damage restoration near me"
+    f_qr = fit(query, FM, 25, 18, ix1 - (ix0 + 58 * S) - 20 * S)
+    dc.text((ix0 + 58 * S, py + (ph - f_qr.size) / 2 - 2 * S), query, font=f_qr, fill=INK)
+    y = py + ph
+    if (city or "").strip():
+        f_cy = ImageFont.truetype(FR, 20 * S)
+        dc.text((ix0 + 6 * S, y + 12 * S), "Showing results near " + city.strip(),
+                font=f_cy, fill=MUTED)
+        y += 42 * S
+
+    # the lead's row: tinted, outlined, name struck through, "Not found" label
+    hl_h = 106 * S
+    hy1 = fy1 - pad
+    hy0 = hy1 - hl_h
+    dc.rounded_rectangle([ix0, hy0, ix1, hy1], radius=14 * S,
+                         fill=(254, 242, 242), outline=RED, width=3 * S)
+    f_x = ImageFont.truetype(FB, 34 * S)
+    dc.text((ix0 + 26 * S, hy0 + 18 * S), "×", font=f_x, fill=RED)
+    nx = ix0 + 78 * S
+    f_hn = fit(name, FS, 28, 18, ix1 - nx - 26 * S)
+    hnw = dc.textlength(name, font=f_hn)
+    nty = hy0 + 20 * S
+    dc.text((nx, nty), name, font=f_hn, fill=INK)
+    dc.line([nx - 4 * S, nty + f_hn.size * 0.58, nx + hnw + 6 * S, nty + f_hn.size * 0.58],
+            fill=RED, width=4 * S)
+    f_nf = ImageFont.truetype(FS, 21 * S)
+    dc.text((nx, hy0 + 60 * S), "Not found in search results", font=f_nf, fill=RED_DK)
+
+    # 3 greyed competitor rows, spread evenly between search bar and lead row
+    rows_top = y + 24 * S
+    rows_bot = hy0 - 20 * S
+    row_h = 74 * S
+    n_rows = 3
+    gap = (rows_bot - rows_top - n_rows * row_h) // max(n_rows - 1, 1)
+    gap = min(max(gap, 10 * S), 44 * S)   # capped, block centered in the frame
+    block_h = n_rows * row_h + (n_rows - 1) * gap
+    ry = rows_top + max(0, (rows_bot - rows_top - block_h) // 2)
+    for i in range(n_rows):
+        av_r = 22 * S
+        acx, acy = ix0 + 8 * S + av_r, ry + row_h // 2
+        dc.ellipse([acx - av_r, acy - av_r, acx + av_r, acy + av_r],
+                   fill=(226, 232, 240))
+        tx = ix0 + 8 * S + 2 * av_r + 22 * S
+        tw = int((ix1 - tx) * (0.52 - 0.06 * i))
+        dc.rounded_rectangle([tx, ry + 8 * S, tx + tw, ry + 26 * S],
+                             radius=9 * S, fill=(148, 163, 184))
+        lw1 = int((ix1 - tx) * 0.86)
+        dc.rounded_rectangle([tx, ry + 36 * S, tx + lw1, ry + 48 * S],
+                             radius=6 * S, fill=(222, 228, 236))
+        lw2 = int((ix1 - tx) * (0.64 + 0.05 * i))
+        dc.rounded_rectangle([tx, ry + 56 * S, tx + lw2, ry + 68 * S],
+                             radius=6 * S, fill=(226, 232, 240))
+        ry += row_h + gap
+
+    # ---- verdict ----
+    y = kicker(verdict_top, "THE VERDICT")
+    for line in vh_lines:
+        dc.text((LX, y), line, font=f_vh, fill=INK)
+        y += 48 * S
+    y += 10 * S
+    for line in vs_lines:
+        dc.text((LX, y), line, font=f_vs, fill=MUTED)
+        y += 32 * S
+
+    # paste card through rounded mask, footer on the bg (same as the teaser)
+    mask = Image.new("L", (CARD_W, CARD_H), 0)
+    ImageDraw.Draw(mask).rounded_rectangle([0, 0, CARD_W, CARD_H], radius=26 * S, fill=255)
+    img.paste(card, (CX0, CY0), mask)
+    d.rounded_rectangle([CX0, CY0, CX1, CY1], radius=26 * S, outline=(226, 232, 240), width=S)
+
+    foot = "Prepared by Restoration AI  •  restorationai.io"
+    f_foot = ImageFont.truetype(FS, 20 * S)
+    fw = d.textlength(foot, font=f_foot)
+    d.text(((W - fw) / 2, H - 66 * S), foot, font=f_foot, fill=(120, 134, 156))
+
+    img = img.resize((1080, 1350), Image.LANCZOS)
+    import io
+    buf = io.BytesIO()
+    img.save(buf, "PNG")
+    return buf.getvalue()
+
+
 def _ghl(method, path, params=None, body=None, add_loc=True):
     key = os.environ.get("GHL_API_KEY")
     loc = os.environ.get("GHL_LOCATION_ID")

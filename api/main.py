@@ -944,6 +944,7 @@ def _notify_lead_audit_failure(job_id: str, req: "LeadAuditRequest", error: str,
         lead-facing on this tag — silence beats falsely telling a lead
         with a working site that it is down.
     """
+    card_url = None
     if req.source:
         try:
             import lead_audit  # scripts/ is on sys.path
@@ -957,6 +958,34 @@ def _notify_lead_audit_failure(job_id: str, req: "LeadAuditRequest", error: str,
                 if res.get("contacts"):
                     contact_id = res["contacts"][0]["id"]
                     break
+            # Invisibility card: the failed branch's SMS merges the SAME
+            # audit_teaser_image_url field the success path fills, so a failed
+            # run still needs valid, personalized media (empty merges = broken
+            # MMS). The card sells the finding itself: a mock search-results
+            # frame with the lead's business marked "Not found". Name comes
+            # from the form (business/company beats person), then the GHL
+            # contact's companyName. No name at all = no card (never generic).
+            card_name = (req.business_name or "").strip()
+            person = (req.name or "").strip()
+            if contact_id and not card_name:
+                try:
+                    c = (lead_audit._ghl("GET", "/contacts/{}".format(contact_id),
+                                         params={}) or {}).get("contact") or {}
+                    card_name = (c.get("companyName") or "").strip()
+                    person = person or " ".join(
+                        p for p in (c.get("firstName"), c.get("lastName")) if p).strip()
+                except Exception:
+                    pass
+            card_name = card_name or person
+            if card_name:
+                try:
+                    png = lead_audit.render_invisibility_card(card_name)
+                    key = "{}/{}/invisible.png".format(
+                        lead_audit.PREFIX, job_id.replace("-", "")[:12])
+                    if lead_audit.r2_put(lead_audit.BUCKET, key, png, "image/png"):
+                        card_url = "{}/{}".format(lead_audit.PUBLIC_BASE, key)
+                except Exception:
+                    card_url = None
             if contact_id:
                 tag = "website down" if site_down else "audit failed"
                 lead_audit._ghl("POST", "/contacts/{}/tags".format(contact_id),
@@ -964,14 +993,22 @@ def _notify_lead_audit_failure(job_id: str, req: "LeadAuditRequest", error: str,
                 # The GHL workflow branches its messaging on the audit_status
                 # custom field — write 'failed' so the field is never left
                 # empty on ANY outcome (empty merges sent Virgil Santa an SMS
-                # with blank fields, 2026-08-14).
+                # with blank fields, 2026-08-14). The invisibility card rides
+                # along in audit_teaser_image_url so the failed-branch SMS
+                # always has valid media.
                 try:
                     ids = lead_audit._ghl_custom_field_ids()
+                    cf = []
                     if ids.get("audit_status"):
+                        cf.append({"id": ids["audit_status"],
+                                   "field_value": "failed"})
+                    if card_url and ids.get("audit_teaser_image_url"):
+                        cf.append({"id": ids["audit_teaser_image_url"],
+                                   "field_value": card_url})
+                    if cf:
                         lead_audit._ghl(
                             "PUT", "/contacts/{}".format(contact_id), params={},
-                            body={"customFields": [
-                                {"id": ids["audit_status"], "field_value": "failed"}]})
+                            body={"customFields": cf})
                 except Exception:
                     pass
         except Exception:
@@ -989,11 +1026,13 @@ def _notify_lead_audit_failure(job_id: str, req: "LeadAuditRequest", error: str,
                 "Lead audit job {} failed.\n\nLead: {} <{}> {}\n"
                 "Website: {}\nBusiness: {}\nError: {}\n"
                 "Classification: {}\n\n"
-                "The lead got NO report — follow up or re-run manually.".format(
+                "The lead got NO report — follow up or re-run manually.{}".format(
                     job_id, req.name, req.email, req.phone,
                     req.website or req.domain, req.business_name, error,
                     "WEBSITE DOWN (lead tagged 'website down')" if site_down
-                    else "audit failed (site may be fine — lead tagged 'audit failed')")}]})
+                    else "audit failed (site may be fine — lead tagged 'audit failed')",
+                    "\nInvisibility card (on the contact's teaser field): " + card_url
+                    if card_url else "")}]})
         urllib.request.urlopen(urllib.request.Request(
             "https://api.sendgrid.com/v3/mail/send", method="POST",
             data=body.encode(),
