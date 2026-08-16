@@ -60,7 +60,7 @@ export const brand = {
     "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-14.jpg",
     "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784905385326/job-photos/fb-49.jpg",
   ] as string[],
-  sameAsUrls: [] as string[],
+  sameAsUrls: ["https://maps.google.com/maps?cid=2026903256792048016", "https://www.bbb.org/us/nc/middlesex/profile/restoration-companies/go-green-restoration-of-nc-0593-90323300", "https://www.angi.com/companylist/us/nc/emit/go-green-restoration-of-nc-reviews-163326768.htm", "https://www.facebook.com/gogreenrestorationsofnc/", "https://pro.porch.com/wendell-nc/mold-removal-specialists/go-green-restoration-of-nc/pp", "https://homeguide.com/nc/wilson/water-damage-restoration/go-green-restoration-of-nc-J3JJ01_O8"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "",
