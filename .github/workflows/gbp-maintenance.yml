@@ -108,6 +108,22 @@ jobs:
           DATAFORSEO_PASSWORD:        ${{ secrets.DATAFORSEO_PASSWORD }}
         run: python3 scripts/gbp_site_parity.py --all --apply
 
+      - name: Execute approved service trims (gbp_service_trim --all --apply)
+        # The executor for the parity checker's "dead weight services" cards:
+        # whatever a human APPROVED in the app since the last run gets removed
+        # from the live listing (exact-name match only, validateOnly preflight,
+        # full-list PATCH minus the trims, re-read verify), one plain
+        # marketing_gbp_changes row + work_log line per card, card flipped to
+        # resolved. A name that can't be exact-matched refuses the whole card
+        # and files a [TODO-SANTINO] ops note instead. Maiden voyage Air Care
+        # 2026-08-17 (41 -> 40 items). No approved cards = clean no-op.
+        env:
+          SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY:  ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          GOOGLE_OAUTH_CLIENT_ID:     ${{ secrets.GOOGLE_OAUTH_CLIENT_ID }}
+          GOOGLE_OAUTH_CLIENT_SECRET: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
+        run: python3 scripts/gbp_service_trim.py --all --apply
+
       - name: Drain page-build queue and deploy (create-pages --build)
         if: ${{ github.event.inputs.build_pages != 'false' }}
         env:
