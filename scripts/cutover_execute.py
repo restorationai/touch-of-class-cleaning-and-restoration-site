@@ -63,10 +63,26 @@ Commands:
                              provider=citations nap_audit. The before/after
                              benchmark. Skipped if already captured.
 
+    provision --slug X [--apply]
+        Phases 2+3 ONLY: find/create the Cloudflare zone, snapshot + copy
+        email DNS, and report the zone's assigned nameserver pair — WITHOUT
+        the site-readiness pre-flight (pushed_main / brand.ts hydration).
+        For clients whose build is still staging-only: the NS pair only
+        exists once the zone does, and provisioning early lets the client
+        start the registrar transfer while the site is finished. DRY-RUN BY
+        DEFAULT like run. The full `run` still gates the actual launch
+        (attach/stamp/verify) on its pre-flight. Exit codes: 0 = NS already
+        point at our zone, 3 = provisioned + waiting on transfer (the
+        expected end-state), 2 = failed.
+
     status --slug X
         Machine-readable JSON of phase readiness (prep/email/ns/attach/
         verify) on stdout — the app's readiness panel renders this. Safe,
-        read-only, no paid calls.
+        read-only, no paid calls, NEVER creates the zone. Carries a
+        top-level ns object — {required: [pair]|null, current: [DoH
+        observation]|null, zone_exists: bool} — so the app can always show
+        WHICH nameservers the client must set (required is null until the
+        zone exists).
 
 Exit codes for run: 0 = all critical phases passed (site verified LIVE),
 3 = stopped waiting on nameserver transfer (the expected mid-state),
@@ -1000,13 +1016,81 @@ def cmd_run(slug: str, apply: bool) -> int:
 
 
 # ---------------------------------------------------------------------------
+# provision — phases 2+3 only (zone + email snapshot + NS report)
+# ---------------------------------------------------------------------------
+
+def cmd_provision(slug: str, apply: bool) -> int:
+    """Provision the domain WITHOUT the site-readiness pre-flight.
+
+    Built for the Air Care case (2026-08-17): the build is staging-only —
+    pushed_main is unmet so `run --apply` rightly refuses at PRE-FLIGHT —
+    but the Cloudflare zone must exist before there IS a nameserver pair to
+    hand the client, and the email snapshot should be captured while the OLD
+    site's DNS still serves. This executes exactly phases 2 (zone + email
+    safety) and 3 (NS gate) and reports the assigned pair. It never
+    attaches, stamps, or verifies — the full `run` owns those behind its
+    pre-flight."""
+    mode = "APPLY" if apply else "DRY RUN"
+    print(f"== PROVISION {slug} (zone + email snapshot + NS report) — {mode} ==")
+    domain = resolve_domain_soft(slug)
+    if not domain:
+        print(f"no real domain on clients/{slug}.json (domain and "
+              "cutover_prep.domain both empty/.invalid) — attach one first")
+        return 2
+    print(f"domain: {domain}")
+
+    # informational only — the 301 harvest belongs to run's pre-flight, but
+    # it must happen while the old site still serves, so say so out loud.
+    prep = ch.client_record(slug).get("cutover_prep") or {}
+    age = ch._prep_age_days(prep)
+    if age is None or age > ch.STALE_DAYS:
+        print(f"  note: cutover_prep {'missing' if age is None else f'{age:.0f}d stale'}"
+              " — capture the 301 harvest while the old site still serves"
+              " (cutover_harvest harvest + map --apply, or the full run)")
+    else:
+        print(f"  cutover_prep fresh: harvested {age:.1f}d ago, "
+              f"{prep.get('url_count')} URLs, {prep.get('redirects_added')} redirects staged")
+
+    def report(ph: Phase, idx: int) -> None:
+        print(f"[{idx}/2] {ph.name:<22} {'ok' if ph.ok else 'STOP'}")
+        for n in ph.notes:
+            print(f"       - {n}")
+
+    ph2, zone = phase_zone_email(slug, domain, apply)
+    report(ph2, 1)
+    if not ph2.ok and apply:
+        commit_artifacts(slug)  # the snapshot is knowledge worth keeping
+        print("\n== STOPPED at ZONE + EMAIL SAFETY — fix and re-run (idempotent) ==")
+        return 2
+
+    ph3 = phase_ns(domain, zone)
+    report(ph3, 2)
+    if apply:
+        commit_artifacts(slug)
+
+    pair = ", ".join((zone or {}).get("name_servers") or [])
+    if ph3.waiting_on_ns:
+        print(f"\n== PROVISIONED — WAITING ON NAMESERVER TRANSFER — client must set: "
+              f"{pair or '(no zone yet — re-run with --apply to create it)'} ==")
+        print("   launch itself stays behind the full run's site-readiness pre-flight")
+        return 3
+    if not ph3.ok or not ph2.ok:
+        print("\n== provision not clean — see notes above; re-run is safe ==")
+        return 2
+    print(f"\n== PROVISIONED — nameservers already point at our zone ({pair}) ==")
+    print("   next: the full `run --apply` (pre-flight + attach + verify)")
+    return 0
+
+
+# ---------------------------------------------------------------------------
 # status — the JSON the app's readiness panel polls
 # ---------------------------------------------------------------------------
 
 def cmd_status(slug: str) -> int:
     out: dict = {"slug": slug, "checked_at": now_iso(), "domain": None,
-                 "apex_live": False, "cut_over_at": None, "phases": {},
-                 "next_action": "prep_incomplete"}
+                 "apex_live": False, "cut_over_at": None,
+                 "ns": {"required": None, "current": None, "zone_exists": False},
+                 "phases": {}, "next_action": "prep_incomplete"}
     try:
         rec = ch.client_record(slug)
     except SystemExit:
@@ -1098,6 +1182,15 @@ def cmd_status(slug: str) -> int:
         except Exception:
             pass
     ns_ready = bool(expected_ns) and current_ns == expected_ns
+    # Top-level nameserver facts for the app's reference block (Santino
+    # 2026-08-17: "Check launch readiness" never showed WHICH nameservers the
+    # client must set). `required` is the zone's ASSIGNED pair — it only
+    # exists once the zone does; status stays strictly read-only, so a
+    # missing zone reports null here and `run --apply` / `provision --apply`
+    # are what create it.
+    out["ns"] = {"required": expected_ns or None,
+                 "current": current_ns or None,
+                 "zone_exists": bool(zone)}
     ph["ns"] = {"ready": ns_ready, "expected_ns": expected_ns or None,
                 "current_ns": current_ns or None,
                 "detail": ("nameservers point at our zone" if ns_ready else
@@ -1160,11 +1253,19 @@ def main() -> int:
     pr.add_argument("--slug", required=True)
     pr.add_argument("--apply", action="store_true",
                     help="actually create/attach/stamp (default: report only)")
+    pp = sub.add_parser("provision",
+                        help="phases 2+3 only: zone + email snapshot + NS "
+                             "report, no site-readiness pre-flight")
+    pp.add_argument("--slug", required=True)
+    pp.add_argument("--apply", action="store_true",
+                    help="actually create the zone + copy email records")
     ps = sub.add_parser("status", help="JSON phase readiness for the app")
     ps.add_argument("--slug", required=True)
     args = ap.parse_args()
     if args.cmd == "run":
         return cmd_run(args.slug, args.apply)
+    if args.cmd == "provision":
+        return cmd_provision(args.slug, args.apply)
     return cmd_status(args.slug)
 
 
