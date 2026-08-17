@@ -48,9 +48,16 @@ export const brand = {
   sameAsUrls: ["https://www.yelp.com/biz/RjvrqMiPOqSCv-PxuabE1w", "https://www.bbb.org/us/tx/abilene/profile/flood-emergency/air-care-restoration-llc-0795-48105", "https://www.facebook.com/aircarerestorationtx/"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
-  gbpRatingValue: "",
-  gbpReviewCount: "",
-  gbpReviews: [] as { author: string; rating: number; text: string; when: string }[],
+  gbpRatingValue: "5.0",
+  gbpReviewCount: "8",
+  gbpReviews: [
+    { author: "Bayli", rating: 5, text: "I had an amazing experience with Air Care Restoration! From the moment I called, the team was professional, friendly, and quick to respond. They explained everything clearly, arrived on time, and treated my home with care and respect. Their attention to detail and quality of work exceeded my…", when: "August 2026" },
+    { author: "Emily", rating: 5, text: "Absolutely AMAZING! Such knowledgeable, considerate and caring staff. The Owner, Sarha m, was wonderful to work with. HIGHLY recommend!! Thank you for all your amazing help Sarha!", when: "August 2026" },
+    { author: "Catherine", rating: 5, text: "Unfortunately my water heater busted and flooded part of my home. I called this company. They were prompt, professional and kind. I've never dealt with something like this and they were very knowledgeable and helped me every step of the way. Can't recommend air care enough", when: "August 2026" },
+    { author: "Tiffany", rating: 5, text: "This company exceeds the expectations of any restoration company. The compassion, attention to detail and work ethic are commendable. 10 out of 10, I would recommend for your water, fire and mold needs.", when: "August 2026" },
+    { author: "Sabrina", rating: 5, text: "Such a wonderful company!!! Sarha is an amazing person to work with she makes the whole process so easy!! Highly recommend!!!", when: "August 2026" },
+    { author: "Mikayla", rating: 5, text: "I had an outstanding experience with Air Care Restoration. They responded within an hour and arrived fully equipped, and immediately assessed the damage with professional care. The crew worked quickly and efficiently to extract water, thoroughly dry, affected areas and prevented mold. They even…", when: "August 2026" },
+  ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Abilene, TX.",
   ctaLabel: "24/7 Emergency Line",
   // Vertical trade-identity copy — resolved at scaffold time from
