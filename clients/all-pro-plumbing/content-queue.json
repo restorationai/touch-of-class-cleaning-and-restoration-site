@@ -164,10 +164,10 @@
     },
     {
       "id": "2026-07-27-does-homeowners-insurance-cover-slab-leak-repair",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-07-27T20:50:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-08-17T17:42:25Z",
+      "post_url": "https://allproplumbingheatingandair.com/blog/does-homeowners-insurance-cover-slab-leak-repair/",
       "primary_keyword": "does homeowners insurance cover slab leak repair",
       "intent": "informational",
       "volume": 170,
@@ -414,6 +414,169 @@
         "https://www.energy.gov/energysaver/central-air-conditioning"
       ],
       "notes": "Clogged condensate drain line is the usual cause, then frozen evaporator coil and a rusted/overflowing drain pan. Keep this on the AC side: stopping the leak and clearing the drain. Do NOT drift into drying out the ceiling or water-damage cleanup, that is the restoration vertical and the sister company's turf per linking-rules.json."
+    },
+    {
+      "id": "2026-08-17-what-does-a-plumber-do",
+      "status": "queued",
+      "queued_at": "2026-08-17T17:38:35Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what does a plumber do",
+      "intent": "informational",
+      "volume": 3600,
+      "kd": 21,
+      "fan_out_cluster": [
+        "what jobs does a residential plumber handle",
+        "when should you call a plumber instead of a handyman",
+        "what is the difference between a plumber and a drain cleaning company",
+        "what does a plumber do on a service call",
+        "what plumbing work requires a permit in california",
+        "what can a plumber fix that you cannot fix yourself"
+      ],
+      "suggested_slug": "what-does-a-plumber-do",
+      "suggested_title": "What does a plumber do (and when you actually need to call one)",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/",
+        "/services/emergency-plumbing/",
+        "/services/drain-cleaning/",
+        "/services/water-heater-repair/",
+        "/service-areas/bakersfield-ca/"
+      ],
+      "service_tags": [
+        "emergency-plumbing",
+        "drain-cleaning",
+        "water-heater-repair",
+        "sewer-line-repair",
+        "leak-detection"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.cslb.ca.gov/Consumers/",
+        "https://www.epa.gov/watersense"
+      ],
+      "notes": "Highest-volume uncovered informational term for this seed (3,600/mo, KD 21) and the natural topical hub for the whole plumbing service catalog. Structure as scannable question H2s so AI engines can lift passages: what a plumber does day to day, the job categories (drains and sewers, water heaters, leaks and repipes, gas lines, fixtures), plumber vs handyman vs drain-only company, and when a job needs a permit. Bakersfield hook: slab foundations and hard municipal water mean slab leaks and scale-killed water heaters are the two calls that most often surprise homeowners. Link out to every service landing page: this is the internal-linking anchor post. LICENSE GATE: never call All Pro licensed, certified or bonded in this post. CSLB 960566 is held by PRO RESTORATION SERVICES INC and the All Pro DBA is unconfirmed. Frame every licensing point in second person (what you should check on any contractor) and link the CSLB lookup. SCOPE GATE: stay on stopping the water and fixing the pipe. Do not mention mold remediation, structural drying or reconstruction (restoration vertical, sister company ProRestoration Services).",
+      "source": "rank-ai-keyword-researcher"
+    },
+    {
+      "id": "2026-08-17-how-much-does-a-plumber-cost-to-unclog-a-toilet",
+      "status": "queued",
+      "queued_at": "2026-08-17T17:38:35Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how much does a plumber cost to unclog a toilet",
+      "intent": "commercial",
+      "volume": 590,
+      "kd": 0,
+      "fan_out_cluster": [
+        "how much does it cost for plumber to unclog toilet",
+        "toilet auger vs plunger when to call a plumber",
+        "why does my toilet keep clogging",
+        "how much does it cost to remove and reset a toilet",
+        "clogged toilet emergency after hours cost",
+        "signs a toilet clog is actually a main line clog"
+      ],
+      "suggested_slug": "how-much-does-a-plumber-cost-to-unclog-a-toilet",
+      "suggested_title": "How much does a plumber cost to unclog a toilet? Bakersfield price ranges",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/toilet-faucet-repair/",
+        "/services/drain-cleaning/",
+        "/services/sewer-line-repair/",
+        "/service-areas/bakersfield-ca/toilet-faucet-repair/"
+      ],
+      "service_tags": [
+        "toilet-faucet-repair",
+        "drain-cleaning",
+        "sewer-line-repair"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.epa.gov/watersense/residential-toilets"
+      ],
+      "notes": "Price by escalation tier rather than one number: auger from the bowl, pull-and-reset, branch line, main line, camera inspection. Complements the already-queued 'unclog a drain' post: that one prices drains and sewer laterals, this one stays on the toilet and hands off to it, so cross-link instead of restating. Key diagnostic hook readers search for: if the tub gurgles when the toilet flushes it is a main line, not a toilet. Brand hours are 24/7 so the after-hours premium can be described plainly. LICENSE GATE: never call All Pro licensed, certified or bonded in this post. CSLB 960566 is held by PRO RESTORATION SERVICES INC and the All Pro DBA is unconfirmed. Frame every licensing point in second person (what you should check on any contractor) and link the CSLB lookup. SCOPE GATE: stay on stopping the water and fixing the pipe. Do not mention mold remediation, structural drying or reconstruction (restoration vertical, sister company ProRestoration Services).",
+      "source": "rank-ai-keyword-researcher"
+    },
+    {
+      "id": "2026-08-17-how-much-does-a-plumber-cost-to-fix-a-pipe",
+      "status": "queued",
+      "queued_at": "2026-08-17T17:38:35Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how much does a plumber cost to fix a pipe",
+      "intent": "commercial",
+      "volume": 170,
+      "kd": 1,
+      "fan_out_cluster": [
+        "how much does a plumber cost to fix a leak",
+        "cost to repair a burst pipe",
+        "galvanized pipe replacement cost per foot",
+        "pinhole leak in copper pipe repair cost",
+        "when a pipe repair turns into a repipe",
+        "does homeowners insurance cover a burst pipe",
+        "how much does slab leak pipe repair cost"
+      ],
+      "suggested_slug": "how-much-does-a-plumber-cost-to-fix-a-pipe",
+      "suggested_title": "How much does a plumber cost to fix a pipe? Repair pricing by pipe type and location",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/burst-pipe-repair/",
+        "/services/leak-detection/",
+        "/services/slab-leak-repair/",
+        "/services/repiping/",
+        "/service-areas/bakersfield-ca/burst-pipe-repair/"
+      ],
+      "service_tags": [
+        "burst-pipe-repair",
+        "leak-detection",
+        "slab-leak-repair",
+        "repiping"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.epa.gov/watersense/fix-leak-week"
+      ],
+      "notes": "Absorbs the sibling term 'how much does a plumber cost to fix a leak' (90/mo, KD 16), which is parked at priority 2 in the bank rather than queued so the two do not cannibalise. Price by three axes: pipe material (galvanized, copper, PEX, cast iron), location (accessible, in-wall, under slab), and access cost, because access is usually the bigger line item. Two strong local hooks: pre-1970 homes in Oleander, Westchester and East Bakersfield still run galvanized supply, and Tehachapi at 4,000 ft is the one service-area city that actually freezes and bursts pipes. Include the repair-vs-repipe decision point. LICENSE GATE: never call All Pro licensed, certified or bonded in this post. CSLB 960566 is held by PRO RESTORATION SERVICES INC and the All Pro DBA is unconfirmed. Frame every licensing point in second person (what you should check on any contractor) and link the CSLB lookup. SCOPE GATE: stay on stopping the water and fixing the pipe. Do not mention mold remediation, structural drying or reconstruction (restoration vertical, sister company ProRestoration Services).",
+      "source": "rank-ai-keyword-researcher"
+    },
+    {
+      "id": "2026-08-17-do-plumbers-give-free-estimates",
+      "status": "queued",
+      "queued_at": "2026-08-17T17:38:35Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "do plumbers give free estimates",
+      "intent": "informational",
+      "volume": 110,
+      "kd": 0,
+      "fan_out_cluster": [
+        "do plumbers charge for estimates",
+        "plumber near me free estimate",
+        "what is a plumbing diagnostic fee",
+        "should a plumber give a written estimate before starting work",
+        "flat rate vs hourly plumbing quotes",
+        "how many plumbing quotes should you get"
+      ],
+      "suggested_slug": "do-plumbers-give-free-estimates",
+      "suggested_title": "Do plumbers give free estimates? How plumbing quotes and diagnostic fees really work",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/contact/",
+        "/services/",
+        "/services/leak-detection/",
+        "/service-areas/bakersfield-ca/"
+      ],
+      "service_tags": [
+        "emergency-plumbing",
+        "leak-detection",
+        "drain-cleaning"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.cslb.ca.gov/Consumers/Hire_A_Contractor/"
+      ],
+      "notes": "Trust and pricing-transparency topic that also captures the transactional 'plumber near me free estimate' cluster (2,900/mo) which has no commercial page of its own. Explain the real distinction honestly: a quote on visible, straightforward work is usually free, while diagnostic work that takes time and equipment (leak detection, camera inspection) normally carries a fee that is often credited to the repair. Complements /blog/how-to-find-a-good-plumber/ (vetting) and /blog/how-much-does-a-plumber-cost-per-hour/ (rates) rather than repeating them. Do not state All Pro's own estimate policy unless it is confirmed in plan-input. LICENSE GATE: never call All Pro licensed, certified or bonded in this post. CSLB 960566 is held by PRO RESTORATION SERVICES INC and the All Pro DBA is unconfirmed. Frame every licensing point in second person (what you should check on any contractor) and link the CSLB lookup. SCOPE GATE: stay on stopping the water and fixing the pipe. Do not mention mold remediation, structural drying or reconstruction (restoration vertical, sister company ProRestoration Services).",
+      "source": "rank-ai-keyword-researcher"
     }
   ]
 }
