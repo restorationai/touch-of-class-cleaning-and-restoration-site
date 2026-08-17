@@ -1,5 +1,5 @@
 {
-  "cursor": "2026-08-17T14:26:34Z",
+  "cursor": "2026-08-17T23:37:15Z",
   "processed_intake_ids": [
     "fc44dd89-d909-44f9-93f6-794f847caf15",
     "6b16a3b8-90f1-4cdc-bb25-93335099c603",
@@ -74,7 +74,9 @@
     "0bd3bc8d-9b1b-4fa6-90ba-a5ce9452a461",
     "c38598e4-0ccf-4b9d-9cad-e889025ca258",
     "d9677fa9-2fa0-4dde-b2d7-d7358fcdbfca",
-    "464f4c90-654f-4795-b66b-28deb6c40823"
+    "464f4c90-654f-4795-b66b-28deb6c40823",
+    "84bf0359-8c16-4d73-8120-44560c4d7e8d",
+    "3a3a16b6-c8f1-41c9-b503-7c1b9e207efe"
   ],
   "processed_plan_events": [
     "80fd3777-f57b-4a61-9cf4-dc4e7d243cd1:done",
@@ -124,5 +126,5 @@
     "41c88a04-e75e-4fb5-b97c-431226a47c59:approved",
     "d9b1727c-844f-43e9-8a72-9b38969f2eab:approved"
   ],
-  "last_run_at": "2026-08-17T14:26:34.419274+00:00"
+  "last_run_at": "2026-08-17T23:37:15.129094+00:00"
 }
