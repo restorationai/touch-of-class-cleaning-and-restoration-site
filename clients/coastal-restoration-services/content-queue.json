@@ -101,10 +101,10 @@
     },
     {
       "id": "2026-08-10-water-damage-restoration-cost",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-08-10T17:42:32Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-08-17T17:58:02Z",
+      "post_url": "https://None/blog/water-damage-restoration-cost/",
       "primary_keyword": "water damage restoration cost",
       "intent": "commercial",
       "volume": 880,
@@ -287,6 +287,192 @@
       ],
       "notes": "Decision-stage: this reader is 24 to 48 hours from hiring someone. Frame it as deductible vs likely repair cost vs premium impact, and note that CA Dept of Insurance recommends reporting promptly even when undecided. Offer a no-charge moisture assessment as the CTA.",
       "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-08-17-water-damage-restoration-equipment",
+      "status": "queued",
+      "queued_at": "2026-08-17T17:55:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "water damage restoration equipment",
+      "intent": "informational",
+      "volume": 170,
+      "kd": 0,
+      "fan_out_cluster": [
+        "air movers vs box fans water damage",
+        "dehumidifier for water damage restoration",
+        "moisture meter water damage inspection",
+        "thermal imaging camera water leak detection",
+        "negative air machine water damage",
+        "how long do drying fans stay in the house"
+      ],
+      "suggested_slug": "water-damage-restoration-equipment",
+      "suggested_title": "Water damage restoration equipment: what the pros bring to your home (and why)",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/service-areas/santa-maria-ca/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.epa.gov/mold/mold-cleanup-your-home"
+      ],
+      "notes": "Lead with what the homeowner actually sees on day one: air movers, LGR dehumidifiers, moisture meters, thermal cameras. Tie to Coastal's ASD (Applied Structural Drying) certification. Explain why DIY box fans push moisture into wall cavities instead of removing it. Good AI-retrieval passage target: a plain table of equipment, what it does, how long it runs."
+    },
+    {
+      "id": "2026-08-17-water-damage-restoration-process",
+      "status": "queued",
+      "queued_at": "2026-08-17T17:55:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "water damage restoration process",
+      "intent": "informational",
+      "volume": 110,
+      "kd": 6,
+      "fan_out_cluster": [
+        "water damage inspection and assessment",
+        "water extraction process",
+        "structural drying and dehumidification",
+        "cleaning and sanitizing after water damage",
+        "water damage repairs and reconstruction",
+        "how long does the restoration process take"
+      ],
+      "suggested_slug": "water-damage-restoration-process",
+      "suggested_title": "The water damage restoration process, step by step (what happens after you call)",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/sewage-cleanup/",
+        "/services/mold-remediation/",
+        "/service-areas/santa-maria-ca/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "sewage-cleanup",
+        "mold-remediation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Mirrors the existing /blog/fire-damage-restoration-process/ post for the water side, so match its structure for internal-link symmetry. Six numbered phases: assessment, extraction, drying, cleaning/sanitizing, repairs, prevention. Include the IICRC S500 water categories (1/2/3) since that is the passage AI assistants quote. Santa Maria angle: coastal humidity extends drying time versus inland Central Valley jobs."
+    },
+    {
+      "id": "2026-08-17-how-soon-can-mold-develop-after-water-damage",
+      "status": "queued",
+      "queued_at": "2026-08-17T17:55:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how soon can mold develop after water damage",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "mold growth timeline after a leak",
+        "24 to 48 hour mold window",
+        "does drying prevent mold after water damage",
+        "hidden mold behind drywall after a flood",
+        "humidity level that causes mold growth",
+        "when to call mold remediation after water damage"
+      ],
+      "suggested_slug": "how-soon-can-mold-develop-after-water-damage",
+      "suggested_title": "How soon can mold develop after water damage? The 24 to 48 hour window explained",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/service-areas/santa-maria-ca/mold-remediation/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
+        "https://www.cdc.gov/mold/about/index.html"
+      ],
+      "notes": "Highest-urgency question in the seed family and pure AI-retrieval fuel: answer the timeline in the first 40 words so assistants can lift it. Distinguish visible growth from colonization. Cross-link to /blog/signs-of-hidden-mold/ rather than repeating the signs list. Coastal marine layer keeps indoor humidity high year round on the Central Coast, which shortens the safe window versus dry climates."
+    },
+    {
+      "id": "2026-08-17-how-long-does-it-take-to-dry-out-water-damage",
+      "status": "queued",
+      "queued_at": "2026-08-17T17:55:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how long does it take to dry out water damage",
+      "intent": "informational",
+      "volume": 10,
+      "kd": 0,
+      "fan_out_cluster": [
+        "how long to dry out drywall after a leak",
+        "drying time for hardwood floors water damage",
+        "how long do air movers need to run",
+        "when is a structure considered dry",
+        "why drying takes longer in humid coastal climates",
+        "daily moisture readings during drying"
+      ],
+      "suggested_slug": "how-long-does-it-take-to-dry-out-water-damage",
+      "suggested_title": "How long does it take to dry out water damage? Realistic timelines by material",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/crawl-space-encapsulation/",
+        "/service-areas/santa-maria-ca/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "crawl-space-encapsulation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Give a material-by-material table (drywall, framing, hardwood, concrete, insulation) with day ranges, then explain the variables. The honest answer (3 to 5 days for a standard job, longer for hardwood and crawl spaces) builds trust. Reference daily moisture-reading logs as the proof of completion, which sets Coastal apart from dry-and-dash operators."
+    },
+    {
+      "id": "2026-08-17-water-damage-restoration-certification",
+      "status": "queued",
+      "queued_at": "2026-08-17T17:55:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "water damage restoration certification",
+      "intent": "informational",
+      "volume": 90,
+      "kd": 35,
+      "fan_out_cluster": [
+        "what is IICRC certification",
+        "WRT water damage restoration technician certification",
+        "applied structural drying ASD certification",
+        "how to verify a restoration company is certified",
+        "does insurance require a certified restoration company",
+        "certified firm vs certified technician"
+      ],
+      "suggested_slug": "water-damage-restoration-certification",
+      "suggested_title": "Water damage restoration certification: what IICRC, WRT, and ASD actually mean",
+      "target_word_count": 1200,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation",
+        "biohazard-cleanup"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCcertifiedfirms",
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Direct brand fit: Coastal is an IICRC Certified Firm with WRT and ASD, license 11245226. Teach the homeowner to verify a firm on the IICRC registry, then let the credential speak for itself rather than claiming superiority. Pairs with the planned /blog/choosing-a-restoration-company/ post: link to it, do not duplicate its checklist."
     }
   ]
 }
