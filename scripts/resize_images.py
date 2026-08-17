@@ -137,6 +137,13 @@ SITES = {
         "bucket": "rankai-reign-restoration",
         "images_base": "https://images.reign-restoration.pending",
     },
+    # Staging-stage client (2026-08-17 imagery pass) — images.aircarerestoration.com
+    # has no DNS yet; the R2 pass HEAD-fails and skips gracefully, local
+    # variants + manifest still generate.
+    "air-care-restoration": {
+        "bucket": "rankai-air-care-restoration",
+        "images_base": "https://images.aircarerestoration.com",
+    },
 }
 
 # R2 keys every site may have; 404s are skipped gracefully.

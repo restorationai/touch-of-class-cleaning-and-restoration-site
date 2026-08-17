@@ -1,8 +1,55 @@
 # Air Care Restoration: Image Style Guide
 
-This guide is consulted by every image-generation call (Skill 3 launch images, Skill 4 blog hero images, future image regenerations). The goal: a viewer scrolling through the site should feel like one professional photographer documented one company on one continuous job. No stylistic drift from page to page.
+## CLIENT DIRECTION — AI-FIRST POLISHED LOOK (doctrine 2026-08-10; block written 2026-08-17)
 
-The values below are auto-populated from `plan-input.json` at planning time. Per-client brand colors come from the client's logo / brand identity — NOT from the canonical starter palette. The structural conventions (camera, lens, lighting, composition) are restoration-vertical canonical and shared across all Rank AI clients.
+**This block outranks everything below the horizontal rule** (canonical boilerplate,
+regenerated on every `plan_site.py generate`). Air Care Restoration, Abilene TX.
+Brand: navy `#02255d`, blue `#2a70c0`, orange `#ff6901`. Logo: blue shield with an
+orange flame over water waves, "AIR CARE" in white + "RESTORATION" in orange.
+Every launch slot is polished AI-generated imagery per the fleet doctrine; the
+client's REAL photos are the factual references below and nothing generated may
+contradict them. The one real photo holding a slot outright is the owner's studio
+portrait (`harvested/real-owner-portrait-2026-08-17.jpg` — navy Air Care polo,
+moisture meter) as team.webp: exceptional real beats generated.
+
+1. **THE FLEET IS ONE BLACK PICKUP — NEVER VANS.** Their documented vehicle
+   (LIVERY-REFERENCE photo) is a black Toyota Tacoma crew-cab pickup with a small
+   white DOOR SIGN carrying the shield logo. They own no vans and no wraps: a
+   white van, a wrapped van, or a multi-van fleet is an AUTOMATIC REJECT. A grey
+   enclosed equipment trailer may accompany the truck.
+2. **ZERO READABLE TEXT BEYOND THE LOGO MARK.** The real door sign carries a phone
+   number; generators garble digits, so a generated door sign shows ONLY the
+   shield logo and the sign's smaller lines fall to natural photographic softness.
+   Garbled or invented lettering/digits anywhere = REJECT.
+3. **UNIFORM: NAVY COMPANY POLO.** Documented by the owner portrait: dark navy
+   polo, small embroidered shield logo on the left chest, dark work pants. Never a
+   different polo colour. Sealed-suit scenes (mold, sewage, biohazard, asbestos,
+   fire soot) replace the polo with FULL Tyvek zipped to the throat, hood up,
+   respirator sealed — worn open or tied at the waist is a REJECT.
+4. **EQUIPMENT READS PROFESSIONAL-GRADE, NOT RENTAL-YARD.** Their real gear:
+   NIKRO air movers, LGR dehumidifiers, Tramex moisture meters, Rotobrush duct
+   machine. Render modern pro equipment in neutral black/grey/red tones — no
+   bright yellow rental units.
+5. **WEST TEXAS BIG COUNTRY, ALWAYS.** Abilene: wide flat horizon, big sky, brick
+   ranch homes and light commercial buildings, mesquite scrub, dry warm light.
+   Never coastal, never mountain, never lush.
+6. **GRADE: NAVY SHADOWS, ORANGE WARMTH.** The brand grade lives in the light,
+   not in painted objects: deep navy-blue shadow tones with warm orange highlight
+   accents. Never invent orange-painted gear or navy-painted trucks beyond rule 1.
+
+VAN-OVERRIDE: a single black Toyota Tacoma crew-cab pickup matching the reference photo of the company's real truck — same black body, same small white shield-logo door sign (smaller sign text naturally soft, zero readable digits) — sometimes paired with a grey enclosed equipment trailer; never a van, never more than this one truck
+CREW-OVERRIDE: technicians wear the dark navy company polo with a small embroidered shield logo on the left chest and dark work pants; where the scene calls for a sealed suit, full Tyvek zipped with hood up replaces the polo entirely
+EQUIPMENT-OVERRIDE: professional restoration equipment in plain matte black/grey housings with red or brand-blue accents and NO readable brand lettering anywhere on any unit — logo plates blank or naturally soft, never invented brand names
+MOOD-OVERRIDE: clean professional light with a subtle cinematic brand grade — deep navy shadow tones and warm orange highlight accents
+LIVERY-REFERENCE: harvested/real-fleet-livery-textredacted-2026-08-17.jpg
+
+(Reference note: the redacted copy blurs the door sign's phone/service lines from
+the original `real-fleet-livery-2026-08-17.jpg` — round 1 proved the generator
+reproduces those lines as garbled red text. Only the shield + wordmark row rides
+into generation. If the wordmark itself comes back garbled, fall back to
+logo-mark-only per rule 2 and reject the frame.)
+
+This guide is consulted by every image-generation call (Skill 3 launch images, Skill 4 blog hero images, future image regenerations). The goal: a viewer scrolling through the site should feel like one professional photographer documented one company on one continuous job. No stylistic drift from page to page.
 ---
 
 ## STANDING BRAND RULES (2026-07-11) — apply to EVERY image, every client

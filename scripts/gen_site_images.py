@@ -176,6 +176,7 @@ _SENSITIVE_SCENE = (
     "absolutely nothing graphic")
 SERVICE_SCENES = {
     "water-damage-restoration": "a technician kneeling to hold a moisture meter against water-stained drywall while axial air movers and an LGR dehumidifier run across the wet floor behind them",
+    "water-cleanup": "a technician guiding a portable extraction wand across a sheet of shallow standing water on a hard floor, clean dry stripes showing behind the wand, air movers staged along the wall",
     "flood-damage-restoration": "a technician guiding a weighted extraction wand across a flooded floor, standing water still visible, extraction hose trailing out the doorway",
     "basement-flooding-cleanup": "a technician in rubber boots working a sump pump in a partly flooded basement, exposed framing showing a waterline",
     "burst-pipe-repair": "a technician shutting off a water supply valve at a burst copper pipe while drying equipment sits staged behind them",
