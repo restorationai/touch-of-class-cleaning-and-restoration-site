@@ -1,0 +1,313 @@
+{
+  "items": [
+    {
+      "id": "2026-08-17-best-water-damage-restoration-in-abilene-tx",
+      "status": "written",
+      "queued_at": "2026-08-17T17:06:01Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "best_of_comparison",
+      "combo_key": "best-water-damage-restoration-in-abilene-tx",
+      "primary_keyword": "best water damage restoration company in Abilene, TX",
+      "intent": "commercial",
+      "target_word_count": 1600,
+      "city_anchor": "abilene-tx",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Abilene",
+        "state": "TX",
+        "competitors": [
+          {
+            "name": "ServiceMaster by A-Town/Hi-Tech - Abilene",
+            "google_rating": 4.8,
+            "review_count": 111
+          },
+          {
+            "name": "SERVPRO of Abilene",
+            "google_rating": 4.7,
+            "review_count": 94
+          },
+          {
+            "name": "PuroClean of Abilene",
+            "google_rating": 5,
+            "review_count": 3
+          },
+          {
+            "name": "Pure Shield Mold Remediation",
+            "google_rating": 5,
+            "review_count": 2
+          }
+        ]
+      },
+      "fan_out_cluster": [
+        "best water damage restoration companies Abilene",
+        "top rated water damage restoration Abilene TX",
+        "who is the best water damage restoration company in Abilene",
+        "water damage cleanup Abilene",
+        "water cleanup Abilene",
+        "water removal Abilene"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-08-17T17:15:14Z",
+      "post_url": "https://aircarerestoration.com/blog/best-water-damage-restoration-company-in-abilene-tx/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-abilene-tx.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "111 reviews",
+          "context": "tion company in Abilene on Google, with 111 reviews at a 4.8-star average. That review volu",
+          "reason": "claims 111 reviews but synced gbpReviewCount is 8 (allowed \u00b120%: 6-9)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-abilene-tx.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "94 Google reviews",
+          "context": "bilene carries a 4.7-star rating across 94 Google reviews, making it the second most-reviewed res",
+          "reason": "claims 94 reviews but synced gbpReviewCount is 8 (allowed \u00b120%: 6-9)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-abilene-tx.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "100 reviews",
+          "context": "for equipment and training. With nearly 100 reviews, they have documented experience across",
+          "reason": "claims 100 reviews but synced gbpReviewCount is 8 (allowed \u00b120%: 6-9)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-abilene-tx.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "3 reviews",
+          "context": "gle rating, though from a small base of 3 reviews. PuroClean is a national restoration fr",
+          "reason": "claims 3 reviews but synced gbpReviewCount is 8 (allowed \u00b120%: 6-9)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-abilene-tx.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "2 Google reviews",
+          "context": "emediation holds a 5.0-star rating from 2 Google reviews. Their name suggests a primary focus on",
+          "reason": "claims 2 reviews but synced gbpReviewCount is 8 (allowed \u00b120%: 6-9)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-abilene-tx.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "2 reviews",
+          "context": "pically the right first call. With only 2 reviews, there is limited public data available",
+          "reason": "claims 2 reviews but synced gbpReviewCount is 8 (allowed \u00b120%: 6-9)"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-17-water-damage-restoration-cost",
+      "status": "queued",
+      "queued_at": "2026-08-17T17:12:13Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "water damage restoration cost",
+      "intent": "commercial",
+      "volume": 880,
+      "kd": 3,
+      "fan_out_cluster": [
+        "water damage restoration cost per square foot",
+        "how much does water damage restoration cost",
+        "water damage restoration cost calculator",
+        "water damage restoration price sheet",
+        "does insurance pay the water damage restoration bill",
+        "category 3 water damage cost"
+      ],
+      "suggested_slug": "water-damage-restoration-cost",
+      "suggested_title": "Water damage restoration cost: what Abilene homeowners actually pay in 2026",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/water-cleanup/",
+        "/service-areas/abilene-tx/water-damage-restoration/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.tdi.texas.gov/pubs/consumer/cb030.html"
+      ],
+      "notes": "Highest-volume uncovered term from this seed (880/mo, KD 3, CPC $14.73 to $53). No cost page exists in the url-plan, commercial partition is clean. Give real dollar bands by loss size and water category, and state plainly that insurance usually pays for sudden discharge but not long-term seepage. Do not publish a fixed price list: use ranges and a free-assessment CTA.",
+      "source": "keyword-researcher",
+      "seed": "water damage restoration"
+    },
+    {
+      "id": "2026-08-17-category-3-water-damage",
+      "status": "queued",
+      "queued_at": "2026-08-17T17:12:13Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "category 3 water damage",
+      "intent": "informational",
+      "volume": 390,
+      "kd": 0,
+      "fan_out_cluster": [
+        "category 1 vs category 2 vs category 3 water",
+        "what is black water damage",
+        "is sewage backup category 3",
+        "category 3 water damage cleanup process",
+        "can you save carpet after category 3 water",
+        "how long before category 2 becomes category 3"
+      ],
+      "suggested_slug": "category-3-water-damage",
+      "suggested_title": "Category 3 water damage: what black water is and why you cannot clean it yourself",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/sewage-cleanup/",
+        "/services/biohazard-cleanup/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "sewage-cleanup",
+        "biohazard-cleanup"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.cdc.gov/healthywater/emergency/cleanup/"
+      ],
+      "notes": "390/mo, KD 0, CPC $33.24, zero editorial coverage. This is the IICRC S500 category definition query and it is pure AI-retrieval fuel: define all three categories in a lift-ready passage near the top. Air Care is an IICRC Certified Firm with WRT, so lean on that credential.",
+      "source": "keyword-researcher",
+      "seed": "water damage restoration"
+    },
+    {
+      "id": "2026-08-17-how-soon-does-mold-grow-after-water-damage",
+      "status": "queued",
+      "queued_at": "2026-08-17T17:12:13Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how soon does mold grow after water damage",
+      "intent": "informational",
+      "volume": 110,
+      "kd": 0,
+      "fan_out_cluster": [
+        "how long before mold grows on wet drywall",
+        "24 48 hour mold growth window",
+        "can mold grow in one day after a leak",
+        "signs mold started after water damage",
+        "does drying fast prevent mold",
+        "when to call mold remediation after a flood"
+      ],
+      "suggested_slug": "how-soon-does-mold-grow-after-water-damage",
+      "suggested_title": "How soon does mold grow after water damage? The 24 to 48 hour window explained",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/blog/signs-of-hidden-mold/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-cleanup-your-home",
+        "https://www.iicrc.org/page/IICRCS520"
+      ],
+      "notes": "110/mo, KD 0. The two planned mold posts cover detection and black-mold identification, not the growth timeline, so the editorial partition is genuinely open. Answer the number in the first 40 words (24 to 48 hours) because that is the passage AI engines lift.",
+      "source": "keyword-researcher",
+      "seed": "water damage restoration"
+    },
+    {
+      "id": "2026-08-17-how-long-does-water-damage-restoration-take",
+      "status": "queued",
+      "queued_at": "2026-08-17T17:12:13Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how long does water damage restoration take",
+      "intent": "informational",
+      "volume": 50,
+      "kd": 3,
+      "fan_out_cluster": [
+        "water damage restoration process steps",
+        "how long does drying equipment stay in the house",
+        "how long to dry out drywall after a leak",
+        "water damage restoration timeline by category",
+        "when can i move back in after water damage",
+        "what happens on day one of water mitigation"
+      ],
+      "suggested_slug": "how-long-does-water-damage-restoration-take",
+      "suggested_title": "How long does water damage restoration take? A day-by-day timeline",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/water-cleanup/",
+        "/services/contents-restoration/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "water-cleanup",
+        "contents-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "50/mo, KD 3, and it pairs with the cost post as the other half of the two questions every caller asks. Structure as day 1, days 2 to 4, days 5 to 7, then reconstruction. Fold the zero-volume ChatGPT variant 'water damage restoration process steps' in as an H2.",
+      "source": "keyword-researcher",
+      "seed": "water damage restoration"
+    },
+    {
+      "id": "2026-08-17-file-insurance-claim-water-damage",
+      "status": "queued",
+      "queued_at": "2026-08-17T17:12:13Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how do i file an insurance claim for water damage",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "what to document before cleanup for an insurance claim",
+        "how long do i have to file a water damage claim in texas",
+        "what does an adjuster look for after water damage",
+        "do i have to use the insurance company's preferred vendor",
+        "what if my water damage claim is denied",
+        "who pays the restoration company insurance or me"
+      ],
+      "suggested_slug": "file-insurance-claim-water-damage",
+      "suggested_title": "How do I file an insurance claim for water damage? A step-by-step guide for Texas homeowners",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/services/storm-damage-restoration/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "storm-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.tdi.texas.gov/consumer/storms/index.html",
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Zero measured Google volume but surfaced twice in the ChatGPT decomposition, so it is scored intent-first per the GEO rule. The existing blog covers WHETHER insurance pays, not HOW to file: adjacent, not duplicate. Make the point that Texas homeowners can choose their own restoration contractor, which is the conversion lever.",
+      "source": "keyword-researcher",
+      "seed": "water damage restoration"
+    }
+  ]
+}
