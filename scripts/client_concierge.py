@@ -267,6 +267,7 @@ HISTORY_MAX_MSGS = 25          # default fetch_history depth for compose/status
 CLASSIFY_HISTORY_MSGS = 10     # history context given to inbound classification
 HISTORY_EMAIL_TRIM = 500       # chars kept per email body (threads get long)
 HUMAN_DEFER_HOURS = 12         # human outbound newer than this => skip nudge
+HUMAN_REPLY_HOLD_MIN = 60      # Santino spoke => ALL sends to that thread wait
 MAX_NUDGES = 4
 # INBOUND DEBOUNCE (Santino 2026-08-02: "Blue like water" + "And white"
 # seconds apart each got their own ack+question — two near-duplicate texts
@@ -766,7 +767,11 @@ def fetch_history(contact_id: str, max_msgs: int = HISTORY_MAX_MSGS) -> list[dic
             merged.append({
                 "id": msg.get("id"), "when": when,
                 "direction": "in" if msg.get("direction") == "inbound" else "out",
-                "channel": channel, "body": body})
+                # user_id: set on every message a real person sent from the
+                # GHL app (texts AND calls); null on API sends like Monica's.
+                # The direct human-vs-concierge signal — no id bookkeeping.
+                "channel": channel, "body": body,
+                "user_id": msg.get("userId")})
     merged.sort(key=lambda m: m["when"], reverse=True)
     return merged[:max_msgs]
 
@@ -797,6 +802,49 @@ def human_conversation_deferral(history: list[dict], state: dict) -> str | None:
                 f"{last_out['when'].strftime('%Y-%m-%d %H:%M UTC')}, "
                 f"{age.total_seconds() / 3600:.1f}h ago, within the "
                 f"{HUMAN_DEFER_HOURS}h defer window)")
+    return None
+
+
+def human_reply_hold(contact_id: str) -> str | None:
+    """SEND-TIME QUIET WINDOW (Santino 2026-08-18: "add a rule that she
+    waits an hour whenever I reply"). If a real person on our side wrote to
+    this contact, or called them, less than HUMAN_REPLY_HOLD_MIN minutes
+    ago, every concierge send to that contact is blocked.
+
+    Human detection is the GHL userId, not the sent-ids ledger: every
+    message a person sends from the app (texts AND phone calls) carries the
+    user's id; Monica's API sends carry none. Direct signal, so this can
+    never trip the defer-against-herself trap the 12h nudge window fell
+    into (see record_sent_message).
+
+    Live failure this fixes, Tony Mendez 08-17: Santino took the thread
+    over himself at 20:36 ("Hey Tony its Santino yes lets talk") and Monica
+    talked over him at 20:38, 21:00 and 21:27 while he was live-texting the
+    call coordination. Unlike the 12h nudge deferral above, this gate lives
+    in send_message and covers EVERY path, inline replies and acks
+    included. Blocked sends are safe: anything still owed stays armed as
+    awaiting_reply and recomposes after the hour. send_now bypasses it, the
+    explicit click IS Santino speaking. Fails OPEN on API errors: a guard
+    that cannot see the thread must not silence real work."""
+    try:
+        history = fetch_history(contact_id, max_msgs=25)
+    except Exception as e:  # noqa: BLE001
+        print(f"  [human-hold] history fetch failed, not holding: "
+              f"{str(e)[:80]}", file=sys.stderr)
+        return None
+    now = datetime.now(timezone.utc)
+    for m in history:                      # newest first
+        if m["direction"] != "out" or not m.get("user_id"):
+            continue
+        age_min = (now - m["when"]).total_seconds() / 60
+        if age_min < HUMAN_REPLY_HOLD_MIN:
+            return (f"HUMAN QUIET WINDOW — Santino (or another human) sent a "
+                    f"{m['channel']} in this thread {age_min:.0f} min ago "
+                    f"({m['body'][:40]!r}); Monica waits "
+                    f"{HUMAN_REPLY_HOLD_MIN} min after a human speaks "
+                    "(Santino 2026-08-18). Anything still owed sends next "
+                    "cycle.")
+        break                              # newest human outbound is old enough
     return None
 
 
@@ -1539,12 +1587,15 @@ def false_registrar_claim(body: str) -> str | None:
 #   - sign into or change the client's Google / GoDaddy / Twilio / hosting
 #     accounts on her own (the registrar half is false_registrar_claim above).
 #   - be anywhere physically: no visits, no "stopping by", no "see you there".
-#   - commit a specific human's clock ("Santino will call you at 3").
+#   - commit a specific human's clock ("Santino will call you", timed or
+#     not — REVERSED 2026-08-18: naming Santino used to sanction the
+#     promise; after Monica committed him to calls he never agreed to (Tony
+#     Mendez 08-17) he ruled that only he commits himself).
 #   - commit to a deadline no scheduled system action will honor.
 #
-# THE HONEST MOVE when a client asks for a call: name the human who will
-# call, ask for their best window, and ESCALATE so a human actually dials.
-# Being asked for a call is a needs_santino event by definition.
+# THE HONEST MOVE when a client asks for a call: say you are passing it
+# along to Santino, ask for their best window, and ESCALATE so he actually
+# sees it. Being asked for a call is a needs_santino event by definition.
 
 # What the drafting models are told, once, in one place (substituted into
 # COMPOSE/REPLY/ACK/CLASSIFY exactly like DOMAIN_ACCESS_TRUTH) so the prompts
@@ -1559,21 +1610,25 @@ context; record their answers; share a link you were given; hand something to
 Santino; move a call they already have booked.
 YOU CANNOT, EVER: make or take a phone call; book a NEW meeting or put
 anything on Santino's calendar; log into or change their Google, GoDaddy,
-Twilio or hosting accounts; show up anywhere in person; promise when Santino
-(or anyone else) will be available; promise a deadline ("by end of day",
-"within the hour", "first thing tomorrow").
+Twilio or hosting accounts; show up anywhere in person; promise that Santino
+(or anyone else) WILL call, or when anyone will be available; promise a
+deadline ("by end of day", "within the hour", "first thing tomorrow").
 BANNED, no exceptions: "I'll give you a call", "I'll call you", "let me hop
 on a call", "I'll ring you", "I'll get on the phone", "give me a call",
-"call me at", "I'll get you on his calendar", "I'll book a time", "talk to
-you then", "see you then", "I'll stop by".
-WHEN THEY ASK FOR A CALL, this is the whole reply: say SANTINO will call them
-and ask for the best time to reach them ("Got it, Santino will give you a
-call. What's the best time to reach you?"). Never a specific time, never
-yourself, never "we'll call". A human is told immediately, so this is true.
+"call me at", "Santino will give you a call", "Santino will call you",
+"I'll have Santino call you", "I'll get you on his calendar", "I'll book a
+time", "talk to you then", "see you then", "I'll stop by".
+WHEN THEY ASK FOR A CALL, this is the whole reply: say you are passing it
+along to Santino and ask for the best time to reach them ("Got it, I'll pass
+this along to Santino right now. What's the best time to reach you?").
+Never promise that Santino WILL call (Santino 2026-08-18: Monica kept
+committing him to calls he never agreed to; only Santino commits Santino).
+Never a specific time, never yourself, never "we'll call". Passing it along
+is true: he is pinged the same second.
 Offering a call is fine when nobody is committed to placing it ("we can hop
 on a quick 15 minute call and do it together" is the sanctioned domain-access
-line) — but "we'll call you" without a name behind it is a promise nobody
-owns."""
+line, and "Santino CAN hop on a quick call" is an offer) — but any "will
+call you", whoever is named, is a promise nobody made."""
 
 # The other half of "say only true things" (Santino 2026-08-05, Reign): do
 # not contradict yourself. Single-sourced into every drafting prompt beside
@@ -1618,19 +1673,15 @@ def client_asked_for_a_call(text: str | None) -> bool:
     return bool(_CALL_REQUEST_RE.search(text or ""))
 
 
-# The truthful answer to a call request. Names the human who will call (so it
-# is a promise somebody can keep), asks for the window (so he calls at a good
-# time), commits no clock. Escalated to Santino wherever it is substituted, so
-# the promise is handed to a person the same second it is made.
-CALL_HANDOFF_REPLY = ("Got it, Santino will give you a call. What's the best "
-                      "time to reach you?")
-
-# Sentences that hand the call to a NAMED HUMAN pass the call patterns —
-# "Santino will give you a call", "I'll have Santino call you", "want me to
-# find a time with Santino?" — because a person can keep that promise. The
-# availability and deadline patterns still apply to them: naming a human does
-# not let us commit his clock.
-_HUMAN_CALLER_RE = re.compile(r"\bsantino\b", re.I)
+# The truthful answer to a call request. Promises only what Monica can
+# actually do (pass it along), asks for the window (so Santino can pick a
+# good time IF he calls), commits nobody's clock. Escalated to Santino
+# wherever it is substituted, so "passing it along" is literally true the
+# same second it is said. REWORDED 2026-08-18 (was "Santino will give you a
+# call"): Monica kept committing Santino to calls he never agreed to (Tony
+# Mendez 08-17); he ruled she passes along, she never speaks for his clock.
+CALL_HANDOFF_REPLY = ("Got it, I'll pass this along to Santino right now. "
+                      "What's the best time to reach you?")
 
 _TIME_EXPR = (r"(?:at \d{1,2}(?::\d{2})?\s?(?:am|pm|a\.m\.|p\.m\.)?"
               r"|by \d{1,2}(?::\d{2})?\s?(?:am|pm)"
@@ -1646,9 +1697,13 @@ _DEADLINE_EXPR = (r"(?:by (?:the )?end of (?:the )?day|by eod\b|by cob\b"
                   r"thursday|friday|saturday|sunday)|by \d{1,2}(?::\d{2})?\s?"
                   r"(?:am|pm)|by noon)")
 
-# (pattern, why, human_exempt) — human_exempt=True means a sentence that names
-# a real person on our side is the sanctioned rewrite and passes.
-_CAPABILITY_CLAIMS: tuple[tuple[re.Pattern, str, bool], ...] = (
+# (pattern, why). Until 2026-08-18 a third human_exempt flag let any sentence
+# naming Santino pass the call patterns ("Santino will give you a call" was
+# the sanctioned rewrite). Santino reversed that after Monica kept committing
+# him to calls he never agreed to (Tony Mendez 08-17): naming a human no
+# longer sanctions a promise. Offers ("Santino can hop on a quick call") stay
+# legal; the definite future does not, whoever is named.
+_CAPABILITY_CLAIMS: tuple[tuple[re.Pattern, str], ...] = (
     # THE TONY CASE. First person singular + any call verb, with or without a
     # modal: an OFFER is as false as a promise, she can never be on a call.
     (re.compile(r"\bi\b\s*(?:'?ll|'?m|\s?will|\s?can|\s?could|\s?would|"
@@ -1663,7 +1718,7 @@ _CAPABILITY_CLAIMS: tuple[tuple[re.Pattern, str, bool], ...] = (
                 r"jump on (?:a |the )?(?:quick |short )?(?:call|phone|zoom)|"
                 r"get on (?:a |the )?(?:quick )?(?:call|phone)|"
                 r"reach out by phone|dial you)", re.I),
-     "promises Monica will personally be on a phone call", True),
+     "promises Monica will personally be on a phone call"),
     # "let me give you a call" / "let me hop on a call"
     (re.compile(r"\blet me\s+(?:just |quickly )?"
                 r"(?:give (?:you|him|her) a (?:call|ring|buzz)|"
@@ -1671,7 +1726,7 @@ _CAPABILITY_CLAIMS: tuple[tuple[re.Pattern, str, bool], ...] = (
                 r"hop on (?:a |the )?(?:quick )?(?:call|phone|zoom)|"
                 r"jump on (?:a |the )?(?:quick )?call|"
                 r"get (?:you )?on the phone|grab you on the phone)", re.I),
-     "offers a phone call Monica cannot place", True),
+     "offers a phone call Monica cannot place"),
     # Inviting an INBOUND call — she cannot receive one either. The concierge
     # number is an SMS sender; a client who dials it reaches nobody.
     (re.compile(r"\b(?:give (?:me|us) a (?:call|ring|buzz)|"
@@ -1679,7 +1734,7 @@ _CAPABILITY_CLAIMS: tuple[tuple[re.Pattern, str, bool], ...] = (
                 r"when |if )|(?:feel free to|you can|happy for you to) "
                 r"call (?:me|us)|call my (?:cell|phone|line|number)|"
                 r"reach me (?:at|by phone|on my cell))", re.I),
-     "invites the client to phone Monica, who has no line to answer", False),
+     "invites the client to phone Monica, who has no line to answer"),
     # Team call COMMITMENT with nobody named to place it. Offers stay legal on
     # purpose ("we can hop on a quick 15 minute call and do it together" is
     # Santino's own domain-access copy) — only the definite future is a
@@ -1693,8 +1748,7 @@ _CAPABILITY_CLAIMS: tuple[tuple[re.Pattern, str, bool], ...] = (
                 r"jump on (?:a |the )?(?:quick )?call|"
                 r"get on (?:a |the )?(?:quick )?(?:call|phone)|"
                 r"get you on the phone)", re.I),
-     "commits the team to placing a call with nobody named to place it",
-     True),
+     "commits the team to placing a phone call"),
     # Booking a NEW meeting. The concierge can only MOVE a call the client
     # already has; it has no way to create one.
     (re.compile(r"\b(?:i|we)\s*(?:'?ll|\s?will|'?m going to|'?re going to|"
@@ -1703,46 +1757,70 @@ _CAPABILITY_CLAIMS: tuple[tuple[re.Pattern, str, bool], ...] = (
                 r"send (?:you )?(?:a |an )?(?:calendar )?invite|"
                 r"put (?:you|it|that) (?:down|in) for)", re.I),
      "claims we will book a meeting; the concierge can only MOVE a call the "
-     "client already has, never create one", False),
+     "client already has, never create one"),
     (re.compile(r"\b(?:i|we)\s*(?:'?ll|\s?will|'?m going to|'?re going to|"
                 r"\s?can)\s*(?:just |go ahead and )?(?:book|schedule)\b"
                 r"[^.!?]{0,25}\b(?:call|meeting|time|appointment|zoom)\b",
                 re.I),
      "claims we will book a new meeting; nothing in the concierge can create "
-     "one", False),
-    # Promising a specific human's clock.
+     "one"),
+    # Promising Santino's clock, timed or not. THE TONY MENDEZ CASE
+    # (2026-08-18): "Got it, Santino will give you a call" was the sanctioned
+    # canned reply until Monica kept volunteering him for calls he never
+    # agreed to. Now ANY definite-future call attributed to him is blocked;
+    # the honest move is the pass-along (CALL_HANDOFF_REPLY). "Can/could"
+    # offers still pass: an offer commits nobody.
+    (re.compile(r"\b(?:santino|he|the boss)\b[^.!?]{0,40}?"
+                r"\b(?:will|'?ll|is going to|is gonna)\b[^.!?]{0,30}?"
+                r"\b(?:call|ring|phone|dial|"
+                r"give (?:you|him|her|them) a (?:call|ring|buzz)|"
+                r"get on the phone|hop on (?:a |the )?(?:quick )?"
+                r"(?:call|zoom|phone)|reach out by phone|be calling)\b",
+                re.I),
+     "promises a phone call from Santino; only Santino commits his own "
+     "clock (2026-08-18)"),
+    # Same promise, Monica as the arranger: "I'll have Santino call you."
+    # Definite future only — "want me to find a time with Santino?" and
+    # "I can ask Santino" stay legal, they commit nobody.
+    (re.compile(r"\b(?:i|we)\s*(?:'?ll|\s?will|'?m going to|'?re going to)\s*"
+                r"(?:just |go ahead and )?(?:have|get|ask|tell)\s+"
+                r"(?:santino|him|the boss)\s+(?:to\s+)?"
+                r"(?:call|ring|phone|dial|give (?:you|him|her|them) a "
+                r"(?:call|ring|buzz)|hop on (?:a |the )?(?:quick )?call)",
+                re.I),
+     "volunteers Santino for a phone call; only Santino commits his own "
+     "clock (2026-08-18)"),
+    # Promising when a human will be available, with a clock attached.
     (re.compile(r"\b(?:santino|he|the boss)\b[^.!?]{0,30}?"
-                r"\b(?:will|'?ll|can|is going to|is)\b[^.!?]{0,25}?"
-                r"\b(?:call|ring|phone|reach out|get on the phone|"
-                r"be available|be free|give you a (?:call|ring))\b"
+                r"\b(?:will|'?ll|is going to|is)\b[^.!?]{0,25}?"
+                r"\b(?:reach out|be available|be free)\b"
                 r"[^.!?]{0,25}?" + _TIME_EXPR, re.I),
      "commits a specific human's clock; we cannot promise when Santino is "
-     "free", False),
+     "free"),
     # Deadlines no scheduled system action will honor. Vague forward language
     # ("shortly", "soon", "we're on it") stays legal on purpose.
     (re.compile(r"\b(?:i|we)\s*(?:'?ll|\s?will|'?m going to|'?re going to)\s+"
                 r"[^.!?]{0,60}?" + _DEADLINE_EXPR, re.I),
-     "commits to a clock deadline no scheduled system action will honor",
-     False),
+     "commits to a clock deadline no scheduled system action will honor"),
     # Physical presence.
     (re.compile(r"\b(?:i|we)\s*(?:'?ll|\s?will|'?m going to|'?re going to|"
                 r"\s?can|\s?could)\s*(?:just )?"
                 r"(?:stop by|swing by|come by|come out|drop by|be there|"
                 r"head over|meet you (?:at|there|in person))", re.I),
-     "promises a physical visit; Monica exists only in a text thread", True),
+     "promises a physical visit; Monica exists only in a text thread"),
     # Sign-offs that put her on the call or in the room. "Talk soon" (vague,
     # means "we'll be in touch") stays legal; "talk to you then" does not.
     (re.compile(r"\b(?:talk|speak|chat) (?:to|with) you (?:then|tomorrow|"
                 r"(?:on )?\w+day|at \d)|\bsee you (?:then|there|tomorrow|"
                 r"(?:on )?\w+day|at \d{1,2})", re.I),
-     "signs off as though Monica will be on the call or in the room", True),
+     "signs off as though Monica will be on the call or in the room"),
     # Logging into the client's accounts ourselves (registrar half lives in
     # false_registrar_claim).
     (re.compile(r"\b(?:i|we)\s*(?:'?ll|\s?will|\s?can|'?m going to|"
                 r"'?re going to)\s*(?:just |go ahead and )?"
                 r"(?:log|sign) ?(?:in|into|in to)\b[^.!?]{0,25}"
                 r"\b(?:your|their|his|her)\b", re.I),
-     "claims we will sign into the client's own account", False),
+     "claims we will sign into the client's own account"),
 )
 
 
@@ -1751,19 +1829,17 @@ def capability_violation(body: str) -> str | None:
     capability contract above — a phone call, a new booking, a visit, a
     human's clock, a hard deadline, logging into their accounts — else None.
 
-    Sentences that name a real human on our side pass the call/visit patterns:
-    "Santino will give you a call" is the sanctioned rewrite, not the bug."""
+    Naming a human sanctions NOTHING (Santino 2026-08-18, reversing the
+    08-05 design): "Santino will give you a call" is exactly the promise he
+    banned. The sanctioned rewrite is the pass-along (CALL_HANDOFF_REPLY)."""
     for sent in re.split(r"(?<=[.!?])\s+", body or ""):
-        named_human = bool(_HUMAN_CALLER_RE.search(sent))
-        for rx, why, human_exempt in _CAPABILITY_CLAIMS:
-            if human_exempt and named_human:
-                continue
+        for rx, why in _CAPABILITY_CLAIMS:
             m = rx.search(sent)
             if m:
                 return (f"capability violation — {why} "
                         f"({m.group(0).strip()[:60]!r}). Monica can only text "
-                        "and email: name the human who will call, offer to "
-                        "find a time, or ask for their best window: "
+                        "and email: say you'll pass it along to Santino and "
+                        "ask for their best window: "
                         f"{sent[:90]!r}")
     return None
 
@@ -1785,13 +1861,15 @@ def honest_substitute(reason: str | None, client_msg: str | None) -> str | None:
 def escalate_call_request(company: dict, msg: dict | None,
                           client_msg: str | None, dry_run: bool) -> None:
     """A client asked for a call: text Santino NOW. This is the half that
-    makes CALL_HANDOFF_REPLY true — Monica says a human will call, and this
-    is how the human finds out. ping=True by policy: it needs HIS action."""
+    makes CALL_HANDOFF_REPLY true — Monica says she is passing it along,
+    and this is the passing along. ping=True by policy: whether and when to
+    call is HIS decision (2026-08-18: she never commits him to calling)."""
     append_escalation(
         company, msg,
-        "CALL REQUESTED — Monica has no phone. She told them Santino will "
-        "call and asked for their best window. Someone has to actually "
-        f"dial: {str(client_msg or '')[:120]!r}",
+        "CALL REQUESTED — Monica has no phone. She told them she's passing "
+        "it along to you and asked for their best window. She did NOT "
+        "promise a call; calling (or texting back) is your call: "
+        f"{str(client_msg or '')[:120]!r}",
         dry_run, ping=True)
 
 
@@ -3595,7 +3673,8 @@ def cadence_check(cs: dict, company: dict, contact: dict | None = None,
 def send_message(contact: dict, channel: str, body: str,
                  subject: str | None = None,
                  company: dict | None = None,
-                 reply_to: str | None = None) -> dict:
+                 reply_to: str | None = None,
+                 human_hold_exempt: bool = False) -> dict:
     """Deliver via GHL POST /conversations/messages. CANARY GATE lives HERE.
 
     The recipient (contact phone for SMS, contact email for Email) must be on
@@ -3619,6 +3698,15 @@ def send_message(contact: dict, channel: str, body: str,
     held = company_hold((company or {}).get("id"))
     if held:
         raise SendBlocked(f"HOLD on this client — {held}")
+    # HUMAN QUIET WINDOW (Santino 2026-08-18): never talk over a human. Ops
+    # pings go to Santino himself, not a client thread; send_now passes the
+    # exemption because the click is the human speaking.
+    if (not human_hold_exempt
+            and contact.get("id") not in (OPS_PING_CONTACT_ID,
+                                          ADVICE_CONTACT_ID)):
+        hold = human_reply_hold(contact["id"])
+        if hold:
+            raise SendBlocked(hold)
     allow = allowed_recipients()
     if channel == "sms":
         recipient = contact.get("phone") or ""
@@ -5647,7 +5735,9 @@ def send_now(company_id: str, channel: str = "sms") -> dict:
 
       BYPASSED : cooldown + nudge cap (the click IS the authorization),
                  business hours (NOT hard-blocked — the response carries
-                 local_time/in_business_hours so the UI confirms first).
+                 local_time/in_business_hours so the UI confirms first),
+                 the 60-min human quiet window (the click IS the human
+                 speaking).
       KEPT     : canary allowlist (inside send_message, no override), CRM
                  DND (with the same SMS->email fallback as compose),
                  grounding guard, and the no-double-send duplicate guard —
@@ -5761,14 +5851,16 @@ def send_now(company_id: str, channel: str = "sms") -> dict:
     try:
         try:
             result = send_message(contact, channel, body, draft["subject"],
-                                  company=company, reply_to=reply_key)
+                                  company=company, reply_to=reply_key,
+                                  human_hold_exempt=True)
         except SendBlocked as e:
             # same DND fallback as the scheduled compose path
             if ("DND active" in str(e) and channel == "sms"
                     and (contact.get("email") or "").strip()):
                 result = send_message(contact, "email", body,
                                       draft["subject"], company=company,
-                                      reply_to=reply_key)
+                                      reply_to=reply_key,
+                                      human_hold_exempt=True)
                 channel_used = "email"
             else:
                 raise
@@ -6084,8 +6176,10 @@ A REQUEST FOR A PHONE CALL IS ALWAYS needs_santino (Santino 2026-08-05):
 "call me", "give me a call when you get a minute", "can we talk", "when can
 you call". Monica has no phone, so a human must place that call — set
 needs_answer AND needs_santino true, and make suggested_reply the handoff:
-"Got it, Santino will give you a call. What's the best time to reach you?"
-Never a specific time, and never Monica placing the call herself.
+"Got it, I'll pass this along to Santino right now. What's the best time to
+reach you?" Never "Santino will call you" (Santino 2026-08-18: Monica never
+commits him to a call, she passes it along and he decides), never a
+specific time, and never Monica placing the call herself.
 
 FULL ANALYSIS — required for EVERY message, even pure acknowledgments
 (the boss's spec 2026-08-02: every inbound gets analyzed — does it need a
@@ -8607,6 +8701,13 @@ _CAPABILITY_CASES: list[tuple[str, bool]] = [
     ("I'll book a call for you.", True),
     ("I'll send you a calendar invite.", True),
     ("Santino will call you at 3pm today.", True),
+    # the 08-05 sanctioned reply, banned verbatim on 08-18 (Tony Mendez):
+    # Monica never commits Santino to a call
+    ("Got it, Santino will give you a call. What's the best time to reach "
+     "you?", True),
+    ("Santino will give you a call today, what number is best?", True),
+    ("He'll give you a ring once he's free.", True),
+    ("I'll have Santino call you.", True),
     ("I'll have your site live by end of day.", True),
     ("We'll have that fixed within the hour.", True),
     ("I'll swing by the shop tomorrow.", True),
@@ -8615,8 +8716,8 @@ _CAPABILITY_CASES: list[tuple[str, bool]] = [
     ("I'll log into your GoDaddy and get it switched.", True),
     # the sanctioned rewrites and normal copy — never blocked
     (CALL_HANDOFF_REPLY, False),
-    ("Santino will give you a call today, what number is best?", False),
-    ("Want me to have Santino call you? What time works?", False),
+    ("Got it, I'm passing this along to Santino right now.", False),
+    ("Want me to find a time with Santino? What time works?", False),
     ("You'd send us access from your GoDaddy account, takes about two "
      "minutes, or Santino can hop on a quick 15 minute call with you and do "
      "it together while you're signed in.", False),
