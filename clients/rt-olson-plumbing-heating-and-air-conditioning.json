@@ -11,18 +11,18 @@
     "template": "plumbing",
     "template_version": "0.1.0",
     "url_count": 41,
-    "generated_at": "2026-08-17T13:08:38.381884+00:00"
+    "generated_at": "2026-08-17T14:05:48.680200+00:00"
   },
-  "updated_at": "2026-08-17T13:08:42.639085+00:00",
+  "updated_at": "2026-08-17T14:05:53.804095+00:00",
   "indexnow_key": "86c3afe660ff4fa0a7fce519ce3c93ec",
   "build": {
-    "scaffolded_at": "2026-08-17T13:08:42.638967+00:00",
+    "scaffolded_at": "2026-08-17T14:05:53.803987+00:00",
     "github_repo": "restorationai/rt-olson-plumbing-heating-and-air-conditioning-site",
     "pages_project": "rankai-rt-olson-plumbing-heating-and-air-conditioning",
     "starter_version": "0.1.0",
     "url_count": 41,
     "pages_status": "exists",
-    "last_rendered_at": "2026-08-17T13:15:39.229634+00:00"
+    "last_rendered_at": "2026-08-17T14:13:19.534704+00:00"
   },
   "build_status": "content_partial",
   "gbp": {
