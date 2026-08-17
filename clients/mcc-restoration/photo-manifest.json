@@ -491,8 +491,33 @@
       "reason": "Mobile screenshot of a third-party software login page; zero marketing value.",
       "triaged_at": "2026-08-10T14:12:21Z",
       "triage_model": "claude-sonnet-4-6"
+    },
+    "crew:sms-1786922742420-e5a006ad": {
+      "source": "crew",
+      "storage": "job-photos/sms-1786922742420-e5a006ad.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783376797396/job-photos/sms-1786922742420-e5a006ad.jpg",
+      "width": 1539,
+      "height": 1600,
+      "bytes": 67495,
+      "sha1": "4fb86d40e57ad09b",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Authentication failed error screen screenshot",
+      "quality": 0,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "screenshot"
+      ],
+      "reason": "Broken link error page screenshot; no usable photo content whatsoever.",
+      "triaged_at": "2026-08-17T00:54:03Z",
+      "triage_model": "claude-sonnet-4-6"
     }
   },
   "slots": {},
-  "triaged_at": "2026-08-10T14:12:21Z"
+  "triaged_at": "2026-08-17T00:54:03Z"
 }
