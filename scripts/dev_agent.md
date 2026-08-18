@@ -102,6 +102,28 @@ when the photo is exceptional or the client asks for real. (Rudy's About
 photo — two guys pressure washing standing in for a "team" — is why:
 mediocre real beats nothing, but polished AI beats mediocre real.)
 
+**Vehicles (Santino 2026-08-18, reversing the 08-10 no-invented-livery
+rule):** a fleet of exactly THREE matching branded vehicles is the standard
+in heroes and wherever the scene allows — classic restoration-trade vans in
+the brand's colors carrying the real logo mark. Having ZERO real vehicle
+photos is NOT a reason to ban vehicles from a client's imagery (that rule
+produced Dry County's vehicle-free site and Bob hated it). Precedence:
+(1) a client's explicit no-vehicles instruction (VAN-OVERRIDE) wins over
+everything; (2) real documented livery beats invented livery — when real
+fleet photos exist they define the vehicles (Air Care's ONE black Tacoma
+with door sign stays exactly as her guide says); (3) otherwise invent the
+classic branded fleet. Never render readable text on wraps beyond the logo
+mark itself.
+
+**PPE is situational, never the uniform (2026-08-18, the Dry County
+lesson):** sealed Tyvek + respirator ONLY in scenes whose service warrants
+it (mold, sewage, biohazard, Cat-3 water). Heroes, team photos, and trade
+scenes (roofing/tarping, board-up, carpet cleaning) use plain neutral
+workwear or the documented uniform. A full-hazmat hero or a sealed suit on
+a roof is an AUTOMATIC REJECT even when the client's reference photos are
+all PPE shots — reference photos document what gear looks like, not where
+it belongs.
+
 ### Imagery: "the photos are wrong"
 
 Wrong uniform, wrong PPE, wrong vehicle, wrong gear, distorted people, wrong

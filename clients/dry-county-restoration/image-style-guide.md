@@ -18,11 +18,14 @@ in a generated frame may be false to what the real photos document.
    uniforms or red vehicles in scenes. Generated frames read bright, clean and
    premium under dry Southern California light. Never dark, moody or
    desaturated.
-2. **NO COMPANY VEHICLE MAY BE GENERATED, EVER.** Their photo library contains
-   ZERO photographs of a company vehicle, so there is no livery to reproduce
-   and none may be invented. Compositions are vehicle-free: crew, equipment
-   and the property carry the frame. A generated frame containing a branded,
-   wrapped or lettered vehicle is an AUTOMATIC REJECT.
+2. **FLEET OF THREE BRANDED VANS (Santino 2026-08-18, reversing the 08-10
+   no-vehicle rule for this client).** Their photo library has no vehicle
+   photos, so generate the classic professional restoration fleet: THREE
+   matching clean white panel vans with the real Dry County logo mark
+   (blue `#007fb2` wordmark; no phone numbers, URLs or other readable text
+   on the wrap). Vans appear in the hero and wherever the scene allows.
+   Bob is sending real van photos (meeting 2026-08-19); the moment those
+   land in `harvested/`, real livery replaces this invented default.
 3. **THE MASCOT STAYS ON THE LOGO.** The cartoon cowboy water-drop mascot
    exists only in the logo file. Never render the mascot, a cowboy-hat motif,
    or any cartoon element inside a photographic scene.
@@ -35,6 +38,17 @@ in a generated frame may be false to what the real photos document.
    leak-detection and blue-shirt photos in the harvest are website stock, not
    their crew), so never invent one: non-PPE scenes use plain neutral
    charcoal/gray workwear with no company branding on the clothing.
+   **PPE IS SITUATIONAL, NEVER THE UNIFORM (2026-08-18 revamp, Bob's
+   complaint):** sealed Tyvek + respirator ONLY where the service warrants it
+   (mold, sewage, biohazard, Cat-3 water). The HERO, the team photo, and
+   trade scenes (roof tarping, board-up, carpet cleaning, general
+   contracting) use neutral workwear — a full-hazmat hero or a sealed suit
+   on a roof is an AUTOMATIC REJECT (both shipped in v1).
+   **EVERY SLOT GETS ITS OWN COMPOSITION:** hero, team and service frames
+   must be visibly different scenes — v1's hero and team photo were the same
+   three suited figures at the same house, and the About page showed the
+   hero file verbatim. Blue is an ACCENT (logo wordmark, real blue
+   equipment where it belongs), not the dominant color of every frame.
 5. **EQUIPMENT MATCHES THEIR REAL GEAR.** Documented in their own job photos:
    BLUE axial air movers, blue-and-gray LGR dehumidifiers (staged in a black
    condensate tray on finished floors), poly containment sheeting taped with
