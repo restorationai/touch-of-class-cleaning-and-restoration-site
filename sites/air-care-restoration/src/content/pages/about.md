@@ -25,7 +25,7 @@ Restoration work isn't glamorous. It involves moisture meters, negative air pres
 
 ## Our certifications and what they mean
 
-Air Care Restoration holds certification as an **IICRC Certified Firm**, which means our work follows the Institute of Inspection, Cleaning and Restoration Certification's published standards — including the S500 for water damage and the S770 for fire and smoke. Those aren't internal benchmarks we set ourselves; they're industry-wide technical standards developed with input from insurers, building scientists, and regulators.
+Air Care Restoration holds certification as an **IICRC Certified Firm**, which means our work follows the Institute of Inspection, Cleaning and Restoration Certification's published standards — including the S500 for water damage and the S700 for fire and smoke. Those aren't internal benchmarks we set ourselves; they're industry-wide technical standards developed with input from insurers, building scientists, and regulators.
 
 Our technicians carry individual IICRC credentials in Water Restoration (WRT) and Fire & Smoke Restoration (FSRT), meaning the people doing the work have been trained and tested on the specific category of loss they're handling — not just given a company shirt.
 
