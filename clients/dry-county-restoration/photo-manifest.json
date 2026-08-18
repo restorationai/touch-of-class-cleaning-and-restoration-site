@@ -1,6 +1,31 @@
 {
   "slug": "dry-county-restoration",
   "assets": {
+    "crew:1787057940060-8286d016": {
+      "source": "crew",
+      "storage": "job-photos/1787057940060-8286d016.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786204636937/job-photos/1787057940060-8286d016.jpg",
+      "width": 585,
+      "height": 487,
+      "bytes": 67125,
+      "sha1": "9d5d86e8c3b578af",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Dry County Restoration cartoon mascot logo on white background",
+      "quality": 72,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "logo_card"
+      ],
+      "reason": "Pure logo lockup graphic; no photographic content, unsuitable for any photo slot.",
+      "triaged_at": "2026-08-18T13:58:32Z",
+      "triage_model": "claude-sonnet-4-6"
+    },
     "gbp:gbp-AF1QipM-bh_Lt8p40PlPJjiPQkkAOh5s4K7MSFi5C1TI": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipM-bh_Lt8p40PlPJjiPQkkAOh5s4K7MSFi5C1TI.jpg",
@@ -2292,5 +2317,5 @@
       "note": "AI-FIRST doctrine exception: exceptional real photo (q=82, their best asset) holds this card; pinned by hand during the 2026-08-10 visual pass."
     }
   },
-  "triaged_at": "2026-08-09T14:43:44Z"
+  "triaged_at": "2026-08-18T13:58:32Z"
 }
