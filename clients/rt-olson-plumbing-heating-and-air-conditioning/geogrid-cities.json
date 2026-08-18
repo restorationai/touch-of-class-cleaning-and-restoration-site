@@ -1,7 +1,27 @@
 [
- {
-  "label": "Corona ",
-  "lat": 33.8752945,
-  "lng": -117.566444
- }
+  {
+    "label": "Corona, CA",
+    "lat": 33.8752945,
+    "lng": -117.566444
+  },
+  {
+    "label": "Riverside, CA",
+    "lat": 33.9825,
+    "lng": -117.3742
+  },
+  {
+    "label": "Ontario, CA",
+    "lat": 34.0658,
+    "lng": -117.6484
+  },
+  {
+    "label": "Chino, CA",
+    "lat": 34.0134,
+    "lng": -117.6901
+  },
+  {
+    "label": "Norco, CA",
+    "lat": 33.9323,
+    "lng": -117.5509
+  }
 ]
