@@ -1,7 +1,7 @@
 {
   "template": "plumbing",
   "template_version": "0.1.0",
-  "generated_at": "2026-08-18T04:54:01.198679+00:00",
+  "generated_at": "2026-08-18T07:05:53.761591+00:00",
   "input_summary": {
     "service_count": 2,
     "service_area_count": 9,
@@ -46,7 +46,6 @@
         "/about/",
         "/services/emergency-plumbing/",
         "/services/leak-detection/",
-        "/service-areas/corona-ca/",
         "/service-areas/anaheim-ca/",
         "/service-areas/chino-ca/",
         "/service-areas/fullerton-ca/",
@@ -120,7 +119,6 @@
       "status": "planned",
       "internal_links_out": [
         "/",
-        "/service-areas/corona-ca/",
         "/service-areas/anaheim-ca/",
         "/service-areas/chino-ca/",
         "/service-areas/fullerton-ca/",
@@ -269,7 +267,6 @@
         "/contact/",
         "/service-areas/anaheim-ca/emergency-plumbing/",
         "/service-areas/chino-ca/emergency-plumbing/",
-        "/service-areas/corona-ca/emergency-plumbing/",
         "/service-areas/fullerton-ca/emergency-plumbing/",
         "/service-areas/norco-ca/emergency-plumbing/",
         "/service-areas/ontario-ca/emergency-plumbing/",
@@ -317,7 +314,6 @@
         "/contact/",
         "/service-areas/anaheim-ca/leak-detection/",
         "/service-areas/chino-ca/leak-detection/",
-        "/service-areas/corona-ca/leak-detection/",
         "/service-areas/fullerton-ca/leak-detection/",
         "/service-areas/norco-ca/leak-detection/",
         "/service-areas/ontario-ca/leak-detection/",
@@ -326,45 +322,6 @@
         "/service-areas/yorba-linda-ca/leak-detection/",
         "/blog/low-water-pressure-causes/",
         "/blog/signs-of-a-slab-leak/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/corona-ca/",
-      "archetype": "service-area",
-      "vars_keys": [
-        "area"
-      ],
-      "title": "Plumbing, Heating & Air in Corona, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Plumbing, Heating and Air in Corona",
-      "meta_description": "Serving Corona, CA with 24/7 emergency plumbing plus heating and air conditioning service. Licensed and insured. Call (951) 344-5596.",
-      "primary_keyword": "plumber corona",
-      "secondary_keywords": [
-        "corona plumbing company",
-        "emergency plumber corona",
-        "corona hvac company"
-      ],
-      "search_intent": "local_commercial",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1"
-      ],
-      "schema_stubs": [
-        "local-business",
-        "service",
-        "breadcrumb-list"
-      ],
-      "priority": 7.2,
-      "status": "planned",
-      "internal_links_out": [
-        "/service-areas/",
-        "/contact/",
-        "/service-areas/corona-ca/emergency-plumbing/",
-        "/service-areas/corona-ca/leak-detection/",
-        "/service-areas/anaheim-ca/",
-        "/service-areas/chino-ca/",
-        "/service-areas/fullerton-ca/"
       ]
     },
     {
@@ -401,9 +358,9 @@
         "/contact/",
         "/service-areas/riverside-ca/emergency-plumbing/",
         "/service-areas/riverside-ca/leak-detection/",
-        "/service-areas/corona-ca/",
         "/service-areas/anaheim-ca/",
-        "/service-areas/chino-ca/"
+        "/service-areas/chino-ca/",
+        "/service-areas/fullerton-ca/"
       ]
     },
     {
@@ -440,9 +397,9 @@
         "/contact/",
         "/service-areas/anaheim-ca/emergency-plumbing/",
         "/service-areas/anaheim-ca/leak-detection/",
-        "/service-areas/corona-ca/",
         "/service-areas/chino-ca/",
-        "/service-areas/fullerton-ca/"
+        "/service-areas/fullerton-ca/",
+        "/service-areas/norco-ca/"
       ]
     },
     {
@@ -479,9 +436,9 @@
         "/contact/",
         "/service-areas/santa-ana-ca/emergency-plumbing/",
         "/service-areas/santa-ana-ca/leak-detection/",
-        "/service-areas/corona-ca/",
         "/service-areas/anaheim-ca/",
-        "/service-areas/chino-ca/"
+        "/service-areas/chino-ca/",
+        "/service-areas/fullerton-ca/"
       ]
     },
     {
@@ -518,9 +475,9 @@
         "/contact/",
         "/service-areas/fullerton-ca/emergency-plumbing/",
         "/service-areas/fullerton-ca/leak-detection/",
-        "/service-areas/corona-ca/",
         "/service-areas/anaheim-ca/",
-        "/service-areas/chino-ca/"
+        "/service-areas/chino-ca/",
+        "/service-areas/norco-ca/"
       ]
     },
     {
@@ -557,9 +514,9 @@
         "/contact/",
         "/service-areas/ontario-ca/emergency-plumbing/",
         "/service-areas/ontario-ca/leak-detection/",
-        "/service-areas/corona-ca/",
         "/service-areas/anaheim-ca/",
-        "/service-areas/chino-ca/"
+        "/service-areas/chino-ca/",
+        "/service-areas/fullerton-ca/"
       ]
     },
     {
@@ -596,9 +553,9 @@
         "/contact/",
         "/service-areas/chino-ca/emergency-plumbing/",
         "/service-areas/chino-ca/leak-detection/",
-        "/service-areas/corona-ca/",
         "/service-areas/anaheim-ca/",
-        "/service-areas/fullerton-ca/"
+        "/service-areas/fullerton-ca/",
+        "/service-areas/norco-ca/"
       ]
     },
     {
@@ -635,9 +592,9 @@
         "/contact/",
         "/service-areas/norco-ca/emergency-plumbing/",
         "/service-areas/norco-ca/leak-detection/",
-        "/service-areas/corona-ca/",
         "/service-areas/anaheim-ca/",
-        "/service-areas/chino-ca/"
+        "/service-areas/chino-ca/",
+        "/service-areas/fullerton-ca/"
       ]
     },
     {
@@ -674,95 +631,9 @@
         "/contact/",
         "/service-areas/yorba-linda-ca/emergency-plumbing/",
         "/service-areas/yorba-linda-ca/leak-detection/",
-        "/service-areas/corona-ca/",
         "/service-areas/anaheim-ca/",
-        "/service-areas/chino-ca/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/corona-ca/emergency-plumbing/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Plumbing in Corona, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Emergency Plumbing in Corona",
-      "meta_description": "Trusted emergency plumbing in Corona, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "emergency plumbing corona",
-      "secondary_keywords": [
-        "emergency plumber",
-        "24 hour plumber",
-        "after hours plumber",
-        "plumber near me now",
-        "same day plumbing repair"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-plumbing/",
-        "/service-areas/corona-ca/",
-        "/service-areas/corona-ca/leak-detection/",
-        "/service-areas/anaheim-ca/emergency-plumbing/",
-        "/service-areas/chino-ca/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/corona-ca/leak-detection/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Leak Detection in Corona, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Leak Detection in Corona",
-      "meta_description": "Trusted leak detection in Corona, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "leak detection corona",
-      "secondary_keywords": [
-        "water leak detection",
-        "electronic leak detection",
-        "hidden leak detection",
-        "high water bill leak",
-        "underground water leak detection"
-      ],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/leak-detection/",
-        "/service-areas/corona-ca/",
-        "/service-areas/corona-ca/emergency-plumbing/",
-        "/service-areas/anaheim-ca/leak-detection/",
-        "/service-areas/chino-ca/leak-detection/",
-        "/contact/"
+        "/service-areas/chino-ca/",
+        "/service-areas/fullerton-ca/"
       ]
     },
     {
@@ -890,7 +761,7 @@
         "/service-areas/anaheim-ca/",
         "/service-areas/anaheim-ca/leak-detection/",
         "/service-areas/chino-ca/emergency-plumbing/",
-        "/service-areas/corona-ca/emergency-plumbing/",
+        "/service-areas/fullerton-ca/emergency-plumbing/",
         "/contact/"
       ]
     },
@@ -933,7 +804,7 @@
         "/service-areas/anaheim-ca/",
         "/service-areas/anaheim-ca/emergency-plumbing/",
         "/service-areas/chino-ca/leak-detection/",
-        "/service-areas/corona-ca/leak-detection/",
+        "/service-areas/fullerton-ca/leak-detection/",
         "/contact/"
       ]
     },
@@ -1234,7 +1105,7 @@
         "/service-areas/chino-ca/",
         "/service-areas/chino-ca/leak-detection/",
         "/service-areas/anaheim-ca/emergency-plumbing/",
-        "/service-areas/corona-ca/emergency-plumbing/",
+        "/service-areas/fullerton-ca/emergency-plumbing/",
         "/contact/"
       ]
     },
@@ -1277,7 +1148,7 @@
         "/service-areas/chino-ca/",
         "/service-areas/chino-ca/emergency-plumbing/",
         "/service-areas/anaheim-ca/leak-detection/",
-        "/service-areas/corona-ca/leak-detection/",
+        "/service-areas/fullerton-ca/leak-detection/",
         "/contact/"
       ]
     },

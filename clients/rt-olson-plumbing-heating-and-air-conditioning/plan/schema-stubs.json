@@ -78,15 +78,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/corona-ca/": {
-    "archetype": "service-area",
-    "stubs": [
-      "local-business",
-      "service",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/riverside-ca/": {
     "archetype": "service-area",
     "stubs": [
@@ -155,26 +146,6 @@
     "stubs": [
       "local-business",
       "service",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/corona-ca/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/corona-ca/leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
       "breadcrumb-list"
     ],
     "missing_stubs": []

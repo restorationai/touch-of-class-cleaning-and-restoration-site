@@ -6,7 +6,6 @@
     "/about/",
     "/services/emergency-plumbing/",
     "/services/leak-detection/",
-    "/service-areas/corona-ca/",
     "/service-areas/anaheim-ca/",
     "/service-areas/chino-ca/",
     "/service-areas/fullerton-ca/",
@@ -23,7 +22,6 @@
   ],
   "/service-areas/": [
     "/",
-    "/service-areas/corona-ca/",
     "/service-areas/anaheim-ca/",
     "/service-areas/chino-ca/",
     "/service-areas/fullerton-ca/",
@@ -54,7 +52,6 @@
     "/contact/",
     "/service-areas/anaheim-ca/emergency-plumbing/",
     "/service-areas/chino-ca/emergency-plumbing/",
-    "/service-areas/corona-ca/emergency-plumbing/",
     "/service-areas/fullerton-ca/emergency-plumbing/",
     "/service-areas/norco-ca/emergency-plumbing/",
     "/service-areas/ontario-ca/emergency-plumbing/",
@@ -68,7 +65,6 @@
     "/contact/",
     "/service-areas/anaheim-ca/leak-detection/",
     "/service-areas/chino-ca/leak-detection/",
-    "/service-areas/corona-ca/leak-detection/",
     "/service-areas/fullerton-ca/leak-detection/",
     "/service-areas/norco-ca/leak-detection/",
     "/service-areas/ontario-ca/leak-detection/",
@@ -78,102 +74,77 @@
     "/blog/low-water-pressure-causes/",
     "/blog/signs-of-a-slab-leak/"
   ],
-  "/service-areas/corona-ca/": [
-    "/service-areas/",
-    "/contact/",
-    "/service-areas/corona-ca/emergency-plumbing/",
-    "/service-areas/corona-ca/leak-detection/",
-    "/service-areas/anaheim-ca/",
-    "/service-areas/chino-ca/",
-    "/service-areas/fullerton-ca/"
-  ],
   "/service-areas/riverside-ca/": [
     "/service-areas/",
     "/contact/",
     "/service-areas/riverside-ca/emergency-plumbing/",
     "/service-areas/riverside-ca/leak-detection/",
-    "/service-areas/corona-ca/",
     "/service-areas/anaheim-ca/",
-    "/service-areas/chino-ca/"
+    "/service-areas/chino-ca/",
+    "/service-areas/fullerton-ca/"
   ],
   "/service-areas/anaheim-ca/": [
     "/service-areas/",
     "/contact/",
     "/service-areas/anaheim-ca/emergency-plumbing/",
     "/service-areas/anaheim-ca/leak-detection/",
-    "/service-areas/corona-ca/",
     "/service-areas/chino-ca/",
-    "/service-areas/fullerton-ca/"
+    "/service-areas/fullerton-ca/",
+    "/service-areas/norco-ca/"
   ],
   "/service-areas/santa-ana-ca/": [
     "/service-areas/",
     "/contact/",
     "/service-areas/santa-ana-ca/emergency-plumbing/",
     "/service-areas/santa-ana-ca/leak-detection/",
-    "/service-areas/corona-ca/",
     "/service-areas/anaheim-ca/",
-    "/service-areas/chino-ca/"
+    "/service-areas/chino-ca/",
+    "/service-areas/fullerton-ca/"
   ],
   "/service-areas/fullerton-ca/": [
     "/service-areas/",
     "/contact/",
     "/service-areas/fullerton-ca/emergency-plumbing/",
     "/service-areas/fullerton-ca/leak-detection/",
-    "/service-areas/corona-ca/",
     "/service-areas/anaheim-ca/",
-    "/service-areas/chino-ca/"
+    "/service-areas/chino-ca/",
+    "/service-areas/norco-ca/"
   ],
   "/service-areas/ontario-ca/": [
     "/service-areas/",
     "/contact/",
     "/service-areas/ontario-ca/emergency-plumbing/",
     "/service-areas/ontario-ca/leak-detection/",
-    "/service-areas/corona-ca/",
     "/service-areas/anaheim-ca/",
-    "/service-areas/chino-ca/"
+    "/service-areas/chino-ca/",
+    "/service-areas/fullerton-ca/"
   ],
   "/service-areas/chino-ca/": [
     "/service-areas/",
     "/contact/",
     "/service-areas/chino-ca/emergency-plumbing/",
     "/service-areas/chino-ca/leak-detection/",
-    "/service-areas/corona-ca/",
     "/service-areas/anaheim-ca/",
-    "/service-areas/fullerton-ca/"
+    "/service-areas/fullerton-ca/",
+    "/service-areas/norco-ca/"
   ],
   "/service-areas/norco-ca/": [
     "/service-areas/",
     "/contact/",
     "/service-areas/norco-ca/emergency-plumbing/",
     "/service-areas/norco-ca/leak-detection/",
-    "/service-areas/corona-ca/",
     "/service-areas/anaheim-ca/",
-    "/service-areas/chino-ca/"
+    "/service-areas/chino-ca/",
+    "/service-areas/fullerton-ca/"
   ],
   "/service-areas/yorba-linda-ca/": [
     "/service-areas/",
     "/contact/",
     "/service-areas/yorba-linda-ca/emergency-plumbing/",
     "/service-areas/yorba-linda-ca/leak-detection/",
-    "/service-areas/corona-ca/",
     "/service-areas/anaheim-ca/",
-    "/service-areas/chino-ca/"
-  ],
-  "/service-areas/corona-ca/emergency-plumbing/": [
-    "/services/emergency-plumbing/",
-    "/service-areas/corona-ca/",
-    "/service-areas/corona-ca/leak-detection/",
-    "/service-areas/anaheim-ca/emergency-plumbing/",
-    "/service-areas/chino-ca/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/corona-ca/leak-detection/": [
-    "/services/leak-detection/",
-    "/service-areas/corona-ca/",
-    "/service-areas/corona-ca/emergency-plumbing/",
-    "/service-areas/anaheim-ca/leak-detection/",
-    "/service-areas/chino-ca/leak-detection/",
-    "/contact/"
+    "/service-areas/chino-ca/",
+    "/service-areas/fullerton-ca/"
   ],
   "/service-areas/riverside-ca/emergency-plumbing/": [
     "/services/emergency-plumbing/",
@@ -196,7 +167,7 @@
     "/service-areas/anaheim-ca/",
     "/service-areas/anaheim-ca/leak-detection/",
     "/service-areas/chino-ca/emergency-plumbing/",
-    "/service-areas/corona-ca/emergency-plumbing/",
+    "/service-areas/fullerton-ca/emergency-plumbing/",
     "/contact/"
   ],
   "/service-areas/anaheim-ca/leak-detection/": [
@@ -204,7 +175,7 @@
     "/service-areas/anaheim-ca/",
     "/service-areas/anaheim-ca/emergency-plumbing/",
     "/service-areas/chino-ca/leak-detection/",
-    "/service-areas/corona-ca/leak-detection/",
+    "/service-areas/fullerton-ca/leak-detection/",
     "/contact/"
   ],
   "/service-areas/santa-ana-ca/emergency-plumbing/": [
@@ -260,7 +231,7 @@
     "/service-areas/chino-ca/",
     "/service-areas/chino-ca/leak-detection/",
     "/service-areas/anaheim-ca/emergency-plumbing/",
-    "/service-areas/corona-ca/emergency-plumbing/",
+    "/service-areas/fullerton-ca/emergency-plumbing/",
     "/contact/"
   ],
   "/service-areas/chino-ca/leak-detection/": [
@@ -268,7 +239,7 @@
     "/service-areas/chino-ca/",
     "/service-areas/chino-ca/emergency-plumbing/",
     "/service-areas/anaheim-ca/leak-detection/",
-    "/service-areas/corona-ca/leak-detection/",
+    "/service-areas/fullerton-ca/leak-detection/",
     "/contact/"
   ],
   "/service-areas/norco-ca/emergency-plumbing/": [

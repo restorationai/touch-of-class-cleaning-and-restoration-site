@@ -1,20 +1,20 @@
 # Site Plan Report — RT Olson Plumbing, Heating and Air Conditioning
 
 - Template: `plumbing` v0.1.0
-- Generated: 2026-08-18T04:54:01.202041+00:00
+- Generated: 2026-08-18T07:05:53.764058+00:00
 - Domain: `rtolsonplumbing.com`
 - Services selected: 2 of 22 catalog entries
 - Service areas: 9
 - Cross-product enabled: True
-- Total URLs: **41**
-- Total internal links: 242 (avg 5.9 per page)
+- Total URLs: **38**
+- Total internal links: 219 (avg 5.8 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 18 |
-| `service-area` | 9 |
+| `service-area-service` | 16 |
+| `service-area` | 8 |
 | `blog-post` | 3 |
 | `legal` | 3 |
 | `service-landing` | 2 |
@@ -47,15 +47,15 @@
 | URL | Archetype | Priority | Primary keyword |
 | --- | --- | --- | --- |
 | `/services/emergency-plumbing/` | `service-landing` | 9.0 | emergency plumbing corona |
-| `/service-areas/corona-ca/` | `service-area` | 7.2 | plumber corona |
 | `/service-areas/anaheim-ca/emergency-plumbing/` | `service-area-service` | 7.0 | emergency plumbing anaheim |
 | `/service-areas/chino-ca/emergency-plumbing/` | `service-area-service` | 7.0 | emergency plumbing chino |
-| `/service-areas/corona-ca/emergency-plumbing/` | `service-area-service` | 7.0 | emergency plumbing corona |
 | `/service-areas/fullerton-ca/emergency-plumbing/` | `service-area-service` | 7.0 | emergency plumbing fullerton |
 | `/service-areas/norco-ca/emergency-plumbing/` | `service-area-service` | 7.0 | emergency plumbing norco |
 | `/service-areas/ontario-ca/emergency-plumbing/` | `service-area-service` | 7.0 | emergency plumbing ontario |
 | `/service-areas/riverside-ca/emergency-plumbing/` | `service-area-service` | 7.0 | emergency plumbing riverside |
 | `/service-areas/santa-ana-ca/emergency-plumbing/` | `service-area-service` | 7.0 | emergency plumbing santa ana |
+| `/service-areas/yorba-linda-ca/emergency-plumbing/` | `service-area-service` | 7.0 | emergency plumbing yorba linda |
+| `/services/leak-detection/` | `service-landing` | 6.3 | leak detection corona |
 
 ## Validation
 
