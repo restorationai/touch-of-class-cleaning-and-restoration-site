@@ -18,13 +18,44 @@ type Props = {
   /** Compact variant for /emergency/ — tighter spacing, shorter copy. */
   compact?: boolean;
   heading?: string;
+  /** "hero" renders a standalone dark card for embedding inside <Hero> —
+      DEFAULT on every home page since 2026-08-18 (Santino: form in the hero). */
+  variant?: "section" | "hero";
 };
 const {
   compact = false,
   heading = compact ? "Or Request a Free Estimate" : "Request Your Free Estimate",
+  variant = "section",
 } = Astro.props;
 ---
 
+{variant === "hero" ? (
+  <div class="w-full max-w-md bg-dark-950/85 backdrop-blur rounded-2xl shadow-2xl border border-white/10 p-6 sm:p-7" id="estimate">
+    <h2 class="text-2xl font-black uppercase tracking-tighter text-white mb-1.5">Get a Fast, Free Estimate</h2>
+    <p class="text-white/70 text-sm mb-4">Tell us what happened. We call back fast.</p>
+    <form method="post" action="/api/estimate" data-estimate-form novalidate class="grid gap-3">
+      <div class="grid gap-3 sm:grid-cols-2">
+        <input type="text" name="name" required autocomplete="name" maxlength="120" placeholder="Name *"
+          class="rounded-md border border-white/15 bg-white/5 px-3.5 py-2.5 text-base text-white placeholder-white/40 focus:border-white/50 focus:outline-none" />
+        <input type="tel" name="phone" required autocomplete="tel" maxlength="30" placeholder="Phone *"
+          class="rounded-md border border-white/15 bg-white/5 px-3.5 py-2.5 text-base text-white placeholder-white/40 focus:border-white/50 focus:outline-none" />
+      </div>
+      <input type="text" name="city" required autocomplete="postal-code" maxlength="80" placeholder={`City or ZIP * (${brand.primaryCity})`}
+        class="rounded-md border border-white/15 bg-white/5 px-3.5 py-2.5 text-base text-white placeholder-white/40 focus:border-white/50 focus:outline-none" />
+      <textarea name="description" rows="2" maxlength="2000" placeholder="What happened?"
+        class="rounded-md border border-white/15 bg-white/5 px-3.5 py-2.5 text-base text-white placeholder-white/40 focus:border-white/50 focus:outline-none resize-y"></textarea>
+      <div class="absolute -left-[9999px] top-auto w-px h-px overflow-hidden" aria-hidden="true">
+        <label>Company website <input type="text" name="company_website" tabindex="-1" autocomplete="off" /></label>
+      </div>
+      <input type="hidden" name="fets" value="" />
+      <button type="submit" class="inline-flex items-center justify-center font-bold px-6 py-3 rounded-md transition-all text-base shadow-lg bg-primary-600 text-white hover:bg-primary-700 disabled:opacity-60 disabled:cursor-not-allowed">
+        Get My Free Estimate
+      </button>
+      <p data-estimate-status class="hidden m-0 rounded-md px-3 py-2.5 text-sm font-medium" role="status" aria-live="polite"></p>
+      <p class="m-0 text-center text-white/70 text-sm">Fastest: <a href={`tel:${brand.phoneRaw}`} class="font-bold text-white">call {brand.phone}</a></p>
+    </form>
+  </div>
+) : (
 <section id="estimate" class={`scroll-mt-24 bg-dark-50 border-y border-dark/10 ${compact ? "py-14" : "py-20"}`}>
   <div class="container-wide px-6">
     <div class={`mx-auto ${compact ? "max-w-xl" : "max-w-6xl"} flex flex-col lg:flex-row gap-8 items-start`}>
@@ -154,10 +185,13 @@ const {
     </div>
   </div>
 </section>
+)}
 
 <script is:inline>
   (function () {
     document.querySelectorAll("[data-estimate-form]").forEach(function (form) {
+      if (form.dataset.bound) return;
+      form.dataset.bound = "1";
       var ts = form.querySelector('input[name="fets"]');
       if (ts) ts.value = String(Date.now());
       var status = form.querySelector("[data-estimate-status]");
