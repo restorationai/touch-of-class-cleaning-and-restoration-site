@@ -1,0 +1,1008 @@
+{
+  "template": "restoration",
+  "template_version": "0.3.0",
+  "generated_at": "2026-08-18T20:23:39.281136+00:00",
+  "input_summary": {
+    "service_count": 1,
+    "service_area_count": 9,
+    "cross_product": true,
+    "blog_seed_count": 8
+  },
+  "pages": [
+    {
+      "url_path": "/",
+      "archetype": "home",
+      "vars_keys": [],
+      "title": "ProCraft Exteriors  | Restoration Services in Chesterfield, MO",
+      "h1": "Restoration Services in Chesterfield",
+      "meta_description": "ProCraft Exteriors provides water, fire, mold, and storm damage restoration across Chesterfield and surrounding areas. Licensed, insured. Call (314) 965-2353.",
+      "primary_keyword": "restoration services chesterfield",
+      "secondary_keywords": [
+        "restoration company near me"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 1200,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2",
+        "inline-3"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "aggregate-rating"
+      ],
+      "priority": 5.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/service-areas/",
+        "/contact/",
+        "/about/",
+        "/services/storm-damage-restoration/",
+        "/service-areas/ballwin-mo/",
+        "/service-areas/creve-coeur-mo/",
+        "/service-areas/florissant-mo/",
+        "/service-areas/kirkwood-mo/",
+        "/service-areas/maryland-heights-mo/",
+        "/service-areas/st-charles-mo/",
+        "/service-areas/st-louis-mo/",
+        "/service-areas/wildwood-mo/"
+      ]
+    },
+    {
+      "url_path": "/services/",
+      "archetype": "services-hub",
+      "vars_keys": [],
+      "title": "Restoration Services in Chesterfield | ProCraft Exteriors ",
+      "h1": "Our Restoration Services",
+      "meta_description": "Full-service restoration in Chesterfield: water, fire, mold, storm, biohazard, and commercial restoration. Prompt scheduling. Call (314) 965-2353.",
+      "primary_keyword": "restoration services chesterfield",
+      "secondary_keywords": [
+        "damage restoration services",
+        "property restoration services",
+        "disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 800,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "breadcrumb-list"
+      ],
+      "priority": 4.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/services/storm-damage-restoration/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/",
+      "archetype": "service-areas-hub",
+      "vars_keys": [],
+      "title": "Service Areas | ProCraft Exteriors  Restoration",
+      "h1": "Areas We Serve",
+      "meta_description": "ProCraft Exteriors provides restoration services across Chesterfield and the surrounding region. Find your city.",
+      "primary_keyword": "procraft exteriors  service areas",
+      "secondary_keywords": [
+        "restoration service area",
+        "cities we serve",
+        "local restoration coverage"
+      ],
+      "search_intent": "navigational_local",
+      "target_word_count": 500,
+      "image_roles": [
+        "hero",
+        "og"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/service-areas/ballwin-mo/",
+        "/service-areas/creve-coeur-mo/",
+        "/service-areas/florissant-mo/",
+        "/service-areas/kirkwood-mo/",
+        "/service-areas/maryland-heights-mo/",
+        "/service-areas/st-charles-mo/",
+        "/service-areas/st-louis-mo/",
+        "/service-areas/wildwood-mo/"
+      ]
+    },
+    {
+      "url_path": "/blog/",
+      "archetype": "blog-index",
+      "vars_keys": [],
+      "title": "Restoration Blog | ProCraft Exteriors ",
+      "h1": "Restoration Resources and Insights",
+      "meta_description": "Guides, checklists, and explainers from ProCraft Exteriors  on water, fire, mold, and storm damage restoration.",
+      "primary_keyword": "restoration blog chesterfield",
+      "secondary_keywords": [
+        "restoration guides",
+        "damage restoration tips",
+        "restoration insights"
+      ],
+      "search_intent": "informational_browse",
+      "target_word_count": 300,
+      "image_roles": [
+        "hero",
+        "og"
+      ],
+      "schema_stubs": [
+        "website",
+        "breadcrumb-list"
+      ],
+      "priority": 3.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/blog/storm-damage-insurance-claim-checklist/"
+      ]
+    },
+    {
+      "url_path": "/about/",
+      "archetype": "about",
+      "vars_keys": [],
+      "title": "About ProCraft Exteriors  | Chesterfield Restoration Company",
+      "h1": "About ProCraft Exteriors ",
+      "meta_description": "ProCraft Exteriors has served Chesterfield since 2005. Meet our restoration team. Licensed, insured, locally owned.",
+      "primary_keyword": "procraft exteriors  chesterfield",
+      "secondary_keywords": [
+        "local restoration company",
+        "iicrc certified restoration",
+        "licensed restoration contractor"
+      ],
+      "search_intent": "navigational_trust",
+      "target_word_count": 700,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "aggregate-rating",
+        "breadcrumb-list"
+      ],
+      "priority": 2.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/contact/",
+      "archetype": "contact",
+      "vars_keys": [],
+      "title": "Contact ProCraft Exteriors | Restoration in Chesterfield",
+      "h1": "Contact ProCraft Exteriors ",
+      "meta_description": "Call (314) 965-2353 for restoration services in Chesterfield and surrounding areas. Free estimates. Direct insurance billing.",
+      "primary_keyword": "procraft exteriors  contact",
+      "secondary_keywords": [
+        "restoration company contact"
+      ],
+      "search_intent": "navigational_action",
+      "target_word_count": 400,
+      "image_roles": [
+        "hero",
+        "og"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "breadcrumb-list"
+      ],
+      "priority": 2.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/services/",
+        "/service-areas/"
+      ]
+    },
+    {
+      "url_path": "/services/storm-damage-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Chesterfield | ProCraft Exteriors ",
+      "h1": "Storm Damage Restoration in Chesterfield",
+      "meta_description": "Storm damage restoration in Chesterfield and surrounding areas. Insurance billing accepted. Call (314) 965-2353.",
+      "primary_keyword": "storm damage restoration chesterfield",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/ballwin-mo/storm-damage-restoration/",
+        "/service-areas/creve-coeur-mo/storm-damage-restoration/",
+        "/service-areas/florissant-mo/storm-damage-restoration/",
+        "/service-areas/kirkwood-mo/storm-damage-restoration/",
+        "/service-areas/maryland-heights-mo/storm-damage-restoration/",
+        "/service-areas/st-charles-mo/storm-damage-restoration/",
+        "/service-areas/st-louis-mo/storm-damage-restoration/",
+        "/service-areas/wildwood-mo/storm-damage-restoration/",
+        "/blog/storm-damage-insurance-claim-checklist/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/st-louis-mo/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in St. Louis, MO | ProCraft Exteriors ",
+      "h1": "Restoration Services in St. Louis",
+      "meta_description": "Serving St. Louis, MO with water, fire, mold, and storm damage restoration. Experienced team. Call (314) 965-2353.",
+      "primary_keyword": "restoration services st. louis",
+      "secondary_keywords": [
+        "st. louis restoration company",
+        "damage restoration st. louis",
+        "st. louis disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/st-louis-mo/storm-damage-restoration/",
+        "/service-areas/ballwin-mo/",
+        "/service-areas/creve-coeur-mo/",
+        "/service-areas/florissant-mo/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/st-charles-mo/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in St. Charles, MO | ProCraft Exteriors ",
+      "h1": "Restoration Services in St. Charles",
+      "meta_description": "Serving St. Charles, MO with water, fire, mold, and storm damage restoration. Experienced team. Call (314) 965-2353.",
+      "primary_keyword": "restoration services st. charles",
+      "secondary_keywords": [
+        "st. charles restoration company",
+        "damage restoration st. charles",
+        "st. charles disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/st-charles-mo/storm-damage-restoration/",
+        "/service-areas/ballwin-mo/",
+        "/service-areas/creve-coeur-mo/",
+        "/service-areas/florissant-mo/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/florissant-mo/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Florissant, MO | ProCraft Exteriors ",
+      "h1": "Restoration Services in Florissant",
+      "meta_description": "Serving Florissant, MO with water, fire, mold, and storm damage restoration. Experienced team. Call (314) 965-2353.",
+      "primary_keyword": "restoration services florissant",
+      "secondary_keywords": [
+        "florissant restoration company",
+        "damage restoration florissant",
+        "florissant disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/florissant-mo/storm-damage-restoration/",
+        "/service-areas/ballwin-mo/",
+        "/service-areas/creve-coeur-mo/",
+        "/service-areas/kirkwood-mo/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/wildwood-mo/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Wildwood, MO | ProCraft Exteriors ",
+      "h1": "Restoration Services in Wildwood",
+      "meta_description": "Serving Wildwood, MO with water, fire, mold, and storm damage restoration. Experienced team. Call (314) 965-2353.",
+      "primary_keyword": "restoration services wildwood",
+      "secondary_keywords": [
+        "wildwood restoration company",
+        "damage restoration wildwood",
+        "wildwood disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/wildwood-mo/storm-damage-restoration/",
+        "/service-areas/ballwin-mo/",
+        "/service-areas/creve-coeur-mo/",
+        "/service-areas/florissant-mo/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ballwin-mo/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Ballwin, MO | ProCraft Exteriors ",
+      "h1": "Restoration Services in Ballwin",
+      "meta_description": "Serving Ballwin, MO with water, fire, mold, and storm damage restoration. Experienced team. Call (314) 965-2353.",
+      "primary_keyword": "restoration services ballwin",
+      "secondary_keywords": [
+        "ballwin restoration company",
+        "damage restoration ballwin",
+        "ballwin disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/ballwin-mo/storm-damage-restoration/",
+        "/service-areas/creve-coeur-mo/",
+        "/service-areas/florissant-mo/",
+        "/service-areas/kirkwood-mo/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/kirkwood-mo/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Kirkwood, MO | ProCraft Exteriors ",
+      "h1": "Restoration Services in Kirkwood",
+      "meta_description": "Serving Kirkwood, MO with water, fire, mold, and storm damage restoration. Experienced team. Call (314) 965-2353.",
+      "primary_keyword": "restoration services kirkwood",
+      "secondary_keywords": [
+        "kirkwood restoration company",
+        "damage restoration kirkwood",
+        "kirkwood disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/kirkwood-mo/storm-damage-restoration/",
+        "/service-areas/ballwin-mo/",
+        "/service-areas/creve-coeur-mo/",
+        "/service-areas/florissant-mo/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/maryland-heights-mo/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Maryland Heights, MO | ProCraft Exteriors ",
+      "h1": "Restoration Services in Maryland Heights",
+      "meta_description": "Serving Maryland Heights, MO with water, fire, mold, and storm damage restoration. Experienced team. Call (314) 965-2353.",
+      "primary_keyword": "restoration services maryland heights",
+      "secondary_keywords": [
+        "maryland heights restoration company",
+        "damage restoration maryland heights",
+        "maryland heights disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/maryland-heights-mo/storm-damage-restoration/",
+        "/service-areas/ballwin-mo/",
+        "/service-areas/creve-coeur-mo/",
+        "/service-areas/florissant-mo/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/creve-coeur-mo/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Creve Coeur, MO | ProCraft Exteriors ",
+      "h1": "Restoration Services in Creve Coeur",
+      "meta_description": "Serving Creve Coeur, MO with water, fire, mold, and storm damage restoration. Experienced team. Call (314) 965-2353.",
+      "primary_keyword": "restoration services creve coeur",
+      "secondary_keywords": [
+        "creve coeur restoration company",
+        "damage restoration creve coeur",
+        "creve coeur disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/creve-coeur-mo/storm-damage-restoration/",
+        "/service-areas/ballwin-mo/",
+        "/service-areas/florissant-mo/",
+        "/service-areas/kirkwood-mo/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/st-louis-mo/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in St. Louis, MO | ProCraft Exteriors ",
+      "h1": "Storm Damage Restoration in St. Louis",
+      "meta_description": "Storm damage restoration in St. Louis, MO. Insurance billing accepted. Call (314) 965-2353.",
+      "primary_keyword": "storm damage restoration st. louis",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/st-louis-mo/",
+        "/service-areas/ballwin-mo/storm-damage-restoration/",
+        "/service-areas/creve-coeur-mo/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/st-charles-mo/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in St. Charles, MO | ProCraft Exteriors ",
+      "h1": "Storm Damage Restoration in St. Charles",
+      "meta_description": "Storm damage restoration in St. Charles, MO. Insurance billing accepted. Call (314) 965-2353.",
+      "primary_keyword": "storm damage restoration st. charles",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/st-charles-mo/",
+        "/service-areas/ballwin-mo/storm-damage-restoration/",
+        "/service-areas/creve-coeur-mo/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/florissant-mo/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Florissant, MO | ProCraft Exteriors ",
+      "h1": "Storm Damage Restoration in Florissant",
+      "meta_description": "Storm damage restoration in Florissant, MO. Insurance billing accepted. Call (314) 965-2353.",
+      "primary_keyword": "storm damage restoration florissant",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/florissant-mo/",
+        "/service-areas/ballwin-mo/storm-damage-restoration/",
+        "/service-areas/creve-coeur-mo/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/wildwood-mo/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Wildwood, MO | ProCraft Exteriors ",
+      "h1": "Storm Damage Restoration in Wildwood",
+      "meta_description": "Storm damage restoration in Wildwood, MO. Insurance billing accepted. Call (314) 965-2353.",
+      "primary_keyword": "storm damage restoration wildwood",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/wildwood-mo/",
+        "/service-areas/ballwin-mo/storm-damage-restoration/",
+        "/service-areas/creve-coeur-mo/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ballwin-mo/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Ballwin, MO | ProCraft Exteriors ",
+      "h1": "Storm Damage Restoration in Ballwin",
+      "meta_description": "Storm damage restoration in Ballwin, MO. Insurance billing accepted. Call (314) 965-2353.",
+      "primary_keyword": "storm damage restoration ballwin",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/ballwin-mo/",
+        "/service-areas/creve-coeur-mo/storm-damage-restoration/",
+        "/service-areas/florissant-mo/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/kirkwood-mo/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Kirkwood, MO | ProCraft Exteriors ",
+      "h1": "Storm Damage Restoration in Kirkwood",
+      "meta_description": "Storm damage restoration in Kirkwood, MO. Insurance billing accepted. Call (314) 965-2353.",
+      "primary_keyword": "storm damage restoration kirkwood",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/kirkwood-mo/",
+        "/service-areas/ballwin-mo/storm-damage-restoration/",
+        "/service-areas/creve-coeur-mo/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/maryland-heights-mo/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Maryland Heights, MO | ProCraft Exteriors ",
+      "h1": "Storm Damage Restoration in Maryland Heights",
+      "meta_description": "Storm damage restoration in Maryland Heights, MO. Insurance billing accepted. Call (314) 965-2353.",
+      "primary_keyword": "storm damage restoration maryland heights",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/maryland-heights-mo/",
+        "/service-areas/ballwin-mo/storm-damage-restoration/",
+        "/service-areas/creve-coeur-mo/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/creve-coeur-mo/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Storm Damage Restoration in Creve Coeur, MO | ProCraft Exteriors ",
+      "h1": "Storm Damage Restoration in Creve Coeur",
+      "meta_description": "Storm damage restoration in Creve Coeur, MO. Insurance billing accepted. Call (314) 965-2353.",
+      "primary_keyword": "storm damage restoration creve coeur",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/creve-coeur-mo/",
+        "/service-areas/ballwin-mo/storm-damage-restoration/",
+        "/service-areas/florissant-mo/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/blog/storm-damage-insurance-claim-checklist/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Storm Damage Insurance Claim Checklist (Use This Before You Call Your Insurer)",
+      "h1": "Storm Damage Insurance Claim Checklist (Use This Before You Call Your Insurer)",
+      "meta_description": "",
+      "primary_keyword": "storm damage insurance claim checklist use this before you call your insurer",
+      "secondary_keywords": [
+        "storm damage restoration"
+      ],
+      "search_intent": "informational_insurance",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/storm-damage-restoration/"
+      ]
+    },
+    {
+      "url_path": "/privacy/",
+      "archetype": "legal",
+      "vars_keys": [
+        "instance"
+      ],
+      "title": "Privacy Policy | ProCraft Exteriors ",
+      "h1": "Privacy Policy",
+      "meta_description": "Privacy Policy | {brand.display_name}.",
+      "primary_keyword": "procraft exteriors  privacy",
+      "secondary_keywords": [],
+      "search_intent": "navigational_legal",
+      "target_word_count": 600,
+      "image_roles": [
+        "og"
+      ],
+      "schema_stubs": [],
+      "priority": 1.0,
+      "status": "planned",
+      "internal_links_out": []
+    },
+    {
+      "url_path": "/terms/",
+      "archetype": "legal",
+      "vars_keys": [
+        "instance"
+      ],
+      "title": "Terms of Service | ProCraft Exteriors ",
+      "h1": "Terms of Service",
+      "meta_description": "Terms of Service | {brand.display_name}.",
+      "primary_keyword": "procraft exteriors  terms",
+      "secondary_keywords": [],
+      "search_intent": "navigational_legal",
+      "target_word_count": 600,
+      "image_roles": [
+        "og"
+      ],
+      "schema_stubs": [],
+      "priority": 1.0,
+      "status": "planned",
+      "internal_links_out": []
+    },
+    {
+      "url_path": "/accessibility/",
+      "archetype": "legal",
+      "vars_keys": [
+        "instance"
+      ],
+      "title": "Accessibility Statement | ProCraft Exteriors ",
+      "h1": "Accessibility Statement",
+      "meta_description": "Accessibility Statement | {brand.display_name}.",
+      "primary_keyword": "procraft exteriors  accessibility",
+      "secondary_keywords": [],
+      "search_intent": "navigational_legal",
+      "target_word_count": 400,
+      "image_roles": [
+        "og"
+      ],
+      "schema_stubs": [],
+      "priority": 1.0,
+      "status": "planned",
+      "internal_links_out": []
+    }
+  ]
+}
