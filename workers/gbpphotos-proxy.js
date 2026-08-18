@@ -185,18 +185,24 @@ async function handleReviewRequest(client, body, env) {
     if (!ins.ok) return { ok: false, error: "Could not save the customer." };
     contactId = (await ins.json())[0].id;
   }
-  // parked review request — the team's send gates decide when it goes out
+  // ARMED review request (2026-08-18, Bobby Olson's live test sat parked
+  // forever): next_send_at=now makes the dispatcher pick it up on its next
+  // 10-min pass — its own gates still enforce business hours (08:00-17:59
+  // company-local) and the 1-per-20-min pace, so "queued at 5:30am" sends
+  // at 9am exactly as we tell clients. NULL means parked-forever and is
+  // reserved for bulk enrollments the team arms deliberately.
   const slugChars = "abcdefghjkmnpqrstuvwxyz23456789";
   let tslug = ""; const rnd = crypto.getRandomValues(new Uint8Array(12));
   for (const b of rnd) tslug += slugChars[b % slugChars.length];
+  const armAt = new Date().toISOString();
   const rr = await sb("review_requests", { method: "POST", headers: { Prefer: "return=minimal" },
     body: JSON.stringify({ company_id: client.cid, contact_id: contactId, campaign_type: "reactivation",
-      tracking_slug: tslug, status: "pending", step_number: 1, next_send_at: null, source: "crew_hub" }) });
+      tracking_slug: tslug, status: "pending", step_number: 1, next_send_at: armAt, source: "crew_hub" }) });
   if (!rr.ok) {
     // some deployments lack the source column — retry without it
     const rr2 = await sb("review_requests", { method: "POST", headers: { Prefer: "return=minimal" },
       body: JSON.stringify({ company_id: client.cid, contact_id: contactId, campaign_type: "reactivation",
-        tracking_slug: tslug, status: "pending", step_number: 1, next_send_at: null }) });
+        tracking_slug: tslug, status: "pending", step_number: 1, next_send_at: armAt }) });
     if (!rr2.ok) return { ok: false, error: "Could not queue the review request." };
   }
   return { ok: true, note: "The marketing team has it from here." };
