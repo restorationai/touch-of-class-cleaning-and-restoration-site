@@ -13,7 +13,7 @@
     "url_count": 664,
     "generated_at": "2026-07-26T16:11:25.485538+00:00"
   },
-  "updated_at": "2026-08-16T14:20:48.123447+00:00",
+  "updated_at": "2026-08-18T04:58:44.135707+00:00",
   "build": {
     "scaffolded_at": "2026-07-26T06:51:44.253391+00:00",
     "github_repo": "restorationai/crew-restoration-construction-site",
@@ -22,10 +22,10 @@
     "url_count": 280,
     "pages_status": "created",
     "last_rendered_at": "2026-07-26T16:47:36.711100+00:00",
-    "last_pushed_staging_at": "2026-08-05T04:07:01.964522+00:00",
-    "last_pushed_main_at": "2026-08-16T14:20:48.123430+00:00"
+    "last_pushed_staging_at": "2026-08-18T04:58:44.135686+00:00",
+    "last_pushed_main_at": "2026-08-18T04:57:39.899987+00:00"
   },
-  "build_status": "pushed_main",
+  "build_status": "pushed_staging",
   "indexnow_key": "bedc968faa1a4b2ba63dc60541a475c5",
   "cut_over_at": "2026-08-08T00:00:00+00:00",
   "cut_over_note": "crew3r.com live 08-08",
