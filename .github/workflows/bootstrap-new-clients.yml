@@ -79,6 +79,16 @@ jobs:
           # sites/{slug} in this job; committing only clients/ would throw the
           # rendered site away and make the next run re-render it from scratch
           # (same lesson as the ops-sync job, Reign 2026-08-03).
+          # GITLINK GUARD (2026-08-18, rt-olson): a scaffold that dies between
+          # git-init and its cleanup leaves sites/{slug}/.git behind; adding
+          # sites/ then records a SUBMODULE POINTER instead of files, and every
+          # later run sees an empty dir and re-scaffolds forever (8 nights).
+          for g in sites/*/.git; do
+            if [ -e "$g" ]; then rm -rf "$g"; echo "stripped nested $g"; fi
+          done
+          git ls-files -s sites/ | awk '$1=="160000"{print $4}' | while read -r p; do
+            git rm --cached -q "$p" && echo "de-gitlinked $p"
+          done
           git add clients/ sites/ 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "Nothing to commit."

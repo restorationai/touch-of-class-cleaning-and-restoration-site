@@ -1770,14 +1770,20 @@ def cmd_scaffold(args) -> int:
     # Step 4: Git init + commit + push (main + staging)
     print("[4/5] Pushing to GitHub (main + staging)...")
     commit = args.message or f"Scaffold from rank-ai-build-site at {now_iso()}"
-    git_init_and_push(site_dir, repo_name, commit)
-    # Remove the nested .git so the monorepo tracks files directly instead of
-    # recording sites/{slug}/ as a submodule (which breaks git subtree split).
-    nested_git = site_dir / ".git"
-    if nested_git.exists():
-        import shutil as _shutil
-        _shutil.rmtree(nested_git)
-        print("      Removed nested .git (monorepo-safe).")
+    try:
+        git_init_and_push(site_dir, repo_name, commit)
+    finally:
+        # ALWAYS remove the nested .git, even when the push dies — so the
+        # monorepo tracks files directly instead of recording sites/{slug}/
+        # as a submodule pointer. A push failure that left .git behind is how
+        # rt-olson got committed as a gitlink and re-scaffolded for 8 nights
+        # (2026-08-10..18). A re-run re-inits from scratch, so nothing is
+        # lost by stripping here.
+        nested_git = site_dir / ".git"
+        if nested_git.exists():
+            import shutil as _shutil
+            _shutil.rmtree(nested_git)
+            print("      Removed nested .git (monorepo-safe).")
     print("      Pushed to main and staging.")
 
     # Step 5: Cloudflare Pages project (gated on OAuth)
