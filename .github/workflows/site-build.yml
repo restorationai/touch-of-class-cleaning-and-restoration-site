@@ -80,8 +80,13 @@ jobs:
           CLOUDFLARE_PAGES_API_TOKEN: ${{ secrets.CLOUDFLARE_PAGES_API_TOKEN }}
         run: |
           SLUG="${{ github.event.inputs.slug }}"
-          if [ -d "sites/$SLUG" ]; then
-            echo "sites/$SLUG exists — skipping scaffold"
+          # A REAL scaffold leaves package.json; a bare directory does not
+          # count (2026-08-18, rt-olson: the brief step plants the logo at
+          # sites/$SLUG/public/images/ BEFORE this check, so dir-existence
+          # skipped the scaffold on a first build and render died on missing
+          # prompts).
+          if [ -f "sites/$SLUG/package.json" ]; then
+            echo "sites/$SLUG is scaffolded — skipping scaffold"
           else
             python3 scripts/build_site.py scaffold --slug "$SLUG"
           fi
