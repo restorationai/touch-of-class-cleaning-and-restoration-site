@@ -25,7 +25,16 @@
   },
   "services": [
     "emergency-plumbing",
-    "leak-detection"
+    "leak-detection",
+    "drain-cleaning",
+    "water-heater-repair",
+    "water-heater-installation",
+    "toilet-faucet-repair",
+    "garbage-disposal",
+    "water-softeners-filtration",
+    "ac-repair",
+    "furnace-repair",
+    "indoor-air-quality"
   ],
   "service_areas": [
     {

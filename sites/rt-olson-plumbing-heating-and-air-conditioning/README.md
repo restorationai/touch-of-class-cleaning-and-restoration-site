@@ -49,7 +49,20 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `/images/logo.png` / `RO` | derived; logo lives on the per-client R2 bucket | |
 | `https://images.rtolsonplumbing.com` | `https://images.{domain}` | |
 | `- [Emergency Plumbing](https://rtolsonplumbing.com/services/emergency-plumbing/)
+<<<<<<< HEAD
 - [Leak Detection](https://rtolsonplumbing.com/services/leak-detection/)` / `- [Corona, CA](https://rtolsonplumbing.com/service-areas/corona-ca/)
+=======
+- [Leak Detection](https://rtolsonplumbing.com/services/leak-detection/)
+- [Drain Cleaning](https://rtolsonplumbing.com/services/drain-cleaning/)
+- [Water Heater Repair](https://rtolsonplumbing.com/services/water-heater-repair/)
+- [Water Heater Installation and Replacement](https://rtolsonplumbing.com/services/water-heater-installation/)
+- [Toilet, Faucet and Fixture Services](https://rtolsonplumbing.com/services/toilet-faucet-repair/)
+- [Garbage Disposal Repair and Installation](https://rtolsonplumbing.com/services/garbage-disposal/)
+- [Water Softeners and Filtration Systems](https://rtolsonplumbing.com/services/water-softeners-filtration/)
+- [Air Conditioning Repair](https://rtolsonplumbing.com/services/ac-repair/)
+- [Furnace Repair](https://rtolsonplumbing.com/services/furnace-repair/)
+- [Indoor Air Quality Services](https://rtolsonplumbing.com/services/indoor-air-quality/)` / `- [Corona, CA](https://rtolsonplumbing.com/service-areas/corona-ca/)
+>>>>>>> 027ddff4 (rt-olson: full 124-page plumbing build (11 documented services, real fleet photos, plumbing hub archetype + vertical prompts patched))
 - [Riverside, CA](https://rtolsonplumbing.com/service-areas/riverside-ca/)
 - [Anaheim, CA](https://rtolsonplumbing.com/service-areas/anaheim-ca/)
 - [Santa Ana, CA](https://rtolsonplumbing.com/service-areas/santa-ana-ca/)

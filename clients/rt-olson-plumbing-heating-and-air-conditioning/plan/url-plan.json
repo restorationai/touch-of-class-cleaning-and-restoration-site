@@ -1,9 +1,13 @@
 {
   "template": "plumbing",
   "template_version": "0.1.0",
+<<<<<<< HEAD
   "generated_at": "2026-08-18T07:05:53.761591+00:00",
+=======
+  "generated_at": "2026-08-18T12:11:12.404969+00:00",
+>>>>>>> 027ddff4 (rt-olson: full 124-page plumbing build (11 documented services, real fleet photos, plumbing hub archetype + vertical prompts patched))
   "input_summary": {
-    "service_count": 2,
+    "service_count": 11,
     "service_area_count": 9,
     "cross_product": true,
     "blog_seed_count": 8
@@ -44,8 +48,20 @@
         "/service-areas/",
         "/contact/",
         "/about/",
+        "/services/ac-repair/",
+        "/services/drain-cleaning/",
         "/services/emergency-plumbing/",
+        "/services/water-heater-repair/",
+        "/services/furnace-repair/",
+        "/services/water-heater-installation/",
         "/services/leak-detection/",
+<<<<<<< HEAD
+=======
+        "/services/toilet-faucet-repair/",
+        "/services/indoor-air-quality/",
+        "/services/water-softeners-filtration/",
+        "/services/garbage-disposal/",
+>>>>>>> 027ddff4 (rt-olson: full 124-page plumbing build (11 documented services, real fleet photos, plumbing hub archetype + vertical prompts patched))
         "/service-areas/anaheim-ca/",
         "/service-areas/chino-ca/",
         "/service-areas/fullerton-ca/",
@@ -61,13 +77,13 @@
       "archetype": "services-hub",
       "vars_keys": [],
       "title": "Plumbing, Heating & Air Services in Corona | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Our Plumbing, Heating and Air Services",
-      "meta_description": "Full-service plumbing and HVAC in Corona: drains, water heaters, sewer lines, gas lines, furnaces, and air conditioning. Call (951) 344-5596 for 24/7 emergency service.",
+      "h1": "Our Plumbing, Heating & Air Services",
+      "meta_description": "Full-service plumbing, heating and air conditioning in Corona: repairs, installs, drain cleaning, water heaters, and HVAC. Call (951) 344-5596.",
       "primary_keyword": "plumbing services corona",
       "secondary_keywords": [
-        "plumbing services",
-        "hvac services",
-        "heating and cooling services"
+        "plumbing and hvac services",
+        "licensed plumber services",
+        "heating and air conditioning services"
       ],
       "search_intent": "local_commercial",
       "target_word_count": 800,
@@ -86,8 +102,17 @@
       "status": "planned",
       "internal_links_out": [
         "/",
+        "/services/ac-repair/",
+        "/services/drain-cleaning/",
         "/services/emergency-plumbing/",
-        "/services/leak-detection/"
+        "/services/water-heater-repair/",
+        "/services/furnace-repair/",
+        "/services/water-heater-installation/",
+        "/services/leak-detection/",
+        "/services/toilet-faucet-repair/",
+        "/services/indoor-air-quality/",
+        "/services/water-softeners-filtration/",
+        "/services/garbage-disposal/"
       ]
     },
     {
@@ -156,7 +181,12 @@
       "status": "planned",
       "internal_links_out": [
         "/",
+        "/blog/tankless-vs-tank-water-heater/",
         "/blog/what-to-do-burst-pipe/",
+        "/blog/drain-cleaning-diy-vs-pro/",
+        "/blog/furnace-repair-or-replace/",
+        "/blog/water-heater-lifespan-repair-or-replace/",
+        "/blog/hydro-jetting-vs-snaking/",
         "/blog/low-water-pressure-causes/",
         "/blog/signs-of-a-slab-leak/"
       ]
@@ -325,6 +355,429 @@
       ]
     },
     {
+<<<<<<< HEAD
+=======
+      "url_path": "/services/drain-cleaning/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Drain Cleaning in Corona | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Drain Cleaning in Corona",
+      "meta_description": "Trusted drain cleaning in Corona and surrounding areas. Licensed and insured plumbing and HVAC pros, upfront pricing, free estimates. Call (951) 344-5596.",
+      "primary_keyword": "drain cleaning corona",
+      "secondary_keywords": [
+        "clogged drain cleaning",
+        "hydro jetting",
+        "rooter service",
+        "kitchen sink clog removal",
+        "shower drain clog"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 9.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/anaheim-ca/drain-cleaning/",
+        "/service-areas/chino-ca/drain-cleaning/",
+        "/service-areas/fullerton-ca/drain-cleaning/",
+        "/service-areas/norco-ca/drain-cleaning/",
+        "/service-areas/ontario-ca/drain-cleaning/",
+        "/service-areas/riverside-ca/drain-cleaning/",
+        "/service-areas/santa-ana-ca/drain-cleaning/",
+        "/service-areas/yorba-linda-ca/drain-cleaning/",
+        "/blog/drain-cleaning-diy-vs-pro/",
+        "/blog/hydro-jetting-vs-snaking/"
+      ]
+    },
+    {
+      "url_path": "/services/water-heater-repair/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Water Heater Repair in Corona | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Water Heater Repair in Corona",
+      "meta_description": "Trusted water heater repair in Corona and surrounding areas. Licensed and insured plumbing and HVAC pros, upfront pricing, free estimates. Call (951) 344-5596.",
+      "primary_keyword": "water heater repair corona",
+      "secondary_keywords": [
+        "water heater not working",
+        "no hot water",
+        "water heater leaking",
+        "hot water heater repair",
+        "same day water heater service"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 9.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/anaheim-ca/water-heater-repair/",
+        "/service-areas/chino-ca/water-heater-repair/",
+        "/service-areas/fullerton-ca/water-heater-repair/",
+        "/service-areas/norco-ca/water-heater-repair/",
+        "/service-areas/ontario-ca/water-heater-repair/",
+        "/service-areas/riverside-ca/water-heater-repair/",
+        "/service-areas/santa-ana-ca/water-heater-repair/",
+        "/service-areas/yorba-linda-ca/water-heater-repair/",
+        "/blog/water-heater-lifespan-repair-or-replace/"
+      ]
+    },
+    {
+      "url_path": "/services/water-heater-installation/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Water Heater Installation and Replacement in Corona | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Water Heater Installation and Replacement in Corona",
+      "meta_description": "Trusted water heater installation and replacement in Corona and surrounding areas. Licensed and insured plumbing and HVAC pros, upfront pricing, free estimates. Call (951) 344-5596.",
+      "primary_keyword": "water heater installation and replacement corona",
+      "secondary_keywords": [
+        "water heater replacement",
+        "tankless water heater installation",
+        "tankless vs tank water heater",
+        "50 gallon water heater install",
+        "tankless water heater cost"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/anaheim-ca/water-heater-installation/",
+        "/service-areas/chino-ca/water-heater-installation/",
+        "/service-areas/fullerton-ca/water-heater-installation/",
+        "/service-areas/norco-ca/water-heater-installation/",
+        "/service-areas/ontario-ca/water-heater-installation/",
+        "/service-areas/riverside-ca/water-heater-installation/",
+        "/service-areas/santa-ana-ca/water-heater-installation/",
+        "/service-areas/yorba-linda-ca/water-heater-installation/",
+        "/blog/tankless-vs-tank-water-heater/",
+        "/blog/water-heater-lifespan-repair-or-replace/"
+      ]
+    },
+    {
+      "url_path": "/services/toilet-faucet-repair/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Toilet, Faucet and Fixture Services in Corona | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Toilet, Faucet and Fixture Services in Corona",
+      "meta_description": "Trusted toilet, faucet and fixture services in Corona and surrounding areas. Licensed and insured plumbing and HVAC pros, upfront pricing, free estimates. Call (951) 344-5596.",
+      "primary_keyword": "toilet, faucet and fixture services corona",
+      "secondary_keywords": [
+        "toilet repair",
+        "toilet installation",
+        "faucet replacement",
+        "shower valve repair",
+        "running toilet fix"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/anaheim-ca/toilet-faucet-repair/",
+        "/service-areas/chino-ca/toilet-faucet-repair/",
+        "/service-areas/fullerton-ca/toilet-faucet-repair/",
+        "/service-areas/norco-ca/toilet-faucet-repair/",
+        "/service-areas/ontario-ca/toilet-faucet-repair/",
+        "/service-areas/riverside-ca/toilet-faucet-repair/",
+        "/service-areas/santa-ana-ca/toilet-faucet-repair/",
+        "/service-areas/yorba-linda-ca/toilet-faucet-repair/"
+      ]
+    },
+    {
+      "url_path": "/services/garbage-disposal/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Garbage Disposal Repair and Installation in Corona | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Garbage Disposal Repair and Installation in Corona",
+      "meta_description": "Trusted garbage disposal repair and installation in Corona and surrounding areas. Licensed and insured plumbing and HVAC pros, upfront pricing, free estimates. Call (951) 344-5596.",
+      "primary_keyword": "garbage disposal repair and installation corona",
+      "secondary_keywords": [
+        "garbage disposal replacement",
+        "garbage disposal humming",
+        "garbage disposal jammed",
+        "disposal installation",
+        "garbage disposal leaking"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/anaheim-ca/garbage-disposal/",
+        "/service-areas/chino-ca/garbage-disposal/",
+        "/service-areas/fullerton-ca/garbage-disposal/",
+        "/service-areas/norco-ca/garbage-disposal/",
+        "/service-areas/ontario-ca/garbage-disposal/",
+        "/service-areas/riverside-ca/garbage-disposal/",
+        "/service-areas/santa-ana-ca/garbage-disposal/",
+        "/service-areas/yorba-linda-ca/garbage-disposal/"
+      ]
+    },
+    {
+      "url_path": "/services/water-softeners-filtration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Water Softeners and Filtration Systems in Corona | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Water Softeners and Filtration Systems in Corona",
+      "meta_description": "Trusted water softeners and filtration systems in Corona and surrounding areas. Licensed and insured plumbing and HVAC pros, upfront pricing, free estimates. Call (951) 344-5596.",
+      "primary_keyword": "water softeners and filtration systems corona",
+      "secondary_keywords": [
+        "water softener installation",
+        "whole house water filtration",
+        "reverse osmosis system installation",
+        "hard water treatment",
+        "water conditioner install"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/anaheim-ca/water-softeners-filtration/",
+        "/service-areas/chino-ca/water-softeners-filtration/",
+        "/service-areas/fullerton-ca/water-softeners-filtration/",
+        "/service-areas/norco-ca/water-softeners-filtration/",
+        "/service-areas/ontario-ca/water-softeners-filtration/",
+        "/service-areas/riverside-ca/water-softeners-filtration/",
+        "/service-areas/santa-ana-ca/water-softeners-filtration/",
+        "/service-areas/yorba-linda-ca/water-softeners-filtration/"
+      ]
+    },
+    {
+      "url_path": "/services/ac-repair/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Air Conditioning Repair in Corona | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Air Conditioning Repair in Corona",
+      "meta_description": "Trusted air conditioning repair in Corona and surrounding areas. Licensed and insured plumbing and HVAC pros, upfront pricing, free estimates. Call (951) 344-5596.",
+      "primary_keyword": "air conditioning repair corona",
+      "secondary_keywords": [
+        "ac not cooling",
+        "air conditioner repair",
+        "central air repair",
+        "ac refrigerant leak repair",
+        "hvac repair near me"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 9.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/anaheim-ca/ac-repair/",
+        "/service-areas/chino-ca/ac-repair/",
+        "/service-areas/fullerton-ca/ac-repair/",
+        "/service-areas/norco-ca/ac-repair/",
+        "/service-areas/ontario-ca/ac-repair/",
+        "/service-areas/riverside-ca/ac-repair/",
+        "/service-areas/santa-ana-ca/ac-repair/",
+        "/service-areas/yorba-linda-ca/ac-repair/"
+      ]
+    },
+    {
+      "url_path": "/services/furnace-repair/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Furnace Repair in Corona | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Furnace Repair in Corona",
+      "meta_description": "Trusted furnace repair in Corona and surrounding areas. Licensed and insured plumbing and HVAC pros, upfront pricing, free estimates. Call (951) 344-5596.",
+      "primary_keyword": "furnace repair corona",
+      "secondary_keywords": [
+        "furnace not working",
+        "heater repair",
+        "no heat repair",
+        "emergency furnace repair",
+        "furnace blowing cold air"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/anaheim-ca/furnace-repair/",
+        "/service-areas/chino-ca/furnace-repair/",
+        "/service-areas/fullerton-ca/furnace-repair/",
+        "/service-areas/norco-ca/furnace-repair/",
+        "/service-areas/ontario-ca/furnace-repair/",
+        "/service-areas/riverside-ca/furnace-repair/",
+        "/service-areas/santa-ana-ca/furnace-repair/",
+        "/service-areas/yorba-linda-ca/furnace-repair/",
+        "/blog/furnace-repair-or-replace/"
+      ]
+    },
+    {
+      "url_path": "/services/indoor-air-quality/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Indoor Air Quality Services in Corona | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Indoor Air Quality Services in Corona",
+      "meta_description": "Trusted indoor air quality services in Corona and surrounding areas. Licensed and insured plumbing and HVAC pros, upfront pricing, free estimates. Call (951) 344-5596.",
+      "primary_keyword": "indoor air quality services corona",
+      "secondary_keywords": [
+        "whole house air purifier",
+        "UV air purifier for HVAC",
+        "whole home humidifier installation",
+        "HVAC filtration upgrade",
+        "indoor air quality testing"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/anaheim-ca/indoor-air-quality/",
+        "/service-areas/chino-ca/indoor-air-quality/",
+        "/service-areas/fullerton-ca/indoor-air-quality/",
+        "/service-areas/norco-ca/indoor-air-quality/",
+        "/service-areas/ontario-ca/indoor-air-quality/",
+        "/service-areas/riverside-ca/indoor-air-quality/",
+        "/service-areas/santa-ana-ca/indoor-air-quality/",
+        "/service-areas/yorba-linda-ca/indoor-air-quality/"
+      ]
+    },
+    {
+>>>>>>> 027ddff4 (rt-olson: full 124-page plumbing build (11 documented services, real fleet photos, plumbing hub archetype + vertical prompts patched))
       "url_path": "/service-areas/riverside-ca/",
       "archetype": "service-area",
       "vars_keys": [
@@ -356,8 +809,20 @@
       "internal_links_out": [
         "/service-areas/",
         "/contact/",
+        "/service-areas/riverside-ca/ac-repair/",
+        "/service-areas/riverside-ca/drain-cleaning/",
         "/service-areas/riverside-ca/emergency-plumbing/",
+        "/service-areas/riverside-ca/water-heater-repair/",
+        "/service-areas/riverside-ca/furnace-repair/",
+        "/service-areas/riverside-ca/water-heater-installation/",
         "/service-areas/riverside-ca/leak-detection/",
+<<<<<<< HEAD
+=======
+        "/service-areas/riverside-ca/toilet-faucet-repair/",
+        "/service-areas/riverside-ca/indoor-air-quality/",
+        "/service-areas/riverside-ca/water-softeners-filtration/",
+        "/service-areas/riverside-ca/garbage-disposal/",
+>>>>>>> 027ddff4 (rt-olson: full 124-page plumbing build (11 documented services, real fleet photos, plumbing hub archetype + vertical prompts patched))
         "/service-areas/anaheim-ca/",
         "/service-areas/chino-ca/",
         "/service-areas/fullerton-ca/"
@@ -395,8 +860,20 @@
       "internal_links_out": [
         "/service-areas/",
         "/contact/",
+        "/service-areas/anaheim-ca/ac-repair/",
+        "/service-areas/anaheim-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/emergency-plumbing/",
+        "/service-areas/anaheim-ca/water-heater-repair/",
+        "/service-areas/anaheim-ca/furnace-repair/",
+        "/service-areas/anaheim-ca/water-heater-installation/",
         "/service-areas/anaheim-ca/leak-detection/",
+<<<<<<< HEAD
+=======
+        "/service-areas/anaheim-ca/toilet-faucet-repair/",
+        "/service-areas/anaheim-ca/indoor-air-quality/",
+        "/service-areas/anaheim-ca/water-softeners-filtration/",
+        "/service-areas/anaheim-ca/garbage-disposal/",
+>>>>>>> 027ddff4 (rt-olson: full 124-page plumbing build (11 documented services, real fleet photos, plumbing hub archetype + vertical prompts patched))
         "/service-areas/chino-ca/",
         "/service-areas/fullerton-ca/",
         "/service-areas/norco-ca/"
@@ -434,8 +911,20 @@
       "internal_links_out": [
         "/service-areas/",
         "/contact/",
+        "/service-areas/santa-ana-ca/ac-repair/",
+        "/service-areas/santa-ana-ca/drain-cleaning/",
         "/service-areas/santa-ana-ca/emergency-plumbing/",
+        "/service-areas/santa-ana-ca/water-heater-repair/",
+        "/service-areas/santa-ana-ca/furnace-repair/",
+        "/service-areas/santa-ana-ca/water-heater-installation/",
         "/service-areas/santa-ana-ca/leak-detection/",
+<<<<<<< HEAD
+=======
+        "/service-areas/santa-ana-ca/toilet-faucet-repair/",
+        "/service-areas/santa-ana-ca/indoor-air-quality/",
+        "/service-areas/santa-ana-ca/water-softeners-filtration/",
+        "/service-areas/santa-ana-ca/garbage-disposal/",
+>>>>>>> 027ddff4 (rt-olson: full 124-page plumbing build (11 documented services, real fleet photos, plumbing hub archetype + vertical prompts patched))
         "/service-areas/anaheim-ca/",
         "/service-areas/chino-ca/",
         "/service-areas/fullerton-ca/"
@@ -473,8 +962,20 @@
       "internal_links_out": [
         "/service-areas/",
         "/contact/",
+        "/service-areas/fullerton-ca/ac-repair/",
+        "/service-areas/fullerton-ca/drain-cleaning/",
         "/service-areas/fullerton-ca/emergency-plumbing/",
+        "/service-areas/fullerton-ca/water-heater-repair/",
+        "/service-areas/fullerton-ca/furnace-repair/",
+        "/service-areas/fullerton-ca/water-heater-installation/",
         "/service-areas/fullerton-ca/leak-detection/",
+<<<<<<< HEAD
+=======
+        "/service-areas/fullerton-ca/toilet-faucet-repair/",
+        "/service-areas/fullerton-ca/indoor-air-quality/",
+        "/service-areas/fullerton-ca/water-softeners-filtration/",
+        "/service-areas/fullerton-ca/garbage-disposal/",
+>>>>>>> 027ddff4 (rt-olson: full 124-page plumbing build (11 documented services, real fleet photos, plumbing hub archetype + vertical prompts patched))
         "/service-areas/anaheim-ca/",
         "/service-areas/chino-ca/",
         "/service-areas/norco-ca/"
@@ -512,8 +1013,20 @@
       "internal_links_out": [
         "/service-areas/",
         "/contact/",
+        "/service-areas/ontario-ca/ac-repair/",
+        "/service-areas/ontario-ca/drain-cleaning/",
         "/service-areas/ontario-ca/emergency-plumbing/",
+        "/service-areas/ontario-ca/water-heater-repair/",
+        "/service-areas/ontario-ca/furnace-repair/",
+        "/service-areas/ontario-ca/water-heater-installation/",
         "/service-areas/ontario-ca/leak-detection/",
+<<<<<<< HEAD
+=======
+        "/service-areas/ontario-ca/toilet-faucet-repair/",
+        "/service-areas/ontario-ca/indoor-air-quality/",
+        "/service-areas/ontario-ca/water-softeners-filtration/",
+        "/service-areas/ontario-ca/garbage-disposal/",
+>>>>>>> 027ddff4 (rt-olson: full 124-page plumbing build (11 documented services, real fleet photos, plumbing hub archetype + vertical prompts patched))
         "/service-areas/anaheim-ca/",
         "/service-areas/chino-ca/",
         "/service-areas/fullerton-ca/"
@@ -551,8 +1064,20 @@
       "internal_links_out": [
         "/service-areas/",
         "/contact/",
+        "/service-areas/chino-ca/ac-repair/",
+        "/service-areas/chino-ca/drain-cleaning/",
         "/service-areas/chino-ca/emergency-plumbing/",
+        "/service-areas/chino-ca/water-heater-repair/",
+        "/service-areas/chino-ca/furnace-repair/",
+        "/service-areas/chino-ca/water-heater-installation/",
         "/service-areas/chino-ca/leak-detection/",
+<<<<<<< HEAD
+=======
+        "/service-areas/chino-ca/toilet-faucet-repair/",
+        "/service-areas/chino-ca/indoor-air-quality/",
+        "/service-areas/chino-ca/water-softeners-filtration/",
+        "/service-areas/chino-ca/garbage-disposal/",
+>>>>>>> 027ddff4 (rt-olson: full 124-page plumbing build (11 documented services, real fleet photos, plumbing hub archetype + vertical prompts patched))
         "/service-areas/anaheim-ca/",
         "/service-areas/fullerton-ca/",
         "/service-areas/norco-ca/"
@@ -590,8 +1115,20 @@
       "internal_links_out": [
         "/service-areas/",
         "/contact/",
+        "/service-areas/norco-ca/ac-repair/",
+        "/service-areas/norco-ca/drain-cleaning/",
         "/service-areas/norco-ca/emergency-plumbing/",
+        "/service-areas/norco-ca/water-heater-repair/",
+        "/service-areas/norco-ca/furnace-repair/",
+        "/service-areas/norco-ca/water-heater-installation/",
         "/service-areas/norco-ca/leak-detection/",
+<<<<<<< HEAD
+=======
+        "/service-areas/norco-ca/toilet-faucet-repair/",
+        "/service-areas/norco-ca/indoor-air-quality/",
+        "/service-areas/norco-ca/water-softeners-filtration/",
+        "/service-areas/norco-ca/garbage-disposal/",
+>>>>>>> 027ddff4 (rt-olson: full 124-page plumbing build (11 documented services, real fleet photos, plumbing hub archetype + vertical prompts patched))
         "/service-areas/anaheim-ca/",
         "/service-areas/chino-ca/",
         "/service-areas/fullerton-ca/"
@@ -629,8 +1166,20 @@
       "internal_links_out": [
         "/service-areas/",
         "/contact/",
+        "/service-areas/yorba-linda-ca/ac-repair/",
+        "/service-areas/yorba-linda-ca/drain-cleaning/",
         "/service-areas/yorba-linda-ca/emergency-plumbing/",
+        "/service-areas/yorba-linda-ca/water-heater-repair/",
+        "/service-areas/yorba-linda-ca/furnace-repair/",
+        "/service-areas/yorba-linda-ca/water-heater-installation/",
         "/service-areas/yorba-linda-ca/leak-detection/",
+<<<<<<< HEAD
+=======
+        "/service-areas/yorba-linda-ca/toilet-faucet-repair/",
+        "/service-areas/yorba-linda-ca/indoor-air-quality/",
+        "/service-areas/yorba-linda-ca/water-softeners-filtration/",
+        "/service-areas/yorba-linda-ca/garbage-disposal/",
+>>>>>>> 027ddff4 (rt-olson: full 124-page plumbing build (11 documented services, real fleet photos, plumbing hub archetype + vertical prompts patched))
         "/service-areas/anaheim-ca/",
         "/service-areas/chino-ca/",
         "/service-areas/fullerton-ca/"
@@ -673,7 +1222,8 @@
       "internal_links_out": [
         "/services/emergency-plumbing/",
         "/service-areas/riverside-ca/",
-        "/service-areas/riverside-ca/leak-detection/",
+        "/service-areas/riverside-ca/ac-repair/",
+        "/service-areas/riverside-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/emergency-plumbing/",
         "/service-areas/chino-ca/emergency-plumbing/",
         "/contact/"
@@ -716,9 +1266,406 @@
       "internal_links_out": [
         "/services/leak-detection/",
         "/service-areas/riverside-ca/",
-        "/service-areas/riverside-ca/emergency-plumbing/",
+        "/service-areas/riverside-ca/ac-repair/",
+        "/service-areas/riverside-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/leak-detection/",
         "/service-areas/chino-ca/leak-detection/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/riverside-ca/drain-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Drain Cleaning in Riverside, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Drain Cleaning in Riverside",
+      "meta_description": "Trusted drain cleaning in Riverside, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "drain cleaning riverside",
+      "secondary_keywords": [
+        "clogged drain cleaning",
+        "hydro jetting",
+        "rooter service",
+        "kitchen sink clog removal",
+        "shower drain clog"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/drain-cleaning/",
+        "/service-areas/riverside-ca/",
+        "/service-areas/riverside-ca/ac-repair/",
+        "/service-areas/riverside-ca/emergency-plumbing/",
+        "/service-areas/anaheim-ca/drain-cleaning/",
+        "/service-areas/chino-ca/drain-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/riverside-ca/water-heater-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Heater Repair in Riverside, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Water Heater Repair in Riverside",
+      "meta_description": "Trusted water heater repair in Riverside, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "water heater repair riverside",
+      "secondary_keywords": [
+        "water heater not working",
+        "no hot water",
+        "water heater leaking",
+        "hot water heater repair",
+        "same day water heater service"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-heater-repair/",
+        "/service-areas/riverside-ca/",
+        "/service-areas/riverside-ca/ac-repair/",
+        "/service-areas/riverside-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/water-heater-repair/",
+        "/service-areas/chino-ca/water-heater-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/riverside-ca/water-heater-installation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Heater Installation and Replacement in Riverside, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Water Heater Installation and Replacement in Riverside",
+      "meta_description": "Trusted water heater installation and replacement in Riverside, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "water heater installation and replacement riverside",
+      "secondary_keywords": [
+        "water heater replacement",
+        "tankless water heater installation",
+        "tankless vs tank water heater",
+        "50 gallon water heater install",
+        "tankless water heater cost"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-heater-installation/",
+        "/service-areas/riverside-ca/",
+        "/service-areas/riverside-ca/ac-repair/",
+        "/service-areas/riverside-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/water-heater-installation/",
+        "/service-areas/chino-ca/water-heater-installation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/riverside-ca/toilet-faucet-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Toilet, Faucet and Fixture Services in Riverside, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Toilet, Faucet and Fixture Services in Riverside",
+      "meta_description": "Trusted toilet, faucet and fixture services in Riverside, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "toilet, faucet and fixture services riverside",
+      "secondary_keywords": [
+        "toilet repair",
+        "toilet installation",
+        "faucet replacement",
+        "shower valve repair",
+        "running toilet fix"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/toilet-faucet-repair/",
+        "/service-areas/riverside-ca/",
+        "/service-areas/riverside-ca/ac-repair/",
+        "/service-areas/riverside-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/toilet-faucet-repair/",
+        "/service-areas/chino-ca/toilet-faucet-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/riverside-ca/garbage-disposal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Garbage Disposal Repair and Installation in Riverside, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Garbage Disposal Repair and Installation in Riverside",
+      "meta_description": "Trusted garbage disposal repair and installation in Riverside, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "garbage disposal repair and installation riverside",
+      "secondary_keywords": [
+        "garbage disposal replacement",
+        "garbage disposal humming",
+        "garbage disposal jammed",
+        "disposal installation",
+        "garbage disposal leaking"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/garbage-disposal/",
+        "/service-areas/riverside-ca/",
+        "/service-areas/riverside-ca/ac-repair/",
+        "/service-areas/riverside-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/garbage-disposal/",
+        "/service-areas/chino-ca/garbage-disposal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/riverside-ca/water-softeners-filtration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Softeners and Filtration Systems in Riverside, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Water Softeners and Filtration Systems in Riverside",
+      "meta_description": "Trusted water softeners and filtration systems in Riverside, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "water softeners and filtration systems riverside",
+      "secondary_keywords": [
+        "water softener installation",
+        "whole house water filtration",
+        "reverse osmosis system installation",
+        "hard water treatment",
+        "water conditioner install"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-softeners-filtration/",
+        "/service-areas/riverside-ca/",
+        "/service-areas/riverside-ca/ac-repair/",
+        "/service-areas/riverside-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/water-softeners-filtration/",
+        "/service-areas/chino-ca/water-softeners-filtration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/riverside-ca/ac-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Conditioning Repair in Riverside, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Air Conditioning Repair in Riverside",
+      "meta_description": "Trusted air conditioning repair in Riverside, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "air conditioning repair riverside",
+      "secondary_keywords": [
+        "ac not cooling",
+        "air conditioner repair",
+        "central air repair",
+        "ac refrigerant leak repair",
+        "hvac repair near me"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/ac-repair/",
+        "/service-areas/riverside-ca/",
+        "/service-areas/riverside-ca/drain-cleaning/",
+        "/service-areas/riverside-ca/emergency-plumbing/",
+        "/service-areas/anaheim-ca/ac-repair/",
+        "/service-areas/chino-ca/ac-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/riverside-ca/furnace-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Furnace Repair in Riverside, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Furnace Repair in Riverside",
+      "meta_description": "Trusted furnace repair in Riverside, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "furnace repair riverside",
+      "secondary_keywords": [
+        "furnace not working",
+        "heater repair",
+        "no heat repair",
+        "emergency furnace repair",
+        "furnace blowing cold air"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/furnace-repair/",
+        "/service-areas/riverside-ca/",
+        "/service-areas/riverside-ca/ac-repair/",
+        "/service-areas/riverside-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/furnace-repair/",
+        "/service-areas/chino-ca/furnace-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/riverside-ca/indoor-air-quality/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Indoor Air Quality Services in Riverside, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Indoor Air Quality Services in Riverside",
+      "meta_description": "Trusted indoor air quality services in Riverside, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "indoor air quality services riverside",
+      "secondary_keywords": [
+        "whole house air purifier",
+        "UV air purifier for HVAC",
+        "whole home humidifier installation",
+        "HVAC filtration upgrade",
+        "indoor air quality testing"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/indoor-air-quality/",
+        "/service-areas/riverside-ca/",
+        "/service-areas/riverside-ca/ac-repair/",
+        "/service-areas/riverside-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/indoor-air-quality/",
+        "/service-areas/chino-ca/indoor-air-quality/",
         "/contact/"
       ]
     },
@@ -759,7 +1706,8 @@
       "internal_links_out": [
         "/services/emergency-plumbing/",
         "/service-areas/anaheim-ca/",
-        "/service-areas/anaheim-ca/leak-detection/",
+        "/service-areas/anaheim-ca/ac-repair/",
+        "/service-areas/anaheim-ca/drain-cleaning/",
         "/service-areas/chino-ca/emergency-plumbing/",
         "/service-areas/fullerton-ca/emergency-plumbing/",
         "/contact/"
@@ -802,9 +1750,409 @@
       "internal_links_out": [
         "/services/leak-detection/",
         "/service-areas/anaheim-ca/",
-        "/service-areas/anaheim-ca/emergency-plumbing/",
+        "/service-areas/anaheim-ca/ac-repair/",
+        "/service-areas/anaheim-ca/drain-cleaning/",
         "/service-areas/chino-ca/leak-detection/",
         "/service-areas/fullerton-ca/leak-detection/",
+<<<<<<< HEAD
+=======
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/anaheim-ca/drain-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Drain Cleaning in Anaheim, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Drain Cleaning in Anaheim",
+      "meta_description": "Trusted drain cleaning in Anaheim, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "drain cleaning anaheim",
+      "secondary_keywords": [
+        "clogged drain cleaning",
+        "hydro jetting",
+        "rooter service",
+        "kitchen sink clog removal",
+        "shower drain clog"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/drain-cleaning/",
+        "/service-areas/anaheim-ca/",
+        "/service-areas/anaheim-ca/ac-repair/",
+        "/service-areas/anaheim-ca/emergency-plumbing/",
+        "/service-areas/chino-ca/drain-cleaning/",
+        "/service-areas/fullerton-ca/drain-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/anaheim-ca/water-heater-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Heater Repair in Anaheim, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Water Heater Repair in Anaheim",
+      "meta_description": "Trusted water heater repair in Anaheim, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "water heater repair anaheim",
+      "secondary_keywords": [
+        "water heater not working",
+        "no hot water",
+        "water heater leaking",
+        "hot water heater repair",
+        "same day water heater service"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-heater-repair/",
+        "/service-areas/anaheim-ca/",
+        "/service-areas/anaheim-ca/ac-repair/",
+        "/service-areas/anaheim-ca/drain-cleaning/",
+        "/service-areas/chino-ca/water-heater-repair/",
+        "/service-areas/fullerton-ca/water-heater-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/anaheim-ca/water-heater-installation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Heater Installation and Replacement in Anaheim, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Water Heater Installation and Replacement in Anaheim",
+      "meta_description": "Trusted water heater installation and replacement in Anaheim, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "water heater installation and replacement anaheim",
+      "secondary_keywords": [
+        "water heater replacement",
+        "tankless water heater installation",
+        "tankless vs tank water heater",
+        "50 gallon water heater install",
+        "tankless water heater cost"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-heater-installation/",
+        "/service-areas/anaheim-ca/",
+        "/service-areas/anaheim-ca/ac-repair/",
+        "/service-areas/anaheim-ca/drain-cleaning/",
+        "/service-areas/chino-ca/water-heater-installation/",
+        "/service-areas/fullerton-ca/water-heater-installation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/anaheim-ca/toilet-faucet-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Toilet, Faucet and Fixture Services in Anaheim, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Toilet, Faucet and Fixture Services in Anaheim",
+      "meta_description": "Trusted toilet, faucet and fixture services in Anaheim, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "toilet, faucet and fixture services anaheim",
+      "secondary_keywords": [
+        "toilet repair",
+        "toilet installation",
+        "faucet replacement",
+        "shower valve repair",
+        "running toilet fix"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/toilet-faucet-repair/",
+        "/service-areas/anaheim-ca/",
+        "/service-areas/anaheim-ca/ac-repair/",
+        "/service-areas/anaheim-ca/drain-cleaning/",
+        "/service-areas/chino-ca/toilet-faucet-repair/",
+        "/service-areas/fullerton-ca/toilet-faucet-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/anaheim-ca/garbage-disposal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Garbage Disposal Repair and Installation in Anaheim, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Garbage Disposal Repair and Installation in Anaheim",
+      "meta_description": "Trusted garbage disposal repair and installation in Anaheim, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "garbage disposal repair and installation anaheim",
+      "secondary_keywords": [
+        "garbage disposal replacement",
+        "garbage disposal humming",
+        "garbage disposal jammed",
+        "disposal installation",
+        "garbage disposal leaking"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/garbage-disposal/",
+        "/service-areas/anaheim-ca/",
+        "/service-areas/anaheim-ca/ac-repair/",
+        "/service-areas/anaheim-ca/drain-cleaning/",
+        "/service-areas/chino-ca/garbage-disposal/",
+        "/service-areas/fullerton-ca/garbage-disposal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/anaheim-ca/water-softeners-filtration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Softeners and Filtration Systems in Anaheim, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Water Softeners and Filtration Systems in Anaheim",
+      "meta_description": "Trusted water softeners and filtration systems in Anaheim, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "water softeners and filtration systems anaheim",
+      "secondary_keywords": [
+        "water softener installation",
+        "whole house water filtration",
+        "reverse osmosis system installation",
+        "hard water treatment",
+        "water conditioner install"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-softeners-filtration/",
+        "/service-areas/anaheim-ca/",
+        "/service-areas/anaheim-ca/ac-repair/",
+        "/service-areas/anaheim-ca/drain-cleaning/",
+        "/service-areas/chino-ca/water-softeners-filtration/",
+        "/service-areas/fullerton-ca/water-softeners-filtration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/anaheim-ca/ac-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Conditioning Repair in Anaheim, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Air Conditioning Repair in Anaheim",
+      "meta_description": "Trusted air conditioning repair in Anaheim, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "air conditioning repair anaheim",
+      "secondary_keywords": [
+        "ac not cooling",
+        "air conditioner repair",
+        "central air repair",
+        "ac refrigerant leak repair",
+        "hvac repair near me"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/ac-repair/",
+        "/service-areas/anaheim-ca/",
+        "/service-areas/anaheim-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/emergency-plumbing/",
+        "/service-areas/chino-ca/ac-repair/",
+        "/service-areas/fullerton-ca/ac-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/anaheim-ca/furnace-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Furnace Repair in Anaheim, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Furnace Repair in Anaheim",
+      "meta_description": "Trusted furnace repair in Anaheim, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "furnace repair anaheim",
+      "secondary_keywords": [
+        "furnace not working",
+        "heater repair",
+        "no heat repair",
+        "emergency furnace repair",
+        "furnace blowing cold air"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/furnace-repair/",
+        "/service-areas/anaheim-ca/",
+        "/service-areas/anaheim-ca/ac-repair/",
+        "/service-areas/anaheim-ca/drain-cleaning/",
+        "/service-areas/chino-ca/furnace-repair/",
+        "/service-areas/fullerton-ca/furnace-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/anaheim-ca/indoor-air-quality/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Indoor Air Quality Services in Anaheim, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Indoor Air Quality Services in Anaheim",
+      "meta_description": "Trusted indoor air quality services in Anaheim, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "indoor air quality services anaheim",
+      "secondary_keywords": [
+        "whole house air purifier",
+        "UV air purifier for HVAC",
+        "whole home humidifier installation",
+        "HVAC filtration upgrade",
+        "indoor air quality testing"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/indoor-air-quality/",
+        "/service-areas/anaheim-ca/",
+        "/service-areas/anaheim-ca/ac-repair/",
+        "/service-areas/anaheim-ca/drain-cleaning/",
+        "/service-areas/chino-ca/indoor-air-quality/",
+        "/service-areas/fullerton-ca/indoor-air-quality/",
+>>>>>>> 027ddff4 (rt-olson: full 124-page plumbing build (11 documented services, real fleet photos, plumbing hub archetype + vertical prompts patched))
         "/contact/"
       ]
     },
@@ -845,7 +2193,8 @@
       "internal_links_out": [
         "/services/emergency-plumbing/",
         "/service-areas/santa-ana-ca/",
-        "/service-areas/santa-ana-ca/leak-detection/",
+        "/service-areas/santa-ana-ca/ac-repair/",
+        "/service-areas/santa-ana-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/emergency-plumbing/",
         "/service-areas/chino-ca/emergency-plumbing/",
         "/contact/"
@@ -888,9 +2237,406 @@
       "internal_links_out": [
         "/services/leak-detection/",
         "/service-areas/santa-ana-ca/",
-        "/service-areas/santa-ana-ca/emergency-plumbing/",
+        "/service-areas/santa-ana-ca/ac-repair/",
+        "/service-areas/santa-ana-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/leak-detection/",
         "/service-areas/chino-ca/leak-detection/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/santa-ana-ca/drain-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Drain Cleaning in Santa Ana, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Drain Cleaning in Santa Ana",
+      "meta_description": "Trusted drain cleaning in Santa Ana, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "drain cleaning santa ana",
+      "secondary_keywords": [
+        "clogged drain cleaning",
+        "hydro jetting",
+        "rooter service",
+        "kitchen sink clog removal",
+        "shower drain clog"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/drain-cleaning/",
+        "/service-areas/santa-ana-ca/",
+        "/service-areas/santa-ana-ca/ac-repair/",
+        "/service-areas/santa-ana-ca/emergency-plumbing/",
+        "/service-areas/anaheim-ca/drain-cleaning/",
+        "/service-areas/chino-ca/drain-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/santa-ana-ca/water-heater-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Heater Repair in Santa Ana, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Water Heater Repair in Santa Ana",
+      "meta_description": "Trusted water heater repair in Santa Ana, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "water heater repair santa ana",
+      "secondary_keywords": [
+        "water heater not working",
+        "no hot water",
+        "water heater leaking",
+        "hot water heater repair",
+        "same day water heater service"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-heater-repair/",
+        "/service-areas/santa-ana-ca/",
+        "/service-areas/santa-ana-ca/ac-repair/",
+        "/service-areas/santa-ana-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/water-heater-repair/",
+        "/service-areas/chino-ca/water-heater-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/santa-ana-ca/water-heater-installation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Heater Installation and Replacement in Santa Ana, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Water Heater Installation and Replacement in Santa Ana",
+      "meta_description": "Trusted water heater installation and replacement in Santa Ana, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "water heater installation and replacement santa ana",
+      "secondary_keywords": [
+        "water heater replacement",
+        "tankless water heater installation",
+        "tankless vs tank water heater",
+        "50 gallon water heater install",
+        "tankless water heater cost"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-heater-installation/",
+        "/service-areas/santa-ana-ca/",
+        "/service-areas/santa-ana-ca/ac-repair/",
+        "/service-areas/santa-ana-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/water-heater-installation/",
+        "/service-areas/chino-ca/water-heater-installation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/santa-ana-ca/toilet-faucet-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Toilet, Faucet and Fixture Services in Santa Ana, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Toilet, Faucet and Fixture Services in Santa Ana",
+      "meta_description": "Trusted toilet, faucet and fixture services in Santa Ana, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "toilet, faucet and fixture services santa ana",
+      "secondary_keywords": [
+        "toilet repair",
+        "toilet installation",
+        "faucet replacement",
+        "shower valve repair",
+        "running toilet fix"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/toilet-faucet-repair/",
+        "/service-areas/santa-ana-ca/",
+        "/service-areas/santa-ana-ca/ac-repair/",
+        "/service-areas/santa-ana-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/toilet-faucet-repair/",
+        "/service-areas/chino-ca/toilet-faucet-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/santa-ana-ca/garbage-disposal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Garbage Disposal Repair and Installation in Santa Ana, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Garbage Disposal Repair and Installation in Santa Ana",
+      "meta_description": "Trusted garbage disposal repair and installation in Santa Ana, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "garbage disposal repair and installation santa ana",
+      "secondary_keywords": [
+        "garbage disposal replacement",
+        "garbage disposal humming",
+        "garbage disposal jammed",
+        "disposal installation",
+        "garbage disposal leaking"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/garbage-disposal/",
+        "/service-areas/santa-ana-ca/",
+        "/service-areas/santa-ana-ca/ac-repair/",
+        "/service-areas/santa-ana-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/garbage-disposal/",
+        "/service-areas/chino-ca/garbage-disposal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/santa-ana-ca/water-softeners-filtration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Softeners and Filtration Systems in Santa Ana, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Water Softeners and Filtration Systems in Santa Ana",
+      "meta_description": "Trusted water softeners and filtration systems in Santa Ana, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "water softeners and filtration systems santa ana",
+      "secondary_keywords": [
+        "water softener installation",
+        "whole house water filtration",
+        "reverse osmosis system installation",
+        "hard water treatment",
+        "water conditioner install"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-softeners-filtration/",
+        "/service-areas/santa-ana-ca/",
+        "/service-areas/santa-ana-ca/ac-repair/",
+        "/service-areas/santa-ana-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/water-softeners-filtration/",
+        "/service-areas/chino-ca/water-softeners-filtration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/santa-ana-ca/ac-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Conditioning Repair in Santa Ana, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Air Conditioning Repair in Santa Ana",
+      "meta_description": "Trusted air conditioning repair in Santa Ana, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "air conditioning repair santa ana",
+      "secondary_keywords": [
+        "ac not cooling",
+        "air conditioner repair",
+        "central air repair",
+        "ac refrigerant leak repair",
+        "hvac repair near me"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/ac-repair/",
+        "/service-areas/santa-ana-ca/",
+        "/service-areas/santa-ana-ca/drain-cleaning/",
+        "/service-areas/santa-ana-ca/emergency-plumbing/",
+        "/service-areas/anaheim-ca/ac-repair/",
+        "/service-areas/chino-ca/ac-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/santa-ana-ca/furnace-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Furnace Repair in Santa Ana, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Furnace Repair in Santa Ana",
+      "meta_description": "Trusted furnace repair in Santa Ana, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "furnace repair santa ana",
+      "secondary_keywords": [
+        "furnace not working",
+        "heater repair",
+        "no heat repair",
+        "emergency furnace repair",
+        "furnace blowing cold air"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/furnace-repair/",
+        "/service-areas/santa-ana-ca/",
+        "/service-areas/santa-ana-ca/ac-repair/",
+        "/service-areas/santa-ana-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/furnace-repair/",
+        "/service-areas/chino-ca/furnace-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/santa-ana-ca/indoor-air-quality/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Indoor Air Quality Services in Santa Ana, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Indoor Air Quality Services in Santa Ana",
+      "meta_description": "Trusted indoor air quality services in Santa Ana, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "indoor air quality services santa ana",
+      "secondary_keywords": [
+        "whole house air purifier",
+        "UV air purifier for HVAC",
+        "whole home humidifier installation",
+        "HVAC filtration upgrade",
+        "indoor air quality testing"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/indoor-air-quality/",
+        "/service-areas/santa-ana-ca/",
+        "/service-areas/santa-ana-ca/ac-repair/",
+        "/service-areas/santa-ana-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/indoor-air-quality/",
+        "/service-areas/chino-ca/indoor-air-quality/",
         "/contact/"
       ]
     },
@@ -931,7 +2677,8 @@
       "internal_links_out": [
         "/services/emergency-plumbing/",
         "/service-areas/fullerton-ca/",
-        "/service-areas/fullerton-ca/leak-detection/",
+        "/service-areas/fullerton-ca/ac-repair/",
+        "/service-areas/fullerton-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/emergency-plumbing/",
         "/service-areas/chino-ca/emergency-plumbing/",
         "/contact/"
@@ -974,9 +2721,406 @@
       "internal_links_out": [
         "/services/leak-detection/",
         "/service-areas/fullerton-ca/",
-        "/service-areas/fullerton-ca/emergency-plumbing/",
+        "/service-areas/fullerton-ca/ac-repair/",
+        "/service-areas/fullerton-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/leak-detection/",
         "/service-areas/chino-ca/leak-detection/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/fullerton-ca/drain-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Drain Cleaning in Fullerton, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Drain Cleaning in Fullerton",
+      "meta_description": "Trusted drain cleaning in Fullerton, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "drain cleaning fullerton",
+      "secondary_keywords": [
+        "clogged drain cleaning",
+        "hydro jetting",
+        "rooter service",
+        "kitchen sink clog removal",
+        "shower drain clog"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/drain-cleaning/",
+        "/service-areas/fullerton-ca/",
+        "/service-areas/fullerton-ca/ac-repair/",
+        "/service-areas/fullerton-ca/emergency-plumbing/",
+        "/service-areas/anaheim-ca/drain-cleaning/",
+        "/service-areas/chino-ca/drain-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/fullerton-ca/water-heater-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Heater Repair in Fullerton, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Water Heater Repair in Fullerton",
+      "meta_description": "Trusted water heater repair in Fullerton, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "water heater repair fullerton",
+      "secondary_keywords": [
+        "water heater not working",
+        "no hot water",
+        "water heater leaking",
+        "hot water heater repair",
+        "same day water heater service"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-heater-repair/",
+        "/service-areas/fullerton-ca/",
+        "/service-areas/fullerton-ca/ac-repair/",
+        "/service-areas/fullerton-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/water-heater-repair/",
+        "/service-areas/chino-ca/water-heater-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/fullerton-ca/water-heater-installation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Heater Installation and Replacement in Fullerton, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Water Heater Installation and Replacement in Fullerton",
+      "meta_description": "Trusted water heater installation and replacement in Fullerton, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "water heater installation and replacement fullerton",
+      "secondary_keywords": [
+        "water heater replacement",
+        "tankless water heater installation",
+        "tankless vs tank water heater",
+        "50 gallon water heater install",
+        "tankless water heater cost"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-heater-installation/",
+        "/service-areas/fullerton-ca/",
+        "/service-areas/fullerton-ca/ac-repair/",
+        "/service-areas/fullerton-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/water-heater-installation/",
+        "/service-areas/chino-ca/water-heater-installation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/fullerton-ca/toilet-faucet-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Toilet, Faucet and Fixture Services in Fullerton, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Toilet, Faucet and Fixture Services in Fullerton",
+      "meta_description": "Trusted toilet, faucet and fixture services in Fullerton, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "toilet, faucet and fixture services fullerton",
+      "secondary_keywords": [
+        "toilet repair",
+        "toilet installation",
+        "faucet replacement",
+        "shower valve repair",
+        "running toilet fix"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/toilet-faucet-repair/",
+        "/service-areas/fullerton-ca/",
+        "/service-areas/fullerton-ca/ac-repair/",
+        "/service-areas/fullerton-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/toilet-faucet-repair/",
+        "/service-areas/chino-ca/toilet-faucet-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/fullerton-ca/garbage-disposal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Garbage Disposal Repair and Installation in Fullerton, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Garbage Disposal Repair and Installation in Fullerton",
+      "meta_description": "Trusted garbage disposal repair and installation in Fullerton, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "garbage disposal repair and installation fullerton",
+      "secondary_keywords": [
+        "garbage disposal replacement",
+        "garbage disposal humming",
+        "garbage disposal jammed",
+        "disposal installation",
+        "garbage disposal leaking"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/garbage-disposal/",
+        "/service-areas/fullerton-ca/",
+        "/service-areas/fullerton-ca/ac-repair/",
+        "/service-areas/fullerton-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/garbage-disposal/",
+        "/service-areas/chino-ca/garbage-disposal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/fullerton-ca/water-softeners-filtration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Softeners and Filtration Systems in Fullerton, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Water Softeners and Filtration Systems in Fullerton",
+      "meta_description": "Trusted water softeners and filtration systems in Fullerton, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "water softeners and filtration systems fullerton",
+      "secondary_keywords": [
+        "water softener installation",
+        "whole house water filtration",
+        "reverse osmosis system installation",
+        "hard water treatment",
+        "water conditioner install"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-softeners-filtration/",
+        "/service-areas/fullerton-ca/",
+        "/service-areas/fullerton-ca/ac-repair/",
+        "/service-areas/fullerton-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/water-softeners-filtration/",
+        "/service-areas/chino-ca/water-softeners-filtration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/fullerton-ca/ac-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Conditioning Repair in Fullerton, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Air Conditioning Repair in Fullerton",
+      "meta_description": "Trusted air conditioning repair in Fullerton, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "air conditioning repair fullerton",
+      "secondary_keywords": [
+        "ac not cooling",
+        "air conditioner repair",
+        "central air repair",
+        "ac refrigerant leak repair",
+        "hvac repair near me"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/ac-repair/",
+        "/service-areas/fullerton-ca/",
+        "/service-areas/fullerton-ca/drain-cleaning/",
+        "/service-areas/fullerton-ca/emergency-plumbing/",
+        "/service-areas/anaheim-ca/ac-repair/",
+        "/service-areas/chino-ca/ac-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/fullerton-ca/furnace-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Furnace Repair in Fullerton, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Furnace Repair in Fullerton",
+      "meta_description": "Trusted furnace repair in Fullerton, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "furnace repair fullerton",
+      "secondary_keywords": [
+        "furnace not working",
+        "heater repair",
+        "no heat repair",
+        "emergency furnace repair",
+        "furnace blowing cold air"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/furnace-repair/",
+        "/service-areas/fullerton-ca/",
+        "/service-areas/fullerton-ca/ac-repair/",
+        "/service-areas/fullerton-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/furnace-repair/",
+        "/service-areas/chino-ca/furnace-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/fullerton-ca/indoor-air-quality/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Indoor Air Quality Services in Fullerton, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Indoor Air Quality Services in Fullerton",
+      "meta_description": "Trusted indoor air quality services in Fullerton, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "indoor air quality services fullerton",
+      "secondary_keywords": [
+        "whole house air purifier",
+        "UV air purifier for HVAC",
+        "whole home humidifier installation",
+        "HVAC filtration upgrade",
+        "indoor air quality testing"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/indoor-air-quality/",
+        "/service-areas/fullerton-ca/",
+        "/service-areas/fullerton-ca/ac-repair/",
+        "/service-areas/fullerton-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/indoor-air-quality/",
+        "/service-areas/chino-ca/indoor-air-quality/",
         "/contact/"
       ]
     },
@@ -1017,7 +3161,8 @@
       "internal_links_out": [
         "/services/emergency-plumbing/",
         "/service-areas/ontario-ca/",
-        "/service-areas/ontario-ca/leak-detection/",
+        "/service-areas/ontario-ca/ac-repair/",
+        "/service-areas/ontario-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/emergency-plumbing/",
         "/service-areas/chino-ca/emergency-plumbing/",
         "/contact/"
@@ -1060,9 +3205,406 @@
       "internal_links_out": [
         "/services/leak-detection/",
         "/service-areas/ontario-ca/",
-        "/service-areas/ontario-ca/emergency-plumbing/",
+        "/service-areas/ontario-ca/ac-repair/",
+        "/service-areas/ontario-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/leak-detection/",
         "/service-areas/chino-ca/leak-detection/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ontario-ca/drain-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Drain Cleaning in Ontario, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Drain Cleaning in Ontario",
+      "meta_description": "Trusted drain cleaning in Ontario, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "drain cleaning ontario",
+      "secondary_keywords": [
+        "clogged drain cleaning",
+        "hydro jetting",
+        "rooter service",
+        "kitchen sink clog removal",
+        "shower drain clog"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/drain-cleaning/",
+        "/service-areas/ontario-ca/",
+        "/service-areas/ontario-ca/ac-repair/",
+        "/service-areas/ontario-ca/emergency-plumbing/",
+        "/service-areas/anaheim-ca/drain-cleaning/",
+        "/service-areas/chino-ca/drain-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ontario-ca/water-heater-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Heater Repair in Ontario, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Water Heater Repair in Ontario",
+      "meta_description": "Trusted water heater repair in Ontario, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "water heater repair ontario",
+      "secondary_keywords": [
+        "water heater not working",
+        "no hot water",
+        "water heater leaking",
+        "hot water heater repair",
+        "same day water heater service"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-heater-repair/",
+        "/service-areas/ontario-ca/",
+        "/service-areas/ontario-ca/ac-repair/",
+        "/service-areas/ontario-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/water-heater-repair/",
+        "/service-areas/chino-ca/water-heater-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ontario-ca/water-heater-installation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Heater Installation and Replacement in Ontario, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Water Heater Installation and Replacement in Ontario",
+      "meta_description": "Trusted water heater installation and replacement in Ontario, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "water heater installation and replacement ontario",
+      "secondary_keywords": [
+        "water heater replacement",
+        "tankless water heater installation",
+        "tankless vs tank water heater",
+        "50 gallon water heater install",
+        "tankless water heater cost"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-heater-installation/",
+        "/service-areas/ontario-ca/",
+        "/service-areas/ontario-ca/ac-repair/",
+        "/service-areas/ontario-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/water-heater-installation/",
+        "/service-areas/chino-ca/water-heater-installation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ontario-ca/toilet-faucet-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Toilet, Faucet and Fixture Services in Ontario, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Toilet, Faucet and Fixture Services in Ontario",
+      "meta_description": "Trusted toilet, faucet and fixture services in Ontario, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "toilet, faucet and fixture services ontario",
+      "secondary_keywords": [
+        "toilet repair",
+        "toilet installation",
+        "faucet replacement",
+        "shower valve repair",
+        "running toilet fix"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/toilet-faucet-repair/",
+        "/service-areas/ontario-ca/",
+        "/service-areas/ontario-ca/ac-repair/",
+        "/service-areas/ontario-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/toilet-faucet-repair/",
+        "/service-areas/chino-ca/toilet-faucet-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ontario-ca/garbage-disposal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Garbage Disposal Repair and Installation in Ontario, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Garbage Disposal Repair and Installation in Ontario",
+      "meta_description": "Trusted garbage disposal repair and installation in Ontario, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "garbage disposal repair and installation ontario",
+      "secondary_keywords": [
+        "garbage disposal replacement",
+        "garbage disposal humming",
+        "garbage disposal jammed",
+        "disposal installation",
+        "garbage disposal leaking"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/garbage-disposal/",
+        "/service-areas/ontario-ca/",
+        "/service-areas/ontario-ca/ac-repair/",
+        "/service-areas/ontario-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/garbage-disposal/",
+        "/service-areas/chino-ca/garbage-disposal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ontario-ca/water-softeners-filtration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Softeners and Filtration Systems in Ontario, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Water Softeners and Filtration Systems in Ontario",
+      "meta_description": "Trusted water softeners and filtration systems in Ontario, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "water softeners and filtration systems ontario",
+      "secondary_keywords": [
+        "water softener installation",
+        "whole house water filtration",
+        "reverse osmosis system installation",
+        "hard water treatment",
+        "water conditioner install"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-softeners-filtration/",
+        "/service-areas/ontario-ca/",
+        "/service-areas/ontario-ca/ac-repair/",
+        "/service-areas/ontario-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/water-softeners-filtration/",
+        "/service-areas/chino-ca/water-softeners-filtration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ontario-ca/ac-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Conditioning Repair in Ontario, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Air Conditioning Repair in Ontario",
+      "meta_description": "Trusted air conditioning repair in Ontario, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "air conditioning repair ontario",
+      "secondary_keywords": [
+        "ac not cooling",
+        "air conditioner repair",
+        "central air repair",
+        "ac refrigerant leak repair",
+        "hvac repair near me"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/ac-repair/",
+        "/service-areas/ontario-ca/",
+        "/service-areas/ontario-ca/drain-cleaning/",
+        "/service-areas/ontario-ca/emergency-plumbing/",
+        "/service-areas/anaheim-ca/ac-repair/",
+        "/service-areas/chino-ca/ac-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ontario-ca/furnace-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Furnace Repair in Ontario, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Furnace Repair in Ontario",
+      "meta_description": "Trusted furnace repair in Ontario, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "furnace repair ontario",
+      "secondary_keywords": [
+        "furnace not working",
+        "heater repair",
+        "no heat repair",
+        "emergency furnace repair",
+        "furnace blowing cold air"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/furnace-repair/",
+        "/service-areas/ontario-ca/",
+        "/service-areas/ontario-ca/ac-repair/",
+        "/service-areas/ontario-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/furnace-repair/",
+        "/service-areas/chino-ca/furnace-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ontario-ca/indoor-air-quality/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Indoor Air Quality Services in Ontario, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Indoor Air Quality Services in Ontario",
+      "meta_description": "Trusted indoor air quality services in Ontario, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "indoor air quality services ontario",
+      "secondary_keywords": [
+        "whole house air purifier",
+        "UV air purifier for HVAC",
+        "whole home humidifier installation",
+        "HVAC filtration upgrade",
+        "indoor air quality testing"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/indoor-air-quality/",
+        "/service-areas/ontario-ca/",
+        "/service-areas/ontario-ca/ac-repair/",
+        "/service-areas/ontario-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/indoor-air-quality/",
+        "/service-areas/chino-ca/indoor-air-quality/",
         "/contact/"
       ]
     },
@@ -1103,7 +3645,8 @@
       "internal_links_out": [
         "/services/emergency-plumbing/",
         "/service-areas/chino-ca/",
-        "/service-areas/chino-ca/leak-detection/",
+        "/service-areas/chino-ca/ac-repair/",
+        "/service-areas/chino-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/emergency-plumbing/",
         "/service-areas/fullerton-ca/emergency-plumbing/",
         "/contact/"
@@ -1146,9 +3689,409 @@
       "internal_links_out": [
         "/services/leak-detection/",
         "/service-areas/chino-ca/",
-        "/service-areas/chino-ca/emergency-plumbing/",
+        "/service-areas/chino-ca/ac-repair/",
+        "/service-areas/chino-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/leak-detection/",
         "/service-areas/fullerton-ca/leak-detection/",
+<<<<<<< HEAD
+=======
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/chino-ca/drain-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Drain Cleaning in Chino, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Drain Cleaning in Chino",
+      "meta_description": "Trusted drain cleaning in Chino, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "drain cleaning chino",
+      "secondary_keywords": [
+        "clogged drain cleaning",
+        "hydro jetting",
+        "rooter service",
+        "kitchen sink clog removal",
+        "shower drain clog"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/drain-cleaning/",
+        "/service-areas/chino-ca/",
+        "/service-areas/chino-ca/ac-repair/",
+        "/service-areas/chino-ca/emergency-plumbing/",
+        "/service-areas/anaheim-ca/drain-cleaning/",
+        "/service-areas/fullerton-ca/drain-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/chino-ca/water-heater-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Heater Repair in Chino, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Water Heater Repair in Chino",
+      "meta_description": "Trusted water heater repair in Chino, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "water heater repair chino",
+      "secondary_keywords": [
+        "water heater not working",
+        "no hot water",
+        "water heater leaking",
+        "hot water heater repair",
+        "same day water heater service"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-heater-repair/",
+        "/service-areas/chino-ca/",
+        "/service-areas/chino-ca/ac-repair/",
+        "/service-areas/chino-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/water-heater-repair/",
+        "/service-areas/fullerton-ca/water-heater-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/chino-ca/water-heater-installation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Heater Installation and Replacement in Chino, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Water Heater Installation and Replacement in Chino",
+      "meta_description": "Trusted water heater installation and replacement in Chino, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "water heater installation and replacement chino",
+      "secondary_keywords": [
+        "water heater replacement",
+        "tankless water heater installation",
+        "tankless vs tank water heater",
+        "50 gallon water heater install",
+        "tankless water heater cost"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-heater-installation/",
+        "/service-areas/chino-ca/",
+        "/service-areas/chino-ca/ac-repair/",
+        "/service-areas/chino-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/water-heater-installation/",
+        "/service-areas/fullerton-ca/water-heater-installation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/chino-ca/toilet-faucet-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Toilet, Faucet and Fixture Services in Chino, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Toilet, Faucet and Fixture Services in Chino",
+      "meta_description": "Trusted toilet, faucet and fixture services in Chino, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "toilet, faucet and fixture services chino",
+      "secondary_keywords": [
+        "toilet repair",
+        "toilet installation",
+        "faucet replacement",
+        "shower valve repair",
+        "running toilet fix"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/toilet-faucet-repair/",
+        "/service-areas/chino-ca/",
+        "/service-areas/chino-ca/ac-repair/",
+        "/service-areas/chino-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/toilet-faucet-repair/",
+        "/service-areas/fullerton-ca/toilet-faucet-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/chino-ca/garbage-disposal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Garbage Disposal Repair and Installation in Chino, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Garbage Disposal Repair and Installation in Chino",
+      "meta_description": "Trusted garbage disposal repair and installation in Chino, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "garbage disposal repair and installation chino",
+      "secondary_keywords": [
+        "garbage disposal replacement",
+        "garbage disposal humming",
+        "garbage disposal jammed",
+        "disposal installation",
+        "garbage disposal leaking"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/garbage-disposal/",
+        "/service-areas/chino-ca/",
+        "/service-areas/chino-ca/ac-repair/",
+        "/service-areas/chino-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/garbage-disposal/",
+        "/service-areas/fullerton-ca/garbage-disposal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/chino-ca/water-softeners-filtration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Softeners and Filtration Systems in Chino, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Water Softeners and Filtration Systems in Chino",
+      "meta_description": "Trusted water softeners and filtration systems in Chino, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "water softeners and filtration systems chino",
+      "secondary_keywords": [
+        "water softener installation",
+        "whole house water filtration",
+        "reverse osmosis system installation",
+        "hard water treatment",
+        "water conditioner install"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-softeners-filtration/",
+        "/service-areas/chino-ca/",
+        "/service-areas/chino-ca/ac-repair/",
+        "/service-areas/chino-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/water-softeners-filtration/",
+        "/service-areas/fullerton-ca/water-softeners-filtration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/chino-ca/ac-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Conditioning Repair in Chino, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Air Conditioning Repair in Chino",
+      "meta_description": "Trusted air conditioning repair in Chino, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "air conditioning repair chino",
+      "secondary_keywords": [
+        "ac not cooling",
+        "air conditioner repair",
+        "central air repair",
+        "ac refrigerant leak repair",
+        "hvac repair near me"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/ac-repair/",
+        "/service-areas/chino-ca/",
+        "/service-areas/chino-ca/drain-cleaning/",
+        "/service-areas/chino-ca/emergency-plumbing/",
+        "/service-areas/anaheim-ca/ac-repair/",
+        "/service-areas/fullerton-ca/ac-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/chino-ca/furnace-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Furnace Repair in Chino, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Furnace Repair in Chino",
+      "meta_description": "Trusted furnace repair in Chino, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "furnace repair chino",
+      "secondary_keywords": [
+        "furnace not working",
+        "heater repair",
+        "no heat repair",
+        "emergency furnace repair",
+        "furnace blowing cold air"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/furnace-repair/",
+        "/service-areas/chino-ca/",
+        "/service-areas/chino-ca/ac-repair/",
+        "/service-areas/chino-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/furnace-repair/",
+        "/service-areas/fullerton-ca/furnace-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/chino-ca/indoor-air-quality/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Indoor Air Quality Services in Chino, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Indoor Air Quality Services in Chino",
+      "meta_description": "Trusted indoor air quality services in Chino, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "indoor air quality services chino",
+      "secondary_keywords": [
+        "whole house air purifier",
+        "UV air purifier for HVAC",
+        "whole home humidifier installation",
+        "HVAC filtration upgrade",
+        "indoor air quality testing"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/indoor-air-quality/",
+        "/service-areas/chino-ca/",
+        "/service-areas/chino-ca/ac-repair/",
+        "/service-areas/chino-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/indoor-air-quality/",
+        "/service-areas/fullerton-ca/indoor-air-quality/",
+>>>>>>> 027ddff4 (rt-olson: full 124-page plumbing build (11 documented services, real fleet photos, plumbing hub archetype + vertical prompts patched))
         "/contact/"
       ]
     },
@@ -1189,7 +4132,8 @@
       "internal_links_out": [
         "/services/emergency-plumbing/",
         "/service-areas/norco-ca/",
-        "/service-areas/norco-ca/leak-detection/",
+        "/service-areas/norco-ca/ac-repair/",
+        "/service-areas/norco-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/emergency-plumbing/",
         "/service-areas/chino-ca/emergency-plumbing/",
         "/contact/"
@@ -1232,9 +4176,406 @@
       "internal_links_out": [
         "/services/leak-detection/",
         "/service-areas/norco-ca/",
-        "/service-areas/norco-ca/emergency-plumbing/",
+        "/service-areas/norco-ca/ac-repair/",
+        "/service-areas/norco-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/leak-detection/",
         "/service-areas/chino-ca/leak-detection/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/norco-ca/drain-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Drain Cleaning in Norco, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Drain Cleaning in Norco",
+      "meta_description": "Trusted drain cleaning in Norco, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "drain cleaning norco",
+      "secondary_keywords": [
+        "clogged drain cleaning",
+        "hydro jetting",
+        "rooter service",
+        "kitchen sink clog removal",
+        "shower drain clog"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/drain-cleaning/",
+        "/service-areas/norco-ca/",
+        "/service-areas/norco-ca/ac-repair/",
+        "/service-areas/norco-ca/emergency-plumbing/",
+        "/service-areas/anaheim-ca/drain-cleaning/",
+        "/service-areas/chino-ca/drain-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/norco-ca/water-heater-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Heater Repair in Norco, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Water Heater Repair in Norco",
+      "meta_description": "Trusted water heater repair in Norco, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "water heater repair norco",
+      "secondary_keywords": [
+        "water heater not working",
+        "no hot water",
+        "water heater leaking",
+        "hot water heater repair",
+        "same day water heater service"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-heater-repair/",
+        "/service-areas/norco-ca/",
+        "/service-areas/norco-ca/ac-repair/",
+        "/service-areas/norco-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/water-heater-repair/",
+        "/service-areas/chino-ca/water-heater-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/norco-ca/water-heater-installation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Heater Installation and Replacement in Norco, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Water Heater Installation and Replacement in Norco",
+      "meta_description": "Trusted water heater installation and replacement in Norco, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "water heater installation and replacement norco",
+      "secondary_keywords": [
+        "water heater replacement",
+        "tankless water heater installation",
+        "tankless vs tank water heater",
+        "50 gallon water heater install",
+        "tankless water heater cost"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-heater-installation/",
+        "/service-areas/norco-ca/",
+        "/service-areas/norco-ca/ac-repair/",
+        "/service-areas/norco-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/water-heater-installation/",
+        "/service-areas/chino-ca/water-heater-installation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/norco-ca/toilet-faucet-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Toilet, Faucet and Fixture Services in Norco, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Toilet, Faucet and Fixture Services in Norco",
+      "meta_description": "Trusted toilet, faucet and fixture services in Norco, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "toilet, faucet and fixture services norco",
+      "secondary_keywords": [
+        "toilet repair",
+        "toilet installation",
+        "faucet replacement",
+        "shower valve repair",
+        "running toilet fix"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/toilet-faucet-repair/",
+        "/service-areas/norco-ca/",
+        "/service-areas/norco-ca/ac-repair/",
+        "/service-areas/norco-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/toilet-faucet-repair/",
+        "/service-areas/chino-ca/toilet-faucet-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/norco-ca/garbage-disposal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Garbage Disposal Repair and Installation in Norco, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Garbage Disposal Repair and Installation in Norco",
+      "meta_description": "Trusted garbage disposal repair and installation in Norco, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "garbage disposal repair and installation norco",
+      "secondary_keywords": [
+        "garbage disposal replacement",
+        "garbage disposal humming",
+        "garbage disposal jammed",
+        "disposal installation",
+        "garbage disposal leaking"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/garbage-disposal/",
+        "/service-areas/norco-ca/",
+        "/service-areas/norco-ca/ac-repair/",
+        "/service-areas/norco-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/garbage-disposal/",
+        "/service-areas/chino-ca/garbage-disposal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/norco-ca/water-softeners-filtration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Softeners and Filtration Systems in Norco, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Water Softeners and Filtration Systems in Norco",
+      "meta_description": "Trusted water softeners and filtration systems in Norco, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "water softeners and filtration systems norco",
+      "secondary_keywords": [
+        "water softener installation",
+        "whole house water filtration",
+        "reverse osmosis system installation",
+        "hard water treatment",
+        "water conditioner install"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-softeners-filtration/",
+        "/service-areas/norco-ca/",
+        "/service-areas/norco-ca/ac-repair/",
+        "/service-areas/norco-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/water-softeners-filtration/",
+        "/service-areas/chino-ca/water-softeners-filtration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/norco-ca/ac-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Conditioning Repair in Norco, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Air Conditioning Repair in Norco",
+      "meta_description": "Trusted air conditioning repair in Norco, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "air conditioning repair norco",
+      "secondary_keywords": [
+        "ac not cooling",
+        "air conditioner repair",
+        "central air repair",
+        "ac refrigerant leak repair",
+        "hvac repair near me"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/ac-repair/",
+        "/service-areas/norco-ca/",
+        "/service-areas/norco-ca/drain-cleaning/",
+        "/service-areas/norco-ca/emergency-plumbing/",
+        "/service-areas/anaheim-ca/ac-repair/",
+        "/service-areas/chino-ca/ac-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/norco-ca/furnace-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Furnace Repair in Norco, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Furnace Repair in Norco",
+      "meta_description": "Trusted furnace repair in Norco, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "furnace repair norco",
+      "secondary_keywords": [
+        "furnace not working",
+        "heater repair",
+        "no heat repair",
+        "emergency furnace repair",
+        "furnace blowing cold air"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/furnace-repair/",
+        "/service-areas/norco-ca/",
+        "/service-areas/norco-ca/ac-repair/",
+        "/service-areas/norco-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/furnace-repair/",
+        "/service-areas/chino-ca/furnace-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/norco-ca/indoor-air-quality/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Indoor Air Quality Services in Norco, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Indoor Air Quality Services in Norco",
+      "meta_description": "Trusted indoor air quality services in Norco, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "indoor air quality services norco",
+      "secondary_keywords": [
+        "whole house air purifier",
+        "UV air purifier for HVAC",
+        "whole home humidifier installation",
+        "HVAC filtration upgrade",
+        "indoor air quality testing"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/indoor-air-quality/",
+        "/service-areas/norco-ca/",
+        "/service-areas/norco-ca/ac-repair/",
+        "/service-areas/norco-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/indoor-air-quality/",
+        "/service-areas/chino-ca/indoor-air-quality/",
         "/contact/"
       ]
     },
@@ -1275,7 +4616,8 @@
       "internal_links_out": [
         "/services/emergency-plumbing/",
         "/service-areas/yorba-linda-ca/",
-        "/service-areas/yorba-linda-ca/leak-detection/",
+        "/service-areas/yorba-linda-ca/ac-repair/",
+        "/service-areas/yorba-linda-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/emergency-plumbing/",
         "/service-areas/chino-ca/emergency-plumbing/",
         "/contact/"
@@ -1318,9 +4660,406 @@
       "internal_links_out": [
         "/services/leak-detection/",
         "/service-areas/yorba-linda-ca/",
-        "/service-areas/yorba-linda-ca/emergency-plumbing/",
+        "/service-areas/yorba-linda-ca/ac-repair/",
+        "/service-areas/yorba-linda-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/leak-detection/",
         "/service-areas/chino-ca/leak-detection/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/yorba-linda-ca/drain-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Drain Cleaning in Yorba Linda, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Drain Cleaning in Yorba Linda",
+      "meta_description": "Trusted drain cleaning in Yorba Linda, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "drain cleaning yorba linda",
+      "secondary_keywords": [
+        "clogged drain cleaning",
+        "hydro jetting",
+        "rooter service",
+        "kitchen sink clog removal",
+        "shower drain clog"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/drain-cleaning/",
+        "/service-areas/yorba-linda-ca/",
+        "/service-areas/yorba-linda-ca/ac-repair/",
+        "/service-areas/yorba-linda-ca/emergency-plumbing/",
+        "/service-areas/anaheim-ca/drain-cleaning/",
+        "/service-areas/chino-ca/drain-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/yorba-linda-ca/water-heater-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Heater Repair in Yorba Linda, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Water Heater Repair in Yorba Linda",
+      "meta_description": "Trusted water heater repair in Yorba Linda, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "water heater repair yorba linda",
+      "secondary_keywords": [
+        "water heater not working",
+        "no hot water",
+        "water heater leaking",
+        "hot water heater repair",
+        "same day water heater service"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-heater-repair/",
+        "/service-areas/yorba-linda-ca/",
+        "/service-areas/yorba-linda-ca/ac-repair/",
+        "/service-areas/yorba-linda-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/water-heater-repair/",
+        "/service-areas/chino-ca/water-heater-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/yorba-linda-ca/water-heater-installation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Heater Installation and Replacement in Yorba Linda, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Water Heater Installation and Replacement in Yorba Linda",
+      "meta_description": "Trusted water heater installation and replacement in Yorba Linda, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "water heater installation and replacement yorba linda",
+      "secondary_keywords": [
+        "water heater replacement",
+        "tankless water heater installation",
+        "tankless vs tank water heater",
+        "50 gallon water heater install",
+        "tankless water heater cost"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-heater-installation/",
+        "/service-areas/yorba-linda-ca/",
+        "/service-areas/yorba-linda-ca/ac-repair/",
+        "/service-areas/yorba-linda-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/water-heater-installation/",
+        "/service-areas/chino-ca/water-heater-installation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/yorba-linda-ca/toilet-faucet-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Toilet, Faucet and Fixture Services in Yorba Linda, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Toilet, Faucet and Fixture Services in Yorba Linda",
+      "meta_description": "Trusted toilet, faucet and fixture services in Yorba Linda, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "toilet, faucet and fixture services yorba linda",
+      "secondary_keywords": [
+        "toilet repair",
+        "toilet installation",
+        "faucet replacement",
+        "shower valve repair",
+        "running toilet fix"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.9,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/toilet-faucet-repair/",
+        "/service-areas/yorba-linda-ca/",
+        "/service-areas/yorba-linda-ca/ac-repair/",
+        "/service-areas/yorba-linda-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/toilet-faucet-repair/",
+        "/service-areas/chino-ca/toilet-faucet-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/yorba-linda-ca/garbage-disposal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Garbage Disposal Repair and Installation in Yorba Linda, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Garbage Disposal Repair and Installation in Yorba Linda",
+      "meta_description": "Trusted garbage disposal repair and installation in Yorba Linda, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "garbage disposal repair and installation yorba linda",
+      "secondary_keywords": [
+        "garbage disposal replacement",
+        "garbage disposal humming",
+        "garbage disposal jammed",
+        "disposal installation",
+        "garbage disposal leaking"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/garbage-disposal/",
+        "/service-areas/yorba-linda-ca/",
+        "/service-areas/yorba-linda-ca/ac-repair/",
+        "/service-areas/yorba-linda-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/garbage-disposal/",
+        "/service-areas/chino-ca/garbage-disposal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/yorba-linda-ca/water-softeners-filtration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Softeners and Filtration Systems in Yorba Linda, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Water Softeners and Filtration Systems in Yorba Linda",
+      "meta_description": "Trusted water softeners and filtration systems in Yorba Linda, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "water softeners and filtration systems yorba linda",
+      "secondary_keywords": [
+        "water softener installation",
+        "whole house water filtration",
+        "reverse osmosis system installation",
+        "hard water treatment",
+        "water conditioner install"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-softeners-filtration/",
+        "/service-areas/yorba-linda-ca/",
+        "/service-areas/yorba-linda-ca/ac-repair/",
+        "/service-areas/yorba-linda-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/water-softeners-filtration/",
+        "/service-areas/chino-ca/water-softeners-filtration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/yorba-linda-ca/ac-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Air Conditioning Repair in Yorba Linda, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Air Conditioning Repair in Yorba Linda",
+      "meta_description": "Trusted air conditioning repair in Yorba Linda, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "air conditioning repair yorba linda",
+      "secondary_keywords": [
+        "ac not cooling",
+        "air conditioner repair",
+        "central air repair",
+        "ac refrigerant leak repair",
+        "hvac repair near me"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/ac-repair/",
+        "/service-areas/yorba-linda-ca/",
+        "/service-areas/yorba-linda-ca/drain-cleaning/",
+        "/service-areas/yorba-linda-ca/emergency-plumbing/",
+        "/service-areas/anaheim-ca/ac-repair/",
+        "/service-areas/chino-ca/ac-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/yorba-linda-ca/furnace-repair/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Furnace Repair in Yorba Linda, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Furnace Repair in Yorba Linda",
+      "meta_description": "Trusted furnace repair in Yorba Linda, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "furnace repair yorba linda",
+      "secondary_keywords": [
+        "furnace not working",
+        "heater repair",
+        "no heat repair",
+        "emergency furnace repair",
+        "furnace blowing cold air"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/furnace-repair/",
+        "/service-areas/yorba-linda-ca/",
+        "/service-areas/yorba-linda-ca/ac-repair/",
+        "/service-areas/yorba-linda-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/furnace-repair/",
+        "/service-areas/chino-ca/furnace-repair/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/yorba-linda-ca/indoor-air-quality/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Indoor Air Quality Services in Yorba Linda, CA | RT Olson Plumbing, Heating and Air Conditioning",
+      "h1": "Indoor Air Quality Services in Yorba Linda",
+      "meta_description": "Trusted indoor air quality services in Yorba Linda, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
+      "primary_keyword": "indoor air quality services yorba linda",
+      "secondary_keywords": [
+        "whole house air purifier",
+        "UV air purifier for HVAC",
+        "whole home humidifier installation",
+        "HVAC filtration upgrade",
+        "indoor air quality testing"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/indoor-air-quality/",
+        "/service-areas/yorba-linda-ca/",
+        "/service-areas/yorba-linda-ca/ac-repair/",
+        "/service-areas/yorba-linda-ca/drain-cleaning/",
+        "/service-areas/anaheim-ca/indoor-air-quality/",
+        "/service-areas/chino-ca/indoor-air-quality/",
         "/contact/"
       ]
     },
@@ -1359,6 +5098,144 @@
       ]
     },
     {
+      "url_path": "/blog/tankless-vs-tank-water-heater/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Tankless vs Tank Water Heaters: Which Is Right for Your Home?",
+      "h1": "Tankless vs Tank Water Heaters: Which Is Right for Your Home?",
+      "meta_description": "",
+      "primary_keyword": "tankless vs tank water heaters which is right for your home",
+      "secondary_keywords": [
+        "water heater installation and replacement"
+      ],
+      "search_intent": "commercial_decision",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-heater-installation/",
+        "/blog/water-heater-lifespan-repair-or-replace/"
+      ]
+    },
+    {
+      "url_path": "/blog/water-heater-lifespan-repair-or-replace/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "How Long Do Water Heaters Last? When To Repair vs Replace",
+      "h1": "How Long Do Water Heaters Last? When To Repair vs Replace",
+      "meta_description": "",
+      "primary_keyword": "how long do water heaters last when to repair vs replace",
+      "secondary_keywords": [
+        "water heater repair",
+        "water heater installation and replacement"
+      ],
+      "search_intent": "commercial_decision",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-heater-repair/",
+        "/services/water-heater-installation/",
+        "/blog/tankless-vs-tank-water-heater/"
+      ]
+    },
+    {
+      "url_path": "/blog/drain-cleaning-diy-vs-pro/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Chemical Drain Cleaners vs Calling a Plumber: What Actually Works",
+      "h1": "Chemical Drain Cleaners vs Calling a Plumber: What Actually Works",
+      "meta_description": "",
+      "primary_keyword": "chemical drain cleaners vs calling a plumber what actually works",
+      "secondary_keywords": [
+        "drain cleaning"
+      ],
+      "search_intent": "informational_process",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/drain-cleaning/",
+        "/blog/hydro-jetting-vs-snaking/"
+      ]
+    },
+    {
+      "url_path": "/blog/furnace-repair-or-replace/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Furnace Repair or Replace? The 50% Rule and Other Ways To Decide",
+      "h1": "Furnace Repair or Replace? The 50% Rule and Other Ways To Decide",
+      "meta_description": "",
+      "primary_keyword": "furnace repair or replace the 50 rule and other ways to decide",
+      "secondary_keywords": [
+        "furnace repair",
+        "furnace installation and replacement"
+      ],
+      "search_intent": "commercial_decision",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/furnace-repair/"
+      ]
+    },
+    {
       "url_path": "/blog/signs-of-a-slab-leak/",
       "archetype": "blog-post",
       "vars_keys": [
@@ -1391,6 +5268,41 @@
         "/blog/",
         "/services/leak-detection/",
         "/blog/low-water-pressure-causes/"
+      ]
+    },
+    {
+      "url_path": "/blog/hydro-jetting-vs-snaking/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Hydro Jetting vs Snaking: Which Drain Cleaning Method Do You Need?",
+      "h1": "Hydro Jetting vs Snaking: Which Drain Cleaning Method Do You Need?",
+      "meta_description": "",
+      "primary_keyword": "hydro jetting vs snaking which drain cleaning method do you need",
+      "secondary_keywords": [
+        "drain cleaning",
+        "sewer line repair and replacement"
+      ],
+      "search_intent": "informational_specialty",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/drain-cleaning/",
+        "/blog/drain-cleaning-diy-vs-pro/"
       ]
     },
     {

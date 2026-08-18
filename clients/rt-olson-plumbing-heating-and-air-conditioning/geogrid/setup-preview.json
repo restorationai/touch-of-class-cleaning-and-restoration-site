@@ -1,0 +1,70 @@
+{
+  "keywords": [
+    "emergency plumbing",
+    "drain cleaning",
+    "water heater repair",
+    "air conditioning repair",
+    "water heater installation",
+    "furnace repair",
+    "toilet, faucet",
+    "leak detection"
+  ],
+  "cities": [
+    {
+      "label": "Corona, CA",
+      "lat": 33.8752945,
+      "lng": -117.566444,
+      "primary": true
+    },
+    {
+      "label": "Riverside, CA",
+      "lat": 33.9825,
+      "lng": -117.3742,
+      "primary": false
+    },
+    {
+      "label": "Anaheim, CA",
+      "lat": 33.8348,
+      "lng": -117.9117,
+      "primary": false
+    },
+    {
+      "label": "Santa Ana, CA",
+      "lat": 33.7495,
+      "lng": -117.8732,
+      "primary": false
+    },
+    {
+      "label": "Fullerton, CA",
+      "lat": 33.8708,
+      "lng": -117.9294,
+      "primary": false
+    },
+    {
+      "label": "Ontario, CA",
+      "lat": 34.0658,
+      "lng": -117.6484,
+      "primary": false
+    },
+    {
+      "label": "Chino, CA",
+      "lat": 34.0134,
+      "lng": -117.6901,
+      "primary": false
+    },
+    {
+      "label": "Norco, CA",
+      "lat": 33.9323,
+      "lng": -117.5509,
+      "primary": false
+    },
+    {
+      "label": "Yorba Linda, CA",
+      "lat": 33.8901,
+      "lng": -117.825,
+      "primary": false
+    }
+  ],
+  "company_id": "CO-1786206263495",
+  "has_identity": true
+}

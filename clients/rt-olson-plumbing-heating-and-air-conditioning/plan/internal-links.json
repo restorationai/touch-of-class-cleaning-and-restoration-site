@@ -4,8 +4,20 @@
     "/service-areas/",
     "/contact/",
     "/about/",
+    "/services/ac-repair/",
+    "/services/drain-cleaning/",
     "/services/emergency-plumbing/",
+    "/services/water-heater-repair/",
+    "/services/furnace-repair/",
+    "/services/water-heater-installation/",
     "/services/leak-detection/",
+<<<<<<< HEAD
+=======
+    "/services/toilet-faucet-repair/",
+    "/services/indoor-air-quality/",
+    "/services/water-softeners-filtration/",
+    "/services/garbage-disposal/",
+>>>>>>> 027ddff4 (rt-olson: full 124-page plumbing build (11 documented services, real fleet photos, plumbing hub archetype + vertical prompts patched))
     "/service-areas/anaheim-ca/",
     "/service-areas/chino-ca/",
     "/service-areas/fullerton-ca/",
@@ -17,8 +29,17 @@
   ],
   "/services/": [
     "/",
+    "/services/ac-repair/",
+    "/services/drain-cleaning/",
     "/services/emergency-plumbing/",
-    "/services/leak-detection/"
+    "/services/water-heater-repair/",
+    "/services/furnace-repair/",
+    "/services/water-heater-installation/",
+    "/services/leak-detection/",
+    "/services/toilet-faucet-repair/",
+    "/services/indoor-air-quality/",
+    "/services/water-softeners-filtration/",
+    "/services/garbage-disposal/"
   ],
   "/service-areas/": [
     "/",
@@ -33,7 +54,12 @@
   ],
   "/blog/": [
     "/",
+    "/blog/tankless-vs-tank-water-heater/",
     "/blog/what-to-do-burst-pipe/",
+    "/blog/drain-cleaning-diy-vs-pro/",
+    "/blog/furnace-repair-or-replace/",
+    "/blog/water-heater-lifespan-repair-or-replace/",
+    "/blog/hydro-jetting-vs-snaking/",
     "/blog/low-water-pressure-causes/",
     "/blog/signs-of-a-slab-leak/"
   ],
@@ -74,11 +100,140 @@
     "/blog/low-water-pressure-causes/",
     "/blog/signs-of-a-slab-leak/"
   ],
+<<<<<<< HEAD
+=======
+  "/services/drain-cleaning/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/anaheim-ca/drain-cleaning/",
+    "/service-areas/chino-ca/drain-cleaning/",
+    "/service-areas/fullerton-ca/drain-cleaning/",
+    "/service-areas/norco-ca/drain-cleaning/",
+    "/service-areas/ontario-ca/drain-cleaning/",
+    "/service-areas/riverside-ca/drain-cleaning/",
+    "/service-areas/santa-ana-ca/drain-cleaning/",
+    "/service-areas/yorba-linda-ca/drain-cleaning/",
+    "/blog/drain-cleaning-diy-vs-pro/",
+    "/blog/hydro-jetting-vs-snaking/"
+  ],
+  "/services/water-heater-repair/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/anaheim-ca/water-heater-repair/",
+    "/service-areas/chino-ca/water-heater-repair/",
+    "/service-areas/fullerton-ca/water-heater-repair/",
+    "/service-areas/norco-ca/water-heater-repair/",
+    "/service-areas/ontario-ca/water-heater-repair/",
+    "/service-areas/riverside-ca/water-heater-repair/",
+    "/service-areas/santa-ana-ca/water-heater-repair/",
+    "/service-areas/yorba-linda-ca/water-heater-repair/",
+    "/blog/water-heater-lifespan-repair-or-replace/"
+  ],
+  "/services/water-heater-installation/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/anaheim-ca/water-heater-installation/",
+    "/service-areas/chino-ca/water-heater-installation/",
+    "/service-areas/fullerton-ca/water-heater-installation/",
+    "/service-areas/norco-ca/water-heater-installation/",
+    "/service-areas/ontario-ca/water-heater-installation/",
+    "/service-areas/riverside-ca/water-heater-installation/",
+    "/service-areas/santa-ana-ca/water-heater-installation/",
+    "/service-areas/yorba-linda-ca/water-heater-installation/",
+    "/blog/tankless-vs-tank-water-heater/",
+    "/blog/water-heater-lifespan-repair-or-replace/"
+  ],
+  "/services/toilet-faucet-repair/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/anaheim-ca/toilet-faucet-repair/",
+    "/service-areas/chino-ca/toilet-faucet-repair/",
+    "/service-areas/fullerton-ca/toilet-faucet-repair/",
+    "/service-areas/norco-ca/toilet-faucet-repair/",
+    "/service-areas/ontario-ca/toilet-faucet-repair/",
+    "/service-areas/riverside-ca/toilet-faucet-repair/",
+    "/service-areas/santa-ana-ca/toilet-faucet-repair/",
+    "/service-areas/yorba-linda-ca/toilet-faucet-repair/"
+  ],
+  "/services/garbage-disposal/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/anaheim-ca/garbage-disposal/",
+    "/service-areas/chino-ca/garbage-disposal/",
+    "/service-areas/fullerton-ca/garbage-disposal/",
+    "/service-areas/norco-ca/garbage-disposal/",
+    "/service-areas/ontario-ca/garbage-disposal/",
+    "/service-areas/riverside-ca/garbage-disposal/",
+    "/service-areas/santa-ana-ca/garbage-disposal/",
+    "/service-areas/yorba-linda-ca/garbage-disposal/"
+  ],
+  "/services/water-softeners-filtration/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/anaheim-ca/water-softeners-filtration/",
+    "/service-areas/chino-ca/water-softeners-filtration/",
+    "/service-areas/fullerton-ca/water-softeners-filtration/",
+    "/service-areas/norco-ca/water-softeners-filtration/",
+    "/service-areas/ontario-ca/water-softeners-filtration/",
+    "/service-areas/riverside-ca/water-softeners-filtration/",
+    "/service-areas/santa-ana-ca/water-softeners-filtration/",
+    "/service-areas/yorba-linda-ca/water-softeners-filtration/"
+  ],
+  "/services/ac-repair/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/anaheim-ca/ac-repair/",
+    "/service-areas/chino-ca/ac-repair/",
+    "/service-areas/fullerton-ca/ac-repair/",
+    "/service-areas/norco-ca/ac-repair/",
+    "/service-areas/ontario-ca/ac-repair/",
+    "/service-areas/riverside-ca/ac-repair/",
+    "/service-areas/santa-ana-ca/ac-repair/",
+    "/service-areas/yorba-linda-ca/ac-repair/"
+  ],
+  "/services/furnace-repair/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/anaheim-ca/furnace-repair/",
+    "/service-areas/chino-ca/furnace-repair/",
+    "/service-areas/fullerton-ca/furnace-repair/",
+    "/service-areas/norco-ca/furnace-repair/",
+    "/service-areas/ontario-ca/furnace-repair/",
+    "/service-areas/riverside-ca/furnace-repair/",
+    "/service-areas/santa-ana-ca/furnace-repair/",
+    "/service-areas/yorba-linda-ca/furnace-repair/",
+    "/blog/furnace-repair-or-replace/"
+  ],
+  "/services/indoor-air-quality/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/anaheim-ca/indoor-air-quality/",
+    "/service-areas/chino-ca/indoor-air-quality/",
+    "/service-areas/fullerton-ca/indoor-air-quality/",
+    "/service-areas/norco-ca/indoor-air-quality/",
+    "/service-areas/ontario-ca/indoor-air-quality/",
+    "/service-areas/riverside-ca/indoor-air-quality/",
+    "/service-areas/santa-ana-ca/indoor-air-quality/",
+    "/service-areas/yorba-linda-ca/indoor-air-quality/"
+  ],
+>>>>>>> 027ddff4 (rt-olson: full 124-page plumbing build (11 documented services, real fleet photos, plumbing hub archetype + vertical prompts patched))
   "/service-areas/riverside-ca/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/riverside-ca/ac-repair/",
+    "/service-areas/riverside-ca/drain-cleaning/",
     "/service-areas/riverside-ca/emergency-plumbing/",
+    "/service-areas/riverside-ca/water-heater-repair/",
+    "/service-areas/riverside-ca/furnace-repair/",
+    "/service-areas/riverside-ca/water-heater-installation/",
     "/service-areas/riverside-ca/leak-detection/",
+<<<<<<< HEAD
+=======
+    "/service-areas/riverside-ca/toilet-faucet-repair/",
+    "/service-areas/riverside-ca/indoor-air-quality/",
+    "/service-areas/riverside-ca/water-softeners-filtration/",
+    "/service-areas/riverside-ca/garbage-disposal/",
+>>>>>>> 027ddff4 (rt-olson: full 124-page plumbing build (11 documented services, real fleet photos, plumbing hub archetype + vertical prompts patched))
     "/service-areas/anaheim-ca/",
     "/service-areas/chino-ca/",
     "/service-areas/fullerton-ca/"
@@ -86,8 +241,20 @@
   "/service-areas/anaheim-ca/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/anaheim-ca/ac-repair/",
+    "/service-areas/anaheim-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/water-heater-repair/",
+    "/service-areas/anaheim-ca/furnace-repair/",
+    "/service-areas/anaheim-ca/water-heater-installation/",
     "/service-areas/anaheim-ca/leak-detection/",
+<<<<<<< HEAD
+=======
+    "/service-areas/anaheim-ca/toilet-faucet-repair/",
+    "/service-areas/anaheim-ca/indoor-air-quality/",
+    "/service-areas/anaheim-ca/water-softeners-filtration/",
+    "/service-areas/anaheim-ca/garbage-disposal/",
+>>>>>>> 027ddff4 (rt-olson: full 124-page plumbing build (11 documented services, real fleet photos, plumbing hub archetype + vertical prompts patched))
     "/service-areas/chino-ca/",
     "/service-areas/fullerton-ca/",
     "/service-areas/norco-ca/"
@@ -95,8 +262,20 @@
   "/service-areas/santa-ana-ca/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/santa-ana-ca/ac-repair/",
+    "/service-areas/santa-ana-ca/drain-cleaning/",
     "/service-areas/santa-ana-ca/emergency-plumbing/",
+    "/service-areas/santa-ana-ca/water-heater-repair/",
+    "/service-areas/santa-ana-ca/furnace-repair/",
+    "/service-areas/santa-ana-ca/water-heater-installation/",
     "/service-areas/santa-ana-ca/leak-detection/",
+<<<<<<< HEAD
+=======
+    "/service-areas/santa-ana-ca/toilet-faucet-repair/",
+    "/service-areas/santa-ana-ca/indoor-air-quality/",
+    "/service-areas/santa-ana-ca/water-softeners-filtration/",
+    "/service-areas/santa-ana-ca/garbage-disposal/",
+>>>>>>> 027ddff4 (rt-olson: full 124-page plumbing build (11 documented services, real fleet photos, plumbing hub archetype + vertical prompts patched))
     "/service-areas/anaheim-ca/",
     "/service-areas/chino-ca/",
     "/service-areas/fullerton-ca/"
@@ -104,8 +283,20 @@
   "/service-areas/fullerton-ca/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/fullerton-ca/ac-repair/",
+    "/service-areas/fullerton-ca/drain-cleaning/",
     "/service-areas/fullerton-ca/emergency-plumbing/",
+    "/service-areas/fullerton-ca/water-heater-repair/",
+    "/service-areas/fullerton-ca/furnace-repair/",
+    "/service-areas/fullerton-ca/water-heater-installation/",
     "/service-areas/fullerton-ca/leak-detection/",
+<<<<<<< HEAD
+=======
+    "/service-areas/fullerton-ca/toilet-faucet-repair/",
+    "/service-areas/fullerton-ca/indoor-air-quality/",
+    "/service-areas/fullerton-ca/water-softeners-filtration/",
+    "/service-areas/fullerton-ca/garbage-disposal/",
+>>>>>>> 027ddff4 (rt-olson: full 124-page plumbing build (11 documented services, real fleet photos, plumbing hub archetype + vertical prompts patched))
     "/service-areas/anaheim-ca/",
     "/service-areas/chino-ca/",
     "/service-areas/norco-ca/"
@@ -113,8 +304,20 @@
   "/service-areas/ontario-ca/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/ontario-ca/ac-repair/",
+    "/service-areas/ontario-ca/drain-cleaning/",
     "/service-areas/ontario-ca/emergency-plumbing/",
+    "/service-areas/ontario-ca/water-heater-repair/",
+    "/service-areas/ontario-ca/furnace-repair/",
+    "/service-areas/ontario-ca/water-heater-installation/",
     "/service-areas/ontario-ca/leak-detection/",
+<<<<<<< HEAD
+=======
+    "/service-areas/ontario-ca/toilet-faucet-repair/",
+    "/service-areas/ontario-ca/indoor-air-quality/",
+    "/service-areas/ontario-ca/water-softeners-filtration/",
+    "/service-areas/ontario-ca/garbage-disposal/",
+>>>>>>> 027ddff4 (rt-olson: full 124-page plumbing build (11 documented services, real fleet photos, plumbing hub archetype + vertical prompts patched))
     "/service-areas/anaheim-ca/",
     "/service-areas/chino-ca/",
     "/service-areas/fullerton-ca/"
@@ -122,8 +325,20 @@
   "/service-areas/chino-ca/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/chino-ca/ac-repair/",
+    "/service-areas/chino-ca/drain-cleaning/",
     "/service-areas/chino-ca/emergency-plumbing/",
+    "/service-areas/chino-ca/water-heater-repair/",
+    "/service-areas/chino-ca/furnace-repair/",
+    "/service-areas/chino-ca/water-heater-installation/",
     "/service-areas/chino-ca/leak-detection/",
+<<<<<<< HEAD
+=======
+    "/service-areas/chino-ca/toilet-faucet-repair/",
+    "/service-areas/chino-ca/indoor-air-quality/",
+    "/service-areas/chino-ca/water-softeners-filtration/",
+    "/service-areas/chino-ca/garbage-disposal/",
+>>>>>>> 027ddff4 (rt-olson: full 124-page plumbing build (11 documented services, real fleet photos, plumbing hub archetype + vertical prompts patched))
     "/service-areas/anaheim-ca/",
     "/service-areas/fullerton-ca/",
     "/service-areas/norco-ca/"
@@ -131,8 +346,20 @@
   "/service-areas/norco-ca/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/norco-ca/ac-repair/",
+    "/service-areas/norco-ca/drain-cleaning/",
     "/service-areas/norco-ca/emergency-plumbing/",
+    "/service-areas/norco-ca/water-heater-repair/",
+    "/service-areas/norco-ca/furnace-repair/",
+    "/service-areas/norco-ca/water-heater-installation/",
     "/service-areas/norco-ca/leak-detection/",
+<<<<<<< HEAD
+=======
+    "/service-areas/norco-ca/toilet-faucet-repair/",
+    "/service-areas/norco-ca/indoor-air-quality/",
+    "/service-areas/norco-ca/water-softeners-filtration/",
+    "/service-areas/norco-ca/garbage-disposal/",
+>>>>>>> 027ddff4 (rt-olson: full 124-page plumbing build (11 documented services, real fleet photos, plumbing hub archetype + vertical prompts patched))
     "/service-areas/anaheim-ca/",
     "/service-areas/chino-ca/",
     "/service-areas/fullerton-ca/"
@@ -140,8 +367,20 @@
   "/service-areas/yorba-linda-ca/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/yorba-linda-ca/ac-repair/",
+    "/service-areas/yorba-linda-ca/drain-cleaning/",
     "/service-areas/yorba-linda-ca/emergency-plumbing/",
+    "/service-areas/yorba-linda-ca/water-heater-repair/",
+    "/service-areas/yorba-linda-ca/furnace-repair/",
+    "/service-areas/yorba-linda-ca/water-heater-installation/",
     "/service-areas/yorba-linda-ca/leak-detection/",
+<<<<<<< HEAD
+=======
+    "/service-areas/yorba-linda-ca/toilet-faucet-repair/",
+    "/service-areas/yorba-linda-ca/indoor-air-quality/",
+    "/service-areas/yorba-linda-ca/water-softeners-filtration/",
+    "/service-areas/yorba-linda-ca/garbage-disposal/",
+>>>>>>> 027ddff4 (rt-olson: full 124-page plumbing build (11 documented services, real fleet photos, plumbing hub archetype + vertical prompts patched))
     "/service-areas/anaheim-ca/",
     "/service-areas/chino-ca/",
     "/service-areas/fullerton-ca/"
@@ -149,7 +388,8 @@
   "/service-areas/riverside-ca/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/riverside-ca/",
-    "/service-areas/riverside-ca/leak-detection/",
+    "/service-areas/riverside-ca/ac-repair/",
+    "/service-areas/riverside-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/emergency-plumbing/",
     "/service-areas/chino-ca/emergency-plumbing/",
     "/contact/"
@@ -157,15 +397,98 @@
   "/service-areas/riverside-ca/leak-detection/": [
     "/services/leak-detection/",
     "/service-areas/riverside-ca/",
-    "/service-areas/riverside-ca/emergency-plumbing/",
+    "/service-areas/riverside-ca/ac-repair/",
+    "/service-areas/riverside-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/leak-detection/",
     "/service-areas/chino-ca/leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/riverside-ca/drain-cleaning/": [
+    "/services/drain-cleaning/",
+    "/service-areas/riverside-ca/",
+    "/service-areas/riverside-ca/ac-repair/",
+    "/service-areas/riverside-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/drain-cleaning/",
+    "/service-areas/chino-ca/drain-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/riverside-ca/water-heater-repair/": [
+    "/services/water-heater-repair/",
+    "/service-areas/riverside-ca/",
+    "/service-areas/riverside-ca/ac-repair/",
+    "/service-areas/riverside-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-repair/",
+    "/service-areas/chino-ca/water-heater-repair/",
+    "/contact/"
+  ],
+  "/service-areas/riverside-ca/water-heater-installation/": [
+    "/services/water-heater-installation/",
+    "/service-areas/riverside-ca/",
+    "/service-areas/riverside-ca/ac-repair/",
+    "/service-areas/riverside-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-installation/",
+    "/service-areas/chino-ca/water-heater-installation/",
+    "/contact/"
+  ],
+  "/service-areas/riverside-ca/toilet-faucet-repair/": [
+    "/services/toilet-faucet-repair/",
+    "/service-areas/riverside-ca/",
+    "/service-areas/riverside-ca/ac-repair/",
+    "/service-areas/riverside-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/toilet-faucet-repair/",
+    "/service-areas/chino-ca/toilet-faucet-repair/",
+    "/contact/"
+  ],
+  "/service-areas/riverside-ca/garbage-disposal/": [
+    "/services/garbage-disposal/",
+    "/service-areas/riverside-ca/",
+    "/service-areas/riverside-ca/ac-repair/",
+    "/service-areas/riverside-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/garbage-disposal/",
+    "/service-areas/chino-ca/garbage-disposal/",
+    "/contact/"
+  ],
+  "/service-areas/riverside-ca/water-softeners-filtration/": [
+    "/services/water-softeners-filtration/",
+    "/service-areas/riverside-ca/",
+    "/service-areas/riverside-ca/ac-repair/",
+    "/service-areas/riverside-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-softeners-filtration/",
+    "/service-areas/chino-ca/water-softeners-filtration/",
+    "/contact/"
+  ],
+  "/service-areas/riverside-ca/ac-repair/": [
+    "/services/ac-repair/",
+    "/service-areas/riverside-ca/",
+    "/service-areas/riverside-ca/drain-cleaning/",
+    "/service-areas/riverside-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/ac-repair/",
+    "/service-areas/chino-ca/ac-repair/",
+    "/contact/"
+  ],
+  "/service-areas/riverside-ca/furnace-repair/": [
+    "/services/furnace-repair/",
+    "/service-areas/riverside-ca/",
+    "/service-areas/riverside-ca/ac-repair/",
+    "/service-areas/riverside-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/furnace-repair/",
+    "/service-areas/chino-ca/furnace-repair/",
+    "/contact/"
+  ],
+  "/service-areas/riverside-ca/indoor-air-quality/": [
+    "/services/indoor-air-quality/",
+    "/service-areas/riverside-ca/",
+    "/service-areas/riverside-ca/ac-repair/",
+    "/service-areas/riverside-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/indoor-air-quality/",
+    "/service-areas/chino-ca/indoor-air-quality/",
     "/contact/"
   ],
   "/service-areas/anaheim-ca/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/anaheim-ca/",
-    "/service-areas/anaheim-ca/leak-detection/",
+    "/service-areas/anaheim-ca/ac-repair/",
+    "/service-areas/anaheim-ca/drain-cleaning/",
     "/service-areas/chino-ca/emergency-plumbing/",
     "/service-areas/fullerton-ca/emergency-plumbing/",
     "/contact/"
@@ -173,15 +496,101 @@
   "/service-areas/anaheim-ca/leak-detection/": [
     "/services/leak-detection/",
     "/service-areas/anaheim-ca/",
-    "/service-areas/anaheim-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/ac-repair/",
+    "/service-areas/anaheim-ca/drain-cleaning/",
     "/service-areas/chino-ca/leak-detection/",
     "/service-areas/fullerton-ca/leak-detection/",
+<<<<<<< HEAD
+=======
+    "/contact/"
+  ],
+  "/service-areas/anaheim-ca/drain-cleaning/": [
+    "/services/drain-cleaning/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/anaheim-ca/ac-repair/",
+    "/service-areas/anaheim-ca/emergency-plumbing/",
+    "/service-areas/chino-ca/drain-cleaning/",
+    "/service-areas/fullerton-ca/drain-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/anaheim-ca/water-heater-repair/": [
+    "/services/water-heater-repair/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/anaheim-ca/ac-repair/",
+    "/service-areas/anaheim-ca/drain-cleaning/",
+    "/service-areas/chino-ca/water-heater-repair/",
+    "/service-areas/fullerton-ca/water-heater-repair/",
+    "/contact/"
+  ],
+  "/service-areas/anaheim-ca/water-heater-installation/": [
+    "/services/water-heater-installation/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/anaheim-ca/ac-repair/",
+    "/service-areas/anaheim-ca/drain-cleaning/",
+    "/service-areas/chino-ca/water-heater-installation/",
+    "/service-areas/fullerton-ca/water-heater-installation/",
+    "/contact/"
+  ],
+  "/service-areas/anaheim-ca/toilet-faucet-repair/": [
+    "/services/toilet-faucet-repair/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/anaheim-ca/ac-repair/",
+    "/service-areas/anaheim-ca/drain-cleaning/",
+    "/service-areas/chino-ca/toilet-faucet-repair/",
+    "/service-areas/fullerton-ca/toilet-faucet-repair/",
+    "/contact/"
+  ],
+  "/service-areas/anaheim-ca/garbage-disposal/": [
+    "/services/garbage-disposal/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/anaheim-ca/ac-repair/",
+    "/service-areas/anaheim-ca/drain-cleaning/",
+    "/service-areas/chino-ca/garbage-disposal/",
+    "/service-areas/fullerton-ca/garbage-disposal/",
+    "/contact/"
+  ],
+  "/service-areas/anaheim-ca/water-softeners-filtration/": [
+    "/services/water-softeners-filtration/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/anaheim-ca/ac-repair/",
+    "/service-areas/anaheim-ca/drain-cleaning/",
+    "/service-areas/chino-ca/water-softeners-filtration/",
+    "/service-areas/fullerton-ca/water-softeners-filtration/",
+    "/contact/"
+  ],
+  "/service-areas/anaheim-ca/ac-repair/": [
+    "/services/ac-repair/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/anaheim-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/emergency-plumbing/",
+    "/service-areas/chino-ca/ac-repair/",
+    "/service-areas/fullerton-ca/ac-repair/",
+    "/contact/"
+  ],
+  "/service-areas/anaheim-ca/furnace-repair/": [
+    "/services/furnace-repair/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/anaheim-ca/ac-repair/",
+    "/service-areas/anaheim-ca/drain-cleaning/",
+    "/service-areas/chino-ca/furnace-repair/",
+    "/service-areas/fullerton-ca/furnace-repair/",
+    "/contact/"
+  ],
+  "/service-areas/anaheim-ca/indoor-air-quality/": [
+    "/services/indoor-air-quality/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/anaheim-ca/ac-repair/",
+    "/service-areas/anaheim-ca/drain-cleaning/",
+    "/service-areas/chino-ca/indoor-air-quality/",
+    "/service-areas/fullerton-ca/indoor-air-quality/",
+>>>>>>> 027ddff4 (rt-olson: full 124-page plumbing build (11 documented services, real fleet photos, plumbing hub archetype + vertical prompts patched))
     "/contact/"
   ],
   "/service-areas/santa-ana-ca/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/santa-ana-ca/",
-    "/service-areas/santa-ana-ca/leak-detection/",
+    "/service-areas/santa-ana-ca/ac-repair/",
+    "/service-areas/santa-ana-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/emergency-plumbing/",
     "/service-areas/chino-ca/emergency-plumbing/",
     "/contact/"
@@ -189,15 +598,98 @@
   "/service-areas/santa-ana-ca/leak-detection/": [
     "/services/leak-detection/",
     "/service-areas/santa-ana-ca/",
-    "/service-areas/santa-ana-ca/emergency-plumbing/",
+    "/service-areas/santa-ana-ca/ac-repair/",
+    "/service-areas/santa-ana-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/leak-detection/",
     "/service-areas/chino-ca/leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/santa-ana-ca/drain-cleaning/": [
+    "/services/drain-cleaning/",
+    "/service-areas/santa-ana-ca/",
+    "/service-areas/santa-ana-ca/ac-repair/",
+    "/service-areas/santa-ana-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/drain-cleaning/",
+    "/service-areas/chino-ca/drain-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/santa-ana-ca/water-heater-repair/": [
+    "/services/water-heater-repair/",
+    "/service-areas/santa-ana-ca/",
+    "/service-areas/santa-ana-ca/ac-repair/",
+    "/service-areas/santa-ana-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-repair/",
+    "/service-areas/chino-ca/water-heater-repair/",
+    "/contact/"
+  ],
+  "/service-areas/santa-ana-ca/water-heater-installation/": [
+    "/services/water-heater-installation/",
+    "/service-areas/santa-ana-ca/",
+    "/service-areas/santa-ana-ca/ac-repair/",
+    "/service-areas/santa-ana-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-installation/",
+    "/service-areas/chino-ca/water-heater-installation/",
+    "/contact/"
+  ],
+  "/service-areas/santa-ana-ca/toilet-faucet-repair/": [
+    "/services/toilet-faucet-repair/",
+    "/service-areas/santa-ana-ca/",
+    "/service-areas/santa-ana-ca/ac-repair/",
+    "/service-areas/santa-ana-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/toilet-faucet-repair/",
+    "/service-areas/chino-ca/toilet-faucet-repair/",
+    "/contact/"
+  ],
+  "/service-areas/santa-ana-ca/garbage-disposal/": [
+    "/services/garbage-disposal/",
+    "/service-areas/santa-ana-ca/",
+    "/service-areas/santa-ana-ca/ac-repair/",
+    "/service-areas/santa-ana-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/garbage-disposal/",
+    "/service-areas/chino-ca/garbage-disposal/",
+    "/contact/"
+  ],
+  "/service-areas/santa-ana-ca/water-softeners-filtration/": [
+    "/services/water-softeners-filtration/",
+    "/service-areas/santa-ana-ca/",
+    "/service-areas/santa-ana-ca/ac-repair/",
+    "/service-areas/santa-ana-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-softeners-filtration/",
+    "/service-areas/chino-ca/water-softeners-filtration/",
+    "/contact/"
+  ],
+  "/service-areas/santa-ana-ca/ac-repair/": [
+    "/services/ac-repair/",
+    "/service-areas/santa-ana-ca/",
+    "/service-areas/santa-ana-ca/drain-cleaning/",
+    "/service-areas/santa-ana-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/ac-repair/",
+    "/service-areas/chino-ca/ac-repair/",
+    "/contact/"
+  ],
+  "/service-areas/santa-ana-ca/furnace-repair/": [
+    "/services/furnace-repair/",
+    "/service-areas/santa-ana-ca/",
+    "/service-areas/santa-ana-ca/ac-repair/",
+    "/service-areas/santa-ana-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/furnace-repair/",
+    "/service-areas/chino-ca/furnace-repair/",
+    "/contact/"
+  ],
+  "/service-areas/santa-ana-ca/indoor-air-quality/": [
+    "/services/indoor-air-quality/",
+    "/service-areas/santa-ana-ca/",
+    "/service-areas/santa-ana-ca/ac-repair/",
+    "/service-areas/santa-ana-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/indoor-air-quality/",
+    "/service-areas/chino-ca/indoor-air-quality/",
     "/contact/"
   ],
   "/service-areas/fullerton-ca/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/fullerton-ca/",
-    "/service-areas/fullerton-ca/leak-detection/",
+    "/service-areas/fullerton-ca/ac-repair/",
+    "/service-areas/fullerton-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/emergency-plumbing/",
     "/service-areas/chino-ca/emergency-plumbing/",
     "/contact/"
@@ -205,15 +697,98 @@
   "/service-areas/fullerton-ca/leak-detection/": [
     "/services/leak-detection/",
     "/service-areas/fullerton-ca/",
-    "/service-areas/fullerton-ca/emergency-plumbing/",
+    "/service-areas/fullerton-ca/ac-repair/",
+    "/service-areas/fullerton-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/leak-detection/",
     "/service-areas/chino-ca/leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/fullerton-ca/drain-cleaning/": [
+    "/services/drain-cleaning/",
+    "/service-areas/fullerton-ca/",
+    "/service-areas/fullerton-ca/ac-repair/",
+    "/service-areas/fullerton-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/drain-cleaning/",
+    "/service-areas/chino-ca/drain-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/fullerton-ca/water-heater-repair/": [
+    "/services/water-heater-repair/",
+    "/service-areas/fullerton-ca/",
+    "/service-areas/fullerton-ca/ac-repair/",
+    "/service-areas/fullerton-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-repair/",
+    "/service-areas/chino-ca/water-heater-repair/",
+    "/contact/"
+  ],
+  "/service-areas/fullerton-ca/water-heater-installation/": [
+    "/services/water-heater-installation/",
+    "/service-areas/fullerton-ca/",
+    "/service-areas/fullerton-ca/ac-repair/",
+    "/service-areas/fullerton-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-installation/",
+    "/service-areas/chino-ca/water-heater-installation/",
+    "/contact/"
+  ],
+  "/service-areas/fullerton-ca/toilet-faucet-repair/": [
+    "/services/toilet-faucet-repair/",
+    "/service-areas/fullerton-ca/",
+    "/service-areas/fullerton-ca/ac-repair/",
+    "/service-areas/fullerton-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/toilet-faucet-repair/",
+    "/service-areas/chino-ca/toilet-faucet-repair/",
+    "/contact/"
+  ],
+  "/service-areas/fullerton-ca/garbage-disposal/": [
+    "/services/garbage-disposal/",
+    "/service-areas/fullerton-ca/",
+    "/service-areas/fullerton-ca/ac-repair/",
+    "/service-areas/fullerton-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/garbage-disposal/",
+    "/service-areas/chino-ca/garbage-disposal/",
+    "/contact/"
+  ],
+  "/service-areas/fullerton-ca/water-softeners-filtration/": [
+    "/services/water-softeners-filtration/",
+    "/service-areas/fullerton-ca/",
+    "/service-areas/fullerton-ca/ac-repair/",
+    "/service-areas/fullerton-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-softeners-filtration/",
+    "/service-areas/chino-ca/water-softeners-filtration/",
+    "/contact/"
+  ],
+  "/service-areas/fullerton-ca/ac-repair/": [
+    "/services/ac-repair/",
+    "/service-areas/fullerton-ca/",
+    "/service-areas/fullerton-ca/drain-cleaning/",
+    "/service-areas/fullerton-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/ac-repair/",
+    "/service-areas/chino-ca/ac-repair/",
+    "/contact/"
+  ],
+  "/service-areas/fullerton-ca/furnace-repair/": [
+    "/services/furnace-repair/",
+    "/service-areas/fullerton-ca/",
+    "/service-areas/fullerton-ca/ac-repair/",
+    "/service-areas/fullerton-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/furnace-repair/",
+    "/service-areas/chino-ca/furnace-repair/",
+    "/contact/"
+  ],
+  "/service-areas/fullerton-ca/indoor-air-quality/": [
+    "/services/indoor-air-quality/",
+    "/service-areas/fullerton-ca/",
+    "/service-areas/fullerton-ca/ac-repair/",
+    "/service-areas/fullerton-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/indoor-air-quality/",
+    "/service-areas/chino-ca/indoor-air-quality/",
     "/contact/"
   ],
   "/service-areas/ontario-ca/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/ontario-ca/",
-    "/service-areas/ontario-ca/leak-detection/",
+    "/service-areas/ontario-ca/ac-repair/",
+    "/service-areas/ontario-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/emergency-plumbing/",
     "/service-areas/chino-ca/emergency-plumbing/",
     "/contact/"
@@ -221,15 +796,98 @@
   "/service-areas/ontario-ca/leak-detection/": [
     "/services/leak-detection/",
     "/service-areas/ontario-ca/",
-    "/service-areas/ontario-ca/emergency-plumbing/",
+    "/service-areas/ontario-ca/ac-repair/",
+    "/service-areas/ontario-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/leak-detection/",
     "/service-areas/chino-ca/leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/ontario-ca/drain-cleaning/": [
+    "/services/drain-cleaning/",
+    "/service-areas/ontario-ca/",
+    "/service-areas/ontario-ca/ac-repair/",
+    "/service-areas/ontario-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/drain-cleaning/",
+    "/service-areas/chino-ca/drain-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/ontario-ca/water-heater-repair/": [
+    "/services/water-heater-repair/",
+    "/service-areas/ontario-ca/",
+    "/service-areas/ontario-ca/ac-repair/",
+    "/service-areas/ontario-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-repair/",
+    "/service-areas/chino-ca/water-heater-repair/",
+    "/contact/"
+  ],
+  "/service-areas/ontario-ca/water-heater-installation/": [
+    "/services/water-heater-installation/",
+    "/service-areas/ontario-ca/",
+    "/service-areas/ontario-ca/ac-repair/",
+    "/service-areas/ontario-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-installation/",
+    "/service-areas/chino-ca/water-heater-installation/",
+    "/contact/"
+  ],
+  "/service-areas/ontario-ca/toilet-faucet-repair/": [
+    "/services/toilet-faucet-repair/",
+    "/service-areas/ontario-ca/",
+    "/service-areas/ontario-ca/ac-repair/",
+    "/service-areas/ontario-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/toilet-faucet-repair/",
+    "/service-areas/chino-ca/toilet-faucet-repair/",
+    "/contact/"
+  ],
+  "/service-areas/ontario-ca/garbage-disposal/": [
+    "/services/garbage-disposal/",
+    "/service-areas/ontario-ca/",
+    "/service-areas/ontario-ca/ac-repair/",
+    "/service-areas/ontario-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/garbage-disposal/",
+    "/service-areas/chino-ca/garbage-disposal/",
+    "/contact/"
+  ],
+  "/service-areas/ontario-ca/water-softeners-filtration/": [
+    "/services/water-softeners-filtration/",
+    "/service-areas/ontario-ca/",
+    "/service-areas/ontario-ca/ac-repair/",
+    "/service-areas/ontario-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-softeners-filtration/",
+    "/service-areas/chino-ca/water-softeners-filtration/",
+    "/contact/"
+  ],
+  "/service-areas/ontario-ca/ac-repair/": [
+    "/services/ac-repair/",
+    "/service-areas/ontario-ca/",
+    "/service-areas/ontario-ca/drain-cleaning/",
+    "/service-areas/ontario-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/ac-repair/",
+    "/service-areas/chino-ca/ac-repair/",
+    "/contact/"
+  ],
+  "/service-areas/ontario-ca/furnace-repair/": [
+    "/services/furnace-repair/",
+    "/service-areas/ontario-ca/",
+    "/service-areas/ontario-ca/ac-repair/",
+    "/service-areas/ontario-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/furnace-repair/",
+    "/service-areas/chino-ca/furnace-repair/",
+    "/contact/"
+  ],
+  "/service-areas/ontario-ca/indoor-air-quality/": [
+    "/services/indoor-air-quality/",
+    "/service-areas/ontario-ca/",
+    "/service-areas/ontario-ca/ac-repair/",
+    "/service-areas/ontario-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/indoor-air-quality/",
+    "/service-areas/chino-ca/indoor-air-quality/",
     "/contact/"
   ],
   "/service-areas/chino-ca/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/chino-ca/",
-    "/service-areas/chino-ca/leak-detection/",
+    "/service-areas/chino-ca/ac-repair/",
+    "/service-areas/chino-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/emergency-plumbing/",
     "/service-areas/fullerton-ca/emergency-plumbing/",
     "/contact/"
@@ -237,15 +895,101 @@
   "/service-areas/chino-ca/leak-detection/": [
     "/services/leak-detection/",
     "/service-areas/chino-ca/",
-    "/service-areas/chino-ca/emergency-plumbing/",
+    "/service-areas/chino-ca/ac-repair/",
+    "/service-areas/chino-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/leak-detection/",
     "/service-areas/fullerton-ca/leak-detection/",
+<<<<<<< HEAD
+=======
+    "/contact/"
+  ],
+  "/service-areas/chino-ca/drain-cleaning/": [
+    "/services/drain-cleaning/",
+    "/service-areas/chino-ca/",
+    "/service-areas/chino-ca/ac-repair/",
+    "/service-areas/chino-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/drain-cleaning/",
+    "/service-areas/fullerton-ca/drain-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/chino-ca/water-heater-repair/": [
+    "/services/water-heater-repair/",
+    "/service-areas/chino-ca/",
+    "/service-areas/chino-ca/ac-repair/",
+    "/service-areas/chino-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-repair/",
+    "/service-areas/fullerton-ca/water-heater-repair/",
+    "/contact/"
+  ],
+  "/service-areas/chino-ca/water-heater-installation/": [
+    "/services/water-heater-installation/",
+    "/service-areas/chino-ca/",
+    "/service-areas/chino-ca/ac-repair/",
+    "/service-areas/chino-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-installation/",
+    "/service-areas/fullerton-ca/water-heater-installation/",
+    "/contact/"
+  ],
+  "/service-areas/chino-ca/toilet-faucet-repair/": [
+    "/services/toilet-faucet-repair/",
+    "/service-areas/chino-ca/",
+    "/service-areas/chino-ca/ac-repair/",
+    "/service-areas/chino-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/toilet-faucet-repair/",
+    "/service-areas/fullerton-ca/toilet-faucet-repair/",
+    "/contact/"
+  ],
+  "/service-areas/chino-ca/garbage-disposal/": [
+    "/services/garbage-disposal/",
+    "/service-areas/chino-ca/",
+    "/service-areas/chino-ca/ac-repair/",
+    "/service-areas/chino-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/garbage-disposal/",
+    "/service-areas/fullerton-ca/garbage-disposal/",
+    "/contact/"
+  ],
+  "/service-areas/chino-ca/water-softeners-filtration/": [
+    "/services/water-softeners-filtration/",
+    "/service-areas/chino-ca/",
+    "/service-areas/chino-ca/ac-repair/",
+    "/service-areas/chino-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-softeners-filtration/",
+    "/service-areas/fullerton-ca/water-softeners-filtration/",
+    "/contact/"
+  ],
+  "/service-areas/chino-ca/ac-repair/": [
+    "/services/ac-repair/",
+    "/service-areas/chino-ca/",
+    "/service-areas/chino-ca/drain-cleaning/",
+    "/service-areas/chino-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/ac-repair/",
+    "/service-areas/fullerton-ca/ac-repair/",
+    "/contact/"
+  ],
+  "/service-areas/chino-ca/furnace-repair/": [
+    "/services/furnace-repair/",
+    "/service-areas/chino-ca/",
+    "/service-areas/chino-ca/ac-repair/",
+    "/service-areas/chino-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/furnace-repair/",
+    "/service-areas/fullerton-ca/furnace-repair/",
+    "/contact/"
+  ],
+  "/service-areas/chino-ca/indoor-air-quality/": [
+    "/services/indoor-air-quality/",
+    "/service-areas/chino-ca/",
+    "/service-areas/chino-ca/ac-repair/",
+    "/service-areas/chino-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/indoor-air-quality/",
+    "/service-areas/fullerton-ca/indoor-air-quality/",
+>>>>>>> 027ddff4 (rt-olson: full 124-page plumbing build (11 documented services, real fleet photos, plumbing hub archetype + vertical prompts patched))
     "/contact/"
   ],
   "/service-areas/norco-ca/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/norco-ca/",
-    "/service-areas/norco-ca/leak-detection/",
+    "/service-areas/norco-ca/ac-repair/",
+    "/service-areas/norco-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/emergency-plumbing/",
     "/service-areas/chino-ca/emergency-plumbing/",
     "/contact/"
@@ -253,15 +997,98 @@
   "/service-areas/norco-ca/leak-detection/": [
     "/services/leak-detection/",
     "/service-areas/norco-ca/",
-    "/service-areas/norco-ca/emergency-plumbing/",
+    "/service-areas/norco-ca/ac-repair/",
+    "/service-areas/norco-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/leak-detection/",
     "/service-areas/chino-ca/leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/norco-ca/drain-cleaning/": [
+    "/services/drain-cleaning/",
+    "/service-areas/norco-ca/",
+    "/service-areas/norco-ca/ac-repair/",
+    "/service-areas/norco-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/drain-cleaning/",
+    "/service-areas/chino-ca/drain-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/norco-ca/water-heater-repair/": [
+    "/services/water-heater-repair/",
+    "/service-areas/norco-ca/",
+    "/service-areas/norco-ca/ac-repair/",
+    "/service-areas/norco-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-repair/",
+    "/service-areas/chino-ca/water-heater-repair/",
+    "/contact/"
+  ],
+  "/service-areas/norco-ca/water-heater-installation/": [
+    "/services/water-heater-installation/",
+    "/service-areas/norco-ca/",
+    "/service-areas/norco-ca/ac-repair/",
+    "/service-areas/norco-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-installation/",
+    "/service-areas/chino-ca/water-heater-installation/",
+    "/contact/"
+  ],
+  "/service-areas/norco-ca/toilet-faucet-repair/": [
+    "/services/toilet-faucet-repair/",
+    "/service-areas/norco-ca/",
+    "/service-areas/norco-ca/ac-repair/",
+    "/service-areas/norco-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/toilet-faucet-repair/",
+    "/service-areas/chino-ca/toilet-faucet-repair/",
+    "/contact/"
+  ],
+  "/service-areas/norco-ca/garbage-disposal/": [
+    "/services/garbage-disposal/",
+    "/service-areas/norco-ca/",
+    "/service-areas/norco-ca/ac-repair/",
+    "/service-areas/norco-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/garbage-disposal/",
+    "/service-areas/chino-ca/garbage-disposal/",
+    "/contact/"
+  ],
+  "/service-areas/norco-ca/water-softeners-filtration/": [
+    "/services/water-softeners-filtration/",
+    "/service-areas/norco-ca/",
+    "/service-areas/norco-ca/ac-repair/",
+    "/service-areas/norco-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-softeners-filtration/",
+    "/service-areas/chino-ca/water-softeners-filtration/",
+    "/contact/"
+  ],
+  "/service-areas/norco-ca/ac-repair/": [
+    "/services/ac-repair/",
+    "/service-areas/norco-ca/",
+    "/service-areas/norco-ca/drain-cleaning/",
+    "/service-areas/norco-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/ac-repair/",
+    "/service-areas/chino-ca/ac-repair/",
+    "/contact/"
+  ],
+  "/service-areas/norco-ca/furnace-repair/": [
+    "/services/furnace-repair/",
+    "/service-areas/norco-ca/",
+    "/service-areas/norco-ca/ac-repair/",
+    "/service-areas/norco-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/furnace-repair/",
+    "/service-areas/chino-ca/furnace-repair/",
+    "/contact/"
+  ],
+  "/service-areas/norco-ca/indoor-air-quality/": [
+    "/services/indoor-air-quality/",
+    "/service-areas/norco-ca/",
+    "/service-areas/norco-ca/ac-repair/",
+    "/service-areas/norco-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/indoor-air-quality/",
+    "/service-areas/chino-ca/indoor-air-quality/",
     "/contact/"
   ],
   "/service-areas/yorba-linda-ca/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/yorba-linda-ca/",
-    "/service-areas/yorba-linda-ca/leak-detection/",
+    "/service-areas/yorba-linda-ca/ac-repair/",
+    "/service-areas/yorba-linda-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/emergency-plumbing/",
     "/service-areas/chino-ca/emergency-plumbing/",
     "/contact/"
@@ -269,19 +1096,126 @@
   "/service-areas/yorba-linda-ca/leak-detection/": [
     "/services/leak-detection/",
     "/service-areas/yorba-linda-ca/",
-    "/service-areas/yorba-linda-ca/emergency-plumbing/",
+    "/service-areas/yorba-linda-ca/ac-repair/",
+    "/service-areas/yorba-linda-ca/drain-cleaning/",
     "/service-areas/anaheim-ca/leak-detection/",
     "/service-areas/chino-ca/leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/yorba-linda-ca/drain-cleaning/": [
+    "/services/drain-cleaning/",
+    "/service-areas/yorba-linda-ca/",
+    "/service-areas/yorba-linda-ca/ac-repair/",
+    "/service-areas/yorba-linda-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/drain-cleaning/",
+    "/service-areas/chino-ca/drain-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/yorba-linda-ca/water-heater-repair/": [
+    "/services/water-heater-repair/",
+    "/service-areas/yorba-linda-ca/",
+    "/service-areas/yorba-linda-ca/ac-repair/",
+    "/service-areas/yorba-linda-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-repair/",
+    "/service-areas/chino-ca/water-heater-repair/",
+    "/contact/"
+  ],
+  "/service-areas/yorba-linda-ca/water-heater-installation/": [
+    "/services/water-heater-installation/",
+    "/service-areas/yorba-linda-ca/",
+    "/service-areas/yorba-linda-ca/ac-repair/",
+    "/service-areas/yorba-linda-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-heater-installation/",
+    "/service-areas/chino-ca/water-heater-installation/",
+    "/contact/"
+  ],
+  "/service-areas/yorba-linda-ca/toilet-faucet-repair/": [
+    "/services/toilet-faucet-repair/",
+    "/service-areas/yorba-linda-ca/",
+    "/service-areas/yorba-linda-ca/ac-repair/",
+    "/service-areas/yorba-linda-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/toilet-faucet-repair/",
+    "/service-areas/chino-ca/toilet-faucet-repair/",
+    "/contact/"
+  ],
+  "/service-areas/yorba-linda-ca/garbage-disposal/": [
+    "/services/garbage-disposal/",
+    "/service-areas/yorba-linda-ca/",
+    "/service-areas/yorba-linda-ca/ac-repair/",
+    "/service-areas/yorba-linda-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/garbage-disposal/",
+    "/service-areas/chino-ca/garbage-disposal/",
+    "/contact/"
+  ],
+  "/service-areas/yorba-linda-ca/water-softeners-filtration/": [
+    "/services/water-softeners-filtration/",
+    "/service-areas/yorba-linda-ca/",
+    "/service-areas/yorba-linda-ca/ac-repair/",
+    "/service-areas/yorba-linda-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/water-softeners-filtration/",
+    "/service-areas/chino-ca/water-softeners-filtration/",
+    "/contact/"
+  ],
+  "/service-areas/yorba-linda-ca/ac-repair/": [
+    "/services/ac-repair/",
+    "/service-areas/yorba-linda-ca/",
+    "/service-areas/yorba-linda-ca/drain-cleaning/",
+    "/service-areas/yorba-linda-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/ac-repair/",
+    "/service-areas/chino-ca/ac-repair/",
+    "/contact/"
+  ],
+  "/service-areas/yorba-linda-ca/furnace-repair/": [
+    "/services/furnace-repair/",
+    "/service-areas/yorba-linda-ca/",
+    "/service-areas/yorba-linda-ca/ac-repair/",
+    "/service-areas/yorba-linda-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/furnace-repair/",
+    "/service-areas/chino-ca/furnace-repair/",
+    "/contact/"
+  ],
+  "/service-areas/yorba-linda-ca/indoor-air-quality/": [
+    "/services/indoor-air-quality/",
+    "/service-areas/yorba-linda-ca/",
+    "/service-areas/yorba-linda-ca/ac-repair/",
+    "/service-areas/yorba-linda-ca/drain-cleaning/",
+    "/service-areas/anaheim-ca/indoor-air-quality/",
+    "/service-areas/chino-ca/indoor-air-quality/",
     "/contact/"
   ],
   "/blog/what-to-do-burst-pipe/": [
     "/blog/",
     "/services/emergency-plumbing/"
   ],
+  "/blog/tankless-vs-tank-water-heater/": [
+    "/blog/",
+    "/services/water-heater-installation/",
+    "/blog/water-heater-lifespan-repair-or-replace/"
+  ],
+  "/blog/water-heater-lifespan-repair-or-replace/": [
+    "/blog/",
+    "/services/water-heater-repair/",
+    "/services/water-heater-installation/",
+    "/blog/tankless-vs-tank-water-heater/"
+  ],
+  "/blog/drain-cleaning-diy-vs-pro/": [
+    "/blog/",
+    "/services/drain-cleaning/",
+    "/blog/hydro-jetting-vs-snaking/"
+  ],
+  "/blog/furnace-repair-or-replace/": [
+    "/blog/",
+    "/services/furnace-repair/"
+  ],
   "/blog/signs-of-a-slab-leak/": [
     "/blog/",
     "/services/leak-detection/",
     "/blog/low-water-pressure-causes/"
+  ],
+  "/blog/hydro-jetting-vs-snaking/": [
+    "/blog/",
+    "/services/drain-cleaning/",
+    "/blog/drain-cleaning-diy-vs-pro/"
   ],
   "/blog/low-water-pressure-causes/": [
     "/blog/",
